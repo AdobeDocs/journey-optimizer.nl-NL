@@ -1,0 +1,77 @@
+---
+title: Reisbeperkingen
+description: Meer informatie over reisbeperkingen
+source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 0%
+
+---
+
+# Beperkingen {#journey-limitations}
+
+![](../assets/do-not-localize/badge.png)
+
+Hier zijn beperkingen met betrekking tot het gebruik van reizen.
+
+## Beperkingen op reislijsten
+
+* In de lijst met ritten worden filters, zoekopdrachten en kolomselectie opnieuw ingesteld wanneer de pagina wordt vernieuwd.
+
+## Algemene actiedrempels
+
+* Er is geen verzendvertraging. 
+* In het geval van een fout worden systematisch twee pogingen uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht. 
+* Met de ingebouwde **Reaction**-gebeurtenis kunt u reageren op acties die buiten de box vallen (zie deze [pagina](../building-journeys/reaction-events.md)). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen. 
+* Er is geen sprake van een productieve integratie in Adobe Campaign Classic.
+* U kunt geen twee acties parallel plaatsen, u moet hen één na andere toevoegen.
+
+## Beperkingen voor berichtenactie
+
+* De **Message** activiteit staat u niet toe om contextuele gegevens te gebruiken die uit de reis komen. De personalisatie van berichten wordt direct uitgevoerd wanneer het ontwerpen van het bericht in Journey Optimizer.
+
+* Wanneer u een multikanaalbericht toevoegt, worden twee berichten verzonden.
+
+## Beperkingen van reisversies {#journey-versions-limitations}
+
+* een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis met een **gebeurtenis van de Kwalificatie van het Segment** beginnen.
+* een reis die met een **Kwalificatie van het Segment** activiteit in v1 begint moet altijd met een **Kwalificatie van het Segment** in verdere versies beginnen.
+* Het segment en de naamruimte die worden gekozen in **Segmentkwalificatie** (eerste knooppunt) kunnen niet worden gewijzigd in nieuwe versies.
+* De re-entry regel moet het zelfde in alle reisversies zijn.
+* Een reis die met een **Gelezen segment** begint kan niet met een andere gebeurtenis in volgende versies beginnen.
+ 
+
+## Beperkingen voor aangepaste handelingen
+
+* De URL van de aangepaste handeling ondersteunt geen dynamische parameters. 
+* Alleen methoden voor het aanroepen van POSTEN en PUTTEN worden ondersteund. 
+* De naam van de queryparameter of -header mag niet beginnen met &quot;.&quot; of &quot;$&quot;. 
+* IP-adressen zijn niet toegestaan. 
+* Interne Adobe-adressen (.adobe.) zijn niet toegestaan.
+ 
+
+## Beperkingen voor gebeurtenissen
+
+* Voor door het systeem gegenereerde gebeurtenissen moeten streaminggegevens die worden gebruikt om een klantentraject te starten, eerst binnen Journey Optimizer worden geconfigureerd om een unieke orchestratie-id te verkrijgen. Deze orkest-id moet worden toegevoegd aan de streaminglading die naar Adobe Experience Platform komt. Deze beperking geldt niet voor op regels gebaseerde gebeurtenissen.
+ 
+
+## Beperkingen op gegevensbronnen
+
+* De externe gegevensbronnen kunnen binnen een klantenreis worden gebruikt om externe gegevens in real time op te zoeken. Deze bronnen moeten bruikbaar zijn via REST API, JSON ondersteunen en het volume van aanvragen kunnen verwerken.
+
+## Reizen die tegelijk met een profiel worden gemaakt {#journeys-limitation-profile-creation}
+
+Er is een vertraging verbonden aan het maken/bijwerken van een op API gebaseerd profiel in Adobe Experience Platform. Het doel van het Niveau van de Dienst (SLT) in termen van latentie is &lt; 1 min van opname aan Verenigd Profiel voor 95th percentiel van verzoeken, bij een volume van 20K Verzoeken per seconde (RPS).
+
+Als een Reis gelijktijdig aan een profielverwezenlijking wordt teweeggebracht en onmiddellijk controleert/informatie van de Dienst van het Profiel terugwint, zou het niet behoorlijk kunnen werken.
+
+U kunt uit één van deze twee oplossingen kiezen:
+
+* Voeg een wachttijdactiviteit toe na de eerste gebeurtenis om Adobe Experience Platform de tijd te geven die nodig is om de opname naar de profielservice uit te voeren.
+
+* Stel een reis in die niet onmiddellijk gebruikmaakt van het profiel. Als de reis bijvoorbeeld is ontworpen om het maken van een account te bevestigen, kan de ervaringsgebeurtenis informatie bevatten die nodig is om het eerste bevestigingsbericht te verzenden (voornaam, achternaam, e-mailadres, enz.).
+
+## Segmentbeperkingen lezen
+
+* Het is niet mogelijk een op segmenten gebaseerde reis binnen een kortere tijdspanne dan 1 uur te activeren.
+* De stromen segmenten zijn altijd bijgewerkt maar de partijsegmenten zullen niet bij herwinningstijd worden berekend. Ze worden alleen elke dag geëvalueerd op het tijdstip van de dagelijkse batchevaluatie.
