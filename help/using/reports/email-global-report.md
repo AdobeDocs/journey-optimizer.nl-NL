@@ -1,0 +1,89 @@
+---
+title: Globaal e-mailrapport
+description: Leer hoe u gegevens uit het algemene e-mailrapport kunt gebruiken
+source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 0%
+
+---
+
+# Globaal rapport {#email-global-report} e-mailen
+
+![](../assets/do-not-localize/badge.png)
+
+De e-mail **[!UICONTROL Global report]** richt slechts een specifieke e-maillevering.
+
+Selecteer **[!UICONTROL Global view]** op het tabblad **[!UICONTROL Executions]** van het menu **[!UICONTROL Messages]** en selecteer **[!UICONTROL Global report]** in het geavanceerde menu van de geselecteerde levering.
+
+![](../assets/global_report_3.png)
+
+Het e-mailbericht **[!UICONTROL Global report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw levering worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Voor meer informatie hierover raadpleegt u deze [sectie](global-report.md#modify-dashboard).
+
+![](../assets/global_report_4.png)
+
+**[!UICONTROL Email performance]** detailleert de belangrijkste informatie met betrekking tot uw bericht met KPIs:
+
+* **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
+
+* **[!UICONTROL Delivery Rate]**: Percentage berichten verzonden.
+
+* **[!UICONTROL Bounce Rate]**: Percentage van e-mails dat is teruggestuurd in vergelijking met verzonden e-mails.
+
+* **[!UICONTROL Error Rate]**: Percentage fouten die optraden tijdens een levering waardoor deze niet kon worden verzonden, vergeleken met verzonden e-mailberichten.
+
+* **[!UICONTROL Open Rate]**: Percentage geopende berichten.
+
+* **[!UICONTROL Click Rate]**: Percentage van klikken in een levering.
+
+* **[!UICONTROL Spam Complaint Rate]**: Percentage e-mails dat door ontvangers als spam werd gemarkeerd in vergelijking met de geleverde berichten. Raadpleeg voor meer informatie over klachten deze [pagina](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability).
+
+* **[!UICONTROL Unsubscribe Rate]**: Aantal unieke uitschrijving in vergelijking met de geleverde berichten.
+
+De grafiek **[!UICONTROL Sending Statistics]** geeft het succes van uw levering weer:
+
+* **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
+
+* **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
+
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
+
+De widgets **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]** bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd, zoals:
+
+* **[!UICONTROL Hard bounce]**: Het totale aantal permanente fouten, zoals een onjuist e-mailadres. Dit omvat een foutbericht waarin expliciet wordt aangegeven dat het adres ongeldig is, zoals Onbekende gebruiker.
+
+* **[!UICONTROL Soft bounce]**: Het totale aantal tijdelijke fouten, zoals een volledig postvak.
+
+* **[!UICONTROL Ignored]**: Het totale aantal tijdelijke berichten, zoals buiten het kantoor, of een technische fout, bijvoorbeeld als het type afzender postmaster is.
+
+Voor meer informatie over grenzen, verwijs naar [de pagina van de Onderdrukking ](../suppression-list.md).
+
+![](../assets/global_report_5.png)
+
+Met de grafiek en tabel **[!UICONTROL Error Reasons]** kunt u zien welke fout is opgetreden tijdens de levering.
+
+De **[!UICONTROL Email - Best recipient domain]** grafiek en lijstdetails die domeinen het meest door ontvangers worden gebruikt om e-mail te openen.
+
+![](../assets/global_report_6.png)
+
+De tabel **[!UICONTROL Email - Tracking statistics]** bevat de beschikbare gegevens voor de activiteit van de ontvanger voor de levering:
+
+* **[!UICONTROL Opens]**: Aantal keren dat de levering is geopend in een levering.
+
+* **[!UICONTROL Unique Opens]**: Aantal ontvangers dat de levering heeft geopend.
+
+* **[!UICONTROL Open Rate]**: Percentage geopende berichten.
+
+* **[!UICONTROL Clicks]**: Aantal keer dat er op een inhoud in een e-mail is geklikt.
+
+* **[!UICONTROL Unique Clicks]**:Aantal ontvangers die op een inhoud in een e-mail hebben geklikt.
+
+* **[!UICONTROL Click through rate]**: Percentage van klikken in een levering.
+
+**[!UICONTROL Open vs Click]** identificeert de interactie van uw ontvangers met de levering:
+
+* **[!UICONTROL Unique Clicks]**:Aantal ontvangers die op een inhoud in een e-mail hebben geklikt.
+
+* **[!UICONTROL Unique Opens]**: Aantal ontvangers dat de levering heeft geopend.
+
+De **[!UICONTROL Email - Top Url]** grafiek en lijstdetails die URLs van uw levering het meest bezocht zijn.
