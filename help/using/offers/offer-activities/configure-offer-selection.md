@@ -1,0 +1,37 @@
+---
+title: Aanbiedingen selecteren in beslissingen configureren
+description: Leer hoe u de selectie van aanbiedingen kunt beheren in beslissingen.
+source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+workflow-type: tm+mt
+source-wordcount: '251'
+ht-degree: 2%
+
+---
+
+# Aanbiedingen selecteren in beslissingen {#offers-selection-in-activities}
+
+## Info over de prioriteit Aanbiedingen {#about-offers-priority}
+
+Wanneer meerdere aanbiedingen in aanmerking komen voor een bepaalde plaatsing in een beslissing (voorheen bekend als aanbiedingsactiviteit), worden de aanbiedingen met de hoogste **prioriteit** standaard eerst aan de klanten geleverd. De prioritaire scores van aanbiedingen worden toegewezen wanneer het creëren van een aanbieding (zie [een gepersonaliseerde aanbieding](../offer-library/creating-personalized-offers.md) creëren).
+
+![](../../assets/offer-priority.png)
+
+Bovendien, staat Journey Optimizer u toe om **rangschikkende formules** tot stand te brengen. Dit zijn formules die bepalen welke aanbieding eerst voor een bepaalde plaatsing moet worden gepresenteerd, in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen. U kunt bijvoorbeeld de prioriteit verhogen van alle aanbiedingen met een einddatum van minder dan 24 uur, of aanbiedingen verhogen van de categorie &quot;actief&quot; als het interessepunt van het profiel &quot;actief&quot; is.
+
+Raadpleeg [deze sectie](../offer-library/create-ranking-formulas.md) voor meer informatie over het maken van een rangschikkingsformule.
+
+## Een waarderingsformule toewijzen aan een plaatsing {#assign-ranking-formula}
+
+Nadat u een rangschikkingsformule hebt gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Volg de onderstaande stappen om dit te doen:
+
+* Maak een beslissing of bewerk een bestaande beslissing en maak vervolgens de plaatsingen waarin uw aanbiedingen staan (zie [Besluiten maken](../offer-activities/create-offer-activities.md)).
+
+* Selecteer **[!UICONTROL Ranking]** in de vervolgkeuzelijst voor elke plaatsing en klik op **[!UICONTROL Add ranking]**.
+
+   ![](../../assets/offer-activity-ranking.png)
+
+* Selecteer de gewenste rangschikkingsformule en klik op **[!UICONTROL Select]**.
+
+   ![](../../assets/ranking-selection.png)
+
+De rangschikkingsformule is nu gekoppeld aan de plaatsing. Indien meerdere aanbiedingen in aanmerking komen om in deze plaatsing te worden gepresenteerd, wordt in het besluit de formule van de rangorde gebruikt om te berekenen welke aanbieding het eerst wordt geleverd.
