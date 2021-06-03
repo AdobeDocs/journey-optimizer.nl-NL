@@ -1,20 +1,16 @@
 ---
-title: Beheer en instellingen
-description: Meer informatie over richtlijnen voor beheer en instellingen
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
+title: Journey Optimizer-instellingen en configuratierichtlijnen
+description: Leer bericht en reis configuratierichtlijnen
 audience: administrators
 content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
+role: Administrator
+level: Intermediate
+product: Adobe Journey Optimizer
+solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
-source-git-commit: a2eee802f82552e56ced00f93e5e4c8a7b3feb7a
+source-git-commit: 61de8dc27029e229a203be8a984d6fa2d4f365e0
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '332'
 ht-degree: 9%
 
 ---
@@ -36,9 +32,10 @@ Om uw reizen te kunnen tot stand brengen en berichten te verzenden, moet u door 
 
    * Het aantal dagen beheren waarin opnieuw pogingen worden uitgevoerd voordat e-mailadressen naar de suppressielijst worden verzonden. [Meer informatie](manage-suppression-list.md)
 
-<!--
-* Understand push notification flow. [Learn more](../push-gs.md)
--->
+   <!--
+    * Understand push notification flow. [Learn more](../push-gs.md)
+    -->
+
 1. **Subdomeinen** delegeren: voor om het even welk nieuw subdomain dat in Journey Optimizer moet worden gebruikt, zal de eerste stap het delegeren zijn. [Meer informatie](about-subdomain-delegation.md)
 
    ![](../assets/subdomain.png)
