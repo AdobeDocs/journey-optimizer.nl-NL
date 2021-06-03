@@ -1,9 +1,9 @@
 ---
 keywords: Journey Optimizer;home;populaire onderwerpen
 title: Journey Optimizer-productdocumentatie
-source-git-commit: dacac02444088a6e237d27b8d7897661b83c272f
+source-git-commit: 5ac2d00f3aa03ac5fe0c07eea20e9de96959c219
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '223'
 ht-degree: 5%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 5%
 **[!DNL Journey Optimizer]** is momenteel in  **bèta-** versie en kan zonder voorafgaande kennisgeving vaak worden gewijzigd. Als gebruiker deelt u uw ervaringen met de knop Bètafeedback in de productomschrijving. Bekende problemen worden vermeld in deze [pagina](using/known-issues.md).
 
 ## Nieuwe functies 
+
+* [Access ](using/administration/permissions-overview.md) </br> controlLearn how to define and manage the permissions assigned to  [!DNL Journey Optimizer] users
 
 * [Helper ](using/personalization/functions/functions.md) </br> functiesHefboomwerking Helper functioneert in de redacteur van de Uitdrukking om berichtinhoud te personaliseren
 
