@@ -1,9 +1,9 @@
 ---
 title: Adobe Experience Manager Assets Essentials
 description: Aan de slag met Assets Essentials
-source-git-commit: b831fc0d0543c8f568299ea71d8b3259198a7590
+source-git-commit: ba350f4d482238b733594a71441e2d01e536e282
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '379'
 ht-degree: 3%
 
 ---
@@ -16,9 +16,13 @@ ht-degree: 3%
 
 [!DNL Adobe Experience Manager Assets Essentials] biedt één gecentraliseerde opslagplaats voor elementen die u kunt gebruiken om uw berichten te vullen. Het kan direct van [!DNL Adobe Journey Optimizer] door de **[!UICONTROL Assets]** sectie worden betreden. U kunt ook elementen en mappen openen tijdens het ontwerpen van e-mailinhoud. [Meer weten over e-mailontwerp](design-emails.md)?
 
+Raadpleeg [Adobe Experience Manager Assets Essentials-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html) voor gedetailleerde procedures voor [!DNL Assets Essentials].
+
 ## Elementen uploaden{#add-asset}
 
-Als u bestanden wilt uploaden in de [!DNL Assets Essentials], moet u eerst bladeren naar de map waarin de bestanden worden opgeslagen, of deze maken:
+Als u bestanden wilt uploaden in de [!DNL Assets Essentials], moet u eerst bladeren naar de map waarin de bestanden worden opgeslagen of deze maken.
+
+Raadpleeg [Adobe Experience Manager Assets Essentials-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete-assets.html) voor meer informatie over het uploaden van middelen.
 
 1. Van [!DNL Adobe Journey Optimizer] homepage, selecteer **[!UICONTROL Assets]** tabel aan toegang [!DNL Assets Essentials].
 
@@ -59,6 +63,8 @@ De werkbalk bevat de volgende acties:
 * **[!UICONTROL Delete]** om het element uit  [!DNL Assets Essentials]te verwijderen.
 * **[!UICONTROL Copy]** om het middel in een andere map te kopiëren/plakken.
 * **[!UICONTROL Move]** om uw middel naar andere omslagen te verplaatsen.
+
+Raadpleeg [Adobe Experience Manager Assets Essentials-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-assets.html) voor meer informatie over het beheren van elementen.
 
 ## Elementen invoegen in berichten {#use-assets}
 
