@@ -1,12 +1,13 @@
 ---
 title: Personalisatiesyntaxis
 description: Leer hoe u de syntaxis voor personalisatie gebruikt
-source-git-commit: 7e20bef085d0fa6983f9ebd84f8cbc3bee2f4542
+source-git-commit: 5b7f3f58e7376b45993b6a2edc6e96f824fa2f44
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '559'
 ht-degree: 3%
 
 ---
+
 
 # Personalisatiesyntaxis {#personalization-syntax}
 
@@ -19,7 +20,7 @@ Er worden een sjabloon en een invoerobject gebruikt om HTML of andere tekstindel
 
 Voorbeeld van eenvoudige expressie:
 
-```sql
+```
 {{profile.person.name}}
 ```
 
@@ -40,7 +41,7 @@ De syntaxis is hoofdlettergevoelig.
 
 De woorden **true**, **false**, **null** en **undefined** zijn alleen toegestaan in het eerste deel van een padexpressie.
 
-In Handlebars, zijn de waarden die door {expression} worden teruggekeerd **HTML-ontsnapte**. Als de expressie &amp; bevat, wordt de geretourneerde uitvoer met HTML-escape gegenereerd als &amp;. Als u niet wilt dat Handgrepen aan een waarde ontsnappen, gebruikt u de &#39;&#39;drievoudig-streepje&#39;&#39;.
+In Handlebars, zijn de waarden die door {expression} worden teruggekeerd **HTML-ontsnapte**. Als de expressie `&` bevat, wordt de geretourneerde uitvoer met HTML-escape gegenereerd als `&amp;`. Als u niet wilt dat Handgrepen aan een waarde ontsnappen, gebruikt u de &#39;&#39;drievoudig-streepje&#39;&#39;.
 
 ## Profiel
 
@@ -48,21 +49,21 @@ Met deze naamruimte kunt u verwijzen naar alle kenmerken die zijn gedefinieerd i
 
 De attributen moeten in het schema worden bepaald alvorens in een [!DNL Journey Optimizer] verpersoonlijkingsblok wordt van verwijzingen voorzien.
 
-Alle verwijzingen worden bevestigd tegen het Schema van het Profiel met een bevestigingsmechanisme dat in [deze pagina](personalization-validation.md) wordt beschreven.
-
-**Voorbeeldreferenties:**
-
-* ```{{profile.person.name.fullName}}```
-* ```{{profile.person.name.firstName}}```
-* ```{{profile.person.gender}}```
-* ```{{profile.personalEmail.address}}```
-* ```{{profile.mobilePhone.number}}```
-* ```{{profile.homeAddress.city}}```
-* ```{{profile.faxPhone.number}}```
-
 >[!NOTE]
 >
 >Leer hoe u profielkenmerken in voorwaarden in [deze sectie](functions/helpers.md#if-function) kunt gebruiken.
+
+**Voorbeeldreferenties:**
+
+```
+{{profile.person.name.fullName}}
+{{profile.person.name.firstName}}
+{{profile.person.gender}}
+{{profile.personalEmail.address}}
+{{profile.mobilePhone.number}}
+{{profile.homeAddress.city}}
+{{profile.faxPhone.number}}
+```
 
 ## Segmenten{#perso-segments}
 
@@ -78,15 +79,19 @@ Met deze naamruimte kunt u verwijzen naar bestaande aanbiedingen.
 Als u naar een aanbieding wilt verwijzen, moet u een pad declareren met de verschillende gegevens die een aanbieding definiëren.
 
 Dit pad heeft de volgende structuur:
-0 - &quot;aanbiedingen&quot;: identificeert de weguitdrukking die tot aanbiedingsnamespace behoort
-1 - Type: bepaalt het type van aanbiedingsvertegenwoordiging. Geldige waarden zijn &#39;image&#39;, &#39;html&#39; en &#39;text&#39;
-2 - Plaatsing-id
-3 - Activiteits-id
-4 - Bied specifieke kenmerken aan. Afhankelijk van het aanbiedingstype kunnen ondersteunde kenmerken worden gebruikt. Bijvoorbeeld voor afbeeldingen `deliveryUrl`.
 
-Raadpleeg [deze pagina](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#deliver-offers-using-the-decisions-api) voor meer informatie over de API voor beslissingen.
+```
+offers.Type.[Placement Id].[Activity Id].Attribute
+```
 
-Voor meer informatie over de Vertegenwoordiging van Aanbiedingen, verwijs naar [deze pagina](https://experienceleague.adobe.com/docs/offer-decisioning/using/api-reference/offer-delivery/deliver-offers.html?lang=en#accept-and-content-type-headers).
+waarbij:
+
+* `offers` identificeert de weguitdrukking die tot aanbiedingsnamespace behoort
+* `Type`  bepaalt het type van aanbiedingsvertegenwoordiging. Mogelijke waarden zijn: `image`, `html` en `text`
+* `Placement Id` en  `Activity Id` zijn plaatsings- en activiteitsidentificatoren
+* `Attributes` specifieke kenmerken aanbieden die afhankelijk zijn van het soort aanbieding. Voorbeeld: `deliveryUrl` voor afbeeldingen.
+
+Voor meer informatie over Besluiten API en over de Vertegenwoordiging van Aanbiedingen, verwijs naar [deze pagina](../../using/offers/api-reference/decisions-api/deliver-offers.md)
 
 Alle verwijzingen worden bevestigd tegen het Schema van Aanbiedingen met een bevestigingsmechanisme dat in [deze pagina](personalization-validation.md) wordt beschreven.
 
@@ -94,19 +99,19 @@ Alle verwijzingen worden bevestigd tegen het Schema van Aanbiedingen met een bev
 
 * Locatie waar de afbeelding wordt gehost:
 
-   ```offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl```
+   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
 * Doel-URL wanneer u op de afbeelding klikt:
 
-   ```offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl```
+   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
 * Tekstinhoud van het aanbod afkomstig van de beslissingsmotor:
 
-   ```offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content```
+   `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 * HTML-inhoud van het aanbod afkomstig van de beslissingsengine:
 
-   ```offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content```
+   `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
 ## Helpers{#helpers-all}
