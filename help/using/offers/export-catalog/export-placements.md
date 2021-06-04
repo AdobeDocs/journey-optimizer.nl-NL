@@ -1,9 +1,9 @@
 ---
 title: Gegevensset voor plaatsingen
 description: Deze sectie maakt een lijst van alle gebieden die in de uitgevoerde dataset voor plaatsingen worden gebruikt.
-source-git-commit: 958bf03f3d3c2dd1606daba9dfef1284e2ed5cdd
+source-git-commit: cd44676a7a0f60ce3e97652ec6459f708557e14c
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -60,11 +60,11 @@ Hier is de lijst van alle gebieden die in **[!UICONTROL Decision Object Reposito
 **Veld:** inhoudstypen, 
 **type:** array
 
-* **MIME-mediatype**
+**_experience > decisions > contentTypes > MIME Media Type**
 
-   **Titel:** MIME-mediatype
-   **Beschrijving:** Een beperking voor het mediatype van de componenten die in die plaatsing worden verwacht. Er kunnen meerdere mediatypen mogelijk zijn voor één component, zoals een andere afbeeldingsindeling.
-   **Type:** tekenreeks
+**Titel:** MIME Media Type 
+**Description:** Een beperking voor het mediatype van de componenten die in die plaatsing worden verwacht. Er kunnen meerdere mediatypen mogelijk zijn voor één component, zoals een andere afbeeldingsindeling.
+**Type:** tekenreeks
 
 #### _experience > decisions > Placement Description
 
