@@ -8,7 +8,7 @@ level: Intermediate
 product: Adobe Journey Optimizer
 solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
-source-git-commit: 61de8dc27029e229a203be8a984d6fa2d4f365e0
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -24,7 +24,7 @@ Om uw reizen te kunnen tot stand brengen en berichten te verzenden, moet u door 
 
 1. **Berichten en kanalen** configureren: voorinstellingen definiëren, e-mail- en pushberichten aanpassen en aanpassen
 
-   * Definieer instellingen voor pushmeldingen in zowel [!DNL Adobe Experience Platform] als [!DNL Adobe Experience Platform Launch]. [Meer informatie](../push-configuration.md)
+   * Definieer instellingen voor pushmeldingen in zowel [!DNL Adobe Experience Platform] als [!DNL Adobe Experience Platform Launch]. [Meer informatie](../push-gs.md)
 
    * Maak voorinstellingen voor berichten om alle technische parameters te configureren die vereist zijn voor e-mail- en pushberichten. [Meer informatie](message-presets.md)
 
