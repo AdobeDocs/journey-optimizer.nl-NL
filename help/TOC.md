@@ -6,7 +6,7 @@ user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhanke
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: fc39593802d296c035f1c77f237ae19cc73ce059
+source-git-commit: a4dd0cb3054a0f637068017fe1749a354e4d7e63
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 42%
@@ -192,7 +192,7 @@ ht-degree: 42%
    + Berichten {#configuration} configureren
       + [Technische instellingen](using/administration/administration.md)
       + [Voorinstellingen voor berichten maken](using/configuration/message-presets.md)
-      + Configuratie van pushberichten{#push-config}
+      + Configuratie van pushmelding{#push-config}
          + [Aan de slag met pushmeldingen](using/push-gs.md)
          + [Pushkanaal configureren](using/push-configuration.md)
       + E-mailconfiguratie {#email-config}
