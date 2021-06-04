@@ -1,7 +1,7 @@
 ---
 title: Een pushmelding configureren
 description: Meer informatie over het maken van een pushmelding in Journey Optimizer
-source-git-commit: 9ea3f4eb7767f9ad4c608d9c28d9ee7ca4bb8e3b
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 10%
@@ -83,7 +83,7 @@ Gebruik de sectie **[!UICONTROL Custom data]** om sleutel-/waardeparen toe te vo
 
 ## Aangepaste gegevens
 
-In **[!UICONTROL Custom data]** sectie, kunt u douanevariabelen aan de lading toevoegen, afhankelijk van uw mobiele toepassingsconfiguratie. Raadpleeg [deze sectie](push-configuration.md) voor meer informatie over het instellen van pushmeldingen in Adobe Experience Platform en Adobe starten
+In **[!UICONTROL Custom data]** sectie, kunt u douanevariabelen aan de lading toevoegen, afhankelijk van uw mobiele toepassingsconfiguratie. Raadpleeg [deze sectie](push-gs.md) voor meer informatie over het instellen van pushmeldingen in Adobe Experience Platform en Adobe starten
 
 ## Geavanceerde opties
 
@@ -109,7 +109,7 @@ U kunt **[!UICONTROL Advanced options]** voor uw dupmelding vormen. De beschikba
 * [Understand push notification flow](push-gs.md)
 -->
 
-* [Pushkanaal configureren](push-configuration.md)
+* [Pushkanaal configureren](push-gs.md)
 * [Een nieuw bericht maken](create-message.md)
 * [Een bericht toevoegen tijdens een rit](building-journeys/journeys-message.md)
 
