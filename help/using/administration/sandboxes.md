@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: null
-source-git-commit: e4f69cd209665e7f13a0c21e92453cd5cdce45a1
+source-git-commit: e4c5adf788b1cdf5f0ba1c4be80c387b3da26bd1
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 27%
@@ -47,13 +47,21 @@ Sandboxen toewijzen:
 
 1. Selecteer een **[!UICONTROL Product profile]**.
 
+   ![](../assets/sandbox_1.png)
+
 1. Selecteer het tabblad **[!UICONTROL Permissions]**. 
 
-1. Selecteer de **[!UICONTROL Sandbox access]** mogelijkheid.
+1. Selecteer de **[!UICONTROL Sandboxes]** mogelijkheid.
+
+   ![](../assets/sandbox_2.png)
 
 1. Klik onder **[!UICONTROL Available Permissions Items]** op het pluspictogram (+) om sandboxen aan uw profiel toe te wijzen. [Meer informatie over sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
 
+   ![](../assets/sandbox_3.png)
+
 1. Klik, indien nodig, onder **[!UICONTROL Included Permission Items]** op het X-pictogram naast het verwijderen van de toegang tot uw **[!UICONTROL Product profile]**-sandboxen.
+
+   ![](../assets/sandbox_4.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
