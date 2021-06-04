@@ -1,7 +1,7 @@
 ---
 title: Voorinstellingen voor berichten maken
 description: Leer hoe u berichtvoorinstellingen configureert en controleert
-source-git-commit: 6cabe17f67d0207fc72d3c61498fae0affe5a785
+source-git-commit: 5490a12f7babc7d615f22f919e58b8eff51cf79c
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -18,6 +18,7 @@ Met [!DNL Journey Optimizer] kunt u voorinstellingen voor berichten instellen di
 > Configuratie van voorinstellingen voor berichten is beperkt tot reisbeheerders. [Meer informatie](../administration/ootb-product-profiles.md#journey-administrator)
 
 
+
 Nadat berichtvoorinstellingen zijn geconfigureerd, kunt u deze selecteren bij het maken van berichten in de lijst **[!UICONTROL Presets]**.
 
 ## Een berichtvoorinstelling maken {#create-message-preset}
@@ -27,6 +28,7 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 1. Open het menu **[!UICONTROL Channels]** / **[!UICONTROL Message presets]** en klik vervolgens op **[!UICONTROL Create Message preset]**.
 
    ![](../assets/preset-create.png)
+
 
 1. Voer een naam en beschrijving (optioneel) voor de voorinstelling in en selecteer vervolgens het kanaal of de kanalen die u wilt configureren.
 
@@ -80,6 +82,7 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
    Deze controles omvatten leverbaarheidstests die door het team van de Adobe worden uitgevoerd:
 
+
    * SPF-validatie
    * DKIM-validatie
    * MX-recordvalidatie
@@ -87,6 +90,7 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
    * Helo host check
    * Verificatie van IP-pool
    * A/PTR-record, t/m/res-subdomeinverificatie
+
 
 1. Als de controles zijn voltooid, krijgt de berichtvoorinstelling de status **[!UICONTROL Active]**. Het is klaar om te worden gebruikt om berichten te leveren.
 
