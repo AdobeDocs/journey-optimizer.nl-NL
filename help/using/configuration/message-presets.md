@@ -1,9 +1,9 @@
 ---
 title: Voorinstellingen voor berichten maken
-description: Leer hoe u voorinstellingen voor e-mail- en pushberichten maakt
-source-git-commit: 4353b8f01bb4e47f6f2384e464341c0ee80ecaf2
+description: Leer hoe u berichtvoorinstellingen configureert en controleert
+source-git-commit: e76528caa407de9c8794bd2858ffa9bc8673d715
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -11,9 +11,12 @@ ht-degree: 0%
 
 # Voorinstellingen voor berichten maken
 
-Met [!DNL Journey Optimizer] kunt u voorinstellingen voor berichten instellen die alle technische parameters definiëren die vereist zijn voor e-mail- en pushberichten (e-mailtype, e-mail en naam van de afzender, mobiele apps, enz.).
+Met [!DNL Journey Optimizer] kunt u voorinstellingen voor berichten instellen die alle technische parameters definiëren die vereist zijn voor e-mail- en pushberichten: e-mailtype, e-mail en naam van de afzender, mobiele apps en meer.
 
-Afhankelijk van de verschillende merken waarvoor u moet communiceren, kunt u zoveel voorinstellingen voor berichten instellen als u wilt.
+>[!CAUTION]
+>
+> Configuratie van voorinstellingen voor berichten is beperkt tot reisbeheerders. [Meer informatie](../administration/ootb-product-profiles.md#journey-administrator)
+
 
 Nadat berichtvoorinstellingen zijn geconfigureerd, kunt u deze selecteren bij het maken van berichten in de lijst **[!UICONTROL Presets]**.
 
@@ -25,24 +28,48 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
    ![](../assets/preset-create.png)
 
-1. Geef een naam en een beschrijving (optioneel) voor de voorinstelling op en geef vervolgens het kanaal of de kanalen op die u wilt configureren.
+1. Voer een naam en beschrijving (optioneel) voor de voorinstelling in en selecteer vervolgens het kanaal of de kanalen die u wilt configureren.
 
    ![](../assets/preset-general.png)
 
-1. Configureer de instellingen voor e-mail- en pushmeldingen:
 
-   Geef voor het e-mailkanaal het volgende op:
+   >[!NOTE]
+   >
+   > * Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens en `_`, `.`, `-` tekens bevatten.
 
-   * Het type communicatie dat met de voorinstelling wordt verzonden (transactie- of marketingberichten),
-   * Het [subdomein](about-subdomain-delegation.md) om de e-mails te verzenden,
-   * De [IP pool](ip-pools.md) om aan vooraf ingesteld te associëren,
-   * De headerparameters die moeten worden gebruikt voor de e-mails die worden verzonden met behulp van de voorinstelling.
+
+1. Configureer **e-mail**-instellingen.
 
    ![](../assets/preset-email.png)
 
-   Voor het kanaal van het dupbericht, specificeer IOS en/of mobiele toepassingen Android voor uw berichten te gebruiken. Raadpleeg [deze sectie](../push-configuration.md) voor meer informatie over het configureren van uw omgeving voor het verzenden van pushberichten.
+   * Selecteer het type bericht dat wordt verzonden met de voorinstelling: **Transactioneel** of **Marketing**
+
+      >[!CAUTION]
+      >
+      > **De berichten van de** Transactionalans kunnen worden verzonden naar profielen die van marketing mededelingen afzien. Deze berichten kunnen alleen worden verzonden in specifieke contexten, zoals het opnieuw instellen van wachtwoorden, de status van de bestelling en leveringsmeldingen.
+
+   * Selecteer het subdomein dat u wilt gebruiken om de e-mails te verzenden. [Meer informatie](about-subdomain-delegation.md)
+   * Selecteer de IP-pool die u aan de voorinstelling wilt koppelen. [Meer informatie](ip-pools.md)
+   * Voer de headerparameters in voor de e-mails die u verzendt met de voorinstelling.
+
+      >[!NOTE]
+      >
+      > * Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens en `_`, `.`, `-` tekens bevatten.
+         > 
+         > 
+      * Met uitzondering van het **Reageren op (e-mail door:sturen)**, moet het domein van e-mailadressen het huidige geselecteerde subdomein gebruiken.
+
+
+
+1. Configureer **pushmelding**-instellingen.
 
    ![](../assets/preset-push.png)
+
+   * Selecteer ten minste één platform: iOS en/of Android
+
+   * Selecteer de mobiele toepassingen die u voor elk platform wilt gebruiken.
+
+      Raadpleeg [deze sectie](../push-configuration.md) voor meer informatie over het configureren van uw omgeving voor het verzenden van pushberichten.
 
 1. Zodra alle parameters zijn gevormd, klik **[!UICONTROL Submit]** om te bevestigen. U kunt de berichtvoorinstelling ook opslaan als concept en de configuratie ervan later hervatten.
 
@@ -54,13 +81,13 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
    Deze controles omvatten leverbaarheidstests die door het team van de Adobe worden uitgevoerd:
 
-   * SPF-validatie,
-   * DKIM-validatie,
-   * MX-recordvalidatie,
-   * Controleer de zwarte lijst van IP&#39;s,
-   * Helo host check,
-   * verificatie van de IP-pool;
-   * A/PTR-record, t/m/res-subdomeinverificatie.
+   * SPF-validatie
+   * DKIM-validatie
+   * MX-recordvalidatie
+   * Controle IPs voegend op lijst van gewenste personen
+   * Helo host check
+   * Verificatie van IP-pool
+   * A/PTR-record, t/m/res-subdomeinverificatie
 
 1. Als de controles zijn voltooid, krijgt de berichtvoorinstelling de status **[!UICONTROL Active]**. Het is klaar om te worden gebruikt om berichten te leveren.
 
@@ -100,4 +127,5 @@ Als u een berichtvoorinstelling wilt bewerken, moet u deze eerst deactiveren zod
 
    >[!NOTE]
    >
-   >De-geactiveerde berichtvoorinstellingen kunnen niet worden verwijderd om problemen te voorkomen tijdens reizen waarbij deze voorinstellingen worden gebruikt om berichten te verzenden.
+   >Gedetailleerde berichtvoorinstellingen kunnen niet worden verwijderd om problemen te voorkomen tijdens reizen waarbij deze voorinstellingen worden gebruikt om berichten te verzenden.
+
