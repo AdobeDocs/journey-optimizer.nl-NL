@@ -11,15 +11,20 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: 068ee9c8966e5968a488c12b2a48fa2ba2ab5245
+source-git-commit: e569e992530df5429ffb96f78ba28b53de0ded81
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 11%
+source-wordcount: '432'
+ht-degree: 8%
 
 ---
 
 
 # Een subdomein delegeren
+
+Domeinnaamdelegatie is een methode die de eigenaar van een domeinnaam toestaat (technisch: een DNS-zone) om een onderverdeling ervan te delegeren (technisch gezien: een DNS-zone eronder, die een subzone kan worden genoemd) aan een andere entiteit. In feite, als een klant de streek &quot;example.com&quot;behandelt, kan hij subzone &quot;marketing.example.com&quot;aan Adobe afvaardigen.
+
+Door subdomain voor gebruik met Adobe Optimizer te delegeren, kunnen de cliënten op Adobe vertrouwen om de DNS infrastructuur te handhaven die wordt vereist om industrie-standaardleveringsvereisten voor hun e-mailmarketing te ontmoeten verzendende domeinen, terwijl het blijven handhaven en DNS voor hun controleren
+interne e-maildomeinen.
 
 Met Journey Optimizer kunt u de subdomeinen volledig delegeren aan Adobe. Door dit te doen, zal Adobe berichten als beheerde dienst kunnen leveren door alle aspecten van DNS te controleren en te handhaven die voor het leveren, het teruggeven en het volgen van e-mailcampagnes worden vereist.
 
