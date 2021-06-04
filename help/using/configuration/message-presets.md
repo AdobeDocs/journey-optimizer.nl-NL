@@ -1,9 +1,9 @@
 ---
 title: Voorinstellingen voor berichten maken
 description: Leer hoe u berichtvoorinstellingen configureert en controleert
-source-git-commit: 68716d6520848f4825e90106ea1cd76185ae0f87
+source-git-commit: 6cabe17f67d0207fc72d3c61498fae0affe5a785
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
    >[!NOTE]
    >
-   > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens en `_` `.` `-` tekens bevatten.
+   > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook liggend `_`, punt`.` en afbreekstreepje `-` tekens gebruiken.
 
 1. Configureer **e-mail**-instellingen.
 
@@ -53,7 +53,7 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
       >[!NOTE]
       >
-      > * Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens en `_`, `.`, `-` tekens bevatten.
+      > * Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook liggend `_`, punt`.` en afbreekstreepje `-` tekens gebruiken.
          > 
          > 
       * Met uitzondering van het **Reageren op (e-mail door:sturen)**, moet het domein van e-mailadressen het huidige geselecteerde subdomein gebruiken.
