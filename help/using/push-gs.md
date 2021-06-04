@@ -1,14 +1,14 @@
 ---
 title: Aan de slag met de pushconfiguratie
 description: De gegevensstroom van pushmeldingen en componenten begrijpen
-source-git-commit: a4dd0cb3054a0f637068017fe1749a354e4d7e63
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
 
-# Aan de slag met de pushconfiguratie {#get-started-push}
+# Configuratie {#get-started-push} voor pushmelding
 
 ![](assets/do-not-localize/badge.png)
 
@@ -58,8 +58,7 @@ De volgende afbeelding toont de systemen en services die bij de bijbehorende geg
    * Mobiele eigenschap aan de clientzijde maken en extensies toevoegen. De SDK is nauw geïntegreerd met deze extensies voor een naadloze ervaring bij het verzamelen van gegevens.
    * De bundle-id en toepassingsgegevens van de mobiele app registreren
 
-* **Adobe Experience Platform Real-time Customer**
-Profileming behoudt een holistische weergave van elke individuele klant door gegevens van meerdere kanalen te combineren, waaronder web, mobiel, CRM en derden. Het profiel staat u toe om uw klantengegevens in een verenigde mening te consolideren die een actionable, timestamped rekening van elke klanteninteractie aanbiedt. Het pushtoken voor een bepaalde gebruiker van de app wordt als recordgegevens opgeslagen ten opzichte van het profiel van de gebruiker, terwijl de interactie die de gebruiker met pushberichten onderneemt, als gebeurtenisgegevens uit de tijdreeks wordt bijgehouden. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* **Adobe Experience Platform Real-time Customer**  Profileming behoudt een holistische weergave van elke individuele klant door gegevens van meerdere kanalen te combineren, waaronder web, mobiel, CRM en derden. Het profiel staat u toe om uw klantengegevens in een verenigde mening te consolideren die een actionable, timestamped rekening van elke klanteninteractie aanbiedt. Het pushtoken voor een bepaalde gebruiker van de app wordt als recordgegevens opgeslagen ten opzichte van het profiel van de gebruiker, terwijl de interactie die de gebruiker met pushberichten onderneemt, als gebeurtenisgegevens uit de tijdreeks wordt bijgehouden. [Meer informatie over Adobe Experience Platform Real-time klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
 
 * **[!DNL Adobe Journey Optimizer]** : als uw mobiele app is geïntegreerd met de hierboven vermelde componenten en uw klantprofielen in Adobe Experience Platform, kunt u pushberichten in Adobe Journey Optimizer ontwerpen en ordenen om contact op te nemen met uw gebruikers.
 
@@ -69,5 +68,3 @@ In de volgende afbeelding ziet u de verschillende stappen van begin tot eind die
 
 ![](assets/user-flow.png)
 
-
-Gedetailleerde stappen voor het configureren van het pushkanaal en het inschakelen van pushmeldingen in [!DNL Journey Optimizer] zijn beschikbaar op [deze pagina](push-configuration.md).
