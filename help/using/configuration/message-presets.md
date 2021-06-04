@@ -1,7 +1,7 @@
 ---
 title: Voorinstellingen voor berichten maken
 description: Leer hoe u berichtvoorinstellingen configureert en controleert
-source-git-commit: 5490a12f7babc7d615f22f919e58b8eff51cf79c
+source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
    * Selecteer de mobiele toepassingen die u voor elk platform wilt gebruiken.
 
-      Raadpleeg [deze sectie](../push-configuration.md) voor meer informatie over het configureren van uw omgeving voor het verzenden van pushberichten.
+      Raadpleeg [deze sectie](../push-gs.md) voor meer informatie over het configureren van uw omgeving voor het verzenden van pushberichten.
 
 1. Zodra alle parameters zijn gevormd, klik **[!UICONTROL Submit]** om te bevestigen. U kunt de berichtvoorinstelling ook opslaan als concept en de configuratie ervan later hervatten.
 
