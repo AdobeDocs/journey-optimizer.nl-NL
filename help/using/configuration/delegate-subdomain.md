@@ -11,9 +11,9 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-source-git-commit: e569e992530df5429ffb96f78ba28b53de0ded81
+source-git-commit: 68716d6520848f4825e90106ea1cd76185ae0f87
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '433'
 ht-degree: 8%
 
 ---
@@ -23,10 +23,9 @@ ht-degree: 8%
 
 Domeinnaamdelegatie is een methode die de eigenaar van een domeinnaam toestaat (technisch: een DNS-zone) om een onderverdeling ervan te delegeren (technisch gezien: een DNS-zone eronder, die een subzone kan worden genoemd) aan een andere entiteit. In feite, als een klant de streek &quot;example.com&quot;behandelt, kan hij subzone &quot;marketing.example.com&quot;aan Adobe afvaardigen.
 
-Door subdomain voor gebruik met Adobe Optimizer te delegeren, kunnen de cliënten op Adobe vertrouwen om de DNS infrastructuur te handhaven die wordt vereist om industrie-standaardleveringsvereisten voor hun e-mailmarketing te ontmoeten verzendende domeinen, terwijl het blijven handhaven en DNS voor hun controleren
-interne e-maildomeinen.
+Door een subdomein voor gebruik met [!DNL Journey Optimizer] te delegeren, kunnen de cliënten op Adobe vertrouwen om de DNS infrastructuur te handhaven die wordt vereist om aan industrie-standaardleveringsvereisten voor hun e-mailmarketing verzendende domeinen te voldoen, terwijl het blijven DNS voor hun interne e-maildomeinen handhaven en controleren.
 
-Met Journey Optimizer kunt u de subdomeinen volledig delegeren aan Adobe. Door dit te doen, zal Adobe berichten als beheerde dienst kunnen leveren door alle aspecten van DNS te controleren en te handhaven die voor het leveren, het teruggeven en het volgen van e-mailcampagnes worden vereist.
+[!DNL Journey Optimizer] staat u toe om uw subdomeinen aan Adobe direct van de productinterface volledig te delegeren. Door dit te doen, zal Adobe berichten als beheerde dienst kunnen leveren door alle aspecten van DNS te controleren en te handhaven die voor het leveren, het teruggeven en het volgen van e-mailcampagnes worden vereist.
 
 >[!NOTE]
 >
