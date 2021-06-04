@@ -1,11 +1,9 @@
 ---
 title: Aan de slag met de pushconfiguratie
 description: De gegevensstroom van pushmeldingen en componenten begrijpen
-hide: true
-hidefromtoc: true
-source-git-commit: a2eee802f82552e56ced00f93e5e4c8a7b3feb7a
+source-git-commit: a4dd0cb3054a0f637068017fe1749a354e4d7e63
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -14,59 +12,62 @@ ht-degree: 0%
 
 ![](assets/do-not-localize/badge.png)
 
-Met pushberichten kunt u snel berichten, aanbiedingen of andere informatie doorgeven aan gebruikers van uw mobiele app. Doorgaans moet de eindgebruiker zich aanmelden om pushberichten te ontvangen; de opt-in gebeurt gewoonlijk tijdens het installatieproces en de eindgebruikers krijgen een manier om meldingen te beheren als zij later van mening veranderen. Een belangrijk voordeel van pushberichten in mobiel computergebruik is dat de technologie geen specifieke toepassingen op een mobiel apparaat nodig heeft om een bericht te ontvangen. Hierdoor kan een smartphone meldingen ontvangen en weergeven, zelfs wanneer het scherm van het apparaat is vergrendeld en de mobiele app op de achtergrond of gesloten is.
+Met pushberichten bereikt u op elk gewenst moment gebruikers van uw mobiele app, vooral wanneer ze uw app niet actief gebruiken. Met pushberichten kunt u verschillende gebruiksgevallen bereiken, zoals het aanbieden van updates over uw service, het vragen van een gebruiker om actie te ondernemen, de gebruiker te waarschuwen voor een nieuwe deal, enz. Apparaatplatforms moeten zich aanmelden voordat eindgebruikers uw meldingen kunnen ontvangen of bekijken. Gebruikers kunnen zich al aanmelden nadat de app voor de eerste keer na de installatie is gestart of in een volgende sessie of workflow, al naar gelang wat van toepassing is. [!DNL Journey Optimizer] ondersteunt pushmeldingen en helpt u zeer relevante meldingen te verzenden met toonaangevende doorvoersnelheden. Pushmeldingen kunnen personalisatie en Reiscontext omvatten om gegevensinzichten van uw merk met Adobe Experience Cloud te benutten.
 
-**[!DNL Adobe Journey Optimizer]**  kunt u tijdgevoelige, relevante en gepersonaliseerde pushberichten op grote schaal verzenden. Een segment van klantprofielen kan worden gebruikt voor het ontvangen van uitgebreide pushberichten op hun iOS- en Android-mobiele apparaten. Deze segmenten kunnen worden gemaakt op basis van eerdere of live gebruikerservaringsgebeurtenissen, gebruikersrecordgegevens of een combinatie van gebruikersinteracties en gegevens. Zodra een reis levend is, kunt u gedetailleerde rapporten bekijken over hoeveel berichten werden verzonden, om welke reden ontbroken en ook duwend volginformatie zoals hoeveel gebruikers op hen klikte.
+Deze pagina helpt u bij het instellen en begrijpen van belangrijke services en workflows die betrokken zijn bij pushberichten in [!DNL Journey Optimizer].
 
-Dit document zal u door een basis duw- berichten gegevensstroom van begin tot eind gebruikend [!DNL Journey Optimizer] en een diagram van de gebruikersstroom lopen om uit te leggen hoe elke rol zijn verantwoordelijkheden vervult en samenwerkt om de stroom van dupgegevens samen te brengen.
+## Pushmeldingen instellen met Adobe Journey Optimizer
 
+Als u pushberichten wilt verzenden met Adobe Journey Optimizer, moet u de volgende stappen uitvoeren:
 
-## Betrokken onderdelen en services
+1. Volg de documentatie om installatie te krijgen met [Adobe Journey Optimizer &amp; Adobe Experience Platform Mobile SDKs](https://aep-sdks.gitbook.io/docs/beta/adobe-journey-optimizer) in uw app.
+1. [voorinstelling maken voor het pushcommunicatiekanaal](configuration/message-presets.md)
 
-* **Cloud Messaging** Providers zijn services van derden waarmee we berichten van externe servers naar mobiele apps kunnen verzenden.
+## Push Notifications and Adobe Journey Optimizer
 
-   [!DNL Adobe Journey Optimizer]  ondersteunt zowel Android- als iOS-platforms en werkt met twee services voor primaire cloudberichten:
-   * Firebase Cloud Messaging (FCM) - berichten verzenden naar mobiele Android-app
-   * Apple Push Notification Service (APNs) - voor het verzenden van meldingen naar mobiele app voor iOS
-
-* **Mobile App geïntegreerd met Adobe Mobile** SDK, waarmee u uw mobiele apps kunt integreren met Adobe Experience Cloud Solutions. De mobiele SDK bestaat uit diverse Experience Cloud oplossing-uitbreidingen om eigenschappen te verstrekken specifiek voor de dienst zij vertegenwoordigen. Deze extensies maken verschillende API&#39;s beschikbaar om gegevensstroom in te schakelen, zoals het registreren van het pushtoken of het verzenden van push-gebeurtenissen of andere aangepaste ervaringsgebeurtenissen naar Adobe Experience Platform.
-
-* **Adobe Launch**  (of gegevensverzameling) is de volgende generatie mogelijkheden voor beheer van mobiele SDK waarmee gegevens van de Mobile SDK naar  [!DNL Adobe Experience Platform]kunnen worden verzonden. Het biedt mogelijkheden om extensies te registreren, regels en gegevenselementen te maken om gegevens van uw mobiele app naar de Adobe Experience Cloud-oplossingen te verzenden. Met betrekking tot de stroom van de gegevens van dupmeldingen, zijn de primaire configuraties die in de Lancering van Adobe worden vereist:
-
-   * Creërend een gegevensstroom om het profiel en de datasets van de ervaringsgebeurtenis te vormen waartegen de gegevens in ervaringsplatform stromen.
-   * Een client-side mobiele eigenschap maken en extensies toevoegen. Mobile SDK is nauw geïntegreerd met deze extensies voor een naadloze ervaring bij het verzamelen van gegevens.
-   * Registreer de bundle-id en de toepassingsreferenties van de mobiele app om de hygiëne van de app op het moment van de publicatie van de pushmelding op unieke wijze te identificeren en valideren.
-
-* **Klantprofiel in realtime is de** component in Adobe Experience Platform die u in staat stelt een holistische weergave van elke individuele klant te bekijken door gegevens van meerdere kanalen te combineren, waaronder web, mobiel, CRM en derden. Het profiel staat u toe om uw klantengegevens in een verenigde mening te consolideren die een actionable, timestamped rekening van elke klanteninteractie aanbiedt. Statische gegevens die de gebruiker van de mobiele app identificeren, zoals een pushtoken, worden opgeslagen volgens het profiel van de gebruiker als recordgegevens, terwijl de interactie die de gebruiker met pushberichten maakt, wordt bijgehouden als gebeurtenisgegevens uit de tijdreeks.
-
-* **[!DNL Adobe Journey Optimizer]** : zodra uw mobiele app-integratie met bovengenoemde componenten is geïnstalleerd en uw klantprofielen beschikbaar zijn als realtime-klantprofielen, kunt u profiteren van de krachtige mogelijkheden voor publiekssegmentatie  [!DNL Adobe Journey Optimizer]  om ervoor te zorgen dat elke persoon de beste ervaring heeft.
-
-
-## Gegevensstroom duwen
-
-Dit diagram toont een basisstroom van de gegevens van het drukkingsoverseinen en geeft een blik bij de diverse producten en de componenten van Adobe betrokken bij de stroom.
+De volgende afbeelding toont de systemen en services die bij de bijbehorende gegevensstromen betrokken zijn en geeft aan hoe pushberichten vanuit een end-to-end servicestandpunt worden geleverd.
 
 ![](assets/push-flow.png)
 
+1. Registratie van uw merk mobiele app (Android of iOS) met APN&#39;s van Apple en Google FCM-pushberichten
+1. De diensten van het overseinen produceren een duptoken, dat, een herkenningsteken is dat Adobe Journey Optimizer zal gebruiken om het specifieke apparaat met een dupmelding te richten.
+1. Het eerder gegenereerde pushtoken wordt doorgegeven aan Adobe Experience Platform en gesynchroniseerd met het Real-time klantprofiel. Dit gebeurt OOTB met een eenvoudig te integreren client-SDK
+1. Pushberichten worden geschreven in Adobe Journey Optimizer, Pushberichten worden gemaakt op basis van een berichtvoorinstelling
+1. Pushberichten kunnen op het orkestcanvas in Journalen worden opgenomen
+1. Na publicatie van de Reis, zijn de klantprofielen die op de voorwaarden van de Reis worden gebaseerd gekwalificeerd om dupberichten te ontvangen, duw overseinen ladingen bij deze stap worden gepersonaliseerd
+1. Persoonlijke pushladingen worden doorgestuurd naar een interne service voor pushberichten
+1. Deze interne service controleert vervolgens de referenties van de toepassing die aan het bericht is gekoppeld, en
+1. Verstuurt het bericht naar Apple &amp; Google Messing Services voor de uiteindelijke aflevering
+1. Feedback van berichtenservices wordt vermeld, fouten en successen worden geregistreerd voor rapportage in Live en Global-rapporten van Journey
+1. Pushmeldingen worden aan eindgebruikersapparaten geleverd
+1. Pushmeldingsinteracties voor eindgebruikers worden als Experience Events verzonden vanuit de eindgebruikerclient via SDK-integratie
 
-1. De klant ontwikkelt een mobiele app op Android of iOS die hij of zij aan zijn of haar gebruikers zou vrijgeven. Om gebruik te kunnen maken van de pushmogelijkheden die worden geboden door push-providers, d.w.z. APNS van Apple en FCM van Google, registreert de mobiele app zichzelf en maakt deze de mogelijkheid tot pushberichten mogelijk.
-1. De pushproviders genereren een pushtoken en sturen dit naar de mobiele app. Een pushtoken is een id die afzenders gebruiken om specifieke apparaten met een pushmelding als doel in te stellen.
-1. De mobiele app is geïntegreerd met de Adobe Mobile SDK, die verschillende extensies en API&#39;s beschikbaar maakt. De uitbreiding van het Overseinen stelt API bloot om het pushtoken in Adobe Experience Platform tegen het profiel van de klant te registreren.
-1. Zodra de mobiele app klaar is, wordt deze samen met de referenties geconfigureerd in **[!DNL Journey Launch]** `>` **App Configurations**.
-De markeerder ontwerpt nu een pushmelding in **[!DNL Adone Journey Optimizer]** `>` **Berichten** tegen de geregistreerde mobiele app.
-1. De markeerder organiseert een klantenreis die de stroom van gebeurtenissen en acties bepaalt. Als u een pushmelding wilt verzenden in een stadium van de rit, voegt de markeerteken een actie van het type &#39;Bericht&#39; toe en koppelt u deze aan het bericht dat in de vorige stap is geschreven.
-1. Wanneer een klantprofiel in aanmerking komt om de pushmelding te ontvangen om welke reden dan ook, bijvoorbeeld bij het activeren van een gebeurtenis of bij het kwalificeren van een segment, wordt het bericht gepersonaliseerd ten opzichte van het profiel, indien van toepassing.
-1. Het persoonlijke pushbericht wordt verzonden voor verdere verwerking naar de pushservice.
-1. De pushservice valideert de referenties van de app die aan het bericht is gekoppeld.
-1. Het bericht wordt naar de pushproviders verzonden voor levering aan de mobiele app op basis van het specifieke pushtoken en de gegevens.
-1. De pushproviders sturen een feedback waarin wordt gesuggereerd of het bericht correct aan de provider is bezorgd. Als dat niet het geval is, maakt het desbetreffende foutbericht deel uit van de feedback. Deze feedback wordt naar de Adobe-rapportage gestuurd, zodat de klant deze kan bekijken op zijn reis [Live](reports/live-report.md) en [Global Reports](reports/global-report.md).
-1. Ondertussen leveren de pushproviders asynchroon de geslaagde pushmelding aan de mobiele app.
-1. Wanneer de klant met de melding communiceert, kunnen de indrukken zoals click/open vervolgens worden bijgehouden als **Experience Events**. De uitbreiding van het Overseinen stelt APIs bloot om volgende gebeurtenissen naar Adobe Experience Platform tegen het profiel van de klant te verzenden.
+## Rollen van de Zeer belangrijke Diensten in de Berichten van de Duw
 
-## Gebruikersstroom duwen
+* **Push Notification service-** providers zijn de belangrijkste onderdelen van webservices die berichten van externe servers naar mobiele apps leveren.
 
-Dit diagram toont de diverse stappen betrokken bij het vormen van de componenten die het skelet van de stroom van duwgegevens vormen. De actiepunten zijn gecategoriseerd gebaseerd op de rol die de configuratie en de component uitvoert die worden gevormd. Zoals u kunt zien, moet u ervoor zorgen dat er configuraties en integratie zijn in de mobiele app **[!DNL Adobe Launch]** en **[!DNL Adobe Experience Platform]** voordat u pushmeldingen verzendt.**[!DNL Adobe Journey Optimizer]**
+   [!DNL Adobe Journey Optimizer]  ondersteunt zowel Android- als iOS-platforms en kan daarom worden geïntegreerd met:
+   * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging)  - om meldingen naar de mobiele Android-app te verzenden
+   * [APN&#39;s (Apple Push Notification Service)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html)  - voor het verzenden van meldingen naar mobiele app voor iOS
+
+* **Adobe Experience Platform Mobile** SDK biedt integratie-API&#39;s aan de clientzijde voor uw mobiele apparaten via met Android en iOS compatibele SDK&#39;s. De SDK biedt een Adobe Journey Optimizer-extensie die een aantal specifieke API&#39;s voor pushberichten toegankelijk maakt en gegevensstroom mogelijk maakt, zoals het registreren van het pushtoken of het verzenden van push-tracking-gebeurtenissen of andere aangepaste ervaringsgebeurtenissen naar Adobe Experience Platform. De SDK biedt ook een groot aantal andere extensies die andere Adobe Experience Cloud en andere partnermogelijkheden van derden mogelijk maken.
+
+   SDK-integratie vereist ook de installatie van Adobe Experience Platform [Data Collection](https://experienceleague.adobe.com/docs/launch/using/home.html)-services, zoals:
+
+   * Een gegevensstroom maken om het profiel te configureren en de gegevenssets met gebeurtenissen te ervaren op basis waarvan de gegevens in Adobe Experience Platform stromen
+   * Mobiele eigenschap aan de clientzijde maken en extensies toevoegen. De SDK is nauw geïntegreerd met deze extensies voor een naadloze ervaring bij het verzamelen van gegevens.
+   * De bundle-id en toepassingsgegevens van de mobiele app registreren
+
+* **Adobe Experience Platform Real-time Customer**
+Profileming behoudt een holistische weergave van elke individuele klant door gegevens van meerdere kanalen te combineren, waaronder web, mobiel, CRM en derden. Het profiel staat u toe om uw klantengegevens in een verenigde mening te consolideren die een actionable, timestamped rekening van elke klanteninteractie aanbiedt. Het pushtoken voor een bepaalde gebruiker van de app wordt als recordgegevens opgeslagen ten opzichte van het profiel van de gebruiker, terwijl de interactie die de gebruiker met pushberichten onderneemt, als gebeurtenisgegevens uit de tijdreeks wordt bijgehouden. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+
+* **[!DNL Adobe Journey Optimizer]** : als uw mobiele app is geïntegreerd met de hierboven vermelde componenten en uw klantprofielen in Adobe Experience Platform, kunt u pushberichten in Adobe Journey Optimizer ontwerpen en ordenen om contact op te nemen met uw gebruikers.
+
+## Push Technical Setup and Practice Workflows
+
+In de volgende afbeelding ziet u de verschillende stappen van begin tot eind die nodig zijn voor het configureren van de componenten die het skelet van de gegevensstroom van de push vormen. De actiepunten zijn gecategoriseerd gebaseerd op de rol die de configuratie en de component uitvoert die worden gevormd.
 
 ![](assets/user-flow.png)
+
 
 Gedetailleerde stappen voor het configureren van het pushkanaal en het inschakelen van pushmeldingen in [!DNL Journey Optimizer] zijn beschikbaar op [deze pagina](push-configuration.md).
