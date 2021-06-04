@@ -1,7 +1,7 @@
 ---
 title: Voorinstellingen voor berichten maken
 description: Leer hoe u berichtvoorinstellingen configureert en controleert
-source-git-commit: e76528caa407de9c8794bd2858ffa9bc8673d715
+source-git-commit: 68716d6520848f4825e90106ea1cd76185ae0f87
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
@@ -35,8 +35,7 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
    >[!NOTE]
    >
-   > * Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens en `_`, `.`, `-` tekens bevatten.
-
+   > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens en `_` `.` `-` tekens bevatten.
 
 1. Configureer **e-mail**-instellingen.
 
@@ -65,7 +64,7 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
    ![](../assets/preset-push.png)
 
-   * Selecteer ten minste één platform: iOS en/of Android
+   * Selecteer ten minste één platform: **iOS** en/of **Android**
 
    * Selecteer de mobiele toepassingen die u voor elk platform wilt gebruiken.
 
@@ -77,7 +76,7 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
 1. Nadat de berichtvoorinstelling is gemaakt, wordt deze in de lijst weergegeven met de status **[!UICONTROL Processing]**.
 
-   Tijdens deze stap, zullen verscheidene controles worden uitgevoerd om te verifiëren dat het behoorlijk is gevormd. De verwerkingstijd is ongeveer 48u-72u, en kan tot 7-10 dagen vergen.
+   Tijdens deze stap, zullen verscheidene controles worden uitgevoerd om te verifiëren dat het behoorlijk is gevormd. De verwerkingstijd is ongeveer **48h-72h**, en kan tot **7-10 dagen** duren.
 
    Deze controles omvatten leverbaarheidstests die door het team van de Adobe worden uitgevoerd:
 
