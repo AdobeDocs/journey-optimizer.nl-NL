@@ -1,9 +1,9 @@
 ---
 title: Algemeen rapport
 description: Leer hoe u gegevens uit het algemene rapport kunt gebruiken
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: c2bbc0335b5f123c1d2b0052edf1b90937011e19
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -11,6 +11,10 @@ ht-degree: 0%
 # Globaal rapport {#global-report}
 
 ![](../assets/do-not-localize/badge.png)
+
+>[!NOTE]
+>
+> Als aangepaste query&#39;s via API&#39;s worden gemaakt wanneer u de Query-service gebruikt, verwacht u enige vertraging voor uw rapporten.
 
 Met **[!UICONTROL Global report]** kunt u de doeltreffendheid van uw reizen en leveringen gedurende een bepaalde tijdsperiode meten.
 
