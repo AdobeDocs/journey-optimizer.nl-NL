@@ -1,10 +1,10 @@
 ---
 title: Gebruikersinterface
 description: Journey Optimizer-gebruikersinterface
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+source-git-commit: 539551998d311a4860ad01b1bfe37cc2f77f8030
 workflow-type: tm+mt
-source-wordcount: '1446'
-ht-degree: 36%
+source-wordcount: '1486'
+ht-degree: 34%
 
 ---
 
@@ -94,22 +94,30 @@ Uw standaardinterfacetaal wordt bepaald door de aangewezen taal die in uw gebrui
 
 De taal wijzigen:
 
-* Klik **Voorkeuren bewerken** vanuit uw avatar, rechtsboven.
-* Klik vervolgens op **Visit Adobe Account** om uw Adobe-profiel te openen.
-* Selecteer het tabblad **Meldingen** bovenaan en klik op **Voorkeuren**.
-* Selecteer de gewenste taal en klik op **Opslaan**.
+* Klik **Voorkeuren** van uw avatar, op het hoogste recht.
+   ![](assets/preferences.png)
+* Klik vervolgens op de taal die onder uw e-mailadres wordt weergegeven
+* Selecteer de gewenste taal en klik op **Opslaan**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw voorste taal is gelokaliseerd.
+   ![](assets/select-language.png)
 
->[!NOTE]
->
->U moet zich afmelden en opnieuw aanmelden bij [!DNL Journey Optimizer] om wijzigingen toe te passen.
+## Zoeken
 
-## Zoeken en filteren{#section_lgm_hpz_pgb}
+Met de Adobe Experience Cloud-zoekopdracht in het midden van de bovenste balk kunt u zoeken naar elementen, reizen of berichten in uw sandboxen. Voer inhoud in om de beste resultaten weer te geven.
 
-In de meeste lijsten kunt u met een zoekbalk naar een item zoeken.
+![](assets/unified-search.png)
 
-U kunt het dialoogvenster **[!UICONTROL Filters]** openen door te klikken op het filterpictogram linksboven van de lijst. Met het filtermenu kunt u de weergegeven elementen filteren op basis van verschillende criteria. U kunt ervoor kiezen om alleen elementen van een bepaald type of een bepaalde status weer te geven, zoals de elementen die u hebt gemaakt of de elementen die in de afgelopen 30 dagen zijn gewijzigd.
+Druk op **Enter** om alle resultaten en filters te openen.
 
-In de reislijst, naast **[!UICONTROL Creation filters]**, kunt u de getoonde reizen volgens hun status en versie (**[!UICONTROL Status and version filters]**) ook filtreren. U kunt ervoor kiezen alleen ritten weer te geven die een bepaalde gebeurtenis, veldgroep of handeling gebruiken (**[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]**). Met **[!UICONTROL Publication filters]** kunt u een publicatiedatum of een gebruiker selecteren. U kunt bijvoorbeeld kiezen of u de nieuwste versies wilt weergeven van live reizen die gisteren zijn gepubliceerd. [Meer informatie](building-journeys/using-the-journey-designer.md).
+![](assets/search-and-filter.png)
+
+
+## Filterlijsten{#section_lgm_hpz_pgb}
+
+In de meeste lijsten, staat een onderzoeksbar u toe om naar een specifiek punt te zoeken en het filtreren criteria te selecteren.
+
+Filters zijn toegankelijk door op het filterpictogram linksboven in de lijst te klikken. Met het filtermenu kunt u de weergegeven elementen filteren op basis van verschillende criteria. U kunt ervoor kiezen om alleen elementen van een bepaald type of een bepaalde status weer te geven, zoals de elementen die u hebt gemaakt of de elementen die in de afgelopen 30 dagen zijn gewijzigd. Welke opties beschikbaar zijn, is afhankelijk van de context.
+
+In de lijst van reizen, kunt u reizen volgens hun status en versie van **[!UICONTROL Status and version filters]** filtreren. U kunt ervoor kiezen alleen ritten weer te geven die een specifieke gebeurtenis, veldgroep of handeling uit de **[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]** gebruiken. Met **[!UICONTROL Publication filters]** kunt u een publicatiedatum of een gebruiker selecteren. U kunt bijvoorbeeld kiezen of u de nieuwste versies wilt weergeven van live reizen die gisteren zijn gepubliceerd. [Meer informatie](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
@@ -117,7 +125,7 @@ In de reislijst, naast **[!UICONTROL Creation filters]**, kunt u de getoonde rei
 
 Gebruik de kolommen **[!UICONTROL Last update]** en **[!UICONTROL Last update by]** om te controleren wanneer de laatste update van uw reizen gebeurde en wie het bewaarde.
 
-![](assets/journey74.png)
+![](assets/filter-journeys.png)
 
 In de de configuratievensters van de Gebeurtenis, van de Gegevensbron en van de Actie, toont het **[!UICONTROL Used in]** gebied het aantal reizen die die bepaalde gebeurtenis, gebiedsgroep of actie gebruiken. U kunt klikken op de knop **[!UICONTROL View journeys]** om de lijst met corresponderende journey’s weer te geven.
 
