@@ -1,10 +1,10 @@
 ---
 title: Rangschikkingsformules maken
 description: Leer hoe u rangschikkingsformules maakt in Adobe Experience Platform.
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+source-git-commit: ea8a3644ecef911a14ea087b03d367976f0c898d
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,19 +22,21 @@ Zodra een rangschikkende formule is gecreeerd, kunt u het aan een plaatsing in e
 
 Voer de volgende stappen uit om een rangschikkingsformule te maken:
 
-* Open het menu **[!UICONTROL Components]** en selecteer vervolgens het tabblad **[!UICONTROL Rankings]**.
+1. Open het menu **[!UICONTROL Components]** en selecteer vervolgens het tabblad **[!UICONTROL Rankings]**. De eerder gemaakte lijst met waarderingen wordt weergegeven.
 
-* Klik **[!UICONTROL Create formula]** om een nieuwe rangschikkingsformule tot stand te brengen.
+   ![](../../assets/rankings-list.png)
+
+1. Klik **[!UICONTROL Create ranking]** om een nieuwe rangschikkingsformule tot stand te brengen.
 
    ![](../../assets/ranking-create-formula.png)
 
-* Geef de naam, beschrijving en formule van de waarderingsformule op.
+1. Geef de naam, beschrijving en formule van de waarderingsformule op.
 
    In dit voorbeeld willen we de prioriteit van alle aanbiedingen verhogen met het kenmerk &quot;hot&quot; als het werkelijke weer heet is. Om dit te doen, **contextData.wind=hot** werd overgegaan in de beslissingsvraag.
 
    ![](../../assets/ranking-syntax.png)
 
-* Klik op **[!UICONTROL Save]**. Uw rangschikkingsformule wordt gecreeerd, kunt u het van de lijst selecteren om details te krijgen en het uit te geven of te schrappen.
+1. Klik op **[!UICONTROL Save]**. Uw rangschikkingsformule wordt gecreeerd, kunt u het van de lijst selecteren om details te krijgen en het uit te geven of te schrappen.
 
    Het is nu klaar om in een besluit worden gebruikt om in aanmerking komende aanbiedingen voor een plaatsing te rangschikken (zie [Aanbiedingen selecteren in besluiten vormen](../offer-activities/configure-offer-selection.md)).
 
