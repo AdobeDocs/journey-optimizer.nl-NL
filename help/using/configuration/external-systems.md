@@ -1,0 +1,79 @@
+---
+product: adobe campaign
+solution: Journey Optimizer
+title: Integratie met externe systemen
+description: Leer de beste werkwijzen bij het integreren van externe systemen
+feature: Journey Optimizer
+role: Business Practitioner
+level: Beginner
+exl-id: 27859689-dc61-4f7a-b942-431cdf244455
+source-git-commit: 30e916e834bfed304f246264cdb091cb5ad60d41
+workflow-type: tm+mt
+source-wordcount: '972'
+ht-degree: 1%
+
+---
+
+# Integreren met externe systemen {#external-systems}
+
+Deze pagina bevat de verschillende instructies die Journey Optimizer biedt bij de integratie van een extern systeem, en de aanbevolen procedures: hoe u de beveiliging van uw externe systeem kunt optimaliseren met behulp van de API voor aftopping, hoe u de time-out van de reis kunt configureren en hoe nieuwe pogingen werken.
+
+Met Journey Optimizer kunt u verbindingen met externe systemen configureren via aangepaste gegevensbronnen en aangepaste handelingen. Zo kunt u bijvoorbeeld uw reizen verrijken met gegevens die afkomstig zijn van een extern reserveringssysteem, of berichten verzenden via een systeem van derden, zoals Epsilon of Facebook.
+
+Wanneer u een extern systeem integreert, kunt u verschillende problemen tegenkomen, kan het systeem traag zijn, kan het niet langer reageren of kan het een groot volume mogelijk niet verwerken. Journey Optimizer biedt verschillende instructies om uw systeem te beschermen tegen overbelasting.
+
+Alle externe systemen hebben verschillende prestaties. U moet de configuratie aan uw gebruiksgevallen aanpassen.
+
+Wanneer Journey Optimizer een aanroep naar een externe API uitvoert, worden de technische instructies als volgt uitgevoerd:
+
+1. Er worden afkapregels toegepast: als het maximumtarief wordt bereikt, worden de resterende vraag verworpen.
+
+2. Time-out en opnieuw proberen: als de het begrenzen regel wordt vervuld, probeert Journey Optimizer om de vraag uit te voeren tot het eind van de onderbrekingsduur wordt bereikt.
+
+## Afbeelding{#capping}
+
+De ingebouwde API voor uitlijnen biedt een stroomopwaartse technische hulplijn die u helpt uw externe systeem te beschermen. U moet eerst de capaciteit van de externe API evalueren. Bijvoorbeeld, als Journey Optimizer 1000 vraag per seconde verzendt en uw systeem slechts 100 vraag per seconde kan steunen, moet u een het begrenzen regel bepalen zodat uw systeem niet verzadigt.
+
+De begrenzingsregels worden bepaald op zandbakniveau voor een specifiek eindpunt (geroepen URL). Tijdens runtime, verifieert Journey Optimizer of er een bepaalde het begrenzen regel is en past het bepaalde tarief tijdens de vraag aan dat eindpunt toe. Als het aantal vraag het bepaalde tarief overschrijdt, worden de resterende vraag verworpen en als fouten in het melden geteld.
+
+Een uitlijningsregel is specifiek voor één eindpunt, maar is globaal voor alle reizen van een sandbox. Dit houdt in dat de begrenzingsgroeven tussen alle reizen van een zandbak worden gedeeld.
+
+Bijvoorbeeld, laten wij zeggen dat u een het begrenzen regel van 100 vraag per seconde voor uw extern systeem hebt bepaald. Uw systeem wordt opgeroepen door een aangepaste actie tijdens 10 verschillende reizen. Als één reis 200 vraag per seconde ontvangt, zal het de 100 beschikbare groeven gebruiken en de 100 resterende groeven verwerpen. Aangezien het maximumtarief is overschreden, zullen de overige 9 reizen geen slots meer hebben. Deze granulariteit helpt het externe systeem te beschermen tegen overbelasting en vastlopen.
+
+Voor meer informatie over de afdekkende API en hoe te om het afschilderen regels te vormen, verwijs naar [deze pagina](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html).
+
+## Time-out en opnieuw proberen{#timeout}
+
+Als aan de afschilderregel is voldaan, wordt de time-outregel toegepast.
+
+In elke reis, kunt u een onderbrekingsduur bepalen. Dit staat u toe om een maximumduur te plaatsen wanneer het roepen van een extern systeem. De duur van de onderbreking wordt gevormd in de eigenschappen van een reis. Zie [deze pagina](../building-journeys/journey-gs.md#timeout_and_error).
+
+Deze onderbreking is globaal aan alle externe vraag (externe API vraag in douaneacties en de bronnen van douanegegevens). De standaardwaarde is 5 seconden.
+
+Tijdens de gedefinieerde time-outduur probeert Journey Optimizer het externe systeem aan te roepen. Na de eerste vraag, kan een maximum van drie herpogingen worden uitgevoerd tot het eind van onderbrekingsduur wordt bereikt. Het aantal pogingen kan niet worden gewijzigd.
+
+Bij elke poging wordt één sleuf gebruikt. Als u een maximum van 100 vraag per seconde hebt en elk van uw vraag vereist twee herpogingen, daalt het tarief aan 30 vraag per seconde (elke vraag gebruikt 3 groeven: de eerste oproep en twee pogingen).
+
+De waarde voor de time-outduur is afhankelijk van het gebruiksgeval. Als u uw bericht snel wilt verzenden, bijvoorbeeld wanneer de client de winkel binnengaat, wilt u geen lange time-out instellen. Hoe langer de time-out is, hoe meer items in de wachtrij worden geplaatst. Dit kan de prestaties sterk beïnvloeden. Als Journey Optimizer 1000 vraag per seconden uitvoert, kan het houden van 5 of 15 seconden van gegevens het systeem snel overweldigen.
+
+Laten we een voorbeeld nemen voor een time-out van 5 seconden.
+
+* De eerste vraag duurt minder dan 5 seconden: de vraag succesvol is, wordt geen opnieuw uitgevoerd.
+* De eerste vraag duurt langer 5 seconden: de oproep wordt geannuleerd en er wordt niet opnieuw geprobeerd. Het wordt geteld als een time-outfout in de rapportage.
+* De eerste vraag ontbreekt na 2 seconden (het externe systeem keert een fout terug): 3 seconden over voor nieuwe pogingen, als er afsluitende sleuven beschikbaar zijn.
+   * Als één van de drie pogingen succesvol vóór het eind van 5 seconden is, wordt de vraag uitgevoerd, en er is geen fout.
+   * Als het einde van de time-outduur tijdens de nieuwe pogingen wordt bereikt, wordt de aanroep geannuleerd en geteld als een time-outfout in de rapportage.
+
+## Veelgestelde vragen{#faq}
+
+**Hoe kan ik een het in kaart brengen regel vormen? Is er een standaard het afschilderen regel?**
+
+Standaard is er geen uitlijningsregel. De begrenzingsregels worden bepaald op zandbakniveau voor een specifiek eindpunt (geroepen URL), gebruikend Capping API. Zie [deze sectie](../configuration/external-systems.md#capping) en [deze pagina](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html).
+
+**Hoeveel pogingen worden uitgevoerd? Kan ik het aantal pogingen veranderen of een minimale wachttijd tussen pogingen bepalen?**
+
+Voor een bepaalde vraag, kan een maximum van drie pogingen na de eerste vraag worden uitgevoerd, tot het eind van onderbrekingsduur wordt bereikt. Het aantal pogingen en de tijd tussen elke keer opnieuw proberen kunnen niet worden gewijzigd. Zie [deze sectie](../configuration/external-systems.md#timeout).
+
+**Waar kan ik de onderbreking vormen? Is er een maximumwaarde?**
+
+In elke reis, kunt u een onderbrekingsduur bepalen. De duur van de onderbreking wordt gevormd in de eigenschappen van een reis. De time-outduur moet liggen tussen 1 en 30 seconden. Zie [deze sectie](../configuration/external-systems.md#timeout) en [deze pagina](../building-journeys/journey-gs.md#timeout_and_error).
