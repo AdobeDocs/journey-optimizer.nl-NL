@@ -2,10 +2,10 @@
 solution: Journey Orchestration
 title: Informatie over het configureren van aangepaste acties
 description: Leer hoe u een aangepaste handeling configureert
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: 433d750f7fde36b049bc36be2325627270c154a0
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 9%
+source-wordcount: '578'
+ht-degree: 8%
 
 ---
 
@@ -69,6 +69,10 @@ Wanneer het vormen van een douaneactie, moet u de volgende **[!UICONTROL URL Con
 Plak in de sectie **[!UICONTROL Message parameters]** een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden.
 
 ![](../assets/customactionpayloadmessage.png)
+
+>[!NOTE]
+>
+>Veldnamen in de payload mogen geen &quot;.&quot; bevatten teken.
 
 U kunt het parametertype definiëren (bijvoorbeeld: tekenreeks, geheel getal, enz.).
 
