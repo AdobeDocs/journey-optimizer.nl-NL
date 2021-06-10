@@ -6,9 +6,9 @@ user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhanke
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
+source-git-commit: b38f24f074671651a54cc4b5a5de9aa48809cb0a
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '635'
 ht-degree: 42%
 
 ---
@@ -66,6 +66,7 @@ ht-degree: 42%
       + [Beperkingen](using/building-journeys/limitations.md)
       + [Journeyversies](using/building-journeys/journey-versions.md)
       + [Testprofielen](using/building-journeys/creating-test-profiles.md)
+      + [Integreren met intelligente services](using/building-journeys/ai-services-overview.md)
    + Een journey maken{#create-journey}
       + [Aan de slag met reizen](using/building-journeys/journey-gs.md)
       + [Uw journey ontwerpen](using/building-journeys/using-the-journey-designer.md)
@@ -208,6 +209,7 @@ ht-degree: 42%
          + [Primair e-mailadres wijzigen](using/configuration/primary-email-addresses.md)
    + Reizen {#configure-journeys} configureren
       + [Informatie over gegevensbronnen, gebeurtenissen en handelingen](using/configuration/about-data-sources-events-actions.md)
+      + [Integreren met externe systemen](using/configuration/external-systems.md)
       + Configuratie van gebeurtenissen {#events-journeys}
          + [Algemeen principe](using/event/about-events.md)
          + Eenmalige gebeurtenis {#unitary-events} configureren
