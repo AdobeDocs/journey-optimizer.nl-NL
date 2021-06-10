@@ -1,9 +1,9 @@
 ---
 title: Profiel bijwerken
 description: Leer hoe u de activiteit van het updateprofiel tijdens een reis gebruikt
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+source-git-commit: ce9484905b359900096858e46c05aef09efaa760
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,11 @@ Raadpleeg deze [sectie](../building-journeys/creating-test-profiles.md#create-te
 
    ![](../assets/profileupdate2.png)
 
-1. Selecteer een gegevensset in de lijst. De selectie van de dataset zal bepalen waar de nieuwe waarde van het profielgebied zal worden opgeslagen.
+1. Selecteer een gegevensset in de lijst.
+
+   >[!NOTE]
+   >
+   >Met de handeling **Profiel bijwerken** worden de profielgegevens in realtime bijgewerkt, maar worden de gegevenssets niet bijgewerkt. De datasetselectie is nodig aangezien het profiel een verslag met betrekking tot een dataset is.
 
 1. Klik op het veld **Waarde** om de waarde te definiëren die u wilt gebruiken:
 
