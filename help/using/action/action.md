@@ -2,9 +2,9 @@
 solution: Journey Orchestration
 title: Acties
 description: Leer hoe u een actie configureert
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+source-git-commit: 8ae771014808f0bf87087fe3dc926bf94d94495e
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '213'
 ht-degree: 73%
 
 ---
@@ -31,8 +31,6 @@ Met aangepaste acties kunt u een verbinding met een extern systeem configureren 
 >De configuratie van douaneacties moet door een **technische gebruiker** worden uitgevoerd.
 
 De acties zijn beschikbaar in het linkerpalet van uw reis, in de **[!UICONTROL Action]** categorie. Zie [deze pagina](../building-journeys/about-journey-activities.md#action-activities).
-
-In de lijst met **Acties** kunt u op C drukken om een nieuwe journey, actie, databron of gebeurtenis te maken. Zie [deze sectie](../user-interface.md#cjm-accessibility) voor meer informatie over sneltoetsen.
 
 Blader naar **[!UICONTROL Administration]** / **[!UICONTROL Configuration]** in de linkernavigatie om de actielijst weer te geven of een nieuwe actie te configureren. De lijst met acties wordt weergegeven. Zie [deze pagina](../user-interface.md) voor meer informatie over de interface.
 
