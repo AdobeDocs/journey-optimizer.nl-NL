@@ -1,10 +1,10 @@
 ---
 title: Gebruikersinterface
 description: Journey Optimizer-gebruikersinterface
-source-git-commit: 539551998d311a4860ad01b1bfe37cc2f77f8030
+source-git-commit: 35fcbabd227f11890075955265b1178a91214607
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 34%
+source-wordcount: '1116'
+ht-degree: 18%
 
 ---
 
@@ -148,59 +148,3 @@ Als een beschrijvende naam beschikbaar is, wordt het veld weergegeven als `<frie
 >[!NOTE]
 >
 >De beschrijvende namen worden niet opgehaald wanneer u velden selecteert uit een samenvoeging van schema’s.
-
-## Toegankelijkheid{#cjm-accessibility}
-
-Hier volgt een overzicht van de verschillende sneltoetsen die beschikbaar zijn in de interface van [!DNL Journey Optimizer].
-
-_In de lijst van journey’s, acties, databronnen of gebeurtenissen:_
-
-* Druk op **c** om een nieuwe journey, actie, databron of gebeurtenis te maken.
-
-_Bij het configureren van een activiteit in een journey:_
-
-Het canvas wordt automatisch opgeslagen. U kunt linksboven op het canvas de opslagstatus zien.
-
-* Druk op **Escape** om het configuratievenster te sluiten en de aangebrachte wijzigingen te negeren. Dit is het equivalent van de knop **[!UICONTROL Cancel]**.
-* Druk op **Enter** of klik buiten het deelvenster om het configuratievenster te sluiten. Wijzigingen worden opgeslagen. Dit is het equivalent van de knop **[!UICONTROL Ok]**.
-* Als u op **Verwijderen** of **Backspace** klikt, kunt u drukken op **Enter** om de verwijdering te bevestigen.
-
-_In pop-ups:_
-
-* Druk op **Escape** om de pop-up te sluiten (equivalent van de knop **[!UICONTROL Cancel]**).
-* Druk op **Enter** om op te slaan of te bevestigen (equivalent van de knop **[!UICONTROL Ok]** of **[!UICONTROL Save]**).
-
-_In het configuratiedeelvenster van de gebeurtenis, databron of actie:_
-
-* Druk op **Escape** om het configuratievenster te sluiten zonder het op te slaan.
-* Druk op **Enter** om wijzigingen op te slaan en het configuratievenster te sluiten.
-* Druk op **Tab** om van het ene te configureren veld naar het andere te gaan.
-
-_In de editor voor eenvoudige expressies_
-
-* Dubbelklik op een veld aan de linkerkant om een query toe te voegen (equivalent van slepen en neerzetten).
-
-_Wanneer u door XDM-velden bladert:_
-
-* Als u een node inschakelt, worden alle velden van de node geselecteerd.
-
-_In alle tekstgebieden:_
-
-* Selecteer de tekst met de toetsencombinatie **Ctrl/Command + A**. In de payloadvoorvertoning wordt de payload geselecteerd.
-
-_In een scherm met een zoekbalk:_
-
-* Selecteer de zoekbalk met de toetsencombinatie **Ctrl/Command + F**.
-
-_Op het canvas van een journey:_
-
-* Gebruik de toetsencombinatie **Ctrl/Command + A** om alle activiteiten te selecteren.
-* Wanneer een of meerdere activiteiten zijn geselecteerd, drukt u op **Verwijderen** of **Backspace** om deze te verwijderen. Vervolgens kunt u in het pop-upvenster ter bevestiging op **Enter** drukken.
-* Dubbelklik op een activiteit in het linkerpalet om deze toe te voegen op de eerste beschikbare positie (van boven naar beneden).
-
-_Op een reis:_
-
-* Druk op **T** om de testmodus in of uit te schakelen.
-* Druk in de testmodus op **E** om een gebeurtenis te activeren.
-* Als in de testmodus de optie **Eén profiel tegelijk** is geselecteerd voor een op een segment gebaseerde reis, drukt u op **P** om een gebeurtenis te activeren.
-* Druk in de testmodus op **L** om de logbestanden weer te geven.
