@@ -1,15 +1,15 @@
 ---
-product: experience cloud
+product: Journey Optimizer
 audience: end-user
 user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: 48094061c6b36016d443f65cd9a882bc57425fff
+source-git-commit: a73430f57d6e482de08b3e01a8acef081945405b
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 42%
+ht-degree: 48%
 
 ---
 
@@ -125,9 +125,9 @@ ht-degree: 42%
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
       + [Rangschikkingsformules maken](using/offers/offer-library/create-ranking-formulas.md)
-   + Besluiten maken en beheren {#create-manage-activities}
-      + [Besluiten maken](using/offers/offer-activities/create-offer-activities.md)
-      + [Aanbiedingen selecteren in beslissingen configureren](using/offers/offer-activities/configure-offer-selection.md)
+   + Beslissingen nemen en beheren {#create-manage-activities}
+      + [Beslissingen nemen](using/offers/offer-activities/create-offer-activities.md)
+      + [Selectie van aanbiedingen in beslissingen configureren](using/offers/offer-activities/configure-offer-selection.md)
    + Beslissingsbeheerrapporten maken {create-reports}
       + [Aan de slag met besluitvormingsgebeurtenissen](using/offers/reports/get-started-events.md)
       + [Belangrijke informatie over gebeurtenissen met betrekking tot Beslissingsbeheer](using/offers/reports/key-information.md)
@@ -135,10 +135,10 @@ ht-degree: 42%
    + De aanbiedingscatalogus exporteren {#export-catalog}
       + [Aan de slag met het exporteren van de aanbiedingscatalogus ](using/offers/export-catalog/get-started-export.md)
       + [De geëxporteerde aanbiedingscatalogus openen](using/offers/export-catalog/access-dataset.md)
-      + [Gegevensset met gepersonaliseerde aanbiedingen](using/offers/export-catalog/export-offers.md)
-      + [Gegevensset besluiten](using/offers/export-catalog/export-decisions.md)
-      + [Gegevensset voor plaatsingen](using/offers/export-catalog/export-placements.md)
-      + [Gegevensset voor alternatieven](using/offers/export-catalog/export-fallback.md)
+      + [Dataset met gepersonaliseerde aanbiedingen](using/offers/export-catalog/export-offers.md)
+      + [Dataset met beslissingen](using/offers/export-catalog/export-decisions.md)
+      + [Dataset met plaatsingen](using/offers/export-catalog/export-placements.md)
+      + [Dataset met alternatieven](using/offers/export-catalog/export-fallback.md)
    + API-referentie {#api-reference}
       + [Aan de slag](using/offers/api-reference/getting-started.md)
       + Aanbiedingen maken en beheren met behulp van API’s {#offers-api}
@@ -173,15 +173,15 @@ ht-degree: 42%
             + [Een verzameling bijwerken](using/offers/api-reference/offers-api/collections/update.md)
             + [Een verzameling verwijderen](using/offers/api-reference/offers-api/collections/delete.md)
          + Alternatieve aanbiedingen {#fallback-offers}
-            + [Alternatieve aanbiedingen vermelden](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
+            + [Alternatieve aanbiedingen weergeven](using/offers/api-reference/offers-api/fallback-offers/fallback-list.md)
             + [Een alternatieve aanbieding opzoeken](using/offers/api-reference/offers-api/fallback-offers/lookup.md)
             + [Een alternatieve aanbieding maken](using/offers/api-reference/offers-api/fallback-offers/create.md)
             + [Een alternatieve aanbieding bijwerken](using/offers/api-reference/offers-api/fallback-offers/update.md)
             + [Een alternatieve aanbieding verwijderen](using/offers/api-reference/offers-api/fallback-offers/delete.md)
-      + Besluiten maken en beheren met behulp van API&#39;s {#activities-api}
-         + [Keuzen weergeven](using/offers/api-reference/activities-api/activities/activities-list.md)
+      + Beslissingen nemen en beheren met behulp van API’s {#activities-api}
+         + [Beslissingen weergeven](using/offers/api-reference/activities-api/activities/activities-list.md)
          + [Een beslissing opzoeken](using/offers/api-reference/activities-api/activities/lookup.md)
-         + [Een beslissing maken](using/offers/api-reference/activities-api/activities/create.md)
+         + [Een beslissing nemen](using/offers/api-reference/activities-api/activities/create.md)
          + [Een beslissing bijwerken](using/offers/api-reference/activities-api/activities/update.md)
          + [Een beslissing verwijderen](using/offers/api-reference/activities-api/activities/delete.md)
       + Levering aanbieden met behulp van API&#39;s {#offer-delivery}
