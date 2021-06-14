@@ -1,10 +1,14 @@
 ---
 title: Gebruikersinterface
 description: Meer informatie over de gebruikersinterface van de Bibliotheek van de Aanbieding.
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Aanbiedingen
+topic: Integraties
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 0%
+source-wordcount: '451'
+ht-degree: 1%
 
 ---
 
