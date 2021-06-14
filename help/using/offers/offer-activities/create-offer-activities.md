@@ -1,14 +1,18 @@
 ---
-title: Besluiten maken
+title: Beslissingen nemen
 description: Leer hoe u beslissingen maakt
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Aanbiedingen
+topic: Integraties
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 3%
+source-wordcount: '576'
+ht-degree: 4%
 
 ---
 
-# Beslissingen maken {#create-offer-activities}
+# Beslissingen nemen {#create-offer-activities}
 
 Besluiten (voorheen bekend als aanbiedingsactiviteiten) zijn containers voor uw aanbiedingen die gebruikmaken van de Offertenbeslissingsengine om de beste aanbieding te kiezen, afhankelijk van het doel van de levering.
 
