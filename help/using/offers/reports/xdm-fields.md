@@ -1,9 +1,13 @@
 ---
 title: Toegang tot gebeurtenissen van XDM-velden
 description: Meer informatie over het XDM-schema DecisioningEvents.
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Aanbiedingen
+topic: Integraties
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '108'
 ht-degree: 67%
 
 ---
