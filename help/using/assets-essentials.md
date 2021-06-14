@@ -1,9 +1,13 @@
 ---
 title: Adobe Experience Manager Assets Essentials
 description: Aan de slag met Assets Essentials
-source-git-commit: ba350f4d482238b733594a71441e2d01e536e282
+feature: Overzicht
+topic: Contentmanagement
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '382'
 ht-degree: 3%
 
 ---
