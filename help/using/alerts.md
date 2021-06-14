@@ -1,9 +1,13 @@
 ---
 title: Waarschuwingen in berichten
 description: Leer hoe te om berichtinhoudbevestiging te controleren en problemen op te lossen
-source-git-commit: 627ffade10a420c6dea7377f6e39360abad44f32
+feature: Journeys
+topic: Contentmanagement
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
