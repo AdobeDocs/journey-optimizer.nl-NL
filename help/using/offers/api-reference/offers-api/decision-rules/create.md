@@ -1,9 +1,13 @@
 ---
 title: Beslissingsregels maken
 description: Beslissingsregels zijn beperkingen die worden toegevoegd aan een gepersonaliseerd aanbod en die worden toegepast op een profiel om te bepalen of het in aanmerking komt voor een aanbieding.
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+feature: Aanbiedingen
+topic: Integraties
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '140'
 ht-degree: 7%
 
 ---
