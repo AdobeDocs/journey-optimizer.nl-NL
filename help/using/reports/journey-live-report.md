@@ -1,9 +1,13 @@
 ---
 title: Reisverslag
 description: Leer hoe u gegevens van het live rapport over de reis kunt gebruiken
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Rapportage
+topic: Contentmanagement
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
