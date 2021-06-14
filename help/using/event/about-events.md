@@ -1,9 +1,13 @@
 ---
 title: Informatie over gebeurtenissen
 description: Meer informatie over gebeurtenissen
-source-git-commit: 5c3f1e4d916c7259f25208785788d2566b316934
+feature: Gebeurtenissen
+topic: Beheer
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '726'
 ht-degree: 32%
 
 ---
