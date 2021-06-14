@@ -1,14 +1,18 @@
 ---
-title: Aanbiedingen selecteren in beslissingen configureren
+title: Selectie van aanbiedingen in beslissingen configureren
 description: Leer hoe u de selectie van aanbiedingen kunt beheren in beslissingen.
-source-git-commit: db7fd318b14d01a0369c934a3e01c6e368d7658d
+feature: Aanbiedingen
+topic: Integraties
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 2%
+source-wordcount: '253'
+ht-degree: 7%
 
 ---
 
-# Aanbiedingen selecteren in beslissingen {#offers-selection-in-activities}
+# Selectie van aanbiedingen in beslissingen configureren {#offers-selection-in-activities}
 
 ## Info over de prioriteit Aanbiedingen {#about-offers-priority}
 
