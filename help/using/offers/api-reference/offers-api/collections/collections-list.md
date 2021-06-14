@@ -1,9 +1,13 @@
 ---
 title: Verzamelingen weergeven
 description: Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+feature: Aanbiedingen
+topic: Integraties
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '267'
 ht-degree: 3%
 
 ---
