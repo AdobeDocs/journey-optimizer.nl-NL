@@ -1,14 +1,18 @@
 ---
-title: Besluiten maken
+title: Beslissingen nemen
 description: Een beslissing bevat de logica die de selectie van een aanbieding informeert.
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+feature: Aanbiedingen
+topic: Integraties
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 2%
+source-wordcount: '121'
+ht-degree: 7%
 
 ---
 
-# Een beslissing maken
+# Een beslissing nemen
 
 U kunt een beslissing (die eerder als aanbiedingsactiviteit wordt bekend) tot stand brengen door een verzoek van de POST aan [!DNL Offer Library] API te richten, terwijl het verstrekken van uw containeridentiteitskaart
 
