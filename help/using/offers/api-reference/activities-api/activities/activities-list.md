@@ -1,14 +1,18 @@
 ---
-title: Keuzen weergeven
+title: Beslissingen weergeven
 description: Een beslissing bevat de logica die de selectie van een aanbieding informeert.
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+feature: Aanbiedingen
+topic: Integraties
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 1%
+source-wordcount: '258'
+ht-degree: 3%
 
 ---
 
-# Keuzen weergeven
+# Beslissingen weergeven
 
 Een beslissing (voorheen bekend als aanbiedingsactiviteit) bevat de logica die de keuze van een aanbieding informeert.
 
