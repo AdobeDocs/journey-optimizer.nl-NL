@@ -1,9 +1,13 @@
 ---
 title: Belangrijke stappen om een aanbieding te maken
 description: Ontdek de belangrijkste stappen die nodig zijn om een aanbieding te maken.
-source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
+feature: Aanbiedingen
+topic: Integraties
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '151'
 ht-degree: 16%
 
 ---
