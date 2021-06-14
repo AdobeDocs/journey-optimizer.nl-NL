@@ -1,9 +1,13 @@
 ---
 title: Onderdrukkingslijst
 description: Leer wat de onderdrukkingslijst is, wat het doel ervan is en wat er in staat.
-source-git-commit: a2eee802f82552e56ced00f93e5e4c8a7b3feb7a
+feature: Leverbaarheid
+topic: Contentmanagement
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '643'
 ht-degree: 4%
 
 ---
