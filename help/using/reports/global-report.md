@@ -1,10 +1,14 @@
 ---
 title: Algemeen rapport
 description: Leer hoe u gegevens uit het algemene rapport kunt gebruiken
-source-git-commit: c2bbc0335b5f123c1d2b0052edf1b90937011e19
+feature: Rapportage
+topic: Contentmanagement
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 0%
+source-wordcount: '240'
+ht-degree: 1%
 
 ---
 
