@@ -1,10 +1,14 @@
 ---
 title: 'Adobe Experience Platform-databron '
 description: Leer hoe u Adobe Experience Platform-gegevensbron configureert
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Databronnen
+topic: Beheer
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 9%
+source-wordcount: '353'
+ht-degree: 10%
 
 ---
 
