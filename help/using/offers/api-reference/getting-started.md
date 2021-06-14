@@ -1,9 +1,13 @@
 ---
 title: Aan de slag
 description: Leer hoe u de bibliotheek-API van de Aanbieding kunt gebruiken om belangrijke bewerkingen uit te voeren met behulp van de beslissingsbeheerengine.
-source-git-commit: 741fe2b614e3ded57c4a7ecd9b7333bdd99ab359
+feature: Aanbiedingen
+topic: Integraties
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '601'
 ht-degree: 2%
 
 ---
