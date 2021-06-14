@@ -1,9 +1,13 @@
 ---
 title: Journaal algemeen rapport
 description: Meer informatie over het gebruik van gegevens uit het global report van de reis
-source-git-commit: f04e73187439462fc1e22c6c66398a139fbeaa5a
+feature: Rapportage
+topic: Contentmanagement
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
