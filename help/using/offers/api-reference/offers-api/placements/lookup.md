@@ -1,10 +1,14 @@
 ---
 title: Een plaatsing opzoeken
 description: Plaatsingen zijn containers die worden gebruikt om uw voorstellen te tonen.
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+feature: Aanbiedingen
+topic: Integraties
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 1%
+source-wordcount: '149'
+ht-degree: 2%
 
 ---
 
