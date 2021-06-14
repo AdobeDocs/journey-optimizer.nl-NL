@@ -1,10 +1,14 @@
 ---
 title: Adobe Experience Platform Web SDK
 description: Met de Adobe Experience Platform Web SDK kunt u persoonlijke aanbiedingen ophalen en renderen die u hebt gemaakt met behulp van API's of de aanbiedingsbibliotheek.
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+feature: Aanbiedingen
+topic: Integraties
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 5%
+source-wordcount: '173'
+ht-degree: 6%
 
 ---
 
