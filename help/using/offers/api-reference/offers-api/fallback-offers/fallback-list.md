@@ -1,14 +1,18 @@
 ---
-title: Alternatieve aanbiedingen vermelden
+title: Alternatieve aanbiedingen weergeven
 description: Aan klanten wordt een fallback-aanbieding gestuurd als zij niet in aanmerking komen voor andere aanbiedingen
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+feature: Aanbiedingen
+topic: Integraties
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '285'
 ht-degree: 3%
 
 ---
 
-# Alternatieve aanbiedingen vermelden
+# Alternatieve aanbiedingen weergeven
 
 Aan klanten wordt een terugvalaanbieding gestuurd als zij niet in aanmerking komen voor andere aanbiedingen. De stappen om een reserveaanbieding tot stand te brengen bestaan uit het creëren van één of verscheidene vertegenwoordiging, zoals wanneer het creëren van een aanbieding.
 
