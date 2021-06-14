@@ -1,10 +1,14 @@
 ---
 title: Aan de slag met Beslissingsbeheer
 description: Aan de slag met Beslissingsbeheer. Meer informatie over de architectuur, aanbiedingen en beslissingen en over veelvoorkomende gebruiksgevallen die u kunt uitvoeren.
-source-git-commit: b527186d0722492f5f509f1ae0a5315b9a9f771e
+feature: Aanbiedingen
+topic: Integraties
+role: User
+level: Beginner
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 34%
+source-wordcount: '496'
+ht-degree: 35%
 
 ---
 
@@ -28,7 +32,7 @@ Voordelen zijn:
 
 ![](../../assets/do-not-localize/how-to-video.png) [Bekijk deze ](#tutorial-videos) zelfstudievideo&#39;s voor meer informatie over Beslissingsbeheer.
 
-## Informatie over aanbiedingen en beslissingen {#offers-offer-activities}
+## Aanbiedingen en beslissingen {#offers-offer-activities}
 
 Een **Aanbieding** bestaat uit content, geschiktheidsregels en restricties die de voorwaarden bepalen waaronder deze aan uw klanten wordt gepresenteerd.
 
