@@ -1,9 +1,13 @@
 ---
 title: Een bedrijfsgebeurtenis configureren
 description: Leer hoe u een zakelijke gebeurtenis maakt
-source-git-commit: 4464ea7169424c1ec6212394b8bda79a9bec1913
+feature: Gebeurtenissen
+topic: Beheer
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '819'
 ht-degree: 14%
 
 ---
