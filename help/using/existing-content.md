@@ -1,10 +1,14 @@
 ---
 title: Uw e-mails importeren of coderen
 description: Leer hoe u e-mailinhoud importeert of codeert voor uw e-mails
-source-git-commit: 55b9e5d8ed259ec6ed7746e835691d7d6261a8a4
+feature: Overzicht
+topic: Contentmanagement
+role: User
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 4%
+source-wordcount: '340'
+ht-degree: 5%
 
 ---
 
