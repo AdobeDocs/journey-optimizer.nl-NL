@@ -1,10 +1,14 @@
 ---
 title: Persoonlijke aanbiedingen weergeven
 description: Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+feature: Aanbiedingen
+topic: Integraties
+role: Data Engineer
+level: Experienced
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 2%
+source-wordcount: '176'
+ht-degree: 3%
 
 ---
 
