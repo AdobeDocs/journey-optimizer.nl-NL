@@ -1,9 +1,13 @@
 ---
 title: Aan de slag met de pushconfiguratie
 description: De gegevensstroom van pushmeldingen en componenten begrijpen
-source-git-commit: 03d003682d796906fcf89af02aa98d549b5214a3
+feature: Applicatie-instellingen
+topic: Beheer
+role: Administrator
+level: Intermediate
+source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
