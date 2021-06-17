@@ -5,16 +5,14 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '265'
 ht-degree: 3%
 
 ---
 
 # Een bericht toevoegen tijdens een rit
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] berichtmogelijkheden zijn ingebouwd. U hoeft alleen uw inhoud te ontwerpen en uw bericht te publiceren. Zie [deze sectie](../get-started-content.md). Vervolgens voegt u eenvoudig een push- of e-mailbericht toe dat is ontworpen met Journey Optimizer.
 
@@ -22,7 +20,7 @@ Als u een systeem van derden gebruikt om uw berichten te verzenden, kunt u een d
 
 ## Een berichtactiviteit toevoegen
 
-1. Zoals altijd, begin uw reis met een gebeurtenis of een **Gelezen segment** activiteit.
+1. Zoals altijd, begin uw reis met een gebeurtenis of een **Read Segment** activiteit.
 
    ![](../assets/jo-message0.png)
 
@@ -38,7 +36,7 @@ Als u een systeem van derden gebruikt om uw berichten te verzenden, kunt u een d
 
    ![](../assets/jo-message3.png)
 
-1. Kies een bericht en klik **Select**. U kunt ook rechtstreeks vanuit dit scherm een nieuw bericht maken door op **Nieuw** te klikken.
+1. Kies een bericht en klik **Select**. U kunt een nieuw bericht direct van dit scherm tot stand brengen door **Create bericht** te klikken.
 
    ![](../assets/jo-message4-ter.png)
 
@@ -48,10 +46,10 @@ Als u een systeem van derden gebruikt om uw berichten te verzenden, kunt u een d
 
 1. Voeg de volgende stappen aan uw reis toe.
 
-## Kanaalparameters
+## E-mailparameters en push-parameters
 
-De **Channel** parameters worden getoond. Deze velden zijn alleen-lezen. Deze configuratie wordt uitgevoerd wanneer het creëren van het bericht. Zie [deze sectie](../get-started-content.md).
+In de secties **[!UICONTROL Email parameters]** en **[!UICONTROL Push parameters]** worden alleen-lezen velden weergegeven. U voert typisch deze configuratie uit wanneer het creëren van het bericht. Zie [deze sectie](../get-started-content.md).
 
 ![](../assets/jo-message4.png)
 
-Met het pictogram **Bewerkingsveld inschakelen** aan de rechterkant van het veld kunt u een specifieke waarde afdwingen. Dit kan handig zijn voor testdoeleinden. Voor een e-mailbericht kunt u bijvoorbeeld uw e-mailadres toevoegen. Wanneer u de reis publiceert, wordt het e-mailbericht naar u verzonden.
+Als u een specifieke waarde wilt forceren, kunt u het pictogram **Inschakelen van parameteroverschrijving** rechts van het veld gebruiken. Deze optie kan nuttig zijn voor testdoeleinden. Voor een e-mailbericht kunt u bijvoorbeeld uw e-mailadres toevoegen. Nadat u de reis hebt gepubliceerd, wordt het e-mailbericht naar u verzonden.
