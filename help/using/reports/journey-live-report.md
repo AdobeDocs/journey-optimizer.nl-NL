@@ -1,20 +1,18 @@
 ---
-title: Reisverslag
+title: Journaal live
 description: Leer hoe u gegevens van het live rapport over de reis kunt gebruiken
 feature: Rapportage
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
 
 # Reis live rapport {#journey-live-report}
-
-![](../assets/do-not-localize/badge.png)
 
 Live-rapport over reizen is rechtstreeks vanaf uw reis toegankelijk met de knop **[!UICONTROL Live report]**.
 
@@ -64,7 +62,7 @@ Voor een gedetailleerd rapport over een specifieke e-maillevering, verwijs naar 
 
 ![](../assets/report_email_1.png)
 
-De widgets **[!UICONTROL Sending Statistics]** en **[!UICONTROL Sending metrics by Email]** geven aan hoe succesvol uw levering is:
+In de widget **[!UICONTROL Email Sending Statistics]** worden de belangrijkste gegevens met betrekking tot uw bericht weergegeven:
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
@@ -72,9 +70,7 @@ De widgets **[!UICONTROL Sending Statistics]** en **[!UICONTROL Sending metrics 
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
-<!--Hard and bounce - by Email-->
-
-In de grafiek **[!UICONTROL Email summary]** worden de belangrijkste gegevens met betrekking tot uw bericht weergegeven:
+De tabel **[!UICONTROL Sending metrics by Email]** en de grafiek **[!UICONTROL Email Summary]** geven aan hoe succesvol uw levering is:
 
 * **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
 
@@ -88,9 +84,13 @@ In de grafiek **[!UICONTROL Email summary]** worden de belangrijkste gegevens me
 
 * **[!UICONTROL Clicks]**: Het aantal keren dat op een inhoud is geklikt in een levering.
 
+* **[!UICONTROL Unsubscribe]**: Aantal klikken op de verbinding van het unsubscription.
+
+* **[!UICONTROL Spam complaints]**: Aantal keren dat een bericht als spam of junk werd verklaard.
+
 ![](../assets/report_email_2.png)
 
-De widgets **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]** bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd, zoals:
+De widgets **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** en **[!UICONTROL Hard and bounce - by Email]** bevatten de beschikbare gegevens met betrekking tot berichten die worden verzonden, zoals:
 
 * **[!UICONTROL Hard bounce]**: Het totale aantal permanente fouten, zoals een onjuist e-mailadres. Dit omvat een foutbericht waarin expliciet wordt aangegeven dat het adres ongeldig is, zoals Onbekende gebruiker.
 
