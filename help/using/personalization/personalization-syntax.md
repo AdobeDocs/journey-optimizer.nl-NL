@@ -5,17 +5,15 @@ feature: Personalisatie
 topic: Personalisatie
 role: Data Engineer
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 74662ee07422d507889788a790547c774b65f944
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '559'
 ht-degree: 4%
 
 ---
 
 
 # Personalisatiesyntaxis {#personalization-syntax}
-
-![](../assets/do-not-localize/badge.png)
 
 Personalisatie in [!DNL Journey Optimizer] is gebaseerd op de sjabloonsyntaxis genoemd Handlebars.
 Voor een volledige beschrijving van de syntaxis Handlebars, verwijs naar [documentatie HandlebarsJS](https://handlebarsjs.com/).
@@ -24,14 +22,12 @@ Er worden een sjabloon en een invoerobject gebruikt om HTML of andere tekstindel
 
 Voorbeeld van eenvoudige expressie:
 
-```
-{{profile.person.name}}
-```
+`{{profile.person.name}}`
 
 waarbij:
 
-* **** profiel is een naamruimte.
-* **person.** namis een token dat wordt samengesteld door kenmerken. De kenmerkstructuur wordt gedefinieerd in een Adobe Experience Platform XDM-schema. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl).
+* `profile` is een naamruimte.
+* `person.name` is een token dat wordt samengesteld door kenmerken. De kenmerkstructuur wordt gedefinieerd in een Adobe Experience Platform XDM-schema. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl).
 
 ## Algemene syntaxisregels
 
@@ -59,15 +55,19 @@ De attributen moeten in het schema worden bepaald alvorens in een [!DNL Journey 
 
 **Voorbeeldreferenties:**
 
-```
-{{profile.person.name.fullName}}
-{{profile.person.name.firstName}}
-{{profile.person.gender}}
-{{profile.personalEmail.address}}
-{{profile.mobilePhone.number}}
-{{profile.homeAddress.city}}
-{{profile.faxPhone.number}}
-```
+`{{profile.person.name.fullName}}`
+
+`{{profile.person.name.firstName}}`
+
+`{{profile.person.gender}}`
+
+`{{profile.personalEmail.address}}`
+
+`{{profile.mobilePhone.number}}`
+
+`{{profile.homeAddress.city}}`
+
+`{{profile.faxPhone.number}}`
 
 ## Segmenten{#perso-segments}
 
@@ -84,20 +84,18 @@ Als u naar een aanbieding wilt verwijzen, moet u een pad declareren met de versc
 
 Dit pad heeft de volgende structuur:
 
-```
-offers.Type.[Placement Id].[Activity Id].Attribute
-```
+`offers.Type.[Placement Id].[Activity Id].Attribute`
 
 waarbij:
 
 * `offers` identificeert de weguitdrukking die tot aanbiedingsnamespace behoort
 * `Type`  bepaalt het type van aanbiedingsvertegenwoordiging. Mogelijke waarden zijn: `image`, `html` en `text`
 * `Placement Id` en  `Activity Id` zijn plaatsings- en activiteitsidentificatoren
-* `Attributes` specifieke kenmerken aanbieden die afhankelijk zijn van het soort aanbieding. Voorbeeld: `deliveryUrl` voor afbeeldingen.
+* `Attributes` specifieke kenmerken aanbieden die afhankelijk zijn van het soort aanbieding. Voorbeeld: `deliveryUrl` voor afbeeldingen
 
 Voor meer informatie over Besluiten API en over de Vertegenwoordiging van Aanbiedingen, verwijs naar [deze pagina](../../using/offers/api-reference/decisions-api/deliver-offers.md)
 
-Alle verwijzingen worden bevestigd tegen het Schema van Aanbiedingen met een bevestigingsmechanisme dat in [deze pagina](personalization-validation.md) wordt beschreven.
+Alle verwijzingen worden bevestigd tegen het Schema van Aanbiedingen met een bevestigingsmechanisme dat in [deze pagina](personalization-validation.md) wordt beschreven
 
 **Voorbeeldreferenties:**
 
