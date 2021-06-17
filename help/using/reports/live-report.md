@@ -5,21 +5,19 @@ feature: Rapportage
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---
 
-# Live rapport {#live-report}
+# Aan de slag met Live-rapport {#live-report}
 
-![](../assets/do-not-localize/badge.png)
+Met de **[!UICONTROL Live report]** kunt u de impact en prestaties van uw reizen en uw berichten in een ingebouwd dashboard in real-time meten en visualiseren.
+De gegevens zijn beschikbaar in **[!UICONTROL Live report]** zodra uw levering wordt verzonden of uw reis wordt uitgevoerd.
 
-Met de **[!UICONTROL Live report]** kunt u in real-time de effectiviteit van uw reizen en uw berichtprestaties meten en visualiseren met een ingebouwd dashboard.
-De gegevens van uw leveringen zijn beschikbaar in **[!UICONTROL Live report]** zodra uw levering of reis wordt uitgevoerd.
-
-* Als u een reis of leveringen in een reis, van **[!UICONTROL Journeys]** menu wilt richten, toegang uw reis en klik **[!UICONTROL Live report]** pictogram. U kunt dan de Live-rapporten van de Reizen, E-mail en Push vinden.
+* Als u een reis of leveringen in de context van een reis, van **[!UICONTROL Journeys]** menu wilt richten, toegang uw reis en klik **[!UICONTROL Live report]** pictogram. U kunt dan de Live-rapporten van de Reizen, E-mail en Push vinden.
 
    ![](../assets/report_journey.png)
 
@@ -27,11 +25,11 @@ De gegevens van uw leveringen zijn beschikbaar in **[!UICONTROL Live report]** z
 
    ![](../assets/report_2.png)
 
-## Het dashboard {#modify-dashboard} wijzigen
+## Het dashboard {#modify-dashboard} aanpassen
 
 Elk rapportdashboard kan worden gewijzigd door widgets te vergroten of te verkleinen of te verwijderen. Het wijzigen van de widgets heeft alleen invloed op het dashboard van de huidige gebruiker. Andere gebruikers zien hun eigen dashboards of de dashboards die standaard zijn ingesteld.
 
-1. Van uw levend rapport, klik **[!UICONTROL Modify dashboard]**.
+1. Van uw levend rapport, klik **[!UICONTROL Modify]**.
 
    ![](../assets/report_modify_1.png)
 
