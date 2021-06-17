@@ -5,16 +5,14 @@ feature: Gebeurtenissen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 6e2526bd3c80ad2bff59502c6537a3e2213f7bf7
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 32%
+source-wordcount: '775'
+ht-degree: 30%
 
 ---
 
 # Informatie over gebeurtenissen{#concept_gfj_fqt_52b}
-
-![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="jo_events"
@@ -51,6 +49,8 @@ Voor eenheidsgebeurtenissen zijn er twee typen gebeurtenis-id:
    >Een afschilderingsregel wordt bepaald voor op regel-gebaseerde gebeurtenissen. Het beperkt het aantal gekwalificeerde gebeurtenissen dat een reis kan verwerken tot 5000 per seconde voor een bepaalde Organisatie (ORG). Het komt overeen met Journey Optimizer SLA&#39;s. Zie deze [pagina](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
 
 * **System-** generateDefents: deze gebeurtenissen vereisen een eventID. Dit veld eventID wordt automatisch gegenereerd wanneer de gebeurtenis wordt gemaakt. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten overgaan beschikbaar in de voorproef van de lading.
+
+Journey Optimizer vereist dat gebeurtenissen worden gestreamd of gebatcheerd naar Adobe Experience Platform. Deze gegevens hoeven niet noodzakelijkerwijs naar het Real-Time Profiel te gaan. Als u de gebeurtenissen voor segmentatie of raadpleging in een afzonderlijke reis zou willen gebruiken, adviseren wij u toelaat de dataset voor profiel.
 
 ## Datacyclus {#section_r1f_xqt_pgb}
 
