@@ -16,30 +16,28 @@ feature: Controlegroepen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '952'
 ht-degree: 6%
 
 ---
 
 # Ingebouwde productprofielen {#ootb-product-profiles}
 
-![](../assets/do-not-localize/badge.png)
-
 ## Reisbeheerder {#journey-administrator}
 
-Met het productprofiel **[!UICONTROL Journey Administrator]** hebt u toegang tot de beheermenu&#39;s, met de mogelijkheid om het beheer van reizen, berichten en besluiten te beheren en te publiceren.
+Met het productprofiel **[!UICONTROL Journey Administrator]** kunnen de beheermenu&#39;s de mogelijkheid hebben om de services voor het beheer van reizen, berichten en besluiten te beheren en te publiceren.
 
 Dit productprofiel bevat de volgende toestemmingen:
 
 | Capaciteit | Machtigingen|
 |-|-|
-|Reizen| <ul><li> **Reizen** beheren: toegang tot lees-, maak-, bewerk- en verwijderreizen.</li><li>**Reizen** publiceren: toegang tot het publiceren van reizen.</li><li>**Trajectgebeurtenissen, gegevensbronnen en handelingen** beheren: toegang tot het lezen, maken, bewerken en verwijderen van gebeurtenissen en bronnen en handelingen.</li><li>**Rapport** voor reizen weergeven: toegang tot lees-, bewerkings- en reisrapporten.</li></ul>|
-|Berichten|<ul><li> **Berichten** beheren: toegang tot het lezen, maken en bewerken van de voorvertoning van berichten en het verzenden van tests/proefdrukken.</li><li>**Voorvertoning en test** berichten beheren: toegang tot publicatieberichten.</li><li>**Berichten** publiceren: toegang tot het lezen, maken en bewerken van de voorvertoning van berichten en het verzenden van tests/proefdrukken.</li><li>**Berichtenrapport** weergeven: toegang tot lees-, uitgeef- en berichtrapport.</li></ul>|
-|Beheer|<ul><li>**Delegatie** subdomeinen beheren: toegang tot het lezen, creëren, uitgeven, en schrappen subdomain delegatie.</li><li>**IP-pools** beheren: toegang tot gelezen, creeer, geef, en schrap ip pool uit.</li><li>**PTR-records** weergeven: alleen-lezen toegang tot PTR-records.</li><li> **Algemene instellingen** voor berichten beheren: toegang tot algemene instellingen voor berichten lezen, maken, bewerken en verwijderen.</li><li>**Voorinstellingen** voor berichten beheren: toegang tot het lezen, maken, bewerken en verwijderen van contentbranding.</li><li>**Regels** voor onderdrukking beheren: toegang hebben lees, creeer, geef en schrap suppressieregels uit.</li><li>**Onderdrukkingslijst** weergeven: toegang tot het lezen en exporteren van lokale suppressielijst.</li><li>**Waarschuwingen** beheren: toegang tot het in- en uitschakelen van signaleringen voor reizen, berichten en aanspraken.</li></ul>|
-|Beheer van besluiten |<ul><li>**Besluiten** beheren: toegang tot lees-, creeer-, geef, en schrappingsbesluiten uit.</li><li>**Beoordelingsstrategieën** beheren: toegang tot het lezen, creëren, uitgeven, en schrappen het rapport van douaneberichten en gebruikshandelingen eigenschappen.</li></ul>|
-|Adobe Experience Platform|<ul><li>**Sandbox**: toegang tot sandboxen.</li><li>**Segmenten** beheren: toegang tot het lezen, creëren, uitgeven, en schrappen segmenten.</li><li>**Profielen** beheren: toegang tot profielen voor lezen, maken, bewerken en verwijderen.</li><li>**Gegevenssets** lezen: alleen-lezen toegang tot gegevenssets.</li><li>**Schema**&#39;s lezen: alleen-lezen toegang tot schema&#39;s.</li><li>**Naamruimte** voor identiteit lezen: alleen-lezen toegang tot naamruimte.</li></ul>|
+|Reizen| <ul><li> **Reizen** beheren: ritten lezen, maken, bewerken en verwijderen.</li><li>**Reizen** publiceren: ritten publiceren.</li><li>**Trajectgebeurtenissen, gegevensbronnen en handelingen** beheren: gebeurtenissen, bronnen of handelingen lezen, maken, bewerken en verwijderen.</li><li>**Rapport** voor reizen weergeven: ritsrapport lezen en bewerken.</li></ul>|
+|Berichten|<ul><li> **Berichten** beheren: bericht lezen, maken, bewerken en testen/proefdrukken verzenden.</li><li>**Voorvertoning en test** berichten beheren: publicatieberichten.</li><li>**Berichten** publiceren: berichtvoorbeeld lezen, maken en bewerken en test/proef verzenden.</li><li>**Berichtenrapport** weergeven: berichtrapport lezen en bewerken.</li></ul>|
+|Beheer|<ul><li>**Delegatie** subdomeinen beheren: subdomeindelegatie lezen, maken, bewerken en verwijderen.</li><li>**IP-pools** beheren: lees, creeer, geef, en schrap ip pool uit.</li><li>**PTR-records** weergeven: alleen-lezen toegang tot PTR-records.</li><li> **Algemene instellingen** voor berichten beheren: algemene instellingen van berichten lezen, maken, bewerken en verwijderen.</li><li>**Voorinstellingen** voor berichten beheren: het lezen, creëren, uitgeven, en schrappen van inhoudbranding.</li><li>**Regels** voor onderdrukking beheren: toegang hebben lees, creeer, geef en schrap suppressieregels uit.</li><li>**Onderdrukkingslijst** weergeven: lokale suppressielijst lezen en exporteren.</li><li>**Waarschuwingen** beheren: signaleringen voor reizen, berichten en aanspraken in- en uitschakelen.</li></ul>|
+|Beheer van besluiten |<ul><li>**Besluiten** beheren: beslissingen lezen, maken, bewerken en verwijderen.</li><li>**Beoordelingsstrategieën** beheren: U kunt rapporten met aangepaste berichten lezen, maken, bewerken en verwijderen, en functies voor handelingen gebruiken.</li></ul>|
+|Adobe Experience Platform|<ul><li>**Sandbox**: toegang verlenen tot sandboxen.</li><li>**Segmenten** beheren: segmenten lezen, maken, bewerken en verwijderen.</li><li>**Profielen** beheren: profielen lezen, maken, bewerken en verwijderen.</li><li>**Gegevenssets** lezen: alleen-lezen toegang tot gegevenssets.</li><li>**Schema**&#39;s lezen: alleen-lezen toegang tot schema&#39;s.</li><li>**Naamruimte** voor identiteit lezen: alleen-lezen toegang tot naamruimte.</li><li>**Samenvoegbeleid** beheren: beleid voor het lezen, maken, bewerken en verwijderen van samenvoegingen.</li></ul>|
 
 ## Reisfiatteur {#journey-approver}
 
@@ -49,10 +47,10 @@ Dit productprofiel bevat de volgende toestemmingen:
 
 | Capaciteit | Machtigingen|
 |-|-|
-|Reizen| <ul><li>**Reizen** beheren: toegang tot lees-, maak-, bewerk- en verwijderreizen.</li><li>**Reis** publiceren: toegang tot het publiceren van reizen.</li><li>**Transparante gebeurtenissen, gegevensbronnen en handelingen** weergeven: alleen-lezen toegang tot reisevenementen, aangepaste reisacties en bronnen van reisgegevens.</li><li>**Rapport** voor reizen weergeven: toegang tot lees-, bewerkings- en gebruiksactiefuncties zoals het delen van rapporten.</li></ul>|
-|Berichten| <ul><li>**Berichten** beheren: toegang tot het lezen, maken, bewerken en verwijderen van berichten.</li><li>**Publiceer** berichttoegang om berichten te publiceren.</li><li>**Voorvertoning en test** berichten beheren: toegang tot het lezen, maken en bewerken van de voorvertoning van berichten en het verzenden van tests/proefdrukken.</li><li>**Berichtenrapport** weergeven: toegang tot het lezen, creëren, uitgeven, en schrappen berichtrapport.</li></ul>|
-|Beheer van besluiten | <ul><li>**Besluiten** beheren: toegang tot het lezen, creëren, uitgeven, en schrappen van besluitvormingsentiteiten.</li><li>**Beoordelingsstrategieën** beheren: toegang tot het lezen, creëren, uitgeven, en schrappen het rapport van douaneberichten en gebruikshandelingen eigenschappen.</li></ul>|
-|Adobe Experience Platform| <ul><li>**Segmenten** beheren: toegang tot het lezen, creëren, uitgeven, en schrappen segmenten.</li><li>**Profielen** beheren: toegang tot profielen voor lezen, maken, bewerken en verwijderen.</li><li>**Gegevenssets** lezen: alleen-lezen toegang tot gegevenssets.</li><li>**Schema**&#39;s lezen: alleen-lezen toegang tot schema&#39;s.</li></ul>|
+|Reizen| <ul><li>**Reizen** beheren: ritten lezen, maken, bewerken en verwijderen.</li><li>**Reis** publiceren: ritten publiceren.</li><li>**Transparante gebeurtenissen, gegevensbronnen en handelingen** weergeven: alleen-lezen toegang tot reisevenementen, aangepaste reisacties en bronnen van reisgegevens.</li><li>**Rapport** voor reizen weergeven: lezen, reisrapporten bewerken.</li></ul>|
+|Berichten| <ul><li>**Berichten** beheren: berichten lezen, maken, bewerken en verwijderen.</li><li>**Publiceer** berichten voor spublicaties.</li><li>**Voorvertoning en test** berichten beheren: berichtvoorbeeld lezen, maken en bewerken en test/proef verzenden.</li><li>**Berichtenrapport** weergeven: berichtrapport lezen, maken, bewerken en verwijderen.</li></ul>|
+|Beheer van besluiten | <ul><li>**Besluiten** beheren: lezen, maken, bewerken en verwijderen van beslissingsentiteiten.</li><li>**Beoordelingsstrategieën** beheren: U kunt rapporten met aangepaste berichten lezen, maken, bewerken en verwijderen, en functies voor handelingen gebruiken.</li></ul>|
+|Adobe Experience Platform| <ul><li>**Segmenten** beheren: segmenten lezen, maken, bewerken en verwijderen.</li><li>**Profielen** beheren: profielen lezen, maken, bewerken en verwijderen.</li><li>**Gegevenssets** lezen: alleen-lezen toegang tot gegevenssets.</li><li>**Schema**&#39;s lezen: alleen-lezen toegang tot schema&#39;s.</li><li>**Samenvoegbeleid** beheren: beleid voor het lezen, maken, bewerken en verwijderen van samenvoegingen.</li></ul>|
 |Beheer| <ul><li>**Voorinstellingen** voor berichten weergeven: alleen-lezen toegang tot voorinstellingen voor berichten.</li></ul>|
 
 ## Reismanager {#journey-manager}
@@ -63,10 +61,10 @@ Dit productprofiel bevat de volgende toestemmingen:
 
 | Capaciteit | Machtigingen|
 |-|-|
-|Reizen| <ul><li>**Reizen** beheren: toegang tot lees-, maak-, bewerk- en verwijderreizen.</li><li>**Transparante gebeurtenissen**, gegevensbronnen en handelingen weergeven: alleen-lezen toegang tot reisevenementen, aangepaste reisacties en bronnen van reisgegevens.</li><li>**Rapport** voor reizen weergeven: toegang tot lees-, bewerkings- en gebruiksactiefuncties zoals het delen van rapporten.</li></ul>|
-|Berichten| <ul><li>**Berichten** beheren: toegang tot het lezen, maken, bewerken en verwijderen van berichten.</li><li> **Voorvertoning en test** berichten beheren: toegang tot het lezen, maken en bewerken van de voorvertoning van berichten en het verzenden van tests/proefdrukken.</li><li>**Berichtenrapport** weergeven: toegang tot het lezen, creëren, uitgeven, en schrappen berichtrapport.</li></ul>|
-|Beheer van besluiten | <ul><li>**Besluiten** beheren: toegang tot het lezen, creëren, uitgeven, en schrappen van besluitvormingsentiteiten.</li><li>**Beoordelingsstrategieën** beheren: toegang tot het lezen, creëren, uitgeven, en schrappen het rapport van douaneberichten en gebruikshandelingen eigenschappen.</li></ul>|
-|Adobe Experience Platform| <ul><li> **Segmenten** beheren: toegang tot het lezen, creëren, uitgeven, en schrappen segmenten.</li><li>**Profielen** beheren: toegang tot profielen voor lezen, maken, bewerken en verwijderen.</li><li>**Gegevenssets** lezen: alleen-lezen toegang tot gegevenssets.</li><li>**Schema**&#39;s lezen: alleen-lezen toegang tot schema&#39;s.</li></ul>|
+|Reizen| <ul><li>**Reizen** beheren: ritten lezen, maken, bewerken en verwijderen.</li><li>**Gebeurtenissen** voor reizen weergeven: alleen-lezen toegang tot reisevenementen, aangepaste reisacties en bronnen van reisgegevens.</li><li>**Rapport** voor reizen weergeven: lezen, reisrapport bewerken.</li></ul>|
+|Berichten| <ul><li>**Berichten** beheren: berichten lezen, maken, bewerken en verwijderen.</li><li> **Voorvertoning en test** berichten beheren: berichtvoorbeeld lezen, maken en bewerken en test/proef verzenden.</li><li>**Berichtenrapport** weergeven: berichtrapport lezen, maken, bewerken en verwijderen.</li></ul>|
+|Beheer van besluiten | <ul><li>**Besluiten** beheren: lezen, maken, bewerken en verwijderen van beslissingsentiteiten.</li><li>**Beoordelingsstrategieën** beheren: U kunt rapporten met aangepaste berichten lezen, maken, bewerken en verwijderen, en functies voor handelingen gebruiken.</li></ul>|
+|Adobe Experience Platform| <ul><li> **Segmenten** beheren: segmenten lezen, maken, bewerken en verwijderen.</li><li>**Profielen** beheren: profielen lezen, maken, bewerken en verwijderen.</li><li>**Gegevenssets** lezen: alleen-lezen toegang tot gegevenssets.</li><li>**Schema**&#39;s lezen: alleen-lezen toegang tot schema&#39;s.</li><li>**Samenvoegbeleid** beheren: beleid voor het lezen, maken, bewerken en verwijderen van samenvoegingen.</li></ul>|
 |Beheer| <ul><li>**Voorinstellingen** voor berichten weergeven: alleen-lezen toegang tot voorinstellingen voor berichten.</li></ul>|
 
 ## Reisviewer {#journey-viewer}
@@ -79,8 +77,8 @@ Dit productprofiel bevat de volgende toestemmingen:
 
 | Capaciteit | Machtigingen|
 |-|-|
-|Reizen| <ul><li>**Reizen** weergeven: alleen-lezen toegang tot reizen.</li><li>**Transparantie-gebeurtenis, gegevensbronnen en handelingen** weergeven: alleen-lezen toegang tot reisgebeurtenissen en gegevensbronnen.</li><li>**Rapport** voor reizen weergeven: alleen-lezen-toegang tot reisverslagen.</li></ul>|
-|Berichten| <ul><li>**Berichten** weergeven: alleen-lezen toegang tot bericht.</li><li>**Berichtenrapport** weergeven: read-only toegang tot berichtrapport.</li></ul>|
+|Reizen| <ul><li>**Reizen** weergeven: alleen-lezen toegang tot reizen.</li><li>**Transparantie-gebeurtenis, gegevensbronnen en handelingen** weergeven: alleen-lezen toegang tot reizen en gegevensbronnen.</li><li>**Rapport** voor reizen weergeven: alleen-lezen toegang tot reisrapporten.</li></ul>|
+|Berichten| <ul><li>**Berichten** weergeven: alleen-lezen toegang tot berichten.</li><li>**Berichtenrapport** weergeven: read-only toegang tot berichtrapporten.</li></ul>|
 |Beheer van besluiten | <ul><li>**Besluiten** weergeven: alleen-lezen toegang tot besluitvormingsentiteiten.</li></ul>|
 
 ## Berichtbeheer {#message-manager}
@@ -91,18 +89,18 @@ Dit productprofiel bevat de volgende toestemmingen:
 
 | Capaciteit | Machtigingen|
 |-|-|
-|Reizen| <ul><li>**Reizen** weergeven: alleen-lezen toegang tot reizen.</li></ul>|
-|Berichten| <ul><li>**Berichten** beheren: toegang tot het lezen, maken, bewerken en verwijderen van berichten.</li><li>**Voorvertoning en test** berichten beheren: toegang tot het lezen, maken en bewerken van de voorvertoning van berichten en het verzenden van tests/proefdrukken.</li><li> **Berichtenrapport** weergeven: toegang tot het lezen, creëren, uitgeven, en schrappen berichtrapport.</li></ul>|
-|Beheer van besluiten | <ul><li>**Besluiten** beheren: toegang tot het lezen, creëren, uitgeven, en schrappen van besluitvormingsentiteiten.</li></ul>|
-|Adobe Experience Platform| <ul><li>**Leesprofielen**: alleen-lezen toegang tot profiel voor voorvertoning en test.</li><li>**Gegevenssets** lezen: alleen-lezen toegang tot gegevenssets.</li><li>**Schema**&#39;s lezen: alleen-lezen toegang tot schema&#39;s.</li></ul>|
-|Beheer| <ul><li>**Voorinstellingen** voor berichten weergeven: alleen-lezen toegang tot voorinstellingen voor leesberichten.</li></ul>|
+|Reizen| <ul><li>**Reizen** weergeven: alleen-lezen toegang tot reizen.</li><li>**Bekijk de gebeurtenissen, gegevensbronnen en acties** voor reizen: alleen-lezen toegang tot reisevenementen, aangepaste reisacties en bronnen van reisgegevens.</li></ul>|
+|Berichten| <ul><li>**Berichten** beheren: berichten lezen, maken, bewerken en verwijderen.</li><li>**Voorvertoning en test** berichten beheren: berichtvoorbeeld lezen, maken en bewerken en test/proef verzenden.</li><li> **Berichtenrapport** weergeven: berichtrapporten lezen, maken, bewerken en verwijderen.</li></ul>|
+|Beheer van besluiten | <ul><li>**Besluiten** beheren: lezen, maken, bewerken en verwijderen van beslissingsentiteiten.</li></ul>|
+|Adobe Experience Platform| <ul><li>**Leesprofielen**: alleen-lezen toegang tot profiel voor voorvertoning en test.</li><li>**Gegevenssets** lezen: alleen-lezen toegang tot gegevenssets.</li><li>**Schema**&#39;s lezen: alleen-lezen toegang tot schema&#39;s.</li><li>**Samenvoegbeleid** beheren: beleid voor het lezen, maken, bewerken en verwijderen van samenvoegingen.</li></ul>|
+|Beheer| <ul><li>**Voorinstellingen** voor berichten weergeven: alleen-lezen toegang tot voorinstellingen voor berichten.</li></ul>|
 
 ## Beslissingsmanager {#decisioning-manager}
 
-Met het productprofiel **[!UICONTROL Decisioning manager]** hebt u alleen toegang tot het menu **[!UICONTROL Decision management]**. Gebruikers die aan dit productprofiel zijn toegewezen, kunnen alleen beslissingen beheren, weergeven en publiceren.
+Het **[!UICONTROL Decisioning manager]** productprofiel staat slechts het **[!UICONTROL Decision management]** menu toe. Gebruikers die aan dit productprofiel zijn toegewezen, kunnen alleen beslissingen beheren, weergeven en publiceren.
 
 Dit productprofiel bevat de volgende toestemmingen:
 
 | Capaciteit | Machtigingen|
 |-|-|
-|Beheer van besluiten | <ul><li>**Besluiten** beheren: toegang tot het lezen, creëren, uitgeven, en schrappen van besluitvormingsentiteiten.</li><li>**Besluiten** weergeven: alleen-lezen toegang tot beslissingsentiteiten.</li><li>**Beoordelingsstrategieën** beheren: toegang tot het lezen, creëren, uitgeven, en schrappen het rapport van douaneberichten en gebruikshandelingen eigenschappen.</li><li>**Publicatiebeslissingen**: toegang tot besluitvormingsactiviteiten goedkeuren/niet goedkeuren.</li></ul>|
+|Beheer van besluiten | <ul><li>**Besluiten** beheren: lezen, maken, bewerken en verwijderen van beslissingsentiteiten.</li><li>**Besluiten** weergeven: alleen-lezen toegang tot beslissingsentiteiten.</li><li>**Beoordelingsstrategieën** beheren: U kunt rapporten met aangepaste berichten lezen, maken, bewerken en verwijderen, en functies voor handelingen gebruiken.</li><li>**Publicatiebeslissingen**: besluitvormingsactiviteiten goedkeuren of niet goedkeuren.</li></ul>|
