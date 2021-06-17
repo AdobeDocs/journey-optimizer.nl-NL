@@ -15,7 +15,7 @@ feature: Applicatie-instellingen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f4b36903b7b961dd20442acaf446e2ce99cc2b31
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 3%
@@ -38,7 +38,7 @@ De **[!UICONTROL Status]** kolom verstrekt informatie over het subdomain delegat
 
 Als u toegang wilt tot gedetailleerde informatie over een subdomein, opent u het subdomein in de lijst. U kunt:
 
-* Haal de subdomeinnaam (read-only) op die tijdens het delegatieproces wordt gevormd, evenals geproduceerde URLs (middelen, spiegelpagina, het volgen URLs),
+* Haal de subdomeinnaam (read-only) op die tijdens het delegatieproces wordt gevormd, evenals geproduceerde URLs (middelen, spiegelpagina&#39;s, het volgen URLs),
 
 * Voeg een TXT-record voor Google-siteverificatie toe aan uw subdomein om te controleren of dit is geverifieerd (zie [Een Google TXT-record toevoegen aan een subdomein](google-txt.md)).
 
