@@ -5,16 +5,14 @@ feature: Schemas
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
 
 # Informatie over ExperienceEvent-schema&#39;s voor gebeurtenissen [!DNL Journey Optimizer]
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] Gebeurtenissen zijn XDM Experience Events die via Streaming Ingestie naar Adobe Experience Platform worden verzonden.
 
@@ -32,7 +30,7 @@ Om het even welk schema XDM dat voor [!DNL Journey Optimizer] gebeurtenissen zal
 
    ![](../assets/schema2.png)
 
-* Voor door het systeem gegenereerde gebeurtenissen moet het schema de Orchestration eventID-mix bevatten. [!DNL Journey Optimizer] gebruikt dit veld om gebeurtenissen te identificeren die tijdens reizen worden gebruikt.
+* Voor systeem-geproduceerde gebeurtenissen, moet het schema de Orchestration eventID gebiedsgroep omvatten. [!DNL Journey Optimizer] gebruikt dit veld om gebeurtenissen te identificeren die tijdens reizen worden gebruikt.
 
    ![](../assets/schema3.png)
 
