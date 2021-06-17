@@ -5,7 +5,7 @@ feature: Databronnen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: c67ed928e048dc163cc58430f7a02475f9a32eb0
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 98%
@@ -13,8 +13,6 @@ ht-degree: 98%
 ---
 
 # Externe databronnen {#concept_t2s_kqt_52b}
-
-![](../assets/do-not-localize/badge.png)
 
 Met externe databronnen kunt u een verbinding maken met externe systemen, bijvoorbeeld als u een hotelboekingssysteem gebruikt om te controleren of de persoon een kamer heeft besproken. In tegenstelling tot de ingebouwde databron van het Adobe Experience Platform kunt u zoveel externe databronnen maken als u wilt.
 
@@ -31,7 +29,7 @@ De aanroep bestaat uit een hoofd-URL (_https://api.adobeweather.org/weather_), t
 
 Hier volgen de belangrijkste stappen voor het maken en configureren van een nieuwe externe databron:
 
-1. Klik in de lijst van databronnen op **[!UICONTROL Add]** om een nieuwe externe databron te maken.
+1. Klik in de lijst van databronnen op **[!UICONTROL Create Data Source]** om een nieuwe externe databron te maken.
 
    ![](../assets/journey25.png)
 
@@ -58,8 +56,8 @@ Hier volgen de belangrijkste stappen voor het maken en configureren van een nieu
 
 
    * **[!UICONTROL Type]**: ‘API-sleutel’
-   * **[!UICONTROL Value]**: ‘1234’ (dit is de waarde van onze API-sleutel)
    * **[!UICONTROL Name]**: ‘appid’ (dit is de parameternaam van de API-sleutel)
+   * **[!UICONTROL Value]**: ‘1234’ (dit is de waarde van onze API-sleutel)
    * **[!UICONTROL Location]**: ‘Query-parameter’ (de API-sleutel bevindt zich in de URL)
 
    ![](../assets/journey28.png)
@@ -71,8 +69,8 @@ Voor de parameterreeks ‘long/lat’ maken we een veldengroep met de volgende i
 * **[!UICONTROL Used in]**: geeft het aantal journey’s weer dat een veldengroep gebruikt. U kunt klikken op het pictogram **[!UICONTROL View journeys]** om de lijst weer te geven met journey’s die deze veldengroep gebruiken.
 * **[!UICONTROL Method]**: selecteer de methode POST of GET. In ons geval selecteren we de methode GET.
 * **[!UICONTROL Cache duration]**: in ons geval willen we dat het weer gedurende tien minuten in de cache wordt opgeslagen.
-* **[!UICONTROL Response Payload]**: klik in het veld **[!UICONTROL Payload]** en plak een voorbeeld van de payload die door de aanroep is geretourneerd. Voor ons voorbeeld hebben we een payload gebruikt van een API-weerwebsite. Controleer of de veldtypen correct zijn. Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payloadvoorbeeld zijn opgenomen. U kunt klikken op **[!UICONTROL Paste a new payload]** als u de huidige payload wilt wijzigen.
 * **[!UICONTROL Dynamic Values]**: voer de verschillende parameters in, gescheiden door een komma, in het voorbeeld ‘long,lat’. Aangezien de parameterwaarden afhankelijk zijn van de uitvoeringscontext, worden ze tijdens de journey’s gedefinieerd. Zie [deze pagina](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html).
+* **[!UICONTROL Response Payload]**: klik in het veld **[!UICONTROL Payload]** en plak een voorbeeld van de payload die door de aanroep is geretourneerd. Voor ons voorbeeld hebben we een payload gebruikt van een API-weerwebsite. Controleer of de veldtypen correct zijn. Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payloadvoorbeeld zijn opgenomen. U kunt klikken op **[!UICONTROL Paste a new payload]** als u de huidige payload wilt wijzigen.
 * **[!UICONTROL Sent Payload]**: dit veld staat niet in ons voorbeeld. Deze optie is alleen beschikbaar als u de methode POST selecteert. Plak de payload die naar het externe systeem wordt verzonden.
 
 Bij een GET-aanroep die parameter(s) vereist, voert u de parameter(s) in het veld **[!UICONTROL Dynamic Values]** in en worden deze automatisch toegevoegd aan het eind van de aanroep. Bij een POST-aanroep doet u het volgende:
