@@ -15,7 +15,7 @@ feature: Applicatie-instellingen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Met PTR verslagen, kunnen het ontvangen van postservers de authenticiteit van he
 
 ## De PTR-records van uw subdomeinen openen
 
-Zodra een subdomein in het Beheer van de Reis van de Klant wordt gedelegeerd, wordt een PTR- verslag automatisch gecreeerd en met dit subdomein geassocieerd. U hebt toegang tot dit bestand via het menu **[!UICONTROL Channels]** / **[!UICONTROL PTR records]**.
+Zodra een subdomein in het Beheer van de Reis van de Klant wordt gedelegeerd, wordt een PTR- verslag automatisch gecreeerd en met dit subdomein geassocieerd. U kunt het van **[!UICONTROL Channels]** `>` **[!UICONTROL PTR records]** tot menu toegang hebben.
 
 ![](../assets/ptr-records.png)
 
