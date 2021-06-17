@@ -5,9 +5,9 @@ feature: Personalisatie
 topic: Personalisatie
 role: Data Engineer
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,13 @@ ht-degree: 0%
 
 # Hoofdlettergebruik {#personalization-use-case}
 
-![](../assets/do-not-localize/badge.png)
-
 In dit gebruiksgeval, zult u zien hoe te om veelvoudige types van verpersoonlijking in één enkel duw bericht te gebruiken. Er worden drie typen personalisatie gebruikt:
 
 * **Profiel**: berichten personaliseren op basis van een profielveld
 * **Beslissing** voorstel: personalisatie op basis van de variabelen van het aanbiedingsbesluit
 * **Context**: personalisatie op basis van contextuele gegevens van de reis
 
-Het doel van dit voorbeeld is om een gebeurtenis naar Journey Optimizer te duwen telkens wanneer een klantenbestelling wordt bijgewerkt. Vervolgens wordt een pushmelding naar de klant gestuurd met informatie over de bestelling en een persoonlijke aanbieding.
+Het doel van dit voorbeeld is om een gebeurtenis naar [!DNL Journey Optimizer] te duwen telkens als een klantenorde wordt bijgewerkt. Vervolgens wordt een pushmelding naar de klant gestuurd met informatie over de bestelling en een persoonlijke aanbieding.
 
 Voor dit gebruik zijn de volgende voorwaarden nodig:
 
