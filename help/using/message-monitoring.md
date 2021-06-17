@@ -5,7 +5,7 @@ feature: Bewaking
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Bewaking van berichten {#monitor-message-execution}
-
-![](assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] biedt mogelijkheden om de berichten te controleren die momenteel worden gepubliceerd en geactiveerd om ervoor te zorgen dat uw berichten correct worden uitgevoerd, verzonden en afgeleverd. U kunt zien hoe uw berichten over reizen <!--and APIs--> in real time van de **[!UICONTROL Executions]** lijst uitvoeren.
 
