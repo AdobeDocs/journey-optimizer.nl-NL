@@ -5,9 +5,9 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '252'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,9 @@ Wanneer meerdere aanbiedingen in aanmerking komen voor een bepaalde plaatsing in
 
 ![](../../assets/offer-priority.png)
 
-Bovendien, staat Journey Optimizer u toe om **rangschikkende formules** tot stand te brengen. Dit zijn formules die bepalen welke aanbieding eerst voor een bepaalde plaatsing moet worden gepresenteerd, in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen. U kunt bijvoorbeeld de prioriteit verhogen van alle aanbiedingen met een einddatum van minder dan 24 uur, of aanbiedingen verhogen van de categorie &quot;actief&quot; als het interessepunt van het profiel &quot;actief&quot; is.
+Bovendien, staat Journey Optimizer u toe om **rangschikkende formules** tot stand te brengen. Dit zijn formules die bepalen welke aanbieding eerst voor een bepaalde plaatsing moet worden gepresenteerd, in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen.
+
+U kunt bijvoorbeeld de prioriteit verhogen van alle aanbiedingen met een einddatum van minder dan 24 uur, of aanbiedingen verhogen van de categorie &quot;actief&quot; als het interessepunt van het profiel &quot;actief&quot; is.
 
 Raadpleeg [deze sectie](../offer-library/create-ranking-formulas.md) voor meer informatie over het maken van een rangschikkingsformule.
 
@@ -28,14 +30,18 @@ Raadpleeg [deze sectie](../offer-library/create-ranking-formulas.md) voor meer i
 
 Nadat u een rangschikkingsformule hebt gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Volg de onderstaande stappen om dit te doen:
 
-* Maak een beslissing of bewerk een bestaande beslissing en maak vervolgens de plaatsingen waarin uw aanbiedingen staan (zie [Besluiten maken](../offer-activities/create-offer-activities.md)).
+1. Maak een beslissing of bewerk een bestaande beslissing en maak vervolgens de plaatsingen waarin uw aanbiedingen staan (zie [Besluiten maken](../offer-activities/create-offer-activities.md)).
 
-* Selecteer **[!UICONTROL Ranking]** in de vervolgkeuzelijst voor elke plaatsing en klik op **[!UICONTROL Add ranking]**.
+1. Selecteer **[!UICONTROL Ranking]** in de vervolgkeuzelijst voor elke plaatsing.
+
+1. Klik op **[!UICONTROL Add ranking]**.
 
    ![](../../assets/offer-activity-ranking.png)
 
-* Selecteer de gewenste rangschikkingsformule en klik op **[!UICONTROL Select]**.
+1. Selecteer de gewenste rangschikkingsformule en klik op **[!UICONTROL Select]**.
 
    ![](../../assets/ranking-selection.png)
 
-De rangschikkingsformule is nu gekoppeld aan de plaatsing. Indien meerdere aanbiedingen in aanmerking komen om in deze plaatsing te worden gepresenteerd, wordt in het besluit de formule van de rangorde gebruikt om te berekenen welke aanbieding het eerst wordt geleverd.
+De rangschikkingsformule is nu gekoppeld aan de plaatsing.
+
+Indien meerdere aanbiedingen in aanmerking komen om in deze plaatsing te worden gepresenteerd, wordt in het besluit de formule van de rangorde gebruikt om te berekenen welke aanbieding het eerst wordt geleverd.
