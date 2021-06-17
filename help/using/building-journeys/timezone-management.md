@@ -5,16 +5,14 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '280'
 ht-degree: 3%
 
 ---
 
 # Tijdzonebeheer {#timezone_management}
-
-![](../assets/do-not-localize/badge.png)
 
 U kunt een tijdzone in [eigenschappen](../building-journeys/journey-gs.md#change-properties) van uw reis bepalen.
 
@@ -29,11 +27,15 @@ Deze tijdzone wordt gebruikt voor elke activiteit van de reis die een tijdseleme
 
 U kunt een tijdzone selecteren of de tijdzone gebruiken die is gedefinieerd in het gebruikersprofiel.
 
+>[!NOTE]
+>
+>De profieltijdzone werkt met het **timeZone** gebied dat in **Preference Details** gebiedsgroep bestaat.
+
 ## Een vaste tijdzone {#fixed-timezone} definiëren
 
 De tijdzone kan ook worden vastgesteld. Wis de vooraf gedefinieerde tijdzone en kies een tijdzone in de vervolgkeuzelijst. Als je een vaste tijdzone gebruikt, zal dat hetzelfde zijn voor iedereen die de reis binnenkomt.
 
-U doet dit door in **[!UICONTROL Properties]** een tijdzone te selecteren.
+Selecteer hiertoe in het deelvenster **[!UICONTROL Journey Properties]** een tijdzone.
 
 ![](../assets/journey72.png)
 
@@ -45,7 +47,7 @@ Als een tijdzone in Adobe Experience Platform-profiel is gedefinieerd, kan deze 
 
 Als het profiel van het individu geen tijdzone bevat, wordt de opgehaalde tijdzone gedefinieerd in het tijdzoneveld.
 
-Om dit te doen, in **[!UICONTROL Properties]**, controleer **[!UICONTROL Use Profile timezone in timers and conditions]**.
+Om dit te doen, in **[!UICONTROL Properties]**, controleer **[!UICONTROL Use Profile timezone in waits and conditions]**.
 
 ![](../assets/journey73.png)
 
