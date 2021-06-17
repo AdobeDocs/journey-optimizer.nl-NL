@@ -5,44 +5,35 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
 # Beperkingen {#journey-limitations}
 
-![](../assets/do-not-localize/badge.png)
-
 Hier zijn beperkingen met betrekking tot het gebruik van reizen.
-
-## Beperkingen op reislijsten
-
-* In de lijst met ritten worden filters, zoekopdrachten en kolomselectie opnieuw ingesteld wanneer de pagina wordt vernieuwd.
 
 ## Algemene actiedrempels
 
 * Er is geen verzendvertraging. 
-* In het geval van een fout worden systematisch twee pogingen uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht. 
+* In het geval van een fout worden drie pogingen systematisch opnieuw uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht. 
 * Met de ingebouwde **Reaction**-gebeurtenis kunt u reageren op acties die buiten de box vallen (zie deze [pagina](../building-journeys/reaction-events.md)). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen. 
-* Er is geen sprake van een productieve integratie in Adobe Campaign Classic.
 * U kunt geen twee acties parallel plaatsen, u moet hen één na andere toevoegen.
 
 ## Beperkingen voor berichtenactie
-
-* De **Message** activiteit staat u niet toe om contextuele gegevens te gebruiken die uit de reis komen. De personalisatie van berichten wordt direct uitgevoerd wanneer het ontwerpen van het bericht in Journey Optimizer.
 
 * Wanneer u een multikanaalbericht toevoegt, worden twee berichten verzonden.
 
 ## Beperkingen van reisversies {#journey-versions-limitations}
 
-* een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis met een **gebeurtenis van de Kwalificatie van het Segment** beginnen.
-* een reis die met een **Kwalificatie van het Segment** activiteit in v1 begint moet altijd met een **Kwalificatie van het Segment** in verdere versies beginnen.
+* Een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis met een **gebeurtenis van de Kwalificatie van het Segment** beginnen.
+* Een reis die met een **Kwalificatie van het Segment** activiteit in v1 begint moet altijd met een **Kwalificatie van het Segment** in verdere versies beginnen.
 * Het segment en de naamruimte die worden gekozen in **Segmentkwalificatie** (eerste knooppunt) kunnen niet worden gewijzigd in nieuwe versies.
 * De re-entry regel moet het zelfde in alle reisversies zijn.
-* Een reis die met een **Gelezen segment** begint kan niet met een andere gebeurtenis in volgende versies beginnen.
+* Een reis die met een **Leessegment** begint kan niet met een andere gebeurtenis in volgende versies beginnen.
  
 
 ## Beperkingen voor aangepaste handelingen
