@@ -5,16 +5,14 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 7%
+source-wordcount: '1703'
+ht-degree: 6%
 
 ---
 
 # Aan de slag met reizen{#jo-quick-start}
-
-![](../assets/do-not-localize/badge.png)
 
 ## Voorwaarden
 
@@ -22,7 +20,7 @@ Voor het verzenden van berichten met ritten is de volgende configuratie vereist:
 
 1. **Een gebeurtenis** configureren: als u uw reizen tijdelijk wilt activeren wanneer een gebeurtenis wordt ontvangen, moet u een gebeurtenis configureren. U bepaalt de verwachte informatie en hoe te om het te verwerken. Deze stap wordt uitgevoerd door een **technische gebruiker**. [Meer informatie](../event/about-events.md).
 
-   ![](../assets/jo-event7.png)
+   ![](../assets/jo-event7bis.png)
 
 1. **Een segment** maken: uw reis kan ook naar Adobe Experience Platform segmenten luisteren om berichten in partij naar een gespecificeerde reeks profielen te verzenden. Hiervoor moet u segmenten maken. [Meer informatie](../segment/about-segments.md).
 
@@ -42,11 +40,11 @@ Deze stap wordt uitgevoerd door **zakelijke gebruiker**. Hier maak je je reizen.
 
 Hier volgen de belangrijkste stappen voor het verzenden van berichten via reizen:
 
-1. Klik in de sectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]**. De lijst met reizen wordt weergegeven.
+1. Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]**. De lijst met reizen wordt weergegeven.
 
    ![](../assets/interface-journeys.png)
 
-1. Klik **[!UICONTROL Create]** om een nieuwe reis tot stand te brengen.
+1. Klik **[!UICONTROL Create Journey]** om een nieuwe reis tot stand te brengen.
 
 1. Bewerk de eigenschappen van de journey in het configuratievenster dat aan de rechterkant wordt weergegeven. Meer informatie vindt u in deze [sectie](journey-gs.md#change-properties).
 
@@ -82,7 +80,7 @@ Met de **Technische details kopiëren** kunt u technische informatie kopiëren o
 
 Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de optie uitschakelen voor &#39;één opname&#39;-reizen, bijvoorbeeld als u een eenmalige gift wilt aanbieden wanneer een persoon een winkel betreedt. In dat geval, wilt u niet de klant de reis kunnen opnieuw ingaan en de aanbieding opnieuw ontvangen.
 
-Wanneer een reis &quot;beëindigt&quot;, zal het de status **[!UICONTROL Closed (no entrance)]** hebben. De reis zal het niet langer mogelijk maken dat nieuwe individuen de reis betreden. Personen die al op reis zijn, zullen de reis normaal afmaken.
+Wanneer een reis &quot;beëindigt&quot;, zal het de status **[!UICONTROL Closed]** hebben. De reis zal het niet langer mogelijk maken dat nieuwe individuen de reis betreden. Personen die al op reis zijn, zullen de reis normaal afmaken.
 
 Na de standaard globale onderbreking van 30 dagen, zal de reis aan **Voltooid** status schakelen. Zie deze [sectie](../building-journeys/journey-gs.md#global_timeout).
 
@@ -114,6 +112,32 @@ U kunt een vaste tijdzone invoeren of Adobe Experience Platform-profielen gebrui
 
 Zie [deze pagina](../building-journeys/timezone-management.md) voor meer informatie over tijdzonebeheer.
 
+### Burstmodus {#burst}
+
+De Burst wijze is een betaalde toe:voegen-op die zeer snelle pushbericht toestaat die in grote volumes verzendt. Het wordt gebruikt voor eenvoudige reizen die een gelezen segment en een eenvoudig duwbericht omvatten. De explosie wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons, bijvoorbeeld een breekbericht aan gebruikers wilt verzenden die uw nieuwskanaal app hebben geïnstalleerd.
+
+Beperkingen:
+
+* De reis moet met een gelezen segment beginnen. Gebeurtenissen zijn niet toegestaan.
+* De volgende stap moet een pushbericht zijn. Geen andere activiteit of stap is toegestaan (behalve de facultatieve eindactiviteit):
+   * Alleen kanaal
+   * Geen verpersoonlijking wordt toegestaan in het bericht
+   * Het bericht moet klein zijn (&lt;2KB)
+
+Belangrijke opmerking:
+
+Als niet aan een van de eisen wordt voldaan, is de burst-modus niet beschikbaar op de reis.
+
+Als u de modus Burst wilt activeren, opent u de rit en klikt u op het potloodpictogram rechtsboven om de eigenschappen van de rit te openen. Vervolgens activeert u de **burst-modus inschakelen**.
+
+![](../assets/burst.png)
+
+De Burst-modus wordt gedeactiveerd als u een burst-rit wijzigt en een activiteit toevoegt die niet voldoet aan de burst (bericht, andere actie, gebeurtenis, enz.). Er wordt een bericht weergegeven.
+
+![](../assets/burst2.png)
+
+Vervolgens test en publiceert u uw reis normaal. Berichten in de testmodus worden niet verzonden via de burst-modus.
+
 ## Een reis beëindigen
 
 Een reis kan om twee redenen eindigen:
@@ -129,7 +153,7 @@ Een reis kan om de volgende redenen worden gesloten:
 * Een reis op basis van een segment met één opname die klaar is met de uitvoering.
 * Na het laatste optreden van een terugkerend segment gebaseerd transport.
 
-Wanneer een reis (om een van de bovenstaande redenen) wordt gesloten, heeft deze de status **[!UICONTROL Closed (no entrance)]**. De reis zal het niet langer mogelijk maken dat nieuwe individuen de reis betreden. Personen die al op reis zijn, zullen de reis normaal afmaken. Na de standaard globale onderbreking van 30 dagen, zal de reis aan **Voltooid** status schakelen. Zie deze [sectie](../building-journeys/journey-gs.md#global_timeout).
+Wanneer een reis (om een van de bovenstaande redenen) wordt gesloten, heeft deze de status **[!UICONTROL Closed]**. De reis zal het niet langer mogelijk maken dat nieuwe individuen de reis betreden. Personen die al op reis zijn, zullen de reis normaal afmaken. Na de standaard globale onderbreking van 30 dagen, zal de reis aan **Voltooid** status schakelen. Zie deze [sectie](../building-journeys/journey-gs.md#global_timeout).
 
 Als u de voortgang van alle mensen op de reis moet stoppen, kunt u deze stoppen. Als de reis wordt stopgezet, wordt een time-out voor alle personen op de reis vastgesteld.
 
@@ -145,13 +169,13 @@ Met de opties **[!UICONTROL Stop]** en **[!UICONTROL Close to new entrances]** k
 
 U kunt een reis manueel sluiten om ervoor te zorgen dat de klanten die reeds de reis inging hun weg kunnen beëindigen maar de nieuwe gebruikers niet de reis kunnen ingaan.
 
-Wanneer een reis gesloten is, heeft deze de status **[!UICONTROL Closed (no entrance)]**. Na de standaard globale onderbreking van 30 dagen, zal de reis aan **Voltooid** status schakelen. Zie deze [sectie](../building-journeys/journey-gs.md#global_timeout).
+Wanneer een reis gesloten is, heeft deze de status **[!UICONTROL Closed]**. Na de standaard globale onderbreking van 30 dagen, zal de reis aan **Voltooid** status schakelen. Zie deze [sectie](../building-journeys/journey-gs.md#global_timeout).
 
 Een gesloten reisversie kan niet opnieuw worden gestart of verwijderd. U kunt er een nieuwe versie van maken of deze dupliceren. Alleen voltooide reizen kunnen worden verwijderd.
 
-U kunt een reis sluiten door **[!UICONTROL Close to new entrances]** te klikken terwijl het hangen over een reis in de lijst van reizen.
+Als u een rit wilt sluiten in de lijst met ritten, klikt u op de knop **[!UICONTROL Ellipsis]** rechts van de naam van de rit en selecteert u **[!UICONTROL Close to new entrances]**.
 
-![](../assets/do-not-localize/journey-finish-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 U kunt ook het volgende doen:
 
@@ -171,9 +195,9 @@ Een voltooide reisversie kan niet opnieuw worden gestart.
 
 Als de reis wordt gestopt, heeft deze de status **[!UICONTROL Stopped]**.
 
-U kunt een reis tegenhouden (bijvoorbeeld als een markeerder beseft dat de reis het verkeerde publiek of een douaneactie verondersteld om berichten te leveren niet correct werkt...) door **[!UICONTROL Stop]** te klikken terwijl het hangen over een reis in de lijst van reizen.
+U kunt bijvoorbeeld een reis stoppen als een markeerder beseft dat de reis het verkeerde publiek aanvalt of dat een aangepaste actie die berichten moet leveren, niet correct werkt. Als u een reis wilt stoppen in de lijst met ritten, klikt u op de knop **[!UICONTROL Ellipsis]** rechts van de naam van de reis en selecteert u **[!UICONTROL Stop]**.
 
-![](../assets/do-not-localize/journey-stop-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 U kunt ook het volgende doen:
 
