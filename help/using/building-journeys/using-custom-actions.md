@@ -5,7 +5,7 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 4%
@@ -13,8 +13,6 @@ ht-degree: 4%
 ---
 
 # Aangepaste handelingen gebruiken {#section_f2c_hbg_nhb}
-
-![](../assets/do-not-localize/badge.png)
 
 Als u een douaneactie gebruikt, zult u, in read-only, de **[!UICONTROL URL Configuration]** en **[!UICONTROL Authentication]** parameters zien die in het scherm van de actieconfiguratie worden bepaald (zie [deze pagina](../action/about-custom-action-configuration.md)).
 
