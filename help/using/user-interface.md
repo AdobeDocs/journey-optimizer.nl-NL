@@ -5,26 +5,29 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: d85dfe519ebbbb27693c7283c19cc1d7171c25ba
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 18%
+source-wordcount: '1187'
+ht-degree: 5%
 
 ---
 
 # Gebruikersinterface {#cjm-user-interface}
 
-![](assets/do-not-localize/badge.png)
-
-Deze documentatie wordt regelmatig aangepast aan recente wijzigingen in het product. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
-
-## Werkruimte {#cjm-workspace}
-
 Blader naar [Adobe Experience Cloud](http://experience.adobe.com) als u eenmaal verbinding hebt met [!DNL Journey Optimizer].
 
 >[!NOTE]
 >
->Belangrijke concepten tijdens het bladeren door de gebruikersinterface worden beschreven in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=en#adobe-experience-platform-ui-guide).
+>* Belangrijke concepten bij het bladeren in de gebruikersinterface zijn gebruikelijk voor Adobe Experience Platform. Raadpleeg [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=en#adobe-experience-platform-ui-guide) voor meer informatie.
+   >
+   >
+* Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
+   >
+   > 
+* De componenten en mogelijkheden die beschikbaar zijn in de gebruikersinterface zijn afhankelijk van uw machtigingen en uw licentiepakket. Neem voor alle vragen contact op met uw Adobe Customer Success Manager.
+
+
+## Linkernavigatie
 
 Gebruik de koppelingen aan de linkerkant om te bladeren in mogelijkheden.
 
@@ -84,9 +87,39 @@ U vindt onder de volledige lijst met services en mogelijkheden in de linkernavig
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform biedt sandboxen die één instantie in afzonderlijke virtuele omgevingen verdelen om toepassingen voor digitale ervaringen te ontwikkelen en te ontwikkelen. [Meer informatie over sandboxen vindt u in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)
 
-## Browserondersteuning en taalondersteuning
+
+## Gebruiksgevallen in producten
+
+Gebruik [!DNL Adobe Journey Optimizer] gevallen van de startpagina en geef een paar snelle input om een reis van de klant te maken.
+
+![](assets/use-cases-home.png)
+
+Beschikbare gebruiksgevallen zijn:
+
+* **Maak testprofielen** om testprofielen te maken met onze CSV-sjabloon om persoonlijke berichten en reizen te testen. Leer hoe te om dit gebruiksgeval [in deze pagina ](building-journeys/creating-test-profiles.md#use-case-1) uit te voeren.
+* **Stuur een verjaardagsbericht naar klanten** om automatisch een e-mail te sturen om uw klanten op hun verjaardag te wensen. (binnenkort beschikbaar)
+* **Verzend e-mails naar nieuwe klanten** die zich willen inschrijven, zodat u eenvoudig maar liefst twee e-mails kunt verzenden om uw nieuw geregistreerde klanten te verwelkomen. (binnenkort beschikbaar)
+* **Verzend pushberichten naar de geïmporteerde lijst met klanten** om snel een pushmelding te verzenden naar een lijst met klanten die zijn geïmporteerd uit een CSV-bestand. (binnenkort beschikbaar)
+
+Klik **[!UICONTROL View details]** om meer over elk gebruiksgeval te leren.
+
+Klik op de knop **[!UICONTROL Begin]** om het gebruik te starten.
+
+U kunt tot uitgevoerde gebruiksgevallen van de **[!UICONTROL View use case library]** knoop toegang hebben.
+
+## Hulp en ondersteuning zoeken
+
+Toegang tot Adobe Journey Optimizer-sleutelHelp-pagina&#39;s in de onderste sectie van de startpagina.
+
+Met het pictogram **Help** hebt u toegang tot Help-pagina&#39;s, neemt u contact op met de ondersteuningsafdeling en deelt u feedback. U kunt Help-artikelen en video&#39;s zoeken in het zoekveld.
+
+![](assets/ajo-help.png)
+
+## Ondersteunde browsers
 
 De Adobe [!DNL Journey Optimizer]-interface is ontworpen om optimaal te werken in de nieuwste versie van Google Chrome. Mogelijk kunt u problemen ondervinden bij het gebruik van bepaalde functies in oudere versies of andere browsers.
+
+## Taalvoorkeuren
 
 De gebruikersinterface is momenteel beschikbaar in de volgende talen:
 
@@ -106,7 +139,7 @@ De taal wijzigen:
 
 ## Zoeken
 
-Met de Adobe Experience Cloud-zoekopdracht in het midden van de bovenste balk kunt u zoeken naar elementen, reizen of berichten in uw sandboxen. Voer inhoud in om de beste resultaten weer te geven.
+Overal vanaf de Adobe Journey Optimizer-interface kunt u de Adobe Experience Cloud-zoekopdracht in het midden van de bovenste balk gebruiken om elementen, reizen of berichten in uw sandboxen te zoeken. Voer inhoud in om de beste resultaten weer te geven.
 
 ![](assets/unified-search.png)
 
@@ -138,17 +171,3 @@ In de de configuratievensters van de Gebeurtenis, van de Gegevensbron en van de 
 In de verschillende lijsten kunt u standaardacties op elk element uitvoeren. U kunt bijvoorbeeld een item dupliceren of verwijderen.
 
 ![](assets/journey4.png)
-
-## Bladeren door Adobe Experience Platform-velden {#friendly-names-display}
-
-Bij het definiëren van een [gebeurtenispayload](event/about-creating.md#define-the-payload-fields), een [veldengroep-payload](datasource/configure-data-sources.md#define-field-groups) en het selecteren van velden in de [expressie-editor](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html) wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt opgehaald uit de schemadefinitie in het Gegevenservaringmodel.
-
-Als er beschrijvingen als xdm:alternateDisplayInfo worden opgegeven tijdens het instellen van schema’s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en algemene velden. U kunt beschrijvers van vriendschappelijke namen via een API vraag vormen. Zie de [ontwikkelaarshandleiding voor schemaregistratie](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) voor meer informatie.
-
-![](assets/xdm-from-descriptors.png)
-
-Als een beschrijvende naam beschikbaar is, wordt het veld weergegeven als `<friendly-name>(<name>)`. Als er geen beschrijvende naam beschikbaar is, wordt de weergavenaam weergegeven, bijvoorbeeld `<display-name>(<name>)`. Als geen van deze waarden is gedefinieerd, wordt alleen de technische naam van het veld weergegeven: `<name>`.
-
->[!NOTE]
->
->De beschrijvende namen worden niet opgehaald wanneer u velden selecteert uit een samenvoeging van schema’s.
