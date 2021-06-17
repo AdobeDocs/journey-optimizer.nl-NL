@@ -6,23 +6,21 @@ feature: Acties
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: 70d3bdaeec2a7a8f282b0e1a79bc751f7f837663
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '588'
 ht-degree: 9%
 
 ---
 
 # Een actie configureren {#configure-an-action}
 
-![](../assets/do-not-localize/badge.png)
-
 Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, is dit waar u zijn verbinding aan reizen vormt. De aangepaste actie die door technische gebruikers is gedefinieerd, is dan beschikbaar in het linkerpalet van uw reis, in de categorie **[!UICONTROL Action]** (zie [deze pagina](../building-journeys/about-journey-activities.md#action-activities). Hier volgen enkele voorbeelden van systemen waarmee u verbinding kunt maken met aangepaste handelingen: Epsilon, Facebook, Adobe.io, Firebase, enz.
 Beperkingen worden vermeld in [deze pagina](../building-journeys/limitations.md).
 
 Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vormen:
 
-1. Klik in de lijst **[!UICONTROL Actions]** op **[!UICONTROL Add]** om een nieuwe handeling te maken. Het deelvenster Handelingsconfiguratie wordt aan de rechterkant van het scherm geopend.
+1. Selecteer **[!UICONTROL Configurations]** in de sectie van het menu BEHEER. Klik in de sectie **[!UICONTROL Actions]** op **[!UICONTROL Manage]**. Klik **[!UICONTROL Create Action]** om een nieuwe actie tot stand te brengen. Het deelvenster Handelingsconfiguratie wordt aan de rechterkant van het scherm geopend.
 
    ![](../assets/custom2.png)
 
@@ -36,7 +34,7 @@ Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vorm
 1. Het aantal ritten dat deze handeling gebruikt, wordt weergegeven in het veld **[!UICONTROL Used in]**. U kunt op de knop **[!UICONTROL View journeys]** klikken om de lijst met ritten weer te geven die deze handeling gebruiken.
 1. Definieer de verschillende **[!UICONTROL URL Configuration]** parameters. Zie [deze pagina](../action/about-custom-action-configuration.md#url-configuration).
 1. Configureer de sectie **[!UICONTROL Authentication]**. Deze configuratie is het zelfde als voor gegevensbronnen.  Zie [deze sectie](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
-1. Definieer de **[!UICONTROL Message parameters]**. Zie [deze pagina](../action/about-custom-action-configuration.md#define-the-message-parameters).
+1. Definieer de **[!UICONTROL Action parameters]**. Zie [deze pagina](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Klik op **[!UICONTROL Save]**.
 
    De aangepaste handeling is nu geconfigureerd en klaar om te worden gebruikt tijdens uw reizen. Zie [deze pagina](../building-journeys/about-journey-activities.md#action-activities).
@@ -58,7 +56,7 @@ Wanneer het vormen van een douaneactie, moet u de volgende **[!UICONTROL URL Con
    >We raden u uit beveiligingsoverwegingen sterk aan om HTTPS te gebruiken. Wij staan niet het gebruik van Adobe adressen toe die niet openbaar en het gebruik van IP adressen zijn.
 
 1. Selecteer de vraag **[!UICONTROL Method]**: kan **[!UICONTROL POST]** of **[!UICONTROL PUT]** zijn.
-1. Klik in de sectie **[!UICONTROL Headers]** op **[!UICONTROL Add a header field]** om een nieuw sleutel-/waardepaar te definiëren. Ze komen overeen met de HTTP-headers van de aanvraag die aan de externe service is gedaan. Als u sleutel-/waardeparen wilt verwijderen, plaatst u de cursor in het veld **[!UICONTROL Headers]** en klikt u op het pictogram **[!UICONTROL Delete]**.
+1. Klik in de sectie **[!UICONTROL Headers]** op **[!UICONTROL Add a header field]** om een nieuw sleutel-/waardepaar te definiëren. Ze komen overeen met de HTTP-headers van de aanvraag die aan de externe service is gedaan. Als u sleutel-/waardeparen wilt verwijderen, plaatst u de cursor in het koptekstveld en klikt u op het pictogram **[!UICONTROL Delete]**.
 
    **[!UICONTROL Content-Type]** en  **[!UICONTROL Charset]** worden standaard ingesteld en kunnen niet worden verwijderd of overschreven.
 
@@ -66,11 +64,11 @@ Wanneer het vormen van een douaneactie, moet u de volgende **[!UICONTROL URL Con
    >
    >Kopteksten worden gevalideerd volgens de volgende [parseringsregels](https://tools.ietf.org/html/rfc7230#section-3.2.4).
 
-## De berichtparameters {#define-the-message-parameters} definiëren
+## De actieparameters {#define-the-message-parameters} definiëren
 
 ![](../assets/messageparameterssection.png)
 
-Plak in de sectie **[!UICONTROL Message parameters]** een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden.
+Plak in de sectie **[!UICONTROL Action parameters]** een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden.
 
 ![](../assets/customactionpayloadmessage.png)
 
