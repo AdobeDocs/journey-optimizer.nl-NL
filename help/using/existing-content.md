@@ -5,7 +5,7 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 5%
@@ -13,8 +13,6 @@ ht-degree: 5%
 ---
 
 # Uw e-mailinhoud {#existing-content} importeren of coderen
-
-![](assets/do-not-localize/badge.png)
 
 Met Journey Optimizer kunt u bestaande HTML-inhoud importeren om uw e-mails te ontwerpen. Deze inhoud kan onbewerkte HTML-code of inhoud uit een bestaand HTML-bestand of een ZIP-map zijn.
 
@@ -57,7 +55,6 @@ Met de modus **[!UICONTROL Code your own]** kunt u onbewerkte HTML importeren en
 1. Zodra uw code klaar is, klik **[!UICONTROL Save]** dan ga terug naar het scherm van de berichtverwezenlijking om uw bericht te voltooien.
 
    ![](assets/code-editor-save.png)
-
 
 ## HTML {#import-html-content-from-file} importeren
 
