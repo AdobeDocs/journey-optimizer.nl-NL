@@ -5,7 +5,7 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 3%
@@ -13,8 +13,6 @@ ht-degree: 3%
 ---
 
 # Van de ene journey naar de andere gaan {#jump}
-
-![](../assets/do-not-localize/badge.png)
 
 Met de actie **[!UICONTROL Jump]** kunt u personen van de ene reis naar de andere verplaatsen. Met deze functie kunt u:
 
@@ -55,8 +53,8 @@ In reis B wordt het eerste evenement intern geactiveerd via de **[!UICONTROL Jum
 
 * De **[!UICONTROL Jump]** activiteit is slechts beschikbaar in reizen die een namespace gebruiken.
 * U kunt alleen naar een reis springen die dezelfde naamruimte gebruikt als de oorspronkelijke reis.
-* U kunt niet naar een reis springen die met een **gebeurtenis van het Segment** of **Gelezen segment** begint.
-* U kunt geen **[!UICONTROL Jump]** activiteit en **segmentkwalificatie** gebeurtenis of **Leessegment** in de zelfde reis hebben.
+* U kunt niet naar een reis springen die met een **gebeurtenis van de Kwalificatie van het Segment** of **Leessegment** begint.
+* U kunt geen **[!UICONTROL Jump]** activiteit en een **gebeurtenis van de Kwalificatie van het Segment** of **Leessegment** in de zelfde reis hebben.
 * U kunt zo veel **[!UICONTROL Jump]** activiteiten omvatten aangezien u in een reis nodig hebt. Na een **[!UICONTROL Jump]** kunt u elke gewenste activiteit toevoegen.
 * U kunt zo veel sprongniveaus hebben zoals nodig. Reis A springt bijvoorbeeld naar reis B, die naar reis C gaat enzovoort.
 * De doelreis kan ook zoveel **[!UICONTROL Jump]** activiteiten omvatten als nodig.
@@ -78,7 +76,7 @@ In reis B wordt het eerste evenement intern geactiveerd via de **[!UICONTROL Jum
    ![](../assets/jump2.png)
 
 1. Klik in het veld **Doel**.
-De lijst toont alle reisversies die ontwerp, levend of in testwijze zijn. De reizen die een verschillende namespace gebruiken of die met een **gebeurtenis van het Segment** beginnen zijn niet beschikbaar. Doeltrajecten die een luspatroon zouden maken, worden ook uitgefilterd.
+De lijst toont alle reisversies die ontwerp, levend of in testwijze zijn. De reizen die een verschillende namespace gebruiken of die met een **gebeurtenis beginnen van de Kwalificatie van het Segment** zijn niet beschikbaar. Doeltrajecten die een luspatroon zouden maken, worden ook uitgefilterd.
 
    ![](../assets/jump3.png)
 
