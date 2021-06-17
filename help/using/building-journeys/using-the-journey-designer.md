@@ -5,16 +5,14 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: da31b4faf476d090a3a45b8c14701c4addd1a02a
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1414'
 ht-degree: 1%
 
 ---
 
 # Uw journey ontwerpen
-
-![](../assets/do-not-localize/badge.png)
 
 Met de interface voor reizen kunt u activiteiten van het palet gemakkelijk naar het canvas slepen. U kunt ook dubbelklikken op een activiteit om deze in het canvas toe te voegen bij de volgende beschikbare stap. Elke activiteit heeft een specifieke rol en plaats in het proces. De activiteiten worden gesequenceerd. Wanneer een activiteit wordt gebeëindigd, gaat de stroom verder en verwerkt de volgende activiteit, etc.
 
@@ -38,9 +36,9 @@ Het **canvas** is de centrale zone in de reisontwerper. Het is in deze streek da
 
 ![](../assets/journey39.png)
 
-Het **activiteitenconfiguratievenster** verschijnt wanneer u op een activiteit in het palet klikt. Vul de vereiste velden in. Klik op het pictogram **[!UICONTROL Delete]** om de activiteit te verwijderen. Klik op **[!UICONTROL Cancel]** om de wijzigingen te annuleren of **[!UICONTROL Ok]** om te bevestigen. Als u activiteiten wilt verwijderen, kunt u ook één activiteit (of meerdere activiteiten) selecteren en op de backspace-toets drukken. Als u op de escape-toets drukt, wordt het deelvenster voor activiteitenconfiguratie gesloten.
+Het **activiteitenconfiguratievenster** verschijnt wanneer u op een activiteit in het palet klikt. Vul de vereiste velden in. Klik op het pictogram **[!UICONTROL Delete]** om de activiteit te verwijderen. Klik **[!UICONTROL Cancel]** om de wijzigingen te annuleren of **[!UICONTROL Ok]** om te bevestigen. Als u activiteiten wilt verwijderen, kunt u ook één activiteit (of meerdere activiteiten) selecteren en op de backspace-toets drukken. Als u op de escape-toets drukt, wordt het deelvenster voor activiteitenconfiguratie gesloten.
 
-Standaard worden alleen-lezen velden verborgen. Om hen te tonen, klik **toon read-only gebieden** pictogram in de bovenkant verlaten van de ruit van de activiteitenconfiguratie.
+Standaard worden alleen-lezen velden verborgen. Als u alleen-lezen velden wilt weergeven, klikt u op het pictogram **Alleen-lezen velden** linksboven in het deelvenster Activiteitsconfiguratie. Deze instelling geldt voor alle activiteiten op alle reizen.
 
 ![](../assets/journey59bis.png)
 
@@ -54,11 +52,11 @@ Wanneer je je reis ontwerpt, wil je je eerst afvragen hoe profielen de reis zull
 
 **Begin met een gebeurtenis**: wanneer een reis naar de gebeurtenissen gaat luisteren, gaan de mensen de reis  **** in real-time eenmalig binnen. Berichten die in uw reis zijn opgenomen, worden verzonden naar de persoon die momenteel op reis gaat. [Meer informatie over gebeurtenissen](../event/about-events.md)
 
-**Begin met een Gelezen segment**: u kunt uw reis plaatsen om naar de segmenten van Adobe Experience Platform te luisteren. In dit geval betreden alle personen die tot het gespecificeerde segment behoren de reis. De berichten inbegrepen in uw reis worden verzonden naar de individuen die tot het segment behoren. [Meer informatie over het lezen van segmenten](read-segment.md).
+**Beginnen met een leessegment**: u kunt uw reis plaatsen om naar de segmenten van Adobe Experience Platform te luisteren. In dit geval betreden alle personen die tot het gespecificeerde segment behoren de reis. De berichten inbegrepen in uw reis worden verzonden naar de individuen die tot het segment behoren. [Meer informatie over het lezen van segmenten](read-segment.md).
 
 ## De volgende stappen definiëren
 
-Na uw eerste gebeurtenis of Gelezen segment, kunt u de verschillende activiteiten combineren om uw multi-step scenario&#39;s over het kanaal te bouwen. Kies in het palet de gewenste stappen.
+Na uw eerste gebeurtenis of Read Segment, kunt u de verschillende activiteiten combineren om uw multi-step scenario&#39;s over het kanaal te bouwen. Kies in het palet de gewenste stappen.
 
 **Gebeurtenissen**
 
@@ -68,11 +66,11 @@ U kunt **verscheidene gebeurtenissen** in uw reis toevoegen, zolang zij zelfde n
 
 U kunt ook een **Reactie** gebeurtenis na een bericht toevoegen om op het volgen van gegevens met betrekking tot het bericht te reageren. Op deze manier kunt u bijvoorbeeld een ander bericht verzenden als de persoon het vorige bericht heeft geopend of erin heeft geklikt. Meer informatie vindt u in deze [sectie](reaction-events.md).
 
-Met de **Segmentkwalificatie**-gebeurtenisactiviteit kunt u ervoor zorgen dat individuen een reis kunnen betreden of vooruit kunnen gaan op basis van de in- en uitgangen van Adobe Experience Platform-segmenten. U kunt alle nieuwe zilverklanten een reis maken en persoonlijke berichten verzenden. Meer informatie vindt u in deze [sectie](segment-qualification-events.md).
+Met de **Segmentkwalificatie**-gebeurtenisactiviteit kunt u ervoor zorgen dat individuen een reis maken of vooruit gaan op basis van de toegang en het afsluiten van Adobe Experience Platform-segmenten. U kunt alle nieuwe zilverklanten een reis maken en persoonlijke berichten verzenden. Meer informatie vindt u in deze [sectie](segment-qualification-events.md).
 
 **Orchestratie**
 
-In de orchestratieactiviteiten, zult u **Read segment** activiteit vinden die u toestaat om uw reis te plaatsen om aan een segment van Adobe Experience Platform te luisteren. [Meer informatie over de activiteit](read-segment.md) van het Leessegment.
+In de orkestactiviteiten vindt u de activiteit **Leessegment** waarmee u uw reis kunt instellen om naar een Adobe Experience Platform-segment te luisteren. [Meer informatie over de activiteit](read-segment.md) Leessegment.
 
 Met de andere activiteiten kunt u voorwaarden aan uw reis toevoegen om meerdere paden te definiëren, een wachttijd in te stellen voordat u de volgende activiteit uitvoert of uw reis beëindigen. Meer informatie vindt u in deze [sectie](about-journey-activities.md#orchestration-activities).
 
@@ -92,7 +90,7 @@ Met verschillende activiteiten (gebeurtenis, handeling, wachten) kunt u verschil
 
 Wanneer u naar een gebeurtenis luistert, raden we u aan niet oneindig op de gebeurtenis te wachten. Het is niet verplicht, maar slechts een goede praktijk. Als u slechts gedurende een bepaalde tijd naar een of meerdere gebeurtenissen wilt luisteren, plaatst u een of meerdere gebeurtenissen en een wachtbewerking parallel. Zie [deze sectie](../building-journeys/general-events.md#events-specific-time).
 
-Als u het pad wilt verwijderen, plaatst u de cursor op het pad en klikt u op het pictogram **[!UICONTROL Delete arrow]**.
+Als u het pad wilt verwijderen, plaatst u de cursor op het pad en klikt u op het pictogram **[!UICONTROL Delete path]**.
 
 ![](../assets/journey42ter.png)
 
