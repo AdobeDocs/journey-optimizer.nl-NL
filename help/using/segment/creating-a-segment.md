@@ -5,7 +5,7 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 6639630c4049e36904ce722759320f276799d8f3
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 6%
@@ -38,10 +38,11 @@ In dit voorbeeld, zullen wij een segment bouwen om alle klanten te richten die i
 
    In dit voorbeeld, moeten wij op **Attributes** en **Gebeurtenissen** gebieden vertrouwen om het segment te bouwen:
 
-   * **Kenmerken**: profielen die leven in Atlanta, San Francisco of Seattle, geboren na 1980;
-   * **Gebeurtenissen**: profielen die de toepassing Luma in de laatste 7 dagen hebben geopend en die vervolgens binnen 2 uur na het openen van de toepassing een aankoop hebben gedaan.
+   * **Kenmerken**: profielen die leven in Atlanta, San Francisco of Seattle, geboren na 1980
 
       ![](../assets/add-attributes.png)
+
+   * **Gebeurtenissen**: profielen die de toepassing Luma in de laatste 7 dagen hebben geopend en die vervolgens binnen 2 uur na het openen van de toepassing een aankoop hebben gedaan.
 
       ![](../assets/add-events.png)
 
