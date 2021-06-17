@@ -5,22 +5,20 @@ feature: Gebeurtenissen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
 
 # Adobe Analytics-gegevens gebruiken{#analytics-data}
 
-![](../assets/do-not-localize/badge.png)
+U kunt alle Adobe Analytics-gedragsgebeurtenisgegevens die u al vastlegt en in het Platform stroomt, benutten om reizen te starten en ervaringen voor uw klanten te automatiseren.
 
 >[!NOTE]
 >
 >Deze sectie is slechts op regel-gebaseerde gebeurtenissen en klanten van toepassing die de gegevens van Adobe Analytics moeten gebruiken.
-
-U kunt alle Adobe Analytics-gedragsgebeurtenisgegevens die u al vastlegt en in het Platform stroomt, benutten om reizen te starten en ervaringen voor uw klanten te automatiseren.
 
 Dit werkt alleen als u in Adobe Experience Platform de rapportsuite activeert die u wilt gebruiken:
 
@@ -34,4 +32,4 @@ Dit laat de bron van Analytics schakelaar voor die rapportreeks toe. Telkens wan
 
 ![](../assets/jo-event9.png)
 
-Raadpleeg de [documentatie]https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) en [zelfstudie](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html) voor meer informatie over de Adobe Analytics-bronaansluiting.
+Meer informatie over de Adobe Analytics-bronaansluiting vindt u in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html) en [zelfstudie](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html).
