@@ -5,18 +5,16 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 62d83f69ebf50f36688e3db956bb3860a468c2d6
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '838'
 ht-degree: 2%
 
 ---
 
-# Reisgebruik
+# Multikanaalberichten verzenden
 
-![](../assets/do-not-localize/badge.png)
-
-In deze sectie wordt een gebruiksscenario beschreven waarin een Read-segment, een gebeurtenis, reactiegebeurtenissen en e-mail-/pushberichten worden gecombineerd.
+In deze sectie wordt een gebruiksscenario beschreven waarin een leessegment, een gebeurtenis, reactiegebeurtenissen en e-mail-/pushberichten worden gecombineerd.
 
 ![](../assets/jo-uc1.png)
 
@@ -44,7 +42,9 @@ In onze reis, willen wij hefboomwerking een specifiek segment van klanten. Alle 
 
 Voor meer informatie over segmenten, verwijs naar deze [pagina](../segment/about-segments.md).
 
-1. Klik in het menu **[!UICONTROL Segments]** op **[!UICONTROL Create segment]**.
+1. Selecteer **[!UICONTROL Segments]** in de menusectie KLANT.
+
+1. Klik op de **[!UICONTROL Create segment]**-knop die zich rechtsboven in de segmentlijst bevindt.
 
 1. Voer in het deelvenster **[!UICONTROL Segment properties]** een naam in voor het segment.
 
@@ -54,7 +54,7 @@ Voor meer informatie over segmenten, verwijs naar deze [pagina](../segment/about
 
    ![](../assets/add-attributes.png)
 
-Het segment is nu gemaakt en klaar om in uw reis te worden gebruikt. Met een **Leessegment** activiteit, kunt u alle individuen die tot het segment behoren tot de reis maken.
+Het segment is nu gemaakt en klaar om in uw reis te worden gebruikt. Met een **Leessegment** activiteit, kunt u alle individuen van het segment tot de reis maken.
 
 ### De gebeurtenis configureren
 
@@ -62,7 +62,7 @@ U moet een gebeurtenis vormen die naar uw reis wordt verzonden wanneer een klant
 
 Hiervoor gebruiken we een op regels gebaseerde gebeurtenis. Raadpleeg deze [pagina](../event/about-events.md) voor meer informatie over gebeurtenissen.
 
-1. Blader in de sectie BEHEER naar **[!UICONTROL Configurations]** en klik vervolgens op **[!UICONTROL Events]**. Klik op **[!UICONTROL Add]** om een nieuwe gebeurtenis te maken.
+1. Selecteer **[!UICONTROL Configurations]** in de sectie van het menu ADMINISTRATIE en klik vervolgens op **[!UICONTROL Events]**. Klik op **[!UICONTROL Create event]** om een nieuwe gebeurtenis te maken.
 
 1. Voer de naam van de gebeurtenis in.
 
@@ -72,7 +72,7 @@ Hiervoor gebruiken we een op regels gebaseerde gebeurtenis. Raadpleeg deze [pagi
 
 1. Definieer in het veld **[!UICONTROL Event ID condition]** de voorwaarde die door het systeem wordt gebruikt om de gebeurtenissen te identificeren die de reis activeren. U kunt bijvoorbeeld een veld `purchaseMessage` toevoegen en de volgende regel definiëren: `purchaseMessage="thank you"`
 
-1. Definieer **[!UICONTROL Namespace]** en **[!UICONTROL Key]**.
+1. Definieer **[!UICONTROL Namespace]** en **[!UICONTROL Profile Identifier]**.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -94,7 +94,7 @@ Raadpleeg deze [sectie](../segment/about-segments.md) voor meer informatie over 
 
 ## De reis ontwerpen
 
-1. Begin de reis met een **Read segment** activiteit. Selecteer het eerder gemaakte segment. Alle personen die tot het segment behoren, komen de reis binnen.
+1. Begin de reis met een **Read Segment** activiteit. Selecteer het eerder gemaakte segment. Alle personen die tot het segment behoren, komen de reis binnen.
 
    ![](../assets/jo-uc4.png)
 
