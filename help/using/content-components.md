@@ -5,9 +5,9 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 780f51295459ac7a400e0060c817b49a1f632bff
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '978'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 1%
 >title="Informatie over inhoudscomponenten"
 >abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een e-mail te maken."
 
-![](assets/do-not-localize/badge.png)
 
 Als u uw e-mailinhoud helemaal zelf maakt, kunt u **[!UICONTROL Content components]** uw e-mail verder aanpassen met onbewerkte, lege onderdelen die u kunt gebruiken wanneer u deze eenmaal in een e-mail hebt geplaatst.
 U kunt zo veel **[!UICONTROL Content components]** toevoegen aangezien u binnen **[!UICONTROL Structure component]** vereist die de lay-out van uw e-mail bepaalt.
@@ -104,8 +103,6 @@ Om een externe inhoud eenvoudig compatibel te maken met de e-mailontwerper, raad
 
 1. Kopieer en plak de HTML-code die u aan uw e-mail wilt toevoegen en klik op **[!UICONTROL Save]**.
 
-   ![](assets/email_designer_24.png)
-
 1. U kunt uw HTML nu verder aanpassen door **[!UICONTROL Style]**, **[!UICONTROL Margin]** en **[!UICONTROL Border]** bijvoorbeeld te veranderen of een verbinding toe te voegen om uw publiek aan een andere inhoud te richten.
 
 ## Afbeelding {#image}
@@ -116,9 +113,9 @@ Met de component **[!UICONTROL Image]** kunt u een afbeeldingsbestand van uw com
 
    ![](assets/email_designer_9.png)
 
-1. Klik **[!UICONTROL Browse]** om een beelddossier van uw computer te kiezen.
+1. Klik op **[!UICONTROL Browse]** om een afbeeldingsbestand te kiezen uit uw elementen.
 
-   U kunt ook op **[!UICONTROL Asset Picker]** klikken om elementen aan uw e-mail toe te voegen. Raadpleeg dit [gedeelte](assets-essentials.md) voor meer informatie over Elementen.
+   Raadpleeg [Adobe Experience Manager Assets Essentials-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html) voor meer informatie over [!DNL Assets Essentials].
 
 1. Klik op de toegevoegde component om uw **[!UICONTROL Content Components]** te configureren en toegang te krijgen tot **[!UICONTROL Components Settings]** in het rechterdeelvenster van de e-mailontwerper.
 
