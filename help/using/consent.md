@@ -5,9 +5,9 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: ad8648c3fe98caa1d6800ad3664c35c2c6f676f0
+source-git-commit: a1ce789ad78f70bdb2a1387ffb6c60cb40b8b0bb
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '729'
 ht-degree: 1%
 
 ---
@@ -131,15 +131,17 @@ Instantie van aanvraag:
 
 ## Koppeling in koptekst {#unsubscribe-email} opzeggen
 
-Als de e-mailclientsoftware van de ontvangers ondersteuning biedt voor het weergeven van een niet-geabonneerde koppeling in de e-mailheader, wordt deze koppeling automatisch opgenomen in de e-mailberichten die worden verzonden met [!DNL Journey Optimizer].
+Als de e-mailclient van de ontvangers ondersteuning biedt voor het weergeven van een niet-geabonneerde koppeling in de e-mailheader, wordt deze koppeling automatisch opgenomen in de e-mailberichten die met [!DNL Journey Optimizer] zijn verzonden.
 
 De koppeling voor afmelden wordt bijvoorbeeld als volgt weergegeven in Gmail:
 
 ![](assets/unsubscribe-email.png)
 
-Als een ontvanger op deze koppeling klikt, wordt het bijbehorende profiel onmiddellijk uitgeschakeld en wordt deze keuze in het Experience Platform bijgewerkt.
+Afhankelijk van de e-mailclient heeft het klikken op de koppeling voor het afmelden van abonnementen in de header een van de volgende gevolgen:
 
-Als u op de koppeling Abonnement opzeggen klikt in de koptekst, heeft dit hetzelfde effect als klikken op de koppeling Abonnement opzeggen in de e-mailinhoud. Meer informatie over opt-outbeheer in [deze sectie](#opt-out-management).
+* Het corresponderende profiel wordt direct uitgeschakeld en deze keuze wordt in het Experience Platform bijgewerkt. Meer informatie vindt u in de [documentatie van het Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started).
+
+* Dit heeft hetzelfde effect als klikken op de koppeling Abonnement opzeggen in de e-mailinhoud: de ontvanger wordt omgeleid naar een bestemmingspagina met een knop om te bevestigen dat hij of zij het programma afsluit. Meer informatie over opt-outbeheer in [deze sectie](#opt-out-management).
 
 ## Push opt-out management {#push-opt-out-management}
 
