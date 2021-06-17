@@ -5,16 +5,14 @@ feature: Rapportage
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
 
-# Globaal rapport voor reizen {#journey-global-report}
-
-![](../assets/do-not-localize/badge.png)
+# Journey Global-rapport {#journey-global-report}
 
 Het globale rapport van de reis kan direct van uw reis met de **[!UICONTROL Global report]** knoop worden betreden.
 
@@ -44,23 +42,27 @@ Met de widget **[!UICONTROL Journey`s statistics]** worden de volgende KPI&#39;s
 
 * **[!UICONTROL Failed individual journey]**: Het totale aantal individuele reizen dat niet succesvol is uitgevoerd.
 
-Met de widgets **[!UICONTROL Event Performance]** en **[!UICONTROL Top events]** kunt u zien welke van uw **[!UICONTROL Events]** met succes is uitgevoerd via grafieken en tabellen.
+![](../assets/global_report_12.png)
 
-**[!UICONTROL Action Performance]** en  **[!UICONTROL Top Actions]** widgets zijn de meest succesvolle actie en fouten die optraden toen uw toepassing  **[!UICONTROL Actions]** werd geactiveerd. De tabel **[!UICONTROL Top Actions]** bevat de gegevens die beschikbaar zijn voor **[!UICONTROL Actions]**, zoals:
+Met de widgets **[!UICONTROL Events received by event]**, **[!UICONTROL Events by origin]** en **[!UICONTROL Top events]** kunt u zien welke van uw **[!UICONTROL Events]** met succes is uitgevoerd via grafieken en tabellen.
+
+![](../assets/global_report_13.png)
+
+**[!UICONTROL Action Performance]**,  **[!UICONTROL Action Error Reasons]** en  **[!UICONTROL Top Actions]** widgets zijn de meest succesvolle actie en fouten die optraden toen uw toepassing  **[!UICONTROL Actions]** werd geactiveerd.
+
+De tabel **[!UICONTROL Top Actions]** bevat de gegevens die beschikbaar zijn voor **[!UICONTROL Actions]**, zoals:
 
 * **[!UICONTROL Actions successfully executed]**: Het totale aantal  **[!UICONTROL Actions]** geslaagde executies voor een reis.
 
 * **[!UICONTROL Error in action]**: Het totale aantal fouten dat is opgetreden voor  **[!UICONTROL Actions]**.
-
-In de grafiek **[!UICONTROL Error Reasons]** wordt het type fout beschreven dat is opgetreden voor **[!UICONTROL Actions]**.
-
-<!--Events by origin-->
 
 ## Het tabblad E-mail {#email-global}
 
 Vanaf uw reis **[!UICONTROL Global report]**, details het **[!UICONTROL Email]** lusje de belangrijkste informatie met betrekking tot de e-mailleveringen die in uw reis worden verzonden.
 
 Raadpleeg de sectie [Globaal rapport ](#email-global-report) voor een gedetailleerd rapport over een specifieke e-maillevering.
+
+![](../assets/global_report_14.png)
 
 De grafiek **[!UICONTROL Email Sending Statistics]** geeft het succes van uw levering weer:
 
@@ -92,6 +94,10 @@ De grafiek **[!UICONTROL Email Sending Statistics]** geeft het succes van uw lev
 
 * **[!UICONTROL Click through rate]**: Percentage gebruikers dat met de reis interactie heeft gehad.
 
+* **[!UICONTROL Unsubscribe]**: Aantal klikken op de verbinding van het unsubscription.
+
+* **[!UICONTROL Spam complaints]**: Aantal keren dat een bericht als spam of junk werd verklaard.
+
 De grafiek **[!UICONTROL Sending Statistics]** bevat de gegevens die beschikbaar zijn voor verzonden e-mails, zoals:
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
@@ -99,6 +105,8 @@ De grafiek **[!UICONTROL Sending Statistics]** bevat de gegevens die beschikbaar
 * **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
+
+![](../assets/global_report_15.png)
 
 De widgets **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]** bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd, zoals:
 
@@ -110,15 +118,19 @@ De widgets **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]**
 
 Voor meer informatie over grenzen, verwijs naar [de pagina van de Onderdrukking ](../suppression-list.md).
 
+![](../assets/global_report_16.png)
+
 De **[!UICONTROL Email - Top Url]** grafiek en lijstdetails die URLs van uw levering het meest bezocht zijn.
 
-De **[!UICONTROL Email - Best recipient domain]** grafiek en lijstdetails die domeinen het meest door ontvangers worden gebruikt om e-mail te openen.
+De **[!UICONTROL Email - Top recipient domain]** grafiek en lijstdetails die domeinen het meest door ontvangers worden gebruikt om e-mail te openen.
 
 ## Tabblad {#push-global}
 
 Vanaf uw reis **[!UICONTROL Global report]**, details het **[!UICONTROL Push]** lusje de belangrijkste informatie met betrekking tot de duploleveringen die in uw reis worden verzonden.
 
 Voor een gedetailleerd rapport over een specifieke pushlevering, verwijs naar dit [Push Global report](#push-global-report).
+
+![](../assets/global_report_17.png)
 
 De tabel **[!UICONTROL Push notification - Sending statistics]** bevat de belangrijkste informatie met betrekking tot uw pushberichten met grafiek en KPI&#39;s:
 
@@ -160,6 +172,10 @@ De grafiek **[!UICONTROL Push notification summary]** bevat de gegevens die besc
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
+![](../assets/global_report_18.png)
+
 Met de grafiek en tabel **[!UICONTROL Error Reasons]** kunt u zien welke fout is opgetreden tijdens de levering.
+
+![](../assets/global_report_19.png)
 
 De **[!UICONTROL Tracking by platform]**-, **[!UICONTROL Sending by platform]**- en **[!UICONTROL Breakdown by platform]**-grafieken en -tabellen geven het succes van uw pushmelding weer, afhankelijk van het besturingssysteem van de ontvanger.
