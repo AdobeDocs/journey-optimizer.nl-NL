@@ -5,16 +5,14 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ea005587fdcdf3cb07da5d7cbd6080c12909d458
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '930'
 ht-degree: 9%
 
 ---
 
 # Voorwaardeactiviteit{#section_e2n_pft_dgb}
-
-![](../assets/do-not-localize/badge.png)
 
 Er zijn vier soorten voorwaarden beschikbaar:
 
@@ -76,6 +74,8 @@ Hierdoor kunt u verschillende handelingen uitvoeren op basis van het uur van de 
 ## Percentage splitsing {#percentage_split}
 
 Met deze optie kunt u het publiek willekeurig opsplitsen om een andere actie voor elke groep te definiëren. Definieer het aantal splitsingen en de verdeling voor elk pad. De gesplitste berekening is statistisch, aangezien het systeem niet kan voorspellen hoeveel mensen in deze activiteit van de reis zullen stromen. Als gevolg hiervan heeft de splitsing een zeer lage foutmarge. Deze functie is gebaseerd op een willekeurig Java mechanisme (zie deze [pagina](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+
+In de testmodus wordt bij het bereiken van een splitsing altijd de bovenste vertakking gekozen. U kunt de positie van de gesplitste vertakkingen opnieuw ordenen als u wilt dat de test een ander pad kiest. Zie [deze pagina](../building-journeys/testing-the-journey.md)
 
 >[!NOTE]
 >
