@@ -5,29 +5,22 @@ feature: Applicatie-instellingen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
 
-# Configuratie {#get-started-push} voor pushmelding
-
-![](assets/do-not-localize/badge.png)
+# Aan de slag met de pushconfiguratie {#get-started-push}
 
 Met pushberichten bereikt u op elk gewenst moment gebruikers van uw mobiele app, vooral wanneer ze uw app niet actief gebruiken. Met pushberichten kunt u verschillende gebruiksgevallen bereiken, zoals het aanbieden van updates over uw service, het vragen van een gebruiker om actie te ondernemen, de gebruiker te waarschuwen voor een nieuwe deal, enz. Apparaatplatforms moeten zich aanmelden voordat eindgebruikers uw meldingen kunnen ontvangen of bekijken. Gebruikers kunnen zich al aanmelden nadat de app voor de eerste keer na de installatie is gestart of in een volgende sessie of workflow, al naar gelang wat van toepassing is. [!DNL Journey Optimizer] ondersteunt pushmeldingen en helpt u zeer relevante meldingen te verzenden met toonaangevende doorvoersnelheden. Pushmeldingen kunnen personalisatie en Reiscontext omvatten om gegevensinzichten van uw merk met Adobe Experience Cloud te benutten.
 
 Deze pagina helpt u bij het instellen en begrijpen van belangrijke services en workflows die betrokken zijn bij pushberichten in [!DNL Journey Optimizer].
 
-## Pushmeldingen instellen met Adobe Journey Optimizer
+De stappen voor het configureren van het pushkanaal in [!DNL Adobe Journey Optimizer] worden beschreven in [deze pagina](push-configuration.md).
 
-Als u pushberichten wilt verzenden met Adobe Journey Optimizer, moet u de volgende stappen uitvoeren:
-
-1. Volg de documentatie om installatie te krijgen met [Adobe Journey Optimizer &amp; Adobe Experience Platform Mobile SDKs](https://aep-sdks.gitbook.io/docs/beta/adobe-journey-optimizer) in uw app.
-1. [voorinstelling maken voor het pushcommunicatiekanaal](configuration/message-presets.md)
-
-## Push Notifications and Adobe Journey Optimizer
+## Pushberichten en Adobe Journey Optimizer
 
 De volgende afbeelding toont de systemen en services die bij de bijbehorende gegevensstromen betrokken zijn en geeft aan hoe pushberichten vanuit een end-to-end servicestandpunt worden geleverd.
 
@@ -36,7 +29,7 @@ De volgende afbeelding toont de systemen en services die bij de bijbehorende geg
 1. Registratie van uw merk mobiele app (Android of iOS) met APN&#39;s van Apple en Google FCM-pushberichten
 1. De diensten van het overseinen produceren een duptoken, dat, een herkenningsteken is dat Adobe Journey Optimizer zal gebruiken om het specifieke apparaat met een dupmelding te richten.
 1. Het eerder gegenereerde pushtoken wordt doorgegeven aan Adobe Experience Platform en gesynchroniseerd met het Real-time klantprofiel. Dit gebeurt OOTB met een eenvoudig te integreren client-SDK
-1. Pushberichten worden geschreven in Adobe Journey Optimizer, Pushberichten worden gemaakt op basis van een berichtvoorinstelling
+1. Pushberichten zijn ontworpen in Adobe Journey Optimizer, pushberichten worden gemaakt op basis van een berichtvoorinstelling
 1. Pushberichten kunnen op het orkestcanvas in Journalen worden opgenomen
 1. Na publicatie van de Reis, zijn de klantprofielen die op de voorwaarden van de Reis worden gebaseerd gekwalificeerd om dupberichten te ontvangen, duw overseinen ladingen bij deze stap worden gepersonaliseerd
 1. Persoonlijke pushladingen worden doorgestuurd naar een interne service voor pushberichten
@@ -71,4 +64,3 @@ De volgende afbeelding toont de systemen en services die bij de bijbehorende geg
 In de volgende afbeelding ziet u de verschillende stappen van begin tot eind die nodig zijn voor het configureren van de componenten die het skelet van de gegevensstroom van de push vormen. De actiepunten zijn gecategoriseerd gebaseerd op de rol die de configuratie en de component uitvoert die worden gevormd.
 
 ![](assets/user-flow.png)
-
