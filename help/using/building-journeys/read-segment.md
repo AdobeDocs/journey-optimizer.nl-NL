@@ -5,16 +5,14 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 3%
+source-wordcount: '967'
+ht-degree: 4%
 
 ---
 
 # Een segment gebruiken in een reis {#segment-trigger-activity}
-
-![](../assets/do-not-localize/badge.png)
 
 ## Informatie over de activiteit Leessegment {#about-segment-trigger-actvitiy}
 
@@ -25,10 +23,12 @@ Neem bijvoorbeeld het segment voor het openen en uitchecken van de Luma-app dat 
 >[!NOTE]
 >
 >Het is niet mogelijk een op segmenten gebaseerde reis binnen een kortere tijdspanne dan 1 uur te activeren.
+>
+>Met de Burst Betaalde add-on kunt u zeer snel pushberichten verzenden in grote volumes voor eenvoudige reizen die een leessegment en een eenvoudig pushbericht bevatten. Raadpleeg [deze sectie](../building-journeys/journey-gs.md#burst) voor meer informatie
 
 ### De activiteit {#configuring-segment-trigger-activity} configureren
 
-De stappen om de Gelezen segmentactiviteit te vormen zijn als volgt:
+De stappen om de activiteit van het Leessegment te vormen zijn als volgt:
 
 1. Ontvouw de **[!UICONTROL Orchestration]** categorie en laat vallen een **[!UICONTROL Read Segment]** activiteit in uw canvas.
 
