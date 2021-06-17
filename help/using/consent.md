@@ -5,16 +5,14 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: ad8648c3fe98caa1d6800ad3664c35c2c6f676f0
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '691'
 ht-degree: 1%
 
 ---
 
 # Weigeren beheren {#consent}
-
-![](assets/do-not-localize/badge.png)
 
 Gebruik [!DNL Journey Optimizer] om de toestemming van uw ontvangers voor communicatie te volgen en te begrijpen hoe zij met uw merk willen werken door hun voorkeuren en abonnementen te beheren. <!--Their preferences and subscriptions are handled through Consent management.-->
 
@@ -130,6 +128,18 @@ Instantie van aanvraag:
 ```
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
+
+## Koppeling in koptekst {#unsubscribe-email} opzeggen
+
+Als de e-mailclientsoftware van de ontvangers ondersteuning biedt voor het weergeven van een niet-geabonneerde koppeling in de e-mailheader, wordt deze koppeling automatisch opgenomen in de e-mailberichten die worden verzonden met [!DNL Journey Optimizer].
+
+De koppeling voor afmelden wordt bijvoorbeeld als volgt weergegeven in Gmail:
+
+![](assets/unsubscribe-email.png)
+
+Als een ontvanger op deze koppeling klikt, wordt het bijbehorende profiel onmiddellijk uitgeschakeld en wordt deze keuze in het Experience Platform bijgewerkt.
+
+Als u op de koppeling Abonnement opzeggen klikt in de koptekst, heeft dit hetzelfde effect als klikken op de koppeling Abonnement opzeggen in de e-mailinhoud. Meer informatie over opt-outbeheer in [deze sectie](#opt-out-management).
 
 ## Push opt-out management {#push-opt-out-management}
 
