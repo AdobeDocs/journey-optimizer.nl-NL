@@ -5,7 +5,7 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 86%
@@ -13,8 +13,6 @@ ht-degree: 86%
 ---
 
 # Problemen oplossen{#concept_nlv_bcv_2fb}
-
-![](../assets/do-not-localize/badge.png)
 
 In deze sectie leert u hoe u problemen met journey’s kunt oplossen voordat u gaat testen of publiceren. Alle hieronder vermelde controles kunnen worden uitgevoerd in de testmodus van de journey of wanneer de journey live is. De aanbeveling is om alle onderstaande controles in de testmodus uit te voeren en vervolgens tot publicatie over te gaan. Zie [deze pagina](../building-journeys/testing-the-journey.md).
 
