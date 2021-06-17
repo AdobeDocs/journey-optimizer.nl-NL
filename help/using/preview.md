@@ -5,16 +5,14 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
 
 # Uw berichten voorvertonen en testen{#preview-and-proof}
-
-![](assets/do-not-localize/badge.png)
 
 Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u [gepersonaliseerde inhoud](personalization/personalize.md) opnam, zult u kunnen controleren hoe deze inhoud in het bericht wordt getoond, leveraging de gegevens van het testprofiel.
 
@@ -22,7 +20,10 @@ Om mogelijke fouten in e-mailinhoud of verpersoonlijkingsmontages te ontdekken, 
 
 >[!CAUTION]
 >
->U hebt testprofielen nodig om uw berichten te kunnen bekijken en proefdrukken te kunnen verzenden. Leer hoe u testprofielen maakt op [deze pagina](building-journeys/creating-test-profiles.md).
+>U hebt testprofielen nodig om uw berichten te kunnen bekijken en proefdrukken te kunnen verzenden.
+>
+>Leer hoe u testprofielen maakt op [deze pagina](building-journeys/creating-test-profiles.md).
+
 
 Als u de inhoud van uw bericht wilt testen, moet u:
 
@@ -33,13 +34,18 @@ Vervolgens kunt u proefdrukken](#send-proofs) verzenden naar uw testprofielen.[
 
 Bovendien kunt u uw **Litmus**-account gebruiken in [!DNL Journey Optimizer] om direct een voorvertoning van uw **e-mailrendering** weer te geven in populaire e-mailclients. U kunt er dan voor zorgen dat uw e-mailinhoud er goed uitziet en goed werkt in elk Postvak IN. Leer hoe te om E-mailvoorproeven van Litmus in [deze sectie](#email-rendering) te ontgrendelen
 
+>[!CAUTION]
+>
+>Wanneer u een bericht voorvertoont of proefdrukken verzendt, worden alleen profielverpersoonlijkingsgegevens weergegeven. Personalisatie op basis van contextgegevens, zoals gebeurtenisinformatie, kan alleen worden getest in het kader van een reis. Leer hoe te om verpersoonlijking in [dit gebruiksgeval](personalization/personalization-use-case.md) te testen.
+
+
 ## Testprofielen selecteren{#select-test-profiles}
 
 Gebruik [Testprofielen](building-journeys/creating-test-profiles.md) om extra ontvangers aan te wijzen die niet de bepaalde het richten criteria aanpassen.
 
 Volg onderstaande stappen om testprofielen te selecteren:
 
-1. Klik in de berichteninterface of in de e-mailontwerper op de knop **[!UICONTROL Preview]** om de selectie van het testprofiel te openen.
+1. Klik in de berichteninterface of in de e-mailontwerper op de knop **[!UICONTROL Show preview]** om de selectie van het testprofiel te openen.
 
    ![](assets/email-preview-button.png)
 
@@ -124,6 +130,10 @@ Als [testprofielen](#select-test-profiles) zijn geselecteerd, kunt u proefdrukke
    ![](assets/send-proof-view.png)
 
 U moet proefdrukken verzenden na om het even welke wijziging aan de berichtinhoud.
+
+>[!NOTE]
+>
+> In de proefdruk die naar de testprofielen wordt verzonden, is de verbinding aan de spiegelpagina niet actief. Deze wordt alleen geactiveerd in de laatste berichten.
 
 ## E-mailweergave{#email-rendering}
 
