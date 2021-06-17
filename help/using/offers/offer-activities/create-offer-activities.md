@@ -5,7 +5,7 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 21476691c6e5c5a2f8c5e36a494206fc9779c9d2
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 4%
@@ -24,10 +24,10 @@ De lijst met beslissingen is toegankelijk op het tabblad **[!UICONTROL Offers]**
 
 Voordat u een beslissing maakt, moet u controleren of de onderstaande componenten zijn gemaakt in de bibliotheek met aanbiedingen:
 
-* [Plaatsingen](../offer-library/creating-placements.md),
-* [Verzamelingen](../offer-library/creating-collections.md),
-* [Persoonlijke aanbiedingen](../offer-library/creating-personalized-offers.md),
-* [Alternatieve aanbiedingen](../offer-library/creating-fallback-offers.md).
+* [Plaatsingen](../offer-library/creating-placements.md)
+* [Verzamelingen](../offer-library/creating-collections.md)
+* [Persoonlijke aanbiedingen](../offer-library/creating-personalized-offers.md)
+* [Alternatieve aanbiedingen](../offer-library/creating-fallback-offers.md)
 
 ## De beslissing {#create-activity} maken
 
@@ -37,7 +37,7 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
    ![](../../assets/activities-name.png)
 
-## Besluiten toevoegen {#add-decisions}
+## Aanbiedingen toevoegen {#add-offers}
 
 1. Sleep een positie uit de lijst om deze aan de beslissing toe te voegen en klik vervolgens op **[!UICONTROL Add collection]**.
 
