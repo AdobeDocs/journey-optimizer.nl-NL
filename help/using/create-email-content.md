@@ -5,26 +5,24 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1456'
 ht-degree: 1%
 
 ---
 
 # Ontwerp uw e-mailinhoud in de gebruikersinterface {#create-email-content}
 
-![](assets/do-not-localize/badge.png)
-
 Als u uw bericht [hebt gemaakt](create-message.md), kunt u beginnen met het maken van uw e-mailinhoud.
 
-1. Selecteer **[!UICONTROL Email designer]** in de sectie **[!UICONTROL Edit content]** van het zojuist gemaakte bericht.
+1. Selecteer **[!UICONTROL Email designer]** in de sectie **[!UICONTROL Body]** van het zojuist gemaakte bericht.
 
    ![](assets/import-html_1.png)
 
 1. Kies op de introductiepagina van E-mail Designer hoe u uw e-mail wilt ontwerpen uit de volgende opties:
 
-   * Selecteer **[!UICONTROL Design from scratch]** om de mogelijkheden van de e-mailontwerper te gebruiken om uw e-mailinhoud tot stand te brengen.
+   * Selecteer **[!UICONTROL Design from scratch]** om de mogelijkheden van de e-mailontwerper te gebruiken om uw e-mailinhoud tot stand te brengen. [Meer informatie](#design-scratch)
 
    * Selecteer **[!UICONTROL Start from template]** om uw e-mail van een ingebouwde lijst van malplaatjes tot stand te brengen. U kunt geen andere sjablonen maken.
 
@@ -34,13 +32,39 @@ Als u uw bericht [hebt gemaakt](create-message.md), kunt u beginnen met het make
 
    ![](assets/email_designer_25.png)
 
-## Ontwerpen vanaf nul
+## Ontwerpen vanaf nul {#design-scratch}
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components"
+>title="Informatie over de componenten Structuur"
+>abstract="Structuurelementen definiëren de indeling van de e-mail."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns"
+>title="E-mailkolommen definiëren"
+>abstract="Met de E-mailontwerper kunt u de indeling van uw e-mail eenvoudig definiëren door de kolomstructuur te definiëren."
+
+Met de e-mailontwerper kunt u de structuur van uw e-mail eenvoudig definiëren. Door structuurelementen toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van uw e-mail binnen seconden ontwerpen.
 
 Voer de onderstaande stappen uit om uw e-mailinhoud samen te stellen met de e-mailontwerper:
 
 1. Nadat u de optie **[!UICONTROL Design from scratch]** hebt geselecteerd, kunt u uw e-mailinhoud ontwerpen door **[!UICONTROL Structure components]** te slepen en neer te zetten om de lay-out van uw e-mail te definiëren.
 
+   >[!NOTE]
+   >
+   >Kolommen zijn niet compatibel met alle e-mailprogramma&#39;s. Kolommen worden niet gestapeld als deze functie niet wordt ondersteund.
+   >
+   >Nadat u de onderdelen in de e-mail hebt geplaatst, kunt u deze alleen verplaatsen of verwijderen als er al een inhoudscomponent of een fragment in de e-mail is geplaatst.
+
    ![](assets/email_designer_2.png)
+
+1. Voeg zo veel **[!UICONTROL Structure components]** toe zoals nodig.
+
+   Selecteer de **[!UICONTROL n:n column]** component om het aantal kolommen van uw keus (tussen 3 en 10) te bepalen. U kunt de breedte van elke kolom ook bepalen door de pijlen bij de bodem van elke kolom te bewegen.
+
+   >[!NOTE]
+   >
+   >Elke kolomgrootte mag niet kleiner zijn dan 10% van de totale breedte van de structuurcomponent. U kunt geen kolom verwijderen die niet leeg is.
 
 1. In de vervolgkeuzelijst **[!UICONTROL Content components]** kunt u zoveel **[!UICONTROL Content components]** toevoegen als u nodig hebt in de structuurcomponent. [Meer informatie over de componenten](content-components.md) Inhoud.
 
@@ -64,6 +88,10 @@ Voer de onderstaande stappen uit om uw e-mailinhoud samen te stellen met de e-ma
 
    ![](assets/email_designer_7.png)
 
+   >[!NOTE]
+   >
+   >Meer informatie over koppelingen en het bijhouden van berichten vindt u op [deze pagina](message-tracking.md).
+
 1. Indien nodig, kunt u op code redacteur schakelen om uw e-mail verder te personaliseren door **[!UICONTROL Switch to code editor]** van het geavanceerde menu te klikken. Voor meer informatie over de coderedacteur, verwijs naar deze [pagina](existing-content.md#import-raw-html-code).
 
    >[!NOTE]
@@ -72,7 +100,9 @@ Voer de onderstaande stappen uit om uw e-mailinhoud samen te stellen met de e-ma
 
    ![](assets/email_designer_26.png)
 
-1. Klik **[!UICONTROL Preview]** om uw e-mailrendering te controleren. U kunt kiezen voor de weergave Computer of Mobiel.
+1. Klik **[!UICONTROL Show preview]** om uw e-mailrendering te controleren. U kunt kiezen voor de weergave Computer of Mobiel.
+
+   Voor meer informatie over hoe voorproef uw e-mail, verwijs naar [Voorproef en test uw berichten](preview.md).
 
    ![](assets/email_designer_8.png)
 
@@ -80,42 +110,35 @@ Voer de onderstaande stappen uit om uw e-mailinhoud samen te stellen met de e-ma
 
 Uw e-mailinhoud kan nu worden gebruikt in een bericht. [Leer hoe u een bericht](publish-manage-message.md) verzendt.
 
-## De e-mailstructuur {#defining-the-email-structure} definiëren
+## Maak de tekstversie van een e-mailbericht {#generate-text-version}
 
->[!CONTEXTUALHELP]
->id="ac_structure_components"
->title="Informatie over de componenten Structuur"
->abstract="Structuurelementen definiëren de indeling van de e-mail."
+U wordt aangeraden een tekstversie van de e-mailtekst te maken die wordt gebruikt wanneer HTML-inhoud niet kan worden weergegeven.
 
->[!CONTEXTUALHELP]
->id="ac_edition_columns"
->title="E-mailkolommen definiëren"
->abstract="Met de E-mailontwerper kunt u de indeling van uw e-mail eenvoudig definiëren door de kolomstructuur te definiëren."
+Standaard maakt de e-mailontwerper een **[!UICONTROL Plain text]**-versie van uw e-mail, inclusief personalisatievelden. Deze versie wordt automatisch gegenereerd en gesynchroniseerd met de HTML-versie van uw inhoud.
 
-Met de e-mailontwerper kunt u de structuur van uw e-mail eenvoudig definiëren. Door structuurelementen toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van uw e-mail binnen seconden ontwerpen.
+Voer de onderstaande stappen uit als u liever een andere inhoud gebruikt voor de versie zonder opmaak:
 
-De structuur van een e-mail bewerken:
+1. Selecteer het tabblad **[!UICONTROL Plain text]** in uw e-mail.
 
-1. Open een bestaande inhoud of maak een nieuwe e-mailinhoud.
-1. U kunt de **[!UICONTROL Structure components]** openen door het pictogram **+** links te selecteren.
-1. Sleep de structuurcomponenten die u nodig hebt om uw e-mail vorm te geven en zet deze neer.
-Een blauwe lijn materialiseert de nauwkeurige plaats van de structuurcomponenten alvorens u het laat vallen. U kunt het boven, tussen of onder een andere component, maar niet binnen laten vallen.
+   ![](assets/text_version_3.png)
 
-   >[!NOTE]
+1. Gebruik de schakeloptie **[!UICONTROL Sync with HTML]** om synchronisatie uit te schakelen.
+
+   ![](assets/text_version_1.png)
+
+1. Klik op het vinkje om uw keuze te bevestigen.
+
+   ![](assets/text_version_2.png)
+
+1. Vervolgens kunt u de versie zonder tekst naar wens bewerken.
+
+>[!CAUTION]
+>
+>* Wijzigingen die worden aangebracht in de weergave **[!UICONTROL Plain text]** worden niet weerspiegeld in de HTML-weergave.
    >
-   >Kolommen zijn niet compatibel met alle e-mailprogramma&#39;s. Kolommen worden niet gestapeld als deze functie niet wordt ondersteund.
    >
-   >Nadat u de onderdelen in de e-mail hebt geplaatst, kunt u deze alleen verplaatsen of verwijderen als er al een inhoudscomponent of een fragment in de e-mail is geplaatst.
+* Als u de optie **[!UICONTROL Sync with HTML]** weer inschakelt nadat u de onbewerkte tekstinhoud hebt bijgewerkt, gaan de wijzigingen verloren en worden deze vervangen door tekstinhoud die uit de HTML-versie is gegenereerd.
 
-1. Er zijn verschillende structuurcomponenten beschikbaar die uit een of meer kolommen zijn samengesteld.
-
-   Selecteer de **[!UICONTROL n:n column]** component om het aantal kolommen van uw keus (tussen 3 en 10) te bepalen. U kunt de breedte van elke kolom ook bepalen door de pijlen bij de bodem van elke kolom te bewegen.
-
-   >[!NOTE]
-   >
-   >Elke kolomgrootte mag niet kleiner zijn dan 10% van de totale breedte van de structuurcomponent. U kunt geen kolom verwijderen die niet leeg is.
-
-Nadat de structuur is gedefinieerd, kunt u inhoudsfragmenten en -componenten aan uw e-mail toevoegen.
 
 ## Een preheader gebruiken {#preheader}
 
@@ -124,15 +147,33 @@ Nadat de structuur is gedefinieerd, kunt u inhoudsfragmenten en -componenten aan
 >title="Een preheader gebruiken"
 >abstract="Met de preheader kunt u een korte samenvattingstekst configureren die u kan helpen uw e-mails beter bij te houden en aan te passen."
 
-Een preheader is een korte samenvattingstekst die op de onderwerpregel volgt wanneer een e-mailbericht van uw e-mailclient wordt weergegeven. De preheader kan je helpen je e-mails beter bij te houden en aan te passen.
-
-Selecteer het bewerkingsvak **[!UICONTROL Preheader]** en voeg inhoud toe.
-
-U kunt een **[!UICONTROL Content block]**, een **[!UICONTROL Dynamic content]** of een **[!UICONTROL Personalization fields]** in de preheader-inhoud toevoegen.
-
 >[!NOTE]
 >
 >Voorkoppen zijn niet compatibel met alle e-mailclients. Als deze optie niet wordt ondersteund, wordt de preheader niet weergegeven.
+
+Een preheader is een korte samenvattingstekst die op de onderwerpregel volgt wanneer een e-mailbericht van uw e-mailclient wordt weergegeven. De preheader kan je helpen je e-mails beter bij te houden en aan te passen.
+
+1. Voeg bij de e-mailontwerper een **[!UICONTROL Structure components]** toe om uw e-mailontwerp te starten.
+
+   ![](assets/preheader_1.png)
+
+1. Klik in het rechterdeelvenster **[!UICONTROL Body settings]** op **Bewerken** naast het veld **[!UICONTROL Preheader]** om inhoud toe te voegen.
+
+   ![](assets/preheader_2.png)
+
+1. Voeg de preheader toe. U kunt het verder personaliseren door het **[!UICONTROL Add personalization]** pictogram te klikken.
+
+   ![](assets/preheader_3.png)
+
+1. In het venster **[!UICONTROL Edit Personalization]** kunt u **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** of **[!UICONTROL Personalization fields]** toevoegen.
+
+1. Klik **[!UICONTROL Validate]** om uw verpersoonlijkingssyntaxis te controleren.
+
+   ![](assets/preheader_4.png)
+
+1. Klik op **[!UICONTROL Save]**.
+
+Uw preheader is nu geconfigureerd voor uw e-mail.
 
 ## Achtergrondinstellingen {#about-backgrounds}
 
@@ -172,7 +213,7 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
 
    U kunt ook een achtergrondafbeelding instellen op kolomniveau, maar dit wordt zelden gebruikt.
 
-### Voorbeeld: verticale uitlijning en opvulling {#example--adjusting-vertical-alignment-and-padding} aanpassen
+## Verticale uitlijning en opvulling {#adjusting-vertical-alignment-and-padding} aanpassen
 
 U wilt de opvulling en de verticale uitlijning aanpassen binnen een structuurcomponent die uit drie kolommen bestaat. Volg de onderstaande stappen om dit te doen:
 
@@ -220,34 +261,5 @@ Wanneer u in de interface E-mailontwerper een element selecteert en de instellin
 
 De stijl wordt vervolgens toegepast op het geselecteerde element. Als voor de onderliggende elementen geen specifieke stijlkenmerken zijn gedefinieerd, wordt de opmaak van het bovenliggende element overgeërfd.
 
-
-## Maak de tekstversie van een e-mailbericht {#generate-text-version}
-
-U wordt aangeraden een tekstversie van de e-mailtekst te maken die wordt gebruikt wanneer HTML-inhoud niet kan worden weergegeven.
-
-Standaard maakt de e-mailontwerper een **[!UICONTROL Plain text]**-versie van uw e-mail, inclusief personalisatievelden. Deze versie wordt automatisch gegenereerd en gesynchroniseerd met de HTML-versie van uw inhoud.
-
-Voer de onderstaande stappen uit als u liever een andere inhoud gebruikt voor de versie zonder opmaak:
-
-1. Selecteer het tabblad **[!UICONTROL Plain text]** in uw e-mail.
-
-1. Gebruik de schakeloptie **[!UICONTROL Sync with HTML]** om synchronisatie uit te schakelen.
-
-   ![](assets/text_version_1.png)
-
-1. Klik op het vinkje om uw keuze te bevestigen.
-
-   ![](assets/text_version_2.png)
-
-1. Vervolgens kunt u de versie zonder tekst naar wens bewerken.
-
->[!CAUTION]
->
->* Wijzigingen die worden aangebracht in de weergave **[!UICONTROL Plain text]** worden niet weerspiegeld in de HTML-weergave.
-   >
-   >
-* Als u de optie **[!UICONTROL Sync with HTML]** weer inschakelt nadat u de onbewerkte tekstinhoud hebt bijgewerkt, gaan de wijzigingen verloren en worden deze vervangen door tekstinhoud die uit de HTML-versie is gegenereerd.
-
->
 
 
