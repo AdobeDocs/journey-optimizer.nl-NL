@@ -5,18 +5,16 @@ feature: Rapportage
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '71'
 ht-degree: 11%
 
 ---
 
 # Reisvelden {#sharing-journey-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-Deze mix wordt gebruikt in het reisschema (met betrekking tot tripStepEvent). Het bevat de volgende velden:
+Deze veldgroep wordt gebruikt in het reisschema (met betrekking tot tripStepEvent). Het bevat de volgende velden:
 
 ## tripID
 
