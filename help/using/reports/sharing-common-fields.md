@@ -5,18 +5,16 @@ feature: Rapportage
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '585'
 ht-degree: 1%
 
 ---
 
 # journaalgebeurtenissen gemeenschappelijke velden {#sharing-common-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-Deze mixin wordt gedeeld door de tripStepEvent en tripStepProfileEvent.
+Deze veldgroep wordt gedeeld door de tripStepEvent en de tripStepProfileEvent.
 
 Dit zijn de gemeenschappelijke gebieden XDM die [!DNL Journey Optimizer] naar Adobe Experience Platform verzendt. Voor elke stap die op reis wordt verwerkt, worden gemeenschappelijke velden verzonden. Voor aangepaste handelingen en verbeteringen worden specifiekere velden gebruikt.
 
