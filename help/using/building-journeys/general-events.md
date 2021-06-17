@@ -6,7 +6,7 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 285942ec51859a4cea888d9974f79f52acf3aabf
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 2%
@@ -15,13 +15,11 @@ ht-degree: 2%
 
 # Algemene gebeurtenissen {#section_ofg_jss_dgb}
 
-![](../assets/do-not-localize/badge.png)
-
 Voor dit type gebeurtenis kunt u alleen een label en een beschrijving toevoegen. De rest van de configuratie kan niet worden bewerkt. Het werd uitgevoerd door de technische gebruiker. Zie [deze pagina](../event/about-events.md).
 
 ![](../assets/general-events.png)
 
-Wanneer u een bedrijfsgebeurtenis laat vallen, voegt het automatisch een **Gelezen segment** activiteit toe. Raadpleeg [deze sectie](../event/about-events.md) voor meer informatie over bedrijfsgebeurtenissen
+Wanneer u een bedrijfsgebeurtenis laat vallen, voegt het automatisch een **Leessegment** activiteit toe. Raadpleeg [deze sectie](../event/about-events.md) voor meer informatie over bedrijfsgebeurtenissen
 
 ## Luisteren naar gebeurtenissen tijdens een bepaald tijdstip {#events-specific-time}
 
@@ -31,11 +29,11 @@ De reis zal dan aan de gebeurtenis tijdens de tijd luisteren die in de timeout w
 
 Voer de volgende stappen uit om een time-out voor een gebeurtenis te configureren:
 
-1. Activeer de optie **[!UICONTROL Enable the event timeout]** uit de eigenschappen van de gebeurtenis.
+1. Activeer de optie **[!UICONTROL Define the event timeout]** uit de eigenschappen van de gebeurtenis.
 
 1. Geef op hoeveel tijd de reis moet wachten op de gebeurtenis.
 
-1. Schakel de optie **[!UICONTROL Set the timeout path]** in als u de personen naar een time-outpad wilt sturen wanneer er geen gebeurtenis binnen de opgegeven time-out is ontvangen. Als deze optie niet wordt ingeschakeld, eindigt de reis voor het individu zodra de time-out is bereikt.
+1. Schakel de optie **[!UICONTROL Set a timeout path]** in als u de personen naar een time-outpad wilt sturen wanneer er geen gebeurtenis binnen de opgegeven time-out is ontvangen. Als deze optie niet wordt ingeschakeld, eindigt de reis voor het individu zodra de time-out is bereikt.
 
    ![](../assets/event-timeout.png)
 
