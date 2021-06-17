@@ -5,18 +5,16 @@ feature: Rapportage
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '374'
 ht-degree: 4%
 
 ---
 
 # journeyStep-gebeurtenissen - velden voor het ophalen van data {#sharing-fetch-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-Deze mixin wordt gedeeld door de tripStepEvent en tripStepProfileEvent.
+Deze veldgroep wordt gedeeld door de tripStepEvent en de tripStepProfileEvent.
 
 Tijdens een stapverwerking, kunnen wij geen gegevens halen op gebiedsgroepen.
 
