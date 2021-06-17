@@ -1,7 +1,7 @@
 ---
 title: Beginnen met uitvoering van de reis
 description: Leer hoe u uw reis start en berichten verzendt
-source-git-commit: 4ff255b6b57823a1a4622dbc62b4b8886fd956a0
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 2%
@@ -10,8 +10,6 @@ ht-degree: 2%
 
 
 # Uitvoering van reizen {#message-execution}
-
-![](../assets/do-not-localize/badge.png)
 
 ## Uw reis testen
 
@@ -46,11 +44,11 @@ Zodra een bericht wordt verzonden, kunt u zijn uitvoering door veelvoudige indic
 
 ## Berichten plannen {#schedule-messages}
 
-De berichten kunnen door de **[!UICONTROL Read segment]** activiteit in een [reis](journey.md) worden gepland. U kunt specificeren wanneer het segment de reis zal ingaan. [Meer informatie over de activiteit](read-segment.md) van het Leessegment.
+De berichten kunnen door de **[!UICONTROL Read Segment]** activiteit in een [reis](journey.md) worden gepland. U kunt specificeren wanneer het segment de reis zal ingaan. [Meer informatie over de activiteit](read-segment.md) Leessegment.
 
 Volg de onderstaande stappen om dit te doen:
 
-1. Bewerk een reis, sleep een **[!UICONTROL Read segment]** activiteit en begin deze te configureren. [Leer meer over het vormen van de Gelezen segmentactiviteit](read-segment.md#configuring-segment-trigger-activity).
+1. Bewerk een reis, sleep een **[!UICONTROL Read Segment]** activiteit en begin deze te configureren. [Meer informatie over het configureren van de activiteit](read-segment.md#configuring-segment-trigger-activity) Leessegment.
 
 1. Klik op de koppeling **[!UICONTROL Edit journey schedule]** om de eigenschappen van de rit te openen.
 
