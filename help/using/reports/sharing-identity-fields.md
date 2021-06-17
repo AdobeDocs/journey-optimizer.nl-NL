@@ -5,18 +5,16 @@ feature: Rapportage
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 24%
+source-wordcount: '63'
+ht-degree: 23%
 
 ---
 
 # journeyStep-gebeurtenissen - identiteitsvelden {#sharing-identity-fields}
 
-![](../assets/do-not-localize/badge.png)
-
-Deze mix is specifiek voor tripStepEvent: Deze gebeurtenis heeft betrekking op de reis en heeft niet de identityMap, die de profielidentiteit beschrijft, als om het even welk.
+Deze veldgroep is specifiek voor tripStepEvent: Deze gebeurtenis heeft betrekking op de reis en heeft niet de identityMap, die de profielidentiteit beschrijft, als om het even welk.
 
 Voor tripStepEvent, moeten wij gebieden met betrekking tot de identiteit ook toevoegen:
 
