@@ -5,9 +5,9 @@ feature: Applicatie-instellingen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
@@ -19,8 +19,10 @@ Met [!DNL Journey Optimizer] kunt u voorinstellingen voor berichten instellen di
 
 >[!CAUTION]
 >
-> Configuratie van voorinstellingen voor berichten is beperkt tot reisbeheerders. [Meer informatie](../administration/ootb-product-profiles.md#journey-administrator)
-
+> * Configuratie van voorinstellingen voor berichten is beperkt tot reisbeheerders. [Meer informatie](../administration/ootb-product-profiles.md#journey-administrator)
+   >
+   > 
+* U moet de configuratiestappen E-mail en van de Duw uitvoeren alvorens berichtvoorinstellingen te creëren.
 
 
 Nadat berichtvoorinstellingen zijn geconfigureerd, kunt u deze selecteren bij het maken van berichten in de lijst **[!UICONTROL Presets]**.
@@ -33,11 +35,9 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
    ![](../assets/preset-create.png)
 
-
 1. Voer een naam en beschrijving (optioneel) voor de voorinstelling in en selecteer vervolgens het kanaal of de kanalen die u wilt configureren.
 
    ![](../assets/preset-general.png)
-
 
    >[!NOTE]
    >
@@ -57,13 +57,27 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
    * Selecteer de IP-pool die u aan de voorinstelling wilt koppelen. [Meer informatie](ip-pools.md)
    * Voer de headerparameters in voor de e-mails die u verzendt met de voorinstelling.
 
+      >[!CAUTION]
+      >
+      >Met uitzondering van het veld **Reageren op (e-mail doorsturen)** moet het domein voor e-mailadressen het geselecteerde [gedelegeerde subdomein](about-subdomain-delegation.md) gebruiken.
+
+      * **[!UICONTROL Sender name]**: Naam van de afzender, zoals de naam van uw merk.
+
+      * **[!UICONTROL Sender email]**: Het e-mailadres dat u voor uw communicatie wilt gebruiken. Als het gedelegeerde subdomein bijvoorbeeld *marketing.luma.com* is, kunt u *contact@marketing.luma.com* gebruiken.
+
+      * **[!UICONTROL Reply to (name)]**: De naam die wordt gebruikt wanneer de ontvanger op de  **** knop Replay-out klikt in zijn e-mailclientsoftware.
+
+      * **[!UICONTROL Reply to (email)]**: Het e-mailadres dat wordt gebruikt wanneer de ontvanger op de  **** knop Replay-out klikt in de software van zijn e-mailclient. De e-mails die naar dit adres worden verzonden, worden doorgestuurd naar het onderstaande **[!UICONTROL Reply to (forward email)]**-adres. U moet een adres gebruiken dat op gedelegeerde subdomain (bijvoorbeeld *reply@marketing.luma.com*) wordt bepaald, anders zullen de e-mails worden gelaten vallen.
+
+      * **[!UICONTROL Reply to (forward email)]**: Alle e-mails die zijn ontvangen door  [!DNL Journey Optimizer] voor het gedelegeerde subdomein worden doorgestuurd naar dit e-mailadres. U kunt elk adres opgeven, behalve een e-mailadres dat is gedefinieerd in het gedelegeerde subdomein. Als het gedelegeerde subdomein bijvoorbeeld *marketing.luma.com* is, is elk adres zoals *abc@marketing.luma.com* niet toegestaan.
+
+      * **[!UICONTROL Error email]**: Alle fouten die door ISPs na een paar dagen van post worden geproduceerd die (asynchrone stuitingen) worden ontvangen op dit adres.
+
+      ![](../assets/preset-header.png)
+
       >[!NOTE]
       >
-      > * Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook liggend `_`, punt`.` en afbreekstreepje `-` tekens gebruiken.
-         > 
-         > 
-      * Met uitzondering van het **Reageren op (e-mail door:sturen)**, moet het domein van e-mailadressen het huidige geselecteerde subdomein gebruiken.
-
+      >Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook liggend `_`, punt`.` en afbreekstreepje `-` tekens gebruiken.
 
 
 1. Configureer **pushmelding**-instellingen.
@@ -86,7 +100,6 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
    Deze controles omvatten leverbaarheidstests die door het team van de Adobe worden uitgevoerd:
 
-
    * SPF-validatie
    * DKIM-validatie
    * MX-recordvalidatie
@@ -94,7 +107,6 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
    * Helo host check
    * Verificatie van IP-pool
    * A/PTR-record, t/m/res-subdomeinverificatie
-
 
 1. Als de controles zijn voltooid, krijgt de berichtvoorinstelling de status **[!UICONTROL Active]**. Het is klaar om te worden gebruikt om berichten te leveren.
 
