@@ -16,7 +16,7 @@ feature: Controlegroepen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: f2c280ba3d2148a62eebff421ef6c8c3c0352936
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 13%
@@ -24,8 +24,6 @@ ht-degree: 13%
 ---
 
 # Gebruikers en productprofielen beheren {#manage-permissions}
-
-![](../assets/do-not-localize/badge.png)
 
 >[!IMPORTANT]
 >
@@ -87,7 +85,7 @@ Merk op dat als u een uit-van-de-doos of douane **[!UICONTROL Product profile]**
 
 1. Selecteer het tabblad **[!UICONTROL Permissions]**. 
 
-   Het **[!UICONTROL Permissions]** lusje toont de lijst van mogelijkheden die op het ***[!UICONTROL Experience Cloud - Platform powered applications]** product van toepassing zijn.
+   Op het tabblad **[!UICONTROL Permissions]** wordt de lijst met mogelijkheden weergegeven die van toepassing zijn op het **[!UICONTROL Experience Cloud - Platform powered applications]**-product.
 
    ![](../assets/access_control_5.png)
 
