@@ -5,32 +5,40 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 8%
+source-wordcount: '345'
+ht-degree: 7%
 
 ---
 
 # Snel starten {#cjm-quick-start}
 
-![](assets/do-not-localize/badge.png)
-
 ## Belangrijkste stappen om {#cjm-key-steps} te starten
 
-Met Journey Optimizer kunt u bestaande inhoud importeren en nieuwe inhoud ontwerpen, berichten met klantprofielgegevens personaliseren, gebeurtenissen maken om berichten te activeren, segmenten definiëren en het publiek verfijnen, multikanaalberichten verzenden en toegang krijgen tot een volledige set rapportage- en controlehulpmiddelen om de impact van uw berichten en reizen te meten.
+Met [!DNL Adobe Journey Optimizer], kunt u bestaande berichtinhoud invoeren of een nieuwe inhoud ontwerpen, berichten met de gegevens van het klantenprofiel personaliseren, gebeurtenissen tot stand brengen om berichten teweeg te brengen, segmenten te bepalen en publiek te verfijnen, multi-kanaalberichten te verzenden, aanbiedingen tot stand te brengen en toe te voegen, en tot een volledige reeks rapporterings en controlehulpmiddelen toegang te hebben om de invloed van uw berichten en klantenreizen te meten.
 
 Gebaseerd op uw organisatie, kunt u verscheidene types van gebruikers bepalen en hen toegang tot bepaalde mogelijkheden afhankelijk van hun toestemmingen verlenen.
 
 ### Vereisten {#cjm-prerequisites}
 
-Voordat u begint met het gebruik van Adobe Journey Optimizer, moet u:
+Voordat u met het gebruik van [!DNL Adobe Journey Optimizer] begint, moet u:
 
-* **Gebruikersmachtigingen** definiëren: Meld u aan bij Journey Optimizer en geef toegang tot uw teamleden. [Meer informatie](../using/administration/permissions.md)
+* **Gebruikersmachtigingen** instellen: Meld u aan bij  [!DNL Adobe Journey Optimizer] en geef toegang tot uw teamleden. [Meer informatie](../using/administration/permissions.md)
 
-* **Kanalen en voorinstellingen** configureren: Werk met Adobe om instellingen voor e-mail- en pushmeldingen te definiëren en uw voorinstellingen te maken. [Meer informatie](../using/configuration/message-presets.md)
+* **Vorm uw kanalen**: definieer de instellingen voor e-mail- en pushmeldingen. [Meer informatie](../using/configuration/get-started-configuration.md)
 
-* **Identificeer gegevens en creeer schema en dataset**: U kunt uw gegevens in Adobe Experience Platform ophalen, een naamruimte voor identiteiten maken en een gegevensset voor profielen maken, segmenten en testprofielen maken. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)
+* **Definieer uw voorinstellingen**: Maak uw voorinstellingen en configureer de merkparameters. [Meer informatie](../using/configuration/message-presets.md)
+
+* **Identificeer gegevens en creeer schema en dataset**: U kunt uw gegevens in Adobe Experience Platform ophalen, een naamruimte voor identiteiten maken en een gegevensset voor profielen maken, segmenten en testprofielen maken.
+
+   * Leer hoe u een gegevensset voorvertoont en maakt in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html)
+
+   * Leer hoe u een naamruimte voor identiteit maakt in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#manage-namespaces)
+
+   * Leer hoe u testprofielen maakt op [deze pagina](../using/building-journeys/creating-test-profiles.md)
+
+   * Meer informatie over gegevensinvoer vindt u in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)
 
 
 ### Gebruiksstroom
@@ -41,7 +49,9 @@ Raadpleeg de volgende secties voor het instellen van uw eerste reis en het verze
 
 * **Elementen** uploaden: Adobe Experience Manager Assets Essentials gebruiken om elementen en afbeeldingen te beheren. [Meer informatie](assets-essentials.md)
 
-<!--* **Define audience**: create segments, create events, manage consent and privacy. [Read more](audiences.md)-->
+* **Voorstellen** toevoegen: Met Journey Optimizer-beheer kunt u persoonlijke aanbiedingen toevoegen aan uw berichten. [Meer informatie](../using/offers/get-started/starting-offer-decisioning.md)
+
+* **Doelgroep** definiëren: segmenten maken, gebeurtenissen maken, toestemming en privacy beheren. [Meer informatie](../using/segment/about-segments.md)
 
 * **Reizen** maken: U kunt berichten verzenden, contextafhankelijke gegevens gebruiken, het publiek verfijnen, gebruiksscenario&#39;s in meerdere stappen ontwerpen en uitvoeren. [Meer informatie](building-journeys/journey.md)
 
