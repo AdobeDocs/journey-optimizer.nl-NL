@@ -1,20 +1,18 @@
 ---
-title: Segmentkwalificatiegebeurtenissen
+title: Gebeurtenissen voor segmentkwalificatie
 description: Meer informatie over segmentkwalificatiegebeurtenissen
 feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8bcc1721f0d451e386b1fa0c5972c783ced01c7f
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 2%
+source-wordcount: '791'
+ht-degree: 1%
 
 ---
 
-# Segmentkwalificatiegebeurtenissen {#segment-qualification}
-
-![](../assets/do-not-localize/badge.png)
+# Kwalificatiegebeurtenissen voor segment {#segment-qualification}
 
 ## Informatie over segmentkwalificatiegebeurtenissen{#about-segment-qualification}
 
@@ -31,7 +29,7 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 >Als het geselecteerde segment wordt gestreamd, zullen de individuen die tot dit segment behoren potentieel de reis in real time ingaan. Als het segment partij is, zullen de mensen die nieuw voor dit segment worden gekwalificeerd de reis potentieel ingaan wanneer de segmentberekening op Adobe Experience Platform wordt uitgevoerd.
 
 
-1. Ontvouw de **[!UICONTROL Events]** categorie en laat vallen een **[!UICONTROL Segment qualification]** activiteit in uw canvas.
+1. Ontvouw de **[!UICONTROL Events]** categorie en laat vallen een **[!UICONTROL Segment Qualification]** activiteit in uw canvas.
 
    ![](../assets/segment5.png)
 
@@ -67,11 +65,13 @@ De nuttige lading bevat de volgende contextinformatie, die u in voorwaarden en a
 * het tijdstempel van de kwalificatie
 * segment-id
 
-Wanneer het gebruiken van de uitdrukkingsredacteur in een voorwaarde of een actie die **[!UICONTROL Segment qualification]** activiteit volgt, hebt u toegang tot **[!UICONTROL SegmentQualification]** knoop. U kunt kiezen tussen **[!UICONTROL Last qualification time]** en **[!UICONTROL status]** (ga binnen of weggaan).
+Wanneer het gebruiken van de uitdrukkingsredacteur in een voorwaarde of een actie die **[!UICONTROL Segment Qualification]** activiteit volgt, hebt u toegang tot **[!UICONTROL SegmentQualification]** knoop. U kunt kiezen tussen **[!UICONTROL Last qualification time]** en **[!UICONTROL status]** (ga binnen of weggaan).
 
 Zie [Condition activity](../building-journeys/condition-activity.md#about_condition).
 
 ![](../assets/segment8.png)
+
+Een nieuwe reis die een gebeurtenis van de segmentkwalificatie omvat is operationeel tien minuten nadat u het hebt gepubliceerd. Dit tijdinterval beantwoordt aan het geheime voorgeheugen verfrist interval van de specifieke dienst. Daarom moet u tien minuten wachten voordat u deze reis gebruikt.
 
 ## Best practices {#best-practices-segments}
 
