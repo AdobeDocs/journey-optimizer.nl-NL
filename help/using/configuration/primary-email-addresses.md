@@ -15,21 +15,21 @@ feature: Applicatie-instellingen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '119'
 ht-degree: 7%
 
 ---
 
 
-# Het primaire adres van profielen bepalen
+# Het primaire e-mailadres wijzigen
 
 Wanneer u een profiel als doel instelt, zijn mogelijk verschillende e-mailadressen beschikbaar in de database (persoonlijk, professioneel e-mailadres, enz.).
 
 Met Journey Optimizer kunt u bepalen welk e-mailadres u wilt gebruiken via de profielservice en u kunt prioriteiten bepalen wanneer verschillende adressen beschikbaar zijn. Ga als volgt te werk om dit te doen:
 
-1. Open het menu **[!UICONTROL Channels]** / **[!UICONTROL General]**.
+1. Open het **[!UICONTROL Channels]** `>` **[!UICONTROL General]** menu.
 1. Het veld dat momenteel standaard wordt gebruikt om de e-mailadressen van de profielen te bepalen, wordt in dit scherm weergegeven. Klik **[!UICONTROL Edit]** om het te veranderen.
 
    ![](../assets/primary-address.png)
