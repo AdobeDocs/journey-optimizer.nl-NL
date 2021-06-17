@@ -5,22 +5,20 @@ feature: Rapportage
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 233b97784843adb26cb37a612feeaf2a8e396f27
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '447'
 ht-degree: 7%
 
 ---
 
 # Reisrapporten maken{#design-jo-reports}
 
-![](../assets/do-not-localize/badge.png)
-
 Naast [real-time rapporten](live-report.md) en ingebouwde [global reporting mogelijkheden](global-report.md), kan [!DNL Journey Optimizer] automatisch gegevens over de reisprestaties naar Adobe Experience Platform verzenden, zodat deze met andere gegevens voor analysedoeleinden kunnen worden gecombineerd.
 
 >[!NOTE]
 >
->Deze eigenschap wordt niet geactiveerd door gebrek op alle onlangs opgezette instanties. De activering vindt plaats op verzoek.
+>Deze functie wordt standaard geactiveerd bij alle gebeurtenissen voor stappen tijdens de reis. Voor trapsgewijze gebeurtenissen van het transportprofiel wordt de activering op verzoek uitgevoerd. De schema&#39;s en datasets die tijdens de levering voor deze eigenschap worden gecreeerd moeten niet worden veranderd.
 
 U hebt bijvoorbeeld een reis ingesteld die meerdere e-mails verzendt. Met deze functie kunt u [!DNL Journey Optimizer]-gegevens combineren met gegevens over gebeurtenissen in de downstream, zoals hoeveel conversies er hebben plaatsgevonden, hoeveel betrokkenheid er op de website heeft plaatsgevonden of hoeveel transacties er in de winkel hebben plaatsgevonden. De informatie over de reis kan worden gecombineerd met gegevens over Adobe Experience Platform, hetzij van andere digitale eigenschappen, hetzij van offline eigenschappen, voor een uitgebreider beeld van de prestaties.
 
