@@ -1,9 +1,9 @@
 ---
 title: Privacy
 description: Leer hoe u privacy beheert
-source-git-commit: f73e7ae0a5da002786778065894fab0d6a7b154d
+source-git-commit: b7c3b0e683cb5ae173c2ab979e3558cd0dbf6ee9
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '720'
 ht-degree: 50%
 
 ---
@@ -11,9 +11,7 @@ ht-degree: 50%
 
 # Privacy {#privacy}
 
-![](assets/do-not-localize/badge.png)
-
-Journey Optimizer is een krachtig instrument voor de verwerking van grote hoeveelheden gegevens, waaronder persoonlijke informatie en gevoelige gegevens.
+[!DNL Journey Optimizer] is een krachtig instrument voor de verwerking van grote hoeveelheden gegevens, waaronder persoonlijke informatie en gevoelige gegevens.
 
 * **Persoonsgegevens** omvatten informatie aan de hand waarvan een levende persoon direct of indirect kan worden geïdentificeerd.
 * **Gevoelige persoonsgegevens** zijn gegevens over etnische afkomst, politieke opvattingen, godsdienstige overtuiging, criminele achtergrond, genetische informatie, gezondheidsgegevens, seksuele voorkeur, biometrische informatie en lidmaatschap van een vakbond.
