@@ -5,7 +5,7 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 7%
@@ -13,8 +13,6 @@ ht-degree: 7%
 ---
 
 # Algemeen principe{#jo-general-principle}
-
-![](../assets/do-not-localize/badge.png)
 
 [!DNL Journey Optimizer] kunt u in real time het gebruik van het orchestration gebruiken gevallen leveraging contextuele gegevens die in gebeurtenissen of gegevensbronnen worden opgeslagen.
 
