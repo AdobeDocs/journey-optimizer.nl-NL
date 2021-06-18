@@ -5,28 +5,26 @@ feature: Rapportage
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '242'
 ht-degree: 1%
 
 ---
 
 # Globaal rapport {#global-report}
 
-![](../assets/do-not-localize/badge.png)
-
 >[!NOTE]
 >
 > Als aangepaste query&#39;s via API&#39;s worden gemaakt wanneer u de Query-service gebruikt, verwacht u enige vertraging voor uw rapporten.
 
-Met **[!UICONTROL Global report]** kunt u de doeltreffendheid van uw reizen en leveringen gedurende een bepaalde tijdsperiode meten.
+Met de **[!UICONTROL Global report]** kunt u het effect van uw reizen en leveringen over een bepaalde tijdsperiode meten.
 
-* Als u een reis of leveringen in een reis, van **[!UICONTROL Journeys]** menu wilt richten, toegang uw reis en klik **[!UICONTROL Global report]** pictogram. U kunt dan de Reis, E-mail en Duw **[!UICONTROL Global report]** vinden.
+* Als u een reis of leveringen in de context van een reis, van **[!UICONTROL Journeys]** menu wilt richten, toegang uw reis en klik **[!UICONTROL Global report]** pictogram. U kunt dan de Reis, E-mail en Duw **[!UICONTROL Global report]** vinden.
 
 * Als u een specifieke levering wilt richten, van **[!UICONTROL Global view]** van het **[!UICONTROL Executions]** lusje van uw berichten, uitgezocht **[!UICONTROL Global Report]** van het geavanceerde menu van uw geselecteerde levering.
 
-## Het dashboard {#modify-dashboard} wijzigen
+## Het dashboard {#modify-dashboard} aanpassen
 
 Elk rapporteringsdashboard kan worden gewijzigd door het formaat van widgets te wijzigen of deze te verwijderen of door het beoogde tijdkader te wijzigen. Het wijzigen van de widgets heeft alleen invloed op het dashboard van de huidige gebruiker. Andere gebruikers zien hun eigen dashboards of de dashboards die standaard zijn ingesteld.
 
@@ -36,7 +34,7 @@ Elk rapporteringsdashboard kan worden gewijzigd door het formaat van widgets te 
 
    ![](../assets/global_report_6.png)
 
-1. Klik **[!UICONTROL Modify dashboard]**.
+1. Klik **[!UICONTROL Modify]**.
 
    ![](../assets/global_report_8.png)
 
