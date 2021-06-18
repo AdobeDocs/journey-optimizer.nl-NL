@@ -5,7 +5,7 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 2%
@@ -13,8 +13,6 @@ ht-degree: 2%
 ---
 
 # Een bericht maken {#create-message}
-
-![](assets/do-not-localize/badge.png)
 
 De berichten zijn beschikbaar bij de **[!UICONTROL Messages]** kortere weg op de linkernavigatie. Alle berichten worden weergegeven, gesorteerd op publicatiedatum (voor gepubliceerde berichten) of aanmaakdatum (voor conceptuele berichten).
 
