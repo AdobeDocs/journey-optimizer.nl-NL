@@ -6,10 +6,10 @@ user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhanke
 type: Documentation
 solution: Journey Optimizer
 hide: true
-source-git-commit: a73430f57d6e482de08b3e01a8acef081945405b
+source-git-commit: ae2d9b0abf35b1e340c9dbd58a448061b1a07219
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 48%
+source-wordcount: '668'
+ht-degree: 44%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 48%
    + [Wat is Journey Optimizer](using/get-started.md)
    + [Snel starten](using/quick-start.md)
    + [Gebruikersinterface](using/user-interface.md)
-   + [Bekende problemen](using/known-issues.md)
 + Berichten {#create-messages}
    + [Aan de slag met berichten](using/get-started-content.md)
    + Berichten {#create-message} maken
@@ -35,8 +34,7 @@ ht-degree: 48%
       + [Uw e-mailinhoud importeren of coderen](using/existing-content.md)
       + [Componenten voor inhoud van e-mailontwerpers gebruiken](using/content-components.md)
    + Personalisatie{#personalization}
-      + [Aan de slag](using/personalization/personalize.md)
-      + [Personalisatiegebieden](using/personalization/personalization-aeras.md)
+      + [Aan de slag met personalisatie](using/personalization/personalize.md)
       + [Personalisatiesyntaxis](using/personalization/personalization-syntax.md)
       + [Validatie van personalisatie](using/personalization/personalization-validation.md)
       + [Gebruiksscenario voor persoonlijke voorkeur](using/personalization/personalization-use-case.md)
@@ -84,23 +82,25 @@ ht-degree: 48%
       + [Segment lezen](using/building-journeys/read-segment.md)
       + [Bericht](using/building-journeys/journeys-message.md)
       + [Aangepaste acties](using/building-journeys/using-custom-actions.md)
+      + [Handelingen voor Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
       + [Springen](using/building-journeys/jump.md)
       + [Profiel bijwerken](using/building-journeys/update-profiles.md)
    + Gebruiksscenario’s {#journey-use-cases}
       + [Multikanaalberichten verzenden](using/building-journeys/journeys-uc.md)
+      + [Een bericht verzenden met Campagne v7/v8](using/building-journeys/campaign-classic-use-case.md)
 + Bijhouden en bewaken {#reporting}
    + [Tracking van berichten](using/message-tracking.md)
    + [Berichtcontrole](using/message-monitoring.md)
    + Live rapport {#live-report}
-      + [Overzicht](using/reports/live-report.md)
-      + [Journaal live](using/reports/journey-live-report.md)
-      + [Live-melding via e-mail](using/reports/email-live-report.md)
-      + [Live-rapport afdrukken](using/reports/push-live-report.md)
+      + [Het dashboard voor Live-rapporten openen](using/reports/live-report.md)
+      + [Journey Live-rapport](using/reports/journey-live-report.md)
+      + [E-mailLive-rapport](using/reports/email-live-report.md)
+      + [Rapport Push Live](using/reports/push-live-report.md)
    + Globaal rapport {#global-report}
-      + [Overzicht](using/reports/global-report.md)
-      + [Journaal algemeen rapport](using/reports/journey-global-report.md)
-      + [Globaal e-mailrapport](using/reports/email-global-report.md)
-      + [Globaal rapport uitduwen](using/reports/push-global-report.md)
+      + [Het globale rapportdashboard van de toegang](using/reports/global-report.md)
+      + [Journey Global-rapport](using/reports/journey-global-report.md)
+      + [E-mailglobaal rapport](using/reports/email-global-report.md)
+      + [Push Global-rapport](using/reports/push-global-report.md)
    + Reisrapporten {#reports}
       + [Trainingsrapporten maken](using/reports/sharing-overview.md)
       + [Reisvelden](using/reports/sharing-journey-fields.md)
@@ -115,16 +115,17 @@ ht-degree: 48%
    + Aan de slag met Beslissingsbeheer {#get-started}
       + [Over het beheer van besluiten](using/offers/get-started/starting-offer-decisioning.md)
       + [Gebruikersinterface](using/offers/get-started/user-interface.md)
-      + [Verklarende woordenlijst](using/offers/get-started/glossary.md)
-   + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
-      + [Belangrijke stappen om een aanbieding te maken](using/offers/offer-library/key-steps.md)
+      + [Belangrijke stappen voor het maken en beheren van aanbiedingen](using/offers/offer-library/key-steps.md)
+      + [Hoofdlettergebruik: aanbiedingen in een e-mail invoegen](using/offers/offers-e2e.md)
+   + Componenten {#create-components} maken
       + [Plaatsingen maken](using/offers/offer-library/creating-placements.md)
       + [Beslissingsregels maken](using/offers/offer-library/creating-decision-rules.md)
       + [Tags maken](using/offers/offer-library/creating-tags.md)
+      + [Rangschikkingsformules maken](using/offers/offer-library/create-ranking-formulas.md)
+   + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + [Persoonlijke aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
-      + [Rangschikkingsformules maken](using/offers/offer-library/create-ranking-formulas.md)
    + Beslissingen nemen en beheren {#create-manage-activities}
       + [Beslissingen nemen](using/offers/offer-activities/create-offer-activities.md)
       + [Selectie van aanbiedingen in beslissingen configureren](using/offers/offer-activities/configure-offer-selection.md)
@@ -190,10 +191,9 @@ ht-degree: 48%
 + Configuratie{#get-started}
    + [Aan de slag met de Journey Optimizer-configuratie](using/configuration/get-started-configuration.md)
    + Berichten {#configuration} configureren
-      + [Technische instellingen](using/administration/administration.md)
-      + [Voorinstellingen voor berichten maken](using/configuration/message-presets.md)
-      + [Pushkanaal configureren](using/push-configuration.md)
-      + [Configuratie van pushmeldingen](using/push-gs.md)
+      + Configuratie van pushmelding{#push-config}
+         + [Aan de slag met de pushconfiguratie](using/push-gs.md)
+         + [Pushmeldingskanaal configureren](using/push-configuration.md)
       + E-mailconfiguratie {#email-config}
          + Subdomeinen {#delegate-subdomains} delegeren
             + [Aan de slag met subdomeindelegatie](using/configuration/about-subdomain-delegation.md)
@@ -206,6 +206,7 @@ ht-degree: 48%
             + [Onderdrukkingslijst beheren](using/configuration/manage-suppression-list.md)
             + [Hernieuwde pogingen](using/configuration/retries.md)
          + [Primair e-mailadres wijzigen](using/configuration/primary-email-addresses.md)
+      + [Voorinstellingen voor berichten maken](using/configuration/message-presets.md)
    + Reizen {#configure-journeys} configureren
       + [Informatie over gegevensbronnen, gebeurtenissen en handelingen](using/configuration/about-data-sources-events-actions.md)
       + [Integreren met externe systemen](using/configuration/external-systems.md)
@@ -225,6 +226,7 @@ ht-degree: 48%
       + Actieconfiguratie {#action-journeys}
          + [Acties](using/action/action.md)
          + [Een actie configureren](using/action/about-custom-action-configuration.md)
+         + [Integreren met Adobe Campaign v7/v8](using/action/acc-action.md)
 + Toegangsbeheer {#administration}
    + [Overzicht van toegangsbeheer](using/administration/permissions-overview.md)
    + [Geïntegreerde productprofielen](using/administration/ootb-product-profiles.md)
