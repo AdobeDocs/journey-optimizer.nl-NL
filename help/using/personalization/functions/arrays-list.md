@@ -5,7 +5,7 @@ feature: Personalisatie
 topic: Personalisatie
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 3%
@@ -13,8 +13,6 @@ ht-degree: 3%
 ---
 
 # Arrays en lijstfuncties {#arrays}
-
-![](../../assets/do-not-localize/badge.png)
 
 Gebruik deze functies om interactie met arrays, lijsten en tekenreeksen eenvoudiger te maken.
 
