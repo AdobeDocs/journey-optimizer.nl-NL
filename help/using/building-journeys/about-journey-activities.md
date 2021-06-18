@@ -5,7 +5,7 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 25%
@@ -13,8 +13,6 @@ ht-degree: 25%
 ---
 
 # Informatie over reisactiviteiten {#about-journey-activities}
-
-![](../assets/do-not-localize/badge.png)
 
 Combineer de verschillende actie-, orkestratie- en gebeurtenisactiviteiten om uw kanaaloverschrijdende scenario’s met meerdere stappen te maken.
 
