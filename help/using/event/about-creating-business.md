@@ -5,16 +5,14 @@ feature: Gebeurtenissen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '821'
 ht-degree: 14%
 
 ---
 
 # Een bedrijfsgebeurtenis configureren {#configure-a-business-event}
-
-![](../assets/do-not-localize/badge.png)
 
 In tegenstelling tot eenheidsgebeurtenissen zijn bedrijfsgebeurtenissen niet gekoppeld aan een specifiek profiel. Het type gebeurtenis-identiteitskaart is altijd op regel-gebaseerd. Lees meer over bedrijfsgebeurtenissen in [deze sectie](../event/about-events.md).
 
@@ -37,11 +35,11 @@ Bedrijfsevenementen kunnen &quot;een product is weer in voorraad&quot;, &quot;de
 
 Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
 
-1. Blader in de sectie BEHEER naar **[!UICONTROL Configurations]** en klik vervolgens op **[!UICONTROL Events]**. De lijst met gebeurtenissen wordt weergegeven.
+1. Selecteer **[!UICONTROL Configurations]** in de sectie van het menu BEHEER. Klik in de sectie **[!UICONTROL Events]** op **[!UICONTROL Manage]**. De lijst met gebeurtenissen wordt weergegeven.
 
    ![](../assets/jo-event1.png)
 
-1. Klik op **[!UICONTROL Add]** om een nieuwe gebeurtenis te maken. Het deelvenster voor gebeurtenisconfiguratie wordt aan de rechterkant van het scherm geopend.
+1. Klik op **[!UICONTROL Create Event]** om een nieuwe gebeurtenis te maken. Het deelvenster voor gebeurtenisconfiguratie wordt aan de rechterkant van het scherm geopend.
 
    ![](../assets/jo-event2.png)
 
@@ -82,7 +80,7 @@ Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
 
 De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. Raadpleeg [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) voor meer informatie over XDM.
 
-1. Selecteer een XDM-schema in de lijst en klik op het veld **[!UICONTROL Payload]** of op het pictogram **[!UICONTROL Edit]**.
+1. Selecteer een XDM-schema in de lijst en klik op het veld **[!UICONTROL Fields]** of op het pictogram **[!UICONTROL Edit]**.
 
    ![](../assets/journey8-business.png)
 
@@ -92,11 +90,9 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 
 1. Selecteer de velden die u van de gebeurtenis wilt ontvangen. Dit zijn de gebieden die de bedrijfsgebruiker in de reis zal hefboomwerking hebben.
 
-   ![](../assets/journey10-business.png)
-
 1. Wanneer u klaar bent met het selecteren van de benodigde velden, klikt u op **[!UICONTROL Save]** of drukt u op **[!UICONTROL Enter]**.
 
-   Het aantal geselecteerde velden wordt weergegeven in het veld **[!UICONTROL Payload]**.
+   Het aantal geselecteerde velden wordt weergegeven in het veld **[!UICONTROL Fields]**.
 
    ![](../assets/journey12-business.png)
 
