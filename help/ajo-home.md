@@ -5,33 +5,17 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 72f1a776a65287e5b0db4785cc9278529708aa20
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 6%
+source-wordcount: '138'
+ht-degree: 7%
 
 ---
 
-# Help Center {#cjm-documentation}
+# Adobe Journey Optimizer-documentatie {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.png)
 
-![](using/assets/do-not-localize/badge.png)
-**[!DNL Journey Optimizer]** is momenteel in  **bèta-** versie en kan zonder voorafgaande kennisgeving vaak worden gewijzigd. Als gebruiker deelt u uw ervaringen met de knop Bètafeedback in de productomschrijving. Bekende problemen worden vermeld in deze [pagina](using/known-issues.md).
-
-## Nieuwe functies?
-
-* [Access ](using/administration/permissions-overview.md) </br> controlLearn how to define and manage the permissions assigned to  [!DNL Journey Optimizer] users
-
-* [Helper ](using/personalization/functions/functions.md) </br> functiesHefboomwerking Helper functioneert in de redacteur van de Uitdrukking om berichtinhoud te personaliseren
-
-* [BeslissingsbeheerAanbiedingen maken en uw klanten de beste aanbieding en ervaring bieden ](using/offers/get-started/starting-offer-decisioning.md) </br> 
-
-* [Voorvertoning van berichten weergeven en ](using/preview.md) </br> berichten testenGebruik testprofielen om berichten voor te vertonen, proefdrukken te verzenden en e-mailrendering te beheren
-
-* [Live ](using/reports/live-report.md) rapporten en  [wereldwijde ](using/reports/global-report.md)</br> rapportenOntdek de rapportagemogelijkheden om de effectiviteit van uw reizen en berichten te volgen en te meten
-
-* [Testprofielen makenTestprofielen maken en deze gebruiken om uw berichten en reizen te testen ](using/building-journeys/creating-test-profiles.md) </br> 
 
 ## Aan de slag
 
@@ -39,9 +23,15 @@ ht-degree: 6%
 
 * [Een e-](using/design-emails.md) </br>mailinhoud ontwerpenEen nieuwe e-mail ontwerpen of een bestaande HTML-inhoud importeren
 
-* [Verzend ](using/building-journeys/journey.md) </br> berichtenLeer hoe te om duw en e-mailberichten in uw klantenreizen toe te voegen
+* [Verzend ](using/building-journeys/journeys-message.md) </br> berichtenLeer hoe te om duw en e-mailberichten in uw klantenreizen toe te voegen
 
 * [Maak uw eerste ](using/building-journeys/journeys-uc.md) </br>reisLeer hoe u een reis bouwt en uitvoert
+
+* [Belangrijke stappen voor het configureren van Journey Optimizer  [!DNL Journey Optimizer]](using/configuration/get-started-configuration.md) </br>configurerenMeer informatie
+
+* [Toegang verlenen  [!DNL Journey Optimizer]](using/administration/permissions-overview.md) </br> aanLeer om de machtigingen te definiëren en te beheren die aan  [!DNL Journey Optimizer] gebruikers zijn toegewezen
+
+* [BeslissingsbeheerAanbiedingen maken en uw klanten de beste aanbieding en ervaring bieden ](using/offers/get-started/starting-offer-decisioning.md) </br> 
 
 ## Aanvullende bronnen
 
