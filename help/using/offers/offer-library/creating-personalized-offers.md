@@ -5,7 +5,7 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 1%
@@ -98,7 +98,7 @@ Met de regels en beperkingen voor geschiktheid kunt u bepalen onder welke voorwa
 
    ![](../../assets/offer_rule.png)
 
-1. Definieer **[!UICONTROL Priority]** van de aanbieding in vergelijking met andere als de gebruiker voor meer dan één aanbieding in aanmerking komt. De hoogste prioriteit van een aanbieding zal zijn, de hoogste prioriteit zal worden vergeleken met andere aanbiedingen
+1. Definieer **[!UICONTROL Priority]** van de aanbieding in vergelijking met andere als de gebruiker voor meer dan één aanbieding in aanmerking komt. De hoogste prioriteit van een aanbieding zal zijn, de hoogste prioriteit zal worden vergeleken met andere aanbiedingen.
 
 1. Geef de **[!UICONTROL Capping]** van de aanbieding op. Dit houdt in dat het aantal keren dat de aanbieding in totaal voor alle gebruikers wordt weergegeven. Als de aanbieding door alle gebruikers is afgeleverd het aantal keren dat u in dit veld hebt opgegeven, wordt de levering gestopt.
 
