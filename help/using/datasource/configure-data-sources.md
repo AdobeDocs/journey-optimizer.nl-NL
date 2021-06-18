@@ -5,16 +5,14 @@ feature: Databronnen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '691'
 ht-degree: 7%
 
 ---
 
 # Een gegevensbron {#configure-data-source} configureren
-
-![](../assets/do-not-localize/badge.png)
 
 Dit zijn de belangrijkste stappen voor de configuratie van databronnen:
 
@@ -22,9 +20,7 @@ Dit zijn de belangrijkste stappen voor de configuratie van databronnen:
 >
 >De databronconfiguratie wordt altijd uitgevoerd door een **technische gebruiker**.
 
-1. Selecteer het menu **[!UICONTROL Admin]** / **[!UICONTROL Data Sources]**.
-
-   De lijst met databronnen wordt weergegeven. Zie [deze pagina](../user-interface.md) voor meer informatie over de interface.
+1. Selecteer **[!UICONTROL Configurations]** in de sectie van het menu BEHEER. Klik in de sectie **[!UICONTROL Data Sources]** op **[!UICONTROL Manage]**. De lijst met databronnen wordt weergegeven. Zie [deze pagina](../user-interface.md) voor meer informatie over de interface.
 
    ![](../assets/journey18.png)
 
