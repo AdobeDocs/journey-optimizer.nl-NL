@@ -6,22 +6,22 @@ feature: Journey Optimizer
 role: Business Practitioner
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: b7c3b0e683cb5ae173c2ab979e3558cd0dbf6ee9
+source-git-commit: 4baecd9ae753dbca86217a418e85602a53310ad7
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
 # Integreren met intelligente services {#ai-overview}
 
-Dankzij de integratie met intelligente services kunt u de kracht van kunstmatige intelligentie en het leren van machines benutten in gevallen waarin de klant gebruikmaakt van ervaring. Dit staat voor marketing analisten toe om voorspellingen op te zetten specifiek voor de behoeften van een bedrijf gebruikend zaken-vlakke configuraties zonder de behoefte aan de deskundigheid van de gegevenswetenschap.
+Dankzij de integratie met **[!DNL Adobe Intelligent Services]** kunt u gebruikmaken van de kracht van kunstmatige intelligentie en het leren van machines in gebruiksgevallen voor de klant. Dit staat voor marketing analisten toe om voorspellingen op te zetten specifiek voor de behoeften van een bedrijf gebruikend zaken-vlakke configuraties zonder de behoefte aan de deskundigheid van de gegevenswetenschap.
 
-Raadpleeg de [documentatie](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/home.html) voor meer informatie over intelligente services.
+[!DNL Intelligent Services], gebaseerd op Adobe Experience Platform, geeft marketers die verantwoordelijk zijn voor de ervaring van klanten toegang tot AI-as-a-service, waardoor het voor iedereen gemakkelijk is om het gedrag van klanten te voorspellen, de impact van een campagne te meten of een beter rendement op elke investering te garanderen. Raadpleeg de [documentatie](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html) voor meer informatie over [!DNL Adobe Intelligent Services].
 
-Dankzij deze integratie kunt u klantprognoses benutten.
+Dankzij de integratie tussen [!DNL Journey Optimizer] en [!DNL Intelligent Services] kunt u klantprognoses gebruiken.
 
-AI van de klant maakt deel uit van de Intelligente Diensten. Het helpt voorspellen wat een klant waarschijnlijk zal doen. Zie de [documentatie](https://docs.adobe.com/content/help/en/experience-platform/intelligent-services/customer-ai/overview.html).
+AI van klant maakt deel uit van [!DNL Adobe Intelligent Services]. Het helpt voorspellen wat een klant waarschijnlijk zal doen. Zie de [documentatie](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html).
 
 Klant-AI staat merken toe om op basis van leerresultaten voor churn- of conversiesystemen te maken die beschikbaar zijn als profielkenmerken in de Adobe Experience Platform-profielen (Real-time Customer Profile).
 
@@ -29,4 +29,3 @@ Dientengevolge, kunnen zij als andere profielattributen in Journey Optimizer-voo
 
 ![](../assets/customer-ai.png)
 
-Merk op dat de AI van de Klant een betaalde eigenschap van de Adobe Experience Platform is.
