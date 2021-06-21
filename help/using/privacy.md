@@ -1,17 +1,20 @@
 ---
-title: Privacy
+title: 'Privacy in [!DNL Journey Optimizer] '
 description: Leer hoe u privacy beheert
-source-git-commit: b7c3b0e683cb5ae173c2ab979e3558cd0dbf6ee9
+topic: Privacy
+role: User
+level: Intermediate
+source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 50%
+source-wordcount: '778'
+ht-degree: 46%
 
 ---
 
 
-# Privacy {#privacy}
+# Privacybeheer met [!DNL Journey Optimizer]{#privacy}
 
-[!DNL Journey Optimizer] is een krachtig instrument voor de verwerking van grote hoeveelheden gegevens, waaronder persoonlijke informatie en gevoelige gegevens.
+[!DNL Journey Optimizer] is een krachtig instrument voor de verwerking van grote hoeveelheden gegevens, waaronder persoonlijke informatie en gevoelige gegevens. Om betere klantenervaringen te leveren, moet u persoonlijke gegevens van uw klanten verzamelen en opslaan. Wanneer u deze gegevens gebruikt, is het belangrijk dat u de privacy van uw klanten begrijpt en respecteert. De nieuwe wettelijke en organisatorische verordeningen geven gebruikers het recht om tot hun persoonlijke gegevens van uw gegevensopslag toegang te hebben of te schrappen op verzoek.
 
 * **Persoonsgegevens** omvatten informatie aan de hand waarvan een levende persoon direct of indirect kan worden geïdentificeerd.
 * **Gevoelige persoonsgegevens** zijn gegevens over etnische afkomst, politieke opvattingen, godsdienstige overtuiging, criminele achtergrond, genetische informatie, gezondheidsgegevens, seksuele voorkeur, biometrische informatie en lidmaatschap van een vakbond.
