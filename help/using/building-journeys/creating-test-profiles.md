@@ -5,9 +5,9 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+source-git-commit: 26cecf08f2032c58458f69ff1f2779e3c2603d18
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1319'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ De volgende informatie is vereist:
 2. **CSV-bestand**: Een door komma&#39;s gescheiden bestand met de lijst testprofielen die moeten worden gemaakt. De gebruikscase verwacht een vooraf gedefinieerde indeling voor het CSV-bestand dat de lijst met testprofielen bevat die moet worden gemaakt. Elke rij in het bestand moet de volgende velden in de juiste volgorde bevatten:
 
    1. **Persoon-id**: Unieke identificatiecode van het testprofiel. De waarden van dit veld moeten de naamruimte weerspiegelen die is geselecteerd. (Als voorbeeld, als **Telefoon** voor identiteitsnamespace wordt geselecteerd, dan zouden de waarden van dit gebied telefoonaantallen moeten zijn. Als **Email** is geselecteerd, moeten de waarden van dit veld e-mails zijn.)
-   1. **E-mail**: E-mailadres testprofiel. (Het veld **Persoon-id** en het veld **E-mail** kunnen dezelfde waarden bevatten als **Email** is geselecteerd als naamruimte voor identiteit)
+   1. **E-mail**: E-mailadres testprofiel. (Het veld **Person-id** en het veld **E-mailadres** kunnen dezelfde waarden bevatten als **Email** is geselecteerd als naamruimte voor identiteit)
    1. **Voornaam**: Voornaam van testprofiel.
    1. **Achternaam**: Achternaam van testprofiel.
    1. **Plaats**: Testprofiel woonplaats
