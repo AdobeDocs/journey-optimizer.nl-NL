@@ -5,7 +5,7 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 1%
@@ -26,7 +26,7 @@ De lijst met gepersonaliseerde aanbiedingen is toegankelijk in het menu **[!UICO
 
 ![](../../assets/offers_list.png)
 
-## De aanbieding {#create-offer} maken
+## De aanbieding maken {#create-offer}
 
 Ga als volgt te werk om een **aanbieding** te maken:
 
@@ -98,7 +98,7 @@ Met de regels en beperkingen voor geschiktheid kunt u bepalen onder welke voorwa
 
    ![](../../assets/offer_rule.png)
 
-1. Definieer **[!UICONTROL Priority]** van de aanbieding in vergelijking met andere als de gebruiker voor meer dan één aanbieding in aanmerking komt. De hoogste prioriteit van een aanbieding zal zijn, de hoogste prioriteit zal worden vergeleken met andere aanbiedingen.
+1. Definieer **[!UICONTROL Priority]** van de aanbieding in vergelijking met andere als de gebruiker voor meer dan één aanbieding in aanmerking komt. Hoe hoger de prioriteit van een aanbieding is, hoe hoger de prioriteit ervan wordt vergeleken met andere aanbiedingen.
 
 1. Geef de **[!UICONTROL Capping]** van de aanbieding op. Dit houdt in dat het aantal keren dat de aanbieding in totaal voor alle gebruikers wordt weergegeven. Als de aanbieding door alle gebruikers is afgeleverd het aantal keren dat u in dit veld hebt opgegeven, wordt de levering gestopt.
 
@@ -124,7 +124,7 @@ U kunt het voorstel ook opslaan als concept, zodat u het later kunt bewerken en 
 
 ![](../../assets/offer_review.png)
 
-De aanbieding wordt in de lijst weergegeven met de status **[!UICONTROL Live]** of **[!UICONTROL Draft]**, afhankelijk van de vraag of u de aanbieding hebt goedgekeurd of niet in de vorige stap.
+De aanbieding wordt in de lijst weergegeven met de status **[!UICONTROL Live]** of **[!UICONTROL Draft]**, afhankelijk van het feit of u de aanbieding hebt goedgekeurd of niet in de vorige stap.
 
 Het is nu klaar om aan gebruikers te worden geleverd. U kunt het selecteren om zijn eigenschappen te tonen en het uit te geven of te onderdrukken.
 
