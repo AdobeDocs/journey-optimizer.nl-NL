@@ -5,14 +5,14 @@ feature: Rapportage
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
+source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%
 
 ---
 
-# Reis live rapport {#journey-live-report}
+# Journaal live {#journey-live-report}
 
 Live-rapport over reizen is rechtstreeks vanaf uw reis toegankelijk met de knop **[!UICONTROL Live report]**.
 
@@ -32,9 +32,9 @@ Vanaf uw reis **[!UICONTROL Live report]**, geeft het **[!UICONTROL Journey]** l
 
 ![](../assets/report_journey_2.png)
 
-**[!UICONTROL Journey`s performance]** Hiermee kunt u het pad van uw doelprofielen stap voor stap bekijken.
+**[!UICONTROL Journey Performance]** Hiermee kunt u het pad van uw doelprofielen stap voor stap bekijken.
 
-Met de widget **[!UICONTROL Journey`s statistics]** worden de volgende KPI&#39;s weergegeven:
+Met de widget **[!UICONTROL Journey Statistics]** worden de volgende KPI&#39;s weergegeven:
 
 * **[!UICONTROL Entered profiles]**: Het totale aantal personen dat de inreisgebeurtenis van de reis heeft bereikt.
 
@@ -54,7 +54,7 @@ Met de widgets **[!UICONTROL Event executed over the last 24 hours]**, **[!UICON
 
 * **[!UICONTROL Error in action]**: Het totale aantal fouten dat is opgetreden voor handelingen.
 
-## Het tabblad E-mail {#email-live}
+## Tabblad E-mail {#email-live}
 
 Vanaf uw reis **[!UICONTROL Live report]**, details het **[!UICONTROL Email]** lusje de belangrijkste informatie met betrekking tot de e-mailleveringen die in uw reis worden verzonden.
 
@@ -100,7 +100,7 @@ De widgets **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** e
 
 Met de grafiek en tabel **[!UICONTROL Error Reasons]** kunt u zien welke fout is opgetreden tijdens de levering.
 
-## Tabblad {#push-live}
+## Tabblad Push {#push-live}
 
 Vanaf uw reis **[!UICONTROL Live report]**, details het **[!UICONTROL Push]** lusje de belangrijkste informatie met betrekking tot de duploleveringen die in uw reis worden verzonden.
 
