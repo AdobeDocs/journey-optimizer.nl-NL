@@ -5,7 +5,7 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 3%
@@ -26,7 +26,7 @@ U kunt twee typen verzamelingen maken:
 
 * **Dynamische** verzamelingen zijn verzamelingen van aanbiedingen op basis van labels. Deze verzamelingen worden automatisch bijgewerkt. Als bijvoorbeeld een nieuwe aanbieding wordt gemaakt met de geselecteerde tag, wordt deze automatisch toegevoegd aan de verzameling.
 
-* **Statische** verzamelingen zijn verzamelingen die handmatig zijn gemaakt door afzonderlijke aanbiedingen te selecteren die u in de verzameling wilt opnemen. U kunt de verzameling alleen bijwerken door er handmatig meer aanbiedingen aan toe te voegen.
+* **Statische** verzamelingen zijn verzamelingen die handmatig zijn gemaakt door afzonderlijke aanbiedingen te selecteren die u in de verzameling wilt opnemen. De verzameling kan alleen worden bijgewerkt door er handmatig meer aanbiedingen aan toe te voegen.
 
 Ga als volgt te werk om een verzameling te maken:
 
