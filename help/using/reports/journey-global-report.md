@@ -5,7 +5,7 @@ feature: Rapportage
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
@@ -32,9 +32,9 @@ Vanaf uw reis **[!UICONTROL Global report]**, geeft het **[!UICONTROL Journey]**
 
 ![](../assets/global_report_2.png)
 
-Met de widget **[!UICONTROL Journey`s performance]** kunt u het pad van uw doelprofielen stap voor stap bekijken.
+Met de widget **[!UICONTROL Journey Performance]** kunt u het pad van uw doelprofielen stap voor stap bekijken.
 
-Met de widget **[!UICONTROL Journey`s statistics]** worden de volgende KPI&#39;s weergegeven:
+Met de widget **[!UICONTROL Journey Statistics]** worden de volgende KPI&#39;s weergegeven:
 
 * **[!UICONTROL Entered profiles]**: Het totale aantal personen dat de inreisgebeurtenis van de reis heeft bereikt.
 
@@ -56,7 +56,7 @@ De tabel **[!UICONTROL Top Actions]** bevat de gegevens die beschikbaar zijn voo
 
 * **[!UICONTROL Error in action]**: Het totale aantal fouten dat is opgetreden voor  **[!UICONTROL Actions]**.
 
-## Het tabblad E-mail {#email-global}
+## Tabblad E-mail {#email-global}
 
 Vanaf uw reis **[!UICONTROL Global report]**, details het **[!UICONTROL Email]** lusje de belangrijkste informatie met betrekking tot de e-mailleveringen die in uw reis worden verzonden.
 
@@ -124,7 +124,7 @@ De **[!UICONTROL Email - Top Url]** grafiek en lijstdetails die URLs van uw leve
 
 De **[!UICONTROL Email - Top recipient domain]** grafiek en lijstdetails die domeinen het meest door ontvangers worden gebruikt om e-mail te openen.
 
-## Tabblad {#push-global}
+## Tabblad Push {#push-global}
 
 Vanaf uw reis **[!UICONTROL Global report]**, details het **[!UICONTROL Push]** lusje de belangrijkste informatie met betrekking tot de duploleveringen die in uw reis worden verzonden.
 
