@@ -5,14 +5,14 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Beginner
-source-git-commit: 9ad4eeb11094b384f68eeaa9aa4e8fd7fe3e20c0
+source-git-commit: 51699c3bf597bc878b61438c0d0720bca317ff47
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 2%
 
 ---
 
-# Gebruik [!DNL Adobe Experience Manager Assets Essentials]  {#experience-manager-assets}
+# Gebruik [!DNL Adobe Experience Manager Assets Essentials] {#experience-manager-assets}
 
 ## Aan de slag met [!DNL Assets Essentials] {#get-started-assets-essentials}
 
@@ -24,7 +24,7 @@ Raadpleeg [Adobe Experience Manager Assets Essentials-documentatie](https://expe
 
 Als u bestanden wilt uploaden in de [!DNL Assets Essentials], moet u eerst bladeren naar de map waarin de bestanden worden opgeslagen of deze maken. U kunt deze vervolgens invoegen in uw e-mailinhoud.
 
-Raadpleeg [Adobe Experience Manager Assets Essentials-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete-assets.html) voor meer informatie over het uploaden van middelen.
+Raadpleeg [Adobe Experience Manager Assets Essentials-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html) voor meer informatie over het uploaden van middelen.
 
 1. Van [!DNL Adobe Journey Optimizer] homepage, selecteer **[!UICONTROL Assets]** tabel onder **[!UICONTROL Content management]** menu om tot [!DNL Assets Essentials] toegang te hebben.
 
