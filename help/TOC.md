@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a904ee8fdcb5f634e856bf55432836e3649a1abc
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 44%
+source-wordcount: '673'
+ht-degree: 43%
 
 ---
 
@@ -27,32 +27,32 @@ ht-degree: 44%
       + [Een e-mail maken](using/create-email.md)
       + [Een pushmelding maken](using/create-push.md)
    + [Elementen toevoegen en beheren](using/assets-essentials.md)
-   + Email Designer {#email-designer}
+   + E-mails ontwerpen {#email-designer}
       + [Aan de slag met e-mailontwerp](using/design-emails.md)
       + [Ontwerp uw e-mailinhoud in de gebruikersinterface](using/create-email-content.md)
       + [Uw e-mailinhoud importeren of coderen](using/existing-content.md)
       + [Componenten voor inhoud van e-mailontwerpers gebruiken](using/content-components.md)
-   + Personalisatie{#personalization}
-      + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [Personalisatiesyntaxis](using/personalization/personalization-syntax.md)
-      + [Validatie van personalisatie](using/personalization/personalization-validation.md)
-      + [Gebruiksscenario voor persoonlijke voorkeur](using/personalization/personalization-use-case.md)
-      + Helpfuncties{#functions}
-         + [Lijst van hulpfuncties](using/personalization/functions/functions.md)
-         + [Samenvoegingsfuncties](using/personalization/functions/aggregation.md)
-         + [Rekenkundige functies](using/personalization/functions/arithmetic-functions.md)
-         + [Arrays en lijstfuncties](using/personalization/functions/arrays-list.md)
-         + [Booleaanse en vergelijkingsfuncties](using/personalization/functions/operators.md)
-         + [Helpers](using/personalization/functions/helpers.md)
-         + [Toewijzingsfuncties](using/personalization/functions/maps.md)
-         + [Objectfuncties](using/personalization/functions/objects.md)
-         + [Reeksfuncties](using/personalization/functions/string.md)
-   + [Aangepaste aanbiedingen toevoegen](using/deliver-personalized-offers.md)
    + {#create-message} valideren en publiceren
       + [Voorvertoning en proefdrukken](using/preview.md)
       + [Waarschuwingen controleren](using/alerts.md)
       + [Berichten publiceren](using/publish-manage-message.md)
    + [Weigeren beheren](using/consent.md)
++ Personalisatie{#personalization}
+   + [Aan de slag met personalisatie](using/personalization/personalize.md)
+   + [Personalisatiesyntaxis](using/personalization/personalization-syntax.md)
+   + [Validatie van personalisatie](using/personalization/personalization-validation.md)
+   + [Hoofdlettergebruik: personalisatie toevoegen aan een pushmelding](using/personalization/personalization-use-case.md)
+   + Helpfuncties{#functions}
+      + [Lijst van hulpfuncties](using/personalization/functions/functions.md)
+      + [Samenvoegingsfuncties](using/personalization/functions/aggregation.md)
+      + [Rekenkundige functies](using/personalization/functions/arithmetic-functions.md)
+      + [Arrays en lijstfuncties](using/personalization/functions/arrays-list.md)
+      + [Booleaanse en vergelijkingsfuncties](using/personalization/functions/operators.md)
+      + [Helpers](using/personalization/functions/helpers.md)
+      + [Toewijzingsfuncties](using/personalization/functions/maps.md)
+      + [Objectfuncties](using/personalization/functions/objects.md)
+      + [Reeksfuncties](using/personalization/functions/string.md)
+   + [Aangepaste aanbiedingen toevoegen](using/deliver-personalized-offers.md)
 + Segmenten{#segment}
    + [Segmenten](using/segment/about-segments.md)
    + [Segmenten maken](using/segment/creating-a-segment.md)
