@@ -5,21 +5,25 @@ feature: Personalisatie
 topic: Personalisatie
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1181'
 ht-degree: 1%
 
 ---
 
 
-# Templaar van taal en hulpfuncties {#functionsL}
+# Bibliotheek met hulpfuncties{#functionsL}
 
 Gebruik [!DNL Journey Optimizer] sjabloontaal om bewerkingen uit te voeren op gegevens, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en deze te manipuleren in de context van personalisatie. Leer richtlijnen van de verpersoonlijkingssyntaxis in [deze pagina](../personalization-syntax.md).
+
+[!DNL :arrow_forward:] [Ontdek hoe u in video hulpfuncties kunt gebruiken](#video)
 
 De taal van het malplaatje wordt leveraged in helperfuncties beschikbaar in verpersoonlijkingsdrop-down lijst van de Redacteur van de Uitdrukking, zoals hieronder:
 
 ![](../assets/access-helper-functions.png)
+
+
 
 In de [!DNL Journey Optimizer] Redacteur van de Uitdrukking, worden de helperfuncties gegroepeerd in drie categorieën: [Functies](#functions-helper), [Helpers](#helper-helper) en [Operatoren](#operators-helper).
 
@@ -279,3 +283,8 @@ Vergelijkingsfuncties worden gebruikt om verschillende expressies en waarden met
     </tr>
 </table>
 
+## Hoe kan ik-video{#video}
+
+Leer hoe u waarden voor personalisatie kunt transformeren met behulp van hulpfuncties voor personalisatie en verschillende gebruiksgevallen voor hulpfuncties kunt begrijpen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
