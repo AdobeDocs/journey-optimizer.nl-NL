@@ -5,9 +5,9 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+source-git-commit: 6fc882827c2ba98af539abf90347483301d48edc
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ U kunt bijvoorbeeld een besluit toevoegen dat in uw e-mail een speciale kortings
 Raadpleeg [deze sectie](offers/get-started/starting-offer-decisioning.md) voor meer informatie over het maken en beheren van aanbiedingen.
 
 Voor een **volledig voorbeeld van begin tot eind** die toont hoe te om aanbiedingen te vormen, hen in een besluit te gebruiken en hefboomwerking dit besluit in een e-mail, controleer [dit sectie](offers/offers-e2e.md#insert-decision-in-email).
+
+[!DNL :arrow_forward:] [In deze video ziet u hoe u aanbiedingen als personalisatie toevoegt](#video-offers)
 
 
 ## Een beslissing invoegen in een e-mail {#insert-offers}
@@ -101,3 +103,9 @@ Volg onderstaande stappen om de verschillende aanbiedingen die deel uitmaken van
    ![](assets/deliver-offer-test-profile-male-preview.png)
 
 Leer meer over de gedetailleerde stappen om de berichtvoorproef in [dit sectie](#preview-your-messages) te controleren.
+
+## Hoe kan ik-video{#video-offers}
+
+Leer hoe te om een component van de offer decisioning aan berichten in [!DNL Journey Optimizer] toe te voegen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
