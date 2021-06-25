@@ -5,9 +5,9 @@ feature: Personalisatie
 topic: Personalisatie
 role: Data Engineer
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '324'
 ht-degree: 1%
 
 ---
@@ -17,10 +17,10 @@ ht-degree: 1%
 
 ## Validatiemechanismen
 
-In het scherm van de redacteur van de Uitdrukking, staat **Validate** knoop u toe om uw verpersoonlijkingssyntaxis te bevestigen.
+In het **scherm van de Redacteur van de Uitdrukking**, gebruik **Valideren** knoop om uw verpersoonlijkingssyntaxis te controleren.
 
 >[!NOTE]
-> De validatie wordt automatisch uitgevoerd wanneer u op **Add** klikt om het editorvenster te sluiten.
+> De bevestiging wordt automatisch uitgevoerd wanneer u op **Add** knoop klikt om het editorvenster te sluiten.
 
 
 ![](assets/perso_validation1.png)
@@ -69,7 +69,7 @@ Handlebars uitdrukkingen zijn omringd met **{{expression}**
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-### Specifieke fouten met betrekking tot aanbiedingen
+## Specifieke fouten met betrekking tot aanbiedingen
 
 De fouten met betrekking tot aanbiedingen integratie in een E-mail of Duw bericht hebben het volgende patroon:
 
