@@ -5,18 +5,16 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
+source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
 
 # Aangepaste aanbiedingen toevoegen {#deliver-personalized-offers}
 
-## Informatie over Besluitbeheer {#about-offer-decisioning}
-
-Met [!DNL Journey Optimizer] kunt u in uw e-mailberichten beslissingen invoegen (voorheen bekend als aanbiedingsactiviteiten) die gebruikmaken van de Offertenbeslissingsengine om de beste aanbieding te kiezen die u aan uw klanten kunt leveren.
+In [!DNL Journey Optimizer] e-mailberichten, kunt u besluiten (vroeger genoemd &quot;aanbiedingsactiviteiten&quot;) opnemen die hefboomwerking de Motor van het Besluit van het Voorstel om de beste aanbieding te kiezen aan uw klanten te leveren.
 
 U kunt bijvoorbeeld een besluit toevoegen dat in uw e-mail een speciale kortingsaanbieding weergeeft die afhankelijk is van het loyaliteitsniveau van de ontvanger.
 
@@ -29,7 +27,7 @@ Voor een **volledig voorbeeld van begin tot eind** die toont hoe te om aanbiedin
 
 >[!CAUTION]
 >
->Je moet eerst een beslissing over een voorstel definiëren. Leer hoe te om besluiten in [deze sectie](offers/offer-activities/create-offer-activities.md) tot stand te brengen.
+>Alvorens te beginnen, moet u [een aanbiedingsbesluit bepalen](offers/offer-activities/create-offer-activities.md).
 
 Volg onderstaande stappen om een beslissing in te voegen in een e-mailbericht:
 
