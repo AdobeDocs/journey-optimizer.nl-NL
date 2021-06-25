@@ -5,9 +5,9 @@ feature: Personalisatie
 topic: Personalisatie
 role: Data Engineer
 level: Beginner
-source-git-commit: 9656fc4b9f0935949abfd83db194c00da0f35cf4
+source-git-commit: 6fc882827c2ba98af539abf90347483301d48edc
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '663'
 ht-degree: 2%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 2%
 # Aan de slag met personalisatie{#add-personalization}
 
 Ontdek [!DNL Adobe Journey Optimizer] verpersoonlijkingsmogelijkheden om uw berichten aan elke specifieke ontvanger aan te passen door de gegevens en de informatie te gebruiken u over hem/haar hebt. Het kan zijn voornaam zijn, zijn belangen, waar hij woont, wat hij gekocht heeft, en meer.
+
+[!DNL :arrow_forward:] [Leer hoe u een bericht in deze video&#39;s kunt aanpassen](#video-perso)
 
 [!DNL Journey Optimizer] gebruikt een  **** inlinesimple verpersoonlijkingssyntaxis die op Handlebars wordt gebaseerd die u toestaat om uitdrukkingen met inhoud tot stand te brengen die door dubbele krullende steunen **{} wordt ingesloten}**. U kunt meerdere expressies zonder beperkingen toevoegen in dezelfde inhoud of hetzelfde veld. Meer informatie vindt u in [Persoonlijkheidssyntaxis](personalization-syntax.md).
 
@@ -103,3 +105,12 @@ In het volgende voorbeeld, laat de uitdrukkingsredacteur u de profielen selecter
 
 ![](assets/perso_ee2.png)
 
+## Instructievideo&#39;s{#video-perso}
+
+Leer hoe u contextuele gebeurtenisinformatie van een reis kunt gebruiken om een bericht aan te passen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
+
+Leer hoe u contextuele gebeurtenisinformatie van een reis kunt gebruiken om een bericht aan te passen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
