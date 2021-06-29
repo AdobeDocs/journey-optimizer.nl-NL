@@ -5,9 +5,9 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 2388a43928f5ea52bafbc5173f7302d53b2c5857
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '588'
 ht-degree: 4%
 
 ---
@@ -37,11 +37,15 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
    ![](../../assets/activities-name.png)
 
-## Aanbiedingen toevoegen {#add-offers}
+## Beslissingsbereik toevoegen {#add-decision-scopes}
 
-1. Sleep een plaatsing uit de lijst om deze aan de beslissing toe te voegen en klik vervolgens op **[!UICONTROL Add collection]**.
+1. Sleep een positie uit de lijst om deze aan de beslissing toe te voegen en klik vervolgens op **[!UICONTROL Add collection]**.
 
    ![](../../assets/activities-placement.png)
+
+   >[!NOTE]
+   >
+   >Dezelfde plaatsing kan meerdere keren in de beslissing worden geselecteerd.
 
 1. Selecteer de inzameling die de aanbiedingen bevat om te overwegen, dan klik **[!UICONTROL Add]**.
 
