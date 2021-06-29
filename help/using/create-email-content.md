@@ -5,9 +5,9 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: dc858fb29a9059c11fd4d3ab77954d4dac2097c3
+source-git-commit: 587dcb4823f57132748c913410a6fc177ccf76f1
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1487'
 ht-degree: 1%
 
 ---
@@ -110,7 +110,7 @@ Voer de onderstaande stappen uit om uw e-mailinhoud samen te stellen met de e-ma
 
 Uw e-mailinhoud kan nu worden gebruikt in een bericht. [Leer hoe u een bericht](publish-manage-message.md) verzendt.
 
-## Maak de tekstversie van een e-mailbericht {#generate-text-version}
+## De tekstversie van een e-mailbericht maken {#generate-text-version}
 
 U wordt aangeraden een tekstversie van de e-mailtekst te maken die wordt gebruikt wanneer HTML-inhoud niet kan worden weergegeven.
 
@@ -213,38 +213,59 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
 
    U kunt ook een achtergrondafbeelding instellen op kolomniveau, maar dit wordt zelden gebruikt.
 
-## Verticale uitlijning en opvulling {#adjusting-vertical-alignment-and-padding} aanpassen
+## Verticale uitlijning en opvulling aanpassen {#adjusting-vertical-alignment-and-padding}
 
-U wilt de opvulling en de verticale uitlijning aanpassen binnen een structuurcomponent die uit drie kolommen bestaat. Volg de onderstaande stappen om dit te doen:
+In dit voorbeeld passen we opvulling en verticale uitlijning aan binnen een structuurcomponent die uit drie kolommen bestaat.
 
-1. Selecteer de structuurcomponent rechtstreeks in de e-mail of met gebruik van de boomstructuur die beschikbaar is in het linkerpalet **Palet**.
-1. Klik op **contextafhankelijke werkbalk** en kies de werkbalk die u wilt bewerken. **[!UICONTROL Select a column]** U kunt deze ook selecteren in de boomstructuur.
+1. Selecteer de structuurcomponent rechtstreeks in de e-mail of met behulp van **[!UICONTROL Navigation tree]** beschikbaar in het linkermenu.
 
-   De bewerkbare parameters voor die kolom worden weergegeven in het **[!UICONTROL Settings]** deelvenster aan de rechterkant.
+   ![](assets/alignment_1.png)
 
-1. Selecteer onder **[!UICONTROL Vertical alignment]** de optie **[!UICONTROL Up]**.
+1. Klik in de werkbalk op **[!UICONTROL Select a column]** en kies de werkbalk die u wilt bewerken. U kunt deze ook selecteren in de boomstructuur.
 
-   De inhoudcomponent wordt vóór de kolom weergegeven.
+   De bewerkbare parameters voor die kolom worden weergegeven in het menu **[!UICONTROL Column settings]**.
+
+   ![](assets/alignment_2.png)
+
+1. Selecteer onder **[!UICONTROL Vertical alignment]** de optie **[!UICONTROL Bottom]**.
+
+   De inhoudscomponent wordt naar de onderkant van de kolom verplaatst.
+
+   ![](assets/alignment_3.png)
 
 1. Definieer onder **[!UICONTROL Padding]** de opvulling boven in de kolom. Klik op het vergrendelingspictogram om de synchronisatie met de onderste opvulling te verbreken.
 
    Definieer de linker- en rechteropvulling voor die kolom.
 
+   ![](assets/alignment_4.png)
+
 1. Ga op dezelfde manier te werk om de uitlijning en opvulling van de andere kolommen aan te passen.
 
 1. Sla uw wijzigingen op.
 
-## Een stijl definiëren voor koppelingen {#about-styling-links}
+## Een stijl voor koppelingen definiëren {#about-styling-links}
 
 U kunt een koppeling onderstrepen en de kleur en het doel ervan selecteren in de e-mailontwerper.
 
-1. In een component waar een verbinding wordt opgenomen, selecteer de etikettekst van uw verbinding.
+1. Selecteer de koppeling in een tekst **[!UICONTROL Content component]** waarin een koppeling is ingevoegd.
 
-1. In de componentenmontages, controleer **[!UICONTROL Underline link]** om de etikettekst van uw verbinding te onderstrepen.
+1. Schakel in het menu **[!UICONTROL Component settings]** **[!UICONTROL Underline link]** in om de labeltekst van de koppeling te onderstrepen.
 
-1. Selecteer een **[!UICONTROL Target]** als u wilt selecteren in welke browsercontext de koppeling wordt geopend.
+   ![](assets/link_1.png)
+
+1. Kies hoe de doelgroep wordt omgeleid met de vervolgkeuzelijst **[!UICONTROL Target]**:
+
+   * **[!UICONTROL None]**: Hiermee opent u de koppeling in hetzelfde frame als waarop u hebt geklikt (standaard).
+   * **[!UICONTROL Blank]**: Hiermee opent u de koppeling in een nieuw venster of op een nieuw tabblad.
+   * **[!UICONTROL Self]**: Hiermee opent u de koppeling in hetzelfde frame als waarop u hebt geklikt.
+   * **[!UICONTROL Parent]**: Hiermee opent u de koppeling in het bovenliggende frame.
+   * **[!UICONTROL Top]**: Hiermee opent u de koppeling in de volledige tekst van het venster.
+
+   ![](assets/link_2.png)
 
 1. Als u de kleur van de koppeling wilt wijzigen, klikt u op **[!UICONTROL Link color]**.
+
+   ![](assets/link_3.png)
 
 1. Kies de gewenste kleur.
 
