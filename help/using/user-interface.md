@@ -5,9 +5,9 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: d85dfe519ebbbb27693c7283c19cc1d7171c25ba
+source-git-commit: b495c96474e41d5b31cb3268434dbe36cfe13ec0
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1193'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ Blader naar [Adobe Experience Cloud](http://experience.adobe.com) als u eenmaal 
 
 >[!NOTE]
 >
->* Belangrijke concepten bij het bladeren in de gebruikersinterface zijn gebruikelijk voor Adobe Experience Platform. Raadpleeg [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=en#adobe-experience-platform-ui-guide) voor meer informatie.
+>* Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Raadpleeg [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=en#adobe-experience-platform-ui-guide) voor meer informatie.
    >
    >
 * Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
@@ -154,7 +154,7 @@ In de meeste lijsten, staat een onderzoeksbar u toe om naar een specifiek punt t
 
 Filters zijn toegankelijk door op het filterpictogram linksboven in de lijst te klikken. Met het filtermenu kunt u de weergegeven elementen filteren op basis van verschillende criteria. U kunt ervoor kiezen om alleen elementen van een bepaald type of een bepaalde status weer te geven, zoals de elementen die u hebt gemaakt of de elementen die in de afgelopen 30 dagen zijn gewijzigd. Welke opties beschikbaar zijn, is afhankelijk van de context.
 
-In de lijst van reizen, kunt u reizen volgens hun status en versie van **[!UICONTROL Status and version filters]** filtreren. U kunt ervoor kiezen alleen ritten weer te geven die een specifieke gebeurtenis, veldgroep of handeling uit de **[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]** gebruiken. Met **[!UICONTROL Publication filters]** kunt u een publicatiedatum of een gebruiker selecteren. U kunt bijvoorbeeld kiezen of u de nieuwste versies wilt weergeven van live reizen die gisteren zijn gepubliceerd. [Meer informatie](building-journeys/using-the-journey-designer.md).
+In de lijst van reizen, kunt u reizen volgens hun status, type en versie van **[!UICONTROL Status and version filters]** filtreren. Het type kan zijn: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** of **[!UICONTROL Burst]**. U kunt ervoor kiezen alleen ritten weer te geven die een specifieke gebeurtenis, veldgroep of handeling uit de **[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]** gebruiken. Met **[!UICONTROL Publication filters]** kunt u een publicatiedatum of een gebruiker selecteren. U kunt bijvoorbeeld kiezen of u de nieuwste versies wilt weergeven van live reizen die gisteren zijn gepubliceerd. [Meer informatie](building-journeys/using-the-journey-designer.md).
 
 >[!NOTE]
 >
