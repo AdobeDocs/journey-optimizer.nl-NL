@@ -5,14 +5,14 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+source-git-commit: 2e85e966dcff87717ce4a5f426f9e66526dab7c4
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '921'
 ht-degree: 4%
 
 ---
 
-# Een segment gebruiken in een reis {#segment-trigger-activity}
+# Een segment gebruiken tijdens een rit {#segment-trigger-activity}
 
 ## Informatie over de activiteit Leessegment {#about-segment-trigger-actvitiy}
 
@@ -22,11 +22,9 @@ Neem bijvoorbeeld het segment voor het openen en uitchecken van de Luma-app dat 
 
 >[!NOTE]
 >
->Het is niet mogelijk een op segmenten gebaseerde reis binnen een kortere tijdspanne dan 1 uur te activeren.
->
 >Met de Burst Betaalde add-on kunt u zeer snel pushberichten verzenden in grote volumes voor eenvoudige reizen die een leessegment en een eenvoudig pushbericht bevatten. Raadpleeg [deze sectie](../building-journeys/journey-gs.md#burst) voor meer informatie
 
-### De activiteit {#configuring-segment-trigger-activity} configureren
+### De activiteit configureren {#configuring-segment-trigger-activity}
 
 De stappen om de activiteit van het Leessegment te vormen zijn als volgt:
 
@@ -62,7 +60,7 @@ De stappen om de activiteit van het Leessegment te vormen zijn als volgt:
 
    ![](../assets/read-segment-schedule.png)
 
-   Standaard komen segmenten **[!UICONTROL As soon as possible]** op de reis. Dit betekent 1 uur na publicatie van de reis. Als u wilt dat het segment de reis op een specifieke datum/tijd of op een terugkomende basis ingaat, selecteer de gewenste waarde van de lijst.
+   Standaard voeren segmenten de reis **[!UICONTROL As soon as possible]** in. Als u wilt dat het segment de reis op een specifieke datum/tijd of op een terugkomende basis ingaat, selecteer de gewenste waarde van de lijst.
 
    >[!NOTE]
    >
@@ -93,8 +91,6 @@ Wanneer de test is uitgevoerd, kunt u met de knop **[!UICONTROL Show logs]** de 
 Zodra de tests succesvol zijn, kunt u uw reis publiceren (zie [Publicerend de reis](publishing-the-journey.md)). Personen die tot het segment behoren, komen de reis binnen op de datum/tijd die in de sectie **[!UICONTROL Scheduler]** in de eigendommen van de reis is vermeld.
 
 >[!NOTE]
->
->Wanneer een op segment gebaseerde reis die niet terugkomt (&quot;zo snel mogelijk beginnen&quot; of &quot;eens&quot;) wordt uitgevoerd, wordt zijn status automatisch veranderd in &quot;gesloten&quot;.
 >
 >Voor terugkerende segmentreizen wordt de reis automatisch beëindigd zodra de laatste reis is uitgevoerd. Als er geen einddatum/tijd is opgegeven, moet u de reis naar nieuwe ingangen handmatig sluiten om deze te beëindigen.
 
