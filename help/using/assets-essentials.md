@@ -5,16 +5,20 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Beginner
-source-git-commit: 51699c3bf597bc878b61438c0d0720bca317ff47
+source-git-commit: e367067bc7ab1b1ace7815213b921a4f90d12885
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 2%
+source-wordcount: '371'
+ht-degree: 3%
 
 ---
 
 # Gebruik [!DNL Adobe Experience Manager Assets Essentials] {#experience-manager-assets}
 
 ## Aan de slag met [!DNL Assets Essentials] {#get-started-assets-essentials}
+
+>[!NOTE]
+>
+> Als u met [!DNL Adobe Experience Manager Assets Essentials] wilt werken, moet u [!DNL Assets Essentials] voor uw organisatie implementeren en ervoor zorgen dat u deel uitmaakt van de productprofielen **Assets Essentials Consumer Users** of **Assets Essentials Users**. <br> Raadpleeg deze  [pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) voor meer informatie hierover.
 
 [!DNL Adobe Experience Manager Assets Essentials] biedt één gecentraliseerde opslagplaats voor elementen die u kunt gebruiken om uw berichten te vullen. Het kan direct van [!DNL Adobe Journey Optimizer] door de **[!UICONTROL Assets]** sectie worden betreden. U kunt ook elementen en mappen openen tijdens het ontwerpen van e-mailinhoud. [Meer weten over e-mailontwerp](design-emails.md)?
 
@@ -44,7 +48,7 @@ Raadpleeg [Adobe Experience Manager Assets Essentials-documentatie](https://expe
 
    ![](assets/media_library_3.png)
 
-1. Selecteer het bestand dat u wilt uploaden. Klik **[!UICONTROL Upload]** als u klaar bent.
+1. Selecteer het bestand dat u wilt uploaden. Klik op **[!UICONTROL Upload]** als u klaar bent.
 
    Raadpleeg deze [pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en) voor meer informatie over het beheren van uw elementen.
 
