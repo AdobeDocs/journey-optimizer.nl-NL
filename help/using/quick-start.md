@@ -5,16 +5,16 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: e367067bc7ab1b1ace7815213b921a4f90d12885
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '391'
 ht-degree: 7%
 
 ---
 
 # Snel starten {#cjm-quick-start}
 
-## Belangrijkste stappen om {#cjm-key-steps} te starten
+## Belangrijkste stappen om te beginnen {#cjm-key-steps}
 
 Met [!DNL Adobe Journey Optimizer], kunt u bestaande berichtinhoud invoeren of een nieuwe inhoud ontwerpen, berichten met de gegevens van het klantenprofiel personaliseren, gebeurtenissen tot stand brengen om berichten teweeg te brengen, segmenten te bepalen en publiek te verfijnen, multi-kanaalberichten te verzenden, aanbiedingen tot stand te brengen en toe te voegen, en tot een volledige reeks rapporterings en controlehulpmiddelen toegang te hebben om de invloed van uw berichten en klantenreizen te meten.
 
@@ -25,6 +25,8 @@ Gebaseerd op uw organisatie, kunt u verscheidene types van gebruikers bepalen en
 Voordat u met het gebruik van [!DNL Adobe Journey Optimizer] begint, moet u:
 
 * **Gebruikersmachtigingen** instellen: Meld u aan bij  [!DNL Adobe Journey Optimizer] en geef toegang tot uw teamleden. [Meer informatie](../using/administration/permissions.md)
+
+* **Implementeren[!DNL Adobe Experience Manager Assets Essentials]**: Als u elementen en afbeeldingen in uw berichten wilt beheren, moet u deze implementeren  [!DNL Assets Essentials] voor uw organisatie en ervoor zorgen dat u deel uitmaakt van de profielen  **Assets Essentials Consumer** User/and  **Assets Essentials** UsersProduct. [Meer informatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
 
 * **Vorm uw kanalen**: definieer de instellingen voor e-mail- en pushmeldingen. [Meer informatie](../using/configuration/get-started-configuration.md)
 
