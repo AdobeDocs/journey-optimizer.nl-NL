@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '674'
 ht-degree: 43%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 43%
 
 # [!DNL Journey Optimizer] Help {#using}
 
-+ [Productdocumentatie](ajo-home.md)
++ [Journey Optimizer-documentatie](ajo-home.md)
 + Aan de slag{#get-started}
    + [Wat is Journey Optimizer](using/get-started.md)
    + [Snel starten](using/quick-start.md)
@@ -213,12 +213,12 @@ ht-degree: 43%
          + [Algemeen principe](using/event/about-events.md)
          + Eenmalige gebeurtenis {#unitary-events} configureren
             + [Aan de slag met eenheidsgebeurtenissen](using/event/about-creating.md)
-            + [Informatie over ExperienceEvent-schema’s](using/event/experience-event-schema.md)
+            + [ExperienceEvent-schema’s](using/event/experience-event-schema.md)
             + [Adobe Analytics gebruiken](using/event/about-analytics.md)
          + [Een bedrijfsgebeurtenis configureren](using/event/about-creating-business.md)
          + [Aanvullende stappen om gebeurtenissen te verzenden](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
       + Configuratie gegevensbron{#data-source-journeys}
-         + [Informatie over databronnen](using/datasource/about-data-sources.md)
+         + [Databronnen](using/datasource/about-data-sources.md)
          + [Een gegevensbron configureren](using/datasource/configure-data-sources.md)
          + [Adobe Experience Platform-databron](using/datasource/adobe-experience-platform-data-source.md)
          + [Externe databronnen](using/datasource/external-data-sources.md)
