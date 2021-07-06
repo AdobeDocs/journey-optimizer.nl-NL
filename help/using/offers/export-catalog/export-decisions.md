@@ -5,7 +5,7 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1552'
 ht-degree: 0%
@@ -114,7 +114,7 @@ Hier is de lijst van alle gebieden die in de **[!UICONTROL Decision Object Repos
 
 **Veld:** profielRestricties 
 **Titel:** Profielrestrictie 
-**Beschrijving:** De profielbeperking bepaalt of een optie momenteel in aanmerking komt voor deze profielidentiteit, in deze context. Als de profielbeperking geen waarden van elke optie hoeft te overwegen, d.w.z. dat deze geen opties uit de optieselectie bevat, annuleert de profielbeperking die &#39;false&#39; oplevert de volledige optieselectie. Aan de andere kant wordt een regel voor profielbeperking die een optie als parameter neemt, geëvalueerd voor elke kwalificatieoptie van de optieselectie.
+**Beschrijving:** De profielbeperking bepaalt of een optie momenteel in aanmerking komt voor deze profielidentiteit, in deze context. Als de profielbeperking geen waarden van elke optie hoeft te overwegen, d.w.z. dat deze geen opties uit de optieselectie bevat, annuleert de profielbeperking die &#39;false&#39; oplevert de volledige optieselectie. Anderzijds wordt voor elke kwalificerende optie van de optiesselectie een regel voor profielbeperking geëvalueerd die een optie als parameter neemt.
 **Tekst:** object
 
 * **_experience > decisions > Criteria > profileConstraints > Description**
