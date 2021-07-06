@@ -5,9 +5,9 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '2005'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Hier is de lijst van alle gebieden die in **[!UICONTROL Decision Object Reposito
       **Veld:** id
       **Beschrijving:** Een optionele unieke id die verwijst naar het element in een inhoudsopslagplaats. Wanneer Platform-API&#39;s worden gebruikt om de representatie op te halen, kan de client een extra eigenschap \&quot;repo:resolveUrl\&quot; verwachten om het element op te halen.
       **Type:** tekenreeks
-      **Voorbeeld:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+      **Voorbeeld:** &quot;:aaid:urnsc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
@@ -193,7 +193,7 @@ Hier is de lijst van alle gebieden die in **[!UICONTROL Decision Object Reposito
 
 **Veld:** profileConstraints, 
 **titel:** Profielrestrictie, 
-**beschrijving:** de profielbeperkingen bepalen of een optie op dit moment in aanmerking komt voor deze profielidentiteit. Als de profielbeperking geen waarden van elke optie hoeft te overwegen, d.w.z. dat deze geen opties uit de optieselectie bevat, annuleert de profielbeperking die &#39;false&#39; oplevert de volledige optieselectie. Aan de andere kant wordt een regel voor profielbeperking die een optie als parameter neemt, geëvalueerd voor elke kwalificatieoptie van de optieselectie.
+**beschrijving:** de profielbeperkingen bepalen of een optie op dit moment in aanmerking komt voor deze profielidentiteit. Als de profielbeperking geen waarden van elke optie hoeft te overwegen, d.w.z. dat deze geen opties uit de optieselectie bevat, annuleert de profielbeperking die &#39;false&#39; oplevert de volledige optieselectie. Anderzijds wordt voor elke kwalificerende optie van de optiesselectie een regel voor profielbeperking geëvalueerd die een optie als parameter neemt.
 **Tekst:** object
 
 **_experience > decisions > profileConstraints > Description**
