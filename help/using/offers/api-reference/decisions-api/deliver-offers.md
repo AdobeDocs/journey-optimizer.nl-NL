@@ -5,7 +5,7 @@ feature: Aanbiedingen
 topic: Integraties
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 1%
@@ -20,7 +20,7 @@ U kunt aanbiedingen tot stand brengen en leveren door een verzoek van de POST aa
 
 Deze zelfstudie vereist een goed begrip van API&#39;s, met name wat betreft het beheer van besluiten. Zie de [Handleiding voor ontwikkelaars van API voor beslissingsbeheer](../getting-started.md) voor meer informatie. Deze zelfstudie vereist ook dat u een unieke plaatsings-id en een unieke keuze-id-waarde hebt. Als u deze waarden niet hebt verworven, zie de leerprogramma&#39;s voor [het creëren van een plaatsing](../offers-api/placements/create.md) en [het creëren van een besluit](../activities-api/activities/create.md).
 
-![](../../../assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#video)
+➡️  [Ontdek deze functie in video](#video)
 
 ## Kopteksten van het type Inhoud accepteren
 
