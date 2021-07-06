@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 43%
+source-wordcount: '689'
+ht-degree: 42%
 
 ---
 
@@ -56,9 +56,12 @@ ht-degree: 43%
       + [Objectfuncties](using/personalization/functions/objects.md)
       + [Reeksfuncties](using/personalization/functions/string.md)
    + [Aangepaste aanbiedingen toevoegen](using/deliver-personalized-offers.md)
-+ Segmenten{#segment}
-   + [Segmenten](using/segment/about-segments.md)
-   + [Segmenten maken](using/segment/creating-a-segment.md)
++ Segmenten, profielen en identiteit{#segment}
+   + Segmenten {#segments}
+      + [Segmenten](using/segment/about-segments.md)
+      + [Segmenten maken](using/segment/creating-a-segment.md)
+   + [Profielen](using/get-started-profiles.md)
+   + [Identiteit](using/get-started-identity.md)
 + Journeys {#orchestrate-journeys}
    + Informatie over reizen{#about-journeys}
       + [Algemeen principe](using/building-journeys/journey.md)
@@ -189,6 +192,10 @@ ht-degree: 43%
       + Levering aanbieden met behulp van API&#39;s {#offer-delivery}
          + [Beslissingen-API](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
++ Data management {#data-management}
+   + [Schemas](using/get-started-schemas.md)
+   + [Gegevenssets](using/get-started-datasets.md)
+   + [Zoekopdrachten](using/get-started-queries.md)
 + Configuratie{#get-started}
    + [Aan de slag met de Journey Optimizer-configuratie](using/configuration/get-started-configuration.md)
    + Berichten {#configuration} configureren
@@ -228,6 +235,7 @@ ht-degree: 43%
          + [Acties](using/action/action.md)
          + [Een actie configureren](using/action/about-custom-action-configuration.md)
          + [Integreren met Adobe Campaign v7/v8](using/action/acc-action.md)
+      + [Bronnen](using/get-started-sources.md)
 + Toegangsbeheer {#administration}
    + [Overzicht van toegangsbeheer](using/administration/permissions-overview.md)
    + [Geïntegreerde productprofielen](using/administration/ootb-product-profiles.md)
