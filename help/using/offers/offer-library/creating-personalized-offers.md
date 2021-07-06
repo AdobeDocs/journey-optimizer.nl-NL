@@ -5,7 +5,7 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: 8ffafb76b15ea7dfabd52c278833fc607f3338a5
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Voordat u een aanbieding maakt, moet u controleren of u het volgende hebt gemaak
 * Een **beslissingsregel** die de voorwaarde bepaalt waaronder de aanbieding zal worden ingediend. Zie [Beslissingsregels maken](../offer-library/creating-decision-rules.md).
 * Een of meer **tags** die u aan de aanbieding wilt koppelen. Zie [Codes maken](../offer-library/creating-tags.md).
 
-![](../../assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#video)
+➡️ [Ontdek deze functie in video](#video)
 
 De lijst met gepersonaliseerde aanbiedingen is toegankelijk in het menu **[!UICONTROL Offers]**.
 
