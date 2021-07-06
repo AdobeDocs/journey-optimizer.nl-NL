@@ -5,14 +5,14 @@ feature: Gebeurtenissen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1656'
 ht-degree: 13%
 
 ---
 
-# Eenmalige gebeurtenis {#configure-an-event} configureren
+# Een eenheidsgebeurtenis configureren {#configure-an-event}
 
 Eenheidsgebeurtenissen zijn gekoppeld aan een specifiek profiel. Zij kunnen op regel-gebaseerd of systeem-geproduceerd zijn.  Lees meer over eenheidsgebeurtenis [deze sectie](../event/about-events.md).
 
@@ -71,7 +71,7 @@ Hier volgen de eerste stappen voor het configureren van een nieuwe gebeurtenis:
 
    De gebeurtenis is nu geconfigureerd en klaar om in een journey worden gezet. Er zijn aanvullende configuratiestappen nodig om gebeurtenissen te ontvangen. Zie [deze pagina](../event/additional-steps-to-send-events-to-journey-orchestration.md).
 
-## De payload-velden {#define-the-payload-fields} definiëren
+## De laadvelden definiëren {#define-the-payload-fields}
 
 De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. Raadpleeg [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) voor meer informatie over XDM.
 
@@ -118,7 +118,7 @@ Selecteer een naamruimte in de vervolgkeuzelijst.
 
 Per reis is slechts één naamruimte toegestaan. Als u meerdere gebeurtenissen gebruikt op dezelfde reis, moeten ze dezelfde naamruimte gebruiken. Zie [deze pagina](../building-journeys/journey.md).
 
-## De profiel-id {#define-the-event-key} definiëren
+## De profiel-id definiëren {#define-the-event-key}
 
 De sleutel is het veld of de combinatie van velden maakt deel uit van de ladingsgegevens van de gebeurtenis. Hierdoor kan het systeem de persoon identificeren die aan de gebeurtenis is gekoppeld. De sleutel kan bijvoorbeeld de Experience Cloud-id, een CRM-id of een e-mailadres zijn.
 
@@ -157,7 +157,7 @@ U kunt bijvoorbeeld een voorwaarde definiëren om alleen de gebeurtenissen van e
 
 ![](../assets/journey78.png)
 
-## Een voorvertoning weergeven van de lading {#preview-the-payload}
+## Een voorvertoning van de lading weergeven {#preview-the-payload}
 
 Met de voorvertoning van de lading kunt u de definitie van de lading valideren.
 
