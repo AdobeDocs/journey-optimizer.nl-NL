@@ -5,7 +5,7 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 4%
@@ -18,7 +18,7 @@ Je kunt besluitvormingsregels voor voorstellen maken op basis van gegevens die b
 
 U kunt bijvoorbeeld opgeven dat u alleen een &#39;Women&#39;s Winter Clothing Offer&#39; wilt laten zien wanneer (Gender = &#39;Vrouwelijk&#39;) en (Region = &#39;Noordoost&#39;).
 
-![](../../assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#video)
+➡️ [Ontdek deze functie in video](#video)
 
 De lijst van gecreeerde besluitvormingsregels is toegankelijk in **[!UICONTROL Components]** menu.
 
