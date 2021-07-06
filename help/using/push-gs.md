@@ -5,9 +5,9 @@ feature: Applicatie-instellingen
 topic: Push
 role: Administrator
 level: Intermediate
-source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,13 @@ De volgende afbeelding toont de systemen en services die bij de bijbehorende geg
 
 * **Adobe Experience Platform Mobile** SDK biedt integratie-API&#39;s aan de clientzijde voor uw mobiele apparaten via met Android en iOS compatibele SDK&#39;s. De SDK biedt een [!DNL Adobe Journey Optimizer]-extensie die een aantal specifieke API&#39;s voor pushberichten toegankelijk maakt en gegevensstroom mogelijk maakt, zoals het registreren van het pushtoken of het verzenden van push-gebeurtenissen of andere aangepaste ervaringsgebeurtenissen naar Adobe Experience Platform. De SDK biedt ook een groot aantal andere extensies die andere Adobe Experience Cloud en andere partnermogelijkheden van derden mogelijk maken.
 
-   SDK-integratie vereist ook de installatie van Adobe Experience Platform [Data Collection](https://experienceleague.adobe.com/docs/launch/using/home.html)-services, zoals:
+   SDK-integratie vereist ook de installatie van de Adobe Experience Platform [Data Collection](https://experienceleague.adobe.com/docs/launch/using/home.html){target=&quot;_blank&quot;}-services, zoals:
 
    * Een gegevensstroom maken om het profiel te configureren en de gegevenssets met gebeurtenissen te ervaren op basis waarvan de gegevens in Adobe Experience Platform stromen
    * Mobiele eigenschap aan de clientzijde maken en extensies toevoegen. De SDK is nauw geïntegreerd met deze extensies voor een naadloze ervaring bij het verzamelen van gegevens.
    * De bundle-id en toepassingsgegevens van de mobiele app registreren
 
-* **Adobe Experience Platform Real-time Customer**  Profileming behoudt een holistische weergave van elke individuele klant door gegevens van meerdere kanalen te combineren, waaronder web, mobiel, CRM en derden. Het profiel staat u toe om uw klantengegevens in een verenigde mening te consolideren die een actionable, timestamped rekening van elke klanteninteractie aanbiedt. Het pushtoken voor een bepaalde gebruiker van de app wordt als recordgegevens opgeslagen ten opzichte van het profiel van de gebruiker, terwijl de interactie die de gebruiker met pushberichten onderneemt, als gebeurtenisgegevens uit de tijdreeks wordt bijgehouden. [Meer informatie over Adobe Experience Platform Real-time klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* **Adobe Experience Platform Real-time Customer**  Profileming behoudt een holistische weergave van elke individuele klant door gegevens van meerdere kanalen te combineren, waaronder web, mobiel, CRM en derden. Het profiel staat u toe om uw klantengegevens in een verenigde mening te consolideren die een actionable, timestamped rekening van elke klanteninteractie aanbiedt. Het pushtoken voor een bepaalde gebruiker van de app wordt als recordgegevens opgeslagen ten opzichte van het profiel van de gebruiker, terwijl de interactie die de gebruiker met pushberichten onderneemt, als gebeurtenisgegevens uit de tijdreeks wordt bijgehouden. [Meer informatie over Adobe Experience Platform Real-time Customer Profile](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
 * **[!DNL Adobe Journey Optimizer]** : als uw mobiele app is geïntegreerd met de hierboven vermelde componenten en uw klantprofielen in Adobe Experience Platform, kunt u pushberichten ontwerpen en ordenen  [!DNL Adobe Journey Optimizer] om contact op te nemen met uw gebruikers.
 
