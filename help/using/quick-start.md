@@ -5,7 +5,7 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Beginner
-source-git-commit: 4b65425389c64c867919746beede5456a6a08abd
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 7%
@@ -57,4 +57,4 @@ Raadpleeg de volgende secties voor het instellen van uw eerste reis en het verze
 
 * **Reizen** maken: U kunt berichten verzenden, contextafhankelijke gegevens gebruiken, het publiek verfijnen, gebruiksscenario&#39;s in meerdere stappen ontwerpen en uitvoeren. [Meer informatie](building-journeys/journey.md)
 
-* **Bewaking van berichten en reizen**: de uitvoering van controleberichten, controleverslagen en reisrapporten, gegevens over de te leveren follow-up. [Meer informatie](message-monitoring.md)
+* **Bewaking van berichten en reizen**: de uitvoering van controleberichten, controleverslagen en reisrapporten, gegevens over de follow-up van de leverbaar. [Meer informatie](message-monitoring.md)
