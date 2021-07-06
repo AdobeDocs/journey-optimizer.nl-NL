@@ -5,14 +5,14 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: a6a421fc23f4564bb24061c019c9418b491e7eee
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 3%
 
 ---
 
-# Hoofdlettergebruik: Vorm gepersonaliseerde aanbiedingen om hen in een e-mail {#configure-add-personalized-offers-email} te gebruiken
+# Hoofdlettergebruik: Aangepaste aanbiedingen configureren om deze in een e-mail te gebruiken {#configure-add-personalized-offers-email}
 
 Deze sectie stelt een voorbeeld van begin tot eind voor om te tonen hoe te om aanbiedingen te vormen en hen te gebruiken in een e-mail, die op een besluit wordt gebaseerd u eerder creeerde.
 
@@ -58,7 +58,7 @@ Het algemene besluitvormingsproces voor het gebruik van aanbiedingen in een e-ma
 
 ![](../assets/offers-e2e-process.png)
 
-## De componenten {#define-components} definiëren
+## De componenten definiëren {#define-components}
 
 Voordat u aanbiedingen gaat maken, moet u verschillende componenten definiëren die u in uw aanbiedingen wilt gebruiken.
 
@@ -109,7 +109,7 @@ U vindt ze onder **[!UICONTROL Decision Management]** > **[!UICONTROL Components
    >
    >In dit voorbeeld zullen we alleen de prioriteitsscores gebruiken. Meer informatie over [geschiktheidsregels en beperkingen](../../using/offers/offer-library/creating-personalized-offers.md#eligibility).
 
-## Aanbiedingen {#configure-offers} configureren
+## Aanbiedingen configureren {#configure-offers}
 
 U kunt nu uw aanbiedingen maken en configureren. In dit voorbeeld maakt u vier aanbiedingen die u volgens elk specifiek profiel wilt weergeven.
 
@@ -131,7 +131,7 @@ U kunt nu uw aanbiedingen maken en configureren. In dit voorbeeld maakt u vier a
 
    ![](../assets/offers-e2e-representations.png)
 
-1. Selecteer **[!UICONTROL Offer eligiblity]** in de sectie **[!UICONTROL By defined decision rule]** en sleep de regel van uw keuze.
+1. Selecteer **[!UICONTROL Offer eligibility]** in de sectie **[!UICONTROL By defined decision rule]** en sleep de regel van uw keuze.
 
    ![](../assets/offers-e2e-eligibility.png)
 
@@ -186,7 +186,7 @@ Wanneer het vormen van het besluit, zult u uw gepersonaliseerde aanbiedingen als
 
 De gedetailleerde stappen om een inzameling tot stand te brengen worden beschreven in [deze sectie](../../using/offers/offer-library/creating-collections.md).
 
-## De beslissing {#configure-decision} configureren
+## De beslissing configureren {#configure-decision}
 
 Nu moet u een besluit maken dat plaatsingen zal combineren met de gepersonaliseerde aanbiedingen en het fallback-aanbod dat u net hebt gemaakt.
 
