@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
+source-git-commit: f5a6a9b6c786b39b492a177de0b19a54b81729f7
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '677'
 ht-degree: 43%
 
 ---
@@ -32,6 +32,7 @@ ht-degree: 43%
       + [Ontwerp uw e-mailinhoud in de gebruikersinterface](using/create-email-content.md)
       + [Uw e-mailinhoud importeren of coderen](using/existing-content.md)
       + [Componenten voor inhoud van e-mailontwerpers gebruiken](using/content-components.md)
+   + [Koppelingen toevoegen en berichten bijhouden](using/message-tracking.md)
    + {#create-message} valideren en publiceren
       + [Voorvertoning en proefdrukken](using/preview.md)
       + [Waarschuwingen controleren](using/alerts.md)
@@ -41,7 +42,9 @@ ht-degree: 43%
    + [Aan de slag met personalisatie](using/personalization/personalize.md)
    + [Personalisatiesyntaxis](using/personalization/personalization-syntax.md)
    + [Validatie van personalisatie](using/personalization/personalization-validation.md)
-   + [Hoofdlettergebruik: personalisatie toevoegen aan een pushmelding](using/personalization/personalization-use-case.md)
+   + Gebruiksscenario’s{#personalization-use-cases}
+      + [Statusmelding van bestelling](using/personalization/personalization-use-case.md)
+      + [E-mailadres voor afmelden van winkelwagentje](using/personalization/personalization-use-case-helper-functions.md)
    + Helpfuncties{#functions}
       + [Lijst van hulpfuncties](using/personalization/functions/functions.md)
       + [Samenvoegingsfuncties](using/personalization/functions/aggregation.md)
@@ -88,7 +91,6 @@ ht-degree: 43%
       + [Multikanaalberichten verzenden](using/building-journeys/journeys-uc.md)
       + [Een bericht verzenden met Campagne v7/v8](using/building-journeys/campaign-classic-use-case.md)
 + Bijhouden en bewaken {#reporting}
-   + [Tracking van berichten](using/message-tracking.md)
    + [Berichtcontrole](using/message-monitoring.md)
    + Live rapport {#live-report}
       + [Het dashboard voor Live-rapporten openen](using/reports/live-report.md)
