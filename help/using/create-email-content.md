@@ -5,9 +5,9 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1493'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Voer de onderstaande stappen uit om uw e-mailinhoud samen te stellen met de e-ma
 
    ![](assets/email_designer_3.png)
 
-1. Elke component kan verder worden aangepast met de sectie **[!UICONTROL Component settings]**. U kunt bijvoorbeeld de tekststijl, de opvulling of marge van de component wijzigen. [Meer informatie over stijlen in de e-maileditor](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html).
+1. Elke component kan verder worden aangepast met de sectie **[!UICONTROL Component settings]**. U kunt bijvoorbeeld de tekststijl, de opvulling of marge van de component wijzigen. Meer informatie over stijlen in de E-mailredacteur in [Adobe Campaign documentatie](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/styles.html){target=&quot;_blank&quot;}.
 
    ![](assets/email_designer_4.png)
 
