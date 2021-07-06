@@ -5,7 +5,7 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: 2388a43928f5ea52bafbc5173f7302d53b2c5857
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 4%
@@ -102,7 +102,7 @@ Raadpleeg de volgende secties voor meer informatie over aanbiedingen:
 
 >[!NOTE]
 >
->Zodra een besluit is gecreeerd, kunt u zijn naam in de lijst klikken om tot gedetailleerde informatie toegang te hebben, en alle veranderingen vizualize die aan het zijn aangebracht gebruikend **[!UICONTROL Change log]** tabel (zie [Veranderingen logboek van aanbiedingen en van besluiten ](../get-started/user-interface.md#changes-log)).
+>Zodra een besluit is gecreeerd, kunt u zijn naam in de lijst klikken om tot gedetailleerde informatie toegang te hebben, en alle veranderingen visualiseren die aan het gebruikend **[!UICONTROL Change log]** tabel (zie [Veranderingen logboek van Aanbiedingen en van Besluiten ](../get-started/user-interface.md#changes-log)) zijn aangebracht.
 
 ## Video over zelfstudie {#video}
 
