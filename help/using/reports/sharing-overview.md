@@ -5,20 +5,20 @@ feature: Rapportage
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 233b97784843adb26cb37a612feeaf2a8e396f27
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 7%
 
 ---
 
-# Reisrapporten maken{#design-jo-reports}
+# Trainingsrapporten maken{#design-jo-reports}
 
 Naast [real-time rapporten](live-report.md) en ingebouwde [global reporting mogelijkheden](global-report.md), kan [!DNL Journey Optimizer] automatisch gegevens over de reisprestaties naar Adobe Experience Platform verzenden, zodat deze met andere gegevens voor analysedoeleinden kunnen worden gecombineerd.
 
 >[!NOTE]
 >
->Deze functie wordt standaard geactiveerd bij alle gebeurtenissen voor stappen tijdens de reis. Voor trapsgewijze gebeurtenissen van het transportprofiel wordt de activering op verzoek uitgevoerd. De schema&#39;s en datasets die tijdens de levering voor deze eigenschap worden gecreeerd moeten niet worden veranderd.
+>Deze functie wordt standaard geactiveerd bij alle gebeurtenissen voor stappen tijdens de reis. Voor trapsgewijze gebeurtenissen voor het reisprofiel wordt de activering op verzoek uitgevoerd. De schema&#39;s en datasets die tijdens de levering voor deze eigenschap worden gecreeerd moeten niet worden veranderd.
 
 U hebt bijvoorbeeld een reis ingesteld die meerdere e-mails verzendt. Met deze functie kunt u [!DNL Journey Optimizer]-gegevens combineren met gegevens over gebeurtenissen in de downstream, zoals hoeveel conversies er hebben plaatsgevonden, hoeveel betrokkenheid er op de website heeft plaatsgevonden of hoeveel transacties er in de winkel hebben plaatsgevonden. De informatie over de reis kan worden gecombineerd met gegevens over Adobe Experience Platform, hetzij van andere digitale eigenschappen, hetzij van offline eigenschappen, voor een uitgebreider beeld van de prestaties.
 
@@ -52,10 +52,10 @@ De volgende datasets worden overgegaan:
 
 De lijsten van XDM gebieden die tot Adobe Experience Platform worden overgegaan zijn hier gedetailleerd:
 
-* [journeySteps-gebeurtenissen - gemeenschappelijke velden](../reports/sharing-common-fields.md)
-* [journeyStep-gebeurtenissen - velden voor het uitvoeren van acties](../reports/sharing-execution-fields.md)
-* [journeyStep-gebeurtenissen - velden voor het ophalen van data](../reports/sharing-fetch-fields.md)
-* [journeyStep-gebeurtenissen - identiteitsvelden](../reports/sharing-identity-fields.md)
+* [Gemeenschappelijke velden van journeySteps-gebeurtenissen](../reports/sharing-common-fields.md)
+* [Velden voor het uitvoeren van acties van journeyStep-gebeurtenissen](../reports/sharing-execution-fields.md)
+* [Velden voor het ophalen van gegevens van journeyStep-gebeurtenissen](../reports/sharing-fetch-fields.md)
+* [Identiteitsvelden van journeyStep-gebeurtenissen](../reports/sharing-identity-fields.md)
 * [journeyvelden](../reports/sharing-journey-fields.md)
 
 Bekijk deze [zelfstudie video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html) voor meer informatie over stapgebeurtenissen die aan Adobe Experience Platform worden gerapporteerd.
