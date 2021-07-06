@@ -4,7 +4,7 @@ description: Leer hoe u privacy beheert
 topic: Privacy
 role: User
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: 4f80fd89c772ee4097a42fdaf1bff1f02ddbc004
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 46%
@@ -35,7 +35,7 @@ Persoonlijke en gevoelige gegevens moeten zorgvuldig worden beheerd. Volg onders
 
 * Stuur geen ongewenste berichten (&quot;spam&quot;). Adobe gelooft sterk in de beginselen van toestemmings marketing in het bevorderen van de waarde en loyaliteit van het klantenleven, en verbiedt daarom strikt het gebruik van Journey Optimizer in het verzenden van ongevraagde berichten.
 
-Journey Optimizer biedt u de mogelijkheid om de rechten te beheren die aan uw gebruikers zijn toegewezen via verschillende vooraf gebouwde of aangepaste productprofielen. Hierdoor kunt u bepalen wie binnen uw bedrijf toegang heeft tot verschillende typen gegevens en deze kan wijzigen of exporteren. Meer informatie over het beheren van de toegangsrechten van gebruikers in [Rechten beheren](../administration/permissions.md).
+Journey Optimizer biedt u de mogelijkheid om de rechten te beheren die aan uw gebruikers zijn toegewezen via verschillende vooraf gebouwde of aangepaste productprofielen. Hierdoor kunt u bepalen wie binnen uw bedrijf toegang heeft tot verschillende typen gegevens en deze kan wijzigen of exporteren. Meer informatie over het beheren van de toegangsrechten van gebruikers in [Rechten beheren](administration/permissions.md).
 
 Met Journey Optimizer kunt u ook de verzonden berichten en het gedrag van de ontvangers bijhouden via het openen en klikken op koppelingen. [Meer informatie over beheer](message-tracking.md) bijhouden.
 
