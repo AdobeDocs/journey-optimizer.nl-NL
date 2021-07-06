@@ -5,9 +5,9 @@ feature: Personalisatie
 topic: Personalisatie
 role: Data Engineer
 level: Experienced
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1180'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Gebruik [!DNL Journey Optimizer] sjabloontaal om bewerkingen uit te voeren op gegevens, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en deze te manipuleren in de context van personalisatie. Leer richtlijnen van de verpersoonlijkingssyntaxis in [deze pagina](../personalization-syntax.md).
 
-[!DNL :arrow_forward:] [Ontdek hoe u in video hulpfuncties kunt gebruiken](#video)
+➡️ [Ontdek hoe u hulpfuncties kunt gebruiken](#video) (video)
 
 De taal van het malplaatje wordt leveraged in helperfuncties beschikbaar in verpersoonlijkingsdrop-down lijst van de Redacteur van de Uitdrukking, zoals hieronder:
 
