@@ -5,10 +5,10 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Beginner
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 7%
+source-wordcount: '403'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ Voordat u met het gebruik van [!DNL Adobe Journey Optimizer] begint, moet u:
 
 * **Gebruikersmachtigingen** instellen: Meld u aan bij  [!DNL Adobe Journey Optimizer] en geef toegang tot uw teamleden. [Meer informatie](../using/administration/permissions.md)
 
-* **Implementeren[!DNL Adobe Experience Manager Assets Essentials]**: Als u elementen en afbeeldingen in uw berichten wilt beheren, moet u deze implementeren  [!DNL Assets Essentials] voor uw organisatie en ervoor zorgen dat gebruikers die toegang tot  [!DNL Assets Essentials]deze bestanden nodig hebben, deel uitmaken van de profielen  **Assets Essentials Consumer** User/and  **Assets Essentials** UsersProduct. [Meer informatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html)
+* **Implementeren[!DNL Adobe Experience Manager Assets Essentials]**: Als u elementen en afbeeldingen in uw berichten wilt beheren, moet u deze implementeren  [!DNL Assets Essentials] voor uw organisatie en ervoor zorgen dat gebruikers die toegang tot  [!DNL Assets Essentials]deze bestanden nodig hebben, deel uitmaken van de profielen  **Assets Essentials Consumer** User/and  **Assets Essentials** UsersProduct. [Meer](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) lezen{target=&quot;_blank&quot;}
 
 * **Vorm uw kanalen**: definieer de instellingen voor e-mail- en pushmeldingen. [Meer informatie](../using/configuration/get-started-configuration.md)
 
@@ -34,13 +34,13 @@ Voordat u met het gebruik van [!DNL Adobe Journey Optimizer] begint, moet u:
 
 * **Identificeer gegevens en creeer schema en dataset**: U kunt uw gegevens in Adobe Experience Platform ophalen, een naamruimte voor identiteiten maken en een gegevensset voor profielen maken, segmenten en testprofielen maken.
 
-   * Leer hoe u een gegevensset voorvertoont en maakt in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html)
+   * Leer hoe te voorproef en een dataset in [Adobe Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html){target=&quot;_blank&quot; te creëren
 
-   * Leer hoe u een naamruimte voor identiteit maakt in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#manage-namespaces)
+   * Leer hoe te om een identiteit te creëren namespace in [Adobe Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#manage-namespaces){target=&quot;_blank&quot;}
 
    * Leer hoe u testprofielen maakt op [deze pagina](../using/building-journeys/creating-test-profiles.md)
 
-   * Meer informatie over gegevensinvoer vindt u in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)
+   * Meer informatie over gegevensinvoer in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target=&quot;_blank&quot;}
 
 
 ### Gebruiksstroom
