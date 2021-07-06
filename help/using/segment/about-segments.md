@@ -5,18 +5,18 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
-# Informatie over Adobe Experience Platform-segmenten {#about-segments}
+# Aan de slag met segmenten {#about-segments}
 
-[!DNL Journey Optimizer]  kunt u Adobe Experience Platform-segmenten rechtstreeks vanuit het  **[!UICONTROL Segments]** menu maken met behulp van realtime klantprofielgegevens en deze gebruiken voor uw reizen.
+[!DNL Journey Optimizer] kunt u Adobe Experience Platform-segmenten rechtstreeks vanuit het  **[!UICONTROL Segments]** menu maken met behulp van realtime klantprofielgegevens en deze gebruiken voor uw reizen.
 
-Merk op dat de segmenten ook van de dienst van de Segmentatie zelf kunnen worden tot stand gebracht. Meer informatie vindt u in de documentatie [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+Merk op dat de segmenten ook van de dienst van de Segmentatie zelf kunnen worden tot stand gebracht. Leer meer in [de documentatie van de Dienst van de Segmentatie van Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}.
 
 U kunt segmenten in reizen op verschillende manieren benutten:
 
