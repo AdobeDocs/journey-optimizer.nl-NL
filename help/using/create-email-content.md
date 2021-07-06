@@ -5,7 +5,7 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 587dcb4823f57132748c913410a6fc177ccf76f1
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 1%
@@ -180,7 +180,7 @@ Uw preheader is nu geconfigureerd voor uw e-mail.
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Achtergrondinstellingen"
->abstract="Met de e-mailontwerper kunt u de achtergrondkleur of achtergrondafbeelding voor uw inhoud personaliseren. Achtergrondafbeelding wordt niet door alle e-mailclients ondersteund."
+>abstract="Met de e-mailontwerper kunt u de achtergrondkleur of achtergrondafbeelding voor uw inhoud aanpassen. Achtergrondafbeelding wordt niet door alle e-mailclients ondersteund."
 >additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="Aanvullende informatie"
 
 Als het gaat om het instellen van achtergronden met de e-mailontwerper, raadt Adobe het volgende aan:
