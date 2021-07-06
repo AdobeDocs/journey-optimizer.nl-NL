@@ -5,9 +5,9 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 9e152f50c2360010d83ffccbe536380879ffb5da
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '804'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ In de doelreis zal de eerste gebeurtenis die intern door de **[!UICONTROL Jump]*
 
 >[!NOTE]
 >
->Raadpleeg ook de videozelfstudie [hier](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html)
+>Verwijs ook naar de Journey Orchestration tutorial video [here](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html){target=&quot;_blank&quot;}
 
 ## Levenscyclus
 
