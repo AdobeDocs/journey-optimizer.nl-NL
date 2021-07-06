@@ -5,10 +5,10 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 5%
+source-wordcount: '410'
+ht-degree: 4%
 
 ---
 
@@ -50,13 +50,13 @@ Selecteer de datum voor de uitvoering van de volgende activiteit.
 
 ## Aangepast wachten{#custom}
 
-Met deze optie kunt u een aangepaste datum definiëren, bijvoorbeeld 12 juli 2020 om 17.00 uur, met een geavanceerde expressie die is gebaseerd op een veld dat afkomstig is van een gebeurtenis of gegevensbron. U kunt hiermee geen aangepaste duur definiëren, bijvoorbeeld 7 dagen. De expressie in de expressie-editor moet een dateTimeOnly-indeling hebben. Zie [deze pagina](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html). Voor meer informatie over dateTimeOnly formaat, zie [deze pagina](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html).
+Met deze optie kunt u een aangepaste datum definiëren, bijvoorbeeld 12 juli 2020 om 17.00 uur, met een geavanceerde expressie die is gebaseerd op een veld dat afkomstig is van een gebeurtenis of gegevensbron. U kunt hiermee geen aangepaste duur definiëren, bijvoorbeeld 7 dagen. De expressie in de expressie-editor moet een dateTimeOnly-indeling hebben. Zie [Journey Orchestration documentatie](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}. Voor meer informatie over dateTimeOnly formaat, zie [Journey Orchestration documentatie](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html){target=&quot;_blank&quot;}.
 
 >[!NOTE]
 >
->U kunt een dateTimeOnly-expressie gebruiken of een functie gebruiken om om te zetten in een dateTimeOnly. Bijvoorbeeld: toDateTimeOnly(@{Event.biedOpened.activity.endTime}), waarbij het veld in de gebeurtenis de vorm 2016-08-12T09:46:06Z heeft.
+>U kunt een dateTimeOnly-expressie gebruiken of een functie gebruiken om om te zetten in een dateTimeOnly. Bijvoorbeeld: toDateTimeOnly(@{Event.offerOpened.activity.endTime}), het veld in de gebeurtenis is van de vorm 2016-08-12T09:46:06Z.
 >
->De **tijdzone** wordt verwacht in de eigenschappen van uw reis. Dientengevolge, is het vandaag niet mogelijk van de interface om bij volledig ISO-8601 timestamp mixing time en tijdzone verschuiving zoals 2016-08-12T09:46:06.982-05 direct te richten. Zie [deze pagina](../building-journeys/timezone-management.md).
+>De **tijdzone** wordt verwacht in de eigenschappen van uw reis. Dientengevolge, is het vandaag niet mogelijk van de interface om bij volledig ISO-8601 timestamp het mengen tijd en tijdzonecompensatie zoals 2016-08-12T09:46:06.982-05 direct te richten. Zie [deze pagina](../building-journeys/timezone-management.md).
 
 ![](../assets/journey57.png)
 
