@@ -5,9 +5,9 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: ff36b68efa639870b68997fca86ee1be24e2cc79
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Volg onderstaande stappen om testprofielen te selecteren:
 
    ![](assets/previewselect-namespace.png)
 
-   Meer informatie over Adobe Experience Platform-naamruimten [in deze sectie](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#getting-started).
+   Meer informatie over Adobe Experience Platform-naamruimten [in deze sectie](get-started-identity.md){target=&quot;_blank&quot;}.
 
    In het onderstaande voorbeeld gebruiken we de naamruimte **Email**.
 
