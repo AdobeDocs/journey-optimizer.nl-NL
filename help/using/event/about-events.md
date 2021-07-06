@@ -5,10 +5,10 @@ feature: Gebeurtenissen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: 6e2526bd3c80ad2bff59502c6537a3e2213f7bf7
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 30%
+ht-degree: 48%
 
 ---
 
@@ -42,13 +42,13 @@ Voor bedrijfsgebeurtenissen, is het type van gebeurtenisidentiteitskaart altijd 
 
 Voor eenheidsgebeurtenissen zijn er twee typen gebeurtenis-id:
 
-* **Op regels** gebaseerde gebeurtenissen: dit type gebeurtenis genereert geen eventID. Gebruikend de eenvoudige uitdrukkingsredacteur, bepaalt u eenvoudig een regel die door het systeem zal worden gebruikt om de relevante gebeurtenissen te identificeren die uw reizen zullen teweegbrengen. Deze regel kan worden gebaseerd op elk veld dat beschikbaar is in de gebeurtenislading, bijvoorbeeld de locatie van het profiel of het aantal items dat is toegevoegd aan het winkelwagentje van het profiel.
+* **Op regels gebaseerde** gebeurtenissen: dit type gebeurtenis genereert geen eventID. Door de eenvoudige expressie-editor te gebruiken bepaalt u eenvoudig een regel die door het systeem zal worden gebruikt om de relevante gebeurtenissen te identificeren die uw journeys zullen triggeren. Deze regel kan zijn gebaseerd op elk veld dat beschikbaar is in de gebeurtenispayload, bijvoorbeeld de locatie van het profiel of het aantal items dat is toegevoegd aan de winkelwagen van het profiel.
 
    >[!CAUTION]
    >
-   >Een afschilderingsregel wordt bepaald voor op regel-gebaseerde gebeurtenissen. Het beperkt het aantal gekwalificeerde gebeurtenissen dat een reis kan verwerken tot 5000 per seconde voor een bepaalde Organisatie (ORG). Het komt overeen met Journey Optimizer SLA&#39;s. Zie deze [pagina](https://helpx.adobe.com/legal/product-descriptions/journey-orchestration.html).
+   >Een beperkingsregel wordt bepaald voor op regels gebaseerde gebeurtenissen. Deze beperkt het aantal gekwalificeerde gebeurtenissen dat een journey kan verwerken, tot 5000 per seconde voor een bepaalde organisatie (ORG). Het komt overeen met Journey Optimizer SLA&#39;s. Zie deze [pagina](https://helpx.adobe.com/nl/legal/product-descriptions/journey-orchestration.html).
 
-* **System-** generateDefents: deze gebeurtenissen vereisen een eventID. Dit veld eventID wordt automatisch gegenereerd wanneer de gebeurtenis wordt gemaakt. Het systeem dat de gebeurtenis duwt zou geen identiteitskaart moeten produceren, zou het moeten overgaan beschikbaar in de voorproef van de lading.
+* **Door het systeem gegenereerde** gebeurtenissen: deze gebeurtenissen vereisen een eventID. Dit eventID-veld wordt automatisch gegenereerd wanneer de gebeurtenis wordt gemaakt. Het systeem dat de gebeurtenis pusht, moet geen ID genereren, het moet overgaan naar degene die in de voorvertoning van de payload beschikbaar is.
 
 Journey Optimizer vereist dat gebeurtenissen worden gestreamd of gebatcheerd naar Adobe Experience Platform. Deze gegevens hoeven niet noodzakelijkerwijs naar het Real-Time Profiel te gaan. Als u de gebeurtenissen voor segmentatie of raadpleging in een afzonderlijke reis zou willen gebruiken, adviseren wij u toelaat de dataset voor profiel.
 
