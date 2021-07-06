@@ -6,10 +6,10 @@ feature: Controlegroepen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 13%
+source-wordcount: '726'
+ht-degree: 11%
 
 ---
 
@@ -101,7 +101,7 @@ Indien nodig kunt u ook een nieuw productprofiel met specifieke machtigingen mak
 
 [!DNL Journey Optimizer] kunt u uw eigen machtigingen maken  **[!UICONTROL Product profiles]** en een set machtigingen en sandboxen aan uw gebruikers toewijzen. Met **[!UICONTROL Product profiles]**, kunt u toegang tot bepaalde functionaliteit of voorwerpen in de interface machtigen of ontkennen.
 
-Raadpleeg de [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) voor informatie over het maken en beheren van sandboxen.
+Raadpleeg [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target=&quot;_blank&quot;} voor meer informatie over het maken en beheren van sandboxen.
 
 In dit voorbeeld maken we een productprofiel met de naam **Reizen alleen-lezen**, waarbij we alleen-lezen rechten geven aan de functie Reis. Gebruikers kunnen alleen reizen openen en bekijken en hebben geen toegang tot andere functies, zoals **[!UICONTROL Decision management]** of **[!UICONTROL Messages]** in [!DNL Journey Optimizer].
 
@@ -141,7 +141,7 @@ Om onze **Reis read-only** **[!UICONTROL product profiles]** te creëren:
 
    ![](../assets/access_control_13.png)
 
-1. Klik onder **[!UICONTROL Available Permissions Items]** op het pluspictogram (+) om sandboxen aan uw profiel toe te wijzen. [Meer informatie over sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html).
+1. Klik onder **[!UICONTROL Available Permissions Items]** op het pluspictogram (+) om sandboxen aan uw profiel toe te wijzen. [Meer informatie over sandboxen](sandboxes.md).
 
 1. Klik op **[!UICONTROL Save]** als u klaar bent.
 
