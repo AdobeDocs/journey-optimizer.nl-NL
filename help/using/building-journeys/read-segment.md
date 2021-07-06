@@ -5,7 +5,7 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 2e85e966dcff87717ce4a5f426f9e66526dab7c4
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 4%
@@ -88,7 +88,7 @@ Wanneer de test is uitgevoerd, kunt u met de knop **[!UICONTROL Show logs]** de 
 
    ![](../assets/read-segment-log.png)
 
-Zodra de tests succesvol zijn, kunt u uw reis publiceren (zie [Publicerend de reis](publishing-the-journey.md)). Personen die tot het segment behoren, komen de reis binnen op de datum/tijd die in de sectie **[!UICONTROL Scheduler]** in de eigendommen van de reis is vermeld.
+Zodra de tests succesvol zijn, kunt u uw reis publiceren (zie [Het publiceren van de reis](publishing-the-journey.md)). Personen die tot het segment behoren, komen de reis binnen op de datum/tijd die in de sectie **[!UICONTROL Scheduler]** in de eigendommen van de reis is vermeld.
 
 >[!NOTE]
 >
