@@ -7,9 +7,9 @@ feature: Journey Optimizer
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1033'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Een uitlijningsregel is specifiek voor één eindpunt, maar is globaal voor alle
 
 Bijvoorbeeld, laten wij zeggen dat u een het begrenzen regel van 100 vraag per seconde voor uw extern systeem hebt bepaald. Uw systeem wordt opgeroepen door een aangepaste actie tijdens 10 verschillende reizen. Als één reis 200 vraag per seconde ontvangt, zal het de 100 beschikbare groeven gebruiken en de 100 resterende groeven verwerpen. Aangezien het maximumtarief is overschreden, zullen de overige 9 reizen geen slots meer hebben. Deze granulariteit helpt het externe systeem te beschermen tegen overbelasting en vastlopen.
 
-Voor meer informatie over de afdekkende API en hoe te om het afschilderen regels te vormen, verwijs naar [deze pagina](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html).
+Voor meer informatie over de het in kaart brengen API en hoe te om het begrenzen regels te vormen, verwijs naar [Journey Orchestration documentatie](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}.
 
 ## Time-out en opnieuw proberen{#timeout}
 
@@ -72,7 +72,7 @@ Laten we een voorbeeld nemen voor een time-out van 5 seconden.
 
 **Hoe kan ik een het in kaart brengen regel vormen? Is er een standaard het afschilderen regel?**
 
-Standaard is er geen uitlijningsregel. De begrenzingsregels worden bepaald op zandbakniveau voor een specifiek eindpunt (geroepen URL), gebruikend Capping API. Zie [deze sectie](../configuration/external-systems.md#capping) en [deze pagina](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html).
+Standaard is er geen uitlijningsregel. De begrenzingsregels worden bepaald op zandbakniveau voor een specifiek eindpunt (geroepen URL), gebruikend Capping API. Zie [deze sectie](../configuration/external-systems.md#capping) en [Journey Orchestration documentatie](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}.
 
 **Hoeveel pogingen worden uitgevoerd? Kan ik het aantal pogingen veranderen of een minimumwachttijd tussen pogingen bepalen?**
 
