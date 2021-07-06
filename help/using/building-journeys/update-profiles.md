@@ -5,14 +5,14 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
 
 ---
 
-# Profiel {#update-profile} bijwerken
+# Profiel bijwerken {#update-profile}
 
 Met de actieactiviteit **[!UICONTROL Update Profile]** kunt u een bestaand Adobe Experience Platform-profiel bijwerken met informatie die afkomstig is van de gebeurtenis, een gegevensbron of het gebruik van een specifieke waarde.
 
@@ -25,11 +25,11 @@ Met de actieactiviteit **[!UICONTROL Update Profile]** kunt u een bestaand Adobe
 * Het updateverzoek dat naar het Platform wordt verzonden, wordt snel verzonden, maar niet onmiddellijk/binnen een seconde. Het duurt normaal een paar seconden, maar soms nog meer zonder garantie. Als een handeling bijvoorbeeld &#39;field 1&#39; gebruikt die is bijgewerkt met een handeling Profiel bijwerken die eerder is geplaatst, mag u niet verwachten dat &#39;field 1&#39; wordt bijgewerkt in de handeling.
 * Gegevensbronnen hebben een begrip van cacheduur, op het niveau van de gebiedsgroep. Als u tijdens een rit een profielveld wilt gebruiken dat onlangs is bijgewerkt, moet u zorgvuldig een zeer korte cache-duur definiëren.
 
-## De testmodus {#using-the-test-mode} gebruiken
+## De testmodus gebruiken {#using-the-test-mode}
 
 In de testmodus wordt de profielupdate niet gesimuleerd. De update wordt uitgevoerd op het testprofiel.
 
-Alleen testprofielen kunnen een reis maken in de testmodus. U kunt een nieuw testprofiel maken of een bestaand profiel omzetten in een testprofiel. In het Platform van de Ervaring van Adobe, kunt u profielattributen via csv- dossierinvoer of API vraag bijwerken. Een eenvoudigere methode is om een **Actieactiviteit van het Profiel van de Update** te gebruiken en het van het testprofiel booleaanse gebied van vals in waar te veranderen.
+Alleen testprofielen kunnen een reis maken in de testmodus. U kunt een nieuw testprofiel maken of een bestaand profiel omzetten in een testprofiel. In Adobe Experience Platform kunt u profielkenmerken bijwerken via een CSV-bestand importeren of API-aanroepen. Een eenvoudigere methode is om een **Actieactiviteit van het Profiel van de Update** te gebruiken en het van het testprofiel booleaanse gebied van vals in waar te veranderen.
 
 Raadpleeg deze [sectie](../building-journeys/creating-test-profiles.md#create-test-profiles-csv) voor meer informatie over de manier waarop u een bestaand profiel in een testprofiel kunt omzetten.
 
