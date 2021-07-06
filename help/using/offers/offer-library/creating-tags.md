@@ -5,7 +5,7 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 6%
@@ -18,7 +18,7 @@ Door tags aan uw aanbiedingen te koppelen, kunt u deze eenvoudiger organiseren. 
 
 De markeringen kunnen ook worden gebruikt om aanbiedingen samen in aanbiedingsinzamelingen te groeperen. Zie [Verzamelingen maken](../offer-library/creating-collections.md).
 
-![](../../assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#video)
+➡️ [Ontdek deze functie in video](#video)
 
 De lijst met gemaakte tags is toegankelijk in het menu **[!UICONTROL Components]**.
 
