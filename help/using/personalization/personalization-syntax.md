@@ -5,10 +5,10 @@ feature: Personalisatie
 topic: Personalisatie
 role: Data Engineer
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 4%
+source-wordcount: '563'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ Voorbeeld van eenvoudige expressie:
 waarbij:
 
 * `profile` is een naamruimte.
-* `person.name` is een token dat wordt samengesteld door kenmerken. De kenmerkstructuur wordt gedefinieerd in een Adobe Experience Platform XDM-schema. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl).
+* `person.name` is een token dat wordt samengesteld door kenmerken. De kenmerkstructuur wordt gedefinieerd in een Adobe Experience Platform XDM-schema. [Meer](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) informatie {target=&quot;_blank&quot;}.
 
 ## Algemene syntaxisregels
 
@@ -45,7 +45,7 @@ In Handlebars, zijn de waarden die door {expression} worden teruggekeerd **HTML-
 
 ## Profiel
 
-Met deze naamruimte kunt u verwijzen naar alle kenmerken die zijn gedefinieerd in het profielschema dat wordt beschreven in [Adobe Experience Platform-gegevensmodel (XDM)-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
+Dit namespace staat u toe om alle die attributen van verwijzingen te voorzien in het profielschema in [Adobe Experience Platform het Model van Gegevens (XDM) documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) {target= &quot;_blank&quot;} wordt beschreven.
 
 De attributen moeten in het schema worden bepaald alvorens in een [!DNL Journey Optimizer] verpersoonlijkingsblok wordt van verwijzingen voorzien.
 
