@@ -5,14 +5,14 @@ feature: Databronnen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 86%
+source-wordcount: '283'
+ht-degree: 74%
 
 ---
 
-# Informatie over databronnen {#concept_s1s_dqt_52b}
+# Databronnen {#concept_s1s_dqt_52b}
 
 >[!CONTEXTUALHELP]
 >id="jo_datasources"
@@ -35,4 +35,4 @@ Er zijn twee soorten databronnen:
 
 Voor elke databron definieert u de informatie die u wilt ophalen met behulp van veldengroepen. Veldengroepen zijn reeksen velden die uit een databron kunnen worden opgehaald. Zie [deze pagina](../datasource/configure-data-sources.md#define-field-groups).
 
-Voor meer informatie over het configureren van een Adobe Experience Platform-databron en een externe databron en hoe u gegevens in een journey kunt vinden en gebruiken, bekijkt u deze [zelfstudievideo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html).
+Voor meer informatie over hoe te om een Gegevensbron van Adobe Experience Platform en een externe gegevensbron te vormen en hoe te om gegevens in een reis te vinden en te gebruiken, deze [zelfstudievideo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target= &quot;_blank&quot;} bekijken.
