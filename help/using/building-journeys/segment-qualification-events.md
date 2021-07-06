@@ -5,9 +5,9 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '799'
 ht-degree: 1%
 
 ---
@@ -53,7 +53,7 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
    >[!NOTE]
    >
-   >Merk op dat **[!UICONTROL Enter]** en **[!UICONTROL Exit]** beantwoorden aan de **Realized** en **Exited** de status van de segmentparticipatie van Adobe Experience Platform. Raadpleeg de [documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results) voor meer informatie over het evalueren van een segment.
+   >Merk op dat **[!UICONTROL Enter]** en **[!UICONTROL Exit]** beantwoorden aan de **Realized** en **Exited** de status van de segmentparticipatie van Adobe Experience Platform. Voor meer op hoe te om een segment te evalueren, verwijs naar [de documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target=&quot;_blank&quot;}.
 
 1. Selecteer een naamruimte. Dit is alleen nodig als de gebeurtenis als eerste stap van de reis wordt geplaatst.
 
@@ -89,7 +89,7 @@ Als het batchsegment nieuw wordt gemaakt en onmiddellijk wordt gebruikt in een r
 
 Wanneer het gebruiken van segmentkwalificatie voor gestroomde segmenten, is er minder risico om grote pieken van ingangen/uitgangen te krijgen toe te schrijven aan de ononderbroken evaluatie van het segment. Maar als de segmentdefinitie ertoe leidt dat een groot aantal klanten tegelijkertijd in aanmerking komt, kan er ook een piek zijn.
 
-Raadpleeg deze [pagina](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api) voor meer informatie over streamingsegmentatie
+Raadpleeg [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api) voor meer informatie over streamingsegmentatie
 
 ### Overbelasting voorkomen{#overloads-speed-segment-qualification}
 
@@ -99,7 +99,7 @@ Gebruik in een **[!UICONTROL Segment Qualification]** activiteit niet direct een
 
 ![](../assets/segment-error.png)
 
-Plaats een plafondregel voor gegevensbronnen en handelingen die tijdens reizen worden gebruikt om overbelasting te voorkomen (zie deze [sectie](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html)). De bijschilderregel hoeft niet opnieuw te worden uitgevoerd. Als u opnieuw moet proberen, moet u een alternatief pad in de reis gebruiken door doos **[!UICONTROL Add an alternative path in case of a timeout or an error]** in voorwaarden of acties te controleren.
+Plaats een plafondregel voor gegevensbronnen en handelingen die tijdens reizen worden gebruikt om overbelasting te voorkomen. Leer meer in [Journey Orchestration documentatie](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}. De bijschilderregel hoeft niet opnieuw te worden uitgevoerd. Als u opnieuw moet proberen, moet u een alternatief pad in de reis gebruiken door doos **[!UICONTROL Add an alternative path in case of a timeout or an error]** in voorwaarden of acties te controleren.
 
 Voordat u het segment in een productietraject gaat gebruiken, moet u altijd eerst het aantal personen beoordelen dat dagelijks voor dit segment in aanmerking komt. Om dit te doen, kunt u het **[!UICONTROL Segments]** menu controleren, het segment openen dan kijken de **[!UICONTROL Profiles over time]** grafiek.
 
