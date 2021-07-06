@@ -5,7 +5,7 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: c6f4369c98b28afe1c607996e3f993dbfe09f63e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 6%
@@ -86,7 +86,7 @@ Wanneer een reis &quot;beëindigt&quot;, zal het de status **[!UICONTROL Closed]
 
 Na de standaard globale onderbreking van 30 dagen, zal de reis aan **Voltooid** status schakelen. Zie deze [sectie](../building-journeys/journey-gs.md#global_timeout).
 
-### Time-out en fout in reisactiviteiten {#timeout_and_error}
+### Tijdslimiet en fout bij reisactiviteiten {#timeout_and_error}
 
 Wanneer u een actie of voorwaardenactiviteit bewerkt, kunt u een alternatief pad definiëren in het geval van een fout of time-out. Als de verwerking van de activiteit die een derdesysteem ondervraagt de onderbrekingsduur overschrijdt die in de eigenschappen van de reis (**[!UICONTROL Timeout and  error]** gebied) wordt bepaald, zal de tweede weg worden gekozen om een potentiële reserveactie uit te voeren.
 
@@ -98,7 +98,7 @@ De reizen gebruikt ook een globale onderbreking. Zie [volgende sectie](#global_t
 
 ### Globale time-out voor transport {#global_timeout}
 
-Naast de [timeout](#timeout_and_error) die in reisactiviteiten wordt gebruikt, is er ook een globale reisonderbreking die niet in de interface wordt getoond en niet kan worden veranderd. Deze onderbreking zal de vooruitgang van individuen in de reis 30 dagen na hun binnengaan stoppen. Dit betekent dat de reis van een individu niet langer mag duren dan 30 dagen. Na de periode van 30 dagen worden de gegevens van het individu verwijderd. Personen die aan het einde van de time-outperiode nog onderweg zijn, worden gestopt en als fouten in de rapportage worden ze in aanmerking genomen.
+Naast de [timeout](#timeout_and_error) die wordt gebruikt in reisactiviteiten, is er ook een globale reisonderbreking die niet in de interface wordt getoond en niet kan worden veranderd. Deze onderbreking zal de vooruitgang van individuen in de reis 30 dagen na hun binnengaan stoppen. Dit betekent dat de reis van een individu niet langer mag duren dan 30 dagen. Na de periode van 30 dagen worden de gegevens van het individu verwijderd. Personen die aan het einde van de time-outperiode nog onderweg zijn, worden gestopt en als fouten in de rapportage worden ze in aanmerking genomen.
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ Beperkingen:
 
 Belangrijke opmerking:
 
-Als niet aan een van de eisen wordt voldaan, is de burst-modus niet beschikbaar op de reis.
+Als niet aan een van de eisen wordt voldaan, is de burst mode niet beschikbaar op de reis.
 
 Als u de modus Burst wilt activeren, opent u de rit en klikt u op het potloodpictogram rechtsboven om de eigenschappen van de rit te openen. Vervolgens activeert u de **burst-modus inschakelen**.
 
@@ -153,7 +153,7 @@ Een reis kan om de volgende redenen worden gesloten:
 
 * De reis wordt manueel gesloten via **[!UICONTROL Close to new entrances]** knoop.
 * Een reis op basis van een segment met één opname die klaar is met de uitvoering.
-* Na het laatste optreden van een terugkerend segment gebaseerd transport.
+* Na het laatste voorkomen van een terugkerende op segment gebaseerde reis.
 
 Wanneer een reis (om een van de bovenstaande redenen) wordt gesloten, heeft deze de status **[!UICONTROL Closed]**. De reis zal het niet langer mogelijk maken dat nieuwe individuen de reis betreden. Personen die al op reis zijn, zullen de reis normaal afmaken. Na de standaard globale onderbreking van 30 dagen, zal de reis aan **Voltooid** status schakelen. Zie deze [sectie](../building-journeys/journey-gs.md#global_timeout).
 
