@@ -5,7 +5,7 @@ feature: Personalisatie
 topic: Personalisatie
 role: Data Engineer
 level: Intermediate
-source-git-commit: 74662ee07422d507889788a790547c774b65f944
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 4%
@@ -107,7 +107,7 @@ Alle verwijzingen worden bevestigd tegen het Schema van Aanbiedingen met een bev
 
    `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
-* Tekstinhoud van het aanbod afkomstig van de beslissingsmotor:
+* Tekstinhoud van het aanbod afkomstig van de beslissingsengine:
 
    `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
@@ -121,7 +121,7 @@ Alle verwijzingen worden bevestigd tegen het Schema van Aanbiedingen met een bev
 Een helper van Handlebars is een eenvoudig herkenningsteken dat door parameters kan worden gevolgd.
 Elke parameter is een expressie Handlebars. Deze helpers kunnen van om het even welke context in een malplaatje worden betreden.
 
-Deze blokhelpers worden geïdentificeerd door # die de helpernaam voorafgaat en vereisen een passende sluiting /, van de zelfde naam.
+Deze blokhelpers worden geïdentificeerd door # voorafgaand aan de helpernaam en vereisen een passende sluiting /, van de zelfde naam.
 Blokkeringen zijn expressies met een blokopening ({{# }}) en een sluitend ({{/}).
 
 
