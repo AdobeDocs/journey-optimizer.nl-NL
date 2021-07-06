@@ -5,7 +5,7 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Besluiten (voorheen bekend als aanbiedingsactiviteiten) zijn containers voor uw aanbiedingen die gebruikmaken van de Offertenbeslissingsengine om de beste aanbieding te kiezen, afhankelijk van het doel van de levering.
 
-![](../../assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#video)
+➡️ [Ontdek deze functie in video](#video)
 
 De lijst met beslissingen is toegankelijk op het tabblad **[!UICONTROL Offers]** / **[!UICONTROL Decisions]**. De filters zijn beschikbaar om u te helpen besluiten op hun status of begin en einddata terugwinnen.
 
