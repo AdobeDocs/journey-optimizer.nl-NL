@@ -4,7 +4,7 @@ description: Meer informatie over het gebruik van Adobe Experience Platform-gege
 feature: Gegevenssets
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Alle gegevens die in Adobe Experience Platform worden opgenomen, blijven in het Data Lake als datasets bestaan. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat.
 
-Leer hoe te om datasets in [deze documentatie](https://experienceleague-review.corp.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target= &quot;_blank&quot;} tot stand te brengen.
+Leer hoe te om datasets in [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target= &quot;_blank&quot;} tot stand te brengen.
 
 Het toevoegen van gegevens aan Adobe Experience Platform is de basis voor het bouwen van een Profiel. Vervolgens kunt u profielen gebruiken in [!DNL Adobe Journey Optimizer]. Bepaal eerst schema&#39;s, gebruik hulpmiddelen ETL om uw gegevens voor te bereiden en te standaardiseren, dan datasets tot stand te brengen die op uw schema&#39;s worden gebaseerd.
 
