@@ -5,9 +5,9 @@ feature: Rapportage
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 7%
 
 ---
@@ -58,4 +58,4 @@ De lijsten van XDM gebieden die tot Adobe Experience Platform worden overgegaan 
 * [Identiteitsvelden van journeyStep-gebeurtenissen](../reports/sharing-identity-fields.md)
 * [journeyvelden](../reports/sharing-journey-fields.md)
 
-Bekijk deze [zelfstudie video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html) voor meer informatie over stapgebeurtenissen die aan Adobe Experience Platform worden gerapporteerd.
+Voor meer informatie over step gebeurtenissen die aan Adobe Experience Platform rapporteren, bekijk deze [zelfstudie video](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target=&quot;_blank&quot;}.
