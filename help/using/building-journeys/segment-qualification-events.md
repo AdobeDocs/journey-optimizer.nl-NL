@@ -5,14 +5,14 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 8bcc1721f0d451e386b1fa0c5972c783ced01c7f
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 1%
 
 ---
 
-# Kwalificatiegebeurtenissen voor segment {#segment-qualification}
+# Gebeurtenissen voor segmentkwalificatie {#segment-qualification}
 
 ## Informatie over segmentkwalificatiegebeurtenissen{#about-segment-qualification}
 
@@ -49,13 +49,13 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
    ![](../assets/segment-copy.png)
 
-1. Kies in het veld **[!UICONTROL Behaviour]** of u wilt luisteren naar segmentingangen, afsluit of beide.
+1. Kies in het veld **[!UICONTROL Behaviour]** of u wilt luisteren naar segmentingangen, uitgangen of beide.
 
    >[!NOTE]
    >
    >Merk op dat **[!UICONTROL Enter]** en **[!UICONTROL Exit]** beantwoorden aan de **Realized** en **Exited** de status van de segmentparticipatie van Adobe Experience Platform. Raadpleeg de [documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results) voor meer informatie over het evalueren van een segment.
 
-1. Selecteer een naamruimte. Dit is alleen nodig als het evenement als de eerste stap van de reis wordt geplaatst.
+1. Selecteer een naamruimte. Dit is alleen nodig als de gebeurtenis als eerste stap van de reis wordt geplaatst.
 
    ![](../assets/segment7.png)
 
@@ -91,7 +91,7 @@ Wanneer het gebruiken van segmentkwalificatie voor gestroomde segmenten, is er m
 
 Raadpleeg deze [pagina](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api) voor meer informatie over streamingsegmentatie
 
-### Hoe te vermijden overbelasting{#overloads-speed-segment-qualification}
+### Overbelasting voorkomen{#overloads-speed-segment-qualification}
 
 Hier volgen een paar voorbeelden van best practices om overbelastingsystemen te voorkomen die tijdens reizen worden gebruikt (gegevensbronnen, aangepaste acties, **Bericht** activiteiten).
 
