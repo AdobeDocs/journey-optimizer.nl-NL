@@ -5,9 +5,9 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Volg onderstaande stappen om de verschillende aanbiedingen die deel uitmaken van
 
    >[!NOTE]
    >
-   >In dit voorbeeld gebruiken we de naamruimte **Email**. Meer informatie over Adobe Experience Platform-naamruimten [in deze sectie](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#getting-started).
+   >In dit voorbeeld gebruiken we de naamruimte **Email**. Meer informatie over Adobe Experience Platform-naamruimten [in deze sectie](get-started-identity.md).
 
 1. Selecteer **[!UICONTROL Email]** in de lijst met naamruimten en klik op **[!UICONTROL Select]**.
 
