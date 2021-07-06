@@ -1,14 +1,15 @@
 ---
 keywords: Journey Optimizer;home;populaire onderwerpen
 title: Journey Optimizer-productdocumentatie
+description: Adobe Journey Optimizer Product Help Center
 feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Beginner
-source-git-commit: 6a2304fc3b6262d339b7bf1f229f12ba68f1a993
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 10%
+source-wordcount: '202'
+ht-degree: 9%
 
 ---
 
