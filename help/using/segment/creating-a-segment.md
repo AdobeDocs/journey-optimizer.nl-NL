@@ -5,9 +5,9 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 6639630c4049e36904ce722759320f276799d8f3
+source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '300'
 ht-degree: 6%
 
 ---
@@ -53,3 +53,7 @@ In dit voorbeeld, zullen wij een segment bouwen om alle klanten te richten die i
 1. Wanneer het segment gereed is, klikt u op **[!UICONTROL Save]**. Deze wordt weergegeven in de lijst met Adobe Experience Platform-segmenten. Er is een zoekbalk beschikbaar waarmee u een bepaald segment in de lijst kunt zoeken.
 
 Het segment kan nu worden gebruikt voor uw reizen. Raadpleeg [deze sectie](../segment/about-segments.md) voor meer informatie.
+
+## Video over zelfstudie{#create-segment-video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)
