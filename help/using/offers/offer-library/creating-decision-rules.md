@@ -5,10 +5,10 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 4%
+source-wordcount: '244'
+ht-degree: 5%
 
 ---
 
@@ -32,7 +32,7 @@ Voer de volgende stappen uit om een beslissingsregel te maken:
 
 1. Noem uw regel en verstrek een beschrijving, dan vorm de regel volgens uw behoeften.
 
-   Om dit te doen, is **de Bouwer van het Segment** van Adobe Experience Platform beschikbaar om u te helpen de voorwaarden van de regel bouwen. Raadpleeg de [specifieke documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html) voor meer informatie over het gebruik ervan.
+   Om dit te doen, **Segment Builder** is beschikbaar om u te helpen de voorwaarden van de regel bouwen. [Meer informatie](../../segment/about-segments.md)
 
    In dit voorbeeld, zal de regel klanten richten die het &quot;Gouden&quot;loyaliteitsniveau hebben.
 
