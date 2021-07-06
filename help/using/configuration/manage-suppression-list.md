@@ -15,7 +15,7 @@ feature: Applicatie-instellingen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 ---
 
 
-# De suppressielijst beheren {#manage-suppression-list}
+# De vervolgkeuzelijst beheren {#manage-suppression-list}
 
 Met [!DNL Journey Optimizer] kunt u alle e-mailadressen controleren die automatisch van het verzenden van een reis worden uitgesloten, zoals:
 
@@ -34,7 +34,7 @@ Met [!DNL Journey Optimizer] kunt u alle e-mailadressen controleren die automati
 
 Dergelijke e-mailadressen worden automatisch verzameld in de Journey Optimizer **suppressielijst**. Meer informatie vindt u in [deze sectie](../suppression-list.md).
 
-## De lijst {#access-suppression-list} openen
+## De lijst met onderdrukking openen {#access-suppression-list}
 
 Als u de gedetailleerde lijst met uitgesloten e-mailadressen wilt openen, opent u het menu **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** en klikt u op de koppeling **[!UICONTROL View suppression lists]**.
 
@@ -77,7 +77,7 @@ De mogelijke redenen van een leveringsfout zijn:
 
 | Reden | Beschrijving | Onderdrukkingscategorie |
 ---------|----------|--------- |
-| **[!UICONTROL Undetermined]** | De stuitreden die van de ontvankelijke Agent van de Overdracht van het domein (MTA) werd ontvangen kon niet worden geïdentificeerd. | Genegeerd |
+| **[!UICONTROL Undetermined]** | De stuitreden die van de ontvankelijke Agent van de Overdracht van het domeinbericht (MTA) werd ontvangen kon niet worden geïdentificeerd. | Genegeerd |
 | **[!UICONTROL Invalid Recipient]** | De ontvanger is ongeldig of bestaat niet. | Hard |
 | **[!UICONTROL Soft Bounce]** | De berichtzachte die tegen een andere reden dan de zachte fouten in deze lijst worden vermeld, zoals wanneer het verzenden over het toegestane tarief door ISP wordt geadviseerd. | Zacht |
 | **[!UICONTROL DNS Failure]** | Het bericht dat als gevolg van een DNS-fout is teruggestuurd. | Zacht |
