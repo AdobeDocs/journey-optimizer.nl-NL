@@ -4,10 +4,10 @@ description: Meer informatie over het maken van query's in Adobe Journey Optimiz
 feature: Schemas
 role: User
 level: Beginner
-source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -24,5 +24,5 @@ Leer hoe te om de Redacteur van de Vraag in [deze documentatie](https://experien
 
 **Zie ook**
 
-* [Documentatie](https://experienceleague-review.corp.adobe.com/docs/experience-platform/query/home.html) van de Dienst van de vraag {target=&quot;_blank&quot;}
-* [Overzicht van de query-service video](https://experienceleague-review.corp.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target=&quot;_blank&quot;}
+* [Documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl) van de Dienst van de vraag {target=&quot;_blank&quot;}
+* [Overzicht van de query-service video](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target=&quot;_blank&quot;}
