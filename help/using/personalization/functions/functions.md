@@ -5,7 +5,7 @@ feature: Personalisatie
 topic: Personalisatie
 role: Data Engineer
 level: Experienced
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1181'
 ht-degree: 1%
@@ -75,7 +75,7 @@ In de [!DNL Journey Optimizer] Redacteur van de Uitdrukking, worden de helperfun
         <td><a href="aggregation.md#max">Maximum</a></td><td>Deze functie retourneert de grootste van alle geselecteerde waarden binnen een array</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">Superset van</a></td><td>Deze functie wordt beëindigd als een specifieke array (array A) een superset is van een andere array (array B), d.w.z. als die array A alle elementen in array B bevat</td>
+    <td><a href="arrays-list.md#superset">Superset van</a></td><td>Deze functie bepaalt of een specifieke array (array A) een superset is van een andere array (array B), d.w.z. of die array A alle elementen in array B bevat</td>
     </tr>
 </table>
 
