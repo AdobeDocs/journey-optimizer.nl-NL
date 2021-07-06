@@ -5,7 +5,7 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 10%
@@ -30,7 +30,7 @@ Als u uw bericht wilt samenstellen, klikt u op de velden **[!UICONTROL Title]** 
 
 In het gedeelte voor voorvertoning van apparaten kunt u visualiseren hoe de pushmelding wordt weergegeven op iOS- en Android-apparaten.
 
-## Bij klikken gedrag {#on-click-behavior}
+## Bij klikken, gedrag {#on-click-behavior}
 
 Selecteer het gedrag wanneer een ontvanger op de hoofdtekst van het pushbericht klikt.
 
