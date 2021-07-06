@@ -5,14 +5,14 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Beginner
-source-git-commit: 3afc6d822836490f5366cb806f25951d585ce63c
+source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 8%
+source-wordcount: '196'
+ht-degree: 10%
 
 ---
 
-# Adobe Journey Optimizer-documentatie {#cjm-documentation}
+# Adobe [!DNL Journey Optimizer]Documentatie {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.png)
 
@@ -26,7 +26,7 @@ ht-degree: 8%
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">Wat is Journey Optimizer?</a>
+      <a href="using/get-started.md">Wat is [!DNL Journey Optimizer]?</a>
     </div>
     <p>Belangrijke functies ontdekken en aan de slag gaan
     <p>
@@ -67,6 +67,9 @@ ht-degree: 8%
     <p>
     <p>
     <div>
+      <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html">Adobe Journey Optimizer-productbeschrijving</a>
+    </div>
+    <div>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html">Adobe Experience Platform-documentatie</a>
     </div>
       <div>
@@ -105,13 +108,13 @@ ht-degree: 8%
     <p>
     <p>GEGEVENSBEHEER</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html">Schemas</a>
+      <a href="using/get-started-schemas.md">Schemas</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html">Gegevenssets</a>
+      <a href="using/get-started-datasets.md">Gegevenssets</a>
     </li>
         <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html">Zoekopdrachten</a>
+      <a href="using/get-started-queries.md">Zoekopdrachten</a>
     </li>
      <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html">Bewaking</a>
@@ -119,7 +122,7 @@ ht-degree: 8%
     <p>
     <p>VERBINDINGEN</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/sources/home.html">Bronnen</a>
+      <a href="using/get-started-sources.md">Bronnen</a>
     </li>
     <p>
     <p>KLANT</p>
@@ -127,10 +130,10 @@ ht-degree: 8%
       <a href="using/segment/about-segments.md">Segmenten</a>
     </li>
      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html">Profielen</a>
+      <a href="using/get-started-profiles.md">Profielen</a>
     </li>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces">Identiteit</a>
+      <a href="using/get-started-identity.md">Identiteit</a>
     </li>
     <p>
     <p>ADMINISTRATIE</p>
