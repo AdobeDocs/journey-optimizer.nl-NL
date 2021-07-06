@@ -5,7 +5,7 @@ feature: Personalisatie
 topic: Personalisatie
 role: Data Engineer
 level: Beginner
-source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Ontdek [!DNL Adobe Journey Optimizer] verpersoonlijkingsmogelijkheden om uw berichten aan elke specifieke ontvanger aan te passen door de gegevens en de informatie te gebruiken u over hem/haar hebt. Het kan zijn voornaam zijn, zijn belangen, waar hij woont, wat hij gekocht heeft, en meer.
 
-[!DNL :arrow_forward:] [Leer hoe u een bericht in deze video&#39;s kunt aanpassen](#video-perso)
+➡️ [Leer hoe u een bericht in deze video&#39;s kunt personaliseren](#video-perso)
 
 [!DNL Journey Optimizer] gebruikt een  **** inlinesimple verpersoonlijkingssyntaxis die op Handlebars wordt gebaseerd die u toestaat om uitdrukkingen met inhoud tot stand te brengen die door dubbele krullende steunen **{} wordt ingesloten}**. U kunt meerdere expressies zonder beperkingen toevoegen in dezelfde inhoud of hetzelfde veld. Meer informatie vindt u in [Persoonlijkheidssyntaxis](personalization-syntax.md).
 
