@@ -5,9 +5,9 @@ feature: Aanbiedingen
 topic: Integraties
 role: Data Engineer
 level: Experienced
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '939'
 ht-degree: 1%
 
 ---
@@ -108,7 +108,7 @@ curl -X POST \
 | `xdm:propositionRequests.xdm:activityId` | De unieke besluit-id. | `"xdm:activityId": "xcore:offer-activity:ffed0123"` |
 | `xdm:itemCount` | Het aantal voorstellen dat moet worden geretourneerd. Het maximumaantal is 30. | `"xdm:itemCount": 2` |
 | `xdm:profiles` | Dit object bevat informatie over het profiel waarvoor de beslissing wordt gevraagd. Voor een API-aanvraag bevat dit één profiel. |
-| `xdm:profiles.xdm:identityMap` | Dit object bevat een set eindgebruikers-id&#39;s op basis van de naamruimte-integratiecode van de identiteit. De identiteitskaart kan meer dan één identiteit van elke namespace dragen. Zie [Naamruimte overzicht](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) voor meer informatie over naamruimten. | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:identityMap` | Dit object bevat een set eindgebruikers-id&#39;s op basis van de naamruimte-integratiecode van de identiteit. De identiteitskaart kan meer dan één identiteit van elke namespace dragen. Zie [deze pagina](../../../get-started-identity.md) voor meer informatie over naamruimten. | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | De id die door de client wordt gegenereerd en die kan worden gebruikt om een verzoek voor een profielbeslissing uniek te identificeren. Deze ID wordt in het antwoord herhaald en heeft geen invloed op de uitkomst van het besluit. | `"xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"` |
 | `xdm:allowDuplicatePropositions` | Dit heeft betrekking op de controlestructuur van de deduplicatieregels. Het bestaat uit een reeks vlaggen die erop wijzen of de zelfde optie over een bepaalde afmeting kan worden voorgesteld. Een markering die is ingesteld op true betekent dat duplicaten zijn toegestaan en niet mogen worden verwijderd over de categorie die wordt aangegeven door de markering. Een vlag die aan vals wordt geplaatst betekent dat de besluitvormingsmotor niet de zelfde voorstel over de afmeting zou moeten doen en in plaats daarvan de volgende beste optie voor één van de subbesluiten kiezen. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Indien ingesteld op true, kunnen meerdere beslissingen dezelfde optie krijgen. | `"xdm:acrossActivities": true` |
