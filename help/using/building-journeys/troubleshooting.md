@@ -5,10 +5,10 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 86%
+source-wordcount: '1044'
+ht-degree: 85%
 
 ---
 
@@ -46,7 +46,7 @@ Het startpunt van een journey is altijd een gebeurtenis. U kunt tests uitvoeren 
 
 U kunt controleren of de API-aanroep die u via deze tools verzendt, correct is verzonden of niet. Als een fout wordt geretourneerd, betekent dit dat er een probleem is met uw aanroep. Controleer opnieuw de payload, de koptekst (vooral de organisatie-id) en de bestemmings-URL. U kunt de beheerder vragen wat de juiste URL is.
 
-Gebeurtenissen worden niet rechtstreeks van de bron naar de ritten verplaatst. Reizen vertrouwen inderdaad op de streaming opname-API&#39;s van Adobe Experience Platform. Dientengevolge, in geval van gebeurtenis verwante kwesties, kunt u [deze pagina ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) voor het oplossen van problemen van de het binnendringen van de Streaming APIs raadplegen.
+Gebeurtenissen worden niet rechtstreeks van de bron naar de ritten verplaatst. Reizen vertrouwen inderdaad op de streaming opname-API&#39;s van Adobe Experience Platform. Dientengevolge, in het geval van gebeurtenis verwante kwesties, kunt u [Adobe Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;} voor het Streamen van opname APIs het oplossen van problemen raadplegen.
 
 ## Controleren of mensen de journey betreden{#section_x4v_zzs_dgb}
 
