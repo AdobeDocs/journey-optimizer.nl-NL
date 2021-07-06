@@ -5,9 +5,9 @@ feature: Personalisatie
 topic: Personalisatie
 role: Data Engineer
 level: Intermediate
-source-git-commit: d5060fcd70a02a24af579d5fa86c5225d417fdc4
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1016'
 ht-degree: 2%
 
 ---
@@ -84,7 +84,7 @@ Voer de volgende stappen uit:
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      Meer informatie over het gegevenstype [naam persoon](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html).
+      Meer informatie over de gegevens van de persoonnaam in [Adobe Experience Plaform documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
 
 6. Klik **[!UICONTROL Validate]**, dan klik **[!UICONTROL Save]**.
 
@@ -98,7 +98,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 1. Maak een gebeurtenis waarvan het schema de array `productListItems` bevat.
 2. Definieer alle velden in deze array als payload-velden voor deze gebeurtenis.
 
-   Meer informatie over het gegevenstype [product list item data type](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html).
+   Leer meer over het type van de het puntgegevens van de productlijst in [Adobe Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}.
 
 3. Maak een reis die met deze gebeurtenis begint.
 4. Voeg het bericht aan de reis toe.
@@ -328,15 +328,15 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 
 ### Handbalken, functies
 
-[Helpers](functions/helpers.md)
+* [Helpers](functions/helpers.md)
 
-[Reeksfuncties](functions/string.md)
+* [Reeksfuncties](functions/string.md)
 
 ### Gebruiksscenario’s
 
-[Personalisatie met profielgegevens, context en aanbieding](personalization-use-case.md)
+* [Personalisatie met profielgegevens, context en aanbieding](personalization-use-case.md)
 
-[Personalisatie met een op beslissingen gebaseerd aanbod](../offers/offers-e2e.md)
+* [Personalisatie met een op beslissingen gebaseerd aanbod](../offers/offers-e2e.md)
 
 ## Video over zelfstudie{#helper-functions-video}
 
