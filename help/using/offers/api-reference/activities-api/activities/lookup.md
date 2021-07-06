@@ -5,7 +5,7 @@ feature: Aanbiedingen
 topic: Integraties
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Een beslissing opzoeken
 
-U kunt specifieke besluiten (die eerder als aanbiedingsactiviteiten worden bekend) opzoeken door een verzoek van de GET aan [!DNL Offer Library] API te doen die of de besluiten `@id` of de naam van het besluit in de verzoekweg omvat.
+U kunt specifieke besluiten (die eerder als aanbiedingsactiviteiten worden bekend) opzoeken door een verzoek van de GET aan [!DNL Offer Library] API te richten die of de besluiten `@id` of de naam van het besluit in de verzoekweg omvat.
 
 **API-indeling**
 
