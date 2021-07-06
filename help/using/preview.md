@@ -5,14 +5,14 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: f3421d6fcbf7400b8db344366be596e0bede762b
+source-git-commit: ff36b68efa639870b68997fca86ee1be24e2cc79
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
 
-# Uw berichten voorvertonen en testen{#preview-and-proof}
+# Berichten voorvertonen en testen{#preview-and-proof}
 
 Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u [gepersonaliseerde inhoud](personalization/personalize.md) opnam, zult u kunnen controleren hoe deze inhoud in het bericht wordt getoond, leveraging de gegevens van het testprofiel.
 
@@ -23,7 +23,6 @@ Om mogelijke fouten in e-mailinhoud of verpersoonlijkingsmontages te ontdekken, 
 >U hebt testprofielen nodig om uw berichten te kunnen bekijken en proefdrukken te kunnen verzenden.
 >
 >Leer hoe u testprofielen maakt op [deze pagina](building-journeys/creating-test-profiles.md).
-
 
 Als u de inhoud van uw bericht wilt testen, moet u:
 
@@ -38,6 +37,7 @@ Bovendien kunt u uw **Litmus**-account gebruiken in [!DNL Journey Optimizer] om 
 >
 >Wanneer u een bericht voorvertoont of proefdrukken verzendt, worden alleen profielverpersoonlijkingsgegevens weergegeven. Personalisatie op basis van contextgegevens, zoals gebeurtenisinformatie, kan alleen worden getest in het kader van een reis. Leer hoe te om verpersoonlijking in [dit gebruiksgeval](personalization/personalization-use-case.md) te testen.
 
+![](assets/do-not-localize/how-to-video.png) [Leer hoe u uw e-mail in deze video kunt voorvertonen, controleren en publiceren](#video-preview)
 
 ## Testprofielen selecteren{#select-test-profiles}
 
@@ -71,7 +71,7 @@ Volg onderstaande stappen om testprofielen te selecteren:
 
    Gebaseerd op de elementen van de berichtverpersoonlijking, toont deze lijst gegevens voor elk testprofiel in de verwante kolommen.
 
-## Voorvertoning van berichten{#preview-your-messages}
+## Voorvertoningsberichten{#preview-your-messages}
 
 Als [testprofielen](#select-test-profiles) zijn geselecteerd, kunt u een voorbeeld van uw berichten bekijken en de inhoud controleren.
 
@@ -166,3 +166,8 @@ Voer vervolgens de onderstaande stappen uit:
 >
 >Wanneer u uw **Litmus** account aansluit met [!DNL Journey Optimizer], gaat u ermee akkoord dat testberichten naar Litmus worden verzonden: nadat deze e-mails zijn verzonden , worden deze niet meer beheerd door Adobe . Dientengevolge, is het beleid van de het bewaare-mail van het Litmus- gegevens van toepassing op deze e-mail, met inbegrip van verpersoonlijkingsgegevens die in deze testberichten kunnen worden omvat.
 
+## Hoe kan ik-video{#video-preview}
+
+Leer hoe u het renderen van e-mailberichten in verschillende postvakken kunt testen, hoe u uw persoonlijke e-mails kunt bekijken op basis van testprofielen, proefdrukken kunt verzenden en uw e-mail kunt publiceren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
