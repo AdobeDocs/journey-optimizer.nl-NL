@@ -5,7 +5,7 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Beginner
-source-git-commit: ae821a04270587902ca5d7967ba3f5cd87128555
+source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 50%
@@ -13,7 +13,7 @@ ht-degree: 50%
 ---
 
 
-# Informatie over Besluitbeheer {#about-offer-decision}
+# Over Besluitbeheer {#about-offer-decision}
 
 Gebruik [!DNL Journey Optimizer] om uw klanten de beste aanbieding en ervaring op alle aanraakpunten op het juiste moment te bieden. Als u ze eenmaal hebt ontworpen, richt u zich op uw publiek met persoonlijke aanbiedingen.
 
@@ -30,7 +30,7 @@ Voordelen zijn:
 * Verbeterde workflows: in plaats van meerdere verzendingen of campagnes te maken kunnen marketingteams de workflows verbeteren door één verzending te maken en de aanbiedingen in verschillende delen van de sjabloon te variëren,
 * De controle over het aantal keren dat een aanbieding wordt getoond aan campagnes en klanten.
 
-![](../../assets/do-not-localize/how-to-video.png) [Bekijk deze ](#tutorial-videos) zelfstudievideo&#39;s voor meer informatie over Beslissingsbeheer.
+➡️ [Bekijk deze zelfstudievideo&#39;s](#tutorial-videos) voor meer informatie over Beslissingsbeheer.
 
 ## Aanbiedingen en beslissingen {#offers-offer-activities}
 
