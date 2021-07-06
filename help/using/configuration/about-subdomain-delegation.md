@@ -7,7 +7,7 @@ feature: Applicatie-instellingen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 27%
@@ -35,5 +35,5 @@ Hoewel deze vereisten worden beheerd via componenten die door zowel Adobe als de
 **Meer informatie**
 
 * Leer hoe te om [uw subdomeinen](delegate-subdomain.md) direct van de interface te delegeren
-* Leer hoe u Google TXT-records](google-txt.md) aan uw subdomeinen kunt toevoegen om ervoor te zorgen dat e-mails naar Gmail-adressen worden verzonden[
+* Leer hoe u Google TXT-records](google-txt.md) aan uw subdomeinen kunt toevoegen om ervoor te zorgen dat u e-mailberichten naar Gmail-adressen kunt verzenden[
 * Leer hoe te om tot de PTR- verslagen ](ptr-records.md) toegang te hebben die voor uw subdomeinen worden geproduceerd, die hen toestaan om door het verzenden van postservers te worden geverifieerd[
