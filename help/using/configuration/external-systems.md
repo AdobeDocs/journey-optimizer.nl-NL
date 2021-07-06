@@ -7,9 +7,9 @@ feature: Journey Optimizer
 role: Business Practitioner
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: d713010e85936f7ce7b6389bc68d4eec2d8bdaae
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1027'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Laten we een voorbeeld nemen voor een time-out van 5 seconden.
 * De eerste vraag duurt langer 5 seconden: de oproep wordt geannuleerd en er wordt niet opnieuw geprobeerd. Het wordt geteld als een time-outfout in de rapportage.
 * De eerste vraag ontbreekt na 2 seconden (het externe systeem keert een fout terug): 3 seconden over voor nieuwe pogingen, als er afsluitende sleuven beschikbaar zijn.
    * Als één van de drie pogingen succesvol vóór het eind van 5 seconden is, wordt de vraag uitgevoerd, en er is geen fout.
-   * Als het einde van de time-outduur tijdens de nieuwe pogingen wordt bereikt, wordt de aanroep geannuleerd en geteld als een time-outfout in de rapportage.
+   * Als het einde van de time-outduur tijdens de pogingen wordt bereikt, wordt de aanroep geannuleerd en geteld als een time-outfout in de rapportage.
 
 ## Veelgestelde vragen{#faq}
 
@@ -74,7 +74,7 @@ Laten we een voorbeeld nemen voor een time-out van 5 seconden.
 
 Standaard is er geen uitlijningsregel. De begrenzingsregels worden bepaald op zandbakniveau voor een specifiek eindpunt (geroepen URL), gebruikend Capping API. Zie [deze sectie](../configuration/external-systems.md#capping) en [deze pagina](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html).
 
-**Hoeveel pogingen worden uitgevoerd? Kan ik het aantal pogingen veranderen of een minimale wachttijd tussen pogingen bepalen?**
+**Hoeveel pogingen worden uitgevoerd? Kan ik het aantal pogingen veranderen of een minimumwachttijd tussen pogingen bepalen?**
 
 Voor een bepaalde vraag, kan een maximum van drie pogingen na de eerste vraag worden uitgevoerd, tot het eind van onderbrekingsduur wordt bereikt. Het aantal pogingen en de tijd tussen elke keer opnieuw proberen kunnen niet worden gewijzigd. Zie [deze sectie](../configuration/external-systems.md#timeout).
 
