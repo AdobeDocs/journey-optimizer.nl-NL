@@ -1,24 +1,24 @@
 ---
-title: Gebruiksscenario voor persoonlijke voorkeur
-description: Gebruiksscenario voor persoonlijke voorkeur
+title: Hoofdlettergebruik&dubbelepunt; kennisgeving orderstatus
+description: Leer hoe u een bericht kunt personaliseren met profiel, beschikking en contextinformatie
 feature: Personalisatie
 topic: Personalisatie
 role: Data Engineer
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: f05e968a29d76e8dcd8e96fb8a5a1c60c4b12529
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
 
 
-# Hoofdlettergebruik {#personalization-use-case}
+# Gebruiksscenario voor personalisatie: kennisgeving orderstatus {#personalization-use-case}
 
 In dit gebruiksgeval, zult u zien hoe te om veelvoudige types van verpersoonlijking in één enkel duw bericht te gebruiken. Er worden drie typen personalisatie gebruikt:
 
 * **Profiel**: berichten personaliseren op basis van een profielveld
-* **Beslissing** voorstel: personalisatie op basis van de variabelen van het aanbiedingsbesluit
+* **Beslissing** voorstel: personalisatie op basis van offer decisioning variabelen
 * **Context**: personalisatie op basis van contextuele gegevens van de reis
 
 Het doel van dit voorbeeld is om een gebeurtenis naar [!DNL Journey Optimizer] te duwen telkens als een klantenorde wordt bijgewerkt. Vervolgens wordt een pushmelding naar de klant gestuurd met informatie over de bestelling en een persoonlijke aanbieding.
