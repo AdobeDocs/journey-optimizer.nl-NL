@@ -5,9 +5,9 @@ feature: Personalisatie
 topic: Personalisatie
 role: Data Engineer
 level: Beginner
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '666'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Ontdek [!DNL Adobe Journey Optimizer] verpersoonlijkingsmogelijkheden om uw beri
 
 [!DNL Journey Optimizer] gebruikt een  **** inlinesimple verpersoonlijkingssyntaxis die op Handlebars wordt gebaseerd die u toestaat om uitdrukkingen met inhoud tot stand te brengen die door dubbele krullende steunen **{} wordt ingesloten}**. U kunt meerdere expressies zonder beperkingen toevoegen in dezelfde inhoud of hetzelfde veld. Meer informatie vindt u in [Persoonlijkheidssyntaxis](personalization-syntax.md).
 
-De verpersoonlijking is gebaseerd op de profielgegevens die door **XDM Individual Profile** schema in Adobe Experience Platform wordt bepaald. Raadpleeg [Adobe Experience Platform Data Model (XDM)-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) voor meer informatie.
+De verpersoonlijking is gebaseerd op de profielgegevens die door **XDM Individual Profile** schema in Adobe Experience Platform wordt bepaald. Leer meer in [het Model van Gegevens van Adobe Experience Platform (XDM) documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
 >Het **XDM Individual Profile** schema is het enige schema u kunt gebruiken om inhoud in [!DNL Journey Optimizer] te personaliseren.
@@ -89,8 +89,8 @@ In de interface van de uitdrukkingsredacteur, zult u, alle gegevens selecteren s
 
 In het linkergedeelte van het scherm wordt een domeinkiezer weergegeven waarmee u de bron voor personalisatie kunt selecteren. Beschikbare bronnen zijn:
 
-* **Profiel** : Hiermee worden alle referenties weergegeven die zijn gekoppeld aan het profielschema dat wordt beschreven in de documentatie [ van het ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)Adobe Experience Platform-gegevensmodel (XDM).
-* **Segmentlidmaatschap** : maakt een lijst van alle segmenten die in de dienst van de Segmentatie van Adobe Experience Platform worden gecreeerd. Meer informatie over segmentatie is [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en) beschikbaar.
+* **Profiel** : Hiermee worden alle verwijzingen weergegeven die zijn gekoppeld aan het profielschema dat wordt beschreven in de  [Adobe Experience Platform Data Model (XDM)-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+* **Segmentlidmaatschap** : maakt een lijst van alle segmenten die in de dienst van de Segmentatie van Adobe Experience Platform worden gecreeerd. Meer informatie over beschikbare segmentatie [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en){target=&quot;_blank&quot;}.
 * **Voorstellen** : geeft een overzicht van alle aanbiedingen verbonden aan een specifieke plaatsing. Selecteer de plaatsing en voeg de aanbiedingen in uw inhoud in. Raadpleeg [deze sectie](../deliver-personalized-offers.md) voor een volledige documentatie over het beheren van aanbiedingen.
 * **Context** : wanneer de activiteit van het  **** Overseinen in een reis wordt gebruikt, zijn de contextuele reisgebieden beschikbaar in dit menu. Meer informatie vindt u in [deze sectie](personalization-use-case.md).
 * **Helperfuncties** : Hiermee worden alle hulpfuncties weergegeven die beschikbaar zijn om bewerkingen uit te voeren op gegevens, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en deze te manipuleren in de context van personalisatie. Meer informatie vindt u in [deze sectie](functions/functions.md).
