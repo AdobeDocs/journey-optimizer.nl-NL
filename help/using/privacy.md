@@ -4,9 +4,9 @@ description: Leer hoe u privacy beheert
 topic: Privacy
 role: User
 level: Intermediate
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '775'
 ht-degree: 46%
 
 ---
@@ -54,7 +54,7 @@ Daarom moet u, om privacy goed te kunnen behandelen en persoonsgegevens te kunne
 
 [!DNL Journey Optimizer] erft de meeste veranderingen van datasets die in Adobe Experience Platform worden aangebracht.
 
-Daarom worden de verzoeken van de Privacy (Recht op Toegang en Recht om worden vergeten) beheerd door Experience Platform. U moet uw verzoeken verzenden gebruikend [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html), en **Profiel** en **AEP Gegevensmeer** van de productlijst selecteren wanneer [het creëren van uw privacyverzoek](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder). <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
+Daarom worden de verzoeken van de Privacy (Recht op Toegang en Recht om worden vergeten) beheerd door Experience Platform. U moet uw verzoeken verzenden gebruikend [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=&quot;_blank&quot;}, en **Profiel** en **AEP Data Lake** van de productlijst selecteren wanneer [het creëren van uw privacyverzoek](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target=&quot;_blank&quot;}. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
 
 >[!NOTE]
 >
