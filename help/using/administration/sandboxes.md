@@ -1,22 +1,11 @@
 ---
 title: Sandboxbeheer
 description: Leer hoe u sandboxen beheert
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
-exl-id: null
 feature: Controlegroepen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 2c4a86f7beb10d1ce35e8fb5600a979164038e5f
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 28%
@@ -25,7 +14,7 @@ ht-degree: 28%
 
 # Sandboxbeheer {#sandboxes}
 
-## Sandboxen {#using-sandbox} gebruiken
+## Sandboxen gebruiken {#using-sandbox}
 
 In [!DNL Journey Optimizer] kunt u uw instantie partitioneren in afzonderlijke virtuele omgevingen, sandboxen genoemd.
 Sandboxen worden toegewezen via productprofielen in de Admin Console. [Leer hoe u sandboxen](permissions.md#create-product-profile) toewijst.
@@ -35,7 +24,7 @@ U kunt Adobe Experience Platform-sandboxen maken of herstellen vanuit uw Adobe E
 
 U vindt de schakelfunctie voor sandboxen linksboven in het scherm. Als u van sandbox wilt wisselen, klikt u op de momenteel actieve sandbox in de schakelfunctie en selecteert u een andere sandbox in de vervolgkeuzelijst.
 
-## Sandboxen {#assign-sandboxes} toewijzen
+## Sandboxen toewijzen {#assign-sandboxes}
 
 >[!IMPORTANT]
 >
