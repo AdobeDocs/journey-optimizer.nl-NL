@@ -5,7 +5,7 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b495c96474e41d5b31cb3268434dbe36cfe13ec0
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 5%
@@ -18,7 +18,7 @@ Blader naar [Adobe Experience Cloud](http://experience.adobe.com) als u eenmaal 
 
 >[!NOTE]
 >
->* Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Raadpleeg [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=en#adobe-experience-platform-ui-guide) voor meer informatie.
+>* Belangrijke concepten bij het bladeren in de gebruikersinterface zijn gebruikelijk voor Adobe Experience Platform. Raadpleeg [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=en#adobe-experience-platform-ui-guide) voor meer informatie.
    >
    >
 * Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
@@ -98,7 +98,7 @@ Beschikbare gebruiksgevallen zijn:
 
 * **Maak testprofielen** om testprofielen te maken met onze CSV-sjabloon om persoonlijke berichten en reizen te testen. Leer hoe te om dit gebruiksgeval [in deze pagina ](building-journeys/creating-test-profiles.md#use-case-1) uit te voeren.
 * **Stuur een verjaardagsbericht naar klanten** om automatisch een e-mail te sturen om uw klanten op hun verjaardag te wensen. (binnenkort beschikbaar)
-* **Verzend e-mails naar nieuwe klanten** die zich willen inschrijven, zodat u eenvoudig maar liefst twee e-mails kunt verzenden om uw nieuw geregistreerde klanten te verwelkomen. (binnenkort beschikbaar)
+* **Verzend e-mails naar nieuwe klanten** aan boord, zodat u eenvoudig maar liefst twee e-mails kunt verzenden om uw nieuw geregistreerde klanten te verwelkomen. (binnenkort beschikbaar)
 * **Verzend pushberichten naar de geïmporteerde lijst met klanten** om snel een pushmelding te verzenden naar een lijst met klanten die zijn geïmporteerd uit een CSV-bestand. (binnenkort beschikbaar)
 
 Klik **[!UICONTROL View details]** om meer over elk gebruiksgeval te leren.
@@ -139,7 +139,7 @@ De taal wijzigen:
 
 ## Zoeken
 
-Overal vanaf de Adobe Journey Optimizer-interface kunt u de Adobe Experience Cloud-zoekopdracht in het midden van de bovenste balk gebruiken om elementen, reizen of berichten in uw sandboxen te zoeken. Voer inhoud in om de beste resultaten weer te geven.
+Overal vanaf de Adobe Journey Optimizer-interface gebruikt u de Adobe Experience Cloud-zoekopdracht in het midden van de bovenste balk om elementen, reizen of berichten te zoeken in uw sandboxen. Voer inhoud in om de beste resultaten weer te geven.
 
 ![](assets/unified-search.png)
 
