@@ -5,9 +5,9 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '576'
 ht-degree: 4%
 
 ---
@@ -67,7 +67,7 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
    Voeg een of meerdere segmenten uit het linkervenster toe, combineer deze met de logische operatoren **[!UICONTROL And]** / **[!UICONTROL Or]** en klik vervolgens op **[!UICONTROL Select]** om te bevestigen.
 
-   Raadpleeg de [documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) voor meer informatie over het werken met segmenten.
+   Raadpleeg [deze pagina](../../segment/about-segments.md) voor meer informatie over het werken met segmenten.
 
    ![](../../assets/activity_constraint_segment2.png)
 
@@ -102,7 +102,7 @@ Raadpleeg de volgende secties voor meer informatie over aanbiedingen:
 
 >[!NOTE]
 >
->Zodra een besluit is gecreeerd, kunt u zijn naam in de lijst klikken om tot gedetailleerde informatie toegang te hebben, en alle veranderingen visualiseren die aan het gebruikend **[!UICONTROL Change log]** tabel (zie [Veranderingen logboek van Aanbiedingen en van Besluiten ](../get-started/user-interface.md#changes-log)) zijn aangebracht.
+>Zodra een besluit is gecreeerd, kunt u zijn naam in de lijst klikken om tot gedetailleerde informatie toegang te hebben, en alle veranderingen visualiseren die aan het gebruikend **[!UICONTROL Change log]** tabel zijn aangebracht. [Meer informatie](../get-started/user-interface.md#changes-log).
 
 ## Video over zelfstudie {#video}
 
