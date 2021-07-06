@@ -5,9 +5,9 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '923'
 ht-degree: 4%
 
 ---
@@ -40,7 +40,7 @@ De stappen om de activiteit van het Leessegment te vormen zijn als volgt:
 
    >[!NOTE]
    >
-   >Alleen de personen met de **Realized** en **Existing**-deelnamestatus zullen de reis betreden. Raadpleeg de [documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results) voor meer informatie over het evalueren van een segment.
+   >Alleen de personen met de **Realized** en **Existing**-deelnamestatus zullen de reis betreden. Voor meer op hoe te om een segment te evalueren, verwijs naar [de documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results){target=&quot;_blank&quot;}.
 
    ![](../assets/read-segment-selection.png)
 
