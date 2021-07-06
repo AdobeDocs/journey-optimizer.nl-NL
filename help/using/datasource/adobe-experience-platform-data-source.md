@@ -5,16 +5,16 @@ feature: Databronnen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '357'
 ht-degree: 10%
 
 ---
 
 # Adobe Experience Platform-databron {#concept_zrb_nqt_52b}
 
-Adobe Experience Platform-gegevensbron definieert de verbinding met de Real-Time Customer Profile Service. Deze gegevensbron is ingebouwd en vooraf geconfigureerd. Het kan niet worden verwijderd. Deze gegevensbron is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is). Hiermee kunt u de gegevens van het profiel en Events gebruiken. Voor meer informatie over de Real-time Dienst van het Profiel van de Klant, verwijs naar deze [pagina](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+Adobe Experience Platform-gegevensbron definieert de verbinding met de Real-Time Customer Profile Service. Deze gegevensbron is ingebouwd en vooraf geconfigureerd. Het kan niet worden verwijderd. Deze gegevensbron is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is). Hiermee kunt u de gegevens van het profiel en Events gebruiken. Raadpleeg [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;} voor meer informatie over de realtime klantenprofielservice.
 
 >[!NOTE]
 >
