@@ -5,9 +5,9 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '903'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ Met de regels en beperkingen voor geschiktheid kunt u bepalen onder welke voorwa
 
    U kunt de presentatie van het voorstel beperken tot de leden van een of meerdere Adobe Experience Platform-segmenten. Hiervoor activeert u de optie **[!UICONTROL Visitors who fall into one or multiple segments]**, voegt u een of meerdere segmenten uit het linkervenster toe en combineert u deze met de logische operatoren **[!UICONTROL And]** / **[!UICONTROL Or]**.
 
-   Raadpleeg de [documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) voor meer informatie over het werken met segmenten.
+   Raadpleeg [deze pagina](../../segment/about-segments.md) voor meer informatie over het werken met segmenten.
 
    ![](../../assets/offer-eligibility-segment.png)
 
@@ -130,7 +130,7 @@ Het is nu klaar om aan gebruikers te worden geleverd. U kunt het selecteren om z
 
 ![](../../assets/offer_created.png)
 
-Zodra een aanbieding is gecreeerd, kunt u zijn naam in de lijst klikken om tot gedetailleerde informatie toegang te hebben, evenals alle veranderingen te controleren die aan het gebruikend **[!UICONTROL Change log]** tabel (zie [Wijzigingen in aanbiedingen en besluiten controleren](../get-started/user-interface.md#monitoring-changes)) zijn aangebracht.
+Zodra een aanbieding is gecreeerd, kunt u zijn naam in de lijst klikken om tot gedetailleerde informatie toegang te hebben, evenals alle veranderingen te controleren die aan het gebruikend **[!UICONTROL Change log]** tabel zijn aangebracht. [Meer informatie](../get-started/user-interface.md#monitoring-changes).
 
 ## Video over zelfstudie {#video}
 
