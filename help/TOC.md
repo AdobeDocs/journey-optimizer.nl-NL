@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+source-git-commit: 3f0fe5079b32103aec6160f22900c14db7b0d304
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 42%
@@ -235,7 +235,7 @@ ht-degree: 42%
          + [Acties](using/action/action.md)
          + [Een actie configureren](using/action/about-custom-action-configuration.md)
          + [Integreren met Adobe Campaign v7/v8](using/action/acc-action.md)
-      + [Bronnen](using/get-started-sources.md)
+   + [Bronnen](using/get-started-sources.md)
 + Toegangsbeheer {#administration}
    + [Overzicht van toegangsbeheer](using/administration/permissions-overview.md)
    + [Geïntegreerde productprofielen](using/administration/ootb-product-profiles.md)
