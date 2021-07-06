@@ -5,14 +5,14 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 780f51295459ac7a400e0060c817b49a1f632bff
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '980'
 ht-degree: 1%
 
 ---
 
-# De inhoudcomponenten {#content-components} van de e-mailontwerper gebruiken
+# De inhoudcomponenten van de e-mailontwerper gebruiken {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
@@ -115,7 +115,7 @@ Met de component **[!UICONTROL Image]** kunt u een afbeeldingsbestand van uw com
 
 1. Klik op **[!UICONTROL Browse]** om een afbeeldingsbestand te kiezen uit uw elementen.
 
-   Raadpleeg [Adobe Experience Manager Assets Essentials-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html) voor meer informatie over [!DNL Assets Essentials].
+   Meer op [!DNL Assets Essentials] leren, verwijs naar [Adobe Experience Manager Assets Essentials documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
 
 1. Klik op de toegevoegde component om uw **[!UICONTROL Content Components]** te configureren en toegang te krijgen tot **[!UICONTROL Components Settings]** in het rechterdeelvenster van de e-mailontwerper.
 
@@ -176,7 +176,7 @@ Met de component **[!UICONTROL Social]** kunt u koppelingen naar pagina&#39;s me
 
 1. U kunt uw pictogrammen voor sociale media nu verder aanpassen door **[!UICONTROL Style]**, **[!UICONTROL Margin]** en **[!UICONTROL Border]** te wijzigen.
 
-## Besluit {#offer-decision} aanbieden
+## Beslissing voorstel {#offer-decision}
 
 Gebruik de **[!UICONTROL Offer decision]** component om besluiten (die eerder als aanbiedingsactiviteiten worden bekend) in uw berichten op te nemen. Besluiten maken gebruik van Beslissingsbeheer om de beste aanbieding aan uw klanten te kiezen.
 
