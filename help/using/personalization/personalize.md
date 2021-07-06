@@ -5,7 +5,7 @@ feature: Personalisatie
 topic: Personalisatie
 role: Data Engineer
 level: Beginner
-source-git-commit: 6fc882827c2ba98af539abf90347483301d48edc
+source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 2%
@@ -90,10 +90,10 @@ In de interface van de uitdrukkingsredacteur, zult u, alle gegevens selecteren s
 In het linkergedeelte van het scherm wordt een domeinkiezer weergegeven waarmee u de bron voor personalisatie kunt selecteren. Beschikbare bronnen zijn:
 
 * **Profiel** : Hiermee worden alle referenties weergegeven die zijn gekoppeld aan het profielschema dat wordt beschreven in de documentatie [ van het ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)Adobe Experience Platform-gegevensmodel (XDM).
-* **Segmentlidmaatschap** : maakt een lijst van alle segmenten die in de dienst van de Segmentatie van Adobe Experience Platform worden gecreeerd. Meer informatie over segmentatie is [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en) beschikbaar
-* **Voorstellen** : geeft een overzicht van alle aanbiedingen verbonden aan een specifieke plaatsing. Selecteer de plaatsing en voeg de aanbiedingen in uw inhoud in. Raadpleeg [deze sectie](../deliver-personalized-offers.md) voor een volledige documentatie over het beheren van aanbiedingen
-* **Context** : wanneer de activiteit van het  **** Overseinen in een reis wordt gebruikt, zijn de contextuele reisgebieden beschikbaar in dit menu. Meer informatie in [deze sectie](personalization-use-case.md)
-* **Helperfuncties** : Hiermee worden alle hulpfuncties weergegeven die beschikbaar zijn om bewerkingen uit te voeren op gegevens, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en deze te manipuleren in de context van personalisatie. Meer informatie in [deze sectie](functions/functions.md)
+* **Segmentlidmaatschap** : maakt een lijst van alle segmenten die in de dienst van de Segmentatie van Adobe Experience Platform worden gecreeerd. Meer informatie over segmentatie is [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en) beschikbaar.
+* **Voorstellen** : geeft een overzicht van alle aanbiedingen verbonden aan een specifieke plaatsing. Selecteer de plaatsing en voeg de aanbiedingen in uw inhoud in. Raadpleeg [deze sectie](../deliver-personalized-offers.md) voor een volledige documentatie over het beheren van aanbiedingen.
+* **Context** : wanneer de activiteit van het  **** Overseinen in een reis wordt gebruikt, zijn de contextuele reisgebieden beschikbaar in dit menu. Meer informatie vindt u in [deze sectie](personalization-use-case.md).
+* **Helperfuncties** : Hiermee worden alle hulpfuncties weergegeven die beschikbaar zijn om bewerkingen uit te voeren op gegevens, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en deze te manipuleren in de context van personalisatie. Meer informatie vindt u in [deze sectie](functions/functions.md).
 
 Bij selectie wordt de verwijzing toegevoegd in de editor.
 
