@@ -5,16 +5,16 @@ feature: Applicatie-instellingen
 topic: Push
 role: Administrator
 level: Intermediate
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+source-git-commit: e51be6bf18f2e3dfec11e80d34bf63a8ce8b1012
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1432'
 ht-degree: 3%
 
 ---
 
-# Pushmeldingskanaal {#push-notification-configuration} configureren
+# Pushmeldingskanaal configureren {#push-notification-configuration}
 
-[!DNL Journey Optimizer] kunt u uw reizen maken en berichten naar het beoogde publiek sturen. Voordat u met [!DNL Journey Optimizer] pushmeldingen gaat verzenden, moet u ervoor zorgen dat er configuraties en integratie zijn in de mobiele app en in [!DNL Adobe Experience Platform] en [!DNL Adobe Experience Platform Launch]. Voor meer informatie over de gegevensstroom van pushberichten in Adobe Reis optimizer raadpleegt u [deze pagina](push-gs.md).
+[!DNL Journey Optimizer] kunt u uw reizen maken en berichten naar het beoogde publiek sturen. Voordat u met [!DNL Journey Optimizer] pushmeldingen gaat verzenden, moet u ervoor zorgen dat er configuraties en integratie zijn in de mobiele app en in [!DNL Adobe Experience Platform] en [!DNL Adobe Experience Platform Launch]. Als u de gegevensstroom van pushberichten in [!DNL Adobe Journey Optimizer] wilt begrijpen, raadpleegt u [deze pagina](push-gs.md).
 
 ## Voordat u begint
 
@@ -54,7 +54,7 @@ Volg onderstaande stappen om **Eigenschap** en **Bedrijf** rechten toe te wijzen
 
 1. Selecteer een bestaande **[!UICONTROL Product Profile]** of maak een nieuwe met de **[!UICONTROL New profile]** knoop. Leer hoe u een nieuwe **[!UICONTROL New profile]** maakt in de [Admin-consoledocumentatie](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui).
 
-1. Selecteer **[!UICONTROL Property rights]** op het tabblad **[!UICONTROL Permissions]**.
+1. Selecteer op het tabblad **[!UICONTROL Permissions]** de optie **[!UICONTROL Property rights]**.
 
    ![](assets/push_product_2.png)
 
@@ -263,7 +263,7 @@ Voor deze reis aan het werk, moet u een schema tot stand brengen XDM. Raadpleeg 
 
 1. Selecteer **[!UICONTROL Create a new field group]**.
 
-1. Voer een **[!UICONTROL Display Name]** en een **[!UICONTROL Description]** in. Klik **[!UICONTROL Add field groups]** wanneer gereed. Raadpleeg [XDM System documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) voor meer informatie over het maken van veldgroepen.
+1. Voer een **[!UICONTROL Display Name]** en een **[!UICONTROL Description]** in. Klik op **[!UICONTROL Add field groups]** wanneer u gereed bent. Raadpleeg [XDM System documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html) voor meer informatie over het maken van veldgroepen.
 
 
    ![](assets/test_push_4.png)
@@ -343,7 +343,7 @@ Uw gebeurtenis wordt nu gemaakt en kan nu op een reis worden gebruikt.
 
 Uw gebeurtenis wordt geactiveerd en u ontvangt uw pushmelding voor uw mobiele app.
 
-## Stap 4: Een berichtvoorinstelling maken voor push{#message-preset}
+## Stap 4: Een berichtvoorinstelling maken voor pushberichten{#message-preset}
 
 Als uw mobiele app is ingesteld in [!DNL Adobe Experience Platform Launch], moet u een berichtvoorinstelling maken om pushberichten te kunnen verzenden vanuit **[!DNL Journey Optimizer]**.
 
