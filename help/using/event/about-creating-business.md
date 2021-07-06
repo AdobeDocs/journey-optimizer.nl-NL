@@ -5,9 +5,9 @@ feature: Gebeurtenissen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '825'
 ht-degree: 14%
 
 ---
@@ -76,9 +76,9 @@ Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
 
    De gebeurtenis is nu geconfigureerd en klaar om in een journey worden gezet. Er zijn aanvullende configuratiestappen nodig om gebeurtenissen te ontvangen. Zie [deze pagina](../event/additional-steps-to-send-events-to-journey-orchestration.md).
 
-## De payload-velden {#define-the-payload-fields} definiëren
+## De laadvelden definiëren {#define-the-payload-fields}
 
-De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. Raadpleeg [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) voor meer informatie over XDM.
+De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. Voor meer informatie over XDM, verwijs naar [Adobe Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target=&quot;_blank&quot;}.
 
 1. Selecteer een XDM-schema in de lijst en klik op het veld **[!UICONTROL Fields]** of op het pictogram **[!UICONTROL Edit]**.
 
@@ -96,7 +96,7 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 
    ![](../assets/journey12-business.png)
 
-## Een voorvertoning weergeven van de lading {#preview-the-payload}
+## Een voorvertoning van de lading weergeven {#preview-the-payload}
 
 Met de voorvertoning van de lading kunt u de definitie van de lading valideren.
 
