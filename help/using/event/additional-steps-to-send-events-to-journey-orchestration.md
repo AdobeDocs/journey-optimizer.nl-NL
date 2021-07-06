@@ -5,9 +5,9 @@ feature: Gebeurtenissen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '296'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Als u gebeurtenissen wilt configureren die naar **[!UICONTROL Streaming Ingestion APIs]** moeten worden verzonden en die in [!DNL Journey Optimizer] moeten worden gebruikt, moet u de volgende stappen uitvoeren:
 
-1. Haal de inlaatURL op van Adobe Experience Platform API&#39;s. Meer informatie vindt u in [Overzicht van de API&#39;s voor streaming insluiting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html).
+1. Haal de inlaatURL op van Adobe Experience Platform API&#39;s. Meer informatie vindt u in [Overzicht van de streaming API&#39;s voor insluiting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html){target=&quot;_blank&quot;}.
 1. Kopieer de lading van de nuttige ladingsvoorproef in **[!UICONTROL Event]** menu. Meer informatie vindt u op [deze pagina](../event/about-creating.md#define-the-payload-fields).
 
 Vervolgens moet u het gegevenssysteem configureren dat gebeurtenissen naar Streaming Ingestie-API&#39;s stuurt met de door u gekopieerde payload:
@@ -84,6 +84,6 @@ Hier volgt een voorbeeld van een gebeurtenis Streaming ingestie-API&#39;s:
 }
 ```
 
-Als u de locatie waar het &quot;data&quot;-deel moet worden geplakt gemakkelijker wilt kunnen identificeren, kunt u een JSON-visualisatieprogramma gebruiken, zoals [https://jsonformatter.curiousconcept.com](https://jsonformatter.curiousconcept.com)
+Om de identificatie van de plaats te vergemakkelijken waar om het &quot;gegevens&quot;deel te kleven, kunt u een hulpmiddel van de visualisatie JSON zoals [JSON formatter](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;} gebruiken.
 
-Raadpleeg deze [pagina](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) voor informatie over het oplossen van problemen met de Streaming-API&#39;s.
+Om het stromen Ingestie APIs problemen op te lossen, verwijs naar [Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}.
