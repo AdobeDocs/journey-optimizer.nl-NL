@@ -5,9 +5,9 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: a1ce789ad78f70bdb2a1387ffb6c60cb40b8b0bb
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '737'
 ht-degree: 1%
 
 ---
@@ -23,15 +23,15 @@ Regels zoals de GDPR bepalen dat u aan specifieke vereisten moet voldoen voordat
 * Als u deze voorschriften niet naleeft, brengt u juridische risico&#39;s met zich mee voor uw merk.
 * Het helpt u vermijden verzendend ongevraagde mededelingen naar uw ontvangers, die hen zouden kunnen maken uw berichten als spam merken en uw reputatie schaden.
 
-Meer informatie over het beheren van Privacy en de toepasselijke verordeningen in [de documentatie van het Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl).
+Leer meer over het beheren van Privacy en de toepasselijke verordeningen in [Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl){target=&quot;_blank&quot;}.
 
 <!--* Recipients should be able to opt-in/opt-out from receiving electronic communication through one or more channel
 * Recipients expect the brand to offer preference centre capability that controls how brand should engage with them (example: channel of communication, invasive and non-invasive tracking etc). This helps to fulfil regulatory obligations and also facilitates quality engagement with recipient. 
 * The third category is the capability to offer subscription to recipients (newsletter, etc)-->
 
-## Uitschakelen van beheer {#opt-out-management}
+## Uitschakelen, beheer {#opt-out-management}
 
-Het is een wettelijke vereiste dat ontvangers de mogelijkheid krijgen om zich af te melden voor het ontvangen van communicatie van een merk. Meer informatie over de toepasselijke wetgeving vindt u in de [documentatie van het Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en#regulations).
+Het is een wettelijke vereiste dat ontvangers de mogelijkheid krijgen om zich af te melden voor het ontvangen van communicatie van een merk. Leer meer over de toepasselijke wetgeving in [Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en#regulations){target=&quot;_blank&quot;}.
 
 Daarom moet u een **unsubscribe verbinding** in elke e-mail altijd omvatten die aan ontvangers wordt verzonden:
 * Nadat u op deze koppeling hebt geklikt, worden de ontvangers naar een bestemmingspagina geleid, inclusief een knop om te bevestigen dat ze het programma willen afsluiten.
@@ -79,7 +79,7 @@ Voer de onderstaande stappen uit om een koppeling voor afmelden toe te voegen:
 
    Dit heeft tot gevolg dat deze gebruiker geen communicatie van uw merk ontvangt, tenzij hij opnieuw een abonnement neemt.
 
-Als u wilt controleren of de keuze van het corresponderende profiel is bijgewerkt, gaat u naar het Experience Platform en opent u het profiel door een naamruimte voor identiteiten en een bijbehorende identiteitswaarde te selecteren. Meer informatie vindt u in de [documentatie van het Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started).
+Als u wilt controleren of de keuze van het corresponderende profiel is bijgewerkt, gaat u naar het Experience Platform en opent u het profiel door een naamruimte voor identiteiten en een bijbehorende identiteitswaarde te selecteren. Leer meer in [Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started){target=&quot;_blank&quot;}.
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -129,7 +129,7 @@ Instantie van aanvraag:
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice. <!--and provide an answer back to the landing page.-->
 
-## Koppeling in koptekst {#unsubscribe-email} opzeggen
+## Koppeling in koptekst opzeggen {#unsubscribe-email}
 
 Als de e-mailclient van de ontvangers ondersteuning biedt voor het weergeven van een niet-geabonneerde koppeling in de e-mailheader, wordt deze koppeling automatisch opgenomen in de e-mailberichten die met [!DNL Journey Optimizer] zijn verzonden.
 
@@ -139,11 +139,11 @@ De koppeling voor afmelden wordt bijvoorbeeld als volgt weergegeven in Gmail:
 
 Afhankelijk van de e-mailclient heeft het klikken op de koppeling voor het afmelden van abonnementen in de header een van de volgende gevolgen:
 
-* Het corresponderende profiel wordt direct uitgeschakeld en deze keuze wordt in het Experience Platform bijgewerkt. Meer informatie vindt u in de [documentatie van het Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started).
+* Het corresponderende profiel wordt direct uitgeschakeld en deze keuze wordt in het Experience Platform bijgewerkt. Leer meer in [Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=en#getting-started){target=&quot;_blank&quot;}.
 
 * Dit heeft hetzelfde effect als klikken op de koppeling Abonnement opzeggen in de e-mailinhoud: de ontvanger wordt omgeleid naar een bestemmingspagina met een knop om te bevestigen dat hij of zij het programma afsluit. Meer informatie over opt-outbeheer in [deze sectie](#opt-out-management).
 
-## Push opt-out management {#push-opt-out-management}
+## Push opt-out-beheer {#push-opt-out-management}
 
 Push-ontvangers kunnen hun abonnement opzeggen via hun apparaten zelf.
 
