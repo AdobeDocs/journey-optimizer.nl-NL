@@ -5,14 +5,14 @@ feature: Bewaking
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
 
-# Bewaking van berichten {#monitor-message-execution}
+# Berichtcontrole {#monitor-message-execution}
 
 [!DNL Journey Optimizer] biedt mogelijkheden om de berichten te controleren die momenteel worden gepubliceerd en geactiveerd om ervoor te zorgen dat uw berichten correct worden uitgevoerd, verzonden en afgeleverd. U kunt zien hoe uw berichten over reizen <!--and APIs--> in real time van de **[!UICONTROL Executions]** lijst uitvoeren.
 
@@ -87,6 +87,6 @@ Voor elke berichtuitvoering wordt een aantal indicatoren weergegeven:
 
 * **[!UICONTROL Errors]**: Aantal berichten dat niet kan worden verzonden wegens een technische fout.
 
-* **[!UICONTROL Spam complaints]**: Aantal berichten die als spam door ontvangers werden gemerkt. [Meer weten over klachten](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability)?
+* **[!UICONTROL Spam complaints]**: Aantal berichten die als spam door ontvangers werden gemerkt. Meer informatie over klachten vindt u in de [Handboek met best practices voor levering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html#metrics-for-deliverability){target=&quot;_blank&quot;}.
 
 Als u op elke hyperlink klikt, wordt de bijbehorende overzichtsweergave van het bericht geopend. [Meer weten over berichten](create-message.md)?
