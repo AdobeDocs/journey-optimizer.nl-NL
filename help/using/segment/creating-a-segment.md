@@ -5,9 +5,9 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 9e93a97ff793fec9fdf4aecd645f1df95b65b31a
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '304'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ In dit voorbeeld, zullen wij een segment bouwen om alle klanten te richten die i
 
    ![](../assets/create-segment.png)
 
-   Het scherm van de segmentdefinitie staat u toe om alle vereiste gebieden te vormen om uw segment te bepalen. Leer hoe te om segmenten in [de documentatie van de Dienst van de Segmentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html) te vormen.
+   Het scherm van de segmentdefinitie staat u toe om alle vereiste gebieden te vormen om uw segment te bepalen. Leer hoe te om segmenten in [de documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target= &quot;_blank&quot;} te vormen.
 
    ![](../assets/segment-builder.png)
 
@@ -32,7 +32,7 @@ In dit voorbeeld, zullen wij een segment bouwen om alle klanten te richten die i
 
    >[!NOTE]
    >
-   >Merk op dat de gebieden beschikbaar in de linkerruit afhankelijk van variëren hoe **XDM Individual Profile** en **XDM ExperienceEvent** schema&#39;s voor uw organisatie zijn gevormd.  Meer informatie vindt u in de [Experience Data Model (XDM)-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl).
+   >Merk op dat de gebieden beschikbaar in de linkerruit afhankelijk van variëren hoe **XDM Individual Profile** en **XDM ExperienceEvent** schema&#39;s voor uw organisatie zijn gevormd.  Leer meer in [de documentatie van het Model van Gegevens van de Ervaring (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target=&quot;_blank&quot;}.
 
    ![](../assets/drag-fields.png)
 
