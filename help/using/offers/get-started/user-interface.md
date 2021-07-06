@@ -5,7 +5,7 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 1%
@@ -72,7 +72,7 @@ U kunt ook een bestaande aanbieding of een bestaande beslissing dupliceren om ee
 
 ## Aanbiedingen en besluiten veranderen logboeken {#changes-logs}
 
-Met de bibliotheek met aanbiedingen kunt u alle wijzigingen die in een aanbieding of beslissing zijn aangebracht, vizualiseren. U doet dit door de aanbieding of beslissing te openen door op de naam ervan in de lijst te klikken en vervolgens het tabblad **[!UICONTROL Change log]** te selecteren.
+In de bibliotheek met aanbiedingen kunt u alle wijzigingen visualiseren die in een voorstel of een beslissing zijn aangebracht. U doet dit door de aanbieding of beslissing te openen door op de naam ervan in de lijst te klikken en vervolgens het tabblad **[!UICONTROL Change log]** te selecteren.
 
 Alle aangebrachte wijzigingen worden in dit scherm weergegeven, evenals de naam van de gebruiker die de wijzigingen heeft uitgevoerd.
 
