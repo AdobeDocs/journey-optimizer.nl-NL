@@ -4,9 +4,9 @@ description: Leer hoe u privacy beheert
 topic: Privacy
 role: User
 level: Intermediate
-source-git-commit: 4f80fd89c772ee4097a42fdaf1bff1f02ddbc004
+source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '771'
 ht-degree: 46%
 
 ---
@@ -33,11 +33,11 @@ Persoonlijke en gevoelige gegevens moeten zorgvuldig worden beheerd. Volg onders
 
 * Ga altijd op verantwoordelijke en ethische wijze te werk bij het gebruik van persoonsgegevens.
 
-* Stuur geen ongewenste berichten (&quot;spam&quot;). Adobe gelooft sterk in de beginselen van toestemmings marketing in het bevorderen van de waarde en loyaliteit van het klantenleven, en verbiedt daarom strikt het gebruik van Journey Optimizer in het verzenden van ongevraagde berichten.
+* Stuur geen ongewenste berichten (&quot;spam&quot;). Adobe gelooft sterk in de beginselen van toestemmings marketing in het bevorderen van de waarde en loyaliteit van het klantenleven, en verbiedt daarom strikt het gebruik van [!DNL Adobe Journey Optimizer] in het verzenden van ongevraagde berichten.
 
-Journey Optimizer biedt u de mogelijkheid om de rechten te beheren die aan uw gebruikers zijn toegewezen via verschillende vooraf gebouwde of aangepaste productprofielen. Hierdoor kunt u bepalen wie binnen uw bedrijf toegang heeft tot verschillende typen gegevens en deze kan wijzigen of exporteren. Meer informatie over het beheren van de toegangsrechten van gebruikers in [Rechten beheren](administration/permissions.md).
+[!DNL Journey Optimizer] biedt u de mogelijkheid om de rechten te beheren die aan uw gebruikers zijn toegewezen via verschillende vooraf gebouwde of aangepaste productprofielen. Hierdoor kunt u bepalen wie binnen uw bedrijf toegang heeft tot verschillende typen gegevens en deze kan wijzigen of exporteren. Leer hoe u gebruikersmachtigingen beheert op [deze pagina](administration/permissions.md).
 
-Met Journey Optimizer kunt u ook de verzonden berichten en het gedrag van de ontvangers bijhouden via het openen en klikken op koppelingen. [Meer informatie over beheer](message-tracking.md) bijhouden.
+[!DNL Journey Optimizer] laat u ook toe om de berichten te volgen die en het gedrag van uw ontvangers door openingen worden verzonden en op verbindingen klikken. Meer informatie over beheer bijhouden vindt u op [deze pagina](message-tracking.md).
 
 ## Privacybeheer {#privacy-management}
 
@@ -52,7 +52,7 @@ Daarom moet u, om privacy goed te kunnen behandelen en persoonsgegevens te kunne
 * [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=) (California Consumer Privacy Act)
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (Thaise wet inzake de bescherming van persoonsgegevens)
 
-Journey Optimizer neemt de meeste wijzigingen in gegevenssets over die in Adobe Experience Platform zijn aangebracht.
+[!DNL Journey Optimizer] erft de meeste veranderingen van datasets die in Adobe Experience Platform worden aangebracht.
 
 Daarom worden de verzoeken van de Privacy (Recht op Toegang en Recht om worden vergeten) beheerd door Experience Platform. U moet uw verzoeken verzenden gebruikend [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html), en **Profiel** en **AEP Gegevensmeer** van de productlijst selecteren wanneer [het creëren van uw privacyverzoek](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder). <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en).-->
 
@@ -62,7 +62,7 @@ Daarom worden de verzoeken van de Privacy (Recht op Toegang en Recht om worden v
 
 ## Adobe Experience Cloud-privacy {#experience-cloud-privacy}
 
-Journey Optimizer maakt deel uit van de Adobe Experience Cloud-oplossingen. De manier waarop privacy wordt behandeld volgt de algemene beginselen van Adobe Experience Cloud. [Meer weten over Adobe Experience Cloud privacy](https://www.adobe.com/nl/privacy/marketing-cloud.html)?
+[!DNL Journey Optimizer] maakt deel uit van de Adobe Experience Cloud-oplossingen. De manier waarop privacy wordt behandeld volgt de algemene beginselen van Adobe Experience Cloud. Meer informatie over Adobe Experience Cloud privacy vindt u op [deze pagina](https://www.adobe.com/nl/privacy/marketing-cloud.html).
 
 Als bedrijf dat Adobe Experience Cloud-oplossingen gebruikt, bepaalt u welke gegevens u verzamelt en naar uw Adobe Experience Cloud-account verzendt. Voorbeelden van soorten informatie die mogelijk worden verzameld, zijn webbrowseractiviteiten, IP-adressen, locatiegegevens van mobiele apparaten, succespercentages van campagnes, items die zijn aangeschaft of in een winkelwagentje zijn geplaatst, enz. Zie het [Adobe-privacybeleid](https://www.adobe.com/nl/privacy/policy.html) voor meer informatie.
 
@@ -73,6 +73,6 @@ Adobe vraagt u om uw klanten een privacybeleid te verstrekken waarin het volgend
 
 >[!NOTE]
 >
->Net als voor alle Adobe-producten kunnen Journey Optimizer-gebruikers weigeren informatie over hen te delen via apps en websites. Meer informatie vindt u in de [Veelgestelde vragen over Adobe Experience Cloud-gebruiksgegevens](https://www.adobe.com/nl/privacy/experience-cloud-usage-info-faq.html).
+>Net als voor alle Adobe-producten kunnen [!DNL Adobe Journey Optimizer]-gebruikers weigeren informatie over hun producten te delen via apps en websites. Meer informatie vindt u in de [Veelgestelde vragen over Adobe Experience Cloud-gebruiksgegevens](https://www.adobe.com/nl/privacy/experience-cloud-usage-info-faq.html).
 
 <!--Because Journey Optimizer integrates with Adobe Experience Platform, where audiences are transferred from one system to another, you need to pay extra care to personal data protection.-->
