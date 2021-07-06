@@ -5,9 +5,9 @@ feature: Applicatie-instellingen
 topic: Beheer
 role: Administrator
 level: Intermediate
-source-git-commit: 705aa4c238eb1d6d6ce46b68f8690f639124a090
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '880'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,8 @@ Met [!DNL Journey Optimizer] kunt u voorinstellingen voor berichten instellen di
 
 
 Nadat berichtvoorinstellingen zijn geconfigureerd, kunt u deze selecteren bij het maken van berichten in de lijst **[!UICONTROL Presets]**.
+
+![](../assets/do-not-localize/how-to-video.png) [Leer hoe u e-mailvoorinstellingen maakt en gebruikt in deze video](#video-presets)
 
 ## Een berichtvoorinstelling maken {#create-message-preset}
 
@@ -148,3 +150,8 @@ Als u een berichtvoorinstelling wilt bewerken, moet u deze eerst deactiveren zod
    >
    >Gedetailleerde berichtvoorinstellingen kunnen niet worden verwijderd om problemen te voorkomen tijdens reizen waarbij deze voorinstellingen worden gebruikt om berichten te verzenden.
 
+## Hoe kan ik-video{#video-presets}
+
+Leer hoe te om berichtvoorinstellingen tot stand te brengen, hoe te om hen te gebruiken en hoe te om subdomain te delegeren en een IP pool tot stand te brengen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
