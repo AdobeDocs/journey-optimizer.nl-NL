@@ -5,7 +5,7 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 7%
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # Selectie van aanbiedingen in beslissingen configureren {#offers-selection-in-activities}
 
-## Info over de prioriteit Aanbiedingen {#about-offers-priority}
+## Over de prioriteit Aanbiedingen {#about-offers-priority}
 
 Wanneer meerdere aanbiedingen in aanmerking komen voor een bepaalde plaatsing in een beslissing (voorheen bekend als aanbiedingsactiviteit), worden de aanbiedingen met de hoogste **prioriteit** standaard eerst aan de klanten geleverd. De prioritaire scores van aanbiedingen worden toegewezen wanneer het creëren van een aanbieding (zie [een gepersonaliseerde aanbieding](../offer-library/creating-personalized-offers.md) creëren).
 
