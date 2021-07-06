@@ -4,10 +4,10 @@ description: Leer hoe u profielen maakt en beheert in Adobe Journey Optimizer
 feature: Profielen
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -29,5 +29,5 @@ Meer informatie over **Beleid samenvoegen** in deze [documentatie](https://exper
 
 **Zie ook**
 
-* [Real-time documentatie](https://experienceleague-review.corp.adobe.com/docs/experience-platform/query/home.html) van het Profiel van Cistomer {target=&quot;_blank&quot;}
-* [Overzichtsvideo](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html) van Cistomer Profile in realtime {target=&quot;_blank&quot;}
+* [Real-time documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl) van het Profiel van de Klant {target=&quot;_blank&quot;}
+* [Overzichtsvideo](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html) van het profiel van de Klant in real time {target=&quot;_blank&quot;}
