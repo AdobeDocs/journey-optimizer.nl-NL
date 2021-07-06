@@ -5,9 +5,9 @@ feature: Personalisatie
 topic: Personalisatie
 role: Data Engineer
 level: Intermediate
-source-git-commit: f05e968a29d76e8dcd8e96fb8a5a1c60c4b12529
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
 1. Selecteer de categorie **Context**. Dit item is alleen beschikbaar als een reis contextuele gegevens heeft doorgegeven aan het bericht. Klik **Journey Orchestration**. De volgende contextafhankelijke informatie wordt weergegeven:
 
    * **Gebeurtenissen**: deze categorie groepeert alle velden van de gebeurtenis(sen) die vóór de  **** berichtenactiviteit in de reis zijn geplaatst.
-   * **Reiseigenschappen**: de technische gebieden die verband houden met de reis voor een bepaald profiel, bijvoorbeeld de reis-id of de specifieke fouten die zijn geconstateerd. Raadpleeg de [Journey Orchestration-documentatie](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html#building-advanced-conditions-journeys).
+   * **Reiseigenschappen**: de technische gebieden die verband houden met de reis voor een bepaald profiel, bijvoorbeeld de reis-id of de specifieke fouten die zijn geconstateerd. Leer meer in [Journey Orchestration documentatie](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html#building-advanced-conditions-journeys){target=&quot;_blank&quot;}.
 
    ![](assets/perso-uc10.png)
 
