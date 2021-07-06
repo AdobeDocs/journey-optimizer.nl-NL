@@ -5,9 +5,9 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 8dfa7a7700e1bb452ea9cd5e7d0adb6df55de03b
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1328'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,9 @@ De beschikbare methoden voor het maken van testprofielen worden hieronder beschr
 
 * U kunt een testprofiel maken door een [csv-bestand](#create-test-profiles-csv) te uploaden of door [API-aanroepen](#create-test-profiles-api) te gebruiken. Naast deze twee methoden wordt in Adobe Journey Optimizer een specifieke [in-product gebruikscase](#use-case-1) geleverd om het maken van testprofielen te vergemakkelijken.
 
-* U kunt ook een json-bestand in een gegevensset uploaden. Raadpleeg voor meer informatie de [documentatie over gegevensinname](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset).
+* U kunt ook een json-bestand in een gegevensset uploaden. Voor meer op dit, verwijs naar [de documentatie van de Ingestie van Gegevens](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target= &quot;_blank&quot;}.
 
-Het maken van een testprofiel lijkt op het maken van gewone profielen in Adobe Experience Platform. Raadpleeg de documentatie [Real-time Klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html) voor meer informatie.
+Het maken van een testprofiel lijkt op het maken van gewone profielen in Adobe Experience Platform. Voor meer informatie, verwijs naar [Real-time documentatie van het Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
 ## Vereisten {#test-profile-prerequisites}
 
@@ -59,7 +59,7 @@ Klik eenmaal op  **[!UICONTROL Add field groups]**: de lijst van gebiedsgroepen 
 
 >[!NOTE]
 >
->Voor meer informatie over schemaverwezenlijking, verwijs naar [XDM documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites).
+>Voor meer informatie over schemaverwezenlijking, verwijs naar [XDM documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target=&quot;_blank&quot;}.
 
 Dan moet u **de dataset** creëren waarin de profielen zullen worden ingevoerd. Voer de volgende stappen uit:
 
@@ -76,9 +76,9 @@ Dan moet u **de dataset** creëren waarin de profielen zullen worden ingevoerd. 
 
 >[!NOTE]
 >
-> Raadpleeg de documentatie [Catalog Service](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started) voor meer informatie over het maken van gegevenssets.
+> Voor meer informatie over datasetverwezenlijking, verwijs naar [de documentatie van de Dienst van de Catalogus ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
-## In-product gebruikscase{#use-case-1}
+## Gebruiksscenario in het product{#use-case-1}
 
 Op de homepage van Adobe Journey Optimizer kunt u de testprofielen gebruiken in het product. Met dit gebruiksgeval kunt u testprofielen maken die worden gebruikt voor het testen van reizen voordat ze worden gepubliceerd.
 
@@ -88,7 +88,7 @@ Klik op de knop **[!UICONTROL Begin]** om het gebruik te starten.
 
 De volgende informatie is vereist:
 
-1. **Naamruimte**: De  [identiteit ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) naamruimte die wordt gebruikt om de testprofielen uniek te identificeren. Als e-mail bijvoorbeeld wordt gebruikt om de testprofielen te identificeren, moet de naamruimte **Email** worden geselecteerd. Als het unieke herkenningsteken het telefoonaantal is, dan zou de identiteit namespace **Telefoon** moeten worden geselecteerd.
+1. **Naamruimte**: De  [identiteit ](../get-started-identity.md) naamruimte die wordt gebruikt om de testprofielen uniek te identificeren. Als e-mail bijvoorbeeld wordt gebruikt om de testprofielen te identificeren, moet de naamruimte **Email** worden geselecteerd. Als het unieke herkenningsteken het telefoonaantal is, dan zou de identiteit namespace **Telefoon** moeten worden geselecteerd.
 
 2. **CSV-bestand**: Een door komma&#39;s gescheiden bestand met de lijst testprofielen die moeten worden gemaakt. De gebruikscase verwacht een vooraf gedefinieerde indeling voor het CSV-bestand dat de lijst met testprofielen bevat die moet worden gemaakt. Elke rij in het bestand moet de volgende velden in de juiste volgorde bevatten:
 
@@ -171,11 +171,11 @@ In Adobe Experience Platform kunt u profielen maken door een CSV-bestand met de 
 Uw testprofielen worden toegevoegd en kunnen nu worden gebruikt bij het testen van een reis. Zie [deze sectie](../building-journeys/testing-the-journey.md).
 >[!NOTE]
 >
-> Raadpleeg de [documentatie over gegevensinname](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials) voor meer informatie over csv-import.
+> Voor meer informatie over csv-import raadpleegt u de [documentatie over gegevensinsluiting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target=&quot;_blank&quot;}.
 
 ## Testprofielen maken met behulp van API-aanroepen{#create-test-profiles-api}
 
-U kunt testprofielen ook maken via API-aanroepen. Meer informatie vindt u op deze [pagina](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
+U kunt testprofielen ook maken via API-aanroepen. Meer informatie vindt u in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
 
 U moet een profielschema gebruiken dat de het gebiedsgroep van &quot;de testdetails van het Profiel&quot;bevat. De markering testProfile maakt deel uit van deze veldgroep.
 Wanneer u een profiel maakt, moet u de waarde doorgeven: testProfile = true.
