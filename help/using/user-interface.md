@@ -5,9 +5,9 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1211'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ Blader naar [Adobe Experience Cloud](http://experience.adobe.com) als u eenmaal 
 
 >[!NOTE]
 >
->* Belangrijke concepten bij het bladeren in de gebruikersinterface zijn gebruikelijk voor Adobe Experience Platform. Raadpleeg [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=en#adobe-experience-platform-ui-guide) voor meer informatie.
+>* Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Raadpleeg [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=en#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} voor meer informatie.
    >
    >
 * Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
@@ -61,31 +61,31 @@ U vindt onder de volledige lijst met services en mogelijkheden in de linkernavig
 
 **[!UICONTROL DATA MANAGEMENT]**
 
-* **[!UICONTROL Schemas]** - Gebruik Adobe Experience Platform om schema&#39;s van het Model van de Gegevens van de Ervaring (XDM) in een interactief visueel canvas tot stand te brengen en te beheren genoemd de Redacteur van het Schema. [Meer informatie in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html)
+* **[!UICONTROL Schemas]** - Gebruik Adobe Experience Platform om schema&#39;s van het Model van de Gegevens van de Ervaring (XDM) in een interactief visueel canvas tot stand te brengen en te beheren genoemd de Redacteur van het Schema. [Meer informatie in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html){target=&quot;_blank&quot;}
 
-* **[!UICONTROL Datasets]** - Alle gegevens die in Adobe Experience Platform worden opgenomen, blijven bestaan in het Data Lake als datasets. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat. [Leer hoe u een gegevensset voorvertoont en maakt in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html)
+* **[!UICONTROL Datasets]** - Alle gegevens die in Adobe Experience Platform worden opgenomen, blijven bestaan in het Data Lake als datasets. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat. [Leer hoe u een gegevensset in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html) kunt voorvertonen en maken {target=&quot;_blank&quot;}
 
-* **[!UICONTROL Queries]** - Gebruik Adobe Experience Platform Query Service om query&#39;s te schrijven en uit te voeren, eerder uitgevoerde query&#39;s weer te geven en toegang te krijgen tot query&#39;s die zijn opgeslagen door gebruikers binnen uw organisatie. [Meer informatie in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html)
+* **[!UICONTROL Queries]** - Gebruik Adobe Experience Platform Query Service om query&#39;s te schrijven en uit te voeren, eerder uitgevoerde query&#39;s weer te geven en toegang te krijgen tot query&#39;s die zijn opgeslagen door gebruikers binnen uw organisatie. [Meer informatie in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/ui/overview.html){target=&quot;_blank&quot;}
 
-* **[!UICONTROL Monitoring]** - Gebruik dit menu om uw gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. [Meer informatie in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html)
+* **[!UICONTROL Monitoring]** - Gebruik dit menu om uw gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. [Meer informatie in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html){target=&quot;_blank&quot;}
 
 **[!UICONTROL CONNECTIONS]**
 
-* **[!UICONTROL Sources]** - Gebruik dit menu om gegevens uit diverse bronnen in te voeren, zoals Adobe-toepassingen, opslag in de cloud, databases en meer, en om inkomende gegevens te structureren, labelen en verbeteren. [Meer informatie in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)
+* **[!UICONTROL Sources]** - Gebruik dit menu om gegevens uit diverse bronnen in te voeren, zoals Adobe-toepassingen, opslag in de cloud, databases en meer, en om inkomende gegevens te structureren, labelen en verbeteren. [Meer informatie in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html){target=&quot;_blank&quot;}
 
 **[!UICONTROL CUSTOMER]**
 
 * **[!UICONTROL Segments]** - Maak en beheer Experience Platforms segmentdefinities en gebruik deze voor uw reizen. Meer informatie op [deze pagina](segment/about-segments.md)
 
-* **[!UICONTROL Profiles]** - Het profiel van de Klant in real time leidt tot een holistische mening van elk van uw individuele klanten, die gegevens van veelvoudige kanalen met inbegrip van online, off-line, CRM, en derdegegevens combineren. [Meer informatie in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html)
+* **[!UICONTROL Profiles]** - Het profiel van de Klant in real time leidt tot een holistische mening van elk van uw individuele klanten, die gegevens van veelvoudige kanalen met inbegrip van online, off-line, CRM, en derdegegevens combineren. [Meer informatie in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html){target=&quot;_blank&quot;}
 
-* **[!UICONTROL Identities]** - Adobe Experience Platform Identity Service beheert de identificatie van uw klanten over het hele apparaat, over het kanaal en bijna in realtime in een identiteitsgrafiek in Adobe Experience Platform. [Leer hoe u een naamruimte voor identiteiten maakt in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#manage-namespaces)
+* **[!UICONTROL Identities]** - Adobe Experience Platform Identity Service beheert de identificatie van uw klanten over het hele apparaat, over het kanaal en bijna in realtime in een identiteitsgrafiek in Adobe Experience Platform. [Leer hoe u een naamruimte voor identiteit maakt in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#manage-namespaces){target=&quot;_blank&quot;}
 
 **[!UICONTROL ADMINISTRATION]**
 
 * **[!UICONTROL Journey Administration]** - Gebruik dit menu om  [gebeurtenissen](event/about-events.md),  [gegevensbronnen ](datasource/about-data-sources.md) en  [](action/action.md) acties te configureren die u tijdens uw reizen wilt gebruiken.
 
-* **[!UICONTROL Sandboxes]** - Adobe Experience Platform biedt sandboxen die één instantie in afzonderlijke virtuele omgevingen verdelen om toepassingen voor digitale ervaringen te ontwikkelen en te ontwikkelen. [Meer informatie over sandboxen vindt u in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html)
+* **[!UICONTROL Sandboxes]** - Adobe Experience Platform biedt sandboxen die één instantie in afzonderlijke virtuele omgevingen verdelen om toepassingen voor digitale ervaringen te ontwikkelen en te ontwikkelen. [Meer informatie over sandboxen vindt u in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target=&quot;_blank&quot;}
 
 
 ## Gebruiksgevallen in producten
