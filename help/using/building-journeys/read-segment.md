@@ -1,18 +1,18 @@
 ---
-title: Een segment gebruiken tijdens een rit
+title: Een segment gebruiken in een journey
 description: Leer hoe u een segment kunt gebruiken tijdens een reis
 feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 4%
+source-wordcount: '952'
+ht-degree: 5%
 
 ---
 
-# Een segment gebruiken tijdens een rit {#segment-trigger-activity}
+# Een segment gebruiken in een journey {#segment-trigger-activity}
 
 ## Informatie over de activiteit Leessegment {#about-segment-trigger-actvitiy}
 
@@ -55,6 +55,8 @@ De stappen om de activiteit van het Leessegment te vormen zijn als volgt:
    >[!NOTE]
    >
    >Personen die behoren tot een segment dat niet de geselecteerde identiteit (naamruimte) onder hun verschillende identiteiten heeft, kunnen de reis niet betreden.
+
+1. Definieer in het veld **[!UICONTROL Throttling rate]** de doorvoer van de activiteit van het Leessegment. Deze waarde wordt opgeslagen in de lading van de reisversie. De standaardwaarde is 17,000 en moet tussen 500 en 17000 liggen.
 
 1. Met de **[!UICONTROL Read Segment]**-activiteit kunt u opgeven op welk tijdstip het segment de reis moet betreden. Om dit te doen, klik **[!UICONTROL Edit journey schedule]** verbinding om tot de eigenschappen van de reis toegang te hebben, dan vorm **[!UICONTROL Scheduler type]** gebied.
 
