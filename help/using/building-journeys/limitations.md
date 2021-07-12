@@ -5,9 +5,9 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 12623f6f8a9571673b2b498a02da39608344ef1e
+source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Hier zijn beperkingen met betrekking tot het gebruik van reizen.
 
 * De externe gegevensbronnen kunnen binnen een klantenreis worden gebruikt om externe gegevens in real time op te zoeken. Deze bronnen moeten bruikbaar zijn via REST API, JSON ondersteunen en het volume van aanvragen kunnen verwerken.
 
-## Reizen die tegelijk met een profiel worden gemaakt {#journeys-limitation-profile-creation}
+## Reizen die tegelijkertijd met het maken van een profiel beginnen {#journeys-limitation-profile-creation}
 
 Er is een vertraging verbonden aan het maken/bijwerken van een op API gebaseerd profiel in Adobe Experience Platform. Het doel van het Niveau van de Dienst (SLT) in termen van latentie is &lt; 1 min van opname aan Verenigd Profiel voor 95th percentiel van verzoeken, bij een volume van 20K Verzoeken per seconde (RPS).
 
@@ -68,5 +68,4 @@ U kunt uit één van deze twee oplossingen kiezen:
 
 ## Segmentbeperkingen lezen
 
-* Het is niet mogelijk een op segmenten gebaseerde reis binnen een kortere tijdspanne dan 1 uur te activeren.
 * De stromen segmenten zijn altijd bijgewerkt maar de partijsegmenten zullen niet bij herwinningstijd worden berekend. Ze worden alleen elke dag geëvalueerd op het tijdstip van de dagelijkse batchevaluatie.
