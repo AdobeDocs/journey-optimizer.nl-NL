@@ -6,16 +6,16 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Beginner
-source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
+source-git-commit: 761241c0a09e0a3954b42688c4a0bb7f1571b716
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 9%
+ht-degree: 11%
 
 ---
 
 # Adobe [!DNL Journey Optimizer] Documentatie {#cjm-documentation}
 
-![](using/assets/do-not-localize/banner-cjm.png)
+![](using/assets/do-not-localize/banner-cjm.jpg)
 
 
 <table style="table-layout:fixed">
@@ -43,7 +43,7 @@ ht-degree: 9%
     <p>Leer hoe u push- en e-mailberichten kunt toevoegen aan uw klantenreizen
     <p>
     <div>
-    <a href="using/building-journeys/journeys-uc.md">Uw eerste reis maken</a>
+    <a href="using/building-journeys/journeys-uc.md">Uw eerste journey maken</a>
     </div>
     <p>Leer hoe u een reis bouwt en uitvoert
     <p>
