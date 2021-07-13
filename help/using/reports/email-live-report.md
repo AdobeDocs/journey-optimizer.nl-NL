@@ -5,14 +5,14 @@ feature: Rapportage
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
 
 ---
 
-# Live-rapport via e-mail {#email-live-report}
+# Live-melding via e-mail {#email-live-report}
 
 De e-mail **[!UICONTROL Live report]** richt slechts een specifieke e-maillevering.
 
@@ -21,6 +21,8 @@ Selecteer **[!UICONTROL Live view]** op het tabblad **[!UICONTROL Executions]** 
 ![](../assets/live_report.png)
 
 Het e-mailbericht **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw levering worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Voor meer informatie hierover raadpleegt u deze [sectie](live-report.md#modify-dashboard).
+
+![](../assets/live_report_5.png)
 
 **[!UICONTROL Email performance]** en  **[!UICONTROL Email summary]** widgets geeft de belangrijkste informatie met betrekking tot uw bericht met een grafiek en KPIs:
 
@@ -43,6 +45,8 @@ De grafiek **[!UICONTROL Sending Statistics]** geeft het succes van uw levering 
 * **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
+
+![](../assets/live_report_6.png)
 
 Met de grafiek en tabel **[!UICONTROL Error Reasons]** kunt u zien welke fout is opgetreden tijdens de levering.
 
