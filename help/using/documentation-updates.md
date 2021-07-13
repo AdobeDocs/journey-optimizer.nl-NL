@@ -1,10 +1,10 @@
 ---
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
-source-git-commit: 8ef68f64f8ef354bced99f0eaada78be22488920
+source-git-commit: 6c69bbb06de57c62d8894b451d9dab9b318c8ebc
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 15%
+source-wordcount: '207'
+ht-degree: 14%
 
 ---
 
@@ -16,8 +16,9 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 ## Juli 2021
 
 * Directe verbindingen aan de documentatie van de diensten van het Experience Platform in [!DNL Journey Optimizer] homepage en inhoudstafel toegevoegd
+* Nieuwe bestemmingspagina&#39;s voor de diensten van het Experience Platform beschikbaar in [!DNL Journey Optimizer]
 * Koppelingen naar de productbeschrijving van [!DNL Journey Optimizer] op de startpagina toegevoegd
-* Video&#39;s met zelfstudies toegevoegd op documentpagina&#39;s
+* Videozelfstudie toegevoegd op meerdere pagina&#39;s
 * Geoptimaliseerde homepage-images
 * Verplaatst, verbeterd en de naam van de sectie &#39;Bericht bijhouden&#39; is gewijzigd in &#39;Koppelingen toevoegen en berichten bijhouden&#39;. [Meer informatie](message-tracking.md)
 * Een subsectie toegevoegd op spiegelpagina&#39;s. [Meer informatie](message-tracking.md#mirror-page)
