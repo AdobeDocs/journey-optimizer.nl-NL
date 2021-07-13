@@ -1,12 +1,12 @@
 ---
 solution: Journey Orchestration
-title: Informatie over het configureren van aangepaste acties
+title: Aangepaste acties configureren
 description: Leer hoe u een aangepaste handeling configureert
 feature: Acties
 topic: Beheer
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 9%
@@ -64,7 +64,7 @@ Wanneer het vormen van een douaneactie, moet u de volgende **[!UICONTROL URL Con
    >
    >Kopteksten worden gevalideerd volgens de volgende [parseringsregels](https://tools.ietf.org/html/rfc7230#section-3.2.4).
 
-## De actieparameters {#define-the-message-parameters} definiëren
+## De actieparameters definiëren {#define-the-message-parameters}
 
 ![](../assets/messageparameterssection.png)
 
