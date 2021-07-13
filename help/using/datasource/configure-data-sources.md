@@ -3,16 +3,16 @@ title: Een gegevensbron configureren
 description: Een databron configureren
 feature: Databronnen
 topic: Beheer
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 265e15f3b56dfac7a5c35bf6817a5ff2da1d744a
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 7%
 
 ---
 
-# Een gegevensbron {#configure-data-source} configureren
+# Een gegevensbron configureren {#configure-data-source}
 
 Dit zijn de belangrijkste stappen voor de configuratie van databronnen:
 
@@ -32,7 +32,7 @@ Dit zijn de belangrijkste stappen voor de configuratie van databronnen:
 
    De databron is nu geconfigureerd en klaar om te worden gebruikt in uw journey’s.
 
-## Veldgroepen {#define-field-groups} definiëren
+## Veldgroepen definiëren {#define-field-groups}
 
 Veldgroepen zijn sets velden die u kunt ophalen van een gegevensbron en gebruiken tijdens een reis.
 
