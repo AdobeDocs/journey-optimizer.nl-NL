@@ -5,36 +5,44 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: 807157d4d6fc1dba018bbe796c8bd213504589dc
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 7%
+source-wordcount: '311'
+ht-degree: 5%
 
 ---
 
 # Selectie van aanbiedingen in beslissingen configureren {#offers-selection-in-activities}
 
-## Over de prioriteit Aanbiedingen {#about-offers-priority}
+Als verscheidene aanbiedingen voor een bepaalde plaatsing verkiesbaar zijn, kunt u de methode kiezen die de beste aanbieding voor elk profiel zal selecteren wanneer het vormen van een besluit (eerder genoemd als aanbiedingsactiviteit). Je kunt voorstellen plaatsen op:
+* Voorstelprioriteit
+* Willekeurige formule
 
-Wanneer meerdere aanbiedingen in aanmerking komen voor een bepaalde plaatsing in een beslissing (voorheen bekend als aanbiedingsactiviteit), worden de aanbiedingen met de hoogste **prioriteit** standaard eerst aan de klanten geleverd. De prioritaire scores van aanbiedingen worden toegewezen wanneer het creëren van een aanbieding (zie [een gepersonaliseerde aanbieding](../offer-library/creating-personalized-offers.md) creëren).
+## Voorstelprioriteit {#about-offers-priority}
+
+Wanneer meerdere aanbiedingen in aanmerking komen voor een bepaalde plaatsing in een beslissing (voorheen bekend als aanbiedingsactiviteit), worden de aanbiedingen met de hoogste **prioriteit** standaard eerst aan de klanten geleverd.
 
 ![](../../assets/offer-priority.png)
 
-Bovendien, staat Journey Optimizer u toe om **rangschikkende formules** tot stand te brengen. Dit zijn formules die bepalen welke aanbieding eerst voor een bepaalde plaatsing moet worden gepresenteerd, in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen.
+De prioritaire scores van aanbiedingen worden toegewezen wanneer het creëren van een aanbieding. Leer hoe u een gepersonaliseerde aanbieding maakt in [deze sectie](../offer-library/creating-personalized-offers.md)).
+
+## Willekeurige formule {#assign-ranking-formula}
+
+Naast het aanbieden van prioriteit, staat Journey Optimizer u toe om **rangschikkende formules te creëren**. Dit zijn formules die bepalen welke aanbieding eerst voor een bepaalde plaatsing moet worden gepresenteerd, in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen.
 
 U kunt bijvoorbeeld de prioriteit verhogen van alle aanbiedingen met een einddatum van minder dan 24 uur, of aanbiedingen verhogen van de categorie &quot;actief&quot; als het interessepunt van het profiel &quot;actief&quot; is.
 
-Raadpleeg [deze sectie](../offer-library/create-ranking-formulas.md) voor meer informatie over het maken van een rangschikkingsformule.
+Leer hoe u een rangschikkingsformule maakt in [deze sectie](../offer-library/create-ranking-formulas.md).
 
-## Een waarderingsformule toewijzen aan een plaatsing {#assign-ranking-formula}
+Zodra een rangschikkende formule is gecreeerd, kunt u het aan een plaatsing in een besluit (dat vroeger als aanbiedingsactiviteit wordt bekend) toewijzen. Volg de onderstaande stappen om dit te doen:
 
-Nadat u een rangschikkingsformule hebt gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Volg de onderstaande stappen om dit te doen:
+1. Maak een beslissing of bewerk een bestaande beslissing. Zie [Besluiten maken](../offer-activities/create-offer-activities.md).
 
-1. Maak een beslissing of bewerk een bestaande beslissing en maak vervolgens de plaatsingen waarin uw aanbiedingen staan (zie [Besluiten maken](../offer-activities/create-offer-activities.md)).
+1. Voeg de plaatsingen toe die uw voorstellen zullen bevatten. Zie [Plaatsen maken](../offer-library/creating-placements.md).
 
-1. Selecteer **[!UICONTROL Ranking]** in de vervolgkeuzelijst voor elke plaatsing.
+1. Voeg voor elke plaatsing een verzameling toe. Zie [Verzamelingen maken](../offer-library/creating-collections.md).
 
-1. Klik op **[!UICONTROL Add ranking]**.
+1. Kies ervoor aanbiedingen te rangschikken op **[!UICONTROL Ranking]** in de vervolgkeuzelijst en klik vervolgens op **[!UICONTROL Add ranking]**.
 
    ![](../../assets/offer-activity-ranking.png)
 
