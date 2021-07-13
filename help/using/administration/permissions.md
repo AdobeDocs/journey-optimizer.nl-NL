@@ -6,7 +6,7 @@ feature: Controlegroepen
 topic: Beheer
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 11%
@@ -39,17 +39,17 @@ Een **[!UICONTROL Product profile]** toewijzen:
 
 1. Selecteer een **[!UICONTROL Product profile]**.
 
-   ![](../assets/access_control_2.png)
+   ![](../assets/do-not-localize/access_control_2.png)
 
 1. Klik op het tabblad **[!UICONTROL Users]** op **[!UICONTROL Add user]**.
 
-   ![](../assets/access_control_3.png)
+   ![](../assets/do-not-localize/access_control_3.png)
 
 1. Typ de naam of het e-mailadres van uw gebruiker en selecteer de gebruiker.
 
    Als de gebruiker niet eerder in [!DNL Admin Console] werd gecreeerd, verwijs naar [gebruikersdocumentatie toevoegen](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
-   ![](../assets/access_control_4.png)
+   ![](../assets/do-not-localize/access_control_4.png)
 
 1. Voer dezelfde stappen uit als hierboven om andere gebruikers toe te voegen aan uw **[!UICONTROL Product profile]**. Klik vervolgens op **[!UICONTROL Save]**.
 
@@ -59,7 +59,7 @@ Raadpleeg de documentatie [Admin Console](https://helpx.adobe.com/enterprise/adm
 
 Wanneer de toegang tot van de instantie, zal uw gebruiker een specifieke mening afhankelijk van de toegewezen toestemmingen in **[!UICONTROL Product profile]** zien. Als de gebruiker niet de juiste toegang tot een eigenschap heeft, zal het volgende scherm verschijnen.
 
-![](../assets/access_control_1.png)
+![](../assets/do-not-localize/access_control_1.png)
 
 ## Een bestaand productprofiel bewerken {#edit-product-profile}
 
@@ -77,23 +77,23 @@ Merk op dat als u een uit-van-de-doos of douane **[!UICONTROL Product profile]**
 
    Op het tabblad **[!UICONTROL Permissions]** wordt de lijst met mogelijkheden weergegeven die van toepassing zijn op het **[!UICONTROL Experience Cloud - Platform powered applications]**-product.
 
-   ![](../assets/access_control_5.png)
+   ![](../assets/do-not-localize/access_control_5.png)
 
 1. Selecteer de **[!UICONTROL Messages]** mogelijkheid.
 
-   ![](../assets/access_control_6.png)
+   ![](../assets/do-not-localize/access_control_6.png)
 
 1. Selecteer in de lijst **[!UICONTROL Available Permission Items]** de machtigingen die u aan uw **[!UICONTROL Product profile]** wilt toewijzen door op de plusknop (+) te klikken.
 
    Hier, voegen wij **[!UICONTROL Publish messages]** toestemming toe.
 
-   ![](../assets/access_control_7.png)
+   ![](../assets/do-not-localize/access_control_7.png)
 
 1. Klik zo nodig onder **[!UICONTROL Included Permission Items]** op het X-pictogram om toestemmingen voor uw productprofiel te verwijderen.
 
 1. Klik op **[!UICONTROL Save]** als u klaar bent.
 
-   ![](../assets/access_control_8.png)
+   ![](../assets/do-not-localize/access_control_8.png)
 
 Indien nodig kunt u ook een nieuw productprofiel met specifieke machtigingen maken. Raadpleeg [Een productprofiel maken](#create-product-profile) voor meer informatie.
 
@@ -113,11 +113,11 @@ Om onze **Reis read-only** **[!UICONTROL product profiles]** te creëren:
 
 1. Klik op **[!UICONTROL New Profile]**.
 
-   ![](../assets/access_control_9.png)
+   ![](../assets/do-not-localize/access_control_9.png)
 
 1. Voeg een **[!UICONTROL Product Profile Name]**, **[!UICONTROL Display Name]** en **[!UICONTROL Description]** voor uw nieuwe **[!UICONTROL product profiles]** toe.
 
-   ![](../assets/access_control_10.png)
+   ![](../assets/do-not-localize/access_control_10.png)
 
 1. Kies in de categorie **[!UICONTROL Notifications]** of gebruikers via e-mail op de hoogte worden gesteld wanneer ze aan dit productprofiel worden toegevoegd of eruit worden verwijderd.
 
@@ -129,17 +129,17 @@ Om onze **Reis read-only** **[!UICONTROL product profiles]** te creëren:
 
    Hier selecteren we de **[!UICONTROL Journeys]** mogelijkheid.
 
-   ![](../assets/access_control_11.png)
+   ![](../assets/do-not-localize/access_control_11.png)
 
 1. Selecteer in de lijst **[!UICONTROL Available Permission Items]** de machtigingen die u aan uw **[!UICONTROL Product profile]** wilt toewijzen door op de plusknop (+) te klikken.
 
    Hier selecteren we **[!UICONTROL View journeys]** en **[!UICONTROL View journeys event, data sources, actions]**.
 
-   ![](../assets/access_control_12.png)
+   ![](../assets/do-not-localize/access_control_12.png)
 
 1. Selecteer de **[!UICONTROL Sandbox access]** mogelijkheid om te kiezen welke zandbak(en) u wilt toewijzen aan uw **[!UICONTROL Product profile]**.
 
-   ![](../assets/access_control_13.png)
+   ![](../assets/do-not-localize/access_control_13.png)
 
 1. Klik onder **[!UICONTROL Available Permissions Items]** op het pluspictogram (+) om sandboxen aan uw profiel toe te wijzen. [Meer informatie over sandboxen](sandboxes.md).
 
