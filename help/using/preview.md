@@ -5,10 +5,10 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ef1d19d6abfccf3455f94b454c9c863396159161
 workflow-type: tm+mt
 source-wordcount: '880'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ Bovendien kunt u uw **Litmus**-account gebruiken in [!DNL Journey Optimizer] om 
 >
 >Wanneer u een bericht voorvertoont of proefdrukken verzendt, worden alleen profielverpersoonlijkingsgegevens weergegeven. Personalisatie op basis van contextgegevens, zoals gebeurtenisinformatie, kan alleen worden getest in het kader van een reis. Leer hoe te om verpersoonlijking in [dit gebruiksgeval](personalization/personalization-use-case.md) te testen.
 
-![](assets/do-not-localize/how-to-video.png) [Leer hoe u uw e-mail in deze video kunt voorvertonen, controleren en publiceren](#video-preview)
+➡️ [Leer hoe u uw e-mail in deze video kunt voorvertonen, controleren en publiceren](#video-preview)
 
 ## Testprofielen selecteren{#select-test-profiles}
 
@@ -168,6 +168,6 @@ Voer vervolgens de onderstaande stappen uit:
 
 ## Hoe kan ik-video{#video-preview}
 
-Leer hoe u het renderen van e-mailberichten in verschillende postvakken kunt testen, hoe u uw persoonlijke e-mails kunt bekijken op basis van testprofielen, proefdrukken kunt verzenden en uw e-mail kunt publiceren.
+Leer hoe u het renderen van e-mailberichten in verschillende postvakken kunt testen, hoe u uw persoonlijke e-mails kunt bekijken op basis van testprofielen, proeven kunt verzenden en uw e-mail kunt publiceren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)
