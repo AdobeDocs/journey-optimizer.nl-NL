@@ -5,7 +5,7 @@ feature: Applicatie-instellingen
 topic: Beheer
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Met [!DNL Journey Optimizer] kunt u voorinstellingen voor berichten instellen di
 
 Nadat berichtvoorinstellingen zijn geconfigureerd, kunt u deze selecteren bij het maken van berichten in de lijst **[!UICONTROL Presets]**.
 
-![](../assets/do-not-localize/how-to-video.png) [Leer hoe u e-mailvoorinstellingen maakt en gebruikt in deze video](#video-presets)
+➡️ [Meer informatie over het maken en gebruiken van e-mailvoorinstellingen in deze video](#video-presets)
 
 ## Een berichtvoorinstelling maken {#create-message-preset}
 
