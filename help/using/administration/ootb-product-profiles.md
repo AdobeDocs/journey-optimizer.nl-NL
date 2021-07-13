@@ -14,16 +14,16 @@ snippet: y
 exl-id: null
 feature: Controlegroepen
 topic: Beheer
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 6%
 
 ---
 
-# Ingebouwde productprofielen {#ootb-product-profiles}
+# Geïntegreerde productprofielen {#ootb-product-profiles}
 
 ## Reisbeheerder {#journey-administrator}
 
@@ -81,7 +81,7 @@ Dit productprofiel bevat de volgende toestemmingen:
 |Berichten| <ul><li>**Berichten** weergeven: alleen-lezen toegang tot berichten.</li><li>**Berichtenrapport** weergeven: read-only toegang tot berichtrapporten.</li></ul>|
 |Beheer van besluiten | <ul><li>**Besluiten** weergeven: alleen-lezen toegang tot besluitvormingsentiteiten.</li></ul>|
 
-## Berichtbeheer {#message-manager}
+## Berichtenbeheer {#message-manager}
 
 Met het productprofiel **[!UICONTROL Message Manager]** kunnen gebruikers **[!UICONTROL Messages]** en **[!UICONTROL Decision management]** maken en bewerken, maar niet publiceren.
 
