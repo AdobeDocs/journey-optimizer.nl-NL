@@ -5,14 +5,14 @@ feature: Rapportage
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 1%
 
 ---
 
-# Live-rapport {#push-live-report} duwen
+# Live-rapport afdrukken {#push-live-report}
 
 De push **[!UICONTROL Live report]** is slechts gericht op één specifieke pushlevering.
 
@@ -21,6 +21,8 @@ Selecteer **[!UICONTROL Live view]** op het tabblad **[!UICONTROL Executions]** 
 ![](../assets/live_report_2.png)
 
 De push **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw levering worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Voor meer informatie hierover raadpleegt u deze [sectie](live-report.md#modify-dashboard).
+
+![](../assets/live_report_3.png)
 
 **[!UICONTROL Push notification performance]** en  **[!UICONTROL Push notification summary]** widgets geeft de belangrijkste informatie met betrekking tot uw bericht met grafiek en KPIs:
 
@@ -37,6 +39,8 @@ De push **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin
 * **[!UICONTROL Actions]**: Het totale aantal acties op de geleverde pushmelding, bijvoorbeeld klikken op de knop of ontslag.
 
 * **[!UICONTROL Engagements]**: Het totale aantal keren dat wordt geopend en de acties voor deze pushmelding, bijvoorbeeld als het profiel de pushmelding heeft geopend of als op een knop is geklikt.
+
+![](../assets/live_report_4.png)
 
 De **[!UICONTROL Tracking by platform]**-, **[!UICONTROL Sending by platform]**- en **[!UICONTROL Breakdown by platform]**-grafieken en -tabellen geven het succes van uw pushmelding weer, afhankelijk van het besturingssysteem.
 
