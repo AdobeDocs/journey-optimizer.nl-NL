@@ -13,9 +13,9 @@ internal: n
 snippet: y
 feature: Applicatie-instellingen
 topic: Beheer
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 2%
@@ -39,7 +39,7 @@ U kunt de limietdrempel wijzigen met de knop **[!UICONTROL Edit]** in het menu *
 
 ![](../assets/retries-edition.png)
 
-## Duur voor opnieuw proberen van bericht {#retry-duration}
+## Duur voor opnieuw proberen bericht {#retry-duration}
 
 Opnieuw proberen wordt uitgevoerd gedurende **3,5 dagen** vanaf het moment dat het bericht aan de e-mailwachtrij is toegevoegd.
 
