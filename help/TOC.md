@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 7914fd26371b9bd488256cb54f28b2dc5ab3c76b
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 42%
+source-wordcount: '693'
+ht-degree: 45%
 
 ---
 
@@ -16,22 +16,23 @@ ht-degree: 42%
 # [!DNL Journey Optimizer] Help {#using}
 
 + [Journey Optimizer-documentatie](ajo-home.md)
++ [Laatste updates](using/documentation-updates.md)
 + Aan de slag{#get-started}
    + [Wat is Journey Optimizer](using/get-started.md)
    + [Snel starten](using/quick-start.md)
    + [Gebruikersinterface](using/user-interface.md)
 + Berichten {#create-messages}
    + [Aan de slag met berichten](using/get-started-content.md)
-   + Berichten {#create-message} maken
+   + Berichten maken {#create-message}
       + [Een bericht maken](using/create-message.md)
       + [Een e-mail maken](using/create-email.md)
       + [Een pushmelding maken](using/create-push.md)
    + [Elementen toevoegen en beheren](using/assets-essentials.md)
    + E-mails ontwerpen {#email-designer}
       + [Aan de slag met e-mailontwerp](using/design-emails.md)
-      + [Ontwerp uw e-mailinhoud in de gebruikersinterface](using/create-email-content.md)
+      + [E-mailcontent ontwerpen in de gebruikersinterface](using/create-email-content.md)
       + [Uw e-mailinhoud importeren of coderen](using/existing-content.md)
-      + [Componenten voor inhoud van e-mailontwerpers gebruiken](using/content-components.md)
+      + [Onderdelen voor content van e-mailontwerpers gebruiken](using/content-components.md)
    + [Koppelingen toevoegen en berichten bijhouden](using/message-tracking.md)
    + {#create-message} valideren en publiceren
       + [Voorvertoning en proefdrukken](using/preview.md)
