@@ -1,20 +1,20 @@
 ---
 product: adobe campaign
 solution: Journey Optimizer
-title: Integratie met externe systemen
-description: Leer de beste werkwijzen bij het integreren van externe systemen
+title: Journey Optimizer integreren met externe systemen
+description: Leer de beste praktijken bij het integreren van Journey Optimizer met externe systemen
 feature: Journey Optimizer
 role: User
 level: Beginner
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1038'
 ht-degree: 1%
 
 ---
 
-# Integratie met externe systemen {#external-systems}
+# Integreren met externe systemen {#external-systems}
 
 Deze pagina bevat de verschillende instructies die Journey Optimizer biedt bij de integratie van een extern systeem, en de aanbevolen procedures: hoe u de beveiliging van uw externe systeem kunt optimaliseren met behulp van de API voor aftopping, hoe u de time-out van de reis kunt configureren en hoe nieuwe pogingen werken.
 
