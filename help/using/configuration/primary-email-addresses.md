@@ -13,9 +13,9 @@ internal: n
 snippet: y
 feature: Applicatie-instellingen
 topic: Beheer
-role: Administrator
+role: Admin
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 7%
@@ -30,7 +30,7 @@ Wanneer u een profiel als doel instelt, zijn mogelijk verschillende e-mailadress
 Met Journey Optimizer kunt u bepalen welk e-mailadres u wilt gebruiken via de profielservice en u kunt prioriteiten bepalen wanneer verschillende adressen beschikbaar zijn. Ga als volgt te werk om dit te doen:
 
 1. Open het **[!UICONTROL Channels]** `>` **[!UICONTROL General]** menu.
-1. Het veld dat momenteel standaard wordt gebruikt om de e-mailadressen van de profielen te bepalen, wordt in dit scherm weergegeven. Klik **[!UICONTROL Edit]** om het te veranderen.
+1. Het veld dat standaard wordt gebruikt om de e-mailadressen van de profielen te bepalen, wordt in dit scherm weergegeven. Klik **[!UICONTROL Edit]** om het te veranderen.
 
    ![](../assets/primary-address.png)
 
