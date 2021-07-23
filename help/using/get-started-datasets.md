@@ -4,10 +4,10 @@ description: Meer informatie over het gebruik van Adobe Experience Platform-gege
 feature: Gegevenssets
 role: User
 level: Beginner
-source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 0%
+source-wordcount: '259'
+ht-degree: 12%
 
 ---
 
@@ -32,13 +32,13 @@ De stapsgewijze documentatie om een Csv- dossier aan een Schema toe te wijzen XD
 
 ## Hoe kan ik-video{#video-dataset}
 
-Leer hoe te om een dataset tot stand te brengen, het in kaart te brengen aan een schema, gegevens aan het toe te voegen, en te bevestigen dat de gegevens zijn opgenomen.
+Leer hoe u een dataset maakt, deze toewijst aan een schema, er gegevens aan toevoegt en bevestigt dat de gegevens zijn opgenomen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 **Zie ook**
 
 * [Creeer een schema, een dataset en ga gegevens in om de profielen van de Test in Journey Optimizer toe te voegen](building-journeys/creating-test-profiles.md)
-* [Overzicht](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html) van streaming opname{target=&quot;_blank&quot;}
-* [Gegevens opnemen in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=en){target=&quot;_blank&quot;}
+* [Overzicht](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl) van streaming opname{target=&quot;_blank&quot;}
+* [Gegevens opnemen in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}
 
