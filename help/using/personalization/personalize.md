@@ -5,10 +5,10 @@ feature: Personalisatie
 topic: Personalisatie
 role: Data Engineer
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 2%
+source-wordcount: '664'
+ht-degree: 6%
 
 ---
 
@@ -90,7 +90,7 @@ In de interface van de uitdrukkingsredacteur, zult u, alle gegevens selecteren s
 In het linkergedeelte van het scherm wordt een domeinkiezer weergegeven waarmee u de bron voor personalisatie kunt selecteren. Beschikbare bronnen zijn:
 
 * **Profiel** : Hiermee worden alle verwijzingen weergegeven die zijn gekoppeld aan het profielschema dat wordt beschreven in de  [Adobe Experience Platform Data Model (XDM)-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
-* **Segmentlidmaatschap** : maakt een lijst van alle segmenten die in de dienst van de Segmentatie van Adobe Experience Platform worden gecreeerd. Meer informatie over beschikbare segmentatie [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en){target=&quot;_blank&quot;}.
+* **Segmentlidmaatschap** : maakt een lijst van alle segmenten die in de dienst van de Segmentatie van Adobe Experience Platform worden gecreeerd. Meer informatie over beschikbare segmentatie [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;}.
 * **Voorstellen** : geeft een overzicht van alle aanbiedingen verbonden aan een specifieke plaatsing. Selecteer de plaatsing en voeg de aanbiedingen in uw inhoud in. Raadpleeg [deze sectie](../deliver-personalized-offers.md) voor een volledige documentatie over het beheren van aanbiedingen.
 * **Context** : wanneer de activiteit van het  **** Overseinen in een reis wordt gebruikt, zijn de contextuele reisgebieden beschikbaar in dit menu. Meer informatie vindt u in [deze sectie](personalization-use-case.md).
 * **Helperfuncties** : Hiermee worden alle hulpfuncties weergegeven die beschikbaar zijn om bewerkingen uit te voeren op gegevens, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en deze te manipuleren in de context van personalisatie. Meer informatie vindt u in [deze sectie](functions/functions.md).
@@ -107,10 +107,10 @@ In het volgende voorbeeld, laat de uitdrukkingsredacteur u de profielen selecter
 
 ## Instructievideo&#39;s{#video-perso}
 
-Leer hoe u contextuele gebeurtenisinformatie van een reis kunt gebruiken om een bericht aan te passen.
+Leer hoe u contextuele gebeurtenisinformatie van een journey kunt gebruiken om een bericht te personaliseren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-Leer hoe u contextuele gebeurtenisinformatie van een reis kunt gebruiken om een bericht aan te passen.
+Leer hoe u contextuele gebeurtenisinformatie van een journey kunt gebruiken om een bericht te personaliseren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
