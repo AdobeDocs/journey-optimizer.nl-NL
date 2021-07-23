@@ -5,9 +5,9 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: af60022d99c3f881b8d932682e92ed142deb75d2
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1093'
 ht-degree: 8%
 
 ---
@@ -18,7 +18,7 @@ Blader naar [Adobe Experience Cloud](http://experience.adobe.com) als u eenmaal 
 
 >[!NOTE]
 >
->* Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Raadpleeg [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html?lang=en#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} voor meer informatie.
+>* Belangrijke concepten bij het bladeren in de gebruikersinterface zijn gebruikelijk voor Adobe Experience Platform. Raadpleeg [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} voor meer informatie.
    >
    >
 * Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
