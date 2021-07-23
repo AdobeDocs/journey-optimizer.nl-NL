@@ -5,10 +5,10 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 6%
+source-wordcount: '401'
+ht-degree: 8%
 
 ---
 
@@ -34,9 +34,9 @@ Voordat u met het gebruik van [!DNL Adobe Journey Optimizer] begint, moet u:
 
 * **Identificeer gegevens en creeer schema en dataset**: U kunt uw gegevens in Adobe Experience Platform ophalen, een naamruimte voor identiteiten maken en een gegevensset voor profielen maken, segmenten en testprofielen maken.
 
-   * Leer hoe te voorproef en een dataset in [Adobe Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html){target=&quot;_blank&quot; te creëren
+   * Leer hoe te voorproef en een dataset in [Adobe Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=nl){target=&quot;_blank&quot; te creëren
 
-   * Leer hoe te om een identiteit te creëren namespace in [Adobe Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en#manage-namespaces){target=&quot;_blank&quot;}
+   * Leer hoe te om een identiteit te creëren namespace in [Adobe Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces){target=&quot;_blank&quot;}
 
    * Leer hoe u testprofielen maakt op [deze pagina](../using/building-journeys/creating-test-profiles.md)
 
