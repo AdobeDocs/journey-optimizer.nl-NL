@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7914fd26371b9bd488256cb54f28b2dc5ab3c76b
+source-git-commit: 35536a6661983bc4b94336a0ffa088de3f4ca919
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '692'
 ht-degree: 45%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 45%
    + Beslissingen nemen en beheren {#create-manage-activities}
       + [Beslissingen nemen](using/offers/offer-activities/create-offer-activities.md)
       + [Selectie van aanbiedingen in beslissingen configureren](using/offers/offer-activities/configure-offer-selection.md)
-   + Beslissingsbeheerrapporten maken {create-reports}
+   + Beslissingsbeheerrapporten maken {#create-reports}
       + [Aan de slag met besluitvormingsgebeurtenissen](using/offers/reports/get-started-events.md)
       + [Belangrijke informatie over gebeurtenissen met betrekking tot Beslissingsbeheer](using/offers/reports/key-information.md)
       + [Toegang tot gebeurtenissen van XDM-velden](using/offers/reports/xdm-fields.md)
