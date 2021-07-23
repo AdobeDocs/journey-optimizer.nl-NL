@@ -4,9 +4,9 @@ description: Meer informatie over het gebruik van Adobe Experience Platform-sche
 feature: Schemas
 role: User
 level: Beginner
-source-git-commit: 8c25f548c59fae48dc627de21495474f14bb2614
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '319'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Met de **Schemas**-werkruimte in de [!DNL Adobe Journey Optimizer]-gebruikersint
 
 ![](assets/schemas-home.png)
 
-Leer hoe te om de gebruikersinterface van Schema&#39;s in [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en){target=&quot;_blank&quot; te gebruiken
+Leer hoe te om de gebruikersinterface van Schema&#39;s in [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot; te gebruiken
 
 De stapsgewijze documentatie om een schema tot stand te brengen gebruikend de Redacteur van het Schema is beschikbaar in [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html){target=&quot;_blank&quot;}
 
