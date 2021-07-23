@@ -5,9 +5,9 @@ feature: Overzicht
 topic: Contentmanagement
 role: User
 level: Beginner
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '381'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ Voor meer informatie over hoe te om activa te uploaden, verwijs naar [Adobe Expe
 
 1. Selecteer het bestand dat u wilt uploaden. Klik op **[!UICONTROL Upload]** als u klaar bent.
 
-   Raadpleeg deze [pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=en) voor meer informatie over het beheren van uw elementen.
+   Raadpleeg deze [pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html) voor meer informatie over het beheren van uw elementen.
 
 1. Nadat uw element is geüpload, kunt u uw elementen nu in een van uw berichten invoegen via de e-mailontwerper.
 
