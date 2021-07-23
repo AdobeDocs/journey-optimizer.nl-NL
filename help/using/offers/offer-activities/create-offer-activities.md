@@ -5,10 +5,10 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 4%
+source-wordcount: '814'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
 ## De beslissing maken {#create-activity}
 
-1. Heb toegang tot de besluitenlijst, dan klik **[!UICONTROL Create activity]**.
+1. Heb toegang tot de besluitenlijst, dan klik **[!UICONTROL Create decision]**.
 
 1. Geef de naam van het besluit en de begin- en einddatum en -tijd op en klik vervolgens op **[!UICONTROL Next]**.
 
@@ -39,7 +39,7 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
 ## Beslissingsbereik toevoegen {#add-decision-scopes}
 
-1. Sleep een positie uit de lijst om deze aan de beslissing toe te voegen en klik vervolgens op **[!UICONTROL Add collection]**.
+1. Sleep een plaatsing uit de lijst om deze aan de beslissing toe te voegen en klik vervolgens op **[!UICONTROL Add collection]**.
 
    ![](../../assets/activities-placement.png)
 
@@ -83,26 +83,67 @@ Selecteer de fallback-aanbieding die als laatste redmiddel zal worden weergegeve
 
 ## Beslissing bekijken en opslaan {#review}
 
-Als alles correct wordt gevormd en uw besluit klaar is om te worden gebruikt om aanbiedingen aan klanten voor te stellen, klik **[!UICONTROL Finish]**, dan uitgezocht **[!UICONTROL Save and activate]**.
+Als alles behoorlijk wordt gevormd, toont een samenvatting van de beslissingseigenschappen.
 
-U kunt de beslissing ook opslaan als concept, zodat u deze later kunt bewerken en activeren.
+1. Zorg ervoor dat de beslissing klaar is om te worden gebruikt om aanbiedingen aan klanten voor te stellen.
+1. Klik op **[!UICONTROL Finish]**.
+1. Selecteer vervolgens **[!UICONTROL Save and activate]**.
 
-![](../../assets/save-activities.png)
+   ![](../../assets/save-activities.png)
+
+   U kunt de beslissing ook opslaan als concept, zodat u deze later kunt bewerken en activeren.
 
 De beslissing wordt in de lijst weergegeven met de status **[!UICONTROL Live]** of **[!UICONTROL Draft]**, afhankelijk van of u de beslissing hebt geactiveerd in de vorige stap.
 
-Het is nu klaar om te worden gebruikt om aanbiedingen aan klanten te leveren. U kunt het selecteren om zijn eigenschappen te tonen en het uit te geven of te onderdrukken.
+Het is nu klaar om te worden gebruikt om aanbiedingen aan klanten te leveren.
 
-Raadpleeg de volgende secties voor meer informatie over aanbiedingen:
+## Beslissingslijst {#decision-list}
 
-* [Aangepaste aanbiedingen in berichten toevoegen](../../deliver-personalized-offers.md)
-* [Aanbiedingen leveren met behulp van API&#39;s](../api-reference/decisions-api/deliver-offers.md)
+In de beslissingslijst kunt u de beslissing selecteren om de eigenschappen ervan weer te geven. Hiervanaf kunt u het ook bewerken, de status ervan wijzigen (**Concept**, **Live**, **Complete**, **Gearchiveerd**), de beslissing dupliceren of deze verwijderen.
 
-![](../../assets/activities-created.png)
+![](../../assets/decision_created.png)
 
->[!NOTE]
->
->Zodra een besluit is gecreeerd, kunt u zijn naam in de lijst klikken om tot gedetailleerde informatie toegang te hebben, en alle veranderingen visualiseren die aan het gebruikend **[!UICONTROL Change log]** tabel zijn aangebracht. [Meer informatie](../get-started/user-interface.md#changes-log).
+Selecteer de **[!UICONTROL Edit]** knoop om naar de wijze van de beslissingsuitgave terug te keren, waar u [details](#create-activity), [beslissingswerkingsgebied](#add-decision-scopes) en [fallback aanbieding](#add-fallback) kunt wijzigen.
+
+Selecteer een live beslissing en klik op **[!UICONTROL Deactivate]** om de beslissingsstatus weer in te stellen op **[!UICONTROL Draft]**.
+
+Als u de status opnieuw wilt instellen op **[!UICONTROL Live]**, selecteert u de knop **[!UICONTROL Activate]** die nu wordt weergegeven.
+
+![](../../assets/decision_activate.png)
+
+Met de knop **[!UICONTROL More actions]** schakelt u de hieronder beschreven handelingen in.
+
+![](../../assets/decision_more-actions.png)
+
+* **[!UICONTROL Complete]**: de status van de beschikking wordt vastgesteld  **[!UICONTROL Complete]**, hetgeen betekent dat de beschikking niet meer kan worden opgeroepen. Deze handeling is alleen beschikbaar voor geactiveerde beslissingen. De beslissing is nog steeds beschikbaar in de lijst, maar u kunt de status niet terugzetten op **[!UICONTROL Draft]** of **[!UICONTROL Approved]**. U kunt het alleen dupliceren, verwijderen of archiveren.
+
+* **[!UICONTROL Duplicate]**: een besluit met dezelfde eigenschappen, beslissingsbereik en terugvalaanbieding. Standaard heeft het nieuwe besluit de status **[!UICONTROL Draft]**.
+
+* **[!UICONTROL Delete]**: Hiermee verwijdert u de beslissing uit de lijst.
+
+   >[!CAUTION]
+   >
+   >Het besluit en de inhoud ervan zijn niet meer toegankelijk. Deze handeling kan niet ongedaan worden gemaakt.
+   >
+   >Als de beslissing in een ander object wordt gebruikt, kan deze niet worden verwijderd.
+
+* **[!UICONTROL Archive]**: stelt de beslissingsstatus in op  **[!UICONTROL Archived]**. De beslissing is nog steeds beschikbaar in de lijst, maar u kunt de status niet terugzetten op **[!UICONTROL Draft]** of **[!UICONTROL Approved]**. U kunt deze alleen dupliceren of verwijderen.
+
+U kunt ook de status van meerdere beslissingen tegelijk verwijderen of wijzigen door de desbetreffende selectievakjes in te schakelen.
+
+![](../../assets/decision_multiple-selection.png)
+
+Als u de status wilt wijzigen van verschillende beslissingen met verschillende statussen, worden alleen de desbetreffende statussen gewijzigd.
+
+![](../../assets/decision_change-status.png)
+
+Nadat u een beslissing hebt gemaakt, kunt u in de lijst op de naam ervan klikken.
+
+![](../../assets/decision_click-name.png)
+
+Dit laat u toe om tot gedetailleerde informatie voor dat besluit toegang te hebben. Selecteer **[!UICONTROL Change log]** lusje aan [monitor alle veranderingen](../get-started/user-interface.md#changes-log) die aan het besluit zijn aangebracht.
+
+![](../../assets/decision_information.png)
 
 ## Video over zelfstudie {#video}
 
