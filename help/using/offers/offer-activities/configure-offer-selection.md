@@ -5,7 +5,7 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: 807157d4d6fc1dba018bbe796c8bd213504589dc
+source-git-commit: 3db5756236b6ac05d9b95b8b051dd99dc7d5cf7e
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 5%
@@ -24,7 +24,7 @@ Wanneer meerdere aanbiedingen in aanmerking komen voor een bepaalde plaatsing in
 
 ![](../../assets/offer-priority.png)
 
-De prioritaire scores van aanbiedingen worden toegewezen wanneer het creëren van een aanbieding. Leer hoe u een gepersonaliseerde aanbieding maakt in [deze sectie](../offer-library/creating-personalized-offers.md)).
+De prioritaire scores van aanbiedingen worden toegewezen wanneer het creëren van een aanbieding. Leer hoe u een gepersonaliseerde aanbieding maakt in [deze sectie](../offer-library/creating-personalized-offers.md).
 
 ## Willekeurige formule {#assign-ranking-formula}
 
