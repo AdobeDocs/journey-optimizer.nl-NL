@@ -5,10 +5,10 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: dda0f609056ac74e4f1b5b0d6069d4bdc43ccfb6
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 1%
+source-wordcount: '604'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 1%
 Met de aanbiedingsbibliotheek kunt u uw plaatsingen en aanbiedingen op één locatie maken en beheren en hebt u toegang tot alle gemaakte beslissingen (voorheen bekend als aanbiedingsactiviteiten).
 
 Gebruik het **[!UICONTROL Offers]** menu om gepersonaliseerde en terugvalaanbiedingen te beheren, hen in inzamelingen te organiseren, en hen te leveren door besluiten te creëren:
+
+* **[!UICONTROL Overview]**: Nieuw bij  [!DNL Offer Decisioning]? Volg de stappen op het scherm om aan de slag te gaan met het instellen van plaatsingen, aanbiedingen en verzamelingen. Als u al bekend bent met [!DNL Offer Decisioning], krijgt u een overzicht van uw meest recente aanbiedingen, verzamelingen en beslissingen. Zie [Overzicht](#overview).
 
 * **[!UICONTROL Offers]**: Heb toegang tot uw gepersonaliseerde en reserveaanbiedingen of creeer nieuwe degenen. Zie [Een aanbieding maken](../offer-library/creating-personalized-offers.md) en [Een fallback-aanbieding maken](../offer-library/creating-fallback-offers.md).
 
@@ -37,6 +39,30 @@ Gebruik het menu **[!UICONTROL Components]** om de componenten te beheren die no
 * **[!UICONTROL Rankings]**: Opstellen en beheren van rangschikkingsformules om te bepalen welke aanbieding als eerste voor een bepaalde plaatsing moet worden gepresenteerd. Zie [Rangschikkingsformules maken](../offer-library/create-ranking-formulas.md).
 
 ![](../../assets/offer_activities.png)
+
+## Overzicht {#overview}
+
+Als u nog niet eerder [!DNL Offer Decisioning] hebt, vindt u op het tabblad **[!UICONTROL Overview]** een overzicht van de belangrijkste stappen die nodig zijn om uw eerste besluit over de aanbieding te gaan maken.
+
+![](../../assets/overview_onboarding.png)
+
+Volg de stappen op het scherm om plaatsingen, aanbiedingen en verzamelingen te maken.
+
+Zodra u met deze eerste stappen wordt gedaan, wordt u ertoe aangezet om aanbiedingsbesluiten (eerder genoemd geworden aanbiedingsactiviteiten) tot stand te brengen.
+
+![](../../assets/overview_collection-created.png)
+
+>[!NOTE]
+>
+>De belangrijkste stappen om aanbiedingen tot stand te brengen en hen te gebruiken in een besluit worden voorgesteld in [dit sectie](../offer-library/key-steps.md).
+
+Wanneer u vertrouwd bent met [!DNL Offer Decisioning] en u reeds minstens één aanbiedingsbesluit hebt gecreeerd, toont het **[!UICONTROL Overview]** lusje uw meest recente aanbiedingen, inzamelingen en besluiten.
+
+Klik op een voorstel of een beslissing om rechtstreeks toegang te krijgen tot de gegevens van het geselecteerde object.
+
+Klik op de knop **[!UICONTROL View all]** om toegang te krijgen tot de lijst met aanbiedingen, verzamelingen of beslissingen.
+
+![](../../assets/overview_view-all.png)
 
 ## Informatie zoeken en filteren
 
