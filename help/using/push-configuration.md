@@ -5,9 +5,9 @@ feature: Applicatie-instellingen
 topic: Push
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1450'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ Voordat u een mobiele toepassing maakt, moet u ervoor zorgen dat u de juiste geb
 
 >[!CAUTION]
 >
->De duimconfiguratie moet door een deskundige gebruiker worden uitgevoerd. Afhankelijk van uw implementatiemodel en de personen die bij deze implementatie zijn betrokken, moet u mogelijk de volledige set machtigingen toewijzen aan één productprofiel of machtigingen delen tussen de ontwikkelaar van de app en de beheerder **Adobe Journey Optimizer**. Meer informatie over **Adobe Experience Platform Launch** toestemmingen in [deze documentatie](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html?lang=en#platform-launch-permissions){target=&quot;_blank&quot;}.
+>De duimconfiguratie moet door een deskundige gebruiker worden uitgevoerd. Afhankelijk van uw implementatiemodel en de personen die bij deze implementatie zijn betrokken, moet u mogelijk de volledige set machtigingen toewijzen aan één productprofiel of machtigingen delen tussen de ontwikkelaar van de app en de beheerder **Adobe Journey Optimizer**. Meer informatie over **Adobe Experience Platform Launch** toestemmingen in [deze documentatie](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html#platform-launch-permissions){target=&quot;_blank&quot;}.
 
 <!--ou need to your have access to perform following roles :
 
@@ -253,7 +253,7 @@ Nadat u de mobiele app hebt geconfigureerd in zowel Adobe Experience Platform al
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-Voor deze reis aan het werk, moet u een schema tot stand brengen XDM. Voor meer informatie, verwijs naar [XDM documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#schemas-and-data-ingestion){target= &quot;_blank&quot;}.
+Voor deze reis aan het werk, moet u een schema tot stand brengen XDM. Voor meer informatie, verwijs naar [XDM documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target= &quot;_blank&quot;}.
 
 1. Blader in het linkermenu naar **[!UICONTROL Schemas]**.
 
