@@ -1,10 +1,10 @@
 ---
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
-source-git-commit: 6c69bbb06de57c62d8894b451d9dab9b318c8ebc
+source-git-commit: 3d0404651ebd39b29cf3fc64152359e1b5b479f5
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 14%
+source-wordcount: '253'
+ht-degree: 13%
 
 ---
 
@@ -29,6 +29,9 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Voor live reizen worden in het scherm met de reiseigenschappen nu de publicatiedatum en de naam van de gebruiker weergegeven die de reis heeft gepubliceerd. [Meer informatie](building-journeys/journey-gs.md#change-properties)
 * In het scherm van de reislijst, is het filter van het reistype toegevoegd. [Meer informatie](user-interface.md#section_lgm_hpz_pgb)
 * De beperkingen voor de reis zijn bijgewerkt. [Meer informatie](building-journeys/limitations.md)
-* De parameter [!UICONTROL Throttling rate] is in de Gelezen segmentactiviteit geweest. [Meer informatie](building-journeys/read-segment.md#configuring-segment-trigger-activity)
-* Bijgewerkt vormen aanbiedingen selectie in beslissingssectie. [Meer informatie](offers/offer-activities/configure-offer-selection.md)
+* De parameter [!UICONTROL Throttling rate] is toegevoegd in de Gelezen segmentactiviteit. [Meer informatie](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Bijgewerkt &quot;vorm aanbiedingen selectie in besluiten&quot;sectie. [Meer informatie](offers/offer-activities/configure-offer-selection.md)
+* Er is een waarschuwing toegevoegd om aan te geven dat op gebeurtenissen gebaseerde aanbiedingen momenteel niet worden ondersteund. [Meer informatie](offers/offer-library/creating-personalized-offers.md#eligibility)
+* Het nieuwe tabblad Beslissingsbeheer is gedocumenteerd. [!UICONTROL Overview] [Meer informatie](offers/get-started/user-interface.md#overview)
+* Er zijn nieuwe secties toegevoegd om de acties te beschrijven die beschikbaar zijn op de lijsten met aanbiedingen en besluiten: [Aanbiedingslijst](offers/offer-library/creating-personalized-offers.md#offer-list) en [Beslissingslijst](offers/offer-activities/create-offer-activities.md#decision-list).
  
