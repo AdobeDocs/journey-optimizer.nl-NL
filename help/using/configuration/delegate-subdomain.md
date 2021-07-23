@@ -15,10 +15,10 @@ feature: Applicatie-instellingen
 topic: Beheer
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 29ebb0d8ba228ee8bf430d29f92cc30a9edac69a
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 9%
+source-wordcount: '472'
+ht-degree: 8%
 
 ---
 
@@ -49,7 +49,9 @@ Voer de volgende stappen uit om een nieuw subdomein te delegeren:
 
    >[!CAUTION]
    >
-   >Controleer of u een geldig subdomein hebt ingevoerd, zoals marketing.company.com. Het delegeren van een ongeldig subdomein aan Adobe is niet toegestaan.
+   >Het delegeren van een ongeldig subdomein aan Adobe is niet toegestaan. Zorg ervoor u een geldig subdomein ingaat dat door uw organisatie, zoals marketing.yourcompany.com wordt bezeten.
+   >
+   >Subdomeinen van meerdere niveaus, zoals email.marketing.yourcompany.com, worden momenteel niet ondersteund.
 
 1. De lijst van records die in uw DNS-serverweergaven moeten worden geplaatst. Kopieer deze records één voor één of download een CSV-bestand en navigeer vervolgens naar uw domeinhostingoplossing om de overeenkomende DNS-records te genereren.
 
