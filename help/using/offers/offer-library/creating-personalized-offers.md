@@ -5,9 +5,9 @@ feature: Aanbiedingen
 topic: Integraties
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '1161'
 ht-degree: 1%
 
 ---
@@ -98,6 +98,10 @@ Met de regels en beperkingen voor geschiktheid kunt u bepalen onder welke voorwa
 
    ![](../../assets/offer_rule.png)
 
+   >[!CAUTION]
+   >
+   >Aanbiedingen op basis van gebeurtenissen worden momenteel niet ondersteund in [!DNL Journey Optimizer]. Als u een beslissingsregel creeert die op [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events) {target= &quot;_blank&quot;} wordt gebaseerd, zult u niet het in een aanbieding kunnen hefboomwerking maken.
+
 1. Definieer **[!UICONTROL Priority]** van de aanbieding in vergelijking met andere als de gebruiker voor meer dan één aanbieding in aanmerking komt. Hoe hoger de prioriteit van een aanbieding is, hoe hoger de prioriteit ervan wordt vergeleken met andere aanbiedingen.
 
 1. Geef de **[!UICONTROL Capping]** van de aanbieding op. Dit houdt in dat het aantal keren dat de aanbieding in totaal voor alle gebruikers wordt weergegeven. Als de aanbieding door alle gebruikers is afgeleverd het aantal keren dat u in dit veld hebt opgegeven, wordt de levering gestopt.
@@ -118,19 +122,68 @@ Met de regels en beperkingen voor geschiktheid kunt u bepalen onder welke voorwa
 
 ## Het voorstel bekijken {#review}
 
-Zodra de toelatingsregels en de beperkingen zijn bepaald, toont een samenvatting van de aanbiedingseigenschappen. Als alles correct wordt gevormd en uw aanbieding klaar is om aan gebruikers te worden voorgesteld, klik **[!UICONTROL Finish]**, dan uitgezocht **[!UICONTROL Save and approve]**.
+Zodra de toelatingsregels en de beperkingen zijn bepaald, toont een samenvatting van de aanbiedingseigenschappen.
 
-U kunt het voorstel ook opslaan als concept, zodat u het later kunt bewerken en goedkeuren.
+1. Zorg ervoor alles behoorlijk wordt gevormd.
 
-![](../../assets/offer_review.png)
+1. Wanneer uw aanbieding klaar is om aan gebruikers te worden voorgesteld, klik **[!UICONTROL Finish]**.
 
-De aanbieding wordt in de lijst weergegeven met de status **[!UICONTROL Live]** of **[!UICONTROL Draft]**, afhankelijk van het feit of u de aanbieding hebt goedgekeurd of niet in de vorige stap.
+1. Selecteer **[!UICONTROL Save and approve]**.
 
-Het is nu klaar om aan gebruikers te worden geleverd. U kunt het selecteren om zijn eigenschappen te tonen en het uit te geven of te onderdrukken.
+   ![](../../assets/offer_review.png)
+
+   U kunt het voorstel ook opslaan als concept, zodat u het later kunt bewerken en goedkeuren.
+
+De aanbieding wordt in de lijst weergegeven met de status **[!UICONTROL Approved]** of **[!UICONTROL Draft]**, afhankelijk van het feit of u de aanbieding hebt goedgekeurd of niet in de vorige stap.
+
+Het is nu klaar om aan gebruikers te worden geleverd.
 
 ![](../../assets/offer_created.png)
 
-Zodra een aanbieding is gecreeerd, kunt u zijn naam in de lijst klikken om tot gedetailleerde informatie toegang te hebben, evenals alle veranderingen te controleren die aan het gebruikend **[!UICONTROL Change log]** tabel zijn aangebracht. [Meer informatie](../get-started/user-interface.md#monitoring-changes).
+## Aanbiedingslijst {#offer-list}
+
+In de lijst met aanbiedingen kunt u de aanbieding selecteren om de eigenschappen ervan weer te geven. U kunt het ook uitgeven, zijn status veranderen (**Laag**, **Goedgekeurd**, **Gearchiveerd**), de aanbieding dupliceren, of het schrappen.
+
+![](../../assets/offer_created.png)
+
+Selecteer de **[!UICONTROL Edit]** knoop om naar de wijze van de aanbiedingsuitgave terug te keren, waar u [details](#create-offer), [vertegenwoordiging](#representations) kunt wijzigen, evenals [geschiktheidsregels en beperkingen ](#eligibility) uitgeven.
+
+Selecteer een goedgekeurde aanbieding en klik **[!UICONTROL Undo approve]** om de aanbiedingsstatus terug te plaatsen aan **[!UICONTROL Draft]**.
+
+Als u de status opnieuw wilt instellen op **[!UICONTROL Approved]**, selecteert u de bijbehorende knop die nu wordt weergegeven.
+
+![](../../assets/offer_approve.png)
+
+Met de knop **[!UICONTROL More actions]** schakelt u de hieronder beschreven handelingen in.
+
+![](../../assets/offer_more-actions.png)
+
+* **[!UICONTROL Duplicate]**: een aanbod doet ontstaan met dezelfde eigenschappen, representaties, subsidiabiliteitsregels en beperkingen. Standaard heeft de nieuwe aanbieding de status **[!UICONTROL Draft]**.
+* **[!UICONTROL Delete]**: Hiermee verwijdert u het voorstel uit de lijst.
+
+   >[!CAUTION]
+   >
+   >Het aanbod en de inhoud ervan zijn niet meer toegankelijk. Deze handeling kan niet ongedaan worden gemaakt.
+   >
+   >Indien de aanbieding in een collectie of een beslissing wordt gebruikt, kan zij niet worden geschrapt. U moet het voorstel eerst uit om het even welke voorwerpen verwijderen.
+
+* **[!UICONTROL Archive]**: stelt de aanbiedingsstatus in op  **[!UICONTROL Archived]**. De aanbieding is nog steeds beschikbaar in de lijst, maar u kunt de status niet terugzetten op **[!UICONTROL Draft]** of **[!UICONTROL Approved]**. U kunt deze alleen dupliceren of verwijderen.
+
+U kunt ook de status van meerdere aanbiedingen tegelijk verwijderen of wijzigen door de desbetreffende selectievakjes in te schakelen.
+
+![](../../assets/offer_multiple-selection.png)
+
+Als u de status van meerdere aanbiedingen met verschillende statussen wilt wijzigen, worden alleen de desbetreffende statussen gewijzigd.
+
+![](../../assets/offer_change-status.png)
+
+Nadat u een voorstel hebt gemaakt, kunt u in de lijst op de naam ervan klikken.
+
+![](../../assets/offer_click-name.png)
+
+Op deze manier hebt u toegang tot gedetailleerde informatie voor dat aanbod. Selecteer **[!UICONTROL Change log]** lusje aan [monitor alle veranderingen](../get-started/user-interface.md#monitoring-changes) die aan de aanbieding zijn aangebracht.
+
+![](../../assets/offer_information.png)
 
 ## Video over zelfstudie {#video}
 
