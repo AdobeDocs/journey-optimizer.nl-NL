@@ -5,7 +5,7 @@ feature: Personalisatie
 topic: Personalisatie
 role: Data Engineer
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 7fb159eb495b2ac2c1eded0921b63dbc4bae9cac
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 2%
@@ -33,34 +33,34 @@ Alvorens u begint, zorg ervoor u weet hoe te om deze elementen te vormen:
 
 Voer de volgende stappen uit:
 1. [Maak een e-mailbericht](#configure-email).
-2. [Voeg de voornaam van de klant in hoofdletters](#uppercase-function) in.
-3. [Maak de eerste gebeurtenis en de reis](#create-context).
-4. [Voeg de inhoud van het winkelwagentje toe aan de e-mail](#each-helper).
-5. [Een productspecifieke opmerking](#if-helper) invoegen.
-6. [De journey testen en publiceren](#test-and-publish).
+1. [Voeg de voornaam van de klant in hoofdletters](#uppercase-function) in.
+1. [Maak de eerste gebeurtenis en de reis](#create-context).
+1. [Voeg de inhoud van het winkelwagentje toe aan de e-mail](#each-helper).
+1. [Een productspecifieke opmerking](#if-helper) invoegen.
+1. [De journey testen en publiceren](#test-and-publish).
 
 ## Stap 1: E-mail maken{#configure-email}
 
 1. Maak of wijzig een e-mailbericht en klik op **[!UICONTROL Email Designer]**.
    ![](../assets/personalization-uc-helpers-1.png)
 
-2. Sleep in het linkerpalet van de introductiepagina E-mail Designer drie structuurcomponenten naar de hoofdtekst van het bericht.
+1. Sleep in het linkerpalet van de introductiepagina E-mail Designer drie structuurcomponenten naar de hoofdtekst van het bericht.
 
-3. Sleep een HTML-inhoudscomponent naar elke nieuwe structuurcomponent.
+1. Sleep een HTML-inhoudscomponent naar elke nieuwe structuurcomponent.
 
    ![](../assets/personalization-uc-helpers-2.png)
 
 ## Stap 2: De voornaam van de klant in hoofdletters invoegen {#uppercase-function}
 
 1. Klik op de introductiepagina van E-mail Designer op de HTML-component waar u de voornaam van de klant wilt toevoegen.
-2. Klik op **[!UICONTROL Show the source code]** op de contextuele werkbalk.
+1. Klik op **[!UICONTROL Show the source code]** op de contextuele werkbalk.
 
    ![](../assets/personalization-uc-helpers-3.png)
 
-3. Voeg in het venster **[!UICONTROL Edit HTML]** de tekenreeksfunctie `upperCase` toe:
+1. Voeg in het venster **[!UICONTROL Edit HTML]** de tekenreeksfunctie `upperCase` toe:
    1. Selecteer **[!UICONTROL Helper functions]** in de lijst.
-   2. Gebruik het zoekveld om &quot;hoofdletters&quot; te zoeken.
-   3. Voeg uit de zoekresultaten de functie `upperCase` toe. Klik hiertoe op het plusteken (+) naast `{%= upperCase(string) %}: string`.
+   1. Gebruik het zoekveld om &quot;hoofdletters&quot; te zoeken.
+   1. Voeg uit de zoekresultaten de functie `upperCase` toe. Klik hiertoe op het plusteken (+) naast `{%= upperCase(string) %}: string`.
 
       De redacteur van de Uitdrukking toont deze uitdrukking:
 
@@ -70,11 +70,11 @@ Voer de volgende stappen uit:
 
       ![](../assets/personalization-uc-helpers-4.png)
 
-4. Verwijder de tijdelijke aanduiding &quot;tekenreeks&quot; uit de expressie.
-5. Voeg het voornaamtoken toe:
+1. Verwijder de tijdelijke aanduiding &quot;tekenreeks&quot; uit de expressie.
+1. Voeg het voornaamtoken toe:
    1. Selecteer **[!UICONTROL Profile]** in de lijst.
-   2. Selecteer **[!UICONTROL Profile]** > **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
-   3. Voeg de token **[!UICONTROL First name]** toe aan de expressie.
+   1. Selecteer **[!UICONTROL Profile]** > **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
+   1. Voeg de token **[!UICONTROL First name]** toe aan de expressie.
 
       De redacteur van de Uitdrukking toont deze uitdrukking:
 
@@ -86,29 +86,29 @@ Voer de volgende stappen uit:
 
       Meer informatie over de gegevens van de persoonnaam in [Adobe Experience Plaform documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
 
-6. Klik **[!UICONTROL Validate]**, dan klik **[!UICONTROL Save]**.
+1. Klik **[!UICONTROL Validate]**, dan klik **[!UICONTROL Save]**.
 
    ![](../assets/personalization-uc-helpers-6.png)
-7. Sla het bericht op.
+1. Sla het bericht op.
 
 ## Stap 3: De eerste gebeurtenis en de bijbehorende reis maken {#create-context}
 
 De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom moet u een eerste gebeurtenis en de e-mail aan een reis toevoegen alvorens u kartspecifieke informatie aan e-mail kunt toevoegen.
 
 1. Maak een gebeurtenis waarvan het schema de array `productListItems` bevat.
-2. Definieer alle velden in deze array als payload-velden voor deze gebeurtenis.
+1. Definieer alle velden in deze array als payload-velden voor deze gebeurtenis.
 
    Leer meer over het type van de het puntgegevens van de productlijst in [Adobe Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}.
 
-3. Maak een reis die met deze gebeurtenis begint.
-4. Voeg het bericht aan de reis toe.
-5. Beëindig de reis met een eindactiviteit.
+1. Maak een reis die met deze gebeurtenis begint.
+1. Voeg het bericht aan de reis toe.
+1. Beëindig de reis met een eindactiviteit.
 
    Omdat u het bericht nog niet hebt gepubliceerd, kunt u de reis niet testen of publiceren.
 
    ![](../assets/personalization-uc-helpers-7.png)
 
-6. Klik op **[!UICONTROL OK]**.
+1. Klik op **[!UICONTROL OK]**.
 
    Een bericht deelt u mee dat de reiscontext aan het bericht is overgegaan.
 
@@ -120,15 +120,15 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 
    ![](../assets/personalization-uc-helpers-18.png)
 
-2. Klik op de introductiepagina van E-mail Designer op de HTML-component waar u de inhoud van het winkelwagentje wilt weergeven.
-3. Klik op **[!UICONTROL Show the source code]** op de contextuele werkbalk.
+1. Klik op de introductiepagina van E-mail Designer op de HTML-component waar u de inhoud van het winkelwagentje wilt weergeven.
+1. Klik op **[!UICONTROL Show the source code]** op de contextuele werkbalk.
 
    ![](../assets/personalization-uc-helpers-3.png)
 
-4. Voeg in het venster **[!UICONTROL Edit HTML]** de hulplijn `each` toe:
+1. Voeg in het venster **[!UICONTROL Edit HTML]** de hulplijn `each` toe:
    1. Selecteer **[!UICONTROL Helper functions]** in de lijst.
-   2. Gebruik het zoekveld om &quot;elk&quot; te zoeken.
-   3. Voeg aan de hand van de zoekresultaten de hulplijn `each` toe.
+   1. Gebruik het zoekveld om &quot;elk&quot; te zoeken.
+   1. Voeg aan de hand van de zoekresultaten de hulplijn `each` toe.
 
       De redacteur van de Uitdrukking toont deze uitdrukking:
 
@@ -138,18 +138,18 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 
       ![](../assets/personalization-uc-helpers-9.png)
 
-5. Voeg de array `productListItems` toe aan de expressie:
+1. Voeg de array `productListItems` toe aan de expressie:
 
    1. Verwijder de tijdelijke aanduiding &quot;someArray&quot; uit de expressie.
-   2. Selecteer **[!UICONTROL Context]** in de lijst.
+   1. Selecteer **[!UICONTROL Context]** in de lijst.
 
       De optie **[!UICONTROL Context]** is alleen beschikbaar nadat de reiscontext aan het bericht is doorgegeven.
 
-   3. Selecteer **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]*** en vouw vervolgens het knooppunt **[!UICONTROL productListItems]** uit.
+   1. Selecteer **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]*** en vouw vervolgens het knooppunt **[!UICONTROL productListItems]** uit.
 
       In dit voorbeeld vertegenwoordigt *event_name* de naam van uw gebeurtenis.
 
-   4. Voeg de token **[!UICONTROL Product]** toe aan de expressie.
+   1. Voeg de token **[!UICONTROL Product]** toe aan de expressie.
 
       De redacteur van de Uitdrukking toont deze uitdrukking:
 
@@ -160,16 +160,16 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 
       ![](../assets/personalization-uc-helpers-10.png)
 
-   5. De expressie wijzigen:
+   1. De expressie wijzigen:
       1. Verwijder de tekenreeks &quot;.product&quot;.
-      2. Vervang de tijdelijke aanduiding &quot;variabele&quot; door &quot;product&quot;.
+      1. Vervang de tijdelijke aanduiding &quot;variabele&quot; door &quot;product&quot;.
 
       In dit voorbeeld wordt de gewijzigde expressie getoond:
 
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
-6. Plak deze code tussen de openingstag `{{#each}}` en de afsluitende tag `{/each}}`:
+1. Plak deze code tussen de openingstag `{{#each}}` en de afsluitende tag `{/each}}`:
 
    ```html
    <table>
@@ -183,10 +183,10 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
    </table>
    ```
 
-7. Voeg de personalisatietokens voor de puntnaam, het aantal, en de prijs toe:
+1. Voeg de personalisatietokens voor de puntnaam, het aantal, en de prijs toe:
 
    1. Verwijder de tijdelijke aanduiding &quot;#name&quot; uit de HTML-tabel.
-   2. Voeg uit de vorige zoekresultaten de token **[!UICONTROL Name]** toe aan de expressie.
+   1. Voeg uit de vorige zoekresultaten de token **[!UICONTROL Name]** toe aan de expressie.
 
    Herhaal deze stappen tweemaal:
    * Vervang de tijdelijke aanduiding &quot;#quantity&quot; door de token **[!UICONTROL Quantity]**.
@@ -207,20 +207,20 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
       </table>
    {{/each}}
    ```
-8. Klik **[!UICONTROL Validate]**, dan klik **[!UICONTROL Save]**.
+1. Klik **[!UICONTROL Validate]**, dan klik **[!UICONTROL Save]**.
    ![](../assets/personalization-uc-helpers-11.png)
 
 ## Stap 5: Een productspecifieke notitie invoegen {#if-helper}
 
 1. Klik op de homepage van E-mailontwerper op de HTML-component waar u de notitie wilt invoegen.
-2. Klik op **[!UICONTROL Show the source code]** op de contextuele werkbalk.
+1. Klik op **[!UICONTROL Show the source code]** op de contextuele werkbalk.
 
    ![](../assets/personalization-uc-helpers-3.png)
 
-3. Voeg in het venster **[!UICONTROL Edit HTML]** de hulplijn `if` toe:
+1. Voeg in het venster **[!UICONTROL Edit HTML]** de hulplijn `if` toe:
    1. Selecteer **[!UICONTROL Helper functions]** in de lijst.
-   2. Gebruik het zoekveld om &quot;if&quot; te zoeken.
-   3. Voeg aan de hand van de zoekresultaten de hulplijn `if` toe.
+   1. Gebruik het zoekveld om &quot;if&quot; te zoeken.
+   1. Voeg aan de hand van de zoekresultaten de hulplijn `if` toe.
 
       De redacteur van de Uitdrukking toont deze uitdrukking:
 
@@ -232,7 +232,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
       ```
       ![](../assets/personalization-uc-helpers-12.png)
 
-4. Deze voorwaarde verwijderen uit de expressie:
+1. Deze voorwaarde verwijderen uit de expressie:
 
    ```handlebars
    {%else if condition2%} render_2
@@ -246,14 +246,14 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
    {%/if%}
    ```
 
-5. Voeg de token voor de productnaam toe aan de voorwaarde:
+1. Voeg de token voor de productnaam toe aan de voorwaarde:
    1. Verwijder de tijdelijke aanduiding &quot;condition1&quot; uit de expressie.
-   2. Selecteer **[!UICONTROL Context]** in de lijst.
-   3. Selecteer **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]*** en vouw vervolgens het knooppunt **[!UICONTROL productListItems]** uit.
+   1. Selecteer **[!UICONTROL Context]** in de lijst.
+   1. Selecteer **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]*** en vouw vervolgens het knooppunt **[!UICONTROL productListItems]** uit.
 
       In dit voorbeeld vertegenwoordigt *event_name* de naam van uw gebeurtenis.
 
-   4. Voeg de token **[!UICONTROL Name]** toe aan de expressie.
+   1. Voeg de token **[!UICONTROL Name]** toe aan de expressie.
 
       De redacteur van de Uitdrukking toont deze uitdrukking:
 
@@ -265,7 +265,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
       ```
       ![](../assets/personalization-uc-helpers-13.png)
 
-6. De expressie wijzigen:
+1. De expressie wijzigen:
    1. In de redacteur van de Uitdrukking, specificeer de productnaam na `name` teken.
 
       Gebruik deze syntaxis, waarbij *product_name* de naam van uw product vertegenwoordigt:
@@ -283,7 +283,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
       {%/if%}
       ```
 
-   2. Vervang de tijdelijke aanduiding &quot;render_1&quot; door de tekst van de notitie.
+   1. Vervang de tijdelijke aanduiding &quot;render_1&quot; door de tekst van de notitie.
 
       Voorbeeld:
 
@@ -293,23 +293,23 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
          {%else%} default_render
       {%/if%}
       ```
-   3. Verwijder de tijdelijke aanduiding &quot;default_render&quot; uit de expressie.
-7. Klik **[!UICONTROL Validate]**, dan klik **[!UICONTROL Save]**.
+   1. Verwijder de tijdelijke aanduiding &quot;default_render&quot; uit de expressie.
+1. Klik **[!UICONTROL Validate]**, dan klik **[!UICONTROL Save]**.
 
    ![](../assets/personalization-uc-helpers-14.png)
 
-8. Sla het bericht op en publiceer het.
+1. Sla het bericht op en publiceer het.
 
 ## Stap 6: De reis testen en publiceren {#test-and-publish}
 
 1. Open de reis. Als de reis reeds open is, vernieuw dan de pagina.
-2. Schakel de schakeloptie **[!UICONTROL Test]** in en klik op **[!UICONTROL Trigger an event]**.
+1. Schakel de schakeloptie **[!UICONTROL Test]** in en klik op **[!UICONTROL Trigger an event]**.
 
    U kunt de testmodus pas inschakelen nadat u het bericht hebt gepubliceerd.
 
    ![](../assets/personalization-uc-helpers-15.png)
 
-3. Voer in het venster **[!UICONTROL Event configuration]** de invoerwaarden in en klik vervolgens op **[!UICONTROL Send]**.
+1. Voer in het venster **[!UICONTROL Event configuration]** de invoerwaarden in en klik vervolgens op **[!UICONTROL Send]**.
 
    De testmodus werkt alleen met testprofielen.
 
@@ -321,7 +321,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 
    ![](../assets/personalization-uc-helpers-17.png)
 
-4. Controleer of er geen fout is en publiceer de reis.
+1. Controleer of er geen fout is en publiceer de reis.
 
 
 ## Verwante onderwerpen
