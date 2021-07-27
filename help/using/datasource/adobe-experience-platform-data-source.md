@@ -5,16 +5,16 @@ feature: Databronnen
 topic: Beheer
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 10%
+source-wordcount: '353'
+ht-degree: 11%
 
 ---
 
 # Adobe Experience Platform-databron {#concept_zrb_nqt_52b}
 
-Adobe Experience Platform-gegevensbron definieert de verbinding met de Real-Time Customer Profile Service. Deze gegevensbron is ingebouwd en vooraf geconfigureerd. Het kan niet worden verwijderd. Deze gegevensbron is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is). Hiermee kunt u de gegevens van het profiel en Events gebruiken. Raadpleeg [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;} voor meer informatie over de realtime klantenprofielservice.
+Adobe Experience Platform-gegevensbron definieert de verbinding met de Real-Time Customer Profile Service. Deze gegevensbron is ingebouwd en vooraf geconfigureerd. Het kan niet worden verwijderd. Deze gegevensbron is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is). Hiermee kunt u de gegevens van het profiel en Events gebruiken. Raadpleeg [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl){target=&quot;_blank&quot;} voor meer informatie over de realtime klantenprofielservice.
 
 >[!NOTE]
 >
@@ -38,7 +38,6 @@ Hier zijn de belangrijkste stappen om gebiedsgroepen aan de ingebouwde gegevensb
 
 1. Selecteer een schema van **[!UICONTROL Schema]** drop-down. In dit veld worden de schema&#39;s voor profiel- en ervaringsgebeurtenissen weergegeven die beschikbaar zijn in Adobe Experience Platform. Schema&#39;s maken wordt niet uitgevoerd in [!DNL Journey Optimizer]. Deze wordt uitgevoerd in Adobe Experience Platform.
 1. Selecteer de velden die u wilt gebruiken.
-1. Definieer de duur van de cache.
 1. Klik op **[!UICONTROL Save]**.
 
 Wanneer u de cursor op de naam van een veldgroep plaatst, ziet u rechts twee pictogrammen. Hiermee kunt u de veldgroep verwijderen en dupliceren. Het pictogram **[!UICONTROL Delete]** is alleen beschikbaar als de veldgroep niet wordt gebruikt in een live of conceptreis (informatie in het veld **[!UICONTROL Used in]**).
