@@ -5,9 +5,9 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '1000'
 ht-degree: 5%
 
 ---
@@ -56,7 +56,13 @@ De stappen om de activiteit van het Leessegment te vormen zijn als volgt:
    >
    >Personen die behoren tot een segment dat niet de geselecteerde identiteit (naamruimte) onder hun verschillende identiteiten heeft, kunnen de reis niet betreden.
 
-1. Definieer in het veld **[!UICONTROL Throttling rate]** de doorvoer van de activiteit van het Leessegment. Deze waarde wordt opgeslagen in de lading van de reisversie. De standaardwaarde is 17,000 en moet tussen 500 en 17000 liggen.
+1. Stel het veld **[!UICONTROL Throttling rate]** in op de productielimiet van de activiteit van het gelezen segment.
+
+   Deze waarde wordt opgeslagen in de lading van de reisversie. De standaardwaarde is 17.000 berichten per seconde. U kunt deze waarde wijzigen van 500 tot 17.000 berichten per seconde.
+
+   >[!NOTE]
+   >
+   >De totale vertragingssnelheid per sandbox is ingesteld op 17.000 berichten per seconde. Daarom voegt de vertragingssnelheid van alle gelezen segmenten die gelijktijdig in de zelfde zandbak lopen tot hoogstens 17.000 berichten per seconde toe. U kunt dit uiteinde niet wijzigen.
 
 1. Met de **[!UICONTROL Read Segment]**-activiteit kunt u opgeven op welk tijdstip het segment de reis moet betreden. Om dit te doen, klik **[!UICONTROL Edit journey schedule]** verbinding om tot de eigenschappen van de reis toegang te hebben, dan vorm **[!UICONTROL Scheduler type]** gebied.
 
