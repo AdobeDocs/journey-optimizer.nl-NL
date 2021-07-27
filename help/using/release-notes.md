@@ -1,10 +1,10 @@
 ---
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
-source-git-commit: 0fb6d8f611a849696d83e0f129e6462431e5fe83
+source-git-commit: 4d3352184aac7fe19096c21650982e29506f2bff
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 12%
+source-wordcount: '233'
+ht-degree: 14%
 
 ---
 
@@ -26,8 +26,25 @@ U kunt ook de nieuwste [Documentatie-updates](documentation-updates.md) raadpleg
 <tr>
 <td>
 <p>Adobe Experience Platform staat u toe om verhoudingen tussen schema's te bepalen om één dataset als raadplegingslijst voor een andere te gebruiken. Journey Optimizer kan nu gebruikmaken van gegevens die afkomstig zijn van een gekoppeld schema.</p>
-<p>Deze gebieden zijn beschikbaar in unitaire gebeurtenisconfiguratie, reisvoorwaarden, berichtverpersoonlijking en douane actieprijdbaarheid.
+<p>Deze gebieden zijn beschikbaar in unitaire gebeurtenisconfiguratie, reisvoorwaarden, berichtverpersoonlijking en douane actieprijdbaarheid.</p>
 <p>Raadpleeg de <a href="event/experience-event-schema.md#leverage_schema_relationships">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Lijst van gewenste personen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu een specifieke verzendende-veilige lijst op het zandbakniveau bepalen om te vermijden verzendend ongewenste e-mail naar uw ontvangers in een het testen milieu bijvoorbeeld.
+</p>
+<p>Raadpleeg de <a href="allow-list.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
