@@ -5,10 +5,10 @@ feature: Databronnen
 topic: Beheer
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: d69779418d50fdc4b75cc777b27a62392d1634a0
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 74%
+source-wordcount: '291'
+ht-degree: 72%
 
 ---
 
@@ -34,5 +34,9 @@ Er zijn twee soorten databronnen:
 * De externe databronnen waarmee u een verbinding met externe systemen kunt definiëren. Dit zijn databronnen die u kunt maken. Zie [deze pagina](../datasource/external-data-sources.md).
 
 Voor elke databron definieert u de informatie die u wilt ophalen met behulp van veldengroepen. Veldengroepen zijn reeksen velden die uit een databron kunnen worden opgehaald. Zie [deze pagina](../datasource/configure-data-sources.md#define-field-groups).
+
+>[!NOTE]
+>
+>Schemarelaties worden nu ondersteund voor gegevensbronnen.
 
 Voor meer informatie over hoe te om een Gegevensbron van Adobe Experience Platform en een externe gegevensbron te vormen en hoe te om gegevens in een reis te vinden en te gebruiken, deze [zelfstudievideo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target= &quot;_blank&quot;} bekijken.
