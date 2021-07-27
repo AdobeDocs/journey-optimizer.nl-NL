@@ -6,9 +6,9 @@ feature: Acties
 topic: Beheer
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: e6d8d8ee637008a886ca308b5b0d9d53d90b11ce
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '594'
 ht-degree: 9%
 
 ---
@@ -74,7 +74,7 @@ Plak in de sectie **[!UICONTROL Action parameters]** een voorbeeld van de JSON-p
 
 >[!NOTE]
 >
->Veldnamen in de payload mogen geen &quot;.&quot; bevatten teken.
+>Veldnamen in de payload mogen geen &quot;.&quot; bevatten teken. Ze kunnen niet beginnen met het teken ‘$’.
 
 U kunt het parametertype definiëren (bijvoorbeeld: tekenreeks, geheel getal, enz.).
 
