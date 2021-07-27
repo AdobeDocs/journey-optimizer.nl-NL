@@ -1,24 +1,24 @@
 ---
-title: Een bericht toevoegen tijdens een rit
-description: Een bericht toevoegen tijdens een rit
+title: Een bericht toevoegen in een journey
+description: Een bericht toevoegen in een journey
 feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: d76eee0efa6735d6d81d7d7c752ed253b4cbebb5
+source-git-commit: 7937c3b7c9247868a7a506991850537493a76cf1
 workflow-type: tm+mt
 source-wordcount: '265'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
-# Een bericht toevoegen tijdens een rit
+# Een bericht toevoegen in een journey
 
 [!DNL Journey Optimizer] berichtmogelijkheden zijn ingebouwd. U hoeft alleen uw inhoud te ontwerpen en uw bericht te publiceren. Zie [deze sectie](../get-started-content.md). Vervolgens voegt u eenvoudig een push- of e-mailbericht toe dat is ontworpen met Journey Optimizer.
 
 Als u een systeem van derden gebruikt om uw berichten te verzenden, kunt u een douaneactie tot stand brengen. Meer informatie vindt u in deze [sectie](../action/action.md).
 
-## Een berichtactiviteit toevoegen
+## Berichtactiviteit toevoegen
 
 1. Zoals altijd, begin uw reis met een gebeurtenis of een **Read Segment** activiteit.
 
