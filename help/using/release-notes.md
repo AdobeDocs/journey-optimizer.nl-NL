@@ -1,9 +1,9 @@
 ---
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
-source-git-commit: cd38b6ec9be0417f5c65e37805c0e7b072d1cb96
+source-git-commit: c9fa07efd03e84bf38fb1d67fabba4b6066c4179
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 13%
 
 ---
@@ -50,21 +50,22 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 ### Verbeteringen
 
-* **Journeys**
-   * De algemene vertragingssnelheid van alle gelezen segmenten die gelijktijdig in dezelfde sandbox worden uitgevoerd, is beperkt tot 17.000 berichten per seconde. [Meer informatie](building-journeys/read-segment.md#configuring-segment-trigger-activity)
-   * Het veld **Cacheduur** is verwijderd uit het configuratievenster van de gegevensbron. [Meer informatie](datasource/about-data-sources.md)
-   * Voor externe gegevensbronnen, wordt een het maximum van 15 vraag per seconde nu automatisch bepaald. [Meer informatie](configuration/external-systems.md#capping)
-   * Voor live reizen worden in het scherm met de reiseigenschappen nu de publicatiedatum en de naam van de gebruiker weergegeven die de reis heeft gepubliceerd. [Meer informatie](building-journeys/journey-gs.md#change-properties)
-   * In het scherm van de reislijst, is het filter van het reistype toegevoegd. [Meer informatie](user-interface.md#section_lgm_hpz_pgb)
-   * De parameter **[!UICONTROL Throttling rate]** is toegevoegd in de Gelezen segmentactiviteit. [Meer informatie](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+**Journeys**
 
-* **Voorvertonen en testen**
-   * Identiteit en naamruimte zijn nu zichtbaar in het scherm **[!UICONTROL Preview]**. [Meer informatie](preview.md#preview-your-messages)
-   * Het aantal teste-mails voor proefdrukken is nu beperkt tot tien.
-   * De tekens die zijn toegestaan voor het **voorvoegsel van de onderwerpregel** in proefdrukken zijn nu beperkt. [Meer informatie](preview.md#send-proofs)
+* De algemene vertragingssnelheid van alle gelezen segmenten die gelijktijdig in dezelfde sandbox worden uitgevoerd, is beperkt tot 17.000 berichten per seconde. [Meer informatie](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Het veld **Cacheduur** is verwijderd uit het configuratievenster van de gegevensbron. [Meer informatie](datasource/about-data-sources.md)
+* Voor externe gegevensbronnen, wordt een het maximum van 15 vraag per seconde nu automatisch bepaald. [Meer informatie](configuration/external-systems.md#capping)
+* Voor live reizen worden in het scherm met de reiseigenschappen nu de publicatiedatum en de naam van de gebruiker weergegeven die de reis heeft gepubliceerd. [Meer informatie](building-journeys/journey-gs.md#change-properties)
+* In het scherm van de reislijst, is het filter van het reistype toegevoegd. [Meer informatie](user-interface.md#section_lgm_hpz_pgb)
+* De parameter **[!UICONTROL Throttling rate]** is toegevoegd in de Gelezen segmentactiviteit. [Meer informatie](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-* **Editor voor persoonlijke expressie**
-   * De naam van de vervolgkeuzelijst met hulplijnen is gewijzigd en de volgorde ervan is gewijzigd.
+**Voorbeeld- en testberichten**
+* Identiteit en naamruimte zijn nu zichtbaar in het scherm **[!UICONTROL Preview]**. [Meer informatie](preview.md#preview-your-messages)
+* Het aantal teste-mails voor proefdrukken is nu beperkt tot tien.
+* De tekens die zijn toegestaan voor het **voorvoegsel van de onderwerpregel** in proefdrukken zijn nu beperkt. [Meer informatie](preview.md#send-proofs)
+
+**Editor voor persoonlijke expressie**
+* De naam van de vervolgkeuzelijst met hulplijnen is gewijzigd en de volgorde ervan is gewijzigd.
 
 ### Oplossingen
 
