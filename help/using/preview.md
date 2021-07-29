@@ -5,9 +5,9 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: ef1d19d6abfccf3455f94b454c9c863396159161
+source-git-commit: b1a0d17a2f36b55b8ef692fa9056989a3884c2a8
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '935'
 ht-degree: 3%
 
 ---
@@ -121,7 +121,13 @@ Als [testprofielen](#select-test-profiles) zijn geselecteerd, kunt u proefdrukke
 
    ![](assets/send-proof-button.png)
 
-1. Selecteer de testprofielen die de proef zullen ontvangen en klik **[!UICONTROL Send proof]**. U kunt desgewenst een voorvoegsel toevoegen aan de onderwerpregel van de proefdruk.
+1. Typ in het venster **[!UICONTROL Send proof]** naast de testprofielen de e-mail van de ontvanger en klik op **[!UICONTROL Add]** om de proefdruk naar uzelf of leden van uw organisaties te verzenden.
+
+   Je kunt maximaal 10 ontvangers toevoegen voor de proefaflevering.
+
+   ![](assets/send-proof-button_2.png)
+
+1. Selecteer vervolgens de testprofielen die de proefdruk ontvangen en klik op **[!UICONTROL Send proof]**. U kunt desgewenst een voorvoegsel toevoegen aan de onderwerpregel van de proefdruk. Alleen alfanumerieke tekens en speciale tekens, bijvoorbeeld . - _ ( ) [ ], zijn toegestaan als voorvoegsel bij de onderwerpregel.
 
    ![](assets/send-proof-select.png)
 
