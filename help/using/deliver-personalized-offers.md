@@ -5,9 +5,9 @@ feature: Journeys
 topic: Contentmanagement
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: a2aed1dbfa53aee6f5fe0aeec52773d22bc4ed29
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Raadpleeg [deze sectie](offers/get-started/starting-offer-decisioning.md) voor m
 
 Voor een **volledig voorbeeld van begin tot eind** die toont hoe te om aanbiedingen te vormen, hen in een besluit te gebruiken en hefboomwerking dit besluit in een e-mail, controleer [dit sectie](offers/offers-e2e.md#insert-decision-in-email).
 
-➡️ [Leer hoe u aanbiedingen kunt toevoegen als personalisatie](#video-offers) (video)
+➡️ [Leer hoe u aanbiedingen kunt toevoegen als personalisatie in deze video](#video-offers)
 
 ## Een beslissing invoegen in een e-mail {#insert-offers}
 
