@@ -15,7 +15,7 @@ feature: Applicatie-instellingen
 topic: Beheer
 role: Admin
 level: Intermediate
-source-git-commit: 83d0cbdb7524f0317bd576ed7c689f9933bb658f
+source-git-commit: 661d43d3a39fcead068562dc6fb567bdc4027432
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 1%
@@ -76,7 +76,7 @@ Voor elk e-mailadres dat wordt vermeld, kunt u **[!UICONTROL Reason]** ook contr
 De mogelijke redenen van een leveringsfout zijn:
 
 | Reden | Beschrijving | Onderdrukkingscategorie |
----------|----------|--------- |
+| --- | --- | --- |
 | **[!UICONTROL Undetermined]** | De stuitreden die van de ontvankelijke Agent van de Overdracht van het domeinbericht (MTA) werd ontvangen kon niet worden geïdentificeerd. | Genegeerd |
 | **[!UICONTROL Invalid Recipient]** | De ontvanger is ongeldig of bestaat niet. | Hard |
 | **[!UICONTROL Soft Bounce]** | De berichtzachte die tegen een andere reden dan de zachte fouten in deze lijst worden vermeld, zoals wanneer het verzenden over het toegestane tarief door ISP wordt geadviseerd. | Zacht |
