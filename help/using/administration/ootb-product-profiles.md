@@ -16,7 +16,7 @@ feature: Controlegroepen
 topic: Beheer
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 4037e90926a19175c1508b78faf2c9167c682458
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 6%
@@ -103,4 +103,4 @@ Dit productprofiel bevat de volgende toestemmingen:
 
 | Capaciteit | Machtigingen|
 |-|-|
-|Beheer van besluiten | <ul><li>**Besluiten** beheren: lezen, maken, bewerken en verwijderen van beslissingsentiteiten.</li><li>**Besluiten** weergeven: alleen-lezen toegang tot beslissingsentiteiten.</li><li>**Beoordelingsstrategieën** beheren: U kunt rapporten met aangepaste berichten lezen, maken, bewerken en verwijderen, en functies voor handelingen gebruiken.</li><li>**Publicatiebeslissingen**: besluitvormingsactiviteiten goedkeuren of niet goedkeuren.</li></ul>|
+|Beheer van besluiten | <ul><li>**Besluiten** beheren: lezen, maken, bewerken en verwijderen van beslissingsentiteiten.</li><li>**Besluiten** weergeven: alleen-lezen toegang tot beslissingsentiteiten.</li><li>**Beoordelingsstrategieën** beheren: U kunt rapporten met aangepaste berichten lezen, maken, bewerken en verwijderen, en functies voor handelingen gebruiken.</li><li>**Publicatiebeslissingen**: beslissingsactiviteiten activeren of deactiveren.</li></ul>|
