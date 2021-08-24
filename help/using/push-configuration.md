@@ -1,14 +1,13 @@
 ---
 title: Configuratie van pushmeldingen
 description: Leer hoe u uw omgeving configureert voor het verzenden van pushmeldingen met Journey Optimizer
-feature: Applicatie-instellingen
-topic: Push
+feature: Toepassingsinstellingen, duwen
 role: Admin
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
