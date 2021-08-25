@@ -1,14 +1,14 @@
 ---
 title: 'Externe databronnen '
 description: Leer hoe u externe databronnen kunt configureren
-feature: Databronnen
-topic: Beheer
+feature: Data Sources
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e6d8d8ee637008a886ca308b5b0d9d53d90b11ce
+source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
 workflow-type: tm+mt
-source-wordcount: '1276'
-ht-degree: 98%
+source-wordcount: '1269'
+ht-degree: 91%
 
 ---
 
@@ -114,10 +114,10 @@ De definitie van het eindpunt dat moet worden aangeroepen om de toegangstoken te
 
 * endpoint: URL om het eindpunt te genereren
 * methode van de HTTP-aanvraag bij het eindpunt (GET of POST)
-* headers: sleutel-/waardeparen die als kopteksten in deze aanvraag moeten worden geïnjecteerd, indien vereist
-* body: beschrijft de hoofdtekst van de aanroep als de methode POST is. We ondersteunen een beperkte hoofdtekststructuur die in bodyParams (sleutel-/waardeparen) wordt gedefinieerd. Het bodyType beschrijft de indeling en versleuteling van de hoofdtekst in de aanroep:
-   * form: betekent dat het contenttype application/x-www-form-urlencoded (charset UTF-8) is en de sleutel-/waardeparen worden geserialiseerd zoals ze zijn: key1=value1&amp;key2=value2&amp;...
-   * json: betekent dat het contenttype application/json is (charset UTF-8) en dat de sleutel-/waardeparen worden geserialiseerd als een json-object zoals het is: _{ “key1”: “value1”, “key2”: “value2”, ...}_
+* kopteksten: sleutel-waarde paren die als kopballen in deze vraag moeten worden geïnjecteerd indien vereist
+* body: beschrijft de hoofdtekst van de aanroep als de methode POST is. Wij steunen een beperkte lichaamsstructuur, die in bodyParams (zeer belangrijke-waardeparen) wordt bepaald. Het bodyType beschrijft de indeling en versleuteling van de hoofdtekst in de aanroep:
+   * &quot;formulier&quot;: betekent dat het inhoudstype application/x-www-form-urlencoded (charset UTF-8) zal zijn en de sleutel-waarde paren zullen in series worden vervaardigd zoals is: key1=value1&amp;key2=value2&amp;..
+   * &quot;json&quot;: betekent dat het inhoudstype application/json (charset UTF-8) zal zijn en de sleutel-waardeparen als json voorwerp in series zullen worden vervaardigd aangezien is: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ..._
 
 De definitie van de manier waarop de toegangstoken in de HTTP-aanvraag van de actie moet worden geïnjecteerd:
 
