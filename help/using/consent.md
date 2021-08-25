@@ -2,12 +2,12 @@
 title: Weigeren beheren
 description: Meer informatie over het beheren van opt-out en privacy
 feature: Journeys
-topic: Contentmanagement
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8798d73ace981c44ef896ac6983b50a14286eb57
+source-git-commit: cdc0909a296799c5c60e854474a23750cf7b1b2f
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '814'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Het is een wettelijke vereiste dat ontvangers de mogelijkheid krijgen om zich af
 Daarom moet u een **unsubscribe verbinding** in elke e-mail altijd omvatten die aan ontvangers wordt verzonden:
 * Nadat u op deze koppeling hebt geklikt, worden de ontvangers naar een bestemmingspagina geleid, inclusief een knop om te bevestigen dat ze het programma willen afsluiten.
 * Nadat u op de knop Weigeren hebt geklikt, wordt een Adobe I/O-aanroep uitgevoerd om de profielgegevens bij te werken met deze gegevens. [Meer weten hierover](#consent-service-api)?
+
+### Koppeling voor annuleren toevoegen {#add-unsubscribe-link}
 
 Voer de onderstaande stappen uit om een koppeling voor afmelden toe te voegen:
 
@@ -87,7 +89,7 @@ Op het tabblad **[!UICONTROL Attributes]** ziet u de waarde voor **[!UICONTROL c
 
 <!--The opt-out URL is resolved upon each recipient receiving the message. It is then personalized with the relevant encrypted parameters (profile ID, profile name, journey ID, sandbox ID, and message execution ID).-->
 
-## Uitschakelen van API-aanroep {#opt-out-api}
+### Uitschakelen van API-aanroep {#opt-out-api}
 
 Nadat de ontvanger heeft opgegeven dat deze niet meer aanwezig is door op de koppeling voor afmelden te klikken, wordt een Adobe I/O-API <!--Consent service API to capture the encrypted data and-->aangeroepen om de voorkeur van het corresponderende profiel bij te werken.
 
@@ -129,6 +131,14 @@ Instantie van aanvraag:
 
 <!--The Consent service /-->[!DNL Journey Optimizer] will <!--decrypt and-->use these parameters to update the corresponding profile's choice.
 <!--and provide an answer back to the landing page.-->
+
+## Eén klik op Weigeren {#one-click-opt-out}
+
+Omdat veel klanten op zoek zijn naar een eenvoudiger proces om hun abonnement op te zeggen, kunt u ook een link met één muisklik toevoegen aan uw e-mailinhoud. Deze verbinding zal uw ontvangers toelaten om van uw mededelingen snel af te zien, zonder aan een landende pagina worden opnieuw gericht waar zij moeten bevestigen het kiezen uit.
+
+Leer hoe te om een opt-out verbinding aan uw berichtinhoud in [deze sectie](message-tracking.md#one-click-opt-out-link) toe te voegen.
+
+Zodra uw bericht door een [reis](building-journeys/journey.md) wordt verzonden, als een ontvanger de opt-out verbinding klikt, wordt hij onmiddellijk verkozen.
 
 ## Koppeling in koptekst opzeggen {#unsubscribe-email}
 
