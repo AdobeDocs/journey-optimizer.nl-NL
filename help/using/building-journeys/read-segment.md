@@ -2,13 +2,13 @@
 title: Een segment gebruiken in een journey
 description: Leer hoe u een segment kunt gebruiken tijdens een reis
 feature: Journeys
-topic: Contentmanagement
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
+source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 5%
+source-wordcount: '997'
+ht-degree: 4%
 
 ---
 
@@ -62,7 +62,7 @@ De stappen om de activiteit van het Leessegment te vormen zijn als volgt:
 
    >[!NOTE]
    >
-   >De totale vertragingssnelheid per sandbox is ingesteld op 17.000 berichten per seconde. Daarom voegt de vertragingssnelheid van alle gelezen segmenten die gelijktijdig in de zelfde zandbak lopen tot hoogstens 17.000 berichten per seconde toe. U kunt dit uiteinde niet wijzigen.
+   >De totale vertragingssnelheid per sandbox is ingesteld op 20.000 berichten per seconde. Daarom voegt de vertragingssnelheid van alle gelezen segmenten die gelijktijdig in de zelfde zandbak lopen tot hoogstens 20.000 berichten per seconde toe. U kunt dit uiteinde niet wijzigen.
 
 1. Met de **[!UICONTROL Read Segment]**-activiteit kunt u opgeven op welk tijdstip het segment de reis moet betreden. Om dit te doen, klik **[!UICONTROL Edit journey schedule]** verbinding om tot de eigenschappen van de reis toegang te hebben, dan vorm **[!UICONTROL Scheduler type]** gebied.
 
