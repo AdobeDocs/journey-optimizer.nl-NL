@@ -1,13 +1,13 @@
 ---
 title: Voorinstellingen voor berichten maken
 description: Leer hoe u berichtvoorinstellingen configureert en controleert
-feature: Applicatie-instellingen
-topic: Beheer
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
+source-git-commit: f52f73b1d7f2ad5a7ebd2e8b23b7c68c4dc99212
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '1206'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,8 @@ Met [!DNL Journey Optimizer] kunt u voorinstellingen voor berichten instellen di
 >[!CAUTION]
 >
 > * Configuratie van voorinstellingen voor berichten is beperkt tot reisbeheerders. [Meer informatie](../administration/ootb-product-profiles.md#journey-administrator)
-   >
-   > 
-* U moet de configuratiestappen E-mail en van de Duw uitvoeren alvorens berichtvoorinstellingen te creëren.
+>
+> * U moet de configuratiestappen E-mail en van de Duw uitvoeren alvorens berichtvoorinstellingen te creëren.
 
 
 Nadat berichtvoorinstellingen zijn geconfigureerd, kunt u deze selecteren bij het maken van berichten in de lijst **[!UICONTROL Presets]**.
@@ -45,7 +44,7 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
    >
    > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook liggend `_`, punt`.` en afbreekstreepje `-` tekens gebruiken.
 
-1. Configureer **e-mail**-instellingen.
+1. Configureer de **e-mail**-instellingen.
 
    ![](../assets/preset-email.png)
 
@@ -57,7 +56,7 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
    * Selecteer het subdomein dat u wilt gebruiken om de e-mails te verzenden. [Meer informatie](about-subdomain-delegation.md)
    * Selecteer de IP-pool die u aan de voorinstelling wilt koppelen. [Meer informatie](ip-pools.md)
-   * Voer de headerparameters in voor de e-mails die u verzendt met de voorinstelling.
+   * Voer de headerparameters in voor de e-mails die u met die voorinstelling hebt verzonden.
 
       >[!CAUTION]
       >
@@ -81,8 +80,17 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
       >
       >Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook liggend `_`, punt`.` en afbreekstreepje `-` tekens gebruiken.
 
+   * Configureer de **e-mailparameters opnieuw proberen**. Standaard is de [retry time period](retries.md#retry-duration) ingesteld op 84 uur, maar u kunt deze instelling aanpassen aan uw wensen.
 
-1. Configureer **pushmelding**-instellingen.
+      ![](../assets/preset-retry-paramaters.png)
+
+      U moet een geheel-getalwaarde (in uren of notulen) binnen de volgende waaier ingaan:
+      * Voor het e-mailtype voor marketing is de minimale herroepingstermijn 6 uur.
+      * Voor transactie-e-mailtype is de minimale herroepingstermijn 10 minuten.
+      * Voor beide e-mailtypen is de maximale hergebruiksperiode 84 uur (of 5040 minuten).
+
+
+1. Configureer de **instellingen voor pushmeldingen**.
 
    ![](../assets/preset-push.png)
 
@@ -110,13 +118,17 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
    * Verificatie van IP-pool
    * A/PTR-record, t/m/res-subdomeinverificatie
 
+   >[!NOTE]
+   >
+   >Als de controles niet succesvol zijn, leer meer over de mogelijke mislukkingsredenen in [deze sectie](#monitor-message-presets).
+
 1. Als de controles zijn voltooid, krijgt de berichtvoorinstelling de status **[!UICONTROL Active]**. Het is klaar om te worden gebruikt om berichten te leveren.
 
    <!-- later on, users will be notified in Pulse -->
 
    ![](../assets/preset-active.png)
 
-## Voorinstellingen voor monitorberichten
+## Voorinstellingen voor monitorberichten {#monitor-message-presets}
 
 Alle voorinstellingen voor berichten worden weergegeven in het menu **[!UICONTROL Channels]** / **[!UICONTROL Message presets]**. Er zijn filters beschikbaar waarmee u door de lijst kunt bladeren (kanaaltype, gebruiker, status).
 
@@ -130,11 +142,29 @@ Voorinstellingen voor berichten kunnen de volgende statussen hebben:
 * **[!UICONTROL Failed]**: Een of meer controles zijn mislukt tijdens de verificatie van de berichtvoorinstelling.
 * **[!UICONTROL De-activated]**: De berichtvoorinstelling is gedeactiveerd. Het kan niet worden gebruikt om nieuwe berichten tot stand te brengen.
 
+Als het maken van een berichtvoorinstelling mislukt, worden de details van elke mogelijke oorzaak van een fout hieronder beschreven.
+
+Als één van deze fouten voorkomt, contacteer [Adobe het Team van de Steun van de Zorg van de Klant ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} om hulp te krijgen.
+
+* **Validatie van SPF is mislukt**: SPF (het Kader van het Beleid van de Afzender) is een e-mailauthentificatieprotocol dat toestaat om erkende IPs te specificeren die e-mails van een bepaald subdomein kunnen verzenden.
+De de bevestigingsmislukking van SPF betekent dat de IP adressen in het SPF- verslag niet de IP adressen aanpassen die voor het verzenden van e-mails naar de brievenbusleveranciers worden gebruikt.
+
+* **DKIM-validatie mislukt**: DKIM staat de ontvankelijke server toe om te verifiëren dat het ontvangen bericht door de echte afzender van het bijbehorende domein werd verzonden en dat de inhoud van het originele bericht niet op zijn manier werd veranderd.
+DKIM-validatiefout betekent dat de ontvangende mailservers de authenticiteit van de berichtinhoud en de koppeling met het verzendende domein niet kunnen verifiëren.
+
+* **Validatie van MX-record mislukt**: MX-fout bij de validatie van records houdt in dat de mailservers die verantwoordelijk zijn voor het accepteren van binnenkomende e-mails namens een bepaald subdomein niet correct zijn geconfigureerd.
+
+* **Leverbaarheidsconfiguraties zijn mislukt**: Vanwege een van de volgende redenen kan een fout optreden in de configuraties van de aflevering:
+   * Voegend op lijst van gewenste personen van toegewezen IPs
+   * Ongeldige naam `helo`
+   * E-mails die worden verzonden vanuit andere IP&#39;s dan die welke zijn opgegeven in de IP-pool van de corresponderende voorinstelling
+   * Kan geen e-mails verzenden naar postvakken van belangrijke ISP&#39;s, zoals Gmail en Yahoo
+
 ## Voorinstellingen voor berichten bewerken
 
 Als u een berichtvoorinstelling wilt bewerken, moet u deze eerst deactiveren zodat deze niet beschikbaar is voor het maken van nieuwe berichten (gepubliceerde berichten met deze voorinstelling worden niet beïnvloed en blijven werken). Vervolgens moet u de berichtvoorinstelling dupliceren om een nieuwe versie te maken waarmee u nieuwe berichten kunt maken:
 
-1. Open de lijst met voorinstellingen voor berichten en deactiveer vervolgens de berichtvoorinstelling die u wilt bewerken.
+1. Open de lijst met voorinstellingen voor berichten en activeer vervolgens de berichtvoorinstelling die u wilt bewerken.
 
    ![](../assets/preset-deactivate.png)
 
@@ -148,7 +178,7 @@ Als u een berichtvoorinstelling wilt bewerken, moet u deze eerst deactiveren zod
 
    >[!NOTE]
    >
-   >Gedetailleerde berichtvoorinstellingen kunnen niet worden verwijderd om problemen te voorkomen tijdens reizen waarbij deze voorinstellingen worden gebruikt om berichten te verzenden.
+   >De-geactiveerde berichtvoorinstellingen kunnen niet worden verwijderd om problemen te voorkomen tijdens reizen waarbij deze voorinstellingen worden gebruikt om berichten te verzenden.
 
 ## Hoe kan ik-video{#video-presets}
 
