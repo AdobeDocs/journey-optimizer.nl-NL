@@ -1,10 +1,10 @@
 ---
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
-source-git-commit: a1800c333bfbee178682d773c729aad7e23d86d0
+source-git-commit: ff48c78cfa5c48f32073e9df1f126504e291ab5a
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 12%
+source-wordcount: '992'
+ht-degree: 9%
 
 ---
 
@@ -13,19 +13,151 @@ ht-degree: 12%
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [!DNL Journey Optimizer]. U kunt ook de nieuwste [Documentatie-updates](documentation-updates.md) raadplegen.
 
-## Release juli 2021 {#july-2021-release}
+
+## Release van augustus 2021 {#august-2021-release}
+
+### Nieuwe functies
 
 <table>
 <thead>
 <tr>
-<th><strong>Schema-relaties benutten</strong><br/></th>
+
+<th><strong>Verzend berichten op het beste ogenblik - Send-Time Optimalisering</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Verzend automatisch uw pushbericht of e-mail op het beste moment voor elke klant die u met Adobe Journey Optimizer werkt. De Optimalisering van de Send-Time, aangedreven door de diensten AI van Adobe, voorspelt de beste tijd om een e-mail of duw bericht te verzenden om overeenkomst te maximaliseren die op historische open wordt gebaseerd en tarieven uit de doos te klikken.</p>
+<p>Deze functie is momenteel in bètaversie beschikbaar voor bètaklanten. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.</p>
+<p>Raadpleeg voor meer informatie de <a href="building-journeys/journeys-message.md#send-time-optimization">gedetailleerde documentatie</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+
+<th><strong>Relaties tussen schema's van de hefboomwerking in bedrijfsgebeurtenissen - het beheer van de opzoeklijst</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform staat u toe om verhoudingen tussen schema's te bepalen om één dataset als raadplegingslijst voor een andere te gebruiken. [!DNL Journey Optimizer] kan nu gebruikmaken van gegevens die afkomstig zijn van een gekoppeld schema.</p>
-<p>Deze gebieden zijn beschikbaar in unitaire gebeurtenisconfiguratie, reisvoorwaarden, berichtverpersoonlijking en douane actieprijdbaarheid.</p>
+<p>U kunt hefboomwerkingsverhoudingen tussen schema's nu wanneer het vormen van een bedrijfsgebeurtenissen. Dit komt naast de capaciteit aan hefboomwerkings gebieden van verbonden lijsten wanneer het vormen van een eenheidsgebeurtenis, wanneer het gebruiken van voorwaarden in een reis, in berichtverpersoonlijking, en in de verpersoonlijking van de douaneactie.</p>
+<p>Raadpleeg voor meer informatie de <a href="event/experience-event-schema.md#leverage_schema_relationships">gedetailleerde documentatie</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Personalized URLs</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Personalized URLs take recipients to specific pages of a website, or to a personalized microsite, depending on the profile attributes. In Adobe Journey Optimizer, you can now add personalization to URLs in your message content. URL personalization can be applied to text and images, and use profile data or contextual data.</p>
+<p>For more information, refer to the <a href="documentation-updates.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Zorg ervoor dat je e-mailberichten naar je gebruikers gaan - Opnieuw e-mailen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt de periode voor het opnieuw proberen nu op een vooraf ingestelde basis bepalen om ervoor te zorgen dat de pogingen voor het opnieuw proberen niet meer worden uitgevoerd wanneer niet meer nodig is. U kunt bijvoorbeeld de periode voor het opnieuw proberen instellen op 24 uur voor een bericht voor het opnieuw instellen van een wachtwoord dat een koppeling bevat die slechts een dag geldig is. Opnieuw proberen is alleen van toepassing op het e-mailkanaal.</p>
+<p>Raadpleeg voor meer informatie de <a href="configuration/retries.md">gedetailleerde documentatie</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Customer Alerts</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now subscribe to event-based alerts regarding Adobe Journey Optimizer activities. The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules.</p>
+<p>This feature is currently in beta version and only available to beta customers. To join the beta program, contact Adobe Customer Care.
+</p>
+<p>For more information, refer to the <a href="https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html">Adobe Experience Platform documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+### Verbeteringen
+
+**Journeys**
+
+* **Dynamische headers**  - U kunt nu dynamische gegevens doorgeven in HTTP-headerparameters. Deze parameters kunnen door de integratiesystemen worden gebruikt die de vraag van HTTP van de reisactie, bijvoorbeeld timestamp of het volgen identiteitskaart ontvangen. [Meer informatie](action/about-custom-action-configuration.md#url-configuration)
+* **Dynamische URL-paden**  - U kunt nu dynamische URL-paden instellen voor aangepaste handelingen. [Meer informatie](action/about-custom-action-configuration.md#url-configuration)
+* De algemene vertragingssnelheid voor gelezen segmenten is veranderd van 17.000 in 20.000 berichten per seconde. [Meer informatie](building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**Gebruikersinterface**
+
+* **Zoeken**  - Op elke pagina, kunt u bedrijfsvoorwerpen en hulpartikelen van het Verenigde Experience Cloud onderzoeksgebied nu direct zoeken. [Meer informatie](user-interface.md#unified-search)
+* **Recenten**  - De weergave van elementen uit de beginpagina van Adobe Journey Optimizer wordt nu uitgebreid naar extra zakelijke objecten. Met deze update, omvatten de kortere weg aan uw onlangs betreden Berichten, Reizen, Segmenten, Schema&#39;s, Datasets, Gegevensbronnen, Gebeurtenissen, Acties, Bronnen, en Doelen. [Meer informatie](action/about-custom-action-configuration.md#passing-collection)
+
+**Inhoud ontwerpen**
+
+* **Achtergrond**  - Achtergrondafbeeldingen worden nu ondersteund in live voorvertoning. [Meer informatie](preview.md)
+* **Een-klik-optie-uit verbinding**  - U kunt een nieuw type verbinding in uw e-mailinhoud opnemen: Met de  **Opt-** outlink kunnen gebruikers zich niet meer abonneren op het ontvangen van uw communicatie met slechts één klik, zonder dat ze opnieuw hoeven te worden omgeleid naar een bestemmingspagina om te bevestigen dat ze de communicatie willen verlaten. [Meer informatie](message-tracking.md#one-click-opt-out-link)
+
+**Personalisatie**
+
+* **De Redacteur**  van de uitdrukking - u kunt nu gemakkelijk een reserve waarde toevoegen wanneer het bepalen van verpersoonlijking: als het verpersoonlijkingsgebied voor een profiel leeg is, zal de reserve waarde tonen. [Meer informatie](documentation-updates.md)
+
+**E-mailconfiguratie**
+
+* **Lijst van gewenste personen**  - De lijst van gewenste personen kan nu op een niet-productiesandbox door een API vraag worden toegelaten en worden onbruikbaar gemaakt. [Meer informatie](allow-list.md#enable-allow-list)
+
+<!--* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+<!--* **Navigation** - The suppression list, which was accessible under the **Channels > Email configuration > General** menu, has been moved to the **Channels > Email configuration > Suppression list** menu for easier access. [Learn more](configuration/manage-suppression-list.md#access-suppression-list)-->
+
+
+### Oplossingen
+
+* Probleem met toegankelijkheid in navigatie op het tabblad Bericht verholpen.
+* Probleem met lokalisatie in de labels van de e-mailontwerper is opgelost.
+* Probleem verholpen wanneer u meerdere knooppunten op een pad selecteert en op Verwijderen klikt in het deelvenster Eigenschappen.
+* Probleem verholpen waarbij geen nieuwe koptekst kon worden toegevoegd aan een actie die tijdens een rit werd gebruikt.
+* U kunt nu nagaan waarom het maken van een berichtvoorinstelling is mislukt door een explicietere waarschuwing in de gebruikersinterface.
+
+
+## Release juli 2021 {#july-2021-release}
+
+### Nieuwe functies
+
+<table>
+<thead>
+<tr>
+<th><strong>Metagegevens in uw berichten gebruiken - tabelbeheer opzoeken</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Verrijk je ervaringen met referentiegegevens die je in Journey Optimizer hebt geladen. Voorbeelden zijn het opzoeken van metagegevens over een reserverings-id in een ervaringsgebeurtenis of het opzoeken van productinformatie van een sku in een ervaringsgebeurtenis voor gebruik op het canvas. </p>
+<p>U kunt hefboomwerkingsverhoudingen tussen schema's nu om één dataset als raadplegingslijst voor een andere te gebruiken. U kunt dan hefboomwerking alle gebieden van de verbonden lijsten wanneer het vormen van een eenheidsgebeurtenis, wanneer het gebruiken van voorwaarden in een reis, in berichtverpersoonlijking, en in de verpersoonlijking van de douaneactie.</p>
 <p>Raadpleeg voor meer informatie de <a href="event/experience-event-schema.md#leverage_schema_relationships">gedetailleerde documentatie</a>.</p>
 </td>
 </tr>
@@ -50,7 +182,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 ### Verbeteringen
 
-**Journeys**
+**Reizen**
 
 * De algemene vertragingssnelheid van alle gelezen segmenten die gelijktijdig in dezelfde sandbox worden uitgevoerd, is beperkt tot 17.000 berichten per seconde. [Meer informatie](building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Het veld **Cacheduur** is verwijderd uit het configuratievenster van de gegevensbron. [Meer informatie](datasource/about-data-sources.md)
