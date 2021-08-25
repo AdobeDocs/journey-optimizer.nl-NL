@@ -2,13 +2,13 @@
 keywords: Journey Optimizer;home;populaire onderwerpen
 title: Journey Optimizer-productdocumentatie
 description: Adobe Journey Optimizer Product Help Center
-feature: Overzicht
-topic: Contentmanagement
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 761241c0a09e0a3954b42688c4a0bb7f1571b716
+source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '208'
 ht-degree: 11%
 
 ---
@@ -30,6 +30,11 @@ ht-degree: 11%
       <a href="using/get-started.md">Wat is [!DNL Journey Optimizer]?</a>
     </div>
     <p>Belangrijke functies ontdekken en aan de slag gaan
+    <p>
+    <div>
+      <a href="using/release-notes.md">Aanvullende informatie</a>
+    </div>
+    <p>Ontdek nieuwe mogelijkheden, nieuwste verbeteringen en oplossingen
     <p>
     <div>
       <a href="using/design-emails.md">E-mailinhoud ontwerpen</a>
@@ -117,7 +122,7 @@ ht-degree: 11%
     <p>
     <p>GEGEVENSBEHEER</p>
     <li>
-      <a href="using/get-started-schemas.md">Schemas</a>
+      <a href="using/get-started-schemas.md">Schema's</a>
     </li>
      <li>
       <a href="using/get-started-datasets.md">Gegevenssets</a>
