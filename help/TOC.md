@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4d3352184aac7fe19096c21650982e29506f2bff
+source-git-commit: 72f5ef1366fda47ae4341284a9aba8f0981cb6b0
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 45%
+source-wordcount: '698'
+ht-degree: 47%
 
 ---
 
@@ -89,7 +89,6 @@ ht-degree: 45%
       + [Wachten](using/building-journeys/wait-activity.md)
       + [Segment lezen](using/building-journeys/read-segment.md)
       + [Bericht](using/building-journeys/journeys-message.md)
-      + [Berichttest](using/building-journeys/journeys-message-test.md)
       + [Aangepaste acties](using/building-journeys/using-custom-actions.md)
       + [Handelingen voor Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
       + [Springen](using/building-journeys/jump.md)
@@ -126,7 +125,7 @@ ht-degree: 45%
       + [Gebruikersinterface](using/offers/get-started/user-interface.md)
       + [Belangrijke stappen voor het maken en beheren van aanbiedingen](using/offers/offer-library/key-steps.md)
       + [Hoofdlettergebruik: aanbiedingen in een e-mail invoegen](using/offers/offers-e2e.md)
-   + Componenten {#create-components} maken
+   + Componenten maken {#create-components}
       + [Plaatsingen maken](using/offers/offer-library/creating-placements.md)
       + [Beslissingsregels maken](using/offers/offer-library/creating-decision-rules.md)
       + [Tags maken](using/offers/offer-library/creating-tags.md)
@@ -198,7 +197,7 @@ ht-degree: 45%
          + [Beslissingen-API](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
 + Data management {#data-management}
-   + [Schemas](using/get-started-schemas.md)
+   + [Schema&#39;s](using/get-started-schemas.md)
    + [Gegevenssets](using/get-started-datasets.md)
    + [Zoekopdrachten](using/get-started-queries.md)
 + Configuratie{#get-started}
