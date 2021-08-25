@@ -1,13 +1,13 @@
 ---
 title: Een pushmelding configureren
 description: Meer informatie over het maken van een pushmelding in Journey Optimizer
-feature: Overzicht
-topic: Contentmanagement
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1192'
 ht-degree: 10%
 
 ---
@@ -82,7 +82,7 @@ Een stille pushmelding (of een achtergrondmelding) is een verborgen instructie d
 
 Selecteer de optie **[!UICONTROL Silent Notification]** om de toepassing stil te melden: in dit geval wordt de aanmelding rechtstreeks aan de toepassing overgedragen. Er wordt geen waarschuwing weergegeven op het scherm van het apparaat.
 
-Gebruik de sectie **[!UICONTROL Custom data]** om sleutel-/waardeparen toe te voegen.
+Gebruik de sectie **[!UICONTROL Custom data]** om sleutel-waardeparen toe te voegen.
 
 ## Aangepaste gegevens
 
@@ -113,5 +113,5 @@ U kunt **[!UICONTROL Advanced options]** voor uw dupmelding vormen. De beschikba
 
 * [Pushkanaal configureren](push-gs.md)
 * [Een nieuw bericht maken](create-message.md)
-* [Een bericht toevoegen tijdens een rit](building-journeys/journeys-message.md)
+* [Een bericht toevoegen in een journey](building-journeys/journeys-message.md)
 
