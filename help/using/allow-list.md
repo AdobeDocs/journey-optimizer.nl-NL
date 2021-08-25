@@ -1,14 +1,14 @@
 ---
 title: Lijst van gewenste personen
 description: Leer hoe u de lijst van gewenste personen gebruikt.
-feature: Leverbaarheid
-topic: Contentmanagement
+feature: Deliverability
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: e2743c8fa624a7a95b12c3adb5dc17a1b632c25d
+source-git-commit: 2edb3535c50f83d18ce4d6429a6d76f44b694ac6
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 1%
+source-wordcount: '558'
+ht-degree: 0%
 
 ---
 
@@ -24,18 +24,17 @@ Met de lijst van gewenste personen kunt u afzonderlijke e-mailadressen of domein
 
 ## De lijst van gewenste personen inschakelen {#enable-allow-list}
 
-Als u deze functie wilt inschakelen in een niet-productiesandbox, werkt u de lijst van gewenste personen bij zodat deze niet langer leeg is. Als u deze optie wilt uitschakelen, maakt u de lijst van gewenste personen leeg, zodat deze weer leeg is.
+Om de lijst van gewenste personen op een niet productiesandbox toe te laten, moet u de algemene montages bijwerken gebruikend het overeenkomstige API eindpunt in de Vooraf ingestelde Dienst van het Bericht.
 
-Leer meer op de logica van de lijst van gewenste personen in [deze sectie](#logic).
+* Met deze API kunt u de functie ook op elk gewenst moment uitschakelen.
 
-<!--
-To enable the allowed list on a non-production sandbox, you need to make an Adobe API call.
+* U kunt de lijst van gewenste personen bijwerken voor of na het inschakelen van de functie.
 
-* Using this API, you can also disable the feature at any time.
+* De logica van de lijst van gewenste personen is van toepassing wanneer de functie **en** wordt ingeschakeld als de lijst van gewenste personen **not** leeg is. Meer informatie vindt u in [deze sectie](#logic).
 
-* You can update the allowed list before or after enabling the feature.
+<!--To enable this feature on a non-production sandbox, update the allowed list so that it is no longer empty. To disable it, clear up the allowed list so that it is again empty.
 
-* The allowed list logic applies when the feature is enabled and if the allowed list is not empty. Learn more in this section (logic).
+Learn more on the allowed list logic in this section.
 -->
 
 >[!NOTE]
@@ -54,7 +53,9 @@ U kunt de bewerkingen **Add**, **Delete** en **Get** uitvoeren.
 >
 >De lijst van gewenste personen kan maximaal 1.000 items bevatten.
 
-<!--Learn more on making Adobe API calls in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=en).-->
+<!--
+Learn more on making these API calls in the API reference documentation.
+Found this link in Experience Platform documentation, but may not be the final one: (https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=en).-->
 
 ## Lijst van gewenste personen-logica {#logic}
 
@@ -68,6 +69,31 @@ Wanneer de lijst van gewenste personen **niet leeg** is, wordt de logica van de 
 
 * Als een entiteit **op de lijst van gewenste personen**, en niet op de onderdrukkingslijst is, kan e-mail naar de overeenkomstige ontvanger worden verzonden. Als de entiteit zich echter ook op de [suppressielijst](suppression-list.md) bevindt, zal de overeenkomstige ontvanger de e-mail niet ontvangen, omdat **[!UICONTROL Suppressed]**.
 
+>[!NOTE]
+>
+>De profielen met de status **[!UICONTROL Not allowed]** worden uitgesloten tijdens het verzenden van berichten. Daarom, terwijl **Reis rapporteert** deze profielen zal tonen als die door de reis ([Leessegment](building-journeys/read-segment.md) en [Bericht](building-journeys/journeys-message.md) activiteiten) zijn bewogen, **E-mailrapporten** zullen niet hen in **[!UICONTROL Sent]** metriek omvatten aangezien zij voorafgaand aan e-mail verzenden worden gefilterd.
+>
+>Leer meer op [Levend Rapport](reports/live-report.md) en [Globaal Rapport](reports/global-report.md).
 
+## Uitsluitingsrapportage {#reporting}
 
+Wanneer deze functie is ingeschakeld in een niet-productiesandbox, kunt u e-mailadressen of domeinen ophalen die zijn uitgesloten van een verzendende server omdat deze zich niet op de lijst van gewenste personen bevonden. Hiervoor kunt u de [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) gebruiken om de API-aanroepen hieronder uit te voeren.
+
+Als u het **aantal e-mails** wilt ophalen dat niet is verzonden omdat de ontvangers zich niet op de lijst van gewenste personen bevonden, gebruikt u de volgende query:
+
+```
+SELECT count(distinct _id) from cjm_message_feedback_event_dataset WHERE
+_experience.customerJourneyManagement.messageExecution.messageExecutionID = '<MESSAGE_EXECUTION_ID>' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
+```
+
+Als u de **lijst met e-mailadressen** wilt ophalen die niet zijn verzonden omdat de ontvangers zich niet op de lijst van gewenste personen bevonden, gebruikt u de volgende query:
+
+```
+SELECT distinct(_experience.customerJourneyManagement.emailChannelContext.address) from cjm_message_feedback_event_dataset WHERE
+_experience.customerJourneyManagement.messageExecution.messageExecutionID IS NOT NULL AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'exclude' AND
+_experience.customerJourneyManagement.messageDeliveryfeedback.messageExclusion.reason = 'EmailNotAllowed'
+```
 
