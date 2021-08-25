@@ -1,13 +1,12 @@
 ---
 title: Configuratie van pushmeldingen
 description: Leer hoe u uw omgeving configureert voor het verzenden van pushmeldingen met Journey Optimizer
-feature: Toepassingsinstellingen, duwen
 role: Admin
 level: Intermediate
-source-git-commit: 1b11ff3848434a4cac1ca17318950481f20537c8
+source-git-commit: 10453c86768b2dbe8bc7956cd409da238895d8ab
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1447'
+ht-degree: 3%
 
 ---
 
@@ -30,11 +29,11 @@ Your Adobe Experience Platform account must be provisioned to contain following 
 
 ### Machtigingen instellen
 
-Voordat u een mobiele toepassing maakt, moet u ervoor zorgen dat u de juiste gebruikersmachtigingen hebt of toewijst in **Adobe Experience Platform Launch**. Meer informatie vindt u in [Adobe Experience Platform Launch-documentatie](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html){target=&quot;_blank&quot;}.
+Voordat u een mobiele toepassing maakt, moet u ervoor zorgen dat u de juiste gebruikersmachtigingen hebt of toewijst in **Adobe Experience Platform Launch**. Meer informatie vindt u in [Adobe Experience Platform Launch-documentatie](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
 >
->De duimconfiguratie moet door een deskundige gebruiker worden uitgevoerd. Afhankelijk van uw implementatiemodel en de personen die bij deze implementatie zijn betrokken, moet u mogelijk de volledige set machtigingen toewijzen aan één productprofiel of machtigingen delen tussen de ontwikkelaar van de app en de beheerder **Adobe Journey Optimizer**. Meer informatie over **Adobe Experience Platform Launch** toestemmingen in [deze documentatie](https://experienceleague.adobe.com/docs/launch/using/admin/user-permissions.html#platform-launch-permissions){target=&quot;_blank&quot;}.
+>De duimconfiguratie moet door een deskundige gebruiker worden uitgevoerd. Afhankelijk van uw implementatiemodel en de personen die bij deze implementatie zijn betrokken, moet u mogelijk de volledige set machtigingen toewijzen aan één productprofiel of machtigingen delen tussen de ontwikkelaar van de app en de beheerder **Adobe Journey Optimizer**. Meer informatie over **Adobe Experience Platform Launch** toestemmingen in [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html#platform-launch-permissions){target=&quot;_blank&quot;}.
 
 <!--ou need to your have access to perform following roles :
 
