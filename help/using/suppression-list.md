@@ -5,9 +5,9 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ea2bb0c2956781138a0c7f2d0babfd91070dd351
+source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '699'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ Voor elk adres, de fundamentele reden voor onderdrukking en de onderdrukkingscat
 >
 >De profielen met de status **[!UICONTROL Suppressed]** worden uitgesloten tijdens het verzenden van berichten. Daarom, terwijl **Reis rapporteert** deze profielen zal tonen als die door de reis ([Leessegment](building-journeys/read-segment.md) en [Bericht](building-journeys/journeys-message.md) activiteiten) zijn bewogen, **E-mailrapporten** zullen niet hen in **[!UICONTROL Sent]** metriek omvatten aangezien zij voorafgaand aan e-mail verzenden worden gefilterd.
 >
->Leer meer op [Levend Rapport](reports/live-report.md) en [Globaal Rapport](reports/global-report.md). Om de reden voor alle uitsluitingsgevallen te weten te komen, kunt u [de Dienst van de Vraag van Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) gebruiken.
+>Leer meer op [Levend Rapport](reports/live-report.md) en [Globaal Rapport](reports/global-report.md). Om de reden voor alle uitsluitingsgevallen te weten te komen, kunt u [Adobe Experience Platform de Dienst van de Vraag ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) {target= &quot;_blank&quot;} gebruiken.
 
 ### Leveringsfouten {#delivery-failures}
 
