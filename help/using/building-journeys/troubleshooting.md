@@ -2,13 +2,13 @@
 title: Reisproblemen oplossen
 description: Leer hoe u fouten tijdens reizen kunt oplossen
 feature: Journeys
-topic: Contentmanagement
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 85%
+source-wordcount: '1040'
+ht-degree: 84%
 
 ---
 
@@ -61,7 +61,7 @@ Hier volgen een paar dingen die de beheerder moet controleren:
 * Bevat de gebeurtenispayload een gebeurtenis-id?
 * Hebt u de juiste URL gebruikt?
 * Hebt u de payloadstructuur van de streamingopname-API’s gevolgd en de voorvertoning van de payloadstructuur in het deelvenster voor gebeurtenisconfiguratie gebruikt? Zie [deze pagina](../event/about-creating.md#preview-the-payload).
-* Hebt u de juiste sleutel-/waardeparen in de koptekst van de gebeurtenis gebruikt?
+* Gebruikt u de juiste sleutel-waardeparen in de kopbal van uw gebeurtenis?
 
    ```
    X-gw-ims-org-id - your ORGID
