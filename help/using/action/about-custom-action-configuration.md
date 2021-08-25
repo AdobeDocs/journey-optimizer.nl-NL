@@ -2,14 +2,14 @@
 solution: Journey Orchestration
 title: Aangepaste acties configureren
 description: Leer hoe u een aangepaste handeling configureert
-feature: Acties
-topic: Beheer
+feature: Actions
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e6d8d8ee637008a886ca308b5b0d9d53d90b11ce
+source-git-commit: c62048e0fb7e5de2e7cdf8bc6ae17d62ef04d35c
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 9%
+source-wordcount: '777'
+ht-degree: 6%
 
 ---
 
@@ -49,20 +49,41 @@ Wanneer het vormen van een douaneactie, moet u de volgende **[!UICONTROL URL Con
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. Voeg de **[!UICONTROL URL]** van de externe service toe.
+1. Geef in het veld **[!UICONTROL URL]** de URL van de externe service op:
 
+   * Als de URL statisch is, voert u de URL in dit veld in.
+
+   * Als de URL een dynamisch pad bevat, voert u alleen het statische gedeelte van de URL in, dat wil zeggen het schema, de host, de poort en eventueel een statisch gedeelte van het pad.
+
+      Voorbeeld: `https://xxx.yyy.com:8080/somethingstatic/`
+
+      U geeft het dynamische pad van de URL op wanneer u de aangepaste handeling aan een rit toevoegt. [Meer informatie](../building-journeys/using-custom-actions.md).
    >[!NOTE]
    >
-   >We raden u uit beveiligingsoverwegingen sterk aan om HTTPS te gebruiken. Wij staan niet het gebruik van Adobe adressen toe die niet openbaar en het gebruik van IP adressen zijn.
+   >Om veiligheidsredenen raden we u ten zeerste aan het HTTPS-schema te gebruiken voor de URL. Wij staan niet het gebruik van Adobe adressen toe die niet openbaar en het gebruik van IP adressen zijn.
 
 1. Selecteer de vraag **[!UICONTROL Method]**: kan **[!UICONTROL POST]** of **[!UICONTROL PUT]** zijn.
-1. Klik in de sectie **[!UICONTROL Headers]** op **[!UICONTROL Add a header field]** om een nieuw sleutel-/waardepaar te definiëren. Ze komen overeen met de HTTP-headers van de aanvraag die aan de externe service is gedaan. Als u sleutel-/waardeparen wilt verwijderen, plaatst u de cursor in het koptekstveld en klikt u op het pictogram **[!UICONTROL Delete]**.
+1. Definieer in de sectie **[!UICONTROL Headers]** de HTTP-headers van het aanvraagbericht dat naar de externe service moet worden verzonden:
+   1. Als u een headerveld wilt toevoegen, klikt u op **[!UICONTROL Add a header field]**.
+   1. Voer de sleutel van het headerveld in.
+   1. Als u een dynamische waarde voor het sleutelwaardepaar wilt instellen, selecteert u **[!UICONTROL Variable]**. Anders selecteert u **[!UICONTROL Constant]**.
 
-   **[!UICONTROL Content-Type]** en  **[!UICONTROL Charset]** worden standaard ingesteld en kunnen niet worden verwijderd of overschreven.
+      Voor een tijdstempel kunt u bijvoorbeeld een dynamische waarde instellen.
+
+   1. Als u **[!UICONTROL Constant]** hebt geselecteerd, voert u de constante waarde in.
+
+      Als u **[!UICONTROL Variable]** hebt geselecteerd, dan zult u deze variabele wanneer het toevoegen van de douaneactie aan een reis specificeren. [Meer informatie](../building-journeys/using-custom-actions.md).
+
+      ![](../assets/journeyurlconfiguration2.png)
+
+   1. Als u een koptekstveld wilt verwijderen, wijst u naar het koptekstveld en klikt u op het pictogram **[!UICONTROL Delete]**.
+   De koptekstvelden **[!UICONTROL Content-Type]** en **[!UICONTROL Charset]** zijn standaard ingesteld. U kunt deze velden niet wijzigen of verwijderen.
+
+   Nadat u de douaneactie aan een reis hebt toegevoegd, kunt u nog kopbalgebieden aan het toevoegen als de reis in ontwerpstatus is. Als u niet wilt dat de reis door configuratieveranderingen wordt beïnvloed, dupliceer de douaneactie en voeg de kopbalgebieden aan de nieuwe douaneactie toe.
 
    >[!NOTE]
    >
-   >Kopteksten worden gevalideerd volgens de volgende [parseringsregels](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+   >Kopteksten worden gevalideerd volgens veldparseringsregels. [Meer informatie](https://tools.ietf.org/html/rfc7230#section-3.2.4).
 
 ## De actieparameters definiëren {#define-the-message-parameters}
 
