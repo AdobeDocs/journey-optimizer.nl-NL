@@ -2,12 +2,12 @@
 title: Over ExperienceEvent-schema's voor reisgebeurtenissen
 description: Meer informatie over ExperienceEvent-schema's voor reisgebeurtenissen
 feature: Schemas
-topic: Beheer
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: e965372e3640b92f672bf03098c8e4fb487dfc7d
+source-git-commit: 96615a580b2211ea94522e94ba867a309e127ae3
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -72,14 +72,14 @@ Hier volgt het aankoopschema met de relatie die is gedefinieerd in het veld prod
 
 In Journey Optimizer kunt u vervolgens alle velden uit de gekoppelde tabellen benutten:
 
-* bij het configureren van een eenheidsgebeurtenis [Meer informatie](../event/experience-event-schema.md#unitary_event_configuration)
+* bij het configureren van een bedrijfs- of eenheidsgebeurtenis [Meer informatie](../event/experience-event-schema.md#unitary_event_configuration)
 * [Lees meer](../event/experience-event-schema.md#journey_conditions_using_event_context) wanneer u voorwaarden gebruikt tijdens een reis
 * in berichtverpersoonlijking, [Lees meer](../event/experience-event-schema.md#message_personalization)
 * in de verpersoonlijking van de douaneactie [Lees meer](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
 
-### Configuratie van eenheidsgebeurtenissen{#unitary_event_configuration}
+### Configuratie van gebeurtenissen{#unitary_event_configuration}
 
-De gekoppelde schemavelden zijn beschikbaar in de configuratie voor monitaire gebeurtenissen:
+De gekoppelde schemavelden zijn beschikbaar in de configuratie van een eenheidsgebeurtenis en bedrijfsgebeurtenis:
 
 * wanneer het doorbladeren door de gebieden van het gebeurtenisschema in het scherm van de gebeurtenisconfiguratie.
 * wanneer het bepalen van een voorwaarde voor systeem-geproduceerde gebeurtenissen.
@@ -90,7 +90,6 @@ De gekoppelde velden zijn niet beschikbaar:
 
 * in de sleutelformule voor gebeurtenissen
 * in event id condition (op regel gebaseerde gebeurtenissen)
-* in bedrijfsgebeurtenissen (komende later)
 
 Meer informatie over het configureren van een eenheidsgebeurtenis vindt u in deze [pagina](../event/about-creating.md).
 
