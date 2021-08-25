@@ -1,10 +1,10 @@
 ---
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
-source-git-commit: 670db54d4af8d5ecabcd27f22cac530a9f921af5
+source-git-commit: 50c3dfe4f756e7c6e8f210dc9d3f615965c3a053
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 14%
+source-wordcount: '406'
+ht-degree: 12%
 
 ---
 
@@ -13,8 +13,26 @@ ht-degree: 14%
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
 
+## Augustus 2021
+
+* Alle nieuwe functies en verbeteringen die worden geleverd bij de release van [!DNL Journey Optimizer] 21 augustus zijn beschreven in de documentatie. [Meer informatie](release-notes.md)
+* Bijgewerkte beslissingsbevoegdheden. [Meer informatie](administration/ootb-product-profiles.md)
+* Bijgewerkte screenshots van e-mailontwerpers met de nieuwste gebruikersinterface.
+* De configuratieprocedure voor aangepaste handelingen met dynamische URL-paden en dynamische koppen is bijgewerkt. [Meer informatie](action/about-custom-action-configuration.md#url-configuration)
+* Een sectie over toegankelijkheidsfuncties en sneltoetsen toegevoegd. [Meer informatie](user-interface.md#accessibility)
+* Toegevoegd een sectie over de methodes van de segmentevaluatie. [Meer informatie](segment/about-segments.md#evaluation-method-in-journey-optimizer)
+* Toegevoegde notities bij de lijst Onderdrukking, de secties Lijst van gewenste personen en E-mail global/live om aan te geven dat profielen met de status Onderdrukt en Niet toegestaan zijn uitgesloten van het e-mailrapport Metriek verzonden. [Meer informatie](reports/email-global-report.md)
+* Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe e-mailadressen of domeinen kunnen worden opgehaald die zijn uitgesloten van een verzendende server omdat deze zich niet op de lijst van gewenste personen bevonden. [Meer informatie](allow-list.md#reporting)
+* De sectie lijst van gewenste personen inschakelen is bijgewerkt. [Meer informatie](allow-list.md#enable-allow-list)
+* De sectie met voorinstellingen voor monitorberichten is bijgewerkt met de mogelijke oorzaken van een eventuele fout bij het maken van de voorinstelling en details over dergelijke fouten. [Meer informatie](configuration/message-presets.md#monitor-message-presets)
+* De sectie Tijdsperiode voor opnieuw proberen is bijgewerkt en de naam is gewijzigd om aan te geven dat u de instelling voor het opnieuw proberen van e-mail nu kunt aanpassen in de voorinstellingen voor berichten. [Meer informatie](configuration/retries.md)
+* Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u met één klik een koppeling om te weigeren kunt invoegen in e-mailinhoud. [Meer informatie](message-tracking.md#one-click-opt-out-link)
+<!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+
+
 ## Juli 2021
 
+* Alle nieuwe functies en verbeteringen die worden geleverd bij de release van [!DNL Journey Optimizer] juli 21 zijn beschreven in de documentatie. [Meer informatie](release-notes.md)
 * Directe verbindingen aan de documentatie van de diensten van het Experience Platform in [!DNL Journey Optimizer] homepage en inhoudstafel toegevoegd
 * Nieuwe bestemmingspagina&#39;s voor de diensten van het Experience Platform beschikbaar in [!DNL Journey Optimizer]
 * Koppelingen naar de productbeschrijving van [!DNL Journey Optimizer] op de startpagina toegevoegd
