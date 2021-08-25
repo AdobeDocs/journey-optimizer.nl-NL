@@ -1,14 +1,14 @@
 ---
 title: Gebruikersinterface
 description: Journey Optimizer-gebruikersinterface
-feature: Overzicht
-topic: Contentmanagement
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 8%
+source-wordcount: '1457'
+ht-degree: 7%
 
 ---
 
@@ -18,13 +18,11 @@ Blader naar [Adobe Experience Cloud](http://experience.adobe.com) als u eenmaal 
 
 >[!NOTE]
 >
->* Belangrijke concepten bij het bladeren in de gebruikersinterface zijn gebruikelijk voor Adobe Experience Platform. Raadpleeg [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} voor meer informatie.
-   >
-   >
-* Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
-   >
-   > 
-* De componenten en mogelijkheden die beschikbaar zijn in de gebruikersinterface zijn afhankelijk van uw machtigingen en uw licentiepakket. Neem voor alle vragen contact op met uw Adobe Customer Success Manager.
+>* Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Raadpleeg [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} voor meer informatie.
+>
+>* Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
+>
+> * De componenten en mogelijkheden die beschikbaar zijn in de gebruikersinterface zijn afhankelijk van uw machtigingen en uw licentiepakket. Neem voor alle vragen contact op met uw Adobe Customer Success Manager.
 
 
 ## Linkernavigatie
@@ -87,6 +85,9 @@ U vindt onder de volledige lijst met services en mogelijkheden in de linkernavig
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform biedt sandboxen die één instantie in afzonderlijke virtuele omgevingen verdelen om toepassingen voor digitale ervaringen te ontwikkelen en te ontwikkelen. [Meer informatie](administration/sandboxes.md)
 
+<!--
+* **[!UICONTROL Alerts]** - The user interface allows you to view a history of received alerts based on metrics revealed by Adobe Experience Platform Observability Insights. The UI also allows you to view, enable, and disable available alert rules. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
+-->
 
 ## Gebruiksgevallen in producten
 
@@ -96,7 +97,7 @@ Gebruik [!DNL Adobe Journey Optimizer] gevallen van de startpagina en geef een p
 
 Beschikbare gebruiksgevallen zijn:
 
-* **Maak testprofielen** om testprofielen te maken met onze CSV-sjabloon om persoonlijke berichten en reizen te testen. Leer hoe te om dit gebruiksgeval [in deze pagina ](building-journeys/creating-test-profiles.md#use-case-1) uit te voeren.
+* **Maak testprofielen** om testprofielen te maken met onze CSV-sjabloon om persoonlijke berichten en reizen te testen. Leer hoe te om dit gebruiksgeval [op deze pagina ](building-journeys/creating-test-profiles.md#use-case-1) uit te voeren.
 * **Stuur een verjaardagsbericht naar klanten** om automatisch een e-mail te sturen om uw klanten op hun verjaardag te wensen. (binnenkort beschikbaar)
 * **Verzend e-mails naar nieuwe klanten** aan boord, zodat u eenvoudig maar liefst twee e-mails kunt verzenden om uw nieuw geregistreerde klanten te verwelkomen. (binnenkort beschikbaar)
 * **Verzend pushberichten naar de geïmporteerde lijst met klanten** om snel een pushmelding te verzenden naar een lijst met klanten die zijn geïmporteerd uit een CSV-bestand. (binnenkort beschikbaar)
@@ -106,6 +107,139 @@ Klik **[!UICONTROL View details]** om meer over elk gebruiksgeval te leren.
 Klik op de knop **[!UICONTROL Begin]** om het gebruik te starten.
 
 U kunt tot uitgevoerde gebruiksgevallen van de **[!UICONTROL View use case library]** knoop toegang hebben.
+
+## Toegankelijkheid{#accessibility}
+
+De toegankelijkheidsfuncties in Adobe Journey Optimizer worden geleverd door Adobe Experience Platform:
+
+* Toegankelijkheid toetsenbord
+* Kleurcontrast
+* Validatie van vereiste velden
+
+[Meer](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html) informatie over {target=&quot;_blank&quot;} vindt u in de documentatie van Adobe Experience Platform.
+
+U kunt de volgende algemene sneltoetsen gebruiken in Adobe Journey Optimizer:
+
+| Actie | Sneltoets |
+| --- | --- |
+| Tussen gebruikersinterface-elementen, -secties en -menugroepen verplaatsen | Tab |
+| Ga achterwaarts tussen gebruikersinterface-elementen, -secties en -menuproepen | Shift + Tab |
+| Binnen secties verplaatsen om focus in te stellen op afzonderlijke elementen | Pijl |
+| Een element dat de focus heeft selecteren of wissen | Enter of Spatiebalk |
+| Een selectie annuleren, een deelvenster samenvouwen of een dialoogvenster sluiten | Esc |
+
+[Meer](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html) informatie over {target=&quot;_blank&quot;} vindt u in de documentatie van Adobe Experience Platform.
+
+U kunt deze sneltoetsen gebruiken in specifieke delen van Journey Optimizer:
+
+<table>
+  <thead>
+    <tr>
+      <th>Interface-element</th>
+      <th>Actie</th>
+      <th>Sneltoets</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>Lijst met reizen, handelingen, gegevensbronnen of gebeurtenissen</td>
+    <td>Een reis, handeling, gegevensbron of gebeurtenis maken</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Reis canvas in conceptstatus</td>
+    <td>Voeg een activiteit van het linkerpalet bij de eerste beschikbare positie toe, van boven tot onder</td>
+    <td>Dubbelklik op de activiteit</td>
+  </tr>
+  <tr>
+    <td>Alle activiteiten selecteren</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+  </tr>
+  <tr>
+    <td>Geselecteerde activiteiten verwijderen</td>
+    <td>Verwijder of Backspace en ga vervolgens in om de verwijdering te bevestigen</td>
+  </tr>
+  <tr>
+  <td rowspan="3">
+
+Configuratievenster van deze elementen:
+
+<ul>
+  <li>Activiteit in een reis</li>
+  <li>Gebeurtenis</li>
+  <li>Gegevensbron</li>
+  <li>Actie</li>
+</ul>
+
+</td>
+    <td>Ga naar het volgende veld dat moet worden geconfigureerd</td>
+    <td>Tab</td>
+  </tr>
+  <tr>
+    <td>Wijzigingen opslaan en het configuratievenster sluiten</td>
+    <td>Enter</td>
+  </tr>
+  <tr>
+    <td>Wijzigingen negeren en het configuratievenster sluiten</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Reizen in testmodus</td>
+    <td>De testmodus in- of uitschakelen</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>Een gebeurtenis activeren tijdens een op een gebeurtenis gebaseerde reis</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>
+
+Een gebeurtenis activeren tijdens een op segmenten gebaseerde reis waarvoor de optie **[!UICONTROL Single profile at a time]** is ingeschakeld
+
+</td>
+    <td>P</td>
+  </tr>
+  <tr>
+    <td>De testlogboeken weergeven</td>
+    <td>L</td>
+  </tr>
+<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+  <tr>
+    <td>Page with a search bar</td>
+    <td>Select the search bar</td>
+    <td>Ctrl/Command + F</td>
+  </tr>
+-->
+  <tr>
+    <td>Tekstveld</td>
+    <td>Alle tekst in het geselecteerde veld selecteren</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Pop-upvenster</td>
+    <td>Wijzigingen opslaan of de handeling bevestigen</td>
+    <td>Enter</td>
+  </tr>
+  <tr>
+    <td>Sluit het venster</td>
+    <td>Esc</td>
+  </tr>
+  <tr>
+    <td>Eenvoudige expressie-editor</td>
+    <td>Een veld selecteren en toevoegen</td>
+    <td>Dubbelklikken op een veld</td>
+  </tr>
+  <tr>
+    <td>Bladeren door XDM-velden</td>
+    <td>Alle velden van een knooppunt selecteren</td>
+    <td>Het bovenliggende knooppunt selecteren</td>
+  </tr>
+  <tr>
+    <td>Payloadvoorbeeld</td>
+    <td>Selecteer de lading</td>
+    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+  </tr>
+</table>
 
 ## Hulp en ondersteuning zoeken
 
@@ -137,16 +271,17 @@ De taal wijzigen:
 * Selecteer de gewenste taal en klik op **Opslaan**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw voorste taal is gelokaliseerd.
    ![](assets/select-language.png)
 
-## Zoeken
+## Zoeken{#unified-search}
 
-Overal vanaf de Adobe Journey Optimizer-interface gebruikt u de Adobe Experience Cloud-zoekopdracht in het midden van de bovenste balk om elementen, reizen of berichten te zoeken in uw sandboxen. Voer inhoud in om de beste resultaten weer te geven.
+Overal van de interface van Adobe Journey Optimizer, gebruik het Verenigde de onderzoeksvermogen van Adobe Experience Cloud op het centrum van de hoogste bar om activa, reizen, datasets, berichten, en meer over uw zandbakken te vinden.
+
+Voer inhoud in om de beste resultaten weer te geven. Help-artikelen over de ingevoerde trefwoorden worden ook weergegeven in de resultaten.
 
 ![](assets/unified-search.png)
 
-Druk op **Enter** om alle resultaten en filters te openen.
+Druk op **Enter** om alle resultaten te openen en te filteren op een zakelijk object.
 
 ![](assets/search-and-filter.png)
-
 
 ## Filterlijsten{#section_lgm_hpz_pgb}
 
