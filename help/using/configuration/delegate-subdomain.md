@@ -11,14 +11,14 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-feature: Applicatie-instellingen
-topic: Beheer
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 29ebb0d8ba228ee8bf430d29f92cc30a9edac69a
+source-git-commit: 848b6e84e0a4469be438e89dfc3e3e4a72dc6b6c
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 8%
+source-wordcount: '758'
+ht-degree: 5%
 
 ---
 
@@ -55,7 +55,7 @@ Voer de volgende stappen uit om een nieuw subdomein te delegeren:
 
 1. De lijst van records die in uw DNS-serverweergaven moeten worden geplaatst. Kopieer deze records één voor één of download een CSV-bestand en navigeer vervolgens naar uw domeinhostingoplossing om de overeenkomende DNS-records te genereren.
 
-   Zorg ervoor dat alle DNS verslagen in uw domein het ontvangen oplossing zijn geproduceerd. Als alles behoorlijk wordt gevormd, controleer de doos &quot;I bevestig...&quot;, dan klik **[!UICONTROL Submit]**.
+1. Zorg ervoor dat alle DNS verslagen in uw domein het ontvangen oplossing zijn geproduceerd. Als alles behoorlijk wordt gevormd, controleer de doos &quot;I bevestig...&quot;, dan klik **[!UICONTROL Submit]**.
 
    ![](../assets/subdomain-submit.png)
 
@@ -65,19 +65,9 @@ Voer de volgende stappen uit om een nieuw subdomein te delegeren:
 
 1. Nadat de subdomeindelegatie is verzonden, wordt het subdomein in de lijst weergegeven met de status **[!UICONTROL Processing]**. Raadpleeg [deze sectie](access-subdomains.md) voor meer informatie over de status van subdomeinen.
 
-   De onderstaande controles en acties worden uitgevoerd totdat het subdomein is geverifieerd en kunnen worden gebruikt om berichten te verzenden.
-
-   Deze stap wordt uitgevoerd door Adobe en kan tot 3 uur duren.
-
-   1. Controleer of het subdomein is gedelegeerd aan Adobe DNS (NS-record, SOA-record, Zone-instelling, eigendomsrecord).
-   1. Vorm DNS voor het domein,
-   1. URL&#39;s voor bijhouden en spiegelen maken,
-   1. Providing CDN Cloud Front,
-   1. CDN SSL-certificaat maken, valideren en koppelen;
-   1. Voorwaartse DNS maken,
-   1. PTR-record maken.
-
    ![](../assets/subdomain-processing.png)
+
+   Voordat u dat subdomein kunt gebruiken om berichten te verzenden, moet u wachten tot Adobe de vereiste controles uitvoert. Dit kan maximaal 3 uur in beslag nemen. Meer informatie vindt u in [deze sectie](#subdomain-validation).
 
 1. Zodra de controles succesvol zijn, krijgt subdomain de **[!UICONTROL Success]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
@@ -85,4 +75,31 @@ Voer de volgende stappen uit om een nieuw subdomein te delegeren:
 
    ![](../assets/subdomain-notification.png)
 
+## Subdomeinvalidatie {#subdomain-validation}
 
+De onderstaande controles en acties worden uitgevoerd totdat het subdomein is geverifieerd en kunnen worden gebruikt om berichten te verzenden.
+
+>[!NOTE]
+>
+>Deze stappen worden uitgevoerd door Adobe en kunnen tot 3 uur duren.
+
+1. **Pre-validate**: Adobe controleert of het subdomein is gedelegeerd aan Adobe DNS (NS-record, SOA-record, Zone-instelling, eigendomsrecord). Als de pre-bevestigingsstap ontbreekt, is een fout teruggekeerd samen met de overeenkomstige reden, anders gaat Adobe naar de volgende stap.
+
+1. **Vorm DNS voor het domein**:
+
+   * **MX-record**: E-mailuitwisselingsrecord - E-mailserverrecord dat binnenkomende e-mailberichten verwerkt die naar het subdomein zijn verzonden.
+   * **SPF-record**: Het verslag van het Kader van het Beleid van de afzender - maakt een lijst van IPs van de postservers die e-mail van subdomain kunnen verzenden.
+   * **DKIM-record**: DomainKeys Identified Mail standard record - Gebruikt versleuteling met een openbare en persoonlijke sleutel om het bericht te verifiëren zodat spoofing wordt voorkomen.
+   * **A**: Standaard IP-toewijzing.
+
+1. **URL&#39;s voor bijhouden en spiegelen** maken: als het domein email.example.com is, zal het tracking/mirror domein data.email.example.com zijn. Het wordt beveiligd door het SSL-certificaat te installeren.
+
+1. **Voorziening CDN CloudFront**: als CDN nog niet is ingesteld, plaatst Adobe deze voor de imsorg.
+
+1. **CDN-domein** maken: als het domein email.example.com is, zal het domein CDN cdn.email.example.com zijn.
+
+1. **CDN SSL-certificaat** maken en koppelen: Adobe maakt het CDN-certificaat voor het CDN-domein en koppelt het certificaat aan het CDN-domein.
+
+1. **Voorwaartse DNS** maken: als dit eerste subdomain is dat u delegeert, zal Adobe voorwaartse DNS tot stand brengen die wordt vereist om PTR verslagen - voor elk van uw IPs tot stand te brengen.
+
+1. **PTR-record** maken: PTR-record, ook wel omgekeerd DNS-record genoemd, wordt vereist door de ISP&#39;s, zodat deze de e-mails niet als spam markeren. Gmail adviseert ook hebbend PTR verslagen voor elk IP. Adobe leidt PTR verslagen slechts tot wanneer u eerste subdomain, één voor elk IP, alle IPs delegeert die aan eerste subdomain richten. Bijvoorbeeld, als IP *192.1.2.1* is en subdomain *email.example.com* is, zal het PTR verslag zijn: *192.1.2.1 PTR r1.email.example.com*. U kunt de PTR-record achteraf bijwerken en naar het nieuwe gedelegeerde domein verwijzen.
