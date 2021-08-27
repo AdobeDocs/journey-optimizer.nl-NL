@@ -5,10 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
+source-git-commit: c1690e1d5db6b068a8611e88c88c8955de21b54f
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 2%
+source-wordcount: '775'
+ht-degree: 3%
 
 ---
 
@@ -105,5 +105,4 @@ Schakel Send-Time Optimization in op een e-mail- of pushbericht door de schakela
 
 Kies bij e-mailberichten of u wilt optimaliseren bij het openen van een e-mail of door op het juiste keuzerondje te klikken. Pushberichten worden standaard ingesteld op de optie Openen, omdat klikken niet van toepassing zijn op pushberichten.
 
-U kunt er ook voor kiezen om de verzendtijden die door het systeem worden gebruikt te accentueren door een waarde in te voeren voor de optie **Verzenden binnen de volgende optie**. Als u &quot;zes uren&quot;als waarde kiest, [!DNL Journey Optimizer]zal elk gebruikersprofiel controleren om te zien of komt de optimale verzendtijd binnen zes uren van de tijd van de reisuitvoering voor en selecteert de Send-Time Optimization-bepaalde tijd. Als die tijd niet binnen de volgende zes uren is, [!DNL Journey Optimizer] zal aan het verzenden van het bericht op de tijd van de reisuitvoering in gebreke blijven.
-
+U kunt er ook voor kiezen om de verzendtijden die door het systeem worden gebruikt te accentueren door een waarde in te voeren voor de optie **Verzenden binnen de volgende optie**. Als u &quot;zes uur&quot;als waarde kiest, [!DNL Journey Optimizer] zal elk gebruikersprofiel controleren en zal de optimale verzendtijd binnen zes uur van de tijd van de reisuitvoering kiezen.
