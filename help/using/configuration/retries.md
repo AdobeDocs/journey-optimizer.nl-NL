@@ -15,33 +15,49 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 79c3c47eb6978f377bf4dc49f787e9a509aa3f61
+source-git-commit: b18f8c468157988be9cca44795b46f6fb4a0208e
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 0%
+source-wordcount: '384'
+ht-degree: 1%
 
 ---
 
 
 # Hernieuwde pogingen {#retries}
 
-Wanneer een e-mailbericht mislukt als gevolg van een tijdelijke **Soft bounce** of **Genegeerde** fout, worden verschillende keren opnieuw geprobeerd. Elke fout verhoogt een foutenteller. Wanneer deze teller de grensdrempel bereikt, wordt het adres toegevoegd aan de onderdrukkingslijst.
+Wanneer een e-mailbericht mislukt als gevolg van een tijdelijke **Zachte fout**, worden verschillende pogingen opnieuw uitgevoerd. Elke fout verhoogt een foutenteller. Wanneer deze teller de grensdrempel bereikt, wordt het adres toegevoegd aan de onderdrukkingslijst.
 
 >[!NOTE]
 >
 >Leer meer over de types van fouten in [de types van mislukkingen van de Levering](../suppression-list.md#delivery-failures) sectie.
 
-In de standaardconfiguratie, wordt de drempel geplaatst bij drie fouten:
+In de standaardconfiguratie is de drempel ingesteld op 5 fouten.
 
-* Voor dezelfde levering, bij de derde aangetroffen fout, wordt het adres onderdrukt.
+* Voor dezelfde levering, bij de vijfde ondervond fout binnen [retry time period](#retry-duration), wordt het adres onderdrukt.
 
-* Als er verschillende leveringen zijn en twee fouten minstens 24 uur uit elkaar voorkomen, wordt de foutenteller verhoogd op elke fout en het adres wordt ook onderdrukt bij de derde poging.
+* Als er verschillende leveringen zijn en twee fouten minstens 24 uur uit elkaar voorkomen, wordt de foutenteller verhoogd op elke fout en het adres wordt ook onderdrukt bij de vijfde poging.
 
 Als de levering succesvol is nadat opnieuw is geprobeerd, wordt de foutenteller van het adres opnieuw geïnitialiseerd.
 
-U kunt de limietdrempel wijzigen met de knop **[!UICONTROL Edit]** in het menu **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]**.
+Als de standaardwaarde 5 niet aan uw wensen voldoet, kunt u de foutdrempel wijzigen volgens de onderstaande stappen.
 
-![](../assets/retries-edition.png)
+1. Ga naar **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Suppression list]**.
+
+1. Selecteer de knop **[!UICONTROL Edit suppression rules]**.
+
+   ![](../assets/suppression-list-edit-retries.png)
+
+1. Pas het toegestane aantal opeenvolgende zachte grenzen aan uw wensen aan.
+
+   ![](../assets/suppression-list-edit-soft-bounces.png)
+
+   U moet een geheel getal tussen 1 en 20 invoeren. Dit betekent dat het minimum aantal pogingen 1 is en het maximum aantal 20.
+
+   >[!CAUTION]
+   >
+   >Om het even welke waarde hoger dan 10 kan de kwesties van de leveringsreputatie, evenals IP het vertragen of het voegend op lijst van gewenste personen door ISPs veroorzaken. [Meer informatie over te leveren items](../deliverability.md)
+
+<!--![](../assets/retries-edition.png)-->
 
 <!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
 
@@ -62,3 +78,5 @@ U kunt bijvoorbeeld de periode voor het opnieuw proberen instellen op 24 uur voo
 Leer hoe u de parameters voor het opnieuw proberen van e-mail aanpast bij het maken van een berichtvoorinstelling in [deze sectie](message-presets.md#create-message-preset).
 
 <!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
+
+<!--Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated to Failed??-->

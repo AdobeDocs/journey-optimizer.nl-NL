@@ -12,13 +12,13 @@ discoiquuid: null
 internal: n
 snippet: y
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
-feature: Controlegroepen
-topic: Beheer
+feature: Control Groups
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: 0c7ca9a87a55c04b977a29c6be446da143722e37
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -303,7 +303,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Machtiging voor subdomeinen delegeren beheren {#manage-subdomain}
 
-Met de machtiging op hoog niveau **[!UICONTROL Manage subdomains delegation]** kunnen gebruikers subdomeindelegatie (inclusief IP-pool) maken, bewerken en verwijderen.
+Met de machtiging op hoog niveau **[!UICONTROL Manage subdomains delegation]** kunnen gebruikers subdomeindelegaties (inclusief IP-pool) maken, bewerken en verwijderen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -313,14 +313,16 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Toestemming voor PTR-records weergeven {#view-ptr}
 
-De **[!UICONTROL View PTR records]** toestemming op hoog niveau staat gebruikers toe om PTR verslagen te bekijken die gebaseerd op subdomain zijn gevormd en de volgende laag-vlakke toestemmingen omvat:
+De **[!UICONTROL View PTR records]** toestemming op hoog niveau staat gebruikers toe om PTR verslagen te bekijken die gebaseerd op subdomain zijn gevormd.
+
+Dit omvat de volgende laagniveaumachtigingen:
 
 * PTR_records.read
 * subdomeinen_delegatie.read
 
 ### IP-pools beheren, machtiging {#manage-ip-pools}
 
-Met de machtiging op hoog niveau **[!UICONTROL Manage IP pools]** kunnen gebruikers affiniteitsdefinitie maken, bewerken en verwijderen.
+Met de machtiging op hoog niveau **[!UICONTROL Manage IP pools]** kunnen gebruikers de affiniteitsdefinitie maken, bewerken en verwijderen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -338,13 +340,12 @@ Dit omvat de volgende laagniveaumachtigingen:
    * messages_general_settings.read
    * messages_general_settings.write
    * messages_general_settings.delete
-
 * specifiek voor Adobe Experience Platform:
    * schemas.read
 
 ### Algemene instellingen van berichten weergeven {#view-message-settings}
 
-Met de machtiging op hoog niveau **[!UICONTROL View messages general settings]** kunnen gebruikers berichten weergeven met algemene instellingen, zoals suppressieregels of uitvoeringsadres.
+Met de machtiging op hoog niveau **[!UICONTROL View messages general settings]** kunnen gebruikers berichten weergeven met algemene instellingen, zoals het uitvoeringsadres.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -355,7 +356,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Machtigingen voor voorinstellingen voor berichten beheren {#manage-message-presets}
 
-Met de machtiging op hoog niveau **[!UICONTROL Manage messages presets]** kunnen gebruikers berichtvoorinstellingen voor kanalen op sandboxniveau maken, bewerken en verwijderen.
+Met de machtiging op hoog niveau **[!UICONTROL Manage messages presets]** kunnen gebruikers berichtvoorinstellingen op het niveau van de sandbox maken, bewerken en verwijderen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -378,19 +379,21 @@ Dit omvat de volgende laagniveaumachtigingen:
 * IP_pools.read
 * mobile_setting.read (vanuit Adobe Experience Platform Launch)
 
-### Machtiging voor suppressieregels beheren {#manage-suppression-rules}
+### Machtiging voor onderdrukking beheren {#manage-suppression}
 
-Met de machtiging op hoog niveau **[!UICONTROL Manage suppression rules]** kunnen gebruikers het aantal instanties definiëren voordat het e-mailadres van de gebruiker aan de onderdrukkingslijst wordt toegevoegd.
+De **[!UICONTROL Manage suppression]** toestemming op hoog niveau staat gebruikers toe om het aantal grenzen te bepalen alvorens een e-mailadres aan de suppressielijst wordt toegevoegd, evenals ingangen toe te voegen en te schrappen aan/van de suppressielijst.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
 * suppression_rules.read
 * suppression_rules.write
 * suppression_rules.delete
+* suppression_list.write
+* suppression_list.delete
 
 ### Toestemming voor suppressielijst weergeven {#view-suppresion-list}
 
-Met de machtiging op hoog niveau **[!UICONTROL View suppression list]** kunnen gebruikers berichtconfiguraties weergeven, waaronder voorinstellingen voor berichten en algemene berichtinstellingen.
+Met de machtiging op hoog niveau **[!UICONTROL View suppression list]** kunnen gebruikers de inhoud en instellingen van de suppressielijst bekijken.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -402,10 +405,12 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Toestemming voor lijst met exportonderdrukking {#export-suppression-list}
 
-Met de machtiging op hoog niveau **[!UICONTROL Export suppression list]** kunnen gebruikers berichtconfiguraties configureren, waaronder voorinstellingen voor berichten en algemene berichtinstellingen.
+Met de machtiging op hoog niveau **[!UICONTROL Export suppression list]** kunnen gebruikers de suppressielijst downloaden als een CSV-bestand.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
+* specifiek voor Journey Optimizer:
+   * suppression_list.export
 * specifiek voor Adobe Experience Platform:
    * profiles.read
    * datasets.read

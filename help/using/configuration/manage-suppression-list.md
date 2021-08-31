@@ -15,10 +15,10 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 50c3dfe4f756e7c6e8f210dc9d3f615965c3a053
+source-git-commit: 260513cd966ab8e579fa0af0fec0376110d0b53f
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 2%
+source-wordcount: '911'
+ht-degree: 1%
 
 ---
 
@@ -31,30 +31,51 @@ Met [!DNL Journey Optimizer] kunt u alle e-mailadressen controleren die automati
 * Verwerkt deze voortdurend zachte stuit en kan een negatief effect hebben op uw e-mailreputatie als u deze in uw leveringen blijft opnemen.
 * Ontvangers die op een of andere manier een spamklacht indienen tegen een van uw e-mailberichten.
 
-Dergelijke e-mailadressen worden automatisch verzameld in de Journey Optimizer **suppressielijst**. Meer informatie vindt u in [deze sectie](../suppression-list.md).
+Dergelijke e-mailadressen worden automatisch verzameld in de Journey Optimizer **suppressielijst**. Leer meer op het concept en het gebruik van de suppressielijst in [deze sectie](../suppression-list.md).
 
 ## De lijst met onderdrukking openen {#access-suppression-list}
 
-Als u de gedetailleerde lijst met uitgesloten e-mailadressen wilt openen, opent u het menu **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** en klikt u op de koppeling **[!UICONTROL View suppression lists]**.
+Als u de gedetailleerde lijst met uitgesloten e-mailadressen wilt openen, gaat u naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** en selecteert u **[!UICONTROL Suppression list]**.
 
-![](../assets/suppression-list-link.png)
+>[!CAUTION]
+>
+>Machtigingen om de suppressielijst weer te geven, te exporteren en te beheren zijn beperkt tot [Reisbeheerders](../administration/ootb-product-profiles.md#journey-administrator). Meer informatie over het beheren van de toegangsrechten van [!DNL Journey Optimizer] gebruikers in [deze sectie](../administration/permissions-overview.md).
 
-<!--To access the detailed list of excluded email addresses, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]**, and select **[!UICONTROL Suppression list]**.
-You can also display the suppression list content using the **[!UICONTROL View suppression list]** link through the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, but this view does not allow you to edit the list.
+<!--![](../assets/suppression-list-link.png)
 
-![](../assets/suppression-list-access-temp.png)-->
+You can also display the suppression list content using the **[!UICONTROL View suppression list]** link through the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL General]** menu, but this view does not allow you to edit the list.-->
+
+![](../assets/suppression-list-access.png)
 
 Er zijn filters beschikbaar waarmee u door de lijst kunt bladeren.
 
-![](../assets/suppression-list-filters-temp.png)
+<!--![](../assets/suppression-list-filters-temp.png)-->
 
-<!--![](../assets/suppression-list-filters.png)
+![](../assets/suppression-list-filters.png)
 
-You can filter on the **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, or **[!UICONTROL Reason]**. Select the option(s) of your choice for each criterion.
+U kunt filteren op **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, of **[!UICONTROL Reason]**. Selecteer de optie(s) van uw keuze voor elk criterium. Als deze optie is geselecteerd, kunt u elk filter of alle filters die boven op de lijst worden weergegeven, wissen.
 
 ![](../assets/suppression-list-filtering-example.png)
 
-Once selected, you can clear each filter or all filters displayed on top of the list.-->
+Als u per ongeluk handmatig een e-mailadres of een domein toevoegt, kunt u met de knop **[!UICONTROL Delete]** dat item verwijderen.
+
+>[!CAUTION]
+>
+>Gebruik nooit de **[!UICONTROL Delete]** knoop om onderdrukte e-mailadressen of domeinen te verwijderen.
+
+![](../assets/suppression-list-delete.png)
+
+Als u een e-mailadres of een domein uit de suppressielijst verwijdert, wordt opnieuw begonnen met het leveren aan dit adres of domein. Dientengevolge, kan dit ernstige gevolgen op uw leverbaarheid en IP reputatie hebben, die uiteindelijk tot uw IP adres of verzendend domein zou kunnen leiden die worden geblokkeerd. Leer meer over het belang om een onderdrukkingslijst in [dit sectie](../suppression-list.md) te handhaven.
+
+>[!NOTE]
+>
+>Ga voorzichtig te werk wanneer u overweegt een e-mailadres of domein te verwijderen. Neem in geval van twijfel contact op met een leverancier.
+
+Vanuit de weergave **[!UICONTROL Suppression list]** kunt u ook de onderdrukkingsregels bewerken. [Meer informatie](retries.md)
+
+Selecteer de knop **[!UICONTROL Download CSV]** om de suppressielijst als een CSV-bestand te exporteren.
+
+![](../assets/suppression-list-download-csv.png)
 
 ## Onderdrukkingscategorieën en redenen {#suppression-categories-and-reasons}
 
@@ -84,7 +105,7 @@ De onderdrukkingscategorieën zijn als volgt:
 
 Voor elk e-mailadres dat wordt vermeld, kunt u **[!UICONTROL Type]** (e-mail of domein), **[!UICONTROL Reason]** ook controleren voor uitsluiting, die het toevoegden, en de datum/tijd het aan de suppressielijst werd toegevoegd.
 
-<!--![](../assets/suppression-list.png)-->
+![](../assets/suppression-list.png)
 
 De mogelijke redenen van een leveringsfout zijn:
 
@@ -96,10 +117,11 @@ De mogelijke redenen van een leveringsfout zijn:
 | **[!UICONTROL Mailbox Full]** | Het bericht dat door de brievenbus van de ontvanger wordt teruggestuurd die volledig is en niet meer berichten kan goedkeuren. | Zacht |
 | **[!UICONTROL Relaying Denied]** | Het bericht is geblokkeerd door de ontvanger omdat het opnieuw afspelen niet is toegestaan. | Zacht |
 | **[!UICONTROL Challenge-Response]** | De boodschap is een uitdaging-antwoord sonde. | Zacht |
+| **[!UICONTROL Spam Complaint]** | Het bericht werd geblokkeerd omdat duidelijk als spam door de ontvanger. | Hard |
 
 >[!NOTE]
 >
->Gebruikers met een abonnement ontvangen geen e-mails van [!DNL Journey Optimizer]. Daarom kunnen hun e-mailadressen niet naar de onderdrukkingslijst worden verzonden. Hun keuze wordt op het niveau van de Experience Platform behandeld. Meer informatie over [opting-out](../consent.md).
+>Gebruikers met een abonnement ontvangen geen e-mails van [!DNL Journey Optimizer]. Daarom kunnen hun e-mailadressen niet naar de onderdrukkingslijst worden verzonden. Hun keuze wordt op het niveau van de Experience Platform behandeld. [Meer informatie over opt-out](../consent.md)
 
 <!--
 Removed from the table provided by SparkPost/Momentum:
@@ -119,82 +141,82 @@ Removed from the table provided by SparkPost/Momentum:
 | **[!UICONTROL Unsubscribe]** | The message is an unsubscribe request. | Hard |
 -->
 
-<!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list. (not sure it's possible to subscribe through AJO or need to find reference to Experience Platform doc?)-->
+<!--Note to add eventually: If a user is subscribed and [!DNL Journey Optimizer] fails to send emails to their subscribed email address, they will get added to the suppression list.-->
 
-<!--## Manually add addresses and domains {#add-addresses-and-domains}
+## Voeg handmatig adressen en domeinen toe {#add-addresses-and-domains}
 
-When a message fails to be delivered to an email address, this address is automatically added to the suppression list based on the defined suppression rule or bounce count.
+Wanneer een bericht niet aan een e-mailadres kan worden geleverd, wordt dit adres automatisch toegevoegd aan de suppressielijst die op de bepaalde suppressieregel of stuiterende telling wordt gebaseerd.
 
-However, you can also manually populate the [!DNL Journey Optimizer] suppression list to exclude specific email addresses and/or domains from your sending.
+U kunt de [!DNL Journey Optimizer]-suppressielijst echter ook handmatig vullen om specifieke e-mailadressen en/of domeinen van uw verzending uit te sluiten.
 
-You may add email addresses or domains [one at a time](#add-one-address-or-domain), or [in bulk mode](#upload-csv-file) through a CSV file upload.
+U kunt e-mailadressen of domeinen [één voor één toevoegen](#add-one-address-or-domain), of [in bulkmodus](#upload-csv-file) door een Csv- dossier te uploaden.
 
-To do this, select the **[!UICONTROL Add email or domain]** button, then follow one of the methods below.
+Hiervoor selecteert u de knop **[!UICONTROL Add email or domain]** en volgt u een van de onderstaande methoden.
 
 ![](../assets/suppression-list-add-email.png)
 
-### Add one address or domain {#add-one-address-or-domain}
+### Eén adres of domein toevoegen {#add-one-address-or-domain}
 
-1. Select the **[!UICONTROL One by one]** option.
+1. Selecteer de optie **[!UICONTROL One by one]**.
 
-    ![](../assets/suppression-list-add-email-address.png)
+   ![](../assets/suppression-list-add-email-address.png)
 
-1. Choose the address type: **[!UICONTROL Email address]** or **[!UICONTROL Domain address]**.
+1. Kies het adrestype: **[!UICONTROL Email address]** of **[!UICONTROL Domain address]**.
 
-1. Enter the email address or domain you want to exclude from your sending.
+1. Voer het e-mailadres of domein in dat u van uw verzending wilt uitsluiten.
 
-    >[!NOTE]
-    >
-    >Make sure you enter a valid email address (such as abc@company) or domain (such as abc.company.com).
+   >[!NOTE]
+   >
+   >Zorg ervoor dat u een geldig e-mailadres (zoals abc@company) of domein (zoals abc.company.com) opgeeft.
 
-1. Specify a reason if needed.
+1. Geef indien nodig een reden op.
 
-1. Click **[!UICONTROL Submit]**.
+1. Klik op **[!UICONTROL Submit]**.
 
-### Upload a CSV file {#upload-csv-file}
+### Een CSV-bestand uploaden {#upload-csv-file}
 
-1. Select the **[!UICONTROL Upload CSV]** option.
+1. Selecteer de optie **[!UICONTROL Upload CSV]**.
 
-    ![](../assets/suppression-list-upload-csv.png)
+   ![](../assets/suppression-list-upload-csv.png)
 
-1. Download the CSV template to use, which includes the columns and format below:
+1. Download de CSV-sjabloon die u wilt gebruiken, inclusief de onderstaande kolommen en indeling:
 
-    ```
-    TYPE,VALUE,COMMENT
-    EMAIL,abc@somedomain.com,Comment
-    DOMAIN,somedomain.com,Comment
-    ```
-    You can also download this template from the **[!UICONTROL Suppression list]** main view.
+   ```
+   TYPE,VALUE,COMMENT
+   EMAIL,abc@somedomain.com,Comment
+   DOMAIN,somedomain.com,Comment
+   ```
+   U kunt deze sjabloon ook downloaden vanuit de hoofdweergave **[!UICONTROL Suppression list]**.
 
-    >[!CAUTION]
-    >
-    >Do not change the names of the columns in the CSV template.
-    >
-    >The file size should not exceed 50 MB.
+   >[!CAUTION]
+   >
+   >Wijzig de namen van de kolommen in de CSV-sjabloon niet.
+   >
+   >De bestandsgrootte mag niet groter zijn dan 1 MB.
 
-1. Fill in the CSV template with the email addresses and/or domains you want to add to the suppression list.
+1. Vul de CSV-sjabloon in met de e-mailadressen en/of domeinen die u wilt toevoegen aan de suppressielijst.
 
-1. Once completed, drag and drop your CSV file, then click **[!UICONTROL Upload file]**.
+1. Wanneer u klaar bent, sleept u het CSV-bestand en klikt u op **[!UICONTROL Upload file]**.
 
-    ![](../assets/suppression-list-upload-file-button.png)
+   ![](../assets/suppression-list-upload-file-button.png)
 
-1. Click **[!UICONTROL Submit]**.
+1. Klik op **[!UICONTROL Submit]**.
 
-### Check recent uploads status {#recent-uploads}
+### Status van recente uploads controleren {#recent-uploads}
 
-You can check the list of the latest CSV files you uploaded.
+U kunt de lijst controleren van de recentste CSV dossiers u uploadde.
 
-To do this, from the **[!UICONTROL Suppression list]** view, click the **[!UICONTROL Recent uploads]** button.
+Om dit, van de **[!UICONTROL Suppression list]** mening te doen, klik **[!UICONTROL Recent uploads]** knoop.
 
 ![](../assets/suppression-list-recent-uploads-button.png)
 
-The latest uploads you submitted and their corresponding statuses are displayed.
+De meest recente uploads die u hebt verzonden en de bijbehorende statussen worden weergegeven.
 
-If an error report is associated with a file, you can download it to check the errors encountered.
+Als een foutenrapport met een dossier wordt geassocieerd, kunt u het downloaden om de gevonden fouten te controleren.
 
 ![](../assets/suppression-list-recent-uploads-error.png)
 
-Below is an example of the type of entries you can find in the error report:
+Hieronder ziet u een voorbeeld van het type items dat u kunt vinden in het foutrapport:
 
 ```
 type,value,comments,failureReason
@@ -206,6 +228,5 @@ Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
 
--->
 
 

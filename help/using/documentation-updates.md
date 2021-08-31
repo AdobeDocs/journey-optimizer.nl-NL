@@ -1,9 +1,9 @@
 ---
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
-source-git-commit: 7742f2eb199fe0fbb57fa95e22bb464f8cd5c663
+source-git-commit: 61c6f63d8a61b3cdc0f08f7c9b2323cc4710eb88
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '455'
 ht-degree: 12%
 
 ---
@@ -28,8 +28,8 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De sectie Tijdsperiode voor opnieuw proberen is bijgewerkt en de naam is gewijzigd om aan te geven dat u de instelling voor het opnieuw proberen van e-mail nu kunt aanpassen in de voorinstellingen voor berichten. [Meer informatie](configuration/retries.md#retry-duration)
 * Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u met één klik een koppeling om te weigeren kunt invoegen in e-mailinhoud. [Meer informatie](message-tracking.md#one-click-opt-out-link)
 * De subdomeinsectie Delegeren is bijgewerkt met meer gedetailleerde informatie over het validatieproces dat door Adobe wordt uitgevoerd. [Meer informatie](configuration/delegate-subdomain.md#subdomain-validation)
-
-<!--* Added a section to describe how to manually add email addresses and domains to the suppression list. [Read more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+* Er is een sectie toegevoegd waarin wordt beschreven hoe u handmatig e-mailadressen en domeinen aan de suppressielijst kunt toevoegen. [Meer informatie](configuration/manage-suppression-list.md#add-addresses-and-domains)
+* De secties [Access the suppression list](configuration/manage-suppression-list.md#access-suppression-list) en [Retries](configuration/retries.md) zijn bijgewerkt om de nieuwe gebruikersinterface te weerspiegelen.
 
 
 ## Juli 2021
@@ -44,9 +44,9 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Een subsectie toegevoegd op spiegelpagina&#39;s. [Meer informatie](message-tracking.md#mirror-page)
 * In documentatie en schermen hernoemd tot &#39;aanbiedingsactiviteiten&#39; als &#39;besluiten&#39; en &#39;besluiten&#39; als &#39;besluiten&#39;. [Meer informatie](offers/get-started/starting-offer-decisioning.md)
 * Nieuwe gebruikscase: [Een bericht personaliseren met hulpfuncties](personalization/personalization-use-case-helper-functions.md)
-* De documentatie van het Leessegment is bijgewerkt om de geconcretiseerde segmentgevolgen te weerspiegelen. [Meer informatie](building-journeys/read-segment.md)
+* De documentatie voor het Leessegment is bijgewerkt om de gevolgen voor het geconcretiseerde segment te weerspiegelen. [Meer informatie](building-journeys/read-segment.md)
 * De beperkingen voor de reis zijn bijgewerkt. [Meer informatie](building-journeys/limitations.md)
-* Bijgewerkt &quot;vorm aanbiedingen selectie in besluiten&quot;sectie. [Meer informatie](offers/offer-activities/configure-offer-selection.md)
+* Bijgewerkt Configure aanbiedingen selectie in beslissingssectie. [Meer informatie](offers/offer-activities/configure-offer-selection.md)
 * Er is een waarschuwing toegevoegd om aan te geven dat op gebeurtenissen gebaseerde aanbiedingen momenteel niet worden ondersteund. [Meer informatie](offers/offer-library/creating-personalized-offers.md#eligibility)
-* Het nieuwe tabblad Beslissingsbeheer is gedocumenteerd. [!UICONTROL Overview] [Meer informatie](offers/get-started/user-interface.md#overview)
-* Er zijn nieuwe secties toegevoegd om de acties te beschrijven die beschikbaar zijn op de lijsten met aanbiedingen en besluiten: [Aanbiedingslijst](offers/offer-library/creating-personalized-offers.md#offer-list) en [Beslissingslijst](offers/offer-activities/create-offer-activities.md#decision-list).
+* Documenteerde het nieuwe **[!UICONTROL Overview]** lusje van het Beheer van Besluit. [Meer informatie](offers/get-started/user-interface.md#overview)
+* Nieuwe secties toegevoegd om de acties te beschrijven die beschikbaar zijn op de lijsten met aanbiedingen en besluiten: [Aanbiedingslijst](offers/offer-library/creating-personalized-offers.md#offer-list) en [Beslissingslijst](offers/offer-activities/create-offer-activities.md#decision-list).
