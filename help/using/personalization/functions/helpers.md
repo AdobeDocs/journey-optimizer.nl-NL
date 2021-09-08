@@ -1,19 +1,31 @@
 ---
 title: Helpers
 description: Helpers
-feature: Personalisatie
-topic: Personalisatie
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: adb915a2013d1d1bf17ed5efb7ac4eb9c655c501
+exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
+source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 4%
+source-wordcount: '372'
+ht-degree: 3%
 
 ---
 
-
 # Helpers {#gs-helpers}
+
+## Standaardwaarde voor alternatieven{#default-value}
+
+De `Default Fallback Value` helper wordt gebruikt om een standaardreservewaarde terug te keren als een attribuut leeg of ongeldig is. Dit mechanisme werkt voor Profielkenmerken en Reisgebeurtenissen.
+
+**Syntaxis**
+
+```sql
+Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
+```
+
+In dit voorbeeld wordt de waarde `there` weergegeven als het kenmerk `firstName` van dit profiel leeg of null is.
 
 ## Voorwaarden{#if-function}
 

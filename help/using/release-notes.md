@@ -1,13 +1,13 @@
 ---
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
-source-git-commit: 1c299ec022a3985c2e9b164bc57d36948f0941d5
+exl-id: 06fa956a-b500-416e-9d42-b683c328e837
+source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1071'
 ht-degree: 10%
 
 ---
-
 
 # Release-opmerkingen {#release-notes}
 
@@ -140,9 +140,9 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 * **Achtergrond**  - Achtergrondafbeeldingen worden nu ondersteund in live voorvertoning. [Meer informatie](preview.md)
 * **Een-klik-optie-uit verbinding**  - U kunt een nieuw type verbinding in uw e-mailinhoud opnemen: Met de  **Opt-** outlink kunnen gebruikers zich niet meer abonneren op het ontvangen van uw communicatie met slechts één klik, zonder dat ze opnieuw hoeven te worden omgeleid naar een bestemmingspagina om te bevestigen dat ze de communicatie willen verlaten. [Meer informatie](message-tracking.md#one-click-opt-out-link)
 
-<!--**Personalization**
+**Personalisatie**
 
-* **Expression Editor** - You can now easily add a fall-back value when defining personalization: when personalization field is empty for a profile, the fall-back value will display. [Learn more](documentation-updates.md)-->
+* **De Redacteur**  van de uitdrukking - u kunt nu gemakkelijk een reserve waarde toevoegen wanneer het bepalen van verpersoonlijking: als het verpersoonlijkingsgebied voor een profiel leeg is, zal de reserve waarde tonen. [Meer informatie](personalization/functions/helper.md)
 
 **E-mailconfiguratie**
 
@@ -225,4 +225,3 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 * De lokalisatie in het aanbod van het spoor binnen de Redacteur van de Uitdrukking wordt nu uitgevoerd.
 * Onjuiste spatiëring in pop-ups met gegevens gecorrigeerd.
 * Probleem verholpen in de e-mailontwerper tijdens het uploaden van een HTML-bestand waarbij intern stijlblad met de eigenschap `background-image` niet werd ondersteund.
-
