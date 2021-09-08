@@ -2,7 +2,7 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5df4856c7be31a75116d906320ae50cd5dc6a2dc
+source-git-commit: 3ca2d7a8a3a55cd7caad86d72a2ac2fa9f5b315c
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 10%
@@ -142,7 +142,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 **Personalisatie**
 
-* **De Redacteur**  van de uitdrukking - u kunt nu gemakkelijk een reserve waarde toevoegen wanneer het bepalen van verpersoonlijking: als het verpersoonlijkingsgebied voor een profiel leeg is, zal de reserve waarde tonen. [Meer informatie](personalization/functions/helper.md)
+* **De Redacteur**  van de uitdrukking - u kunt nu gemakkelijk een reserve waarde toevoegen wanneer het bepalen van verpersoonlijking: als het verpersoonlijkingsgebied voor een profiel leeg is, zal de reserve waarde tonen. [Meer informatie](personalization/functions/helpers.md)
 
 **E-mailconfiguratie**
 
