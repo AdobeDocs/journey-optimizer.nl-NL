@@ -2,14 +2,14 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3ca2d7a8a3a55cd7caad86d72a2ac2fa9f5b315c
+source-git-commit: 740d76fccf966d027c63ddc72241d91cb6c8928b
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1110'
 ht-degree: 10%
 
 ---
 
-# Release-opmerkingen {#release-notes}
+# Aanvullende informatie {#release-notes}
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [!DNL Journey Optimizer]. U kunt ook de nieuwste [Documentatie-updates](documentation-updates.md) raadplegen.
 
@@ -148,7 +148,10 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 * **Lijst van gewenste personen**  - De lijst van gewenste personen kan nu op een niet-productiesandbox door een API vraag worden toegelaten en worden onbruikbaar gemaakt. [Meer informatie](allow-list.md#enable-allow-list)
 * **Navigatie**  - De suppressielijst, die toegankelijk was via  **Beheer > Kanalen > E-mailconfiguratie >** Algemeen menu, is verplaatst naar het nieuwe  **keuzemenu** Onderdrukking, dat alle verwante mogelijkheden voor gemakkelijkere toegang verzamelt. [Meer informatie](configuration/manage-suppression-list.md#access-suppression-list)
-<!--* **Suppression list** - Adding email addresses and domains into the suppression list is now available from the user interface, either one by one, either in bulk mode through a CSV file upload. [Learn more](configuration/manage-suppression-list.md#add-addresses-and-domains)-->
+
+**Beslissingsbeheer**
+
+* De manier u toevoegt en vertegenwoordiging vormt wanneer het creëren van een aanbieding is bijgewerkt voor betere gebruikerservaring. Met name wordt de bibliotheek met middelen nu alleen weergegeven wanneer u inhoud van het afbeeldingstype definieert voor een representatie. [Meer informatie](offers/offer-library/creating-personalized-offers.md#representations)
 
 ### Oplossingen
 

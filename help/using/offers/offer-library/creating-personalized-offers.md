@@ -5,10 +5,11 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
+exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
+source-git-commit: 024a450724aecfde0eab7ab97421052a0aa99f2e
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 1%
+source-wordcount: '1278'
+ht-degree: 0%
 
 ---
 
@@ -44,43 +45,67 @@ Ga als volgt te werk om een **aanbieding** te maken:
 
 ## De representaties van de aanbieding configureren {#representations}
 
-1. Voeg een of meerdere representaties voor uw aanbieding toe met de knop **[!UICONTROL Add representation]**.
+Een aanbieding kan op verschillende plaatsen in een bericht worden getoond: in een bovenste banner met een afbeelding, als tekst in een alinea, als een HTML-blok, enz. Hoe meer vertegenwoordigingen een aanbieding heeft, des te meer mogelijkheden er zijn om het aanbod in verschillende plaatsingscontexten te gebruiken.
 
-   >[!NOTE]
-   >
-   >Een aanbieding kan op verschillende plaatsen in een bericht worden getoond: in een bovenste banner met een afbeelding, als tekst in een alinea, als een HTML-blok, enz. Hoe meer vertegenwoordigingen een aanbieding heeft, des te meer mogelijkheden er zijn om het aanbod in verschillende plaatsingscontexten te gebruiken.
+Volg onderstaande stappen om een of meerdere vertegenwoordigingen aan uw aanbieding toe te voegen en deze te configureren.
 
-1. Geef voor elke representatie de **[!UICONTROL Channel]** en de **[!UICONTROL Placement]** op waar de aanbieding wordt weergegeven.
+1. Voor de eerste vertegenwoordiging, begin door **[!UICONTROL Channel]** te selecteren die zal worden gebruikt.
 
    ![](../../assets/channel-placement.png)
 
-   Met de knop **[!UICONTROL Browse]** kunt u beschikbare plaatsen filteren en filteren op basis van hun kanaal en/of inhoudstype.
+   Alleen de beschikbare plaatsen voor het geselecteerde kanaal worden weergegeven in de vervolgkeuzelijst **[!UICONTROL Placement]**.
+
+1. Selecteer een plaatsing van de lijst, of gebruik de knoop naast **[!UICONTROL Placement]** drop-down lijst om alle plaatsen te doorbladeren.
+
+   ![](../../assets/browse-button-placements.png)
+
+   Daar kunt u de plaatsingen volgens hun kanaal en/of inhoudstype nog filtreren. Kies een plaatsing en klik **[!UICONTROL Select]**.
 
    ![](../../assets/browse-placements.png)
 
-1. Voeg inhoud toe aan elke representatie die afkomstig is uit de Adobe Experience Cloud Assets-bibliotheek of van een externe openbare locatie.
+1. Voeg inhoud toe aan uw representatie.
 
-   * Als u inhoud uit de Adobe Experience Cloud Assets-bibliotheek wilt toevoegen, sleept u deze vanuit het linkerdeelvenster naar het weergavegebied en geeft u vervolgens de URL op die u aan de inhoud wilt koppelen in het veld **[!UICONTROL Destination link]**.
+   >[!NOTE]
+   >
+   >Alleen inhoud die overeenkomt met het inhoudstype van de plaatsing is beschikbaar voor gebruik.
+
+   * Als de geselecteerde plaatsing van het afbeeldingstype is, kunt u inhoud toevoegen die afkomstig is uit de Adobe Experience Cloud Asset-bibliotheek, een gecentraliseerde opslagplaats voor elementen die wordt geleverd door [!DNL Adobe Experience Manager Assets Essentials].
 
       >[!NOTE]
       >
-      >Inhoud kan alleen worden gesleept en verwijderd uit de elementkiezer in het linkerdeelvenster. Alleen inhoud die overeenkomt met het inhoudstype van de plaatsing is beschikbaar voor gebruik.
+      > Als u met [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;} wilt werken, moet u [!DNL Assets Essentials] voor uw organisatie implementeren en ervoor zorgen dat gebruikers deel uitmaken van de **Assets Essentials Consumer Users** of **Assets Essentials Users**-productprofielen. Leer meer op [deze pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
-      ![](../../assets/offer_drag_content.png)
+      Kies de optie **[!UICONTROL Asset library]** en selecteer **[!UICONTROL Browse]**.
 
-   * Als u inhoud van een externe openbare locatie wilt toevoegen, klikt u op de knop **[!UICONTROL Add content]** en geeft u vervolgens de naam, de URL en de koppeling Doel op van de inhoud die u wilt toevoegen.
+      ![](../../assets/offer-browse-asset-library.png)
 
-      Zorg ervoor dat de inhoud die u toevoegt, overeenkomt met het inhoudstype van de geselecteerde plaatsing.
+      Blader door de elementen om de gewenste afbeelding te selecteren en klik op **[!UICONTROL Select]**.
 
-      ![](../../assets/offer_add_content.png)
+      ![](../../assets/offer-select-asset.png)
 
-   * U kunt ook teksttype-inhoud invoegen. Om dit te doen, klik **[!UICONTROL Add content]** knoop, dan selecteer **[!UICONTROL Custom text]** optie. Typ in het veld **[!UICONTROL Text]** de tekst die in de aanbieding wordt weergegeven.
+   * Als u inhoud van een externe openbare locatie wilt toevoegen, selecteert u **[!UICONTROL URL]** en voert u het URL-adres in van de inhoud die u wilt toevoegen.
+
+      ![](../../assets/offer-content-url.png)
+
+   * U kunt ook teksttype-inhoud invoegen wanneer u een compatibele plaatsing selecteert. Selecteer de optie **[!UICONTROL Custom]** en typ de tekst die in de aanbieding wordt weergegeven.
+
+      ![](../../assets/offer-text-content.png)
 
       >[!NOTE]
       >
       >Deze optie is niet beschikbaar voor afbeeldingstypeplaatsingen.
 
-      ![](../../assets/offer_text_content.png)
+1. Wanneer u inhoud zoals een beeld of URL toevoegt, kunt u **[!UICONTROL Destination link]** specificeren: de gebruikers die op de aanbieding klikken, worden naar de bijbehorende pagina geleid.
+
+   ![](../../assets/offer-destination-link.png)
+
+1. Tot slot selecteer de taal van uw keus helpen identificeren en beheren wat aan vertoning aan de gebruikers te beheren.
+
+1. Als u een andere representatie wilt toevoegen, gebruikt u de knop **[!UICONTROL Add representation]** en voegt u zoveel representaties toe als u nodig hebt.
+
+   ![](../../assets/offer-add-representation.png)
+
+1. Nadat u al uw voorstellingen hebt toegevoegd, selecteert u **[!UICONTROL Next]**.
 
 ## Subsidiabiliteitsregels en beperkingen toevoegen {#eligibility}
 

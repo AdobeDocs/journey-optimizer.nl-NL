@@ -1,13 +1,13 @@
 ---
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
-source-git-commit: 61c6f63d8a61b3cdc0f08f7c9b2323cc4710eb88
+exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
+source-git-commit: 04945572fc027fd063a1f52638205f39086767cf
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 12%
+source-wordcount: '472'
+ht-degree: 16%
 
 ---
-
 
 # Laatste updates in deze documentatie
 
@@ -20,7 +20,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Bijgewerkte screenshots van e-mailontwerpers met de nieuwste gebruikersinterface.
 * De configuratieprocedure voor aangepaste handelingen met dynamische URL-paden en dynamische koppen is bijgewerkt. [Meer informatie](action/about-custom-action-configuration.md#url-configuration)
 * Een sectie over toegankelijkheidsfuncties en sneltoetsen toegevoegd. [Meer informatie](user-interface.md#accessibility)
-* Toegevoegd een sectie over de methodes van de segmentevaluatie. [Meer informatie](segment/about-segments.md#evaluation-method-in-journey-optimizer)
+* Er is een sectie over de methodes van de segmentevaluatie toegevoegd. [Meer informatie](segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * Toegevoegde notities bij de lijst Onderdrukking, de secties Lijst van gewenste personen en E-mail global/live om aan te geven dat profielen met de status Onderdrukt en Niet toegestaan zijn uitgesloten van het e-mailrapport Metriek verzonden. [Meer informatie](reports/email-global-report.md)
 * Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe e-mailadressen of domeinen kunnen worden opgehaald die zijn uitgesloten van een verzendende server omdat deze zich niet op de lijst van gewenste personen bevonden. [Meer informatie](allow-list.md#reporting)
 * De sectie lijst van gewenste personen inschakelen is bijgewerkt. [Meer informatie](allow-list.md#enable-allow-list)
@@ -30,6 +30,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De subdomeinsectie Delegeren is bijgewerkt met meer gedetailleerde informatie over het validatieproces dat door Adobe wordt uitgevoerd. [Meer informatie](configuration/delegate-subdomain.md#subdomain-validation)
 * Er is een sectie toegevoegd waarin wordt beschreven hoe u handmatig e-mailadressen en domeinen aan de suppressielijst kunt toevoegen. [Meer informatie](configuration/manage-suppression-list.md#add-addresses-and-domains)
 * De secties [Access the suppression list](configuration/manage-suppression-list.md#access-suppression-list) en [Retries](configuration/retries.md) zijn bijgewerkt om de nieuwe gebruikersinterface te weerspiegelen.
+* De nieuwe stroom om vertegenwoordiging toe te voegen en te vormen wanneer het creëren van een aanbieding is gedocumenteerd. [Meer informatie](offers/offer-library/creating-personalized-offers.md#representations)
 
 
 ## Juli 2021
