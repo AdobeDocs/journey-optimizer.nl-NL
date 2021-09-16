@@ -11,14 +11,13 @@ topic-tags: null
 discoiquuid: null
 internal: n
 snippet: y
-exl-id: 0964a484-f957-4aae-a571-61b2a1615026
-feature: Applicatie-instellingen
-topic: Beheer
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+source-git-commit: b32306f9561946a6c289e5e9c7cc3243349141bc
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '319'
 ht-degree: 36%
 
 ---
@@ -29,7 +28,7 @@ Als u berichten wilt verzenden met ritten, moet u **[!UICONTROL Data Sources]**,
 
 ![](../assets/admin-menu.png)
 
-## Databronnen
+## Gegevensbronnen
 
 De configuratie van de Gegevensbron staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw reizen zal worden gebruikt. [Meer informatie](../../using/datasource/about-data-sources.md)
 

@@ -2,13 +2,14 @@
 title: Journeyversies
 description: Meer informatie over reisversies
 feature: Journeys
-topic: Contentmanagement
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 4%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +25,7 @@ Als u zich aan een levende reis moet aanpassen, moet u een nieuwe versie van uw 
 
 >[!NOTE]
 >
->Zie [deze pagina](../building-journeys/limitations.md#journey-versions-limitations) voor meer informatie over beperkingen van reisversies
+>Zie [deze pagina](../limitations.md#journey-versions-limitations) voor meer informatie over beperkingen van reisversies
 
 1. Open de nieuwste versie van uw livereis, klik **[!UICONTROL Create a new version]** en bevestig.
 

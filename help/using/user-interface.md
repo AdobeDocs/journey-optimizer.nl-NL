@@ -5,9 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
+exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1459'
 ht-degree: 7%
 
 ---
@@ -22,7 +23,7 @@ Blader naar [Adobe Experience Cloud](http://experience.adobe.com) als u eenmaal 
 >
 >* Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
 >
-> * De componenten en mogelijkheden die beschikbaar zijn in de gebruikersinterface zijn afhankelijk van uw machtigingen en uw licentiepakket. Neem voor alle vragen contact op met uw Adobe Customer Success Manager.
+>* De componenten en de mogelijkheden beschikbaar in het gebruikersinterface hangen van uw [toestemmingen ](administration/permissions.md) en op uw [verlenen van vergunningen pakket](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;} af. Neem voor alle vragen contact op met uw Adobe Customer Success Manager.
 
 
 ## Linkernavigatie
@@ -110,7 +111,7 @@ U kunt tot uitgevoerde gebruiksgevallen van de **[!UICONTROL View use case libra
 
 ## Toegankelijkheid{#accessibility}
 
-De toegankelijkheidsfuncties in Adobe Journey Optimizer worden geleverd door Adobe Experience Platform:
+De toegankelijkheidsfuncties in [!DNL Adobe Journey Optimizer] worden overgenomen van Adobe Experience Platform:
 
 * Toegankelijkheid toetsenbord
 * Kleurcontrast
@@ -118,7 +119,7 @@ De toegankelijkheidsfuncties in Adobe Journey Optimizer worden geleverd door Ado
 
 [Meer](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html) informatie over {target=&quot;_blank&quot;} vindt u in de documentatie van Adobe Experience Platform.
 
-U kunt de volgende algemene sneltoetsen gebruiken in Adobe Journey Optimizer:
+U kunt deze algemene sneltoetsen gebruiken in [!DNL Journey Optimizer]:
 
 | Actie | Sneltoets |
 | --- | --- |

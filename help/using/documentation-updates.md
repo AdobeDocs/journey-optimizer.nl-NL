@@ -2,7 +2,7 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 04945572fc027fd063a1f52638205f39086767cf
+source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 16%
@@ -46,7 +46,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * In documentatie en schermen hernoemd tot &#39;aanbiedingsactiviteiten&#39; als &#39;besluiten&#39; en &#39;besluiten&#39; als &#39;besluiten&#39;. [Meer informatie](offers/get-started/starting-offer-decisioning.md)
 * Nieuwe gebruikscase: [Een bericht personaliseren met hulpfuncties](personalization/personalization-use-case-helper-functions.md)
 * De documentatie voor het Leessegment is bijgewerkt om de gevolgen voor het geconcretiseerde segment te weerspiegelen. [Meer informatie](building-journeys/read-segment.md)
-* De beperkingen voor de reis zijn bijgewerkt. [Meer informatie](building-journeys/limitations.md)
+* De beperkingen voor de reis zijn bijgewerkt. [Meer informatie](limitations.md)
 * Bijgewerkt Configure aanbiedingen selectie in beslissingssectie. [Meer informatie](offers/offer-activities/configure-offer-selection.md)
 * Er is een waarschuwing toegevoegd om aan te geven dat op gebeurtenissen gebaseerde aanbiedingen momenteel niet worden ondersteund. [Meer informatie](offers/offer-library/creating-personalized-offers.md#eligibility)
 * Documenteerde het nieuwe **[!UICONTROL Overview]** lusje van het Beheer van Besluit. [Meer informatie](offers/get-started/user-interface.md#overview)
