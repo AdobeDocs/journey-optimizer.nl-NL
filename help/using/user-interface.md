@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 7%
@@ -17,13 +17,13 @@ ht-degree: 7%
 
 Blader naar [Adobe Experience Cloud](http://experience.adobe.com) als u eenmaal verbinding hebt met [!DNL Journey Optimizer].
 
+Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Raadpleeg [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} voor meer informatie.
+
+De componenten en de mogelijkheden beschikbaar in het gebruikersinterface hangen van uw [toestemmingen ](administration/permissions.md) en op uw [verlenen van vergunningen pakket](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;} af. Neem voor alle vragen contact op met uw Adobe Customer Success Manager.
+
 >[!NOTE]
 >
->* Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Raadpleeg [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} voor meer informatie.
->
->* Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
->
->* De componenten en de mogelijkheden beschikbaar in het gebruikersinterface hangen van uw [toestemmingen ](administration/permissions.md) en op uw [verlenen van vergunningen pakket](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;} af. Neem voor alle vragen contact op met uw Adobe Customer Success Manager.
+>Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
 
 
 ## Linkernavigatie

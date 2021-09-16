@@ -1,14 +1,15 @@
 ---
 title: Snel starten
 description: Journey Optimizer Quick Start
-feature: Overzicht
-topic: Contentmanagement
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
+source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 8%
+source-wordcount: '522'
+ht-degree: 5%
 
 ---
 
@@ -20,40 +21,55 @@ Met [!DNL Adobe Journey Optimizer], kunt u bestaande berichtinhoud invoeren of e
 
 Gebaseerd op uw organisatie, kunt u verscheidene types van gebruikers bepalen en hen toegang tot bepaalde mogelijkheden afhankelijk van hun toestemmingen verlenen.
 
-### Vereisten {#cjm-prerequisites}
+## Uw omgeving voorbereiden en configureren
 
-Voordat u met het gebruik van [!DNL Adobe Journey Optimizer] begint, moet u:
+Voordat u met het gebruik van [!DNL Adobe Journey Optimizer] begint, zijn verschillende stappen vereist om uw omgeving voor te bereiden.
 
-* **Gebruikersmachtigingen** instellen: Meld u aan bij  [!DNL Adobe Journey Optimizer] en geef toegang tot uw teamleden. [Meer informatie](../using/administration/permissions.md)
+Als Beheerder van het Systeem, moet u productprofielen **begrijpen en toestemmingen** voor zandbakbeheer en kanaalconfiguratie toewijzen. U moet ook een of meer sandboxen instellen en deze beheren voor de beschikbare productprofielen.
+U zult dan teamleden aan productprofielen en **opstelling kanaalconfiguratie** voor overseinen kunnen toewijzen.
 
-* **Implementeren[!DNL Adobe Experience Manager Assets Essentials]**: Als u elementen en afbeeldingen in uw berichten wilt beheren, moet u deze implementeren  [!DNL Assets Essentials] voor uw organisatie en ervoor zorgen dat gebruikers die toegang tot  [!DNL Assets Essentials]deze bestanden nodig hebben, deel uitmaken van de profielen  **Assets Essentials Consumer** User/and  **Assets Essentials** UsersProduct. [Meer](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) lezen{target=&quot;_blank&quot;}
+Meer informatie vindt u op de volgende pagina&#39;s:
 
-* **Vorm uw kanalen**: definieer de instellingen voor e-mail- en pushmeldingen. [Meer informatie](../using/configuration/get-started-configuration.md)
+* **Aan de slag met productprofielen en machtigingen**
 
-* **Definieer uw voorinstellingen**: Maak uw voorinstellingen en configureer de merkparameters. [Meer informatie](../using/configuration/message-presets.md)
+* **Stel gebruikersmachtigingen in** en geef toegang tot uw teamleden. [Meer informatie](../using/administration/permissions.md)
 
-* **Identificeer gegevens en creeer schema en dataset**: U kunt uw gegevens in Adobe Experience Platform ophalen, een naamruimte voor identiteiten maken en een gegevensset voor profielen maken, segmenten en testprofielen maken.
+* **Implementeer[!DNL Adobe Experience Manager Assets Essentials]** om elementen en afbeeldingen in uw berichten te beheren: gebruikers die toegang tot  [!DNL Assets Essentials] moeten hebben, moeten deel uitmaken van de profielen  **Assets Essentials Consumer** User/and  **Assets Essentials** UsersProduct. [Meer](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) lezen{target=&quot;_blank&quot;}
 
-   * Leer hoe te voorproef en een dataset in [Adobe Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=nl){target=&quot;_blank&quot; te creëren
+* **Configureer uw** kanalen en definieer de instellingen voor e-mail- en pushmeldingen. [Meer informatie](../using/configuration/get-started-configuration.md)
 
-   * Leer hoe te om een identiteit te creëren namespace in [Adobe Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces){target=&quot;_blank&quot;}
+* **Definieer uw** voorinstellingen en configureer de parameters voor branding. [Meer informatie](../using/configuration/message-presets.md)
 
-   * Leer hoe u testprofielen maakt op [deze pagina](../using/building-journeys/creating-test-profiles.md)
-
-   * Meer informatie over gegevensinvoer in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target=&quot;_blank&quot;}
+* **Beheer** sandboxen om uw instantie op te delen in afzonderlijke virtuele omgevingen. [Meer informatie](../using/administration/sandboxes.md)
 
 
-### Gebruiksstroom
+## Uw gegevens voorbereiden en uw reizen configureren
 
-Raadpleeg de volgende secties voor het instellen van uw eerste reis en het verzenden van berichten:
+Als gegevensbeheerder, moet u **gegevens identificeren en schema en dataset** creëren om uw gegevens in Adobe Experience Platform te krijgen.
+
+De stappen om een identiteitsnamespace en een dataset tot stand te brengen die voor profielen wordt toegelaten, en segmenten en testprofielen tot stand te brengen zijn gedetailleerd in de hieronder secties:
+
+* Leer hoe te voorproef en tot een **dataset** in [Adobe Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=nl){target=&quot;_blank&quot;} te leiden
+
+* Leer hoe te om een **identity namespace** in [Adobe Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces){target=&quot;_blank&quot; te creëren
+
+* Meer informatie over het maken van **testprofielen** in [deze pagina](../using/building-journeys/creating-test-profiles.md)
+
+* Meer informatie over **gegevensinvoer** in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target=&quot;_blank&quot;}
+
+* Leer hoe u **publiek definieert**, segmenten maakt, toestemmingen en privacy beheert in [deze pagina](../using/segment/about-segments.md)
+
+Daarnaast moet u **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]** configureren om berichten tijdens reizen te kunnen verzenden. Meer informatie in [deze sectie](../using/configuration/about-data-sources-events-actions.md)
+
+## Berichten, aanbiedingen en reizen maken
+
+Raadpleeg als praktijkbeoefenaar Reis de volgende secties voor het instellen van uw eerste reis, het toevoegen van aanbiedingen, middelen en het verzenden van berichten:
 
 * **Berichten** maken: toegang te krijgen tot berichten, e-mail- en pushinhoud te ontwerpen of te laden, personalisatie- en voorvertoningsberichten toe te voegen. [Meer informatie](create-message.md)
 
 * **Elementen** uploaden: Adobe Experience Manager Assets Essentials gebruiken om elementen en afbeeldingen te beheren. [Meer informatie](assets-essentials.md)
 
 * **Voorstellen** toevoegen: Met Journey Optimizer-beheer kunt u persoonlijke aanbiedingen toevoegen aan uw berichten. [Meer informatie](../using/offers/get-started/starting-offer-decisioning.md)
-
-* **Doelgroep** definiëren: segmenten maken, gebeurtenissen maken, toestemming en privacy beheren. [Meer informatie](../using/segment/about-segments.md)
 
 * **Reizen** maken: U kunt berichten verzenden, contextafhankelijke gegevens gebruiken, het publiek verfijnen, gebruiksscenario&#39;s in meerdere stappen ontwerpen en uitvoeren. [Meer informatie](building-journeys/journey.md)
 

@@ -2,16 +2,21 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 16%
+source-wordcount: '492'
+ht-degree: 20%
 
 ---
 
 # Laatste updates in deze documentatie
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
+
+## September 2021
+
+* Er is een nieuwe pagina **Beperkingen** toegevoegd. [Meer informatie](limitations.md)
+* De pagina **Snel starten** is verbeterd met stappen voor verschillende personen. [Meer informatie](quick-start.md)
 
 ## Augustus 2021
 
@@ -30,7 +35,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De subdomeinsectie Delegeren is bijgewerkt met meer gedetailleerde informatie over het validatieproces dat door Adobe wordt uitgevoerd. [Meer informatie](configuration/delegate-subdomain.md#subdomain-validation)
 * Er is een sectie toegevoegd waarin wordt beschreven hoe u handmatig e-mailadressen en domeinen aan de suppressielijst kunt toevoegen. [Meer informatie](configuration/manage-suppression-list.md#add-addresses-and-domains)
 * De secties [Access the suppression list](configuration/manage-suppression-list.md#access-suppression-list) en [Retries](configuration/retries.md) zijn bijgewerkt om de nieuwe gebruikersinterface te weerspiegelen.
-* De nieuwe stroom om vertegenwoordiging toe te voegen en te vormen wanneer het creëren van een aanbieding is gedocumenteerd. [Meer informatie](offers/offer-library/creating-personalized-offers.md#representations)
+* De nieuwe stroom om weergaven toe te voegen en te configureren wanneer u een aanbod maakt, is gedocumenteerd. [Meer informatie](offers/offer-library/creating-personalized-offers.md#representations)
 
 
 ## Juli 2021
