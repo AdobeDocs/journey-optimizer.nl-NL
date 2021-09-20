@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 395ce682c52880bc67234b254f3ff55fae07f82e
+source-git-commit: 1cf3475d7b2b990db4b2217bb03a47b76692142c
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 3%
@@ -147,7 +147,7 @@ Blokkeringen zijn expressies met een blokopening ({{# }}) en een sluitend ({{/})
 
 Met Journey Orchestration kunt u een of meer URL&#39;s in uw bericht aanpassen door er personalisatievelden aan toe te voegen. Dit doet u als volgt:
 
-* Maak een koppeling in uw e-mail- of pushinhoud. Als u meer wilt weten over het maken van koppelingen, raadpleegt u [deze pagina](../message-tracking#insert-links)).
+* Maak een koppeling in uw e-mail- of pushinhoud. Als u meer wilt weten over het maken van koppelingen, raadpleegt u [deze pagina](../message-tracking.md#insert-links)).
 * Klik op het verpersoonlijkingspictogram. Dit pictogram is beschikbaar voor deze specifieke typen koppelingen: **Externe koppeling**, **Niet-abonnementskoppeling** en **Opt-Out**.
 
 ![](assets/perso-url.png)
