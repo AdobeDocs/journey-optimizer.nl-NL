@@ -2,10 +2,10 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 740d76fccf966d027c63ddc72241d91cb6c8928b
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 10%
+source-wordcount: '1171'
+ht-degree: 13%
 
 ---
 
@@ -29,7 +29,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 <td>
 <p>Verzend automatisch uw pushbericht of e-mail op het beste moment voor elke klant die u met Adobe Journey Optimizer werkt. De Optimalisering van de Send-Time, aangedreven door de diensten AI van Adobe, voorspelt de beste tijd om een e-mail of duw bericht te verzenden om overeenkomst te maximaliseren die op historische open wordt gebaseerd en tarieven uit de doos te klikken.</p>
 <p>Deze functie is momenteel in bètaversie beschikbaar voor bètaklanten. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.</p>
-<p>Raadpleeg voor meer informatie de <a href="building-journeys/journeys-message.md#send-time-optimization">gedetailleerde documentatie</a>.</p>
+<p>Raadpleeg de <a href="building-journeys/journeys-message.md#send-time-optimization">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -46,29 +46,29 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 <tr>
 <td>
 <p>U kunt hefboomwerkingsverhoudingen tussen schema's nu wanneer het vormen van een bedrijfsgebeurtenissen. Dit komt naast de capaciteit aan hefboomwerkings gebieden van verbonden lijsten wanneer het vormen van een eenheidsgebeurtenis, wanneer het gebruiken van voorwaarden in een reis, in berichtverpersoonlijking, en in de verpersoonlijking van de douaneactie.</p>
-<p>Raadpleeg voor meer informatie de <a href="event/experience-event-schema.md#leverage_schema_relationships">gedetailleerde documentatie</a>.</p>
+<p>Raadpleeg de <a href="event/experience-event-schema.md#leverage_schema_relationships">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
+
 <table>
 <thead>
 <tr>
-<th><strong>Personalized URLs</strong><br/></th>
+<th><strong>Persoonlijke URL's</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Personalized URLs take recipients to specific pages of a website, or to a personalized microsite, depending on the profile attributes. In Adobe Journey Optimizer, you can now add personalization to URLs in your message content. URL personalization can be applied to text and images, and use profile data or contextual data.</p>
-<p>For more information, refer to the <a href="documentation-updates.md">detailed documentation</a>.</p>
+<p>Persoonlijke URL's sturen ontvangers naar specifieke pagina's van een website of naar een gepersonaliseerde microsite, afhankelijk van de profielkenmerken. In Adobe Journey Optimizer kunt u nu personalisatie toevoegen aan URL's in de inhoud van uw bericht. U kunt URL-aanpassing toepassen op tekst en afbeeldingen en profielgegevens of contextafhankelijke gegevens gebruiken.</p>
+<p>Raadpleeg de <a href="personalization/personalization-syntax.md#perso-urls">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
+
 
 <table>
 <thead>
@@ -80,7 +80,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 <tr>
 <td>
 <p>U kunt de periode voor het opnieuw proberen nu op een vooraf ingestelde basis bepalen om ervoor te zorgen dat de pogingen voor het opnieuw proberen niet meer worden uitgevoerd wanneer niet meer nodig is. U kunt bijvoorbeeld de periode voor het opnieuw proberen instellen op 24 uur voor een bericht voor het opnieuw instellen van een wachtwoord dat een koppeling bevat die slechts een dag geldig is. Opnieuw proberen is alleen van toepassing op het e-mailkanaal.</p>
-<p>Raadpleeg voor meer informatie de <a href="configuration/retries.md#retry-duration">gedetailleerde documentatie</a>.</p>
+<p>Raadpleeg de <a href="configuration/retries.md#retry-duration">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -96,7 +96,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 <tr>
 <td>
 <p>Het toevoegen van e-mailadressen en domeinen aan de suppressielijst is nu beschikbaar bij de gebruikersinterface, één voor één, of in bulkwijze door een Csv- dossier te uploaden.</p>
-<p>Raadpleeg voor meer informatie de <a href="configuration/manage-suppression-list.md#add-addresses-and-domains">gedetailleerde documentatie</a>.</p>
+<p>Raadpleeg de <a href="configuration/manage-suppression-list.md#add-addresses-and-domains">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -151,7 +151,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 **Beslissingsbeheer**
 
-* De manier u toevoegt en vertegenwoordiging vormt wanneer het creëren van een aanbieding is bijgewerkt voor betere gebruikerservaring. Met name wordt de bibliotheek met middelen nu alleen weergegeven wanneer u inhoud van het afbeeldingstype definieert voor een representatie. [Meer informatie](offers/offer-library/creating-personalized-offers.md#representations)
+* De manier waarop op weergaven toevoegt en configureert wanneer u een aanbod maakt, is bijgewerkt voor een betere gebruikerservaring. In het bijzonder wordt de bibliotheek met assets nu alleen weergegeven wanneer u content van het afbeeldingstype voor een weergave definieert. [Meer informatie](offers/offer-library/creating-personalized-offers.md#representations)
 
 ### Oplossingen
 
@@ -162,7 +162,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 * U kunt nu nagaan waarom het maken van een berichtvoorinstelling is mislukt door een explicietere waarschuwing in de gebruikersinterface.
 
 
-## Release juli 2021 {#july-2021-release}
+## Release van juli 2021 {#july-2021-release}
 
 ### Nieuwe functies
 
@@ -177,7 +177,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 <td>
 <p>Verrijk je ervaringen met referentiegegevens die je in Journey Optimizer hebt geladen. Voorbeelden zijn het opzoeken van metagegevens over een reserverings-id in een ervaringsgebeurtenis of het opzoeken van productinformatie van een sku in een ervaringsgebeurtenis voor gebruik op het canvas. </p>
 <p>U kunt hefboomwerkingsverhoudingen tussen schema's nu om één dataset als raadplegingslijst voor een andere te gebruiken. U kunt dan hefboomwerking alle gebieden van de verbonden lijsten wanneer het vormen van een eenheidsgebeurtenis, wanneer het gebruiken van voorwaarden in een reis, in berichtverpersoonlijking, en in de verpersoonlijking van de douaneactie.</p>
-<p>Raadpleeg voor meer informatie de <a href="event/experience-event-schema.md#leverage_schema_relationships">gedetailleerde documentatie</a>.</p>
+<p>Raadpleeg de <a href="event/experience-event-schema.md#leverage_schema_relationships">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -193,7 +193,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 <tr>
 <td>
 <p>U kunt nu een specifieke verzendende-veilige lijst op het zandbakniveau bepalen, om een veilige milieu voor testend doel te hebben. Op een niet-productiegeval, waar de fouten kunnen voorkomen, verzekert de lijst van gewenste personen u geen risico om ongewenste berichten naar uw klanten te verzenden. Deze functie wordt ingeschakeld door gebruik te maken van onderdrukking-API's.</p>
-<p>Raadpleeg voor meer informatie de <a href="allow-list.md">gedetailleerde documentatie</a>.</p>
+<p>Raadpleeg de <a href="allow-list.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>

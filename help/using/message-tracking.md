@@ -5,7 +5,8 @@ feature: Monitoring
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6ff5d093bac20248106be1f4478102c29703cb1d
+exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -56,7 +57,7 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
    ![](assets/message-tracking-links.png)
 
-1. U kunt uw koppelingen aanpassen. Meer informatie over gepersonaliseerde URL&#39;s vindt u in [deze sectie](personalization/personalization-syntax.md).
+1. U kunt uw koppelingen aanpassen. Meer informatie over gepersonaliseerde URL&#39;s vindt u in [deze sectie](personalization/personalization-syntax.md#perso-urls).
 
 1. Sla uw wijzigingen op.
 
@@ -142,5 +143,3 @@ Met de [e-mailontwerper](create-email-content.md) kunt u de bijgehouden URL&#39;
 Het aantal berichten dat is geopend en het aantal verbindingen die zijn geklikt zijn vermeld in [Uitvoeringen tabel](message-monitoring.md).
 
 Rapportage over openingen en kliks is beschikbaar in [E-mail Live rapport](reports/email-live-report.md) en in [E-mail Globaal rapport](reports/email-global-report.md).
-
-

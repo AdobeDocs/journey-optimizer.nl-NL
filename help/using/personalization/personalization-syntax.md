@@ -1,17 +1,17 @@
 ---
 title: Personalisatiesyntaxis
 description: Leer hoe u de syntaxis voor personalisatie gebruikt
-feature: Personalisatie
-topic: Personalisatie
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
+source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '648'
 ht-degree: 3%
 
 ---
-
 
 # Personalisatiesyntaxis {#personalization-syntax}
 
@@ -76,7 +76,6 @@ Leer hoe u profielkenmerken in voorwaarden in [deze sectie](functions/helpers.md
 >[!NOTE]
 >Raadpleeg [deze sectie](../segment/about-segments.md) voor meer informatie over segmentatie en segmentatieservice.
 
-
 ## Aanbiedingen
 
 Met deze naamruimte kunt u verwijzen naar bestaande aanbiedingen.
@@ -129,7 +128,6 @@ Blokkeringen zijn expressies met een blokopening ({{# }}) en een sluitend ({{/})
 >
 >Helperfuncties worden beschreven in [deze sectie](functions/helpers.md).
 
-
 ## Letterlijke typen
 
 [!DNL Adobe Journey Optimizer] ondersteunt de volgende letterlijke typen:
@@ -144,3 +142,24 @@ Blokkeringen zijn expressies met een blokopening ({{# }}) en een sluitend ({{/})
 >[!CAUTION]
 >
 >Het gebruik van **xEvent** variabele is niet beschikbaar in verpersoonlijkingsuitdrukkingen. Elke verwijzing naar xEvent resulteert in validatiefouten.
+
+## URL-personalisatie{#perso-urls}
+
+Met Journey Orchestration kunt u een of meer URL&#39;s in uw bericht aanpassen door er personalisatievelden aan toe te voegen. Dit doet u als volgt:
+
+* Maak een koppeling in uw e-mail- of pushinhoud. Als u meer wilt weten over het maken van koppelingen, raadpleegt u [deze pagina](../message-tracking#insert-links)).
+* Klik op het verpersoonlijkingspictogram. Dit pictogram is beschikbaar voor deze specifieke typen koppelingen: **Externe koppeling**, **Niet-abonnementskoppeling** en **Opt-Out**.
+
+![](assets/perso-url.png)
+
+>[!NOTE]
+>`
+>In de uitdrukkingsredacteur, wanneer u een gepersonaliseerde URL uitgeeft, zijn de hulpfuncties en segmentlidmaatschap om veiligheidsredenen gehandicapt.
+
+** Voorbeeld van gepersonaliseerde URL&#39;s **
+
+* `https://www.adobe.com/users/{{profile.person.name.lastName}}`
+* `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
+* `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
+* `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
+
