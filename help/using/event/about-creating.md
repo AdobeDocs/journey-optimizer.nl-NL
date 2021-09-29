@@ -1,14 +1,15 @@
 ---
 title: Een eenheidsgebeurtenis configureren
 description: Leer hoe u een eenheidsgebeurtenis configureert
-feature: Gebeurtenissen
-topic: Beheer
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
+source-git-commit: b219f900d8349c46c01a0dd3110e441694e47b5f
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 12%
+source-wordcount: '1703'
+ht-degree: 13%
 
 ---
 
@@ -59,7 +60,7 @@ Hier volgen de eerste stappen voor het configureren van een nieuwe gebeurtenis:
 
    >[!NOTE]
    >
-   >De geavanceerde uitdrukkingsredacteur is niet beschikbaar wanneer het bepalen van **[!UICONTROL Event ID condition]**.
+   >De geavanceerde uitdrukkingsredacteur is niet beschikbaar wanneer het bepalen van **[!UICONTROL Event ID condition]**. In de eenvoudige expressie-editor zijn niet alle operatoren beschikbaar, maar zijn ze afhankelijk van het gegevenstype. Voor een tekenreekstype kunt u bijvoorbeeld &quot;contains&quot; of &quot;equal to&quot; gebruiken.
 
 1. Voeg een naamruimte toe. Deze stap is optioneel, maar wordt aangeraden, omdat u door het toevoegen van een naamruimte gegevens kunt gebruiken die zijn opgeslagen in de real-timeklantprofielservice. U definieert zo het type sleutel van de gebeurtenis. Zie [deze sectie](../event/about-creating.md#select-the-namespace).
 1. Definieer de profiel-id: Kies een veld in uw payload-velden of definieer een formule om de persoon te identificeren die aan de gebeurtenis is gekoppeld. Deze sleutel wordt automatisch ingesteld (maar kan nog steeds worden bewerkt) als u een naamruimte selecteert. Reizen kiezen immers de sleutel die moet overeenkomen met de naamruimte (als u bijvoorbeeld een naamruimte voor e-mail selecteert, wordt de e-mailsleutel geselecteerd). Zie [deze sectie](../event/about-creating.md#define-the-event-key).
@@ -101,9 +102,9 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 
 ## De naamruimte selecteren {#select-the-namespace}
 
-Met de naamruimte kunt u het type sleutel definiëren waarmee de persoon wordt geïdentificeerd die aan de gebeurtenis is gekoppeld. De configuratie is optioneel. Het wordt vereist als u, in uw reizen, extra informatie wilt terugwinnen die uit [Real-time Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;} komt. De naamruimtedefinitie is niet nodig als u alleen gegevens gebruikt die afkomstig zijn van een systeem van derden via een aangepaste gegevensbron.
+Met de naamruimte kunt u het type sleutel definiëren waarmee de persoon wordt geïdentificeerd die aan de gebeurtenis is gekoppeld. De configuratie is optioneel. Het wordt vereist als u, in uw reizen, extra informatie wilt terugwinnen die uit [Real-time Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target=&quot;_blank&quot;} komt. De naamruimtedefinitie is niet nodig als u alleen gegevens gebruikt die afkomstig zijn van een systeem van derden via een aangepaste gegevensbron.
 
-U kunt een van de vooraf gedefinieerde naamruimten gebruiken of een nieuwe naamruimte maken met de service Identiteitsnaamruimte. Raadpleeg [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html){target=&quot;_blank&quot;}.
+U kunt een van de vooraf gedefinieerde naamruimten gebruiken of een nieuwe naamruimte maken met de service Identiteitsnaamruimte. Raadpleeg [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl){target=&quot;_blank&quot;}.
 
 Als u een schema met een primaire identiteit selecteert, worden de velden **[!UICONTROL Profiler identifier]** en **[!UICONTROL Namespace]** vooraf ingevuld. Als er geen identiteit wordt bepaald, selecteren wij _identityMap > id_ als primaire sleutel. Vervolgens moet u een naamruimte selecteren en wordt de sleutel vooraf ingevuld (onder het veld **[!UICONTROL Namespace]**) met _identityMap > id_.
 

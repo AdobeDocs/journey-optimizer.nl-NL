@@ -1,21 +1,25 @@
 ---
 title: Aan de slag met Beslissingsbeheer
 description: Aan de slag met Beslissingsbeheer. Meer informatie over de architectuur, aanbiedingen en beslissingen en over veelvoorkomende gebruiksgevallen die u kunt uitvoeren.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: User
 level: Beginner
-source-git-commit: 22520570d96db43d39931149296b27a6211f7aa5
+exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
+source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 50%
+source-wordcount: '913'
+ht-degree: 45%
 
 ---
-
 
 # Over Besluitbeheer {#about-offer-decision}
 
 Gebruik [!DNL Journey Optimizer] om uw klanten de beste aanbieding en ervaring op alle aanraakpunten op het juiste moment te bieden. Als u ze eenmaal hebt ontworpen, richt u zich op uw publiek met persoonlijke aanbiedingen.
+
+>[!NOTE]
+>
+>Als u een [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=&quot;_blank&quot;} gebruiker bent die de **Offer decisioning** toepassingsdienst gebruikt, zijn alle die eigenschappen van het Beslissingsbeheer in deze sectie worden beschreven ook op u van toepassing.
 
 De beslissingsmanagementcapaciteit bestaat uit twee hoofdcomponenten:
 
@@ -60,6 +64,13 @@ Dankzij de mogelijkheden voor Beslissingsbeheer en de integratie met Adobe Exper
 
    ![](../../assets/do-not-localize/call-center.png)
 
+## Toegang verlenen tot het beheer van besluiten {#granting-acess-to-decision-management}
+
+De toestemmingen om tot de mogelijkheden van de offer decisioning toegang te hebben en te gebruiken worden beheerd gebruikend [Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+
+Om toegang tot de functionaliteit van het Beheer van het Besluit te verlenen, moet u **[!UICONTROL Product profile]** creëren en de overeenkomstige toestemmingen aan uw gebruikers toewijzen. Meer informatie over het beheren van [!DNL Journey Optimizer] gebruikers en toestemmingen in [deze sectie](../../administration/permissions.md).
+
+De toestemmingen specifiek voor Beslissingsbeheer zijn vermeld in [deze sectie](../../administration/high-low-permissions.md#decisions-permissions).
 
 ## Woordenlijst {#glossary}
 
@@ -96,7 +107,7 @@ U kunt onder de lijst van de belangrijkste concepten vinden u zult werken met wa
 
 >[!NOTE]
 >
->Deze video&#39;s zijn van toepassing op de toepassingsservice van de Offer decisioning die op Adobe Experience Platform is gebouwd en zijn niet specifiek voor [!DNL Adobe Journey Optimizer]. Het biedt echter algemene richtlijnen voor het gebruik van Beslissingsbeheer in de context van [!DNL Journey Optimizer].
+>Deze video&#39;s zijn van toepassing op de toepassingsservice van de Offer decisioning die op Adobe Experience Platform is gebouwd en zijn niet specifiek voor [!DNL Adobe Journey Optimizer]. Zij bieden echter algemene richtsnoeren voor het gebruik van Beslissingsbeheer in de context van [!DNL Journey Optimizer].
 
 ### Wat is het beheer van besluiten? {#what-is-offer-decisioning}
 

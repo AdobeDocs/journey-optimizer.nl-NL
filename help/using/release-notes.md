@@ -2,10 +2,10 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5a21ac0c199bf237972122ac46e58bf9f8d0f8ab
+source-git-commit: 8f9c7ef2388624432a1601da0ce9502b3e68b58b
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 13%
+source-wordcount: '1490'
+ht-degree: 11%
 
 ---
 
@@ -13,6 +13,78 @@ ht-degree: 13%
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [!DNL Journey Optimizer]. U kunt ook de nieuwste [Documentatie-updates](documentation-updates.md) raadplegen.
 
+
+
+## Release september 2021 {#september-2021-release}
+
+### Nieuwe functies
+
+<table>
+<thead>
+<tr>
+
+<th><strong>Rapportage - Beter inzicht voor doelgroep</strong><br/></th>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Er is een nieuwe maatstaf beschikbaar in de rapportage: het doelpubliek voor e-mail &amp; duwberichten is zichtbaar in zowel levende als globale rapporten.</p>
+<p>Een nieuwe kolom in de lijst van de berichtuitvoering toont het aantal gerichte profielen voor elke berichtuitvoering. </p>
+<p>Raadpleeg de <a href="message-monitoring.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+
+<th><strong>Gegevenslijsten dynamisch doorgeven met behulp van aangepaste handelingen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu verzamelingen of een lijst met gegevens in de aangepaste handelingsparameters doorgeven die tijdens runtime dynamisch worden gevuld. Er worden twee soorten verzamelingen ondersteund: eenvoudige verzamelingen en objectverzamelingen. Eerder gemaakte aangepaste handelingen blijven werken. </p>
+<p>Raadpleeg de <a href="building-journeys/collections.md">gedetailleerde documentatie</a> voor meer informatie over verzamelingen. </p>
+<p>Het filter en de kruisfuncties zijn toegevoegd aan de lijst met functies die beschikbaar zijn in de geavanceerde expressie-editor. Dit biedt meer mogelijkheden voor het filteren en vergelijken van verzamelingen.</p>
+<p>Raadpleeg de documentatie over de <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html">filter</a> en <a href="https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html">intersect</a> functies.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Decision Management - Personalize your offers</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now personalize content added to your offers' representations using the expression editor.</p>
+<p>For more information, refer to the <a href="offers/offer-library/creating-personalized-offers.md#content">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+### Verbeteringen
+
+**Journeys**
+
+* Systeem produceerde schema&#39;s en datasets die tijdens levering voor stapgebeurtenissen zijn gecreeerd zijn nu op read-only wijze, beschermend tegen om het even welke onbedoelde wijzigingen in kritieke schema&#39;s. [Meer informatie](reports/sharing-overview.md)
+* Geef de activiteit **wait** een duidelijk label met een label dat op het canvas wordt weergegeven. Het etiket wordt ook gebruikt in rapportering en testwijzelogboeken om duidelijk te identificeren wat u doet. [Meer informatie](building-journeys/about-journey-activities.md#best-practices)
+* Vind uw gebeurtenissen en acties sneller door elementen in **Gebeurtenissen** en **Actie** categorieën te filtreren gebruikend onderzoek. Orchestratie-activiteiten worden niet meer gefilterd. [Meer informatie](building-journeys/using-the-journey-designer.md)
+* Wanneer u een gebeurtenis-id-voorwaarde definieert in een op regels gebaseerde of zakelijke gebeurtenis, is de operator &quot;contains&quot; nu beschikbaar voor tekenreekstypen velden. [Meer informatie](event/about-creating.md)
+
+**E-mailconfiguratie**
+
+* Wanneer een IP-pool is gekoppeld aan een berichtvoorinstelling, kunt u deze nu bewerken, waarbij de update asynchroon is. U kunt elke IP status van de poolupdate ook controleren. [Meer informatie](configuration/ip-pools.md#edit-ip-pool)
 
 ## Release van augustus 2021 {#august-2021-release}
 
@@ -124,7 +196,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 ### Verbeteringen
 
-**Journeys**
+**Reizen**
 
 * **Dynamische headers**  - U kunt nu dynamische gegevens doorgeven in HTTP-headerparameters. Deze parameters kunnen door de integratiesystemen worden gebruikt die de vraag van HTTP van de reisactie, bijvoorbeeld timestamp of het volgen identiteitskaart ontvangen. [Meer informatie](action/about-custom-action-configuration.md#url-configuration)
 * **Dynamische URL-paden**  - U kunt nu dynamische URL-paden instellen voor aangepaste handelingen. [Meer informatie](action/about-custom-action-configuration.md#url-configuration)
@@ -151,7 +223,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 **Beslissingsbeheer**
 
-* De manier waarop op weergaven toevoegt en configureert wanneer u een aanbod maakt, is bijgewerkt voor een betere gebruikerservaring. In het bijzonder wordt de bibliotheek met assets nu alleen weergegeven wanneer u content van het afbeeldingstype voor een weergave definieert. [Meer informatie](offers/offer-library/creating-personalized-offers.md#representations)
+* De manier waarop u weergaven toevoegt en configureert wanneer u een aanbod maakt, is bijgewerkt voor een betere gebruikerservaring. In het bijzonder wordt de bibliotheek met assets nu alleen weergegeven wanneer u content van het afbeeldingstype voor een weergave definieert. [Meer informatie](offers/offer-library/creating-personalized-offers.md#representations)
 
 ### Oplossingen
 

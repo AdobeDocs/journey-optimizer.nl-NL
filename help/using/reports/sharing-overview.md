@@ -1,14 +1,15 @@
 ---
 title: Overzicht van het delen van journeystappen
 description: Overzicht van het delen van journeystappen
-feature: Rapportage
-topic: Contentmanagement
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
+source-git-commit: 7e4b5342fc57029517ae4d6a6c1e8e03e0dc0c3b
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 7%
+source-wordcount: '459'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +19,7 @@ Naast [real-time rapporten](live-report.md) en ingebouwde [global reporting moge
 
 >[!NOTE]
 >
->Deze functie wordt standaard geactiveerd bij alle gebeurtenissen voor stappen tijdens de reis. Voor trapsgewijze gebeurtenissen voor het reisprofiel wordt de activering op verzoek uitgevoerd. De schema&#39;s en datasets die tijdens de levering voor deze eigenschap worden gecreeerd moeten niet worden veranderd.
+>Deze functie wordt standaard geactiveerd bij alle gebeurtenissen voor stappen tijdens de reis. Voor trapsgewijze gebeurtenissen voor het reisprofiel wordt de activering op verzoek uitgevoerd. U kunt niet de schema&#39;s en datasets wijzigen of bijwerken die tijdens levering voor step gebeurtenissen zijn gecreeerd. Door gebrek, zijn deze schema&#39;s en datasets op read-only wijze.
 
 U hebt bijvoorbeeld een reis ingesteld die meerdere e-mails verzendt. Met deze functie kunt u [!DNL Journey Optimizer]-gegevens combineren met gegevens over gebeurtenissen in de downstream, zoals hoeveel conversies er hebben plaatsgevonden, hoeveel betrokkenheid er op de website heeft plaatsgevonden of hoeveel transacties er in de winkel hebben plaatsgevonden. De informatie over de reis kan worden gecombineerd met gegevens over Adobe Experience Platform, hetzij van andere digitale eigenschappen, hetzij van offline eigenschappen, voor een uitgebreider beeld van de prestaties.
 

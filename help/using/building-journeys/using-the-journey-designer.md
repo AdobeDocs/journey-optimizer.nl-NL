@@ -2,12 +2,13 @@
 title: Uw journey ontwerpen
 description: Leer hoe u uw reis ontwerpt
 feature: Journeys
-topic: Contentmanagement
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: da31b4faf476d090a3a45b8c14701c4addd1a02a
+exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
+source-git-commit: e9da4ec95a82d53e6fcf2cb99fb6215b0c325f08
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1417'
 ht-degree: 1%
 
 ---
@@ -30,7 +31,7 @@ Met het pictogram **[!UICONTROL Filter items]** in de linkerbovenhoek kunt u de 
 
 * **Alleen recente objecten** tonen: Met dit filter kunt u alleen de laatste vijf gebruikte gebeurtenissen en handelingen weergeven, naast de gebeurtenissen en handelingen die buiten de box vallen. Dit geldt specifiek voor elke gebruiker. Standaard worden alle items weergegeven.
 
-U kunt ook het veld **[!UICONTROL Search]** gebruiken.
+U kunt ook het veld **[!UICONTROL Search]** gebruiken. Alleen gebeurtenissen en handelingen worden gefilterd.
 
 Het **canvas** is de centrale zone in de reisontwerper. Het is in deze streek dat u uw activiteiten kunt laten vallen en hen vormen. Klik op een activiteit op het canvas om deze te configureren. Dit opent de ruit van de activiteitenconfiguratie op de rechterkant.
 
@@ -98,7 +99,7 @@ Wanneer twee activiteiten op het canvas worden losgekoppeld, wordt een waarschuw
 
 ![](../assets/canvas-disconnected.png)
 
-## Activiteiten {#copy-paste} kopiëren en plakken
+## Kopiëren en plakken {#copy-paste}
 
 U kunt een of meer activiteiten van een reis kopiëren en deze in dezelfde of een andere reis plakken. Dit staat u toe om tijd te besparen als u talrijke activiteiten wilt hergebruiken die reeds in een vorige reis zijn gevormd.
 

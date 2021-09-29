@@ -1,14 +1,15 @@
 ---
 title: Een bedrijfsgebeurtenis configureren
 description: Leer hoe u een zakelijke gebeurtenis maakt
-feature: Gebeurtenissen
-topic: Beheer
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 709e320e53287319ff76adc7843c276740e7d435
+exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
+source-git-commit: b219f900d8349c46c01a0dd3110e441694e47b5f
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 14%
+source-wordcount: '974'
+ht-degree: 12%
 
 ---
 
@@ -30,6 +31,18 @@ Bedrijfsevenementen kunnen &quot;een product is weer in voorraad&quot;, &quot;de
 * Nadat een bedrijfsgebeurtenis in werking wordt gesteld, zal er een vertraging zijn om het segment van 15 minuten naar tot één uur te hebben uitgevoerd.
 * Wanneer het testen van een bedrijfsgebeurtenis, moet u de gebeurtenisparameters en het herkenningsteken van het testprofiel overgaan dat de reis in test zal ingaan. Bij het testen van een op zakelijke gebeurtenissen gebaseerde reis kunt u bovendien slechts één profielingang activeren. Zie [deze sectie](../building-journeys/testing-the-journey.md#test-business). In de testmodus is de modus &quot;Codeweergave&quot; niet beschikbaar.
 * Wat gebeurt er met individuen die momenteel op reis zijn als een nieuw bedrijfsevenement aankomt? Het gedraagt zich op dezelfde manier als wanneer individuen zich nog steeds in een terugkerende reis bevinden wanneer zich een nieuwe terugkerende situatie voordoet. Hun pad is beëindigd. Als gevolg hiervan moeten marketeers aandacht besteden aan het vermijden van het bouwen van te lange reizen als ze veelvuldige bedrijfsgebeurtenissen verwachten.
+
+## Meerdere bedrijfsgebeurtenissen
+
+Hier zijn een paar belangrijke nota&#39;s die van toepassing zijn wanneer de veelvoudige bedrijfsgebeurtenissen in een rij worden ontvangen.
+
+**Wat is het gedrag wanneer het ontvangen van een bedrijfsgebeurtenis terwijl de reis verwerkt?**
+
+Bedrijfsgebeurtenissen volgen de regels voor herintreding op dezelfde manier als voor monitaire gebeurtenissen. Als een reis hertoegang toestaat, zal de volgende bedrijfsgebeurtenis worden verwerkt.
+
+**Wat zijn de garanties om overbelasting van materialistische segmenten te voorkomen?**
+
+Voor bedrijfsgebeurtenissen, wordt het onderwerp herbruikbaarheid geplaatst aan één uur. Dit betekent dat voor een bepaalde reis, in een tijdsperiode van 1 uur, geen nieuwe uitvoerbaan wordt gecreeerd. Gegevens die door de eerste gebeurtenistaak worden geduwd, worden opnieuw gebruikt. Voor geregelde reizen is er geen spoor.
 
 ## Aan de slag met bedrijfsgebeurtenissen
 
@@ -69,6 +82,10 @@ Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
    ![](../assets/jo-event6-business.png)
 
    In ons voorbeeld schreven we een voorwaarde op basis van de id van het product. Dit betekent dat wanneer het systeem een gebeurtenis ontvangt die aan deze voorwaarde voldoet, het het aan reizen zal overgaan.
+
+   >[!NOTE]
+   >
+   >In de eenvoudige expressie-editor zijn niet alle operatoren beschikbaar, maar zijn ze afhankelijk van het gegevenstype. Voor een tekenreekstype kunt u bijvoorbeeld &quot;contains&quot; of &quot;equal to&quot; gebruiken.
 
 1. Klik op **[!UICONTROL Save]**.
 

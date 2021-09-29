@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 024a450724aecfde0eab7ab97421052a0aa99f2e
+source-git-commit: 41f43f6e702dbadfcd28d14154895a65ec15ed65
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 0%
+source-wordcount: '1319'
+ht-degree: 1%
 
 ---
 
@@ -53,9 +53,14 @@ Volg onderstaande stappen om een of meerdere vertegenwoordigingen aan uw aanbied
 
    ![](../../assets/channel-placement.png)
 
-   Alleen de beschikbare plaatsen voor het geselecteerde kanaal worden weergegeven in de vervolgkeuzelijst **[!UICONTROL Placement]**.
+   >[!NOTE]
+   >
+   >Alleen de beschikbare plaatsen voor het geselecteerde kanaal worden weergegeven in de vervolgkeuzelijst **[!UICONTROL Placement]**.
 
-1. Selecteer een plaatsing van de lijst, of gebruik de knoop naast **[!UICONTROL Placement]** drop-down lijst om alle plaatsen te doorbladeren.
+
+1. Selecteer een plaatsing in de lijst.
+
+   U kunt ook de knop naast de vervolgkeuzelijst **[!UICONTROL Placement]** gebruiken om door alle plaatsen te bladeren.
 
    ![](../../assets/browse-button-placements.png)
 
@@ -63,37 +68,7 @@ Volg onderstaande stappen om een of meerdere vertegenwoordigingen aan uw aanbied
 
    ![](../../assets/browse-placements.png)
 
-1. Voeg inhoud toe aan uw representatie.
-
-   >[!NOTE]
-   >
-   >Alleen inhoud die overeenkomt met het inhoudstype van de plaatsing is beschikbaar voor gebruik.
-
-   * Als de geselecteerde plaatsing van het afbeeldingstype is, kunt u inhoud toevoegen die afkomstig is uit de Adobe Experience Cloud Asset-bibliotheek, een gecentraliseerde opslagplaats voor elementen die wordt geleverd door [!DNL Adobe Experience Manager Assets Essentials].
-
-      >[!NOTE]
-      >
-      > Als u met [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;} wilt werken, moet u [!DNL Assets Essentials] voor uw organisatie implementeren en ervoor zorgen dat gebruikers deel uitmaken van de **Assets Essentials Consumer Users** of **Assets Essentials Users**-productprofielen. Leer meer op [deze pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
-
-      Kies de optie **[!UICONTROL Asset library]** en selecteer **[!UICONTROL Browse]**.
-
-      ![](../../assets/offer-browse-asset-library.png)
-
-      Blader door de elementen om de gewenste afbeelding te selecteren en klik op **[!UICONTROL Select]**.
-
-      ![](../../assets/offer-select-asset.png)
-
-   * Als u inhoud van een externe openbare locatie wilt toevoegen, selecteert u **[!UICONTROL URL]** en voert u het URL-adres in van de inhoud die u wilt toevoegen.
-
-      ![](../../assets/offer-content-url.png)
-
-   * U kunt ook teksttype-inhoud invoegen wanneer u een compatibele plaatsing selecteert. Selecteer de optie **[!UICONTROL Custom]** en typ de tekst die in de aanbieding wordt weergegeven.
-
-      ![](../../assets/offer-text-content.png)
-
-      >[!NOTE]
-      >
-      >Deze optie is niet beschikbaar voor afbeeldingstypeplaatsingen.
+1. Voeg inhoud toe aan uw representatie. Leer hoe in [deze sectie](#content).
 
 1. Wanneer u inhoud zoals een beeld of URL toevoegt, kunt u **[!UICONTROL Destination link]** specificeren: de gebruikers die op de aanbieding klikken, worden naar de bijbehorende pagina geleid.
 
@@ -107,25 +82,76 @@ Volg onderstaande stappen om een of meerdere vertegenwoordigingen aan uw aanbied
 
 1. Nadat u al uw voorstellingen hebt toegevoegd, selecteert u **[!UICONTROL Next]**.
 
+## Inhoud definiëren voor uw weergaven {#content}
+
+U kunt verschillende typen inhoud aan een representatie toevoegen.
+
+>[!NOTE]
+>
+>Alleen inhoud die overeenkomt met het inhoudstype van de plaatsing is beschikbaar voor gebruik.
+
+### Afbeeldingen toevoegen
+
+Als de geselecteerde plaatsing van het afbeeldingstype is, kunt u inhoud toevoegen die afkomstig is uit de **Adobe Experience Cloud Asset**-bibliotheek, een gecentraliseerde opslagplaats voor elementen die wordt geleverd door [!DNL Adobe Experience Manager Assets Essentials].
+
+>[!NOTE]
+>
+> Als u met [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;} wilt werken, moet u [!DNL Assets Essentials] voor uw organisatie implementeren en ervoor zorgen dat gebruikers deel uitmaken van de **Assets Essentials Consumer Users** of **Assets Essentials Users**-productprofielen. Leer meer op [deze pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
+
+1. Kies de optie **[!UICONTROL Asset library]**.
+
+1. Selecteer **[!UICONTROL Browse]**.
+
+   ![](../../assets/offer-browse-asset-library.png)
+
+1. Blader door de elementen om de gewenste afbeelding te selecteren
+
+1. Klik op **[!UICONTROL Select]**.
+
+   ![](../../assets/offer-select-asset.png)
+
+### URL&#39;s toevoegen
+
+Als u inhoud van een externe openbare locatie wilt toevoegen, selecteert u **[!UICONTROL URL]** en voert u het URL-adres in van de inhoud die u wilt toevoegen.
+
+![](../../assets/offer-content-url.png)
+
+### Aangepaste tekst toevoegen {#custom-text}
+
+U kunt ook teksttype-inhoud invoegen wanneer u een compatibele plaatsing selecteert.
+
+1. Selecteer de optie **[!UICONTROL Custom]**.
+
+   >[!NOTE]
+   >
+   >Deze optie is niet beschikbaar voor afbeeldingstypeplaatsingen.
+
+1. Typ de tekst die in de aanbieding in het specifieke gebied wordt weergegeven.
+
+   ![](../../assets/offer-text-content2.png)
+
 ## Subsidiabiliteitsregels en beperkingen toevoegen {#eligibility}
 
-Met de regels en beperkingen voor geschiktheid kunt u bepalen onder welke voorwaarden een aanbieding wordt weergegeven.
+Aan de hand van de regels en beperkingen op het gebied van geschiktheid kunt u bepalen onder welke voorwaarden een aanbieding wordt weergegeven.
 
-1. Configureer **[!UICONTROL Offer eligibility]**. Standaard is de optie **[!UICONTROL All visitors]** voor de beslissingsregel geselecteerd. Dit houdt in dat elk profiel in aanmerking komt voor presentatie van de aanbieding.
+1. Configureer **[!UICONTROL Offer eligibility]**.
 
-   U kunt de presentatie van het voorstel beperken tot de leden van een of meerdere Adobe Experience Platform-segmenten. Hiervoor activeert u de optie **[!UICONTROL Visitors who fall into one or multiple segments]**, voegt u een of meerdere segmenten uit het linkervenster toe en combineert u deze met de logische operatoren **[!UICONTROL And]** / **[!UICONTROL Or]**.
+   * Standaard is de optie **[!UICONTROL All visitors]** voor de beslissingsregel geselecteerd. Dit houdt in dat elk profiel in aanmerking komt voor presentatie van de aanbieding.
 
-   Raadpleeg [deze pagina](../../segment/about-segments.md) voor meer informatie over het werken met segmenten.
+   * U kunt de presentatie van het voorstel beperken tot de leden van een of meerdere Adobe Experience Platform-segmenten. Hiervoor activeert u de optie **[!UICONTROL Visitors who fall into one or multiple segments]**, voegt u een of meerdere segmenten uit het linkervenster toe en combineert u deze met de logische operatoren **[!UICONTROL And]** / **[!UICONTROL Or]**.
 
-   ![](../../assets/offer-eligibility-segment.png)
+      Raadpleeg [deze pagina](../../segment/about-segments.md) voor meer informatie over het werken met segmenten.
 
-   Als u een specifieke besluitregel aan de aanbieding wilt associëren, uitgezochte **[!UICONTROL By defined decision rule]**, dan sleep de gewenste regel van de linkerruit in **[!UICONTROL Decision rule]** gebied. Voor meer op hoe te om een besluitregel tot stand te brengen, verwijs naar [deze sectie](../offer-library/creating-decision-rules.md).
+      ![](../../assets/offer-eligibility-segment.png)
 
-   ![](../../assets/offer_rule.png)
+   * Als u een specifieke besluitregel aan de aanbieding wilt associëren, uitgezochte **[!UICONTROL By defined decision rule]**, dan sleep de gewenste regel van de linkerruit in **[!UICONTROL Decision rule]** gebied. Voor meer op hoe te om een besluitregel tot stand te brengen, verwijs naar [deze sectie](../offer-library/creating-decision-rules.md).
 
-   >[!CAUTION]
-   >
-   >Aanbiedingen op basis van gebeurtenissen worden momenteel niet ondersteund in [!DNL Journey Optimizer]. Als u een beslissingsregel creeert die op [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events) {target= &quot;_blank&quot;} wordt gebaseerd, zult u niet het in een aanbieding kunnen hefboomwerking maken.
+      ![](../../assets/offer_rule.png)
+
+      >[!CAUTION]
+      >
+      >Aanbiedingen op basis van gebeurtenissen worden momenteel niet ondersteund in [!DNL Journey Optimizer]. Als u een beslissingsregel creeert die op [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events) {target= &quot;_blank&quot;} wordt gebaseerd, zult u niet het in een aanbieding kunnen hefboomwerking maken.
+   Leer meer bij het gebruiken van segmenten tegenover beslissingsregels in [deze sectie](../offer-activities/create-offer-activities.md#segments-vs-decision-rules).
 
 1. Definieer **[!UICONTROL Priority]** van de aanbieding in vergelijking met andere als de gebruiker voor meer dan één aanbieding in aanmerking komt. Hoe hoger de prioriteit van een aanbieding is, hoe hoger de prioriteit ervan wordt vergeleken met andere aanbiedingen.
 
@@ -165,7 +191,7 @@ Het is nu klaar om aan gebruikers te worden geleverd.
 
 ![](../../assets/offer_created.png)
 
-## Aanbiedingslijst {#offer-list}
+## Aanbiedingenlijst {#offer-list}
 
 In de lijst met aanbiedingen kunt u de aanbieding selecteren om de eigenschappen ervan weer te geven. U kunt het ook uitgeven, zijn status veranderen (**Laag**, **Goedgekeurd**, **Gearchiveerd**), de aanbieding dupliceren, of het schrappen.
 

@@ -5,9 +5,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 9408a93deecfb12f28a0a87c19fa0074c66844a9
+exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
+source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -26,19 +27,27 @@ Het e-mailbericht **[!UICONTROL Live report]** is verdeeld in verschillende widg
 
 **[!UICONTROL Email performance]** en  **[!UICONTROL Email summary]** widgets geeft de belangrijkste informatie met betrekking tot uw bericht met een grafiek en KPIs:
 
+* **[!UICONTROL Targeted]**: Aantal gebruikersprofielen dat als doelprofielen voor deze levering in aanmerking komt.
+
 * **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
-
-* **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
-
-* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
 * **[!UICONTROL Opens]**: Aantal keren dat een bericht in een levering werd geopend.
 
 * **[!UICONTROL Clicks]**: Het aantal keren dat op een inhoud is geklikt in een levering.
 
-De grafiek **[!UICONTROL Sending Statistics]** geeft het succes van uw levering weer:
+* **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
+
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
+
+* **[!UICONTROL Spam complaints]**: Aantal berichten geclassificeerd als spam.
+
+* **[!UICONTROL Unsubscriptions]**: Aantal klikken op de verbinding van het unsubscription.
+
+* **[!UICONTROL Excluded]**: Aantal gebruikersprofielen dat is uitgesloten van de doelprofielen en dat het bericht niet heeft ontvangen.
+
+De widget **[!UICONTROL Sending Statistics]** geeft uitleg over het succes van de levering:
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 

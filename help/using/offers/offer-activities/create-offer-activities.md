@@ -1,14 +1,15 @@
 ---
 title: Beslissingen nemen
 description: Leer hoe u beslissingen maakt
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 80451fcd012257c8648e751076ed668aa05c44c7
+exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
+source-git-commit: 89e0223ebbf5015b61b55da693e0c6401307ce9f
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 3%
+source-wordcount: '1015'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +19,7 @@ Besluiten (voorheen bekend als aanbiedingsactiviteiten) zijn containers voor uw 
 
 ➡️ [Ontdek deze functie in video](#video)
 
-De lijst met beslissingen is toegankelijk op het tabblad **[!UICONTROL Offers]** / **[!UICONTROL Decisions]**. De filters zijn beschikbaar om u te helpen besluiten op hun status of begin en einddata terugwinnen.
+De lijst met beslissingen is toegankelijk via het menu **[!UICONTROL Offers]** > tabblad **[!UICONTROL Decisions]**. De filters zijn beschikbaar om u te helpen besluiten op hun status of begin en einddata terugwinnen.
 
 ![](../../assets/activities-list.png)
 
@@ -33,13 +34,15 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
 1. Heb toegang tot de besluitenlijst, dan klik **[!UICONTROL Create decision]**.
 
-1. Geef de naam van het besluit en de begin- en einddatum en -tijd op en klik vervolgens op **[!UICONTROL Next]**.
+1. Geef de naam van de beslissing op.
+
+1. Definieer een begin- en einddatum en -tijd en klik vervolgens op **[!UICONTROL Next]**.
 
    ![](../../assets/activities-name.png)
 
 ## Beslissingsbereik toevoegen {#add-decision-scopes}
 
-1. Sleep een plaatsing uit de lijst om deze aan de beslissing toe te voegen en klik vervolgens op **[!UICONTROL Add collection]**.
+1. Sleep een positie uit de lijst om deze aan de beslissing toe te voegen en klik vervolgens op **[!UICONTROL Add collection]**.
 
    ![](../../assets/activities-placement.png)
 
@@ -51,29 +54,53 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
    ![](../../assets/activities-collection.png)
 
-1. De geselecteerde voorstellen worden toegevoegd aan de plaatsing. In dit voorbeeld, selecteerden wij twee aanbiedingen die in een JSON-type plaatsing zullen tonen gericht op het voorstellen van aanbiedingen in een oplossing van het vraagcentrum.
+1. De geselecteerde voorstellen worden toegevoegd aan de plaatsing.
+
+   In dit voorbeeld, selecteerden wij twee aanbiedingen die in een JSON-type plaatsing zullen tonen gericht op het voorstellen van aanbiedingen in een oplossing van het vraagcentrum.
 
    ![](../../assets/offers-added.png)
 
 1. Als meerdere aanbiedingen voor deze plaatsing in aanmerking komen, worden standaard de aanbiedingen met de hoogste prioriteitsscore aan de klant geleverd.
 
-   Als u een specifieke formule wilt gebruiken om te kiezen welke in aanmerking komende aanbieding moet worden geleverd, selecteert u een rangschikkende formule in de vervolgkeuzelijst **[!UICONTROL Rank offers by]**. Raadpleeg [deze sectie](../offer-activities/configure-offer-selection.md) voor meer informatie.
+   Als u een specifieke formule of een het rangschikken strategie wilt gebruiken om te kiezen welke in aanmerking komende aanbieding te leveren, selecteer een rangschikkende formule van **[!UICONTROL Rank offers by]** drop-down lijst. Raadpleeg [deze sectie](../offer-activities/configure-offer-selection.md) voor meer informatie.
 
-1. In het veld **[!UICONTROL Constraint]** is de selectie van aanbiedingen voor deze plaatsing beperkt. Deze beperking kan worden toegepast door een beslissingsregel of een of meerdere Adobe Experience Platform-segmenten te gebruiken.
+1. In het veld **[!UICONTROL Constraint]** is de selectie van aanbiedingen voor deze plaatsing beperkt. Deze beperking kan worden toegepast door een **beslissingsregel**, of één of verscheidene **Adobe Experience Platform segmenten** te gebruiken. Beide zijn gedetailleerd in [deze sectie](#segments-vs-decision-rules).
 
-   Als u de selectie van de aanbiedingen wilt beperken tot de leden van een Adobe Experience Platform-segment, selecteert u **[!UICONTROL Segments]** en klikt u op **[!UICONTROL Add segments]**.
+   * Als u de selectie van de aanbiedingen wilt beperken tot de leden van een Adobe Experience Platform-segment, selecteert u **[!UICONTROL Segments]** en klikt u op **[!UICONTROL Add segments]**.
 
-   ![](../../assets/activity_constraint_segment.png)
+      ![](../../assets/activity_constraint_segment.png)
 
-   Voeg een of meerdere segmenten uit het linkervenster toe, combineer deze met de logische operatoren **[!UICONTROL And]** / **[!UICONTROL Or]** en klik vervolgens op **[!UICONTROL Select]** om te bevestigen.
+      Voeg een of meerdere segmenten uit het linkervenster toe, combineer deze met de logische operatoren **[!UICONTROL And]** / **[!UICONTROL Or]** en klik vervolgens op **[!UICONTROL Select]** om te bevestigen.
 
-   Raadpleeg [deze pagina](../../segment/about-segments.md) voor meer informatie over het werken met segmenten.
+      ![](../../assets/activity_constraint_segment2.png)
 
-   ![](../../assets/activity_constraint_segment2.png)
+      Meer informatie over het werken met segmenten in [deze sectie](../../segment/about-segments.md).
 
-   Als u een selectiegrens voor deze plaatsing gebruikend een besluitregel wilt toevoegen, selecteer **[!UICONTROL Decision rule]** optie, dan sleep de gewenste regel van de linkerruit in **[!UICONTROL Decision rule]** gebied. Voor meer op hoe te om een besluitregel tot stand te brengen, verwijs naar [deze sectie](../offer-library/creating-decision-rules.md).
+   * Als u een selectiegrens voor deze plaatsing gebruikend een besluitregel wilt toevoegen, selecteer **[!UICONTROL Decision rule]** optie, dan sleep de gewenste regel van de linkerruit in **[!UICONTROL Decision rule]** gebied.
 
-   ![](../../assets/activity_constraint_rule.png)
+      ![](../../assets/activity_constraint_rule.png)
+
+      Leer meer op hoe te om een beslissingsregel in [deze sectie](../offer-library/creating-decision-rules.md) tot stand te brengen.
+
+### Segmenten en beslissingsregels gebruiken {#segments-vs-decision-rules}
+
+<!--to move to create-offers?-->
+
+Om een beperking toe te passen, kunt u de selectie van aanbiedingen tot de leden van één of verscheidene **Adobe Experience Platform segmenten** beperken, of u kunt een **besluit regel**, beide oplossingen gebruiken die aan verschillende toepassingen beantwoorden.
+
+In feite, is de output van een segment een lijst van profielen, terwijl een besluitvormingsregel een functie is die op bestelling tegen één enkel profiel tijdens het besluitvormingsproces wordt uitgevoerd. Het verschil tussen deze twee toepassingen wordt hieronder nader toegelicht.
+
+* **Segmenten**
+
+   Aan de ene kant zijn segmenten een groep Adobe Experience Platform-profielen die overeenkomen met een bepaalde logica op basis van profielkenmerken en gebeurtenissen ervaren. Het segment wordt echter niet opnieuw berekend door het Offertenbeheer, dat mogelijk niet up-to-date is wanneer de aanbieding wordt gepresenteerd.
+
+   Leer meer op segmenten in [deze sectie](../../segment/about-segments.md).
+
+* **Beslissingsregels**
+
+   Anderzijds is een beslissingsregel gebaseerd op in Adobe Experience Platform beschikbare gegevens en bepaalt aan wie een aanbieding kan worden getoond. Zodra geselecteerd in een aanbieding of een besluit voor een bepaalde plaatsing, wordt de regel uitgevoerd telkens als een besluit wordt genomen, die ervoor zorgt dat elk profiel de recentste en beste aanbieding krijgt.
+
+   Meer informatie over beslissingsregels vindt u in [deze sectie](../offer-library/creating-decision-rules.md).
 
 ## Een fallback-aanbieding toevoegen {#add-fallback}
 
@@ -97,7 +124,7 @@ De beslissing wordt in de lijst weergegeven met de status **[!UICONTROL Live]** 
 
 Het is nu klaar om te worden gebruikt om aanbiedingen aan klanten te leveren.
 
-## Beslissingslijst {#decision-list}
+## Beslissingenlijst {#decision-list}
 
 In de beslissingslijst kunt u de beslissing selecteren om de eigenschappen ervan weer te geven. Hiervanaf kunt u het ook bewerken, de status ervan wijzigen (**Concept**, **Live**, **Complete**, **Gearchiveerd**), de beslissing dupliceren of deze verwijderen.
 

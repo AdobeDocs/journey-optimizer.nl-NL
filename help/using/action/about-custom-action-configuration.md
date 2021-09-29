@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: 6907946a75904d601ca1f70c61b72fd92803db84
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '806'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,10 @@ ht-degree: 6%
 # Een actie configureren {#configure-an-action}
 
 Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, is dit waar u zijn verbinding aan reizen vormt. De aangepaste actie die door technische gebruikers is gedefinieerd, is dan beschikbaar in het linkerpalet van uw reis, in de categorie **[!UICONTROL Action]** (zie [deze pagina](../building-journeys/about-journey-activities.md#action-activities). Hier volgen enkele voorbeelden van systemen waarmee u verbinding kunt maken met aangepaste handelingen: Epsilon, Facebook, Adobe.io, Firebase, enz.
+
 Beperkingen worden vermeld in [deze pagina](../limitations.md).
+
+U kunt verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen. Raadpleeg deze [use case](../limitations.md).
 
 Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vormen:
 
@@ -56,12 +59,14 @@ Wanneer het vormen van een douaneactie, moet u de volgende **[!UICONTROL URL Con
 
    * Als de URL een dynamisch pad bevat, voert u alleen het statische gedeelte van de URL in, dat wil zeggen het schema, de host, de poort en eventueel een statisch gedeelte van het pad.
 
-      Voorbeeld: `https://xxx.yyy.com:8080/somethingstatic/`
+      Voorbeeld: `https://xxx.yyy.com/somethingstatic/`
 
       U geeft het dynamische pad van de URL op wanneer u de aangepaste handeling aan een rit toevoegt. [Meer informatie](../building-journeys/using-custom-actions.md).
    >[!NOTE]
    >
    >Om veiligheidsredenen raden we u ten zeerste aan het HTTPS-schema te gebruiken voor de URL. Wij staan niet het gebruik van Adobe adressen toe die niet openbaar en het gebruik van IP adressen zijn.
+   >
+   >Alleen de standaardpoorten zijn toegestaan bij het definiëren van een aangepaste handeling: 80 voor http en 443 voor https.
 
 1. Selecteer de vraag **[!UICONTROL Method]**: kan **[!UICONTROL POST]** of **[!UICONTROL PUT]** zijn.
 1. Definieer in de sectie **[!UICONTROL Headers]** de HTTP-headers van het aanvraagbericht dat naar de externe service moet worden verzonden:
@@ -106,3 +111,4 @@ U kunt ook opgeven of een parameter een constante of een variabele is.
 * Variabele betekent dat de waarde van de parameter varieert. De markering die deze aangepaste actie gebruikt, kan de gewenste waarde doorgeven of opgeven waar de waarde voor deze parameter moet worden opgehaald (bijvoorbeeld van het evenement, van de Adobe Experience Platform, enz.). In dat geval is het veld aan de rechterkant van de schakelconstante/variabele het label dat de markator in de reis ziet om deze parameter een naam te geven.
 
 ![](../assets/customactionpayloadmessage2.png)
+

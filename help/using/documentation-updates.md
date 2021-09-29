@@ -2,10 +2,10 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
+source-git-commit: d6228aade93bc9fa2b5f2ad2b76db5e193208242
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 20%
+source-wordcount: '711'
+ht-degree: 16%
 
 ---
 
@@ -15,8 +15,33 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 ## September 2021
 
+* De volgende functiepagina&#39;s zijn bijgewerkt: [sethours](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html), [getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html), [inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html)
+
+* De volgende functies zijn toegevoegd: [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html), [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html), [toDateOnly](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/conversion/functiontodateonly.html)
+
+* Het datumtype dateOnly is toegevoegd in de documentatie van de uitdrukkingsredacteur. [Meer informatie](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=en)
+
+* Meer informatie over de cache-duur van de aangepaste handeling. [Meer informatie](datasource/external-data-sources.md#section_wjp_nl5_nhb)
+
+* Toegevoegde informatie over standaardpoorten voor aangepaste handelingen. [Meer informatie](action/about-custom-action-configuration.md#url-configuration)
+
+* Informatie toegevoegd over meerdere gevallen waarin zakelijke gebeurtenissen worden gebruikt. [Meer informatie](event/about-creating-business.md#multiple-business-events)
+
+* Toegevoegde algemeen gebruikte voorbeelden om de Gebeurtenissen van de Stap van de Reis in het meer van Gegevens te vragen. [Meer informatie](reports/query-examples.md)
+
 * Er is een nieuwe pagina **Beperkingen** toegevoegd. [Meer informatie](limitations.md)
+
 * De pagina **Snel starten** is verbeterd met stappen voor verschillende personen. [Meer informatie](quick-start.md)
+
+   <!--* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)-->
+
+* Nu zijn alle functies voor Beslissingsbeheer die in de desbetreffende sectie worden beschreven ook van toepassing op Adobe Experience Platform-gebruikers die gebruikmaken van de toepassingsservice van de Offer decisioning. [Meer informatie](offers/get-started/starting-offer-decisioning.md)
+
+* Een subsectie toegevoegd om de verschillen tussen het gebruiken van segmenten versus besluitvormingsregels te verduidelijken wanneer het toepassen van een beperking om de selectie van aanbiedingen voor een bepaalde plaatsing te beperken. [Meer informatie](offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
+
+* Voorbeelden van specifieke rangschikkingsformules zijn toegevoegd ter illustratie van een aantal praktijkvoorbeelden. [Meer informatie](offers/offer-library/create-ranking-formulas.md#ranking-formula-examples)
+
+* Een subsectie toegevoegd over het bewerken van IP-pools. [Meer informatie](configuration/ip-pools.md#edit-ip-pool)
 
 ## Augustus 2021
 
@@ -35,7 +60,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De subdomeinsectie Delegeren is bijgewerkt met meer gedetailleerde informatie over het validatieproces dat door Adobe wordt uitgevoerd. [Meer informatie](configuration/delegate-subdomain.md#subdomain-validation)
 * Er is een sectie toegevoegd waarin wordt beschreven hoe u handmatig e-mailadressen en domeinen aan de suppressielijst kunt toevoegen. [Meer informatie](configuration/manage-suppression-list.md#add-addresses-and-domains)
 * De secties [Access the suppression list](configuration/manage-suppression-list.md#access-suppression-list) en [Retries](configuration/retries.md) zijn bijgewerkt om de nieuwe gebruikersinterface te weerspiegelen.
-* De nieuwe stroom om weergaven toe te voegen en te configureren wanneer u een aanbod maakt, is gedocumenteerd. [Meer informatie](offers/offer-library/creating-personalized-offers.md#representations)
+* De nieuwe flow om weergaven toe te voegen en te configureren wanneer u een aanbod maakt, is gedocumenteerd. [Meer informatie](offers/offer-library/creating-personalized-offers.md#representations)
 
 
 ## Juli 2021

@@ -1,13 +1,14 @@
 ---
 title: Gebruikersinterface
 description: Meer informatie over de gebruikersinterface van de Bibliotheek van de Aanbieding.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: dda0f609056ac74e4f1b5b0d6069d4bdc43ccfb6
+exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
+source-git-commit: e55aecf274e2f5fbb696cc112dfb4428848d36d5
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -15,6 +16,10 @@ ht-degree: 0%
 # Gebruikersinterface {#user-interface}
 
 Met de aanbiedingsbibliotheek kunt u uw plaatsingen en aanbiedingen op één locatie maken en beheren en hebt u toegang tot alle gemaakte beslissingen (voorheen bekend als aanbiedingsactiviteiten).
+
+>[!NOTE]
+>
+>Als u problemen ondervindt bij het openen van de bibliotheek met aanbiedingen of bepaalde functies, vraagt u een Admin-gebruiker om de vereiste rechten. Zie [Toegang verlenen tot beslissingsbeheer](starting-offer-decisioning.md#granting-acess-to-decision-management).
 
 Gebruik het **[!UICONTROL Offers]** menu om gepersonaliseerde en terugvalaanbiedingen te beheren, hen in inzamelingen te organiseren, en hen te leveren door besluiten te creëren:
 

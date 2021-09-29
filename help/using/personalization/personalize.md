@@ -1,13 +1,14 @@
 ---
 title: Inhoud personaliseren in Journey Optimizer
 description: Aan de slag met personalisatie
-feature: Personalisatie
-topic: Personalisatie
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Beginner
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
+source-git-commit: c68aa48c7762b6d2d96a7c921025104247ceffa3
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '691'
 ht-degree: 6%
 
 ---
@@ -62,7 +63,6 @@ In beide gevallen, hebt u toegang tot de verpersoonlijkingsredacteur.
 
 ![](assets/perso_ee.png)
 
-
 ### Pushmeldingen aanpassen
 
 U kunt uw **Pushmeldingen** op de volgende gebieden ook personaliseren:
@@ -77,7 +77,13 @@ U kunt uw **Pushmeldingen** op de volgende gebieden ook personaliseren:
 
 Leer meer over de configuratie van de pushmelding in [deze sectie](../push-gs.md).
 
-## De Expressieeditor gebruiken
+### Je aanbiedingen aanpassen {#personalize-offers}
+
+U kunt tot de verpersoonlijkingsredacteur ook toegang hebben wanneer het toevoegen van tekst-type inhoud aan uw aanbiedingen&#39; vertegenwoordiging.
+
+Meer informatie over het beheren van inhoud met Beslissingsbeheer in [deze sectie](../offers/offer-library/creating-personalized-offers.md#custom-text).
+
+## De Expressieeditor gebruiken {#use-expression-editor}
 
 De uitdrukkingsredacteur is het belangrijkste stuk van de verpersoonlijking in [!DNL Journey Optimizer].
 

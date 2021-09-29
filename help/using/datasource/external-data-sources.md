@@ -1,14 +1,15 @@
 ---
-title: 'Externe databronnen '
+title: Externe databronnen
 description: Leer hoe u externe databronnen kunt configureren
 feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: ef9d9501f4307d7e9234de46b670a1fea605a1b3
+exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
+source-git-commit: 54d93df232b38608d3d02e837cea82e8965559e0
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 91%
+source-wordcount: '1324'
+ht-degree: 88%
 
 ---
 
@@ -181,3 +182,7 @@ U kunt de cachetermijn van de token wijzigen voor een databron met aangepaste ve
              { "duration":5, "timeUnit":"seconds" }
     }
 ```
+
+>[!NOTE]
+>
+>De duur van het geheime voorgeheugen helpt om teveel vraag aan de authentificatieeindpunten te vermijden. Het symbolenbehoud van de authentificatie wordt caching in de diensten, er is geen persistentie. Als de dienst opnieuw wordt begonnen, begint het met een schone geheime voorgeheugen. De cache-duur is standaard 1 uur. In de aangepaste actielading kan deze worden aangepast door een andere retentieduur op te geven.

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 47%
+source-wordcount: '710'
+ht-degree: 46%
 
 ---
 
@@ -96,6 +96,7 @@ ht-degree: 47%
    + Gebruiksscenario’s {#journey-use-cases}
       + [Multikanaalberichten verzenden](using/building-journeys/journeys-uc.md)
       + [Een bericht verzenden met Campagne v7/v8](using/building-journeys/campaign-classic-use-case.md)
+      + [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](using/building-journeys/collections.md)
 + Bijhouden en bewaken {#reporting}
    + [Berichtcontrole](using/message-monitoring.md)
    + Live rapport {#live-report}
@@ -115,6 +116,7 @@ ht-degree: 47%
       + [Uitvoeringsvelden voor handelingen](using/reports/sharing-execution-fields.md)
       + [Velden voor ophalen van gegevens](using/reports/sharing-fetch-fields.md)
       + [Identiteitsvelden](using/reports/sharing-identity-fields.md)
+      + [Voorbeelden van query&#39;s](using/reports/query-examples.md)
    + Leverbaarheid {#deliverability}
       + [Aan de slag met de prestaties](using/deliverability.md)
       + [Onderdrukkingslijst](using/suppression-list.md)
@@ -130,6 +132,7 @@ ht-degree: 47%
       + [Beslissingsregels maken](using/offers/offer-library/creating-decision-rules.md)
       + [Tags maken](using/offers/offer-library/creating-tags.md)
       + [Rangschikkingsformules maken](using/offers/offer-library/create-ranking-formulas.md)
+      + [Beoordelingsstrategieën maken](using/offers/offer-library/create-ranking-strategies.md)
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + [Persoonlijke aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)

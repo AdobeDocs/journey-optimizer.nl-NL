@@ -1,14 +1,15 @@
 ---
 title: Live-meldingen verzenden
 description: Leer hoe u gegevens uit het live rapport met pushmeldingen kunt gebruiken
-feature: Rapportage
-topic: Contentmanagement
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: eba6ff87438325f58c453c12552c75c69dbdac0b
+exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
+source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 1%
+source-wordcount: '336'
+ht-degree: 0%
 
 ---
 
@@ -39,6 +40,22 @@ De push **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin
 * **[!UICONTROL Actions]**: Het totale aantal acties op de geleverde pushmelding, bijvoorbeeld klikken op de knop of ontslag.
 
 * **[!UICONTROL Engagements]**: Het totale aantal keren dat wordt geopend en de acties voor deze pushmelding, bijvoorbeeld als het profiel de pushmelding heeft geopend of als op een knop is geklikt.
+
+In de tabel **[!UICONTROL Sending metrics - by push]** wordt het succes van de levering beschreven:
+
+* **[!UICONTROL Targeted]**: Aantal gebruikersprofielen dat als doelprofielen voor deze levering in aanmerking komt.
+
+* **[!UICONTROL Excluded]**: Aantal gebruikersprofielen dat is uitgesloten van de doelprofielen en dat het bericht niet heeft ontvangen.
+
+* **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
+
+* **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
+
+* **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
+
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
+
+* **[!UICONTROL Opens]**: Aantal keren dat een bericht in een levering werd geopend.
 
 ![](../assets/live_report_4.png)
 
