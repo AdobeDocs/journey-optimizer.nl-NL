@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8f9c7ef2388624432a1601da0ce9502b3e68b58b
+source-git-commit: bb52c8e92621815c61528558aca6fbc326230e00
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1526'
 ht-degree: 11%
 
 ---
@@ -28,7 +28,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 <tbody>
 <tr>
 <td>
-<p>Er is een nieuwe maatstaf beschikbaar in de rapportage: het doelpubliek voor e-mail &amp; duwberichten is zichtbaar in zowel levende als globale rapporten.</p>
+<p>Nieuwe metriek zijn beschikbaar in rapportering: Gericht en Uitgesloten voor e-mail- en pushberichten zijn zichtbaar in zowel live- als algemene rapporten. </br> Om toegang te hebben tot de recentste metriek, gelieve te merken op dat u de verschillende rapporteringsdashboards voor elk kanaal en rapporttype zult moeten terugstellen. Raadpleeg de <a href="reports/live-report.md">gedetailleerde documentatie voor meer informatie over het aanpassen van het dashboard.</a></p>
 <p>Een nieuwe kolom in de lijst van de berichtuitvoering toont het aantal gerichte profielen voor elke berichtuitvoering. </p>
 <p>Raadpleeg de <a href="message-monitoring.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
@@ -99,7 +99,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 <tbody>
 <tr>
 <td>
-<p>Verzend automatisch uw pushbericht of e-mail op het beste moment voor elke klant die u met Adobe Journey Optimizer werkt. De Optimalisering van de Send-Time, aangedreven door de diensten AI van Adobe, voorspelt de beste tijd om een e-mail of duw bericht te verzenden om overeenkomst te maximaliseren die op historische open wordt gebaseerd en tarieven uit de doos te klikken.</p>
+<p>Verzend automatisch uw pushbericht of e-mail op het beste moment voor elke klant die u met Adobe Journey Optimizer werkt. De Optimalisering van de Send-Time, aangedreven door de diensten AI van Adobe, voorspelt de beste tijd om een e-mail of duw bericht te verzenden om overeenkomst te maximaliseren die op historisch open wordt gebaseerd en tarieven uit de doos te klikken.</p>
 <p>Deze functie is momenteel in bètaversie beschikbaar voor bètaklanten. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.</p>
 <p>Raadpleeg de <a href="building-journeys/journeys-message.md#send-time-optimization">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
