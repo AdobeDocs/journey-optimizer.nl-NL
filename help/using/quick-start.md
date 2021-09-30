@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: f2ca9df4ff3441bd85e07b618f2f0559106db9c5
+source-git-commit: 9c1edc8d79c58fcf4f2048b9fe81cd31ea621777
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '519'
 ht-degree: 5%
 
 ---
@@ -30,11 +30,9 @@ U zult dan teamleden aan productprofielen en **opstelling kanaalconfiguratie** v
 
 Meer informatie vindt u op de volgende pagina&#39;s:
 
-* **Aan de slag met productprofielen en machtigingen**
-
 * **Stel gebruikersmachtigingen in** en geef toegang tot uw teamleden. [Meer informatie](../using/administration/permissions.md)
 
-* **Implementeer[!DNL Adobe Experience Manager Assets Essentials]** om elementen en afbeeldingen in uw berichten te beheren: gebruikers die toegang tot  [!DNL Assets Essentials] moeten hebben, moeten deel uitmaken van de profielen  **Assets Essentials Consumer** User/and  **Assets Essentials** UsersProduct. [Meer](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) lezen{target=&quot;_blank&quot;}
+* **Implementeer[!DNL Adobe Experience Manager Assets Essentials]** om elementen en afbeeldingen in uw berichten te beheren: gebruikers die toegang tot  [!DNL Assets Essentials] moeten hebben, moeten deel uitmaken van de profielen  **Assets Essentials Consumer** User/and  **Assets Essentials** UsersProduct. [Meer informatie in Assets Essentials-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}
 
 * **Configureer uw** kanalen en definieer de instellingen voor e-mail- en pushmeldingen. [Meer informatie](../using/configuration/get-started-configuration.md)
 
@@ -47,7 +45,7 @@ Meer informatie vindt u op de volgende pagina&#39;s:
 
 Als gegevensbeheerder, moet u **gegevens identificeren en schema en dataset** creëren om uw gegevens in Adobe Experience Platform te krijgen.
 
-De stappen om een identiteitsnamespace en een dataset tot stand te brengen die voor profielen wordt toegelaten, en segmenten en testprofielen tot stand te brengen zijn gedetailleerd in de hieronder secties:
+De stappen om een identiteitsnamespace en een dataset tot stand te brengen die voor profielen wordt toegelaten, tot segmenten en testprofielen worden tot stand gebracht zijn gedetailleerd in de hieronder secties:
 
 * Leer hoe te voorproef en tot een **dataset** in [Adobe Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=nl){target=&quot;_blank&quot;} te leiden
 
@@ -63,7 +61,7 @@ Daarnaast moet u **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!U
 
 ## Berichten, aanbiedingen en reizen maken
 
-Raadpleeg als praktijkbeoefenaar Reis de volgende secties voor het instellen van uw eerste reis, het toevoegen van aanbiedingen, middelen en het verzenden van berichten:
+Raadpleeg als praktijkbeoefenaar Reis de volgende secties voor het instellen van uw eerste reis, het toevoegen van aanbiedingen en middelen en het verzenden van berichten:
 
 * **Berichten** maken: toegang te krijgen tot berichten, e-mail- en pushinhoud te ontwerpen of te laden, personalisatie- en voorvertoningsberichten toe te voegen. [Meer informatie](create-message.md)
 
