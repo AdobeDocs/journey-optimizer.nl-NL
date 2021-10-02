@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: cdc0909a296799c5c60e854474a23750cf7b1b2f
+exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -138,7 +139,7 @@ Omdat veel klanten op zoek zijn naar een eenvoudiger proces om hun abonnement op
 
 Leer hoe te om een opt-out verbinding aan uw berichtinhoud in [deze sectie](message-tracking.md#one-click-opt-out-link) toe te voegen.
 
-Zodra uw bericht door een [reis](building-journeys/journey.md) wordt verzonden, als een ontvanger de opt-out verbinding klikt, wordt hij onmiddellijk verkozen.
+Zodra uw bericht door een [reis](building-journeys/journey.md) wordt verzonden, als een ontvanger de opt-out verbinding klikt, wordt zijn profiel onmiddellijk verkozen.
 
 ## Koppeling in koptekst opzeggen {#unsubscribe-email}
 

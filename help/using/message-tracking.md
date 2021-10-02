@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 11a42e404f79f07fb092892d5ebc53f3d1a4351b
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Volg onderstaande stappen om een koppeling om te weigeren toe te voegen in uw e-
 
 1. Sla uw wijzigingen op.
 
-Als een ontvanger op de koppeling om te weigeren klikt nadat het bericht is verzonden, wordt hij onmiddellijk uitgeschakeld.
+Als ontvangers op de koppeling Weigeren klikken en uw bericht eenmaal zijn verzonden, worden ze direct uitgeschakeld.
 
 ## Beheer van bijhouden {#manage-tracking}
 

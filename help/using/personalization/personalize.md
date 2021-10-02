@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: c68aa48c7762b6d2d96a7c921025104247ceffa3
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '689'
 ht-degree: 6%
 
 ---
 
 # Aan de slag met personalisatie{#add-personalization}
 
-Ontdek [!DNL Adobe Journey Optimizer] verpersoonlijkingsmogelijkheden om uw berichten aan elke specifieke ontvanger aan te passen door de gegevens en de informatie te gebruiken u over hem/haar hebt. Het kan zijn voornaam zijn, zijn belangen, waar hij woont, wat hij gekocht heeft, en meer.
+Ontdek [!DNL Adobe Journey Optimizer] verpersoonlijkingsmogelijkheden om uw berichten aan elke specifieke ontvanger aan te passen door de gegevens en de informatie te gebruiken u over hen hebt. Het kan hun voornaam zijn, belangen, waar ze wonen, wat ze hebben gekocht, en meer.
 
 ➡️ [Leer hoe u een bericht in deze video&#39;s kunt personaliseren](#video-perso)
 

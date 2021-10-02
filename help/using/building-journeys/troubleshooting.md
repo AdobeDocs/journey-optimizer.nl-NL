@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6e18cc33154a8568c24ff92944c0bfa16b30eb80
+exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
+source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1039'
 ht-degree: 84%
 
 ---
@@ -81,7 +82,7 @@ Controleer bijvoorbeeld het volgende:
 
 Als personen de juiste stroom in de journey volgen, maar geen berichten ontvangen die ze wel zouden moeten ontvangen, kunt u het volgende controleren:
 
-* [!DNL Journey Optimizer] heeft correct rekening gehouden met het verzoek om het bericht te verzenden. Een zakelijke gebruiker heeft toegang tot het bericht dat wordt geacht te zijn verzonden en controleert of de tijd van de meest recente uitvoering overeenkomt met de uitvoeringstijd van uw reis. Hij kan ook de meest recente ontvangen API-oproepen/gebeurtenissen controleren.
+* [!DNL Journey Optimizer] heeft correct rekening gehouden met het verzoek om het bericht te verzenden. Zakelijke gebruikers hebben toegang tot het bericht dat ze geacht worden te zijn verzonden en controleren of de tijd van de meest recente uitvoering overeenkomt met de uitvoeringstijd van uw reis. Ze kunnen ook de meest recente ontvangen API-oproepen/gebeurtenissen controleren.
 * [!DNL Journey Optimizer] heeft het bericht verzonden. In de verzendende logboeken van het bericht, kunt u de status van elke uitvoering zien. U kunt zien of deze groen of rood is, en wat het probleem was. Een zakelijke gebruiker kan dit scherm openen en de logboeken naar een beheerder verzenden voor nader onderzoek.
 
 Als een bericht via een aangepaste actie is verzonden, kan tijdens de journeytest alleen worden gecontroleerd of de aanroep van het systeem van de aangepaste actie tot een fout leidt of niet. Als de aanroep naar het externe systeem dat aan de aangepaste actie is gekoppeld, niet tot een fout leidt, maar ook niet tot het verzenden van een bericht, moet er enig onderzoek worden gedaan aan de kant van het externe systeem.
