@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: a5a3b23228a56cb16935dbc0f4d26d4a666d8fd2
+exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
+source-git-commit: 138adc4b548e5d8ba744037db2d35150b6876867
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '996'
 ht-degree: 4%
 
 ---
@@ -118,7 +119,7 @@ U kunt voorwaarden gebruiken om segmentatie uit te voeren gebruikend **Condition
 De segmentatie kan worden gebaseerd op:
 
 * gegevensbrongegevens
-* de context van de gebeurtenissen, deel van de reisgegevens, bijvoorbeeld: heeft iemand op het bericht geklikt dat ze een uur geleden heeft ontvangen ?
+* de context van de gebeurtenissen, deel van de reisgegevens, bijvoorbeeld: heeft iemand op het bericht geklikt dat een uur geleden is ontvangen ?
 * een datum, bijvoorbeeld: zijn we in juni wanneer iemand de reis doorgaat?
 * een tijd, bijvoorbeeld: is het morgenochtend in de tijdzone van de persoon ?
 * een algoritme waarin het publiek dat de reis volgt wordt gesplitst op basis van een percentage, bijvoorbeeld: 90% - 10% om een controlegroep uit te sluiten
