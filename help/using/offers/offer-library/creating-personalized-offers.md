@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 41f43f6e702dbadfcd28d14154895a65ec15ed65
+source-git-commit: 86fc6d9df06b975539652cc44ec41fd8c8318404
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1328'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,8 @@ ht-degree: 1%
 Voordat u een aanbieding maakt, moet u controleren of u het volgende hebt gemaakt:
 
 * A **placement** waarin de aanbieding zal worden getoond. Zie [Plaatsen maken](../offer-library/creating-placements.md)
-* Een **beslissingsregel** die de voorwaarde bepaalt waaronder de aanbieding zal worden ingediend. Zie [Beslissingsregels maken](../offer-library/creating-decision-rules.md).
-* Een of meer **tags** die u aan de aanbieding wilt koppelen. Zie [Codes maken](../offer-library/creating-tags.md).
+* Als u een toelatingsvoorwaarde wilt toevoegen: a **beslissingsregel** die de voorwaarde definieert waaronder de aanbieding wordt ingediend. Zie [Beslissingsregels maken](../offer-library/creating-decision-rules.md).
+* Een of meer **tags** die u wellicht aan de aanbieding wilt koppelen. Zie [Codes maken](../offer-library/creating-tags.md).
 
 ➡️ [Ontdek deze functie in video](#video)
 
