@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 5c4aca7666987ed188e69f3b5772950c0bf96488
+source-git-commit: c0c397818020126b175eeb8f75f3cfd56029a2f6
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '976'
 ht-degree: 2%
 
 ---
@@ -122,13 +122,19 @@ Als [testprofielen](#select-test-profiles) zijn geselecteerd, kunt u proefdrukke
 
    ![](assets/send-proof-button.png)
 
-1. Typ in het venster **[!UICONTROL Send proof]** naast de testprofielen de e-mail van de ontvanger en klik op **[!UICONTROL Add]** om de proefdruk naar uzelf of leden van uw organisaties te verzenden.
+1. Typ in het venster **[!UICONTROL Send proof]** de e-mail van de ontvanger en klik **[!UICONTROL Add]** om de proefdruk naar uzelf of leden van uw organisaties te verzenden.
 
-   Je kunt maximaal 10 ontvangers toevoegen voor de proefaflevering.
+   U kunt maximaal tien ontvangers toevoegen voor de proefaflevering.
 
    ![](assets/send-proof-button_2.png)
 
-1. Selecteer vervolgens de testprofielen die de proefdruk ontvangen en klik op **[!UICONTROL Send proof]**. U kunt desgewenst een voorvoegsel toevoegen aan de onderwerpregel van de proefdruk. Alleen alfanumerieke tekens en speciale tekens, bijvoorbeeld . - _ ( ) [ ], zijn toegestaan als voorvoegsel bij de onderwerpregel.
+1. Selecteer vervolgens de **Testprofielen** die worden gebruikt om de inhoud van het bericht aan te passen.
+
+   Elke ontvanger van de proefdruk ontvangt evenveel berichten als het aantal geselecteerde testprofielen. Als u bijvoorbeeld vijf e-mailberichten voor ontvangers hebt toegevoegd en tien testprofielen hebt geselecteerd, verzendt u vijftig proefdrukberichten en ontvangt elke ontvanger er tien.
+
+1. U kunt desgewenst een voorvoegsel toevoegen aan de onderwerpregel van de proefdruk. Alleen alfanumerieke tekens en speciale tekens, bijvoorbeeld . - _ ( ) [ ], zijn toegestaan als voorvoegsel bij de onderwerpregel.
+
+1. Klik op **[!UICONTROL Send proof]**.
 
    ![](assets/send-proof-select.png)
 
@@ -136,11 +142,11 @@ Als [testprofielen](#select-test-profiles) zijn geselecteerd, kunt u proefdrukke
 
    ![](assets/send-proof-view.png)
 
-U moet proefdrukken verzenden na om het even welke wijziging aan de berichtinhoud.
+Het wordt aanbevolen om na elke wijziging proefdrukken naar de inhoud van het bericht te verzenden.
 
 >[!NOTE]
 >
-> In de proefdruk die naar de testprofielen wordt verzonden, is de verbinding aan de spiegelpagina niet actief. Deze wordt alleen geactiveerd in de laatste berichten.
+>In de proefdruk die naar de testprofielen wordt verzonden, is de verbinding aan de spiegelpagina niet actief. Deze wordt alleen geactiveerd in de laatste berichten.
 
 ## E-mailweergave{#email-rendering}
 
