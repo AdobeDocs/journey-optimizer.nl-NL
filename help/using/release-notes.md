@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cbd311f5fe648302ef589c32e9be1b0147e4d31c
+source-git-commit: 6cfd56d22cc18c044818dc73fc265ce5e882d36c
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '1996'
 ht-degree: 10%
 
 ---
@@ -98,7 +98,8 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 **Rapportage**
 
 * **Gegevensindeling in algemene weergave** - U kunt nu schakelen tussen getallen en percentages in het dialoogvenster **Globale weergave** van de **Uitvoering** tab. [Meer informatie](message-monitoring.md)
-* **Nieuwe metriek** - Nieuwe metriek en widgets zijn nu beschikbaar in **Live** en **Algemeen** rapporten om de gevolgen van uw voorstellen voor ontvangers te meten. [Meer informatie](reports/journey-global-report.md)
+
+<!--* **New metrics** - New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients. [Learn more](reports/journey-global-report.md)-->
 
 **Beheer**
 
