@@ -1,68 +1,85 @@
 ---
 title: Journaal live
 description: Leer hoe u gegevens van het live rapport over de reis kunt gebruiken
-feature: Rapportage
-topic: Contentmanagement
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: c883930674b3856f1f7857f4072419be8c9d8738
+exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
+source-git-commit: 8cb36038b2aeddd1662dcb7c84b36d9bc1265982
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
 
 # Journaal live {#journey-live-report}
 
-Live-rapport over reizen is rechtstreeks vanaf uw reis toegankelijk met de knop **[!UICONTROL Live report]**.
+Reis live rapport kan direct vanaf je reis worden geopend met de **[!UICONTROL Live report]** knop.
 
 ![](../assets/report_1.png)
 
-De pagina **[!UICONTROL Live report]** wordt weergegeven met de volgende tabbladen:
+De reis **[!UICONTROL Live report]** Deze pagina wordt weergegeven met de volgende tabbladen:
 
 * [Reis](#journey-live)
 * [Email](#email-live)
 * [Push](#push-live)
 
-De reis **[!UICONTROL Live report]** is verdeeld in verschillende widgets die het succes en de fouten van uw reis in detail beschrijven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Raadpleeg voor meer informatie hierover deze [sectie](live-report.md#modify-dashboard).
+De reis **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw reis worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Raadpleeg voor meer informatie hierover [sectie](live-report.md#modify-dashboard).
 
 ## Tabblad Reis {#journey-live}
 
-Vanaf uw reis **[!UICONTROL Live report]**, geeft het **[!UICONTROL Journey]** lusje u een duidelijke mening van de belangrijkste het volgen gegevens over uw reis.
+Vanaf uw reis **[!UICONTROL Live report]** de **[!UICONTROL Journey]** geeft u een duidelijk overzicht van de belangrijkste volgende gegevens over uw reis.
 
 ![](../assets/report_journey_2.png)
 
 **[!UICONTROL Journey Performance]** Hiermee kunt u het pad van uw doelprofielen stap voor stap bekijken.
 
-Met de widget **[!UICONTROL Journey Statistics]** worden de volgende KPI&#39;s weergegeven:
+De **[!UICONTROL Journey Statistics]** widget geeft de volgende KPI&#39;s weer:
 
 * **[!UICONTROL Entered profiles]**: Het totale aantal personen dat de inreisgebeurtenis van de reis heeft bereikt.
 
 * **[!UICONTROL Exited profiles]**: Het totale aantal personen dat de reis heeft verlaten.
 
-* **[!UICONTROL Failed individual journey]**: Het totale aantal individuele reizen dat niet succesvol is uitgevoerd.
+* **[!UICONTROL Failed individual journeys]**: Het totale aantal individuele reizen dat niet succesvol is uitgevoerd.
 
 ![](../assets/report_journey_3.png)
 
-Met de widgets **[!UICONTROL Event executed over the last 24 hours]**, **[!UICONTROL Events executed]** en **[!UICONTROL Events]** kunt u zien welke gebeurtenissen met succes zijn uitgevoerd via een overzichtsnummer, grafiek en tabel.
+De **[!UICONTROL Event executed over the last 24 hours]** en **[!UICONTROL Events]** Met widgets kunt u zien welke van uw gebeurtenissen met succes zijn uitgevoerd via een overzichtsnummer, grafiek en tabel.
 
 ![](../assets/report_journey_4.png)
 
-**[!UICONTROL Action executed over the last 24 hours]** en  **[!UICONTROL Actions executed and errors]** widgets vertegenwoordigen de meest succesvolle actie en fouten die optraden toen uw acties werden geactiveerd. De grafiek, de lijst en de samenvattingsaantallen van de Actie bevatten de gegevens beschikbaar voor acties, zoals:
+De **[!UICONTROL Action executed over the last 24 hours]** en **[!UICONTROL Actions executed and errors]** widgets zijn de meest succesvolle actie en fouten die zijn opgetreden toen uw acties werden geactiveerd. De grafiek, de lijst en de samenvattingsaantallen van de Actie bevatten de gegevens beschikbaar voor acties, zoals:
 
-* **[!UICONTROL Actions successfully executed]**: Het totale aantal acties dat met succes voor een reis wordt uitgevoerd.
+* **[!UICONTROL Actions executed]**: Het totale aantal acties dat met succes voor een reis wordt uitgevoerd.
 
-* **[!UICONTROL Error in action]**: Het totale aantal fouten dat is opgetreden voor handelingen.
+* **[!UICONTROL Error in actions]**: Het totale aantal fouten dat is opgetreden voor handelingen.
+
+<!--
+![](../assets/live_report_7.png)
+
+>[!NOTE]
+>
+>The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
+
+The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
+
+* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
+
+* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
+
+* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
+-->
 
 ## Tabblad E-mail {#email-live}
 
-Vanaf uw reis **[!UICONTROL Live report]**, details het **[!UICONTROL Email]** lusje de belangrijkste informatie met betrekking tot de e-mailleveringen die in uw reis worden verzonden.
+Vanaf uw reis **[!UICONTROL Live report]** de **[!UICONTROL Email]** bevat de belangrijkste informatie met betrekking tot de e-mailleveringen die tijdens uw reis worden verzonden.
 
-Voor een gedetailleerd rapport over een specifieke e-maillevering, verwijs naar [E-mail levend rapport](email-live-report.md) sectie.
+Voor een gedetailleerd rapport over een specifieke e-maillevering raadpleegt u de [Live-melding via e-mail](email-live-report.md) sectie.
 
 ![](../assets/report_email_1.png)
 
-In de widget **[!UICONTROL Email Sending Statistics]** worden de belangrijkste gegevens met betrekking tot uw bericht weergegeven:
+De **[!UICONTROL Email Sending Statistics]** widget geeft details over de belangrijkste informatie met betrekking tot uw bericht:
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
@@ -70,7 +87,7 @@ In de widget **[!UICONTROL Email Sending Statistics]** worden de belangrijkste g
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
-De tabel **[!UICONTROL Sending metrics by Email]** en de grafiek **[!UICONTROL Email Summary]** geven aan hoe succesvol uw levering is:
+De **[!UICONTROL Sending metrics by Email]** tabel en **[!UICONTROL Email Summary]** grafiek geeft het succes van uw levering aan:
 
 * **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
 
@@ -90,7 +107,7 @@ De tabel **[!UICONTROL Sending metrics by Email]** en de grafiek **[!UICONTROL E
 
 ![](../assets/report_email_2.png)
 
-De widgets **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** en **[!UICONTROL Hard and bounce - by Email]** bevatten de beschikbare gegevens met betrekking tot berichten die worden verzonden, zoals:
+De **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** en **[!UICONTROL Hard and bounce - by Email]** widgets bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd, zoals:
 
 * **[!UICONTROL Hard bounce]**: Het totale aantal permanente fouten, zoals een onjuist e-mailadres. Dit omvat een foutbericht waarin expliciet wordt aangegeven dat het adres ongeldig is, zoals Onbekende gebruiker.
 
@@ -98,17 +115,17 @@ De widgets **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** e
 
 * **[!UICONTROL Ignored]**: Het totale aantal tijdelijke gegevens, zoals Buiten-kantoor, of een technische fout, bijvoorbeeld als het type afzender postmaster is.
 
-Met de grafiek en tabel **[!UICONTROL Error Reasons]** kunt u zien welke fout is opgetreden tijdens de levering.
+De **[!UICONTROL Error Reasons]** de grafiek en de lijst laten u zien welke fout tijdens uw levering voorkwam.
 
 ## Tabblad Push {#push-live}
 
-Vanaf uw reis **[!UICONTROL Live report]**, details het **[!UICONTROL Push]** lusje de belangrijkste informatie met betrekking tot de duploleveringen die in uw reis worden verzonden.
+Vanaf uw reis **[!UICONTROL Live report]** de **[!UICONTROL Push]** bevat de belangrijkste informatie met betrekking tot de pushberichten die tijdens uw reis worden verzonden.
 
-Raadpleeg de sectie [Live pushmelding](push-live-report.md) voor een gedetailleerd rapport over een specifieke pushaanbieding.
+Voor een gedetailleerd rapport over een specifieke pushservice raadpleegt u de [Live-rapport afdrukken](push-live-report.md) sectie.
 
 ![](../assets/report_push_1.png)
 
-**[!UICONTROL Push notification sending performance]** en  **[!UICONTROL Push notification summary]** de  **[!UICONTROL Sending metrics - by Push]** widgets geven de belangrijkste informatie met betrekking tot uw bericht:
+**[!UICONTROL Push notification sending performance]**, **[!UICONTROL Push notification summary]** en **[!UICONTROL Sending metrics - by Push]** widgets geeft details over de belangrijkste informatie met betrekking tot uw bericht:
 
 * **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
 
@@ -124,10 +141,10 @@ Raadpleeg de sectie [Live pushmelding](push-live-report.md) voor een gedetaillee
 
 * **[!UICONTROL Engagements]**: Het totale aantal keren dat wordt geopend en de acties voor deze pushmelding, bijvoorbeeld als het profiel de pushmelding heeft geopend of als op een knop is geklikt.
 
-Met de grafiek en tabel **[!UICONTROL Error Reasons]** kunt u zien welke fout is opgetreden tijdens de levering.
+De **[!UICONTROL Error Reasons]** de grafiek en de lijst laten u zien welke fout tijdens uw levering voorkwam.
 
 ![](../assets/report_push_2.png)
 
-De **[!UICONTROL Tracking by platform]**-, **[!UICONTROL Sending by platform]**- en **[!UICONTROL Breakdown by platform]**-grafieken en -tabellen geven het succes van uw pushmelding weer, afhankelijk van het besturingssysteem.
+De **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** en **[!UICONTROL Breakdown by platform]** in grafieken en tabellen wordt aangegeven hoe succesvol uw pushmelding is, afhankelijk van het besturingssysteem.
 
-Met de widget **[!UICONTROL Sending statistics - Failed]** kunt u zien hoeveel fouten en stuitingen zich hebben voorgedaan.
+De **[!UICONTROL Sending statistics - Failed]** Met de widget kunt u zien hoeveel fout en stuit er zijn opgetreden.

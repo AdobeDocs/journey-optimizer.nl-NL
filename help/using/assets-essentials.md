@@ -1,14 +1,15 @@
 ---
 title: Adobe Experience Manager Assets Essentials
 description: Aan de slag met Assets Essentials
-feature: Overzicht
-topic: Contentmanagement
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
+source-git-commit: 0f79d465dd5a63ced107614407de167c7d9dad5a
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 2%
+source-wordcount: '378'
+ht-degree: 1%
 
 ---
 
@@ -16,49 +17,50 @@ ht-degree: 2%
 
 ## Aan de slag met [!DNL Assets Essentials] {#get-started-assets-essentials}
 
+
+[!DNL Adobe Experience Manager Assets Essentials] biedt één gecentraliseerde opslagplaats voor elementen die u kunt gebruiken om uw berichten te vullen. Het is rechtstreeks toegankelijk vanuit [!DNL Adobe Journey Optimizer] via de **[!UICONTROL Assets]** sectie. U kunt ook elementen en mappen openen tijdens het ontwerpen van e-mailinhoud. [Meer informatie over e-mailontwerp](design-emails.md).
+
 >[!NOTE]
 >
-> Als u met [!DNL Adobe Experience Manager Assets Essentials] wilt werken, moet u [!DNL Assets Essentials] voor uw organisatie implementeren en ervoor zorgen dat gebruikers die toegang tot [!DNL Assets Essentials] nodig hebben, deel uitmaken van de **Assets Essentials Consumer Users** of **Assets Essentials Users**-productprofielen. <br> Zie deze  [pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html) {target=&quot;_blank&quot;} voor meer informatie.
+> Werken met [!DNL Adobe Experience Manager Assets Essentials]moet u [!DNL Assets Essentials] voor uw organisatie en zorg ervoor dat gebruikers die toegang tot [!DNL Assets Essentials], deel uitmaken van de **Assets Essentials Consumer Users** of/en **Assets Essentials-gebruikers** Productprofielen. <br> Raadpleeg voor meer informatie hierover [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
-[!DNL Adobe Experience Manager Assets Essentials] biedt één gecentraliseerde opslagplaats voor elementen die u kunt gebruiken om uw berichten te vullen. Het kan direct van [!DNL Adobe Journey Optimizer] door de **[!UICONTROL Assets]** sectie worden betreden. U kunt ook elementen en mappen openen tijdens het ontwerpen van e-mailinhoud. [Meer weten over e-mailontwerp](design-emails.md)?
-
-Voor meer gedetailleerde procedures op [!DNL Assets Essentials], verwijs naar [Adobe Experience Manager Assets Essentials documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
+Voor meer gedetailleerde procedures over [!DNL Assets Essentials], zie [Adobe Experience Manager Assets Essentials-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
 
 ## Elementen uploaden en invoegen{#add-asset}
 
-Als u bestanden wilt uploaden in de [!DNL Assets Essentials], moet u eerst bladeren naar de map waarin de bestanden worden opgeslagen of deze maken. U kunt deze vervolgens invoegen in uw e-mailinhoud.
+Bestanden uploaden in het dialoogvenster [!DNL Assets Essentials], moet u eerst bladeren of de omslag tot stand brengen het zal worden opgeslagen in. U kunt deze vervolgens invoegen in uw e-mailinhoud.
 
-Voor meer informatie over hoe te om activa te uploaden, verwijs naar [Adobe Experience Manager Assets Essentials documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target=&quot;_blank&quot;}.
+Voor meer informatie over het uploaden van elementen raadpleegt u [Adobe Experience Manager Assets Essentials-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html){target=&quot;_blank&quot;}.
 
-1. Van [!DNL Adobe Journey Optimizer] homepage, selecteer **[!UICONTROL Assets]** tabel onder **[!UICONTROL Content management]** menu om tot [!DNL Assets Essentials] toegang te hebben.
+1. Van [!DNL Adobe Journey Optimizer] homepage, selecteer **[!UICONTROL Assets]** onder de **[!UICONTROL Content management]** menu voor toegang [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
 
 1. Dubbelklik op een map in de centrale sectie of in de structuurweergave om deze te openen.
 
-   U kunt ook op **[!UICONTROL Create folder]** klikken om een nieuwe map te maken.
+   U kunt ook op **[!UICONTROL Create folder]** om een nieuwe map te maken.
 
    ![](assets/media_library_8.png)
 
-1. Klik eenmaal in de geselecteerde of gemaakte map op **[!UICONTROL Add Assets]** om nieuw element te uploaden naar uw map.
+1. Klik eenmaal in de geselecteerde of gemaakte map op **[!UICONTROL Add Assets]** om nieuwe middelen naar uw omslag te uploaden.
 
    ![](assets/media_library_2.png)
 
-1. Klik in **[!UICONTROL Upload files]** op **[!UICONTROL Browse]** en kies of u **[!UICONTROL Browse files]** of **[!UICONTROL Browse folders]** wilt gebruiken.
+1. Van de **[!UICONTROL Upload files]**, klikt u op **[!UICONTROL Browse]** en kies als u wilt **[!UICONTROL Browse files]** of **[!UICONTROL Browse folders]**.
 
    ![](assets/media_library_3.png)
 
 1. Selecteer het bestand dat u wilt uploaden. Klik op **[!UICONTROL Upload]** als u klaar bent.
 
-   Raadpleeg deze [pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html) voor meer informatie over het beheren van uw elementen.
+   Raadpleeg deze voor meer informatie over het beheren van uw elementen [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
 1. Nadat uw element is geüpload, kunt u uw elementen nu in een van uw berichten invoegen via de e-mailontwerper.
 
-   Uw middel kan ook verder worden uitgegeven met **Edit** wijze van [!DNL Assets Essentials]. [Meer](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html) informatie {target=&quot;_blank&quot;}.
+   Uw middel kan ook verder worden bewerkt met de **Bewerken** modus van [!DNL Assets Essentials]. [Meer informatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target=&quot;_blank&quot;}.
 
    ![](assets/media_library_12.png)
 
-1. Selecteer [!DNL Adobe Journey Optimizer] in het linkerdeelvenster van de e-mailontwerper.**[!UICONTROL Asset picker]**
+1. Van [!DNL Adobe Journey Optimizer], selecteert u **[!UICONTROL Asset picker]** in het linkerdeelvenster van de e-mailontwerper.
 
    ![](assets/media_library_5.png)
 

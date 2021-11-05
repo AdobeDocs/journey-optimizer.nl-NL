@@ -1,21 +1,21 @@
 ---
-title: Bibliotheek met hulpfuncties
+title: Aan de slag met Helper-functies
 description: Journey Optimizer Helper-functiebibliotheek
-feature: Personalisatie
-topic: Personalisatie
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: d09eedce833b41037452bb46bc748e7e9f477d0a
+exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
+source-git-commit: 94dcf91e98ef343eed4c69a7251427809eece236
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 1%
+source-wordcount: '1344'
+ht-degree: 2%
 
 ---
 
+# Aan de slag met Helper-functies{#functionsL}
 
-# Bibliotheek met hulpfuncties{#functionsL}
-
-Gebruik [!DNL Journey Optimizer] sjabloontaal om bewerkingen uit te voeren op gegevens, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en deze te manipuleren in de context van personalisatie. Leer richtlijnen van de verpersoonlijkingssyntaxis in [deze pagina](../personalization-syntax.md).
+Gebruiken [!DNL Journey Optimizer] sjabloontaal voor het uitvoeren van bewerkingen op gegevens, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en het manipuleren ervan in de context van personalisatie. Meer informatie over richtlijnen voor de syntaxisaanpassing vindt u in [deze pagina](../personalization-syntax.md).
 
 ➡️ [Ontdek hoe u hulpfuncties kunt gebruiken](#video) (video)
 
@@ -23,13 +23,17 @@ De taal van het malplaatje wordt leveraged in helperfuncties beschikbaar in verp
 
 ![](../assets/access-helper-functions.png)
 
+In de [!DNL Journey Optimizer] De Redacteur van de uitdrukking, helperfuncties worden gegroepeerd in drie categorieën: [Functies](#functions-helper), [Helpers](#helper-helper) en [Operatoren](#operators-helper).
 
+Selecteer een categorie voor toegang tot subcategorieën en functies.
 
-In de [!DNL Journey Optimizer] Redacteur van de Uitdrukking, worden de helperfuncties gegroepeerd in drie categorieën: [Functies](#functions-helper), [Helpers](#helper-helper) en [Operatoren](#operators-helper).
+Toegang tot subcategorieën door op de knop `>` pictogram. Selecteer een functie door op de knop `+` pictogram: De functie wordt automatisch toegevoegd aan het verpersoonlijkingsscherm.
+
+Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aan uw favorieten toe te voegen. [Meer informatie](../personalize.md#fav)
 
 ## Functies{#functions-helper}
 
-**Arrayfuncties**
+### Arrayfuncties
 
 <table>
     <tr>
@@ -79,8 +83,43 @@ In de [!DNL Journey Optimizer] Redacteur van de Uitdrukking, worden de helperfun
     </tr>
 </table>
 
+### Datumtijdfuncties{#date-functions}
 
-**Kaartfuncties**
+<table>
+    <tr>
+        <td><a href="dates.md#age">Leeftijd</a></td><td>Deze functie haalt de leeftijd op van een bepaalde datum</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#current">Huidige tijd in milliseconden</a></td><td>Deze functie haalt huidige tijd op in epoch millisecond</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#date-diff">Datumverschil</a></td><td>Deze functie haalt het verschil op tussen twee datums in aantal dagen</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-week">Dag van de week</a></td><td>Deze functie haalt de dag van de week op</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#day-year">Dag van het jaar</a></td><td>Deze functie haalt de dag van het jaar op</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#format-date">Indelingsdatum</a></td><td>Deze functie formatteert een waarde van de datumtijd</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-days">Aantal dagen instellen</a></td><td>Deze functie stelt de dag van de maand in voor de opgegeven datum en tijd</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#set-hours">Aantal dagen instellen</a></td><td>Deze functie stelt het uur van de datum-tijd in</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#to-utc">Naar UTC</a></td><td>Deze functie converteert een datetime naar UTC</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#week-of-year">Week van het jaar</a></td><td>Deze functie retourneert de week van het jaar</td>
+    </tr>
+</table>
+</table>
+
+### Kaartfuncties
 
 <table>
     <tr>
@@ -105,7 +144,7 @@ In de [!DNL Journey Optimizer] Redacteur van de Uitdrukking, worden de helperfun
     </tr>
 </table>
 
-**Tekenreeksfuncties**
+### Tekenreeksfuncties
 
 <table>
     <tr>
@@ -195,7 +234,7 @@ In de [!DNL Journey Optimizer] Redacteur van de Uitdrukking, worden de helperfun
 
 ## Helpers{#helper-helper}
 
-Helpers worden beschreven in [deze pagina](helpers.md).
+Helpers worden gedetailleerd in [deze pagina](helpers.md).
 
 
 <table>
@@ -285,6 +324,6 @@ Vergelijkingsfuncties worden gebruikt om verschillende expressies en waarden met
 
 ## Hoe kan ik-video{#video}
 
-Leer hoe u waarden voor personalisatie kunt transformeren met behulp van hulpfuncties voor personalisatie en verschillende gebruiksgevallen voor hulpfuncties kunt begrijpen.
+Leer hoe u waarden voor personalisatie met hulpfuncties voor personalisatie kunt transformeren, en hoe u verschillende gebruiksscenario&#39;s voor hulpfuncties kunt begrijpen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

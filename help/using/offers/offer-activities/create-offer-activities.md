@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 89e0223ebbf5015b61b55da693e0c6401307ce9f
+source-git-commit: 7f8871fdaf5bb543ce8dc894f3a7dc7304eccf36
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 2%
+source-wordcount: '1234'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ Besluiten (voorheen bekend als aanbiedingsactiviteiten) zijn containers voor uw 
 
 ➡️ [Ontdek deze functie in video](#video)
 
-De lijst met beslissingen is toegankelijk via het menu **[!UICONTROL Offers]** > tabblad **[!UICONTROL Decisions]**. De filters zijn beschikbaar om u te helpen besluiten op hun status of begin en einddata terugwinnen.
+De lijst van besluiten is toegankelijk in **[!UICONTROL Offers]** menu > **[!UICONTROL Decisions]** tab. De filters zijn beschikbaar om u te helpen besluiten op hun status of begin en einddata terugwinnen.
 
 ![](../../assets/activities-list.png)
 
@@ -32,61 +32,97 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
 ## De beslissing maken {#create-activity}
 
-1. Heb toegang tot de besluitenlijst, dan klik **[!UICONTROL Create decision]**.
+1. Open de beslissingslijst en klik vervolgens op **[!UICONTROL Create decision]**.
 
 1. Geef de naam van de beslissing op.
 
-1. Definieer een begin- en einddatum en -tijd en klik vervolgens op **[!UICONTROL Next]**.
+1. Geef zo nodig een begin- en einddatum en -tijd op en klik op **[!UICONTROL Next]**.
 
    ![](../../assets/activities-name.png)
 
-## Beslissingsbereik toevoegen {#add-decision-scopes}
+## Bepaal beslissingsbereik {#add-decision-scopes}
 
-1. Sleep een positie uit de lijst om deze aan de beslissing toe te voegen en klik vervolgens op **[!UICONTROL Add collection]**.
+1. Selecteer een plaatsing van de drop-down lijst. Het zal aan het eerste beslissingswerkingsgebied in uw besluit worden toegevoegd.
 
    ![](../../assets/activities-placement.png)
 
+1. Klikken **[!UICONTROL Add]** om evaluatiecriteria voor deze plaatsing te selecteren.
+
+   ![](../../assets/activities-evaluation-criteria.png)
+
+   Elk criterium bestaat uit een verzameling aanbiedingen die gekoppeld is aan een geschiktheidsbeperking en een waarderingsmethode om de aanbiedingen te bepalen die in de plaatsing moeten worden getoond.
+
    >[!NOTE]
    >
-   >Dezelfde plaatsing kan meerdere keren in de beslissing worden geselecteerd.
+   >Er is ten minste één evaluatiecriterium vereist.
 
-1. Selecteer de inzameling die de aanbiedingen bevat om te overwegen, dan klik **[!UICONTROL Add]**.
+1. Selecteer de aanbiedingsinzameling die de aanbiedingen bevat om te overwegen, dan klik **[!UICONTROL Add]**.
 
    ![](../../assets/activities-collection.png)
 
-1. De geselecteerde voorstellen worden toegevoegd aan de plaatsing.
+   >[!NOTE]
+   >
+   >U kunt op de knop **[!UICONTROL Open offer collections]** koppeling om de lijst met verzamelingen op een nieuw tabblad weer te geven, zodat u door de verzamelingen en de aanbiedingen in deze verzamelingen kunt bladeren.
 
-   In dit voorbeeld, selecteerden wij twee aanbiedingen die in een JSON-type plaatsing zullen tonen gericht op het voorstellen van aanbiedingen in een oplossing van het vraagcentrum.
+   De geselecteerde verzameling wordt toegevoegd aan de criteria.
 
-   ![](../../assets/offers-added.png)
+   ![](../../assets/activities-collection-added.png)
 
-1. Als meerdere aanbiedingen voor deze plaatsing in aanmerking komen, worden standaard de aanbiedingen met de hoogste prioriteitsscore aan de klant geleverd.
+1. Gebruik de **[!UICONTROL Eligibility]** om de selectie van aanbiedingen voor deze plaatsing te beperken.
 
-   Als u een specifieke formule of een het rangschikken strategie wilt gebruiken om te kiezen welke in aanmerking komende aanbieding te leveren, selecteer een rangschikkende formule van **[!UICONTROL Rank offers by]** drop-down lijst. Raadpleeg [deze sectie](../offer-activities/configure-offer-selection.md) voor meer informatie.
+   Deze beperking kan worden toegepast door een **beslissingsregel**, of een of meer **Adobe Experience Platform-segmenten**. Beide zijn gedetailleerd in [deze sectie](#segments-vs-decision-rules).
 
-1. In het veld **[!UICONTROL Constraint]** is de selectie van aanbiedingen voor deze plaatsing beperkt. Deze beperking kan worden toegepast door een **beslissingsregel**, of één of verscheidene **Adobe Experience Platform segmenten** te gebruiken. Beide zijn gedetailleerd in [deze sectie](#segments-vs-decision-rules).
-
-   * Als u de selectie van de aanbiedingen wilt beperken tot de leden van een Adobe Experience Platform-segment, selecteert u **[!UICONTROL Segments]** en klikt u op **[!UICONTROL Add segments]**.
+   * Selecteer **[!UICONTROL Segments]** en klik vervolgens op **[!UICONTROL Add segments]**.
 
       ![](../../assets/activity_constraint_segment.png)
 
-      Voeg een of meerdere segmenten uit het linkervenster toe, combineer deze met de logische operatoren **[!UICONTROL And]** / **[!UICONTROL Or]** en klik vervolgens op **[!UICONTROL Select]** om te bevestigen.
+      Voeg een of meerdere segmenten uit het linkervenster toe en combineer deze met de opdracht **[!UICONTROL And]** / **[!UICONTROL Or]** logische operatoren.
 
       ![](../../assets/activity_constraint_segment2.png)
 
-      Meer informatie over het werken met segmenten in [deze sectie](../../segment/about-segments.md).
+      Leer hoe u met segmenten werkt in [deze sectie](../../segment/about-segments.md).
 
-   * Als u een selectiegrens voor deze plaatsing gebruikend een besluitregel wilt toevoegen, selecteer **[!UICONTROL Decision rule]** optie, dan sleep de gewenste regel van de linkerruit in **[!UICONTROL Decision rule]** gebied.
+   * Als u een selectiegrens met een beslissingsregel wilt toevoegen, gebruikt u de optie **[!UICONTROL Decision rule]** en selecteert u de gewenste regel.
 
       ![](../../assets/activity_constraint_rule.png)
 
-      Leer meer op hoe te om een beslissingsregel in [deze sectie](../offer-library/creating-decision-rules.md) tot stand te brengen.
+      Leer hoe u een beslissingsregel maakt in [deze sectie](../offer-library/creating-decision-rules.md).
+
+1. Definieer de waarderingsmethode die u wilt gebruiken om de beste aanbieding voor elk profiel te selecteren.
+
+   ![](../../assets/activity_ranking-method.png)
+
+   * Als meerdere aanbiedingen voor deze plaatsing in aanmerking komen, wordt standaard de aanbieding met de hoogste prioriteitsscore aan de klant geleverd.
+
+   * Als u een specifieke formule wilt gebruiken om te kiezen welke aanbieding in aanmerking komt, selecteert u **[!UICONTROL Ranking formula]**. Leer hoe je voorstellen kunt beoordelen in [deze sectie](../offer-activities/configure-offer-selection.md).
+
+1. Klikken **[!UICONTROL Add]** om meer criteria voor dezelfde plaatsing te definiëren.
+
+   ![](../../assets/activity_add-collection.png)
+
+1. Wanneer u meerdere criteria toevoegt, worden deze in een bepaalde volgorde geëvalueerd. De eerste verzameling die aan de reeks is toegevoegd, wordt eerst geëvalueerd, enzovoort.
+
+   Als u de standaardvolgorde wilt wijzigen, kunt u de verzamelingen slepen en neerzetten om ze naar wens opnieuw te rangschikken.
+
+   ![](../../assets/activity_reorder-collections.png)
+
+1. U kunt ook meerdere criteria tegelijk evalueren. U doet dit door de verzameling boven op een andere verzameling te slepen.
+
+   ![](../../assets/activity_move-collection.png)
+
+   Ze hebben nu dezelfde rang en zullen dus tegelijkertijd worden geëvalueerd.
+
+   ![](../../assets/activity_same-rank-collections.png)
+
+1. Als u een andere plaatsing voor uw voorstellen wilt toevoegen als onderdeel van deze beslissing, gebruikt u de opdracht **[!UICONTROL New scope]** knop. Herhaal bovenstaande stappen voor elk beslissingsbereik.
+
+   ![](../../assets/activity_new-scope.png)
 
 ### Segmenten en beslissingsregels gebruiken {#segments-vs-decision-rules}
 
 <!--to move to create-offers?-->
 
-Om een beperking toe te passen, kunt u de selectie van aanbiedingen tot de leden van één of verscheidene **Adobe Experience Platform segmenten** beperken, of u kunt een **besluit regel**, beide oplossingen gebruiken die aan verschillende toepassingen beantwoorden.
+Als u een beperking wilt toepassen, kunt u de selectie van aanbiedingen beperken tot de leden van een of meerdere **Adobe Experience Platform-segmenten** of u kunt een **beslissingsregel**, beide oplossingen voor verschillende toepassingen.
 
 In feite, is de output van een segment een lijst van profielen, terwijl een besluitvormingsregel een functie is die op bestelling tegen één enkel profiel tijdens het besluitvormingsproces wordt uitgevoerd. Het verschil tussen deze twee toepassingen wordt hieronder nader toegelicht.
 
@@ -94,7 +130,7 @@ In feite, is de output van een segment een lijst van profielen, terwijl een besl
 
    Aan de ene kant zijn segmenten een groep Adobe Experience Platform-profielen die overeenkomen met een bepaalde logica op basis van profielkenmerken en gebeurtenissen ervaren. Het segment wordt echter niet opnieuw berekend door het Offertenbeheer, dat mogelijk niet up-to-date is wanneer de aanbieding wordt gepresenteerd.
 
-   Leer meer op segmenten in [deze sectie](../../segment/about-segments.md).
+   Meer informatie over segmenten in [deze sectie](../../segment/about-segments.md).
 
 * **Beslissingsregels**
 
@@ -104,47 +140,60 @@ In feite, is de output van een segment een lijst van profielen, terwijl een besl
 
 ## Een fallback-aanbieding toevoegen {#add-fallback}
 
-Selecteer de fallback-aanbieding die als laatste redmiddel zal worden weergegeven aan klanten die niet voldoen aan de regels en beperkingen voor het in aanmerking nemen van aanbiedingen en klik vervolgens op **[!UICONTROL Next]**.
+Zodra u het besluitvormingswerkingsgebied bepaalde, bepaal de reserveaanbieding die als laatste redmiddel aan de klanten zal worden voorgesteld die niet de regels en de beperkingen van de aanbiedingen geschiktheid aanpassen.
+
+U doet dit door het te selecteren in de lijst met beschikbare fallback-aanbiedingen voor de plaatsingen die in de beslissing zijn gedefinieerd, en vervolgens op **[!UICONTROL Next]**.
 
 ![](../../assets/add-fallback-offer.png)
+
+>[!NOTE]
+>
+>U kunt op de knop **[!UICONTROL Open offer library]** koppeling om de lijst met aanbiedingen op een nieuw tabblad weer te geven.
 
 ## Beslissing bekijken en opslaan {#review}
 
 Als alles behoorlijk wordt gevormd, toont een samenvatting van de beslissingseigenschappen.
 
-1. Zorg ervoor dat de beslissing klaar is om te worden gebruikt om aanbiedingen aan klanten voor te stellen.
+1. Zorg ervoor dat het besluit klaar is om te worden gebruikt om aanbiedingen aan klanten voor te stellen. Alle besluitvormingswerkingsgebieden en de reserveaanbieding het bevat worden getoond.
+
+   ![](../../assets/review-decision.png)
+
+   U kunt elke plaatsing uitvouwen of samenvouwen. U kunt ook een voorvertoning weergeven van de beschikbare voorstellen, de geschiktheid en de waarderingsdetails voor elke plaatsing.
+
+   ![](../../assets/review-decision-details.png)
+
 1. Klik op **[!UICONTROL Finish]**.
-1. Selecteer vervolgens **[!UICONTROL Save and activate]**.
+1. Selecteer **[!UICONTROL Save and activate]**.
 
    ![](../../assets/save-activities.png)
 
    U kunt de beslissing ook opslaan als concept, zodat u deze later kunt bewerken en activeren.
 
-De beslissing wordt in de lijst weergegeven met de status **[!UICONTROL Live]** of **[!UICONTROL Draft]**, afhankelijk van of u de beslissing hebt geactiveerd in de vorige stap.
+De beslissing wordt in de lijst weergegeven met de **[!UICONTROL Live]** of **[!UICONTROL Draft]** status, afhankelijk van het feit of u deze al dan niet hebt geactiveerd in de vorige stap.
 
 Het is nu klaar om te worden gebruikt om aanbiedingen aan klanten te leveren.
 
 ## Beslissingenlijst {#decision-list}
 
-In de beslissingslijst kunt u de beslissing selecteren om de eigenschappen ervan weer te geven. Hiervanaf kunt u het ook bewerken, de status ervan wijzigen (**Concept**, **Live**, **Complete**, **Gearchiveerd**), de beslissing dupliceren of deze verwijderen.
+In de beslissingslijst kunt u de beslissing selecteren om de eigenschappen ervan weer te geven. Daar kunt u het ook bewerken, de status ervan wijzigen (**Concept**, **Live**, **Voltooid**, **Gearchiveerd**), de beslissing dupliceren of verwijderen.
 
 ![](../../assets/decision_created.png)
 
-Selecteer de **[!UICONTROL Edit]** knoop om naar de wijze van de beslissingsuitgave terug te keren, waar u [details](#create-activity), [beslissingswerkingsgebied](#add-decision-scopes) en [fallback aanbieding](#add-fallback) kunt wijzigen.
+Selecteer **[!UICONTROL Edit]** om terug te gaan naar de modus voor beslissingseditie, waar u de beslissing kunt wijzigen [details](#create-activity), [beslissingsbereik](#add-decision-scopes) en [fallback-aanbieding](#add-fallback).
 
-Selecteer een live beslissing en klik op **[!UICONTROL Deactivate]** om de beslissingsstatus weer in te stellen op **[!UICONTROL Draft]**.
+Selecteer een live beslissing en klik op **[!UICONTROL Deactivate]** om de beslissingsstatus terug te brengen naar **[!UICONTROL Draft]**.
 
-Als u de status opnieuw wilt instellen op **[!UICONTROL Live]**, selecteert u de knop **[!UICONTROL Activate]** die nu wordt weergegeven.
+De status opnieuw instellen op **[!UICONTROL Live]**, selecteert u de **[!UICONTROL Activate]** die nu wordt weergegeven.
 
 ![](../../assets/decision_activate.png)
 
-Met de knop **[!UICONTROL More actions]** schakelt u de hieronder beschreven handelingen in.
+De **[!UICONTROL More actions]** schakelt u de hieronder beschreven handelingen in.
 
 ![](../../assets/decision_more-actions.png)
 
-* **[!UICONTROL Complete]**: de status van de beschikking wordt vastgesteld  **[!UICONTROL Complete]**, hetgeen betekent dat de beschikking niet meer kan worden opgeroepen. Deze handeling is alleen beschikbaar voor geactiveerde beslissingen. De beslissing is nog steeds beschikbaar in de lijst, maar u kunt de status niet terugzetten op **[!UICONTROL Draft]** of **[!UICONTROL Approved]**. U kunt het alleen dupliceren, verwijderen of archiveren.
+* **[!UICONTROL Complete]**: stelt de status van de beslissing in op **[!UICONTROL Complete]**, wat betekent dat het besluit niet meer kan worden genoemd. Deze handeling is alleen beschikbaar voor geactiveerde beslissingen. Het besluit is nog steeds beschikbaar in de lijst, maar u kunt de status niet terugzetten op **[!UICONTROL Draft]** of **[!UICONTROL Approved]**. U kunt het alleen dupliceren, verwijderen of archiveren.
 
-* **[!UICONTROL Duplicate]**: een besluit met dezelfde eigenschappen, beslissingsbereik en terugvalaanbieding. Standaard heeft het nieuwe besluit de status **[!UICONTROL Draft]**.
+* **[!UICONTROL Duplicate]**: een besluit met dezelfde eigenschappen, beslissingsbereik en terugvalaanbieding. Het nieuwe besluit heeft standaard de **[!UICONTROL Draft]** status.
 
 * **[!UICONTROL Delete]**: Hiermee verwijdert u de beslissing uit de lijst.
 
@@ -154,7 +203,7 @@ Met de knop **[!UICONTROL More actions]** schakelt u de hieronder beschreven han
    >
    >Als de beslissing in een ander object wordt gebruikt, kan deze niet worden verwijderd.
 
-* **[!UICONTROL Archive]**: stelt de beslissingsstatus in op  **[!UICONTROL Archived]**. De beslissing is nog steeds beschikbaar in de lijst, maar u kunt de status niet terugzetten op **[!UICONTROL Draft]** of **[!UICONTROL Approved]**. U kunt deze alleen dupliceren of verwijderen.
+* **[!UICONTROL Archive]**: stelt de beslissingsstatus in op **[!UICONTROL Archived]**. Het besluit is nog steeds beschikbaar in de lijst, maar u kunt de status niet terugzetten op **[!UICONTROL Draft]** of **[!UICONTROL Approved]**. U kunt deze alleen dupliceren of verwijderen.
 
 U kunt ook de status van meerdere beslissingen tegelijk verwijderen of wijzigen door de desbetreffende selectievakjes in te schakelen.
 
@@ -168,7 +217,7 @@ Nadat u een beslissing hebt gemaakt, kunt u in de lijst op de naam ervan klikken
 
 ![](../../assets/decision_click-name.png)
 
-Dit laat u toe om tot gedetailleerde informatie voor dat besluit toegang te hebben. Selecteer **[!UICONTROL Change log]** lusje aan [monitor alle veranderingen](../get-started/user-interface.md#changes-log) die aan het besluit zijn aangebracht.
+Dit laat u toe om tot gedetailleerde informatie voor dat besluit toegang te hebben. Selecteer **[!UICONTROL Change log]** tab naar [alle wijzigingen controleren](../get-started/user-interface.md#changes-log) die op het besluit zijn genomen.
 
 ![](../../assets/decision_information.png)
 

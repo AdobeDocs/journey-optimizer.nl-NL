@@ -5,15 +5,14 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
+source-git-commit: 699ebab2051d9ddfde20713a462490f11f9f7f1b
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 46%
+source-wordcount: '756'
+ht-degree: 45%
 
 ---
 
-
-# [!DNL Journey Optimizer] Help {#using}
+# Adobe Journey Optimizer Help {#using}
 
 + [Journey Optimizer-documentatie](ajo-home.md)
 + Nieuwe functies {#whats-new}
@@ -21,7 +20,12 @@ ht-degree: 46%
    + [Laatste updates](using/documentation-updates.md)
 + Aan de slag{#get-started}
    + [Wat is Journey Optimizer](using/get-started.md)
-   + [Snel starten](using/quick-start.md)
+   + Snel starten{#quick-start}
+      + [Overzicht](using/quick-start.md)
+      + [Aan de slag als een marketeer](using/path/marketer.md)
+      + [Aan de slag als Data engineer](using/path/data-engineer.md)
+      + [Aan de slag als beheerder](using/path/administrator.md)
+      + [Aan de slag als ontwikkelaar](using/path/developer.md)
    + [Gebruikersinterface](using/user-interface.md)
    + [Beperkingen](using/limitations.md)
 + Berichten {#create-messages}
@@ -37,7 +41,7 @@ ht-degree: 46%
       + [Uw e-mailinhoud importeren of coderen](using/existing-content.md)
       + [Onderdelen voor content van e-mailontwerpers gebruiken](using/content-components.md)
    + [Koppelingen toevoegen en berichten bijhouden](using/message-tracking.md)
-   + {#create-message} valideren en publiceren
+   + Valideren en publiceren {#create-message}
       + [Voorvertoning en proefdrukken](using/preview.md)
       + [Waarschuwingen controleren](using/alerts.md)
       + [Berichten publiceren](using/publish-manage-message.md)
@@ -50,10 +54,11 @@ ht-degree: 46%
       + [Statusmelding van bestelling](using/personalization/personalization-use-case.md)
       + [E-mailadres voor afmelden van winkelwagentje](using/personalization/personalization-use-case-helper-functions.md)
    + Helpfuncties{#functions}
-      + [Lijst van hulpfuncties](using/personalization/functions/functions.md)
+      + [Aan de slag met hulpfuncties](using/personalization/functions/functions.md)
       + [Samenvoegingsfuncties](using/personalization/functions/aggregation.md)
       + [Rekenkundige functies](using/personalization/functions/arithmetic-functions.md)
       + [Arrays en lijstfuncties](using/personalization/functions/arrays-list.md)
+      + [Datumfuncties](using/personalization/functions/dates.md)
       + [Booleaanse en vergelijkingsfuncties](using/personalization/functions/operators.md)
       + [Helpers](using/personalization/functions/helpers.md)
       + [Toewijzingsfuncties](using/personalization/functions/maps.md)
@@ -67,7 +72,7 @@ ht-degree: 46%
    + [Profielen](using/get-started-profiles.md)
    + [Identiteit](using/get-started-identity.md)
 + Journeys {#orchestrate-journeys}
-   + Informatie over reizen{#about-journeys}
+   + Reizen{#about-journeys}
       + [Algemeen principe](using/building-journeys/journey.md)
       + [Journeyversies](using/building-journeys/journey-versions.md)
       + [Testprofielen](using/building-journeys/creating-test-profiles.md)
@@ -97,32 +102,36 @@ ht-degree: 46%
       + [Multikanaalberichten verzenden](using/building-journeys/journeys-uc.md)
       + [Een bericht verzenden met Campagne v7/v8](using/building-journeys/campaign-classic-use-case.md)
       + [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](using/building-journeys/collections.md)
+      + [Een bericht verzenden naar abonnees](using/building-journeys/message-to-subscribers-uc.md)
 + Bijhouden en bewaken {#reporting}
    + [Berichtcontrole](using/message-monitoring.md)
-   + Live rapport {#live-report}
+   + Live-rapport {#live-report}
       + [Het dashboard voor Live-rapporten openen](using/reports/live-report.md)
       + [Journey Live-rapport](using/reports/journey-live-report.md)
       + [E-mailLive-rapport](using/reports/email-live-report.md)
       + [Rapport Push Live](using/reports/push-live-report.md)
-   + Globaal rapport {#global-report}
+   + Algemeen rapport {#global-report}
       + [Het globale rapportdashboard van de toegang](using/reports/global-report.md)
       + [Journey Global-rapport](using/reports/journey-global-report.md)
       + [E-mailglobaal rapport](using/reports/email-global-report.md)
       + [Push Global-rapport](using/reports/push-global-report.md)
    + Reisrapporten {#reports}
       + [Trainingsrapporten maken](using/reports/sharing-overview.md)
-      + [Reisvelden](using/reports/sharing-journey-fields.md)
-      + [Algemene velden](using/reports/sharing-common-fields.md)
-      + [Uitvoeringsvelden voor handelingen](using/reports/sharing-execution-fields.md)
-      + [Velden voor ophalen van gegevens](using/reports/sharing-fetch-fields.md)
-      + [Identiteitsvelden](using/reports/sharing-identity-fields.md)
+      + [Lijst met gebeurtenisvelden](using/reports/sharing-field-list.md)
+      + Gebeurtenisvelden voor oudere stappen {#legacy-step-event-fields}
+         + [Oudere velden](using/reports/sharing-legacy-fields.md)
+         + [Reisvelden](using/reports/sharing-journey-fields.md)
+         + [Algemene velden](using/reports/sharing-common-fields.md)
+         + [Uitvoeringsvelden voor handelingen](using/reports/sharing-execution-fields.md)
+         + [Velden voor ophalen van gegevens](using/reports/sharing-fetch-fields.md)
+         + [Identiteitsvelden](using/reports/sharing-identity-fields.md)
       + [Voorbeelden van query&#39;s](using/reports/query-examples.md)
    + Leverbaarheid {#deliverability}
       + [Aan de slag met de prestaties](using/deliverability.md)
       + [Onderdrukkingslijst](using/suppression-list.md)
       + [Lijst van gewenste personen](using/allow-list.md)
 + Beslissingsbeheer {#offer-decisioniong}
-   + Aan de slag met Beslissingsbeheer {#get-started}
+   + Aan de slag met het beheer van beslissingen {#get-started}
       + [Over het beheer van besluiten](using/offers/get-started/starting-offer-decisioning.md)
       + [Gebruikersinterface](using/offers/get-started/user-interface.md)
       + [Belangrijke stappen voor het maken en beheren van aanbiedingen](using/offers/offer-library/key-steps.md)
@@ -140,6 +149,7 @@ ht-degree: 46%
    + Beslissingen nemen en beheren {#create-manage-activities}
       + [Beslissingen nemen](using/offers/offer-activities/create-offer-activities.md)
       + [Selectie van aanbiedingen in beslissingen configureren](using/offers/offer-activities/configure-offer-selection.md)
+      + [Simulaties maken](using/offers/offer-activities/simulation.md)
    + Beslissingsbeheerrapporten maken {#create-reports}
       + [Aan de slag met besluitvormingsgebeurtenissen](using/offers/reports/get-started-events.md)
       + [Belangrijke informatie over gebeurtenissen met betrekking tot Beslissingsbeheer](using/offers/reports/key-information.md)
@@ -205,35 +215,35 @@ ht-degree: 46%
    + [Zoekopdrachten](using/get-started-queries.md)
 + Configuratie{#get-started}
    + [Aan de slag met de Journey Optimizer-configuratie](using/configuration/get-started-configuration.md)
-   + Berichten {#configuration} configureren
-      + Configuratie van pushmelding{#push-config}
+   + Berichten configureren {#configuration}
+      + Configuratie van pushmeldingen{#push-config}
          + [Aan de slag met de pushconfiguratie](using/push-gs.md)
          + [Pushmeldingskanaal configureren](using/push-configuration.md)
       + E-mailconfiguratie {#email-config}
-         + Subdomeinen {#delegate-subdomains} delegeren
+         + Subdomeinen delegeren {#delegate-subdomains}
             + [Aan de slag met subdomeindelegatie](using/configuration/about-subdomain-delegation.md)
             + [Een subdomein delegeren](using/configuration/delegate-subdomain.md)
             + [Gedelegeerde subdomeinen benaderen](using/configuration/access-subdomains.md)
             + [Een Google TXT-record toevoegen](using/configuration/google-txt.md)
             + [PTR-records openen](using/configuration/ptr-records.md)
          + [IP-pools maken](using/configuration/ip-pools.md)
-         + E-mailadressen {#monitor-reputation} controleren
+         + E-mailadressen controleren {#monitor-reputation}
             + [Onderdrukkingslijst beheren](using/configuration/manage-suppression-list.md)
             + [Hernieuwde pogingen](using/configuration/retries.md)
          + [Primair e-mailadres wijzigen](using/configuration/primary-email-addresses.md)
       + [Voorinstellingen voor berichten maken](using/configuration/message-presets.md)
-   + Reizen {#configure-journeys} configureren
+   + Reizen configureren {#configure-journeys}
       + [Informatie over gegevensbronnen, gebeurtenissen en handelingen](using/configuration/about-data-sources-events-actions.md)
       + [Integreren met externe systemen](using/configuration/external-systems.md)
       + Configuratie van gebeurtenissen {#events-journeys}
          + [Algemeen principe](using/event/about-events.md)
-         + Eenmalige gebeurtenis {#unitary-events} configureren
+         + Een eenheidsgebeurtenis configureren {#unitary-events}
             + [Aan de slag met eenheidsgebeurtenissen](using/event/about-creating.md)
             + [ExperienceEvent-schema’s](using/event/experience-event-schema.md)
             + [Adobe Analytics gebruiken](using/event/about-analytics.md)
          + [Een bedrijfsgebeurtenis configureren](using/event/about-creating-business.md)
          + [Aanvullende stappen om gebeurtenissen te verzenden](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
-      + Configuratie gegevensbron{#data-source-journeys}
+      + Gegevensbronconfiguratie{#data-source-journeys}
          + [Databronnen](using/datasource/about-data-sources.md)
          + [Een gegevensbron configureren](using/datasource/configure-data-sources.md)
          + [Adobe Experience Platform-databron](using/datasource/adobe-experience-platform-data-source.md)

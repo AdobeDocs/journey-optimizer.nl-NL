@@ -6,26 +6,26 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: d814fa98a08d91f1c0744f106c53dd991d544dc2
+source-git-commit: f0e34e040dd0e0ba2fa8293f4290ab55e1781426
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
 
 # Live-melding via e-mail {#email-live-report}
 
-De e-mail **[!UICONTROL Live report]** richt slechts een specifieke e-maillevering.
+De e-mail **[!UICONTROL Live report]** is alleen bedoeld voor een specifieke e-maillevering.
 
-Selecteer **[!UICONTROL Live view]** op het tabblad **[!UICONTROL Executions]** van het menu **[!UICONTROL Messages]** en selecteer **[!UICONTROL Live report]** in het geavanceerde menu van de geselecteerde levering.
+Van de **[!UICONTROL Executions]** tabblad van het dialoogvenster **[!UICONTROL Messages]** menu, selecteert u **[!UICONTROL Live view]** Selecteer vervolgens in het geavanceerde menu van de geselecteerde levering **[!UICONTROL Live report]**.
 
 ![](../assets/live_report.png)
 
-Het e-mailbericht **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw levering worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Voor meer informatie hierover raadpleegt u deze [sectie](live-report.md#modify-dashboard).
+De e-mail **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw levering worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Zie voor meer informatie hierover [sectie](live-report.md#modify-dashboard).
 
 ![](../assets/live_report_5.png)
 
-**[!UICONTROL Email performance]** en  **[!UICONTROL Email summary]** widgets geeft de belangrijkste informatie met betrekking tot uw bericht met een grafiek en KPIs:
+**[!UICONTROL Email performance]** en **[!UICONTROL Email summary]** widgets detailleert de belangrijkste informatie met betrekking tot uw bericht met een grafiek en KPIs:
 
 * **[!UICONTROL Targeted]**: Aantal gebruikersprofielen dat als doelprofielen voor deze levering in aanmerking komt.
 
@@ -47,7 +47,7 @@ Het e-mailbericht **[!UICONTROL Live report]** is verdeeld in verschillende widg
 
 * **[!UICONTROL Excluded]**: Aantal gebruikersprofielen dat is uitgesloten van de doelprofielen en dat het bericht niet heeft ontvangen.
 
-De widget **[!UICONTROL Sending Statistics]** geeft uitleg over het succes van de levering:
+De **[!UICONTROL Sending Statistics]** widget geeft aan hoe succesvol uw levering is:
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
@@ -57,9 +57,9 @@ De widget **[!UICONTROL Sending Statistics]** geeft uitleg over het succes van d
 
 ![](../assets/live_report_6.png)
 
-Met de grafiek en tabel **[!UICONTROL Error Reasons]** kunt u zien welke fout is opgetreden tijdens de levering.
+De **[!UICONTROL Error Reasons]** de grafiek en de lijst laten u zien welke fout tijdens uw levering voorkwam.
 
-De widgets **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]** bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd, zoals:
+De **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]** widgets bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd, zoals:
 
 * **[!UICONTROL Hard bounce]**: Het totale aantal permanente fouten, zoals een onjuist e-mailadres. Dit omvat een foutbericht waarin expliciet wordt aangegeven dat het adres ongeldig is, zoals Onbekende gebruiker.
 
@@ -67,8 +67,22 @@ De widgets **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]**
 
 * **[!UICONTROL Ignored]**: Het totale aantal tijdelijke gegevens, zoals Buiten-kantoor, of een technische fout, bijvoorbeeld als het type afzender postmaster is.
 
+![](../assets/live_report_8.png)
+
 >[!NOTE]
 >
->De profielen met **[!UICONTROL Suppressed]** of **[!UICONTROL Not allowed]** status worden uitgesloten tijdens het verzenden van berichten. Daarom, terwijl **Reis rapporteert** deze profielen zal tonen als die door de reis ([Leessegment](../building-journeys/read-segment.md) en [Bericht](../building-journeys/journeys-message.md) activiteiten) zijn bewogen, **E-mailrapporten** zullen niet hen in **[!UICONTROL Sent]** metriek omvatten aangezien zij voorafgaand aan e-mail verzenden worden gefilterd.
+>De widgets en cijfers voor aanbiedingen zijn alleen beschikbaar als een beslissing in een e-mail is ingevoegd. Raadpleeg voor meer informatie over het beheer van de besluiten [page](../offers/get-started/starting-offer-decisioning.md).
+
+De **[!UICONTROL Offers statistic]** en **[!UICONTROL Offers statistics]** in de loop der tijd meten de widgets het succes van uw aanbieding en de impact op uw doelgroep. Het detailleert de belangrijkste informatie met betrekking tot uw bericht met KPIs:
+
+* **[!UICONTROL Offer sent]**: Het totale aantal verzendingen voor de aanbieding.
+
+* **[!UICONTROL Offer impression]**: Aantal keren dat het voorstel is geopend in een levering.
+
+* **[!UICONTROL Offer clicks]**: Aantal keren dat op een voorstel is geklikt in een levering.
+
+>[!NOTE]
 >
->Meer informatie vindt u in de [Onderdrukkingslijst](../suppression-list.md) en [Lijst van gewenste personen](../allow-list.md). Om de reden voor alle uitsluitingsgevallen te weten te komen, kunt u [Adobe Experience Platform de Dienst van de Vraag ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) {target= &quot;_blank&quot;} gebruiken.
+>De profielen met **[!UICONTROL Suppressed]** of **[!UICONTROL Not allowed]** status worden uitgesloten tijdens het verzenden van berichten. Daarom moet **Reisrapporten** geeft aan dat deze profielen door de reis zijn gegaan ([Segment lezen](../building-journeys/read-segment.md) en [Bericht](../building-journeys/journeys-message.md) de **E-mailrapporten** worden niet opgenomen in de **[!UICONTROL Sent]** Metrische gegevens worden uitgefilterd voordat e-mail wordt verzonden.
+>
+>Meer informatie over de [Onderdrukkingslijst](../suppression-list.md) en [Lijst van gewenste personen](../allow-list.md). Als u de reden voor alle uitsluitingsgevallen wilt achterhalen, kunt u de opdracht [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.

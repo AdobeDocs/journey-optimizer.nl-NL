@@ -1,31 +1,32 @@
 ---
 title: Een e-mail maken
 description: Leer hoe u een e-mail maakt in Journey Optimizer
-feature: Overzicht
-topic: Contentmanagement
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 80cd004d17dbbbe87fa5b15fc1bdc659fdc4e66f
+exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
+source-git-commit: 54b5a2c09ae9d7fd18f9b6a7d0053d78ae3e50b0
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 7%
+source-wordcount: '140'
+ht-degree: 4%
 
 ---
 
 # Een e-mail maken {#configure-email}
 
-Nadat u een bericht hebt [gemaakt, gebruikt u het tabblad **[!UICONTROL Email]** om de instellingen en inhoud voor het e-mailkanaal te definiëren.](create-message.md)
+Eenmaal [een bericht gemaakt](create-message.md), gebruikt u de **[!UICONTROL Email]** om de instellingen en inhoud voor het e-mailkanaal te definiëren.
 
 ![](assets/emails-configuration.png)
 
 >[!NOTE]
 >
->De **[!UICONTROL From email]** en **[!UICONTROL From name]** zijn read-only en bepaald door **[!UICONTROL Preset]** die is geselecteerd wanneer [het creëren van het bericht](create-message.md).
+>De **[!UICONTROL From email]** en **[!UICONTROL From name]** alleen-lezen zijn en door de **[!UICONTROL Preset]** die is geselecteerd wanneer [het bericht maken](create-message.md).
 
 De stappen om een e-mail te vormen zijn als volgt:
 
-1. Geef de **[!UICONTROL Email subject]** op. Klik hiertoe op de knop aan de rechterkant om de Expressieeditor te openen en het onderwerp van de e-mail samen te stellen. Leer hoe u personalisatie kunt toevoegen in [deze sectie](personalization/personalize.md)
+1. Geef het onderwerp van de e-mail op in het dialoogvenster **[!UICONTROL Subject line]** veld. Klik hiertoe op de knop aan de rechterkant om de Expressieeditor te openen en het onderwerp van de e-mail samen te stellen. Leer hoe u personalisatie kunt toevoegen in [deze sectie](personalization/personalize.md)
 
-1. Klik op de knop **[!UICONTROL Email Designer]** om uw e-mail te ontwerpen. Leer hoe u e-mailberichten ontwerpt in [deze sectie](design-emails.md).
+1. Klik op de knop **[!UICONTROL Email Designer]** om uw e-mail te ontwerpen. Leer hoe u e-mails ontwerpt in [deze sectie](design-emails.md).
 
-1. Als u het gedrag van uw ontvangers door openingen wilt volgen en/of op verbindingen wilt klikken, zorg ervoor dat **[!UICONTROL Open Tracking for email]** en **[!UICONTROL Click Tracking for email]** opties worden toegelaten. Meer informatie over reeksspatiëring vindt u in [deze sectie](message-tracking.md).
+1. Als u het gedrag van uw ontvangers wilt volgen door openingen en/of op verbindingen te klikken, zorg ervoor dat **[!UICONTROL Open Tracking for email]** en **[!UICONTROL Click Tracking for email]** opties zijn ingeschakeld. Meer informatie over bijhouden in [deze sectie](message-tracking.md).

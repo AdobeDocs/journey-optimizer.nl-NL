@@ -6,10 +6,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: ec880e9a42180221c3046aedf8ec46eff70d2493
+exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
+source-git-commit: 1a55138dde7481a54141b3d3dd446e410c40c44c
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 11%
+source-wordcount: '202'
+ht-degree: 14%
 
 ---
 
@@ -29,12 +30,19 @@ ht-degree: 11%
     <div>
       <a href="using/get-started.md">Wat is [!DNL Journey Optimizer]?</a>
     </div>
-    <p>Belangrijke functies ontdekken en aan de slag gaan
+    <p>Belangrijke functies en gebruiksscenario's ontdekken
     <p>
     <div>
       <a href="using/release-notes.md">Aanvullende informatie</a>
     </div>
-    <p>Ontdek nieuwe mogelijkheden, nieuwste verbeteringen en oplossingen
+    <p>Nieuwe mogelijkheden, nieuwste verbeteringen en oplossingen
+   <p>
+    <div>
+      <a href="using/quick-start.md">Snelle startgids</a>
+    </div>
+    <p>
+    Leer hoe te als Beheerder, de ingenieur van Gegevens of de praktijk van de Reis te beginnen
+    <p>
     <p>
     <div>
       <a href="using/design-emails.md">E-mailinhoud ontwerpen</a>
@@ -53,14 +61,14 @@ ht-degree: 11%
     <p>Leer hoe u een reis bouwt en uitvoert
     <p>
     <div>
-    <a href="using/configuration/get-started-configuration.md">[!DNL Journey Optimizer] configureren</a>
+    <a href="using/configuration/get-started-configuration.md">Configureren [!DNL Journey Optimizer]</a>
     </div>
-    <p>Belangrijke stappen om [!DNL Journey Optimizer] te configureren
+    <p>Leer belangrijke stappen om te vormen [!DNL Journey Optimizer]
     <p>
     <div>
     <a href="using/administration/permissions-overview.md">Toegang verlenen tot [!DNL Journey Optimizer]</a>
     </div>
-    <p>Leer hoe u de machtigingen definieert en beheert die zijn toegewezen aan [!DNL Journey Optimizer]-gebruikers
+    <p>De machtigingen definiëren en beheren die zijn toegewezen aan [!DNL Journey Optimizer] gebruikers
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">Beslissingsbeheer</a>

@@ -6,20 +6,20 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: c6db89093e1ec5b7d9fe084cec58b8b7664c6ab2
 workflow-type: tm+mt
 source-wordcount: '791'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Koppelingen toevoegen en berichten bijhouden {#tracking}
 
-Gebruik [!DNL Journey Optimizer] om verbindingen aan uw inhoud toe te voegen en de berichten te volgen die worden verzonden om het gedrag van uw ontvangers te controleren.
+Gebruiken [!DNL Journey Optimizer] om koppelingen naar uw inhoud toe te voegen en de verzonden berichten te volgen om het gedrag van de ontvangers te controleren.
 
 ## Tekstspatiëring inschakelen {#enable-tracking}
 
-U kunt het volgen op het niveau van het e-mailbericht toelaten door **[!UICONTROL Open Tracking for email]** en/of **[!UICONTROL Click Tracking for email]** opties te controleren wanneer [het creëren van uw bericht](create-message.md).
+U kunt het bijhouden van wijzigingen op berichtniveau inschakelen door de optie **[!UICONTROL Open Tracking for email]** en/of **[!UICONTROL Click Tracking for email]** opties wanneer [uw bericht maken](create-message.md).
 
 ![](assets/message-tracking.png)
 
@@ -28,6 +28,7 @@ U kunt het volgen op het niveau van het e-mailbericht toelaten door **[!UICONTRO
 >Beide opties zijn standaard ingeschakeld.
 
 Zo kunt u het gedrag van de ontvangers bijhouden via:
+
 * **[!UICONTROL Open Tracking for email]**: Berichten die zijn geopend.
 * **[!UICONTROL Click Tracking for email]**: Klik op koppelingen in een e-mail.
 
@@ -37,11 +38,11 @@ Bij het ontwerpen van een bericht kunt u koppelingen naar uw inhoud toevoegen.
 
 >[!NOTE]
 >
->Wanneer [tracking is ingeschakeld](#enable-tracking), worden alle koppelingen in de berichtinhoud bijgehouden.
+>Wanneer [tracking is ingeschakeld](#enable-tracking), worden alle koppelingen in de inhoud van het bericht bijgehouden.
 
 Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
-1. Selecteer een element en klik **[!UICONTROL Insert link]** van de contextafhankelijke toolbar.
+1. Selecteer een element en klik op **[!UICONTROL Insert link]** in de contextuele werkbalk.
 
    ![](assets/message-tracking-insert-link.png)
 
@@ -49,11 +50,11 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
    * **[!UICONTROL External link]**: Voeg een koppeling naar een externe URL in.
 
-   * **[!UICONTROL Unsubscription link]**: Voeg een koppeling in om uw abonnement op te zeggen dat u geen communicatie van uw merk wilt ontvangen. Meer informatie over opt-outbeheer in [deze sectie](consent.md#opt-out-management).
+   * **[!UICONTROL Unsubscription link]**: Voeg een koppeling in om uw abonnement op te zeggen dat u geen communicatie van uw merk wilt ontvangen. Meer informatie over beheer van opt-out in [deze sectie](consent.md#opt-out-management).
 
-   * **[!UICONTROL Mirror page]**: Voeg een koppeling in om de e-mailinhoud in een webbrowser weer te geven. Meer informatie vindt u in [deze sectie](#mirror-page).
+   * **[!UICONTROL Mirror page]**: Voeg een koppeling in om de e-mailinhoud in een webbrowser weer te geven. Meer informatie in [deze sectie](#mirror-page).
 
-   * **[!UICONTROL Opt-out]**: Voeg een koppeling in om gebruikers in staat te stellen zich snel af te melden voor uw communicatie zonder dat ze hoeven te bevestigen dat ze het abonnement willen opzeggen. Meer informatie vindt u in [deze sectie](#one-click-opt-out-link).
+   * **[!UICONTROL Opt-out]**: Voeg een koppeling in om gebruikers in staat te stellen zich snel af te melden voor uw communicatie zonder dat ze hoeven te bevestigen dat ze het abonnement willen opzeggen. Meer informatie in [deze sectie](#one-click-opt-out-link).
 
    ![](assets/message-tracking-links.png)
 
@@ -61,7 +62,7 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
 1. Sla uw wijzigingen op.
 
-1. Zodra de verbinding wordt gecreeerd, kunt u het van **[!UICONTROL Component settings]** ruit op het recht nog wijzigen.
+1. Als de koppeling eenmaal is gemaakt, kunt u deze nog steeds wijzigen in het menu **[!UICONTROL Component settings]** aan de rechterkant.
 
    * Klik op het potloodpictogram om de koppeling te bewerken.
    * U kunt de koppeling onderstrepen of niet door de bijbehorende optie in te schakelen.
@@ -72,7 +73,7 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
 De spiegelpagina is een HTML-pagina die online toegankelijk is via een webbrowser. De inhoud is identiek aan de inhoud van uw e-mail.
 
-Als u een koppeling naar een spiegel in uw e-mail wilt toevoegen, voegt u [een koppeling in](#insert-links) en selecteert u **[!UICONTROL Mirror page]** als het type koppeling.
+Als u een koppeling wilt toevoegen aan een spiegel in uw e-mailbericht, [een koppeling invoegen](#insert-links) en selecteert u **[!UICONTROL Mirror page]** als het type koppeling.
 
 ![](assets/message-tracking-mirror-page.png)
 
@@ -86,7 +87,7 @@ Wanneer de e-mail is verzonden en de ontvangers op de koppeling voor de spiegelp
 
 >[!NOTE]
 >
->In de [proefdruk](preview.md#send-proofs) verzonden naar de testprofielen, is de verbinding aan de spiegelpagina niet actief. Deze wordt alleen geactiveerd in de laatste berichten.
+>In de [bewijs](preview.md#send-proofs) die naar de testprofielen worden verzonden, is de koppeling naar de spiegelpagina niet actief. Deze wordt alleen geactiveerd in de laatste berichten.
 
 De retentieperiode voor een spiegelpagina is 60 dagen. Na die vertraging is de spiegelpagina niet meer beschikbaar.
 
@@ -96,7 +97,7 @@ Om uw ontvangers in staat te stellen om snel af te zien van het ontvangen van me
 
 Volg onderstaande stappen om een koppeling om te weigeren toe te voegen in uw e-mail.
 
-1. [Voeg een ](#insert-links) koppeling in en selecteer  **[!UICONTROL Opt-out]** als het type koppeling.
+1. [Een koppeling invoegen](#insert-links) en selecteert u **[!UICONTROL Opt-out]** als het type koppeling.
 
    ![](assets/message-tracking-opt-out.png)
 
@@ -120,9 +121,9 @@ Als ontvangers op de koppeling Weigeren klikken en uw bericht eenmaal zijn verzo
 
 ## Beheer van bijhouden {#manage-tracking}
 
-Met de [e-mailontwerper](create-email-content.md) kunt u de bijgehouden URL&#39;s beheren, zoals het type tekstspatiëring voor elke koppeling bewerken.
+De [E-mailontwerper](create-email-content.md) Hiermee kunt u de bijgehouden URL&#39;s beheren, zoals het bewerken van het trackingtype voor elke koppeling.
 
-1. Klik op het pictogram **[!UICONTROL Links]** in het linkerdeelvenster om de lijst weer te geven met alle URL&#39;s van de inhoud die wordt bijgehouden.
+1. Klik op de knop **[!UICONTROL Links]** in het linkerdeelvenster om de lijst weer te geven met alle URL&#39;s van de inhoud die wordt bijgehouden.
 
    In deze lijst kunt u een gecentraliseerde weergave gebruiken en elke URL in de e-mailinhoud opzoeken.
 
@@ -130,7 +131,7 @@ Met de [e-mailontwerper](create-email-content.md) kunt u de bijgehouden URL&#39;
 
    ![](assets/message-tracking-edit-links.png)
 
-1. U kunt **[!UICONTROL Tracking Type]** indien nodig wijzigen:
+1. U kunt de **[!UICONTROL Tracking Type]** indien nodig:
 
 
    ![](assets/message-tracking-edit-a-link.png)
@@ -140,8 +141,8 @@ Met de [e-mailontwerper](create-email-content.md) kunt u de bijgehouden URL&#39;
    * **[!UICONTROL Tracked]**: Hiermee activeert u het bijhouden van wijzigingen op deze URL.
    * **[!UICONTROL Opt out]**: beschouwt deze URL als een opt-out- of niet-abonnements-URL.
    * **[!UICONTROL Mirror page]**: beschouwt deze URL als een URL van een spiegelpagina.
-   * **[!UICONTROL Never]**: Hiermee activeert u het bijhouden van deze URL nooit.  <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Never]**: Hiermee activeert u het bijhouden van deze URL nooit. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-Het aantal berichten dat is geopend en het aantal verbindingen die zijn geklikt zijn vermeld in [Uitvoeringen tabel](message-monitoring.md).
+Het aantal berichten dat is geopend en het aantal koppelingen waarop is geklikt, worden vermeld in het dialoogvenster [Tabblad Uitvoeringen](message-monitoring.md).
 
-Rapportage over openingen en kliks is beschikbaar in [E-mail Live rapport](reports/email-live-report.md) en in [E-mail Globaal rapport](reports/email-global-report.md).
+Rapportage over openingen en klikken is beschikbaar in de [E-mailLive-rapport](reports/email-live-report.md) en in de [E-mailglobaal rapport](reports/email-global-report.md).

@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: b219f900d8349c46c01a0dd3110e441694e47b5f
+source-git-commit: b3b9e02bc6ade7c7841181af4f75c99b57a3108d
 workflow-type: tm+mt
-source-wordcount: '974'
-ht-degree: 12%
+source-wordcount: '1041'
+ht-degree: 11%
 
 ---
 
@@ -21,13 +21,17 @@ Leessegment gebaseerde reizen kunnen in één schot, door een planner op regelma
 
 Bedrijfsevenementen kunnen &quot;een product is weer in voorraad&quot;, &quot;de aandelenprijs van een bedrijf bereikt een bepaalde waarde&quot;, enz. zijn.
 
+>[!NOTE]
+>
+>U kunt ook naar de gebruiksscenario&#39;s van bedrijfsgebeurtenissen kijken [zelfstudie](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
+
 ## Belangrijke opmerkingen
 
-* Het gebeurtenisschema moet een primaire identiteit bevatten.
+* Er zijn alleen tijdreeksschema&#39;s beschikbaar. Er zijn geen schema&#39;s beschikbaar voor ervaringsgebeurtenissen, beslissingsgebeurtenissen en trapsgewijze gebeurtenissen. Het gebeurtenisschema moet een primaire identiteit bevatten. De volgende velden moeten naar wens worden ingesteld: `_id` en `timestamp`
 * De bedrijfsgebeurtenissen kunnen slechts als eerste stap van een reis worden gelaten vallen.
 * Wanneer het laten vallen van een bedrijfsgebeurtenis als eerste stap van een reis, zal het plannertype van de reis &quot;bedrijfsgebeurtenis&quot;zijn.
 * Slechts kan een gelezen segmentactiviteit na een bedrijfsgebeurtenis worden gelaten vallen. Deze wordt automatisch toegevoegd als de volgende stap.
-* Als u meerdere zakelijke gebeurtenisuitvoeringen wilt toestaan, activeert u de corresponderende optie in het gedeelte **[!UICONTROL Execution]** van de eigendommen van de rit.
+* Als u meerdere bedrijfsgebeurtenissen wilt uitvoeren, activeert u de bijbehorende optie in het dialoogvenster **[!UICONTROL Execution]** sectie van de reiseigenschappen.
 * Nadat een bedrijfsgebeurtenis in werking wordt gesteld, zal er een vertraging zijn om het segment van 15 minuten naar tot één uur te hebben uitgevoerd.
 * Wanneer het testen van een bedrijfsgebeurtenis, moet u de gebeurtenisparameters en het herkenningsteken van het testprofiel overgaan dat de reis in test zal ingaan. Bij het testen van een op zakelijke gebeurtenissen gebaseerde reis kunt u bovendien slechts één profielingang activeren. Zie [deze sectie](../building-journeys/testing-the-journey.md#test-business). In de testmodus is de modus &quot;Codeweergave&quot; niet beschikbaar.
 * Wat gebeurt er met individuen die momenteel op reis zijn als een nieuw bedrijfsevenement aankomt? Het gedraagt zich op dezelfde manier als wanneer individuen zich nog steeds in een terugkerende reis bevinden wanneer zich een nieuwe terugkerende situatie voordoet. Hun pad is beëindigd. Als gevolg hiervan moeten marketeers aandacht besteden aan het vermijden van het bouwen van te lange reizen als ze veelvuldige bedrijfsgebeurtenissen verwachten.
@@ -42,13 +46,13 @@ Bedrijfsgebeurtenissen volgen de regels voor herintreding op dezelfde manier als
 
 **Wat zijn de garanties om overbelasting van materialistische segmenten te voorkomen?**
 
-Voor bedrijfsgebeurtenissen, wordt het onderwerp herbruikbaarheid geplaatst aan één uur. Dit betekent dat voor een bepaalde reis, in een tijdsperiode van 1 uur, geen nieuwe uitvoerbaan wordt gecreeerd. Gegevens die door de eerste gebeurtenistaak worden geduwd, worden opnieuw gebruikt. Voor geregelde reizen is er geen spoor.
+In het geval van on-shot bedrijfsgebeurtenissen, voor een bepaalde reis, worden de gegevens die door de eerste gebeurtenisbaan worden geduwd opnieuw gebruikt tijdens een tijdvenster van 1 uur. Voor geregelde reizen is er geen spoor. Meer informatie over segmenten in het dialoogvenster [Adobe Experience Platform Segmentation Service-documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 ## Aan de slag met bedrijfsgebeurtenissen
 
 Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
 
-1. Selecteer **[!UICONTROL Configurations]** in de sectie van het menu BEHEER. Klik in de sectie **[!UICONTROL Events]** op **[!UICONTROL Manage]**. De lijst met gebeurtenissen wordt weergegeven.
+1. Selecteer in de sectie van het menu ADMINISTRATIE de optie **[!UICONTROL Configurations]**. In de  **[!UICONTROL Events]** sectie, klikt u op **[!UICONTROL Manage]**. De lijst met gebeurtenissen wordt weergegeven.
 
    ![](../assets/jo-event1.png)
 
@@ -64,7 +68,7 @@ Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
    >
    >Gebruik geen spaties of speciale tekens. Gebruik niet meer dan 30 tekens.
 
-1. Kies **[!UICONTROL Type]** in het veld **Zakelijk**.
+1. In de **[!UICONTROL Type]** veld, kies **Zakelijk**.
 
    ![](../assets/jo-event3bis-business.png)
 
@@ -74,11 +78,11 @@ Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
 
    ![](../assets/jo-event5-business.png)
 
-   Er zijn alleen tijdreeksschema&#39;s beschikbaar. Er zijn geen schema&#39;s beschikbaar voor ervaringsgebeurtenissen, beslissingsgebeurtenissen en trapsgewijze gebeurtenissen. Het gebeurtenisschema moet een primaire identiteit bevatten.
+   Er zijn alleen tijdreeksschema&#39;s beschikbaar. Er zijn geen schema&#39;s beschikbaar voor ervaringsgebeurtenissen, beslissingsgebeurtenissen en trapsgewijze gebeurtenissen. Het gebeurtenisschema moet een primaire identiteit bevatten. De volgende velden moeten naar wens worden ingesteld: `_id` en `timestamp`
 
    ![](../assets/test-profiles-4.png)
 
-1. Klik in het veld **[!UICONTROL Event ID condition]**. Gebruikend de eenvoudige uitdrukkingsredacteur, bepaal de voorwaarde die door het systeem zal worden gebruikt om de gebeurtenissen te identificeren die uw reis zullen teweegbrengen.
+1. Klik in het dialoogvenster **[!UICONTROL Event ID condition]** veld. Gebruikend de eenvoudige uitdrukkingsredacteur, bepaal de voorwaarde die door het systeem zal worden gebruikt om de gebeurtenissen te identificeren die uw reis zullen teweegbrengen.
    ![](../assets/jo-event6-business.png)
 
    In ons voorbeeld schreven we een voorwaarde op basis van de id van het product. Dit betekent dat wanneer het systeem een gebeurtenis ontvangt die aan deze voorwaarde voldoet, het het aan reizen zal overgaan.
@@ -95,9 +99,9 @@ Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
 
 ## De laadvelden definiëren {#define-the-payload-fields}
 
-De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. Voor meer informatie over XDM, verwijs naar [Adobe Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target=&quot;_blank&quot;}.
+De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. Voor meer informatie over XDM, verwijs naar [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
 
-1. Selecteer een XDM-schema in de lijst en klik op het veld **[!UICONTROL Fields]** of op het pictogram **[!UICONTROL Edit]**.
+1. Selecteer een XDM-schema in de lijst en klik op de knop **[!UICONTROL Fields]** of op **[!UICONTROL Edit]** pictogram.
 
    ![](../assets/journey8-business.png)
 
@@ -105,11 +109,15 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 
    ![](../assets/journey9-business.png)
 
+   >[!NOTE]
+   >
+   > Controleer of de volgende velden zijn geselecteerd: `_id` en `timestamp`
+
 1. Selecteer de velden die u van de gebeurtenis wilt ontvangen. Dit zijn de gebieden die de bedrijfsgebruiker in de reis zal hefboomwerking hebben.
 
-1. Wanneer u klaar bent met het selecteren van de benodigde velden, klikt u op **[!UICONTROL Save]** of drukt u op **[!UICONTROL Enter]**.
+1. Als u de gewenste velden hebt geselecteerd, klikt u op **[!UICONTROL Save]** of drukken **[!UICONTROL Enter]**.
 
-   Het aantal geselecteerde velden wordt weergegeven in het veld **[!UICONTROL Fields]**.
+   Het aantal geselecteerde velden wordt weergegeven in het dialoogvenster **[!UICONTROL Fields]** veld.
 
    ![](../assets/journey12-business.png)
 
@@ -117,7 +125,7 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 
 Met de voorvertoning van de lading kunt u de definitie van de lading valideren.
 
-1. Klik op het pictogram **[!UICONTROL View Payload]** om een voorvertoning weer te geven van de lading die door het systeem wordt verwacht.
+1. Klik op de knop **[!UICONTROL View Payload]** pictogram voor een voorvertoning van de lading die door het systeem wordt verwacht.
 
    ![](../assets/journey13-business.png)
 
@@ -127,4 +135,4 @@ Met de voorvertoning van de lading kunt u de definitie van de lading valideren.
 
 1. Controleer de voorvertoning om de definitie van de payload te valideren.
 
-1. Vervolgens kunt u de voorvertoning van de lading delen met de persoon die verantwoordelijk is voor het verzenden van de gebeurtenis. Deze lading kan hem helpen de opstelling van een gebeurtenis ontwerpen die aan [!DNL Journey Optimizer] duikt. Zie [deze pagina](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Vervolgens kunt u de voorvertoning van de lading delen met de persoon die verantwoordelijk is voor het verzenden van de gebeurtenis. Deze nuttige lading kan hen helpen de opstelling ontwerpen van een gebeurtenis die duikt aan [!DNL Journey Optimizer]. Zie [deze pagina](../event/additional-steps-to-send-events-to-journey-orchestration.md).

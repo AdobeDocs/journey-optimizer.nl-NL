@@ -2,10 +2,10 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d6228aade93bc9fa2b5f2ad2b76db5e193208242
+source-git-commit: 07382bdf4a9a7a75a5654cf81795c6c8e304360a
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 16%
+source-wordcount: '838'
+ht-degree: 23%
 
 ---
 
@@ -13,27 +13,40 @@ ht-degree: 16%
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
 
+
+## Oktober 2021
+
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] Release okt &#39;21 is gedetailleerd in de documentatie. [Meer informatie](release-notes.md)
+* Toegevoegd **Date time, functie** lijst. [Meer informatie](personalization/functions/dates.md)
+* Nieuw **Aan de slag-secties per gebruiker**. Volg uw eigen weg om sneller aan uw doelstellingen te komen! [Meer informatie](quick-start.md)
+* Nieuw **Een berichtvoorinstelling bewerken** sectie. [Meer informatie](configuration/message-presets.md#edit-message-preset)
+* Nieuw **Een PTR-record bewerken** sectie. [Meer informatie](configuration/ptr-records.md#edit-ptr-record)
+* Nieuw **Een berichtvoorinstelling uitschakelen** sectie. [Meer informatie](configuration/message-presets.md#edit-message-preset#deactivate-preset)
+* Nieuwe beperkingen toegevoegd aan de **Handleiding voor ontwikkelaars van API voor beheer van beslissingen** op-aanbieding-beperkingen die niet worden ondersteund door het mobiele [!DNL Experience Edge] workflows. [Meer informatie](offers/api-reference/offers-api/personalized-offers/create.md#limitations)
+* Nieuw **Simulaties maken** sectie. [Meer informatie](offers/offer-activities/simulation.md)
+* Bijgewerkt **Beslissingsbereik toevoegen** sectie. [Meer informatie](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* Bijgewerkt **Inhoud definiëren voor uw weergaven** sectie. [Meer informatie](offers/offer-library/creating-personalized-offers.md#content)
+* Er is een nieuwe sectie toegevoegd over het definiëren en aanpassen van inhoud voor representaties van aanbiedingen. [Meer informatie](offers/offer-library/creating-personalized-offers.md#content)
+
 ## September 2021
 
 * De volgende functiepagina&#39;s zijn bijgewerkt: [sethours](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/date/functionsethours.html), [getListItem](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiongetlistitem.html), [inSegment](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/adobe-experience-platform/functioninsegment.html)
 
 * De volgende functies zijn toegevoegd: [filter](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functionfilter.html), [intersect](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/list/functiontintersect.html), [toDateOnly](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/main-functions-journey/conversion/functiontodateonly.html)
 
-* Het datumtype dateOnly is toegevoegd in de documentatie van de uitdrukkingsredacteur. [Meer informatie](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=en)
+* Het datumtype dateOnly is toegevoegd in de documentatie van de expressie-editor. [Meer informatie](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/data-types.html?lang=en)
 
-* Meer informatie over de cache-duur van de aangepaste handeling. [Meer informatie](datasource/external-data-sources.md#section_wjp_nl5_nhb)
+* Er zijn details toegevoegd over de duur van de cache voor aangepaste acties. [Meer informatie](datasource/external-data-sources.md#section_wjp_nl5_nhb)
 
-* Toegevoegde informatie over standaardpoorten voor aangepaste handelingen. [Meer informatie](action/about-custom-action-configuration.md#url-configuration)
+* Informatie toegevoegd over standaardpoorten voor aangepaste acties. [Meer informatie](action/about-custom-action-configuration.md#url-configuration)
 
 * Informatie toegevoegd over meerdere gevallen waarin zakelijke gebeurtenissen worden gebruikt. [Meer informatie](event/about-creating-business.md#multiple-business-events)
 
-* Toegevoegde algemeen gebruikte voorbeelden om de Gebeurtenissen van de Stap van de Reis in het meer van Gegevens te vragen. [Meer informatie](reports/query-examples.md)
+* Veelgebruikte voorbeelden toegevoegd voor het opvragen van Journey Step Events in Data Lake. [Meer informatie](reports/query-examples.md)
 
-* Er is een nieuwe pagina **Beperkingen** toegevoegd. [Meer informatie](limitations.md)
+* Een nieuwe **Beperkingen** pagina. [Meer informatie](limitations.md)
 
-* De pagina **Snel starten** is verbeterd met stappen voor verschillende personen. [Meer informatie](quick-start.md)
-
-   <!--* Added a new section on how to define and personalize content for offers' representations. [Read more](offers/offer-library/creating-personalized-offers.md#content)-->
+* Verbeterde **Snel starten** pagina met stappen voor verschillende personen. [Meer informatie](quick-start.md)
 
 * Nu zijn alle functies voor Beslissingsbeheer die in de desbetreffende sectie worden beschreven ook van toepassing op Adobe Experience Platform-gebruikers die gebruikmaken van de toepassingsservice van de Offer decisioning. [Meer informatie](offers/get-started/starting-offer-decisioning.md)
 
@@ -45,7 +58,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 ## Augustus 2021
 
-* Alle nieuwe functies en verbeteringen die worden geleverd bij de release van [!DNL Journey Optimizer] 21 augustus zijn beschreven in de documentatie. [Meer informatie](release-notes.md)
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 21 augustus is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
 * Bijgewerkte beslissingsbevoegdheden. [Meer informatie](administration/ootb-product-profiles.md)
 * Bijgewerkte screenshots van e-mailontwerpers met de nieuwste gebruikersinterface.
 * De configuratieprocedure voor aangepaste handelingen met dynamische URL-paden en dynamische koppen is bijgewerkt. [Meer informatie](action/about-custom-action-configuration.md#url-configuration)
@@ -59,25 +72,25 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u met één klik een koppeling om te weigeren kunt invoegen in e-mailinhoud. [Meer informatie](message-tracking.md#one-click-opt-out-link)
 * De subdomeinsectie Delegeren is bijgewerkt met meer gedetailleerde informatie over het validatieproces dat door Adobe wordt uitgevoerd. [Meer informatie](configuration/delegate-subdomain.md#subdomain-validation)
 * Er is een sectie toegevoegd waarin wordt beschreven hoe u handmatig e-mailadressen en domeinen aan de suppressielijst kunt toevoegen. [Meer informatie](configuration/manage-suppression-list.md#add-addresses-and-domains)
-* De secties [Access the suppression list](configuration/manage-suppression-list.md#access-suppression-list) en [Retries](configuration/retries.md) zijn bijgewerkt om de nieuwe gebruikersinterface te weerspiegelen.
+* De [De lijst met onderdrukking openen](configuration/manage-suppression-list.md#access-suppression-list) en [Opnieuw](configuration/retries.md) secties om de nieuwe gebruikersinterface te weerspiegelen.
 * De nieuwe flow om weergaven toe te voegen en te configureren wanneer u een aanbod maakt, is gedocumenteerd. [Meer informatie](offers/offer-library/creating-personalized-offers.md#representations)
 
 
 ## Juli 2021
 
-* Alle nieuwe functies en verbeteringen die worden geleverd bij de release van [!DNL Journey Optimizer] juli 21 zijn beschreven in de documentatie. [Meer informatie](release-notes.md)
-* Directe verbindingen aan de documentatie van de diensten van het Experience Platform in [!DNL Journey Optimizer] homepage en inhoudstafel toegevoegd
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 21 juli is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
+* Extra directe verbindingen aan de documentatie van de diensten van het Experience Platform in [!DNL Journey Optimizer] homepage en inhoudsopgave
 * Nieuwe bestemmingspagina&#39;s voor de diensten van het Experience Platform beschikbaar in [!DNL Journey Optimizer]
-* Koppelingen naar de productbeschrijving van [!DNL Journey Optimizer] op de startpagina toegevoegd
+* Koppelingen toegevoegd aan [!DNL Journey Optimizer] productbeschrijving op de homepage
 * Videozelfstudie toegevoegd op meerdere pagina&#39;s
 * Geoptimaliseerde homepage-images
 * Verplaatst, verbeterd en de naam van de sectie &#39;Bericht bijhouden&#39; is gewijzigd in &#39;Koppelingen toevoegen en berichten bijhouden&#39;. [Meer informatie](message-tracking.md)
 * Een subsectie toegevoegd op spiegelpagina&#39;s. [Meer informatie](message-tracking.md#mirror-page)
 * In documentatie en schermen hernoemd tot &#39;aanbiedingsactiviteiten&#39; als &#39;besluiten&#39; en &#39;besluiten&#39; als &#39;besluiten&#39;. [Meer informatie](offers/get-started/starting-offer-decisioning.md)
-* Nieuwe gebruikscase: [Een bericht personaliseren met hulpfuncties](personalization/personalization-use-case-helper-functions.md)
+* Nieuwe gebruikscase: [personaliseren een bericht met hulpfuncties](personalization/personalization-use-case-helper-functions.md)
 * De documentatie voor het Leessegment is bijgewerkt om de gevolgen voor het geconcretiseerde segment te weerspiegelen. [Meer informatie](building-journeys/read-segment.md)
 * De beperkingen voor de reis zijn bijgewerkt. [Meer informatie](limitations.md)
 * Bijgewerkt Configure aanbiedingen selectie in beslissingssectie. [Meer informatie](offers/offer-activities/configure-offer-selection.md)
 * Er is een waarschuwing toegevoegd om aan te geven dat op gebeurtenissen gebaseerde aanbiedingen momenteel niet worden ondersteund. [Meer informatie](offers/offer-library/creating-personalized-offers.md#eligibility)
-* Documenteerde het nieuwe **[!UICONTROL Overview]** lusje van het Beheer van Besluit. [Meer informatie](offers/get-started/user-interface.md#overview)
+* Documenteerde het nieuwe Besluit Management **[!UICONTROL Overview]** tab. [Meer informatie](offers/get-started/user-interface.md#overview)
 * Nieuwe secties toegevoegd om de acties te beschrijven die beschikbaar zijn op de lijsten met aanbiedingen en besluiten: [Aanbiedingslijst](offers/offer-library/creating-personalized-offers.md#offer-list) en [Beslissingslijst](offers/offer-activities/create-offer-activities.md#decision-list).

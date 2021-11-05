@@ -4,17 +4,22 @@ description: Leer hoe u gegevens uit externe bronnen in Adobe Journey Optimizer 
 feature: Schemas
 role: User
 level: Beginner
-source-git-commit: 105cc40b88479b8a4e70b9556dee7dff1fedc9ca
+exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
+source-git-commit: 0f79d465dd5a63ced107614407de167c7d9dad5a
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 0%
+source-wordcount: '111'
+ht-degree: 5%
 
 ---
 
 # Aan de slag met Bronconnectors {#sources-gs}
 
-Adobe Experience Platform staat toe dat gegevens uit externe bronnen worden opgenomen terwijl u de mogelijkheid krijgt om inkomende gegevens te structureren, te labelen en te verbeteren met behulp van de services van het Platform. U kunt gegevens uit diverse bronnen invoeren, zoals Adobe-toepassingen, opslag in de cloud, databases en vele andere.
+Adobe Journey Optimizer staat toe dat gegevens uit externe bronnen worden opgenomen terwijl u de mogelijkheid krijgt om inkomende gegevens te structureren, te labelen en te verbeteren met behulp van de services van het Platform. U kunt gegevens uit diverse bronnen invoeren, zoals Adobe-toepassingen, opslag in de cloud, databases en vele andere.
 
 ![](assets/sources-home.png)
 
-Leer meer hoe te om gegevens van externe bronnen met Bron schakelaars in [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html){target=&quot;_blank&quot;} in te voeren.
+In deze video ziet u hoe u bronconnectors kunt configureren in Journey Optimizer:
+
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
+
+Leer meer hoe te om gegevens van externe bronnen met Bron schakelaars in te nemen [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=nl){target=&quot;_blank&quot;}.

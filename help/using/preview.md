@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: a9e65986c3ccd0dc54a54bc5f349f5c9c87c5039
+source-git-commit: 9ef56c69e875c68bfbd9f08348bb45387f4bb32c
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 3%
@@ -111,7 +111,7 @@ Voor een voorbeeld van een pushmelding:
 
    ![](assets/preview-select-channel.png)
 
-1. Pas dezelfde stappen toe als hierboven zijn beschreven om een testprofiel te selecteren en selecteer het type apparaat voor een voorvertoning van inhoud: **[!UICONTROL iOS]** of **[!UICONTROL Android]**
+1. Pas dezelfde stappen toe als hierboven zijn beschreven om een testprofiel te selecteren en selecteer het type apparaat voor een voorvertoning van inhoud: **[!UICONTROL iOS]** of **[!UICONTROL Android]**.
 
    ![](assets/preview-iOS.png)
 

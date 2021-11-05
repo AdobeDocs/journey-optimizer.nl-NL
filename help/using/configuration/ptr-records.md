@@ -1,27 +1,18 @@
 ---
 title: PTR-records
-description: '"Leer hoe u ptr-records beheert"'
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
+description: Leer hoe u PTR-records beheert
 audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
-feature: Applicatie-instellingen
-topic: Beheer
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
+source-git-commit: 1e62715f35b50bba639657a1bef37aa61922c715
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 1%
+source-wordcount: '443'
+ht-degree: 0%
 
 ---
-
 
 # PTR-records
 
@@ -33,7 +24,7 @@ Met PTR verslagen, kunnen het ontvangen van postservers de authenticiteit van he
 
 ## De PTR-records van uw subdomeinen openen
 
-Zodra een subdomein in het Beheer van de Reis van de Klant wordt gedelegeerd, wordt een PTR- verslag automatisch gecreeerd en met dit subdomein geassocieerd. U kunt het van **[!UICONTROL Channels]** `>` **[!UICONTROL PTR records]** tot menu toegang hebben.
+Wanneer een subdomein in Adobe Journey Optimizer is gedelegeerd, wordt automatisch een PTR-record gemaakt en gekoppeld aan dit subdomein. U hebt toegang tot dit bestand via het dialoogvenster **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** -menu.
 
 ![](../assets/ptr-records.png)
 
@@ -45,6 +36,65 @@ In de lijst worden de PTR-records weergegeven die voor elk gedelegeerd subdomein
 
 U kunt een PTR-record in de lijst openen om de bijbehorende subdomeinnaam en het IP-adres weer te geven.
 
+## Een PTR-record bewerken {#edit-ptr-record}
+
+U kunt een PTR-record wijzigen om het subdomein te bewerken dat aan een IP-adres is gekoppeld.
+
+1. Klik in de lijst op de naam van een PTR-record om deze te openen.
+
+   ![](../assets/ptr-record-select.png)
+
+1. Bewerk het subdomein naar wens.
+
+   ![](../assets/ptr-record-subdomain.png)
+
+   >[!NOTE]
+   >
+   >U kunt de **[!UICONTROL IP]** en **[!UICONTROL PTR record]** velden.
+
+1. Klikken **[!UICONTROL SAve]** om uw wijzigingen te bevestigen.
+
+An **[!UICONTROL Updating]** wordt weergegeven naast de naam van de PTR-record in de lijst.
+
+![](../assets/ptr-record-updating.png)
+
+Klik op de knop **[!UICONTROL Updating]** of **[!UICONTROL Recent updates]** pictogram.
+
+![](../assets/ptr-record-recent-update.png)
+
+U kunt informatie zoals de updatestatus, en de gevraagde veranderingen zien.
+
+![](../assets/ptr-record-updates.png)
+
+## Statussen bijwerken
+
+Een PTR-recordupdate kan de volgende statussen hebben:
+
+* **[!UICONTROL Processing]**: De PTR-recordupdate is verzonden en wordt momenteel gecontroleerd.
+* **[!UICONTROL Success]**: Het bijgewerkte PTR-record is geverifieerd en het nieuwe subdomein is nu gekoppeld aan het IP-adres.
+* **[!UICONTROL Failed]**: Een of meer controles zijn mislukt tijdens de verificatie van de PTR-recordupdate.
+
+### Verwerking
+
+Verscheidene leveringscontroles zullen worden uitgevoerd om te verifiëren dat nieuwe subdomain aan vennoot met het IP adres geldig is. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).-->
+
 >[!NOTE]
 >
->Merk op dat de PTR- verslagen read-only zijn en dat u subdomain niet kunt wijzigen verbonden aan een IP adres.
+>U kunt een PTR-record niet wijzigen terwijl er een update wordt uitgevoerd. U kunt nog steeds op de naam klikken, maar wel op de knop **[!UICONTROL Subdomain]** veld wordt grijs weergegeven. De wijzigingen worden pas doorgevoerd als de update is gelukt.
+
+Tijdens het validatieproces wordt het oude subdomein nog steeds gekoppeld aan het IP-adres.
+
+### Succes
+
+Wanneer het validatieproces is voltooid, wordt het nieuwe subdomein automatisch gekoppeld aan het IP-adres.
+
+### Mislukt
+
+Als het validatieproces mislukt, wordt de oudere PTR-record weergegeven. Het geldige subdomein dat eerder aan het IP adres werd geassocieerd blijft onveranderd.
+
+De mogelijke updatefouten zijn als volgt:
+* Fout bij het maken van een nieuwe, voorwaartse DNS voor de PTR-record
+* Kan de record niet bijwerken
+* Niet opnieuw aan boord gaan van de affinities
+
+Als de update mislukt, kan de PTR-record opnieuw worden bewerkt. U kunt op de naam van het subdomein klikken en het subdomein opnieuw bijwerken.

@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 2c27942ece935c715ed2dea4d998705224a75089
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 6%
@@ -16,15 +16,15 @@ ht-degree: 6%
 
 # Een actie configureren {#configure-an-action}
 
-Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, is dit waar u zijn verbinding aan reizen vormt. De aangepaste actie die door technische gebruikers is gedefinieerd, is dan beschikbaar in het linkerpalet van uw reis, in de categorie **[!UICONTROL Action]** (zie [deze pagina](../building-journeys/about-journey-activities.md#action-activities). Hier volgen enkele voorbeelden van systemen waarmee u verbinding kunt maken met aangepaste handelingen: Epsilon, Facebook, Adobe.io, Firebase, enz.
+Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, is dit waar u zijn verbinding aan reizen vormt. De aangepaste actie die door technische gebruikers is gedefinieerd, is dan beschikbaar in het linkerpalet van uw reis, in het dialoogvenster **[!UICONTROL Action]** categorie (zie [deze pagina](../building-journeys/about-journey-activities.md#action-activities). Hier volgen enkele voorbeelden van systemen waarmee u verbinding kunt maken met aangepaste handelingen: Epsilon, Facebook, Adobe.io, Firebase, enz.
 
 Beperkingen worden vermeld in [deze pagina](../limitations.md).
 
-U kunt verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen. Raadpleeg deze [use case](../limitations.md).
+U kunt verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen. Zie dit [use case](../building-journeys/collections.md).
 
 Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vormen:
 
-1. Selecteer **[!UICONTROL Configurations]** in de sectie van het menu BEHEER. Klik in de sectie **[!UICONTROL Actions]** op **[!UICONTROL Manage]**. Klik **[!UICONTROL Create Action]** om een nieuwe actie tot stand te brengen. Het deelvenster Handelingsconfiguratie wordt aan de rechterkant van het scherm geopend.
+1. Selecteer in de sectie van het menu ADMINISTRATIE de optie **[!UICONTROL Configurations]**. In de  **[!UICONTROL Actions]** sectie, klikt u op **[!UICONTROL Manage]**. Klikken **[!UICONTROL Create Action]** om een nieuwe handeling te maken. Het deelvenster Handelingsconfiguratie wordt aan de rechterkant van het scherm geopend.
 
    ![](../assets/custom2.png)
 
@@ -35,9 +35,9 @@ Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vorm
    >Gebruik geen spaties of speciale tekens. Gebruik niet meer dan 30 tekens.
 
 1. Voeg een beschrijving aan uw actie toe. Deze stap is optioneel.
-1. Het aantal ritten dat deze handeling gebruikt, wordt weergegeven in het veld **[!UICONTROL Used in]**. U kunt op de knop **[!UICONTROL View journeys]** klikken om de lijst met ritten weer te geven die deze handeling gebruiken.
-1. Definieer de verschillende **[!UICONTROL URL Configuration]** parameters. Zie [deze pagina](../action/about-custom-action-configuration.md#url-configuration).
-1. Configureer de sectie **[!UICONTROL Authentication]**. Deze configuratie is het zelfde als voor gegevensbronnen.  Zie [deze sectie](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
+1. Het aantal ritten dat deze handeling gebruikt, wordt weergegeven in het dialoogvenster **[!UICONTROL Used in]** veld. U kunt op de knop **[!UICONTROL View journeys]** om de lijst met reizen weer te geven die deze handeling gebruiken.
+1. Verschillende definiëren **[!UICONTROL URL Configuration]** parameters. Zie [deze pagina](../action/about-custom-action-configuration.md#url-configuration).
+1. Configureer de **[!UICONTROL Authentication]** sectie. Deze configuratie is het zelfde als voor gegevensbronnen.  Zie [deze sectie](../datasource/external-data-sources.md#section_wjp_nl5_nhb).
 1. Definieer de **[!UICONTROL Action parameters]**. Zie [deze pagina](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Klik op **[!UICONTROL Save]**.
 
@@ -45,15 +45,15 @@ Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vorm
 
    >[!NOTE]
    >
-   >Wanneer een douaneactie in een reis wordt gebruikt, zijn de meeste parameters read-only. U kunt alleen de velden **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** en **[!UICONTROL Authentication]** wijzigen.
+   >Wanneer een douaneactie in een reis wordt gebruikt, zijn de meeste parameters read-only. U kunt de **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** en de **[!UICONTROL Authentication]** sectie.
 
 ## URL-configuratie {#url-configuration}
 
-Wanneer het vormen van een douaneactie, moet u de volgende **[!UICONTROL URL Configuration]** parameters bepalen:
+Wanneer het vormen van een douaneactie, moet u het volgende bepalen **[!UICONTROL URL Configuration]** parameters:
 
 ![](../assets/journeyurlconfiguration.png)
 
-1. Geef in het veld **[!UICONTROL URL]** de URL van de externe service op:
+1. In de **[!UICONTROL URL]** -veld, geeft u de URL van de externe service op:
 
    * Als de URL statisch is, voert u de URL in dit veld in.
 
@@ -68,22 +68,22 @@ Wanneer het vormen van een douaneactie, moet u de volgende **[!UICONTROL URL Con
    >
    >Alleen de standaardpoorten zijn toegestaan bij het definiëren van een aangepaste handeling: 80 voor http en 443 voor https.
 
-1. Selecteer de vraag **[!UICONTROL Method]**: kan **[!UICONTROL POST]** of **[!UICONTROL PUT]** zijn.
-1. Definieer in de sectie **[!UICONTROL Headers]** de HTTP-headers van het aanvraagbericht dat naar de externe service moet worden verzonden:
-   1. Als u een headerveld wilt toevoegen, klikt u op **[!UICONTROL Add a header field]**.
+1. Selecteer de vraag **[!UICONTROL Method]**: het kan **[!UICONTROL POST]** of **[!UICONTROL PUT]**.
+1. In de **[!UICONTROL Headers]** in, definieert u de HTTP-headers van het aanvraagbericht dat naar de externe service moet worden verzonden:
+   1. Als u een koptekstveld wilt toevoegen, klikt u op **[!UICONTROL Add a header field]**.
    1. Voer de sleutel van het headerveld in.
    1. Als u een dynamische waarde voor het sleutelwaardepaar wilt instellen, selecteert u **[!UICONTROL Variable]**. Anders selecteert u **[!UICONTROL Constant]**.
 
       Voor een tijdstempel kunt u bijvoorbeeld een dynamische waarde instellen.
 
-   1. Als u **[!UICONTROL Constant]** hebt geselecteerd, voert u de constante waarde in.
+   1. Als u **[!UICONTROL Constant]** Voer vervolgens de constante waarde in.
 
-      Als u **[!UICONTROL Variable]** hebt geselecteerd, dan zult u deze variabele wanneer het toevoegen van de douaneactie aan een reis specificeren. [Meer informatie](../building-journeys/using-custom-actions.md).
+      Als u **[!UICONTROL Variable]**, dan zult u deze variabele specificeren wanneer het toevoegen van de douaneactie aan een reis. [Meer informatie](../building-journeys/using-custom-actions.md).
 
       ![](../assets/journeyurlconfiguration2.png)
 
-   1. Als u een koptekstveld wilt verwijderen, wijst u naar het koptekstveld en klikt u op het pictogram **[!UICONTROL Delete]**.
-   De koptekstvelden **[!UICONTROL Content-Type]** en **[!UICONTROL Charset]** zijn standaard ingesteld. U kunt deze velden niet wijzigen of verwijderen.
+   1. Als u een koptekstveld wilt verwijderen, wijst u naar het koptekstveld en klikt u op de knop **[!UICONTROL Delete]** pictogram.
+   De **[!UICONTROL Content-Type]** en **[!UICONTROL Charset]** koptekstvelden worden standaard ingesteld. U kunt deze velden niet wijzigen of verwijderen.
 
    Nadat u de douaneactie aan een reis hebt toegevoegd, kunt u nog kopbalgebieden aan het toevoegen als de reis in ontwerpstatus is. Als u niet wilt dat de reis door configuratieveranderingen wordt beïnvloed, dupliceer de douaneactie en voeg de kopbalgebieden aan de nieuwe douaneactie toe.
 
@@ -95,7 +95,7 @@ Wanneer het vormen van een douaneactie, moet u de volgende **[!UICONTROL URL Con
 
 ![](../assets/messageparameterssection.png)
 
-Plak in de sectie **[!UICONTROL Action parameters]** een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden.
+In de **[!UICONTROL Action parameters]** plakken, plakt u een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden.
 
 ![](../assets/customactionpayloadmessage.png)
 

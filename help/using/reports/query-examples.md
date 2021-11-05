@@ -5,10 +5,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 83ac2513786168cb9178667e65614bafa2c7a704
+exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
+source-git-commit: e1d0afb70af4ab31db56f90c189c085ba8d1eb7c
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -24,7 +25,7 @@ Met deze query kunt u elke fout die tijdens reizen is aangetroffen, weergeven ti
 
 _Gegevens Meer query_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
 WHERE _experience.journeyOrchestration.stepEvents.nodeName=<'message-name'>
 AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
@@ -34,7 +35,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 _Voorbeeld_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
 WHERE _experience.journeyOrchestration.stepEvents.nodeName='Message - 100KB Email with Gateway and Kafkav2'
 AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
@@ -50,7 +51,7 @@ Deze vraag keert alle verschillende fouten terug die terwijl het uitvoeren van e
 
 _Gegevens Meer query_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events
 where
 _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
@@ -59,7 +60,7 @@ _experience.journeyOrchestration.stepEvents.profileID = '<profileID correspondin
 
 _Voorbeeld_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events
 where
 _experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d7a-a765-b2cad659fa4e' AND
@@ -74,7 +75,7 @@ Het resultaat moet groter zijn dan 0. Deze vraag keert het nauwkeurige aantal ti
 
 _Gegevens Meer query_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
 _experience.journeyOrchestration.stepEvents.nodeID='<NodeId in the UI corresponding to the message>' AND
 _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
@@ -84,7 +85,7 @@ _experience.journeyOrchestration.stepEvents.profileID = '<profileID correspondin
 
 _Voorbeeld_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
 _experience.journeyOrchestration.stepEvents.nodeID='17ae65a1-02dd-439d-b54e-b56a78520eba' AND
 _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
@@ -94,11 +95,11 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 Het resultaat moet groter zijn dan 0. Deze vraag vertelt ons slechts of de berichtactie met succes op de reiskant werd uitgevoerd.
 
-**Methode 2:** als de naam van uw bericht in de reis uniek is.
+**Methode 2:** als de naam van uw bericht uniek is in de reis.
 
 _Gegevens Meer query_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
 _experience.journeyOrchestration.stepEvents.nodeName='<NodeName in the UI corresponding to the message>' AND
 _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
@@ -108,7 +109,7 @@ _experience.journeyOrchestration.stepEvents.profileID = '<profileID correspondin
 
 _Voorbeeld_
 
-```
+```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
 _experience.journeyOrchestration.stepEvents.nodeID='Message- 100KB Email' AND
 _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
@@ -122,7 +123,7 @@ De vraag keert de lijst van alle berichten samen met hun telling terug die voor 
 
 _Gegevens Meer query_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
 WHERE  _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
 _experience.journeyOrchestration.stepEvents.nodeType = 'action' AND
@@ -133,7 +134,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 _Voorbeeld_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
 WHERE  _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
 _experience.journeyOrchestration.stepEvents.nodeType = 'action' AND
@@ -148,7 +149,7 @@ De vraag keert de lijst van alle berichten samen met hun telling terug die voor 
 
 _Gegevens Meer query_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
 WHERE  _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' AND
@@ -158,7 +159,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 _Voorbeeld_
 
-```
+```sql
 SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
 WHERE  _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com' AND
@@ -172,7 +173,7 @@ De vraag keert de lijst van alle reisnamen samen met het aantal tijden terug het
 
 _Gegevens Meer query_
 
-```
+```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '<last x days>' day)
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>'
@@ -182,7 +183,7 @@ ORDER BY DATE(timestamp) desc
 
 _Voorbeeld_
 
-```
+```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '100' day)
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1'
@@ -198,7 +199,7 @@ De vraag resteert, voor de bepaalde periode, het aantal profielen dat de reis el
 
 _Gegevens Meer query_
 
-```
+```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '<last x days>' day)
 GROUP BY DATE(timestamp)
@@ -207,7 +208,7 @@ ORDER BY DATE(timestamp) desc
 
 _Voorbeeld_
 
-```
+```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '100' day)
 GROUP BY DATE(timestamp)
