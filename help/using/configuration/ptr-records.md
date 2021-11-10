@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 1e62715f35b50bba639657a1bef37aa61922c715
+source-git-commit: 3f83ef8074fd52ab611117282015f60e2e57b61d
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -52,7 +52,7 @@ U kunt een PTR-record wijzigen om het subdomein te bewerken dat aan een IP-adres
    >
    >U kunt de **[!UICONTROL IP]** en **[!UICONTROL PTR record]** velden.
 
-1. Klikken **[!UICONTROL SAve]** om uw wijzigingen te bevestigen.
+1. Klikken **[!UICONTROL Save]** om uw wijzigingen te bevestigen.
 
 An **[!UICONTROL Updating]** wordt weergegeven naast de naam van de PTR-record in de lijst.
 

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 2e91fc884ea6e83a2590c5beca7840a6fc4c9b78
+source-git-commit: 18383a5a27aaf54cc859bdb66386648fe5fe2c41
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1682'
 ht-degree: 1%
 
 ---
@@ -192,6 +192,10 @@ Volg onderstaande stappen om een berichtvoorinstelling te bewerken.
 
 Nadat de wijzigingen zijn ingediend, doorloopt de berichtvoorinstelling een validatiecyclus die vergelijkbaar is met de validatiecyclus die op dat moment wordt toegepast [een voorinstelling maken](#create-message-preset).
 
+>[!NOTE]
+>
+>Als u alleen de **[!UICONTROL Description]**, **[!UICONTROL Email type]** en/of **[!UICONTROL Email retry parameters]** in velden, wordt de update onmiddellijk uitgevoerd.
+
 Voor voorinstellingen voor berichten met de **[!UICONTROL Active]** kunt u de details van de update controleren. Dit doet u als volgt:
 
 * Klik op de knop **[!UICONTROL Recent update]** wordt weergegeven naast de naam van de actieve voorinstelling.
@@ -214,13 +218,17 @@ Een update voor een berichtvoorinstelling kan de volgende statussen hebben:
 * **[!UICONTROL Success]**: De bijgewerkte berichtvoorinstelling is geverifieerd en kan worden geselecteerd om berichten te maken.
 * **[!UICONTROL Failed]**: Een of meer controles zijn mislukt tijdens de verificatie van de update van de berichtvoorinstelling.
 
-**Verwerking**
+Elke status wordt hieronder beschreven.
 
-Er worden verschillende controles op de leesbaarheid uitgevoerd om te controleren of de voorinstelling correct is bijgewerkt. De verwerkingstijd is ongeveer **48u-72u** en kan **7-10 werkdagen**. Meer informatie over de controles die zijn uitgevoerd tijdens de validatiecyclus in [deze sectie](#create-message-preset).
+### Verwerking
+
+Er worden verschillende controles op de leesbaarheid uitgevoerd om te controleren of de voorinstelling correct is bijgewerkt.
 
 >[!NOTE]
 >
->U kunt een berichtvoorinstelling niet wijzigen terwijl de update bezig is. U kunt nog steeds op de naam klikken, maar alle velden worden grijs weergegeven. De wijzigingen worden pas doorgevoerd als de update is gelukt.
+>Als u alleen de **[!UICONTROL Description]**, **[!UICONTROL Email type]** en/of **[!UICONTROL Email retry parameters]** in velden, wordt de update onmiddellijk uitgevoerd.
+
+De verwerkingstijd is ongeveer **48u-72u** en kan **7-10 werkdagen**. Meer informatie over de controles die zijn uitgevoerd tijdens de validatiecyclus in [deze sectie](#create-message-preset).
 
 Als u een voorinstelling bewerkt die al actief was:
 
@@ -230,7 +238,11 @@ Als u een voorinstelling bewerkt die al actief was:
 
 * Tijdens het validatieproces worden de berichten die zijn geconfigureerd met deze voorinstelling, nog steeds gebruikt in de oudere versie van de voorinstelling.
 
-**Succes**
+>[!NOTE]
+>
+>U kunt een berichtvoorinstelling niet wijzigen terwijl de update bezig is. U kunt nog steeds op de naam klikken, maar alle velden worden grijs weergegeven. De wijzigingen worden pas doorgevoerd als de update is gelukt.
+
+### Succes
 
 Zodra het validatieproces is voltooid, wordt de nieuwe versie van de voorinstelling automatisch gebruikt in alle berichten die deze voorinstelling gebruiken. Het kan echter zijn dat u moet wachten:
 * een paar minuten voordat het wordt verbruikt door de eenheidspublicaties,
@@ -238,16 +250,16 @@ Zodra het validatieproces is voltooid, wordt de nieuwe versie van de voorinstell
 
 <!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
 
-**Mislukt**
+### Mislukt
 
 Als het validatieproces mislukt, wordt de oudere versie van de voorinstelling nog steeds gebruikt.
 
-De mogelijke updatefouten zijn als volgt:
-* **Verificatiefout**: de token aan toonder is ongeldig of niet toegestaan.
-* **Ongeldige wijziging**: er is een bewerking uitgevoerd op een of meer niet-toegestane velden.
-* **Voorwaarde is mislukt**: sommige velden kunnen alleen specifieke waarden hebben en dit is niet gebeurd .
+<!--The possible update error types are as follows:
+* **Authorization error**: the bearer token is invalid or not authorized.
+* **Illegal modification**: an edit was performed on one or more non-allowed fields.
+* **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
-<!--Learn more on the possible failure reasons in [this section](#monitor-message-presets).-->
+Meer informatie over mogelijke oorzaken van fouten vindt u in [deze sectie](#monitor-message-presets).
 
 Als het bijwerken mislukt, kan de voorinstelling opnieuw worden bewerkt. U kunt op de naam van de component klikken en de instellingen bijwerken die moeten worden hersteld.
 

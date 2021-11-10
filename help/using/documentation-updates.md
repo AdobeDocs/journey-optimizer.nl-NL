@@ -2,9 +2,9 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 07382bdf4a9a7a75a5654cf81795c6c8e304360a
+source-git-commit: 5e93ccee2056814c25531fc13c3cd433a19077a6
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '834'
 ht-degree: 23%
 
 ---
@@ -25,8 +25,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Nieuwe beperkingen toegevoegd aan de **Handleiding voor ontwikkelaars van API voor beheer van beslissingen** op-aanbieding-beperkingen die niet worden ondersteund door het mobiele [!DNL Experience Edge] workflows. [Meer informatie](offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * Nieuw **Simulaties maken** sectie. [Meer informatie](offers/offer-activities/simulation.md)
 * Bijgewerkt **Beslissingsbereik toevoegen** sectie. [Meer informatie](offers/offer-activities/create-offer-activities.md#add-decision-scopes)
-* Bijgewerkt **Inhoud definiëren voor uw weergaven** sectie. [Meer informatie](offers/offer-library/creating-personalized-offers.md#content)
-* Er is een nieuwe sectie toegevoegd over het definiëren en aanpassen van inhoud voor representaties van aanbiedingen. [Meer informatie](offers/offer-library/creating-personalized-offers.md#content)
+* Bijgewerkt **Inhoud definiëren voor uw weergaven** , met inbegrip van een nieuwe [onderafdeling](offers/offer-library/creating-personalized-offers.md#custom-text) over het definiëren en aanpassen van aangepaste tekst. [Meer informatie](offers/offer-library/creating-personalized-offers.md#content)
 
 ## September 2021
 
