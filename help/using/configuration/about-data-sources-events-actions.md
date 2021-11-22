@@ -6,16 +6,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 36%
+source-wordcount: '310'
+ht-degree: 45%
 
 ---
 
 # Reizen configureren
 
-Als u berichten wilt verzenden met ritten, moet u **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]** configureren.
+Om berichten met reizen te verzenden, moet u vormen **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]**.
 
 ![](../assets/admin-menu.png)
 
@@ -35,9 +35,9 @@ Journey Optimizer-berichtmogelijkheden zijn ingebouwd: u hoeft alleen uw inhoud 
 
 ## Bladeren door Adobe Experience Platform-velden {#friendly-names-display}
 
-Wanneer het bepalen van [gebeurtenislading](../event/about-creating.md#define-the-payload-fields), [gebiedsgroeplading](../datasource/configure-data-sources.md#define-field-groups) en het selecteren van gebieden in [expression redacteur](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}, wordt de vertoningsnaam getoond naast de gebiedsnaam. Deze informatie wordt opgehaald uit de schemadefinitie in het Gegevenservaringmodel.
+Bij het definiëren van een [gebeurtenispayload](../event/about-creating.md#define-the-payload-fields), een [veldengroep-payload](../datasource/configure-data-sources.md#define-field-groups) en het selecteren van velden in de [expressie-editor](../building-journeys/expression/expressionadvanced.md) wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt opgehaald uit de schemadefinitie in het Gegevenservaringmodel.
 
-Als er beschrijvingen als xdm:alternateDisplayInfo worden opgegeven tijdens het instellen van schema’s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en algemene velden. U kunt beschrijvers van vriendschappelijke namen via een API vraag vormen. Voor meer informatie, zie [de ontwikkelaarsgids ](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html){target= &quot;_blank&quot;} van de Registratie van het Schema.
+Als er beschrijvingen als xdm:alternateDisplayInfo worden opgegeven tijdens het instellen van schema’s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en algemene velden. U kunt beschrijvers van vriendschappelijke namen via een API vraag vormen. Zie voor meer informatie de [Handleiding voor ontwikkelaars van het schema Register](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html){target=&quot;_blank&quot;}.
 
 ![](../assets/xdm-from-descriptors.png)
 

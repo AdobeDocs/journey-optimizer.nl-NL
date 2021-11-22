@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 0f79d465dd5a63ced107614407de167c7d9dad5a
+source-git-commit: 4b7cfedbc5f2c724e28e5e6e0ab7e0d2f40dccac
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 1%
@@ -16,7 +16,6 @@ ht-degree: 1%
 # Gebruik [!DNL Adobe Experience Manager Assets Essentials] {#experience-manager-assets}
 
 ## Aan de slag met [!DNL Assets Essentials] {#get-started-assets-essentials}
-
 
 [!DNL Adobe Experience Manager Assets Essentials] biedt één gecentraliseerde opslagplaats voor elementen die u kunt gebruiken om uw berichten te vullen. Het is rechtstreeks toegankelijk vanuit [!DNL Adobe Journey Optimizer] via de **[!UICONTROL Assets]** sectie. U kunt ook elementen en mappen openen tijdens het ontwerpen van e-mailinhoud. [Meer informatie over e-mailontwerp](design-emails.md).
 

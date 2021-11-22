@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 6b18f009a3c907649fd1e0261ffc7cfcc5acaef4
+exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 4%
+source-wordcount: '300'
+ht-degree: 5%
 
 ---
 
@@ -24,13 +25,13 @@ De ruit van de activiteitenconfiguratie toont de URL configuratieparameters en d
 
 ### Dynamisch pad
 
-Als de URL een dynamisch pad bevat, geeft u het pad op in het veld **[!UICONTROL Path]**.
+Als de URL een dynamisch pad bevat, geeft u het pad op in het dialoogvenster **[!UICONTROL Path]** veld.
 
 >[!NOTE]
 >
 >U kunt niet opstelling het statische deel van URL in de reis, maar in de globale configuratie van de douaneactie. [Meer informatie](../action/about-custom-action-configuration.md).
 
-Als u velden en onbewerkte teksttekenreeksen wilt samenvoegen, gebruikt u de tekenreeksfuncties of het plusteken (+) in de geavanceerde expressie-editor. Plaats normale teksttekenreeksen tussen enkele aanhalingstekens (&#39;) of tussen dubbele aanhalingstekens (&#39;). [Meer](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html) informatie {target=&quot;_blank&quot;}.
+Als u velden en onbewerkte teksttekenreeksen wilt samenvoegen, gebruikt u de tekenreeksfuncties of het plusteken (+) in de geavanceerde expressie-editor. Plaats normale teksttekenreeksen tussen enkele aanhalingstekens (&#39;) of tussen dubbele aanhalingstekens (&#39;). [Meer informatie](expression/expressionadvanced.md).
 
 In deze tabel ziet u een voorbeeld van configuratie:
 
@@ -41,18 +42,18 @@ In deze tabel ziet u een voorbeeld van configuratie:
 
 De samengevoegde URL heeft de volgende vorm:
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign ID=&quot;&quot;>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
 
 ![](../assets/journey-custom-action-url.png)
 
 ### Kopteksten
 
-De sectie **[!UICONTROL URL Configuration]** toont de dynamische kopbalgebieden, maar niet de constante kopbalgebieden. Dynamische headervelden zijn HTTP-headervelden waarvan de waarde is geconfigureerd als een variabele. [Meer informatie](../action/about-custom-action-configuration.md).
+De **[!UICONTROL URL Configuration]** in deze sectie worden de dynamische koptekstvelden weergegeven, maar niet de constante koptekstvelden. Dynamische headervelden zijn HTTP-headervelden waarvan de waarde is geconfigureerd als een variabele. [Meer informatie](../action/about-custom-action-configuration.md).
 
 Geef zo nodig de waarde van dynamische koptekstvelden op:
 
 1. Selecteer de aangepaste handeling tijdens de rit.
-1. Klik in het configuratievenster op het potloodpictogram naast het koptekstveld in de sectie **[!UICONTROL URL Configuration]**.
+1. Klik in het configuratievenster op het potloodpictogram naast het koptekstveld in het dialoogvenster **[!UICONTROL URL Configuration]** sectie.
 
    ![](../assets/journey-dynamicheaderfield.png)
 
@@ -60,7 +61,7 @@ Geef zo nodig de waarde van dynamische koptekstvelden op:
 
 ## Handelingsparameters
 
-In **[!UICONTROL Action parameters]** sectie, zult u de berichtparameters zien die als _&quot;Variabele&quot;_ worden bepaald. Voor deze parameters kunt u definiëren waar deze informatie moet worden opgehaald (voorbeeld: gebeurtenissen, gegevensbronnen), geeft u waarden handmatig door of gebruikt u de geavanceerde expressie-editor voor gevallen van geavanceerd gebruik. Gevallen van geavanceerd gebruik kunnen gegevensmanipulatie en ander functiegebruik zijn. Zie [Adobe Journey Orchestration documentatie](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}.
+In de **[!UICONTROL Action parameters]** sectie, zult u de berichtparameters zien die als worden bepaald _&quot;Variabele&quot;_. Voor deze parameters kunt u definiëren waar deze informatie moet worden opgehaald (voorbeeld: gebeurtenissen, gegevensbronnen), geeft u waarden handmatig door of gebruikt u de geavanceerde expressie-editor voor gevallen van geavanceerd gebruik. Gevallen van geavanceerd gebruik kunnen gegevensmanipulatie en ander functiegebruik zijn. Zie [Adobe Journey Orchestration-documentatie](expression/expressionadvanced.md).
 
 **Verwante onderwerpen**
 

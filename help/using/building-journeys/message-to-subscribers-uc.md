@@ -5,10 +5,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 59ee283f50850e160e7a6506c1f0deab1976f20c
+exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
+source-git-commit: 662158884291d90b6092c0aa70f41f27535f3637
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 2%
+source-wordcount: '277'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +33,7 @@ Om deze reis te vormen, volg deze stappen:
 
       U kunt het e-mailadres alleen wijzigen als u het bericht al eerder hebt gepubliceerd.
 
-   1. Voer in de expressieeditor de expressie in om de e-mailadressen van de abonnees op te halen. [Meer informatie](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}.
+   1. Voer in de expressieeditor de expressie in om de e-mailadressen van de abonnees op te halen. [Meer informatie](expression/expressionadvanced.md).
 
       In dit voorbeeld wordt een expressie getoond die verwijzingen naar kaartvelden bevat:
 
@@ -49,7 +50,7 @@ Om deze reis te vormen, volg deze stappen:
 
       In dit voorbeeld krijgt de abonnementenlijst de naam `daily-email`. E-mailadressen worden gedefinieerd als sleutels in het dialoogvenster `subscribers` kaart, die aan de kaart van de abonnementenlijst wordt verbonden.
 
-      Meer informatie over [verwijzingen naar velden](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/field-references.html) in expressies.
+      Meer informatie over [verwijzingen naar velden](expression/field-references.md) in expressies.
 
       ![](../assets/message-to-subscribers-uc-2.png)
 
@@ -58,7 +59,3 @@ Om deze reis te vormen, volg deze stappen:
    ![](../assets/message-to-subscribers-uc-3.png)
 
 1. Beëindig de reis met een **[!UICONTROL End]** activiteit.
-
-
-
-

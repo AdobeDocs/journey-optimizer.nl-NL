@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 54d93df232b38608d3d02e837cea82e8965559e0
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1315'
 ht-degree: 88%
 
 ---
@@ -53,7 +53,7 @@ Hier volgen de belangrijkste stappen voor het maken en configureren van een nieu
 
    ![](../assets/journey27.png)
 
-1. Configureer de verificatie volgens de configuratie van de externe service: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** of **[!UICONTROL API key]**. Zie [deze sectie](../datasource/external-data-sources.md#section_wjp_nl5_nhb) voor meer informatie over de aangepaste verificatiemodus. In ons voorbeeld kiezen we:
+1. Configureer de verificatie volgens de configuratie van de externe service: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** of **[!UICONTROL API key]**. Voor meer informatie over de wijze van de douaneauthentificatie, zie [deze sectie](../datasource/external-data-sources.md#section_wjp_nl5_nhb). In ons voorbeeld kiezen we:
 
    * **[!UICONTROL Type]**: ‘API-sleutel’
    * **[!UICONTROL Name]**: ‘appid’ (dit is de parameternaam van de API-sleutel)
@@ -68,7 +68,7 @@ Voor de parameterreeks ‘long/lat’ maken we een veldengroep met de volgende i
 
 * **[!UICONTROL Used in]**: geeft het aantal journey’s weer dat een veldengroep gebruikt. U kunt klikken op het pictogram **[!UICONTROL View journeys]** om de lijst weer te geven met journey’s die deze veldengroep gebruiken.
 * **[!UICONTROL Method]**: selecteer de methode POST of GET. In ons geval selecteren we de methode GET.
-* **[!UICONTROL Dynamic Values]**: voer de verschillende parameters in, gescheiden door een komma, in het voorbeeld ‘long,lat’. Aangezien de parameterwaarden afhankelijk zijn van de uitvoeringscontext, worden ze tijdens de journey’s gedefinieerd. Zie [Journey Orchestration documentatie](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/expressionadvanced.html){target=&quot;_blank&quot;}.
+* **[!UICONTROL Dynamic Values]**: voer de verschillende parameters in, gescheiden door een komma, in het voorbeeld ‘long,lat’. Aangezien de parameterwaarden afhankelijk zijn van de uitvoeringscontext, worden ze tijdens de journey’s gedefinieerd. Zie [Journey Orchestration-documentatie](../building-journeys/expression/expressionadvanced.md).
 * **[!UICONTROL Response Payload]**: klik in het veld **[!UICONTROL Payload]** en plak een voorbeeld van de payload die door de aanroep is geretourneerd. Voor ons voorbeeld hebben we een payload gebruikt van een API-weerwebsite. Controleer of de veldtypen correct zijn. Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payloadvoorbeeld zijn opgenomen. U kunt klikken op **[!UICONTROL Paste a new payload]** als u de huidige payload wilt wijzigen.
 * **[!UICONTROL Sent Payload]**: dit veld staat niet in ons voorbeeld. Deze optie is alleen beschikbaar als u de methode POST selecteert. Plak de payload die naar het externe systeem wordt verzonden.
 
@@ -117,7 +117,7 @@ De definitie van het eindpunt dat moet worden aangeroepen om de toegangstoken te
 * methode van de HTTP-aanvraag bij het eindpunt (GET of POST)
 * kopteksten: sleutel-waarde paren die als kopballen in deze vraag moeten worden geïnjecteerd indien vereist
 * body: beschrijft de hoofdtekst van de aanroep als de methode POST is. Wij steunen een beperkte lichaamsstructuur, die in bodyParams (zeer belangrijke-waardeparen) wordt bepaald. Het bodyType beschrijft de indeling en versleuteling van de hoofdtekst in de aanroep:
-   * &quot;formulier&quot;: betekent dat het inhoudstype application/x-www-form-urlencoded (charset UTF-8) zal zijn en de sleutel-waarde paren zullen in series worden vervaardigd zoals is: key1=value1&amp;key2=value2&amp;..
+   * &quot;formulier&quot;: betekent dat het inhoudstype application/x-www-form-urlencoded (charset UTF-8) zal zijn en de sleutel-waarde paren zullen in series worden vervaardigd zoals is: key1=value1&amp;key2=value2&amp;...
    * &quot;json&quot;: betekent dat het inhoudstype application/json (charset UTF-8) zal zijn en de sleutel-waardeparen als json voorwerp in series zullen worden vervaardigd aangezien is: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ..._
 
 De definitie van de manier waarop de toegangstoken in de HTTP-aanvraag van de actie moet worden geïnjecteerd:

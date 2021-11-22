@@ -1,45 +1,45 @@
 ---
-title: Hoofdlettergebruik&dubbelepunt; kennisgeving orderstatus
+title: '&Hoofdlettergebruik voor persoonlijke voorkeur; kennisgeving orderstatus'
 description: Leer hoe u een bericht kunt personaliseren met profiel, beschikking en contextinformatie
-feature: Personalisatie
-topic: Personalisatie
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
+source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
-
 
 # Gebruiksscenario voor personalisatie: kennisgeving orderstatus {#personalization-use-case}
 
 In dit gebruiksgeval, zult u zien hoe te om veelvoudige types van verpersoonlijking in één enkel duw bericht te gebruiken. Er worden drie typen personalisatie gebruikt:
 
 * **Profiel**: berichten personaliseren op basis van een profielveld
-* **Beslissing** voorstel: personalisatie op basis van offer decisioning variabelen
+* **Offertebeslissing**: personalisatie op basis van offer decisioning variabelen
 * **Context**: personalisatie op basis van contextuele gegevens van de reis
 
-Het doel van dit voorbeeld is om een gebeurtenis naar [!DNL Journey Optimizer] te duwen telkens als een klantenorde wordt bijgewerkt. Vervolgens wordt een pushmelding naar de klant gestuurd met informatie over de bestelling en een persoonlijke aanbieding.
+Het doel van dit voorbeeld is om een gebeurtenis naar [!DNL Journey Optimizer] elke keer dat een order van een klant wordt bijgewerkt. Vervolgens wordt een pushmelding naar de klant gestuurd met informatie over de bestelling en een persoonlijke aanbieding.
 
 Voor dit gebruik zijn de volgende voorwaarden nodig:
 
-* Maak en ontwerp een pushmelding zonder deze te publiceren. Zie deze [sectie](../create-message.md).
-* een bestelgebeurtenis configureren, waaronder het ordernummer, de status en de naam van het item. Zie deze [sectie](../event/about-events.md).
-* een beslissing maken (voorheen bekend als &quot;aanbiedingsactiviteit&quot;), naar deze [sectie](../offers/offer-activities/create-offer-activities.md) verwijzen.
+* Maak en ontwerp een pushmelding zonder deze te publiceren. Zie dit [sectie](../create-message.md).
+* een bestelgebeurtenis configureren, waaronder het ordernummer, de status en de naam van het item. Zie dit [sectie](../event/about-events.md).
+* een besluit nemen (voorheen &quot;aanbiedingsactiviteit&quot; genoemd), naar deze [sectie](../offers/offer-activities/create-offer-activities.md).
 
 ## Stap 1 - personalisatie toevoegen aan profiel
 
-1. Klik op het menu **[!UICONTROL Message]** en selecteer uw bericht.
+1. Klik op de knop **[!UICONTROL Message]** en selecteert u uw bericht.
 
    ![](assets/perso-uc.png)
 
-1. Klik op het veld **Titel**.
+1. Klik op de knop **Titel** veld.
 
    ![](assets/perso-uc2.png)
 
-1. Typ het onderwerp en voeg profielpersonalisatie toe. Gebruik de zoekbalk om het voornaamveld van het profiel te zoeken. Plaats de cursor in de onderwerptekst op de plaats waar u het aanpassingsveld wilt invoegen en klik op het pictogram **+**. Klik **Opslaan**.
+1. Typ het onderwerp en voeg profielpersonalisatie toe. Gebruik de zoekbalk om het voornaamveld van het profiel te zoeken. Plaats de cursor in de onderwerptekst op de plaats waar u het aanpassingsveld wilt invoegen en klik op de knop **+** pictogram. Klikken **Opslaan**.
 
    ![](assets/perso-uc3.png)
 
@@ -49,15 +49,15 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
 
 ## Stap 2 - Maak de reis
 
-1. Klik op het menu **[!UICONTROL Journeys]** en maak een nieuwe reis.
+1. Klik op de knop **[!UICONTROL Journeys]** en maak een nieuwe reis.
 
    ![](assets/perso-uc4.png)
 
-1. Voeg uw ingangsgebeurtenis, een **Bericht** en een **Eind** activiteit toe.
+1. Voeg uw ingangsgebeurtenis toe, a **Bericht** en **Einde** activiteit.
 
    ![](assets/perso-uc5.png)
 
-1. Selecteer in de activiteit **Bericht** het eerder gemaakte bericht. Klik **Ok**.
+1. In de **Bericht** activiteit, selecteer het eerder gecreeerd bericht. Klikken **OK**.
 
    ![](assets/perso-uc6.png)
 
@@ -71,38 +71,38 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
 
 ## Stap 3 - Verpersoonlijking toevoegen aan contextuele gegevens
 
-1. Van **Bericht** activiteit, klik **Open het bericht** pictogram. Het bericht wordt geopend op een nieuw tabblad.
+1. Van de **Bericht** activiteit, klik **Het bericht openen** pictogram. Het bericht wordt geopend op een nieuw tabblad.
 
    ![](assets/perso-uc8.png)
 
-1. Klik op het veld **Titel**.
+1. Klik op de knop **Titel** veld.
 
    ![](assets/perso-uc9.png)
 
-1. Selecteer de categorie **Context**. Dit item is alleen beschikbaar als een reis contextuele gegevens heeft doorgegeven aan het bericht. Klik **Journey Orchestration**. De volgende contextafhankelijke informatie wordt weergegeven:
+1. Selecteer **Context** categorie. Dit item is alleen beschikbaar als een reis contextuele gegevens heeft doorgegeven aan het bericht. Klikken **Journey Orchestration**. De volgende contextafhankelijke informatie wordt weergegeven:
 
-   * **Gebeurtenissen**: deze categorie groepeert alle velden van de gebeurtenis(sen) die vóór de  **** berichtenactiviteit in de reis zijn geplaatst.
-   * **Reiseigenschappen**: de technische gebieden die verband houden met de reis voor een bepaald profiel, bijvoorbeeld de reis-id of de specifieke fouten die zijn geconstateerd. Leer meer in [Journey Orchestration documentatie](https://experienceleague.adobe.com/docs/journeys/using/building-advanced-conditions-journeys/syntax/journey-properties.html#building-advanced-conditions-journeys){target=&quot;_blank&quot;}.
+   * **Gebeurtenissen**: deze categorie groepeert alle velden van de gebeurtenis(sen) die voor de **Bericht** tijdens de reis.
+   * **Reiseigenschappen**: de technische gebieden die verband houden met de reis voor een bepaald profiel, bijvoorbeeld de reis-id of de specifieke fouten die zijn geconstateerd. Meer informatie in [Journey Orchestration-documentatie](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
 
-1. Vouw het item **Gebeurtenissen** uit en zoek het veld ordernummer dat betrekking heeft op uw gebeurtenis. U kunt ook het zoekvak gebruiken. Klik op het pictogram **+** om het aanpassingsveld in te voegen in de onderwerptekst. Klik **Opslaan**.
+1. Breid uit **Gebeurtenissen** en zoek het veld ordernummer voor uw gebeurtenis. U kunt ook het zoekvak gebruiken. Klik op de knop **+** pictogram om het verpersoonlijkingsgebied in de onderwerptekst op te nemen. Klikken **Opslaan**.
 
    ![](assets/perso-uc11.png)
 
-1. Klik nu op het veld **Body**.
+1. Klik nu op de knop **Lichaam** veld.
 
    ![](assets/perso-uc12.png)
 
-1. Typ het bericht en voeg, vanuit de categorie **Context**, de naam van het orderitem en de voortgang van de order in.
+1. Typ het bericht en voeg het toe, van **Context** categorie, de naam van het orderitem en de voortgang van de bestelling.
 
    ![](assets/perso-uc13.png)
 
-1. Van drop-down, uitgezochte **Beslissing van de aanbieding** om een variabele van de offer decisioning op te nemen. Selecteer de plaatsing en klik **+** pictogram naast het besluit (eerder genoemd als &quot;aanbiedingsactiviteit&quot;) om het aan het lichaam toe te voegen.
+1. Selecteer in de vervolgkeuzelijst de optie **Offertebeslissing** om een variabele van de offer decisioning op te nemen. Selecteer de plaatsing en klik op **+** pictogram naast de beslissing (voorheen bekend als &#39;aanbiedingsactiviteit&#39;) om deze aan het lichaam toe te voegen.
 
    ![](assets/perso-uc14.png)
 
-1. Klik bevestigen om ervoor te zorgen dat er geen fouten zijn, en klik **sparen**.
+1. Klik op Valideren om te controleren of er geen fouten zijn en klik op **Opslaan**.
 
    ![](assets/perso-uc15.png)
 
@@ -112,11 +112,11 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
 
 ## Stap 4 - De reis testen en publiceren
 
-1. Open de reis opnieuw. Als de reis reeds open is, zorg ervoor u de pagina verfrist. Nu het bericht wordt gepubliceerd, kunt u zien dat er geen fout in de reis is. Klik op de knop **Testen** en klik vervolgens op **Een gebeurtenis activeren**.
+1. Open de reis opnieuw. Als de reis reeds open is, zorg ervoor u de pagina verfrist. Nu het bericht wordt gepubliceerd, kunt u zien dat er geen fout in de reis is. Klik op de knop **Testen** klikt u vervolgens op **Een gebeurtenis activeren**.
 
    ![](assets/perso-uc17.png)
 
-1. Voer de verschillende waarden in die tijdens de test moeten worden doorstaan. De testmodus werkt alleen met testprofielen. De profiel-id moet overeenkomen met een testprofiel. Klik **Send**.
+1. Voer de verschillende waarden in die tijdens de test moeten worden doorstaan. De testmodus werkt alleen met testprofielen. De profiel-id moet overeenkomen met een testprofiel. Klikken **Verzenden**.
 
    ![](assets/perso-uc18.png)
 
@@ -125,4 +125,3 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
    ![](assets/perso-uc19.png)
 
 1. Controleer of er geen fout is en publiceer de reis.
-
