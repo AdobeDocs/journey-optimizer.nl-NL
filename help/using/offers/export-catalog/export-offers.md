@@ -1,13 +1,14 @@
 ---
 title: Dataset met gepersonaliseerde aanbiedingen
 description: Deze sectie maakt een lijst van alle gebieden die in de uitgevoerde dataset voor aanbiedingen worden gebruikt.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2003'
 ht-degree: 0%
 
 ---
@@ -22,200 +23,200 @@ De meest recente succesvolle partij in de dataset wordt getoond op het recht. De
 
 >[!NOTE]
 >
->Leer hoe te om tot de uitgevoerde datasets voor elk voorwerp van uw Bibliotheek van het Aanbod in [deze sectie](../export-catalog/access-dataset.md) toegang te hebben.
+>Leer hoe te om tot de uitgevoerde datasets voor elk voorwerp van uw Bibliotheek van de Aanbieding in toegang te hebben [deze sectie](../export-catalog/access-dataset.md).
 
-Hier is de lijst van alle gebieden die in **[!UICONTROL Decision Object Repository - Personalized Offers]** dataset kunnen worden gebruikt.
+Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogvenster **[!UICONTROL Decision Object Repository - Personalized Offers]** dataset.
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
 ## Id
 
-**Veld:** _id 
-**titel:** Identifier-
-**beschrijving:** een unieke id voor de record.
-**Type:** tekenreeks
+**Veld:** _id
+**Titel:** Id
+**Omschrijving:** Een unieke id voor de record.
+**Type:** string
 
 ## _experience
 
-**Veld:** _
-**ervaringstype:** object
+**Veld:** _experience
+**Type:** object
 
 ### _experience > decisions
 
-**Veld:** beslissingstype:
-**** object
+**Veld:** beslissing
+**Type:** object
 
 #### _experience > decisions > endarConstraints
 
-**Veld:** agendaRestricties 
-**Titel:** Kalenderrestrictie Details 
-**Beschrijving:** Kalenderbeperkingen bepalen of een beslissingsoptie geldig is in een bepaald datumbereik. Buiten dat datumbereik kan de optie niet worden voorgesteld.
-**Tekst:** object
+**Veld:** agendaConstraints
+**Titel:** Details kalenderbeperking
+**Omschrijving:** Kalenderbeperkingen bepalen of een beslissingsoptie geldig is in een bepaald datumbereik. Buiten dat datumbereik kan de optie niet worden voorgesteld.
+**Type:** object
 
 * **Einddatum en -tijd**
 
    **Veld:** endDate
    **Titel:** Einddatum en -tijd
-   **Beschrijving:** De einddatum van de geldigheid van een beslissing. Opties die hun einddatum hebben bereikt, kunnen niet langer in het besluitvormingsproces worden voorgesteld.
-   **Type:** tekenreeks
+   **Omschrijving:** De einddatum van de geldigheid van een beslissing. Opties die hun einddatum hebben bereikt, kunnen niet langer in het besluitvormingsproces worden voorgesteld.
+   **Type:** string
 
 * **Begindatum en -tijd**
 
    **Veld:** startDate
    **Titel:** Begindatum en -tijd
-   **Beschrijving:** de begindatum van de geldigheid van een beslissing. Opties die hun begindatum nog niet hebben bereikt, kunnen nog niet in het besluitvormingsproces worden voorgesteld.
-   **Type:** tekenreeks
+   **Omschrijving:** De begindatum van de geldigheid van een beslissing. Opties die hun begindatum nog niet hebben bereikt, kunnen nog niet in het besluitvormingsproces worden voorgesteld.
+   **Type:** string
 
 #### _experience > decisions > attributes
 
-**Veld:** kenmerken 
-**Titel:** beslissingsoptie Kenmerken 
-**Beschrijving:** Aanvullende eigenschappen of kenmerken die tot deze specifieke beslissingsoptie behoren. Verschillende instanties kunnen verschillende kenmerken hebben (toetsen in de kaart). De kenmerken zijn naamwaardeparen die worden gebruikt om een beslissingsoptie te onderscheiden van andere. Kenmerken worden gebruikt als waarden in de inhoud die deze beslissingsoptie vertegenwoordigt en als kenmerken voor het analyseren en optimaliseren van de prestaties van een optie. Wanneer elke instantie de zelfde attributen of het bezit heeft, zou dat aspect als uitbreidingsschema moeten worden gemodelleerd dat uit de details van de besluitvormingsoptie voortkomt.
-**Tekst:** object
+**Veld:** kenmerken
+**Titel:** Kenmerken van de optie Beslissing
+**Omschrijving:** Aanvullende eigenschappen of kenmerken die tot deze bepaalde beslissingsoptie behoren. Verschillende instanties kunnen verschillende kenmerken hebben (toetsen in de kaart). De kenmerken zijn naamwaardeparen die worden gebruikt om een beslissingsoptie te onderscheiden van andere. Kenmerken worden gebruikt als waarden in de inhoud die deze beslissingsoptie vertegenwoordigt en als kenmerken voor het analyseren en optimaliseren van de prestaties van een optie. Wanneer elke instantie de zelfde attributen of het bezit heeft, zou dat aspect als uitbreidingsschema moeten worden gemodelleerd dat uit de details van de besluitvormingsoptie voortkomt.
+**Type:** object
 
 #### _experience > decisions > contents
 
-**Veld:** inhoud, 
-**titel:** Inhoudsgegevens, 
-**beschrijving:** Inhoudsonderdelen om het beslissingsitem in verschillende contexten weer te geven. Een enkele beslissingsoptie kan meerdere inhoudvarianten hebben. Inhoud is informatie die naar een publiek wordt gericht voor gebruik in een (digitale) ervaring. Inhoud wordt via kanalen aan een bepaalde plaatsing geleverd.
-**Tekst:** array
+**Veld:** inhoud
+**Titel:** Details inhoud
+**Omschrijving:** Inhoudsitems om het beslissingsitem in verschillende contexten weer te geven. Een enkele beslissingsoptie kan meerdere inhoudvarianten hebben. Inhoud is informatie die naar een publiek wordt gericht voor gebruik in een (digitale) ervaring. Inhoud wordt via kanalen aan een bepaalde plaatsing geleverd.
+**Type:** array
 
 **_experience > decisions > contents > components**
 
-**Veld:** componenten, 
-**beschrijving:** de componenten van de inhoud die de beslissingsoptie vertegenwoordigen, inclusief alle taalvarianten. Specifieke componenten worden gevonden door &#39;dx:format&#39;, &#39;dc:subject&#39; en &#39;dc:language&#39; of een combinatie daarvan. Deze metagegevens worden gebruikt om de inhoud te zoeken of weer te geven die aan een aanbieding is gekoppeld en deze te integreren volgens het plaatsingscontract.
-**Type:** array 
-**vereist:** &quot;_type&quot;, &quot;_dc&quot;  <!--TBC?-->
+**Veld:** componenten
+**Omschrijving:** De componenten van de inhoud die de beslissingsoptie vertegenwoordigen, inclusief alle taalvarianten. Specifieke componenten worden gevonden door &#39;dx:format&#39;, &#39;dc:subject&#39; en &#39;dc:language&#39; of een combinatie daarvan. Deze metagegevens worden gebruikt om de inhoud te zoeken of weer te geven die aan een aanbieding is gekoppeld en deze te integreren volgens het plaatsingscontract.
+**Type:** array
+**Vereist:** &quot;_type&quot;, &quot;_dc&quot; <!--TBC?-->
 
 * **_experience > decisions > contents > components > Content Component Type**
 
    **Veld:** _type
-   **Titel:** Inhoud, componenttype
-   **Beschrijving:** Een opsomming van URI&#39;s waarbij elke waarde wordt toegewezen aan een type dat aan de inhoudcomponent wordt gegeven. Sommige consumenten van de inhoudrepresentaties verwachten dat de @type-waarde een verwijzing naar het schema is dat aanvullende eigenschappen van de inhoudscomponent beschrijft.
-   **Type:** tekenreeks
+   **Titel:** Type inhoudcomponent
+   **Omschrijving:** Een opsomming van URI&#39;s waarbij elke waarde wordt toegewezen aan een type dat aan de inhoudcomponent wordt gegeven. Sommige consumenten van de inhoudrepresentaties verwachten dat de @type-waarde een verwijzing naar het schema is dat aanvullende eigenschappen van de inhoudscomponent beschrijft.
+   **Type:** string
 
 * **_experience > decisions > contents > components > _dc**
 
    **Veld:** _dc
-   **Tekst:** object
-   **Vereist:** &quot;formaat&quot;
+   **Type:** object
+   **Vereist:** &quot;format&quot;
 
    * **Indeling**
 
-      **Veld:** indeling
+      **Veld:** format
       **Titel:** Indeling
-      **Beschrijving:** De fysieke of digitale manifestatie van de bron. Normaal gesproken moet de indeling het mediatype van de bron bevatten. De indeling kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. Aanbevolen wordt om een waarde uit een gecontroleerde woordenlijst te selecteren (bijvoorbeeld de lijst met [Internet Media Types](http://www.iana.org/assignments/media-types/) die computermedia formaten bepalen).
-      **Type:** tekenreeks
+      **Omschrijving:** De fysieke of digitale manifestatie van de bron. Normaal gesproken moet de indeling het mediatype van de bron bevatten. De indeling kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. De aanbevolen werkwijze is het selecteren van een waarde in een gecontroleerde woordenlijst (bijvoorbeeld de lijst met [Internetmediatypen](http://www.iana.org/assignments/media-types/) computermedia-indelingen definiëren).
+      **Type:** string
       **Voorbeeld:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Taal**
       **Veld:** taal
       **Titel:** Taal
-      **Beschrijving:** De taal of talen van de bron. \nTalen worden opgegeven in taalcode zoals gedefinieerd in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), die deel uitmaakt van BCP 47, die elders in XDM wordt gebruikt.
-      **Tekst:** array
+      **Omschrijving:** De taal of talen van de bron. \nTalen worden opgegeven in taalcode zoals gedefinieerd in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), dat deel uitmaakt van BCP 47, dat elders in XDM wordt gebruikt.
+      **Type:** array
       **Voorbeelden:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
 * **_experience > decisions > contents > components > _repo**
 
    **Veld:** _repo
-   **Tekst:** object
+   **Type:** object
 
    * **id**
 
       **Veld:** id
-      **Beschrijving:** Een optionele unieke id die verwijst naar het element in een inhoudsopslagplaats. Wanneer Platform-API&#39;s worden gebruikt om de representatie op te halen, kan de client een extra eigenschap \&quot;repo:resolveUrl\&quot; verwachten om het element op te halen.
-      **Type:** tekenreeks
-      **Voorbeeld:** &quot;:aaid:urnsc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+      **Omschrijving:** Een optionele unieke id die verwijst naar het element in een inhoudsopslagplaats. Wanneer Platform-API&#39;s worden gebruikt om de representatie op te halen, kan de client een extra eigenschap \&quot;repo:resolveUrl\&quot; verwachten om het element op te halen.
+      **Type:** string
+      **Voorbeeld:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
-      **Veld:** naam
-      **Beschrijving:** enige aanwijzing voor de locatie van de opslagplaats die het externe element opslaat met de \&quot;repo:id\&quot;.
-      **Type:** tekenreeks
+      **Veld:** name
+      **Omschrijving:** Sommige tips over de locatie van de opslagplaats die het externe element opslaat via de \&quot;repo:id\&quot;.
+      **Type:** string
 
    * **repositoryID**
 
-      **Veld:** gegevensopslagruimteID
-      **Beschrijving:** Een optionele unieke id die verwijst naar het element in een inhoudsopslagplaats. Wanneer Platform-API&#39;s worden gebruikt om de representatie op te halen, kan de client een extra eigenschap \&quot;repo:resolveUrl\&quot; verwachten om het element op te halen.
-      **Type:** tekenreeks
+      **Veld:** repositoryID
+      **Omschrijving:** Een optionele unieke id die verwijst naar het element in een inhoudsopslagplaats. Wanneer Platform-API&#39;s worden gebruikt om de representatie op te halen, kan de client een extra eigenschap \&quot;repo:resolveUrl\&quot; verwachten om het element op te halen.
+      **Type:** string
       **Voorbeeld:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
       **Veld:** resolveURL
-      **Beschrijving:** Een optionele unieke resource locator voor het lezen van het element in een inhoudsopslagplaats. Hierdoor wordt het eenvoudiger om het middel te verkrijgen zonder dat de klant begrijpt waar het middel wordt beheerd en welke API&#39;s moeten worden aangeroepen. Dit is vergelijkbaar met een HAL-link, maar de semantiek is eenvoudiger en doelgerichter.
-      **Type:** tekenreeks
+      **Omschrijving:** Een optionele unieke resource locator voor het lezen van het middel in een inhoudsopslagplaats. Hierdoor wordt het eenvoudiger om het middel te verkrijgen zonder dat de klant begrijpt waar het middel wordt beheerd en welke API&#39;s moeten worden aangeroepen. Dit is vergelijkbaar met een HAL-link, maar de semantiek is eenvoudiger en doelgerichter.
+      **Type:** string
       **Voorbeeld:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > decisions > contents > components > content**
 
-   **Veld:** inhoud
-   **Beschrijving:** Een optioneel veld voor de directe opslag van inhoud. In plaats van te verwijzen naar inhoud in een opslagplaats voor bedrijfsmiddelen, kan de component eenvoudige inhoud direct bevatten. Dit veld wordt niet gebruikt voor samengestelde, complexe en binaire inhoudselementen.
-   **Type:** tekenreeks
+   **Veld:** content
+   **Omschrijving:** Een optioneel veld waarin inhoud rechtstreeks kan worden opgeslagen. In plaats van te verwijzen naar inhoud in een opslagplaats voor bedrijfsmiddelen, kan de component eenvoudige inhoud direct bevatten. Dit veld wordt niet gebruikt voor samengestelde, complexe en binaire inhoudselementen.
+   **Type:** string
 
 * **_experience > decisions > contents > components > deliveryURL**
 
    **Veld:** deliveryURL
-   **Beschrijving:** Een optionele unieke resource locator om het element te verkrijgen van een netwerk of servicedetectief voor de levering van inhoud. Deze URL wordt gebruikt om tot het middel openlijk door een gebruikersagent toegang te hebben.
-   **Type:** tekenreeks
+   **Omschrijving:** Een facultatieve unieke middellocator om het middel van een netwerk of de diensteindpunt van de inhoudslevering te verkrijgen. Deze URL wordt gebruikt om tot het middel openlijk door een gebruikersagent toegang te hebben.
+   **Type:** string
    **Voorbeeld:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisions > contents > components > linkURL**
 
    **Veld:** linkURL
-   **Beschrijving:** een optionele unieke resource locator voor gebruikersinteracties. Deze URL wordt gebruikt om de eindgebruiker naar in een gebruikersagent te verwijzen en kan worden gevolgd.
-   **Type:** tekenreeks
+   **Omschrijving:** Een optionele unieke resource locator voor gebruikersinteracties. Deze URL wordt gebruikt om de eindgebruiker naar in een gebruikersagent te verwijzen en kan worden gevolgd.
+   **Type:** string
    **Voorbeeld:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 **_experience > decisions > contents > Placement**
 
-**Veld:** plaatsingstitel:
-**Plaatsingsbeschrijving:** Plaatsing 
-**beschrijving:** Plaatsing om aan te passen. De waarde is de URI (@id) van de aanbiedingsplaatsing waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/placement.
-**Type:** tekenreeks
+**Veld:** plaatsing
+**Titel:** Plaatsing
+**Omschrijving:** Plaatsing om te voldoen aan. De waarde is de URI (@id) van de aanbiedingsplaatsing waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/placement.
+**Type:** string
 
 #### _experience > decisions > Lifecycle Status
 
-**Veld:** levenscyclusStatus 
-**Titel:** Levenscyclusstatus 
-**Beschrijving:Met de status van de** levenscyclus kunnen workflows worden uitgevoerd met een object. De status kan van invloed zijn op de plaats waar een object zichtbaar is of als relevant wordt beschouwd. De veranderingen van de status worden gedreven door de cliënten of de diensten die de voorwerpen gebruiken.
-**Type:** tekenreeks 
+**Veld:** lifecycleStatus
+**Titel:** Status levenscyclus
+**Omschrijving:** Met de levenscyclusstatus kunnen workflows met een object worden uitgevoerd. De status kan van invloed zijn op de plaats waar een object zichtbaar is of als relevant wordt beschouwd. De veranderingen van de status worden gedreven door de cliënten of de diensten die de voorwerpen gebruiken.
+**Type:** string
 **Mogelijke waarden:** &quot;Concept&quot; (standaardwaarde), &quot;Goedgekeurd&quot;, &quot;Live&quot;, &quot;Voltooid&quot;, &quot;Gearchiveerd&quot;
 
 #### _experience > decisions > Decision Option Name
 
-**Veld:** naam, 
-**titel:Naam van** beslissingsoptie, 
-**beschrijving:** optienaam die wordt weergegeven in verschillende gebruikersinterfaces.
-**Type:** tekenreeks
+**Veld:** name
+**Titel:** Naam van beslissingsoptie
+**Omschrijving:** De naam van de optie die in diverse gebruikersinterfaces wordt getoond.
+**Type:** string
 
 #### _experience > decisions > profileConstraints
 
-**Veld:** profileConstraints, 
-**titel:** Profielrestrictie, 
-**beschrijving:** de profielbeperkingen bepalen of een optie op dit moment in aanmerking komt voor deze profielidentiteit. Als de profielbeperking geen waarden van elke optie hoeft te overwegen, d.w.z. dat deze geen opties uit de optieselectie bevat, annuleert de profielbeperking die &#39;false&#39; oplevert de volledige optieselectie. Anderzijds wordt voor elke kwalificerende optie van de optiesselectie een regel voor profielbeperking geëvalueerd die een optie als parameter neemt.
-**Tekst:** object
+**Veld:** profileConstraints
+**Titel:** Profielrestrictiedetails
+**Omschrijving:** De profielbeperkingen bepalen of een optie op dit moment in aanmerking komt voor deze profielidentiteit. Als de profielbeperking geen waarden van elke optie hoeft te overwegen, d.w.z. dat deze geen opties uit de optieselectie bevat, annuleert de profielbeperking die &#39;false&#39; oplevert de volledige optieselectie. Anderzijds wordt voor elke kwalificerende optie van de optiesselectie een regel voor profielbeperking geëvalueerd die een optie als parameter neemt.
+**Type:** object
 
 **_experience > decisions > profileConstraints > Description**
 
-**Veld:** beschrijving, 
-**titel:** beschrijving, 
-**beschrijving:beschrijving van** profielbeperking. Het wordt gebruikt om menselijke leesbare intenties over te brengen over hoe of waarom deze profielbeperking is geconstrueerd en/of welke optie daarin wordt opgenomen of uitgesloten.
-**Type:** tekenreeks
+**Veld:** beschrijving
+**Titel:** Beschrijving
+**Omschrijving:** Beschrijving van profielbeperking. Het wordt gebruikt om menselijke leesbare intenties over te brengen over hoe of waarom deze profielbeperking is geconstrueerd en/of welke optie daarin wordt opgenomen of uitgesloten.
+**Type:** string
 
 **_experience > decisions > profileConstraints > Eligibility Rule**
 
 **Veld:** geschiktheidregel
-**Titel:** Geschiktheidsregel 
-**Beschrijving:** een verwijzing naar een beslissingsregel die voor een bepaald profiel en/of andere contextafhankelijke XDM-objecten naar waar of onwaar evalueert. De regel wordt gebruikt om te beslissen als de optie voor een bepaald profiel kwalificeert. De waarde is URI (@id) van de beslissingsregel waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/rule.
-**Type:** tekenreeks
+**Titel:** Subsidiabiliteitsregel
+**Omschrijving:** Een verwijzing naar een beslissingsregel die voor een bepaald profiel en/of andere contextuele XDM-objecten naar waar of onwaar evalueert. De regel wordt gebruikt om te beslissen als de optie voor een bepaald profiel kwalificeert. De waarde is URI (@id) van de beslissingsregel waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/rule.
+**Type:** string
 
 **_experience > decisions > profileConstraints > Profielrestrictietype**
 
-**Veld:** profileConstraintType 
-**Titel:** Profielrestrictietype 
-**Beschrijving:** Hiermee wordt bepaald of er momenteel beperkingen zijn ingesteld en hoe de beperkingen worden uitgedrukt. Het zou door een regel of door één of meerdere segmentlidmaatschap kunnen zijn.
-**Type:** tekenreeks 
+**Veld:** profileConstraintType
+**Titel:** Type profielbeperking
+**Omschrijving:** Hiermee wordt bepaald of er momenteel beperkingen zijn ingesteld en hoe de beperkingen worden uitgedrukt. Het zou door een regel of door één of meerdere segmentlidmaatschap kunnen zijn.
+**Type:** string
 **Mogelijke waarden:**
 * &quot;none&quot; (standaardwaarde)
 * &quot;toelatingsregel&quot;: &quot;De profielbeperking wordt uitgedrukt als één enkele regel die aan waar moet evalueren alvorens de beperkte actie wordt toegestaan.&quot;
@@ -225,105 +226,102 @@ Hier is de lijst van alle gebieden die in **[!UICONTROL Decision Object Reposito
 
 **_experience > decisions > profileConstraints > Segment-id&#39;s**
 
-**Veld:** segmentIdentities 
-**titel:** Segment-id&#39;s 
-**beschrijving:** id&#39;s van de segmenten 
-**type:** array
+**Veld:** segmentIdentities
+**Titel:** Segment-id&#39;s
+**Omschrijving:** Identificatoren van de segmenten
+**Type:** array
 
 * **Id**
 
    **Veld:** _id
-   **titel:** id
-   **Beschrijving:** Identiteit van het segment in de gerelateerde naamruimte.
-   **Type:** tekenreeks
+   **Titel:** Id
+   **Omschrijving:** Identiteit van het segment in verwante namespace.
+   **Type:** string
 
 * **Naamruimte**
 
-   **Veld:** naamruimte
-   **Titel:** naamruimte
-   **Beschrijving:** de naamruimte die aan het  `xid` kenmerk is gekoppeld.
-   **Tekst:** object
+   **Veld:** namespace
+   **Titel:** Naamruimte
+   **Omschrijving:** De naamruimte die is gekoppeld aan de `xid` kenmerk.
+   **Type:** object
    **Vereist:** &quot;code&quot;
 
    * **Code**
 
       **Veld:** code
-      **Titel:** code
-      **Beschrijving:** De code is een leesbare id voor de naamruimte en kan worden gebruikt om de technische naamruimte-id aan te vragen die wordt gebruikt voor het verwerken van identiteitsgrafieken.
-      **Type:** tekenreeks
+      **Titel:** Code
+      **Omschrijving:** De code is een leesbare id voor de naamruimte en kan worden gebruikt om de technische naamruimte-id aan te vragen die wordt gebruikt voor het verwerken van identiteitsgrafieken.
+      **Type:** string
 
 * **Ervings-id**
 
    **Veld:** xid
-   **Titel:** Ervaring-id
-   **Beschrijving:** Wanneer deze waarde aanwezig is, vertegenwoordigt deze een naamruimte-id die uniek is voor alle naamruimte-bereikid-id&#39;s in alle naamruimten.
-   **Type:** tekenreeks
+   **Titel:** Ervings-id
+   **Omschrijving:** Wanneer deze waarde aanwezig is, vertegenwoordigt deze een naamruimte-id die uniek is voor alle naamruimte-bereikid&#39;s in alle naamruimten.
+   **Type:** string
 
 #### _experience > decisions > Rangschikking
 
-**veld:** rangschikkende 
-**titel:** rangschikkende details, 
-**beschrijving:** Rank (prioriteit). Definieert wat wordt beschouwd als de &quot;beste actie\&quot; gezien de context van het beslissingscriterium. Bij alle geselecteerde opties die voldoen aan de selectiegrens, wordt in de rangorde bepaald welke optie(s) bovenaan (of bovenste N) moet(en) worden voorgesteld.
-**Tekst:** object
+**Veld:** rangschikking
+**Titel:** Beoordelingsdetails
+**Omschrijving:** Rang (prioriteit). Definieert wat wordt beschouwd als de &quot;beste actie\&quot; gezien de context van het beslissingscriterium. Bij alle geselecteerde opties die voldoen aan de selectiegrens, wordt in de rangorde bepaald welke optie(s) bovenaan (of bovenste N) moet(en) worden voorgesteld.
+**Type:** object
 
 **_experience > decisions > Ranging > Order Evaluation**
 
-**Veld:** volgorde 
-**Titel:** Order Evaluation 
-**Description:** Evaluatie van een relatieve volgorde van een of meer beslissingsopties. De opties met hogere rangtelwoorden worden geselecteerd over om het even welke opties met lagere rangtelwoorden. De waarden die met deze methode worden bepaald, kunnen worden geordend, maar de afstanden daartussen kunnen niet worden gemeten en er kunnen geen bedragen of producten worden berekend. De mediaan en de mode zijn de enige maatstaven van centrale neiging die voor ordinale gegevens kunnen worden gebruikt.
-**Tekst:** object
+**Veld:** bestellen
+**Titel:** Orderevaluatie
+**Omschrijving:** Evaluatie van een relatieve volgorde van een of meer beslissingsopties. De opties met hogere rangtelwoorden worden geselecteerd over om het even welke opties met lagere rangtelwoorden. De waarden die met deze methode worden bepaald, kunnen worden geordend, maar de afstanden daartussen kunnen niet worden gemeten en er kunnen noch sommen noch producten worden berekend. De mediaan en de mode zijn de enige maatstaven van centrale neiging die voor ordinale gegevens kunnen worden gebruikt.
+**Type:** object
 
 * **Scorefunctie**
 
-   **Veld:** functie
-   **Titel:** functie voor scores
-   **Beschrijving:** Een verwijzing naar een functie die een numerieke score voor deze beslissingsoptie berekent. Beslissingsopties worden vervolgens met die score geordend (gerangschikt). De waarde van deze eigenschap is de URI (@id) van de functie die met één optie tegelijk moet worden aangeroepen. Zie schema https://ns.adobe.com/experience/decisioning/function.
-   **Type:** tekenreeks
+   **Veld:** function
+   **Titel:** Scorefunctie
+   **Omschrijving:** Een verwijzing naar een functie die een numerieke score voor deze beslissingsoptie berekent. Beslissingsopties worden vervolgens met die score geordend (gerangschikt). De waarde van deze eigenschap is de URI (@id) van de functie die met één optie tegelijk moet worden aangeroepen. Zie schema https://ns.adobe.com/experience/decisioning/function.
+   **Type:** string
 
 * **Type beoordeling van bestelling**
 
    **Veld:** orderEvaluationType
-   **Titel:Type** orderevaluatie
-   **Beschrijving:** Specificeert welk mechanisme van de ordeevaluatie wordt gebruikt, statische prioriteit van de besluitvormingsopties, een het schrapen functie die een numerieke waarde voor elke optie of een rangschikkingsstrategie berekent die een lijst ontvangt om het te bestellen.
-   **Type:** tekenreeks
+   **Titel:** Type beoordeling van bestelling
+   **Omschrijving:** Specificeert welk mechanisme van de ordeevaluatie wordt gebruikt, statische prioriteit van de besluitvormingsopties, een scorefunctie die een numerieke waarde voor elke optie of een rangschikkingsstrategie berekent die een lijst ontvangt om het te bestellen.
+   **Type:** string
    **Mogelijke waarden:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
 * **Rangschikkingsstrategie**
 
-   **Veld:** rankingStrategy
-   **Titel:** rangschikkingsstrategie
-   **Beschrijving:** Een verwijzing naar een strategie die een lijst met beslissingsopties rangschikt. Beslissingsopties worden geretourneerd in een geordende lijst. De waarde van deze eigenschap is de URI (@id) van de functie die met één optie tegelijk moet worden aangeroepen. Zie schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
-   **Type:** tekenreeks
+   **Veld:** rangschikkingStrategie
+   **Titel:** Rangschikkingsstrategie
+   **Omschrijving:** Een verwijzing naar een strategie die een lijst van besluitvormingsoptie rangschikt. Beslissingsopties worden geretourneerd in een geordende lijst. De waarde van deze eigenschap is de URI (@id) van de functie die met één optie tegelijk moet worden aangeroepen. Zie schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
+   **Type:** string
 
 **_Experience > decisions > Rangschikking > Priority**
 
-**Veld:** prioritaire 
-**titel:** prioritaire 
-**beschrijving:** de prioriteit van één beslissingsoptie ten opzichte van alle andere opties. De opties waarvoor geen ordefunctie wordt gegeven worden voorrang gegeven gebruikend dit bezit. De opties met hogere prioritaire waarden worden geselecteerd vóór om het even welke lagere prioritaire opties. Als twee of meer in aanmerking komende opties de hoogste prioritaire waarde delen, wordt één gekozen op uniforme willekeurige wijze en gebruikt voor het beslissingsvoorstel.
-**Type:** integer 
-**Minimum value:** 0 
-**Default value:** 0
+**Veld:** prioriteit
+**Titel:** Prioriteit
+**Omschrijving:** De prioriteit van één beslissingsoptie ten opzichte van alle andere opties. De opties waarvoor geen ordefunctie wordt gegeven worden voorrang gegeven gebruikend dit bezit. De opties met hogere prioritaire waarden worden geselecteerd vóór om het even welke lagere prioritaire opties. Als twee of meer in aanmerking komende opties de hoogste prioritaire waarde delen, wordt één gekozen op uniforme willekeurige wijze en gebruikt voor het beslissingsvoorstel.
+**Type:** integer
+**Minimumwaarde:** 0
+**Standaardwaarde:** 0
 
 #### _experience > decisions > tags
 
-**Veld:** tags, 
-**titel:** Tags, 
-**beschrijving:** de set codes die aan deze entiteit zijn gekoppeld. De tags worden gebruikt in filterexpressies om de totale voorraad te beperken tot een subset (categorie).
-**Tekst:** array
+**Veld:** tags
+**Titel:** Tags
+**Omschrijving:** De reeks codes die aan deze entiteit is gekoppeld. De tags worden gebruikt in filterexpressies om de totale voorraad te beperken tot een subset (categorie).
+**Type:** array
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
 ## _repo
 
-**Veld:** _repo-
-**type:** object
+**Veld:** _repo
+**Type:** object
 
 ### _repo > Beslissingsoptie ETag
 
-**Veld:** tijdlijntitel:
-**Titel van** beslissingsoptie ETag-
-**beschrijving:** de revisie die het object van de beslissingsoptie had toen de momentopname werd gemaakt.
-**Type:** tekenreeks
-
-
-
+**Veld:** etel
+**Titel:** Beslissingsoptie ETag
+**Omschrijving:** De revisie die het object voor de beslissingsoptie had toen de momentopname werd gemaakt.
+**Type:** string

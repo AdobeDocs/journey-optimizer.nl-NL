@@ -2,23 +2,24 @@
 title: Gebeurtenissen van Reacties
 description: Meer informatie over reacties
 feature: Journeys
-topic: Contentmanagement
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 3%
+source-wordcount: '353'
+ht-degree: 2%
 
 ---
 
 # Reactiegebeurtenissen {#section_dhx_gss_dgb}
 
-Onder de verschillende gebeurtenisactiviteiten die beschikbaar zijn in het palet, vindt u de ingebouwde gebeurtenis **[!UICONTROL Reactions]**. Met deze activiteit kunt u reageren op volggegevens die betrekking hebben op een bericht dat binnen dezelfde reis wordt verzonden. We leggen deze informatie in real time vast op het moment dat ze met Adobe Experience Platform wordt gedeeld. Voor pushberichten kunt u reageren op geklikte, verzonden of mislukte berichten. Voor SMS-berichten kunt u reageren op verzonden of mislukte berichten. Voor e-mailberichten kunt u reageren op geklikte, verzonden, geopende of mislukte berichten.
+De ingebouwde **[!UICONTROL Reactions]** gebeurtenis. Met deze activiteit kunt u reageren op volggegevens die betrekking hebben op een bericht dat binnen dezelfde reis wordt verzonden. We leggen deze informatie in real time vast op het moment dat ze met Adobe Experience Platform wordt gedeeld. Voor pushberichten kunt u reageren op geklikte, verzonden of mislukte berichten. Voor SMS-berichten kunt u reageren op verzonden of mislukte berichten. Voor e-mailberichten kunt u reageren op geklikte, verzonden, geopende of mislukte berichten.
 
 U kunt dit mechanisme ook gebruiken om een actie uit te voeren wanneer er geen reactie op uw berichten is. Hiertoe maakt u een tweede pad parallel aan de reactieactiviteit en voegt u een wachtactiviteit toe. Als er geen reactie optreedt tijdens de periode die is gedefinieerd in de wachtdienst, wordt het tweede pad gekozen. U kunt bijvoorbeeld een vervolgbericht verzenden.
 
-Merk op dat u een reactieactiviteit in het canvas slechts kunt gebruiken als er **Message** activiteit vóór is.
+Merk op dat u een reactieactiviteit op het canvas slechts kunt gebruiken als er een **Bericht** eerder.
 
 Zie [Informatie over actieactiviteiten](../building-journeys/about-journey-activities.md#action-activities).
 
@@ -26,10 +27,10 @@ Zie [Informatie over actieactiviteiten](../building-journeys/about-journey-activ
 
 Hier volgen de verschillende stappen voor het configureren van reactiegebeurtenissen:
 
-1. Voeg een **[!UICONTROL Label]** aan de reactie toe. Deze stap is optioneel.
+1. Voeg een **[!UICONTROL Label]** op de reactie. Deze stap is optioneel.
 1. Selecteer in de vervolgkeuzelijst de activiteit waarop u wilt reageren. U kunt alle handelingen selecteren die zich in de vorige stappen van het pad bevinden.
 1. Afhankelijk van de actie die u hebt geselecteerd, kiest u waarop u wilt reageren.
-1. U kunt een time-out voor de gebeurtenis (tussen 40 seconden en 30 dagen) en een time-outpad definiëren. Hierdoor wordt een tweede pad gemaakt voor personen die niet binnen de gedefinieerde tijdsduur hebben gereageerd. Bij het testen van een reis die een reactiegebeurtenis gebruikt, zijn de standaard- en minimumwaarde van de testmodus **[!UICONTROL Wait time]** 40 seconden. Zie [deze sectie](../building-journeys/testing-the-journey.md).
+1. U kunt een time-out voor de gebeurtenis (tussen 40 seconden en 30 dagen) en een time-outpad definiëren. Hierdoor wordt een tweede pad gemaakt voor personen die niet binnen de gedefinieerde tijdsduur hebben gereageerd. Bij het testen van een traject waarbij een reactiegebeurtenis wordt gebruikt, de testmodus **[!UICONTROL Wait time]** standaard en minimumwaarde is 40 seconden. Zie [deze sectie](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >

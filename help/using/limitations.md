@@ -15,14 +15,14 @@ ht-degree: 0%
 
 # Beperkingen {#limitations}
 
-De rechten, de productbeperkingen en de prestatiesbegeleiding zijn vermeld in [ de productbeschrijvingspagina van Adobe Journey Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
+De rechten, de productbeperkingen en de prestatiegaranties worden vermeld in[ Adobe Journey Optimizer-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
 
-Hieronder vindt u aanvullende beperkingen wanneer u [!DNL Adobe Journey Optimizer] gebruikt.
+Hieronder vindt u aanvullende beperkingen wanneer u [!DNL Adobe Journey Optimizer].
 
 ## Beperkingen in berichten
 
 * U kunt geen bijlagen aan een e-mailbericht toevoegen met [!DNL Journey Optimizer].
-* Email BCC wordt niet ondersteund in [!DNL Journey Optimizer].
+* BCC van e-mail wordt niet ondersteund in [!DNL Journey Optimizer].
 
 ## Beperkingen op reizen
 
@@ -30,7 +30,7 @@ Hieronder vindt u aanvullende beperkingen wanneer u [!DNL Adobe Journey Optimize
 
 * Er is geen verzendvertraging. 
 * In het geval van een fout worden drie pogingen systematisch opnieuw uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht. 
-* Met de ingebouwde **Reaction**-gebeurtenis kunt u reageren op acties die buiten de doos vallen. Meer informatie vindt u op [deze pagina](building-journeys/reaction-events.md). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen. 
+* De ingebouwde **Reactie** kunt u reageren op acties die buiten de box vallen. Meer informatie in [deze pagina](building-journeys/reaction-events.md). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen. 
 * U kunt geen twee acties parallel plaatsen, u moet hen één na andere toevoegen.
 
 ### Berichthandeling
@@ -39,11 +39,11 @@ Hieronder vindt u aanvullende beperkingen wanneer u [!DNL Adobe Journey Optimize
 
 ### Journeyversies {#journey-versions-limitations}
 
-* Een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis met een **gebeurtenis van de Kwalificatie van het Segment** beginnen.
-* Een reis die met een **Kwalificatie van het Segment** activiteit in v1 begint moet altijd met een **Kwalificatie van het Segment** in verdere versies beginnen.
-* Het segment en de naamruimte die worden gekozen in **Segmentkwalificatie** (eerste knooppunt) kunnen niet worden gewijzigd in nieuwe versies.
+* Een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis beginnen met een **Segmentkwalificatie** gebeurtenis.
+* Een reis die begint met een **Segmentkwalificatie** activiteit in v1 moet altijd beginnen met een **Segmentkwalificatie** in verdere versies.
+* Het segment en de naamruimte die zijn gekozen in **Segmentkwalificatie** (eerste knooppunt) kan niet worden gewijzigd in nieuwe versies.
 * De re-entry regel moet het zelfde in alle reisversies zijn.
-* Een reis die met een **Leessegment** begint kan niet met een andere gebeurtenis in volgende versies beginnen.
+* Een reis die begint met een **Segment lezen** kan niet met een andere gebeurtenis in volgende versies beginnen.
  
 
 ### Aangepaste acties
@@ -68,7 +68,7 @@ Hieronder vindt u aanvullende beperkingen wanneer u [!DNL Adobe Journey Optimize
 
 Er is een vertraging verbonden aan het maken/bijwerken van een op API gebaseerd profiel in Adobe Experience Platform. Het doel van het Niveau van de Dienst (SLT) in termen van latentie is &lt; 1 min van opname aan Verenigd Profiel voor 95th percentiel van verzoeken, bij een volume van 20K Verzoeken per seconde (RPS).
 
-Als een reis gelijktijdig aan een profielverwezenlijking wordt teweeggebracht en onmiddellijk controleert/informatie van de Dienst van het Profiel terugwint, zou het niet behoorlijk kunnen werken.
+Als een reis tezelfdertijd aan een profielverwezenlijking wordt teweeggebracht en onmiddellijk controleert/informatie van de Dienst van het Profiel terugwint, zou het niet behoorlijk kunnen werken.
 
 U kunt uit één van deze twee oplossingen kiezen:
 

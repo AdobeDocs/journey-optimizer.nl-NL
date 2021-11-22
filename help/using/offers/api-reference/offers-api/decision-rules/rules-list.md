@@ -1,20 +1,21 @@
 ---
 title: Beslissingsregels weergeven
-description: Beslissingsregels zijn beperkingen die worden toegevoegd aan een gepersonaliseerd aanbod en die worden toegepast op een profiel om te bepalen of het in aanmerking komt voor een aanbieding.
-feature: Aanbiedingen
-topic: Integraties
+description: Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die op een profiel worden toegepast om te bepalen of het in aanmerking komt voor een aanbieding.
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 4%
+source-wordcount: '268'
+ht-degree: 3%
 
 ---
 
 # Beslissingsregels weergeven
 
-Beslissingsregels zijn beperkingen die worden toegevoegd aan een gepersonaliseerd aanbod en die worden toegepast op een profiel om te bepalen of het in aanmerking komt voor een aanbieding. U kunt een lijst van bestaande besluitvormingsregels binnen een container bekijken door één enkel verzoek van de GET aan [!DNL Offer Library] API uit te voeren.
+Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die op een profiel worden toegepast om te bepalen of het in aanmerking komt voor een aanbieding. U kunt een lijst met bestaande beslissingsregels in een container weergeven door één GET-verzoek uit te voeren aan de [!DNL Offer Library] API.
 
 **API-indeling**
 
@@ -39,10 +40,10 @@ De gemeenschappelijkste vraagparameters voor het pagineren omvatten:
 
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
-| `q` | Een optionele queryreeks die u wilt zoeken in geselecteerde velden. De querytekenreeks moet in kleine letters worden geschreven en kan worden omgeven door dubbele aanhalingstekens om te voorkomen dat deze wordt verdeeld en om speciale tekens te vermijden. De tekens `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` hebben een speciale betekenis en moeten met een backslash worden beschermd wanneer deze in de queryreeks worden weergegeven. | `default` |
+| `q` | Een optionele queryreeks die u wilt zoeken in geselecteerde velden. De querytekenreeks moet in kleine letters worden geschreven en kan worden omgeven door dubbele aanhalingstekens om te voorkomen dat deze wordt verdeeld en om speciale tekens te vermijden. De tekens `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` hebben een speciale betekenis en moeten met een backslash worden beschermd wanneer deze in de queryreeks wordt weergegeven. | `default` |
 | `qop` | Past EN of OF exploitant op waarden in q vraagkoordparam toe. | `AND` / `OR` |
-| `field` | Optionele lijst met velden om de zoekopdracht te beperken tot. Deze param kan als volgt worden herhaald: field=field1[,field=field2,...] en (padexpressies hebben de vorm van punten gescheiden paden, zoals _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Resultaten sorteren op een bepaalde eigenschap. Als u een `-` vóór de titel (`orderby=-title`) toevoegt, worden de items op titel gesorteerd in aflopende volgorde (Z-A). | `-repo:createdDate` |
+| `field` | Optionele lijst met velden om de zoekopdracht te beperken tot. Deze param kan als volgt worden herhaald: field=field1[,field=field2,...] en (padexpressies hebben de vorm van door punten gescheiden paden, zoals _instance.xdm:name) | `_instance.xdm:name` |
+| `orderBy` | Resultaten sorteren op een bepaalde eigenschap. Een `-` vóór titel (`orderby=-title`) worden objecten op titel gesorteerd in aflopende volgorde (Z-A). | `-repo:createdDate` |
 | `limit` | Beperk het aantal teruggekeerde besluitvormingsregels. | `limit=5` |
 
 **Verzoek**

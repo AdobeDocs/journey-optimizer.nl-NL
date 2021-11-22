@@ -2,7 +2,8 @@
 title: Journey Optimizer Aan de slag voor systeembeheer
 description: Als systeembeheerder, leer meer hoe te om met Journey Optimizer te werken
 level: Intermediate
-source-git-commit: a27a6d7ab96bd08e7a2601c2e86d1d9f0fc4be0a
+exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
+source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 2%
@@ -62,9 +63,7 @@ Voer de onderstaande stappen uit:
 1. **De onderdrukking en lijst van gewenste personen beheren**: verbeter uw leverbaarheid met onderdrukking en lijsten van gewenste personen
 
    * A [onderdrukkingslijst](../suppression-list.md) bestaat uit e-mailadressen die u van uw leveringen wilt uitsluiten, omdat het verzenden naar deze contacten uw verzendende reputatie en leveringspercentages zou kunnen beschadigen. U kunt alle e-mailadressen controleren die automatisch van het verzenden van een reis, zoals ongeldige adressen, adressen worden uitgesloten die constant elektronische stuiteren, en uw e-mailreputatie, en ontvangers die een spamklacht van één of andere soort tegen één van uw e-mailberichten negatief zouden kunnen beïnvloeden. Leer hoe u de [onderdrukkingslijst](../configuration/manage-suppression-list.md) en [opnieuw](../configuration/retries.md).
-
    ![](../assets/suppression-list-filtering-example.png)
 
    * De [lijst van gewenste personen](../allow-list.md) kunt u afzonderlijke e-mailadressen of domeinen opgeven die de enige ontvangers of domeinen zijn die geautoriseerd zijn om de e-mails te ontvangen die u verzendt vanuit een specifieke sandbox. Dit kan voorkomen dat u per ongeluk e-mailberichten naar de adressen van de echte klant stuurt wanneer u zich in een testomgeving bevindt. Leer hoe u [de lijst van gewenste personen inschakelen](../allow-list.md).
    Meer informatie over het beheer van de aflevering vindt u in [!DNL Adobe Journey Optimizer] [op deze pagina](../deliverability.md).
-

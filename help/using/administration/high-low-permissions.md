@@ -15,7 +15,8 @@ feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: b32306f9561946a6c289e5e9c7cc3243349141bc
+exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
+source-git-commit: da885bd5e29ff3454fef1c6b362f0e646fe8c39a
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 0%
@@ -29,17 +30,17 @@ ht-degree: 0%
 Elk productprofiel bestaat uit machtigingen waarmee gebruikers toegang hebben tot de verschillende functies.
 Zij kunnen in twee types worden verdeeld:
 
-* **Toestemming** op hoog niveau: vertegenwoordigt de verschillende toestemmingen die aan  **[!UICONTROL Product profile]** in  [!DNL Admin console], zoals  **[!UICONTROL Publish journeys]** en kunnen worden toegewezen  **[!UICONTROL Manage subdomains delegation]**. Machtigingen op hoog niveau omvatten machtigingen op laag niveau.
+* **Toestemming op hoog niveau**: vertegenwoordigt de verschillende toestemmingen die kunnen worden toegewezen aan **[!UICONTROL Product profile]** in de [!DNL Admin console], zoals **[!UICONTROL Publish journeys]** en **[!UICONTROL Manage subdomains delegation]**. Machtigingen op hoog niveau omvatten machtigingen op laag niveau.
 
-* **Toestemming** op laag niveau: vertegenwoordigt de verschillende toestemmingen die uit de toestemming op hoog niveau komen.
+* **Toestemming op laag niveau**: vertegenwoordigt de verschillende toestemmingen die uit de toestemming op hoog niveau komen.
 
-Het productprofiel **[!UICONTROL Journey administrator]** wordt bijvoorbeeld toegewezen aan de machtiging **[!UICONTROL Manage journeys]**. Uit deze toestemming vloeit het laagniveautoestemmingen voort die de beheerder van de Reis zullen toestaan om reizen te schrijven, te lezen en te schrappen.
+De **[!UICONTROL Journey administrator]** productprofiel is toegewezen aan **[!UICONTROL Manage journeys]** toestemming. Uit deze toestemming vloeit het laagniveautoestemmingen voort die de beheerder van de Reis zullen toestaan om reizen te schrijven, te lezen en te schrappen.
 
 ## Reiscapaciteit {#journey-capability}
 
 ### Toestemming voor reizen beheren {#manage-journeys}
 
-Met de machtiging op hoog niveau **[!UICONTROL Manage journeys]** kunnen gebruikers nieuwe reizen maken en bestaande reizen bewerken/verwijderen, en toegang krijgen tot de objecten die op het canvas van de reis worden gebruikt om de reisflow op te bouwen.
+De **[!UICONTROL Manage journeys]** Met machtiging op hoog niveau kunnen gebruikers nieuwe reizen maken en bestaande reizen bewerken/verwijderen, en toegang krijgen tot de objecten die op het canvas van de reis worden gebruikt om de reisflow te bouwen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -59,7 +60,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Licentie voor reizen publiceren {#publish-journeys}
 
-Met de machtiging op hoog niveau **[!UICONTROL Publish journeys]** kunnen gebruikers reizen publiceren.
+De **[!UICONTROL Publish journeys]** met toestemming op hoog niveau kunnen gebruikers reizen publiceren.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -69,7 +70,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Toestemming voor reizen weergeven {#view-journeys}
 
-Met de machtiging op hoog niveau **[!UICONTROL View journeys]** kunnen gebruikers door reizen bladeren en deze weergeven.
+De **[!UICONTROL View journeys]** Met toestemming op hoog niveau kunnen gebruikers door reizen bladeren en deze bekijken.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -82,7 +83,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Reisgebeurtenissen, gegevensbronnen en handelingen beheren {#manage-journeys-events}
 
-Met de machtiging op hoog niveau **[!UICONTROL Manage journeys events, data sources and actions]** kunnen gebruikers gebeurtenis- en gegevensconfiguraties configureren.
+De **[!UICONTROL Manage journeys events, data sources and actions]** Op hoog niveau staat de toestemming gebruikers toe om gebeurtenis en gegevensconfiguraties te vormen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -103,7 +104,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Reisgebeurtenissen, gegevensbronnen en actietoestemming weergeven {#view-journeys-event}
 
-Met de machtiging op hoog niveau **[!UICONTROL View journeys events, data sources and actions]** kunnen gebruikers gebeurtenissen en gegevens gebruiken in de reisflow.
+De **[!UICONTROL View journeys events, data sources and actions]** op hoog niveau staat de toestemming gebruikers toe om gebeurtenis en gegevens in de reisstroom te gebruiken.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -119,7 +120,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Toestemming voor reisrapporten weergeven {#view-journeys-report}
 
-Met de machtiging op hoog niveau **[!UICONTROL View journeys report]** kunnen gebruikers alleen-lezenreisrapporten maken.
+De **[!UICONTROL View journeys report]** de toestemming op hoog niveau staat gebruikers toe om read-only reisrapport te lezen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -137,7 +138,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Machtiging voor berichten beheren {#manage-messages}
 
-Met de machtiging op hoog niveau **[!UICONTROL Manage messages]** kunnen gebruikers een bericht maken en bewerken/verwijderen.
+De **[!UICONTROL Manage messages]** Met machtiging op hoog niveau kunnen gebruikers berichten maken en bewerken/verwijderen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -153,7 +154,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Voorvertoning van berichten beheren en machtigingen testen {#mange-messages-preview}
 
-Met de machtiging op hoog niveau **[!UICONTROL Manage messages preview and test]** kunnen gebruikers een voorvertoning van gepersonaliseerde berichten weergeven.
+De **[!UICONTROL Manage messages preview and test]** Met machtiging op hoog niveau kunnen gebruikers persoonlijke berichten voorvertonen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -175,7 +176,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Machtiging voor berichten publiceren {#publish-messages}
 
-Met de machtiging op hoog niveau **[!UICONTROL Publish messages]** kunnen gebruikers berichten publiceren.
+De **[!UICONTROL Publish messages]** Met machtiging op hoog niveau kunnen gebruikers berichten publiceren.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -189,7 +190,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Toestemming voor berichten weergeven {#view-messages}
 
-Met de machtiging op hoog niveau **[!UICONTROL View messages]** kunnen gebruikers alleen berichten lezen.
+De **[!UICONTROL View messages]** Met toestemming op hoog niveau kunnen gebruikers alleen berichten lezen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -203,7 +204,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Toestemming berichtrapport weergeven {#view-message-reports}
 
-Met de machtiging op hoog niveau **[!UICONTROL View messages report]** kunnen gebruikers alleen-lezen e-mail- en pushrapporten verzenden.
+De **[!UICONTROL View messages report]** Met toestemming op hoog niveau kunnen gebruikers alleen lezen via e-mail en pushrapporten.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -219,7 +220,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Machtiging voor beslissingen beheren {#manage-decisioning}
 
-Met de **[!UICONTROL Manage decisions]**-machtiging op hoog niveau kunnen gebruikers nieuwe **[!UICONTROL Activity entities]** maken en bestaande  bewerken/verwijderen en de objecten beheren die in die activiteiten worden gebruikt om de beslissingen te nemen.
+De **[!UICONTROL Manage decisions]** met toestemming op hoog niveau kunnen gebruikers nieuwe bestanden maken en bestaande bestanden bewerken/verwijderen **[!UICONTROL Activity entities]** en de objecten beheren die in die activiteiten worden gebruikt om de beslissingen te nemen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -245,7 +246,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Toestemming voor beslissingen weergeven {#view-decisions}
 
-De **[!UICONTROL View decisions]** toestemming op hoog niveau staat gebruikers toe om een bestaande Activiteit en verwante bedrijfsvoorwerpen te gebruiken om de besluiten te nemen.
+De **[!UICONTROL View decisions]** Op hoog niveau staat de toestemming gebruikers toe om een bestaande Activiteit en verwante bedrijfsvoorwerpen te gebruiken om de besluiten te nemen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -264,7 +265,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Publiceren biedt beslissingsbevoegdheid {#publish-decisions}
 
-De **[!UICONTROL Publish offers decisioning]** toestemming op hoog niveau staat gebruikers toe om tot goed te keuren/unapproval de activiteiten van de Aanbieding goed te keuren.
+De **[!UICONTROL Publish offers decisioning]** Met toestemming op hoog niveau hebben gebruikers toegang tot goedgekeurde/niet-goedgekeurde activiteiten van aanbiedingen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -286,7 +287,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Machtiging voor waarderingsstrategieën beheren {#manage-decisions}
 
-Met de machtiging op hoog niveau **[!UICONTROL Manage ranking strategies]** kunnen gebruikers het rapport met aangepaste berichten lezen, maken, bewerken en verwijderen en actiefuncties gebruiken.
+De **[!UICONTROL Manage ranking strategies]** De toestemming op hoog niveau staat gebruikers toe om het rapport van douaneberichten te lezen, tot stand te brengen, uit te geven en te schrappen en actiefuncties te gebruiken.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -302,7 +303,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Machtiging voor subdomeinen delegeren beheren {#manage-subdomain}
 
-Met de machtiging op hoog niveau **[!UICONTROL Manage subdomains delegation]** kunnen gebruikers subdomeindelegaties (inclusief IP-pool) maken, bewerken en verwijderen.
+De **[!UICONTROL Manage subdomains delegation]** Op hoog niveau staat de toestemming gebruikers toe om subdomeindelegaties (met inbegrip van IP pool) tot stand te brengen, uit te geven en te schrappen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -312,7 +313,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Toestemming voor PTR-records weergeven {#view-ptr}
 
-De **[!UICONTROL View PTR records]** toestemming op hoog niveau staat gebruikers toe om PTR verslagen te bekijken die gebaseerd op subdomain zijn gevormd.
+De **[!UICONTROL View PTR records]** De toestemming op hoog niveau staat gebruikers toe om PTR verslagen te bekijken die gebaseerd op subdomain zijn gevormd.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -321,7 +322,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### IP-pools beheren, machtiging {#manage-ip-pools}
 
-Met de machtiging op hoog niveau **[!UICONTROL Manage IP pools]** kunnen gebruikers de affiniteitsdefinitie maken, bewerken en verwijderen.
+De **[!UICONTROL Manage IP pools]** Met machtiging op hoog niveau kunnen gebruikers de affiniteitsdefinitie maken, bewerken en verwijderen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -331,7 +332,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Algemene machtigingen voor berichten beheren {#manage-message-settings}
 
-Met de machtiging op hoog niveau **[!UICONTROL Manage messages general settings]** kunnen gebruikers algemene instellingen op sandboxniveau maken, bewerken en verwijderen.
+De **[!UICONTROL Manage messages general settings]** Met machtiging op hoog niveau kunnen gebruikers algemene instellingen op sandboxniveau maken, bewerken en verwijderen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -344,7 +345,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Algemene instellingen van berichten weergeven {#view-message-settings}
 
-Met de machtiging op hoog niveau **[!UICONTROL View messages general settings]** kunnen gebruikers berichten weergeven met algemene instellingen, zoals het uitvoeringsadres.
+De **[!UICONTROL View messages general settings]** Met machtiging op hoog niveau kunnen gebruikers algemene instellingen voor berichten weergeven, zoals het uitvoeringsadres.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -355,7 +356,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Machtigingen voor voorinstellingen voor berichten beheren {#manage-message-presets}
 
-Met de machtiging op hoog niveau **[!UICONTROL Manage messages presets]** kunnen gebruikers berichtvoorinstellingen op het niveau van de sandbox maken, bewerken en verwijderen.
+De **[!UICONTROL Manage messages presets]** Met machtiging op hoog niveau kunnen gebruikers berichtvoorinstellingen voor verschillende kanalen op sandboxniveau maken, bewerken en verwijderen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -369,7 +370,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Machtigingen voor voorinstellingen voor berichten weergeven {#view-message-presets}
 
-Met de machtiging op hoog niveau **[!UICONTROL View messages presets]** kunnen gebruikers voorinstellingen voor berichten weergeven om te weten welke voorinstellingen voor berichten moeten worden gebruikt bij het maken van een bericht.
+De **[!UICONTROL View messages presets]** Met machtiging op hoog niveau kunnen gebruikers voorinstellingen voor berichten weergeven om te weten welke voorinstellingen voor berichten moeten worden gebruikt bij het maken van een bericht.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -380,7 +381,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Machtiging voor onderdrukking beheren {#manage-suppression}
 
-De **[!UICONTROL Manage suppression]** toestemming op hoog niveau staat gebruikers toe om het aantal grenzen te bepalen alvorens een e-mailadres aan de suppressielijst wordt toegevoegd, evenals ingangen toe te voegen en te schrappen aan/van de suppressielijst.
+De **[!UICONTROL Manage suppression]** Met machtiging op hoog niveau kunnen gebruikers het aantal instanties definiëren voordat een e-mailadres aan de suppressielijst wordt toegevoegd en kunnen ze items toevoegen aan of verwijderen uit de lijst met onderdrukking.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -392,7 +393,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Toestemming voor suppressielijst weergeven {#view-suppresion-list}
 
-Met de machtiging op hoog niveau **[!UICONTROL View suppression list]** kunnen gebruikers de inhoud en instellingen van de suppressielijst bekijken.
+De **[!UICONTROL View suppression list]** Met machtiging op hoog niveau kunnen gebruikers de inhoud en instellingen van de suppressielijst bekijken.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -404,7 +405,7 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ### Toestemming voor lijst met exportonderdrukking {#export-suppression-list}
 
-Met de machtiging op hoog niveau **[!UICONTROL Export suppression list]** kunnen gebruikers de suppressielijst downloaden als een CSV-bestand.
+De **[!UICONTROL Export suppression list]** Met machtiging op hoog niveau kunnen gebruikers de lijst met onderdrukking downloaden als een CSV-bestand.
 
 Dit omvat de volgende laagniveaumachtigingen:
 

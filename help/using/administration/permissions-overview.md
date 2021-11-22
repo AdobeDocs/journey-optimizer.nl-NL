@@ -5,7 +5,8 @@ feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: c6592d16dc8bd9ea2bada4fc351c844985a1042f
+exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
+source-git-commit: 98fab634e64a1bdf084ebcddf6ffaf7e21c63c7e
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 15%
@@ -18,12 +19,12 @@ ht-degree: 15%
 
 Gebruikersbeheer in [!DNL Journey Optimizer] is gebaseerd op drie concepten:
 
-* **[!UICONTROL Product profile]**: Een reeks eenheidsrechten die gebruikers toegang tot bepaalde functies of objecten in de interface biedt. Raadpleeg de sectie [Buiten-de-box productprofielen](ootb-product-profiles.md)
+* **[!UICONTROL Product profile]**: Een reeks eenheidsrechten die gebruikers toegang tot bepaalde functies of objecten in de interface biedt. Zie de [Productprofielen buiten de verpakking](ootb-product-profiles.md) sectie
 
-* **[!UICONTROL Permissions]**: Unierechten waarmee u de machtigingen kunt definiëren die aan  **[!UICONTROL Product profile]** worden toegewezen. Elke toestemming wordt verzameld onder mogelijkheden, bijvoorbeeld Reis, Berichten of Aanbiedingen, die de verschillende functionaliteit of de voorwerpen in [!DNL Journey Optimizer] vertegenwoordigen. Raadpleeg de sectie [Machtigingsniveaus](high-low-permissions.md).
+* **[!UICONTROL Permissions]**: Unierechten waarmee u de machtigingen kunt definiëren die zijn toegewezen aan **[!UICONTROL Product profile]**. Elke toestemming wordt verzameld onder mogelijkheden, bijvoorbeeld Reis, Berichten of Aanbiedingen, die de verschillende functionaliteiten of voorwerpen in vertegenwoordigen [!DNL Journey Optimizer]. Zie de [Machtigingsniveaus](high-low-permissions.md) sectie.
 
-* **[!UICONTROL Sandbox]**: Virtuele sandboxen die instanties in afzonderlijke, geïsoleerde virtuele omgevingen verdelen. Zie [Sandboxen gebruiken](sandboxes.md)
+* **[!UICONTROL Sandbox]**: Virtuele sandboxen die instanties in afzonderlijke, geïsoleerde virtuele omgevingen verdelen. Zie de [Sandboxen gebruiken](sandboxes.md)
 
-Elk concept kan door **[!UICONTROL Product administrators]** worden beheerd die toegang tot de Admin console hebben. [Meer weten over Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html)?
+Elk concept kan worden beheerd door **[!UICONTROL Product administrators]** die toegang hebben tot de beheerconsole. [Meer informatie over Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html).
 
 ![](../assets/do-not-localize/permissions_2.png)

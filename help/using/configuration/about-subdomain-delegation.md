@@ -3,17 +3,17 @@ title: Subdomeinen delegeren
 description: Leer hoe u uw subdomeinen kunt delegeren
 internal: n
 snippet: y
-feature: Applicatie-instellingen
-topic: Beheer
+feature: Application Settings
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 27%
+source-wordcount: '385'
+ht-degree: 26%
 
 ---
-
 
 # Subdomeindelegatie in [!DNL Journey Optimizer]
 
@@ -34,6 +34,6 @@ Hoewel deze vereisten worden beheerd via componenten die door zowel Adobe als de
 
 **Meer informatie**
 
-* Leer hoe te om [uw subdomeinen](delegate-subdomain.md) direct van de interface te delegeren
-* Leer hoe u Google TXT-records](google-txt.md) aan uw subdomeinen kunt toevoegen om ervoor te zorgen dat u e-mailberichten naar Gmail-adressen kunt verzenden[
-* Leer hoe te om tot de PTR- verslagen ](ptr-records.md) toegang te hebben die voor uw subdomeinen worden geproduceerd, die hen toestaan om door het verzenden van postservers te worden geverifieerd[
+* Leer hoe u [delegeren van subdomeinen](delegate-subdomain.md) rechtstreeks vanuit de interface
+* Leer hoe u [Google TXT-records toevoegen](google-txt.md) naar uw subdomeinen om ervoor te zorgen dat e-mails naar Gmail-adressen succesvol worden verzonden
+* Leer hoe u [toegang tot de PTR-records](ptr-records.md) gegenereerd voor uw subdomeinen, zodat deze kunnen worden geverifieerd door e-mailservers te verzenden

@@ -1,14 +1,15 @@
 ---
 title: Alternatieve aanbiedingen maken
 description: Leer hoe je aanbiedingen kunt maken in Adobe Experience Platform.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 4%
+source-wordcount: '281'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +19,7 @@ De fallback-aanbieding wordt naar klanten gestuurd als zij niet in aanmerking ko
 
 ➡️ [Ontdek deze functie in video](#video)
 
-De lijst met fallback-aanbiedingen is toegankelijk in het menu **[!UICONTROL Offers]**.
+De lijst met terugvalaanbiedingen is toegankelijk in het **[!UICONTROL Offers]** -menu.
 
 ![](../../assets/offers_list.png)
 
@@ -28,7 +29,7 @@ Voer de volgende stappen uit om een fallback-aanbieding te maken:
 >
 >Merk op dat, in tegenstelling tot gepersonaliseerde aanbiedingen, de terugvalaanbiedingen geen toelatingsregels en beperkingsparameters hebben, omdat zij aan klanten als laatste redmiddel zonder voorwaarde worden voorgesteld.
 
-1. Klik **[!UICONTROL Create offer]**, dan selecteer **[!UICONTROL Fallback offer]**.
+1. Klikken **[!UICONTROL Create offer]** selecteert u vervolgens **[!UICONTROL Fallback offer]**.
 
    ![](../../assets/create_fallback.png)
 
@@ -40,13 +41,13 @@ Voer de volgende stappen uit om een fallback-aanbieding te maken:
 
    ![](../../assets/fallback_content.png)
 
-1. Zodra de vertegenwoordiging van de reserveaanbieding is toegevoegd, een summiere vertoningen. Als alles correct is geconfigureerd en uw fallback-aanbieding klaar is om aan klanten te worden gepresenteerd, klikt u op **[!UICONTROL Finish]** en selecteert u **[!UICONTROL Save and approve]**.
+1. Zodra de vertegenwoordiging van de reserveaanbieding is toegevoegd, een summiere vertoningen. Als alles correct wordt gevormd en uw reserveaanbod klaar is om aan klanten te worden voorgesteld, klik **[!UICONTROL Finish]** selecteert u vervolgens **[!UICONTROL Save and approve]**.
 
    U kunt de fallback-aanbieding ook opslaan als concept, zodat u deze later kunt bewerken en goedkeuren.
 
    ![](../../assets/fallback_review.png)
 
-1. De fallback-aanbieding wordt in de lijst weergegeven met de status **[!UICONTROL Live]** of **[!UICONTROL Draft]**, afhankelijk van het feit of u deze al dan niet hebt goedgekeurd in de vorige stap.
+1. De fallback-aanbieding wordt in de lijst weergegeven met de **[!UICONTROL Live]** of **[!UICONTROL Draft]** status, afhankelijk van het feit of u het al dan niet in de vorige stap hebt goedgekeurd.
 
    Het is nu klaar om aan klanten te worden geleverd. U kunt het selecteren om zijn eigenschappen te tonen en het uit te geven. <!-- no suppression? -->
 

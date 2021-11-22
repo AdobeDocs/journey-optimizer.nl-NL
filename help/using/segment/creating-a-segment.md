@@ -2,13 +2,14 @@
 title: Een segment maken
 description: Leer hoe u segmenten maakt
 feature: Journeys
-topic: Contentmanagement
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b07970ff11f1ba7c4e6db30dc2eca1252a579ca4
+exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 6%
+source-wordcount: '301'
+ht-degree: 5%
 
 ---
 
@@ -16,15 +17,15 @@ ht-degree: 6%
 
 In dit voorbeeld, zullen wij een segment bouwen om alle klanten te richten die in Atlanta, San Francisco, of Seattle en na 1980 worden geboren. Al deze klanten hadden de toepassing Luma in de laatste 7 dagen moeten openen en vervolgens binnen 2 uur na het openen van de toepassing een aankoop moeten doen.
 
-1. Open het menu **[!UICONTROL Segments]** en klik op de knop **[!UICONTROL Create segment]**.
+1. Toegang krijgen tot **[!UICONTROL Segments]** en klikt u op de knop **[!UICONTROL Create segment]** knop.
 
    ![](../assets/create-segment.png)
 
-   Het scherm van de segmentdefinitie staat u toe om alle vereiste gebieden te vormen om uw segment te bepalen. Leer hoe te om segmenten in [de documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target= &quot;_blank&quot;} te vormen.
+   Het scherm van de segmentdefinitie staat u toe om alle vereiste gebieden te vormen om uw segment te bepalen. Leer hoe te om segmenten in te vormen [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target=&quot;_blank&quot;}.
 
    ![](../assets/segment-builder.png)
 
-1. Geef in het deelvenster **[!UICONTROL Segment properties]** een naam en beschrijving (optioneel) voor het segment op.
+1. In de **[!UICONTROL Segment properties]** Geef een naam en een beschrijving (optioneel) voor het segment op.
 
    ![](../assets/segment-properties.png)
 
@@ -32,13 +33,13 @@ In dit voorbeeld, zullen wij een segment bouwen om alle klanten te richten die i
 
    >[!NOTE]
    >
-   >Merk op dat de gebieden beschikbaar in de linkerruit afhankelijk van variëren hoe **XDM Individual Profile** en **XDM ExperienceEvent** schema&#39;s voor uw organisatie zijn gevormd.  Leer meer in [de documentatie van het Model van Gegevens van de Ervaring (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target=&quot;_blank&quot;}.
+   >De velden in het linkervenster zijn afhankelijk van de manier waarop de **Afzonderlijk XDM-profiel** en **XDM ExperienceEvent** De schema&#39;s zijn gevormd voor uw organisatie.  Meer informatie in het dialoogvenster [XDM-documentatie (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target=&quot;_blank&quot;}.
 
    ![](../assets/drag-fields.png)
 
-   In dit voorbeeld, moeten wij op **Attributes** en **Gebeurtenissen** gebieden vertrouwen om het segment te bouwen:
+   In dit voorbeeld moeten we erop vertrouwen **Attributen** en **Gebeurtenissen** velden voor het samenstellen van het segment:
 
-   * **Kenmerken**: profielen die leven in Atlanta, San Francisco of Seattle, geboren na 1980
+   * **Attributen**: profielen die leven in Atlanta, San Francisco of Seattle, geboren na 1980
 
       ![](../assets/add-attributes.png)
 
@@ -46,11 +47,11 @@ In dit voorbeeld, zullen wij een segment bouwen om alle klanten te richten die i
 
       ![](../assets/add-events.png)
 
-1. Terwijl u nieuwe velden toevoegt en configureert in de werkruimte, wordt het deelvenster **[!UICONTROL Segment Properties]** automatisch bijgewerkt met informatie over de geschatte profielen die tot het segment behoren.
+1. Terwijl u nieuwe velden toevoegt en configureert in de werkruimte, worden de **[!UICONTROL Segment Properties]** wordt automatisch bijgewerkt met informatie over de geschatte profielen die tot het segment behoren.
 
    ![](../assets/segment-estimate.png)
 
-1. Wanneer het segment gereed is, klikt u op **[!UICONTROL Save]**. Deze wordt weergegeven in de lijst met Adobe Experience Platform-segmenten. Er is een zoekbalk beschikbaar waarmee u een bepaald segment in de lijst kunt zoeken.
+1. Als het segment gereed is, klikt u op **[!UICONTROL Save]**. Deze wordt weergegeven in de lijst met Adobe Experience Platform-segmenten. Er is een zoekbalk beschikbaar waarmee u een bepaald segment in de lijst kunt zoeken.
 
 Het segment kan nu worden gebruikt voor uw reizen. Raadpleeg [deze sectie](../segment/about-segments.md) voor meer informatie.
 

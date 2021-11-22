@@ -2,12 +2,13 @@
 title: Reisbeperkingen
 description: Meer informatie over reisbeperkingen
 feature: Journeys
-topic: Contentmanagement
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 329e51e222c6424c4809e141c78ce81ce1ac23e6
+exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Hier zijn beperkingen met betrekking tot het gebruik van reizen.
 
 * Er is geen verzendvertraging. 
 * In het geval van een fout worden drie pogingen systematisch opnieuw uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht. 
-* Met de ingebouwde **Reaction**-gebeurtenis kunt u reageren op acties die buiten de box vallen (zie deze [pagina](../building-journeys/reaction-events.md)). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen. 
+* De ingebouwde **Reactie** -gebeurtenis kunt u reageren op acties die buiten de box vallen (zie deze [page](../building-journeys/reaction-events.md)). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen. 
 * U kunt geen twee acties parallel plaatsen, u moet hen één na andere toevoegen.
 
 ## Beperkingen voor berichtenactie
@@ -29,11 +30,11 @@ Hier zijn beperkingen met betrekking tot het gebruik van reizen.
 
 ## Beperkingen van reisversies {#journey-versions-limitations}
 
-* Een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis met een **gebeurtenis van de Kwalificatie van het Segment** beginnen.
-* Een reis die met een **Kwalificatie van het Segment** activiteit in v1 begint moet altijd met een **Kwalificatie van het Segment** in verdere versies beginnen.
-* Het segment en de naamruimte die worden gekozen in **Segmentkwalificatie** (eerste knooppunt) kunnen niet worden gewijzigd in nieuwe versies.
+* Een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis beginnen met een **Segmentkwalificatie** gebeurtenis.
+* Een reis die begint met een **Segmentkwalificatie** activiteit in v1 moet altijd beginnen met een **Segmentkwalificatie** in verdere versies.
+* Het segment en de naamruimte die zijn gekozen in **Segmentkwalificatie** (eerste knooppunt) kan niet worden gewijzigd in nieuwe versies.
 * De re-entry regel moet het zelfde in alle reisversies zijn.
-* Een reis die met een **Leessegment** begint kan niet met een andere gebeurtenis in volgende versies beginnen.
+* Een reis die begint met een **Segment lezen** kan niet met een andere gebeurtenis in volgende versies beginnen.
  
 
 ## Beperkingen voor aangepaste handelingen

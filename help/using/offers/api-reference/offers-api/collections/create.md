@@ -1,14 +1,15 @@
 ---
 title: Een verzameling maken
 description: Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 6%
+source-wordcount: '155'
+ht-degree: 5%
 
 ---
 
@@ -16,11 +17,11 @@ ht-degree: 6%
 
 Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
 
-U kunt een inzameling tot stand brengen door een verzoek van de POST aan [!DNL Offer Library] API te richten, terwijl het verstrekken van uw containeridentiteitskaart
+U kunt een inzameling tot stand brengen door een verzoek van de POST aan [!DNL Offer Library] API, terwijl u uw container-id opgeeft.
 
 ## Kopteksten van het type Inhoud accepteren
 
-In de volgende tabel worden de geldige waarden weergegeven die bestaan uit de velden *Content-Type* en *Accept* in de aanvraagkoptekst:
+In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
@@ -60,7 +61,7 @@ curl -X POST \
 
 **Antwoord**
 
-Een geslaagde reactie retourneert informatie over de zojuist gemaakte verzameling, inclusief de unieke instantie-id en plaatsing `@id`. U kunt de instantie-id in latere stappen gebruiken om de verzameling bij te werken of te verwijderen. U kunt uw unieke inzameling `@id` in een recentere leerprogramma gebruiken om een besluit tot stand te brengen.
+Een geslaagde reactie retourneert informatie over de nieuwe verzameling, inclusief de unieke instantie-id en plaatsing `@id`. U kunt de instantie-id in latere stappen gebruiken om de verzameling bij te werken of te verwijderen. U kunt uw unieke verzameling gebruiken `@id` in een latere zelfstudie om een beslissing te maken.
 
 ```json
 {

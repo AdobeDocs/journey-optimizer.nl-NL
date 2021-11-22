@@ -1,13 +1,14 @@
 ---
 title: Beslissingsregels maken
 description: Leer hoe je beslissingsregels maakt in Adobe Experience Platform.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: dc3a5aacbd4b9bb20c384e0b057241f3080f09fa
+exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '282'
 ht-degree: 4%
 
 ---
@@ -20,19 +21,19 @@ U kunt bijvoorbeeld opgeven dat u alleen een &#39;Women&#39;s Winter Clothing Of
 
 ➡️ [Ontdek deze functie in video](#video)
 
-De lijst van gecreeerde besluitvormingsregels is toegankelijk in **[!UICONTROL Components]** menu.
+De lijst met nieuwe besluitvormingsregels is toegankelijk in de **[!UICONTROL Components]** -menu.
 
 ![](../../assets/decision_rules_list.png)
 
 Voer de volgende stappen uit om een beslissingsregel te maken:
 
-1. Ga naar het **[!UICONTROL Rules]** lusje, dan klik **[!UICONTROL Create rule]**.
+1. Ga naar de **[!UICONTROL Rules]** tab, en klik vervolgens op **[!UICONTROL Create rule]**.
 
    ![](../../assets/offers_decision_rule_creation.png)
 
 1. Noem uw regel en verstrek een beschrijving, dan vorm de regel volgens uw behoeften.
 
-   Om dit te doen, is **de Bouwer van het Segment** beschikbaar om u te helpen de voorwaarden van de regel bouwen. [Meer informatie](../../segment/about-segments.md)
+   Om dit te doen, **Segment Builder** is beschikbaar om u te helpen de voorwaarden van de regel bouwen. [Meer informatie](../../segment/about-segments.md)
 
    In dit voorbeeld, zal de regel klanten richten die het &quot;Gouden&quot;loyaliteitsniveau hebben.
 
@@ -40,9 +41,9 @@ Voer de volgende stappen uit om een beslissingsregel te maken:
 
    >[!NOTE]
    >
-   >De opsteller van het Segment die wordt verstrekt om besluitvormingsregels tot stand te brengen heeft sommige specifieke eigenschappen in vergelijking met die gebruikt met de **[!UICONTROL Audience Destinations]** dienst. Het tabblad **[!UICONTROL Segments]** is bijvoorbeeld niet beschikbaar voor gebruik. Nochtans, is het globale proces dat in de documentatie van de Bouwer van het Segment wordt beschreven nog geldig om aanbiedingen besluitvormingsregels te bouwen.
+   >De segmentbouwer die wordt verstrekt om besluitvormingsregels tot stand te brengen heeft sommige specifieke eigenschappen in vergelijking met die gebruikt met **[!UICONTROL Audience Destinations]** service. De **[!UICONTROL Segments]** is niet beschikbaar voor gebruik. Nochtans, is het globale proces dat in de documentatie van de Bouwer van het Segment wordt beschreven nog geldig om aanbiedingen besluitvormingsregels te bouwen.
 
-1. Klik **[!UICONTROL Save]** om te bevestigen.
+1. Klikken **[!UICONTROL Save]** ter bevestiging.
 
 1. Zodra de regel wordt gecreeerd, toont het in de lijst van regels. U kunt het selecteren om zijn eigenschappen te tonen en het uit te geven of te schrappen.
 
@@ -50,7 +51,7 @@ Voer de volgende stappen uit om een beslissingsregel te maken:
 
 >[!CAUTION]
 >
->Aanbiedingen op basis van gebeurtenissen worden momenteel niet ondersteund in [!DNL Journey Optimizer]. Als u een beslissingsregel creeert die op [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events) {target= &quot;_blank&quot;} wordt gebaseerd, zult u niet het in een aanbieding kunnen hefboomwerking maken.
+>Aanbiedingen op basis van gebeurtenissen worden momenteel niet ondersteund in [!DNL Journey Optimizer]. Als u een beslissingsregel maakt op basis van een [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, kunt u deze niet gebruiken in een aanbieding.
 
 ## Video over zelfstudie {#video}
 

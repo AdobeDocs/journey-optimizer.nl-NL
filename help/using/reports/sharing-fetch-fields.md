@@ -1,18 +1,19 @@
 ---
-title: journeyStep-gebeurtenissen - velden voor het ophalen van data
-description: journeyStep-gebeurtenissen - velden voor het ophalen van data
-feature: Rapportage
-topic: Contentmanagement
+title: Velden voor het ophalen van gegevens van journeyStep-gebeurtenissen
+description: Velden voor het ophalen van gegevens van journeyStep-gebeurtenissen
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '371'
 ht-degree: 4%
 
 ---
 
-# journeyStep-gebeurtenissen - velden voor het ophalen van data {#sharing-fetch-fields}
+# Velden voor het ophalen van gegevens van journeyStep-gebeurtenissen {#sharing-fetch-fields}
 
 Deze veldgroep wordt gedeeld door de tripStepEvent en de tripStepProfileEvent.
 
@@ -44,7 +45,7 @@ Waarden:
 * http
 * begrenzen
 * timedout
-* fout
+* error
 
 ## fetchErrorCode
 

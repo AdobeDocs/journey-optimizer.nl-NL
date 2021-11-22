@@ -1,14 +1,15 @@
 ---
 title: Persoonlijke aanbiedingen weergeven
 description: Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 2e30b155-688b-432b-a703-d09de12ebdfd
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 3%
+source-wordcount: '174'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 3%
 
 Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
 
-U kunt specifieke gepersonaliseerde aanbiedingen opzoeken door een verzoek van de GET tot [!DNL Offer Library] API te richten die of de gepersonaliseerde aanbieding `@id` of de naam van de gepersonaliseerde aanbieding in de verzoekweg omvat.
+U kunt specifieke gepersonaliseerde aanbiedingen opzoeken door een verzoek van de GET aan [!DNL Offer Library] API die of de gepersonaliseerde aanbieding omvat `@id` of de naam van de gepersonaliseerde aanbieding in het verzoekpad.
 
 **API-indeling**
 
@@ -29,8 +30,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALI
 | `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | De container waarin de gepersonaliseerde aanbiedingen zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_PERSONALIZED_OFFER}` | Bepaalt het schema verbonden aan gepersonaliseerde aanbiedingen. | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
-| `id` | Een tekenreeks die wordt gebruikt om overeen te komen met de eigenschap `@id` van de entiteiten. De tekenreeks komt exact overeen. De parameters &quot;id&quot; en &quot;name&quot; kunnen niet samen worden gebruikt. | `xcore:personalized-offer:124cc332095cfa74` |
-| `name` | Een tekenreeks die overeenkomt met de eigenschap xdm:name van de entiteiten. De tekenreeks komt exact overeen met hoofdletters, maar er kunnen jokertekens worden gebruikt. De parameters `id` en `name` kunnen niet samen worden gebruikt | `Discount offer` |
+| `id` | Een tekenreeks die overeenkomt met de `@id` eigendom van de entiteiten. De tekenreeks komt exact overeen. De parameters &quot;id&quot; en &quot;name&quot; kunnen niet samen worden gebruikt. | `xcore:personalized-offer:124cc332095cfa74` |
+| `name` | Een tekenreeks die overeenkomt met de eigenschap xdm:name van de entiteiten. De tekenreeks komt exact overeen met hoofdletters, maar er kunnen jokertekens worden gebruikt. De parameters `id` en `name` kan niet samen worden gebruikt | `Discount offer` |
 
 **Verzoek**
 
@@ -46,7 +47,7 @@ curl -X GET \
 
 **Antwoord**
 
-Een succesvol antwoord keert de details van de plaatsing met inbegrip van informatie over uw container identiteitskaart, instantie ID en, unieke gepersonaliseerde aanbieding `@id` terug.
+Een succesvol antwoord retourneert de details van de plaatsing, inclusief informatie over uw container-id, instantie-id en unieke persoonlijke aanbieding `@id`.
 
 ```json
 {

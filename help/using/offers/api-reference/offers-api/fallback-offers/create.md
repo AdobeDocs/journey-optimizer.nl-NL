@@ -1,24 +1,25 @@
 ---
 title: Een alternatieve aanbieding maken
 description: Aan klanten wordt een fallback-aanbieding gestuurd als zij niet in aanmerking komen voor andere aanbiedingen
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 8%
+source-wordcount: '139'
+ht-degree: 7%
 
 ---
 
 # Een alternatieve aanbieding maken
 
-U kunt een reserveaanbieding tot stand brengen door een verzoek van de POST aan [!DNL Offer Library] API te richten, terwijl het verstrekken van uw containeridentiteitskaart
+U kunt een fallback-aanbieding maken door een POST aan te vragen bij de [!DNL Offer Library] API, terwijl u uw container-id opgeeft.
 
 ## Kopteksten van het type Inhoud accepteren
 
-In de volgende tabel worden de geldige waarden weergegeven die bestaan uit de velden *Content-Type* en *Accept* in de aanvraagkoptekst:
+In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
@@ -70,7 +71,7 @@ curl -X POST \
 
 **Antwoord**
 
-Een succesvolle reactie retourneert informatie over de nieuwe fallback-aanbieding, inclusief de unieke instantie-id en plaatsing `@id`. U kunt de instantie-id in latere stappen gebruiken om uw fallback-aanbieding bij te werken of te verwijderen. U kunt uw unieke reserveaanbieding `@id` in een recentere zelfstudie gebruiken om een besluit tot stand te brengen.
+Een succesvolle reactie retourneert informatie over de nieuwe fallback-aanbieding, inclusief de unieke instantie-id en -plaatsing `@id`. U kunt de instantie-id in latere stappen gebruiken om uw fallback-aanbieding bij te werken of te verwijderen. Je kunt je unieke fallback-aanbieding gebruiken `@id` in een latere zelfstudie om een beslissing te maken.
 
 
 ```json

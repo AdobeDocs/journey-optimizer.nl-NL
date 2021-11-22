@@ -1,13 +1,14 @@
 ---
 title: Tags weergeven
 description: Met labels kunt u uw voorstellen beter organiseren en doorlopen.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '306'
 ht-degree: 2%
 
 ---
@@ -16,9 +17,9 @@ ht-degree: 2%
 
 Met labels kunt u uw voorstellen beter organiseren en doorlopen. U kunt bijvoorbeeld de tag &#39;Zwarte vrijdag&#39; gebruiken voor uw aanbiedingen op de zwarte vrijdag. Vervolgens kunt u met de zoekfunctionaliteit in de bibliotheek met aanbiedingen alle aanbiedingen met die tag gemakkelijk vinden.
 
-De markeringen kunnen ook worden gebruikt om aanbiedingen samen in inzamelingen te groeperen. Zie de zelfstudie over het maken van verzamelingen](../../../offer-library/creating-collections.md) voor meer informatie.[
+De markeringen kunnen ook worden gebruikt om aanbiedingen samen in inzamelingen te groeperen. Raadpleeg de zelfstudie voor meer informatie [verzamelingen maken](../../../offer-library/creating-collections.md).
 
-U kunt een lijst van alle markeringen binnen een container bekijken door één enkel verzoek van GET aan [!DNL Offer Library] API uit te voeren.
+U kunt een lijst met alle tags in een container weergeven door één GET-aanvraag uit te voeren bij de [!DNL Offer Library] API.
 
 **API-indeling**
 
@@ -55,10 +56,10 @@ De gemeenschappelijkste vraagparameters voor het pagineren omvatten:
 
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
-| `q` | Een optionele queryreeks die u wilt zoeken in geselecteerde velden. De querytekenreeks moet in kleine letters worden geschreven en kan worden omgeven door dubbele aanhalingstekens om te voorkomen dat deze wordt verdeeld en om speciale tekens te vermijden. De tekens `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` hebben een speciale betekenis en moeten met een backslash worden beschermd wanneer deze in de queryreeks worden weergegeven. | Website JSON |
+| `q` | Een optionele queryreeks die u wilt zoeken in geselecteerde velden. De querytekenreeks moet in kleine letters worden geschreven en kan worden omgeven door dubbele aanhalingstekens om te voorkomen dat deze wordt verdeeld en om speciale tekens te vermijden. De tekens `+ - = && || > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` hebben een speciale betekenis en moeten met een backslash worden beschermd wanneer deze in de queryreeks wordt weergegeven. | Website JSON |
 | `qop` | Past EN of OF exploitant op waarden in q vraagkoordparam toe. | `AND` / `OR` |
-| `field` | Optionele lijst met velden om de zoekopdracht te beperken tot. Deze param kan als volgt worden herhaald: field=field1[,field=field2,...] en (padexpressies hebben de vorm van punten gescheiden paden, zoals _instance.xdm:name) | `_instance.xdm:name` |
-| `orderBy` | Resultaten sorteren op een bepaalde eigenschap. Als u een `-` vóór de titel (`orderby=-title`) toevoegt, worden de items op titel gesorteerd in aflopende volgorde (Z-A). | `-repo:createdDate` |
+| `field` | Optionele lijst met velden om de zoekopdracht te beperken tot. Deze param kan als volgt worden herhaald: field=field1[,field=field2,...] en (padexpressies hebben de vorm van door punten gescheiden paden, zoals _instance.xdm:name) | `_instance.xdm:name` |
+| `orderBy` | Resultaten sorteren op een bepaalde eigenschap. Een `-` vóór titel (`orderby=-title`) worden objecten op titel gesorteerd in aflopende volgorde (Z-A). | `-repo:createdDate` |
 | `limit` | Beperk het aantal geretourneerde tags. | `limit=5` |
 
 **Antwoord**

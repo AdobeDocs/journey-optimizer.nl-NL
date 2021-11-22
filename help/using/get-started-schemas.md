@@ -4,10 +4,11 @@ description: Meer informatie over het gebruik van Adobe Experience Platform-sche
 feature: Schemas
 role: User
 level: Beginner
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 2%
+source-wordcount: '318'
+ht-degree: 7%
 
 ---
 
@@ -19,28 +20,27 @@ De schema&#39;s zijn de standaardmanier om gegevens in Experience Platform te be
 
 Een schema is een set regels die de structuur en indeling van gegevens vertegenwoordigen en valideren. Op een hoog niveau, verstrekken de schema&#39;s een abstracte definitie van een real-world voorwerp (zoals een persoon) en schetsen welke gegevens in elke instantie van dat voorwerp (zoals voornaam, achternaam, verjaardag, etc.) zouden moeten worden omvat.
 
-Leer hoe te om schema&#39;s in [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html){target=&quot;_blank&quot; te bouwen
+Leer hoe u schema&#39;s maakt in [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html){target=&quot;_blank&quot;}
 
-Met de **Schemas**-werkruimte in de [!DNL Adobe Journey Optimizer]-gebruikersinterface kunt u bronnen van het Experience Data Model (XDM) beheren, zoals schema&#39;s, klassen, schemaveldgroepen en gegevenstypen. U kunt kernmiddelen bekijken en onderzoeken die door Adobe worden verstrekt, en douanemiddelen en schema&#39;s voor uw organisatie tot stand brengen.
+De **Schemas** werkruimte in de [!DNL Adobe Journey Optimizer] In de gebruikersinterface kunt u bronnen van het Experience Data Model (XDM) beheren, zoals schema&#39;s, klassen, groepen van schemavelden en gegevenstypen. U kunt kernmiddelen bekijken en onderzoeken die door Adobe worden verstrekt, en douanemiddelen en schema&#39;s voor uw organisatie tot stand brengen.
 
 ![](assets/schemas-home.png)
 
-Leer hoe te om de gebruikersinterface van Schema&#39;s in [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot; te gebruiken
+Leer hoe u de gebruikersinterface Schemas kunt gebruiken in [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target=&quot;_blank&quot;}
 
-De stapsgewijze documentatie om een schema tot stand te brengen gebruikend de Redacteur van het Schema is beschikbaar in [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html){target=&quot;_blank&quot;}
+De documentatie van de stap voor stap om een schema tot stand te brengen gebruikend de Redacteur van het Schema is beschikbaar in [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html){target=&quot;_blank&quot;}
 
 
 ## Hoe kan ik-video{#video-schema}
 
-Leer hoe u een schema maakt, veldgroepen toevoegt, aangepaste veldgroepen maakt en configureert.
+Leer hoe u een schema maakt, veldgroepen toevoegt en aangepaste veldgroepen maakt en configureert.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 **Zie ook**
 
 * [Creeer een schema, een dataset en ga gegevens in om de profielen van de Test in Journey Optimizer toe te voegen](building-journeys/creating-test-profiles.md)
-* [XDM System overview](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target=&quot;_blank&quot;}
+* [XDM System, overzicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target=&quot;_blank&quot;}
 * [Aanbevolen procedures voor gegevensmodellering](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html){target=&quot;_blank&quot;}
-* [Een schema maken met de API](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html) voor schemaregistratie {target=&quot;_blank&quot;}
-* [Bepaal een verband tussen twee schema&#39;s gebruikend de Redacteur](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html) van het Schema {target= &quot;_blank&quot;}
-
+* [Een schema maken met de API voor schemaregistratie](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html){target=&quot;_blank&quot;}
+* [Bepaal een verhouding tussen twee schema&#39;s gebruikend de Redacteur van het Schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html){target=&quot;_blank&quot;}

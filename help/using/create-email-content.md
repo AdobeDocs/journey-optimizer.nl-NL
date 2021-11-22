@@ -1,34 +1,35 @@
 ---
 title: E-mails ontwerpen in Journey Optimizer
 description: Leer hoe u e-mailinhoud ontwerpt
-feature: Overzicht
-topic: Contentmanagement
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 704d8c5b5a9f0ff8d90467db6ead8f77d68633b2
+exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1475'
 ht-degree: 1%
 
 ---
 
 # Ontwerp uw e-mailinhoud in de gebruikersinterface {#create-email-content}
 
-Als u uw bericht [hebt gemaakt](create-message.md), kunt u beginnen met het maken van uw e-mailinhoud.
+Zodra u [uw bericht hebt gemaakt](create-message.md)kunt u uw e-mailinhoud maken.
 
-1. Selecteer **[!UICONTROL Email designer]** in de sectie **[!UICONTROL Body]** van het zojuist gemaakte bericht.
+1. Selecteer **[!UICONTROL Email designer]** in de **[!UICONTROL Body]** sectie.
 
    ![](assets/import-html_1.png)
 
 1. Kies op de introductiepagina van E-mail Designer hoe u uw e-mail wilt ontwerpen uit de volgende opties:
 
-   * Selecteer **[!UICONTROL Design from scratch]** om de mogelijkheden van de e-mailontwerper te gebruiken om uw e-mailinhoud tot stand te brengen. [Meer informatie](#design-scratch)
+   * Selecteren **[!UICONTROL Design from scratch]** om de mogelijkheden van de e-mailontwerper te gebruiken om uw e-mailinhoud te maken. [Meer informatie](#design-scratch)
 
-   * Selecteer **[!UICONTROL Start from template]** om uw e-mail van een ingebouwde lijst van malplaatjes tot stand te brengen. U kunt geen andere sjablonen maken.
+   * Selecteren **[!UICONTROL Start from template]** om uw e-mail te maken op basis van een ingebouwde lijst met sjablonen. U kunt geen andere sjablonen maken.
 
-   * Selecteer **[!UICONTROL Code your own]** om onbewerkte HTML-code in te voeren of te plakken. [Meer informatie](existing-content.md#import-raw-html-code).
+   * Selecteren **[!UICONTROL Code your own]** om HTML raw-code in te voeren of te plakken. [Meer informatie](existing-content.md#import-raw-html-code).
 
-   * Selecteer **[!UICONTROL Import HTML]** om een HTML- dossier of .zip omslag in te voeren. [Meer informatie](existing-content.md#import-html-content-from-file).
+   * Selecteren **[!UICONTROL Import HTML]** om een HTML- of ZIP-map te importeren. [Meer informatie](existing-content.md#import-html-content-from-file).
 
    ![](assets/email_designer_25.png)
 
@@ -48,7 +49,7 @@ Met de e-mailontwerper kunt u de structuur van uw e-mail eenvoudig definiëren. 
 
 Voer de onderstaande stappen uit om uw e-mailinhoud samen te stellen met de e-mailontwerper:
 
-1. Nadat u de optie **[!UICONTROL Design from scratch]** hebt geselecteerd, kunt u uw e-mailinhoud ontwerpen door **[!UICONTROL Structure components]** te slepen en neer te zetten om de lay-out van uw e-mail te definiëren.
+1. Na het selecteren van **[!UICONTROL Design from scratch]** kunt u uw e-mailinhoud ontwerpen door deze te slepen en neer te zetten **[!UICONTROL Structure components]** om de indeling van uw e-mail te definiëren.
 
    >[!NOTE]
    >
@@ -58,41 +59,41 @@ Voer de onderstaande stappen uit om uw e-mailinhoud samen te stellen met de e-ma
 
    ![](assets/email_designer_2.png)
 
-1. Voeg zo veel **[!UICONTROL Structure components]** toe zoals nodig.
+1. Zoveel toevoegen **[!UICONTROL Structure components]** indien nodig.
 
-   Selecteer de **[!UICONTROL n:n column]** component om het aantal kolommen van uw keus (tussen 3 en 10) te bepalen. U kunt de breedte van elke kolom ook bepalen door de pijlen bij de bodem van elke kolom te bewegen.
+   Selecteer **[!UICONTROL n:n column]** om het aantal kolommen van uw keus (tussen 3 en 10) te bepalen. U kunt de breedte van elke kolom ook bepalen door de pijlen bij de bodem van elke kolom te bewegen.
 
    >[!NOTE]
    >
    >Elke kolomgrootte mag niet kleiner zijn dan 10% van de totale breedte van de structuurcomponent. U kunt geen kolom verwijderen die niet leeg is.
 
-1. In de vervolgkeuzelijst **[!UICONTROL Content components]** kunt u zoveel **[!UICONTROL Content components]** toevoegen als u nodig hebt in de structuurcomponent. [Meer informatie over de componenten](content-components.md) Inhoud.
+1. Van de **[!UICONTROL Content components]** vervolgkeuzelijst, kunt u zoveel toevoegen **[!UICONTROL Content components]** zoals u nodig hebt in de structuurcomponent. [Meer informatie over inhoudscomponenten](content-components.md).
 
    ![](assets/email_designer_3.png)
 
-1. Elke component kan verder worden aangepast met de sectie **[!UICONTROL Component settings]**. U kunt bijvoorbeeld de tekststijl, de opvulling of marge van de component wijzigen. [Meer informatie over uitlijning en opvulling](#adjusting-vertical-alignment-and-padding).
+1. Elke component kan verder worden aangepast met de **[!UICONTROL Component settings]** sectie. U kunt bijvoorbeeld de tekststijl, de opvulling of marge van de component wijzigen. [Meer informatie over uitlijning en opvulling](#adjusting-vertical-alignment-and-padding).
 
    ![](assets/email_designer_4.png)
 
-1. Vanuit **[!UICONTROL Assets picker]** kunt u elementen die zijn opgeslagen in **[!UICONTROL Assets library]** rechtstreeks aan uw e-mail toevoegen. [Meer informatie over middelenbeheer](assets-essentials.md).
+1. Van de **[!UICONTROL Assets picker]** kunt u rechtstreeks elementen toevoegen die zijn opgeslagen in het dialoogvenster **[!UICONTROL Assets library]** naar uw e-mail. [Meer informatie over middelenbeheer](assets-essentials.md).
 
    Dubbelklik op de map met uw elementen en sleep het element dat u aan uw e-mail wilt toevoegen.
 
    ![](assets/email_designer_5.png)
 
-1. Voeg verpersoonlijkingsgebieden toe om de inhoud van uw profielgegevens aan te passen. [Meer weten over content personalization](personalization/personalize.md)?
+1. Voeg verpersoonlijkingsgebieden toe om de inhoud van uw profielgegevens aan te passen. [Meer informatie over content personalization](personalization/personalize.md).
 
    ![](assets/email_designer_6.png)
 
-1. Controleer op het tabblad **[!UICONTROL Links]** in het linkerdeelvenster de lijst met alle URL&#39;s van de inhoud die wordt bijgehouden. U kunt de **[!UICONTROL Tracking Type]**, **[!UICONTROL Label]** en **[!UICONTROL Tags]** indien nodig wijzigen.
+1. In de **[!UICONTROL Links]** in het linkerdeelvenster, controleert u de lijst van alle URL&#39;s van de inhoud die wordt bijgehouden. U kunt de **[!UICONTROL Tracking Type]**, **[!UICONTROL Label]** en **[!UICONTROL Tags]** indien nodig.
 
    ![](assets/email_designer_7.png)
 
    >[!NOTE]
    >
-   >Meer informatie over koppelingen en het bijhouden van berichten vindt u op [deze pagina](message-tracking.md).
+   >Meer informatie over koppelingen en berichttracering vindt u in [deze pagina](message-tracking.md).
 
-1. Indien nodig, kunt u op code redacteur schakelen om uw e-mail verder te personaliseren door **[!UICONTROL Switch to code editor]** van het geavanceerde menu te klikken. Voor meer informatie over de coderedacteur, verwijs naar deze [pagina](existing-content.md#import-raw-html-code).
+1. Indien nodig kunt u overschakelen naar de code-editor om uw e-mail verder aan te passen door op **[!UICONTROL Switch to code editor]** in het geavanceerde menu. Voor meer informatie over de coderedacteur, verwijs naar dit [page](existing-content.md#import-raw-html-code).
 
    >[!NOTE]
    >
@@ -100,29 +101,29 @@ Voer de onderstaande stappen uit om uw e-mailinhoud samen te stellen met de e-ma
 
    ![](assets/email_designer_26.png)
 
-1. Klik **[!UICONTROL Show preview]** om uw e-mailrendering te controleren. U kunt kiezen voor de weergave Computer of Mobiel.
+1. Klikken **[!UICONTROL Show preview]** om de rendering van uw e-mail te controleren. U kunt kiezen voor de weergave Computer of Mobiel.
 
-   Voor meer informatie over hoe voorproef uw e-mail, verwijs naar [Voorproef en test uw berichten](preview.md).
+   Raadpleeg voor meer informatie over hoe u een voorbeeld van uw e-mail kunt bekijken [Berichten voorvertonen en testen](preview.md).
 
    ![](assets/email_designer_8.png)
 
-1. Wanneer uw e-mail klaar is, klikt u op **[!UICONTROL Save & Close]**.
+1. Wanneer uw e-mail gereed is, klikt u op **[!UICONTROL Save & Close]**.
 
-Uw e-mailinhoud kan nu worden gebruikt in een bericht. [Leer hoe u een bericht](publish-manage-message.md) verzendt.
+Uw e-mailinhoud kan nu worden gebruikt in een bericht. [Leer hoe u een bericht verzendt](publish-manage-message.md).
 
 ## De tekstversie van een e-mailbericht maken {#generate-text-version}
 
-U wordt aangeraden een tekstversie van de e-mailtekst te maken die wordt gebruikt wanneer HTML-inhoud niet kan worden weergegeven.
+U wordt aangeraden een tekstversie van de berichttekst te maken die wordt gebruikt wanneer HTML-inhoud niet kan worden weergegeven.
 
-Standaard maakt de e-mailontwerper een **[!UICONTROL Plain text]**-versie van uw e-mail, inclusief personalisatievelden. Deze versie wordt automatisch gegenereerd en gesynchroniseerd met de HTML-versie van uw inhoud.
+Standaard maakt de e-mailontwerper een **[!UICONTROL Plain text]** versie van uw e-mail, inclusief personalisatievelden. Deze versie wordt automatisch gegenereerd en gesynchroniseerd met de HTML-versie van uw inhoud.
 
 Voer de onderstaande stappen uit als u liever een andere inhoud gebruikt voor de versie zonder opmaak:
 
-1. Selecteer het tabblad **[!UICONTROL Plain text]** in uw e-mail.
+1. Selecteer in uw e-mail de optie **[!UICONTROL Plain text]** tab.
 
    ![](assets/text_version_3.png)
 
-1. Gebruik de schakeloptie **[!UICONTROL Sync with HTML]** om synchronisatie uit te schakelen.
+1. Gebruik de **[!UICONTROL Sync with HTML]** schakelen om synchronisatie uit te schakelen.
 
    ![](assets/text_version_1.png)
 
@@ -134,10 +135,9 @@ Voer de onderstaande stappen uit als u liever een andere inhoud gebruikt voor de
 
 >[!CAUTION]
 >
->* Wijzigingen die worden aangebracht in de weergave **[!UICONTROL Plain text]** worden niet weerspiegeld in de HTML-weergave.
-   >
-   >
-* Als u de optie **[!UICONTROL Sync with HTML]** weer inschakelt nadat u de onbewerkte tekstinhoud hebt bijgewerkt, gaan de wijzigingen verloren en worden deze vervangen door tekstinhoud die uit de HTML-versie is gegenereerd.
+>* Wijzigingen aangebracht in **[!UICONTROL Plain text]** worden niet weerspiegeld in de weergave HTML.
+>
+>* Als u de **[!UICONTROL Sync with HTML]** Nadat u de onbewerkte tekstinhoud hebt bijgewerkt, gaan de wijzigingen verloren en worden deze vervangen door tekstinhoud die is gegenereerd uit de HTML-versie.
 
 
 ## Een preheader gebruiken {#preheader}
@@ -153,21 +153,21 @@ Voer de onderstaande stappen uit als u liever een andere inhoud gebruikt voor de
 
 Een preheader is een korte samenvattingstekst die op de onderwerpregel volgt wanneer een e-mailbericht van uw e-mailclient wordt weergegeven. De preheader kan je helpen je e-mails beter bij te houden en aan te passen.
 
-1. Voeg bij de e-mailontwerper een **[!UICONTROL Structure components]** toe om uw e-mailontwerp te starten.
+1. Voeg een **[!UICONTROL Structure components]** om uw e-mail te gaan ontwerpen.
 
    ![](assets/preheader_1.png)
 
-1. Klik in het rechterdeelvenster **[!UICONTROL Body settings]** op **Bewerken** naast het veld **[!UICONTROL Preheader]** om inhoud toe te voegen.
+1. Van de **[!UICONTROL Body settings]** rechterdeelvenster, klik op **Bewerken** naast de **[!UICONTROL Preheader]** veld om inhoud toe te voegen.
 
    ![](assets/preheader_2.png)
 
-1. Voeg de preheader toe. U kunt het verder personaliseren door het **[!UICONTROL Add personalization]** pictogram te klikken.
+1. Voeg de preheader toe. U kunt de afbeelding verder aanpassen door op de knop **[!UICONTROL Add personalization]** pictogram.
 
    ![](assets/preheader_3.png)
 
-1. In het venster **[!UICONTROL Edit Personalization]** kunt u **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** of **[!UICONTROL Personalization fields]** toevoegen.
+1. Van de **[!UICONTROL Edit Personalization]** venster, kunt u toevoegen **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** of **[!UICONTROL Personalization fields]**.
 
-1. Klik **[!UICONTROL Validate]** om uw verpersoonlijkingssyntaxis te controleren.
+1. Klikken **[!UICONTROL Validate]** om uw personalisatiesyntaxis te controleren.
 
    ![](assets/preheader_4.png)
 
@@ -191,19 +191,19 @@ Als het gaat om het instellen van achtergronden met de e-mailontwerper, raadt Ad
 
 Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
 
-* Stel een **[!UICONTROL Background color]** in voor de hele e-mail. Selecteer de instellingen voor de hoofdtekst in de boomstructuur die toegankelijk is in het linkerpalet.
+* Een **[!UICONTROL Background color]** voor de hele e-mail. Selecteer de instellingen voor de hoofdtekst in de boomstructuur die toegankelijk is in het linkerpalet.
 
-* Stel dezelfde achtergrondkleur in voor alle structuurcomponenten door **[!UICONTROL Viewport background color]** te selecteren. Met deze optie kunt u een andere instelling selecteren dan de achtergrondkleur.
+* Dezelfde achtergrondkleur voor alle structuurcomponenten instellen door **[!UICONTROL Viewport background color]**. Met deze optie kunt u een andere instelling selecteren dan de achtergrondkleur.
 
 * Stel een andere achtergrondkleur in voor elke structuurcomponent. Selecteer een structuur in de boomstructuur die toegankelijk is vanuit het linkerpalet als u alleen een specifieke achtergrondkleur op die structuur wilt toepassen.
 
    Zorg ervoor dat u geen achtergrondkleur voor de viewport instelt, omdat hierdoor de achtergrondkleuren van de structuur kunnen worden verborgen.
 
-* Stel een **[!UICONTROL Background image]** in voor de inhoud van een structuurcomponent.
+* Een **[!UICONTROL Background image]** voor de inhoud van een structuurcomponent.
 
    >[!NOTE]
    >
-   >Sommige e-mailprogramma&#39;s ondersteunen achtergrondafbeeldingen niet. Als deze optie niet wordt ondersteund, wordt in plaats daarvan de achtergrondkleur van de rij gebruikt. Selecteer de gewenste achtergrondkleur voor fallback als de afbeelding niet kan worden weergegeven.
+   >Sommige e-mailprogramma&#39;s ondersteunen achtergrondafbeeldingen niet. Als deze optie niet wordt ondersteund, wordt in plaats daarvan de achtergrondkleur van de rij gebruikt. Selecteer de gewenste achtergrondkleur voor fallback voor het geval de afbeelding niet kan worden weergegeven.
 
 * Stel een achtergrondkleur in op kolomniveau.
 
@@ -217,13 +217,13 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
 
 In dit voorbeeld passen we opvulling en verticale uitlijning aan binnen een structuurcomponent die uit drie kolommen bestaat.
 
-1. Selecteer de structuurcomponent rechtstreeks in de e-mail of met behulp van **[!UICONTROL Navigation tree]** beschikbaar in het linkermenu.
+1. Selecteer de structuurcomponent rechtstreeks in de e-mail of met de opdracht **[!UICONTROL Navigation tree]** beschikbaar in het linkermenu.
 
    ![](assets/alignment_1.png)
 
-1. Klik in de werkbalk op **[!UICONTROL Select a column]** en kies de werkbalk die u wilt bewerken. U kunt deze ook selecteren in de boomstructuur.
+1. Klik op de werkbalk op **[!UICONTROL Select a column]** en kiest u het bestand dat u wilt bewerken. U kunt deze ook selecteren in de boomstructuur.
 
-   De bewerkbare parameters voor die kolom worden weergegeven in het menu **[!UICONTROL Column settings]**.
+   De bewerkbare parameters voor die kolom worden weergegeven in het dialoogvenster **[!UICONTROL Column settings]** -menu.
 
    ![](assets/alignment_2.png)
 
@@ -233,7 +233,7 @@ In dit voorbeeld passen we opvulling en verticale uitlijning aan binnen een stru
 
    ![](assets/alignment_3.png)
 
-1. Definieer onder **[!UICONTROL Padding]** de opvulling boven in de kolom. Klik op het vergrendelingspictogram om de synchronisatie met de onderste opvulling te verbreken.
+1. Onder **[!UICONTROL Padding]** Definieer de opvulling boven in de kolom. Klik op het vergrendelingspictogram om de synchronisatie met de onderste opvulling te verbreken.
 
    Definieer de linker- en rechteropvulling voor die kolom.
 
@@ -247,13 +247,13 @@ In dit voorbeeld passen we opvulling en verticale uitlijning aan binnen een stru
 
 U kunt een koppeling onderstrepen en de kleur en het doel ervan selecteren in de e-mailontwerper.
 
-1. Selecteer de koppeling in een tekst **[!UICONTROL Content component]** waarin een koppeling is ingevoegd.
+1. In een tekst **[!UICONTROL Content component]** wanneer een koppeling wordt ingevoegd, selecteert u de koppeling.
 
-1. Schakel in het menu **[!UICONTROL Component settings]** **[!UICONTROL Underline link]** in om de labeltekst van de koppeling te onderstrepen.
+1. In de **[!UICONTROL Component settings]** menu, controle **[!UICONTROL Underline link]** om de labeltekst van uw koppeling te onderstrepen.
 
    ![](assets/link_1.png)
 
-1. Kies hoe de doelgroep wordt omgeleid met de vervolgkeuzelijst **[!UICONTROL Target]**:
+1. Kies hoe de doelgroep wordt omgeleid met de **[!UICONTROL Target]** vervolgkeuzelijst:
 
    * **[!UICONTROL None]**: Hiermee opent u de koppeling in hetzelfde frame als waarop u hebt geklikt (standaard).
    * **[!UICONTROL Blank]**: Hiermee opent u de koppeling in een nieuw venster of op een nieuw tabblad.
@@ -276,11 +276,8 @@ U kunt een koppeling onderstrepen en de kleur en het doel ervan selecteren in de
 Wanneer u in de interface E-mailontwerper een element selecteert en de instellingen van het element in het zijpaneel weergeeft, kunt u de inline-kenmerken en de bijbehorende waarde voor dat specifieke element aanpassen.
 
 1. Selecteer een element in de inhoud.
-1. Op het zijpaneel, zoek de **[!UICONTROL Styles Inline]** montages.
+1. Op het zijpaneel, zoek naar **[!UICONTROL Styles Inline]** instellingen.
 
-1. Wijzig de waarden van de bestaande kenmerken of voeg nieuwe kenmerken toe met de knop **+**. U kunt alle kenmerken en waarden toevoegen die CSS-compatibel zijn.
+1. Wijzig de waarden van de bestaande kenmerken of voeg nieuwe kenmerken toe met de **+** knop. U kunt alle kenmerken en waarden toevoegen die CSS-compatibel zijn.
 
 De stijl wordt vervolgens toegepast op het geselecteerde element. Als voor de onderliggende elementen geen specifieke stijlkenmerken zijn gedefinieerd, wordt de opmaak van het bovenliggende element overgeërfd.
-
-
-

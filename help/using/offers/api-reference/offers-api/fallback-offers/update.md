@@ -1,26 +1,27 @@
 ---
 title: Een alternatieve aanbieding bijwerken
 description: Aan klanten wordt een fallback-aanbieding gestuurd als zij niet in aanmerking komen voor andere aanbiedingen
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '169'
 ht-degree: 7%
 
 ---
 
 # Een alternatieve aanbieding bijwerken
 
-U kunt een fallback-aanbieding in uw container wijzigen of bijwerken door een PATCH-aanvraag in te dienen bij de [!DNL Offer Library]-API.
+U kunt een fallback-aanbieding in uw container wijzigen of bijwerken door een PATCH-aanvraag in te dienen bij de [!DNL Offer Library] API.
 
-Raadpleeg de officiële [JSON-patchdocumentatie](http://jsonpatch.com/) voor meer informatie over JSON Patch, inclusief beschikbare bewerkingen.
+Raadpleeg voor meer informatie over JSON Patch, inclusief beschikbare bewerkingen, de officiële [JSON-patchdocumentatie](http://jsonpatch.com/).
 
 ## Kopteksten van het type Inhoud accepteren
 
-In de volgende tabel worden de geldige waarden weergegeven die bestaan uit de velden *Content-Type* en *Accept* in de aanvraagkoptekst:
+In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
@@ -61,13 +62,13 @@ curl -X PATCH \
 
 | Parameter | Beschrijving |
 | --------- | ----------- |
-| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen omvatten: `add`, `replace` en `remove`. |
+| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen omvatten: `add`, `replace`, en `remove`. |
 | `path` | Het pad van de parameter die moet worden bijgewerkt. |
 | `value` | De nieuwe waarde waarmee u de parameter wilt bijwerken. |
 
 **Antwoord**
 
-Een succesvolle reactie retourneert de bijgewerkte details van de fallback-aanbieding, inclusief de unieke instantie-id en fallback-aanbieding `@id`.
+Een succesvolle reactie retourneert de bijgewerkte details van de fallback-aanbieding, inclusief de unieke instantie-id en de fallback-aanbieding `@id`.
 
 ```json
 {

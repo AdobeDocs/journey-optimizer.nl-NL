@@ -1,13 +1,14 @@
 ---
 title: Informatie over databronnen
 description: Een databron configureren
-feature: Databronnen
-topic: Beheer
+feature: Data Sources
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: d69779418d50fdc4b75cc777b27a62392d1634a0
+exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '288'
 ht-degree: 72%
 
 ---
@@ -39,4 +40,4 @@ Voor elke databron definieert u de informatie die u wilt ophalen met behulp van 
 >
 >Schemarelaties worden nu ondersteund voor gegevensbronnen.
 
-Voor meer informatie over hoe te om een Gegevensbron van Adobe Experience Platform en een externe gegevensbron te vormen en hoe te om gegevens in een reis te vinden en te gebruiken, deze [zelfstudievideo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target= &quot;_blank&quot;} bekijken.
+Voor meer informatie over hoe te om een Gegevensbron van Adobe Experience Platform en een externe gegevensbron te vormen en hoe te om gegevens in een reis te vinden en te gebruiken, bekijk dit [zelfstudievideo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/configure-data-sources.html){target=&quot;_blank&quot;}.

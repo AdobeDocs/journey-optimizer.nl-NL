@@ -1,30 +1,31 @@
 ---
 title: Globaal rapport voor pushmeldingen
 description: Leer hoe u gegevens uit het algemene rapport voor pushmeldingen kunt gebruiken
-feature: Rapportage
-topic: Contentmanagement
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 42e5cdec54339f65cddd79df4deabbf28292d16b
+exl-id: c50d73c8-d2ca-40a4-bec6-2ce8be814028
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 1%
+source-wordcount: '276'
+ht-degree: 0%
 
 ---
 
-# Globaal rapport {#push-global-report} duwen
+# Push Global-rapport {#push-global-report}
 
-De push **[!UICONTROL Global report]** is slechts gericht op één specifieke pushlevering.
+De drukknop **[!UICONTROL Global report]** slechts één specifieke push-service.
 
-Selecteer **[!UICONTROL Global view]** op het tabblad **[!UICONTROL Executions]** van het menu **[!UICONTROL Messages]** en selecteer **[!UICONTROL Global report]** in het geavanceerde menu van de geselecteerde levering.
+Van de **[!UICONTROL Executions]** tabblad van het dialoogvenster **[!UICONTROL Messages]** menu, selecteert u **[!UICONTROL Global view]** Selecteer vervolgens in het geavanceerde menu van de geselecteerde levering **[!UICONTROL Global report]**.
 
 ![](../assets/global_report_11.png)
 
-De push **[!UICONTROL Global report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw levering worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Voor meer informatie hierover raadpleegt u deze [sectie](global-report.md#modify-dashboard).
+De drukknop **[!UICONTROL Global report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw levering worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Zie voor meer informatie hierover [sectie](global-report.md#modify-dashboard).
 
 ![](../assets/push_global_report.png)
 
-In de widget **[!UICONTROL Push notification performance]** worden de belangrijkste gegevens weergegeven met betrekking tot uw pushberichten met PKI&#39;s:
+De **[!UICONTROL Push notification performance]** widget geeft de belangrijkste informatie met betrekking tot uw pushmeldingen met PKI&#39;s in detail weer:
 
 * **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
 
@@ -36,7 +37,7 @@ In de widget **[!UICONTROL Push notification performance]** worden de belangrijk
 
 * **[!UICONTROL Engagement Rate]**: Percentage van het aantal keren dat wordt geopend en handelingen voor deze pushmelding, bijvoorbeeld als het profiel de pushmelding heeft geopend of als op een knop is geklikt.
 
-De grafiek **[!UICONTROL Push notification summary]** bevat de gegevens die beschikbaar zijn voor verzonden pushberichten, zoals:
+De **[!UICONTROL Push notification summary]** De grafiek bevat de gegevens die beschikbaar zijn voor verzonden pushberichten, zoals:
 
 * **[!UICONTROL Opens]**: Aantal keren dat een bericht in een levering werd geopend.
 
@@ -48,8 +49,8 @@ De grafiek **[!UICONTROL Push notification summary]** bevat de gegevens die besc
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
-Met de grafiek en tabel **[!UICONTROL Error Reasons]** kunt u zien welke fout is opgetreden tijdens de levering.
+De **[!UICONTROL Error Reasons]** de grafiek en de lijst laten u zien welke fout tijdens uw levering voorkwam.
 
 ![](../assets/push_global_report_2.png)
 
-De **[!UICONTROL Tracking by platform]**-, **[!UICONTROL Sending by platform]**- en **[!UICONTROL Breakdown by platform]**-grafieken en -tabellen geven het succes van uw pushmelding weer, afhankelijk van het besturingssysteem van de ontvanger.
+De **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** en **[!UICONTROL Breakdown by platform]** grafieken en tabellen geven het succes van uw pushmelding weer, afhankelijk van het besturingssysteem van de ontvanger.

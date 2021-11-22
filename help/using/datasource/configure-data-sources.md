@@ -1,14 +1,15 @@
 ---
 title: Een gegevensbron configureren
 description: Een databron configureren
-feature: Databronnen
-topic: Beheer
+feature: Data Sources
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
+exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 9%
+source-wordcount: '552'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +21,7 @@ Dit zijn de belangrijkste stappen voor de configuratie van databronnen:
 >
 >De databronconfiguratie wordt altijd uitgevoerd door een **technische gebruiker**.
 
-1. Selecteer **[!UICONTROL Configurations]** in de sectie van het menu BEHEER. Klik in de sectie **[!UICONTROL Data Sources]** op **[!UICONTROL Manage]**. De lijst met databronnen wordt weergegeven. Zie [deze pagina](../user-interface.md) voor meer informatie over de interface.
+1. Selecteer in de sectie van het menu ADMINISTRATIE de optie **[!UICONTROL Configurations]**. In de  **[!UICONTROL Data Sources]** sectie, klikt u op **[!UICONTROL Manage]**. De lijst met databronnen wordt weergegeven. Zie [deze pagina](../user-interface.md) voor meer informatie over de interface.
 
    ![](../assets/journey18.png)
 
@@ -44,7 +45,7 @@ Hoewel automatisch een standaardnaam wordt toegevoegd, raden wij u aan een naam 
 
 Wanneer een gegevensbrongebied in een reis wordt gebruikt, zal het systeem alle gebieden terugwinnen die voor die gebiedsgroep worden bepaald. Daarom is het verstandig alleen de velden te selecteren die u nodig hebt voor uw reizen. Hierdoor wordt de wachttijd bij het aanvragen van uw reizen verminderd, waardoor de prestaties toenemen. U kunt later gemakkelijk meer velden in veldgroepen toevoegen.
 
-Het aantal ritten dat een veldgroep gebruikt, wordt weergegeven in het veld **[!UICONTROL Used in]**. U kunt op de knop **[!UICONTROL View journeys]** klikken om de lijst met reizen weer te geven met deze veldgroep.
+Het aantal ritten dat een veldgroep gebruikt, wordt weergegeven in het dialoogvenster **[!UICONTROL Used in]** veld. U kunt op de knop **[!UICONTROL View journeys]** om de lijst met reizen weer te geven met deze veldgroep.
 
 >[!NOTE]
 >
@@ -60,9 +61,9 @@ U kunt een veld toevoegen, maar u kunt dit niet verwijderen uit een veldgroep di
 
 Voer de volgende stappen uit om een veld te verwijderen uit een veldgroep die wordt gebruikt voor een of meer reizen. Laten we een voorbeeld gebruiken van een veldgroep met de naam &quot;Veldgroep A&quot;.
 
-1. Plaats de cursor in de lijst met veldgroepen op Veldgroep A en klik op het pictogram **[!UICONTROL Duplicate]** rechts. Geef de gedupliceerde veldgroep bijvoorbeeld de naam &quot;Veldgroep B&quot;.
+1. Plaats de cursor in de lijst met veldgroepen op Veldgroep A en klik op de knop **[!UICONTROL Duplicate]** rechts op het scherm. Geef de gedupliceerde veldgroep bijvoorbeeld de naam &quot;Veldgroep B&quot;.
 1. Verwijder in &quot;Veldgroep B&quot; de velden die u niet meer wilt gebruiken.
-1. Controleer in &quot;Veldgroep A&quot; waar deze veldgroep wordt gebruikt. Deze informatie wordt weergegeven in het veld **[!UICONTROL Used in]**.
+1. Controleer in &quot;Veldgroep A&quot; waar deze veldgroep wordt gebruikt. Deze informatie wordt weergegeven in het dialoogvenster **[!UICONTROL Used in]** veld.
 1. Open alle reizen die gebruikmaken van &quot;Veldgroep A&quot;.
 1. Maak nieuwe versies van elk van deze reizen. Bewerk alle activiteiten met &quot;Veldgroep A&quot; en selecteer &quot;Veldgroep B&quot;.
 1. Oude versies van ritten met &quot;Veldgroep A&quot; stoppen. U zou dan geen reis moeten hebben gebruikend &quot;Groep A van het Gebied&quot;.

@@ -2,19 +2,20 @@
 title: Waarschuwingen in berichten
 description: Leer hoe te om berichtinhoudbevestiging te controleren en problemen op te lossen
 feature: Journeys
-topic: Contentmanagement
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
 
-# Waarschuwingen {#publish-manage-messages}
+# Waarschuwingen op uw berichten {#publish-manage-messages}
 
-## Controleert vóór publicatie {#message-alerting}
+## Controles vóór publicatie {#message-alerting}
 
 Terwijl u uw bericht creeert, alarm u wanneer u belangrijke acties moet voeren alvorens uw bericht te publiceren.
 
@@ -28,15 +29,15 @@ Waarschuwingen worden rechtsboven op het scherm weergegeven, zoals hieronder wor
 
 Er kunnen twee typen waarschuwingen optreden:
 
-* **De** waarschuwingen verwijzen naar aanbevelingen en beste praktijken. Er wordt bijvoorbeeld een bericht weergegeven als de koppeling om te weigeren ontbreekt.
+* **Waarschuwingen** verwijzen naar aanbevelingen en beste praktijken. Er wordt bijvoorbeeld een bericht weergegeven als de koppeling om te weigeren ontbreekt.
 
-* **** Errorsprevent u van het publiceren van het bericht zolang zij niet worden opgelost. U wordt bijvoorbeeld in een bericht gewaarschuwd dat de onderwerpregel ontbreekt.
+* **Fouten** voorkomt u dat u het bericht publiceert zolang deze niet zijn opgelost. U wordt bijvoorbeeld in een bericht gewaarschuwd dat de onderwerpregel ontbreekt.
 
-Alle mogelijke waarschuwingen en fouten worden gedetailleerd [hieronder](#alerts-and-warnings).
+Alle mogelijke waarschuwingen en fouten zijn gedetailleerd [onder](#alerts-and-warnings).
 
 >[!CAUTION]
 >
-> U moet alle **error** alarm vóór publicatie oplossen.
+> U moet alles oplossen **fout** waarschuwingen vóór publicatie.
 
 ## Lijst met waarschuwingen en fouten {#alerts-and-warnings}
 
@@ -44,21 +45,21 @@ De instellingen en elementen die door het systeem zijn gecontroleerd, worden hie
 
 **Waarschuwingen**:
 
-* **[!UICONTROL Opt out link not present in the email body]**: u kunt het beste een koppeling zonder abonnement toevoegen aan uw e-mailadres. Leer hoe te om het in [deze sectie](consent.md) te vormen.
+* **[!UICONTROL Opt out link not present in the email body]**: u kunt het beste een koppeling zonder abonnement toevoegen aan uw e-mailadres. Leer hoe u deze kunt configureren in [deze sectie](consent.md).
 
-* **[!UICONTROL Text version of html is empty]**: Vergeet niet een tekstversie van uw e-mailhoofdtekst te definiëren, omdat deze wordt gebruikt wanneer HTML-inhoud niet kan worden weergegeven. Leer hoe u de tekstversie maakt in [deze sectie](create-email-content.md#generate-text-version).
+* **[!UICONTROL Text version of html is empty]**: vergeet niet een tekstversie van uw e-mailhoofdtekst te definiëren, omdat deze wordt gebruikt wanneer HTML-inhoud niet kan worden weergegeven. Leer hoe u de tekstversie maakt in [deze sectie](create-email-content.md#generate-text-version).
 
-* **[!UICONTROL Empty link is present in email body]**: controleer of alle koppelingen in uw e-mail juist zijn. Leer hoe te om inhoud en verbindingen in [deze sectie](create-email-content.md) te beheren.
+* **[!UICONTROL Empty link is present in email body]**: controleer of alle koppelingen in uw e-mail juist zijn. Leer hoe u inhoud en koppelingen kunt beheren in [deze sectie](create-email-content.md).
 
 * **[!UICONTROL Email size has exceeded the limit of 100KB]**: voor een optimale aflevering moet u ervoor zorgen dat de e-mailgrootte niet groter is dan 100 kB. Leer hoe u e-mailinhoud kunt bewerken in [deze sectie](create-email-content.md).
 
 **Fouten**:
 
-* **[!UICONTROL Subject Line Not Present]**: e-mailonderwerpregel is verplicht. Leer hoe te om het in [deze sectie ](create-email.md) te bepalen en te personaliseren.
+* **[!UICONTROL Subject Line Not Present]**: e-mailonderwerpregel is verplicht. Leer hoe u het kunt definiëren en personaliseren in [deze sectie](create-email.md).
 
    <!--HTML is empty when Amp HTML is present-->
 
-* **[!UICONTROL Push Variant is empty]**: deze fout wordt weergegeven wanneer de hoofdtekst of titel van het pushbericht ontbreekt. Leer hoe u inhoud van pushberichten definieert in [deze sectie](create-push.md).
+* **[!UICONTROL Push Variant is empty]**: deze fout wordt weergegeven wanneer de hoofdtekst of titel van het pushbericht ontbreekt. Leer hoe u inhoud voor pushmeldingen definieert in [deze sectie](create-push.md).
 
 * **[!UICONTROL Email Variant is empty]**: deze fout wordt weergegeven wanneer de e-mailinhoud niet is geconfigureerd. Leer hoe u e-mailinhoud ontwerpt in [deze sectie](design-emails.md).
 
@@ -68,7 +69,7 @@ De instellingen en elementen die door het systeem zijn gecontroleerd, worden hie
 
 >[!CAUTION]
 >
-> Om uw bericht te kunnen publiceren, moet u alle **error** alarm oplossen.
+> Als u uw bericht wilt publiceren, moet u alles oplossen **fout** waarschuwingen.
 
 <!--Other issues can stop publication such as:
 * The push notification title is empty-->

@@ -1,20 +1,21 @@
 ---
 title: Een tag opzoeken
 description: Met labels kunt u uw voorstellen beter organiseren en doorlopen.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '149'
 ht-degree: 1%
 
 ---
 
 # Een tag opzoeken
 
-U kunt specifieke tags opzoeken door een aanvraag in te dienen bij de [!DNL Offer Library]-API die de tag `@id` of de naam van de tag in het aanvraagpad bevat.
+U kunt specifieke tags opzoeken door een verzoek in te dienen bij de GET [!DNL Offer Library] API die een van de tags bevat `@id` of de naam van de tag in het aanvraagpad.
 
 **API-indeling**
 
@@ -27,8 +28,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 | `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | De container waarin de tags zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_TAG}` | Definieert het schema dat aan labels is gekoppeld. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
-| `id` | Een tekenreeks die wordt gebruikt om overeen te komen met de eigenschap `@id` van de entiteiten. De tekenreeks komt exact overeen. De parameters `id` en `name` kunnen niet samen worden gebruikt. | `xcore:tag:124e147572cd7866` |
-| `name` | Een tekenreeks die overeenkomt met de eigenschap xdm:name van de entiteiten. De tekenreeks komt exact overeen met hoofdletters, maar er kunnen jokertekens worden gebruikt. De parameters `id` en `name` kunnen niet samen worden gebruikt | `Holiday sales and promotions` |
+| `id` | Een tekenreeks die overeenkomt met de `@id` eigendom van de entiteiten. De tekenreeks komt exact overeen. De parameters `id` en `name` kan niet samen worden gebruikt. | `xcore:tag:124e147572cd7866` |
+| `name` | Een tekenreeks die overeenkomt met de eigenschap xdm:name van de entiteiten. De tekenreeks komt exact overeen met hoofdletters, maar er kunnen jokertekens worden gebruikt. De parameters `id` en `name` kan niet samen worden gebruikt | `Holiday sales and promotions` |
 
 **Verzoek**
 
@@ -44,7 +45,7 @@ curl -X GET \
 
 **Antwoord**
 
-Een geslaagde reactie retourneert de details van de tag, inclusief informatie over de container-id, de instantie-id en de unieke tag `@id`.
+Een succesvol antwoord retourneert de details van de tag, inclusief informatie over de container-id, de instantie-id en de unieke tag `@id`.
 
 ```json
 {

@@ -1,33 +1,31 @@
 ---
 title: Validatie van personalisatie
 description: Meer informatie over validatie van personalisatie en hoe u problemen kunt oplossen
-feature: Personalisatie
-topic: Personalisatie
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 94f3fb815fdeec9853351be9bc41b0579cfc6c5b
+exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 1%
+source-wordcount: '322'
+ht-degree: 0%
 
 ---
-
 
 # Validatie van personalisatie {#personalization-validation}
 
 ## Validatiemechanismen
 
-In het **scherm van de Redacteur van de Uitdrukking**, gebruik **Valideren** knoop om uw verpersoonlijkingssyntaxis te controleren.
+In de **Expressieeditor** scherm, gebruik **Valideren** om uw personalisatiesyntaxis te controleren.
 
 >[!NOTE]
-> De bevestiging wordt automatisch uitgevoerd wanneer u op **Add** knoop klikt om het editorvenster te sluiten.
-
+> De validatie wordt automatisch uitgevoerd wanneer u op de knop **Toevoegen** om het editorvenster te sluiten.
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
 > Als de verpersoonlijkingssyntaxis ongeldig is, kunt u niet het venster van de uitdrukkingsredacteur sluiten.
-
 
 ## Veelvoorkomende fouten
 
@@ -35,7 +33,7 @@ In het **scherm van de Redacteur van de Uitdrukking**, gebruik **Valideren** kno
 
 Wanneer u probeert te verwijzen naar een veld dat niet in het schema is gedefinieerd.
 
-In dit geval wordt **firstName1** niet gedefinieerd als kenmerk in het profielschema:
+In dit geval **firstName1** is niet gedefinieerd als kenmerk in het profielschema:
 
 ```
 {{profile.person.name.firstName1}}
@@ -45,7 +43,7 @@ In dit geval wordt **firstName1** niet gedefinieerd als kenmerk in het profielsc
 
 Wanneer u probeert een tekenreeks in plaats van een array te doorlopen:
 
-In dit geval is **product** geen array:
+In dit geval **product** is geen array:
 
 ```
 {{each profile.person.name.firstName as |product|}}
@@ -53,11 +51,11 @@ In dit geval is **product** geen array:
 {{/each}}
 ```
 
-* **Ongeldige syntaxis voor handgrepen.`‘[XYZ}}’`** gevonden
+* **Ongeldige syntaxis voor handgrepen. Gevonden`‘[XYZ}}’`**
 
 Wanneer een ongeldige syntaxis voor het stuur wordt gebruikt.
 
-Handlebars uitdrukkingen zijn omringd met **{{expression}**
+Handlebars-expressies worden omringd met **{{expression}**
 
 ```
    {{[profile.person.name.firstName}}
@@ -88,7 +86,7 @@ De bevestiging wordt uitgevoerd tijdens de berichtpublicatie of tijdens de beves
  </thead> 
  <tbody> 
   <tr> 
-   <td>Resource met id placementID en type OfferPlacement niet gevonden <br/>
+   <td>Bron met id placementID en type OfferPlacement niet gevonden <br/>
 Bron met id activityID en type OfferActivity niet gevonden<br/></td> 
    <td>Controleren of ActivityID en/of PlacementID beschikbaar zijn</td> 
   </tr> 
@@ -117,4 +115,3 @@ HTML: content<br/></td>
   </tr> 
  </tbody> 
 </table>
-

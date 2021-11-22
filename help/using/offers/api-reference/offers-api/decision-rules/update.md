@@ -1,26 +1,27 @@
 ---
 title: Beslissingsregels bijwerken
-description: Beslissingsregels zijn beperkingen die worden toegevoegd aan een gepersonaliseerd aanbod en die worden toegepast op een profiel om te bepalen of het in aanmerking komt voor een aanbieding.
-feature: Aanbiedingen
-topic: Integraties
+description: Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die op een profiel worden toegepast om te bepalen of het in aanmerking komt voor een aanbieding.
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 5%
+source-wordcount: '174'
+ht-degree: 4%
 
 ---
 
 # Een beslissingsregel bijwerken
 
-U kunt besluitvormingsregels in uw container wijzigen of bijwerken door een PATCH verzoek aan [!DNL Offer Library] API te doen.
+U kunt beslissingsregels wijzigen of bijwerken in uw container door een PATCH-verzoek in te dienen bij de [!DNL Offer Library] API.
 
-Raadpleeg de officiële [JSON-patchdocumentatie](http://jsonpatch.com/) voor meer informatie over JSON Patch, inclusief beschikbare bewerkingen.
+Raadpleeg voor meer informatie over JSON Patch, inclusief beschikbare bewerkingen, de officiële [JSON-patchdocumentatie](http://jsonpatch.com/).
 
 ## Kopteksten van het type Inhoud accepteren
 
-In de volgende tabel worden de geldige waarden weergegeven die bestaan uit de velden *Content-Type* en *Accept* in de aanvraagkoptekst:
+In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
@@ -61,7 +62,7 @@ curl -X PATCH \
 
 | Parameter | Beschrijving |
 | --------- | ----------- |
-| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen omvatten: `add`, `replace` en `remove`. |
+| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen omvatten: `add`, `replace`, en `remove`. |
 | `path` | Het pad van de parameter die moet worden bijgewerkt. |
 | `value` | De nieuwe waarde waarmee u de parameter wilt bijwerken. |
 

@@ -15,7 +15,7 @@ ht-degree: 2%
 
 U kunt uw reis testen met testprofielen. Deze stap wordt aanbevolen om uw instellingen en berichten te valideren.
 
-Meer informatie vindt u in deze [sectie](testing-the-journey.md).
+Meer informatie in deze [sectie](testing-the-journey.md).
 
 ## Uw reis activeren
 
@@ -23,7 +23,7 @@ U moet uw reis publiceren om het te activeren.
 
 ![](../assets/jo-journeyuc2_32bis.png)
 
-Meer informatie vindt u in deze [sectie](publishing-the-journey.md).
+Meer informatie in deze [sectie](publishing-the-journey.md).
 
 
 Na publicatie kunt u uw reis controleren met behulp van de speciale rapportagetools om de effectiviteit van uw reis te meten.
@@ -34,35 +34,35 @@ Na publicatie kunt u uw reis controleren met behulp van de speciale rapportageto
 
 ## Berichten verzenden {#send-messages}
 
-Wanneer uw bericht een bepaalde inhoud heeft en wordt gepubliceerd, is het klaar om door een [reis](journey.md) worden verzonden.
+Wanneer voor uw bericht een inhoud is gedefinieerd en gepubliceerd, kan het bericht worden verzonden via een [reis](journey.md).
 
 >[!NOTE]
 >
 >U kunt een bericht toevoegen dat nog in ontwerpwijze aan een reis is, maar zorg ervoor het bericht wordt gepubliceerd alvorens de reis te publiceren.
 
-Zodra een bericht wordt verzonden, kunt u zijn uitvoering door veelvoudige indicatoren controleren. [Meer weten over het controleren van de uitvoering](../message-monitoring.md) van berichten?
+Zodra een bericht wordt verzonden, kunt u zijn uitvoering door veelvoudige indicatoren controleren. [Meer informatie over het controleren van berichtuitvoering](../message-monitoring.md).
 
-## Berichten plannen {#schedule-messages}
+## Abonnementen {#schedule-messages}
 
-De berichten kunnen door de **[!UICONTROL Read Segment]** activiteit in een [reis](journey.md) worden gepland. U kunt specificeren wanneer het segment de reis zal ingaan. [Meer informatie over de activiteit](read-segment.md) Leessegment.
+Berichten kunnen via de **[!UICONTROL Read Segment]** in een [reis](journey.md). U kunt specificeren wanneer het segment de reis zal ingaan. [Meer informatie over de activiteit Leessegment](read-segment.md).
 
 Volg de onderstaande stappen om dit te doen:
 
-1. Bewerk een reis, sleep een **[!UICONTROL Read Segment]** activiteit en begin deze te configureren. [Meer informatie over het configureren van de activiteit](read-segment.md#configuring-segment-trigger-activity) Leessegment.
+1. Een reis bewerken, een pad slepen en neerzetten **[!UICONTROL Read Segment]** activiteit en begin het vormen. [Meer informatie over het configureren van de activiteit Leessegment](read-segment.md#configuring-segment-trigger-activity).
 
-1. Klik op de koppeling **[!UICONTROL Edit journey schedule]** om de eigenschappen van de rit te openen.
+1. Klik op de knop **[!UICONTROL Edit journey schedule]** verbinding met de eigendommen van de reis.
 
    ![](../assets/message-read-segment-schedule.png)
 
-1. Configureer het veld **[!UICONTROL Scheduler type]**: Selecteer de gewenste waarde in de lijst om ervoor te zorgen dat het segment de reis op een specifieke datum/tijd of op een terugkerende basis ingaat.
+1. Configureer de **[!UICONTROL Scheduler type]** veld: Selecteer de gewenste waarde in de lijst om ervoor te zorgen dat het segment de reis op een specifieke datum/tijd of op een terugkerende basis ingaat.
 
    >[!NOTE]
    >
-   >De sectie **[!UICONTROL Schedule]** is alleen beschikbaar wanneer een activiteit **[!UICONTROL Read Segment]** op het canvas is neergezet.
+   >De **[!UICONTROL Schedule]** -sectie alleen beschikbaar als een **[!UICONTROL Read Segment]** activiteit is neergezet op het canvas.
 
    ![](../assets/message-read-segment-scheduler.png)
 
-1. Als u **[!UICONTROL Once]** selecteert, bepaal een specifieke datum en een tijd waarop het segment de reis zal ingaan.
+1. Als u **[!UICONTROL Once]** een specifieke datum en tijd vast waarop het segment de reis zal betreden.
 
    ![](../assets/message-read-segment-scheduler-once.png)
 
@@ -72,8 +72,8 @@ Volg de onderstaande stappen om dit te doen:
 
    >[!NOTE]
    >
-   >Standaard komen segmenten **[!UICONTROL As soon as possible]** op de reis. Dit betekent 1 uur na publicatie van de reis.
+   >De segmenten gaan standaard de reis in **[!UICONTROL As soon as possible]**, dat wil zeggen 1 uur na publicatie van de reis.
 
-1. Klik **[!UICONTROL OK]** om uw veranderingen te bewaren.
+1. Klikken **[!UICONTROL OK]** om uw wijzigingen op te slaan.
 
 <!--Unitary messages that are triggered by an event within a journey cannot be scheduled.-->

@@ -17,33 +17,33 @@ ht-degree: 1%
 
 ## Rangschikkingsformules {#about-ranking-formulas}
 
-**Met behulp van** rangschikkingsformules kunt u regels definiëren die bepalen welke aanbieding eerst voor een bepaalde plaatsing moet worden gepresenteerd, in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen.
+**Beoordelingsformule** kunt u regels definiëren die bepalen welke aanbieding eerst voor een bepaalde plaatsing moet worden gepresenteerd, in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen.
 
-Rangschikkingsformules worden uitgedrukt in **PQL-syntaxis** en kunnen profielkenmerken, contextgegevens en kenmerken gebruiken. Raadpleeg de [speciale documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html) voor meer informatie over het gebruik van de PQL-syntaxis.
+De rangschikkingsformules worden uitgedrukt in **PQL-syntaxis** en kan profielkenmerken, contextgegevens en kenmerken gebruiken. Raadpleeg voor meer informatie over het gebruik van de PQL-syntaxis de [speciale documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
 
-Zodra een rangschikkende formule is gecreeerd, kunt u het aan een plaatsing in een besluit (dat vroeger als aanbiedingsactiviteit wordt bekend) toewijzen. Voor meer op dit, zie [Vorm aanbiedingen selectie in besluiten](../offer-activities/configure-offer-selection.md).
+Zodra een rangschikkende formule is gecreeerd, kunt u het aan een plaatsing in een besluit (dat vroeger als aanbiedingsactiviteit wordt bekend) toewijzen. Zie voor meer informatie [Aanbiedingen selecteren in beslissingen configureren](../offer-activities/configure-offer-selection.md).
 
 ## Een waarderingsformule maken {#create-ranking-formula}
 
 Voer de volgende stappen uit om een rangschikkingsformule te maken:
 
-1. Open het menu **[!UICONTROL Components]** en selecteer vervolgens het tabblad **[!UICONTROL Rankings]**. De eerder gemaakte lijst met waarderingen wordt weergegeven.
+1. Toegang krijgen tot **[!UICONTROL Components]** en selecteert u vervolgens de **[!UICONTROL Rankings]** tab. De eerder gemaakte lijst met waarderingen wordt weergegeven.
 
    ![](../../assets/rankings-list.png)
 
-1. Klik **[!UICONTROL Create ranking]** om een nieuwe rangschikkingsformule tot stand te brengen.
+1. Klikken **[!UICONTROL Create ranking]** om een nieuwe rangschikkingsformule te creëren.
 
    ![](../../assets/ranking-create-formula.png)
 
 1. Geef de naam, beschrijving en formule van de waarderingsformule op.
 
-   In dit voorbeeld willen we de prioriteit van alle aanbiedingen verhogen met het kenmerk &quot;hot&quot; als het werkelijke weer heet is. Om dit te doen, **contextData.wind=hot** werd overgegaan in de beslissingsvraag.
+   In dit voorbeeld willen we de prioriteit van alle aanbiedingen verhogen met het kenmerk &quot;hot&quot; als het werkelijke weer heet is. Om dit te doen, **contextData.weather=hot** werd overgegaan in de beslissingsvraag.
 
    ![](../../assets/ranking-syntax.png)
 
 1. Klik op **[!UICONTROL Save]**. Uw rangschikkingsformule wordt gecreeerd, kunt u het van de lijst selecteren om details te krijgen en het uit te geven of te schrappen.
 
-   Het is nu klaar om in een besluit worden gebruikt om in aanmerking komende aanbiedingen voor een plaatsing te rangschikken (zie [Aanbiedingen selecteren in besluiten vormen](../offer-activities/configure-offer-selection.md)).
+   Het is nu klaar om te worden gebruikt in een besluit om in aanmerking komende aanbiedingen voor plaatsing in aanmerking te nemen (zie [Aanbiedingen selecteren in beslissingen configureren](../offer-activities/configure-offer-selection.md)).
 
    ![](../../assets/ranking-formula-created.png)
 
@@ -103,7 +103,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 ### De aanbiedingen van de verhoging met bepaalde aanbiedingsattributen die op contextgegevens worden gebaseerd
 
-Verhoog bepaalde aanbiedingen die op de contextgegevens worden gebaseerd die in de beslissingsvraag worden overgegaan. Bijvoorbeeld, als `contextData.weather=hot` in de beslissingsvraag wordt overgegaan, moet de prioriteit van alle aanbiedingen met `attribute=hot` worden verhoogd.
+Verhoog bepaalde aanbiedingen die op de contextgegevens worden gebaseerd die in de beslissingsvraag worden overgegaan. Als de `contextData.weather=hot` wordt overgegaan in de besluitvormingsvraag, de prioriteit van alle aanbiedingen met `attribute=hot` moet worden versterkt.
 
 **Willekeurige formule:**
 
@@ -139,9 +139,9 @@ Wanneer u de API voor besluitvorming gebruikt, worden de contextgegevens toegevo
 
 ### Verhoog de aanbiedingen op basis van de neiging van klanten om het aangeboden product te kopen
 
-Als er twee exemplaren van *CustomerAI* zijn die de neiging berekenen om *travelInsurance* en *extraBaggage* voor een luchtvaartmaatschappij aan te schaffen, zal de volgende rangschikkingsformule de prioriteit (met 50 punten) van de aanbieding verhogen die specifiek voor of verzekering of bagage is als de klantenneigheidsscore om dat product te kopen hoger is dan 90.
+Als we twee gevallen van *CustomerAI* berekening van de koopkracht *travelInsurance* en *extraBaggage* voor een luchtvaartmaatschappij zal de volgende rangschikkingsformule de prioriteit ( met 50 punten ) verhogen van het aanbod dat specifiek is voor verzekeringen of bagage indien de klantennevenscore om dat product te kopen hoger is dan 90 .
 
-Omdat elke *CustomerAI*-instantie echter een eigen object binnen het schema voor het uniforme profiel maakt, is het niet mogelijk de score dynamisch te selecteren op basis van het type van de aanbiedingsdichtheid. U moet dus de `if`-instructies in een keten plaatsen om eerst het type aanbiedingsvorm te controleren en vervolgens de score uit het juiste profielveld halen.
+Maar omdat elk *CustomerAI* instantie maakt een eigen object binnen het schema voor het uniforme profiel. Het is niet mogelijk de score dynamisch te selecteren op basis van het type aanbiedingsvorm. U moet dus de `if` instructies om eerst het type aanbiedingsvorm te controleren en de score vervolgens uit het desbetreffende profielveld te halen.
 
 **Willekeurige formule:**
 
@@ -153,7 +153,7 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 )
 ```
 
-Een betere oplossing is om de scores op te slaan in een array van het profiel. In het volgende voorbeeld worden verschillende populatiescore&#39;s gebruikt met behulp van een eenvoudige rangschikkingsformule. De verwachting is dat u een profielschema met een serie van scores hebt. In dit voorbeeld, is de instantiehuurder *_salesvelocity* en het profielschema bevat het volgende:
+Een betere oplossing is om de scores op te slaan in een array van het profiel. In het volgende voorbeeld worden verschillende populatiescore&#39;s gebruikt met behulp van een eenvoudige rangschikkingsformule. De verwachting is dat u een profielschema met een serie van scores hebt. In dit voorbeeld is de instantiekant *_verkoopsnelheid* en het profielschema bevat het volgende:
 
 ![](../../assets/ranking-example-schema.png)
 
@@ -177,11 +177,11 @@ In dit geval geldt voor een profiel als:
 }
 ```
 
-De aanbiedingen zouden een attribuut voor *propensityType* bevatten dat de categorie van de scores aanpast:
+De aanbiedingen bevatten een kenmerk voor *propensityType* die overeenkomt met de categorie uit de scores:
 
 ![](../../assets/ranking-example-propensityType.png)
 
-Uw rangschikkingsformule kan dan de prioriteit van elke aanbieding aan de klanten *propensityScore* voor dat *propensityType* plaatsen. Als geen score wordt gevonden, gebruik de statische prioriteit op de aanbieding wordt geplaatst:
+Uw rangschikkingsformule kan dan de prioriteit van elk aanbod aan gelijke klanten plaatsen *propensityScore* voor *propensityType*. Als geen score wordt gevonden, gebruik de statische prioriteit op de aanbieding wordt geplaatst:
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring

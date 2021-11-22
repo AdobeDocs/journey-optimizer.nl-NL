@@ -1,24 +1,25 @@
 ---
 title: Een plaatsing maken
 description: Plaatsingen zijn containers die worden gebruikt om uw voorstellen te tonen.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 7%
+source-wordcount: '131'
+ht-degree: 6%
 
 ---
 
 # Een plaatsing maken
 
-U kunt een plaatsing tot stand brengen door een verzoek van de POST aan [!DNL Offer Library] API te richten, terwijl het verstrekken van uw containeridentiteitskaart
+U kunt een plaatsing tot stand brengen door een verzoek van de POST aan [!DNL Offer Library] API, terwijl u uw container-id opgeeft.
 
 ## Kopteksten van het type Inhoud accepteren
 
-In de volgende tabel worden de geldige waarden weergegeven die bestaan uit de velden *Content-Type* en *Accept* in de aanvraagkoptekst:
+In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
@@ -57,7 +58,7 @@ curl -X POST \
 
 **Antwoord**
 
-Een geslaagde reactie retourneert de details van de nieuwe plaatsing, inclusief de unieke instantie-id en plaatsing `@id`. U kunt de instantie-id in latere stappen gebruiken om uw plaatsing bij te werken of te verwijderen. U kunt uw unieke plaatsing `@id` in recentere leerprogramma&#39;s gebruiken om besluiten, besluitvormingsregels, en reserveaanbiedingen tot stand te brengen.
+Een succesvol antwoord retourneert de details van de nieuwe plaatsing, inclusief de unieke instantie-id en plaatsing `@id`. U kunt de instantie-id in latere stappen gebruiken om uw plaatsing bij te werken of te verwijderen. U kunt uw unieke plaatsing gebruiken `@id` in recentere zelfstudies om besluiten, besluitvormingsregels, en reserveaanbiedingen tot stand te brengen.
 
 ```json
 {

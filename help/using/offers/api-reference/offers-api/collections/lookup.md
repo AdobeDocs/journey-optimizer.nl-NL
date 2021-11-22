@@ -1,13 +1,14 @@
 ---
 title: Een verzameling opzoeken
 description: Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 723daab2-5590-4c44-acb6-93a77f2e7877
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '176'
 ht-degree: 1%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
 
-U kunt specifieke inzamelingen omhoog kijken door een verzoek van de GET aan [!DNL Offer Library] API te doen die of de inzameling `@id` of de naam van de inzameling in de verzoekweg omvat.
+U kunt specifieke verzamelingen opzoeken door een GET-aanvraag in te dienen bij de [!DNL Offer Library] API die de verzameling bevat `@id` of de naam van de verzameling in het aanvraagpad.
 
 **API-indeling**
 
@@ -29,8 +30,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{
 | `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | De container waarin de verzamelingen zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FILTER}` | Bepaalt het schema verbonden aan inzamelingen. | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | Een tekenreeks die wordt gebruikt om overeen te komen met de eigenschap `@id` van de entiteiten. De tekenreeks komt exact overeen. De parameters `id` en `name` kunnen niet samen worden gebruikt. | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | Een tekenreeks die overeenkomt met de eigenschap xdm:name van de entiteiten. De tekenreeks komt exact overeen met hoofdletters, maar er kunnen jokertekens worden gebruikt. De parameters `id` en `name` kunnen niet samen worden gebruikt | `Mobile demo` |
+| `id` | Een tekenreeks die overeenkomt met de `@id` eigendom van de entiteiten. De tekenreeks komt exact overeen. De parameters `id` en `name` kan niet samen worden gebruikt. | `xcore:offer-filter:124bd44648f17ec1` |
+| `name` | Een tekenreeks die overeenkomt met de eigenschap xdm:name van de entiteiten. De tekenreeks komt exact overeen met hoofdletters, maar er kunnen jokertekens worden gebruikt. De parameters `id` en `name` kan niet samen worden gebruikt | `Mobile demo` |
 
 **Verzoek**
 
@@ -46,7 +47,7 @@ curl -X GET \
 
 **Antwoord**
 
-Een succesvolle reactie keert de details van de plaatsing met inbegrip van informatie over uw container identiteitskaart, instantieidentiteitskaart en, unieke inzameling `@id` terug.
+Een geslaagde reactie retourneert de details van de plaatsing, inclusief informatie over uw container-id, instantie-id en, unieke verzameling `@id`.
 
 ```json
 {

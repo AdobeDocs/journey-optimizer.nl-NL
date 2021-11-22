@@ -2,13 +2,14 @@
 solution: Journey Orchestration
 title: Acties
 description: Leer hoe u een actie configureert
-feature: Acties
-topic: Beheer
+feature: Actions
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '235'
 ht-degree: 68%
 
 ---
@@ -32,10 +33,10 @@ Met aangepaste acties kunt u een verbinding met een extern systeem configureren 
 
 >[!CAUTION]
 >
->De configuratie van douaneacties moet door een **technische gebruiker** worden uitgevoerd.
+>De configuratie van aangepaste handelingen moet worden uitgevoerd door een **technisch gebruiker**.
 
-De acties zijn beschikbaar in het linkerpalet van uw reis, in de **[!UICONTROL Action]** categorie. Zie [deze pagina](../building-journeys/about-journey-activities.md#action-activities).
+De acties zijn beschikbaar in het linkerpalet van uw reis, in **[!UICONTROL Action]** categorie. Zie [deze pagina](../building-journeys/about-journey-activities.md#action-activities).
 
-Om de actielijst te bekijken of een nieuwe actie te vormen, uitgezocht **[!UICONTROL Configurations]** in de het menusectie van het Beleid. Klik in de sectie **[!UICONTROL Actions]** op **[!UICONTROL Manage]**. De lijst met acties wordt weergegeven. Zie [deze pagina](../user-interface.md) voor meer informatie over de interface.
+Selecteer **[!UICONTROL Configurations]** in de sectie van het menu van het BEHEER. In de  **[!UICONTROL Actions]** sectie, klikt u op **[!UICONTROL Manage]**. De lijst met acties wordt weergegeven. Zie [deze pagina](../user-interface.md) voor meer informatie over de interface.
 
 ![](../assets/custom1.png)

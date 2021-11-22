@@ -1,14 +1,15 @@
 ---
 title: Aan de slag met het exporteren van de aanbiedingscatalogus
 description: Leer hoe u uw aanbiedingencatalogus als een dataset exporteert.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: f30abea1-b204-4470-9836-75fae916bbb1
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 15%
+source-wordcount: '131'
+ht-degree: 14%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 15%
 
 Met Journey Optimizer kunt u uw aanbiedingencatalogus automatisch exporteren naar Adobe Experience Platform.
 
-De uitvoer leidt tot één dataset voor elk voorwerp van uw Bibliotheek van de Aanbieding (zie [Toegang uitgevoerde datasets](../export-catalog/access-dataset.md)). Dit omvat:
+Bij het exporteren wordt één gegevensset gemaakt voor elk object in de bibliotheek met aanbiedingen (zie [Geëxporteerde gegevensbestanden openen](../export-catalog/access-dataset.md)). Dit omvat:
 
 * Persoonlijke aanbiedingen
 * Alternatieve aanbiedingen

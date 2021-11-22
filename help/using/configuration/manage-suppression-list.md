@@ -1,6 +1,6 @@
 ---
 title: De vervolgkeuzelijst beheren
-description: 'Leer hoe u de lijst met Journey Optimizer-suppressies kunt openen en beheren '
+description: Leer hoe u de lijst met Journey Optimizer-suppressies kunt openen en beheren
 page-status-flag: never-activated
 uuid: null
 contentOwner: null
@@ -15,31 +15,31 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 260513cd966ab8e579fa0af0fec0376110d0b53f
+exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 1%
 
 ---
 
-
 # De vervolgkeuzelijst beheren {#manage-suppression-list}
 
-Met [!DNL Journey Optimizer] kunt u alle e-mailadressen controleren die automatisch van het verzenden van een reis worden uitgesloten, zoals:
+Met [!DNL Journey Optimizer], kunt u alle e-mailadressen controleren die automatisch van het verzenden van een reis worden uitgesloten, zoals:
 
 * Adressen die ongeldig zijn (harde grenzen).
-* Verwerkt deze voortdurend zachte stuit en kan een negatief effect hebben op uw e-mailreputatie als u deze in uw leveringen blijft opnemen.
+* Verwerkt deze voortdurend zachte stuit en kan een negatief effect hebben op de reputatie van uw e-mail als u deze blijft opnemen in uw leveringen.
 * Ontvangers die op een of andere manier een spamklacht indienen tegen een van uw e-mailberichten.
 
-Dergelijke e-mailadressen worden automatisch verzameld in de Journey Optimizer **suppressielijst**. Leer meer op het concept en het gebruik van de suppressielijst in [deze sectie](../suppression-list.md).
+Dergelijke e-mailadressen worden automatisch verzameld in de Journey Optimizer **onderdrukkingslijst**. Meer informatie over het concept en het gebruik van de suppressielijst in [deze sectie](../suppression-list.md).
 
 ## De lijst met onderdrukking openen {#access-suppression-list}
 
-Als u de gedetailleerde lijst met uitgesloten e-mailadressen wilt openen, gaat u naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** en selecteert u **[!UICONTROL Suppression list]**.
+Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** en selecteert u **[!UICONTROL Suppression list]**.
 
 >[!CAUTION]
 >
->Machtigingen om de suppressielijst weer te geven, te exporteren en te beheren zijn beperkt tot [Reisbeheerders](../administration/ootb-product-profiles.md#journey-administrator). Meer informatie over het beheren van de toegangsrechten van [!DNL Journey Optimizer] gebruikers in [deze sectie](../administration/permissions-overview.md).
+>Machtigingen voor het weergeven, exporteren en beheren van de suppressielijst zijn beperkt tot [Reisbeheerders](../administration/ootb-product-profiles.md#journey-administrator). Meer informatie over beheren [!DNL Journey Optimizer] toegangsrechten van gebruikers in [deze sectie](../administration/permissions-overview.md).
 
 <!--![](../assets/suppression-list-link.png)
 
@@ -53,33 +53,33 @@ Er zijn filters beschikbaar waarmee u door de lijst kunt bladeren.
 
 ![](../assets/suppression-list-filters.png)
 
-U kunt filteren op **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, of **[!UICONTROL Reason]**. Selecteer de optie(s) van uw keuze voor elk criterium. Als deze optie is geselecteerd, kunt u elk filter of alle filters die boven op de lijst worden weergegeven, wissen.
+U kunt filteren op de **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, of **[!UICONTROL Reason]**. Selecteer de optie(s) van uw keuze voor elk criterium. Als deze optie is geselecteerd, kunt u elk filter of alle filters die boven op de lijst worden weergegeven, wissen.
 
 ![](../assets/suppression-list-filtering-example.png)
 
-Als u per ongeluk handmatig een e-mailadres of een domein toevoegt, kunt u met de knop **[!UICONTROL Delete]** dat item verwijderen.
+Als u per ongeluk handmatig een e-mailadres of een domein toevoegt, **[!UICONTROL Delete]** kunt u dat item verwijderen.
 
 >[!CAUTION]
 >
->Gebruik nooit de **[!UICONTROL Delete]** knoop om onderdrukte e-mailadressen of domeinen te verwijderen.
+>Gebruik nooit de **[!UICONTROL Delete]** om onderdrukte e-mailadressen of domeinen te verwijderen.
 
 ![](../assets/suppression-list-delete.png)
 
-Als u een e-mailadres of een domein uit de suppressielijst verwijdert, wordt opnieuw begonnen met het leveren aan dit adres of domein. Dientengevolge, kan dit ernstige gevolgen op uw leverbaarheid en IP reputatie hebben, die uiteindelijk tot uw IP adres of verzendend domein zou kunnen leiden die worden geblokkeerd. Leer meer over het belang om een onderdrukkingslijst in [dit sectie](../suppression-list.md) te handhaven.
+Als u een e-mailadres of een domein uit de suppressielijst verwijdert, wordt opnieuw begonnen met het leveren aan dit adres of domein. Dientengevolge, kan dit ernstige gevolgen op uw leverbaarheid en IP reputatie hebben, die uiteindelijk tot uw IP adres of verzendend domein zou kunnen leiden die worden geblokkeerd. Lees meer over het belang van het bijhouden van een onderdrukkingslijst in [deze sectie](../suppression-list.md).
 
 >[!NOTE]
 >
 >Ga voorzichtig te werk wanneer u overweegt een e-mailadres of domein te verwijderen. Neem in geval van twijfel contact op met een leverancier.
 
-Vanuit de weergave **[!UICONTROL Suppression list]** kunt u ook de onderdrukkingsregels bewerken. [Meer informatie](retries.md)
+Van de **[!UICONTROL Suppression list]** kunt u ook de onderdrukkingsregels bewerken. [Meer informatie](retries.md)
 
-Selecteer de knop **[!UICONTROL Download CSV]** om de suppressielijst als een CSV-bestand te exporteren.
+Als u de onderdrukkingslijst wilt exporteren als een CSV-bestand, selecteert u de optie **[!UICONTROL Download CSV]** knop.
 
 ![](../assets/suppression-list-download-csv.png)
 
 ## Onderdrukkingscategorieën en redenen {#suppression-categories-and-reasons}
 
-Wanneer een bericht niet aan een e-mailadres kan worden geleverd, bepaalt [!DNL Journey Optimizer] waarom de levering is mislukt en koppelt het aan een **[!UICONTROL Suppression category]**.
+Wanneer een bericht niet aan een e-mailadres kan worden bezorgd, [!DNL Journey Optimizer] bepaalt waarom de levering ontbrak en het met een associeert **[!UICONTROL Suppression category]**.
 
 De onderdrukkingscategorieën zijn als volgt:
 
@@ -101,9 +101,9 @@ De onderdrukkingscategorieën zijn als volgt:
 
 >[!NOTE]
 >
->Meer informatie over zachte grenzen en harde stuitingen vindt u in de sectie [Typen leveringsfouten](../suppression-list.md#delivery-failures).
+>Meer informatie over zachte grenzen en harde golven in de [Typen leveringsfouten](../suppression-list.md#delivery-failures) sectie.
 
-Voor elk e-mailadres dat wordt vermeld, kunt u **[!UICONTROL Type]** (e-mail of domein), **[!UICONTROL Reason]** ook controleren voor uitsluiting, die het toevoegden, en de datum/tijd het aan de suppressielijst werd toegevoegd.
+Voor elk e-mailadres dat wordt vermeld, kunt u ook de **[!UICONTROL Type]** (e-mail of domein), **[!UICONTROL Reason]** om het uit te sluiten, die het toevoegde, en de datum/tijd het aan de onderdrukkingslijst werd toegevoegd.
 
 ![](../assets/suppression-list.png)
 
@@ -121,7 +121,7 @@ De mogelijke redenen van een leveringsfout zijn:
 
 >[!NOTE]
 >
->Gebruikers met een abonnement ontvangen geen e-mails van [!DNL Journey Optimizer]. Daarom kunnen hun e-mailadressen niet naar de onderdrukkingslijst worden verzonden. Hun keuze wordt op het niveau van de Experience Platform behandeld. [Meer informatie over opt-out](../consent.md)
+>Niet-geabonneerde gebruikers ontvangen geen e-mails van [!DNL Journey Optimizer]Daarom kunnen hun e-mailadressen niet naar de onderdrukkingslijst worden verzonden. Hun keuze wordt op het niveau van de Experience Platform behandeld. [Meer informatie over opt-out](../consent.md)
 
 <!--
 Removed from the table provided by SparkPost/Momentum:
@@ -147,17 +147,17 @@ Removed from the table provided by SparkPost/Momentum:
 
 Wanneer een bericht niet aan een e-mailadres kan worden geleverd, wordt dit adres automatisch toegevoegd aan de suppressielijst die op de bepaalde suppressieregel of stuiterende telling wordt gebaseerd.
 
-U kunt de [!DNL Journey Optimizer]-suppressielijst echter ook handmatig vullen om specifieke e-mailadressen en/of domeinen van uw verzending uit te sluiten.
+U kunt de opdracht [!DNL Journey Optimizer] suppressielijst om specifieke e-mailadressen en/of domeinen van uw verzending uit te sluiten.
 
-U kunt e-mailadressen of domeinen [één voor één toevoegen](#add-one-address-or-domain), of [in bulkmodus](#upload-csv-file) door een Csv- dossier te uploaden.
+U kunt e-mailadressen of domeinen toevoegen [één voor één](#add-one-address-or-domain), of [in bulkmodus](#upload-csv-file) via een CSV-bestandsupload.
 
-Hiervoor selecteert u de knop **[!UICONTROL Add email or domain]** en volgt u een van de onderstaande methoden.
+Selecteer hiervoor de optie **[!UICONTROL Add email or domain]** en voert u een van de onderstaande methoden uit.
 
 ![](../assets/suppression-list-add-email.png)
 
 ### Eén adres of domein toevoegen {#add-one-address-or-domain}
 
-1. Selecteer de optie **[!UICONTROL One by one]**.
+1. Selecteer **[!UICONTROL One by one]** optie.
 
    ![](../assets/suppression-list-add-email-address.png)
 
@@ -175,7 +175,7 @@ Hiervoor selecteert u de knop **[!UICONTROL Add email or domain]** en volgt u ee
 
 ### Een CSV-bestand uploaden {#upload-csv-file}
 
-1. Selecteer de optie **[!UICONTROL Upload CSV]**.
+1. Selecteer **[!UICONTROL Upload CSV]** optie.
 
    ![](../assets/suppression-list-upload-csv.png)
 
@@ -186,7 +186,7 @@ Hiervoor selecteert u de knop **[!UICONTROL Add email or domain]** en volgt u ee
    EMAIL,abc@somedomain.com,Comment
    DOMAIN,somedomain.com,Comment
    ```
-   U kunt deze sjabloon ook downloaden vanuit de hoofdweergave **[!UICONTROL Suppression list]**.
+   U kunt deze sjabloon ook downloaden via het menu **[!UICONTROL Suppression list]** hoofdweergave.
 
    >[!CAUTION]
    >
@@ -206,7 +206,7 @@ Hiervoor selecteert u de knop **[!UICONTROL Add email or domain]** en volgt u ee
 
 U kunt de lijst controleren van de recentste CSV dossiers u uploadde.
 
-Om dit, van de **[!UICONTROL Suppression list]** mening te doen, klik **[!UICONTROL Recent uploads]** knoop.
+Om dit te doen, van **[!UICONTROL Suppression list]** klik op de knop **[!UICONTROL Recent uploads]** knop.
 
 ![](../assets/suppression-list-recent-uploads-button.png)
 
@@ -227,6 +227,3 @@ Domain,example,MANUAL,Invalid format for value: example
 Domain,example.!com,MANUAL,Invalid format for value: example.!com
 Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 ```
-
-
-

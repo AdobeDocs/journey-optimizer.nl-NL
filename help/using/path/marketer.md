@@ -2,13 +2,13 @@
 title: Journey Optimizer Aan de slag voor Marketers
 description: Leer als praktijkbeoefenaar meer hoe u met Journey Optimizer kunt werken
 level: Intermediate
-source-git-commit: a27a6d7ab96bd08e7a2601c2e86d1d9f0fc4be0a
+exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
+source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
 
 ---
-
 
 # Aan de slag met Marketers
 
@@ -18,7 +18,7 @@ Als **Marketer** of **Reiswerker**, bent u verantwoordelijk voor het maken van b
 
 Raadpleeg de volgende secties voor het instellen van uw eerste reis, het toevoegen van aanbiedingen en middelen en het verzenden van berichten:
 
-1. **Segmenten maken**. Met Journey Optimizer kunt u publiekssegmenten rechtstreeks vanuit het **Segmenten** en ze gebruiken voor uw reizen.  Meer informatie over segmenten [op deze pagina](../segment/about-segments.md). Ontdek hoe u segmenten kunt maken [in deze steekproef](../segment/creating-a-segment.md).
+1. **Segmenten maken**. Met Journey Optimizer kunt u publiekssegmenten rechtstreeks vanuit het **Segmenten** en ze te gebruiken voor uw reizen.  Meer informatie over segmenten [op deze pagina](../segment/about-segments.md). Ontdek hoe u segmenten kunt maken [in deze steekproef](../segment/creating-a-segment.md).
 
 1. **Berichten maken**. Meer informatie over het maken van e-mail- en pushberichten in Journey Optimizer [op deze pagina](../create-message.md).
 
@@ -51,4 +51,3 @@ Raadpleeg de volgende secties voor het instellen van uw eerste reis, het toevoeg
    Leer hoe u reizen ontwerpt en uitvoert [in deze sectie](../building-journeys/journey-gs.md)
 
 1. **Berichten en reizen volgen**. Om ervoor te zorgen dat uw berichten succesvol worden uitgevoerd, verzonden en geleverd, [!DNL Journey Optimizer] biedt mogelijkheden om de berichten te controleren die momenteel worden gepubliceerd en teweeggebracht. Leer hoe u de prestaties kunt controleren [in deze sectie](../message-monitoring.md).
-

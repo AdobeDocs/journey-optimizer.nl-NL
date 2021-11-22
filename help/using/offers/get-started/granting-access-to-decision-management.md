@@ -18,9 +18,9 @@ ht-degree: 7%
 
 De toestemmingen om tot de mogelijkheden van de offer decisioning toegang te hebben en te gebruiken worden beheerd gebruikend [Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 
-Om toegang tot de functionaliteit van het Beheer van het Besluit te verlenen, moet u **[!UICONTROL Product profile]** creëren en de overeenkomstige toestemmingen aan uw gebruikers toewijzen. Meer informatie over het beheren van [!DNL Journey Optimizer] gebruikers en toestemmingen in [deze sectie](../../administration/permissions.md).
+Om toegang tot de functionaliteit van het Beheer van het Besluit te verlenen, moet u tot een **[!UICONTROL Product profile]** en wijs de overeenkomstige toestemmingen aan uw gebruikers toe. Meer informatie over beheren [!DNL Journey Optimizer] gebruikers en machtigingen in [deze sectie](../../administration/permissions.md).
 
-De toestemmingen specifiek voor Beslissingsbeheer zijn vermeld in [deze sectie](../../administration/high-low-permissions.md#manage-decisioning).
+De machtigingen die specifiek zijn voor Beslissingsbeheer worden vermeld in [deze sectie](../../administration/high-low-permissions.md#manage-decisioning).
 
 <!--If you are a [!DNL Journey Optimizer] user leveraging the **Decision Management** functionality, you need to have the [Decision management permissions](../../administration/high-low-permissions.md#decisions-permissions) enabled to acces all related capabilities. Learn more on managing [!DNL Journey Optimizer] users and permissions in [this section](../../administration/permissions.md).
 
@@ -30,11 +30,11 @@ Grant access to Offer Decisioning
 
 The steps below only apply to **Experience Platform users** leveraging the [!DNL Offer Decisioning] service.-->
 
-1. Open [Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html), dan selecteer **[!UICONTROL Adobe Experience Platform]**.
+1. Open de [Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html)selecteert u vervolgens **[!UICONTROL Adobe Experience Platform]**.
 
    <!--![](../../assets/offers_admin_console.png)-->
 
-1. De productprofielen voor de de dienstvertoning. Als u een nieuw productprofiel wilt maken, klikt u op de knop **[!UICONTROL New Profile]**.
+1. De productprofielen voor de de dienstvertoning. Als u een nieuw productprofiel wilt maken, klikt u op de knop **[!UICONTROL New Profile]** knop.
 
    ![](../../assets/offers_rights_productprofile.png)
 
@@ -42,7 +42,7 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
    >
    >U kunt zo vele productprofielen hebben zoals gewenst, die aan de diverse rollen beantwoorden die u opstelling voor uw organisatie wilt.
 
-1. Geef de naam en beschrijving van het productprofiel op en klik op **[!UICONTROL Next]**.
+1. Geef de naam en beschrijving van het productprofiel op en klik vervolgens op **[!UICONTROL Next]**.
 
    ![](../../assets/create-product-profile.png)
 
@@ -52,7 +52,7 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
    ![](../../assets/enable-services.png)
 
-1. Klik in de sectie **[!UICONTROL Decision Management]** op de knop **+** om machtigingen toe te wijzen aan het productprofiel en klik vervolgens op **[!UICONTROL Save]**.
+1. In de **[!UICONTROL Decision Management]** klikt u op de **+** om rechten toe te wijzen aan het productprofiel, klikt u vervolgens op **[!UICONTROL Save]**.
 
    ![](../../assets/configure-profile.png)
 
@@ -84,5 +84,5 @@ The steps below only apply to **Experience Platform users** leveraging the [!DNL
 
 >[!NOTE]
 >
->Voor meer details op hoe te om gebruikerstoestemmingen te beheren, verwijs naar [Admin Console documentatie](https://helpx.adobe.com/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+>Raadpleeg voor meer informatie over het beheren van gebruikersmachtigingen de [Documentatie Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 

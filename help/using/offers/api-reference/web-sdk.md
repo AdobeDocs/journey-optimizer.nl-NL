@@ -1,24 +1,25 @@
 ---
 title: Adobe Experience Platform Web SDK
 description: Met de Adobe Experience Platform Web SDK kunt u persoonlijke aanbiedingen ophalen en renderen die u hebt gemaakt met behulp van API's of de aanbiedingsbibliotheek.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
+exl-id: c3b842ff-e4f8-4fac-968c-6d23abac408e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 6%
+source-wordcount: '171'
+ht-degree: 5%
 
 ---
 
 # Adobe Experience Platform Web SDK
 
-[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview){target=&quot;_blank&quot;} is een JavaScript-bibliotheek aan de clientzijde waarmee klanten van de Adobe Experience Cloud via het Adobe Experience Platform Edge-netwerk kunnen communiceren met de verschillende services in de Experience Cloud.
+[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview){target=&quot;_blank&quot;} is een JavaScript-bibliotheek aan de clientzijde waarmee klanten van de Adobe Experience Cloud via het Adobe Experience Platform Edge Network kunnen communiceren met de verschillende services in de Experience Cloud.
 
 De SDK van het Web van Adobe Experience Platform steunt het vragen van de verpersoonlijkingsoplossingen bij Adobe, met inbegrip van Beslissingsbeheer, die u toestaat om gepersonaliseerde aanbiedingen terug te winnen en terug te geven die u gebruikend APIs of de Bibliotheek van de Aanbieding hebt gecreeerd.
 
-Voor meer op hoe te om gepersonaliseerde aanbiedingen te leveren gebruikend het Web SDK van Adobe Experience Platform, verwijs naar [specifieke documentatie](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning){target=&quot;_blank&quot;}.
+Voor meer informatie over het aanbieden van persoonlijke aanbiedingen met gebruik van Adobe Experience Platform Web SDK raadpleegt u de [speciale documentatie](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning){target=&quot;_blank&quot;}.
 
 >[!NOTE]
 >

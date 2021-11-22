@@ -93,7 +93,7 @@ De retentieperiode voor een spiegelpagina is 60 dagen. Na die vertraging is de s
 
 ## Een-klik-koppeling voor weigeren {#one-click-opt-out-link}
 
-Om uw ontvangers in staat te stellen om snel af te zien van het ontvangen van mededelingen van uw merk, kunt u een één-klik opt-out verbinding in uw e-mailinhoud opnemen. Hierdoor wordt voorkomen dat gebruikers worden omgeleid naar een bestemmingspagina waar ze hun keuze moeten bevestigen, waardoor het afwijzingsproces sneller verloopt.
+Om uw ontvangers in staat te stellen om snel af te zien van het ontvangen van mededelingen van uw merk, kunt u een één-klik opt-out verbinding in uw e-mailinhoud opnemen. Hierdoor wordt voorkomen dat gebruikers worden omgeleid naar een bestemmingspagina waar ze hun keuze moeten bevestigen, waardoor het afmeldingsproces wordt versneld.
 
 Volg onderstaande stappen om een koppeling om te weigeren toe te voegen in uw e-mail.
 

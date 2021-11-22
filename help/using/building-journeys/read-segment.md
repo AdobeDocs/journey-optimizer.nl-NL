@@ -19,7 +19,7 @@ ht-degree: 4%
 
 Met de activiteit Leessegment kunt u alle personen die tot een Adobe Experience Platform-segment behoren een reis laten maken. Het starten van een journey kan één keer, of op regelmatige basis plaatsvinden.
 
-Neem bijvoorbeeld het segment voor het openen en uitchecken van de Luma-app dat is gemaakt in het gebruiksscenario [Build segments](../segment/about-segments.md). Met de activiteit van het Leessegment, kunt u alle individuen die tot dit segment behoren een reis maken en hen tot geïndividualiseerde reizen maken die alle reisfunctionaliteit gebruiken: voorwaarden, timers, gebeurtenissen, handelingen.
+Neem bijvoorbeeld het segment voor het openen en uitchecken van de Luma-app dat is gemaakt in het dialoogvenster [Segmenten maken](../segment/about-segments.md) use case. Met de activiteit van het Leessegment, kunt u alle individuen die tot dit segment behoren een reis maken en hen tot geïndividualiseerde reizen maken die alle reisfunctionaliteit gebruiken: voorwaarden, timers, gebeurtenissen, handelingen.
 
 >[!NOTE]
 >
@@ -29,35 +29,35 @@ Neem bijvoorbeeld het segment voor het openen en uitchecken van de Luma-app dat 
 
 De stappen om de activiteit van het Leessegment te vormen zijn als volgt:
 
-1. Ontvouw de **[!UICONTROL Orchestration]** categorie en laat vallen een **[!UICONTROL Read Segment]** activiteit in uw canvas.
+1. De **[!UICONTROL Orchestration]** categorie en een **[!UICONTROL Read Segment]** op uw canvas.
 
    De activiteit moet als eerste stap van een reis worden geplaatst.
 
-1. Voeg een **[!UICONTROL Label]** aan de activiteit (facultatief) toe.
+1. Voeg een **[!UICONTROL Label]** aan de activiteit (facultatief).
 
-1. Kies in het veld **[!UICONTROL Segment]** het Adobe Experience Platform-segment dat de rit moet ingaan en klik vervolgens op **[!UICONTROL Save]**.
+1. In de **[!UICONTROL Segment]** het gebied, kies het segment van Adobe Experience Platform dat de reis zal ingaan, dan klik **[!UICONTROL Save]**.
 
    U kunt de kolommen in de lijst aanpassen en sorteren.
 
    >[!NOTE]
    >
-   >Alleen de personen met de **Realized** en **Existing**-deelnamestatus zullen de reis betreden. Voor meer op hoe te om een segment te evalueren, verwijs naar [de documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Alleen personen met de **Gerealiseerd** en **Bestaande** de deelnamestatistieken van de segmenten zullen de reis betreden . Raadpleeg voor meer informatie over het evalueren van een segment de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
    ![](../assets/read-segment-selection.png)
 
-   Zodra het segment wordt toegevoegd, staat **[!UICONTROL Copy]** knoop u toe om zijn naam en identiteitskaart te kopiëren:
+   Nadat het segment is toegevoegd, wordt het **[!UICONTROL Copy]** kunt u de naam en de id kopiëren:
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](../assets/read-segment-copy.png)
 
-1. Kies in het veld **[!UICONTROL Namespace]** de naamruimte die u wilt gebruiken om de personen te identificeren. [Meer informatie over naamruimten](../event/about-creating.md#select-the-namespace).
+1. In de **[!UICONTROL Namespace]** gebruiken, kiest u de naamruimte die u wilt gebruiken om de personen te identificeren. [Meer informatie over naamruimten](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >
    >Personen die behoren tot een segment dat niet de geselecteerde identiteit (naamruimte) onder hun verschillende identiteiten heeft, kunnen de reis niet betreden.
 
-1. Stel het veld **[!UICONTROL Throttling rate]** in op de productielimiet van de activiteit van het gelezen segment.
+1. Stel de **[!UICONTROL Throttling rate]** gebied aan de productiegrens van de gelezen segmentactiviteit.
 
    Deze waarde wordt opgeslagen in de lading van de reisversie. De standaardwaarde is 17.000 berichten per seconde. U kunt deze waarde wijzigen van 500 tot 17.000 berichten per seconde.
 
@@ -65,29 +65,29 @@ De stappen om de activiteit van het Leessegment te vormen zijn als volgt:
    >
    >De totale vertragingssnelheid per sandbox is ingesteld op 20.000 berichten per seconde. Daarom voegt de vertragingssnelheid van alle gelezen segmenten die gelijktijdig in de zelfde zandbak lopen tot hoogstens 20.000 berichten per seconde toe. U kunt dit uiteinde niet wijzigen.
 
-1. Met de **[!UICONTROL Read Segment]**-activiteit kunt u opgeven op welk tijdstip het segment de reis moet betreden. Om dit te doen, klik **[!UICONTROL Edit journey schedule]** verbinding om tot de eigenschappen van de reis toegang te hebben, dan vorm **[!UICONTROL Scheduler type]** gebied.
+1. De **[!UICONTROL Read Segment]** de activiteit staat u toe om de tijd te specificeren waarop het segment de reis zal ingaan. Om dit te doen, klik **[!UICONTROL Edit journey schedule]** verbinding om tot de eigenschappen van de reis toegang te hebben, dan vorm **[!UICONTROL Scheduler type]** veld.
 
    ![](../assets/read-segment-schedule.png)
 
-   Standaard voeren segmenten de reis **[!UICONTROL As soon as possible]** in. Als u wilt dat het segment de reis op een specifieke datum/tijd of op een terugkomende basis ingaat, selecteer de gewenste waarde van de lijst.
+   De segmenten gaan standaard de reis in **[!UICONTROL As soon as possible]**. Als u wilt dat het segment de reis op een specifieke datum/tijd of op een terugkomende basis ingaat, selecteer de gewenste waarde van de lijst.
 
    >[!NOTE]
    >
-   >De sectie **[!UICONTROL Schedule]** is alleen beschikbaar wanneer een activiteit **[!UICONTROL Read Segment]** op het canvas is neergezet.
+   >De **[!UICONTROL Schedule]** -sectie alleen beschikbaar als een **[!UICONTROL Read Segment]** activiteit is weggelaten op het canvas.
 
    ![](../assets/read-segment-schedule-list.png)
 
 ### De journey testen en publiceren {#testing-publishing}
 
-Met de **[!UICONTROL Read Segment]**-activiteit kunt u de reis testen op een uniform profiel of op 100 willekeurig gekozen testprofielen uit de profielen die voor het segment in aanmerking komen.
+De **[!UICONTROL Read Segment]** met deze activiteit kunt u de reis testen op een uniform profiel of op 100 willekeurig gekozen testprofielen uit de profielen die voor het segment in aanmerking komen.
 
 Hiervoor activeert u de testmodus en selecteert u de gewenste optie in het linkerdeelvenster.
 
 ![](../assets/read-segment-test-mode.png)
 
-U kunt de testwijze dan vormen en in werking stellen zoals gebruikelijk. [Leer hoe je een reis](testing-the-journey.md) test.
+U kunt de testwijze dan vormen en in werking stellen zoals gebruikelijk. [Leer hoe u een reis test](testing-the-journey.md).
 
-Wanneer de test is uitgevoerd, kunt u met de knop **[!UICONTROL Show logs]** de testresultaten weergeven volgens de geselecteerde testoptie:
+Als de test eenmaal is uitgevoerd, wordt **[!UICONTROL Show logs]** met de knop kunt u de testresultaten bekijken volgens de geselecteerde testoptie:
 
 * **[!UICONTROL Single profile at a time]**: de teststammen bevatten dezelfde informatie als wanneer de monitaire testmodus wordt gebruikt. Raadpleeg [deze sectie](testing-the-journey.md#viewing_logs) voor meer informatie
 
@@ -97,7 +97,7 @@ Wanneer de test is uitgevoerd, kunt u met de knop **[!UICONTROL Show logs]** de 
 
    ![](../assets/read-segment-log.png)
 
-Zodra de tests succesvol zijn, kunt u uw reis publiceren (zie [Het publiceren van de reis](publishing-the-journey.md)). Personen die tot het segment behoren, komen de reis binnen op de datum/tijd die in de sectie **[!UICONTROL Scheduler]** in de eigendommen van de reis is vermeld.
+Wanneer de tests succesvol zijn, kunt u uw reis publiceren (zie [De reis publiceren](publishing-the-journey.md)). Personen die tot het segment behoren, komen de reis binnen op de datum/tijd die in de eigendommen van de reis is vermeld **[!UICONTROL Scheduler]** sectie.
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ Zodra de tests succesvol zijn, kunt u uw reis publiceren (zie [Het publiceren va
 
 ## Publiek gericht op segmentreizen
 
-Op segmenten gebaseerde reizen beginnen altijd met een **Leessegment** activiteit om individuen op te halen die tot een segment van Adobe Experience Platform behoren.
+Segmentreizen beginnen altijd met een **Segment lezen** activiteiten om personen op te halen die tot een Adobe Experience Platform-segment behoren.
 
 Het publiek dat tot het segment behoort, wordt één keer of op regelmatige basis opgehaald.
 
@@ -114,7 +114,7 @@ Na het ingaan van de reis, kunt u publiek tot stand brengen orkestgebruik gevall
 
 **Segmentering**
 
-U kunt voorwaarden gebruiken om segmentatie uit te voeren gebruikend **Condition** activiteit. U kunt VIP personen bijvoorbeeld een bepaald pad laten maken en niet-VIP laten doorlopen in een ander pad.
+U kunt voorwaarden gebruiken om segmentatie uit te voeren gebruikend **Voorwaarde** activiteit. U kunt VIP personen bijvoorbeeld een bepaald pad laten maken en niet-VIP laten doorlopen in een ander pad.
 
 De segmentatie kan worden gebaseerd op:
 
@@ -128,7 +128,7 @@ De segmentatie kan worden gebaseerd op:
 
 **Uitsluiting**
 
-Met dezelfde **Condition**-activiteit die wordt gebruikt voor segmentatie (zie boven) kunt u ook een deel van de populatie uitsluiten. U kunt bijvoorbeeld VIP personen uitsluiten door ze na afloop naar een vertakking te laten gaan met een eindstap.
+Hetzelfde **Voorwaarde** de activiteit die voor segmentatie wordt gebruikt (zie hierboven) staat u ook toe om een deel van de bevolking uit te sluiten. U kunt bijvoorbeeld VIP personen uitsluiten door ze na afloop naar een vertakking te laten lopen met een eindstap.
 
 Deze uitsluiting zou direct na het opvragen van segmenten kunnen plaatsvinden, voor het tellen van de bevolking of langs een reis met meerdere stappen.
 

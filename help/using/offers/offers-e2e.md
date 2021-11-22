@@ -243,7 +243,7 @@ Nu uw beslissing live is, kunt u deze invoegen in een e-mailbericht. Hiervoor vo
 
    ![](../assets/offers-e2e-select-placement-in-decision.png)
 
-1. Besluiten die overeenkomen met **E-mail - Afbeelding** de plaatsing wordt weergegeven. Selecteer de beslissing die u wilt gebruiken in de inhoudcomponent en klik op **[!UICONTROL Add]**.
+1. Besluiten die overeenkomen met **E-mail - Afbeelding** de plaatsing wordt weergegeven. Selecteer de beslissing die u in de inhoudcomponent wilt gebruiken en klik op **[!UICONTROL Add]**.
 
    ![](../assets/offers-e2e-matching-placement-in-decision.png)
 

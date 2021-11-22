@@ -1,18 +1,19 @@
 ---
 title: Uw e-mails importeren of coderen
 description: Leer hoe u e-mailinhoud importeert of codeert voor uw e-mails
-feature: Overzicht
-topic: Contentmanagement
+feature: Overview
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 5%
+source-wordcount: '337'
+ht-degree: 4%
 
 ---
 
-# Uw e-mailinhoud {#existing-content} importeren of coderen
+# Uw e-mailinhoud importeren of coderen {#existing-content}
 
 Met Journey Optimizer kunt u bestaande HTML-inhoud importeren om uw e-mails te ontwerpen. Deze inhoud kan onbewerkte HTML-code of inhoud uit een bestaand HTML-bestand of een ZIP-map zijn.
 
@@ -20,27 +21,27 @@ Ga als volgt te werk om HTML-inhoud te coderen of bestaande inhoud te importeren
 
 1. [Een bericht maken](create-message.md)
 
-1. Open **[!UICONTROL Email Designer]** van **[!UICONTROL Edit Content]** sectie.
+1. Open de **[!UICONTROL Email Designer]** van de **[!UICONTROL Edit Content]** sectie.
 
    ![](assets/import-html_1.png)
 
-1. Selecteer **[!UICONTROL Code your own]** of **[!UICONTROL Import HTML]**. Raadpleeg de onderstaande secties voor de volgende stappen.
+1. Selecteren **[!UICONTROL Code your own]** of **[!UICONTROL Import HTML]**. Raadpleeg de onderstaande secties voor de volgende stappen.
 
-## Uw eigen {#import-raw-html-code} coderen
+## Uw eigen code schrijven {#import-raw-html-code}
 
-Met de modus **[!UICONTROL Code your own]** kunt u onbewerkte HTML importeren en/of uw e-mailinhoud coderen. Deze methode vereist HTML-vaardigheden.
+Gebruik de **[!UICONTROL Code your own]** -modus kunt u onbewerkte HTML importeren en/of uw e-mailinhoud coderen. Deze methode vereist HTML-vaardigheden.
 
 >[!CAUTION]
 >
-> Er kan niet worden verwezen naar afbeeldingen van [Adobe Experience Manager Assets Essentials](assets-essentials.md) wanneer u deze methode gebruikt. De afbeeldingen waarnaar in de HTML-code wordt verwezen, moeten worden opgeslagen op een openbare locatie.
+> Afbeeldingen van [Adobe Experience Manager Assets Essentials](assets-essentials.md) kan niet worden van verwijzingen voorzien wanneer het gebruiken van deze methode. De afbeeldingen waarnaar in uw HTML-code wordt verwezen, moeten worden opgeslagen op een openbare locatie.
 
-1. Selecteer **[!UICONTROL Code your own]** op de startpagina van E-mailontwerper.
+1. Selecteer op de introductiepagina E-mail Designer de optie **[!UICONTROL Code your own]**.
 
    ![](assets/code-your-own.png)
 
 1. Voer de onbewerkte HTML-code in of plak deze.
 
-1. Gebruik de linkerruit aan hefboomwerking [!DNL Journey Optimizer] verpersoonlijkingsmogelijkheden. Raadpleeg [deze sectie](personalization/personalize.md) voor meer informatie.
+1. Gebruik het linkerdeelvenster om het te benutten [!DNL Journey Optimizer] personalisatiemogelijkheden. Raadpleeg [deze sectie](personalization/personalize.md) voor meer informatie.
 
    ![](assets/code-editor.png)
 
@@ -48,20 +49,20 @@ Met de modus **[!UICONTROL Code your own]** kunt u onbewerkte HTML importeren en
 
    ![](assets/code-editor-change-design.png)
 
-1. Klik op de knop **[!UICONTROL Preview]** om het ontwerp en de personalisatie van het bericht te controleren met testprofielen. Raadpleeg [deze sectie](preview.md) voor meer informatie.
+1. Klik op de knop **[!UICONTROL Preview]** om het berichtontwerp en de verpersoonlijking te controleren gebruikend testprofielen. Raadpleeg [deze sectie](preview.md) voor meer informatie.
 
    ![](assets/code-editor-preview.png)
 
-1. Zodra uw code klaar is, klik **[!UICONTROL Save]** dan ga terug naar het scherm van de berichtverwezenlijking om uw bericht te voltooien.
+1. Wanneer de code gereed is, klikt u op **[!UICONTROL Save]** ga dan terug naar het scherm van de berichtverwezenlijking om uw bericht te voltooien.
 
    ![](assets/code-editor-save.png)
 
-## HTML {#import-html-content-from-file} importeren
+## HTML importeren {#import-html-content-from-file}
 
 U kunt HTML-inhoud importeren in de e-mailontwerper. Deze inhoud kan:
 
-* An **HTML file** with an incorporated style sheet,
-* Een map **.zip** met het HTML-bestand, het stijlblad (.css) en afbeeldingen.
+* An **HTML-bestand** met een model in een ingebouwde stijlpagina,
+* A **.zip-map** met het HTML-bestand, de stijlpagina (.css) en afbeeldingen.
 
    >[!NOTE]
    >
@@ -69,12 +70,12 @@ U kunt HTML-inhoud importeren in de e-mailontwerper. Deze inhoud kan:
 
 Voer de volgende stappen uit om een bestand met HTML-inhoud te importeren:
 
-1. Selecteer **[!UICONTROL Import HTML]** op de startpagina van E-mailontwerper.
+1. Selecteer op de introductiepagina E-mail Designer de optie **[!UICONTROL Import HTML]**.
 
    ![](assets/import-html_2.png)
 
-1. Sleep het HTML- of zip-bestand met de HTML-inhoud en zet het neer.
+1. Sleep het HTML- of ZIP-bestand met de inhoud van uw HTML.
 
-1. Zodra de HTML-inhoud is geüpload, kunt u de e-mailfuncties van E-mailontwerper gebruiken om uw e-mail te bewerken en er een voorvertoning van weer te geven. [Meer informatie vindt u in deze sectie](create-email-content.md).
+1. Zodra de HTML-inhoud is geüpload, kunt u de e-mailfuncties van E-mailontwerper gebruiken om uw e-mailadres te bewerken en er een voorvertoning van weer te geven. [Meer informatie in deze sectie](create-email-content.md).
 
    ![](assets/html-imported.png)

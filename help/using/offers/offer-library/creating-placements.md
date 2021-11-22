@@ -1,14 +1,15 @@
 ---
 title: Plaatsingen maken
 description: Leer hoe u plaatsingen maakt in Adobe Experience Platform.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 5%
+source-wordcount: '215'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +23,7 @@ In het onderstaande voorbeeld zijn er drie plaatsen die overeenkomen met verschi
 
 ![](../../assets/offers_placement_schema.png)
 
-De lijst met plaatsen is toegankelijk in het menu **[!UICONTROL Components]**. Er zijn filters beschikbaar waarmee u plaatsingen kunt ophalen op basis van een specifiek kanaal of specifieke inhoud.
+De lijst met stages is toegankelijk in het **[!UICONTROL Components]** -menu. Er zijn filters beschikbaar waarmee u plaatsingen kunt ophalen op basis van een specifiek kanaal of specifieke inhoud.
 
 ![](../../assets/placements_filter.png)
 
@@ -41,7 +42,7 @@ Voer de volgende stappen uit om een plaatsing te maken:
 
    ![](../../assets/offers_placement_creation_properties.png)
 
-1. Klik **[!UICONTROL Save]** om te bevestigen.
+1. Klikken **[!UICONTROL Save]** ter bevestiging.
 
 1. Zodra de plaatsing wordt gecreeerd, toont het in de plaatsingslijst. U kunt het selecteren om zijn eigenschappen te tonen en het uit te geven.
 

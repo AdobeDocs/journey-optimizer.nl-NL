@@ -1,14 +1,15 @@
 ---
 title: String-functies, bibliotheek
 description: String-functies, bibliotheek
-feature: Personalisatie
-topic: Personalisatie
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1201'
-ht-degree: 4%
+source-wordcount: '1199'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +19,7 @@ Leer hoe u String-functies in de Expressieeditor kunt gebruiken.
 
 ## Camel Case {#camelCase}
 
-De functie `camelCase` kapitaliseert de eerste letter van elk woord van een tekenreeks.
+De `camelCase` functie kapitaliseert de eerste letter van elk woord van een tekenreeks.
 
 **Indeling**
 
@@ -36,7 +37,7 @@ Met de volgende functie krijgt de eerste letter van het woord een hoofdletter in
 
 ## Concat {#concate}
 
-De functie `concat` combineert twee tekenreeksen in één.
+De `concat` functie combineert twee tekenreeksen in één.
 
 **Indeling**
 
@@ -54,7 +55,7 @@ De volgende functie combineert profielstad en land in één tekenreeks.
 
 ## Bevat {#contains}
 
-De functie `contains` wordt gebruikt om te bepalen als een koord een gespecificeerde substring bevat.
+De `contains` wordt gebruikt om te bepalen of een tekenreeks een opgegeven subtekenreeks bevat.
 
 **Indeling**
 
@@ -84,7 +85,7 @@ De functie `contains` wordt gebruikt om te bepalen als een koord een gespecifice
 
 ## Bevat niet{#doesNotContain}
 
-De functie `doesNotContain` wordt gebruikt om te bepalen als een koord geen gespecificeerde substring bevat.
+De `doesNotContain` wordt gebruikt om te bepalen of een tekenreeks geen opgegeven subtekenreeks bevat.
 
 **Indeling**
 
@@ -109,7 +110,7 @@ De volgende query bepaalt, met hoofdlettergevoeligheid, of het e-mailadres van d
 
 ## Eindigt niet met{#doesNotEndWith}
 
-De functie `doesNotEndWith` wordt gebruikt om te bepalen als een koord niet met een gespecificeerde substring beëindigt.
+De `doesNotEndWith` wordt gebruikt om te bepalen of een tekenreeks niet eindigt met een opgegeven subtekenreeks.
 
 **Indeling**
 
@@ -133,7 +134,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## Begint niet met{#doesNotStartWith}
 
-De functie `doesNotStartWith` wordt gebruikt om te bepalen als een koord niet met een gespecificeerde substring begint.
+De `doesNotStartWith` wordt gebruikt om te bepalen of een tekenreeks niet begint met een opgegeven subtekenreeks.
 
 **Indeling**
 
@@ -157,7 +158,7 @@ De volgende query bepaalt, met hoofdlettergevoeligheid, of de naam van de persoo
 
 ## Coderen 64{#encode64}
 
-De functie `encode64` wordt gebruikt om een koord te coderen om Persoonlijke Informatie (PI) te bewaren als om bijvoorbeeld in een URL moet worden omvat.
+De `encode64` Deze functie wordt gebruikt om een tekenreeks te coderen zodat Personal Information (PI) behouden blijft als deze bijvoorbeeld in een URL moet worden opgenomen.
 
 **Indeling**
 
@@ -167,7 +168,7 @@ De functie `encode64` wordt gebruikt om een koord te coderen om Persoonlijke Inf
 
 ## Ends with (Eindigt met){#endsWith}
 
-De functie `endsWith` wordt gebruikt om te bepalen of een tekenreeks eindigt met een opgegeven subtekenreeks.
+De `endsWith` wordt gebruikt om te bepalen of een tekenreeks eindigt met een opgegeven subtekenreeks.
 
 **Indeling**
 
@@ -192,7 +193,7 @@ De volgende query bepaalt, met hoofdlettergevoeligheid, of het e-mailadres van d
 
 ## Equals (Is gelijk aan){#equals}
 
-De functie `equals` wordt gebruikt om te bepalen of een tekenreeks gelijk is aan de opgegeven tekenreeks, met hoofdlettergevoeligheid.
+De `equals` wordt gebruikt om te bepalen of een tekenreeks gelijk is aan de opgegeven tekenreeks, met hoofdlettergevoeligheid.
 
 **Indeling**
 
@@ -215,7 +216,7 @@ De volgende vraag bepaalt, met gevalgevoeligheid, als de naam van de persoon &qu
 
 ## Gelijk aan hoofdletter negeren{#equalsIgnoreCase}
 
-De functie `equalsIgnoreCase` wordt gebruikt om te bepalen of een tekenreeks gelijk is aan de opgegeven tekenreeks, zonder hoofdlettergevoeligheid.
+De `equalsIgnoreCase` wordt gebruikt om te bepalen of een tekenreeks gelijk is aan de opgegeven tekenreeks, zonder hoofdlettergevoeligheid.
 
 **Indeling**
 
@@ -238,7 +239,7 @@ De volgende vraag bepaalt, zonder gevalgevoeligheid, als de naam van de persoon 
 
 ## E-maildomein extraheren {#extractEmailDomain}
 
-De functie `extractEmailDomain` wordt gebruikt om het domein van een e-mailadres te halen.
+De `extractEmailDomain` wordt gebruikt om het domein van een e-mailadres te extraheren.
 
 **Indeling**
 
@@ -256,7 +257,7 @@ De volgende query extraheert het e-maildomein van het persoonlijke e-mailadres.
 
 ## Is empty {#isEmpty}
 
-De functie `isEmpty` wordt gebruikt om te bepalen of een tekenreeks leeg is.
+De `isEmpty` wordt gebruikt om te bepalen of een tekenreeks leeg is.
 
 **Indeling**
 
@@ -274,7 +275,7 @@ De volgende functie retourneert &#39;true&#39; als het mobiele telefoonnummer va
 
 ## Links bijsnijden {#leftTrim}
 
-De functie `leftTrim` wordt gebruikt om witte ruimten uit het begin van een koord te verwijderen.
+De `leftTrim` wordt gebruikt om witruimten te verwijderen uit het begin van een tekenreeks.
 
 **Indeling**
 
@@ -284,7 +285,7 @@ De functie `leftTrim` wordt gebruikt om witte ruimten uit het begin van een koor
 
 ## Length {#length}
 
-De functie `length` wordt gebruikt om het aantal karakters in een koord of een uitdrukking te krijgen.
+De `length` wordt gebruikt om het aantal tekens in een tekenreeks of expressie op te halen.
 
 **Indeling**
 
@@ -302,7 +303,7 @@ De volgende functie retourneert de lengte van de stadsnaam van het profiel.
 
 ## leuk{#like}
 
-De functie `like` wordt gebruikt om te bepalen als een koord een gespecificeerd patroon aanpast.
+De `like` wordt gebruikt om te bepalen of een tekenreeks overeenkomt met een opgegeven patroon.
 
 **Indeling**
 
@@ -325,7 +326,7 @@ Met de volgende query worden alle steden opgehaald waar profielen met het patroo
 
 ## Kleine letters{#lower}
 
-De functie `lowerCase` zet een tekenreeks om in kleine letters.
+De `lowerCase` functie converteert een tekenreeks naar kleine letters.
 
 **Syntaxis**
 
@@ -343,7 +344,7 @@ Deze functie converteert de voornaam van het profiel naar kleine letters.
 
 ## Overeenkomsten{#matches}
 
-De functie `matches` wordt gebruikt om te bepalen als een koord een specifieke regelmatige uitdrukking aanpast. Raadpleeg [dit document](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) voor meer informatie over overeenkomende patronen in reguliere expressies.
+De `matches` wordt gebruikt om te bepalen of een tekenreeks overeenkomt met een specifieke reguliere expressie. Zie [dit document](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) voor meer informatie over overeenkomende patronen in reguliere expressies.
 
 **Indeling**
 
@@ -361,7 +362,7 @@ De volgende vraag bepaalt, zonder case gevoeligheid, als de naam van de persoon 
 
 ## Niet gelijk aan{#notEqualTo}
 
-De functie `notEqualTo` wordt gebruikt om te bepalen of een tekenreeks niet gelijk is aan de opgegeven tekenreeks.
+De `notEqualTo` wordt gebruikt om te bepalen of een tekenreeks niet gelijk is aan de opgegeven tekenreeks.
 
 **Indeling**
 
@@ -376,7 +377,7 @@ De functie `notEqualTo` wordt gebruikt om te bepalen of een tekenreeks niet geli
 
 **Voorbeeld**
 
-De volgende vraag bepaalt, met gevalgevoeligheid, als de naam van de persoon niet &quot;John&quot;is.
+De volgende vraag bepaalt, met case gevoeligheid, als de naam van de persoon niet &quot;John&quot; is.
 
 ```sql
 {%= notEqualTo(profile.person.name,"John") %}
@@ -384,7 +385,7 @@ De volgende vraag bepaalt, met gevalgevoeligheid, als de naam van de persoon nie
 
 ## Groep met reguliere expressies{#regexGroup}
 
-De functie `Group` wordt gebruikt om specifieke informatie te halen, die op de regelmatige verstrekte uitdrukking wordt gebaseerd.
+De `Group` Deze functie wordt gebruikt om specifieke informatie te extraheren op basis van de reguliere expressie die wordt gegeven.
 
 **Indeling**
 
@@ -408,7 +409,7 @@ De volgende query wordt gebruikt om de domeinnaam uit een e-mailadres te extrahe
 
 ## Replace {#replace}
 
-De functie `replace` wordt gebruikt om een bepaalde subtekenreeks in een tekenreeks te vervangen door een andere subtekenreeks.
+De `replace` Deze functie wordt gebruikt om een bepaalde subtekenreeks in een tekenreeks te vervangen door een andere subtekenreeks.
 
 **Indeling**
 
@@ -427,7 +428,7 @@ De volgende functie.
 
 ## Alles vervangen{#replaceAll}
 
-De functie `replaceAll` wordt gebruikt om alle subtekenreeksen van een tekst te vervangen die het &quot;doel&quot;met het gespecificeerde letterlijke &quot;vervangingskoord&quot;aanpast. De vervanging vindt plaats vanaf het begin van de tekenreeks tot het einde. Als u bijvoorbeeld &quot;aa&quot; vervangt door &quot;b&quot; in de tekenreeks &quot;aaa&quot;, resulteert dit in &quot;ba&quot; in plaats van &quot;ab&quot;.
+De `replaceAll` Deze functie wordt gebruikt om alle subtekenreeksen van een tekst te vervangen die overeenkomt met &quot;target&quot; met de opgegeven letterlijke tekenreeks &quot;replacement&quot;. De vervanging vindt plaats vanaf het begin van de tekenreeks tot het einde. Als u bijvoorbeeld &quot;aa&quot; vervangt door &quot;b&quot; in de tekenreeks &quot;aaa&quot;, resulteert dit in &quot;ba&quot; in plaats van &quot;ab&quot;.
 
 **Indeling**
 
@@ -438,7 +439,7 @@ De functie `replaceAll` wordt gebruikt om alle subtekenreeksen van een tekst te 
 
 ## Rechts bijsnijden {#rightTrim}
 
-De functie `rightTrim` wordt gebruikt verwijdert witte ruimten van het eind van een koord.
+De `rightTrim` functie wordt gebruikt verwijdert witte ruimten van het eind van een koord.
 
 
 **Indeling**
@@ -449,7 +450,7 @@ De functie `rightTrim` wordt gebruikt verwijdert witte ruimten van het eind van 
 
 ## Splitsen {#split}
 
-De functie `split` wordt gebruikt om een tekenreeks door een bepaald teken te splitsen.
+De `split` functie wordt gebruikt om een tekenreeks te splitsen op een bepaald teken.
 
 **Indeling**
 
@@ -470,7 +471,7 @@ The following function .
 
 ## Starts with (Begint met){#startsWith}
 
-De functie `startsWith` wordt gebruikt om te bepalen als een koord met gespecificeerde substring begint.
+De `startsWith` wordt gebruikt om te bepalen of een tekenreeks begint met een opgegeven subtekenreeks.
 
 **Indeling**
 
@@ -494,7 +495,7 @@ De volgende vraag bepaalt, met gevalsgevoeligheid, als de naam van de persoon me
 
 ## Alles Beginhoofdletter{#titleCase}
 
-De functie **titleCase** wordt gebruikt om eerste letters van elke woorden van een koord te kapitaliseren.
+De **titleCase** functie wordt gebruikt om eerste letters van elke woorden van een tekenreeks met hoofdletters te maken.
 
 **Syntaxis**
 
@@ -512,7 +513,7 @@ Als de persoon in Washington high street woont, zal deze functie Washington High
 
 ## Verkleinen{#trim}
 
-De functie **trim** verwijdert alle witte ruimten van het begin en aan het eind van een koord.
+De **bijsnijden** verwijdert alle spaties van het begin tot het einde van een tekenreeks.
 
 **Syntaxis**
 
@@ -522,7 +523,7 @@ De functie **trim** verwijdert alle witte ruimten van het begin en aan het eind 
 
 ## Hoofdletters{#upper}
 
-De functie **upperCase** zet een tekenreeks om in hoofdletters.
+De **upperCase** functie converteert een tekenreeks naar hoofdletters.
 
 **Syntaxis**
 

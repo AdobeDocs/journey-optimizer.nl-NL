@@ -1,18 +1,19 @@
 ---
 title: Belangrijke informatie over gebeurtenissen met betrekking tot Beslissingsbeheer
 description: Meer informatie over de belangrijkste informatie die met elke Beslissingsbeheergebeurtenis wordt verzonden.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 07be59e8-e994-4854-8089-25614d005dbe
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 82%
+source-wordcount: '133'
+ht-degree: 83%
 
 ---
 
-# Belangrijke informatie over besluitvormingsbeheergebeurtenissen {#events-key-information}
+# Belangrijke informatie over gebeurtenissen met betrekking tot Beslissingsbeheer {#events-key-information}
 
 Elke gebeurtenis die wordt verzonden wanneer een besluit wordt genomen, bevat vier belangrijke gegevenspunten die u voor analyse en rapportagedoeleinden kunt gebruiken.
 

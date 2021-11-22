@@ -3,13 +3,14 @@ title: Een bericht publiceren en wijzigen
 description: Leer hoe u uw berichten publiceert en bijwerkt
 snippet: y
 feature: Journeys
-topic: Contentmanagement
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: fa025278c2e2cf02df22d31532b0d33786996915
+exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 4%
+source-wordcount: '216'
+ht-degree: 3%
 
 ---
 
@@ -25,9 +26,9 @@ Zodra uw bericht is gecreeerd, kunt u het publiceren om het voor uitvoering ter 
 
 ![](assets/publish-message.png)
 
-Zodra uw bericht wordt gepubliceerd, wordt het toegevoegd aan de berichtlijst met de status **[!UICONTROL Published]**.
+Zodra uw bericht wordt gepubliceerd, wordt het toegevoegd aan de berichtlijst met **[!UICONTROL Published]** status.
 
-Het is nu klaar om door één of meerdere [reizen](building-journeys/journey.md) teweeggebracht te worden.
+Het is nu gereed om te worden geactiveerd door een of meer [reizen](building-journeys/journey.md).
 
 ## Een alleen-lezen bericht bijwerken {#modify-message}
 

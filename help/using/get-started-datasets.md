@@ -3,7 +3,8 @@ title: Aan de slag met gegevenssets
 description: Meer informatie over het gebruik van Adobe Experience Platform-gegevenssets in Adobe Journey Optimizer
 role: User
 level: Beginner
-source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
+exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 12%
@@ -14,19 +15,19 @@ ht-degree: 12%
 
 Alle gegevens die in Adobe Experience Platform worden opgenomen, blijven in het Data Lake als datasets bestaan. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat.
 
-Leer hoe te om datasets in [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target= &quot;_blank&quot;} tot stand te brengen.
+Leer hoe u gegevenssets maakt in [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
 
 Het toevoegen van gegevens aan Adobe Experience Platform is de basis voor het bouwen van een Profiel. Vervolgens kunt u profielen gebruiken in [!DNL Adobe Journey Optimizer]. Bepaal eerst schema&#39;s, gebruik hulpmiddelen ETL om uw gegevens voor te bereiden en te standaardiseren, dan datasets tot stand te brengen die op uw schema&#39;s worden gebaseerd.
 
-➡️ [Leer om een dataset te creëren en te vormen](#video-dataset) (video)
+➡️ [Leer hoe u een dataset maakt en configureert](#video-dataset) (video)
 
-Met de **Datasets**-werkruimte in de [!DNL Adobe Journey Optimizer]-gebruikersinterface kunt u gegevens verkennen en gegevenssets maken.
+De **Gegevenssets** werkruimte in de [!DNL Adobe Journey Optimizer] de gebruikersinterface staat u toe om gegevens te onderzoeken en datasets tot stand te brengen.
 
 ![](assets/datasets-home.png)
 
-Leer hoe te om Datasets UI in [het overzichtsdocumentatie ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target=&quot;_blank&quot;} te gebruiken van de Ingestie van Gegevens.
+Leer hoe u de interface Gegevensbestanden in het dialoogvenster [Documentatie over gegevensinsluiting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target=&quot;_blank&quot;}.
 
-De stapsgewijze documentatie om een Csv- dossier aan een Schema toe te wijzen XDM is beschikbaar in [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html){target=&quot;_blank&quot;}
+De stapsgewijze documentatie om een CSV-bestand toe te wijzen aan een XDM-schema is beschikbaar in [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html){target=&quot;_blank&quot;}
 
 
 ## Hoe kan ik-video{#video-dataset}
@@ -38,6 +39,5 @@ Leer hoe u een dataset maakt, deze toewijst aan een schema, er gegevens aan toev
 **Zie ook**
 
 * [Creeer een schema, een dataset en ga gegevens in om de profielen van de Test in Journey Optimizer toe te voegen](building-journeys/creating-test-profiles.md)
-* [Overzicht](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl) van streaming opname{target=&quot;_blank&quot;}
+* [Overzicht van het opnemen van streaming](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl){target=&quot;_blank&quot;}
 * [Gegevens opnemen in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}
-

@@ -1,33 +1,34 @@
 ---
 title: Aan de slag met profielen in Journey Optimizer
 description: Leer hoe u profielen maakt en beheert in Adobe Journey Optimizer
-feature: Profielen
+feature: Profiles
 role: User
 level: Beginner
-source-git-commit: 8bdefa46ff1ebde2c49ac1d2300797777967c038
+exl-id: be3936e4-8185-4031-9daf-95eea58077d0
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 3%
+source-wordcount: '246'
+ht-degree: 5%
 
 ---
 
 # Aan de slag met profielen {#profiles-gs}
 
-Gebruikmaken van realtime klantprofiel in [!DNL Adobe Journey Optimizer] om een holistische weergave van elke individuele klant te bekijken door gegevens van meerdere kanalen te combineren, waaronder online, offline, CRM en derden. **Met** profielen kunt u uw klantgegevens consolideren in een verenigde weergave die een actionable, tijdstempelaccount van elke klantinteractie biedt.
+Gebruikmaken van realtime-klantprofiel in [!DNL Adobe Journey Optimizer] om een holistische mening van elke individuele klant te zien door gegevens van veelvoudige kanalen, met inbegrip van online, off-line, CRM, en derde te combineren. **Profielen** staat u toe om uw klantengegevens in een verenigde mening te consolideren die een actionable, timestamped rekening van elke klanteninteractie aanbiedt.
 
 >[!NOTE]
 >
->Als uw organisatie nieuw is aan [!DNL Adobe Journey Optimizer] en nog geen actief gecreeerd de datasets van het Profiel heeft of beleid samenvoegt, is **Profielen** dashboard niet zichtbaar. In plaats daarvan bevat het tabblad **Overzicht** koppelingen naar Adobe Experience Platform-documentatie om u te helpen aan de slag te gaan met Real-time klantprofiel.
+>Als uw organisatie nieuw is voor [!DNL Adobe Journey Optimizer] en heeft nog geen actieve datasets van het Profiel of verenigd beleid gecreeerd, **Profielen** het dashboard is niet zichtbaar. In plaats daarvan **Overzicht** op het tabblad vindt u koppelingen naar Adobe Experience Platform-documentatie, zodat u snel aan de slag kunt met Real-Time Customer Profile.
 
 ![](assets/profiles-home.png)
 
-Leer om tot **het dashboard van het Profiel** en gedetailleerde informatie betreffende de metriek toegang te hebben en met het dashboard te werken, verwijs naar [dit sectie](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html){target= &quot;_blank&quot;}.
+Leren hoe u toegang krijgt tot en werkt met de **Profieldashboard** en gedetailleerde informatie over de metriek die in het dashboard worden getoond, verwijs naar [deze sectie](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html){target=&quot;_blank&quot;}.
 
 U kunt gegevensfragmenten samenbrengen uit meerdere bronnen en deze combineren om een volledige weergave van elk van uw individuele klanten te zien. Wanneer het brengen van deze gegevens samen, zijn het fusiebeleid de regels die worden gebruikt om te bepalen hoe de gegevens voorrang zullen krijgen en welke gegevens zullen worden gecombineerd om de verenigde mening tot stand te brengen.
 
-Meer informatie over **Beleid samenvoegen** in deze [documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target=&quot;_blank&quot;}.
+Meer informatie over **Beleid samenvoegen** in [documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target=&quot;_blank&quot;}.
 
 **Zie ook**
 
-* [Real-time documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl) van het Profiel van de Klant {target=&quot;_blank&quot;}
-* [Overzichtsvideo](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html) van het profiel van de Klant in real time {target=&quot;_blank&quot;}
+* [Documentatie van het profiel van de klant in realtime](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl){target=&quot;_blank&quot;}
+* [Video over het realtime-overzicht van het klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target=&quot;_blank&quot;}

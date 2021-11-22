@@ -1,28 +1,29 @@
 ---
 title: Aan de slag met berichten
 description: Meer informatie over het maken van berichten in Journey Optimizer
-feature: Overzicht
-topic: Contentmanagement
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '100'
 ht-degree: 10%
 
 ---
 
 # Aan de slag met berichten {#get-sarted-contents-messages}
 
-Met [!DNL Journey Optimizer] kunt u meerdere bronnen zoals elementen en inhoud op één locatie benutten en persoonlijke pushberichten en e-mailberichten maken en publiceren.
+Gebruiken [!DNL Journey Optimizer] om meerdere bronnen, zoals elementen en inhoud, op één locatie te gebruiken en persoonlijke pushberichten en e-mailberichten te maken en te publiceren.
 
-* Gebruik [!DNL Journey Optimizer] **e-mailontwerpmogelijkheden** om responsieve e-mails te maken of te importeren.
+* Hefboomwerking [!DNL Journey Optimizer] **e-mailontwerpmogelijkheden** om responsieve e-mails te maken of te importeren.
 
-* Gebruik **Adobe Experience Manager Assets Essentials** om uw eigen database met middelen samen te stellen en verrijk uw e-mails.
+* Hefboomwerking **Adobe Experience Manager Assets Essentials** om uw eigen database met elementen te maken en uw e-mails te verrijken.
 
-* Verbeter de ervaring van klanten door **persoonlijke push- en e-mailberichten te maken** op basis van hun profielkenmerken.
+* De ervaring van klanten verbeteren door **persoonlijke push- en e-mailberichten** op basis van hun profielkenmerken.
 
-* **Maak op basis van deze inhoud pushberichten en e-** mailberichten en publiceer deze.
+* **Push- en e-mailberichten maken** op basis van deze inhoud te publiceren.
 
 <table>
 <tr>

@@ -6,7 +6,7 @@ role: User
 level: Intermediate
 source-git-commit: ac6ba317909c962a81c7043bfa2a56e94bc5c9ad
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '772'
 ht-degree: 46%
 
 ---
@@ -33,11 +33,11 @@ Persoonlijke en gevoelige gegevens moeten zorgvuldig worden beheerd. Volg onders
 
 * Ga altijd op verantwoordelijke en ethische wijze te werk bij het gebruik van persoonsgegevens.
 
-* Stuur geen ongewenste berichten (&quot;spam&quot;). Adobe gelooft sterk in de beginselen van toestemmings marketing in het bevorderen van de waarde en loyaliteit van het klantenleven, en verbiedt daarom strikt het gebruik van [!DNL Adobe Journey Optimizer] in het verzenden van ongevraagde berichten.
+* Stuur geen ongewenste berichten (&quot;spam&quot;). Adobe gelooft sterk in de beginselen van toestemmings marketing in het bevorderen van de waarde en de loyaliteit van het klantenleven, en verbiedt daarom strikt het gebruik van [!DNL Adobe Journey Optimizer] in het verzenden van ongevraagde berichten.
 
-[!DNL Journey Optimizer] biedt u de mogelijkheid om de rechten te beheren die aan uw gebruikers zijn toegewezen via verschillende vooraf gebouwde of aangepaste productprofielen. Hierdoor kunt u bepalen wie binnen uw bedrijf toegang heeft tot verschillende typen gegevens en deze kan wijzigen of exporteren. Leer hoe u gebruikersmachtigingen beheert op [deze pagina](administration/permissions.md).
+[!DNL Journey Optimizer] biedt u de mogelijkheid om de rechten te beheren die aan uw gebruikers zijn toegewezen via verschillende vooraf gebouwde of aangepaste productprofielen. Hierdoor kunt u bepalen wie binnen uw bedrijf toegang heeft tot verschillende typen gegevens en deze kan wijzigen of exporteren. Leer hoe u gebruikersmachtigingen beheert in [deze pagina](administration/permissions.md).
 
-[!DNL Journey Optimizer] laat u ook toe om de berichten te volgen die en het gedrag van uw ontvangers door openingen worden verzonden en op verbindingen klikken. Meer informatie over beheer bijhouden vindt u op [deze pagina](message-tracking.md).
+[!DNL Journey Optimizer] laat u ook toe om de berichten te volgen die en het gedrag van uw ontvangers door openingen worden verzonden en op verbindingen klikken. Meer informatie over beheer bijhouden in [deze pagina](message-tracking.md).
 
 ## Privacybeheer {#privacy-management}
 
@@ -54,15 +54,15 @@ Daarom moet u, om privacy goed te kunnen behandelen en persoonsgegevens te kunne
 
 [!DNL Journey Optimizer] erft de meeste veranderingen van datasets die in Adobe Experience Platform worden aangebracht.
 
-Daarom worden de verzoeken van de Privacy (Recht op Toegang en Recht om worden vergeten) beheerd door Experience Platform. U moet uw verzoeken verzenden gebruikend [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=&quot;_blank&quot;}, en **Profiel** en **AEP Data Lake** van de productlijst selecteren wanneer [het creëren van uw privacyverzoek](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target=&quot;_blank&quot;}. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).-->
+Daarom worden de verzoeken van de Privacy (Recht op Toegang en Recht om worden vergeten) beheerd door Experience Platform. U moet uw verzoeken verzenden met [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=&quot;_blank&quot;} en selecteer **Profiel** en **AEP Data Lake** uit de productlijst wanneer [uw privacyverzoek maken](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target=&quot;_blank&quot;}. <!--https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html).-->
 
 >[!NOTE]
 >
->[Beheer van ](../../help/using/consent.md) instemming wordt rechtstreeks binnen Journey Optimizer afgehandeld.
+>[Toegangsbeheer](../../help/using/consent.md) wordt rechtstreeks binnen Journey Optimizer afgehandeld.
 
 ## Adobe Experience Cloud-privacy {#experience-cloud-privacy}
 
-[!DNL Journey Optimizer] maakt deel uit van de Adobe Experience Cloud-oplossingen. De manier waarop privacy wordt behandeld volgt de algemene beginselen van Adobe Experience Cloud. Meer informatie over Adobe Experience Cloud privacy vindt u op [deze pagina](https://www.adobe.com/nl/privacy/marketing-cloud.html).
+[!DNL Journey Optimizer] maakt deel uit van de Adobe Experience Cloud-oplossingen. De manier waarop privacy wordt behandeld volgt de algemene beginselen van Adobe Experience Cloud. Meer informatie over Adobe Experience Cloud privacy in [deze pagina](https://www.adobe.com/nl/privacy/marketing-cloud.html).
 
 Als bedrijf dat Adobe Experience Cloud-oplossingen gebruikt, bepaalt u welke gegevens u verzamelt en naar uw Adobe Experience Cloud-account verzendt. Voorbeelden van soorten informatie die mogelijk worden verzameld, zijn webbrowseractiviteiten, IP-adressen, locatiegegevens van mobiele apparaten, succespercentages van campagnes, items die zijn aangeschaft of in een winkelwagentje zijn geplaatst, enz. Zie het [Adobe-privacybeleid](https://www.adobe.com/nl/privacy/policy.html) voor meer informatie.
 
@@ -73,6 +73,6 @@ Adobe vraagt u om uw klanten een privacybeleid te verstrekken waarin het volgend
 
 >[!NOTE]
 >
->Net als voor alle Adobe-producten kunnen [!DNL Adobe Journey Optimizer]-gebruikers weigeren informatie over hun producten te delen via apps en websites. Meer informatie vindt u in de [Veelgestelde vragen over Adobe Experience Cloud-gebruiksgegevens](https://www.adobe.com/nl/privacy/experience-cloud-usage-info-faq.html).
+>Zoals voor alle Adobe-producten [!DNL Adobe Journey Optimizer] gebruikers kunnen weigeren informatie over hen te delen via apps en websites. Meer informatie in het dialoogvenster [Veelgestelde vragen over Adobe Experience Cloud-gebruiksgegevens](https://www.adobe.com/nl/privacy/experience-cloud-usage-info-faq.html).
 
 <!--Because Journey Optimizer integrates with Adobe Experience Platform, where audiences are transferred from one system to another, you need to pay extra care to personal data protection.-->

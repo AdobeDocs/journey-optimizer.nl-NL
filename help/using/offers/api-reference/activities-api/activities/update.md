@@ -1,26 +1,27 @@
 ---
 title: Besluiten bijwerken
 description: Een beslissing bevat de logica die de selectie van een aanbieding informeert.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 5%
+source-wordcount: '158'
+ht-degree: 4%
 
 ---
 
 # Een beslissing bijwerken
 
-U kunt een besluit in uw container wijzigen of bijwerken door een PATCH verzoek aan [!DNL Offer Library] API te doen.
+U kunt een beslissing in uw container wijzigen of bijwerken door een PATCH-verzoek in te dienen bij de [!DNL Offer Library] API.
 
-Raadpleeg de officiële [JSON-patchdocumentatie](http://jsonpatch.com/) voor meer informatie over JSON Patch, inclusief beschikbare bewerkingen.
+Raadpleeg voor meer informatie over JSON Patch, inclusief beschikbare bewerkingen, de officiële [JSON-patchdocumentatie](http://jsonpatch.com/).
 
 ## Kopteksten van het type Inhoud accepteren
 
-In de volgende tabel worden de geldige waarden weergegeven die bestaan uit de velden *Content-Type* en *Accept* in de aanvraagkoptekst:
+In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
@@ -61,13 +62,13 @@ curl -X PATCH \
 
 | Parameter | Beschrijving |
 | --------- | ----------- |
-| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen omvatten: `add`, `replace` en `remove`. |
+| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen omvatten: `add`, `replace`, en `remove`. |
 | `path` | Het pad van de parameter die moet worden bijgewerkt. |
 | `value` | De nieuwe waarde waarmee u de parameter wilt bijwerken. |
 
 **Antwoord**
 
-Een succesvolle reactie retourneert de bijgewerkte details van de beslissing, inclusief de unieke instantie-id en beslissing `@id`.
+Een succesvol antwoord retourneert de bijgewerkte details van het besluit, inclusief de unieke instantie-id en het bijbehorende besluit `@id`.
 
 ```json
 {

@@ -1,13 +1,14 @@
 ---
 title: Gegevensset voor alternatieven
 description: Deze sectie maakt een lijst van alle gebieden die in de uitgevoerde dataset voor reserveaanbiedingen worden gebruikt.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
@@ -22,170 +23,170 @@ De meest recente succesvolle partij in de dataset wordt getoond op het recht. De
 
 >[!NOTE]
 >
->Leer hoe te om tot de uitgevoerde datasets voor elk voorwerp van uw Bibliotheek van het Aanbod in [deze sectie](../export-catalog/access-dataset.md) toegang te hebben.
+>Leer hoe te om tot de uitgevoerde datasets voor elk voorwerp van uw Bibliotheek van de Aanbieding in toegang te hebben [deze sectie](../export-catalog/access-dataset.md).
 
-Hier is de lijst van alle gebieden die in **[!UICONTROL Decision Object Repository - Fallback Offers]** dataset kunnen worden gebruikt.
+Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogvenster **[!UICONTROL Decision Object Repository - Fallback Offers]** dataset.
 
 ## Id
 
-**Veld:** _id 
-**titel:** Identifier-
-**beschrijving:** een unieke id voor de record.
-**Type:** tekenreeks
+**Veld:** _id
+**Titel:** Id
+**Omschrijving:** Een unieke id voor de record.
+**Type:** string
 
 ## _experience
 
-**Veld:** _
-**ervaringstype:** object
+**Veld:** _experience
+**Type:** object
 
 ### _experience > decisions
 
-**Veld:** beslissingstype:
-**** object
+**Veld:** beslissing
+**Type:** object
 
 #### _experience > decisions > attributes
 
-**Veld:** kenmerken 
-**Titel:** beslissingsoptie Kenmerken 
-**Beschrijving:** Aanvullende eigenschappen of kenmerken die tot deze specifieke beslissingsoptie behoren. Verschillende instanties kunnen verschillende kenmerken hebben (toetsen in de kaart). De kenmerken zijn naamwaardeparen die worden gebruikt om een beslissingsoptie te onderscheiden van andere. Kenmerken worden gebruikt als waarden in de inhoud die deze beslissingsoptie vertegenwoordigt en als kenmerken voor het analyseren en optimaliseren van de prestaties van een optie. Wanneer elke instantie de zelfde attributen of het bezit heeft, zou dat aspect als uitbreidingsschema moeten worden gemodelleerd dat uit de details van de besluitvormingsoptie voortkomt.
-**Tekst:** object
+**Veld:** kenmerken
+**Titel:** Kenmerken van de optie Beslissing
+**Omschrijving:** Aanvullende eigenschappen of kenmerken die tot deze bepaalde beslissingsoptie behoren. Verschillende instanties kunnen verschillende kenmerken hebben (toetsen in de kaart). De kenmerken zijn naamwaardeparen die worden gebruikt om een beslissingsoptie te onderscheiden van andere. Kenmerken worden gebruikt als waarden in de inhoud die deze beslissingsoptie vertegenwoordigt en als kenmerken voor het analyseren en optimaliseren van de prestaties van een optie. Wanneer elke instantie de zelfde attributen of het bezit heeft, zou dat aspect als uitbreidingsschema moeten worden gemodelleerd dat uit de details van de besluitvormingsoptie voortkomt.
+**Type:** object
 
 <!--Field under Characteristics without title = additionalProperties? Desc = Value of the property. Type: string-->
 
 #### _experience > decisions > contents
 
-**Veld:** inhoud, 
-**titel:** Inhoudsgegevens, 
-**beschrijving:** Inhoudsonderdelen om het beslissingsitem in verschillende contexten weer te geven. Een enkele beslissingsoptie kan meerdere inhoudvarianten hebben. Inhoud is informatie die naar een publiek wordt gericht voor gebruik in een (digitale) ervaring. Inhoud wordt via kanalen aan een bepaalde plaatsing geleverd.
-**Tekst:** array
+**Veld:** inhoud
+**Titel:** Details inhoud
+**Omschrijving:** Inhoudsitems om het beslissingsitem in verschillende contexten weer te geven. Een enkele beslissingsoptie kan meerdere inhoudvarianten hebben. Inhoud is informatie die naar een publiek wordt gericht voor gebruik in een (digitale) ervaring. Inhoud wordt via kanalen aan een bepaalde plaatsing geleverd.
+**Type:** array
 
 **_experience > decisions > contents > components**
 
-**Veld:** componenten, 
-**beschrijving:** de componenten van de inhoud die de beslissingsoptie vertegenwoordigen, inclusief alle taalvarianten. Specifieke componenten worden gevonden door &#39;dx:format&#39;, &#39;dc:subject&#39; en &#39;dc:language&#39; of een combinatie daarvan. Deze metagegevens worden gebruikt om de inhoud te zoeken of weer te geven die aan een aanbieding is gekoppeld en deze te integreren volgens het plaatsingscontract.
-**Type:** array 
-**vereist:** &quot;_type&quot;, &quot;_dc&quot;  <!--TBC?-->
+**Veld:** componenten
+**Omschrijving:** De componenten van de inhoud die de beslissingsoptie vertegenwoordigen, inclusief alle taalvarianten. Specifieke componenten worden gevonden door &#39;dx:format&#39;, &#39;dc:subject&#39; en &#39;dc:language&#39; of een combinatie daarvan. Deze metagegevens worden gebruikt om de inhoud te zoeken of weer te geven die aan een aanbieding is gekoppeld en deze te integreren volgens het plaatsingscontract.
+**Type:** array
+**Vereist:** &quot;_type&quot;, &quot;_dc&quot; <!--TBC?-->
 
 * **_experience > decisions > contents > components > Content Component Type**
 
    **Veld:** _type
-   **Titel:** Inhoud, componenttype
-   **Beschrijving:** Een opsomming van URI&#39;s waarbij elke waarde wordt toegewezen aan een type dat aan de inhoudcomponent wordt gegeven. Sommige consumenten van de inhoudrepresentaties verwachten dat de @type-waarde een verwijzing naar een schema is dat aanvullende eigenschappen van de inhoudcomponent beschrijft.
-   **Type:** tekenreeks
+   **Titel:** Type inhoudcomponent
+   **Omschrijving:** Een opsomming van URI&#39;s waarbij elke waarde wordt toegewezen aan een type dat aan de inhoudcomponent wordt gegeven. Sommige consumenten van de inhoudrepresentaties verwachten dat de @type-waarde een verwijzing naar een schema is dat aanvullende eigenschappen van de inhoudcomponent beschrijft.
+   **Type:** string
 
 * **_experience > decisions > contents > components > _dc**
 
    **Veld:** _dc
-   **Tekst:** object
-   **Vereist:** &quot;formaat&quot;
+   **Type:** object
+   **Vereist:** &quot;format&quot;
 
    * **Indeling**
 
-      **Veld:** indeling
+      **Veld:** format
       **Titel:** Indeling
-      **Beschrijving:** De fysieke of digitale manifestatie van de bron. Normaal gesproken moet de indeling het mediatype van de bron bevatten. De indeling kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. Aanbevolen wordt om een waarde uit een gecontroleerde woordenlijst te selecteren (bijvoorbeeld de lijst met [Internet Media Types](http://www.iana.org/ toewijzingen/media-types/) die computermedia formaten bepalen).
-      **Type:** tekenreeks
+      **Omschrijving:** De fysieke of digitale manifestatie van de bron. Normaal gesproken moet de indeling het mediatype van de bron bevatten. De indeling kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. De aanbevolen werkwijze is het selecteren van een waarde in een gecontroleerde woordenlijst (bijvoorbeeld de lijst met [Internetmediatypen](http://www.iana.org/).
+      **Type:** string
       **Voorbeeld:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Taal**
 
       **Veld:** taal
       **Titel:** Taal
-      **Beschrijving:** De taal of talen van de bron. \nTalen worden opgegeven in taalcode zoals gedefinieerd in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), die deel uitmaakt van BCP 47, die elders in XDM wordt gebruikt.
-      **Tekst:** array
+      **Omschrijving:** De taal of talen van de bron. \nTalen worden opgegeven in taalcode zoals gedefinieerd in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), dat deel uitmaakt van BCP 47, dat elders in XDM wordt gebruikt.
+      **Type:** array
       **Voorbeelden:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
 * **_experience > decisions > contents > components > _repo**
 
    **Veld:** _repo
-   **Tekst:** object
+   **Type:** object
 
    * **id**
 
       **Veld:** id
-      **Beschrijving:** Een optionele unieke id die verwijst naar het element in een inhoudsopslagplaats. Wanneer Platform-API&#39;s worden gebruikt om de representatie op te halen, kan de client een extra eigenschap \&quot;repo:resolveUrl\&quot; verwachten om het element op te halen.
-      **Type:** tekenreeks
-      **Voorbeeld:** &quot;:aaid:urnsc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+      **Omschrijving:** Een optionele unieke id die verwijst naar het element in een inhoudsopslagplaats. Wanneer Platform-API&#39;s worden gebruikt om de representatie op te halen, kan de client een extra eigenschap \&quot;repo:resolveUrl\&quot; verwachten om het element op te halen.
+      **Type:** string
+      **Voorbeeld:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
-      **Veld:** naam
-      **Beschrijving:** enige aanwijzing voor de locatie van de opslagplaats die het externe element opslaat met de \&quot;repo:id\&quot;.
-      **Type:** tekenreeks
+      **Veld:** name
+      **Omschrijving:** Sommige tips over de locatie van de opslagplaats die het externe element opslaat via de \&quot;repo:id\&quot;.
+      **Type:** string
 
    * **repositoryID**
 
-      **Veld:** gegevensopslagruimteID
-      **Beschrijving:** Een optionele unieke id die verwijst naar het element in een inhoudsopslagplaats. Wanneer Platform-API&#39;s worden gebruikt om de representatie op te halen, kan de client een extra eigenschap \&quot;repo:resolveUrl\&quot; verwachten om het element op te halen.
-      **Type:** tekenreeks
+      **Veld:** repositoryID
+      **Omschrijving:** Een optionele unieke id die verwijst naar het element in een inhoudsopslagplaats. Wanneer Platform-API&#39;s worden gebruikt om de representatie op te halen, kan de client een extra eigenschap \&quot;repo:resolveUrl\&quot; verwachten om het element op te halen.
+      **Type:** string
       **Voorbeeld:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
       **Veld:** resolveURL
-      **Beschrijving:** Een optionele unieke resource locator voor het lezen van het element in een inhoudsopslagplaats. Hierdoor wordt het eenvoudiger om het middel te verkrijgen zonder dat de klant begrijpt waar het middel wordt beheerd en welke API&#39;s moeten worden aangeroepen. Dit is vergelijkbaar met een HAL-link, maar de semantiek is eenvoudiger en doelgerichter.
-      **Type:** tekenreeks
+      **Omschrijving:** Een optionele unieke resource locator voor het lezen van het middel in een inhoudsopslagplaats. Hierdoor wordt het eenvoudiger om het middel te verkrijgen zonder dat de klant begrijpt waar het middel wordt beheerd en welke API&#39;s moeten worden aangeroepen. Dit is vergelijkbaar met een HAL-link, maar de semantiek is eenvoudiger en doelgerichter.
+      **Type:** string
       **Voorbeeld:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > decisions > contents > components > content**
 
-   **Veld:** inhoud
-   **Beschrijving:** Een optioneel veld voor de directe opslag van inhoud. In plaats van te verwijzen naar inhoud in een opslagplaats voor bedrijfsmiddelen, kan de component eenvoudige inhoud direct bevatten. Dit veld wordt niet gebruikt voor samengestelde, complexe en binaire inhoudselementen.
-   **Type:** tekenreeks
+   **Veld:** content
+   **Omschrijving:** Een optioneel veld waarin inhoud rechtstreeks kan worden opgeslagen. In plaats van te verwijzen naar inhoud in een opslagplaats voor bedrijfsmiddelen, kan de component eenvoudige inhoud direct bevatten. Dit veld wordt niet gebruikt voor samengestelde, complexe en binaire inhoudselementen.
+   **Type:** string
 
 * **_experience > decisions > contents > components > deliveryURL**
 
    **Veld:** deliveryURL
-   **Beschrijving:** Een optionele unieke resource locator om het element te verkrijgen van een netwerk of servicedetectief voor de levering van inhoud. Deze URL wordt gebruikt om tot het middel openlijk door een gebruikersagent toegang te hebben.
-   **Type:** tekenreeks
+   **Omschrijving:** Een facultatieve unieke middellocator om het middel van een netwerk of de diensteindpunt van de inhoudslevering te verkrijgen. Deze URL wordt gebruikt om tot het middel openlijk door een gebruikersagent toegang te hebben.
+   **Type:** string
    **Voorbeeld:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisions > contents > components > linkURL**
 
    **Veld:** linkURL
-   **Beschrijving:** een optionele unieke resource locator voor gebruikersinteracties. Deze URL wordt gebruikt om de eindgebruiker naar in een gebruikersagent te verwijzen en kan worden gevolgd.
-   **Type:** tekenreeks
+   **Omschrijving:** Een optionele unieke resource locator voor gebruikersinteracties. Deze URL wordt gebruikt om de eindgebruiker naar in een gebruikersagent te verwijzen en kan worden gevolgd.
+   **Type:** string
    **Voorbeeld:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 **_experience > decisions > contents > Placement**
 
-**Veld:** plaatsingstitel:
-**Plaatsingsbeschrijving:** Plaatsing 
-**beschrijving:** Plaatsing om aan te passen. De waarde is de URI (@id) van de aanbiedingsplaatsing waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/placement.
-**Type:** tekenreeks
+**Veld:** plaatsing
+**Titel:** Plaatsing
+**Omschrijving:** Plaatsing om te voldoen aan. De waarde is de URI (@id) van de aanbiedingsplaatsing waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/placement.
+**Type:** string
 
 #### _experience > decisions > Lifecycle Status
 
-**Veld:** levenscyclusStatus 
-**Titel:** Levenscyclusstatus 
-**Beschrijving:Met de status van de** levenscyclus kunnen workflows worden uitgevoerd met een object. De status kan van invloed zijn op de plaats waar een object zichtbaar is of als relevant wordt beschouwd. De veranderingen van de status worden gedreven door de cliënten of de diensten die de voorwerpen gebruiken.
-**Type:** tekenreeks 
+**Veld:** lifecycleStatus
+**Titel:** Status levenscyclus
+**Omschrijving:** Met de levenscyclusstatus kunnen workflows met een object worden uitgevoerd. De status kan van invloed zijn op de plaats waar een object zichtbaar is of als relevant wordt beschouwd. De veranderingen van de status worden gedreven door de cliënten of de diensten die de voorwerpen gebruiken.
+**Type:** string
 **Mogelijke waarden:** &quot;Concept&quot; (standaardwaarde), &quot;Goedgekeurd&quot;, &quot;Live&quot;, &quot;Voltooid&quot;, &quot;Gearchiveerd&quot;
 
 #### _experience > decisions > Decision Option Name
 
-**Veld:** naam, 
-**titel:Naam van** beslissingsoptie, 
-**beschrijving:** optienaam die wordt weergegeven in verschillende gebruikersinterfaces.
-**Type:** tekenreeks
+**Veld:** name
+**Titel:** Naam van beslissingsoptie
+**Omschrijving:** De naam van de optie die in diverse gebruikersinterfaces wordt getoond.
+**Type:** string
 
 #### _experience > decisions > tags
 
-**Veld:** tags, 
-**titel:** Tags, 
-**beschrijving:** de set codes die aan deze entiteit zijn gekoppeld. De tags worden gebruikt in filterexpressies om de totale voorraad te beperken tot een subset (categorie).
-**Tekst:** array
+**Veld:** tags
+**Titel:** Tags
+**Omschrijving:** De reeks codes die aan deze entiteit is gekoppeld. De tags worden gebruikt in filterexpressies om de totale voorraad te beperken tot een subset (categorie).
+**Type:** array
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
 ## _repo
 
-**Veld:** _repo-
-**type:** object
+**Veld:** _repo
+**Type:** object
 
 ### _repo > Beslissingsoptie ETag
 
-**Veld:** tijdlijntitel:
-**Titel van** beslissingsoptie ETag-
-**beschrijving:** de revisie die het object van de beslissingsoptie had toen de momentopname werd gemaakt.
-**Type:** tekenreeks
+**Veld:** etel
+**Titel:** Beslissingsoptie ETag
+**Omschrijving:** De revisie die het object voor de beslissingsoptie had toen de momentopname werd gemaakt.
+**Type:** string

@@ -1,13 +1,14 @@
 ---
 title: Aan de slag met Beslissingsbeheergebeurtenissen
 description: Leer hoe u Beslissingsbeheerrapporten maakt in Adobe Experience Platform.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: User
 level: Beginner
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '172'
 ht-degree: 47%
 
 ---
@@ -18,11 +19,11 @@ Telkens wanneer Beslissingsbeheer een besluit neemt voor een bepaald profiel, wo
 
 Op deze manier kunt u deze gegevens exporteren om ze te analyseren in uw eigen rapportagesysteem. U kunt de Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl) ook gebruiken in combinatie met andere tools voor verbeterde analyse- en rapportagedoeleinden.
 
-De datasets met de gebeurtenissen van het Beheer van het Besluit zijn toegankelijk van Adobe Experience Platform **[!UICONTROL Datasets]** menu. Eén dataset wordt automatisch gemaakt bij het invullen van elk van uw instanties.
+De datasets met gebeurtenissen van het Besluit Management zijn toegankelijk vanuit Adobe Experience Platform **[!UICONTROL Datasets]** -menu. Eén dataset wordt automatisch gemaakt bij het invullen van elk van uw instanties.
 
 ![](../../assets/events-datasets-list.png)
 
-Deze datasets zijn gebaseerd op het **[!UICONTROL ODE DecisionEvents]** schema, dat alle gebieden XDM bevat die worden vereist om informatie van het Beheer van het Besluit naar Adobe Experience Platform te verzenden.
+Deze gegevensbestanden zijn gebaseerd op de **[!UICONTROL ODE DecisionEvents]** schema, dat alle XDM gebieden bevat die worden vereist om informatie van Beslissingsbeheer naar Adobe Experience Platform te verzenden.
 
 >[!NOTE]
 >

@@ -2,13 +2,14 @@
 title: De reis publiceren
 description: Leer hoe u een reis publiceert
 feature: Journeys
-topic: Contentmanagement
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 8%
+source-wordcount: '176'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +22,7 @@ Als u wijzigingen in een gepubliceerde reis moet aanbrengen, moet u een nieuwe v
 Als je een reis stopt, wordt deze definitief gestopt. Alle mensen die op de reis gaan, zullen permanent worden gestopt en de reis zal ophouden nieuwkomers toe te laten. Als u de reis opnieuw moet gebruiken, moet u het dupliceren en het publiceren.
 
 1. Controleer voordat u uw reis publiceert of deze geldig is en of er geen fout optreedt. U kunt geen reis met fouten publiceren. Zie [deze sectie](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb). Het wordt ook aanbevolen uw reis vóór publicatie te testen. Zie [deze pagina](../building-journeys/testing-the-journey.md).
-1. Als u de rit wilt publiceren, klikt u op de optie **[!UICONTROL Publish]** in de rechterbovenkeuzelijst.
+1. Als u de rit wilt publiceren, klikt u op de knop **[!UICONTROL Publish]** in de rechterbovenkeuzelijst.
 
    ![](../assets/journeyuc1_18.png)
 

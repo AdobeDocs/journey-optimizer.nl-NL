@@ -1,14 +1,15 @@
 ---
 title: journaalgebeurtenissen gemeenschappelijke velden
 description: journaalgebeurtenissen gemeenschappelijke velden
-feature: Rapportage
-topic: Contentmanagement
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 8f77802fcaa23790f9de4e8f15e593643b13fb1e
+exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 1%
+source-wordcount: '582'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 Deze veldgroep wordt gedeeld door de tripStepEvent en de tripStepProfileEvent.
 
-Dit zijn de gemeenschappelijke gebieden XDM die [!DNL Journey Optimizer] naar Adobe Experience Platform verzendt. Voor elke stap die op reis wordt verwerkt, worden gemeenschappelijke velden verzonden. Voor aangepaste handelingen en verbeteringen worden specifiekere velden gebruikt.
+Dit zijn de gemeenschappelijke gebieden XDM die [!DNL Journey Optimizer] naar Adobe Experience Platform. Voor elke stap die op reis wordt verwerkt, worden gemeenschappelijke velden verzonden. Voor aangepaste handelingen en verbeteringen worden specifiekere velden gebruikt.
 
 Sommige van deze velden zijn alleen beschikbaar in specifieke verwerkingspatronen (uitvoering van handelingen, ophalen van gegevens, enz.) om de omvang van gebeurtenissen te beperken.
 

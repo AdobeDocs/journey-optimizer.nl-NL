@@ -1,24 +1,25 @@
 ---
 title: Beslissingsregels maken
-description: Beslissingsregels zijn beperkingen die worden toegevoegd aan een gepersonaliseerd aanbod en die worden toegepast op een profiel om te bepalen of het in aanmerking komt voor een aanbieding.
-feature: Aanbiedingen
-topic: Integraties
+description: Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die op een profiel worden toegepast om te bepalen of het in aanmerking komt voor een aanbieding.
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '138'
 ht-degree: 7%
 
 ---
 
 # Een beslissingsregel maken
 
-Beslissingsregels zijn beperkingen die worden toegevoegd aan een gepersonaliseerd aanbod en die worden toegepast op een profiel om te bepalen of het in aanmerking komt voor een aanbieding.
+Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die op een profiel worden toegepast om te bepalen of het in aanmerking komt voor een aanbieding.
 
 ## Kopteksten van het type Inhoud accepteren
 
-In de volgende tabel worden de geldige waarden weergegeven die bestaan uit de velden *Content-Type* en *Accept* in de aanvraagkoptekst:
+In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
@@ -71,7 +72,7 @@ curl -X POST \
 
 **Antwoord**
 
-Een succesvolle reactie keert informatie over de pas gecreëerde besluitregel, met inbegrip van zijn unieke instantieidentiteitskaart en plaatsing `@id` terug. U kunt de instantie-id in latere stappen gebruiken om uw beslissingsregel bij te werken of te verwijderen. U kunt uw unieke besluitvormingsregel `@id` in een recentere zelfstudie gebruiken om gepersonaliseerde aanbiedingen tot stand te brengen.
+Een geslaagde reactie retourneert informatie over de nieuw gemaakte beslissingsregel, inclusief de unieke instantie-id en plaatsing `@id`. U kunt de instantie-id in latere stappen gebruiken om uw beslissingsregel bij te werken of te verwijderen. U kunt uw unieke beslissingsregel gebruiken `@id` in een latere zelfstudie om persoonlijke aanbiedingen te maken.
 
 ```json
 {

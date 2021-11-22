@@ -1,20 +1,21 @@
 ---
 title: Labels verwijderen
 description: Met labels kunt u uw voorstellen beter organiseren en doorlopen.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 4%
+source-wordcount: '143'
+ht-degree: 3%
 
 ---
 
 # Een tag verwijderen
 
-Soms is het nodig om een tag te verwijderen (DELETE). Alleen tags die u maakt in de container van de huurder, kunnen worden verwijderd. Dit wordt gedaan door een verzoek van DELETE aan [!DNL Offer Library] API uit te voeren gebruikend $id van de markering u wenst om te schrappen.
+Soms is het nodig om een tag te verwijderen (DELETE). Alleen tags die u maakt in de container van de huurder, kunnen worden verwijderd. Dit wordt gedaan door een verzoek van de DELETE aan uit te voeren [!DNL Offer Library] API die $id gebruikt van de tag die u wilt verwijderen.
 
 **API-indeling**
 

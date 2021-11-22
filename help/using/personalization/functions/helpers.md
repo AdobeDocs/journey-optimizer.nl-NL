@@ -25,7 +25,7 @@ De `Default Fallback Value` helper wordt gebruikt om een standaardreservewaarde 
 Hello {%=profile.personalEmail.name.firstName ?: 'there' %}!
 ```
 
-In dit voorbeeld wordt de waarde `there` weergegeven als het kenmerk `firstName` van dit profiel leeg of null is.
+In dit voorbeeld wordt de waarde `there` wordt weergegeven als de `firstName` Het kenmerk van dit profiel is leeg of null.
 
 ## Voorwaarden{#if-function}
 
@@ -39,8 +39,8 @@ Als de uitdrukkingsevaluatie waar terugkeert, wordt het blok teruggegeven anders
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-Na `if` helper, kunt u een `else` verklaring ingaan om een blok van uit te voeren code te specificeren, als de zelfde voorwaarde vals is.
-De instructie `elseif` geeft een nieuwe voorwaarde op die moet worden getest als de eerste instructie false retourneert.
+Na de `if` helper, u kunt een `else` om een codeblok op te geven dat moet worden uitgevoerd als dezelfde voorwaarde onwaar is.
+De `elseif` De instructie geeft een nieuwe voorwaarde op die moet worden getest als de eerste instructie false retourneert.
 
 
 **Indeling**
@@ -116,12 +116,12 @@ De instructie `elseif` geeft een nieuwe voorwaarde op die moet worden getest als
 
 >[!NOTE]
 >
->Raadpleeg deze [sectie](../../segment/about-segments.md) voor meer informatie over segmentatie en segmentatieservice.
+>Meer over segmentatie en segmentatie de dienst leren, verwijs naar dit [sectie](../../segment/about-segments.md).
 
 
 ## Tenzij{#unless}
 
-De `unless` helper wordt gebruikt om een voorwaardelijk blok te bepalen. Door tegen de `if` helper, als de uitdrukkingsevaluatie vals terugkeert, wordt het blok teruggegeven.
+De `unless` helper wordt gebruikt om een voorwaardelijk blok te bepalen. Door bezwaar aan te tekenen tegen de `if`  helper, als de uitdrukkingsevaluatie vals terugkeert, wordt het blok teruggegeven.
 
 **Syntaxis**
 
@@ -144,8 +144,7 @@ Some edu specific content Content
 ## Elk{#each}
 
 De `each` helper wordt gebruikt om over een serie te herhalen.
-De syntaxis van de hulplijn is ```{{#each ArrayName}}``` YourContent {{/each}}
-We kunnen naar de afzonderlijke arrayitems verwijzen door het trefwoord **this** in het blok te gebruiken. De index van het element van de array kan worden gerenderd met {{@index}}.
+De syntaxis van de hulplijn is ```{{#each ArrayName}}``` YourContent {{/each}} We kunnen naar de afzonderlijke arrayitems verwijzen met het trefwoord **dit** in het blok. De index van het element van de array kan worden gerenderd met {{@index}}.
 
 **Syntaxis**
 
@@ -177,7 +176,7 @@ Een lijst met producten weergeven die deze gebruiker in zijn winkelwagentje heef
 
 ## Met{#with}
 
-De hulp `with` wordt gebruikt om het evaluatietoken van malplaatje-deel te veranderen.
+De `with` helper wordt gebruikt om het evaluatietoken van malplaatje-deel te veranderen.
 
 **Syntaxis**
 
@@ -187,7 +186,7 @@ De hulp `with` wordt gebruikt om het evaluatietoken van malplaatje-deel te veran
 {{/with}}
 ```
 
-De hulp `with` is nuttig om een kortere wegvariabele ook te bepalen.
+De `with` helper is nuttig om een kortere wegvariabele ook te bepalen.
 
 **Voorbeeld**
 
@@ -202,7 +201,7 @@ Wordt gebruikt met voor het aliasing van lange variabelenamen naar kortere namen
 
 ## Laat{#let}
 
-Met de functie `let` kan een expressie worden opgeslagen als een variabele die later in een query moet worden gebruikt.
+De `let` De functie staat een uitdrukking toe om als variabele worden opgeslagen die later in een vraag moet worden gebruikt.
 
 **Syntaxis**
 

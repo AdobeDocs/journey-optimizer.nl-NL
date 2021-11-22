@@ -1,14 +1,15 @@
 ---
 title: Informatie over Adobe Analytics-gegevens
 description: Meer informatie over hoe Adobe Analytics-gegevens kunnen worden gebruikt
-feature: Gebeurtenissen
-topic: Beheer
+feature: Events
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63de381ea3a87b9a77bc6f1643272597b50ed575
+exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 1%
+source-wordcount: '190'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +23,9 @@ U kunt alle Adobe Analytics-gedragsgebeurtenisgegevens die u al vastlegt en in h
 
 Dit werkt alleen als u in Adobe Experience Platform de rapportsuite activeert die u wilt gebruiken:
 
-1. Selecteer in Adobe Experience Platform **[!UICONTROL Sources]** en **[!UICONTROL Add data]** in de sectie Adobe Analytics. De lijst met beschikbare Adobe Analytics-rapportsuites wordt weergegeven.
+1. Selecteer in Adobe Experience Platform **[!UICONTROL Sources]** dan **[!UICONTROL Add data]** in de sectie Adobe Analytics. De lijst met beschikbare Adobe Analytics-rapportsuites wordt weergegeven.
 
-1. Kies de rapportsuite die u wilt inschakelen, klik op **[!UICONTROL Next]** en klik op **[!UICONTROL Finish]**.
+1. Kies de rapportsuite die u wilt inschakelen en klik op **[!UICONTROL Next]** en klik op **[!UICONTROL Finish]**.
 
 1. Deel de bronGegevens ID met uw het programmapunt van Beta van contact.
 
@@ -32,4 +33,4 @@ Dit laat de bron van Analytics schakelaar voor die rapportreeks toe. Telkens wan
 
 ![](../assets/jo-event9.png)
 
-Leer meer over de bronschakelaar van Adobe Analytics in [Adobe Experience Platform documentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target=&quot;_blank&quot;} en [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target=&quot;_blank&quot;}.
+Meer informatie over de Adobe Analytics-bronconnector in  [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target=&quot;_blank&quot;} en [zelfstudie](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target=&quot;_blank&quot;}.

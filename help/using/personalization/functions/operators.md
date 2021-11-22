@@ -1,14 +1,15 @@
 ---
 title: Operatorfuncties, bibliotheek
 description: Operatorfuncties, bibliotheek
-feature: Personalisatie
-topic: Personalisatie
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 8%
+source-wordcount: '302'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +21,7 @@ Booleaanse functies worden gebruikt voor het uitvoeren van Booleaanse logica op 
 
 ### en{#and}
 
-De functie `and` wordt gebruikt om een logische samenhang tot stand te brengen.
+De `and` Deze functie wordt gebruikt om een logische combinatie te maken.
 
 **Indeling**
 
@@ -38,7 +39,7 @@ De volgende operatie zal alle mensen met een thuisland als Frankrijk en geboorte
 
 ### of{#or}
 
-De functie `or` wordt gebruikt om een logische scheiding tot stand te brengen.
+De `or` Deze functie wordt gebruikt om een logische scheiding te maken.
 
 **Indeling**
 
@@ -85,7 +86,7 @@ Vergelijkingsfuncties worden gebruikt om verschillende expressies en waarden met
 
 ### Equals (Is gelijk aan){#equals}
 
-De functie `=` (equals) controleert of één waarde of expressie gelijk is aan een andere waarde of expressie.
+De `=` (equals) functie controleert of één waarde of expressie gelijk is aan een andere waarde of expressie.
 
 **Indeling**
 
@@ -103,7 +104,7 @@ De volgende operatie controleert of het thuisadresland Frankrijk is.
 
 ### Niet gelijk{#notequal}
 
-De functie `!=` (niet gelijk aan) controleert of één waarde of expressie **niet** gelijk is aan een andere waarde of expressie.
+De `!=` (niet gelijk aan) functie controleert of één waarde of expressie **niet** gelijk aan een andere waarde of expressie.
 
 **Indeling**
 
@@ -121,7 +122,7 @@ De volgende operatie controleert of het thuisadresland niet Frankrijk is.
 
 ### Greater than{#greaterthan}
 
-De functie `>` (groter dan) wordt gebruikt om te controleren of de eerste waarde groter is dan de tweede waarde.
+De `>` (groter dan) wordt gebruikt om te controleren of de eerste waarde groter is dan de tweede waarde.
 
 **Indeling**
 
@@ -139,7 +140,7 @@ De volgende bewerking definieert personen die strikt na 1970 geboren zijn.
 
 ### Greater than or equal to{#greaterthanorequal}
 
-De functie `>=` (groter dan of gelijk aan) wordt gebruikt om te controleren of de eerste waarde groter dan of gelijk aan de tweede waarde is.
+De `>=` (groter dan of gelijk aan) functie wordt gebruikt om te controleren of de eerste waarde groter dan of gelijk aan de tweede waarde is.
 
 **Indeling**
 
@@ -157,7 +158,7 @@ In de volgende bewerking worden personen gedefinieerd die in of na 1970 zijn geb
 
 ### Less than{#lessthan}
 
-De vergelijkingsfunctie `<` (kleiner dan) wordt gebruikt om te controleren of de eerste waarde minder is dan de tweede waarde.
+De `<` (kleiner dan) vergelijkingsfunctie wordt gebruikt om te controleren of de eerste waarde kleiner is dan de tweede waarde.
 
 **Indeling**
 
@@ -175,7 +176,7 @@ In de volgende bewerking worden personen gedefinieerd die vóór 2000 zijn gebor
 
 ### Less than or equal to{#lessthanorequal}
 
-De vergelijkingsfunctie `<=` (kleiner dan of gelijk aan) wordt gebruikt om te controleren of de eerste waarde kleiner dan of gelijk aan de tweede waarde is.
+De `<=` (kleiner dan of gelijk aan) vergelijkingsfunctie wordt gebruikt om te controleren of de eerste waarde kleiner dan of gelijk is aan de tweede waarde.
 
 **Indeling**
 
@@ -192,4 +193,3 @@ De volgende bewerking definieert personen die in 2000 of eerder zijn geboren.
 ```
 
 **Bewerkingen met getallen**
-

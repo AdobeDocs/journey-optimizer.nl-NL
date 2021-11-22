@@ -1,14 +1,15 @@
 ---
 title: Belangrijke stappen om een aanbieding te maken
 description: Ontdek de belangrijkste stappen die nodig zijn om een aanbieding te maken.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 5631a1937b854c3e14d1816df9e8d30690588303
+exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 8%
+source-wordcount: '342'
+ht-degree: 10%
 
 ---
 
@@ -18,19 +19,19 @@ De belangrijkste stappen om aanbiedingen te creëren, te vormen en te beheren, e
 
 ![](../../assets/offer-create-manage-process.png)
 
-Voor een volledig end-to-end voorbeeld dat toont hoe te om aanbiedingen te vormen, gebruik hen in een besluit en hefboomwerking dit besluit in een e-mail, controleer [deze pagina](../offers-e2e.md).
+Voor een volledig end-to-end voorbeeld dat toont hoe te om aanbiedingen te vormen, gebruik hen in een besluit en hefboomwerking dit besluit in een e-mail, controleer uit [deze pagina](../offers-e2e.md).
 
 ## Componenten maken
 
 Voordat u aanbiedingen gaat maken, moet u verschillende componenten definiëren die u in uw aanbiedingen wilt gebruiken.
 
-1. **Maak plaatsingen**. Dit zijn containers die worden gebruikt om uw aanbiedingen weer te geven. U kunt bijvoorbeeld een plaatsing maken die alleen in afbeeldingsindeling aan aanbiedingen wordt toegewezen en boven aan uw berichten wordt geplaatst.
+1. **Plaatsen maken**, dit zijn containers die worden gebruikt om uw voorstellen te tonen. U kunt bijvoorbeeld een plaatsing maken die alleen in afbeeldingsindeling aan aanbiedingen wordt toegewezen en boven aan uw berichten wordt geplaatst.
 
-1. **Beslissingsregels opstellen** waarin de voorwaarden voor de indiening van de aanbiedingen worden vastgelegd.
+1. **Beslissingsregels maken** daarin worden de voorwaarden voor de indiening van de offertes gespecificeerd .
 
-1. **Maak** tags die u aan de aanbiedingen wilt koppelen, zodat u deze eenvoudig kunt organiseren en doorzoeken in de bibliotheek.
+1. **Tags maken** dat u aan de aanbiedingen zult associëren, die u toestaat om hen gemakkelijk te organiseren en in de bibliotheek te zoeken.
 
-1. Als u regels wilt definiëren die bepalen welke aanbieding als eerste voor een bepaalde plaatsing moet worden gepresenteerd (in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen), kunt u **een rangschikkingsformule maken**.
+1. Als u regels wilt definiëren die bepalen welke aanbieding als eerste voor een bepaalde plaatsing moet worden gepresenteerd (in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen), kunt u **een waarderingsformule maken**.
 
 <table>
 <tr>
@@ -42,11 +43,11 @@ Voordat u aanbiedingen gaat maken, moet u verschillende componenten definiëren 
 
 ## Aanbiedingen maken en beheren
 
-1. **Creeer aanbiedingen**, en vorm hun inhoud en eigenschappen.
+1. **Aanbiedingen maken** en configureren van de inhoud en eigenschappen ervan.
 
-1. **Maak fallback-aanbiedingen**. Dit zijn de laatste aanbiedingen die kunnen worden weergegeven als klanten niet in aanmerking komen voor een van de geselecteerde aanbiedingen.
+1. **Terugvalvoorstellen maken**, die het laatste redmiddel zijn dat wordt weergegeven als klanten niet in aanmerking komen voor een van de geselecteerde aanbiedingen.
 
-1. **Creeer een** inzameling om de gepersonaliseerde aanbiedingen te omvatten u creeerde en hen in een besluit te gebruiken.
+1. **Een verzameling maken** om de persoonlijke aanbiedingen die u hebt gemaakt, op te nemen en te gebruiken in een beslissing.
 
 <table>
 <tr>
@@ -57,11 +58,11 @@ Voordat u aanbiedingen gaat maken, moet u verschillende componenten definiëren 
 
 ## Besluiten maken en configureren
 
-1. **Maak een** beslissing die plaatsingen zal combineren met de gepersonaliseerde aanbiedingen en de terugvalaanbiedingen. Deze combinatie wordt door de Offer decisioning-engine gebruikt om de beste aanbieding voor een specifiek profiel te vinden.
+1. **Een beslissing maken** dat zal plaatsingen combineren met de gepersonaliseerde aanbiedingen en de terugvalaanbiedingen . Deze combinatie wordt door de Offer decisioning-engine gebruikt om de beste aanbieding voor een specifiek profiel te vinden.
 
-1. **Vorm de beslissing**. Selecteer hiertoe de plaatsen en selecteer voor elke plaatsing een verzameling en een fallback.
+1. **De beslissing configureren**. Selecteer hiertoe de plaatsen en selecteer voor elke plaatsing een verzameling en een fallback.
 
-1. Indien nodig, kunt u **een rangschikkende formule** aan een plaatsing toewijzen wanneer het vormen van de beslissing.
+1. Indien nodig kunt u **een rangschikkingsformule toewijzen** aan een plaatsing wanneer het vormen van het besluit.
 
 <table>
 <tr>

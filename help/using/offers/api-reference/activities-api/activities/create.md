@@ -1,24 +1,25 @@
 ---
 title: Beslissingen nemen
 description: Een beslissing bevat de logica die de selectie van een aanbieding informeert.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 7%
+source-wordcount: '119'
+ht-degree: 6%
 
 ---
 
 # Een beslissing nemen
 
-U kunt een beslissing (die eerder als aanbiedingsactiviteit wordt bekend) tot stand brengen door een verzoek van de POST aan [!DNL Offer Library] API te richten, terwijl het verstrekken van uw containeridentiteitskaart
+U kunt een beslissing maken (voorheen bekend als aanbiedingsactiviteit) door een verzoek van de POST in te dienen bij de [!DNL Offer Library] API, terwijl u uw container-id opgeeft.
 
 ## Kopteksten van het type Inhoud accepteren
 
-In de volgende tabel worden de geldige waarden weergegeven die bestaan uit de velden *Content-Type* en *Accept* in de aanvraagkoptekst:
+In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
@@ -68,7 +69,7 @@ curl -X POST \
 
 **Antwoord**
 
-Een succesvolle reactie retourneert informatie over de nieuwe beslissing, inclusief de unieke instantie-id en plaatsing `@id`. U kunt de instantie-id in latere stappen gebruiken om uw beslissing bij te werken of te verwijderen.
+Een geslaagde reactie retourneert informatie over de nieuwe beslissing, inclusief de unieke instantie-id en plaatsing `@id`. U kunt de instantie-id in latere stappen gebruiken om uw beslissing bij te werken of te verwijderen.
 
 ```json
 {

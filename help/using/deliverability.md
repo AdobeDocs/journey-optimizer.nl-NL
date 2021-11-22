@@ -39,7 +39,7 @@ Als algemene regel geldt dat u ontvangers die zich willen afmelden, niet in de w
 
 Extra zorg betalen wanneer om extra bevestiging wordt gevraagd: een gebruiker kan twee e-mailadressen naar hetzelfde vak hebben omgeleid (bijvoorbeeld: firstname.lastname@club.com en firstname.lastname@internet-club.com). Als het profiel alleen het eerste adres kan onthouden en het abonnement wil opzeggen via een bericht dat naar het andere wordt verzonden, wordt dit door het formulier geweigerd omdat de gecodeerde id en het ingevoerde e-mailadres niet overeenkomen.
 
-## Overzichtslijsten {#suppression-lists}
+## Overzichtsonderdrukkingslijsten {#suppression-lists}
 
 [!DNL Journey Optimizer] beheert een onderdrukkingslijst die spamklachten, harde stuit, en zachte stuitingen verzamelt die consequent voorkomen.
 

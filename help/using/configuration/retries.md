@@ -15,25 +15,25 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: b18f8c468157988be9cca44795b46f6fb4a0208e
+exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 1%
 
 ---
 
-
 # Hernieuwde pogingen {#retries}
 
-Wanneer een e-mailbericht mislukt als gevolg van een tijdelijke **Zachte fout**, worden verschillende pogingen opnieuw uitgevoerd. Elke fout verhoogt een foutenteller. Wanneer deze teller de grensdrempel bereikt, wordt het adres toegevoegd aan de onderdrukkingslijst.
+Wanneer een e-mailbericht mislukt als gevolg van een tijdelijke **Zachte stuit** fout. Er worden verschillende keren opnieuw geprobeerd. Elke fout verhoogt een foutenteller. Wanneer deze teller de grensdrempel bereikt, wordt het adres toegevoegd aan de onderdrukkingslijst.
 
 >[!NOTE]
 >
->Leer meer over de types van fouten in [de types van mislukkingen van de Levering](../suppression-list.md#delivery-failures) sectie.
+>Meer informatie over de fouttypen vindt u in het dialoogvenster [Typen leveringsfouten](../suppression-list.md#delivery-failures) sectie.
 
 In de standaardconfiguratie is de drempel ingesteld op 5 fouten.
 
-* Voor dezelfde levering, bij de vijfde ondervond fout binnen [retry time period](#retry-duration), wordt het adres onderdrukt.
+* Bij dezelfde levering is bij de vijfde fout een fout opgetreden in het dialoogvenster [periode voor opnieuw uitproberen](#retry-duration), wordt het adres onderdrukt.
 
 * Als er verschillende leveringen zijn en twee fouten minstens 24 uur uit elkaar voorkomen, wordt de foutenteller verhoogd op elke fout en het adres wordt ook onderdrukt bij de vijfde poging.
 
@@ -63,11 +63,11 @@ Als de standaardwaarde 5 niet aan uw wensen voldoet, kunt u de foutdrempel wijzi
 
 ## Periode voor opnieuw proberen {#retry-duration}
 
-De **retry time period** is het tijdkader waarin om het even welk e-mailbericht van de levering die een tijdelijke fout of een zachte stuit ondervond opnieuw zal worden geprobeerd.
+De **periode voor opnieuw uitproberen** Dit is het tijdsbestek waarin elk e-mailbericht van de levering waarbij een tijdelijke fout of een zachte stuit is opgetreden, opnieuw wordt geprobeerd.
 
-Standaard worden opnieuw pogingen uitgevoerd gedurende **3,5 dagen** (of **84 uur**) vanaf het moment dat het bericht werd toegevoegd aan de e-mailwachtrij.
+Standaard worden nieuwe pogingen uitgevoerd voor **3,5 dagen** (of **84 uur**) vanaf het moment dat het bericht aan de e-mailwachtrij is toegevoegd.
 
-Als u er echter voor wilt zorgen dat pogingen om opnieuw te proberen niet meer worden uitgevoerd wanneer ze niet meer nodig zijn, kunt u deze instelling naar wens wijzigen wanneer u een [berichtvoorinstelling](message-presets.md) die op het e-mailkanaal wordt toegepast, maakt of bewerkt.
+Als u er echter voor wilt zorgen dat pogingen om opnieuw te proberen niet meer worden uitgevoerd wanneer ze niet meer nodig zijn, kunt u deze instelling naar wens wijzigen wanneer u een [berichtvoorinstelling](message-presets.md) toepassen op het e-mailkanaal.
 
 U kunt bijvoorbeeld de periode voor het opnieuw proberen instellen op 24 uur voor een transactie-e-mail die betrekking heeft op het opnieuw instellen van wachtwoorden en die een koppeling bevat die slechts een dag geldig is. Op dezelfde manier kunt u voor een uitverkoop in middernacht een uitzetperiode van 6 uur definiëren.
 

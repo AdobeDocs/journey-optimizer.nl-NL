@@ -37,7 +37,7 @@ Bijvoorbeeld, moet één beste praktijk één IP pool voor uw marketing berichte
 
 Ga als volgt te werk om een IP-pool te maken:
 
-1. Open het menu **[!UICONTROL Channels]** / **[!UICONTROL IP pools]** en klik vervolgens op **[!UICONTROL Create IP Pool]**.
+1. Toegang krijgen tot **[!UICONTROL Channels]** / **[!UICONTROL IP pools]** en klik vervolgens op **[!UICONTROL Create IP Pool]**.
 
    ![](../assets/ip-pool-create.png)
 
@@ -55,7 +55,7 @@ Ga als volgt te werk om een IP-pool te maken:
    >
    >Alle IP adressen provisioned met uw instantie zijn beschikbaar in de lijst.
 
-De IP pool wordt nu gecreeerd en toont in de lijst. U kunt deze selecteren voor toegang tot de eigenschappen en voor weergave van de bijbehorende berichtvoorinstelling. Voor meer op hoe te om een bericht vooraf ingesteld met een IP pool te associëren, verwijs naar [deze sectie](message-presets.md)).
+De IP pool wordt nu gecreeerd en toont in de lijst. U kunt deze selecteren voor toegang tot de eigenschappen en voor weergave van de bijbehorende berichtvoorinstelling. Voor meer op hoe te om een berichtvooraf ingesteld met een IP pool te associëren, verwijs naar [deze sectie](message-presets.md)).
 
 ![](../assets/ip-pool-created.png)
 
@@ -81,14 +81,14 @@ Om een IP pool uit te geven:
 >
 >De naam van de IP-pool kan niet worden bewerkt. Als u het wilt wijzigen, moet u de IP pool schrappen en een andere met de naam van uw keus creëren.
 
-De update is onmiddellijk of asynchroon van kracht, afhankelijk van de IP pool die aan een [bericht vooraf ingesteld](message-presets.md) of niet wordt geassocieerd:
+De update is onmiddellijk of asynchroon van kracht, afhankelijk van de IP pool die aan een wordt geassocieerd [berichtvoorinstelling](message-presets.md) of niet:
 
-* Als de IP-pool **niet** is geselecteerd in een berichtvoorinstelling, is de update onmiddellijk (**[!UICONTROL Success]** status).
-* Als de IP-pool **is** geselecteerd in een berichtvoorinstelling, kan de update 7-10 werkdagen duren (**[!UICONTROL Processing]** status).
+* Als de IP pool is **niet** geselecteerd in een berichtvoorinstelling, wordt de update onmiddellijk uitgevoerd (**[!UICONTROL Success]** status).
+* Als de IP pool **is** geselecteerd in een berichtvoorinstelling, kan de update 7 tot 10 werkdagen duren (**[!UICONTROL Processing]** status).
 
 <!--If a message preset has been associated with the IP pool, you first need to remove it before editing the IP pool. Once the your modifications have been done, you can associate the message preset again.-->
 
-Om de IP status van de poolupdate te controleren, klik **[!UICONTROL More actions]** knoop en selecteer **[!UICONTROL Recent updates]**.
+Als u de updatestatus van de IP-pool wilt controleren, klikt u op de knop **[!UICONTROL More actions]** en selecteert u **[!UICONTROL Recent updates]**.
 
 ![](../assets/ip-pool-recent-update.png)
 
@@ -99,5 +99,5 @@ Om de IP status van de poolupdate te controleren, klik **[!UICONTROL More action
 >* tot de volgende partij voor de IP pool om in partijberichten efficiënt te zijn.
 
 
-U kunt de **[!UICONTROL Delete]** knoop ook gebruiken om een IP pool te schrappen. U kunt geen IP-pool verwijderen die is gekoppeld aan een berichtvoorinstelling.
+U kunt ook de opdracht **[!UICONTROL Delete]** knoop om een IP pool te schrappen. U kunt geen IP-pool verwijderen die is gekoppeld aan een berichtvoorinstelling.
 

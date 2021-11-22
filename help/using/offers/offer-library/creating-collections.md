@@ -1,13 +1,14 @@
 ---
 title: Verzamelingen maken
 description: Leer hoe u aanbiedingen kunt organiseren met gebruik van verzamelingen.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '291'
 ht-degree: 3%
 
 ---
@@ -18,19 +19,19 @@ Met verzamelingen kunt u uw aanbiedingen ordenen door deze te hergroeperen in ca
 
 ➡️ [Ontdek deze functie in video](#video)
 
-De lijst met aanbiedingsinzamelingen is toegankelijk in **[!UICONTROL Offers]** menu.
+De lijst met aanbiedingscollecties is toegankelijk in het **[!UICONTROL Offers]** -menu.
 
 ![](../../assets/collections_list.png)
 
 U kunt twee typen verzamelingen maken:
 
-* **Dynamische** verzamelingen zijn verzamelingen van aanbiedingen op basis van labels. Deze verzamelingen worden automatisch bijgewerkt. Als bijvoorbeeld een nieuwe aanbieding wordt gemaakt met de geselecteerde tag, wordt deze automatisch toegevoegd aan de verzameling.
+* **Dynamische verzamelingen** Dit zijn verzamelingen voorstellen die zijn gebaseerd op tags. Deze verzamelingen worden automatisch bijgewerkt. Als bijvoorbeeld een nieuwe aanbieding wordt gemaakt met de geselecteerde tag, wordt deze automatisch toegevoegd aan de verzameling.
 
-* **Statische** verzamelingen zijn verzamelingen die handmatig zijn gemaakt door afzonderlijke aanbiedingen te selecteren die u in de verzameling wilt opnemen. De verzameling kan alleen worden bijgewerkt door er handmatig meer aanbiedingen aan toe te voegen.
+* **Statische verzamelingen** zijn inzamelingen die door individuele aanbiedingen manueel te selecteren om in de Inzameling te omvatten worden gebouwd. De verzameling kan alleen worden bijgewerkt door er handmatig meer aanbiedingen aan toe te voegen.
 
 Ga als volgt te werk om een verzameling te maken:
 
-1. Ga naar het **[!UICONTROL Collections]** lusje, dan klik **[!UICONTROL Create collection]**.
+1. Ga naar de **[!UICONTROL Collections]** tab, en klik vervolgens op **[!UICONTROL Create collection]**.
 
 1. Geef de naam en het type verzameling op dat u wilt maken.
 
@@ -38,7 +39,7 @@ Ga als volgt te werk om een verzameling te maken:
 
 1. Als u een dynamische verzameling wilt maken, selecteert u in het linkerdeelvenster de tag van de aanbiedingen die u aan de verzameling wilt toevoegen. Klik vervolgens op **[!UICONTROL Save]**. Alle aanbiedingen met de geselecteerde tag worden opgeslagen in de verzameling.
 
-   Zie [Codes maken](../offer-library/creating-tags.md) voor meer informatie over het maken van codes.
+   Voor meer informatie over het maken van tags raadpleegt u [Tags maken](../offer-library/creating-tags.md).
 
    ![](../../assets/dynamic_collection.png)
 

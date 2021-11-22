@@ -1,0 +1,47 @@
+---
+product: adobe campaign
+title: toDateOnly
+description: Meer informatie over de functie toDateOnly
+feature: Journeys
+role: Data Engineer
+level: Experienced
+exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
+source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+workflow-type: tm+mt
+source-wordcount: '52'
+ht-degree: 13%
+
+---
+
+# toDateOnly{#toDateOnly}
+
+Hiermee wordt een argumentwaarde omgezet in een waarde met alleen de datum.
+
+## Categorie
+
+Conversie
+
+## Functiesyntaxis
+
+`toDateOnly(<parameters>)`
+
+## Parameters
+
+| Parameter | Type |
+|-----------|------------------|
+| datum in de notatie ISO-8601 of &quot;JJJ-MM-DD&quot; (XDM-datumnotatie) | string |
+| date | date |
+
+## Handtekeningen en geretourneerde typen
+
+`toDateOnly(<date>)`
+
+`toDateOnly(<string>)`
+
+Retourneer een datetime zonder rekening te houden met tijdzone.
+
+## Voorbeelden
+
+`toDateOnly("2016-08-18")`
+
+retourneert een dateOnly-object dat 2016-08-18 vertegenwoordigt.

@@ -1,26 +1,27 @@
 ---
 title: Aangepaste aanbiedingen bijwerken
 description: Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 9d8f2df6-aa04-4e66-8555-d51c2e409063
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '157'
 ht-degree: 5%
 
 ---
 
 # Een persoonlijke aanbieding bijwerken
 
-U kunt een gepersonaliseerde aanbieding wijzigen of bijwerken door een PATCH verzoek aan [!DNL Offer Library] API te doen
+U kunt een gepersonaliseerde aanbieding wijzigen of bijwerken door een PATCH verzoek aan de [!DNL Offer Library] API
 
-Raadpleeg de officiële [JSON-patchdocumentatie](http://jsonpatch.com/) voor meer informatie over JSON Patch, inclusief beschikbare bewerkingen.
+Raadpleeg voor meer informatie over JSON Patch, inclusief beschikbare bewerkingen, de officiële [JSON-patchdocumentatie](http://jsonpatch.com/).
 
 ## Kopteksten van het type Inhoud accepteren
 
-In de volgende tabel worden de geldige waarden weergegeven die bestaan uit de velden *Content-Type* en *Accept* in de aanvraagkoptekst:
+In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
@@ -70,13 +71,13 @@ curl -X PATCH \
 
 | Parameter | Beschrijving |
 | --------- | ----------- |
-| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen omvatten: `add`, `replace` en `remove`. |
+| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen omvatten: `add`, `replace`, en `remove`. |
 | `path` | Het pad van de parameter die moet worden bijgewerkt. |
 | `value` | De nieuwe waarde waarmee u de parameter wilt bijwerken. |
 
 **Antwoord**
 
-Een succesvolle reactie retourneert de bijgewerkte details van de gepersonaliseerde aanbieding, inclusief de unieke instantie-id en de gepersonaliseerde aanbieding `@id`.
+Een succesvol antwoord retourneert de bijgewerkte details van de persoonlijke aanbieding, inclusief de unieke instantie-id en persoonlijke aanbieding `@id`.
 
 ```json
 {

@@ -1,18 +1,19 @@
 ---
 title: Toegang tot gebeurtenissen van XDM-velden
 description: Meer informatie over het XDM-schema DecisioningEvents.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '106'
 ht-degree: 67%
 
 ---
 
-# Toegang tot XDM-velden {#decisioningevents-xdm-schema}
+# Toegang tot gebeurtenissen van XDM-velden {#decisioningevents-xdm-schema}
 
 U kunt tot het schema DecisioningEvents XDM van DecisioningEvents direct van een dataset toegang hebben die de gebeurtenissen van het Beheer van het Besluit bevat.
 

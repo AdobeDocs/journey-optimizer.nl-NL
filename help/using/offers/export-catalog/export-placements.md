@@ -1,13 +1,14 @@
 ---
 title: Dataset met plaatsingen
 description: Deze sectie maakt een lijst van alle gebieden die in de uitgevoerde dataset voor plaatsingen worden gebruikt.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
+exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '365'
 ht-degree: 1%
 
 ---
@@ -22,76 +23,76 @@ De meest recente succesvolle partij in de dataset wordt getoond op het recht. De
 
 >[!NOTE]
 >
->Leer hoe te om tot de uitgevoerde datasets voor elk voorwerp van uw Bibliotheek van het Aanbod in [deze sectie](../export-catalog/access-dataset.md) toegang te hebben.
+>Leer hoe te om tot de uitgevoerde datasets voor elk voorwerp van uw Bibliotheek van de Aanbieding in toegang te hebben [deze sectie](../export-catalog/access-dataset.md).
 
-Hier is de lijst van alle gebieden die in **[!UICONTROL Decision Object Repository - Placements]** dataset kunnen worden gebruikt.
+Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogvenster **[!UICONTROL Decision Object Repository - Placements]** dataset.
 
 <!--A placement describes a location or place in a personalized message. It is used to set technical constraints for content that the personalization decision supplies. The placement also represents a request to produce certain types of metrics when an experience event is produced where this placement is involved. For instance, the placement facilitates a personalized clickable image inside an email shown to an end-user. The placement may for instance request from the assembled experience that the click on its image gets reported in an experience event with a metric https://ns.adobe.com/xdm/data/metrics/web/linkclicks and a reference to this placement.-->
 
 ## Id
 
-**Veld:** _id 
-**titel:** Identifier-
-**beschrijving:** een unieke id voor de record.
-**Type:** tekenreeks
+**Veld:** _id
+**Titel:** Id
+**Omschrijving:** Een unieke id voor de record.
+**Type:** string
 
 ## _experience
 
-**Veld:** _
-**ervaringstype:** object
+**Veld:** _experience
+**Type:** object
 
 ### _experience > decisions
 
-**Veld:** beslissingstype:
-**** object
+**Veld:** beslissing
+**Type:** object
 
 #### _experience > decisions > Placement&#39;s Channel Identifier
 
-**Veld:** kanaalID-
-**titel:kanaalid van** plaatsing, 
-**beschrijving:** het kanaal waarin het voorstel is gemaakt. De waarde is een geldige kanaal-URI. Zie https://ns.adobe.com/xdm/channels/channel.
-**Type:** tekenreeks
+**Veld:** channelID
+**Titel:** Kanaalid van plaatsing
+**Omschrijving:** Het kanaal waarin het voorstel is gedaan. De waarde is een geldige kanaal-URI. Zie https://ns.adobe.com/xdm/channels/channel.
+**Type:** string
 
 #### _experience > decisions > Content Component Type
 
-**Field:** componentType 
-**Title:** Content Component Type 
-**Description:** An enumerated set of URIs where each value maps to a type given to the content component. Sommige consumenten van de inhoudrepresentaties verwachten dat de @type-waarde een verwijzing naar een schema is dat aanvullende eigenschappen van de inhoudcomponent beschrijft.
-**Type:** tekenreeks
+**Veld:** componentType
+**Titel:** Type inhoudcomponent
+**Omschrijving:** Een opsomming van URI&#39;s waarbij elke waarde wordt toegewezen aan een type dat aan de inhoudcomponent wordt gegeven. Sommige consumenten van de inhoudrepresentaties verwachten dat de @type-waarde een verwijzing naar een schema is dat aanvullende eigenschappen van de inhoudcomponent beschrijft.
+**Type:** string
 
 #### _experience > decisions > contentTypes
 
-**Veld:** inhoudstypen, 
-**type:** array
+**Veld:** contentTypes
+**Type:** array
 
 **_experience > decisions > contentTypes > MIME Media Type**
 
-**Titel:** MIME Media Type 
-**Description:** Een beperking voor het mediatype van de componenten die in die plaatsing worden verwacht. Er kunnen meerdere mediatypen mogelijk zijn voor één component, zoals een andere afbeeldingsindeling.
-**Type:** tekenreeks
+**Titel:** MIME-mediatype
+**Omschrijving:** Een beperking voor het mediatype van de componenten die in die plaatsing worden verwacht. Er kunnen meerdere mediatypen mogelijk zijn voor één component, zoals een andere afbeeldingsindeling.
+**Type:** string
 
 #### _experience > decisions > Placement Description
 
-**Veld:** beschrijving 
-**Titel:** Plaatsingsbeschrijving 
-**Beschrijving:** Het wordt gebruikt om leesbare intenties van mensen over te brengen hoe de dynamische inhoud wordt gebruikt in de algemene berichtlevering. Dat een bepaalde ruimte een \&quot;banner\&quot; in een webpagina is, wordt vaak weergegeven via de beschrijving en niet via een formele methode.
-**Type:** tekenreeks
+**Veld:** beschrijving
+**Titel:** Plaatsingsbeschrijving
+**Omschrijving:** Het wordt gebruikt om menselijke leesbare intenties over te brengen over hoe de dynamische inhoud in de algemene berichtlevering wordt gebruikt. Dat een bepaalde ruimte een \&quot;banner\&quot; in een webpagina is, wordt vaak weergegeven via de beschrijving en niet via een formele methode.
+**Type:** string
 
 #### _experience > decisions > Placement Name
 
-**Veld:** naam, 
-**titel:** Plaatsingsnaam, 
-**beschrijving:** een toegewezen naam voor de plaatsing die ernaar moet verwijzen in menselijke interacties.
-**Type:** tekenreeks
+**Veld:** name
+**Titel:** Plaatsingsnaam
+**Omschrijving:** Een toegewezen naam voor de plaatsing om naar het in menselijke interactie te verwijzen.
+**Type:** string
 
 ## _repo
 
-**Veld:** _repo-
-**type:** object
+**Veld:** _repo
+**Type:** object
 
 ### _repo > Placement ETag
 
-**Veld:** tijdlijntitel:
-**Titel:** Plaatsing ETag-
-**beschrijving:** de revisie die het object voor de beslissingsoptie had toen de momentopname werd gemaakt.
-**Type:** tekenreeks
+**Veld:** etel
+**Titel:** Plaatsing ETag
+**Omschrijving:** De revisie die het object voor de beslissingsoptie had toen de momentopname werd gemaakt.
+**Type:** string

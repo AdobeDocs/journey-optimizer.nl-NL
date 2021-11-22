@@ -1,40 +1,41 @@
 ---
 title: Algemeen rapport
 description: Leer hoe u gegevens uit het algemene rapport kunt gebruiken
-feature: Rapportage
-topic: Contentmanagement
+feature: Reporting
+topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 1%
+source-wordcount: '239'
+ht-degree: 0%
 
 ---
 
-# Globaal rapport {#global-report}
+# Algemeen rapport {#global-report}
 
 >[!NOTE]
 >
 > Als aangepaste query&#39;s via API&#39;s worden gemaakt wanneer u de Query-service gebruikt, verwacht u enige vertraging voor uw rapporten.
 
-Met de **[!UICONTROL Global report]** kunt u het effect van uw reizen en leveringen over een bepaalde tijdsperiode meten.
+Gebruik de **[!UICONTROL Global report]** om de impact van uw reizen en leveringen over een bepaalde periode te meten.
 
-* Als u een reis of leveringen in de context van een reis, van **[!UICONTROL Journeys]** menu wilt richten, toegang uw reis en klik **[!UICONTROL Global report]** pictogram. U kunt dan de Reis, E-mail en Duw **[!UICONTROL Global report]** vinden.
+* Als u een reis of leveringen in het kader van een reis wilt richten, vanaf **[!UICONTROL Journeys]** en klik op de knop **[!UICONTROL Global report]** pictogram. U kunt dan de Reis, E-mail en Duw vinden **[!UICONTROL Global report]**.
 
-* Als u een specifieke levering wilt richten, van **[!UICONTROL Global view]** van het **[!UICONTROL Executions]** lusje van uw berichten, uitgezocht **[!UICONTROL Global Report]** van het geavanceerde menu van uw geselecteerde levering.
+* Als u een specifieke levering wilt richten, van **[!UICONTROL Global view]** van de **[!UICONTROL Executions]** tabblad van uw berichten, selecteert u **[!UICONTROL Global Report]** in het geavanceerde menu van de geselecteerde levering.
 
-## Het dashboard {#modify-dashboard} aanpassen
+## Het dashboard aanpassen {#modify-dashboard}
 
 Elk rapporteringsdashboard kan worden gewijzigd door het formaat van widgets te wijzigen of deze te verwijderen of door het beoogde tijdkader te wijzigen. Het wijzigen van de widgets heeft alleen invloed op het dashboard van de huidige gebruiker. Andere gebruikers zien hun eigen dashboards of de dashboards die standaard zijn ingesteld.
 
 1. Van uw **[!UICONTROL Global report]** dashboard, klik de plannerknoop.
 
-1. Selecteer de begin- en einddatum. U kunt uw rapporten verder verfijnen door **[!UICONTROL Start time]** en **[!UICONTROL End time]** te selecteren.
+1. Selecteer de begin- en einddatum. U kunt uw rapporten verder verfijnen door een **[!UICONTROL Start time]** en **[!UICONTROL End time]**.
 
    ![](../assets/global_report_6.png)
 
-1. Klik **[!UICONTROL Modify]**.
+1. klikken **[!UICONTROL Modify]**.
 
    ![](../assets/global_report_8.png)
 
@@ -42,10 +43,10 @@ Elk rapporteringsdashboard kan worden gewijzigd door het formaat van widgets te 
 
    ![](../assets/global_report_9.png)
 
-1. Klik **[!UICONTROL Remove]** om andere widgets te verwijderen die u niet nodig hebt om grenzen te volgen.
+1. Klikken **[!UICONTROL Remove]** om andere widgets te verwijderen die u niet hoeft te volgen.
 
    ![](../assets/global_report_10.png)
 
 1. Als u tevreden bent met de weergavevolgorde en de grootte van de widgets, klikt u op **[!UICONTROL Save]**.
 
-Uw dashboard wordt nu opgeslagen. Uw verschillende wijzigingen worden opnieuw toegepast voor een later gebruik van uw algemene rapporten. Gebruik indien nodig de optie **[!UICONTROL Reset]** om de standaardvolgorde van widgets en widgets te herstellen.
+Uw dashboard wordt nu opgeslagen. Uw verschillende wijzigingen worden opnieuw toegepast voor een later gebruik van uw algemene rapporten. Gebruik indien nodig de **[!UICONTROL Reset]** gebruiken om de standaardvolgorde van widgets en widgets te herstellen.

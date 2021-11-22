@@ -1,20 +1,21 @@
 ---
-title: 'Adobe Experience Platform-databron '
+title: Adobe Experience Platform-databron
 description: Leer hoe u Adobe Experience Platform-gegevensbron configureert
-feature: Databronnen
-topic: Beheer
+feature: Data Sources
+topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: ed710e805a33616b20ce99bc5ac5e8ac26cbbb88
+exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '350'
 ht-degree: 11%
 
 ---
 
 # Adobe Experience Platform-databron {#concept_zrb_nqt_52b}
 
-Adobe Experience Platform-gegevensbron definieert de verbinding met de Real-Time Customer Profile Service. Deze gegevensbron is ingebouwd en vooraf geconfigureerd. Het kan niet worden verwijderd. Deze gegevensbron is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is). Hiermee kunt u de gegevens van het profiel en Events gebruiken. Raadpleeg [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl){target=&quot;_blank&quot;} voor meer informatie over de realtime klantenprofielservice.
+Adobe Experience Platform-gegevensbron definieert de verbinding met de Real-Time Customer Profile Service. Deze gegevensbron is ingebouwd en vooraf geconfigureerd. Het kan niet worden verwijderd. Deze gegevensbron is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is). Hiermee kunt u de gegevens van het profiel en Events gebruiken. Raadpleeg voor meer informatie over de realtime klantenprofielservice de [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target=&quot;_blank&quot;}.
 
 >[!NOTE]
 >
@@ -32,12 +33,12 @@ Hier zijn de belangrijkste stappen om gebiedsgroepen aan de ingebouwde gegevensb
 
    ![](../assets/journey23.png)
 
-1. Klik op **[!UICONTROL Add a New Field Group]** om een nieuwe reeks velden op te halen. Zie [deze pagina](../datasource/configure-data-sources.md#define-field-groups).
+1. Klikken **[!UICONTROL Add a New Field Group]** om een nieuwe reeks velden te definiëren die moet worden opgehaald. Zie [deze pagina](../datasource/configure-data-sources.md#define-field-groups).
 
    ![](../assets/journey24.png)
 
-1. Selecteer een schema van **[!UICONTROL Schema]** drop-down. In dit veld worden de schema&#39;s voor profiel- en ervaringsgebeurtenissen weergegeven die beschikbaar zijn in Adobe Experience Platform. Schema&#39;s maken wordt niet uitgevoerd in [!DNL Journey Optimizer]. Deze wordt uitgevoerd in Adobe Experience Platform.
+1. Selecteer een schema in het menu **[!UICONTROL Schema]** vervolgkeuzelijst. In dit veld worden de schema&#39;s voor profiel- en ervaringsgebeurtenissen weergegeven die beschikbaar zijn in Adobe Experience Platform. Het maken van het schema wordt niet uitgevoerd in [!DNL Journey Optimizer]. Deze wordt uitgevoerd in Adobe Experience Platform.
 1. Selecteer de velden die u wilt gebruiken.
-1. Klik op **[!UICONTROL Save]**.
+1. Klikken op **[!UICONTROL Save]**.
 
-Wanneer u de cursor op de naam van een veldgroep plaatst, ziet u rechts twee pictogrammen. Hiermee kunt u de veldgroep verwijderen en dupliceren. Het pictogram **[!UICONTROL Delete]** is alleen beschikbaar als de veldgroep niet wordt gebruikt in een live of conceptreis (informatie in het veld **[!UICONTROL Used in]**).
+Wanneer u de cursor op de naam van een veldgroep plaatst, ziet u rechts twee pictogrammen. Hiermee kunt u de veldgroep verwijderen en dupliceren. De **[!UICONTROL Delete]** pictogram is alleen beschikbaar als de veldgroep niet wordt gebruikt in een live of conceptrit (informatie weergegeven in de **[!UICONTROL Used in]** veld).

@@ -15,16 +15,16 @@ ht-degree: 45%
 
 # Over Besluitbeheer {#about-offer-decision}
 
-Gebruik [!DNL Journey Optimizer] om uw klanten de beste aanbieding en ervaring op alle aanraakpunten op het juiste moment te bieden. Als u ze eenmaal hebt ontworpen, richt u zich op uw publiek met persoonlijke aanbiedingen.
+Gebruiken [!DNL Journey Optimizer] om uw klanten de beste aanbieding en ervaring op alle aanraakpunten op het juiste moment te bieden. Als u ze eenmaal hebt ontworpen, richt u zich op uw publiek met persoonlijke aanbiedingen.
 
 >[!NOTE]
 >
->Als u een [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=&quot;_blank&quot;} gebruiker bent die de **Offer decisioning** toepassingsdienst gebruikt, zijn alle die eigenschappen van het Beslissingsbeheer in deze sectie worden beschreven ook op u van toepassing.
+>Als u een [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=&quot;_blank&quot;} gebruiker gebruikt de **offer decisioning** alle functies voor Beslissingsbeheer die in deze sectie worden beschreven, zijn ook op u van toepassing.
 
 De beslissingsmanagementcapaciteit bestaat uit twee hoofdcomponenten:
 
-* De **Gecentraliseerde Bibliotheek van de Aanbieding** die de interface is waar u creeert en de verschillende elementen beheert die uw aanbiedingen samenstellen, en hun regels en beperkingen bepalen.
-* De **beslissingsengine voor aanbiedingen** die gebruikmaakt van Adobe Experience Platform-gegevens en realtime klantprofielen, samen met de aanbiedingsbibliotheek, om de juiste tijd, klanten en kanalen te selecteren waaraan aanbiedingen worden geleverd.
+* De **Gecentraliseerde aanbiedingsbibliotheek** Dit is de interface waar u de verschillende elementen creeert en beheert die uw aanbiedingen vormen, en hun regels en beperkingen bepalen.
+* De **Beslissingsengine voorstellen** die gebruikmaakt van Adobe Experience Platform-gegevens en realtime klantprofielen, samen met de aanbiedingsbibliotheek, om de juiste tijd, klanten en kanalen te selecteren waaraan de aanbiedingen worden geleverd.
 
 ![](../../assets/architecture.png)
 
@@ -34,7 +34,7 @@ Voordelen zijn:
 * Verbeterde workflows: in plaats van meerdere verzendingen of campagnes te maken kunnen marketingteams de workflows verbeteren door één verzending te maken en de aanbiedingen in verschillende delen van de sjabloon te variëren,
 * De controle over het aantal keren dat een aanbieding wordt getoond aan campagnes en klanten.
 
-➡️ [Bekijk deze zelfstudievideo&#39;s](#tutorial-videos) voor meer informatie over Beslissingsbeheer.
+➡️ [Bekijk deze zelfstudievideo&#39;s](#tutorial-videos) voor meer informatie over het beheer van besluiten.
 
 ## Aanbiedingen en beslissingen {#offers-offer-activities}
 
@@ -44,7 +44,7 @@ De aanbieding wordt gemaakt aan de hand van de **Aanbiedingsbibliotheek**, die e
 
 ![](../../assets/offer_structure.png)
 
-Nadat de bibliotheek met aanbiedingen is verrijkt, kunt u uw aanbiedingen integreren in **decisions** (voorheen bekend als &#39;aanbiedingsactiviteiten&#39;).
+Zodra de bibliotheek met aanbiedingen is verrijkt, kunt u uw aanbiedingen integreren in **besluiten** (voorheen bekend als &quot;aanbiedingsactiviteiten&quot;).
 
 Besluiten zijn containers voor uw aanbiedingen die gebruikmaken van de Offertenbeslissingsengine om de beste aanbieding te kiezen, afhankelijk van het doel van de levering.
 
@@ -68,9 +68,9 @@ Dankzij de mogelijkheden voor Beslissingsbeheer en de integratie met Adobe Exper
 
 De toestemmingen om tot de mogelijkheden van de offer decisioning toegang te hebben en te gebruiken worden beheerd gebruikend [Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
 
-Om toegang tot de functionaliteit van het Beheer van het Besluit te verlenen, moet u **[!UICONTROL Product profile]** creëren en de overeenkomstige toestemmingen aan uw gebruikers toewijzen. Meer informatie over het beheren van [!DNL Journey Optimizer] gebruikers en toestemmingen in [deze sectie](../../administration/permissions.md).
+Om toegang tot de functionaliteit van het Beheer van het Besluit te verlenen, moet u tot een **[!UICONTROL Product profile]** en wijs de overeenkomstige toestemmingen aan uw gebruikers toe. Meer informatie over beheren [!DNL Journey Optimizer] gebruikers en machtigingen in [deze sectie](../../administration/permissions.md).
 
-De toestemmingen specifiek voor Beslissingsbeheer zijn vermeld in [deze sectie](../../administration/high-low-permissions.md#decisions-permissions).
+De machtigingen die specifiek zijn voor Beslissingsbeheer worden vermeld in [deze sectie](../../administration/high-low-permissions.md#decisions-permissions).
 
 ## Woordenlijst {#glossary}
 
@@ -80,7 +80,7 @@ U kunt onder de lijst van de belangrijkste concepten vinden u zult werken met wa
 
 * **Verzamelingen**: verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketeer zijn gedefinieerd, zoals de categorie van de aanbieding.
 
-* **Besluit**  (voorheen bekend als Aanbiedingsactiviteit): Een beslissing bevat de logica die de selectie van een aanbieding informeert.
+* **Besluit** (voorheen bekend als Offerteactiviteit): Een beslissing bevat de logica die de selectie van een aanbieding informeert.
 
 * **Beslissingsregel**: beslissingsregels zijn restricties die aan een persoonlijke aanbieding worden toegevoegd en op een profiel worden toegepast om te bepalen of dat profiel in aanmerking komt voor een aanbieding.
 
@@ -92,7 +92,7 @@ U kunt onder de lijst van de belangrijkste concepten vinden u zult werken met wa
 
 * **Aanbieding**: een aanbieding is een marketingbericht waaraan regels gekoppeld kunnen zijn die bepalen wie in aanmerking komt om de aanbieding te zien.
 
-* **Bibliotheek** voorstel: De aanbiedingsbibliotheek is een centrale bibliotheek die wordt gebruikt om gepersonaliseerde en terugvalaanbiedingen, besluitvormingsregels en besluiten te beheren.
+* **Bibliotheek van aanbieding**: De aanbiedingsbibliotheek is een centrale bibliotheek die wordt gebruikt om gepersonaliseerde en terugvalaanbiedingen, besluitvormingsregels en besluiten te beheren.
 
 * **Persoonlijke aanbiedingen**: een persoonlijke aanbieding is een aanpasbaar marketingbericht op basis van geschiktheidsregels en restricties.
 
@@ -107,7 +107,7 @@ U kunt onder de lijst van de belangrijkste concepten vinden u zult werken met wa
 
 >[!NOTE]
 >
->Deze video&#39;s zijn van toepassing op de toepassingsservice van de Offer decisioning die op Adobe Experience Platform is gebouwd en zijn niet specifiek voor [!DNL Adobe Journey Optimizer]. Zij bieden echter algemene richtsnoeren voor het gebruik van Beslissingsbeheer in de context van [!DNL Journey Optimizer].
+>Deze video&#39;s zijn van toepassing op de Offer Decisioning-toepassingsservice die op Adobe Experience Platform is gebouwd en zijn niet specifiek voor [!DNL Adobe Journey Optimizer]. Zij bieden echter algemene richtsnoeren voor het gebruik van Beslissingsbeheer in de context van [!DNL Journey Optimizer].
 
 ### Wat is het beheer van besluiten? {#what-is-offer-decisioning}
 

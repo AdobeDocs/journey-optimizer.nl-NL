@@ -1,14 +1,15 @@
 ---
 title: Samenvoegingsfuncties, bibliotheek
 description: Samenvoegingsfuncties, bibliotheek
-feature: Personalisatie
-topic: Personalisatie
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 5%
+source-wordcount: '157'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +19,7 @@ Samenvoegfuncties worden gebruikt om meerdere waarden te groeperen en één same
 
 ## Aantal{#count}
 
-De functie `count` retourneert het aantal elementen binnen de opgegeven array.
+De `count` function retourneert het aantal elementen binnen de opgegeven array.
 
 **Indeling**
 
@@ -36,7 +37,7 @@ De volgende bewerking retourneert het aantal orders in de array.
 
 ## Som{#sum}
 
-De functie `sum` retourneert de som van alle geselecteerde waarden binnen de array.
+De `sum` Deze functie retourneert de som van alle geselecteerde waarden binnen de array.
 
 **Indeling**
 
@@ -54,7 +55,7 @@ De volgende bewerking retourneert de som van de prijzen van alle orders.
 
 ## Gemiddelde{#average}
 
-De functie `average` retourneert het rekenkundig gemiddelde van alle geselecteerde waarden binnen de array.
+De `average` Deze functie retourneert het rekenkundig gemiddelde van alle geselecteerde waarden binnen de array.
 
 **Indeling**
 
@@ -72,7 +73,7 @@ De volgende bewerking retourneert de gemiddelde prijs van alle orders.
 
 ## Minimaal{#min}
 
-De functie `min` retourneert de kleinste van alle geselecteerde waarden binnen de array.
+De `min` Deze functie retourneert het kleinste van alle geselecteerde waarden binnen de array.
 
 **Indeling**
 
@@ -90,7 +91,7 @@ De volgende bewerking retourneert de laagste prijs van alle orders.
 
 ## Maximum{#max}
 
-De functie `max` retourneert de grootste van alle geselecteerde waarden binnen de array.
+De `max` functie retourneert de grootste van alle geselecteerde waarden binnen de array.
 
 **Indeling**
 

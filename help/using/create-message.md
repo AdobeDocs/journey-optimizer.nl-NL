@@ -1,20 +1,21 @@
 ---
 title: Een bericht maken
 description: Leer hoe u een bericht maakt
-feature: Overzicht
-topic: Contentmanagement
+feature: Overview
+topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9872df0ac91fff249a7b41ecd99b7c25c25463a9
+exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '477'
 ht-degree: 2%
 
 ---
 
 # Een bericht maken {#create-message}
 
-De berichten zijn beschikbaar bij de **[!UICONTROL Messages]** kortere weg op de linkernavigatie. Alle berichten worden weergegeven, gesorteerd op publicatiedatum (voor gepubliceerde berichten) of aanmaakdatum (voor conceptuele berichten).
+Berichten zijn beschikbaar via de **[!UICONTROL Messages]** sneltoets voor de linkernavigatie. Alle berichten worden weergegeven, gesorteerd op publicatiedatum (voor gepubliceerde berichten) of aanmaakdatum (voor conceptuele berichten).
 
 >[!NOTE]
 >
@@ -22,7 +23,7 @@ De berichten zijn beschikbaar bij de **[!UICONTROL Messages]** kortere weg op de
 
 ![](assets/messages-list.png)
 
-Met de schakeloptie **[!UICONTROL Show recents]** kunt u directe koppelingen toevoegen aan de berichten die u de afgelopen 5 dagen hebt geopend.
+Gebruik de **[!UICONTROL Show recents]** Schakel deze optie in om directe koppelingen toe te voegen aan de berichten die u de afgelopen 5 dagen hebt geopend.
 
 ![](assets/show-recent-messages.png)
 
@@ -34,27 +35,27 @@ Gebruik het filterpictogram om alleen tekst, gepubliceerde tekst of berichten we
 
 Volg onderstaande stappen om een nieuw bericht te maken:
 
-1. Heb toegang tot de berichtlijst, dan klik **[!UICONTROL Create Message]**.
+1. Open de berichtenlijst en klik vervolgens op **[!UICONTROL Create Message]**.
 
 1. Definieer de berichteigenschappen.
 
    ![](assets/create-message-properties.png)
 
-   * Voer een **[!UICONTROL Title]** (verplicht) en een **[!UICONTROL Description]** in.
+   * Voer een **[!UICONTROL Title]** (verplicht) en een **[!UICONTROL Description]**.
 
    * Selecteer **[!UICONTROL Preset]** voor het bericht te gebruiken.
 
       Voorinstellingen bevatten alle parameters die vereist zijn voor het verzenden van een e-mail- en/of pushmelding volgens uw merk. [Meer informatie over voorinstellingen](../using/configuration/message-presets.md).
 
    * Selecteer de kanalen die u voor dat bericht wilt gebruiken: E-mail- en/of pushmelding. U moet ten minste één kanaal selecteren om het bericht te kunnen maken.
-   U kunt de titel, beschrijving en voorinstelling van het bericht op elk gewenst moment openen en wijzigen met de knop **[!UICONTROL Properties]** in de berichtinterface.
+   U kunt de titel, beschrijving en voorinstelling van het bericht op elk gewenst moment openen en wijzigen met de opdracht **[!UICONTROL Properties]** in de berichtinterface.
 
    ![](assets/message-properties.png)
 
 
-1. Klik **[!UICONTROL Create]** om berichtverwezenlijking te bevestigen. Uw bericht wordt toegevoegd in de berichtlijst, in de status **[!UICONTROL Draft]**.
+1. Klikken **[!UICONTROL Create]** om het aanmaken van berichten te bevestigen. Uw bericht wordt toegevoegd in de berichtenlijst, in **[!UICONTROL Draft]** status.
 
-   Er is één tab beschikbaar voor elk geselecteerd kanaal. Gebruik deze tabbladen om de inhoud voor elk kanaal te configureren. U kunt een tabblad verwijderen door het te selecteren en op de knop **[!UICONTROL Delete channel]** aan de rechterkant te klikken.
+   Er is één tab beschikbaar voor elk geselecteerd kanaal. Gebruik deze tabbladen om de inhoud voor elk kanaal te configureren. U kunt een tabblad verwijderen door het te selecteren en op de knop **[!UICONTROL Delete channel]** rechts.
 
    ![](assets/create-messages-content.png)
 
@@ -65,20 +66,20 @@ Volg onderstaande stappen om een nieuw bericht te maken:
 
    >[!NOTE]
    >   
-   >U kunt uw berichten personaliseren gebruikend de gegevens van profielen gebruikend de Redacteur van de Uitdrukking. Raadpleeg [deze sectie](personalization/personalize.md) voor meer informatie over personalisatie.
+   >U kunt uw berichten personaliseren gebruikend de gegevens van profielen gebruikend de Redacteur van de Uitdrukking. Raadpleeg voor meer informatie over personalisatie [deze sectie](personalization/personalize.md).
 
 
 1. Controleer de weergave van uw berichten en controleer de instellingen voor de personalisatie met testprofielen aan de linkerkant met behulp van de voorbeeldsectie. Raadpleeg [deze sectie](preview.md) voor meer informatie.
 
    ![](assets/messages-simple-preview.png)
 
-1. Controleer waarschuwingen in het bovenste gedeelte van de editor.  Sommige zijn eenvoudige waarschuwingen, maar andere kunnen voorkomen dat u het bericht publiceert. Meer informatie vindt u in [deze sectie](alerts.md).
+1. Controleer waarschuwingen in het bovenste gedeelte van de editor.  Sommige zijn eenvoudige waarschuwingen, maar andere kunnen voorkomen dat u het bericht publiceert. Meer informatie in [deze sectie](alerts.md).
 
-1. U kunt uw bericht nu publiceren door op de **[!UICONTROL Publish]** knoop te klikken, of het houden als ontwerp en het later publiceren. Raadpleeg [deze sectie](publish-manage-message.md) voor meer informatie over het publiceren van berichten.
+1. U kunt uw bericht nu publiceren door op de knop **[!UICONTROL Publish]** of als concept behouden en later publiceren. Raadpleeg voor meer informatie over het publiceren van berichten [deze sectie](publish-manage-message.md).
 
 ## Een bericht dupliceren
 
-Om een bericht van bestaande tot stand te brengen, gebruik **[!UICONTROL Duplicate]** knoop van de berichtinterface. Alle montages en configuratie zullen aan het nieuwe bericht worden gekopieerd
+Als u een bericht wilt maken op basis van een bestaand bericht, gebruikt u de opdracht **[!UICONTROL Duplicate]** van de berichtinterface. Alle montages en configuratie zullen aan het nieuwe bericht worden gekopieerd
 
 ![](assets/message-duplicate.png)
 

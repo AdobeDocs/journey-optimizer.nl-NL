@@ -1,18 +1,18 @@
 ---
 title: Verklarende woordenlijst van aanbiedingen
 description: Verklarende woordenlijst voor aanbiedingen
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
 source-git-commit: b58c5b527e594c03f3b415549e6b7cd15b050139
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 75%
+source-wordcount: '314'
+ht-degree: 76%
 
 ---
 
-# Verklarende woordenlijst {#glossary}
+# Woordenlijst {#glossary}
 
 Hier zijn de belangrijkste concepten u zult werken met wanneer het gebruiken van het Beheer van het Besluit.
 
@@ -20,7 +20,7 @@ Hier zijn de belangrijkste concepten u zult werken met wanneer het gebruiken van
 
 * **Verzamelingen**: verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketeer zijn gedefinieerd, zoals de categorie van de aanbieding.
 
-* **Besluit**  (voorheen bekend als Aanbiedingsactiviteit): Een beslissing bevat de logica die de selectie van een aanbieding informeert.
+* **Besluit** (voorheen bekend als Offerteactiviteit): Een beslissing bevat de logica die de selectie van een aanbieding informeert.
 
 * **Beslissingsregel**: beslissingsregels zijn restricties die aan een persoonlijke aanbieding worden toegevoegd en op een profiel worden toegepast om te bepalen of dat profiel in aanmerking komt voor een aanbieding.
 
@@ -32,7 +32,7 @@ Hier zijn de belangrijkste concepten u zult werken met wanneer het gebruiken van
 
 * **Aanbieding**: een aanbieding is een marketingbericht waaraan regels gekoppeld kunnen zijn die bepalen wie in aanmerking komt om de aanbieding te zien.
 
-* **Bibliotheek** voorstel: De aanbiedingsbibliotheek is een centrale bibliotheek die wordt gebruikt om gepersonaliseerde en terugvalaanbiedingen, besluitvormingsregels en besluiten te beheren.
+* **Bibliotheek van aanbieding**: De aanbiedingsbibliotheek is een centrale bibliotheek die wordt gebruikt om gepersonaliseerde en terugvalaanbiedingen, besluitvormingsregels en besluiten te beheren.
 
 * **Persoonlijke aanbiedingen**: een persoonlijke aanbieding is een aanpasbaar marketingbericht op basis van geschiktheidsregels en restricties.
 

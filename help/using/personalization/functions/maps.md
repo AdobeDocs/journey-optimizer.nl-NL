@@ -1,14 +1,15 @@
 ---
 title: Functiebibliotheek met kaarten
 description: Functiebibliotheek met kaarten
-feature: Personalisatie
-topic: Personalisatie
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: e3b7e80b72e6be71d5b38cd5507d20ad2e8ca8d4
+exl-id: de6a8da2-55cf-4105-ba93-40c556732626
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 4%
+source-wordcount: '102'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +19,7 @@ Gebruik de functies Kaart in verpersoonlijking om interactie met kaarten gemakke
 
 ## Get{#get}
 
-De functie `get` wordt gebruikt om de waarde van een kaart voor een bepaalde sleutel terug te winnen.
+De `get` wordt gebruikt om de waarde van een kaart voor een bepaalde sleutel terug te winnen.
 
 **Indeling**
 
@@ -28,7 +29,7 @@ De functie `get` wordt gebruikt om de waarde van een kaart voor een bepaalde sle
 
 **Voorbeeld**
 
-De volgende verrichting krijgt de waarde van de identiteitskaart voor de sleutel `example@example.com`.
+Met de volgende bewerking wordt de waarde van het identiteitsoverzicht voor de sleutel opgehaald `example@example.com`.
 
 ```sql
 {%= get(identityMap,"example@example.com") %}
@@ -36,7 +37,7 @@ De volgende verrichting krijgt de waarde van de identiteitskaart voor de sleutel
 
 ## Toetsen{#keys}
 
-De functie `keys` wordt gebruikt om alle sleutels voor een bepaalde kaart terug te winnen.
+De `keys` wordt gebruikt om alle sleutels voor een bepaalde kaart terug te winnen.
 
 **Indeling**
 
@@ -46,7 +47,7 @@ De functie `keys` wordt gebruikt om alle sleutels voor een bepaalde kaart terug 
 
 **Voorbeeld**
 
-Met de volgende bewerking worden alle toetsen voor de kaart `identityMap` opgehaald.
+Met de volgende bewerking worden alle toetsen voor de kaart opgehaald `identityMap`.
 
 ```sql
 {%= keys(identityMap) %}
@@ -54,7 +55,7 @@ Met de volgende bewerking worden alle toetsen voor de kaart `identityMap` opgeha
 
 ## Waarden{#values}
 
-De functie `values` wordt gebruikt om alle waarden van een bepaalde kaart terug te winnen.
+De `values` wordt gebruikt om alle waarden van een bepaalde kaart op te halen.
 
 **Indeling**
 
@@ -64,7 +65,7 @@ De functie `values` wordt gebruikt om alle waarden van een bepaalde kaart terug 
 
 **Voorbeeld**
 
-Met de volgende bewerking worden alle waarden voor de kaart `identityMap` opgehaald.
+Met de volgende bewerking worden alle waarden voor de kaart opgehaald `identityMap`.
 
 ```sql
 {%= values(identityMap) %}

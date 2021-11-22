@@ -1,13 +1,14 @@
 ---
 title: Aan de slag met het exporteren van de aanbiedingscatalogus
 description: Deze sectie maakt een lijst van alle gebieden die in de uitgevoerde dataset voor besluiten worden gebruikt.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: a25264cb43f77671c29f18522110fd85d0155697
+exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -22,121 +23,121 @@ De meest recente succesvolle partij in de dataset wordt getoond op het recht. De
 
 >[!NOTE]
 >
->Leer hoe te om tot de uitgevoerde datasets voor elk voorwerp van uw Bibliotheek van het Aanbod in [deze sectie](../export-catalog/access-dataset.md) toegang te hebben.
+>Leer hoe te om tot de uitgevoerde datasets voor elk voorwerp van uw Bibliotheek van de Aanbieding in toegang te hebben [deze sectie](../export-catalog/access-dataset.md).
 
-Hier is de lijst van alle gebieden die in de **[!UICONTROL Decision Object Repository - Decisions]** dataset (vroeger genoemd geworden Bewaarplaats van Objecten van het Besluit - Activiteiten) kunnen worden gebruikt.
+Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogvenster **[!UICONTROL Decision Object Repository - Decisions]** dataset (voorheen bekend als Beslissingsobjectrepository - Activiteiten).
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 
 ## Id
 
-**Veld:** _id 
-**titel:** Identifier-
-**beschrijving:** een unieke id voor de record.
-**Type:** tekenreeks
+**Veld:** _id
+**Titel:** Id
+**Omschrijving:** Een unieke id voor de record.
+**Type:** string
 
 ## _experience
 
-**Veld:** _
-**ervaringstype:** object
+**Veld:** _experience
+**Type:** object
 
 ### _experience > decisions
 
-**Veld:** beslissingstype:
-**** object
+**Veld:** beslissing
+**Type:** object
 
 #### _experience > decisions > Criteria
 
-**Veld:** criteria, 
-**titel:** Criteria, 
-**beschrijving:** definieert een reeks beslissingscriteria waarbij elke component een reeks beperkingen bevat.
-**Tekst:** array
+**Veld:** criteria
+**Titel:** Criteria
+**Omschrijving:** Definieert een reeks beslissingscriteria waarbij elk een reeks beperkingen bevat.
+**Type:** array
 
 **_experience > decisions > criteria > description**
 
-**Veld:** beschrijving 
-**titel:** beschrijving 
-**beschrijving:beschrijving van** criterium. Het wordt gebruikt om menselijke leesbare intenties over te brengen over hoe of waarom dit criterium is opgesteld en hoe het de beslissing beïnvloedt.
-**Type:** tekenreeks
+**Veld:** beschrijving
+**Titel:** Beschrijving
+**Omschrijving:** Beschrijving van het criterium. Het wordt gebruikt om menselijke leesbare intenties over te brengen over hoe of waarom dit criterium is opgesteld en hoe het de beslissing beïnvloedt.
+**Type:** string
 
 **_experience > decisions > Criteria > optionSelection**
 
-**Veld:** optionSelection 
-**Titel:** Option Selection 
-**Description:** De optieselectie definieert de geldigheid/toepasbaarheid van opties in deze context.
-**Tekst:** object
+**Veld:** optionSelection
+**Titel:** Selectie van optie
+**Omschrijving:** De optie die u selecteert, definieert de geldigheid/toepasbaarheid van opties in deze context.
+**Type:** object
 
 * **Beschrijving**
 
    **Veld:** beschrijving
-   **Titel:** beschrijving
-   **Omschrijving:Omschrijving van de selectie van** optie. Het wordt gebruikt om menselijke leesbare intenties over te brengen over hoe of waarom deze optie is geselecteerd en/of welke optie zal overeenkomen.
-   **Type:** tekenreeks
+   **Titel:** Beschrijving
+   **Omschrijving:** Beschrijving van optie-selectie. Het wordt gebruikt om menselijke leesbare intenties over te brengen over hoe of waarom deze optie is geselecteerd en/of welke optie zal overeenkomen.
+   **Type:** string
 
 * **Option-filter**
 
    **Veld:** filter
    **Titel:** Option-filter
-   **Beschrijving:** de verwijzing naar een op tags gebaseerd filter dat overeenkomt met opties uit een overzicht met de bijbehorende tags. De waarde is URI (@id) van de beslissingsregel waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/filter.
-   **Type:** tekenreeks
+   **Omschrijving:** De verwijzing naar een op tags gebaseerd filter dat de opties uit een overzicht weergeeft met behulp van de bijbehorende tags. De waarde is URI (@id) van de beslissingsregel waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/filter.
+   **Type:** string
 
 * **Type profielbeperking**
 
    **Veld:** optionSelectionType
-   **Titel:** profielrestrictietype
-   **Beschrijving:** Hiermee bepaalt u of er beperkingen zijn ingesteld en hoe de beperkingen worden uitgedrukt. Het zou door een filtervraag of door één of meerdere segmentlidmaatschap kunnen zijn.
-   **Type:** tekenreeks
+   **Titel:** Type profielbeperking
+   **Omschrijving:** Hiermee wordt bepaald of er momenteel beperkingen zijn ingesteld en hoe de beperkingen worden uitgedrukt. Het zou door een filtervraag of door één of meerdere segmentlidmaatschap kunnen zijn.
+   **Type:** string
    **Mogelijke waarden:** &quot;none&quot; (standaardwaarde), &quot;directList&quot;, &quot;filter&quot;
 
 * **Optielijst**
 
    **Veld:** opties
-   **Titel:** Option-lijst
-   **Beschrijving:** Een lijst die rechtstreeks de opties opgeeft zonder een filterquery te evalueren. U kunt een optielijst of een regel met een optiefilter opgeven.
-   **Tekst:** array
+   **Titel:** Optielijst
+   **Omschrijving:** Een lijst die de opties direct specificeert zonder een filtervraag te evalueren. U kunt een optielijst of een regel met een optiefilter opgeven.
+   **Type:** array
 
    <!--Missing title under Option List? Desc = An identifier of an decision option entity. The value value refers to an `@id` property of a decision option. Type: string-->
 
 **_experience > decisions > Criteria > placements**
 
-**Veld:** Plaatsing, 
-**titel:** Plaatsingsbeperkingen, 
-**beschrijving:** de plaatsingsbeperking geeft aan dat dit criterium alleen van toepassing is op de vermelde plaatsingen. Alleen wanneer de beoogde plaatsing in de lijst `xdm:placements` staat, wordt de gekozen optie in aanmerking genomen. Anders worden de volledige beslissingscriteria overgeslagen. Wanneer de lijst &#39;xdm:placements&#39; wordt weggelaten of leeg is, wordt het criterium in aanmerking genomen voor elke beoogde plaatsing. De hier vermelde plaatsingen leggen impliciete criteria voor de optieselectie op. Een optie die u wilt overwegen, moet een representatie hebben voor de beoogde plaatsing.
-**Tekst:** array
+**Veld:** plaatsing
+**Titel:** Plaatsingsbeperkingen
+**Omschrijving:** In de plaatsingsbeperking staat dat dit criterium alleen van toepassing is op de vermelde plaatsingen. Alleen wanneer de doelplaatsing zich in de `xdm:placements` de gekozen optie is de lijst. Anders worden de volledige beslissingscriteria overgeslagen. Wanneer de lijst &#39;xdm:placements&#39; wordt weggelaten of leeg is, wordt het criterium in aanmerking genomen voor elke beoogde plaatsing. De hier vermelde plaatsingen leggen impliciete criteria voor de optieselectie op. Een optie die u wilt overwegen, moet een representatie hebben voor de beoogde plaatsing.
+**Type:** array
 
 * **Plaatsings-id**
 
-   **Titel:** Plaatsing-id
-   **Beschrijving:** Een verwijzing naar een plaatsingsentiteit. De waarde is de URI (@id) van de plaatsing waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/placement.
-   **Type:** tekenreeks
+   **Titel:** Plaatsings-id
+   **Omschrijving:** Een verwijzing naar een plaatsingsentiteit. De waarde is de URI (@id) van de plaatsing waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/placement.
+   **Type:** string
 
 **_experience > decisions > Criteria > profileConstraints**
 
-**Veld:** profielRestricties 
-**Titel:** Profielrestrictie 
-**Beschrijving:** De profielbeperking bepaalt of een optie momenteel in aanmerking komt voor deze profielidentiteit, in deze context. Als de profielbeperking geen waarden van elke optie hoeft te overwegen, d.w.z. dat deze geen opties uit de optieselectie bevat, annuleert de profielbeperking die &#39;false&#39; oplevert de volledige optieselectie. Anderzijds wordt voor elke kwalificerende optie van de optiesselectie een regel voor profielbeperking geëvalueerd die een optie als parameter neemt.
-**Tekst:** object
+**Veld:** profileConstraints
+**Titel:** Profielbeperking
+**Omschrijving:** De profielbeperking bepaalt of een optiesselectie op dit moment in aanmerking komt voor deze profielidentiteit. Als de profielbeperking geen waarden van elke optie hoeft te overwegen, d.w.z. dat deze geen opties uit de optieselectie bevat, annuleert de profielbeperking die &#39;false&#39; oplevert de volledige optieselectie. Anderzijds wordt voor elke kwalificerende optie van de optiesselectie een regel voor profielbeperking geëvalueerd die een optie als parameter neemt.
+**Type:** object
 
 * **_experience > decisions > Criteria > profileConstraints > Description**
 
    **Veld:** beschrijving
-   **Titel:** beschrijving
-   **Beschrijving:beschrijving van** profielbeperking. Het wordt gebruikt om menselijke leesbare intenties over te brengen over hoe of waarom deze profielbeperking is geconstrueerd en/of welke optie daarin wordt opgenomen of uitgesloten.
-   **Type:** tekenreeks
+   **Titel:** Beschrijving
+   **Omschrijving:** Beschrijving van profielbeperking. Het wordt gebruikt om menselijke leesbare intenties over te brengen over hoe of waarom deze profielbeperking is geconstrueerd en/of welke optie daarin wordt opgenomen of uitgesloten.
+   **Type:** string
 
 * **_experience > decisions > Criteria > profileConstraints > Eligibility Rule**
 
    **Veld:** geschiktheidregel
    **Titel:** Subsidiabiliteitsregel
-   **Beschrijving:** Een verwijzing naar een beslissingsregel die voor een bepaald profiel en/of andere contextafhankelijke XDM-objecten true of false oplevert. De regel wordt gebruikt om te beslissen als de optie voor een bepaald profiel kwalificeert. De waarde is URI (@id) van de beslissingsregel waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/rule.
-   **Type:** tekenreeks
+   **Omschrijving:** Een verwijzing naar een beslissingsregel die voor een bepaald profiel en/of andere contextuele XDM-objecten naar waar of onwaar evalueert. De regel wordt gebruikt om te beslissen als de optie voor een bepaald profiel kwalificeert. De waarde is URI (@id) van de beslissingsregel waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/rule.
+   **Type:** string
 
 * **_experience > decisions > Criteria > profileConstraints > Profielrestrictietype**
 
    **Veld:** profileConstraintType
-   **Titel:** profielrestrictietype
-   **Beschrijving:** Hiermee bepaalt u of er beperkingen zijn ingesteld en hoe de beperkingen worden uitgedrukt. Het zou door een regel of door één of meerdere segmentlidmaatschap kunnen zijn.
-   **Type:** tekenreeks
+   **Titel:** Type profielbeperking
+   **Omschrijving:** Hiermee wordt bepaald of er momenteel beperkingen zijn ingesteld en hoe de beperkingen worden uitgedrukt. Het zou door een regel of door één of meerdere segmentlidmaatschap kunnen zijn.
+   **Type:** string
    **Mogelijke waarden:**
    * &quot;none&quot; (standaardwaarde)
    * &quot;toelatingsregel&quot;: &quot;De profielbeperking wordt uitgedrukt als één enkele regel die aan waar moet evalueren alvorens de beperkte actie wordt toegestaan.&quot;
@@ -148,119 +149,119 @@ Hier is de lijst van alle gebieden die in de **[!UICONTROL Decision Object Repos
 
    **Veld:** segmentIdentities
    **Titel:** Segment-id&#39;s
-   **Beschrijving:** id&#39;s van de segmenten.
-   **Tekst:** array
+   **Omschrijving:** Id&#39;s van de segmenten.
+   **Type:** array
 
    * **Id**
 
       **Veld:** _id
-      **titel:** id
-      **Beschrijving:** Identiteit van het segment in de gerelateerde naamruimte.
-      **Type:** tekenreeks
+      **Titel:** Id
+      **Omschrijving:** Identiteit van het segment in verwante namespace.
+      **Type:** string
 
    * **namespace**
 
-      **Veld:** naamruimte
-      **Titel:** naamruimte
-      **Beschrijving:** de naamruimte die aan het  `xid` kenmerk is gekoppeld.
-      **Tekst:** object
+      **Veld:** namespace
+      **Titel:** Naamruimte
+      **Omschrijving:** De naamruimte die is gekoppeld aan de `xid` kenmerk.
+      **Type:** object
       **Vereist:** &quot;code&quot;
 
       * **Code**
 
          **Veld:** code
-         **Titel:** code
-         **Beschrijving:** De code is een leesbare id voor de naamruimte en kan worden gebruikt om de technische naamruimte-id aan te vragen die wordt gebruikt voor het verwerken van identiteitsgrafieken.
-         **Type:** tekenreeks
+         **Titel:** Code
+         **Omschrijving:** De code is een leesbare id voor de naamruimte en kan worden gebruikt om de technische naamruimte-id aan te vragen die wordt gebruikt voor het verwerken van identiteitsgrafieken.
+         **Type:** string
    * **Ervings-id**
 
       **Veld:** xid
-      **Titel:** Ervaring-id
-      **Beschrijving:** Wanneer deze waarde aanwezig is, vertegenwoordigt deze een naamruimte-id die uniek is voor alle naamruimte-bereikid-id&#39;s in alle naamruimten.
-      **Type:** tekenreeks
+      **Titel:** Ervings-id
+      **Omschrijving:** Wanneer deze waarde aanwezig is, vertegenwoordigt deze een naamruimte-id die uniek is voor alle naamruimte-bereikid&#39;s in alle naamruimten.
+      **Type:** string
 
 
 **_experience > decisions > Criteria > Rangschikking**
 
-**veld:** rangschikkende 
-**titel:** rangschikkende details, 
-**beschrijving:** Rank (prioriteit). Bepaalt hoe de &quot;beste optie\&quot; gezien de context van het beslissingscriterium wordt bepaald. Onder alle geselecteerde opties die aan de profielbeperkingen voldoen, bepaalt de rangschikking welke optie(s) bovenaan (of bovenste N) moet(en) worden voorgesteld.
-**Tekst:** object
+**Veld:** rangschikking
+**Titel:** Beoordelingsdetails
+**Omschrijving:** Rang (prioriteit). Bepaalt hoe de &quot;beste optie\&quot; gezien de context van het beslissingscriterium wordt bepaald. Onder alle geselecteerde opties die aan de profielbeperkingen voldoen, bepaalt de rangschikking welke optie(s) bovenaan (of bovenste N) moet(en) worden voorgesteld.
+**Type:** object
 
 * **_experience > decisions > Criteria > Rangschikking > order**
 
-   **Veld:** volgorde
-   **Titel:** Bestellingsevaluatie
-   **Beschrijving:** Evaluatie van een relatieve volgorde van een of meer beslissingsopties. De opties met hogere rangtelwoorden worden geselecteerd over om het even welke opties met lagere rangtelwoorden. De waarden die met deze methode worden bepaald, kunnen worden geordend, maar de afstanden daartussen kunnen niet worden gemeten en er kunnen geen bedragen of producten worden berekend. De mediaan en de mode zijn de enige maatstaven van centrale neiging die voor ordinale gegevens kunnen worden gebruikt.
-   **Tekst:** object
+   **Veld:** bestellen
+   **Titel:** Orderevaluatie
+   **Omschrijving:** Evaluatie van een relatieve volgorde van een of meer beslissingsopties. De opties met hogere rangtelwoorden worden geselecteerd over om het even welke opties met lagere rangtelwoorden. De waarden die met deze methode worden bepaald, kunnen worden geordend, maar de afstanden daartussen kunnen niet worden gemeten en er kunnen noch sommen noch producten worden berekend. De mediaan en de mode zijn de enige maatstaven van centrale neiging die voor ordinale gegevens kunnen worden gebruikt.
+   **Type:** object
 
    * **Scorefunctie**
 
-      **Veld:** functie
-      **Titel:** functie voor scores
-      **Beschrijving:** Een verwijzing naar een functie die een numerieke score voor deze beslissingsoptie berekent. Beslissingsopties worden vervolgens met die score geordend (gerangschikt). De waarde van deze eigenschap is de URI (@id) van de functie die met één optie tegelijk moet worden aangeroepen. Zie schema https://ns.adobe.com/experience/decisioning/function.
-      **Type:** tekenreeks
+      **Veld:** function
+      **Titel:** Scorefunctie
+      **Omschrijving:** Een verwijzing naar een functie die een numerieke score voor deze beslissingsoptie berekent. Beslissingsopties worden vervolgens met die score geordend (gerangschikt). De waarde van deze eigenschap is de URI (@id) van de functie die met één optie tegelijk moet worden aangeroepen. Zie schema https://ns.adobe.com/experience/decisioning/function.
+      **Type:** string
 
    * **Type beoordeling van bestelling**
 
       **Veld:** orderEvaluationType
-      **Titel:Type** orderevaluatie
-      **Beschrijving:** Specificeert welk mechanisme van de ordeevaluatie wordt gebruikt, statische prioriteit van de besluitvormingsopties, een het schrapen functie die een numerieke waarde voor elke optie of een rangschikkingsstrategie berekent die een lijst ontvangt om het te bestellen.
-      **Type:** tekenreeks
+      **Titel:** Type beoordeling van bestelling
+      **Omschrijving:** Specificeert welk mechanisme van de ordeevaluatie wordt gebruikt, statische prioriteit van de besluitvormingsopties, een scorefunctie die een numerieke waarde voor elke optie of een rangschikkingsstrategie berekent die een lijst ontvangt om het te bestellen.
+      **Type:** string
       **Mogelijke waarden:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
    * **Rangschikkingsstrategie**
 
-      **Veld:** rankingStrategy
-      **Titel:** rangschikkingsstrategie
-      **Beschrijving:** Een verwijzing naar een strategie die een lijst met beslissingsopties rangschikt. Beslissingsopties worden geretourneerd in een geordende lijst. De waarde van deze eigenschap is de URI (@id) van de functie die met één optie tegelijk moet worden aangeroepen. Zie schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
-      **Type:** tekenreeks
+      **Veld:** rangschikkingStrategie
+      **Titel:** Rangschikkingsstrategie
+      **Omschrijving:** Een verwijzing naar een strategie die een lijst van besluitvormingsoptie rangschikt. Beslissingsopties worden geretourneerd in een geordende lijst. De waarde van deze eigenschap is de URI (@id) van de functie die met één optie tegelijk moet worden aangeroepen. Zie schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
+      **Type:** string
 
 * **_experience > decisions > Criteria > Rangschikking > Prioriteit**
 
    **Veld:** prioriteit
-   **Titel:** prioriteit
-   **Beschrijving:** De prioriteit van één beslissingsoptie ten opzichte van alle andere opties. De opties waarvoor geen ordefunctie wordt gegeven worden voorrang gegeven gebruikend dit bezit. De opties met hogere prioritaire waarden worden geselecteerd vóór om het even welke lagere prioritaire opties. Als twee of meer in aanmerking komende opties de hoogste prioritaire waarde delen, wordt één gekozen op uniforme willekeurige wijze en gebruikt voor het beslissingsvoorstel.
-   **Tekst:** geheel getal
+   **Titel:** Prioriteit
+   **Omschrijving:** De prioriteit van één beslissingsoptie ten opzichte van alle andere opties. De opties waarvoor geen ordefunctie wordt gegeven worden voorrang gegeven gebruikend dit bezit. De opties met hogere prioritaire waarden worden geselecteerd vóór om het even welke lagere prioritaire opties. Als twee of meer in aanmerking komende opties de hoogste prioritaire waarde delen, wordt één gekozen op uniforme willekeurige wijze en gebruikt voor het beslissingsvoorstel.
+   **Type:** integer
    **Minimumwaarde:** 0
    **Standaardwaarde:** 0
 
 #### _experience > decisions > Activity End Date and Time
 
-**Veld:** endTime 
-**Title:** Activity End Date and Time 
-**Description:** Decision (voorheen bekend als activity) end date and end time. De eigenschap heeft de semantische waarde van de eigenschap &#39;endTime&#39; van schema.org gedefinieerd op http://schema.org/Action.
-**Type:** tekenreeks
+**Veld:** endTime
+**Titel:** Einddatum en -tijd van activiteit
+**Omschrijving:** Einddatum en eindtijd van de beschikking (voorheen bekend als activiteit). De eigenschap heeft de semantische waarde van de eigenschap &#39;endTime&#39; van schema.org gedefinieerd op http://schema.org/Action.
+**Type:** string
 
 #### _experience > decisions > Fallback Option
 
-**Veld:** fallback-
-**titel:** Fallback-optie 
-**Beschrijving:** de verwijzing naar een fallback-optie die wordt gebruikt wanneer een beslissing wordt genomen in de context van dit besluit, kwalificeert geen van de reguliere opties (dit gebeurt gewoonlijk wanneer harde beperkingen worden toegepast). De waarde is de URI (@id) van de fallback-optie waarnaar wordt verwezen.
-**Type:** tekenreeks
+**Veld:** fallback
+**Titel:** Optie voor alternatieven
+**Omschrijving:** De verwijzing naar een reserveoptie die wordt gebruikt wanneer het besluit in het kader van dit besluit beslist kwalificeert geen van de regelmatige opties (dit gebeurt typisch wanneer harde beperkingen worden toegepast). De waarde is de URI (@id) van de fallback-optie waarnaar wordt verwezen.
+**Type:** string
 
 #### _experience > decisions > Activity Name
 
-**Veld:** naam 
-**Titel:** Activiteitsnaam 
-**Beschrijving:** Besluit (voorheen bekend als activiteit) naam die wordt weergegeven in verschillende gebruikersinterfaces.
-**Type:** tekenreeks
+**Veld:** name
+**Titel:** Naam activiteit
+**Omschrijving:** De naam van het besluit (voorheen bekend als activiteit) die in diverse gebruikersinterfaces wordt getoond.
+**Type:** string
 
 #### _experience > decisions > Activity Start Date and Time
 
-**Veld:** begintijd 
-**titel:Begindatum en** tijdbeschrijving van 
-**activiteit:** begindatum en eindtijd vanbeslissing (voorheen bekend als activiteit). De eigenschap heeft de semantische waarde van de eigenschap &#39;startTime&#39; van schema.org gedefinieerd op http://schema.org/Action.
-**Type:** tekenreeks
+**Veld:** startTime
+**Titel:** Begindatum en -tijd van activiteit
+**Omschrijving:** Begindatum en eindtijd van de beschikking (voorheen bekend als activiteit). De eigenschap heeft de semantische waarde van de eigenschap &#39;startTime&#39; van schema.org gedefinieerd op http://schema.org/Action.
+**Type:** string
 
 ## _repo
 
-**Veld:** _repo-
-**type:** object
+**Veld:** _repo
+**Type:** object
 
 ### _repo > Activity ETag
 
-**Field:** etag 
-**Title:** Activity ETag 
-**Description:** De herziening die het besluit (vroeger genoemd als activiteit) voorwerp was toen de momentopname werd genomen.
-**Type:** tekenreeks
+**Veld:** etel
+**Titel:** Activity ETag
+**Omschrijving:** De revisie die het besluitvormingsobject (voorheen bekend als activity) had toen de momentopname werd gemaakt.
+**Type:** string

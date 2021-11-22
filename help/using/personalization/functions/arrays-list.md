@@ -1,14 +1,15 @@
 ---
 title: Arrays-functies, bibliotheek
 description: Arrays-functies, bibliotheek
-feature: Personalisatie
-topic: Personalisatie
+feature: Personalization
+topic: Personalization
 role: Data Engineer
 level: Experienced
-source-git-commit: 4be1d6f4034a0bb0a24fe5e4f634253dc1ca798e
+exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 3%
+source-wordcount: '495'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +19,7 @@ Gebruik deze functies om interactie met arrays, lijsten en tekenreeksen eenvoudi
 
 ## Afzonderlijk{#distinct}
 
-De functie `distinct` wordt gebruikt om waarden op te halen uit een array of lijst met verwijderde dubbele waarden.
+De `distinct` functie wordt gebruikt om waarden op te halen uit een array of lijst waarvan dubbele waarden zijn verwijderd.
 
 **Indeling**
 
@@ -36,7 +37,7 @@ Met de volgende bewerking worden personen opgegeven die orders in meer dan één
 
 ## Eerste object{#head}
 
-De functie `head` wordt gebruikt om het eerste item in de array of lijst te retourneren.
+De `head` functie wordt gebruikt om het eerste item in de array of lijst te retourneren.
 
 **Indeling**
 
@@ -46,7 +47,7 @@ De functie `head` wordt gebruikt om het eerste item in de array of lijst te reto
 
 **Voorbeeld**
 
-De volgende bewerking retourneert de eerste van de bovenste vijf bestellingen met de hoogste prijs. Meer informatie over de functie `topN` vindt u in de sectie [first `n` in array](#first-n).
+De volgende bewerking retourneert de eerste van de bovenste vijf bestellingen met de hoogste prijs. Meer informatie over de `topN` kan worden gevonden in de [first `n` in array](#first-n) sectie.
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
@@ -54,7 +55,7 @@ De volgende bewerking retourneert de eerste van de bovenste vijf bestellingen me
 
 ## Eerste `n` in array {#first-n}
 
-De functie `topN` wordt gebruikt om de eerste `N` punten in een serie terug te keren, wanneer gesorteerd in oplopende orde die op de bepaalde numerieke uitdrukking wordt gebaseerd.
+De `topN` function wordt gebruikt om de eerste te retourneren `N` items in een array, indien gesorteerd in oplopende volgorde op basis van de opgegeven numerieke expressie.
 
 **Indeling**
 
@@ -78,7 +79,7 @@ De volgende bewerking retourneert de bovenste vijf bestellingen met de hoogste p
 
 ## In{#in}
 
-De functie `in` wordt gebruikt om te bepalen of een punt een lid van een serie of een lijst is.
+De `in` wordt gebruikt om te bepalen of een punt een lid van een serie of een lijst is.
 
 **Indeling**
 
@@ -96,7 +97,7 @@ De volgende bewerking definieert personen met verjaardagen in maart, juni of sep
 
 ## Inclusief{#includes}
 
-De functie `includes` wordt gebruikt om te bepalen of een serie of een lijst een bepaald punt bevat.
+De `includes` wordt gebruikt om te bepalen of een array of lijst een bepaald item bevat.
 
 **Indeling**
 
@@ -114,7 +115,7 @@ De volgende bewerking definieert personen van wie de favoriete kleur rood bevat.
 
 ## Doorsnede{#intersects}
 
-De functie `intersects` wordt gebruikt om te bepalen of twee series of lijsten minstens één gemeenschappelijk lid hebben.
+De `intersects` functie wordt gebruikt om te bepalen of twee series of lijsten minstens één gemeenschappelijk lid hebben.
 
 **Indeling**
 
@@ -152,7 +153,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ## Laatste `n` in array{#last-n}
 
-De functie `bottomN` wordt gebruikt om de laatste `N` punten in een serie terug te keren, wanneer gesorteerd in oplopende orde die op de bepaalde numerieke uitdrukking wordt gebaseerd.
+De `bottomN` function wordt gebruikt om de laatste te retourneren `N` items in een array, indien gesorteerd in oplopende volgorde op basis van de opgegeven numerieke expressie.
 
 **Indeling**
 
@@ -177,11 +178,11 @@ De volgende bewerking retourneert de bovenste vijf bestellingen met de laagste p
 
 ## Niet in{#notin}
 
-De functie `notIn` wordt gebruikt om te bepalen als een punt geen lid van een serie of een lijst is.
+De `notIn` wordt gebruikt om te bepalen of een item geen lid is van een array of lijst.
 
 >[!NOTE]
 >
->De `notIn` functie *also* zorgt ervoor dat geen van beide waarden gelijk aan null is. Daarom zijn de resultaten geen exacte negatie van de functie `in`.
+>De `notIn` function *ook* zorgt ervoor dat geen van beide waarden gelijk is aan null. Daarom zijn de resultaten geen exacte ontkenning van de `in` functie.
 
 **Indeling**
 
@@ -200,7 +201,7 @@ De volgende bewerking definieert personen met verjaardagen die zich niet in maar
 
 ## Subset van{#subset}
 
-De functie `subsetOf` wordt gebruikt om te bepalen of een specifieke array (array A) een subset is van een andere array (array B). Met andere woorden, alle elementen in array A zijn elementen van array B.
+De `subsetOf` wordt gebruikt om te bepalen of een specifieke array (array A) een subset is van een andere array (array B). Met andere woorden, alle elementen in array A zijn elementen van array B.
 
 **Indeling**
 
@@ -218,7 +219,7 @@ De volgende bewerking definieert mensen die al hun favoriete steden hebben bezoc
 
 ## Superset van{#superset}
 
-De functie `supersetOf` wordt gebruikt om te bepalen of een specifieke array (array A) een superset is van een andere array (array B). Met andere woorden, die array A bevat alle elementen in array B.
+De `supersetOf` wordt gebruikt om te bepalen of een specifieke array (array A) een superset is van een andere array (array B). Met andere woorden, die array A bevat alle elementen in array B.
 
 **Indeling**
 
@@ -233,10 +234,3 @@ De volgende bewerking definieert mensen die sushi en pizza hebben gegeten ten mi
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}
 ```
-
-
-
-
-
-
-

@@ -1,14 +1,15 @@
 ---
 title: Tags maken
 description: Leer hoe je aanbiedingen kunt maken in Adobe Experience Platform.
-feature: Aanbiedingen
-topic: Integraties
+feature: Offers
+topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0e5cc9101ff382ce9fde442da38eb46aa28e9c77
+exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
+source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 6%
+source-wordcount: '162'
+ht-degree: 5%
 
 ---
 
@@ -20,15 +21,15 @@ De markeringen kunnen ook worden gebruikt om aanbiedingen samen in aanbiedingsin
 
 ➡️ [Ontdek deze functie in video](#video)
 
-De lijst met gemaakte tags is toegankelijk in het menu **[!UICONTROL Components]**.
+De lijst met gemaakte tags is toegankelijk in het dialoogvenster **[!UICONTROL Components]** -menu.
 
 ![](../../assets/tags_list.png)
 
 Voer de volgende stappen uit om een tag te maken:
 
-1. Ga naar het **[!UICONTROL Tags]** lusje, dan klik **[!UICONTROL Create tag]**.
+1. Ga naar de **[!UICONTROL Tags]** tab, en klik vervolgens op **[!UICONTROL Create tag]**.
 
-1. Geef de naam van de tag op en klik op **[!UICONTROL Save]**.
+1. Geef de naam van de tag op en klik vervolgens op **[!UICONTROL Save]**.
 
    ![](../../assets/tags_create.png)
 
