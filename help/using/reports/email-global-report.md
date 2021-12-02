@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: f0e34e040dd0e0ba2fa8293f4290ab55e1781426
+source-git-commit: 36c9b672e9e183cd0aac58582ddd54ccdebd84f7
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -91,32 +91,33 @@ De **[!UICONTROL Open vs Click]** identificeert de interactie van uw ontvangers 
 
 * **[!UICONTROL Unique Opens]**: Aantal ontvangers dat de levering heeft geopend.
 
+<!--
 ![](../assets/global_report_20.png)
 
 >[!NOTE]
 >
->De widgets en cijfers voor aanbiedingen zijn alleen beschikbaar als een beslissing in een e-mail is ingevoegd. Raadpleeg voor meer informatie over het beheer van de besluiten [page](../offers/get-started/starting-offer-decisioning.md).
+>The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
 
-De **[!UICONTROL Offers statistic]** en **[!UICONTROL Offers statistics]** in de loop der tijd meten de widgets het succes van uw aanbieding en de impact op uw doelgroep. Het detailleert de belangrijkste informatie met betrekking tot uw bericht met KPIs:
+The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
 
-* **[!UICONTROL Offer sent]**: Het totale aantal verzendingen voor de aanbieding.
+* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
 
-* **[!UICONTROL Offer impression]**: Aantal keren dat het voorstel is geopend in een levering.
+* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
 
-* **[!UICONTROL Offer clicks]**: Aantal keren dat op een voorstel is geklikt in een levering.
+* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
 
-De **[!UICONTROL Offers detailed statistic]** de tabel bevat de beschikbare gegevens voor de activiteit van de ontvanger met uw voorstel:
+The **[!UICONTROL Offers detailed statistic]** table contains the available data for recipient activity with your offer:
 
-* **[!UICONTROL Placement name]**: Naam van de plaatsing die u hebt gebruikt om uw voorstel weer te geven. Raadpleeg deze voor meer informatie over plaatsing [page](../offers/offer-library/creating-placements.md).
+* **[!UICONTROL Placement name]**: Name of your placement used to display your offer. For more information on placement, refer to this [page](../offers/offer-library/creating-placements.md).
 
-* **[!UICONTROL Offer name]**: Naam van de aanbieding die in de levering is toegevoegd. Raadpleeg deze voor meer informatie over plaatsing [page](../offers/offer-library/creating-personalized-offers.md).
+* **[!UICONTROL Offer name]**: Name of the offer added in the delivery. For more information on placement, refer to this [page](../offers/offer-library/creating-personalized-offers.md).
 
-* **[!UICONTROL Offer sent]**: Het totale aantal verzendingen voor de aanbieding.
+* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
 
-* **[!UICONTROL Offer impression rate]**: Percentage geopende aanbiedingen in verhouding tot het aantal verzonden aanbiedingen.
+* **[!UICONTROL Offer impression rate]**: Percentage of opened offers compared to the number of sent offers.
 
-* **[!UICONTROL Offer click rate]**: Percentage gebruikers dat interactie had met het aanbod.
-
+* **[!UICONTROL Offer click rate]**: Percentage of users who interacted with the offer.
+-->
 >[!NOTE]
 >
 >De profielen met **[!UICONTROL Suppressed]** of **[!UICONTROL Not allowed]** status worden uitgesloten tijdens het verzenden van berichten. Daarom moet **Reisrapporten** geeft aan dat deze profielen door de reis zijn gegaan ([Segment lezen](../building-journeys/read-segment.md) en [Bericht](../building-journeys/journeys-message.md) de **E-mailrapporten** worden niet opgenomen in de **[!UICONTROL Sent]** Metrische gegevens worden uitgefilterd voordat e-mail wordt verzonden.

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: f0e34e040dd0e0ba2fa8293f4290ab55e1781426
+source-git-commit: 36c9b672e9e183cd0aac58582ddd54ccdebd84f7
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -67,20 +67,21 @@ De **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]** widgets
 
 * **[!UICONTROL Ignored]**: Het totale aantal tijdelijke gegevens, zoals Buiten-kantoor, of een technische fout, bijvoorbeeld als het type afzender postmaster is.
 
+<!--
 ![](../assets/live_report_8.png)
 
 >[!NOTE]
 >
->De widgets en cijfers voor aanbiedingen zijn alleen beschikbaar als een beslissing in een e-mail is ingevoegd. Raadpleeg voor meer informatie over het beheer van de besluiten [page](../offers/get-started/starting-offer-decisioning.md).
+>The Offers widgets and metrics are only available if a decision was inserted in an email. For more information on Decision Management, refer to this [page](../offers/get-started/starting-offer-decisioning.md).
 
-De **[!UICONTROL Offers statistic]** en **[!UICONTROL Offers statistics]** in de loop der tijd meten de widgets het succes van uw aanbieding en de impact op uw doelgroep. Het detailleert de belangrijkste informatie met betrekking tot uw bericht met KPIs:
+The **[!UICONTROL Offers statistic]** and **[!UICONTROL Offers statistics]** over time widgets measure your offer's success and impact on your targeted audience. It detail the main information relative to your message with KPIs:
 
-* **[!UICONTROL Offer sent]**: Het totale aantal verzendingen voor de aanbieding.
+* **[!UICONTROL Offer sent]**: Total number of sends for the offer.
 
-* **[!UICONTROL Offer impression]**: Aantal keren dat het voorstel is geopend in een levering.
+* **[!UICONTROL Offer impression]**: Number of times the offer was opened in a delivery.
 
-* **[!UICONTROL Offer clicks]**: Aantal keren dat op een voorstel is geklikt in een levering.
-
+* **[!UICONTROL Offer clicks]**: Number of times an offer was clicked on in a delivery.
+-->
 >[!NOTE]
 >
 >De profielen met **[!UICONTROL Suppressed]** of **[!UICONTROL Not allowed]** status worden uitgesloten tijdens het verzenden van berichten. Daarom moet **Reisrapporten** geeft aan dat deze profielen door de reis zijn gegaan ([Segment lezen](../building-journeys/read-segment.md) en [Bericht](../building-journeys/journeys-message.md) de **E-mailrapporten** worden niet opgenomen in de **[!UICONTROL Sent]** Metrische gegevens worden uitgefilterd voordat e-mail wordt verzonden.
