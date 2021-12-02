@@ -2,9 +2,9 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 01313f84dc9d5260388574b3e1eb7e4a7df14d0e
+source-git-commit: 4fc7271c96ffe87fe9b22a9d8bf93843468b2e79
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '794'
 ht-degree: 25%
 
 ---
@@ -13,6 +13,11 @@ ht-degree: 25%
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
 
+
+## November 2021
+
+* Er is nu een volledige beschrijving beschikbaar van de geavanceerde expressie-editor die tijdens reizen wordt gebruikt. [Meer informatie](building-journeys/expression/expressionadvanced.md)
+* Nieuwe subdomeindelegatiemethode CNAME. [Meer informatie](configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 ## Oktober 2021
 

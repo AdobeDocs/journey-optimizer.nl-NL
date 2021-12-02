@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 01313f84dc9d5260388574b3e1eb7e4a7df14d0e
+source-git-commit: 52d187f349cba45b43c38c20e45c1dff746d38bf
 workflow-type: tm+mt
-source-wordcount: '1978'
+source-wordcount: '2074'
 ht-degree: 10%
 
 ---
@@ -12,6 +12,26 @@ ht-degree: 10%
 # Aanvullende informatie {#release-notes}
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [!DNL Journey Optimizer]. U kunt ook de [laatste documentatie - Updates](documentation-updates.md).
+
+## Release november 2021
+
+<table>
+<thead>
+<tr>
+<th><strong>CNAME-subdomeindelegatie</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer ondersteunt nu CNAME's. Een CNAME, of Canonical Name verslag, is een verslag dat aan een ander domeinadres eerder dan een IP adres richt. De subdomeindelegatie van CNAME laat u toe om subdomain tot stand te brengen en CNAMEs te gebruiken om aan Adobe-specifieke verslagen te richten. Met behulp van deze configuratie delen u en Adobe de verantwoordelijkheid voor het onderhoud van DNS in de omgeving voor het verzenden, renderen en volgen van e-mails.</p>
+<p>Deze methode wordt aanbevolen als het beleid van uw organisatie de methode voor volledige subdomeindelegatie beperkt.</p>
+<p>Meer informatie over subdomeindelegatie van CNAME in het deelvenster <a href="configuration/delegate-subdomain.md#cname-subdomain-delegation">gedetailleerde documentatie</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## Release oktober 2021 {#oct-2021-release}
 
@@ -81,7 +101,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 </table>
 
 
-Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target=&quot;_blank&quot;} voor meer wijzigingen.
+Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target=&quot;_blank&quot;} voor meer wijzigingen.
 
 ### Verbeteringen
 

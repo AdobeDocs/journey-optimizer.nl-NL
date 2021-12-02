@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 18383a5a27aaf54cc859bdb66386648fe5fe2c41
+source-git-commit: 203f8545200d4a6c20a748807e20ba7aba1ab5f3
 workflow-type: tm+mt
-source-wordcount: '1682'
+source-wordcount: '1684'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
    Tijdens deze stap, zullen verscheidene controles worden uitgevoerd om te verifiëren dat het behoorlijk is gevormd. De verwerkingstijd is ongeveer **48u-72u** en kan **7-10 werkdagen**.
 
-   Deze controles omvatten leverbaarheidstests die door het team van de Adobe worden uitgevoerd:
+   Deze controles omvatten configuratie en technische tests die door het team van Adobe worden uitgevoerd:
 
    * SPF-validatie
    * DKIM-validatie

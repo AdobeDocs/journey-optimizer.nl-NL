@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 3f83ef8074fd52ab611117282015f60e2e57b61d
+source-git-commit: 6c200f4a162ea1a3763b353b01ce5fef74ed8462
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Met PTR verslagen, kunnen het ontvangen van postservers de authenticiteit van he
 
 ## De PTR-records van uw subdomeinen openen
 
-Wanneer een subdomein in Adobe Journey Optimizer is gedelegeerd, wordt automatisch een PTR-record gemaakt en gekoppeld aan dit subdomein. U hebt toegang tot dit bestand via het dialoogvenster **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** -menu.
+Eenmaal [een subdomein wordt gedelegeerd](delegate-subdomain.md) in Adobe Journey Optimizer wordt automatisch een PTR-record gemaakt en gekoppeld aan dit subdomein. U hebt toegang tot dit bestand via het dialoogvenster **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** -menu.
 
 ![](../assets/ptr-records.png)
 
@@ -39,6 +39,10 @@ U kunt een PTR-record in de lijst openen om de bijbehorende subdomeinnaam en het
 ## Een PTR-record bewerken {#edit-ptr-record}
 
 U kunt een PTR-record wijzigen om het subdomein te bewerken dat aan een IP-adres is gekoppeld.
+
+>[!CAUTION]
+>
+>U kunt een PTR-record dat is gekoppeld aan een subdomein dat aan Adobe is gedelegeerd, niet wijzigen met de opdracht [CNAME, methode](delegate-subdomain.md#cname-subdomain-delegation).
 
 1. Klik in de lijst op de naam van een PTR-record om deze te openen.
 

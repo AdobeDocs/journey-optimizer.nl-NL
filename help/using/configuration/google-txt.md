@@ -16,10 +16,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 1d7f661dc0a89e4754a76ecf2cdce1e43a5275ec
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 24%
+source-wordcount: '162'
+ht-degree: 27%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 24%
 
 TXT-records zijn DNS-records die worden gebruikt om tekstgegevens over een domein te verstrekken en die kunnen worden gelezen door externe bronnen.
 
-Met het beheer van de reizen van de klant kunt u speciale TXT-records voor de verificatie van de Google-site toevoegen aan uw subdomeinen om ervoor te zorgen dat deze worden geverifieerd, zodat u zeker bent van een goede leverantie en e-mail naar de Gmail-adressen.
+Om ervoor te zorgen dat de e-mails naar Gmail-adressen goed kunnen worden afgeleverd en succesvol kunnen worden verzonden, [!DNL Journey Optimizer] Hiermee kunt u speciale TXT-records voor verificatie van de Google-site toevoegen aan uw subdomeinen om te controleren of deze zijn geverifieerd.
 
->[!NOTE]
+>[!CAUTION]
 >
 > Deze bewerking kan alleen worden uitgevoerd als een subdomein het **[!UICONTROL Success]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](access-subdomains.md).
 
@@ -37,8 +37,8 @@ Ga als volgt te werk om een Google TXT-record aan uw subdomein toe te voegen:
 
 1. Het subdomein openen vanuit het dialoogvenster **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** -menu.
 
-1. Voer in de sectie TXT-record van Google de verificatiecode in die is gegenereerd in [G Suite-beheerprogramma&#39;s](https://support.google.com/a/answer/183895)en klik vervolgens op **[!UICONTROL Save]**.
+1. In de **[!UICONTROL Google txt record]** de verificatiecode invoeren die is gegenereerd op basis van [Google Workspace](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools-->en klik vervolgens op **[!UICONTROL Save]**.
 
    ![](../assets/subdomain-google-txt.png)
 
-1. Nadat de TXT-record is toegevoegd, moet u deze door Google laten verifiëren. Navigeer hiertoe naar de G Suite Admin-hulpprogramma&#39;s en start vervolgens de verificatiestap.
+1. Nadat de TXT-record is toegevoegd, moet u deze door Google laten verifiëren. Navigeer om dit te doen naar [Google Workspace](https://support.google.com/a/answer/183895){target=&quot;_blank&quot;}<!--G Suite Admin tools-->en start vervolgens de verificatiestap.
