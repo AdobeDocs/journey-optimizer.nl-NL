@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: d8c95350ac17658ce477d6aec50a9f418f4af0f2
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '482'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ Berichten zijn beschikbaar via de **[!UICONTROL Messages]** sneltoets voor de li
 
 >[!NOTE]
 >
->Gebruikers kunnen berichten openen, maken, bewerken en/of publiceren, afhankelijk van hun productprofiel. Meer informatie over gebruikersmachtigingen [in deze sectie](../using/administration/permissions.md).
+>Gebruikers kunnen berichten openen, maken, bewerken en/of publiceren, afhankelijk van hun productprofiel. Meer informatie over gebruikersmachtigingen [in deze sectie](administration/permissions.md).
 
 ![](assets/messages-list.png)
 
@@ -43,15 +43,14 @@ Volg onderstaande stappen om een nieuw bericht te maken:
 
    * Voer een **[!UICONTROL Title]** (verplicht) en een **[!UICONTROL Description]**.
 
+   * Selecteer **[!UICONTROL Message category]**: Marketing of transactie.
+
    * Selecteer **[!UICONTROL Preset]** voor het bericht te gebruiken.
 
-      Voorinstellingen bevatten alle parameters die vereist zijn voor het verzenden van een e-mail- en/of pushmelding volgens uw merk. [Meer informatie over voorinstellingen](../using/configuration/message-presets.md).
+      Voorinstellingen bevatten alle parameters die vereist zijn voor het verzenden van een e-mail- en/of pushmelding volgens uw merk. [Meer informatie over voorinstellingen](configuration/message-presets.md).
 
    * Selecteer de kanalen die u voor dat bericht wilt gebruiken: E-mail- en/of pushmelding. U moet ten minste één kanaal selecteren om het bericht te kunnen maken.
    U kunt de titel, beschrijving en voorinstelling van het bericht op elk gewenst moment openen en wijzigen met de opdracht **[!UICONTROL Properties]** in de berichtinterface.
-
-   ![](assets/message-properties.png)
-
 
 1. Klikken **[!UICONTROL Create]** om het aanmaken van berichten te bevestigen. Uw bericht wordt toegevoegd in de berichtenlijst, in **[!UICONTROL Draft]** status.
 

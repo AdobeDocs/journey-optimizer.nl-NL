@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c6db89093e1ec5b7d9fe084cec58b8b7664c6ab2
+source-git-commit: 2879f460d4be4b570e47227b32fa3f979984cbbf
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '803'
 ht-degree: 1%
 
 ---
@@ -49,6 +49,8 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 1. Kies het type koppeling dat u wilt maken:
 
    * **[!UICONTROL External link]**: Voeg een koppeling naar een externe URL in.
+
+   * **[!UICONTROL Landing page]**: Koppelingen naar bestemmingspagina&#39;s invoegen. Meer informatie in [deze sectie](landing-pages/get-started-lp.md)
 
    * **[!UICONTROL Unsubscription link]**: Voeg een koppeling in om uw abonnement op te zeggen dat u geen communicatie van uw merk wilt ontvangen. Meer informatie over beheer van opt-out in [deze sectie](consent.md#opt-out-management).
 

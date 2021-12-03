@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
+source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '883'
 ht-degree: 50%
 
 ---
@@ -34,6 +34,7 @@ ht-degree: 50%
       + [Een bericht maken](using/create-message.md)
       + [Een e-mail maken](using/create-email.md)
       + [Een pushmelding maken](using/create-push.md)
+      + [Een SMS-bericht maken](using/create-sms.md)
    + [Elementen toevoegen en beheren](using/assets-essentials.md)
    + E-mails ontwerpen {#email-designer}
       + [Aan de slag met e-mailontwerp](using/design-emails.md)
@@ -220,6 +221,12 @@ ht-degree: 50%
       + [Aan de slag met de prestaties](using/deliverability.md)
       + [Onderdrukkingslijst](using/suppression-list.md)
       + [Lijst van gewenste personen](using/allow-list.md)
++ Landingspagina’s {#landing-pages}
+   + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
+   + [Een landingspagina maken](using/landing-pages/create-lp.md)
+   + [Een openingspagina ontwerpen](using/landing-pages/design-lp.md)
+   + [Een abonnementenlijst maken](using/landing-pages/subscription-list.md)
+   + [Gebruiksscenario’s](using/landing-pages/lp-use-cases.md)
 + Beslissingsbeheer {#offer-decisioniong}
    + Aan de slag met het beheer van beslissingen {#get-started}
       + [Over het beheer van besluiten](using/offers/get-started/starting-offer-decisioning.md)
@@ -321,6 +328,7 @@ ht-degree: 50%
             + [Onderdrukkingslijst beheren](using/configuration/manage-suppression-list.md)
             + [Hernieuwde pogingen](using/configuration/retries.md)
          + [Primair e-mailadres wijzigen](using/configuration/primary-email-addresses.md)
+      + [Sms-kanaal configureren](using/configuration/sms-configuration.md)
       + [Voorinstellingen voor berichten maken](using/configuration/message-presets.md)
    + Reizen configureren {#configure-journeys}
       + [Informatie over gegevensbronnen, gebeurtenissen en handelingen](using/configuration/about-data-sources-events-actions.md)

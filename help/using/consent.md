@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 9facba9d5dd804e51aad969ef83a964f64e63033
+source-git-commit: 049dbf7f4939bfc6db677000fee1cfb6dbdceb39
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '814'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,9 @@ Daarom moet u altijd een **afmelden, koppeling** in elke e-mail die naar ontvang
 Voer de onderstaande stappen uit om een koppeling voor afmelden toe te voegen:
 
 1. Bouw uw openingspagina voor abonnementen.
-1. Plaats de bestemmingspagina op het externe systeem van uw keuze.
+
+1. De gastheer het op het derdesysteem van uw keus.
+
 1. [Een bericht maken](../../help/using/create-message.md) in [!DNL Journey Optimizer].
 
    <!--The link to your landing page should contain a static URL and the profile ID.-->
