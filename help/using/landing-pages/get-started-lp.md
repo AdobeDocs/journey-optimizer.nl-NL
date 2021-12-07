@@ -7,10 +7,11 @@ role: User
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 1%
+source-wordcount: '176'
+ht-degree: 3%
 
 ---
 
@@ -30,29 +31,26 @@ Een openingspagina is een zelfstandige webpagina waarnaar een gebruiker wordt ve
 
 <!--[!DNL Journey Optimizer] now allows you to:
 * Easily build landing pages to make users subscribe to your communications.
-* Set up opt-in and opt-out flows quickly and seamlessly.
+* Enable your customers to opt-in or opt-out from your communications.
 To move to RN-->
 
-[!DNL Journey Optimizer] biedt de volgende mogelijkheden:
-
-* Hefboomwerking [!DNL Journey Optimizer] mogelijkheden voor inhoudsontwerp om responsieve bestemmingspagina&#39;s te maken.
-* Abonnementenlijsten maken waarmee gebruikers zich op een service kunnen abonneren.
-* Laat uw klanten aan opt-in of opt-out van uw mededelingen toe.
-* Verstrek uw ontvangers van het vermogen om van het ontvangen van uw mededelingen af te zien.
+* Hefboomwerking [!DNL Journey Optimizer] mogelijkheden voor inhoudsontwerp om eenvoudig samen te stellen **responsieve openingspagina&#39;s**.
+* Instellen **opt-in- en opt-out-stromen** snel en naadloos.
+* Abonnementenlijsten maken om gebruikers in staat te stellen **abonneren op een service**. [Meer informatie](lp-use-cases.md#subscription-to-a-service)
+* Geef uw ontvangers de **mogelijkheid om af te melden** van het ontvangen van uw mededelingen. [Meer informatie](lp-use-cases.md#opt-out)
+* Een **bevestigingsbericht** bij opt-in of opt-out. [Meer informatie](lp-use-cases.md#send-confirmation-email)
 
 <table>
 <tr>
 <td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Openingspagina's maken</a></p></td>
 <td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">Abonnementslijsten maken</a></p></td>
 <td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">Onderliggende pagina's ontwerpen</a></p></td>
-<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Gebruiksscenario’s</a></p></td>
+<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="lp-report.md">Rapportage</a></p></td>
 </tr>
 </table>
 
-<!--Easily build attractive/efficient landing pages to drive the best conversion.-->
+<!--
 
-<!--**Questions**
+<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Use cases</a></p></td>
 
-* Can you leverage **Adobe Experience Manager Assets Essentials** to enrich your landing pages' content?
-
-* Can you personalize LP ? > Enhance customers' experience by creating **personalized landing pages** based on their profile attributes.-->
+-->

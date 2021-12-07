@@ -7,16 +7,17 @@ role: User
 level: Intermediate
 hidefromtoc: true
 hide: true
-source-git-commit: 4d564ff89a8cb6c6d76161f2e6cedf39d33e70a0
+exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
+source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 0%
+source-wordcount: '772'
+ht-degree: 1%
 
 ---
 
 # Gebruiksgevallen van landingspagina
 
-Hieronder ziet u voorbeelden van hoe u kunt gebruiken [!DNL Journey Optimizer] het landen van pagina&#39;s om uw klanten te hebben binnen of uit van het ontvangen van wat of elk van uw mededelingen kiezen.
+Hieronder ziet u enkele voorbeelden van het gebruik van [!DNL Journey Optimizer] het landen van pagina&#39;s om uw klanten te hebben binnen of uit van het ontvangen van wat of elk van uw mededelingen kiezen.
 
 <!--The main use cases are:
 * Subscription to a service
@@ -25,33 +26,65 @@ Hieronder ziet u voorbeelden van hoe u kunt gebruiken [!DNL Journey Optimizer] h
 
 ## Abonnement op een service {#subscription-to-a-service}
 
-De belangrijkste stappen om uw ontvangers ertoe aan te zetten zich op de dienst te abonneren zijn hieronder vermeld.
+Een van de meest gebruikelijke gebruiksgevallen is het uitnodigen van uw klanten om [abonneren op een service](subscription-list.md) (zoals een nieuwsbrief of een gebeurtenis) door een landingspagina. De belangrijkste stappen worden weergegeven in de onderstaande grafiek:
 
 ![](../assets/lp_subscription-uc.png)
 
-Stel bijvoorbeeld dat u volgende maand een gebeurtenis organiseert en een registratiecampagne voor een gebeurtenis wilt starten om uw klanten die geïnteresseerd zijn, op de hoogte te houden van die gebeurtenis.
+Stel bijvoorbeeld dat u volgende maand een gebeurtenis organiseert en een registratiecampagne voor een gebeurtenis wilt starten<!--to keep your customers that are interested updated on that event-->. Hiervoor stuurt u een e-mail met een koppeling naar een bestemmingspagina waarmee uw ontvangers zich kunnen registreren voor deze gebeurtenis. De gebruikers die zich registreren, worden toegevoegd aan de abonnementenlijst die u voor dit doel hebt gemaakt.
 
-1. Maak de abonnementenlijst van de gebeurtenisregistratie. Meer informatie over [abonnementenlijsten](subscription-list.md)
+### Startpagina instellen
 
-1. [Een openingspagina maken](create-lp.md), waardoor de ontvangers zich kunnen registreren voor uw gebeurtenis.
+1. Maak de abonnementenlijst van de gebeurtenisregistratie, waarin de geregistreerde gebruikers worden opgeslagen. Leer hoe u een abonnementenlijst maakt [hier](subscription-list.md#define-subscription-list).
 
-1. Configureer en ontwerp de openingspagina voor registratie, inclusief de koppeling naar de abonnementenlijst. Meer informatie over het samenstellen van de [primaire landingspagina](create-lp.md#configure-primary-page)
+   ![](../assets/lp_subscription-uc-list.png)
 
-1. Maak een pagina voor bedankt die aan de ontvangers wordt weergegeven wanneer ze het registratieformulier verzenden. Meer informatie over [subpagina&#39;s landen](create-lp.md#configure-subpages)
+1. [Een openingspagina maken](create-lp.md) om uw ontvangers in staat te stellen zich voor uw gebeurtenis te registreren.
 
-1. Maak een e-mailbericht. Meer informatie over [berichten maken](../create-message.md)
+1. De registratie configureren [primaire landingspagina](create-lp.md#configure-primary-page).
 
-1. [Een koppeling invoegen](../message-tracking.md#insert-links) in uw bericht. Selecteren **[!UICONTROL Landing page]** als de **[!UICONTROL Link type]** en kiest u [landingspagina](create-lp.md#configure-primary-page) die u voor registratie hebt gemaakt.
+1. Bij het ontwerpen van de [pagina-inhoud plaatsen](design-lp.md), selecteert u de abonnementenlijst die u hebt gemaakt om deze bij te werken met de profielen die het selectievakje voor registratie inschakelen.
+
+   ![](../assets/lp_subscription-uc-lp-list.png)
+
+1. Maak een pagina &#39;Bedankt&#39; die aan de ontvangers wordt weergegeven wanneer ze het registratieformulier verzenden. Leer hoe u landingssubpagina&#39;s kunt configureren [hier](create-lp.md#configure-subpages).
+
+   ![](../assets/lp_subscription-uc-thanks.png)
+
+1. [Publiceren](create-lp.md#publish) de openingspagina.
+
+1. [Een e-mailbericht maken](../create-message.md) om aan te geven dat de registratie nu geopend is voor uw gebeurtenis.
+
+1. [Een koppeling invoegen](../message-tracking.md#insert-links) in uw berichtinhoud. Selecteren **[!UICONTROL Landing page]** als de **[!UICONTROL Link type]** en kiest u [landingspagina](create-lp.md#configure-primary-page) die u voor registratie hebt gemaakt.
 
    ![](../assets/lp_subscription-uc-link.png)
 
 1. Sla uw inhoud op en [uw bericht publiceren](../publish-manage-message.md).
 
-1. Uw bericht verzenden via een [reis](../building-journeys/journey.md) om aan te geven dat de registratie nu is geopend voor uw gebeurtenis en om het verkeer naar de bestemmingspagina van de registratie te leiden.
+1. Uw bericht verzenden via een [reis](../building-journeys/journey.md) om het verkeer naar de registratiepagina van de landing te leiden.
 
-   Als de ontvangers eenmaal een e-mail hebben ontvangen en op de koppeling naar de bestemmingspagina klikken, worden ze doorgestuurd naar de pagina Bedankt en worden ze toegevoegd aan de abonnementenlijst.
+   ![](../assets/lp_subscription-uc-journey.png)
 
-1. U kunt een bevestigingsbericht verzenden naar de ontvangers die zich hebben geregistreerd voor uw gebeurtenis. Om dit te doen, stuur het door een andere reis gebruikend **[!UICONTROL Segment qualification]** en selecteer de abonnementenlijst die u als segment hebt gemaakt.
+   Als de ontvangers eenmaal een e-mail hebben ontvangen en op de koppeling naar de bestemmingspagina klikken, worden ze doorgestuurd naar de pagina &#39;Bedankt&#39; en worden ze toegevoegd aan de abonnementenlijst.
+
+### Een bevestigingsbericht verzenden {#send-confirmation-email}
+
+Bovendien kunt u een bevestigingsbericht verzenden naar de ontvangers die zich hebben geregistreerd voor uw gebeurtenis. Hiervoor voert u de volgende stappen uit.
+
+1. Een andere maken [reis](../building-journeys/journey.md). U kunt dit rechtstreeks vanaf de bestemmingspagina doen door op de knop **[!UICONTROL Create journey]** knop. Meer informatie [hier](create-lp.md#configure-primary-page)
+
+   ![](../assets/lp_subscription-uc-create-journey.png)
+
+1. De **[!UICONTROL Events]** categorie en een **[!UICONTROL Segment Qualification]** op uw canvas. Meer informatie [hier](../building-journeys/segment-qualification-events.md)
+
+1. Klik in het dialoogvenster **[!UICONTROL Segment]** en selecteer de abonnementenlijst die u hebt gemaakt.
+
+   ![](../assets/lp_subscription-uc-confirm-journey.png)
+
+1. Selecteer het bevestigingsbericht van uw keuze en verzend het door de reis.
+
+   ![](../assets/lp_subscription-uc-confirm-email.png)
+
+Alle gebruikers die zich voor uw gebeurtenis hebben geregistreerd, ontvangen het bevestigingsbericht.
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 
