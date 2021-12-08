@@ -190,10 +190,9 @@ ht-degree: 49%
       + [Een bericht verzenden met Campagne v7/v8](using/building-journeys/campaign-classic-use-case.md)
       + [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](using/building-journeys/collections.md)
       + [Een bericht verzenden naar abonnees](using/building-journeys/message-to-subscribers-uc.md)
-
       <!--
-    + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-    -->
+      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
+      -->
 + Bijhouden en bewaken {#reporting}
    + [Berichtcontrole](using/message-monitoring.md)
    + Live-rapport {#live-report}
