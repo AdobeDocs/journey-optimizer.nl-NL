@@ -7,16 +7,17 @@ role: User
 level: Intermediate
 hidefromtoc: true
 hide: true
-source-git-commit: 459bf9451ca86350713cf7f6d6977284b6d2eaf2
+exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
+source-git-commit: 8ec1420c29b2dd796441e2c08512b6378adb3fb1
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Rapport van bestemmingspagina {#lp-report}
 
-Het abonnementsrapport bevat informatie over de gevolgen van uw bestemmingspagina&#39;s. Er zijn twee rapporttypen beschikbaar:
+Het rapport van de bestemmingspagina bevat informatie over de impact van uw bestemmingspagina&#39;s. Er zijn twee rapporttypen beschikbaar:
 
 * De **[!UICONTROL Live report]** om het succes van uw bestemmingspagina&#39;s in de laatste 24 uren slechts te meten en te visualiseren.
 
