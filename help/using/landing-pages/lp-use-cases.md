@@ -8,9 +8,9 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: 1db755ef3037ca743d86e229ab308e051bae8994
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '847'
 ht-degree: 1%
 
 ---
@@ -105,39 +105,53 @@ Daarom moet u altijd een **afmelden, koppeling** in elke e-mail die naar ontvang
 
 ### Optie om te weigeren configureren {#configure-opt-out}
 
-Om de ontvangers van een bericht toe te laten om van uw mededelingen door een het landen pagina af te melden, volg de hieronder stappen.
+Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zich af te melden voor uw communicatie via een bestemmingspagina.
 
-1. Stel uw [landingspagina](create-lp.md). Specifieke landingspagina&#39;s gebruiken **[!UICONTROL Form]** component, een component definiëren **[!UICONTROL Opt-out]** selectievakje en kies voor bijwerken **[!UICONTROL Channel (email)]**: Het profiel dat het vak Weigeren op de bestemmingspagina controleert, wordt uit al uw communicatie verwijderd. [Meer informatie](design-lp.md)
+1. Maak uw openingspagina. [Meer informatie](create-lp.md)
+
+1. Definieer de primaire pagina. [Meer informatie](create-lp.md#configure-primary-page)
+
+1. [Ontwerp](design-lp.md) de inhoud van de primaire pagina: de landingspagina-specifiek gebruiken **[!UICONTROL Form]** component, een component definiëren **[!UICONTROL Opt-out]** selectievakje en kies voor bijwerken **[!UICONTROL Channel (email)]**: Het profiel dat het vak Weigeren op de bestemmingspagina controleert, wordt uit al uw communicatie verwijderd.
+
+   ![](../assets/lp_opt-out-primary-lp.png)
 
    <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
 
-1. [Een bericht maken](../create-message.md) in [!DNL Journey Optimizer].
+1. Een bevestiging toevoegen [subpagina](create-lp.md#configure-subpages) die wordt weergegeven aan de gebruikers die het formulier verzenden.
+
+   ![](../assets/lp_opt-out-subpage.png)
+
+   >[!NOTE]
+   >
+   >Zorg ervoor dat u naar de subpagina in het dialoogvenster **[!UICONTROL Form]** component **[!UICONTROL Call to action]** van de primaire pagina. [Meer informatie](design-lp.md)
+
+1. Zodra u vormde en de inhoud van uw pagina&#39;s bepaalde, [publish](create-lp.md#publish) de openingspagina.
+
+   ![](../assets/lp_opt-out-publish.png)
+
+1. [Een e-mailbericht maken](../create-message.md) in [!DNL Journey Optimizer].
 
 1. Selecteer tekst in uw inhoud en [een koppeling invoegen](../message-tracking.md#insert-links) gebruiken van de contextafhankelijke werkbalk. U kunt ook een koppeling op een knop gebruiken.
 
    ![](../assets/lp_opt-out-insert-link.png)
 
-1. Selecteren **[!UICONTROL Landing page]** van de **[!UICONTROL Link type]** vervolgkeuzelijst.
-
-1. Selecteer [landingspagina](create-lp.md#configure-primary-page) die u hebt gemaakt voor het uitschakelen.
+1. Selecteren **[!UICONTROL Landing page]** van de **[!UICONTROL Link type]** vervolgkeuzelijst en selecteert u de [landingspagina](create-lp.md#configure-primary-page) die u hebt gemaakt voor het uitschakelen.
 
    ![](../assets/lp_opt-out-landing-page.png)
 
-1. Klik op **[!UICONTROL Save]**.
-
 1. Sla uw inhoud op en [uw bericht publiceren](../publish-manage-message.md).
 
-1. Uw bericht verzenden via een [reis](../building-journeys/journey.md).
+1. Stuur je bericht door een reis. [Meer informatie](../building-journeys/journey.md).
 
-1. Zodra het bericht wordt ontvangen, als de ontvanger de unsubscribe verbinding klikt, wordt uw landende pagina getoond.
+1. Als een ontvanger op de koppeling voor het opzeggen van het abonnement in de e-mail klikt nadat het bericht is ontvangen, wordt de bestemmingspagina weergegeven.
 
-   <!--![](../assets/lp_opt-out-lp-example.png)-->
+   ![](../assets/lp_opt-out-submit-form.png)
 
-1. Als de ontvanger op de koppeling om te weigeren klikt op de bestemmingspagina, worden de profielgegevens bijgewerkt en ontvangen deze geen communicatie van uw merk tenzij u opnieuw een abonnement neemt.
+1. Op de landingspagina, als de ontvanger het vakje aankruist en het formulier indient:
 
-   <!--The opted-out recipient is then redirected to a confirmation message screen indicating that opting out was successful.-->
+   * De ontvanger van het gekozen-uit wordt opnieuw gericht aan het scherm van het bevestigingsbericht.
 
-   <!--![](../assets/lp_opt-out-confirmation-example.png)-->
+   * De profielgegevens worden bijgewerkt en zullen geen mededelingen van uw merk tenzij opnieuw geabonneerd ontvangen.
 
 Als u wilt controleren of de keuze van het corresponderende profiel is bijgewerkt, gaat u naar het Experience Platform en opent u het profiel door een naamruimte voor identiteiten en een bijbehorende identiteitswaarde te selecteren. Meer informatie in het dialoogvenster [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
