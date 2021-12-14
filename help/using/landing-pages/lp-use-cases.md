@@ -8,9 +8,9 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 1db755ef3037ca743d86e229ab308e051bae8994
+source-git-commit: 847873b39476e3bd932f420a70c9dcac46de84f5
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '843'
 ht-degree: 1%
 
 ---
@@ -123,7 +123,7 @@ Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zi
 
    >[!NOTE]
    >
-   >Zorg ervoor dat u naar de subpagina in het dialoogvenster **[!UICONTROL Form]** component **[!UICONTROL Call to action]** van de primaire pagina. [Meer informatie](design-lp.md)
+   >Zorg ervoor dat u naar de subpagina in de primaire pagina&#39;s verwijst **[!UICONTROL Call to action]** van de **[!UICONTROL Form]** component. [Meer informatie](design-lp.md)
 
 1. Zodra u vormde en de inhoud van uw pagina&#39;s bepaalde, [publish](create-lp.md#publish) de openingspagina.
 
@@ -147,7 +147,7 @@ Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zi
 
    ![](../assets/lp_opt-out-submit-form.png)
 
-1. Op de landingspagina, als de ontvanger het vakje aankruist en het formulier indient:
+   Indien de ontvanger het vakje aankruist en het formulier verzendt:
 
    * De ontvanger van het gekozen-uit wordt opnieuw gericht aan het scherm van het bevestigingsbericht.
 
