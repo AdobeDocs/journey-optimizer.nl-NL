@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 4b7cfedbc5f2c724e28e5e6e0ab7e0d2f40dccac
+source-git-commit: 168579f8f560756282cb8ae8cb82a10e1227af02
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '366'
 ht-degree: 1%
 
 ---
@@ -19,11 +19,10 @@ ht-degree: 1%
 
 [!DNL Adobe Experience Manager Assets Essentials] biedt één gecentraliseerde opslagplaats voor elementen die u kunt gebruiken om uw berichten te vullen. Het is rechtstreeks toegankelijk vanuit [!DNL Adobe Journey Optimizer] via de **[!UICONTROL Assets]** sectie. U kunt ook elementen en mappen openen tijdens het ontwerpen van e-mailinhoud. [Meer informatie over e-mailontwerp](design-emails.md).
 
->[!NOTE]
->
-> Werken met [!DNL Adobe Experience Manager Assets Essentials]moet u [!DNL Assets Essentials] voor uw organisatie en zorg ervoor dat gebruikers die toegang tot [!DNL Assets Essentials], deel uitmaken van de **Assets Essentials Consumer Users** of/en **Assets Essentials-gebruikers** Productprofielen. <br> Raadpleeg voor meer informatie hierover [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
+Voor gebruik [!DNL Adobe Experience Manager Assets Essentials], moet u gebruikers toevoegen aan de **Assets Essentials Consumer Users** of/en **Assets Essentials-gebruikers** Productprofielen. [Meer informatie in Assets Essentials-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
-Voor meer gedetailleerde procedures over [!DNL Assets Essentials], zie [Adobe Experience Manager Assets Essentials-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
+>[!NOTE]
+>Voor Journey Optimizer-producten die zijn verkregen vóór 6 januari 2022, moet u [!DNL Adobe Experience Manager Assets Essentials] voor uw organisatie. Meer informatie in het dialoogvenster [Assets Essentials implementeren](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;} -sectie.
 
 ## Elementen uploaden en invoegen{#add-asset}
 
