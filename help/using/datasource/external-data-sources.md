@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: bcc77934464b6211cbb03e8830b456ecc157cb80
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 88%
@@ -185,4 +185,4 @@ U kunt de cachetermijn van de token wijzigen voor een databron met aangepaste ve
 
 >[!NOTE]
 >
->De duur van het geheime voorgeheugen helpt om teveel vraag aan de authentificatieeindpunten te vermijden. Het symbolenbehoud van de authentificatie wordt caching in de diensten, er is geen persistentie. Als de dienst opnieuw wordt begonnen, begint het met een schone geheime voorgeheugen. De cache-duur is standaard 1 uur. In de aangepaste actielading kan deze worden aangepast door een andere retentieduur op te geven.
+>De duur van het geheime voorgeheugen helpt om teveel vraag aan de authentificatieeindpunten te vermijden. Het symbolenbehoud van de authentificatie wordt caching in de diensten, er is geen persistentie. Als de dienst opnieuw wordt begonnen, begint het met een schone geheime voorgeheugen. De cache-duur is standaard 1 uur. In de lading van de douaneauthentificatie, kan het worden aangepast door een andere bewaarduur te specificeren.
