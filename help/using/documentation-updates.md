@@ -2,10 +2,10 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4fc7271c96ffe87fe9b22a9d8bf93843468b2e79
+source-git-commit: 74d6235042c7a94462cb4838186ca5d785d0764e
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 25%
+source-wordcount: '864'
+ht-degree: 23%
 
 ---
 
@@ -13,11 +13,18 @@ ht-degree: 25%
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
 
+## Januari 2022
+
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 22 januari is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
+
+* De sectie van de classificaties van AI van de Offer decisioning is bijgewerkt met een meer gedetailleerde beschrijving van het auto-optimalisatiemodel. [Meer informatie](offers/offer-library/create-ranking-strategies.md#auto-optimization)
+
+* Er is een nieuwe sectie over de schemavereisten toegevoegd die nodig zijn om gebeurtenistypen te kunnen verzenden bij het gebruik van een classificatiestrategie. [Meer informatie](offers/offer-library/create-ranking-strategies.md#schema-requirements)
 
 ## November 2021
 
 * Er is nu een volledige beschrijving beschikbaar van de geavanceerde expressie-editor die tijdens reizen wordt gebruikt. [Meer informatie](building-journeys/expression/expressionadvanced.md)
-* Nieuwe subdomeindelegatiemethode CNAME. [Meer informatie](configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* Er is een nieuwe sectie over de subdomeindelegatiemethode CNAME toegevoegd. [Meer informatie](configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 ## Oktober 2021
 

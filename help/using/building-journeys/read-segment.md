@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 138adc4b548e5d8ba744037db2d35150b6876867
+source-git-commit: 1abea49a0dce8d5866662235b243a3b82fb50c7b
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '1036'
 ht-degree: 4%
 
 ---
@@ -77,6 +77,27 @@ De stappen om de activiteit van het Leessegment te vormen zijn als volgt:
 
    ![](../assets/read-segment-schedule-list.png)
 
+   De **Incrementeel lezen** met deze optie kunt u zich alleen richten op de personen die het segment hebben betreden sinds de laatste uitvoering van de reis. De eerste uitvoering richt altijd alle segmentleden. Deze optie is alleen beschikbaar voor herhaling **Segment lezen** activiteiten.
+
+<!--
+
+### Segment filters {#segment-filters}
+
+[!CONTEXTUALHELP]
+>id="jo_segment_filters"
+>title="About segment filters"
+>abstract="You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week."
+
+You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week. Only the new VIP customers will be targeted. All the customers who were already part of the VIP segment before will be excluded.
+
+To activate this mode, click the **Segment Filters** toggle. Two fields are displayed:
+
+**Segment membership**: choose whether you want to listen to segment entrances or exits. 
+
+**Lookback window**: define when you want to start to listen to entrances or exits. This lookback window is expressed in hours, starting from the moment the journey is triggered.  If you set this duration to 0, the journey will target all members of the segment. For recurring journeys, it will take into account all entrances/exits since the last time the journey was triggered.
+
+-->
+
 ### De journey testen en publiceren {#testing-publishing}
 
 De **[!UICONTROL Read Segment]** met deze activiteit kunt u de reis testen op een uniform profiel of op 100 willekeurig gekozen testprofielen uit de profielen die voor het segment in aanmerking komen.
@@ -103,7 +124,6 @@ Wanneer de tests succesvol zijn, kunt u uw reis publiceren (zie [De reis publice
 >
 >Voor terugkerende segmentreizen wordt de reis automatisch beëindigd zodra de laatste reis is uitgevoerd. Als er geen einddatum/tijd is opgegeven, moet u de reis naar nieuwe ingangen handmatig sluiten om deze te beëindigen.
 
-
 ## Publiek gericht op segmentreizen
 
 Segmentreizen beginnen altijd met een **Segment lezen** activiteiten om personen op te halen die tot een Adobe Experience Platform-segment behoren.
@@ -128,7 +148,7 @@ De segmentatie kan worden gebaseerd op:
 
 **Uitsluiting**
 
-Hetzelfde **Voorwaarde** de activiteit die voor segmentatie wordt gebruikt (zie hierboven) staat u ook toe om een deel van de bevolking uit te sluiten. U kunt bijvoorbeeld VIP personen uitsluiten door ze na afloop naar een vertakking te laten lopen met een eindstap.
+Hetzelfde **Voorwaarde** de activiteit die voor segmentatie wordt gebruikt (zie hierboven) staat u ook toe om een deel van de bevolking uit te sluiten. U kunt bijvoorbeeld VIP personen uitsluiten door ze na afloop naar een vertakking te laten gaan met een eindstap.
 
 Deze uitsluiting zou direct na het opvragen van segmenten kunnen plaatsvinden, voor het tellen van de bevolking of langs een reis met meerdere stappen.
 

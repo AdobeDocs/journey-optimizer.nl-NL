@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 43e4e089025721180a6b8ce9ea9104a2f73d3e47
+source-git-commit: c3997f572092ca8de7565b397f82dfa3b084bbd7
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 8%
+source-wordcount: '1167'
+ht-degree: 6%
 
 ---
 
@@ -21,9 +21,7 @@ Deze voorwaarden zijn beschikbaar:
 * [Tijdvoorwaarde](#time_condition)
 * [Percentage splitsing](#percentage_split)
 * [Datumvoorwaarde](#date_condition)
-<!--
-* [Profile cap](#profile_cap)
--->
+* [Profiel uiteinde](#profile_cap)
 
 ![](../assets/journey49.png)
 
@@ -99,21 +97,26 @@ Hierdoor kunt u een andere stroom definiëren op basis van de datum. Bijvoorbeel
 
 ![](../assets/journey53.png)
 
-<!--
-## Profile cap {#profile_cap}
+## Profiel uiteinde {#profile_cap}
 
-Use this condition type to set a maximum number of profiles for a journey path. When this limit is reached, the entering profiles take an alternate path.
+Gebruik dit voorwaardetype om een maximumaantal profielen voor een wegweg te plaatsen. Wanneer deze limiet is bereikt, hebben de invoerprofielen een ander pad. Dit zorgt ervoor dat uw reizen nooit de vastgestelde grens zullen overschrijden.
 
-You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).
+U kunt dit voorwaardetype gebruiken om het volume van uw leveringen te verhogen. Zie dit [use case](ramp-up-deliveries-uc.md).
 
-The default cap is 1000. You can set an integer value from 1 to 20,000.
+De standaard-uiteinde is 1000.
 
-The counter applies only to the selected journey version. The counter is reset to zero after 180 days. After a reset, the entering profiles take the nominal path again until the counter limit is reached.
+De teller geldt alleen voor de geselecteerde reisversie. De teller wordt teruggesteld aan nul na één maand. Na het opnieuw instellen nemen de ingevoerde profielen het nominale pad opnieuw tot de tellerlimiet is bereikt.
 
-The nominal path always has priority over the alternate path, even if you move the alternate path above the nominal path on the journey canvas.
+Het nominale pad heeft altijd voorrang op het alternatieve pad, zelfs als u het alternatieve pad boven het nominale pad op het canvas verplaatst.
+
+Voor het vervoer van levende dieren zijn er de drempelwaarden die in aanmerking moeten worden genomen om de grenswaarde te bereiken:
+
+* Bij een dop van meer dan 10000 moet het aantal te injecteren afzonderlijke profielen ten minste 1,3 maal de dop bedragen.
+* Voor een dop onder 10000 moet het aantal te injecteren afzonderlijke profielen 1000 plus de dop bedragen.
+
+In de testmodus wordt geen rekening gehouden met de profielbegrenzing.
 
 ![](../assets/profile-cap-condition.png)
--->
 
 ## Segmenten gebruiken in voorwaarden {#using-a-segment}
 

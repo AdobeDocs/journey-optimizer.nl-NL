@@ -5,10 +5,11 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: e4125d3e1f0c382c1f2ca13ad080aba830c5df46
+exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
+source-git-commit: 3f545c68264164aeb40eec55631d50fa5c0bec4f
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 2%
+source-wordcount: '360'
+ht-degree: 3%
 
 ---
 
@@ -87,8 +88,6 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 1. Als de controles zijn voltooid, wordt met de berichtvoorinstelling het volgende opgehaald **[!UICONTROL Active]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
    ![](../assets/preset-active.png)
-
-Als u wilt weten hoe u een berichtvoorinstelling voor pushmeldingen en e-mailberichten configureert, raadpleegt u [deze sectie](message-presets.md).
 
 Je kunt nu SMS-berichten verzenden met Journey Optimizer.
 

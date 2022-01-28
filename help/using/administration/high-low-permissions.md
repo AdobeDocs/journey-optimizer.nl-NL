@@ -16,9 +16,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: da885bd5e29ff3454fef1c6b362f0e646fe8c39a
+source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,17 @@ ht-degree: 0%
 Elk productprofiel bestaat uit machtigingen waarmee gebruikers toegang hebben tot de verschillende functies.
 Zij kunnen in twee types worden verdeeld:
 
-* **Toestemming op hoog niveau**: vertegenwoordigt de verschillende toestemmingen die kunnen worden toegewezen aan **[!UICONTROL Product profile]** in de [!DNL Admin console], zoals **[!UICONTROL Publish journeys]** en **[!UICONTROL Manage subdomains delegation]**. Machtigingen op hoog niveau omvatten machtigingen op laag niveau.
+* **Toestemming op hoog niveau**: vertegenwoordigt de verschillende toestemmingen die kunnen worden toegewezen aan **[!UICONTROL Product profile]** in de [!DNL Admin console], zoals **[!DNL Publish journeys]** en **[!DNL Manage subdomains delegation]**. Machtigingen op hoog niveau omvatten machtigingen op laag niveau.
 
 * **Toestemming op laag niveau**: vertegenwoordigt de verschillende toestemmingen die uit de toestemming op hoog niveau komen.
 
-De **[!UICONTROL Journey administrator]** productprofiel is toegewezen aan **[!UICONTROL Manage journeys]** toestemming. Uit deze toestemming vloeit het laagniveautoestemmingen voort die de beheerder van de Reis zullen toestaan om reizen te schrijven, te lezen en te schrappen.
+De **[!DNL Journey administrator]** productprofiel is toegewezen aan **[!DNL Manage journeys]** toestemming. Uit deze toestemming vloeit het laagniveautoestemmingen voort die de beheerder van de Reis zullen toestaan om reizen te schrijven, te lezen en te schrappen.
 
 ## Reiscapaciteit {#journey-capability}
 
-### Toestemming voor reizen beheren {#manage-journeys}
+### [!DNL Manage journeys] machtiging {#manage-journeys}
 
-De **[!UICONTROL Manage journeys]** Met machtiging op hoog niveau kunnen gebruikers nieuwe reizen maken en bestaande reizen bewerken/verwijderen, en toegang krijgen tot de objecten die op het canvas van de reis worden gebruikt om de reisflow te bouwen.
+De **[!DNL Manage journeys]** Met machtiging op hoog niveau kunnen gebruikers nieuwe reizen maken en bestaande reizen bewerken/verwijderen, en toegang krijgen tot de objecten die op het canvas van de reis worden gebruikt om de reisflow te bouwen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -58,9 +58,9 @@ Dit omvat de volgende laagniveaumachtigingen:
    * datasets.read
    * schemas.read
 
-### Licentie voor reizen publiceren {#publish-journeys}
+### [!DNL Publish journeys] machtiging {#publish-journeys}
 
-De **[!UICONTROL Publish journeys]** met toestemming op hoog niveau kunnen gebruikers reizen publiceren.
+De **[!DNL Publish journeys]** met toestemming op hoog niveau kunnen gebruikers reizen publiceren.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -68,9 +68,9 @@ Dit omvat de volgende laagniveaumachtigingen:
    * journeys.publish
    * journeys.read
 
-### Toestemming voor reizen weergeven {#view-journeys}
+### [!DNL View journeys] machtiging {#view-journeys}
 
-De **[!UICONTROL View journeys]** Met toestemming op hoog niveau kunnen gebruikers door reizen bladeren en deze bekijken.
+De **[!DNL View journeys]** Met toestemming op hoog niveau kunnen gebruikers door reizen bladeren en deze bekijken.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -81,9 +81,9 @@ Dit omvat de volgende laagniveaumachtigingen:
    * segments.read
    * profiles.read
 
-### Reisgebeurtenissen, gegevensbronnen en handelingen beheren {#manage-journeys-events}
+### [!DNL Manage journeys events, data sources and actions] machtiging {#manage-journeys-events}
 
-De **[!UICONTROL Manage journeys events, data sources and actions]** Op hoog niveau staat de toestemming gebruikers toe om gebeurtenis en gegevensconfiguraties te vormen.
+De **[!DNL Manage journeys events, data sources and actions]** Op hoog niveau staat de toestemming gebruikers toe om gebeurtenis en gegevensconfiguraties te vormen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -97,14 +97,15 @@ Dit omvat de volgende laagniveaumachtigingen:
    * reizen_handelingen.read
    * trajecten_handelingen.write
    * reizen_handelingen.delete
+
 * specifiek voor Adobe Experience Platform:
    * schemas.read
    * datasets.read
    * identity_namespace.read
 
-### Reisgebeurtenissen, gegevensbronnen en actietoestemming weergeven {#view-journeys-event}
+### [!DNL View journeys events, data sources and actions] machtiging {#view-journeys-event}
 
-De **[!UICONTROL View journeys events, data sources and actions]** op hoog niveau staat de toestemming gebruikers toe om gebeurtenis en gegevens in de reisstroom te gebruiken.
+De **[!DNL View journeys events, data sources and actions]** op hoog niveau staat de toestemming gebruikers toe om gebeurtenis en gegevens in de reisstroom te gebruiken.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -118,9 +119,9 @@ Dit omvat de volgende laagniveaumachtigingen:
    * datasets.read
    * identity_namespace.read
 
-### Toestemming voor reisrapporten weergeven {#view-journeys-report}
+### [!DNL View journeys report] machtiging {#view-journeys-report}
 
-De **[!UICONTROL View journeys report]** de toestemming op hoog niveau staat gebruikers toe om read-only reisrapport te lezen.
+De **[!DNL View journeys report]** de toestemming op hoog niveau staat gebruikers toe om read-only reisrapport te lezen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -136,9 +137,9 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ## Berichtmogelijkheden {#message-capability}
 
-### Machtiging voor berichten beheren {#manage-messages}
+### [!DNL Manage messages] machtiging {#manage-messages}
 
-De **[!UICONTROL Manage messages]** Met machtiging op hoog niveau kunnen gebruikers berichten maken en bewerken/verwijderen.
+De **[!DNL Manage messages]** Met machtiging op hoog niveau kunnen gebruikers berichten maken en bewerken/verwijderen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -152,9 +153,9 @@ Dit omvat de volgende laagniveaumachtigingen:
    * segments.read
    * schemas.read
 
-### Voorvertoning van berichten beheren en machtigingen testen {#mange-messages-preview}
+### [!DNL Manage messages preview and test] machtiging {#mange-messages-preview}
 
-De **[!UICONTROL Manage messages preview and test]** Met machtiging op hoog niveau kunnen gebruikers persoonlijke berichten voorvertonen.
+De **[!DNL Manage messages preview and test]** Met machtiging op hoog niveau kunnen gebruikers persoonlijke berichten voorvertonen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -174,9 +175,9 @@ Dit omvat de volgende laagniveaumachtigingen:
    * queries.write
    * merge_policies.read
 
-### Machtiging voor berichten publiceren {#publish-messages}
+### [!DNL Publish messages] machtiging {#publish-messages}
 
-De **[!UICONTROL Publish messages]** Met machtiging op hoog niveau kunnen gebruikers berichten publiceren.
+De **[!DNL Publish messages]** Met machtiging op hoog niveau kunnen gebruikers berichten publiceren.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -188,9 +189,9 @@ Dit omvat de volgende laagniveaumachtigingen:
    * schemas.read
    * datasets.read
 
-### Toestemming voor berichten weergeven {#view-messages}
+### [!DNL View messages] machtiging {#view-messages}
 
-De **[!UICONTROL View messages]** Met toestemming op hoog niveau kunnen gebruikers alleen berichten lezen.
+De **[!DNL View messages]** Met toestemming op hoog niveau kunnen gebruikers alleen berichten lezen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -202,9 +203,9 @@ Dit omvat de volgende laagniveaumachtigingen:
    * schemas.read
    * segments.read
 
-### Toestemming berichtrapport weergeven {#view-message-reports}
+### [!DNL View messages report] machtiging {#view-message-reports}
 
-De **[!UICONTROL View messages report]** Met toestemming op hoog niveau kunnen gebruikers alleen lezen via e-mail en pushrapporten.
+De **[!DNL View messages report]** Met toestemming op hoog niveau kunnen gebruikers alleen lezen via e-mail en pushrapporten.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -218,9 +219,9 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ## Beslissingsvermogen {#decisions-permissions}
 
-### Machtiging voor beslissingen beheren {#manage-decisioning}
+### [!DNL Manage decisions] machtiging {#manage-decisioning}
 
-De **[!UICONTROL Manage decisions]** met toestemming op hoog niveau kunnen gebruikers nieuwe bestanden maken en bestaande bestanden bewerken/verwijderen **[!UICONTROL Activity entities]** en de objecten beheren die in die activiteiten worden gebruikt om de beslissingen te nemen.
+De **[!DNL Manage decisions]** met toestemming op hoog niveau kunnen gebruikers nieuwe bestanden maken en bestaande bestanden bewerken/verwijderen **[!DNL Activity entities]** en de objecten beheren die in die activiteiten worden gebruikt om de beslissingen te nemen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -244,9 +245,9 @@ Dit omvat de volgende laagniveaumachtigingen:
    * profile.read
    * segments.read
 
-### Toestemming voor beslissingen weergeven {#view-decisions}
+### [!DNL View decisions] machtiging {#view-decisions}
 
-De **[!UICONTROL View decisions]** Op hoog niveau staat de toestemming gebruikers toe om een bestaande Activiteit en verwante bedrijfsvoorwerpen te gebruiken om de besluiten te nemen.
+De **[!DNL View decisions]** Op hoog niveau staat de toestemming gebruikers toe om een bestaande Activiteit en verwante bedrijfsvoorwerpen te gebruiken om de besluiten te nemen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -263,9 +264,9 @@ Dit omvat de volgende laagniveaumachtigingen:
    * datasets.write
    * datasets.delete
 
-### Publiceren biedt beslissingsbevoegdheid {#publish-decisions}
+### [!DNL Publish offers decisioning] machtiging {#publish-decisions}
 
-De **[!UICONTROL Publish offers decisioning]** Met toestemming op hoog niveau hebben gebruikers toegang tot goedgekeurde/niet-goedgekeurde activiteiten van aanbiedingen.
+De **[!DNL Publish offers decisioning]** Met toestemming op hoog niveau hebben gebruikers toegang tot goedgekeurde/niet-goedgekeurde activiteiten van aanbiedingen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -285,9 +286,9 @@ Dit omvat de volgende laagniveaumachtigingen:
    * datasets.read
    * profiles.read
 
-### Machtiging voor waarderingsstrategieën beheren {#manage-decisions}
+### [!DNL Manage ranking strategies] machtiging {#manage-decisions}
 
-De **[!UICONTROL Manage ranking strategies]** De toestemming op hoog niveau staat gebruikers toe om het rapport van douaneberichten te lezen, tot stand te brengen, uit te geven en te schrappen en actiefuncties te gebruiken.
+De **[!DNL Manage ranking strategies]** De toestemming op hoog niveau staat gebruikers toe om het rapport van douaneberichten te lezen, tot stand te brengen, uit te geven en te schrappen en actiefuncties te gebruiken.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -301,9 +302,9 @@ Dit omvat de volgende laagniveaumachtigingen:
 
 ## Beheercapaciteit {#administration-permissions}
 
-### Machtiging voor subdomeinen delegeren beheren {#manage-subdomain}
+### [!DNL Manage subdomains delegation] machtiging {#manage-subdomain}
 
-De **[!UICONTROL Manage subdomains delegation]** Op hoog niveau staat de toestemming gebruikers toe om subdomeindelegaties (met inbegrip van IP pool) tot stand te brengen, uit te geven en te schrappen.
+De **[!DNL Manage subdomains delegation]** Op hoog niveau staat de toestemming gebruikers toe om subdomeindelegaties (met inbegrip van IP pool) tot stand te brengen, uit te geven en te schrappen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -311,18 +312,28 @@ Dit omvat de volgende laagniveaumachtigingen:
 * subdomeinen_delegatie.write
 * subdomeinen_delegatie.delete
 
-### Toestemming voor PTR-records weergeven {#view-ptr}
+### [!DNL Manage PTR records] machtiging {#manage-ptr}
 
-De **[!UICONTROL View PTR records]** De toestemming op hoog niveau staat gebruikers toe om PTR verslagen te bekijken die gebaseerd op subdomain zijn gevormd.
+De **[!DNL Manage PTR records]** Op hoog niveau staat de toestemming gebruikers toe om PTR- verslagen te lezen, tot stand te brengen uit te geven en te schrappen die gebaseerd op subdomain zijn gevormd.
+
+Dit omvat de volgende laagniveaumachtigingen:
+
+* PTR_records.read
+* PTR_records.write
+* subdomeinen_delegatie.read
+
+### [!DNL View PTR records] machtiging {#view-ptr}
+
+De **[!DNL View PTR records]** De toestemming op hoog niveau staat gebruikers toe om PTR verslagen te bekijken die gebaseerd op subdomain zijn gevormd.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
 * PTR_records.read
 * subdomeinen_delegatie.read
 
-### IP-pools beheren, machtiging {#manage-ip-pools}
+### [!DNL Manage IP pools] machtiging {#manage-ip-pools}
 
-De **[!UICONTROL Manage IP pools]** Met machtiging op hoog niveau kunnen gebruikers de affiniteitsdefinitie maken, bewerken en verwijderen.
+De **[!DNL Manage IP pools]** Met machtiging op hoog niveau kunnen gebruikers de affiniteitsdefinitie maken, bewerken en verwijderen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -330,9 +341,9 @@ Dit omvat de volgende laagniveaumachtigingen:
 * IP_pools.write
 * IP_pools.delete
 
-### Algemene machtigingen voor berichten beheren {#manage-message-settings}
+### [!DNL Manage messages general settings] machtiging {#manage-message-settings}
 
-De **[!UICONTROL Manage messages general settings]** Met machtiging op hoog niveau kunnen gebruikers algemene instellingen op sandboxniveau maken, bewerken en verwijderen.
+De **[!DNL Manage messages general settings]** Met machtiging op hoog niveau kunnen gebruikers algemene instellingen op sandboxniveau maken, bewerken en verwijderen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -343,9 +354,9 @@ Dit omvat de volgende laagniveaumachtigingen:
 * specifiek voor Adobe Experience Platform:
    * schemas.read
 
-### Algemene instellingen van berichten weergeven {#view-message-settings}
+### [!DNL View messages general settings] machtiging {#view-message-settings}
 
-De **[!UICONTROL View messages general settings]** Met machtiging op hoog niveau kunnen gebruikers algemene instellingen voor berichten weergeven, zoals het uitvoeringsadres.
+De **[!DNL View messages general settings]** Met machtiging op hoog niveau kunnen gebruikers algemene instellingen voor berichten weergeven, zoals het uitvoeringsadres.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -354,9 +365,9 @@ Dit omvat de volgende laagniveaumachtigingen:
 * specifiek voor Adobe Experience Platform:
    * schemas.read
 
-### Machtigingen voor voorinstellingen voor berichten beheren {#manage-message-presets}
+### [!DNL Manage messages presets] machtiging {#manage-message-presets}
 
-De **[!UICONTROL Manage messages presets]** Met machtiging op hoog niveau kunnen gebruikers berichtvoorinstellingen voor verschillende kanalen op sandboxniveau maken, bewerken en verwijderen.
+De **[!DNL Manage messages presets]** Met machtiging op hoog niveau kunnen gebruikers berichtvoorinstellingen voor verschillende kanalen op sandboxniveau maken, bewerken en verwijderen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -368,20 +379,20 @@ Dit omvat de volgende laagniveaumachtigingen:
    * IP_pools.read
    * mobile_setting.read (vanuit Adobe Experience Platform Launch)
 
-### Machtigingen voor voorinstellingen voor berichten weergeven {#view-message-presets}
+### [!DNL View messages presets] machtiging {#view-message-presets}
 
-De **[!UICONTROL View messages presets]** Met machtiging op hoog niveau kunnen gebruikers voorinstellingen voor berichten weergeven om te weten welke voorinstellingen voor berichten moeten worden gebruikt bij het maken van een bericht.
+De **[!DNL View messages presets]** Met machtiging op hoog niveau kunnen gebruikers voorinstellingen voor berichten weergeven om te weten welke voorinstellingen voor berichten moeten worden gebruikt bij het maken van een bericht.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
 * messages_presets.read
 * subdomeinen_delegatie.read
 * IP_pools.read
-* mobile_setting.read (vanuit Adobe Experience Platform Launch)
+* mobile_setting.read (from Adobe Experience Platform Data Collection)
 
-### Machtiging voor onderdrukking beheren {#manage-suppression}
+### [!DNL Manage suppression] machtiging {#manage-suppression}
 
-De **[!UICONTROL Manage suppression]** Met machtiging op hoog niveau kunnen gebruikers het aantal instanties definiëren voordat een e-mailadres aan de suppressielijst wordt toegevoegd en kunnen ze items toevoegen aan of verwijderen uit de lijst met onderdrukking.
+De **[!DNL Manage suppression]** Met machtiging op hoog niveau kunnen gebruikers het aantal instanties definiëren voordat een e-mailadres aan de suppressielijst wordt toegevoegd en kunnen ze items toevoegen aan of verwijderen uit de lijst met onderdrukking.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -391,26 +402,28 @@ Dit omvat de volgende laagniveaumachtigingen:
 * suppression_list.write
 * suppression_list.delete
 
-### Toestemming voor suppressielijst weergeven {#view-suppresion-list}
+### [!DNL View suppression list] machtiging {#view-suppression-list}
 
-De **[!UICONTROL View suppression list]** Met machtiging op hoog niveau kunnen gebruikers de inhoud en instellingen van de suppressielijst bekijken.
+De **[!DNL View suppression list]** Met machtiging op hoog niveau kunnen gebruikers de inhoud en instellingen van de suppressielijst bekijken.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
 * specifiek voor Journey Optimizer:
    * suppression_list.view
+
 * specifiek voor Adobe Experience Platform:
    * profiles.read
    * datasets.read
 
-### Toestemming voor lijst met exportonderdrukking {#export-suppression-list}
+### [!DNL Export suppression list] machtiging {#export-suppression-list}
 
-De **[!UICONTROL Export suppression list]** Met machtiging op hoog niveau kunnen gebruikers de lijst met onderdrukking downloaden als een CSV-bestand.
+De **[!DNL Export suppression list]** Met machtiging op hoog niveau kunnen gebruikers de lijst met onderdrukking downloaden als een CSV-bestand.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
 * specifiek voor Journey Optimizer:
    * suppression_list.export
+
 * specifiek voor Adobe Experience Platform:
    * profiles.read
    * datasets.read

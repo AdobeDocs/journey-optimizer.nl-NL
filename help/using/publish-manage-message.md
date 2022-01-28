@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 116e2223-a806-4f68-9a8c-c0bde6008010
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: ca4c2d916a2ebde643656b4573e34d6bb64053fa
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 3%
+source-wordcount: '258'
+ht-degree: 2%
 
 ---
 
@@ -29,6 +29,10 @@ Zodra uw bericht is gecreeerd, kunt u het publiceren om het voor uitvoering ter 
 Zodra uw bericht wordt gepubliceerd, wordt het toegevoegd aan de berichtlijst met **[!UICONTROL Published]** status.
 
 Het is nu gereed om te worden geactiveerd door een of meer [reizen](building-journeys/journey.md).
+
+>[!NOTE]
+>
+>Wanneer u een aanbod, een fallback-aanbieding, een verzameling van aanbiedingen of een besluit van een aanbieding bijwerkt waarnaar direct of indirect wordt verwezen in een gepubliceerd bericht, worden de updates nu automatisch weerspiegeld in het bijbehorende bericht, zonder dat u het bericht opnieuw hoeft te publiceren. [Meer weten over aanbiedingen](offers/get-started/starting-offer-decisioning.md)
 
 ## Een alleen-lezen bericht bijwerken {#modify-message}
 

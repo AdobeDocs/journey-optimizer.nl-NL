@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0c0110b24ccc9a5311d35d786f526319056c1c1a
+source-git-commit: ae60bf08a4f358b99e803f3fd17f9218acda9062
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 49%
+source-wordcount: '893'
+ht-degree: 51%
 
 ---
 
@@ -66,12 +66,12 @@ ht-degree: 49%
       + [Objectfuncties](using/personalization/functions/objects.md)
       + [Reeksfuncties](using/personalization/functions/string.md)
    + [Aangepaste aanbiedingen toevoegen](using/deliver-personalized-offers.md)
-+ Segmenten, profielen en identiteit{#segment}
++ Segmenten, profielen en identiteiten{#segment}
    + Segmenten {#segments}
       + [Aan de slag met segmenten](using/segment/about-segments.md)
       + [Segmenten maken](using/segment/creating-a-segment.md)
    + [Profielen](using/get-started-profiles.md)
-   + [Identiteit](using/get-started-identity.md)
+   + [Identiteiten](using/get-started-identity.md)
 + Journeys {#orchestrate-journeys}
    + Reizen{#about-journeys}
       + [Algemeen principe](using/building-journeys/journey.md)
@@ -99,7 +99,7 @@ ht-degree: 49%
       + [Handelingen voor Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
       + [Springen](using/building-journeys/jump.md)
       + [Profiel bijwerken](using/building-journeys/update-profiles.md)
-   + Expressies maken {#building-advanced-conditions-journeys}
+   + Expressies samenstellen {#building-advanced-conditions-journeys}
       + [Overzicht](using/building-journeys/expression/expressionadvanced.md)
       + Syntaxis {#syntax}
          + [Algemeen](using/building-journeys/expression/generalities.md)
@@ -190,9 +190,7 @@ ht-degree: 49%
       + [Een bericht verzenden met Campagne v7/v8](using/building-journeys/campaign-classic-use-case.md)
       + [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](using/building-journeys/collections.md)
       + [Een bericht verzenden naar abonnees](using/building-journeys/message-to-subscribers-uc.md)
-      <!--
-      + [Ramp up deliveries](using/building-journeys/ramp-up-deliveries-uc.md)
-      -->
+      + [Leveringen opwaarderen](using/building-journeys/ramp-up-deliveries-uc.md)
 + Bijhouden en bewaken {#reporting}
    + [Berichtcontrole](using/message-monitoring.md)
    + Live-rapport {#live-report}
@@ -207,7 +205,7 @@ ht-degree: 49%
       + [Push Global-rapport](using/reports/push-global-report.md)
    + Reisrapporten {#reports}
       + [Trainingsrapporten maken](using/reports/sharing-overview.md)
-      + [Lijst met gebeurtenisvelden](using/reports/sharing-field-list.md)
+      + [Lijst met gebeurtenisvelden voor stappen](using/reports/sharing-field-list.md)
       + Gebeurtenisvelden voor oudere stappen {#legacy-step-event-fields}
          + [Oudere velden](using/reports/sharing-legacy-fields.md)
          + [Reisvelden](using/reports/sharing-journey-fields.md)

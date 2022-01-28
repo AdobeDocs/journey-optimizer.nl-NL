@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 6c200f4a162ea1a3763b353b01ce5fef74ed8462
+source-git-commit: cbb9aa1df7efd60407f4538edf519d96780c4961
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -40,25 +40,52 @@ U kunt een PTR-record in de lijst openen om de bijbehorende subdomeinnaam en het
 
 U kunt een PTR-record wijzigen om het subdomein te bewerken dat aan een IP-adres is gekoppeld.
 
->[!CAUTION]
+>[!NOTE]
 >
->U kunt een PTR-record dat is gekoppeld aan een subdomein dat aan Adobe is gedelegeerd, niet wijzigen met de opdracht [CNAME, methode](delegate-subdomain.md#cname-subdomain-delegation).
+>U kunt de **[!UICONTROL IP]** en **[!UICONTROL PTR record]** velden.
+
+### Volledig gedelegeerde subdomeinen
+
+Een PTR-record bewerken met een subdomein dat [volledig gedelegeerd](delegate-subdomain.md#full-subdomain-delegation) om te Adobe, volg de hieronder stappen.
 
 1. Klik in de lijst op de naam van een PTR-record om deze te openen.
 
    ![](../assets/ptr-record-select.png)
 
-1. Bewerk het subdomein naar wens.
+1. Een subdomein selecteren [volledig gedelegeerd](delegate-subdomain.md#full-subdomain-delegation) naar Adobe in de lijst.
 
    ![](../assets/ptr-record-subdomain.png)
 
+1. Klikken **[!UICONTROL Save]** om uw wijzigingen te bevestigen.
+
+### Gedelegeerde subdomeinen die de methode CNAME gebruiken {#edit-ptr-subdomains-cname}
+
+Als u een PTR-record wilt bewerken met een subdomein dat is gedelegeerd aan Adobe, gebruikt u de opdracht [CNAME, methode](delegate-subdomain.md#cname-subdomain-delegation)volgt u de onderstaande stappen.
+
+1. Klik in de lijst op de naam van een PTR-record om deze te openen.
+
+   ![](../assets/ptr-record-select-cname.png)
+
+1. Selecteer een subdomein dat aan Adobe wordt gedelegeerd met de opdracht [CNAME, methode](delegate-subdomain.md#cname-subdomain-delegation) in de lijst.
+
+   ![](../assets/ptr-record-subdomain-cname.png)
+
+1. U moet een nieuw voorwaarts DNS verslag op uw het ontvangen platform tot stand brengen. Hiervoor kopieert u de record die door Adobe is gegenereerd. Als u klaar bent, schakelt u het selectievakje &quot;Ik bevestig...&quot; in.
+
+   ![](../assets/ptr-record-subdomain-confirm.png)
+
    >[!NOTE]
    >
-   >U kunt de **[!UICONTROL IP]** en **[!UICONTROL PTR record]** velden.
+   >Als u dit bericht krijgt: &quot;Maak eerst een nieuwe DNS en probeer het opnieuw&quot;, volg de onderstaande stappen:
+   >   * Controleer de DNS leverancier als het voorwaartse DNS verslag met succes werd gecreeerd.
+   >   * Records in de DNS worden mogelijk niet meteen gesynchroniseerd. Wacht een paar minuten en probeer het opnieuw.
+
 
 1. Klikken **[!UICONTROL Save]** om uw wijzigingen te bevestigen.
 
-An **[!UICONTROL Updating]** wordt weergegeven naast de naam van de PTR-record in de lijst.
+## Details van PTR-recordupdate controleren
+
+A **[!UICONTROL Processing]** wordt weergegeven naast de naam van de PTR-record in de lijst.
 
 ![](../assets/ptr-record-updating.png)
 
@@ -70,13 +97,13 @@ U kunt informatie zoals de updatestatus, en de gevraagde veranderingen zien.
 
 ![](../assets/ptr-record-updates.png)
 
-## Statussen bijwerken
+## PTR-recordupdatestatus
 
 Een PTR-recordupdate kan de volgende statussen hebben:
 
-* **[!UICONTROL Processing]**: De PTR-recordupdate is verzonden en wordt momenteel gecontroleerd.
-* **[!UICONTROL Success]**: Het bijgewerkte PTR-record is geverifieerd en het nieuwe subdomein is nu gekoppeld aan het IP-adres.
-* **[!UICONTROL Failed]**: Een of meer controles zijn mislukt tijdens de verificatie van de PTR-recordupdate.
+* ![](../assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**: De PTR-recordupdate is verzonden en wordt momenteel gecontroleerd.
+* ![](../assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: Het bijgewerkte PTR-record is geverifieerd en het nieuwe subdomein is nu gekoppeld aan het IP-adres.
+* ![](../assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: Een of meer controles zijn mislukt tijdens de verificatie van de PTR-recordupdate.
 
 ### Verwerking
 

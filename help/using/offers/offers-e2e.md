@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 8cb36038b2aeddd1662dcb7c84b36d9bc1265982
+source-git-commit: 803fd15149391c069a50244bf29d7013bc6b00e2
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1343'
 ht-degree: 3%
 
 ---
@@ -258,6 +258,10 @@ U ziet nu alle persoonlijke aanbiedingen en de fallback-aanbieding die in de e-m
 Gebruik de **[!UICONTROL Offers]** -sectie of de inhoudcomponenten pijlen (pijl-rechts en pijl-links) om door gegevens te bladeren. U kunt de verschillende aanbiedingen die deel uitmaken van het besluit ook met een klantenprofiel tonen. Meer informatie in [deze sectie](../../using/deliver-personalized-offers.md#preview-offers-in-email).
 
 Nadat u uw wijzigingen hebt opgeslagen en het bericht is gepubliceerd, kunt u uw voorstellen weergeven voor de relevante profielen wanneer u het bericht verzendt als onderdeel van een reis.
+
+>[!NOTE]
+>
+>Wanneer u een aanbod, een fallback-aanbieding, een collectie van aanbiedingen of een offertebesluit bijwerkt, waarnaar direct of indirect wordt verwezen in een [gepubliceerd](../../using/publish-manage-message.md) bericht, worden de updates nu automatisch weerspiegeld in het overeenkomstige bericht, zonder de behoefte om het opnieuw te publiceren.
 
 **Verwante onderwerpen:**
 

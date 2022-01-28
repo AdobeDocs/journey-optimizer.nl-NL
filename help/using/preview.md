@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 9ef56c69e875c68bfbd9f08348bb45387f4bb32c
+source-git-commit: ac60e5a3bdf2369d7a5c83dbf9dcdb97580af9f4
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 3%
@@ -48,8 +48,6 @@ Bovendien kunt u uw **Litmus** account [!DNL Journey Optimizer] om direct een vo
 >abstract="Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#email-rendering" text="E-mailweergave"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#preview-your-messages" text="Voorvertoning"
-
-
 
 Gebruiken [Testprofielen](building-journeys/creating-test-profiles.md) om extra ontvangers te richten die niet de bepaalde het richten criteria aanpassen.
 

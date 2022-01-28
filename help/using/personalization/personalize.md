@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 7be83409f7a594747963c5b125f3bf96c0b4f8b6
+source-git-commit: 244f05998098bf1770d5f33c955f09688f58ffe7
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 6%
+source-wordcount: '757'
+ht-degree: 5%
 
 ---
 
@@ -114,6 +114,24 @@ Bij selectie wordt de verwijzing toegevoegd in de editor.
 In het volgende voorbeeld, laat de uitdrukkingsredacteur u de profielen selecteren die hun verjaardag vandaag hebben dan de aanpassing voltooien door een specifieke aanbieding op te nemen die aan deze dag beantwoordt.
 
 ![](assets/perso_ee2.png)
+
+### Toevoegen aan Favorieten{#fav}
+
+Door verschillende kenmerken toe te voegen aan het menu Favorieten hebt u snel toegang tot de meest gebruikte items. Als u een kenmerk aan uw favorieten wilt toevoegen, klikt u op het ovaalmenu en kiest u **[!UICONTROL Add to favorites]**.
+
+![](assets/favorite-option.png)
+
+Als u toegang wilt tot favoriete objecten, gebruikt u de opdracht **[!UICONTROL Favorites]** in het keuzemenu.
+
+![](assets/favorite-menu.png)
+
+Vanuit deze lijst kunt u het aanpassingsobject snel toevoegen aan uw huidige expressie.
+
+![](assets/favorite-list.png)
+
+Als je een object niet meer wilt zien in je lijst met favorieten, kun je het uit de favorieten verwijderen.
+
+![](assets/favorite-remove.png)
 
 ## Instructievideo&#39;s{#video-perso}
 

@@ -2,16 +2,99 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 52d187f349cba45b43c38c20e45c1dff746d38bf
+source-git-commit: 244f05998098bf1770d5f33c955f09688f58ffe7
 workflow-type: tm+mt
-source-wordcount: '2074'
-ht-degree: 10%
+source-wordcount: '2379'
+ht-degree: 9%
 
 ---
 
 # Aanvullende informatie {#release-notes}
 
-Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [!DNL Journey Optimizer]. U kunt ook de [laatste documentatie - Updates](documentation-updates.md).
+Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [!DNL Journey Optimizer]. U kunt ook de [meest recente documentatie-updates](documentation-updates.md) pagina voor meer wijzigingen.
+
+## Release van januari 2022
+
+### Nieuwe functies
+
+<table>
+<thead>
+<tr>
+<th><strong>Reizen - Optimaliseer uw IP helling met de GLB voorwaarden van het Profiel</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Wanneer u een <strong>Voorwaarde</strong> tijdens een rit kunt u nu een profieluiteinde definiëren. Met dit nieuwe voorwaardetype kunt u een maximumaantal profielen instellen voor een reispad. Wanneer deze limiet is bereikt, hebben de invoerprofielen een ander pad. Dit staat u toe om het volume van uw leveringen (IP oprijplaat) te verhogen. U kunt bijvoorbeeld de levering in een domein opsplitsen door de uitvoering te splitsen: verzend 1000 berichten op dag 1, 2000 op dag 2, enz.</p>
+<p>Raadpleeg voor meer informatie de <a href="building-journeys/condition-activity.md#profile_cap">gedetailleerde documentatie</a> en aanverwante <a href="building-journeys/ramp-up-deliveries-uc.md">voorbeeldgebruik</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<!--th><strong>Journeys - Leverage segment entrances and exits in Read segment</strong><br/></th-->
+<th><strong>Reizen - Verbetering van het leessegment</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<!--p>You can now configure the <strong>Read Segment</strong> activity to target only the individuals who entered or exited the selected segment during a specific lookback period. For example, you can decide to only retrieve all the customers who entered the VIP segment since yesterday. Only the new VIP customers will be targeted. The customers who were already part of the segment before yesterday will be excluded.</p-->
+<p>De <strong>Incrementeel lezen</strong> is toegevoegd aan terugkerende <strong>Segment lezen</strong> activiteiten. Met deze optie kunt u zich alleen richten op de personen die het segment hebben betreden sinds de laatste uitvoering van de reis. De eerste uitvoering richt altijd alle segmentleden.</p>
+<p>Raadpleeg de <a href="building-journeys/read-segment.md#configuring-segment-trigger-activity">gedetailleerde documentatie</a> voor meer informatie.
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbeteringen
+
+<!--
+**Performances**
+* The integration between Journey Optimizer and Adobe Campaign Classic has been optimized to improve performance. The capping default configuration has been changed to 4000 calls / 5 minutes.  
+-->
+
+**Journeys**
+
+* Journey Optimizer step-gebeurtenissen kunnen nu worden gekoppeld aan andere datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). De **profileID** in het ingebouwde schema voor de gebeurtenis van de Stap van de Reis, wordt nu gedefinieerd als identiteitsgebied. [Meer informatie](reports/sharing-overview.md#integration-cja)
+
+<!--
+* To optimize performance and prevent obsolete resource usage, all journeys in test mode that have not been triggered for a week now switch back to the **Draft** status.
+-->
+
+**offer decisioning**
+
+<!--* When simulating which offers will be delivered for a given test profile, you can now define simulation settings and use the mode view for your simulations. [Learn more](offers/offer-activities/simulation.md#define-simulation-settings)-->
+
+* Wanneer u een aanbod, een fallback-aanbieding, een verzameling van aanbiedingen of een besluit van een aanbieding bijwerkt waarnaar direct of indirect wordt verwezen in een gepubliceerd bericht, worden de updates nu automatisch weerspiegeld in het bijbehorende bericht, zonder dat u het bericht opnieuw hoeft te publiceren. [Meer informatie](offers/offers-e2e.md#insert-decision-in-email)
+
+**Beheer**
+
+* Beheerders kunnen nu PTR-records bewerken met een CNAME-setsubdomein. [Meer informatie](configuration/ptr-records.md#edit-ptr-subdomains-cname)
+
+**Personalisatie**
+
+* **Toevoegen aan Favorieten** - Om de efficiëntie van het werken met personalisatie te verbeteren, hebben we het concept van het sparen van favorieten geïntroduceerd. Door verschillende kenmerken toe te voegen aan het menu Favorieten hebt u snel toegang tot de meest gebruikte items. [Meer informatie](personalization/personalize.md#fav)
+
+<!--
+
+**Reporting**
+
+* New metrics and widgets are now available in **Live** and **Global** reports to measure your offers' impact on recipients.
+* Deliveries can now be filtered depending on their status:
+
+    * From the Message Execution list, you can now exclude proofs from your deliveries' list.
+    * From your Live/Global reports, you can choose to exclude journey test events.
+
+    [Learn more](message-monitoring.md)
+
+* From your reports, you can now see if the [Send-Time Optimization](building-journeys/journeys-message.md#send-time-optimization) option has been activated for a given delivery.
+
+-->
 
 ## Release november 2021
 
@@ -32,7 +115,6 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 </tbody>
 </table>
 
-
 ## Release oktober 2021 {#oct-2021-release}
 
 <!--table>
@@ -51,22 +133,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 </tbody>
 </table-->
 
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Journeys - Profile cap condition</strong><br/></th>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>When using a <strong>Condition</strong> activity in a journey, you can now define a <strong>Profile cap</strong> condition. This new condition type allows you set a maximum number of profiles for a journey path. When this limit is reached, the selected profiles take a second path. This allows you to optimize your IP ramp up. For example, you may want to ramp up your deliveries on a domain to 50 millions by splitting the execution: send 1000 messages on day 1, 2000 on day 2, etc.</p>
-<p>For more information, refer to the <a href="building-journeys/condition-activity.md#profile_cap">detailed documentation</a> and related <a href="building-journeys/ramp-up-deliveries-uc.md">sample use case</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+### Nieuwe functies
 
 <table>
 <thead>
@@ -105,11 +172,10 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 ### Verbeteringen
 
-**Journeys**
+**Reizen**
 
 * **Expression-editor** - Als energiegebruiker kunt u nu functies gebruiken om met kaarten te werken. Deze mogelijkheid kan worden benut met de abonnementenlijsten. Als voorbeeld, van een segment, kunt u een e-mailadres van een abonnementenlijst nu krijgen. [Meer informatie in dit voorbeeld](building-journeys/message-to-subscribers-uc.md)
 
-   <!-- * **Delta on segments** - When using a **Read segment** activity, you can now target the individuals who entered or exited a specific segment since the last execution.  -->
 * **Toezicht** - De stapgebeurtenissen voor de live ritten en de testmodus zijn verbeterd. [Nieuwe velden](reports/sharing-field-list.md#serviceevents) zijn toegevoegd met betrekking tot exporttaken voor profielen. Voor een betere gebruikerservaring zijn de velden voor stapgebeurtenissen nu ingedeeld in verschillende categorieën. Alle gebeurtenisvelden van vorige stappen zijn nog steeds beschikbaar in het dialoogvenster [stepEvents](reports/sharing-legacy-fields.md) categorie.
 * **Toegankelijkheid** - Er zijn verbeteringen aangebracht in de toegankelijkheid van reizen.
 * **Verzamelingen** - Arrays met objecten die subobjecten bevatten, worden nu ondersteund. [Meer informatie](building-journeys/collections.md)
@@ -129,6 +195,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 **Personalisatie**
 
 * **Nieuwe hulpfunctie voor datumnotatie** - U kunt nu opgeven hoe een datumtekenreeks moet worden weergegeven. [Meer informatie](personalization/functions/dates.md#format-date)
+
 
 **Beslissingsbeheer**
 

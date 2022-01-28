@@ -6,7 +6,7 @@ feature: Control Groups
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 7e879a56a5ed416cc12c2acc3131e17f9dd1e757
+source-git-commit: bbeecbacb4838dfb0794d5625eb2774cf4b983ef
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 11%
@@ -103,7 +103,7 @@ Indien nodig kunt u ook een nieuw productprofiel met specifieke machtigingen mak
 
 Voor meer informatie over het maken en beheren van sandboxen raadpleegt u [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target=&quot;_blank&quot;}.
 
-In dit voorbeeld maken we een productprofiel met de naam **Reizen, alleen-lezen** waar wij read-only rechten op de eigenschap van de Reis zullen verlenen. Gebruikers kunnen alleen reizen openen en bekijken en hebben geen toegang tot andere functies, zoals **[!UICONTROL Decision management]** of **[!UICONTROL Messages]** in [!DNL Journey Optimizer].
+In dit voorbeeld maken we een productprofiel met de naam **Reizen, alleen-lezen** waar wij read-only rechten op de eigenschap van de Reis zullen verlenen. Gebruikers kunnen alleen reizen openen en bekijken en hebben geen toegang tot andere functies, zoals **[!DNL  Decision management]** of **[!DNL Messages]** in [!DNL Journey Optimizer].
 
 Als u onze **Reizen, alleen-lezen** **[!UICONTROL product profiles]**:
 
@@ -125,7 +125,7 @@ Als u onze **Reizen, alleen-lezen** **[!UICONTROL product profiles]**:
 
 1. Als u machtigingen voor gebruikers wilt toevoegen om toegang te krijgen tot verschillende functies, selecteert u de optie **[!UICONTROL Permissions]** tab.
 
-1. Selecteren tussen de verschillende mogelijkheden, zoals **[!UICONTROL Messages]**, **[!UICONTROL Segments]** of **[!UICONTROL Decision management]** beschikbaar in [!DNL Journey Optimizer] in het linkermenu.
+1. Selecteren tussen de verschillende mogelijkheden, zoals **[!DNL Messages]**, **[!DNL Segments]** of **[!DNL Decision management]** beschikbaar in [!DNL Journey Optimizer] in het linkermenu.
 
    Hier selecteren we de **[!UICONTROL Journeys]** capaciteit.
 
@@ -133,7 +133,7 @@ Als u onze **Reizen, alleen-lezen** **[!UICONTROL product profiles]**:
 
 1. Van de **[!UICONTROL Available Permission Items]** Selecteer de machtigingen die aan uw **[!UICONTROL Product profile]** door op de plusknop (+) te klikken.
 
-   Hier selecteren we **[!UICONTROL View journeys]** en **[!UICONTROL View journeys event, data sources, actions]**.
+   Hier selecteren we **[!DNL View journeys]** en **[!DNL View journeys event, data sources, actions]**.
 
    ![](../assets/do-not-localize/access_control_12.png)
 

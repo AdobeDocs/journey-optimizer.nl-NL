@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 43fb98a08555e6b889ad537e79dba78286dafeb9
+source-git-commit: e01aacc63f0d395aed70bf9c332db19b322380f0
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 6%
+source-wordcount: '937'
+ht-degree: 4%
 
 ---
 
@@ -31,6 +31,22 @@ U kunt bijvoorbeeld een waarderingsstrategie selecteren voor het e-mailkanaal en
 <!--This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.-->
 
 Als er eenmaal een rangschikkingsstrategie is gemaakt, moet u deze toewijzen aan een plaatsing in een beslissing. Meer informatie in [Aanbiedingen selecteren in beslissingen configureren](../offer-activities/configure-offer-selection.md).
+
+### Model voor automatische optimalisatie {#auto-optimization}
+
+Momenteel in [!DNL Journey Optimizer] het enige ondersteunde modeltype voor AI-classificatie is **automatisch optimaliseren**.
+
+Een model voor automatische optimalisatie is bedoeld voor aanbiedingen die het rendement maximaliseren op basis van de KPI&#39;s (Key Performance Indicators) die u instelt. <!--These KPIs could be in the form of conversion rates, revenue, etc.-->Op dit punt, richt de auto-optimalisering zich op het optimaliseren van aanbiedingskliks met aanbiedingsomzetting als doel.
+
+>[!NOTE]
+>
+>In het model voor automatische optimalisatie worden geen contextuele gegevens of gebruikersprofielgegevens gebruikt. De resultaten worden geoptimaliseerd op basis van de algemene prestaties van de aanbiedingen.
+
+Met auto-optimalisering, is de uitdaging om verkennend leren en het gebruik van dat leren in evenwicht te brengen. Dit beginsel staat bekend als **&quot;multi-gewapende bandit&quot;-benadering**.
+
+Om deze uitdaging aan te gaan, gebruikt het model voor automatische optimalisatie het **Thompson Sampling** methode, waarmee kan worden bepaald welke optie moet worden gevolgd om de verwachte beloningen te maximaliseren. Met andere woorden, Thompson Sampling is een soort versterkende leertechniek voor het oplossen van het dilemma van exploratie en exploitatie in een veelbewapend bankenprobleem.
+
+Met de Thompson Sampling-methode kunnen ook uitdagingen zoals het &quot;koude start&quot;-probleem worden aangepakt, d.w.z. wanneer een nieuw aanbod in de campagne wordt geïntroduceerd, heeft het geen geschiedenis waaruit het kan voortborduren.
 
 ## Een waarderingsstrategie maken {#create-ranking-strategy}
 
@@ -139,9 +155,80 @@ U bent nu bereid om een dataset tot stand te brengen gebruikend dit schema. Volg
 
    ![](../../assets/ai-ranking-dataset-name.png)
 
-De dataset is nu klaar om te worden geselecteerd om conversiegebeurtenissen te verzamelen wanneer [het opstellen van een rangschikkingsstrategie](#create-ranking-strategy).
+De dataset is nu klaar om te worden geselecteerd om gebeurtenisgegevens te verzamelen wanneer [het opstellen van een rangschikkingsstrategie](#create-ranking-strategy).
 
-<!--## Using a ranking strategy {#using-ranking}
+## Schema-vereisten aanbieden {#schema-requirements}
+
+U moet nu beschikken over:
+
+* de rangorde heeft vastgesteld,
+* gedefinieerd welk type gebeurtenis u wilt vastleggen - weergegeven aanbod (indruk) en/of aangeklikte aanbieding (conversie);
+* en in welke gegevensset u de gebeurtenisgegevens wilt verzamelen.
+
+Telkens wanneer een aanbieding wordt getoond en/of geklikt, wilt u dat de overeenkomstige gebeurtenis automatisch wordt gevangen door **[!UICONTROL Experience Event - Proposition Interactions]** veldgroep met de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target=&quot;_blank&quot;} of Mobile SDK.
+
+Als u gebeurtenistypen wilt kunnen verzenden (weergegeven aanbod of aangeklikte aanbieding), moet u de juiste waarde voor elk gebeurtenistype instellen in een ervaringsgebeurtenis die naar Adobe Experience Platform wordt verzonden. Hieronder vindt u de schemavereisten die u in uw JavaScript-code moet implementeren:
+
+**Scenario:** Weergegeven voorstel
+**Type gebeurtenis:** `decisioning.propositionDisplay`
+**Bron:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) of batch ingestie
+**Bemonsteringslading:**
+
+```
+{
+    "@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",
+    "xdm:timestamp": "2020-09-26T15:52:25+00:00",
+    "xdm:eventType": "decisioning.propositionDisplay",
+    "https://ns.adobe.com/experience/decisioning/propositions":
+    [
+        {
+            "xdm:items":
+            [
+                {
+                    "xdm:id": "personalized-offer:f67bab756ed6ee4",
+                },
+                {
+                    "xdm:id": "personalized-offer:f67bab756ed6ee5",
+                }
+            ],
+            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id - taken from experience event for “nextBestOffer”
+            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id - taken from experience event for “nextBestOffer”
+        }
+    ]
+}
+```
+
+**Scenario:** Aanbieding geklikt
+**Type gebeurtenis:** `decisioning.propositionInteract`
+**Bron:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) of batch ingestie
+**Bemonsteringslading:**
+
+```
+{
+    "@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",
+    "xdm:timestamp": "2020-09-26T15:52:25+00:00",
+    "xdm:eventType": "decisioning.propositionInteract",
+    "https://ns.adobe.com/experience/decisioning/propositions":
+    [
+        {
+            "xdm:items":
+            [
+                {
+                    "xdm:id": "personalized-offer:f67bab756ed6ee4"
+                },
+                {
+                    "xdm:id": "personalized-offer:f67bab756ed6ee5"
+                },
+            ],
+            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id
+            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id
+        }
+    ]
+}
+```
+
+<!--
+## Using a ranking strategy {#using-ranking}
 
 To use the ranking strategy you created above, follow the steps below:
 
@@ -156,5 +243,6 @@ Once a ranking strategy has been created, you can assign it to a placement in a 
 1. Click Next to confirm.
 1. Save your decision.
 
-It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).-->
+It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).
+-->
 
