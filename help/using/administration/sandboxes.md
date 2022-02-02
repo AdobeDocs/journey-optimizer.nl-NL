@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 0f79d465dd5a63ced107614407de167c7d9dad5a
+source-git-commit: 7d466d87c337053b32489df6dedbfd4c350230bb
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 32%
+source-wordcount: '365'
+ht-degree: 28%
 
 ---
 
@@ -23,7 +23,9 @@ Sandboxen worden toegewezen via productprofielen in de Admin Console. [Leer hoe 
 [!DNL Journey Optimizer] weerspiegelt Adobe Experience Platform-sandboxen die voor een bepaalde organisatie zijn gemaakt.
 U kunt Adobe Experience Platform-sandboxen maken of herstellen vanuit uw Adobe Experience Platform-instantie. [Meer informatie in de gebruikershandleiding voor de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target=&quot;_blank&quot;}.
 
-U vindt de schakelfunctie voor sandboxen linksboven in het scherm. Als u van sandbox wilt wisselen, klikt u op de momenteel actieve sandbox in de schakelfunctie en selecteert u een andere sandbox in de vervolgkeuzelijst.
+U kunt het besturingselement voor de sandboxswitch rechtsboven in het scherm vinden naast de naam van uw organisatie. Als u van sandbox wilt wisselen, klikt u op de momenteel actieve sandbox in de schakelfunctie en selecteert u een andere sandbox in de vervolgkeuzelijst.
+
+![](../assets/sandbox_5.png)
 
 ➡️ [Ontdek deze functie in video](#video)
 

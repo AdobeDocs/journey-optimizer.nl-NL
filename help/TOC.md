@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ae60bf08a4f358b99e803f3fd17f9218acda9062
+source-git-commit: 01573675c28972f863e3516577d8a06b403de312
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 51%
+source-wordcount: '910'
+ht-degree: 50%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 51%
       + [Een pushmelding maken](using/create-push.md)
       + [Een SMS-bericht maken](using/create-sms.md)
    + [Elementen toevoegen en beheren](using/assets-essentials.md)
+   + [Aangepaste aanbiedingen toevoegen](using/deliver-personalized-offers.md)
    + E-mails ontwerpen {#email-designer}
       + [Aan de slag met e-mailontwerp](using/design-emails.md)
       + [E-mailcontent ontwerpen in de gebruikersinterface](using/create-email-content.md)
@@ -49,24 +50,28 @@ ht-degree: 51%
    + [Weigeren beheren](using/consent.md)
 + Personalisatie{#personalization}
    + [Aan de slag met personalisatie](using/personalization/personalize.md)
-   + [Personalisatiesyntaxis](using/personalization/personalization-syntax.md)
-   + [Validatie van personalisatie](using/personalization/personalization-validation.md)
+   + [Persoonlijke context](using/personalization/personalization-contexts.md)
+   + Werken met de Expressieeditor {#expression-editor}
+      + [Over de Expressieeditor](using/personalization/personalization-build-expressions.md)
+      + [Kenmerken toevoegen aan Favorieten](using/personalization/personalization-favorites.md)
+      + [Validatie van personalisatie](using/personalization/personalization-validation.md)
+   + Expressies samenstellen {#build-expressions}
+      + [Personalisatiesyntaxis](using/personalization/personalization-syntax.md)
+      + Helpfuncties{#functions}
+         + [Aan de slag met hulpfuncties](using/personalization/functions/functions.md)
+         + [Samenvoegingsfuncties](using/personalization/functions/aggregation.md)
+         + [Rekenkundige functies](using/personalization/functions/arithmetic-functions.md)
+         + [Arrays en lijstfuncties](using/personalization/functions/arrays-list.md)
+         + [Datumfuncties](using/personalization/functions/dates.md)
+         + [Booleaanse en vergelijkingsfuncties](using/personalization/functions/operators.md)
+         + [Helpers](using/personalization/functions/helpers.md)
+         + [Toewijzingsfuncties](using/personalization/functions/maps.md)
+         + [Objectfuncties](using/personalization/functions/objects.md)
+         + [Reeksfuncties](using/personalization/functions/string.md)
    + Gebruiksscenario’s{#personalization-use-cases}
       + [Statusmelding van bestelling](using/personalization/personalization-use-case.md)
       + [E-mailadres voor afmelden van winkelwagentje](using/personalization/personalization-use-case-helper-functions.md)
-   + Helpfuncties{#functions}
-      + [Aan de slag met hulpfuncties](using/personalization/functions/functions.md)
-      + [Samenvoegingsfuncties](using/personalization/functions/aggregation.md)
-      + [Rekenkundige functies](using/personalization/functions/arithmetic-functions.md)
-      + [Arrays en lijstfuncties](using/personalization/functions/arrays-list.md)
-      + [Datumfuncties](using/personalization/functions/dates.md)
-      + [Booleaanse en vergelijkingsfuncties](using/personalization/functions/operators.md)
-      + [Helpers](using/personalization/functions/helpers.md)
-      + [Toewijzingsfuncties](using/personalization/functions/maps.md)
-      + [Objectfuncties](using/personalization/functions/objects.md)
-      + [Reeksfuncties](using/personalization/functions/string.md)
-   + [Aangepaste aanbiedingen toevoegen](using/deliver-personalized-offers.md)
-+ Segmenten, profielen en identiteiten{#segment}
++ Segmenten, profielen en identiteit{#segment}
    + Segmenten {#segments}
       + [Aan de slag met segmenten](using/segment/about-segments.md)
       + [Segmenten maken](using/segment/creating-a-segment.md)
