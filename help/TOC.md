@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 01573675c28972f863e3516577d8a06b403de312
+source-git-commit: 8ecf4f1af725a34e94bb5407f9e0369841c33206
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 50%
@@ -51,12 +51,12 @@ ht-degree: 50%
 + Personalisatie{#personalization}
    + [Aan de slag met personalisatie](using/personalization/personalize.md)
    + [Persoonlijke context](using/personalization/personalization-contexts.md)
-   + Werken met de Expressieeditor {#expression-editor}
-      + [Over de Expressieeditor](using/personalization/personalization-build-expressions.md)
-      + [Kenmerken toevoegen aan Favorieten](using/personalization/personalization-favorites.md)
-      + [Validatie van personalisatie](using/personalization/personalization-validation.md)
    + Expressies samenstellen {#build-expressions}
       + [Personalisatiesyntaxis](using/personalization/personalization-syntax.md)
+      + Werken met de Expressieeditor {#expression-editor}
+         + [Over de Expressieeditor](using/personalization/personalization-build-expressions.md)
+         + [Kenmerken toevoegen aan Favorieten](using/personalization/personalization-favorites.md)
+         + [Validatie van personalisatie](using/personalization/personalization-validation.md)
       + Helpfuncties{#functions}
          + [Aan de slag met hulpfuncties](using/personalization/functions/functions.md)
          + [Samenvoegingsfuncties](using/personalization/functions/aggregation.md)
