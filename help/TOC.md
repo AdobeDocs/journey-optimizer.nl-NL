@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8ecf4f1af725a34e94bb5407f9e0369841c33206
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 50%
@@ -28,7 +28,7 @@ ht-degree: 50%
       + [Aan de slag als ontwikkelaar](using/path/developer.md)
    + [Gebruikersinterface](using/user-interface.md)
    + [Beperkingen](using/limitations.md)
-+ Berichten {#create-messages}
++ Berichten {#messages}
    + [Aan de slag met berichten](using/get-started-content.md)
    + Berichten maken {#create-message}
       + [Een bericht maken](using/create-message.md)
@@ -43,7 +43,7 @@ ht-degree: 50%
       + [Uw e-mailinhoud importeren of coderen](using/existing-content.md)
       + [Onderdelen voor content van e-mailontwerpers gebruiken](using/content-components.md)
    + [Koppelingen toevoegen en berichten bijhouden](using/message-tracking.md)
-   + Valideren en publiceren {#create-message}
+   + Valideren en publiceren {#validate}
       + [Voorvertoning en proefdrukken](using/preview.md)
       + [Waarschuwingen controleren](using/alerts.md)
       + [Berichten publiceren](using/publish-manage-message.md)
@@ -233,7 +233,7 @@ ht-degree: 50%
       + [Rapportage landingspagina](using/landing-pages/lp-report.md)
       + [Melding van abonnementenlijsten](using/landing-pages/subscription-report.md)
 + Beslissingsbeheer {#offer-decisioniong}
-   + Aan de slag met het beheer van beslissingen {#get-started}
+   + Aan de slag met het beheer van beslissingen {#get-started-decision}
       + [Over het beheer van besluiten](using/offers/get-started/starting-offer-decisioning.md)
       + [Gebruikersinterface](using/offers/get-started/user-interface.md)
       + [Belangrijke stappen voor het maken en beheren van aanbiedingen](using/offers/offer-library/key-steps.md)
@@ -315,13 +315,13 @@ ht-degree: 50%
    + [Schema&#39;s](using/get-started-schemas.md)
    + [Gegevenssets](using/get-started-datasets.md)
    + [Zoekopdrachten](using/get-started-queries.md)
-+ Configuratie{#get-started}
++ Configuratie{#configuration}
    + [Aan de slag met de Journey Optimizer-configuratie](using/configuration/get-started-configuration.md)
-   + Berichten configureren {#configuration}
+   + Berichten configureren {#configuration-message}
       + Configuratie van pushmeldingen{#push-config}
          + [Aan de slag met de pushconfiguratie](using/push-gs.md)
          + [Pushmeldingskanaal configureren](using/push-configuration.md)
-      + E-mailconfiguratie {#email-config}
+      + E-mailconfiguratie {#email-configuration}
          + Subdomeinen delegeren {#delegate-subdomains}
             + [Aan de slag met subdomeindelegatie](using/configuration/about-subdomain-delegation.md)
             + [Een subdomein delegeren](using/configuration/delegate-subdomain.md)
@@ -356,7 +356,7 @@ ht-degree: 50%
          + [Een actie configureren](using/action/about-custom-action-configuration.md)
          + [Integreren met Adobe Campaign v7/v8](using/action/acc-action.md)
    + [Bronnen](using/get-started-sources.md)
-+ Toegangsbeheer {#administration}
++ Toegangsbeheer {#access-control}
    + [Overzicht van toegangsbeheer](using/administration/permissions-overview.md)
    + [Geïntegreerde productprofielen](using/administration/ootb-product-profiles.md)
    + [Gebruikers en productprofielen beheren](using/administration/permissions.md)

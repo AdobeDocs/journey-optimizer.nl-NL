@@ -1,5 +1,5 @@
 ---
-title: Gebruiksgevallen van landingspagina
+title: Landing page use cases
 description: Ontdek de meest gebruikelijke gebruiksgevallen bij bestemmingspagina's in Journey Optimizer
 feature: Landing Pages
 topic: Content Management
@@ -8,16 +8,16 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 847873b39476e3bd932f420a70c9dcac46de84f5
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 1%
 
 ---
 
-# Gebruiksgevallen van landingspagina
+# Gebruiksgevallen van landingspagina {#lp-use-cases}
 
-Hieronder ziet u enkele voorbeelden van het gebruik van [!DNL Journey Optimizer] het landen van pagina&#39;s om uw klanten te hebben binnen of uit van het ontvangen van wat of elk van uw mededelingen kiezen.
+Below are some examples of how you can use [!DNL Journey Optimizer] landing pages to have your customers opt in/out from receiving some or all of your communications.
 
 <!--The main use cases are:
 * Subscription to a service
@@ -26,11 +26,11 @@ Hieronder ziet u enkele voorbeelden van het gebruik van [!DNL Journey Optimizer]
 
 ## Abonnement op een service {#subscription-to-a-service}
 
-Een van de meest gebruikelijke gebruiksgevallen is het uitnodigen van uw klanten om [abonneren op een service](subscription-list.md) (zoals een nieuwsbrief of een gebeurtenis) door een landingspagina. De belangrijkste stappen worden weergegeven in de onderstaande grafiek:
+One of the most common use cases consists in inviting your customers to [subscribe to a service](subscription-list.md) (such as a newsletter or an event) through a landing page. De belangrijkste stappen worden weergegeven in de onderstaande grafiek:
 
 ![](../assets/lp_subscription-uc.png)
 
-Stel bijvoorbeeld dat u volgende maand een gebeurtenis organiseert en een registratiecampagne voor een gebeurtenis wilt starten<!--to keep your customers that are interested updated on that event-->. Hiervoor stuurt u een e-mail met een koppeling naar een bestemmingspagina waarmee uw ontvangers zich kunnen registreren voor deze gebeurtenis. De gebruikers die zich registreren, worden toegevoegd aan de abonnementenlijst die u voor dit doel hebt gemaakt.
+For example, let&#39;s say you organize an event next month and you want to launch an event registration campaign<!--to keep your customers that are interested updated on that event-->. Hiervoor stuurt u een e-mail met een koppeling naar een bestemmingspagina waarmee uw ontvangers zich kunnen registreren voor deze gebeurtenis. De gebruikers die zich registreren, worden toegevoegd aan de abonnementenlijst die u voor dit doel hebt gemaakt.
 
 ### Startpagina instellen
 
@@ -70,13 +70,13 @@ Stel bijvoorbeeld dat u volgende maand een gebeurtenis organiseert en een regist
 
 Bovendien kunt u een bevestigingsbericht verzenden naar de ontvangers die zich hebben geregistreerd voor uw gebeurtenis. Hiervoor voert u de volgende stappen uit.
 
-1. Een andere maken [reis](../building-journeys/journey.md). U kunt dit rechtstreeks vanaf de bestemmingspagina doen door op de knop **[!UICONTROL Create journey]** knop. Meer informatie [hier](create-lp.md#configure-primary-page)
+1. Create another [journey](../building-journeys/journey.md). U kunt dit rechtstreeks vanaf de bestemmingspagina doen door op de knop **[!UICONTROL Create journey]** knop. Learn more [here](create-lp.md#configure-primary-page)
 
    ![](../assets/lp_subscription-uc-create-journey.png)
 
-1. De **[!UICONTROL Events]** categorie en een **[!UICONTROL Segment Qualification]** op uw canvas. Meer informatie [hier](../building-journeys/segment-qualification-events.md)
+1. Unfold the **[!UICONTROL Events]** category and drop a **[!UICONTROL Segment Qualification]** activity into your canvas. Meer informatie [hier](../building-journeys/segment-qualification-events.md)
 
-1. Klik in het dialoogvenster **[!UICONTROL Segment]** en selecteer de abonnementenlijst die u hebt gemaakt.
+1. Click in the **[!UICONTROL Segment]** field and select the subscription list that you created.
 
    ![](../assets/lp_subscription-uc-confirm-journey.png)
 
@@ -107,7 +107,7 @@ Daarom moet u altijd een **afmelden, koppeling** in elke e-mail die naar ontvang
 
 Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zich af te melden voor uw communicatie via een bestemmingspagina.
 
-1. Maak uw openingspagina. [Meer informatie](create-lp.md)
+1. Create your landing page. [Meer informatie](create-lp.md)
 
 1. Definieer de primaire pagina. [Meer informatie](create-lp.md#configure-primary-page)
 
@@ -153,11 +153,11 @@ Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zi
 
    * De profielgegevens worden bijgewerkt en zullen geen mededelingen van uw merk tenzij opnieuw geabonneerd ontvangen.
 
-Als u wilt controleren of de keuze van het corresponderende profiel is bijgewerkt, gaat u naar het Experience Platform en opent u het profiel door een naamruimte voor identiteiten en een bijbehorende identiteitswaarde te selecteren. Meer informatie in het dialoogvenster [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+To check that the corresponding profile&#39;s choice has been updated, go to Experience Platform and access the profile by selecting an identity namespace and a corresponding identity value. Meer informatie in het dialoogvenster [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
 ![](../assets/lp_opt-out-profile-choice.png)
 
-In de **[!UICONTROL Attributes]** tab, kunt u de waarde zien voor **[!UICONTROL choice]** is gewijzigd in **[!UICONTROL no]**.
+In the **[!UICONTROL Attributes]** tab, you can see the value for **[!UICONTROL choice]** has changed to **[!UICONTROL no]**.
 
 <!--
 

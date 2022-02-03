@@ -9,7 +9,7 @@ solution: Journey Optimizer
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
+source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 9%
@@ -17,7 +17,7 @@ ht-degree: 9%
 ---
 
 
-# Aan de slag met [!DNL Journey Optimizer] configuratie
+# Aan de slag met [!DNL Journey Optimizer] configuratie {#start-optimizer-configuration}
 
 Bij toegang [!DNL Journey Optimizer] voor het eerst, bent u provisioned een productiesandbox en toegewezen een bepaald aantal IPs afhankelijk van uw contract.
 
