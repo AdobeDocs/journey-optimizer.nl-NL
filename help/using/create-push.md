@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 5866a5ad181b9b745cedc4fa740d131cf7c88863
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1210'
 ht-degree: 10%
 
 ---
@@ -29,9 +29,14 @@ Gebruik de specifieke tabbladen om de instellingen voor pushmeldingen te definiÃ
 
 Als u uw bericht wilt samenstellen, klikt u op de knop **[!UICONTROL Title]** en **[!UICONTROL Body]** velden. Gebruik de Redacteur van de Uitdrukking om inhoud en verpersoonlijkingsgegevens te bepalen. Meer informatie over personalisatie in de Expressieeditor vindt u in [deze sectie](personalization/personalize.md)
 
-In het gedeelte voor voorvertoning van apparaten kunt u visualiseren hoe de pushmelding wordt weergegeven op iOS- en Android-apparaten.
+In het gedeelte voor voorvertoning van apparaat kunt u visualiseren hoe de pushmelding wordt weergegeven op iOS- en Android-apparaten.
 
 ## Bij klikken, gedrag {#on-click-behavior}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-onclick"
+>title="Informatie over klikgedrag"
+>abstract="Selecteer het gedrag wanneer een ontvanger op de hoofdtekst van het pushbericht klikt."
 
 Selecteer het gedrag wanneer een ontvanger op de hoofdtekst van het pushbericht klikt.
 
