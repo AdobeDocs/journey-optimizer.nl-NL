@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: e36b81fd3cdfa0cc6efe1a85316fcb4f5a9c9764
+source-git-commit: 750542adf2c8d468b34cc0d0f61c87afc9cd001f
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 14%
+source-wordcount: '218'
+ht-degree: 13%
 
 ---
 
@@ -27,24 +27,24 @@ ht-degree: 14%
     <em></em>
     <p>
     <div>
-      <a href="using/get-started.md">Wat is [!DNL Journey Optimizer]?</a>
+      <a href="using/start/get-started.md">Wat is [!DNL Journey Optimizer]?</a>
     </div>
     <p>Belangrijke functies en gebruiksscenario's ontdekken
     <p>
     <div>
-      <a href="using/release-notes.md">Aanvullende informatie</a>
+      <a href="using/rn/release-notes.md">Aanvullende informatie</a>
     </div>
     <p>Nieuwe mogelijkheden, nieuwste verbeteringen en oplossingen
    <p>
     <div>
-      <a href="using/quick-start.md">Snelle startgids</a>
+      <a href="using/start/quick-start.md">Snelle startgids</a>
     </div>
     <p>
     Leer hoe te als Beheerder, de ingenieur van Gegevens of de praktijk van de Reis te beginnen
     <p>
     <p>
     <div>
-      <a href="using/design-emails.md">E-mailinhoud ontwerpen</a>
+      <a href="using/messages/design-emails.md">E-mailinhoud ontwerpen</a>
     </div>
     <p>
     Een nieuwe e-mail ontwerpen of bestaande HTML-inhoud importeren
@@ -86,15 +86,20 @@ ht-degree: 14%
     </div>
     <div>
     <li>
+      <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Adobe Journey Optimizer Security - Overzicht</a> (PDF)
+    </li>
+    </div>
+    <div>
+    <li>
+      <a href="https://experienceleague.adobe.com/docs/journey-optimizer/assets/AJO-FAQ.pdf" target="_blank">Veelgestelde vragen over Adobe Journey Optimizer</a> (PDF)
+    </li>
+    </div>
+    <div>
+    <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html" target="_blank">Adobe Experience Platform-documentatie</a>
     </li>
     </div>
-      <div>
-      <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html" target="_blank">Adobe Experience Platform-toegangsoverzicht</a>
-    </li>
-    </div>
-      <div>
+    <div>
       <li>
       <a href="https://www.adobe.com/nl/experience-platform/documentation-and-developer-resources.html" target="_blank">Bronnen voor Adobe Experience Platform-ontwikkelaars</a>
     </li>
@@ -111,7 +116,7 @@ ht-degree: 14%
       <a href="using/building-journeys/journey-gs.md">Journeys</a>
     </li>
     <li>
-      <a href="using/create-message.md">Berichten</a>
+      <a href="using/messages/create-message.md">Berichten</a>
     </li>
     <p>
     <p>BESLISSINGSBEHEER</p>
@@ -124,18 +129,18 @@ ht-degree: 14%
     <p>
     <p>INHOUDSBEHEER</p>
     <li>
-      <a href="using/assets-essentials.md">Assets</a>
+      <a href="using/messages/assets-essentials.md">Assets</a>
     </li>
     <p>
     <p>GEGEVENSBEHEER</p>
     <li>
-      <a href="using/get-started-schemas.md">Schema's</a>
+      <a href="using/start/get-started-schemas.md">Schema's</a>
     </li>
      <li>
-      <a href="using/get-started-datasets.md">Gegevenssets</a>
+      <a href="using/start/get-started-datasets.md">Gegevenssets</a>
     </li>
         <li>
-      <a href="using/get-started-queries.md">Zoekopdrachten</a>
+      <a href="using/start/get-started-queries.md">Zoekopdrachten</a>
     </li>
      <li>
       <a href="https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html" target="_blank">Bewaking</a>
@@ -143,7 +148,7 @@ ht-degree: 14%
     <p>
     <p>VERBINDINGEN</p>
     <li>
-      <a href="using/get-started-sources.md">Bronnen</a>
+      <a href="using/start/get-started-sources.md">Bronnen</a>
     </li>
     <p>
     <p>KLANT</p>
@@ -151,10 +156,10 @@ ht-degree: 14%
       <a href="using/segment/about-segments.md">Segmenten</a>
     </li>
      <li>
-      <a href="using/get-started-profiles.md">Profielen</a>
+      <a href="using/start/get-started-profiles.md">Profielen</a>
     </li>
     <li>
-      <a href="using/get-started-identity.md">Identiteit</a>
+      <a href="using/start/get-started-identity.md">Identiteit</a>
     </li>
     <p>
     <p>ADMINISTRATIE</p>
