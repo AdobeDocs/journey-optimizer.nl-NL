@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: dc1dd69040086bd0fad332feb12cc817fec41544
+source-git-commit: 6bb0248c8bd3c15ff28e841b06a413dca83b354f
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1192'
 ht-degree: 10%
 
 ---
@@ -32,11 +32,6 @@ Als u uw bericht wilt samenstellen, klikt u op de knop **[!UICONTROL Title]** en
 In het gedeelte voor voorvertoning van apparaten kunt u visualiseren hoe de pushmelding wordt weergegeven op iOS- en Android-apparaten.
 
 ## Bij klikken, gedrag {#on-click-behavior}
-
->[!CONTEXTUALHELP]
->id="ajo-message-push-onclick"
->title="Informatie over klikgedrag"
->abstract="Selecteer het gedrag wanneer een ontvanger op de hoofdtekst van het pushbericht klikt."
 
 Selecteer het gedrag wanneer een ontvanger op de hoofdtekst van het pushbericht klikt.
 
