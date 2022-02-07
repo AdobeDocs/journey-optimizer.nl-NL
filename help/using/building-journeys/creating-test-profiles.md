@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Testprofielen maken {#create-test-profiles}
 
-De profielen van de test worden vereist wanneer het gebruiken van de testwijze om te leren hoe te [testmodus](../building-journeys/testing-the-journey.md) op reis, en [uw berichten bekijken en testen](../preview.md).
+De profielen van de test worden vereist wanneer het gebruiken van de testwijze om te leren hoe te [testmodus](../building-journeys/testing-the-journey.md) op reis, en [uw berichten bekijken en testen](../messages/preview.md).
 
 De beschikbare methoden voor het maken van testprofielen worden hieronder beschreven:
 
@@ -88,7 +88,7 @@ Klik op de knop **[!UICONTROL Begin]** om het gebruik te starten.
 
 De volgende informatie is vereist:
 
-1. **Naamruimte identiteit**: De [naamruimte identity](../get-started-identity.md) worden gebruikt om de testprofielen uniek te identificeren. Als e-mail bijvoorbeeld wordt gebruikt om de testprofielen te identificeren, wordt de naamruimte van de identiteit **E-mail** moet worden geselecteerd. Als het unieke herkenningsteken het telefoonaantal is, dan identiteit namespace **Telefoon** moet worden geselecteerd.
+1. **Naamruimte identiteit**: De [naamruimte identity](../start/get-started-identity.md) worden gebruikt om de testprofielen uniek te identificeren. Als e-mail bijvoorbeeld wordt gebruikt om de testprofielen te identificeren, wordt de naamruimte van de identiteit **E-mail** moet worden geselecteerd. Als het unieke herkenningsteken het telefoonaantal is, dan identiteit namespace **Telefoon** moet worden geselecteerd.
 
 2. **CSV-bestand**: Een door komma&#39;s gescheiden bestand met de lijst testprofielen die moeten worden gemaakt. De gebruikscase verwacht een vooraf gedefinieerde indeling voor het CSV-bestand dat de lijst met testprofielen bevat die moet worden gemaakt. Elke rij in het bestand moet de volgende velden in de juiste volgorde bevatten:
 

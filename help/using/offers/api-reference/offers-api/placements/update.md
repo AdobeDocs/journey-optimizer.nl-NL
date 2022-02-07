@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6990918c-e736-4f28-9ac6-9ac3101b069f
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 4%
 
 ---
 
-# Een plaatsing bijwerken
+# Een plaatsing bijwerken {#update-placement}
 
 U kunt een plaatsing in uw container wijzigen of bijwerken door een verzoek van PATCH aan de [!DNL Offer Library] API.
 
 Raadpleeg voor meer informatie over JSON Patch, inclusief beschikbare bewerkingen, de officiële [JSON-patchdocumentatie](http://jsonpatch.com/).
 
-## Kopteksten van het type Inhoud accepteren
+## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
 In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
 

@@ -1,19 +1,18 @@
 ---
 title: Alternatieve aanbiedingen maken
-description: Leer hoe je aanbiedingen kunt maken in Adobe Experience Platform.
-feature: Offers
+description: Leer hoe u fallback-aanbiedingen kunt maken die kunnen worden weergegeven voor klanten die niet in aanmerking komen voor een aanbieding
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '289'
 ht-degree: 3%
 
 ---
 
-# Alternatieve aanbiedingen maken {#creating-fallback-offers}
+# Alternatieve aanbiedingen maken {#create-fallback-offers}
 
 De fallback-aanbieding wordt naar klanten gestuurd als zij niet in aanmerking komen voor andere aanbiedingen. De stappen om een reserveaanbieding tot stand te brengen bestaan uit het creëren van één of verscheidene vertegenwoordiging, zoals wanneer het creëren van een aanbieding.
 

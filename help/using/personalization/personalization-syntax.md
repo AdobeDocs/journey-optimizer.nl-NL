@@ -1,11 +1,12 @@
 ---
 title: Personalisatiesyntaxis
-description: Leer hoe u de syntaxis voor personalisatie gebruikt
+description: Leer hoe u de syntaxis van de personalisatie gebruikt.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 50e12a28ed9f94133a9810a460172d34ad3a4593
+exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 3%
@@ -28,7 +29,7 @@ waarbij:
 * `profile` is een naamruimte.
 * `person.name` is een token dat wordt samengesteld door kenmerken. De kenmerkstructuur wordt gedefinieerd in een Adobe Experience Platform XDM-schema. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target=&quot;_blank&quot;}.
 
-## Algemene syntaxisregels
+## Algemene syntaxisregels {#general-rules}
 
 Id&#39;s kunnen eender welk unicode-teken zijn, behalve de volgende:
 
@@ -75,7 +76,7 @@ Leer hoe u onder de volgende omstandigheden profielkenmerken kunt gebruiken [dez
 >[!NOTE]
 >Voor meer informatie over segmentatie en segmentatieservice raadpleegt u [deze sectie](../segment/about-segments.md).
 
-## Aanbiedingen
+## Aanbiedingen {#offers-syntax}
 
 Met deze naamruimte kunt u verwijzen naar bestaande aanbiedingen.
 Als u naar een aanbieding wilt verwijzen, moet u een pad declareren met de verschillende gegevens die een aanbieding definiëren.
@@ -127,7 +128,7 @@ Blokken zijn expressies met een blokopening ({{# }}) en closing ({{/}).
 >
 >Helperfuncties worden beschreven in [deze sectie](functions/helpers.md).
 
-## Letterlijke typen
+## Letterlijke typen {#literal-types}
 
 [!DNL Adobe Journey Optimizer] ondersteunt de volgende letterlijke typen:
 
@@ -146,7 +147,7 @@ Blokken zijn expressies met een blokopening ({{# }}) en closing ({{/}).
 
 Met Journey Optimizer kunt u een of meer URL&#39;s in uw bericht aanpassen door er personalisatievelden aan toe te voegen. Dit doet u als volgt:
 
-* Maak een koppeling in uw e-mail- of pushinhoud. Voor meer informatie over het maken van koppelingen raadpleegt u [deze pagina](../message-tracking.md#insert-links).
+* Maak een koppeling in uw e-mail- of pushinhoud. Voor meer informatie over het maken van koppelingen raadpleegt u [deze pagina](../messages/message-tracking.md#insert-links).
 * Klik op het verpersoonlijkingspictogram. Dit pictogram is beschikbaar voor deze specifieke typen koppelingen: **Externe koppeling**, **Koppeling met abonnement opheffen** en **Uitschakelen**.
 
 ![](assets/perso-url.png)

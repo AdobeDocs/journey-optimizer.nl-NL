@@ -8,7 +8,7 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: 4609b071e6011bb2c28156b9638f40b7d6f29249
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Abonnementenlijsten {#create-subscription-list}
 
-## Wat is een abonnementenlijst?
+## Wat is een abonnementenlijst? {#subscription-list-definition}
 
 Een abonnementsdienst heeft betrekking op marketinggoederen en -diensten die worden geleverd aan klanten die ervoor hebben gekozen communicatie over een specifiek onderwerp/evenement/belang/enz. te ontvangen. doorlopend. In [!DNL Journey Optimizer], worden deze opted-in klanten verzameld in een abonnementenlijst.
 

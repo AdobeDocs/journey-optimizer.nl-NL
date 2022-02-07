@@ -1,15 +1,15 @@
 ---
-title: Beheer en instellingen
-description: Meer informatie over richtlijnen voor beheer en instellingen
+title: Reizen configureren
+description: Leer hoe te om Gegevensbronnen, Gebeurtenissen en Acties te vormen.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 45%
+source-wordcount: '313'
+ht-degree: 44%
 
 ---
 
@@ -19,17 +19,17 @@ Om berichten met reizen te verzenden, moet u vormen **[!UICONTROL Data Sources]*
 
 ![](../assets/admin-menu.png)
 
-## Gegevensbronnen
+## Gegevensbronnen {#data-sources}
 
 De configuratie van de Gegevensbron staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw reizen zal worden gebruikt. [Meer informatie](../../using/datasource/about-data-sources.md)
 
-## Gebeurtenissen
+## Gebeurtenissen {#events}
 
 Gebeurtenissen stellen u in staat om uw reizen tijdelijk te activeren en berichten in real-time te verzenden aan de persoon die de reis maakt.
 
 In de gebeurtenisconfiguratie, vormt u de gebeurtenissen die in de reizen worden verwacht. De gegevens van de binnenkomende gebeurtenissen worden genormaliseerd volgens het Adobe Experience Data Model (XDM). Gebeurtenissen zijn afkomstig van de streamingopname-API’s voor geverifieerde en niet-geverifieerde gebeurtenissen (zoals Adobe Mobile SDK-gebeurtenissen). [Meer informatie](../../using/event/about-events.md)
 
-## Acties
+## Acties {#actions}
 
 Journey Optimizer-berichtmogelijkheden zijn ingebouwd: u hoeft alleen uw inhoud te ontwerpen en uw bericht te publiceren. Als u berichten verzendt met een systeem van derden, kunt u een aangepaste handeling maken. [Meer informatie](../../using/action/action.md)
 

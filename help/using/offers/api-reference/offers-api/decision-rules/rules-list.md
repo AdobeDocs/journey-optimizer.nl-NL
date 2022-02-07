@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: c4c3e415-bc57-45db-b27f-4a5e9fc1f02c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 3%
 
 ---
 
-# Beslissingsregels weergeven
+# Beslissingsregels weergeven {#list-decision-rules}
 
 Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die op een profiel worden toegepast om te bepalen of het in aanmerking komt voor een aanbieding. U kunt een lijst met bestaande beslissingsregels in een container weergeven door één GET-verzoek uit te voeren aan de [!DNL Offer Library] API.
 
@@ -30,11 +30,11 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | `{SCHEMA_ELIGIBILITY_RULE}` | Bepaalt het schema verbonden aan besluitvormingsregels. | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
 | `{QUERY_PARAMS}` | Optionele queryparameters om resultaten te filteren op. | `limit=1` |
 
-## Query-parameters gebruiken
+## Query-parameters gebruiken {#using-query-parameters}
 
 U kunt queryparameters gebruiken om de resultaten te filteren en te pagineren wanneer u bronnen weergeeft.
 
-### Paginering
+### Paginering {#paging}
 
 De gemeenschappelijkste vraagparameters voor het pagineren omvatten:
 

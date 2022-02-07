@@ -1,19 +1,19 @@
 ---
 title: Aanbiedingen op maat maken
-description: Leer hoe je persoonlijke aanbiedingen kunt maken in Adobe Experience Platform.
+description: Leer hoe u uw aanbiedingen kunt maken, configureren en beheren
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: b08eb138bbdf9c8a594735824eeac3496a58daba
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1347'
 ht-degree: 1%
 
 ---
 
-# Aanbiedingen op maat maken {#creating-personalized-offers}
+# Aanbiedingen op maat maken {#create-personalized-offers}
 
 Voordat u een aanbieding maakt, moet u controleren of u het volgende hebt gemaakt:
 
@@ -90,7 +90,7 @@ U kunt verschillende typen inhoud aan een representatie toevoegen.
 >
 >Alleen inhoud die overeenkomt met het inhoudstype van de plaatsing is beschikbaar voor gebruik.
 
-### Afbeeldingen toevoegen
+### Afbeeldingen toevoegen {#images}
 
 Als de geselecteerde plaatsing van het afbeeldingstype is, kunt u inhoud toevoegen die afkomstig is van het **Adobe Experience Cloud Asset** bibliotheek, een gecentraliseerde opslagplaats voor door [!DNL Adobe Experience Manager Assets Essentials].
 
@@ -110,7 +110,7 @@ Als de geselecteerde plaatsing van het afbeeldingstype is, kunt u inhoud toevoeg
 
    ![](../../assets/offer-select-asset.png)
 
-### URL&#39;s toevoegen
+### URL&#39;s toevoegen {#urls}
 
 Als u inhoud van een externe openbare locatie wilt toevoegen, selecteert u **[!UICONTROL URL]** Voer vervolgens het URL-adres in van de inhoud die u wilt toevoegen.
 

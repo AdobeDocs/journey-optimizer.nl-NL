@@ -1,19 +1,19 @@
 ---
 title: Belangrijke stappen om een aanbieding te maken
-description: Ontdek de belangrijkste stappen die nodig zijn om een aanbieding te maken.
+description: Ontdek de belangrijkste stappen die worden vereist om een aanbieding tot stand te brengen
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 10%
 
 ---
 
-# Belangrijke stappen voor het maken en beheren van aanbiedingen {#key-steps}
+# Belangrijke stappen voor het maken en beheren van aanbiedingen {#key-steps-to-manage-offers}
 
 De belangrijkste stappen om aanbiedingen te creëren, te vormen en te beheren, evenals hen in een besluit te gebruiken, worden hieronder voorgesteld.
 
@@ -21,7 +21,7 @@ De belangrijkste stappen om aanbiedingen te creëren, te vormen en te beheren, e
 
 Voor een volledig end-to-end voorbeeld dat toont hoe te om aanbiedingen te vormen, gebruik hen in een besluit en hefboomwerking dit besluit in een e-mail, controleer uit [deze pagina](../offers-e2e.md).
 
-## Componenten maken
+## Componenten maken {#create-components}
 
 Voordat u aanbiedingen gaat maken, moet u verschillende componenten definiëren die u in uw aanbiedingen wilt gebruiken.
 
@@ -41,7 +41,7 @@ Voordat u aanbiedingen gaat maken, moet u verschillende componenten definiëren 
 <td><img src="../../assets/do-not-localize/icon-ranking.svg" width="60px"><p><a href="../offer-library/create-ranking-formulas.md">Rangschikkingsformules maken</a></p></td>
 </table>
 
-## Aanbiedingen maken en beheren
+## Aanbiedingen maken en beheren {#create-and-manage-offers}
 
 1. **Aanbiedingen maken** en configureren van de inhoud en eigenschappen ervan.
 
@@ -56,7 +56,7 @@ Voordat u aanbiedingen gaat maken, moet u verschillende componenten definiëren 
 <td><img src="../../assets/do-not-localize/icon-collection.svg" width="60px"><p><a href="../offer-library/creating-collections.md">Verzamelingen maken</a></p></td></tr>
 </table>
 
-## Besluiten maken en configureren
+## Besluiten maken en configureren {#create-and-configure-decisions}
 
 1. **Een beslissing maken** dat zal plaatsingen combineren met de gepersonaliseerde aanbiedingen en de terugvalaanbiedingen . Deze combinatie wordt door de Offer decisioning-engine gebruikt om de beste aanbieding voor een specifiek profiel te vinden.
 

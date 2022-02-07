@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 3%
 
 ---
 
-# Beslissingen weergeven
+# Beslissingen weergeven {#list-decisions}
 
 Een beslissing (voorheen bekend als aanbiedingsactiviteit) bevat de logica die de keuze van een aanbieding informeert.
 
@@ -44,11 +44,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Query-parameters gebruiken
+## Query-parameters gebruiken {#using-query-parameters}
 
 U kunt queryparameters gebruiken om de resultaten te filteren en te pagineren wanneer u bronnen weergeeft.
 
-### Paginering
+### Paginering {#paging}
 
 De gemeenschappelijkste vraagparameters voor het pagineren omvatten:
 

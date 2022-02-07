@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 3%
 
 ---
 
-# Alternatieve aanbiedingen weergeven
+# Alternatieve aanbiedingen weergeven {#list-fallback-offers}
 
 Aan klanten wordt een terugvalaanbieding gestuurd als zij niet in aanmerking komen voor andere aanbiedingen. De stappen om een reserveaanbieding tot stand te brengen bestaan uit het creëren van één of verscheidene vertegenwoordiging, zoals wanneer het creëren van een aanbieding.
 
@@ -44,11 +44,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Query-parameters gebruiken
+## Query-parameters gebruiken {#using-query-parameters}
 
 U kunt queryparameters gebruiken om de resultaten te filteren en te pagineren wanneer u bronnen weergeeft.
 
-### Paginering
+### Paginering {#paging}
 
 De gemeenschappelijkste vraagparameters voor het pagineren omvatten:
 

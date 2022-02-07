@@ -1,12 +1,12 @@
 ---
 title: '&Hoofdlettergebruik voor persoonlijke voorkeur; kennisgeving orderstatus'
-description: Leer hoe u een bericht kunt personaliseren met profiel, beschikking en contextinformatie
+description: Leer hoe u een bericht kunt personaliseren met profiel, beschikking en contextinformatie.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: daf5c6021a3efc8852b989fb602380c369758ead
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -25,11 +25,11 @@ Het doel van dit voorbeeld is om een gebeurtenis naar [!DNL Journey Optimizer] e
 
 Voor dit gebruik zijn de volgende voorwaarden nodig:
 
-* Maak en ontwerp een pushmelding zonder deze te publiceren. Zie dit [sectie](../create-message.md).
+* Maak en ontwerp een pushmelding zonder deze te publiceren. Zie dit [sectie](../messages/create-message.md).
 * een bestelgebeurtenis configureren, waaronder het ordernummer, de status en de naam van het item. Zie dit [sectie](../event/about-events.md).
 * een besluit nemen (voorheen &quot;aanbiedingsactiviteit&quot; genoemd), naar deze [sectie](../offers/offer-activities/create-offer-activities.md).
 
-## Stap 1 - personalisatie toevoegen aan profiel
+## Stap 1 - personalisatie toevoegen aan profiel {#add-perso}
 
 1. Klik op de knop **[!UICONTROL Message]** en selecteert u uw bericht.
 
@@ -47,7 +47,7 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
    >
    >Laat het bericht in concept staan. Publiceer het bestand nog niet.
 
-## Stap 2 - Maak de reis
+## Stap 2 - Maak de reis {#create-journey}
 
 1. Klik op de knop **[!UICONTROL Journeys]** en maak een nieuwe reis.
 
@@ -69,7 +69,7 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
    >
    >Het bericht wordt weergegeven met een waarschuwingspictogram. Dit komt omdat het bericht nog niet is gepubliceerd.
 
-## Stap 3 - Verpersoonlijking toevoegen aan contextuele gegevens
+## Stap 3 - Verpersoonlijking toevoegen aan contextuele gegevens {#add-perso-contextual-data}
 
 1. Van de **Bericht** activiteit, klik **Het bericht openen** pictogram. Het bericht wordt geopend op een nieuw tabblad.
 
@@ -110,7 +110,7 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
 
    ![](assets/perso-uc16.png)
 
-## Stap 4 - De reis testen en publiceren
+## Stap 4 - De reis testen en publiceren {#test-publish}
 
 1. Open de reis opnieuw. Als de reis reeds open is, zorg ervoor u de pagina verfrist. Nu het bericht wordt gepubliceerd, kunt u zien dat er geen fout in de reis is. Klik op de knop **Testen** klikt u vervolgens op **Een gebeurtenis activeren**.
 

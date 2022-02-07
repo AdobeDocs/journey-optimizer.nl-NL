@@ -1,12 +1,12 @@
 ---
 title: De geëxporteerde aanbiedingscatalogus openen
-description: Leer hoe u de aanbiedingencatalogus op Adobe Experience Platform kunt openen nadat deze is geëxporteerd.
+description: Leer hoe u de aanbiedingencatalogus op Adobe Experience Platform kunt openen nadat deze is geëxporteerd
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 10%
@@ -27,4 +27,4 @@ De **[!UICONTROL Preview dataset]** de knoop staat u toe om de meest recente suc
 
 ![](../../assets/dataset-preview.png)
 
-Voor meer informatie over hoe te om datasets te doorbladeren en te gebruiken, verwijs naar [deze pagina](../../get-started-datasets.md).
+Voor meer informatie over hoe te om datasets te doorbladeren en te gebruiken, verwijs naar [deze pagina](../../start/get-started-datasets.md).

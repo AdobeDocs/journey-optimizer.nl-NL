@@ -1,22 +1,12 @@
 ---
 title: Hernieuwde pogingen
 description: Leer hoe opnieuw proberen alvorens een adres naar de onderdrukkingslijst te verzenden
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 1%
@@ -29,7 +19,7 @@ Wanneer een e-mailbericht mislukt als gevolg van een tijdelijke **Zachte stuit**
 
 >[!NOTE]
 >
->Meer informatie over de fouttypen vindt u in het dialoogvenster [Typen leveringsfouten](../suppression-list.md#delivery-failures) sectie.
+>Meer informatie over de fouttypen vindt u in het dialoogvenster [Typen leveringsfouten](../messages/suppression-list.md#delivery-failures) sectie.
 
 In de standaardconfiguratie is de drempel ingesteld op 5 fouten.
 
@@ -55,11 +45,7 @@ Als de standaardwaarde 5 niet aan uw wensen voldoet, kunt u de foutdrempel wijzi
 
    >[!CAUTION]
    >
-   >Om het even welke waarde hoger dan 10 kan de kwesties van de leveringsreputatie, evenals IP het vertragen of het voegend op lijst van gewenste personen door ISPs veroorzaken. [Meer informatie over te leveren items](../deliverability.md)
-
-<!--![](../assets/retries-edition.png)-->
-
-<!--The minimum delay between retries and the maximum number of retries to be performed are based on how well an IP is performing, both historically and currently, at a given domain.-->
+   >Om het even welke waarde hoger dan 10 kan de kwesties van de leveringsreputatie, evenals IP het vertragen of het voegend op lijst van gewenste personen door ISPs veroorzaken. [Meer informatie over te leveren items](../messages/deliverability.md)
 
 ## Periode voor opnieuw proberen {#retry-duration}
 
@@ -77,6 +63,3 @@ U kunt bijvoorbeeld de periode voor het opnieuw proberen instellen op 24 uur voo
 
 Leer hoe u de parameters voor het opnieuw proberen van e-mail aanpast bij het maken van een berichtvoorinstelling in [deze sectie](message-presets.md#create-message-preset).
 
-<!--After 3.5 days, any message in the retry queue will be removed from the queue and sent back as a bounce.-->
-
-<!--Once a message has been in the retry queue for a maximum of 3.5 days and has failed to deliver, it will time out and its status will be updated to Failed??-->

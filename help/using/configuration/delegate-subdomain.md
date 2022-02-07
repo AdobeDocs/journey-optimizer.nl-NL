@@ -1,24 +1,14 @@
 ---
-title: Subdomeinen delegeren
-description: Leer hoe u uw subdomeinen kunt delegeren
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
+title: Een subdomein delegeren
+description: Leer hoe u uw subdomeinen kunt delegeren.
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1430'
 ht-degree: 5%
 
 ---
@@ -44,7 +34,7 @@ Door een subdomein voor gebruik met te delegeren [!DNL Journey Optimizer], kunne
 
 Voer de volgende stappen uit om een nieuw subdomein te delegeren:
 
-1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** menu, then click **[!UICONTROL Set up subdomain]**.
+1. Toegang krijgen tot **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** en klik vervolgens op **[!UICONTROL Set up subdomain]**.
 
    ![](../assets/subdomain-delegate.png)
 
@@ -104,7 +94,7 @@ De subdomeindelegatie van CNAME laat u toe om subdomain tot stand te brengen en 
 
 >[!CAUTION]
 >
->This method is recommended if your organization&#39;s policies restrict the full subdomain delegation method. This approach requires you to maintain and manage DNS records on your own. Adobe zal niet in het veranderen van, het handhaven van of het beheren van DNS voor subdomain kunnen bijwonen die door de methode CNAME wordt gevormd.
+>Deze methode wordt aanbevolen als het beleid van uw organisatie de methode voor volledige subdomeindelegatie beperkt. Deze benadering vereist u om DNS verslagen op uw te handhaven en te beheren. Adobe zal niet in het veranderen van, het handhaven van of het beheren van DNS voor subdomain kunnen bijwonen die door de methode CNAME wordt gevormd.
 
 Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volgende stappen uit:
 
@@ -114,9 +104,7 @@ Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volge
 
    ![](../assets/subdomain-method-cname.png)
 
-   <!--The steps to specify the name of the subdomain to delegate and to generate the DNS records into your domain hosting solution are the same as for full subdomain delegation. See **steps 3 to 5** of the [Full subdomain delegation](#full-subdomain-delegation) section.)-->
-
-1. Specify the name of the subdomain to delegate.
+1. Geef de naam op van het subdomein dat u wilt delegeren.
 
    >[!CAUTION]
    >
@@ -134,11 +122,11 @@ Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volge
    >
    >U kunt de records later maken met de **[!UICONTROL Save as draft]** knop. Vervolgens kunt u de subdomeindelegatie in dit stadium hervatten door deze vanuit de lijst met subdomeinen te openen.
 
-1. Wacht tot Adobe controleert of deze verslagen zonder fouten op uw het ontvangen oplossing worden geproduceerd. This process can take up to 2 minutes.
+1. Wacht tot Adobe controleert of deze verslagen zonder fouten op uw het ontvangen oplossing worden geproduceerd. Dit proces kan tot 2 minuten duren.
 
    >[!NOTE]
    >
-   >Any missing records, meaning the records not yet created on your hosting solution, will be listed out.
+   >Ontbrekende records (de records die nog niet op de hostingoplossing zijn gemaakt) worden weergegeven.
 
 1. Adobe genereert een SSL CDN URL-validatierecord. Kopieer deze validatierecord naar het hostplatform. Als u deze record op de hostingoplossing juist hebt gemaakt, schakelt u het selectievakje &quot;I confirm...&quot; in en klikt u op **[!UICONTROL Submit]**.
 
@@ -148,7 +136,7 @@ Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volge
    >
    >U kunt ook de validatierecord maken en de subdomeinconfiguratie later verzenden met de opdracht **[!UICONTROL Save as draft]** knop. Vervolgens kunt u de subdomeindelegatie hervatten door deze te openen vanuit de lijst met subdomeinen.
 
-1. Once the CNAME subdomain delegation has been submitted, the subdomain displays in the list with the **[!UICONTROL Processing]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](access-subdomains.md).
+1. Zodra de subdomeindelegatie van CNAME is voorgelegd, toont subdomain in de lijst met **[!UICONTROL Processing]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](access-subdomains.md).
 
    Voordat u dat subdomein kunt gebruiken om berichten te verzenden, moet u wachten tot Adobe de vereiste controles uitvoert. Dit duurt meestal 2 tot 3 uur. Meer informatie in [deze sectie](#subdomain-validation).
 

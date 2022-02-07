@@ -1,12 +1,12 @@
 ---
 title: Gebruikersinterface
-description: Meer informatie over de gebruikersinterface van de Bibliotheek van de Aanbieding.
+description: Meer informatie over de gebruikersinterface van de Bibliotheek van de Aanbieding
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: e55aecf274e2f5fbb696cc112dfb4428848d36d5
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Klik op de knop **[!UICONTROL View all]** om tot de aanbieding, inzameling, of b
 
 ![](../../assets/overview_view-all.png)
 
-## Informatie zoeken en filteren
+## Informatie zoeken en filteren {#search-and-filter-information}
 
 Gebruik de **zoekbalk** om een specifiek item te zoeken.
 
@@ -77,7 +77,7 @@ Gebruik de **zoekbalk** om een specifiek item te zoeken.
 
 ![](../../assets/filters.png)
 
-## Weergegeven gegevens aanpassen
+## Weergegeven gegevens aanpassen {#customize-displayed-information}
 
 De lijsten van de menu&#39;s van het Beheer van het Besluit kunnen worden gepersonaliseerd gebruikend de configuratieknoop op het hoogste recht van de lijsten.
 
@@ -87,7 +87,7 @@ Merk op dat de kolomaanpassing voor elke gebruiker wordt bewaard.
 
 ![](../../assets/columns.png)
 
-## Informatievenster
+## Informatievenster {#information-pane}
 
 Selecteer in de verschillende lijsten een element om een informatievenster weer te geven waarmee u informatie kunt ophalen en basishandelingen op het element kunt uitvoeren.
 

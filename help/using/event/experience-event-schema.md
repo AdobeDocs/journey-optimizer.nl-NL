@@ -6,20 +6,20 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 0%
 
 ---
 
-# Over ExperienceEvent-schema&#39;s voor [!DNL Journey Optimizer] Gebeurtenissen
+# Over ExperienceEvent-schema&#39;s voor [!DNL Journey Optimizer] Gebeurtenissen {#about-experienceevent-schemas}
 
 [!DNL Journey Optimizer] Gebeurtenissen zijn XDM Experience Events die via Streaming Ingestie naar Adobe Experience Platform worden verzonden.
 
 Een belangrijke voorwaarde voor het instellen van gebeurtenissen voor [!DNL Journey Optimizer] is dat u bekend bent met het gegevensmodel van de Ervaring van Adobe Experience Platform (of XDM) en hoe te om de schema&#39;s van de Gebeurtenis van de Ervaring XDM samen te stellen, evenals hoe te om XDM-Geformatteerde gegevens aan Adobe Experience Platform te stromen.
 
-## Schemavereisten voor [!DNL Journey Optimizer] Gebeurtenissen
+## Schemavereisten voor [!DNL Journey Optimizer] Gebeurtenissen  {#schema-requirements}
 
 De eerste stap bij het instellen van een gebeurtenis voor [!DNL Journey Optimizer] moet ervoor zorgen dat u een XDM-schema hebt dat wordt bepaald om de gebeurtenis te vertegenwoordigen, en een dataset die wordt gecreeerd om instanties van de gebeurtenis op Adobe Experience Platform te registreren. Het hebben van een dataset voor uw gebeurtenissen is niet strikt noodzakelijk, maar het verzenden van de gebeurtenissen naar een specifieke dataset zal u toestaan om gebruikers&#39; gebeurtenisgeschiedenis voor toekomstige verwijzing en analyse te handhaven, zodat is het altijd een goed idee. Als u nog geen geschikt schema en een geschikte dataset voor uw gebeurtenis hebt, kunnen beide taken in de Webinterface van Adobe Experience Platform worden gedaan.
 

@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: eecf878334b22f82d75fdf7b7240475d695414d7
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Syntaxis van geavanceerde expressie-editor {#syntax}
 
-## Haakjes en prioriteit van expressie{#section_edf_fks_bgb}
+## Haakjes en prioriteit van expressie{#parentheses-and-expression-priority}
 
 U kunt ronde haakjes gebruiken om een complexe expressie leesbaarder te maken. _(&lt;expression>)_ is het equivalent van _&lt;expression>_. Het haakje kan ook worden gebruikt om de evaluatievolgorde en de associatie te bepalen.
 
@@ -28,7 +28,7 @@ De expressies worden van links naar rechts geëvalueerd. De associatie bij reken
 | `4 + 2 * 10` | <ul><li>&#39;*&#39; heeft voorrang op &#39;+&#39;: 2 * 10 wordt geëvalueerd → 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>De haakjes wijzigen de prioriteit: (4 + 2) wordt geëvalueerd → 6</li><li> 6 * 10 → 60</li></ul> |
 
-## Hoofdlettergevoeligheid{#section_lrb_xh5_dgb}
+## Hoofdlettergevoeligheid{#case-sensitivity}
 
 Hier volgen de verschillende regels voor hoofdlettergevoeligheid:
 
@@ -36,7 +36,7 @@ Hier volgen de verschillende regels voor hoofdlettergevoeligheid:
 * Alle functienamen zijn hoofdlettergevoelig. Bijvoorbeeld: _inSegment()_ is geldig terwijl de functie _INSEGMENT()_ is niet.
 * Veldverwijzingen en constante waarden zijn hoofdlettergevoelig: zij zijn geen ingebouwde elementen van de taal (in tegenstelling tot exploitanten en functies), zij worden ontworpen door de eindgebruiker.
 
-## Type geretourneerde expressie{#section_gyc_435_53b}
+## Type geretourneerde expressie{#returned-expression-type}
 
 Afhankelijk van de context van het gebruik, kan de uitdrukkingsredacteur verschillende waarden terugkeren.
 

@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 4e3239a073f23505c79e98943d1f8bf6b7a8d363
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 3%
 
 ---
 
-# Trainingsrapporten maken{#design-jo-reports}
+# Trainingsrapporten maken {#design-jo-reports}
 
 Naast [real-time rapporten](live-report.md) en ingebouwde [algemene rapportagemogelijkheden](global-report.md), [!DNL Journey Optimizer] kunnen automatisch gegevens over de reisprestaties naar Adobe Experience Platform sturen, zodat deze voor analysedoeleinden met andere gegevens kunnen worden gecombineerd.
 
@@ -58,7 +58,7 @@ De lijsten van XDM gebieden die tot Adobe Experience Platform worden overgegaan 
 
 Kijk hier voor meer informatie over step-gebeurtenissen die aan Adobe Experience Platform worden gerapporteerd [zelfstudievideo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target=&quot;_blank&quot;}.
 
-## Integratie met de Analitycs van de Reis van de Klant{#integration-cja}
+## Integratie met de Analitycs van de Reis van de Klant {#integration-cja}
 
 Journey Optimizer step-gebeurtenissen kunnen worden gekoppeld aan andere datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). Hier volgt de algemene workflow:
 

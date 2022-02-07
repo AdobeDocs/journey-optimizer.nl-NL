@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 3%
 
 ---
 
-# Een tag verwijderen
+# Een tag verwijderen {#delete-tag}
 
 Soms is het nodig om een tag te verwijderen (DELETE). Alleen tags die u maakt in de container van de huurder, kunnen worden verwijderd. Dit wordt gedaan door een verzoek van de DELETE aan uit te voeren [!DNL Offer Library] API die $id gebruikt van de tag die u wilt verwijderen.
 

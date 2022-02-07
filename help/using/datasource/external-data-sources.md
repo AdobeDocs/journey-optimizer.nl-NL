@@ -6,14 +6,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: bcc77934464b6211cbb03e8830b456ecc157cb80
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 88%
 
 ---
 
-# Externe databronnen {#concept_t2s_kqt_52b}
+# Externe databronnen {#external-data-sources}
 
 Met externe databronnen kunt u een verbinding maken met externe systemen, bijvoorbeeld als u een hotelboekingssysteem gebruikt om te controleren of de persoon een kamer heeft besproken. In tegenstelling tot de ingebouwde databron van het Adobe Experience Platform kunt u zoveel externe databronnen maken als u wilt.
 
@@ -53,7 +53,7 @@ Hier volgen de belangrijkste stappen voor het maken en configureren van een nieu
 
    ![](../assets/journey27.png)
 
-1. Configureer de verificatie volgens de configuratie van de externe service: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** of **[!UICONTROL API key]**. Voor meer informatie over de wijze van de douaneauthentificatie, zie [deze sectie](../datasource/external-data-sources.md#section_wjp_nl5_nhb). In ons voorbeeld kiezen we:
+1. Configureer de verificatie volgens de configuratie van de externe service: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** of **[!UICONTROL API key]**. Voor meer informatie over de wijze van de douaneauthentificatie, zie [deze sectie](../datasource/external-data-sources.md#custom-authentication-mode). In ons voorbeeld kiezen we:
 
    * **[!UICONTROL Type]**: ‘API-sleutel’
    * **[!UICONTROL Name]**: ‘appid’ (dit is de parameternaam van de API-sleutel)
@@ -87,7 +87,7 @@ Klik op **[!UICONTROL Save]**.
 
 De databron is nu geconfigureerd en klaar om te worden gebruikt in uw journey’s, bijvoorbeeld in uw voorwaarden of om een e-mail te personaliseren. Als de temperatuur boven 30 °C ligt, kunt u besluiten een bepaalde mededeling te sturen.
 
-## Aangepaste verificatiemodus{#section_wjp_nl5_nhb}
+## Aangepaste verificatiemodus{#custom-authentication-mode}
 
 >[!CONTEXTUALHELP]
 >id="jo_authentication_payload"

@@ -8,7 +8,7 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 0%
@@ -23,15 +23,15 @@ Beginnen met het maken van inhoud voor uw landing [primaire pagina](create-lp.md
 
 Vanaf dat punt kunt u:
 
-* **Ontwerp uw openingspagina helemaal** via de interface van de inhoudsontwerper en met behulp van afbeeldingen van [Adobe Experience Manager Assets Essentials](../assets-essentials.md). Leer hoe u uw inhoud ontwerpt of ingebouwde sjablonen gebruikt [in deze sectie](../create-email-content.md).
+* **Ontwerp uw openingspagina helemaal** via de interface van de inhoudsontwerper en met behulp van afbeeldingen van [Adobe Experience Manager Assets Essentials](../messages/assets-essentials.md). Leer hoe u uw inhoud ontwerpt of ingebouwde sjablonen gebruikt [in deze sectie](../messages/create-email-content.md).
 
-* **Code of paste raw HTML** rechtstreeks in de inhoudsontwerper. Leer hoe u uw eigen inhoud codeert [in deze sectie](../existing-content.md#import-raw-html-code).
+* **Code of paste raw HTML** rechtstreeks in de inhoudsontwerper. Leer hoe u uw eigen inhoud codeert [in deze sectie](../messages/existing-content.md#import-raw-html-code).
 
-* **Bestaande HTML-inhoud importeren** uit een bestand of een ZIP-map. Leer hoe u inhoud importeert [in deze sectie](../existing-content.md#import-html-content-from-file).
+* **Bestaande HTML-inhoud importeren** uit een bestand of een ZIP-map. Leer hoe u inhoud importeert [in deze sectie](../messages/existing-content.md#import-html-content-from-file).
 
 >[!NOTE]
 >
->De ontwerper van de landingspagina-inhoud is meestal vergelijkbaar met de ontwerper van de e-mail. Meer informatie over [inhoud ontwerpen met [!DNL Journey Optimizer]](../design-emails.md).
+>De ontwerper van de landingspagina-inhoud is meestal vergelijkbaar met de ontwerper van de e-mail. Meer informatie over [inhoud ontwerpen met [!DNL Journey Optimizer]](../messages/design-emails.md).
 
 ## Paginaspecifieke inhoud definiëren {#define-lp-specific-content}
 
@@ -120,7 +120,7 @@ Volg onderstaande stappen om specifieke inhoud te definiëren waarmee gebruikers
 
    ![](../assets/lp_designer-form-style-buttons.png)
 
-   U kunt een voorvertoning van bepaalde instellingen, zoals de kleur van knoplabels op de muisaanwijzer, weergeven met de opdracht **[!UICONTROL Preview]** knop. Meer informatie over het testen van bestemmingspagina&#39;s [hier](create-lp.md#test).
+   U kunt een voorvertoning van bepaalde instellingen, zoals de kleur van knoplabels op de muisaanwijzer, weergeven met de opdracht **[!UICONTROL Preview]** knop. Meer informatie over het testen van bestemmingspagina&#39;s [hier](create-lp.md#test-landing-page).
 
    ![](../assets/lp_designer-form-style-buttons-preview.png)
 

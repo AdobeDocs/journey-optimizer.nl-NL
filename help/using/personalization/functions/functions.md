@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 94dcf91e98ef343eed4c69a7251427809eece236
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 2%
@@ -119,7 +119,7 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
 </table>
 </table>
 
-### Kaartfuncties
+### Kaartfuncties {#map-functions}
 
 <table>
     <tr>
@@ -144,7 +144,7 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
     </tr>
 </table>
 
-### Tekenreeksfuncties
+### Tekenreeksfuncties {#string-functions}
 
 <table>
     <tr>
@@ -280,7 +280,7 @@ Rekenkundige functies worden gebruikt voor het uitvoeren van basisberekeningen o
 </table>
 
 
-### Booleaanse functies
+### Booleaanse functies {#boolean-functions}
 
 Booleaanse functies worden gebruikt voor het uitvoeren van Booleaanse logica op verschillende elementen.
 
@@ -300,7 +300,7 @@ Booleaanse functies worden gebruikt voor het uitvoeren van Booleaanse logica op 
 </table>
 
 
-### Vergelijkingsfuncties
+### Vergelijkingsfuncties {#comparison-functions}
 
 Vergelijkingsfuncties worden gebruikt om verschillende expressies en waarden met elkaar te vergelijken en om waar of onwaar overeenkomstig te retourneren.
 

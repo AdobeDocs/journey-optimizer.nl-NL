@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 701b8a46b5f22c31bee479ddfb63f8e399cee4a1
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 6%
 
 ---
 
-# Een persoonlijke aanbieding maken
+# Een persoonlijke aanbieding maken {#create-personalized-offer}
 
 Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
 
 U kunt een gepersonaliseerde aanbieding tot stand brengen door een verzoek van de POST aan [!DNL Offer Library] API, terwijl u uw container-id opgeeft.
 
-## Kopteksten van het type Inhoud accepteren
+## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
 In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
 

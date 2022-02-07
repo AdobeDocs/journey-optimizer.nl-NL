@@ -1,29 +1,19 @@
 ---
 title: IP-pools maken
 description: '"Leer hoe u ip-pools beheert"'
-page-status-flag: never-activated
-uuid: null
-contentOwner: null
-products: null
-audience: administrators
-content-type: reference
-topic-tags: null
-discoiquuid: null
-internal: n
-snippet: y
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 7d7c1b72530d99b8cceb1067f2576ad66c0052a6
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
 
 ---
 
-# IP-pools maken
+# IP-pools maken {#create-ip-pools}
 
 ## Informatie over IP-pools {#about-ip-pools}
 
@@ -85,8 +75,6 @@ De update is onmiddellijk of asynchroon van kracht, afhankelijk van de IP pool d
 
 * Als de IP pool is **niet** geselecteerd in een berichtvoorinstelling, wordt de update onmiddellijk uitgevoerd (**[!UICONTROL Success]** status).
 * Als de IP pool **is** geselecteerd in een berichtvoorinstelling, kan de update 7 tot 10 werkdagen duren (**[!UICONTROL Processing]** status).
-
-<!--If a message preset has been associated with the IP pool, you first need to remove it before editing the IP pool. Once the your modifications have been done, you can associate the message preset again.-->
 
 Als u de updatestatus van de IP-pool wilt controleren, klikt u op de knop **[!UICONTROL More actions]** en selecteert u **[!UICONTROL Recent updates]**.
 

@@ -1,12 +1,12 @@
 ---
 title: Dataset met plaatsingen
-description: Deze sectie maakt een lijst van alle gebieden die in de uitgevoerde dataset voor plaatsingen worden gebruikt.
+description: Deze sectie maakt een lijst van alle gebieden die in de uitgevoerde dataset voor plaatsingen worden gebruikt
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 1%
@@ -29,14 +29,14 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 <!--A placement describes a location or place in a personalized message. It is used to set technical constraints for content that the personalization decision supplies. The placement also represents a request to produce certain types of metrics when an experience event is produced where this placement is involved. For instance, the placement facilitates a personalized clickable image inside an email shown to an end-user. The placement may for instance request from the assembled experience that the click on its image gets reported in an experience event with a metric https://ns.adobe.com/xdm/data/metrics/web/linkclicks and a reference to this placement.-->
 
-## Id
+## Id {#identifier}
 
 **Veld:** _id
 **Titel:** Id
 **Omschrijving:** Een unieke id voor de record.
 **Type:** string
 
-## _experience
+## _experience {#experience}
 
 **Veld:** _experience
 **Type:** object
@@ -85,7 +85,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 **Omschrijving:** Een toegewezen naam voor de plaatsing om naar het in menselijke interactie te verwijzen.
 **Type:** string
 
-## _repo
+## _repo {#repo}
 
 **Veld:** _repo
 **Type:** object

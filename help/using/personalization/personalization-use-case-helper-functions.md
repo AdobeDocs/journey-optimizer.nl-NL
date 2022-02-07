@@ -1,14 +1,14 @@
 ---
 title: '&Hoofdlettergebruik voor persoonlijke voorkeur; e-mail over verlaten van winkelwagen'
-description: Leer hoe u een bericht kunt personaliseren met behulp van hulpfuncties.
+description: Leer hoe u de hoofdtekst van een e-mailbericht kunt aanpassen met een kwestie van het type use.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1019'
 ht-degree: 2%
 
 ---
@@ -26,8 +26,8 @@ U gebruikt de volgende typen hulpfuncties:
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 Alvorens u begint, zorg ervoor u weet hoe te om deze elementen te vormen:
-* Een e-mailbericht. [Meer informatie](../create-message.md)
-* De hoofdtekst van een e-mail. [Meer informatie](../create-email-content.md).
+* Een e-mailbericht. [Meer informatie](../messages/create-message.md)
+* De hoofdtekst van een e-mail. [Meer informatie](../messages/create-email-content.md).
 * Een eenheidsgebeurtenis. [Meer informatie](../event/about-events.md).
 * Een reis die begint met een evenement. [Meer informatie](../building-journeys/using-the-journey-designer.md).
 
@@ -324,15 +324,15 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 1. Controleer of er geen fout is en publiceer de reis.
 
 
-## Verwante onderwerpen
+## Verwante onderwerpen {#related-topics}
 
-### Handbalken, functies
+### Handbalken, functies {#handlebars}
 
 * [Helpers](functions/helpers.md)
 
 * [Reeksfuncties](functions/string.md)
 
-### Gebruiksscenario’s
+### Gebruiksscenario’s {#use-case}
 
 * [Personalisatie met profielgegevens, context en aanbieding](personalization-use-case.md)
 

@@ -1,19 +1,19 @@
 ---
 title: Plaatsingen maken
-description: Leer hoe u plaatsingen maakt in Adobe Experience Platform.
+description: Leer hoe u plaatsingen voor uw aanbiedingen kunt maken
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '214'
 ht-degree: 4%
 
 ---
 
-# Plaatsingen maken {#creating-placements}
+# Plaatsingen maken {#create-placements}
 
 Een plaatsing helpt ervoor te zorgen dat de juiste aanbiedingsinhoud op de juiste plaats binnen uw bericht verschijnt. Wanneer u inhoud aan een aanbieding toevoegt, wordt u gevraagd een plaatsing te selecteren waarin die inhoud kan worden weergegeven.
 

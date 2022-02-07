@@ -1,19 +1,19 @@
 ---
 title: Aan de slag met Beslissingsbeheer
-description: Aan de slag met Beslissingsbeheer. Meer informatie over de architectuur, aanbiedingen en beslissingen en over veelvoorkomende gebruiksgevallen die u kunt uitvoeren.
+description: Aan de slag met Beslissingsbeheer. Meer informatie over de architectuur, aanbiedingen en beslissingen en over veelvoorkomende gebruiksgevallen die u kunt uitvoeren
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: f186eeb09e9f9e0b8094baa8038ab0298b7e5148
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 45%
 
 ---
 
-# Over Besluitbeheer {#about-offer-decision}
+# Over Besluitbeheer {#about-decision-management}
 
 Gebruiken [!DNL Journey Optimizer] om uw klanten de beste aanbieding en ervaring op alle aanraakpunten op het juiste moment te bieden. Als u ze eenmaal hebt ontworpen, richt u zich op uw publiek met persoonlijke aanbiedingen.
 
@@ -36,7 +36,7 @@ Voordelen zijn:
 
 ➡️ [Bekijk deze zelfstudievideo&#39;s](#tutorial-videos) voor meer informatie over het beheer van besluiten.
 
-## Aanbiedingen en beslissingen {#offers-offer-activities}
+## Aanbiedingen en beslissingen {#about-offers-and-decisions}
 
 Een **Aanbieding** bestaat uit content, geschiktheidsregels en restricties die de voorwaarden bepalen waaronder deze aan uw klanten wordt gepresenteerd.
 
@@ -48,7 +48,7 @@ Zodra de bibliotheek met aanbiedingen is verrijkt, kunt u uw aanbiedingen integr
 
 Besluiten zijn containers voor uw aanbiedingen die gebruikmaken van de Offertenbeslissingsengine om de beste aanbieding te kiezen, afhankelijk van het doel van de levering.
 
-## Vaak voorkomende gebruiksscenario&#39;s
+## Vaak voorkomende gebruiksscenario&#39;s {#common-use-cases}
 
 Dankzij de mogelijkheden voor Beslissingsbeheer en de integratie met Adobe Experience Platform kunt u tal van gebruiksgevallen verwerken om u te helpen de betrokkenheid en conversie van klanten te vergroten.
 

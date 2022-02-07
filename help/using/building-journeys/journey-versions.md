@@ -6,14 +6,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: 967772bcf7413c4c916d045375a84807581ea6ae
+source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
 
 ---
 
-# Journeyversies{#concept_ldc_k55_zgb}
+# Journeyversies{#journey-versions}
 
 In de reislijst, worden alle reisversies getoond met het versieaantal. Zie [deze pagina](../building-journeys/using-the-journey-designer.md).
 
@@ -25,7 +25,7 @@ Als u zich aan een levende reis moet aanpassen, moet u een nieuwe versie van uw 
 
 >[!NOTE]
 >
->Voor meer informatie over beperkingen van reisversies raadpleegt u [deze pagina](../limitations.md#journey-versions-limitations)
+>Voor meer informatie over beperkingen van reisversies raadpleegt u [deze pagina](../start/limitations.md#journey-versions-limitations)
 
 1. Open de nieuwste versie van uw livereis en klik op **[!UICONTROL Create a new version]** en bevestigen.
 

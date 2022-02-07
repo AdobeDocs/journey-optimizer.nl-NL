@@ -1,19 +1,19 @@
 ---
-title: Lijst met gebeurtenisvelden
-description: Lijst met gebeurtenisvelden
+title: Lijst met gebeurtenisvelden voor stappen
+description: Lijst met gebeurtenisvelden voor stappen
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: f0c5b42984b76fee005fe0c0e10312d47f9d10e8
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 8%
+ht-degree: 12%
 
 ---
 
-# Lijst met gebeurtenisvelden {#sharing-field-list}
+# Lijst met gebeurtenisvelden voor stappen {#sharing-field-list}
 
 De gebeurtenisgebieden van de stap worden georganiseerd door categorie.
 
@@ -22,13 +22,13 @@ De gebeurtenisgebieden van de stap worden georganiseerd door categorie.
 * Profielvelden
 * Gebeurtenisvelden Service
 
-## debugInfo
+## debugInfo {#debuginfo-field}
 
 | Veldnaam | Type | Beschrijving |
 |---|---|------------|
 | requestId | Tekenreeks | De verzoekId door Journey Orchestration wordt gebruikt om de stroom van een verzoek te volgen die. |
 
-## reis
+## reis {#journey-field}
 
 Deze veldgroep wordt gebruikt in het reisschema (met betrekking tot tripStepEvent). Het bevat de volgende velden:
 
@@ -40,7 +40,7 @@ Deze veldgroep wordt gebruikt in het reisschema (met betrekking tot tripStepEven
 | beschrijving | Tekenreeks | Beschrijving van de reis |
 | versie | Tekenreeks | versie, weergegeven als `major`.`minor` |
 
-## profiel
+## profiel {#profile-field}
 
 Deze veldgroep is specifiek voor tripStepEvent: Deze gebeurtenis is gerelateerd aan de rit en heeft niet de identityMap, waarin de eventuele profielidentiteit wordt beschreven.
 
@@ -51,7 +51,7 @@ Voor tripStepEvent, moeten wij gebieden met betrekking tot de identiteit ook toe
 | Id | Tekenreeks | De profiel-id identificeert het profiel dat tijdens een reis is verzonden/gebruikt. Bijvoorbeeld: foo@adobe.com. |
 | namespace | Tekenreeks | In dit veld wordt de naamruimte beschreven waarnaar wordt verwezen door het profiel dat wordt gebruikt in Journey. Bijvoorbeeld: E-mail, ECID |
 
-## serviceEvents
+## serviceEvents {#servicevents-field}
 
 Deze mix bevat alle velden die overeenkomen met een profielexporttaak.
 
@@ -66,6 +66,6 @@ Deze mix bevat alle velden die overeenkomen met een profielexporttaak.
 | eventType | Tekenreeks | Het gebeurtenistype dat aangeeft of het een foutgebeurtenis van een info-gebeurtenis is: Info, fout |
 | eventCode | Tekenreeks | De foutcode die de reden voor het overeenkomende eventType aangeeft |
 
-## stepEvents
+## stepEvents {#stepevents-field}
 
 Deze categorie bevat de oorspronkelijke velden voor stapgebeurtenissen. Zie dit [sectie](../reports/sharing-legacy-fields.md).

@@ -1,12 +1,12 @@
 ---
 title: Validatie van personalisatie
-description: Meer informatie over validatie van personalisatie en hoe u problemen kunt oplossen
+description: Leer meer over verpersoonlijkingsbevestiging en hoe te om problemen op te lossen.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Validatie van personalisatie {#personalization-validation}
 
-## Validatiemechanismen
+## Validatiemechanismen {#validation-mechanisms}
 
 In de **Expressieeditor** scherm, gebruik **Valideren** om uw personalisatiesyntaxis te controleren.
 
@@ -27,7 +27,7 @@ In de **Expressieeditor** scherm, gebruik **Valideren** om uw personalisatiesynt
 >[!IMPORTANT]
 > Als de verpersoonlijkingssyntaxis ongeldig is, kunt u niet het venster van de uitdrukkingsredacteur sluiten.
 
-## Veelvoorkomende fouten
+## Veelvoorkomende fouten {#common-errors}
 
 * **Pad &quot;XYZ&quot; niet gevonden**
 
@@ -67,7 +67,7 @@ Handlebars-expressies worden omringd met **{{expression}**
 No segment definition found for 988afe9f0-d4ae-42c8-a0be-8d90e66e151
 ```
 
-## Specifieke fouten met betrekking tot aanbiedingen
+## Specifieke fouten met betrekking tot aanbiedingen {#specific-errors}
 
 De fouten met betrekking tot aanbiedingen integratie in een E-mail of Duw bericht hebben het volgende patroon:
 

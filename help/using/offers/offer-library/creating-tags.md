@@ -1,19 +1,19 @@
 ---
 title: Tags maken
-description: Leer hoe je aanbiedingen kunt maken in Adobe Experience Platform.
+description: Leer hoe u labels voor uw aanbiedingen maakt
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '161'
 ht-degree: 5%
 
 ---
 
-# Tags maken {#creating-tags}
+# Tags maken {#create-tags}
 
 Door tags aan uw aanbiedingen te koppelen, kunt u deze eenvoudiger organiseren. U kunt bijvoorbeeld de tag &#39;Zwarte vrijdag&#39; gebruiken voor uw aanbiedingen op de zwarte vrijdag. Vervolgens kunt u met de zoekfunctionaliteit in de bibliotheek met aanbiedingen alle aanbiedingen met die tag gemakkelijk vinden.
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Dit zijn de gemeenschappelijke gebieden XDM die [!DNL Journey Optimizer] naar Ad
 
 Sommige van deze velden zijn alleen beschikbaar in specifieke verwerkingspatronen (uitvoering van handelingen, ophalen van gegevens, enz.) om de omvang van gebeurtenissen te beperken.
 
-## ingang
+## ingang {#entrance-field}
 
 Geeft aan of de gebruiker de reis heeft betreden. Als dit niet het geval is, gaan we ervan uit dat de waarde onwaar is.
 
@@ -29,7 +29,7 @@ Type: boolean
 
 Waarden: true/false
 
-## intrede
+## intrede {#reentrance-field}
 
 Geeft aan of de gebruiker de reis opnieuw is gestart met hetzelfde exemplaar. Als dit niet het geval is, gaan we ervan uit dat de waarde onwaar is.
 
@@ -37,37 +37,37 @@ Type: boolean
 
 Waarden: true/false
 
-## instanceEnded
+## instanceEnded {#instance-ended-field}
 
 Geeft aan of de instantie is beëindigd (geslaagd of niet).
 
 Type: boolean
 
-## eventID
+## eventID {#eventid-field}
 
 Gebeurtenis-id tijdens de verwerking, voor de stapverwerking. Als de gebeurtenis een externe gebeurtenis is, is de waarde eventId. Als de gebeurtenis een interne gebeurtenis is, is de waarde de interne eventId (zoals scheduledNotificationReceived, executedAction, enz.).
 
 Type: string
 
-## nodeID
+## nodeID {#nodeid-field}
 
 Client node id (vanaf het canvas).
 
 Type: string
 
-## stepID
+## stepID {#stepdid-field}
 
 Unieke id van de stap die momenteel wordt verwerkt.
 
 Type: string
 
-## stepName
+## stepName {#stepname-field}
 
 Naam van de stap die momenteel wordt verwerkt.
 
 Type: string
 
-## stepType
+## stepType {#steptype-field}
 
 Type van de stap.
 
@@ -80,7 +80,7 @@ Mogelijke waarden:
 * Planner
 * Timer
 
-## stepStatus
+## stepStatus {#stepstatus-field}
 
 Status van de stap die de status van de stap vertegenwoordigt, wanneer de verwerking ervan is uitgevoerd (en de stapgebeurtenis is geactiveerd).
 
@@ -95,79 +95,79 @@ De status kan zijn:
 * timedout: de stap is mislukt op een time-outfout die tijdens een handeling of verrijking is opgetreden.
 * instanceTimeout: de stap heeft de verwerking gestopt, omdat de instantie de time-out heeft bereikt.
 
-## tripID
+## tripID {#journeyid-field}
 
 ID van de reis.
 
 Type: string
 
-## tripVersionID
+## tripVersionID {#journeyversionid-field}
 
 ID van de reisversie. Deze id vertegenwoordigt de identiteitsverwijzing naar de reis, in het geval van de tripStepEvent.
 
 Type: string
 
-## tripVersionName
+## tripVersionName {#journeyversionname-field}
 
 Naam van de reisversie.
 
 Type: string
 
-## tripVersion
+## tripVersion {#journeyversion-field}
 
 Versie van de reisversie.
 
 Type: string
 
-## instanceID
+## instanceID {#instanceid-field}
 
 Interne id van het reisexemplaar.
 
 Type: string
 
-## externalKey
+## externalKey {#externalkey-field}
 
 Externe sleutel die uit de gebeurtenis is geëxtraheerd om deze te verwerken.
 
 Type: string
 
-## parentStepID
+## parentStepID {#parenstepid-field}
 
 Stap-id van het bovenliggende element van de huidige verwerkte stap in de instantie.
 
 Type: string
 
-## parentStepName
+## parentStepName {#parentstepname-field}
 
 De naam van de stap van het bovenliggende element van de huidige stap.
 
 Type: string
 
-## parentTransitionID
+## parentTransitionID {#parenttransitionid-field}
 
 Id van de overgang die de instantie naar de verwerkte stap heeft gebracht.
 
 Type: string
 
-## parentTransitionName
+## parentTransitionName {#parenttransitionname-field}
 
 Naam van de overgang die de instantie aan de verwerkte stap heeft gebracht.
 
 Type: string
 
-## inTest
+## inTest {#intest-field}
 
 Vermeld of deze reis in testmodus staat of niet.
 
 Type: boolean
 
-## processingTime
+## processingTime {#processingtime-field}
 
 Totale hoeveelheid tijd in milliseconden van de ingang van de instantiestappen aan het eind van de verwerking.
 
 Type: lang
 
-## instanceType
+## instanceType {#instancetype-field}
 
 Hiermee wordt het instantietype aangegeven als het een batch of eenheidsinstantie is.
 
@@ -175,31 +175,31 @@ Type: string
 
 Waarden: partij/eenheid
 
-## recienceIndex
+## recienceIndex {#recurrenceindex-field}
 
 Index van de herhaling als de reis partij en terugkerend is (eerste looppas heeft terugkerendIndex = 1).
 
 Type: lang
 
-## isBatchToUnitary
+## isBatchToUnitary {#isbatchtounitary-field}
 
 Geeft aan of deze eenheidsinstantie is geactiveerd door een batchinstantie.
 
 Type: boolean
 
-## batchExternalKey
+## batchExternalKey {#batchexternalkey-field}
 
 External Key for batch event.
 
 Type: string
 
-## batchInstanceID
+## batchInstanceID {#batchinstanceid-field}
 
 this is the batch instance ID.
 
 Type: string
 
-## batchUnitaryBranchID
+## batchUnitaryBranchID {#batchunitarybranchid-field}
 
 als de instantie is geactiveerd door een batchinstantie, is dit de eenheidvertakkings-id.
 

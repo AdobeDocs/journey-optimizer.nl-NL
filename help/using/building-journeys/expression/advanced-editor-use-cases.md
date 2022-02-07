@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: eaa2cbad00fbbfade7ba98cf830f945e032f03d1
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 2%
 
 ---
 
-# Geavanceerde expressievoorbeelden
+# Geavanceerde expressievoorbeelden{#advanced-expression-examples}
 
 De Geavanceerde uitdrukkingsredacteur kan worden gebruikt om voorwaarden tot stand te brengen om u toe te staan om gebruikers in uw reizen te filtreren. Met deze voorwaarden kunt u zich richten op gebruikers op tijd, datum, locatie, duur of acties zoals het kopen of verlaten van winkelwagentjes, zodat ze tijdens de reis opnieuw op de doelgroep kunnen worden geplaatst.
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 4%
@@ -19,37 +19,37 @@ Deze veldgroep wordt gedeeld door de tripStepEvent en de tripStepProfileEvent.
 
 Als in de stap een actie moet worden verwerkt, worden die velden toegevoegd aan de gebeurtenislading.
 
-## actionID
+## actionID {#actionid-field}
 
 Id van de handeling die wordt uitgevoerd.
 
 Type: string
 
-## actionName
+## actionName {#actionname-field}
 
 Naam van de handeling. Als er geen naam is ingesteld, wordt de stepName uitgevoerd.
 
 Type: string
 
-## actionType
+## actionType {#actionType-field}
 
 Type handeling.
 
 Type: string
 
-## actionParameterized
+## actionParameterized {#actionparameterized-field}
 
 Hiermee wordt aangegeven of de handeling al dan niet wordt geparametriseerd.
 
 Type: boolean
 
-## actionExecutionTime
+## actionExecutionTime {#actionexecutiontime-field}
 
 De hoeveelheid tijd (in milliseconden) die is besteed aan het uitvoeren van een huidige handeling.
 
 Type: lang
 
-## actionExecutionError
+## actionExecutionError {#actionexecutionerror-field}
 
 Type fout dat optreedt wanneer de handeling wordt aangeroepen.
 
@@ -61,13 +61,13 @@ Waarden:
 * timeout
 * error
 
-## actionExecutionErrorCode
+## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
 Code voor uitvoeringsfout van handeling. Wordt weergegeven als de fout een code heeft, zoals een HTTP-code.
 
 Type: string
 
-## actionExecutionOriginError
+## actionExecutionOriginError {#actionexecutionoriginerror-field}
 
 Een time-out kan in twee gevallen optreden:
 
@@ -89,13 +89,13 @@ Er wordt bijvoorbeeld een e-mail verzonden en er wordt een HTTP 500-fout geretou
 
 Type: string
 
-## actionExecutionOriginCode
+## actionExecutionOriginCode {#actionexecutionorigincode-field}
 
 Foutcode van de actionExecOrigError.
 
 Type: string
 
-## actionBusinessType
+## actionBusinessType {#actionbusinesstype-field}
 
 Geeft het type actie aan.
 
@@ -111,25 +111,25 @@ Waarden:
 
 Type: string
 
-## deliveryJobID
+## deliveryJobID {#deliveryjobid-field}
 
 Dit beschrijft de identiteitskaart van de leveringstaak voor de partijreis.
 
 Type: string
 
-## batchDeliveryID
+## batchDeliveryID {#batchdeliveryid-field}
 
 Dit beschrijft leveringsId voor de partijreis.
 
 Type: string
 
-## fromSegmentTrigger
+## fromSegmentTrigger {#fromsegmenttrigger-field}
 
 Dit beschrijft als de Reis van de Partij van het Segment van het Publiek wordt teweeggebracht.
 
 Type: boolean
 
-## actionSchedulerCount
+## actionSchedulerCount {#actionschedulercount-field}
 
 Aantal verzoeken van het plannerbericht die naar de plannerdienst tijdens de stapverwerking worden verzonden.
 

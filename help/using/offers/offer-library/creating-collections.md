@@ -1,19 +1,19 @@
 ---
 title: Verzamelingen maken
-description: Leer hoe u aanbiedingen kunt organiseren met gebruik van verzamelingen.
+description: Leer hoe u aanbiedingen kunt organiseren met gebruik van verzamelingen
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
 
 ---
 
-# Verzamelingen maken {#creating-collections}
+# Verzamelingen maken {#create-collections}
 
 Met verzamelingen kunt u uw aanbiedingen ordenen door deze te hergroeperen in categorieën van uw keuze. U kunt bijvoorbeeld een &quot;sport&quot;-collectie maken die alleen sportgerelateerde aanbiedingen bevat.
 

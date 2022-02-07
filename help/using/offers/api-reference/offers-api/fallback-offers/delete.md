@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 6%
 
 ---
 
-# Een alternatieve aanbieding verwijderen
+# Een alternatieve aanbieding verwijderen {#delete-fallback-offer}
 
 Het kan soms nodig zijn om (DELETE) een terugvalaanbieding te verwijderen. Alleen fallback-aanbiedingen die u in de huurderscontainer maakt, kunnen worden verwijderd. Dit wordt gedaan door een verzoek van de DELETE aan uit te voeren [!DNL Offer Library] API gebruikt $id van de fallback-aanbieding die u wilt verwijderen.
 

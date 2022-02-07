@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 2c27942ece935c715ed2dea4d998705224a75089
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
 source-wordcount: '1597'
 ht-degree: 2%
 
 ---
 
-# Journey testen{#testing_the_journey}
+# Uw reis testen{#testing_the_journey}
 
-Voordat u uw reis kunt testen, moet u alle eventuele fouten oplossen. Zie [deze sectie](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb).
+Voordat u uw reis kunt testen, moet u alle eventuele fouten oplossen. Zie [deze sectie](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 U kunt uw reis testen voordat deze wordt gepubliceerd, met behulp van testprofielen. Dit staat u toe om te analyseren hoe de individuen in de reis stromen en problemen vóór publicatie oplossen.
 
@@ -23,7 +23,7 @@ Alleen testprofielen kunnen een reis maken in de testmodus. U kunt een nieuw tes
 
 Voer de volgende stappen uit om de testmodus te gebruiken:
 
-1. Controleer voordat u de reis test of deze geldig is en of er geen fout optreedt. U kunt een test van een reis met fouten niet starten. Zie [deze sectie](../building-journeys/troubleshooting.md#section_h3q_kqk_fhb). Er wordt een waarschuwingssymbool weergegeven wanneer er fouten optreden.
+1. Controleer voordat u de reis test of deze geldig is en of er geen fout optreedt. U kunt een test van een reis met fouten niet starten. Zie [deze sectie](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). Er wordt een waarschuwingssymbool weergegeven wanneer er fouten optreden.
 
 1. Als u de testmodus wilt activeren, klikt u op de knop **[!UICONTROL Test]** in de rechterbovenhoek.
 

@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 7%
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 # Operatoren {#operators}
 
-## Booleaanse functies
+## Booleaanse functies {#boolean-functions}
 
 Booleaanse functies worden gebruikt voor het uitvoeren van Booleaanse logica op verschillende elementen.
 
@@ -80,7 +80,7 @@ not (homeAddress.countryISO = "CA")
 
 
 
-## Vergelijkingsfuncties
+## Vergelijkingsfuncties {#comparison-functions}
 
 Vergelijkingsfuncties worden gebruikt om verschillende expressies en waarden met elkaar te vergelijken en om waar of onwaar overeenkomstig te retourneren.
 

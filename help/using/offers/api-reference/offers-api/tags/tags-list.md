@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 2%
 
 ---
 
-# Tags weergeven
+# Tags weergeven {#list-tags}
 
 Met labels kunt u uw voorstellen beter organiseren en doorlopen. U kunt bijvoorbeeld de tag &#39;Zwarte vrijdag&#39; gebruiken voor uw aanbiedingen op de zwarte vrijdag. Vervolgens kunt u met de zoekfunctionaliteit in de bibliotheek met aanbiedingen alle aanbiedingen met die tag gemakkelijk vinden.
 
@@ -46,11 +46,11 @@ curl -X GET \
   -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-## Query-parameters gebruiken
+## Query-parameters gebruiken {#using-query-parameters}
 
 U kunt queryparameters gebruiken om de resultaten te filteren en te pagineren wanneer u bronnen weergeeft.
 
-### Paginering
+### Paginering {#paging}
 
 De gemeenschappelijkste vraagparameters voor het pagineren omvatten:
 

@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: a174944bb8efcb67d758d4fe215674c1b8bbee13
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 84%
+source-wordcount: '1041'
+ht-degree: 81%
 
 ---
 
-# Problemen oplossen{#concept_nlv_bcv_2fb}
+# Los uw reis problemen op{#troubleshooting}
 
 In deze sectie leert u hoe u problemen met journey’s kunt oplossen voordat u gaat testen of publiceren. Alle hieronder vermelde controles kunnen worden uitgevoerd in de testmodus van de journey of wanneer de journey live is. De aanbeveling is om alle onderstaande controles in de testmodus uit te voeren en vervolgens tot publicatie over te gaan. Zie [deze pagina](../building-journeys/testing-the-journey.md).
 
-## Controleren op fouten voordat wordt getest{#section_h3q_kqk_fhb}
+## Controleren op fouten voordat wordt getest{#checking-for-errors-before-testing}
 
 Controleer voordat u uw journey gaat testen en publiceren of alle activiteiten correct zijn geconfigureerd. U kunt geen tests of publicaties uitvoeren als het systeem nog steeds fouten detecteert.
 
@@ -41,7 +41,7 @@ Fouten en waarschuwingen die globaal zijn voor de journey, worden als eerste in 
 
 Wanneer er een fout in een actie of een voorwaarde optreedt, eindigt de journey van een individu. De enige manier om door te gaan is het selectievakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in te schakelen. Zie [deze sectie](../building-journeys/using-the-journey-designer.md#paths).
 
-## Controleren of gebeurtenissen correct zijn verzonden{#section_rqz_11t_dgb}
+## Controleren of gebeurtenissen correct zijn verzonden{#checking-that-events-are-properly-sent}
 
 Het startpunt van een journey is altijd een gebeurtenis. U kunt tests uitvoeren met tools zoals Postman.
 
@@ -49,7 +49,7 @@ U kunt controleren of de API-aanroep die u via deze tools verzendt, correct is v
 
 Gebeurtenissen worden niet rechtstreeks van de bron naar de ritten verplaatst. Reizen vertrouwen inderdaad op de streaming opname-API&#39;s van Adobe Experience Platform. Als u problemen hebt met gebeurtenissen, kunt u dus verwijzen naar [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;} voor het oplossen van problemen met opname-API&#39;s voor streaming.
 
-## Controleren of mensen de journey betreden{#section_x4v_zzs_dgb}
+## Controleren of mensen de reis betreden{#checking-if-people-enter-the-journey}
 
 Reisrapportage meet de toegang van mensen tot een reis in real-time.
 
@@ -69,7 +69,7 @@ Hier volgen een paar dingen die de beheerder moet controleren:
    Content-type - application/json
    ```
 
-## Controleren hoe mensen door de journey navigeren{#section_l5y_yzs_dgb}
+## Controleren hoe mensen door de reis navigeren{#checking-how-people-navigate-through-the-journey}
 
 De journalistiek meet de voortgang van individuen binnen een reis. Het is gemakkelijk te bepalen waar en waarom een persoon is gestopt.
 
@@ -78,7 +78,7 @@ Controleer bijvoorbeeld het volgende:
 * Komt het door een voorwaarde die de persoon uitsluit? De voorwaarde is bijvoorbeeld ‘geslacht = man’ en de persoon is een vrouw. Deze controle kan door een zakelijke gebruiker worden uitgevoerd als de voorwaarde niet te complex is.
 * Komt het doordat een aanroep aan een databron niet wordt beantwoord? Wanneer de journey in de testmodus verkeert, is deze informatie in testmoduslogboeken te zien. Wanneer de journey live is, kan een beheerder directe aanroepen aan de databron testen en het ontvangen antwoord controleren. Een beheerder kan de journey ook dupliceren en testen.
 
-## Controleren of berichten goed zijn verzonden{#section_qb1_yzs_dgb}
+## Controleren of berichten zijn verzonden{#checking-that-messages-are-sent-successfully}
 
 Als personen de juiste stroom in de journey volgen, maar geen berichten ontvangen die ze wel zouden moeten ontvangen, kunt u het volgende controleren:
 

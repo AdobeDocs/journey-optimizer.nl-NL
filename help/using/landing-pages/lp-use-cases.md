@@ -1,5 +1,5 @@
 ---
-title: Landing page use cases
+title: Gebruiksgevallen van landingspagina
 description: Ontdek de meest gebruikelijke gebruiksgevallen bij bestemmingspagina's in Journey Optimizer
 feature: Landing Pages
 topic: Content Management
@@ -8,7 +8,7 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Gebruiksgevallen van landingspagina {#lp-use-cases}
 
-Below are some examples of how you can use [!DNL Journey Optimizer] landing pages to have your customers opt in/out from receiving some or all of your communications.
+Hieronder ziet u enkele voorbeelden van het gebruik van [!DNL Journey Optimizer] het landen van pagina&#39;s om uw klanten te hebben binnen of uit van het ontvangen van wat of elk van uw mededelingen kiezen.
 
 <!--The main use cases are:
 * Subscription to a service
@@ -26,13 +26,13 @@ Below are some examples of how you can use [!DNL Journey Optimizer] landing page
 
 ## Abonnement op een service {#subscription-to-a-service}
 
-One of the most common use cases consists in inviting your customers to [subscribe to a service](subscription-list.md) (such as a newsletter or an event) through a landing page. De belangrijkste stappen worden weergegeven in de onderstaande grafiek:
+Een van de meest gebruikelijke gebruiksgevallen is het uitnodigen van uw klanten om [abonneren op een service](subscription-list.md) (zoals een nieuwsbrief of een gebeurtenis) door een landingspagina. De belangrijkste stappen worden weergegeven in de onderstaande grafiek:
 
 ![](../assets/lp_subscription-uc.png)
 
-For example, let&#39;s say you organize an event next month and you want to launch an event registration campaign<!--to keep your customers that are interested updated on that event-->. Hiervoor stuurt u een e-mail met een koppeling naar een bestemmingspagina waarmee uw ontvangers zich kunnen registreren voor deze gebeurtenis. De gebruikers die zich registreren, worden toegevoegd aan de abonnementenlijst die u voor dit doel hebt gemaakt.
+Stel bijvoorbeeld dat u volgende maand een gebeurtenis organiseert en een registratiecampagne voor een gebeurtenis wilt starten<!--to keep your customers that are interested updated on that event-->. Hiervoor stuurt u een e-mail met een koppeling naar een bestemmingspagina waarmee uw ontvangers zich kunnen registreren voor deze gebeurtenis. De gebruikers die zich registreren, worden toegevoegd aan de abonnementenlijst die u voor dit doel hebt gemaakt.
 
-### Startpagina instellen
+### Startpagina instellen {#set-up-lp}
 
 1. Maak de abonnementenlijst van de gebeurtenisregistratie, waarin de geregistreerde gebruikers worden opgeslagen. Leer hoe u een abonnementenlijst maakt [hier](subscription-list.md#define-subscription-list).
 
@@ -52,13 +52,13 @@ For example, let&#39;s say you organize an event next month and you want to laun
 
 1. [Publiceren](create-lp.md#publish) de openingspagina.
 
-1. [Een e-mailbericht maken](../create-message.md) om aan te geven dat de registratie nu geopend is voor uw gebeurtenis.
+1. [Een e-mailbericht maken](../messages/create-message.md) om aan te geven dat de registratie nu geopend is voor uw gebeurtenis.
 
-1. [Een koppeling invoegen](../message-tracking.md#insert-links) in uw berichtinhoud. Selecteren **[!UICONTROL Landing page]** als de **[!UICONTROL Link type]** en kiest u [landingspagina](create-lp.md#configure-primary-page) die u voor registratie hebt gemaakt.
+1. [Een koppeling invoegen](../messages/message-tracking.md#insert-links) in uw berichtinhoud. Selecteren **[!UICONTROL Landing page]** als de **[!UICONTROL Link type]** en kiest u [landingspagina](create-lp.md#configure-primary-page) die u voor registratie hebt gemaakt.
 
    ![](../assets/lp_subscription-uc-link.png)
 
-1. Sla uw inhoud op en [uw bericht publiceren](../publish-manage-message.md).
+1. Sla uw inhoud op en [uw bericht publiceren](../messages/publish-manage-message.md).
 
 1. Uw bericht verzenden via een [reis](../building-journeys/journey.md) om het verkeer naar de registratiepagina van de landing te leiden.
 
@@ -70,13 +70,13 @@ For example, let&#39;s say you organize an event next month and you want to laun
 
 Bovendien kunt u een bevestigingsbericht verzenden naar de ontvangers die zich hebben geregistreerd voor uw gebeurtenis. Hiervoor voert u de volgende stappen uit.
 
-1. Create another [journey](../building-journeys/journey.md). U kunt dit rechtstreeks vanaf de bestemmingspagina doen door op de knop **[!UICONTROL Create journey]** knop. Learn more [here](create-lp.md#configure-primary-page)
+1. Een andere maken [reis](../building-journeys/journey.md). U kunt dit rechtstreeks vanaf de bestemmingspagina doen door op de knop **[!UICONTROL Create journey]** knop. Meer informatie [hier](create-lp.md#configure-primary-page)
 
    ![](../assets/lp_subscription-uc-create-journey.png)
 
-1. Unfold the **[!UICONTROL Events]** category and drop a **[!UICONTROL Segment Qualification]** activity into your canvas. Meer informatie [hier](../building-journeys/segment-qualification-events.md)
+1. De **[!UICONTROL Events]** categorie en een **[!UICONTROL Segment Qualification]** op uw canvas. Meer informatie [hier](../building-journeys/segment-qualification-events.md)
 
-1. Click in the **[!UICONTROL Segment]** field and select the subscription list that you created.
+1. Klik in het dialoogvenster **[!UICONTROL Segment]** en selecteer de abonnementenlijst die u hebt gemaakt.
 
    ![](../assets/lp_subscription-uc-confirm-journey.png)
 
@@ -92,7 +92,7 @@ Alle gebruikers die zich voor uw gebeurtenis hebben geregistreerd, ontvangen het
 
 Om uw ontvangers in staat te stellen zich af te melden voor uw communicatie, kunt u een koppeling naar een bestemmingspagina opnemen in uw e-mails.
 
-Meer informatie over het beheren van de toestemming van uw ontvangers en waarom dit belangrijk is in [deze sectie](../consent.md).
+Meer informatie over het beheren van de toestemming van uw ontvangers en waarom dit belangrijk is in [deze sectie](../messages/consent.md).
 
 ### Uitschakelen, beheer {#opt-out-management}
 
@@ -107,7 +107,7 @@ Daarom moet u altijd een **afmelden, koppeling** in elke e-mail die naar ontvang
 
 Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zich af te melden voor uw communicatie via een bestemmingspagina.
 
-1. Create your landing page. [Meer informatie](create-lp.md)
+1. Maak uw openingspagina. [Meer informatie](create-lp.md)
 
 1. Definieer de primaire pagina. [Meer informatie](create-lp.md#configure-primary-page)
 
@@ -129,9 +129,9 @@ Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zi
 
    ![](../assets/lp_opt-out-publish.png)
 
-1. [Een e-mailbericht maken](../create-message.md) in [!DNL Journey Optimizer].
+1. [Een e-mailbericht maken](../messages/create-message.md) in [!DNL Journey Optimizer].
 
-1. Selecteer tekst in uw inhoud en [een koppeling invoegen](../message-tracking.md#insert-links) gebruiken van de contextafhankelijke werkbalk. U kunt ook een koppeling op een knop gebruiken.
+1. Selecteer tekst in uw inhoud en [een koppeling invoegen](../messages/message-tracking.md#insert-links) gebruiken van de contextafhankelijke werkbalk. U kunt ook een koppeling op een knop gebruiken.
 
    ![](../assets/lp_opt-out-insert-link.png)
 
@@ -139,7 +139,7 @@ Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zi
 
    ![](../assets/lp_opt-out-landing-page.png)
 
-1. Sla uw inhoud op en [uw bericht publiceren](../publish-manage-message.md).
+1. Sla uw inhoud op en [uw bericht publiceren](../messages/publish-manage-message.md).
 
 1. Stuur je bericht door een reis. [Meer informatie](../building-journeys/journey.md).
 
@@ -153,11 +153,11 @@ Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zi
 
    * De profielgegevens worden bijgewerkt en zullen geen mededelingen van uw merk tenzij opnieuw geabonneerd ontvangen.
 
-To check that the corresponding profile&#39;s choice has been updated, go to Experience Platform and access the profile by selecting an identity namespace and a corresponding identity value. Meer informatie in het dialoogvenster [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+Als u wilt controleren of de keuze van het corresponderende profiel is bijgewerkt, gaat u naar het Experience Platform en opent u het profiel door een naamruimte voor identiteiten en een bijbehorende identiteitswaarde te selecteren. Meer informatie in het dialoogvenster [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
 ![](../assets/lp_opt-out-profile-choice.png)
 
-In the **[!UICONTROL Attributes]** tab, you can see the value for **[!UICONTROL choice]** has changed to **[!UICONTROL no]**.
+In de **[!UICONTROL Attributes]** tab, kunt u de waarde zien voor **[!UICONTROL choice]** is gewijzigd in **[!UICONTROL no]**.
 
 <!--
 
@@ -167,9 +167,9 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../message-tracking.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../messages/message-tracking.md#one-click-opt-out-link)
 
 * **Unsubscribe link in header**
 
-    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../consent.md#unsubscribe-email)
+    If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../messages/consent.md#unsubscribe-email)
 -->

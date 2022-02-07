@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -23,7 +23,7 @@ In dit hoofdstuk wordt een gebruiksgeval van begin tot eind weergegeven [sectie]
 
 Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de reisontwerper. Zie dit [sectie](../building-journeys/using-adobe-campaign-classic.md).
 
-## Belangrijke opmerkingen
+## Belangrijke opmerkingen {#important-notes}
 
 * Er is geen vertraging van berichten. Wij begrenzen het aantal berichten die over aan 50.000/uur kunnen worden verzonden die op onze huidige Campagne SLA wordt gebaseerd. Daarom mag Journey Optimizer alleen worden gebruikt in gevallen van eenmalig gebruik (individuele gebeurtenissen, niet segmenten).
 
@@ -35,7 +35,7 @@ Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de
 
 * U kunt geen actie van de Campagne met een gebeurtenis van de segmentkwalificatie gebruiken.
 
-## Vereisten
+## Vereisten {#prerequisites}
 
 In Campagne, moet u een transactiebericht en zijn bijbehorende gebeurtenis tot stand brengen en publiceren. Zie de [Adobe Campaign-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}.
 
@@ -58,7 +58,7 @@ Hier volgt een voorbeeld:
 * **eventType**: de interne naam van uw Campagnegebeurtenis
 * **ctx**: variabele die op de verpersoonlijking wordt gebaseerd u in uw bericht hebt.
 
-## De handeling configureren
+## De handeling configureren {#configure-action}
 
 In Journey Optimizer moet u één actie per transactiemelding configureren. Voer de volgende stappen uit:
 

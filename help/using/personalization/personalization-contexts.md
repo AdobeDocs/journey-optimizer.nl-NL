@@ -1,12 +1,12 @@
 ---
-title: Personalisatiesyntaxis
+title: Persoonlijke context
 description: 'Meer informatie over de manieren waarop u de inhoud en weergave van uw berichten kunt aanpassen. '
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 67902b30bb24cad8d08d5bd6d83428885f4987b5
+source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -21,7 +21,7 @@ In elke gebieden met het redacteurspictogram, kunt u de verpersoonlijkingsredact
 
 ![](assets/perso_icon.png)
 
-## Je e-mails aanpassen
+## Je e-mails aanpassen {#personalize-emails}
 
 Wanneer u een e-mailbericht maakt, kunt u personalisatie toevoegen aan de **[!UICONTROL Subject line]** veld van het bericht.
 
@@ -29,7 +29,7 @@ Wanneer u een e-mailbericht maakt, kunt u personalisatie toevoegen aan de **[!UI
 
 In de e-mailontwerper kunt u de inhoud personaliseren:
 
-* In de **message**: Klik in een tekstblok en klik op de knop **Persoonlijk maken** pictogram in de contextafhankelijke werkbalk en selecteer **Verpersoonlijking invoegen** veld. Zie deze voor meer informatie over de interface E-mailontwerper [sectie](../design-emails.md).
+* In de **message**: Klik in een tekstblok en klik op de knop **Persoonlijk maken** pictogram in de contextafhankelijke werkbalk en selecteer **Verpersoonlijking invoegen** veld. Zie deze voor meer informatie over de interface E-mailontwerper [sectie](../messages/design-emails.md).
 
    ![](assets/perso_insert.png)
 
@@ -41,7 +41,7 @@ In beide gevallen, hebt u toegang tot de verpersoonlijkingsredacteur.
 
 ![](assets/perso_ee.png)
 
-## Pushmeldingen aanpassen
+## Pushmeldingen aanpassen {#personalize-push}
 
 U kunt uw **Pushmeldingen** in de volgende velden:
 
@@ -53,7 +53,7 @@ U kunt uw **Pushmeldingen** in de volgende velden:
 
 ![](assets/perso_push.png)
 
-Meer informatie over de configuratie voor pushmeldingen in [deze sectie](../push-gs.md).
+Meer informatie over de configuratie voor pushmeldingen in [deze sectie](../messages/push-gs.md).
 
 ## Je aanbiedingen aanpassen {#personalize-offers}
 

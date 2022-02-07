@@ -6,14 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 39b52f39ec19c185d2cd95634a60e37f62a66f83
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
 
 ---
 
-# Simulaties maken
+# Simulaties maken {#create-simulations}
 
 ## Informatie over simulatie
 
@@ -47,7 +47,7 @@ Eerst moet u de testprofielen selecteren die u voor simulatie gaat gebruiken.
 
    >[!NOTE]
    >
-   >Een naamruimte voor identiteiten definieert de context van een id, zoals een e-mailadres of CRM-id. Meer informatie over naamruimten in Adobe Experience Platform [in deze sectie](../../get-started-identity.md){target=&quot;_blank&quot;}.
+   >Een naamruimte voor identiteiten definieert de context van een id, zoals een e-mailadres of CRM-id. Meer informatie over naamruimten in Adobe Experience Platform [in deze sectie](../../start/get-started-identity.md){target=&quot;_blank&quot;}.
 
 1. Voer de identiteitswaarde in en klik op **[!UICONTROL View]** om de beschikbare profielen weer te geven.
 
@@ -63,7 +63,7 @@ Eerst moet u de testprofielen selecteren die u voor simulatie gaat gebruiken.
 
 1. U kunt op de knop **[!UICONTROL Profile details]** koppeling gebruiken om de geselecteerde profielgegevens weer te geven.
 
-<!--Learn more on [selecting test profiles](preview.md#select-test-profiles)-->
+<!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
 ## Beslissingsbereik toevoegen
 

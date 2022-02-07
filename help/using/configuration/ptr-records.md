@@ -1,13 +1,12 @@
 ---
 title: PTR-records
 description: Leer hoe u PTR-records beheert
-audience: administrators
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -16,13 +15,13 @@ ht-degree: 0%
 
 # PTR-records {#ptr-records}
 
-## PTR-records
+## PTR-records {#about-ptr-records}
 
 Een wijzerverslag (PTR) is een type van het verslag van het Systeem van de Naam van het Domein (DNS) dat de domeinnaam verbonden aan een IP adres verstrekt.
 
 Met PTR verslagen, kunnen het ontvangen van postservers de authenticiteit van het verzenden van postservers controleren door te identificeren of hun IP adressen aan de namen beantwoorden waarmee de servers verbinden.
 
-## De PTR-records van uw subdomeinen openen
+## De PTR-records van uw subdomeinen openen {#access-ptr-records}
 
 Eenmaal [een subdomein wordt gedelegeerd](delegate-subdomain.md) in Adobe Journey Optimizer wordt automatisch een PTR-record gemaakt en gekoppeld aan dit subdomein. U hebt toegang tot dit bestand via het dialoogvenster **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** -menu.
 
@@ -44,7 +43,7 @@ U kunt een PTR-record wijzigen om het subdomein te bewerken dat aan een IP-adres
 >
 >U kunt de **[!UICONTROL IP]** en **[!UICONTROL PTR record]** velden.
 
-### Volledig gedelegeerde subdomeinen
+### Volledig gedelegeerde subdomeinen {#fully-delegated-subdomains}
 
 Een PTR-record bewerken met een subdomein dat [volledig gedelegeerd](delegate-subdomain.md#full-subdomain-delegation) om te Adobe, volg de hieronder stappen.
 
@@ -83,7 +82,7 @@ Als u een PTR-record wilt bewerken met een subdomein dat is gedelegeerd aan Adob
 
 1. Klikken **[!UICONTROL Save]** om uw wijzigingen te bevestigen.
 
-## Details van PTR-recordupdate controleren
+## Details van PTR-recordupdate controleren {#check-ptr-record-update}
 
 A **[!UICONTROL Processing]** wordt weergegeven naast de naam van de PTR-record in de lijst.
 
@@ -97,7 +96,7 @@ U kunt informatie zoals de updatestatus, en de gevraagde veranderingen zien.
 
 ![](../assets/ptr-record-updates.png)
 
-## PTR-recordupdatestatus
+## PTR-recordupdatestatus {#ptr-record-update-statuses}
 
 Een PTR-recordupdate kan de volgende statussen hebben:
 
@@ -105,9 +104,9 @@ Een PTR-recordupdate kan de volgende statussen hebben:
 * ![](../assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: Het bijgewerkte PTR-record is geverifieerd en het nieuwe subdomein is nu gekoppeld aan het IP-adres.
 * ![](../assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: Een of meer controles zijn mislukt tijdens de verificatie van de PTR-recordupdate.
 
-### Verwerking
+### Verwerking {#processing}
 
-Verscheidene leveringscontroles zullen worden uitgevoerd om te verifiëren dat nieuwe subdomain aan vennoot met het IP adres geldig is. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**. Learn more on the checks performed during the validation cycle in [this section](#create-message-preset).-->
+Verscheidene leveringscontroles zullen worden uitgevoerd om te verifiëren dat nieuwe subdomain aan vennoot met het IP adres geldig is. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**.-->
 
 >[!NOTE]
 >
@@ -115,11 +114,11 @@ Verscheidene leveringscontroles zullen worden uitgevoerd om te verifiëren dat n
 
 Tijdens het validatieproces wordt het oude subdomein nog steeds gekoppeld aan het IP-adres.
 
-### Succes
+### Succes {#success}
 
 Wanneer het validatieproces is voltooid, wordt het nieuwe subdomein automatisch gekoppeld aan het IP-adres.
 
-### Mislukt
+### Mislukt {#failes}
 
 Als het validatieproces mislukt, wordt de oudere PTR-record weergegeven. Het geldige subdomein dat eerder aan het IP adres werd geassocieerd blijft onveranderd.
 

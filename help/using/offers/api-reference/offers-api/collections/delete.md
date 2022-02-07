@@ -6,14 +6,14 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 5%
 
 ---
 
-# Een verzameling verwijderen
+# Een verzameling verwijderen {#delete-collection}
 
 Het kan soms nodig zijn een verzameling te verwijderen (DELETE). Alleen verzamelingen die u maakt in de huurderscontainer, kunnen worden verwijderd. Dit wordt gedaan door een verzoek van de DELETE aan uit te voeren [!DNL Offer Library] API die $id gebruikt van de verzameling die u wilt verwijderen.
 

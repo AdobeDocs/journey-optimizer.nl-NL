@@ -8,7 +8,7 @@ level: Beginner
 hidefromtoc: true
 hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 88b037e079a46e10f7ee4715e78e5edc5a34a6ce
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 3%
@@ -21,7 +21,7 @@ ht-degree: 3%
 >
 >Het gebruik van bestemmingspagina&#39;s is momenteel beschikbaar in vroege toegang tot geselecteerde gebruikers slechts. Als u deze functie wilt gebruiken, neemt u contact op met de Adobe-accountmanager.
 
-## Openingspagina&#39;s openen
+## Openingspagina&#39;s openen {#access-landing-pages}
 
 Selecteer **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** in het linkermenu.
 
@@ -31,7 +31,7 @@ De **[!UICONTROL Landing Pages]** worden alle gemaakte items weergegeven. U kunt
 
 ![](../assets/lp_access-list-filter.png)
 
-## Een landingspagina maken
+## Een landingspagina maken {#create-landing-page}
 
 De stappen voor het maken van een bestemmingspagina zijn als volgt.
 
@@ -61,7 +61,7 @@ De stappen voor het maken van een bestemmingspagina zijn als volgt.
 
    ![](../assets/lp_add-subpage.png)
 
-Zodra u vormde en ontwierp [primaire pagina](#configure-primary-page)en de [subpagina&#39;s](#configure-subpages) indien van toepassing, kunt u [test](#test) en [publish](#publish) uw openingspagina.
+Zodra u vormde en ontwierp [primaire pagina](#configure-primary-page)en de [subpagina&#39;s](#configure-subpages) indien van toepassing, kunt u [test](#test-landing-page) en [publish](#publish-landing-page) uw openingspagina.
 
 ## De primaire pagina configureren {#configure-primary-page}
 
@@ -121,7 +121,7 @@ Voer de onderstaande stappen uit om de subpagina-instellingen te definiëren.
 
 ![](../assets/lp_subpage-settings.png)
 
-## De openingspagina testen {#test}
+## De openingspagina testen {#test-landing-page}
 
 Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt u testprofielen gebruiken om een voorvertoning weer te geven. Als u [persoonlijke inhoud](../personalization/personalize.md), kunt u controleren hoe deze inhoud op de openingspagina wordt weergegeven door gebruik te maken van testprofielgegevens.
 
@@ -141,7 +141,7 @@ Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt
 
    ![](../assets/lp_test-profiles.png)
 
-   De stappen om testprofielen te selecteren zijn het zelfde als wanneer het testen van een bericht. Deze worden in [deze sectie](../preview.md#select-test-profiles).
+   De stappen om testprofielen te selecteren zijn het zelfde als wanneer het testen van een bericht. Deze worden in [deze sectie](../messages/preview.md#select-test-profiles).
 
 1. Selecteer **[!UICONTROL Preview]** en klik op **[!UICONTROL Open preview]** om de openingspagina te testen.
 
@@ -153,7 +153,7 @@ Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt
 
 1. Selecteer andere testprofielen om de rendering voor elke variant van de landingspagina te bekijken.
 
-## Waarschuwingen controleren {#alerts}
+## Waarschuwingen controleren {#check-alerts}
 
 Terwijl u uw landingspagina maakt, wordt u gewaarschuwd wanneer u belangrijke acties moet ondernemen voordat u publiceert.
 
@@ -192,7 +192,7 @@ Er kunnen twee typen waarschuwingen optreden:
 > To be able to publish your message, you need to resolve all **error** alerts.
 -->
 
-## De openingspagina publiceren {#publish}
+## De openingspagina publiceren {#publish-landing-page}
 
 Als de landingspagina gereed is, kunt u deze publiceren en in een bericht gebruiken.
 
@@ -200,11 +200,11 @@ Als de landingspagina gereed is, kunt u deze publiceren en in een bericht gebrui
 
 >[!CAUTION]
 >
->Controleer en los waarschuwingen op voordat u ze publiceert. [Meer informatie](#alerts)
+>Controleer en los waarschuwingen op voordat u ze publiceert. [Meer informatie](#check-alerts)
 
 Wanneer de landingspagina is gepubliceerd, wordt deze aan de lijst met landingspagina&#39;s toegevoegd met de opdracht **[!UICONTROL Published]** status.
 
-Het is nu live en klaar om te worden gebruikt in een [!DNL Journey Optimizer] [message](../create-message.md) die via een [reis](../building-journeys/journey.md).
+Het is nu live en klaar om te worden gebruikt in een [!DNL Journey Optimizer] [message](../messages/create-message.md) die via een [reis](../building-journeys/journey.md).
 
 >[!NOTE]
 >

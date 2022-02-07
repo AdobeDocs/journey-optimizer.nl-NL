@@ -1,16 +1,16 @@
 ---
 cloud: Experience Cloud
 mini-toc-levels: 2
-git-repo: https://git.corp.adobe.com/AdobeDocs/journey-optimizer.nl-NL
+git-repo: https://github.com/AdobeDocs/journey-optimizer.nl-NL
 index: true
 product: Journey Optimizer
 solution: Journey Optimizer
 feature-set: Journey Optimizer
-solution-title: Journey Optimizer-documentatie
+solution-title: Journey Optimizer Documentation
 source-git-commit: a01e38f9cb27dc2d745920faa28cddba5e31b1e6
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 94%
+source-wordcount: '130'
+ht-degree: 96%
 
 ---
 

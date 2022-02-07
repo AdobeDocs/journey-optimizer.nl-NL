@@ -6,20 +6,20 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 3%
 
 ---
 
-# Handleiding voor ontwikkelaars van API voor beheer van beslissingen
+# Handleiding voor ontwikkelaars van API voor beheer van beslissingen {#decision-management-api-developer-guide}
 
 Deze handleiding voor ontwikkelaars bevat stappen waarmee u de functie [!DNL Offer Library] API. De gids verstrekt dan steekproefAPI vraag om zeer belangrijke verrichtingen uit te voeren gebruikend de Motor van het Beheer van het Besluit.
 
 ➡️ [Ontdek deze functie in video](#video)
 
-## Vereisten
+## Vereisten {#prerequisites}
 
 Deze handleiding vereist een goed begrip van de volgende onderdelen van Adobe Experience Platform:
 
@@ -28,11 +28,11 @@ Deze handleiding vereist een goed begrip van de volgende onderdelen van Adobe Ex
 * [Beslissingsbeheer](../../../using/offers/get-started/starting-offer-decisioning.md): Verklaart de concepten en de componenten die voor Ervaring in het algemeen en Offer decisioning in het bijzonder worden gebruikt. Toont de strategieën die voor het kiezen van de beste optie worden gebruikt om tijdens de ervaring van een klant voor te stellen.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target=&quot;_blank&quot;}: PQL is een krachtige taal voor het schrijven van expressies over XDM-instanties. PQL wordt gebruikt om besluitvormingsregels te bepalen.
 
-## API-voorbeeldaanroepen lezen
+## API-voorbeeldaanroepen lezen {#reading-sample-api-calls}
 
 Deze gids verstrekt voorbeeld API vraag om aan te tonen hoe te om uw verzoeken te formatteren. Dit zijn paden, vereiste kopteksten en correct opgemaakte ladingen voor aanvragen. Voorbeeld-JSON die wordt geretourneerd in API-reacties, wordt ook verschaft. Voor informatie over de conventies die worden gebruikt in documentatie voor voorbeeld-API-aanroepen raadpleegt u de sectie over [voorbeeld-API-aanroepen lezen](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target=&quot;_blank&quot;} in het dialoogvenster [!DNL Experience Platform] gids voor probleemoplossing.
 
-## Waarden verzamelen voor vereiste koppen
+## Waarden verzamelen voor vereiste koppen {#gather-values-for-required-headers}
 
 Om vraag te maken aan [!DNL Platform] API&#39;s, moet u eerst de [verificatiezelfstudie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target=&quot;_blank&quot;}. Het voltooien van de zelfstudie over verificatie biedt de waarden voor elk van de vereiste kopteksten in alle [!DNL Experience Platform] API-aanroepen, zoals hieronder wordt getoond:
 
@@ -44,7 +44,7 @@ Alle verzoeken die een nuttige lading (POST, PUT, PATCH) bevatten vereisen een e
 
 * `Content-Type: application/json`
 
-## Toegang tot een container beheren
+## Toegang tot een container beheren {#manage-access-to-container}
 
 Een container is een isolatiemechanisme om verschillende zorgen van elkaar te onderscheiden. De container-id is het eerste padelement voor alle gegevensopslagruimte-API&#39;s. Alle beslissingsobjecten bevinden zich in een container.
 
@@ -52,7 +52,7 @@ Een beheerder kan gelijkaardige principes, middelen, en toegangstoestemmingen in
 
 Op basis van de beheerdersrechten kunt u gebruikers machtigingen verlenen of intrekken via de [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Zie voor meer informatie de [Overzicht van toegangsbeheer](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html){target=&quot;_blank&quot;}.
 
-### Containers weergeven die toegankelijk zijn voor gebruikers en integratie
+### Containers weergeven die toegankelijk zijn voor gebruikers en integratie {#list-containers-accessible-to-users-and-integrations}
 
 **API-indeling**
 
@@ -124,7 +124,7 @@ Een succesvolle reactie keert informatie betreffende besluitvormingsbeheersconta
 }
 ```
 
-## Volgende stappen
+## Volgende stappen {#next-steps}
 
 Dit document bevatte de vereiste kennis die nodig was om oproepen te doen aan de [!DNL Offer Library] API, inclusief het aanschaffen van uw container-id. U kunt nu aan de steekproefvraag verdergaan die in deze ontwikkelaarsgids wordt verstrekt en samen met hun instructies volgen.
 

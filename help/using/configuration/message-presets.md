@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: a5c104539cae37197e0caa43cefcfed2bee23737
 workflow-type: tm+mt
 source-wordcount: '1684'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Met [!DNL Journey Optimizer]kunt u voorinstellingen voor berichten instellen die
 >
 > * Configuratie van voorinstellingen voor berichten is beperkt tot reisbeheerders. [Meer informatie](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * U moet e-mailconfiguratie uitvoeren en [Pushconfiguratie](../push-configuration.md) stappen voordat u berichtvoorinstellingen maakt.
+> * U moet e-mailconfiguratie uitvoeren en [Pushconfiguratie](../messages/push-configuration.md) stappen voordat u berichtvoorinstellingen maakt.
 
 
 Zodra berichtvoorinstellingen zijn geconfigureerd, kunt u deze selecteren wanneer u berichten maakt van de **[!UICONTROL Presets]** lijst.
@@ -62,23 +62,18 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
       >
       >E-mailadressen moeten de geselecteerde [gedelegeerd subdomein](about-subdomain-delegation.md).
 
-      <!--CAUTION: Except for the **Reply to (forward email)** field-->
-
       * **[!UICONTROL Sender name]**: De naam van de afzender, zoals de naam van uw merk.
 
       * **[!UICONTROL Sender email]**: Het e-mailadres dat u voor uw communicatie wilt gebruiken. Als het gedelegeerde subdomein bijvoorbeeld *marketing.luma.com* kunt u *contact@marketing.luma.com*.
 
       * **[!UICONTROL Reply to (name)]**: De naam die wordt gebruikt wanneer de ontvanger op de knop **Reageren** in hun e-mailclientsoftware.
 
-      * **[!UICONTROL Reply to (email)]**: Het e-mailadres dat wordt gebruikt wanneer de ontvanger op de knop **Reageren** in hun e-mailclientsoftware. <!--The emails sent to this address will be forwarded to the **[!UICONTROL Reply to (forward email)]** address provided below. -->U moet een adres gebruiken dat op gedelegeerde subdomein wordt bepaald (bijvoorbeeld *reply@marketing.luma.com*), anders worden de e-mails verwijderd.
+      * **[!UICONTROL Reply to (email)]**: Het e-mailadres dat wordt gebruikt wanneer de ontvanger op de knop **Reageren** in hun e-mailclientsoftware. U moet een adres gebruiken dat op gedelegeerde subdomein wordt bepaald (bijvoorbeeld *reply@marketing.luma.com*), anders worden de e-mails verwijderd.
 
       * **[!UICONTROL Error email]**: Alle fouten die door ISPs na een paar dagen van post worden geproduceerd die (asynchrone stuitingen) worden ontvangen op dit adres.
-
-      <!--**[!UICONTROL Reply to (forward email)]**: All emails received by [!DNL Journey Optimizer] for the delegated subdomain will be forwarded to this email address. You can specify any address, except an email address defined on the delegated subdomain. For example, if the delegated subdomain is *marketing.luma.com*, any address like *abc@marketing.luma.com* is prohibited.-->
-
       >[!NOTE]
       >
-      >Met ingang van de release van oktober 2021 is het niet meer mogelijk een e-mailadres voor verzending te definiëren vanaf de [!DNL Journey Optimizer] gebruikersinterface. Als je alle e-mails wilt ontvangen door [!DNL Journey Optimizer] voor het gedelegeerde subdomein dat naar een specifiek e-mailadres moet worden doorgestuurd, neemt u contact op met de [Adobe-team voor klantenondersteuning](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}. <!--move to Deprecated features section when created?-->
+      >Met ingang van de release van oktober 2021 is het niet meer mogelijk een e-mailadres voor verzending te definiëren vanaf de [!DNL Journey Optimizer] gebruikersinterface. Als je alle e-mails wilt ontvangen door [!DNL Journey Optimizer] voor het gedelegeerde subdomein dat naar een specifiek e-mailadres moet worden doorgestuurd, neemt u contact op met de [Adobe-team voor klantenondersteuning](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
       ![](../assets/preset-header.png)
 
@@ -104,7 +99,7 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
    * Selecteer de mobiele toepassingen die u voor elk platform wilt gebruiken.
 
-      Raadpleeg voor meer informatie over het configureren van uw omgeving voor het verzenden van pushberichten de [deze sectie](../push-gs.md).
+      Raadpleeg voor meer informatie over het configureren van uw omgeving voor het verzenden van pushberichten de [deze sectie](../messages/push-gs.md).
 
 <!--
 1. Configure the **SMS** settings.
@@ -143,8 +138,6 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
    >Als de controles niet succesvol zijn, leer meer over de mogelijke mislukkingsredenen in [deze sectie](#monitor-message-presets).
 
 1. Als de controles zijn voltooid, wordt met de berichtvoorinstelling het volgende opgehaald **[!UICONTROL Active]** status. Het is klaar om te worden gebruikt om berichten te leveren.
-
-   <!-- later on, users will be notified in Pulse -->
 
    ![](../assets/preset-active.png)
 
@@ -220,7 +213,7 @@ Voor voorinstellingen voor berichten met de **[!UICONTROL Active]** kunt u de de
 
    ![](../assets/preset-view-update-details.png)
 
-Op de **[!UICONTROL Recent update]** scherm, kunt u informatie zoals de updatestatus zien,<!--the approximate remaining time before completion (if validation is in progress)--> en de lijst met gevraagde wijzigingen.
+Op de **[!UICONTROL Recent update]** op het scherm, kunt u informatie zoals de updatestatus, en de lijst van gevraagde veranderingen zien.
 
 ![](../assets/preset-recent-update-screen.png)
 
@@ -256,22 +249,15 @@ Als u een voorinstelling bewerkt die al actief was:
 >
 >U kunt een berichtvoorinstelling niet wijzigen terwijl de update bezig is. U kunt nog steeds op de naam klikken, maar alle velden worden grijs weergegeven. De wijzigingen worden pas doorgevoerd als de update is gelukt.
 
-### Succes
+### Succes {#success}
 
 Zodra het validatieproces is voltooid, wordt de nieuwe versie van de voorinstelling automatisch gebruikt in alle berichten die deze voorinstelling gebruiken. Het kan echter zijn dat u moet wachten:
 * een paar minuten voordat het wordt verbruikt door de eenheidspublicaties,
 * totdat de volgende batch voor de voorinstelling van kracht is in batchberichten.
 
-<!--Changes made to a message preset with the **[!UICONTROL Active]** status will automatically be applied to all messages currently using this preset.-->
-
-### Mislukt
+### Mislukt {#failed}
 
 Als het validatieproces mislukt, wordt de oudere versie van de voorinstelling nog steeds gebruikt.
-
-<!--The possible update error types are as follows:
-* **Authorization error**: the bearer token is invalid or not authorized.
-* **Illegal modification**: an edit was performed on one or more non-allowed fields.
-* **Precondition failed**: some fields can only have specific values and this has not been honored.-->
 
 Meer informatie over mogelijke oorzaken van fouten vindt u in [deze sectie](#monitor-message-presets).
 
@@ -300,18 +286,6 @@ Als u een **[!UICONTROL Active]** bericht niet beschikbaar om nieuwe berichten t
 U kunt een gedeactiveerde berichtvoorinstelling niet rechtstreeks bewerken. U kunt het bestand echter wel dupliceren en de kopie bewerken om een nieuwe versie te maken waarmee u nieuwe berichten kunt maken. U kunt de toepassing ook opnieuw activeren en wachten tot de update is gelukt om deze te bewerken.
 
 ![](../assets/preset-activate.png)
-
-<!--1. Access the message presets list.
-
-1. Deactivate the message preset that you want to edit.
-
-1. Duplicate the deactivated message preset. A copy with the **[!UICONTROL Draft]** status is automatically added to the list.
-
-    ![](../assets/preset-duplicated.png)
-
-1. Open the duplicated message preset, modify it according to your needs, then submit your changes. The message preset will go through the same validation cycle as during the [creation step](#create-message-preset).
-
-1. Once validated, it gets the **[!UICONTROL Active]** status and is ready to be used to create new messages.-->
 
 ## Hoe kan ik-video{#video-presets}
 

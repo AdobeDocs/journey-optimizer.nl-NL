@@ -6,18 +6,18 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: 0c0d241008318fa5d1c63d99f00bb434f6645d22
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 6%
 
 ---
 
-# Een beslissing nemen
+# Een beslissing nemen {#create-decision}
 
 U kunt een beslissing maken (voorheen bekend als aanbiedingsactiviteit) door een verzoek van de POST in te dienen bij de [!DNL Offer Library] API, terwijl u uw container-id opgeeft.
 
-## Kopteksten van het type Inhoud accepteren
+## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
 In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
 

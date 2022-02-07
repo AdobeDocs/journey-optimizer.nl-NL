@@ -6,20 +6,20 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 42c531fd-0dc9-492d-8827-2e1460454064
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 4%
 
 ---
 
-# Een beslissingsregel bijwerken
+# Een beslissingsregel bijwerken {#update-decision-rule}
 
 U kunt beslissingsregels wijzigen of bijwerken in uw container door een PATCH-verzoek in te dienen bij de [!DNL Offer Library] API.
 
 Raadpleeg voor meer informatie over JSON Patch, inclusief beschikbare bewerkingen, de officiële [JSON-patchdocumentatie](http://jsonpatch.com/).
 
-## Kopteksten van het type Inhoud accepteren
+## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
 In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 6d744c0289e81ab2229f02c44ead43943b945b89
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 4%
@@ -19,13 +19,13 @@ Deze veldgroep wordt gedeeld door de tripStepEvent en de tripStepProfileEvent.
 
 Tijdens een stapverwerking, kunnen wij geen gegevens halen op gebiedsgroepen.
 
-## fetchTotalTime
+## fetchTotalTime {#fetchtotaltime-field}
 
 Totale hoeveelheid tijd die in gegevens wordt doorgebracht halen in millis tijdens de stapverwerking.
 
 Type: lang
 
-## fetchTypeInError
+## fetchTypeInError {#fetchtypeinerror-field}
 
 Definieert of de fout Ophalen in zich op Adobe Experience Platform of op een aangepaste gegevensbron bevindt.
 
@@ -35,7 +35,7 @@ Waarden:
 * aep
 * aangepast
 
-## fetchError
+## fetchError {#fetcherror-field}
 
 Type fout dat gebeurt wanneer de gegevens worden opgehaald verwerkt.
 
@@ -47,13 +47,13 @@ Waarden:
 * timedout
 * error
 
-## fetchErrorCode
+## fetchErrorCode {#fetcherrorcode-field}
 
 Code voor ophalen fout. Wordt weergegeven als de fout een code heeft, zoals een HTTP-code. Wanneer actionExecError bijvoorbeeld http is, vertegenwoordigt code 404 de HTTP 404-fout.
 
 Type: string
 
-## fetchOriginError
+## fetchOriginError {#fetchoriginerror-field}
 
 Een time-out kan in twee gevallen optreden:
 
@@ -73,37 +73,37 @@ Bijvoorbeeld, worden de gegevens gehaald van de Verenigde Dienst van het Profiel
 
 Type: string
 
-## fetchOriginErrorCode
+## fetchOriginErrorCode {#fetchoriginerrorcode-field}
 
 De foutcode van het systeem [!DNL Journey Orchestration] vraagt. Het kan bijvoorbeeld een 404, 500, enzovoort zijn.
 
 Type: string
 
-## fetchCount
+## fetchCount {#fetchcount-field}
 
 Hoeveel keer worden de gegevens opgehaald, ongeacht het type bron.
 
 Type: lang
 
-## fetchPlatformTotalTime
+## fetchPlatformTotalTime {#fetchplatformtotaltime-field}
 
 De totale hoeveelheid tijd die nodig is om de gegevens van Adobe Experience Platform op te halen in millis. Opmerking: deze hoeveelheid tijd wordt berekend vanaf het tijdstip waarop de motor de verrijkingsgebeurtenis naar de verrijkingsdienst verzendt en de reactie ontvangt .
 
 Type: lang
 
-## fetchPlatformCount
+## fetchPlatformCount {#fetchplatformcount-field}
 
 Hoeveel keer worden de gegevens opgehaald uit Adobe Experience Platform.
 
 Type: lang
 
-## fetchCustomTotalTime
+## fetchCustomTotalTime {#fetchcustomtotaltime-field}
 
 De hoeveelheid tijd die nodig is om de aangepaste gegevens op te halen in millis. Opmerking: deze hoeveelheid tijd wordt berekend vanaf het tijdstip waarop de motor de verrijkingsgebeurtenis naar de verrijkingsdienst verzendt en de reactie ontvangt
 
 Type: lang
 
-## fetchCustomCount
+## fetchCustomCount {#fetchcustomcount-field}
 
 Hoeveel keer worden de douanegegevens gehaald van externe systemen.
 

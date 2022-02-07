@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 68%
@@ -23,7 +23,7 @@ ht-degree: 68%
 
 Acties zijn verbindingen waarmee u persoonlijke, realtime-ervaringen kunt bieden aan klanten, zoals pushberichten, e-mail, sms of andere digitale opties die in uw bedrijf worden gebruikt.
 
-[!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtcapaciteit. Zie [deze sectie](../get-started-content.md).
+[!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtcapaciteit. Zie [deze sectie](../messages/get-started-content.md).
 
 Als u Adobe Campaign v7 of v8 hebt, is een integratie op verzoek beschikbaar. Zie [deze pagina](../action/acc-action.md).
 
@@ -37,6 +37,6 @@ Met aangepaste acties kunt u een verbinding met een extern systeem configureren 
 
 De acties zijn beschikbaar in het linkerpalet van uw reis, in **[!UICONTROL Action]** categorie. Zie [deze pagina](../building-journeys/about-journey-activities.md#action-activities).
 
-Selecteer **[!UICONTROL Configurations]** in de sectie van het menu van het BEHEER. In de  **[!UICONTROL Actions]** sectie, klikt u op **[!UICONTROL Manage]**. De lijst met acties wordt weergegeven. Zie [deze pagina](../user-interface.md) voor meer informatie over de interface.
+Selecteer **[!UICONTROL Configurations]** in de sectie van het menu van het BEHEER. In de  **[!UICONTROL Actions]** sectie, klikt u op **[!UICONTROL Manage]**. De lijst met acties wordt weergegeven. Zie [deze pagina](../start/user-interface.md) voor meer informatie over de interface.
 
 ![](../assets/custom1.png)

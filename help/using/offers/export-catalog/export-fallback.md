@@ -1,12 +1,12 @@
 ---
 title: Gegevensset voor alternatieven
-description: Deze sectie maakt een lijst van alle gebieden die in de uitgevoerde dataset voor reserveaanbiedingen worden gebruikt.
+description: Deze sectie maakt een lijst van alle gebieden die in de uitgevoerde dataset voor fallback aanbiedingen worden gebruikt
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 0%
@@ -27,14 +27,14 @@ De meest recente succesvolle partij in de dataset wordt getoond op het recht. De
 
 Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogvenster **[!UICONTROL Decision Object Repository - Fallback Offers]** dataset.
 
-## Id
+## Id {#identifier}
 
 **Veld:** _id
 **Titel:** Id
 **Omschrijving:** Een unieke id voor de record.
 **Type:** string
 
-## _experience
+## _experience {#experience}
 
 **Veld:** _experience
 **Type:** object
@@ -179,7 +179,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo
+## _repo {#repo}
 
 **Veld:** _repo
 **Type:** object

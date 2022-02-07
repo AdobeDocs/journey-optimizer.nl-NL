@@ -6,14 +6,14 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 2022b2c81738ae6d3e66280265948c5b88a117c8
+source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 85%
 
 ---
 
-# De geavanceerde expressie-editor {#concept_uyj_trt_52b}
+# De geavanceerde expressie-editor {#about-the-advanced-expression-editor}
 
 Gebruik de geavanceerde uitdrukkingsredacteur om geavanceerde uitdrukkingen in diverse schermen van de interface te bouwen. U kunt bijvoorbeeld expressies maken bij het configureren en gebruiken van reizen en bij het definiëren van een gegevensbronvoorwaarde.
 De editor is ook altijd beschikbaar wanneer u actieparameters moet definiëren waarvoor specifieke datamanipulaties nodig zijn. U kunt data gebruiken die afkomstig zijn van gebeurtenissen of aanvullende informatie die is opgehaald uit de databron. In een journey is de weergegeven lijst met gebeurtenisvelden contextafhankelijk en deze varieert op basis van de gebeurtenissen die tijdens de journey worden toegevoegd.
@@ -38,7 +38,7 @@ Indien mogelijk kunt u tussen de twee modi schakelen met de knop **[!UICONTROL A
 >
 >Actieparameters kunnen worden gedefinieerd door velden te selecteren of via de geavanceerde expressie-editor. Ze retourneren een specifiek datatype op basis van hun expressie.
 
-## De geavanceerde expressie-editor openen {#section_fdz_4nj_cjb}
+## De geavanceerde expressie-editor openen {#accessing-the-advanced-expression-editor}
 
 U kunt de geavanceerde expressie-editor op verschillende manieren openen:
 
@@ -49,7 +49,7 @@ U kunt de geavanceerde expressie-editor op verschillende manieren openen:
 * Wanneer u een aangepaste timer maakt, wordt de geavanceerde editor direct weergegeven.
 * Wanneer u een actieparameter toewijst, klikt u op **[!UICONTROL Advanced mode]**.
 
-## De interface verkennen{#section_otq_tnj_cjb}
+## De interface verkennen{#discovering-the-interface}
 
 In dit scherm kunt u uw expressie handmatig schrijven.
 

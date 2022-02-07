@@ -1,12 +1,12 @@
 ---
 title: Aan de slag met het exporteren van de aanbiedingscatalogus
-description: Deze sectie maakt een lijst van alle gebieden die in de uitgevoerde dataset voor besluiten worden gebruikt.
+description: Deze sectie maakt een lijst van alle gebieden die in de uitgevoerde dataset voor besluiten worden gebruikt
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 0%
@@ -29,14 +29,14 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 <!--A decision (formerly known as offer decision) is used to control the decisioning process. It specifies the filter applied to the total inventory to narrow down offers by topic/category, the placement to narrow down the inventory to those offers that technically fit into the reserved space for the offer and specifies a fallback option should the combined constraints disqualify all available personalization offers.-->
 
-## Id
+## Id {#identifier}
 
 **Veld:** _id
 **Titel:** Id
 **Omschrijving:** Een unieke id voor de record.
 **Type:** string
 
-## _experience
+## _experience {#experience}
 
 **Veld:** _experience
 **Type:** object
@@ -254,7 +254,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 **Omschrijving:** Begindatum en eindtijd van de beschikking (voorheen bekend als activiteit). De eigenschap heeft de semantische waarde van de eigenschap &#39;startTime&#39; van schema.org gedefinieerd op http://schema.org/Action.
 **Type:** string
 
-## _repo
+## _repo {#repo}
 
 **Veld:** _repo
 **Type:** object
