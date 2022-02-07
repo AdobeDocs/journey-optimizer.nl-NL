@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bbc2adabac63ffb813ea2630f29aec552fc3f4df
+source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '911'
 ht-degree: 50%
 
 ---
@@ -16,38 +16,38 @@ ht-degree: 50%
 
 + [Journey Optimizer-documentatie](ajo-home.md)
 + Nieuwe functies {#whats-new}
-   + [Aanvullende informatie](using/release-notes.md)
-   + [Laatste updates](using/documentation-updates.md)
+   + [Aanvullende informatie](using/rn/release-notes.md)
+   + [Laatste updates](using/rn/documentation-updates.md)
 + Aan de slag{#get-started}
-   + [Wat is Journey Optimizer](using/get-started.md)
+   + [Wat is Journey Optimizer](using/start/get-started.md)
    + Snel starten{#quick-start}
-      + [Overzicht](using/quick-start.md)
-      + [Aan de slag als een marketeer](using/path/marketer.md)
-      + [Aan de slag als Data engineer](using/path/data-engineer.md)
-      + [Aan de slag als beheerder](using/path/administrator.md)
-      + [Aan de slag als ontwikkelaar](using/path/developer.md)
-   + [Gebruikersinterface](using/user-interface.md)
-   + [Beperkingen](using/limitations.md)
+      + [Overzicht](using/start/quick-start.md)
+      + [Aan de slag als een marketeer](using/start/path/marketer.md)
+      + [Aan de slag als Data engineer](using/start/path/data-engineer.md)
+      + [Aan de slag als beheerder](using/start/path/administrator.md)
+      + [Aan de slag als ontwikkelaar](using/start/path/developer.md)
+   + [Gebruikersinterface](using/start/user-interface.md)
+   + [Beperkingen](using/start/limitations.md)
 + Berichten {#messages}
-   + [Aan de slag met berichten](using/get-started-content.md)
+   + [Aan de slag met berichten](using/messages/get-started-content.md)
    + Berichten maken {#create-message}
-      + [Een bericht maken](using/create-message.md)
-      + [Een e-mail maken](using/create-email.md)
-      + [Een pushmelding maken](using/create-push.md)
-      + [Een SMS-bericht maken](using/create-sms.md)
-   + [Elementen toevoegen en beheren](using/assets-essentials.md)
-   + [Aangepaste aanbiedingen toevoegen](using/deliver-personalized-offers.md)
+      + [Een bericht maken](using/messages/create-message.md)
+      + [Een e-mail maken](using/messages/create-email.md)
+      + [Een pushmelding maken](using/messages/create-push.md)
+      + [Een SMS-bericht maken](using/messages/create-sms.md)
+   + [Elementen toevoegen en beheren](using/messages/assets-essentials.md)
+   + [Aangepaste aanbiedingen toevoegen](using/messages/deliver-personalized-offers.md)
    + E-mails ontwerpen {#email-designer}
-      + [Aan de slag met e-mailontwerp](using/design-emails.md)
-      + [E-mailcontent ontwerpen in de gebruikersinterface](using/create-email-content.md)
-      + [Uw e-mailinhoud importeren of coderen](using/existing-content.md)
-      + [Onderdelen voor content van e-mailontwerpers gebruiken](using/content-components.md)
-   + [Koppelingen toevoegen en berichten bijhouden](using/message-tracking.md)
+      + [Aan de slag met e-mailontwerp](using/messages/design-emails.md)
+      + [E-mailcontent ontwerpen in de gebruikersinterface](using/messages/create-email-content.md)
+      + [Uw e-mailinhoud importeren of coderen](using/messages/existing-content.md)
+      + [Onderdelen voor content van e-mailontwerpers gebruiken](using/messages/content-components.md)
+   + [Koppelingen toevoegen en berichten bijhouden](using/messages/message-tracking.md)
    + Valideren en publiceren {#validate}
-      + [Voorvertoning en proefdrukken](using/preview.md)
-      + [Waarschuwingen controleren](using/alerts.md)
-      + [Berichten publiceren](using/publish-manage-message.md)
-   + [Weigeren beheren](using/consent.md)
+      + [Voorvertoning en proefdrukken](using/messages/preview.md)
+      + [Waarschuwingen controleren](using/messages/alerts.md)
+      + [Berichten publiceren](using/messages/publish-manage-message.md)
+   + [Weigeren beheren](using/messages/consent.md)
 + Personalisatie{#personalization}
    + [Aan de slag met personalisatie](using/personalization/personalize.md)
    + [Persoonlijke context](using/personalization/personalization-contexts.md)
@@ -75,13 +75,13 @@ ht-degree: 50%
    + Segmenten {#segments}
       + [Aan de slag met segmenten](using/segment/about-segments.md)
       + [Segmenten maken](using/segment/creating-a-segment.md)
-   + [Profielen](using/get-started-profiles.md)
-   + [Identiteiten](using/get-started-identity.md)
+   + [Profielen](using/start/get-started-profiles.md)
+   + [Identiteiten](using/start/get-started-identity.md)
 + Journeys {#orchestrate-journeys}
    + Reizen{#about-journeys}
       + [Algemeen principe](using/building-journeys/journey.md)
       + [Journeyversies](using/building-journeys/journey-versions.md)
-      + [Testprofielen](using/building-journeys/creating-test-profiles.md)
+      + [Testprofielen maken](using/building-journeys/creating-test-profiles.md)
       + [Integreren met intelligente services](using/building-journeys/ai-services-overview.md)
    + Een journey maken{#create-journey}
       + [Aan de slag met reizen](using/building-journeys/journey-gs.md)
@@ -197,7 +197,7 @@ ht-degree: 50%
       + [Een bericht verzenden naar abonnees](using/building-journeys/message-to-subscribers-uc.md)
       + [Leveringen opwaarderen](using/building-journeys/ramp-up-deliveries-uc.md)
 + Bijhouden en bewaken {#reporting}
-   + [Berichtcontrole](using/message-monitoring.md)
+   + [Berichtcontrole](using/messages/message-monitoring.md)
    + Live-rapport {#live-report}
       + [Het dashboard voor Live-rapporten openen](using/reports/live-report.md)
       + [Journey Live-rapport](using/reports/journey-live-report.md)
@@ -220,9 +220,9 @@ ht-degree: 50%
          + [Identiteitsvelden](using/reports/sharing-identity-fields.md)
       + [Voorbeelden van query&#39;s](using/reports/query-examples.md)
    + Leverbaarheid {#deliverability}
-      + [Aan de slag met de prestaties](using/deliverability.md)
-      + [Onderdrukkingslijst](using/suppression-list.md)
-      + [Lijst van gewenste personen](using/allow-list.md)
+      + [Aan de slag met de prestaties](using/messages/deliverability.md)
+      + [Onderdrukkingslijst](using/messages/suppression-list.md)
+      + [Lijst van gewenste personen](using/messages/allow-list.md)
 + Landingspagina’s {#landing-pages}
    + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
    + [Een landingspagina maken](using/landing-pages/create-lp.md)
@@ -312,15 +312,15 @@ ht-degree: 50%
          + [Beslissingen-API](using/offers/api-reference/decisions-api/deliver-offers.md)
          + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
 + Data management {#data-management}
-   + [Schema&#39;s](using/get-started-schemas.md)
-   + [Gegevenssets](using/get-started-datasets.md)
-   + [Zoekopdrachten](using/get-started-queries.md)
+   + [Schema&#39;s](using/start/get-started-schemas.md)
+   + [Gegevenssets](using/start/get-started-datasets.md)
+   + [Zoekopdrachten](using/start/get-started-queries.md)
 + Configuratie{#configuration}
    + [Aan de slag met de Journey Optimizer-configuratie](using/configuration/get-started-configuration.md)
    + Berichten configureren {#configuration-message}
       + Configuratie van pushmeldingen{#push-config}
-         + [Aan de slag met de pushconfiguratie](using/push-gs.md)
-         + [Pushmeldingskanaal configureren](using/push-configuration.md)
+         + [Aan de slag met de pushconfiguratie](using/messages/push-gs.md)
+         + [Pushmeldingskanaal configureren](using/messages/push-configuration.md)
       + E-mailconfiguratie {#email-configuration}
          + Subdomeinen delegeren {#delegate-subdomains}
             + [Aan de slag met subdomeindelegatie](using/configuration/about-subdomain-delegation.md)
@@ -355,7 +355,7 @@ ht-degree: 50%
          + [Acties](using/action/action.md)
          + [Een actie configureren](using/action/about-custom-action-configuration.md)
          + [Integreren met Adobe Campaign v7/v8](using/action/acc-action.md)
-   + [Bronnen](using/get-started-sources.md)
+   + [Bronnen](using/start/get-started-sources.md)
 + Toegangsbeheer {#access-control}
    + [Overzicht van toegangsbeheer](using/administration/permissions-overview.md)
    + [Geïntegreerde productprofielen](using/administration/ootb-product-profiles.md)
