@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: 1316d7564a26db3e5be30a1b35e97e4fd15decd1
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2416'
 ht-degree: 9%
 
 ---
@@ -56,10 +56,11 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 * Journey Optimizer step-gebeurtenissen kunnen nu worden gekoppeld aan andere datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). De **profileID** in het ingebouwde schema voor de gebeurtenis van de Stap van de Reis, wordt nu gedefinieerd als identiteitsgebied. [Meer informatie](../reports/sharing-overview.md#integration-cja)
 
-
 **offer decisioning**
 
 * Wanneer u een aanbod, een fallback-aanbieding, een verzameling van aanbiedingen of een besluit van een aanbieding bijwerkt waarnaar direct of indirect wordt verwezen in een gepubliceerd bericht, worden de updates nu automatisch weerspiegeld in het bijbehorende bericht, zonder dat u het bericht opnieuw hoeft te publiceren. [Meer informatie](../offers/offers-e2e.md#insert-decision-in-email)
+
+* Wanneer het simuleren welke aanbiedingen voor een bepaald testprofiel zullen worden geleverd, kunt u de standaardsimulatie montages nu wijzigen, en de code bekijken die aan uw simulaties beantwoordt die voor het oplossen van problemendoel kunnen worden gebruikt. [Meer informatie](../offers/offer-activities/simulation.md#define-simulation-settings)
 
 **Beheer**
 

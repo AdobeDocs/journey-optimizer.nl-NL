@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: e5ebf038565329fdaa7b01a12042c2c4bba79f37
+source-git-commit: b8ef0326952f26453440b9031fe121f4dc14807e
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 35%
@@ -48,7 +48,7 @@ De configuratie van subdomain staat u toe om een onderafdeling van uw domein (te
 
 * **Volledige subdomeindelegatie aan Adobe** (aanbevolen): Het subdomein wordt volledig gedelegeerd aan Adobe. Adobe kan alle aspecten van DNS beheren en handhaven die voor het leveren, het teruggeven en het volgen van berichten worden vereist. [Meer informatie over volledige subdomeindelegatie](delegate-subdomain.md#full-subdomain-delegation)
 
-* **Gebruik van CNAME&#39;s**: Creeer subdomain en gebruik CNAMEs om aan Adobe-specifieke verslagen te richten. Gebruikend deze opstelling, zowel u als Adobe ashare verantwoordelijkheid voor het handhaven van DNS. [Meer informatie over CNAME-subdomeindelegatie](delegate-subdomain.md#cname-subdomain-delegation)
+* **Gebruik van CNAME&#39;s**: Creeer subdomain en gebruik CNAMEs om aan Adobe-specifieke verslagen te richten. Gebruikend deze opstelling, zowel delen u als Adobe verantwoordelijkheid voor het handhaven van DNS. [Meer informatie over CNAME-subdomeindelegatie](delegate-subdomain.md#cname-subdomain-delegation)
 
 In de onderstaande tabel wordt een overzicht gegeven van de werking van deze methoden en van het betrokken inspanningsniveau:
 

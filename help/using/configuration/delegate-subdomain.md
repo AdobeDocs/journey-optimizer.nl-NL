@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: b8ef0326952f26453440b9031fe121f4dc14807e
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1433'
 ht-degree: 5%
 
 ---
@@ -24,15 +24,15 @@ Domeinnaamdelegatie is een methode die de eigenaar van een domeinnaam toestaat (
 
 Door een subdomein voor gebruik met te delegeren [!DNL Journey Optimizer], kunnen de cliënten op Adobe vertrouwen om de DNS infrastructuur te handhaven die wordt vereist om industrie-standaardleveringsvereisten voor hun e-mailmarketing verzendende domeinen te ontmoeten, terwijl het blijven DNS voor hun interne e-maildomeinen handhaven en controleren.
 
-## Volledige subdomeindelegatie {#full-subdomain-delegation}
-
-[!DNL Journey Optimizer] staat u toe om uw subdomeinen aan Adobe direct van de productinterface volledig te delegeren. Door dit te doen, zal Adobe berichten als beheerde dienst kunnen leveren door alle aspecten van DNS te controleren en te handhaven die voor het leveren, het teruggeven en het volgen van e-mailcampagnes worden vereist.
-
 >[!NOTE]
 >
 >Standaard, [!DNL Journey Optimizer] Met een licentiecontract kunt u maximaal 10 subdomeinen delegeren. Neem contact op met uw Adobe als u deze beperking wilt verhogen.
 
-Voer de volgende stappen uit om een nieuw subdomein te delegeren:
+## Volledige subdomeindelegatie {#full-subdomain-delegation}
+
+[!DNL Journey Optimizer] staat u toe om uw subdomeinen aan Adobe direct van de productinterface volledig te delegeren. Door dit te doen, zal Adobe berichten als beheerde dienst kunnen leveren door alle aspecten van DNS te controleren en te handhaven die voor het leveren, het teruggeven en het volgen van e-mailcampagnes worden vereist.
+
+Volg de onderstaande stappen om een nieuw subdomein volledig te delegeren aan Adobe:
 
 1. Toegang krijgen tot **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** en klik vervolgens op **[!UICONTROL Set up subdomain]**.
 
