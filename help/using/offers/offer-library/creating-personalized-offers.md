@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 83bb29b7026c90560ffdb961b03944d8f94c8a8c
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 1%
+source-wordcount: '1491'
+ht-degree: 2%
 
 ---
 
@@ -28,6 +28,12 @@ De lijst met gepersonaliseerde aanbiedingen is toegankelijk in het **[!UICONTROL
 ![](../../assets/offers_list.png)
 
 ## De aanbieding maken {#create-offer}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_attributes"
+>title="Aanbiedingskenmerken"
+>abstract="Met aanbiedingskenmerken kunt u sleutelwaardeparen aan de aanbieding koppelen voor rapportage- en analysedoeleinden."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Demovideo bekijken"
 
 Om een **aanbieden** Voer de volgende stappen uit:
 
@@ -141,6 +147,30 @@ U kunt ook teksttype-inhoud invoegen wanneer u een compatibele plaatsing selecte
    >Alleen de **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** en **[!UICONTROL Helper functions]** bronnen beschikbaar zijn voor het beheer van besluiten.
 
 ## Subsidiabiliteitsregels en beperkingen toevoegen {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="od_offer_constraints"
+>title="Over aanbiedingsbeperkingen"
+>abstract="Met beperkingen, kunt u specificeren hoe de aanbieding aan de gebruiker in vergelijking met andere aanbiedingen voorrang wordt gegeven en wordt voorgesteld."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Demovideo bekijken"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_eligibility"
+>title="Geschiktheid voor aanbieding"
+>abstract="In deze sectie kunt u besluitvormingsregels gebruiken om te bepalen welke gebruikers in aanmerking komen voor de aanbieding."
+>additional-url="https://video.tv.adobe.com/v/329373" text="Demovideo bekijken"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_priority"
+>title="Info over aanbiedingsprioriteit"
+>abstract="Op dit gebied, kunt u prioritaire montages voor de aanbieding specificeren. Prioriteit is een nummer dat wordt gebruikt om aanbiedingen te rangschikken die aan alle beperkingen voldoen, zoals geschiktheid, datums en aftopping."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Demovideo bekijken"
+
+>[!CONTEXTUALHELP]
+>id="od_offer_globalcap"
+>title="Over aanbiedingen beperken"
+>abstract="In dit veld kunt u opgeven hoe vaak de aanbieding voor alle gebruikers kan worden weergegeven."
+>additional-url="https://video.tv.adobe.com/v/329375" text="Demovideo bekijken"
 
 Aan de hand van de regels en beperkingen op het gebied van geschiktheid kunt u bepalen onder welke voorwaarden een aanbieding wordt weergegeven.
 
