@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
-source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '141'
 ht-degree: 3%
 
 ---
 
 # Een beslissing verwijderen {#delete-decision}
 
-Het kan soms nodig zijn een beslissing (DELETE) te schrappen (voorheen bekend als aanbiedingsactiviteit). Slechts kunnen de besluiten die u in de huurderscontainer creeert worden geschrapt. Dit wordt gedaan door een verzoek van de DELETE aan uit te voeren [!DNL Offer Library] API gebruikt $id van de fallback-aanbieding die u wilt verwijderen.
+Het kan soms nodig zijn een beslissing te schrappen (DELETE). Slechts kunnen de besluiten die u in de huurderscontainer creeert worden geschrapt. Dit wordt gedaan door een verzoek van de DELETE aan uit te voeren [!DNL Offer Library] API gebruikt $id van de fallback-aanbieding die u wilt verwijderen.
 
 **API-indeling**
 

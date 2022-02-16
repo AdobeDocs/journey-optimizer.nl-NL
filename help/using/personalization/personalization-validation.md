@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: baa98afcc8e5e9be3062c8c16adc7f4ae17b15b7
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Bron met id activityID en type OfferActivity niet gevonden<br/></td>
    <td>De afbeeldingsaanbiedingen (alle gepersonaliseerde en reservekopieën die aan de beslissing en het plaatsingspaar zijn gekoppeld) moeten een openbare URL hebben die is gevuld (de bezorgings-URL mag niet leeg zijn).</td> 
   </tr> 
   <tr> 
-   <td>Het besluit (voorheen bekend als aanbiedingsactiviteit) bevat niet-profielkenmerken.</td> 
+   <td>De beslissing bevat niet-profielkenmerken.</td> 
    <td>Het modelgebruik van aanbiedingen mag alleen de profielkenmerken bevatten.</td> 
   </tr> 
   <tr> 

@@ -2,10 +2,10 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 24%
+source-wordcount: '919'
+ht-degree: 23%
 
 ---
 
@@ -24,6 +24,11 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 * Het gedeelte over [!DNL Journey Optimizer] personaliseringsmogelijkheden zijn gereorganiseerd voor een betere leesbaarheid . [Meer informatie](../personalization/personalize.md)
 
+* De sectie met voorinstellingen voor berichten maken is voor meer duidelijkheid in verschillende secties onderverdeeld. [Meer informatie](../configuration/message-presets.md#create-message-preset)
+
+* De sectie Opt-out management is verduidelijkt en enigszins gereorganiseerd. [Meer informatie](../messages/consent.md#opt-out-management)
+
+* De sectie Koppelingen invoegen is bijgewerkt met de recente wijzigingen in de gebruikersinterface. [Meer informatie](../messages/message-tracking.md#insert-links)
 
 ## November 2021 {#november-2021}
 
@@ -87,7 +92,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De sectie lijst van gewenste personen inschakelen is bijgewerkt. [Meer informatie](../messages/allow-list.md#enable-allow-list)
 * De sectie met voorinstellingen voor monitorberichten is bijgewerkt met de mogelijke oorzaken van een eventuele fout bij het maken van de voorinstelling en details over dergelijke fouten. [Meer informatie](../configuration/message-presets.md#monitor-message-presets)
 * De sectie Tijdsperiode voor opnieuw proberen is bijgewerkt en de naam is gewijzigd om aan te geven dat u de instelling voor het opnieuw proberen van e-mail nu kunt aanpassen in de voorinstellingen voor berichten. [Meer informatie](../configuration/retries.md#retry-duration)
-* Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u met één klik een koppeling om te weigeren kunt invoegen in e-mailinhoud. [Meer informatie](../messages/message-tracking.md#one-click-opt-out-link)
+* Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u met één klik een koppeling om te weigeren kunt invoegen in e-mailinhoud. [Meer informatie](../messages/consent.md#one-click-opt-out-link)
 * De subdomeinsectie Delegeren is bijgewerkt met meer gedetailleerde informatie over het validatieproces dat door Adobe wordt uitgevoerd. [Meer informatie](../configuration/delegate-subdomain.md#subdomain-validation)
 * Er is een sectie toegevoegd waarin wordt beschreven hoe u handmatig e-mailadressen en domeinen aan de suppressielijst kunt toevoegen. [Meer informatie](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * De [De lijst met onderdrukking openen](../configuration/manage-suppression-list.md#access-suppression-list) en [Opnieuw](../configuration/retries.md) secties om de nieuwe gebruikersinterface te weerspiegelen.

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: fc6ec2c916f6fbf3d6c6728b5a50ae7e54d9b42f
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
@@ -52,11 +52,13 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
    * **[!UICONTROL Landing page]**: Koppelingen naar bestemmingspagina&#39;s invoegen. Meer informatie in [deze sectie](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL Unsubscription link]**: Voeg een koppeling in om uw abonnement op te zeggen dat u geen communicatie van uw merk wilt ontvangen. Meer informatie over beheer van opt-out in [deze sectie](consent.md#opt-out-management).
+   * **[!UICONTROL One click Opt-out]**: Voeg een koppeling in om gebruikers in staat te stellen zich snel af te melden voor uw communicatie zonder dat ze hoeven te bevestigen dat ze het abonnement willen opzeggen. Meer informatie in [deze sectie](consent.md#one-click-opt-out).
+
+   * **[!UICONTROL External Opt-in/Subscription]**: Voeg een koppeling in om het ontvangen van communicatie van uw merk te accepteren.
+
+   * **[!UICONTROL External Opt-out/Unsubscription]**: Voeg een koppeling in om uw abonnement op te zeggen dat u geen communicatie van uw merk wilt ontvangen. Meer informatie over beheer van opt-out in [deze sectie](consent.md#opt-out-management).
 
    * **[!UICONTROL Mirror page]**: Voeg een koppeling in om de e-mailinhoud in een webbrowser weer te geven. Meer informatie in [deze sectie](#mirror-page).
-
-   * **[!UICONTROL Opt-out]**: Voeg een koppeling in om gebruikers in staat te stellen zich snel af te melden voor uw communicatie zonder dat ze hoeven te bevestigen dat ze het abonnement willen opzeggen. Meer informatie in [deze sectie](#one-click-opt-out-link).
 
    ![](assets/message-tracking-links.png)
 
@@ -66,7 +68,7 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
 1. Als de koppeling eenmaal is gemaakt, kunt u deze nog steeds wijzigen in het menu **[!UICONTROL Component settings]** aan de rechterkant.
 
-   * Klik op het potloodpictogram om de koppeling te bewerken.
+   * U kunt de koppeling bewerken en het type van de koppeling wijzigen.
    * U kunt de koppeling onderstrepen of niet door de bijbehorende optie in te schakelen.
 
    ![](assets/message-tracking-link-settings.png)
@@ -93,34 +95,6 @@ Wanneer de e-mail is verzonden en de ontvangers op de koppeling voor de spiegelp
 
 De retentieperiode voor een spiegelpagina is 60 dagen. Na die vertraging is de spiegelpagina niet meer beschikbaar.
 
-## Een-klik-koppeling voor weigeren {#one-click-opt-out-link}
-
-Om uw ontvangers in staat te stellen om snel af te zien van het ontvangen van mededelingen van uw merk, kunt u een één-klik opt-out verbinding in uw e-mailinhoud opnemen. Hierdoor wordt voorkomen dat gebruikers worden omgeleid naar een bestemmingspagina waar ze hun keuze moeten bevestigen, waardoor het afmeldingsproces wordt versneld.
-
-Volg onderstaande stappen om een koppeling om te weigeren toe te voegen in uw e-mail.
-
-1. [Een koppeling invoegen](#insert-links) en selecteert u **[!UICONTROL Opt-out]** als het type koppeling.
-
-   ![](assets/message-tracking-opt-out.png)
-
-1. Selecteer hoe u de optie Weigeren wilt toepassen: op het kanaal, de identiteit, of abonnementsniveau.
-
-   ![](assets/message-tracking-opt-out-level.png)
-
-   * **[!UICONTROL Channel]**: De opt-out is van toepassing op toekomstige berichten die naar het doel van het profiel (d.w.z. e-mailadres) voor het huidige kanaal worden verzonden. Als er meerdere doelen aan een profiel zijn gekoppeld, geldt de opt-out voor alle doelen (e-mailadressen) in het profiel voor dat kanaal.
-   * **[!UICONTROL Identity]**: De opt-out is van toepassing op toekomstige berichten die worden verzonden naar het specifieke doel (d.w.z. e-mailadres) dat voor het huidige bericht wordt gebruikt.
-   * **[!UICONTROL Subscription]**: De opt-out is van toepassing op toekomstige berichten verbonden aan een specifieke abonnementenlijst. Deze optie kan alleen worden geselecteerd als het huidige bericht is gekoppeld aan een abonnementenlijst.
-
-1. Voer de URL in van de bestemmingspagina waarop de gebruiker wordt omgeleid wanneer het abonnement wordt opgezegd. Deze pagina is alleen hier om te bevestigen dat de optie Weigeren is gelukt.
-
-   ![](assets/message-tracking-opt-out-confirmation.png)
-
-   U kunt uw koppelingen aanpassen. Meer informatie over gepersonaliseerde URL&#39;s vindt u in [deze sectie](../personalization/personalization-syntax.md).
-
-1. Sla uw wijzigingen op.
-
-Als ontvangers op de koppeling Weigeren klikken en uw bericht eenmaal zijn verzonden, worden ze direct uitgeschakeld.
-
 ## Beheer van bijhouden {#manage-tracking}
 
 De [E-mailontwerper](create-email-content.md) Hiermee kunt u de bijgehouden URL&#39;s beheren, zoals het bewerken van het trackingtype voor elke koppeling.
@@ -134,7 +108,6 @@ De [E-mailontwerper](create-email-content.md) Hiermee kunt u de bijgehouden URL&
    ![](assets/message-tracking-edit-links.png)
 
 1. U kunt de **[!UICONTROL Tracking Type]** indien nodig:
-
 
    ![](assets/message-tracking-edit-a-link.png)
 

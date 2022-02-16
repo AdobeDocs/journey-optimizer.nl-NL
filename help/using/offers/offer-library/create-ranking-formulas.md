@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '602'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 De rangschikkingsformules worden uitgedrukt in **PQL-syntaxis** en kan profielkenmerken, contextgegevens en kenmerken gebruiken. Raadpleeg voor meer informatie over het gebruik van de PQL-syntaxis de [speciale documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
 
-Zodra een rangschikkende formule is gecreeerd, kunt u het aan een plaatsing in een besluit (dat vroeger als aanbiedingsactiviteit wordt bekend) toewijzen. Zie voor meer informatie [Aanbiedingen selecteren in beslissingen configureren](../offer-activities/configure-offer-selection.md).
+Nadat u een rangschikkingsformule hebt gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Zie voor meer informatie [Aanbiedingen selecteren in beslissingen configureren](../offer-activities/configure-offer-selection.md).
 
 ## Een waarderingsformule maken {#create-ranking-formula}
 

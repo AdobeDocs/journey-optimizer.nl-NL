@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 07be59e8-e994-4854-8089-25614d005dbe
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 83%
+source-wordcount: '128'
+ht-degree: 78%
 
 ---
 
@@ -22,7 +22,7 @@ Elke gebeurtenis die wordt verzonden wanneer een besluit wordt genomen, bevat vi
 * **[!UICONTROL Fallback]**: naam en ID van de alternatieve aanbieding als er geen persoonlijke aanbieding is geselecteerd;
 * **[!UICONTROL Placement]**: naam, id en kanaal van de plaatsing die voor de aanbieding wordt gebruikt;
 * **[!UICONTROL Selections]**: naam en id van de voor het profiel geselecteerde aanbieding;
-* **[!UICONTROL Activity]**: naam en ID van de beslissing (voorheen aanbiedingsactiviteit genoemd).
+* **[!UICONTROL Activity]**: Naam en ID van de beslissing.
 
 Daarnaast kunt u ook de **[!UICONTROL identityMap]** en **[!UICONTROL Timestamp]**-velden gebruiken om informatie op te halen over het profiel en het tijdstip waarop de aanbieding is geleverd.
 

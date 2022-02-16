@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 6%
+source-wordcount: '114'
+ht-degree: 7%
 
 ---
 
 # Een beslissing nemen {#create-decision}
 
-U kunt een beslissing maken (voorheen bekend als aanbiedingsactiviteit) door een verzoek van de POST in te dienen bij de [!DNL Offer Library] API, terwijl u uw container-id opgeeft.
+U kunt een beslissing maken door een verzoek tot POST in te dienen bij de [!DNL Offer Library] API, terwijl u uw container-id opgeeft.
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 

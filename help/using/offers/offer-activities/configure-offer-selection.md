@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 77d7694524eaca447f0cf4e19881f1688fc4e789
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '463'
 ht-degree: 7%
 
 ---
 
 # Selectie van aanbiedingen in beslissingen configureren {#offers-selection-in-decisions}
 
-Als verscheidene aanbiedingen voor een bepaalde plaatsing verkiesbaar zijn, kunt u de methode kiezen die de beste aanbieding voor elk profiel zal selecteren wanneer het vormen van een besluit (eerder genoemd als aanbiedingsactiviteit). Je kunt voorstellen plaatsen op:
+Als verscheidene aanbiedingen voor een bepaalde plaatsing verkiesbaar zijn, kunt u de methode kiezen die de beste aanbieding voor elk profiel zal selecteren wanneer het vormen van een besluit. Je kunt voorstellen plaatsen op:
 * Voorstelprioriteit
 * Willekeurige formule
 * [AI-classificatie](#use-ranking-strategy) (alleen voor bepaalde gebruikers)
@@ -24,7 +24,7 @@ Als verscheidene aanbiedingen voor een bepaalde plaatsing verkiesbaar zijn, kunt
 
 ## Voorstelprioriteit {#offer-priority}
 
-Wanneer meerdere aanbiedingen in aanmerking komen voor een bepaalde plaatsing in een besluit (voorheen bekend als de aanbiedingsactiviteit), worden standaard de aanbiedingen met de hoogste **prioriteit** wordt eerst aan de klanten geleverd.
+Wanneer meerdere aanbiedingen in aanmerking komen voor een bepaalde plaatsing in een besluit, worden standaard de aanbiedingen met de hoogste **prioriteit** wordt eerst aan de klanten geleverd.
 
 ![](../../assets/offer-priority.png)
 
@@ -38,7 +38,7 @@ U kunt bijvoorbeeld de prioriteit verhogen van alle aanbiedingen met een einddat
 
 Leer hoe u een waarderingsformule maakt in [deze sectie](../offer-library/create-ranking-formulas.md).
 
-Zodra een rangschikkende formule is gecreeerd, kunt u het aan een plaatsing in een besluit (dat vroeger als aanbiedingsactiviteit wordt bekend) toewijzen. Volg de onderstaande stappen om dit te doen:
+Nadat u een rangschikkingsformule hebt gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Volg de onderstaande stappen om dit te doen:
 
 1. Maak een beslissing of bewerk een bestaande beslissing. Zie [Besluiten maken](../offer-activities/create-offer-activities.md).
 
@@ -60,13 +60,15 @@ Indien meerdere aanbiedingen in aanmerking komen om in deze plaatsing te worden 
 
 ## AI-rangschikking {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can also use an trained model system that automatically ranks offers to display for a given profile by selecting a ranking strategy. Learn how to create a ranking strategy in [this section](../offer-library/create-ranking-strategies.md).
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+
+U kunt ook een getraind modelsysteem gebruiken dat aanbiedingen voor een bepaald profiel automatisch rangschikt door een classificatiestrategie te selecteren. Leer hoe u een waarderingsstrategie maakt in [deze sectie](../offer-library/create-ranking-strategies.md).
 
 >[!CAUTION]
 >
 >Het gebruik van de AI-rangschikking is momenteel beschikbaar in een vroeg stadium en alleen voor bepaalde gebruikers.
 
-Zodra een rangschikkingsstrategie is gecreeerd, kunt u het aan een plaatsing in een besluit (dat vroeger als aanbiedingsactiviteit wordt bekend) toewijzen. Hiervoor voert u de volgende stappen uit:
+Zodra een rangschikkingsstrategie is gecreeerd, kunt u het aan een plaatsing in een besluit toewijzen. Hiervoor voert u de volgende stappen uit:
 
 1. Maak een beslissing of bewerk een bestaande beslissing. Zie [Besluiten maken](../offer-activities/create-offer-activities.md).
 

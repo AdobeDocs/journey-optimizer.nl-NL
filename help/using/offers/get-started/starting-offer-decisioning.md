@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '908'
 ht-degree: 45%
 
 ---
@@ -80,7 +80,7 @@ U kunt onder de lijst van de belangrijkste concepten vinden u zult werken met wa
 
 * **Verzamelingen**: verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketeer zijn gedefinieerd, zoals de categorie van de aanbieding.
 
-* **Besluit** (voorheen bekend als Offerteactiviteit): Een beslissing bevat de logica die de selectie van een aanbieding informeert.
+* **Besluit**: Een beslissing bevat de logica die de selectie van een aanbieding informeert.
 
 * **Beslissingsregel**: beslissingsregels zijn restricties die aan een persoonlijke aanbieding worden toegevoegd en op een profiel worden toegepast om te bepalen of dat profiel in aanmerking komt voor een aanbieding.
 

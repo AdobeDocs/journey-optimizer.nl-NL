@@ -2,7 +2,7 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1316d7564a26db3e5be30a1b35e97e4fd15decd1
+source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
 workflow-type: tm+mt
 source-wordcount: '2416'
 ht-degree: 9%
@@ -326,7 +326,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 **Inhoud ontwerpen**
 
 * **Achtergrond** - Achtergrondafbeeldingen worden nu ondersteund in live voorvertoning. [Meer informatie](../messages/preview.md)
-* **Een-klik-koppeling voor weigeren** - U kunt een nieuw type koppeling invoegen in uw e-mailinhoud: de **Uitschakelen** de verbinding staat gebruikers toe om van het ontvangen van uw mededelingen in slechts één klik af te zien, zonder opnieuw te worden gericht aan een het landen pagina om het uit kiezen te bevestigen. [Meer informatie](../messages/message-tracking.md#one-click-opt-out-link)
+* **Een-klik-koppeling voor weigeren** - U kunt een nieuw type koppeling invoegen in uw e-mailinhoud: de **Uitschakelen** de verbinding staat gebruikers toe om van het ontvangen van uw mededelingen in slechts één klik af te zien, zonder opnieuw te worden gericht aan een het landen pagina om het uit kiezen te bevestigen. [Meer informatie](../messages/consent.md#one-click-opt-out-link)
 
 **Personalisatie**
 

@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: 9db2ec80a23add5d5d01affaf1a7e7772952d487
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 50%
@@ -47,7 +47,7 @@ ht-degree: 50%
       + [Voorvertoning en proefdrukken](using/messages/preview.md)
       + [Waarschuwingen controleren](using/messages/alerts.md)
       + [Berichten publiceren](using/messages/publish-manage-message.md)
-   + [Weigeren beheren](using/messages/consent.md)
+   + [Toestemming beheren](using/messages/consent.md)
 + Personalisatie{#personalization}
    + [Aan de slag met personalisatie](using/personalization/personalize.md)
    + [Persoonlijke context](using/personalization/personalization-contexts.md)

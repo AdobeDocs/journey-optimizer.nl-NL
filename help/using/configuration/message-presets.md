@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: a5c104539cae37197e0caa43cefcfed2bee23737
+source-git-commit: 4a0b1ee220cc05e4dfc10724554b39bdfd0b6678
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1694'
 ht-degree: 1%
 
 ---
@@ -44,76 +44,11 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
    >
    > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook het onderstrepingsteken gebruiken `_`, punt`.` en afbreekstreepje `-` tekens.
 
-1. Configureer de **email** instellingen.
+1. Configureer de **email** instellingen. [Meer informatie](#configure-email-settings)
 
-   ![](../assets/preset-email.png)
+1. Configureer de **pushmelding** instellingen. [Meer informatie](#configure-push-settings)
 
-   * Selecteer het type bericht dat wordt verzonden met de voorinstelling: **Transactioneel** of **Marketing**
-
-      >[!CAUTION]
-      >
-      > **Transactioneel** berichten kunnen worden verzonden naar profielen die zich niet meer hebben geabonneerd op marketingberichten. Deze berichten kunnen alleen worden verzonden in specifieke contexten, zoals het opnieuw instellen van wachtwoorden, de status van de bestelling en leveringsmeldingen.
-
-   * Selecteer het subdomein dat u wilt gebruiken om de e-mails te verzenden. [Meer informatie](about-subdomain-delegation.md)
-   * Selecteer de IP-pool die u aan de voorinstelling wilt koppelen. [Meer informatie](ip-pools.md)
-   * Voer de headerparameters in voor de e-mails die u met die voorinstelling hebt verzonden.
-
-      >[!CAUTION]
-      >
-      >E-mailadressen moeten de geselecteerde [gedelegeerd subdomein](about-subdomain-delegation.md).
-
-      * **[!UICONTROL Sender name]**: De naam van de afzender, zoals de naam van uw merk.
-
-      * **[!UICONTROL Sender email]**: Het e-mailadres dat u voor uw communicatie wilt gebruiken. Als het gedelegeerde subdomein bijvoorbeeld *marketing.luma.com* kunt u *contact@marketing.luma.com*.
-
-      * **[!UICONTROL Reply to (name)]**: De naam die wordt gebruikt wanneer de ontvanger op de knop **Reageren** in hun e-mailclientsoftware.
-
-      * **[!UICONTROL Reply to (email)]**: Het e-mailadres dat wordt gebruikt wanneer de ontvanger op de knop **Reageren** in hun e-mailclientsoftware. U moet een adres gebruiken dat op gedelegeerde subdomein wordt bepaald (bijvoorbeeld *reply@marketing.luma.com*), anders worden de e-mails verwijderd.
-
-      * **[!UICONTROL Error email]**: Alle fouten die door ISPs na een paar dagen van post worden geproduceerd die (asynchrone stuitingen) worden ontvangen op dit adres.
-      >[!NOTE]
-      >
-      >Met ingang van de release van oktober 2021 is het niet meer mogelijk een e-mailadres voor verzending te definiëren vanaf de [!DNL Journey Optimizer] gebruikersinterface. Als je alle e-mails wilt ontvangen door [!DNL Journey Optimizer] voor het gedelegeerde subdomein dat naar een specifiek e-mailadres moet worden doorgestuurd, neemt u contact op met de [Adobe-team voor klantenondersteuning](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
-
-      ![](../assets/preset-header.png)
-
-      >[!NOTE]
-      >
-      >Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook het onderstrepingsteken gebruiken `_`, punt`.` en afbreekstreepje `-` tekens.
-
-   * Configureer de **parameters voor e-mailpogingen**. Standaard worden de [periode voor opnieuw uitproberen](retries.md#retry-duration) is ingesteld op 84 uur, maar u kunt deze instelling aanpassen aan uw wensen.
-
-      ![](../assets/preset-retry-paramaters.png)
-
-      U moet een geheel-getalwaarde (in uren of notulen) binnen de volgende waaier ingaan:
-      * Voor het e-mailtype voor marketing is de minimale herroepingstermijn 6 uur.
-      * Voor transactie-e-mailtype is de minimale herroepingstermijn 10 minuten.
-      * Voor beide e-mailtypen is de maximale hergebruiksperiode 84 uur (of 5040 minuten).
-
-
-1. Configureer de **pushmelding** instellingen.
-
-   ![](../assets/preset-push.png)
-
-   * Selecteer ten minste één platform: **iOS** en/of **Android**
-
-   * Selecteer de mobiele toepassingen die u voor elk platform wilt gebruiken.
-
-      Raadpleeg voor meer informatie over het configureren van uw omgeving voor het verzenden van pushberichten de [deze sectie](../messages/push-gs.md).
-
-<!--
-1. Configure the **SMS** settings.
-
-     ![](../assets/preset-sms.png)
-
-    * Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**
-    
-    * Select the **[!UICONTROL SMS configuration]** to associate with the preset.
-        
-      For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
-
-    * Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
--->
+   <!--Configure SMS settings. [Learn more](#configure-sms-settings) -->
 
 1. Zodra alle parameters zijn gevormd, klik **[!UICONTROL Submit]** ter bevestiging. U kunt de berichtvoorinstelling ook opslaan als concept en de configuratie ervan later hervatten.
 
@@ -140,6 +75,78 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 1. Als de controles zijn voltooid, wordt met de berichtvoorinstelling het volgende opgehaald **[!UICONTROL Active]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
    ![](../assets/preset-active.png)
+
+## E-mailinstellingen configureren {#configure-email-settings}
+
+![](../assets/preset-email.png)
+
+1. Selecteer het type bericht dat wordt verzonden met de voorinstelling: **Transactioneel** of **Marketing**.
+
+   >[!CAUTION]
+   >
+   > **Transactioneel** berichten kunnen worden verzonden naar profielen die zich niet meer hebben geabonneerd op marketingberichten. Deze berichten kunnen alleen worden verzonden in specifieke contexten, zoals het opnieuw instellen van wachtwoorden, de status van de bestelling en leveringsmeldingen.
+
+1. Selecteer het subdomein dat u wilt gebruiken om de e-mails te verzenden. [Meer informatie](about-subdomain-delegation.md)
+
+1. Selecteer de IP-pool die u aan de voorinstelling wilt koppelen. [Meer informatie](ip-pools.md)
+
+1. Voer de headerparameters in voor de e-mails die u met die voorinstelling hebt verzonden.
+
+   >[!CAUTION]
+   >
+   >E-mailadressen moeten de geselecteerde [gedelegeerd subdomein](about-subdomain-delegation.md).
+
+   * **[!UICONTROL Sender name]**: De naam van de afzender, zoals de naam van uw merk.
+
+   * **[!UICONTROL Sender email]**: Het e-mailadres dat u voor uw communicatie wilt gebruiken. Als het gedelegeerde subdomein bijvoorbeeld *marketing.luma.com* kunt u *contact@marketing.luma.com*.
+
+   * **[!UICONTROL Reply to (name)]**: De naam die wordt gebruikt wanneer de ontvanger op de knop **Reageren** in hun e-mailclientsoftware.
+
+   * **[!UICONTROL Reply to (email)]**: Het e-mailadres dat wordt gebruikt wanneer de ontvanger op de knop **Reageren** in hun e-mailclientsoftware. U moet een adres gebruiken dat op gedelegeerde subdomein wordt bepaald (bijvoorbeeld *reply@marketing.luma.com*), anders worden de e-mails verwijderd.
+
+   * **[!UICONTROL Error email]**: Alle fouten die door ISPs na een paar dagen van post worden geproduceerd die (asynchrone stuitingen) worden ontvangen op dit adres.
+   >[!NOTE]
+   >
+   >Met ingang van de release van oktober 2021 is het niet meer mogelijk een e-mailadres voor verzending te definiëren vanaf de [!DNL Journey Optimizer] gebruikersinterface. Als je alle e-mails wilt ontvangen door [!DNL Journey Optimizer] voor het gedelegeerde subdomein dat naar een specifiek e-mailadres moet worden doorgestuurd, neemt u contact op met de [Adobe-team voor klantenondersteuning](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+
+   ![](../assets/preset-header.png)
+
+   >[!NOTE]
+   >
+   >Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook het onderstrepingsteken gebruiken `_`, punt`.` en afbreekstreepje `-` tekens.
+
+1. Configureer de **parameters voor e-mailpogingen**. Standaard worden de [periode voor opnieuw uitproberen](retries.md#retry-duration) is ingesteld op 84 uur, maar u kunt deze instelling aanpassen aan uw wensen.
+
+   ![](../assets/preset-retry-paramaters.png)
+
+   U moet een geheel-getalwaarde (in uren of notulen) binnen de volgende waaier ingaan:
+   * Voor het e-mailtype voor marketing is de minimale herroepingstermijn 6 uur.
+   * Voor transactie-e-mailtype is de minimale herroepingstermijn 10 minuten.
+   * Voor beide e-mailtypen is de maximale hergebruiksperiode 84 uur (of 5040 minuten).
+
+## Pushinstellingen configureren {#configure-push-settings}
+
+1. Selecteer ten minste één platform: **iOS** en/of **Android**.
+
+1. Selecteer de mobiele toepassingen die u voor elk platform wilt gebruiken.
+
+![](../assets/preset-push.png)
+
+Raadpleeg voor meer informatie over het configureren van uw omgeving voor het verzenden van pushberichten de [deze sectie](../messages/push-gs.md).
+
+<!--
+## Configure SMS settings {#configure-sms-settings}
+
+1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
+
+    ![](../assets/preset-sms.png)
+    
+1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
+        
+    For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
+
+1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
+-->
 
 ## Voorinstellingen voor monitorberichten {#monitor-message-presets}
 

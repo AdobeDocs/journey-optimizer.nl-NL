@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 3e22c572ba05f1d084c87e550c80f521e39d7520
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 3%
@@ -46,8 +46,8 @@ Bovendien kunt u uw **Litmus** account [!DNL Journey Optimizer] om direct een vo
 >id="ac_preview_testprofiles"
 >title="Berichten voorvertonen en testen"
 >abstract="Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#email-rendering" text="E-mailweergave"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/create-messages/create-message/preview.html?lang=en#preview-your-messages" text="Voorvertoning"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/validate/preview.html?lang=en#email-rendering" text="E-mailweergave"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/validate/preview.html?lang=en#preview-your-messages" text="Voorvertoning"
 
 Gebruiken [Testprofielen](../building-journeys/creating-test-profiles.md) om extra ontvangers te richten die niet de bepaalde het richten criteria aanpassen.
 

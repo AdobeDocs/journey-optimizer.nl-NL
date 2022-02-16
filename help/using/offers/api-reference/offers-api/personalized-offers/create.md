@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 9873af4caf7cd8bc4e9672748414bf78f28ed30b
+source-git-commit: bdb7b6373cb9f5a64a74a8503f46adb3fd226f77
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '179'
 ht-degree: 6%
 
 ---
@@ -104,4 +104,4 @@ Een succesvol antwoord retourneert informatie over de nieuwe persoonlijke aanbie
 
 ## Beperkingen {#limitations}
 
-Sommige aanbiedingsbeperkingen worden momenteel niet ondersteund voor de mobiele telefoon [!DNL Experience Edge] workflows, bijvoorbeeld `Capping`. De `Capping` de veldwaarde specificeert het aantal tijden een aanbieding voor alle gebruikers kan worden voorgesteld. Zie voor meer informatie [Aanbiedingsregels en documentatie over beperkingen](../../../offer-library/creating-personalized-offers.md).
+Aanbiedingsweergaven en sommige aanbiedingsbeperkingen worden momenteel niet ondersteund voor het mobiele apparaat [!DNL Experience Edge] workflows, bijvoorbeeld `Capping`. De `Capping` de veldwaarde specificeert het aantal tijden een aanbieding voor alle gebruikers kan worden voorgesteld. Zie voor meer informatie [Aanbiedingsregels en documentatie over beperkingen](../../../offer-library/creating-personalized-offers.md).
