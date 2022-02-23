@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -27,26 +27,28 @@ Gebruik de **[!UICONTROL Global report]** om de impact van uw reizen en levering
 
 ## Het dashboard aanpassen {#modify-dashboard}
 
-Elk rapporteringsdashboard kan worden gewijzigd door het formaat van widgets te wijzigen of deze te verwijderen of door het beoogde tijdkader te wijzigen. Het wijzigen van de widgets heeft alleen invloed op het dashboard van de huidige gebruiker. Andere gebruikers zien hun eigen dashboards of de dashboards die standaard zijn ingesteld.
+Elk rapportdashboard kan worden gewijzigd door de tijdsperiode te wijzigen en widgets te vergroten of te verkleinen of te verwijderen. Het wijzigen van de widgets heeft alleen invloed op het dashboard van de huidige gebruiker. Andere gebruikers zien hun eigen dashboards of de dashboards die standaard zijn ingesteld.
 
-1. Van uw **[!UICONTROL Global report]** dashboard, klik de plannerknoop.
+1. Van uw Globale rapport, selecteer een tijd van het Begin en van het Eind om specifieke gegevens te richten.
 
-1. Selecteer de begin- en einddatum. U kunt uw rapporten verder verfijnen door een **[!UICONTROL Start time]** en **[!UICONTROL End time]**.
+   ![](../assets/report_modify_1.png)
 
-   ![](../assets/global_report_6.png)
+1. Kies of u testgebeurtenissen wilt uitsluiten van uw rapporten met de schakelbalk. Raadpleeg voor meer informatie over testgebeurtenissen [deze pagina](../building-journeys/testing-the-journey.md).
 
-1. klikken **[!UICONTROL Modify]**.
+   ![](../assets/report_modify_2.png)
 
-   ![](../assets/global_report_8.png)
+1. Klikken **[!UICONTROL Modify]** om het dashboard aan te passen.
+
+   ![](../assets/report_modify_3.png)
 
 1. Pas de widgetgrootte aan door de rechterbenedenhoek te slepen.
 
-   ![](../assets/global_report_9.png)
+   ![](../assets/report_modify_4.png)
 
-1. Klikken **[!UICONTROL Remove]** om andere widgets te verwijderen die u niet hoeft te volgen.
+1. Klikken **[!UICONTROL Remove]** om een widget te verwijderen die u niet nodig hebt.
 
-   ![](../assets/global_report_10.png)
+   ![](../assets/report_modify_5.png)
 
 1. Als u tevreden bent met de weergavevolgorde en de grootte van de widgets, klikt u op **[!UICONTROL Save]**.
 
-Uw dashboard wordt nu opgeslagen. Uw verschillende wijzigingen worden opnieuw toegepast voor een later gebruik van uw algemene rapporten. Gebruik indien nodig de **[!UICONTROL Reset]** gebruiken om de standaardvolgorde van widgets en widgets te herstellen.
+Uw dashboard wordt nu opgeslagen. Uw verschillende wijzigingen worden opnieuw toegepast voor een later gebruik van uw live rapporten. Gebruik indien nodig de **[!UICONTROL Reset]** gebruiken om de standaardvolgorde van widgets en widgets te herstellen.

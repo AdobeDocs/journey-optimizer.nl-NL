@@ -1,26 +1,35 @@
 ---
 solution: Journey Orchestration
-title: Aangepaste acties configureren
+title: Een aangepaste handeling configureren
 description: Leer hoe u een aangepaste handeling configureert
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: a101ee8cd7b57ee951d0ef2d5fd366757cb0a014
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 6%
+source-wordcount: '863'
+ht-degree: 5%
 
 ---
 
-# Een actie configureren {#configure-an-action}
+# Een aangepaste handeling configureren {#configure-an-action}
 
-Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, is dit waar u zijn verbinding aan reizen vormt. De aangepaste actie die door technische gebruikers is gedefinieerd, is dan beschikbaar in het linkerpalet van uw reis, in het dialoogvenster **[!UICONTROL Action]** categorie (zie [deze pagina](../building-journeys/about-journey-activities.md#action-activities). Hier volgen enkele voorbeelden van systemen waarmee u verbinding kunt maken met aangepaste handelingen: Epsilon, Slack, Adobe.io, Firebase, enz.
+Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om zijn verbinding aan uw reis te vormen. U kunt bijvoorbeeld met aangepaste handelingen verbinding maken met de volgende systemen: Epsilon, Slack, Adobe.io, Firebase, enz.
 
-Beperkingen worden vermeld in [deze pagina](../start/limitations.md).
+Aangepaste acties zijn aanvullende acties die door technische gebruikers worden gedefinieerd en beschikbaar worden gesteld aan verkopers. Zodra gevormd, verschijnen zij in het linkerpalet van uw reis, in **[!UICONTROL Action]** categorie. Meer informatie in [deze pagina](../building-journeys/about-journey-activities.md#action-activities).
 
-U kunt verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen. Zie dit [use case](../building-journeys/collections.md).
+## Beperkingen{#custom-actions-limitations}
+
+Aangepaste acties worden geleverd met enkele beperkingen die worden vermeld in [deze pagina](../start/limitations.md).
+
+In parameters voor aangepaste handelingen kunt u een eenvoudige verzameling en een verzameling objecten doorgeven. Meer informatie over verzamelingsbeperkingen vindt u in [deze pagina](../building-journeys/collections.md#limitations).
+
+Houd er ook rekening mee dat de parameters voor aangepaste handelingen een verwachte indeling hebben (bijvoorbeeld: tekenreeks, decimaal, enz.). U moet deze verwachte formaten zorgvuldig respecteren. Meer informatie in deze [use case](../building-journeys/collections.md).
+
+
+## Configuratiestappen {#configuration-steps}
 
 Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vormen:
 

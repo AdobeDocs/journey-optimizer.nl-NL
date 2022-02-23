@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+source-git-commit: 7324b5dd448b770990aad485fa2b13bc131cbcb1
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de
 
 ## Belangrijke opmerkingen {#important-notes}
 
-* Er is geen vertraging van berichten. Wij begrenzen het aantal berichten die over aan 50.000/uur kunnen worden verzonden die op onze huidige Campagne SLA wordt gebaseerd. Daarom mag Journey Optimizer alleen worden gebruikt in gevallen van eenmalig gebruik (individuele gebeurtenissen, niet segmenten).
+* Er is geen vertraging van berichten. Het systeem kapt het aantal berichten die over aan 4000 per 5 minuten kunnen worden verzonden, die op huidige Campagne SLA worden gebaseerd. Daarom mag Journey Optimizer alleen worden gebruikt in gevallen van eenmalig gebruik (individuele gebeurtenissen, niet segmenten).
 
 * U moet één actie op het canvas per malplaatje vormen u wenst te gebruiken. U moet één actie in Journey Optimizer voor elke malplaatje vormen u om van Adobe Campaign wenst te gebruiken.
 

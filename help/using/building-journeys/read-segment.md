@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1abea49a0dce8d5866662235b243a3b82fb50c7b
+source-git-commit: c9f260444e1cd20e66421a87dd62c5ae7209ee06
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 4%
@@ -59,7 +59,7 @@ De stappen om de activiteit van het Leessegment te vormen zijn als volgt:
 
 1. Stel de **[!UICONTROL Throttling rate]** gebied aan de productiegrens van de gelezen segmentactiviteit.
 
-   Deze waarde wordt opgeslagen in de lading van de reisversie. De standaardwaarde is 17.000 berichten per seconde. U kunt deze waarde wijzigen van 500 tot 17.000 berichten per seconde.
+   Deze waarde wordt opgeslagen in de lading van de reisversie. De standaardwaarde is 20.000 berichten per seconde. U kunt deze waarde wijzigen van 500 tot 20.000 berichten per seconde.
 
    >[!NOTE]
    >

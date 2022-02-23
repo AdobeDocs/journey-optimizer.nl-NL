@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: cae74818e60abc97cd8eb5ccd3f4337af591f488
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1625'
 ht-degree: 2%
 
 ---
@@ -61,6 +61,7 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 * U kunt de testmodus zo vaak als nodig in- en uitschakelen.
 * U kunt uw reis niet wijzigen wanneer de testwijze wordt geactiveerd. In de testmodus kunt u de rit rechtstreeks publiceren. U hoeft de testmodus daarvoor niet te deactiveren.
 * Bij het bereiken van een splitsing wordt altijd de bovenste vertakking gekozen. U kunt de positie van de gesplitste vertakkingen opnieuw ordenen als u wilt dat de test een ander pad kiest.
+* Om prestaties te optimaliseren en verouderd middelgebruik te verhinderen, zullen alle reizen in testwijze die niet voor een week zijn teweeggebracht op de status van het Ontwerp terugschakelen.
 
 ## Gebeurtenissen starten {#firing_events}
 

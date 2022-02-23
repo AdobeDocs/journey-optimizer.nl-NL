@@ -1,35 +1,29 @@
 ---
 title: Aangepaste handelingen gebruiken
 description: Leer hoe u aangepaste handelingen kunt gebruiken
-feature: Journeys
+feature: Actions
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: a5ea934615385e6dc0edd482ce14f3faf546d750
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 5%
+ht-degree: 18%
 
 ---
 
 # Aangepaste handelingen gebruiken {#use-custom-actions}
 
-De ruit van de activiteitenconfiguratie toont de URL configuratieparameters en de authentificatieparameters die voor de douaneactie worden gevormd. [Meer informatie](../action/about-custom-action-configuration.md).
-
->[!NOTE]
->
->U kunt geen eenvoudige verzameling doorgeven in parameters voor aangepaste handelingen. Complexere verzamelingsvelden (arrays van objecten) worden niet ondersteund.  Let ook op dat de parameters een verwacht formaat hebben (voorbeeld: tekenreeks, decimaal, enz.). U moet deze verwachte formaten zorgvuldig respecteren.
+Met aangepaste acties kunt u een verbinding met een extern systeem configureren voor het verzenden van berichten of API-aanroepen. Een actie kan worden geconfigureerd met elke service van elke provider die door een REST-API met een payload in JSON-indeling kan worden aangeroepen.
 
 ## URL-configuratie
+
+Het configuratievenster van het dialoogvenster **Aangepaste actie** De activiteit toont de URL configuratieparameters en de authentificatieparameters die voor de douaneactie worden gevormd. U kunt niet opstelling het statische deel van URL in de reis, maar in de globale configuratie van de douaneactie. [Meer informatie](../action/about-custom-action-configuration.md).
 
 ### Dynamisch pad
 
 Als de URL een dynamisch pad bevat, geeft u het pad op in het dialoogvenster **[!UICONTROL Path]** veld.
-
->[!NOTE]
->
->U kunt niet opstelling het statische deel van URL in de reis, maar in de globale configuratie van de douaneactie. [Meer informatie](../action/about-custom-action-configuration.md).
 
 Als u velden en onbewerkte teksttekenreeksen wilt samenvoegen, gebruikt u de tekenreeksfuncties of het plusteken (+) in de geavanceerde expressie-editor. Plaats normale teksttekenreeksen tussen enkele aanhalingstekens (&#39;) of tussen dubbele aanhalingstekens (&#39;). [Meer informatie](expression/expressionadvanced.md).
 

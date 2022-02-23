@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,21 @@ Gegevens zijn beschikbaar in het dialoogvenster **[!UICONTROL Live report]** zod
 
 Elk rapportdashboard kan worden gewijzigd door widgets te vergroten of te verkleinen of te verwijderen. Het wijzigen van de widgets heeft alleen invloed op het dashboard van de huidige gebruiker. Andere gebruikers zien hun eigen dashboards of de dashboards die standaard zijn ingesteld.
 
-1. Klik in uw live rapport op **[!UICONTROL Modify]**.
+1. Kies of u testgebeurtenissen wilt uitsluiten van uw rapporten met de schakelbalk. Raadpleeg voor meer informatie over testgebeurtenissen [deze pagina](../building-journeys/testing-the-journey.md).
 
-   ![](../assets/report_modify_1.png)
+   ![](../assets/report_modify_6.png)
+
+1. Als u widgets wilt vergroten of verkleinen of verwijderen, klikt u op **[!UICONTROL Modify]**.
+
+   ![](../assets/report_modify_7.png)
 
 1. Pas de widgetgrootte aan door de rechterbenedenhoek te slepen.
 
-   ![](../assets/report_modify_2.png)
+   ![](../assets/report_modify_8.png)
 
-1. Klikken **[!UICONTROL Remove]** om andere widgets te verwijderen die u niet hoeft te volgen.
+1. Klikken **[!UICONTROL Remove]** om een widget te verwijderen die u niet nodig hebt.
 
-   ![](../assets/report_modify_3.png)
+   ![](../assets/report_modify_9.png)
 
 1. Als u tevreden bent met de weergavevolgorde en de grootte van de widgets, klikt u op **[!UICONTROL Save]**.
 

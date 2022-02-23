@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: 778ab302a5c9835024fe324999cdf5acf19ad172
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ De **[!UICONTROL Update Profile]** Met actieactiviteit kunt u een bestaand Adobe
 * U kunt de **Profiel bijwerken** actie om ervaringsgebeurtenissen te genereren, bijvoorbeeld een aankoop.
 * Net als bij andere acties kunt u een alternatief pad definiëren in het geval van een fout of time-out. U kunt geen twee acties parallel plaatsen.
 * Het updateverzoek dat naar het Platform wordt verzonden, wordt snel verzonden, maar niet onmiddellijk/binnen een seconde. Het duurt normaal een paar seconden, maar soms nog meer zonder garantie. Als een handeling bijvoorbeeld &#39;field 1&#39; gebruikt die is bijgewerkt met een handeling Profiel bijwerken die eerder is geplaatst, mag u niet verwachten dat &#39;field 1&#39; wordt bijgewerkt in de handeling.
+* De **Profiel bijwerken** activiteit steunt geen gebieden XDM die als opsomming worden bepaald.
 
 ## De testmodus gebruiken {#using-the-test-mode}
 

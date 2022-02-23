@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 767f85337703b080fd5be87ccfd03a12c9482aaa
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Als een bericht wordt gepubliceerd maar nog niet door een reis teweeggebracht, h
 >
 >Als een bericht in verscheidene reizen is gebruikt, wordt één rij per reis getoond voor elke uitvoering.
 
-Standaard worden de berichten vanaf de meest recente uitvoeringsdatum weergegeven. Klik op de knop **[!UICONTROL Filters]** om de berichten te doorzoeken op basis van het kanaal, de begindatum en/of de einddatum.
+Standaard worden de berichten vanaf de meest recente uitvoeringsdatum weergegeven. Klik op de knop **[!UICONTROL Filters]** om de berichten te doorzoeken op basis van het kanaal, de begindatum en/of de einddatum. U kunt testgebeurtenissen ook uitsluiten van uw **Uitvoeringenlijst**.
 
 ![](assets/message-execution-tab-filters.png)
 
