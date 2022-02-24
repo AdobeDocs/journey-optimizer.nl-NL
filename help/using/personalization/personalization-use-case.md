@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
 
    ![](assets/perso-uc9.png)
 
-1. Selecteer **Context** categorie. Dit item is alleen beschikbaar als een reis contextuele gegevens heeft doorgegeven aan het bericht. Klikken **Journey Orchestration**. De volgende contextafhankelijke informatie wordt weergegeven:
+1. Selecteer **Contextafhankelijke kenmerken** -menu. Contextuele kenmerken zijn alleen beschikbaar als een reis contextuele gegevens heeft doorgegeven aan het bericht. Klikken **Journey Orchestration**. De volgende contextafhankelijke informatie wordt weergegeven:
 
    * **Gebeurtenissen**: deze categorie groepeert alle velden van de gebeurtenis(sen) die voor de **Bericht** tijdens de reis.
    * **Reiseigenschappen**: de technische gebieden die verband houden met de reis voor een bepaald profiel, bijvoorbeeld de reis-id of de specifieke fouten die zijn geconstateerd. Meer informatie in [Journey Orchestration-documentatie](../building-journeys/expression/journey-properties.md).
@@ -94,11 +94,11 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
 
    ![](assets/perso-uc12.png)
 
-1. Typ het bericht en voeg het toe, van **Context** categorie, de naam van het orderitem en de voortgang van de bestelling.
+1. Typ het bericht en voeg het in vanaf ****[!UICONTROL Contextual attributes]** , de naam van het orderitem en de voortgang van de volgorde.
 
    ![](assets/perso-uc13.png)
 
-1. Selecteer in de vervolgkeuzelijst de optie **Offertebeslissing** om een variabele van de offer decisioning op te nemen. Selecteer de plaatsing en klik op **+** pictogram naast de beslissing (voorheen bekend als &#39;aanbiedingsactiviteit&#39;) om deze aan het lichaam toe te voegen.
+1. Selecteer in het linkermenu de optie **Besluiten voorstellen** om een variabele van de offer decisioning op te nemen. Selecteer de plaatsing en klik op **+** pictogram naast de beslissing (voorheen bekend als &#39;aanbiedingsactiviteit&#39;) om deze aan het lichaam toe te voegen.
 
    ![](assets/perso-uc14.png)
 

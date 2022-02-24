@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1025'
 ht-degree: 2%
 
 ---
@@ -58,8 +58,8 @@ Voer de volgende stappen uit:
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. In de **[!UICONTROL Edit HTML]** venster toevoegen `upperCase` tekenreeksfunctie:
-   1. Selecteer in de lijst **[!UICONTROL Helper functions]**.
-   1. Gebruik het zoekveld om &quot;hoofdletters&quot; te zoeken.
+   1. Selecteer in het linkermenu de optie **[!UICONTROL Helper functions]**.
+   1. Gebruik het zoekveld om naar hoofdletters en kleine letters te zoeken.
    1. Voeg in de zoekresultaten de `upperCase` functie. Klik hiertoe op het plusteken (+) naast `{%= upperCase(string) %}: string`.
 
       De redacteur van de Uitdrukking toont deze uitdrukking:
@@ -72,8 +72,8 @@ Voer de volgende stappen uit:
 
 1. Verwijder de tijdelijke aanduiding &quot;tekenreeks&quot; uit de expressie.
 1. Voeg het voornaamtoken toe:
-   1. Selecteer in de lijst **[!UICONTROL Profile]**.
-   1. Selecteer **[!UICONTROL Profile]** > **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
+   1. Selecteer in het linkermenu de optie **[!UICONTROL Profile attributes]**.
+   1. Selecteer **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
    1. Voeg de **[!UICONTROL First name]** gebruiken voor de expressie.
 
       De redacteur van de Uitdrukking toont deze uitdrukking:
@@ -84,7 +84,7 @@ Voer de volgende stappen uit:
 
       ![](../assets/personalization-uc-helpers-5.png)
 
-      Meer informatie over de namen van personen vindt u in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
+      Meer informatie over het gegevenstype Personen in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target=&quot;_blank&quot;}.
 
 1. Klikken **[!UICONTROL Validate]** en klik vervolgens op **[!UICONTROL Save]**.
 
@@ -126,7 +126,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. In de **[!UICONTROL Edit HTML]** venster toevoegen `each` helper:
-   1. Selecteer in de lijst **[!UICONTROL Helper functions]**.
+   1. Selecteer in het linkermenu de optie **[!UICONTROL Helper functions]**.
    1. Gebruik het zoekveld om &quot;elk&quot; te zoeken.
    1. Voeg in de zoekresultaten de `each` helper.
 
@@ -141,9 +141,9 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 1. Voeg de `productListItems` array naar de expressie:
 
    1. Verwijder de tijdelijke aanduiding &quot;someArray&quot; uit de expressie.
-   1. Selecteer in de lijst **[!UICONTROL Context]**.
+   1. Selecteer in het linkermenu de optie **[!UICONTROL Contextual attributes]**.
 
-      De **[!UICONTROL Context]** Deze optie is alleen beschikbaar nadat de reiscontext aan het bericht is doorgegeven.
+      **[!UICONTROL Contextual attributes]** zijn pas beschikbaar nadat de reiscontext aan het bericht is doorgegeven.
 
    1. Selecteren **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, breid dan uit **[!UICONTROL productListItems]** knooppunt.
 
@@ -218,7 +218,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
    ![](../assets/personalization-uc-helpers-3.png)
 
 1. In de **[!UICONTROL Edit HTML]** venster toevoegen `if` helper:
-   1. Selecteer in de lijst **[!UICONTROL Helper functions]**.
+   1. Selecteer in het linkermenu de optie **[!UICONTROL Helper functions]**.
    1. Gebruik het zoekveld om &quot;if&quot; te zoeken.
    1. Voeg in de zoekresultaten de `if` helper.
 
@@ -248,7 +248,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 
 1. Voeg de token voor de productnaam toe aan de voorwaarde:
    1. Verwijder de tijdelijke aanduiding &quot;condition1&quot; uit de expressie.
-   1. Selecteer in de lijst **[!UICONTROL Context]**.
+   1. Selecteer in het linkermenu de optie **[!UICONTROL Contextual attributes]**.
    1. Selecteren **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, breid dan uit **[!UICONTROL productListItems]** knooppunt.
 
       In dit voorbeeld: *event_name* vertegenwoordigt de naam van uw gebeurtenis.

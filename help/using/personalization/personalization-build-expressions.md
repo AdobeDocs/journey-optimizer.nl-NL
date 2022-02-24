@@ -6,14 +6,19 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '336'
 ht-degree: 1%
 
 ---
 
 # Over de Expressieeditor {#build-personalization-expressions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_perso_editor"
+>title="Over de Expressieeditor"
+>abstract="Met de Expressieeditor kunt u alle gegevens selecteren, rangschikken, aanpassen en valideren en zo een aangepaste personalisatie voor uw inhoud maken."
 
 De uitdrukkingsredacteur is het middelstuk van de verpersoonlijking in [!DNL Journey Optimizer]. Het is beschikbaar in elke context waarin u personalisatie als e-mail, push en aanbiedingen moet definiëren.
 
@@ -33,13 +38,13 @@ Beschikbare bronnen zijn:
 * **[!UICONTROL Contextual attributes]** : wanneer de **Bericht** wordt gebruikt in een reis, zijn de contextuele reisgebieden beschikbaar door dit menu. Meer informatie in [deze sectie](personalization-use-case.md).
 * **[!UICONTROL Helper functions]** : Hiermee worden alle hulpfuncties weergegeven die beschikbaar zijn om bewerkingen uit te voeren op gegevens, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en deze te manipuleren in de context van personalisatie. Meer informatie in [deze sectie](functions/functions.md).
 
-Bij selectie wordt de verwijzing toegevoegd in de editor.
+Klik op + om een kenmerk toe te voegen aan de editor.
 
 >[!NOTE]
 >
->Het infopictogram naast &quot;+&quot;pictogram opent omhoog tooltip die meer details voor elke variabele verstrekt.
->
->U kunt uw meest gebruikte kenmerken aan favorieten toevoegen. Meer informatie in [deze sectie](personalization-favorites.md).
+>Met het ovaalmenu naast het pictogram &quot;+&quot; kunt u meer details voor elke variabele ophalen en uw meest gebruikte kenmerken toevoegen aan [favorieten](personalization-favorites.md).
+
+![](assets/attribute-details.png)
 
 In het volgende voorbeeld, laat de uitdrukkingsredacteur u de profielen selecteren die hun verjaardag vandaag hebben dan de aanpassing voltooien door een specifieke aanbieding op te nemen die aan deze dag beantwoordt.
 
