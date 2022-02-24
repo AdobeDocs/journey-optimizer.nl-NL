@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 894876a79d118ff65738089ecfc89b3cbdcd8d82
+source-git-commit: 7565af5c8497caa4fc34e0cf399e1c5180982891
 workflow-type: tm+mt
 source-wordcount: '1900'
 ht-degree: 1%
@@ -100,7 +100,7 @@ Kies **Transactioneel** voor niet-commerciële berichten, zoals bevestiging van 
 
 ### Subdomein en IP-pool {#subdomains-and-ip-pools}
 
-In de **DETAILS VAN SUBDOMEIN- EN IP-PPOL** -sectie, moet u:
+In de **DETAILS VAN SUBDOMEIN EN IP-POOL** -sectie, moet u:
 
 1. Selecteer het subdomein dat u wilt gebruiken om de e-mails te verzenden. [Meer informatie](about-subdomain-delegation.md)
 
