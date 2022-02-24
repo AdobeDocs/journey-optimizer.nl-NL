@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
+source-git-commit: 904fd645cba550fdb65821292293bf7d838c66f6
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Meer informatie over het beheren van inhoud met Beslissingsbeheer in [deze secti
 
 ## Persoonlijke URL&#39;s{#personalize-urls}
 
-In uw berichtinhoud kunt u koppelingen met personalisatie maken. Voeg bijvoorbeeld koppelingen voor uw nieuwe klanten toe aan een specifieke pagina van uw website.
+Persoonlijke URL&#39;s sturen ontvangers naar specifieke pagina&#39;s van een website of naar een gepersonaliseerde microsite, afhankelijk van de profielkenmerken. In Adobe Journey Optimizer kunt u personalisatie toevoegen aan URL&#39;s in de inhoud van uw bericht. U kunt URL-aanpassing toepassen op tekst en afbeeldingen en profielgegevens of contextafhankelijke gegevens gebruiken.
 
-Leer hoe u personalisatiemogelijkheden kunt gebruiken om een gepersonaliseerde URL in te voegen [deze sectie](personalization-syntax.md#perso-urls).
+Leer hoe u een gepersonaliseerde URL invoegt in [deze sectie](personalization-syntax.md#perso-urls).
 
