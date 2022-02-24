@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -60,3 +60,10 @@ Meer informatie over de configuratie voor pushmeldingen in [deze sectie](../mess
 U kunt tot de verpersoonlijkingsredacteur ook toegang hebben wanneer het toevoegen van tekst-type inhoud aan uw aanbiedingen&#39; vertegenwoordiging.
 
 Meer informatie over het beheren van inhoud met Beslissingsbeheer in [deze sectie](../offers/offer-library/creating-personalized-offers.md#custom-text).
+
+## Persoonlijke URL&#39;s{#personalize-urls}
+
+In uw berichtinhoud kunt u koppelingen met personalisatie maken. Voeg bijvoorbeeld koppelingen voor uw nieuwe klanten toe aan een specifieke pagina van uw website.
+
+Leer hoe u personalisatiemogelijkheden kunt gebruiken om een gepersonaliseerde URL in te voegen [deze sectie](personalization-syntax.md#perso-urls).
+

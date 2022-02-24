@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 1ffa268304ab6343847cdc57b54a3933eb61c902
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '656'
 ht-degree: 3%
 
 ---
@@ -147,8 +147,8 @@ Blokken zijn expressies met een blokopening ({{# }}) en closing ({{/}).
 
 Met Journey Optimizer kunt u een of meer URL&#39;s in uw bericht aanpassen door er personalisatievelden aan toe te voegen. Dit doet u als volgt:
 
-* Maak een koppeling in uw e-mail- of pushinhoud. Voor meer informatie over het maken van koppelingen raadpleegt u [deze pagina](../messages/message-tracking.md#insert-links).
-* Klik op het verpersoonlijkingspictogram. Dit pictogram is beschikbaar voor deze specifieke typen koppelingen: **Externe koppeling**, **Koppeling met abonnement opheffen** en **Uitschakelen**.
+* Maak een koppeling in de inhoud van het bericht. Voor meer informatie over het maken van koppelingen raadpleegt u [deze pagina](../messages/message-tracking.md#insert-links).
+* Selecteer het verpersoonlijkingspictogram. Dit pictogram is beschikbaar voor deze specifieke typen koppelingen: **Externe koppeling**, **Koppeling met abonnement opheffen** en **Uitschakelen**.
 
 ![](assets/perso-url.png)
 
