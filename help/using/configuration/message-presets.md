@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4a0b1ee220cc05e4dfc10724554b39bdfd0b6678
+source-git-commit: 7bae4fbd42b7cf944622b7a42e843681f3e75d2b
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1868'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,11 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
 ## E-mailinstellingen configureren {#configure-email-settings}
 
+E-mailinstellingen worden gedefinieerd in een specifieke sectie van de configuratie van de berichtvoorinstelling.
+
 ![](../assets/preset-email.png)
+
+Voer de volgende stappen uit om de e-mailinstellingen te definiëren die aan de berichtvoorinstelling zijn gekoppeld:
 
 1. Selecteer het type bericht dat wordt verzonden met de voorinstelling: **Transactioneel** of **Marketing**.
 
@@ -90,7 +94,31 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
 1. Selecteer de IP-pool die u aan de voorinstelling wilt koppelen. [Meer informatie](ip-pools.md)
 
-1. Voer de headerparameters in voor de e-mails die u met die voorinstelling hebt verzonden.
+1. Als u wilt weten waar en waarom iemand op de koppeling heeft geklikt, kunt u UTM-parameters voor URL-tracering toevoegen in het dialoogvenster  **[!UICONTROL URL tracking configuration (web analytics)]** sectie.
+
+   Op basis van de parameters die u definieert, wordt een UTM-code toegepast op het einde van de URL die in de berichtinhoud is opgenomen. Vervolgens kunt u resultaten vergelijken met een hulpprogramma voor webanalyse, zoals Adobe Analytics. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+
+   ![](../assets/preset-url-tracking.png)
+
+   >[!NOTE]
+   >
+   >U kunt maximaal 10 volgparameters toevoegen.
+
+   U kunt de gewenste tekst rechtstreeks typen in het dialoogvenster **[!UICONTROL Name]** en **[!UICONTROL Value]** velden.
+
+   U kunt ook een keuze maken in een lijst met vooraf gedefinieerde waarden door naar de volgende objecten te navigeren:
+
+   * Reiskenmerken: Source id, Source name, Source version id
+   * Berichtkenmerken: Handeling-id, naam van handeling
+   * Kenmerken offer decisioning: Id van voorstel, naam van voorstel
+
+   >[!CAUTION]
+   >
+   >Blader naar de gewenste map en selecteer een profielkenmerk dat u als UTM-waarde wilt gebruiken.
+
+   ![](../assets/preset-url-tracking-source.png)
+
+1. Voer de **[!UICONTROL Header parameters]** voor de e-mails die u hebt verzonden met behulp van die voorinstelling.
 
    >[!CAUTION]
    >
@@ -107,15 +135,15 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
    * **[!UICONTROL Error email]**: Alle fouten die door ISPs na een paar dagen van post worden geproduceerd die (asynchrone stuitingen) worden ontvangen op dit adres.
    >[!NOTE]
    >
-   >Met ingang van de release van oktober 2021 is het niet meer mogelijk een e-mailadres voor verzending te definiëren vanaf de [!DNL Journey Optimizer] gebruikersinterface. Als je alle e-mails wilt ontvangen door [!DNL Journey Optimizer] voor het gedelegeerde subdomein dat naar een specifiek e-mailadres moet worden doorgestuurd, neemt u contact op met de [Adobe-team voor klantenondersteuning](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+   >U kunt geen voorwaarts e-mailadres definiëren vanuit het menu [!DNL Journey Optimizer] gebruikersinterface. Als je alle e-mails wilt ontvangen door [!DNL Journey Optimizer] voor het gedelegeerde subdomein dat naar een specifiek e-mailadres moet worden doorgestuurd, neemt u contact op met [Adobe Klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
    ![](../assets/preset-header.png)
 
    >[!NOTE]
    >
-   >Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook het onderstrepingsteken gebruiken `_`, punt`.` en afbreekstreepje `-` tekens.
+   >Namen moeten beginnen met een letter (A-Z) en mogen alleen alfanumerieke tekens bevatten. U kunt ook het onderstrepingsteken gebruiken `_`, punt`.` en afbreekstreepje `-` tekens.
 
-1. Configureer de **parameters voor e-mailpogingen**. Standaard worden de [periode voor opnieuw uitproberen](retries.md#retry-duration) is ingesteld op 84 uur, maar u kunt deze instelling aanpassen aan uw wensen.
+1. Configureer de **Parameters opnieuw proberen**. Standaard worden de [periode voor opnieuw uitproberen](retries.md#retry-duration) is ingesteld op 84 uur, maar u kunt deze instelling aanpassen aan uw wensen.
 
    ![](../assets/preset-retry-paramaters.png)
 
@@ -125,6 +153,10 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
    * Voor beide e-mailtypen is de maximale hergebruiksperiode 84 uur (of 5040 minuten).
 
 ## Pushinstellingen configureren {#configure-push-settings}
+
+De duw montages worden bepaald in een specifiek gedeelte van de bericht vooraf ingestelde configuratie.
+
+Voer de onderstaande stappen uit om de pushinstellingen te definiëren die zijn gekoppeld aan de berichtvoorinstelling:
 
 1. Selecteer ten minste één platform: **iOS** en/of **Android**.
 
@@ -154,7 +186,7 @@ Alle voorinstellingen voor berichten worden weergegeven in het dialoogvenster **
 
 ![](../assets/preset-filters.png)
 
-Voorinstellingen voor berichten kunnen de volgende statussen hebben:
+Zodra gecreeerd, kunnen de berichtvoorinstellingen de volgende statussen hebben:
 
 * **[!UICONTROL Draft]**: De berichtvoorinstelling is opgeslagen als een concept en is nog niet verzonden. Open het om de configuratie te hervatten.
 * **[!UICONTROL Processing]**: De berichtvoorinstelling is verzonden en wordt door verschillende verificatiestappen uitgevoerd.
@@ -164,7 +196,7 @@ Voorinstellingen voor berichten kunnen de volgende statussen hebben:
 
 Als het maken van een berichtvoorinstelling mislukt, worden de details van elke mogelijke oorzaak van een fout hieronder beschreven.
 
-Als één van deze fouten voorkomt, contacteer [Adobe-team voor klantenondersteuning](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} voor hulp.
+Als een van deze fouten optreedt, neemt u contact op met [Adobe Klantenservice](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} voor hulp.
 
 * **Validatie van SPF is mislukt**: SPF (het Kader van het Beleid van de Afzender) is een e-mailauthentificatieprotocol dat toestaat om erkende IPs te specificeren die e-mails van een bepaald subdomein kunnen verzenden. De de bevestigingsmislukking van SPF betekent dat de IP adressen in het SPF- verslag niet de IP adressen aanpassen die voor het verzenden van e-mails naar de brievenbusleveranciers worden gebruikt.
 
