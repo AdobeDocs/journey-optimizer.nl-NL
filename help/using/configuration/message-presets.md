@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 7bae4fbd42b7cf944622b7a42e843681f3e75d2b
+source-git-commit: 894876a79d118ff65738089ecfc89b3cbdcd8d82
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1900'
 ht-degree: 1%
 
 ---
@@ -34,11 +34,11 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
 1. Toegang krijgen tot **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** en klik vervolgens op **[!UICONTROL Create Message preset]**.
 
-   ![](../assets/preset-create.png)
+   ![](assets/preset-create.png)
 
 1. Voer een naam en beschrijving (optioneel) voor de voorinstelling in en selecteer vervolgens het kanaal of de kanalen die u wilt configureren.
 
-   ![](../assets/preset-general.png)
+   ![](assets/preset-general.png)
 
    >[!NOTE]
    >
@@ -52,7 +52,7 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
 1. Zodra alle parameters zijn gevormd, klik **[!UICONTROL Submit]** ter bevestiging. U kunt de berichtvoorinstelling ook opslaan als concept en de configuratie ervan later hervatten.
 
-   ![](../assets/preset-submit.png)
+   ![](assets/preset-submit.png)
 
 1. Nadat de berichtvoorinstelling is gemaakt, wordt deze in de lijst weergegeven met de **[!UICONTROL Processing]** status.
 
@@ -74,83 +74,96 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
 1. Als de controles zijn voltooid, wordt met de berichtvoorinstelling het volgende opgehaald **[!UICONTROL Active]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
-   ![](../assets/preset-active.png)
+   ![](assets/preset-active.png)
 
 ## E-mailinstellingen configureren {#configure-email-settings}
 
 E-mailinstellingen worden gedefinieerd in een specifieke sectie van de configuratie van de berichtvoorinstelling.
 
-![](../assets/preset-email.png)
+![](assets/preset-email.png)
 
-Voer de volgende stappen uit om de e-mailinstellingen te definiëren die aan de berichtvoorinstelling zijn gekoppeld:
+Configureer uw instellingen zoals hieronder beschreven.
 
-1. Selecteer het type bericht dat wordt verzonden met de voorinstelling: **Transactioneel** of **Marketing**.
 
-   >[!CAUTION]
-   >
-   > **Transactioneel** berichten kunnen worden verzonden naar profielen die zich niet meer hebben geabonneerd op marketingberichten. Deze berichten kunnen alleen worden verzonden in specifieke contexten, zoals het opnieuw instellen van wachtwoorden, de status van de bestelling en leveringsmeldingen.
+### Type e-mail{#email-type}
+
+In de **E-MAILTYPE** selecteert u het type bericht dat wordt verzonden met de voorinstelling: **Marketing** of **Transactioneel**.
+
+Kies **Marketing** voor promotieberichten: voor deze berichten is toestemming van de gebruiker vereist .
+
+Kies **Transactioneel** voor niet-commerciële berichten, zoals bevestiging van de bestelling, wachtwoordherstelmeldingen of leveringsgegevens.
+
+>[!CAUTION]
+>
+>**Transactioneel** berichten kunnen worden verzonden naar profielen die zich niet meer hebben geabonneerd op marketingberichten. Deze berichten kunnen alleen in specifieke contexten worden verzonden.
+
+
+### Subdomein en IP-pool {#subdomains-and-ip-pools}
+
+In de **DETAILS VAN SUBDOMEIN- EN IP-PPOL** -sectie, moet u:
 
 1. Selecteer het subdomein dat u wilt gebruiken om de e-mails te verzenden. [Meer informatie](about-subdomain-delegation.md)
 
 1. Selecteer de IP-pool die u aan de voorinstelling wilt koppelen. [Meer informatie](ip-pools.md)
 
-1. Als u wilt weten waar en waarom iemand op de koppeling heeft geklikt, kunt u UTM-parameters voor URL-tracering toevoegen in het dialoogvenster  **[!UICONTROL URL tracking configuration (web analytics)]** sectie.
+### URL-tracking{#url-tracking}
 
-   Op basis van de parameters die u definieert, wordt een UTM-code toegepast op het einde van de URL die in de berichtinhoud is opgenomen. Vervolgens kunt u resultaten vergelijken met een hulpprogramma voor webanalyse, zoals Adobe Analytics. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+Als u wilt weten waar en waarom iemand op de koppeling heeft geklikt, kunt u UTM-parameters voor URL-tracering toevoegen in het dialoogvenster  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** sectie.
 
-   ![](../assets/preset-url-tracking.png)
+Op basis van de parameters die u definieert, wordt een UTM-code toegepast op het einde van de URL die in de berichtinhoud is opgenomen. Vervolgens kunt u resultaten vergelijken met een hulpprogramma voor webanalyse, zoals Adobe Analytics. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
 
-   >[!NOTE]
-   >
-   >U kunt maximaal 10 volgparameters toevoegen.
+![](assets/preset-url-tracking.png)
 
-   U kunt de gewenste tekst rechtstreeks typen in het dialoogvenster **[!UICONTROL Name]** en **[!UICONTROL Value]** velden.
+Er zijn standaard drie UTM-parameters beschikbaar. U kunt maximaal 10 volgparameters toevoegen. Als u een UTM-parameter wilt toevoegen, selecteert u de optie **[!UICONTROL Add new UTM param]** knop.
 
-   U kunt ook een keuze maken in een lijst met vooraf gedefinieerde waarden door naar de volgende objecten te navigeren:
+Als u een UTM-parameter wilt configureren, kunt u rechtstreeks de gewenste waarden invoeren in het dialoogvenster **[!UICONTROL Name]** en **[!UICONTROL Value]** door naar de volgende objecten te navigeren of een keuze te maken in een lijst met vooraf gedefinieerde waarden:
 
-   * Reiskenmerken: Source id, Source name, Source version id
-   * Berichtkenmerken: Handeling-id, naam van handeling
-   * Kenmerken offer decisioning: Id van voorstel, naam van voorstel
+* Reiskenmerken: Source id, Source name, Source version id
+* Berichtkenmerken: Handeling-id, naam van handeling
+* Kenmerken offer decisioning: Id van voorstel, naam van voorstel
 
-   >[!CAUTION]
-   >
-   >Blader naar de gewenste map en selecteer een profielkenmerk dat u als UTM-waarde wilt gebruiken.
+![](assets/preset-url-tracking-source.png)
 
-   ![](../assets/preset-url-tracking-source.png)
+>[!CAUTION]
+>
+>Selecteer geen map: Blader naar de gewenste map en selecteer een profielkenmerk dat u als UTM-waarde wilt gebruiken.
 
-1. Voer de **[!UICONTROL Header parameters]** voor de e-mails die u hebt verzonden met behulp van die voorinstelling.
+### Parameters koptekst{#email-header}
 
-   >[!CAUTION]
-   >
-   >E-mailadressen moeten de geselecteerde [gedelegeerd subdomein](about-subdomain-delegation.md).
+In de **[!UICONTROL HEADER PARAMETERS]** , voert u de e-mailadressen in die zijn gekoppeld aan berichten die via die voorinstelling worden verzonden. Deze e-mailadressen moeten de geselecteerde [gedelegeerd subdomein](about-subdomain-delegation.md).
 
-   * **[!UICONTROL Sender name]**: De naam van de afzender, zoals de naam van uw merk.
+U moet de volgende e-mailadressen configureren
 
-   * **[!UICONTROL Sender email]**: Het e-mailadres dat u voor uw communicatie wilt gebruiken. Als het gedelegeerde subdomein bijvoorbeeld *marketing.luma.com* kunt u *contact@marketing.luma.com*.
+* **[!UICONTROL Sender name]**: De naam van de afzender, zoals de naam van uw merk.
 
-   * **[!UICONTROL Reply to (name)]**: De naam die wordt gebruikt wanneer de ontvanger op de knop **Reageren** in hun e-mailclientsoftware.
+* **[!UICONTROL Sender email]**: Het e-mailadres dat u voor uw communicatie wilt gebruiken. Als het gedelegeerde subdomein bijvoorbeeld *marketing.luma.com* kunt u *contact@marketing.luma.com*.
 
-   * **[!UICONTROL Reply to (email)]**: Het e-mailadres dat wordt gebruikt wanneer de ontvanger op de knop **Reageren** in hun e-mailclientsoftware. U moet een adres gebruiken dat op gedelegeerde subdomein wordt bepaald (bijvoorbeeld *reply@marketing.luma.com*), anders worden de e-mails verwijderd.
+* **[!UICONTROL Reply to (name)]**: De naam die wordt gebruikt wanneer de ontvanger op de knop **Reageren** in hun e-mailclientsoftware.
 
-   * **[!UICONTROL Error email]**: Alle fouten die door ISPs na een paar dagen van post worden geproduceerd die (asynchrone stuitingen) worden ontvangen op dit adres.
-   >[!NOTE]
-   >
-   >U kunt geen voorwaarts e-mailadres definiëren vanuit het menu [!DNL Journey Optimizer] gebruikersinterface. Als je alle e-mails wilt ontvangen door [!DNL Journey Optimizer] voor het gedelegeerde subdomein dat naar een specifiek e-mailadres moet worden doorgestuurd, neemt u contact op met [Adobe Klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+* **[!UICONTROL Reply to (email)]**: Het e-mailadres dat wordt gebruikt wanneer de ontvanger op de knop **Reageren** in hun e-mailclientsoftware. U moet een adres gebruiken dat op gedelegeerde subdomein wordt bepaald (bijvoorbeeld *reply@marketing.luma.com*), anders worden de e-mails verwijderd.
 
-   ![](../assets/preset-header.png)
+* **[!UICONTROL Error email]**: Alle fouten die door ISPs na een paar dagen van post worden geproduceerd die (asynchrone stuitingen) worden ontvangen op dit adres.
 
-   >[!NOTE]
-   >
-   >Namen moeten beginnen met een letter (A-Z) en mogen alleen alfanumerieke tekens bevatten. U kunt ook het onderstrepingsteken gebruiken `_`, punt`.` en afbreekstreepje `-` tekens.
 
-1. Configureer de **Parameters opnieuw proberen**. Standaard worden de [periode voor opnieuw uitproberen](retries.md#retry-duration) is ingesteld op 84 uur, maar u kunt deze instelling aanpassen aan uw wensen.
+![](assets/preset-header.png)
 
-   ![](../assets/preset-retry-paramaters.png)
+>[!NOTE]
+>
+>Adressen moeten beginnen met een letter (A-Z) en mogen alleen alfanumerieke tekens bevatten. U kunt ook het onderstrepingsteken gebruiken `_`, punt`.` en afbreekstreepje `-` tekens.
 
-   U moet een geheel-getalwaarde (in uren of notulen) binnen de volgende waaier ingaan:
-   * Voor het e-mailtype voor marketing is de minimale herroepingstermijn 6 uur.
-   * Voor transactie-e-mailtype is de minimale herroepingstermijn 10 minuten.
-   * Voor beide e-mailtypen is de maximale hergebruiksperiode 84 uur (of 5040 minuten).
+### Parameters opnieuw proberen{#email-retry}
+
+U kunt de **Parameters opnieuw proberen**.
+
+![](assets/preset-retry-parameters.png)
+
+Standaard worden de [periode voor opnieuw uitproberen](retries.md#retry-duration) is ingesteld op 84 uur, maar u kunt deze instelling aanpassen aan uw wensen.
+
+U moet een geheel-getalwaarde (in uren of notulen) binnen de volgende waaier ingaan:
+
+* Voor het in de handel brengen van e-mails is de minimale herroepingstermijn 6 uur.
+* Voor transactie-e-mailberichten is de minimale herroepingstermijn 10 minuten.
+* Voor beide e-mailtypen is de maximale hergebruiksperiode 84 uur (of 5040 minuten).
 
 ## Pushinstellingen configureren {#configure-push-settings}
 
@@ -162,7 +175,7 @@ Voer de onderstaande stappen uit om de pushinstellingen te definiëren die zijn 
 
 1. Selecteer de mobiele toepassingen die u voor elk platform wilt gebruiken.
 
-![](../assets/preset-push.png)
+![](assets/preset-push.png)
 
 Raadpleeg voor meer informatie over het configureren van uw omgeving voor het verzenden van pushberichten de [deze sectie](../messages/push-gs.md).
 
@@ -171,7 +184,7 @@ Raadpleeg voor meer informatie over het configureren van uw omgeving voor het ve
 
 1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
 
-    ![](../assets/preset-sms.png)
+    ![](assets/preset-sms.png)
     
 1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
         
@@ -184,7 +197,7 @@ Raadpleeg voor meer informatie over het configureren van uw omgeving voor het ve
 
 Alle voorinstellingen voor berichten worden weergegeven in het dialoogvenster **[!UICONTROL Channels]** > **[!UICONTROL Message presets]** -menu. Er zijn filters beschikbaar waarmee u door de lijst kunt bladeren (kanaaltype, gebruiker, status).
 
-![](../assets/preset-filters.png)
+![](assets/preset-filters.png)
 
 Zodra gecreeerd, kunnen de berichtvoorinstellingen de volgende statussen hebben:
 
@@ -196,7 +209,7 @@ Zodra gecreeerd, kunnen de berichtvoorinstellingen de volgende statussen hebben:
 
 Als het maken van een berichtvoorinstelling mislukt, worden de details van elke mogelijke oorzaak van een fout hieronder beschreven.
 
-Als een van deze fouten optreedt, neemt u contact op met [Adobe Klantenservice](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} voor hulp.
+Als een van deze fouten optreedt, neemt u contact op met [Adobe Klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} voor hulp.
 
 * **Validatie van SPF is mislukt**: SPF (het Kader van het Beleid van de Afzender) is een e-mailauthentificatieprotocol dat toestaat om erkende IPs te specificeren die e-mails van een bepaald subdomein kunnen verzenden. De de bevestigingsmislukking van SPF betekent dat de IP adressen in het SPF- verslag niet de IP adressen aanpassen die voor het verzenden van e-mails naar de brievenbusleveranciers worden gebruikt.
 
@@ -220,7 +233,7 @@ Volg onderstaande stappen om een berichtvoorinstelling te bewerken.
 
 1. Klik in de lijst op de naam van een berichtvoorinstelling om deze te openen.
 
-   ![](../assets/preset-name.png)
+   ![](assets/preset-name.png)
 
 1. Bewerk de eigenschappen naar wens.
 
@@ -230,7 +243,7 @@ Volg onderstaande stappen om een berichtvoorinstelling te bewerken.
 
 1. Klikken **[!UICONTROL Submit]** om uw wijzigingen te bevestigen.
 
-   ![](../assets/preset-confirm-update.png)
+   ![](assets/preset-confirm-update.png)
 
    >[!NOTE]
    >
@@ -246,15 +259,15 @@ Voor voorinstellingen voor berichten met de **[!UICONTROL Active]** kunt u de de
 
 * Klik op de knop **[!UICONTROL Recent update]** wordt weergegeven naast de naam van de actieve voorinstelling.
 
-   ![](../assets/preset-recent-update-icon.png)
+   ![](assets/preset-recent-update-icon.png)
 
 * U kunt de updatedetails van een actieve berichtvooraf ingesteld ook toegang hebben terwijl de update bezig is.
 
-   ![](../assets/preset-view-update-details.png)
+   ![](assets/preset-view-update-details.png)
 
 Op de **[!UICONTROL Recent update]** op het scherm, kunt u informatie zoals de updatestatus, en de lijst van gevraagde veranderingen zien.
 
-![](../assets/preset-recent-update-screen.png)
+![](assets/preset-recent-update-screen.png)
 
 ### Statussen bijwerken {#update-statuses}
 
@@ -316,7 +329,7 @@ Als u een **[!UICONTROL Active]** bericht niet beschikbaar om nieuwe berichten t
 
 1. Selecteer **[!UICONTROL Deactivate]**.
 
-   ![](../assets/preset-deactivate.png)
+   ![](assets/preset-deactivate.png)
 
 >[!NOTE]
 >
@@ -324,7 +337,7 @@ Als u een **[!UICONTROL Active]** bericht niet beschikbaar om nieuwe berichten t
 
 U kunt een gedeactiveerde berichtvoorinstelling niet rechtstreeks bewerken. U kunt het bestand echter wel dupliceren en de kopie bewerken om een nieuwe versie te maken waarmee u nieuwe berichten kunt maken. U kunt de toepassing ook opnieuw activeren en wachten tot de update is gelukt om deze te bewerken.
 
-![](../assets/preset-activate.png)
+![](assets/preset-activate.png)
 
 ## Hoe kan ik-video{#video-presets}
 
