@@ -5,9 +5,9 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
+source-git-commit: 163211f95436a37dee7deffea9ced1a3fa09dc34
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,22 @@ Voer de volgende stappen uit om een expressie op te slaan in de bibliotheek:
 
    ![](assets/library-save.png)
 
-1. Geef in het rechterdeelvenster een titel en een beschrijving aan de expressie zodat gebruikers deze gemakkelijker kunnen vinden en klik vervolgens op **[!UICONTROL Add]**.
+1. Voer in het rechterdeelvenster een titel en een beschrijving voor de expressie in, zodat gebruikers deze gemakkelijker kunnen vinden en klik vervolgens op **[!UICONTROL Add]**.
 
    ![](assets/add-expression.png)
 
 1. De expressie wordt toegevoegd aan de bibliotheek. Gebruikers kunnen deze nu gebruiken om hun personalisatie-inhoud samen te stellen.
+
+
+>[!NOTE]
+>
+>* U slaat maximaal 40 expressies op in de bibliotheek.
+>
+>* Expressies mogen niet groter zijn dan 200 kB.
+>
+>* Opgeslagen expressies worden gesorteerd op aanmaakdatum: recent toegevoegde expressie wordt als eerste weergegeven in de lijst.
+
+
 
 Om een bestaande uitdrukking uit te geven, voeg het aan de redacteur toe, dan wijzig het volgens uw behoeften. Klikken **[!UICONTROL Add to library]** om de syntaxis te valideren en de expressie op te slaan.
 
