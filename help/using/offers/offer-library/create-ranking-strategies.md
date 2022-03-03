@@ -7,46 +7,14 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: bf9b555d717fe8b6d1e9500ba0a97eaea243dd7f
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '620'
 ht-degree: 4%
 
 ---
 
-# AI-rangschikkingen {#ai-rankings}
-
-## Aan de slag met AI-waarderingen {#get-started-with-ai-rankings}
-
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->You can use a trained model system that ranks offers to display for a given profile.
-
->[!CAUTION]
->
->Het gebruik van de AI-rangschikking is momenteel beschikbaar in een vroeg stadium en alleen voor bepaalde gebruikers.
-
-Met deze functie kunt u verschillende **classificatiestrategieën** gebaseerd op uw bedrijfsdoelstellingen. Gebruikend deze verschillende op doel-gebaseerde strategieën in een besluit (vroeger genoemd als aanbiedingsactiviteit), zal het opgeleide modelsysteem u helpen begrijpen hoe de verschillende rangschikkingsstrategieën uw doelstellingen beïnvloeden.
-
-U kunt bijvoorbeeld een waarderingsstrategie selecteren voor het e-mailkanaal en een andere voor het pushkanaal. Voor elk kanaal zal het opgeleide modelsysteem veelvoudige gegevenspunten gebruiken om te bepalen welk aanbod eerst voor een bepaalde plaatsing zou moeten worden voorgesteld eerder dan rekening houdend met de prioritaire scores van de aanbiedingen of a [waarderingsformule](create-ranking-formulas.md).
-
-<!--This feature is not enabled by default. To be able to use it, reach out to your Adobe contact.-->
-
-Als er eenmaal een rangschikkingsstrategie is gemaakt, moet u deze toewijzen aan een plaatsing in een beslissing. Meer informatie in [Aanbiedingen selecteren in beslissingen configureren](../offer-activities/configure-offer-selection.md).
-
-### Model voor automatische optimalisatie {#auto-optimization}
-
-Momenteel in [!DNL Journey Optimizer] het enige ondersteunde modeltype voor AI-classificatie is **automatisch optimaliseren**.
-
-Een model voor automatische optimalisatie is bedoeld voor aanbiedingen die het rendement maximaliseren op basis van de KPI&#39;s (Key Performance Indicators) die u instelt. <!--These KPIs could be in the form of conversion rates, revenue, etc.-->Op dit punt, richt de auto-optimalisering zich op het optimaliseren van aanbiedingskliks met aanbiedingsomzetting als doel.
-
->[!NOTE]
->
->In het model voor automatische optimalisatie worden geen contextuele gegevens of gebruikersprofielgegevens gebruikt. De resultaten worden geoptimaliseerd op basis van de algemene prestaties van de aanbiedingen.
-
-Met auto-optimalisering, is de uitdaging om verkennend leren en het gebruik van dat leren in evenwicht te brengen. Dit beginsel staat bekend als **&quot;multi-gewapende bandit&quot;-benadering**.
-
-Om deze uitdaging aan te gaan, gebruikt het model voor automatische optimalisatie het **Thompson Sampling** methode, waarmee kan worden bepaald welke optie moet worden gevolgd om de verwachte beloningen te maximaliseren. Met andere woorden, Thompson Sampling is een soort versterkende leertechniek voor het oplossen van het dilemma van exploratie en exploitatie in een veelbewapend bankenprobleem.
-
-Met de Thompson Sampling-methode kunnen ook uitdagingen zoals het &quot;koude start&quot;-probleem worden aangepakt, d.w.z. wanneer een nieuw aanbod in de campagne wordt geïntroduceerd, heeft het geen geschiedenis waaruit het kan voortborduren.
+# AI-modellen maken {#ai-rankings}
 
 ## Een waarderingsstrategie maken {#create-ranking-strategy}
 
@@ -66,7 +34,7 @@ Volg onderstaande stappen om een classificatiestrategie te maken:
 
    * **[!UICONTROL Name]**: De unieke naam die u moet opgeven.
 
-   * **[!UICONTROL Model type]**: Momenteel is het enige ondersteunde modeltype **[!UICONTROL Auto-optimization]**.<!--More will be supported in the future so the drop-down list will be enabled.-->
+   * **[!UICONTROL Model type]**: Momenteel in [!DNL Journey Optimizer] het enige ondersteunde modeltype is **[!UICONTROL Auto-optimization]**. [Meer informatie](ai-ranking.md#auto-optimization)
 
    * **[!UICONTROL Optimization metric]**:
 
