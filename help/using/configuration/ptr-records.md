@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Met PTR verslagen, kunnen het ontvangen van postservers de authenticiteit van he
 
 Eenmaal [een subdomein wordt gedelegeerd](delegate-subdomain.md) in Adobe Journey Optimizer wordt automatisch een PTR-record gemaakt en gekoppeld aan dit subdomein. U hebt toegang tot dit bestand via het dialoogvenster **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** -menu.
 
-![](../assets/ptr-records.png)
+![](assets/ptr-records.png)
 
 In de lijst worden de PTR-records weergegeven die voor elk gedelegeerd subdomein zijn gegenereerd. Hierbij wordt de volgende syntaxis gebruikt:
 
@@ -49,11 +49,11 @@ Een PTR-record bewerken met een subdomein dat [volledig gedelegeerd](delegate-su
 
 1. Klik in de lijst op de naam van een PTR-record om deze te openen.
 
-   ![](../assets/ptr-record-select.png)
+   ![](assets/ptr-record-select.png)
 
 1. Een subdomein selecteren [volledig gedelegeerd](delegate-subdomain.md#full-subdomain-delegation) naar Adobe in de lijst.
 
-   ![](../assets/ptr-record-subdomain.png)
+   ![](assets/ptr-record-subdomain.png)
 
 1. Klikken **[!UICONTROL Save]** om uw wijzigingen te bevestigen.
 
@@ -63,15 +63,15 @@ Als u een PTR-record wilt bewerken met een subdomein dat is gedelegeerd aan Adob
 
 1. Klik in de lijst op de naam van een PTR-record om deze te openen.
 
-   ![](../assets/ptr-record-select-cname.png)
+   ![](assets/ptr-record-select-cname.png)
 
 1. Selecteer een subdomein dat aan Adobe wordt gedelegeerd met de opdracht [CNAME, methode](delegate-subdomain.md#cname-subdomain-delegation) in de lijst.
 
-   ![](../assets/ptr-record-subdomain-cname.png)
+   ![](assets/ptr-record-subdomain-cname.png)
 
 1. U moet een nieuw voorwaarts DNS verslag op uw het ontvangen platform tot stand brengen. Hiervoor kopieert u de record die door Adobe is gegenereerd. Als u klaar bent, schakelt u het selectievakje &quot;Ik bevestig...&quot; in.
 
-   ![](../assets/ptr-record-subdomain-confirm.png)
+   ![](assets/ptr-record-subdomain-confirm.png)
 
    >[!NOTE]
    >
@@ -86,23 +86,23 @@ Als u een PTR-record wilt bewerken met een subdomein dat is gedelegeerd aan Adob
 
 A **[!UICONTROL Processing]** wordt weergegeven naast de naam van de PTR-record in de lijst.
 
-![](../assets/ptr-record-updating.png)
+![](assets/ptr-record-updating.png)
 
 Klik op de knop **[!UICONTROL Updating]** of **[!UICONTROL Recent updates]** pictogram.
 
-![](../assets/ptr-record-recent-update.png)
+![](assets/ptr-record-recent-update.png)
 
 U kunt informatie zoals de updatestatus, en de gevraagde veranderingen zien.
 
-![](../assets/ptr-record-updates.png)
+![](assets/ptr-record-updates.png)
 
 ## PTR-recordupdatestatus {#ptr-record-update-statuses}
 
 Een PTR-recordupdate kan de volgende statussen hebben:
 
-* ![](../assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**: De PTR-recordupdate is verzonden en wordt momenteel gecontroleerd.
-* ![](../assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: Het bijgewerkte PTR-record is geverifieerd en het nieuwe subdomein is nu gekoppeld aan het IP-adres.
-* ![](../assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: Een of meer controles zijn mislukt tijdens de verificatie van de PTR-recordupdate.
+* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**: De PTR-recordupdate is verzonden en wordt momenteel gecontroleerd.
+* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: Het bijgewerkte PTR-record is geverifieerd en het nieuwe subdomein is nu gekoppeld aan het IP-adres.
+* ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: Een of meer controles zijn mislukt tijdens de verificatie van de PTR-recordupdate.
 
 ### Verwerking {#processing}
 

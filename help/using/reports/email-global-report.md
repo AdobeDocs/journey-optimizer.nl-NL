@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -19,11 +19,11 @@ De e-mail **[!UICONTROL Global report]** is alleen bedoeld voor een specifieke e
 
 Van de **[!UICONTROL Executions]** tabblad van het dialoogvenster **[!UICONTROL Messages]** menu, selecteert u **[!UICONTROL Global view]** Selecteer vervolgens in het geavanceerde menu van de geselecteerde levering **[!UICONTROL Global report]**.
 
-![](../assets/global_report_3.png)
+![](assets/global_report_3.png)
 
 De e-mail **[!UICONTROL Global report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw levering worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Zie voor meer informatie hierover [sectie](global-report.md#modify-dashboard).
 
-![](../assets/global_report_4.png)
+![](assets/global_report_4.png)
 
 **[!UICONTROL Email performance]** detailleert de belangrijkste informatie met betrekking tot uw bericht met KPIs:
 
@@ -65,7 +65,7 @@ De **[!UICONTROL Sending Statistics]** grafiek geeft het succes van uw levering 
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
-![](../assets/global_report_5.png)
+![](assets/global_report_5.png)
 
 De **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]** widgets bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd, zoals:
 
@@ -79,7 +79,7 @@ Voor meer informatie over grenzen raadpleegt u de [Onderdrukkingslijst](../messa
 
 De **[!UICONTROL Error Reasons]** de grafiek en de lijst laten u zien welke fout tijdens uw levering voorkwam.
 
-![](../assets/global_report_6.png)
+![](assets/global_report_6.png)
 
 De **[!UICONTROL Email - Top recipient domain]** grafiek en lijstdetails welke domeinen het meest door ontvangers worden gebruikt om e-mail te openen.
 
@@ -92,7 +92,7 @@ De **[!UICONTROL Open vs Click]** identificeert de interactie van uw ontvangers 
 * **[!UICONTROL Unique Opens]**: Aantal ontvangers dat de levering heeft geopend.
 
 <!--
-![](../assets/global_report_20.png)
+![](assets/global_report_20.png)
 
 >[!NOTE]
 >

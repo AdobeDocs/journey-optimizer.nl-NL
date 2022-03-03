@@ -4,7 +4,7 @@ solution: Journey Orchestration
 title: Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen
 description: Een bericht verzenden met Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 4%
@@ -103,7 +103,7 @@ Je kunt zien dat &#39;products&#39; een array van twee objecten is. U moet ten m
 
 1. In de **[!UICONTROL Action parameters]** plakken, plakt u het JSON-voorbeeld. De weergegeven structuur is statisch: bij het plakken van de lading, worden alle gebieden gedefinieerd als constanten.
 
-   ![](../assets/uc-collection-1.png)
+   ![](assets/uc-collection-1.png)
 
 1. Pas indien nodig de veldtypen aan. De volgende veldtypen worden ondersteund voor verzamelingen: listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly, listObject
 
@@ -119,27 +119,27 @@ Je kunt zien dat &#39;products&#39; een array van twee objecten is. U moet ten m
 
 1. Definieer voor elk veld het label dat op het canvas van de reis wordt weergegeven.
 
-   ![](../assets/uc-collection-2.png)
+   ![](assets/uc-collection-2.png)
 
 1. Maak uw reis en voeg de aangepaste actie toe die u hebt gemaakt. Zie [deze pagina](../building-journeys/using-custom-actions.md).
 
 1. In de **[!UICONTROL Action parameters]** definieert u de arrayparameter (&quot;products&quot; in ons voorbeeld) met de geavanceerde expressie-editor.
 
-   ![](../assets/uc-collection-3.png)
+   ![](assets/uc-collection-3.png)
 
 1. Typ voor elk van de volgende objectvelden de corresponderende veldnaam in het XDM-bronschema. Als de namen identiek zijn, is dit niet nodig. In ons voorbeeld hoeven we alleen &#39;product id&#39; en &#39;color&#39; te definiëren.
 
-   ![](../assets/uc-collection-4.png)
+   ![](assets/uc-collection-4.png)
 
 Voor het matrixveld kunt u ook de geavanceerde expressie-editor gebruiken om gegevensbewerkingen uit te voeren. In het volgende voorbeeld gebruiken wij [filter](functions/functionfilter.md) en [doorsnijden](functions/functionintersect.md) functies:
 
-![](../assets/uc-collection-5.png)
+![](assets/uc-collection-5.png)
 
 ## Bijzondere gevallen{#examples}
 
 Voor heterogene typen en arrays van arrays wordt de array gedefinieerd met het listAny-type. U kunt alleen afzonderlijke items toewijzen, maar u kunt de array niet wijzigen in een variabele.
 
-![](../assets/uc-collection-heterogeneous.png)
+![](assets/uc-collection-heterogeneous.png)
 
 Voorbeeld van een heterogeen type:
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 4e52be8fb4a6b996d20cc831247b7e4f6d333840
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1417'
 ht-degree: 1%
@@ -23,7 +23,7 @@ De **palet** bevindt zich aan de linkerkant van het scherm. Alle beschikbare act
 
 Bij het starten van een nieuwe rit worden elementen die niet op het canvas kunnen worden neergezet als de eerste stap, verborgen. Dit heeft betrekking op alle handelingen, de activiteit van de aandoening, de wachttijd en de reactie.
 
-![](../assets/journey38.png)
+![](assets/journey38.png)
 
 De **[!UICONTROL Filter items]** kunt u de volgende filters weergeven:
 
@@ -35,17 +35,17 @@ U kunt ook de opdracht **[!UICONTROL Search]** veld. Alleen gebeurtenissen en ha
 
 De **canvas** is de centrale zone in de reisontwerper. Het is in deze streek dat u uw activiteiten kunt laten vallen en hen vormen. Klik op een activiteit op het canvas om deze te configureren. Dit opent de ruit van de activiteitenconfiguratie op de rechterkant.
 
-![](../assets/journey39.png)
+![](assets/journey39.png)
 
 De **activiteitenconfiguratievenster** wordt weergegeven wanneer u op een activiteit in het palet klikt. Vul de vereiste velden in. Klik op de knop **[!UICONTROL Delete]** pictogram om de activiteit te verwijderen. Klikken **[!UICONTROL Cancel]** om de wijzigingen te annuleren of **[!UICONTROL Ok]** ter bevestiging. Als u activiteiten wilt verwijderen, kunt u ook één activiteit (of meerdere activiteiten) selecteren en op de backspace-toets drukken. Als u op de escape-toets drukt, wordt het deelvenster voor activiteitenconfiguratie gesloten.
 
 Standaard worden alleen-lezen velden verborgen. Als u alleen-lezen velden wilt weergeven, klikt u op de knop **Alleen-lezen velden tonen** pictogram linksboven in het deelvenster voor activiteitenconfiguratie. Deze instelling geldt voor alle activiteiten op alle reizen.
 
-![](../assets/journey59bis.png)
+![](assets/journey59bis.png)
 
 Afhankelijk van de status van de reis kunt u verschillende handelingen op uw reis uitvoeren met de knoppen in de rechterbovenhoek: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Deze knoppen worden weergegeven wanneer er geen activiteit is geselecteerd. Sommige knoppen worden contextueel weergegeven. De knop Logbestand van de testmodus verschijnt wanneer de testmodus wordt geactiveerd.
 
-![](../assets/journey41.png)
+![](assets/journey41.png)
 
 ## Uw reis starten
 
@@ -85,7 +85,7 @@ U zult ook de douaneacties vinden die u hebt gevormd om berichten met derdesyste
 
 Meerdere activiteiten (**[!UICONTROL Condition]**, **[!UICONTROL Action]** activiteiten) kunt u een fallback-actie definiëren in het geval van een fout of time-out. Schakel het selectievakje in het deelvenster Activiteitenconfiguratie in: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Na de activiteit wordt een ander pad toegevoegd. De time-outduur wordt gedefinieerd in de eigenschappen van de reis (zie [deze pagina](../building-journeys/journey-gs.md#change-properties) door een beheerder. Als het bijvoorbeeld te lang duurt om een e-mail te verzenden of als er een fout optreedt, kunt u een SMS-bericht verzenden.
 
-![](../assets/journey42.png)
+![](assets/journey42.png)
 
 Met verschillende activiteiten (gebeurtenis, handeling, wachten) kunt u verschillende paden na deze toevoegen. Plaats de cursor op de activiteit en klik op het plusteken (+). Alleen gebeurtenis- en wachtactiviteiten kunnen parallel worden ingesteld. Als meerdere gebeurtenissen parallel worden ingesteld, is het gekozen pad het eerste evenement dat plaatsvindt.
 
@@ -93,11 +93,11 @@ Wanneer u naar een gebeurtenis luistert, raden we u aan niet oneindig op de gebe
 
 Als u het pad wilt verwijderen, plaatst u de cursor op het pad en klikt u op de knop **[!UICONTROL Delete path]** pictogram.
 
-![](../assets/journey42ter.png)
+![](assets/journey42ter.png)
 
 Wanneer twee activiteiten op het canvas worden losgekoppeld, wordt een waarschuwing weergegeven. Plaats de cursor op het waarschuwingspictogram om het foutbericht weer te geven. U kunt het probleem verhelpen door de ontkoppelde activiteit te verplaatsen en deze aan te sluiten op de vorige activiteit.
 
-![](../assets/canvas-disconnected.png)
+![](assets/canvas-disconnected.png)
 
 ## Kopiëren en plakken {#copy-paste}
 
@@ -116,9 +116,9 @@ Hier volgen de stappen voor het kopiëren/plakken van activiteiten:
 
 1. Open een reis.
 1. Selecteer de activiteiten die u wilt kopiëren door de muis te verplaatsen terwijl u klikt. U kunt ook op elke activiteit klikken terwijl u op de knop **Ctrl/Command** toets. Gebruiken **Ctrl/Command + A** als u alle activiteiten wilt selecteren.
-   ![](../assets/copy-paste1.png)
+   ![](assets/copy-paste1.png)
 1. Druk **Ctrl/Command + C**.
 Als u slechts één activiteit wilt kopiëren, kunt u op het klikken en gebruiken **Kopiëren** in de linkerbovenhoek van het deelvenster voor activiteitenconfiguratie.
-   ![](../assets/copy-paste2.png)
+   ![](assets/copy-paste2.png)
 1. Druk tijdens elke reis op **Ctrl/Command + V** om de activiteiten te plakken zonder ze aan een bestaand knooppunt te koppelen. Geplakte activiteiten worden in dezelfde volgorde geplaatst. Na het plakken blijven de activiteiten geselecteerd zodat u ze gemakkelijk kunt verplaatsen. U kunt de cursor ook op een lege plaatsaanduiding plaatsen en op **Ctrl/Command + V**. Geplakte activiteiten worden gekoppeld aan het knooppunt.
-   ![](../assets/copy-paste3.png)
+   ![](assets/copy-paste3.png)

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 8%
@@ -23,11 +23,11 @@ Dit zijn de belangrijkste stappen voor de configuratie van databronnen:
 
 1. Selecteer in de sectie van het menu ADMINISTRATIE de optie **[!UICONTROL Configurations]**. In de  **[!UICONTROL Data Sources]** sectie, klikt u op **[!UICONTROL Manage]**. De lijst met databronnen wordt weergegeven. Zie [deze pagina](../start/user-interface.md) voor meer informatie over de interface.
 
-   ![](../assets/journey18.png)
+   ![](assets/journey18.png)
 
 1. Vervolgens kunt u veldgroepen toevoegen aan de ingebouwde gegevensbron (zie [deze pagina](../datasource/adobe-experience-platform-data-source.md)) of een nieuwe externe gegevensbron maken (zie [deze pagina](../datasource/external-data-sources.md)) en bijbehorende veldgroepen (zie [deze pagina](../datasource/configure-data-sources.md#define-field-groups)).
 
-   ![](../assets/journey23.png)
+   ![](assets/journey23.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -51,7 +51,7 @@ Het aantal ritten dat een veldgroep gebruikt, wordt weergegeven in het dialoogve
 >
 >Als een veldgroep geen veld heeft, wordt deze niet weergegeven in de expressie-editor.
 
-![](../assets/journey3bis.png)
+![](assets/journey3bis.png)
 
 ## Levenscyclus veldgroep {#field-group-lifecycle}
 

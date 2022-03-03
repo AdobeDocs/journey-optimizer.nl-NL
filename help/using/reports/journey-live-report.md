@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 8cb36038b2aeddd1662dcb7c84b36d9bc1265982
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Reis live rapport kan direct vanaf je reis worden geopend met de **[!UICONTROL Live report]** knop.
 
-![](../assets/report_1.png)
+![](assets/report_1.png)
 
 De reis **[!UICONTROL Live report]** Deze pagina wordt weergegeven met de volgende tabbladen:
 
@@ -31,7 +31,7 @@ De reis **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin
 
 Vanaf uw reis **[!UICONTROL Live report]** de **[!UICONTROL Journey]** geeft u een duidelijk overzicht van de belangrijkste volgende gegevens over uw reis.
 
-![](../assets/report_journey_2.png)
+![](assets/report_journey_2.png)
 
 **[!UICONTROL Journey Performance]** Hiermee kunt u het pad van uw doelprofielen stap voor stap bekijken.
 
@@ -43,11 +43,11 @@ De **[!UICONTROL Journey Statistics]** widget geeft de volgende KPI&#39;s weer:
 
 * **[!UICONTROL Failed individual journeys]**: Het totale aantal individuele reizen dat niet succesvol is uitgevoerd.
 
-![](../assets/report_journey_3.png)
+![](assets/report_journey_3.png)
 
 De **[!UICONTROL Event executed over the last 24 hours]** en **[!UICONTROL Events]** Met widgets kunt u zien welke van uw gebeurtenissen met succes zijn uitgevoerd via een overzichtsnummer, grafiek en tabel.
 
-![](../assets/report_journey_4.png)
+![](assets/report_journey_4.png)
 
 De **[!UICONTROL Action executed over the last 24 hours]** en **[!UICONTROL Actions executed and errors]** widgets zijn de meest succesvolle actie en fouten die zijn opgetreden toen uw acties werden geactiveerd. De grafiek, de lijst en de samenvattingsaantallen van de Actie bevatten de gegevens beschikbaar voor acties, zoals:
 
@@ -56,7 +56,7 @@ De **[!UICONTROL Action executed over the last 24 hours]** en **[!UICONTROL Acti
 * **[!UICONTROL Error in actions]**: Het totale aantal fouten dat is opgetreden voor handelingen.
 
 <!--
-![](../assets/live_report_7.png)
+![](assets/live_report_7.png)
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Vanaf uw reis **[!UICONTROL Live report]** de **[!UICONTROL Email]** bevat de be
 
 Voor een gedetailleerd rapport over een specifieke e-maillevering raadpleegt u de [Live-melding via e-mail](email-live-report.md) sectie.
 
-![](../assets/report_email_1.png)
+![](assets/report_email_1.png)
 
 De **[!UICONTROL Email Sending Statistics]** widget geeft details over de belangrijkste informatie met betrekking tot uw bericht:
 
@@ -105,7 +105,7 @@ De **[!UICONTROL Sending metrics by Email]** tabel en **[!UICONTROL Email Summar
 
 * **[!UICONTROL Spam complaints]**: Aantal keren dat een bericht als spam of junk werd verklaard.
 
-![](../assets/report_email_2.png)
+![](assets/report_email_2.png)
 
 De **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** en **[!UICONTROL Hard and bounce - by Email]** widgets bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd, zoals:
 
@@ -123,7 +123,7 @@ Vanaf uw reis **[!UICONTROL Live report]** de **[!UICONTROL Push]** bevat de bel
 
 Voor een gedetailleerd rapport over een specifieke pushservice raadpleegt u de [Live-rapport afdrukken](push-live-report.md) sectie.
 
-![](../assets/report_push_1.png)
+![](assets/report_push_1.png)
 
 **[!UICONTROL Push notification sending performance]**, **[!UICONTROL Push notification summary]** en **[!UICONTROL Sending metrics - by Push]** widgets geeft details over de belangrijkste informatie met betrekking tot uw bericht:
 
@@ -143,7 +143,7 @@ Voor een gedetailleerd rapport over een specifieke pushservice raadpleegt u de [
 
 De **[!UICONTROL Error Reasons]** de grafiek en de lijst laten u zien welke fout tijdens uw levering voorkwam.
 
-![](../assets/report_push_2.png)
+![](assets/report_push_2.png)
 
 De **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** en **[!UICONTROL Breakdown by platform]** in grafieken en tabellen wordt aangegeven hoe succesvol uw pushmelding is, afhankelijk van het besturingssysteem.
 

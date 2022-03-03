@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 6%
@@ -23,7 +23,7 @@ Deze voorwaarden zijn beschikbaar:
 * [Datumvoorwaarde](#date_condition)
 * [Profiel uiteinde](#profile_cap)
 
-![](../assets/journey49.png)
+![](assets/journey49.png)
 
 ## Informatie over de Condition-activiteit {#about_condition}
 
@@ -31,13 +31,13 @@ Wanneer u verschillende voorwaarden in een reis gebruikt, kunt u labels voor elk
 
 Klikken **[!UICONTROL Add a path]** als u meerdere voorwaarden wilt definiëren. Voor elke voorwaarde wordt een nieuw pad toegevoegd in het canvas na de activiteit.
 
-![](../assets/journey47.png)
+![](assets/journey47.png)
 
 Merk op dat het ontwerp van de reizen functionele gevolgen heeft. Wanneer meerdere paden na een voorwaarde worden gedefinieerd, wordt alleen het eerste in aanmerking komende pad uitgevoerd. Dit betekent dat u de prioritering van paden kunt wijzigen door deze boven of onder elkaar te plaatsen.
 
 Laten we bijvoorbeeld het voorbeeld nemen van de voorwaarde &#39;De persoon is een VIP&#39; van een eerste pad en de voorwaarde &#39;De persoon is een man&#39; van een tweede pad. Als een persoon die aan beide voorwaarden voldoet (een man die een VIP is) deze stap doorstaat, wordt het eerste pad gekozen, zelfs als deze persoon ook in aanmerking komt voor het tweede pad, omdat het eerste pad &quot;boven&quot; is. Verplaats uw activiteiten in een andere verticale volgorde om deze prioriteit te wijzigen.
 
-![](../assets/journey48.png)
+![](assets/journey48.png)
 
 U kunt een ander pad maken voor publiek dat niet in aanmerking komt voor de gedefinieerde voorwaarden door te controleren **[!UICONTROL Show path for other cases than the one(s) above]**. Deze optie is niet beschikbaar in gesplitste omstandigheden. Zie [Percentage splitsing](#percentage_split).
 
@@ -46,7 +46,7 @@ In de eenvoudige modus kunt u eenvoudige query&#39;s uitvoeren op basis van een 
 * EN: een doorsnede van twee criteria. Alleen de elementen die aan alle criteria voldoen, worden in aanmerking genomen.
 * OF: een unie van twee criteria . Elementen die ten minste aan een van de twee criteria voldoen, worden in aanmerking genomen.
 
-![](../assets/journey64.png)
+![](assets/journey64.png)
 
 Als u de [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;} om uw segmenten te maken, kunt u deze gebruiken in uw reisomstandigheden. Zie [Segmenten in omstandigheden gebruiken](../building-journeys/condition-activity.md#using-a-segment).
 
@@ -63,7 +63,7 @@ In de eenvoudige redacteur, zult u ook de categorie van de Eigenschappen van de 
 
 Hierdoor kunt u een voorwaarde definiëren op basis van velden uit de gegevensbronnen of de gebeurtenissen die eerder in de reis zijn geplaatst. Ga voor meer informatie over het gebruik van de expressieeditor naar [Adobe Journey Orchestration-documentatie](expression/expressionadvanced.md). Met de geavanceerde expressieeditor kunt u geavanceerdere voorwaarden instellen voor het manipuleren van verzamelingen of het gebruik van gegevensbronnen waarvoor parameters moeten worden doorgegeven. Zie [deze pagina](../datasource/external-data-sources.md).
 
-![](../assets/journey50.png)
+![](assets/journey50.png)
 
 ## Tijdvoorwaarde{#time_condition}
 
@@ -73,7 +73,7 @@ Hierdoor kunt u verschillende handelingen uitvoeren op basis van het uur van de 
 >
 >De tijdzone is niet langer specifiek voor een bepaalde aandoening en wordt nu op het niveau van de reis gedefinieerd in de reiseigenschappen. Zie [deze pagina](../building-journeys/timezone-management.md).
 
-![](../assets/journey51.png)
+![](assets/journey51.png)
 
 ## Percentage splitsing {#percentage_split}
 
@@ -85,7 +85,7 @@ In de testmodus wordt bij het bereiken van een splitsing altijd de bovenste vert
 >
 >Er is geen knop om een pad toe te voegen in de splitsingsvoorwaarde voor percentages. Het aantal paden is afhankelijk van het aantal splitsingen. In gesplitste omstandigheden kunt u geen pad toevoegen voor andere gevallen omdat dit niet kan gebeuren. Mensen gaan altijd in een van de gesplitste paden.
 
-![](../assets/journey52.png)
+![](assets/journey52.png)
 
 ## Datumvoorwaarde {#date_condition}
 
@@ -95,7 +95,7 @@ Hierdoor kunt u een andere stroom definiëren op basis van de datum. Bijvoorbeel
 >
 >De tijdzone is niet langer specifiek voor een bepaalde aandoening en wordt nu op het niveau van de reis gedefinieerd in de reiseigenschappen. Zie [deze pagina](../building-journeys/timezone-management.md).
 
-![](../assets/journey53.png)
+![](assets/journey53.png)
 
 ## Profiel uiteinde {#profile_cap}
 
@@ -116,7 +116,7 @@ Voor het vervoer van levende dieren zijn er de drempelwaarden die in aanmerking 
 
 In de testmodus wordt geen rekening gehouden met de profielbegrenzing.
 
-![](../assets/profile-cap-condition.png)
+![](assets/profile-cap-condition.png)
 
 ## Segmenten gebruiken in voorwaarden {#using-a-segment}
 
@@ -125,15 +125,15 @@ Deze sectie verklaart hoe te om een segment in een reisvoorwaarde te gebruiken. 
 Voer de volgende stappen uit om een segment te gebruiken in een reisvoorwaarde:
 
 1. Een reis openen en een **[!UICONTROL Condition]** en kiest u de **Voorwaarde gegevensbron**.
-   ![](../assets/journey47.png)
+   ![](assets/journey47.png)
 
 1. Klikken **[!UICONTROL Add a path]** voor elk extra pad dat nodig is. Klik voor elk pad op de knop **[!UICONTROL Expression]** veld.
 
-   ![](../assets/segment3.png)
+   ![](assets/segment3.png)
 
 1. Links vouwen **[!UICONTROL Segments]** knooppunt. Sleep het segment dat u voor de voorwaarde wilt gebruiken en zet het neer. De standaardwaarde voor het segment is true.
 
-   ![](../assets/segment4.png)
+   ![](assets/segment4.png)
 
    >[!NOTE]
    >

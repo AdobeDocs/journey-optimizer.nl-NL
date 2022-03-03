@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 44%
@@ -17,7 +17,7 @@ ht-degree: 44%
 
 Om berichten met reizen te verzenden, moet u vormen **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]**.
 
-![](../assets/admin-menu.png)
+![](assets/admin-menu.png)
 
 ## Gegevensbronnen {#data-sources}
 
@@ -39,7 +39,7 @@ Bij het definiëren van een [gebeurtenispayload](../event/about-creating.md#defi
 
 Als er beschrijvingen als xdm:alternateDisplayInfo worden opgegeven tijdens het instellen van schema’s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en algemene velden. U kunt beschrijvers van vriendschappelijke namen via een API vraag vormen. Zie voor meer informatie de [Handleiding voor ontwikkelaars van het schema Register](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html){target=&quot;_blank&quot;}.
 
-![](../assets/xdm-from-descriptors.png)
+![](assets/xdm-from-descriptors.png)
 
 Als een beschrijvende naam beschikbaar is, wordt het veld weergegeven als `<friendly-name>(<name>)`. Als er geen beschrijvende naam beschikbaar is, wordt de weergavenaam weergegeven, bijvoorbeeld `<display-name>(<name>)`. Als geen van deze waarden is gedefinieerd, wordt alleen de technische naam van het veld weergegeven: `<name>`.
 

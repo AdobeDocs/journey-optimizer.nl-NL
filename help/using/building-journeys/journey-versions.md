@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8d5ea4c1-bf23-4b58-8654-c251b90c3458
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 2%
@@ -19,7 +19,7 @@ In de reislijst, worden alle reisversies getoond met het versieaantal. Zie [deze
 
 Wanneer u een reis zoekt, verschijnen de nieuwste versies bij de eerste keer dat de toepassing wordt geopend boven aan de lijst. Vervolgens kunt u de gewenste sortering definiëren en wordt deze door de toepassing als gebruikervoorkeur behouden. De versie van de reis wordt ook weergegeven boven aan de interface van de reiseditie, boven het canvas.
 
-![](../assets/journeyversions1.png)
+![](assets/journeyversions1.png)
 
 Als u zich aan een levende reis moet aanpassen, moet u een nieuwe versie van uw reis tot stand brengen.
 
@@ -29,7 +29,7 @@ Als u zich aan een levende reis moet aanpassen, moet u een nieuwe versie van uw 
 
 1. Open de nieuwste versie van uw livereis en klik op **[!UICONTROL Create a new version]** en bevestigen.
 
-   ![](../assets/journeyversions2.png)
+   ![](assets/journeyversions2.png)
 
    >[!NOTE]
    >
@@ -37,7 +37,7 @@ Als u zich aan een levende reis moet aanpassen, moet u een nieuwe versie van uw 
 
 1. Breng de gewenste wijzigingen aan en klik op **[!UICONTROL Publish]** en bevestigen.
 
-   ![](../assets/journeyversions3.png)
+   ![](assets/journeyversions3.png)
 
 Vanaf het moment dat de reis wordt gepubliceerd, zullen individuen naar de recentste versie van de reis gaan. Mensen die al een vorige versie hebben ingevoerd, blijven er totdat ze klaar zijn met de reis. Als ze later weer dezelfde reis maken, gaan ze naar de meest recente versie.
 

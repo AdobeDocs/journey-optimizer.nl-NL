@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 2%
@@ -34,13 +34,13 @@ Om profielen te kunnen tot stand brengen, moet u eerst een schema en een dataset
 Eerst moet u **een schema maken**. Voer de volgende stappen uit:
 
 1. Klik in de menusectie GEGEVENSBEHEER op **[!UICONTROL Schemas]**.
-   ![](../assets/test-profiles-0.png)
+   ![](assets/test-profiles-0.png)
 1. Klikken **[!UICONTROL Create schema]** selecteert u in de rechterbovenhoek een schematype, bijvoorbeeld **Afzonderlijk XDM-profiel**.
-   ![](../assets/test-profiles-1.png)
+   ![](assets/test-profiles-1.png)
 1. Selecteer de juiste veldgroepen. Zorg ervoor dat u de **Details van de profieltest** veldgroep.
-   ![](../assets/test-profiles-1-ter.png)
+   ![](assets/test-profiles-1-ter.png)
 Als u klaar bent, klikt u op **[!UICONTROL Add field groups]**: de lijst van gebiedsgroepen wordt getoond op het schema overzichtsscherm.
-   ![](../assets/test-profiles-2.png)
+   ![](assets/test-profiles-2.png)
 
    >[!NOTE]
    >
@@ -50,11 +50,11 @@ Als u klaar bent, klikt u op **[!UICONTROL Add field groups]**: de lijst van geb
 
 
 1. Klik in de lijst met velden op het veld dat u als primaire identiteit wilt definiëren.
-   ![](../assets/test-profiles-3.png)
+   ![](assets/test-profiles-3.png)
 1. In de **[!UICONTROL Field properties]** rechterdeelvenster, controleer het **[!UICONTROL Identity]** en **[!UICONTROL Primary Identity]** en selecteert u een naamruimte. Als u wilt dat de primaire identiteit een e-mailadres is, kiest u de optie **[!UICONTROL Email]** naamruimte. Klik op **[!UICONTROL Apply]**.
-   ![](../assets/test-profiles-4bis.png)
+   ![](assets/test-profiles-4bis.png)
 1. Selecteer het schema en schakel het **[!UICONTROL Profile]** in de **[!UICONTROL Schema properties]** venster.
-   ![](../assets/test-profiles-5.png)
+   ![](assets/test-profiles-5.png)
 1. Klikken **Opslaan**.
 
 >[!NOTE]
@@ -64,15 +64,15 @@ Als u klaar bent, klikt u op **[!UICONTROL Add field groups]**: de lijst van geb
 Vervolgens moet u **Maak de dataset** waarin de profielen worden geïmporteerd. Voer de volgende stappen uit:
 
 1. Bladeren naar **[!UICONTROL Datasets]** en klik vervolgens op **[!UICONTROL Create dataset]**.
-   ![](../assets/test-profiles-6.png)
+   ![](assets/test-profiles-6.png)
 1. Kies **[!UICONTROL Create dataset from schema]**.
-   ![](../assets/test-profiles-7.png)
+   ![](assets/test-profiles-7.png)
 1. Selecteer het eerder gemaakte schema en klik op **[!UICONTROL Next]**.
-   ![](../assets/test-profiles-8.png)
+   ![](assets/test-profiles-8.png)
 1. Kies een naam en klik op **[!UICONTROL Finish]**.
-   ![](../assets/test-profiles-9.png)
+   ![](assets/test-profiles-9.png)
 1. De optie **[!UICONTROL Profile]** optie.
-   ![](../assets/test-profiles-10.png)
+   ![](assets/test-profiles-10.png)
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Vervolgens moet u **Maak de dataset** waarin de profielen worden geïmporteerd. 
 
 Op de homepage van Adobe Journey Optimizer kunt u de testprofielen gebruiken in het product. Met dit gebruiksgeval kunt u testprofielen maken die worden gebruikt voor het testen van reizen voordat ze worden gepubliceerd.
 
-![](../assets/use-cases-home.png)
+![](assets/use-cases-home.png)
 
 Klik op de knop **[!UICONTROL Begin]** om het gebruik te starten.
 
@@ -119,11 +119,11 @@ Uw reis zal bestaan uit een **[!UICONTROL Read Segment]** en **[!UICONTROL Updat
 > Aangezien u de **testProfile** in de gekozen profielen moet dit veld worden opgenomen. Het gerelateerde schema moet de **Details van de profieltest** veldgroep. Zie [deze sectie](../building-journeys/creating-test-profiles.md#test-profiles-prerequisites).
 
 1. Bladeren naar **Segmenten** vervolgens **Segment maken**, in de rechterbovenhoek.
-   ![](../assets/test-profiles-22.png)
+   ![](assets/test-profiles-22.png)
 1. Bepaal een naam voor uw segment en bouw het segment: Selecteer de velden en de waarden die u als doel wilt instellen.
-   ![](../assets/test-profiles-23.png)
+   ![](assets/test-profiles-23.png)
 1. Klikken **Opslaan** en controleer of de profielen correct door het segment worden gericht.
-   ![](../assets/test-profiles-24.png)
+   ![](assets/test-profiles-24.png)
 
    >[!NOTE]
    >
@@ -131,13 +131,13 @@ Uw reis zal bestaan uit een **[!UICONTROL Read Segment]** en **[!UICONTROL Updat
 
 1. Maak nu een nieuwe reis en begin met een **[!UICONTROL Read Segment]** orkestactiviteit.
 1. Kies het eerder gemaakte segment en de naamruimte die uw profielen gebruiken.
-   ![](../assets/test-profiles-25.png)
+   ![](assets/test-profiles-25.png)
 1. Een **[!UICONTROL Update Profile]** actieactiviteit.
 1. Selecteer het schema, **testProfiles** veld, de gegevensset en de waarde instellen op **Waar**. Om dit uit te voeren, in **[!UICONTROL VALUE]** veld, klikt u op de knop **Pen** pictogram rechts, selecteert u **[!UICONTROL Advanced mode]** en betreden **true**.
-   ![](../assets/test-profiles-26.png)
+   ![](assets/test-profiles-26.png)
 1. Een **Einde** activiteit en klik **[!UICONTROL Publish]**.
 1. In de **[!UICONTROL Segments]** controleren of de profielen correct zijn bijgewerkt.
-   ![](../assets/test-profiles-28.png)
+   ![](assets/test-profiles-28.png)
 
    >[!NOTE]
    >
@@ -149,24 +149,24 @@ In Adobe Experience Platform kunt u profielen maken door een CSV-bestand met de 
 
 1. Maak een eenvoudig CSV-bestand met behulp van een spreadsheetsoftware.
 1. Voeg één kolom toe voor elk nodig veld. Voeg het primaire identiteitsveld (&quot;personID&quot; in het bovenstaande voorbeeld) en het veld &quot;testProfile&quot; toe op &quot;true&quot;.
-   ![](../assets/test-profiles-11.png)
+   ![](assets/test-profiles-11.png)
 1. Voeg één regel per profiel toe en vul de waarden voor elk veld in.
-   ![](../assets/test-profiles-12.png)
+   ![](assets/test-profiles-12.png)
 1. Sla het werkblad op als een CSV-bestand. Controleer of komma&#39;s als scheidingstekens worden gebruikt.
 1. Bladeren naar Adobe Experience Platform **Workflows**.
-   ![](../assets/test-profiles-14.png)
+   ![](assets/test-profiles-14.png)
 1. Kies **CSV toewijzen aan XDM-schema** en klik vervolgens op **Starten**.
-   ![](../assets/test-profiles-16.png)
+   ![](assets/test-profiles-16.png)
 1. Selecteer de dataset u de profielen in wilt invoeren. Klik op **Next**.
-   ![](../assets/test-profiles-17.png)
+   ![](assets/test-profiles-17.png)
 1. Klikken **Bestanden kiezen** en selecteert u het CSV-bestand. Wanneer het bestand is geüpload, klikt u op **Volgende**.
-   ![](../assets/test-profiles-18.png)
+   ![](assets/test-profiles-18.png)
 1. Wijs de bronCSV gebieden aan de schemagebieden toe, dan klik **Voltooien**.
-   ![](../assets/test-profiles-19.png)
+   ![](assets/test-profiles-19.png)
 1. Het importeren van de gegevens begint. De status verandert van **Verwerking** tot **Succes**. Klikken **Gegevensset voorvertoning**, in de rechterbovenhoek.
-   ![](../assets/test-profiles-20.png)
+   ![](assets/test-profiles-20.png)
 1. Controleer of de testprofielen correct zijn toegevoegd.
-   ![](../assets/test-profiles-21.png)
+   ![](assets/test-profiles-21.png)
 
 Uw testprofielen worden toegevoegd en kunnen nu worden gebruikt bij het testen van een reis. Zie [deze sectie](../building-journeys/testing-the-journey.md).
 >[!NOTE]

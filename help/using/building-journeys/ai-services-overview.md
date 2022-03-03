@@ -5,7 +5,7 @@ description: Overzicht van AI-services
 role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: e4a2d31e50b9a48a6a8dcb9c1fd8096cfc3e077e
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -26,5 +26,5 @@ Klant-AI staat merken toe om op basis van leerresultaten voor churn- of conversi
 
 Dientengevolge, kunnen zij als andere profielattributen in Journey Optimizer-voorwaarden (om de beste besluiten te nemen), acties of segmentbouw worden gebruikt.
 
-![](../assets/customer-ai.png)
+![](assets/customer-ai.png)
 

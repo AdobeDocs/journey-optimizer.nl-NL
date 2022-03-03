@@ -8,7 +8,7 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 09c285fb4481d00008627f31e3fdfbb516d63fd6
+source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Hieronder ziet u enkele voorbeelden van het gebruik van [!DNL Journey Optimizer]
 
 Een van de meest gebruikelijke gebruiksgevallen is het uitnodigen van uw klanten om [abonneren op een service](subscription-list.md) (zoals een nieuwsbrief of een gebeurtenis) door een landingspagina. De belangrijkste stappen worden weergegeven in de onderstaande grafiek:
 
-![](../assets/lp_subscription-uc.png)
+![](assets/lp_subscription-uc.png)
 
 Stel bijvoorbeeld dat u volgende maand een gebeurtenis organiseert en een registratiecampagne voor een gebeurtenis wilt starten<!--to keep your customers that are interested updated on that event-->. Hiervoor stuurt u een e-mail met een koppeling naar een bestemmingspagina waarmee uw ontvangers zich kunnen registreren voor deze gebeurtenis. De gebruikers die zich registreren, worden toegevoegd aan de abonnementenlijst die u voor dit doel hebt gemaakt.
 
@@ -36,7 +36,7 @@ Stel bijvoorbeeld dat u volgende maand een gebeurtenis organiseert en een regist
 
 1. Maak de abonnementenlijst van de gebeurtenisregistratie, waarin de geregistreerde gebruikers worden opgeslagen. Leer hoe u een abonnementenlijst maakt [hier](subscription-list.md#define-subscription-list).
 
-   ![](../assets/lp_subscription-uc-list.png)
+   ![](assets/lp_subscription-uc-list.png)
 
 1. [Een openingspagina maken](create-lp.md) om uw ontvangers in staat te stellen zich voor uw gebeurtenis te registreren.
 
@@ -44,11 +44,11 @@ Stel bijvoorbeeld dat u volgende maand een gebeurtenis organiseert en een regist
 
 1. Bij het ontwerpen van de [pagina-inhoud plaatsen](design-lp.md), selecteert u de abonnementenlijst die u hebt gemaakt om deze bij te werken met de profielen die het selectievakje voor registratie inschakelen.
 
-   ![](../assets/lp_subscription-uc-lp-list.png)
+   ![](assets/lp_subscription-uc-lp-list.png)
 
 1. Maak een pagina &#39;Bedankt&#39; die aan de ontvangers wordt weergegeven wanneer ze het registratieformulier verzenden. Leer hoe u landingssubpagina&#39;s kunt configureren [hier](create-lp.md#configure-subpages).
 
-   ![](../assets/lp_subscription-uc-thanks.png)
+   ![](assets/lp_subscription-uc-thanks.png)
 
 1. [Publiceren](create-lp.md#publish) de openingspagina.
 
@@ -56,13 +56,13 @@ Stel bijvoorbeeld dat u volgende maand een gebeurtenis organiseert en een regist
 
 1. [Een koppeling invoegen](../messages/message-tracking.md#insert-links) in uw berichtinhoud. Selecteren **[!UICONTROL Landing page]** als de **[!UICONTROL Link type]** en kiest u [landingspagina](create-lp.md#configure-primary-page) die u voor registratie hebt gemaakt.
 
-   ![](../assets/lp_subscription-uc-link.png)
+   ![](assets/lp_subscription-uc-link.png)
 
 1. Sla uw inhoud op en [uw bericht publiceren](../messages/publish-manage-message.md).
 
 1. Uw bericht verzenden via een [reis](../building-journeys/journey.md) om het verkeer naar de registratiepagina van de landing te leiden.
 
-   ![](../assets/lp_subscription-uc-journey.png)
+   ![](assets/lp_subscription-uc-journey.png)
 
    Als de ontvangers eenmaal een e-mail hebben ontvangen en op de koppeling naar de bestemmingspagina klikken, worden ze doorgestuurd naar de pagina &#39;Bedankt&#39; en worden ze toegevoegd aan de abonnementenlijst.
 
@@ -72,17 +72,17 @@ Bovendien kunt u een bevestigingsbericht verzenden naar de ontvangers die zich h
 
 1. Een andere maken [reis](../building-journeys/journey.md). U kunt dit rechtstreeks vanaf de bestemmingspagina doen door op de knop **[!UICONTROL Create journey]** knop. Meer informatie [hier](create-lp.md#configure-primary-page)
 
-   ![](../assets/lp_subscription-uc-create-journey.png)
+   ![](assets/lp_subscription-uc-create-journey.png)
 
 1. De **[!UICONTROL Events]** categorie en een **[!UICONTROL Segment Qualification]** op uw canvas. Meer informatie [hier](../building-journeys/segment-qualification-events.md)
 
 1. Klik in het dialoogvenster **[!UICONTROL Segment]** en selecteer de abonnementenlijst die u hebt gemaakt.
 
-   ![](../assets/lp_subscription-uc-confirm-journey.png)
+   ![](assets/lp_subscription-uc-confirm-journey.png)
 
 1. Selecteer het bevestigingsbericht van uw keuze en verzend het door de reis.
 
-   ![](../assets/lp_subscription-uc-confirm-email.png)
+   ![](assets/lp_subscription-uc-confirm-email.png)
 
 Alle gebruikers die zich voor uw gebeurtenis hebben geregistreerd, ontvangen het bevestigingsbericht.
 
@@ -113,13 +113,13 @@ Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zi
 
 1. [Ontwerp](design-lp.md) de inhoud van de primaire pagina: de landingspagina-specifiek gebruiken **[!UICONTROL Form]** component, een component definiëren **[!UICONTROL Opt-out]** selectievakje en kies voor bijwerken **[!UICONTROL Channel (email)]**: Het profiel dat het vak Weigeren op de bestemmingspagina controleert, wordt uit al uw communicatie verwijderd.
 
-   ![](../assets/lp_opt-out-primary-lp.png)
+   ![](assets/lp_opt-out-primary-lp.png)
 
    <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
 
 1. Een bevestiging toevoegen [subpagina](create-lp.md#configure-subpages) die wordt weergegeven aan de gebruikers die het formulier verzenden.
 
-   ![](../assets/lp_opt-out-subpage.png)
+   ![](assets/lp_opt-out-subpage.png)
 
    >[!NOTE]
    >
@@ -127,17 +127,17 @@ Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zi
 
 1. Zodra u vormde en de inhoud van uw pagina&#39;s bepaalde, [publish](create-lp.md#publish) de openingspagina.
 
-   ![](../assets/lp_opt-out-publish.png)
+   ![](assets/lp_opt-out-publish.png)
 
 1. [Een e-mailbericht maken](../messages/create-message.md) in [!DNL Journey Optimizer].
 
 1. Selecteer tekst in uw inhoud en [een koppeling invoegen](../messages/message-tracking.md#insert-links) gebruiken van de contextafhankelijke werkbalk. U kunt ook een koppeling op een knop gebruiken.
 
-   ![](../assets/lp_opt-out-insert-link.png)
+   ![](assets/lp_opt-out-insert-link.png)
 
 1. Selecteren **[!UICONTROL Landing page]** van de **[!UICONTROL Link type]** vervolgkeuzelijst en selecteert u de [landingspagina](create-lp.md#configure-primary-page) die u hebt gemaakt voor het uitschakelen.
 
-   ![](../assets/lp_opt-out-landing-page.png)
+   ![](assets/lp_opt-out-landing-page.png)
 
 1. Sla uw inhoud op en [uw bericht publiceren](../messages/publish-manage-message.md).
 
@@ -145,7 +145,7 @@ Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zi
 
 1. Als een ontvanger op de koppeling voor het opzeggen van het abonnement in de e-mail klikt nadat het bericht is ontvangen, wordt de bestemmingspagina weergegeven.
 
-   ![](../assets/lp_opt-out-submit-form.png)
+   ![](assets/lp_opt-out-submit-form.png)
 
    Indien de ontvanger het vakje aankruist en het formulier verzendt:
 
@@ -155,7 +155,7 @@ Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zi
 
 Als u wilt controleren of de keuze van het corresponderende profiel is bijgewerkt, gaat u naar het Experience Platform en opent u het profiel door een naamruimte voor identiteiten en een bijbehorende identiteitswaarde te selecteren. Meer informatie in het dialoogvenster [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
-![](../assets/lp_opt-out-profile-choice.png)
+![](assets/lp_opt-out-profile-choice.png)
 
 In de **[!UICONTROL Attributes]** tab, kunt u de waarde zien voor **[!UICONTROL choice]** is gewijzigd in **[!UICONTROL no]**.
 

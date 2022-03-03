@@ -6,7 +6,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 8fc470ced790ed65df7e88b861e8b8f7126ace21
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 3%
@@ -27,7 +27,7 @@ Voer de volgende stappen uit om uw SMS-leverancier te configureren met Journey O
 
 1. Toegang krijgen tot **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL API Credentials]** en klik vervolgens op **[!UICONTROL Create API credential]**.
 
-   ![](../assets/sms_4.png)
+   ![](assets/sms_4.png)
 
 1. Selecteer Sinch als uw **[!UICONTROL SMS vendor]**.
 
@@ -39,7 +39,7 @@ Voer de volgende stappen uit om uw SMS-leverancier te configureren met Journey O
    >
    > Voor Sinch zijn speciale API-referenties vereist. Als u uw **[!UICONTROL Service ID]** en **[!UICONTROL API Token]**, toegang tot SMS > API&#39;s via uw Sinch-account,
 
-   ![](../assets/sms_5.png)
+   ![](assets/sms_5.png)
 
 1. Klikken **[!UICONTROL Submit]** wanneer u de configuratie van uw API-referenties hebt voltooid.
 

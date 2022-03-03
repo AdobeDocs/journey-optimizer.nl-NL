@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Gebruik de  **[!UICONTROL Offers]** om gepersonaliseerde en terugvalaanbiedingen
 
 * **[!UICONTROL Decisions]**: Beslissingen maken en beheren om uw aanbiedingen te leveren. Zie [Besluiten maken](../offer-activities/create-offer-activities.md).
 
-![](../../assets/offers_menu.png)
+![](../assets/offers_menu.png)
 
 Gebruik de  **[!UICONTROL Components]** menu voor het beheer van de componenten die nodig zijn om aanbiedingen te maken:
 
@@ -43,19 +43,19 @@ Gebruik de  **[!UICONTROL Components]** menu voor het beheer van de componenten 
 
 * **[!UICONTROL Rankings]**: Opstellen en beheren van rangschikkingsformules om te bepalen welke aanbieding als eerste voor een bepaalde plaatsing moet worden gepresenteerd. Zie [Classificatieformules maken](../offer-library/create-ranking-formulas.md).
 
-![](../../assets/offer_activities.png)
+![](../assets/offer_activities.png)
 
 ## Overzicht {#overview}
 
 Als u nog niet eerder [!DNL Offer Decisioning]de **[!UICONTROL Overview]** bevat een overzicht van de belangrijkste stappen die nodig zijn om de beslissing over je eerste voorstel op te stellen.
 
-![](../../assets/overview_onboarding.png)
+![](../assets/overview_onboarding.png)
 
 Volg de stappen op het scherm om plaatsingen, aanbiedingen en verzamelingen te maken.
 
 Zodra u met deze eerste stappen wordt gedaan, wordt u ertoe aangezet om aanbiedingsbesluiten (eerder genoemd geworden aanbiedingsactiviteiten) tot stand te brengen.
 
-![](../../assets/overview_collection-created.png)
+![](../assets/overview_collection-created.png)
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Klik op een voorstel of een beslissing om rechtstreeks toegang te krijgen tot de
 
 Klik op de knop **[!UICONTROL View all]** om tot de aanbieding, inzameling, of besluitvormingslijsten toegang te hebben.
 
-![](../../assets/overview_view-all.png)
+![](../assets/overview_view-all.png)
 
 ## Informatie zoeken en filteren {#search-and-filter-information}
 
@@ -75,7 +75,7 @@ Gebruik de **zoekbalk** om een specifiek item te zoeken.
 
 **Filters** U kunt ook toegang krijgen door op het filterpictogram linksboven in de lijst te klikken. Hiermee kunt u de weergegeven elementen filteren op basis van verschillende criteria. U kunt bijvoorbeeld de plaatsen filteren die zijn gemaakt voor het communicatiekanaal en de inhoud van het type afbeelding.
 
-![](../../assets/filters.png)
+![](../assets/filters.png)
 
 ## Weergegeven gegevens aanpassen {#customize-displayed-information}
 
@@ -85,21 +85,21 @@ Op deze manier kunt u de informatie kiezen die u wilt weergeven.
 
 Merk op dat de kolomaanpassing voor elke gebruiker wordt bewaard.
 
-![](../../assets/columns.png)
+![](../assets/columns.png)
 
 ## Informatievenster {#information-pane}
 
 Selecteer in de verschillende lijsten een element om een informatievenster weer te geven waarmee u informatie kunt ophalen en basishandelingen op het element kunt uitvoeren.
 
-![](../../assets/information-pane.png)
+![](../assets/information-pane.png)
 
 Met de lijsten met aanbiedingen en beslissingen kunt u ook bulkacties uitvoeren op verschillende elementen. U doet dit door de gewenste aanbiedingen of beslissingen te selecteren en vervolgens in het informatievenster de actie te selecteren die u wilt uitvoeren.
 
-![](../../assets/bulk-actions.png)
+![](../assets/bulk-actions.png)
 
 U kunt ook een bestaande aanbieding of een bestaande beslissing dupliceren om een kopie te maken met de **[!UICONTROL Draft]** status. Dit kan of van de informatieruit of van een aanbieding of de gedetailleerde mening van een besluit worden uitgevoerd.
 
-![](../../assets/duplicate-offer.png)
+![](../assets/duplicate-offer.png)
 
 ## Aanbiedingen en besluiten veranderen logboeken {#changes-logs}
 
@@ -107,4 +107,4 @@ In de bibliotheek met aanbiedingen kunt u alle wijzigingen visualiseren die in e
 
 Alle aangebrachte wijzigingen worden in dit scherm weergegeven, evenals de naam van de gebruiker die de wijzigingen heeft uitgevoerd.
 
-![](../../assets/change-logs.png)
+![](../assets/change-logs.png)

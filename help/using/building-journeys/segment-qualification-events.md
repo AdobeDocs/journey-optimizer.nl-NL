@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
 1. De **[!UICONTROL Events]** categorie en een **[!UICONTROL Segment Qualification]** op uw canvas.
 
-   ![](../assets/segment5.png)
+   ![](assets/segment5.png)
 
 1. Voeg een **[!UICONTROL Label]** aan de activiteit. Deze stap is optioneel.
 
@@ -42,13 +42,13 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
    >
    >U kunt de kolommen in de lijst aanpassen en sorteren.
 
-   ![](../assets/segment6.png)
+   ![](assets/segment6.png)
 
    Nadat het segment is toegevoegd, wordt het **[!UICONTROL Copy]** kunt u de naam en de id kopiëren:
 
    `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](../assets/segment-copy.png)
+   ![](assets/segment-copy.png)
 
 1. In de **[!UICONTROL Behaviour]** in het veld kiest u of u wilt luisteren naar segmentingangen, afsluiten of beide.
 
@@ -58,7 +58,7 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
 1. Selecteer een naamruimte. Dit is alleen nodig als de gebeurtenis als eerste stap van de reis wordt geplaatst.
 
-   ![](../assets/segment7.png)
+   ![](assets/segment7.png)
 
 De nuttige lading bevat de volgende contextinformatie, die u in voorwaarden en acties kunt gebruiken:
 
@@ -70,7 +70,7 @@ Wanneer u de expressieeditor gebruikt in een voorwaarde of handeling die volgt o
 
 Zie [Condition-activiteit](../building-journeys/condition-activity.md#about_condition).
 
-![](../assets/segment8.png)
+![](assets/segment8.png)
 
 Een nieuwe reis die een gebeurtenis van de segmentkwalificatie omvat is operationeel tien minuten nadat u het hebt gepubliceerd. Dit tijdinterval beantwoordt aan het geheime voorgeheugen verfrist interval van de specifieke dienst. Daarom moet u tien minuten wachten voordat u deze reis gebruikt.
 
@@ -98,10 +98,10 @@ Hier volgen een paar voorbeelden van beste praktijken die zullen helpen overlade
 
 Niet gebruiken in een **[!UICONTROL Segment Qualification]** activiteit, een batchsegment onmiddellijk na de aanmaak ervan. Hiermee wordt de eerste rekenpiek vermeden. Merk op dat er een gele waarschuwing in het reiscanvas zal zijn als u op het punt staat om een segment te gebruiken dat nooit is berekend.
 
-![](../assets/segment-error.png)
+![](assets/segment-error.png)
 
 Plaats een plafondregel voor gegevensbronnen en handelingen die tijdens reizen worden gebruikt om overbelasting te voorkomen. Meer informatie in [Journey Orchestration-documentatie](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}. De bijschilderregel hoeft niet opnieuw te worden uitgevoerd. Als u het opnieuw moet proberen, moet u een alternatief pad in de reis gebruiken door de doos te controleren **[!UICONTROL Add an alternative path in case of a timeout or an error]** in omstandigheden of acties.
 
 Voordat u het segment in een productietraject gaat gebruiken, moet u altijd eerst het aantal personen beoordelen dat dagelijks voor dit segment in aanmerking komt. Om dit te doen, kunt u controleren **[!UICONTROL Segments]** menu, opent u het segment en bekijkt u het **[!UICONTROL Profiles over time]** grafiek.
 
-![](../assets/segment-overload.png)
+![](assets/segment-overload.png)

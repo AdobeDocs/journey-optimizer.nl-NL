@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 3%
@@ -57,7 +57,7 @@ De belangrijkste stappen om aanbiedingen te vormen, hen te omvatten in een beslu
 
 Het algemene besluitvormingsproces voor het gebruik van aanbiedingen in een e-mail kan als volgt worden beschreven:
 
-![](../assets/offers-e2e-process.png)
+![](assets/offers-e2e-process.png)
 
 ## De componenten definiëren {#define-components}
 
@@ -75,7 +75,7 @@ U vindt ze onder de **[!UICONTROL Decision Management]** > **[!UICONTROL Compone
    * *E-mail - Afbeelding*
    * *Niet-digitaal - tekst*
 
-   ![](../assets/offers-e2e-placements.png)
+   ![](assets/offers-e2e-placements.png)
 
    De gedetailleerde stappen voor het maken van plaatsingen worden beschreven in [deze sectie](../../using/offers/offer-library/creating-placements.md).
 
@@ -88,7 +88,7 @@ U vindt ze onder de **[!UICONTROL Decision Management]** > **[!UICONTROL Compone
    * *Vrouwelijke klanten*
    * *Mannelijke klanten*
 
-   ![](../assets/offers-e2e-rules.png)
+   ![](assets/offers-e2e-rules.png)
 
    De gedetailleerde stappen voor het maken van regels worden beschreven in [deze sectie](../../using/offers/offer-library/creating-decision-rules.md).
 
@@ -98,7 +98,7 @@ U vindt ze onder de **[!UICONTROL Decision Management]** > **[!UICONTROL Compone
 
    In dit voorbeeld maakt u de opdracht *Yoga* tag.
 
-   ![](../assets/offers-e2e-tag.png)
+   ![](assets/offers-e2e-tag.png)
 
    De gedetailleerde stappen voor het maken van tags worden beschreven in [deze sectie](../../using/offers/offer-library/creating-tags.md).
 
@@ -130,17 +130,17 @@ U kunt nu uw aanbiedingen maken en configureren. In dit voorbeeld maakt u vier a
 
 1. Selecteer een geschikte afbeelding voor de eerste twee plaatsen. Voer aangepaste tekst in voor de *Niet-digitaal - tekst* plaatsing.
 
-   ![](../assets/offers-e2e-representations.png)
+   ![](assets/offers-e2e-representations.png)
 
 1. In de **[!UICONTROL Offer eligibility]** sectie, selecteert u **[!UICONTROL By defined decision rule]** en sleep de lijn van uw keuze.
 
-   ![](../assets/offers-e2e-eligibility.png)
+   ![](assets/offers-e2e-eligibility.png)
 
 1. Vul de **[!UICONTROL Priority]**. In dit voorbeeld voegt u *25*.
 
 1. Controleer je voorstel en klik op **[!UICONTROL Save and approve]**.
 
-   ![](../assets/offers-e2e-review.png)
+   ![](assets/offers-e2e-review.png)
 
 1. In dit voorbeeld maakt u nog drie aanbiedingen met dezelfde weergaven, maar met verschillende elementen. Wijs hen met verschillende regels en prioriteiten toe, zoals:
 
@@ -149,7 +149,7 @@ U kunt nu uw aanbiedingen maken en configureren. In dit voorbeeld maakt u vier a
    * Derde aanbieding - Beslissingsregel: *Mannelijke klanten*, prioriteit: *25*
    * Vierde aanbod - Beslissingsregel: *Mannelijke klanten*, prioriteit: *15*
 
-   ![](../assets/offers-e2e-offers-created.png)
+   ![](assets/offers-e2e-offers-created.png)
 
 De gedetailleerde stappen om aanbiedingen tot stand te brengen en te vormen worden beschreven in [deze sectie](../../using/offers/offer-library/creating-personalized-offers.md).
 
@@ -165,11 +165,11 @@ De gedetailleerde stappen om aanbiedingen tot stand te brengen en te vormen word
    * Eén die overeenkomt met de *E-mail - Afbeelding* plaatsing
    * Eén die overeenkomt met de *Niet-digitaal - tekst* plaatsing
 
-   ![](../assets/offers-e2e-fallback-representations.png)
+   ![](assets/offers-e2e-fallback-representations.png)
 
 1. Controleer uw fallback-aanbieding en klik op **[!UICONTROL Save and approve]**.
 
-![](../assets/offers-e2e-fallback.png)
+![](assets/offers-e2e-fallback.png)
 
 Je fallbackvoorstel is nu klaar om te worden gebruikt in een beslissing.
 
@@ -183,7 +183,7 @@ Wanneer het vormen van het besluit, zult u uw gepersonaliseerde aanbiedingen als
 
 1. Gebruik de *Yoga* tag gebruiken om de vier aangepaste aanbiedingen te selecteren die u eerder hebt gemaakt.
 
-   ![](../assets/offers-e2e-collection-using-tag.png)
+   ![](assets/offers-e2e-collection-using-tag.png)
 
 De gedetailleerde stappen voor het maken van een verzameling worden beschreven in [deze sectie](../../using/offers/offer-library/creating-collections.md).
 
@@ -199,11 +199,11 @@ Om een aanbiedingsbesluit tot stand te brengen en te vormen, volg de belangrijks
 
 1. Selecteer *Web - Afbeelding*, *E-mail - Afbeelding* en *Niet-digitaal - tekst* stages.
 
-   ![](../assets/offers-e2e-decision-placements.png)
+   ![](assets/offers-e2e-decision-placements.png)
 
 1. Voeg voor elke plaatsing de verzameling toe die u hebt gemaakt.
 
-   ![](../assets/offers-e2e-decision-collection.png)
+   ![](assets/offers-e2e-decision-collection.png)
 
 1. Als u een classificatie hebt gedefinieerd wanneer [samenstellen van componenten](#define-components), kunt u deze toewijzen aan een plaatsing in de beslissing. Indien meerdere aanbiedingen in aanmerking komen om in deze plaatsing te worden gepresenteerd, wordt in de beslissing gebruik gemaakt van deze formule om te berekenen welke aanbieding het eerst wordt geleverd.
 
@@ -211,11 +211,11 @@ Om een aanbiedingsbesluit tot stand te brengen en te vormen, volg de belangrijks
 
 1. Selecteer de fallback-aanbieding die u hebt gemaakt. Het wordt weergegeven als een beschikbare fallback-aanbieding voor de drie geselecteerde plaatsingen.
 
-   ![](../assets/offers-e2e-decision-fallback.png)
+   ![](assets/offers-e2e-decision-fallback.png)
 
 1. Controleer uw beslissing en klik op **[!UICONTROL Save and approve]**.
 
-   ![](../assets/offers-e2e-review-decision.png)
+   ![](assets/offers-e2e-review-decision.png)
 
 Uw beslissing is nu klaar om te worden gebruikt voor het aanbieden van geoptimaliseerde en persoonlijke aanbiedingen.
 
@@ -231,21 +231,21 @@ Nu uw beslissing live is, kunt u deze invoegen in een e-mailbericht. Hiervoor vo
 
 1. Een **[!UICONTROL Offer decision]** inhoudscomponent. Leer hoe u inhoudscomponenten kunt gebruiken in [deze sectie](../../using/messages/content-components.md).
 
-   ![](../assets/offers-e2e-decision-component.png)
+   ![](assets/offers-e2e-decision-component.png)
 
 1. Selecteer het. Klik in het rechterpalet op **[!UICONTROL Select offer decision]** om een besluit toe te voegen.
 
-   ![](../assets/offers-e2e-select-offer-decision.png)
+   ![](assets/offers-e2e-select-offer-decision.png)
 
 1. Selecteer de plaatsing die overeenkomt met de aanbiedingen die u wilt weergeven in het menu **[!UICONTROL Placements]** vervolgkeuzelijst.
 
    In dit geval, van de plaatsingen die u eerder als deel van dit voorbeeld creeerde, slechts **E-mail - Afbeelding** De plaatsing is beschikbaar aangezien u het besluit in een e-mail wilt gebruiken. Meer informatie over [plaatsen maken](../../using/offers/offer-library/creating-placements.md).
 
-   ![](../assets/offers-e2e-select-placement-in-decision.png)
+   ![](assets/offers-e2e-select-placement-in-decision.png)
 
 1. Besluiten die overeenkomen met **E-mail - Afbeelding** de plaatsing wordt weergegeven. Selecteer de beslissing die u in de inhoudcomponent wilt gebruiken en klik op **[!UICONTROL Add]**.
 
-   ![](../assets/offers-e2e-matching-placement-in-decision.png)
+   ![](assets/offers-e2e-matching-placement-in-decision.png)
 
    >[!NOTE]
    >
@@ -253,7 +253,7 @@ Nu uw beslissing live is, kunt u deze invoegen in een e-mailbericht. Hiervoor vo
 
 U ziet nu alle persoonlijke aanbiedingen en de fallback-aanbieding die in de e-mailontwerper worden weergegeven.
 
-![](../assets/offers-e2e-offers-displayed.png)
+![](assets/offers-e2e-offers-displayed.png)
 
 Gebruik de **[!UICONTROL Offers]** -sectie of de inhoudcomponenten pijlen (pijl-rechts en pijl-links) om door gegevens te bladeren. U kunt de verschillende aanbiedingen die deel uitmaken van het besluit ook met een klantenprofiel tonen. Meer informatie in [deze sectie](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email).
 

@@ -3,7 +3,7 @@ title: Journey Optimizer Aan de slag voor Marketers
 description: Leer als praktijkbeoefenaar meer hoe u met Journey Optimizer kunt werken
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: 56f7ec7f69f39ee0715ba65f52c194976f4aa479
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -22,17 +22,17 @@ Raadpleeg de volgende secties voor het instellen van uw eerste reis, het toevoeg
 
 1. **Berichten maken**. Meer informatie over het maken van e-mail- en pushberichten in Journey Optimizer [op deze pagina](../../messages/create-message.md).
 
-   ![](../../assets/email_designer_7.png)
+   ![](../assets/email_designer_7.png)
 
 1. **Aanpassing toevoegen**. Gebruik Journey Optimizer-personalisatiefuncties om uw boodschap aan te passen aan uw publiek. Meer informatie over personalisatie [in deze sectie](../../personalization/personalize.md).
 
-   ![](../../personalization/assets/perso_ee2.png)
+   ![](../assets/perso_ee2.png)
 
 1. **Elementen maken en beheren**. [!DNL Adobe Experience Manager Assets Essentials] biedt één gecentraliseerde opslagplaats voor elementen die u kunt gebruiken om uw berichten te vullen. Meer informatie [in deze sectie](../../messages/assets-essentials.md).
 
 1. **Aanbiedingen toevoegen**. Gebruiken [!DNL Journey Optimizer] om uw klanten de beste aanbieding en ervaring op alle aanraakpunten op het juiste moment te bieden. Als u ze eenmaal hebt ontworpen, richt u zich op uw publiek met persoonlijke aanbiedingen. Meer informatie over Beslissingsbeheer [in deze sectie](../../offers/get-started/starting-offer-decisioning.md).
 
-   ![](../../assets/offers-e2e-offers-displayed.png)
+   ![](../assets/offers-e2e-offers-displayed.png)
 
 1. **Uw berichten testen en valideren**. Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u [persoonlijke inhoud](../../personalization/personalize.md), kunt u controleren hoe deze inhoud in het bericht wordt weergegeven en testprofielgegevens gebruiken. Bovendien kunt u uw **Litmus** account [!DNL Journey Optimizer] om direct een voorvertoning van uw **e-mailrendering** in populaire e-mailclients. U kunt er dan voor zorgen dat uw e-mailinhoud er goed uitziet en goed werkt in elk Postvak IN. Leer hoe u uw berichten kunt testen en valideren [in deze sectie](../../messages/preview.md).
 
@@ -46,7 +46,7 @@ Raadpleeg de volgende secties voor het instellen van uw eerste reis, het toevoeg
 
    * Met de **reisontwerper**, maak uw meerstapse gebruiksscenario&#39;s: U kunt eenvoudig een entry-gebeurtenis of een lezen-segmentactiviteit slepen en neerzetten, voorwaarden toevoegen en gepersonaliseerde berichten verzenden.
 
-   ![](../../assets/copy-paste3.png)
+   ![](../assets/copy-paste3.png)
 
    Leer hoe u reizen ontwerpt en uitvoert [in deze sectie](../../building-journeys/journey-gs.md)
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 24%
@@ -25,11 +25,11 @@ De gebeurtenissen die door de technische gebruiker worden gevormd (zie [deze pag
 * [Reactie](../building-journeys/reaction-events.md)
 * [Segmentkwalificatie](../building-journeys/segment-qualification-events.md)
 
-![](../assets/journey43.png)
+![](assets/journey43.png)
 
 Begin de reis door een gebeurtenisactiviteit te slepen en neer te zetten. U kunt er ook op dubbelklikken.
 
-![](../assets/journey44.png)
+![](assets/journey44.png)
 
 ## Orkestratieactiviteiten {#orchestration-activities}
 
@@ -40,7 +40,7 @@ In het palet zijn aan de linkerkant van het scherm de volgende orkestactiviteite
 * [Wachten](../building-journeys/wait-activity.md)
 * [Segment lezen](../building-journeys/read-segment.md)
 
-![](../assets/journey49.png)
+![](assets/journey49.png)
 
 ## Actieactiviteiten {#action-activities}
 
@@ -50,7 +50,7 @@ Vanuit het palet, links van het scherm, onder **[!UICONTROL Events]** en **[!UIC
 * [Aangepaste acties](../building-journeys/using-custom-actions.md)
 * [Springen](../building-journeys/jump.md)
 
-![](../assets/journey58.png)
+![](assets/journey58.png)
 
 Deze activiteiten staan voor de verschillende beschikbare communicatiekanalen. U kunt ze combineren om een scenario voor meerdere kanalen te maken.
 
@@ -60,8 +60,8 @@ Als u douaneacties hebt gevormd, zullen zij hier verschijnen (zie [deze pagina](
 
 Met de meeste activiteiten kunt u een **[!UICONTROL Label]**. Hiermee voegt u een achtervoegsel toe aan de naam die onder uw activiteit op het canvas wordt weergegeven. Dit is handig als u dezelfde activiteit meerdere keren gebruikt en u deze gemakkelijker wilt identificeren. Het zal ook het zuiveren in het geval van fouten gemakkelijker maken en het zal rapporten gemakkelijker te lezen maken. U kunt ook een optionele **[!UICONTROL Description]**.
 
-![](../assets/journey59bis.png)
+![](assets/journey59bis.png)
 
 Wanneer er een fout in een actie of een voorwaarde optreedt, eindigt de journey van een individu. De enige manier om door te gaan is het selectievakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in te schakelen. Zie [deze sectie](../building-journeys/using-the-journey-designer.md#paths).
 
-![](../assets/journey42.png)
+![](assets/journey42.png)

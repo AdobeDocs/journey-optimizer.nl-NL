@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 5%
@@ -23,7 +23,7 @@ De markeringen kunnen ook worden gebruikt om aanbiedingen samen in aanbiedingsin
 
 De lijst met gemaakte tags is toegankelijk in het dialoogvenster **[!UICONTROL Components]** -menu.
 
-![](../../assets/tags_list.png)
+![](../assets/tags_list.png)
 
 Voer de volgende stappen uit om een tag te maken:
 
@@ -31,11 +31,11 @@ Voer de volgende stappen uit om een tag te maken:
 
 1. Geef de naam van de tag op en klik vervolgens op **[!UICONTROL Save]**.
 
-   ![](../../assets/tags_create.png)
+   ![](../assets/tags_create.png)
 
 1. Nadat de tag is gemaakt, wordt deze weergegeven in de lijst. U kunt het selecteren om zijn eigenschappen te tonen en het uit te geven of te onderdrukken.
 
-   ![](../../assets/tags_created.png)
+   ![](../assets/tags_created.png)
 
 ## Video over zelfstudie {#video}
 

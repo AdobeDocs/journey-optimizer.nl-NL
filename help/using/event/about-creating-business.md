@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 11%
@@ -54,15 +54,15 @@ Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
 
 1. Selecteer in de sectie van het menu ADMINISTRATIE de optie **[!UICONTROL Configurations]**. In de  **[!UICONTROL Events]** sectie, klikt u op **[!UICONTROL Manage]**. De lijst met gebeurtenissen wordt weergegeven.
 
-   ![](../assets/jo-event1.png)
+   ![](assets/jo-event1.png)
 
 1. Klik op **[!UICONTROL Create Event]** om een nieuwe gebeurtenis te maken. Het deelvenster voor gebeurtenisconfiguratie wordt aan de rechterkant van het scherm geopend.
 
-   ![](../assets/jo-event2.png)
+   ![](assets/jo-event2.png)
 
 1. Voer de naam van de gebeurtenis in. U kunt ook een beschrijving toevoegen.
 
-   ![](../assets/jo-event3-business.png)
+   ![](assets/jo-event3-business.png)
 
    >[!NOTE]
    >
@@ -70,20 +70,20 @@ Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
 
 1. In de **[!UICONTROL Type]** veld, kies **Zakelijk**.
 
-   ![](../assets/jo-event3bis-business.png)
+   ![](assets/jo-event3bis-business.png)
 
 1. Het aantal journey’s dat deze gebeurtenis gebruikt, wordt in het veld **[!UICONTROL Used in]** weergegeven. U kunt klikken op het pictogram **[!UICONTROL View journeys]** om de lijst weer te geven met journey’s die deze gebeurtenis gebruiken.
 
 1. Definieer het schema en de payload velden: Hier selecteert u de gebeurtenisinformatie (gewoonlijk een lading genoemd) die reizen verwacht te ontvangen. U kunt deze informatie vervolgens gebruiken tijdens uw journey. Zie [deze sectie](../event/about-creating-business.md#define-the-payload-fields).
 
-   ![](../assets/jo-event5-business.png)
+   ![](assets/jo-event5-business.png)
 
    Er zijn alleen tijdreeksschema&#39;s beschikbaar. Er zijn geen schema&#39;s beschikbaar voor ervaringsgebeurtenissen, beslissingsgebeurtenissen en trapsgewijze gebeurtenissen. Het gebeurtenisschema moet een primaire identiteit bevatten. De volgende velden moeten naar wens worden ingesteld: `_id` en `timestamp`
 
-   ![](../assets/test-profiles-4.png)
+   ![](assets/test-profiles-4.png)
 
 1. Klik in het dialoogvenster **[!UICONTROL Event ID condition]** veld. Gebruikend de eenvoudige uitdrukkingsredacteur, bepaal de voorwaarde die door het systeem zal worden gebruikt om de gebeurtenissen te identificeren die uw reis zullen teweegbrengen.
-   ![](../assets/jo-event6-business.png)
+   ![](assets/jo-event6-business.png)
 
    In ons voorbeeld schreven we een voorwaarde op basis van de id van het product. Dit betekent dat wanneer het systeem een gebeurtenis ontvangt die aan deze voorwaarde voldoet, het het aan reizen zal overgaan.
 
@@ -93,7 +93,7 @@ Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
 
 1. Klik op **[!UICONTROL Save]**.
 
-   ![](../assets/journey7-business.png)
+   ![](assets/journey7-business.png)
 
    De gebeurtenis is nu geconfigureerd en klaar om in een journey worden gezet. Er zijn aanvullende configuratiestappen nodig om gebeurtenissen te ontvangen. Zie [deze pagina](../event/additional-steps-to-send-events-to-journey-orchestration.md).
 
@@ -103,11 +103,11 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 
 1. Selecteer een XDM-schema in de lijst en klik op de knop **[!UICONTROL Fields]** of op **[!UICONTROL Edit]** pictogram.
 
-   ![](../assets/journey8-business.png)
+   ![](assets/journey8-business.png)
 
    Alle velden die in het schema zijn gedefinieerd, worden weergegeven. De lijst met velden verschilt per schema. U kunt naar een specifiek veld zoeken of de filters gebruiken om alle knooppunten en velden of alleen de geselecteerde velden weer te geven. Volgens de schemadefinitie zijn sommige velden mogelijk verplicht en vooraf geselecteerd. U kunt de selectie niet opheffen. Alle velden die verplicht zijn voor een goede ontvangst van de gebeurtenis tijdens de reis, zijn standaard geselecteerd.
 
-   ![](../assets/journey9-business.png)
+   ![](assets/journey9-business.png)
 
    >[!NOTE]
    >
@@ -119,7 +119,7 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 
    Het aantal geselecteerde velden wordt weergegeven in het dialoogvenster **[!UICONTROL Fields]** veld.
 
-   ![](../assets/journey12-business.png)
+   ![](assets/journey12-business.png)
 
 ## Een voorvertoning van de lading weergeven {#preview-the-payload}
 
@@ -127,11 +127,11 @@ Met de voorvertoning van de lading kunt u de definitie van de lading valideren.
 
 1. Klik op de knop **[!UICONTROL View Payload]** pictogram voor een voorvertoning van de lading die door het systeem wordt verwacht.
 
-   ![](../assets/journey13-business.png)
+   ![](assets/journey13-business.png)
 
    U ziet dat de geselecteerde velden worden weergegeven.
 
-   ![](../assets/journey14-business.png)
+   ![](assets/journey14-business.png)
 
 1. Controleer de voorvertoning om de definitie van de payload te valideren.
 

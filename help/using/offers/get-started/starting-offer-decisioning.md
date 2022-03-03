@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 2d859a5dab19a419d424acefd17d254473c00818
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '908'
 ht-degree: 45%
@@ -26,7 +26,7 @@ De beslissingsmanagementcapaciteit bestaat uit twee hoofdcomponenten:
 * De **Gecentraliseerde aanbiedingsbibliotheek** Dit is de interface waar u de verschillende elementen creeert en beheert die uw aanbiedingen vormen, en hun regels en beperkingen bepalen.
 * De **Beslissingsengine voorstellen** die gebruikmaakt van Adobe Experience Platform-gegevens en realtime klantprofielen, samen met de aanbiedingsbibliotheek, om de juiste tijd, klanten en kanalen te selecteren waaraan de aanbiedingen worden geleverd.
 
-![](../../assets/architecture.png)
+![](../assets/architecture.png)
 
 Voordelen zijn:
 
@@ -42,7 +42,7 @@ Een **Aanbieding** bestaat uit content, geschiktheidsregels en restricties die d
 
 De aanbieding wordt gemaakt aan de hand van de **Aanbiedingsbibliotheek**, die een centrale aanbiedingscatalogus verstrekt waar u geschiktheidsregels en restricties kunt koppelen aan meerdere stukken content om aanbiedingen te maken en te publiceren (zie [Gebruikersinterface van de Aanbiedingsbibliotheek](../get-started/user-interface.md)).
 
-![](../../assets/offer_structure.png)
+![](../assets/offer_structure.png)
 
 Zodra de bibliotheek met aanbiedingen is verrijkt, kunt u uw aanbiedingen integreren in **besluiten** (voorheen bekend als &quot;aanbiedingsactiviteiten&quot;).
 
@@ -54,11 +54,11 @@ Dankzij de mogelijkheden voor Beslissingsbeheer en de integratie met Adobe Exper
 
 * Geef op de startpagina van uw website de aanbiedingen weer die passen bij de belangstelling van de bezoekende klant, op basis van gegevens van Adobe Experience Platform.
 
-   ![](../../assets/website.png)
+   ![](../assets/website.png)
 
 * Als klanten in de buurt van één van uw winkels lopen, stuur ze dan pushmeldingen om hen te herinneren aan beschikbare aanbiedingen op basis van hun kenmerken (loyaliteitsniveau, gender, eerdere aankopen...).
 
-   ![](../../assets/push_sample.png)
+   ![](../assets/push_sample.png)
 
 * Beslissingsbeheer helpt u ook de ervaring van uw klanten te verbeteren wanneer u contact opneemt met uw ondersteuningsteam. Het Beheer APIs van het besluit staat u toe om in uw portaalinformatie van de agenten van het vraagcentrum over de terugbetaalde klant en volgende beste aanbiedingen te tonen.
 

@@ -6,7 +6,7 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 9%
@@ -36,15 +36,15 @@ Om uw reizen te kunnen tot stand brengen en berichten te verzenden, moet u door 
 
 1. **Subdomeinen delegeren**: voor om het even welk nieuw subdomain dat in Journey Optimizer moet worden gebruikt, zal de eerste stap het delegeren zijn. [Meer informatie](about-subdomain-delegation.md)
 
-   ![](../assets/subdomain.png)
+   ![](assets/subdomain.png)
 
 1. **IP-pools maken**: Verbeter uw e-mailleverbaarheid en reputatie door IP adressen te groeperen die aan uw instantie worden geleverd. [Meer informatie](ip-pools.md)
 
-   ![](../assets/ip-pool.png)
+   ![](assets/ip-pool.png)
 
 1. **Reizen configureren**: om reizen te bouwen, moet u vormen **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]**. [Meer informatie](about-data-sources-events-actions.md)
 
-   ![](../assets/admin-menu.png)
+   ![](assets/admin-menu.png)
 
    * De **Gegevensbron** De configuratie staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw reizen zal worden gebruikt. Meer informatie over gegevensbronnen vindt u in deze [sectie](../datasource/about-data-sources.md)
 

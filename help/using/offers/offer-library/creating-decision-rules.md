@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 4%
@@ -23,13 +23,13 @@ U kunt bijvoorbeeld opgeven dat u alleen een &#39;Women&#39;s Winter Clothing Of
 
 De lijst met nieuwe besluitvormingsregels is toegankelijk in de **[!UICONTROL Components]** -menu.
 
-![](../../assets/decision_rules_list.png)
+![](../assets/decision_rules_list.png)
 
 Voer de volgende stappen uit om een beslissingsregel te maken:
 
 1. Ga naar de **[!UICONTROL Rules]** tab, en klik vervolgens op **[!UICONTROL Create rule]**.
 
-   ![](../../assets/offers_decision_rule_creation.png)
+   ![](../assets/offers_decision_rule_creation.png)
 
 1. Noem uw regel en verstrek een beschrijving, dan vorm de regel volgens uw behoeften.
 
@@ -37,7 +37,7 @@ Voer de volgende stappen uit om een beslissingsregel te maken:
 
    In dit voorbeeld, zal de regel klanten richten die het &quot;Gouden&quot;loyaliteitsniveau hebben.
 
-   ![](../../assets/offers_decision_rule_creation_segment.png)
+   ![](../assets/offers_decision_rule_creation_segment.png)
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ Voer de volgende stappen uit om een beslissingsregel te maken:
 
 1. Zodra de regel wordt gecreeerd, toont het in de lijst van regels. U kunt het selecteren om zijn eigenschappen te tonen en het uit te geven of te schrappen.
 
-   ![](../../assets/rule_created.png)
+   ![](../assets/rule_created.png)
 
 >[!CAUTION]
 >

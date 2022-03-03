@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 06a7abc2ada930356cbaf45ce01eed5e3156f2e3
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Ga als volgt te werk om een IP-pool te maken:
 
 1. Toegang krijgen tot **[!UICONTROL Channels]** / **[!UICONTROL IP pools]** en klik vervolgens op **[!UICONTROL Create IP Pool]**.
 
-   ![](../assets/ip-pool-create.png)
+   ![](assets/ip-pool-create.png)
 
 1. Geef een naam en een beschrijving (optioneel) voor de IP-pool op.
 
@@ -39,7 +39,7 @@ Ga als volgt te werk om een IP-pool te maken:
 
 1. Selecteer de IP adressen om in de pool van de drop-down lijst te omvatten, dan klik **[!UICONTROL Submit]**.
 
-   ![](../assets/ip-pool-config.png)
+   ![](assets/ip-pool-config.png)
 
    >[!NOTE]
    >
@@ -47,7 +47,7 @@ Ga als volgt te werk om een IP-pool te maken:
 
 De IP pool wordt nu gecreeerd en toont in de lijst. U kunt deze selecteren voor toegang tot de eigenschappen en voor weergave van de bijbehorende berichtvoorinstelling. Voor meer op hoe te om een berichtvooraf ingesteld met een IP pool te associëren, verwijs naar [deze sectie](message-presets.md)).
 
-![](../assets/ip-pool-created.png)
+![](assets/ip-pool-created.png)
 
 ## Een IP-pool bewerken {#edit-ip-pool}
 
@@ -55,11 +55,11 @@ Om een IP pool uit te geven:
 
 1. Klik in de lijst op de naam van de IP-pool om deze te openen.
 
-   ![](../assets/ip-pool-list.png)
+   ![](assets/ip-pool-list.png)
 
 1. Bewerk de eigenschappen naar wens. U kunt de beschrijving wijzigen en IP-adressen toevoegen of verwijderen.
 
-   ![](../assets/ip-pool-edit.png)
+   ![](assets/ip-pool-edit.png)
 
    >[!CAUTION]
    >
@@ -78,7 +78,7 @@ De update is onmiddellijk of asynchroon van kracht, afhankelijk van de IP pool d
 
 Als u de updatestatus van de IP-pool wilt controleren, klikt u op de knop **[!UICONTROL More actions]** en selecteert u **[!UICONTROL Recent updates]**.
 
-![](../assets/ip-pool-recent-update.png)
+![](assets/ip-pool-recent-update.png)
 
 >[!NOTE]
 >

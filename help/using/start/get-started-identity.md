@@ -5,7 +5,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: 2088b5ba2ec77e56644683e118e734acfe6707fc
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Persoonlijk identificeerbare Informatie (PII) zoals e-mailadres en telefoonaanta
 
 In [!DNL Adobe Journey Optimizer], **Identiteiten** consumenten met elkaar verbinden tussen apparaten en kanalen, het resultaat is [identiteitsgrafiek](#id-graph). De verbonden identiteitsgrafiek wordt gebruikt om ervaringen te personaliseren die op interactie over al uw bedrijfs touchpoints worden gebaseerd.
 
-![](../assets/identities-home.png)
+![](assets/identities-home.png)
 
 Meer informatie over **Identiteitsservice** in [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=nl){target=&quot;_blank&quot;}.
 

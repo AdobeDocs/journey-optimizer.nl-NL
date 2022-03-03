@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1ddfbf1a-3cd5-446a-b0fb-76b81b88c1b4
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -19,11 +19,11 @@ De e-mail **[!UICONTROL Live report]** is alleen bedoeld voor een specifieke e-m
 
 Van de **[!UICONTROL Executions]** tabblad van het dialoogvenster **[!UICONTROL Messages]** menu, selecteert u **[!UICONTROL Live view]** Selecteer vervolgens in het geavanceerde menu van de geselecteerde levering **[!UICONTROL Live report]**.
 
-![](../assets/live_report.png)
+![](assets/live_report.png)
 
 De e-mail **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw levering worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Zie voor meer informatie hierover [sectie](live-report.md#modify-dashboard).
 
-![](../assets/live_report_5.png)
+![](assets/live_report_5.png)
 
 **[!UICONTROL Email performance]** en **[!UICONTROL Email summary]** widgets detailleert de belangrijkste informatie met betrekking tot uw bericht met een grafiek en KPIs:
 
@@ -55,7 +55,7 @@ De **[!UICONTROL Sending Statistics]** widget geeft aan hoe succesvol uw leverin
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
-![](../assets/live_report_6.png)
+![](assets/live_report_6.png)
 
 De **[!UICONTROL Error Reasons]** de grafiek en de lijst laten u zien welke fout tijdens uw levering voorkwam.
 
@@ -68,7 +68,7 @@ De **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]** widgets
 * **[!UICONTROL Ignored]**: Het totale aantal tijdelijke gegevens, zoals Buiten-kantoor, of een technische fout, bijvoorbeeld als het type afzender postmaster is.
 
 <!--
-![](../assets/live_report_8.png)
+![](assets/live_report_8.png)
 
 >[!NOTE]
 >

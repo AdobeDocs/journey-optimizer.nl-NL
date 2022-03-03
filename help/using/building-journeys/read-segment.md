@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: c9f260444e1cd20e66421a87dd62c5ae7209ee06
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 4%
@@ -43,13 +43,13 @@ De stappen om de activiteit van het Leessegment te vormen zijn als volgt:
    >
    >Alleen personen met de **Gerealiseerd** en **Bestaande** de deelnamestatistieken van de segmenten zullen de reis betreden . Raadpleeg voor meer informatie over het evalueren van een segment de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
-   ![](../assets/read-segment-selection.png)
+   ![](assets/read-segment-selection.png)
 
    Nadat het segment is toegevoegd, wordt het **[!UICONTROL Copy]** kunt u de naam en de id kopiëren:
 
    `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](../assets/read-segment-copy.png)
+   ![](assets/read-segment-copy.png)
 
 1. In de **[!UICONTROL Namespace]** gebruiken, kiest u de naamruimte die u wilt gebruiken om de personen te identificeren. [Meer informatie over naamruimten](../event/about-creating.md#select-the-namespace).
 
@@ -67,7 +67,7 @@ De stappen om de activiteit van het Leessegment te vormen zijn als volgt:
 
 1. De **[!UICONTROL Read Segment]** de activiteit staat u toe om de tijd te specificeren waarop het segment de reis zal ingaan. Om dit te doen, klik **[!UICONTROL Edit journey schedule]** verbinding om tot de eigenschappen van de reis toegang te hebben, dan vorm **[!UICONTROL Scheduler type]** veld.
 
-   ![](../assets/read-segment-schedule.png)
+   ![](assets/read-segment-schedule.png)
 
    De segmenten gaan standaard de reis in **[!UICONTROL As soon as possible]**. Als u wilt dat het segment de reis op een specifieke datum/tijd of op een terugkomende basis ingaat, selecteer de gewenste waarde van de lijst.
 
@@ -75,7 +75,7 @@ De stappen om de activiteit van het Leessegment te vormen zijn als volgt:
    >
    >De **[!UICONTROL Schedule]** -sectie alleen beschikbaar als een **[!UICONTROL Read Segment]** activiteit is weggelaten op het canvas.
 
-   ![](../assets/read-segment-schedule-list.png)
+   ![](assets/read-segment-schedule-list.png)
 
    De **Incrementeel lezen** met deze optie kunt u zich alleen richten op de personen die het segment hebben betreden sinds de laatste uitvoering van de reis. De eerste uitvoering richt altijd alle segmentleden. Deze optie is alleen beschikbaar voor herhaling **Segment lezen** activiteiten.
 
@@ -104,7 +104,7 @@ De **[!UICONTROL Read Segment]** met deze activiteit kunt u de reis testen op ee
 
 Hiervoor activeert u de testmodus en selecteert u de gewenste optie in het linkerdeelvenster.
 
-![](../assets/read-segment-test-mode.png)
+![](assets/read-segment-test-mode.png)
 
 U kunt de testwijze dan vormen en in werking stellen zoals gebruikelijk. [Leer hoe u een reis test](testing-the-journey.md).
 
@@ -116,7 +116,7 @@ Als de test eenmaal is uitgevoerd, wordt **[!UICONTROL Show logs]** met de knop 
 
    Houd er rekening mee dat u door het testen van de reis met maximaal 100 profielen tegelijk de voortgang van de individuele personen op de reis niet kunt bijhouden met behulp van de visuele stroom.
 
-   ![](../assets/read-segment-log.png)
+   ![](assets/read-segment-log.png)
 
 Wanneer de tests succesvol zijn, kunt u uw reis publiceren (zie [De reis publiceren](publishing-the-journey.md)). Personen die tot het segment behoren, komen de reis binnen op de datum/tijd die in de eigendommen van de reis is vermeld **[!UICONTROL Scheduler]** sectie.
 
@@ -144,7 +144,7 @@ De segmentatie kan worden gebaseerd op:
 * een tijd, bijvoorbeeld: is het morgenochtend in de tijdzone van de persoon ?
 * een algoritme waarin het publiek dat de reis volgt wordt gesplitst op basis van een percentage, bijvoorbeeld: 90% - 10% om een controlegroep uit te sluiten
 
-![](../assets/read-segment-audience1.png)
+![](assets/read-segment-audience1.png)
 
 **Uitsluiting**
 
@@ -152,7 +152,7 @@ Hetzelfde **Voorwaarde** de activiteit die voor segmentatie wordt gebruikt (zie 
 
 Deze uitsluiting zou direct na het opvragen van segmenten kunnen plaatsvinden, voor het tellen van de bevolking of langs een reis met meerdere stappen.
 
-![](../assets/read-segment-audience2.png)
+![](assets/read-segment-audience2.png)
 
 **Samenvoeging**
 
@@ -164,4 +164,4 @@ Zo kunnen VIP en niet-VIP klanten na een andere ervaring gedurende tien dagen op
 
 Na een vereniging, kunt u het publiek opnieuw verdelen door een segmentatie of een uitsluiting uit te voeren.
 
-![](../assets/read-segment-audience3.png)
+![](assets/read-segment-audience3.png)

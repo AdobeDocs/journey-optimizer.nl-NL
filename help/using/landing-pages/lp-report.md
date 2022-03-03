@@ -8,7 +8,7 @@ level: Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 06a0aedb-444f-4d3f-bacb-6d58185595dd
-source-git-commit: 8ec1420c29b2dd796441e2c08512b6378adb3fb1
+source-git-commit: c988f0baa8b3c622dfb4f1ff060001a3462ed31e
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
@@ -25,11 +25,11 @@ Het rapport van de bestemmingspagina bevat informatie over de impact van uw best
 
 Als u uw rapporten wilt openen, selecteert u **Live** of **[!UICONTROL Global report]** in het geavanceerde menu van de geselecteerde bestemmingspagina.
 
-![](../assets/landing_page_report_1.png)
+![](assets/landing_page_report_1.png)
 
 ## Live-verslag over de landingspagina {#lp-live}
 
-![](../assets/landing_page_report_2.png)
+![](assets/landing_page_report_2.png)
 
 De **[!UICONTROL Landing page performance]** widget geeft de belangrijkste informatie met betrekking tot uw bericht over de afgelopen 24 uur door KPIs detail:
 
@@ -53,7 +53,7 @@ De **[!UICONTROL Journey(s)]** widget geeft het aantal bezoeken aan uw landingsp
 
 De **[!UICONTROL Other sources]** widget geeft het aantal bezoeken aan uw landingspagina aan vanuit een externe bron in plaats van een reis .
 
-![](../assets/landing_page_report_3.png)
+![](assets/landing_page_report_3.png)
 
 De **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** grafieken geven het totale aantal bezoeken en personen aan die de laatste 24 uur succesvol hebben gereageerd op uw landingspagina, afhankelijk van de verzonden berichten.
 
@@ -61,7 +61,7 @@ De **[!UICONTROL Visits by channels]** / **[!UICONTROL Conversions by channels]*
 
 ## Algemeen rapport landingspagina {#lp-global}
 
-![](../assets/landing_page_report_4.png)
+![](assets/landing_page_report_4.png)
 
 De **[!UICONTROL Number of visits]** en **[!UICONTROL Number of visits over time]** Met widgets kunt u de invloed van de landingspagina op de geselecteerde tijdsperiode zien via een grafiek en KPI&#39;s met de volgende meetwaarden:
 
@@ -75,7 +75,7 @@ De **[!UICONTROL Landing page performance]** widget geeft via KPI&#39;s informat
 
 * **[!UICONTROL Bounce rate]**: Aantal personen dat niet met de landingspagina in wisselwerking stond en de actie van het intekenen niet voltooide, in verhouding tot het totale aantal bezoeken.
 
-![](../assets/landing_page_report_5.png)
+![](assets/landing_page_report_5.png)
 
 De **[!UICONTROL Visit sources]** widget geeft aan hoe bezoekers uw landingspagina openen:
 
@@ -95,7 +95,7 @@ De **[!UICONTROL Journey(s)]** widget geeft het aantal bezoeken aan uw landingsp
 
 De **[!UICONTROL Other sources]** widget geeft het aantal bezoeken aan uw landingspagina aan vanuit een externe bron in plaats van een reis .
 
-![](../assets/landing_page_report_6.png)
+![](assets/landing_page_report_6.png)
 
 De **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** de grafieken geven het totale aantal bezoeken en personen aan die met succes hebben gereageerd op uw landingspagina voor de betrokken periode, afhankelijk van de verzonden berichten.
 

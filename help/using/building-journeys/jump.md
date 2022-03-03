@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 2%
@@ -70,16 +70,16 @@ Bij reis B wordt het eerste evenement intern geactiveerd, via de **[!UICONTROL J
 
 1. Ontwerp uw **oorspronkelijke reis**.
 
-   ![](../assets/jump1.png)
+   ![](assets/jump1.png)
 
 1. Voeg bij elke stap van de reis een **[!UICONTROL Jump]** van de **[!UICONTROL ACTIONS]** categorie. Voeg een label en beschrijving toe.
 
-   ![](../assets/jump2.png)
+   ![](assets/jump2.png)
 
 1. Klik in het dialoogvenster **Doelreis** veld.
 De lijst toont alle reisversies die ontwerp, levend of in testwijze zijn. Reizen die een andere naamruimte gebruiken of die beginnen met een **Segmentkwalificatie** is niet beschikbaar. Doeltrajecten die een luspatroon zouden maken, worden ook uitgefilterd.
 
-   ![](../assets/jump3.png)
+   ![](assets/jump3.png)
 
    >[!NOTE]
    >
@@ -88,12 +88,12 @@ De lijst toont alle reisversies die ontwerp, levend of in testwijze zijn. Reizen
 1. Selecteer de doelreis waarnaar u wilt springen.
 De **Eerste gebeurtenis** veld wordt voorgevuld met de naam van de eerste gebeurtenis van de doelreis. Als uw doelreis meerdere gebeurtenissen bevat, **[!UICONTROL Jump]** is alleen toegestaan op de eerste gebeurtenis.
 
-   ![](../assets/jump4.png)
+   ![](assets/jump4.png)
 
 1. De **Handelingsparameters** worden alle velden van de doelgebeurtenis weergegeven. Net als bij andere typen acties wijst u elk veld met velden uit de gebeurtenis van oorsprong of de gegevensbron toe. Deze informatie wordt tijdens runtime doorgegeven aan de doelroute.
 1. Voeg de volgende activiteiten toe om uw oorspronkelijke reis te voltooien.
 
-   ![](../assets/jump5.png)
+   ![](assets/jump5.png)
 
 
    >[!NOTE]
@@ -104,7 +104,7 @@ Uw **[!UICONTROL Jump]** activiteit wordt gevormd. Zodra uw reis of in testwijze
 
 Wanneer een **[!UICONTROL Jump]** activiteit wordt gevormd in een reis, a **[!UICONTROL Jump]** het ingangspictogram wordt automatisch toegevoegd aan het begin van de doelreis. Dit helpt u identificeren dat de reis extern maar ook intern van kan teweegbrengen **[!UICONTROL Jump]** activiteit.
 
-![](../assets/jump7.png)
+![](assets/jump7.png)
 
 ## Problemen oplossen
 
@@ -113,4 +113,4 @@ Bij publicatie van de reis of in testmodus treden fouten op als:
 * de doelreis is een concept, een gesloten of een stilstand
 * als de eerste gebeurtenis van de doelreis is gewijzigd en de mapping is verbroken
 
-![](../assets/jump6.png)
+![](assets/jump6.png)

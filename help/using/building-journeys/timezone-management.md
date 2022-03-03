@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 7138e1f031bd26caf9379c3ff19d79ac29442bc6
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 2%
@@ -38,7 +38,7 @@ De tijdzone kan ook worden vastgesteld. Wis de vooraf gedefinieerde tijdzone en 
 
 Daartoe, in **[!UICONTROL Journey Properties]** selecteert u een tijdzone.
 
-![](../assets/journey72.png)
+![](assets/journey72.png)
 
 ## Profielen gebruiken om de tijdzone voor het transport te definiëren {#timezone-from-profiles}
 
@@ -50,7 +50,7 @@ Als het profiel van het individu geen tijdzone bevat, wordt de opgehaalde tijdzo
 
 Daartoe, in **[!UICONTROL Properties]**, controle **[!UICONTROL Use Profile timezone in waits and conditions]**.
 
-![](../assets/journey73.png)
+![](assets/journey73.png)
 
 ## Tijdzones gebruiken in expressies {#timezone-in-expressions}
 

@@ -3,7 +3,7 @@ title: Journey Optimizer Aan de slag voor systeembeheer
 description: Als systeembeheerder, leer meer hoe te om met Journey Optimizer te werken
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 7a07f2348f08b4582a1310fb65d431c55451d9b6
+source-git-commit: a20bf3aa869ce73805c63323ac36e5d86a44746e
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -56,16 +56,16 @@ Voer de onderstaande stappen uit:
 
 1. **Subdomeinen delegeren**: voor om het even welk nieuw subdomain dat in Journey Optimizer moet worden gebruikt, zal de eerste stap het delegeren zijn. [Meer informatie](../../configuration/about-subdomain-delegation.md)
 
-   ![](../../assets/subdomain.png)
+   ![](../assets/subdomain.png)
 
 1. **IP-pools maken**: Verbeter uw e-mailleverbaarheid en reputatie door IP adressen te groeperen die aan uw instantie worden geleverd. [Meer informatie](../../configuration/ip-pools.md)
 
-   ![](../../assets/ip-pool.png)
+   ![](../assets/ip-pool.png)
 
 1. **De onderdrukking en lijst van gewenste personen beheren**: verbeter uw leverbaarheid met onderdrukking en lijsten van gewenste personen
 
    * A [onderdrukkingslijst](../../messages/suppression-list.md) bestaat uit e-mailadressen die u van uw leveringen wilt uitsluiten, omdat het verzenden naar deze contacten uw verzendende reputatie en leveringspercentages zou kunnen beschadigen. U kunt alle e-mailadressen controleren die automatisch van het verzenden van een reis, zoals ongeldige adressen, adressen worden uitgesloten die constant elektronische stuiteren, en uw e-mailreputatie, en ontvangers die een spamklacht van één of andere soort tegen één van uw e-mailberichten negatief zouden kunnen beïnvloeden. Leer hoe u de [onderdrukkingslijst](../../configuration/manage-suppression-list.md) en [opnieuw](../../configuration/retries.md).
-   ![](../../assets/suppression-list-filtering-example.png)
+   ![](../assets/suppression-list-filtering-example.png)
 
    * De [lijst van gewenste personen](../../messages/allow-list.md) kunt u afzonderlijke e-mailadressen of domeinen opgeven die de enige ontvangers of domeinen zijn die geautoriseerd zijn om de e-mails te ontvangen die u verzendt vanuit een specifieke sandbox. Dit kan voorkomen dat u per ongeluk e-mailberichten naar de adressen van de echte klant stuurt wanneer u zich in een testomgeving bevindt. Leer hoe u [de lijst van gewenste personen inschakelen](../../messages/allow-list.md).
    Meer informatie over het beheer van de aflevering vindt u in [!DNL Adobe Journey Optimizer] [op deze pagina](../../messages/deliverability.md).

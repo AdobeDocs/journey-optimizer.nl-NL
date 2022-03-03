@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 7588a675319324e43bbc61a71b1fdfaab9cce93a
+source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 88%
@@ -32,11 +32,11 @@ Hier volgen de belangrijkste stappen voor het maken en configureren van een nieu
 
 1. Klik in de lijst van databronnen op **[!UICONTROL Create Data Source]** om een nieuwe externe databron te maken.
 
-   ![](../assets/journey25.png)
+   ![](assets/journey25.png)
 
    Hiermee opent u het configuratiedeelvenster voor de databron aan de rechterkant van het scherm.
 
-   ![](../assets/journey26.png)
+   ![](assets/journey26.png)
 
 1. Voer een naam in voor de databron.
 
@@ -51,7 +51,7 @@ Hier volgen de belangrijkste stappen voor het maken en configureren van een nieu
    >
    >We raden u uit beveiligingsoverwegingen sterk aan om HTTPS te gebruiken. Bedenk ook dat we het gebruik van Adobe-adressen die niet openbaar beschikbaar zijn en het gebruik van IP-adressen niet toestaan.
 
-   ![](../assets/journey27.png)
+   ![](assets/journey27.png)
 
 1. Configureer de verificatie volgens de configuratie van de externe service: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** of **[!UICONTROL API key]**. Voor meer informatie over de wijze van de douaneauthentificatie, zie [deze sectie](../datasource/external-data-sources.md#custom-authentication-mode). In ons voorbeeld kiezen we:
 
@@ -60,7 +60,7 @@ Hier volgen de belangrijkste stappen voor het maken en configureren van een nieu
    * **[!UICONTROL Value]**: ‘1234’ (dit is de waarde van onze API-sleutel)
    * **[!UICONTROL Location]**: ‘Query-parameter’ (de API-sleutel bevindt zich in de URL)
 
-   ![](../assets/journey28.png)
+   ![](assets/journey28.png)
 
 1. Voeg een nieuwe veldengroep toe voor elke API-parameterreeks door te klikken op **[!UICONTROL Add a New Field Group]**. Gebruik geen spaties of speciale tekens in de naam van de veldengroep. In ons voorbeeld moeten we twee veldengroepen maken, één voor elke parameterreeks (city en long/lat).
 
@@ -81,7 +81,7 @@ Bij een GET-aanroep die parameter(s) vereist, voert u de parameter(s) in het vel
    {"id":{"param":"identifier"}}
    ```
 
-![](../assets/journey29.png)
+![](assets/journey29.png)
 
 Klik op **[!UICONTROL Save]**.
 
@@ -98,11 +98,11 @@ Deze verificatiemodus wordt gebruikt voor complexe verificatie, die vaak wordt g
 
 Wanneer u de aangepaste verificatie configureert, kunt u op de onderstaande knop klikken om te controleren of de payload van de aangepaste verificatie correct is geconfigureerd.
 
-![](../assets/journey29-bis.png)
+![](assets/journey29-bis.png)
 
 Als de test is geslaagd, wordt de knop groen.
 
-![](../assets/journey29-ter.png)
+![](assets/journey29-ter.png)
 
 Bij deze verificatie is de uitvoering van de actie een proces dat uit twee stappen bestaat:
 

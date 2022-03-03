@@ -5,7 +5,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 0545cda9f91ff18791310a4ee2463b2287ac7557
+source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 3%
@@ -20,7 +20,7 @@ De fallback-aanbieding wordt naar klanten gestuurd als zij niet in aanmerking ko
 
 De lijst met terugvalaanbiedingen is toegankelijk in het **[!UICONTROL Offers]** -menu.
 
-![](../../assets/offers_list.png)
+![](../assets/offers_list.png)
 
 Voer de volgende stappen uit om een fallback-aanbieding te maken:
 
@@ -30,27 +30,27 @@ Voer de volgende stappen uit om een fallback-aanbieding te maken:
 
 1. Klikken **[!UICONTROL Create offer]** selecteert u vervolgens **[!UICONTROL Fallback offer]**.
 
-   ![](../../assets/create_fallback.png)
+   ![](../assets/create_fallback.png)
 
 1. Geef de naam van de fallback-aanbieding op. U kunt ook een of meerdere bestaande tags aan de bibliotheek koppelen, zodat u de bibliotheek met aanbiedingen eenvoudiger kunt doorzoeken en organiseren.
 
-   ![](../../assets/fallback_details.png)
+   ![](../assets/fallback_details.png)
 
 1. Maak een of meer representaties voor de fallback-aanbieding. Hiervoor sleept u plaatsingen vanuit het linkervenster, bijvoorbeeld wanneer u een gepersonaliseerde aanbieding maakt. Zie [Aangepaste aanbiedingen maken](../offer-library/creating-personalized-offers.md).
 
-   ![](../../assets/fallback_content.png)
+   ![](../assets/fallback_content.png)
 
 1. Zodra de vertegenwoordiging van de reserveaanbieding is toegevoegd, een summiere vertoningen. Als alles correct wordt gevormd en uw reserveaanbod klaar is om aan klanten te worden voorgesteld, klik **[!UICONTROL Finish]** selecteert u vervolgens **[!UICONTROL Save and approve]**.
 
    U kunt de fallback-aanbieding ook opslaan als concept, zodat u deze later kunt bewerken en goedkeuren.
 
-   ![](../../assets/fallback_review.png)
+   ![](../assets/fallback_review.png)
 
 1. De fallback-aanbieding wordt in de lijst weergegeven met de **[!UICONTROL Live]** of **[!UICONTROL Draft]** status, afhankelijk van het feit of u het al dan niet in de vorige stap hebt goedgekeurd.
 
    Het is nu klaar om aan klanten te worden geleverd. U kunt het selecteren om zijn eigenschappen te tonen en het uit te geven. <!-- no suppression? -->
 
-   ![](../../assets/fallback_created.png)
+   ![](../assets/fallback_created.png)
 
 ## Video over zelfstudie {#video}
 

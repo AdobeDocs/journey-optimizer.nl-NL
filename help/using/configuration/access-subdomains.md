@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cb3248c5-f444-47aa-80b2-c1a9fbebfcc0
-source-git-commit: dcdbf4a0cd6a93e56cbe97535515c1a6143db81b
+source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Alle gedelegeerde subdomeinen worden weergegeven in het dialoogvenster **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** -menu. Er zijn filters beschikbaar waarmee u de lijst (datum van delegatie, gebruiker of status) kunt verfijnen.
 
-![](../assets/subdomain-list.png)
+![](assets/subdomain-list.png)
 
 De **[!UICONTROL Status]** de kolom verstrekt informatie over het subdomain delegatieproces:
 
@@ -32,4 +32,4 @@ Als u toegang wilt tot gedetailleerde informatie over een subdomein, opent u het
 
 * Voeg een TXT-record voor verificatie van de Google-site toe aan uw subdomein om te controleren of deze is geverifieerd (zie [Een Google TXT-record toevoegen aan een subdomein](google-txt.md)).
 
-![](../assets/subdomain-delegated.png)
+![](assets/subdomain-delegated.png)

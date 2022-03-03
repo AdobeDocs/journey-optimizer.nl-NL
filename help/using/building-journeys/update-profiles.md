@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 778ab302a5c9835024fe324999cdf5acf19ad172
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -40,13 +40,13 @@ Raadpleeg voor meer informatie over de manier waarop u een bestaand profiel in e
 
 1. In de **Handeling** van het palet, zet de **Profiel bijwerken** op het canvas.
 
-   ![](../assets/profileupdate0.png)
+   ![](assets/profileupdate0.png)
 
 1. Selecteer een schema in de lijst.
 
 1. Klikken op **Veld** om het veld te selecteren dat u wilt bijwerken. Er kan slechts één veld worden geselecteerd.
 
-   ![](../assets/profileupdate2.png)
+   ![](assets/profileupdate2.png)
 
 1. Selecteer een gegevensset in de lijst.
 
@@ -58,12 +58,12 @@ Raadpleeg voor meer informatie over de manier waarop u een bestaand profiel in e
 
    * Met de eenvoudige expressieeditor kunt u een veld uit een gegevensbron of uit de binnenkomende gebeurtenis selecteren.
 
-      ![](../assets/profileupdate4.png)
+      ![](assets/profileupdate4.png)
 
    * Als u een specifieke waarde wilt definiëren of geavanceerde functies wilt gebruiken, klikt u op **Geavanceerde modus**.
 
-      ![](../assets/profileupdate3.png)
+      ![](assets/profileupdate3.png)
 
 De **Profiel bijwerken** is nu geconfigureerd.
 
-![](../assets/profileupdate1.png)
+![](assets/profileupdate1.png)

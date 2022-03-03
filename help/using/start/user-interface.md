@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b43e3432ede1d4985e0a6b57b57c5efc3cf60c50
+source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 7%
@@ -30,7 +30,7 @@ De componenten en mogelijkheden die beschikbaar zijn in de gebruikersinterface z
 
 Gebruik de koppelingen aan de linkerkant om te bladeren in mogelijkheden.
 
-![](../assets/ajo-home.png)
+![](assets/ajo-home.png)
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ U vindt onder de volledige lijst met services en mogelijkheden in de linkernavig
 
 Hefboomwerking [!DNL Adobe Journey Optimizer] Gebruik gevallen op de startpagina en geef een paar snelle invoer voor een reis naar de klant.
 
-![](../assets/use-cases-home.png)
+![](assets/use-cases-home.png)
 
 Beschikbare gebruiksgevallen zijn:
 
@@ -248,7 +248,7 @@ Toegang tot Adobe Journey Optimizer-sleutelHelp-pagina&#39;s in de onderste sect
 
 Gebruik de **Help** voor toegang tot Help-pagina&#39;s, contact opnemen met ondersteuning en feedback delen. U kunt Help-artikelen en video&#39;s zoeken in het zoekveld.
 
-![](../assets/ajo-help.png)
+![](assets/ajo-help.png)
 
 ## Ondersteunde browsers {#browsers}
 
@@ -267,10 +267,10 @@ Uw standaardinterfacetaal wordt bepaald door de aangewezen taal die in uw gebrui
 De taal wijzigen:
 
 * Klikken **Voorkeuren** vanaf uw avatar, rechtsboven.
-   ![](../assets/preferences.png)
+   ![](assets/preferences.png)
 * Klik vervolgens op de taal die onder uw e-mailadres wordt weergegeven
 * Selecteer uw voorkeurstaal en klik op **Opslaan**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw voorste taal is gelokaliseerd.
-   ![](../assets/select-language.png)
+   ![](assets/select-language.png)
 
 ## Zoeken{#unified-search}
 
@@ -278,11 +278,11 @@ Overal van de interface van Adobe Journey Optimizer, gebruik het Verenigde de on
 
 Voer inhoud in om de beste resultaten weer te geven. Help-artikelen over de ingevoerde trefwoorden worden ook weergegeven in de resultaten.
 
-![](../assets/unified-search.png)
+![](assets/unified-search.png)
 
 Druk **Enter** om tot alle resultaten toegang te hebben en filter door bedrijfsvoorwerp.
 
-![](../assets/search-and-filter.png)
+![](assets/search-and-filter.png)
 
 ## Filterlijsten{#filter-lists}
 
@@ -298,12 +298,12 @@ In de lijst met ritten kunt u de ritten filteren op basis van hun status, type e
 
 Gebruik de **[!UICONTROL Last update]** en **[!UICONTROL Last update by]** kolommen om te controleren wanneer de laatste update van uw reizen is gebeurd en wie het heeft gered.
 
-![](../assets/filter-journeys.png)
+![](assets/filter-journeys.png)
 
 In de configuratievensters Gebeurtenis, Gegevensbron en Actie, **[!UICONTROL Used in]** in het veld wordt het aantal ritten weergegeven dat van die specifieke gebeurtenis, veldgroep of handeling gebruikmaakt. U kunt klikken op de knop **[!UICONTROL View journeys]** om de lijst met corresponderende journey’s weer te geven.
 
-![](../assets/journey3bis.png)
+![](assets/journey3bis.png)
 
 In de verschillende lijsten kunt u standaardacties op elk element uitvoeren. U kunt bijvoorbeeld een item dupliceren of verwijderen.
 
-![](../assets/journey4.png)
+![](assets/journey4.png)
