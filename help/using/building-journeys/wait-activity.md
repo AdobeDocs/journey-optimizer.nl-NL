@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '388'
 ht-degree: 4%
 
 ---
@@ -25,9 +25,11 @@ Als u wilt wachten voordat u de volgende activiteit in het pad uitvoert, kunt u 
 
 ## Informatie over de activiteit Wachten{#about_wait}
 
-Hier is hoe de wacht voorrang krijgt wanneer u verscheidene wacht parallel gebruikt. Als zij de zelfde tijdconfiguratie en een verschillende maar overlappende voorwaarde hebben, hierboven gepositioneerde wachttijd zal aan voorrang gegeven zijn. De eerste wachttijd is bijvoorbeeld &#39;een vrouw zijn&#39; en de tweede wachttijd is &#39;een VIP zijn&#39;. De eerste wachtbewerking krijgt prioriteit.
+Hier is hoe de wacht voorrang krijgt wanneer u verscheidene wacht parallel gebruikt. Als zij de zelfde tijdconfiguratie en een verschillende maar overlappende voorwaarde hebben, hierboven gepositioneerde wachttijd zal aan voorrang gegeven zijn. De eerste wachttijd is bijvoorbeeld &#39;een vrouw zijn&#39; en de tweede wachttijd is &#39;een VIP zijn&#39;. De eerste wachttijdactiviteit krijgt prioriteit
 
 Houd er ook rekening mee dat als twee verschillende wachttijden parallel lopen, de eerste prioriteit krijgt, ongeacht de verticale positie. Bijvoorbeeld, als een 1 uur wacht boven is en een 30 minuut wacht onder is, na 30 minuten, zal het 30 minieme ogenblik worden verwerkt.
+
+U kunt een voorwaarde definiëren als u de wachttijd wilt beperken tot een bepaalde populatie.
 
 >[!NOTE]
 >
@@ -39,13 +41,13 @@ Houd er ook rekening mee dat als twee verschillende wachttijden parallel lopen, 
 
 Selecteer de duur van de wachttijd voordat de volgende activiteit wordt uitgevoerd.
 
-![](assets/journey55.png)
+![](../assets/journey55.png)
 
 ## Wachttijd voor vaste datum{#fixed_date}
 
 Selecteer de datum voor de uitvoering van de volgende activiteit.
 
-![](assets/journey56.png)
+![](../assets/journey56.png)
 
 ## Aangepast wachten{#custom}
 
@@ -57,7 +59,7 @@ Met deze optie kunt u een aangepaste datum definiëren, bijvoorbeeld 12 juli 202
 >
 >De **tijdzone** wordt verwacht in de eigenschappen van uw reis. Dientengevolge, is het vandaag van de interface niet mogelijk om bij volledig ISO-8601 timestamp het mengen tijd en tijdzonecompensatie zoals 2016-08-12T09 direct te richten:46:06.982-05. Zie [deze pagina](../building-journeys/timezone-management.md).
 
-![](assets/journey57.png)
+![](../assets/journey57.png)
 
 <!--## Email send time optimization{#email_send_time_optimization}
 
@@ -77,4 +79,4 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
     >
     >Note that the send time score can be unavailable because there is not enough data to perform the calculation. In this case, you will be informed, at publication time, that the default time applies.
 
-![](assets/journey57bis.png)-->
+![](../assets/journey57bis.png)-->

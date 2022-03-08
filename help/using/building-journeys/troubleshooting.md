@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 81%
@@ -23,11 +23,11 @@ Controleer voordat u uw journey gaat testen en publiceren of alle activiteiten c
 
 Fouten worden weergegeven met een waarschuwingssymbool dat wordt weergegeven op de activiteiten zelf op het canvas. Plaats de cursor op het uitroepteken om het foutbericht weer te geven. Als u op de activiteit klikt, ziet u de regel waarin de fout voorkomt en een waarschuwing. Als een verplicht veld bijvoorbeeld leeg is, wordt een fout weergegeven.
 
-![](assets/journey63.png)
+![](../assets/journey63.png)
 
 Als op het canvas bijvoorbeeld twee activiteiten zijn losgekoppeld, wordt een waarschuwing weergegeven.
 
-![](assets/canvas-disconnected.png)
+![](../assets/canvas-disconnected.png)
 
 Naast de schakeloptie **[!UICONTROL Test]** en de knop **[!UICONTROL Publish]** kan een waarschuwingsteken worden weergegeven. Dit waarschuwingsteken duidt op fouten die door het systeem zijn gedetecteerd en voorkomt activering van de testmodus of publicatie van de journey. Meestal zijn fouten die door het systeem worden gedetecteerd, gekoppeld aan fouten die zichtbaar zijn in de activiteiten, maar soms zijn ze gekoppeld aan andere problemen. In dit geval kunt u de fout weergeven en proberen het probleem te identificeren aan de hand van de foutbeschrijving. Als u het probleem niet kunt identificeren, kunt u de details kopiëren en naar de beheerder of ondersteuning verzenden. Fouten die tests blokkeren en fouten die publicatie blokkeren, lijken op elkaar.
 
@@ -35,7 +35,7 @@ Het systeem detecteert twee soorten problemen: fouten en waarschuwingen. Fouten 
 
 Er kunnen twee verschillende kleuren worden weergegeven op het teken naast de schakeloptie **[!UICONTROL Test]** en de knop **[!UICONTROL Publish]**. Het teken is rood in geval van fouten. En het is oranje in geval van waarschuwingen.
 
-![](assets/journey75.png)
+![](../assets/journey75.png)
 
 Fouten en waarschuwingen die globaal zijn voor de journey, worden als eerste in de lijst weergegeven. Fouten en waarschuwingen met betrekking tot specifieke activiteiten worden daarna vermeld, op volgorde van activiteit of weergave in de journey van links naar rechts. Met de knop **[!UICONTROL Copy details]** wordt technische informatie over de journey gekopieerd waarmee het ondersteuningsteam problemen kan oplossen.
 

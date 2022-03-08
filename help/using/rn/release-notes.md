@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 482cdac27bded3ec451d93b5aac6dda4b0e182cb
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '2643'
+source-wordcount: '2416'
 ht-degree: 9%
 
 ---
@@ -13,100 +13,6 @@ ht-degree: 9%
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [!DNL Journey Optimizer]. U kunt ook de [meest recente documentatie-updates](documentation-updates.md) pagina voor meer wijzigingen.
 
-
-
-## Release van februari 2022 {#feb-2022-release}
-
-### Nieuwe functies
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Subscription Landing Pages</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create and design landing pages in Journey Optimizer, and direct your users to online forms where they can opt-in or opt-out from receiving your communications, or subscribe to a specific service such as a newsletter.</p>
-<p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-cases.md">sample use case</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<table>
-<thead>
-<tr>
-<th><strong>Nieuwe bibliotheek voor persoonlijke expressie</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer beschikt nu over een bibliotheek waarmee u toegang kunt krijgen tot vooraf gedefinieerde personalisatie-expressies. Deze expressies worden geconfigureerd door Admin-gebruikers.</p>
-<p>Raadpleeg de <a href="../personalization/personalization-library.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-<!--table>
-<thead>
-<tr>
-<th><strong>API Developer Site and Suppression API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer provide RESTful APIs that allow you to programmatically perform key operations in your applications.
-Developer SDK for Journey Optimizer is now available with the Suppression API (beta).</p>
-<p>With this API, you can control your outgoing messages using suppression and allow lists.
-The suppression list helps you with honoring the ISPs’ feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you don't send mails to customers from your development sandbox.</p>
-<p>See <a href="https://developer.adobe.com/journey-optimizer-apis/">Adobe Journey Optimizer APIs</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<table>
-<thead>
-<tr>
-<th><strong>Geef informatie door om uw berichten bij te houden met parameters voor het bijhouden van UTM</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>In Journey Optimizer-berichtinhoud kunt u nu UTM-parameters aan uw koppelingen toevoegen: zij kunnen extra gegevens over die verbinding verstrekken, en u helpen identificeren waar en waarom een persoon op uw verbinding klikte.</p>
-<p>Raadpleeg de <a href="../configuration/message-presets.md#configure-email-settings">gedetailleerde documentatie</a> voor meer informatie.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-### Verbeteringen
-
-**Journeys**
-
-* Om de prestaties te optimaliseren, zullen alle reizen in testwijze die niet voor een week zijn teweeggebracht nu op de status van het Ontwerp terugschakelen. [Meer informatie](../building-journeys/testing-the-journey.md#important_notes)
-* De integratie tussen Journey Optimizer en Adobe Campaign Classic is geoptimaliseerd om de prestaties te verbeteren. De het maximum standaardconfiguratie is veranderd in 4000 vraag/5 minuten.	[Meer informatie](../action/acc-action.md#important-notes)
-
-**Rapportage**
-
-* De leveringen kunnen nu worden gefilterd op basis van hun status:
-   * In de lijst Berichtenuitvoering kunt u nu proefdrukken uitsluiten van de lijst met leveringen.
-   * In uw Live/Global-rapporten kunt u testgebeurtenissen uitsluiten.
-
-* U kunt nu rapporten openen over de gegevens voor Tijdoptimalisatie verzenden: het aantal personen dat onmiddellijk berichten was en het aantal personen dat met optimalisatie van 1 uur, optimalisatie van 2 uur, enz. werd gecommuniceerd.
-
-<!--* Offer Decisioning reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
-
-**Beslissingsbeheer**
-
-* De classificaties en de AI-classificatie worden nu gegroepeerd in één enkel tabblad.
 
 ## Release van januari 2022 {#january-2022-release}
 
@@ -146,7 +52,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 ### Verbeteringen
 
-**Reizen**
+**Journeys**
 
 * Journey Optimizer step-gebeurtenissen kunnen nu worden gekoppeld aan andere datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). De **profileID** in het ingebouwde schema voor de gebeurtenis van de Stap van de Reis, wordt nu gedefinieerd als identiteitsgebied. [Meer informatie](../reports/sharing-overview.md#integration-cja)
 

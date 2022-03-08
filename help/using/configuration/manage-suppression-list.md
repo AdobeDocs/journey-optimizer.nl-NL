@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 1%
@@ -31,15 +31,15 @@ Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONT
 >
 >Machtigingen voor het weergeven, exporteren en beheren van de suppressielijst zijn beperkt tot [Reisbeheerders](../administration/ootb-product-profiles.md#journey-administrator). Meer informatie over beheren [!DNL Journey Optimizer] toegangsrechten van gebruikers in [deze sectie](../administration/permissions-overview.md).
 
-![](assets/suppression-list-access.png)
+![](../assets/suppression-list-access.png)
 
 Er zijn filters beschikbaar waarmee u door de lijst kunt bladeren.
 
-![](assets/suppression-list-filters.png)
+![](../assets/suppression-list-filters.png)
 
 U kunt filteren op de **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, of **[!UICONTROL Reason]**. Selecteer de optie(s) van uw keuze voor elk criterium. Als deze optie is geselecteerd, kunt u elk filter of alle filters die boven op de lijst worden weergegeven, wissen.
 
-![](assets/suppression-list-filtering-example.png)
+![](../assets/suppression-list-filtering-example.png)
 
 Als u per ongeluk handmatig een e-mailadres of een domein toevoegt, **[!UICONTROL Delete]** kunt u dat item verwijderen.
 
@@ -47,7 +47,7 @@ Als u per ongeluk handmatig een e-mailadres of een domein toevoegt, **[!UICONTRO
 >
 >Gebruik nooit de **[!UICONTROL Delete]** om onderdrukte e-mailadressen of domeinen te verwijderen.
 
-![](assets/suppression-list-delete.png)
+![](../assets/suppression-list-delete.png)
 
 Als u een e-mailadres of een domein uit de suppressielijst verwijdert, wordt opnieuw begonnen met het leveren aan dit adres of domein. Dientengevolge, kan dit ernstige gevolgen op uw leverbaarheid en IP reputatie hebben, die uiteindelijk tot uw IP adres of verzendend domein zou kunnen leiden die worden geblokkeerd. Lees meer over het belang van het bijhouden van een onderdrukkingslijst in [deze sectie](../messages/suppression-list.md).
 
@@ -59,7 +59,7 @@ Van de **[!UICONTROL Suppression list]** kunt u ook de onderdrukkingsregels bewe
 
 Als u de onderdrukkingslijst wilt exporteren als een CSV-bestand, selecteert u de optie **[!UICONTROL Download CSV]** knop.
 
-![](assets/suppression-list-download-csv.png)
+![](../assets/suppression-list-download-csv.png)
 
 ## Onderdrukkingscategorieën en redenen {#suppression-categories-and-reasons}
 
@@ -83,7 +83,7 @@ De onderdrukkingscategorieën zijn als volgt:
 
 Voor elk e-mailadres dat wordt vermeld, kunt u ook de **[!UICONTROL Type]** (e-mail of domein), **[!UICONTROL Reason]** om het uit te sluiten, die het toevoegde, en de datum/tijd het aan de onderdrukkingslijst werd toegevoegd.
 
-![](assets/suppression-list.png)
+![](../assets/suppression-list.png)
 
 De mogelijke redenen van een leveringsfout zijn:
 
@@ -111,13 +111,13 @@ U kunt e-mailadressen of domeinen toevoegen [één voor één](#add-one-address-
 
 Selecteer hiervoor de optie **[!UICONTROL Add email or domain]** en voert u een van de onderstaande methoden uit.
 
-![](assets/suppression-list-add-email.png)
+![](../assets/suppression-list-add-email.png)
 
 ### Eén adres of domein toevoegen {#add-one-address-or-domain}
 
 1. Selecteer **[!UICONTROL One by one]** optie.
 
-   ![](assets/suppression-list-add-email-address.png)
+   ![](../assets/suppression-list-add-email-address.png)
 
 1. Kies het adrestype: **[!UICONTROL Email address]** of **[!UICONTROL Domain address]**.
 
@@ -135,7 +135,7 @@ Selecteer hiervoor de optie **[!UICONTROL Add email or domain]** en voert u een 
 
 1. Selecteer **[!UICONTROL Upload CSV]** optie.
 
-   ![](assets/suppression-list-upload-csv.png)
+   ![](../assets/suppression-list-upload-csv.png)
 
 1. Download de CSV-sjabloon die u wilt gebruiken, inclusief de onderstaande kolommen en indeling:
 
@@ -156,7 +156,7 @@ Selecteer hiervoor de optie **[!UICONTROL Add email or domain]** en voert u een 
 
 1. Wanneer u klaar bent, sleept u het CSV-bestand en klikt u op **[!UICONTROL Upload file]**.
 
-   ![](assets/suppression-list-upload-file-button.png)
+   ![](../assets/suppression-list-upload-file-button.png)
 
 1. Klik op **[!UICONTROL Submit]**.
 
@@ -166,13 +166,13 @@ U kunt de lijst controleren van de recentste CSV dossiers u uploadde.
 
 Om dit te doen, van **[!UICONTROL Suppression list]** klik op de knop **[!UICONTROL Recent uploads]** knop.
 
-![](assets/suppression-list-recent-uploads-button.png)
+![](../assets/suppression-list-recent-uploads-button.png)
 
 De meest recente uploads die u hebt verzonden en de bijbehorende statussen worden weergegeven.
 
 Als een foutenrapport met een dossier wordt geassocieerd, kunt u het downloaden om de gevonden fouten te controleren.
 
-![](assets/suppression-list-recent-uploads-error.png)
+![](../assets/suppression-list-recent-uploads-error.png)
 
 Hieronder ziet u een voorbeeld van het type items dat u kunt vinden in het foutrapport:
 

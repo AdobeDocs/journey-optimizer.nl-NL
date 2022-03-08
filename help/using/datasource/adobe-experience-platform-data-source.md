@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: bd35bf2ec4c1b2898007d670fc20626f06cc3750
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 11%
@@ -31,11 +31,11 @@ Hier zijn de belangrijkste stappen om gebiedsgroepen aan de ingebouwde gegevensb
 
    Hiermee opent u het configuratiedeelvenster voor de databron aan de rechterkant van het scherm.
 
-   ![](assets/journey23.png)
+   ![](../assets/journey23.png)
 
 1. Klikken **[!UICONTROL Add a New Field Group]** om een nieuwe reeks velden te definiëren die moet worden opgehaald. Zie [deze pagina](../datasource/configure-data-sources.md#define-field-groups).
 
-   ![](assets/journey24.png)
+   ![](../assets/journey24.png)
 
 1. Selecteer een schema in het menu **[!UICONTROL Schema]** vervolgkeuzelijst. In dit veld worden de schema&#39;s voor profiel- en ervaringsgebeurtenissen weergegeven die beschikbaar zijn in Adobe Experience Platform. Het maken van het schema wordt niet uitgevoerd in [!DNL Journey Optimizer]. Deze wordt uitgevoerd in Adobe Experience Platform.
 1. Selecteer de velden die u wilt gebruiken.

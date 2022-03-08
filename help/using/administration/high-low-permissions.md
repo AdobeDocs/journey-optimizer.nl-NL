@@ -5,16 +5,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: db6e970230b4d22b50c2035ecf5e7307e66feb2d
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
 
 # Machtigingsniveaus {#high-low-permissions}
 
-![](assets/do-not-localize/permissions.png)
+![](../assets/do-not-localize/permissions.png)
 
 Elk productprofiel bestaat uit machtigingen waarmee gebruikers toegang hebben tot de verschillende functies.
 Zij kunnen in twee types worden verdeeld:
@@ -417,13 +417,16 @@ Dit omvat de volgende laagniveaumachtigingen:
    * profiles.read
    * datasets.read
 
-## Journey Optimizer Library-mogelijkheid {library-permissions}
+### [!DNL Manage landing page settings] machtiging {#manage-landing-page-settings}
 
-### Bibliotheekitems beheren {#library-items}
-
-De **[!DNL Manage Library Items]** Met machtiging op hoog niveau kunnen gebruikers opgeslagen expressies toevoegen en verwijderen in het dialoogvenster [!DNL Journey Optimizer] Bibliotheek.
+De **[!DNL Manage landing page settings]** Met machtiging op hoog niveau kunnen gebruikers subdomeinen van landingspagina&#39;s en instellingen voor voorinstellingen lezen, maken en bewerken.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
-* library_item.create
-* library_item.delete
+* specifiek voor Journey Optimizer:
+   * landing_page_subdomain.read
+   * landing_page_subdomain.write
+   * landing_page_subdomain.delete
+   * landing_page_preset.read
+   * landing_page_preset.write
+   * landing_page_preset.delete

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 10%
@@ -17,7 +17,7 @@ ht-degree: 10%
 
 De belangrijkste stappen om aanbiedingen te creëren, te vormen en te beheren, evenals hen in een besluit te gebruiken, worden hieronder voorgesteld.
 
-![](../assets/offer-create-manage-process.png)
+![](../../assets/offer-create-manage-process.png)
 
 Voor een volledig end-to-end voorbeeld dat toont hoe te om aanbiedingen te vormen, gebruik hen in een besluit en hefboomwerking dit besluit in een e-mail, controleer uit [deze pagina](../offers-e2e.md).
 

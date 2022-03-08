@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 587ac4a17db71790ed4d9ee07214293a2882180c
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 0%
@@ -23,33 +23,33 @@ Een belangrijke voorwaarde voor het instellen van gebeurtenissen voor [!DNL Jour
 
 De eerste stap bij het instellen van een gebeurtenis voor [!DNL Journey Optimizer] moet ervoor zorgen dat u een XDM-schema hebt dat wordt bepaald om de gebeurtenis te vertegenwoordigen, en een dataset die wordt gecreeerd om instanties van de gebeurtenis op Adobe Experience Platform te registreren. Het hebben van een dataset voor uw gebeurtenissen is niet strikt noodzakelijk, maar het verzenden van de gebeurtenissen naar een specifieke dataset zal u toestaan om gebruikers&#39; gebeurtenisgeschiedenis voor toekomstige verwijzing en analyse te handhaven, zodat is het altijd een goed idee. Als u nog geen geschikt schema en een geschikte dataset voor uw gebeurtenis hebt, kunnen beide taken in de Webinterface van Adobe Experience Platform worden gedaan.
 
-![](assets/schema1.png)
+![](../assets/schema1.png)
 
 Om het even welk XDM schema dat voor zal worden gebruikt [!DNL Journey Optimizer] evenementen moeten aan de volgende eisen voldoen :
 
 * Het schema moet van de klasse XDM ExperienceEvent zijn.
 
-   ![](assets/schema2.png)
+   ![](../assets/schema2.png)
 
 * Voor systeem-geproduceerde gebeurtenissen, moet het schema de Orchestration eventID gebiedsgroep omvatten. [!DNL Journey Optimizer] gebruikt dit veld om gebeurtenissen te identificeren die tijdens reizen worden gebruikt.
 
-   ![](assets/schema3.png)
+   ![](../assets/schema3.png)
 
 * Declareer een identiteitsveld voor het identificeren van het onderwerp van de gebeurtenis. Als er geen identiteit is opgegeven, kan een identiteitskaart worden gebruikt. Dit wordt niet aanbevolen.
 
-   ![](assets/schema4.png)
+   ![](../assets/schema4.png)
 
 * Als u deze gegevens voor raadpleging later in een Reis beschikbaar zou willen zijn, merk het schema en de dataset voor profiel.
 
-   ![](assets/schema5.png)
+   ![](../assets/schema5.png)
 
-   ![](assets/schema6.png)
+   ![](../assets/schema6.png)
 
 * U kunt gegevensvelden vrij gebruiken om andere contextgegevens vast te leggen die u met de gebeurtenis wilt opnemen, zoals informatie over de gebruiker, het apparaat waaruit de gebeurtenis is gegenereerd, de locatie of andere betekenisvolle omstandigheden die met de gebeurtenis verband houden.
 
-   ![](assets/schema7.png)
+   ![](../assets/schema7.png)
 
-   ![](assets/schema8.png)
+   ![](../assets/schema8.png)
 
 ## Schema-relaties benutten{#leverage_schema_relationships}
 
@@ -61,11 +61,11 @@ Als u een relatie wilt definiëren, moet u een speciaal veld in het bronschema h
 
 Hier volgt het productcatalogusschema dat is ingeschakeld voor profiel met de product-id die is gedefinieerd als de primaire identiteit.
 
-![](assets/schema9.png)
+![](../assets/schema9.png)
 
 Hier volgt het aankoopschema met de relatie die is gedefinieerd in het veld product-id.
 
-![](assets/schema10.png)
+![](../assets/schema10.png)
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ De gekoppelde schemavelden zijn beschikbaar in de configuratie van een eenheidsg
 * wanneer het doorbladeren door de gebieden van het gebeurtenisschema in het scherm van de gebeurtenisconfiguratie.
 * wanneer het bepalen van een voorwaarde voor systeem-geproduceerde gebeurtenissen.
 
-![](assets/schema11.png)
+![](../assets/schema11.png)
 
 De gekoppelde velden zijn niet beschikbaar:
 
@@ -100,7 +100,7 @@ U kunt gegevens van een raadplegingslijst gebruiken verbonden met een gebeurteni
 
 Voeg een voorwaarde toe in een reis, geef de uitdrukking uit en ontvouw de gebeurtenisknoop in de uitdrukkingsredacteur.
 
-![](assets/schema12.png)
+![](../assets/schema12.png)
 
 Als u wilt leren hoe u de reisvoorwaarden definieert, raadpleegt u deze [page](../building-journeys/condition-activity.md).
 
@@ -108,7 +108,7 @@ Als u wilt leren hoe u de reisvoorwaarden definieert, raadpleegt u deze [page](.
 
 De gekoppelde velden zijn beschikbaar wanneer u een bericht personaliseert. De verwante gebieden worden getoond in de context die van de reis tot het bericht wordt overgegaan.
 
-![](assets/schema14.png)
+![](../assets/schema14.png)
 
 Als u wilt leren hoe u een bericht kunt personaliseren met contextuele informatie over reizen, raadpleegt u deze [page](../personalization/personalization-use-case.md).
 
@@ -116,6 +116,6 @@ Als u wilt leren hoe u een bericht kunt personaliseren met contextuele informati
 
 De verbonden gebieden zijn beschikbaar wanneer het vormen van de actieparameters van een actie van de reisdouane.
 
-![](assets/schema13.png)
+![](../assets/schema13.png)
 
 Raadpleeg deze voor meer informatie over het gebruik van aangepaste handelingen [page](../building-journeys/using-custom-actions.md).

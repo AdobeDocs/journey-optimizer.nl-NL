@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 4%
@@ -21,17 +21,17 @@ Een plaatsing helpt ervoor te zorgen dat de juiste aanbiedingsinhoud op de juist
 
 In het onderstaande voorbeeld zijn er drie plaatsen die overeenkomen met verschillende typen inhoud (afbeelding, tekst, HTML).
 
-![](../assets/offers_placement_schema.png)
+![](../../assets/offers_placement_schema.png)
 
 De lijst met stages is toegankelijk in het **[!UICONTROL Components]** -menu. Er zijn filters beschikbaar waarmee u plaatsingen kunt ophalen op basis van een specifiek kanaal of specifieke inhoud.
 
-![](../assets/placements_filter.png)
+![](../../assets/placements_filter.png)
 
 Voer de volgende stappen uit om een plaatsing te maken:
 
 1. Klik op **[!UICONTROL Create placement]**.
 
-   ![](../assets/offers_placement_creation.png)
+   ![](../../assets/offers_placement_creation.png)
 
 1. Definieer de eigenschappen van de plaatsing:
 
@@ -40,13 +40,13 @@ Voer de volgende stappen uit om een plaatsing te maken:
    * **[!UICONTROL Content type]**: Het type inhoud dat de plaatsing mag weergeven: Tekst-, HTML- of afbeeldingskoppeling.
    * **[!UICONTROL Description]**: Een beschrijving van de plaatsing (optioneel).
 
-   ![](../assets/offers_placement_creation_properties.png)
+   ![](../../assets/offers_placement_creation_properties.png)
 
 1. Klikken **[!UICONTROL Save]** ter bevestiging.
 
 1. Zodra de plaatsing wordt gecreeerd, toont het in de plaatsingslijst. U kunt het selecteren om zijn eigenschappen te tonen en het uit te geven.
 
-   ![](../assets/placement_created.png)
+   ![](../../assets/placement_created.png)
 
 ## Video over zelfstudie {#video}
 

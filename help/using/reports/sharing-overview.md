@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 3%
@@ -39,9 +39,9 @@ De volgende schema&#39;s worden gemaakt:
 * Dagstapgebeurtenisschema voor [!DNL Journey Orchestration] - Reisstapgebeurtenis die is gekoppeld aan een Reismetagegevens.
 * Reisschema met reisvelden voor [!DNL Journey Orchestration] - Reismetagegevens voor het beschrijven van reizen.
 
-![](assets/sharing1.png)
+![](../assets/sharing1.png)
 
-![](assets/sharing2.png)
+![](../assets/sharing2.png)
 
 De volgende datasets worden overgegaan:
 
@@ -49,7 +49,7 @@ De volgende datasets worden overgegaan:
 * Gebeurtenissen reisstap
 * Journeys
 
-![](assets/sharing3.png)
+![](../assets/sharing3.png)
 
 De lijsten van XDM gebieden die tot Adobe Experience Platform worden overgegaan zijn hier gedetailleerd:
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1597'
 ht-degree: 2%
 
 ---
@@ -27,11 +27,11 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 
 1. Als u de testmodus wilt activeren, klikt u op de knop **[!UICONTROL Test]** in de rechterbovenhoek.
 
-   ![](assets/journeytest1.png)
+   ![](../assets/journeytest1.png)
 
 1. Gebruik de **[!UICONTROL Wait time]** parameter, in de bodem linkerhoek, om de tijd te bepalen dat elke wachttijd activiteit en gebeurtenisonderbreking op testwijze zal duren. De standaardtijd is 10 seconden voor wachttijden en gebeurtenisonderbrekingen. Zo krijgt u de testresultaten snel. Deze parameter verschijnt slechts als u één of meerdere wachtactiviteiten in uw reis hebt gelaten vallen.
 
-   ![](assets/journeytest_wait.png)
+   ![](../assets/journeytest_wait.png)
 
    >[!NOTE]
    >
@@ -39,15 +39,15 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 
 1. Klikken **[!UICONTROL Trigger an event]** om gebeurtenissen aan de reis te vormen en te verzenden.
 
-   ![](assets/journeyuctest1.png)
+   ![](../assets/journeyuctest1.png)
 
 1. Configureer de verschillende verwachte velden. In de **Profiel-id** Voer de waarde in van het veld dat wordt gebruikt om het testprofiel te identificeren. Het kan bijvoorbeeld het e-mailadres zijn. Zorg ervoor dat u gebeurtenissen verzendt die betrekking hebben op testprofielen. Zie [Gebeurtenissen starten](#firing_events).
 
-   ![](assets/journeyuctest1-bis.png)
+   ![](../assets/journeyuctest1-bis.png)
 
 1. Nadat de gebeurtenissen zijn ontvangen, klikt u op de knop **[!UICONTROL Show log]** om het testresultaat te bekijken en te verifiëren. Zie [Logboeken weergeven](#viewing_logs).
 
-   ![](assets/journeyuctest2.png)
+   ![](../assets/journeyuctest2.png)
 
 1. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de journey en test u deze opnieuw. Wanneer de test overtuigend is, kunt u uw reis publiceren. Zie [deze pagina](../building-journeys/publishing-the-journey.md).
 
@@ -61,7 +61,6 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 * U kunt de testmodus zo vaak als nodig in- en uitschakelen.
 * U kunt uw reis niet wijzigen wanneer de testwijze wordt geactiveerd. In de testmodus kunt u de rit rechtstreeks publiceren. U hoeft de testmodus daarvoor niet te deactiveren.
 * Bij het bereiken van een splitsing wordt altijd de bovenste vertakking gekozen. U kunt de positie van de gesplitste vertakkingen opnieuw ordenen als u wilt dat de test een ander pad kiest.
-* Om prestaties te optimaliseren en verouderd middelgebruik te verhinderen, zullen alle reizen in testwijze die niet voor een week zijn teweeggebracht op de status van het Ontwerp terugschakelen.
 
 ## Gebeurtenissen starten {#firing_events}
 
@@ -75,17 +74,17 @@ Als voorwaarde moet u weten welke profielen in Adobe Experience Platform zijn ge
 
 Als uw reis verscheidene gebeurtenissen bevat, gebruik de drop-down lijst om een gebeurtenis te selecteren. Configureer vervolgens voor elke gebeurtenis de doorgegeven velden en de uitvoering van de gebeurtenis die de gebeurtenis verzendt. De interface helpt u de juiste informatie in de gebeurtenislading overgaan en ervoor zorgen het informatietype correct is. In de testmodus worden de laatste parameters die in een testsessie worden gebruikt, opgeslagen voor later gebruik.
 
-![](assets/journeytest4.png)
+![](../assets/journeytest4.png)
 
 Met de interface kunt u eenvoudige gebeurtenisparameters doorgeven. Als u verzamelingen of andere geavanceerde objecten wilt doorgeven in de gebeurtenis, kunt u op **[!UICONTROL Code View]** om de volledige code van de lading te zien en het te wijzigen. U kunt bijvoorbeeld gebeurtenisgegevens kopiëren en plakken die door een technische gebruiker zijn voorbereid.
 
-![](assets/journeytest5.png)
+![](../assets/journeytest5.png)
 
 Een technische gebruiker kan deze interface ook gebruiken om gebeurtenislading samen te stellen en gebeurtenissen teweeg te brengen zonder het moeten een derdehulpmiddel gebruiken.
 
 Wanneer u op de knop **[!UICONTROL Send]** de test begint. De voortgang van het individu tijdens de reis wordt weergegeven door een visuele stroom. Het pad wordt steeds groen naarmate het individu over de reis beweegt. Als er een fout optreedt, wordt er een waarschuwingssymbool weergegeven bij de bijbehorende stap. U kunt de cursor erop plaatsen om meer informatie over de fout weer te geven en volledige details te openen (indien beschikbaar).
 
-![](assets/journeytest6.png)
+![](../assets/journeytest6.png)
 
 Wanneer u een ander testprofiel in het scherm van de gebeurtenisconfiguratie selecteert en de test opnieuw in werking stelt, wordt de visuele stroom ontruimd en toont de weg van nieuw individu.
 
@@ -99,7 +98,7 @@ De testmodus is ook beschikbaar voor reizen die een op regels gebaseerde gebeurt
 
 Wanneer u een gebeurtenis activeert, worden de **Gebeurtenisconfiguratie** kunt u de gebeurtenisparameters definiëren die tijdens de test moeten worden doorgegeven. U kunt de voorwaarde van de gebeurtenis-identiteitskaart bekijken door het tooltip pictogram in de hoogste juiste hoek te klikken. Er is ook knopinfo beschikbaar naast elk veld dat deel uitmaakt van de regelevaluatie.
 
-![](assets/jo-event8.png)
+![](../assets/jo-event8.png)
 
 Voor meer informatie over het gebruik van de testmodus raadpleegt u [deze pagina](../building-journeys/testing-the-journey.md).
 
@@ -113,7 +112,7 @@ Wanneer u een bedrijfsgebeurtenis voor het eerst activeert, kunt u de definitie 
 
 De **[!UICONTROL Show log]** kunt u de testresultaten bekijken. Op deze pagina worden de huidige gegevens van de reis in JSON-indeling weergegeven. Met een knop kunt u hele knooppunten kopiëren. U moet de pagina handmatig vernieuwen om de testresultaten van de reis bij te werken.
 
-![](assets/journeytest3.png)
+![](../assets/journeytest3.png)
 
 >[!NOTE]
 >

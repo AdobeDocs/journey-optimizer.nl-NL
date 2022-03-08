@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 3%
@@ -19,7 +19,7 @@ Het doel van dit gebruiksgeval is een reis tot stand te brengen om een bericht n
 
 In dit voorbeeld wordt **[!UICONTROL Consent and Preference Details]** veldgroep van [!DNL Adobe Experience Platform] wordt gebruikt. Als u deze veldgroep wilt zoeken, gaat u naar **[!UICONTROL Data Management]** menu, kiest u **[!UICONTROL Schemas]**. Op de **[!UICONTROL Field groups]** voert u de naam van de veldgroep in het zoekveld in.
 
-![Deze veldgroep bevat het abonnementselement](assets/consent-and-preference-details-field-group.png)
+![Deze veldgroep bevat het abonnementselement](../assets/consent-and-preference-details-field-group.png)
 
 Om deze reis te vormen, volg deze stappen:
 
@@ -29,7 +29,7 @@ Om deze reis te vormen, volg deze stappen:
 
    1. Klik op de knop **[!UICONTROL Enable parameter override]** pictogram rechts van **[!UICONTROL Address]** en klik vervolgens op de knop **[!UICONTROL Edit]** pictogram.
 
-      ![](assets/message-to-subscribers-uc-1.png)
+      ![](../assets/message-to-subscribers-uc-1.png)
 
       U kunt het e-mailadres alleen wijzigen als u het bericht al eerder hebt gepubliceerd.
 
@@ -52,10 +52,10 @@ Om deze reis te vormen, volg deze stappen:
 
       Meer informatie over [verwijzingen naar velden](expression/field-references.md) in expressies.
 
-      ![](assets/message-to-subscribers-uc-2.png)
+      ![](../assets/message-to-subscribers-uc-2.png)
 
    1. In de **[!UICONTROL Add an expression]** dialoogvenster, klikt u op **[!UICONTROL Ok]**.
 
-   ![](assets/message-to-subscribers-uc-3.png)
+   ![](../assets/message-to-subscribers-uc-3.png)
 
 1. Beëindig de reis met een **[!UICONTROL End]** activiteit.

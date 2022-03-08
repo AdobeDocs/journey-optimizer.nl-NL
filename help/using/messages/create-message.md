@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 186a43cd-c5eb-4de1-8713-95399d802d36
-source-git-commit: 0160c6b95c980bc54b4d196828c05a822ec0d8fd
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 2%
@@ -65,7 +65,7 @@ Volg onderstaande stappen om een nieuw bericht te maken:
 
    >[!NOTE]
    >   
-   >U kunt uw berichten personaliseren gebruikend de gegevens van profielen gebruikend de uitdrukkingsredacteur. Raadpleeg voor meer informatie over personalisatie [deze sectie](../personalization/personalize.md).
+   >U kunt uw berichten personaliseren gebruikend de gegevens van profielen gebruikend de Redacteur van de Uitdrukking. Raadpleeg voor meer informatie over personalisatie [deze sectie](../personalization/personalize.md).
 
 1. Controleer de weergave van uw berichten en controleer de instellingen voor de personalisatie met testprofielen aan de linkerkant met behulp van de voorbeeldsectie. Raadpleeg [deze sectie](preview.md) voor meer informatie.
 

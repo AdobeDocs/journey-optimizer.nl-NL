@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c50d73c8-d2ca-40a4-bec6-2ce8be814028
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
@@ -19,11 +19,11 @@ De drukknop **[!UICONTROL Global report]** slechts één specifieke push-service
 
 Van de **[!UICONTROL Executions]** tabblad van het dialoogvenster **[!UICONTROL Messages]** menu, selecteert u **[!UICONTROL Global view]** Selecteer vervolgens in het geavanceerde menu van de geselecteerde levering **[!UICONTROL Global report]**.
 
-![](assets/global_report_11.png)
+![](../assets/global_report_11.png)
 
 De drukknop **[!UICONTROL Global report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw levering worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Zie voor meer informatie hierover [sectie](global-report.md#modify-dashboard).
 
-![](assets/push_global_report.png)
+![](../assets/push_global_report.png)
 
 De **[!UICONTROL Push notification performance]** widget geeft de belangrijkste informatie met betrekking tot uw pushmeldingen met PKI&#39;s in detail weer:
 
@@ -51,6 +51,6 @@ De **[!UICONTROL Push notification summary]** De grafiek bevat de gegevens die b
 
 De **[!UICONTROL Error Reasons]** de grafiek en de lijst laten u zien welke fout tijdens uw levering voorkwam.
 
-![](assets/push_global_report_2.png)
+![](../assets/push_global_report_2.png)
 
 De **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** en **[!UICONTROL Breakdown by platform]** grafieken en tabellen geven het succes van uw pushmelding weer, afhankelijk van het besturingssysteem van de ontvanger.

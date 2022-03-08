@@ -2,10 +2,10 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7aaedb4c76afb34c4110dc64ad79af9cd2091adb
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 22%
+source-wordcount: '919'
+ht-degree: 23%
 
 ---
 
@@ -14,26 +14,26 @@ ht-degree: 22%
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
 
 
-## Februari 2022 {#feb-2022}
-
-* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] Release Feb &#39;22 is gedetailleerd in de documentatie. [Meer informatie](release-notes.md)
-* De [vervangen](../building-journeys/functions/functionreplace.md#example_2) en [replaceAll](../building-journeys/functions/functionreplaceall.md#example) De pagina&#39;s van de functiedocumentatie zijn bijgewerkt met extra informatie en voorbeelden betreffende de doelparameter.
-* Beste werkwijzen zijn toegevoegd aan de [Operatoren](../building-journeys/expression/operators.md#important-notes) pagina.
-
 ## Januari 2022 {#january-2022}
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 22 januari is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
-* De **AI-classificaties van offer decisioning** is bijgewerkt met een meer gedetailleerde beschrijving van het model voor automatische optimalisatie. [Meer informatie](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
+
+* De sectie van de classificaties van AI van de Offer decisioning is bijgewerkt met een meer gedetailleerde beschrijving van het auto-optimalisatiemodel. [Meer informatie](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
+
 * Er is een nieuwe sectie over de schemavereisten toegevoegd die nodig zijn om gebeurtenistypen te kunnen verzenden bij het gebruik van een classificatiestrategie. [Meer informatie](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
+
 * Het gedeelte over [!DNL Journey Optimizer] personaliseringsmogelijkheden zijn gereorganiseerd voor een betere leesbaarheid . [Meer informatie](../personalization/personalize.md)
-* De **Voorinstellingen voor berichten maken** voor meer duidelijkheid is dit gedeelte in verschillende secties onderverdeeld . [Meer informatie](../configuration/message-presets.md#create-message-preset)
-* De **Uitschakelen, beheer** dit gedeelte is verduidelijkt en enigszins gereorganiseerd . [Meer informatie](../messages/consent.md#opt-out-management)
-* De **Koppelingen invoegen** is bijgewerkt met de recente wijzigingen in de gebruikersinterface. [Meer informatie](../messages/message-tracking.md#insert-links)
+
+* De sectie met voorinstellingen voor berichten maken is voor meer duidelijkheid in verschillende secties onderverdeeld. [Meer informatie](../configuration/message-presets.md#create-message-preset)
+
+* De sectie Opt-out management is verduidelijkt en enigszins gereorganiseerd. [Meer informatie](../messages/consent.md#opt-out-management)
+
+* De sectie Koppelingen invoegen is bijgewerkt met de recente wijzigingen in de gebruikersinterface. [Meer informatie](../messages/message-tracking.md#insert-links)
 
 ## November 2021 {#november-2021}
 
-* Een volledige beschrijving van de **geavanceerde expressie-editor** gebruikt voor reizen is nu beschikbaar . [Meer informatie](../building-journeys/expression/expressionadvanced.md)
-* Een nieuwe sectie over **Methode voor subdomeindelegatie van CNAME** is toegevoegd. [Meer informatie](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
+* Er is nu een volledige beschrijving beschikbaar van de geavanceerde expressie-editor die tijdens reizen wordt gebruikt. [Meer informatie](../building-journeys/expression/expressionadvanced.md)
+* Er is een nieuwe sectie over de subdomeindelegatiemethode CNAME toegevoegd. [Meer informatie](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
 
 
 ## Oktober 2021 {#october-2021}

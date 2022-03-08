@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 6%
@@ -21,19 +21,19 @@ Voor het verzenden van berichten met ritten is de volgende configuratie vereist:
 
 1. **Een gebeurtenis configureren**: als u uw reizen tijdelijk wilt activeren wanneer een gebeurtenis wordt ontvangen, moet u een gebeurtenis configureren. U bepaalt de verwachte informatie en hoe te om het te verwerken. Deze stap wordt uitgevoerd door een **technische gebruiker**. [Meer informatie](../event/about-events.md).
 
-   ![](assets/jo-event7bis.png)
+   ![](../assets/jo-event7bis.png)
 
 1. **Een segment maken**: uw reis kan ook naar Adobe Experience Platform segmenten luisteren om berichten in partij naar een gespecificeerde reeks profielen te verzenden. Hiervoor moet u segmenten maken. [Meer informatie](../segment/about-segments.md).
 
-   ![](assets/segment2.png)
+   ![](../assets/segment2.png)
 
 1. **De gegevensbron configureren**: u kunt een verbinding met een systeem bepalen om extra informatie terug te winnen die in uw reizen, bijvoorbeeld in uw voorwaarden zal worden gebruikt. Tijdens de provisioning wordt ook een ingebouwde Adobe Experience Platform-databron geconfigureerd. Deze stap is niet vereist als u alleen data gebruikt van de gebeurtenissen in uw journey. Deze stap wordt uitgevoerd door een **technische gebruiker**. [Meer informatie](../datasource/about-data-sources.md)
 
-   ![](assets/jo-datasource.png)
+   ![](../assets/jo-datasource.png)
 
 1. **Een handeling configureren**: Journey Optimizer-berichtmogelijkheden zijn ingebouwd. U hoeft alleen uw inhoud te ontwerpen en uw bericht te publiceren. Zie [deze sectie](../messages/get-started-content.md). Als u een systeem van derden gebruikt om uw berichten te verzenden, kunt u een douaneactie tot stand brengen. Meer informatie in deze [sectie](../action/action.md). Deze stap wordt uitgevoerd door een **technische gebruiker**.
 
-   ![](assets/create-content-push.png)
+   ![](../assets/create-content-push.png)
 
 ## Uw reis maken{#jo-build}
 
@@ -43,17 +43,17 @@ Hier volgen de belangrijkste stappen voor het verzenden van berichten via reizen
 
 1. Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]**. De lijst met reizen wordt weergegeven.
 
-   ![](assets/interface-journeys.png)
+   ![](../assets/interface-journeys.png)
 
 1. Klikken **[!UICONTROL Create Journey]** om een nieuwe reis te maken.
 
 1. Bewerk de eigenschappen van de journey in het configuratievenster dat aan de rechterkant wordt weergegeven. Meer informatie in deze [sectie](journey-gs.md#change-properties).
 
-   ![](assets/jo-properties.png)
+   ![](../assets/jo-properties.png)
 
 1. Begin door een gebeurtenis of een **Segment lezen** van het palet naar het canvas. Raadpleeg voor meer informatie over het ontwerpen van reizen de [deze sectie](using-the-journey-designer.md).
 
-   ![](assets/read-segment.png)
+   ![](../assets/read-segment.png)
 
 1. Sleep de volgende stappen die het individu zal volgen en zet ze neer. U kunt bijvoorbeeld een voorwaarde toevoegen, gevolgd door een bericht. Voor meer informatie over activiteiten raadpleegt u [deze sectie](using-the-journey-designer.md).
 
@@ -61,11 +61,11 @@ Hier volgen de belangrijkste stappen voor het verzenden van berichten via reizen
 
 1. Publiceer uw reis om deze te activeren. Meer informatie in deze [sectie](publishing-the-journey.md).
 
-   ![](assets/jo-journeyuc2_32bis.png)
+   ![](../assets/jo-journeyuc2_32bis.png)
 
 1. Bewaak uw reis gebruikend de specifieke rapporteringshulpmiddelen om de doeltreffendheid van uw reis te meten. Meer informatie in deze [sectie](../reports/live-report.md).
 
-   ![](assets/jo-dynamic_report_journey_12.png)
+   ![](../assets/jo-dynamic_report_journey_12.png)
 
 ## Eigenschappen wijzigen {#change-properties}
 
@@ -77,7 +77,7 @@ Voor live reizen worden in dit scherm de publicatiedatum en de naam weergegeven 
 
 De **Technische details kopiëren** staat u toe om technische informatie over de reis te kopiëren die het steunteam kan gebruiken om problemen op te lossen. De volgende informatie wordt gekopieerd: JourneyVersion UID, OrgID, orgName, sandboxName, lastDeployedBy, lastDeployedAt.
 
-![](assets/journey32.png)
+![](../assets/journey32.png)
 
 ### Entrance{#entrance}
 
@@ -133,11 +133,11 @@ Als niet aan een van de eisen wordt voldaan, is de burst mode niet beschikbaar o
 
 Als u de modus Burst wilt activeren, opent u de rit en klikt u op het potloodpictogram rechtsboven om de eigenschappen van de rit te openen. Vervolgens activeert u de knop **Burst-modus inschakelen** schakelen.
 
-![](assets/burst.png)
+![](../assets/burst.png)
 
 De Burst-modus wordt gedeactiveerd als u een burst-rit wijzigt en een activiteit toevoegt die niet voldoet aan de burst (bericht, andere actie, gebeurtenis, enz.). Er wordt een bericht weergegeven.
 
-![](assets/burst2.png)
+![](../assets/burst2.png)
 
 Vervolgens test en publiceert u uw reis normaal. Berichten in de testmodus worden niet verzonden via de burst-modus.
 
@@ -178,14 +178,14 @@ Een gesloten reisversie kan niet opnieuw worden gestart of verwijderd. U kunt er
 
 Als u een reis wilt sluiten in de lijst met ritten, klikt u op de knop **[!UICONTROL Ellipsis]** knop rechts van de naam van de reis en selecteer **[!UICONTROL Close to new entrances]**.
 
-![](assets/journey-finish-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 U kunt ook het volgende doen:
 
 1. In de **[!UICONTROL Journeys]** klikt u op de rit die u wilt sluiten.
 1. Klik rechtsboven op de pijl omlaag.
 
-   ![](assets/finish_drop_down_list.png)
+   ![](../assets/finish_drop_down_list.png)
 
 1. Klik op **[!UICONTROL Close to new entrances]**. Er wordt een dialoogvenster weergegeven.
 1. Klikken **[!UICONTROL Close to new entrances]** ter bevestiging.
@@ -200,14 +200,14 @@ Wanneer een reis wordt gestopt, krijgt deze de status **[!UICONTROL Stopped]**.
 
 U kunt bijvoorbeeld een reis stoppen als een markeerder beseft dat de reis het verkeerde publiek aanvalt of dat een aangepaste actie die berichten moet leveren, niet correct werkt. Om een reis van de lijst van reizen tegen te houden, klik **[!UICONTROL Ellipsis]** knop rechts van de naam van de reis en selecteer **[!UICONTROL Stop]**.
 
-![](assets/journey-finish-quick-action.png)
+![](../assets/journey-finish-quick-action.png)
 
 U kunt ook het volgende doen:
 
 1. In de **[!UICONTROL Journeys]** klikt u op de reis die u wilt stoppen.
 1. Klik rechtsboven op de pijl omlaag.
 
-![](assets/finish_drop_down_list.png)
+![](../assets/finish_drop_down_list.png)
 
 1. Klik op **[!UICONTROL Stop]**. Er wordt een dialoogvenster weergegeven.
 1. Klikken **[!UICONTROL Stop]** ter bevestiging.

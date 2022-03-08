@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 7%
@@ -20,13 +20,13 @@ Als verscheidene aanbiedingen voor een bepaalde plaatsing verkiesbaar zijn, kunt
 * Willekeurige formule
 * [AI-classificatie](#use-ranking-strategy) (alleen voor bepaalde gebruikers)
 
-![](../assets/offer-rank-by.png)
+![](../../assets/offer-rank-by.png)
 
 ## Voorstelprioriteit {#offer-priority}
 
 Wanneer meerdere aanbiedingen in aanmerking komen voor een bepaalde plaatsing in een besluit, worden standaard de aanbiedingen met de hoogste **prioriteit** wordt eerst aan de klanten geleverd.
 
-![](../assets/offer-priority.png)
+![](../../assets/offer-priority.png)
 
 De prioritaire scores van aanbiedingen worden toegewezen wanneer het creëren van een aanbieding. Leer hoe u een persoonlijke aanbieding kunt maken in [deze sectie](../offer-library/creating-personalized-offers.md).
 
@@ -48,11 +48,11 @@ Nadat u een rangschikkingsformule hebt gemaakt, kunt u deze toewijzen aan een pl
 
 1. Selecteren **[!UICONTROL Ranking formula]** als de waarderingsmethode klikt u op **[!UICONTROL Add ranking]**.
 
-   ![](../assets/offer-activity-ranking.png)
+   ![](../../assets/offer-activity-ranking.png)
 
 1. Selecteer de gewenste rangschikkingsformule en klik op **[!UICONTROL Select]**.
 
-   ![](../assets/ranking-selection.png)
+   ![](../../assets/ranking-selection.png)
 
 De rangschikkingsformule is nu gekoppeld aan de plaatsing.
 
@@ -78,11 +78,11 @@ Zodra een rangschikkingsstrategie is gecreeerd, kunt u het aan een plaatsing in 
 
 1. Kies ervoor om voorstellen te plaatsen op **[!UICONTROL AI ranking]** in de vervolgkeuzelijst en klik op **[!UICONTROL Add ranking]**.
 
-   ![](../assets/ranking-selection-ai-ranking.png)
+   ![](../../assets/ranking-selection-ai-ranking.png)
 
 1. Selecteer de waarderingsstrategie die u hebt gemaakt. Alle details van de classificatiestrategie worden weergegeven.
 
-   ![](../assets/ranking-selection-ai-ranking-selected.png)
+   ![](../../assets/ranking-selection-ai-ranking-selected.png)
 
 1. Klik op **[!UICONTROL Select]**. De rangschikkingsstrategie is nu gekoppeld aan de plaatsing.
 

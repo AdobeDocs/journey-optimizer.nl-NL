@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 1%
@@ -35,11 +35,11 @@ Als de standaardwaarde 5 niet aan uw wensen voldoet, kunt u de foutdrempel wijzi
 
 1. Selecteer de knop **[!UICONTROL Edit suppression rules]**.
 
-   ![](assets/suppression-list-edit-retries.png)
+   ![](../assets/suppression-list-edit-retries.png)
 
 1. Pas het toegestane aantal opeenvolgende zachte grenzen aan uw wensen aan.
 
-   ![](assets/suppression-list-edit-soft-bounces.png)
+   ![](../assets/suppression-list-edit-soft-bounces.png)
 
    U moet een geheel getal tussen 1 en 20 invoeren. Dit betekent dat het minimum aantal pogingen 1 is en het maximum aantal 20.
 

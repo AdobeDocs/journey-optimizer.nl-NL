@@ -5,7 +5,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 5%
@@ -20,7 +20,7 @@ Gebruikmaken van realtime-klantprofiel in [!DNL Adobe Journey Optimizer] om een 
 >
 >Als uw organisatie nieuw is voor [!DNL Adobe Journey Optimizer] en heeft nog geen actieve datasets van het Profiel of verenigd beleid gecreeerd, **Profielen** het dashboard is niet zichtbaar. In plaats daarvan **Overzicht** op het tabblad vindt u koppelingen naar Adobe Experience Platform-documentatie, zodat u snel aan de slag kunt met Real-Time Customer Profile.
 
-![](assets/profiles-home.png)
+![](../assets/profiles-home.png)
 
 Leren hoe u toegang krijgt tot en werkt met de **Profieldashboard** en gedetailleerde informatie over de metriek die in het dashboard worden getoond, verwijs naar [deze sectie](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html){target=&quot;_blank&quot;}.
 

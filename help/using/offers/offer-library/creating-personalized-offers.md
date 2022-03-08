@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '1491'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Voordat u een aanbieding maakt, moet u controleren of u het volgende hebt gemaak
 
 De lijst met gepersonaliseerde aanbiedingen is toegankelijk in het **[!UICONTROL Offers]** -menu.
 
-![](../assets/offers_list.png)
+![](../../assets/offers_list.png)
 
 ## De aanbieding maken {#create-offer}
 
@@ -39,11 +39,11 @@ Om een **aanbieden** Voer de volgende stappen uit:
 
 1. Klikken **[!UICONTROL Create offer]** selecteert u vervolgens **[!UICONTROL Personalized offer]**.
 
-   ![](../assets/create_offer.png)
+   ![](../../assets/create_offer.png)
 
 1. Geef de naam van de aanbieding en de begin- en einddatum en -tijd op. U kunt ook een of meerdere bestaande tags aan de aanbieding koppelen, zodat u de bibliotheek met aanbiedingen eenvoudiger kunt doorzoeken en organiseren.
 
-   ![](../assets/offer_details.png)
+   ![](../../assets/offer_details.png)
 
    >[!NOTE]
    >
@@ -57,7 +57,7 @@ Volg onderstaande stappen om een of meerdere vertegenwoordigingen aan uw aanbied
 
 1. Voor de eerste weergave selecteert u eerst de optie **[!UICONTROL Channel]** dat zal worden gebruikt.
 
-   ![](../assets/channel-placement.png)
+   ![](../../assets/channel-placement.png)
 
    >[!NOTE]
    >
@@ -68,23 +68,23 @@ Volg onderstaande stappen om een of meerdere vertegenwoordigingen aan uw aanbied
 
    U kunt ook de knop naast de knop **[!UICONTROL Placement]** vervolgkeuzelijst om door alle plaatsen te bladeren.
 
-   ![](../assets/browse-button-placements.png)
+   ![](../../assets/browse-button-placements.png)
 
    Daar kunt u de plaatsingen volgens hun kanaal en/of inhoudstype nog filtreren. Kies een plaatsing en klik op **[!UICONTROL Select]**.
 
-   ![](../assets/browse-placements.png)
+   ![](../../assets/browse-placements.png)
 
 1. Voeg inhoud toe aan uw representatie. Meer informatie over [deze sectie](#content).
 
 1. Wanneer u inhoud zoals een afbeelding of URL toevoegt, kunt u een **[!UICONTROL Destination link]**: de gebruikers die op de aanbieding klikken, worden naar de bijbehorende pagina geleid.
 
-   ![](../assets/offer-destination-link.png)
+   ![](../../assets/offer-destination-link.png)
 
 1. Tot slot selecteer de taal van uw keus helpen identificeren en beheren wat aan vertoning aan de gebruikers te beheren.
 
 1. Als u een andere representatie wilt toevoegen, gebruikt u de optie **[!UICONTROL Add representation]** en voeg zo veel vertegenwoordigingen toe als nodig is.
 
-   ![](../assets/offer-add-representation.png)
+   ![](../../assets/offer-add-representation.png)
 
 1. Nadat u al uw representaties hebt toegevoegd, selecteert u **[!UICONTROL Next]**.
 
@@ -108,19 +108,19 @@ Als de geselecteerde plaatsing van het afbeeldingstype is, kunt u inhoud toevoeg
 
 1. Selecteer **[!UICONTROL Browse]**.
 
-   ![](../assets/offer-browse-asset-library.png)
+   ![](../../assets/offer-browse-asset-library.png)
 
 1. Blader door de elementen om de gewenste afbeelding te selecteren
 
 1. Klik op **[!UICONTROL Select]**.
 
-   ![](../assets/offer-select-asset.png)
+   ![](../../assets/offer-select-asset.png)
 
 ### URL&#39;s toevoegen {#urls}
 
 Als u inhoud van een externe openbare locatie wilt toevoegen, selecteert u **[!UICONTROL URL]** Voer vervolgens het URL-adres in van de inhoud die u wilt toevoegen.
 
-![](../assets/offer-content-url.png)
+![](../../assets/offer-content-url.png)
 
 ### Aangepaste tekst toevoegen {#custom-text}
 
@@ -128,7 +128,7 @@ U kunt ook teksttype-inhoud invoegen wanneer u een compatibele plaatsing selecte
 
 1. Selecteer **[!UICONTROL Custom]** en klik op **[!UICONTROL Add content]**.
 
-   ![](../assets/offer-add-content.png)
+   ![](../../assets/offer-add-content.png)
 
    >[!NOTE]
    >
@@ -136,11 +136,11 @@ U kunt ook teksttype-inhoud invoegen wanneer u een compatibele plaatsing selecte
 
 1. Typ de tekst die in de aanbieding wordt weergegeven.
 
-   ![](../assets/offer-text-content.png)
+   ![](../../assets/offer-text-content.png)
 
    U kunt de inhoud aanpassen met de Expressieeditor. Meer informatie over [personalisatie](../../personalization/personalize.md#use-expression-editor).
 
-   ![](../assets/offer-personalization.png)
+   ![](../../assets/offer-personalization.png)
 
    >[!NOTE]
    >
@@ -182,11 +182,11 @@ Aan de hand van de regels en beperkingen op het gebied van geschiktheid kunt u b
 
       Raadpleeg voor meer informatie over het werken met segmenten [deze pagina](../../segment/about-segments.md).
 
-      ![](../assets/offer-eligibility-segment.png)
+      ![](../../assets/offer-eligibility-segment.png)
 
    * Als u een specifieke beslissingsregel aan de aanbieding wilt koppelen, selecteert u **[!UICONTROL By defined decision rule]** en sleep de gewenste lijn van het linkerdeelvenster naar het deelvenster **[!UICONTROL Decision rule]** gebied. Voor meer over hoe te om een besluitvormingsregel tot stand te brengen, verwijs naar [deze sectie](../offer-library/creating-decision-rules.md).
 
-      ![](../assets/offer_rule.png)
+      ![](../../assets/offer_rule.png)
 
       >[!CAUTION]
       >
@@ -203,7 +203,7 @@ Aan de hand van de regels en beperkingen op het gebied van geschiktheid kunt u b
    >
    >Als een e-maillevering wordt verwijderd of als de voorbereiding opnieuw wordt uitgevoerd voordat deze wordt verzonden, wordt de grenswaarde voor de aanbieding automatisch bijgewerkt.
 
-   ![](../assets/offer_capping.png)
+   ![](../../assets/offer_capping.png)
 
    In het bovenstaande voorbeeld:
 
@@ -221,7 +221,7 @@ Zodra de toelatingsregels en de beperkingen zijn bepaald, toont een samenvatting
 
 1. Selecteer **[!UICONTROL Save and approve]**.
 
-   ![](../assets/offer_review.png)
+   ![](../../assets/offer_review.png)
 
    U kunt het voorstel ook opslaan als concept, zodat u het later kunt bewerken en goedkeuren.
 
@@ -229,13 +229,13 @@ De aanbieding wordt in de lijst weergegeven met de **[!UICONTROL Approved]** of 
 
 Het is nu klaar om aan gebruikers te worden geleverd.
 
-![](../assets/offer_created.png)
+![](../../assets/offer_created.png)
 
 ## Aanbiedingenlijst {#offer-list}
 
 In de lijst met aanbiedingen kunt u de aanbieding selecteren om de eigenschappen ervan weer te geven. U kunt het ook bewerken, de status wijzigen (**Concept**, **Goedgekeurd**, **Gearchiveerd**), dupliceert de aanbieding of verwijdert deze.
 
-![](../assets/offer_created.png)
+![](../../assets/offer_created.png)
 
 Selecteer **[!UICONTROL Edit]** om terug te gaan naar de modus Uitgave van aanbieding, waar u de [details](#create-offer), [representaties](#representations)en bewerkt u de [subsidiabiliteitsregels en beperkingen](#eligibility).
 
@@ -243,11 +243,11 @@ Selecteer een goedgekeurd voorstel en klik op **[!UICONTROL Undo approve]** om d
 
 De status opnieuw instellen op **[!UICONTROL Approved]** Selecteer de bijbehorende knop die nu wordt weergegeven.
 
-![](../assets/offer_approve.png)
+![](../../assets/offer_approve.png)
 
 De **[!UICONTROL More actions]** schakelt u de hieronder beschreven handelingen in.
 
-![](../assets/offer_more-actions.png)
+![](../../assets/offer_more-actions.png)
 
 * **[!UICONTROL Duplicate]**: een aanbod doet ontstaan met dezelfde eigenschappen, representaties, subsidiabiliteitsregels en beperkingen. Standaard bevat de nieuwe aanbieding de **[!UICONTROL Draft]** status.
 * **[!UICONTROL Delete]**: Hiermee verwijdert u het voorstel uit de lijst.
@@ -262,19 +262,19 @@ De **[!UICONTROL More actions]** schakelt u de hieronder beschreven handelingen 
 
 U kunt ook de status van meerdere aanbiedingen tegelijk verwijderen of wijzigen door de desbetreffende selectievakjes in te schakelen.
 
-![](../assets/offer_multiple-selection.png)
+![](../../assets/offer_multiple-selection.png)
 
 Als u de status van meerdere aanbiedingen met verschillende statussen wilt wijzigen, worden alleen de desbetreffende statussen gewijzigd.
 
-![](../assets/offer_change-status.png)
+![](../../assets/offer_change-status.png)
 
 Nadat u een voorstel hebt gemaakt, kunt u in de lijst op de naam ervan klikken.
 
-![](../assets/offer_click-name.png)
+![](../../assets/offer_click-name.png)
 
 Op deze manier hebt u toegang tot gedetailleerde informatie voor dat aanbod. Selecteer **[!UICONTROL Change log]** tab naar [alle wijzigingen controleren](../get-started/user-interface.md#monitoring-changes) die aan het aanbod zijn gedaan.
 
-![](../assets/offer_information.png)
+![](../../assets/offer_information.png)
 
 ## Video over zelfstudie {#video}
 

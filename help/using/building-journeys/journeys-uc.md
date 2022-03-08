@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '837'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 In deze sectie wordt een gebruiksscenario beschreven waarin een leessegment, een gebeurtenis, reactiegebeurtenissen en e-mail-/pushberichten worden gecombineerd.
 
-![](assets/jo-uc1.png)
+![](../assets/jo-uc1.png)
 
 ## Beschrijving van het gebruiksgeval
 
@@ -53,7 +53,7 @@ Raadpleeg deze voor meer informatie over segmenten [page](../segment/about-segme
 
 1. Klik op **[!UICONTROL Save]**.
 
-   ![](assets/add-attributes.png)
+   ![](../assets/add-attributes.png)
 
 Het segment is nu gemaakt en klaar om in uw reis te worden gebruikt. Een **Segment lezen** activiteit, kunt u alle individuen van het segment tot de reis maken.
 
@@ -77,7 +77,7 @@ Hiervoor gebruiken we een op regels gebaseerde gebeurtenis. Raadpleeg deze voor 
 
 1. Klik op **[!UICONTROL Save]**.
 
-   ![](assets/jo-uc2.png)
+   ![](../assets/jo-uc2.png)
 
 De gebeurtenis is nu geconfigureerd en klaar om in uw reis te worden gebruikt. Met de bijbehorende gebeurtenisactiviteit kunt u een actie activeren telkens wanneer een klant een aankoop doet.
 
@@ -89,7 +89,7 @@ Voor dit gebruik, moeten wij drie berichten tot stand brengen:
 * een pushbericht &quot; dank u &quot;
 * een e-mailvervolgbericht
 
-![](assets/jo-uc3.png)
+![](../assets/jo-uc3.png)
 
 Zie dit [sectie](../segment/about-segments.md) om te leren om deze berichten te ontwerpen en te publiceren.
 
@@ -97,11 +97,11 @@ Zie dit [sectie](../segment/about-segments.md) om te leren om deze berichten te 
 
 1. Begin de reis met een **Segment lezen** activiteit. Selecteer het eerder gemaakte segment. Alle personen die tot het segment behoren, komen de reis binnen.
 
-   ![](assets/jo-uc4.png)
+   ![](../assets/jo-uc4.png)
 
 1. Een neerzetten **Bericht** en selecteer het eerste pushbericht en e-mailbericht. Dit bericht wordt naar alle personen op de reis gestuurd.
 
-   ![](assets/jo-uc5.png)
+   ![](../assets/jo-uc5.png)
 
 1. Plaats de cursor op de berichtactiviteit en klik op het plusteken (+) om een nieuw pad te maken.
 

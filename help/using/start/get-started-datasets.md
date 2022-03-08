@@ -4,7 +4,7 @@ description: Meer informatie over het gebruik van Adobe Experience Platform-gege
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: e7db3204754b07b29f488c987c01d2a2378e70d9
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 12%
@@ -23,7 +23,7 @@ Het toevoegen van gegevens aan Adobe Experience Platform is de basis voor het bo
 
 De **Gegevenssets** werkruimte in de [!DNL Adobe Journey Optimizer] de gebruikersinterface staat u toe om gegevens te onderzoeken en datasets tot stand te brengen.
 
-![](assets/datasets-home.png)
+![](../assets/datasets-home.png)
 
 Leer hoe u de interface Gegevensbestanden in het dialoogvenster [Documentatie over gegevensinsluiting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target=&quot;_blank&quot;}.
 

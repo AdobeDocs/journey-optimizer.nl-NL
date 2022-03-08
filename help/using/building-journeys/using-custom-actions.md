@@ -1,29 +1,35 @@
 ---
 title: Aangepaste handelingen gebruiken
 description: Leer hoe u aangepaste handelingen kunt gebruiken
-feature: Actions
+feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 18%
+ht-degree: 5%
 
 ---
 
 # Aangepaste handelingen gebruiken {#use-custom-actions}
 
-Met aangepaste acties kunt u een verbinding met een extern systeem configureren voor het verzenden van berichten of API-aanroepen. Een actie kan worden geconfigureerd met elke service van elke provider die door een REST-API met een payload in JSON-indeling kan worden aangeroepen.
+De ruit van de activiteitenconfiguratie toont de URL configuratieparameters en de authentificatieparameters die voor de douaneactie worden gevormd. [Meer informatie](../action/about-custom-action-configuration.md).
+
+>[!NOTE]
+>
+>U kunt geen eenvoudige verzameling doorgeven in parameters voor aangepaste handelingen. Complexere verzamelingsvelden (arrays van objecten) worden niet ondersteund.  Let ook op dat de parameters een verwacht formaat hebben (voorbeeld: tekenreeks, decimaal, enz.). U moet deze verwachte formaten zorgvuldig respecteren.
 
 ## URL-configuratie
-
-Het configuratievenster van het dialoogvenster **Aangepaste actie** De activiteit toont de URL configuratieparameters en de authentificatieparameters die voor de douaneactie worden gevormd. U kunt niet opstelling het statische deel van URL in de reis, maar in de globale configuratie van de douaneactie. [Meer informatie](../action/about-custom-action-configuration.md).
 
 ### Dynamisch pad
 
 Als de URL een dynamisch pad bevat, geeft u het pad op in het dialoogvenster **[!UICONTROL Path]** veld.
+
+>[!NOTE]
+>
+>U kunt niet opstelling het statische deel van URL in de reis, maar in de globale configuratie van de douaneactie. [Meer informatie](../action/about-custom-action-configuration.md).
 
 Als u velden en onbewerkte teksttekenreeksen wilt samenvoegen, gebruikt u de tekenreeksfuncties of het plusteken (+) in de geavanceerde expressie-editor. Plaats normale teksttekenreeksen tussen enkele aanhalingstekens (&#39;) of tussen dubbele aanhalingstekens (&#39;). [Meer informatie](expression/expressionadvanced.md).
 
@@ -38,7 +44,7 @@ De samengevoegde URL heeft de volgende vorm:
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
 
-![](assets/journey-custom-action-url.png)
+![](../assets/journey-custom-action-url.png)
 
 ### Kopteksten
 
@@ -49,7 +55,7 @@ Geef zo nodig de waarde van dynamische koptekstvelden op:
 1. Selecteer de aangepaste handeling tijdens de rit.
 1. Klik in het configuratievenster op het potloodpictogram naast het koptekstveld in het dialoogvenster **[!UICONTROL URL Configuration]** sectie.
 
-   ![](assets/journey-dynamicheaderfield.png)
+   ![](../assets/journey-dynamicheaderfield.png)
 
 1. Selecteer een veld en klik op **[!UICONTROL OK]**.
 

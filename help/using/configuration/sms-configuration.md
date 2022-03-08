@@ -6,7 +6,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 3%
@@ -27,7 +27,7 @@ Voer de volgende stappen uit om uw SMS-leverancier te configureren met Journey O
 
 1. Toegang krijgen tot **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL API Credentials]** en klik vervolgens op **[!UICONTROL Create API credential]**.
 
-   ![](assets/sms_4.png)
+   ![](../assets/sms_4.png)
 
 1. Selecteer Sinch als uw **[!UICONTROL SMS vendor]**.
 
@@ -39,7 +39,7 @@ Voer de volgende stappen uit om uw SMS-leverancier te configureren met Journey O
    >
    > Voor Sinch zijn speciale API-referenties vereist. Als u uw **[!UICONTROL Service ID]** en **[!UICONTROL API Token]**, toegang tot SMS > API&#39;s via uw Sinch-account,
 
-   ![](assets/sms_5.png)
+   ![](../assets/sms_5.png)
 
 1. Klikken **[!UICONTROL Submit]** wanneer u de configuratie van uw API-referenties hebt voltooid.
 
@@ -53,11 +53,11 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
 1. Toegang krijgen tot **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** en klik vervolgens op **[!UICONTROL Create Message preset]**.
 
-   ![](assets/preset-create.png)
+   ![](../assets/preset-create.png)
 
 1. Voer een naam en beschrijving (optioneel) voor de voorinstelling in en selecteer vervolgens het SMS-kanaal.
 
-   ![](assets/sms_preset.png)
+   ![](../assets/sms_preset.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
 1. Configureer de **SMS** instellingen.
 
-   ![](assets/preset-sms.png)
+   ![](../assets/preset-sms.png)
 
    * Selecteer **[!UICONTROL SMS Type]** die samen met de voorinstelling wordt verzonden: **[!UICONTROL Transactional]** of **[!UICONTROL Marketing]**.
 
@@ -77,7 +77,7 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
 1. Zodra alle parameters zijn gevormd, klik **[!UICONTROL Submit]** ter bevestiging. U kunt de berichtvoorinstelling ook opslaan als concept en de configuratie ervan later hervatten.
 
-   ![](assets/sms_preset_2.png)
+   ![](../assets/sms_preset_2.png)
 
 1. Nadat de berichtvoorinstelling is gemaakt, wordt deze in de lijst weergegeven met de **[!UICONTROL Processing]** status.
 
@@ -87,7 +87,7 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
 1. Als de controles zijn voltooid, wordt met de berichtvoorinstelling het volgende opgehaald **[!UICONTROL Active]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
-   ![](assets/preset-active.png)
+   ![](../assets/preset-active.png)
 
 Je kunt nu SMS-berichten verzenden met Journey Optimizer.
 

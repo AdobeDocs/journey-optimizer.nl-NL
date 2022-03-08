@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
-source-git-commit: fab36ea43e92babfacdbaeeaecf6c551c00b3c5b
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,9 @@ Door verschillende kenmerken toe te voegen aan het menu Favorieten hebt u snel t
 
 ![](assets/favorite-option.png)
 
-Als u toegang wilt tot favoriete objecten, gebruikt u de opdracht **[!UICONTROL Favorites]** in het linkerdeelvenster.
+Als u toegang wilt tot favoriete objecten, gebruikt u de opdracht **[!UICONTROL Favorites]** in het keuzemenu.
+
+![](assets/favorite-menu.png)
 
 Vanuit deze lijst kunt u het aanpassingsobject snel toevoegen aan uw huidige expressie.
 

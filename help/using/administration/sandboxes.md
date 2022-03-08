@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: db6e970230b4d22b50c2035ecf5e7307e66feb2d
+source-git-commit: 7da910df3eda84884c7cda56af6ce5dcabc3a3db
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 28%
@@ -25,7 +25,7 @@ U kunt Adobe Experience Platform-sandboxen maken of herstellen vanuit uw Adobe E
 
 U kunt het besturingselement voor de sandboxswitch rechtsboven in het scherm vinden naast de naam van uw organisatie. Als u van sandbox wilt wisselen, klikt u op de momenteel actieve sandbox in de schakelfunctie en selecteert u een andere sandbox in de vervolgkeuzelijst.
 
-![](assets/sandbox_5.png)
+![](../assets/sandbox_5.png)
 
 ➡️ [Ontdek deze functie in video](#video)
 
@@ -43,21 +43,21 @@ Sandboxen toewijzen:
 
 1. Selecteer een **[!UICONTROL Product profile]**.
 
-   ![](assets/sandbox_1.png)
+   ![](../assets/sandbox_1.png)
 
 1. Selecteer het tabblad **[!UICONTROL Permissions]**. 
 
 1. Selecteer **[!UICONTROL Sandboxes]** capaciteit.
 
-   ![](assets/sandbox_2.png)
+   ![](../assets/sandbox_2.png)
 
 1. Klik onder **[!UICONTROL Available Permissions Items]** op het pluspictogram (+) om sandboxen aan uw profiel toe te wijzen. [Meer informatie over sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html){target=&quot;_blank&quot;}.
 
-   ![](assets/sandbox_3.png)
+   ![](../assets/sandbox_3.png)
 
 1. Indien nodig, onder **[!UICONTROL Included Permission Items]**, klikt u op het X-pictogram naast het verwijderen van sandboxen die toegang hebben tot uw **[!UICONTROL Product profile]**.
 
-   ![](assets/sandbox_4.png)
+   ![](../assets/sandbox_4.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -65,7 +65,7 @@ Sandboxen toewijzen:
 
 Als u de toegankelijkheid van uw inhoud wilt configureren, moet u een gedeelde inhoudsmap toewijzen aan elk van uw sandboxen. U kunt uw gedeelde map maken en configureren in het dialoogvenster **[!UICONTROL Storage]** weergegeven in het dialoogvenster [!DNL Admin Console] voor beheerders. Als u toegang hebt tot [!DNL Admin Console] als systeembeheerder, kunt u gedeelde omslagen tot stand brengen en afgevaardigden met verschillend toegangsniveau toevoegen aan uw gedeelde omslagen.
 
-![](assets/do-not-localize/content_access.png)
+![](../assets/do-not-localize/content_access.png)
 
 Houd er rekening mee dat voor synchronisatie van uw inhoud met de juiste sandbox dezelfde syntaxis moet worden gebruikt als de sandbox, bijvoorbeeld als de sandbox ontwikkeling wordt genoemd, moet uw gedeelde map dezelfde naam hebben.
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: fad7eb9feea0d8c21494b4a7c1608369e725023e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Het algemene rapport van de reis kan direct van uw reis met worden betreden **[!UICONTROL Global report]** knop.
 
-![](assets/global_report_1.png)
+![](../assets/global_report_1.png)
 
 De reis **[!UICONTROL Global report]** Deze pagina wordt weergegeven met de volgende tabbladen:
 
@@ -31,7 +31,7 @@ De reis **[!UICONTROL Global report]** is verdeeld in verschillende widgets waar
 
 Vanaf uw reis **[!UICONTROL Global report]** de **[!UICONTROL Journey]** geeft u een duidelijk overzicht van de belangrijkste volgende gegevens over uw reis.
 
-![](assets/global_report_2.png)
+![](../assets/global_report_2.png)
 
 De **[!UICONTROL Journey Performance]** Met widget kunt u het pad van uw doelprofielen stap voor stap bekijken.
 
@@ -43,11 +43,11 @@ De **[!UICONTROL Journey Statistics]** widget geeft de volgende KPI&#39;s weer:
 
 * **[!UICONTROL Failed individual journey]**: Het totale aantal individuele reizen dat niet succesvol is uitgevoerd.
 
-![](assets/global_report_12.png)
+![](../assets/global_report_12.png)
 
 De **[!UICONTROL Events received by event]**, **[!UICONTROL Events by origin]** en **[!UICONTROL Top events]** met widgets kunt u zien welke van uw **[!UICONTROL Events]** is uitgevoerd via grafieken en tabellen.
 
-![](assets/global_report_13.png)
+![](../assets/global_report_13.png)
 
 **[!UICONTROL Action Performance]**, **[!UICONTROL Action Error Reasons]** en **[!UICONTROL Top Actions]** widgets vertegenwoordigen de meest succesvolle actie en fouten die zijn opgetreden bij het **[!UICONTROL Actions]** werden geactiveerd.
 
@@ -63,7 +63,7 @@ Vanaf uw reis **[!UICONTROL Global report]** de **[!UICONTROL Email]** bevat de 
 
 Voor een gedetailleerd rapport over een specifieke e-maillevering raadpleegt u de [Globaal e-mailrapport](#email-global-report) sectie.
 
-![](assets/global_report_14.png)
+![](../assets/global_report_14.png)
 
 De **[!UICONTROL Email Sending Statistics]** grafiek geeft het succes van uw levering aan:
 
@@ -107,7 +107,7 @@ De **[!UICONTROL Sending Statistics]** De grafiek bevat de gegevens die beschikb
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
-![](assets/global_report_15.png)
+![](../assets/global_report_15.png)
 
 De **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]** widgets bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd, zoals:
 
@@ -119,37 +119,14 @@ De **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]** widgets
 
 Voor meer informatie over grenzen raadpleegt u de [Onderdrukkingslijst](../messages/suppression-list.md) pagina.
 
-![](assets/global_report_22.png)
-
-De **[!UICONTROL Error Reasons]** de grafiek en de lijst laten u zien welke fout tijdens uw levering voorkwam.
-
-De **[!UICONTROL Excluded reasons]** de grafiek en de lijst tonen de verschillende redenen die gebruikersprofielen, uitgesloten van de gerichte profielen, van het ontvangen van het bericht verhinderden.
-
-![](assets/global_report_16.png)
+![](../assets/global_report_16.png)
 
 De **[!UICONTROL Email - Top Url]** grafiek en lijstdetails die URLs van uw levering het meest bezocht zijn.
 
 De **[!UICONTROL Email - Top recipient domain]** grafiek en lijstdetails welke domeinen het meest door ontvangers worden gebruikt om e-mail te openen.
 
-![](assets/global_report_23.png)
-
->[!NOTE]
->
->De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]**  widgets zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor uw levering. Voor meer informatie over Send-Time Optimization, verwijs naar dit [page](../building-journeys/journeys-message.md#send-time-optimization).
-
-De **[!UICONTROL Optimized vs non optimized]** de grafiek geeft de belangrijkste informatie met betrekking tot uw bericht of zij of niet worden geoptimaliseerd:
-
-* **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
-* **[!UICONTROL Opens]**: Aantal keren dat de levering is geopend in een levering.
-* **[!UICONTROL Clicks]**: Aantal keer dat er op een inhoud in een e-mail is geklikt.
-
-De **[!UICONTROL Send time optimization]** Geeft details over het succes van uw levering afhankelijk van de verzendende methode: geoptimaliseerd of normaal.
-
-* **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
-* **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
-
 <!--
-![](assets/global_report_21.png)
+![](../assets/global_report_21.png)
 
 >[!NOTE]
 >
@@ -182,7 +159,7 @@ Vanaf uw reis **[!UICONTROL Global report]** de **[!UICONTROL Push]** bevat de b
 
 Voor een gedetailleerd rapport over een specifieke pushservice raadpleegt u de [Push Global-rapport](#push-global-report).
 
-![](assets/global_report_17.png)
+![](../assets/global_report_17.png)
 
 De **[!UICONTROL Push notification - Sending statistics]** de tabel bevat de belangrijkste informatie met betrekking tot uw pushberichten met grafiek en PKI&#39;s:
 
@@ -224,25 +201,10 @@ De **[!UICONTROL Push notification summary]** De grafiek bevat de gegevens die b
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
->[!NOTE]
->
->De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]**  widgets zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor uw levering. Voor meer informatie over Send-Time Optimization, verwijs naar dit [page](../building-journeys/journeys-message.md#send-time-optimization).
-
-De **[!UICONTROL Optimized vs non optimized]** de grafiek geeft de belangrijkste informatie met betrekking tot uw bericht of zij of niet worden geoptimaliseerd:
-
-* **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
-* **[!UICONTROL Opens]**: Aantal keren dat de levering is geopend in een levering.
-* **[!UICONTROL Actions]**: Het totale aantal acties op de geleverde pushmelding, bijvoorbeeld klikken op de knop of ontslag.
-
-De **[!UICONTROL Send time optimization]** Geeft details over het succes van uw levering afhankelijk van de verzendende methode: geoptimaliseerd of normaal.
-
-* **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
-* **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
-
-![](assets/global_report_18.png)
+![](../assets/global_report_18.png)
 
 De **[!UICONTROL Error Reasons]** de grafiek en de lijst laten u zien welke fout tijdens uw levering voorkwam.
 
-![](assets/global_report_19.png)
+![](../assets/global_report_19.png)
 
 De **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** en **[!UICONTROL Breakdown by platform]** grafieken en tabellen geven het succes van uw pushmelding weer, afhankelijk van het besturingssysteem van de ontvanger.

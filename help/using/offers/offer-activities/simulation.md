@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Hierdoor kunt u verschillende versies van uw aanbiedingen testen en verfijnen, z
 
 Als u deze functie wilt openen, selecteert u de optie **[!UICONTROL Simulation]** van de **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** -menu.
 
-![](../assets/offers_simulation-tab.png)
+![](../../assets/offers_simulation-tab.png)
 
 <!--
 ➡️ [Discover this feature in video](#video)
@@ -41,7 +41,7 @@ Eerst moet u de testprofielen selecteren die u voor simulatie gaat gebruiken.
 
 1. Klik op **[!UICONTROL Manage profile]**.
 
-   ![](../assets/offers_simulation-manage-profile.png)
+   ![](../../assets/offers_simulation-manage-profile.png)
 
 1. Selecteer de naamruimte voor de identiteit die u wilt gebruiken om testprofielen te identificeren. In dit voorbeeld gebruiken we de **E-mail** naamruimte.
 
@@ -51,15 +51,15 @@ Eerst moet u de testprofielen selecteren die u voor simulatie gaat gebruiken.
 
 1. Voer de identiteitswaarde in en klik op **[!UICONTROL View]** om de beschikbare profielen weer te geven.
 
-   ![](../assets/offers_simulation-add-profile.png)
+   ![](../../assets/offers_simulation-add-profile.png)
 
 1. Voeg andere profielen toe als u andere profielgegevens wilt testen en sla uw selectie op.
 
-   ![](../assets/offers_simulation-save-profiles.png)
+   ![](../../assets/offers_simulation-save-profiles.png)
 
 1. Na toevoeging worden alle profielen vermeld in de vervolgkeuzelijst onder **[!UICONTROL Test profile]**. U kunt schakelen tussen de opgeslagen testprofielen om de resultaten voor elk geselecteerd profiel weer te geven.
 
-   ![](../assets/offers_simulation-saved-profiles.png)
+   ![](../../assets/offers_simulation-saved-profiles.png)
 
    >[!NOTE]
    >
@@ -75,11 +75,11 @@ Selecteer nu de aanbiedingsbesluiten die u op uw testprofielen wilt simuleren.
 
 1. Selecteer **[!UICONTROL Add decision scope]**.
 
-   ![](../assets/offers_simulation-add-decision.png)
+   ![](../../assets/offers_simulation-add-decision.png)
 
 1. Selecteer een plaatsing in de lijst.
 
-   ![](../assets/offers_simulation-add-decision-scope.png)
+   ![](../../assets/offers_simulation-add-decision-scope.png)
 
 1. De beschikbare beslissingen worden weergegeven.
 
@@ -88,13 +88,13 @@ Selecteer nu de aanbiedingsbesluiten die u op uw testprofielen wilt simuleren.
 
    Selecteer de gewenste beslissing en klik op **[!UICONTROL Add]**.
 
-   ![](../assets/offers_simulation-add-decision-scope-add.png)
+   ![](../../assets/offers_simulation-add-decision-scope-add.png)
 
 1. Het beslissingsbereik dat u zojuist hebt gedefinieerd, wordt weergegeven in de hoofdwerkruimte.
 
    U kunt het aantal voorstellen aanpassen dat u wilt verzoeken. Als u bijvoorbeeld 2 selecteert, worden de beste 2 aanbiedingen weergegeven voor dit beslissingsbereik.
 
-   ![](../assets/offers_simulation-request-offer.png)
+   ![](../../assets/offers_simulation-request-offer.png)
 
    >[!NOTE]
    >
@@ -102,7 +102,7 @@ Selecteer nu de aanbiedingsbesluiten die u op uw testprofielen wilt simuleren.
 
 1. Herhaal bovenstaande stappen om zoveel beslissingen toe te voegen als u nodig hebt.
 
-   ![](../assets/offers_simulation-add-more-decisions.png)
+   ![](../../assets/offers_simulation-add-more-decisions.png)
 
    >[!NOTE]
    >
@@ -114,11 +114,11 @@ Volg onderstaande stappen om de standaardinstellingen voor uw simulaties te bewe
 
 1. Klik op **[!UICONTROL Settings]**.
 
-   ![](../assets/offers_simulation-settings.png)
+   ![](../../assets/offers_simulation-settings.png)
 
 1. In de **[!UICONTROL Deduplication]** kunt u dubbele aanbiedingen toestaan voor verschillende beslissingen en/of plaatsen. Dit betekent dat meerdere beslissingen/stages dezelfde aanbieding kunnen krijgen.
 
-   ![](../assets/offers_simulation-settings-deduplication.png)
+   ![](../../assets/offers_simulation-settings-deduplication.png)
 
    >[!NOTE]
    >
@@ -126,7 +126,7 @@ Volg onderstaande stappen om de standaardinstellingen voor uw simulaties te bewe
 
 1. In de **[!UICONTROL Response format]** kunt u metagegevens opnemen in de codeweergave. Controleer de corresponderende optie en selecteer de metagegevens van uw keuze. Ze worden weergegeven in de aanvraag- en antwoordlading wanneer u **[!UICONTROL View code]**. Meer informatie in het dialoogvenster [Simulatieresultaten weergeven](#simulation-results) sectie.
 
-   ![](../assets/offers_simulation-settings-response-format.png)
+   ![](../../assets/offers_simulation-settings-response-format.png)
 
    >[!NOTE]
    >
@@ -158,13 +158,13 @@ Nadat u een beslissingsbereik hebt toegevoegd en een testprofiel hebt geselectee
 
 1. Klik op **[!UICONTROL View results]**.
 
-   ![](../assets/offers_simulation-view-results.png)
+   ![](../../assets/offers_simulation-view-results.png)
 
 1. De beste beschikbare aanbiedingen worden weergegeven volgens het geselecteerde profiel voor elke beslissing.
 
    Selecteer een voorstel om de details ervan weer te geven.
 
-   ![](../assets/offers_simulation-offer-details.png)
+   ![](../../assets/offers_simulation-offer-details.png)
 
 1. Klikken **[!UICONTROL View code]** om de aanvraag- en antwoordlading weer te geven. [Meer informatie](#view-code)
 
@@ -180,19 +180,19 @@ Nadat u een beslissingsbereik hebt toegevoegd en een testprofiel hebt geselectee
 
 1. Gebruik de **[!UICONTROL View code]** om de aanvraag- en antwoordlading weer te geven.
 
-   ![](../assets/offers_simulation-view-code.png)
+   ![](../../assets/offers_simulation-view-code.png)
 
    De codeweergave toont de ontwikkelaarsinformatie voor de huidige gebruiker. Standaard worden de **[!UICONTROL Response payload]** wordt weergegeven.
 
-   ![](../assets/offers_simulation-request-payload.png)
+   ![](../../assets/offers_simulation-request-payload.png)
 
 1. Klikken **[!UICONTROL Response payload]** of **[!UICONTROL Request payload]** om tussen de twee tabbladen te navigeren.
 
-   ![](../assets/offers_simulation-response-payload.png)
+   ![](../../assets/offers_simulation-response-payload.png)
 
 1. Om de verzoeklading buiten te gebruiken [!DNL Journey Optimizer] - voor het oplossen van problemendoel bijvoorbeeld, kopieer het gebruikend **[!UICONTROL Copy to clipboard]** boven op de codeweergave.
 
-   ![](../assets/offers_simulation-copy-payload.png)
+   ![](../../assets/offers_simulation-copy-payload.png)
 
    <!--You cannot copy the response payload. ACTUALLY YES YOU CAN > to confirm with PM/dev? -->
 

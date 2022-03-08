@@ -1,41 +1,32 @@
 ---
 solution: Journey Orchestration
-title: Een aangepaste handeling configureren
+title: Aangepaste acties configureren
 description: Leer hoe u een aangepaste handeling configureert
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 7c00fcf72ba001005b8e4ac548b789f37f9039a3
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 5%
+source-wordcount: '804'
+ht-degree: 6%
 
 ---
 
-# Een aangepaste handeling configureren {#configure-an-action}
+# Een actie configureren {#configure-an-action}
 
-Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om zijn verbinding aan uw reis te vormen. U kunt bijvoorbeeld met aangepaste handelingen verbinding maken met de volgende systemen: Epsilon, Slack, Adobe.io, Firebase, enz.
+Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, is dit waar u zijn verbinding aan reizen vormt. De aangepaste actie die door technische gebruikers is gedefinieerd, is dan beschikbaar in het linkerpalet van uw reis, in het dialoogvenster **[!UICONTROL Action]** categorie (zie [deze pagina](../building-journeys/about-journey-activities.md#action-activities). Hier volgen enkele voorbeelden van systemen waarmee u verbinding kunt maken met aangepaste handelingen: Epsilon, Slack, Adobe.io, Firebase, enz.
 
-Aangepaste acties zijn aanvullende acties die door technische gebruikers worden gedefinieerd en beschikbaar worden gesteld aan verkopers. Zodra gevormd, verschijnen zij in het linkerpalet van uw reis, in **[!UICONTROL Action]** categorie. Meer informatie in [deze pagina](../building-journeys/about-journey-activities.md#action-activities).
+Beperkingen worden vermeld in [deze pagina](../start/limitations.md).
 
-## Beperkingen{#custom-actions-limitations}
-
-Aangepaste acties worden geleverd met enkele beperkingen die worden vermeld in [deze pagina](../start/limitations.md).
-
-In parameters voor aangepaste handelingen kunt u een eenvoudige verzameling en een verzameling objecten doorgeven. Meer informatie over verzamelingsbeperkingen vindt u in [deze pagina](../building-journeys/collections.md#limitations).
-
-Houd er ook rekening mee dat de parameters voor aangepaste handelingen een verwachte indeling hebben (bijvoorbeeld: tekenreeks, decimaal, enz.). U moet deze verwachte formaten zorgvuldig respecteren. Meer informatie in deze [use case](../building-journeys/collections.md).
-
-
-## Configuratiestappen {#configuration-steps}
+U kunt verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen. Zie dit [use case](../building-journeys/collections.md).
 
 Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vormen:
 
 1. Selecteer in de sectie van het menu ADMINISTRATIE de optie **[!UICONTROL Configurations]**. In de  **[!UICONTROL Actions]** sectie, klikt u op **[!UICONTROL Manage]**. Klikken **[!UICONTROL Create Action]** om een nieuwe handeling te maken. Het deelvenster Handelingsconfiguratie wordt aan de rechterkant van het scherm geopend.
 
-   ![](assets/custom2.png)
+   ![](../assets/custom2.png)
 
 1. Voer een naam in voor de handeling.
 
@@ -60,7 +51,7 @@ Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vorm
 
 Wanneer het vormen van een douaneactie, moet u het volgende bepalen **[!UICONTROL URL Configuration]** parameters:
 
-![](assets/journeyurlconfiguration.png)
+![](../assets/journeyurlconfiguration.png)
 
 1. In de **[!UICONTROL URL]** -veld, geeft u de URL van de externe service op:
 
@@ -89,7 +80,7 @@ Wanneer het vormen van een douaneactie, moet u het volgende bepalen **[!UICONTRO
 
       Als u **[!UICONTROL Variable]**, dan zult u deze variabele specificeren wanneer het toevoegen van de douaneactie aan een reis. [Meer informatie](../building-journeys/using-custom-actions.md).
 
-      ![](assets/journeyurlconfiguration2.png)
+      ![](../assets/journeyurlconfiguration2.png)
 
    1. Als u een koptekstveld wilt verwijderen, wijst u naar het koptekstveld en klikt u op de knop **[!UICONTROL Delete]** pictogram.
    De **[!UICONTROL Content-Type]** en **[!UICONTROL Charset]** koptekstvelden worden standaard ingesteld. U kunt deze velden niet wijzigen of verwijderen.
@@ -102,11 +93,11 @@ Wanneer het vormen van een douaneactie, moet u het volgende bepalen **[!UICONTRO
 
 ## De actieparameters definiëren {#define-the-message-parameters}
 
-![](assets/messageparameterssection.png)
+![](../assets/messageparameterssection.png)
 
 In de **[!UICONTROL Action parameters]** plakken, plakt u een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden.
 
-![](assets/customactionpayloadmessage.png)
+![](../assets/customactionpayloadmessage.png)
 
 >[!NOTE]
 >
@@ -119,5 +110,5 @@ U kunt ook opgeven of een parameter een constante of een variabele is.
 * Constante betekent dat de waarde van de parameter in de ruit van de actieconfiguratie door een technische persoon wordt bepaald. De waarde zal altijd het zelfde over reizen zijn. De kleur verandert niet en de markeerstift ziet deze niet wanneer u de aangepaste handeling voor de reis gebruikt. Het kan bijvoorbeeld een id zijn die het externe systeem verwacht. In dat geval is het veld rechts van de schakelconstante/variabele de doorgegeven waarde.
 * Variabele betekent dat de waarde van de parameter varieert. Marktdeelnemers die deze aangepaste handeling tijdens een reis gebruiken, kunnen de gewenste waarde doorgeven of opgeven waar de waarde voor deze parameter moet worden opgehaald (bijvoorbeeld van het evenement, van de Adobe Experience Platform, enz.). In dat geval, is het gebied op het recht van de knevelconstante/variabele de etiketmarketers in de reis zullen zien om deze parameter te noemen.
 
-![](assets/customactionpayloadmessage2.png)
+![](../assets/customactionpayloadmessage2.png)
 

@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 6%
@@ -19,7 +19,7 @@ De Redacteur van de vraag is een interactief hulpmiddel dat door de Dienst van d
 De Redacteur van de vraag steunt het ontwikkelen van vragen voor analyse en gegevensexploratie, en staat u toe om interactieve vragen voor ontwikkelingsdoeleinden evenals niet-interactieve vragen in werking te stellen om te bevolken [gegevenssets](get-started-datasets.md).
 
 
-![](assets/queries-home.png)
+![](../assets/queries-home.png)
 
 Leer hoe te om de Redacteur van de Vraag te gebruiken in [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target=&quot;_blank&quot;}.
 

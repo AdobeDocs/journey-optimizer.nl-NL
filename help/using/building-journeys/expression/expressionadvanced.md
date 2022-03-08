@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 5d9a729c58cda2dd2600f2076a460f78d21641f8
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 85%
@@ -20,7 +20,7 @@ De editor is ook altijd beschikbaar wanneer u actieparameters moet definiëren w
 
 De geavanceerde expressie-editor biedt een reeks ingebouwde functies en operatoren waarmee u waarden kunt manipuleren en een expressie kunt definiëren die precies bij uw wensen past. Met de geavanceerde expressie-editor kunt u ook de waarden van de externe databronbronparameter definiëren en toewijzingsvelden en verzamelingen zoals ervaringsgebeurtenissen bewerken.
 
-![](../assets/journey65.png)
+![](../../assets/journey65.png)
 
 _De interface van de geavanceerde expressie-editor_
 
@@ -44,7 +44,7 @@ U kunt de geavanceerde expressie-editor op verschillende manieren openen:
 
 * Wanneer u een databronvoorwaarde maakt, kunt u de geavanceerde editor openen door te klikken op **[!UICONTROL Advanced mode]**.
 
-   ![](../assets/journeyuc2_33.png)
+   ![](../../assets/journeyuc2_33.png)
 
 * Wanneer u een aangepaste timer maakt, wordt de geavanceerde editor direct weergegeven.
 * Wanneer u een actieparameter toewijst, klikt u op **[!UICONTROL Advanced mode]**.
@@ -53,7 +53,7 @@ U kunt de geavanceerde expressie-editor op verschillende manieren openen:
 
 In dit scherm kunt u uw expressie handmatig schrijven.
 
-![](../assets/journey70.png)
+![](../../assets/journey70.png)
 
 Links in het scherm worden de beschikbare velden en functies weergegeven:
 
@@ -63,20 +63,20 @@ Links in het scherm worden de beschikbare velden en functies weergegeven:
 * **[!UICONTROL Journey properties]**: in dit deel worden de technische gebieden die verband houden met de reis voor een bepaald profiel gegroepeerd . [Meer informatie](journey-properties.md)
 * **[!UICONTROL Functions]**: kies uit de lijst met ingebouwde functies die complexe filtering mogelijk maken. Functies zijn ingedeeld in categorieën. [Meer informatie](functions.md)
 
-![](../assets/journey65.png)
+![](../../assets/journey65.png)
 
 Een mechanisme voor automatisch aanvullen geeft contextafhankelijke suggesties weer.
 
-![](../assets/journey68.png)
+![](../../assets/journey68.png)
 
 Een mechanisme voor de syntaxisvalidatie controleert de integriteit van uw code. Fouten worden over de editor heen weergegeven.
 
-![](../assets/journey69.png)
+![](../../assets/journey69.png)
 
 **Parameters vereist tijdens het samenstellen van voorwaarden met de geavanceerde expressie-editor**
 
 Als u een veld selecteert uit een externe gegevensbron waarvoor een parameter moet worden aangeroepen (zie [deze pagina](../../datasource/external-data-sources.md). In een databron met betrekking tot weersomstandigheden is ‘city’ bijvoorbeeld een veelgebruikte parameter. Dit betekent dat u moet selecteren waar u deze parameter ‘city’ wilt ophalen. Functies kunnen ook op parameters worden toegepast om opmaakwijzigingen of samenvoegingen uit te voeren.
 
-![](../assets/journeyuc2_19.png)
+![](../../assets/journeyuc2_19.png)
 
 Als u bij complexere gebruiksscenario’s de parameters van de databron wilt opnemen in de hoofdexpressie, kunt u de waarden ervan definiëren met het trefwoord ‘params’. Zie [deze pagina](../expression/field-references.md).

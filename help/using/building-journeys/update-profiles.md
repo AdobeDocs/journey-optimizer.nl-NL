@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,6 @@ De **[!UICONTROL Update Profile]** Met actieactiviteit kunt u een bestaand Adobe
 * U kunt de **Profiel bijwerken** actie om ervaringsgebeurtenissen te genereren, bijvoorbeeld een aankoop.
 * Net als bij andere acties kunt u een alternatief pad definiëren in het geval van een fout of time-out. U kunt geen twee acties parallel plaatsen.
 * Het updateverzoek dat naar het Platform wordt verzonden, wordt snel verzonden, maar niet onmiddellijk/binnen een seconde. Het duurt normaal een paar seconden, maar soms nog meer zonder garantie. Als een handeling bijvoorbeeld &#39;field 1&#39; gebruikt die is bijgewerkt met een handeling Profiel bijwerken die eerder is geplaatst, mag u niet verwachten dat &#39;field 1&#39; wordt bijgewerkt in de handeling.
-* De **Profiel bijwerken** activiteit steunt geen gebieden XDM die als opsomming worden bepaald.
 
 ## De testmodus gebruiken {#using-the-test-mode}
 
@@ -40,13 +39,13 @@ Raadpleeg voor meer informatie over de manier waarop u een bestaand profiel in e
 
 1. In de **Handeling** van het palet, zet de **Profiel bijwerken** op het canvas.
 
-   ![](assets/profileupdate0.png)
+   ![](../assets/profileupdate0.png)
 
 1. Selecteer een schema in de lijst.
 
 1. Klikken op **Veld** om het veld te selecteren dat u wilt bijwerken. Er kan slechts één veld worden geselecteerd.
 
-   ![](assets/profileupdate2.png)
+   ![](../assets/profileupdate2.png)
 
 1. Selecteer een gegevensset in de lijst.
 
@@ -58,12 +57,12 @@ Raadpleeg voor meer informatie over de manier waarop u een bestaand profiel in e
 
    * Met de eenvoudige expressieeditor kunt u een veld uit een gegevensbron of uit de binnenkomende gebeurtenis selecteren.
 
-      ![](assets/profileupdate4.png)
+      ![](../assets/profileupdate4.png)
 
    * Als u een specifieke waarde wilt definiëren of geavanceerde functies wilt gebruiken, klikt u op **Geavanceerde modus**.
 
-      ![](assets/profileupdate3.png)
+      ![](../assets/profileupdate3.png)
 
 De **Profiel bijwerken** is nu geconfigureerd.
 
-![](assets/profileupdate1.png)
+![](../assets/profileupdate1.png)

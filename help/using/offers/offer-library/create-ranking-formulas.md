@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 14ab70aa32f4f7978b8c72b3981d3b55f56fd08b
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 1%
@@ -29,23 +29,23 @@ Voer de volgende stappen uit om een rangschikkingsformule te maken:
 
 1. Toegang krijgen tot **[!UICONTROL Components]** en selecteert u vervolgens de **[!UICONTROL Rankings]** tab. De eerder gemaakte lijst met waarderingen wordt weergegeven.
 
-   ![](../assets/rankings-list.png)
+   ![](../../assets/rankings-list.png)
 
 1. Klikken **[!UICONTROL Create ranking]** om een nieuwe rangschikkingsformule te creëren.
 
-   ![](../assets/ranking-create-formula.png)
+   ![](../../assets/ranking-create-formula.png)
 
 1. Geef de naam, beschrijving en formule van de waarderingsformule op.
 
    In dit voorbeeld willen we de prioriteit van alle aanbiedingen verhogen met het kenmerk &quot;hot&quot; als het werkelijke weer heet is. Om dit te doen, **contextData.weather=hot** werd overgegaan in de beslissingsvraag.
 
-   ![](../assets/ranking-syntax.png)
+   ![](../../assets/ranking-syntax.png)
 
 1. Klik op **[!UICONTROL Save]**. Uw rangschikkingsformule wordt gecreeerd, kunt u het van de lijst selecteren om details te krijgen en het uit te geven of te schrappen.
 
    Het is nu klaar om te worden gebruikt in een besluit om in aanmerking komende aanbiedingen voor plaatsing in aanmerking te nemen (zie [Aanbiedingen selecteren in beslissingen configureren](../offer-activities/configure-offer-selection.md)).
 
-   ![](../assets/ranking-formula-created.png)
+   ![](../../assets/ranking-formula-created.png)
 
 ## Voorbeelden van willekeurige formules {#ranking-formula-examples}
 
@@ -155,7 +155,7 @@ if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesv
 
 Een betere oplossing is om de scores op te slaan in een array van het profiel. In het volgende voorbeeld worden verschillende populatiescore&#39;s gebruikt met behulp van een eenvoudige rangschikkingsformule. De verwachting is dat u een profielschema met een serie van scores hebt. In dit voorbeeld is de instantiekant *_verkoopsnelheid* en het profielschema bevat het volgende:
 
-![](../assets/ranking-example-schema.png)
+![](../../assets/ranking-example-schema.png)
 
 In dit geval geldt voor een profiel als:
 
@@ -179,7 +179,7 @@ In dit geval geldt voor een profiel als:
 
 De aanbiedingen bevatten een kenmerk voor *propensityType* die overeenkomt met de categorie uit de scores:
 
-![](../assets/ranking-example-propensityType.png)
+![](../../assets/ranking-example-propensityType.png)
 
 Uw rangschikkingsformule kan dan de prioriteit van elk aanbod aan gelijke klanten plaatsen *propensityScore* voor *propensityType*. Als geen score wordt gevonden, gebruik de statische prioriteit op de aanbieding wordt geplaatst:
 

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 7c9f04b8d3faa171444bfa0adc537b5faabde37e
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 5%
@@ -36,15 +36,15 @@ Volg de onderstaande stappen om een nieuw subdomein volledig te delegeren aan Ad
 
 1. Toegang krijgen tot **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** en klik vervolgens op **[!UICONTROL Set up subdomain]**.
 
-   ![](assets/subdomain-delegate.png)
+   ![](../assets/subdomain-delegate.png)
 
 1. Selecteren **[!UICONTROL Fully delegated]** van de **[!UICONTROL Set up method]** sectie.
 
-   ![](assets/subdomain-method-full.png)
+   ![](../assets/subdomain-method-full.png)
 
 1. Geef de naam op van het subdomein dat u wilt delegeren.
 
-   ![](assets/subdomain-name.png)
+   ![](../assets/subdomain-name.png)
 
    >[!CAUTION]
    >
@@ -56,7 +56,7 @@ Volg de onderstaande stappen om een nieuw subdomein volledig te delegeren aan Ad
 
 1. Zorg ervoor dat alle DNS verslagen in uw domein het ontvangen oplossing zijn geproduceerd. Als alles behoorlijk wordt gevormd, controleer de doos &quot;ik bevestig...&quot;, dan klik **[!UICONTROL Submit]**.
 
-   ![](assets/subdomain-submit.png)
+   ![](../assets/subdomain-submit.png)
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ Volg de onderstaande stappen om een nieuw subdomein volledig te delegeren aan Ad
 
 1. Nadat de volledige subdomeindelegatie is verzonden, wordt het subdomein weergegeven in de lijst met de **[!UICONTROL Processing]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](access-subdomains.md).
 
-   ![](assets/subdomain-processing.png)
+   ![](../assets/subdomain-processing.png)
 
    Voordat u dat subdomein kunt gebruiken om berichten te verzenden, moet u wachten tot Adobe de vereiste controles uitvoert. Dit kan maximaal 3 uur in beslag nemen. Meer informatie in [deze sectie](#subdomain-validation).
 
@@ -96,13 +96,13 @@ De subdomeindelegatie van CNAME laat u toe om subdomain tot stand te brengen en 
 >
 >Deze methode wordt aanbevolen als het beleid van uw organisatie de methode voor volledige subdomeindelegatie beperkt. Deze benadering vereist u om DNS verslagen op uw te handhaven en te beheren. Adobe zal niet in het veranderen van, het handhaven van of het beheren van DNS voor subdomain kunnen bijwonen die door de methode CNAME wordt gevormd.
 
-Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volgende stappen uit:
+Als u een subdomein wilt delegeren met gebruik van CNAME, volgt u de onderstaande stappen:
 
 1. Toegang krijgen tot **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** en klik vervolgens op **[!UICONTROL Set up subdomain]**.
 
 1. Selecteer **[!UICONTROL CNAME set up]** methode.
 
-   ![](assets/subdomain-method-cname.png)
+   ![](../assets/subdomain-method-cname.png)
 
 1. Geef de naam op van het subdomein dat u wilt delegeren.
 
@@ -116,7 +116,7 @@ Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volge
 
 1. Zorg ervoor dat alle DNS verslagen in uw domein het ontvangen oplossing zijn geproduceerd. Als alles behoorlijk wordt gevormd, controleer de doos &quot;ik bevestig...&quot;.
 
-   ![](assets/subdomain-create-dns-confirm.png)
+   ![](../assets/subdomain-create-dns-confirm.png)
 
    >[!NOTE]
    >
@@ -130,7 +130,7 @@ Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volge
 
 1. Adobe genereert een SSL CDN URL-validatierecord. Kopieer deze validatierecord naar het hostplatform. Als u deze record op de hostingoplossing juist hebt gemaakt, schakelt u het selectievakje &quot;I confirm...&quot; in en klikt u op **[!UICONTROL Submit]**.
 
-   ![](assets/subdomain-cdn-url-validation.png)
+   ![](../assets/subdomain-cdn-url-validation.png)
 
    >[!NOTE]
    >

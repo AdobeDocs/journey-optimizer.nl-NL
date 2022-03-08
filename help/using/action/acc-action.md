@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 51c63b196b11905289c3c0c450c1976eb551bbc8
+source-git-commit: 68407db81224e9c2b6930c800e57b65e081781fe
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de
 
 ## Belangrijke opmerkingen {#important-notes}
 
-* Er is geen vertraging van berichten. Het systeem kapt het aantal berichten die over aan 4000 per 5 minuten kunnen worden verzonden, die op huidige Campagne SLA worden gebaseerd. Daarom mag Journey Optimizer alleen worden gebruikt in gevallen van eenmalig gebruik (individuele gebeurtenissen, niet segmenten).
+* Er is geen vertraging van berichten. Wij begrenzen het aantal berichten die over aan 50.000/uur kunnen worden verzonden die op onze huidige Campagne SLA wordt gebaseerd. Daarom mag Journey Optimizer alleen worden gebruikt in gevallen van eenmalig gebruik (individuele gebeurtenissen, niet segmenten).
 
 * U moet één actie op het canvas per malplaatje vormen u wenst te gebruiken. U moet één actie in Journey Optimizer voor elke malplaatje vormen u om van Adobe Campaign wenst te gebruiken.
 
@@ -69,4 +69,4 @@ In Journey Optimizer moet u één actie per transactiemelding configureren. Voer
 1. Pas de verschillende velden aan op statisch of variabel, afhankelijk van de vraag of u ze wilt toewijzen op het canvas Reis. Bepaalde gebieden, zoals kanaalparameters voor e-mailadres en verpersoonlijkingsgebieden (ctx), wilt u waarschijnlijk bepaald als variabelen voor afbeelding in de context van de reis.
 1. Klikken **Opslaan**.
 
-![](assets/accintegration1.png)
+![](../assets/accintegration1.png)

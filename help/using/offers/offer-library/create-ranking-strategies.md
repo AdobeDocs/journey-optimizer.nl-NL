@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: bf9b555d717fe8b6d1e9500ba0a97eaea243dd7f
+source-git-commit: dcadbbcf8b2cd8422a189b8d02f222f32dd12c54
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 4%
@@ -22,7 +22,7 @@ Volg onderstaande stappen om een classificatiestrategie te maken:
 
 1. Toegang krijgen tot **[!UICONTROL Components]** en selecteert u vervolgens de **[!UICONTROL AI rankings]** tab.
 
-   ![](../assets/ai-ranking-list.png)
+   ![](../../assets/ai-ranking-list.png)
 
    Alle classificatiestrategieën die tot nu toe zijn ontwikkeld, worden opgesomd.
 
@@ -30,7 +30,7 @@ Volg onderstaande stappen om een classificatiestrategie te maken:
 
 1. Vul de volgende velden in:
 
-   ![](../assets/ai-ranking-fields.png)
+   ![](../../assets/ai-ranking-fields.png)
 
    * **[!UICONTROL Name]**: De unieke naam die u moet opgeven.
 
@@ -52,7 +52,7 @@ Volg onderstaande stappen om een classificatiestrategie te maken:
 
    * **[!UICONTROL Dataset ID]**: Voor omzetting, moet u een dataset verstrekken waar de gebeurtenissen worden verzameld door het van de drop-down lijst te selecteren. Leer hoe u een dergelijke gegevensset maakt in [deze sectie](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
-   ![](../assets/ai-ranking-dataset-id.png)
+   ![](../../assets/ai-ranking-dataset-id.png)
 
    >[!CAUTION]
    >
@@ -60,7 +60,7 @@ Volg onderstaande stappen om een classificatiestrategie te maken:
 
 1. Sla de waarderingsstrategie op en activeer deze.
 
-   ![](../assets/ai-ranking-save-activate.png)
+   ![](../../assets/ai-ranking-save-activate.png)
 
 Het is nu klaar om te worden gebruikt in een besluit om in aanmerking komende aanbiedingen voor plaatsing in aanmerking te nemen. Meer informatie in [deze sectie](../offer-activities/configure-offer-selection.md#use-ranking-strategy).<!--TBC?-->
 
@@ -70,11 +70,11 @@ U moet een dataset tot stand brengen waar de omzettingsgebeurtenissen zullen wor
 
 1. Van de **[!UICONTROL Data Management]** menu, selecteert u **[!UICONTROL Schema]**, ga naar de **[!UICONTROL Browse]** en klik op **[!UICONTROL Create schema]**.
 
-   ![](../assets/ai-ranking-create-schema.png)
+   ![](../../assets/ai-ranking-create-schema.png)
 
 1. Kies **[!UICONTROL XDM ExperienceEvent]**.
 
-   ![](../assets/ai-ranking-xdm-event.png)
+   ![](../../assets/ai-ranking-xdm-event.png)
 
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ U moet een dataset tot stand brengen waar de omzettingsgebeurtenissen zullen wor
 
 1. In de **[!UICONTROL Search]** veld, typt u &quot;propositieinteractie&quot; en selecteert u de **[!UICONTROL Experience Event - Proposition Interactions]** veldgroep.
 
-   ![](../assets/ai-ranking-proposition-interactions.png)
+   ![](../../assets/ai-ranking-proposition-interactions.png)
 
    >[!CAUTION]
    >
@@ -91,7 +91,7 @@ U moet een dataset tot stand brengen waar de omzettingsgebeurtenissen zullen wor
 
 1. Klik op **[!UICONTROL Add field groups]**.
 
-   ![](../assets/ai-ranking-add-field-group.png)
+   ![](../../assets/ai-ranking-add-field-group.png)
 
    >[!NOTE]
    >Veldgroep werd voorheen mixin genoemd.
@@ -106,21 +106,21 @@ U bent nu bereid om een dataset tot stand te brengen gebruikend dit schema. Volg
 
 1. Van de **[!UICONTROL Data Management]** menu, selecteert u **[!UICONTROL Datasets]**, ga naar de **[!UICONTROL Browse]** en klik op **[!UICONTROL Create dataset]**.
 
-   ![](../assets/ai-ranking-create-dataset.png)
+   ![](../../assets/ai-ranking-create-dataset.png)
 
 1. Selecteer **[!UICONTROL Create dataset from schema]**.
 
-   ![](../assets/ai-ranking-create-dataset-from-schema.png)
+   ![](../../assets/ai-ranking-create-dataset-from-schema.png)
 
 1. Selecteer het schema dat u zojuist hebt gemaakt in de lijst.
 
-   ![](../assets/ai-ranking-dataset-select-schema.png)
+   ![](../../assets/ai-ranking-dataset-select-schema.png)
 
 1. Klik op **[!UICONTROL Next]**.
 
 1. Geef een unieke naam op voor de gegevensset in het dialoogvenster **[!UICONTROL Name]** veld en klik op **[!UICONTROL Finish]**.
 
-   ![](../assets/ai-ranking-dataset-name.png)
+   ![](../../assets/ai-ranking-dataset-name.png)
 
 De dataset is nu klaar om te worden geselecteerd om gebeurtenisgegevens te verzamelen wanneer [het opstellen van een rangschikkingsstrategie](#create-ranking-strategy).
 

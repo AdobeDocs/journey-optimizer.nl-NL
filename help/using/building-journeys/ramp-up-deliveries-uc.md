@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 3%
@@ -31,13 +31,13 @@ Het doel van deze gebruikszaak is een reis te maken om uw e-mailleveringen op te
 
    1. Stel de **[!UICONTROL Limit]** tot het maximumaantal ontvangers voor deze levering.
 
-   ![](assets/profile-cap-condition.png)
+   ![](../assets/profile-cap-condition.png)
 
    U kunt deze limiet geleidelijk verhogen tot het totale aantal abonnees.
 
 1. Voeg een **[!UICONTROL Message]** activiteit aan de nominale weg na **[!UICONTROL Condition]** activiteit.
 
-   ![](assets/ramp-up-deliveries-message.png)
+   ![](../assets/ramp-up-deliveries-message.png)
 
    Wanneer de reis loopt, wordt het bericht verzonden de het ingaan profielen, tot het maximumaantal profielen dat u hebt gespecificeerd. Wanneer deze limiet is bereikt, nemen de ingevoerde profielen het alternatieve pad aan.
 

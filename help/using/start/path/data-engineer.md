@@ -3,7 +3,7 @@ title: Journey Optimizer Get Started for Data Engineer
 description: Als gegevensengineer leert u meer hoe u met Journey Optimizer kunt werken
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: a20bf3aa869ce73805c63323ac36e5d86a44746e
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 2%
@@ -38,7 +38,7 @@ De stappen om een identiteitsnamespace en een dataset tot stand te brengen die v
 
 Bovendien moet u, om berichten in reizen te kunnen verzenden, vormen **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]**. Meer informatie [in deze sectie](../../configuration/about-data-sources-events-actions.md).
 
-![](../assets/admin-menu.png)
+![](../../assets/admin-menu.png)
 
 * De **Gegevensbron** De configuratie staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw reizen zal worden gebruikt. Meer informatie over gegevensbronnen [in deze sectie](../../datasource/about-data-sources.md).
 

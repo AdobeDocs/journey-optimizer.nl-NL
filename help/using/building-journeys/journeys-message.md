@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 3%
@@ -23,27 +23,27 @@ Als u een systeem van derden gebruikt om uw berichten te verzenden, kunt u een d
 
 1. Zoals altijd begint uw reis met een gebeurtenis of een **Segment lezen** activiteit.
 
-   ![](assets/jo-message0.png)
+   ![](../assets/jo-message0.png)
 
 1. Van de **Handelingen** van het palet, slepen en neerzetten **Bericht** op het canvas.
 
-   ![](assets/jo-message1.png)
+   ![](../assets/jo-message1.png)
 
 1. Voeg een label en beschrijving toe.
 
-   ![](assets/jo-message2.png)
+   ![](../assets/jo-message2.png)
 
 1. Klik in het dialoogvenster **Bericht** veld. De lijst met beschikbare berichten die in Journey Optimizer zijn ontworpen, wordt weergegeven. U kunt de lijst filteren op status.
 
-   ![](assets/jo-message3.png)
+   ![](../assets/jo-message3.png)
 
 1. Kies een bericht en klik op **Selecteren**. U kunt ook rechtstreeks vanuit dit scherm een nieuw bericht maken door op **Bericht maken**.
 
-   ![](assets/jo-message4-ter.png)
+   ![](../assets/jo-message4-ter.png)
 
    Als u uw bericht wilt controleren, kunt u klikken **Het bericht openen** in het deelvenster **Bericht** veld. Het bericht wordt geopend op een nieuw tabblad.
 
-   ![](assets/jo-message4-bis.png)
+   ![](../assets/jo-message4-bis.png)
 
 1. Voeg de volgende stappen aan uw reis toe.
 
@@ -51,7 +51,7 @@ Als u een systeem van derden gebruikt om uw berichten te verzenden, kunt u een d
 
 De **[!UICONTROL Email parameters]** en **[!UICONTROL Push parameters]** worden alleen-lezen velden weergegeven. U voert typisch deze configuratie uit wanneer het creëren van het bericht. Zie [deze sectie](../messages/get-started-content.md).
 
-![](assets/jo-message4.png)
+![](../assets/jo-message4.png)
 
 Als u een bepaalde waarde wilt afdwingen, kunt u de opdracht **Parameteroverschrijving inschakelen** rechts van het veld. Deze optie kan nuttig zijn voor verschillende doeleinden:
 
@@ -105,7 +105,7 @@ Deze informatie wordt opgeslagen met het profiel van de gebruiker en wordt bij d
 
 Schakel SendTime Optimization in op een e-mail- of pushbericht door de optie **Send-Time optimalisatie** schakelaar van de parameters van de activiteit van het Bericht.
 
-![](assets/jo-message5.png)
+![](../assets/jo-message5.png)
 
 Kies bij e-mailberichten of u wilt optimaliseren bij het openen van een e-mail of door op het juiste keuzerondje te klikken. Pushberichten worden standaard ingesteld op de optie Openen, omdat klikken niet van toepassing zijn op pushberichten.
 

@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: dee8dbac067dac851af02d87a3dece1ba2b29376
+source-git-commit: 51254efaab08a572def118d475dc18f74c9d29b7
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Voor dit type gebeurtenis kunt u alleen een label en een beschrijving toevoegen. De rest van de configuratie kan niet worden bewerkt. Het werd uitgevoerd door de technische gebruiker. Zie [deze pagina](../event/about-events.md).
 
-![](assets/general-events.png)
+![](../assets/general-events.png)
 
 Wanneer u een bedrijfsgebeurtenis neerzet, wordt automatisch een **Segment lezen** activiteit. Voor meer informatie over bedrijfsgebeurtenissen, verwijs naar [deze sectie](../event/about-events.md)
 
@@ -36,7 +36,7 @@ Voer de volgende stappen uit om een time-out voor een gebeurtenis te configurere
 
 1. Als u de personen naar een time-outpad wilt sturen wanneer er geen gebeurtenis is ontvangen binnen de opgegeven time-out, schakelt u de optie **[!UICONTROL Set a timeout path]** optie. Als deze optie niet wordt ingeschakeld, eindigt de reis voor het individu zodra de time-out is bereikt.
 
-   ![](assets/event-timeout.png)
+   ![](../assets/event-timeout.png)
 
 In dit voorbeeld, verzendt de reis een eerste welkome duw naar een klant. Het verzendt dan een duw van de maaltijdkorting slechts als de klant het restaurant binnen de volgende dag ingaat. Daarom hebben we de restaurant-gebeurtenis geconfigureerd met een time-out van 1 dag:
 
@@ -47,4 +47,4 @@ Merk op dat als u een onderbreking op veelvoudige gebeurtenissen wilt vormen die
 
 De time-out wordt toegepast op alle gebeurtenissen na de gebeurtenis **[!UICONTROL Wait]** activiteit. Als er geen gebeurtenis is ontvangen vóór de opgegeven time-out, gaan de personen naar één enkel time-outpad of beëindigen ze hun reis.
 
-![](assets/event-timeout-group.png)
+![](../assets/event-timeout-group.png)
