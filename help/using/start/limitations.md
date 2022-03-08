@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 3c8c059e5e3953807b9fc2d8d0eded0d00e49003
+source-git-commit: 32113acec8df619efc024e555766cbf532720529
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,14 @@ Hieronder vindt u aanvullende beperkingen wanneer u [!DNL Adobe Journey Optimize
 * U kunt geen bijlagen aan een e-mailbericht toevoegen met [!DNL Journey Optimizer].
 * BCC van e-mail wordt niet ondersteund in [!DNL Journey Optimizer].
 * U kunt niet hetzelfde verzendende domein gebruiken om berichten te verzenden van [!DNL Adobe Journey Optimizer] en van een ander product, zoals [!DNL Adobe Campaign] of [!DNL Adobe Marketo Engage] bijvoorbeeld.
+
+## Beperkingen op bestemmingspagina&#39;s {#limitations-lp}
+
+* Slechts één **Formulier** kan in één primaire pagina worden gebruikt.
+* De **Formulier** kan niet worden gebruikt in subpagina&#39;s.
+* U kunt geen preheader toevoegen aan een openingspagina.
+
+<!--You cannot select the **Code your own** option when designing a primary landing page.-->
 
 ## Beperkingen op reizen {#limitations-journeys}
 
