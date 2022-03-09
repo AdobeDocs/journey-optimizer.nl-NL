@@ -5,12 +5,10 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-hidefromtoc: true
-hide: true
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '900'
 ht-degree: 1%
 
 ---
@@ -18,11 +16,6 @@ ht-degree: 1%
 # Gebruiksgevallen van landingspagina {#lp-use-cases}
 
 Hieronder ziet u enkele voorbeelden van het gebruik van [!DNL Journey Optimizer] het landen van pagina&#39;s om uw klanten te hebben binnen of uit van het ontvangen van wat of elk van uw mededelingen kiezen.
-
-<!--The main use cases are:
-* Subscription to a service
-* Opt-in
-* Opt-out-->
 
 ## Abonnement op een service {#subscription-to-a-service}
 
@@ -32,13 +25,15 @@ Een van de meest gebruikelijke gebruiksgevallen is het uitnodigen van uw klanten
 
 Stel bijvoorbeeld dat u volgende maand een gebeurtenis organiseert en een registratiecampagne voor een gebeurtenis wilt starten<!--to keep your customers that are interested updated on that event-->. Hiervoor stuurt u een e-mail met een koppeling naar een bestemmingspagina waarmee uw ontvangers zich kunnen registreren voor deze gebeurtenis. De gebruikers die zich registreren, worden toegevoegd aan de abonnementenlijst die u voor dit doel hebt gemaakt.
 
-### Startpagina instellen {#set-up-lp}
+### Een openingspagina instellen {#set-up-lp}
 
 1. Maak de abonnementenlijst van de gebeurtenisregistratie, waarin de geregistreerde gebruikers worden opgeslagen. Leer hoe u een abonnementenlijst maakt [hier](subscription-list.md#define-subscription-list).
 
    ![](assets/lp_subscription-uc-list.png)
 
 1. [Een openingspagina maken](create-lp.md) om uw ontvangers in staat te stellen zich voor uw gebeurtenis te registreren.
+
+   ![](assets/lp_create-lp-details.png)
 
 1. De registratie configureren [primaire landingspagina](create-lp.md#configure-primary-page).
 
@@ -57,6 +52,10 @@ Stel bijvoorbeeld dat u volgende maand een gebeurtenis organiseert en een regist
 1. [Een koppeling invoegen](../messages/message-tracking.md#insert-links) in uw berichtinhoud. Selecteren **[!UICONTROL Landing page]** als de **[!UICONTROL Link type]** en kiest u [landingspagina](create-lp.md#configure-primary-page) die u voor registratie hebt gemaakt.
 
    ![](assets/lp_subscription-uc-link.png)
+
+   >[!NOTE]
+   >
+   >Als u uw bericht wilt publiceren, moet u ervoor zorgen dat de bestemmingspagina die u selecteert, nog niet is verlopen. Leer hoe u de vervaldatum kunt bijwerken [in deze sectie](create-lp.md#configure-primary-page).
 
 1. Sla uw inhoud op en [uw bericht publiceren](../messages/publish-manage-message.md).
 
@@ -115,7 +114,7 @@ Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zi
 
    ![](assets/lp_opt-out-primary-lp.png)
 
-   <!--You can also build your own landing page and host it on the third-party system of your choice. To keep?-->
+   <!--You can also build your own landing page and host it on the third-party system of your choice.-->
 
 1. Een bevestiging toevoegen [subpagina](create-lp.md#configure-subpages) die wordt weergegeven aan de gebruikers die het formulier verzenden.
 
@@ -138,6 +137,10 @@ Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zi
 1. Selecteren **[!UICONTROL Landing page]** van de **[!UICONTROL Link type]** vervolgkeuzelijst en selecteert u de [landingspagina](create-lp.md#configure-primary-page) die u hebt gemaakt voor het uitschakelen.
 
    ![](assets/lp_opt-out-landing-page.png)
+
+   >[!NOTE]
+   >
+   >Als u uw bericht wilt publiceren, moet u ervoor zorgen dat de bestemmingspagina die u selecteert, nog niet is verlopen. Leer hoe u de vervaldatum kunt bijwerken [in deze sectie](create-lp.md#configure-primary-page).
 
 1. Sla uw inhoud op en [uw bericht publiceren](../messages/publish-manage-message.md).
 
