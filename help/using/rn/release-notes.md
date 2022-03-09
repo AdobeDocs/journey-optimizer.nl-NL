@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: ca9cb62770c1c50b2683486de48435d5b47b8729
 workflow-type: tm+mt
-source-wordcount: '2643'
+source-wordcount: '2697'
 ht-degree: 9%
 
 ---
@@ -19,21 +19,21 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 ### Nieuwe functies
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Subscription Landing Pages</strong><br/></th>
+<th><strong>Landingspagina's abonnement</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now create and design landing pages in Journey Optimizer, and direct your users to online forms where they can opt-in or opt-out from receiving your communications, or subscribe to a specific service such as a newsletter.</p>
-<p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-cases.md">sample use case</a>.</p>
+<p>U kunt nu bestemmingspagina's in Journey Optimizer maken en ontwerpen en uw gebruikers naar onlineformulieren sturen waar zij zich kunnen aanmelden of weigeren uw communicatie te ontvangen, of u kunt zich abonneren op een specifieke service zoals een nieuwsbrief.</p>
+<p>Raadpleeg voor meer informatie de <a href="../landing-pages/create-lp.md">gedetailleerde documentatie</a> en aanverwante <a href="../landing-pages/lp-use-cases.md">voorbeeldgebruik</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <table>
 <thead>
@@ -162,7 +162,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **Personalisatie**
 
-* **Toevoegen aan Favorieten** - Om de efficiëntie van het werken met personalisatie te verbeteren, hebben we het concept van het sparen van favorieten geïntroduceerd. Door verschillende kenmerken toe te voegen aan het menu Favorieten hebt u snel toegang tot de meest gebruikte items. [Meer informatie](../personalization/personalize.md#fav)
+* **Toevoegen aan Favorieten** - Om de efficiëntie van het werken met personalisatie te verbeteren, hebben we het concept &#39;sparen-favorieten&#39; geïntroduceerd. Door verschillende kenmerken toe te voegen aan het menu Favorieten hebt u snel toegang tot de meest gebruikte items. [Meer informatie](../personalization/personalize.md#fav)
 
 ## Release november 2021 {#november-2021-release}
 
