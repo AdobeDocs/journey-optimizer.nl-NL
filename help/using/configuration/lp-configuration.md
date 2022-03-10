@@ -3,9 +3,10 @@ title: Configuratie bestemmingspagina
 description: Leer hoe u uw omgeving configureert voor het maken en gebruiken van bestemmingspagina's met Journey Optimizer
 role: Admin
 level: Intermediate
-source-git-commit: 5e7db083affb7abcc33a76fa6fa7887f8fe73b06
+exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
+source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '804'
 ht-degree: 1%
 
 ---
@@ -91,9 +92,9 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
    Subdomeinen op meerdere niveaus, zoals &#39;email.marketing.yourcompany.com&#39;, worden momenteel niet ondersteund.
 
-1. Het verslag dat in uw DNS serververtoningen moet worden geplaatst. Kopieer deze record of download een CSV-bestand en navigeer naar de hostingoplossing voor het domein om de overeenkomende DNS-record te genereren.
+1. Het verslag dat in uw DNS serververtoningen moet worden geplaatst. Kopieer deze record of download een CSV-bestand en navigeer vervolgens naar de oplossing voor domeinhosting om de overeenkomende DNS-record te genereren.
 
-1. Zorg ervoor dat DNS het verslag in uw domein het ontvangen oplossing is geproduceerd. Als alles behoorlijk wordt gevormd, controleer de doos &quot;ik bevestig...&quot;, dan klik **[!UICONTROL Submit]**.
+1. Zorg ervoor dat DNS het verslag in uw domein-ontvangende oplossing is geproduceerd. Als alles behoorlijk wordt gevormd, controleer de doos &quot;ik bevestig...&quot;, dan klik **[!UICONTROL Submit]**.
 
    ![](assets/lp_add-your-own-subdomain-confirm.png)
 

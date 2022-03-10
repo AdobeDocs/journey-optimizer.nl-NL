@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 80de53e62da5fc3b0543ee09327e11edd277b234
+source-git-commit: d2ae8f7a2a44ac92d26520e5c85a19a2660ed8e2
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,7 @@ Hieronder vindt u aanvullende beperkingen wanneer u [!DNL Adobe Journey Optimize
 * Slechts één **Formulier** kan in één primaire pagina worden gebruikt.
 * De **Formulier** kan niet worden gebruikt in subpagina&#39;s.
 * U kunt geen preheader toevoegen aan een openingspagina.
-
-<!--You cannot select the **Code your own** option when designing a landing primary page.-->
+* U kunt de **Uw eigen code schrijven** bij het ontwerpen van een primaire landingspagina.
 
 ## Beperkingen op reizen {#limitations-journeys}
 
@@ -68,7 +67,7 @@ Hieronder vindt u aanvullende beperkingen wanneer u [!DNL Adobe Journey Optimize
 
 ### Gegevensbronnen {#data-sources}
 
-* De externe gegevensbronnen kunnen binnen een klantenreis worden gebruikt om externe gegevens in real time op te zoeken. Deze bronnen moeten bruikbaar zijn via REST API, JSON ondersteunen en het volume van aanvragen kunnen verwerken.
+* De externe gegevensbronnen kunnen binnen een klantenreis worden gebruikt om externe gegevens in echt op te zoeken - tijd. Deze bronnen moeten bruikbaar zijn via REST API, JSON ondersteunen en het volume van aanvragen kunnen verwerken.
 
 ### Reizen die tegelijkertijd met het maken van een profiel beginnen {#journeys-limitation-profile-creation}
 
@@ -80,7 +79,7 @@ U kunt uit één van deze twee oplossingen kiezen:
 
 * Voeg een wachttijdactiviteit toe na de eerste gebeurtenis om Adobe Experience Platform de tijd te geven die nodig is om de opname naar de profielservice uit te voeren.
 
-* Stel een reis in die niet onmiddellijk gebruikmaakt van het profiel. Als de reis bijvoorbeeld is ontworpen om het maken van een account te bevestigen, kan de ervaringsgebeurtenis informatie bevatten die nodig is om het eerste bevestigingsbericht te verzenden (voornaam, achternaam, e-mailadres, enz.).
+* Stel een reis in die niet onmiddellijk gebruikmaakt van het profiel. Als de reis bijvoorbeeld is ontworpen om het aanmaken van een account te bevestigen, kan de ervaringsgebeurtenis informatie bevatten die nodig is om het eerste bevestigingsbericht te verzenden (voornaam, achternaam, e-mailadres, enz.).
 
 ### Segment lezen {#read-segment}
 
