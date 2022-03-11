@@ -15,16 +15,16 @@ ht-degree: 0%
 
 # Kenmerken toevoegen aan Favorieten {#fav}
 
-Door verschillende kenmerken toe te voegen aan het menu Favorieten hebt u snel toegang tot de meest gebruikte items. To add an attribute to your favorites click the ellipse menu and choose **[!UICONTROL Add to favorites]**.
+Door verschillende kenmerken toe te voegen aan het menu Favorieten hebt u snel toegang tot de meest gebruikte items. Als u een kenmerk aan uw favorieten wilt toevoegen, klikt u op het ovaalmenu en kiest u **[!UICONTROL Add to favorites]**.
 
 ![](assets/favorite-option.png)
 
 Als u toegang wilt tot favoriete objecten, gebruikt u de opdracht **[!UICONTROL Favorites]** in het linkerdeelvenster.
 
-From this list you can quickly add the personalization object to your current expression.
+Vanuit deze lijst kunt u het aanpassingsobject snel toevoegen aan uw huidige expressie.
 
 ![](assets/favorite-list.png)
 
-If you wish to no longer see an item in your favorites list you can remove from favorites.
+Als je een object niet meer wilt zien in je lijst met favorieten, kun je het uit de favorieten verwijderen.
 
 ![](assets/favorite-remove.png)

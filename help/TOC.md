@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a2a94f27ddf36392a8dea31c5c159bf3db041f4d
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 50%
+source-wordcount: '922'
+ht-degree: 49%
 
 ---
 
@@ -48,15 +48,6 @@ ht-degree: 50%
       + [Waarschuwingen controleren](using/messages/alerts.md)
       + [Berichten publiceren](using/messages/publish-manage-message.md)
    + [Toestemming beheren](using/messages/consent.md)
-+ Landingspagina’s {#landing-pages}
-   + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
-   + [Een landingspagina maken](using/landing-pages/create-lp.md)
-   + [Een openingspagina ontwerpen](using/landing-pages/design-lp.md)
-   + [Een abonnementenlijst maken](using/landing-pages/subscription-list.md)
-   + [Gebruiksscenario’s](using/landing-pages/lp-use-cases.md)
-   + Rapportage {#lp-reporting}
-      + [Rapportage landingspagina](using/landing-pages/lp-report.md)
-      + [Melding van abonnementenlijsten](using/landing-pages/subscription-report.md)
 + Personalisatie{#personalization}
    + [Aan de slag met personalisatie](using/personalization/personalize.md)
    + [Persoonlijke context](using/personalization/personalization-contexts.md)
@@ -233,6 +224,15 @@ ht-degree: 50%
       + [Aan de slag met de prestaties](using/messages/deliverability.md)
       + [Onderdrukkingslijst](using/messages/suppression-list.md)
       + [Lijst van gewenste personen](using/messages/allow-list.md)
++ Landingspagina’s {#landing-pages}
+   + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
+   + [Een landingspagina maken](using/landing-pages/create-lp.md)
+   + [Een openingspagina ontwerpen](using/landing-pages/design-lp.md)
+   + [Een abonnementenlijst maken](using/landing-pages/subscription-list.md)
+   + [Gebruiksscenario’s](using/landing-pages/lp-use-cases.md)
+   + Rapportage {#lp-reporting}
+      + [Rapportage landingspagina](using/landing-pages/lp-report.md)
+      + [Melding van abonnementenlijsten](using/landing-pages/subscription-report.md)
 + Beslissingsbeheer {#offer-decisioniong}
    + Aan de slag met het beheer van beslissingen {#get-started-decision}
       + [Over het beheer van besluiten](using/offers/get-started/starting-offer-decisioning.md)
@@ -338,7 +338,6 @@ ht-degree: 50%
          + [Primair e-mailadres wijzigen](using/configuration/primary-email-addresses.md)
       + [Sms-kanaal configureren](using/configuration/sms-configuration.md)
       + [Voorinstellingen voor berichten maken](using/configuration/message-presets.md)
-   + [Landingspagina’s configureren](using/configuration/lp-configuration.md)
    + Reizen configureren {#configure-journeys}
       + [Informatie over gegevensbronnen, gebeurtenissen en handelingen](using/configuration/about-data-sources-events-actions.md)
       + [Integreren met externe systemen](using/configuration/external-systems.md)

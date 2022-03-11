@@ -5,10 +5,12 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
+hidefromtoc: true
+hide: true
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 8f0e85a08a0ab510f02aab3787f30933e430e3e4
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
@@ -114,7 +116,7 @@ Volg onderstaande stappen om specifieke inhoud te definiëren waarmee gebruikers
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. Breid uit **[!UICONTROL Buttons]** om de weergave van de knop in het deelformulier te wijzigen. U kunt bijvoorbeeld een rand toevoegen, de labelkleur bij aanwijzen bewerken of de uitlijning van de knop aanpassen.
+1. Breid uit **[!UICONTROL Buttons]** om de weergave van de knop in het deelformulier te wijzigen. U kunt bijvoorbeeld een rand toevoegen, de labelkleur op de muisaanwijzer bewerken of de uitlijning van de knop aanpassen.
 
    ![](assets/lp_designer-form-style-buttons.png)
 
@@ -126,7 +128,7 @@ Volg onderstaande stappen om specifieke inhoud te definiëren waarmee gebruikers
 
    ![](assets/lp_designer-form-style-layout.png)
 
-1. Breid uit **[!UICONTROL Form error]** om de weergave aan te passen van het foutbericht dat wordt weergegeven wanneer zich een probleem voordoet. Schakel de desbetreffende optie in om een voorbeeld van de fouttekst op het formulier te bekijken.
+1. Breid uit **[!UICONTROL Form error]** om de weergave aan te passen van het foutbericht dat wordt weergegeven wanneer zich een probleem voordoet. Schakel de bijbehorende optie in om een voorbeeld van de fouttekst op het formulier te bekijken.
 
    ![](assets/lp_designer-form-error-preview.png)
 

@@ -15,15 +15,15 @@ ht-degree: 6%
 
 # replaceAll {#replaceAll}
 
-Replaces all occurrences matching the target string by the replacement string in the base string.
+Vervangt alle instanties die overeenkomen met de doeltekenreeks door de vervangende tekenreeks in de basistekenreeks.
 
-The replacement proceeds from the beginning of the string to the end, for example, replacing &quot;aa&quot; with &quot;b&quot; in the string &quot;aaa&quot; will result in &quot;ba&quot; rather than &quot;ab&quot;.
+De vervanging vindt plaats vanaf het begin van de tekenreeks tot het einde. Als u bijvoorbeeld &quot;aa&quot; vervangt door &quot;b&quot; in de tekenreeks &quot;aaa&quot;, resulteert dit in &quot;ba&quot; in plaats van &quot;ab&quot;.
 
 ## Categorie
 
 Tekenreeks
 
-## Function syntax
+## Functiesyntaxis
 
 `replaceAll(<parameters>)`
 
@@ -45,6 +45,6 @@ Retourneert een tekenreeks.
 
 `replaceAll("Hello World", "l", "x")`
 
-Returns &quot;Hexxo Worxd&quot;.
+Retourneert &quot;Hexxo Worxd&quot;.
 
 Omdat de doelparameter een RegExp is, moet u, afhankelijk van de tekenreeks die u wilt vervangen, mogelijk enkele tekens verwijderen. Raadpleeg het voorbeeld in [deze pagina](../functions/functionreplace.md#example_2).

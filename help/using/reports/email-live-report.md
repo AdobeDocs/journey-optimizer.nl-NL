@@ -1,5 +1,5 @@
 ---
-title: Email live report
+title: Live-melding via e-mail
 description: Leer hoe u gegevens uit het live e-mailrapport kunt gebruiken
 feature: Reporting
 topic: Content Management
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 # Live-melding via e-mail {#email-live-report}
 
-The email **[!UICONTROL Live report]** only targets a specific email delivery.
+De e-mail **[!UICONTROL Live report]** is alleen bedoeld voor een specifieke e-maillevering.
 
-From the **[!UICONTROL Executions]** tab of the **[!UICONTROL Messages]** menu, select **[!UICONTROL Live view]** then from the advanced menu of the selected delivery select **[!UICONTROL Live report]**.
+Van de **[!UICONTROL Executions]** tabblad van het dialoogvenster **[!UICONTROL Messages]** menu, selecteert u **[!UICONTROL Live view]** Selecteer vervolgens in het geavanceerde menu van de geselecteerde levering **[!UICONTROL Live report]**.
 
 ![](assets/live_report.png)
 
@@ -31,7 +31,7 @@ De e-mail **[!UICONTROL Live report]** is verdeeld in verschillende widgets waar
 
 * **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
 
-* **[!UICONTROL Delivered]**: Number of messages successfully sent, in relation to the total number of sent messages.
+* **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
 * **[!UICONTROL Opens]**: Aantal keren dat een bericht in een levering werd geopend.
 
@@ -45,23 +45,23 @@ De e-mail **[!UICONTROL Live report]** is verdeeld in verschillende widgets waar
 
 * **[!UICONTROL Unsubscriptions]**: Aantal klikken op de verbinding van het unsubscription.
 
-* **[!UICONTROL Excluded]**: Number of user profiles, excluded from the targeted profiles, who did not receive the message.
+* **[!UICONTROL Excluded]**: Aantal gebruikersprofielen dat is uitgesloten van de doelprofielen en dat het bericht niet heeft ontvangen.
 
 De **[!UICONTROL Sending Statistics]** widget geeft aan hoe succesvol uw levering is:
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
-* **[!UICONTROL Bounces]**: Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.
+* **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
 
-* **[!UICONTROL Errors]**: Total number of errors that occurred during a delivery preventing it from being sent to profiles.
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
 ![](assets/live_report_6.png)
 
 De **[!UICONTROL Error Reasons]** de grafiek en de lijst laten u zien welke fout tijdens uw levering voorkwam.
 
-The **[!UICONTROL Bounce Reasons]** and **[!UICONTROL Bounce categories]** widgets contain the data available related to bounced messages, such as:
+De **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]** widgets bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd, zoals:
 
-* **[!UICONTROL Hard bounce]**: The total number of permanent errors, such as a wrong email address. Dit omvat een foutbericht waarin expliciet wordt aangegeven dat het adres ongeldig is, zoals Onbekende gebruiker.
+* **[!UICONTROL Hard bounce]**: Het totale aantal permanente fouten, zoals een onjuist e-mailadres. Dit omvat een foutbericht waarin expliciet wordt aangegeven dat het adres ongeldig is, zoals Onbekende gebruiker.
 
 * **[!UICONTROL Soft bounce]**: Het totale aantal tijdelijke fouten, zoals een volledig postvak.
 

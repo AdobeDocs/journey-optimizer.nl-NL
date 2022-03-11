@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Algemene gebeurtenissen {#general-events}
 
-Voor dit type gebeurtenis kunt u alleen een label en een beschrijving toevoegen. The rest of the configuration cannot be edited. It was performed by the technical user. Zie [deze pagina](../event/about-events.md).
+Voor dit type gebeurtenis kunt u alleen een label en een beschrijving toevoegen. De rest van de configuratie kan niet worden bewerkt. Het werd uitgevoerd door de technische gebruiker. Zie [deze pagina](../event/about-events.md).
 
 ![](assets/general-events.png)
 
@@ -26,7 +26,7 @@ Wanneer u een bedrijfsgebeurtenis neerzet, wordt automatisch een **Segment lezen
 
 Een gebeurtenisactiviteit die in de reis wordt geplaatst luistert voor onbepaalde tijd naar gebeurtenissen. Als u alleen tijdens een bepaalde tijd naar een gebeurtenis wilt luisteren, moet u een time-out voor de gebeurtenis configureren.
 
-De reis zal dan aan de gebeurtenis tijdens de tijd luisteren die in de timeout wordt gespecificeerd. If an event is received during that period, the person will flow in the event path. Als niet, zal de klant of in een onderbrekingspad stromen, of hun reis beëindigen.
+De reis zal dan aan de gebeurtenis tijdens de tijd luisteren die in de timeout wordt gespecificeerd. Als een gebeurtenis tijdens die periode wordt ontvangen, zal de persoon in de gebeurtenisweg stromen. Als niet, zal de klant of in een onderbrekingspad stromen, of hun reis beëindigen.
 
 Voer de volgende stappen uit om een time-out voor een gebeurtenis te configureren:
 
@@ -38,13 +38,13 @@ Voer de volgende stappen uit om een time-out voor een gebeurtenis te configurere
 
    ![](assets/event-timeout.png)
 
-In dit voorbeeld, verzendt de reis een eerste welkome duw naar een klant. It then sends a meal discount push only if the customer enters the restaurant within the next day. Daarom hebben we de restaurant-gebeurtenis geconfigureerd met een time-out van 1 dag:
+In dit voorbeeld, verzendt de reis een eerste welkome duw naar een klant. Het verzendt dan een duw van de maaltijdkorting slechts als de klant het restaurant binnen de volgende dag ingaat. Daarom hebben we de restaurant-gebeurtenis geconfigureerd met een time-out van 1 dag:
 
 * Als de restaurantgebeurtenis minder dan 1 dag na de welkomstpush wordt ontvangen, wordt de pushactiviteit voor de maaltijdkorting verzonden.
 * Als er de volgende dag geen restaurantgebeurtenis wordt ontvangen, loopt de persoon door het time-outpad.
 
 Merk op dat als u een onderbreking op veelvoudige gebeurtenissen wilt vormen die na a worden geplaatst **[!UICONTROL Wait]** activiteit, moet u de onderbreking op één van deze gebeurtenissen slechts vormen.
 
-The timeout will apply to all the events positioned after the **[!UICONTROL Wait]** activity. If no event is received before the specified timeout, the individuals will flow into one single timeout path or will end their journey.
+De time-out wordt toegepast op alle gebeurtenissen na de gebeurtenis **[!UICONTROL Wait]** activiteit. Als er geen gebeurtenis is ontvangen vóór de opgegeven time-out, gaan de personen naar één enkel time-outpad of beëindigen ze hun reis.
 
 ![](assets/event-timeout-group.png)

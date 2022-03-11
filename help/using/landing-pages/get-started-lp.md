@@ -5,19 +5,34 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
+hidefromtoc: true
+hide: true
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 8a2e1bca59dfb291b459c729e4fbc62de4c5353f
+source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 4%
+source-wordcount: '176'
+ht-degree: 3%
 
 ---
 
 # Aan de slag met bestemmingspagina&#39;s {#get-sarted-lp}
 
+>[!CAUTION]
+>
+>Het gebruik van bestemmingspagina&#39;s is momenteel beschikbaar in vroege toegang tot geselecteerde gebruikers slechts. Als u deze functie wilt gebruiken, neemt u contact op met de Adobe-accountmanager.
+
 Een openingspagina is een zelfstandige webpagina waarnaar een gebruiker wordt verwezen nadat hij via een e-mail, website, advertentie of een andere digitale locatie heeft geklikt.
 
+<!--The landing page is driven toward a business goal like joining a subscription list, buying products, get to know more, etc. If the user takes that desired action, the landing page has converted. Landing pages often contain online forms that are used by marketers to acquire new consumers or get to know better their existing customers and nurture them.-->
+
 [!DNL Journey Optimizer] kunt u bestemmingspagina&#39;s maken en ontwerpen om uw gebruikers naar onlineformulieren te leiden waar zij zich kunnen aanmelden of ervoor kunnen kiezen uw communicatie niet te ontvangen, of u kunt zich abonneren op een specifieke service zoals een nieuwsbrief.
+
+<!--Landing pages are online forms that are used by marketers to capture information on audiences, offer subscriptions to a service, display data and grow your database. These can also be used for acquiring or updating existing profiles.-->
+
+<!--[!DNL Journey Optimizer] now allows you to:
+* Easily build landing pages to make users subscribe to your communications.
+* Enable your customers to opt-in or opt-out from your communications.
+To move to RN-->
 
 * Hefboomwerking [!DNL Journey Optimizer] mogelijkheden voor inhoudsontwerp om eenvoudig samen te stellen **responsieve openingspagina&#39;s**.
 * Instellen **opt-in- en opt-out-stromen** snel en naadloos.
