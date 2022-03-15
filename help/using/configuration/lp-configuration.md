@@ -4,9 +4,9 @@ description: Leer hoe u uw omgeving configureert voor het maken en gebruiken van
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8c7239aa399f5e172762c9d93d9c03832501adb0
+source-git-commit: 2cee54221871979bb1ae2c8b7990debe1c80ce67
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -17,8 +17,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
->title="Subdomeinen van bestemmingspagina instellen"
->abstract="Om een subdomein te kunnen selecteren, zorg ervoor u eerder minstens één het landen paginasubdomain hebt gevormd."
+>title="Een voorinstelling voor een openingspagina maken"
+>abstract="Als u een voorinstelling voor een bestemmingspagina wilt maken, moet u ervoor zorgen dat u eerder ten minste één subdomein van de bestemmingspagina hebt geconfigureerd om te kiezen uit de **Subdomeinnaam** lijst."
 
 Om in staat te zijn [voorinstellingen voor openingspagina&#39;s maken](#lp-create-preset), moet u de subdomeinen instellen die u voor de bestemmingspagina&#39;s wilt gebruiken.
 
