@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '314'
 ht-degree: 5%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 5%
 # Segmenten maken {#build-segments}
 
 In dit voorbeeld, zullen wij een segment bouwen om alle klanten te richten die in Atlanta, San Francisco, of Seattle en na 1980 worden geboren. Al deze klanten hadden de toepassing Luma in de laatste 7 dagen moeten openen en vervolgens binnen 2 uur na het openen van de toepassing een aankoop moeten doen.
+
+➡️ [Leer hoe u segmenten maakt in deze video](#video-segment)
 
 1. Toegang krijgen tot **[!UICONTROL Segments]** en klikt u op de knop **[!UICONTROL Create segment]** knop.
 
@@ -55,6 +57,8 @@ In dit voorbeeld, zullen wij een segment bouwen om alle klanten te richten die i
 
 Het segment kan nu worden gebruikt voor uw reizen. Raadpleeg [deze sectie](../segment/about-segments.md) voor meer informatie.
 
-## Video over zelfstudie{#create-segment-video}
+## Hoe kan ik-video{#video-segment}
+
+Leer hoe u segmenten maakt.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334281?quality=12)

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 950f8186-07f6-4cc1-936c-d0984fb0f988
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Berichtcontrole {#monitor-message-execution}
 
 Om ervoor te zorgen dat uw berichten succesvol worden uitgevoerd, verzonden en geleverd, [!DNL Journey Optimizer] biedt mogelijkheden om de berichten te controleren die momenteel worden gepubliceerd en teweeggebracht. U kunt zien hoe uw berichten over reizen uitvoeren <!--and APIs--> in real time vanaf de **[!UICONTROL Executions]** lijst.
+
+➡️ [Ontdek deze functie in video](#video)
 
 Als u toegang wilt krijgen tot deze lijst, klikt u op **[!DNL Journey Optimizer]** homepage, selecteren **[!UICONTROL Messages]** en klik op de knop **[!UICONTROL Executions]** tab.
 
@@ -93,3 +95,9 @@ In **Globale weergave** alleen kunt u kiezen of u de gegevens wilt weergeven als
 ![](assets/message-execution-data-format.png)
 
 Als u op elke hyperlink klikt, wordt de bijbehorende overzichtsweergave van het bericht geopend. [Meer informatie over berichten](create-message.md).
+
+## Hoe kan ik-video {#video}
+
+Leer meer over levende en globale rapporten, hoe te om tot de Reis en de specifieke rapporten van het Bericht toegang te hebben en te analyseren, en hoe te om de rapportdashboards te wijzigen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334108?quality=12)

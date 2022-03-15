@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1505'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 1%
 # Ontwerp uw e-mailinhoud in de gebruikersinterface {#create-email-content}
 
 Zodra u [uw bericht hebt gemaakt](create-message.md)kunt u uw e-mailinhoud maken.
+
+➡️ [Ontdek deze functie in video](#video)
 
 1. Selecteer **[!UICONTROL Email designer]** in de **[!UICONTROL Body]** sectie.
 
@@ -282,3 +284,9 @@ Wanneer u in de interface E-mailontwerper een element selecteert en de instellin
 1. Wijzig de waarden van de bestaande kenmerken of voeg nieuwe kenmerken toe met de **+** knop. U kunt alle kenmerken en waarden toevoegen die CSS-compatibel zijn.
 
 De stijl wordt vervolgens toegepast op het geselecteerde element. Als voor de onderliggende elementen geen specifieke stijlkenmerken zijn gedefinieerd, wordt de opmaak van het bovenliggende element overgeërfd.
+
+## Hoe kan ik-video {#video}
+
+Leer hoe u e-mailinhoud maakt met de berichteneditor.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)

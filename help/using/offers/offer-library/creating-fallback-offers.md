@@ -5,7 +5,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 3%
@@ -52,10 +52,10 @@ Voer de volgende stappen uit om een fallback-aanbieding te maken:
 
    ![](../assets/fallback_created.png)
 
-## Video over zelfstudie {#video}
+## Hoe kan ik-video {#video}
+
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 
 >[!NOTE]
 >
 >Deze video is van toepassing op de Offer decisioning toepassingsservice die op Adobe Experience Platform is gebouwd. Het biedt echter algemene richtlijnen voor het gebruik van Aanbieding in de context van Journey Optimizer.
-
->[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)

@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: a7483965e3154d0ad34cfb56b6458bb63b46a26c
+source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,19 @@ ht-degree: 0%
 
 [!DNL Journey Optimizer] biedt een bibliotheek waarin u toegang kunt krijgen tot eerder opgeslagen personalisatie-expressies die zijn toegevoegd door Admin-gebruikers.
 
-1. Als u de opgeslagen expressies wilt openen, klikt u op de knop **[!UICONTROL Library]** in het linkerdeelvenster. In de lijst worden alle expressies weergegeven die door Admin-gebruikers zijn opgeslagen (zie [Expressies opslaan in de bibliotheek](#save-expressions)).
+➡️ [Leer hoe u met opgeslagen expressies werkt in deze video](#video-preview)
 
-   >[!NOTE]
-   >
-   >Met de knop Info kunt u meer informatie ophalen over de inhoud van een opgeslagen expressie. Als u over de juiste machtigingen beschikt om bibliotheekitems te beheren, wordt de informatieknop weergegeven in het ovaalmenu.
+Als u de opgeslagen expressies wilt openen, klikt u op de knop **[!UICONTROL Library]** in het linkerdeelvenster. In de lijst worden alle expressies weergegeven die door Admin-gebruikers zijn opgeslagen (zie [Expressies opslaan in de bibliotheek](#save-expressions)).
 
-   ![](assets/library-list.png)
+    >[!OPMERKING]
+    >
+    >Met de knop Info kunt u meer informatie ophalen over de inhoud van een opgeslagen expressie. Als u over de juiste machtigingen beschikt om bibliotheekitems te beheren, wordt de informatieknop weergegeven in het ovaalmenu.
+    
+    ![](assets/library-list.png)
 
-1. Klik + om de uitdrukking in de redacteur op te nemen. Vervolgens kunt u de inhoud van uw personalisatie op de gebruikelijke wijze aanpassen en valideren. [Meer informatie](../personalization/personalization-build-expressions.md)
+Klik + om de uitdrukking in de redacteur op te nemen. Vervolgens kunt u de inhoud van uw personalisatie op de gebruikelijke wijze aanpassen en valideren. [Meer informatie](../personalization/personalization-build-expressions.md)
 
-   ![](assets/library-add.png)
+    ![](assets/library-add.png)
 
 ## Een expressie opslaan in de bibliotheek {#save-expressions}
 
@@ -68,3 +70,10 @@ Voer de volgende stappen uit om een expressie op te slaan in de bibliotheek:
 Om een bestaande uitdrukking uit te geven, voeg het aan de redacteur toe, dan wijzig het volgens uw behoeften. Klikken **[!UICONTROL Add to library]** om de syntaxis te valideren en de expressie op te slaan.
 
 Als u een expressie wilt verwijderen, klikt u op de knop Ovaal en vervolgens klikt u op **[!UICONTROL Delete]**.
+
+## Hoe kan ik-video{#video}
+
+Leer hoe u opgeslagen bibliotheekitems voor personalisatie gebruikt in een bericht en hoe u bibliotheekitems voor personalisatie maakt en beheert.
+
+>[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
+

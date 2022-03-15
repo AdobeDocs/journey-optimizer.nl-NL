@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1433'
-ht-degree: 5%
+source-wordcount: '1462'
+ht-degree: 6%
 
 ---
 
@@ -96,6 +96,8 @@ De subdomeindelegatie van CNAME laat u toe om subdomain tot stand te brengen en 
 >
 >Deze methode wordt aanbevolen als het beleid van uw organisatie de methode voor volledige subdomeindelegatie beperkt. Deze benadering vereist u om DNS verslagen op uw te handhaven en te beheren. Adobe zal niet in het veranderen van, het handhaven van of het beheren van DNS voor subdomain kunnen bijwonen die door de methode CNAME wordt gevormd.
 
+➡️ [Leer hoe u een subdomein maakt met CNAME om naar Adobe-specifieke records in deze video te verwijzen](#video)
+
 Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volgende stappen uit:
 
 1. Toegang krijgen tot **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** en klik vervolgens op **[!UICONTROL Set up subdomain]**.
@@ -138,7 +140,7 @@ Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volge
 
 1. Zodra de subdomeindelegatie van CNAME is voorgelegd, toont subdomain in de lijst met **[!UICONTROL Processing]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](access-subdomains.md).
 
-   Voordat u dat subdomein kunt gebruiken om berichten te verzenden, moet u wachten tot Adobe de vereiste controles uitvoert. Dit duurt meestal 2 tot 3 uur. Meer informatie in [deze sectie](#subdomain-validation).
+   Voordat u dat subdomein kunt gebruiken voor het verzenden van berichten, moet u wachten tot Adobe de vereiste controles uitvoert. Dit duurt meestal 2 tot 3 uur. Meer informatie in [deze sectie](#subdomain-validation).
 
 1. Zodra de controles succesvol zijn<!--i.e Adobe validates the record you created and installs it-->, wordt het subdomein de **[!UICONTROL Success]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
@@ -181,3 +183,9 @@ De onderstaande controles en acties worden uitgevoerd totdat het subdomein is ge
 1. **forward DNS maken**: als dit eerste subdomain is dat u delegeert, zal Adobe voorwaartse DNS tot stand brengen die wordt vereist om PTR verslagen - voor elk van uw IPs tot stand te brengen.
 
 1. **PTR-record maken**: PTR-record, ook wel omgekeerd DNS-record genoemd, wordt vereist door de ISP&#39;s, zodat deze de e-mails niet als spam markeren. Gmail adviseert ook hebbend PTR verslagen voor elk IP. Adobe leidt PTR verslagen slechts tot wanneer u subdomain voor het eerst, voor elk IP, één voor alle IP&#39;s delegeert die dat subdomain richten. Als het IP-bestand bijvoorbeeld *192.1.2.1* en het subdomein is *email.example.com* De PTR-record is: *192.1.2.1 PTR r1.email.example.com*. U kunt de PTR-record achteraf bijwerken en naar het nieuwe gedelegeerde domein verwijzen. [Meer informatie over PTR-records](ptr-records.md)
+
+## Hoe kan ik-video{#video}
+
+Leer hoe u een subdomein maakt met CNAME om naar Adobe-specifieke records te verwijzen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

@@ -4,9 +4,9 @@ description: Meer informatie over het gebruik van Adobe Experience Platform-gege
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '261'
 ht-degree: 12%
 
 ---
@@ -19,7 +19,7 @@ Leer hoe u gegevenssets maakt in [deze documentatie](https://experienceleague.ad
 
 Het toevoegen van gegevens aan Adobe Experience Platform is de basis voor het bouwen van een Profiel. Vervolgens kunt u profielen gebruiken in [!DNL Adobe Journey Optimizer]. Bepaal eerst schema&#39;s, gebruik hulpmiddelen ETL om uw gegevens voor te bereiden en te standaardiseren, dan datasets tot stand te brengen die op uw schema&#39;s worden gebaseerd.
 
-➡️ [Leer hoe u een dataset maakt en configureert](#video-dataset) (video)
+➡️ [Leer hoe te om een dataset in deze video tot stand te brengen en te vormen](#video-dataset)
 
 De **Gegevenssets** werkruimte in de [!DNL Adobe Journey Optimizer] de gebruikersinterface staat u toe om gegevens te onderzoeken en datasets tot stand te brengen.
 

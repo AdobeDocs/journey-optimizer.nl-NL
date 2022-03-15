@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '907'
 ht-degree: 45%
 
 ---
@@ -34,7 +34,7 @@ Voordelen zijn:
 * Verbeterde workflows: in plaats van meerdere verzendingen of campagnes te maken kunnen marketingteams de workflows verbeteren door één verzending te maken en de aanbiedingen in verschillende delen van de sjabloon te variëren,
 * De controle over het aantal keren dat een aanbieding wordt getoond aan campagnes en klanten.
 
-➡️ [Bekijk deze zelfstudievideo&#39;s](#tutorial-videos) voor meer informatie over het beheer van besluiten.
+➡️ [Meer informatie over het beheer van beslissingen vindt u in deze video&#39;s](#video)
 
 ## Aanbiedingen en beslissingen {#about-offers-and-decisions}
 
@@ -102,8 +102,7 @@ U kunt onder de lijst van de belangrijkste concepten vinden u zult werken met wa
 
 * **Weergaven**: een weergave is informatie (bijv. de locatie of taal) die door een kanaal wordt gebruikt om een aanbieding te tonen.
 
-
-## Tutorialvideo’s {#tutorial-videos}
+## Instructievideo&#39;s{#video}
 
 >[!NOTE]
 >
@@ -120,3 +119,5 @@ In de onderstaande video wordt een inleiding gegeven op de belangrijkste mogelij
 In de onderstaande video ziet u hoe u Beslissingsbeheer kunt gebruiken om uw aanbiedingen te definiëren en te beheren en real-time klantgegevens kunt gebruiken.
 
 >[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
+
+

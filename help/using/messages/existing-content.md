@@ -6,16 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 4%
+source-wordcount: '366'
+ht-degree: 11%
 
 ---
 
 # Uw e-mailinhoud importeren of coderen {#existing-content}
 
 Met Journey Optimizer kunt u bestaande HTML-inhoud importeren om uw e-mails te ontwerpen. Deze inhoud kan onbewerkte HTML-code of inhoud uit een bestaand HTML-bestand of een ZIP-map zijn.
+
+➡️ [Ontdek deze functie in video](#video)
 
 Ga als volgt te werk om HTML-inhoud te coderen of bestaande inhoud te importeren:
 
@@ -79,3 +81,9 @@ Voer de volgende stappen uit om een bestand met HTML-inhoud te importeren:
 1. Zodra de HTML-inhoud is geüpload, kunt u de e-mailfuncties van E-mailontwerper gebruiken om uw e-mailadres te bewerken en er een voorvertoning van weer te geven. [Meer informatie in deze sectie](create-email-content.md).
 
    ![](assets/html-imported.png)
+
+## Hoe kan ik-video {#video}
+
+Leer hoe u bestaande HTML-content kunt importeren, het ontwerp kunt aanpassen, spiegelpagina&#39;s kunt toevoegen en lidmaatschapskoppelingen kunt opheffen, en hoe u de content kunt coderen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

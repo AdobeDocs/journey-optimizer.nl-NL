@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 52%
+source-wordcount: '820'
+ht-degree: 54%
 
 ---
 
@@ -21,10 +21,6 @@ ht-degree: 52%
 >abstract="Een gebeurtenis is gekoppeld aan een persoon en heeft betrekking op het gedrag van een persoon (bijvoorbeeld: iemand heeft een product gekocht, een winkel bezocht, een website verlaten, enz.) of op iets dat verband houdt met een persoon (bijvoorbeeld: iemand heeft 10.000 loyaliteitspunten verdiend). Dit is waar [!DNL Journey Optimizer] op let tijdens journey’s om vervolgens de beste acties te orkestreren."
 
 Met de gebeurtenisconfiguratie kunt u de informatie definiëren die door [!DNL Journey Optimizer] als gebeurtenissen wordt ontvangen. U kunt meerdere gebeurtenissen gebruiken (in verschillende stappen van een reis) en verschillende reizen kunnen dezelfde gebeurtenis gebruiken.
-
->[!NOTE]
->
->Voor meer informatie over hoe te om een gebeurtenis te vormen, let op [zelfstudie](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
 
 >[!CAUTION]
 >
@@ -40,6 +36,8 @@ U kunt twee typen gebeurtenissen configureren:
 >[!NOTE]
 >
 >Als u een gebeurtenis bewerkt die in een concept- of live journey wordt gebruikt, kunt u alleen de naam en de beschrijving wijzigen of payloadvelden toevoegen. We hanteren een strikte beperking voor de bewerking of het opstellen van concept- of live journey’s om te voorkomen dat journey’s worden afgebroken.
+
+➡️ [Ontdek deze functie in video](#video)
 
 ## Type gebeurtenis-id{#event-id-type}
 
@@ -66,3 +64,13 @@ De payload bevat informatie die vereist is voor de Streaming Ingestie-API&#39;s 
 Na aankomst door Streaming Ingestie APIs, stromen de gebeurtenissen in de interne dienst genoemd Pijpleiding en dan in Adobe Experience Platform. Als in het het gebeurtenisschema de markering voor real-timeklantprofielservice is ingeschakeld en een dataset-id eveneens de markering voor real-timeklantprofiel heeft, stroomt deze naar de real-timeklantprofielservice.
 
 Voor door het systeem gegenereerde gebeurtenissen, filtert de Pipeline gebeurtenissen die een lading bevatten [!DNL Journey Optimizer] eventID&#39;s (zie het proces voor het maken van gebeurtenissen hieronder) verstrekt door [!DNL Journey Optimizer] en opgenomen in gebeurtenislading. Voor op regel-gebaseerde gebeurtenissen, identificeert het systeem de gebeurtenis gebruikend de eventID voorwaarde. Er wordt naar deze gebeurtenissen geluisterd door [!DNL Journey Optimizer] en de bijbehorende journey wordt geactiveerd.
+
+## Instructievideo&#39;s {#video}
+
+Leer hoe te om een gebeurtenis te vormen, specificeer het het stromen eindpunt en de lading voor een gebeurtenis.
+
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
+
+Begrijp de toepasselijke gebruiksscenario&#39;s voor bedrijfsgebeurtenissen. Leer hoe u een journey bouwt met behulp van een bedrijfsgebeurtenis en welke aanbevolen procedures u toepast.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

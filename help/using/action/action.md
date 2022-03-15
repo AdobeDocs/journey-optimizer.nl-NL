@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 68%
+source-wordcount: '248'
+ht-degree: 66%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 68%
 >abstract="Hier definieert u de verbinding met het systeem dat berichten verzendt. De hier gedefinieerde acties zijn dan beschikbaar in het linkerpalet van uw journey, in de categorie Acties. "
 
 Acties zijn verbindingen waarmee u persoonlijke, realtime-ervaringen kunt bieden aan klanten, zoals pushberichten, e-mail, sms of andere digitale opties die in uw bedrijf worden gebruikt.
+
+➡️ [Ontdek deze functie in video](#video)
 
 [!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtcapaciteit. Zie [deze sectie](../messages/get-started-content.md).
 
@@ -40,3 +42,9 @@ De acties zijn beschikbaar in het linkerpalet van uw reis, in **[!UICONTROL Acti
 Selecteer **[!UICONTROL Configurations]** in de sectie van het menu van het BEHEER. In de  **[!UICONTROL Actions]** sectie, klikt u op **[!UICONTROL Manage]**. De lijst met acties wordt weergegeven. Zie [deze pagina](../start/user-interface.md) voor meer informatie over de interface.
 
 ![](assets/custom1.png)
+
+## Hoe kan ik-video {#video}
+
+Leer hoe u aangepaste handelingen configureert.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334257?quality=12)

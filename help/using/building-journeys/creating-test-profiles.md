@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1334'
 ht-degree: 2%
 
 ---
@@ -28,6 +28,8 @@ U kunt testprofielen op verschillende manieren maken. Op deze pagina vindt u mee
 U kunt een jsdossier in een bestaande dataset ook uploaden. Raadpleeg voor meer informatie de [Documentatie over gegevensinname](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target=&quot;_blank&quot;}.
 
 Het maken van een testprofiel lijkt op het maken van gewone profielen in Adobe Experience Platform. Raadpleeg voor meer informatie de [Documentatie van het profiel van de klant in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target=&quot;_blank&quot;}.
+
+➡️ [Leer hoe u testprofielen maakt in deze video](#video)
 
 ## Vereisten {#test-profile-prerequisites}
 
@@ -227,3 +229,8 @@ curl -X POST \
 }
 }'
 ```
+## Hoe kan ik-video {#video}
+
+Leer hoe u testprofielen maakt.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)
