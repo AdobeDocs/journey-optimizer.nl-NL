@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 150ad7b36f23f183d7724bdb4b69fa55d30ea4f1
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 3%
+source-wordcount: '310'
+ht-degree: 2%
 
 ---
 
 # Verzamelingen maken {#create-collections}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_decision_collection"
+>title="Over aanbiedingsverzamelingen"
+>abstract="Met aanbiedingen kunt u uw aanbiedingen ordenen door deze te hergroeperen in categorieën van uw keuze."
 
 Met verzamelingen kunt u uw aanbiedingen ordenen door deze te hergroeperen in categorieën van uw keuze. U kunt bijvoorbeeld een &quot;sport&quot;-collectie maken die alleen sportgerelateerde aanbiedingen bevat.
 
