@@ -5,9 +5,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -275,9 +275,9 @@ Dit omvat de volgende laagniveaumachtigingen:
    * datasets.read
    * profiles.read
 
-### [!DNL Manage ranking strategies] machtiging {#manage-decisions}
+### [!DNL Manage ranking strategies] machtiging {#manage-ranking-strategies}
 
-De **[!DNL Manage ranking strategies]** De toestemming op hoog niveau staat gebruikers toe om het rapport van douaneberichten te lezen, tot stand te brengen, uit te geven en te schrappen en actiefuncties te gebruiken.
+De **[!DNL Manage ranking strategies]** Met toestemming op hoog niveau kunnen gebruikers classificatiestrategieën lezen, maken, bewerken en verwijderen.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -417,13 +417,16 @@ Dit omvat de volgende laagniveaumachtigingen:
    * profiles.read
    * datasets.read
 
-## Journey Optimizer Library-mogelijkheid {library-permissions}
+### [!DNL Manage landing page settings] machtiging {#manage-landing-page-settings}
 
-### Bibliotheekitems beheren {#library-items}
-
-De **[!DNL Manage Library Items]** Met machtiging op hoog niveau kunnen gebruikers opgeslagen expressies toevoegen en verwijderen in het dialoogvenster [!DNL Journey Optimizer] Bibliotheek.
+De **[!DNL Manage landing page settings]** Met machtiging op hoog niveau kunnen gebruikers subdomeinen van landingspagina&#39;s en instellingen voor voorinstellingen lezen, maken en bewerken.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
-* library_item.create
-* library_item.delete
+* specifiek voor Journey Optimizer:
+   * landing_page_subdomain.read
+   * landing_page_subdomain.write
+   * landing_page_subdomain.delete
+   * landing_page_preset.read
+   * landing_page_preset.write
+   * landing_page_preset.delete

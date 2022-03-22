@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: a7483965e3154d0ad34cfb56b6458bb63b46a26c
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Aan de slag met AI-modellen {#get-started-with-ai-rankings}
 
-U kunt een getraind modelsysteem gebruiken dat aanbiedingen aan vertoning voor een bepaald profiel rangschikt.
+[!DNL Journey Optimizer] kunt u een getraind modelsysteem gebruiken dat aanbiedingen aan vertoning voor een bepaald profiel rangschikt.
 
 >[!CAUTION]
 >
@@ -27,8 +27,6 @@ U kunt een getraind modelsysteem gebruiken dat aanbiedingen aan vertoning voor e
 Met deze functie kunt u verschillende **AI-modellen** gebaseerd op uw bedrijfsdoelstellingen. Gebruikend deze verschillende op doel-gebaseerde strategieën in een besluit, zal het opgeleide modelsysteem u helpen begrijpen hoe de verschillende AI modellen uw doelstellingen beïnvloeden.
 
 U kunt bijvoorbeeld een AI-model selecteren voor het e-mailkanaal en een ander model voor het pushkanaal. Voor elk kanaal zal het opgeleide modelsysteem veelvoudige gegevenspunten gebruiken om te bepalen welk aanbod eerst voor een bepaalde plaatsing zou moeten worden voorgesteld eerder dan rekening houdend met de prioritaire scores van de aanbiedingen of a [waarderingsformule](create-ranking-formulas.md).
-
-Nadat een AI-model is gemaakt, wijst u het toe aan een plaatsing in een beslissing. Meer informatie in [Aanbiedingen selecteren in beslissingen configureren](../offer-activities/configure-offer-selection.md).
 
 >[!NOTE]
 >

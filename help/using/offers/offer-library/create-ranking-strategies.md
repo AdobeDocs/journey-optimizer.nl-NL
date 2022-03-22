@@ -7,18 +7,28 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '693'
 ht-degree: 4%
 
 ---
 
 # AI-modellen maken {#ai-rankings}
 
+[!DNL Journey Optimizer] biedt u de mogelijkheid om **AI-modellen** om aanbiedingen te rangschikken die op uw bedrijfsdoelstellingen worden gebaseerd.
+
+>[!CAUTION]
+>
+>Als u AI-modellen wilt maken, bewerken of verwijderen, moet u beschikken over de **Rangestrategieën beheren** toestemming. [Meer informatie](../../administration/high-low-permissions.md#manage-ranking-strategies)
+>
+>Het gebruik van AI-modellen is momenteel alleen beschikbaar voor bepaalde gebruikers.
+
+Nadat een AI-model is gemaakt, wijst u het toe aan een plaatsing in een beslissing. Meer informatie in [Aanbiedingen selecteren in beslissingen configureren](../offer-activities/configure-offer-selection.md).
+
 ## Een waarderingsstrategie maken {#create-ranking-strategy}
 
-Volg onderstaande stappen om een classificatiestrategie te maken:
+Voer de volgende stappen uit om een AI-model te maken als een classificatiestrategie:
 
 1. Toegang krijgen tot **[!UICONTROL Components]** en selecteert u vervolgens de **[!UICONTROL AI rankings]** tab.
 
