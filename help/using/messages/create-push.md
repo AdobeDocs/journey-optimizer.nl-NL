@@ -6,14 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 9%
+source-wordcount: '1403'
+ht-degree: 8%
 
 ---
 
 # Een pushmelding maken {#create-push-notification}
+
+>[!CONTEXTUALHELP]
+>id="ajo_message_push"
+>title="Push message creation"
+>abstract="Voeg uw pushbericht toe en pas het aan met de Expressieeditor."
+
 
 Met pushberichten bereikt u op elk gewenst moment gebruikers van uw mobiele app, vooral wanneer ze uw app niet actief gebruiken. Met pushberichten kunt u verschillende gebruiksgevallen bereiken, zoals het aanbieden van updates over uw service, het vragen van een gebruiker om actie te ondernemen, de gebruiker te waarschuwen voor een nieuwe deal, enz. Apparaatplatforms moeten zich aanmelden voordat eindgebruikers uw meldingen kunnen ontvangen of bekijken. Gebruikers kunnen zich al aanmelden nadat de app voor de eerste keer na de installatie is gestart of in een volgende sessie of workflow, al naar gelang wat van toepassing is.
 
@@ -33,7 +39,7 @@ Gebruik de specifieke tabbladen om de instellingen voor pushmeldingen te defini√
 
 Als u uw bericht wilt samenstellen, klikt u op de knop **[!UICONTROL Title]** en **[!UICONTROL Body]** velden. Gebruik de Redacteur van de Uitdrukking om inhoud en verpersoonlijkingsgegevens te bepalen. Meer informatie over personalisatie in de Expressieeditor vindt u in [deze sectie](../personalization/personalize.md)
 
-In het gedeelte voor voorvertoning van apparaten kunt u visualiseren hoe de pushmelding wordt weergegeven op iOS- en Android-apparaten.
+In het gedeelte voor voorvertoning van apparaat kunt u visualiseren hoe de pushmelding wordt weergegeven op iOS- en Android-apparaten.
 
 ## Bij klikken, gedrag {#on-click-behavior}
 
