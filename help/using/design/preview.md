@@ -36,7 +36,7 @@ Bovendien kunt u uw **Litmus** account [!DNL Journey Optimizer] om direct een vo
 
 >[!CAUTION]
 >
->Wanneer u een bericht voorvertoont of proefdrukken verzendt, worden alleen profielverpersoonlijkingsgegevens weergegeven. Personalization op basis van contextgegevens, zoals informatie over gebeurtenissen, kan alleen worden getest in het kader van een reis. Leer hoe u personalisatie kunt testen in [dit geval gebruiken](../personalization/personalization-use-case.md).
+>Wanneer u een bericht voorvertoont of proefdrukken verzendt, worden alleen profielverpersoonlijkingsgegevens weergegeven. Personalisatie op basis van contextgegevens, zoals gebeurtenisinformatie, kan alleen worden getest in het kader van een reis. Leer hoe u personalisatie kunt testen in [dit geval gebruiken](../personalization/personalization-use-case.md).
 
 ➡️ [Leer hoe u uw e-mail in deze video kunt voorvertonen, controleren en publiceren](#video-preview)
 
