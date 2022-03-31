@@ -143,7 +143,7 @@ Blokken zijn expressies met een blokopening ({{# }}) en closing ({{/}).
 >
 >Het gebruik van **xEvent** variable is not available in personalization expressions. Elke verwijzing naar xEvent resulteert in validatiefouten.
 
-## URL Personalization{#perso-urls}
+## URL-personalisatie{#perso-urls}
 
 Persoonlijke URL&#39;s sturen ontvangers naar specifieke pagina&#39;s van een website of naar een gepersonaliseerde microsite, afhankelijk van de profielkenmerken. In Adobe Journey Optimizer kunt u personalisatie toevoegen aan URL&#39;s in de inhoud van uw bericht. U kunt URL-aanpassing toepassen op tekst en afbeeldingen en profielgegevens of contextafhankelijke gegevens gebruiken.
 
