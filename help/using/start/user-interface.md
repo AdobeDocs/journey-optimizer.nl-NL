@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 7%
@@ -46,7 +46,7 @@ U vindt onder de volledige lijst met services en mogelijkheden in de linkernavig
 
 * **[!UICONTROL Journeys]** - Maak, configureer en orkestreer uw klantritten. [Meer informatie](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]** - Maak, ontwerp, test en publiceer e-mail- en pushberichten. [Meer informatie](../messages/create-message.md)
+* **[!UICONTROL Messages]** - Maak, ontwerp, test en publiceer e-mail- en pushberichten. [Meer informatie](../messages/get-started-content.md)
 
 **[!UICONTROL DECISION MANAGEMENT]**
 
@@ -56,7 +56,7 @@ U vindt onder de volledige lijst met services en mogelijkheden in de linkernavig
 
 **[!UICONTROL CONTENT MANAGEMENT]**
 
-* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] is een gecentraliseerde opslagplaats van activa die u kunt gebruiken om uw berichten te bevolken. [Meer informatie](../messages/assets-essentials.md)
+* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] is een gecentraliseerde opslagplaats van activa die u kunt gebruiken om uw berichten te bevolken. [Meer informatie](../design/assets-essentials.md)
 
 **[!UICONTROL DATA MANAGEMENT]**
 
@@ -76,9 +76,9 @@ U vindt onder de volledige lijst met services en mogelijkheden in de linkernavig
 
 * **[!UICONTROL Segments]** - Maak en beheer Experience Platforms segmentdefinities en gebruik deze voor uw reizen. [Meer informatie](../segment/about-segments.md)
 
-* **[!UICONTROL Profiles]** - Het profiel van de Klant in real time leidt tot een holistische mening van elk van uw individuele klanten, die gegevens van veelvoudige kanalen met inbegrip van online, off-line, CRM, en derdegegevens combineren. [Meer informatie](get-started-profiles.md)
+* **[!UICONTROL Profiles]** - Het profiel van de Klant in real time leidt tot een holistische mening van elk van uw individuele klanten, die gegevens van veelvoudige kanalen met inbegrip van online, off-line, CRM, en derdegegevens combineren. [Meer informatie](../segment/get-started-profiles.md)
 
-* **[!UICONTROL Identities]** - Adobe Experience Platform Identity Service beheert de identificatie van uw klanten over het hele apparaat, over het kanaal en bijna in realtime in een identiteitsgrafiek in Adobe Experience Platform. [Meer informatie](get-started-identity.md)
+* **[!UICONTROL Identities]** - Adobe Experience Platform Identity Service beheert de identificatie van uw klanten over het hele apparaat, over het kanaal en bijna in realtime in een identiteitsgrafiek in Adobe Experience Platform. [Meer informatie](../segment/get-started-identity.md)
 
 **[!UICONTROL ADMINISTRATION]**
 
@@ -98,7 +98,7 @@ Hefboomwerking [!DNL Adobe Journey Optimizer] Gebruik gevallen op de startpagina
 
 Beschikbare gebruiksgevallen zijn:
 
-* **Testprofielen maken** om testprofielen te maken met onze CSV-sjabloon om persoonlijke berichten en reizen te testen. Leer hoe u deze gebruiksaanwijzing implementeert [op deze pagina](../building-journeys/creating-test-profiles.md#use-case-1).
+* **Testprofielen maken** om testprofielen te maken met onze CSV-sjabloon om persoonlijke berichten en reizen te testen. Leer hoe u deze gebruiksaanwijzing implementeert [op deze pagina](../segment/creating-test-profiles.md#use-case-1).
 * **Klanten een verjaardagsbericht sturen**, om automatisch een e-mail te verzenden om uw klanten op hun verjaardag te wensen. (binnenkort beschikbaar)
 * **E-mails naar nieuwe klanten aan boord sturen**, om eenvoudig maximaal twee e-mails te verzenden om uw nieuw geregistreerde klanten te verwelkomen. (binnenkort beschikbaar)
 * **Pushberichten verzenden naar geïmporteerde lijst met klanten**, om snel een pushmelding te verzenden naar een lijst met klanten die zijn geïmporteerd uit een CSV-bestand. (binnenkort beschikbaar)

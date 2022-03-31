@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 49%
+source-wordcount: '966'
+ht-degree: 46%
 
 ---
 
@@ -30,24 +30,38 @@ ht-degree: 49%
    + [Beperkingen](using/start/limitations.md)
 + Berichten {#messages}
    + [Aan de slag met berichten](using/messages/get-started-content.md)
-   + Berichten maken {#create-message}
-      + [Een bericht maken](using/messages/create-message.md)
-      + [Een e-mail maken](using/messages/create-email.md)
-      + [Een pushmelding maken](using/messages/create-push.md)
-      + [Een SMS-bericht maken](using/messages/create-sms.md)
-   + [Elementen toevoegen en beheren](using/messages/assets-essentials.md)
-   + [Aangepaste aanbiedingen toevoegen](using/messages/deliver-personalized-offers.md)
-   + E-mails ontwerpen {#email-designer}
-      + [Aan de slag met e-mailontwerp](using/messages/design-emails.md)
-      + [E-mailcontent ontwerpen in de gebruikersinterface](using/messages/create-email-content.md)
-      + [Uw e-mailinhoud importeren of coderen](using/messages/existing-content.md)
-      + [Onderdelen voor content van e-mailontwerpers gebruiken](using/messages/content-components.md)
-   + [Koppelingen toevoegen en berichten bijhouden](using/messages/message-tracking.md)
+   + [Een e-mail maken](using/messages/create-email.md)
+   + [Een pushmelding maken](using/messages/create-push.md)
+   + [Een SMS-bericht maken](using/messages/create-sms.md)
    + Valideren en publiceren {#validate}
-      + [Voorvertoning en proefdrukken](using/messages/preview.md)
       + [Waarschuwingen controleren](using/messages/alerts.md)
       + [Berichten publiceren](using/messages/publish-manage-message.md)
    + [Toestemming beheren](using/messages/consent.md)
++ Ontwerpcontent {#design}
+   + [Aan de slag met e-mailontwerp](using/design/design-emails.md)
+   + [Opnieuw starten ](using/design/create-email-content.md)
+   + [Uw e-mailinhoud importeren](using/design/existing-content.md)
+   + [Uw eigen inhoud coderen](using/design/code-content.md)
+   + Inhoud ontwerpen {#design-content}
+      + [Inhoudscomponenten gebruiken](using/design/content-components.md)
+      + [Achtergrondinstellingen](using/design/backgrounds.md)
+      + [Verticale uitlijning en opvulling aanpassen](using/design/adjusting-vertical-alignment-and-padding.md)
+      + [Een stijl voor koppelingen definiëren](using/design/styling-links.md)
+      + [Inline-opmaakkenmerken toevoegen](using/design/adding-inline-styling-attributes.md)
+   + E-mailinstellingen {#design-email}
+      + [De tekstversie genereren](using/design/text-version-email.md)
+      + [Een preheader toevoegen](using/design/preheader.md)
+   + Elementen toevoegen en beheren {#manage-asset}
+      + [Werken met Assets Essentials](using/design/assets-essentials.md)
+   + [Aangepaste aanbiedingen toevoegen](using/design/deliver-personalized-offers.md)
+   + [Koppelingen toevoegen en berichten bijhouden](using/design/message-tracking.md)
+   + [Voorvertoning en proefdrukken](using/design/preview.md)
++ Landingspagina’s {#landing-pages}
+   + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
+   + [Een landingspagina maken](using/landing-pages/create-lp.md)
+   + [Een openingspagina ontwerpen](using/landing-pages/design-lp.md)
+   + [Een abonnementenlijst maken](using/landing-pages/subscription-list.md)
+   + [Gebruiksscenario’s](using/landing-pages/lp-use-cases.md)
 + Personalisatie{#personalization}
    + [Aan de slag met personalisatie](using/personalization/personalize.md)
    + [Persoonlijke context](using/personalization/personalization-contexts.md)
@@ -76,13 +90,14 @@ ht-degree: 49%
    + Segmenten {#segments}
       + [Aan de slag met segmenten](using/segment/about-segments.md)
       + [Segmenten maken](using/segment/creating-a-segment.md)
-   + [Profielen](using/start/get-started-profiles.md)
-   + [Identiteiten](using/start/get-started-identity.md)
+   + [Profielen] {#profiles}
+      + [Aan de slag met profielen](using/segment/get-started-profiles.md)
+      + [Testprofielen maken](using/segment/creating-test-profiles.md)
+   + [Identiteiten](using/segment/get-started-identity.md)
 + Journeys {#orchestrate-journeys}
    + Reizen{#about-journeys}
       + [Algemeen principe](using/building-journeys/journey.md)
       + [Journeyversies](using/building-journeys/journey-versions.md)
-      + [Testprofielen maken](using/building-journeys/creating-test-profiles.md)
       + [Integreren met intelligente services](using/building-journeys/ai-services-overview.md)
    + Een journey maken{#create-journey}
       + [Aan de slag met reizen](using/building-journeys/journey-gs.md)
@@ -198,17 +213,21 @@ ht-degree: 49%
       + [Een bericht verzenden naar abonnees](using/building-journeys/message-to-subscribers-uc.md)
       + [Leveringen opwaarderen](using/building-journeys/ramp-up-deliveries-uc.md)
 + Bijhouden en bewaken {#reporting}
-   + [Berichtcontrole](using/messages/message-monitoring.md)
+   + [Berichtcontrole](using/reports/message-monitoring.md)
    + Live-rapport {#live-report}
       + [Het dashboard voor Live-rapporten openen](using/reports/live-report.md)
       + [Journey Live-rapport](using/reports/journey-live-report.md)
       + [E-mailLive-rapport](using/reports/email-live-report.md)
       + [Rapport Push Live](using/reports/push-live-report.md)
+      + [Openingspagina Live-rapport](using/reports/lp-report-live.md)
+      + [Abonnementenlijst Live-rapport](using/reports/subscription-report-live.md)
    + Algemeen rapport {#global-report}
       + [Het globale rapportdashboard van de toegang](using/reports/global-report.md)
       + [Journey Global-rapport](using/reports/journey-global-report.md)
       + [E-mailglobaal rapport](using/reports/email-global-report.md)
       + [Push Global-rapport](using/reports/push-global-report.md)
+      + [Openingspagina Global-rapport](using/reports/lp-report-global.md)
+      + [Abonnementenlijst Global-rapport](using/reports/subscription-report-global.md)
    + Reisrapporten {#reports}
       + [Trainingsrapporten maken](using/reports/sharing-overview.md)
       + [Lijst met gebeurtenisvelden voor stappen](using/reports/sharing-field-list.md)
@@ -221,18 +240,9 @@ ht-degree: 49%
          + [Identiteitsvelden](using/reports/sharing-identity-fields.md)
       + [Voorbeelden van query&#39;s](using/reports/query-examples.md)
    + Leverbaarheid {#deliverability}
-      + [Aan de slag met de prestaties](using/messages/deliverability.md)
-      + [Onderdrukkingslijst](using/messages/suppression-list.md)
-      + [Lijst van gewenste personen](using/messages/allow-list.md)
-+ Landingspagina’s {#landing-pages}
-   + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
-   + [Een landingspagina maken](using/landing-pages/create-lp.md)
-   + [Een openingspagina ontwerpen](using/landing-pages/design-lp.md)
-   + [Een abonnementenlijst maken](using/landing-pages/subscription-list.md)
-   + [Gebruiksscenario’s](using/landing-pages/lp-use-cases.md)
-   + Rapportage {#lp-reporting}
-      + [Rapportage landingspagina](using/landing-pages/lp-report.md)
-      + [Melding van abonnementenlijsten](using/landing-pages/subscription-report.md)
+      + [Aan de slag met de prestaties](using/reports/deliverability.md)
+      + [Onderdrukkingslijst](using/reports/suppression-list.md)
+      + [Lijst van gewenste personen](using/reports/allow-list.md)
 + Beslissingsbeheer {#offer-decisioniong}
    + Aan de slag met het beheer van beslissingen {#get-started-decision}
       + [Over het beheer van besluiten](using/offers/get-started/starting-offer-decisioning.md)
@@ -313,6 +323,7 @@ ht-degree: 49%
          + [Een beslissing verwijderen](using/offers/api-reference/activities-api/activities/delete.md)
       + Levering aanbieden met behulp van API&#39;s {#offer-delivery}
          + [Beslissingen-API](using/offers/api-reference/decisions-api/deliver-offers.md)
+         + [Batchbeslissing-API](using/offers/api-reference/batch-api/deliver-offers-batch.md)
          + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
 + Data management {#data-management}
    + [Schema&#39;s](using/start/get-started-schemas.md)
@@ -322,8 +333,8 @@ ht-degree: 49%
    + [Aan de slag met de Journey Optimizer-configuratie](using/configuration/get-started-configuration.md)
    + Berichten configureren {#configuration-message}
       + Configuratie van pushmeldingen{#push-config}
-         + [Aan de slag met de pushconfiguratie](using/messages/push-gs.md)
-         + [Pushmeldingskanaal configureren](using/messages/push-configuration.md)
+         + [Aan de slag met de pushconfiguratie](using/configuration/push-gs.md)
+         + [Pushmeldingskanaal configureren](using/configuration/push-configuration.md)
       + E-mailconfiguratie {#email-configuration}
          + Subdomeinen delegeren {#delegate-subdomains}
             + [Aan de slag met subdomeindelegatie](using/configuration/about-subdomain-delegation.md)
@@ -338,6 +349,8 @@ ht-degree: 49%
          + [Primair e-mailadres wijzigen](using/configuration/primary-email-addresses.md)
       + [Sms-kanaal configureren](using/configuration/sms-configuration.md)
       + [Voorinstellingen voor berichten maken](using/configuration/message-presets.md)
+      + [Regels voor frequenties configureren](using/configuration/frequency-rules.md)
+   + [Landingspagina’s configureren](using/configuration/lp-configuration.md)
    + Reizen configureren {#configure-journeys}
       + [Informatie over gegevensbronnen, gebeurtenissen en handelingen](using/configuration/about-data-sources-events-actions.md)
       + [Integreren met externe systemen](using/configuration/external-systems.md)

@@ -3,7 +3,7 @@ title: Journey Optimizer Aan de slag voor systeembeheer
 description: Als systeembeheerder, leer meer hoe te om met Journey Optimizer te werken
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 2%
@@ -48,7 +48,7 @@ Voer de onderstaande stappen uit:
 
 1. **Berichten en kanalen configureren**: voorinstellingen definiëren, instellingen voor e-mail- en pushberichten aanpassen en aanpassen
 
-   * Definiëren **Instellingen voor pushmeldingen** in beide [!DNL Adobe Experience Platform] en [!DNL Adobe Experience Platform Launch]. [Meer informatie](../../messages/push-gs.md)
+   * Definiëren **Instellingen voor pushmeldingen** in beide [!DNL Adobe Experience Platform] en [!DNL Adobe Experience Platform Launch]. [Meer informatie](../../configuration/push-gs.md)
 
    * Maken **berichtvoorinstellingen** om alle technische parameters te configureren die vereist zijn voor e-mail- en pushberichten. [Meer informatie](../../configuration/message-presets.md)
 
@@ -64,8 +64,8 @@ Voer de onderstaande stappen uit:
 
 1. **De onderdrukking en lijst van gewenste personen beheren**: verbeter uw leverbaarheid met onderdrukking en lijsten van gewenste personen
 
-   * A [onderdrukkingslijst](../../messages/suppression-list.md) bestaat uit e-mailadressen die u van uw leveringen wilt uitsluiten, omdat het verzenden naar deze contacten uw verzendende reputatie en leveringspercentages zou kunnen beschadigen. U kunt alle e-mailadressen controleren die automatisch van het verzenden van een reis, zoals ongeldige adressen, adressen worden uitgesloten die constant elektronische stuiteren, en uw e-mailreputatie, en ontvangers die een spamklacht van één of andere soort tegen één van uw e-mailberichten negatief zouden kunnen beïnvloeden. Leer hoe u de [onderdrukkingslijst](../../configuration/manage-suppression-list.md) en [opnieuw](../../configuration/retries.md).
+   * A [onderdrukkingslijst](../../reports/suppression-list.md) bestaat uit e-mailadressen die u van uw leveringen wilt uitsluiten, omdat het verzenden naar deze contacten uw verzendende reputatie en leveringspercentages zou kunnen beschadigen. U kunt alle e-mailadressen controleren die automatisch van het verzenden van een reis, zoals ongeldige adressen, adressen worden uitgesloten die constant elektronische stuiteren, en uw e-mailreputatie, en ontvangers die een spamklacht van één of andere soort tegen één van uw e-mailberichten negatief zouden kunnen beïnvloeden. Leer hoe u de [onderdrukkingslijst](../../configuration/manage-suppression-list.md) en [opnieuw](../../configuration/retries.md).
    ![](../assets/suppression-list-filtering-example.png)
 
-   * De [lijst van gewenste personen](../../messages/allow-list.md) kunt u afzonderlijke e-mailadressen of domeinen opgeven die de enige ontvangers of domeinen zijn die geautoriseerd zijn om de e-mails te ontvangen die u verzendt vanuit een specifieke sandbox. Dit kan voorkomen dat u per ongeluk e-mailberichten naar de adressen van de echte klant stuurt wanneer u zich in een testomgeving bevindt. Leer hoe u [de lijst van gewenste personen inschakelen](../../messages/allow-list.md).
-   Meer informatie over het beheer van de aflevering vindt u in [!DNL Adobe Journey Optimizer] [op deze pagina](../../messages/deliverability.md).
+   * De [lijst van gewenste personen](../../reports/allow-list.md) kunt u afzonderlijke e-mailadressen of domeinen opgeven die de enige ontvangers of domeinen zijn die geautoriseerd zijn om de e-mails te ontvangen die u verzendt vanuit een specifieke sandbox. Dit kan voorkomen dat u per ongeluk e-mailberichten naar de adressen van de echte klant stuurt wanneer u zich in een testomgeving bevindt. Leer hoe u [de lijst van gewenste personen inschakelen](../../reports/allow-list.md).
+   Meer informatie over het beheer van de aflevering vindt u in [!DNL Adobe Journey Optimizer] [op deze pagina](../../reports/deliverability.md).

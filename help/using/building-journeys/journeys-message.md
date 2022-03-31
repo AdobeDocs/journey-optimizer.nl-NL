@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 3%
+source-wordcount: '826'
+ht-degree: 2%
 
 ---
 
 # Een bericht toevoegen in een journey{#add-a-message-in-a-journey}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_message"
+>title="Berichtactiviteit"
+>abstract="Met de activiteit Bericht kunt u een push- of e-mailbericht verzenden. Journey Optimizer-berichtmogelijkheden zijn ingebouwd. Het bericht wordt ontworpen en gepubliceerd in het menu van Berichten van Journey Optimizer."
 
 [!DNL Journey Optimizer] berichtmogelijkheden zijn ingebouwd. U hoeft alleen uw inhoud te ontwerpen en uw bericht te publiceren. Zie [deze sectie](../messages/get-started-content.md). Vervolgens voegt u eenvoudig een push- of e-mailbericht toe dat is ontworpen met Journey Optimizer.
 

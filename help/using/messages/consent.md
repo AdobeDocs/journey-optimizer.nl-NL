@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1225'
 ht-degree: 1%
 
 ---
@@ -51,9 +51,9 @@ Eerst moet u een afmeldingskoppeling toevoegen aan een bericht. Volg de ondersta
 
 1. De gastheer het op het derdesysteem van uw keus.
 
-1. [Een bericht maken](create-message.md) in [!DNL Journey Optimizer].
+1. [Een bericht maken](get-started-content.md) in [!DNL Journey Optimizer].
 
-1. Selecteer tekst in uw inhoud en [een koppeling invoegen](message-tracking.md#insert-links) gebruiken van de contextafhankelijke werkbalk.
+1. Selecteer tekst in uw inhoud en [een koppeling invoegen](../design/message-tracking.md#insert-links) gebruiken van de contextafhankelijke werkbalk.
 
    ![](assets/opt-out-insert-link.png)
 
@@ -141,7 +141,7 @@ Omdat veel klanten op zoek zijn naar een eenvoudiger proces om hun abonnement op
 
 Volg onderstaande stappen om een koppeling om te weigeren toe te voegen in uw e-mail.
 
-1. [Een koppeling invoegen](message-tracking.md#insert-links) en selecteert u **[!UICONTROL One click Opt-out]** als het type koppeling.
+1. [Een koppeling invoegen](../design/message-tracking.md#insert-links) en selecteert u **[!UICONTROL One click Opt-out]** als het type koppeling.
 
    ![](assets/message-tracking-opt-out.png)
 
@@ -155,6 +155,10 @@ Volg onderstaande stappen om een koppeling om te weigeren toe te voegen in uw e-
 
 1. Voer de URL in van de bestemmingspagina waarop de gebruiker wordt omgeleid wanneer het abonnement wordt opgezegd. Deze pagina is alleen hier om te bevestigen dat de optie Weigeren is gelukt.
 
+   >[!NOTE]
+   >
+   >Als u de optie **List-Unsubscribe** Deze URL wordt ook gebruikt wanneer gebruikers op de koppeling Abonnement opzeggen in de e-mailheader klikken. [Meer informatie](#unsubscribe-header)
+
    ![](assets/message-tracking-opt-out-confirmation.png)
 
    U kunt uw koppelingen aanpassen. Meer informatie over gepersonaliseerde URL&#39;s vindt u in [deze sectie](../personalization/personalization-syntax.md).
@@ -163,19 +167,41 @@ Volg onderstaande stappen om een koppeling om te weigeren toe te voegen in uw e-
 
 Zodra uw bericht door [reis](../building-journeys/journey.md)Als een ontvanger op de koppeling om te weigeren klikt, wordt zijn profiel onmiddellijk uitgeschakeld.
 
-### Koppeling in berichtkop opzeggen {#unsubscribe-email}
+### Koppeling in berichtkop opzeggen {#unsubscribe-header}
 
-Als de e-mailclient van de ontvangers ondersteuning biedt voor het weergeven van een niet-geabonneerde koppeling in de e-mailheader, worden e-mails verzonden met [!DNL Journey Optimizer] neemt deze koppeling automatisch op.
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_unsubscribe"
+>title="Koppeling voor abonnement toevoegen aan e-mailkoptekst"
+>abstract="Schakel List-Unsubscribe in om een koppeling voor afmelden aan de e-mailkoptekst toe te voegen. Als u een URL voor afmelden wilt instellen, voegt u een koppeling om te weigeren in de inhoud van het e-mailbericht in."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=en#one-click-opt-out" text="Eén klik op Weigeren"
+
+Als de [List-Unsubscribe, optie](../configuration/message-presets.md#list-unsubscribe) is ingeschakeld op het niveau van de berichtvoorinstelling. De bijbehorende e-mails worden verzonden met [!DNL Journey Optimizer] zal een unsubscribe verbinding in de e-mailkopbal omvatten.
 
 De koppeling voor afmelden wordt bijvoorbeeld als volgt weergegeven in Gmail:
 
-![](assets/unsubscribe-email.png)
+![](assets/unsubscribe-header.png)
 
-Afhankelijk van de e-mailclient heeft het klikken op de koppeling voor het afmelden van abonnementen in de header een van de volgende gevolgen:
+>[!NOTE]
+>
+>Als u de koppeling voor afmelden in de e-mailheader wilt weergeven, moet de e-mailclient van de ontvangers deze functie ondersteunen.
+
+Het afmeldingsadres is het standaardadres **[!UICONTROL Mailto (unsubscribe)]** adres dat wordt weergegeven in de bijbehorende berichtvoorinstelling. [Meer informatie](../configuration/message-presets.md#list-unsubscribe).
+
+Als u een gepersonaliseerde URL voor afmelden wilt instellen, voegt u een koppeling voor een eenmalige aanmelding in de inhoud van het e-mailbericht in en voert u de gewenste URL in. [Meer informatie](#one-click-opt-out)
+
+Afhankelijk van de e-mailclient kan het klikken op de koppeling voor het opzeggen van abonnementen in de koptekst de volgende effecten hebben:
+
+* Het afmeldingsverzoek wordt naar het afmeldingsadres verzonden.
+
+* De ontvanger wordt verwezen naar de bestemmingspagina URL die u toen het toevoegen van de opt-out verbinding aan uw bericht specificeerde.
+
+   >[!NOTE]
+   >
+   >Als u geen koppeling voor het uitschakelen van een muisklik toevoegt aan uw berichtinhoud, wordt er geen bestemmingspagina weergegeven.
 
 * Het corresponderende profiel wordt direct uitgeschakeld en deze keuze wordt in het Experience Platform bijgewerkt. Meer informatie in het dialoogvenster [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
 
-* Dit heeft hetzelfde effect als klikken op de koppeling Abonnement opzeggen in de e-mailinhoud: de ontvanger wordt omgeleid naar een bestemmingspagina met een knop om te bevestigen dat hij of zij het programma afsluit. Meer informatie over beheer van opt-out in [deze sectie](#opt-out-management).
+<!--To define a custom unsubscribe URL and email address, you must enable it in the message presets. [Learn more](../configuration/message-presets.md)-->
 
 ## Push opt-out-beheer {#push-opt-out-management}
 

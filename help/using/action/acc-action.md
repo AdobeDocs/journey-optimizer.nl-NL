@@ -6,16 +6,21 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
 
 # Integreren met Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
 
-Deze integratie is beschikbaar voor Adobe Campaign Classic v7 vanaf versie 21.1 en Adobe Campaign v8. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging.
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_acc"
+>title="Handelingen voor Adobe Campaign v7/v8"
+>abstract="Deze integratie is beschikbaar voor Adobe Campaign Classic v7 en v8. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging. De verbinding tussen de Journey Optimizer en de instanties van de Campagne wordt opstelling door Adobe bij leveringstijd."
+
+Deze integratie is beschikbaar voor Adobe Campaign Classic v7 vanaf versie 7.1 en Adobe Campaign v8. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging.
 
 De verbinding tussen de Journey Optimizer en de instanties van de Campagne wordt opstelling door Adobe bij leveringstijd.
 
@@ -39,7 +44,7 @@ Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de
 
 In Campagne, moet u een transactiebericht en zijn bijbehorende gebeurtenis tot stand brengen en publiceren. Zie de [Adobe Campaign-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}.
 
-U kunt uw JSON-lading voor elk bericht samenstellen volgens het onderstaande patroon. U zult dan deze nuttige lading wanneer het vormen van de actie in Journey Orchestration (zie hieronder) kleven
+U kunt uw JSON-lading voor elk bericht samenstellen volgens het onderstaande patroon. U gaat deze payload vervolgens plakken tijdens het configureren van de handeling in Journey Optimizer (zie hieronder)
 
 Hier volgt een voorbeeld:
 

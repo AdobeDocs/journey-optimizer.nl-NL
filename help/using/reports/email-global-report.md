@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2bead395-082a-4fea-ad10-b2b2c5f484e9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -75,9 +75,9 @@ De **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]** widgets
 
 * **[!UICONTROL Ignored]**: Het totale aantal tijdelijke berichten, zoals buiten het kantoor, of een technische fout, bijvoorbeeld als het type afzender postmaster is.
 
-Voor meer informatie over grenzen raadpleegt u de [Onderdrukkingslijst](../messages/suppression-list.md) pagina.
+Voor meer informatie over grenzen raadpleegt u de [Onderdrukkingslijst](../reports/suppression-list.md) pagina.
 
-De **[!UICONTROL Error Reasons]** de grafiek en de lijst laten u zien welke fout tijdens uw levering voorkwam.
+De **[!UICONTROL Error Reasons]** en **[!UICONTROL Exclude Reasons]** in grafieken en tabellen kunt u zien welke fout en uitsluitingen tijdens de levering zijn opgetreden.
 
 ![](assets/global_report_6.png)
 
@@ -122,4 +122,4 @@ The **[!UICONTROL Offers detailed statistic]** table contains the available data
 >
 >De profielen met **[!UICONTROL Suppressed]** of **[!UICONTROL Not allowed]** status worden uitgesloten tijdens het verzenden van berichten. Daarom moet **Reisrapporten** geeft aan dat deze profielen door de reis zijn gegaan ([Segment lezen](../building-journeys/read-segment.md) en [Bericht](../building-journeys/journeys-message.md) de **E-mailrapporten** worden niet opgenomen in de **[!UICONTROL Sent]** Metrische gegevens worden uitgefilterd voordat e-mail wordt verzonden.
 >
->Meer informatie over de [Onderdrukkingslijst](../messages/suppression-list.md) en [Lijst van gewenste personen](../messages/allow-list.md). Als u de reden voor alle uitsluitingsgevallen wilt achterhalen, kunt u de opdracht [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.
+>Meer informatie over de [Onderdrukkingslijst](../reports/suppression-list.md) en [Lijst van gewenste personen](allow-list.md). Als u de reden voor alle uitsluitingsgevallen wilt achterhalen, kunt u de opdracht [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;}.

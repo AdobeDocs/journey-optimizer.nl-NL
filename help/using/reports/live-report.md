@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,17 @@ Gegevens zijn beschikbaar in het dialoogvenster **[!UICONTROL Live report]** zod
 
    ![](assets/report_2.png)
 
+* Als u van wilt schakelen **[!UICONTROL Live report]** aan de **[!UICONTROL Global report]** voor uw levering klikt u op **[!UICONTROL Global view]** met de tabschakeloptie.
+
+   ![](assets/report_3.png)
+
 ## Het dashboard aanpassen {#modify-dashboard}
 
 Elk rapportdashboard kan worden gewijzigd door widgets te vergroten of te verkleinen of te verwijderen. Het wijzigen van de widgets heeft alleen invloed op het dashboard van de huidige gebruiker. Andere gebruikers zien hun eigen dashboards of de dashboards die standaard zijn ingesteld.
 
 1. Kies of u testgebeurtenissen wilt uitsluiten van uw rapporten met de schakelbalk. Raadpleeg voor meer informatie over testgebeurtenissen [deze pagina](../building-journeys/testing-the-journey.md).
+
+   De **[!UICONTROL Exclude test events]** Deze optie is alleen beschikbaar voor Journey-rapporten.
 
    ![](assets/report_modify_6.png)
 

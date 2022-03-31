@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 2%
@@ -28,8 +28,8 @@ U gebruikt de volgende typen hulpfuncties:
 ➡️ [Leer hoe u in deze video hulpfuncties kunt gebruiken](#video)
 
 Alvorens u begint, zorg ervoor u weet hoe te om deze elementen te vormen:
-* Een e-mailbericht. [Meer informatie](../messages/create-message.md)
-* De hoofdtekst van een e-mail. [Meer informatie](../messages/create-email-content.md).
+* Een e-mailbericht. [Meer informatie](../messages/get-started-content.md)
+* De hoofdtekst van een e-mail. [Meer informatie](../design/create-email-content.md).
 * Een eenheidsgebeurtenis. [Meer informatie](../event/about-events.md).
 * Een reis die begint met een evenement. [Meer informatie](../building-journeys/using-the-journey-designer.md).
 
@@ -147,7 +147,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 
       **[!UICONTROL Contextual attributes]** zijn pas beschikbaar nadat de reiscontext aan het bericht is doorgegeven.
 
-   1. Selecteren **[!UICONTROL Journey Orchestration]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, breid dan uit **[!UICONTROL productListItems]** knooppunt.
+   1. Selecteren **[!UICONTROL Journey Optimizer]** > **[!UICONTROL Events]** > ***[!UICONTROL event_name]***, breid dan uit **[!UICONTROL productListItems]** knooppunt.
 
       In dit voorbeeld: *event_name* vertegenwoordigt de naam van uw gebeurtenis.
 

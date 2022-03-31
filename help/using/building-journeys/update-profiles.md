@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
 # Profiel bijwerken {#update-profile}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_update_profiles"
+>title="Profielactiviteit bijwerken"
+>abstract="Met de actie Profiel bijwerken kunt u een bestaand Adobe Experience Platform-profiel bijwerken met informatie die afkomstig is van de gebeurtenis, een gegevensbron of een specifieke waarde gebruiken."
 
 De **[!UICONTROL Update Profile]** Met actieactiviteit kunt u een bestaand Adobe Experience Platform-profiel bijwerken met informatie die afkomstig is van de gebeurtenis, een gegevensbron of een specifieke waarde gebruiken.
 
@@ -32,7 +37,7 @@ In de testmodus wordt de profielupdate niet gesimuleerd. De update wordt uitgevo
 
 Alleen testprofielen kunnen een reis maken in de testmodus. U kunt een nieuw testprofiel maken of een bestaand profiel omzetten in een testprofiel. In Adobe Experience Platform kunt u profielkenmerken bijwerken via een CSV-bestand importeren of API-aanroepen. Een eenvoudigere methode is om een **Profiel bijwerken** en wijzig het Booleaanse veld voor het testprofiel van false in true.
 
-Raadpleeg voor meer informatie over de manier waarop u een bestaand profiel in een testprofiel kunt omzetten [sectie](../building-journeys/creating-test-profiles.md#create-test-profiles-csv).
+Raadpleeg voor meer informatie over de manier waarop u een bestaand profiel in een testprofiel kunt omzetten [sectie](../segment/creating-test-profiles.md#create-test-profiles-csv).
 
 ## De profielupdate gebruiken
 

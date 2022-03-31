@@ -21,7 +21,7 @@ ht-degree: 11%
 
 **[!UICONTROL Product profiles]** zijn reeksen gebruikers die de zelfde toestemmingen en zandbakken binnen uw organisatie delen.
 
-The [!DNL Journey Optimizer] product allows you to select between different out-of-the-box **[!UICONTROL Product profiles]** with different levels of permissions to assign to your users. For more information on the available **[!UICONTROL Product profiles]**, refer to this [page](ootb-product-profiles.md).
+De [!DNL Journey Optimizer] kunt u kiezen tussen verschillende **[!UICONTROL Product profiles]** met verschillende machtigingsniveaus om toe te wijzen aan uw gebruikers. Voor meer informatie over de beschikbare **[!UICONTROL Product profiles]**, verwijzen naar [page](ootb-product-profiles.md).
 
 Elke gebruiker die tot een **[!UICONTROL Product profiles]** heeft recht op de Adobe-apps en -services in het product.
 
@@ -35,7 +35,7 @@ De lijst met alle out-of-the-box productprofielen met toegewezen machtigingen vi
 
 Om een **[!UICONTROL Product profile]**:
 
-1. In the [!DNL Admin Console], from the **[!UICONTROL Products]** tab, select the **[!UICONTROL Experience Cloud - Platform powered applications]** product.
+1. In de [!DNL Admin Console]van de **[!UICONTROL Products]** selecteert u de **[!UICONTROL Experience Cloud - Platform powered applications]** product.
 
 1. Selecteer een **[!UICONTROL Product profile]**.
 
@@ -45,7 +45,7 @@ Om een **[!UICONTROL Product profile]**:
 
    ![](assets/do-not-localize/access_control_3.png)
 
-1. Type in your user&#39;s name or email address and select the user.
+1. Typ de naam of het e-mailadres van uw gebruiker en selecteer de gebruiker.
 
    Als de gebruiker niet eerder in [!DNL Admin Console], verwijst u naar de [Gebruikersdocumentatie toevoegen](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users).
 
@@ -63,9 +63,9 @@ Wanneer de gebruiker tot de instantie toegang heeft, zal uw gebruiker een specif
 
 ## Een bestaand productprofiel bewerken {#edit-product-profile}
 
-For out-of-the-box or custom **[!UICONTROL Product profiles]**, you can decide at any time to add or delete permissions.
+Voor uitpakken of aanpassen **[!UICONTROL Product profiles]** kunt u op elk gewenst moment besluiten machtigingen toe te voegen of te verwijderen.
 
-In this example, we want to add **[!UICONTROL Permissions]** related to the **[!UICONTROL Message]** capability for users assigned to the Journey viewer **[!UICONTROL Product profile]**. De gebruikers zullen dan berichten kunnen publiceren.
+In dit voorbeeld willen we toevoegen **[!UICONTROL Permissions]** in verband met de **[!UICONTROL Message]** mogelijkheden voor gebruikers die zijn toegewezen aan de Journey-viewer **[!UICONTROL Product profile]**. De gebruikers zullen dan berichten kunnen publiceren.
 
 Let op: als u een uit-van-de-doos of aangepast **[!UICONTROL Product profile]**, heeft dit gevolgen voor elke gebruiker die aan deze **[!UICONTROL Product profile]**.
 
@@ -85,7 +85,7 @@ Let op: als u een uit-van-de-doos of aangepast **[!UICONTROL Product profile]**,
 
 1. Van de **[!UICONTROL Available Permission Items]** Selecteer de machtigingen die aan uw **[!UICONTROL Product profile]** door op de plusknop (+) te klikken.
 
-   Here, we add the **[!UICONTROL Publish messages]** permission.
+   Hier voegen we de **[!UICONTROL Publish messages]** toestemming.
 
    ![](assets/do-not-localize/access_control_7.png)
 
@@ -123,17 +123,17 @@ Als u onze **Reizen, alleen-lezen** **[!UICONTROL product profiles]**:
 
 1. Als u klaar bent, klikt u op **[!UICONTROL Save]** en selecteer de nieuwe **[!UICONTROL product profiles]**.
 
-1. To add permissions for users to access different features, select the **[!UICONTROL Permissions]** tab.
+1. Als u machtigingen voor gebruikers wilt toevoegen om toegang te krijgen tot verschillende functies, selecteert u de optie **[!UICONTROL Permissions]** tab.
 
 1. Selecteren tussen de verschillende mogelijkheden, zoals **[!DNL Messages]**, **[!DNL Segments]** of **[!DNL Decision management]** beschikbaar in [!DNL Journey Optimizer] in het linkermenu.
 
-   Here we select the **[!UICONTROL Journeys]** capability.
+   Hier selecteren we de **[!UICONTROL Journeys]** capaciteit.
 
    ![](assets/do-not-localize/access_control_11.png)
 
 1. Van de **[!UICONTROL Available Permission Items]** Selecteer de machtigingen die aan uw **[!UICONTROL Product profile]** door op de plusknop (+) te klikken.
 
-   Here we select **[!DNL View journeys]** and **[!DNL View journeys event, data sources, actions]**.
+   Hier selecteren we **[!DNL View journeys]** en **[!DNL View journeys event, data sources, actions]**.
 
    ![](assets/do-not-localize/access_control_12.png)
 

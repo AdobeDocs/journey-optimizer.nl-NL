@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,15 @@ Gebruik de **[!UICONTROL Global report]** om de impact van uw reizen en levering
 
 * Als u een reis of leveringen in het kader van een reis wilt richten, vanaf **[!UICONTROL Journeys]** en klik op de knop **[!UICONTROL Global report]** pictogram. U kunt dan de Reis, E-mail en Duw vinden **[!UICONTROL Global report]**.
 
+   ![](assets/report_6.png)
+
 * Als u een specifieke levering wilt richten, van **[!UICONTROL Global view]** van de **[!UICONTROL Executions]** tabblad van uw berichten, selecteert u **[!UICONTROL Global Report]** in het geavanceerde menu van de geselecteerde levering.
+
+   ![](assets/report_4.png)
+
+* Als u van wilt schakelen **[!UICONTROL Global report]** aan de **[!UICONTROL Live report]** voor uw levering klikt u op **[!UICONTROL Live view]** met de tabschakeloptie.
+
+   ![](assets/report_5.png)
 
 ## Het dashboard aanpassen {#modify-dashboard}
 
@@ -34,6 +42,8 @@ Elk rapportdashboard kan worden gewijzigd door de tijdsperiode te wijzigen en wi
    ![](assets/report_modify_1.png)
 
 1. Kies of u testgebeurtenissen wilt uitsluiten van uw rapporten met de schakelbalk. Raadpleeg voor meer informatie over testgebeurtenissen [deze pagina](../building-journeys/testing-the-journey.md).
+
+   De **[!UICONTROL Exclude test events]** Deze optie is alleen beschikbaar voor Journey-rapporten.
 
    ![](assets/report_modify_2.png)
 

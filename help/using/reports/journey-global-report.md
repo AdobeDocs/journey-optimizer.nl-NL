@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ De **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]** widgets
 
 * **[!UICONTROL Ignored]**: Het totale aantal tijdelijke gegevens, zoals Buiten-kantoor, of een technische fout, bijvoorbeeld als het type afzender postmaster is.
 
-Voor meer informatie over grenzen raadpleegt u de [Onderdrukkingslijst](../messages/suppression-list.md) pagina.
+Voor meer informatie over grenzen raadpleegt u de [Onderdrukkingslijst](../reports/suppression-list.md) pagina.
 
 ![](assets/global_report_22.png)
 
@@ -212,6 +212,8 @@ De **[!UICONTROL Push - Tracking statistics]** bevat de beschikbare gegevens voo
 
 * **[!UICONTROL Engagement Rate]**: Percentage van het aantal keren dat wordt geopend en handelingen voor deze pushmelding, bijvoorbeeld als het profiel de pushmelding heeft geopend of als op een knop is geklikt.
 
+![](assets/global_report_24.png)
+
 De **[!UICONTROL Push notification summary]** De grafiek bevat de gegevens die beschikbaar zijn voor verzonden pushberichten, zoals:
 
 * **[!UICONTROL Opens]**: Aantal keren dat een bericht in een levering werd geopend.
@@ -242,6 +244,8 @@ De **[!UICONTROL Send time optimization]** Geeft details over het succes van uw 
 ![](assets/global_report_18.png)
 
 De **[!UICONTROL Error Reasons]** de grafiek en de lijst laten u zien welke fout tijdens uw levering voorkwam.
+
+De **[!UICONTROL Excluded reasons]** de grafiek en de lijst tonen de verschillende redenen die gebruikersprofielen, uitgesloten van de gerichte profielen, van het ontvangen van het bericht verhinderden.
 
 ![](assets/global_report_19.png)
 

@@ -6,7 +6,7 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 9%
@@ -22,7 +22,7 @@ Om uw reizen te kunnen tot stand brengen en berichten te verzenden, moet u door 
 
 1. **Berichten en kanalen configureren**: voorinstellingen definiëren, e-mail- en pushberichten aanpassen en aanpassen
 
-   * Instellingen voor pushmeldingen definiëren in beide [!DNL Adobe Experience Platform] en [!DNL Adobe Experience Platform Launch]. [Meer informatie](../messages/push-gs.md)
+   * Instellingen voor pushmeldingen definiëren in beide [!DNL Adobe Experience Platform] en [!DNL Adobe Experience Platform Launch]. [Meer informatie](../configuration/push-gs.md)
 
    * Maak voorinstellingen voor berichten om alle technische parameters te configureren die vereist zijn voor e-mail- en pushberichten. [Meer informatie](message-presets.md)
 
@@ -31,7 +31,7 @@ Om uw reizen te kunnen tot stand brengen en berichten te verzenden, moet u door 
    * Het aantal dagen beheren waarin opnieuw pogingen worden uitgevoerd voordat e-mailadressen naar de suppressielijst worden verzonden. [Meer informatie](manage-suppression-list.md)
 
    <!--
-    * Understand push notification flow. [Learn more](../messages/push-gs.md)
+    * Understand push notification flow. [Learn more](../configuration/push-gs.md)
     -->
 
 1. **Subdomeinen delegeren**: voor om het even welk nieuw subdomain dat in Journey Optimizer moet worden gebruikt, zal de eerste stap het delegeren zijn. [Meer informatie](about-subdomain-delegation.md)

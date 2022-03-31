@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 11%
+source-wordcount: '1116'
+ht-degree: 10%
 
 ---
 
 # Een bedrijfsgebeurtenis configureren {#configure-a-business-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_business"
+>title="Zakelijke gebeurtenissen"
+>abstract="Met de gebeurtenisconfiguratie kunt u de informatie definiëren die Journey Optimizer ontvangt als gebeurtenissen. U kunt meerdere gebeurtenissen gebruiken (in verschillende stappen van een reis) en verschillende reizen kunnen dezelfde gebeurtenis gebruiken. In tegenstelling tot eenheidsgebeurtenissen zijn bedrijfsgebeurtenissen niet gekoppeld aan een specifiek profiel. Het type gebeurtenis-identiteitskaart is altijd op regel-gebaseerd."
 
 In tegenstelling tot eenheidsgebeurtenissen zijn bedrijfsgebeurtenissen niet gekoppeld aan een specifiek profiel. Het type gebeurtenis-identiteitskaart is altijd op regel-gebaseerd. Lees meer over bedrijfsgebeurtenissen in [deze sectie](../event/about-events.md).
 
@@ -23,11 +28,12 @@ Bedrijfsevenementen kunnen &quot;een product is weer in voorraad&quot;, &quot;de
 
 >[!NOTE]
 >
->U kunt ook naar de gebruiksscenario&#39;s van bedrijfsgebeurtenissen kijken [zelfstudie](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html).
+>U kunt ook naar de gebruiksscenario&#39;s van bedrijfsgebeurtenissen kijken [zelfstudie](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html). Merk op dat het schema niet voor profiel te hoeven worden toegelaten.
 
 ## Belangrijke opmerkingen {#important-notes}
 
-* Er zijn alleen tijdreeksschema&#39;s beschikbaar. Er zijn geen schema&#39;s beschikbaar voor ervaringsgebeurtenissen, beslissingsgebeurtenissen en trapsgewijze gebeurtenissen. Het gebeurtenisschema moet een primaire identiteit bevatten. De volgende velden moeten naar wens worden ingesteld: `_id` en `timestamp`
+* Er zijn alleen tijdreeksschema&#39;s beschikbaar. Er zijn geen schema&#39;s beschikbaar voor ervaringsgebeurtenissen, beslissingsgebeurtenissen en trapsgewijze gebeurtenissen.
+* Het gebeurtenisschema moet een primaire identiteit bevatten die niet op personen is gebaseerd. De volgende velden moeten zijn geselecteerd wanneer u de gebeurtenis definieert: `_id` en `timestamp`
 * De bedrijfsgebeurtenissen kunnen slechts als eerste stap van een reis worden gelaten vallen.
 * Wanneer het laten vallen van een bedrijfsgebeurtenis als eerste stap van een reis, zal het plannertype van de reis &quot;bedrijfsgebeurtenis&quot;zijn.
 * Slechts kan een gelezen segmentactiviteit na een bedrijfsgebeurtenis worden gelaten vallen. Deze wordt automatisch toegevoegd als de volgende stap.
@@ -78,7 +84,7 @@ Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
 
    ![](assets/jo-event5-business.png)
 
-   Er zijn alleen tijdreeksschema&#39;s beschikbaar. Er zijn geen schema&#39;s beschikbaar voor ervaringsgebeurtenissen, beslissingsgebeurtenissen en trapsgewijze gebeurtenissen. Het gebeurtenisschema moet een primaire identiteit bevatten. De volgende velden moeten naar wens worden ingesteld: `_id` en `timestamp`
+   Er zijn alleen tijdreeksschema&#39;s beschikbaar. Er zijn geen schema&#39;s beschikbaar voor ervaringsgebeurtenissen, beslissingsgebeurtenissen en trapsgewijze gebeurtenissen. Het gebeurtenisschema moet een primaire identiteit bevatten die niet op personen is gebaseerd. De volgende velden moeten zijn geselecteerd wanneer u de gebeurtenis definieert: `_id` en `timestamp`
 
    ![](assets/test-profiles-4.png)
 

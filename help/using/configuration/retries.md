@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 1%
@@ -19,7 +19,7 @@ Wanneer een e-mailbericht mislukt als gevolg van een tijdelijke **Zachte stuit**
 
 >[!NOTE]
 >
->Meer informatie over de fouttypen vindt u in het dialoogvenster [Typen leveringsfouten](../messages/suppression-list.md#delivery-failures) sectie.
+>Meer informatie over de fouttypen vindt u in het dialoogvenster [Typen leveringsfouten](../reports/suppression-list.md#delivery-failures) sectie.
 
 In de standaardconfiguratie is de drempel ingesteld op 5 fouten.
 
@@ -45,7 +45,7 @@ Als de standaardwaarde 5 niet aan uw wensen voldoet, kunt u de foutdrempel wijzi
 
    >[!CAUTION]
    >
-   >Om het even welke waarde hoger dan 10 kan de kwesties van de leveringsreputatie, evenals IP het vertragen of het voegend op lijst van gewenste personen door ISPs veroorzaken. [Meer informatie over te leveren items](../messages/deliverability.md)
+   >Om het even welke waarde hoger dan 10 kan de kwesties van de leveringsreputatie, evenals IP het vertragen of het voegend op lijst van gewenste personen door ISPs veroorzaken. [Meer informatie over te leveren items](../reports/deliverability.md)
 
 ## Periode voor opnieuw proberen {#retry-duration}
 

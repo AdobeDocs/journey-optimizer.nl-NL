@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: cab7c6da-aba7-439d-a638-79eb0c949837
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -57,10 +57,13 @@ De **[!UICONTROL Sending metrics - by push]** de tabel geeft het succes van uw l
 
 * **[!UICONTROL Opens]**: Aantal keren dat een bericht in een levering werd geopend.
 
+![](assets/live_report_9.png)
+
+De **[!UICONTROL Error Reasons]** en **[!UICONTROL Exclude Reasons]** in grafieken en tabellen kunt u zien welke fout en uitsluitingen tijdens de levering zijn opgetreden.
+
+De **[!UICONTROL Sending statistics - Failed]** met widget kunt u zien hoeveel fouten en golven er zijn opgetreden.
+
 ![](assets/live_report_4.png)
 
 De **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** en **[!UICONTROL Breakdown by platform]** in grafieken en tabellen wordt aangegeven hoe succesvol uw pushmelding is, afhankelijk van het besturingssysteem.
 
-De **[!UICONTROL Sending statistics - Failed]** Met de widget kunt u zien hoeveel fout en stuit er zijn opgetreden.
-
-De **[!UICONTROL Error Reasons]** de grafiek en de lijst laten u zien welke fout tijdens uw levering voorkwam.

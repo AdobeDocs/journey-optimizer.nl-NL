@@ -4,7 +4,7 @@ description: Meer informatie over het gebruik van Adobe Experience Platform-gege
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 2cca25d16de520dd905143b2b3fe4bea6dbd7801
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 12%
@@ -38,6 +38,6 @@ Leer hoe u een dataset maakt, deze toewijst aan een schema, er gegevens aan toev
 
 **Zie ook**
 
-* [Creeer een schema, een dataset en ga gegevens in om de profielen van de Test in Journey Optimizer toe te voegen](../building-journeys/creating-test-profiles.md)
+* [Creeer een schema, een dataset en ga gegevens in om de profielen van de Test in Journey Optimizer toe te voegen](../segment/creating-test-profiles.md)
 * [Overzicht van het opnemen van streaming](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl){target=&quot;_blank&quot;}
 * [Gegevens opnemen in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}

@@ -3,7 +3,7 @@ title: Journey Optimizer Aan de slag voor Marketers
 description: Leer als praktijkbeoefenaar meer hoe u met Journey Optimizer kunt werken
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Raadpleeg de volgende secties voor het instellen van uw eerste reis, het toevoeg
 
 1. **Segmenten maken**. Met Journey Optimizer kunt u publiekssegmenten rechtstreeks vanuit het **Segmenten** en ze te gebruiken voor uw reizen.  Meer informatie over segmenten [op deze pagina](../../segment/about-segments.md). Ontdek hoe u segmenten kunt maken [in deze steekproef](../../segment/creating-a-segment.md).
 
-1. **Berichten maken**. Meer informatie over het maken van e-mail- en pushberichten in Journey Optimizer [op deze pagina](../../messages/create-message.md).
+1. **Berichten maken**. Meer informatie over het maken van e-mail- en pushberichten in Journey Optimizer [op deze pagina](../../messages/get-started-content.md).
 
    ![](../assets/email_designer_7.png)
 
@@ -28,13 +28,13 @@ Raadpleeg de volgende secties voor het instellen van uw eerste reis, het toevoeg
 
    ![](../assets/perso_ee2.png)
 
-1. **Elementen maken en beheren**. [!DNL Adobe Experience Manager Assets Essentials] biedt één gecentraliseerde opslagplaats voor elementen die u kunt gebruiken om uw berichten te vullen. Meer informatie [in deze sectie](../../messages/assets-essentials.md).
+1. **Elementen maken en beheren**. [!DNL Adobe Experience Manager Assets Essentials] biedt één gecentraliseerde opslagplaats voor elementen die u kunt gebruiken om uw berichten te vullen. Meer informatie [in deze sectie](../../design/assets-essentials.md).
 
 1. **Aanbiedingen toevoegen**. Gebruiken [!DNL Journey Optimizer] om uw klanten de beste aanbieding en ervaring op alle aanraakpunten op het juiste moment te bieden. Als u ze eenmaal hebt ontworpen, richt u zich op uw publiek met persoonlijke aanbiedingen. Meer informatie over Beslissingsbeheer [in deze sectie](../../offers/get-started/starting-offer-decisioning.md).
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **Uw berichten testen en valideren**. Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u [persoonlijke inhoud](../../personalization/personalize.md), kunt u controleren hoe deze inhoud in het bericht wordt weergegeven en testprofielgegevens gebruiken. Bovendien kunt u uw **Litmus** account [!DNL Journey Optimizer] om direct een voorvertoning van uw **e-mailrendering** in populaire e-mailclients. U kunt er dan voor zorgen dat uw e-mailinhoud er goed uitziet en goed werkt in elk Postvak IN. Leer hoe u uw berichten kunt testen en valideren [in deze sectie](../../messages/preview.md).
+1. **Uw berichten testen en valideren**. Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u [persoonlijke inhoud](../../personalization/personalize.md), kunt u controleren hoe deze inhoud in het bericht wordt weergegeven en testprofielgegevens gebruiken. Bovendien kunt u uw **Litmus** account [!DNL Journey Optimizer] om direct een voorvertoning van uw **e-mailrendering** in populaire e-mailclients. U kunt er dan voor zorgen dat uw e-mailinhoud er goed uitziet en goed werkt in elk Postvak IN. Leer hoe u uw berichten kunt testen en valideren [in deze sectie](../../design/preview.md).
 
 1. **Klantreizen ontwerpen** om persoonlijke, contextafhankelijke ervaringen te bieden. [!DNL Journey Optimizer] kunt u in real time het gebruik van het orchestration gebruiken gevallen leveraging contextuele gegevens die in gebeurtenissen of gegevensbronnen worden opgeslagen. Ontwerp multistep geavanceerde scenario&#39;s aangedreven door de volgende mogelijkheden:
 
@@ -50,4 +50,4 @@ Raadpleeg de volgende secties voor het instellen van uw eerste reis, het toevoeg
 
    Leer hoe u reizen ontwerpt en uitvoert [in deze sectie](../../building-journeys/journey-gs.md)
 
-1. **Berichten en reizen volgen**. Om ervoor te zorgen dat uw berichten succesvol worden uitgevoerd, verzonden en geleverd, [!DNL Journey Optimizer] biedt mogelijkheden om de berichten te controleren die momenteel worden gepubliceerd en teweeggebracht. Leer hoe u de prestaties kunt controleren [in deze sectie](../../messages/message-monitoring.md).
+1. **Berichten en reizen volgen**. Om ervoor te zorgen dat uw berichten succesvol worden uitgevoerd, verzonden en geleverd, [!DNL Journey Optimizer] biedt mogelijkheden om de berichten te controleren die momenteel worden gepubliceerd en teweeggebracht. Leer hoe u de prestaties kunt controleren [in deze sectie](../../reports/message-monitoring.md).

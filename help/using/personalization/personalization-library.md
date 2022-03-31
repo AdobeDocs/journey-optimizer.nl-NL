@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 96a7fc65cb59dd366d790a6fbe938ecfb062d93a
+source-git-commit: 85aec983ac39c8d65b2a833ee17dc1e3cafb5900
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 0%
+source-wordcount: '350'
+ht-degree: 6%
 
 ---
 
@@ -59,8 +59,6 @@ Voer de volgende stappen uit om een expressie op te slaan in de bibliotheek:
 
 >[!NOTE]
 >
->* U slaat maximaal 40 expressies op in de bibliotheek.
->
 >* Expressies mogen niet groter zijn dan 200 kB.
 >
 >* Opgeslagen expressies worden gesorteerd op aanmaakdatum: recent toegevoegde expressie wordt als eerste weergegeven in de lijst.
@@ -73,7 +71,7 @@ Als u een expressie wilt verwijderen, klikt u op de knop Ovaal en vervolgens kli
 
 ## Hoe kan ik-video{#video}
 
-Leer hoe u opgeslagen bibliotheekitems voor personalisatie gebruikt in een bericht en hoe u bibliotheekitems voor personalisatie maakt en beheert.
+Ontdek hoe u opgeslagen bibliotheekitems voor personalisatie in een bericht kunt gebruiken en hoe u bibliotheekitems voor personalisatie maakt en beheert.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
 

@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -143,13 +143,13 @@ Blokken zijn expressies met een blokopening ({{# }}) en closing ({{/}).
 >
 >Het gebruik van **xEvent** variable is not available in personalization expressions. Elke verwijzing naar xEvent resulteert in validatiefouten.
 
-## URL-personalisatie{#perso-urls}
+## URL Personalization{#perso-urls}
 
 Persoonlijke URL&#39;s sturen ontvangers naar specifieke pagina&#39;s van een website of naar een gepersonaliseerde microsite, afhankelijk van de profielkenmerken. In Adobe Journey Optimizer kunt u personalisatie toevoegen aan URL&#39;s in de inhoud van uw bericht. U kunt URL-aanpassing toepassen op tekst en afbeeldingen en profielgegevens of contextafhankelijke gegevens gebruiken.
 
 Met Journey Optimizer kunt u een of meer URL&#39;s in uw bericht aanpassen door er personalisatievelden aan toe te voegen. Volg onderstaande stappen om een URL aan te passen:
 
-1. Maak een koppeling in de inhoud van het bericht. [Meer informatie](../messages/message-tracking.md#insert-links)
+1. Maak een koppeling in de inhoud van het bericht. [Meer informatie](../design/message-tracking.md#insert-links)
 1. Selecteer de kenmerken in het verpersoonlijkingspictogram. Het verpersoonlijkingspictogram is alleen beschikbaar voor deze typen koppelingen: **Externe koppeling**, **Koppeling met abonnement opheffen** en **Uitschakelen**.
 
 ![](assets/perso-url.png)

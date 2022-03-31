@@ -5,12 +5,10 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: true
-hide: true
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -23,15 +21,15 @@ Beginnen met het maken van inhoud voor uw landing [primaire pagina](create-lp.md
 
 Vanaf dat punt kunt u:
 
-* **Ontwerp uw openingspagina helemaal** via de interface van de inhoudsontwerper en met behulp van afbeeldingen van [Adobe Experience Manager Assets Essentials](../messages/assets-essentials.md). Leer hoe u uw inhoud ontwerpt of ingebouwde sjablonen gebruikt [in deze sectie](../messages/create-email-content.md).
+* **Ontwerp uw openingspagina helemaal** via de interface van de inhoudsontwerper en met behulp van afbeeldingen van [Adobe Experience Manager Assets Essentials](../design/assets-essentials.md). Leer hoe u uw inhoud ontwerpt of ingebouwde sjablonen gebruikt [in deze sectie](../design/create-email-content.md).
 
-* **Code of paste raw HTML** rechtstreeks in de inhoudsontwerper. Leer hoe u uw eigen inhoud codeert [in deze sectie](../messages/existing-content.md#import-raw-html-code).
+* **Code of paste raw HTML** rechtstreeks in de inhoudsontwerper. Leer hoe u uw eigen inhoud codeert [in deze sectie](../design/code-content.md).
 
-* **Bestaande HTML-inhoud importeren** uit een bestand of een ZIP-map. Leer hoe u inhoud importeert [in deze sectie](../messages/existing-content.md#import-html-content-from-file).
+* **Bestaande HTML-inhoud importeren** uit een bestand of een ZIP-map. Leer hoe u inhoud importeert [in deze sectie](../design/existing-content.md).
 
 >[!NOTE]
 >
->De ontwerper van de landingspagina-inhoud is meestal vergelijkbaar met de ontwerper van de e-mail. Meer informatie over [inhoud ontwerpen met [!DNL Journey Optimizer]](../messages/design-emails.md).
+>De ontwerper van de landingspagina-inhoud is meestal vergelijkbaar met de ontwerper van de e-mail. Meer informatie over [inhoud ontwerpen met [!DNL Journey Optimizer]](../design/design-emails.md).
 
 ## Paginaspecifieke inhoud definiëren {#define-lp-specific-content}
 
@@ -116,7 +114,7 @@ Volg onderstaande stappen om specifieke inhoud te definiëren waarmee gebruikers
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. Breid uit **[!UICONTROL Buttons]** om de weergave van de knop in het deelformulier te wijzigen. U kunt bijvoorbeeld een rand toevoegen, de labelkleur op de muisaanwijzer bewerken of de uitlijning van de knop aanpassen.
+1. Breid uit **[!UICONTROL Buttons]** om de weergave van de knop in het deelformulier te wijzigen. U kunt bijvoorbeeld een rand toevoegen, de labelkleur bij aanwijzen bewerken of de uitlijning van de knop aanpassen.
 
    ![](assets/lp_designer-form-style-buttons.png)
 
@@ -128,7 +126,7 @@ Volg onderstaande stappen om specifieke inhoud te definiëren waarmee gebruikers
 
    ![](assets/lp_designer-form-style-layout.png)
 
-1. Breid uit **[!UICONTROL Form error]** om de weergave aan te passen van het foutbericht dat wordt weergegeven wanneer zich een probleem voordoet. Schakel de bijbehorende optie in om een voorbeeld van de fouttekst op het formulier te bekijken.
+1. Breid uit **[!UICONTROL Form error]** om de weergave aan te passen van het foutbericht dat wordt weergegeven wanneer zich een probleem voordoet. Schakel de desbetreffende optie in om een voorbeeld van de fouttekst op het formulier te bekijken.
 
    ![](assets/lp_designer-form-error-preview.png)
 

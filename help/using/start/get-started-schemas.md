@@ -5,7 +5,7 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 2cca25d16de520dd905143b2b3fe4bea6dbd7801
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 7%
@@ -39,7 +39,7 @@ Leer hoe u een schema maakt, veldgroepen toevoegt en aangepaste veldgroepen maak
 
 **Zie ook**
 
-* [Creeer een schema, een dataset en ga gegevens in om de profielen van de Test in Journey Optimizer toe te voegen](../building-journeys/creating-test-profiles.md)
+* [Creeer een schema, een dataset en ga gegevens in om de profielen van de Test in Journey Optimizer toe te voegen](../segment/creating-test-profiles.md)
 * [XDM System, overzicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target=&quot;_blank&quot;}
 * [Aanbevolen procedures voor gegevensmodellering](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html){target=&quot;_blank&quot;}
 * [Een schema maken met de API voor schemaregistratie](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html){target=&quot;_blank&quot;}

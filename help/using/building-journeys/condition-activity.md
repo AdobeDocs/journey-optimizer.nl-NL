@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 6%
+source-wordcount: '1271'
+ht-degree: 7%
 
 ---
 
 # Voorwaardeactiviteit{#condition-activity}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_condition"
+>title="Voorwaardeactiviteit"
+>abstract="Deze activiteit staat u toe om te bepalen hoe het individu in de reis zal stromen. Er worden verschillende paden gemaakt op basis van verschillende criteria. U kunt ook een alternatief pad maken in het geval van een time-out of een fout."
 
 Deze voorwaarden zijn beschikbaar:
 
@@ -26,6 +31,11 @@ Deze voorwaarden zijn beschikbaar:
 ![](assets/journey49.png)
 
 ## Informatie over de Condition-activiteit {#about_condition}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_expression_simple"
+>title="Informatie over de editor voor eenvoudige expressies"
+>abstract="In de modus Eenvoudige expressieeditor kunt u eenvoudige query&#39;s uitvoeren op basis van een combinatie van velden. Alle beschikbare velden worden links op het scherm weergegeven. Sleep velden naar de hoofdzone. Als u de verschillende elementen wilt combineren, koppelt u ze aan elkaar om verschillende groepen en/of groepsniveaus te maken. Vervolgens kiest u een logische operator om elementen op hetzelfde niveau te combineren."
 
 Wanneer u verschillende voorwaarden in een reis gebruikt, kunt u labels voor elk van deze voorwaarden definiëren om ze gemakkelijker te kunnen identificeren.
 
@@ -53,15 +63,17 @@ Als u de [Adobe Experience Platform Segmentation Service](https://experienceleag
 
 >[!NOTE]
 >
->U kunt geen vragen op tijdreeksen (bijvoorbeeld een lijst van aankopen, voorbij klikken op berichten) met de eenvoudige redacteur uitvoeren. Hiervoor moet u de geavanceerde editor gebruiken. Zie [Adobe Journey Orchestration-documentatie](expression/expressionadvanced.md).
+>U kunt geen vragen op tijdreeksen (bijvoorbeeld een lijst van aankopen, voorbij klikken op berichten) met de eenvoudige redacteur uitvoeren. Hiervoor moet u de geavanceerde editor gebruiken. Zie [deze pagina](expression/expressionadvanced.md).
 
 Wanneer er een fout in een actie of een voorwaarde optreedt, eindigt de journey van een individu. De enige manier om door te gaan is het selectievakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in te schakelen. Zie [deze sectie](../building-journeys/using-the-journey-designer.md#paths).
 
-In de eenvoudige redacteur, zult u ook de categorie van de Eigenschappen van de Reis, onder de gebeurtenis en gegevensbroncategorieën vinden. Deze categorie bevat technische velden die verband houden met de reis voor een bepaald profiel. Dit is de informatie die door het systeem wordt opgehaald uit rechtstreekse reizen, zoals de reis-id of de specifieke fouten die zijn aangetroffen. Zie voor meer informatie [Adobe Journey Orchestration-documentatie](expression/journey-properties.md)
+In de eenvoudige redacteur, zult u ook de categorie van de Eigenschappen van de Reis, onder de gebeurtenis en gegevensbroncategorieën vinden. Deze categorie bevat technische velden die verband houden met de reis voor een bepaald profiel. Dit is de informatie die door het systeem wordt opgehaald uit rechtstreekse reizen, zoals de reis-id of de specifieke fouten die zijn aangetroffen. [Meer informatie](expression/journey-properties.md)
 
 ## Gegevensbronvoorwaarde {#data_source_condition}
 
-Hierdoor kunt u een voorwaarde definiëren op basis van velden uit de gegevensbronnen of de gebeurtenissen die eerder in de reis zijn geplaatst. Ga voor meer informatie over het gebruik van de expressieeditor naar [Adobe Journey Orchestration-documentatie](expression/expressionadvanced.md). Met de geavanceerde expressieeditor kunt u geavanceerdere voorwaarden instellen voor het manipuleren van verzamelingen of het gebruik van gegevensbronnen waarvoor parameters moeten worden doorgegeven. Zie [deze pagina](../datasource/external-data-sources.md).
+Hierdoor kunt u een voorwaarde definiëren op basis van velden uit de gegevensbronnen of de gebeurtenissen die eerder in de reis zijn geplaatst. Leer hoe u de expressie-editor kunt gebruiken in [deze sectie](expression/expressionadvanced.md).
+
+Met de geavanceerde expressieeditor kunt u geavanceerdere voorwaarden instellen voor het manipuleren van verzamelingen of het gebruik van gegevensbronnen waarvoor parameters moeten worden doorgegeven. [Meer informatie](../datasource/external-data-sources.md).
 
 ![](assets/journey50.png)
 
@@ -112,7 +124,7 @@ Het nominale pad heeft altijd voorrang op het alternatieve pad, zelfs als u het 
 Voor het vervoer van levende dieren zijn er de drempelwaarden die in aanmerking moeten worden genomen om de grenswaarde te bereiken:
 
 * Bij een dop van meer dan 10000 moet het aantal te injecteren afzonderlijke profielen ten minste 1,3 maal de dop bedragen.
-* Voor een dop onder 10000 moet het aantal te injecteren afzonderlijke profielen 1000 plus de dop bedragen.
+* Voor een dop onder 10000 moet het aantal te injecteren afzonderlijke profielen 1000 plus de dop zijn.
 
 In de testmodus wordt geen rekening gehouden met de profielbegrenzing.
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 22db9d3997e84d33ddb2febe7a07aaef4063a880
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '502'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ Naast [real-time rapporten](live-report.md) en ingebouwde [algemene rapportagemo
 
 >[!NOTE]
 >
->Deze functie wordt standaard geactiveerd bij alle gebeurtenissen voor stappen tijdens de reis. Voor trapsgewijze gebeurtenissen voor het reisprofiel wordt de activering op verzoek uitgevoerd. U kunt niet de schema&#39;s en datasets wijzigen of bijwerken die tijdens levering voor step gebeurtenissen zijn gecreeerd. Door gebrek, zijn deze schema&#39;s en datasets op read-only wijze.
+>Deze functie wordt standaard geactiveerd bij alle gebeurtenissen voor stappen tijdens de reis. U kunt niet de schema&#39;s en datasets wijzigen of bijwerken die tijdens levering voor step gebeurtenissen zijn gecreeerd. Door gebrek, zijn deze schema&#39;s en datasets op read-only wijze.
 
 U hebt bijvoorbeeld een reis ingesteld die meerdere e-mails verzendt. Dankzij deze functie kunt u [!DNL Journey Optimizer] gegevens met downstreamgebeurtenisgegevens zoals hoeveel conversies hebben plaatsgevonden, hoeveel betrokkenheid op de website heeft plaatsgevonden of hoeveel transacties in de winkel hebben plaatsgevonden. De informatie over de reis kan worden gecombineerd met gegevens over Adobe Experience Platform, hetzij van andere digitale eigenschappen, hetzij van offline eigenschappen, voor een uitgebreider beeld van de prestaties.
 
@@ -31,11 +31,10 @@ De lijst met XDM-velden die worden doorgegeven, is uitgebreid. Sommige bevatten 
 >
 >Datasets kunnen niet worden ingeschakeld voor realtime profielservice. Controleer of de **[!UICONTROL Profile]** schakeloptie is uitgeschakeld.
 
-De reizen verzenden gegevens aangezien het voorkomt, op een het stromen manier. U kunt deze gegevens vragen met de Query-service. U kunt verbinding maken met Customer Journey Analytics of andere BI-gereedschappen om gegevens met betrekking tot deze stappen weer te geven.
+[!DNL Journey Optimizer] verzendt gegevens aangezien het voorkomt, op een het stromen manier. U kunt deze gegevens vragen met de Query-service. U kunt verbinding maken met Customer Journey Analytics of andere BI-gereedschappen om gegevens met betrekking tot deze stappen weer te geven.
 
 De volgende schema&#39;s worden gemaakt:
 
-* Gebeurtenisschema voor stapsgewijze reis voor [!DNL Journey Orchestration] - Ervaar gebeurtenissen voor stappen die in een reis samen met een Identiteitskaart worden genomen om aan een individuele deelnemer van de Reis in kaart te brengen.
 * Dagstapgebeurtenisschema voor [!DNL Journey Orchestration] - Reisstapgebeurtenis die is gekoppeld aan een Reismetagegevens.
 * Reisschema met reisvelden voor [!DNL Journey Orchestration] - Reismetagegevens voor het beschrijven van reizen.
 
@@ -45,7 +44,6 @@ De volgende schema&#39;s worden gemaakt:
 
 De volgende datasets worden overgegaan:
 
-* Gebeurtenisschema voor stapsgewijze reis voor [!DNL Journey Orchestration]
 * Gebeurtenissen reisstap
 * Journeys
 
@@ -60,9 +58,11 @@ Kijk hier voor meer informatie over step-gebeurtenissen die aan Adobe Experience
 
 ## Integratie met Customer Journey Analytics {#integration-cja}
 
-Journey Optimizer step-gebeurtenissen kunnen worden gekoppeld aan andere datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). Hier volgt de algemene workflow:
+[!DNL Journey Optimizer] step-gebeurtenissen kunnen worden gekoppeld aan andere datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html){target=&quot;_blank&quot;}.
 
-* Customer Journey Analytics neemt de dataset van de &quot;Gebeurtenis van de Stap van de Reis&quot;op.
-* De **profileID** veld in het bijbehorende &quot;Dagboekstapschema voor Journey Orchestration&quot; wordt gedefinieerd als een identiteitsveld. In Customer Journey Analytics, kunt u deze dataset aan een andere dataset dan verbinden die de zelfde waarde zoals persoon gebaseerde herkenningsteken heeft.
-* Als u deze dataset in Customer Journey Analytics, voor dwars-kanaalreisanalyse wilt gebruiken, verwijs naar dit [documentatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html).
+De algemene workflow is:
+
+* [!DNL Customer Journey Analytics] Neemt de dataset &quot;Journey Step Event&quot; op.
+* De **profileID** veld in het bijbehorende &quot;Dagboekstapschema voor Journey Orchestration&quot; wordt gedefinieerd als een identiteitsveld. In [!DNL Customer Journey Analytics], kunt u deze dataset aan een andere dataset dan verbinden die de zelfde waarde zoals persoon gebaseerde herkenningsteken heeft.
+* Deze gegevensset gebruiken in [!DNL Customer Journey Analytics], voor de analyse van de kanaalreis, zie [Customer Journey Analytics-documentatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target=&quot;_blank&quot;}.
 

@@ -6,20 +6,25 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1625'
-ht-degree: 2%
+source-wordcount: '1727'
+ht-degree: 1%
 
 ---
 
 # Uw reis testen{#testing_the_journey}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test"
+>title="Uw reis testen"
+>abstract="U kunt uw reis vóór zijn publicatie testen, gebruikend testprofielen. Dit staat u toe om te analyseren hoe de individuen in de reis stromen en problemen vóór publicatie oplossen."
+
 Voordat u uw reis kunt testen, moet u alle eventuele fouten oplossen. Zie [deze sectie](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
 U kunt uw reis testen voordat deze wordt gepubliceerd, met behulp van testprofielen. Dit staat u toe om te analyseren hoe de individuen in de reis stromen en problemen vóór publicatie oplossen.
 
-Alleen testprofielen kunnen een reis maken in de testmodus. U kunt een nieuw testprofiel maken of een bestaand profiel omzetten in een testprofiel. Zie dit [sectie](../building-journeys/creating-test-profiles.md).
+Alleen testprofielen kunnen een reis maken in de testmodus. U kunt een nieuw testprofiel maken of een bestaand profiel omzetten in een testprofiel. Zie dit [sectie](../segment/creating-test-profiles.md).
 
 Voer de volgende stappen uit om de testmodus te gebruiken:
 
@@ -54,7 +59,7 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 ## Belangrijke opmerkingen {#important_notes}
 
 * Er is een interface beschikbaar voor het afvuren van gebeurtenissen naar de geteste reis, maar evenementen kunnen ook door systemen van derden, zoals Postman, worden verzonden.
-* Alleen personen die zijn gemarkeerd als &quot;testprofielen&quot; in de realtime klantenprofielservice mogen de geteste reis betreden. Zie dit [sectie](../building-journeys/creating-test-profiles.md).
+* Alleen personen die zijn gemarkeerd als &quot;testprofielen&quot; in de realtime klantenprofielservice mogen de geteste reis betreden. Zie dit [sectie](../segment/creating-test-profiles.md).
 * De testmodus is alleen beschikbaar voor conceptochten waarbij een naamruimte wordt gebruikt. In de testmodus moet worden nagegaan of een persoon die de reis betreedt een testprofiel is en moet hij dus Adobe Experience Platform kunnen bereiken.
 * Het maximumaantal testprofielen dat een reis tijdens een testsessie kan betreden, is 100.
 * Wanneer u de testmodus uitschakelt, worden de reizen verwijderd van alle mensen die het in het verleden hebben betreden of die er momenteel in zitten. Ook wordt de rapportage gewist.
@@ -64,6 +69,11 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 * Om prestaties te optimaliseren en verouderd middelgebruik te verhinderen, zullen alle reizen in testwijze die niet voor een week zijn teweeggebracht op de status van het Ontwerp terugschakelen.
 
 ## Gebeurtenissen starten {#firing_events}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test_configuration"
+>title="De testmodus configureren"
+>abstract="Als uw reis verscheidene gebeurtenissen bevat, gebruik de drop-down lijst om een gebeurtenis te selecteren. Configureer vervolgens voor elke gebeurtenis de doorgegeven velden en de uitvoering van de gebeurtenis die de gebeurtenis verzendt."
 
 De **[!UICONTROL Trigger an event]** de knoop staat u toe om een gebeurtenis te vormen die een persoon de reis zal maken.
 
@@ -110,6 +120,11 @@ Bij het gebruik van een bedrijfsgebeurtenis (zie [deze sectie](../event/about-ev
 Wanneer u een bedrijfsgebeurtenis voor het eerst activeert, kunt u de definitie van een bedrijfsgebeurtenis niet in dezelfde testsessie wijzigen. U kunt alleen dezelfde persoon of een andere persoon dezelfde of een andere persoon de reis laten doorlopen met dezelfde of een andere id. Als u parameters voor bedrijfsgebeurtenissen wilt wijzigen, moet u de testmodus stoppen en opnieuw starten.
 
 ## Logboeken weergeven {#viewing_logs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_test_logs"
+>title="Logboeken van testmodi"
+>abstract="U kunt de testresultaten bekijken. Op deze pagina worden de huidige gegevens van de reis in JSON-indeling weergegeven. Met een knop kunt u hele knooppunten kopiëren. U moet de pagina handmatig vernieuwen om de testresultaten van de reis bij te werken."
 
 De **[!UICONTROL Show log]** kunt u de testresultaten bekijken. Op deze pagina worden de huidige gegevens van de reis in JSON-indeling weergegeven. Met een knop kunt u hele knooppunten kopiëren. U moet de pagina handmatig vernieuwen om de testresultaten van de reis bij te werken.
 

@@ -6,16 +6,21 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 4%
+source-wordcount: '1073'
+ht-degree: 6%
 
 ---
 
 # Een segment gebruiken in een journey {#segment-trigger-activity}
 
 ## Informatie over de activiteit Leessegment {#about-segment-trigger-actvitiy}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_read_segment"
+>title="Segmentactiviteit lezen"
+>abstract="Met de activiteit Leessegment kunt u alle personen die tot een Adobe Experience Platform-segment behoren een reis laten maken. Het starten van een journey kan één keer, of op regelmatige basis plaatsvinden."
 
 Met de activiteit Leessegment kunt u alle personen die tot een Adobe Experience Platform-segment behoren een reis laten maken. Het starten van een journey kan één keer, of op regelmatige basis plaatsvinden.
 

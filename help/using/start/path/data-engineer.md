@@ -3,7 +3,7 @@ title: Journey Optimizer Get Started for Data Engineer
 description: Als gegevensengineer leert u meer hoe u met Journey Optimizer kunt werken
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 2%
@@ -25,7 +25,7 @@ Leer hoe u **identificeer gegevens en creeer schema en dataset** om uw gegevens 
 
 De stappen om een identiteitsnamespace en een dataset tot stand te brengen die voor profielen wordt toegelaten, en de testprofielen zijn gedetailleerd in de hieronder secties:
 
-1. **Naamruimte maken**. In Adobe [!DNL Journey Optimizer], **Identiteiten** consumenten verbinden tussen apparaten en kanalen, is het resultaat een identiteitsgrafiek. De verbonden identiteitsgrafiek wordt gebruikt om ervaringen te personaliseren die op interactie over al uw bedrijfs touchpoints worden gebaseerd.  Meer informatie over identiteiten en naamruimten [op deze pagina](../get-started-identity.md).
+1. **Naamruimte maken**. In Adobe [!DNL Journey Optimizer], **Identiteiten** consumenten verbinden tussen apparaten en kanalen, is het resultaat een identiteitsgrafiek. De verbonden identiteitsgrafiek wordt gebruikt om ervaringen te personaliseren die op interactie over al uw bedrijfs touchpoints worden gebaseerd.  Meer informatie over identiteiten en naamruimten [op deze pagina](../../segment/get-started-identity.md).
 
 1. **Een schema maken** en inschakelen voor profielen. Een schema is een set regels die de structuur en indeling van gegevens vertegenwoordigen en valideren. Op een hoog niveau, verstrekken de schema&#39;s een abstracte definitie van een real-world voorwerp (zoals een persoon) en schetsen welke gegevens in elke instantie van dat voorwerp (zoals voornaam, achternaam, verjaardag, etc.) zouden moeten worden omvat.  Meer informatie over schema&#39;s [op deze pagina](../get-started-schemas.md).
 
@@ -33,7 +33,7 @@ De stappen om een identiteitsnamespace en een dataset tot stand te brengen die v
 
 1. **Bronconnectors configureren**. Met de Adobe Reis Optimzer kunt u gegevens uit externe bronnen innemen en kunt u inkomende gegevens structureren, labelen en verbeteren met behulp van de services van Platforms. U kunt gegevens uit diverse bronnen invoeren, zoals Adobe-toepassingen, opslag in de cloud, databases en vele andere. Meer informatie over bronconnectors [op deze pagina](../get-started-sources.md).
 
-1. **Testprofielen maken**. Testprofielen zijn vereist wanneer u de opdracht [testmodus](../../building-journeys/testing-the-journey.md) op reis, en [uw berichten bekijken en testen](../../messages/preview.md) vóór verzending. Stappen vaststellen om testprofielen te maken [op deze pagina](../../building-journeys/creating-test-profiles.md).
+1. **Testprofielen maken**. Testprofielen zijn vereist wanneer u de opdracht [testmodus](../../building-journeys/testing-the-journey.md) op reis, en [uw berichten bekijken en testen](../../design/preview.md) vóór verzending. Stappen vaststellen om testprofielen te maken [op deze pagina](../../segment/creating-test-profiles.md).
 
 
 Bovendien moet u, om berichten in reizen te kunnen verzenden, vormen **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]**. Meer informatie [in deze sectie](../../configuration/about-data-sources-events-actions.md).

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1343'
 ht-degree: 3%
@@ -225,11 +225,11 @@ De gedetailleerde stappen om een besluit tot stand te brengen en te vormen worde
 
 Nu uw beslissing live is, kunt u deze invoegen in een e-mailbericht. Hiervoor voert u de volgende stappen uit:
 
-1. Maak uw e-mail en open vervolgens de [E-mailontwerper](../../using/messages/design-emails.md) om de inhoud te configureren.
+1. Maak uw e-mail en open vervolgens de [E-mailontwerper](../../using/design/design-emails.md) om de inhoud te configureren.
 
 1. Voeg een structuurcomponent toe vanuit het linkerpalet.
 
-1. Een **[!UICONTROL Offer decision]** inhoudscomponent. Leer hoe u inhoudscomponenten kunt gebruiken in [deze sectie](../../using/messages/content-components.md).
+1. Een **[!UICONTROL Offer decision]** inhoudscomponent. Leer hoe u inhoudscomponenten kunt gebruiken in [deze sectie](../../using/design/content-components.md).
 
    ![](assets/offers-e2e-decision-component.png)
 
@@ -255,7 +255,7 @@ U ziet nu alle persoonlijke aanbiedingen en de fallback-aanbieding die in de e-m
 
 ![](assets/offers-e2e-offers-displayed.png)
 
-Gebruik de **[!UICONTROL Offers]** -sectie of de inhoudcomponenten pijlen (pijl-rechts en pijl-links) om door gegevens te bladeren. U kunt de verschillende aanbiedingen die deel uitmaken van het besluit ook met een klantenprofiel tonen. Meer informatie in [deze sectie](../../using/messages/deliver-personalized-offers.md#preview-offers-in-email).
+Gebruik de **[!UICONTROL Offers]** -sectie of de inhoudcomponenten pijlen (pijl-rechts en pijl-links) om door gegevens te bladeren. U kunt de verschillende aanbiedingen die deel uitmaken van het besluit ook met een klantenprofiel tonen. Meer informatie in [deze sectie](../../using/design/deliver-personalized-offers.md#preview-offers-in-email).
 
 Nadat u uw wijzigingen hebt opgeslagen en het bericht is gepubliceerd, kunt u uw voorstellen weergeven voor de relevante profielen wanneer u het bericht verzendt als onderdeel van een reis.
 
@@ -265,7 +265,7 @@ Nadat u uw wijzigingen hebt opgeslagen en het bericht is gepubliceerd, kunt u uw
 
 **Verwante onderwerpen:**
 
-* Leer hoe u de berichtvoorvertoning kunt controleren in [deze sectie](../../using/messages/preview.md#preview-your-messages).
+* Leer hoe u de berichtvoorvertoning kunt controleren in [deze sectie](../../using/design/preview.md#preview-your-messages).
 
 * Leer hoe u berichten publiceert in [deze sectie](../../using/messages/publish-manage-message.md).
 

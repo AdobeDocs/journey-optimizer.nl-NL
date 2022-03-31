@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Wanneer u een e-mailbericht maakt, kunt u personalisatie toevoegen aan de **[!UI
 
 In de e-mailontwerper kunt u de inhoud personaliseren:
 
-* In de **message**: Klik in een tekstblok en klik op de knop **Persoonlijk maken** pictogram in de contextafhankelijke werkbalk en selecteer **Verpersoonlijking invoegen** veld. Zie deze voor meer informatie over de interface E-mailontwerper [sectie](../messages/design-emails.md).
+* In de **message**: Klik in een tekstblok en klik op de knop **Persoonlijk maken** pictogram in de contextafhankelijke werkbalk en selecteer **Verpersoonlijking invoegen** veld. Zie deze voor meer informatie over de interface E-mailontwerper [sectie](../design/design-emails.md).
 
    ![](assets/perso_insert.png)
 
@@ -53,7 +53,7 @@ U kunt uw **Pushmeldingen** in de volgende velden:
 
 ![](assets/perso_push.png)
 
-Meer informatie over de configuratie voor pushmeldingen in [deze sectie](../messages/push-gs.md).
+Meer informatie over de configuratie voor pushmeldingen in [deze sectie](../configuration/push-gs.md).
 
 ## Je aanbiedingen aanpassen {#personalize-offers}
 

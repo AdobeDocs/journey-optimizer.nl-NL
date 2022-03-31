@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1752'
 ht-degree: 6%
 
 ---
@@ -68,6 +68,11 @@ Hier volgen de belangrijkste stappen voor het verzenden van berichten via reizen
    ![](assets/jo-dynamic_report_journey_12.png)
 
 ## Eigenschappen wijzigen {#change-properties}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties"
+>title="Journeyeigenschappen"
+>abstract="U kunt de naam van de reis wijzigen, een beschrijving toevoegen, opnieuw toegang toestaan, begin- en einddatum kiezen en een time-out en foutduur definiëren als u beheerder bent."
 
 Klik op het potloodpictogram in de rechterbovenhoek om de eigenschappen van de rit te openen.
 

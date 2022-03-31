@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Met [!DNL Journey Optimizer], kunt u alle e-mailadressen controleren die automat
 * Verwerkt deze voortdurend zachte stuit en kan een negatief effect hebben op de reputatie van uw e-mail als u deze blijft opnemen in uw leveringen.
 * Ontvangers die op een of andere manier een spamklacht indienen tegen een van uw e-mailberichten.
 
-Dergelijke e-mailadressen worden automatisch verzameld in de Journey Optimizer **onderdrukkingslijst**. Meer informatie over het concept en het gebruik van de suppressielijst in [deze sectie](../messages/suppression-list.md).
+Dergelijke e-mailadressen worden automatisch verzameld in de Journey Optimizer **onderdrukkingslijst**. Meer informatie over het concept en het gebruik van de suppressielijst in [deze sectie](../reports/suppression-list.md).
 
 ## De lijst met onderdrukking openen {#access-suppression-list}
 
@@ -49,7 +49,7 @@ Als u per ongeluk handmatig een e-mailadres of een domein toevoegt, **[!UICONTRO
 
 ![](assets/suppression-list-delete.png)
 
-Als u een e-mailadres of een domein uit de suppressielijst verwijdert, wordt opnieuw begonnen met het leveren aan dit adres of domein. Dientengevolge, kan dit ernstige gevolgen op uw leverbaarheid en IP reputatie hebben, die uiteindelijk tot uw IP adres of verzendend domein zou kunnen leiden die worden geblokkeerd. Lees meer over het belang van het bijhouden van een onderdrukkingslijst in [deze sectie](../messages/suppression-list.md).
+Als u een e-mailadres of een domein uit de suppressielijst verwijdert, wordt opnieuw begonnen met het leveren aan dit adres of domein. Dientengevolge, kan dit ernstige gevolgen op uw leverbaarheid en IP reputatie hebben, die uiteindelijk tot uw IP adres of verzendend domein zou kunnen leiden die worden geblokkeerd. Lees meer over het belang van het bijhouden van een onderdrukkingslijst in [deze sectie](../reports/suppression-list.md).
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ De onderdrukkingscategorieën zijn als volgt:
 
 >[!NOTE]
 >
->Meer informatie over zachte grenzen en harde golven in de [Typen leveringsfouten](../messages/suppression-list.md#delivery-failures) sectie.
+>Meer informatie over zachte grenzen en harde golven in de [Typen leveringsfouten](../reports/suppression-list.md#delivery-failures) sectie.
 
 Voor elk e-mailadres dat wordt vermeld, kunt u ook de **[!UICONTROL Type]** (e-mail of domein), **[!UICONTROL Reason]** om het uit te sluiten, die het toevoegde, en de datum/tijd het aan de onderdrukkingslijst werd toegevoegd.
 

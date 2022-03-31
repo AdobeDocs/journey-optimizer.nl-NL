@@ -6,14 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 44%
+source-wordcount: '402'
+ht-degree: 34%
 
 ---
 
 # Reizen configureren {#configure-journeys}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_configuration_dashboard"
+>title="Informatie over reisconfiguratie"
+>abstract="Om berichten met reizen te verzenden, moet u Gegevensbronnen, Gebeurtenissen en Acties vormen. Met behulp van gegevensbronnen kunt u een verbinding met een systeem definiëren om aanvullende informatie op te halen die tijdens uw reizen wordt gebruikt, bijvoorbeeld onder uw omstandigheden. Met gebeurtenissen kunt u uw reizen starten wanneer een gebeurtenis wordt ontvangen. Met aangepaste acties kunt u verbinding maken met een systeem van derden om uw berichten te verzenden. Als u ingebouwde berichtmogelijkheden van Journey Optimizer gebruikt, hoeft u geen actie te configureren."
 
 Om berichten met reizen te verzenden, moet u vormen **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]**.
 

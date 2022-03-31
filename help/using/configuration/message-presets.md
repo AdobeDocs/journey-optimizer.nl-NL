@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '2067'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Met [!DNL Journey Optimizer]kunt u voorinstellingen voor berichten instellen die
 >
 > * Configuratie van voorinstellingen voor berichten is beperkt tot reisbeheerders. [Meer informatie](../administration/ootb-product-profiles.md#journey-administrator)
 >
-> * U moet e-mailconfiguratie uitvoeren en [Pushconfiguratie](../messages/push-configuration.md) stappen voordat u berichtvoorinstellingen maakt.
+> * U moet e-mailconfiguratie uitvoeren en [Pushconfiguratie](../configuration/push-configuration.md) stappen voordat u berichtvoorinstellingen maakt.
 
 
 Zodra berichtvoorinstellingen zijn geconfigureerd, kunt u deze selecteren wanneer u berichten maakt van de **[!UICONTROL Presets]** lijst.
@@ -106,11 +106,47 @@ In de **DETAILS VAN SUBDOMEIN EN IP-POOL** -sectie, moet u:
 
 1. Selecteer de IP-pool die u aan de voorinstelling wilt koppelen. [Meer informatie](ip-pools.md)
 
+### List-Unsubscribe {#list-unsubscribe}
+
+Aan [selecteren, subdomein](#subdomains-and-ip-pools) in de lijst **[!UICONTROL Enable List-Unsubscribe]** weergegeven.
+
+![](assets/preset-list-unsubscribe.png)
+
+Deze optie is standaard ingeschakeld.
+
+Als u deze optie ingeschakeld laat, wordt automatisch een afmeldingskoppeling opgenomen in de e-mailkoptekst, zoals:
+
+![](assets/preset-list-unsubscribe-header.png)
+
+Als u deze optie uitschakelt, wordt er geen koppeling voor afmelden weergegeven in de e-mailkoptekst.
+
+De unsubscribe-koppeling bestaat uit twee elementen:
+
+* An **e-mailadres opzeggen**, waarnaar alle afmeldingsverzoeken worden verzonden.
+
+   In [!DNL Journey Optimizer], is het e-mailadres voor opzeggen het standaardadres **[!UICONTROL Mailto (unsubscribe)]** adres dat wordt weergegeven in de berichtvoorinstelling, gebaseerd op de [geselecteerd subdomein](#subdomains-and-ip-pools).
+
+   ![](assets/preset-list-unsubscribe-mailto.png)
+
+* De **abonnement-URL opzeggen**, dit is de URL van de bestemmingspagina waarop de gebruiker wordt omgeleid wanneer deze het abonnement opzegt.
+
+   Als u een [one-click opt-out link](../messages/consent.md#one-click-opt-out) voor een bericht dat is gemaakt met deze voorinstelling, is de URL voor het afmelden van een abonnement de URL die is gedefinieerd voor de koppeling om één klik uit te schakelen.
+
+   ![](assets/preset-list-unsubscribe-opt-out-url.png)
+
+   >[!NOTE]
+   >
+   >Als u geen koppeling om te weigeren met één klik toevoegt aan uw berichtinhoud, wordt er geen bestemmingspagina weergegeven voor de gebruiker.
+
+Meer informatie over het toevoegen van een link voor opzeggen van koptekst aan je berichten in [deze sectie](../messages/consent.md#unsubscribe-header).
+
+<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.-->
+
 ### URL-tracking{#url-tracking}
 
 Als u wilt weten waar en waarom iemand op de koppeling heeft geklikt, kunt u UTM-parameters voor URL-tracering toevoegen in het dialoogvenster  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** sectie.
 
-Op basis van de parameters die u definieert, wordt een UTM-code toegepast op het einde van de URL die in de berichtinhoud is opgenomen. Vervolgens kunt u resultaten vergelijken met een hulpprogramma voor webanalyse, zoals Adobe Analytics. <!--For example: https://yourwebsite.com/?utm_source=Adobe_CJM&utm_medium=email&utm_campaign=cart_abandonment_journey... In this example, the UTM code identifies the link as an email from an abandonment cart journey. You can either select a journey/message attribute from a predefined list, or enter your own text.-->
+Op basis van de parameters die u definieert, wordt een UTM-code toegepast op het einde van de URL die in de berichtinhoud is opgenomen. Vervolgens kunt u resultaten vergelijken met een hulpprogramma voor webanalyse, zoals Google Analytics.
 
 ![](assets/preset-url-tracking.png)
 
@@ -130,9 +166,11 @@ Als u een UTM-parameter wilt configureren, kunt u rechtstreeks de gewenste waard
 
 ### Parameters koptekst{#email-header}
 
-In de **[!UICONTROL HEADER PARAMETERS]** , voert u de e-mailadressen in die zijn gekoppeld aan berichten die via die voorinstelling worden verzonden. Deze e-mailadressen moeten de geselecteerde [gedelegeerd subdomein](about-subdomain-delegation.md).
+In de **[!UICONTROL HEADER PARAMETERS]** in, voert u de namen en e-mailadressen van de afzender in die zijn gekoppeld aan het type berichten dat met die voorinstelling wordt verzonden.
 
-U moet de volgende e-mailadressen configureren
+>[!CAUTION]
+>
+>De e-mailadressen moeten de geselecteerde [gedelegeerd subdomein](about-subdomain-delegation.md).
 
 * **[!UICONTROL Sender name]**: De naam van de afzender, zoals de naam van uw merk.
 
@@ -143,7 +181,6 @@ U moet de volgende e-mailadressen configureren
 * **[!UICONTROL Reply to (email)]**: Het e-mailadres dat wordt gebruikt wanneer de ontvanger op de knop **Reageren** in hun e-mailclientsoftware. U moet een adres gebruiken dat op gedelegeerde subdomein wordt bepaald (bijvoorbeeld *reply@marketing.luma.com*), anders worden de e-mails verwijderd.
 
 * **[!UICONTROL Error email]**: Alle fouten die door ISPs na een paar dagen van post worden geproduceerd die (asynchrone stuitingen) worden ontvangen op dit adres.
-
 
 ![](assets/preset-header.png)
 
@@ -177,7 +214,7 @@ Voer de onderstaande stappen uit om de pushinstellingen te definiëren die zijn 
 
 ![](assets/preset-push.png)
 
-Raadpleeg voor meer informatie over het configureren van uw omgeving voor het verzenden van pushberichten de [deze sectie](../messages/push-gs.md).
+Raadpleeg voor meer informatie over het configureren van uw omgeving voor het verzenden van pushberichten de [deze sectie](../configuration/push-gs.md).
 
 <!--
 ## Configure SMS settings {#configure-sms-settings}

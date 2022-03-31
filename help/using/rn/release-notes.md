@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '2643'
+source-wordcount: '2821'
 ht-degree: 9%
 
 ---
@@ -13,27 +13,48 @@ ht-degree: 9%
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [!DNL Journey Optimizer]. U kunt ook de [meest recente documentatie-updates](documentation-updates.md) pagina voor meer wijzigingen.
 
+## Release van maart 2022 {#march-2022-release}
 
+### Verbeteringen
+
+**Journeys**
+
+* Als u wilt voorkomen dat het schema van het uniforme profiel onnodige velden bevat, is het schema voor de gebeurtenis Reisstap niet meer standaard ingeschakeld voor profielen. Indien nodig, kunt u het activeren. [Meer informatie](../reports/sharing-overview.md)
+* Journey Optimizer stuurt nu nieuwe stapgebeurtenissen met betrekking tot exporttaken naar Adobe Experience Platform. Voorbeelden van query&#39;s zijn toegevoegd aan documentatie. [Meer informatie](../reports/query-examples.md)
+
+**Beslissingsbeheer**
+
+<!--* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/creating-personalized-offers.md)-->
+* Met de Batch-beslissings-API kunnen organisaties de functionaliteit offer decisioning gebruiken voor alle profielen in een bepaald segment in één aanroep. De aanbiedingsinhoud voor elke profielen in het segment wordt geplaatst in een AEP dataset waar het voor de werkschema&#39;s van de douanepartij beschikbaar is. [Meer informatie](../offers/api-reference/batch-api/deliver-offers-batch.md)
+
+<!--**Administration**
+
+* You can now enable/disable the unsubscribe link in/from the email header at the message preset level, and set a custom unsubscribe URL at the message level. [Learn more](../configuration/message-presets.md#list-unsubscribe)
+* The allowed list will can now be enabled and disabled through the [!DNL Journey Optimizer] interface. [Learn more](../messages/allow-list.md#enable-allow-list)-->
+
+**Personalisatie**
+
+* U kunt nu meer dan 40 personalisatie-expressies opslaan in de bibliotheek. [Meer informatie](../personalization/personalization-library.md)
 
 ## Release van februari 2022 {#feb-2022-release}
 
 ### Nieuwe functies
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Subscription Landing Pages</strong><br/></th>
+<th><strong>Landingspagina's abonnement</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now create and design landing pages in Journey Optimizer, and direct your users to online forms where they can opt-in or opt-out from receiving your communications, or subscribe to a specific service such as a newsletter.</p>
-<p>For more information, refer to the <a href="../landing-pages/create-lp.md">detailed documentation</a> and related <a href="../landing-pages/lp-use-cases.md">sample use case</a>.</p>
+<p>U kunt nu bestemmingspagina's in Journey Optimizer maken en ontwerpen en uw gebruikers naar onlineformulieren sturen waar zij zich kunnen aanmelden of weigeren uw communicatie te ontvangen, of u kunt zich abonneren op een specifieke service zoals een nieuwsbrief.</p>
+<p>Raadpleeg voor meer informatie de <a href="../landing-pages/create-lp.md">gedetailleerde documentatie</a> en aanverwante <a href="../landing-pages/lp-use-cases.md">voorbeeldgebruik</a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <table>
 <thead>
@@ -89,7 +110,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 ### Verbeteringen
 
-**Journeys**
+**Reizen**
 
 * Om de prestaties te optimaliseren, zullen alle reizen in testwijze die niet voor een week zijn teweeggebracht nu op de status van het Ontwerp terugschakelen. [Meer informatie](../building-journeys/testing-the-journey.md#important_notes)
 * De integratie tussen Journey Optimizer en Adobe Campaign Classic is geoptimaliseerd om de prestaties te verbeteren. De het maximum standaardconfiguratie is veranderd in 4000 vraag/5 minuten.	[Meer informatie](../action/acc-action.md#important-notes)
@@ -162,7 +183,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **Personalisatie**
 
-* **Toevoegen aan Favorieten** - Om de efficiëntie van het werken met personalisatie te verbeteren, hebben we het concept &#39;sparen-favorieten&#39; geïntroduceerd. Door verschillende kenmerken toe te voegen aan het menu Favorieten hebt u snel toegang tot de meest gebruikte items. [Meer informatie](../personalization/personalize.md#fav)
+* **Toevoegen aan Favorieten** - Om de efficiëntie van het werken met personalisatie te verbeteren, hebben we het concept van het sparen van favorieten geïntroduceerd. Door verschillende kenmerken toe te voegen aan het menu Favorieten hebt u snel toegang tot de meest gebruikte items. [Meer informatie](../personalization/personalize.md#fav)
 
 ## Release november 2021 {#november-2021-release}
 
@@ -236,7 +257,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 **Rapportage**
 
-* **Gegevensindeling in algemene weergave** - U kunt nu schakelen tussen getallen en percentages in het dialoogvenster **Globale weergave** van de **Uitvoering** tab. [Meer informatie](../messages/message-monitoring.md)
+* **Gegevensindeling in algemene weergave** - U kunt nu schakelen tussen getallen en percentages in het dialoogvenster **Globale weergave** van de **Uitvoering** tab. [Meer informatie](../reports/message-monitoring.md)
 
 
 **Beheer**
@@ -276,7 +297,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 <td>
 <p>Nieuwe metriek zijn beschikbaar in rapportering: Gericht en Uitgesloten voor e-mail- en pushberichten zijn zichtbaar in zowel live- als algemene rapporten. </br> Om toegang te hebben tot de recentste metriek, gelieve te merken op dat u de verschillende rapporteringsdashboards voor elk kanaal en rapporttype zult moeten terugstellen. Raadpleeg voor meer informatie over het aanpassen van het dashboard de <a href="../reports/live-report.md">gedetailleerde documentatie.</a></p>
 <p>Een nieuwe kolom in de lijst van de berichtuitvoering toont het aantal gerichte profielen voor elke berichtuitvoering. </p>
-<p>Raadpleeg de <a href="../messages/message-monitoring.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="../reports/message-monitoring.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -419,7 +440,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 **Inhoud ontwerpen**
 
-* **Achtergrond** - Achtergrondafbeeldingen worden nu ondersteund in live voorvertoning. [Meer informatie](../messages/preview.md)
+* **Achtergrond** - Achtergrondafbeeldingen worden nu ondersteund in live voorvertoning. [Meer informatie](../design/preview.md)
 * **Een-klik-koppeling voor weigeren** - U kunt een nieuw type koppeling invoegen in uw e-mailinhoud: de **Uitschakelen** de verbinding staat gebruikers toe om van het ontvangen van uw mededelingen in slechts één klik af te zien, zonder opnieuw te worden gericht aan een het landen pagina om het uit kiezen te bevestigen. [Meer informatie](../messages/consent.md#one-click-opt-out-link)
 
 **Personalisatie**
@@ -428,7 +449,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 **E-mailconfiguratie**
 
-* **Lijst van gewenste personen** - De lijst van gewenste personen kan nu worden in- en uitgeschakeld op een niet-productiesandbox via een API-aanroep. [Meer informatie](../messages/allow-list.md#enable-allow-list)
+* **Lijst van gewenste personen** - De lijst van gewenste personen kan nu worden in- en uitgeschakeld op een niet-productiesandbox via een API-aanroep. [Meer informatie](../reports/allow-list.md#enable-allow-list)
 * **Navigatie** - De onderdrukkingslijst, die toegankelijk was onder de **Beheer > Kanalen > E-mailconfiguratie > Algemeen** is verplaatst naar het nieuwe **Onderdrukkingslijst** submenu, dat alle verwante mogelijkheden voor gemakkelijkere toegang verzamelt. [Meer informatie](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **Beslissingsbeheer**
@@ -475,7 +496,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 <tr>
 <td>
 <p>U kunt nu een specifieke verzendende-veilige lijst op het zandbakniveau bepalen, om een veilige milieu voor testend doel te hebben. Op een niet-productiegeval, waar de fouten kunnen voorkomen, verzekert de lijst van gewenste personen u geen risico om ongewenste berichten naar uw klanten te verzenden. Deze functie wordt ingeschakeld door gebruik te maken van onderdrukking-API's.</p>
-<p>Raadpleeg de <a href="../messages/allow-list.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="../reports/allow-list.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -494,9 +515,9 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 **Voorbeeld- en testberichten**
 
-* Identiteit en naamruimte zijn nu zichtbaar in het dialoogvenster **[!UICONTROL Preview]** scherm. [Meer informatie](../messages/preview.md#preview-your-messages)
+* Identiteit en naamruimte zijn nu zichtbaar in het dialoogvenster **[!UICONTROL Preview]** scherm. [Meer informatie](../design/preview.md#preview-your-messages)
 * Het aantal teste-mails voor proefdrukken is nu beperkt tot tien.
-* Toegestane tekens voor de **Voorvoegsel van onderwerpregel** op het gebied van proefdrukken is het aantal . [Meer informatie](../messages/preview.md#send-proofs)
+* Toegestane tekens voor de **Voorvoegsel van onderwerpregel** op het gebied van proefdrukken is het aantal . [Meer informatie](../design/preview.md#send-proofs)
 
 **Editor voor persoonlijke expressie**
 

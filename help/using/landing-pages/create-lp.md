@@ -5,21 +5,15 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-hidefromtoc: true
-hide: true
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 3%
+source-wordcount: '926'
+ht-degree: 1%
 
 ---
 
 # bestemmingspagina&#39;s maken en publiceren {#create-lp}
-
->[!CAUTION]
->
->Het gebruik van bestemmingspagina&#39;s is momenteel beschikbaar in vroege toegang tot geselecteerde gebruikers slechts. Als u deze functie wilt gebruiken, neemt u contact op met de Adobe-accountmanager.
 
 ## Openingspagina&#39;s openen {#access-landing-pages}
 
@@ -30,6 +24,22 @@ Selecteer **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** i
 De **[!UICONTROL Landing Pages]** worden alle gemaakte items weergegeven. U kunt ze filteren op basis van hun status of wijzigingsdatum.
 
 ![](assets/lp_access-list-filter.png)
+
+In deze lijst hebt u toegang tot de [openingspagina Live-rapport](../reports/lp-report-live.md) of [landingspagina Global-rapport](../reports/lp-report-global.md) voor gepubliceerde items.
+
+U kunt ook een openingspagina verwijderen, dupliceren en de publicatie ervan ongedaan maken.
+
+>[!CAUTION]
+>
+>Als u het publiceren van een landingspagina ongedaan maakt waarnaar in een niet-gepubliceerd bericht wordt verwezen, kan het bericht pas worden gepubliceerd nadat de bestemmingspagina opnieuw is gepubliceerd. Als het bericht al is gepubliceerd, wordt de koppeling naar de bestemmingspagina verbroken en wordt een foutpagina weergegeven.
+
+Klik op de drie stippen naast een openingspagina om de gewenste actie te selecteren.
+
+![](assets/lp_access-list-actions.png)
+
+>[!NOTE]
+>
+>U kunt een gepubliceerde bestemmingspagina niet verwijderen. Als u het wilt verwijderen, moet u de publicatie eerst ongedaan maken.
 
 ## Een landingspagina maken {#create-landing-page}
 
@@ -43,13 +53,9 @@ De stappen voor het maken van een bestemmingspagina zijn als volgt.
 
    ![](assets/lp_create-lp-details.png)
 
-1. Selecteer een voorinstelling.
+1. Selecteer een voorinstelling. Leer hoe u voorinstellingen voor openingspagina&#39;s maakt in [deze sectie](../configuration/lp-configuration.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
-
-   >[!NOTE]
-   >
-   >Neem contact op met uw Adobe-accountvertegenwoordiger of de [Adobe-team voor klantenondersteuning](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -75,7 +81,7 @@ Voer de onderstaande stappen uit om de instellingen voor de primaire pagina te d
 
    ![](assets/lp_open-designer.png)
 
-1. Definieer de URL van de bestemmingspagina. Het eerste deel van URL vereist dat de domeindelegatie wordt uitgevoerd. Deze is vooraf ingevuld en kan niet worden bewerkt via de gebruikersinterface. Neem contact op met uw Adobe-accountvertegenwoordiger of de [Adobe-team voor klantenondersteuning](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Definieer de URL van de bestemmingspagina. Voor het eerste deel van de URL moet u eerder een subdomein voor een bestemmingspagina instellen. [Meer informatie](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -113,7 +119,7 @@ Voer de onderstaande stappen uit om de subpagina-instellingen te definiëren.
 
 1. Bewerk de inhoud van de pagina met de inhoudsontwerper. Leer hoe u de inhoud van de bestemmingspagina definieert [hier](design-lp.md).
 
-1. Definieer de URL van de bestemmingspagina. Het eerste deel van URL vereist dat de domeindelegatie wordt uitgevoerd. Deze is vooraf ingevuld en kan niet worden bewerkt via de gebruikersinterface. Neem contact op met uw Adobe-accountvertegenwoordiger of de [Adobe-team voor klantenondersteuning](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+1. Definieer de URL van de bestemmingspagina. Voor het eerste deel van de URL moet u eerder een subdomein voor een bestemmingspagina instellen. [Meer informatie](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -127,7 +133,7 @@ Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt
 
 >[!CAUTION]
 >
->U hebt testprofielen nodig om uw berichten te kunnen bekijken en proefdrukken te kunnen verzenden. Leer hoe u [testprofielen maken](../building-journeys/creating-test-profiles.md).
+>U moet testprofielen beschikbaar hebben om een voorbeeld van uw berichten te kunnen bekijken en proefdrukken te kunnen verzenden. Leer hoe u [testprofielen maken](../segment/creating-test-profiles.md).
 
 1. Klik in de interface van de bestemmingspagina op de knop **[!UICONTROL Preview & test]** om de selectie van het testprofiel te openen.
 
@@ -141,7 +147,7 @@ Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt
 
    ![](assets/lp_test-profiles.png)
 
-   De stappen om testprofielen te selecteren zijn het zelfde als wanneer het testen van een bericht. Deze worden in [deze sectie](../messages/preview.md#select-test-profiles).
+   De stappen om testprofielen te selecteren zijn het zelfde als wanneer het testen van een bericht. Deze worden in [deze sectie](../design/preview.md#select-test-profiles).
 
 1. Selecteer **[!UICONTROL Preview]** en klik op **[!UICONTROL Open preview]** om de openingspagina te testen.
 
@@ -189,7 +195,7 @@ Er kunnen twee typen waarschuwingen optreden:
 
 >[!CAUTION]
 >
-> To be able to publish your message, you need to resolve all **error** alerts.
+> To be able to publish your message, you must resolve all **error** alerts.
 -->
 
 ## De openingspagina publiceren {#publish-landing-page}
@@ -204,9 +210,9 @@ Als de landingspagina gereed is, kunt u deze publiceren en in een bericht gebrui
 
 Wanneer de landingspagina is gepubliceerd, wordt deze aan de lijst met landingspagina&#39;s toegevoegd met de opdracht **[!UICONTROL Published]** status.
 
-Het is nu live en klaar om te worden gebruikt in een [!DNL Journey Optimizer] [message](../messages/create-message.md) die via een [reis](../building-journeys/journey.md).
+Het is nu live en klaar om te worden gebruikt in een [!DNL Journey Optimizer] [message](../messages/get-started-content.md) die via een [reis](../building-journeys/journey.md).
 
 >[!NOTE]
 >
->U kunt de gevolgen van de landingspagina controleren aan de hand van specifieke rapporten. [Meer informatie](lp-report.md)
+>U kunt de gevolgen van de landingspagina controleren aan de hand van specifieke rapporten. [Meer informatie](../reports/lp-report-live.md)
 

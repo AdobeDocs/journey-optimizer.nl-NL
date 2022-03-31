@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: b2b9d52ea5f76a4c145542600597f37d6ef00161
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
 source-wordcount: '1403'
 ht-degree: 8%
@@ -25,7 +25,7 @@ Met pushberichten bereikt u op elk gewenst moment gebruikers van uw mobiele app,
 
 [!DNL Journey Optimizer] ondersteunt pushmeldingen en helpt u zeer relevante meldingen te verzenden met toonaangevende doorvoersnelheden. Pushmeldingen kunnen personalisatie en Reiscontext omvatten om gegevensinzichten van uw merk met Adobe Experience Cloud te benutten.
 
-Eenmaal [een bericht gemaakt](create-message.md)klikt u op de knop **[!UICONTROL Push Notification]** om de instellingen en inhoud van de pushmelding te definiëren.
+Eenmaal [een bericht gemaakt](get-started-content.md)klikt u op de knop **[!UICONTROL Push Notification]** om de instellingen en inhoud van de pushmelding te definiëren.
 
 ![](assets/create-content-push.png)
 
@@ -39,7 +39,7 @@ Gebruik de specifieke tabbladen om de instellingen voor pushmeldingen te defini�
 
 Als u uw bericht wilt samenstellen, klikt u op de knop **[!UICONTROL Title]** en **[!UICONTROL Body]** velden. Gebruik de Redacteur van de Uitdrukking om inhoud en verpersoonlijkingsgegevens te bepalen. Meer informatie over personalisatie in de Expressieeditor vindt u in [deze sectie](../personalization/personalize.md)
 
-In het gedeelte voor voorvertoning van apparaat kunt u visualiseren hoe de pushmelding wordt weergegeven op iOS- en Android-apparaten.
+In het gedeelte voor voorvertoning van apparaten kunt u visualiseren hoe de pushmelding wordt weergegeven op iOS- en Android-apparaten.
 
 ## Bij klikken, gedrag {#on-click-behavior}
 
@@ -68,7 +68,7 @@ Er zijn twee opties beschikbaar. U kunt:
 
 * Gebruik de **[!UICONTROL Add media]** knop om een element te selecteren in **[!DNL Adobe Experience Manager Assets Essentials]**.
 
-   Leren gebruiken **[!DNL Adobe Experience Manager Assets Essentials]** in [deze pagina](assets-essentials.md).
+   Leren gebruiken **[!DNL Adobe Experience Manager Assets Essentials]** in [deze pagina](../design/assets-essentials.md).
 
 * U kunt ook de URL van het medium invoeren in het dialoogvenster **[!UICONTROL Add media]** veld. In dat geval kunt u personalisatie toevoegen aan de URL.
 
@@ -102,7 +102,7 @@ Gebruik de **[!UICONTROL Custom data]** om sleutelwaardeparen toe te voegen.
 
 ## Aangepaste gegevens
 
-In de **[!UICONTROL Custom data]** kunt u aangepaste variabelen toevoegen aan de payload, afhankelijk van de configuratie van uw mobiele toepassing. Raadpleeg voor meer informatie over het instellen van pushmeldingen in Adobe Experience Platform en Adobe starten de opties voor [deze sectie](push-gs.md)
+In de **[!UICONTROL Custom data]** kunt u aangepaste variabelen toevoegen aan de payload, afhankelijk van de configuratie van uw mobiele toepassing. Raadpleeg voor meer informatie over het instellen van pushmeldingen in Adobe Experience Platform en Adobe starten de opties voor [deze sectie](../configuration/push-gs.md)
 
 ## Geavanceerde opties {#advanced-options-push}
 
@@ -127,6 +127,6 @@ U kunt configureren **[!UICONTROL Advanced options]** voor uw pushmelding. De be
 * [Understand push notification flow](push-gs.md)
 -->
 
-* [Pushkanaal configureren](push-gs.md)
-* [Een nieuw bericht maken](create-message.md)
+* [Pushkanaal configureren](../configuration/push-gs.md)
+* [Een nieuw bericht maken](get-started-content.md)
 * [Een bericht toevoegen in een journey](../building-journeys/journeys-message.md)

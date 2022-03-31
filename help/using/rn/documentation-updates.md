@@ -2,10 +2,10 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 22%
+source-wordcount: '1072'
+ht-degree: 21%
 
 ---
 
@@ -13,10 +13,13 @@ ht-degree: 22%
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
 
-
 ## Maart 2022 {#march-2022}
 
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 22 maart is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
 * Er is een nieuwe pagina toegevoegd aan de **Offer decisioning** , met inbegrip van een grondige beschrijving van de [model voor automatische optimalisatie](../offers/offer-library/ai-ranking.md#auto-optimization), het gebruikte algoritme en meer technische details. [Meer informatie](../offers/offer-library/ai-ranking.md)
+* De pagina voor het maken van het testprofiel is verplaatst naar de  **Segment, profielen en identiteit** sectie. [Meer informatie](../segment/creating-test-profiles.md)
+* Een voorbeeld toegevoegd over het toevoegen van een expressie als standaardwaarde in de expressieeditor. [Meer informatie](../building-journeys/expression/field-references.md#default-value)
+* De **Het primaire e-mailadres wijzigen** is bijgewerkt met wijzigingen in de gebruikersinterface. [Meer informatie](../configuration/primary-email-addresses.md)
 
 ## Februari 2022 {#feb-2022}
 
@@ -32,7 +35,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Het gedeelte over [!DNL Journey Optimizer] personaliseringsmogelijkheden zijn gereorganiseerd voor een betere leesbaarheid . [Meer informatie](../personalization/personalize.md)
 * De **Voorinstellingen voor berichten maken** voor meer duidelijkheid is dit gedeelte in verschillende secties onderverdeeld . [Meer informatie](../configuration/message-presets.md#create-message-preset)
 * De **Uitschakelen, beheer** dit gedeelte is verduidelijkt en enigszins gereorganiseerd . [Meer informatie](../messages/consent.md#opt-out-management)
-* De **Koppelingen invoegen** is bijgewerkt met de recente wijzigingen in de gebruikersinterface. [Meer informatie](../messages/message-tracking.md#insert-links)
+* De **Koppelingen invoegen** is bijgewerkt met de recente wijzigingen in de gebruikersinterface. [Meer informatie](../design/message-tracking.md#insert-links)
 
 ## November 2021 {#november-2021}
 
@@ -92,8 +95,8 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Een sectie over toegankelijkheidsfuncties en sneltoetsen toegevoegd. [Meer informatie](../start/user-interface.md#accessibility)
 * Er is een sectie over de methodes van de segmentevaluatie toegevoegd. [Meer informatie](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * Toegevoegde notities bij de lijst Onderdrukking, de secties Lijst van gewenste personen en E-mail global/live om aan te geven dat profielen met de status Onderdrukt en Niet toegestaan zijn uitgesloten van het e-mailrapport Metriek verzonden. [Meer informatie](../reports/email-global-report.md)
-* Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe e-mailadressen of domeinen kunnen worden opgehaald die zijn uitgesloten van een verzendende server omdat deze zich niet op de lijst van gewenste personen bevonden. [Meer informatie](../messages/allow-list.md#reporting)
-* De sectie lijst van gewenste personen inschakelen is bijgewerkt. [Meer informatie](../messages/allow-list.md#enable-allow-list)
+* Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe e-mailadressen of domeinen kunnen worden opgehaald die zijn uitgesloten van een verzendende server omdat deze zich niet op de lijst van gewenste personen bevonden. [Meer informatie](../reports/allow-list.md#reporting)
+* De sectie lijst van gewenste personen inschakelen is bijgewerkt. [Meer informatie](../reports/allow-list.md#enable-allow-list)
 * De sectie met voorinstellingen voor monitorberichten is bijgewerkt met de mogelijke oorzaken van een eventuele fout bij het maken van de voorinstelling en details over dergelijke fouten. [Meer informatie](../configuration/message-presets.md#monitor-message-presets)
 * De sectie Tijdsperiode voor opnieuw proberen is bijgewerkt en de naam is gewijzigd om aan te geven dat u de instelling voor het opnieuw proberen van e-mail nu kunt aanpassen in de voorinstellingen voor berichten. [Meer informatie](../configuration/retries.md#retry-duration)
 * Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u met één klik een koppeling om te weigeren kunt invoegen in e-mailinhoud. [Meer informatie](../messages/consent.md#one-click-opt-out-link)
@@ -111,8 +114,8 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Koppelingen toegevoegd aan [!DNL Journey Optimizer] productbeschrijving op de homepage
 * Videozelfstudie toegevoegd op meerdere pagina&#39;s
 * Geoptimaliseerde homepage-images
-* Verplaatst, verbeterd en de naam van de sectie &#39;Bericht bijhouden&#39; is gewijzigd in &#39;Koppelingen toevoegen en berichten bijhouden&#39;. [Meer informatie](../messages/message-tracking.md)
-* Een subsectie toegevoegd op spiegelpagina&#39;s. [Meer informatie](../messages/message-tracking.md#mirror-page)
+* Verplaatst, verbeterd en de naam van de sectie &#39;Bericht bijhouden&#39; is gewijzigd in &#39;Koppelingen toevoegen en berichten bijhouden&#39;. [Meer informatie](../design/message-tracking.md)
+* Een subsectie toegevoegd op spiegelpagina&#39;s. [Meer informatie](../design/message-tracking.md#mirror-page)
 * In documentatie en schermen hernoemd tot &#39;aanbiedingsactiviteiten&#39; als &#39;besluiten&#39; en &#39;besluiten&#39; als &#39;besluiten&#39;. [Meer informatie](../offers/get-started/starting-offer-decisioning.md)
 * Nieuwe gebruikscase: [personaliseren een bericht met hulpfuncties](../personalization/personalization-use-case-helper-functions.md)
 * De documentatie voor het Leessegment is bijgewerkt om de gevolgen voor het geconcretiseerde segment te weerspiegelen. [Meer informatie](../building-journeys/read-segment.md)

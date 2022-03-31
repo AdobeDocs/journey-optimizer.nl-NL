@@ -1,5 +1,5 @@
 ---
-solution: Journey Orchestration
+solution: Journey Optimizer
 title: Een aangepaste handeling configureren
 description: Leer hoe u een aangepaste handeling configureert
 feature: Actions
@@ -7,14 +7,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '915'
 ht-degree: 5%
 
 ---
 
 # Een aangepaste handeling configureren {#configure-an-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_custom_configuration"
+>title="Aangepaste acties"
+>abstract="Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om zijn verbinding aan uw reis te vormen. U kunt bijvoorbeeld verbinding maken met de volgende systemen met aangepaste handelingen: Epsilon, Slack, Adobe.io, Firebase, enz."
 
 Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om zijn verbinding aan uw reis te vormen. U kunt bijvoorbeeld verbinding maken met de volgende systemen met aangepaste handelingen: Epsilon, Slack, Adobe.io, Firebase, enz.
 
