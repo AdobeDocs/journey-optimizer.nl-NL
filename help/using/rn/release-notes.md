@@ -59,7 +59,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 <table>
 <thead>
 <tr>
-<th><strong>Nieuwe bibliotheek voor persoonlijke expressie</strong><br/></th>
+<th><strong>Nieuwe Personalization-expressiebibliotheek</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -183,7 +183,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **Personalisatie**
 
-* **Toevoegen aan Favorieten** - Om de efficiëntie van het werken met personalisatie te verbeteren, hebben we het concept van het sparen van favorieten geïntroduceerd. Door verschillende kenmerken toe te voegen aan het menu Favorieten hebt u snel toegang tot de meest gebruikte items. [Meer informatie](../personalization/personalize.md#fav)
+* **Toevoegen aan Favorieten** - Om de efficiëntie van het werken met personalisatie te verbeteren, hebben we het concept &#39;sparen-favorieten&#39; geïntroduceerd. Door verschillende kenmerken toe te voegen aan het menu Favorieten hebt u snel toegang tot de meest gebruikte items. [Meer informatie](../personalization/personalize.md#fav)
 
 ## Release november 2021 {#november-2021-release}
 
