@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: ecd793299284ed744a8b65c6518dd4c906496f90
 workflow-type: tm+mt
 source-wordcount: '966'
 ht-degree: 46%
@@ -90,7 +90,7 @@ ht-degree: 46%
    + Segmenten {#segments}
       + [Aan de slag met segmenten](using/segment/about-segments.md)
       + [Segmenten maken](using/segment/creating-a-segment.md)
-   + [Profielen] {#profiles}
+   + Profielen{#profiles}
       + [Aan de slag met profielen](using/segment/get-started-profiles.md)
       + [Testprofielen maken](using/segment/creating-test-profiles.md)
    + [Identiteiten](using/segment/get-started-identity.md)
