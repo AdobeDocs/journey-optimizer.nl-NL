@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
 workflow-type: tm+mt
-source-wordcount: '2821'
+source-wordcount: '2912'
 ht-degree: 9%
 
 ---
@@ -12,6 +12,9 @@ ht-degree: 9%
 # Aanvullende informatie {#release-notes}
 
 Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [!DNL Journey Optimizer]. U kunt ook de [meest recente documentatie-updates](documentation-updates.md) pagina voor meer wijzigingen.
+
+![Nieuwsbrief](../assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} vandaag en ontvang de nieuwste productupdates, spannende artikelen, gebruiksscenario&#39;s, tips en nog veel meer die elk kwartaal rechtstreeks aan uw Postvak IN worden bezorgd.
+
 
 ## Release van maart 2022 {#march-2022-release}
 
@@ -27,10 +30,10 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 <!--* You can now specify if offer capping is applied across all users or to one specific profile, and to all placements or per placement. [Learn more](../offers/offer-library/creating-personalized-offers.md)-->
 * Met de Batch-beslissings-API kunnen organisaties de functionaliteit offer decisioning gebruiken voor alle profielen in een bepaald segment in één aanroep. De aanbiedingsinhoud voor elke profielen in het segment wordt geplaatst in een AEP dataset waar het voor de werkschema&#39;s van de douanepartij beschikbaar is. [Meer informatie](../offers/api-reference/batch-api/deliver-offers-batch.md)
 
-<!--**Administration**
+**Beheer**
 
-* You can now enable/disable the unsubscribe link in/from the email header at the message preset level, and set a custom unsubscribe URL at the message level. [Learn more](../configuration/message-presets.md#list-unsubscribe)
-* The allowed list will can now be enabled and disabled through the [!DNL Journey Optimizer] interface. [Learn more](../messages/allow-list.md#enable-allow-list)-->
+* U kunt nu de koppeling voor het afmelden van abonnementen in- of uitschakelen in de e-mailheader op het niveau van de berichtvoorinstelling en een aangepaste URL voor het afmelden van abonnementen instellen op berichtniveau. [Meer informatie](../configuration/message-presets.md#list-unsubscribe)
+* De lijst van gewenste personen kan nu worden in- en uitgeschakeld via de [!DNL Journey Optimizer] interface over productie- en niet-productie-sandboxen. [Meer informatie](../reports/allow-list.md#enable-allow-list)
 
 **Personalisatie**
 
@@ -183,7 +186,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 **Personalisatie**
 
-* **Toevoegen aan Favorieten** - Om de efficiëntie van het werken met personalisatie te verbeteren, hebben we het concept &#39;sparen-favorieten&#39; geïntroduceerd. Door verschillende kenmerken toe te voegen aan het menu Favorieten hebt u snel toegang tot de meest gebruikte items. [Meer informatie](../personalization/personalize.md#fav)
+* **Toevoegen aan Favorieten** - Om de efficiëntie van het werken met personalisatie te verbeteren, hebben we het concept van het sparen van favorieten geïntroduceerd. Door verschillende kenmerken toe te voegen aan het menu Favorieten hebt u snel toegang tot de meest gebruikte items. [Meer informatie](../personalization/personalize.md#fav)
 
 ## Release november 2021 {#november-2021-release}
 
