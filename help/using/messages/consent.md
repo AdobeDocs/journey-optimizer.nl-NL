@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
+source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -71,7 +71,7 @@ Eerst moet u een afmeldingskoppeling toevoegen aan een bericht. Volg de ondersta
 
 #### Een API-aanroep voor opt-out implementeren {#opt-out-api}
 
-Als u wilt dat de ontvangers de optie Weigeren kiezen wanneer ze hun keuze op de bestemmingspagina indienen, moet u een **API-oproep voor abonnement** doorheen [Adobe Developer](developer.adobe.com) om de voorkeuren van de overeenkomstige profielen bij te werken.
+Als u wilt dat de ontvangers de optie Weigeren kiezen wanneer ze hun keuze op de bestemmingspagina indienen, moet u een **API-oproep voor abonnement** doorheen [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} om de voorkeuren van de corresponderende profielen bij te werken.
 
 Deze vraag van de POST is als volgt:
 
@@ -109,7 +109,7 @@ Instantie van aanvraag:
 }
 ```
 
-[!DNL Journey Optimizer] gebruikt u deze parameters om de keuze van het corresponderende profiel bij te werken via de [Adobe Developer](developer.adobe.com) API-aanroep.
+[!DNL Journey Optimizer] gebruikt u deze parameters om de keuze van het corresponderende profiel bij te werken via de [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} API-aanroep.
 
 #### Bericht verzenden met afmeldingskoppeling {#send-message-unsubscribe-link}
 
