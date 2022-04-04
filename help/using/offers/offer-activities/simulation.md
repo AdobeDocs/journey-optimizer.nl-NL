@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 296c17048f0d3dbabd210b0522d061028d5890dc
+source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -31,13 +31,17 @@ Als u deze functie wilt openen, selecteert u de optie **[!UICONTROL Simulation]*
 
 ![](../assets/offers_simulation-tab.png)
 
+>[!NOTE]
+>
+>Aangezien de simulatie geen besluitvormingsgebeurtenis produceert, [begrenzen](../offer-library/creating-personalized-offers.md#capping) tel heeft geen invloed.
+
 <!--
 ➡️ [Discover this feature in video](#video)
 -->
 
 ## Testprofielen selecteren {#select-test-profiles}
 
-Eerst moet u de testprofielen selecteren die u voor simulatie gaat gebruiken. Meer informatie over testprofielen in [deze pagina](../../segment/creating-test-profiles.md).
+Eerst moet u de testprofielen selecteren die u voor simulatie gaat gebruiken. Meer informatie over testprofielen in [deze sectie](../../segment/creating-test-profiles.md).
 
 1. Klik op **[!UICONTROL Manage profile]**.
 
