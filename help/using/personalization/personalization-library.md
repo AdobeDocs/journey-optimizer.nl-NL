@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 85aec983ac39c8d65b2a833ee17dc1e3cafb5900
+source-git-commit: 49c09fbcf3be595e2a636f395fa89915e9e9c802
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '345'
 ht-degree: 6%
 
 ---
@@ -26,15 +26,15 @@ ht-degree: 6%
 
 Als u de opgeslagen expressies wilt openen, klikt u op de knop **[!UICONTROL Library]** in het linkerdeelvenster. In de lijst worden alle expressies weergegeven die door Admin-gebruikers zijn opgeslagen (zie [Expressies opslaan in de bibliotheek](#save-expressions)).
 
-    >[!OPMERKING]
-    >
-    >Met de knop Info kunt u meer informatie ophalen over de inhoud van een opgeslagen expressie. Als u over de juiste machtigingen beschikt om bibliotheekitems te beheren, wordt de informatieknop weergegeven in het ovaalmenu.
-    
-    ![](assets/library-list.png)
+>[!NOTE]
+>
+>Met de knop Info kunt u meer informatie ophalen over de inhoud van een opgeslagen expressie. Als u over de juiste machtigingen beschikt om bibliotheekitems te beheren, wordt de informatieknop weergegeven in het ovaalmenu.
+
+![](assets/library-list.png)
 
 Klik + om de uitdrukking in de redacteur op te nemen. Vervolgens kunt u de inhoud van uw personalisatie op de gebruikelijke wijze aanpassen en valideren. [Meer informatie](../personalization/personalization-build-expressions.md)
 
-    ![](assets/library-add.png)
+![](assets/library-add.png)
 
 ## Een expressie opslaan in de bibliotheek {#save-expressions}
 
