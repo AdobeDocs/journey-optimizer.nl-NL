@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: c07f664dad063d65d965c832bb68415acf61c700
+source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 56%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Acties zijn verbindingen waarmee u persoonlijke, realtime-ervaringen kunt bieden
 
 Als u Adobe Campaign v7 of v8 hebt, is een integratie op verzoek beschikbaar. Zie [deze pagina](../action/acc-action.md).
 
-Als u een systeem van derden gebruikt om berichten te verzenden zoals Epsilon, Facebook, [Adobe Developer](developer.adobe.com), Firebase, enzovoort, moet u een aangepaste handeling toevoegen en configureren. Zie [deze pagina](../action/about-custom-action-configuration.md).
+Als u een systeem van derden gebruikt om berichten te verzenden zoals Epsilon, Facebook, [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase, enzovoort, moet u een aangepaste handeling toevoegen en configureren. Zie [deze pagina](../action/about-custom-action-configuration.md).
 
 Met aangepaste acties kunt u een verbinding met een extern systeem configureren voor het verzenden van berichten of API-aanroepen. Een actie kan worden geconfigureerd met elke service van elke provider die door een REST-API met een payload in JSON-indeling kan worden aangeroepen.
 
