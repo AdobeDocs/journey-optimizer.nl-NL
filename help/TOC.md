@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ecd793299284ed744a8b65c6518dd4c906496f90
+source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '972'
 ht-degree: 46%
 
 ---
@@ -258,7 +258,10 @@ ht-degree: 46%
          + [AI-modellen](using/offers/offer-library/ai-ranking.md)
          + [AI-modellen maken](using/offers/offer-library/create-ranking-strategies.md)
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
-      + [Persoonlijke aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
+      + Aanbiedingen configureren {#configure-offers}
+         + [Aanbiedingen op maat maken](using/offers/offer-library/creating-personalized-offers.md)
+         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
+         + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
    + Beslissingen nemen en beheren {#create-manage-activities}
