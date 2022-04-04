@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 4812a9191eb16d622e5c9250b30096ca124d5781
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 13%
+source-wordcount: '316'
+ht-degree: 9%
 
 ---
 
@@ -175,3 +175,16 @@ ht-degree: 13%
   </td>
 </tr>
 </table>
+
+
+
+![Nieuwsbrief](using/assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} vandaag!
+
+Ontvang de nieuwste productupdates, spannende verhalen, gebruiksgevallen, tips en meer die elk kwartaal rechtstreeks aan uw Postvak IN worden bezorgd.
+
+In elke nieuwsbrief zult u vinden:
+* nieuws en updates over producten, waaronder onlangs gepubliceerde mogelijkheden
+* Uitnodigingen voor evenementen en webinars en opnames voor recente webinars
+* Top besprekingen in de Gemeenschap Adobe Journey Optimizer Experience League
+* Casestudy&#39;s en gebruiksscenario&#39;s van andere klanten van Adobe Journey Optimizer
+* Tips en trucs om de uitzonderlijke klantervaringen te leveren die bedrijfssucces drijven
