@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,11 @@ Als u deze functie wilt openen, selecteert u de optie **[!UICONTROL Simulation]*
 
 ## Testprofielen selecteren {#select-test-profiles}
 
-Eerst moet u de testprofielen selecteren die u voor simulatie gaat gebruiken. Meer informatie over testprofielen in [deze sectie](../../segment/creating-test-profiles.md).
+Eerst moet u de testprofielen selecteren die u voor simulatie gaat gebruiken.
+
+>[!CAUTION]
+>
+>U moet testprofielen beschikbaar hebben om een voorbeeld van uw berichten te kunnen bekijken en proefdrukken te kunnen verzenden. Leer hoe u [testprofielen maken](../../segment/creating-test-profiles.md).
 
 1. Klik op **[!UICONTROL Manage profile]**.
 
