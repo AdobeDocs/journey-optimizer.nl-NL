@@ -3,16 +3,14 @@ title: Journey Optimizer Aan de slag voor systeembeheer
 description: Als systeembeheerder, leer meer hoe te om met Journey Optimizer te werken
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '704'
 ht-degree: 2%
 
 ---
 
 # Aan de slag voor systeembeheerders {#get-started-sys-admins}
-
-![beheerder](assets/do-not-localize/user-2.png)
 
 Voordat u begint met [!DNL Adobe Journey Optimizer]hebt u verschillende stappen nodig om uw omgeving voor te bereiden.  U moet deze stappen uitvoeren zodat [Gegevensengineer](data-engineer.md) en [Reiswerker](marketer.md) kan beginnen met werken met [!DNL Adobe Journey Optimizer].
 
