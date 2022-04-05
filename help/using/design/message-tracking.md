@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '608'
 ht-degree: 1%
 
 ---
@@ -72,6 +72,10 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
    * U kunt de koppeling onderstrepen of niet door de bijbehorende optie in te schakelen.
 
    ![](assets/message-tracking-link-settings.png)
+
+>[!NOTE]
+>
+>E-mailberichten van het type Marketing moeten een [opt-out-koppeling](../messages/consent.md#opt-out-management), die niet vereist is voor transactieberichten. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd op de [berichtvooraf ingesteld niveau](../configuration/message-presets.md#email-type) en wanneer [het bericht maken](../messages/get-started-content.md#create-new-message).
 
 ## Koppelen naar een spiegelpagina {#mirror-page}
 
