@@ -3,16 +3,14 @@ title: Journey Optimizer Aan de slag voor Marketers
 description: Leer als praktijkbeoefenaar meer hoe u met Journey Optimizer kunt werken
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met Marketers {#get-started-marketers}
-
-![markeerteken](assets/do-not-localize/user-3.png)
 
 Als **Marketer** of **Reiswerker**, bent u verantwoordelijk voor het maken van berichten, aanbiedingen en reizen. U kunt beginnen te werken met [!DNL Adobe Journey Optimizer] eenmaal [Systeembeheerder](administrator.md) en de [Gegevensengineer](data-engineer.md) heeft u toegang verleend tot uw omgeving en uw omgeving voorbereid.
 
