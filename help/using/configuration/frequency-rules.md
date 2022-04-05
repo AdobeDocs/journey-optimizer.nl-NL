@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Volg onderstaande stappen om een nieuwe regel te maken.
 
    >[!NOTE]
    >
-   >Alleen de **[!UICONTROL Marketing]** rubriek is beschikbaar.
+   >Alleen de **[!UICONTROL Marketing]** -categorie is beschikbaar.
 
 1. Plaats het in kaart brengen voor uw regel, betekenend het maximumaantal berichten dat naar een individueel gebruikersprofiel elke maand kan worden verzonden.
 
@@ -83,7 +83,7 @@ Volg onderstaande stappen om een nieuwe regel te maken.
 
 ## Een regel activeren {#activate-rule}
 
-Om een regel van de berichtfrequentie te activeren, klik de ellips naast de regel en selecteer **[!UICONTROL Activate]**.
+Wanneer gecreeerd, heeft een regel van de berichtfrequentie **[!UICONTROL Draft]** status en heeft nog geen invloed op een bericht. Als u deze wilt inschakelen, klikt u op de ellips naast de regel en selecteert u **[!UICONTROL Activate]**.
 
 ![](assets/message-rules-activate.png)
 
@@ -105,28 +105,70 @@ De status van de regel verandert in **[!UICONTROL Inactive]** en de regel zal ni
 
 ## Pas een frequentieregel toe op een bericht {#apply-frequency-rule}
 
-Om een frequentieregel op een bericht toe te passen, moet u eenvoudig de categorie selecteren u voor deze regel bepaalde toen [het bericht maken](../messages/get-started-content.md#create-new-message).
+Volg onderstaande stappen om een frequentieregel toe te passen op een bericht.
 
-![](assets/message-rules-properties.png)
+1. Maak een bericht. [Meer informatie](../messages/get-started-content.md#create-new-message)
 
-Als u **[!UICONTROL Marketing]** categorie, worden alle regels voor berichtfrequentie automatisch toegepast op dit bericht.
+1. Selecteer de categorie die u voor de [regel die u hebt gemaakt](#create-new-rule).
+
+   ![](assets/message-rules-msg-properties.png)
+
+   >[!NOTE]
+   >
+   >Alleen de **[!UICONTROL Marketing]** de categorie is beschikbaar voor berichtfrequentieregels.
+
+1. Selecteer het kanaal of de kanalen van uw keus voor uw bericht.
+
+   ![](assets/message-rules-msg-channels.png)
+
+1. U kunt op de knop **[!UICONTROL Frequency rule]** koppeling om de frequentieregels weer te geven die van toepassing zijn op de geselecteerde categorie en het geselecteerde kanaal of de geselecteerde kanalen.
+
+   ![](assets/message-rules-msg-link.png)
+
+   Er wordt een nieuw tabblad geopend met de regels voor de overeenkomstige berichtfrequentie.
+
+1. [Ontwerp](../design/design-emails.md) en [publish](../messages/publish-manage-message.md) uw bericht.
+
+Alle frequentieregels die overeenkomen met de geselecteerde categorie en kanalen worden automatisch toegepast op dit bericht.
 
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 U kunt het aantal profielen dat is uitgesloten van levering bekijken in het dialoogvenster [Live en globale weergaven](../reports/message-monitoring.md)en in de [E-mailLive-rapport](../reports/email-live-report.md), waarbij de frequentievoorschriften worden vermeld als mogelijke reden voor gebruikers die van levering zijn uitgesloten.
 
-## Voorbeeld
+## Voorbeeld: meerdere regels combineren {#frequency-rule-example}
 
 U kunt verschillende regels voor berichtfrequentie combineren, zoals in het onderstaande voorbeeld wordt beschreven.
 
-1. Een aangeroepen regel maken *Algemene marketinglimiet*:
+1. [Een regel maken](#create-new-rule) gebeld *Algemene marketinglimiet*:
 
    * Selecteer alle kanalen (E-mail, Drukken).
    * Afbeelding instellen op 12.
 
-1. Als u het aantal op marketing gebaseerde pushmeldingen dat een gebruiker wordt verzonden verder wilt beperken, maakt u een tweede regel met de naam *Limiet voor pushberichten*:
+   ![](assets/message-rules-ex-overall-cap.png)
+
+1. Als u het aantal op marketing gebaseerde pushmeldingen dat een gebruiker wordt verzonden verder wilt beperken, maakt u een tweede regel met de naam *Push Marketing Cap*:
 
    * Selecteer Push-kanaal.
    * Afbeelding instellen op 4.
 
-In dit scenario kan een individueel profiel maximaal 12 marketingberichten per maand ontvangen, maar worden pushmeldingen na ontvangst van 4 pushberichten uitgesloten van de marketing.
+   ![](assets/message-rules-ex-push-cap.png)
+
+1. Opslaan en [activate](#activate-rule) de regel.
+
+1. Maak een bericht. [Meer informatie](../messages/get-started-content.md#create-new-message)
+
+1. Selecteer **[!UICONTROL Marketing]** categorie.
+
+   ![](assets/message-rules-ex-category-maktg.png)
+
+1. Selecteer **[!UICONTROL Email]** en **[!UICONTROL Push Notification]** kanalen.
+
+   ![](assets/message-rules-ex-channels.png)
+
+1. U kunt op de knop **[!UICONTROL Frequency rule]** koppeling om de frequentieregels weer te geven die van toepassing zijn op de geselecteerde categorie en het geselecteerde kanaal of de geselecteerde kanalen.
+
+1. [Ontwerp](../design/design-emails.md) en [publish](../messages/publish-manage-message.md) uw bericht.
+
+In dit scenario wordt een individueel profiel:
+* per maand maximaal 12 marketingberichten kunnen ontvangen;
+* maar worden uitgesloten van het in de handel brengen van pushberichten nadat ze 4 pushmeldingen hebben ontvangen.
