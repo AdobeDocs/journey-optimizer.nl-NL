@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '960'
 ht-degree: 1%
 
 ---
@@ -88,6 +88,10 @@ Voer de onderstaande stappen uit om de instellingen voor de primaire pagina te d
    >De bestemmingspagina-URL moet uniek zijn.
 
    ![](assets/lp_access-url.png)
+
+   >[!NOTE]
+   >
+   >U hebt geen toegang tot uw landingspagina door deze URL gewoon in een webbrowser te kopiëren en te plakken, zelfs niet als deze gepubliceerd is. In plaats daarvan kunt u het testen met behulp van de voorvertoningsfunctie, zoals beschreven in [deze sectie](#test-landing-page).
 
 1. U kunt een vervaldatum voor uw pagina bepalen. In dat geval moet u een actie selecteren bij het verlopen van de pagina:
 
@@ -175,7 +179,7 @@ Er kunnen twee typen waarschuwingen optreden:
 
 * **Waarschuwingen** verwijzen naar aanbevelingen en beste praktijken. <!--For example, a message will display if -->
 
-* **Fouten** voorkomt u dat u het bericht publiceert zolang deze niet zijn opgelost. U krijgt bijvoorbeeld een waarschuwing als de URL van de primaire pagina ontbreekt.
+* **Fouten** voorkomt u dat u de bestemmingspagina publiceert zolang deze niet is opgelost. U krijgt bijvoorbeeld een waarschuwing als de URL van de primaire pagina ontbreekt.
 
 <!--All possible warnings and errors are detailed [below](#alerts-and-warnings).-->
 
