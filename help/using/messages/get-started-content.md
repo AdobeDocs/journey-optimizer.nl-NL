@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 3%
+source-wordcount: '647'
+ht-degree: 2%
 
 ---
 
@@ -67,11 +67,15 @@ Volg onderstaande stappen om een nieuw bericht te maken:
 
    * Selecteer **[!UICONTROL Message category]**: Marketing of transactie.
 
+   * Selecteer de kanalen die u voor dat bericht wilt gebruiken: E-mail- en/of pushmelding. U moet ten minste één kanaal selecteren om het bericht te kunnen maken.
+
    * Selecteer **[!UICONTROL Preset]** voor het bericht te gebruiken.
 
       Voorinstellingen bevatten alle parameters die vereist zijn voor het verzenden van een e-mail- en/of pushmelding volgens uw merk. [Meer informatie over voorinstellingen](../configuration/message-presets.md).
+   >[!CAUTION]
+   >
+   >U moet een geldige berichtvoorinstelling kiezen voor de geselecteerde categorie en het geselecteerde kanaal of kanalen.
 
-   * Selecteer de kanalen die u voor dat bericht wilt gebruiken: E-mail- en/of pushmelding. U moet ten minste één kanaal selecteren om het bericht te kunnen maken.
    U kunt de titel, beschrijving en voorinstelling van het bericht op elk gewenst moment openen en wijzigen met de opdracht **[!UICONTROL Properties]** in de berichtinterface.
 
 1. Klikken **[!UICONTROL Create]** om het aanmaken van berichten te bevestigen. Uw bericht wordt toegevoegd in de berichtenlijst, in **[!UICONTROL Draft]** status.
