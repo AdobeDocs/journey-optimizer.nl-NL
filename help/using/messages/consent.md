@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1259'
+ht-degree: 1%
 
 ---
 
@@ -38,6 +38,10 @@ Daarom moet u altijd een **afmelden, koppeling** in elke e-mail die naar ontvang
 
 * Nadat u op deze koppeling hebt geklikt, worden de ontvangers naar een bestemmingspagina gestuurd om te bevestigen dat ze het programma willen afsluiten.
 * Na bevestiging van hun keuze worden de gegevens van de profielen bijgewerkt met deze informatie.
+
+>[!NOTE]
+>
+>E-mailberichten van het type Marketing moeten een opt-out-koppeling bevatten, die niet vereist is voor transactiemeldingen. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd op de [berichtvooraf ingesteld niveau](../configuration/message-presets.md#email-type) en wanneer [het bericht maken](get-started-content.md#create-new-message).
 
 ### Externe opt-out {#opt-out-external-lp}
 
