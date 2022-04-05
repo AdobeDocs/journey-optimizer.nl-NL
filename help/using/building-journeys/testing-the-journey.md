@@ -1,14 +1,14 @@
 ---
-title: Journey testen
-description: Meer informatie over het testen van reizen
+title: Uw reis testen
+description: Leer hoe u uw reis kunt testen
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 2ab1010ac97ef2116984fcd6985374aed3d6f9f6
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1600'
 ht-degree: 1%
 
 ---
@@ -18,23 +18,24 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="Uw reis testen"
->abstract="U kunt uw reis vóór zijn publicatie testen, gebruikend testprofielen. Dit staat u toe om te analyseren hoe de individuen in de reis stromen en problemen vóór publicatie oplossen."
+>abstract="Gebruik testprofielen om uw reis te testen voordat u deze publiceert. Dit staat u toe om te analyseren hoe de individuen in de reis stromen en problemen vóór publicatie oplossen."
 
-Voordat u uw reis kunt testen, moet u alle eventuele fouten oplossen. Zie [deze sectie](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+Gebruik testprofielen om uw reis te testen voordat u deze publiceert. In deze modus kunt u een test van uw reis uitvoeren en problemen identificeren aan de hand van testprofielen.
 
-U kunt uw reis testen voordat deze wordt gepubliceerd, met behulp van testprofielen. Dit staat u toe om te analyseren hoe de individuen in de reis stromen en problemen vóór publicatie oplossen.
+Alleen testprofielen kunnen een reis maken in de testmodus. U kunt nieuwe testprofielen maken of bestaande profielen omzetten in testprofielen. Meer informatie over testprofielen vindt u in [deze sectie](../segment/creating-test-profiles.md).
 
-Alleen testprofielen kunnen een reis maken in de testmodus. U kunt een nieuw testprofiel maken of een bestaand profiel omzetten in een testprofiel. Zie dit [sectie](../segment/creating-test-profiles.md).
+>[!NOTE]
+>
+>Voordat u de reis kunt testen, moet u alle eventuele fouten oplossen. Leer hoe u fouten kunt controleren voordat u gaat testen [deze sectie](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
+
 
 Voer de volgende stappen uit om de testmodus te gebruiken:
 
-1. Controleer voordat u de reis test of deze geldig is en of er geen fout optreedt. U kunt een test van een reis met fouten niet starten. Zie [deze sectie](../building-journeys/troubleshooting.md#checking-for-errors-before-testing). Er wordt een waarschuwingssymbool weergegeven wanneer er fouten optreden.
-
-1. Als u de testmodus wilt activeren, klikt u op de knop **[!UICONTROL Test]** in de rechterbovenhoek.
+1. Als u de testmodus wilt activeren, activeert u de **[!UICONTROL Test]** in de rechterbovenhoek.
 
    ![](assets/journeytest1.png)
 
-1. Gebruik de **[!UICONTROL Wait time]** parameter, in de bodem linkerhoek, om de tijd te bepalen dat elke wachttijd activiteit en gebeurtenisonderbreking op testwijze zal duren. De standaardtijd is 10 seconden voor wachttijden en gebeurtenisonderbrekingen. Zo krijgt u de testresultaten snel. Deze parameter verschijnt slechts als u één of meerdere wachtactiviteiten in uw reis hebt gelaten vallen.
+1. Indien de reis ten minste één **Wachten** activiteit instellen **[!UICONTROL Wait time]** parameter om de tijd te bepalen dat elke activiteit van de wachttijd en gebeurtenisonderbreking op testwijze zal duren. De standaardtijd is 10 seconden voor wachttijden en gebeurtenisonderbrekingen. Zo krijgt u de testresultaten snel.
 
    ![](assets/journeytest_wait.png)
 
@@ -42,19 +43,19 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
    >
    >Wanneer een reactiegebeurtenis in een reis wordt gebruikt, is het gebrek van de wachttijdtijd en de minimumwaarde 40 seconden. Zie [deze sectie](../building-journeys/reaction-events.md).
 
-1. Klikken **[!UICONTROL Trigger an event]** om gebeurtenissen aan de reis te vormen en te verzenden.
+1. Gebruik de **[!UICONTROL Trigger an event]** om gebeurtenissen naar de reis te vormen en te verzenden.
 
    ![](assets/journeyuctest1.png)
 
-1. Configureer de verschillende verwachte velden. In de **Profiel-id** Voer de waarde in van het veld dat wordt gebruikt om het testprofiel te identificeren. Het kan bijvoorbeeld het e-mailadres zijn. Zorg ervoor dat u gebeurtenissen verzendt die betrekking hebben op testprofielen. Zie [Gebeurtenissen starten](#firing_events).
+1. Configureer de verschillende verwachte velden. In de **Profiel-id** Voer de waarde in van het veld dat wordt gebruikt om het testprofiel te identificeren. Het kan bijvoorbeeld het e-mailadres zijn. Zorg ervoor dat u gebeurtenissen verzendt die betrekking hebben op testprofielen. Zie [deze sectie](#firing_events).
 
    ![](assets/journeyuctest1-bis.png)
 
-1. Nadat de gebeurtenissen zijn ontvangen, klikt u op de knop **[!UICONTROL Show log]** om het testresultaat te bekijken en te verifiëren. Zie [Logboeken weergeven](#viewing_logs).
+1. Nadat de gebeurtenissen zijn ontvangen, klikt u op de knop **[!UICONTROL Show log]** om het testresultaat te bekijken en te verifiëren. Zie [deze sectie](#viewing_logs).
 
    ![](assets/journeyuctest2.png)
 
-1. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de journey en test u deze opnieuw. Wanneer de test overtuigend is, kunt u uw reis publiceren. Zie [deze pagina](../building-journeys/publishing-the-journey.md).
+1. Als er een fout optreedt, deactiveert u de testmodus, wijzigt u de journey en test u deze opnieuw. Wanneer de tests klaar zijn, kunt u uw reis publiceren. Zie [deze pagina](../building-journeys/publishing-the-journey.md).
 
 ## Belangrijke opmerkingen {#important_notes}
 
@@ -66,16 +67,16 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 * U kunt de testmodus zo vaak als nodig in- en uitschakelen.
 * U kunt uw reis niet wijzigen wanneer de testwijze wordt geactiveerd. In de testmodus kunt u de rit rechtstreeks publiceren. U hoeft de testmodus daarvoor niet te deactiveren.
 * Bij het bereiken van een splitsing wordt altijd de bovenste vertakking gekozen. U kunt de positie van de gesplitste vertakkingen opnieuw ordenen als u wilt dat de test een ander pad kiest.
-* Om prestaties te optimaliseren en verouderd middelgebruik te verhinderen, zullen alle reizen in testwijze die niet voor een week zijn teweeggebracht op de status van het Ontwerp terugschakelen.
+* Om prestaties te optimaliseren en verouderd middelgebruik te voorkomen, zullen alle reizen in testwijze die niet voor een week zijn teweeggebracht terug naar **Concept** status.
 
-## Gebeurtenissen starten {#firing_events}
+## Trigger uw gebeurtenissen {#firing_events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="De testmodus configureren"
 >abstract="Als uw reis verscheidene gebeurtenissen bevat, gebruik de drop-down lijst om een gebeurtenis te selecteren. Configureer vervolgens voor elke gebeurtenis de doorgegeven velden en de uitvoering van de gebeurtenis die de gebeurtenis verzendt."
 
-De **[!UICONTROL Trigger an event]** de knoop staat u toe om een gebeurtenis te vormen die een persoon de reis zal maken.
+Gebruik de **[!UICONTROL Trigger an event]** knoop om een gebeurtenis te vormen die een persoon de reis zal maken.
 
 >[!NOTE]
 >
@@ -111,11 +112,9 @@ Wanneer u een gebeurtenis activeert, worden de **Gebeurtenisconfiguratie** kunt 
 
 ![](assets/jo-event8.png)
 
-Voor meer informatie over het gebruik van de testmodus raadpleegt u [deze pagina](../building-journeys/testing-the-journey.md).
-
 ## Testmodus voor bedrijfsgebeurtenissen {#test-business}
 
-Bij het gebruik van een bedrijfsgebeurtenis (zie [deze sectie](../event/about-events.md)), kunt u met de testmodus één enkele ingang voor het testprofiel in de rit activeren, de gebeurtenis simuleren en de juiste profiel-id doorgeven. U moet de gebeurtenisparameters en de identificatiecode van het testprofiel doorgeven die de reis tijdens de test zal betreden. U kunt de **[!UICONTROL Up to 100 profiles at once]** optie die bestaat voor andere op segmenten gebaseerde reizen. In de testmodus is er geen modus &quot;Codeweergave&quot; beschikbaar voor reizen op basis van bedrijfsgebeurtenissen.
+Wanneer u een [business, gebeurtenis](../event/about-events.md), gebruikt u de testmodus om één enkele ingang van het testprofiel in de rit te activeren, de gebeurtenis te simuleren en de juiste profiel-id te doorstaan. U moet de gebeurtenisparameters en de identificatiecode van het testprofiel doorgeven die de reis tijdens de test zal betreden. U kunt de **[!UICONTROL Up to 100 profiles at once]** optie die bestaat voor andere op segmenten gebaseerde reizen. In de testmodus is er geen modus &quot;Codeweergave&quot; beschikbaar voor reizen op basis van bedrijfsgebeurtenissen.
 
 Wanneer u een bedrijfsgebeurtenis voor het eerst activeert, kunt u de definitie van een bedrijfsgebeurtenis niet in dezelfde testsessie wijzigen. U kunt alleen dezelfde persoon of een andere persoon dezelfde of een andere persoon de reis laten doorlopen met dezelfde of een andere id. Als u parameters voor bedrijfsgebeurtenissen wilt wijzigen, moet u de testmodus stoppen en opnieuw starten.
 
@@ -124,7 +123,7 @@ Wanneer u een bedrijfsgebeurtenis voor het eerst activeert, kunt u de definitie 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="Logboeken van testmodi"
->abstract="U kunt de testresultaten bekijken. Op deze pagina worden de huidige gegevens van de reis in JSON-indeling weergegeven. Met een knop kunt u hele knooppunten kopiëren. U moet de pagina handmatig vernieuwen om de testresultaten van de reis bij te werken."
+>abstract="Met de knop Logbestand tonen worden de testresultaten in JSON-indeling weergegeven. Deze resultaten geven het aantal individuen binnen de reis en hun status weer."
 
 De **[!UICONTROL Show log]** kunt u de testresultaten bekijken. Op deze pagina worden de huidige gegevens van de reis in JSON-indeling weergegeven. Met een knop kunt u hele knooppunten kopiëren. U moet de pagina handmatig vernieuwen om de testresultaten van de reis bij te werken.
 
@@ -157,9 +156,11 @@ Wanneer een gebeurtenis gebruikend de testwijze wordt teweeggebracht, wordt een 
 
 In de testmodus wordt automatisch een Experience Event gemaakt en naar Adobe Experience Platform verzonden. De naam van de bron voor deze ervaringsgebeurtenis is &quot;Journey Orchestration Test Events&quot;.
 
-In het geval van meerdere gebeurtenissen die het gevolg zijn van meerdere reizen
+<!--
+In the case of multiple events triggered from multiple journeys
 
-Er is een scenario wanneer er meerdere gebeurtenissen worden verzonden van meerdere reizen die verschillende schema&#39;s zullen hebben. Kan een schemakaart aan 1 dataset? Als niet, dan zullen wij veelvoudige vereiste datasets hebben.
+There is a scenario when there are multiple events sent from multiple journeys that will have different Schemas. Can n schema map to 1 dataset? If not, then we will have multiple datasets required.
+-->
 
 De automatische verwezenlijking en de naam van deze datasets worden uitgevoerd als een bestemmingsdataset niet inbegrepen in de ervaringsgebeurtenis is. Daarom zien we vandaag de &#39;Automatisch gemaakte dataset voor de voyager&#39;.
 
