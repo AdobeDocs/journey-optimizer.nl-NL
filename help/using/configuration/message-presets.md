@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: e1a9ac4a13f82312233fe4a34d06046b67c026dc
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '2067'
+source-wordcount: '2098'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ Met [!DNL Journey Optimizer]kunt u voorinstellingen voor berichten instellen die
 
 >[!CAUTION]
 >
-> * Configuratie van voorinstellingen voor berichten is beperkt tot reisbeheerders. [Meer informatie](../administration/ootb-product-profiles.md#journey-administrator)
+> * Configuratie van voorinstellingen voor berichten is beperkt tot [Reisbeheerders](../administration/ootb-product-profiles.md#journey-administrator). Als u berichtvoorinstellingen wilt maken, bewerken en verwijderen, moet u beschikken over de [Voorinstellingen voor berichten beheren](../administration/high-low-permissions.md#manage-message-presets).
 >
-> * U moet e-mailconfiguratie uitvoeren en [Pushconfiguratie](../configuration/push-configuration.md) stappen voordat u berichtvoorinstellingen maakt.
+> * U moet [E-mailconfiguratie](#configure-email-settings) en [Pushconfiguratie](../configuration/push-configuration.md) stappen voordat u berichtvoorinstellingen maakt.
 
 
 Zodra berichtvoorinstellingen zijn geconfigureerd, kunt u deze selecteren wanneer u berichten maakt van de **[!UICONTROL Presets]** lijst.
@@ -84,14 +84,15 @@ E-mailinstellingen worden gedefinieerd in een specifieke sectie van de configura
 
 Configureer uw instellingen zoals hieronder beschreven.
 
-
 ### Type e-mail{#email-type}
 
 In de **E-MAILTYPE** selecteert u het type bericht dat wordt verzonden met de voorinstelling: **Marketing** of **Transactioneel**.
 
-Kies **Marketing** voor promotieberichten: voor deze berichten is toestemming van de gebruiker vereist .
+* Kies **Marketing** voor promotieberichten: voor deze berichten is toestemming van de gebruiker vereist .
 
-Kies **Transactioneel** voor niet-commerciële berichten, zoals bevestiging van de bestelling, wachtwoordherstelmeldingen of leveringsgegevens.
+* Kies **Transactioneel** voor niet-commerciële berichten, zoals bevestiging van de bestelling, wachtwoordherstelmeldingen of leveringsgegevens.
+
+Wanneer [een bericht maken](../messages/get-started-content.md#create-new-message)kiest u een geldige berichtvoorinstelling voor de geselecteerde categorie en het geselecteerde kanaal.
 
 >[!CAUTION]
 >
