@@ -2,9 +2,9 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 88b9dbd690a4dc987ee0bfe31e2d8b38a39c3f43
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1113'
 ht-degree: 21%
 
 ---
@@ -21,7 +21,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Een voorbeeld toegevoegd over het toevoegen van een expressie als standaardwaarde in de expressieeditor. [Meer informatie](../building-journeys/expression/field-references.md#default-value)
 * De **Aangepaste aanbiedingen maken** deze sectie is gereorganiseerd voor een betere leesbaarheid. [Meer informatie](../offers/offer-library/creating-personalized-offers.md)
 * Er is een nieuw gedeelte toegevoegd waarin wordt beschreven welke gevolgen het wijzigen van de begin- en/of einddatum van een aanbieding kan hebben voor de maximale frequentie van deze aanbieding. [Meer informatie](../offers/offer-library/add-constraints.md#capping-change-date)
-<!--* The **Change the primary email addresses** section has been updated to reflect the user interface changes. [Read more](../configuration/primary-email-addresses.md)-->
+* De **Het primaire e-mailadres wijzigen** is bijgewerkt met wijzigingen in de gebruikersinterface. [Meer informatie](../configuration/primary-email-addresses.md)
 
 ## Februari 2022 {#feb-2022}
 
