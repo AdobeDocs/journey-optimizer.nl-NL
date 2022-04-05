@@ -3,16 +3,14 @@ title: Journey Optimizer Get Started for Data Engineer
 description: Als gegevensengineer leert u meer hoe u met Journey Optimizer kunt werken
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '572'
 ht-degree: 2%
 
 ---
 
 # Aan de slag voor Data Engineer {#data-engineer}
-
-![gegevensengineer](assets/do-not-localize/user-1.png)
 
 Als **Adobe Journey Optimizer Data Engineer**, gegevens van het klantprofiel voorbereiden en onderhouden om de ervaringen die worden georkestreerd door [!DNL Journey Optimizer], modelklant en bedrijfsgegevens in schema&#39;s en vormen bronschakelaars voor het opnemen van gegevens. U kunt beginnen te werken met [!DNL Adobe Journey Optimizer] eenmaal [Systeembeheerder](administrator.md) heeft u toegang verleend tot uw omgeving en uw omgeving voorbereid.
 
