@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 3%
+source-wordcount: '167'
+ht-degree: 5%
 
 ---
 
@@ -23,50 +23,14 @@ Alleen beginnen met [!DNL Journey Optimizer]? Hebt u ervaring met specifieke vra
 
 Als u de kracht van Adobe Journey Optimizer wilt leren kennen en ontdekken met stapsgewijze instructies, selecteert u uw profiel.
 
-<table>
-<tr>
-  <td valign="bottom">
-    <a href="path/administrator.md">
-      <img alt="Beheerder" src="path/assets/do-not-localize/user-2.png" />
-    </a>
-    <div>
-    <a href="path/administrator.md">Ik ben beheerder</a>
-     <p>Bereid uw milieu voor, verleent toegang, vormt montages
-    <p>
-    </div>
-    <br>
-  </td>
-  <td valign="bottom">
-    <a href="path/data-engineer.md">
-      <img alt="Gegevensengineer" src="path/assets/do-not-localize/user-1.png"/>
-    </a>
-    <div>
-    <a href="path/data-engineer.md">Ik ben gegevensengineer</a>
-     <p>Profielen importeren, publiek maken, schema's en gegevenssets maken
-    <p>
-    </div>
-    <br>
-  </td>
-  <td valign="bottom">
-      <a href="path/marketer.md">
-       <img alt="Marketer" src="path/assets/do-not-localize/user-3.png" />
-       </a>
-    <div><a href="path/marketer.md">Ik ben een Marketer</a>
-     <p>Berichten ontwerpen, aanbiedingen, middelen toevoegen en klantenreizen bouwen
-    <p>
-    </div>
-    <br>
-  </td>
-    <!--td valign="bottom">
-    <a href="path/developer.md">
-      <img alt="Developer" src="../using/assets/do-not-localize/user-2.png" />
-    </a>
-    <div>
-    <a href="path/developer.md">I am a Developer</a>
-     <p>Integrate your mobile apps, use Journey Optimizer APIs
-    <p>
-    </div>
-    <br>
-  </td-->
-</tr>
-</table>
+* Ik ben een **Beheerder**
+
+   Bereid uw milieu voor, verleent toegang, vormt montages. [Meer informatie](path/administrator.md)
+
+* Ik ben een **Gegevensengineer**
+
+   De profielen van de invoer, bouwen publiek, creëren schema&#39;s, en datasets. [Meer informatie](path/data-engineer.md)
+
+* Ik ben een **Marketer**
+
+   Ontwerpberichten, voeg aanbiedingen, middelen toe en bouw klantentreizen. [Meer informatie](path/marketer.md)
