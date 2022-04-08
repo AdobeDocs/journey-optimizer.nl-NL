@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '188'
 ht-degree: 5%
 
 ---
 
 # Tags maken {#create-tags}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_offer_tags"
+>title="Tags"
+>abstract="Koppel een of meerdere tags aan de aanbieding om de bibliotheek met aanbiedingen overzichtelijker te houden en aanbiedingen gemakkelijker te vinden. Tags worden gemaakt in het menu Component."
 
 Door tags aan uw aanbiedingen te koppelen, kunt u deze eenvoudiger organiseren. U kunt bijvoorbeeld de tag &#39;Zwarte vrijdag&#39; gebruiken voor uw aanbiedingen op de zwarte vrijdag. Vervolgens kunt u met de zoekfunctionaliteit in de bibliotheek met aanbiedingen alle aanbiedingen met die tag gemakkelijk vinden.
 
