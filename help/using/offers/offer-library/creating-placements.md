@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 5%
+source-wordcount: '261'
+ht-degree: 4%
 
 ---
 
 # Plaatsingen maken {#create-placements}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_placement"
+>title="Plaatsing"
+>abstract="Een plaatsing is een container die wordt gebruikt om aanbiedingen te tonen. Het helpt ervoor te zorgen dat de juiste aanbiedingsinhoud op de juiste plaats binnen uw bericht verschijnt. Plaatsen worden gemaakt via het menu &quot;Componenten&quot;."
 
 Een plaatsing helpt ervoor te zorgen dat de juiste aanbiedingsinhoud op de juiste plaats binnen uw bericht verschijnt. Wanneer u inhoud aan een aanbieding toevoegt, wordt u gevraagd een plaatsing te selecteren waarin die inhoud kan worden weergegeven.
 
