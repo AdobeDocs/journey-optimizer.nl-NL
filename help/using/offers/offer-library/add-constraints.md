@@ -5,9 +5,10 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
+source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1552'
 ht-degree: 1%
 
 ---
@@ -23,6 +24,11 @@ ht-degree: 1%
 >id="od_offer_priority"
 >title="Info over aanbiedingsprioriteit"
 >abstract="Op dit gebied, kunt u prioritaire montages voor de aanbieding specificeren. Prioriteit is een nummer dat wordt gebruikt om aanbiedingen te rangschikken die aan alle beperkingen voldoen, zoals geschiktheid, datums en aftopping."
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_priority"
+>title="Prioriteit"
+>abstract="De prioritaire hulp bepaalt de prioriteit van de aanbieding in vergelijking met andere als de gebruiker voor meer dan één aanbieding in aanmerking komt. Hoe hoger de prioriteit van een aanbieding is, hoe hoger de prioriteit ervan wordt vergeleken met andere aanbiedingen."
 
 Met beperkingen kunt u de voorwaarden definiëren waaronder een aanbieding wordt weergegeven.
 
@@ -49,6 +55,11 @@ Als u bijvoorbeeld de volgende beperkingen instelt:
 * Het aanbod wordt slechts eenmaal per gebruiker op alle plaatsen weergegeven.
 
 ## Subsidiabiliteit {#eligibility}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_eligibility"
+>title="Subsidiabiliteit"
+>abstract="De geschiktheid van aanbiedingen staat u toe om de aanbieding tot specifieke profielen te beperken die u het gebruiken van segmenten of besluitvormingsregels bepaalt."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -107,8 +118,8 @@ In feite, is de output van een segment een lijst van profielen, terwijl een besl
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="Over aanbiedingen beperken"
->abstract="In dit veld kunt u opgeven hoe vaak het voorstel kan worden weergegeven."
+>title="Afbeelding"
+>abstract="Afkappen wordt gebruikt als beperking om het maximumaantal keren te bepalen dat een aanbieding kan worden voorgesteld."
 
 Afkappen wordt gebruikt als beperking om het maximumaantal keren te bepalen dat een aanbieding kan worden voorgesteld.
 
