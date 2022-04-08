@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: de5e9e6026222ce57a7bb37e11aa6f8bbf583d19
+source-git-commit: 4ae0f9a43ecacb031168ea455db49a9241ab38fa
 workflow-type: tm+mt
-source-wordcount: '2110'
+source-wordcount: '2187'
 ht-degree: 1%
 
 ---
@@ -84,12 +84,12 @@ E-mailinstellingen worden gedefinieerd in een specifieke sectie van de configura
 
 Configureer uw instellingen zoals hieronder beschreven.
 
-### Type e-mail{#email-type}
+### Type e-mail {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="Type e-mail"
->abstract="In te vullen"
+>title="De e-mailcategorie definiëren"
+>abstract="Selecteer het type berichten dat wordt verzonden wanneer u deze voorinstelling gebruikt: Marketing voor promotieberichten waarvoor toestemming van de gebruiker vereist is, of Transactie voor niet-commerciële berichten, die ook naar niet-geabonneerde profielen in specifieke contexten kunnen worden verzonden."
 
 In de **E-MAILTYPE** selecteert u het type bericht dat wordt verzonden met de voorinstelling: **Marketing** of **Transactioneel**.
 
@@ -193,12 +193,13 @@ In de **[!UICONTROL HEADER PARAMETERS]** in, voert u de namen en e-mailadressen 
 >
 >Adressen moeten beginnen met een letter (A-Z) en mogen alleen alfanumerieke tekens bevatten. U kunt ook het onderstrepingsteken gebruiken `_`, punt`.` en afbreekstreepje `-` tekens.
 
-### Parameters opnieuw proberen{#email-retry}
+### Parameters opnieuw proberen {#email-retry}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_retryperiod"
->title="Tijdsperiode voor e-mail opnieuw proberen"
->abstract="In te vullen"
+>title="De periode voor het opnieuw proberen aanpassen"
+>abstract="Er worden 3,5 dagen (84 uur) opnieuw geprobeerd wanneer een e-mailbericht mislukt als gevolg van een tijdelijke soft bounce-fout. U kunt deze standaardperiode voor opnieuw proberen aanpassen aan uw wensen."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="Opnieuw proberen"
 
 U kunt de **Parameters opnieuw proberen**.
 
