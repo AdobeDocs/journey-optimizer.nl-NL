@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: de5e9e6026222ce57a7bb37e11aa6f8bbf583d19
 workflow-type: tm+mt
-source-wordcount: '2098'
+source-wordcount: '2110'
 ht-degree: 1%
 
 ---
@@ -85,6 +85,11 @@ E-mailinstellingen worden gedefinieerd in een specifieke sectie van de configura
 Configureer uw instellingen zoals hieronder beschreven.
 
 ### Type e-mail{#email-type}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_emailtype"
+>title="Type e-mail"
+>abstract="In te vullen"
 
 In de **E-MAILTYPE** selecteert u het type bericht dat wordt verzonden met de voorinstelling: **Marketing** of **Transactioneel**.
 
@@ -189,6 +194,11 @@ In de **[!UICONTROL HEADER PARAMETERS]** in, voert u de namen en e-mailadressen 
 >Adressen moeten beginnen met een letter (A-Z) en mogen alleen alfanumerieke tekens bevatten. U kunt ook het onderstrepingsteken gebruiken `_`, punt`.` en afbreekstreepje `-` tekens.
 
 ### Parameters opnieuw proberen{#email-retry}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_retryperiod"
+>title="Tijdsperiode voor e-mail opnieuw proberen"
+>abstract="In te vullen"
 
 U kunt de **Parameters opnieuw proberen**.
 
