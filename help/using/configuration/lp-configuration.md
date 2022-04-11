@@ -4,9 +4,9 @@ description: Leer hoe u uw omgeving configureert voor het maken en gebruiken van
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 62d8f4b0caa4ed74991e92475392c3278bdf5317
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '879'
 ht-degree: 1%
 
 ---
@@ -19,6 +19,13 @@ ht-degree: 1%
 >id="ajo_admin_config_lp_subdomain"
 >title="Een voorinstelling voor een openingspagina maken"
 >abstract="Als u een voorinstelling voor een bestemmingspagina wilt maken, moet u ervoor zorgen dat u eerder ten minste één subdomein van de bestemmingspagina hebt geconfigureerd om te kiezen uit de lijst met subdomeinnamen."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_lp"
+>title="Een subdomein van een bestemmingspagina delegeren"
+>abstract="U moet een subdomein configureren om te gebruiken voor uw bestemmingspagina&#39;s, aangezien u dit subdomein nodig hebt om een voorinstelling voor een bestemmingspagina te maken. U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd of een nieuw subdomein vormen."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration.html#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
 
 Om in staat te zijn [voorinstellingen voor openingspagina&#39;s maken](#lp-create-preset), moet u de subdomeinen instellen die u voor de bestemmingspagina&#39;s wilt gebruiken.
 
