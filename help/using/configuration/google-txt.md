@@ -6,18 +6,23 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d568480005d9b4aad5982c26184a5add0be6c83a
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 26%
+source-wordcount: '205'
+ht-degree: 21%
 
 ---
 
 # Een Google TXT-record toevoegen aan een subdomein {#google-txt-record}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_google"
+>title="Google TXT-records"
+>abstract="Als u ervoor wilt zorgen dat e-mailberichten naar Gmail-adressen worden verzonden, kunt u speciale TXT-records voor de verificatie van de Google-site toevoegen aan uw subdomein om te controleren of deze is geverifieerd."
+
 TXT-records zijn DNS-records die worden gebruikt om tekstgegevens over een domein te verstrekken en die kunnen worden gelezen door externe bronnen.
 
-Om ervoor te zorgen dat de e-mails naar Gmail-adressen goed kunnen worden afgeleverd en succesvol kunnen worden verzonden, [!DNL Journey Optimizer] Hiermee kunt u speciale TXT-records voor verificatie van de Google-site toevoegen aan uw subdomeinen om te controleren of deze zijn geverifieerd.
+Om ervoor te zorgen dat de e-mailadressen optimaal kunnen worden bezorgd en succesvol kunnen worden bezorgd, [!DNL Journey Optimizer] Hiermee kunt u speciale TXT-records voor verificatie van de Google-site toevoegen aan uw subdomein om te controleren of dit is geverifieerd.
 
 >[!CAUTION]
 >
