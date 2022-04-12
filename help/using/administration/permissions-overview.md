@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 19%
+source-wordcount: '190'
+ht-degree: 20%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 19%
 
 [!DNL Journey Optimizer]Met kunt u de machtigingen definiëren en beheren die aan verschillende gebruikers zijn toegewezen. Machtigingen zijn een reeks rechten en beperkingen die toegang tot functies en mogelijkheden in producten toestaan of weigeren.
 
-➡️ [Meer informatie over het toegangsbeheersysteem van Adobe Journey Optimizer vindt u in deze video](#video)
+➡️ [Meer informatie over toegangsbeheer in Adobe Journey Optimizer in deze video](#video)
 
 Gebruikersbeheer in [!DNL Journey Optimizer] is gebaseerd op drie concepten:
 
@@ -33,6 +33,6 @@ Elk concept kan worden beheerd door **[!UICONTROL Product administrators]** die 
 
 ## Hoe kan ik-video{#video}
 
-Meer informatie over het toegangsbeheersysteem van Adobe Journey Optimizer en de acht aangepaste productprofielen. Leer hoe u productprofielen en -machtigingen kunt beheren en hoe u gebruikers kunt toevoegen en beheren.
+Meer informatie over toegangsbeheersystemen en aangepaste productprofielen in Adobe Journey Optimizer. Leer hoe u productprofielen en -machtigingen kunt beheren en hoe u gebruikers kunt toevoegen en beheren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)
