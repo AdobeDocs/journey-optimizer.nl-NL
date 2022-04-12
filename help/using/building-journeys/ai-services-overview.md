@@ -5,9 +5,9 @@ description: Overzicht van AI-services
 role: User
 level: Intermediate
 exl-id: 2b6989b3-cefe-4ca9-85fc-961a437edef3
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Integratie tussen [!DNL Journey Optimizer] en [!DNL Intelligent Services] maakt 
 
 AI van de klant maakt deel uit van [!DNL Adobe Intelligent Services]. Het helpt voorspellen wat een klant waarschijnlijk zal doen. Zie de [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html){target=&quot;_blank&quot;}.
 
-Klant-AI staat merken toe om op basis van leerresultaten voor churn- of conversiesystemen te maken die beschikbaar zijn als profielkenmerken in de Adobe Experience Platform-profielen (Real-time Customer Profile).
+Klant-AI staat merken toe om op basis van leerresultaten voor churn- of conversiesystemen te maken die beschikbaar zijn als profielkenmerken in Adobe Experience Platform-profielen (Real-time Customer Profile).
 
 Dientengevolge, kunnen zij als andere profielattributen in Journey Optimizer-voorwaarden (om de beste besluiten te nemen), acties of segmentbouw worden gebruikt.
 
