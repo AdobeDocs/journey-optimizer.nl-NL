@@ -6,18 +6,23 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
 
 # IP-pools maken {#create-ip-pools}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_pool"
+>title="Een IP-pool instellen"
+>abstract="U kunt IP pools tot stand brengen om de IP adressen van uw subdomeinen voor betere e-mailleverbaarheid samen te groeperen."
+
 ## Informatie over IP-pools {#about-ip-pools}
 
-Met Journey Optimizer kunt u IP-pools maken om de IP-adressen van uw subdomeinen te groeperen.
+Met [!DNL Journey Optimizer], kunt u IP pools tot stand brengen om de IP adressen van uw subdomeinen samen te groeperen.
 
 Het maken van IP-pools wordt ten zeerste aanbevolen voor e-maillevering. Door dit te doen, kunt u de reputatie van subdomain verhinderen uw andere subdomeinen te beïnvloeden.
 
