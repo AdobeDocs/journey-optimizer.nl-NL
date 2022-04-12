@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 65fdbc0255b367cc30d3d220c128350af0d7b7ad
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '922'
 ht-degree: 5%
 
 ---
@@ -122,6 +122,6 @@ U kunt het parametertype definiëren (bijvoorbeeld: tekenreeks, geheel getal, en
 U kunt ook opgeven of een parameter een constante of een variabele is.
 
 * Constante betekent dat de waarde van de parameter in de ruit van de actieconfiguratie door een technische persoon wordt bepaald. De waarde zal altijd het zelfde over reizen zijn. De kleur verandert niet en de markeerstift ziet deze niet wanneer u de aangepaste handeling voor de reis gebruikt. Het kan bijvoorbeeld een id zijn die het externe systeem verwacht. In dat geval is het veld rechts van de schakelconstante/variabele de doorgegeven waarde.
-* Variabele betekent dat de waarde van de parameter varieert. Marktdeelnemers die deze aangepaste handeling tijdens een reis gebruiken, kunnen de gewenste waarde doorgeven of opgeven waar de waarde voor deze parameter moet worden opgehaald (bijvoorbeeld van het evenement, van de Adobe Experience Platform, enz.). In dat geval, is het gebied op het recht van de knevelconstante/variabele de etiketmarketers in de reis zullen zien om deze parameter te noemen.
+* Variabele betekent dat de waarde van de parameter varieert. Marktdeelnemers die deze aangepaste handeling tijdens een reis gebruiken, kunnen de gewenste waarde doorgeven of opgeven waar de waarde voor deze parameter moet worden opgehaald (bijvoorbeeld vanaf het evenement, vanuit Adobe Experience Platform, enz.). In dat geval, is het gebied op het recht van de knevelconstante/variabele de etiketmarketers in de reis zullen zien om deze parameter te noemen.
 
 ![](assets/customactionpayloadmessage2.png)
