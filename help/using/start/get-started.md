@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '699'
 ht-degree: 6%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 [!DNL Adobe Journey Optimizer] helpt bedrijven hun klanten verbonden, contextafhankelijke en persoonlijke ervaringen te bieden. Het klanttraject is het hele proces van de interacties van een klant met het merk, vanaf het eerste contactmoment tot het vertrek van de klant. Het begint met de bewustmakingsfase, waarin de klant leert over het merk en begint met het engageren. De klant zal dan verder met het merk communiceren, online en fysieke sites bezoeken, aankopen doen, berichten verzenden of revisies verzenden.
 
-[!DNL Adobe Journey Optimizer] wordt native op de [!DNL Adobe Experience Platform] en combineert een verenigd, real-time klantprofiel, een API-eerste open kader, gecentraliseerde offer decisioning, en kunstmatige intelligentie (AI) en machine het leren (ML) voor verpersoonlijking en optimalisering. Met Journey Optimizer kunnen merken op intelligente wijze bepalen wat de volgende beste interactie is met schaal, snelheid en flexibiliteit voor de hele reis van de klant. Met [!DNL Adobe Journey Optimizer]kunnen bedrijven zowel geplande marketingcampagnes (zoals wekelijkse promoties voor een detailhandel) als afzonderlijke communicatie op maat maken en leveren (zoals een pushmelding voor een item dat een klant van een loyauteit-app mogelijk heeft bekeken en dat voorheen niet in voorraad was) binnen dezelfde toepassing.
+[!DNL Adobe Journey Optimizer] is native [!DNL Adobe Experience Platform] en combineert een verenigd, real-time klantprofiel, een API-eerste open kader, gecentraliseerde offer decisioning, en kunstmatige intelligentie (AI) en machine het leren (ML) voor verpersoonlijking en optimalisering. Met Journey Optimizer kunnen merken op intelligente wijze bepalen wat de volgende beste interactie is met schaal, snelheid en flexibiliteit voor de hele reis van de klant. Met [!DNL Adobe Journey Optimizer]kunnen bedrijven zowel geplande marketingcampagnes (zoals wekelijkse promoties voor een detailhandel) als afzonderlijke communicatie op maat maken en leveren (zoals een pushmelding voor een item dat een klant van een loyauteit-app mogelijk heeft bekeken en dat voorheen niet in voorraad was) binnen dezelfde toepassing.
 
 ➡️ [Discover Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target=&quot;_blank&quot;} (video)
 
