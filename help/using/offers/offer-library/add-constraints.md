@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 5ea04ea9f8ed76b616db1038b917f2d37dea003c
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
@@ -133,7 +133,7 @@ Volg de onderstaande stappen om het toewijzen van plafonds in te stellen.
 
    >[!NOTE]
    >
-   >Het getal moet groter zijn dan 0.
+   >Het getal moet een geheel getal groter dan 0 zijn.
 
 1. Geef op of u de aftopping wilt toepassen op alle gebruikers of op één specifiek profiel:
 
@@ -147,15 +147,15 @@ Volg de onderstaande stappen om het toewijzen van plafonds in te stellen.
 
       Als je bijvoorbeeld een bank bent met een &#39;Platinum credit card&#39;-aanbieding, wil je niet dat dit voorstel meer dan vijf keer per profiel wordt weergegeven. U bent namelijk van mening dat als de gebruiker het aanbod vijf keer heeft gezien en er niet op heeft gereageerd, hij een grotere kans heeft om op het volgende beste aanbod in te gaan.
 
-1. Als u meerdere [representaties](#representations) Geef voor je voorstel op of je de aftopping wilt toepassen op **[!UICONTROL All placements]** of **[!UICONTROL Per placement]**.
+1. Als u meerdere [representaties](#representations) voor je voorstel, geef aan of je de aftopping wilt toepassen **[!UICONTROL Across all placements]** of **[!UICONTROL For each placement]**.
 
    ![](../assets/offer-capping-placement.png)
 
-   * **[!UICONTROL All placements]**: het beperken van aantallen zal alle besluiten over de plaatsen verbonden aan de aanbieding in totaal nemen.
+   * **[!UICONTROL Across all placements]**: het beperken van aantallen zal alle besluiten over de plaatsen verbonden aan de aanbieding in totaal nemen.
 
       Als een aanbieding bijvoorbeeld een **E-mail** plaatsing en **Web** plaatsing, en u plaatst het maximum bij **2 per profiel voor alle plaatsen** Vervolgens kan elk profiel het aanbod in totaal maximaal twee keer ontvangen, ongeacht de plaatsingsmix.
 
-   * **[!UICONTROL Per placement]**: Bij het beperken van tellingen worden de beslissingsaantallen voor elke plaatsing afzonderlijk toegepast.
+   * **[!UICONTROL For each placement]**: Bij het beperken van tellingen worden de beslissingsaantallen voor elke plaatsing afzonderlijk toegepast.
 
       Als een aanbieding bijvoorbeeld een **E-mail** plaatsing en **Web** plaatsing, en u plaatst het maximum bij **2 per profiel voor elke plaatsing** Vervolgens kan elk profiel tot twee keer de aanbieding voor e-mailplaatsing ontvangen en nog eens twee keer de plaatsing op het web.
 
