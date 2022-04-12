@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4ae0f9a43ecacb031168ea455db49a9241ab38fa
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2266'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ Met [!DNL Journey Optimizer]kunt u voorinstellingen voor berichten instellen die
 
 >[!CAUTION]
 >
-> * Configuratie van voorinstellingen voor berichten is beperkt tot [Reisbeheerders](../administration/ootb-product-profiles.md#journey-administrator). Als u berichtvoorinstellingen wilt maken, bewerken en verwijderen, moet u beschikken over de [Voorinstellingen voor berichten beheren](../administration/high-low-permissions.md#manage-message-presets).
+> * Als u berichtvoorinstellingen wilt maken, bewerken en verwijderen, moet u beschikken over de [Voorinstellingen voor berichten beheren](../administration/high-low-permissions.md#manage-message-presets).
 >
 > * U moet [E-mailconfiguratie](#configure-email-settings) en [Pushconfiguratie](../configuration/push-configuration.md) stappen voordat u berichtvoorinstellingen maakt.
 
@@ -29,6 +29,11 @@ Zodra berichtvoorinstellingen zijn geconfigureerd, kunt u deze selecteren wannee
 ➡️ [Leer hoe u e-mailvoorinstellingen maakt en gebruikt in deze video](#video-presets)
 
 ## Een berichtvoorinstelling maken {#create-message-preset}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_message_presets"
+>title="Gegevens en instellingen voor voorinstellingen voor berichten"
+>abstract="Door een berichtvoorinstelling in te stellen, kunt u het kanaal selecteren waarop het van toepassing is en alle technische parameters definiëren die nodig zijn voor uw berichten, zoals het e-mailtype, het te gebruiken subdomein, de naam van de afzender, mobiele apps, enzovoort."
 
 Ga als volgt te werk om een berichtvoorinstelling te maken:
 
@@ -97,11 +102,11 @@ In de **E-MAILTYPE** selecteert u het type bericht dat wordt verzonden met de vo
 
 * Kies **Transactioneel** voor niet-commerciële berichten, zoals bevestiging van de bestelling, wachtwoordherstelmeldingen of leveringsgegevens.
 
-Wanneer [een bericht maken](../messages/get-started-content.md#create-new-message)kiest u een geldige berichtvoorinstelling voor de geselecteerde categorie en het geselecteerde kanaal.
-
 >[!CAUTION]
 >
 >**Transactioneel** berichten kunnen worden verzonden naar profielen die zich niet meer hebben geabonneerd op marketingberichten. Deze berichten kunnen alleen in specifieke contexten worden verzonden.
+
+Wanneer [een bericht maken](../messages/get-started-content.md#create-new-message), moet u een geldige berichtvoorinstelling kiezen die overeenkomt met de categorie die u voor uw bericht hebt geselecteerd.
 
 ### Subdomein en IP-pool {#subdomains-and-ip-pools}
 
@@ -110,6 +115,10 @@ In de **DETAILS VAN SUBDOMEIN EN IP-POOL** -sectie, moet u:
 1. Selecteer het subdomein dat u wilt gebruiken om de e-mails te verzenden. [Meer informatie](about-subdomain-delegation.md)
 
 1. Selecteer de IP-pool die u aan de voorinstelling wilt koppelen. [Meer informatie](ip-pools.md)
+
+>[!NOTE]
+>
+>Voor niet-productiemilieu&#39;s, creeert Adobe geen uit-van-de-doos testsubdomeinen noch verleent toegang tot een gedeelde verzendende IP pool. U moet [delegeren uw eigen subdomeinen](delegate-subdomain.md) en gebruik IPs van de pool die aan uw organisatie wordt toegewezen.
 
 ### List-Unsubscribe {#list-unsubscribe}
 
@@ -212,6 +221,8 @@ U moet een geheel-getalwaarde (in uren of notulen) binnen de volgende waaier ing
 * Voor het in de handel brengen van e-mails is de minimale herroepingstermijn 6 uur.
 * Voor transactie-e-mailberichten is de minimale herroepingstermijn 10 minuten.
 * Voor beide e-mailtypen is de maximale hergebruiksperiode 84 uur (of 5040 minuten).
+
+Meer informatie over nieuwe pogingen in [deze sectie](retries.md).
 
 ## Pushinstellingen configureren {#configure-push-settings}
 
