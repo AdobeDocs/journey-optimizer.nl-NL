@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 819e54313e3ec15b9c215455e25d9ff4fc60fb0b
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '992'
 ht-degree: 1%
 
 ---
@@ -103,6 +103,11 @@ De mogelijke redenen van een leveringsfout zijn:
 
 ## Voeg handmatig adressen en domeinen toe {#add-addresses-and-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list"
+>title="E-mails/domeinen toevoegen aan de onderdrukkingslijst"
+>abstract="U kunt de Journey Optimizer-suppressielijst handmatig invullen om specifieke e-mailadressen en/of domeinen van uw verzending uit te sluiten."
+
 Wanneer een bericht niet aan een e-mailadres kan worden geleverd, wordt dit adres automatisch toegevoegd aan de suppressielijst die op de bepaalde suppressieregel of stuiterende telling wordt gebaseerd.
 
 U kunt de opdracht [!DNL Journey Optimizer] suppressielijst om specifieke e-mailadressen en/of domeinen van uw verzending uit te sluiten.
@@ -114,6 +119,11 @@ Selecteer hiervoor de optie **[!UICONTROL Add email or domain]** en voert u een 
 ![](assets/suppression-list-add-email.png)
 
 ### Eén adres of domein toevoegen {#add-one-address-or-domain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_address"
+>title="Eén item toevoegen aan de onderdrukkingslijst"
+>abstract="U kunt de suppressielijst vullen door e-mailadressen en/of domeinen een voor een toe te voegen."
 
 1. Selecteer **[!UICONTROL One by one]** optie.
 
@@ -132,6 +142,11 @@ Selecteer hiervoor de optie **[!UICONTROL Add email or domain]** en voert u een 
 1. Klik op **[!UICONTROL Submit]**.
 
 ### Een CSV-bestand uploaden {#upload-csv-file}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_csv"
+>title="CSV uploaden om items toe te voegen aan de onderdrukkingslijst"
+>abstract="U kunt de suppressielijst vullen door een CSV-bestand te uploaden dat is ingevuld met de e-mailadressen/domeinen die u wilt uitsluiten."
 
 1. Selecteer **[!UICONTROL Upload CSV]** optie.
 
