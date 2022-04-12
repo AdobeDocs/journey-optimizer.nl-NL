@@ -4,9 +4,9 @@ description: Leer hoe u uw omgeving configureert voor het maken en gebruiken van
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 62d8f4b0caa4ed74991e92475392c3278bdf5317
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '935'
 ht-degree: 1%
 
 ---
@@ -78,6 +78,11 @@ Voer de onderstaande stappen uit om een subdomein te gebruiken dat al is gedeleg
 1. Wanneer de controles zijn voltooid, haalt het subdomein het subdomein **[!UICONTROL Success]** status. Deze kan worden gebruikt om voorinstellingen voor openingspagina&#39;s te maken.
 
 ### Een nieuw subdomein configureren {#lp-configure-new-subdomain}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_lp_subdomain_dns"
+>title="De overeenkomende DNS-record genereren"
+>abstract="Als u een nieuw subdomein van een bestemmingspagina wilt configureren, moet u de gegevens van de Adobe nameserver kopiëren die in de Journey Optimizer-interface worden weergegeven en deze plakken in uw domein-ontvangende oplossing om het overeenkomende DNS-record te genereren. Als de controles zijn voltooid, kan het subdomein worden gebruikt om voorinstellingen voor bestemmingspagina&#39;s te maken."
 
 Volg onderstaande stappen om een nieuw subdomein te configureren.
 
