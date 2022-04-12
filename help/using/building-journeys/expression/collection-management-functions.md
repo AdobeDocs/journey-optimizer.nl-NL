@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -202,7 +202,7 @@ Het resultaat is &quot;token_2&quot;.
 
 >[!NOTE]
 >
->De ervaringsgebeurtenissen worden uit de Adobe Experience Platform opgehaald als een verzameling in omgekeerde chronologische volgorde, vandaar:
+>De ervaringsgebeurtenissen worden uit Adobe Experience Platform opgehaald als een verzameling in omgekeerde chronologische volgorde, vandaar:
 >
 >* **[!UICONTROL first]** functie retourneert de meest recente gebeurtenis
 >* **[!UICONTROL last]** functie retourneert de oudste functie.
