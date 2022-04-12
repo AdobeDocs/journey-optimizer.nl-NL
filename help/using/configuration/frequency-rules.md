@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,11 @@ Hiervoor kunt u een regel voor de frequentie gebruiken die het aantal verzonden 
 
 De regels zijn beschikbaar op **[!UICONTROL Administration]** > **[!UICONTROL Rules]** -menu. Alle regels worden weergegeven, gesorteerd op wijzigingsdatum.
 
-![](assets/message-rules-access.png)
+>[!NOTE]
+>
+>Als u de regels voor berichtfrequentie wilt openen, maken, bewerken of verwijderen, moet u beschikken over [Regels voor frequenties beheren](../administration/high-low-permissions.md#manage-frequency-rules) toestemming.
 
-<!--To access, create, edit or delete message frequency rules, you must have the message configuration permission. [Learn more](../administration/high-low-permissions.md#administration-permissions)-->
+![](assets/message-rules-access.png)
 
 Gebruik het filterpictogram om te filteren op de categorie, status en/of kanaal. U kunt ook op het berichtlabel zoeken.
 
@@ -134,6 +136,10 @@ Alle frequentieregels die overeenkomen met de geselecteerde categorie en kanalen
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 U kunt het aantal profielen dat is uitgesloten van levering bekijken in het dialoogvenster [Live en globale weergaven](../reports/message-monitoring.md)en in de [E-mailLive-rapport](../reports/email-live-report.md), waarbij de frequentievoorschriften worden vermeld als mogelijke reden voor gebruikers die van levering zijn uitgesloten.
+
+>[!NOTE]
+>
+>Verschillende regels kunnen op hetzelfde kanaal van toepassing zijn, maar wanneer het onderste hoofdlettergebruik is bereikt, wordt het profiel uitgesloten van de volgende leveringen.
 
 ## Voorbeeld: meerdere regels combineren {#frequency-rule-example}
 
