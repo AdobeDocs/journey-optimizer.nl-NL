@@ -5,9 +5,9 @@ feature: Schemas
 role: User
 level: Beginner
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 2cca25d16de520dd905143b2b3fe4bea6dbd7801
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '321'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,7 @@ Een schema is een set regels die de structuur en indeling van gegevens vertegenw
 
 Leer hoe u schema&#39;s maakt in [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html){target=&quot;_blank&quot;}
 
-De **Schemas** werkruimte in de [!DNL Adobe Journey Optimizer] In de gebruikersinterface kunt u bronnen van het Experience Data Model (XDM) beheren, zoals schema&#39;s, klassen, groepen van schemavelden en gegevenstypen. U kunt kernmiddelen bekijken en onderzoeken die door Adobe worden verstrekt, en douanemiddelen en schema&#39;s voor uw organisatie tot stand brengen.
+De **Schemas** werkruimte in [!DNL Adobe Journey Optimizer] In de gebruikersinterface kunt u bronnen van het Experience Data Model (XDM) beheren, zoals schema&#39;s, klassen, groepen van schemavelden en gegevenstypen. U kunt kernmiddelen bekijken en onderzoeken die door Adobe worden verstrekt, en douanemiddelen en schema&#39;s voor uw organisatie tot stand brengen.
 
 ![](assets/schemas-home.png)
 
