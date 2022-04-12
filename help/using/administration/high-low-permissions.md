@@ -5,9 +5,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: f5627a23ceb0d00dd01db8766e72fed1b5d652a3
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1139'
 ht-degree: 0%
 
 ---
@@ -430,3 +430,23 @@ Dit omvat de volgende laagniveaumachtigingen:
    * landing_page_preset.read
    * landing_page_preset.write
    * landing_page_preset.delete
+
+### [!DNL Manage frequency rules] machtiging {#manage-frequency-rules}
+
+De **[!DNL Manage frequency rules]** Met toestemming op hoog niveau kunnen gebruikers de frequentieregels lezen, maken, bewerken, verwijderen en activeren/deactiveren.
+
+Dit omvat de volgende laagniveaumachtigingen:
+
+* specifiek voor Journey Optimizer:
+   * frequency_rules.read
+   * frequency_rules.write
+   * frequency_rules.delete
+
+### [!DNL View frequency rules] machtiging {#view-frequency-rules}
+
+De **[!DNL View frequency rules]** Op hoog niveau staat de toestemming gebruikers toe om frequentieregels te bekijken.
+
+Dit omvat de volgende laagniveaumachtigingen:
+
+* specifiek voor Journey Optimizer:
+   * frequency_rules.read
