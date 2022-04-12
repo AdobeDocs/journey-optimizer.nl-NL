@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 6%
+source-wordcount: '1607'
+ht-degree: 5%
 
 ---
 
@@ -18,19 +18,27 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="Subdomeindelegatie"
->abstract="Met Journey Optimizer kunt u de subdomeinen volledig delegeren aan Adobe. Adobe zal berichten als beheerde dienst kunnen leveren door alle aspecten van DNS te controleren en te handhaven."
+>abstract="Met Journey Optimizer kunt u uw subdomeinen delegeren aan Adobe. U kunt een subdomein volledig delegeren aan Adobe, of een subdomein creëren gebruikend CNAMEs om aan Adobe-specifieke verslagen te richten."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="Methoden voor subdomeinconfiguratie"
 
-Domeinnaamdelegatie is een methode die de eigenaar van een domeinnaam toestaat (technisch: een DNS-zone) om een onderverdeling ervan te delegeren (technisch gezien: een DNS-zone eronder, die een subzone kan worden genoemd) aan een andere entiteit. In feite, als klant, als u de streek &quot;example.com&quot;behandelt, kunt u subzone &quot;marketing.example.com&quot;aan Adobe afvaardigen.
-
-Door een subdomein voor gebruik met te delegeren [!DNL Journey Optimizer], kunnen de cliënten op Adobe vertrouwen om de DNS infrastructuur te handhaven die wordt vereist om industrie-standaardleveringsvereisten voor hun e-mailmarketing verzendende domeinen te ontmoeten, terwijl het blijven DNS voor hun interne e-maildomeinen handhaven en controleren.
+Domeinnaamdelegatie is een methode die de eigenaar van een domeinnaam toestaat (technisch: een DNS-zone) om een onderverdeling ervan te delegeren (technisch gezien: een DNS-zone eronder, die een subzone kan worden genoemd) aan een andere entiteit. In feite, als klant, als u de streek &quot;example.com&quot;behandelt, kunt u subzone &quot;marketing.example.com&quot;aan Adobe afvaardigen. Meer informatie over [subdomeindelegatie](about-subdomain-delegation.md)
 
 >[!NOTE]
 >
 >Standaard, [!DNL Journey Optimizer] Met een licentiecontract kunt u maximaal 10 subdomeinen delegeren. Neem contact op met uw Adobe als u deze beperking wilt verhogen.
 
+U kunt een subdomein volledig delegeren, of een subdomein tot stand brengen gebruikend CNAMEs om aan Adobe-specifieke verslagen te richten. Meer informatie over de verschillen tussen beide [subdomeinconfiguratiemethoden](about-subdomain-delegation.md#subdomain-delegation-methods).
+
 ## Volledige subdomeindelegatie {#full-subdomain-delegation}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_dns"
+>title="De overeenkomende DNS-records genereren"
+>abstract="Om volledig een nieuw subdomain aan Adobe te delegeren, moet u de Adobe nameserverinformatie kopiëren die in de interface van Journey Optimizer wordt getoond en het kleven in uw domein-ontvangende oplossing om de passende DNS verslagen te produceren. Zodra de controles succesvol zijn, is subdomain klaar om worden gebruikt om berichten te leveren."
+
 [!DNL Journey Optimizer] staat u toe om uw subdomeinen aan Adobe direct van de productinterface volledig te delegeren. Door dit te doen, zal Adobe berichten als beheerde dienst kunnen leveren door alle aspecten van DNS te controleren en te handhaven die voor het leveren, het teruggeven en het volgen van e-mailcampagnes worden vereist.
+
+U kunt op Adobe vertrouwen om de DNS infrastructuur te handhaven die wordt vereist om aan industrie-standaardleveringsvereisten voor uw e-mail marketing verzendende domeinen te voldoen, terwijl het blijven DNS voor uw interne e-maildomeinen handhaven en controleren.
 
 Volg de onderstaande stappen om een nieuw subdomein volledig te delegeren aan Adobe:
 
@@ -87,6 +95,11 @@ Zodra een subdomein aan Adobe binnen wordt gedelegeerd [!DNL Journey Optimizer],
 >Parallelle uitvoering van subdomeinen wordt momenteel niet ondersteund in [!DNL Journey Optimizer]. Als u een subdomein probeert in te dienen voor delegatie wanneer een ander subdomein het **[!UICONTROL Processing]** status, krijgt u een foutbericht.
 
 ## CNAME-subdomeindelegatie {#cname-subdomain-delegation}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_dns_cname"
+>title="De overeenkomende DNS- en validatierecords genereren"
+>abstract="Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, moet u de gegevens van de Adobe-nameserver en de URL-validatierecord van de SSL CDN kopiëren en plakken die in de Journey Optimizer-interface in uw hostplatform worden weergegeven. Zodra de controles succesvol zijn, is subdomain klaar om worden gebruikt om berichten te leveren."
 
 Als u domein-specifieke beperkingsbeleid hebt en u Adobe slechts gedeeltelijke controle over DNS wilt hebben, kunt u verkiezen om alle DNS-gerelateerde activiteiten op uw kant uit te voeren.
 
