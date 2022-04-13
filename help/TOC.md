@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen aan klanten te leveren
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0fa8ba1dc16062ea1553f9978752f3c018cec4c6
+source-git-commit: b5d9c0b261f14eda271c08fe0afc5028fff5ab2f
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '973'
 ht-degree: 46%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 46%
    + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
    + [Een landingspagina maken](using/landing-pages/create-lp.md)
    + [Een openingspagina ontwerpen](using/landing-pages/design-lp.md)
-   + [Een abonnementenlijst maken](using/landing-pages/subscription-list.md)
+   + [Een lidmaatschapslijst maken](using/landing-pages/subscription-list.md)
    + [Gebruiksscenario’s](using/landing-pages/lp-use-cases.md)
 + Personalisatie{#personalization}
    + [Aan de slag met personalisatie](using/personalization/personalize.md)
@@ -374,6 +374,7 @@ ht-degree: 46%
          + [Acties](using/action/action.md)
          + [Een actie configureren](using/action/about-custom-action-configuration.md)
          + [Integreren met Adobe Campaign v7/v8](using/action/acc-action.md)
+         + [Toestemming](using/action/consent.md)
    + [Bronnen](using/start/get-started-sources.md)
 + Toegangsbeheer {#access-control}
    + [Overzicht van toegangsbeheer](using/administration/permissions-overview.md)
