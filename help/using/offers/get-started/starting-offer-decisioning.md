@@ -1,15 +1,15 @@
 ---
 title: Aan de slag met Beslissingsbeheer
-description: Aan de slag met Beslissingsbeheer. Meer informatie over de architectuur, aanbiedingen en beslissingen en over veelvoorkomende gebruiksgevallen die u kunt uitvoeren
+description: Ontdek hoe Adobe Journey Optimizer u kan helpen uw klanten het juiste aanbod op het juiste moment te sturen
 feature: Offers
 topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 45%
+source-wordcount: '944'
+ht-degree: 44%
 
 ---
 
@@ -17,9 +17,7 @@ ht-degree: 45%
 
 Gebruiken [!DNL Journey Optimizer] om uw klanten de beste aanbieding en ervaring op alle aanraakpunten op het juiste moment te bieden. Als u ze eenmaal hebt ontworpen, richt u zich op uw publiek met persoonlijke aanbiedingen.
 
->[!NOTE]
->
->Als u een [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=&quot;_blank&quot;} gebruiker gebruikt de **offer decisioning** alle functies voor Beslissingsbeheer die in deze sectie worden beschreven, zijn ook op u van toepassing.
+offer decisioning maakt personalisatie gemakkelijk met een centrale bibliotheek van marketing aanbiedingen en een besluitvormingsmotor die regels en beperkingen op rijke, real-time profielen toepast die door Adobe Experience Platform worden gecreeerd om u te helpen uw klanten het juiste aanbod op het juiste ogenblik verzenden.
 
 De beslissingsmanagementcapaciteit bestaat uit twee hoofdcomponenten:
 
@@ -35,6 +33,11 @@ Voordelen zijn:
 * De controle over het aantal keren dat een aanbieding wordt getoond aan campagnes en klanten.
 
 ➡️ [Meer informatie over het beheer van beslissingen vindt u in deze video&#39;s](#video)
+
+
+>[!NOTE]
+>
+>Als u een [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=&quot;_blank&quot;} gebruiker gebruikt de **offer decisioning** alle functies voor Beslissingsbeheer die in deze sectie worden beschreven, zijn ook op u van toepassing.
 
 ## Aanbiedingen en beslissingen {#about-offers-and-decisions}
 
