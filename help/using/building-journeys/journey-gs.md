@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 6054e1729c2a231e19e56ca970b6b0b74f5f460a
+source-git-commit: a68cfae875b18266417e115d17c73cda7061475d
 workflow-type: tm+mt
 source-wordcount: '1793'
 ht-degree: 6%
@@ -40,7 +40,7 @@ Voor het verzenden van berichten met ritten is de volgende configuratie vereist:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Uw reis maken"
->abstract="In dit scherm wordt de lijst met eerder gemaakte reizen weergegeven. Open een reis of klik &quot;creeer reis&quot;, en combineer de verschillende gebeurtenis, de organisatie en de actieactiviteiten om uw multi-step scenario&#39;s over het kanaal te bouwen."
+>abstract="In dit scherm wordt de lijst met eerder gemaakte reizen weergegeven. Open een reis of klik op &#39;Een reis maken&#39; en combineer de verschillende gebeurtenis-, organisatie- en actieactiviteiten om uw meerstapsscenario&#39;s voor meerdere kanalen te maken."
 
 Deze stap wordt uitgevoerd door de **zakelijke gebruiker**. Hier maak je je reizen. Combineer de verschillende actie-, orkestratie- en gebeurtenisactiviteiten om uw kanaaloverschrijdende scenario’s met meerdere stappen te maken.
 
