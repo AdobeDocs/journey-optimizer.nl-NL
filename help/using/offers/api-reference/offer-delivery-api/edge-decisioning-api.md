@@ -5,7 +5,7 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: acd91848e24d5ca5340f6d0e22fca8b88523aed3
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 1%
@@ -94,14 +94,15 @@ Hier zijn de stappen nodig om Offer decisioning te gebruiken die de prebuilt sta
 
 Neem het volgende JavaScript-fragment op uit Option 2: De vooraf gebouwde stand-alone versie op [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) in de `<head>` van uw pagina HTML.
 
-```javascript
+```
+javascript
     <script>
         !function(n,o){o.forEach(function(o){n[o]||((n.__alloyNS=n.__alloyNS||
         []).push(o),n[o]=function(){var u=arguments;return new Promise(
         function(i,l){n[o].q.push([i,l,u])})},n[o].q=[])})}
         (window,["alloy"]);
     </script>
-    <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script> 
+    <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script>
 ```
 
 U hebt twee id&#39;s nodig vanuit uw Adobe-account om de SDK-configuratie in te stellen: de edgeConfigId en uw orgId. edgeConfigId is het zelfde als uw identiteitskaart DataStream, die u in de Eerste vereisten zou moeten gevormd hebben.
@@ -110,7 +111,8 @@ Ga naar Gegevensverzameling en selecteer uw DataStream om de edgeConfigID/datast
 
 De SDK in JavaScript configureren volgens de instructies op deze pagina. U zult altijd edgeConfigId en orgId in de configuratiefunctie gebruiken. De documentatie beschrijft ook welke facultatieve parameters voor uw configuratie bestaan. De uiteindelijke configuratie ziet er misschien ongeveer als volgt uit:
 
-```javascript
+```
+javascript
     alloy("configure", {
         "edgeConfigId": "12345678-0ABC-DEF-GHIJ-KLMNOPQRSTUV",                            
         "orgId":"ABCDEFGHIJKLMNOPQRSTUVW@AdobeOrg",
@@ -131,7 +133,8 @@ Wanneer u uw website bewerkt, neemt u het script op met de configuratie en de `s
 
 **Voorbeeld**:
 
-```javascript
+```
+javascript
     alloy("sendEvent", {
         "decisionScopes": 
         [
@@ -142,7 +145,8 @@ Wanneer u uw website bewerkt, neemt u het script op met de configuratie en de `s
 
 Zie het volgende voorbeeld voor een voorbeeld van hoe te om de reactie te behandelen:
 
-```javascript
+```
+javascript
     alloy("sendEvent", {
         "decisionScopes": [
         "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTXXXXXXXXXX"
@@ -164,7 +168,8 @@ Ga terug naar de manier waarop je voorstel hebt gemaakt en de gebruikte opmaak. 
 
 In dit voorbeeld is de JSON die moet worden geretourneerd:
 
-```json
+```
+json
 {
    "name":"ABC Test",
    "description":"This is a test offer", 
@@ -175,7 +180,8 @@ In dit voorbeeld is de JSON die moet worden geretourneerd:
 
 Verwerk het reactieobject en parseer de benodigde gegevens. Aangezien u veelvoudige besluitvormingswerkingsgebied in één kunt verzenden `sendEvent` vraag, zou uw reactie lichtjes verschillend kunnen kijken.
 
-```json
+```
+json
     {
         "id": "abrxgl843d913",
         "scope": "eyJ4ZG06YWN0aXZpdHlJZCI6Inhjb3JlOm9mZmVyLWFjdGl2aXR5OjE0ZWE4MDhhZjJjZDM1NzQiLCJ4ZG06cGxhY2VtZW50SWQiOiJ4Y29yZTpvZmZlci1wbGFjZW1lbnQ6MTRjNGFmZDI2OTVlNWRmOSJ9",
@@ -199,7 +205,8 @@ Verwerk het reactieobject en parseer de benodigde gegevens. Aangezien u veelvoud
 }
 ```
 
-```json
+```
+json
 {
     "propositions": [
     {
@@ -230,7 +237,8 @@ In dit voorbeeld was het pad dat nodig was om de aanbiedingsspecifieke details o
 
 De JS-variabelen instellen:
 
-```javascript
+```
+javascript
 const offer = JSON.parse(result['decisions'][0]['items'][0]['data']['content']);
 
 let offerURL = offer['link'];
