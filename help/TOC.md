@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 21478bb6229c507868693b1fb9d591aee9cdaf52
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 46%
+source-wordcount: '980'
+ht-degree: 45%
 
 ---
 
@@ -325,9 +325,10 @@ ht-degree: 46%
          + [Een beslissing bijwerken](using/offers/api-reference/activities-api/activities/update.md)
          + [Een beslissing verwijderen](using/offers/api-reference/activities-api/activities/delete.md)
       + Levering aanbieden met behulp van API&#39;s {#offer-delivery}
-         + [Beslissingen-API](using/offers/api-reference/decisions-api/deliver-offers.md)
-         + [Batchbeslissing-API](using/offers/api-reference/batch-api/deliver-offers-batch.md)
-         + [Adobe Experience Platform Web SDK](using/offers/api-reference/web-sdk.md)
+         + [Informatie over API&#39;s voor besluitvorming en Edge-besluitvorming](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
+         + [API voor besluitvorming](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
+         + [Edge-API voor besluitvorming](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+         + [Batchbeslissing-API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Data management {#data-management}
    + [Schema&#39;s](using/start/get-started-schemas.md)
    + [Gegevenssets](using/start/get-started-datasets.md)

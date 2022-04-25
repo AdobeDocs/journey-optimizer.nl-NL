@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '668'
 ht-degree: 2%
 
 ---
@@ -127,6 +127,10 @@ Een succesvolle reactie keert informatie betreffende besluitvormingsbeheersconta
 ## Volgende stappen {#next-steps}
 
 Dit document bevatte de vereiste kennis die nodig was om oproepen te doen aan de [!DNL Offer Library] API, inclusief het aanschaffen van uw container-id. U kunt nu aan de steekproefvraag verdergaan die in deze ontwikkelaarsgids wordt verstrekt en samen met hun instructies volgen.
+
+>[!NOTE]
+>
+> Het communicatiekanaal in de app in Adobe Journey Optimizer gebruikt offer decisioning-objecten. Als uw organisatie het communicatiekanaal in de app gebruikt, bevatten aanvragen voor API-lijsten voor objecten objecten die zijn gemaakt door de communicatieservice in de app en kunnen deze worden genegeerd voor gebruik door de offer decisioning. Objecten die voor in-app-berichten zijn gemaakt, hebben `createdBy = “Mobile_Sheliak”`.
 
 ## Hoe kan ik-video {#video}
 

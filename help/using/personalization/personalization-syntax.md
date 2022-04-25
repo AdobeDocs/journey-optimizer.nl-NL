@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '706'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ De syntaxis is hoofdlettergevoelig.
 
 De woorden **true**, **false**, **null** en **ongedefinieerd** zijn alleen toegestaan in het eerste deel van een padexpressie.
 
-In Handlebars, zijn de waarden die door {expression} zijn teruggekeerd **HTML-ontsnapt**. Als de expressie `&`, dan wordt de teruggekeerde HTML-beschermde output geproduceerd zoals `&amp;`. Als u niet wilt dat Handgrepen aan een waarde ontsnappen, gebruikt u de &#39;&#39;drievoudig-streepje&#39;&#39;.
+In Handlebars, zijn de waarden teruggekeerd door {{expression}} zijn **HTML-ontsnapt**. Als de expressie `&`, dan wordt de teruggekeerde HTML-beschermde output geproduceerd zoals `&amp;`. Als u niet wilt dat Handgrepen aan een waarde ontsnappen, gebruikt u de &#39;&#39;drievoudig-streepje&#39;&#39;.
 
 ## Profiel
 
@@ -92,7 +92,7 @@ waarbij:
 * `Placement Id` en `Activity Id` zijn plaatsing- en activiteitsidentificatoren
 * `Attributes` specifieke kenmerken aanbieden die afhankelijk zijn van het soort aanbieding. Voorbeeld: `deliveryUrl` voor afbeeldingen
 
-Voor meer informatie over Besluiten API en over de Vertegenwoordiging van Aanbiedingen, verwijs naar [deze pagina](../../using/offers/api-reference/decisions-api/deliver-offers.md)
+Voor meer informatie over Besluiten API en over de Vertegenwoordiging van Aanbiedingen, verwijs naar [deze pagina](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 Alle verwijzingen worden bevestigd tegen het Schema van Aanbiedingen met een bevestigingsmechanisme dat in wordt beschreven [deze pagina](personalization-validation.md)
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Hierdoor kunt u verschillende versies van uw aanbiedingen testen en verfijnen, z
 
 >[!NOTE]
 >
->Deze mogelijkheid simuleert één verzoek aan de [!DNL Decisions] API. Meer informatie over [Aanbiedingen leveren met behulp van de Besluiten-API](../api-reference/decisions-api/deliver-offers.md).
+>Deze mogelijkheid simuleert één verzoek aan de [!DNL Decisioning] API. Meer informatie over [Aanbiedingen leveren met de API voor besluitvorming](../api-reference/offer-delivery-api/decisioning-api.md).
 
 Als u deze functie wilt openen, selecteert u de optie **[!UICONTROL Simulation]** van de **[!UICONTROL Decision management]** > **[!UICONTROL Offers]** -menu.
 
@@ -130,7 +130,7 @@ Volg onderstaande stappen om de standaardinstellingen voor uw simulaties te bewe
 
    >[!NOTE]
    >
-   >Door gebrek, worden alle vlaggen van de Deduplicatie toegelaten voor simulatie, zo betekent het dat de besluitvormingsmotor duplicaten toestaat en zo de zelfde voorstelling over veelvoudige besluiten/plaatsen kan maken. Meer informatie over de [!DNL Decisions] Eigenschappen voor API-aanvragen in [deze sectie](../api-reference/decisions-api/deliver-offers.md).
+   >Door gebrek, worden alle vlaggen van de Deduplicatie toegelaten voor simulatie, zo betekent het dat de besluitvormingsmotor duplicaten toestaat en zo de zelfde voorstelling over veelvoudige besluiten/plaatsen kan maken. Meer informatie over de [!DNL Decisioning] Eigenschappen voor API-aanvragen in [deze sectie](../api-reference/offer-delivery-api/decisioning-api.md).
 
 1. In de **[!UICONTROL Response format]** kunt u metagegevens opnemen in de codeweergave. Controleer de corresponderende optie en selecteer de metagegevens van uw keuze. Ze worden weergegeven in de aanvraag- en antwoordlading wanneer u **[!UICONTROL View code]**. Meer informatie in het dialoogvenster [Simulatieresultaten weergeven](#simulation-results) sectie.
 
