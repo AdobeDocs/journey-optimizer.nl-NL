@@ -5,9 +5,9 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: acd91848e24d5ca5340f6d0e22fca8b88523aed3
+source-git-commit: ecd7b3095bf825742cad44e20d68bb3c787bcb6b
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1049'
 ht-degree: 1%
 
 ---
@@ -42,11 +42,11 @@ De SDK heeft deze bibliotheken niet met elkaar gecombineerd en is een nieuwe imp
 
 1. Zorg ervoor dat uw organisatie over de juiste machtigingen beschikt om de SDK te gebruiken en dat u de machtigingen correct hebt geconfigureerd.
 
-<!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
+   <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-2. [Uw gegevensstroom configureren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) op het tabblad Gegevensverzameling in uw account in de Adobe Experience Cloud.
+1. [Uw gegevensstroom configureren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=en) op het tabblad Gegevensverzameling in uw account in de Adobe Experience Cloud.
 
-3. Installeer de SDK. Er zijn meerdere methoden om dit te doen, die op de [De SDK-pagina installeren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). Deze pagina gaat verder met elke andere implementatiemethode.
+1. Installeer de SDK. Er zijn meerdere methoden om dit te doen, die op de [De SDK-pagina installeren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). Deze pagina gaat verder met elke andere implementatiemethode.
 
 Als u de SDK wilt gebruiken, hebt u een [schema](../../../start/get-started-schemas.md) en [datastream](../../../start/get-started-datasets.md) gedefinieerd.
 
@@ -64,21 +64,21 @@ Deze optie is gebruiksvriendelijker voor mensen die minder ervaring hebben met c
 
 1. [Een tag-eigenschap maken](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html?lang=en)
 
-2. [De insluitcode toevoegen](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
+1. [De insluitcode toevoegen](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=en)
 
-3. Installeer en vorm de uitbreiding van SDK van het Web van het Platform met de Datastream u door de configuratie van &quot;Datstream&quot;dropdown te selecteren creeerde. Zie de documentatie op [extensions](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
+1. Installeer en vorm de uitbreiding van SDK van het Web van het Platform met de Datastream u door de configuratie van &quot;Datstream&quot;dropdown te selecteren creeerde. Zie de documentatie op [extensions](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en).
 
    ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 
    ![Extensie configureren](../../assets/configure-sdk-extension.png)
 
-4. Maak de noodzakelijke [Gegevenselementen](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en). Bij het absolute minimum, moet u een Identiteitskaart van SDK van het Web van het Platform en een gegevenselement van de Objecten van SDK van het Web van het Platform XDM tot stand brengen.
+1. Maak de noodzakelijke [Gegevenselementen](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en). Bij het absolute minimum, moet u een Identiteitskaart van SDK van het Web van het Platform en een gegevenselement van de Objecten van SDK van het Web van het Platform XDM tot stand brengen.
 
    ![Identiteitskaart](../../assets/sdk-identity-map.png)
 
    ![XDM-object](../../assets/xdm-object.png)
 
-5. Maak uw [Regels](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
+1. Maak uw [Regels](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=en):
 
    i. Voeg een Platform SDK toe verzendt de actie van de Gebeurtenis en voegt relevante decisionsScopes aan de configuratie van die actie toe
 
@@ -86,7 +86,7 @@ Deze optie is gebruiksvriendelijker voor mensen die minder ervaring hebben met c
 
    ![Aanvraag](../../assets/rule-request-offer.png)
 
-6. [Maken en publiceren](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) een bibliotheek met alle relevante regels, gegevenselementen en extensies die u hebt geconfigureerd
+1. [Maken en publiceren](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=en) een bibliotheek met alle relevante regels, gegevenselementen en extensies die u hebt geconfigureerd
 
 ## Optie 2 - Handmatig implementeren met behulp van de geïntegreerde zelfstandige versie
 
@@ -125,7 +125,7 @@ javascript
     });
 ```
 
-Installeer de extensie Foutopsporing Chrome voor gebruik met foutopsporing. Dat is hier te vinden: https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob
+Installeer de extensie Foutopsporing Chrome voor gebruik met foutopsporing. Dat is hier te vinden: <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob>
 
 Meld u vervolgens aan bij uw account in het foutopsporingsprogramma. Ga vervolgens naar Logs en controleer of u bent verbonden met de juiste werkruimte. Kopieer nu de base64 gecodeerde versie van het beslissingsbereik van uw aanbieding.
 
