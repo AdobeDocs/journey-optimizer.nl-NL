@@ -2,10 +2,10 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 21%
+source-wordcount: '1254'
+ht-degree: 23%
 
 ---
 
@@ -13,12 +13,22 @@ ht-degree: 21%
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
 
+## April 2022 {#april-2022}
+
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 22 april is in detail beschreven in de documentatie. [Meer informatie](release-notes.md)
+* De **reacties** de pagina met gebeurtenisdocumentatie is bijgewerkt. [Meer informatie](../building-journeys/reaction-events.md)
+* Video&#39;s voor beslissingsbeheermogelijkheden zijn bijgewerkt met Journey Optimizer-gebruikersinterface. [Meer informatie](../offers/get-started/starting-offer-decisioning.md)
+* De **Aan de slag met gegevenssets** de sectie is verbeterd aan detail hoe te om tot datasets toegang te hebben en te creëren. [Meer informatie](../start/get-started-datasets.md)
+* Er zijn koppelingen toegevoegd naar hulplijnen en opmerkingen bij de release van het product **Adobe Journey Optimizer-documentatie** homepage. [Meer informatie](https://experienceleague.adobe.com/docs/journey-optimizer.html)
+* De **Voorinstellingen voor berichten maken** in deze sectie wordt nu aangegeven dat u niet kunt doorgaan met het maken van een voorinstelling terwijl de geselecteerde IP-pool zich in de editie bevindt (**[!UICONTROL Processing]** status) en is nooit gekoppeld aan het geselecteerde subdomein. [Meer informatie](../configuration/message-presets.md#subdomains-and-ip-pools)
+* Voorinstellingen voor berichten **URL-tracking** is bijgewerkt om kleine wijzigingen in de gebruikersinterface te weerspiegelen. [Meer informatie](../configuration/message-presets.md#url-tracking)
+
 ## Maart 2022 {#march-2022}
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 22 maart is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
 * Er is een nieuwe pagina toegevoegd aan de **Offer decisioning** , met inbegrip van een grondige beschrijving van de [model voor automatische optimalisatie](../offers/offer-library/ai-ranking.md#auto-optimization), het gebruikte algoritme en meer technische details. [Meer informatie](../offers/offer-library/ai-ranking.md)
 * De pagina voor het maken van het testprofiel is verplaatst naar de  **Segment, profielen en identiteit** sectie. [Meer informatie](../segment/creating-test-profiles.md)
-* Een voorbeeld toegevoegd over het toevoegen van een expressie als standaardwaarde in de expressieeditor. [Meer informatie](../building-journeys/expression/field-references.md#default-value)
+* Er is een voorbeeld toegevoegd over het toevoegen van een expressie als standaardwaarde in de expressie-editor. [Meer informatie](../building-journeys/expression/field-references.md#default-value)
 * De **Aangepaste aanbiedingen maken** deze sectie is gereorganiseerd voor een betere leesbaarheid. [Meer informatie](../offers/offer-library/creating-personalized-offers.md)
 * Er is een nieuw gedeelte toegevoegd waarin wordt beschreven welke gevolgen het wijzigen van de begin- en/of einddatum van een aanbieding kan hebben voor de maximale frequentie van deze aanbieding. [Meer informatie](../offers/offer-library/add-constraints.md#capping-change-date)
 * De **Het primaire e-mailadres wijzigen** is bijgewerkt met wijzigingen in de gebruikersinterface. [Meer informatie](../configuration/primary-email-addresses.md)
@@ -26,8 +36,8 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 ## Februari 2022 {#feb-2022}
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] Release Feb &#39;22 is gedetailleerd in de documentatie. [Meer informatie](release-notes.md)
-* De [vervangen](../building-journeys/functions/functionreplace.md#example_2) en [replaceAll](../building-journeys/functions/functionreplaceall.md#example) De pagina&#39;s van de functiedocumentatie zijn bijgewerkt met extra informatie en voorbeelden betreffende de doelparameter.
-* Beste werkwijzen zijn toegevoegd aan de [Operatoren](../building-journeys/expression/operators.md#important-notes) pagina.
+* De functiedocumentatiepagina&#39;s [replace](../building-journeys/functions/functionreplace.md#example_2) en [replaceAll](../building-journeys/functions/functionreplaceall.md#example) zijn bijgewerkt met aanvullende informatie en voorbeelden met betrekking tot de doelparameter.
+* Er zijn best practices toegevoegd aan de pagina [Operators](../building-journeys/expression/operators.md#important-notes).
 
 ## Januari 2022 {#january-2022}
 

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2406'
 ht-degree: 1%
 
 ---
@@ -58,6 +58,12 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 1. Zodra alle parameters zijn gevormd, klik **[!UICONTROL Submit]** ter bevestiging. U kunt de berichtvoorinstelling ook opslaan als concept en de configuratie ervan later hervatten.
 
    ![](assets/preset-submit.png)
+
+   >[!NOTE]
+   >
+   >U kunt niet doorgaan met het maken van de voorinstelling terwijl de geselecteerde IP-pool zich onder [editie](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) en is nooit gekoppeld aan het geselecteerde subdomein. [Meer informatie](#subdomains-and-ip-pools)
+   >
+   >Sla de voorinstelling op als concept en wacht tot de IP-pool de **[!UICONTROL Success]** status om het maken van de voorinstelling te hervatten.
 
 1. Nadat de berichtvoorinstelling is gemaakt, wordt deze in de lijst weergegeven met de **[!UICONTROL Processing]** status.
 
@@ -116,6 +122,10 @@ In de **DETAILS VAN SUBDOMEIN EN IP-POOL** -sectie, moet u:
 
 1. Selecteer de IP-pool die u aan de voorinstelling wilt koppelen. [Meer informatie](ip-pools.md)
 
+![](assets/preset-subdomain-ip-pool.png)
+
+U kunt niet doorgaan met het maken van de voorinstelling terwijl de geselecteerde IP-pool zich onder [editie](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) en is nooit gekoppeld aan het geselecteerde subdomein. Anders, zal de oudste versie van de IP pool/subdomain vereniging nog worden gebruikt. Als dit het geval is, sparen vooraf ingesteld als ontwerp en probeer opnieuw zodra de IP pool heeft **[!UICONTROL Success]** status.
+
 >[!NOTE]
 >
 >Voor niet-productiemilieu&#39;s, creeert Adobe geen uit-van-de-doos testsubdomeinen noch verleent toegang tot een gedeelde verzendende IP pool. U moet [delegeren uw eigen subdomeinen](delegate-subdomain.md) en gebruik IPs van de pool die aan uw organisatie wordt toegewezen.
@@ -155,28 +165,6 @@ De unsubscribe-koppeling bestaat uit twee elementen:
 Meer informatie over het toevoegen van een link voor opzeggen van koptekst aan je berichten in [deze sectie](../messages/consent.md#unsubscribe-header).
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
-
-### URL-tracking{#url-tracking}
-
-Als u wilt weten waar en waarom iemand op de koppeling heeft geklikt, kunt u UTM-parameters voor URL-tracering toevoegen in het dialoogvenster  **[!UICONTROL URL TRACKING CONFIGURATION (web analytics)]** sectie.
-
-Op basis van de parameters die u definieert, wordt een UTM-code toegepast op het einde van de URL die in de berichtinhoud is opgenomen. Vervolgens kunt u resultaten vergelijken met een hulpprogramma voor webanalyse, zoals Google Analytics.
-
-![](assets/preset-url-tracking.png)
-
-Er zijn standaard drie UTM-parameters beschikbaar. U kunt maximaal 10 volgparameters toevoegen. Als u een UTM-parameter wilt toevoegen, selecteert u de optie **[!UICONTROL Add new UTM param]** knop.
-
-Als u een UTM-parameter wilt configureren, kunt u rechtstreeks de gewenste waarden invoeren in het dialoogvenster **[!UICONTROL Name]** en **[!UICONTROL Value]** door naar de volgende objecten te navigeren of een keuze te maken in een lijst met vooraf gedefinieerde waarden:
-
-* Reiskenmerken: Source id, Source name, Source version id
-* Berichtkenmerken: Handeling-id, naam van handeling
-* Kenmerken offer decisioning: Id van voorstel, naam van voorstel
-
-![](assets/preset-url-tracking-source.png)
-
->[!CAUTION]
->
->Selecteer geen map: Blader naar de gewenste map en selecteer een profielkenmerk dat u als UTM-waarde wilt gebruiken.
 
 ### Parameters koptekst{#email-header}
 
@@ -223,6 +211,35 @@ U moet een geheel-getalwaarde (in uren of notulen) binnen de volgende waaier ing
 * Voor beide e-mailtypen is de maximale hergebruiksperiode 84 uur (of 5040 minuten).
 
 Meer informatie over nieuwe pogingen in [deze sectie](retries.md).
+
+### URL-tracking{#url-tracking}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_utm"
+>title="UTM-parameters"
+>abstract="In deze sectie kunt u automatisch parameters voor bijhouden toevoegen aan de campagne-URL&#39;s in de e-mailinhoud."
+
+Als u wilt weten waar en waarom iemand op de koppeling heeft geklikt, kunt u optioneel UTM-parameters voor URL-tracering toevoegen in het dialoogvenster  **[!UICONTROL URL Tracking Parameters]** sectie.
+
+Op basis van de parameters die u definieert, wordt een UTM-code toegepast op het einde van de URL die in de berichtinhoud is opgenomen. Vervolgens kunt u resultaten vergelijken met een hulpprogramma voor webanalyse, zoals Google Analytics.
+
+![](assets/preset-url-tracking.png)
+
+Er zijn standaard drie UTM-parameters beschikbaar. U kunt maximaal 10 volgparameters toevoegen. Als u een UTM-parameter wilt toevoegen, selecteert u de optie **[!UICONTROL Add new parameter]** knop.
+
+Als u een UTM-parameter wilt configureren, kunt u rechtstreeks de gewenste waarden invoeren in het dialoogvenster **[!UICONTROL Name]** en **[!UICONTROL Value]** door naar de volgende objecten te navigeren of een keuze te maken in een lijst met vooraf gedefinieerde waarden:
+
+* Reiskenmerken: **Bron-id**, **Bronnaam**, **Id van bronversie**
+* Berichtkenmerken: **Handeling-id**, **Naam van handeling**
+* Kenmerken offer decisioning: **Offerte-id**, **Naam voorstel**
+
+![](assets/preset-url-tracking-source.png)
+
+>[!CAUTION]
+>
+>Selecteer geen map: Blader naar de gewenste map en selecteer een profielkenmerk dat u als UTM-waarde wilt gebruiken.
+
+U kunt tekstwaarden typen en vooraf gedefinieerde waarden selecteren. Elk **[!UICONTROL Value]** het veld kan in totaal maximaal 255 tekens bevatten.
 
 ## Pushinstellingen configureren {#configure-push-settings}
 

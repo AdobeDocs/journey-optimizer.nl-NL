@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Ga als volgt te werk om een IP-pool te maken:
    >
    >Alle IP adressen provisioned met uw instantie zijn beschikbaar in de lijst.
 
-De IP pool wordt nu gecreeerd en toont in de lijst. U kunt deze selecteren voor toegang tot de eigenschappen en voor weergave van de bijbehorende berichtvoorinstelling. Voor meer op hoe te om een berichtvooraf ingesteld met een IP pool te associëren, verwijs naar [deze sectie](message-presets.md)).
+De IP pool wordt nu gecreeerd en toont in de lijst. U kunt deze selecteren voor toegang tot de eigenschappen en voor weergave van de bijbehorende berichtvoorinstelling. Voor meer op hoe te om een berichtvooraf ingesteld met een IP pool te associëren, verwijs naar [deze sectie](message-presets.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -80,6 +80,10 @@ De update is onmiddellijk of asynchroon van kracht, afhankelijk van de IP pool d
 
 * Als de IP pool is **niet** geselecteerd in een berichtvoorinstelling, wordt de update onmiddellijk uitgevoerd (**[!UICONTROL Success]** status).
 * Als de IP pool **is** geselecteerd in een berichtvoorinstelling, kan de update 7 tot 10 werkdagen duren (**[!UICONTROL Processing]** status).
+
+>[!NOTE]
+>
+>Wanneer [een berichtvoorinstelling maken](message-presets.md#create-message-preset), als u een IP pool selecteert die onder uitgave (**[!UICONTROL Processing]** (status) en u bent nooit gekoppeld aan het geselecteerde subdomein voor die voorinstelling, kunt u niet doorgaan met het maken van de voorinstelling. [Meer informatie](message-presets.md#subdomains-and-ip-pools)
 
 Als u de updatestatus van de IP-pool wilt controleren, klikt u op de knop **[!UICONTROL More actions]** en selecteert u **[!UICONTROL Recent updates]**.
 

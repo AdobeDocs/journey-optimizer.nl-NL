@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '1047'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Voer de onderstaande stappen uit om de instellingen voor de primaire pagina te d
 
    ![](assets/lp_open-designer.png)
 
-1. Definieer de URL van de bestemmingspagina. Voor het eerste deel van de URL moet u eerder een subdomein voor een bestemmingspagina instellen. [Meer informatie](../configuration/lp-configuration.md#lp-subdomains)
+1. Definieer de URL van de bestemmingspagina. Voor het eerste deel van de URL moet u eerder een subdomein van een bestemmingspagina instellen als onderdeel van het [voorinstelling](../configuration/lp-configuration.md#lp-create-preset) geselecteerd. [Meer informatie](../configuration/lp-configuration.md#lp-subdomains)
 
    >[!CAUTION]
    >
@@ -92,6 +92,16 @@ Voer de onderstaande stappen uit om de instellingen voor de primaire pagina te d
    >[!NOTE]
    >
    >U hebt geen toegang tot uw landingspagina door deze URL gewoon in een webbrowser te kopiëren en te plakken, zelfs niet als deze gepubliceerd is. In plaats daarvan kunt u het testen met behulp van de voorvertoningsfunctie, zoals beschreven in [deze sectie](#test-landing-page).
+
+1. Als u wilt dat de landingspagina de formuliergegevens vooraf laadt die al beschikbaar zijn, selecteert u de optie **[!UICONTROL Pre-fill form fields with profile information]**.
+
+   ![](assets/lp_prefill-form-fields.png)
+
+   Als deze optie is ingeschakeld en een profiel al in-/uitgeschakeld heeft of al aan een abonnementenlijst is toegevoegd, worden de keuzes ervan weerspiegeld bij de weergave van de bestemmingspagina.
+
+   Als een profiel er bijvoorbeeld voor heeft gekozen communicatie over toekomstige gebeurtenissen te ontvangen, is het bijbehorende selectievakje al ingeschakeld wanneer de landingspagina de volgende keer naar dat profiel wordt weergegeven.
+
+   ![](assets/lp_prefill-form-ex.png)
 
 1. U kunt een vervaldatum voor uw pagina bepalen. In dat geval moet u een actie selecteren bij het verlopen van de pagina:
 

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -93,11 +93,15 @@ Als u een PTR-record wilt bewerken met een subdomein dat is gedelegeerd aan Adob
 
 ## Details van PTR-recordupdate controleren {#check-ptr-record-update}
 
-A **[!UICONTROL Processing]** wordt weergegeven naast de naam van de PTR-record in de lijst.
+Nadat u de PTR-recordbewerking hebt bevestigd, **[!UICONTROL Processing]** wordt weergegeven naast de naam van de PTR-record in de lijst.
 
 ![](assets/ptr-record-updating.png)
 
-Klik op de knop **[!UICONTROL Updating]** of **[!UICONTROL Recent updates]** pictogram.
+>[!NOTE]
+>
+>De [updateverwerking](#processing) kan een paar uur duren.
+
+Klik op het pictogram naast de details van de PTR-recordupdate. Meer informatie over de statussen van de verschillende pictogrammen vindt u in [deze sectie](#ptr-record-update-statuses).
 
 ![](assets/ptr-record-recent-update.png)
 
@@ -115,7 +119,7 @@ Een PTR-recordupdate kan de volgende statussen hebben:
 
 ### Verwerking {#processing}
 
-Verscheidene leveringscontroles zullen worden uitgevoerd om te verifiëren dat nieuwe subdomain aan vennoot met het IP adres geldig is. <!--The processing time is around **48h-72h**, and can take up to **7-10 days**.-->
+Verscheidene leveringscontroles zullen worden uitgevoerd om te verifiëren dat nieuwe subdomain aan vennoot met het IP adres geldig is. Dit kan een paar uur duren.
 
 >[!NOTE]
 >

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '993'
 ht-degree: 45%
 
 ---
@@ -53,6 +53,7 @@ ht-degree: 45%
       + [Een preheader toevoegen](using/design/preheader.md)
    + Elementen toevoegen en beheren {#manage-asset}
       + [Werken met Assets Essentials](using/design/assets-essentials.md)
+      + [Werken met Adobe Stock](using/design/stock.md)
    + [Aangepaste aanbiedingen toevoegen](using/design/deliver-personalized-offers.md)
    + [Koppelingen toevoegen en berichten bijhouden](using/design/message-tracking.md)
    + [Voorvertoning en proefdrukken](using/design/preview.md)
@@ -117,6 +118,7 @@ ht-degree: 45%
       + [Segment lezen](using/building-journeys/read-segment.md)
       + [Bericht](using/building-journeys/journeys-message.md)
       + [Aangepaste acties](using/building-journeys/using-custom-actions.md)
+      + [Adobe Campaign Standard-acties](using/building-journeys/using-adobe-campaign-standard.md)
       + [Handelingen voor Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
       + [Springen](using/building-journeys/jump.md)
       + [Profiel bijwerken](using/building-journeys/update-profiles.md)
@@ -324,7 +326,7 @@ ht-degree: 45%
          + [Een beslissing nemen](using/offers/api-reference/activities-api/activities/create.md)
          + [Een beslissing bijwerken](using/offers/api-reference/activities-api/activities/update.md)
          + [Een beslissing verwijderen](using/offers/api-reference/activities-api/activities/delete.md)
-      + Levering aanbieden met behulp van API&#39;s {#offer-delivery}
+      + Levering aanbieden met behulp van API&#39;s {#offer-delivery-api}
          + [Informatie over API&#39;s voor besluitvorming en Edge-besluitvorming](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
          + [API voor besluitvorming](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge-API voor besluitvorming](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
@@ -374,6 +376,7 @@ ht-degree: 45%
       + Actieconfiguratie {#action-journeys}
          + [Acties](using/action/action.md)
          + [Een actie configureren](using/action/about-custom-action-configuration.md)
+         + [Integreren met Adobe Campaign Standard](using/action/acs-action.md)
          + [Integreren met Adobe Campaign v7/v8](using/action/acc-action.md)
          + [Toestemming](using/action/consent.md)
    + [Bronnen](using/start/get-started-sources.md)
