@@ -2,7 +2,7 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 150b724c94f656d8846f98acd774a87eef1c29d8
+source-git-commit: 76adefcc5436678bd5662d463b2e2e89d4f73b80
 workflow-type: tm+mt
 source-wordcount: '3192'
 ht-degree: 9%
@@ -38,7 +38,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 **E-mailontwerp**
 
-* **Nieuwe e-mailsjablonen** zijn nu beschikbaar om uw e-mailinhoud te ontwerpen in Journey Optimizer.
+* **20 nieuwe e-mailsjablonen** zijn nu beschikbaar om uw e-mailinhoud te ontwerpen in Journey Optimizer.
 
 **Gebruikersinterface**
 
@@ -102,7 +102,7 @@ Als Adobe Campaign Standard-klant kunt u nu e-mails, pushberichten en SMS verzen
 <table>
 <thead>
 <tr>
-<th><strong>Nieuwe bibliotheek voor persoonlijke expressie</strong><br/></th>
+<th><strong>Nieuwe Personalization-expressiebibliotheek</strong><br/></th>
 </tr>
 </thead>
 <tbody>
