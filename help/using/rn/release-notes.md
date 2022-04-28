@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 4402e8f98d732f7c11460c1ea1ce9e2de141b587
 workflow-type: tm+mt
-source-wordcount: '3200'
+source-wordcount: '3192'
 ht-degree: 9%
 
 ---
@@ -19,25 +19,6 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 
 ## Release van april 2022 {#april-2022-release}
-
-### Nieuwe functies
-
-<table>
-<thead>
-<tr>
-<th><strong>Integratie met Adobe Campaign Standard</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Als Adobe Campaign Standard-klant kunt u nu e-mails, pushberichten en SMS verzenden via Journey Optimizer. Gebruik de nieuwe ingebouwde acties om de mogelijkheden van het Overseinen van de Campaign Standard Transactie in Journey Optimizer te gebruiken.</p>
-<p>Raadpleeg de <a href="../action/acs-action.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 ### Verbeteringen
 
@@ -62,6 +43,11 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 **Gebruikersinterface**
 
 * **Contextafhankelijke Help in de gebruikersinterface van Journey Optimizer** - Er zijn contextafhankelijke Help-koppelingen toegevoegd aan meerdere pagina&#39;s in Journey Optimizer. Klik, indien beschikbaar, op het pictogram &quot;i&quot; om een snelle beschrijving van de huidige functionaliteit en artikelen die betrekking hebben op toegang, weer te geven.
+
+**Integratie met Adobe Campaign Standard**
+
+Als Adobe Campaign Standard-klant kunt u nu e-mails, pushberichten en SMS verzenden via Journey Optimizer. Gebruik de nieuwe ingebouwde acties om de mogelijkheden van het Overseinen van de Campaign Standard Transactie in Journey Optimizer te gebruiken.
+[Meer informatie](../action/acs-action.md)
 
 <!--
 ### Fixes
