@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: cc7a544b58c0caff4fd0b3d02c53622b506e98e2
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '404'
 ht-degree: 3%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 3%
 # Beheren [!DNL Adobe Stock] afbeeldingen {#stock}
 
 ## Aan de slag met [!DNL Adobe Stock] {#get-started-stock}
+
+>[!IMPORTANT]
+>
+> Het gebruik van de [!DNL Adobe Stock] de integratie is momenteel beschikbaar in vroege toegang tot geselecteerde gebruikers slechts. Als u deze functie wilt gebruiken, neemt u contact op met de Adobe-accountmanager.
 
 [!DNL Adobe Stock] biedt toegang tot miljoenen kwalitatief hoogstaande, gekrulde en royaltyvrije foto&#39;s, video&#39;s, illustraties en vectorafbeeldingen. U kunt ervoor kiezen om een creditpakket aan te schaffen om een licentie voor activa te verkrijgen of slechts één standaard- of uitgebreide licentie voor het benodigde element te kopen. Adobe Stock biedt ook een gratis collectie van activa.
 
