@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: a68cfae875b18266417e115d17c73cda7061475d
+source-git-commit: c5ddc1a5a3dc133819ba2f887dae73fc48690fe9
 workflow-type: tm+mt
-source-wordcount: '1793'
-ht-degree: 6%
+source-wordcount: '1846'
+ht-degree: 5%
 
 ---
 
 # Aan de slag met reizen{#jo-quick-start}
 
-## Voorwaarden
+## Voorwaarden{#start-prerequisites}
 
-Voor het verzenden van berichten met ritten is de volgende configuratie vereist:
+Voor het verzenden van berichten met ritten zijn de volgende configuraties vereist:
 
 1. **Een gebeurtenis configureren**: als u uw reizen tijdelijk wilt activeren wanneer een gebeurtenis wordt ontvangen, moet u een gebeurtenis configureren. U bepaalt de verwachte informatie en hoe te om het te verwerken. Deze stap wordt uitgevoerd door een **technische gebruiker**. [Meer informatie](../event/about-events.md).
 
@@ -40,7 +40,7 @@ Voor het verzenden van berichten met ritten is de volgende configuratie vereist:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Uw reis maken"
->abstract="In dit scherm wordt de lijst met eerder gemaakte reizen weergegeven. Open een reis of klik op &#39;Een reis maken&#39; en combineer de verschillende gebeurtenis-, organisatie- en actieactiviteiten om uw meerstapsscenario&#39;s voor meerdere kanalen te maken."
+>abstract="In dit scherm wordt de lijst met bestaande reizen weergegeven. Open een reis of klik op &#39;Een reis maken&#39; en combineer de verschillende gebeurtenis-, organisatie- en actieactiviteiten om uw meerstapsscenario&#39;s voor meerdere kanalen te maken."
 
 Deze stap wordt uitgevoerd door de **zakelijke gebruiker**. Hier maak je je reizen. Combineer de verschillende actie-, orkestratie- en gebeurtenisactiviteiten om uw kanaaloverschrijdende scenario’s met meerdere stappen te maken.
 
@@ -72,16 +72,16 @@ Hier volgen de belangrijkste stappen voor het verzenden van berichten via reizen
 
    ![](assets/jo-dynamic_report_journey_12.png)
 
-## Eigenschappen wijzigen {#change-properties}
+## De eigenschappen van uw reis definiëren {#change-properties}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Journeyeigenschappen"
->abstract="U kunt de naam van de reis wijzigen, een beschrijving toevoegen, opnieuw toegang toestaan, begin- en einddatum kiezen en een time-out en foutduur definiëren als u beheerder bent."
+>abstract="In dit gedeelte worden de eigenschappen van de reis weergegeven. Standaard zijn alleen-lezen parameters verborgen. Welke instellingen beschikbaar zijn, is afhankelijk van de status van de rit, van uw machtigingen en de productconfiguratie."
 
 Klik op het potloodpictogram in de rechterbovenhoek om de eigenschappen van de rit te openen.
 
-U kunt de naam van de reis wijzigen, een beschrijving toevoegen, terugkeer toestaan, begin- en einddatum kiezen en een **[!UICONTROL Timeout and error]** duur als u beheerder bent.
+U kunt de naam van de reis wijzigen, een beschrijving toevoegen, opnieuw toegang toestaan, begin- en einddatum kiezen en, als Admin-gebruiker, een **[!UICONTROL Timeout and error]** duur. Als dit is ingeschakeld voor uw organisatie, kunt u ook [burst messaging](#burst).
 
 Voor live reizen worden in dit scherm de publicatiedatum en de naam weergegeven van de gebruiker die de reis heeft gepubliceerd.
 
@@ -123,40 +123,46 @@ De tijdzone wordt gedefinieerd op het niveau van de reis.
 
 U kunt een vaste tijdzone invoeren of Adobe Experience Platform-profielen gebruiken om de tijdzone van de reis te definiëren.
 
+Als een tijdzone in Adobe Experience Platform-profiel is gedefinieerd, kan deze tijdens de reis worden opgehaald.
+
 Zie voor meer informatie over tijdzonebeheer [deze pagina](../building-journeys/timezone-management.md).
 
 ### Burstmodus {#burst}
 
-De Burst wijze is een betaalde toe:voegen-op die zeer snelle pushbericht toestaat die in grote volumes verzendt. Het wordt gebruikt voor eenvoudige reizen die een gelezen segment en een eenvoudig duwbericht omvatten. De explosie wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons, bijvoorbeeld een breekbericht aan gebruikers wilt verzenden die uw nieuwskanaal app hebben geïnstalleerd.
+De Burst-modus is een Journey Optimizer-invoegtoepassing waarmee zeer snelle pushberichten in grote hoeveelheden kunnen worden verzonden. Het wordt gebruikt voor eenvoudige reizen die een **Segment lezen** en een eenvoudig pushbericht. De explosie wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons, bijvoorbeeld een breekbericht aan gebruikers wilt verzenden die uw nieuwskanaal app hebben geïnstalleerd.
 
-Beperkingen:
+Het overseinen van de barst komt met de volgende vereisten:
 
-* De reis moet met een gelezen segment beginnen. Gebeurtenissen zijn niet toegestaan.
-* De volgende stap moet een pushbericht zijn. Geen andere activiteit of stap is toegestaan (behalve de facultatieve eindactiviteit):
-   * Alleen kanaal
-   * Geen verpersoonlijking wordt toegestaan in het bericht
-   * Het bericht moet klein zijn (&lt;2KB)
+* De reis moet beginnen met een **Segment lezen** activiteit. Gebeurtenissen zijn niet toegestaan.
+* De volgende stap moet een pushbericht zijn. Geen ander kanaal, activiteit of stap toegestaan (behalve het facultatieve **Einde** activiteit).
+* In het pushbericht is geen personalisatie toegestaan.
+* Het bericht moet klein zijn (&lt;2KB).
 
-Belangrijke opmerking:
+>[!CAUTION]
+>
+>Als niet aan een van de eisen wordt voldaan, is de burst mode niet beschikbaar op de reis.
 
-Als niet aan een van de eisen wordt voldaan, is de burst mode niet beschikbaar op de reis.
-
-Als u de modus Burst wilt activeren, opent u de rit en klikt u op het potloodpictogram rechtsboven om de eigenschappen van de rit te openen. Vervolgens activeert u de knop **Burst-modus inschakelen** schakelen.
+Om te activeren **Burstmodus**, open uw reis en klik het potloodpictogram, in het hoogste recht om tot de eigenschappen van de reis toegang te hebben. Vervolgens activeert u de knop **Burst-modus inschakelen** schakelen.
 
 ![](assets/burst.png)
 
-De Burst-modus wordt gedeactiveerd als u een burst-rit wijzigt en een activiteit toevoegt die niet voldoet aan de burst (bericht, andere actie, gebeurtenis, enz.). Er wordt een bericht weergegeven.
+De Burst-modus wordt automatisch gedeactiveerd als u een burst-rit wijzigt en een activiteit toevoegt die niet compatibel is met een burst-bericht, zoals een e-mailbericht, een andere actie, een gebeurtenis enzovoort.
 
 ![](assets/burst2.png)
 
-Vervolgens test en publiceert u uw reis normaal. Berichten in de testmodus worden niet verzonden via de burst-modus.
+Vervolgens test en publiceert u uw reis zoals gewoonlijk. Merk op dat, op testwijze, de berichten niet via de burst wijze worden verzonden.
 
-## Een reis beëindigen
+Begrijp de toepasselijke gebruiksgevallen voor burst overseinen, en hoe te om een reis voor burst berichten te vormen, in deze video:
 
-Een reis kan om twee redenen eindigen:
+>[!VIDEO](https://video.tv.adobe.com/v/334523?quality=12)
 
-* De persoon komt bij de laatste activiteit van een weg aan. Deze laatste activiteit kan een eindactiviteit of een andere activiteit zijn. Er bestaat geen verplichting om een pad met een eindactiviteit te beëindigen. Zie [deze pagina](../building-journeys/end-activity.md).
-* De persoon komt bij een voorwaardenactiviteit (of een wachttijdactiviteit met een voorwaarde) aan en past geen van de voorwaarden aan.
+
+## Een reis beëindigen, stoppen of sluiten{#end-journey}
+
+Een reis kan voor een individu in twee specifieke contexten eindigen:
+
+* De persoon komt bij de laatste activiteit van een weg aan. Deze laatste activiteit kan **Einde** activiteit of een andere activiteit. Een **Einde** activiteit is niet verplicht. Zie [deze pagina](../building-journeys/end-activity.md).
+* De persoon komt aan bij een **Voorwaarde** activiteit (of **Wachten** activiteit met een voorwaarde) en voldoet aan geen van de voorwaarden.
 
 De persoon kan dan opnieuw de reis betreden als herbinnenkomst is toegestaan. Zie [deze pagina](../building-journeys/journey-gs.md#change-properties)
 
@@ -166,7 +172,7 @@ Een reis kan om de volgende redenen worden gesloten:
 * Een reis op basis van een segment met één opname die klaar is met de uitvoering.
 * Na het laatste voorkomen van een terugkerende op segment gebaseerde reis.
 
-Wanneer een reis wordt gesloten (om een van de bovenstaande redenen), heeft deze de status **[!UICONTROL Closed]**. De reis zal het niet langer mogelijk maken dat nieuwe individuen de reis betreden. Personen die al op reis zijn, zullen de reis normaal afmaken. Na de standaard wereldwijde time-out van 30 dagen wordt de reis overgeschakeld op de **Voltooid** status. Zie dit [sectie](../building-journeys/journey-gs.md#global_timeout).
+Wanneer een reis wordt gesloten (om een van de bovenstaande redenen), heeft deze de status **[!UICONTROL Closed]**. De reis houdt in dat nieuwe individuen de reis kunnen betreden. Personen die al onderweg zijn, kunnen de reis normaal afmaken. Na de standaard wereldwijde time-out van 30 dagen wordt de reis overgeschakeld op de **Voltooid** status. Zie dit [sectie](../building-journeys/journey-gs.md#global_timeout).
 
 Als u de voortgang van alle mensen op de reis moet stoppen, kunt u deze stoppen. Als de reis wordt stopgezet, wordt een time-out voor alle personen op de reis vastgesteld.
 
@@ -197,8 +203,7 @@ U kunt ook het volgende doen:
 
    ![](assets/finish_drop_down_list.png)
 
-1. Klik op **[!UICONTROL Close to new entrances]**. Er wordt een dialoogvenster weergegeven.
-1. Klikken **[!UICONTROL Close to new entrances]** ter bevestiging.
+1. Klikken **[!UICONTROL Close to new entrances]** en bevestigen in het dialoogvenster.
 
 ### Een reis stoppen
 
@@ -206,7 +211,7 @@ U kunt een reis stoppen wanneer zich een noodsituatie voordoet en alle verwerkin
 
 Een voltooide reisversie kan niet opnieuw worden gestart.
 
-Wanneer een reis wordt gestopt, krijgt deze de status **[!UICONTROL Stopped]**.
+Wanneer deze wordt gestopt, wordt de reisstatus ingesteld op **[!UICONTROL Stopped]**.
 
 U kunt bijvoorbeeld een reis stoppen als een markeerder beseft dat de reis het verkeerde publiek aanvalt of dat een aangepaste actie die berichten moet leveren, niet correct werkt. Om een reis van de lijst van reizen tegen te houden, klik **[!UICONTROL Ellipsis]** knop rechts van de naam van de reis en selecteer **[!UICONTROL Stop]**.
 
@@ -219,5 +224,4 @@ U kunt ook het volgende doen:
 
 ![](assets/finish_drop_down_list.png)
 
-1. Klik op **[!UICONTROL Stop]**. Er wordt een dialoogvenster weergegeven.
-1. Klikken **[!UICONTROL Stop]** ter bevestiging.
+1. Klikken **[!UICONTROL Stop]** en bevestigen in het dialoogvenster.
