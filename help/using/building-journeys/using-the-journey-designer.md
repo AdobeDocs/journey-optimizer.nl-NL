@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1457'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Met de interface voor reizen kunt u activiteiten van het palet gemakkelijk naar het canvas slepen. U kunt ook dubbelklikken op een activiteit om deze in het canvas toe te voegen bij de volgende beschikbare stap. Elke activiteit heeft een specifieke rol en plaats in het proces. De activiteiten worden gesequenceerd. Wanneer een activiteit wordt gebeëindigd, gaat de stroom verder en verwerkt de volgende activiteit, etc.
 
-## Aan de slag met het ontwerpen van de reis
+## Aan de slag met het ontwerpen van de reis {#gs-journey-design}
 
 De **palet** bevindt zich aan de linkerkant van het scherm. Alle beschikbare activiteiten worden ingedeeld in verschillende categorieën: **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** en **[!UICONTROL Actions]**. U kunt de verschillende categorieën uit- of samenvouwen door op de naam ervan te klikken. Als u een activiteit wilt gebruiken tijdens uw reis, sleept u deze van het palet naar het canvas.
 
@@ -52,7 +52,7 @@ Afhankelijk van de status van de reis kunt u verschillende handelingen op uw rei
 
 ![](assets/journey41.png)
 
-## Uw reis starten
+## Begin uw reis {#start-your-journey}
 
 Wanneer je je reis ontwerpt, wil je je eerst afvragen hoe profielen de reis zullen ingaan. Er zijn twee mogelijkheden:
 
@@ -60,7 +60,7 @@ Wanneer je je reis ontwerpt, wil je je eerst afvragen hoe profielen de reis zull
 
 **Beginnen met een leessegment**: u kunt uw reis plaatsen om naar de segmenten van Adobe Experience Platform te luisteren. In dit geval betreden alle personen die tot het gespecificeerde segment behoren de reis. De berichten inbegrepen in uw reis worden verzonden naar de individuen die tot het segment behoren. [Meer informatie over het lezen van segmenten](read-segment.md).
 
-## De volgende stappen definiëren
+## De volgende stappen definiëren{#define-next-steps}
 
 Na uw eerste gebeurtenis of Read Segment, kunt u de verschillende activiteiten combineren om uw multi-step scenario&#39;s over het kanaal te bouwen. Kies in het palet de gewenste stappen.
 
@@ -86,9 +86,11 @@ U vindt hier de **Bericht** activiteit die u toestaat om een bericht op te nemen
 
 U zult ook de douaneacties vinden die u hebt gevormd om berichten met derdesystemen te verzenden. Meer informatie in deze [sectie](about-journey-activities.md#action-activities).
 
-## Het gebruik van paden in het canvas {#paths}
+## Alternatieve paden toevoegen{#paths}
 
-Meerdere activiteiten (**[!UICONTROL Condition]**, **[!UICONTROL Action]** activiteiten) kunt u een fallback-actie definiëren in het geval van een fout of time-out. Schakel het selectievakje in het deelvenster Activiteitenconfiguratie in: **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Na de activiteit wordt een ander pad toegevoegd. De time-outduur wordt gedefinieerd in de eigenschappen van de reis (zie [deze pagina](../building-journeys/journey-gs.md#change-properties) door een beheerder. Als het bijvoorbeeld te lang duurt om een e-mail te verzenden of als er een fout optreedt, kunt u een pushmelding verzenden.
+U kunt een fallback-actie definiëren in het geval van een fout of time-out voor de volgende reisactiviteiten: **[!UICONTROL Condition]** en **[!UICONTROL Action]**.
+
+Als u een fallback-actie voor een activiteit wilt toevoegen, selecteert u de optie **[!UICONTROL Add an alternative path in case of a timeout or an error]** in de eigenschappen van de activiteit: een ander pad wordt toegevoegd na de activiteit. De time-outduur wordt gedefinieerd door Admin-gebruikers in het dialoogvenster [reiseigenschappen](../building-journeys/journey-gs.md#change-properties). Als het bijvoorbeeld te lang duurt om een e-mail te verzenden of als er een fout optreedt, kunt u een pushmelding verzenden.
 
 ![](assets/journey42.png)
 

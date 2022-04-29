@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: a473ffa25871cdf0e5acb48c6902f883bd8f74a2
+source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 2%
@@ -40,7 +40,7 @@ Daartoe, in **[!UICONTROL Journey Properties]** selecteert u een tijdzone.
 
 ![](assets/journey72.png)
 
-## Profielen gebruiken om de tijdzone voor het transport te definiëren {#timezone-from-profiles}
+## Profielen gebruiken om de tijdzone van het transport te definiëren {#timezone-from-profiles}
 
 Als de entry-gebeurtenis van de reis een naamruimte heeft, wat betekent dat de reis de Real-time dienst van het Profiel van de Klant van Adobe Experience Platform kan bereiken, is de tijdzone vooraf gedefinieerd met die gespecificeerd in het profiel van de individuele die in de reis stroomt.
 
