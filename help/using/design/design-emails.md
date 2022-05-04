@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '195'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 2%
 1. Kies op de introductiepagina van E-mail Designer hoe u uw e-mail wilt ontwerpen uit de volgende opties:
 
    * **Ontwerp uw e-mail helemaal zelf** via de interface van de e-mailontwerper en met behulp van afbeeldingen van [Adobe Experience Manager Assets Essentials](assets-essentials.md). Leer hoe u uw e-mailinhoud ontwerpt of ingebouwde sjablonen gebruikt [in deze sectie](create-email-content.md).
+
+   * **Kopiëren van bestaande e-mail** uit een lijst met voorbeeldsjablonen.
 
    * **Code of paste raw HTML** rechtstreeks in de e-mailontwerper. Leer hoe u uw eigen inhoud codeert [in deze sectie](code-content.md).
 

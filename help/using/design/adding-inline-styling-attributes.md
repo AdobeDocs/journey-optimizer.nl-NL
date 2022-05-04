@@ -5,7 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
+source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
@@ -19,6 +20,10 @@ Wanneer u in de interface E-mailontwerper een element selecteert en de instellin
 1. Selecteer een element in de inhoud.
 1. Op het zijpaneel, zoek naar **[!UICONTROL Styles Inline]** instellingen.
 
+   ![](assets/styles_1.png)
+
 1. Wijzig de waarden van de bestaande kenmerken of voeg nieuwe kenmerken toe met de **+** knop. U kunt alle kenmerken en waarden toevoegen die CSS-compatibel zijn.
+
+   ![](assets/styles_2.png)
 
 De stijl wordt vervolgens toegepast op het geselecteerde element. Als voor de onderliggende elementen geen specifieke stijlkenmerken zijn gedefinieerd, wordt de opmaak van het bovenliggende element overgeërfd.

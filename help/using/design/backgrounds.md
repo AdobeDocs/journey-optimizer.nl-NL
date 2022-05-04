@@ -5,7 +5,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
+source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -29,17 +30,25 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
 
 * Een **[!UICONTROL Background color]** voor de hele e-mail. Selecteer de instellingen voor de hoofdtekst in de boomstructuur die toegankelijk is in het linkerpalet.
 
+   ![](assets/background_1.png)
+
 * Dezelfde achtergrondkleur voor alle structuurcomponenten instellen door **[!UICONTROL Viewport background color]**. Met deze optie kunt u een andere instelling selecteren dan de achtergrondkleur.
+
+   ![](assets/background_2.png)
 
 * Stel een andere achtergrondkleur in voor elke structuurcomponent. Selecteer een structuur in de boomstructuur die toegankelijk is vanuit het linkerpalet als u alleen een specifieke achtergrondkleur op die structuur wilt toepassen.
 
    Zorg ervoor dat u geen achtergrondkleur voor de viewport instelt, omdat hierdoor de achtergrondkleuren van de structuur kunnen worden verborgen.
+
+   ![](assets/background_3.png)
 
 * Een **[!UICONTROL Background image]** voor de inhoud van een structuurcomponent.
 
    >[!NOTE]
    >
    >Sommige e-mailprogramma&#39;s ondersteunen achtergrondafbeeldingen niet. Als deze optie niet wordt ondersteund, wordt in plaats daarvan de achtergrondkleur van de rij gebruikt. Selecteer de gewenste achtergrondkleur voor fallback voor het geval de afbeelding niet kan worden weergegeven.
+
+   ![](assets/background_4.png)
 
 * Stel een achtergrondkleur in op kolomniveau.
 
@@ -48,3 +57,5 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
    >Dit is het meest gebruikte geval. Adobe raadt aan achtergrondkleuren in te stellen op kolomniveau, omdat dit meer flexibiliteit biedt bij het bewerken van de volledige e-mailinhoud.
 
    U kunt ook een achtergrondafbeelding instellen op kolomniveau, maar dit wordt zelden gebruikt.
+
+   ![](assets/background_5.png)

@@ -5,9 +5,10 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
+source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '409'
 ht-degree: 1%
 
 ---
@@ -43,7 +44,7 @@ Wanneer contextgegevens worden doorgegeven met een Edge-API-aanvraag voor beslui
 
 >[!NOTE]
 >
->Opdat de contextgegevens worden opgeslagen, moet u een specifiek geconfigureerd XDM-schema hebben. (+ koppeling naar XDM doc)
+>Opdat de contextgegevens worden opgeslagen, moet u een specifiek geconfigureerd XDM-schema hebben.
 
 ## API-mogelijkheden voor besluitvorming {#decisioning}
 
