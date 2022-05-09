@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: ccc78d8d4276c33164adc4cc0ba46486c2093955
+source-git-commit: 97bb3497d3cdab53511610da600d0e646572ed77
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 4%
+source-wordcount: '476'
+ht-degree: 3%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 4%
 
 Maak kennis met marketing en creatieve workflows [!DNL Adobe Experience Manager Assets Essentials]. Native geïntegreerd met [!DNL Adobe Journey Optimizer], toegang [!DNL Assets Essentials] digitale middelen opslaan, beheren, ontdekken en distribueren. Het biedt één gecentraliseerde opslagplaats van middelen die u kunt gebruiken om uw berichten te vullen.
 
-[!DNL Adobe Experience Manager Assets Essentials] is een gezamenlijke en gecentraliseerde werkruimte voor bedrijfsmiddelen die uw creatieve systeem en mogelijkheden voor digitale middelen uitbreidt voor het leveren van ervaringen. U kunt eenvoudig goedgekeurde productiemiddelen organiseren, labelen en vinden om de consistentie van uw merk in alle teams te garanderen. Dankzij zijn intuïtieve gebruikerservaring hebt u direct toegang tot gedeelde elementen in Creative Cloud- en Experience Cloud-apps voor Adobe.
+[!DNL Adobe Experience Manager Assets Essentials] is een gezamenlijke en gecentraliseerde werkruimte voor bedrijfsmiddelen die uw creatieve systeem uitbreidt en digitale middelen verenigt voor het leveren van ervaringen. U kunt eenvoudig goedgekeurde productiemiddelen organiseren, labelen en vinden om de consistentie van uw merk in alle teams te garanderen. Dankzij zijn intuïtieve gebruikerservaring hebt u toegang [!DNL Assets Essentials] U kunt direct middelen delen in uw Creative Adobe- en Experience Cloud-apps.
 
 Meer informatie in [Adobe Experience Manager Assets Essentials-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}.
 
-[!DNL Adobe Experience Manager Assets Essentials] rechtstreeks vanuit [!DNL Adobe Journey Optimizer] via de **[!UICONTROL Assets]** sectie. U kunt ook elementen en mappen openen wanneer [e-mailinhoud ontwerpen](design-emails.md).
+[!DNL Adobe Experience Manager Assets Essentials] rechtstreeks vanuit [!DNL Adobe Journey Optimizer] via het linkermenu **[!UICONTROL Assets]** sectie. U kunt ook elementen en mappen openen wanneer [e-mailinhoud ontwerpen](design-emails.md).
 
 ## Vereisten{#assets-prerequisites}
 
