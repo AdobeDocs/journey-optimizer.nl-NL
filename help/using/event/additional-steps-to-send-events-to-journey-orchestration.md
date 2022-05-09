@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ Vervolgens moet u het gegevenssysteem configureren dat gebeurtenissen naar Strea
 1. De lading gebruiken die u hebt gekopieerd [!DNL Journey Optimizer] in de hoofdtekst (&quot;gegevenssectie&quot;) van de API-aanroep naar Streaming Ingestie-API&#39;s. Zie hieronder voor een voorbeeld
 1. Bepaal waar u alle variabelen in de lading wilt ophalen. Voorbeeld: als de gebeurtenis geacht wordt het adres over te brengen, zal de geplakte lading &quot;adres&quot;tonen: &quot;string&quot;. &quot;string&quot; moet worden vervangen door de variabele die automatisch de juiste waarde invult, de e-mail van de persoon waarnaar een bericht wordt verzonden. Let op: in de voorvertoning van de lading, in de **[!UICONTROL Header]** in deze sectie worden veel waarden automatisch ingevuld die u nodig hebt om uw werk te vergemakkelijken.
 1. Selecteer &#39;application/json&#39; als type body.
-1. Geef uw IMS-organisatie-id in de koptekst door met behulp van de sleutel &quot;x-gw-ims-org-id&quot;. Gebruik voor de waarde uw IMS-organisatie-id (&quot;XXX@AdobeOrg&quot;).
+1. Geef uw organisatie-id in de koptekst door met behulp van de sleutel &quot;x-gw-ims-org-id&quot;. Gebruik voor de waarde uw organisatie-id (&quot;XXX@AdobeOrg&quot;).
 
 Hier volgt een voorbeeld van een gebeurtenis Streaming ingestie-API&#39;s:
 

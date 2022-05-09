@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: d1204d7653a1fe32d068f974f425e10949065bc1
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1639'
 ht-degree: 5%
 
 ---
@@ -191,7 +191,7 @@ De onderstaande controles en acties worden uitgevoerd totdat het subdomein is ge
 
 1. **URL&#39;s voor bijhouden en spiegelen maken**: als het domein email.example.com is, zal het tracking/mirror domein data.email.example.com zijn. Het wordt beveiligd door het SSL-certificaat te installeren.
 
-1. **CDN CloudFront instellen**: als CDN nog niet is ingesteld, plaatst Adobe deze voor de imsorg.
+1. **CDN CloudFront instellen**: als CDN niet reeds opstelling is, voorziet Adobe het voor identiteitskaart van uw organisatie.
 
 1. **CDN-domein maken**: als het domein email.example.com is, zal het domein CDN cdn.email.example.com zijn.
 

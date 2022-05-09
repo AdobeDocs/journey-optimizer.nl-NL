@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '856'
 ht-degree: 1%
 
 ---
@@ -124,8 +124,8 @@ Zie de [Beslissingsbeheerdocumentatie](../../get-started/starting-offer-decision
 | Eigenschap | Beschrijving | Voorbeeld |
 | -------- | ----------- | ------- |
 | `@id` | De UUID die wordt gegenereerd door Offer decisioning die één werkbelasting identificeert. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
-| `xdm:imsOrgId` | De id voor uw IMS-organisatie. | `9GTO98D5F@AdobeOrg` |
-| `xdm:containerId` | Uw container-id. | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
+| `xdm:imsOrgId` | De organisatie-id. | `9GTO98D5F@AdobeOrg` |
+| `xdm:containerId` | De container-id. | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | De tijd toen het verzoek van de beslissingswerklast werd gecreeerd. | `1648078924834` |
 | `ode:status` | De status van de werklast. | `ode:status: "QUEUED"` |
 
@@ -173,7 +173,7 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 | Eigenschap | Beschrijving | Voorbeeld |
 | -------- | ----------- | ------- |
 | `@id` | De UUID die wordt gegenereerd door Offer decisioning die één werkbelasting identificeert. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
-| `xdm:imsOrgId` | ID IMS-organisatie | `9GTO98D5F@AdobeOrg` |
+| `xdm:imsOrgId` | Organisatie-id | `9GTO98D5F@AdobeOrg` |
 | `xdm:containerId` | De container-id | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | De tijd waarop de aanvraag voor beslissingswerkbelasting is gemaakt. | `1648076994405` |
 | `ode:status` | De status van de werklast begint met &quot;QUEUED&quot; en verandert in &quot;PROCESSING&quot;, &quot;INGESTING&quot;, &quot;COMPLETED&quot; of &quot;ERROR&quot;. | `ode:status: "COMPLETED"` |
