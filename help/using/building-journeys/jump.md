@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '821'
 ht-degree: 2%
 
 ---
@@ -28,10 +28,6 @@ De **[!UICONTROL Jump]** door actie kunt u individuen van de ene reis naar de an
 Voeg eenvoudig een **[!UICONTROL Jump]** en selecteer een doelreis. Wanneer het individu de **[!UICONTROL Jump]** stap, wordt een interne gebeurtenis verzonden naar de eerste gebeurtenis van de doelreis. Als de **[!UICONTROL Jump]** de actie is succesvol , het individu blijft op reis . Het gedrag is vergelijkbaar met andere acties.
 
 Tijdens de doelrit wordt de eerste gebeurtenis intern geactiveerd door de **[!UICONTROL Jump]** de activiteit zal de individuele doorstroming van de reis maken .
-
->[!NOTE]
->
->Raadpleeg ook de zelfstudievideo [hier](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html){target=&quot;_blank&quot;}
 
 ## Levenscyclus
 

@@ -2,16 +2,26 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 23%
+source-wordcount: '1326'
+ht-degree: 22%
 
 ---
 
 # Documentatie-updates {#latest-updates}
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
+
+
+## Mei 2022 {#may-2022}
+
+* In de sectie E-mailontwerp staan nu nieuwe ingebouwde sjablonen waarmee inhoud kan worden gestart. Gerelateerde schermafbeeldingen zijn bijgewerkt. [Meer informatie](../design/design-emails.md)
+* Koppelingen naar belangrijke bronnen zijn bijgewerkt in de homepage van Journey Optimizer-documentatie.
+* Screenshots voor de openingspagina en abonnementrapportage zijn bijgewerkt. [Meer informatie](../reports/live-report.md)
+* Er is een opmerking toegevoegd waarin staat dat de methode Verwijderen niet wordt ondersteund in aangepaste handelingen. [Meer informatie](../action/about-custom-action-configuration.md)
+* De koppelingen naar Hoe kan ik-video&#39;s zijn bijgewerkt.
+
 
 ## April 2022 {#april-2022}
 

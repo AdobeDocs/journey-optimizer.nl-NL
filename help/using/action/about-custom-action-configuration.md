@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0dedeae2e33615c3191e6277fc6f258118b49822
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 5%
+source-wordcount: '944'
+ht-degree: 4%
 
 ---
 
@@ -83,6 +83,11 @@ Wanneer het vormen van een douaneactie, moet u het volgende bepalen **[!UICONTRO
    >Alleen de standaardpoorten zijn toegestaan bij het definiëren van een aangepaste handeling: 80 voor http en 443 voor https.
 
 1. Selecteer de vraag **[!UICONTROL Method]**: het kan **[!UICONTROL POST]** of **[!UICONTROL PUT]**.
+
+   >[!NOTE]
+   >
+   > De **DELETE** methode wordt niet ondersteund. Als u een bestaande bron moet bijwerken, selecteert u de optie **PUT** methode.
+
 1. In de **[!UICONTROL Headers]** in, definieert u de HTTP-headers van het aanvraagbericht dat naar de externe service moet worden verzonden:
    1. Als u een koptekstveld wilt toevoegen, klikt u op **[!UICONTROL Add a header field]**.
    1. Voer de sleutel van het headerveld in.
@@ -103,7 +108,7 @@ Wanneer het vormen van een douaneactie, moet u het volgende bepalen **[!UICONTRO
 
    >[!NOTE]
    >
-   >Kopteksten worden gevalideerd volgens veldparseringsregels. [Meer informatie](https://tools.ietf.org/html/rfc7230#section-3.2.4).
+   >Kopteksten worden gevalideerd volgens veldparseringsregels. Meer informatie in [deze documentatie](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## De actieparameters definiëren {#define-the-message-parameters}
 

@@ -6,7 +6,7 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 2%
@@ -145,4 +145,4 @@ substr(
 
 Uitleg: Dit voorbeeld gebruikt `substr` en `lastIndexOf` functies om accolades te verwijderen die de CRM-id omsluiten die is doorgegeven met een mobiele startgebeurtenis.
 
-Voor meer informatie over het gebruik van de geavanceerde expressieeditor bekijkt u [deze video](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/create-a-journey.html).
+Voor meer informatie over het gebruik van de geavanceerde expressieeditor bekijkt u [deze video](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html).

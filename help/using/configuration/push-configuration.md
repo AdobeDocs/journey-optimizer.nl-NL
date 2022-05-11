@@ -4,9 +4,9 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van pushmeld
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: a6fabce744cb85c447327b6ceb809bf399d4b610
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1434'
 ht-degree: 3%
 
 ---
@@ -180,7 +180,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 ## Stap 2: Adobe Journey Optimizer-extensie configureren in uw mobiele eigenschap {#configure-journey-optimizer-extension}
 
-De **Adobe Journey Optimizer-extensie** voor Adobe Experience Platform Mobile SDK&#39;s kunt u pushmeldingen maken voor uw mobiele apps en kunt u push-tokens van gebruikers verzamelen en interactiemetingen beheren met Adobe Experience Platform-services.
+De **Adobe Journey Optimizer-extensie** voor Adobe Experience Platform Mobile SDK&#39;s kunt u pushmeldingen voor uw mobiele apps maken en gebruikers-pushtokens verzamelen en interactiemetingen beheren met Adobe Experience Platform-services.
 
 Leer hoe u Journey Optimizer-extensies kunt instellen in [Adobe Experience Platform Mobile SDK-documentatie](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-journey-optimizer){target=&quot;_blank&quot;}.
 
@@ -253,7 +253,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 ## Stap 3: Uw mobiele app testen met een gebeurtenis {#mobile-app-test}
 
-Nadat u uw mobiele app hebt geconfigureerd in zowel Adobe Experience Platform als in [!DNL Adobe Experience Platform Data Collection], kunt u deze nu testen voordat u pushmeldingen naar uw profielen verzendt. In dit geval maken we een reis naar onze mobiele app en stellen we een gebeurtenis in die de pushmelding activeert.
+Nadat u uw mobiele app hebt geconfigureerd in zowel Adobe Experience Platform als in [!DNL Adobe Experience Platform Data Collection], kunt u deze nu testen voordat u pushmeldingen naar uw profielen verzendt. In dit geval maken we een reis om onze mobiele app als doel in te stellen en een gebeurtenis in te stellen die de pushmelding activeert.
 
 <!--
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).

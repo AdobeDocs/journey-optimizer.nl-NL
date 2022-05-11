@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 68fb00679e2dd420570aa3b7b12f8c345aa32d12
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 10%
+source-wordcount: '1103'
+ht-degree: 9%
 
 ---
 
@@ -80,15 +80,16 @@ Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
 
 1. Het aantal journey’s dat deze gebeurtenis gebruikt, wordt in het veld **[!UICONTROL Used in]** weergegeven. U kunt klikken op het pictogram **[!UICONTROL View journeys]** om de lijst weer te geven met journey’s die deze gebeurtenis gebruiken.
 
-1. Definieer het schema en de payload velden: Hier selecteert u de gebeurtenisinformatie (gewoonlijk een lading genoemd) die reizen verwacht te ontvangen. U kunt deze informatie vervolgens gebruiken tijdens uw journey. Zie [deze sectie](../event/about-creating-business.md#define-the-payload-fields).
+1. Definieer het schema en de payload velden: Hier selecteert u de gebeurtenisinformatie (of lading) die de reis verwacht te ontvangen. Deze gegevens gebruikt u later op de reis. Zie [deze sectie](../event/about-creating-business.md#define-the-payload-fields).
 
    ![](assets/jo-event5-business.png)
 
-   Er zijn alleen tijdreeksschema&#39;s beschikbaar. Er zijn geen schema&#39;s beschikbaar voor ervaringsgebeurtenissen, beslissingsgebeurtenissen en trapsgewijze gebeurtenissen. Het gebeurtenisschema moet een primaire identiteit bevatten die niet op personen is gebaseerd. De volgende velden moeten zijn geselecteerd wanneer u de gebeurtenis definieert: `_id` en `timestamp`
+   Er zijn alleen tijdreeksschema&#39;s beschikbaar. `Experience Events`, `Decision Events` en `Journey Step Events` schema&#39;s zijn niet beschikbaar. Het gebeurtenisschema moet een primaire identiteit bevatten die niet op personen is gebaseerd. De volgende velden moeten zijn geselecteerd wanneer u de gebeurtenis definieert: `_id` en `timestamp`
 
    ![](assets/test-profiles-4.png)
 
-1. Klik in het dialoogvenster **[!UICONTROL Event ID condition]** veld. Gebruikend de eenvoudige uitdrukkingsredacteur, bepaal de voorwaarde die door het systeem zal worden gebruikt om de gebeurtenissen te identificeren die uw reis zullen teweegbrengen.
+1. Klik in het dialoogvenster **[!UICONTROL Event ID condition]** veld. Gebruik de eenvoudige uitdrukkingsredacteur om de voorwaarde te bepalen die door het systeem wordt gebruikt om de gebeurtenissen te identificeren die uw reis teweegbrengen.
+
    ![](assets/jo-event6-business.png)
 
    In ons voorbeeld schreven we een voorwaarde op basis van de id van het product. Dit betekent dat wanneer het systeem een gebeurtenis ontvangt die aan deze voorwaarde voldoet, het het aan reizen zal overgaan.
@@ -101,7 +102,7 @@ Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
 
    ![](assets/journey7-business.png)
 
-   De gebeurtenis is nu geconfigureerd en klaar om in een journey worden gezet. Er zijn aanvullende configuratiestappen nodig om gebeurtenissen te ontvangen. Zie [deze pagina](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+   De gebeurtenis is nu geconfigureerd en klaar om in een journey worden gezet. Er zijn aanvullende configuratiestappen nodig om gebeurtenissen te ontvangen. Meer informatie in [deze pagina](../event/additional-steps-to-send-events-to-journey.md).
 
 ## De laadvelden definiëren {#define-the-payload-fields}
 
@@ -123,13 +124,13 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 
 1. Als u de gewenste velden hebt geselecteerd, klikt u op **[!UICONTROL Save]** of drukken **[!UICONTROL Enter]**.
 
-   Het aantal geselecteerde velden wordt weergegeven in het dialoogvenster **[!UICONTROL Fields]** veld.
+   Het aantal geselecteerde velden wordt weergegeven in **[!UICONTROL Fields]**.
 
    ![](assets/journey12-business.png)
 
 ## Een voorvertoning van de lading weergeven {#preview-the-payload}
 
-Met de voorvertoning van de lading kunt u de definitie van de lading valideren.
+Gebruik de voorvertoning van de lading om de ladingsdefinitie te bevestigen.
 
 1. Klik op de knop **[!UICONTROL View Payload]** pictogram voor een voorvertoning van de lading die door het systeem wordt verwacht.
 
@@ -141,4 +142,4 @@ Met de voorvertoning van de lading kunt u de definitie van de lading valideren.
 
 1. Controleer de voorvertoning om de definitie van de payload te valideren.
 
-1. Vervolgens kunt u de voorvertoning van de lading delen met de persoon die verantwoordelijk is voor het verzenden van de gebeurtenis. Deze nuttige lading kan hen helpen de opstelling ontwerpen van een gebeurtenis die duikt aan [!DNL Journey Optimizer]. Zie [deze pagina](../event/additional-steps-to-send-events-to-journey-orchestration.md).
+1. Vervolgens kunt u de voorvertoning van de lading delen met de persoon die verantwoordelijk is voor het verzenden van de gebeurtenis. Deze nuttige lading kan hen helpen de opstelling ontwerpen van een gebeurtenis die duikt aan [!DNL Journey Optimizer]. Zie [deze pagina](../event/additional-steps-to-send-events-to-journey.md).

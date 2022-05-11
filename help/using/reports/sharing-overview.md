@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
-source-git-commit: 22db9d3997e84d33ddb2febe7a07aaef4063a880
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '479'
 ht-degree: 3%
 
 ---
@@ -53,8 +53,6 @@ De lijsten van XDM gebieden die tot Adobe Experience Platform worden overgegaan 
 
 * [Lijst met gebeurtenisvelden voor stappen](../reports/sharing-field-list.md)
 * [Gebeurtenisvelden voor oudere stappen](../reports/sharing-legacy-fields.md)
-
-Kijk hier voor meer informatie over step-gebeurtenissen die aan Adobe Experience Platform worden gerapporteerd [zelfstudievideo](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/reporting-step-events-to-adobe-experience-platform.html){target=&quot;_blank&quot;}.
 
 ## Integratie met Customer Journey Analytics {#integration-cja}
 

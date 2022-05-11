@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 45%
@@ -261,7 +261,7 @@ ht-degree: 45%
          + [AI-modellen maken](using/offers/offer-library/create-ranking-strategies.md)
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
-         + [Aanbiedingen op maat maken](using/offers/offer-library/creating-personalized-offers.md)
+         + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
          + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
@@ -367,7 +367,7 @@ ht-degree: 45%
             + [ExperienceEvent-schema’s](using/event/experience-event-schema.md)
             + [Adobe Analytics gebruiken](using/event/about-analytics.md)
          + [Een bedrijfsgebeurtenis configureren](using/event/about-creating-business.md)
-         + [Aanvullende stappen om gebeurtenissen te verzenden](using/event/additional-steps-to-send-events-to-journey-orchestration.md)
+         + [Aanvullende stappen om gebeurtenissen te verzenden](using/event/additional-steps-to-send-events-to-journey.md)
       + Gegevensbronconfiguratie{#data-source-journeys}
          + [Databronnen](using/datasource/about-data-sources.md)
          + [Een gegevensbron configureren](using/datasource/configure-data-sources.md)
