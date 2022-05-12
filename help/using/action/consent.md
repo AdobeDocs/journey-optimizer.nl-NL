@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 107145aab223ad2c6789f46e6b467f2366c59dc2
+source-git-commit: 6958b03907bdc2e57e336efe27d7528cc60f86f2
 workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 0%
@@ -57,7 +57,7 @@ There are two types of latency regarding the use of consent policies:
 >[!CONTEXTUALHELP]
 >id="ajo_consent_required_marketing_action_admin"
 >title="Een vereiste marketingactie definiëren"
->abstract="Met de actie &quot;Vereist op de markt brengen&quot; kunt u de marketingactie definiëren die betrekking heeft op uw aangepaste actie. Als u bijvoorbeeld die aangepaste handeling gebruikt om e-mailberichten te verzenden, kunt u de optie &#39;Doelstelling e-mail verzenden&#39; selecteren. Bij gebruik tijdens een reis worden alle toestemmingsbeleid dat met die marketingactie verband houdt, opgehaald en benut. Dit kan niet worden gewijzigd op het canvas."
+>abstract="Met de marketingactie Vereist kunt u de marketingactie definiëren die betrekking heeft op uw aangepaste actie. Als u bijvoorbeeld die aangepaste handeling gebruikt om e-mailberichten te verzenden, kunt u de optie &#39;Doelstelling e-mail verzenden&#39; selecteren. Bij gebruik tijdens een reis worden alle toestemmingsbeleid dat met die marketingactie verband houdt, opgehaald en benut. Dit kan niet worden gewijzigd op het canvas."
 
 Wanneer het vormen van een douaneactie, kunnen twee gebieden voor toestemmingsbeheer worden gebruikt.
 
