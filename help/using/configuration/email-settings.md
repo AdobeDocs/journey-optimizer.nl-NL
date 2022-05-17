@@ -1,0 +1,173 @@
+---
+title: E-mailinstellingen configureren
+description: Leer hoe u e-mailinstellingen configureert op het niveau van de berichtvoorinstelling
+feature: Application Settings
+topic: Administration
+role: Admin
+level: Intermediate
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+workflow-type: tm+mt
+source-wordcount: '1004'
+ht-degree: 1%
+
+---
+
+# E-mailinstellingen configureren {#email-settings}
+
+Definieer de e-mailinstellingen in het specifieke gedeelte van de configuratie van de berichtvoorinstelling. Leer hoe u berichtvoorinstellingen maakt in [deze sectie](message-presets.md).
+
+![](assets/preset-email.png)
+
+## Type e-mail {#email-type}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_emailtype"
+>title="De e-mailcategorie definiëren"
+>abstract="Selecteer het type berichten dat wordt verzonden wanneer u deze voorinstelling gebruikt: Marketing voor promotieberichten waarvoor toestemming van de gebruiker vereist is, of Transactie voor niet-commerciële berichten, die ook naar niet-geabonneerde profielen in specifieke contexten kunnen worden verzonden."
+
+In de **E-MAILTYPE** selecteert u het type bericht dat wordt verzonden met de voorinstelling: **Marketing** of **Transactioneel**.
+
+* Kies **Marketing** voor promotieberichten: voor deze berichten is toestemming van de gebruiker vereist .
+
+* Kies **Transactioneel** voor niet-commerciële berichten, zoals bevestiging van de bestelling, wachtwoordherstelmeldingen of leveringsgegevens.
+
+>[!CAUTION]
+>
+>**Transactioneel** berichten kunnen worden verzonden naar profielen die zich niet meer hebben geabonneerd op marketingberichten. Deze berichten kunnen alleen in specifieke contexten worden verzonden.
+
+Wanneer [een bericht maken](../messages/get-started-content.md#create-new-message), moet u een geldige berichtvoorinstelling kiezen die overeenkomt met de categorie die u voor uw bericht hebt geselecteerd.
+
+## Subdomein en IP-pool {#subdomains-and-ip-pools}
+
+In de **DETAILS VAN SUBDOMEIN EN IP-POOL** -sectie, moet u:
+
+1. Selecteer het subdomein dat u wilt gebruiken om de e-mails te verzenden. [Meer informatie](about-subdomain-delegation.md)
+
+1. Selecteer de IP-pool die u aan de voorinstelling wilt koppelen. [Meer informatie](ip-pools.md)
+
+![](assets/preset-subdomain-ip-pool.png)
+
+U kunt niet doorgaan met het maken van de voorinstelling terwijl de geselecteerde IP-pool zich onder [editie](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) en is nooit gekoppeld aan het geselecteerde subdomein. Anders, zal de oudste versie van de IP pool/subdomain vereniging nog worden gebruikt. Als dit het geval is, sparen vooraf ingesteld als ontwerp en probeer opnieuw zodra de IP pool heeft **[!UICONTROL Success]** status.
+
+>[!NOTE]
+>
+>Voor niet-productiemilieu&#39;s, creeert Adobe geen uit-van-de-doos testsubdomeinen noch verleent toegang tot een gedeelde verzendende IP pool. U moet [delegeren uw eigen subdomeinen](delegate-subdomain.md) en gebruik IPs van de pool die aan uw organisatie wordt toegewezen.
+
+## List-Unsubscribe {#list-unsubscribe}
+
+Aan [selecteren, subdomein](#subdomains-and-ip-pools) in de lijst **[!UICONTROL Enable List-Unsubscribe]** weergegeven.
+
+![](assets/preset-list-unsubscribe.png)
+
+Deze optie is standaard ingeschakeld.
+
+Als u deze optie ingeschakeld laat, wordt automatisch een afmeldingskoppeling opgenomen in de e-mailkoptekst, zoals:
+
+![](assets/preset-list-unsubscribe-header.png)
+
+Als u deze optie uitschakelt, wordt er geen koppeling voor afmelden weergegeven in de e-mailkoptekst.
+
+De unsubscribe-koppeling bestaat uit twee elementen:
+
+* An **e-mailadres opzeggen**, waarnaar alle afmeldingsverzoeken worden verzonden.
+
+   In [!DNL Journey Optimizer], is het e-mailadres voor opzeggen het standaardadres **[!UICONTROL Mailto (unsubscribe)]** adres dat wordt weergegeven in de berichtvoorinstelling, gebaseerd op de [geselecteerd subdomein](#subdomains-and-ip-pools).
+
+   ![](assets/preset-list-unsubscribe-mailto.png)
+
+* De **abonnement-URL opzeggen**, dit is de URL van de bestemmingspagina waarop de gebruiker wordt omgeleid wanneer deze het abonnement opzegt.
+
+   Als u een [one-click opt-out link](../messages/consent.md#one-click-opt-out) voor een bericht dat is gemaakt met deze voorinstelling, is de URL voor het afmelden van een abonnement de URL die is gedefinieerd voor de koppeling om één klik uit te schakelen.
+
+   ![](assets/preset-list-unsubscribe-opt-out-url.png)
+
+   >[!NOTE]
+   >
+   >Als u geen koppeling om te weigeren met één klik toevoegt aan uw berichtinhoud, wordt er geen bestemmingspagina weergegeven voor de gebruiker.
+
+Meer informatie over het toevoegen van een link voor opzeggen van koptekst aan je berichten in [deze sectie](../messages/consent.md#unsubscribe-header).
+
+<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
+
+## Parameters koptekst{#email-header}
+
+In de **[!UICONTROL HEADER PARAMETERS]** in, voert u de namen en e-mailadressen van de afzender in die zijn gekoppeld aan het type berichten dat met die voorinstelling wordt verzonden.
+
+>[!CAUTION]
+>
+>De e-mailadressen moeten de geselecteerde [gedelegeerd subdomein](about-subdomain-delegation.md).
+
+* **[!UICONTROL Sender name]**: De naam van de afzender, zoals de naam van uw merk.
+
+* **[!UICONTROL Sender email]**: Het e-mailadres dat u voor uw communicatie wilt gebruiken. Als het gedelegeerde subdomein bijvoorbeeld *marketing.luma.com* kunt u *contact@marketing.luma.com*.
+
+* **[!UICONTROL Reply to (name)]**: De naam die wordt gebruikt wanneer de ontvanger op de knop **Reageren** in hun e-mailclientsoftware.
+
+* **[!UICONTROL Reply to (email)]**: Het e-mailadres dat wordt gebruikt wanneer de ontvanger op de knop **Reageren** in hun e-mailclientsoftware. U moet een adres gebruiken dat op gedelegeerde subdomein wordt bepaald (bijvoorbeeld *reply@marketing.luma.com*), anders worden de e-mails verwijderd.
+
+* **[!UICONTROL Error email]**: Alle fouten die door ISPs na een paar dagen van post worden geproduceerd die (asynchrone stuitingen) worden ontvangen op dit adres.
+
+![](assets/preset-header.png)
+
+>[!NOTE]
+>
+>Adressen moeten beginnen met een letter (A-Z) en mogen alleen alfanumerieke tekens bevatten. U kunt ook het onderstrepingsteken gebruiken `_`, punt`.` en afbreekstreepje `-` tekens.
+
+## Parameters opnieuw proberen {#email-retry}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_presets_retryperiod"
+>title="De periode voor het opnieuw proberen aanpassen"
+>abstract="Er worden 3,5 dagen (84 uur) opnieuw geprobeerd wanneer een e-mailbericht mislukt als gevolg van een tijdelijke soft bounce-fout. U kunt deze standaardperiode voor opnieuw proberen aanpassen aan uw wensen."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="Opnieuw proberen"
+
+U kunt de **Parameters opnieuw proberen**.
+
+![](assets/preset-retry-parameters.png)
+
+Standaard worden de [periode voor opnieuw uitproberen](retries.md#retry-duration) is ingesteld op 84 uur, maar u kunt deze instelling aanpassen aan uw wensen.
+
+U moet een geheel-getalwaarde (in uren of notulen) binnen de volgende waaier ingaan:
+
+* Voor het in de handel brengen van e-mails is de minimale herroepingstermijn 6 uur.
+* Voor transactie-e-mailberichten is de minimale herroepingstermijn 10 minuten.
+* Voor beide e-mailtypen is de maximale hergebruiksperiode 84 uur (of 5040 minuten).
+
+Meer informatie over nieuwe pogingen in [deze sectie](retries.md).
+
+## URL-tracking {#url-tracking}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_utm"
+>title="Parameters voor URL-tracking"
+>abstract="In deze sectie kunt u automatisch parameters voor bijhouden toevoegen aan de campagne-URL&#39;s in uw e-mailinhoud."
+
+U kunt **[!UICONTROL URL Tracking Parameters]** om de doeltreffendheid van uw marketing inspanningen over kanalen te meten. Deze functie is optioneel.
+
+De parameters die in deze sectie worden gedefinieerd, worden toegevoegd aan het einde van de URL&#39;s die in de inhoud van uw e-mailbericht zijn opgenomen. Vervolgens kunt u deze parameters vastleggen in hulpprogramma&#39;s voor webanalyse, zoals Adobe Analytics of Google Analytics, en verschillende prestatierapporten maken.
+
+![](assets/preset-url-tracking.png)
+
+Drie URL-volgparameters worden automatisch ingevuld als voorbeeld wanneer u een berichtvoorinstelling maakt. U kunt deze bewerken en maximaal 10 volgparameters toevoegen met de opdracht **[!UICONTROL Add new parameter]** knop.
+
+Als u een URL-volgparameter wilt configureren, kunt u rechtstreeks de gewenste waarden invoeren in het dialoogvenster **[!UICONTROL Name]** en **[!UICONTROL Value]** door naar de volgende objecten te navigeren of een keuze te maken in een lijst met vooraf gedefinieerde waarden:
+
+* Reiskenmerken: **Bron-id**, **Bronnaam**, **Id van bronversie**
+* Berichtkenmerken: **Handeling-id**, **Naam van handeling**
+* Kenmerken offer decisioning: **Offerte-id**, **Naam voorstel**
+
+![](assets/preset-url-tracking-source.png)
+
+>[!CAUTION]
+>
+>Selecteer geen map: Blader naar de gewenste map en selecteer een profielkenmerk dat u wilt gebruiken als waarde voor de parameter tracking.
+
+Hieronder staan voorbeelden van URL&#39;s die compatibel zijn met Adobe Analytics en Google Analytics.
+
+* URL die compatibel is met Adobe Analytics: www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}
+
+* Compatibele URL voor Google Analytics: www.YourLandingURL.com?utm_medium=email&amp;utm_source=AJO&amp;utm_campagne={{context.system.source.id}&amp;utm_content=image
+
+>[!NOTE]
+>
+>U kunt tekstwaarden typen en vooraf gedefinieerde waarden selecteren. Elk **[!UICONTROL Value]** het veld kan in totaal maximaal 255 tekens bevatten.

@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1fa91a841d4f941f2c5bd1efd4a06ac8a9938bc7
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 45%
+source-wordcount: '1010'
+ht-degree: 44%
 
 ---
 
@@ -338,25 +338,30 @@ ht-degree: 45%
 + Configuratie{#configuration}
    + [Aan de slag met de Journey Optimizer-configuratie](using/configuration/get-started-configuration.md)
    + Berichten configureren {#configuration-message}
-      + Configuratie van pushmeldingen{#push-config}
+      + Pushmeldingen configureren{#push-config}
          + [Aan de slag met de pushconfiguratie](using/configuration/push-gs.md)
          + [Pushmeldingskanaal configureren](using/configuration/push-configuration.md)
-      + E-mailconfiguratie {#email-configuration}
+      + E-mails configureren {#email-configuration}
          + Subdomeinen delegeren {#delegate-subdomains}
             + [Aan de slag met subdomeindelegatie](using/configuration/about-subdomain-delegation.md)
             + [Een subdomein delegeren](using/configuration/delegate-subdomain.md)
             + [Gedelegeerde subdomeinen benaderen](using/configuration/access-subdomains.md)
+         + Handelingen met betrekking tot subdomeinen beheren {#subdomain-related-actions}
             + [Een Google TXT-record toevoegen](using/configuration/google-txt.md)
             + [PTR-records openen en bewerken](using/configuration/ptr-records.md)
-         + [IP-pools maken](using/configuration/ip-pools.md)
+            + [IP-pools maken](using/configuration/ip-pools.md)
          + E-mailadressen controleren {#monitor-reputation}
             + [Onderdrukkingslijst beheren](using/configuration/manage-suppression-list.md)
             + [Hernieuwde pogingen](using/configuration/retries.md)
-         + [Primair e-mailadres wijzigen](using/configuration/primary-email-addresses.md)
       + [Sms-kanaal configureren](using/configuration/sms-configuration.md)
-      + [Voorinstellingen voor berichten maken](using/configuration/message-presets.md)
+      + Voorinstellingen voor berichten instellen {#set-up-message-presets}
+         + [Voorinstellingen voor berichten maken](using/configuration/message-presets.md)
+         + [E-mailinstellingen configureren](using/configuration/email-settings.md)
+      + [Uitvoeradressen beheren](using/configuration/primary-email-addresses.md)
       + [Regels voor frequenties configureren](using/configuration/frequency-rules.md)
-   + [Landingspagina’s configureren](using/configuration/lp-configuration.md)
+   + Landingspagina’s configureren {#lp-configuration}
+      + [Subdomeinen van bestemmingspagina configureren](using/configuration/lp-subdomains.md)
+      + [Voorinstellingen voor openingspagina definiëren](using/configuration/lp-presets.md)
    + Reizen configureren {#configure-journeys}
       + [Informatie over gegevensbronnen, gebeurtenissen en handelingen](using/configuration/about-data-sources-events-actions.md)
       + [Integreren met externe systemen](using/configuration/external-systems.md)

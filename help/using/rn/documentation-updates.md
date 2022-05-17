@@ -2,9 +2,9 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 80e0fea3be11dcd594b1de04a0a903b87b9c7b68
+source-git-commit: a485c58366f0690fb2515139658224d59468a24f
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1355'
 ht-degree: 22%
 
 ---
@@ -21,7 +21,8 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Screenshots voor de openingspagina en abonnementrapportage zijn bijgewerkt. [Meer informatie](../reports/live-report.md)
 * Er is een opmerking toegevoegd waarin staat dat de methode Verwijderen niet wordt ondersteund in aangepaste handelingen. [Meer informatie](../action/about-custom-action-configuration.md)
 * De koppelingen naar Hoe kan ik-video&#39;s zijn bijgewerkt.
-
+* De [E-mailconfiguratie](../configuration/about-subdomain-delegation.md), [Voorinstellingen voor berichten](../configuration/message-presets.md) en [Landingspagina&#39;s configureren](../configuration/lp-subdomains.md) secties zijn gereorganiseerd voor betere leesbaarheid.
+* De **URL-tracking** is bijgewerkt en verbeterd met voorbeelden. [Meer informatie](../configuration/email-settings.md#url-tracking)
 
 ## April 2022 {#april-2022}
 
