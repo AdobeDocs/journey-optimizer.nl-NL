@@ -1,5 +1,5 @@
 ---
-title: Aanbiedingen op maat maken
+title: Gepersonaliseerde aanbiedingen maken
 description: Leer hoe u uw aanbiedingen kunt maken, configureren en beheren
 feature: Offers
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 4%
 
 ---
 
-# Aanbiedingen op maat maken {#create-personalized-offers}
+# Gepersonaliseerde aanbiedingen maken {#create-personalized-offers}
 
 Voordat u een aanbieding maakt, moet u controleren of u het volgende hebt gemaakt:
 

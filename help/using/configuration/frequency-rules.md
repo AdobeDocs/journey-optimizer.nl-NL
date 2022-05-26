@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -31,15 +31,19 @@ Hiervoor kunt u een regel voor de frequentie gebruiken die het aantal verzonden 
 
 De regels zijn beschikbaar op **[!UICONTROL Administration]** > **[!UICONTROL Rules]** -menu. Alle regels worden weergegeven, gesorteerd op wijzigingsdatum.
 
->[!NOTE]
->
->Als u de regels voor berichtfrequentie wilt openen, maken, bewerken of verwijderen, moet u beschikken over [Regels voor frequenties beheren](../administration/high-low-permissions.md#manage-frequency-rules) toestemming.
-
-![](assets/message-rules-access.png)
-
 Gebruik het filterpictogram om te filteren op de categorie, status en/of kanaal. U kunt ook op het berichtlabel zoeken.
 
 ![](assets/message-rules-filter.png)
+
+### Toestemmingen{#permissions-frequency-rules}
+
+Als u de regels voor berichtfrequentie wilt openen, maken, bewerken of verwijderen, moet u beschikken over **[!UICONTROL Manage frequency rules]** toestemming.
+
+Gebruikers met de **[!UICONTROL View frequency rules]** de toestemming kan regels bekijken, maar niet om hen te wijzigen of te schrappen.
+
+![](assets/message-rules-access.png)
+
+Meer informatie over machtigingen in [deze sectie](../administration/high-low-permissions.md).
 
 ## Een regel maken {#create-new-rule}
 
@@ -79,7 +83,7 @@ Volg onderstaande stappen om een nieuwe regel te maken.
 
    Stel de aftopping bijvoorbeeld in op 15 en selecteer het e-mailadres en het pushkanaal. Als een profiel al 10 marketingberichten en 5 pushmeldingen voor marketing heeft ontvangen, wordt dit profiel uitgesloten van de eerstvolgende levering van elke marketingmail of pushmelding.
 
-1. Klikken **[!UICONTROL Save as draft]** om de regel te bevestigen. Uw bericht wordt toegevoegd in de regellijst, met de **[!UICONTROL Draft]** status.
+1. Klikken **[!UICONTROL Save as draft]** om de regel te bevestigen. Uw bericht wordt toegevoegd aan de regellijst, met de **[!UICONTROL Draft]** status.
 
    ![](assets/message-rules-created.png)
 
@@ -93,7 +97,7 @@ Het activeren van een regel heeft invloed op berichten waarop deze van toepassin
 
 >[!NOTE]
 >
->U hoeft geen berichten of reizen te wijzigen of opnieuw te publiceren voordat een regel van kracht wordt.
+>Het kan 10 minuten duren voordat een regel volledig geactiveerd is. U hoeft geen berichten of reizen te wijzigen of opnieuw te publiceren voordat een regel van kracht wordt.
 
 Als u een berichtfrequentieregel wilt deactiveren, klikt u op de ellips naast de regel en selecteert u **[!UICONTROL Deactivate]**.
 
@@ -132,6 +136,10 @@ Volg onderstaande stappen om een frequentieregel toe te passen op een bericht.
 1. [Ontwerp](../design/design-emails.md) en [publish](../messages/publish-manage-message.md) uw bericht.
 
 Alle frequentieregels die overeenkomen met de geselecteerde categorie en kanalen worden automatisch toegepast op dit bericht.
+
+>[!NOTE]
+>
+>Berichten <!--that do not have any selected category or messages -->waarbij de geselecteerde categorie **[!UICONTROL Transactional]** niet worden getoetst aan de frequentievoorschriften.
 
 <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
@@ -178,3 +186,7 @@ U kunt verschillende regels voor berichtfrequentie combineren, zoals in het onde
 In dit scenario wordt een individueel profiel:
 * per maand maximaal 12 marketingberichten kunnen ontvangen;
 * maar worden uitgesloten van het in de handel brengen van pushberichten nadat ze 4 pushmeldingen hebben ontvangen.
+
+>[!NOTE]
+>
+>Bij het testen van frequentieregels kan het handig zijn om te beginnen met een nieuw [testprofiel](../segment/creating-test-profiles.md)Omdat er geen manier is om de teller opnieuw in te stellen tot de volgende maand wanneer de frequentie-instelling van een profiel is bereikt. Als u een regel deactiveert, kunnen beperkte profielen berichten ontvangen, maar worden er geen tellerverhogingen verwijderd of verwijderd.

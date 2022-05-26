@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1100'
 ht-degree: 1%
 
 ---
@@ -132,6 +132,10 @@ Voer de onderstaande stappen uit om de subpagina-instellingen te definiëren.
 1. U kunt de paginanaam wijzigen. **[!UICONTROL Subpage 1]** standaard.
 
 1. Bewerk de inhoud van de pagina met de inhoudsontwerper. Leer hoe u de inhoud van de bestemmingspagina definieert [hier](design-lp.md).
+
+   >[!NOTE]
+   >
+   >U kunt een koppeling naar de primaire pagina invoegen vanuit elke subpagina van dezelfde bestemmingspagina. Als u bijvoorbeeld gebruikers wilt omleiden die een fout hebben gemaakt en zich opnieuw willen abonneren, kunt u een koppeling toevoegen van de bevestigingssubpagina naar de primaire pagina van het abonnement. Leer hoe u koppelingen kunt invoegen in [deze sectie](../design/message-tracking.md#insert-links).
 
 1. Definieer de URL van de bestemmingspagina. Voor het eerste deel van de URL moet u eerder een subdomein voor een bestemmingspagina instellen. [Meer informatie](../configuration/lp-subdomains.md)
 

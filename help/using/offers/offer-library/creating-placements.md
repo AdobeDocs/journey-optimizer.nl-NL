@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '234'
 ht-degree: 5%
 
 ---
@@ -42,7 +42,7 @@ Voer de volgende stappen uit om een plaatsing te maken:
 
    * **[!UICONTROL Name]**: De naam van de plaatsing. Zorg ervoor dat u een betekenisvolle naam definieert om deze eenvoudiger op te halen.
    * **[!UICONTROL Channel type]**: Het kanaal waarvoor de plaatsing zal worden gebruikt.
-   * **[!UICONTROL Content type]**: Het type inhoud dat de plaatsing mag weergeven: Tekst-, HTML- of afbeeldingskoppeling.
+   * **[!UICONTROL Content type]**: Het type inhoud dat de plaatsing mag weergeven: Tekst, HTML, Afbeeldingskoppeling of JSON.
    * **[!UICONTROL Description]**: Een beschrijving van de plaatsing (optioneel).
 
    ![](../assets/offers_placement_creation_properties.png)

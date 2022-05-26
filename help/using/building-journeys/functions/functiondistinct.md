@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 16%
+source-wordcount: '151'
+ht-degree: 5%
 
 ---
 
 # onderscheiden {#distinct}
 
-Retourneert de verschillende waarden van de lijst zonder null-waarden.
+Geeft als resultaat de verschillende waarden of objecten van een bepaalde lijst. Null-items worden genegeerd.
 
 ## Categorie
 
@@ -23,20 +23,14 @@ Lijst
 
 ## Functiesyntaxis
 
-`distinct(<parameter>)`
+`distinct(<parameters>)`
 
 ## Parameters
 
-| Parameter | Type |
-|-----------|------------------|
-| Lijst | listString |
-| Lijst | listBoolean |
-| Lijst | listInteger |
-| Lijst | listDecimal |
-| Lijst | listDuration |
-| Lijst | listDateTime |
-| Lijst | listDateTimeOnly |
-| Lijst | listDateOnly |
+| Parameter | Type | Beschrijving |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly of listObject | Te verwerken lijst. Voor listObject moet dit een veldverwijzing zijn. |
+| keyAttributeName | string | Deze parameter is optioneel en alleen voor listObject. Wanneer de parameter niet wordt opgegeven, wordt een object als gedupliceerd beschouwd wanneer alle kenmerken dezelfde waarden hebben. Anders wordt een object als gedupliceerd beschouwd wanneer het opgegeven kenmerk dezelfde waarde heeft. |
 
 ## Handtekeningen en geretourneerde typen
 
@@ -71,6 +65,13 @@ Retourneert een lijst met laarzen.
 `distinct(<listDuration>)`
 
 Retourneert een lijst met tijdsduur.
+
+`distinct(<listObject>)`
+
+`distinct(<listObject>,<string>)`
+
+Retourneert een lijst met objecten.
+
 
 ## Voorbeelden
 

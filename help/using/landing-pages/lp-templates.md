@@ -1,0 +1,57 @@
+---
+title: Werken met sjablonen voor bestemmingspagina's
+description: Leer hoe u een landingspagina opslaat als een sjabloon en deze opnieuw gebruikt in Journey Optimizer
+feature: Landing Pages
+topic: Content Management
+role: User
+level: Beginner
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+workflow-type: tm+mt
+source-wordcount: '178'
+ht-degree: 5%
+
+---
+
+# Werken met sjablonen voor bestemmingspagina&#39;s {#work-with-templates}
+
+## Een pagina opslaan als sjabloon {#save-as-template}
+
+Zodra u uw [pagina-inhoud plaatsen](lp-content.md), kunt u deze opslaan voor toekomstig hergebruik. Volg de onderstaande stappen om dit te doen.
+
+1. Klik op de ellips rechtsboven in het scherm.
+
+1. Selecteren **[!UICONTROL Save design template]** in het keuzemenu.
+
+   ![](assets/lp_designer-save-template.png)
+
+1. Voeg een naam voor deze sjabloon toe.
+
+   ![](assets/lp_designer-template-name.png)
+
+1. Klik op **[!UICONTROL Save]**.
+
+De volgende keer dat u een openingspagina maakt, kunt u deze sjabloon gebruiken om uw inhoud samen te stellen. Meer informatie in het dialoogvenster [sectie](#use-saved-template) hieronder.
+
+![](assets/lp_designer-saved-template.png)
+
+## Een opgeslagen sjabloon gebruiken {#use-saved-template}
+
+1. Open de [pagina-inhoudontwerper landen](design-lp.md). De lijst met alle eerder opgeslagen sjablonen wordt weergegeven.
+
+1. U kunt ze sorteren **[!UICONTROL By name]**, **[!UICONTROL Last modified]** en **[!UICONTROL Last created]**.
+
+   ![](assets/lp_designer-saved-templates.png)
+
+1. Selecteer de gewenste sjabloon in de lijst.
+
+1. Als deze optie is geselecteerd, kunt u met de pijl-rechts en de pijl-links tussen alle opgeslagen sjablonen navigeren.
+
+   ![](assets/lp_designer-saved-templates-navigate.png)
+
+1. Klik op **[!UICONTROL Use this landing page]**.
+
+1. Bewerk de inhoud naar wens met de ontwerper van de bestemmingspagina.
+
+>[!NOTE]
+>
+>De primaire paginasjablonen en subpaginasjablonen worden afzonderlijk beheerd. Dit betekent dat u geen sjabloon voor primaire pagina&#39;s kunt gebruiken om een subpagina te maken, en andersom.

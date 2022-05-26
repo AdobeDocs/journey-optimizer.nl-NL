@@ -1,5 +1,5 @@
 ---
-title: Beslissingen nemen
+title: Beslissingen maken
 description: Leer hoe u beslissingen maakt
 feature: Offers
 topic: Integrations
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 ---
 
-# Beslissingen nemen {#create-offer-activities}
+# Beslissingen maken {#create-offer-activities}
 
 Besluiten (voorheen bekend als aanbiedingsactiviteiten) zijn containers voor uw aanbiedingen die gebruikmaken van de Offertenbeslissingsengine om de beste aanbieding te kiezen, afhankelijk van het doel van de levering.
 

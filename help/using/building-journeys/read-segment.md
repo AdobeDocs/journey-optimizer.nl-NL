@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 6%
+source-wordcount: '1101'
+ht-degree: 5%
 
 ---
 
@@ -103,6 +103,10 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 -->
 
+>[!NOTE]
+>
+>Eenmalig Leessegment-reizen gaan 30 dagen na de uitvoering van de reis over naar de voltooide status. Voor geplande Gelezen segmenten, is het 30 dagen na de uitvoering van het laatste voorkomen.
+
 ### De journey testen en publiceren {#testing-publishing}
 
 De **[!UICONTROL Read Segment]** met deze activiteit kunt u de reis testen op een uniform profiel of op 100 willekeurig gekozen testprofielen uit de profielen die voor het segment in aanmerking komen.
@@ -153,7 +157,7 @@ De segmentatie kan worden gebaseerd op:
 
 **Uitsluiting**
 
-Hetzelfde **Voorwaarde** de activiteit die voor segmentatie wordt gebruikt (zie hierboven) staat u ook toe om een deel van de bevolking uit te sluiten. U kunt bijvoorbeeld VIP personen uitsluiten door ze na afloop naar een vertakking te laten gaan met een eindstap.
+Hetzelfde **Voorwaarde** de activiteit die voor segmentatie wordt gebruikt (zie hierboven) staat u ook toe om een deel van de bevolking uit te sluiten. U kunt bijvoorbeeld VIP personen uitsluiten door ze na afloop naar een vertakking te laten lopen met een eindstap.
 
 Deze uitsluiting zou direct na het opvragen van segmenten kunnen plaatsvinden, voor het tellen van de bevolking of langs een reis met meerdere stappen.
 

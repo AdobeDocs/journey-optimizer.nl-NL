@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 13%
+source-wordcount: '131'
+ht-degree: 6%
 
 ---
 
 # sorteren {#sort}
 
-Sorteert een lijst met waarden in de natuurlijke volgorde. Het eerste argument is de lijst met waarden, het tweede is een booleaanse waarde die aangeeft of de sortering oploopt (true) of afneemt (false).
+Hiermee sorteert u een lijst met waarden of objecten in natuurlijke volgorde.
 
 ## Categorie
 
@@ -27,17 +27,11 @@ Lijst
 
 ## Parameters
 
-| Parameter | Type |
-|-----------|------------------|
-| Lijst | listString |
-| Lijst | listBoolean |
-| Lijst | listInteger |
-| Lijst | listDecimal |
-| Lijst | listDuration |
-| Lijst | listDateTime |
-| Lijst | listDateTimeOnly |
-| Lijst | listDateOnly |
-| Boolean | Boolean |
+| Parameter | Type | Beschrijving |
+|-----------|------------------|------------------|
+| listToSort | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly of listObject | Te sorteren lijst. Voor listObject moet dit een veldverwijzing zijn. |
+| keyAttributeName | string | Deze parameter is alleen voor listObject. De kenmerknaam in de objecten in de lijst wordt gebruikt als sleutel voor sorteren. |
+| sortingOrder | boolean | Oplopend (true) of aflopend (false) |
 
 ## Handtekening en type geretourneerd
 
@@ -69,6 +63,10 @@ Retourneert een lijst met datums.
 
 Retourneert een lijst met laarzen.
 
+`sort(<listObject>,<string>,<boolean>)`
+
+Retourneert een lijst met objecten.
+
 ## Voorbeeld
 
 `sort(["A", "C", "B"], true)`
@@ -78,3 +76,4 @@ Retourneert `["A","B","C"]`.
 `sort([1, 3, 2], false)`
 
 Retourneert `[3, 2, 1]`.
+

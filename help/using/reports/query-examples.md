@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: c8e03687d82c6dcfea1195cf8ef091e3d9bc80a5
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1141'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Zorg ervoor dat de gebieden die in uw vragen worden gebruikt waarden in het over
 
 ## Bericht-/handelingsfouten {#message-action-errors}
 
-### Lijst van fouten tijdens reizen {#error-list-journey}
+**Lijst van fouten tijdens reizen**
 
 Met deze query kunt u elke fout die tijdens reizen is aangetroffen, weergeven tijdens het uitvoeren van een bericht/handeling.
 
@@ -49,7 +49,7 @@ Deze vraag keert alle verschillende fouten terug die terwijl het uitvoeren van e
 
 ## Op profielen gebaseerde query&#39;s {#profile-based-queries}
 
-### Zoeken of een profiel een specifieke reis heeft ingevoerd {#profile-entered-journey}
+**Zoeken of een profiel een specifieke reis heeft ingevoerd**
 
 _Gegevens Meer query_
 
@@ -71,9 +71,9 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 Het resultaat moet groter zijn dan 0. Deze vraag keert het nauwkeurige aantal tijden terug een profiel een reis is ingegaan.
 
-### Zoeken of een profiel een specifiek bericht is verzonden {#profile-specific-message}
+**Zoeken of een profiel een specifiek bericht is verzonden**
 
-**Methode 1:** als de naam van uw bericht niet uniek is in de reis (het wordt gebruikt op veelvoudige plaatsen).
+Methode 1: als de naam van uw bericht niet uniek is in de reis (het wordt gebruikt op veelvoudige plaatsen).
 
 _Gegevens Meer query_
 
@@ -97,7 +97,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 Het resultaat moet groter zijn dan 0. Deze vraag vertelt ons slechts of de berichtactie met succes op de reiskant werd uitgevoerd.
 
-**Methode 2:** als de naam van uw bericht uniek is in de reis.
+Methode 2: als de naam van uw bericht uniek is in de reis.
 
 _Gegevens Meer query_
 
@@ -121,7 +121,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 De vraag keert de lijst van alle berichten samen met hun telling terug die voor het geselecteerde profiel wordt aangehaald.
 
-## Zoeken naar alle berichten die een profiel in de afgelopen 30 dagen heeft ontvangen {#message-received-30-days}
+**Zoeken naar alle berichten die een profiel in de afgelopen 30 dagen heeft ontvangen**
 
 _Gegevens Meer query_
 
@@ -147,7 +147,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 De vraag keert de lijst van alle berichten samen met hun telling terug die voor het geselecteerde profiel wordt aangehaald.
 
-### Zoeken naar alle ritten die een profiel in de afgelopen 30 dagen heeft ingevoerd {#profile-entered-30-days}
+**Zoeken naar alle ritten die een profiel in de afgelopen 30 dagen heeft ingevoerd**
 
 _Gegevens Meer query_
 
@@ -171,7 +171,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 De vraag keert de lijst van alle reisnamen samen met het aantal tijden terug het gevraagde profiel de reis inging.
 
-### Aantal profielen dat in aanmerking kwam voor een dagelijkse reis {#profile-qualified}
+**Aantal profielen dat in aanmerking kwam voor een dagelijkse reis**
 
 _Gegevens Meer query_
 
@@ -197,7 +197,7 @@ De vraag resteert, voor de bepaalde periode, het aantal profielen dat de reis el
 
 ## Vragen met betrekking tot het leessegment {#read-segment-queries}
 
-### Tijd die nodig is om een segmentexporttaak te voltooien
+**Tijd die nodig is om een segmentexporttaak te voltooien**
 
 _Gegevens Meer query_
 
@@ -229,7 +229,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 De vraag keert het tijdverschil, in notulen, tussen terug wanneer de baan van de segmentuitvoer een rij werd gevormd en toen het definitief eindigde.
 
-### Aantal profielen dat tijdens de rit is verwijderd omdat het dubbele profielen waren
+**Aantal profielen dat tijdens de rit is verwijderd omdat het dubbele profielen waren**
 
 _Gegevens Meer query_
 
@@ -251,7 +251,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 De vraag keert alle profielID terug die door de reis werden verworpen omdat zij duplicaten waren.
 
-### Aantal profielen dat door de reis wegens ongeldige namespace is verworpen
+**Aantal profielen dat door de reis wegens ongeldige namespace is verworpen**
 
 _Gegevens Meer query_
 
@@ -273,7 +273,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 De query retourneert alle profiel-id&#39;s die door de rit zijn verwijderd omdat ze een ongeldige naamruimte of geen identiteit voor die naamruimte hadden.
 
-### Aantal profielen dat door de reis wegens geen identiteitskaart werd verworpen
+**Aantal profielen dat door de reis wegens geen identiteitskaart werd verworpen**
 
 _Gegevens Meer query_
 
@@ -295,7 +295,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 De vraag keert alle profielID terug die door de reis werden verworpen omdat de identiteitskaart ontbrak.
 
-### Aantal profielen dat tijdens de rit is weggegooid omdat de rit zich in het testknooppunt bevond en het profiel geen testprofiel was
+**Aantal profielen dat tijdens de rit is weggegooid omdat de rit zich in het testknooppunt bevond en het profiel geen testprofiel was**
 
 _Gegevens Meer query_
 
@@ -317,7 +317,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 De vraag keert alle profielID terug die door de reis werden verworpen omdat de uitvoerbaan op testwijze werd in werking gesteld maar het profiel had niet de testProfile attributen geplaatst aan waar.
 
-### Aantal profielen dat door de reis wegens een interne fout werd verworpen
+**Aantal profielen dat door de reis wegens een interne fout werd verworpen**
 
 _Gegevens Meer query_
 
@@ -339,7 +339,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 De vraag keert alle profielID terug die door de reis wegens één of andere interne fout werden verworpen.
 
-### Overzicht van het Leessegment voor een bepaalde reisversie
+**Overzicht van het Leessegment voor een bepaalde reisversie**
 
 _Gegevens Meer query_
 
@@ -377,7 +377,7 @@ BELANGRIJK: als er geen gebeurtenis is die door deze vraag is teruggekeerd, kan 
 * de reisversie heeft het schema niet bereikt
 * als de reisversie de uitvoerbaan zou hebben veroorzaakt door het orkest aan te roepen , ging er iets mis op de upstram flow : kwestie op reis plaatsing, bedrijfsgebeurtenis of kwestie met planner.
 
-### Fouten met leessegmenten ophalen voor een bepaalde reisversie
+**Fouten met leessegmenten ophalen voor een bepaalde reisversie**
 
 _Gegevens Meer query_
 
@@ -403,7 +403,7 @@ WHERE
     )
 ```
 
-### Status exporttaak ophalen
+**Status exporttaak ophalen**
 
 _Gegevens Meer query_
 
@@ -432,7 +432,7 @@ Als er geen record wordt geretourneerd, betekent dit dat:
 * er is een fout opgetreden tijdens het maken van een onderwerp of taak exporteren
 * de exporttaak is nog actief
 
-### Metrische gegevens over geëxporteerde profielen ophalen, inclusief gegevens over verwijderde taken en exporttaken voor elke exporttaak
+**Metrische gegevens over geëxporteerde profielen ophalen, inclusief gegevens over verwijderde taken en exporttaken voor elke exporttaak**
 
 _Gegevens Meer query_
 
@@ -492,7 +492,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-### Hiermee krijgt u geaggregeerde metriek (segmentexporttaken en verwijderde gegevens) voor alle exporttaken
+**Hiermee krijgt u geaggregeerde metriek (segmentexporttaken en verwijderde gegevens) voor alle exporttaken**
 
 _Gegevens Meer query_
 
@@ -557,31 +557,59 @@ Het keert de algemene metriek voor een bepaalde reisversie terug, ongeacht de ba
 
 ## Vragen in verband met segmentkwalificatie {#segment-qualification-queries}
 
-### Profiel dat is verwijderd vanwege een andere segmentrealisatie dan geconfigureerd
+**Profiel dat is verwijderd vanwege een andere segmentrealisatie dan geconfigureerd**
 
 _Gegevens Meer query_
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
+FROM journey_step_events
 where
-_experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
+_experience.journeyOrchestration.journey.versionID = '<journey-version id>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
 _Voorbeeld_
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
+FROM journey_step_events
 where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'ERROR_INSTANCE_WRONG_SEGMENT_REALIZATION'
+_experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94cdf1c4159d' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
 Deze vraag keert alle profielID terug die door de reisversie wegens verkeerde segmentverwezenlijking werden verworpen.
 
+**De gebeurtenissen van de Kwalificatie van het segment die door een andere reden voor een specifiek profiel worden verworpen**
+
+_Gegevens Meer query_
+
+```sql
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID = '<profile-id>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+_Voorbeeld_
+
+```sql
+SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+Deze query retourneert alle gebeurtenissen (externe gebeurtenissen/segmentkwalificatiegebeurtenissen) die vanwege een andere reden voor een profiel zijn genegeerd.
+
 ## Op gebeurtenissen gebaseerde query&#39;s {#event-based-queries}
 
-### Controleren of een zakelijke gebeurtenis is ontvangen voor een reis
+**Controleren of een zakelijke gebeurtenis is ontvangen voor een reis**
 
 _Gegevens Meer query_
 
@@ -607,9 +635,101 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
+**Controleren of een externe gebeurtenis van een profiel is verwijderd omdat er geen gerelateerde reis is gevonden**
+
+_Gegevens Meer query_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
+_experience.journeyOrchestration.profile.ID = '<profileId>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
+```
+
+_Voorbeeld_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '515bff852185e434ca5c83bcfc4f24626b1545ca615659fc4cfff91626ce61a6' AND
+_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
+```
+
+**Controleren of een externe gebeurtenis van een profiel om een andere reden is verwijderd**
+
+_Gegevens Meer query_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID='<profileID>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='<eventID>' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+_Voorbeeld_
+
+```sql
+SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
+FROM journey_step_events
+where
+_experience.journeyOrchestration.profile.ID='mandee@adobe.com' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='81c51be978d8bdf9ef497076b3e12b14533615522ecea9f5080a81c736491656' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
+```
+
+**Controleer de telling van alle gebeurtenissen die door stateMachine door errorCode worden verworpen**
+
+_Gegevens Meer query_
+
+```sql
+SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
+```
+
+_Voorbeeld_
+
+```sql
+SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
+```
+
+**Alle verwijderde gebeurtenissen controleren omdat toegang niet is toegestaan**
+
+_Gegevens Meer query_
+
+```sql
+SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
+_experience.journeyOrchestration.journey.versionID,
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
+FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
+```
+
+_Voorbeeld_
+
+```sql
+SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
+_experience.journeyOrchestration.journey.versionID,
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
+FROM journey_step_events
+where
+_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
+```
+
 ## Algemene vragen op basis van reizen {#journey-based-queries}
 
-### Aantal dagelijkse actieve reizen {#daily-active-journeys}
+**Aantal dagelijkse actieve reizen**
 
 _Gegevens Meer query_
 
@@ -633,7 +753,7 @@ De vraag keert, voor de bepaalde periode, de telling van unieke reizen terug die
 
 ## Vragen over reistijden {#journey-instances-queries}
 
-### Aantal profielen in een specifieke status op een specifieke tijd
+**Aantal profielen in een specifieke status op een specifieke tijd**
 
 _Gegevens Meer query_
 
@@ -781,7 +901,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-### Hoeveel profielen zijn de reis in de specifieke periode verlaten
+**Hoeveel profielen zijn de reis in de specifieke periode verlaten**
 
 _Gegevens Meer query_
 
@@ -819,7 +939,7 @@ ORDER BY
     DATETIME DESC
 ```
 
-### Hoeveel profielen verlaat de reis in de specifieke periode met knoop/status
+**Hoeveel profielen verlaat de reis in de specifieke periode met knoop/status**
 
 _Gegevens Meer query_
 

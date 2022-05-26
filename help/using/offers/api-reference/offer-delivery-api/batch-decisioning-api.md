@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: c41bc43643bac4d8715469a18d6908846ddd6bf7
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '867'
 ht-degree: 1%
 
 ---
@@ -193,7 +193,7 @@ De tijd van begin tot eind voor elke partijbeslissing is de duur van de tijd de 
 
 Wanneer u de [!DNL Batch Decisioning] API, houd de volgende beperkingen in mening:
 
-* **Eén batchtaak per gegevensset**: Momenteel, slechts kan één enkele partijbaan per dataset tegelijkertijd worden in werking gesteld. Eventuele andere verzoeken met dezelfde uitvoerdataset zouden reageren met HTTP 429 (Te veel verzoeken) voordat het vorige verzoek is voltooid.
+* **Het aantal lopende partijbanen per dataset**: Tot vijf partijbanen kunnen tegelijkertijd, per dataset worden in werking gesteld. Om het even welke andere partijverzoeken met de zelfde outputdataset worden toegevoegd aan de rij. Er wordt een taak in de wachtrij opgehaald om te worden verwerkt zodra de vorige taak is voltooid.
 * **Frequentiecorrectie**: Een batch wordt uitgevoerd zonder de profielmomentopname die één keer per dag plaatsvindt. De [!DNL Batch Decisioning] API kapt de frequentie en laadt altijd profielen van de meest recente momentopname.
 
 ## Volgende stappen {#next-steps}

@@ -1,15 +1,15 @@
 ---
-title: Een abonnementenlijst maken
+title: Een lidmaatschapslijst maken
 description: Meer informatie over het instellen van een abonnementenlijst in Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 2%
+source-wordcount: '371'
+ht-degree: 3%
 
 ---
 
@@ -41,7 +41,13 @@ Voer de onderstaande stappen uit om een abonnementenlijst te maken.
 
    ![](assets/lp_create-subscription-list.png)
 
-1. Voeg een naam en een beschrijving toe. Deze velden zijn verplicht.
+1. Voeg een titel en een beschrijving toe. Deze velden zijn verplicht.
+
+   ![](assets/lp_subscription-list-name.png)
+
+   >[!CAUTION]
+   >
+   >U kunt momenteel geen spatiëring gebruiken of een naam invoeren die al bestaat voor een andere abonnementenlijst in het dialoogvenster **[!UICONTROL Title]** veld.
 
 1. U kunt een begin- en einddatum definiëren.
 

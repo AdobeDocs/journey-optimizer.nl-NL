@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: fa0e0af075f32976afb6b4f7e10b7aea12033b42
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '476'
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 ### De aanbiedingen van de verhoging met bepaalde aanbiedingsattributen die op contextgegevens worden gebaseerd
 
-Verhoog bepaalde aanbiedingen die op de contextgegevens worden gebaseerd die in de beslissingsvraag worden overgegaan. Als de `contextData.weather=hot` wordt overgegaan in de besluitvormingsvraag, de prioriteit van alle aanbiedingen met `attribute=hot` moet worden versterkt.
+U kunt bepaalde aanbiedingen verhogen die op de contextgegevens worden gebaseerd die in de beslissingsvraag worden overgegaan. Als de `contextData.weather=hot` wordt overgegaan in de besluitvormingsvraag, de prioriteit van alle aanbiedingen met `attribute=hot` moet worden versterkt.
 
 **Willekeurige formule:**
 
@@ -139,21 +139,9 @@ Wanneer u de API voor besluitvorming gebruikt, worden de contextgegevens toegevo
 
 ### Verhoog de aanbiedingen op basis van de neiging van klanten om het aangeboden product te kopen
 
-Als we twee gevallen van *CustomerAI* berekening van de koopkracht *travelInsurance* en *extraBaggage* voor een luchtvaartmaatschappij zal de volgende rangschikkingsformule de prioriteit ( met 50 punten ) verhogen van het aanbod dat specifiek is voor verzekeringen of bagage indien de klantennevenscore om dat product te kopen hoger is dan 90 .
+U kunt de score voor een aanbieding verhogen op basis van een klantdichtheid.
 
-Maar omdat elk *CustomerAI* instantie maakt een eigen object binnen het schema voor het uniforme profiel. Het is niet mogelijk de score dynamisch te selecteren op basis van het type aanbiedingsvorm. U moet dus de `if` instructies om eerst het type aanbiedingsvorm te controleren en de score vervolgens uit het desbetreffende profielveld te halen.
-
-**Willekeurige formule:**
-
-```
-if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesvelocity.CustomerAI.extraBaggagePropensity.score > 90, offer.rank.priority + 50,
-    (
-        if ( offer.characteristics.propensityType = "travelInsurancePropensity" and _salesvelocity.CustomerAI.insurancePropensity.score > 90, offer.rank.priority + 50, offer.rank.priority )
-    )
-)
-```
-
-Een betere oplossing is om de scores op te slaan in een array van het profiel. In het volgende voorbeeld worden verschillende populatiescore&#39;s gebruikt met behulp van een eenvoudige rangschikkingsformule. De verwachting is dat u een profielschema met een serie van scores hebt. In dit voorbeeld is de instantiekant *_verkoopsnelheid* en het profielschema bevat het volgende:
+In dit voorbeeld is de instantiekant *_verkoopsnelheid* en het profielschema bevat een reeks scores die in een array zijn opgeslagen:
 
 ![](../assets/ranking-example-schema.png)
 

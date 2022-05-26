@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1527'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,6 @@ Alleen testprofielen kunnen een reis maken in de testmodus. U kunt nieuwe testpr
 >
 >Voordat u de reis kunt testen, moet u alle eventuele fouten oplossen. Leer hoe u fouten kunt controleren voordat u gaat testen [deze sectie](../building-journeys/troubleshooting.md#checking-for-errors-before-testing).
 
-
 Voer de volgende stappen uit om de testmodus te gebruiken:
 
 1. Als u de testmodus wilt activeren, activeert u de **[!UICONTROL Test]** in de rechterbovenhoek.
@@ -41,7 +40,7 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 
    >[!NOTE]
    >
-   >Wanneer een reactiegebeurtenis in een reis wordt gebruikt, is het gebrek van de wachttijdtijd en de minimumwaarde 40 seconden. Zie [deze sectie](../building-journeys/reaction-events.md).
+   >Wanneer een reactiegebeurtenis met een onderbreking in een reis wordt gebruikt, is het gebrek van de wachttijdtijd en de minimumwaarde 40 seconden. Zie [deze sectie](../building-journeys/reaction-events.md).
 
 1. Gebruik de **[!UICONTROL Trigger an event]** om gebeurtenissen naar de reis te vormen en te verzenden.
 

@@ -66,7 +66,7 @@ Voordat u aanbiedingen gaat maken, moet u verschillende componenten definiëren 
 
 <table>
 <tr>
-<td><img src="../../assets/do-not-localize/icon-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md">Beslissingen nemen</a></p></td>
+<td><img src="../../assets/do-not-localize/icon-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md">Beslissingen maken</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px"><p><a href="../offer-activities/create-offer-activities.md#add-offers">Besluiten configureren</a></p></td>
 <td><img src="../../assets/do-not-localize/icon-assign-ranking.svg" width="60px"><p><a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">Classificatie toewijzen</a></p></td>
 </tr>

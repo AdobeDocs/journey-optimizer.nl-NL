@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 2%
+source-wordcount: '671'
+ht-degree: 3%
 
 ---
 
@@ -69,9 +69,15 @@ Volg onderstaande stappen om een nieuw bericht te maken:
 
    * Selecteer de kanalen die u voor dat bericht wilt gebruiken: E-mail- en/of pushmelding. U moet ten minste één kanaal selecteren om het bericht te kunnen maken.
 
+   <!--
+   >[!NOTE]
+   >
+   >You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). Learn more on [frequency rules](../configuration/frequency-rules.md).
+   -->
+
    * Selecteer **[!UICONTROL Preset]** voor het bericht te gebruiken.
 
-      Voorinstellingen bevatten alle parameters die vereist zijn voor het verzenden van een e-mail- en/of pushmelding volgens uw merk. [Meer informatie over voorinstellingen](../configuration/message-presets.md).
+      Voorinstellingen bevatten alle parameters die vereist zijn voor het verzenden van een e-mail- en/of pushmelding volgens uw merk. Meer informatie over [voorinstellingen](../configuration/message-presets.md).
    >[!CAUTION]
    >
    >U moet een geldige berichtvoorinstelling kiezen voor de geselecteerde categorie en het geselecteerde kanaal of kanalen.
@@ -83,6 +89,10 @@ Volg onderstaande stappen om een nieuw bericht te maken:
    Er is één tab beschikbaar voor elk geselecteerd kanaal. Gebruik deze tabbladen om de inhoud voor elk kanaal te configureren. U kunt een tabblad verwijderen door het te selecteren en op de knop **[!UICONTROL Delete channel]** rechts.
 
    ![](assets/create-messages-content.png)
+
+   >[!NOTE]
+   >
+   >Als u de optie **[!UICONTROL BCC email]** in de voorinstelling wordt het BCC-e-mailadres weergegeven onder de e-mail van de afzender. [Meer informatie](../configuration/email-settings.md#bcc-email)
 
    U kunt nu de inhoud van het bericht maken en instellingen aanpassen. Gedetailleerde informatie over de configuratie van e-mail- en pushmeldingen is beschikbaar in de volgende secties:
 

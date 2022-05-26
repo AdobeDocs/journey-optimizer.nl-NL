@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 59cba4086cd198a8be597a9971105569d5db2eee
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"
 >title="PTR-records van subdomeinen"
->abstract="Een wijzerverslag (PTR) is een type van DNS verslag dat de domeinnaam verbonden aan een IP adres verstrekt, dat de ontvangende postservers helpt om de IP van afzenders adressen te verifiëren."
+>abstract="Een wijzerverslag (PTR) is een type van DNS verslag dat de domeinnaam verbonden aan een IP adres verstrekt, dat de ontvangende postservers helpt om de IP van afzenders adressen te verifiëren. Bewerk een PTR-record alleen na afwegingen en bespreking met uw leverancier-expert."
 
 ## PTR-records {#about-ptr-records}
 

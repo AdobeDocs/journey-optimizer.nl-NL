@@ -6,16 +6,16 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 14%
+source-wordcount: '167'
+ht-degree: 4%
 
 ---
 
 # differentWithNull {#distinctWithNull}
 
-Retourneert de verschillende waarden van de lijst. Als de lijst minstens één ongeldige waarde heeft, zal een ongeldige waarde in de teruggekeerde lijst zijn.
+Geeft als resultaat de verschillende waarden of objecten van een bepaalde lijst. Als de lijst ten minste één null-item heeft, wordt een null-waarde weergegeven in de geretourneerde lijst.
 
 ## Categorie
 
@@ -23,20 +23,14 @@ Lijst
 
 ## Functiesyntaxis
 
-`distinctWithNull(<parameter>)`
+`distinctWithNull(<parameters>)`
 
 ## Parameters
 
-| Parameter | Type |
-|-----------|------------------|
-| Lijst | listString |
-| Lijst | listBoolean |
-| Lijst | listInteger |
-| Lijst | listDecimal |
-| Lijst | listDuration |
-| Lijst | listDateTime |
-| Lijst | listDateTimeOnly |
-| Lijst | listDateOnly |
+| Parameter | Type | Beschrijving |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly of listObject | Te verwerken lijst. Voor listObject moet dit een veldverwijzing zijn. |
+| keyAttributeName | string | Deze parameter is optioneel en alleen voor listObject. Wanneer de parameter niet wordt opgegeven, wordt een object als gedupliceerd beschouwd wanneer alle kenmerken dezelfde waarden hebben. Anders wordt een object als gedupliceerd beschouwd wanneer het opgegeven kenmerk dezelfde waarde heeft. |
 
 ## Handtekeningen en geretourneerde typen
 
@@ -71,6 +65,12 @@ Retourneert een lijst met laarzen.
 `distinctWithNull(<listDuration>)`
 
 Retourneert een lijst met tijdsduur.
+
+`distinctWithNull(<listObject>)`
+
+`distinctWithNull(<listObject>,<string>)`
+
+Retourneert een lijst met objecten.
 
 ## Voorbeelden
 

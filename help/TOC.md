@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 44%
+source-wordcount: '1040'
+ht-degree: 43%
 
 ---
 
@@ -16,13 +16,16 @@ ht-degree: 44%
 
 + [Journey Optimizer-documentatie](ajo-home.md)
 + Nieuwe functies {#whats-new}
-   + [Aanvullende informatie](using/rn/release-notes.md)
-   + [Laatste updates](using/rn/documentation-updates.md)
+   + [Opmerkingen bij de laatste release](using/rn/release-notes.md)
+   + Opmerkingen bij vorige release {#previous-rn-new}
+      + [Opmerkingen bij de release van 2022](using/rn/release-notes-2022.md)
+      + [Opmerkingen bij de release van 2021](using/rn/release-notes-2021.md)
+   + [Documentatie-updates](using/rn/documentation-updates.md)
 + Aan de slag{#get-started}
    + [Wat is Journey Optimizer](using/start/get-started.md)
    + Snel starten{#quick-start}
       + [Overzicht](using/start/quick-start.md)
-      + [Aan de slag als een marketeer](using/start/path/marketer.md)
+      + [Aan de slag als een marketeter](using/start/path/marketer.md)
       + [Aan de slag als Data engineer](using/start/path/data-engineer.md)
       + [Aan de slag als beheerder](using/start/path/administrator.md)
       + [Aan de slag als ontwikkelaar](using/start/path/developer.md)
@@ -60,7 +63,11 @@ ht-degree: 44%
 + Landingspagina’s {#landing-pages}
    + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
    + [Een landingspagina maken](using/landing-pages/create-lp.md)
-   + [Een openingspagina ontwerpen](using/landing-pages/design-lp.md)
+   + Ontwerpcontent {#landing-pages-design}
+      + [Informatie over het ontwerpen van bestemmingspagina](using/landing-pages/design-lp.md)
+      + [De inhoud van de openingspagina maken](using/landing-pages/lp-content.md)
+      + [Sjablonen maken](using/landing-pages/lp-templates.md)
+      + [Aangepast JavaScript toevoegen](using/landing-pages/lp-custom-js.md)
    + [Een lidmaatschapslijst maken](using/landing-pages/subscription-list.md)
    + [Gebruiksscenario’s](using/landing-pages/lp-use-cases.md)
 + Personalisatie{#personalization}
@@ -179,6 +186,7 @@ ht-degree: 44%
             + [in](using/building-journeys/functions/functionin.md)
             + [intersect](using/building-journeys/functions/functionintersect.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
+            + [limiet](using/building-journeys/functions/functionlimit.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
          + Wiskunde {#math}
@@ -245,6 +253,7 @@ ht-degree: 44%
       + [Aan de slag met de prestaties](using/reports/deliverability.md)
       + [Onderdrukkingslijst](using/reports/suppression-list.md)
       + [Lijst van gewenste personen](using/reports/allow-list.md)
+   + [Audit van Journey Optimizer-bronnen](using/reports/audit-logs.md)
 + Beslissingsbeheer {#offer-decisioniong}
    + Aan de slag met het beheer van beslissingen {#get-started-decision}
       + [Over het beheer van besluiten](using/offers/get-started/starting-offer-decisioning.md)
@@ -262,7 +271,7 @@ ht-degree: 44%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
+         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
@@ -391,3 +400,5 @@ ht-degree: 44%
    + [Gebruikers en productprofielen beheren](using/administration/permissions.md)
    + [Machtigingsniveaus](using/administration/high-low-permissions.md)
    + [Sandboxbeheer](using/administration/sandboxes.md)
+   + [Op kenmerken gebaseerd toegangsbeheer](using/administration/attribute-based-access.md)
+

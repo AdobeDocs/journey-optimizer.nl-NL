@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '769'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,10 @@ Een suppressielijst bestaat uit e-mailadressen die u van uw leveringen wilt uits
 De [!DNL Journey Optimizer] de suppressielijst wordt beheerd op uw eigen milieuniveau.
 
 Het verzamelt e-mailadressen en domeinen die over alle post in één enkele cliëntmilieu worden onderdrukt, betekenend specifiek voor een organisatie ID verbonden aan een zandbak identiteitskaart
+
+>[!NOTE]
+>
+>Adobe houdt een bijgewerkte lijst bij van bekende slechte e-mailadressen waarvan is aangetoond dat ze schadelijk zijn voor de service en de reputatie van mails, en zorgt ervoor dat er geen e-mailberichten aan hen worden bezorgd. Deze lijst wordt beheerd in een globale suppressielijst die over alle klanten van Adobe gemeenschappelijk is. De adressen en domeinnamen in de globale suppressielijst worden verborgen. Alleen het aantal uitgesloten ontvangers wordt vermeld in de leveringsverslagen.
 
 ## Waarom een suppressielijst? {#why-suppression-list}
 

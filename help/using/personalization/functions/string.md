@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b9ebacf410f268e19bbaf1d43ee98f5376d0913f
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1237'
 ht-degree: 3%
 
 ---
@@ -359,6 +359,26 @@ De volgende vraag bepaalt, zonder case gevoeligheid, als de naam van de persoon 
 ```sql
 {%= matches(person.name.,"(?i)^John") %}
 ```
+
+## Masker (#mask)
+
+De `Mask` wordt gebruikt om een deel van een tekenreeks te vervangen door &#39;X&#39;-tekens.
+
+**Indeling**
+
+```sql
+{%= mask(string,integer,integer) %}
+```
+
+**Voorbeeld**
+
+De volgende query vervangt de tekenreeks &quot;123456789&quot; door &quot;X&quot;, behalve voor het eerste en laatste 2 tekens.
+
+```sql
+{%= mask("123456789",1,2) %}
+```
+
+De query retourneert `1XXXXXX89`.
 
 ## Niet gelijk aan{#notEqualTo}
 

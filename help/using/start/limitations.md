@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d2ae8f7a2a44ac92d26520e5c85a19a2660ed8e2
+source-git-commit: 4510b3f5992abc17bead7db240279f33efb3febb
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,6 @@ Hieronder vindt u aanvullende beperkingen wanneer u [!DNL Adobe Journey Optimize
 ## Beperkingen in berichten {#limitations-messages}
 
 * U kunt geen bijlagen aan een e-mailbericht toevoegen met [!DNL Journey Optimizer].
-* BCC van e-mail wordt niet ondersteund in [!DNL Journey Optimizer].
 * U kunt niet hetzelfde verzendende domein gebruiken om berichten te verzenden van [!DNL Adobe Journey Optimizer] en van een ander product, zoals [!DNL Adobe Campaign] of [!DNL Adobe Marketo Engage] bijvoorbeeld.
 
 ## Beperkingen op bestemmingspagina&#39;s {#limitations-lp}
