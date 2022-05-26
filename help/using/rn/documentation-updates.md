@@ -2,9 +2,9 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
+source-git-commit: 44fb6b2721d1f0c2ab1bb2755aa9cf5970dbad09
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1409'
 ht-degree: 21%
 
 ---
@@ -13,13 +13,10 @@ ht-degree: 21%
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
 
-## Juni 2022 {#june-2022}
-
-* Nieuwe queryvoorbeelden met betrekking tot [segmentkwalificatie](../reports/query-examples.md#segment-qualification-queries) en [gebeurtenissen](../reports/query-examples.md#event-based-queries) zijn toegevoegd aan
-
 ## Mei 2022 {#may-2022}
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van mei &#39;22 is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
+* Nieuwe queryvoorbeelden met betrekking tot [segmentkwalificatie](../reports/query-examples.md#segment-qualification-queries) en [gebeurtenissen](../reports/query-examples.md#event-based-queries) zijn toegevoegd.
 * In de sectie E-mailontwerp staan nu nieuwe ingebouwde sjablonen waarmee inhoud kan worden gestart. Gerelateerde schermafbeeldingen zijn bijgewerkt. [Meer informatie](../design/design-emails.md)
 * Koppelingen naar belangrijke bronnen zijn bijgewerkt in de homepage van Journey Optimizer-documentatie.
 * Screenshots voor de openingspagina en abonnementrapportage zijn bijgewerkt. [Meer informatie](../reports/live-report.md)
