@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
+source-git-commit: 53a625c0e62fbfae703b40bb1d47105c168730ea
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '387'
 ht-degree: 11%
 
 ---
@@ -48,6 +48,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 <tbody>
 <tr>
 <td>
+<p>Beschikbaarheidsdatum: <strong>31 mei</strong></p>
 <p>U kunt nu de e-mailfunctie BCC (blinde koolstofkopie) gebruiken om e-mails op te slaan die door Adobe Journey Optimizer zijn verzonden. Schakel deze optie in uw e-mailvoorinstellingen in, zodat elke verzonden e-mail blind wordt gekopieerd naar uw BCC-adres.</p>
 <img src="assets/bcc-rn.gif"/>
 <p>Raadpleeg de <a href="../configuration/email-settings.md#bcc-email">gedetailleerde documentatie</a> voor meer informatie.</p>

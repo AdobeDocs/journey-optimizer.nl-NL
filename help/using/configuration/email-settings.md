@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 13fbe0583affb48269932134ea6bc214180903dd
+source-git-commit: c48d083445d4e4c7cdbed1a61cee13ed3fcfcc8b
 workflow-type: tm+mt
-source-wordcount: '2152'
+source-wordcount: '2166'
 ht-degree: 1%
 
 ---
@@ -138,6 +138,10 @@ Het e-mailadres voor verzending wordt ingesteld door Adobe. Dit kan 3 tot 4 dage
 
 U kunt een identieke kopie (of blinde koolstofkopie) van een e-mailbericht verzenden dat is verzonden door [!DNL Journey Optimizer] naar een BCC-postvak. Met deze optionele functie kunt u kopieën behouden van e-mailberichten die u naar uw gebruikers verzendt voor compatibiliteits- en/of archiefdoeleinden. Dit zal onzichtbaar zijn voor de leverende ontvangers.
 
+>[!CAUTION]
+>
+>Deze functie is beschikbaar vanaf **31 mei**.
+
 ### BCC-e-mail inschakelen {#enable-bcc}
 
 Om het **[!UICONTROL BCC email]** voert u het e-mailadres van uw keuze in het desbetreffende veld in. U kunt elk extern adres in de juiste indeling opgeven, behalve een e-mailadres dat is gedefinieerd in het gedelegeerde subdomein. Als het gedelegeerde subdomein bijvoorbeeld *marketing.luma.com*, elk adres zoals *abc@marketing.luma.com* is verboden.
@@ -145,6 +149,8 @@ Om het **[!UICONTROL BCC email]** voert u het e-mailadres van uw keuze in het de
 >[!NOTE]
 >
 >U kunt slechts één BCC-e-mailadres definiëren. Controleer of het BCC-adres voldoende ontvangstcapaciteit heeft om alle e-mails op te slaan die met de huidige voorinstelling worden verzonden.
+>
+>Meer aanbevelingen worden weergegeven in [deze sectie](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
@@ -168,23 +174,26 @@ Nochtans, wordt het adres BCC opgepikt voor het verzenden van mededelingen die d
 >
 >U hoeft geen bericht of reis opnieuw te publiceren om de instelling BCC op te halen.
 
-### Recommendations en beperkingen {#recommendations-limitations}
+### Recommendations en beperkingen {#bcc-recommendations-limitations}
 
-* Controleer of het BCC-e-mailadres correct is ingesteld. Als dit niet het geval is, kunnen de persoonlijk identificeerbare gegevens van uw klanten (PII) naar een ongewenst adres worden verzonden.
+* Om ervoor te zorgen dat uw privacy wordt nageleefd, moeten BCC-e-mails worden verwerkt door een archiveringssysteem dat PII&#39;s (Secure Persoonlijke Identifier Information) kan opslaan.
 
-* Om privacyredenen moeten BCC-e-mails worden verwerkt door een archiveringssysteem dat veilig identificeerbare informatie (PII) kan opslaan.
-
-* Deze functie levert mogelijk het BCC-e-mailadres voordat de levering aan de ontvangers plaatsvindt. Dit kan ertoe leiden dat BCC-berichten worden verzonden, ook al hebben de oorspronkelijke leveringen mogelijk [afgezwakt](../reports/suppression-list.md#delivery-failures).
-
-   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
-
-* Als de e-mails die naar het BCC-adres worden verzonden worden geopend en doorgeklikt, wordt hiermee rekening gehouden bij het openen van de volledige e-mailberichten en het klikken op de verzendanalyse, wat tot onjuiste berekeningen kan leiden bij [rapporten](../reports/message-monitoring.md). Ook het markeren van BCC-e-mails die in uw Postvak IN landen als spam, kan ertoe leiden dat e-mails in de spammap van uw Postvak IN landen.
+* Aangezien de berichten gevoelige of privé gegevens, zoals persoonlijk identificeerbare informatie (PII) kunnen bevatten, zorg ervoor het adres BCC correct is, en beveilig de toegang tot berichten.
 
 * De inbox die voor BCC wordt gebruikt, moet correct worden beheerd voor ruimte en levering. Als het postvak inbox bellen retourneert, worden sommige e-mails mogelijk niet ontvangen en worden deze daarom niet gearchiveerd.
 
+* De berichten kunnen aan het BCC e-mailadres vóór de doelontvangers worden geleverd. BCC-berichten kunnen ook worden verzonden, ook al hebben de oorspronkelijke berichten mogelijk [afgezwakt](../reports/suppression-list.md#delivery-failures).
+
+   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+
+* Open of klik niet door de e-mails die naar het BCC-adres worden verzonden, aangezien hiermee rekening wordt gehouden bij het openen van het totaal en klikken op de verzendanalyse, wat tot onjuiste berekeningen kan leiden bij: [rapporten](../reports/message-monitoring.md).
+
+* Markeer geen berichten als spam in de BCC-postvak, omdat dit invloed heeft op alle andere e-mails die naar dit adres worden verzonden.
+
+
 >[!CAUTION]
 >
->Klik niet op de link Abonnement opzeggen in de e-mails die naar het BCC-adres worden verzonden omdat u het abonnement op de desbetreffende ontvangers meteen opzegt.
+>Klik niet op de koppeling Abonnement opzeggen in de e-mails die naar het BCC-adres worden verzonden, omdat u het abonnement op de desbetreffende ontvangers meteen opzegt.
 
 ### GDPR-conformiteit {#gdpr-compliance}
 
