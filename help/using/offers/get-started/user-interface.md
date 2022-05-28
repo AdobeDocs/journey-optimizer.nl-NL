@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Gebruik de  **[!UICONTROL Components]** menu voor het beheer van de componenten 
 
 * **[!UICONTROL Rules]**: De voorwaarden beheren waaronder uw voorstellen worden weergegeven. Zie [Een beslissingsregel maken](../offer-library/creating-decision-rules.md).
 
-* **[!UICONTROL Rankings]**: Opstellen en beheren van rangschikkingsformules om te bepalen welke aanbieding als eerste voor een bepaalde plaatsing moet worden gepresenteerd. Zie [Classificatieformules maken](../offer-library/create-ranking-formulas.md).
+* **[!UICONTROL Rankings]**: Opstellen en beheren van rangschikkingsformules om te bepalen welke aanbieding als eerste voor een bepaalde plaatsing moet worden gepresenteerd. Zie [Classificatieformules maken](../ranking/create-ranking-formulas.md).
 
 ![](../assets/offer_activities.png)
 

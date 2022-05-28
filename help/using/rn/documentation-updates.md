@@ -2,7 +2,7 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 44fb6b2721d1f0c2ab1bb2755aa9cf5970dbad09
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 21%
@@ -39,7 +39,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 ## Maart 2022 {#march-2022}
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 22 maart is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
-* Er is een nieuwe pagina toegevoegd aan de **Offer decisioning** , met inbegrip van een grondige beschrijving van de [model voor automatische optimalisatie](../offers/offer-library/ai-ranking.md#auto-optimization), het gebruikte algoritme en meer technische details. [Meer informatie](../offers/offer-library/ai-ranking.md)
+* Er is een nieuwe pagina toegevoegd aan de **Offer decisioning** , met inbegrip van een grondige beschrijving van de [model voor automatische optimalisatie](../offers/ranking/auto-optimization-model.md), het gebruikte algoritme en meer technische details. [Meer informatie](../offers/ranking/ai-models.md)
 * De pagina voor het maken van het testprofiel is verplaatst naar de  **Segment, profielen en identiteit** sectie. [Meer informatie](../segment/creating-test-profiles.md)
 * Er is een voorbeeld toegevoegd over het toevoegen van een expressie als standaardwaarde in de expressie-editor. [Meer informatie](../building-journeys/expression/field-references.md#default-value)
 * De **Aangepaste aanbiedingen maken** deze sectie is gereorganiseerd voor een betere leesbaarheid. [Meer informatie](../offers/offer-library/creating-personalized-offers.md)
@@ -55,8 +55,8 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 ## Januari 2022 {#january-2022}
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 22 januari is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
-* De **AI-classificaties van offer decisioning** is bijgewerkt met een meer gedetailleerde beschrijving van het model voor automatische optimalisatie. [Meer informatie](../offers/offer-library/create-ranking-strategies.md#auto-optimization)
-* Er is een nieuwe sectie over de schemavereisten toegevoegd die nodig zijn om gebeurtenistypen te kunnen verzenden bij het gebruik van een classificatiestrategie. [Meer informatie](../offers/offer-library/create-ranking-strategies.md#schema-requirements)
+* De **AI-classificaties van offer decisioning** is bijgewerkt met een meer gedetailleerde beschrijving van het model voor automatische optimalisatie. [Meer informatie](../offers/ranking/auto-optimization-model.md)
+* Er is een nieuwe sectie over de schemavereisten toegevoegd die nodig zijn om gebeurtenistypen te kunnen verzenden bij het gebruik van een classificatiestrategie. [Meer informatie](../offers/ranking/schema-requirement.md)
 * Het gedeelte over [!DNL Journey Optimizer] personaliseringsmogelijkheden zijn gereorganiseerd voor een betere leesbaarheid . [Meer informatie](../personalization/personalize.md)
 * De **Voorinstellingen voor berichten maken** voor meer duidelijkheid is dit gedeelte in verschillende secties onderverdeeld . [Meer informatie](../configuration/message-presets.md#create-message-preset)
 * De **Uitschakelen, beheer** dit gedeelte is verduidelijkt en enigszins gereorganiseerd . [Meer informatie](../messages/consent.md#opt-out-management)
@@ -106,7 +106,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 * Een subsectie toegevoegd om de verschillen tussen het gebruiken van segmenten versus besluitvormingsregels te verduidelijken wanneer het toepassen van een beperking om de selectie van aanbiedingen voor een bepaalde plaatsing te beperken. [Meer informatie](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
-* Voorbeelden van specifieke rangschikkingsformules zijn toegevoegd ter illustratie van een aantal praktijkvoorbeelden. [Meer informatie](../offers/offer-library/create-ranking-formulas.md#ranking-formula-examples)
+* Voorbeelden van specifieke rangschikkingsformules zijn toegevoegd ter illustratie van een aantal praktijkvoorbeelden. [Meer informatie](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
 * Een subsectie toegevoegd over het bewerken van IP-pools. [Meer informatie](../configuration/ip-pools.md#edit-ip-pool)
 

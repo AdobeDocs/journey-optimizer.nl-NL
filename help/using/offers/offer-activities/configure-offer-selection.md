@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b890d7dc2e1508bb68d45a162236483ac6fc76bd
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 7%
+source-wordcount: '441'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 7%
 Als verscheidene aanbiedingen voor een bepaalde plaatsing verkiesbaar zijn, kunt u de methode kiezen die de beste aanbieding voor elk profiel zal selecteren wanneer het vormen van een besluit. Je kunt voorstellen plaatsen op:
 * Voorstelprioriteit
 * Willekeurige formule
-* [AI-classificatie](#use-ranking-strategy) (alleen voor bepaalde gebruikers)
+* [AI-rangschikking](#use-ranking-strategy)
 
 ![](../assets/offer-rank-by.png)
 
@@ -36,7 +36,7 @@ Met Journey Optimizer kunt u niet alleen prioriteit bieden, maar ook **rangschik
 
 U kunt bijvoorbeeld de prioriteit verhogen van alle aanbiedingen met een einddatum van minder dan 24 uur, of aanbiedingen verhogen van de categorie &quot;actief&quot; als het interessepunt van het profiel &quot;actief&quot; is.
 
-Leer hoe u een waarderingsformule maakt in [deze sectie](../offer-library/create-ranking-formulas.md).
+Leer hoe u een waarderingsformule maakt in [deze sectie](../ranking/create-ranking-formulas.md).
 
 Nadat u een rangschikkingsformule hebt gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Volg de onderstaande stappen om dit te doen:
 
@@ -62,11 +62,7 @@ Indien meerdere aanbiedingen in aanmerking komen om in deze plaatsing te worden 
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-U kunt ook een getraind modelsysteem gebruiken dat aanbiedingen voor een bepaald profiel automatisch rangschikt door een classificatiestrategie te selecteren. Leer hoe u een waarderingsstrategie maakt in [deze sectie](../offer-library/create-ranking-strategies.md).
-
->[!CAUTION]
->
->Het gebruik van de AI-rangschikking is momenteel beschikbaar in een vroeg stadium en alleen voor bepaalde gebruikers.
+U kunt ook een getraind modelsysteem gebruiken dat aanbiedingen voor een bepaald profiel automatisch rangschikt door een classificatiestrategie te selecteren. Leer hoe u een waarderingsstrategie maakt in [deze sectie](../ranking/create-ranking-strategies.md).
 
 Zodra een rangschikkingsstrategie is gecreeerd, kunt u het aan een plaatsing in een besluit toewijzen. Hiervoor voert u de volgende stappen uit:
 

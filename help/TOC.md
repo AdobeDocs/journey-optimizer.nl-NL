@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ea8ffc8cae5b180709951f0336060455cd5cb24f
+source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 43%
+source-wordcount: '1058'
+ht-degree: 42%
 
 ---
 
@@ -264,10 +264,16 @@ ht-degree: 43%
       + [Plaatsingen maken](using/offers/offer-library/creating-placements.md)
       + [Beslissingsregels maken](using/offers/offer-library/creating-decision-rules.md)
       + [Tags maken](using/offers/offer-library/creating-tags.md)
-      + [Rangschikkingsformules maken](using/offers/offer-library/create-ranking-formulas.md)
-      + AI-waarderingsmodellen maken {#create-ai-ranking-models}
-         + [AI-modellen](using/offers/offer-library/ai-ranking.md)
-         + [AI-modellen maken](using/offers/offer-library/create-ranking-strategies.md)
+   + Classificaties maken {#rankings}
+      + [Aan de slag met waarderingen](using/offers/ranking/get-started-rankings.md)
+      + [Beoordelingsformule](using/offers/ranking/create-ranking-formulas.md)
+      + AI-modellen {#ai-models}
+         + [AI-modellen](using/offers/ranking/ai-models.md)
+         + [Model voor automatische optimalisatie](using/offers/ranking/auto-optimization-model.md)
+         + AI-modellen maken {#configure-ai-model}
+            + [Een gegevensset maken om gebeurtenissen te verzamelen](using/offers/ranking/create-dataset.md)
+            + [Een AI-model maken](using/offers/ranking/create-ranking-strategies.md)
+            + [Vastleggen van gebeurtenissen configureren](using/offers/ranking/schema-requirement.md)
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
