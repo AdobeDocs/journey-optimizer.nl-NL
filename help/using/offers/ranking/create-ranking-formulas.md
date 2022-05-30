@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: a67cabc2078debb981ee17fae9202f9fd80ec977
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -139,21 +139,9 @@ Wanneer u de API voor besluitvorming gebruikt, worden de contextgegevens toegevo
 
 ### Verhoog de aanbiedingen op basis van de neiging van klanten om het aangeboden product te kopen
 
-Als we twee gevallen van *CustomerAI* berekening van de koopkracht *travelInsurance* en *extraBaggage* voor een luchtvaartmaatschappij zal de volgende rangschikkingsformule de prioriteit ( met 50 punten ) verhogen van het aanbod dat specifiek is voor verzekeringen of bagage indien de klantennevenscore om dat product te kopen hoger is dan 90 .
+U kunt de score voor een aanbieding verhogen op basis van een klantdichtheid.
 
-Maar omdat elk *CustomerAI* instantie maakt een eigen object binnen het schema voor het uniforme profiel. Het is niet mogelijk de score dynamisch te selecteren op basis van het type aanbiedingsvorm. U moet dus de `if` instructies om eerst het type aanbiedingsvorm te controleren en de score vervolgens uit het desbetreffende profielveld te halen.
-
-**Willekeurige formule:**
-
-```
-if ( offer.characteristics.propensityType = "extraBaggagePropensity" and _salesvelocity.CustomerAI.extraBaggagePropensity.score > 90, offer.rank.priority + 50,
-    (
-        if ( offer.characteristics.propensityType = "travelInsurancePropensity" and _salesvelocity.CustomerAI.insurancePropensity.score > 90, offer.rank.priority + 50, offer.rank.priority )
-    )
-)
-```
-
-Een betere oplossing is om de scores op te slaan in een array van het profiel. In het volgende voorbeeld worden verschillende populatiescore&#39;s gebruikt met behulp van een eenvoudige rangschikkingsformule. De verwachting is dat u een profielschema met een serie van scores hebt. In dit voorbeeld is de instantiekant *_verkoopsnelheid* en het profielschema bevat het volgende:
+In dit voorbeeld is de instantiekant *_verkoopsnelheid* en het profielschema bevat een reeks scores die in een array zijn opgeslagen:
 
 ![](../assets/ranking-example-schema.png)
 
