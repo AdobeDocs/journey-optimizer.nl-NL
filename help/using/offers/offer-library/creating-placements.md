@@ -36,7 +36,7 @@ Voer de volgende stappen uit om een plaatsing te maken:
 
 1. Klik op **[!UICONTROL Create placement]**.
 
-   !![](../assets/aanbiedingen_placement_creation.png)
+   ![](../assets/offers_placement_creation.png)
 
 1. Definieer de eigenschappen van de plaatsing:
 
