@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 65c2ba7e0931f449a29d1e7ff01d6d68fccca448
+source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '676'
 ht-degree: 2%
 
 ---
@@ -68,12 +68,9 @@ Volg onderstaande stappen om een nieuw bericht te maken:
    * Selecteer **[!UICONTROL Message category]**: Marketing of transactie.
 
    * Selecteer de kanalen die u voor dat bericht wilt gebruiken: E-mail- en/of pushmelding. U moet ten minste één kanaal selecteren om het bericht te kunnen maken.
-
-   <!--
    >[!NOTE]
    >
-   >You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). Learn more on [frequency rules](../configuration/frequency-rules.md).
-   -->
+   >U kunt op de knop **[!UICONTROL Frequency rule]** koppeling om de frequentieregels weer te geven die van toepassing zijn op de geselecteerde categorie en het geselecteerde kanaal of de geselecteerde kanalen. Meer informatie over [frequentieregels](../configuration/frequency-rules.md).
 
    * Selecteer **[!UICONTROL Preset]** voor het bericht te gebruiken.
 

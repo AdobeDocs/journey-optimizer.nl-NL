@@ -2,10 +2,10 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 65c2ba7e0931f449a29d1e7ff01d6d68fccca448
+source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 12%
+source-wordcount: '400'
+ht-degree: 13%
 
 ---
 
@@ -21,22 +21,22 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 ### Nieuwe functies
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Message Frequency Rules</strong><br/></th>
+<th><strong>Regels voor berichtfrequentie</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now set cross-channel business rules that will automatically exclude over-solicited profiles from messages and actions.</p>
+<p>U kunt nu bedrijfsregels voor meerdere kanalen instellen die overgevraagde profielen automatisch uitsluiten van berichten en handelingen.</p>
 <img src="assets/frequency-rn.gif"/>
-<p>For more information, refer to the <a href="../configuration/frequency-rules.md">detailed documentation</a>.</p>
+<p>Raadpleeg de <a href="../configuration/frequency-rules.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <!--table>
