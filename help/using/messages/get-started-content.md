@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: dd60e576aaded21efd9718341d1c4f26267ae001
+source-git-commit: 65c2ba7e0931f449a29d1e7ff01d6d68fccca448
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 3%
+source-wordcount: '651'
+ht-degree: 2%
 
 ---
 
@@ -90,9 +90,11 @@ Volg onderstaande stappen om een nieuw bericht te maken:
 
    ![](assets/create-messages-content.png)
 
+   <!--
    >[!NOTE]
    >
-   >Als u de optie **[!UICONTROL BCC email]** in de voorinstelling wordt het BCC-e-mailadres weergegeven onder de e-mail van de afzender. [Meer informatie](../configuration/email-settings.md#bcc-email)
+   >If you enabled the **[!UICONTROL BCC email]** option in the preset, the BCC email address will display under the sender email. [Learn more](../configuration/email-settings.md#bcc-email)
+   -->
 
    U kunt nu de inhoud van het bericht maken en instellingen aanpassen. Gedetailleerde informatie over de configuratie van e-mail- en pushmeldingen is beschikbaar in de volgende secties:
 
