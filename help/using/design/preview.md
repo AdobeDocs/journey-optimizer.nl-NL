@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 3%
+source-wordcount: '1040'
+ht-degree: 2%
 
 ---
 
 # Berichten voorvertonen en testen{#preview-and-proof}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_simulation_test_profile"
+>title="Testprofiel toevoegen"
+>abstract="U kunt een testprofiel toevoegen door naamruimte en een bijbehorende identiteitswaarde voor identificatie te selecteren."
 
 Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u [persoonlijke inhoud](../personalization/personalize.md), kunt u controleren hoe deze inhoud in het bericht wordt weergegeven en testprofielgegevens gebruiken.
 
