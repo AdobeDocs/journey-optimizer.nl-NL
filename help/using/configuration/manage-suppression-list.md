@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1105'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,12 @@ Met [!DNL Journey Optimizer], kunt u alle e-mailadressen controleren die automat
 * Ontvangers die op een of andere manier een spamklacht indienen tegen een van uw e-mailberichten.
 
 Dergelijke e-mailadressen worden automatisch verzameld in de Journey Optimizer **onderdrukkingslijst**. Meer informatie over het concept en het gebruik van de suppressielijst in [deze sectie](../reports/suppression-list.md).
+
+U kunt ook [**handmatig** een adres of domein toevoegen](#add-addresses-and-domains) aan de onderdrukkingslijst.
+
+>[!NOTE]
+>
+>Het duurt tussen 0 en 60 minuten [!DNL Journey Optimizer] om rekening te houden met de onderdrukte adressen in uitgaande e-mails.
 
 ## De lijst met onderdrukking openen {#access-suppression-list}
 
@@ -105,7 +111,7 @@ De mogelijke redenen van een leveringsfout zijn:
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
->title="E-mails/domeinen toevoegen aan de onderdrukkingslijst"
+>title="E-mails of domeinen toevoegen aan de onderdrukkingslijst"
 >abstract="U kunt de Journey Optimizer-suppressielijst handmatig invullen om specifieke e-mailadressen en/of domeinen van uw verzending uit te sluiten."
 
 Wanneer een bericht niet aan een e-mailadres kan worden geleverd, wordt dit adres automatisch toegevoegd aan de suppressielijst die op de bepaalde suppressieregel of stuiterende telling wordt gebaseerd.
@@ -139,6 +145,10 @@ Selecteer hiervoor de optie **[!UICONTROL Add email or domain]** en voert u een 
 
 1. Geef indien nodig een reden op.
 
+   >[!NOTE]
+   >
+   >Alleen ASCII-tekens tussen 32 en 126 zijn toegestaan. De volledige lijst is te vinden op [deze pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} bijvoorbeeld.
+
 1. Klik op **[!UICONTROL Submit]**.
 
 ### Een CSV-bestand uploaden {#upload-csv-file}
@@ -159,6 +169,9 @@ Selecteer hiervoor de optie **[!UICONTROL Add email or domain]** en voert u een 
    EMAIL,abc@somedomain.com,Comment
    DOMAIN,somedomain.com,Comment
    ```
+   >[!NOTE]
+   >
+   >In de kolom Opmerking zijn alleen ASCII-tekens tussen 32 en 126 toegestaan. De volledige lijst is te vinden op [deze pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} bijvoorbeeld.
 
    U kunt deze sjabloon ook downloaden via het menu **[!UICONTROL Suppression list]** hoofdweergave.
 
@@ -175,6 +188,10 @@ Selecteer hiervoor de optie **[!UICONTROL Add email or domain]** en voert u een 
    ![](assets/suppression-list-upload-file-button.png)
 
 1. Klik op **[!UICONTROL Submit]**.
+
+>[!NOTE]
+>
+>Zodra uploaden wordt gedaan, zorg ervoor het door zijn status van de interface te controleren succesvol was. [Meer informatie](#recent-uploads)
 
 ### Status van recente uploads controleren {#recent-uploads}
 

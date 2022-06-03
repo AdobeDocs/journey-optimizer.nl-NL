@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: a9c4bf20b170afd30ac17f6dec3778c1ae4be70c
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 4%
@@ -27,7 +27,7 @@ Aangepaste acties zijn aanvullende acties die door technische gebruikers worden 
 
 ## Beperkingen{#custom-actions-limitations}
 
-Aangepaste acties worden geleverd met enkele beperkingen die worden vermeld in [deze pagina](../start/limitations.md).
+Aangepaste acties worden geleverd met enkele beperkingen die worden vermeld in [deze pagina](../start/guardrails.md).
 
 In parameters voor aangepaste handelingen kunt u een eenvoudige verzameling en een verzameling objecten doorgeven. Meer informatie over verzamelingsbeperkingen vindt u in [deze pagina](../building-journeys/collections.md#limitations).
 

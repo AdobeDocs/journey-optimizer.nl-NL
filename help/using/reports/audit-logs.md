@@ -4,7 +4,8 @@ description: Leer hoe u acties kunt bijhouden die zijn uitgevoerd met Journey Op
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: 336a2a4d28ce1738cc664861291fdc1f39b3ab29
+exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -33,23 +34,23 @@ In de volgende tabel wordt aangegeven op welke acties Journey Optimizer-bronnen 
 
 | Resource | Actie |
 |-----------|------------------|
-| Veldgroep | Maken/verwijderen/bijwerken |
-| AJO-subdomein | Maken/verwijderen/bijwerken |
-| CJM-suppressielijst | CSV maken/verwijderen/downloaden |
+| Algemene instelling AJO-kanaal | Maken/verwijderen/bijwerken |
+| AJO IP-pool | Maken/verwijderen/bijwerken |
+| AJO-openingspagina | Maken/Verwijderen/Bijwerken/Publiceren/Publiceren ongedaan maken |
+| HTML-sjabloon AJO-landingspagina | Maken/verwijderen/bijwerken |
+| Voorinstelling voor AJO-openingspagina | Maken/verwijderen/bijwerken |
+| Subdomein van AJO-landingspagina | Maken/verwijderen/bijwerken |
+| AJO-bericht | Maken/verwijderen/bijwerken/publiceren |
 | Voorinstelling voor AJO-bericht | Maken/verwijderen/bijwerken |
 | AJO PTR-record | Maken/verwijderen/bijwerken |
-| Beoordelingsstrategie | Maken/verwijderen/bijwerken |
-| Aangepaste actie voor reizen | Maken/verwijderen/bijwerken |
-| HTML-sjabloon AJO-landingspagina | Maken/verwijderen/bijwerken |
-| AJO IP-pool | Maken/verwijderen/bijwerken |
-| Subdomein van AJO-landingspagina | Maken/verwijderen/bijwerken |
+| AJO-sjabloon voor opgeslagen expressie | Maken/verwijderen/bijwerken |
 | Aanmeldingsgegevens AJO SMS API | Maken/verwijderen/bijwerken |
-| Voorinstelling voor AJO-openingspagina | Maken/verwijderen/bijwerken |
+| AJO-subdomein | Maken/verwijderen/bijwerken |
+| AJO-suppressielijst | CSV maken/verwijderen/downloaden |
+| Veldgroep | Maken/verwijderen/bijwerken |
+| Reis | Maken / Verwijderen / Bijwerken / Stoppen / Publiceren |
+| Aangepaste actie voor reizen | Maken/verwijderen/bijwerken |
 | Gegevensbron voor reis | Maken/verwijderen/bijwerken |
 | Journaal | Maken/verwijderen/bijwerken |
-| AJO-sjabloon voor opgeslagen expressie | Maken/verwijderen/bijwerken |
 | Regel voor berichtfrequentie | Maken/verwijderen/bijwerken |
-| AJO-openingspagina | Maken/Verwijderen/Bijwerken/Publiceren/Publiceren ongedaan maken |
-| Reis | Maken / Verwijderen / Bijwerken / Stoppen / Publiceren |
-| AJO-bericht | Maken/verwijderen/bijwerken/publiceren |
-| Algemene instelling AJO-kanaal | Maken/verwijderen/bijwerken |
+| Beoordelingsstrategie | Maken/verwijderen/bijwerken |

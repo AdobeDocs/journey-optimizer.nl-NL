@@ -2,7 +2,7 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 21%
@@ -98,7 +98,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 * Veelgebruikte voorbeelden toegevoegd voor het opvragen van Journey Step Events in Data Lake. [Meer informatie](../reports/query-examples.md)
 
-* Een nieuwe **Beperkingen** pagina. [Meer informatie](../start/limitations.md)
+* Een nieuwe **Beperkingen** pagina. [Meer informatie](../start/guardrails.md)
 
 * Verbeterde **Snel starten** pagina met stappen voor verschillende personen. [Meer informatie](../start/quick-start.md)
 
@@ -144,7 +144,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * In documentatie en schermen hernoemd tot &#39;aanbiedingsactiviteiten&#39; als &#39;besluiten&#39; en &#39;besluiten&#39; als &#39;besluiten&#39;. [Meer informatie](../offers/get-started/starting-offer-decisioning.md)
 * Nieuwe gebruikscase: [personaliseren een bericht met hulpfuncties](../personalization/personalization-use-case-helper-functions.md)
 * De documentatie voor het Leessegment is bijgewerkt om de gevolgen voor het geconcretiseerde segment te weerspiegelen. [Meer informatie](../building-journeys/read-segment.md)
-* De beperkingen voor de reis zijn bijgewerkt. [Meer informatie](../start/limitations.md)
+* De beperkingen voor de reis zijn bijgewerkt. [Meer informatie](../start/guardrails.md)
 * Bijgewerkt Configure aanbiedingen selectie in beslissingssectie. [Meer informatie](../offers/offer-activities/configure-offer-selection.md)
 * Er is een waarschuwing toegevoegd om aan te geven dat op gebeurtenissen gebaseerde aanbiedingen momenteel niet worden ondersteund. [Meer informatie](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * Documenteerde het nieuwe Besluit Management **[!UICONTROL Overview]** tab. [Meer informatie](../offers/get-started/user-interface.md#overview)

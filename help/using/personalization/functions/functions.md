@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1361'
 ht-degree: 2%
 
 ---
@@ -198,6 +198,9 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
     </tr>
     <tr>
         <td><a href="string.md#matches">Overeenkomsten</a></td><td>Deze functie wordt gebruikt om te bepalen of een tekenreeks overeenkomt met een specifieke reguliere expressie</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#mask">Masker</a></td><td>Deze functie wordt gebruikt om een deel van een tekenreeks te vervangen door 'X'-tekens.</td>
     </tr>
     <tr>
         <td><a href="string.md#notEqualTo">Niet gelijk aan</a></td><td>Deze functie wordt gebruikt om te bepalen of een tekenreeks niet gelijk is aan de opgegeven tekenreeks</td>
