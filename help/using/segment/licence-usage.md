@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
+source-git-commit: 06eb2ebec284f807de7ddca5d26e13fc08194642
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Het gebruiksdashboard voor licenties {#licence-usage}
 
-De [!DNL Adobe Journey Optimizer] [gebruikersinterface](user-interface.md) biedt een dashboard dat belangrijke informatie weergeeft over het gebruik van de licentie van uw organisatie, zoals vastgelegd tijdens een dagelijkse momentopname.
+De [!DNL Adobe Journey Optimizer] [gebruikersinterface](../start/user-interface.md) biedt een dashboard dat belangrijke informatie weergeeft over het gebruik van de licentie van uw organisatie, zoals vastgelegd tijdens een dagelijkse momentopname.
 
 Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Licence Usage]**. Hierdoor wordt het **[!UICONTROL Overview]** tabblad met het dashboard.
 
