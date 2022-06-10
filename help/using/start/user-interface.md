@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1462'
 ht-degree: 7%
 
 ---
@@ -82,7 +82,7 @@ U vindt onder de volledige lijst met services en mogelijkheden in de linkernavig
 
 **[!UICONTROL ADMINISTRATION]**
 
-* **[!UICONTROL Journey Administration]** - Gebruik dit menu om te configureren [gebeurtenissen]../event/about-events.md), [gegevensbronnen](../datasource/about-data-sources.md) en [handelingen](../action/action.md) om te gebruiken voor uw reizen.
+* **[!UICONTROL Journey Administration]** - Gebruik dit menu om te configureren [gebeurtenissen](../event/about-events.md), [gegevensbronnen](../datasource/about-data-sources.md) en [handelingen](../action/action.md) om te gebruiken voor uw reizen.
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform biedt sandboxen die één instantie in afzonderlijke virtuele omgevingen verdelen om toepassingen voor digitale ervaringen te ontwikkelen en te ontwikkelen. [Meer informatie](../administration/sandboxes.md)
 

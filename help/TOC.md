@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8db51560c5733afac64785d1ef07cbd9558a0bbe
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1064'
 ht-degree: 41%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 41%
          + [Samenvoegingsfuncties](using/personalization/functions/aggregation.md)
          + [Rekenkundige functies](using/personalization/functions/arithmetic-functions.md)
          + [Arrays en lijstfuncties](using/personalization/functions/arrays-list.md)
-         + [Datumfuncties](using/personalization/functions/dates.md)
+         + [Datumtijdfuncties](using/personalization/functions/dates.md)
          + [Booleaanse en vergelijkingsfuncties](using/personalization/functions/operators.md)
          + [Helpers](using/personalization/functions/helpers.md)
          + [Toewijzingsfuncties](using/personalization/functions/maps.md)
@@ -103,6 +103,7 @@ ht-degree: 41%
       + [Aan de slag met profielen](using/segment/get-started-profiles.md)
       + [Testprofielen maken](using/segment/creating-test-profiles.md)
    + [Identiteiten](using/segment/get-started-identity.md)
+   + [Het gebruiksdashboard voor licenties](using/start/licence-usage.md)
 + Journeys {#orchestrate-journeys}
    + Reizen{#about-journeys}
       + [Algemeen principe](using/building-journeys/journey.md)

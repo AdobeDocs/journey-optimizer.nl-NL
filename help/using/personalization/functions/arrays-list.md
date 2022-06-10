@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '561'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,41 @@ ht-degree: 2%
 # Arrays en lijstfuncties {#arrays}
 
 Gebruik deze functies om interactie met arrays, lijsten en tekenreeksen eenvoudiger te maken.
+
+## Alleen aantal null {#count-only-null}
+
+De `countOnlyNull` Deze functie wordt gebruikt om het aantal null-waarden in een lijst te tellen.
+
+**Indeling**
+
+```sql
+{%= countOnlyNull(array) %}
+```
+
+**Voorbeeld**
+
+```sql
+{%= countOnlyNull([4,0,1,6,0,0]) %}
+```
+Retourneert 3.
+
+## Tellen met null {#count-with-null}
+
+De `countWithNull` Deze functie wordt gebruikt om alle elementen van een lijst te tellen, inclusief null-waarden.
+
+**Indeling**
+
+```sql
+{%= countWithNull(array) %}
+```
+
+**Voorbeeld**
+
+```sql
+{%= countOnlyNull([4,0,1,6,0,0]) %}
+```
+
+Retourneert 6.
 
 ## Afzonderlijk{#distinct}
 
@@ -34,15 +69,32 @@ Met de volgende bewerking worden personen opgegeven die orders in meer dan één
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
+## Aantal zonder onderscheid met null {#distinct-count-with-null}
 
-## Eerste object{#head}
-
-De `head` functie wordt gebruikt om het eerste item in de array of lijst te retourneren.
+De `distinctCountWithNull` Deze functie wordt gebruikt om het aantal verschillende waarden in een lijst te tellen, inclusief de null-waarden.
 
 **Indeling**
 
 ```sql
-{%= head({array}) %}
+{%= distinctCountWithNull(array) %}
+```
+
+**Voorbeeld**
+
+```sql
+{%= distinctCountWithNull([10,2,10,null]) %}
+```
+
+Retourneert 3.
+
+## Eerste object{#head}
+
+De `head` functie wordt gebruikt om het eerste item in een array of lijst te retourneren.
+
+**Indeling**
+
+```sql
+{%= head(array) %}
 ```
 
 **Voorbeeld**
@@ -174,7 +226,6 @@ De volgende bewerking retourneert de bovenste vijf bestellingen met de laagste p
 ```sql
 {%= bottomN(orders,price, 5) %}
 ```
-
 
 ## Niet in{#notin}
 

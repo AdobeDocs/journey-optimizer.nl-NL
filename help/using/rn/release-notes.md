@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '445'
 ht-degree: 12%
 
 ---
@@ -129,4 +129,4 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 **Beheer**
 
-**Update voor gebruiksdashboard voor licenties** - Het dashboard Licentie-gebruik dat beschikbaar is in de gebruikersinterface van Adobe Experience Platform weerspiegelt nu de juiste waarde voor de **Gelicentieerd** Gemiddelde profielrijkheid. Als klant van Journey Optimizer, zult u een daling in deze metrische vertegenwoordiging zien, wat betekent het gebruik u voor wordt vergunning gegeven nu correct wordt gemeld. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#available-metrics){target=&quot;_blank&quot;}
+* **Update voor gebruiksdashboard voor licenties** - Het gebruiksdashboard voor licenties is beschikbaar in het dialoogvenster [!DNL Adobe Journey Optimizer] de gebruikersinterface weerspiegelt nu de juiste waarde voor de **Gelicentieerd** Gemiddelde profielrijkheid. Deze metrische weergave wordt verlaagd, wat betekent dat de licentielimiet nu correct wordt gerapporteerd. [Meer informatie](../start/licence-usage.md)

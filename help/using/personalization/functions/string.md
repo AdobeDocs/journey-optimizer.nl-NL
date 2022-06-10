@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: b9ebacf410f268e19bbaf1d43ee98f5376d0913f
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1686'
 ht-degree: 3%
 
 ---
@@ -255,6 +255,83 @@ De volgende query extraheert het e-maildomein van het persoonlijke e-mailadres.
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
+## URL-host ophalen {#get-url-host}
+
+De `getUrlHost` wordt gebruikt om de hostnaam van een URL op te halen.
+
+**Indeling**
+
+```sql
+{%= getUrlHost(string) %}: string
+```
+
+**Voorbeeld**
+
+```sql
+{%= getUrlHost("http://www.myurl.com/contact") %}
+```
+
+Retourneert &quot;www.myurl.com&quot;
+
+## URL-pad ophalen {#get-url-path}
+
+De `getUrlPath` wordt gebruikt om het pad na de domeinnaam van een URL op te halen.
+
+**Indeling**
+
+```sql
+{%= getUrlPath(string) %}: string
+```
+
+**Voorbeeld**
+
+```sql
+{%= getUrlPath("http://www.myurl.com/contact.html") %}
+```
+
+Retourneert &quot;/contact.html&quot;
+
+## URL-protocol ophalen {#get-url-protocol}
+
+De `getUrlProtocol` wordt gebruikt om het protocol van een URL op te halen.
+
+**Indeling**
+
+```sql
+{%= getUrlProtocol(string) %}: string
+```
+
+**Voorbeeld**
+
+```sql
+{%= getUrlProtocol("http://www.myurl.com/contact.html") %}
+```
+
+Retourneert &quot;http&quot;
+
+## Index van {#index-of}
+
+De `indexOf` wordt gebruikt om de positie (in het eerste argument) van de eerste instantie van de tweede parameter te retourneren. Retourneert -1 als er geen overeenkomend actiepunt is.
+
+**Indeling**
+
+```sql
+{%= indexOf(STRING_1, STRING_2) %}: integer
+```
+
+| Argument | Beschrijving |
+| --------- | ----------- |
+| `{STRING_1}` | De tekenreeks die de controle moet uitvoeren. |
+| `{STRING_2}` | De tekenreeks die moet worden gezocht in de eerste parameter |
+
+**Voorbeeld**
+
+```sql
+{%= indexOf("hello world","world" ) %}
+```
+
+Retourneert 6.
+
 ## Is empty {#isEmpty}
 
 De `isEmpty` wordt gebruikt om te bepalen of een tekenreeks leeg is.
@@ -272,6 +349,47 @@ De volgende functie retourneert &#39;true&#39; als het mobiele telefoonnummer va
 ```sql
 {%= isEmpty(profile.mobilePhone.number) %}
 ```
+
+## Is niet leeg {#is-not-empty}
+
+De `isNotEmpty` wordt gebruikt om te bepalen of een tekenreeks niet leeg is.
+
+**Indeling**
+
+```sql
+{= isNotEmpty(string) %}: boolean
+```
+
+**Voorbeeld**
+
+De volgende functie retourneert &#39;true&#39; als het mobiele telefoonnummer van het profiel niet leeg is. Anders wordt &#39;false&#39; geretourneerd.
+
+```sql
+{%= isNotEmpty(profile.mobilePhone.number) %}
+```
+
+## Laatste index van {#last-index-of}
+
+De `lastIndexOf` wordt gebruikt om de positie (in het eerste argument) van de laatste instantie van de tweede parameter te retourneren. Retourneert -1 als er geen overeenkomend actiepunt is.
+
+**Indeling**
+
+```sql
+{= lastIndexOf(STRING_1, STRING_2) %}: integer
+```
+
+| Argument | Beschrijving |
+| --------- | ----------- |
+| `{STRING_1}` | De tekenreeks die de controle moet uitvoeren. |
+| `{STRING_2}` | De tekenreeks die moet worden gezocht in de eerste parameter |
+
+**Voorbeeld**
+
+```sql
+{%= lastIndexOf("hello world","o" ) %}
+```
+
+Retourneert 7.
 
 ## Links bijsnijden {#leftTrim}
 
@@ -380,6 +498,24 @@ De volgende query vervangt de tekenreeks &quot;123456789&quot; door &quot;X&quot
 
 De query retourneert `1XXXXXX89`.
 
+## MD5 {#md5}
+
+De `md5` functie wordt gebruikt om de md5 hash van een tekenreeks te berekenen en te retourneren.
+
+**Indeling**
+
+```sql
+{%= md5(string) %}: string
+```
+
+**Voorbeeld**
+
+```sql
+{%= md5("hello world") %}
+```
+
+Retourneert &quot;5eb63be01eeed093cb22bb8f5acdc3&quot;
+
 ## Niet gelijk aan{#notEqualTo}
 
 De `notEqualTo` wordt gebruikt om te bepalen of een tekenreeks niet gelijk is aan de opgegeven tekenreeks.
@@ -401,6 +537,29 @@ De volgende vraag bepaalt, met case gevoeligheid, als de naam van de persoon nie
 
 ```sql
 {%= notEqualTo(profile.person.name,"John") %}
+```
+
+## Niet gelijk aan hoofdletter negeren {#not-equal-with-ignore-case}
+
+De `notEqualWithIgnoreCase` functie wordt gebruikt om twee tekenreeksen te vergelijken die case negeren.
+
+**Indeling**
+
+```sql
+{= notEqualWithIgnoreCase(STRING_1,STRING_2) %}: boolean
+```
+
+| Argument | Beschrijving |
+| --------- | ----------- |
+| `{STRING_1}` | De tekenreeks die de controle moet uitvoeren. |
+| `{STRING_2}` | De tekenreeks die met de eerste tekenreeks moet worden vergeleken. |
+
+**Voorbeeld**
+
+De volgende query bepaalt of de naam van de persoon geen john is, zonder hoofdlettergevoeligheid.
+
+```sql
+{%= notEqualTo(profile.person.name,"john") %}
 ```
 
 ## Groep met reguliere expressies{#regexGroup}
@@ -434,17 +593,22 @@ De `replace` Deze functie wordt gebruikt om een bepaalde subtekenreeks in een te
 **Indeling**
 
 ```sql
-{%= replace(string,string,string) %}
+{%= replace(STRING_1,STRING_2,STRING_3) %}:string
 ```
+
+| Argument | Beschrijving |
+| --------- | ----------- |
+| `{STRING_1}` | De tekenreeks waar de subtekenreeks moet worden vervangen. |
+| `{STRING_2}` | De subtekenreeks die moet worden vervangen. |
+| `{STRING_3}` | De vervangende subtekenreeks. |
 
 **Voorbeeld**
 
-De volgende functie.
-
 ```sql
-
+{%= replace("Hello John, here is your monthly newsletter!","John","Mark") %}
 ```
 
+Retourneert &quot;Hello Mark, hier is je maandelijkse nieuwsbrief!&quot;
 
 ## Alles vervangen{#replaceAll}
 
@@ -456,11 +620,9 @@ De `replaceAll` Deze functie wordt gebruikt om alle subtekenreeksen van een teks
 {%= replaceAll(string,string,string) %}
 ```
 
-
 ## Rechts bijsnijden {#rightTrim}
 
 De `rightTrim` functie wordt gebruikt verwijdert witte ruimten van het eind van een koord.
-
 
 **Indeling**
 
@@ -477,17 +639,6 @@ De `split` functie wordt gebruikt om een tekenreeks te splitsen op een bepaald t
 ```sql
 {%= split(string,string) %}
 ```
-
-<!--
-**Example**
-
-The following function .
-
-```sql
-
-```
-
--->
 
 ## Starts with (Begint met){#startsWith}
 
@@ -513,6 +664,35 @@ De volgende vraag bepaalt, met gevalsgevoeligheid, als de naam van de persoon me
 {%= startsWith(person.name,"Joe") %}
 ```
 
+## Tekenreeks naar geheel getal {#string-to-integer}
+
+De `string_to_integer` wordt gebruikt om een tekenreekswaarde om te zetten in een geheel-getalwaarde.
+
+**Indeling**
+
+```sql
+{= string_to_integer(string) %}: int
+```
+
+## Tekenreeks naar nummer {#string-to-number}
+
+De `stringToNumber` wordt gebruikt om een tekenreeks in een getal om te zetten. Deze geeft dezelfde tekenreeks als uitvoer voor ongeldige invoer.
+
+**Indeling**
+
+```sql
+{%= stringToNumber(string) %}: double
+```
+
+## Subtekenreeks {#sub-string}
+
+De `Count string` wordt gebruikt om de subtekenreeks van de tekenreeksexpressie tussen de beginindex en de eindindex te retourneren.
+**Indeling**
+
+```sql
+{= substr(string, integer, integer) %}: string
+```
+
 ## Alles Beginhoofdletter{#titleCase}
 
 De **titleCase** functie wordt gebruikt om eerste letters van elke woorden van een tekenreeks met hoofdletters te maken.
@@ -529,6 +709,36 @@ Als de persoon in Washington high street woont, zal deze functie Washington High
 
 ```sql
 {%= titleCase(profile.person.location.Street) %}
+```
+
+## Naar bool {#to-bool}
+
+De `toBool` functie wordt gebruikt om een argumentwaarde in een booleaanse waarde om te zetten, afhankelijk van het type.
+
+**Indeling**
+
+```sql
+{= toBool(string) %}: boolean
+```
+
+## Tot op heden {#to-date-time}
+
+De `toDateTime` functie wordt gebruikt om tekenreeks om te zetten in datum. De epochdatum wordt geretourneerd als uitvoer voor ongeldige invoer.
+
+**Indeling**
+
+```sql
+{%= toDateTime(string, string) %}: date-time
+```
+
+## Alleen tot op heden {#to-date-time-only}
+
+De `toDateTimeOnly` function wordt gebruikt om een argumentwaarde om te zetten in een waarde met alleen de datumtijd. De epochdatum wordt geretourneerd als uitvoer voor ongeldige invoer.
+
+**Indeling**
+
+```sql
+{%= toDateTimeOnly(string) %}: date-time
 ```
 
 ## Verkleinen{#trim}
@@ -557,4 +767,24 @@ Deze functie converteert de achternaam van het profiel naar hoofdletters.
 
 ```sql
 {%= upperCase(profile.person.name.lastName) %}
+```
+
+## url-decodering {#url-decode}
+
+De `urlDecode` Deze functie wordt gebruikt om een URL-gecodeerde tekenreeks te decoderen.
+
+**Indeling**
+
+```sql
+{%= urlDecode(string) %}: string
+```
+
+## URL-codering {#url-encode}
+
+De `Count only null` wordt gebruikt om een tekenreeks te coderen met url.
+
+**Indeling**
+
+```sql
+{%= urlEncode(string) %}: string
 ```
