@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: ee242f0f-f331-4f41-9418-938b4ca1dda3
-source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '152'
 ht-degree: 1%
 
 ---
 
 # Een beslissing opzoeken {#look-up-decision}
 
-U kunt specifieke besluiten (die vroeger als aanbiedingsactiviteiten worden bekend) opzoeken door een verzoek van de GET aan te richten [!DNL Offer Library] API die een van de beslissingen bevat `@id` of de naam van de beslissing in het aanvraagpad.
+U kunt specifieke besluiten opzoeken door een verzoek van de GET aan [!DNL Offer Library] API die een van de beslissingen bevat `@id` of de naam van de beslissing in het aanvraagpad.
 
 **API-indeling**
 

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1108'
 ht-degree: 1%
 
 ---
@@ -147,7 +147,7 @@ Selecteer hiervoor de optie **[!UICONTROL Add email or domain]** en voert u een 
 
    >[!NOTE]
    >
-   >Alleen ASCII-tekens tussen 32 en 126 zijn toegestaan. De volledige lijst is te vinden op [deze pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} bijvoorbeeld.
+   >Alle ASCII-tekens tussen 32 en 126 zijn toegestaan in het dialoogvenster **[!UICONTROL Reason]** veld. De volledige lijst is te vinden op [deze pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} bijvoorbeeld.
 
 1. Klik op **[!UICONTROL Submit]**.
 
@@ -171,7 +171,7 @@ Selecteer hiervoor de optie **[!UICONTROL Add email or domain]** en voert u een 
    ```
    >[!NOTE]
    >
-   >In de kolom Opmerking zijn alleen ASCII-tekens tussen 32 en 126 toegestaan. De volledige lijst is te vinden op [deze pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} bijvoorbeeld.
+   >Alle ASCII-tekens tussen 32 en 126 zijn toegestaan in het dialoogvenster **Opmerking** kolom. De volledige lijst is te vinden op [deze pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} bijvoorbeeld.
 
    U kunt deze sjabloon ook downloaden via het menu **[!UICONTROL Suppression list]** hoofdweergave.
 

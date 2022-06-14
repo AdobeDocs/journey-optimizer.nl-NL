@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 44%
+source-wordcount: '939'
+ht-degree: 46%
 
 ---
 
@@ -47,7 +47,7 @@ De aanbieding wordt gemaakt aan de hand van de **Aanbiedingsbibliotheek**, die e
 
 ![](../assets/offer_structure.png)
 
-Zodra de bibliotheek met aanbiedingen is verrijkt, kunt u uw aanbiedingen integreren in **besluiten** (voorheen bekend als &quot;aanbiedingsactiviteiten&quot;).
+Zodra de Aanbiedingsbibliotheek is verrijkt met aanbiedingen, kunt u uw aanbiedingen integreren in **beslissingen**.
 
 Besluiten zijn containers voor uw aanbiedingen die gebruikmaken van de Offertenbeslissingsengine om de beste aanbieding te kiezen, afhankelijk van het doel van de levering.
 

@@ -6,16 +6,16 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
 
 # Gebruikersinterface {#user-interface}
 
-Met de aanbiedingsbibliotheek kunt u uw plaatsingen en aanbiedingen op één locatie maken en beheren en hebt u toegang tot alle gemaakte beslissingen (voorheen bekend als aanbiedingsactiviteiten).
+Met de aanbiedingsbibliotheek kunt u uw plaatsingen en aanbiedingen op één locatie maken en beheren en hebt u toegang tot alle gemaakte beslissingen.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Als u nog niet eerder [!DNL Offer Decisioning]de **[!UICONTROL Overview]** bevat
 
 Volg de stappen op het scherm om plaatsingen, aanbiedingen en verzamelingen te maken.
 
-Zodra u met deze eerste stappen wordt gedaan, wordt u ertoe aangezet om aanbiedingsbesluiten (eerder genoemd geworden aanbiedingsactiviteiten) tot stand te brengen.
+Zodra u met deze eerste stappen wordt gedaan, wordt u ertoe aangezet om aanbiedingsbesluiten tot stand te brengen.
 
 ![](../assets/overview_collection-created.png)
 

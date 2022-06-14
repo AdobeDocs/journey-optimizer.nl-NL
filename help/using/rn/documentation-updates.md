@@ -2,7 +2,7 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 21%
@@ -120,8 +120,8 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Een sectie over toegankelijkheidsfuncties en sneltoetsen toegevoegd. [Meer informatie](../start/user-interface.md#accessibility)
 * Er is een sectie over de methodes van de segmentevaluatie toegevoegd. [Meer informatie](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
 * Toegevoegde notities bij de lijst Onderdrukking, de secties Lijst van gewenste personen en E-mail global/live om aan te geven dat profielen met de status Onderdrukt en Niet toegestaan zijn uitgesloten van het e-mailrapport Metriek verzonden. [Meer informatie](../reports/email-global-report.md)
-* Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe e-mailadressen of domeinen kunnen worden opgehaald die zijn uitgesloten van een verzendende server omdat deze zich niet op de lijst van gewenste personen bevonden. [Meer informatie](../reports/allow-list.md#reporting)
-* De sectie lijst van gewenste personen inschakelen is bijgewerkt. [Meer informatie](../reports/allow-list.md#enable-allow-list)
+* Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe e-mailadressen of domeinen kunnen worden opgehaald die zijn uitgesloten van een verzendende server omdat deze zich niet op de lijst van gewenste personen bevonden. [Meer informatie](../configuration/allow-list.md#reporting)
+* De sectie lijst van gewenste personen inschakelen is bijgewerkt. [Meer informatie](../configuration/allow-list.md#enable-allow-list)
 * De sectie met voorinstellingen voor monitorberichten is bijgewerkt met de mogelijke oorzaken van een eventuele fout bij het maken van de voorinstelling en details over dergelijke fouten. [Meer informatie](../configuration/message-presets.md#monitor-message-presets)
 * De sectie Tijdsperiode voor opnieuw proberen is bijgewerkt en de naam is gewijzigd om aan te geven dat u de instelling voor het opnieuw proberen van e-mail nu kunt aanpassen in de voorinstellingen voor berichten. [Meer informatie](../configuration/retries.md#retry-duration)
 * Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u met één klik een koppeling om te weigeren kunt invoegen in e-mailinhoud. [Meer informatie](../messages/consent.md#one-click-opt-out-link)

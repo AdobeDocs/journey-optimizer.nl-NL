@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
 
 # Aangepaste aanbiedingen toevoegen {#deliver-personalized-offers}
 
-In [!DNL Journey Optimizer] e-mailberichten, kunt u besluiten (vroeger genoemd geworden &quot;aanbiedingsactiviteiten&quot;) opnemen die hefboomwerking de Motor van het Besluit van het Voorstel om de beste aanbieding te kiezen aan uw klanten te leveren.
+In [!DNL Journey Optimizer] e-mailberichten, kunt u besluiten opnemen die de Motor van het Besluit van het Voorstel zullen gebruiken om de beste aanbieding aan uw klanten te kiezen.
 
 U kunt bijvoorbeeld een besluit toevoegen dat in uw e-mail een speciale kortingsaanbieding weergeeft die afhankelijk is van het loyaliteitsniveau van de ontvanger.
 
@@ -49,7 +49,7 @@ Volg onderstaande stappen om een beslissing in te voegen in een e-mailbericht:
 
    [Plaatsen](../offers/offer-library/creating-placements.md) Dit zijn containers die worden gebruikt om je voorstellen onder de aandacht te brengen. In dit voorbeeld gebruiken we de plaatsing &quot;e-mail top image&quot;. Deze plaatsing is in de Bibliotheek van de Aanbieding gecreeerd om beeld-type aanbiedingen te tonen die zich aan de bovenkant van berichten bevinden.
 
-1. Selecteer de aanbiedingsactiviteit die u in de inhoudscomponent wilt gebruiken en klik op **[!UICONTROL Add]**.
+1. Besluiten die overeenkomen met de geselecteerde plaatsingsweergave. Selecteer de beslissing die u in de inhoudcomponent wilt gebruiken en klik op **[!UICONTROL Add]**.
 
    >[!NOTE]
    >
@@ -59,6 +59,11 @@ Volg onderstaande stappen om een beslissing in te voegen in een e-mailbericht:
 
 De aanbiedingsactiviteit wordt nu toegevoegd aan de component.
 
+Nadat u uw wijzigingen hebt opgeslagen en het bericht is gepubliceerd, kunt u uw voorstellen weergeven voor de relevante profielen wanneer u het bericht verzendt als onderdeel van een reis.
+
+>[!NOTE]
+>
+>Wanneer u een aanbod, een fallback-aanbieding, een verzameling van aanbiedingen of een besluit van een aanbieding bijwerkt waarnaar direct of indirect wordt verwezen in een gepubliceerd bericht, worden de updates automatisch weergegeven in het bijbehorende bericht, zonder dat u het bericht opnieuw hoeft te publiceren.
 
 ## Aanbiedingen voorvertonen in een e-mail {#preview-offers-in-email}
 

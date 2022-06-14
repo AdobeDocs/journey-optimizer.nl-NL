@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1dbab2e71ba4a1caf2802d0f05699ef313630cfd
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1064'
 ht-degree: 41%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 41%
       + [Aan de slag met profielen](using/segment/get-started-profiles.md)
       + [Testprofielen maken](using/segment/creating-test-profiles.md)
    + [Identiteiten](using/segment/get-started-identity.md)
-   + [Licentiegebruik](using/segment/licence-usage.md)
+   + [Licentiegebruik](using/segment/license-usage.md)
 + Journeys {#orchestrate-journeys}
    + Reizen{#about-journeys}
       + [Algemeen principe](using/building-journeys/journey.md)
@@ -253,8 +253,7 @@ ht-degree: 41%
       + [Voorbeelden van query&#39;s](using/reports/query-examples.md)
    + Leverbaarheid {#deliverability}
       + [Aan de slag met de prestaties](using/reports/deliverability.md)
-      + [Onderdrukkingslijst](using/reports/suppression-list.md)
-      + [Lijst van gewenste personen](using/reports/allow-list.md)
+      + [Informatie over de onderdrukkingslijst](using/reports/suppression-list.md)
    + [Audit van Journey Optimizer-bronnen](using/reports/audit-logs.md)
 + Beslissingsbeheer {#offer-decisioniong}
    + Aan de slag met het beheer van beslissingen {#get-started-decision}
@@ -279,7 +278,7 @@ ht-degree: 41%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
+         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
@@ -368,8 +367,9 @@ ht-degree: 41%
             + [PTR-records openen en bewerken](using/configuration/ptr-records.md)
             + [IP-pools maken](using/configuration/ip-pools.md)
          + E-mailadressen controleren {#monitor-reputation}
-            + [Onderdrukkingslijst beheren](using/configuration/manage-suppression-list.md)
+            + [Onderdrukkingslijst](using/configuration/manage-suppression-list.md)
             + [Hernieuwde pogingen](using/configuration/retries.md)
+            + [Lijst van gewenste personen](using/configuration/allow-list.md)
       + [Sms-kanaal configureren](using/configuration/sms-configuration.md)
       + Voorinstellingen voor berichten instellen {#set-up-message-presets}
          + [Voorinstellingen voor berichten maken](using/configuration/message-presets.md)

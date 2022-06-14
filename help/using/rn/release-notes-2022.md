@@ -1,7 +1,8 @@
 ---
 title: Release-aantekeningen 2022
 description: Opmerkingen bij de release van Journey Optimizer 2022
-source-git-commit: 4626237ce629dcaec8d20c89db3cb8b517671502
+exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '1069'
 ht-degree: 8%
@@ -69,7 +70,7 @@ Als Adobe Campaign Standard-klant kunt u nu e-mails, pushberichten en SMS verzen
 **Beheer**
 
 * U kunt nu de koppeling voor het afmelden van abonnementen in- of uitschakelen in de e-mailheader op het niveau van de berichtvoorinstelling en een aangepaste URL voor het afmelden van abonnementen instellen op berichtniveau. [Meer informatie](../configuration/message-presets.md#list-unsubscribe)
-* De lijst van gewenste personen kan nu worden in- en uitgeschakeld via de [!DNL Journey Optimizer] interface over productie- en niet-productie-sandboxen. [Meer informatie](../reports/allow-list.md#enable-allow-list)
+* De lijst van gewenste personen kan nu worden in- en uitgeschakeld via de [!DNL Journey Optimizer] interface over productie- en niet-productie-sandboxen. [Meer informatie](../configuration/allow-list.md#enable-allow-list)
 
 **Personalisatie**
 

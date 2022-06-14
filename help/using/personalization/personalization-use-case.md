@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
 
 * Maak en ontwerp een pushmelding zonder deze te publiceren. Zie dit [sectie](../messages/get-started-content.md).
 * een bestelgebeurtenis configureren, waaronder het ordernummer, de status en de naam van het item. Zie dit [sectie](../event/about-events.md).
-* een besluit nemen (voorheen &quot;aanbiedingsactiviteit&quot; genoemd), naar deze [sectie](../offers/offer-activities/create-offer-activities.md).
+* een besluit te nemen, verwijs naar [sectie](../offers/offer-activities/create-offer-activities.md).
 
 ## Stap 1 - personalisatie toevoegen aan profiel {#add-perso}
 
@@ -98,7 +98,7 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
 
    ![](assets/perso-uc13.png)
 
-1. Selecteer in het linkermenu de optie **Besluiten voorstellen** om een variabele van de offer decisioning op te nemen. Selecteer de plaatsing en klik op **+** pictogram naast de beslissing (voorheen bekend als &#39;aanbiedingsactiviteit&#39;) om deze aan het lichaam toe te voegen.
+1. Selecteer in het linkermenu de optie **Besluiten voorstellen** om een variabele van de offer decisioning op te nemen. Selecteer de plaatsing en klik op **+** pictogram naast de beslissing om het aan het lichaam toe te voegen.
 
    ![](assets/perso-uc14.png)
 

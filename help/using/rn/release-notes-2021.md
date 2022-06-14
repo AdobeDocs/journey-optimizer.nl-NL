@@ -1,7 +1,8 @@
 ---
 title: Opmerkingen bij de vorige release (2021)
 description: Opmerkingen bij de release van Journey Optimizer 2021
-source-git-commit: 4626237ce629dcaec8d20c89db3cb8b517671502
+exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 9%
@@ -277,7 +278,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 **E-mailconfiguratie**
 
-* **Lijst van gewenste personen** - De lijst van gewenste personen kan nu worden in- en uitgeschakeld op een niet-productiesandbox via een API-aanroep. [Meer informatie](../reports/allow-list.md#enable-allow-list)
+* **Lijst van gewenste personen** - De lijst van gewenste personen kan nu worden in- en uitgeschakeld op een niet-productiesandbox via een API-aanroep. [Meer informatie](../configuration/allow-list.md#enable-allow-list)
 * **Navigatie** - De onderdrukkingslijst, die toegankelijk was onder de **Beheer > Kanalen > E-mailconfiguratie > Algemeen** is verplaatst naar het nieuwe **Onderdrukkingslijst** submenu, dat alle verwante mogelijkheden voor gemakkelijkere toegang verzamelt. [Meer informatie](../configuration/manage-suppression-list.md#access-suppression-list)
 
 **Beslissingsbeheer**
@@ -324,7 +325,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 <tr>
 <td>
 <p>U kunt nu een specifieke verzendende-veilige lijst op het zandbakniveau bepalen, om een veilige milieu voor testend doel te hebben. Op een niet-productiegeval, waar de fouten kunnen voorkomen, verzekert de lijst van gewenste personen u geen risico om ongewenste berichten naar uw klanten te verzenden. Deze functie wordt ingeschakeld door gebruik te maken van onderdrukking-API's.</p>
-<p>Raadpleeg de <a href="../reports/allow-list.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="../configuration/allow-list.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>

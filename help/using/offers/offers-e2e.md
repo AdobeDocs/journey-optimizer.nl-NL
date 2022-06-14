@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1061'
 ht-degree: 3%
 
 ---
@@ -223,56 +223,6 @@ De gedetailleerde stappen om een besluit tot stand te brengen en te vormen worde
 
 ## De beslissing invoegen in een e-mail {#insert-decision-in-email}
 
-Nu uw beslissing live is, kunt u deze invoegen in een e-mailbericht. Hiervoor voert u de volgende stappen uit:
-
-1. Maak uw e-mail en open vervolgens de [E-mailontwerper](../../using/design/design-emails.md) om de inhoud te configureren.
-
-1. Voeg een structuurcomponent toe vanuit het linkerpalet.
-
-1. Een **[!UICONTROL Offer decision]** inhoudscomponent. Leer hoe u inhoudscomponenten kunt gebruiken in [deze sectie](../../using/design/content-components.md).
-
-   ![](assets/offers-e2e-decision-component.png)
-
-1. Selecteer het. Klik in het rechterpalet op **[!UICONTROL Select offer decision]** om een besluit toe te voegen.
-
-   ![](assets/offers-e2e-select-offer-decision.png)
-
-1. Selecteer de plaatsing die overeenkomt met de aanbiedingen die u wilt weergeven in het menu **[!UICONTROL Placements]** vervolgkeuzelijst.
-
-   In dit geval, van de plaatsingen die u eerder als deel van dit voorbeeld creeerde, slechts **E-mail - Afbeelding** De plaatsing is beschikbaar aangezien u het besluit in een e-mail wilt gebruiken. Meer informatie over [plaatsen maken](../../using/offers/offer-library/creating-placements.md).
-
-   ![](assets/offers-e2e-select-placement-in-decision.png)
-
-1. Besluiten die overeenkomen met **E-mail - Afbeelding** de plaatsing wordt weergegeven. Selecteer de beslissing die u in de inhoudcomponent wilt gebruiken en klik op **[!UICONTROL Add]**.
-
-   ![](assets/offers-e2e-matching-placement-in-decision.png)
-
-   >[!NOTE]
-   >
-   >Alleen beslissingen die compatibel zijn met de geselecteerde plaatsing worden weergegeven in de lijst.
-
-U ziet nu alle persoonlijke aanbiedingen en de fallback-aanbieding die in de e-mailontwerper worden weergegeven.
+Nu uw beslissing live is, kunt u deze invoegen in een e-mailbericht. Volg hiervoor de stappen die in [deze pagina](../../using/design/deliver-personalized-offers.md).
 
 ![](assets/offers-e2e-offers-displayed.png)
-
-Gebruik de **[!UICONTROL Offers]** -sectie of de inhoudcomponenten pijlen (pijl-rechts en pijl-links) om door gegevens te bladeren. U kunt de verschillende aanbiedingen die deel uitmaken van het besluit ook met een klantenprofiel tonen. Meer informatie in [deze sectie](../../using/design/deliver-personalized-offers.md#preview-offers-in-email).
-
-Nadat u uw wijzigingen hebt opgeslagen en het bericht is gepubliceerd, kunt u uw voorstellen weergeven voor de relevante profielen wanneer u het bericht verzendt als onderdeel van een reis.
-
->[!NOTE]
->
->Wanneer u een aanbod, een fallback-aanbieding, een collectie van aanbiedingen of een offertebesluit bijwerkt, waarnaar direct of indirect wordt verwezen in een [gepubliceerd](../../using/messages/publish-manage-message.md) bericht, worden de updates nu automatisch weerspiegeld in het overeenkomstige bericht, zonder de behoefte om het opnieuw te publiceren.
-
-**Verwante onderwerpen:**
-
-* Leer hoe u de berichtvoorvertoning kunt controleren in [deze sectie](../../using/design/preview.md#preview-your-messages).
-
-* Leer hoe u berichten publiceert in [deze sectie](../../using/messages/publish-manage-message.md).
-
-* Ontdek hoe berichten worden geactiveerd door een of meer reizen in [deze sectie](../building-journeys/journey.md).
-
-<!--
-* Learn how to measure your offer's success and impact on your targeted audience with reports in [this section](../reports/journey-global-report.md).
--->
-
-
