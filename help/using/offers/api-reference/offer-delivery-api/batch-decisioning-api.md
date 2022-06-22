@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: c41bc43643bac4d8715469a18d6908846ddd6bf7
+source-git-commit: 9aa8b8c33eae6fd595643c5fefb4b4ea46ae7b73
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '930'
 ht-degree: 1%
 
 ---
@@ -181,13 +181,23 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 
 ## Serviceniveaus {#service-levels}
 
-De tijd van begin tot eind voor elke partijbeslissing is de duur van de tijd de werkbelasting aan de tijd wordt gecreeerd wanneer het beslissingsresultaat in de outputdataset beschikbaar is. De segmentgrootte in de lading van het de verzoeksalaris van de POST is de belangrijkste factor die de eind-aan-eind partijbeslissingstijd beïnvloedt.  Hieronder volgen enkele opmerkingen voor verschillende segmentgrootten:
+De tijd van begin tot eind voor elke partijbeslissing is de duur van de tijd de werkbelasting wordt gecreeerd aan de tijd wanneer het beslissingsresultaat in de outputdataset beschikbaar is. De segmentgrootte in de lading van het de verzoeksalaris van de POST is de belangrijkste factor die de eind-aan-eind partijbeslissingstijd beïnvloedt. Als voor de in aanmerking komende aanbieding een algemeen frequentiegrenswaarde is ingeschakeld, duurt het nemen van batchbeslissingen meer tijd om dit te voltooien. Hieronder volgen een aantal benaderingen van de verwerkingstijd van begin tot eind voor hun respectieve segmentgrootte, zowel met als zonder frequentietoewijzing voor in aanmerking komende aanbiedingen:
+
+Met frequentiegrens ingeschakeld voor in aanmerking komende aanbiedingen:
+
+| Segmentgrootte | Eind-aan-eind verwerkingstijd |
+|--------------|----------------------------|
+| 10.000 profielen of minder | 7 minuten |
+| 1 miljoen profielen of minder | 30 minuten |
+| 15 miljoen profielen of minder | 50 minuten |
+
+Zonder frequentiegrens voor in aanmerking komende aanbiedingen:
 
 | Segmentgrootte | Eind-aan-eind verwerkingstijd |
 |--------------|----------------------------|
 | 10.000 profielen of minder | 6 minuten |
-| 1 miljoen profielen of minder | 10 minuten |
-| 15 miljoen profielen of minder | 75 minuten |
+| 1 miljoen profielen of minder | 8 minuten |
+| 15 miljoen profielen of minder | 16 minuten |
 
 ## Beperkingen {#limitations}
 
