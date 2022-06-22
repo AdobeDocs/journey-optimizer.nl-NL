@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 8f089e885098917d2ebf455b807ac5e6da020190
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1192'
 ht-degree: 1%
 
 ---
@@ -163,10 +163,15 @@ Meer informatie over nieuwe pogingen in [deze sectie](retries.md).
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_utm"
->title="Parameters voor URL-tracking"
->abstract="In deze sectie kunt u automatisch parameters voor bijhouden toevoegen aan de campagne-URL&#39;s in uw e-mailinhoud."
+>title="Parameters voor URL-tracking definiëren"
+>abstract="Met deze sectie kunt u automatisch parameters voor bijhouden toevoegen aan de URL&#39;s in uw e-mailinhoud. Deze functie is optioneel."
 
-U kunt **[!UICONTROL URL Tracking Parameters]** om de doeltreffendheid van uw marketing inspanningen over kanalen te meten. Deze functie is optioneel.
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_url_preview"
+>title="Voorvertoning van parameters voor URL bijhouden"
+>abstract="Bekijk hoe u parameters voor bijhouden toevoegt aan de URL&#39;s in uw e-mailinhoud."
+
+U kunt **[!UICONTROL URL tracking parameters]** om de doeltreffendheid van uw marketing inspanningen over kanalen te meten. Deze functie is optioneel.
 
 De parameters die in deze sectie worden gedefinieerd, worden toegevoegd aan het einde van de URL&#39;s die in de inhoud van uw e-mailbericht zijn opgenomen. Vervolgens kunt u deze parameters vastleggen in hulpprogramma&#39;s voor webanalyse, zoals Adobe Analytics of Google Analytics, en verschillende prestatierapporten maken.
 
@@ -174,8 +179,9 @@ De parameters die in deze sectie worden gedefinieerd, worden toegevoegd aan het 
 
 Drie URL-volgparameters worden automatisch ingevuld als voorbeeld wanneer u een berichtvoorinstelling maakt. U kunt deze bewerken en maximaal 10 volgparameters toevoegen met de opdracht **[!UICONTROL Add new parameter]** knop.
 
-Als u een URL-volgparameter wilt configureren, kunt u rechtstreeks de gewenste waarden invoeren in het dialoogvenster **[!UICONTROL Name]** en **[!UICONTROL Value]** door naar de volgende objecten te navigeren of een keuze te maken in een lijst met vooraf gedefinieerde waarden:
+Als u een URL-volgparameter wilt configureren, kunt u rechtstreeks de gewenste waarden invoeren in het dialoogvenster **[!UICONTROL Name]** en **[!UICONTROL Value]** velden.
 
+U kunt ook een keuze maken in een lijst met vooraf gedefinieerde waarden door naar de volgende objecten te navigeren:
 * Reiskenmerken: **Bron-id**, **Bronnaam**, **Id van bronversie**
 * Handelingskenmerken: **Handeling-id**, **Naam van handeling**
 * Kenmerken offer decisioning: **Offerte-id**, **Naam voorstel**
@@ -186,6 +192,10 @@ Als u een URL-volgparameter wilt configureren, kunt u rechtstreeks de gewenste w
 >
 >Selecteer geen map: Blader naar de gewenste map en selecteer een profielkenmerk dat u wilt gebruiken als waarde voor de parameter tracking.
 
+<!--or edit it using the Expression Editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+
+You can drag and drop the parameters to reorder them.-->
+
 Hieronder staan voorbeelden van URL&#39;s die compatibel zijn met Adobe Analytics en Google Analytics.
 
 * URL die compatibel is met Adobe Analytics: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
@@ -195,3 +205,7 @@ Hieronder staan voorbeelden van URL&#39;s die compatibel zijn met Adobe Analytic
 >[!NOTE]
 >
 >U kunt tekstwaarden typen en vooraf gedefinieerde waarden selecteren. Elk **[!UICONTROL Value]** het veld kan in totaal maximaal 255 tekens bevatten.
+
+U kunt de resulterende URL voor bijhouden dynamisch voorvertonen. Elke keer dat u een parameter toevoegt, bewerkt of verwijdert, wordt de voorvertoning automatisch bijgewerkt.
+
+![](assets/preset-url-tracking-preview.png)

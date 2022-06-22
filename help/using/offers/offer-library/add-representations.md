@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: b07075c225136ab17a0c3b106f89503d95abb581
+source-git-commit: 3513f5415ebbac1be889ba390877611ad5a71030
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 1%
+source-wordcount: '580'
+ht-degree: 0%
 
 ---
 
@@ -72,7 +72,7 @@ Als de geselecteerde plaatsing van het afbeeldingstype is, kunt u inhoud toevoeg
 
 >[!NOTE]
 >
-> Werken met [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=en){target=&quot;_blank&quot;}, moet u implementeren [!DNL Assets Essentials] voor uw organisatie en zorg ervoor dat de gebruikers een deel van zijn **Assets Essentials Consumer Users** of/en **Assets Essentials-gebruikers** Productprofielen. Meer informatie over [deze pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
+> Werken met [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}, moet u implementeren [!DNL Assets Essentials] voor uw organisatie en zorg ervoor dat de gebruikers een deel van zijn **Assets Essentials Consumer Users** of/en **Assets Essentials-gebruikers** Productprofielen. Meer informatie over [deze pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target=&quot;_blank&quot;}.
 
 1. Kies de optie **[!UICONTROL Asset library]**.
 
@@ -85,6 +85,16 @@ Als de geselecteerde plaatsing van het afbeeldingstype is, kunt u inhoud toevoeg
 1. Klik op **[!UICONTROL Select]**.
 
    ![](../assets/offer-select-asset.png)
+
+### HTML- of JSON-bestanden toevoegen {#html-json}
+
+Als de geselecteerde plaatsing van het type HTML is, kunt u ook HTML- of JSON-inhoud toevoegen die afkomstig is van de [Adobe Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}).
+
+U hebt bijvoorbeeld een e-mailsjabloon voor HTML gemaakt in [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target=&quot;_blank&quot;} en u wilt dat bestand gebruiken voor uw aanbiedingsinhoud. In plaats van een nieuw bestand te maken, kunt u de sjabloon gewoon uploaden naar de **Elementenbibliotheek** om het in de vertegenwoordigingen van je voorstel opnieuw te kunnen gebruiken.
+
+Als u de inhoud opnieuw wilt gebruiken in een weergave, bladert u naar de **Elementenbibliotheek** zoals beschreven in [deze sectie](#images) en selecteer het gewenste HTML- of JSON-bestand.
+
+![](../assets/offer-browse-asset-library-json.png)
 
 ### URL&#39;s toevoegen {#urls}
 
@@ -115,3 +125,4 @@ U kunt ook teksttype-inhoud invoegen wanneer u een compatibele plaatsing selecte
    >[!NOTE]
    >
    >Alleen de **[!UICONTROL Profile attributes]**, **[!UICONTROL Segment memberships]** en **[!UICONTROL Helper functions]** bronnen beschikbaar zijn voor het beheer van besluiten.
+

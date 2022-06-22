@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1329'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ Uw reis zal bestaan uit een **[!UICONTROL Read Segment]** en **[!UICONTROL Updat
 1. Een **[!UICONTROL Update Profile]** actieactiviteit.
 1. Selecteer het schema, **testProfiles** veld, de gegevensset en de waarde instellen op **Waar**. Om dit uit te voeren, in **[!UICONTROL VALUE]** veld, klikt u op de knop **Pen** pictogram rechts, selecteert u **[!UICONTROL Advanced mode]** en betreden **true**.
    ![](assets/test-profiles-26.png)
-1. Een **Einde** activiteit en klik **[!UICONTROL Publish]**.
+1. Klik op **[!UICONTROL Publish]**.
 1. In de **[!UICONTROL Segments]** controleren of de profielen correct zijn bijgewerkt.
    ![](assets/test-profiles-28.png)
 

@@ -4,9 +4,9 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van pushmeld
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: a6fabce744cb85c447327b6ceb809bf399d4b610
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1426'
 ht-degree: 3%
 
 ---
@@ -334,8 +334,6 @@ Uw gebeurtenis wordt nu gemaakt en kan nu op een reis worden gebruikt.
 1. Van de **[!UICONTROL Actions]** vervolgkeuzelijst, een **[!UICONTROL Message]** activiteit aan uw reis.
 
 1. Selecteer een eerder gemaakt bericht. Raadpleeg voor meer informatie over het maken van pushberichten de volgende [page](../messages/get-started-content.md).
-
-1. Sleep een **[!UICONTROL End]** activiteit aan uw reis.
 
 1. Klik op de knop **[!UICONTROL Test]** schakelen om uw pushmeldingen te testen en klikken **[!UICONTROL Trigger an event]**.
 

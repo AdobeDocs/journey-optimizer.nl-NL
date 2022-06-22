@@ -1,71 +1,60 @@
 ---
-title: Journaal algemeen rapport
-description: Meer informatie over het gebruik van gegevens uit het global report van de reis
+title: Globaal verslag campagne voeren
+description: Meer informatie over het gebruik van gegevens uit het algemene campagnerapport
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+hide: true
+hidefromtoc: true
+source-git-commit: cc20ecf0a019cecb8a4ae9420c5dbdcb28443c91
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1225'
 ht-degree: 0%
 
 ---
 
-# Journey Global-rapport {#journey-global-report}
+# Globaal verslag campagne voeren {#campaign-global-report}
 
-Het algemene rapport van de reis kan direct van uw reis met worden betreden **[!UICONTROL Global report]** knop.
+Het algemene rapport van de campagne kan direct van uw Campagne met het **[!UICONTROL Global view]** knop.
 
-![](assets/global_report_1.png)
+De campagne **[!UICONTROL Global report]** Deze pagina wordt weergegeven met de volgende tabbladen:
 
-De reis **[!UICONTROL Global report]** Deze pagina wordt weergegeven met de volgende tabbladen:
-
-* [Reis](#journey-global)
+* [Campaign](#campaign-global)
 * [Email](#email-global)
 * [Push](#push-global)
 
-De reis **[!UICONTROL Global report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw reis worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Raadpleeg voor meer informatie hierover [sectie](global-report.md#modify-dashboard).
+De campagne **[!UICONTROL Global report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Raadpleeg voor meer informatie hierover [sectie](../reports/global-report.md#modify-dashboard).
 
-## Tabblad Reis {#journey-global}
+## Tabblad Campagne {#campaign-global}
 
-Vanaf uw reis **[!UICONTROL Global report]** de **[!UICONTROL Journey]** geeft u een duidelijk overzicht van de belangrijkste volgende gegevens over uw reis.
+### Levering {#delivery-global}
 
-![](assets/global_report_2.png)
+![](assets/campaign_report_global_1.png)
 
-De **[!UICONTROL Journey Performance]** Met widget kunt u het pad van uw doelprofielen stap voor stap bekijken.
+De **[!UICONTROL Campaign's Statistics]** widget geeft de belangrijkste informatie met betrekking tot uw campagne:
 
-De **[!UICONTROL Journey Statistics]** widget geeft de volgende KPI&#39;s weer:
+* **[!UICONTROL Entered profiles]**: Aantal profielen dat de reis is begonnen.
 
-* **[!UICONTROL Entered profiles]**: Het totale aantal personen dat de inreisgebeurtenis van de reis heeft bereikt.
+* **[!UICONTROL Actions delivered]**: Het totale aantal unieke tijden dat een actie in de reis is uitgevoerd.
 
-* **[!UICONTROL Exited profiles]**: Het totale aantal personen dat de reis heeft verlaten.
+* **[!UICONTROL Actions failed in %]**: Het totale aantal unieke tijden dat een actie tijdens de reis is mislukt in verhouding tot het totale aantal unieke tijden dat een actie is uitgevoerd.
 
-* **[!UICONTROL Failed individual journey]**: Het totale aantal individuele reizen dat niet succesvol is uitgevoerd.
+<!--
+### Experimentation tab (#experimentation-global)
 
-![](assets/global_report_12.png)
-
-De **[!UICONTROL Events received by event]**, **[!UICONTROL Events by origin]** en **[!UICONTROL Top events]** met widgets kunt u zien welke van uw **[!UICONTROL Events]** is uitgevoerd via grafieken en tabellen.
-
-![](assets/global_report_13.png)
-
-**[!UICONTROL Action Performance]**, **[!UICONTROL Action Error Reasons]** en **[!UICONTROL Top Actions]** widgets vertegenwoordigen de meest succesvolle actie en fouten die zijn opgetreden bij het **[!UICONTROL Actions]** werden geactiveerd.
-
-De **[!UICONTROL Top Actions]** tabel bevat de gegevens die beschikbaar zijn voor **[!UICONTROL Actions]**, zoals:
-
-* **[!UICONTROL Actions successfully executed]**: Totaal aantal **[!UICONTROL Actions]** succesvol uitgevoerd voor een reis.
-
-* **[!UICONTROL Error in action]**: Totaal aantal fouten dat is opgetreden voor **[!UICONTROL Actions]**.
+From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
+-->
 
 ## Tabblad E-mail {#email-global}
 
-Vanaf uw reis **[!UICONTROL Global report]** de **[!UICONTROL Email]** bevat de belangrijkste informatie met betrekking tot de e-mailleveringen die tijdens uw reis worden verzonden.
+Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Email]** bevat de belangrijkste gegevens met betrekking tot de e-mailleveringen die in uw campagne zijn verzonden.
 
-Voor een gedetailleerd rapport over een specifieke e-maillevering raadpleegt u de [Globaal e-mailrapport](#email-global-report) sectie.
-
-![](assets/global_report_14.png)
+Voor een gedetailleerd rapport over een specifieke e-maillevering raadpleegt u de [Globaal e-mailrapport](../reports/email-global-report.md) sectie.
 
 De **[!UICONTROL Email Sending Statistics]** grafiek geeft het succes van uw levering aan:
+
+* **[!UICONTROL Targeted]**: Het totale aantal berichten dat tijdens de leveringsanalyse wordt verwerkt.
 
 * **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
 
@@ -81,6 +70,10 @@ De **[!UICONTROL Email Sending Statistics]** grafiek geeft het succes van uw lev
 
 * **[!UICONTROL Error Rate]**: Percentage fouten die optraden tijdens een levering waardoor deze niet kon worden verzonden, vergeleken met verzonden e-mailberichten.
 
+* **[!UICONTROL Retries]**: Aantal e-mails in de wachtrij voor nieuwe pogingen.
+
+* **[!UICONTROL Excluded]**: Aantal profielen dat door Adobe Journey Optimizer is uitgesloten.
+
 De **[!UICONTROL Email - Tracking statistics]** bevat de beschikbare gegevens voor ontvankelijke activiteit voor uw levering:
 
 * **[!UICONTROL Opens]**: Aantal keren dat de levering is geopend in een levering.
@@ -93,9 +86,9 @@ De **[!UICONTROL Email - Tracking statistics]** bevat de beschikbare gegevens vo
 
 * **[!UICONTROL Unique Clicks]**:Aantal ontvangers die op een inhoud in een e-mail hebben geklikt.
 
-* **[!UICONTROL Click through rate]**: Percentage gebruikers dat met de reis interactie heeft gehad.
+* **[!UICONTROL Unique Click Rate]**: Percentage gebruikers dat interactie had met de levering.
 
-* **[!UICONTROL Unsubscribe]**: Aantal klikken op de verbinding van het unsubscription.
+* **[!UICONTROL Unsubscriptions]**: Aantal klikken op de verbinding van het unsubscription.
 
 * **[!UICONTROL Spam complaints]**: Aantal keren dat een bericht als spam of junk werd verklaard.
 
@@ -105,9 +98,9 @@ De **[!UICONTROL Sending Statistics]** De grafiek bevat de gegevens die beschikb
 
 * **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
 
-* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
+* **[!UICONTROL Retries]**: Aantal e-mails in de wachtrij voor nieuwe pogingen.
 
-![](assets/global_report_15.png)
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
 De **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]** widgets bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd, zoals:
 
@@ -119,19 +112,13 @@ De **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]** widgets
 
 Voor meer informatie over grenzen raadpleegt u de [Onderdrukkingslijst](../reports/suppression-list.md) pagina.
 
-![](assets/global_report_22.png)
-
 De **[!UICONTROL Error Reasons]** de grafiek en de lijst laten u zien welke fout tijdens uw levering voorkwam.
 
 De **[!UICONTROL Excluded reasons]** de grafiek en de lijst tonen de verschillende redenen die gebruikersprofielen, uitgesloten van de gerichte profielen, van het ontvangen van het bericht verhinderden.
 
-![](assets/global_report_16.png)
-
 De **[!UICONTROL Email - Top Url]** grafiek en lijstdetails die URLs van uw levering het meest bezocht zijn.
 
 De **[!UICONTROL Email - Top recipient domain]** grafiek en lijstdetails welke domeinen het meest door ontvangers worden gebruikt om e-mail te openen.
-
-![](assets/global_report_23.png)
 
 >[!NOTE]
 >
@@ -148,41 +135,15 @@ De **[!UICONTROL Send time optimization]** Geeft details over het succes van uw 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 * **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
 
-![](assets/global_report_21.png)
-
->[!NOTE]
->
->De widgets en cijfers voor aanbiedingen zijn alleen beschikbaar als een beslissing in een e-mail is ingevoegd. Raadpleeg voor meer informatie over het beheer van de besluiten [page](../offers/get-started/starting-offer-decisioning.md).
-
-De **[!UICONTROL Offers statistic]** en **[!UICONTROL Offers statistics]** in de loop der tijd meten de widgets het succes van uw aanbieding en de impact op uw doelgroep. Het detailleert de belangrijkste informatie met betrekking tot uw bericht met KPIs:
-
-* **[!UICONTROL Offer sent]**: Het totale aantal verzendingen voor de aanbieding.
-
-* **[!UICONTROL Offer impression]**: Aantal keren dat het voorstel is geopend in een levering.
-
-* **[!UICONTROL Offer clicks]**: Aantal keren dat op een voorstel is geklikt in een levering.
-
-De **[!UICONTROL Offers detailed statistic]** de tabel bevat de beschikbare gegevens voor de activiteit van de ontvanger met uw voorstel:
-
-* **[!UICONTROL Placement name]**: Naam van de plaatsing die u hebt gebruikt om uw voorstel weer te geven. Raadpleeg deze voor meer informatie over plaatsing [page](../offers/offer-library/creating-placements.md).
-
-* **[!UICONTROL Offer name]**: Naam van de aanbieding die in de levering is toegevoegd. Raadpleeg deze voor meer informatie over plaatsing [page](../offers/offer-library/creating-personalized-offers.md).
-
-* **[!UICONTROL Offer sent]**: Het totale aantal verzendingen voor de aanbieding.
-
-* **[!UICONTROL Offer impression rate]**: Percentage geopende aanbiedingen in verhouding tot het aantal verzonden aanbiedingen.
-
-* **[!UICONTROL Offer click rate]**: Percentage gebruikers dat interactie had met het aanbod.
-
 ## Tabblad Push {#push-global}
 
-Vanaf uw reis **[!UICONTROL Global report]** de **[!UICONTROL Push]** bevat de belangrijkste informatie met betrekking tot de pushberichten die tijdens uw reis worden verzonden.
+Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Push]** bevat de belangrijkste informatie met betrekking tot de pushberichten die in uw campagne worden verzonden.
 
-Voor een gedetailleerd rapport over een specifieke pushservice raadpleegt u de [Push Global-rapport](#push-global-report).
-
-![](assets/global_report_17.png)
+Voor een gedetailleerd rapport over een specifieke pushservice raadpleegt u de [Push Global-rapport](../reports/push-global-report.md).
 
 De **[!UICONTROL Push notification - Sending statistics]** de tabel bevat de belangrijkste informatie met betrekking tot uw pushberichten met grafiek en PKI&#39;s:
+
+* **[!UICONTROL Targeted]**: Het totale aantal berichten dat tijdens de leveringsanalyse wordt verwerkt.
 
 * **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
 
@@ -198,6 +159,8 @@ De **[!UICONTROL Push notification - Sending statistics]** de tabel bevat de bel
 
 * **[!UICONTROL Error Rate]**: Percentage fouten die optraden tijdens een levering waardoor deze niet kon worden verzonden, vergeleken met verzonden pushberichten.
 
+* **[!UICONTROL Excluded]**: Aantal profielen dat door Adobe Journey Optimizer is uitgesloten.
+
 De **[!UICONTROL Push - Tracking statistics]** bevat de beschikbare gegevens voor ontvankelijke activiteit voor uw levering:
 
 * **[!UICONTROL Opens]**: Aantal keren dat een bericht in een levering werd geopend.
@@ -209,8 +172,6 @@ De **[!UICONTROL Push - Tracking statistics]** bevat de beschikbare gegevens voo
 * **[!UICONTROL Engagements]**: Het totale aantal keren dat wordt geopend en de acties voor deze pushmelding, bijvoorbeeld als het profiel de pushmelding heeft geopend of als op een knop is geklikt.
 
 * **[!UICONTROL Engagement Rate]**: Percentage van het aantal keren dat wordt geopend en handelingen voor deze pushmelding, bijvoorbeeld als het profiel de pushmelding heeft geopend of als op een knop is geklikt.
-
-![](assets/global_report_24.png)
 
 De **[!UICONTROL Push notification summary]** De grafiek bevat de gegevens die beschikbaar zijn voor verzonden pushberichten, zoals:
 
@@ -239,42 +200,8 @@ De **[!UICONTROL Send time optimization]** Geeft details over het succes van uw 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 * **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
 
-![](assets/global_report_18.png)
-
 De **[!UICONTROL Error Reasons]** de grafiek en de lijst laten u zien welke fout tijdens uw levering voorkwam.
 
 De **[!UICONTROL Excluded reasons]** de grafiek en de lijst tonen de verschillende redenen die gebruikersprofielen, uitgesloten van de gerichte profielen, van het ontvangen van het bericht verhinderden.
 
-![](assets/global_report_19.png)
-
 De **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** en **[!UICONTROL Breakdown by platform]** grafieken en tabellen geven het succes van uw pushmelding weer, afhankelijk van het besturingssysteem van de ontvanger.
-
-Het SMS **[!UICONTROL Global report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw levering worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Zie voor meer informatie hierover [sectie](global-report.md#modify-dashboard).
-
-## Tabblad SMS {#sms-global}
-
-De **[!UICONTROL SMS - Sending statistics]** de tabel geeft het succes van uw levering aan :
-
-* **[!UICONTROL Targeted]**: Aantal gebruikersprofielen dat als doelprofielen voor deze levering in aanmerking komt.
-
-* **[!UICONTROL Excluded]**: Aantal gebruikersprofielen dat is uitgesloten van de doelprofielen en dat het bericht niet heeft ontvangen.
-
-* **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
-
-* **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
-
-* **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
-
-* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
-
-De **[!UICONTROL SMS summary]** widget geeft de belangrijkste informatie met betrekking tot uw bericht met een grafiek:
-
-* **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
-
-* **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
-
-* **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
-
-* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
-
-De **[!UICONTROL Exclude Reasons]** in grafieken en tabellen kunt u zien welke fout en uitsluitingen tijdens de levering zijn opgetreden.

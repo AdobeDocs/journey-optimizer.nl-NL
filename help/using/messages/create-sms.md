@@ -5,13 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 8%
+source-wordcount: '220'
+ht-degree: 9%
 
 ---
 
@@ -22,10 +20,9 @@ ht-degree: 8%
 >title="SMS-ontwerp"
 >abstract="Voeg uw tekstbericht toe en begin het met de Redacteur van de Uitdrukking aan te passen."
 
-
->[!CAUTION]
+>[!NOTE]
 >
-> Het gebruik van het SMS-kanaal is momenteel alleen beschikbaar in een vroeg stadium om gebruikers te selecteren. Als u deze functie wilt gebruiken, neemt u contact op met de Adobe-accountmanager.
+>De verordeningen vereisen dat de ontvangers van SMS met opt-in en opt-out sleutelwoorden kunnen antwoorden. Adobe Journey Optimizer verwerkt automatisch de volgende trefwoorden: Start, Stoppen en Stoppen.
 
 Eenmaal [een bericht gemaakt](get-started-content.md), gebruikt u de **[!UICONTROL SMS]** om de instellingen en inhoud voor het SMS-kanaal te definiëren.
 
@@ -56,5 +53,6 @@ Je SMS-bericht kan nu worden gebruikt voor een reis. [Leer hoe u reizen maakt](.
 **Verwante onderwerpen**
 
 * [Sms-kanaal configureren](../configuration/sms-configuration.md)
+* [Sms-rapport](../reports/journey-global-report.md#sms-global)
 * [Een nieuw bericht maken](get-started-content.md)
 * [Een bericht toevoegen in een journey](../building-journeys/journeys-message.md)

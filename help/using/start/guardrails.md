@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bea7f6b9352103bee641b18b779bc3269b9657e2
+source-git-commit: 1acc5a137661a47abd60c03167e9ef39998de621
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,8 @@ Hieronder vindt u aanvullende instructies en beperkingen bij het gebruik [!DNL A
 * In het geval van een fout worden drie pogingen systematisch opnieuw uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht.
 * De ingebouwde **Reactie** kunt u reageren op acties die buiten de box vallen. Meer informatie in [deze pagina](../building-journeys/reaction-events.md). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen.
 * U kunt geen twee acties parallel plaatsen, u moet hen één na andere toevoegen.
+* Er is vandaag de dag een technische beperking in de ritten die een profiel verhindert om meerdere keren aanwezig te zijn op dezelfde reis, tegelijkertijd. Een profiel kan een reis (gebaseerd op een het plaatsen) nog opnieuw ingaan, maar kan het niet doen tot hij dat vorige geval van de reis volledig verliet.
+* In de meeste gevallen kan een profiel niet meerdere keren tegelijk op dezelfde reis aanwezig zijn. Als de terugkeer wordt toegelaten, kan een profiel een reis opnieuw ingaan, maar kan het niet doen tot hij dat vorige geval van de reis volledig verliet. [Meer informatie](../building-journeys/journey-end.md)
 
 ### Berichthandeling {#message-action}
 

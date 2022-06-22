@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 832abe25f79c8c526dd5da0ff37eb91755d687e4
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 5%
+source-wordcount: '1277'
+ht-degree: 7%
 
 ---
 
@@ -134,7 +134,7 @@ De Burst-modus is een Journey Optimizer-invoegtoepassing waarmee zeer snelle pus
 Het overseinen van de barst komt met de volgende vereisten:
 
 * De reis moet beginnen met een **Segment lezen** activiteit. Gebeurtenissen zijn niet toegestaan.
-* De volgende stap moet een pushbericht zijn. Geen ander kanaal, activiteit of stap toegestaan (behalve het facultatieve **Einde** activiteit).
+* De volgende stap moet een pushbericht zijn. Geen ander kanaal, activiteit of stap toegestaan.
 * In het pushbericht is geen personalisatie toegestaan.
 * Het bericht moet klein zijn (&lt;2KB).
 
@@ -155,73 +155,3 @@ Vervolgens test en publiceert u uw reis zoals gewoonlijk. Merk op dat, op testwi
 Begrijp de toepasselijke gebruiksgevallen voor burst overseinen, en hoe te om een reis voor burst berichten te vormen, in deze video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/334523?quality=12)
-
-
-## Een reis beëindigen, stoppen of sluiten{#end-journey}
-
-Een reis kan voor een individu in twee specifieke contexten eindigen:
-
-* De persoon komt bij de laatste activiteit van een weg aan. Deze laatste activiteit kan **Einde** activiteit of een andere activiteit. Een **Einde** activiteit is niet verplicht. Zie [deze pagina](../building-journeys/end-activity.md).
-* De persoon komt aan bij een **Voorwaarde** activiteit (of **Wachten** activiteit met een voorwaarde) en voldoet aan geen van de voorwaarden.
-
-De persoon kan dan opnieuw de reis betreden als herbinnenkomst is toegestaan. Zie [deze pagina](../building-journeys/journey-gs.md#change-properties)
-
-Een reis kan om de volgende redenen worden gesloten:
-
-* De reis wordt handmatig gesloten via de **[!UICONTROL Close to new entrances]** knop.
-* Een reis op basis van een segment met één opname die klaar is met de uitvoering.
-* Na het laatste voorkomen van een terugkerende op segment gebaseerde reis.
-
-Wanneer een reis wordt gesloten (om een van de bovenstaande redenen), heeft deze de status **[!UICONTROL Closed]**. De reis houdt in dat nieuwe individuen de reis kunnen betreden. Personen die al onderweg zijn, kunnen de reis normaal afmaken. Na de standaard wereldwijde time-out van 30 dagen wordt de reis overgeschakeld op de **Voltooid** status. Zie dit [sectie](../building-journeys/journey-gs.md#global_timeout).
-
-Als u de voortgang van alle mensen op de reis moet stoppen, kunt u deze stoppen. Als de reis wordt stopgezet, wordt een time-out voor alle personen op de reis vastgesteld.
-
-Zo sluit of stopt u een reis handmatig:
-
-De **[!UICONTROL Stop]** en **[!UICONTROL Close to new entrances]** opties waarmee u kunt beëindigen **leven** ritten. Als u een reis afsluit, betekent dit **dat de komst van nieuwe klanten op de reis wordt geblokkeerd** en dat de klanten die reeds op de reis zijn aangekomen, deze tot het einde kunnen ervaren. Dit is de meest aanbevolen manier om een einde te maken aan een reis omdat deze de beste ervaring biedt voor klanten. Als we een reis stoppen, moeten mensen die al een reis hebben afgelegd, allemaal stoppen. De reis is eigenlijk uitgeschakeld.
-
->[!NOTE]
->
->U kunt een gesloten of gestopt reis niet hervatten.
-
-### Een reis sluiten
-
-U kunt een reis manueel sluiten om ervoor te zorgen dat de klanten die reeds de reis inging hun weg kunnen beëindigen maar de nieuwe gebruikers niet de reis kunnen ingaan.
-
-Wanneer een reis gesloten is, krijgt deze de status **[!UICONTROL Closed]**. Na de standaard wereldwijde time-out van 30 dagen wordt de reis overgeschakeld op de **Voltooid** status. Zie dit [sectie](../building-journeys/journey-gs.md#global_timeout).
-
-Een gesloten reisversie kan niet opnieuw worden gestart of verwijderd. U kunt er een nieuwe versie van maken of deze dupliceren. Alleen voltooide reizen kunnen worden verwijderd.
-
-Als u een reis wilt sluiten in de lijst met ritten, klikt u op de knop **[!UICONTROL Ellipsis]** knop rechts van de naam van de reis en selecteer **[!UICONTROL Close to new entrances]**.
-
-![](assets/journey-finish-quick-action.png)
-
-U kunt ook het volgende doen:
-
-1. In de **[!UICONTROL Journeys]** klikt u op de rit die u wilt sluiten.
-1. Klik rechtsboven op de pijl omlaag.
-
-   ![](assets/finish_drop_down_list.png)
-
-1. Klikken **[!UICONTROL Close to new entrances]** en bevestigen in het dialoogvenster.
-
-### Een reis stoppen
-
-U kunt een reis stoppen wanneer zich een noodsituatie voordoet en alle verwerking onmiddellijk op een reis moet worden beëindigd.
-
-Een voltooide reisversie kan niet opnieuw worden gestart.
-
-Wanneer deze wordt gestopt, wordt de reisstatus ingesteld op **[!UICONTROL Stopped]**.
-
-U kunt bijvoorbeeld een reis stoppen als een markeerder beseft dat de reis het verkeerde publiek aanvalt of dat een aangepaste actie die berichten moet leveren, niet correct werkt. Om een reis van de lijst van reizen tegen te houden, klik **[!UICONTROL Ellipsis]** knop rechts van de naam van de reis en selecteer **[!UICONTROL Stop]**.
-
-![](assets/journey-finish-quick-action.png)
-
-U kunt ook het volgende doen:
-
-1. In de **[!UICONTROL Journeys]** klikt u op de reis die u wilt stoppen.
-1. Klik rechtsboven op de pijl omlaag.
-
-![](assets/finish_drop_down_list.png)
-
-1. Klikken **[!UICONTROL Stop]** en bevestigen in het dialoogvenster.

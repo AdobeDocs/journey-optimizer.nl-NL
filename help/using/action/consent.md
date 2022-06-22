@@ -8,9 +8,10 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 7a5f7ea85075821f0788bd9a58d9994afd058c61
+exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -38,6 +39,8 @@ Met toestemmingsbeheer worden twee reisactiviteiten geanalyseerd:
 
 * Leessegment: het opgehaalde segment wordt in aanmerking genomen.
 * Aangepaste actie: bij het beheer van de toestemming wordt rekening gehouden met de gebruikte kenmerken ([actieparameters](../action/about-custom-action-configuration.md#define-the-message-parameters)) en de vastgestelde marketingactie(s) (vereiste marketingactie en aanvullende marketingactie).
+
+Toestemming is alleen van toepassing wanneer een (vereiste of aanvullende) marketingactie is ingesteld op het niveau van de aangepaste handeling.
 
 Alle andere activiteiten die tijdens een reis worden gebruikt, worden niet in aanmerking genomen. Als u uw reis met een kwalificatie van het Segment begint, wordt het segment niet in aanmerking genomen.
 

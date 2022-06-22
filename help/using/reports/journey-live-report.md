@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
@@ -65,9 +65,9 @@ Voor een gedetailleerd rapport over een specifieke e-maillevering raadpleegt u d
 
 De **[!UICONTROL Email Sending Statistics]** widget geeft details over de belangrijkste informatie met betrekking tot uw bericht:
 
-* **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
+* **[!UICONTROL Delivered]**: Aantal verzonden berichten.
 
-* **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
+* **[!UICONTROL Bounces]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische terugkeringsverwerking.
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
@@ -75,9 +75,9 @@ De **[!UICONTROL Sending metrics by Email]** tabel en **[!UICONTROL Email Summar
 
 * **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
 
-* **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
+* **[!UICONTROL Delivered]**: Aantal verzonden berichten.
 
-* **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
+* **[!UICONTROL Bounces]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische terugkeringsverwerking.
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
@@ -131,9 +131,9 @@ Voor een gedetailleerd rapport over een specifieke pushservice raadpleegt u de [
 
 * **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
 
-* **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
+* **[!UICONTROL Delivered]**: Aantal verzonden berichten.
 
-* **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
+* **[!UICONTROL Bounces]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische terugkeringsverwerking.
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
@@ -152,3 +152,33 @@ De **[!UICONTROL Sending statistics - Failed]** met widget kunt u zien hoeveel f
 ![](assets/report_push_2.png)
 
 De **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** en **[!UICONTROL Breakdown by platform]** in grafieken en tabellen wordt aangegeven hoe succesvol uw pushmelding is, afhankelijk van het besturingssysteem.
+
+## Tabblad SMS {#sms-live}
+
+De **[!UICONTROL SMS - Sending statistics]** de tabel geeft het succes van uw levering aan :
+
+* **[!UICONTROL Targeted]**: Aantal gebruikersprofielen dat als doelprofielen voor deze levering in aanmerking komt.
+
+* **[!UICONTROL Excluded]**: Aantal gebruikersprofielen dat is uitgesloten van de doelprofielen en dat het bericht niet heeft ontvangen.
+
+* **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
+
+* **[!UICONTROL Delivered]**: Aantal verzonden berichten.
+
+* **[!UICONTROL Opens]**: Aantal keren dat een bericht in een levering werd geopend.
+
+* **[!UICONTROL Clicks]**: Het aantal keren dat op een inhoud is geklikt in een levering.
+
+* **[!UICONTROL Bounces]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische terugkeringsverwerking.
+
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
+
+De **[!UICONTROL SMS Summary]** grafiek geeft het succes van uw levering aan:
+
+* **[!UICONTROL Delivered]**: Aantal verzonden berichten.
+
+* **[!UICONTROL Bounces]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische terugkeringsverwerking.
+
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
+
+De **[!UICONTROL Exclude Reasons]** in grafieken en tabellen kunt u zien welke fout en uitsluitingen tijdens de levering zijn opgetreden.

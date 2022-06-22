@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '833'
 ht-degree: 2%
 
 ---
@@ -120,8 +120,6 @@ Zie dit [sectie](../segment/about-segments.md) om te leren om deze berichten te 
 1. Sluit de drie paden aan op de eerder gemaakte aankoopgebeurtenis. De gebeurtenis wordt geactiveerd wanneer een individu een aankoop doet.
 
 1. Na de gebeurtenis, laat vallen a **Bericht** en selecteer het e-mailbericht &quot;Bedankt&quot;.
-
-1. Een **Einde** activiteit.
 
 ## De journey testen en publiceren
 

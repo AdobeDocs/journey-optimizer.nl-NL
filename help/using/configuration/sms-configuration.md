@@ -3,21 +3,15 @@ title: SMS-configuratie
 description: Leer hoe u uw omgeving configureert voor het verzenden van SMS-berichten met Journey Optimizer
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '350'
 ht-degree: 3%
 
 ---
 
 # Sms-kanaal configureren {#sms-configuration}
-
->[!CAUTION]
->
-> Het gebruik van het SMS-kanaal is momenteel alleen beschikbaar in een vroeg stadium om gebruikers te selecteren. Als u deze functie wilt gebruiken, neemt u contact op met de Adobe-accountmanager.
 
 [!DNL Journey Optimizer] kunt u uw reizen maken en berichten naar het beoogde publiek sturen.
 
@@ -29,15 +23,14 @@ Voer de volgende stappen uit om uw SMS-leverancier te configureren met Journey O
 
    ![](assets/sms_4.png)
 
-1. Selecteer Sinch als uw **[!UICONTROL SMS vendor]**.
+1. Selecteer uw **[!UICONTROL SMS vendor]**:
+
+   * [!DNL Sinch]. Als u uw **[!UICONTROL Service ID]** en **[!UICONTROL API Token]** hebt u toegang tot SMS > API&#39;s via uw Sinch-account.
+   * [!DNL Twilio]. Als u uw **[!UICONTROL Service ID]** en **[!UICONTROL API Token]**, opent u het venster Accountinformatie van de pagina Dashboard van de console.
 
 1. Voer een **[!UICONTROL Name]** voor uw API-referentie.
 
 1. Voer uw **[!UICONTROL Service ID]** en **[!UICONTROL API Token]**.
-
-   >[!NOTE]
-   >
-   > Voor Sinch zijn speciale API-referenties vereist. Als u uw **[!UICONTROL Service ID]** en **[!UICONTROL API Token]**, toegang tot SMS > API&#39;s via uw Sinch-account,
 
    ![](assets/sms_5.png)
 
@@ -74,6 +67,8 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
       Voor meer over hoe te om uw milieu te vormen om de berichten van SMS te verzenden, verwijs naar [deze sectie](sms-configuration.md).
 
    * Voer de **[!UICONTROL Sender number]** &#x200B; u voor uw mededelingen wilt gebruiken.
+
+   * Selecteer uw **[!UICONTROL SMS Execution Field]** om de **[!UICONTROL Profile attribute]** aan de telefoonaantallen van de profielen worden geassocieerd.
 
 1. Zodra alle parameters zijn gevormd, klik **[!UICONTROL Submit]** ter bevestiging. U kunt de berichtvoorinstelling ook opslaan als concept en de configuratie ervan later hervatten.
 

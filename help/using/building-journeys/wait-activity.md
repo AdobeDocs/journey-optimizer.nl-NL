@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: c058c4835c560f12e3d53bfb766324405b12968f
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 4%
+source-wordcount: '339'
+ht-degree: 5%
 
 ---
 
@@ -30,15 +30,9 @@ Als u wilt wachten voordat u de volgende activiteit in het pad uitvoert, kunt u 
 
 ## Informatie over de activiteit Wachten{#about_wait}
 
-Hier is hoe de wacht voorrang krijgt wanneer u verscheidene wacht parallel gebruikt. Als zij de zelfde tijdconfiguratie en een verschillende maar overlappende voorwaarde hebben, hierboven gepositioneerde wachttijd zal aan voorrang gegeven zijn. De eerste wachttijd is bijvoorbeeld &#39;een vrouw zijn&#39; en de tweede wachttijd is &#39;een VIP zijn&#39;. De eerste wachtbewerking krijgt prioriteit.
+De maximale wachttijd is 30 dagen. In de testmodus **[!UICONTROL Wait time in test]** parameter staat u toe om de tijd te bepalen dat elke wachttijdactiviteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Zie [deze pagina](../building-journeys/testing-the-journey.md)
 
-Houd er ook rekening mee dat als twee verschillende wachttijden parallel lopen, de eerste prioriteit krijgt, ongeacht de verticale positie. Bijvoorbeeld, als een 1 uur wacht boven is en een 30 minuut wacht onder is, na 30 minuten, zal het 30 minieme ogenblik worden verwerkt.
-
->[!NOTE]
->
->De maximale wachttijd is 30 dagen.
->
->In de testmodus **[!UICONTROL Wait time in test]** parameter staat u toe om de tijd te bepalen dat elke wachttijdactiviteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Zie [deze pagina](../building-journeys/testing-the-journey.md)
+Wees voorzichtig als u meerdere wachtactiviteiten gebruikt op een reis terwijl de wereldwijde time-out van de reis 30 dagen bedraagt, wat betekent dat een profiel altijd maximaal 30 dagen na het vertrek zal verdwijnen.
 
 ## Wachttijd duur{#duration}
 

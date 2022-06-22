@@ -4,9 +4,9 @@ description: Meer informatie over het gebruik van Adobe Experience Platform-gege
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: a196df7318e0c87afb5a5ee4498eaf20eab137ad
+source-git-commit: 1de18fa479a54c09751324a67793ce50e5657ce3
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '622'
 ht-degree: 2%
 
 ---
@@ -70,6 +70,8 @@ Leer hoe u een schema, een gegevensset en nieuwe gegevens maakt om testprofielen
 Meer informatie over het maken van gegevenssets in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
 
 Leer hoe u de interface Gegevensbestanden in het dialoogvenster [Documentatie over gegevensinsluiting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target=&quot;_blank&quot;}.
+
+Er is een lijst met gebruiksgevallen met queryvoorbeelden beschikbaar [hier](../start/datasets-query-examples.md).
 
 **Zie ook**
 

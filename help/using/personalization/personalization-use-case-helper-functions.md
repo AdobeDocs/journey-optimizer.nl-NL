@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1033'
 ht-degree: 2%
 
 ---
@@ -104,7 +104,6 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 
 1. Maak een reis die met deze gebeurtenis begint.
 1. Voeg het bericht aan de reis toe.
-1. Beëindig de reis met een eindactiviteit.
 
    Omdat u het bericht nog niet hebt gepubliceerd, kunt u de reis niet testen of publiceren.
 

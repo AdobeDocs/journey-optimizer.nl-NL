@@ -2,9 +2,9 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 7483b1e7a37b1a8a757ce5cc90a60a829a580389
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1553'
 ht-degree: 21%
 
 ---
@@ -12,6 +12,20 @@ ht-degree: 21%
 # Documentatie-updates {#latest-updates}
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
+
+
+## Juni 2022 {#june-2022}
+
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 22 juni is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
+* Er is een nieuwe sectie over het beleid voor gegevensgebruik toegevoegd aan de documentatie. [Meer informatie](../privacy/policies.md)
+* Er is een nieuwe sectie over privacyverzoeken toegevoegd aan de documentatie. [Meer informatie](../privacy/requests.md)
+* Een nieuwe sectie over de logboeken van de Controle op middelen is toegevoegd aan de documentatie. [Meer informatie](../privacy/audit-logs.md)
+* Er is een nieuw gedeelte toegevoegd aan de documentatie over het toevoegen van HTML- of JSON-inhoud uit de Adobe Experience Cloud Asset Library aan een aanbiedingsweergave. [Meer informatie](../offers/offer-library/add-representations.md#html-json)
+* Er is een nieuwe pagina toegevoegd over de levensstijl van de reis. [Meer informatie](../building-journeys/journey-end.md)
+* De pagina Wachttijd activiteit is bijgewerkt. [Meer informatie](../building-journeys/wait-activity.md)
+* De lijst met Adobe Journey Optimizer-gegevenssets met queryvoorbeelden toegevoegd. [Meer informatie](../start/datasets-query-examples.md)
+* De pagina van de Lijst van gewenste personen is verplaatst naar de sectie van de Configuratie. [Meer informatie](../configuration/allow-list.md)
+* De pagina met de lijst Onderdrukking is bijgewerkt. [Meer informatie](../configuration/manage-suppression-list.md)
 
 ## Mei 2022 {#may-2022}
 

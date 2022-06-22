@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 169ad138ea27b9049698d8d3bfa8a0817ed39fee
+source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1104'
 ht-degree: 41%
 
 ---
@@ -32,6 +32,13 @@ ht-degree: 41%
       + [Aan de slag als ontwikkelaar](using/start/path/developer.md)
    + [Gebruikersinterface](using/start/user-interface.md)
    + [Guardrails](using/start/guardrails.md)
++ Campagnes {#campaigns}
+   + [Aan de slag met campagnes](using/campaigns/get-started-with-campaigns.md)
+   + [Een campagne maken](using/campaigns/create-campaign.md)
+   + [Een campagne wijzigen of stoppen](using/campaigns/modify-stop-campaign.md)
+   + Rapporten {#reports}
+      + [Campagne live-rapport](using/campaigns/campaign-live-report.md)
+      + [Globaal verslag campagne voeren](using/campaigns/campaign-global-report.md)
 + Berichten {#messages}
    + [Aan de slag met berichten](using/messages/get-started-content.md)
    + [Een e-mail maken](using/messages/create-email.md)
@@ -107,6 +114,7 @@ ht-degree: 41%
 + Journeys {#orchestrate-journeys}
    + Reizen{#about-journeys}
       + [Algemeen principe](using/building-journeys/journey.md)
+      + [Reislevenscyclus](using/building-journeys/journey-end.md)
       + [Journeyversies](using/building-journeys/journey-versions.md)
       + [Integreren met intelligente services](using/building-journeys/ai-services-overview.md)
    + Een journey maken{#create-journey}
@@ -115,6 +123,7 @@ ht-degree: 41%
       + [Uw reis testen](using/building-journeys/testing-the-journey.md)
       + [Uw reis publiceren](using/building-journeys/publishing-the-journey.md)
       + [Tijdzonebeheer](using/building-journeys/timezone-management.md)
+      + [Een reis kopiëren](using/building-journeys/copy-to-sandbox.md)
       + [Los uw reis problemen op](using/building-journeys/troubleshooting.md)
    + Activiteiten {#about-journey-building}
       + [Informatie over reisactiviteiten](using/building-journeys/about-journey-activities.md)
@@ -254,7 +263,6 @@ ht-degree: 41%
    + Leverbaarheid {#deliverability}
       + [Aan de slag met de prestaties](using/reports/deliverability.md)
       + [Informatie over de onderdrukkingslijst](using/reports/suppression-list.md)
-   + [Audit van Journey Optimizer-bronnen](using/reports/audit-logs.md)
 + Beslissingsbeheer {#offer-decisioniong}
    + Aan de slag met het beheer van beslissingen {#get-started-decision}
       + [Over het beheer van besluiten](using/offers/get-started/starting-offer-decisioning.md)
@@ -349,7 +357,9 @@ ht-degree: 41%
          + [Batchbeslissing-API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Data management {#data-management}
    + [Schema&#39;s](using/start/get-started-schemas.md)
-   + [Gegevenssets](using/start/get-started-datasets.md)
+   + Gegevenssets {#datasets}
+      + [Aan de slag met gegevenssets](using/start/get-started-datasets.md)
+      + [Voorbeelden van query](using/start/datasets-query-examples.md)
    + [Zoekopdrachten](using/start/get-started-queries.md)
 + Configuratie{#configuration}
    + [Aan de slag met de Journey Optimizer-configuratie](using/configuration/get-started-configuration.md)
@@ -410,4 +420,7 @@ ht-degree: 41%
    + [Machtigingsniveaus](using/administration/high-low-permissions.md)
    + [Sandboxbeheer](using/administration/sandboxes.md)
    + [Op kenmerken gebaseerd toegangsbeheer](using/administration/attribute-based-access.md)
-
++ Privacy {#privacy}
+   + [Beleid voor gegevensgebruik](using/privacy/policies.md)
+   + [Privacyverzoeken](using/privacy/requests.md)
+   + [Audit van Journey Optimizer-bronnen](using/privacy/audit-logs.md)

@@ -5,11 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: cc7a544b58c0caff4fd0b3d02c53622b506e98e2
+exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
+source-git-commit: f2426b8696983b22dd2c80296e2c9dfc2426c439
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '447'
 ht-degree: 3%
 
 ---
@@ -17,10 +16,6 @@ ht-degree: 3%
 # Beheren [!DNL Adobe Stock] afbeeldingen {#stock}
 
 ## Aan de slag met [!DNL Adobe Stock] {#get-started-stock}
-
->[!IMPORTANT]
->
-> Het gebruik van de [!DNL Adobe Stock] de integratie is momenteel beschikbaar in vroege toegang tot geselecteerde gebruikers slechts. Als u deze functie wilt gebruiken, neemt u contact op met de Adobe-accountmanager.
 
 [!DNL Adobe Stock] biedt toegang tot miljoenen kwalitatief hoogstaande, gekrulde en royaltyvrije foto&#39;s, video&#39;s, illustraties en vectorafbeeldingen. U kunt ervoor kiezen om een creditpakket aan te schaffen om een licentie voor activa te verkrijgen of slechts één standaard- of uitgebreide licentie voor het benodigde element te kopen. Adobe Stock biedt ook een gratis collectie van activa.
 
@@ -30,6 +25,10 @@ Met [!DNL Adobe Journey Optimizer]kunt u afbeeldingen rechtstreeks vanaf [!DNL A
 [Meer informatie over e-mailontwerp](design-emails.md).
 
 ## Invoegen en importeren [!DNL Adobe Stock] afbeeldingen {#add-stock-image}
+
+>[!NOTE]
+>
+> De **[!UICONTROL Find Adobe Stock photos]** Deze optie is alleen beschikbaar voor gebruikers met toegang tot een AEM Assets Essentials Product Profile. Raadpleeg voor meer informatie hierover [Essentiële documentatie voor middelen](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials).
 
 Nadat u uw e-mail hebt bewerkt en aangepast, kunt u afbeeldingen toevoegen van [!DNL Adobe Stock] naar je template:
 
@@ -54,7 +53,8 @@ Nadat u uw e-mail hebt bewerkt en aangepast, kunt u afbeeldingen toevoegen van [
 
 1. Van de [!DNL Adobe Stock] website, moet u uw middel aanschaffen om de afbeelding te kunnen downloaden en het watermerk te kunnen verwijderen.
 
-   Deze aankoop is afhankelijk van uw Adobe Stock-abonnement of -abonnement. Raadpleeg [deze pagina](https://stock.adobe.com/plans) voor meer informatie.
+   Deze aankoop is afhankelijk van uw Adobe Stock-abonnement of -abonnement. Als je meerdere Adobe Stock-accounts hebt, wordt je doorgestuurd naar de laatst gebruikte voorraad-id. Controleer in dit geval of u bent aangemeld bij de juiste account voordat u een licentie voor uw asset aanschaft.
+Raadpleeg [deze pagina](https://stock.adobe.com/plans) voor meer informatie.
 
    >[!WARNING]
    > Als er een e-mail met een afbeelding zonder licentie wordt verzonden, wordt het formulier zonder licentie bij het watermerk gevoegd.
