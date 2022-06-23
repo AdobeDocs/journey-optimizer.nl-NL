@@ -4,7 +4,7 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van SMS-beri
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: a60afd8a2948da5386b75421ffdb36735ed091e6
+source-git-commit: 67fcddc77ad5493905a0f1894a0cf497b0bfa2f9
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 [!DNL Journey Optimizer] kunt u uw reizen maken en berichten naar het beoogde publiek sturen.
 
->[!NOTE]
+>[!AVAILABILITY]
 >
 >Het SMS-kanaal is momenteel alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
