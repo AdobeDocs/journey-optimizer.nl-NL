@@ -3,9 +3,9 @@ title: Journey Optimizer Aan de slag voor systeembeheer
 description: Als systeembeheerder, leer meer hoe te om met Journey Optimizer te werken
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '719'
 ht-degree: 2%
 
 ---
@@ -49,6 +49,8 @@ Voer de onderstaande stappen uit:
    * Definiëren **Instellingen voor pushmeldingen** in beide [!DNL Adobe Experience Platform] en [!DNL Adobe Experience Platform Launch]. [Meer informatie](../../configuration/push-gs.md)
 
    * Maken **berichtvoorinstellingen** om alle technische parameters te configureren die vereist zijn voor e-mail- en pushberichten. [Meer informatie](../../configuration/message-presets.md)
+
+   * Configureer de **SMS-kanaal** om alle technische parameters te configureren die voor SMS vereist zijn. [Meer informatie](../../configuration/sms-configuration.md)
 
    * Het aantal dagen beheren waarin **opnieuw** worden uitgevoerd voordat e-mailadressen naar de suppressielijst worden verzonden. [Meer informatie](../../configuration/manage-suppression-list.md)
 

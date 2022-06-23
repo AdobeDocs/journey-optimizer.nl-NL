@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 67fcddc77ad5493905a0f1894a0cf497b0bfa2f9
+source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 8%
+source-wordcount: '384'
+ht-degree: 5%
 
 ---
 
@@ -20,13 +20,18 @@ ht-degree: 8%
 >title="SMS-ontwerp"
 >abstract="Voeg uw tekstbericht toe en begin het met de Redacteur van de Uitdrukking aan te passen."
 
+Eenmaal [een bericht gemaakt](get-started-content.md), gebruikt u de **[!UICONTROL SMS]** om de instellingen en inhoud voor het SMS-bericht te definiëren.
+
+
 >[!AVAILABILITY]
 >
 >Het SMS-kanaal is momenteel alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Eenmaal [een bericht gemaakt](get-started-content.md), gebruikt u de **[!UICONTROL SMS]** om de instellingen en inhoud voor het SMS-kanaal te definiëren.
-
 ![](assets/sms_1.png)
+
+Als dit de eerste keer is die tot een SMS-bericht leidt, zorg er dan voor dat het SMS-kanaal is geconfigureerd. [Meer informatie](../configuration/sms-configuration.md).
+
+## Je SMS-inhoud definiëren{#sms-content}
 
 Voer de volgende stappen uit om uw SMS-bericht aan te passen:
 
@@ -34,25 +39,37 @@ Voer de volgende stappen uit om uw SMS-bericht aan te passen:
 
    ![](assets/sms_3.png)
 
-1. Gebruik de Redacteur van de Uitdrukking om inhoud en verpersoonlijkingsgegevens te bepalen. Meer informatie over personalisatie in de Expressieeditor vindt u in [deze sectie](../personalization/personalize.md)
+1. Gebruik de Expressieeditor om inhoud te definiëren. U kunt elk kenmerk gebruiken om inhoud aan te passen, zoals de profielnaam of plaats. Meer informatie over personalisatie in de Expressieeditor vindt u in [deze sectie](../personalization/personalize.md)
 
    >[!NOTE]
    >
-   > SMS-berichten mogen niet langer zijn dan 160 tekens.
+   > Een SMS-bericht kan maximaal 160 tekens bevatten, inclusief spaties en regeleinden.
 
    ![](assets/sms_2.png)
 
-1. Klikken **[!UICONTROL Save]** wanneer uw gepersonaliseerde bericht klaar is.
+1. Klikken **[!UICONTROL Save]** wanneer uw bericht klaar is.
 
-1. Klikken **[!UICONTROL Preview]** om te visualiseren hoe uw SMS-bericht wordt weergegeven op mobiele apparaten. Raadpleeg [deze sectie](../design/preview.md) voor meer informatie.
+## Je SMS valideren{#sms-preview}
 
-1. Zodra uw bericht klaar is, kunt u het publiceren om het voor uitvoering beschikbaar te maken met **[!UICONTROL Publish]** knop. Deze actie zal de nieuwe versie van het bericht publiceren die voor de volgende terechtstellingen in uw reizen zal worden gebruikt.
+Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u [persoonlijke inhoud](../personalization/personalize.md), kunt u controleren hoe deze inhoud in het bericht wordt getoond, leveraging de gegevens van het testprofiel.
+
+Blader naar de **[!UICONTROL Preview]** tab.
+
+Raadpleeg [deze sectie](../design/preview.md) voor meer informatie.
+
+
+## Je SMS publiceren {#sms-publish}
+
+Zodra uw bericht klaar is, kunt u het publiceren om het voor uitvoering beschikbaar te maken met **[!UICONTROL Publish]** knop. Deze actie publiceert de nieuwe versie van het bericht dat voor de volgende terechtstellingen in uw reizen zal worden gebruikt.
 
 Je SMS-bericht kan nu worden gebruikt voor een reis. [Leer hoe u reizen maakt](../building-journeys/journey-gs.md).
 
 ## Opt-in en opt-out{#sms-opt-in-out}
 
+Voor alle marketingberichten moet het SMS een manier bevatten waarop de ontvangers het abonnement gemakkelijk kunnen opzeggen. Als u het abonnement opzegt, worden de profielen automatisch verwijderd uit het publiek van toekomstige marketingberichten. Het toevoegen van een koppeling voor het opzeggen van abonnementen is niet verplicht voor transactiemeldingen.
+
 De ontvangers van SMS kunnen met opt-in en opt-out sleutelwoorden antwoorden. Conform de industriestandaarden en -voorschriften verwerkt Adobe Journey Optimizer automatisch de volgende trefwoorden in binnenkomende berichten: START, STOP en ONTSTOP. Deze trefwoorden activeren automatische standaardantwoorden van de SMS-provider.
+
 
 **Verwante onderwerpen**
 
