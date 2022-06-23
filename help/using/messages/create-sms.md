@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: 067453ee3c19c7f269b4b1791ead8b5421adf95b
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 9%
+source-wordcount: '262'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->De verordeningen vereisen dat de ontvangers van SMS met opt-in en opt-out sleutelwoorden kunnen antwoorden. Adobe Journey Optimizer verwerkt automatisch de volgende trefwoorden: Start, Stoppen en Stoppen.
+>Het SMS-kanaal is momenteel alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 Eenmaal [een bericht gemaakt](get-started-content.md), gebruikt u de **[!UICONTROL SMS]** om de instellingen en inhoud voor het SMS-kanaal te definiëren.
 
@@ -49,6 +49,10 @@ Voer de volgende stappen uit om uw SMS-bericht aan te passen:
 1. Zodra uw bericht klaar is, kunt u het publiceren om het voor uitvoering beschikbaar te maken met **[!UICONTROL Publish]** knop. Deze actie zal de nieuwe versie van het bericht publiceren die voor de volgende terechtstellingen in uw reizen zal worden gebruikt.
 
 Je SMS-bericht kan nu worden gebruikt voor een reis. [Leer hoe u reizen maakt](../building-journeys/journey-gs.md).
+
+## Opt-in en opt-out{#sms-opt-in-out}
+
+De ontvangers van SMS kunnen met opt-in en opt-out sleutelwoorden antwoorden. Conform de industriestandaarden en -voorschriften verwerkt Adobe Journey Optimizer automatisch de volgende trefwoorden in binnenkomende berichten: START, STOP en ONTSTOP. Deze trefwoorden activeren automatische standaardantwoorden van de SMS-provider.
 
 **Verwante onderwerpen**
 
