@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 5bb7df1b02712da3b496aa92be30d4ea02750c39
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ De reis **[!UICONTROL Live report]** Deze pagina wordt weergegeven met de volgen
 * [Reis](#journey-live)
 * [Email](#email-live)
 * [Push](#push-live)
+* [Sms](#sms-live)
 
 De reis **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw reis worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Raadpleeg voor meer informatie hierover [sectie](live-report.md#modify-dashboard).
 

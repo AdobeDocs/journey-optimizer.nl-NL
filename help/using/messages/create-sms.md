@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 5%
@@ -57,7 +57,6 @@ Blader naar de **[!UICONTROL Preview]** tab.
 
 Raadpleeg [deze sectie](../design/preview.md) voor meer informatie.
 
-
 ## Je SMS publiceren {#sms-publish}
 
 Zodra uw bericht klaar is, kunt u het publiceren om het voor uitvoering beschikbaar te maken met **[!UICONTROL Publish]** knop. Deze actie publiceert de nieuwe versie van het bericht dat voor de volgende terechtstellingen in uw reizen zal worden gebruikt.
@@ -69,7 +68,6 @@ Je SMS-bericht kan nu worden gebruikt voor een reis. [Leer hoe u reizen maakt](.
 Voor alle marketingberichten moet het SMS een manier bevatten waarop de ontvangers het abonnement gemakkelijk kunnen opzeggen. Als u het abonnement opzegt, worden de profielen automatisch verwijderd uit het publiek van toekomstige marketingberichten. Het toevoegen van een koppeling voor het opzeggen van abonnementen is niet verplicht voor transactiemeldingen.
 
 De ontvangers van SMS kunnen met opt-in en opt-out sleutelwoorden antwoorden. Conform de industriestandaarden en -voorschriften verwerkt Adobe Journey Optimizer automatisch de volgende trefwoorden in binnenkomende berichten: START, STOP en ONTSTOP. Deze trefwoorden activeren automatische standaardantwoorden van de SMS-provider.
-
 
 **Verwante onderwerpen**
 

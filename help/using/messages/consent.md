@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1314'
 ht-degree: 1%
 
 ---
@@ -210,3 +210,10 @@ Afhankelijk van de e-mailclient kan het klikken op de koppeling voor het opzegge
 Push-ontvangers kunnen hun abonnement opzeggen via hun apparaten zelf.
 
 Ze kunnen er bijvoorbeeld voor kiezen om meldingen te stoppen wanneer ze worden gedownload of wanneer ze uw app gebruiken. Op dezelfde manier kunnen ze de meldingsinstellingen wijzigen via het mobiele besturingssysteem.
+
+## SMS-opt-out-beheer {#sms-opt-out-management}
+
+In overeenstemming met de industriestandaarden en -regels kunnen SMS-ontvangers reageren met de trefwoorden opt-in en opt-out.
+Adobe Journey Optimizer verwerkt automatisch de volgende trefwoorden in binnenkomende berichten: START, STOP en ONTSTOP. Deze trefwoorden activeren automatische standaardantwoorden van de SMS-provider.
+
+Raadpleeg deze voor meer informatie over de optie om te weigeren via SMS [page](../messages/create-sms.md#opt-in-and-opt-out).

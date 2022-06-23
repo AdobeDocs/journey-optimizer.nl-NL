@@ -4,7 +4,7 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van SMS-beri
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
+source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 2%
@@ -70,7 +70,7 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
    * Selecteer **[!UICONTROL SMS configuration]** aan de voorinstelling te koppelen.
 
-      Voor meer over hoe te om uw milieu te vormen om de berichten van SMS te verzenden, verwijs naar [deze sectie](sms-configuration.md).
+      Voor meer over hoe te om uw milieu te vormen om de berichten van SMS te verzenden, verwijs naar [deze sectie](#create-api).
 
    * Voer de **[!UICONTROL Sender number]** &#x200B; u voor uw mededelingen wilt gebruiken.
 
