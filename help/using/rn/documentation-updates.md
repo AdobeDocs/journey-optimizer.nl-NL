@@ -2,9 +2,9 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7483b1e7a37b1a8a757ce5cc90a60a829a580389
+source-git-commit: 33b079e0ee1d81e06de24f7170a5f29e10df657b
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1568'
 ht-degree: 21%
 
 ---
@@ -26,6 +26,8 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De lijst met Adobe Journey Optimizer-gegevenssets met queryvoorbeelden toegevoegd. [Meer informatie](../start/datasets-query-examples.md)
 * De pagina van de Lijst van gewenste personen is verplaatst naar de sectie van de Configuratie. [Meer informatie](../configuration/allow-list.md)
 * De pagina met de lijst Onderdrukking is bijgewerkt. [Meer informatie](../configuration/manage-suppression-list.md)
+* Er is een verband toegevoegd met garanties en statische limieten voor het beheer van besluiten. [Meer informatie](../start/guardrails.md)
+
 
 ## Mei 2022 {#may-2022}
 

@@ -1,82 +1,107 @@
 ---
-title: Adobe Stock
+title: Werken met Adobe Stock-afbeeldingen
 description: Aan de slag met Adobe Stock
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: f2426b8696983b22dd2c80296e2c9dfc2426c439
+source-git-commit: fb56b69a74aa8c727bf75f1c7988ece845f43b5f
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 3%
+source-wordcount: '564'
+ht-degree: 1%
 
 ---
 
-# Beheren [!DNL Adobe Stock] afbeeldingen {#stock}
+# Werken met [!DNL Adobe Stock] afbeeldingen {#stock}
 
 ## Aan de slag met [!DNL Adobe Stock] {#get-started-stock}
 
-[!DNL Adobe Stock] biedt toegang tot miljoenen kwalitatief hoogstaande, gekrulde en royaltyvrije foto&#39;s, video&#39;s, illustraties en vectorafbeeldingen. U kunt ervoor kiezen om een creditpakket aan te schaffen om een licentie voor activa te verkrijgen of slechts één standaard- of uitgebreide licentie voor het benodigde element te kopen. Adobe Stock biedt ook een gratis collectie van activa.
+De [!DNL Adobe Stock] en [!DNL Adobe Journey Optimizer] De integratie-insteekmodule van E-mailDesigner biedt klanten een gemakkelijke manier om te navigeren, een licentie te verlenen en afbeeldingen op te slaan voor gebruik in berichtontwerpen.
 
-Voor meer informatie over [!DNL Adobe Stock], zie [Adobe Stock Aan de slag](https://helpx.adobe.com/stock/get-started.html).
+[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;} biedt toegang tot miljoenen kwalitatief hoogstaande, gekrulde, royaltyvrije foto&#39;s, video&#39;s, illustraties en vectorafbeeldingen. U kunt ervoor kiezen om een creditpakket aan te schaffen om een licentie voor activa te verkrijgen of slechts één standaard- of uitgebreide licentie voor het benodigde element te kopen. Adobe Stock biedt ook een gratis collectie van activa.
 
-Met [!DNL Adobe Journey Optimizer]kunt u afbeeldingen rechtstreeks vanaf [!DNL Adobe Stock] en voeg deze toe aan de map Middelen. De **[!UICONTROL Find Similar Image]** met deze optie kunt u afbeeldingen zoeken die overeenkomen met de inhoud, kleur en compositie van het element dat in de levering wordt gebruikt.
-[Meer informatie over e-mailontwerp](design-emails.md).
+Met [!DNL Adobe Journey Optimizer]kunt u afbeeldingen rechtstreeks vanaf [!DNL Adobe Stock] en voeg deze toe aan de map Middelen. De **[!UICONTROL Find Similar Image]** helpt u bij het zoeken naar afbeeldingen die overeenkomen met de inhoud, kleur en compositie van het element dat in de levering wordt gebruikt.
 
-## Invoegen en importeren [!DNL Adobe Stock] afbeeldingen {#add-stock-image}
+## Toestemmingen{#stock-permissions}
 
->[!NOTE]
->
-> De **[!UICONTROL Find Adobe Stock photos]** Deze optie is alleen beschikbaar voor gebruikers met toegang tot een AEM Assets Essentials Product Profile. Raadpleeg voor meer informatie hierover [Essentiële documentatie voor middelen](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials).
+De **[!UICONTROL Find Adobe Stock photos]** is beschikbaar voor gebruikers met toegang tot een AEM Assets Essentials Product Profile.
 
-Nadat u uw e-mail hebt bewerkt en aangepast, kunt u afbeeldingen toevoegen van [!DNL Adobe Stock] naar je template:
+Raadpleeg voor meer informatie hierover [Essentiële documentatie voor middelen](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target=&quot;_blank&quot;}.
 
-1. Een afbeelding slepen en neerzetten **[!UICONTROL Content components]** naar uw e-mail.
+## Een afbeelding invoegen vanuit [!DNL Adobe Stock] {#add-stock-image}
 
-   ![](assets/stock_1.png)
+Afbeeldingen toevoegen van [!DNL Adobe Stock] Voer de onderstaande stappen uit om uw inhoud te wijzigen:
 
-1. Van de **[!UICONTROL Component settings]** menu, selecteert u **[!UICONTROL Find Adobe Stock photos]**.
+1. Van de **[!UICONTROL Content components]** van de e-mailontwerper, slepen en neerzetten **Afbeelding**.
 
-   ![](assets/stock_2.png)
+1. Klik op de knop **[!UICONTROL Find Adobe Stock photos]** aan de linkerkant van de E-mailontwerper.
 
-1. Blader door de bibliotheek of voer uw zoekterm in het veld in. Selecteer de gekozen afbeelding en klik op **[!UICONTROL Save]**.
+   ![](assets/stock-find-photos.png)
 
-   ![](assets/stock_3.png)
+1. Blader door de bibliotheek of voer een term in het zoekveld in.
 
-1. Selecteer uw afbeelding om een licentie te verkrijgen en de afbeelding te downloaden **[!UICONTROL Content components]** en klik op **[!UICONTROL License Adobe Stock image]**. U wordt omgeleid naar de [!DNL Adobe Stock] website.
+   ![](assets/stock-select-from-lib.png)
 
-   >[!NOTE]
-   > Als voor uw afbeelding al een licentie is verleend, wordt deze weergegeven door de ![](assets/stock_10.png) pictogram. In dat geval kunt u naar stap 7 gaan.
+1. Selecteer de gekozen afbeelding en klik op **[!UICONTROL Save]**.
 
-   ![](assets/stock_4.png)
+   Als de geselecteerde afbeelding geen licentie heeft, moet u [krijg de vergunning](#license-stock-image).
 
-1. Van de [!DNL Adobe Stock] website, moet u uw middel aanschaffen om de afbeelding te kunnen downloaden en het watermerk te kunnen verwijderen.
+
+## De licentie ophalen van [!DNL Adobe Stock] {#license-stock-image}
+
+Als voor uw afbeelding al een licentie is verleend, wordt deze weergegeven door de ![](assets/stock_10.png) pictogram. Zo niet, dan moet u een licentie geven.
+
+Voer de onderstaande stappen uit om een licentie te verkrijgen en uw afbeelding te downloaden:
+
+1. Selecteer het en klik op **[!UICONTROL License Adobe Stock image]** pictogram.
+
+   ![](assets/stock-license-icon.png)
+
+   U wordt vervolgens omgeleid naar de [!DNL Adobe Stock] website behalve de licentie.
+
+   ![](assets/stock-license-photo.png)
+
+1. Van de [!DNL Adobe Stock] moet u uw element aanschaffen om de afbeelding te kunnen downloaden en het watermerk te kunnen verwijderen.
 
    Deze aankoop is afhankelijk van uw Adobe Stock-abonnement of -abonnement. Als je meerdere Adobe Stock-accounts hebt, wordt je doorgestuurd naar de laatst gebruikte voorraad-id. Controleer in dit geval of u bent aangemeld bij de juiste account voordat u een licentie voor uw asset aanschaft.
-Raadpleeg [deze pagina](https://stock.adobe.com/plans) voor meer informatie.
+
+   Meer informatie over Adobe Stock-plannen en -prijzen vindt u in [Adobe Stock-documentatie](https://stock.adobe.com/plans){target=&quot;_blank&quot;}.
 
    >[!WARNING]
-   > Als er een e-mail met een afbeelding zonder licentie wordt verzonden, wordt het formulier zonder licentie bij het watermerk gevoegd.
-
-   ![](assets/stock_5.png)
+   > Als een e-mail met een afbeelding zonder licentie wordt verzonden, behoudt de afbeelding het formulier zonder licentie met het watermerk.
 
 1. Zodra je aankoop is voltooid, kun je nu terugkeren naar je e-mail in [!DNL Adobe Journey Optimizer] en selecteert u **[!UICONTROL Import stock image]** om uw afbeelding met licentie te importeren in uw elementen.
 
    ![](assets/stock_6.png)
 
-1. Selecteer in welke map uw element wordt opgeslagen. Voor meer informatie over [!DNL Assets Essentials], verwijzen naar [page](assets-essentials.md#get-started-assets-essentials).
+1. Selecteer in welke map u het element wilt opslaan. Voor meer informatie over [!DNL Assets Essentials], verwijzen naar [page](assets-essentials.md#get-started-assets-essentials).
 
-   ![](assets/stock_7.png)
+## Vergelijkbare foto&#39;s zoeken {#similar-stock-image}
 
-1. Nadat u de afbeelding hebt geselecteerd uit [!DNL Adobe Stock], gebruikt u de **[!UICONTROL Find similar Stock photos]** om elementen te zoeken die overeenkomen met de inhoud, kleur en compositie van een afbeelding.
+U kunt elke bestaande afbeelding in uw e-mailinhoud vervangen door een foto uit [!DNL Adobe Stock]. Deze optie is beschikbaar voor alle afbeeldingen: Stock-afbeeldingen en afbeeldingen die onder licentie of zonder licentie in de map Assets staan.
 
-   Deze optie is beschikbaar voor onder licentie/zonder licentie geplaatste stockafbeeldingen en afbeeldingen in uw map Middelen.
+Voer de onderstaande stappen uit om door vergelijkbare foto&#39;s te bladeren:
 
-   ![](assets/stock_8.png)
+1. Selecteer de afbeelding die u wilt vervangen.
+1. Klik op de knop **[!UICONTROL Find similar Stock photos]** knop om elementen weer te geven in [!DNL Adobe Stock] die overeenkomen met de inhoud, kleur en compositie van de afbeelding.
 
-1. Pas uw afbeelding verder aan met de **[!UICONTROL Components settings]** -menu. [Meer informatie over componentinstellingen](content-components.md)
+   ![](assets/stock-similar.png)
 
-   ![](assets/stock_11.png)
+1. Selecteer de gekozen afbeelding en klik op **[!UICONTROL Save]**.
+
+   ![](assets/stock-similar-results.png)
+
+   Als de geselecteerde afbeelding geen licentie heeft, moet u [krijg de vergunning](#license-stock-image).
+
+1. Pas indien nodig uw afbeelding aan met de **[!UICONTROL Components settings]** -menu. [Meer informatie over componentinstellingen](content-components.md)
 
 Zodra uw bericht is gecreeerd en gepersonaliseerd, kunt u het publiceren om het voor uitvoering ter beschikking te stellen. [Meer informatie](../messages/publish-manage-message.md)
+
+
+### Verwante onderwerpen{#stock-related-topics}
+
+* [E-mailontwerp in Journey Optimizer](design-emails.md)
+* [Componentinstellingen voor e-mailontwerp](content-components.md)
+* [Adobe Stock Aan de slag](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;}.
+

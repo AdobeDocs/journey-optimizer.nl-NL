@@ -2,7 +2,7 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a60afd8a2948da5386b75421ffdb36735ed091e6
+source-git-commit: bd30bbd6ac1230bdb02e1b5a4f9eba19c1fa2ccc
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 10%
@@ -51,7 +51,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 <tbody>
 <tr>
 <td>
-<p>Beschikbaarheidsdatum: <b>23 juni</b></p>
+<p>Beschikbaarheidsdatum: <b>27 juni</b></p>
 <p></p>
 <p>Met de integratie-insteekmodule Adobe Stock en Adobe Journey Optimizer Email Designer kunnen klanten eenvoudig door afbeeldingen navigeren, licenties aanschaffen en afbeeldingen opslaan voor gebruik in berichtontwerpen. </br> De nieuwe <b>Vergelijkbare stockfoto's zoeken</b> kunt u ook Stock-foto's zoeken die overeenkomen met de inhoud, kleur en compositie van de afbeeldingen. </p>
 <img src="assets/do-not-localize/stock-rn.gif"/>
