@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: fb56b69a74aa8c727bf75f1c7988ece845f43b5f
+source-git-commit: c5230359d91416f16f51899e5a86b3926fb721f6
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -48,6 +48,28 @@ Afbeeldingen toevoegen van [!DNL Adobe Stock] Voer de onderstaande stappen uit o
    Als de geselecteerde afbeelding geen licentie heeft, moet u [krijg de vergunning](#license-stock-image).
 
 
+## Vergelijkbare foto&#39;s zoeken {#similar-stock-image}
+
+U kunt elke bestaande afbeelding in uw e-mailinhoud vervangen door een foto uit [!DNL Adobe Stock]. Deze optie is beschikbaar voor alle afbeeldingen: Stock-afbeeldingen en afbeeldingen die onder licentie of zonder licentie in de map Assets staan.
+
+Voer de onderstaande stappen uit om door vergelijkbare foto&#39;s te bladeren:
+
+1. Selecteer de afbeelding die u wilt vervangen.
+1. Klik op de knop **[!UICONTROL Find similar Stock photos]** knop om elementen weer te geven in [!DNL Adobe Stock] die overeenkomen met de inhoud, kleur en compositie van de afbeelding.
+
+   ![](assets/stock-similar.png)
+
+1. Selecteer de gekozen afbeelding en klik op **[!UICONTROL Save]**.
+
+   ![](assets/stock-similar-results.png)
+
+   Als de geselecteerde afbeelding geen licentie heeft, moet u [krijg de vergunning](#license-stock-image).
+
+1. Pas indien nodig uw afbeelding aan met de **[!UICONTROL Components settings]** -menu. [Meer informatie over componentinstellingen](content-components.md)
+
+Zodra uw bericht is gecreeerd en gepersonaliseerd, kunt u het publiceren om het voor uitvoering ter beschikking te stellen. [Meer informatie](../messages/publish-manage-message.md)
+
+
 ## De licentie ophalen van [!DNL Adobe Stock] {#license-stock-image}
 
 Als voor uw afbeelding al een licentie is verleend, wordt deze weergegeven door de ![](assets/stock_10.png) pictogram. Zo niet, dan moet u een licentie geven.
@@ -76,28 +98,6 @@ Voer de onderstaande stappen uit om een licentie te verkrijgen en uw afbeelding 
    ![](assets/stock_6.png)
 
 1. Selecteer in welke map u het element wilt opslaan. Voor meer informatie over [!DNL Assets Essentials], verwijzen naar [page](assets-essentials.md#get-started-assets-essentials).
-
-## Vergelijkbare foto&#39;s zoeken {#similar-stock-image}
-
-U kunt elke bestaande afbeelding in uw e-mailinhoud vervangen door een foto uit [!DNL Adobe Stock]. Deze optie is beschikbaar voor alle afbeeldingen: Stock-afbeeldingen en afbeeldingen die onder licentie of zonder licentie in de map Assets staan.
-
-Voer de onderstaande stappen uit om door vergelijkbare foto&#39;s te bladeren:
-
-1. Selecteer de afbeelding die u wilt vervangen.
-1. Klik op de knop **[!UICONTROL Find similar Stock photos]** knop om elementen weer te geven in [!DNL Adobe Stock] die overeenkomen met de inhoud, kleur en compositie van de afbeelding.
-
-   ![](assets/stock-similar.png)
-
-1. Selecteer de gekozen afbeelding en klik op **[!UICONTROL Save]**.
-
-   ![](assets/stock-similar-results.png)
-
-   Als de geselecteerde afbeelding geen licentie heeft, moet u [krijg de vergunning](#license-stock-image).
-
-1. Pas indien nodig uw afbeelding aan met de **[!UICONTROL Components settings]** -menu. [Meer informatie over componentinstellingen](content-components.md)
-
-Zodra uw bericht is gecreeerd en gepersonaliseerd, kunt u het publiceren om het voor uitvoering ter beschikking te stellen. [Meer informatie](../messages/publish-manage-message.md)
-
 
 ### Verwante onderwerpen{#stock-related-topics}
 
