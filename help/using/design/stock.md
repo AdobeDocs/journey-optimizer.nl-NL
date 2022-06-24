@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: c5230359d91416f16f51899e5a86b3926fb721f6
+source-git-commit: d172be602766a22c51018376d81de363c0ffe54b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '564'
+ht-degree: 1%
 
 ---
 
@@ -99,7 +99,7 @@ Voer de onderstaande stappen uit om een licentie te verkrijgen en uw afbeelding 
 
 1. Selecteer in welke map u het element wilt opslaan. Voor meer informatie over [!DNL Assets Essentials], verwijzen naar [page](assets-essentials.md#get-started-assets-essentials).
 
-### Verwante onderwerpen{#stock-related-topics}
+## Verwante onderwerpen{#stock-related-topics}
 
 * [E-mailontwerp in Journey Optimizer](design-emails.md)
 * [Componentinstellingen voor e-mailontwerp](content-components.md)
