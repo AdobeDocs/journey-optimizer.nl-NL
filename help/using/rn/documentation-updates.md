@@ -2,10 +2,10 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 33b079e0ee1d81e06de24f7170a5f29e10df657b
+source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 21%
+source-wordcount: '1590'
+ht-degree: 20%
 
 ---
 
@@ -25,7 +25,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De pagina Wachttijd activiteit is bijgewerkt. [Meer informatie](../building-journeys/wait-activity.md)
 * De lijst met Adobe Journey Optimizer-gegevenssets met queryvoorbeelden toegevoegd. [Meer informatie](../start/datasets-query-examples.md)
 * De pagina van de Lijst van gewenste personen is verplaatst naar de sectie van de Configuratie. [Meer informatie](../configuration/allow-list.md)
-* De pagina met de lijst Onderdrukking is bijgewerkt. [Meer informatie](../configuration/manage-suppression-list.md)
+* De pagina van de Lijst van de Onderdrukking is bijgewerkt om sommige informatie te verduidelijken, met inbegrip van het feit dat alle karakters van ASCII tussen 32 en 126 in de reden voor onderdrukking worden toegestaan. [Meer informatie](../configuration/manage-suppression-list.md)
 * Er is een verband toegevoegd met garanties en statische limieten voor het beheer van besluiten. [Meer informatie](../start/guardrails.md)
 
 
