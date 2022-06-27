@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: d953fc78ffdc5c84823a903e0b4032b45f45bfcd
+source-git-commit: 7f524b7ed9092465be996eeca36e6102e8e1c405
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%
@@ -21,7 +21,7 @@ De [!DNL Adobe Stock] en [!DNL Adobe Journey Optimizer] De integratie-insteekmod
 
 [Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;} biedt toegang tot miljoenen kwalitatief hoogstaande, gekrulde, royaltyvrije foto&#39;s, video&#39;s, illustraties en vectorafbeeldingen. U kunt ervoor kiezen om een creditpakket aan te schaffen om een licentie voor activa te verkrijgen of slechts één standaard- of uitgebreide licentie voor het benodigde element te kopen. Adobe Stock biedt ook een gratis collectie van activa.
 
-Met [!DNL Adobe Journey Optimizer]kunt u afbeeldingen rechtstreeks vanaf [!DNL Adobe Stock] en voeg het toe aan uw omslag van Middelen gebruikend **[!UICONTROL Find Adobe Stock photos]** optie. Bovendien **[!UICONTROL Find Similar Image]** helpt u bij het zoeken naar afbeeldingen die overeenkomen met de inhoud, kleur en compositie van het element dat in de levering wordt gebruikt.
+Met [!DNL Adobe Journey Optimizer]kunt u afbeeldingen rechtstreeks vanaf [!DNL Adobe Stock] en voeg het toe aan uw omslag van Middelen gebruikend **[!UICONTROL Find Adobe Stock photos]** optie. Bovendien **[!UICONTROL Find Similar Stock photos]** helpt u bij het zoeken naar afbeeldingen die overeenkomen met de inhoud, kleur en compositie van het element dat in de levering wordt gebruikt.
 
 ## Toestemmingen{#stock-permissions}
 
