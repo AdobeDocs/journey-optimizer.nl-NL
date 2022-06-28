@@ -4,7 +4,7 @@ description: Leer hoe u subdomeinen van landingspagina's configureert met Journe
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
+source-git-commit: 911df5b5b81c0e803c41e4e12817c4773d498b73
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Voer de onderstaande stappen uit om een subdomein te gebruiken dat al is gedeleg
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   U kunt niet meerdere gedelegeerde subdomeinen van hetzelfde bovenliggende domein gebruiken. Bijvoorbeeld, als marketing1.yourcompany.com reeds aan Adobe voor uw het landen pagina&#39;s wordt gedelegeerd, zult u niet marketing2.yourcompany.com kunnen gebruiken. Subdomeinen van meerdere niveaus worden echter ondersteund voor bestemmingspagina&#39;s, zodat u &#39;email.marketing1.yourcompany.com&#39; kunt gebruiken.
+   U kunt niet meerdere gedelegeerde subdomeinen van hetzelfde bovenliggende domein gebruiken. Als &#39;marketing1.yourcompany.com&#39; bijvoorbeeld al is gedelegeerd aan Adobe voor uw bestemmingspagina&#39;s, kunt u &#39;marketing2.yourcompany.com&#39; niet gebruiken. Subdomeinen van meerdere niveaus worden echter ondersteund voor bestemmingspagina&#39;s, zodat u &#39;email.marketing1.yourcompany.com&#39; kunt gebruiken.
 
    <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
 
