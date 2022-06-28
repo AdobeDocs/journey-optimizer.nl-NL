@@ -5,9 +5,10 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 4f6d018d5e5d127e5eb26b2d1b59dc0a248db45b
+exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
+source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1088'
 ht-degree: 1%
 
 ---
@@ -17,13 +18,13 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="Een BCC-e-mailadres definiëren"
->abstract="U kunt een kopie van verzonden e-mailberichten bewaren door deze naar een BCC-postvak te verzenden. Voer het e-mailadres van uw keuze in, zodat elke verzonden e-mail blind wordt gekopieerd naar dit BCC-adres. Deze functie is optioneel."
+>abstract="U kunt een kopie van verzonden e-mailberichten bewaren door deze naar een BCC-postvak te verzenden. Voer het e-mailadres van uw keuze in, zodat elke verzonden e-mail blind wordt gekopieerd naar dit BCC-adres. Merk op dat het BCC adresdomein niet het zelfde zou moeten zijn als om het even welk subdomain die aan Adobe wordt gedelegeerd. Deze functie is optioneel."
 
 U kunt een identieke kopie (of blinde koolstofkopie) van een e-mailbericht verzenden dat is verzonden door [!DNL Journey Optimizer] naar een BCC-postvak. Met deze optionele functie kunt u kopieën behouden van e-mailberichten die u naar uw gebruikers verzendt voor compatibiliteits- en/of archiefdoeleinden. Dit zal onzichtbaar zijn voor de leverende ontvangers.
 
 ## BCC-e-mail inschakelen {#enable-bcc}
 
-Om het **[!UICONTROL BCC email]** voert u het e-mailadres van uw keuze in het desbetreffende veld in. U kunt elk extern adres in de juiste indeling opgeven, behalve een e-mailadres dat is gedefinieerd in het gedelegeerde subdomein. Als het gedelegeerde subdomein bijvoorbeeld *marketing.luma.com*, elk adres zoals *abc@marketing.luma.com* is verboden.
+Om het **[!UICONTROL BCC email]** voert u het e-mailadres van uw keuze in het desbetreffende veld in. U kunt elk extern adres opgeven in de juiste indeling, behalve een e-mailadres dat is gedefinieerd voor een subdomein dat is gedelegeerd aan Adobe. Als u bijvoorbeeld de opdracht *marketing.luma.com* subdomein voor Adobe, elk adres zoals *abc@marketing.luma.com* is verboden.
 
 >[!NOTE]
 >

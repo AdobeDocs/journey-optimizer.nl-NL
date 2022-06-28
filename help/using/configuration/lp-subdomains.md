@@ -3,9 +3,10 @@ title: Subdomeinen van bestemmingspagina configureren
 description: Leer hoe u subdomeinen van landingspagina's configureert met Journey Optimizer
 role: Admin
 level: Intermediate
-source-git-commit: a485c58366f0690fb2515139658224d59468a24f
+exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
+source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
@@ -58,6 +59,10 @@ Voer de onderstaande stappen uit om een subdomein te gebruiken dat al is gedeleg
 
    ![](assets/lp_prefix-and-subdomain.png)
 
+   U kunt niet meerdere gedelegeerde subdomeinen van hetzelfde bovenliggende domein gebruiken. Bijvoorbeeld, als marketing1.yourcompany.com reeds aan Adobe voor uw het landen pagina&#39;s wordt gedelegeerd, zult u niet marketing2.yourcompany.com kunnen gebruiken. Subdomeinen van meerdere niveaus worden echter ondersteund voor bestemmingspagina&#39;s, zodat u &#39;email.marketing1.yourcompany.com&#39; kunt gebruiken.
+
+   <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
+
    >[!CAUTION]
    >
    >Als u een domein selecteert dat aan Adobe werd gedelegeerd gebruikend [CNAME, methode](delegate-subdomain.md#cname-subdomain-delegation), moet u het DNS-record op uw hostingplatform maken. Om het DNS verslag te produceren, is het proces het zelfde als wanneer u een nieuw landend paginasubdomain vormt. Meer informatie over [deze sectie](#lp-configure-new-subdomain).
@@ -99,7 +104,11 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
    Het delegeren van een ongeldig subdomein aan Adobe is niet toegestaan. Zorg ervoor u een geldig subdomein ingaat dat door uw organisatie, zoals marketing.yourcompany.com wordt bezeten.
 
-   Subdomeinen op meerdere niveaus, zoals &#39;email.marketing.yourcompany.com&#39;, worden momenteel niet ondersteund.
+   >[!NOTE]
+   >
+   >Voor bestemmingspagina&#39;s worden subdomeinen met meerdere niveaus ondersteund. U kunt bijvoorbeeld &#39;email.marketing.yourcompany.com&#39; gebruiken.
+
+   <!--Journey Optimizer currently does not support multiple subdomains of the same parent domain for landing page configuration-->
 
 1. Het verslag dat in uw DNS serververtoningen moet worden geplaatst. Kopieer deze record of download een CSV-bestand en navigeer vervolgens naar de oplossing voor domeinhosting om de overeenkomende DNS-record te genereren.
 
