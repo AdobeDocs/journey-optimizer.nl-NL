@@ -5,11 +5,9 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-source-git-commit: 4d211b9a0087526fe81d7b989195f21ceab42865
+source-git-commit: 6c9e4920f57a7f52cf52da706f309ef3a9f8f5fc
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -80,7 +78,7 @@ De volgende objecten worden gekopieerd:
 
 * Segment
 
-   Een segment kan slechts eenmaal van de ene naar de andere sandbox worden gekopieerd. Volgende verzoeken om het segment te kopiëren zullen mislukken. Als een segment eenmaal is gekopieerd, kan het niet worden bewerkt in de doelsandbox.
+   Een segment kan slechts eenmaal van de ene naar de andere sandbox worden gekopieerd. Als een segment eenmaal is gekopieerd, kan het niet worden bewerkt in de doelsandbox.
 
 * Schema
 
@@ -103,4 +101,8 @@ De volgende objecten worden gekopieerd:
    De acties en actiedetails die in de reis worden gebruikt worden gekopieerd.
 
 Voorinstellingen worden niet gekopieerd. Het systeem selecteert automatisch de best mogelijke overeenkomst op de bestemmingszandbak, die op berichttype en vooraf ingestelde naam wordt gebaseerd. Als er geen voorinstellingen worden gevonden in de doelsandbox, mislukt het kopiëren van de voorinstelling. Dit betekent dat het bericht ook niet kan worden gekopieerd omdat een bericht vereist dat er een voorinstelling beschikbaar is voor installatie. In dit geval moet ten minste één voorinstelling worden gemaakt voor het rechterkanaal van het bericht, zodat de kopie werkt.
+
+Voor schema&#39;s, het Beleid en de Segmenten van de Fusie, de tweede keer deze voorwerpen proberen om worden gekopieerd, zullen zij slechts van verwijzingen worden voorzien. Deze worden behandeld als objecten die al bestaan en worden opnieuw gekopieerd. Dit betekent dat deze objecten slechts eenmaal kunnen worden gekopieerd.
+
+Er is een vertraging van vijf minuten voordat Adobe Journey Optimizer naar schema&#39;s, beleid en segmenten samenvoegen kan verwijzen zonder een fout op het canvas te zien. Wacht vijf minuten en deze referenties zijn beschikbaar.
 
