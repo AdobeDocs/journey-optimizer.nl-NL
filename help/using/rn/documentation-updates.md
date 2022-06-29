@@ -2,9 +2,9 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
+source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1606'
 ht-degree: 20%
 
 ---
@@ -27,6 +27,8 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De pagina van de Lijst van gewenste personen is verplaatst naar de sectie van de Configuratie. [Meer informatie](../configuration/allow-list.md)
 * De pagina van de Lijst van de Onderdrukking is bijgewerkt om sommige informatie te verduidelijken, met inbegrip van het feit dat alle karakters van ASCII tussen 32 en 126 in de reden voor onderdrukking worden toegestaan. [Meer informatie](../configuration/manage-suppression-list.md)
 * Er is een verband toegevoegd met garanties en statische limieten voor het beheer van besluiten. [Meer informatie](../start/guardrails.md)
+* Send-Time Optimization is nu beschikbaar voor alle klanten. De bètavermelding is verwijderd. [Meer informatie](../building-journeys/journeys-message.md#send-time-optimization)
+
 
 
 ## Mei 2022 {#may-2022}

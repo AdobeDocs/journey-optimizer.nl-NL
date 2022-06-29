@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 67fcddc77ad5493905a0f1894a0cf497b0bfa2f9
+source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '804'
 ht-degree: 2%
 
 ---
@@ -71,10 +71,6 @@ Als u een bepaalde waarde wilt afdwingen, kunt u de opdracht **Parameteroverschr
 >abstract="De functie voor Send-Time optimalisatie van Adobe Journey Optimizer, aangedreven door de AI-services van Adobe, kan de beste tijd voorspellen voor het verzenden van een e-mail- of pushbericht om de betrokkenheid te maximaliseren op basis van de historische open en kliksnelheden."
 
 De functie voor Send-Time optimalisatie van Adobe Journey Optimizer, aangedreven door de AI-services van Adobe, kan de beste tijd voorspellen voor het verzenden van een e-mail- of pushbericht om de betrokkenheid te maximaliseren op basis van de historische open en kliksnelheden. Gebruik ons machine-leert model om gepersonaliseerde verzendtijden voor elke gebruiker te plannen om open te groeien en tarieven van uw berichten te klikken.
-
->[!AVAILABILITY]
->
->Deze functie is momenteel in bètaversie beschikbaar voor bètaklanten. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.
 
 Het model van de Optimalisering van de Send-Time neemt uw gegevens van Adobe Journey Optimizer op en kijkt open (voor e-mail en duw) op gebruikersniveau en klikt (voor e-mail) tarieven om te bepalen wanneer uw klanten het meest waarschijnlijk met uw overseinen in dienst zullen nemen. De optimalisering van de Send-Tijd vereist een minimum van één maand van bericht-volgende gegevens om geïnformeerde aanbevelingen te doen. Voor elke gebruiker kiest het systeem automatisch de beste tijd met behulp van de volgende scores:
 
