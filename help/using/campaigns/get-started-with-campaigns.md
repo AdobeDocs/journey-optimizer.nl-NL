@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b9fa6bff926eb8cee476fa53feb38ed783e048fc
+source-git-commit: 1e4c5ab80336238283df041fdb4d323005acd325
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -28,12 +28,11 @@ Met campagnes kunt u eenmalige inhoud leveren aan een specifiek segment met behu
 
 In tegenstelling tot reizen, waar acties worden ontworpen om in opeenvolging te worden uitgevoerd, voeren de campagnes acties gelijktijdig, of onmiddellijk, of op een gespecificeerd programma uit. U kunt ze bijvoorbeeld gebruiken voor het aanbieden van promotieaanbiedingen, betrokkenheidscampagnes, aankondigingen, juridische kennisgevingen of beleidsupdates.
 
-<!--Additionally, campaigns' content experiment feature allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.-->
-
-Leer hoe u campagnes beheert &lt;!>—en inhoudexperimenten&lt;>:
+Leer hoe u met campagnes kunt werken:
 * [Een campagne maken](create-campaign.md)
 * [Een campagne wijzigen of stoppen](modify-stop-campaign.md)
-<!--* [Create a content experiment](content-experiment.md)-->
+* [Campagne live-rapport](campaign-live-report.md)
+* [Globaal verslag campagne voeren](campaign-global-report.md)
 
 ## Campagnes openen {#access}
 
