@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 492acb7c7474964bb27cd562db5cd4cb2ed42784
+source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1498'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
 1. Nadat de berichtvoorinstelling is gemaakt, wordt deze in de lijst weergegeven met de **[!UICONTROL Processing]** status.
 
-   Tijdens deze stap, zullen verscheidene controles worden uitgevoerd om te verifiëren dat het behoorlijk is gevormd. De verwerkingstijd kan maximaal **3 uur**.
+   Tijdens deze stap, zullen verscheidene controles worden uitgevoerd om te verifiëren dat het behoorlijk is gevormd. De verwerkingstijd is ongeveer **48u-72u** en kan **7-10 werkdagen**.
 
    Deze controles omvatten configuratie en technische tests die door het team van Adobe worden uitgevoerd:
 
@@ -179,7 +179,7 @@ Volg onderstaande stappen om een berichtvoorinstelling te bewerken.
    >
    >U kunt de berichtvoorinstelling ook opslaan als concept en de update later hervatten.
 
-Nadat de wijzigingen zijn ingediend, doorloopt de berichtvoorinstelling een validatiecyclus die vergelijkbaar is met de validatiecyclus die op dat moment wordt toegepast [een voorinstelling maken](#create-message-preset).
+Nadat de wijzigingen zijn ingediend, doorloopt de berichtvoorinstelling een validatiecyclus die vergelijkbaar is met de validatiecyclus die op dat moment wordt toegepast [een voorinstelling maken](#create-message-preset). De verwerkingstijd van de editie kan maximaal **3 uur**.
 
 >[!NOTE]
 >

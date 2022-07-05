@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b29ab43f56b64d5bf972a45036c639454b650099
+source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -78,8 +78,8 @@ Om een IP pool uit te geven:
 
 De update is onmiddellijk of asynchroon van kracht, afhankelijk van de IP pool die aan een wordt geassocieerd [berichtvoorinstelling](message-presets.md) of niet:
 
-* Als de IP pool is **niet** geselecteerd in een berichtvoorinstelling, wordt de update onmiddellijk uitgevoerd (**[!UICONTROL Success]** status).
-* Als de IP pool **is** geselecteerd in een berichtvoorinstelling, kan de update maximaal 3 uur duren (**[!UICONTROL Processing]** status).
+* Als de IP pool is **niet** gekoppeld aan een berichtvoorinstelling, wordt de update onmiddellijk uitgevoerd (**[!UICONTROL Success]** status).
+* Als de IP pool **is** kan de update maximaal 3 uur duren (**[!UICONTROL Processing]** status).
 
 >[!NOTE]
 >

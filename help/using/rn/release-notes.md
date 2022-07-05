@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: fedc0f70f336a9fa7917ad34a06e4d1845c1fdd4
+source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '487'
 ht-degree: 10%
 
 ---
@@ -149,9 +149,9 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 * **Voorvertoning van URL-parameters bijhouden** - Als u een berichtvoorinstelling configureert en URL-trackingparameters definieert, wordt nu een dynamische voorvertoning van de resulterende URL weergegeven. [Meer informatie](../configuration/email-settings.md#url-tracking)
 
-* **Berichtvoorinstelling maken** - De verwerkingstijd voor het maken van een berichtvoorinstelling kan nu maximaal 3 uur in beslag nemen. [Meer informatie](../configuration/message-presets.md#create-message-preset)
+* **Vooraf ingestelde berichtversie** - Wanneer u nu een berichtvoorinstelling bijwerkt, kan de verwerkingstijd maximaal 3 uur in beslag nemen. [Meer informatie](../configuration/message-presets.md#edit-message-preset)
 
-* **IP-pooleditie** - Nu kan de verwerkingstijd voor IP pool update slechts tot 3 uren vergen. [Meer informatie](../configuration/ip-pools.md#edit-ip-pool)
+* **IP-pooleditie** - Wanneer het bijwerken van een IP pool, kan de verwerkingstijd slechts tot 3 uren vergen. [Meer informatie](../configuration/ip-pools.md#edit-ip-pool)
 
 <!--* **Personalize tracking URL parameters** - You can now use the Expression Editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
 
