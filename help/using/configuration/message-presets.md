@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 1%
+source-wordcount: '1476'
+ht-degree: 0%
 
 ---
 
@@ -49,11 +49,25 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
    >
    > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook het onderstrepingsteken gebruiken `_`, punt`.` en afbreekstreepje `-` tekens.
 
-1. Configureer de **email** instellingen. [Meer informatie](#configure-email-settings)
+1. Als u **[!UICONTROL Email]** kanaal, configureert u uw instellingen zoals beschreven in [deze sectie](email-settings.md).
 
-1. Configureer de **pushmelding** instellingen. [Meer informatie](#configure-push-settings)
+   ![](assets/preset-email.png)
 
-1. Configureren **SMS** instellingen. [Meer informatie](sms-configuration.md)
+1. Als u **[!UICONTROL Push Notification]** kanaal, selecteer minstens één platform (**iOS** en/of **Android**) en selecteert u de mobiele toepassingen die u voor elk platform wilt gebruiken.
+
+   ![](assets/preset-push.png)
+
+   >[!NOTE]
+   >
+   >Raadpleeg voor meer informatie over het configureren van uw omgeving voor het verzenden van pushberichten de [deze sectie](push-gs.md).
+
+1. Als u **[!UICONTROL SMS]** kanaal, configureert u uw instellingen zoals beschreven in [deze sectie](sms-configuration.md#message-preset-sms).
+
+   ![](assets/preset-sms.png)
+
+   >[!NOTE]
+   >
+   >Voor meer over hoe te om uw milieu te vormen om de berichten van SMS te verzenden, verwijs naar [deze sectie](sms-configuration.md).
 
 1. Zodra alle parameters zijn gevormd, klik **[!UICONTROL Submit]** ter bevestiging. U kunt de berichtvoorinstelling ook opslaan als concept en de configuratie ervan later hervatten.
 
@@ -86,42 +100,6 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 1. Als de controles zijn voltooid, wordt met de berichtvoorinstelling het volgende opgehaald **[!UICONTROL Active]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
    ![](assets/preset-active.png)
-
-## E-mailinstellingen configureren {#configure-email-settings}
-
-E-mailinstellingen worden gedefinieerd in een specifieke sectie van de configuratie van de berichtvoorinstelling.
-
-![](assets/preset-email.png)
-
-Uw instellingen configureren zoals beschreven in [deze sectie](email-settings.md).
-
-## Pushinstellingen configureren {#configure-push-settings}
-
-De duw montages worden bepaald in een specifiek gedeelte van de bericht vooraf ingestelde configuratie.
-
-Voer de onderstaande stappen uit om de pushinstellingen te definiëren die zijn gekoppeld aan de berichtvoorinstelling:
-
-1. Selecteer ten minste één platform: **iOS** en/of **Android**.
-
-1. Selecteer de mobiele toepassingen die u voor elk platform wilt gebruiken.
-
-![](assets/preset-push.png)
-
-Raadpleeg voor meer informatie over het configureren van uw omgeving voor het verzenden van pushberichten de [deze sectie](../configuration/push-gs.md).
-
-<!--
-## Configure SMS settings {#configure-sms-settings}
-
-1. Select the **[!UICONTROL SMS Type]** that will be sent with the preset: **[!UICONTROL Transactional]** or **[!UICONTROL Marketing]**.
-
-    ![](assets/preset-sms.png)
-    
-1. Select the **[!UICONTROL SMS configuration]** to associate with the preset.
-        
-    For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
-
-1. Enter the **[!UICONTROL Sender number]** ​you want to use for your communications.
--->
 
 ## Voorinstellingen voor monitorberichten {#monitor-message-presets}
 
@@ -185,6 +163,8 @@ Nadat de wijzigingen zijn ingediend, doorloopt de berichtvoorinstelling een vali
 >
 >Als u alleen de **[!UICONTROL Description]**, **[!UICONTROL Email type]** en/of **[!UICONTROL Email retry parameters]** in velden, wordt de update onmiddellijk uitgevoerd.
 
+### Details bijwerken {#update-details}
+
 Voor voorinstellingen voor berichten met de **[!UICONTROL Active]** kunt u de details van de update controleren. Dit doet u als volgt:
 
 * Klik op de knop **[!UICONTROL Recent update]** wordt weergegeven naast de naam van de actieve voorinstelling.
@@ -209,7 +189,7 @@ Een update voor een berichtvoorinstelling kan de volgende statussen hebben:
 
 Elke status wordt hieronder beschreven.
 
-### Verwerking
+#### Verwerking
 
 Er worden verschillende controles op de leesbaarheid uitgevoerd om te controleren of de voorinstelling correct is bijgewerkt.
 
@@ -231,13 +211,13 @@ Als u een voorinstelling bewerkt die al actief was:
 >
 >U kunt een berichtvoorinstelling niet wijzigen terwijl de update bezig is. U kunt nog steeds op de naam klikken, maar alle velden worden grijs weergegeven. De wijzigingen worden pas doorgevoerd als de update is gelukt.
 
-### Succes {#success}
+#### Succes {#success}
 
 Zodra het validatieproces is voltooid, wordt de nieuwe versie van de voorinstelling automatisch gebruikt in alle berichten die deze voorinstelling gebruiken. Het kan echter zijn dat u moet wachten:
 * een paar minuten voordat het wordt verbruikt door de eenheidspublicaties,
 * totdat de volgende batch voor de voorinstelling van kracht is in batchberichten.
 
-### Mislukt {#failed}
+#### Mislukt {#failed}
 
 Als het validatieproces mislukt, wordt de oudere versie van de voorinstelling nog steeds gebruikt.
 

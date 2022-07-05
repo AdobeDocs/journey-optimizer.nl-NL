@@ -7,9 +7,10 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f00d503ef5ea38b35b7f56821a9f523dca9fbb94
+exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Het gebruik van op attributen-gebaseerde toegangsbeheer is momenteel beschikbaar in vroege toegang om slechts gebruikers te selecteren. Als u deze functie wilt gebruiken, neemt u contact op met de Adobe-accountmanager.
+>Het gebruik van op attributen-gebaseerde toegangsbeheer is momenteel slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Als u deze functie wilt gebruiken, neemt u contact op met de Adobe-accountmanager.
 
 Op attributen-gebaseerde toegangsbeheer (ABAC) laat u toestemmingen bepalen om gegevenstoegang voor specifieke teams of groepen gebruikers te beheren. Het doel is gevoelige digitale activa te beschermen tegen ongeoorloofde gebruikers, zodat persoonsgegevens verder kunnen worden beschermd.
 
@@ -159,4 +160,3 @@ Als de Gebruiker Y zonder toegang tot etiket C2 voorwerpen tot deze reis of om h
 * Gebruiker Y kan de Reis of het Bericht niet testen.
 
 * Gebruiker Y kan de Reis of het Bericht niet publiceren.
-

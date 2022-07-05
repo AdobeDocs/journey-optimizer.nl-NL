@@ -2,9 +2,9 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: de71f321dfb85575269623e37cc4b18f70ebc358
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1632'
 ht-degree: 20%
 
 ---
@@ -13,6 +13,9 @@ ht-degree: 20%
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
 
+## Juli 2022 {#july-2022}
+
+* De **Een berichtvoorinstelling maken** Deze sectie is verduidelijkt en bijgewerkt met koppelingen naar de pagina die beschrijft hoe u het SMS-kanaal kunt configureren. [Meer informatie](../configuration/message-presets.md#create-message-preset)
 
 ## Juni 2022 {#june-2022}
 
@@ -30,7 +33,6 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Send-Time Optimization is nu beschikbaar voor alle klanten. De bètavermelding is verwijderd. [Meer informatie](../building-journeys/journeys-message.md#send-time-optimization)
 
 
-
 ## Mei 2022 {#may-2022}
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van mei &#39;22 is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
@@ -41,7 +43,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Er is een opmerking toegevoegd waarin staat dat de methode Verwijderen niet wordt ondersteund in aangepaste handelingen. [Meer informatie](../action/about-custom-action-configuration.md)
 * De koppelingen naar Hoe kan ik-video&#39;s zijn bijgewerkt.
 * De [E-mailconfiguratie](../configuration/about-subdomain-delegation.md), [Voorinstellingen voor berichten](../configuration/message-presets.md) en [Landingspagina&#39;s configureren](../configuration/lp-subdomains.md) secties zijn gereorganiseerd voor betere leesbaarheid.
-* De **URL-tracking** is bijgewerkt en verbeterd met voorbeelden. [Meer informatie](../configuration/email-settings.md#url-tracking)
+* De sectie URL-tracking is bijgewerkt en verbeterd met voorbeelden. [Meer informatie](../configuration/email-settings.md#url-tracking)
 * Er is een nieuwe subsectie toegevoegd over het instellen van een e-mailadres voor verzending. U kunt dit niet doen via de gebruikersinterface. [Meer informatie](../configuration/email-settings.md#forward-email)
 
 ## April 2022 {#april-2022}

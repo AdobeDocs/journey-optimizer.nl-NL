@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '420'
 ht-degree: 5%
 
 ---
@@ -68,6 +68,16 @@ Je SMS-bericht kan nu worden gebruikt voor een reis. [Leer hoe u reizen maakt](.
 Voor alle marketingberichten moet het SMS een manier bevatten waarop de ontvangers het abonnement gemakkelijk kunnen opzeggen. Als u het abonnement opzegt, worden de profielen automatisch verwijderd uit het publiek van toekomstige marketingberichten. Het toevoegen van een koppeling voor het opzeggen van abonnementen is niet verplicht voor transactiemeldingen.
 
 De ontvangers van SMS kunnen met opt-in en opt-out sleutelwoorden antwoorden. Conform de industriestandaarden en -voorschriften verwerkt Adobe Journey Optimizer automatisch de volgende trefwoorden in binnenkomende berichten: START, STOP en ONTSTOP. Deze trefwoorden activeren automatische standaardantwoorden van de SMS-provider.
+
+Raadpleeg de volgende video voor meer informatie over de manier waarop native ondersteuning voor binnenkomende trefwoorden (start, stop en unstop) werkt voor SMS.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
+
+## Hoe kan ik-video
+
+Leer hoe te, auteur, en omvat SMS overseinen in uw klantenreizen te vormen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
 
 **Verwante onderwerpen**
 

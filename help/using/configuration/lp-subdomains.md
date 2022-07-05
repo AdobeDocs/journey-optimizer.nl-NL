@@ -4,9 +4,9 @@ description: Leer hoe u subdomeinen van landingspagina's configureert met Journe
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 911df5b5b81c0e803c41e4e12817c4773d498b73
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
@@ -59,9 +59,7 @@ Voer de onderstaande stappen uit om een subdomein te gebruiken dat al is gedeleg
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   U kunt niet meerdere gedelegeerde subdomeinen van hetzelfde bovenliggende domein gebruiken. Als &#39;marketing1.yourcompany.com&#39; bijvoorbeeld al is gedelegeerd aan Adobe voor uw bestemmingspagina&#39;s, kunt u &#39;marketing2.yourcompany.com&#39; niet gebruiken. Subdomeinen van meerdere niveaus worden echter ondersteund voor bestemmingspagina&#39;s, zodat u &#39;email.marketing1.yourcompany.com&#39; kunt gebruiken.
-
-   <!--For landing pages, multi-level subdomains are supported. For example, you can use 'email.marketing.yourcompany.com'.-->
+   U kunt niet meerdere gedelegeerde subdomeinen van hetzelfde bovenliggende domein gebruiken. Als &#39;marketing1.yourcompany.com&#39; bijvoorbeeld al is gedelegeerd aan Adobe voor uw bestemmingspagina&#39;s, kunt u &#39;marketing2.yourcompany.com&#39; niet gebruiken. Maar subdomeinen met meerdere niveaus die worden ondersteund voor bestemmingspagina&#39;s, kunt u doorgaan met het gebruik van een subdomein van &#39;marketing1.yourcompany.com&#39; (zoals &#39;email.marketing1.yourcompany.com&#39;) of een ander bovenliggende domein.
 
    >[!CAUTION]
    >
@@ -107,8 +105,6 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
    >[!NOTE]
    >
    >Voor bestemmingspagina&#39;s worden subdomeinen met meerdere niveaus ondersteund. U kunt bijvoorbeeld &#39;email.marketing.yourcompany.com&#39; gebruiken.
-
-   <!--Journey Optimizer currently does not support multiple subdomains of the same parent domain for landing page configuration-->
 
 1. Het verslag dat in uw DNS serververtoningen moet worden geplaatst. Kopieer deze record of download een CSV-bestand en navigeer vervolgens naar de oplossing voor domeinhosting om de overeenkomende DNS-record te genereren.
 

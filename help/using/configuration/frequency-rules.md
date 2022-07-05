@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '865'
-ht-degree: 0%
+source-wordcount: '883'
+ht-degree: 1%
 
 ---
 
@@ -24,6 +24,8 @@ Hiervoor kunt u een regel voor de frequentie gebruiken die het aantal verzonden 
 >[!NOTE]
 >
 >De regels van de berichtfrequentie zijn verschillend van opt-out beheer, dat gebruikers toestaat om van het ontvangen van mededelingen van een merk af te zien. [Meer informatie](../messages/consent.md#opt-out-management)
+
+➡️ [Ontdek deze functie in video](#video)
 
 ## Toegangsregels {#access-rules}
 
@@ -188,3 +190,9 @@ In dit scenario wordt een individueel profiel:
 >[!NOTE]
 >
 >Bij het testen van frequentieregels kan het handig zijn om te beginnen met een nieuw [testprofiel](../segment/creating-test-profiles.md)Omdat er geen manier is om de teller opnieuw in te stellen tot de volgende maand wanneer de frequentie-instelling van een profiel is bereikt. Als u een regel deactiveert, kunnen beperkte profielen berichten ontvangen, maar worden er geen tellerverhogingen verwijderd of verwijderd.
+
+## Hoe kan ik-video {#video}
+
+Leer hoe u regels voor frequenties maakt, activeert, test en rapporteert.
+
+>[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

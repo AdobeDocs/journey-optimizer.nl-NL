@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1054'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Raadpleeg de documentatie bij [offer decisioning](https://experienceleague.adobe
 
 >[!NOTE]
 >
->Het gebruik van Beslissingsbeheer in de SDK van het Web van Adobe Experience Platform is momenteel beschikbaar in vroege toegang aan geselecteerde gebruikers. Deze functionaliteit is niet beschikbaar voor alle organisaties.
+>Het gebruik van Beslissingsbeheer in Adobe Experience Platform Web SDK is alleen beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Als u deze functie wilt gebruiken, neemt u contact op met de Adobe-accountmanager.
 
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 
