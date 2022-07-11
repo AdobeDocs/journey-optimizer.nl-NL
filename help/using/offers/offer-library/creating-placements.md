@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 1b181ae4330f0efe209944980344c6726e8d595c
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 5%
+source-wordcount: '234'
+ht-degree: 6%
 
 ---
 
@@ -47,7 +47,7 @@ Voer de volgende stappen uit om een plaatsing te maken:
 
    ![](../assets/offers_placement_creation_properties.png)
 
-1. Klikken **[!UICONTROL Save]** ter bevestiging.
+1. Klik op **[!UICONTROL Save]** om te bevestigen.
 
 1. Zodra de plaatsing wordt gecreeerd, toont het in de plaatsingslijst. U kunt het selecteren om zijn eigenschappen te tonen en het uit te geven.
 
