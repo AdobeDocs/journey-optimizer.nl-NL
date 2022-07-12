@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 43a076632d2f2195ce0293f741dfbc28d4eea24a
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 0%
+source-wordcount: '618'
+ht-degree: 1%
 
 ---
 
@@ -110,3 +110,11 @@ De **[!UICONTROL Error Reasons]** en **[!UICONTROL Exclude Reasons]** in grafiek
 De **[!UICONTROL Sending statistics - Failed]** met widget kunt u zien hoeveel fouten en golven er zijn opgetreden.
 
 De **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** en **[!UICONTROL Breakdown by platform]** in grafieken en tabellen wordt aangegeven hoe succesvol uw pushmelding is, afhankelijk van het besturingssysteem.
+
+## Aanvullende bronnen
+
+* [Aan de slag met campagnes](get-started-with-campaigns.md)
+* [Een campagne maken](create-campaign.md)
+* [API-gestuurde campagnes maken](api-triggered-campaigns.md)
+* [Een campagne wijzigen of stoppen](modify-stop-campaign.md)
+* [Globaal verslag campagne voeren](campaign-global-report.md)
