@@ -2,7 +2,7 @@
 title: Migreren naar inline authoring
 description: Leer hoe u berichten kunt migreren
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 3f9844dec9caf520ab59c5f2b433a5c2e86ef44f
+source-git-commit: 8404cbe345879bdd3c90a4ce542135fb7cbf1eb3
 workflow-type: tm+mt
 source-wordcount: '1700'
 ht-degree: 0%
@@ -114,8 +114,8 @@ Een migratie is vereist om uw bestaande reizen om te zetten met **Berichten** in
 
 De migratie zal voor elke regio in nachttijd, door verscheidene herhalingen gebeuren. Hier is de migratietijdlijn:
 
-* 25 juli 2002: GA - 1e iteratie
-* 1 augustus 2002: 2e herhaling
+* 25 juli 2022: GA - 1e iteratie
+* 1 augustus 2022: 2e herhaling
 * 5 september 2022: 3e herhaling
 * 6 september 2022: afkeer
 
