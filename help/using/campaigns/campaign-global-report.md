@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: cc20ecf0a019cecb8a4ae9420c5dbdcb28443c91
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
@@ -205,3 +205,11 @@ De **[!UICONTROL Error Reasons]** de grafiek en de lijst laten u zien welke fout
 De **[!UICONTROL Excluded reasons]** de grafiek en de lijst tonen de verschillende redenen die gebruikersprofielen, uitgesloten van de gerichte profielen, van het ontvangen van het bericht verhinderden.
 
 De **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** en **[!UICONTROL Breakdown by platform]** grafieken en tabellen geven het succes van uw pushmelding weer, afhankelijk van het besturingssysteem van de ontvanger.
+
+## Aanvullende bronnen
+
+* [Aan de slag met campagnes](get-started-with-campaigns.md)
+* [Een campagne maken](create-campaign.md)
+* [API-gestuurde campagnes maken](api-triggered-campaigns.md)
+* [Een campagne wijzigen of stoppen](modify-stop-campaign.md)
+* [Campagne live-rapport](campaign-live-report.md)
