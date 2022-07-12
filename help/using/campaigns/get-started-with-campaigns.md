@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 1e4c5ab80336238283df041fdb4d323005acd325
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '300'
 ht-degree: 2%
 
 ---
@@ -24,12 +24,16 @@ ht-degree: 2%
 
 ## Informatie over campagnes {#about}
 
-Met campagnes kunt u eenmalige inhoud leveren aan een specifiek segment met behulp van meerdere kanalen.
+Met campagnes kunt u eenmalige inhoud leveren aan een specifiek segment met behulp van meerdere kanalen. In tegenstelling tot reizen, waar acties worden ontworpen om in opeenvolging te worden uitgevoerd, voeren de campagnes acties gelijktijdig, of onmiddellijk, of op een gespecificeerd programma uit.
 
-In tegenstelling tot reizen, waar acties worden ontworpen om in opeenvolging te worden uitgevoerd, voeren de campagnes acties gelijktijdig, of onmiddellijk, of op een gespecificeerd programma uit. U kunt ze bijvoorbeeld gebruiken voor het aanbieden van promotieaanbiedingen, betrokkenheidscampagnes, aankondigingen, juridische kennisgevingen of beleidsupdates.
+U kunt twee typen campagnes maken:
+
+* **Geplande campagnes** voor eenvoudige ad-hoc partijmededelingen voor marketing gebruiksgevallen zoals promotieaanbiedingen, betrokkenheidscampagnes, aankondigingen, wettelijke berichten, of beleidsupdates toestaan.
+* **API-gestuurde campagnes** eenvoudige transactie-/operationele berichten mogelijk maken met REST API&#39;s (opnieuw instellen van wachtwoorden, annuleren van kaarten, enz.), waarbij de behoefte kan bestaan uit personalisatie met behulp van profielkenmerken en contextafhankelijke gegevens van lading.
 
 Leer hoe u met campagnes kunt werken:
 * [Een campagne maken](create-campaign.md)
+* [API-gestuurde campagnes maken](api-triggered-campaigns.md)
 * [Een campagne wijzigen of stoppen](modify-stop-campaign.md)
 * [Campagne live-rapport](campaign-live-report.md)
 * [Globaal verslag campagne voeren](campaign-global-report.md)
