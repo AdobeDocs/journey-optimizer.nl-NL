@@ -4,7 +4,7 @@ description: Leer hoe u berichten kunt migreren
 hide: true
 hidefromtoc: true
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 8aecf71f61efb4c2a8f80991d30089a90e2b4705
+source-git-commit: 99a6a9d771cf519210caeab02d4a993185083439
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -38,9 +38,9 @@ ht-degree: 0%
 >abstract="Vanaf 25 juli 2022 verdwijnt het menu Berichten en worden berichten rechtstreeks vanuit een Reis geschreven. Als u oude berichten tijdens reizen opnieuw wilt gebruiken, moet u ze opslaan als sjablonen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="Berichten opslaan als sjablonen"
 
-Adobe Journey Optimizer brengt een nieuwe functie uit die de manier verbetert waarop de auteur van de praktijk de kanalen voor Journey Optimizer levert zoals e-mail, push, SMS. Deze functie vereist een migratie van bestaande Transparanten die Berichten gebruiken.
+Adobe Journey Optimizer geeft een nieuwe functie uit die de manier verbetert waarop u inhoud ontwerpt voor Journey Optimizer-kanalen (e-mail, push, SMS). Als Journey Optimizer-expert zult u nu uw berichten rechtstreeks van een reis maken en schrijven.
 
-Als reispraktiserer kunt u nu uw berichten rechtstreeks vanuit een reis maken en schrijven.
+Deze functie vereist een migratie van bestaande reizen die berichten gebruiken.
 
 ![](assets/inline-message.png)
 
