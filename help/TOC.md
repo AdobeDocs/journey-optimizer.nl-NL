@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ebc96f7dfd3f3e4b49e0379904dd2244dda04bc3
+source-git-commit: e254e75844e667a0ff8b466aa60961ec1b65064e
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1108'
 ht-degree: 40%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 40%
       + [Opmerkingen bij de release van 2022](using/rn/release-notes-2022.md)
       + [Opmerkingen bij de release van 2021](using/rn/release-notes-2021.md)
    + [Documentatie-updates](using/rn/documentation-updates.md)
-   + [Berichtmigratie](using/rn/inline-messages.md)
 + Aan de slag{#get-started}
    + [Wat is Journey Optimizer](using/start/get-started.md)
    + Snel starten{#quick-start}
@@ -287,7 +286,7 @@ ht-degree: 40%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
+         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
