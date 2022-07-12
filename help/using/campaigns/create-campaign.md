@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: b9fa6bff926eb8cee476fa53feb38ed783e048fc
+source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '724'
 ht-degree: 2%
 
 ---
@@ -33,20 +33,22 @@ U kunt als volgt een campagne opzetten:
 
    ![](assets/create-campaign.png)
 
-<!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
+1. In de **[!UICONTROL Properties]** in, geeft u op wanneer u de campagne wilt uitvoeren:
 
-    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date,
-    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. In this case, profiles to be targeted and triggers for actions need to be set via the API call.-->
+   * **[!UICONTROL Scheduled]**: voert de campagne onmiddellijk of op een gespecificeerde datum uit. Geplande campagnes zijn gericht op het verzenden van **marketing** type berichten.
+   * **[!UICONTROL API-triggered]**: voer de campagne uit gebruikend een API vraag. API-gestuurde campagnes zijn gericht op het verzenden van **transactie** berichten, d.w.z. berichten die worden verzonden na een actie uitgevoerd door een individu: wachtwoord opnieuw instellen, kaart verlaten enzovoort. [Leer hoe u een campagne activeert met behulp van API&#39;s](api-triggered-campaigns.md)
 
-1. In de **[!UICONTROL Actions]** kiest u het kanaal en het berichtoppervlak (dat wil zeggen de berichtvoorinstelling) waarmee u het bericht wilt verzenden.
+1. In de **[!UICONTROL Actions]** , kiest u het kanaal en het berichtoppervlak (dat wil zeggen de berichtvoorinstelling) dat u wilt gebruiken om uw bericht te verzenden en klikt u vervolgens op **[!UICONTROL Create]**.
 
    ![](assets/create-campaign-action.png)
+
+   >[!NOTE]
+   >
+   >Alleen berichtoppervlakken die compatibel zijn met het type campagne (marketing of transactie) worden vermeld in de vervolgkeuzelijst.
 
 1. Geef een titel en een beschrijving voor de campagne op.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
-
-   ![](assets/create-campaign-properties.png)
 
 1. In de **[!UICONTROL Actions]** , vorm het bericht om met de campagne te verzenden:
 
@@ -60,13 +62,11 @@ U kunt als volgt een campagne opzetten:
 
       De resultaten van het bijhouden van de campagne zijn toegankelijk via het campagnerapport nadat de campagne is uitgevoerd. [Meer informatie over campagnerapporten](campaign-global-report.md)
 
-      ![](assets/create-campaign-action-properties.png)
-
 1. Bepaal het publiek om te richten. Om dit te doen, klik **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-segmenten weer te geven. [Meer informatie over segmenten](../segment/about-segments.md)
 
-   ![](assets/create-campaign-audience.png)
-
-   <!--By default, the targeted audience for in-app messages includes all the users of the selected mobile application.-->
+   >[!NOTE]
+   >
+   >Voor API-getriggerde campagnes moet het publiek worden ingesteld via API-aanroep. [Meer informatie](api-triggered-campaigns.md)
 
    In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren. [Meer informatie over naamruimten](../event/about-creating.md#select-the-namespace)
 
@@ -74,18 +74,19 @@ U kunt als volgt een campagne opzetten:
 
    >[!NOTE]
    >
-   >Individuen die tot een segment behoren dat niet de geselecteerde identiteit (namespace) onder hun verschillende identiteiten heeft zullen niet door de campagne worden gericht. <!--info vue dans section journeys, read segment-->
+   >Individuen die tot een segment behoren dat niet de geselecteerde identiteit (namespace) onder hun verschillende identiteiten heeft zullen niet door de campagne worden gericht.
 
-   <!--If you are creating a campaign to send an in-app message, you can choose how and when the message will be shown to the audience using existing mobile app triggers.-->
-   <!-- where are triggers configured?-->
+1. De begin- en einddatum van de campagne configureren. Door gebrek, worden de Campagnes gevormd om te beginnen zodra zij manueel worden geactiveerd, en om als signalen te beëindigen aangezien het bericht is verzonden eens.
 
-1. De begin- en einddatum van de campagne configureren.
+1. Bovendien, kunt u een frequentie voor de uitvoering van de actie specificeren die in de campagne wordt gevormd.
 
-   Door gebrek, worden de Campagnes gevormd om te beginnen zodra zij manueel worden geactiveerd, en om als signalen te beëindigen aangezien het bericht is verzonden eens.
-
-1. Bovendien, kunt u een frequentie voor de uitvoering van de actie vormen die in de campagne wordt gevormd.
+   >[!NOTE]
+   >
+   >Voor API-getriggerde campagnes is het plannen op een bepaalde datum en tijd met terugkerende acties niet beschikbaar omdat de actie wordt geactiveerd via de API. De begin- en einddatum zijn echter van belang om ervoor te zorgen dat als een API-aanroep vóór na het venster wordt uitgevoerd, de aanroepen een foutmelding krijgen.
 
    ![](assets/create-campaign-schedule.png)
+
+1. Als u een API-gestuurde campagne maakt, **[!UICONTROL cURL request]** kunt u de **[!UICONTROL Campaign ID]** gebruiken in de API-aanroep. [Meer informatie](api-triggered-campaigns.md)
 
 Als uw campagne gereed is, kunt u deze reviseren en publiceren (zie [Een campagne bekijken en activeren](#review-activate)).
 
@@ -124,3 +125,11 @@ Zodra uw campagne is gevormd, moet u zijn parameter en inhoud herzien alvorens h
    >[!IMPORTANT]
    >
    >Berichten die in campagnes worden gemaakt, zijn specifiek voor [!DNL Journey Optimizer] campagnecapaciteiten. Als deze eenmaal zijn gemaakt, zijn ze alleen toegankelijk via campagnes en worden ze niet weergegeven in de **[!UICONTROL Messages]** -menu.
+
+## Aanvullende bronnen
+
+* [Aan de slag met campagnes](get-started-with-campaigns.md)
+* [API-gestuurde campagnes maken](api-triggered-campaigns.md)
+* [Een campagne wijzigen of stoppen](modify-stop-campaign.md)
+* [Campagne live-rapport](campaign-live-report.md)
+* [Globaal verslag campagne voeren](campaign-global-report.md)
