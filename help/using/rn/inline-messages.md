@@ -2,9 +2,9 @@
 title: Migreren naar inline authoring
 description: Leer hoe u berichten kunt migreren
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: d27bcae95f1890292eb8f2eae8b2e72c3ad501e3
+source-git-commit: 5ff9e34c70f13a6ebf12d106759c927f0b506520
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1692'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_before"
->title="Meer informatie over nieuwe inlineontwerpberichten"
->abstract="Vanaf 25 juli 2022 worden berichten rechtstreeks vanuit een reis geschreven. Bestaande berichten worden automatisch naar het nieuwe model gemigreerd. Na de migratie zijn aanvullende acties vereist."
+>title="Meer informatie over de nieuwe inline ontwerpfunctie"
+>abstract="Vanaf 25 juli 2022 worden berichten rechtstreeks vanuit een reis geschreven. Bestaande berichten worden automatisch naar het nieuwe model gemigreerd. Na de migratie zijn aanvullende acties vereist als u momenteel berichten gebruikt voor uw reizen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html?lang=en" text="Migratiestappen"
 
 >[!CONTEXTUALHELP]
