@@ -2,9 +2,9 @@
 title: Migreren naar inline authoring
 description: Leer hoe u berichten kunt migreren
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 8404cbe345879bdd3c90a4ce542135fb7cbf1eb3
+source-git-commit: f98ef26fa9c6075c852d33d19c796351296a3f94
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1673'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,9 @@ ht-degree: 0%
 >abstract="Vanaf 25 juli 2022 verdwijnt het menu Berichten en worden berichten rechtstreeks vanuit een Reis geschreven. Als u oude berichten tijdens reizen opnieuw wilt gebruiken, moet u ze opslaan als sjablonen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/design/email-templates.html#save-as-template" text="Berichten opslaan als sjablonen"
 
-Adobe Journey Optimizer geeft een nieuwe functie uit die de manier verbetert waarop u inhoud ontwerpt voor Journey Optimizer-kanalen (e-mail, push, SMS). Als Journey Optimizer-expert zult u nu uw berichten rechtstreeks van een reis maken en schrijven.
+Adobe Journey Optimizer geeft een nieuwe functie uit die de manier verbetert waarop u inhoud ontwerpt voor Journey Optimizer-kanalen (e-mail, push, SMS). Als Journey Optimizer-expert kunt u nu uw berichten rechtstreeks maken en schrijven vanaf een reis.
 
-Deze functie vereist een migratie van bestaande reizen die berichten gebruiken.
-
-Op deze pagina vindt u de benodigde informatie over deze wijziging en de stappen die u nodig hebt.
+Deze functie vereist een migratie van bestaande reizen die berichten gebruiken. Op deze pagina vindt u de benodigde informatie over deze wijziging en de stappen die u nodig hebt.
 
 Raadpleeg deze voor meer informatie over uw rollen en verantwoordelijkheden als Journey Optimizer-expert [page](../start/path/marketer.md).
 
@@ -61,23 +59,23 @@ Here are the main changes in the interface:
 
 * **Heb ik last van**: u wordt beïnvloed als u berichten van creeert **Berichten** in de linkernavigatie en gebruik hen in uw reizen. Als u een systeem van derden gebruikt (zoals Adobe Campaign), heeft deze migratie geen invloed op u.
 
-* **Productwijzigingen**: bij GA (25 juli), zal uw kanaalinhoud binnen elke reis worden gecreeerd en worden beheerd. De **Berichten** in de linkernavigatie niet meer beschikbaar is ([Meer informatie](../rn/inline-messages.md#change)). We gaan verder met een migratie voor uw bestaande reizen.
+* **Productwijzigingen**: bij GA (25 juli), wordt uw kanaalinhoud gecreeerd en binnen elke reis beheerd. De **Berichten** in de linkernavigatie niet meer beschikbaar is ([Meer informatie](../rn/inline-messages.md#change)). We gaan verder met een migratie voor uw bestaande reizen.
 
-* **Tijdlijn**: de migratie zal voor elke regio &#39;s nachts plaatsvinden, door verscheidene [herhalingen](../rn/inline-messages.md#iterations).
+* **Tijdlijn**: migratie vindt plaats voor elk gebied bij nacht, door verscheidene [herhalingen](../rn/inline-messages.md#iterations).
 
    ![](assets/inline-migration-timeline.png)
 
-* **Vereiste acties**: voor u wordt een automatische omzetting van de ritten uitgevoerd . Desalniettemin hebben we uw hulp nodig met een paar stappen. Meer informatie over de vereiste stappen in deze [page](../rn/inline-messages-steps.md).
+* **Vereiste acties**: voor u wordt een automatische omzetting van de ritten uitgevoerd. Toch hebben we uw hulp nodig met een paar stappen. Meer informatie over de vereiste stappen in deze [page](../rn/inline-messages-steps.md).
 
-* **Deprectie**: na 6 september worden alle reizen die nog steeds gebruikmaken van oude berichten, later stopgezet en verwijderd.
+* **Deprectie**: na 6 september worden alle reizen die nog steeds gebruikmaken van oude berichten stopgezet en later verwijderd.
 
 ## Voordelen en productwijzigingen{#change}
 
-Adobe is voortdurend om de stroom te vereenvoudigen. Deze nieuwe manier om berichten te maken, zorgt voor een gestroomlijnder gebruikersproces.
+voortdurend Adobe om de productstromen te vereenvoudigen. Deze nieuwe manier om berichten te maken zorgt voor een gestroomlijnder gebruikersproces.
 
-We hebben deze nieuwe workflow zo ontworpen dat inhoud op één locatie wordt geplaatst, direct waar deze wordt gebruikt.
+We hebben deze nieuwe workflow zo ontworpen dat inhoud op één locatie wordt gecentraliseerd, direct waar deze wordt gebruikt.
 
-De creatie van inhoud wordt nu direct binnen de reis uitgevoerd. De **uitkeringen** je krijgt het volgende :
+De creatie van inhoud wordt nu direct binnen de reis uitgevoerd. De **uitkeringen** je krijgt het volgende:
 
 * Snellere trajecten met gebruik van Journey Optimizer-kanalen in een enkele flow.
 * Snelle visualisatie van inhoud door naadloos over te schakelen tussen alle e-mail-, push- en SMS-inhoud op een reis.
@@ -110,9 +108,9 @@ Bij GA (25 juli) geldt deze nieuwe gebruikersstroom voor alle nieuwe reizen. De 
 
 ## Tijdlijn migratie{#iterations}
 
-Een migratie is vereist om uw bestaande reizen om te zetten met **Berichten** in reizen met inline authored acties. Voor u wordt een automatische omzetting van reizen uitgevoerd. Desalniettemin hebben we uw hulp nodig met een paar stappen.
+Een migratie is vereist om uw bestaande reizen om te zetten met **Berichten** in reizen met inline authored acties. Voor u wordt een automatische omzetting van reizen uitgevoerd. Toch hebben we uw hulp nodig met een paar stappen.
 
-De migratie zal voor elke regio in nachttijd, door verscheidene herhalingen gebeuren. Hier is de migratietijdlijn:
+De migratie komt voor elk gebied bij nacht voor, door verscheidene herhalingen. Hier is de migratietijdlijn:
 
 * 25 juli 2022: GA - 1e iteratie
 * 1 augustus 2022: 2e herhaling
@@ -129,7 +127,7 @@ Tijdens een herhaling gaan we elke reis door en migreren ze waar mogelijk. Er zi
 
 Adobe communiceert met u vóór de eerste herhaling.
 
-De verandering zal van de ene op de andere dag worden doorgevoerd, door middel van verschillende herhalingen. Meer informatie over [herhalingen](../rn/inline-messages.md#inline-authoring).
+De wijziging wordt &#39;s nachts geïmplementeerd, via verschillende herhalingen. Meer informatie over [herhalingen](../rn/inline-messages.md#inline-authoring).
 
 U wordt ook op de hoogte gesteld van meldingen in het product, die worden weergegeven op de schermen Journalen:
 
@@ -151,17 +149,17 @@ U wordt ook op de hoogte gesteld van meldingen in het product, die worden weerge
 
 ### Wat is het migratieproces?{#process}
 
-De migratie is volledig automatisch voor reizen die niet levend of gesloten zijn. We willen geen invloed uitoefenen op de rechtstreekse of gesloten reizen om te voorkomen dat de productie wordt beïnvloed. Wij zullen u vragen om de nieuwe versie te publiceren die wij voor u creeerden.
+De migratie is volledig automatisch voor reizen die niet levend of gesloten zijn. We willen geen invloed uitoefenen op de rechtstreekse of gesloten reizen om te voorkomen dat de productie wordt beïnvloed. We vragen u de nieuwe versie te publiceren die we voor u hebben gemaakt.
 
-Alle sandboxen van een ORG-klant worden gelijktijdig verwerkt. Tijdens de veranderingsimplementatie, zullen de volgende acties worden uitgevoerd:
+Alle sandboxen van een ORG-klant worden tegelijkertijd verwerkt. Tijdens de veranderingsimplementatie, worden de volgende acties uitgevoerd:
 
-**WILLEKEURIG pad dat geen berichten gebruikt**
+**Elke reis zonder berichten**
 
 Deze wijzigingen worden niet beïnvloed door de wijziging. Alleen reizen die berichten gebruiken, zijn het doelwit van de migratie. Nochtans, zult u tot berichten kunnen toegang hebben die niet in een reis via volgende URL worden gebruikt: https://experience.adobe.com/#/@[ORG]/naam:[SANDBOX]/transport-optimizer/messages/
 
-**ONTWERP-reizen met ten minste één bericht**
+**ONTWERP-reizen met behulp van ten minste één bericht**
 
-Conceptversies van berichten worden tijdens de migratie gewijzigd. Ze verwijzen niet meer naar een bericht. De **Bericht** de activiteiten zullen worden vervangen door de passende kanaalactiviteiten . Elk van hen zal de kanaalparameters en de inhoud omvatten.
+Conceptversies van berichten worden tijdens de migratie gewijzigd. Ze verwijzen niet meer naar een bericht. De **Bericht** activiteiten worden vervangen door de passende kanaalactiviteiten. Elk van hen omvat de kanaalparameters en de inhoud.
 
 Zoals gewoonlijk test u uw conceptreis voordat u deze publiceert.
 
@@ -169,15 +167,15 @@ Zoals gewoonlijk test u uw conceptreis voordat u deze publiceert.
 
 De live versie van een reis wordt steeds opnieuw uitgevoerd om eventuele gevolgen voor de productie te voorkomen.
 
-Tijdens de migratie wordt een nieuwe ontwerpversie van deze reis gemaakt. Deze nieuwe conceptversie wordt een kopie van uw live versie, maar berichten worden vervangen door inline authored channel-handelingen. Elke activiteit van de kanaalactie omvat de kanaalparameters en de inhoud. Inhoud gaat niet verloren. Rapportage gaat niet verloren
+Tijdens de migratie wordt een nieuwe ontwerpversie van deze reis gemaakt. Deze nieuwe conceptversie is een kopie van uw live versie, maar berichten worden vervangen door inline authored channel-handelingen. Elke activiteit van de kanaalactie omvat de kanaalparameters en de inhoud. Inhoud gaat niet verloren. Rapportage gaat niet verloren.
 
 We verwachten dat u deze conceptversie controleert, test en publiceert, zodat deze de live versie wordt.
 
-**Voltooide of GESTOPT reizen die minstens één Bericht gebruiken**
+**Voltooide of GESTOPT reizen met ten minste één bericht**
 
-Deze reizen zullen ook worden gemigreerd.
+Deze reizen worden ook gemigreerd.
 
-Wanneer het bekijken van het reisrapport, zullen de rapporten rijker zijn om het niveau van informatie te omvatten die eerder in het rapport van het Bericht beschikbaar was.
+Wanneer het bekijken van het reisrapport, zijn de rapporten nu rijker en omvatten het niveau van informatie die eerder in berichtrapport beschikbaar was.
 
 **GESLOTEN reizen met behulp van ten minste één bericht**
 
@@ -185,13 +183,13 @@ De gesloten versie van een reis blijft voor om het even welk profiel binnen lope
 
 Gesloten reizen worden na 30 dagen automatisch overgeschakeld op de status &quot;Voltooid&quot;. Zij zullen in de volgende herhaling in aanmerking worden genomen, wanneer zij worden gebeëindigd.
 
-**Multikanaalreizen**
+**Meerkanaalsreizen**
 
 Deze worden niet gemigreerd. Je moet ze opnieuw maken.
 
 ### Wat zijn mijn actiepunten als klant?{#actions}
 
-U zult een automatische omzetting van reizen uitvoeren, maar een paar stappen worden vereist. Meer informatie over de vereiste stappen in deze [page](../rn/inline-messages-steps.md).
+U kunt de ritten automatisch omzetten, maar u hebt een paar stappen nodig. Meer informatie over de vereiste stappen in deze [page](../rn/inline-messages-steps.md).
 
 <!--
 
@@ -293,7 +291,7 @@ De manier waarop u het bericht maakt, wordt gewijzigd. Er gaat geen functionalit
 
 ### Zal er tijdens het migratieproces toegang zijn tot het milieu?
 
-De migratie zal &#39;s nachts plaatsvinden. U kunt het product gebruiken. U moet echter geen reizen maken, bewerken of verwijderen.
+Migratie vindt plaats &#39;s nachts. U kunt het product gebruiken. U moet echter geen reizen maken, bewerken of verwijderen.
 
 ### Zullen de berichten blijven worden verzonden?
 
