@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 40%
@@ -290,7 +290,7 @@ ht-degree: 40%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
+         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
@@ -354,8 +354,8 @@ ht-degree: 40%
          + [Een beslissing nemen](using/offers/api-reference/activities-api/activities/create.md)
          + [Een beslissing bijwerken](using/offers/api-reference/activities-api/activities/update.md)
          + [Een beslissing verwijderen](using/offers/api-reference/activities-api/activities/delete.md)
-      + Levering aanbieden met behulp van API&#39;s {#offer-delivery-api}
-         + [Informatie over API&#39;s voor besluitvorming en Edge-besluitvorming](using/offers/api-reference/offer-delivery-api/decisioning-vs-edge-apis.md)
+      + Aanbiedingen leveren met behulp van API&#39;s {#offer-delivery-api}
+         + [Aan de slag met API&#39;s voor levering van aanbiedingen](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
          + [API voor besluitvorming](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge-API voor besluitvorming](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batchbeslissing-API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)

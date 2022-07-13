@@ -2,9 +2,9 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1651'
 ht-degree: 20%
 
 ---
@@ -31,7 +31,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De pagina van de Lijst van de Onderdrukking is bijgewerkt om sommige informatie te verduidelijken, met inbegrip van het feit dat alle karakters van ASCII tussen 32 en 126 in de reden voor onderdrukking worden toegestaan. [Meer informatie](../configuration/manage-suppression-list.md)
 * Er is een verband toegevoegd met garanties en statische limieten voor het beheer van besluiten. [Meer informatie](../start/guardrails.md)
 * Send-Time Optimization is nu beschikbaar voor alle klanten. De bètavermelding is verwijderd. [Meer informatie](../building-journeys/journeys-message.md#send-time-optimization)
-
+* De API voor het bepalen van de batch is toegevoegd aan de lijst met beschikbare API&#39;s voor het aanbieden van gepersonaliseerde aanbiedingen. [Meer informatie](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Mei 2022 {#may-2022}
 
@@ -169,3 +169,4 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Er is een waarschuwing toegevoegd om aan te geven dat op gebeurtenissen gebaseerde aanbiedingen momenteel niet worden ondersteund. [Meer informatie](../offers/offer-library/creating-personalized-offers.md#eligibility)
 * Documenteerde het nieuwe Besluit Management **[!UICONTROL Overview]** tab. [Meer informatie](../offers/get-started/user-interface.md#overview)
 * Nieuwe secties toegevoegd om de acties te beschrijven die beschikbaar zijn op de lijsten met aanbiedingen en besluiten: [Aanbiedingslijst](../offers/offer-library/creating-personalized-offers.md#offer-list) en [Beslissingslijst](../offers/offer-activities/create-offer-activities.md#decision-list).
+
