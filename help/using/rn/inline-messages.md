@@ -2,9 +2,9 @@
 title: Migreren naar inline authoring
 description: Leer hoe u berichten kunt migreren
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 3146071854a02650c6f1632839e3dcd913a46676
+source-git-commit: ea8e133475eb86ff7ad9463950d81d36fe3b5504
 workflow-type: tm+mt
-source-wordcount: '1684'
+source-wordcount: '1696'
 ht-degree: 0%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_during"
 >title="Leer wat er gebeurt"
->abstract="Vanaf 25 juli 2022 worden berichten rechtstreeks vanuit een reis geschreven. Uw omgeving wordt gemigreerd. Na de migratie zijn aanvullende acties vereist."
+>abstract="Vanaf 25 juli 2022 worden berichten rechtstreeks vanuit een reis geschreven. Uw omgeving wordt gemigreerd. Na de migratie zijn aanvullende acties vereist als u momenteel berichten gebruikt voor uw reizen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="Migratiestappen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_messages_migration_after"
 >title="Leer hoe u berichten kunt migreren"
->abstract="Vanaf 25 juli 2022 worden berichten rechtstreeks vanuit een reis geschreven. Bestaande berichten zijn nu gemigreerd naar het nieuwe model. Als reisdeskundige zijn nu aanvullende acties vereist."
+>abstract="Vanaf 25 juli 2022 worden berichten rechtstreeks vanuit een reis geschreven. Bestaande berichten zijn nu gemigreerd naar het nieuwe model. Als reisdeskundige zijn nu aanvullende maatregelen nodig voor reizen die gebruikmaken van berichten."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/inline-authoring/inline-messages-steps.html" text="Migratiestappen"
 
 >[!CONTEXTUALHELP]
