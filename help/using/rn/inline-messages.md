@@ -2,9 +2,9 @@
 title: Migreren naar inline authoring
 description: Leer hoe u berichten kunt migreren
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: ea8e133475eb86ff7ad9463950d81d36fe3b5504
+source-git-commit: 3ba2c604a99c53e95c4ef083f5ee43d2d6f5477a
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -287,7 +287,10 @@ Er zullen geen gegevens verloren gaan en er zal geen invloed zijn op de live rei
 
 ### Zullen er functionaliteiten verloren gaan?{#functionality}
 
-De manier waarop u het bericht maakt, wordt gewijzigd. Er gaat geen functionaliteit verloren.
+De manier waarop u het bericht maakt, wordt gewijzigd. Er gaat geen functionaliteit verloren. Houd er rekening mee dat na 25 juli (inline authoring feature release) beperkingen van toepassing zijn op handelingen die kunnen worden uitgevoerd op reizen die gebruikmaken van **Bericht** activiteiten:
+
+* U kunt geen **Bericht** activiteit. U kunt echter wel de nieuwe kanaalhandelingen kopiëren/plakken.
+* Voor deze reizen kunt u de volgende handelingen niet uitvoeren: test, publiceer, dupliceer, maak een nieuwe versie, sluit of kopieer naar een andere zandbak. Deze beperkingen gelden zolang **Berichten** er zijn activiteiten op die reizen. U kunt wachten totdat het migratieproces wordt uitgevoerd en bijgewerkt **Berichten** activiteiten te kanaliseren, of u kunt deze verwijderen **Berichten** handmatig.
 
 ### Zal er tijdens het migratieproces toegang zijn tot het milieu?
 
