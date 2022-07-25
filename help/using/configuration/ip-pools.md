@@ -1,14 +1,14 @@
 ---
 title: IP-pools maken
-description: '"Leer hoe u ip-pools beheert"'
+description: Leer hoe te om IP pools te beheren
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: ac3c49c16a2496b3d5bc9b803589644b69c6565c
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Bijvoorbeeld, moet één beste praktijk één IP pool voor uw marketing berichte
 
 Ga als volgt te werk om een IP-pool te maken:
 
-1. Toegang krijgen tot **[!UICONTROL Channels]** / **[!UICONTROL IP pools]** en klik vervolgens op **[!UICONTROL Create IP Pool]**.
+1. Toegang krijgen tot **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL IP pools]** en klik vervolgens op **[!UICONTROL Create IP Pool]**.
 
    ![](assets/ip-pool-create.png)
 
@@ -50,7 +50,7 @@ Ga als volgt te werk om een IP-pool te maken:
    >
    >Alle IP adressen provisioned met uw instantie zijn beschikbaar in de lijst.
 
-De IP pool wordt nu gecreeerd en toont in de lijst. U kunt deze selecteren voor toegang tot de eigenschappen en voor weergave van de bijbehorende berichtvoorinstelling. Voor meer op hoe te om een berichtvooraf ingesteld met een IP pool te associëren, verwijs naar [deze sectie](message-presets.md).
+De IP pool wordt nu gecreeerd en toont in de lijst. U kunt deze selecteren om toegang te krijgen tot de eigenschappen en het bijbehorende kanaaloppervlak weer te geven (d.w.z. de voorinstelling voor berichten). Voor meer op hoe te om een kanaaloppervlakte met een IP pool te associëren, verwijs naar [deze sectie](message-presets.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -64,6 +64,10 @@ Om een IP pool uit te geven:
 
 1. Bewerk de eigenschappen naar wens. U kunt de beschrijving wijzigen en IP-adressen toevoegen of verwijderen.
 
+   >[!NOTE]
+   >
+   >De naam van de IP-pool kan niet worden bewerkt. Als u het wilt wijzigen, moet u de IP pool schrappen en een andere met de naam van uw keus creëren.
+
    ![](assets/ip-pool-edit.png)
 
    >[!CAUTION]
@@ -72,18 +76,14 @@ Om een IP pool uit te geven:
 
 1. Sla uw wijzigingen op.
 
->[!NOTE]
->
->De naam van de IP-pool kan niet worden bewerkt. Als u het wilt wijzigen, moet u de IP pool schrappen en een andere met de naam van uw keus creëren.
+De update is onmiddellijk of asynchroon van kracht, afhankelijk van de IP pool die aan een wordt geassocieerd [kanaaloppervlak](message-presets.md) of niet:
 
-De update is onmiddellijk of asynchroon van kracht, afhankelijk van de IP pool die aan een wordt geassocieerd [berichtvoorinstelling](message-presets.md) of niet:
-
-* Als de IP pool is **niet** gekoppeld aan een berichtvoorinstelling, wordt de update onmiddellijk uitgevoerd (**[!UICONTROL Success]** status).
+* Als de IP pool is **niet** wordt gekoppeld aan een kanaaloppervlak, wordt de update onmiddellijk uitgevoerd (**[!UICONTROL Success]** status).
 * Als de IP pool **is** kan de update maximaal 3 uur duren (**[!UICONTROL Processing]** status).
 
 >[!NOTE]
 >
->Wanneer [een berichtvoorinstelling maken](message-presets.md#create-message-preset), als u een IP pool selecteert die onder uitgave (**[!UICONTROL Processing]** (status) en u bent nooit gekoppeld aan het geselecteerde subdomein voor die voorinstelling, kunt u niet doorgaan met het maken van de voorinstelling. [Meer informatie](message-presets.md#subdomains-and-ip-pools)
+>Wanneer [een kanaaloppervlak maken](message-presets.md#create-message-preset), als u een IP pool selecteert die onder uitgave (**[!UICONTROL Processing]** status) en u bent nooit gekoppeld aan het subdomein dat voor dat oppervlak is geselecteerd, kunt u niet doorgaan met het maken van het oppervlak. [Meer informatie](message-presets.md#subdomains-and-ip-pools)
 
 Als u de updatestatus van de IP-pool wilt controleren, klikt u op de knop **[!UICONTROL More actions]** en selecteert u **[!UICONTROL Recent updates]**.
 
@@ -96,5 +96,5 @@ Als u de updatestatus van de IP-pool wilt controleren, klikt u op de knop **[!UI
 >* tot de volgende partij voor de IP pool om in partijberichten efficiënt te zijn.
 
 
-U kunt ook de opdracht **[!UICONTROL Delete]** knoop om een IP pool te schrappen. U kunt geen IP-pool verwijderen die is gekoppeld aan een berichtvoorinstelling.
+U kunt ook de opdracht **[!UICONTROL Delete]** knoop om een IP pool te schrappen. Merk op dat u geen IP pool kunt schrappen die aan een kanaaloppervlakte is geassocieerd.
 

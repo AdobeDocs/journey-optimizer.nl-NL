@@ -6,18 +6,18 @@ feature: Push
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met de pushconfiguratie {#get-started-push}
 
-Deze pagina helpt u bij het instellen en begrijpen van belangrijke services en workflows die te maken hebben met pushmeldingen in [!DNL Journey Optimizer]. Meer informatie over het maken van pushmeldingen in [deze pagina](../messages/create-push.md).
+Deze pagina helpt u bij het instellen en begrijpen van belangrijke services en workflows die te maken hebben met pushmeldingen in [!DNL Journey Optimizer]. Meer informatie over het maken van pushmeldingen op [deze pagina](../messages/create-push.md).
 
-Stappen voor het configureren van het pushkanaal [!DNL Adobe Journey Optimizer] worden nader beschreven in [deze pagina](push-configuration.md).
+Stappen voor het configureren van het pushkanaal [!DNL Adobe Journey Optimizer] worden gedetailleerd op [deze pagina](push-configuration.md).
 
 ## Pushmeldingen en [!DNL Adobe Journey Optimizer] {#push-notifications-and-journey-optimizer}
 
@@ -28,7 +28,7 @@ De volgende afbeelding toont de systemen en services die bij de bijbehorende geg
 1. Registratie van uw merkloze mobiele app (Android of iOS) met APN&#39;s voor Apple en Google FCM-pushberichten
 1. De diensten van het overseinen produceren een duptoken, dat, een herkenningsteken is dat [!DNL Adobe Journey Optimizer] wordt gebruikt om het specifieke apparaat met een pushmelding als doel in te stellen.
 1. Het eerder gegenereerde pushtoken wordt doorgegeven aan Adobe Experience Platform en gesynchroniseerd met het Real-time klantprofiel. Dit gebeurt OOTB met een eenvoudig te integreren client-SDK
-1. Push-berichten worden in [!DNL Adobe Journey Optimizer], pushberichten worden gemaakt op basis van een berichtvoorinstelling
+1. Push-berichten worden in [!DNL Adobe Journey Optimizer], worden pushberichten gemaakt op basis van een kanaaloppervlak (d.w.z. een berichtvoorinstelling)
 1. Pushberichten kunnen op het orkestcanvas in Journalen worden opgenomen
 1. Na publicatie van de Reis, zijn de klantprofielen die op de voorwaarden van de Reis worden gebaseerd gekwalificeerd om dupberichten te ontvangen, duw overseinen ladingen bij deze stap worden gepersonaliseerd
 1. Persoonlijke pushladingen worden doorgestuurd naar een interne service voor pushberichten

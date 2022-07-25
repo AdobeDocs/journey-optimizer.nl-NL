@@ -1,10 +1,10 @@
 ---
 title: Beginnen met uitvoering van de reis
 description: Leer hoe u uw reis start en berichten verzendt
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 2%
+source-wordcount: '274'
+ht-degree: 3%
 
 ---
 
@@ -34,13 +34,9 @@ Na publicatie kunt u uw reis controleren met behulp van de speciale rapportageto
 
 ## Berichten verzenden {#send-messages}
 
-Wanneer voor uw bericht een inhoud is gedefinieerd en gepubliceerd, kan het bericht worden verzonden via een [reis](journey.md).
+Wanneer voor uw bericht een inhoud is gedefinieerd, kan deze worden verzonden via een [reis](journey.md).
 
->[!NOTE]
->
->U kunt een bericht toevoegen dat nog in ontwerpwijze aan een reis is, maar zorg ervoor het bericht wordt gepubliceerd alvorens de reis te publiceren.
-
-Zodra een bericht wordt verzonden, kunt u zijn uitvoering door veelvoudige indicatoren controleren. [Meer informatie over het controleren van berichtuitvoering](../message-monitoring.md).
+Zodra een bericht wordt verzonden, kunt u zijn uitvoering door veelvoudige indicatoren controleren. [Meer informatie over rapporten](../global-report.md).
 
 ## Abonnementen {#schedule-messages}
 

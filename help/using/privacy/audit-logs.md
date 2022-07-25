@@ -5,7 +5,7 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 0%
@@ -41,7 +41,7 @@ In de volgende tabel wordt aangegeven op welke acties Journey Optimizer-bronnen 
 | Voorinstelling voor AJO-openingspagina | Maken/verwijderen/bijwerken |
 | Subdomein van AJO-landingspagina | Maken/verwijderen/bijwerken |
 | AJO-bericht | Maken/verwijderen/bijwerken/publiceren |
-| Voorinstelling voor AJO-bericht | Maken/verwijderen/bijwerken |
+| AJO-kanaaloppervlak | Maken/verwijderen/bijwerken |
 | AJO PTR-record | Maken/verwijderen/bijwerken |
 | AJO-sjabloon voor opgeslagen expressie | Maken/verwijderen/bijwerken |
 | Aanmeldingsgegevens AJO SMS API | Maken/verwijderen/bijwerken |

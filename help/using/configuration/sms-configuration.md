@@ -4,9 +4,9 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van SMS-beri
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '410'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 [!DNL Journey Optimizer] kunt u uw reizen maken en berichten naar het beoogde publiek sturen.
 
-Voordat u SMS verzendt, configureert u uw exemplaar. U moet [providerinstellingen integreren](#create-api) met Journey Optimizer en [een SMS-voorinstelling maken](#message-preset-sms). Deze stappen moeten worden uitgevoerd door een [Adobe Journey Optimizer-systeembeheerder](../start/path/administrator.md).
+Voordat u SMS verzendt, configureert u uw exemplaar. U moet [providerinstellingen integreren](#create-api) met Journey Optimizer en [een sms-oppervlak maken](#message-preset-sms) (d.w.z. voorinstelling SMS). Deze stappen moeten worden uitgevoerd door een [Adobe Journey Optimizer-systeembeheerder](../start/path/administrator.md).
 
 >[!AVAILABILITY]
 >
@@ -42,19 +42,19 @@ Voer de volgende stappen uit om uw SMS-leverancier te configureren met Journey O
 
 1. Klikken **[!UICONTROL Submit]** wanneer u de configuratie van uw API-referenties hebt voltooid.
 
-Nadat u de API-referentie hebt gemaakt en geconfigureerd, moet u nu een berichtvoorinstelling voor SMS-berichten maken.
+Nadat u de API-referentie hebt gemaakt en geconfigureerd, moet u nu een kanaaloppervlak (d.w.z. een voorinstelling voor berichten) voor SMS-berichten maken.
 
-## Een berichtvoorinstelling maken voor SMS-berichten {#message-preset-sms}
+## Een kanaaloppervlak maken voor SMS-berichten {#message-preset-sms}
 
-Zodra uw kanaal van SMS is gevormd, moet u een berichtvooraf ingesteld tot stand brengen om SMS berichten van te kunnen verzenden van **[!DNL Journey Optimizer]**.
+Zodra uw kanaal van SMS is gevormd, moet u een kanaaloppervlakte tot stand brengen om de berichten van SMS van te kunnen verzenden **[!DNL Journey Optimizer]**.
 
-Ga als volgt te werk om een berichtvoorinstelling te maken:
+Ga als volgt te werk om een kanaaloppervlak te maken:
 
-1. Toegang krijgen tot **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** en klik vervolgens op **[!UICONTROL Create Message preset]**.
+1. Toegang krijgen tot **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** en klik vervolgens op **[!UICONTROL Create channel surface]**.
 
    ![](assets/preset-create.png)
 
-1. Voer een naam en beschrijving (optioneel) voor de voorinstelling in en selecteer vervolgens het SMS-kanaal.
+1. Voer een naam en beschrijving (optioneel) voor het oppervlak in en selecteer vervolgens het SMS-kanaal.
 
    ![](assets/sms_preset.png)
 
@@ -66,9 +66,9 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
    ![](assets/preset-sms.png)
 
-   * Selecteer **[!UICONTROL SMS Type]** die samen met de voorinstelling wordt verzonden: **[!UICONTROL Transactional]** of **[!UICONTROL Marketing]**.
+   * Selecteer **[!UICONTROL SMS Type]** die samen met het oppervlak worden verzonden: **[!UICONTROL Transactional]** of **[!UICONTROL Marketing]**.
 
-   * Selecteer **[!UICONTROL SMS configuration]** aan de voorinstelling te koppelen.
+   * Selecteer **[!UICONTROL SMS configuration]** aan het oppervlak te koppelen.
 
       Voor meer over hoe te om uw milieu te vormen om de berichten van SMS te verzenden, verwijs naar [deze sectie](#create-api).
 
@@ -76,17 +76,17 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
 
    * Selecteer uw **[!UICONTROL SMS Execution Field]** om de **[!UICONTROL Profile attribute]** aan de telefoonaantallen van de profielen worden geassocieerd.
 
-1. Zodra alle parameters zijn gevormd, klik **[!UICONTROL Submit]** ter bevestiging. U kunt de berichtvoorinstelling ook opslaan als concept en de configuratie ervan later hervatten.
+1. Zodra alle parameters zijn gevormd, klik **[!UICONTROL Submit]** ter bevestiging. U kunt het kanaaloppervlak ook opslaan als concept en de configuratie later hervatten.
 
    ![](assets/sms_preset_2.png)
 
-1. Nadat de berichtvoorinstelling is gemaakt, wordt deze in de lijst weergegeven met de **[!UICONTROL Processing]** status.
+1. Nadat het kanaaloppervlak is gemaakt, wordt het in de lijst weergegeven met de **[!UICONTROL Processing]** status.
 
    >[!NOTE]
    >
    >Als de controles niet succesvol zijn, leer meer over de mogelijke mislukkingsredenen in [deze sectie](#monitor-message-presets).
 
-1. Als de controles zijn voltooid, wordt met de berichtvoorinstelling het volgende opgehaald **[!UICONTROL Active]** status. Het is klaar om te worden gebruikt om berichten te leveren.
+1. Als de controles zijn voltooid, krijgt het kanaaloppervlak de **[!UICONTROL Active]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
    ![](assets/preset-active.png)
 

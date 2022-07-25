@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1738'
 ht-degree: 2%
@@ -19,11 +19,11 @@ Gebruiken [!DNL Journey Optimizer] sjabloontaal voor het uitvoeren van bewerking
 
 ➡️ [Leer hoe u in deze video hulpfuncties kunt gebruiken](#video)
 
-De taal van het malplaatje wordt leveraged in helperfuncties beschikbaar in verpersoonlijkingsdrop-down lijst van de Redacteur van de Uitdrukking, zoals hieronder:
+De taal van het malplaatje wordt leveraged in helperfuncties beschikbaar in verpersoonlijkingsdrop-down lijst van de redacteur van de Uitdrukking, zoals hieronder:
 
 ![](../assets/access-helper-functions.png)
 
-In de [!DNL Journey Optimizer] De Redacteur van de uitdrukking, helperfuncties worden gegroepeerd in drie categorieën: [Functies](#functions-helper), [Helpers](#helper-helper) en [Operatoren](#operators-helper).
+In de [!DNL Journey Optimizer] De redacteur van de uitdrukking, helperfuncties worden gegroepeerd in drie categorieën: [Functies](#functions-helper), [Helpers](#helper-helper) en [Operatoren](#operators-helper).
 
 Selecteer een categorie voor toegang tot subcategorieën en functies.
 

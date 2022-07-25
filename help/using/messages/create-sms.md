@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 5%
+source-wordcount: '402'
+ht-degree: 3%
 
 ---
 
@@ -18,16 +18,17 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="SMS-ontwerp"
->abstract="Voeg uw tekstbericht toe en begin het met de Redacteur van de Uitdrukking aan te passen."
+>abstract="Voeg uw tekstbericht toe en begin het met de redacteur van de Uitdrukking aan te passen."
 
-Eenmaal [een bericht gemaakt](get-started-content.md), gebruikt u de **[!UICONTROL SMS]** om de instellingen en inhoud voor het SMS-bericht te definiëren.
+Gebruiken [!DNL Journey Optimizer] om tekstberichten naar uw klanten op hun mobiele apparaten te verzenden. U kunt berichten in tekstformaat van de redacteur van SMS tot stand brengen, personaliseren en voorproef.
 
+Eenmaal [SMS toegevoegd](get-started-content.md) en gedefinieerde basisinstellingen, kunt u de **[!UICONTROL Actions: SMS]** in het rechterdeelvenster om de inhoud voor het SMS-bericht te maken.
 
 >[!AVAILABILITY]
 >
 >Het SMS-kanaal is momenteel alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-![](assets/sms_1.png)
+![](assets/sms-edit-content.png)
 
 Als dit de eerste keer is die tot een SMS-bericht leidt, zorg er dan voor dat het SMS-kanaal is geconfigureerd. [Meer informatie](../configuration/sms-configuration.md).
 
@@ -35,33 +36,27 @@ Als dit de eerste keer is die tot een SMS-bericht leidt, zorg er dan voor dat he
 
 Voer de volgende stappen uit om uw SMS-bericht aan te passen:
 
-1. Klik op de knop **[!UICONTROL Add text message]** om de Expressieeditor te openen.
+1. Klik op de knop **[!UICONTROL Message]** om de Expressieeditor te openen.
 
-   ![](assets/sms_3.png)
+   ![](assets/sms-content.png)
 
-1. Gebruik de Expressieeditor om inhoud te definiëren. U kunt elk kenmerk gebruiken om inhoud aan te passen, zoals de profielnaam of plaats. Meer informatie over personalisatie in de Expressieeditor vindt u in [deze sectie](../personalization/personalize.md)
+1. Gebruik de expressie-editor om inhoud te definiëren. U kunt elk kenmerk gebruiken om inhoud aan te passen, zoals de profielnaam of plaats. Meer informatie over personalisatie in de Expressieeditor in [deze sectie](../personalization/personalize.md).
 
-   >[!NOTE]
-   >
-   > Een SMS-bericht kan maximaal 160 tekens bevatten, inclusief spaties en regeleinden.
+1. Klikken **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning.
 
-   ![](assets/sms_2.png)
+   ![](assets/sms-content-preview.png)
 
-1. Klikken **[!UICONTROL Save]** wanneer uw bericht klaar is.
 
 ## Je SMS valideren{#sms-preview}
 
 Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u [persoonlijke inhoud](../personalization/personalize.md), kunt u controleren hoe deze inhoud in het bericht wordt getoond, leveraging de gegevens van het testprofiel.
 
-Blader naar de **[!UICONTROL Preview]** tab.
+Als u wilt visualiseren hoe uw SMS-bericht wordt weergegeven op mobiele apparaten, klikt u op de knop **[!UICONTROL Simulate content]** tab. Meer informatie over het simuleren van inhoud vindt u in [deze sectie](../design/preview.md).
 
-Raadpleeg [deze sectie](../design/preview.md) voor meer informatie.
+U moet ook waarschuwingen controleren in het bovenste gedeelte van de editor.  Sommige zijn eenvoudige waarschuwingen, maar andere kunnen voorkomen dat u het bericht gebruikt. Meer informatie in [deze sectie](alerts.md).
 
-## Je SMS publiceren {#sms-publish}
+![](assets/sms-alert-button.png)
 
-Zodra uw bericht klaar is, kunt u het publiceren om het voor uitvoering beschikbaar te maken met **[!UICONTROL Publish]** knop. Deze actie publiceert de nieuwe versie van het bericht dat voor de volgende terechtstellingen in uw reizen zal worden gebruikt.
-
-Je SMS-bericht kan nu worden gebruikt voor een reis. [Leer hoe u reizen maakt](../building-journeys/journey-gs.md).
 
 ## Opt-in en opt-out{#sms-opt-in-out}
 
@@ -73,12 +68,13 @@ Raadpleeg de volgende video voor meer informatie over de manier waarop native on
 
 >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
 
-## Hoe kan ik-video
+<!--
+## How-to video
 
-Leer hoe te, auteur, en omvat SMS overseinen in uw klantenreizen te vormen.
+Learn how to configure, author, and include SMS messaging into your customer journeys.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
-
+-->
 **Verwante onderwerpen**
 
 * [Sms-kanaal configureren](../configuration/sms-configuration.md)

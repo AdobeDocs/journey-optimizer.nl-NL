@@ -6,18 +6,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
 
 # Journaal live {#journey-live-report}
 
-Reis live rapport kan direct vanaf je reis worden geopend met de **[!UICONTROL Live report]** knop.
+Reis live rapport kan direct vanaf je reis worden geopend met de **[!UICONTROL View report]** knop.
 
-![](assets/report_1.png)
+![](assets/report_journey.png)
 
 De reis **[!UICONTROL Live report]** Deze pagina wordt weergegeven met de volgende tabbladen:
 
@@ -44,8 +44,6 @@ De **[!UICONTROL Journey Statistics]** widget geeft de volgende KPI&#39;s weer:
 
 * **[!UICONTROL Failed individual journeys]**: Het totale aantal individuele reizen dat niet succesvol is uitgevoerd.
 
-![](assets/report_journey_3.png)
-
 De **[!UICONTROL Event executed over the last 24 hours]** en **[!UICONTROL Events]** Met widgets kunt u zien welke van uw gebeurtenissen met succes zijn uitgevoerd via een overzichtsnummer, grafiek en tabel.
 
 ![](assets/report_journey_4.png)
@@ -59,8 +57,6 @@ De **[!UICONTROL Action executed over the last 24 hours]** en **[!UICONTROL Acti
 ## Tabblad E-mail {#email-live}
 
 Vanaf uw reis **[!UICONTROL Live report]** de **[!UICONTROL Email]** bevat de belangrijkste informatie met betrekking tot de e-mailleveringen die tijdens uw reis worden verzonden.
-
-Voor een gedetailleerd rapport over een specifieke e-maillevering raadpleegt u de [Live-melding via e-mail](email-live-report.md) sectie.
 
 ![](assets/report_email_1.png)
 
@@ -123,8 +119,6 @@ De **[!UICONTROL Offers statistic]** en **[!UICONTROL Offers statistics]** in de
 ## Tabblad Push {#push-live}
 
 Vanaf uw reis **[!UICONTROL Live report]** de **[!UICONTROL Push]** bevat de belangrijkste informatie met betrekking tot de pushberichten die tijdens uw reis worden verzonden.
-
-Voor een gedetailleerd rapport over een specifieke pushservice raadpleegt u de [Live-rapport afdrukken](push-live-report.md) sectie.
 
 ![](assets/report_push_1.png)
 

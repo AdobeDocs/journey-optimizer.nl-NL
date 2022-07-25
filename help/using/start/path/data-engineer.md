@@ -3,9 +3,9 @@ title: Journey Optimizer Get Started for Data Engineer
 description: Als gegevensengineer leert u meer hoe u met Journey Optimizer kunt werken
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '575'
 ht-degree: 2%
 
 ---
@@ -42,4 +42,4 @@ Bovendien moet u, om berichten in reizen te kunnen verzenden, vormen **[!UICONTR
 
 * **Gebeurtenissen** u toestaan om uw reizen te activeren om berichten, in real time, naar het individu te verzenden dat de reis overgaat. In de gebeurtenisconfiguratie, vormt u de gebeurtenissen die in de reizen worden verwacht. De gegevens van de binnenkomende gebeurtenissen worden genormaliseerd volgens het Adobe Experience Data Model (XDM). Gebeurtenissen zijn afkomstig van de streamingopname-API’s voor geverifieerde en niet-geverifieerde gebeurtenissen (zoals Adobe Mobile SDK-gebeurtenissen). Meer informatie over gebeurtenissen [in deze sectie](../../event/about-events.md).
 
-* [!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtmogelijkheden: u kunt uw inhoud ontwerpen en uw bericht publiceren. Als u berichten verzendt via een systeem van derden, bijvoorbeeld Adobe Campaign, maakt u een **aangepaste handeling**. Meer informatie over handelingen in deze [in deze sectie](../../action/action.md).
+* [!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtmogelijkheden: u kunt uw berichten binnen een reis tot stand brengen en uw inhoud ontwerpen. Als u berichten verzendt via een systeem van derden, bijvoorbeeld Adobe Campaign, maakt u een **aangepaste handeling**. Meer informatie over handelingen in deze [in deze sectie](../../action/action.md).

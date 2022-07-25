@@ -7,16 +7,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: fe9ae9b7068a883dac61f3b9c9a4aead2ccfb5c7
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 10%
+source-wordcount: '400'
+ht-degree: 8%
 
 ---
 
 # Adobe [!DNL Journey Optimizer] Documentatie {#cjm-documentation}
 
 ![](using/assets/do-not-localize/banner-cjm.jpg)
+
+>[!CAUTION]
+>
+>Op 25 juli geeft Adobe Journey Optimizer een [nieuwe functie](using/rn/inline-messages.md) Hiermee verbetert u de manier waarop u inhoud voor Journey Optimizer-kanalen (e-mail, push, SMS) ontwerpt. Als Journey Optimizer-expert ben je nu [maken en auteur](using/messages/get-started-content.md) uw berichten direct van een reis. Voor u wordt een automatische omzetting van reizen uitgevoerd. Toch hebben we uw hulp nodig met een paar stappen. Meer informatie over de [vereiste stappen](using/rn/inline-messages-steps.md).
 
 <table style="table-layout:fixed">
 <tr>
@@ -50,7 +54,7 @@ ht-degree: 10%
     Een nieuwe e-mail ontwerpen of bestaande HTML-inhoud importeren
     <p>
     <div>
-      <a href="using/building-journeys/journeys-message.md">Berichten verzenden</a>
+      <a href="using/messages/get-started-content.md">Berichten verzenden</a>
     </div>
     <p>Leer hoe u push- en e-mailberichten kunt toevoegen aan uw klantenreizen
     <p>
@@ -114,9 +118,6 @@ ht-degree: 10%
     <p>JOURNEYBEHEER</p>
     <li>
       <a href="using/building-journeys/journey-gs.md">Journeys</a>
-    </li>
-    <li>
-      <a href="using/messages/get-started-content.md">Berichten</a>
     </li>
     <li>
       <a href="using/landing-pages/get-started-lp.md">Landingspagina’s</a>

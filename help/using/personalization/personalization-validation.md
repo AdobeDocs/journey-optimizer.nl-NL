@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Validatiemechanismen {#validation-mechanisms}
 
-In de **Expressieeditor** scherm, gebruik **Valideren** om uw personalisatiesyntaxis te controleren.
+In de **Expression-editor** scherm, gebruik **Valideren** om uw personalisatiesyntaxis te controleren.
 
 >[!NOTE]
 > De validatie wordt automatisch uitgevoerd wanneer u op de knop **Toevoegen** om het editorvenster te sluiten.
@@ -55,7 +55,7 @@ In dit geval **product** is geen array:
 
 Wanneer een ongeldige syntaxis voor het stuur wordt gebruikt.
 
-Handlebars-expressies worden omringd met **{{expression}**
+Handlebars-expressies worden omringd met **{{expression}}**
 
 ```
    {{[profile.person.name.firstName}}
@@ -75,7 +75,7 @@ De fouten met betrekking tot aanbiedingen integratie in een E-mail of Duw berich
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-De bevestiging wordt uitgevoerd tijdens de berichtpublicatie of tijdens de bevestiging van de verpersoonlijkingsinhoud in de redacteur van de Uitdrukking.
+De bevestiging wordt uitgevoerd tijdens de bevestiging van de verpersoonlijkingsinhoud in de redacteur van de Uitdrukking.
 
 <table> 
  <thead> 

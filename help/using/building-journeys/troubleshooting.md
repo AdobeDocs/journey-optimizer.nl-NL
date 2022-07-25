@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1009'
 ht-degree: 81%
 
 ---
@@ -83,6 +83,6 @@ Controleer bijvoorbeeld het volgende:
 Als personen de juiste stroom in de journey volgen, maar geen berichten ontvangen die ze wel zouden moeten ontvangen, kunt u het volgende controleren:
 
 * [!DNL Journey Optimizer] heeft correct rekening gehouden met het verzoek om het bericht te verzenden. Zakelijke gebruikers hebben toegang tot het bericht dat ze geacht worden te zijn verzonden en controleren of de tijd van de meest recente uitvoering overeenkomt met de uitvoeringstijd van uw reis. Ze kunnen ook de meest recente ontvangen API-oproepen/gebeurtenissen controleren.
-* [!DNL Journey Optimizer] heeft het bericht verzonden. In de verzendende logboeken van het bericht, kunt u de status van elke uitvoering zien. U kunt zien of deze groen of rood is, en wat het probleem was. Een zakelijke gebruiker kan dit scherm openen en de logboeken naar een beheerder verzenden voor nader onderzoek.
+* [!DNL Journey Optimizer] heeft het bericht verzonden. Controleer de reisrapportering om ervoor te zorgen dat er geen fouten zijn.
 
 Als een bericht via een aangepaste actie is verzonden, kan tijdens de journeytest alleen worden gecontroleerd of de aanroep van het systeem van de aangepaste actie tot een fout leidt of niet. Als de aanroep naar het externe systeem dat aan de aangepaste actie is gekoppeld, niet tot een fout leidt, maar ook niet tot het verzenden van een bericht, moet er enig onderzoek worden gedaan aan de kant van het externe systeem.

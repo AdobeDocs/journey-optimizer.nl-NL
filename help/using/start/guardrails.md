@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 80a5edec92377753e6bfd96699591b1a87e25248
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -47,10 +47,6 @@ Prestatiegerichten en statische limieten voor het besluitvormingsbeheer worden v
 * U kunt geen twee acties parallel plaatsen, u moet hen één na andere toevoegen.
 * Er is vandaag de dag een technische beperking in de ritten die een profiel verhindert om meerdere keren aanwezig te zijn op dezelfde reis, tegelijkertijd. Een profiel kan een reis (gebaseerd op een het plaatsen) nog opnieuw ingaan, maar kan het niet doen tot hij dat vorige geval van de reis volledig verliet.
 * In de meeste gevallen kan een profiel niet meerdere keren tegelijk op dezelfde reis aanwezig zijn. Als de terugkeer wordt toegelaten, kan een profiel een reis opnieuw ingaan, maar kan het niet doen tot hij dat vorige geval van de reis volledig verliet. [Meer informatie](../building-journeys/journey-end.md)
-
-### Berichthandeling {#message-action-g}
-
-* Wanneer u een multikanaalbericht toevoegt, worden twee berichten verzonden.
 
 ### Journeyversies {#journey-versions-g}
 

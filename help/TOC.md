@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 40%
+source-wordcount: '1106'
+ht-degree: 41%
 
 ---
 
@@ -47,10 +47,9 @@ ht-degree: 40%
    + [Een e-mail maken](using/messages/create-email.md)
    + [Een pushmelding maken](using/messages/create-push.md)
    + [Een SMS-bericht maken](using/messages/create-sms.md)
-   + Valideren en publiceren {#validate}
-      + [Waarschuwingen controleren](using/messages/alerts.md)
-      + [Berichten publiceren](using/messages/publish-manage-message.md)
+   + [Waarschuwingen controleren](using/messages/alerts.md)
    + [Toestemming beheren](using/messages/consent.md)
+   + [Tijdoptimalisatie verzenden](using/messages/send-time-optimization.md)
 + Ontwerpcontent {#design}
    + [Aan de slag met e-mailontwerp](using/design/design-emails.md)
    + [Opnieuw starten ](using/design/create-email-content.md)
@@ -87,8 +86,8 @@ ht-degree: 40%
    + [Persoonlijke context](using/personalization/personalization-contexts.md)
    + Expressies samenstellen {#build-expressions}
       + [Personalisatiesyntaxis](using/personalization/personalization-syntax.md)
-      + Werken met de Expressieeditor {#expression-editor}
-         + [Over de Expressieeditor](using/personalization/personalization-build-expressions.md)
+      + Werken met de expressie-editor {#expression-editor}
+         + [De expressie-editor](using/personalization/personalization-build-expressions.md)
          + [Kenmerken toevoegen aan Favorieten](using/personalization/personalization-favorites.md)
          + [Werken met opgeslagen expressies](using/personalization/personalization-library.md)
          + [Validatie van personalisatie](using/personalization/personalization-validation.md)
@@ -138,7 +137,7 @@ ht-degree: 40%
       + [Einde](using/building-journeys/end-activity.md)
       + [Wachten](using/building-journeys/wait-activity.md)
       + [Segment lezen](using/building-journeys/read-segment.md)
-      + [Bericht](using/building-journeys/journeys-message.md)
+      + [E-mail, SMS, Push](using/building-journeys/journeys-message.md)
       + [Aangepaste acties](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard-acties](using/building-journeys/using-adobe-campaign-standard.md)
       + [Handelingen voor Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-classic.md)
@@ -238,19 +237,14 @@ ht-degree: 40%
       + [Een bericht verzenden naar abonnees](using/building-journeys/message-to-subscribers-uc.md)
       + [Leveringen opwaarderen](using/building-journeys/ramp-up-deliveries-uc.md)
 + Bijhouden en bewaken {#reporting}
-   + [Berichtcontrole](using/reports/message-monitoring.md)
    + Live-rapport {#live-report}
       + [Het dashboard voor Live-rapporten openen](using/reports/live-report.md)
       + [Journey Live-rapport](using/reports/journey-live-report.md)
-      + [E-mailLive-rapport](using/reports/email-live-report.md)
-      + [Rapport Push Live](using/reports/push-live-report.md)
       + [Openingspagina Live-rapport](using/reports/lp-report-live.md)
       + [Abonnementenlijst Live-rapport](using/reports/subscription-report-live.md)
    + Algemeen rapport {#global-report}
       + [Het globale rapportdashboard van de toegang](using/reports/global-report.md)
       + [Journey Global-rapport](using/reports/journey-global-report.md)
-      + [E-mailglobaal rapport](using/reports/email-global-report.md)
-      + [Push Global-rapport](using/reports/push-global-report.md)
       + [Openingspagina Global-rapport](using/reports/lp-report-global.md)
       + [Abonnementenlijst Global-rapport](using/reports/subscription-report-global.md)
    + Reisrapporten {#reports}
@@ -290,7 +284,7 @@ ht-degree: 40%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
+         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
@@ -385,8 +379,8 @@ ht-degree: 40%
             + [Hernieuwde pogingen](using/configuration/retries.md)
             + [Lijst van gewenste personen](using/configuration/allow-list.md)
       + [Sms-kanaal configureren](using/configuration/sms-configuration.md)
-      + Voorinstellingen voor berichten instellen {#set-up-message-presets}
-         + [Voorinstellingen voor berichten maken](using/configuration/message-presets.md)
+      + Kanaaloppervlakken instellen {#set-up-message-presets}
+         + [Kanaaloppervlakken maken](using/configuration/message-presets.md)
          + [E-mailinstellingen configureren](using/configuration/email-settings.md)
          + [BCC-e-mail gebruiken](using/configuration/bcc-email.md)
       + [Uitvoeradressen beheren](using/configuration/primary-email-addresses.md)

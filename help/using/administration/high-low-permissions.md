@@ -5,9 +5,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 76eb73e875cbdeb7b5821f0c63435cf96c532adc
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -123,88 +123,6 @@ Dit omvat de volgende laagniveaumachtigingen:
    * queries.read
    * queries.write
    * queries.delete
-
-## Berichtmogelijkheden {#message-capability}
-
-### [!DNL Manage messages] machtiging {#manage-messages}
-
-De **[!DNL Manage messages]** Met machtiging op hoog niveau kunnen gebruikers berichten maken en bewerken/verwijderen.
-
-Dit omvat de volgende laagniveaumachtigingen:
-
-* specifiek voor Journey Optimizer:
-   * messages.write
-   * messages.read
-   * messages.delete
-   * messages_presets.read
-
-* specifiek voor Adobe Experience Platform:
-   * segments.read
-   * schemas.read
-
-### [!DNL Manage messages preview and test] machtiging {#mange-messages-preview}
-
-De **[!DNL Manage messages preview and test]** Met machtiging op hoog niveau kunnen gebruikers persoonlijke berichten voorvertonen.
-
-Dit omvat de volgende laagniveaumachtigingen:
-
-* specifiek voor Journey Optimizer:
-   * messages.publish
-   * messages_preview_and_test.write
-   * messages.publish
-
-* specifiek voor Adobe Experience Platform:
-   * profiles.read
-   * profiles.write
-   * schemas.read
-   * datasets.write
-   * datasets.read
-   * identity_namespace.read
-   * segments.read
-   * queries.write
-   * merge_policies.read
-
-### [!DNL Publish messages] machtiging {#publish-messages}
-
-De **[!DNL Publish messages]** Met machtiging op hoog niveau kunnen gebruikers berichten publiceren.
-
-Dit omvat de volgende laagniveaumachtigingen:
-
-* specifiek voor Journey Optimizer:
-   * messages.publish
-
-* specifiek voor Adobe Experience Platform:
-   * profiles.read
-   * schemas.read
-   * datasets.read
-
-### [!DNL View messages] machtiging {#view-messages}
-
-De **[!DNL View messages]** Met toestemming op hoog niveau kunnen gebruikers alleen berichten lezen.
-
-Dit omvat de volgende laagniveaumachtigingen:
-
-* specifiek voor Journey Optimizer:
-   * messages.read
-   * messages_presets.read
-
-* specifiek voor Adobe Experience Platform:
-   * schemas.read
-   * segments.read
-
-### [!DNL View messages report] machtiging {#view-message-reports}
-
-De **[!DNL View messages report]** Met toestemming op hoog niveau kunnen gebruikers alleen lezen via e-mail en pushrapporten.
-
-Dit omvat de volgende laagniveaumachtigingen:
-
-* specifiek voor Journey Optimizer:
-   * messages_report.read
-   * datasets.read
-   * queries.read
-   * queries.write
-   * queries.delete
-   * journey.read
 
 ## Beslissingsvermogen {#decisions-permissions}
 
@@ -330,33 +248,34 @@ Dit omvat de volgende laagniveaumachtigingen:
 * IP_pools.write
 * IP_pools.delete
 
-### [!DNL Manage messages general settings] machtiging {#manage-message-settings}
+<!--
+### [!DNL Manage messages general settings] permission {#manage-message-settings}
 
-De **[!DNL Manage messages general settings]** Met machtiging op hoog niveau kunnen gebruikers algemene instellingen op sandboxniveau maken, bewerken en verwijderen.
+The **[!DNL Manage messages general settings]** high-level permission allows users to create, edit and delete global settings at the sandbox level.
 
-Dit omvat de volgende laagniveaumachtigingen:
+It includes the following low-level permissions: 
 
-* specifiek voor Journey Optimizer:
-   * messages_general_settings.read
-   * messages_general_settings.write
-   * messages_general_settings.delete
-* specifiek voor Adobe Experience Platform:
-   * schemas.read
+* Journey Optimizer specific: 
+  * messages_general_settings.read
+  * messages_general_settings.write
+  * messages_general_settings.delete
+* Adobe Experience Platform specific:
+  * schemas.read
 
-### [!DNL View messages general settings] machtiging {#view-message-settings}
+### [!DNL View messages general settings] permission {#view-message-settings}
 
-De **[!DNL View messages general settings]** Met machtiging op hoog niveau kunnen gebruikers algemene instellingen voor berichten weergeven, zoals het uitvoeringsadres.
+The **[!DNL View messages general settings]** high-level permission allows users to view messages general settings such as the execution address.
 
-Dit omvat de volgende laagniveaumachtigingen:
+It includes the following low-level permissions:
 
-* specifiek voor Journey Optimizer:
-   * messages_general_settings.read
-* specifiek voor Adobe Experience Platform:
-   * schemas.read
+* Journey Optimizer specific: 
+  * messages_general_settings.read
+* Adobe Experience Platform specific: 
+  * schemas.read
+-->
+### [!DNL Manage channel surface] machtiging {#manage-channel-surface}
 
-### [!DNL Manage messages presets] machtiging {#manage-message-presets}
-
-De **[!DNL Manage messages presets]** Met machtiging op hoog niveau kunnen gebruikers berichtvoorinstellingen voor verschillende kanalen op sandboxniveau maken, bewerken en verwijderen.
+De **[!DNL Manage channel surface]** Met machtiging op hoog niveau kunnen gebruikers kanaaloppervlakken maken, bewerken en verwijderen via kanalen op sandboxniveau.
 
 Dit omvat de volgende laagniveaumachtigingen:
 
@@ -368,9 +287,9 @@ Dit omvat de volgende laagniveaumachtigingen:
    * IP_pools.read
    * mobile_setting.read (vanuit Adobe Experience Platform Launch)
 
-### [!DNL View messages presets] machtiging {#view-message-presets}
+### [!DNL View channel surface] machtiging {#view-channel-surface}
 
-De **[!DNL View messages presets]** Met machtiging op hoog niveau kunnen gebruikers voorinstellingen voor berichten weergeven om te weten welke voorinstellingen voor berichten moeten worden gebruikt bij het maken van een bericht.
+De **[!DNL View channel surface]** Met machtiging op hoog niveau kunnen gebruikers kanaaloppervlakken weergeven om te weten welke kanaaloppervlakken moeten worden gebruikt.
 
 Dit omvat de volgende laagniveaumachtigingen:
 

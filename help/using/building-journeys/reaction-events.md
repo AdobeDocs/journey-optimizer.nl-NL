@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '366'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ U kunt reageren op geklikte of geopende berichten.
 
 U kunt dit mechanisme ook gebruiken om een actie uit te voeren wanneer er geen reactie op uw berichten is. Hiertoe maakt u een tweede pad parallel aan de reactieactiviteit en voegt u een wachtactiviteit toe. Als er geen reactie optreedt tijdens de periode die is gedefinieerd in de wachtdienst, wordt het tweede pad gekozen. U kunt bijvoorbeeld een vervolgbericht verzenden.
 
-Merk op dat u een reactieactiviteit op het canvas slechts kunt gebruiken als er een **Bericht** eerder.
+Let op: u kunt een reactieactiviteit alleen op het canvas gebruiken als er al eerder een kanaalactie plaatsvindt (E-mail, push, SMS).
 
 Zie [Informatie over actieactiviteiten](../building-journeys/about-journey-activities.md#action-activities).
 

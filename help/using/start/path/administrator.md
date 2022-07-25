@@ -3,9 +3,9 @@ title: Journey Optimizer Aan de slag voor systeembeheer
 description: Als systeembeheerder, leer meer hoe te om met Journey Optimizer te werken
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: e6924d1bffca7f56f2e5020a0af429b0f2b1c811
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '722'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Meer informatie over toegangsbeheer vindt u op de volgende pagina&#39;s:
 
 1. **Productprofielen begrijpen**. Productprofielen zijn een reeks eenheidrechten die gebruikers toegang tot bepaalde functies of objecten in de interface biedt. Meer informatie in het dialoogvenster [Productprofielen buiten de verpakking](../../administration/ootb-product-profiles.md) sectie.
 
-1. **Machtigingen instellen** voor productprofielen, waaronder **Sandboxen** en geef toegang tot uw teamleden door deze toe te wijzen aan verschillende productprofielen. Deze stap wordt uitgevoerd in het dialoogvenster [Admin Console](https://adminconsole.adobe.com/){_blank}. Machtigingen zijn eenheidrechten waarmee u de machtigingen kunt definiëren die zijn toegewezen aan **[!UICONTROL Product profile]**. Elke toestemming wordt verzameld onder mogelijkheden, bijvoorbeeld Reis, Berichten of Aanbiedingen, die de verschillende functionaliteiten of voorwerpen in vertegenwoordigen [!DNL Journey Optimizer]. Meer informatie in het dialoogvenster [Machtigingsniveaus](../../administration/high-low-permissions.md) sectie.
+1. **Machtigingen instellen** voor productprofielen, waaronder **Sandboxen** en geef toegang tot uw teamleden door deze toe te wijzen aan verschillende productprofielen. Deze stap wordt uitgevoerd in het dialoogvenster [Admin Console](https://adminconsole.adobe.com/){_blank}. Machtigingen zijn eenheidrechten waarmee u de machtigingen kunt definiëren die zijn toegewezen aan **[!UICONTROL Product profile]**. Elke toestemming wordt verzameld onder mogelijkheden, bijvoorbeeld Reis of Aanbiedingen, die de verschillende functionaliteiten of voorwerpen in vertegenwoordigen [!DNL Journey Optimizer]. Meer informatie in het dialoogvenster [Machtigingsniveaus](../../administration/high-low-permissions.md) sectie.
 
 Bovendien moet u gebruikers die toegang tot Assets Essentials nodig hebben, toevoegen aan de **Assets Essentials Consumer Users** of/en **Assets Essentials-gebruikers** Productprofielen. [Meer informatie in Assets Essentials-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
@@ -37,18 +37,18 @@ Bovendien moet u gebruikers die toegang tot Assets Essentials nodig hebben, toev
 
 Bij toegang [!DNL Journey Optimizer] voor het eerst, bent u provisioned een productiesandbox en toegewezen een bepaald aantal IPs afhankelijk van uw contract.
 
-Als u uw reizen wilt maken en berichten wilt verzenden, opent u de **ADMINISTRATIE** -menu. Bladeren in het dialoogvenster **[!UICONTROL Channels]** om uw e-mailberichten en voorinstellingen te configureren.
+Als u uw reizen wilt maken en berichten wilt verzenden, opent u de **ADMINISTRATIE** -menu. Bladeren in het dialoogvenster **[!UICONTROL Channels]** -menu om uw berichten en oppervlakken te configureren (voorinstellingen dus).
 
 >[!NOTE]
 >Als **Systeembeheerder** als u de **[!UICONTROL Channels]** menu in [!DNL Journey Optimizer]kunt u uw machtigingen in de [Admin Console](https://adminconsole.adobe.com/){_blank}. Leer hoe u uw productprofiel kunt bijwerken in [deze pagina](../../administration/permissions.md#edit-product-profile).
 
 Voer de onderstaande stappen uit:
 
-1. **Berichten en kanalen configureren**: voorinstellingen definiëren, instellingen voor e-mail- en pushberichten aanpassen en aanpassen
+1. **Berichten en kanalen configureren**: oppervlakken definiëren, e-mail- en pushberichtinstellingen aanpassen en aanpassen
 
    * Definiëren **Instellingen voor pushmeldingen** in beide [!DNL Adobe Experience Platform] en [!DNL Adobe Experience Platform Launch]. [Meer informatie](../../configuration/push-gs.md)
 
-   * Maken **berichtvoorinstellingen** om alle technische parameters te configureren die vereist zijn voor e-mail- en pushberichten. [Meer informatie](../../configuration/message-presets.md)
+   * Maken **kanaaloppervlakken** (d.w.z. voorinstellingen voor berichten) om alle technische parameters te configureren die vereist zijn voor e-mail- en pushberichten. [Meer informatie](../../configuration/message-presets.md)
 
    * Configureer de **SMS-kanaal** om alle technische parameters te configureren die voor SMS vereist zijn. [Meer informatie](../../configuration/sms-configuration.md)
 

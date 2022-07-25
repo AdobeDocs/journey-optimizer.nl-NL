@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '586'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ Gebruiken [!DNL Journey Optimizer] om koppelingen naar uw inhoud toe te voegen e
 
 ## Tekstspatiëring inschakelen {#enable-tracking}
 
-U kunt het bijhouden van wijzigingen op berichtniveau inschakelen door de optie **[!UICONTROL Open Tracking for email]** en/of **[!UICONTROL Click Tracking for email]** opties wanneer [uw bericht maken](../messages/get-started-content.md).
+U kunt het bijhouden van wijzigingen op berichtniveau inschakelen door de optie **[!UICONTROL Email opens]** en/of **[!UICONTROL Click on email]** opties wanneer [uw bericht maken](../messages/get-started-content.md).
 
 ![](assets/message-tracking.png)
 
@@ -29,8 +29,8 @@ U kunt het bijhouden van wijzigingen op berichtniveau inschakelen door de optie 
 
 Zo kunt u het gedrag van de ontvangers bijhouden via:
 
-* **[!UICONTROL Open Tracking for email]**: Berichten die zijn geopend.
-* **[!UICONTROL Click Tracking for email]**: Klik op koppelingen in een e-mail.
+* **[!UICONTROL Email opens]**: Berichten die zijn geopend.
+* **[!UICONTROL Click on email]**: Klik op koppelingen in een e-mail.
 
 ## Koppelingen invoegen {#insert-links}
 
@@ -75,7 +75,7 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
 >[!NOTE]
 >
->E-mailberichten van het type Marketing moeten een [opt-out-koppeling](../messages/consent.md#opt-out-management), die niet vereist is voor transactieberichten. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd op de [berichtvooraf ingesteld niveau](../configuration/message-presets.md#email-type) en wanneer [het bericht maken](../messages/get-started-content.md#create-new-message).
+>E-mailberichten van het type Marketing moeten een [opt-out-koppeling](../messages/consent.md#opt-out-management), die niet vereist is voor transactieberichten. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd op de [kanaaloppervlak](../configuration/message-presets.md#email-type) (d.w.z. vooraf ingestelde berichten) en wanneer [het bericht maken](../messages/get-started-content.md#create-new-message).
 
 ## Koppelen naar een spiegelpagina {#mirror-page}
 
@@ -122,6 +122,4 @@ De [E-mailontwerper](create-email-content.md) Hiermee kunt u de bijgehouden URL&
    * **[!UICONTROL Mirror page]**: beschouwt deze URL als een URL van een spiegelpagina.
    * **[!UICONTROL Never]**: Hiermee activeert u het bijhouden van deze URL nooit. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-Het aantal berichten dat is geopend en het aantal koppelingen waarop is geklikt, worden vermeld in het dialoogvenster [Tabblad Uitvoeringen](../reports/message-monitoring.md).
-
-Rapportage over openingen en klikken is beschikbaar in de [E-mailLive-rapport](../reports/email-live-report.md) en in de [E-mailglobaal rapport](../reports/email-global-report.md).
+Rapportage over openingen en klikken is beschikbaar in de [Live-rapport](../reports/live-report.md) en in de [Algemeen rapport](../reports/global-report.md).

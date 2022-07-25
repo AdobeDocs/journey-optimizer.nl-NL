@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 2398bbad3949eae7b19ad36064ff767278e4fcf2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,11 @@ ht-degree: 0%
 Gebruik de **[!UICONTROL Live report]** om de impact en prestaties van uw reizen en uw berichten in een ingebouwd dashboard in real-time te meten en te visualiseren.
 Gegevens zijn beschikbaar in het dialoogvenster **[!UICONTROL Live report]** zodra je levering is verzonden of je reis is uitgevoerd.
 
-* Als u een reis of leveringen in het kader van een reis wilt richten, vanaf **[!UICONTROL Journeys]** en klik op de knop **[!UICONTROL Live report]** pictogram. U kunt dan de Live-rapporten van de Reizen, E-mail en Push vinden.
+* Als u een reis of leveringen in het kader van een reis wilt richten, vanaf **[!UICONTROL Journeys]** en klik op de knop **[!UICONTROL View report]** knop. Je kunt dan de live rapporten over reizen, e-mail, SMS en Push vinden.
 
    ![](assets/report_journey.png)
 
-* Als u een specifieke levering wilt richten, van **[!UICONTROL Live view]** van de **[!UICONTROL Executions]** tabblad van uw berichten, selecteert u **[!UICONTROL Live Report]** in het geavanceerde menu van de geselecteerde levering.
-
-   ![](assets/report_2.png)
-
-* Als u van wilt schakelen **[!UICONTROL Live report]** aan de **[!UICONTROL Global report]** voor uw levering klikt u op **[!UICONTROL Global view]** met de tabschakeloptie.
+* Als u van wilt schakelen **[!UICONTROL Live report]** aan de **[!UICONTROL Live report]** voor uw levering klikt u op **[!UICONTROL Live view]** met de tabschakeloptie.
 
    ![](assets/report_3.png)
 

@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
 
 # Aangepaste aanbiedingen toevoegen {#deliver-personalized-offers}
 
-In [!DNL Journey Optimizer] e-mailberichten, kunt u besluiten opnemen die de Motor van het Besluit van het Voorstel zullen gebruiken om de beste aanbieding aan uw klanten te kiezen.
+In [!DNL Journey Optimizer] e-mails, kunt u besluiten opnemen die de Motor van het Besluit van het Voorstel zullen gebruiken om de beste aanbieding aan uw klanten te kiezen.
 
 U kunt bijvoorbeeld een besluit toevoegen dat in uw e-mail een speciale kortingsaanbieding weergeeft die afhankelijk is van het loyaliteitsniveau van de ontvanger.
 
@@ -59,11 +59,11 @@ Volg onderstaande stappen om een beslissing in te voegen in een e-mailbericht:
 
 De aanbiedingsactiviteit wordt nu toegevoegd aan de component.
 
-Nadat u uw wijzigingen hebt opgeslagen en het bericht is gepubliceerd, kunt u uw voorstellen weergeven voor de relevante profielen wanneer u het bericht verzendt als onderdeel van een reis.
+Nadat u uw wijzigingen hebt opgeslagen, kunt u uw aanbiedingen weergeven voor de relevante profielen wanneer u het bericht verzendt als onderdeel van een reis.
 
 >[!NOTE]
 >
->Wanneer u een aanbod, een fallback-aanbieding, een verzameling van aanbiedingen of een besluit van een aanbieding bijwerkt waarnaar direct of indirect wordt verwezen in een gepubliceerd bericht, worden de updates automatisch weergegeven in het bijbehorende bericht, zonder dat u het bericht opnieuw hoeft te publiceren.
+>Wanneer u een aanbod, een fallback-aanbieding, een verzameling aanbiedingen of een besluit over een aanbieding bijwerkt waarnaar direct of indirect wordt verwezen in het bericht, worden de updates automatisch weergegeven in het bijbehorende bericht.
 
 ## Aanbiedingen voorvertonen in een e-mail {#preview-offers-in-email}
 

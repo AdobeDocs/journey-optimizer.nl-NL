@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '1686'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # Tekenreeksfuncties {#string}
 
-Leer hoe u String-functies in de Expressieeditor kunt gebruiken.
+Leer hoe te om de functies van het Koord in de redacteur van de Uitdrukking te gebruiken.
 
 ## Camel Case {#camelCase}
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 38addfd8b2f81991616ae93b6268fa1415fe80d2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 3%
+source-wordcount: '1049'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ Bovendien kunt u uw **Litmus** account [!DNL Journey Optimizer] om direct een vo
 >
 >Wanneer u een bericht voorvertoont of proefdrukken verzendt, worden alleen profielverpersoonlijkingsgegevens weergegeven. Personalisatie op basis van contextgegevens, zoals gebeurtenisinformatie, kan alleen worden getest in het kader van een reis. Leer hoe u personalisatie kunt testen in [dit geval gebruiken](../personalization/personalization-use-case.md).
 
-➡️ [Leer hoe u uw e-mail in deze video kunt voorvertonen, controleren en publiceren](#video-preview)
+➡️ [Leer hoe u uw e-mail in deze video kunt voorvertonen en controleren](#video-preview)
 
 ## Testprofielen selecteren{#select-test-profiles}
 
@@ -53,7 +53,7 @@ Gebruiken [Testprofielen](../segment/creating-test-profiles.md) om extra ontvang
 
 Volg onderstaande stappen om testprofielen te selecteren:
 
-1. Klik in de berichtinterface of in de e-mailontwerper op de knop **[!UICONTROL Show preview]** om de selectie van het testprofiel te openen.
+1. Klik in de berichtinterface of in de e-mailontwerper op de knop **[!UICONTROL Simulate Content]** om de selectie van het testprofiel te openen.
 
    ![](assets/email-preview-button.png)
 
@@ -69,7 +69,7 @@ Volg onderstaande stappen om testprofielen te selecteren:
 
    ![](assets/preview-email-namespace.png)
 
-1. Voer de waarde in om het testprofiel te identificeren en klik op **[!UICONTROL Find test profile]**.
+1. Voer de waarde in om het testprofiel te identificeren en klik op **[!UICONTROL Add profile]**.
 
    ![](assets/preview-identity-value.png)
 
@@ -83,7 +83,11 @@ Volg onderstaande stappen om testprofielen te selecteren:
 
 Eenmaal [testprofielen](#select-test-profiles) geselecteerd, kunt u een voorvertoning van uw berichten weergeven en de inhoud controleren.
 
-1. Klik op de knop **[!UICONTROL Preview]** om uw bericht te testen.
+### E-mailvoorbeeld{#preview-email}
+
+Volg onderstaande stappen om een voorbeeld van e-mailinhoud weer te geven:
+
+1. Klik op de knop **[!UICONTROL Simulate content]** boven de e-mailinhoud.
 
 1. Selecteer een testprofiel. U kunt de waarden controleren die beschikbaar zijn in de kolommen. Gebruik de pijl-rechts/pijl-links om door gegevens te bladeren.
 
@@ -103,11 +107,15 @@ Eenmaal [testprofielen](#select-test-profiles) geselecteerd, kunt u een voorvert
 
 1. Selecteer andere testprofielen voor een voorvertoning van de e-mailrendering voor elke variant van uw bericht.
 
-Voor een voorbeeld van een pushmelding:
+### Voorvertoning verschuiven{#preview-push}
 
-1. Naar de **[!UICONTROL Push]** van **[!UICONTROL Channels]** vervolgkeuzelijst rechtsboven in het dialoogvenster **[!UICONTROL Preview]** scherm.
+Voer de onderstaande stappen uit om een voorvertoning van de inhoud van een pushmelding weer te geven:
 
-   ![](assets/preview-select-channel.png)
+1. Klik op de knop **[!UICONTROL Simulate content]** boven de inhoud van de drukknop.
+
+1. Selecteer een testprofiel. U kunt de waarden controleren die beschikbaar zijn in de kolommen. Gebruik de pijl-rechts/pijl-links om door gegevens te bladeren.
+
+1. Naar de **[!UICONTROL Push]** bericht.
 
 1. Pas dezelfde stappen toe als hierboven zijn beschreven om een testprofiel te selecteren en selecteer het type apparaat voor een voorvertoning van inhoud: **[!UICONTROL iOS]** of **[!UICONTROL Android]**.
 
@@ -188,6 +196,6 @@ Voer vervolgens de onderstaande stappen uit:
 
 ## Hoe kan ik-video{#video-preview}
 
-Leer hoe u het renderen van e-mailberichten in verschillende postvakken kunt testen, hoe u uw persoonlijke e-mails kunt bekijken op basis van testprofielen, proeven kunt verzenden en uw e-mail kunt publiceren.
+Leer hoe u het renderen van e-mailberichten in verschillende postvakken kunt testen, hoe u een voorvertoning van uw persoonlijke e-mails kunt weergeven op basis van testprofielen en proefdrukken kunt verzenden.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334239?quality=12)

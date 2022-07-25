@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: f75ed263fd8226a6b5f55bbb50f4aae17cbfe9d4
+exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -34,7 +35,7 @@ ht-degree: 0%
 >title="Afhankelijke objecten"
 >abstract="Dit is de lijst van bijbehorende voorwerpen die in de reis worden gebruikt. In deze lijst worden de naam, het objecttype en de interne Journey Optimizer-id weergegeven."
 
-Met Journey Optimizer kunt u een volledige reis van de ene naar de andere sandbox kopiëren. U kunt bijvoorbeeld een traject kopiëren van de zandbakomgeving van het werkgebied naar de productiefandbox. Naast de reis zelf kopieert Journey Optimizer ook de meeste objecten die de reis afhangt van: berichten, segmenten, voorinstellingen, schema&#39;s, gebeurtenissen en acties. Zie de [beperkingen](../building-journeys/copy-to-sandbox.md#limitations)
+Met Journey Optimizer kunt u een volledige reis van de ene naar de andere sandbox kopiëren. U kunt bijvoorbeeld een traject kopiëren van de zandbakomgeving van het werkgebied naar de productiefandbox. Naast de reis zelf kopieert Journey Optimizer ook de meeste objecten die de reis afhangt van: segmenten, oppervlakken (d.w.z. voorinstellingen), schema&#39;s, gebeurtenissen en acties. Zie de [beperkingen](../building-journeys/copy-to-sandbox.md#limitations)
 
 >[!CAUTION]
 >
@@ -86,7 +87,7 @@ De volgende objecten worden gekopieerd:
 
 * Bericht
 
-   De fysieke berichten die tijdens de reis worden gebruikt (e-mail- of pushberichten). De gebieden die voor verpersoonlijking in het bericht worden gebruikt worden niet gecontroleerd op volledigheid. Inhoudsblokken worden niet gekopieerd.
+   De activiteiten van de kanaalactie die in de reis worden gebruikt. De gebieden die voor verpersoonlijking in het bericht worden gebruikt worden niet gecontroleerd op volledigheid. Inhoudsblokken worden niet gekopieerd.
 
 * Reis - canvasdetails
 
@@ -100,9 +101,8 @@ De volgende objecten worden gekopieerd:
 
    De acties en actiedetails die in de reis worden gebruikt worden gekopieerd.
 
-Voorinstellingen worden niet gekopieerd. Het systeem selecteert automatisch de best mogelijke overeenkomst op de bestemmingszandbak, die op berichttype en vooraf ingestelde naam wordt gebaseerd. Als er geen voorinstellingen worden gevonden in de doelsandbox, mislukt het kopiëren van de voorinstelling. Dit betekent dat het bericht ook niet kan worden gekopieerd omdat een bericht vereist dat er een voorinstelling beschikbaar is voor installatie. In dit geval moet ten minste één voorinstelling worden gemaakt voor het rechterkanaal van het bericht, zodat de kopie werkt.
+Oppervlakken (d.w.z. voorinstellingen) worden niet overschreven. Het systeem selecteert automatisch de dichtstbijzijnde mogelijke overeenkomst op de bestemmingszandbak, die op berichttype en oppervlaknaam wordt gebaseerd. Als er geen oppervlakken worden gevonden in de doelsandbox, mislukt de kopie van het oppervlak. Dit zal betekenen dat het berichtexemplaar ook zal ontbreken omdat een bericht een oppervlakte om voor opstelling vereist te zijn. In dit geval moet ten minste één oppervlak worden gemaakt, zodat het bericht naar rechts kan worden weergegeven.
 
 Voor schema&#39;s, het Beleid en de Segmenten van de Fusie, de tweede keer deze voorwerpen proberen om worden gekopieerd, zullen zij slechts van verwijzingen worden voorzien. Deze worden behandeld als objecten die al bestaan en worden opnieuw gekopieerd. Dit betekent dat deze objecten slechts eenmaal kunnen worden gekopieerd.
 
 Er is een vertraging van vijf minuten voordat Adobe Journey Optimizer naar schema&#39;s, beleid en segmenten samenvoegen kan verwijzen zonder een fout op het canvas te zien. Wacht vijf minuten en deze referenties zijn beschikbaar.
-

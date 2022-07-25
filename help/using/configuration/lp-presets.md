@@ -4,9 +4,9 @@ description: Leer hoe u uw omgeving configureert voor het maken en gebruiken van
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: a036f53b88425d64281d2ac530016d638e2d13c9
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '300'
 ht-degree: 2%
 
 ---
@@ -74,10 +74,10 @@ Volg onderstaande stappen om een voorinstelling voor een openingspagina te maken
    ![](assets/lp-preset-active-temp.png)
 
 U kunt nu [bestemmingspagina&#39;s maken](../landing-pages/create-lp.md) in [!DNL Journey Optimizer].
-
+<!--
 >[!NOTE]
 >
->Leer hoe u berichtvoorinstellingen voor pushmeldingen en e-mailberichten kunt maken in [deze sectie](message-presets.md).
+>Learn how to create channel surfaces for push notifications and emails in [this section](message-presets.md).-->
 
 **Verwante onderwerpen**:
 

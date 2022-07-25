@@ -1,47 +1,47 @@
 ---
-title: Voorinstellingen voor berichten instellen
-description: Leer hoe u berichtvoorinstellingen configureert en controleert
+title: Kanaaloppervlakken instellen
+description: Leer hoe u kanaaloppervlakken configureert en controleert
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1462'
 ht-degree: 0%
 
 ---
 
-# Voorinstellingen voor berichten instellen {#message-presets-creation}
+# Kanaaloppervlakken instellen {#message-presets-creation}
 
-Met [!DNL Journey Optimizer]kunt u voorinstellingen voor berichten instellen die alle technische parameters definiëren die vereist zijn voor e-mail- en pushberichten: e-mailtype, e-mail en naam van de afzender, mobiele apps en meer.
+Met [!DNL Journey Optimizer]kunt u kanaaloppervlakken instellen (dus voorinstellingen voor berichten) die alle technische parameters definiëren die nodig zijn voor uw berichten: e-mailtype, e-mail en naam van de afzender, mobiele apps en meer.
 
 >[!CAUTION]
 >
-> * Als u berichtvoorinstellingen wilt maken, bewerken en verwijderen, moet u beschikken over de [Voorinstellingen voor berichten beheren](../administration/high-low-permissions.md#manage-message-presets).
+> * Als u kanaaloppervlakken wilt maken, bewerken en verwijderen, moet u beschikken over de [Kanaaloppervlak beheren](../administration/high-low-permissions.md#manage-channel-surface).
 >
-> * U moet [E-mailconfiguratie](#configure-email-settings) en [Pushconfiguratie](../configuration/push-configuration.md) stappen voordat u berichtvoorinstellingen maakt.
+> * U moet de opdracht [E-mailconfiguratie](#configure-email-settings), [Pushconfiguratie](../configuration/push-configuration.md) en [SMS-configuratie](../configuration/sms-configuration.md) stappen voordat u kanaaloppervlakken maakt.
 
 
-Zodra berichtvoorinstellingen zijn geconfigureerd, kunt u deze selecteren wanneer u berichten maakt van de **[!UICONTROL Presets]** lijst.
+Zodra de kanaaloppervlakten zijn gevormd, zult u hen kunnen selecteren wanneer het creëren van berichten van een reis.
 
-➡️ [Leer hoe u e-mailvoorinstellingen maakt en gebruikt in deze video](#video-presets)
+➡️ [Leer hoe u in deze video e-mailoppervlakken maakt en gebruikt](#video-presets)
 
-## Een berichtvoorinstelling maken {#create-message-preset}
+## Een kanaaloppervlak maken {#create-message-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="Gegevens en instellingen voor voorinstellingen voor berichten"
->abstract="Door een berichtvoorinstelling in te stellen, kunt u het kanaal selecteren waarop het van toepassing is en alle technische parameters definiëren die nodig zijn voor uw berichten, zoals het e-mailtype, het te gebruiken subdomein, de naam van de afzender, mobiele apps, enzovoort."
+>title="Details en instellingen van het oppervlak van het kanaal"
+>abstract="Door een kanaaloppervlak in te stellen, kunt u het kanaal selecteren waarop het van toepassing is en alle technische parameters definiëren die vereist zijn voor uw leveringen, zoals het e-mailtype, het subdomein dat moet worden gebruikt, de naam van de afzender, mobiele apps, enzovoort."
 
-Ga als volgt te werk om een berichtvoorinstelling te maken:
+Ga als volgt te werk om een kanaaloppervlak te maken:
 
-1. Toegang krijgen tot **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Message presets]** en klik vervolgens op **[!UICONTROL Create Message preset]**.
+1. Toegang krijgen tot **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** en klik vervolgens op **[!UICONTROL Create channel surface]**.
 
    ![](assets/preset-create.png)
 
-1. Voer een naam en beschrijving (optioneel) voor de voorinstelling in en selecteer vervolgens het kanaal of de kanalen die u wilt configureren.
+1. Voer een naam en beschrijving (optioneel) voor het oppervlak in en selecteer vervolgens het kanaal of de kanalen die u wilt configureren.
 
    ![](assets/preset-general.png)
 
@@ -69,17 +69,17 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
    >
    >Voor meer over hoe te om uw milieu te vormen om de berichten van SMS te verzenden, verwijs naar [deze sectie](sms-configuration.md).
 
-1. Zodra alle parameters zijn gevormd, klik **[!UICONTROL Submit]** ter bevestiging. U kunt de berichtvoorinstelling ook opslaan als concept en de configuratie ervan later hervatten.
+1. Zodra alle parameters zijn gevormd, klik **[!UICONTROL Submit]** ter bevestiging. U kunt het kanaaloppervlak ook opslaan als concept en de configuratie later hervatten.
 
    ![](assets/preset-submit.png)
 
    >[!NOTE]
    >
-   >U kunt niet doorgaan met het maken van de voorinstelling terwijl de geselecteerde IP-pool zich onder [editie](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) en is nooit gekoppeld aan het geselecteerde subdomein. [Meer informatie](#subdomains-and-ip-pools)
+   >U kunt niet met oppervlakverwezenlijking te werk gaan terwijl de geselecteerde IP pool onder is [editie](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) en is nooit gekoppeld aan het geselecteerde subdomein. [Meer informatie](#subdomains-and-ip-pools)
    >
-   >Sla de voorinstelling op als concept en wacht tot de IP-pool de **[!UICONTROL Success]** status om het maken van de voorinstelling te hervatten.
+   >Sparen de oppervlakte als ontwerp en wacht tot de IP pool heeft **[!UICONTROL Success]** status om het maken van het oppervlak te hervatten.
 
-1. Nadat de berichtvoorinstelling is gemaakt, wordt deze in de lijst weergegeven met de **[!UICONTROL Processing]** status.
+1. Nadat het kanaaloppervlak is gemaakt, wordt het in de lijst weergegeven met de **[!UICONTROL Processing]** status.
 
    Tijdens deze stap, zullen verscheidene controles worden uitgevoerd om te verifiëren dat het behoorlijk is gevormd. De verwerkingstijd is ongeveer **48u-72u** en kan **7-10 werkdagen**.
 
@@ -97,25 +97,25 @@ Ga als volgt te werk om een berichtvoorinstelling te maken:
    >
    >Als de controles niet succesvol zijn, leer meer over de mogelijke mislukkingsredenen in [deze sectie](#monitor-message-presets).
 
-1. Als de controles zijn voltooid, wordt met de berichtvoorinstelling het volgende opgehaald **[!UICONTROL Active]** status. Het is klaar om te worden gebruikt om berichten te leveren.
+1. Als de controles zijn voltooid, krijgt het kanaaloppervlak de **[!UICONTROL Active]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
    ![](assets/preset-active.png)
 
-## Voorinstellingen voor monitorberichten {#monitor-message-presets}
+## Kanaaloppervlakken controleren {#monitor-message-presets}
 
-Alle voorinstellingen voor berichten worden weergegeven in het dialoogvenster **[!UICONTROL Channels]** > **[!UICONTROL Message presets]** -menu. Er zijn filters beschikbaar waarmee u door de lijst kunt bladeren (kanaaltype, gebruiker, status).
+Al uw kanaaloppervlakken worden weergegeven in het dialoogvenster **[!UICONTROL Channels]** > **[!UICONTROL Channel surfaces]** -menu. Er zijn filters beschikbaar waarmee u door de lijst kunt bladeren (kanaal, gebruiker, status).
 
 ![](assets/preset-filters.png)
 
-Zodra gecreeerd, kunnen de berichtvoorinstellingen de volgende statussen hebben:
+Na het maken kunnen kanaaloppervlakken de volgende statussen hebben:
 
-* **[!UICONTROL Draft]**: De berichtvoorinstelling is opgeslagen als een concept en is nog niet verzonden. Open het om de configuratie te hervatten.
-* **[!UICONTROL Processing]**: De berichtvoorinstelling is verzonden en wordt door verschillende verificatiestappen uitgevoerd.
-* **[!UICONTROL Active]**: De berichtvoorinstelling is geverifieerd en kan worden geselecteerd om berichten te maken.
-* **[!UICONTROL Failed]**: Een of meer controles zijn mislukt tijdens de verificatie van de berichtvoorinstelling.
-* **[!UICONTROL Deactivated]**: De berichtvoorinstelling is gedeactiveerd. Het kan niet worden gebruikt om nieuwe berichten tot stand te brengen.
+* **[!UICONTROL Draft]**: Het kanaaloppervlak is opgeslagen als concept en is nog niet verzonden. Open het om de configuratie te hervatten.
+* **[!UICONTROL Processing]**: Het kanaaloppervlak is verzonden en wordt door verschillende verificatiestappen gecontroleerd.
+* **[!UICONTROL Active]**: Het kanaaloppervlak is geverifieerd en kan worden geselecteerd om berichten te maken.
+* **[!UICONTROL Failed]**: Een of meer controles zijn mislukt tijdens de controle van het kanaaloppervlak.
+* **[!UICONTROL Deactivated]**: Het kanaaloppervlak wordt gedeactiveerd. Het kan niet worden gebruikt om nieuwe berichten tot stand te brengen.
 
-Als het maken van een berichtvoorinstelling mislukt, worden de details van elke mogelijke oorzaak van een fout hieronder beschreven.
+Als het maken van een kanaaloppervlak mislukt, worden de details van elke mogelijke oorzaak van een fout hieronder beschreven.
 
 Als een van deze fouten optreedt, neemt u contact op met [Adobe Klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} voor hulp.
 
@@ -128,18 +128,18 @@ Als een van deze fouten optreedt, neemt u contact op met [Adobe Klantenservice](
 * **Leverbaarheidsconfiguraties zijn mislukt**: Vanwege een van de volgende redenen kan een fout optreden in de configuraties van de aflevering:
    * Voegend op lijst van gewenste personen van toegewezen IPs
    * Ongeldig `helo` name
-   * E-mails die worden verzonden vanuit andere IP&#39;s dan die welke zijn opgegeven in de IP-pool van de corresponderende voorinstelling
+   * E-mails die worden verzonden van IPs buiten degenen die in de IP pool van de overeenkomstige oppervlakte worden gespecificeerd
    * Kan geen e-mails verzenden naar postvakken van belangrijke ISP&#39;s, zoals Gmail en Yahoo
 
-## Een berichtvoorinstelling bewerken {#edit-message-preset}
+## Een kanaaloppervlak bewerken {#edit-message-preset}
 
-Volg onderstaande stappen om een berichtvoorinstelling te bewerken.
+Volg onderstaande stappen om een kanaaloppervlak te bewerken.
 
 >[!NOTE]
 >
->U kunt de **[!UICONTROL Push notification settings]**. Als een berichtvoorinstelling alleen is geconfigureerd voor het pushmeldingskanaal, kan dit niet worden bewerkt.
+>U kunt de **[!UICONTROL Push notification settings]**. Als een kanaaloppervlakte slechts voor het Push- berichtkanaal wordt gevormd, is het niet editable.
 
-1. Klik in de lijst op de naam van een berichtvoorinstelling om deze te openen.
+1. Klik in de lijst op de naam van een kanaaloppervlak om het te openen.
 
    ![](assets/preset-name.png)
 
@@ -147,7 +147,7 @@ Volg onderstaande stappen om een berichtvoorinstelling te bewerken.
 
    >[!NOTE]
    >
-   >Als een berichtvoorinstelling de **[!UICONTROL Active]** status, de **[!UICONTROL Name]**, **[!UICONTROL Select channel]** en **[!UICONTROL Subdomain]** velden worden grijs weergegeven en kunnen niet worden bewerkt.
+   >Als een kanaaloppervlak de **[!UICONTROL Active]** status, de **[!UICONTROL Name]**, **[!UICONTROL Select channel]** en **[!UICONTROL Subdomain]** velden worden grijs weergegeven en kunnen niet worden bewerkt.
 
 1. Klikken **[!UICONTROL Submit]** om uw wijzigingen te bevestigen.
 
@@ -155,9 +155,9 @@ Volg onderstaande stappen om een berichtvoorinstelling te bewerken.
 
    >[!NOTE]
    >
-   >U kunt de berichtvoorinstelling ook opslaan als concept en de update later hervatten.
+   >U kunt het kanaaloppervlak ook opslaan als concept en de update later hervatten.
 
-Nadat de wijzigingen zijn ingediend, doorloopt de berichtvoorinstelling een validatiecyclus die vergelijkbaar is met de validatiecyclus die op dat moment wordt toegepast [een voorinstelling maken](#create-message-preset). De verwerkingstijd van de editie kan maximaal **3 uur**.
+Als de wijzigingen eenmaal zijn ingediend, doorloopt het kanaaloppervlak een validatiecyclus die vergelijkbaar is met de validatiecyclus die op dat moment wordt uitgevoerd [een kanaaloppervlak maken](#create-message-preset). De verwerkingstijd van de editie kan maximaal **3 uur**.
 
 >[!NOTE]
 >
@@ -165,15 +165,13 @@ Nadat de wijzigingen zijn ingediend, doorloopt de berichtvoorinstelling een vali
 
 ### Details bijwerken {#update-details}
 
-Voor voorinstellingen voor berichten met de **[!UICONTROL Active]** kunt u de details van de update controleren. Dit doet u als volgt:
+Voor kanaaloppervlakken met de **[!UICONTROL Active]** kunt u de details van de update controleren. Dit doet u als volgt:
 
-* Klik op de knop **[!UICONTROL Recent update]** wordt weergegeven naast de naam van de actieve voorinstelling.
+Klik op de knop **[!UICONTROL Recent update]** wordt weergegeven naast de naam van het actieve oppervlak.
 
-   ![](assets/preset-recent-update-icon.png)
+![](assets/preset-recent-update-icon.png)
 
-* U kunt de updatedetails van een actieve berichtvooraf ingesteld ook toegang hebben terwijl de update bezig is.
-
-   ![](assets/preset-view-update-details.png)
+<!--You can also access the update details from an active channel surface while update is in progress.-->
 
 Op de **[!UICONTROL Recent update]** op het scherm, kunt u informatie zoals de updatestatus, en de lijst van gevraagde veranderingen zien.
 
@@ -181,17 +179,17 @@ Op de **[!UICONTROL Recent update]** op het scherm, kunt u informatie zoals de u
 
 ### Statussen bijwerken {#update-statuses}
 
-Een update voor een berichtvoorinstelling kan de volgende statussen hebben:
+Een update van een kanaaloppervlak kan de volgende statussen hebben:
 
-* **[!UICONTROL Processing]**: De berichtvoorinstellingsupdate is verzonden en voert verschillende verificatiestappen uit.
-* **[!UICONTROL Success]**: De bijgewerkte berichtvoorinstelling is geverifieerd en kan worden geselecteerd om berichten te maken.
-* **[!UICONTROL Failed]**: Een of meer controles zijn mislukt tijdens de verificatie van de update van de berichtvoorinstelling.
+* **[!UICONTROL Processing]**: De update van het kanaaloppervlak is verzonden en wordt door verschillende verificatiestappen uitgevoerd.
+* **[!UICONTROL Success]**: Het bijgewerkte kanaaloppervlak is geverifieerd en kan worden geselecteerd om berichten te maken.
+* **[!UICONTROL Failed]**: Een of meer controles zijn mislukt tijdens de update-verificatie van het kanaaloppervlak.
 
 Elke status wordt hieronder beschreven.
 
 #### Verwerking
 
-Er worden verschillende controles op de leesbaarheid uitgevoerd om te controleren of de voorinstelling correct is bijgewerkt.
+Er zullen verschillende controles op de aflevering worden uitgevoerd om na te gaan of de oppervlakte correct is bijgewerkt.
 
 >[!NOTE]
 >
@@ -199,43 +197,43 @@ Er worden verschillende controles op de leesbaarheid uitgevoerd om te controlere
 
 De verwerkingstijd kan maximaal **3 uur**. Meer informatie over de controles die zijn uitgevoerd tijdens de validatiecyclus in [deze sectie](#create-message-preset).
 
-Als u een voorinstelling bewerkt die al actief was:
+Als u een oppervlak bewerkt dat al actief was:
 
 * Zijn status blijft behouden **[!UICONTROL Active]** terwijl het validatieproces bezig is.
 
-* De **[!UICONTROL Recent update]** wordt naast de naam van de voorinstelling in de lijst met voorinstellingen voor berichten weergegeven.
+* De **[!UICONTROL Recent update]** wordt naast de naam van het oppervlak in de lijst met kanaaloppervlakken weergegeven.
 
-* Tijdens het validatieproces worden de berichten die zijn geconfigureerd met deze voorinstelling, nog steeds gebruikt in de oudere versie van de voorinstelling.
+* Tijdens het bevestigingsproces, gebruiken de berichten die gebruikend dit oppervlak worden gevormd nog de oudere versie van de oppervlakte.
 
 >[!NOTE]
 >
->U kunt een berichtvoorinstelling niet wijzigen terwijl de update bezig is. U kunt nog steeds op de naam klikken, maar alle velden worden grijs weergegeven. De wijzigingen worden pas doorgevoerd als de update is gelukt.
+>U kunt een kanaaloppervlak niet wijzigen terwijl de update wordt uitgevoerd. U kunt nog steeds op de naam klikken, maar alle velden worden grijs weergegeven. De wijzigingen worden pas doorgevoerd als de update is gelukt.
 
 #### Succes {#success}
 
-Zodra het validatieproces is voltooid, wordt de nieuwe versie van de voorinstelling automatisch gebruikt in alle berichten die deze voorinstelling gebruiken. Het kan echter zijn dat u moet wachten:
+Zodra het validatieproces is voltooid, wordt de nieuwe versie van het oppervlak automatisch gebruikt in alle berichten die dit oppervlak gebruiken. Het kan echter zijn dat u moet wachten:
 * een paar minuten voordat het wordt verbruikt door de eenheidspublicaties,
-* totdat de volgende batch voor de voorinstelling van kracht is in batchberichten.
+* tot de volgende batch voor het oppervlak effectief is in batchberichten.
 
 #### Mislukt {#failed}
 
-Als het validatieproces mislukt, wordt de oudere versie van de voorinstelling nog steeds gebruikt.
+Als het validatieproces mislukt, wordt de oudere versie van het oppervlak nog steeds gebruikt.
 
 Meer informatie over mogelijke oorzaken van fouten vindt u in [deze sectie](#monitor-message-presets).
 
-Als het bijwerken mislukt, kan de voorinstelling opnieuw worden bewerkt. U kunt op de naam van de component klikken en de instellingen bijwerken die moeten worden hersteld.
+Als de update mislukt, wordt het oppervlak opnieuw bewerkbaar. U kunt op de naam van de component klikken en de instellingen bijwerken die moeten worden hersteld.
 
-## Een berichtvoorinstelling uitschakelen {#deactivate-preset}
+## Een kanaaloppervlak deactiveren {#deactivate-preset}
 
-Als u een **[!UICONTROL Active]** bericht niet beschikbaar om nieuwe berichten tot stand te brengen, kunt u het deactiveren. De gepubliceerde berichten die gebruikmaken van deze voorinstelling worden echter niet beïnvloed en blijven werken.
+Als u een **[!UICONTROL Active]** kanaaloppervlak niet beschikbaar om nieuwe berichten te maken, kunt u het deactiveren. De berichten over reizen die momenteel op dit oppervlak worden gebruikt, zullen echter niet worden beïnvloed en blijven werken.
 
 >[!NOTE]
 >
->U kunt een berichtvoorinstelling niet deactiveren terwijl een update wordt verwerkt. U moet wachten tot de update is gelukt of mislukt. Meer informatie over [voorinstellingen voor berichten bewerken](#edit-message-preset) en op de [updatestatus](#update-statuses).
+>U kunt een kanaaloppervlak niet deactiveren terwijl een update wordt verwerkt. U moet wachten tot de update is gelukt of mislukt. Meer informatie over [kanaaloppervlakken bewerken](#edit-message-preset) en op de [updatestatus](#update-statuses).
 
-1. Open de lijst met voorinstellingen voor berichten.
+1. Open de lijst met kanaaloppervlakken.
 
-1. Klik op de knop **[!UICONTROL More actions]** knop.
+1. Voor het actieve oppervlak van uw keuze klikt u op de knop **[!UICONTROL More actions]** knop.
 
 1. Selecteer **[!UICONTROL Deactivate]**.
 
@@ -243,14 +241,14 @@ Als u een **[!UICONTROL Active]** bericht niet beschikbaar om nieuwe berichten t
 
 >[!NOTE]
 >
->Gedetailleerde berichtvoorinstellingen kunnen niet worden verwijderd om problemen te voorkomen tijdens reizen waarbij deze voorinstellingen worden gebruikt om berichten te verzenden.
+>Gedeactiveerde kanaaloppervlakken kunnen niet worden verwijderd om problemen te voorkomen tijdens reizen waarbij deze oppervlakken worden gebruikt om berichten te verzenden.
 
-U kunt een gedeactiveerde berichtvoorinstelling niet rechtstreeks bewerken. U kunt het bestand echter wel dupliceren en de kopie bewerken om een nieuwe versie te maken waarmee u nieuwe berichten kunt maken. U kunt de toepassing ook opnieuw activeren en wachten tot de update is gelukt om deze te bewerken.
+U kunt een gedeactiveerd kanaaloppervlak niet rechtstreeks bewerken. U kunt het bestand echter wel dupliceren en de kopie bewerken om een nieuwe versie te maken waarmee u nieuwe berichten kunt maken. U kunt de toepassing ook opnieuw activeren en wachten tot de update is gelukt om deze te bewerken.
 
 ![](assets/preset-activate.png)
 
 ## Hoe kan ik-video{#video-presets}
 
-Leer hoe te om berichtvoorinstellingen tot stand te brengen, hoe te om hen te gebruiken en hoe te om subdomain te delegeren en een IP pool tot stand te brengen.
+Leer hoe te om kanaaloppervlakken tot stand te brengen, hoe te om hen te gebruiken en hoe te om subdomain te delegeren en een IP pool tot stand te brengen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)

@@ -6,9 +6,9 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '722'
 ht-degree: 11%
 
 ---
@@ -57,15 +57,15 @@ De gebruiker ontvangt vervolgens een e-mail met een doorverwijzing naar uw -inst
 
 Raadpleeg voor meer informatie over gebruikersbeheer de [Documentatie Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html).
 
-Wanneer de gebruiker tot de instantie toegang heeft, zal uw gebruiker een specifieke mening afhankelijk van de toegewezen toestemmingen in zien **[!UICONTROL Product profile]**. Als de gebruiker niet de juiste toegang tot een eigenschap heeft, zal het volgende scherm verschijnen.
+Wanneer de gebruiker tot de instantie toegang heeft, zal uw gebruiker een specifieke mening afhankelijk van de toegewezen toestemmingen in zien **[!UICONTROL Product profile]**. Als de gebruiker niet de juiste toegang tot een eigenschap heeft, zal het volgende bericht verschijnen:
 
-![](assets/do-not-localize/access_control_1.png)
+`You don't have permission to access this feature. Permission needed: XX.`
 
 ## Een bestaand productprofiel bewerken {#edit-product-profile}
 
 Voor uitpakken of aanpassen **[!UICONTROL Product profiles]** kunt u op elk gewenst moment besluiten machtigingen toe te voegen of te verwijderen.
 
-In dit voorbeeld willen we toevoegen **[!UICONTROL Permissions]** in verband met de **[!UICONTROL Message]** mogelijkheden voor gebruikers die zijn toegewezen aan de Journey-viewer **[!UICONTROL Product profile]**. De gebruikers zullen dan berichten kunnen publiceren.
+In dit voorbeeld willen we toevoegen **[!UICONTROL Permissions]** in verband met de **[!UICONTROL Journeys]** mogelijkheden voor gebruikers die zijn toegewezen aan de Journey-viewer **[!UICONTROL Product profile]**. De gebruikers kunnen dan reizen publiceren.
 
 Let op: als u een uit-van-de-doos of aangepast **[!UICONTROL Product profile]**, heeft dit gevolgen voor elke gebruiker die aan deze **[!UICONTROL Product profile]**.
 
@@ -79,21 +79,17 @@ Let op: als u een uit-van-de-doos of aangepast **[!UICONTROL Product profile]**,
 
    ![](assets/do-not-localize/access_control_5.png)
 
-1. Selecteer **[!UICONTROL Messages]** capaciteit.
+1. Selecteer **[!UICONTROL Journeys]** capaciteit.
 
    ![](assets/do-not-localize/access_control_6.png)
 
 1. Van de **[!UICONTROL Available Permission Items]** Selecteer de machtigingen die aan uw **[!UICONTROL Product profile]** door op de plusknop (+) te klikken.
 
-   Hier voegen we de **[!UICONTROL Publish messages]** toestemming.
-
-   ![](assets/do-not-localize/access_control_7.png)
+   Hier voegen we de **[!UICONTROL Publish Journeys]** toestemming.
 
 1. Klik zo nodig onder **[!UICONTROL Included Permission Items]** op het X-pictogram om toestemmingen voor uw productprofiel te verwijderen.
 
 1. Klik op **[!UICONTROL Save]** als u klaar bent.
-
-   ![](assets/do-not-localize/access_control_8.png)
 
 Indien nodig kunt u ook een nieuw productprofiel met specifieke machtigingen maken. Raadpleeg voor meer informatie hierover [Een productprofiel maken](#create-product-profile).
 
@@ -103,7 +99,7 @@ Indien nodig kunt u ook een nieuw productprofiel met specifieke machtigingen mak
 
 Voor meer informatie over het maken en beheren van sandboxen raadpleegt u [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target=&quot;_blank&quot;}.
 
-In dit voorbeeld maken we een productprofiel met de naam **Reizen, alleen-lezen** waar wij read-only rechten op de eigenschap van de Reis zullen verlenen. Gebruikers kunnen alleen reizen openen en bekijken en hebben geen toegang tot andere functies, zoals **[!DNL  Decision management]** of **[!DNL Messages]** in [!DNL Journey Optimizer].
+In dit voorbeeld maken we een productprofiel met de naam **Reizen, alleen-lezen** waar wij read-only rechten op de eigenschap van de Reis zullen verlenen. Gebruikers kunnen alleen reizen openen en bekijken en hebben geen toegang tot andere functies, zoals **[!DNL  Decision management]** in [!DNL Journey Optimizer].
 
 Als u onze **Reizen, alleen-lezen** **[!UICONTROL product profiles]**:
 
@@ -125,7 +121,7 @@ Als u onze **Reizen, alleen-lezen** **[!UICONTROL product profiles]**:
 
 1. Als u machtigingen voor gebruikers wilt toevoegen om toegang te krijgen tot verschillende functies, selecteert u de optie **[!UICONTROL Permissions]** tab.
 
-1. Selecteren tussen de verschillende mogelijkheden, zoals **[!DNL Messages]**, **[!DNL Segments]** of **[!DNL Decision management]** beschikbaar in [!DNL Journey Optimizer] in het linkermenu.
+1. Selecteren tussen de verschillende mogelijkheden, zoals **[!DNL Journeys]**, **[!DNL Segments]** of **[!DNL Decision management]** beschikbaar in [!DNL Journey Optimizer] in het linkermenu.
 
    Hier selecteren we de **[!UICONTROL Journeys]** capaciteit.
 

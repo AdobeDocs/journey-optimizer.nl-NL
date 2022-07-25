@@ -2,9 +2,9 @@
 title: Opmerkingen bij de vorige release (2021)
 description: Opmerkingen bij de release van Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2067'
 ht-degree: 9%
 
 ---
@@ -86,7 +86,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 **Rapportage**
 
-* **Gegevensindeling in algemene weergave** - U kunt nu schakelen tussen getallen en percentages in het dialoogvenster **Globale weergave** van de **Uitvoering** tab. [Meer informatie](../reports/message-monitoring.md)
+* **Gegevensindeling in algemene weergave** - U kunt nu schakelen tussen getallen en percentages in het dialoogvenster **Globale weergave** van de **Uitvoering** tab.
 
 
 **Beheer**
@@ -126,7 +126,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 <td>
 <p>Nieuwe metriek zijn beschikbaar in rapportering: Gericht en Uitgesloten voor e-mail- en pushberichten zijn zichtbaar in zowel live- als algemene rapporten. </br> Om toegang te hebben tot de recentste metriek, gelieve te merken op dat u de verschillende rapporteringsdashboards voor elk kanaal en rapporttype zult moeten terugstellen. Raadpleeg voor meer informatie over het aanpassen van het dashboard de <a href="../reports/live-report.md">gedetailleerde documentatie.</a></p>
 <p>Een nieuwe kolom in de lijst van de berichtuitvoering toont het aantal gerichte profielen voor elke berichtuitvoering. </p>
-<p>Raadpleeg de <a href="../reports/message-monitoring.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="../reports/global-report.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -180,7 +180,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 <td>
 <p>Verzend automatisch uw pushbericht of e-mail op het beste moment voor elke klant die u met Adobe Journey Optimizer werkt. De Optimalisering van de Send-Time, aangedreven door de diensten AI van Adobe, voorspelt de beste tijd om een e-mail of duw bericht te verzenden om overeenkomst te maximaliseren die op historische open wordt gebaseerd en tarieven uit de doos te klikken.</p>
 <p>Deze functie is momenteel in bètaversie beschikbaar voor bètaklanten. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.</p>
-<p>Raadpleeg de <a href="../building-journeys/journeys-message.md#send-time-optimization">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="../messages/send-time-optimization.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -274,7 +274,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 **Personalisatie**
 
-* **Expressieeditor** - U kunt nu eenvoudig een terugvalwaarde toevoegen bij het definiëren van een personalisatie: als het verpersoonlijkingsgebied voor een profiel leeg is, zal de reserve waarde tonen. [Meer informatie](../personalization/functions/helpers.md)
+* **Expression-editor** - U kunt nu eenvoudig een terugvalwaarde toevoegen bij het definiëren van een personalisatie: als het verpersoonlijkingsgebied voor een profiel leeg is, zal de reserve waarde tonen. [Meer informatie](../personalization/functions/helpers.md)
 
 **E-mailconfiguratie**
 
@@ -289,7 +289,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 * Probleem met toegankelijkheid in navigatie op het tabblad Bericht verholpen.
 * Probleem met lokalisatie in de labels van de e-mailontwerper is opgelost.
-* Probleem verholpen wanneer u meerdere knooppunten op een pad selecteert en op Verwijderen klikt in het deelvenster Eigenschappen.
+* Probleem verholpen bij het selecteren van meerdere knooppunten in een rit en klikken op Verwijderen in het eigenschappenvenster.
 * Probleem verholpen waarbij geen nieuwe koptekst kon worden toegevoegd aan een actie die tijdens een rit werd gebruikt.
 * U kunt nu nagaan waarom het maken van een berichtvoorinstelling is mislukt door een explicietere waarschuwing in de gebruikersinterface.
 
@@ -342,7 +342,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 * In het scherm van de reislijst, is het filter van het reistype toegevoegd. [Meer informatie](../start/user-interface.md#filter-lists)
 * De **[!UICONTROL Throttling rate]** parameter is toegevoegd in de Gelezen segmentactiviteit. [Meer informatie](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
-**Voorbeeld- en testberichten**
+**Voorvertonen en testen**
 
 * Identiteit en naamruimte zijn nu zichtbaar in het dialoogvenster **[!UICONTROL Preview]** scherm. [Meer informatie](../design/preview.md#preview-your-messages)
 * Het aantal teste-mails voor proefdrukken is nu beperkt tot tien.
@@ -357,6 +357,6 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 * Probleem verholpen waarbij dubbele berichten werden afgeleverd voor verzending via batchberichten.
 * Gebeurtenissen worden nu overeenkomstig gegenereerd wanneer het verzenden van e-mail niet wordt uitgevoerd wanneer de periode voor opnieuw proberen is verstreken.
 * Oplossing voor een probleem waarbij IP-informatie ontbrak in het scherm PTR-records.
-* De lokalisatie in het aanbod van het spoor binnen de Redacteur van de Uitdrukking wordt nu uitgevoerd.
+* De lokalisatie in het aanbod van het spoor in de Expression Editor is nu geïmplementeerd.
 * Onjuiste spatiëring in pop-ups met gegevens gecorrigeerd.
 * Probleem verholpen in de e-mailontwerper bij het uploaden van een HTML-bestand met een intern stijlblad met `background-image` eigenschap wordt niet ondersteund.

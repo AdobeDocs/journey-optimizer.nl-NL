@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 3513f5415ebbac1be889ba390877611ad5a71030
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 0%
@@ -118,7 +118,7 @@ U kunt ook teksttype-inhoud invoegen wanneer u een compatibele plaatsing selecte
 
    ![](../assets/offer-text-content.png)
 
-   U kunt de inhoud aanpassen met de Expressieeditor. Meer informatie over [personalisatie](../../personalization/personalize.md#use-expression-editor).
+   U kunt de inhoud personaliseren met de uitdrukkingseditor. Meer informatie over [personalisatie](../../personalization/personalize.md#use-expression-editor).
 
    ![](../assets/offer-personalization.png)
 

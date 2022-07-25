@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 1%
+source-wordcount: '827'
+ht-degree: 2%
 
 ---
 
@@ -97,7 +97,7 @@ Het activeren van een regel heeft invloed op berichten waarop deze van toepassin
 
 >[!NOTE]
 >
->Het kan 10 minuten duren voordat een regel volledig geactiveerd is. U hoeft geen berichten of reizen te wijzigen of opnieuw te publiceren voordat een regel van kracht wordt.
+>Het kan 10 minuten duren voordat een regel volledig geactiveerd is. U hoeft geen berichten te wijzigen of ritten opnieuw te publiceren voordat een regel van kracht wordt.
 
 Als u een berichtfrequentieregel wilt deactiveren, klikt u op de ellips naast de regel en selecteert u **[!UICONTROL Deactivate]**.
 
@@ -113,37 +113,26 @@ De status van de regel verandert in **[!UICONTROL Inactive]** en de regel zal ni
 
 Volg onderstaande stappen om een frequentieregel toe te passen op een bericht.
 
-1. Maak een bericht. [Meer informatie](../messages/get-started-content.md#create-new-message)
+1. [Een bericht maken](../messages/get-started-content.md#create-new-message) door een van de kanalen te selecteren u voor uw regel bepaalde.
 
 1. Selecteer de categorie die u voor de [regel die u hebt gemaakt](#create-new-rule).
 
-   ![](assets/message-rules-msg-properties.png)
+   ![](assets/inline-message-category.png)
 
    >[!NOTE]
    >
    >Alleen de **[!UICONTROL Marketing]** de categorie is beschikbaar voor berichtfrequentieregels.
 
-1. Selecteer het kanaal of de kanalen van uw keus voor uw bericht.
+   <!--
+   1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). A new tab will open to display the matching message frequency rules.-->
 
-   ![](assets/message-rules-msg-channels.png)
+1. Alle frequentieregels die overeenkomen met de geselecteerde categorie en kanalen worden automatisch toegepast op dit bericht.
 
-1. U kunt op de knop **[!UICONTROL Frequency rule]** koppeling om de frequentieregels weer te geven die van toepassing zijn op de geselecteerde categorie en het geselecteerde kanaal of de geselecteerde kanalen.
+   >[!NOTE]
+   >
+   >Berichten waarbij de geselecteerde categorie is **[!UICONTROL Transactional]** niet worden getoetst aan de frequentievoorschriften.
 
-   ![](assets/message-rules-msg-link.png)
-
-   Er wordt een nieuw tabblad geopend met de regels voor de overeenkomstige berichtfrequentie.
-
-1. [Ontwerp](../design/design-emails.md) en [publish](../messages/publish-manage-message.md) uw bericht.
-
-Alle frequentieregels die overeenkomen met de geselecteerde categorie en kanalen worden automatisch toegepast op dit bericht.
-
->[!NOTE]
->
->Berichten <!--that do not have any selected category or messages -->waarbij de geselecteerde categorie **[!UICONTROL Transactional]** niet worden getoetst aan de frequentievoorschriften.
-
-<!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
-
-U kunt het aantal profielen dat is uitgesloten van levering bekijken in het dialoogvenster [Live en globale weergaven](../reports/message-monitoring.md)en in de [E-mailLive-rapport](../reports/email-live-report.md), waarbij de frequentievoorschriften worden vermeld als mogelijke reden voor gebruikers die van levering zijn uitgesloten.
+1. U kunt het aantal profielen dat is uitgesloten van levering bekijken in het dialoogvenster [Algemeen rapport](../reports/global-report.md)en in de [Live-rapport](../reports/live-report.md), waarbij de frequentievoorschriften worden vermeld als mogelijke reden voor gebruikers die van levering zijn uitgesloten.
 
 >[!NOTE]
 >
@@ -155,7 +144,7 @@ U kunt verschillende regels voor berichtfrequentie combineren, zoals in het onde
 
 1. [Een regel maken](#create-new-rule) gebeld *Algemene marketinglimiet*:
 
-   * Selecteer alle kanalen (E-mail, Drukken).
+   * Selecteer E-mail- en pushkanalen.
    * Afbeelding instellen op 12.
 
    ![](assets/message-rules-ex-overall-cap.png)
@@ -169,19 +158,9 @@ U kunt verschillende regels voor berichtfrequentie combineren, zoals in het onde
 
 1. Opslaan en [activate](#activate-rule) de regel.
 
-1. Maak een bericht. [Meer informatie](../messages/get-started-content.md#create-new-message)
+1. Maak een e-mail en selecteer de **[!UICONTROL Marketing]** categorie voor dat bericht. [Meer informatie](../messages/get-started-content.md#create-new-message)
 
-1. Selecteer **[!UICONTROL Marketing]** categorie.
-
-   ![](assets/message-rules-ex-category-maktg.png)
-
-1. Selecteer **[!UICONTROL Email]** en **[!UICONTROL Push Notification]** kanalen.
-
-   ![](assets/message-rules-ex-channels.png)
-
-1. U kunt op de knop **[!UICONTROL Frequency rule]** koppeling om de frequentieregels weer te geven die van toepassing zijn op de geselecteerde categorie en het geselecteerde kanaal of de geselecteerde kanalen.
-
-1. [Ontwerp](../design/design-emails.md) en [publish](../messages/publish-manage-message.md) uw bericht.
+1. Maak een pushmelding en selecteer de optie **[!UICONTROL Marketing]** categorie voor dat bericht. [Meer informatie](../messages/get-started-content.md#create-new-message)
 
 In dit scenario wordt een individueel profiel:
 * per maand maximaal 12 marketingberichten kunnen ontvangen;
@@ -189,10 +168,10 @@ In dit scenario wordt een individueel profiel:
 
 >[!NOTE]
 >
->Bij het testen van frequentieregels kan het handig zijn om te beginnen met een nieuw [testprofiel](../segment/creating-test-profiles.md)Omdat er geen manier is om de teller opnieuw in te stellen tot de volgende maand wanneer de frequentie-instelling van een profiel is bereikt. Als u een regel deactiveert, kunnen beperkte profielen berichten ontvangen, maar worden er geen tellerverhogingen verwijderd of verwijderd.
+>Bij het testen van de frequentieregels wordt aanbevolen een nieuw [testprofiel](../segment/creating-test-profiles.md)Omdat er geen manier is om de teller opnieuw in te stellen tot de volgende maand wanneer de frequentie-instelling van een profiel is bereikt. Als u een regel deactiveert, kunnen beperkte profielen berichten ontvangen, maar worden er geen tellerverhogingen verwijderd of verwijderd.
 
 ## Hoe kan ik-video {#video}
 
-Leer hoe u regels voor frequenties maakt, activeert, test en rapporteert.
+Leer hoe u frequentieregels maakt, activeert, test en rapporteert.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

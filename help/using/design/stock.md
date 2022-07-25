@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: 7f524b7ed9092465be996eeca36e6102e8e1c405
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '550'
 ht-degree: 1%
 
 ---
@@ -65,10 +65,7 @@ Voer de onderstaande stappen uit om door vergelijkbare foto&#39;s te bladeren:
 
    Als de geselecteerde afbeelding geen licentie heeft, moet u [krijg de vergunning](#license-stock-image).
 
-1. Pas indien nodig uw afbeelding aan met de **[!UICONTROL Components settings]** -menu. [Meer informatie over componentinstellingen](content-components.md)
-
-Zodra uw bericht is gecreeerd en gepersonaliseerd, kunt u het publiceren om het voor uitvoering ter beschikking te stellen. [Meer informatie](../messages/publish-manage-message.md)
-
+1. Pas indien nodig uw afbeelding aan met de **[!UICONTROL Components settings]** -menu. [Meer informatie over componentinstellingen](content-components.md).
 
 ## De licentie ophalen van [!DNL Adobe Stock] {#license-stock-image}
 

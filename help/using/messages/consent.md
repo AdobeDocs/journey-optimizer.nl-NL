@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 47b1c2832f82a5c168cd03f1d1b43a9223c945b3
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1311'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Daarom moet u altijd een **afmelden, koppeling** in elke e-mail die naar ontvang
 
 >[!NOTE]
 >
->E-mailberichten van het type Marketing moeten een opt-out-koppeling bevatten, die niet vereist is voor transactiemeldingen. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd op de [berichtvooraf ingesteld niveau](../configuration/message-presets.md#email-type) en wanneer [het bericht maken](get-started-content.md#create-new-message).
+>E-mailberichten van het type Marketing moeten een opt-out-koppeling bevatten, die niet vereist is voor transactiemeldingen. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd op de [kanaaloppervlak](../configuration/message-presets.md#email-type) (d.w.z. vooraf ingestelde berichten) en wanneer [het bericht maken](get-started-content.md#create-new-message).
 
 ### Externe opt-out {#opt-out-external-lp}
 
@@ -55,7 +55,7 @@ Eerst moet u een afmeldingskoppeling toevoegen aan een bericht. Volg de ondersta
 
 1. De gastheer het op het derdesysteem van uw keus.
 
-1. [Een bericht maken](get-started-content.md) in [!DNL Journey Optimizer].
+1. [Een bericht maken](get-started-content.md) tijdens een reis.
 
 1. Selecteer tekst in uw inhoud en [een koppeling invoegen](../design/message-tracking.md#insert-links) gebruiken van de contextafhankelijke werkbalk.
 
@@ -70,8 +70,6 @@ Eerst moet u een afmeldingskoppeling toevoegen aan een bericht. Volg de ondersta
    ![](assets/opt-out-link-url.png)
 
 1. Klik op **[!UICONTROL Save]**.
-
-1. Sla uw inhoud op en [uw bericht publiceren](publish-manage-message.md).
 
 #### Een API-aanroep voor opt-out implementeren {#opt-out-api}
 
@@ -161,7 +159,7 @@ Volg onderstaande stappen om een koppeling om te weigeren toe te voegen in uw e-
 
    >[!NOTE]
    >
-   >Als u de optie **List-Unsubscribe** Deze URL wordt ook gebruikt wanneer gebruikers op de koppeling Abonnement opzeggen in de e-mailheader klikken. [Meer informatie](#unsubscribe-header)
+   >Als u de optie **List-Unsubscribe** Deze URL wordt ook gebruikt wanneer gebruikers op de koppeling Abonneren in de e-mailheader klikken. [Meer informatie](#unsubscribe-header)
 
    ![](assets/message-tracking-opt-out-confirmation.png)
 
@@ -171,15 +169,15 @@ Volg onderstaande stappen om een koppeling om te weigeren toe te voegen in uw e-
 
 Zodra uw bericht door [reis](../building-journeys/journey.md)Als een ontvanger op de koppeling om te weigeren klikt, wordt zijn profiel onmiddellijk uitgeschakeld.
 
-### Koppeling in berichtkop opzeggen {#unsubscribe-header}
+### Koppeling in e-mailkoptekst opzeggen {#unsubscribe-header}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="Koppeling voor abonnement toevoegen aan e-mailkoptekst"
->abstract="Schakel List-Unsubscribe in om een koppeling voor afmelden aan de e-mailkoptekst toe te voegen. Als u een URL voor afmelden wilt instellen, voegt u een koppeling om te weigeren in de inhoud van het e-mailbericht in."
+>abstract="Schakel List-Unsubscribe in om een koppeling voor afmelden aan de e-mailkoptekst toe te voegen. Als u een URL voor afmelden wilt instellen, voegt u een koppeling om te weigeren in de e-mailinhoud in."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/consent.html?lang=en#one-click-opt-out" text="Eén klik op Weigeren"
 
-Als de [List-Unsubscribe, optie](../configuration/message-presets.md#list-unsubscribe) is ingeschakeld op het niveau van de berichtvoorinstelling. De bijbehorende e-mails worden verzonden met [!DNL Journey Optimizer] zal een unsubscribe verbinding in de e-mailkopbal omvatten.
+Als de [List-Unsubscribe, optie](../configuration/message-presets.md#list-unsubscribe) is ingeschakeld op het niveau van het kanaaloppervlak, de bijbehorende e-mails die worden verzonden met [!DNL Journey Optimizer] zal een unsubscribe verbinding in de e-mailkopbal omvatten.
 
 De koppeling voor afmelden wordt bijvoorbeeld als volgt weergegeven in Gmail:
 
@@ -189,7 +187,7 @@ De koppeling voor afmelden wordt bijvoorbeeld als volgt weergegeven in Gmail:
 >
 >Als u de koppeling voor afmelden in de e-mailheader wilt weergeven, moet de e-mailclient van de ontvangers deze functie ondersteunen.
 
-Het afmeldingsadres is het standaardadres **[!UICONTROL Mailto (unsubscribe)]** adres dat wordt weergegeven in de bijbehorende berichtvoorinstelling. [Meer informatie](../configuration/message-presets.md#list-unsubscribe).
+Het afmeldingsadres is het standaardadres **[!UICONTROL Mailto (unsubscribe)]** adres dat in de overeenkomstige kanaaloppervlakte wordt getoond. [Meer informatie](../configuration/message-presets.md#list-unsubscribe).
 
 Als u een gepersonaliseerde URL voor afmelden wilt instellen, voegt u een koppeling voor een eenmalige aanmelding in de inhoud van het e-mailbericht in en voert u de gewenste URL in. [Meer informatie](#one-click-opt-out)
 

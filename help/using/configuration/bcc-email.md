@@ -1,14 +1,14 @@
 ---
 title: BCC-e-mail gebruiken
-description: Leer hoe u BCC-e-mail configureert op het niveau van de berichtvoorinstelling
+description: Leer hoe u BCC-e-mail op het niveau van het kanaaloppervlak configureert
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 8fe960e490722878dfd6dce52a88c3a9ccb037c2
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1094'
 ht-degree: 1%
 
 ---
@@ -24,23 +24,23 @@ U kunt een identieke kopie (of blinde koolstofkopie) van een e-mailbericht verze
 
 ## BCC-e-mail inschakelen {#enable-bcc}
 
-Om het **[!UICONTROL BCC email]** voert u het e-mailadres van uw keuze in het desbetreffende veld in. U kunt elk extern adres opgeven in de juiste indeling, behalve een e-mailadres dat is gedefinieerd voor een subdomein dat is gedelegeerd aan Adobe. Als u bijvoorbeeld de opdracht *marketing.luma.com* subdomein voor Adobe, elk adres zoals *abc@marketing.luma.com* is verboden.
+Om het **[!UICONTROL BCC email]** voert u het e-mailadres van uw keuze in in het desbetreffende veld van het dialoogvenster [kanaaloppervlak](message-presets.md) (d.w.z. voorinstelling bericht). U kunt elk extern adres opgeven in de juiste indeling, behalve een e-mailadres dat is gedefinieerd voor een subdomein dat is gedelegeerd aan Adobe. Als u bijvoorbeeld de opdracht *marketing.luma.com* subdomein voor Adobe, elk adres zoals *abc@marketing.luma.com* is verboden.
 
 >[!NOTE]
 >
->U kunt slechts één BCC-e-mailadres definiëren. Controleer of het BCC-adres voldoende ontvangstcapaciteit heeft om alle e-mails op te slaan die met de huidige voorinstelling worden verzonden.
+>U kunt slechts één BCC-e-mailadres definiëren. Zorg ervoor dat het BCC-adres voldoende ontvangstcapaciteit heeft om alle e-mails op te slaan die via het huidige kanaaloppervlak worden verzonden.
 >
 >Meer aanbevelingen worden weergegeven in [deze sectie](#bcc-recommendations-limitations).
 
 ![](assets/preset-bcc.png)
 
-Alle e-mailberichten die deze voorinstelling gebruiken, worden blind gekopieerd naar het e-mailadres dat u voor BCC hebt opgegeven. Van daaruit kunnen ze worden verwerkt en gearchiveerd met behulp van een extern systeem.
+Alle e-mailberichten die op dit oppervlak worden weergegeven, worden blind gekopieerd naar het e-mailadres dat u hebt ingevoerd. Van daaruit kunnen ze worden verwerkt en gearchiveerd met behulp van een extern systeem.
 
 >[!CAUTION]
 >
->Het gebruik van de BCC-functie wordt afgeboekt op het aantal berichten waarvoor u een licentie hebt. Schakel deze daarom alleen in in de voorinstellingen die worden gebruikt voor kritieke communicatie die u wilt archiveren. Controleer uw contract op volumes met licentie.
+>Het gebruik van de BCC-functie wordt afgeboekt op het aantal berichten waarvoor u een licentie hebt. Vandaar, laat slechts het in de oppervlakken toe die voor kritieke mededelingen worden gebruikt die u wenst te archiveren. Controleer uw contract op volumes met licentie.
 
-De instelling voor het e-mailadres van de BCC wordt direct opgeslagen en verwerkt op het vooraf ingestelde niveau. Wanneer u [een nieuw bericht maken](../messages/get-started-content.md#create-new-message) Als u deze voorinstelling gebruikt, wordt het BCC-e-mailadres automatisch weergegeven.
+De instelling voor het BCC-e-mailadres wordt direct opgeslagen en verwerkt op oppervlakteneniveau. Wanneer u [een nieuw bericht maken](../messages/get-started-content.md#create-new-message) Als u dit oppervlak gebruikt, wordt het BCC-e-mailadres automatisch weergegeven.
 
 ![](assets/preset-bcc-in-msg.png)
 
@@ -52,7 +52,7 @@ Nochtans, wordt het adres BCC opgepikt voor het verzenden van mededelingen die d
 
 >[!NOTE]
 >
->U hoeft geen bericht of reis opnieuw te publiceren om de instelling BCC op te halen.
+>U hoeft uw reis niet opnieuw te publiceren om de BCC-instelling op te halen.
 
 ## Recommendations en beperkingen {#bcc-recommendations-limitations}
 
@@ -66,7 +66,7 @@ Nochtans, wordt het adres BCC opgepikt voor het verzenden van mededelingen die d
 
    <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* Open of klik niet door de e-mails die naar het BCC-adres worden verzonden, aangezien hiermee rekening wordt gehouden bij het openen van het totaal en klikken op de verzendanalyse, wat tot onjuiste berekeningen kan leiden bij: [rapporten](../reports/message-monitoring.md).
+* Open of klik niet door de e-mails die naar het BCC-adres worden verzonden, aangezien hiermee rekening wordt gehouden bij het openen van het totaal en klikken op de verzendanalyse, wat tot onjuiste berekeningen kan leiden bij: [rapporten](../reports/global-report.md).
 
 * Markeer geen berichten als spam in de BCC-postvak, omdat dit invloed heeft op alle andere e-mails die naar dit adres worden verzonden.
 

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '189'
 ht-degree: 20%
 
 ---
@@ -23,7 +23,7 @@ Gebruikersbeheer in [!DNL Journey Optimizer] is gebaseerd op drie concepten:
 
 * **[!UICONTROL Product profile]**: Een reeks eenheidsrechten die gebruikers toegang tot bepaalde functies of objecten in de interface biedt. Zie de [Productprofielen buiten de verpakking](ootb-product-profiles.md) sectie
 
-* **[!UICONTROL Permissions]**: Unierechten waarmee u de machtigingen kunt definiëren die zijn toegewezen aan **[!UICONTROL Product profile]**. Elke toestemming wordt verzameld onder mogelijkheden, bijvoorbeeld Reis, Berichten of Aanbiedingen, die de verschillende functionaliteiten of voorwerpen in vertegenwoordigen [!DNL Journey Optimizer]. Zie de [Machtigingsniveaus](high-low-permissions.md) sectie.
+* **[!UICONTROL Permissions]**: Unierechten waarmee u de machtigingen kunt definiëren die zijn toegewezen aan **[!UICONTROL Product profile]**. Elke toestemming wordt verzameld onder mogelijkheden, bijvoorbeeld Reis of Aanbiedingen, die de verschillende functionaliteiten of voorwerpen in vertegenwoordigen [!DNL Journey Optimizer]. Zie de [Machtigingsniveaus](high-low-permissions.md) sectie.
 
 * **[!UICONTROL Sandbox]**: Virtuele sandboxen die instanties in afzonderlijke, geïsoleerde virtuele omgevingen verdelen. Zie de [Sandboxen gebruiken](sandboxes.md)
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '256'
 ht-degree: 3%
 
 ---
@@ -24,14 +24,12 @@ In dit voorbeeld wordt **[!UICONTROL Consent and Preference Details]** veldgroep
 Om deze reis te vormen, volg deze stappen:
 
 1. Maak een reis die begint met een **[!UICONTROL Read]** activiteit. [Meer informatie](journey-gs.md).
-1. Voeg een **[!UICONTROL Message]** activiteit, met een e-mail, aan de reis. [Meer informatie](journeys-message.md).
-1. In de **[!UICONTROL Email parameters]** van de **[!UICONTROL Message]** activiteiteninstellingen, vervang het standaard e-mailadres (`PersonalEmail.adress`) met het e-mailadres van de abonnees van de lijst:
+1. Een **[!UICONTROL Email]** actie op de reis. [Meer informatie](journeys-message.md).
+1. In de **[!UICONTROL Email parameters]** van de **[!UICONTROL Email]** activiteiteninstellingen, vervang het standaard e-mailadres (`PersonalEmail.adress`) met het e-mailadres van de abonnees van de lijst:
 
    1. Klik op de knop **[!UICONTROL Enable parameter override]** pictogram rechts van **[!UICONTROL Address]** en klik vervolgens op de knop **[!UICONTROL Edit]** pictogram.
 
       ![](assets/message-to-subscribers-uc-1.png)
-
-      U kunt het e-mailadres alleen wijzigen als u het bericht al eerder hebt gepubliceerd.
 
    1. Voer in de expressieeditor de expressie in om de e-mailadressen van de abonnees op te halen. [Meer informatie](expression/expressionadvanced.md).
 
@@ -55,4 +53,3 @@ Om deze reis te vormen, volg deze stappen:
       ![](assets/message-to-subscribers-uc-2.png)
 
    1. In de **[!UICONTROL Add an expression]** dialoogvenster, klikt u op **[!UICONTROL Ok]**.
-   ![](assets/message-to-subscribers-uc-3.png)

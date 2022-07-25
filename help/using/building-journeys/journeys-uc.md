@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '836'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,6 @@ Voor dit gebruiksgeval om te werken, moet u het volgende vormen:
 
 * een segment voor alle klanten die in Atlanta, San Francisco of Seattle wonen en na 1980 geboren zijn.
 * een aankoopgebeurtenis
-* drie berichten
 
 ### Het segment maken
 
@@ -81,29 +80,17 @@ Hiervoor gebruiken we een op regels gebaseerde gebeurtenis. Raadpleeg deze voor 
 
 De gebeurtenis is nu geconfigureerd en klaar om in uw reis te worden gebruikt. Met de bijbehorende gebeurtenisactiviteit kunt u een actie activeren telkens wanneer een klant een aankoop doet.
 
-### Berichten maken
-
-Voor dit gebruik, moeten wij drie berichten tot stand brengen:
-
-* een eerste pushbericht en e-mailbericht
-* een pushbericht &quot; dank u &quot;
-* een e-mailvervolgbericht
-
-![](assets/jo-uc3.png)
-
-Zie dit [sectie](../segment/about-segments.md) om te leren om deze berichten te ontwerpen en te publiceren.
-
 ## De reis ontwerpen
 
 1. Begin de reis met een **Segment lezen** activiteit. Selecteer het eerder gemaakte segment. Alle personen die tot het segment behoren, komen de reis binnen.
 
    ![](assets/jo-uc4.png)
 
-1. Een neerzetten **Bericht** en selecteer het eerste pushbericht en e-mailbericht. Dit bericht wordt naar alle personen op de reis gestuurd.
+1. Een dropknop **E-mail** en definieert de inhoud van het &quot;eerste bericht&quot;. Dit bericht wordt naar alle personen op de reis gestuurd. Zie dit [sectie](../messages/create-email.md) leren hoe u een e-mail kunt configureren en ontwerpen.
 
    ![](assets/jo-uc5.png)
 
-1. Plaats de cursor op de berichtactiviteit en klik op het plusteken (+) om een nieuw pad te maken.
+1. Plaats de cursor op de e-mailactiviteit en klik op het plusteken (+) om een nieuw pad te maken.
 
 1. Voeg in het eerste pad een **Reactie** gebeurtenis en selecteer **Push geopend**. De gebeurtenis wordt geactiveerd wanneer een individu dat tot het segment behoort de pushversie van het eerste bericht opent.
 
@@ -115,11 +102,11 @@ Zie dit [sectie](../segment/about-segments.md) om te leren om deze berichten te 
    >
    >Wanneer u een time-out configureert voor meerdere gebeurtenissen (de twee reacties in dit geval), hoeft u de time-out alleen te configureren voor een van deze gebeurtenissen.
 
-1. Plaats een **Bericht** en selecteer het e-mailvervolgbericht. Dit bericht wordt verzonden naar de personen die het e-mailbericht of het eerste pushbericht de volgende dag niet openen.
+1. Zet een **E-mail** en definieert de inhoud van het vervolgbericht. Dit bericht wordt verzonden naar de personen die het e-mailbericht of het eerste pushbericht de volgende dag niet openen. Zie dit [sectie](../messages/create-email.md) leren hoe u een e-mail kunt configureren en ontwerpen.
 
 1. Sluit de drie paden aan op de eerder gemaakte aankoopgebeurtenis. De gebeurtenis wordt geactiveerd wanneer een individu een aankoop doet.
 
-1. Na de gebeurtenis, laat vallen a **Bericht** en selecteer het e-mailbericht &quot;Bedankt&quot;.
+1. Na de gebeurtenis, laat vallen a **Push** actie en definieer de inhoud van het &#39;&#39;bedankt&#39;&#39; bericht. Zie dit [sectie](../messages/create-push.md) leren hoe u een push kunt configureren en ontwerpen.
 
 ## De journey testen en publiceren
 

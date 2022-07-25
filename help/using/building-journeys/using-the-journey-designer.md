@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: afd6bec0151eb2c369ae68d369adf98e772841c9
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1459'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ Met de andere activiteiten kunt u voorwaarden aan uw reis toevoegen om meerdere 
 
 **Acties**
 
-U vindt hier de **Bericht** activiteit die u toestaat om een bericht op te nemen dat in wordt ontworpen [!DNL Journey Optimizer]. [Meer informatie over de activiteit van het Bericht](journeys-message.md)
+Hier vindt u de activiteit van de kanaalhandeling waarmee u een bericht kunt opnemen dat is ontworpen in [!DNL Journey Optimizer]. [Meer informatie over de activiteiten van de kanaalactie](journeys-message.md)
 
 U zult ook de douaneacties vinden die u hebt gevormd om berichten met derdesystemen te verzenden. Meer informatie in deze [sectie](about-journey-activities.md#action-activities).
 

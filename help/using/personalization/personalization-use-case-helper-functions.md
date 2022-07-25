@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '977'
 ht-degree: 2%
 
 ---
@@ -28,22 +28,38 @@ U gebruikt de volgende typen hulpfuncties:
 ➡️ [Leer hoe u in deze video hulpfuncties kunt gebruiken](#video)
 
 Alvorens u begint, zorg ervoor u weet hoe te om deze elementen te vormen:
-* Een e-mailbericht. [Meer informatie](../messages/get-started-content.md)
-* De hoofdtekst van een e-mail. [Meer informatie](../design/create-email-content.md).
+
 * Een eenheidsgebeurtenis. [Meer informatie](../event/about-events.md).
 * Een reis die begint met een evenement. [Meer informatie](../building-journeys/using-the-journey-designer.md).
+* Een e-mailbericht op reis. [Meer informatie](../messages/get-started-content.md)
+* De hoofdtekst van een e-mail. [Meer informatie](../design/create-email-content.md).
 
 Voer de volgende stappen uit:
+
+1. [De eerste gebeurtenis en de reis maken](#create-context).
 1. [Een e-mailbericht maken](#configure-email).
 1. [De voornaam van de klant in hoofdletters invoegen](#uppercase-function).
-1. [De eerste gebeurtenis en de reis maken](#create-context).
 1. [De inhoud van het winkelwagentje toevoegen aan de e-mail](#each-helper).
 1. [Een productspecifieke notitie invoegen](#if-helper).
 1. [De journey testen en publiceren](#test-and-publish).
 
-## Stap 1: E-mail maken{#configure-email}
+## Stap 1: De eerste gebeurtenis en de bijbehorende reis maken {#create-context}
 
-1. Maak of wijzig een e-mailbericht en klik vervolgens op **[!UICONTROL Email Designer]**.
+De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom moet u een eerste gebeurtenis en de e-mail aan een reis toevoegen alvorens u kartspecifieke informatie aan e-mail kunt toevoegen.
+
+1. Maak een gebeurtenis waarvan het schema de `productListItems` array.
+1. Definieer alle velden in deze array als payload-velden voor deze gebeurtenis.
+
+   Meer informatie over het type itemgegevens in de productlijst vindt u in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}.
+
+1. Maak een reis die met deze gebeurtenis begint.
+1. Een **E-mail** activiteit van de reis.
+
+   ![](assets/personalization-uc-helpers-8.png)
+
+## Stap 2: E-mail maken{#configure-email}
+
+1. In de **E-mail** activiteit, klik **[!UICONTROL Edit content]** en klik vervolgens op **[!UICONTROL Email Designer]**.
    ![](assets/personalization-uc-helpers-1.png)
 
 1. Sleep in het linkerpalet van de introductiepagina E-mail Designer drie structuurcomponenten naar de hoofdtekst van het bericht.
@@ -52,7 +68,7 @@ Voer de volgende stappen uit:
 
    ![](assets/personalization-uc-helpers-2.png)
 
-## Stap 2: De voornaam van de klant in hoofdletters invoegen {#uppercase-function}
+## Stap 3: De voornaam van de klant in hoofdletters invoegen {#uppercase-function}
 
 1. Klik op de introductiepagina van E-mail Designer op de HTML-component waar u de voornaam van de klant wilt toevoegen.
 1. Klik op de contextafhankelijke werkbalk op **[!UICONTROL Show the source code]**.
@@ -93,33 +109,9 @@ Voer de volgende stappen uit:
    ![](assets/personalization-uc-helpers-6.png)
 1. Sla het bericht op.
 
-## Stap 3: De eerste gebeurtenis en de bijbehorende reis maken {#create-context}
-
-De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom moet u een eerste gebeurtenis en de e-mail aan een reis toevoegen alvorens u kartspecifieke informatie aan e-mail kunt toevoegen.
-
-1. Maak een gebeurtenis waarvan het schema de `productListItems` array.
-1. Definieer alle velden in deze array als payload-velden voor deze gebeurtenis.
-
-   Meer informatie over het type itemgegevens in de productlijst vindt u in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target=&quot;_blank&quot;}.
-
-1. Maak een reis die met deze gebeurtenis begint.
-1. Voeg het bericht aan de reis toe.
-
-   Omdat u het bericht nog niet hebt gepubliceerd, kunt u de reis niet testen of publiceren.
-
-   ![](assets/personalization-uc-helpers-7.png)
-
-1. Klik op **[!UICONTROL OK]**.
-
-   Een bericht deelt u mee dat de reiscontext aan het bericht is overgegaan.
-
-   ![](assets/personalization-uc-helpers-8.png)
-
 ## Stap 4: Lijst met artikelen uit het winkelwagentje invoegen {#each-helper}
 
-1. Open het bericht opnieuw.
-
-   ![](assets/personalization-uc-helpers-18.png)
+1. Open de inhoud van het bericht opnieuw.
 
 1. Klik op de introductiepagina van E-mail Designer op de HTML-component waar u de inhoud van het winkelwagentje wilt weergeven.
 1. Klik op de contextafhankelijke werkbalk op **[!UICONTROL Show the source code]**.
@@ -299,14 +291,11 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 
    ![](assets/personalization-uc-helpers-14.png)
 
-1. Sla het bericht op en publiceer het.
+1. Sla het bericht op.
 
 ## Stap 6: De reis testen en publiceren {#test-and-publish}
 
-1. Open de reis. Als de reis reeds open is, vernieuw dan de pagina.
 1. De knop **[!UICONTROL Test]** schakelen en vervolgens klikken **[!UICONTROL Trigger an event]**.
-
-   U kunt de testmodus pas inschakelen nadat u het bericht hebt gepubliceerd.
 
    ![](assets/personalization-uc-helpers-15.png)
 

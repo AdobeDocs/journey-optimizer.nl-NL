@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: f1ac47a0cb405eaadc5428e7e5479eaf776d7abe
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '402'
 ht-degree: 34%
 
 ---
@@ -36,7 +36,7 @@ In de gebeurtenisconfiguratie, vormt u de gebeurtenissen die in de reizen worden
 
 ## Acties {#actions}
 
-Journey Optimizer-berichtmogelijkheden zijn ingebouwd: u hoeft alleen uw inhoud te ontwerpen en uw bericht te publiceren. Als u berichten verzendt met een systeem van derden, kunt u een aangepaste handeling maken. [Meer informatie](../../using/action/action.md)
+Journey Optimizer-berichtmogelijkheden zijn ingebouwd: u moet slechts een activiteit van de kanaalactie aan uw reis toevoegen. Als u berichten verzendt met een systeem van derden, kunt u een aangepaste handeling maken. [Meer informatie](../../using/action/action.md)
 
 ## Bladeren door Adobe Experience Platform-velden {#friendly-names-display}
 

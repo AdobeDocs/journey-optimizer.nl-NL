@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 8a859af9ad09ca3f240ff6f355d4e5f34d2e4eac
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Raadpleeg voor meer informatie over streamingsegmentatie [Adobe Experience Platf
 
 ### Overbelasting voorkomen{#overloads-speed-segment-qualification}
 
-Hier volgen een paar voorbeelden van beste praktijken die zullen helpen overladende systemen te vermijden die in reizen (gegevensbronnen, douaneacties) worden gebruikt **Bericht** activiteiten).
+Hier volgen een paar voorbeelden van beste praktijken die zullen helpen om overladende systemen te vermijden leveraged in reizen (gegevensbronnen, douaneacties, kanaalactiviteiten).
 
 Niet gebruiken in een **[!UICONTROL Segment Qualification]** activiteit, een batchsegment onmiddellijk na de aanmaak ervan. Hiermee wordt de eerste rekenpiek vermeden. Merk op dat er een gele waarschuwing in het reiscanvas zal zijn als u op het punt staat om een segment te gebruiken dat nooit is berekend.
 

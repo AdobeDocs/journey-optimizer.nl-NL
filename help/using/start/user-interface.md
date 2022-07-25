@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 7%
+source-wordcount: '1456'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 Verbinden met [Adobe Experience Cloud](http://experience.adobe.com) en blader naar [!DNL Journey Optimizer].
 
-Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Zie [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} voor meer informatie.
+Belangrijke concepten bij het bladeren in de gebruikersinterface zijn gebruikelijk voor Adobe Experience Platform. Zie [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} voor meer informatie.
 
 De componenten en mogelijkheden die beschikbaar zijn in de gebruikersinterface zijn afhankelijk van uw [machtigingen](../administration/permissions.md) en op uw [licentiepakket](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Neem voor alle vragen contact op met uw Adobe Customer Success Manager.
 
@@ -28,7 +28,7 @@ De componenten en mogelijkheden die beschikbaar zijn in de gebruikersinterface z
 
 ## Linkernavigatie {#left-nav}
 
-Gebruik de koppelingen aan de linkerkant om te bladeren in mogelijkheden.
+Blader links naar de koppelingen voor toegang [!DNL Journey Optimizer] mogelijkheden.
 
 ![](assets/ajo-home.png)
 
@@ -36,17 +36,17 @@ Gebruik de koppelingen aan de linkerkant om te bladeren in mogelijkheden.
 >
 >Welke mogelijkheden beschikbaar zijn, is afhankelijk van uw machtigingen en licentieovereenkomst.
 
-U vindt onder de volledige lijst met services en mogelijkheden in de linkernavigatie en koppelingen naar de bijbehorende documentatie.
+U vindt onder de volledige lijst met services en mogelijkheden in de linkernavigatie en koppelingen naar de bijbehorende Help-pagina&#39;s.
 
 **Home**
 
-[!DNL Journey Optimizer] de homepage bevat zeer belangrijke verbindingen en middelen om te beginnen. De **[!UICONTROL Recents]** de lijst bevat snelkoppelingen naar de onlangs gemaakte of bijgewerkte berichten, gebeurtenissen en reizen. In deze lijst staan de datum en status van het maken en wijzigen van de bestanden.
+[!DNL Journey Optimizer] de homepage bevat zeer belangrijke verbindingen en middelen om te beginnen. De **[!UICONTROL Recents]** de lijst bevat sneltoetsen voor de onlangs gemaakte gebeurtenissen en reizen. In deze lijst staan de datum en status van het maken en wijzigen van de bestanden.
 
 **[!UICONTROL JOURNEY MANAGEMENT]**
 
 * **[!UICONTROL Journeys]** - Maak, configureer en orkestreer uw klantritten. [Meer informatie](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Messages]** - Maak, ontwerp, test en publiceer e-mail- en pushberichten. [Meer informatie](../messages/get-started-content.md)
+* **[!UICONTROL Landing pages]** - bestemmingspagina&#39;s maken, ontwerpen, testen en publiceren. [Meer informatie](../landing-pages/get-started-lp.md)
 
 **[!UICONTROL DECISION MANAGEMENT]**
 
@@ -274,7 +274,7 @@ De taal wijzigen:
 
 ## Zoeken{#unified-search}
 
-Overal van de interface van Adobe Journey Optimizer, gebruik het Verenigde de onderzoeksvermogen van Adobe Experience Cloud op het centrum van de hoogste bar om activa, reizen, datasets, berichten, en meer over uw zandbakken te vinden.
+Overal van de interface van Adobe Journey Optimizer, gebruik het Verenigde de onderzoeksvermogen van Adobe Experience Cloud op het centrum van de hoogste bar om activa, reizen, datasets, en meer over uw zandbakken te vinden.
 
 Voer inhoud in om de beste resultaten weer te geven. Help-artikelen over de ingevoerde trefwoorden worden ook weergegeven in de resultaten.
 
@@ -304,6 +304,6 @@ In de configuratievensters Gebeurtenis, Gegevensbron en Actie, **[!UICONTROL Use
 
 ![](assets/journey3bis.png)
 
-In de verschillende lijsten kunt u standaardacties op elk element uitvoeren. U kunt bijvoorbeeld een item dupliceren of verwijderen.
+In de lijsten, kunt u basisacties op elk element uitvoeren. U kunt bijvoorbeeld een item dupliceren of verwijderen.
 
 ![](assets/journey4.png)

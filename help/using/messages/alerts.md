@@ -6,22 +6,22 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
 
-# Waarschuwingen bij uw berichten controleren {#publish-manage-messages}
+# Waarschuwingen bij uw berichten controleren {#messages-alerts}
 
-## Controles vóór publicatie {#message-alerting}
+## Controleert vóór verzending {#message-alerting}
 
-Terwijl u uw bericht creeert, alarm u wanneer u belangrijke acties moet voeren alvorens uw bericht te publiceren.
+Terwijl u uw berichten ontwerpt, worden waarschuwingen weergegeven in de interface wanneer er geen sleutelinstellingen aanwezig zijn.
 
-Waarschuwingen worden rechtsboven op het scherm weergegeven, zoals hieronder wordt getoond:
+Waarschuwingen worden rechtsboven in het scherm weergegeven wanneer u de inhoud van het bericht bewerkt.
 
-![](assets/message-alerts.png)
+![](assets/alerts-details.png)
 
 >[!NOTE]
 >
@@ -31,13 +31,13 @@ Er kunnen twee typen waarschuwingen optreden:
 
 * **Waarschuwingen** verwijzen naar aanbevelingen en beste praktijken. Er wordt bijvoorbeeld een bericht weergegeven als de koppeling om te weigeren ontbreekt.
 
-* **Fouten** voorkomt u dat u het bericht publiceert zolang deze niet zijn opgelost. U wordt bijvoorbeeld in een bericht gewaarschuwd dat de onderwerpregel ontbreekt.
+* **Fouten** voorkomt dat u de reis test of activeert zolang deze niet is opgelost. U wordt bijvoorbeeld in een bericht gewaarschuwd dat de onderwerpregel ontbreekt.
 
 Alle mogelijke waarschuwingen en fouten zijn gedetailleerd [onder](#alerts-and-warnings).
 
 >[!CAUTION]
 >
-> U moet alles oplossen **fout** waarschuwingen vóór publicatie.
+> U moet alles oplossen **fout** signaleert alvorens de reis te testen of te activeren gebruikend het bericht.
 
 ## Lijst met waarschuwingen en fouten {#alerts-and-warnings}
 
@@ -49,7 +49,7 @@ De instellingen en elementen die door het systeem zijn gecontroleerd, worden hie
 
    >[!NOTE]
    >
-   >E-mailberichten van het type Marketing moeten een opt-out-koppeling bevatten, die niet vereist is voor transactiemeldingen. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd op de [berichtvooraf ingesteld niveau](../configuration/message-presets.md#email-type) en wanneer [het bericht maken](get-started-content.md#create-new-message).
+   >E-mailberichten van het type Marketing moeten een opt-out-koppeling bevatten, die niet vereist is voor transactiemeldingen. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd op de [kanaaloppervlak](../configuration/message-presets.md#email-type) (d.w.z. vooraf ingestelde berichten) en wanneer [het bericht maken](get-started-content.md#create-new-message).
 
 * **[!UICONTROL Text version of HTML is empty]**: vergeet niet een tekstversie van uw e-mailhoofdtekst te definiëren, omdat deze wordt gebruikt wanneer HTML-inhoud niet kan worden weergegeven. Leer hoe u de tekstversie maakt in [deze sectie](../design/text-version-email.md).
 
@@ -67,13 +67,13 @@ De instellingen en elementen die door het systeem zijn gecontroleerd, worden hie
 
 * **[!UICONTROL The email version of the message is empty]**: deze fout wordt weergegeven wanneer de e-mailinhoud niet is geconfigureerd. Leer hoe u e-mailinhoud ontwerpt in [deze sectie](../design/design-emails.md).
 
-* **[!UICONTROL Preset doesn’t exist]**: U kunt uw bericht niet publiceren als de voorinstelling die u hebt geselecteerd, wordt verwijderd nadat het bericht is gemaakt. Als deze fout optreedt, selecteert u een andere voorinstelling in het bericht **[!UICONTROL Properties]**. Meer informatie over branding in [deze sectie](../configuration/about-subdomain-delegation.md).
+* **[!UICONTROL Surface doesn’t exist]**: U kunt uw bericht niet gebruiken als het geselecteerde oppervlak wordt verwijderd na het maken van het bericht. Als deze fout optreedt, selecteert u een ander oppervlak in het bericht **[!UICONTROL Properties]**. Meer informatie over kanaaloppervlakken in [deze sectie](../configuration/message-presets.md).
 
 * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: de grootte van de pushmelding mag niet groter zijn dan 4 kB. U kunt deze limiet in acht nemen door het gebruik van afbeeldingen of emojis te beperken. Leer hoe u de inhoud van uw pushmelding beheert in [deze sectie](create-push.md).
 
 >[!CAUTION]
 >
-> Als u uw bericht wilt publiceren, moet u alles oplossen **fout** waarschuwingen.
+> Als je je bericht wilt gebruiken, moet je alles oplossen **fout** waarschuwingen.
 
 <!--Other issues can stop publication such as:
 * The push notification title is empty-->

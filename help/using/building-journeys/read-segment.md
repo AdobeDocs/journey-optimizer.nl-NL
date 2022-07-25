@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 5%
+source-wordcount: '1096'
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 5%
 >title="Segmentactiviteit lezen"
 >abstract="Met de activiteit Leessegment kunt u alle personen die tot een Adobe Experience Platform-segment behoren een reis laten maken. Het starten van een journey kan één keer, of op regelmatige basis plaatsvinden."
 
-Met de activiteit Leessegment kunt u alle personen die tot een Adobe Experience Platform-segment behoren een reis laten maken. Het starten van een journey kan één keer, of op regelmatige basis plaatsvinden.
+Gebruik de **Segment lezen** activiteit om alle individuen van een segment de reis te maken. Het starten van een journey kan één keer, of op regelmatige basis plaatsvinden.
 
 Neem bijvoorbeeld het segment voor het openen en uitchecken van de Luma-app dat is gemaakt in het dialoogvenster [Segmenten maken](../segment/about-segments.md) use case. Met de activiteit van het Leessegment, kunt u alle individuen die tot dit segment behoren een reis maken en hen tot geïndividualiseerde reizen maken die alle reisfunctionaliteit gebruiken: voorwaarden, timers, gebeurtenissen, handelingen.
 

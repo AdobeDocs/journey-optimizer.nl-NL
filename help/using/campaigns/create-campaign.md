@@ -7,21 +7,21 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '699'
 ht-degree: 2%
 
 ---
-
 
 # Een campagne maken {#create-campaign}
 
 >[!NOTE]
 >
->Voordat u een nieuwe campagne maakt, moet u een berichtvoorinstelling en een Adobe Experience Platform-segment klaar voor gebruik hebben. Meer informatie vindt u in deze secties:
+>Voordat u een nieuwe campagne maakt, moet u ervoor zorgen dat u een oppervlaktekanaal (d.w.z. een berichtvoorinstelling) en een Adobe Experience Platform-segment gebruiksklaar hebt. Meer informatie vindt u in deze secties:
 >
->* [Voorinstellingen voor berichten maken](../configuration/message-presets.md)
+>* [Kanaaloppervlakken maken](../configuration/message-presets.md)
 >* [Aan de slag met segmenten](../segment/about-segments.md)
 
 
@@ -38,13 +38,13 @@ U kunt als volgt een campagne opzetten:
    * **[!UICONTROL Scheduled]**: voert de campagne onmiddellijk of op een gespecificeerde datum uit. Geplande campagnes zijn gericht op het verzenden van **marketing** type berichten.
    * **[!UICONTROL API-triggered]**: voer de campagne uit gebruikend een API vraag. API-gestuurde campagnes zijn gericht op het verzenden van **transactie** berichten, d.w.z. berichten die worden verzonden na een actie uitgevoerd door een individu: wachtwoord opnieuw instellen, kaart verlaten enzovoort. [Leer hoe u een campagne activeert met behulp van API&#39;s](api-triggered-campaigns.md)
 
-1. In de **[!UICONTROL Actions]** , kiest u het kanaal en het berichtoppervlak (dat wil zeggen de berichtvoorinstelling) dat u wilt gebruiken om uw bericht te verzenden en klikt u vervolgens op **[!UICONTROL Create]**.
+1. In de **[!UICONTROL Actions]** , kiest u het kanaal en het kanaaloppervlak dat u wilt gebruiken om uw bericht te verzenden en klikt u op **[!UICONTROL Create]**.
 
    ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >Alleen berichtoppervlakken die compatibel zijn met het type campagne (marketing of transactie) worden vermeld in de vervolgkeuzelijst.
+   >Alleen kanaaloppervlakken die compatibel zijn met het type campagne (marketing of transactie) worden vermeld in de vervolgkeuzelijst.
 
 1. Geef een titel en een beschrijving voor de campagne op.
 
@@ -52,7 +52,7 @@ U kunt als volgt een campagne opzetten:
 
 1. In de **[!UICONTROL Actions]** , vorm het bericht om met de campagne te verzenden:
 
-   1. Klik op de knop **[!UICONTROL Edit content]** knoop, dan vorm en ontwerp uw bericht. [Leer hoe te om berichten te vormen](../messages/get-started-content.md).
+   1. Klik op de knop **[!UICONTROL Edit content]** en vervolgens configureert en ontwerpt u uw berichtinhoud. [Meer informatie over berichten](../messages/get-started-content.md).
 
       Wanneer de inhoud gereed is, klikt u op de pijl om terug te keren naar het scherm voor het maken van de campagne.
 
@@ -121,10 +121,6 @@ Zodra uw campagne is gevormd, moet u zijn parameter en inhoud herzien alvorens h
    U kunt extra statistieken in specifieke rapporten ook krijgen door te klikken op **[!UICONTROL Reports]** knop. [Meer informatie](campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)
-
-   >[!IMPORTANT]
-   >
-   >Berichten die in campagnes worden gemaakt, zijn specifiek voor [!DNL Journey Optimizer] campagnecapaciteiten. Als deze eenmaal zijn gemaakt, zijn ze alleen toegankelijk via campagnes en worden ze niet weergegeven in de **[!UICONTROL Messages]** -menu.
 
 ## Aanvullende bronnen
 

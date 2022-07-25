@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,6 @@ De functies van [!DNL Journey Optimizer] om de prestaties te controleren.
 De **[!UICONTROL Executions]** kunt u met behulp van een set realtime-indicatoren controleren hoe uw leveringen presteren. Dit tabblad geeft onder andere het volgende weer:
 * Het aantal berichten dat met succes wordt uitgevoerd, verzonden en geleverd.
 * Het aantal berichten dat is geopend en het aantal berichten/verbindingen dat is geklikt.
-
-[Meer informatie over het controleren van berichtuitvoering](message-monitoring.md).
 
 ## Berichtinhoud aanpassen {#adapt-message-content}
 

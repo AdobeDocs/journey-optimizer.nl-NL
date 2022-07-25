@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 80a5edec92377753e6bfd96699591b1a87e25248
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '457'
 ht-degree: 3%
 
 ---
@@ -87,4 +87,3 @@ Voor meer informatie over het uploaden van elementen raadpleegt u [Adobe Experie
 
    ![](assets/media_library_13.png)
 
-Zodra uw bericht is gecreeerd en gepersonaliseerd, kunt u het publiceren om het voor uitvoering ter beschikking te stellen. [Meer informatie](../messages/publish-manage-message.md)

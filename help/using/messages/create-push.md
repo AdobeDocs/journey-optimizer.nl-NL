@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1543'
 ht-degree: 8%
 
 ---
@@ -25,11 +25,16 @@ Met pushberichten bereikt u op elk gewenst moment gebruikers van uw mobiele app,
 
 [!DNL Journey Optimizer] ondersteunt pushmeldingen en helpt u zeer relevante meldingen te verzenden met toonaangevende doorvoersnelheden. Pushmeldingen kunnen personalisatie en Reiscontext omvatten om gegevensinzichten van uw merk met Adobe Experience Cloud te benutten.
 
-Eenmaal [een bericht gemaakt](get-started-content.md)klikt u op de knop **[!UICONTROL Push Notification]** om de instellingen en inhoud van de pushmelding te definiëren.
+Eenmaal [een duw toevoegen](get-started-content.md) en gedefinieerde basisinstellingen, kunt u de **[!UICONTROL Actions: Push]** in het rechterdeelvenster om de inhoud voor het pushbericht te maken.
+
+![](assets/add-a-push.png)
+
+
+Gebruik de specifieke tabbladen om de instellingen voor pushmeldingen te definiëren voor **iOS** en **Android** besturingssystemen.
 
 ![](assets/create-content-push.png)
 
-Gebruik de specifieke tabbladen om de instellingen voor pushmeldingen te definiëren voor **iOS** en **Android** besturingssystemen.
+Als dit de eerste keer is dat u een pushmelding maakt, controleert u of het pushkanaal is geconfigureerd. [Meer informatie](../configuration/push-gs.md).
 
 >[!NOTE]
 >
@@ -37,7 +42,7 @@ Gebruik de specifieke tabbladen om de instellingen voor pushmeldingen te defini�
 
 ## Titel en body {#push-title-body}
 
-Als u uw bericht wilt samenstellen, klikt u op de knop **[!UICONTROL Title]** en **[!UICONTROL Body]** velden. Gebruik de Redacteur van de Uitdrukking om inhoud en verpersoonlijkingsgegevens te bepalen. Meer informatie over personalisatie in de Expressieeditor vindt u in [deze sectie](../personalization/personalize.md)
+Als u uw bericht wilt samenstellen, klikt u op de knop **[!UICONTROL Title]** en **[!UICONTROL Body]** velden. Gebruik de redacteur van de Uitdrukking om inhoud en verpersoonlijkingsgegevens te bepalen. Meer informatie over personalisatie in de Expressieeditor in [deze sectie](../personalization/personalize.md)
 
 In het gedeelte voor voorvertoning van apparaten kunt u visualiseren hoe de pushmelding wordt weergegeven op iOS- en Android-apparaten.
 
@@ -52,7 +57,7 @@ U kunt het gedrag selecteren wanneer een gebruiker op de hoofdtekst van het push
 
 ![](assets/title-body-push.png)
 
-* Selecteer de optie **[!UICONTROL Open app]** optie. De toepassing die aan het bericht is gekoppeld, wordt gedefinieerd in het bericht **[!UICONTROL Preset]**. [Meer informatie](../configuration/message-presets.md) over voorinstellingen voor berichten.
+* Selecteer de optie **[!UICONTROL Open app]** optie. De toepassing die aan de melding is gekoppeld, wordt gedefinieerd in het dialoogvenster [kanaaloppervlak](../configuration/message-presets.md) (d.w.z. voorinstelling bericht).
 * Als u de gebruiker wilt omleiden naar een bepaald stuk inhoud in een app, selecteert u de optie **[!UICONTROL Deeplink]** optie.  De specifieke inhoud kan een specifieke weergave, een bepaalde sectie van een pagina of een bepaald tabblad zijn. Als de optie is geselecteerd, voert u de koppeling in het bijbehorende veld in.
 * Als u de gebruiker wilt omleiden naar een externe URL, gebruikt u de opdracht **[!UICONTROL Web URL]** optie. Wanneer de optie is geselecteerd, voert u de URL in het bijbehorende veld in.
 
@@ -125,6 +130,17 @@ U kunt configureren **[!UICONTROL Advanced options]** voor uw pushmelding. De be
 | **[!UICONTROL Notification visibility]** (alleen Android) | Hiermee definieert u de zichtbaarheid van het pushbericht. <br/><b>Persoonlijk</b> toont de melding op alle vergrendelingsschermen, maar verbergt gevoelige of persoonlijke informatie op veilige vergrendelingsschermen. <br/><b>Openbaar</b> de volledige kennisgeving wordt op alle vergrendelingsschermen weergegeven. <br/><b>Geheim</b> geen enkel deel van de melding zichtbaar maken op een veilig vergrendelingssysteem. <br/>Raadpleeg voor meer informatie de [Documentatie voor ontwikkelaars van Android](https://developer.android.com/reference/android/app/Notification). |
 | **[!UICONTROL Notification priority]** (alleen Android) | Hiermee definieert u het belang van de pushmelding van Laag tot Max. Dit bepaalt hoe &quot;indringend&quot;de dupmelding zal zijn wanneer het wordt geleverd. Raadpleeg voor meer informatie de [Documentatie voor ontwikkelaars van Android](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
 | **[!UICONTROL Delivery priority]** (alleen Android) | Hiermee stelt u een hoge of normale prioriteit in voor uw pushberichten. Zie de [Google Developer-documentatie](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message) voor meer informatie over de prioriteit van berichten. |
+
+
+## Uw pushmelding valideren{#push-preview}
+
+Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u [persoonlijke inhoud](../personalization/personalize.md), kunt u controleren hoe deze inhoud in het bericht wordt getoond, leveraging de gegevens van het testprofiel.
+
+Als u wilt zien hoe uw pushmelding op mobiele apparaten wordt weergegeven, klikt u op de knop **[!UICONTROL Simulate content]** tab. Meer informatie over het simuleren van inhoud vindt u in [deze sectie](../design/preview.md).
+
+U moet ook waarschuwingen controleren in het bovenste gedeelte van de editor.  Sommige zijn eenvoudige waarschuwingen, maar andere kunnen voorkomen dat u het bericht gebruikt. Meer informatie in [deze sectie](alerts.md).
+
+![](assets/push-alert-button.png)
 
 **Verwante onderwerpen**
 

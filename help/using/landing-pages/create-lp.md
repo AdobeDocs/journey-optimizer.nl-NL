@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1082'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ U kunt ook een openingspagina verwijderen, dupliceren en de publicatie ervan ong
 
 >[!CAUTION]
 >
->Als u het publiceren van een landingspagina ongedaan maakt waarnaar in een niet-gepubliceerd bericht wordt verwezen, kan het bericht pas worden gepubliceerd nadat de bestemmingspagina opnieuw is gepubliceerd. Als het bericht al is gepubliceerd, wordt de koppeling naar de bestemmingspagina verbroken en wordt een foutpagina weergegeven.
+>Als u de publicatie van een bestemmingspagina ongedaan maakt waarnaar in een niet-gepubliceerd bericht wordt verwezen, wordt de koppeling naar de bestemmingspagina verbroken en wordt een foutpagina weergegeven.
 
 Klik op de drie stippen naast een openingspagina om de gewenste actie te selecteren.
 

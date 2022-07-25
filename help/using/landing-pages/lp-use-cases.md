@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '888'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,11 @@ Stel bijvoorbeeld dat u volgende maand een gebeurtenis organiseert en een regist
 
 1. [Publiceren](create-lp.md#publish) de openingspagina.
 
-1. [Een e-mailbericht maken](../messages/get-started-content.md) om aan te geven dat de registratie nu geopend is voor uw gebeurtenis.
+1. In een [reis](../building-journeys/journey.md), voegt u een **E-mail** activiteit om verkeer naar de registratie landingspagina te drijven.
+
+   ![](assets/lp_subscription-uc-journey.png)
+
+1. [De e-mail ontwerpen](../messages/get-started-content.md) om aan te geven dat de registratie nu geopend is voor uw gebeurtenis.
 
 1. [Een koppeling invoegen](../design/message-tracking.md#insert-links) in uw berichtinhoud. Selecteren **[!UICONTROL Landing page]** als de **[!UICONTROL Link type]** en kiest u [landingspagina](create-lp.md#configure-primary-page) die u voor registratie hebt gemaakt.
 
@@ -55,13 +59,7 @@ Stel bijvoorbeeld dat u volgende maand een gebeurtenis organiseert en een regist
 
    >[!NOTE]
    >
-   >Als u uw bericht wilt publiceren, moet u ervoor zorgen dat de bestemmingspagina die u selecteert, nog niet is verlopen. Leer hoe u de vervaldatum kunt bijwerken [in deze sectie](create-lp.md#configure-primary-page).
-
-1. Sla uw inhoud op en [uw bericht publiceren](../messages/publish-manage-message.md).
-
-1. Uw bericht verzenden via een [reis](../building-journeys/journey.md) om het verkeer naar de registratiepagina van de landing te leiden.
-
-   ![](assets/lp_subscription-uc-journey.png)
+   >Om uw bericht te kunnen verzenden, zorg ervoor de het landen pagina u selecteert nog niet verlopen is. Leer hoe u de vervaldatum kunt bijwerken [in deze sectie](create-lp.md#configure-primary-page).
 
    Als de ontvangers eenmaal een e-mail hebben ontvangen en op de koppeling naar de bestemmingspagina klikken, worden ze doorgestuurd naar de pagina &#39;Bedankt&#39; en worden ze toegevoegd aan de abonnementenlijst.
 
@@ -79,7 +77,7 @@ Bovendien kunt u een bevestigingsbericht verzenden naar de ontvangers die zich h
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
-1. Selecteer het bevestigingsbericht van uw keuze en verzend het door de reis.
+1. Voeg een bevestigingsbericht van uw keuze toe en verzend het door de reis.
 
    ![](assets/lp_subscription-uc-confirm-email.png)
 
@@ -128,7 +126,7 @@ Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zi
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [Een e-mailbericht maken](../messages/get-started-content.md) in [!DNL Journey Optimizer].
+1. [Een e-mailbericht maken](../messages/get-started-content.md) tijdens een reis.
 
 1. Selecteer tekst in uw inhoud en [een koppeling invoegen](../design/message-tracking.md#insert-links) gebruiken van de contextafhankelijke werkbalk. U kunt ook een koppeling op een knop gebruiken.
 
@@ -140,11 +138,9 @@ Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zi
 
    >[!NOTE]
    >
-   >Als u uw bericht wilt publiceren, moet u ervoor zorgen dat de bestemmingspagina die u selecteert, nog niet is verlopen. Leer hoe u de vervaldatum kunt bijwerken [in deze sectie](create-lp.md#configure-primary-page).
+   >Om uw bericht te kunnen verzenden, zorg ervoor de het landen pagina u selecteert nog niet verlopen is. Leer hoe u de vervaldatum kunt bijwerken [in deze sectie](create-lp.md#configure-primary-page).
 
-1. Sla uw inhoud op en [uw bericht publiceren](../messages/publish-manage-message.md).
-
-1. Stuur je bericht door een reis. [Meer informatie](../building-journeys/journey.md).
+1. Publiceer en voer de reis uit. [Meer informatie](../building-journeys/journey.md).
 
 1. Als een ontvanger op de koppeling voor het opzeggen van het abonnement in de e-mail klikt nadat het bericht is ontvangen, wordt de bestemmingspagina weergegeven.
 

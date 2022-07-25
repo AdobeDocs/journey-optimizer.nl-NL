@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 21478bb6229c507868693b1fb9d591aee9cdaf52
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '179'
 ht-degree: 5%
 
 ---
 
 # Snel starten {#cjm-quick-start}
 
-Met [!DNL Adobe Journey Optimizer], kunt u bestaande berichtinhoud invoeren of een nieuwe inhoud ontwerpen, berichten met de gegevens van het klantenprofiel personaliseren, gebeurtenissen tot stand brengen om berichten teweeg te brengen, segmenten te bepalen en publiek te verfijnen, multi-kanaalberichten te verzenden, aanbiedingen tot stand te brengen en toe te voegen, en tot een volledige reeks rapporterings en controlehulpmiddelen toegang te hebben om het effect van uw berichten en klantenreizen te meten.
+Met [!DNL Adobe Journey Optimizer], kunt u bestaande berichtinhoud invoeren of een nieuwe inhoud ontwerpen, berichten met de gegevens van het klantenprofiel personaliseren, gebeurtenissen tot stand brengen om berichten teweeg te brengen, segmenten te bepalen en publiek te verfijnen, aanbiedingen tot stand te brengen en toe te voegen, en tot een volledige reeks rapporterings en controlehulpmiddelen toegang te hebben om het effect van uw berichten en klantenreizen te meten.
 
 Gebaseerd op uw organisatie, kunt u verscheidene types van gebruikers bepalen en hen toegang tot bepaalde mogelijkheden afhankelijk van hun toestemmingen verlenen.
 

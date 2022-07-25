@@ -4,9 +4,9 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van pushmeld
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1427'
 ht-degree: 3%
 
 ---
@@ -75,7 +75,7 @@ Om **Eigenschap** en **Bedrijf** rechten, volgt u de onderstaande stappen:
    * **[!UICONTROL Manage App Configurations]**
    * **[!UICONTROL Manage Properties]**
 
-   Deze machtigingen zijn vereist voor de ontwikkelaar van de mobiele app om pushgegevens in te stellen in **Adobe Experience Launch** en definieert u voorinstellingen voor pushmeldingen in **Adobe Journey Optimizer**.
+   Deze machtigingen zijn vereist voor de ontwikkelaar van de mobiele app om pushgegevens in te stellen in **Adobe Experience Launch** en definieert u oppervlakken van het kanaal voor pushmeldingen (d.w.z. voorinstellingen voor berichten) in **Adobe Journey Optimizer**.
 
    ![](assets/push_product_5.png)
 
@@ -125,7 +125,7 @@ De registratie van de pushreferenties voor de mobiele app is vereist om Adobe te
 
 1. Van [!DNL Adobe Experience Platform Data Collection], selecteert u de **[!UICONTROL App Surfaces]** in het linkerdeelvenster.
 
-1. Klikken **[!UICONTROL Create App Surfaces]** om een nieuwe configuratie te creëren.
+1. Klikken **[!UICONTROL Create App Surface]** om een nieuwe configuratie te creëren.
 
    ![](assets/add-app-config.png)
 
@@ -331,9 +331,9 @@ Uw gebeurtenis wordt nu gemaakt en kan nu op een reis worden gebruikt.
 
    ![](assets/test_push_11.png)
 
-1. Van de **[!UICONTROL Actions]** vervolgkeuzelijst, een **[!UICONTROL Message]** activiteit aan uw reis.
+1. Van de **[!UICONTROL Actions]** vervolgkeuzelijst, een **[!UICONTROL Push]** activiteit aan uw reis.
 
-1. Selecteer een eerder gemaakt bericht. Raadpleeg voor meer informatie over het maken van pushberichten de volgende [page](../messages/get-started-content.md).
+1. Configureer de pushmelding. Raadpleeg voor meer informatie over het maken van pushberichten de volgende [page](../messages/get-started-content.md).
 
 1. Klik op de knop **[!UICONTROL Test]** schakelen om uw pushmeldingen te testen en klikken **[!UICONTROL Trigger an event]**.
 
@@ -347,13 +347,13 @@ Uw gebeurtenis wordt nu gemaakt en kan nu op een reis worden gebruikt.
 
 Uw gebeurtenis wordt geactiveerd en u ontvangt uw pushmelding voor uw mobiele app.
 
-## Stap 4: Een berichtvoorinstelling maken voor pushberichten{#message-preset}
+## Stap 4: Een kanaaloppervlak maken voor duwen{#message-preset}
 
-Zodra uw mobiele app is ingesteld in [!DNL Adobe Experience Platform Data Collection], moet u een berichtvoorinstelling maken om pushmeldingen te kunnen verzenden vanuit **[!DNL Journey Optimizer]**.
+Zodra uw mobiele app is ingesteld in [!DNL Adobe Experience Platform Data Collection], moet u een oppervlak maken om pushmeldingen te kunnen verzenden vanuit **[!DNL Journey Optimizer]**.
 
-Leer hoe u een berichtvoorinstelling maakt en configureert in [deze sectie](../configuration/message-presets.md).
+Leer hoe u een kanaaloppervlak maakt en configureert in [deze sectie](../configuration/message-presets.md).
 
 U bent nu klaar om pushmeldingen te verzenden met Journey Optimizer.
 
 * Leer hoe u een pushbericht maakt in [deze pagina](../messages/create-push.md).
-* Leer hoe u een bericht kunt toevoegen tijdens een rit in [deze sectie](../building-journeys/journeys-message.md).
+* Leer hoe u een bericht kunt toevoegen aan een rit in [deze sectie](../building-journeys/journeys-message.md).

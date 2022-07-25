@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: ffa1da19732f4c0bd5297e2d123140b9ba1b0103
+source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1607'
 ht-degree: 0%
 
 ---
@@ -62,11 +62,11 @@ De **[!UICONTROL Top Actions]** tabel bevat de gegevens die beschikbaar zijn voo
 
 Vanaf uw reis **[!UICONTROL Global report]** de **[!UICONTROL Email]** bevat de belangrijkste informatie met betrekking tot de e-mailleveringen die tijdens uw reis worden verzonden.
 
-Voor een gedetailleerd rapport over een specifieke e-maillevering raadpleegt u de [Globaal e-mailrapport](#email-global-report) sectie.
-
 ![](assets/global_report_14.png)
 
 De **[!UICONTROL Email Sending Statistics]** grafiek geeft het succes van uw levering aan:
+
+* **[!UICONTROL Targeted]**: Het aantal profielen dat de Journey Orchestration van Adobe voor om het even welke actie zoals verzendt e-mail of SMS richt.
 
 * **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
 
@@ -88,7 +88,7 @@ De **[!UICONTROL Email - Tracking statistics]** bevat de beschikbare gegevens vo
 
 * **[!UICONTROL Unique Opens]**: Percentage geopende leveringen.
 
-* **[!UICONTROL Open Rate]**: Het totale aantal geopende e-mails in verhouding tot het aantal geleverde e-mails.
+* **[!UICONTROL Unique Open Rate]**: Het totale aantal geopende e-mails in verhouding tot het aantal geleverde e-mails.
 
 * **[!UICONTROL Clicks]**: Aantal keer dat er op een inhoud in een e-mail is geklikt.
 
@@ -136,7 +136,7 @@ De **[!UICONTROL Email - Top recipient domain]** grafiek en lijstdetails welke d
 
 >[!NOTE]
 >
->De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]**  widgets zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor uw levering. Voor meer informatie over Send-Time Optimization, verwijs naar dit [page](../building-journeys/journeys-message.md#send-time-optimization).
+>De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]**  widgets zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor uw levering. Voor meer informatie over Send-Time Optimization, verwijs naar [deze pagina](../messages/send-time-optimization.md).
 
 De **[!UICONTROL Optimized vs non optimized]** de grafiek geeft de belangrijkste informatie met betrekking tot uw bericht of zij of niet worden geoptimaliseerd:
 
@@ -179,11 +179,11 @@ De **[!UICONTROL Offers detailed statistic]** de tabel bevat de beschikbare gege
 
 Vanaf uw reis **[!UICONTROL Global report]** de **[!UICONTROL Push]** bevat de belangrijkste informatie met betrekking tot de pushberichten die tijdens uw reis worden verzonden.
 
-Voor een gedetailleerd rapport over een specifieke pushservice raadpleegt u de [Push Global-rapport](#push-global-report).
-
 ![](assets/global_report_17.png)
 
 De **[!UICONTROL Push notification - Sending statistics]** de tabel bevat de belangrijkste informatie met betrekking tot uw pushberichten met grafiek en PKI&#39;s:
+
+* **[!UICONTROL Targeted]**: Het aantal profielen dat de Journey Orchestration van Adobe voor om het even welke actie zoals verzendt e-mail of SMS richt.
 
 * **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
 
@@ -227,7 +227,7 @@ De **[!UICONTROL Push notification summary]** De grafiek bevat de gegevens die b
 
 >[!NOTE]
 >
->De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]**  widgets zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor uw levering. Voor meer informatie over Send-Time Optimization, verwijs naar dit [page](../building-journeys/journeys-message.md#send-time-optimization).
+>De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]**  widgets zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor uw levering. Voor meer informatie over Send-Time Optimization, verwijs naar [deze pagina](../messages/send-time-optimization.md).
 
 De **[!UICONTROL Optimized vs non optimized]** de grafiek geeft de belangrijkste informatie met betrekking tot uw bericht of zij of niet worden geoptimaliseerd:
 
