@@ -3,9 +3,9 @@ title: Journey Optimizer Aan de slag voor systeembeheer
 description: Als systeembeheerder, leer meer hoe te om met Journey Optimizer te werken
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '725'
 ht-degree: 2%
 
 ---
@@ -37,18 +37,18 @@ Bovendien moet u gebruikers die toegang tot Assets Essentials nodig hebben, toev
 
 Bij toegang [!DNL Journey Optimizer] voor het eerst, bent u provisioned een productiesandbox en toegewezen een bepaald aantal IPs afhankelijk van uw contract.
 
-Als u uw reizen wilt maken en berichten wilt verzenden, opent u de **ADMINISTRATIE** -menu. Bladeren in het dialoogvenster **[!UICONTROL Channels]** -menu om uw berichten en oppervlakken te configureren (voorinstellingen dus).
+Als u uw reizen wilt maken en berichten wilt verzenden, opent u de **ADMINISTRATIE** -menu. Bladeren in het dialoogvenster **[!UICONTROL Channels]** -menu om uw berichten en kanaaloppervlakken te configureren (d.w.z. voorinstellingen voor berichten).
 
 >[!NOTE]
 >Als **Systeembeheerder** als u de **[!UICONTROL Channels]** menu in [!DNL Journey Optimizer]kunt u uw machtigingen in de [Admin Console](https://adminconsole.adobe.com/){_blank}. Leer hoe u uw productprofiel kunt bijwerken in [deze pagina](../../administration/permissions.md#edit-product-profile).
 
 Voer de onderstaande stappen uit:
 
-1. **Berichten en kanalen configureren**: oppervlakken definiëren, e-mail- en pushberichtinstellingen aanpassen en aanpassen
+1. **Berichten en kanalen configureren**: oppervlakken definiëren, instellingen voor e-mail, sms en pushberichten aanpassen en aanpassen
 
    * Definiëren **Instellingen voor pushmeldingen** in beide [!DNL Adobe Experience Platform] en [!DNL Adobe Experience Platform Launch]. [Meer informatie](../../configuration/push-gs.md)
 
-   * Maken **kanaaloppervlakken** (d.w.z. voorinstellingen voor berichten) om alle technische parameters te configureren die vereist zijn voor e-mail- en pushberichten. [Meer informatie](../../configuration/message-presets.md)
+   * Maken **kanaaloppervlakken** (d.w.z. voorinstellingen voor berichten) om alle technische parameters te configureren die vereist zijn voor e-mail, sms en pushmeldingen. [Meer informatie](../../configuration/message-presets.md)
 
    * Configureer de **SMS-kanaal** om alle technische parameters te configureren die voor SMS vereist zijn. [Meer informatie](../../configuration/sms-configuration.md)
 
@@ -62,7 +62,7 @@ Voer de onderstaande stappen uit:
 
    ![](../assets/ip-pool.png)
 
-1. **De onderdrukking en lijst van gewenste personen beheren**: verbeter uw leverbaarheid met onderdrukking en lijsten van gewenste personen
+1. **De onderdrukking en lijsten van gewenste personen beheren**: verbeter uw leverbaarheid met onderdrukking en lijsten van gewenste personen
 
    * A [onderdrukkingslijst](../../reports/suppression-list.md) bestaat uit e-mailadressen die u van uw leveringen wilt uitsluiten, omdat het verzenden naar deze contacten uw verzendende reputatie en leveringspercentages zou kunnen beschadigen. U kunt alle e-mailadressen controleren die automatisch van het verzenden van een reis, zoals ongeldige adressen, adressen worden uitgesloten die constant elektronische stuiteren, en uw e-mailreputatie, en ontvangers die een spamklacht van één of andere soort tegen één van uw e-mailberichten negatief zouden kunnen beïnvloeden. Leer hoe u de [onderdrukkingslijst](../../configuration/manage-suppression-list.md) en [opnieuw](../../configuration/retries.md).
    ![](../assets/suppression-list-filtering-example.png)

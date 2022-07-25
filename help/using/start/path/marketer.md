@@ -3,9 +3,9 @@ title: Journey Optimizer Aan de slag voor Marketers
 description: Leer als praktijkbeoefenaar meer hoe u met Journey Optimizer kunt werken
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Raadpleeg de volgende secties voor het instellen van uw eerste reis, het toevoeg
 
    * Hefboomwerking **contextafhankelijke gegevens** uit gebeurtenissen, informatie van Adobe Experience Platform of gegevens van externe API-services.
 
-   * Gebruik de **ingebouwde kanaalhandeling** om berichten te verzenden die zijn ontworpen in [!DNL Journey Optimizer] of maak **aangepaste handelingen** als u een systeem van derden gebruikt om uw berichten te verzenden.
+   * Gebruik de **ingebouwde kanaalhandelingen** (E-mail, SMS, Push) voor het verzenden van berichten die zijn ontworpen in [!DNL Journey Optimizer] of maak **aangepaste handelingen** als u een systeem van derden gebruikt om uw berichten te verzenden.
 
    * Met de **reisontwerper**, maak uw meerstapse gebruiksscenario&#39;s: U kunt eenvoudig een entry-gebeurtenis of een lezen-segmentactiviteit slepen en neerzetten, voorwaarden toevoegen en gepersonaliseerde berichten verzenden.
 
