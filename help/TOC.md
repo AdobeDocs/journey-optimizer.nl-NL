@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1108'
 ht-degree: 41%
 
 ---
@@ -261,7 +261,7 @@ ht-degree: 41%
    + Leverbaarheid {#deliverability}
       + [Aan de slag met de prestaties](using/reports/deliverability.md)
       + [Informatie over de onderdrukkingslijst](using/reports/suppression-list.md)
-+ Beslissingsbeheer {#offer-decisioniong}
++ Beslissingsbeheer {#offer-decisioning}
    + Aan de slag met het beheer van beslissingen {#get-started-decision}
       + [Over het beheer van besluiten](using/offers/get-started/starting-offer-decisioning.md)
       + [Gebruikersinterface](using/offers/get-started/user-interface.md)
@@ -284,7 +284,7 @@ ht-degree: 41%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
+         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
@@ -292,6 +292,7 @@ ht-degree: 41%
       + [Beslissingen nemen](using/offers/offer-activities/create-offer-activities.md)
       + [Selectie van aanbiedingen in beslissingen configureren](using/offers/offer-activities/configure-offer-selection.md)
       + [Simulaties maken](using/offers/offer-activities/simulation.md)
+   + [Batchbeslissing](using/offers/batch-delivery.md)
    + Beslissingsbeheerrapporten maken {#create-reports}
       + [Aan de slag met besluitvormingsgebeurtenissen](using/offers/reports/get-started-events.md)
       + [Belangrijke informatie over gebeurtenissen met betrekking tot Beslissingsbeheer](using/offers/reports/key-information.md)
@@ -379,8 +380,8 @@ ht-degree: 41%
             + [Hernieuwde pogingen](using/configuration/retries.md)
             + [Lijst van gewenste personen](using/configuration/allow-list.md)
       + [Sms-kanaal configureren](using/configuration/sms-configuration.md)
-      + Kanaaloppervlakken instellen {#set-up-message-presets}
-         + [Kanaaloppervlakken maken](using/configuration/message-presets.md)
+      + Kanaaloppervlakken instellen {#set-up-channels}
+         + [Kanaaloppervlakken maken](using/configuration/channel-surfaces.md)
          + [E-mailinstellingen configureren](using/configuration/email-settings.md)
          + [BCC-e-mail gebruiken](using/configuration/bcc-email.md)
       + [Uitvoeradressen beheren](using/configuration/primary-email-addresses.md)

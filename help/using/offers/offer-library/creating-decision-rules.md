@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '288'
 ht-degree: 5%
 
 ---
@@ -35,15 +35,19 @@ Voer de volgende stappen uit om een beslissingsregel te maken:
 
    Om dit te doen, **Segment Builder** is beschikbaar om u te helpen de voorwaarden van de regel bouwen. [Meer informatie](../../segment/about-segments.md)
 
-   In dit voorbeeld, zal de regel klanten richten die het &quot;Gouden&quot;loyaliteitsniveau hebben.
+   <!--In this example, the rule will target customers that have the "Gold" loyalty level.-->
 
    ![](../assets/offers_decision_rule_creation_segment.png)
 
    >[!NOTE]
    >
-   >De segmentbouwer die wordt verstrekt om besluitvormingsregels tot stand te brengen heeft sommige specifieke eigenschappen in vergelijking met die gebruikt met **[!UICONTROL Audience Destinations]** service. De **[!UICONTROL Segments]** is niet beschikbaar voor gebruik. Nochtans, is het globale proces dat in de documentatie van de Bouwer van het Segment wordt beschreven nog geldig om aanbiedingen besluitvormingsregels te bouwen.
+   >De segmentbouwer die wordt verstrekt om besluitvormingsregels tot stand te brengen heeft sommige specifieke eigenschappen in vergelijking met die gebruikt met **[!UICONTROL Audience Destinations]** service. De **[!UICONTROL Segments]** is niet beschikbaar voor gebruik. Het algemene proces dat in het [Segment Builder](../../segment/about-segments.md) de documentatie is nog geldig om aanbiedingen besluitvormingsregels op te bouwen. Meer informatie in het dialoogvenster [Adobe Experience Platform Segmentation Service-documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
-1. Klikken **[!UICONTROL Save]** ter bevestiging.
+1. Terwijl u nieuwe velden toevoegt en configureert in de werkruimte, worden de **[!UICONTROL Segment properties]** wordt informatie weergegeven over de geschatte profielen die tot het segment behoren. Klikken **[!UICONTROL Refresh estimate]** om gegevens bij te werken.
+
+   ![](../assets/offers_decision_rule_creation_estimate.png)
+
+1. Klik op **[!UICONTROL Save]** om te bevestigen.
 
 1. Zodra de regel wordt gecreeerd, toont het in de lijst van regels. U kunt het selecteren om zijn eigenschappen te tonen en het uit te geven of te schrappen.
 

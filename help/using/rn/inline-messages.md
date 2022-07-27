@@ -2,9 +2,9 @@
 title: Migreren naar inline authoring
 description: Leer hoe u berichten kunt migreren
 exl-id: accdebba-5322-401e-8a40-3e1539e65a7e
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1732'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ De migratie komt voor elk gebied bij nacht voor, door verscheidene herhalingen. 
 
 Waarom hebben we meerdere herhalingen nodig?
 
-Tijdens een herhaling gaan we elke reis door en migreren ze waar mogelijk. Er zijn gevallen waarin we niet automatisch willen migreren: wanneer de reis live of gesloten is (er kunnen nog profielen in staan). In deze gevallen vragen we je om een actie uit te voeren en dan zal de volgende herhaling deze reizen migreren die niet konden worden gemigreerd in vorige herhaling.
+Tijdens een herhaling gaan we elke reis door en migreren ze waar mogelijk. Er zijn gevallen waarin we niet automatisch willen migreren: wanneer de reis levend is ( er kunnen nog profielen in voorkomen ) . In deze gevallen vragen we je om een actie uit te voeren en dan zal de volgende herhaling deze reizen migreren die niet konden worden gemigreerd in vorige herhaling.
 
 ## Veelgestelde vragen {#faq}
 

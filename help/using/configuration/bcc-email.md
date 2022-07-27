@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 1%
@@ -24,7 +24,7 @@ U kunt een identieke kopie (of blinde koolstofkopie) van een e-mailbericht verze
 
 ## BCC-e-mail inschakelen {#enable-bcc}
 
-Om het **[!UICONTROL BCC email]** voert u het e-mailadres van uw keuze in in het desbetreffende veld van het dialoogvenster [kanaaloppervlak](message-presets.md) (d.w.z. voorinstelling bericht). U kunt elk extern adres opgeven in de juiste indeling, behalve een e-mailadres dat is gedefinieerd voor een subdomein dat is gedelegeerd aan Adobe. Als u bijvoorbeeld de opdracht *marketing.luma.com* subdomein voor Adobe, elk adres zoals *abc@marketing.luma.com* is verboden.
+Om het **[!UICONTROL BCC email]** voert u het e-mailadres van uw keuze in in het desbetreffende veld van het dialoogvenster [kanaaloppervlak](channel-surfaces.md) (d.w.z. voorinstelling bericht). U kunt elk extern adres opgeven in de juiste indeling, behalve een e-mailadres dat is gedefinieerd voor een subdomein dat is gedelegeerd aan Adobe. Als u bijvoorbeeld de opdracht *marketing.luma.com* subdomein voor Adobe, elk adres zoals *abc@marketing.luma.com* is verboden.
 
 >[!NOTE]
 >

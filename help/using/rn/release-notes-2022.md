@@ -2,9 +2,9 @@
 title: Release-aantekeningen 2022
 description: Opmerkingen bij de release van Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: bfd12553c653a4d4caccc969cb51b1416c64ba65
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1790'
 ht-degree: 9%
 
 ---
@@ -13,9 +13,136 @@ ht-degree: 9%
 
 Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] vrijgegeven in 2022.
 
-De meest recente opmerkingen bij de release zijn beschikbaar [op deze pagina](release-notes.md).
+## Release van juni 2022 {#june-2022-release}
 
-elke kwart naar uw postvak.
+### Nieuwe functies
+
+<table>
+<thead>
+<tr>
+<th><strong>SMS verzenden naar uw gebruikers (beperkte beschikbaarheid)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu SMS in Journey Optimizer maken, personaliseren en verzenden via integratie met <b>Sinch</b> of <b>Twilio</b>.</p>
+<img src="assets/do-not-localize/SMS.gif"/>
+<p>Het SMS-kanaal is momenteel alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.</p>
+<p>Leer hoe u in dit venster een SMS maakt en verzendt <a href="../messages/create-sms.md">gedetailleerde documentatie</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Snellere afbeeldingen zoeken dankzij Adobe Stock-integratie</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met de integratie-insteekmodule Adobe Stock en Adobe Journey Optimizer Email Designer kunnen klanten eenvoudig door afbeeldingen navigeren, licenties aanschaffen en afbeeldingen opslaan voor gebruik in berichtontwerpen. </br> De nieuwe <b>Vergelijkbare stockfoto's zoeken</b> kunt u ook Stock-foto's zoeken die overeenkomen met de inhoud, kleur en compositie van de afbeeldingen. </p>
+<img src="assets/do-not-localize/stock-rn.gif"/>
+<p>Raadpleeg de <a href="../design/stock.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>BCC via e-mail gebruiken op al uw e-mails</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu de e-mailfunctie BCC (blinde koolstofkopie) gebruiken om e-mails op te slaan die door Adobe Journey Optimizer zijn verzonden. Schakel deze optie in uw e-mailvoorinstellingen in, zodat elke verzonden e-mail blind wordt gekopieerd naar uw BCC-adres.</p>
+<img src="assets/do-not-localize/bcc-rn.gif"/>
+<p>Raadpleeg de <a href="../configuration/bcc-email.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--<table>
+<thead>
+<tr>
+<th><strong>Automatically use the best performing offer in your decisions</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Objecten kopiëren tussen sandboxen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt de ervaringen nu opnieuw maken van een Journey Optimizer-sandbox naar een andere sandbox, bijvoorbeeld van een niet-productiesandbox naar een productiesandbox. Deze nieuwe mogelijkheid kopieert een volledige Reis, inclusief alle objecten waarvan de Reis afhankelijk is om correct te worden uitgevoerd, van de ene omgeving naar de andere. Naast de Reizen, kunt u andere componenten, zoals Aanbiedingen, Berichten, Schema's, Datasets, Gegevensbronnen, Gebeurtenissen, en Acties ook kopiëren.</p>
+<p>Raadpleeg de <a href="../building-journeys/copy-to-sandbox.md">gedetailleerde documentatie</a> voor meer informatie.
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Dynamic Expression Builder</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression Editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
+<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+### Verbeteringen
+
+**Beslissingsbeheer**
+
+* **Ondersteuning voor HTML- en JSON-bestanden** - U kunt nu externe HTML- en JSON-bestanden van de Adobe Experience Cloud Asset-bibliotheek naar de inhoud van de aanbiedingsweergave slepen. [Meer informatie](../offers/offer-library/add-representations.md#html-json)
+
+
+**E-mail**
+
+* **Opslaan als sjabloon** - U kunt nu e-mailinhoud opslaan als een sjabloon en deze opnieuw gebruiken wanneer u andere berichten maakt. [Meer informatie](../design/email-templates.md)
+
+
+**Beheer**
+
+* **Voorvertoning van URL-parameters bijhouden** - Als u een berichtvoorinstelling configureert en URL-trackingparameters definieert, wordt nu een dynamische voorvertoning van de resulterende URL weergegeven. [Meer informatie](../configuration/email-settings.md#url-tracking)
+
+* **Vooraf ingestelde berichtversie** - Wanneer u nu een berichtvoorinstelling bijwerkt, kan de verwerkingstijd maximaal 3 uur in beslag nemen. [Meer informatie](../configuration/channel-surfaces.md#edit-channel-surface)
+
+* **IP-pooleditie** - Wanneer het bijwerken van een IP pool, kan de verwerkingstijd slechts tot 3 uren vergen. [Meer informatie](../configuration/ip-pools.md#edit-ip-pool)
+
+
+
 
 ## Release van mei 2022 {#may-2022-release}
 
@@ -166,7 +293,7 @@ Als Adobe Campaign Standard-klant kunt u nu e-mails, pushberichten en SMS verzen
 
 **Beheer**
 
-* U kunt nu de koppeling voor het afmelden van abonnementen in- of uitschakelen in de e-mailheader op het niveau van de berichtvoorinstelling en een aangepaste URL voor het afmelden van abonnementen instellen op berichtniveau. [Meer informatie](../configuration/message-presets.md#list-unsubscribe)
+* U kunt nu de koppeling voor het afmelden van abonnementen in- of uitschakelen in de e-mailheader op het niveau van de berichtvoorinstelling en een aangepaste URL voor het afmelden van abonnementen instellen op berichtniveau. [Meer informatie](../configuration/channel-surfaces.md#list-unsubscribe)
 * De lijst van gewenste personen kan nu worden in- en uitgeschakeld via de [!DNL Journey Optimizer] interface over productie- en niet-productie-sandboxen. [Meer informatie](../configuration/allow-list.md#enable-allow-list)
 
 **Personalisatie**
@@ -239,7 +366,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 <tr>
 <td>
 <p>In Journey Optimizer-berichtinhoud kunt u nu UTM-parameters aan uw koppelingen toevoegen: zij kunnen extra gegevens over die verbinding verstrekken, en u helpen identificeren waar en waarom een persoon op uw verbinding klikte.</p>
-<p>Raadpleeg de <a href="../configuration/message-presets.md#configure-email-settings">gedetailleerde documentatie</a> voor meer informatie.</p-->
+<p>Raadpleeg de <a href="../configuration/channel-surfaces.md#configure-email-settings">gedetailleerde documentatie</a> voor meer informatie.</p-->
 </td>
 </tr>
 </tbody>

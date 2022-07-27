@@ -2,7 +2,7 @@
 title: Opmerkingen bij de vorige release (2021)
 description: Opmerkingen bij de release van Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '2067'
 ht-degree: 9%
@@ -91,7 +91,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 **Beheer**
 
-* **Voorinstellingen voor berichten bewerken** - U kunt nu voorinstellingen voor berichten bewerken en de status van de berichten controleren. [Meer informatie](../configuration/message-presets.md#edit-message-preset)
+* **Voorinstellingen voor berichten bewerken** - U kunt nu voorinstellingen voor berichten bewerken en de status van de berichten controleren. [Meer informatie](../configuration/channel-surfaces.md#edit-channel-surface)
 * **PTR-records bewerken** - U kunt nu PTR-records bewerken en de updatestatus ervan controleren. [Meer informatie](../configuration/ptr-records.md#edit-ptr-record)
 
 **Personalisatie**

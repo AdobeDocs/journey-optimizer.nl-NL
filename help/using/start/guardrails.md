@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,7 @@ Prestatiegerichten en statische limieten voor het besluitvormingsbeheer worden v
 ### Gebeurtenissen {#events-g}
 
 * Voor door het systeem gegenereerde gebeurtenissen moeten streaminggegevens die worden gebruikt om een klantentraject te starten, eerst binnen Journey Optimizer worden geconfigureerd om een unieke orchestratie-id te verkrijgen. Deze orkest-id moet worden toegevoegd aan de streaminglading die naar Adobe Experience Platform komt. Deze beperking geldt niet voor op regels gebaseerde gebeurtenissen.
+* Zakelijke evenementen kunnen niet worden gebruikt in combinatie met eenheidsgebeurtenissen of segmentkwalificatieactiviteiten.
 
 ### Gegevensbronnen {#data-sources-g}
 

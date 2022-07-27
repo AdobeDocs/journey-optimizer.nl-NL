@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Ga als volgt te werk om een IP-pool te maken:
    >
    >Alle IP adressen provisioned met uw instantie zijn beschikbaar in de lijst.
 
-De IP pool wordt nu gecreeerd en toont in de lijst. U kunt deze selecteren om toegang te krijgen tot de eigenschappen en het bijbehorende kanaaloppervlak weer te geven (d.w.z. de voorinstelling voor berichten). Voor meer op hoe te om een kanaaloppervlakte met een IP pool te associëren, verwijs naar [deze sectie](message-presets.md).
+De IP pool wordt nu gecreeerd en toont in de lijst. U kunt deze selecteren om toegang te krijgen tot de eigenschappen en het bijbehorende kanaaloppervlak weer te geven (d.w.z. de voorinstelling voor berichten). Voor meer op hoe te om een kanaaloppervlakte met een IP pool te associëren, verwijs naar [deze sectie](channel-surfaces.md).
 
 ![](assets/ip-pool-created.png)
 
@@ -76,14 +76,14 @@ Om een IP pool uit te geven:
 
 1. Sla uw wijzigingen op.
 
-De update is onmiddellijk of asynchroon van kracht, afhankelijk van de IP pool die aan een wordt geassocieerd [kanaaloppervlak](message-presets.md) of niet:
+De update is onmiddellijk of asynchroon van kracht, afhankelijk van de IP pool die aan een wordt geassocieerd [kanaaloppervlak](channel-surfaces.md) of niet:
 
 * Als de IP pool is **niet** wordt gekoppeld aan een kanaaloppervlak, wordt de update onmiddellijk uitgevoerd (**[!UICONTROL Success]** status).
 * Als de IP pool **is** kan de update maximaal 3 uur duren (**[!UICONTROL Processing]** status).
 
 >[!NOTE]
 >
->Wanneer [een kanaaloppervlak maken](message-presets.md#create-message-preset), als u een IP pool selecteert die onder uitgave (**[!UICONTROL Processing]** status) en u bent nooit gekoppeld aan het subdomein dat voor dat oppervlak is geselecteerd, kunt u niet doorgaan met het maken van het oppervlak. [Meer informatie](message-presets.md#subdomains-and-ip-pools)
+>Wanneer [een kanaaloppervlak maken](channel-surfaces.md#create-channel-surface), als u een IP pool selecteert die onder uitgave (**[!UICONTROL Processing]** status) en u bent nooit gekoppeld aan het subdomein dat voor dat oppervlak is geselecteerd, kunt u niet doorgaan met het maken van het oppervlak. [Meer informatie](channel-surfaces.md#subdomains-and-ip-pools)
 
 Als u de updatestatus van de IP-pool wilt controleren, klikt u op de knop **[!UICONTROL More actions]** en selecteert u **[!UICONTROL Recent updates]**.
 

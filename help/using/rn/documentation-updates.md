@@ -2,9 +2,9 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1731'
 ht-degree: 20%
 
 ---
@@ -15,7 +15,13 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 ## Juli 2022 {#july-2022}
 
-* De **Een berichtvoorinstelling maken** Deze sectie is verduidelijkt en bijgewerkt met koppelingen naar de pagina die beschrijft hoe u het SMS-kanaal kunt configureren. [Meer informatie](../configuration/message-presets.md#create-message-preset)
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 22 juli is in detail beschreven in de documentatie. [Meer informatie](release-notes.md)
+* De **Kanaaloppervlakken instellen** Deze sectie is verduidelijkt en bijgewerkt met koppelingen naar de pagina die beschrijft hoe u het SMS-kanaal kunt configureren. [Meer informatie](../configuration/channel-surfaces.md#create-channel-surface)
+* In de reiseigenschappen **Tijdzone profiel** Deze optie is nu standaard uitgeschakeld. [Meer informatie](../building-journeys/timezone-management.md#timezone-from-profiles)
+* In de **Wachten** de **Vaste datum** is niet meer beschikbaar. [Meer informatie](../building-journeys/wait-activity.md)
+* Meer informatie over de **Incrementeel lezen** in de **Segment lezen** activiteit. [Meer informatie](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Toegevoegde aanbevelingen voor de **Profiel uiteinde** voorwaardetype. [Meer informatie](../building-journeys/condition-activity.md#profile_cap)
+* Een beperking toegevoegd op bedrijfsgebeurtenissen. [Meer informatie](../start/guardrails.md#events-g)
 
 ## Juni 2022 {#june-2022}
 
@@ -42,7 +48,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Screenshots voor de openingspagina en abonnementrapportage zijn bijgewerkt. [Meer informatie](../reports/live-report.md)
 * Er is een opmerking toegevoegd waarin staat dat de methode Verwijderen niet wordt ondersteund in aangepaste handelingen. [Meer informatie](../action/about-custom-action-configuration.md)
 * De koppelingen naar Hoe kan ik-video&#39;s zijn bijgewerkt.
-* De [E-mailconfiguratie](../configuration/about-subdomain-delegation.md), [Voorinstellingen voor berichten](../configuration/message-presets.md) en [Landingspagina&#39;s configureren](../configuration/lp-subdomains.md) secties zijn gereorganiseerd voor betere leesbaarheid.
+* De [E-mailconfiguratie](../configuration/about-subdomain-delegation.md), [Voorinstellingen voor berichten](../configuration/channel-surfaces.md) en [Landingspagina&#39;s configureren](../configuration/lp-subdomains.md) secties zijn gereorganiseerd voor betere leesbaarheid.
 * De sectie URL-tracking is bijgewerkt en verbeterd met voorbeelden. [Meer informatie](../configuration/email-settings.md#url-tracking)
 * Er is een nieuwe subsectie toegevoegd over het instellen van een e-mailadres voor verzending. U kunt dit niet doen via de gebruikersinterface. [Meer informatie](../configuration/email-settings.md#forward-email)
 
@@ -53,8 +59,8 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Video&#39;s voor beslissingsbeheermogelijkheden zijn bijgewerkt met Journey Optimizer-gebruikersinterface. [Meer informatie](../offers/get-started/starting-offer-decisioning.md)
 * De **Aan de slag met gegevenssets** de sectie is verbeterd aan detail hoe te om tot datasets toegang te hebben en te creëren. [Meer informatie](../start/get-started-datasets.md)
 * Er zijn koppelingen toegevoegd naar hulplijnen en opmerkingen bij de release van het product **Adobe Journey Optimizer-documentatie** homepage. [Meer informatie](https://experienceleague.adobe.com/docs/journey-optimizer.html)
-* De **Voorinstellingen voor berichten maken** in deze sectie wordt nu aangegeven dat u niet kunt doorgaan met het maken van een voorinstelling terwijl de geselecteerde IP-pool zich in de editie bevindt (**[!UICONTROL Processing]** status) en is nooit gekoppeld aan het geselecteerde subdomein. [Meer informatie](../configuration/message-presets.md#subdomains-and-ip-pools)
-* Voorinstellingen voor berichten **URL-tracking** is bijgewerkt om kleine wijzigingen in de gebruikersinterface te weerspiegelen. [Meer informatie](../configuration/message-presets.md#url-tracking)
+* De **Voorinstellingen voor berichten maken** in deze sectie wordt nu aangegeven dat u niet kunt doorgaan met het maken van een voorinstelling terwijl de geselecteerde IP-pool zich in de editie bevindt (**[!UICONTROL Processing]** status) en is nooit gekoppeld aan het geselecteerde subdomein. [Meer informatie](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
+* Voorinstellingen voor berichten **URL-tracking** is bijgewerkt om kleine wijzigingen in de gebruikersinterface te weerspiegelen. [Meer informatie](../configuration/channel-surfaces.md#url-tracking)
 
 ## Maart 2022 {#march-2022}
 
@@ -78,7 +84,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De **AI-classificaties van offer decisioning** is bijgewerkt met een meer gedetailleerde beschrijving van het model voor automatische optimalisatie. [Meer informatie](../offers/ranking/auto-optimization-model.md)
 * Er is een nieuwe sectie over de schemavereisten toegevoegd die nodig zijn om gebeurtenistypen te kunnen verzenden bij het gebruik van een classificatiestrategie. [Meer informatie](../offers/ranking/schema-requirement.md)
 * Het gedeelte over [!DNL Journey Optimizer] personaliseringsmogelijkheden zijn gereorganiseerd voor een betere leesbaarheid . [Meer informatie](../personalization/personalize.md)
-* De **Voorinstellingen voor berichten maken** voor meer duidelijkheid is dit gedeelte in verschillende secties onderverdeeld . [Meer informatie](../configuration/message-presets.md#create-message-preset)
+* De **Voorinstellingen voor berichten maken** voor meer duidelijkheid is dit gedeelte in verschillende secties onderverdeeld . [Meer informatie](../configuration/channel-surfaces.md#create-channel-surface)
 * De **Uitschakelen, beheer** dit gedeelte is verduidelijkt en enigszins gereorganiseerd . [Meer informatie](../messages/consent.md#opt-out-management)
 * De **Koppelingen invoegen** is bijgewerkt met de recente wijzigingen in de gebruikersinterface. [Meer informatie](../design/message-tracking.md#insert-links)
 
@@ -93,14 +99,13 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] Release okt &#39;21 is gedetailleerd in de documentatie. [Meer informatie](release-notes.md)
 * Toegevoegd **Date time, functie** lijst. [Meer informatie](../personalization/functions/dates.md)
 * Nieuw **Aan de slag-secties per gebruiker**. Volg uw eigen weg om sneller aan uw doelstellingen te komen! [Meer informatie](../start/quick-start.md)
-* Nieuw **Een berichtvoorinstelling bewerken** sectie. [Meer informatie](../configuration/message-presets.md#edit-message-preset)
+* Nieuw **Een berichtvoorinstelling bewerken** sectie. [Meer informatie](../configuration/channel-surfaces.md#edit-channel-surface)
 * Nieuw **Een PTR-record bewerken** sectie. [Meer informatie](../configuration/ptr-records.md#edit-ptr-record)
-* Nieuw **Een berichtvoorinstelling uitschakelen** sectie. [Meer informatie](../configuration/message-presets.md#edit-message-preset#deactivate-preset)
+* Nieuw **Een berichtvoorinstelling uitschakelen** sectie. [Meer informatie](../configuration/channel-surfaces.md#edit-channel-surface#deactivate-a-surface)
 * Nieuwe beperkingen toegevoegd aan de **Handleiding voor ontwikkelaars van API voor beheer van beslissingen** op-aanbieding-beperkingen die niet worden ondersteund door het mobiele [!DNL Experience Edge] workflows. [Meer informatie](../offers/api-reference/offers-api/personalized-offers/create.md#limitations)
 * Nieuw **Simulaties maken** sectie. [Meer informatie](../offers/offer-activities/simulation.md)
 * Bijgewerkt **Beslissingsbereik toevoegen** sectie. [Meer informatie](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 * Bijgewerkt **Inhoud definiëren voor uw weergaven** , met inbegrip van een nieuwe [onderafdeling](../offers/offer-library/creating-personalized-offers.md#custom-text) over het definiëren en aanpassen van aangepaste tekst. [Meer informatie](../offers/offer-library/creating-personalized-offers.md#content)
-
 
 ## September 2021 {#september-2021}
 
@@ -142,7 +147,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Toegevoegde notities bij de lijst Onderdrukking, de secties Lijst van gewenste personen en E-mail global/live om aan te geven dat profielen met de status Onderdrukt en Niet toegestaan zijn uitgesloten van het e-mailrapport Metriek verzonden. [Meer informatie](../reports/global-report.md)
 * Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe e-mailadressen of domeinen kunnen worden opgehaald die zijn uitgesloten van een verzendende server omdat deze zich niet op de lijst van gewenste personen bevonden. [Meer informatie](../configuration/allow-list.md#reporting)
 * De sectie lijst van gewenste personen inschakelen is bijgewerkt. [Meer informatie](../configuration/allow-list.md#enable-allow-list)
-* De sectie met voorinstellingen voor monitorberichten is bijgewerkt met de mogelijke oorzaken van een eventuele fout bij het maken van de voorinstelling en details over dergelijke fouten. [Meer informatie](../configuration/message-presets.md#monitor-message-presets)
+* De sectie met voorinstellingen voor monitorberichten is bijgewerkt met de mogelijke oorzaken van een eventuele fout bij het maken van de voorinstelling en details over dergelijke fouten. [Meer informatie](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * De sectie Tijdsperiode voor opnieuw proberen is bijgewerkt en de naam is gewijzigd om aan te geven dat u de instelling voor het opnieuw proberen van e-mail nu kunt aanpassen in de voorinstellingen voor berichten. [Meer informatie](../configuration/retries.md#retry-duration)
 * Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u met één klik een koppeling om te weigeren kunt invoegen in e-mailinhoud. [Meer informatie](../messages/consent.md#one-click-opt-out-link)
 * De subdomeinsectie Delegeren is bijgewerkt met meer gedetailleerde informatie over het validatieproces dat door Adobe wordt uitgevoerd. [Meer informatie](../configuration/delegate-subdomain.md#subdomain-validation)

@@ -5,12 +5,10 @@ feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
@@ -25,15 +23,64 @@ Op attributen-gebaseerde toegangsbeheer (ABAC) laat u toestemmingen bepalen om g
 
 In Adobe Journey Optimizer, staat ABAC u toe om gegevens te beschermen en specifieke toegang te verlenen tot specifieke gebiedselementen met inbegrip van de schema&#39;s van de Gegevens van de Ervaring van het Model (XDM), de attributen van het Profiel, en segmenten.
 
-<!--For a more detailed list of the terminology used with ABAC, refer to Adobe Experience Platform documentation.-->
+Voor een meer gedetailleerde lijst van de gebruikte terminologie met ABAC, verwijs naar [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html).
 
 In dit voorbeeld willen we een label toevoegen aan de **Nationaliteit** schemaveld om te voorkomen dat onbevoegde gebruikers het gebruiken. Dit werkt alleen als u de volgende stappen uitvoert:
 
+1. Een nieuwe  **[!UICONTROL Role]** en wijst het toe met de overeenkomstige  **[!UICONTROL Label]** voor gebruikers om tot het schemagebied toegang te hebben en te kunnen gebruiken.
+
 1. Een  **[!UICONTROL Label]** aan de **Nationaliteit** schemaveld in Adobe Experience Platform.
 
-2. Een nieuwe  **[!UICONTROL Role]** en wijst het toe met de overeenkomstige  **[!UICONTROL Label]** voor gebruikers om tot het schemagebied toegang te hebben en te kunnen gebruiken.
+1. Gebruik de  **[!UICONTROL Schema field]** in Adobe Journey Optimizer.
 
-3. Gebruik de  **[!UICONTROL Schema field]** in Adobe Journey Optimizer.
+Let op: **[!UICONTROL Roles]**, **[!UICONTROL Policies]** en **[!UICONTROL Products]** U kunt ook toegang krijgen tot de API voor toegangsbeheer op basis van kenmerken. Raadpleeg de volgende secties voor meer informatie [documentatie](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/abac-api/overview.html).
+
+## Een rol maken en labels toewijzen {#assign-role}
+
+>[!IMPORTANT]
+>
+>Voordat u machtigingen voor een rol beheert, moet u eerst een beleid maken. Raadpleeg voor meer informatie hierover [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html).
+
+**[!UICONTROL Roles]** Dit zijn een reeks gebruikers die dezelfde machtigingen, labels en sandboxen binnen uw organisatie hebben. Elke gebruiker die tot een **[!UICONTROL Role]** heeft recht op de Adobe-apps en -services in het product.
+U kunt ook uw eigen **[!UICONTROL Roles]** als u de toegang van uw gebruikers tot bepaalde functies of objecten in de interface wilt verfijnen.
+
+We willen geselecteerde gebruikers nu toegang geven tot de **Nationaliteit** veld, met het label C2. Daartoe moeten we een nieuwe **[!UICONTROL Role]** met een specifieke reeks gebruikers en hun het label C2 geven waarmee zij de **Nationaliteit** details in een **[!UICONTROL Journey]**.
+
+1. Van de [!DNL Permissions] product, selecteer **[!UICONTROL Role]** in het menu van het linkerdeelvenster en klik op **[!UICONTROL Create role]**. U kunt ook toevoegen **[!UICONTROL Label]** naar ingebouwde rollen.
+
+   ![](assets/role_1.png)
+
+1. Voeg een **[!UICONTROL Name]** en **[!UICONTROL Description]** aan uw nieuwe **[!UICONTROL Role]**, hier: Beperkte rol demografisch.
+
+1. Selecteer in de vervolgkeuzelijst de optie **[!UICONTROL Sandbox]**.
+
+   ![](assets/role_2.png)
+
+1. Van de **[!UICONTROL Resources]** menu, klikt u op **[!UICONTROL Adobe Experience Platform]** om de verschillende mogelijkheden te openen. Hier selecteren we **[!UICONTROL Journeys]**.
+
+   ![](assets/role_3.png)
+
+1. Selecteer in de vervolgkeuzelijst de optie **[!UICONTROL Permissions]** gekoppeld aan de geselecteerde functie, zoals **[!UICONTROL View journeys]** of **[!UICONTROL Publish journeys]**.
+
+   ![](assets/role_6.png)
+
+1. Nadat u de zojuist gemaakte **[!UICONTROL Role]**, klikt u op **[!UICONTROL Properties]** om toegang tot uw rol verder te vormen.
+
+   ![](assets/role_7.png)
+
+1. Klik op het tabblad **[!UICONTROL Users]** op **[!UICONTROL Add users]**.
+
+   ![](assets/role_8.png)
+
+1. Selecteer op het tabblad **[!UICONTROL Labels]** de optie **[!UICONTROL Add label]**.
+
+   ![](assets/role_9.png)
+
+1. Selecteer **[!UICONTROL Labels]** u wilt toevoegen aan uw rol en klik **[!UICONTROL Save]**. Voor dit voorbeeld, verlenen wij het etiket C2 voor gebruikers om toegang tot het eerder beperkte gebied van het schema te hebben.
+
+   ![](assets/role_4.png)
+
+De gebruikers in de **Beperkte rol demografische** De rol heeft nu toegang tot de C2 geëtiketteerde voorwerpen.
 
 ## Labels toewijzen aan een object in Adobe Experience Platform {#assign-label}
 
@@ -69,49 +116,6 @@ Door een **[!UICONTROL Label]** aan uw **[!UICONTROL Field name]**, merkt op dat
 
 ![](assets/label_5.png)
 
-## Een rol maken en labels toewijzen {#assign-role}
-
-**[!UICONTROL Roles]** Dit zijn een reeks gebruikers die dezelfde machtigingen, labels en sandboxen binnen uw organisatie hebben. Elke gebruiker die tot een **[!UICONTROL Role]** heeft recht op de Adobe-apps en -services in het product.
-U kunt ook uw eigen **[!UICONTROL Roles]** als u de toegang van uw gebruikers tot bepaalde functies of objecten in de interface wilt verfijnen.
-
-We willen geselecteerde gebruikers nu toegang geven tot de **Nationaliteit** veld, met het label C2. Daartoe moeten we een nieuwe **[!UICONTROL Role]** met een specifieke reeks gebruikers en hun het label C2 geven waarmee zij de **Nationaliteit** details in een **[!UICONTROL Journey]**.
-
-1. Van de [!DNL Permissions] product, selecteer **[!UICONTROL Role]** in het menu van het linkerdeelvenster en klik op **[!UICONTROL Create role]**. U kunt ook toevoegen **[!UICONTROL Label]** naar ingebouwde rollen.
-
-   ![](assets/role_1.png)
-
-1. Voeg een **[!UICONTROL Name]** en **[!UICONTROL Description]** aan uw nieuwe **[!UICONTROL Role]**, hier: Beperkte rol demografisch.
-
-1. Selecteer in de vervolgkeuzelijst de optie **[!UICONTROL Sandbox]**.
-
-   ![](assets/role_2.png)
-
-1. Van de **[!UICONTROL Resources]** menu, klikt u op **[!UICONTROL Adobe Experience Platform]** om de verschillende mogelijkheden te openen. Hier selecteren we **[!UICONTROL Messages]**.
-
-   ![](assets/role_3.png)
-
-1. Selecteer in de vervolgkeuzelijst de optie **[!UICONTROL Permissions]** gekoppeld aan de geselecteerde functie, zoals **[!UICONTROL View messages]** of **[!UICONTROL Publish journeys]**.
-
-   ![](assets/role_6.png)
-
-1. Nadat u de zojuist gemaakte **[!UICONTROL Role]**, klikt u op **[!UICONTROL Properties]** om toegang tot uw rol verder te vormen.
-
-   ![](assets/role_7.png)
-
-1. Klik op het tabblad **[!UICONTROL Users]** op **[!UICONTROL Add users]**.
-
-   ![](assets/role_8.png)
-
-1. Selecteer op het tabblad **[!UICONTROL Labels]** de optie **[!UICONTROL Add label]**.
-
-   ![](assets/role_9.png)
-
-1. Selecteer **[!UICONTROL Labels]** u wilt toevoegen aan uw rol en klik **[!UICONTROL Save]**. Voor dit voorbeeld, verlenen wij het etiket C2 voor gebruikers om toegang tot het eerder beperkte gebied van het schema te hebben.
-
-   ![](assets/role_4.png)
-
-De gebruikers in de **Beperkte rol demografische** De rol heeft nu toegang tot de C2 geëtiketteerde voorwerpen.
-
 ## Benoemde objecten openen in Adobe Journey Optimizer {#attribute-access-ajo}
 
 Na het etiketteren van onze **Nationaliteit** veldnaam in een nieuw schema en onze nieuwe rol, we zien nu de impact van deze beperking in Adobe Journey Optimizer.
@@ -133,7 +137,7 @@ Voor ons voorbeeld zal een eerste gebruiker X met toegang tot voorwerpen geëtik
 
    ![](assets/journey_4.png)
 
-1. Maak vervolgens een Reis die een bericht stuurt naar gebruikers met een specifieke nationaliteit. Een **[!UICONTROL Event]** dan een **[!UICONTROL Condition]**.
+1. Maak vervolgens een Reis die een e-mail stuurt naar gebruikers met een specifieke nationaliteit. Een **[!UICONTROL Event]** dan een **[!UICONTROL Condition]**.
 
    ![](assets/journey_5.png)
 
@@ -145,11 +149,11 @@ Voor ons voorbeeld zal een eerste gebruiker X met toegang tot voorwerpen geëtik
 
    ![](assets/journey_7.png)
 
-1. Pas uw reis waar nodig aan, hier voegen we een **[!UICONTROL Message]** handeling.
+1. Pas uw reis waar nodig aan, hier voegen we een **[!UICONTROL Email]** handeling.
 
    ![](assets/journey_8.png)
 
-Als de Gebruiker Y zonder toegang tot etiket C2 voorwerpen tot deze reis of om het even welke berichten met dit beperkte gebied moet toegang hebben:
+Als de Gebruiker Y zonder toegang tot etiket C2 voorwerpen tot deze reis met dit beperkte gebied moet toegang hebben:
 
 * Gebruiker Y kan de beperkte veldnaam niet gebruiken omdat deze niet zichtbaar is.
 
@@ -157,6 +161,6 @@ Als de Gebruiker Y zonder toegang tot etiket C2 voorwerpen tot deze reis of om h
 
 * Gebruiker Y kan de uitdrukking verwijderen.
 
-* Gebruiker Y kan de Reis of het Bericht niet testen.
+* Gebruiker Y kan de Reis niet testen.
 
-* Gebruiker Y kan de Reis of het Bericht niet publiceren.
+* Gebruiker Y kan de Reis niet publiceren.

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 3f41545f41f258eede2167aa9ab45db51e91cacf
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1600'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
->title="Prioriteit"
+>title="Prioriteit instellen"
 >abstract="De prioritaire hulp bepaalt de prioriteit van de aanbieding in vergelijking met andere als de gebruiker voor meer dan één aanbieding in aanmerking komt. Hoe hoger de prioriteit van een aanbieding is, hoe hoger de prioriteit ervan wordt vergeleken met andere aanbiedingen."
 
 Met beperkingen kunt u de voorwaarden definiëren waaronder een aanbieding wordt weergegeven.
@@ -40,6 +40,10 @@ Met beperkingen kunt u de voorwaarden definiëren waaronder een aanbieding wordt
 1. Configureer de **[!UICONTROL Offer eligibility]**. [Meer informatie](#eligibility)
 
    ![](../assets/offer-eligibility.png)
+
+   >[!NOTE]
+   >
+   >Wanneer u segmenten of beslissingsregels selecteert, wordt informatie over de geschatte gekwalificeerde profielen weergegeven. Klikken **[!UICONTROL Refresh]** om gegevens bij te werken.
 
 1. Definieer de **[!UICONTROL Priority]** van de aanbieding in vergelijking met andere aanbiedingen indien de gebruiker voor meer dan één aanbieding in aanmerking komt. Hoe hoger de prioriteit van een aanbieding is, hoe hoger de prioriteit ervan wordt vergeleken met andere aanbiedingen.
 
@@ -63,8 +67,8 @@ Als u bijvoorbeeld de volgende beperkingen instelt:
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
->title="Subsidiabiliteit"
->abstract="De geschiktheid van aanbiedingen staat u toe om de aanbieding tot specifieke profielen te beperken die u het gebruiken van segmenten of besluitvormingsregels bepaalt."
+>title="Geschiktheid definiëren"
+>abstract="Standaard kan elk profiel in aanmerking komen voor presentatie van de aanbieding, maar u kunt segmenten of besluitvormingsregels gebruiken om de aanbieding te beperken tot specifieke profielen."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -114,7 +118,7 @@ In feite, is de output van een segment een lijst van profielen, terwijl een besl
 
    Meer informatie over beslissingsregels vindt u in [deze sectie](creating-decision-rules.md).
 
-## Frequentiecorrectie {#capping}
+## Afbeelding {#capping}
 
 >[!CONTEXTUALHELP]
 >id="od_offer_globalcap"
@@ -123,8 +127,8 @@ In feite, is de output van een segment een lijst van profielen, terwijl een besl
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
->title="Afbeelding"
->abstract="Afkappen wordt gebruikt als beperking om het maximumaantal keren te bepalen dat een aanbieding kan worden voorgesteld."
+>title="Afbeelding gebruiken"
+>abstract="Als u wilt voorkomen dat uw klanten te veel vragen, gebruikt u de optie Afdekken om het maximumaantal keren te bepalen dat een aanbieding kan worden gepresenteerd."
 
 Afkappen wordt gebruikt als beperking om het maximumaantal keren te bepalen dat een aanbieding kan worden voorgesteld.
 
@@ -178,7 +182,7 @@ Het aantal keren dat een aanbieding wordt voorgesteld, wordt berekend tijdens de
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_change_date"
->title="Het wijzigen van de datum kan gevolgen hebben voor de aftopping"
+>title="Het wijzigen van datums kan invloed hebben op de plafondfunctie"
 >abstract="Als er op deze aanbieding een maximumlimiet wordt toegepast, kan dit gevolgen hebben wanneer u de begin- of einddatum wijzigt."
 
 U moet voorzichtig te werk gaan wanneer u de datum van een aanbieding wijzigt, omdat dit van invloed kan zijn op de aftopping als aan de volgende voorwaarden wordt voldaan:
@@ -191,7 +195,7 @@ U moet voorzichtig te werk gaan wanneer u de datum van een aanbieding wijzigt, o
 >
 >Meer informatie over het definiëren van de datum van een aanbieding in [deze sectie](creating-personalized-offers.md#create-offer).
 
-Met frequentiecalfakanalen per profiel worden de plafondaantallen voor elk profiel opgeslagen. Wanneer u de begin- en einddatum van een goedgekeurd aanbod wijzigt, kan het aantal aftopping voor sommige profielen worden aangepast aan de verschillende hieronder beschreven scenario&#39;s.
+Als u per profiel vastlegt, worden de geknipte aantallen op elk profiel opgeslagen. Wanneer u de begin- en einddatum van een goedgekeurd aanbod wijzigt, kan het aantal aftopping voor sommige profielen worden aangepast aan de verschillende hieronder beschreven scenario&#39;s.
 
 ![](../assets/offer-capping-change-date.png)
 

@@ -6,16 +6,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1173'
 ht-degree: 1%
 
 ---
 
 # E-mailinstellingen configureren {#email-settings}
 
-Definieer de e-mailinstellingen in de specifieke sectie van de configuratie van het kanaaloppervlak (dus de voorinstelling voor berichten). Leer hoe u oppervlakken maakt in [deze sectie](message-presets.md).
+Definieer de e-mailinstellingen in de specifieke sectie van de configuratie van het kanaaloppervlak (dus de voorinstelling voor berichten). Leer hoe u oppervlakken maakt in [deze sectie](channel-surfaces.md).
 
 ![](assets/preset-email-settings.png)
 
@@ -24,9 +24,9 @@ Definieer de e-mailinstellingen in de specifieke sectie van de configuratie van 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="De e-mailcategorie definiëren"
->abstract="Selecteer het type e-mail dat wordt verzonden wanneer u dit kanaaloppervlak gebruikt: Marketing voor speciale e-mailberichten waarvoor toestemming van de gebruiker vereist is, of Transactie voor niet-commerciële e-mails die ook in specifieke contexten naar profielen zonder abonnement kunnen worden verzonden."
+>abstract="Selecteer het type berichten dat wordt verzonden wanneer u dit oppervlak gebruikt: Marketing voor promotieberichten waarvoor toestemming van de gebruiker vereist is, of Transactie voor niet-commerciële berichten, die ook naar niet-geabonneerde profielen in specifieke contexten kunnen worden verzonden."
 
-In de **E-MAILTYPE** selecteert u het type bericht dat met het kanaaloppervlak wordt verzonden: **Marketing** of **Transactioneel**.
+In de **E-MAILTYPE** selecteert u het type bericht dat met het oppervlak wordt verzonden: **Marketing** of **Transactioneel**.
 
 * Kies **Marketing** voor e-mail met speciale aandacht: voor deze berichten is toestemming van de gebruiker vereist .
 
@@ -181,20 +181,22 @@ Drie URL-volgparameters worden automatisch ingevuld als voorbeeld wanneer u een 
 
 Als u een URL-volgparameter wilt configureren, kunt u rechtstreeks de gewenste waarden invoeren in het dialoogvenster **[!UICONTROL Name]** en **[!UICONTROL Value]** velden.
 
-U kunt ook een keuze maken in een lijst met vooraf gedefinieerde waarden door naar de volgende objecten te navigeren:
-* Reiskenmerken: **Bron-id**, **Bronnaam**, **Id van bronversie**
-* Handelingskenmerken: **Handeling-id**, **Naam van handeling**
-* Kenmerken offer decisioning: **Offerte-id**, **Naam voorstel**
+<!--You can also choose from a list of predefined values by navigating to the following objects:
+* Journey attributes: **Source id**, **Source name**, **Source version id**
+* Action attributes: **Action id**, **Action name**
+* Offer decisioning attributes: **Offer id**, **Offer name**
 
 ![](assets/preset-url-tracking-source.png)
 
 >[!CAUTION]
 >
->Selecteer geen map: Blader naar de gewenste map en selecteer een profielkenmerk dat u wilt gebruiken als waarde voor de parameter tracking.
+>Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-<!--or edit it using the Expression editor. Learn more on [personalization](../../personalization/personalize.md#use-expression-editor). Select the contextual attribute of your choice.
+U kunt ook elke **[!UICONTROL Value]** veld met [Expressieeditor](../personalization/personalization-build-expressions.md). Klik op het pictogram van de editie om de Expressieeditor te openen. Vervolgens kunt u de contextafhankelijke kenmerken van uw keuze selecteren en/of de tekst rechtstreeks bewerken.
 
-You can drag and drop the parameters to reorder them.-->
+![](assets/preset-url-tracking-editor.png)
+
+<!--You can drag and drop the parameters to reorder them.-->
 
 Hieronder staan voorbeelden van URL&#39;s die compatibel zijn met Adobe Analytics en Google Analytics.
 
@@ -204,7 +206,7 @@ Hieronder staan voorbeelden van URL&#39;s die compatibel zijn met Adobe Analytic
 
 >[!NOTE]
 >
->U kunt tekstwaarden typen en vooraf gedefinieerde waarden selecteren. Elk **[!UICONTROL Value]** het veld kan in totaal maximaal 255 tekens bevatten.
+>U kunt tekstwaarden typen en contextafhankelijke kenmerken gebruiken in de Expressieeditor. Elk **[!UICONTROL Value]** het veld kan in totaal maximaal 255 tekens bevatten.
 
 U kunt de resulterende URL voor bijhouden dynamisch voorvertonen. Elke keer dat u een parameter toevoegt, bewerkt of verwijdert, wordt de voorvertoning automatisch bijgewerkt.
 

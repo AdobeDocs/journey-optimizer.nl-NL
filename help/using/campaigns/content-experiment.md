@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
    ![](assets/content_experiment_1.png)
 
-1. Selecteren **[!UICONTROL Email]** dan de **[!UICONTROL Surface]** wilt u gebruiken voor deze levering. Raadpleeg voor meer informatie de [Kanaaloppervlakken](../configuration/message-presets.md) pagina.
+1. Selecteren **[!UICONTROL Email]** dan de **[!UICONTROL Surface]** wilt u gebruiken voor deze levering. Raadpleeg voor meer informatie de [Kanaaloppervlakken](../configuration/channel-surfaces.md) pagina.
 
    ![](assets/content_experiment_2.png)
 

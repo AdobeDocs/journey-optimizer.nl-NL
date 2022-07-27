@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Nadat u de PTR-recordbewerking hebt bevestigd, **[!UICONTROL Processing]** wordt
 
 >[!NOTE]
 >
->De [updateverwerking](#processing) kan een paar uur duren.
+>De [updateverwerking](#processing) kan tot 3 uur duren.
 
 Klik op het pictogram naast de details van de PTR-recordupdate. Meer informatie over de statussen van de verschillende pictogrammen vindt u in [deze sectie](#ptr-record-update-statuses).
 
@@ -119,7 +119,7 @@ Een PTR-recordupdate kan de volgende statussen hebben:
 
 ### Verwerking {#processing}
 
-Verscheidene leveringscontroles zullen worden uitgevoerd om te verifiëren dat nieuwe subdomain aan vennoot met het IP adres geldig is. Dit kan een paar uur duren.
+Verscheidene leveringscontroles zullen worden uitgevoerd om te verifiëren dat nieuwe subdomain aan vennoot met het IP adres geldig is. Dit kan tot 3 uur duren.
 
 >[!NOTE]
 >

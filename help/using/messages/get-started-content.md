@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 712dc172-6c0d-4ce8-ba16-de99d65fc641
-source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 2%
@@ -61,7 +61,7 @@ Als u berichten wilt toevoegen aan uw reizen, voegt u gewoon een push-, SMS- of 
 
 1. Selecteer het bericht **[!UICONTROL Category]**: kiezen **Marketing** voor commerciële berichten, of **Transactioneel** voor niet-commerciële berichten, zoals bevestiging van de bestelling, wachtwoordherstelmeldingen of leveringsgegevens.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >Als u [frequentieregels](../configuration/frequency-rules.md) voor een specifiek kanaal en een bepaalde categorie, worden zij automatisch toegepast op het bericht wanneer het selecteren van dat kanaal en die categorie. Alleen de **[!UICONTROL Marketing]** categorie is beschikbaar voor frequentievoorschriften.
 
@@ -73,7 +73,7 @@ Als u berichten wilt toevoegen aan uw reizen, voegt u gewoon een push-, SMS- of 
 
 1. Selecteer het kanaal **[!UICONTROL Surface]** (d.w.z. voorinstelling voor berichten) die moet worden gebruikt om uw bericht te verzenden.
 
-   Een oppervlak is een configuratie die is gedefinieerd door een [Systeembeheerder](../start/path/administrator.md). Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enz. [Meer informatie](../configuration/message-presets.md).
+   Een oppervlak is een configuratie die is gedefinieerd door een [Systeembeheerder](../start/path/administrator.md). Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enz. [Meer informatie](../configuration/channel-surfaces.md).
 
    >[!CAUTION]
    >
@@ -104,7 +104,7 @@ Klik op de knop **[!UICONTROL Show read-only fields]** boven aan het berichtvens
 
 ![](assets/show-read-only.png)
 
-De geavanceerde parameters worden getoond bij de bodem van de berichtruit. Deze parameters worden gedefinieerd door de [systeembeheerder](../start/path/administrator.md) in de [kanaaloppervlak](../configuration/message-presets.md) (d.w.z. voorinstelling bericht) die aan het bericht is gekoppeld.
+De geavanceerde parameters worden getoond bij de bodem van de berichtruit. Deze parameters worden gedefinieerd door de [systeembeheerder](../start/path/administrator.md) in de [kanaaloppervlak](../configuration/channel-surfaces.md) (d.w.z. voorinstelling bericht) die aan het bericht is gekoppeld.
 
 Voor pushberichten kunt u de volgende parameters weergeven: Token, AppID, AppPlatform.
 
@@ -155,7 +155,7 @@ Volg onderstaande stappen om dit te doen:
 >
 >Voor e-mailberichten kunt u ook een bestaand bericht naar een sjabloon sturen. [Meer informatie](../design/email-templates.md).
 
-## Een bericht verwijderen
+## Een bericht verwijderen{#delete-message}
 
 Als u een bericht wilt verwijderen, gebruikt u het prullenbakpictogram boven aan het deelvenster Handeling Kanaal.
 

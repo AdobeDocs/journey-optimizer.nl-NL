@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
@@ -53,7 +53,7 @@ De **periode voor opnieuw uitproberen** Dit is het tijdsbestek waarin elk e-mail
 
 Standaard worden nieuwe pogingen uitgevoerd voor **3,5 dagen** (of **84 uur**) vanaf het moment dat het bericht aan de e-mailwachtrij is toegevoegd.
 
-Als u er echter voor wilt zorgen dat pogingen om opnieuw te proberen niet meer worden uitgevoerd wanneer ze niet meer nodig zijn, kunt u deze instelling naar wens wijzigen wanneer u een [kanaaloppervlak](message-presets.md) (d.w.z. voorinstelling voor berichten) die wordt toegepast op het e-mailkanaal.
+Als u er echter voor wilt zorgen dat pogingen om opnieuw te proberen niet meer worden uitgevoerd wanneer ze niet meer nodig zijn, kunt u deze instelling naar wens wijzigen wanneer u een [kanaaloppervlak](channel-surfaces.md) (d.w.z. voorinstelling voor berichten) die wordt toegepast op het e-mailkanaal.
 
 U kunt bijvoorbeeld de periode voor het opnieuw proberen instellen op 24 uur voor een transactie-e-mail die betrekking heeft op het opnieuw instellen van wachtwoorden en die een koppeling bevat die slechts een dag geldig is. Op dezelfde manier kunt u voor een uitverkoop in middernacht een uitzetperiode van 6 uur definiëren.
 
@@ -61,5 +61,5 @@ U kunt bijvoorbeeld de periode voor het opnieuw proberen instellen op 24 uur voo
 >
 >De periode van opnieuw proberen mag niet langer zijn dan 84 uur. De minimumperiode voor het opnieuw proberen is 6 uur voor marketing e-mails en 10 minuten voor transactie e-mails.
 
-Leer hoe u de parameters voor het opnieuw proberen van e-mail aanpast bij het maken van een kanaaloppervlak in [deze sectie](message-presets.md#create-message-preset).
+Leer hoe u de parameters voor het opnieuw proberen van e-mail aanpast bij het maken van een kanaaloppervlak in [deze sectie](channel-surfaces.md#create-channel-surface).
 

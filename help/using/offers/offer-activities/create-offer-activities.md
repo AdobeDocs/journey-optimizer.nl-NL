@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1036'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
 1. Gebruik de **[!UICONTROL Eligibility]** om de selectie van aanbiedingen voor deze plaatsing te beperken.
 
-   Deze beperking kan worden toegepast door een **beslissingsregel**, of een of meer **Adobe Experience Platform-segmenten**. Beide zijn gedetailleerd in [deze sectie](#segments-vs-decision-rules).
+   Deze beperking kan worden toegepast door een **beslissingsregel**, of een of meer **Adobe Experience Platform-segmenten**. Beide zijn gedetailleerd in [deze sectie](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
    * Selecteer **[!UICONTROL Segments]** en klik vervolgens op **[!UICONTROL Add segments]**.
 
@@ -87,6 +87,10 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
       ![](../assets/activity_constraint_rule.png)
 
       Leer hoe u een beslissingsregel maakt in [deze sectie](../offer-library/creating-decision-rules.md).
+
+      >[!NOTE]
+      >
+      >Wanneer u segmenten of beslissingsregels selecteert, wordt informatie over de geschatte gekwalificeerde profielen weergegeven. Klikken **[!UICONTROL Refresh]** om gegevens bij te werken.
 
 1. Definieer de waarderingsmethode die u wilt gebruiken om de beste aanbieding voor elk profiel te selecteren.
 
@@ -117,26 +121,6 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 1. Als u een andere plaatsing voor uw voorstellen wilt toevoegen als onderdeel van deze beslissing, gebruikt u de opdracht **[!UICONTROL New scope]** knop. Herhaal bovenstaande stappen voor elk beslissingsbereik.
 
    ![](../assets/activity_new-scope.png)
-
-### Segmenten en beslissingsregels gebruiken {#segments-vs-decision-rules}
-
-<!--to move to create-offers?-->
-
-Als u een beperking wilt toepassen, kunt u de selectie van aanbiedingen beperken tot de leden van een of meerdere **Adobe Experience Platform-segmenten** of u kunt een **beslissingsregel**, beide oplossingen voor verschillende toepassingen.
-
-In feite, is de output van een segment een lijst van profielen, terwijl een besluitvormingsregel een functie is die op bestelling tegen één enkel profiel tijdens het besluitvormingsproces wordt uitgevoerd. Het verschil tussen deze twee toepassingen wordt hieronder nader toegelicht.
-
-* **Segmenten**
-
-   Aan de ene kant zijn segmenten een groep Adobe Experience Platform-profielen die overeenkomen met een bepaalde logica op basis van profielkenmerken en gebeurtenissen ervaren. Het segment wordt echter niet opnieuw berekend door het Offertenbeheer, dat mogelijk niet up-to-date is wanneer de aanbieding wordt gepresenteerd.
-
-   Meer informatie over segmenten in [deze sectie](../../segment/about-segments.md).
-
-* **Beslissingsregels**
-
-   Anderzijds is een beslissingsregel gebaseerd op in Adobe Experience Platform beschikbare gegevens en bepaalt aan wie een aanbieding kan worden getoond. Zodra geselecteerd in een aanbieding of een besluit voor een bepaalde plaatsing, wordt de regel uitgevoerd telkens als een besluit wordt genomen, die ervoor zorgt dat elk profiel de recentste en beste aanbieding krijgt.
-
-   Meer informatie over beslissingsregels vindt u in [deze sectie](../offer-library/creating-decision-rules.md).
 
 ## Een fallback-aanbieding toevoegen {#add-fallback}
 

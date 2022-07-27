@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 9aa8b8c33eae6fd595643c5fefb4b4ea46ae7b73
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
@@ -32,19 +32,20 @@ Hiertoe zou de organisatie:
 
 <!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en) to learn more about exporting segments.) -->
 
+>[!NOTE]
+>
+>U kunt de batch ook bepalen via de Journey Optimizer-interface. Raadpleeg voor meer informatie [deze sectie](../../batch-delivery.md), die informatie verstrekt over globale voorwaarden en beperkingen om rekening te houden met wanneer het gebruiken van partijbesluit.
+
+* **Het aantal lopende partijbanen per dataset**: Tot vijf partijbanen kunnen tegelijkertijd, per dataset worden in werking gesteld. Om het even welke andere partijverzoeken met de zelfde outputdataset worden toegevoegd aan de rij. Er wordt een taak in de wachtrij opgehaald om te worden verwerkt zodra de vorige taak is voltooid.
+* **Frequentiecorrectie**: Een batch wordt uitgevoerd zonder de profielmomentopname die één keer per dag plaatsvindt. De [!DNL Batch Decisioning] API kapt de frequentie en laadt altijd profielen van de meest recente momentopname.
+
 ## Aan de slag {#getting-started}
 
 Voordat u deze API gebruikt, moet u de volgende vereiste stappen uitvoeren.
 
 ### De beslissing voorbereiden {#prepare-decision}
 
-Voer de volgende stappen uit om een of meer beslissingen voor te bereiden:
-
-* Om het beslissingsresultaat uit te voeren, creeer een dataset gebruikend het schema &quot;ODE DecisionEvents&quot;.
-
-* Creeer een segment van het Platform dat zou moeten worden geëvalueerd en dan worden bijgewerkt. Zie de [segmentatiedocumentatie](http://www.adobe.com/go/segmentation-overview-en) om meer over te leren hoe te om de evaluatie van het segmentlidmaatschap bij te werken.
-
-* In Adobe Journey Optimizer een beslissing maken (met een beslissingsbereik dat bestaat uit een besluit-ID en een plaatsings-ID). Zie de [deel over de afbakening van de besluitvormingsgebieden](../../offer-activities/create-offer-activities.md) van de handleiding voor het maken van beslissingen voor meer informatie.
+Om één of meerdere besluiten voor te bereiden, zorg ervoor u een dataset, een segment, en een besluit hebt gecreeerd. Deze voorwaarden worden nader beschreven in [deze sectie](../../batch-delivery.md).
 
 ### API-vereisten {#api-requirements}
 
@@ -58,6 +59,10 @@ Alles [!DNL Batch Decisioning] naast de in de [Handleiding voor ontwikkelaars va
 ## Een batchproces starten {#start-a-batch-process}
 
 Als u een werkbelasting wilt starten om beslissingen over batchprocessen te nemen, vraagt u een POST aan de `/workloads/decisions` eindpunt.
+
+>[!NOTE]
+>
+>Gedetailleerde informatie over de verwerkingstijd van batchtaken is beschikbaar in [deze sectie](../../batch-delivery.md).
 
 **API-indeling**
 
@@ -178,33 +183,6 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 | `ode:createDate` | De tijd waarop de aanvraag voor beslissingswerkbelasting is gemaakt. | `1648076994405` |
 | `ode:status` | De status van de werklast begint met &quot;QUEUED&quot; en verandert in &quot;PROCESSING&quot;, &quot;INGESTING&quot;, &quot;COMPLETED&quot; of &quot;ERROR&quot;. | `ode:status: "COMPLETED"` |
 | `ode:statusDetail` | Hier worden meer details weergegeven, zoals sparkJobId en batchID als de status &quot;PROCESSING&quot; of &quot;INGESTING&quot; is. De foutdetails worden weergegeven als de status &quot;ERROR&quot; is. |  |
-
-## Serviceniveaus {#service-levels}
-
-De tijd van begin tot eind voor elke partijbeslissing is de duur van de tijd de werkbelasting wordt gecreeerd aan de tijd wanneer het beslissingsresultaat in de outputdataset beschikbaar is. De segmentgrootte in de lading van het de verzoeksalaris van de POST is de belangrijkste factor die de eind-aan-eind partijbeslissingstijd beïnvloedt. Als voor de in aanmerking komende aanbieding een algemeen frequentiegrenswaarde is ingeschakeld, duurt het nemen van batchbeslissingen meer tijd om dit te voltooien. Hieronder volgen een aantal benaderingen van de verwerkingstijd van begin tot eind voor hun respectieve segmentgrootte, zowel met als zonder frequentietoewijzing voor in aanmerking komende aanbiedingen:
-
-Met frequentiegrens ingeschakeld voor in aanmerking komende aanbiedingen:
-
-| Segmentgrootte | Eind-aan-eind verwerkingstijd |
-|--------------|----------------------------|
-| 10.000 profielen of minder | 7 minuten |
-| 1 miljoen profielen of minder | 30 minuten |
-| 15 miljoen profielen of minder | 50 minuten |
-
-Zonder frequentiegrens voor in aanmerking komende aanbiedingen:
-
-| Segmentgrootte | Eind-aan-eind verwerkingstijd |
-|--------------|----------------------------|
-| 10.000 profielen of minder | 6 minuten |
-| 1 miljoen profielen of minder | 8 minuten |
-| 15 miljoen profielen of minder | 16 minuten |
-
-## Beperkingen {#limitations}
-
-Wanneer u de [!DNL Batch Decisioning] API, houd de volgende beperkingen in mening:
-
-* **Het aantal lopende partijbanen per dataset**: Tot vijf partijbanen kunnen tegelijkertijd, per dataset worden in werking gesteld. Om het even welke andere partijverzoeken met de zelfde outputdataset worden toegevoegd aan de rij. Er wordt een taak in de wachtrij opgehaald om te worden verwerkt zodra de vorige taak is voltooid.
-* **Frequentiecorrectie**: Een batch wordt uitgevoerd zonder de profielmomentopname die één keer per dag plaatsvindt. De [!DNL Batch Decisioning] API kapt de frequentie en laadt altijd profielen van de meest recente momentopname.
 
 ## Volgende stappen {#next-steps}
 

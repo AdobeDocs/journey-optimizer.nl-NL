@@ -2,10 +2,10 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 9%
+source-wordcount: '497'
+ht-degree: 10%
 
 ---
 
@@ -17,27 +17,22 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 ![Nieuwsbrief](../assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} vandaag en ontvang de nieuwste productupdates, spannende artikelen, gebruiksscenario&#39;s, tips en nog veel meer die elk kwartaal rechtstreeks aan uw Postvak IN worden bezorgd.
 
->[!CAUTION]
->
->Op 25 juli geeft Adobe Journey Optimizer een [nieuwe functie](../rn/inline-messages.md) Hiermee verbetert u de manier waarop u inhoud voor Journey Optimizer-kanalen (e-mail, push, SMS) ontwerpt. Als Journey Optimizer-expert ben je nu [maken en auteur](../messages/get-started-content.md) uw berichten direct van een reis. Voor u wordt een automatische omzetting van reizen uitgevoerd. Toch hebben we uw hulp nodig met een paar stappen. Meer informatie over de [vereiste stappen](../rn/inline-messages-steps.md).
-
-## Release van juni 2022 {#june-2022-release}
+## Release van juli 2022 {#july-2022-release}
 
 ### Nieuwe functies
 
 <table>
 <thead>
 <tr>
-<th><strong>SMS verzenden naar uw gebruikers (beperkte beschikbaarheid)</strong><br/></th>
+<th><strong>Nieuwe in-line overseinenstroom</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu SMS in Journey Optimizer maken, personaliseren en verzenden via integratie met <b>Sinch</b> of <b>Twilio</b>.</p>
-<img src="assets/do-not-localize/SMS.gif"/>
-<p>Het SMS-kanaal is momenteel alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.</p>
-<p>Leer hoe u in dit venster een SMS maakt en verzendt <a href="../messages/create-sms.md">gedetailleerde documentatie</a>.</p>
+<p>Journey Optimizer biedt een nieuwe stroom voor het schrijven van berichten in de pers. In-line berichten besparen gebruikers aanzienlijke tijd en stroomlijnen het workflowproces voor het maken en leveren van een e-mail, een pushmelding of een SMS in Journey Optimizer. Door Berichten als afzonderlijke stap te verwijderen en in plaats daarvan editable in-line als deel van een actie op het Canvas van de Reis, zullen de gebruikers minder knopen moeten klikken en minder schermen navigeren om hun inhoud te ontwerpen en uit te geven.</p>
+<img src="assets/do-not-localize/inline.gif"/>
+<p>Raadpleeg de <a href="../messages/get-started-content.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -47,15 +42,15 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 <table>
 <thead>
 <tr>
-<th><strong>Snellere afbeeldingen zoeken dankzij Adobe Stock-integratie</strong><br/></th>
+<th><strong>Op kenmerken gebaseerde toegangscontrole (beperkte beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Met de integratie-insteekmodule Adobe Stock en Adobe Journey Optimizer Email Designer kunnen klanten eenvoudig door afbeeldingen navigeren, licenties aanschaffen en afbeeldingen opslaan voor gebruik in berichtontwerpen. </br> De nieuwe <b>Vergelijkbare stockfoto's zoeken</b> kunt u ook Stock-foto's zoeken die overeenkomen met de inhoud, kleur en compositie van de afbeeldingen. </p>
-<img src="assets/do-not-localize/stock-rn.gif"/>
-<p>Raadpleeg de <a href="../design/stock.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>U kunt schemagebieden met etiketten nu identificeren die organisatorisch of gegevensgebruikswerkingsgebied bepalen. De beheerders kunnen de interface van Toestemmingen gebruiken om toegangsbeleid te bepalen dat XDM schemagebieden behandelt en beter de toegang beheren die aan gebruikers of groepen gebruikers (interne, externe, of derdegebruikers) wordt gegeven, en toegang tot specifieke types van gegevens (d.w.z. Gevoelige Persoonlijke Gegevens/SPD) te beheren.</p>
+<p>Het gebruik van op attributen-gebaseerde toegangsbeheer is momenteel beperkt tot geselecteerde gebruikers, en zal aan alle milieu's in een toekomstige versie worden opgesteld.</p>
+<p>Raadpleeg de <a href="../administration/attribute-based-access.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -64,24 +59,25 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 <table>
 <thead>
 <tr>
-<th><strong>BCC via e-mail gebruiken op al uw e-mails</strong><br/></th>
+<th><strong>Batchbeslissingstaken</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu de e-mailfunctie BCC (blinde koolstofkopie) gebruiken om e-mails op te slaan die door Adobe Journey Optimizer zijn verzonden. Schakel deze optie in uw e-mailvoorinstellingen in, zodat elke verzonden e-mail blind wordt gekopieerd naar uw BCC-adres.</p>
-<img src="assets/do-not-localize/bcc-rn.gif"/>
-<p>Raadpleeg de <a href="../configuration/bcc-email.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>U kunt taken voor batchbepaling nu uitvoeren vanuit de gebruikersinterface, zodat ik geen ontwikkelaar nodig heb om taken voor batchverwerking uit te voeren en de tijd die nodig is voor marketing kan verminderen. Met deze nieuwe interface kunt u nieuwe taken maken en huidige en vroegere taken beheren.</p>
+<img src="assets/do-not-localize/batch.gif"/>
+<p>Raadpleeg de <a href="../offers/batch-delivery.md">gedetailleerde documentatie voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--<table>
+<!--
+<table>
 <thead>
 <tr>
-<th><strong>Automatically use the best performing offer in your decisions</strong><br/></th>
+<th><strong>Automatically use the best performing offer in your decisions (limited availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -90,77 +86,35 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 <p>You can now use personalized optimization model systems in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
 <p>The use of personalized optimization AI models is currently restricted to selected users, and will be deployed to all environments in a future release.</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
-
-<table>
-<thead>
-<tr>
-<th><strong>Objecten kopiëren tussen sandboxen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U kunt de ervaringen nu opnieuw maken van een Journey Optimizer-sandbox naar een andere sandbox, bijvoorbeeld van een niet-productiesandbox naar een productiesandbox. Deze nieuwe mogelijkheid kopieert een volledige Reis, inclusief alle objecten waarvan de Reis afhankelijk is om correct te worden uitgevoerd, van de ene omgeving naar de andere. Naast de Reizen, kunt u andere componenten, zoals Aanbiedingen, Berichten, Schema's, Datasets, Gegevensbronnen, Gebeurtenissen, en Acties ook kopiëren.</p>
-<p>Raadpleeg de <a href="../building-journeys/copy-to-sandbox.md">gedetailleerde documentatie</a> voor meer informatie.
+<p>For more information, refer to the detailed documentation.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Dynamic Expression Builder</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create conditional content blocks across different authoring services to personalize your content. In addition to the Personalization Expression Library, the Expression editor provides a new Conditional Rule Builder to help you design and save your content blocks.</p>
-<p>For more information, refer to the <a href="../building-journeys/read-segment.md#configuring-segment-trigger-activity">detailed documentation</a>.
-</td>
-</tr>
-</tbody>
-</table-->
-
+-->
 
 ### Verbeteringen
-
-**Beslissingsbeheer**
-
-* **Ondersteuning voor HTML- en JSON-bestanden** - U kunt nu externe HTML- en JSON-bestanden van de Adobe Experience Cloud Asset-bibliotheek naar de inhoud van de aanbiedingsweergave slepen. [Meer informatie](../offers/offer-library/add-representations.md#html-json)
-
-
-**E-mail**
-
-* **Opslaan als sjabloon** - U kunt nu e-mailinhoud opslaan als een sjabloon en deze opnieuw gebruiken wanneer u andere berichten maakt. [Meer informatie](../design/email-templates.md)
 
 <!--
 **Journeys**
 
 * **Ending a journey** - In the journey canvas, the **End** activity has been removed from the palette. End tags are now added by default at the end of each path and cannot be removed. This improvement allows better reporting of where a customer dropped out of the journey, without any action from the user.
-
 -->
+
+**Berichten**
+
+* Voorinstellingen voor berichten zijn nu **kanaaloppervlakken**. [Meer informatie](../configuration/channel-surfaces.md)
 
 **Beheer**
 
-<!--* **Allowed list in the UI** - You can now use the Journey Optimizer user interface to add new email addresses or domains to the allowed list.-->
+* **PTR-recordeditie** - Wanneer u nu een PTR-record bijwerkt, duurt de verwerkingstijd maximaal 3 uur. [Meer informatie](../configuration/ptr-records.md#processing)
 
-* **Voorvertoning van URL-parameters bijhouden** - Als u een berichtvoorinstelling configureert en URL-trackingparameters definieert, wordt nu een dynamische voorvertoning van de resulterende URL weergegeven. [Meer informatie](../configuration/email-settings.md#url-tracking)
+* **UI lijst van gewenste personen** - U kunt nu de Journey Optimizer-gebruikersinterface gebruiken om nieuwe e-mailadressen of domeinen aan de lijst van gewenste personen toe te voegen. [Meer informatie](../configuration/allow-list.md)
 
-* **Vooraf ingestelde berichtversie** - Wanneer u nu een berichtvoorinstelling bijwerkt, kan de verwerkingstijd maximaal 3 uur in beslag nemen. [Meer informatie](../configuration/message-presets.md#edit-message-preset)
+* **Update voor logica van lijst van gewenste personen** - De logica lijst van gewenste personen wordt nu toegepast zodra de functie is ingeschakeld, zelfs als de lijst leeg is. [Meer informatie](../configuration/allow-list.md#logic)
 
-* **IP-pooleditie** - Wanneer het bijwerken van een IP pool, kan de verwerkingstijd slechts tot 3 uren vergen. [Meer informatie](../configuration/ip-pools.md#edit-ip-pool)
+* **Parameters voor URL-tracking** - U kunt nu de Expressieeditor gebruiken om URL-volgparameters te configureren in uw e-mailoppervlakken (bijvoorbeeld voorinstellingen voor berichten). [Meer informatie](../configuration/email-settings.md#url-tracking)
 
-<!--* **Personalize tracking URL parameters** - You can now use the Expression editor to configure URL tracking parameters in your message presets. [Learn more](../configuration/email-settings.md#url-tracking)-->
+**offer decisioning**
 
-<!--
-**Reporting**
-
-* **Performance measurement** - A new **Reporting** tab is now available in the Administration > Configurations menu to set up reporting data sources.
--->
+* **Grootte publiek** - Een nieuwe de schattingscomponent van de publieksgrootte wordt nu getoond in het gebruikersinterface wanneer het creëren van een besluitvormingsregel, wanneer het selecteren van een segment of een regel om een aanbiedingsontvankelijkheid te plaatsen, of wanneer het toevoegen van een segment of een regel aan een besluitvormingswerkingsgebied.

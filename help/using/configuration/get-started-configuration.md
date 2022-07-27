@@ -6,7 +6,7 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 11%
@@ -22,7 +22,7 @@ Om uw reizen te kunnen tot stand brengen en berichten te verzenden, moet u door 
 
 1. **Berichten en kanalen configureren**: kanaaloppervlakken definiëren, de berichten aanpassen en aanpassen.
 
-   * Creeer kanaaloppervlakten om alle technische parameters te vormen die worden vereist om berichten te leveren. [Meer informatie](message-presets.md)
+   * Creeer kanaaloppervlakten om alle technische parameters te vormen die worden vereist om berichten te leveren. [Meer informatie](channel-surfaces.md)
 
    * Bepaal welk e-mailadres u als prioriteit voor uw ontvangers wilt gebruiken wanneer in Adobe Experience Platform verschillende adressen beschikbaar zijn. [Meer informatie](primary-email-addresses.md)
 

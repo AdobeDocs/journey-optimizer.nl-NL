@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 6%
+source-wordcount: '1140'
+ht-degree: 5%
 
 ---
 
@@ -82,7 +82,7 @@ De stappen om de activiteit van het Leessegment te vormen zijn als volgt:
 
    ![](assets/read-segment-schedule-list.png)
 
-   De **Incrementeel lezen** met deze optie kunt u zich alleen richten op de personen die het segment hebben betreden sinds de laatste uitvoering van de reis. De eerste uitvoering richt altijd alle segmentleden. Deze optie is alleen beschikbaar voor herhaling **Segment lezen** activiteiten.
+   **Incrementeel lezen** optie: wanneer een reis met terugkerende **Segment lezen** voert voor het eerst uit, alle profielen in het segment de reis ingaan. Bij de volgende keer gaan alle profielen de reis opnieuw in, zelfs als ze al binnen waren. Het oude exemplaar van het profiel in de reis wordt tegengehouden en een nieuw geval wordt gecreeerd. De **Incrementeel lezen** met deze optie kunt u zich na de eerste keer richten op de personen die het segment zijn binnengekomen sinds de laatste uitvoering van de reis.
 
 <!--
 
@@ -157,7 +157,7 @@ De segmentatie kan worden gebaseerd op:
 
 **Uitsluiting**
 
-Hetzelfde **Voorwaarde** de activiteit die voor segmentatie wordt gebruikt (zie hierboven) staat u ook toe om een deel van de bevolking uit te sluiten. U kunt bijvoorbeeld VIP personen uitsluiten door ze na afloop naar een vertakking te laten lopen met een eindstap.
+Hetzelfde **Voorwaarde** de activiteit die voor segmentatie wordt gebruikt (zie hierboven) staat u ook toe om een deel van de bevolking uit te sluiten. U kunt bijvoorbeeld VIP personen uitsluiten door ze na afloop naar een vertakking te laten gaan met een eindstap.
 
 Deze uitsluiting zou direct na het opvragen van segmenten kunnen plaatsvinden, voor het tellen van de bevolking of langs een reis met meerdere stappen.
 

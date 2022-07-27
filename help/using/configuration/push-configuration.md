@@ -4,7 +4,7 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van pushmeld
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 3%
@@ -351,7 +351,7 @@ Uw gebeurtenis wordt geactiveerd en u ontvangt uw pushmelding voor uw mobiele ap
 
 Zodra uw mobiele app is ingesteld in [!DNL Adobe Experience Platform Data Collection], moet u een oppervlak maken om pushmeldingen te kunnen verzenden vanuit **[!DNL Journey Optimizer]**.
 
-Leer hoe u een kanaaloppervlak maakt en configureert in [deze sectie](../configuration/message-presets.md).
+Leer hoe u een kanaaloppervlak maakt en configureert in [deze sectie](../configuration/channel-surfaces.md).
 
 U bent nu klaar om pushmeldingen te verzenden met Journey Optimizer.
 

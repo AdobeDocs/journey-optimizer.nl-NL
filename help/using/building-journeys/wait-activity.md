@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '322'
 ht-degree: 5%
 
 ---
@@ -18,15 +18,17 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Wachtactiviteit"
->abstract="Als u wilt wachten alvorens de volgende activiteit in de weg uit te voeren, kunt u een Wacht activiteit gebruiken. Hiermee kunt u bepalen wanneer de volgende activiteit wordt uitgevoerd. Er zijn drie opties beschikbaar: duur, vaste datum en aangepaste datum."
+>abstract="Als u wilt wachten alvorens de volgende activiteit in de weg uit te voeren, kunt u een Wacht activiteit gebruiken. Hiermee kunt u bepalen wanneer de volgende activiteit wordt uitgevoerd. Er zijn twee opties beschikbaar: duur en aangepast."
 
 Als u wilt wachten voordat u de volgende activiteit in het pad uitvoert, kunt u een **[!UICONTROL Wait]** activiteit. Hiermee kunt u bepalen wanneer de volgende activiteit wordt uitgevoerd. Er zijn drie opties beschikbaar:
 
 * [Duur](#duration)
-* [Vaste datum](#fixed_date)
 * [Aangepast](#custom)
 
-<!--* [Email send time optimization](#email_send_time_optimization)-->
+<!--
+* [Email send time optimization](#email_send_time_optimization)
+* [Fixed date](#fixed_date) 
+-->
 
 ## Informatie over de activiteit Wachten{#about_wait}
 
@@ -40,11 +42,14 @@ Selecteer de duur van de wachttijd voordat de volgende activiteit wordt uitgevoe
 
 ![](assets/journey55.png)
 
-## Wachttijd voor vaste datum{#fixed_date}
+<!--
+## Fixed date wait{#fixed_date}
 
-Selecteer de datum voor de uitvoering van de volgende activiteit.
+Select the date for the execution of the next activity.
 
 ![](assets/journey56.png)
+
+-->
 
 ## Aangepast wachten{#custom}
 

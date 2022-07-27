@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 1%
@@ -141,7 +141,7 @@ Selecteer hiervoor de optie **[!UICONTROL Add email or domain]** en voert u een 
 
    >[!NOTE]
    >
-   >Zorg ervoor dat u een geldig e-mailadres (zoals abc@company) of domein (zoals abc.company.com) opgeeft.
+   >Zorg ervoor dat u een geldig e-mailadres (zoals abc@company.com) of domein (zoals abc.company.com) opgeeft.
 
 1. Geef indien nodig een reden op.
 

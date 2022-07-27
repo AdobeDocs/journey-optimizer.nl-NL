@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '877'
 ht-degree: 2%
 
 ---
@@ -128,9 +128,19 @@ Volg onderstaande stappen om een frequentieregel toe te passen op een bericht.
 
 1. Alle frequentieregels die overeenkomen met de geselecteerde categorie en kanalen worden automatisch toegepast op dit bericht.
 
-   >[!NOTE]
-   >
-   >Berichten waarbij de geselecteerde categorie is **[!UICONTROL Transactional]** niet worden getoetst aan de frequentievoorschriften.
+1. U kunt op de knop **[!UICONTROL Frequency rule]** koppeling om de frequentieregels weer te geven die van toepassing zijn op de geselecteerde categorie en het geselecteerde kanaal of de geselecteerde kanalen.
+
+   ![](assets/message-rules-msg-link.png)
+
+   Er wordt een nieuw tabblad geopend met de regels voor de overeenkomstige berichtfrequentie.
+
+Alle frequentieregels die overeenkomen met de geselecteerde categorie en kanalen worden automatisch toegepast op dit bericht.
+
+>[!NOTE]
+>
+>Berichten <!--that do not have any selected category or messages -->waarbij de geselecteerde categorie **[!UICONTROL Transactional]** niet worden getoetst aan de frequentievoorschriften.
+
+<!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
 
 1. U kunt het aantal profielen dat is uitgesloten van levering bekijken in het dialoogvenster [Algemeen rapport](../reports/global-report.md)en in de [Live-rapport](../reports/live-report.md), waarbij de frequentievoorschriften worden vermeld als mogelijke reden voor gebruikers die van levering zijn uitgesloten.
 

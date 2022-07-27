@@ -8,7 +8,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 >
 >Voordat u een nieuwe campagne maakt, moet u ervoor zorgen dat u een oppervlaktekanaal (d.w.z. een berichtvoorinstelling) en een Adobe Experience Platform-segment gebruiksklaar hebt. Meer informatie vindt u in deze secties:
 >
->* [Kanaaloppervlakken maken](../configuration/message-presets.md)
+>* [Kanaaloppervlakken maken](../configuration/channel-surfaces.md)
 >* [Aan de slag met segmenten](../segment/about-segments.md)
 
 

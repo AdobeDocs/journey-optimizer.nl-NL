@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
 source-wordcount: '1543'
 ht-degree: 8%
@@ -57,7 +57,7 @@ U kunt het gedrag selecteren wanneer een gebruiker op de hoofdtekst van het push
 
 ![](assets/title-body-push.png)
 
-* Selecteer de optie **[!UICONTROL Open app]** optie. De toepassing die aan de melding is gekoppeld, wordt gedefinieerd in het dialoogvenster [kanaaloppervlak](../configuration/message-presets.md) (d.w.z. voorinstelling bericht).
+* Selecteer de optie **[!UICONTROL Open app]** optie. De toepassing die aan de melding is gekoppeld, wordt gedefinieerd in het dialoogvenster [kanaaloppervlak](../configuration/channel-surfaces.md) (d.w.z. voorinstelling bericht).
 * Als u de gebruiker wilt omleiden naar een bepaald stuk inhoud in een app, selecteert u de optie **[!UICONTROL Deeplink]** optie.  De specifieke inhoud kan een specifieke weergave, een bepaalde sectie van een pagina of een bepaald tabblad zijn. Als de optie is geselecteerd, voert u de koppeling in het bijbehorende veld in.
 * Als u de gebruiker wilt omleiden naar een externe URL, gebruikt u de opdracht **[!UICONTROL Web URL]** optie. Wanneer de optie is geselecteerd, voert u de URL in het bijbehorende veld in.
 

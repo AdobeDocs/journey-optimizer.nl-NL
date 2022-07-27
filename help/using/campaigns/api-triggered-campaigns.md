@@ -4,9 +4,9 @@ description: Leer hoe u campagnes kunt activeren met [!DNL Journey Optimizer] AP
 hide: true
 hidefromtoc: true
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '696'
 ht-degree: 1%
 
 ---
@@ -15,15 +15,16 @@ ht-degree: 1%
 
 ## Informatie over API-gestuurde campagnes {#about}
 
+>[!NOTE]
+>
+>De API voor het uitvoeren van interactieve berichten bevindt zich momenteel in de bètaversie, die vaak en zonder kennisgeving kan worden bijgewerkt.
+
+
 Met [!DNL Journey Optimizer]kunt u campagnes maken en deze vervolgens aanroepen vanuit een extern systeem op basis van een gebruikerstrigger met behulp van de [Interactive Message Execution REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Dit staat u toe om diverse operationele en transactionele overseinenbehoeften zoals wachtwoordterugstellen, het teken van OTP, onder andere te behandelen.
 
 Hiervoor moet u eerst een API-getriggerde campagne in Journey Optimizer maken en vervolgens de uitvoering starten via een API-aanroep.
 
 Beschikbare kanalen voor API-getriggerde campagnes zijn E-mail, SMS en Push berichten.
-
->[!NOTE]
->
->De API voor het uitvoeren van interactieve berichten bevindt zich momenteel in de bètaversie, die vaak en zonder kennisgeving kan worden bijgewerkt.
 
 ## Een API-gestuurde campagne maken {#create}
 
@@ -86,9 +87,11 @@ Om een API-teweeggebrachte campagne uit te voeren, moet u eerst zijn identiteits
 
 Vervolgens kunt u deze id in uw API-payload gebruiken om de campagne te starten. Zie de [Interactieve API-documentatie voor berichtuitvoering](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) voor meer informatie .
 
+Merk op dat als u een specifieke begin en/of einddatum toen het creëren van de campagne hebt gevormd, het niet buiten deze data zal worden uitgevoerd, en API vraag zal ontbreken.
+
 >[!NOTE]
 >
->Als u een specifieke begin en/of einddatum toen het creëren van de campagne hebt gevormd, zal het niet buiten deze data worden uitgevoerd, en API vraag zal ontbreken.
+>In sommige gevallen moet u mogelijk transactieberichten verzenden naar profielen die niet in het systeem bestaan. Bijvoorbeeld als een onbekende gebruiker zich probeert aan te melden bij uw website. In dat geval wordt het corresponderende profiel automatisch gemaakt in Adobe Experience Platform, in het dialoogvenster **Gegevensset AJO Interactive Messaging Profile** dataset.
 
 ## Aanvullende bronnen
 
