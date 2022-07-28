@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 2%
+source-wordcount: '293'
+ht-degree: 3%
 
 ---
 
@@ -34,10 +34,10 @@ Voer de volgende stappen uit om een AI-model te maken:
 
 1. Klik op de knop **[!UICONTROL Create AI model]**.
 
-1. Geef een unieke naam en een beschrijving op voor het AI-model.
+1. Geef een unieke naam en een beschrijving voor het AI-model op en selecteer het type AI-model dat u wilt maken:
 
-   <!--* **[!UICONTROL Auto-optimization]** optimizes offers based on past offer performance. [Learn more](auto-optimization-model.md)
-    * **[!UICONTROL Personalized]** optimizes and personalizes offers based on segments and offer performance. [Learn more](personalized-optimization-model.md)-->
+   * **[!UICONTROL Auto-optimization]** optimaliseert aanbiedingen op basis van de prestaties van de vorige aanbieding. [Meer informatie](auto-optimization-model.md)
+   * **[!UICONTROL Personalized]** optimaliseert en past aanbiedingen aan op basis van segmenten en biedt prestaties. [Meer informatie](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -60,13 +60,13 @@ Voer de volgende stappen uit om een AI-model te maken:
    >
    >Alleen de gegevenssets die zijn gemaakt op basis van schema&#39;s die zijn gekoppeld aan de **[!UICONTROL Experience Event - Proposition Interactions]** veldgroep (voorheen bekend als mixin) wordt weergegeven in de vervolgkeuzelijst.
 
-<!--1. If you are creating a **[!UICONTROL Personalization]** AI model, select the segment(s) to use to train the AI model.
+1. Als u een **[!UICONTROL Personalization]** AI-model: selecteer het segment of de segmenten die u wilt gebruiken om het AI-model op te leiden.
 
-    ![](../assets/ai-ranking-segments.png)
+   ![](../assets/ai-ranking-segments.png)
 
-    >[!NOTE]
-    >
-    >You can select up to 5 segments.-->
+   >[!NOTE]
+   >
+   >U kunt maximaal vijf segmenten selecteren.
 
 1. Sla het AI-model op en activeer het.
 
