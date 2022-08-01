@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: ad3ac3bb34b8ca7a5bf490a7156f88849b77f438
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '765'
 ht-degree: 2%
 
 ---
@@ -51,21 +51,21 @@ U kunt een reis alleen stoppen als zich een noodsituatie voordoet en alle verwer
 >
 >U kunt een gesloten of gestopt reis niet hervatten.
 
-<!--
+### Tag voor einde van reis{#end-tag}
 
-### Journey end tag{#end-tag}
-
-While authoring a journey, an "end node" is displayed at the end of each path. This node cannot be added by a user, cannot be removed and only its label can be changed. It marks the end of each path of the journey. If the journey has several paths, we recommend that you add a label to each end to make reports easier to read. See [this page](../reports/live-report.md).
+Terwijl het ontwerpen van een reis, wordt een &quot;eindknoop&quot;getoond aan het eind van elke weg. Dit knooppunt kan niet door een gebruiker worden toegevoegd, kan niet worden verwijderd en alleen het label ervan kan worden gewijzigd. Het markeert het einde van elk pad van de reis. Als de reis verscheidene wegen heeft, adviseren wij dat u een etiket aan elk eind toevoegt om rapporten gemakkelijker te maken te lezen. Zie [deze pagina](../reports/live-report.md).
 
 ![](assets/journey-end.png)
 
--->
+<!--
 
-### Eindactiviteit{#journey-end-activity}
+### End activity{#journey-end-activity}
 
-De **[!UICONTROL End]** Met deze activiteit kunt u het einde van elk pad van de reis markeren. Het is niet verplicht, maar aanbevolen voor visuele duidelijkheid. Zie [deze pagina](../building-journeys/end-activity.md)
+The **[!UICONTROL End]** activity allows you to mark the end of each path of the journey. It is not mandatory but recommended for visual clarity. See [this page](../building-journeys/end-activity.md)
 
 ![](assets/journey54.png)
+
+-->
 
 ### Een reis sluiten{#close-journey}
 
