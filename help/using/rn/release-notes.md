@@ -2,10 +2,10 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
+source-git-commit: 16bda5dcdfdc65f236d814ec02c6222b98a5652f
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 10%
+source-wordcount: '634'
+ht-degree: 9%
 
 ---
 
@@ -95,7 +95,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 **Journeys**
 
-* **Een reis beëindigen** - Op het canvas **Einde** activiteit is verwijderd uit het palet. Eindtags worden nu standaard aan het einde van elk pad toegevoegd en kunnen niet worden verwijderd. Deze verbetering staat betere rapportering van toe waar een klant uit de reis, zonder enige actie van de gebruiker wegviel. [Meer informatie](../building-journeys/journey-end.md)
+* **Een reis beëindigen** - Op het canvas **Einde** activiteit is verwijderd uit het palet. Eindtags worden nu standaard aan het einde van elk pad toegevoegd en kunnen niet worden verwijderd. Dankzij deze verbetering kan beter worden aangegeven waar een klant de reis heeft verlaten, zonder dat de reisdeskundige enige actie hoeft te ondernemen. Zie de [documentatie](../building-journeys/journey-end.md) en [functievideo](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
 
 **Berichten**
 
