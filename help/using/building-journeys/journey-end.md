@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 57bdeadc-5801-4036-a272-c622634d5281
-source-git-commit: 7f6bbcb40dd07ae4d8013653f89b03c80df961dc
+source-git-commit: d740b9efdba164f548fb07d6d9a96fc2c2796eff
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 2%
@@ -53,7 +53,7 @@ U kunt een reis alleen stoppen als zich een noodsituatie voordoet en alle verwer
 
 ### Tag voor einde van reis{#end-tag}
 
-Tijdens het ontwerpen van een reis wordt aan het einde van elk pad een &quot;taf end&quot; weergegeven. Dit knooppunt kan niet door een gebruiker worden toegevoegd, kan niet worden verwijderd en alleen het label ervan kan worden gewijzigd. Het markeert het einde van elk pad van de reis. Als de reis verscheidene wegen heeft, adviseren wij dat u een etiket aan elk eind toevoegt om rapporten gemakkelijker te maken te lezen. Zie [deze pagina](../reports/live-report.md).
+Tijdens het ontwerpen van een rit wordt aan het einde van elk pad een &quot;eindtag&quot; weergegeven. Dit knooppunt kan niet door een gebruiker worden toegevoegd, kan niet worden verwijderd en alleen het label ervan kan worden gewijzigd. Het markeert het einde van elk pad van de reis. Als de reis verscheidene wegen heeft, adviseren wij dat u een etiket aan elk eind toevoegt om rapporten gemakkelijker te maken te lezen. Zie [deze pagina](../reports/live-report.md).
 
 ![](assets/journey-end.png)
 
