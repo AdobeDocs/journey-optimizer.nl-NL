@@ -1,6 +1,6 @@
 ---
-title: Globaal verslag campagne voeren
-description: Meer informatie over het gebruik van gegevens uit het algemene campagnerapport
+title: Campagne Global-rapport
+description: Leer hoe u gegevens uit het rapport Campagne Global kunt gebruiken
 feature: Reporting
 topic: Content Management
 role: User
@@ -8,16 +8,16 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1542'
 ht-degree: 0%
 
 ---
 
-# Globaal verslag campagne voeren {#campaign-global-report}
+# Campagne Global-rapport {#campaign-global-report}
 
-Het algemene rapport van de campagne kan direct van uw Campagne met het **[!UICONTROL Global view]** knop.
+Het rapport Campagne Global kan rechtstreeks vanuit uw campagne worden geopend met de **[!UICONTROL Global view]** knop.
 
 De campagne **[!UICONTROL Global report]** Deze pagina wordt weergegeven met de volgende tabbladen:
 
@@ -41,11 +41,53 @@ De **[!UICONTROL Campaign's Statistics]** widget geeft de belangrijkste informat
 
 * **[!UICONTROL Actions failed in %]**: Het totale aantal unieke tijden dat een actie tijdens de reis is mislukt in verhouding tot het totale aantal unieke tijden dat een actie is uitgevoerd.
 
-<!--
-### Experimentation tab (#experimentation-global)
+### Doelstellingen (#objects-global)
 
-From your Campaign **[!UICONTROL Global report]**, the **[!UICONTROL Experimentation]** tab details the main information relative to how each variant is performing and if there is was winner during the test.
--->
+>[!AVAILABILITY]
+>
+>De functie voor het experimenteren met inhoud is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+
+![](assets/performance_report.gif)
+
+De **[!UICONTROL Objectives]** kunt u in uw campagnerapport de rapporten van uw leveringen perfectioneren door zich op één specifieke metrische waarde te richten.
+
+De **[!UICONTROL Objectives]** vermeld **[!UICONTROL Datasets]** die een verbinding met een systeem definiëren om aanvullende informatie op te halen. Een lijst met ingebouwde **[!UICONTROL Objectives]** is beschikbaar maar u kunt uw eigen item toevoegen door nieuwe toe te voegen **[!UICONTROL Dataset]**. Raadpleeg deze documentatie voor de gedetailleerde procedure.
+
+Nadat u de doelstellingen hebt geselecteerd waarop u zich wilt richten, worden de twee **[!UICONTROL Performance overview]** en **[!UICONTROL Campaign objective]** widgets zullen een gedetailleerde samenvatting van uw leveringsprestaties verstrekken.
+
+Met de **[!UICONTROL Campaign objective]** widget, kunt u ook kiezen om uw hoofddoel met een andere metrische waarde te vergelijken.
+
+Houd er rekening mee dat elke widget indien nodig kan worden vergroot of verkleind en verwijderd. Raadpleeg voor meer informatie hierover [sectie](../reports/global-report.md#modify-dashboard).
+
+### Experimentatie (#experimentation-global)
+
+>[!AVAILABILITY]
+>
+>De functie voor het experimenteren met inhoud is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+
+![](assets/experimentation_report_3.png)
+
+Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Experimentation]** tabblad bevat de belangrijkste informatie met betrekking tot de manier waarop elke variant wordt uitgevoerd en of er een best presterende variant is.
+
+Het kan enige tijd duren om de beste uitvoerder te definiëren. Dit pictogram geeft dit weer. ![](assets/experimentation_report_1.png).
+
+De **[!UICONTROL Experiment result]** widget geeft de prestaties van elke variant weer. U kunt uw basislijn wijzigen door een van de behandelingen te kiezen in het menu **[!UICONTROL Baseline]** de vervolgkeuzelijst. De beste behandeling wordt weergegeven met een sterpictogram.
+
+De tabel bevat de volgende cijfers:
+
+* **[!UICONTROL Profiles]**: Aantal profielen waarop deze behandeling is gericht.
+
+* **[!UICONTROL Unique outbound clicks]**: Het totale aantal klikken over uitgaande kanalen.
+
+* **[!UICONTROL Count per profile]**: Totale waarde van de metrische waarde van de doelstelling Experiment gedeeld door het aantal profielen.
+
+* **[!UICONTROL Confidence interval]**: Percentage verschil in prestaties tussen de basislijn en de best presterende behandeling. [Meer informatie](../campaigns/experiment-calculations.md#confidence-intervals).
+
+* **[!UICONTROL Average lift]**: Percentage verbetering van de conversiesnelheid van een gegeven behandeling ten opzichte van de uitgangswaarde. [Meer informatie](../campaigns/experiment-calculations.md#understand-lift)
+
+* **[!UICONTROL Confidence]**: Bewijs dat een bepaalde behandeling gelijk is aan de basisbehandeling. [Meer informatie](../campaigns/experiment-calculations.md#understand-confidence)
+
+Raadpleeg voor een diepgaande analyse van deze resultaten en de manier waarop u deze kunt interpreteren de volgende bronnen: [deze pagina](../campaigns/get-started-experiment.md#interpret-results).
 
 ## Tabblad E-mail {#email-global}
 
@@ -73,7 +115,7 @@ De **[!UICONTROL Email Sending Statistics]** grafiek geeft het succes van uw lev
 
 * **[!UICONTROL Excluded]**: Aantal profielen dat door Adobe Journey Optimizer is uitgesloten.
 
-De **[!UICONTROL Email - Tracking statistics]** bevat de beschikbare gegevens voor ontvankelijke activiteit voor uw levering:
+De **[!UICONTROL Email - Tracking statistics]** widget bevat de beschikbare gegevens voor de activiteit van de ontvanger voor uw levering:
 
 * **[!UICONTROL Opens]**: Aantal keren dat de levering is geopend in een levering.
 

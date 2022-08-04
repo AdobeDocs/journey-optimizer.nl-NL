@@ -5,14 +5,20 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+hide: true
+hidefromtoc: true
+source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
 
-# Een inhoudexperiment maken {#content-experiment}
+# Een Content-experiment maken {#content-experiment}
+
+>[!AVAILABILITY]
+>
+>De functie voor het experimenteren met inhoud is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 Met de functie voor het experimenteren met inhoud kunt u meerdere leveringsbehandelingen definiëren. Het betrokken publiek wordt willekeurig toegewezen aan elke behandeling om te bepalen welke behandeling het best presteert ten opzichte van de maatstaf van belangstelling. U kunt de inhoud, het onderwerp of de afzender van de e-mail variëren.
 
@@ -121,4 +127,12 @@ Zodra uw behandelingen gepersonaliseerd zijn, kunt u beginnen uw inhoudexperimen
 1. Controleer of uw campagne correct is geconfigureerd en klik vervolgens op **[!UICONTROL Activate]** om te starten.
 
    ![](assets/content_experiment_14.png)
+
+## Experimentatierapport {#experimentation-report}
+
+![](assets/experimentation_report_3.png)
+
+Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Experimentation]** tabblad bevat de belangrijkste informatie over de manier waarop elke variant presteert en of er tijdens de test een best presterende variant is.
+
+Raadpleeg voor meer informatie over dit rapport de [Campagne Global-rapport](../campaigns/content-experiment.md#experimentation-report) pagina.
 
