@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 4%
+source-wordcount: '198'
+ht-degree: 3%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 4%
 Een openingspagina is een zelfstandige webpagina waarnaar een gebruiker wordt verwezen nadat hij via een e-mail, website, advertentie of een andere digitale locatie heeft geklikt.
 
 [!DNL Journey Optimizer] kunt u bestemmingspagina&#39;s maken en ontwerpen om uw gebruikers naar onlineformulieren te leiden waar zij zich kunnen aanmelden of ervoor kunnen kiezen uw communicatie niet te ontvangen, of u kunt zich abonneren op een specifieke service zoals een nieuwsbrief.
+
+➡️ [Meer informatie over het configureren van abonnementen en het maken van bestemmingspagina&#39;s vindt u in deze video](#video)
 
 * Hefboomwerking [!DNL Journey Optimizer] mogelijkheden voor inhoudsontwerp om eenvoudig samen te stellen **responsieve openingspagina&#39;s**.
 * Instellen **opt-in- en opt-out-stromen** snel en naadloos.
@@ -34,8 +36,8 @@ Een openingspagina is een zelfstandige webpagina waarnaar een gebruiker wordt ve
 </tr>
 </table>
 
-<!--
+## Hoe kan ik-video{#video}
 
-<td><img src="../assets/do-not-localize/icon_messages.svg" width="60px"><p><a href="lp-use-cases.md">Use cases</a></p></td>
+In de onderstaande video ziet u hoe u een abonnementenlijst kunt maken, landingspagina&#39;s kunt instellen om abonnementen op of geen abonnementen op een service aan te bieden, de (un)abonnementsoptie kunt integreren in een bericht en relevante reizen kunt configureren.
 
--->
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

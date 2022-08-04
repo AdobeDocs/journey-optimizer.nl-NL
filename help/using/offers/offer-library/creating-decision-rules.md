@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '287'
 ht-degree: 5%
 
 ---
@@ -49,7 +49,7 @@ Voer de volgende stappen uit om een beslissingsregel te maken:
 
 1. Klik op **[!UICONTROL Save]** om te bevestigen.
 
-1. Zodra de regel wordt gecreeerd, toont het in de lijst van regels. U kunt het selecteren om zijn eigenschappen te tonen en het uit te geven of te schrappen.
+1. Zodra de regel wordt gecreeerd, toont het in **[!UICONTROL Rules]** lijst. U kunt het selecteren om zijn eigenschappen te tonen, en het uit te geven of te schrappen.
 
    ![](../assets/rule_created.png)
 

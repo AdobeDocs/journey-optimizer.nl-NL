@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 1%
+source-wordcount: '1601'
+ht-degree: 0%
 
 ---
 
@@ -40,10 +40,6 @@ Met beperkingen kunt u de voorwaarden definiëren waaronder een aanbieding wordt
 1. Configureer de **[!UICONTROL Offer eligibility]**. [Meer informatie](#eligibility)
 
    ![](../assets/offer-eligibility.png)
-
-   >[!NOTE]
-   >
-   >Wanneer u segmenten of beslissingsregels selecteert, wordt informatie over de geschatte gekwalificeerde profielen weergegeven. Klikken **[!UICONTROL Refresh]** om gegevens bij te werken.
 
 1. Definieer de **[!UICONTROL Priority]** van de aanbieding in vergelijking met andere aanbiedingen indien de gebruiker voor meer dan één aanbieding in aanmerking komt. Hoe hoger de prioriteit van een aanbieding is, hoe hoger de prioriteit ervan wordt vergeleken met andere aanbiedingen.
 
@@ -99,6 +95,10 @@ De **[!UICONTROL Offer eligibility]** kunt u de aanbieding beperken tot specifie
    >[!CAUTION]
    >
    >Aanbiedingen op basis van gebeurtenissen worden momenteel niet ondersteund in [!DNL Journey Optimizer]. Als u een beslissingsregel maakt op basis van een [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#events){target=&quot;_blank&quot;}, kunt u deze niet gebruiken in een aanbieding.
+
+Wanneer u segmenten of besluitvormingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien. Klikken **[!UICONTROL Refresh]** om gegevens bij te werken.
+
+![](../assets/offer-eligibility-segment-estimate.png)
 
 ### Segmenten en beslissingsregels gebruiken {#segments-vs-decision-rules}
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1050'
 ht-degree: 1%
 
 ---
@@ -88,9 +88,9 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
       Leer hoe u een beslissingsregel maakt in [deze sectie](../offer-library/creating-decision-rules.md).
 
-      >[!NOTE]
-      >
-      >Wanneer u segmenten of beslissingsregels selecteert, wordt informatie over de geschatte gekwalificeerde profielen weergegeven. Klikken **[!UICONTROL Refresh]** om gegevens bij te werken.
+1. Wanneer u segmenten of besluitvormingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien. Klikken **[!UICONTROL Refresh]** om gegevens bij te werken.
+
+   ![](../assets/activity_constraint-estimate.png)
 
 1. Definieer de waarderingsmethode die u wilt gebruiken om de beste aanbieding voor elk profiel te selecteren.
 
@@ -142,7 +142,7 @@ Als alles behoorlijk wordt gevormd, toont een samenvatting van de beslissingseig
 
    ![](../assets/review-decision.png)
 
-   U kunt elke plaatsing uitvouwen of samenvouwen. U kunt ook een voorvertoning weergeven van de beschikbare voorstellen, de geschiktheid en de waarderingsdetails voor elke plaatsing.
+1. U kunt elke plaatsing uitvouwen of samenvouwen. U kunt voor elke plaatsing een voorvertoning weergeven van de beschikbare voorstellen, de geschiktheid en de waarderingsdetails. U kunt ook informatie weergeven over de geschatte gekwalificeerde profielen. Klikken **[!UICONTROL Refresh]** om gegevens bij te werken.
 
    ![](../assets/review-decision-details.png)
 

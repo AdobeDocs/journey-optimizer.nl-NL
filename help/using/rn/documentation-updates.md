@@ -2,9 +2,9 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1772'
 ht-degree: 20%
 
 ---
@@ -13,11 +13,17 @@ ht-degree: 20%
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
 
+## Augustus 2022 {#august-2022}
+
+* De sectie van de Regels van de Frequentie is bijgewerkt om op de nieuwe in-lijn overseinenstroom te wijzen. [Meer informatie](../configuration/frequency-rules.md#apply-frequency-rule)
+* Er wordt nu verwezen naar een video waarin wordt getoond hoe u abonnementen kunt configureren en bestemmingspagina&#39;s kunt maken in de sectie Aan de slag met bestemmingspagina&#39;s. [Meer informatie](../landing-pages/get-started-lp.md#video)
+
 ## Juli 2022 {#july-2022}
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 22 juli is in detail beschreven in de documentatie. [Meer informatie](release-notes.md)
 * De **Kanaaloppervlakken instellen** Deze sectie is verduidelijkt en bijgewerkt met koppelingen naar de pagina die beschrijft hoe u het SMS-kanaal kunt configureren. [Meer informatie](../configuration/channel-surfaces.md#create-channel-surface)
 * In de reiseigenschappen **Tijdzone profiel** Deze optie is nu standaard uitgeschakeld. [Meer informatie](../building-journeys/timezone-management.md#timezone-from-profiles)
+
 * In de **Wachten** de **Vaste datum** is niet meer beschikbaar. [Meer informatie](../building-journeys/wait-activity.md)
 * Meer informatie over de **Incrementeel lezen** in de **Segment lezen** activiteit. [Meer informatie](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Toegevoegde aanbevelingen voor de **Profiel uiteinde** voorwaardetype. [Meer informatie](../building-journeys/condition-activity.md#profile_cap)

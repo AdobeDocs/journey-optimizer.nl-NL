@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 4%
+source-wordcount: '648'
+ht-degree: 3%
 
 ---
 
@@ -63,6 +63,10 @@ Om een **aanbieden** Voer de volgende stappen uit:
 
 1. Voeg beperkingen toe om de voorwaarden te plaatsen voor de aanbieding die moet worden getoond. [Meer informatie](add-constraints.md)
 
+   >[!NOTE]
+   >
+   >Wanneer u segmenten of besluitvormingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien. Klikken **[!UICONTROL Refresh]** om gegevens bij te werken.
+
    ![](../assets/offer-constraints-example.png)
 
 1. Bekijk het voorstel en sla het op. [Meer informatie](#review)
@@ -72,6 +76,10 @@ Om een **aanbieden** Voer de volgende stappen uit:
 Zodra de toelatingsregels en de beperkingen zijn bepaald, toont een samenvatting van de aanbiedingseigenschappen.
 
 1. Zorg ervoor alles behoorlijk wordt gevormd.
+
+1. U kunt informatie weergeven over de geschatte gekwalificeerde profielen. Klikken **[!UICONTROL Refresh]** om gegevens bij te werken.
+
+   ![](../assets/offer-summary-estimate.png)
 
 1. Wanneer uw voorstel klaar is om aan gebruikers te worden aangeboden, klikt u op **[!UICONTROL Finish]**.
 

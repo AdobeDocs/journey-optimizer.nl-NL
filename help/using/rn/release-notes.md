@@ -2,10 +2,10 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 16bda5dcdfdc65f236d814ec02c6222b98a5652f
+source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '633'
+ht-degree: 9%
 
 ---
 
@@ -109,7 +109,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 * **Update voor logica van lijst van gewenste personen** - De logica lijst van gewenste personen wordt nu toegepast zodra de functie is ingeschakeld, zelfs als de lijst leeg is. [Meer informatie](../configuration/allow-list.md#logic)
 
-* **Parameters voor URL-tracking** - U kunt nu de Expressieeditor gebruiken om URL-volgparameters te configureren in uw e-mailoppervlakken (bijvoorbeeld voorinstellingen voor berichten). [Meer informatie](../configuration/email-settings.md#url-tracking)
+* **Parameters voor URL-tracking** - U kunt de Expressieeditor nu gebruiken om URL-volgparameters in uw e-mailoppervlakken (dus voorinstellingen) te configureren. [Meer informatie](../configuration/email-settings.md#url-tracking)
 
 **offer decisioning**
 
