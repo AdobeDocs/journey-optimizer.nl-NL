@@ -8,9 +8,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+source-git-commit: b56df2c22f041114805e10fee7156855c2cbbfa9
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1540'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ De **[!UICONTROL Campaign's Statistics]** widget geeft de belangrijkste informat
 
 * **[!UICONTROL Actions failed in %]**: Het totale aantal unieke tijden dat een actie tijdens de reis is mislukt in verhouding tot het totale aantal unieke tijden dat een actie is uitgevoerd.
 
-### Doelstellingen (#objects-global)
+### Doelstellingen {#objectives-global}
 
 >[!AVAILABILITY]
 >
@@ -59,7 +59,7 @@ Met de **[!UICONTROL Campaign objective]** widget, kunt u ook kiezen om uw hoofd
 
 Houd er rekening mee dat elke widget indien nodig kan worden vergroot of verkleind en verwijderd. Raadpleeg voor meer informatie hierover [sectie](../reports/global-report.md#modify-dashboard).
 
-### Experimentatie (#experimentation-global)
+### Experimentatie {#experimentation-global}
 
 >[!AVAILABILITY]
 >
