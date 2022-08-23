@@ -4,9 +4,9 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van SMS-beri
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: f44638ac7cfb078b6914635433feedb0f48ef099
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '481'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,11 @@ Voordat u SMS verzendt, configureert u uw exemplaar. U moet [providerinstellinge
 >Het SMS-kanaal is momenteel alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 ## Nieuwe API-referentie maken {#create-api}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api"
+>title="Uw SMS-leverancier configureren"
+>abstract="Selecteer uw leverancier en vul uw SMS API-referenties in."
 
 Voer de volgende stappen uit om uw SMS-leverancier te configureren met Journey Optimizer:
 
@@ -45,6 +50,12 @@ Voer de volgende stappen uit om uw SMS-leverancier te configureren met Journey O
 Nadat u de API-referentie hebt gemaakt en geconfigureerd, moet u nu een kanaaloppervlak (d.w.z. een voorinstelling voor berichten) voor SMS-berichten maken.
 
 ## Een kanaaloppervlak maken voor SMS-berichten {#message-preset-sms}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_surface_sms_type"
+>title="De categorie SMS definiëren"
+>abstract="Selecteer het type SMS-berichten dat wordt verzonden wanneer u dit oppervlak gebruikt: Marketing voor promotionele SMS-berichten waarvoor toestemming van de gebruiker vereist is, of Transactie voor niet-commerciële SMS-berichten die ook in specifieke contexten naar niet-geabonneerde profielen kunnen worden verzonden."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/messages/create-sms.html#sms-opt-in-out" text="Afmelden bij marketing van SMS-berichten"
 
 Zodra uw kanaal van SMS is gevormd, moet u een kanaaloppervlakte tot stand brengen om de berichten van SMS van te kunnen verzenden **[!DNL Journey Optimizer]**.
 
