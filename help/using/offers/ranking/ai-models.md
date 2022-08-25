@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+source-git-commit: 12bc2373ac5c391764df3880c5c87666a19e99b2
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 3%
@@ -30,9 +30,9 @@ Er zijn twee typen AI-modellen beschikbaar in [!DNL Journey Optimizer]:
 
 * **Personalisatiemodellen** staat u toe om bedrijfsdoelstellingen te bepalen en klantengegevens te gebruiken om zaken-georiënteerde modellen op te leiden om gepersonaliseerde aanbiedingen te dienen en KPIs te maximaliseren. [Meer informatie](personalized-optimization-model.md)
 
->[!CAUTION]
->
->Het gebruik van aangepaste optimalisatiemodellen is momenteel beschikbaar in een vroeg stadium en alleen voor bepaalde gebruikers.
+   >[!CAUTION]
+   >
+   >Het gebruik van aangepaste optimalisatiemodellen is momenteel beschikbaar in een vroeg stadium en alleen voor bepaalde gebruikers.
 
 ## Een AI-model maken {#create-ai-model}
 

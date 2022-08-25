@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b0f8d97feb7a7f650395d3b91e26d2f837a274a9
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1685'
 ht-degree: 3%
 
 ---
@@ -478,7 +478,7 @@ De volgende vraag bepaalt, zonder case gevoeligheid, als de naam van de persoon 
 {%= matches(person.name.,"(?i)^John") %}
 ```
 
-## Masker (#mask)
+## Masker {#mask}
 
 De `Mask` wordt gebruikt om een deel van een tekenreeks te vervangen door &#39;X&#39;-tekens.
 

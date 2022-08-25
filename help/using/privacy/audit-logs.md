@@ -5,9 +5,9 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 2f89b3a2e067d269a6316ae26d280924a530fe51
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ In de volgende tabel wordt aangegeven op welke acties Journey Optimizer-bronnen 
 | AJO-subdomein | Maken/verwijderen/bijwerken |
 | AJO-suppressielijst | CSV maken/verwijderen/downloaden |
 | Veldgroep | Maken/verwijderen/bijwerken |
-| Reis | Maken/verwijderen/stoppen/publiceren |
+| Reis | Maken / Verwijderen / Bijwerken / Stoppen / Publiceren |
 | Aangepaste actie voor reizen | Maken/verwijderen/bijwerken |
 | Gegevensbron voor reis | Maken/verwijderen/bijwerken |
 | Journaal | Maken/verwijderen/bijwerken |

@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Definieer de e-mailinstellingen in de specifieke sectie van de configuratie van 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="De e-mailcategorie definiëren"
->abstract="Selecteer het type berichten dat wordt verzonden wanneer u dit oppervlak gebruikt: Marketing voor promotieberichten waarvoor toestemming van de gebruiker vereist is, of Transactie voor niet-commerciële berichten, die ook naar niet-geabonneerde profielen in specifieke contexten kunnen worden verzonden."
+>abstract="Selecteer het type e-mail dat wordt verzonden wanneer u dit oppervlak gebruikt: Marketing voor speciale e-mailberichten waarvoor toestemming van de gebruiker vereist is, of Transactie voor niet-commerciële e-mails die ook in specifieke contexten naar profielen zonder abonnement kunnen worden verzonden."
 
 In de **E-MAILTYPE** selecteert u het type bericht dat met het oppervlak wordt verzonden: **Marketing** of **Transactioneel**.
 

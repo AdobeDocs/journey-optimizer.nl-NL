@@ -6,9 +6,10 @@ description: Leer hoe u een gegevensset maakt om gebeurtenissen te verzamelen
 feature: Ranking Formulas
 role: User
 level: Intermediate
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
+source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '237'
 ht-degree: 7%
 
 ---
@@ -27,8 +28,11 @@ Voordat u een AI-model maakt, moet u een gegevensset maken waarin conversiegebeu
 
    >[!NOTE]
    >
-   >    Meer informatie over XDM-schema&#39;s en veldgroepen in de [Documentatie over XDM System-overzicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl).
+   >Meer informatie over XDM-schema&#39;s en veldgroepen in de [Documentatie over XDM System-overzicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target=&quot;_blank&quot;}.
 
+1. Van de **[!UICONTROL Field groups]** in het linkergedeelte selecteert u **[!UICONTROL Add]**.
+
+   ![](../assets/ai-ranking-fields-groups.png)
 
 1. In de **[!UICONTROL Search]** veld, typt u &quot;propositieinteractie&quot; en selecteert u de **[!UICONTROL Experience Event - Proposition Interactions]** veldgroep.
 
@@ -36,7 +40,7 @@ Voordat u een AI-model maakt, moet u een gegevensset maken waarin conversiegebeu
 
    >[!CAUTION]
    >
-   >    Het schema dat in uw dataset zal worden gebruikt moet hebben **[!UICONTROL Experience Event - Proposition Interactions]** veldgroep die eraan is gekoppeld. Anders kunt u het niet gebruiken in uw waarderingsstrategie.
+   >Het schema dat in uw dataset zal worden gebruikt moet hebben **[!UICONTROL Experience Event - Proposition Interactions]** veldgroep die eraan is gekoppeld. Anders kunt u het niet gebruiken in uw waarderingsstrategie.
 
 1. Klik op **[!UICONTROL Add field groups]**.
 
@@ -45,11 +49,11 @@ Voordat u een AI-model maakt, moet u een gegevensset maken waarin conversiegebeu
    >[!NOTE]
    >Veldgroep werd voorheen mixin genoemd.
 
-1. Typ een naam en sla het schema op.<!--How do you edit the fields in this new schema? Examples?-->
+1. Typ een naam en sla het schema op.
 
 >[!NOTE]
 >
->    Meer informatie over het samenstellen van schema&#39;s vindt u in [Basisbeginselen van de schemacompositie](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas).
+>Meer informatie over het samenstellen van schema&#39;s vindt u in [Basisbeginselen van de schemacompositie](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#understanding-schemas){target=&quot;_blank&quot;}.
 
 U bent nu bereid om een dataset tot stand te brengen gebruikend dit schema. Volg de onderstaande stappen om dit te doen:
 

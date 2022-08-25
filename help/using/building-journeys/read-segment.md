@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1203'
 ht-degree: 5%
 
 ---
@@ -27,6 +27,8 @@ Gebruik de **Segment lezen** activiteit om alle individuen van een segment de re
 Neem bijvoorbeeld het segment voor het openen en uitchecken van de Luma-app dat is gemaakt in het dialoogvenster [Segmenten maken](../segment/about-segments.md) use case. Met de activiteit van het Leessegment, kunt u alle individuen die tot dit segment behoren een reis maken en hen tot geïndividualiseerde reizen maken die alle reisfunctionaliteit gebruiken: voorwaarden, timers, gebeurtenissen, handelingen.
 
 >[!NOTE]
+>
+>Voor ritten die een activiteit van het Leessegment gebruiken, is er een maximumaantal reizen dat op het nauwkeurige zelfde ogenblik kan beginnen. Het systeem voert de controles uit, maar vermijd dat meer dan vijf reizen (met Leessegment, gepland of &quot;zo snel mogelijk&quot; te starten) op hetzelfde tijdstip beginnen door ze over een bepaalde tijd te verspreiden, bijvoorbeeld 5 tot 10 minuten na elkaar.
 >
 >Met de Burst Betaalde add-on kunt u zeer snel pushberichten verzenden in grote volumes voor eenvoudige reizen die een leessegment en een eenvoudig pushbericht bevatten. Raadpleeg [deze sectie](../building-journeys/journey-gs.md#burst) voor meer informatie
 

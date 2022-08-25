@@ -2,10 +2,10 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 20%
+source-wordcount: '1812'
+ht-degree: 19%
 
 ---
 
@@ -15,15 +15,17 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 ## Augustus 2022 {#august-2022}
 
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 22 augustus is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
 * De sectie van de Regels van de Frequentie is bijgewerkt om op de nieuwe in-lijn overseinenstroom te wijzen. [Meer informatie](../configuration/frequency-rules.md#apply-frequency-rule)
 * Er wordt nu verwezen naar een video waarin wordt getoond hoe u abonnementen kunt configureren en bestemmingspagina&#39;s kunt maken in de sectie Aan de slag met bestemmingspagina&#39;s. [Meer informatie](../landing-pages/get-started-lp.md#video)
+* Er is een beperking toegevoegd voor reizen die gebruikmaken van leessegmentactiviteiten. [Meer informatie](../building-journeys/read-segment.md)
+* De pagina met expressiebewerkingsoperatoren is verbeterd. [Meer informatie](../building-journeys/expression/operators.md)
 
 ## Juli 2022 {#july-2022}
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 22 juli is in detail beschreven in de documentatie. [Meer informatie](release-notes.md)
 * De **Kanaaloppervlakken instellen** Deze sectie is verduidelijkt en bijgewerkt met koppelingen naar de pagina die beschrijft hoe u het SMS-kanaal kunt configureren. [Meer informatie](../configuration/channel-surfaces.md#create-channel-surface)
 * In de reiseigenschappen **Tijdzone profiel** Deze optie is nu standaard uitgeschakeld. [Meer informatie](../building-journeys/timezone-management.md#timezone-from-profiles)
-
 * In de **Wachten** de **Vaste datum** is niet meer beschikbaar. [Meer informatie](../building-journeys/wait-activity.md)
 * Meer informatie over de **Incrementeel lezen** in de **Segment lezen** activiteit. [Meer informatie](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * Toegevoegde aanbevelingen voor de **Profiel uiteinde** voorwaardetype. [Meer informatie](../building-journeys/condition-activity.md#profile_cap)

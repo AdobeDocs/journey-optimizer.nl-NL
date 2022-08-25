@@ -4,10 +4,10 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van SMS-beri
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: f44638ac7cfb078b6914635433feedb0f48ef099
+source-git-commit: 44ef82f03752933269c1a8d9e65266c3132dd664
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 2%
+source-wordcount: '606'
+ht-degree: 1%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 2%
 
 Voordat u SMS verzendt, configureert u uw exemplaar. U moet [providerinstellingen integreren](#create-api) met Journey Optimizer en [een sms-oppervlak maken](#message-preset-sms) (d.w.z. voorinstelling SMS). Deze stappen moeten worden uitgevoerd door een [Adobe Journey Optimizer-systeembeheerder](../start/path/administrator.md).
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Het SMS-kanaal is momenteel alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>Adobe Journey Optimizer is momenteel geïntegreerd met externe providers zoals Sinch en Twilio, die sms-diensten aanbieden die onafhankelijk zijn van Adobe Journey Optimizer.  Voordat u de SMS-configuratie start, moet u een account maken bij een van deze SMS-providers om de API Token en Service ID te ontvangen waarmee u de verbinding tussen Adobe Journey Optimizer en de betreffende SMS-provider tot stand kunt brengen. Voor je gebruik van SMS-services gelden aanvullende voorwaarden van de betreffende SMS-provider. Aangezien Sinch en Twilio producten van derden zijn die via integratie beschikbaar zijn voor Adobe Journey Optimizer-gebruikers, zullen gebruikers van Sinch of Twilio voor problemen of vragen in verband met de SMS-diensten contact moeten opnemen met de toepasselijke SMS-provider voor hulp. Adobe heeft geen zeggenschap over en is niet verantwoordelijk voor producten van derden.
 
 ## Nieuwe API-referentie maken {#create-api}
 
@@ -27,6 +27,11 @@ Voordat u SMS verzendt, configureert u uw exemplaar. U moet [providerinstellinge
 >id="ajo_admin_sms_api"
 >title="Uw SMS-leverancier configureren"
 >abstract="Selecteer uw leverancier en vul uw SMS API-referenties in."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_configuration"
+>title="Uw SMS-leverancier configureren"
+>abstract="Selecteer de API geloofsbrieven die voor uw verkoper van SMS worden gevormd."
 
 Voer de volgende stappen uit om uw SMS-leverancier te configureren met Journey Optimizer:
 

@@ -6,9 +6,9 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '453'
 ht-degree: 7%
 
 ---
@@ -121,7 +121,7 @@ Null betekent dat de expressie geen geëvalueerde waarde heeft.
 Voorbeeld:
 
 ```json
-@ is not null
+@{BarBeacon.location} is not null
 ```
 
 ### heeft null
@@ -154,7 +154,9 @@ Voorbeeld:
 <expression1> == <expression2>
 ```
 
-Beide &lt;expression1> en &lt;expression2> moet hetzelfde gegevenstype hebben. Het resultaat is booleaans.
+>[!NOTE]
+>
+>Voor &lt;expression1> en &lt;expression2> er is geen controle van het gegevenstype.
 
 Voorbeeld:
 
@@ -174,7 +176,10 @@ Voorbeeld:
 <expression1> != <expression2>
 ```
 
-Beide &lt;expression1> en &lt;expression2> moet hetzelfde gegevenstype hebben. Het resultaat is booleaans.
+>[!NOTE]
+Voor &lt;expression1> en &lt;expression2> er is geen controle van het gegevenstype.
+
+Het resultaat is booleaans.
 
 Voorbeeld:
 

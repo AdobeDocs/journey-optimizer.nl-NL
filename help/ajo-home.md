@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 9b681f04100e25362b9093a3de2e3603457c2744
+source-git-commit: 4b9de36d951308425e54924908b7b80b83c94e51
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '400'
 ht-degree: 8%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->Op 25 juli geeft Adobe Journey Optimizer een [nieuwe functie](using/rn/inline-messages.md) Hiermee verbetert u de manier waarop u inhoud voor Journey Optimizer-kanalen (e-mail, push, SMS) ontwerpt. Als Journey Optimizer-expert ben je nu [maken en auteur](using/messages/get-started-content.md) uw berichten direct van een reis. Voor u wordt een automatische omzetting van reizen uitgevoerd. Toch hebben we uw hulp nodig met een paar stappen. Meer informatie over de [vereiste stappen](using/rn/inline-messages-steps.md).
+>Op 22 juli heeft Adobe Journey Optimizer een [nieuwe functie](using/rn/inline-messages.md) Hiermee verbetert u de manier waarop u inhoud voor Journey Optimizer-kanalen (e-mail, push, SMS) ontwerpt. Als Journey Optimizer-expert ben je nu [maken en auteur](using/messages/get-started-content.md) uw berichten direct van een reis. Voor u wordt een automatische omzetting van reizen uitgevoerd. Toch hebben we uw hulp nodig met een paar stappen. Meer informatie over de [vereiste stappen](using/rn/inline-messages-steps.md).
 
 <table style="table-layout:fixed">
 <tr>
