@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1124'
 ht-degree: 40%
 
 ---
@@ -37,16 +37,13 @@ ht-degree: 40%
 + Campagnes {#campaigns}
    + [Aan de slag met campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Een campagne maken](using/campaigns/create-campaign.md)
-   + [Een campagne wijzigen of stoppen](using/campaigns/modify-stop-campaign.md)
+   + [Live campagnes beheren](using/campaigns/modify-stop-campaign.md)
    + Inhoudsexperiment {#content-experiment}
       + [Aan de slag met het experimenteren met inhoud](using/campaigns/get-started-experiment.md)
       + [Een inhoudexperiment maken](using/campaigns/content-experiment.md)
       + [Statistische berekeningen begrijpen](using/campaigns/experiment-calculations.md)
-   + [Campagnes activeren met API&#39;s](using/campaigns/api-triggered-campaigns.md)
-   + Rapporten {#reports}
-      + [Campagne live-rapport](using/campaigns/campaign-live-report.md)
-      + [Globaal verslag campagne voeren](using/campaigns/campaign-global-report.md)
       + [Rapportageconfiguratie](using/campaigns/reporting-configuration.md)
+   + [Campagnes activeren met API&#39;s](using/campaigns/api-triggered-campaigns.md)
 + Berichten {#messages}
    + [Aan de slag met berichten](using/messages/get-started-content.md)
    + [Een e-mail maken](using/messages/create-email.md)
@@ -244,11 +241,13 @@ ht-degree: 40%
    + Live-rapport {#live-report}
       + [Het dashboard voor Live-rapporten openen](using/reports/live-report.md)
       + [Journey Live-rapport](using/reports/journey-live-report.md)
+      + [Campagne Live-rapport](using/reports/campaign-live-report.md)
       + [Openingspagina Live-rapport](using/reports/lp-report-live.md)
       + [Abonnementenlijst Live-rapport](using/reports/subscription-report-live.md)
    + Algemeen rapport {#global-report}
       + [Het globale rapportdashboard van de toegang](using/reports/global-report.md)
       + [Journey Global-rapport](using/reports/journey-global-report.md)
+      + [Campagne Global-rapport](using/reports/campaign-global-report.md)
       + [Openingspagina Global-rapport](using/reports/lp-report-global.md)
       + [Abonnementenlijst Global-rapport](using/reports/subscription-report-global.md)
    + Reisrapporten {#reports}

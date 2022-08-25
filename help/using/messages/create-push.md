@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1595'
 ht-degree: 8%
 
 ---
@@ -25,10 +25,15 @@ Met pushberichten bereikt u op elk gewenst moment gebruikers van uw mobiele app,
 
 [!DNL Journey Optimizer] ondersteunt pushmeldingen en helpt u zeer relevante meldingen te verzenden met toonaangevende doorvoersnelheden. Pushmeldingen kunnen personalisatie en Reiscontext omvatten om gegevensinzichten van uw merk met Adobe Experience Cloud te benutten.
 
-Eenmaal [een duw toevoegen](get-started-content.md) en gedefinieerde basisinstellingen, kunt u de **[!UICONTROL Actions: Push]** in het rechterdeelvenster om de inhoud voor het pushbericht te maken.
+U kunt pushmeldingen maken:
 
-![](assets/add-a-push.png)
+* In een **Reis**: Als u een pushactiviteit hebt toegevoegd aan uw reis en basisinstellingen hebt gedefinieerd, kunt u de opdracht **[!UICONTROL Actions: Push]** in het rechterdeelvenster om de inhoud voor pushmeldingen te maken.
 
+   Voor meer informatie over hoe te om uw reis te vormen, verwijs naar dit [page](../building-journeys/journey-gs.md).
+
+* In een **Campagne**: Nadat u een campagne hebt gemaakt, selecteert u pushmelding als uw handeling en definieert u de basisinstellingen.
+
+   Voor meer informatie over hoe te om uw campagne te vormen, verwijs naar dit [page](../campaigns/create-campaign.md#configure).
 
 Gebruik de specifieke tabbladen om de instellingen voor pushmeldingen te definiëren voor **iOS** en **Android** besturingssystemen.
 

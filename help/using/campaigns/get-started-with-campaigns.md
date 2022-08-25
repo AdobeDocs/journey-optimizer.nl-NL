@@ -5,13 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 1%
+source-wordcount: '307'
+ht-degree: 0%
 
 ---
 
@@ -24,19 +22,18 @@ ht-degree: 1%
 
 ## Informatie over campagnes {#about}
 
+>[!IMPORTANT]
+>
+>Deze functie is alleen beschikbaar voor gebruikers met toegang tot een productprofiel dat betrekking heeft op een campagne, zoals Campagnebeheerder, Campagneontwikkelaar, Campagnebeheerder en/of Campagneviewer. Voor meer informatie over het toewijzen van productprofielen raadpleegt u [deze pagina](../administration/permissions.md).
+
 Met campagnes kunt u eenmalige inhoud leveren aan een specifiek segment met behulp van meerdere kanalen. In tegenstelling tot reizen, waar acties worden ontworpen om in opeenvolging te worden uitgevoerd, voeren de campagnes acties gelijktijdig, of onmiddellijk, of op een gespecificeerd programma uit.
 
-U kunt twee typen campagnes maken:
+Op deze manier kunt u eenvoudige ad-hocbatchberichten verzenden voor marketingdoeleinden, zoals promotieaanbiedingen, betrokkenheidscampagnes, aankondigingen, juridische kennisgevingen of beleidsupdates.
 
-* **Geplande campagnes** voor eenvoudige ad-hoc partijmededelingen voor marketing gebruiksgevallen zoals promotieaanbiedingen, betrokkenheidscampagnes, aankondigingen, wettelijke berichten, of beleidsupdates toestaan.
-* **API-gestuurde campagnes** eenvoudige transactie-/operationele berichten mogelijk maken met REST API&#39;s (opnieuw instellen van wachtwoorden, annuleren van kaarten, enz.), waarbij de behoefte kan bestaan uit personalisatie met behulp van profielkenmerken en contextafhankelijke gegevens van lading.
+<!--You can create two types of campaigns:
 
-Leer hoe u met campagnes kunt werken:
-* [Een campagne maken](create-campaign.md)
-* [API-gestuurde campagnes maken](api-triggered-campaigns.md)
-* [Een campagne wijzigen of stoppen](modify-stop-campaign.md)
-* [Campagne live-rapport](campaign-live-report.md)
-* [Globaal verslag campagne voeren](campaign-global-report.md)
+* **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
+* **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
 
 ## Campagnes openen {#access}
 
@@ -55,7 +52,7 @@ Campagnes kunnen meerdere statussen hebben:
 * **[!UICONTROL Live]**: De campagne is geactiveerd.
 * **[!UICONTROL Scheduled]**: De campagne is geconfigureerd om te worden geactiveerd op een specifieke startdatum.
 * **[!UICONTROL Stopped]**: De campagne is handmatig gestopt. U kunt het niet meer activeren of opnieuw gebruiken (zie [Een campagne stoppen](modify-stop-campaign.md#stop))
-* **[!UICONTROL Completed]**: De campagne is voltooid.
+* **[!UICONTROL Completed]**: De campagne is voltooid. Deze status wordt automatisch toegewezen 3 dagen nadat een campagne is geactiveerd, of op de einddatum van de campagne als de campagne een terugkerende uitvoering heeft.
 * **[!UICONTROL Archived]**: De campagne is gearchiveerd.
 
 >[!NOTE]

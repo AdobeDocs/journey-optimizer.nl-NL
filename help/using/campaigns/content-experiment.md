@@ -7,10 +7,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 0%
+source-wordcount: '878'
+ht-degree: 1%
 
 ---
 
@@ -128,11 +129,52 @@ Zodra uw behandelingen gepersonaliseerd zijn, kunt u beginnen uw inhoudexperimen
 
    ![](assets/content_experiment_14.png)
 
-## Experimentatierapport {#experimentation-report}
+Na het vormen van uw experimenteren en campagne, kunt u het succes van uw levering met het rapport van de Campagne volgen.
+
+## Doelstellingen {#objectives-global}
+
+>[!AVAILABILITY]
+>
+>De functie voor het experimenteren met inhoud is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+
+![](assets/performance_report.gif)
+
+De **[!UICONTROL Objectives]** kunt u in uw campagnerapport de rapporten van uw leveringen perfectioneren door zich op één specifieke metrische waarde te richten.
+
+De **[!UICONTROL Objectives]** vermeld **[!UICONTROL Datasets]** die een verbinding met een systeem definiëren om aanvullende informatie op te halen. Een lijst met ingebouwde **[!UICONTROL Objectives]** is beschikbaar maar u kunt uw eigen item toevoegen door nieuwe toe te voegen **[!UICONTROL Dataset]**. Voor de gedetailleerde procedure, zie [sectie](reporting-configuration.md).
+
+Nadat u de doelstellingen hebt geselecteerd waarop u zich wilt richten, worden de twee **[!UICONTROL Performance overview]** en **[!UICONTROL Campaign objective]** widgets zullen een gedetailleerde samenvatting van uw leveringsprestaties verstrekken.
+
+Met de **[!UICONTROL Campaign objective]** widget, kunt u ook kiezen om uw hoofddoel met een andere metrische waarde te vergelijken.
+
+Houd er rekening mee dat elke widget indien nodig kan worden vergroot of verkleind en verwijderd. Raadpleeg voor meer informatie hierover [sectie](../reports/global-report.md#modify-dashboard).
+
+## Experimentatierapport {#experimentation-global}
+
+>[!AVAILABILITY]
+>
+>De functie voor het experimenteren met inhoud is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 ![](assets/experimentation_report_3.png)
 
-Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Experimentation]** tabblad bevat de belangrijkste informatie over de manier waarop elke variant presteert en of er tijdens de test een best presterende variant is.
+Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Experimentation]** tabblad bevat de belangrijkste informatie met betrekking tot de manier waarop elke variant wordt uitgevoerd en of er een best presterende variant is.
 
-Raadpleeg voor meer informatie over dit rapport de [Campagne Global-rapport](../campaigns/content-experiment.md#experimentation-report) pagina.
+Het kan enige tijd duren om de beste uitvoerder te definiëren. Dit pictogram geeft dit weer. ![](assets/experimentation_report_1.png).
 
+De **[!UICONTROL Experiment result]** widget geeft de prestaties van elke variant weer. U kunt uw basislijn wijzigen door een van de behandelingen te kiezen in het menu **[!UICONTROL Baseline]** de vervolgkeuzelijst. De beste behandeling wordt weergegeven met een sterpictogram.
+
+De tabel bevat de volgende cijfers:
+
+* **[!UICONTROL Profiles]**: Aantal profielen waarop deze behandeling is gericht.
+
+* **[!UICONTROL Unique outbound clicks]**: Het totale aantal klikken over uitgaande kanalen.
+
+* **[!UICONTROL Count per profile]**: Totale waarde van de metrische waarde van de doelstelling Experiment gedeeld door het aantal profielen.
+
+* **[!UICONTROL Confidence interval]**: Percentage verschil in prestaties tussen de basislijn en de best presterende behandeling. [Meer informatie](../campaigns/experiment-calculations.md#confidence-intervals).
+
+* **[!UICONTROL Average lift]**: Percentage verbetering van de conversiesnelheid van een gegeven behandeling ten opzichte van de uitgangswaarde. [Meer informatie](../campaigns/experiment-calculations.md#understand-lift)
+
+* **[!UICONTROL Confidence]**: Bewijs dat een bepaalde behandeling gelijk is aan de basisbehandeling. [Meer informatie](../campaigns/experiment-calculations.md#understand-confidence)
+
+Raadpleeg voor een diepgaande analyse van deze resultaten en de manier waarop u deze kunt interpreteren de volgende bronnen: [deze pagina](../campaigns/get-started-experiment.md#interpret-results).

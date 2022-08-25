@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 5087c5a13eda0b9b5894197b393788f82413690b
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '1109'
 ht-degree: 8%
 
 ---
@@ -35,6 +35,46 @@ Deze functie heeft als volgt invloed op de machtigingen:
 
 **Vanaf 6 september**, worden de machtigingen voor berichten verwijderd en zijn berichten niet meer toegankelijk.
 
+## [!DNL Campaign Administrator] {#campaign-administrator}
+
+De **[!DNL Campaign Administrator]** Dankzij het productprofiel kunnen de beheersmenu&#39;s campagnes en het besluitvormingsbeheer beheren en publiceren.
+
+Dit productprofiel bevat de volgende toestemmingen:
+
+| Capaciteit | Machtigingen| |-|-| |Campagnes| <ul><li> **[!DNL Manage campaigns]**: campagnes lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Publish campaigns]**: publicatiecampagnes.</li><li>**[!DNL View campaigns report]**: campagnerapport lezen en bewerken.</li></ul>|
+|Beheer|<ul><li>**[!DNL Manage subdomains delegation]**: subdomeindelegatie lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage IP pools]**: lees, creeer, geef, en schrap ip pool uit.</li><li>**[!DNL Manage PTR records]**: PTR-records lezen en bewerken.</li><li>**[!DNL View PTR records]**: alleen-lezen toegang tot PTR-records.</li><li> **[!DNL Manage messages general settings]**: algemene instellingen van berichten lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage messages presets]**: het lezen, creëren, uitgeven, en schrappen van inhoudbranding.</li><li>**[!DNL Manage suppression rules]**: toegang hebben lees, creeer, geef en schrap suppressieregels uit.</li><li>**[!DNL Export suppression list]**: toegang tot de lijst met exportonderdrukking als CSV-bestand.</li><li>**[!DNL View suppression list]**: lokale suppressielijst lezen en exporteren.</li><li>**[!DNL Manage alerts]**: het in- en uitschakelen van waarschuwingen voor campagnes, berichten en aanspraken.</li><li>**[!DNL Manage landing page settings]**: landingspagina-instellingen lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage SMS settings]**: SMS-instellingen lezen, maken, bewerken en verwijderen.</li></ul>|
+|Beslissingsbeheer|<ul><li>**[!DNL Manage decisions]**: beslissingen lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage ranking strategies]**: waarderingsstrategieën lezen, maken, bewerken en verwijderen.</li></ul>|
+|Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**: toegang verlenen tot sandboxen.</li><li>**[!DNL Manage segments]**: segmenten lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage profiles]**: profielen lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Read datasets]**: alleen-lezen toegang tot gegevenssets.</li><li>**[!DNL Read schemas]**: alleen-lezen toegang tot schema&#39;s.</li><li>**[!DNL Read Identity namespace]**: alleen-lezen toegang tot naamruimte.</li><li>**[!DNL Manage merge policies]**: beleid voor het lezen, maken, bewerken en verwijderen van samenvoegingen.</li></ul>|
+
+## [!DNL Campaign Approver] {#campaign-approver}
+
+De **[!DNL Campaign Approver]** Met het productprofiel kunnen gebruikers leveringen goedkeuren en publiceren. Zij kunnen later het succes van hun leveringen controleren met de **[!DNL Campaigns]** rapporten.
+
+| Capaciteit | Machtigingen| |-|-| |Campagnes| <ul><li>**[!DNL Manage campaigns]**: campagnes lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Publish campaigns]**: publicatiecampagnes.</li><li>**[!DNL View Campaigns report]**: lezen, reisrapporten bewerken.</li></ul>|
+|Beslissingsbeheer| <ul><li>**[!DNL Manage decisions]**: lezen, maken, bewerken en verwijderen van beslissingsentiteiten.</li><li>**[!DNL Manage ranking strategies]**: U kunt rapporten met aangepaste berichten lezen, maken, bewerken en verwijderen, en functies voor handelingen gebruiken.</li></ul>| |Adobe Experience Platform| <ul><li>**[!DNL Manage segments]**: segmenten lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage profiles]**: profielen lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Read datasets]**: alleen-lezen toegang tot gegevenssets.</li><li>**[!DNL Read schemas]**: alleen-lezen toegang tot schema&#39;s.</li><li>**[!DNL Manage merge policies]**: beleid voor het lezen, maken, bewerken en verwijderen van samenvoegingen.</li></ul>|
+|Beheer| <ul><li>**[!DNL View messages presets]**: alleen-lezen toegang tot voorinstellingen voor berichten.</li></ul>|
+
+## [!DNL Campaign Manager] {#campaign-manager}
+
+De **[!DNL Campaign Manager]** Met het productprofiel kunnen gebruikers het bestand maken en bewerken **[!UICONTROL Campaigns]** en elke capaciteit die verband houdt met **[!UICONTROL Campaigns]** maar kan ze niet publiceren.
+
+Dit productprofiel bevat de volgende toestemmingen:
+
+| Capaciteit | Machtigingen| |-|-| |Campagnes| <ul><li>**[!DNL Manage campaigns]**: campagnes lezen, maken, bewerken en verwijderen.</li><li>**[!DNL View campaigns report]**: lezen, reisrapport bewerken.</li></ul>|
+|Beslissingsbeheer| <ul><li>**[!DNL Manage decisions]**: lezen, maken, bewerken en verwijderen van beslissingsentiteiten.</li><li>**[!DNL Manage ranking strategies]**: U kunt rapporten met aangepaste berichten lezen, maken, bewerken en verwijderen, en functies voor handelingen gebruiken.</li></ul>| |Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**: segmenten lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage profiles]**: profielen lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Read datasets]**: alleen-lezen toegang tot gegevenssets.</li><li>**[!DNL Read schemas]**: alleen-lezen toegang tot schema&#39;s.</li><li>**[!DNL Manage merge policies]**: beleid voor het lezen, maken, bewerken en verwijderen van samenvoegingen.</li></ul>|
+|Beheer| <ul><li>**[!DNL View messages presets]**: alleen-lezen toegang tot voorinstellingen voor berichten.</li></ul>|
+
+## [!DNL Campaign viewer] {#campaign-viewer}
+
+De **[!DNL Campaign viewer]** het productprofiel staat read-only toegang tot toe **[!UICONTROL Campaigns]** en **[!UICONTROL Decision management]** mogelijkheden.
+
+Gebruikers die aan dit productprofiel zijn toegewezen, kunnen dit profiel niet bewerken of publiceren.
+
+Dit productprofiel bevat de volgende toestemmingen:
+
+| Capaciteit | Machtigingen| |-|-| |Campagnes| <ul><li>**[!DNL View campaigns]**: alleen-lezen toegang tot campagnes.</li><li>**[!DNL View campaigns report]**: alleen-lezen toegang tot campagnerapporten.</li></ul>|
+|Beslissingsbeheer| <ul><li>**[!DNL View decisions]**: alleen-lezen toegang tot besluitvormingsentiteiten.</li></ul>|
+
 ## [!DNL Journey Administrator] {#journey-administrator}
 
 De **[!DNL Journey Administrator]** Dankzij het productprofiel kunnen de administratiemenu&#39;s de mogelijkheid krijgen om de afhandeling van reizen en besluiten te beheren en te publiceren.
@@ -43,8 +83,7 @@ Dit productprofiel bevat de volgende toestemmingen:
 
 | Capaciteit | Machtigingen| |-|-| |Reizen| <ul><li> **[!DNL Manage journeys]**: ritten lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Publish journeys]**: ritten publiceren.</li><li>**[!DNL Manage journeys events, data sources and actions]**: gebeurtenissen, bronnen of handelingen lezen, maken, bewerken en verwijderen.</li><li>**[!DNL View journeys report]**: ritsrapport lezen en bewerken.</li></ul>|
 |Beheer|<ul><li>**[!DNL Manage subdomains delegation]**: subdomeindelegatie lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage IP pools]**: lees, creeer, geef, en schrap ip pool uit.</li><li>**[!DNL Manage PTR records]**: PTR-records lezen en bewerken.</li><li>**[!DNL View PTR records]**: alleen-lezen toegang tot PTR-records.</li><li>**[!DNL Manage channel surfaces]**: het lezen, creëren, uitgeven, en schrappen van inhoudbranding.</li><li>**[!DNL Manage Landing page settings]**: subdomeinen van de pagina Landing maken, bewerken en verwijderen, en voorinstellingen van de pagina Landing.</li><li> **[!DNL Manage messages general settings]**: algemene instellingen van berichten lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage SMS settings]**: Maak, bewerk en verwijder API-referenties en sms-kanaaloppervlakken die nodig zijn om SMS-kanaal in te schakelen.</li><li>**[!DNL Manage suppression rules]**: toegang hebben lees, creeer, geef en schrap suppressieregels uit.</li><li>**[!DNL View suppression list]**: lokale suppressielijst lezen en exporteren.</li><li>**[!DNL Manage alerts]**: signaleringen voor reizen en aanspraken in- en uitschakelen.</li></ul>|
-|Beslissingsbeheer|<ul><li>**[!DNL Manage decisions]**: beslissingen lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage ranking strategies]**: waarderingsstrategieën lezen, maken, bewerken en verwijderen.</li></ul>|
-|Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**: toegang verlenen tot sandboxen.</li><li>**[!DNL Manage segments]**: segmenten lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage profiles]**: profielen lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Read datasets]**: alleen-lezen toegang tot gegevenssets.</li><li>**[!DNL Read schemas]**: alleen-lezen toegang tot schema&#39;s.</li><li>**[!DNL Read Identity namespace]**: alleen-lezen toegang tot naamruimte.</li><li>**[!DNL Manage merge policies]**: beleid voor het lezen, maken, bewerken en verwijderen van samenvoegingen.</li></ul>| |Journey Optimizer-bibliotheek|<ul><li>**[!DNL Manage Library Items]**: Opgeslagen expressies toevoegen en verwijderen in het dialoogvenster [!DNL Journey Optimizer] Bibliotheek.</li></ul>|
+|Beslissingsbeheer|<ul><li>**[!DNL Manage decisions]**: beslissingen lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage ranking strategies]**: waarderingsstrategieën lezen, maken, bewerken en verwijderen.</li></ul>| |Adobe Experience Platform|<ul><li>**[!DNL Sandbox]**: toegang verlenen tot sandboxen.</li><li>**[!DNL Manage segments]**: segmenten lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage profiles]**: profielen lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Read datasets]**: alleen-lezen toegang tot gegevenssets.</li><li>**[!DNL Read schemas]**: alleen-lezen toegang tot schema&#39;s.</li><li>**[!DNL Read Identity namespace]**: alleen-lezen toegang tot naamruimte.</li><li>**[!DNL Manage merge policies]**: beleid voor het lezen, maken, bewerken en verwijderen van samenvoegingen.</li></ul>| |Journey Optimizer-bibliotheek|<ul><li>**[!DNL Manage Library Items]**: Opgeslagen expressies toevoegen en verwijderen in het dialoogvenster [!DNL Journey Optimizer] Bibliotheek.</li></ul>|
 
 ## [!DNL Journey Approver] {#journey-approver}
 

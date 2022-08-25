@@ -2,10 +2,10 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 30d197f3eab05e2e38025189a6948a6c0fbd6d54
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 10%
+source-wordcount: '280'
+ht-degree: 8%
 
 ---
 
@@ -21,21 +21,22 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 ### Nieuwe functies
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Create and manage campaigns in Journey Optimizer</strong><br/></th>
+<th><strong>Campagnes maken en beheren in Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Use Journey Optimizer campaigns to deliver one-time content to a specific segment using various channels. When using journeys, actions are designed to be executed in sequence. With campaigns actions are performed simultaneously, either immediately, or based on a specified schedule. </p>
-<p>For more information, refer to the <a href="../campaigns/get-started-with-campaigns.md">detailed documentation</a>.
+<p>Gebruik Journey Optimizer-campagnes om eenmalige inhoud via verschillende kanalen aan een specifiek segment te leveren. Wanneer u reizen gebruikt, worden handelingen op volgorde uitgevoerd. Met campagnes, worden de acties uitgevoerd gelijktijdig, of onmiddellijk, of gebaseerd op een gespecificeerd programma. </p>
+<img src="assets/do-not-localize/campaigns.gif"/>
+<p>In deze video ziet u hoe u een campagne kunt maken <a href="../campaigns/get-started-with-campaigns.md">gedetailleerde documentatie</a>.
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <table>
 <thead>

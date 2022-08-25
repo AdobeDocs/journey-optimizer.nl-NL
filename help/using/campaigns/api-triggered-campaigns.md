@@ -4,10 +4,10 @@ description: Leer hoe u campagnes kunt activeren met [!DNL Journey Optimizer] AP
 hide: true
 hidefromtoc: true
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 1%
+source-wordcount: '676'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,6 @@ ht-degree: 1%
 >
 >De API voor het uitvoeren van interactieve berichten bevindt zich momenteel in de bètaversie, die vaak en zonder kennisgeving kan worden bijgewerkt.
 
-
 Met [!DNL Journey Optimizer]kunt u campagnes maken en deze vervolgens aanroepen vanuit een extern systeem op basis van een gebruikerstrigger met behulp van de [Interactive Message Execution REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Dit staat u toe om diverse operationele en transactionele overseinenbehoeften zoals wachtwoordterugstellen, het teken van OTP, onder andere te behandelen.
 
 Hiervoor moet u eerst een API-getriggerde campagne in Journey Optimizer maken en vervolgens de uitvoering starten via een API-aanroep.
@@ -28,7 +27,7 @@ Beschikbare kanalen voor API-getriggerde campagnes zijn E-mail, SMS en Push beri
 
 ## Een API-gestuurde campagne maken {#create}
 
-Het proces om API-teweeggebrachte campagnes te creëren blijft het zelfde als geplande campagnes, behalve voor de publieksselectie die in de API lading wordt uitgevoerd. Gedetailleerde informatie over het maken van een campagne is beschikbaar in [deze sectie](create-campaign.md).
+Het proces om API-teweeggebrachte campagnes tot stand te brengen blijft het zelfde als geplande campagnes, behalve de publieksselectie die in de API lading wordt uitgevoerd. Gedetailleerde informatie over het maken van een campagne is beschikbaar in [deze sectie](create-campaign.md).
 
 Voer de volgende stappen uit om een API-gestuurde campagne te maken:
 
@@ -92,11 +91,3 @@ Merk op dat als u een specifieke begin en/of einddatum toen het creëren van de 
 >[!NOTE]
 >
 >In sommige gevallen moet u mogelijk transactieberichten verzenden naar profielen die niet in het systeem bestaan. Bijvoorbeeld als een onbekende gebruiker zich probeert aan te melden bij uw website. In dat geval wordt het corresponderende profiel automatisch gemaakt in Adobe Experience Platform, in het dialoogvenster **Gegevensset AJO Interactive Messaging Profile** dataset.
-
-## Aanvullende bronnen
-
-* [Aan de slag met campagnes](get-started-with-campaigns.md)
-* [Een campagne maken](create-campaign.md)
-* [Een campagne wijzigen of stoppen](modify-stop-campaign.md)
-* [Campagne live-rapport](campaign-live-report.md)
-* [Globaal verslag campagne voeren](campaign-global-report.md)

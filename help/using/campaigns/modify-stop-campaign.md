@@ -1,27 +1,27 @@
 ---
 title: Een campagne wijzigen of stoppen
-description: Leer hoe u een geactiveerde campagne kunt maken of stoppen in [!DNL Journey Optimizer]
+description: Leer hoe u live campagnes kunt wijzigen, stoppen of dupliceren in [!DNL Journey Optimizer]
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-source-git-commit: 6177a33edeb3b8381c3eb5609762b4d974dc93e3
+exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 5%
+source-wordcount: '227'
+ht-degree: 0%
 
 ---
 
+# Live campagnes beheren {#modify-stop-campaign}
 
-# Een campagne wijzigen of stoppen {#modify-stop-campaign}
+Nadat een campagne is geactiveerd, kunt u deze op elk gewenst moment wijzigen of stoppen. Deze bewerkingen zijn alleen beschikbaar voor campagnes met een terugkerende uitvoering.
 
-Nadat een campagne is geactiveerd, kunt u deze op elk gewenst moment bewerken of stoppen. Volg de onderstaande stappen om dit te doen.
+Bovendien kunt u live campagnes (die één keer of met een terugkerende uitvoering worden uitgevoerd) dupliceren om nieuwe campagnes te maken.
 
-## Een geactiveerde campagne wijzigen {#modify}
+## Een terugkerende campagne wijzigen {#modify}
 
-Voer de volgende stappen uit om een nieuwe versie van een campagne te wijzigen en te maken:
+Voer de volgende stappen uit om een terugkerende campagne te wijzigen en een nieuwe versie ervan te maken:
 
 1. Open de campagne en klik op de knop **[!UICONTROL Modify campaign]** knop.
 
@@ -39,20 +39,20 @@ Voer de volgende stappen uit om een nieuwe versie van een campagne te wijzigen e
    >
    >Als u het concept activeert, wordt de live versie van de campagne vervangen.
 
-## Een campagne stoppen {#stop}
+## Een terugkerende campagne stoppen {#stop}
 
-Als u een campagne wilt stoppen, opent u deze en klikt u op de knop **[!UICONTROL Stop campaign]** knop.
+Als u een terugkerende campagne wilt stoppen, opent u deze en klikt u op de knop **[!UICONTROL Stop campaign]** knop.
 
 ![](assets/create-campaign-stop.png)
 
 >[!IMPORTANT]
 >
->Nadat een campagne is gestopt, is deze alleen beschikbaar in de modus Alleen-lezen. U kunt de toepassing niet opnieuw activeren of gebruiken om een nieuwe campagne te maken.
+>Als een campagne wordt gestopt, wordt het verzenden niet gestopt, maar wordt het geplande verzenden gestopt of het volgende verzenden als het verzenden al bezig is.
 
-## Aanvullende bronnen
+<!-- inbound campaign (inapp): can stop and resume -->
 
-* [Aan de slag met campagnes](get-started-with-campaigns.md)
-* [Een campagne maken](create-campaign.md)
-* [API-gestuurde campagnes maken](api-triggered-campaigns.md)
-* [Campagne live-rapport](campaign-live-report.md)
-* [Globaal verslag campagne voeren](campaign-global-report.md)
+## Een campagne dupliceren {#duplicate}
+
+U kunt een live campagne dupliceren om een nieuwe te maken. Om dit te doen, open de campagne, dan klik **[!UICONTROL Duplicate]**.
+
+![](assets/create-campaign-duplicate.png)

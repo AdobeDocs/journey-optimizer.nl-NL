@@ -7,7 +7,8 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 11f7ce37dc1a99de4ed29fa7793f126e259f518d
+exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 3%
@@ -94,7 +95,7 @@ Als u bijvoorbeeld wilt weten wat het effect is van een e-mailcampagne op handel
    >
    >Als u een dataset selecteerde die geen gebeurtenis-type is, zult u niet kunnen te werk gaan.
 
-Wanneer het bouwen van de rapporten van uw leveringen, kunt u gegevens van deze dataset nu gebruiken om extra douaneinformatie terug te winnen en beter uw rapporten te verfijnen. [Meer informatie](campaign-global-report.md#objectives-global)
+Wanneer het bouwen van de rapporten van uw leveringen, kunt u gegevens van deze dataset nu gebruiken om extra douaneinformatie terug te winnen en beter uw rapporten te verfijnen. [Meer informatie](content-experiment.md#objectives-global)
 
 >[!NOTE]
 >

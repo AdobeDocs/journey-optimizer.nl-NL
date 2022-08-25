@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: ad09f4ec728e95da23f862e0e59fe827c71f0024
+source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '461'
 ht-degree: 3%
 
 ---
@@ -22,9 +22,15 @@ ht-degree: 3%
 
 Gebruiken [!DNL Journey Optimizer] om tekstberichten naar uw klanten op hun mobiele apparaten te verzenden. U kunt berichten in tekstformaat van de redacteur van SMS tot stand brengen, personaliseren en voorproef.
 
-Eenmaal [SMS toegevoegd](get-started-content.md) en gedefinieerde basisinstellingen, kunt u de **[!UICONTROL Actions: SMS]** in het rechterdeelvenster om de inhoud voor het SMS-bericht te maken.
+De levering van SMS kan worden gecreeerd:
 
-![](assets/sms-edit-content.png)
+* In een **Reis**: Nadat u een SMS-activiteit hebt toegevoegd aan uw reis en basisinstellingen hebt gedefinieerd, kunt u de opdracht **[!UICONTROL Actions: SMS]** in het rechterdeelvenster om de inhoud voor het SMS-bericht te maken.
+
+   Voor meer informatie over hoe te om uw reis te vormen, verwijs naar dit [page](../building-journeys/journey-gs.md).
+
+* In een **Campagne**: Nadat u een campagne hebt gemaakt, selecteert u SMS als uw handeling en definieert u de basisinstellingen.
+
+   Voor meer informatie over hoe te om uw campagne te vormen, verwijs naar dit [page](../campaigns/create-campaign.md#configure).
 
 Als dit de eerste keer is die tot een SMS-bericht leidt, zorg er dan voor dat het SMS-kanaal is geconfigureerd. [Meer informatie](../configuration/sms-configuration.md).
 
