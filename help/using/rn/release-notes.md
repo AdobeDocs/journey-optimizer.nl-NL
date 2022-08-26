@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: bc036fc52424adaf129ab379872dedfc5994c3bb
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '283'
 ht-degree: 8%
 
 ---
@@ -32,7 +32,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 <td>
 <p>Gebruik Journey Optimizer-campagnes om eenmalige inhoud via verschillende kanalen aan een specifiek segment te leveren. Wanneer u reizen gebruikt, worden handelingen op volgorde uitgevoerd. Met campagnes, worden de acties uitgevoerd gelijktijdig, of onmiddellijk, of gebaseerd op een gespecificeerd programma. </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>In deze video ziet u hoe u een campagne kunt maken <a href="../campaigns/get-started-with-campaigns.md">gedetailleerde documentatie</a>.
+<p>Leer hoe u een campagne kunt maken in het dialoogvenster <a href="../campaigns/get-started-with-campaigns.md">gedetailleerde documentatie</a> en <a href="https://video.tv.adobe.com/v/345376">functievideo</a>.
 </td>
 </tr>
 </tbody>

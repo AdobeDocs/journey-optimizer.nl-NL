@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: bc036fc52424adaf129ab379872dedfc5994c3bb
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 0%
+source-wordcount: '321'
+ht-degree: 2%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 0%
 Met campagnes kunt u eenmalige inhoud leveren aan een specifiek segment met behulp van meerdere kanalen. In tegenstelling tot reizen, waar acties worden ontworpen om in opeenvolging te worden uitgevoerd, voeren de campagnes acties gelijktijdig, of onmiddellijk, of op een gespecificeerd programma uit.
 
 Op deze manier kunt u eenvoudige ad-hocbatchberichten verzenden voor marketingdoeleinden, zoals promotieaanbiedingen, betrokkenheidscampagnes, aankondigingen, juridische kennisgevingen of beleidsupdates.
+
+➡️ [Ontdek deze functie in video](#video)
 
 <!--You can create two types of campaigns:
 
@@ -58,3 +60,9 @@ Campagnes kunnen meerdere statussen hebben:
 >[!NOTE]
 >
 >Het pictogram Conceptversie openen naast een **[!UICONTROL Live]** of **[!UICONTROL Scheduled]** status geeft aan dat er een nieuwe versie van de campagne is gemaakt en nog niet is geactiveerd (zie [Een campagne wijzigen](modify-stop-campaign.md#modify)).
+
+## Hoe kan ik-video {#video}
+
+Leer hoe u uw eerste campagne kunt maken.
+
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
