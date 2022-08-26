@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: bc036fc52424adaf129ab379872dedfc5994c3bb
+source-git-commit: 8d8586a6c70b6fc01dbd1c2a8833079f422c93f7
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '373'
 ht-degree: 2%
 
 ---
@@ -22,10 +22,6 @@ ht-degree: 2%
 
 ## Informatie over campagnes {#about}
 
->[!IMPORTANT]
->
->Deze functie is alleen beschikbaar voor gebruikers met toegang tot een productprofiel dat betrekking heeft op een campagne, zoals Campagnebeheerder, Campagneontwikkelaar, Campagnebeheerder en/of Campagneviewer. Voor meer informatie over het toewijzen van productprofielen raadpleegt u [deze pagina](../administration/permissions.md).
-
 Met campagnes kunt u eenmalige inhoud leveren aan een specifiek segment met behulp van meerdere kanalen. In tegenstelling tot reizen, waar acties worden ontworpen om in opeenvolging te worden uitgevoerd, voeren de campagnes acties gelijktijdig, of onmiddellijk, of op een gespecificeerd programma uit.
 
 Op deze manier kunt u eenvoudige ad-hocbatchberichten verzenden voor marketingdoeleinden, zoals promotieaanbiedingen, betrokkenheidscampagnes, aankondigingen, juridische kennisgevingen of beleidsupdates.
@@ -36,6 +32,28 @@ Op deze manier kunt u eenvoudige ad-hocbatchberichten verzenden voor marketingdo
 
 * **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
 * **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
+
+## Vereisten {#campaign-prerequisites}
+
+Campagne is alleen beschikbaar voor gebruikers met toegang tot een campagne in verband met **[!UICONTROL Product profile]** zoals Campagnebeheerder, Campagneontwikkelaar, Campagnebeheerder en/of Campagneviewer.
+
+Om de overeenkomstige **[!UICONTROL Product profile]** aan uw gebruikers:
+
+1. Van de [!DNL Admin console], selecteert u de [!DNL Adobe Experience Platform] product.
+
+1. Van de **[!UICONTROL Product profile]** selecteert u een van de ingebouwde campagnes die betrekking hebben op **[!UICONTROL Product profile]**: Campagnebeheerder, campagnefiatteur, campagnebeheerder of campagneviewer.
+
+   Meer informatie over campagne **[!UICONTROL Product profiles]** en **[!UICONTROL Permissions]**, verwijzen naar [page](../administration/ootb-product-profiles.md).
+
+   ![](assets/do-not-localize/admin_1.png)
+
+1. Klikken **[!UICONTROL Add user]** om aan uw gebruiker toe te wijzen selecteerde **[!UICONTROL Product profile]**.
+
+   ![](assets/do-not-localize/admin_2.png)
+
+1. Typ de naam, de groep of het e-mailadres van uw gebruiker en klik op **[!UICONTROL Save]**.
+
+De gebruiker heeft nu toegang tot **[!UICONTROL Campaigns]**.
 
 ## Campagnes openen {#access}
 
