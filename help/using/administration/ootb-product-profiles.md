@@ -6,20 +6,19 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 3afef10461ce29b811cb20a2c8c4e94f452daf1f
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1113'
 ht-degree: 8%
 
 ---
 
 # Geïntegreerde productprofielen {#ootb-product-profiles}
 
-Adobe Journey Optimizer geeft een nieuwe functie, Inline authoring, uit waarmee u uw berichten rechtstreeks vanaf een reis kunt maken en schrijven. Raadpleeg deze pagina voor meer informatie over deze nieuwe functie.
 
->[!WARNING]
->
->Als u gebruikers hebt toegewezen aan **[!DNL Message Manager]** alleen productprofiel, zonder **[!DNL Journey manager]** productprofiel, moet u een nieuw productprofiel toewijzen zodat ze inhoud kunnen blijven bewerken.
+## Informatie over machtigingen voor berichten{#message-permissions}
+
+Adobe Journey Optimizer heeft nieuwe inline ontwerpmogelijkheden uitgebracht waarmee u uw berichten rechtstreeks vanuit een reis of een campagne kunt maken en schrijven. Voor meer informatie over deze nieuwe functie, [verwijzen naar deze pagina](../rn/inline-messages.md).
 
 Deze functie heeft als volgt invloed op de machtigingen:
 
@@ -31,9 +30,14 @@ Deze functie heeft als volgt invloed op de machtigingen:
 | **[!DNL Publish Messages]** | **[!DNL Publish Journeys]** |
 | **[!DNL Manage Messages Preview and Test]** | **[!DNL Manage Journeys]** |
 
-**Na 25 juli**, zijn de toestemmingen met betrekking tot Berichten nog beschikbaar aangezien de Berichten nog kunnen worden betreden om overgang toe te laten en u kunt hen nog opslaan als malplaatje.
+**Na 25 juli**, machtigingen met betrekking tot **Berichten** zijn nog beschikbaar aangezien de Berichten nog kunnen worden betreden om overgang toe te laten en u kunt hen nog opslaan als malplaatje.
 
-**Vanaf 6 september**, worden de machtigingen voor berichten verwijderd en zijn berichten niet meer toegankelijk.
+**Vanaf 6 september**, machtigingen met betrekking tot **Berichten** worden verwijderd en berichten zijn niet meer toegankelijk.
+
+>[!WARNING]
+>
+>Als u gebruikers hebt toegewezen aan **[!DNL Message Manager]** alleen productprofiel, zonder **[!DNL Journey manager]** productprofiel, moet u een nieuw productprofiel toewijzen zodat ze inhoud kunnen blijven bewerken.
+
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
 
@@ -64,9 +68,9 @@ Dit productprofiel bevat de volgende toestemmingen:
 |Beslissingsbeheer| <ul><li>**[!DNL Manage decisions]**: lezen, maken, bewerken en verwijderen van beslissingsentiteiten.</li><li>**[!DNL Manage ranking strategies]**: U kunt rapporten met aangepaste berichten lezen, maken, bewerken en verwijderen, en functies voor handelingen gebruiken.</li></ul>| |Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**: segmenten lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage profiles]**: profielen lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Read datasets]**: alleen-lezen toegang tot gegevenssets.</li><li>**[!DNL Read schemas]**: alleen-lezen toegang tot schema&#39;s.</li><li>**[!DNL Manage merge policies]**: beleid voor het lezen, maken, bewerken en verwijderen van samenvoegingen.</li></ul>|
 |Beheer| <ul><li>**[!DNL View messages presets]**: alleen-lezen toegang tot voorinstellingen voor berichten.</li></ul>|
 
-## [!DNL Campaign viewer] {#campaign-viewer}
+## [!DNL Campaign Viewer] {#campaign-viewer}
 
-De **[!DNL Campaign viewer]** het productprofiel staat read-only toegang tot toe **[!UICONTROL Campaigns]** en **[!UICONTROL Decision management]** mogelijkheden.
+De **[!DNL Campaign Viewer]** het productprofiel staat read-only toegang tot toe **[!UICONTROL Campaigns]** en **[!UICONTROL Decision management]** mogelijkheden.
 
 Gebruikers die aan dit productprofiel zijn toegewezen, kunnen dit profiel niet bewerken of publiceren.
 

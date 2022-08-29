@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: b73d4495a231a40d833f4fee4dc094b808d659bd
+source-git-commit: bbcafe364ca13501972b3d8e1150aa2f51ba88a0
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 2%
+source-wordcount: '486'
+ht-degree: 3%
 
 ---
 
@@ -43,9 +43,9 @@ Controleer de volgende voorwaarden voordat u begint met het maken van uw eerste 
 
    Om de overeenkomstige **[!UICONTROL Product profile]** aan uw gebruikers:
 
-   1. Van de [!DNL Admin console], selecteert u de [!DNL Adobe Experience Platform] product.
+   1. Van [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} selecteert u de optie [!DNL Adobe Experience Platform] product.
 
-   1. Van de **[!UICONTROL Product profile]** selecteert u een van de ingebouwde campagnes die betrekking hebben op **[!UICONTROL Product profile]**: Campagnebeheerder, campagnefiatteur, campagnebeheerder of campagneviewer.
+   1. Bladeren naar de **[!UICONTROL Product profile]** selecteert u een van de ingebouwde campagnes die betrekking hebben op **[!UICONTROL Product profile]**: Campagnebeheerder, campagnefiatteur, campagnebeheerder of campagneviewer.
 
       Meer informatie over de Journey Optimizer-campagne **[!UICONTROL Product profiles]** en **[!UICONTROL Permissions]**, [verwijzen naar deze pagina](../administration/ootb-product-profiles.md).
 
@@ -56,18 +56,18 @@ Controleer de volgende voorwaarden voordat u begint met het maken van uw eerste 
       ![](assets/do-not-localize/admin_2.png)
 
    1. Typ de naam, de groep of het e-mailadres van uw gebruiker en klik op **[!UICONTROL Save]**.
-   De gebruiker heeft nu toegang tot **[!UICONTROL Campaigns]**.
+   Uw gebruiker heeft nu toegang tot **[!UICONTROL Campaigns]**.
 
 +++
 
 1. **U hebt een publiek nodig**. De segmenten van het publiek moeten beschikbaar zijn alvorens de campagne te creëren. Meer informatie over publiek maken [op deze pagina](../segment/about-segments.md).
-1. **U hebt een kanaaloppervlak nodig**. Als u een kanaal wilt selecteren, moet het bijbehorende kanaaloppervlak (dus de voorinstelling) zijn gemaakt en beschikbaar. Meer informatie over kanaaloppervlakken [op deze pagina](../configuration/channel-surfaces.md)
+1. **U hebt een kanaaloppervlak nodig**. Als u een kanaal wilt selecteren, moet het bijbehorende kanaaloppervlak (dus de voorinstelling) zijn gemaakt en beschikbaar. Meer informatie over kanaaloppervlakken [op deze pagina](../configuration/channel-surfaces.md).
 
 ## Campagnes openen {#access}
 
 Campagnes zijn toegankelijk vanuit de **[!UICONTROL Campaigns]** -menu.
 
-Standaard worden in de lijst alle campagnes met de **[!UICONTROL Draft]**, **[!UICONTROL Scheduled]**, en **[!UICONTROL Live]** statussen. Om gestopt, voltooide en gearchiveerde campagnes te tonen, moet u de filter ontruimen.
+Standaard worden in de lijst alle campagnes met de **[!UICONTROL Draft]**, **[!UICONTROL Scheduled]**, en **[!UICONTROL Live]** statussen. Om gestopt, voltooide, en gearchiveerde campagnes te tonen, moet u de filter ontruimen.
 
 ![](assets/create-campaign-list.png)
 
@@ -79,13 +79,13 @@ Campagnes kunnen meerdere statussen hebben:
 * **[!UICONTROL Activating]**: De campagne wordt geactiveerd.
 * **[!UICONTROL Live]**: De campagne is geactiveerd.
 * **[!UICONTROL Scheduled]**: De campagne is geconfigureerd om te worden geactiveerd op een specifieke startdatum.
-* **[!UICONTROL Stopped]**: De campagne is handmatig gestopt. U kunt het niet meer activeren of opnieuw gebruiken (zie [Een campagne stoppen](modify-stop-campaign.md#stop))
+* **[!UICONTROL Stopped]**: De campagne is handmatig gestopt. U kunt het niet meer activeren of opnieuw gebruiken. [Meer informatie](modify-stop-campaign.md#stop)
 * **[!UICONTROL Completed]**: De campagne is voltooid. Deze status wordt automatisch toegewezen 3 dagen nadat een campagne is geactiveerd, of op de einddatum van de campagne als de campagne een terugkerende uitvoering heeft.
 * **[!UICONTROL Archived]**: De campagne is gearchiveerd.
 
 >[!NOTE]
 >
->Het pictogram Conceptversie openen naast een **[!UICONTROL Live]** of **[!UICONTROL Scheduled]** status geeft aan dat er een nieuwe versie van de campagne is gemaakt en nog niet is geactiveerd (zie [Een campagne wijzigen](modify-stop-campaign.md#modify)).
+>Het pictogram Conceptversie openen naast een **[!UICONTROL Live]** of **[!UICONTROL Scheduled]** status geeft aan dat een nieuwe versie van de campagne is gemaakt en nog niet is geactiveerd. [Meer informatie](modify-stop-campaign.md#modify).
 
 ## Hoe kan ik-video {#video}
 
