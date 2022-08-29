@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 8d8586a6c70b6fc01dbd1c2a8833079f422c93f7
+source-git-commit: d747cc9a4d065ea9110cb8065c113326959e2a41
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '488'
 ht-degree: 2%
 
 ---
@@ -18,13 +18,11 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campagnes"
->abstract="Met campagnes, kunt u eenmalig inhoud aan een specifiek segment over veelvoudige kanalen leveren. Voordat u een nieuwe campagne maakt, moet u ervoor zorgen dat u een kanaaloppervlak (d.w.z. een voorinstelling voor berichten) en een Adobe Experience Platform-segment gebruiksklaar hebt."
+>abstract="Maak campagnes om eenmalige inhoud aan een specifiek segment over verschillende kanalen te leveren. Voordat u de campagne maakt, moet u controleren of u een kanaaloppervlak (d.w.z. een berichtvoorinstelling) en een Adobe Experience Platform-segment hebt die u kunt gebruiken."
 
-## Informatie over campagnes {#about}
+Gebruik Journey Optimizer-campagnes om eenmalige inhoud via verschillende kanalen aan een specifiek segment te leveren. Wanneer u reizen gebruikt, worden handelingen op volgorde uitgevoerd. Met campagnes, worden de acties uitgevoerd gelijktijdig, of onmiddellijk, of gebaseerd op een gespecificeerd programma.
 
-Met campagnes kunt u eenmalige inhoud leveren aan een specifiek segment met behulp van meerdere kanalen. In tegenstelling tot reizen, waar acties worden ontworpen om in opeenvolging te worden uitgevoerd, voeren de campagnes acties gelijktijdig, of onmiddellijk, of op een gespecificeerd programma uit.
-
-Op deze manier kunt u eenvoudige ad-hocbatchberichten verzenden voor marketingdoeleinden, zoals promotieaanbiedingen, betrokkenheidscampagnes, aankondigingen, juridische kennisgevingen of beleidsupdates.
+Maak campagnes om eenvoudige ad-hocbatchberichten te verzenden voor marketingdoeleinden, zoals promotieaanbiedingen, betrokkenheidscampagnes, aankondigingen, juridische kennisgevingen of beleidsupdates.
 
 ➡️ [Ontdek deze functie in video](#video)
 
@@ -33,9 +31,13 @@ Op deze manier kunt u eenvoudige ad-hocbatchberichten verzenden voor marketingdo
 * **Scheduled campaigns** allow for simple ad-hoc batch communications for marketing use cases like promotional offers, engagement campaigns, announcements, legal notices, or policy updates.
 * **API Triggered Campaigns** allow for simple transactional/operational messages with REST APIs (password reset, card abandonment, etc.), where the need may involve personalization using profile attributes and contextual data from payload.-->
 
-## Vereisten {#campaign-prerequisites}
+## Voordat u begint {#campaign-prerequisites}
 
-Campagne is alleen beschikbaar voor gebruikers met toegang tot een campagne in verband met **[!UICONTROL Product profile]** zoals Campagnebeheerder, Campagneontwikkelaar, Campagnebeheerder en/of Campagneviewer.
+Controleer de volgende voorwaarden voordat u begint met het maken van uw eerste campagne in Journey Optimizer:
+
+1. **U hebt de juiste machtigingen nodig**. Campagnes zijn alleen beschikbaar voor gebruikers die toegang hebben tot een campagne **[!UICONTROL Product profile]** zoals Campagnebeheerder, Campagneontwikkelaar, Campagnebeheerder en/of Campagneviewer. Als u geen toegang hebt tot campagnes, moeten uw toestemmingen worden uitgebreid. Als u toegang hebt tot [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} voor uw organisatie voert u de onderstaande stappen uit. Als dat niet het geval is, neemt u contact op met uw Journey Optimizer-beheerder.
+
++++Leer hoe u campagnemachtigingen toewijst
 
 Om de overeenkomstige **[!UICONTROL Product profile]** aan uw gebruikers:
 
@@ -43,7 +45,7 @@ Om de overeenkomstige **[!UICONTROL Product profile]** aan uw gebruikers:
 
 1. Van de **[!UICONTROL Product profile]** selecteert u een van de ingebouwde campagnes die betrekking hebben op **[!UICONTROL Product profile]**: Campagnebeheerder, campagnefiatteur, campagnebeheerder of campagneviewer.
 
-   Meer informatie over campagne **[!UICONTROL Product profiles]** en **[!UICONTROL Permissions]**, verwijzen naar [page](../administration/ootb-product-profiles.md).
+   Meer informatie over de Journey Optimizer-campagne **[!UICONTROL Product profiles]** en **[!UICONTROL Permissions]**, [verwijzen naar deze pagina](../administration/ootb-product-profiles.md).
 
    ![](assets/do-not-localize/admin_1.png)
 
@@ -54,6 +56,11 @@ Om de overeenkomstige **[!UICONTROL Product profile]** aan uw gebruikers:
 1. Typ de naam, de groep of het e-mailadres van uw gebruiker en klik op **[!UICONTROL Save]**.
 
 De gebruiker heeft nu toegang tot **[!UICONTROL Campaigns]**.
+
++++
+
+1. **U hebt een publiek nodig**. De segmenten van het publiek moeten beschikbaar zijn alvorens de campagne te creëren. Meer informatie over publiek maken [op deze pagina](../segment/about-segments.md).
+1. **U hebt een kanaaloppervlak nodig**. Als u een kanaal wilt kunnen selecteren, moet het desbetreffende kanaaloppervlak zijn gemaakt en beschikbaar. Meer informatie over kanaaloppervlakken (bijv. voorinstellingen) [op deze pagina](../configuration/channel-surfaces.md)
 
 ## Campagnes openen {#access}
 
