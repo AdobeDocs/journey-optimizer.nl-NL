@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d747cc9a4d065ea9110cb8065c113326959e2a41
+source-git-commit: b73d4495a231a40d833f4fee4dc094b808d659bd
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 2%
@@ -35,32 +35,33 @@ Maak campagnes om eenvoudige ad-hocbatchberichten te verzenden voor marketingdoe
 
 Controleer de volgende voorwaarden voordat u begint met het maken van uw eerste campagne in Journey Optimizer:
 
-1. **U hebt de juiste machtigingen nodig**. Campagnes zijn alleen beschikbaar voor gebruikers die toegang hebben tot een campagne **[!UICONTROL Product profile]** zoals Campagnebeheerder, Campagneontwikkelaar, Campagnebeheerder en/of Campagneviewer. Als u geen toegang hebt tot campagnes, moeten uw toestemmingen worden uitgebreid. Als u toegang hebt tot [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} voor uw organisatie voert u de onderstaande stappen uit. Als dat niet het geval is, neemt u contact op met uw Journey Optimizer-beheerder.
+1. **U hebt de juiste machtigingen nodig**. Campagnes zijn alleen beschikbaar voor gebruikers die toegang hebben tot een campagne **[!UICONTROL Product profile]** zoals Campagnebeheerder, Campagneontwikkelaar, Campagnebeheerder en/of Campagneviewer.
 
-+++Leer hoe u campagnemachtigingen toewijst
+   Als u geen toegang hebt tot campagnes, moeten uw toestemmingen worden uitgebreid. Als u toegang hebt tot [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} voor uw organisatie voert u de onderstaande stappen uit. Als dat niet het geval is, neemt u contact op met uw Journey Optimizer-beheerder.
 
-Om de overeenkomstige **[!UICONTROL Product profile]** aan uw gebruikers:
+   +++Leer hoe u campagnemachtigingen toewijst
 
-1. Van de [!DNL Admin console], selecteert u de [!DNL Adobe Experience Platform] product.
+   Om de overeenkomstige **[!UICONTROL Product profile]** aan uw gebruikers:
 
-1. Van de **[!UICONTROL Product profile]** selecteert u een van de ingebouwde campagnes die betrekking hebben op **[!UICONTROL Product profile]**: Campagnebeheerder, campagnefiatteur, campagnebeheerder of campagneviewer.
+   1. Van de [!DNL Admin console], selecteert u de [!DNL Adobe Experience Platform] product.
 
-   Meer informatie over de Journey Optimizer-campagne **[!UICONTROL Product profiles]** en **[!UICONTROL Permissions]**, [verwijzen naar deze pagina](../administration/ootb-product-profiles.md).
+   1. Van de **[!UICONTROL Product profile]** selecteert u een van de ingebouwde campagnes die betrekking hebben op **[!UICONTROL Product profile]**: Campagnebeheerder, campagnefiatteur, campagnebeheerder of campagneviewer.
 
-   ![](assets/do-not-localize/admin_1.png)
+      Meer informatie over de Journey Optimizer-campagne **[!UICONTROL Product profiles]** en **[!UICONTROL Permissions]**, [verwijzen naar deze pagina](../administration/ootb-product-profiles.md).
 
-1. Klikken **[!UICONTROL Add user]** om aan uw gebruiker toe te wijzen selecteerde **[!UICONTROL Product profile]**.
+      ![](assets/do-not-localize/admin_1.png)
 
-   ![](assets/do-not-localize/admin_2.png)
+   1. Klikken **[!UICONTROL Add user]** om aan uw gebruiker toe te wijzen selecteerde **[!UICONTROL Product profile]**.
 
-1. Typ de naam, de groep of het e-mailadres van uw gebruiker en klik op **[!UICONTROL Save]**.
+      ![](assets/do-not-localize/admin_2.png)
 
-De gebruiker heeft nu toegang tot **[!UICONTROL Campaigns]**.
+   1. Typ de naam, de groep of het e-mailadres van uw gebruiker en klik op **[!UICONTROL Save]**.
+   De gebruiker heeft nu toegang tot **[!UICONTROL Campaigns]**.
 
 +++
 
 1. **U hebt een publiek nodig**. De segmenten van het publiek moeten beschikbaar zijn alvorens de campagne te creëren. Meer informatie over publiek maken [op deze pagina](../segment/about-segments.md).
-1. **U hebt een kanaaloppervlak nodig**. Als u een kanaal wilt kunnen selecteren, moet het desbetreffende kanaaloppervlak zijn gemaakt en beschikbaar. Meer informatie over kanaaloppervlakken (bijv. voorinstellingen) [op deze pagina](../configuration/channel-surfaces.md)
+1. **U hebt een kanaaloppervlak nodig**. Als u een kanaal wilt selecteren, moet het bijbehorende kanaaloppervlak (dus de voorinstelling) zijn gemaakt en beschikbaar. Meer informatie over kanaaloppervlakken [op deze pagina](../configuration/channel-surfaces.md)
 
 ## Campagnes openen {#access}
 
