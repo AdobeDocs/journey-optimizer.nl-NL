@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 14b0928821e0c1815869711a0bb68a09beb1b7e4
+source-git-commit: 634e46c70aa272785950d669938f3b35ec07ab1e
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1132'
 ht-degree: 40%
 
 ---
@@ -385,6 +385,7 @@ ht-degree: 40%
          + E-mailadressen controleren {#monitor-reputation}
             + [Onderdrukkingslijst](using/configuration/manage-suppression-list.md)
             + [Hernieuwde pogingen](using/configuration/retries.md)
+            + [Lijst van gewenste personen](using/configuration/allow-list-temp.md)
             + [Lijst van gewenste personen](using/configuration/allow-list.md)
       + [Sms-kanaal configureren](using/configuration/sms-configuration.md)
       + Kanaaloppervlakken instellen {#set-up-channels}
