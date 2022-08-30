@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5abcef4ff057bb351abaafbf4dcb99e1ab61c6a9
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 1%
@@ -36,7 +36,7 @@ In de **E-MAILTYPE** selecteert u het type bericht dat met het oppervlak wordt v
 >
 >**Transactioneel** e-mails kunnen worden verzonden naar profielen die zich niet meer hebben geabonneerd op marketingberichten. Deze berichten kunnen alleen in specifieke contexten worden verzonden.
 
-Wanneer [een bericht maken](../messages/get-started-content.md#create-new-message), moet u een geldig kanaaloppervlak kiezen dat overeenkomt met de categorie die u voor uw e-mail hebt geselecteerd.
+Wanneer [een bericht maken](../messages/get-started-content.md), moet u een geldig kanaaloppervlak kiezen dat overeenkomt met de categorie die u voor uw e-mail hebt geselecteerd.
 
 ## Subdomein en IP-pool {#subdomains-and-ip-pools}
 

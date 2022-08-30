@@ -6,16 +6,28 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: dc56f2dc461a11c9706b3572ccd4b9e0feb6f055
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 2%
+source-wordcount: '246'
+ht-degree: 5%
 
 ---
 
 # Aan de slag met e-mailontwerp {#get-started-content-design}
 
+U kunt bestaande inhoud importeren in [!DNL Journey Optimizer] of mogelijkheden voor inhoudsontwerp benutten:
+
+* Gebruiken [!DNL Journey Optimizer] **e-mailontwerpmogelijkheden** om responsieve e-mails te ontwerpen of te importeren. [Meer informatie](../design/create-email-content.md)
+
+* Hefboomwerking **Adobe Experience Manager Assets Essentials** om uw e-mails te verrijken, maakt en beheert u uw eigen database met middelen. [Meer informatie](../design/assets-essentials.md)
+
+* Zoeken **Adobe Stock-foto&#39;s** om uw inhoud samen te stellen en uw e-mailontwerp te verbeteren. [Meer informatie](../design/stock.md)
+
+* Verbeter de ervaring van klanten door gepersonaliseerde berichten te creëren die op hun profielattributen worden gebaseerd. [Meer informatie](../personalization/personalize.md)
+
 ➡️ [Ontdek deze functie in video](#video)
+
+Zodra u [uw bericht hebt gemaakt](../messages/get-started-content.md)kunt u uw e-mailinhoud maken.
 
 1. Selecteer **[!UICONTROL Email designer]** in de **[!UICONTROL Body]** sectie.
 
@@ -35,11 +47,6 @@ ht-degree: 2%
 
 Deze functies zijn allemaal beschikbaar wanneer u de e-mailontwerper opent via het scherm voor het maken van berichten. [Meer informatie over het maken van berichten](../messages/get-started-content.md).
 
->[!NOTE]
->
->De sjablonen in het onderste gebied zijn statisch en kunnen niet worden bewerkt. Deze zijn alleen ter illustratie beschikbaar.
->
->Zodra u [uw bericht hebt gemaakt](../messages/get-started-content.md)kunt u uw e-mailinhoud maken.
 
 ## Hoe kan ik-video {#video}
 

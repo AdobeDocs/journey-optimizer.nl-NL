@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 55%
@@ -25,7 +25,7 @@ Acties zijn verbindingen waarmee u persoonlijke, realtime-ervaringen kunt bieden
 
 ➡️ [Ontdek deze functie in video](#video)
 
-[!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtcapaciteit. Zie [deze sectie](../messages/get-started-content.md).
+[!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtcapaciteit. Zie [deze sectie](../messages/messages-in-journeys.md).
 
 Als u Adobe Campaign v7 of v8 hebt, is een integratie op verzoek beschikbaar. Zie [deze pagina](../action/acc-action.md).
 

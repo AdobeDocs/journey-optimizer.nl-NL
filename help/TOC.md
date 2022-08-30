@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1130'
 ht-degree: 40%
 
 ---
@@ -46,6 +46,8 @@ ht-degree: 40%
    + [Campagnes activeren met API&#39;s](using/campaigns/api-triggered-campaigns.md)
 + Berichten {#messages}
    + [Aan de slag met berichten](using/messages/get-started-content.md)
+   + [Berichtenreizen toevoegen](using/messages/messages-in-journeys.md)
+   + [Berichtencampagnes toevoegen](using/messages/messages-in-campaigns.md)
    + [Een e-mail maken](using/messages/create-email.md)
    + [Een pushmelding maken](using/messages/create-push.md)
    + [Een SMS-bericht maken](using/messages/create-sms.md)
@@ -289,7 +291,7 @@ ht-degree: 40%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
+         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)

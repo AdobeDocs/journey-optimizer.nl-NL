@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 1%
@@ -40,7 +40,7 @@ Alle e-mailberichten die op dit oppervlak worden weergegeven, worden blind gekop
 >
 >Het gebruik van de BCC-functie wordt afgeboekt op het aantal berichten waarvoor u een licentie hebt. Vandaar, laat slechts het in de oppervlakken toe die voor kritieke mededelingen worden gebruikt die u wenst te archiveren. Controleer uw contract op volumes met licentie.
 
-De instelling voor het BCC-e-mailadres wordt direct opgeslagen en verwerkt op oppervlakteneniveau. Wanneer u [een nieuw bericht maken](../messages/get-started-content.md#create-new-message) Als u dit oppervlak gebruikt, wordt het BCC-e-mailadres automatisch weergegeven.
+De instelling voor het BCC-e-mailadres wordt direct opgeslagen en verwerkt op oppervlakteneniveau. Wanneer u [een nieuw bericht maken](../messages/get-started-content.md) Als u dit oppervlak gebruikt, wordt het BCC-e-mailadres automatisch weergegeven.
 
 ![](assets/preset-bcc-in-msg.png)
 

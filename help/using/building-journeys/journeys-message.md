@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # E-mail, SMS, Push{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtmogelijkheden. U kunt gewoon tijdens uw reis een push-, SMS- of e-mailberichtactiviteit toevoegen en [instellingen en inhoud definiëren](../messages/get-started-content.md). Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis
+[!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtmogelijkheden. U kunt gewoon tijdens uw reis een push-, SMS- of e-mailberichtactiviteit toevoegen en [instellingen en inhoud definiëren](../messages/messages-in-journeys.md). Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis.
 
 U kunt ook specifieke acties instellen om u berichten te sturen:
 
