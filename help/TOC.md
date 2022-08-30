@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8b2796fd5a133fe1a11b79927be0919ccae65ddb
+source-git-commit: 5b8a895f628a71291684c8a17d8d7a2cf947fb2f
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 40%
@@ -34,7 +34,7 @@ ht-degree: 40%
       + [Aan de slag als ontwikkelaar](using/start/path/developer.md)
    + [Gebruikersinterface](using/start/user-interface.md)
    + [Guardrails](using/start/guardrails.md)
-+ Campagnes {#campaigns}
++ Campagnes{#campaigns}
    + [Aan de slag met campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Een campagne maken](using/campaigns/create-campaign.md)
    + [Live campagnes beheren](using/campaigns/modify-stop-campaign.md)
@@ -44,7 +44,7 @@ ht-degree: 40%
       + [Statistische berekeningen begrijpen](using/campaigns/experiment-calculations.md)
       + [Rapportageconfiguratie](using/campaigns/reporting-configuration.md)
    + [Campagnes activeren met API&#39;s](using/campaigns/api-triggered-campaigns.md)
-+ Journeys {#orchestrate-journeys}
++ Journeys{#orchestrate-journeys}
    + Reizen{#about-journeys}
       + [Algemeen principe](using/building-journeys/journey.md)
       + [Reislevenscyclus](using/building-journeys/journey-end.md)
@@ -291,7 +291,7 @@ ht-degree: 40%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
+         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
