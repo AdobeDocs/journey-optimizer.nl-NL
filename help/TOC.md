@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: 8b2796fd5a133fe1a11b79927be0919ccae65ddb
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 40%
@@ -44,80 +44,6 @@ ht-degree: 40%
       + [Statistische berekeningen begrijpen](using/campaigns/experiment-calculations.md)
       + [Rapportageconfiguratie](using/campaigns/reporting-configuration.md)
    + [Campagnes activeren met API&#39;s](using/campaigns/api-triggered-campaigns.md)
-+ Berichten {#messages}
-   + [Aan de slag met berichten](using/messages/get-started-content.md)
-   + [Berichtenreizen toevoegen](using/messages/messages-in-journeys.md)
-   + [Berichtencampagnes toevoegen](using/messages/messages-in-campaigns.md)
-   + [Een e-mail maken](using/messages/create-email.md)
-   + [Een pushmelding maken](using/messages/create-push.md)
-   + [Een SMS-bericht maken](using/messages/create-sms.md)
-   + [Waarschuwingen controleren](using/messages/alerts.md)
-   + [Toestemming beheren](using/messages/consent.md)
-   + [Tijdoptimalisatie verzenden](using/messages/send-time-optimization.md)
-+ Ontwerpcontent {#design}
-   + [Aan de slag met e-mailontwerp](using/design/design-emails.md)
-   + [Opnieuw starten ](using/design/create-email-content.md)
-   + [Uw e-mailinhoud importeren](using/design/existing-content.md)
-   + [Uw eigen inhoud coderen](using/design/code-content.md)
-   + [Werken met sjablonen](using/design/email-templates.md)
-   + Inhoud ontwerpen {#design-content}
-      + [Inhoudscomponenten gebruiken](using/design/content-components.md)
-      + [Achtergrondinstellingen](using/design/backgrounds.md)
-      + [Verticale uitlijning en opvulling aanpassen](using/design/adjusting-vertical-alignment-and-padding.md)
-      + [Een stijl voor koppelingen definiëren](using/design/styling-links.md)
-      + [Inline-opmaakkenmerken toevoegen](using/design/adding-inline-styling-attributes.md)
-   + E-mailinstellingen {#design-email}
-      + [De tekstversie genereren](using/design/text-version-email.md)
-      + [Een preheader toevoegen](using/design/preheader.md)
-   + Elementen toevoegen en beheren {#manage-asset}
-      + [Werken met Assets Essentials](using/design/assets-essentials.md)
-      + [Werken met Adobe Stock](using/design/stock.md)
-   + [Aangepaste aanbiedingen toevoegen](using/design/deliver-personalized-offers.md)
-   + [Koppelingen toevoegen en berichten bijhouden](using/design/message-tracking.md)
-   + [Voorvertoning en proefdrukken](using/design/preview.md)
-+ Landingspagina’s {#landing-pages}
-   + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
-   + [Een landingspagina maken](using/landing-pages/create-lp.md)
-   + Ontwerpcontent {#landing-pages-design}
-      + [Informatie over het ontwerpen van bestemmingspagina](using/landing-pages/design-lp.md)
-      + [De inhoud van de openingspagina maken](using/landing-pages/lp-content.md)
-      + [Sjablonen maken](using/landing-pages/lp-templates.md)
-      + [Aangepast JavaScript toevoegen](using/landing-pages/lp-custom-js.md)
-   + [Een lidmaatschapslijst maken](using/landing-pages/subscription-list.md)
-   + [Gebruiksscenario’s](using/landing-pages/lp-use-cases.md)
-+ Personalisatie{#personalization}
-   + [Aan de slag met personalisatie](using/personalization/personalize.md)
-   + [Persoonlijke context](using/personalization/personalization-contexts.md)
-   + Expressies samenstellen {#build-expressions}
-      + [Personalisatiesyntaxis](using/personalization/personalization-syntax.md)
-      + Werken met de expressie-editor {#expression-editor}
-         + [De expressie-editor](using/personalization/personalization-build-expressions.md)
-         + [Kenmerken toevoegen aan Favorieten](using/personalization/personalization-favorites.md)
-         + [Werken met opgeslagen expressies](using/personalization/personalization-library.md)
-         + [Validatie van personalisatie](using/personalization/personalization-validation.md)
-      + Helpfuncties{#functions}
-         + [Aan de slag met hulpfuncties](using/personalization/functions/functions.md)
-         + [Samenvoegingsfuncties](using/personalization/functions/aggregation.md)
-         + [Rekenkundige functies](using/personalization/functions/arithmetic-functions.md)
-         + [Arrays en lijstfuncties](using/personalization/functions/arrays-list.md)
-         + [Datumtijdfuncties](using/personalization/functions/dates.md)
-         + [Booleaanse en vergelijkingsfuncties](using/personalization/functions/operators.md)
-         + [Helpers](using/personalization/functions/helpers.md)
-         + [Toewijzingsfuncties](using/personalization/functions/maps.md)
-         + [Objectfuncties](using/personalization/functions/objects.md)
-         + [Reeksfuncties](using/personalization/functions/string.md)
-   + Gebruiksscenario’s{#personalization-use-cases}
-      + [Statusmelding van bestelling](using/personalization/personalization-use-case.md)
-      + [E-mailadres voor afmelden van winkelwagentje](using/personalization/personalization-use-case-helper-functions.md)
-+ Segmenten, profielen en identiteit{#segment}
-   + Segmenten {#segments}
-      + [Aan de slag met segmenten](using/segment/about-segments.md)
-      + [Segmenten maken](using/segment/creating-a-segment.md)
-   + Profielen{#profiles}
-      + [Aan de slag met profielen](using/segment/get-started-profiles.md)
-      + [Testprofielen maken](using/segment/creating-test-profiles.md)
-   + [Identiteiten](using/segment/get-started-identity.md)
-   + [Licentiegebruik](using/segment/license-usage.md)
 + Journeys {#orchestrate-journeys}
    + Reizen{#about-journeys}
       + [Algemeen principe](using/building-journeys/journey.md)
@@ -239,6 +165,80 @@ ht-degree: 40%
       + [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](using/building-journeys/collections.md)
       + [Een bericht verzenden naar abonnees](using/building-journeys/message-to-subscribers-uc.md)
       + [Leveringen opwaarderen](using/building-journeys/ramp-up-deliveries-uc.md)
++ Berichten {#messages}
+   + [Aan de slag met berichten](using/messages/get-started-content.md)
+   + [Berichtenreizen toevoegen](using/messages/messages-in-journeys.md)
+   + [Berichtencampagnes toevoegen](using/messages/messages-in-campaigns.md)
+   + [Een e-mail maken](using/messages/create-email.md)
+   + [Een pushmelding maken](using/messages/create-push.md)
+   + [Een SMS-bericht maken](using/messages/create-sms.md)
+   + [Waarschuwingen controleren](using/messages/alerts.md)
+   + [Toestemming beheren](using/messages/consent.md)
+   + [Tijdoptimalisatie verzenden](using/messages/send-time-optimization.md)
++ Ontwerpcontent {#design}
+   + [Aan de slag met e-mailontwerp](using/design/design-emails.md)
+   + [Opnieuw starten ](using/design/create-email-content.md)
+   + [Uw e-mailinhoud importeren](using/design/existing-content.md)
+   + [Uw eigen inhoud coderen](using/design/code-content.md)
+   + [Werken met sjablonen](using/design/email-templates.md)
+   + Inhoud ontwerpen {#design-content}
+      + [Inhoudscomponenten gebruiken](using/design/content-components.md)
+      + [Achtergrondinstellingen](using/design/backgrounds.md)
+      + [Verticale uitlijning en opvulling aanpassen](using/design/adjusting-vertical-alignment-and-padding.md)
+      + [Een stijl voor koppelingen definiëren](using/design/styling-links.md)
+      + [Inline-opmaakkenmerken toevoegen](using/design/adding-inline-styling-attributes.md)
+   + E-mailinstellingen {#design-email}
+      + [De tekstversie genereren](using/design/text-version-email.md)
+      + [Een preheader toevoegen](using/design/preheader.md)
+   + Elementen toevoegen en beheren {#manage-asset}
+      + [Werken met Assets Essentials](using/design/assets-essentials.md)
+      + [Werken met Adobe Stock](using/design/stock.md)
+   + [Aangepaste aanbiedingen toevoegen](using/design/deliver-personalized-offers.md)
+   + [Koppelingen toevoegen en berichten bijhouden](using/design/message-tracking.md)
+   + [Voorvertoning en proefdrukken](using/design/preview.md)
++ Landingspagina’s {#landing-pages}
+   + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
+   + [Een landingspagina maken](using/landing-pages/create-lp.md)
+   + Ontwerpcontent {#landing-pages-design}
+      + [Informatie over het ontwerpen van bestemmingspagina](using/landing-pages/design-lp.md)
+      + [De inhoud van de openingspagina maken](using/landing-pages/lp-content.md)
+      + [Sjablonen maken](using/landing-pages/lp-templates.md)
+      + [Aangepast JavaScript toevoegen](using/landing-pages/lp-custom-js.md)
+   + [Een lidmaatschapslijst maken](using/landing-pages/subscription-list.md)
+   + [Gebruiksscenario’s](using/landing-pages/lp-use-cases.md)
++ Personalisatie{#personalization}
+   + [Aan de slag met personalisatie](using/personalization/personalize.md)
+   + [Persoonlijke context](using/personalization/personalization-contexts.md)
+   + Expressies samenstellen {#build-expressions}
+      + [Personalisatiesyntaxis](using/personalization/personalization-syntax.md)
+      + Werken met de expressie-editor {#expression-editor}
+         + [De expressie-editor](using/personalization/personalization-build-expressions.md)
+         + [Kenmerken toevoegen aan Favorieten](using/personalization/personalization-favorites.md)
+         + [Werken met opgeslagen expressies](using/personalization/personalization-library.md)
+         + [Validatie van personalisatie](using/personalization/personalization-validation.md)
+      + Helpfuncties{#functions}
+         + [Aan de slag met hulpfuncties](using/personalization/functions/functions.md)
+         + [Samenvoegingsfuncties](using/personalization/functions/aggregation.md)
+         + [Rekenkundige functies](using/personalization/functions/arithmetic-functions.md)
+         + [Arrays en lijstfuncties](using/personalization/functions/arrays-list.md)
+         + [Datumtijdfuncties](using/personalization/functions/dates.md)
+         + [Booleaanse en vergelijkingsfuncties](using/personalization/functions/operators.md)
+         + [Helpers](using/personalization/functions/helpers.md)
+         + [Toewijzingsfuncties](using/personalization/functions/maps.md)
+         + [Objectfuncties](using/personalization/functions/objects.md)
+         + [Reeksfuncties](using/personalization/functions/string.md)
+   + Gebruiksscenario’s{#personalization-use-cases}
+      + [Statusmelding van bestelling](using/personalization/personalization-use-case.md)
+      + [E-mailadres voor afmelden van winkelwagentje](using/personalization/personalization-use-case-helper-functions.md)
++ Segmenten, profielen en identiteit{#segment}
+   + Segmenten {#segments}
+      + [Aan de slag met segmenten](using/segment/about-segments.md)
+      + [Segmenten maken](using/segment/creating-a-segment.md)
+   + Profielen{#profiles}
+      + [Aan de slag met profielen](using/segment/get-started-profiles.md)
+      + [Testprofielen maken](using/segment/creating-test-profiles.md)
+   + [Identiteiten](using/segment/get-started-identity.md)
+   + [Licentiegebruik](using/segment/license-usage.md)
 + Bijhouden en bewaken {#reporting}
    + Live-rapport {#live-report}
       + [Het dashboard voor Live-rapporten openen](using/reports/live-report.md)
