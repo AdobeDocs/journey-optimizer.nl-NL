@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '899'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,11 @@ ht-degree: 1%
 >
 >De functie voor het experimenteren met inhoud is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Met de functie voor het experimenteren met inhoud kunt u meerdere leveringsbehandelingen definiëren. Het betrokken publiek wordt willekeurig toegewezen aan elke behandeling om te bepalen welke behandeling het best presteert ten opzichte van de maatstaf van belangstelling. U kunt de inhoud, het onderwerp of de afzender van de e-mail variëren.
+>[!NOTE]
+>
+>Voordat u inhoud gaat experimenteren, moet u ervoor zorgen dat de rapportconfiguratie is ingesteld voor uw aangepaste datasets. Meer informatie in [deze sectie](reporting-configuration.md).
+
+Met de functie voor het experimenteren met inhoud kunt u meerdere behandelingen voor aflevering definiëren. Het betrokken publiek wordt willekeurig toegewezen aan elke behandeling om te bepalen welke behandeling het best presteert ten opzichte van de maatstaf van belangstelling. U kunt de inhoud, het onderwerp of de afzender van de e-mail variëren.
 
 In het onderstaande voorbeeld is de leveringsdoelstelling opgesplitst in twee groepen, die elk 45% van de doelpopulatie vertegenwoordigen, en een holdoutgroep van 10%, die de levering niet zal ontvangen.
 

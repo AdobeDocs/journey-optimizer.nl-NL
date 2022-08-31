@@ -5,13 +5,10 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 634e46c70aa272785950d669938f3b35ec07ab1e
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 2%
+source-wordcount: '589'
+ht-degree: 1%
 
 ---
 
@@ -35,19 +32,9 @@ Met de lijst van gewenste personen kunt u afzonderlijke e-mailadressen of domein
 
 Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** en selecteert u **[!UICONTROL Allowed list]**.
 
-![](assets/allow-list-access.png)
-
 >[!CAUTION]
 >
 >Machtigingen om de lijst van gewenste personen weer te geven, te exporteren en te beheren zijn beperkt tot [Reisbeheerders](../administration/ootb-product-profiles.md#journey-administrator). Meer informatie over beheren [!DNL Journey Optimizer] toegangsrechten van gebruikers in [deze sectie](../administration/permissions-overview.md).
-
-Als u de lijst van gewenste personen als een CSV-bestand wilt exporteren, selecteert u de optie **[!UICONTROL Download CSV]** knop.
-
-Gebruik de **[!UICONTROL Delete]** om een item permanent te verwijderen.
-
-U kunt zoeken op de e-mailadressen of domeinen en filteren op de **[!UICONTROL Address type]**. Als deze optie is geselecteerd, kunt u het filter wissen dat boven op de lijst wordt weergegeven.
-
-![](assets/allowed-list-filtering-example.png)
 
 ## De lijst van gewenste personen inschakelen {#enable-allow-list}
 
@@ -55,13 +42,9 @@ Volg onderstaande stappen om de lijst van gewenste personen in te schakelen.
 
 1. Open het menu **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]**.
 
-1. Klik op **[!UICONTROL Enable/Disable allowed list]**.
-
-   ![](assets/allow-list-edit.png)
+1. Klik op **[!UICONTROL Edit]**.
 
 1. Selecteer **[!UICONTROL Enable allowed list]**.
-
-   ![](assets/allow-list-enable.png)
 
 1. Klik op **[!UICONTROL Save]**. De lijst van gewenste personen is ingeschakeld.
 
@@ -73,48 +56,11 @@ De logica van de lijst van gewenste personen is van toepassing wanneer de functi
 
 ## Entiteiten toevoegen aan de lijst van gewenste personen {#add-entities}
 
-Als u nieuwe e-mailadressen of domeinen wilt toevoegen aan de lijst van gewenste personen voor een specifieke sandbox, kunt u [de lijst handmatig vullen](#manually-populate-list)of gebruik een [API-aanroep](#api-call-allowed-list).
+Als u nieuwe e-mailadressen of domeinen wilt toevoegen aan de lijst van gewenste personen voor een specifieke sandbox, kunt u een [API-aanroep](#api-call-allowed-list).
 
 >[!NOTE]
 >
 >De lijst van gewenste personen kan maximaal 1.000 items bevatten.
-
-### De lijst van gewenste personen handmatig vullen {#manually-populate-list}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_allowed_list_add"
->title="Voeg adressen of domeinen aan de lijst van gewenste personen toe"
->abstract="U kunt handmatig nieuwe e-mailadressen of domeinen aan de lijst van gewenste personen toevoegen door deze een voor een te selecteren."
-
-U kunt de [!DNL Journey Optimizer] lijst van gewenste personen door een e-mailadres of een domein via de gebruikersinterface toe te voegen.
-
->[!NOTE]
->
->U kunt slechts één e-mailadres of domein tegelijk toevoegen.
-
-Volg de onderstaande stappen om dit te doen.
-
-1. Selecteer de knop **[!UICONTROL Add email or domain]**.
-
-   ![](assets/allowed-list-add-email.png)
-
-1. Kies het adrestype: **[!UICONTROL Email address]** of **[!UICONTROL Domain address]**.
-
-1. Voer het e-mailadres of domein in waarnaar u e-mails wilt verzenden.
-
-   >[!NOTE]
-   >
-   >Zorg ervoor dat u een geldig e-mailadres (zoals abc@company.com) of domein (zoals abc.company.com) opgeeft.
-
-1. Geef indien nodig een reden op.
-
-   ![](assets/allowed-list-add-email-address.png)
-
-   >[!NOTE]
-   >
-   >Alle ASCII-tekens tussen 32 en 126 zijn toegestaan in het dialoogvenster **[!UICONTROL Reason]** veld. De volledige lijst is te vinden op [deze pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} bijvoorbeeld.
-
-1. Klik op **[!UICONTROL Submit]**.
 
 ### Entiteiten toevoegen met een API-aanroep {#api-call-allowed-list}
 

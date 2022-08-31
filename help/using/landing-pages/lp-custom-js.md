@@ -5,7 +5,8 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 2%
@@ -65,7 +66,7 @@ Hier zijn de haken die u kunt gebruiken:
 | Naam | Beschrijving |
 |--- |--- |
 | addBeforeSubmitHook | Aangepaste haak die moet worden aangeroepen voordat het formulier wordt verzonden. Retourneert true om door te gaan met verzenden, anders retourneert false om verzending te blokkeren. |
-| addBeforeSubmitHook | Aangepaste haak die moet worden aangeroepen bij mislukte formulierverzending. |
+| addOnFailedHook | Aangepaste haak die moet worden aangeroepen bij mislukte formulierverzending. |
 | addOnSuccessHook | Aangepaste haak die moet worden aangeroepen wanneer het formulier is verzonden. |
 
 **Voorbeeld:**

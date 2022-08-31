@@ -2,9 +2,9 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c46be4a8054f27c6c3ef75c179b7c4c2641559ad
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '1825'
 ht-degree: 19%
 
 ---
@@ -20,6 +20,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Er wordt nu verwezen naar een video waarin wordt getoond hoe u abonnementen kunt configureren en bestemmingspagina&#39;s kunt maken in de sectie Aan de slag met bestemmingspagina&#39;s. [Meer informatie](../landing-pages/get-started-lp.md#video)
 * Er is een beperking toegevoegd voor reizen die gebruikmaken van leessegmentactiviteiten. [Meer informatie](../building-journeys/read-segment.md)
 * De pagina met expressiebewerkingsoperatoren is verbeterd. [Meer informatie](../building-journeys/expression/operators.md)
+* Er is een sectie toegevoegd over het plannen van een campagne. [Meer informatie](../campaigns/create-campaign.md)
 
 ## Juli 2022 {#july-2022}
 

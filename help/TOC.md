@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 634e46c70aa272785950d669938f3b35ec07ab1e
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 40%
@@ -265,7 +265,7 @@ ht-degree: 40%
       + [Voorbeelden van query&#39;s](using/reports/query-examples.md)
    + Leverbaarheid {#deliverability}
       + [Aan de slag met de prestaties](using/reports/deliverability.md)
-      + [Onderdrukkingslijst](using/reports/suppression-list.md)
+      + [De onderdrukkingslijst begrijpen](using/reports/suppression-list.md)
 + Beslissingsbeheer {#offer-decisioning}
    + Aan de slag met het beheer van beslissingen {#get-started-decision}
       + [Over het beheer van besluiten](using/offers/get-started/starting-offer-decisioning.md)
@@ -291,7 +291,7 @@ ht-degree: 40%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
+         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
@@ -385,7 +385,6 @@ ht-degree: 40%
          + E-mailadressen controleren {#monitor-reputation}
             + [Onderdrukkingslijst](using/configuration/manage-suppression-list.md)
             + [Hernieuwde pogingen](using/configuration/retries.md)
-            + [Lijst van gewenste personen](using/configuration/allow-list-temp.md)
             + [Lijst van gewenste personen](using/configuration/allow-list.md)
       + [Sms-kanaal configureren](using/configuration/sms-configuration.md)
       + Kanaaloppervlakken instellen {#set-up-channels}

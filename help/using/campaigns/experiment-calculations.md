@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 29c9b8d9e48192b940cb726ed0c116d0782d849a
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ In dit artikel worden de statistische berekeningen beschreven die worden gebruik
 
 In dit artikel wordt beschreven hoe de Experimentatie werkt en wordt een intuïtieve inleiding tot Adobe gegeven **Elke geldige betrouwbaarheidsreeks**.
 
-Voor gebruikers van deskundigen worden de technische details en de verwijzingen in [deze pagina](https://experienceleague.adobe.com/docs/journey-optimizer/assets/confidence_sequence_technical_details.pdf?lang=en).
+Voor gebruikers van deskundigen worden de technische details en de verwijzingen in [deze pagina](../campaigns/assets/confidence_sequence_technical_details.pdf).
 
 ## Statistische test- en controlefouten {#statistical-testing}
 
@@ -34,11 +34,11 @@ Voor gebruikers van deskundigen worden de technische details en de verwijzingen 
 Zoals in de bovenstaande tabel wordt geïllustreerd, zijn veel statistische bepalingsmethoden ontworpen om twee soorten fouten te beheersen:
 
 * **False Positives (Type-I-fouten)**: is een onjuiste afwijzing van de nulhypothese, terwijl dat juist is. In de context van online experimenten betekent dit dat we ten onrechte concluderen dat de uitkomst per behandeling verschilt, hoewel het dezelfde was.
-   </br>Voordat we het experiment uitvoeren, kiezen we doorgaans een drempel `$\alpha$`. Nadat het experiment is uitgevoerd, `$p$-value` is berekend en wij verwerpen `null if $p < \alpha$`. Een veel gebruikte drempel is `$\alpha = 0.05$`Dat betekent dat we op de lange termijn verwachten dat 5 van de 100 experimenten valse positieven zijn.
+   </br>Voordat we het experiment uitvoeren, kiezen we doorgaans een drempel `\alpha`. Nadat het experiment is uitgevoerd, `p-value` is berekend en wij verwerpen `null if p < \alpha`. Een veel gebruikte drempel is `\alpha = 0.05`Dat betekent dat we op de lange termijn verwachten dat 5 van de 100 experimenten valse positieven zijn.
 
-* **False Negatives (Type-II fouten)**: Dat betekent dat wij de nulhypothese niet verwerpen, hoewel deze onjuist is. Voor experimenten betekent dit dat we de nulhypothese niet verwerpen, terwijl die in feite anders is. Om dit soort fouten te kunnen beheren, moeten we in ons experiment over het algemeen voldoende gebruikers hebben om een bepaalde macht te garanderen, gedefinieerd als `$1 - \beta$`(d.w.z. één min de waarschijnlijkheid van een fout van type II).
+* **False Negatives (Type-II fouten)**: Dat betekent dat wij de nulhypothese niet verwerpen, hoewel deze onjuist is. Voor experimenten betekent dit dat we de nulhypothese niet verwerpen, terwijl die in feite anders is. Om dit soort fouten te kunnen beheren, moeten we in ons experiment over het algemeen voldoende gebruikers hebben om een bepaalde macht te garanderen, gedefinieerd als `1 - \beta`(d.w.z. één min de waarschijnlijkheid van een fout van type II).
 
-Voor de meeste statistische bepalingstechnieken moet u de grootte van de steekproef vooraf bepalen op basis van de effectgrootte die u wilt bepalen en de fouttolerantie (`$\alpha$` en `$\beta$`). De Adobe Journey Optimizer-methodologie is echter ontworpen om u in staat te stellen uw resultaten voortdurend te bekijken voor elke voorbeeldgrootte.
+Voor de meeste statistische bepalingstechnieken moet u de grootte van de steekproef vooraf bepalen op basis van de effectgrootte die u wilt bepalen en de fouttolerantie (`\alpha` en `\beta`). De Adobe Journey Optimizer-methodologie is echter ontworpen om u in staat te stellen uw resultaten voortdurend te bekijken voor elke voorbeeldgrootte.
 
 ## Adobe Elke geldige betrouwbaarheidsreeks
 
@@ -50,11 +50,13 @@ Het verschil tussen betrouwbaarheidsreeksen en betrouwbaarheidsintervallen voor 
 
 **Vertrouwensreeksen** de focus van experimenten verschuiven naar schattingen in plaats van hypothesetests, d.w.z. waarbij de nadruk ligt op een nauwkeurige schatting van het verschil in middelen tussen behandelingen, in plaats van of een nulhypothese op basis van een statistisch significante drempel wordt afgewezen.
 
-Evenals de relatie tussen `$p$-values`, of **Vertrouwen**, en **Vertrouwelijke intervallen** er ook een verband bestaat tussen **Vertrouwensreeksen** en elke geldige tijd `$p$-values`of een geldig vertrouwen. Gezien de bekendheid van hoeveelheden zoals het Vertrouwen, biedt Adobe zowel de **Vertrouwensreeksen** en een geldig vertrouwen in haar verslagen.
+Evenals de relatie tussen `p-values`, of **Vertrouwen**, en **Vertrouwelijke intervallen** er ook een verband bestaat tussen **Vertrouwensreeksen** en elke geldige tijd `p-values`of een geldig vertrouwen. Gezien de bekendheid van hoeveelheden zoals het Vertrouwen, biedt Adobe zowel de **Vertrouwensreeksen** en een geldig vertrouwen in haar verslagen.
 
 De theoretische grondslagen van **Vertrouwensreeksen** afkomstig zijn uit het onderzoek naar reeksen van willekeurige variabelen, martingales genoemd. Hieronder vindt u een aantal belangrijke resultaten voor ervaren lezers, maar de vakmensen zijn duidelijk:
 
-    De opeenvolgingen van het vertrouwen kunnen als veilige opeenvolgende analogen van betrouwbaarheidsintervallen worden geïnterpreteerd.U kunt gegevens in uw Experimenten bekijken en interpreteren wanneer u wilt, en veilig ophouden, of experimenten voortzetten. Het corresponderende Elke geldige Vertrouwen voor Tijd, of `$p$-value&#39;, is ook veilig om te interpreteren.
+>[!NOTE]
+>
+>De opeenvolgingen van het vertrouwen kunnen als veilige opeenvolgende analogen van betrouwbaarheidsintervallen worden geïnterpreteerd.U kunt gegevens in uw Experimenten bekijken en interpreteren wanneer u wilt, en veilig ophouden, of experimenten voortzetten. het overeenkomstige, op elk moment geldige vertrouwen, of `p-value`, is ook veilig te interpreteren.
 
 Aangezien vertrouwensreeksen &quot;op elk moment geldig&quot; zijn, zijn ze conservatiever dan een methode met een vaste tijdshorizon die bij dezelfde steekproefgrootte wordt gebruikt. De grenzen van de vertrouwensreeks zijn over het algemeen breder dan een berekening van het betrouwbaarheidsinterval, terwijl het tijdsverloop van een geldig vertrouwen kleiner zal zijn dan een berekening van het vaste horizonvertrouwen. Het voordeel van dit conservatisme is dat je je resultaten altijd veilig kunt interpreteren.
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 87f9a4661b64cf24a8cd62bb9c70d5f1c9fcaddf
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '700'
 ht-degree: 3%
 
 ---
@@ -23,15 +23,15 @@ ht-degree: 3%
 >* [Aan de slag met segmenten](../segment/about-segments.md)
 
 
-U kunt als volgt een campagne opzetten:
+## Maak uw eerste campagne {#create}
 
 1. Toegang krijgen tot **[!UICONTROL Campaigns]** en klik vervolgens op **[!UICONTROL Create campaign]**.
 
-   ![](assets/create-campaign.png)
-
    >[!NOTE]
    >
-   >U kunt ook een bestaande live campagne dupliceren om een nieuwe te maken. [Meer informatie](modify-stop-campaign.md#duplicate) <!-- check if only live campaigns-->
+   >U kunt ook een bestaande live campagne dupliceren om een nieuwe te maken. [Meer informatie](modify-stop-campaign.md#duplicate)
+
+   ![](assets/create-campaign.png)
 
 <!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
 
@@ -40,13 +40,15 @@ U kunt als volgt een campagne opzetten:
 
 1. In de **[!UICONTROL Actions]** , kiest u het kanaal en het kanaaloppervlak dat u wilt gebruiken om uw bericht te verzenden en klikt u op **[!UICONTROL Create]**.
 
-   ![](assets/create-campaign-action.png)
-
    Een oppervlak is een configuratie die is gedefinieerd door een [Systeembeheerder](../start/path/administrator.md). Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enz. [Meer informatie](../configuration/channel-surfaces.md).
+
+   ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >Alleen kanaaloppervlakken die compatibel zijn met het type campagne (marketing of transactie) worden vermeld in de vervolgkeuzelijst.
+   >Alleen kanaaloppervlakken die compatibel zijn met het type marketingcampagne worden weergegeven in de vervolgkeuzelijst.
+
+<!--Only channel surfaces compatible with the campaign type (marketing or transactional) are listed in the drop-down list.-->
 
 1. Geef een titel en een beschrijving voor de campagne op.
 
@@ -61,7 +63,8 @@ U kunt als volgt een campagne opzetten:
       * [Een e-mail maken](../messages/create-email.md)
       * [Pushberichten maken](../messages/create-push.md)
       * [Een SMS-bericht maken](../messages/create-sms.md)
-   1. Wanneer de inhoud is gedefinieerd, gebruikt u **[!UICONTROL Simulate content]** om de inhoud met testprofielen voor te vertonen en te testen. [Meer informatie](../design/preview.md).
+   1. Wanneer de inhoud is gedefinieerd, gebruikt u de **[!UICONTROL Simulate content]** om de inhoud met testprofielen voor te vertonen en te testen. [Meer informatie](../design/preview.md).
+
    1. Klik op de pijl om terug te gaan naar het scherm Campagne maken.
 
       ![](assets/create-campaign-design.png)
@@ -83,17 +86,11 @@ U kunt als volgt een campagne opzetten:
    >
    >Individuen die tot een segment behoren dat niet de geselecteerde identiteit (namespace) onder hun verschillende identiteiten heeft zullen niet door de campagne worden gericht.
 
-1. Configureer de planning van uw campagne in de velden voor begin- en einddatums. Standaard worden campagnes gestart zodra ze handmatig zijn geactiveerd en worden ze beëindigd zodra het bericht eenmaal is verzonden.
+   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
-1. Bovendien, kunt u een frequentie voor de uitvoering van de actie specificeren die in de campagne wordt gevormd.
+1. Om uw campagne op een specifieke datum of op een terugkomende frequentie uit te voeren, vorm **[!UICONTROL Schedule]** sectie. [Leer hoe u campagnes kunt plannen](#schedule)
 
-   <!-- NOTE For API-triggered campaigns, scheduling at a specific date and time with recurrence is not available as action is triggered via API. However, start and end date are relevant to ensure that, if an API call is made prior of after the window, then those get errored.-->
-
-   ![](assets/create-campaign-schedule.png)
-
-<!--1. If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
-
-Als uw campagne gereed is, kunt u deze controleren en publiceren. [Meer informatie](#review-activate);
+Als uw campagne gereed is, kunt u deze controleren en publiceren. [Meer informatie](#review-activate)
 
 ## Een campagne bekijken en activeren {#review-activate}
 
@@ -128,3 +125,13 @@ Zodra uw campagne is gevormd, moet u zijn parameter en inhoud herzien alvorens h
    U kunt extra statistieken in specifieke rapporten ook krijgen door te klikken op **[!UICONTROL Reports]** knop. [Meer informatie](../reports/campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)
+
+## Een campagne plannen {#schedule}
+
+Standaard worden campagnes gestart zodra ze handmatig zijn geactiveerd en eindigen zodra het bericht eenmaal is verzonden.
+
+U kunt een frequentie bepalen waarmee het bericht van de campagne zou moeten worden verzonden. Om dit te doen, gebruik **[!UICONTROL Action triggers]** in het scherm Campagne creëren om te specificeren of de campagne dagelijks, wekelijks, of maandelijks zou moeten worden uitgevoerd.
+
+Als u uw campagne niet meteen na de activering wilt uitvoeren, kunt u een datum en tijd opgeven waarop het bericht moet worden verzonden met de opdracht **[!UICONTROL Campaign start]** optie. De  **[!UICONTROL Campaign end]** kunt u opgeven wanneer een terugkerende campagne niet meer wordt uitgevoerd.
+
+![](assets/create-campaign-schedule.png)

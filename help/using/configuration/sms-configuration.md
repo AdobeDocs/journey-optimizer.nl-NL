@@ -4,9 +4,9 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van SMS-beri
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 44ef82f03752933269c1a8d9e65266c3132dd664
+source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '608'
 ht-degree: 1%
 
 ---
@@ -25,12 +25,12 @@ Voordat u SMS verzendt, configureert u uw exemplaar. U moet [providerinstellinge
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="Uw SMS-leverancier configureren"
+>title="Selecteer de configuratie van de leverancier van SMS"
 >abstract="Selecteer uw leverancier en vul uw SMS API-referenties in."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
->title="Uw SMS-leverancier configureren"
+>title="Selecteer de configuratie van de leverancier van SMS"
 >abstract="Selecteer de API geloofsbrieven die voor uw verkoper van SMS worden gevormd."
 
 Voer de volgende stappen uit om uw SMS-leverancier te configureren met Journey Optimizer:
