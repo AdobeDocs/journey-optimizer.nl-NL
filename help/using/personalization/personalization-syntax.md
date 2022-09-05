@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '730'
 ht-degree: 3%
 
 ---
@@ -42,6 +42,10 @@ De syntaxis is hoofdlettergevoelig.
 De woorden **true**, **false**, **null** en **ongedefinieerd** zijn alleen toegestaan in het eerste deel van een padexpressie.
 
 In Handlebars, zijn de waarden teruggekeerd door {{expression}} zijn **HTML-ontsnapt**. Als de expressie `&`, dan wordt de teruggekeerde HTML-beschermde output geproduceerd zoals `&amp;`. Als u niet wilt dat Handgrepen aan een waarde ontsnappen, gebruikt u de &#39;&#39;drievoudig-streepje&#39;&#39;.
+
+Wat argumenten voor letterlijke functies betreft, biedt de sjabloontaalparser geen ondersteuning voor een enkel unescaped backslash (&#39;\&#39;)-symbool. Aan dit teken moet een extra backslash (&#39;\&#39;) worden toegevoegd. Voorbeeld :
+
+`{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
 ## Profiel
 
@@ -121,7 +125,7 @@ Een helper van Handlebars is een eenvoudig herkenningsteken dat door parameters 
 Elke parameter is een expressie Handlebars. Deze helpers kunnen van om het even welke context in een malplaatje worden betreden.
 
 Deze blokhelpers worden geïdentificeerd door # voorafgaand aan de helpernaam en vereisen een passende sluiting /, van de zelfde naam.
-Blokken zijn expressies met een blokopening ({{# }}) en closing ({{/}).
+Blokken zijn expressies met een blokopening ({{# }}) and closing ({{/}}).
 
 
 >[!NOTE]

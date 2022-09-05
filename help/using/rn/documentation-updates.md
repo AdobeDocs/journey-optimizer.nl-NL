@@ -2,9 +2,9 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1871'
 ht-degree: 19%
 
 ---
@@ -19,8 +19,9 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De sectie van de Regels van de Frequentie is bijgewerkt om op de nieuwe in-lijn overseinenstroom te wijzen. [Meer informatie](../configuration/frequency-rules.md#apply-frequency-rule)
 * Er wordt nu verwezen naar een video waarin wordt getoond hoe u abonnementen kunt configureren en bestemmingspagina&#39;s kunt maken in de sectie Aan de slag met bestemmingspagina&#39;s. [Meer informatie](../landing-pages/get-started-lp.md#video)
 * Er is een beperking toegevoegd voor reizen die gebruikmaken van leessegmentactiviteiten. [Meer informatie](../building-journeys/read-segment.md)
-* De pagina met expressiebewerkingsoperatoren is verbeterd. [Meer informatie](../building-journeys/expression/operators.md)
+* De pagina met operators van expressies is verbeterd. [Meer informatie](../building-journeys/expression/operators.md)
 * Er is een sectie toegevoegd over het plannen van een campagne. [Meer informatie](../campaigns/create-campaign.md)
+* De sectie van de algemene syntaxisregels voor uitdrukkingsredacteur is bijgewerkt om rekening te houden met de nieuwe regel betreffende backslash symbool ontsnapend in letterlijke functies. Deze wijziging heeft geen invloed op de bestaande gepubliceerde berichten. Alleen de nieuwe berichten of conceptberichten moeten worden bijgewerkt. [Meer informatie](../personalization/personalization-syntax.md#general-rules)
 
 ## Juli 2022 {#july-2022}
 
