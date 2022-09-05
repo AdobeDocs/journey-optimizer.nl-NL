@@ -1,5 +1,5 @@
 ---
-title: Een inhoudexperiment maken
+title: Een contentexperiment maken
 description: Leer hoe u een content-experiment kunt maken in uw campagnes
 feature: Overview
 topic: Content Management
@@ -8,24 +8,24 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '898'
 ht-degree: 1%
 
 ---
 
-# Een Content-experiment maken {#content-experiment}
+# Een inhoudexperiment maken {#content-experiment}
 
 >[!AVAILABILITY]
 >
->De functie voor het experimenteren met inhoud is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>De **Inhoud experimenteren** Deze functie is momenteel alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+
+Met Journey Optimizer Content Experiment kunt u meerdere behandelingen voor de afgifte definiëren. Het betrokken publiek wordt willekeurig toegewezen aan elke behandeling om te bepalen welke behandeling het best presteert ten opzichte van de maatstaf van belangstelling. U kunt de inhoud, het onderwerp of de afzender van de e-mail variëren.
 
 >[!NOTE]
 >
->Voordat u inhoud gaat experimenteren, moet u ervoor zorgen dat de rapportconfiguratie is ingesteld voor uw aangepaste datasets. Meer informatie in [deze sectie](reporting-configuration.md).
-
-Met de functie voor het experimenteren met inhoud kunt u meerdere behandelingen voor aflevering definiëren. Het betrokken publiek wordt willekeurig toegewezen aan elke behandeling om te bepalen welke behandeling het best presteert ten opzichte van de maatstaf van belangstelling. U kunt de inhoud, het onderwerp of de afzender van de e-mail variëren.
+>Alvorens met de Experimenteer van de Inhoud te beginnen, zorg ervoor dat uw rapporteringsconfiguratie voor uw douanedatasets wordt geplaatst. Meer informatie in [deze sectie](reporting-configuration.md).
 
 In het onderstaande voorbeeld is de leveringsdoelstelling opgesplitst in twee groepen, die elk 45% van de doelpopulatie vertegenwoordigen, en een holdoutgroep van 10%, die de levering niet zal ontvangen.
 
@@ -40,7 +40,7 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
 ## Uw campagne maken {#campaign-experiment}
 
-1. Van de **[!UICONTROL Campaigns]** pagina, klikt u op **[!UICONTROL Create Campaign]**.
+1. Van de **[!UICONTROL Campaigns]** pagina, klikt u op **[!UICONTROL Create campaign]**.
 
    ![](assets/content_experiment_1.png)
 
@@ -99,9 +99,9 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
 1. Klikken **[!UICONTROL Email designer]** indien nodig de behandeling B verder aanpassen.
 
-Zodra uw behandelingen gepersonaliseerd zijn, kunt u beginnen uw inhoudexperiment te vormen.
+Zodra uw behandelingen gepersonaliseerd zijn, kunt u beginnen uw Experiment van de Inhoud te vormen.
 
-## Uw inhoudexperiment configureren {#configure-experiment}
+## Uw contentexperiment configureren {#configure-experiment}
 
 1. Wanneer beide leveringen zijn gepersonaliseerd, wordt vanaf de **[!UICONTROL Edit content]** venster, selecteert u **[!UICONTROL Configure content experiment]**.
 

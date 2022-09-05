@@ -1,5 +1,5 @@
 ---
-title: Rapportageconfiguratie
+title: Journey Optimizer-rapportage voor experimenten configureren
 description: Meer informatie over het instellen van een rapportgegevensbron
 feature: Data Sources
 topic: Administration
@@ -8,14 +8,14 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '704'
 ht-degree: 2%
 
 ---
 
-# Rapportageconfiguratie {#reporting-configuration}
+# Rapportage voor experimenten configureren {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"

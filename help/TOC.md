@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1133'
 ht-degree: 40%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 40%
       + [Aan de slag met het experimenteren met inhoud](using/campaigns/get-started-experiment.md)
       + [Een inhoudexperiment maken](using/campaigns/content-experiment.md)
       + [Statistische berekeningen begrijpen](using/campaigns/experiment-calculations.md)
-      + [Rapportageconfiguratie](using/campaigns/reporting-configuration.md)
+      + [Testrapporten configureren](using/campaigns/reporting-configuration.md)
    + [Campagnes activeren met API&#39;s](using/campaigns/api-triggered-campaigns.md)
 + Berichten {#messages}
    + [Aan de slag met berichten](using/messages/get-started-content.md)

@@ -1,16 +1,16 @@
 ---
-title: Door het experiment gebruikte statistische berekeningen
+title: Door het Adobe Journey Optimizer-experiment gebruikte statistische berekeningen
 description: Meer informatie over statistische berekeningen die tijdens experimenten worden gebruikt
 feature: Overview
-topic: Content Management
+topic: Content Management, A/B Testing
 role: User
 level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->De functie voor het experimenteren met inhoud is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>De **Inhoud experimenteren** Deze functie is momenteel alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-In dit artikel worden de statistische berekeningen beschreven die worden gebruikt bij het uitvoeren van experimenten in Adobe Journey Optimizer. Experimentatie gebruikt geavanceerde statistische methoden om te berekenen **Vertrouwensreeksen** en **Vertrouwen**, zodat u uw experimenten zo lang als nodig kunt uitvoeren en de resultaten voortdurend kunt controleren.
+In dit artikel worden de statistische berekeningen beschreven die worden gebruikt bij het uitvoeren van experimenten in Adobe Journey Optimizer.
+
+Experimentatie gebruikt geavanceerde statistische methoden om te berekenen **Vertrouwensreeksen** en **Vertrouwen**, zodat u uw experimenten zo lang als nodig kunt uitvoeren en de resultaten voortdurend kunt controleren.
 
 In dit artikel wordt beschreven hoe de Experimentatie werkt en wordt een intuïtieve inleiding tot Adobe gegeven **Elke geldige betrouwbaarheidsreeks**.
 
@@ -68,4 +70,4 @@ Telkens wanneer u het experimentatierapport bekijkt, analyseert Adobe de gegeven
 
 Op dit punt, zal de behandeling die het best (gebaseerd op de omzettingspercentage, of profiel-genormaliseerde metrische waarde) uitvoert worden benadrukt bij de bovenkant van het rapportscherm, en met een ster in het tabelrapport vermeld. Alleen behandelingen met een betrouwbaarheid van meer dan 95%, samen met de uitgangswaarde, worden in deze bepaling in aanmerking genomen.
 
-Wanneer er meer dan twee behandelingen zijn, wordt de Bonferroni correctieverbinding gebruikt om voor veelvoudige vergelijkingsproblemen te verbeteren, en het familie wijze foutenpercentage te controleren. In dit scenario is het ook mogelijk dat er meerdere behandelingen zijn met een betrouwbaarheid van meer dan 95% en waarvan de betrouwbaarheidsintervallen elkaar overlappen. In dit geval zal Adobe de klasse met de hoogste omzettingssnelheid (of profiel-genormaliseerde metrische waarde) verklaren om de beste prestaties te zijn.
+Wanneer er meer dan twee behandelingen zijn, wordt de Bonferroni correctieverbinding gebruikt om voor veelvoudige vergelijkingsproblemen te verbeteren, en het familie wijze foutenpercentage te controleren. In dit scenario is het ook mogelijk dat er meerdere behandelingen zijn met een betrouwbaarheid van meer dan 95% en waarvan de betrouwbaarheidsintervallen elkaar overlappen. In dit geval zal Adobe Journey Optimizer de klasse met de hoogste omzettingssnelheid (of profiel-genormaliseerde metrische waarde) aanmerken als de best presterende instantie.

@@ -2,23 +2,24 @@
 title: Aan de slag met het experimenteren met inhoud
 description: Meer informatie over het experimenteren met inhoud in [!DNL Journey Optimizer]
 feature: Overview
-topic: Content Management
+topic: Content Management, A/B Testing
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 0036c905b9344a6f99e8525acbe9caab5932f361
+exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
+source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
 
-# Aan de slag met experimenten met inhoud {#get-started-experiment}
+# Aan de slag met content-experimenten {#get-started-experiment}
 
 >[!AVAILABILITY]
 >
->De functie voor het experimenteren met inhoud is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>De functie Experimenteren met inhoud is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 ## Wat is een contentexperiment?
 
@@ -34,7 +35,7 @@ Met behulp van experimenten kunt u de wijzigingen isoleren die tot verbeteringen
 
 Dit staat u toe om gegevens gedreven besluiten in het optimaliseren van uw bedrijfsdoelstellingen te nemen.
 
-Voor inhoudexperimenten in Adobe Journey Optimizer kunt u ideeën testen zoals:
+Voor Inhoud-experimenten in Adobe Journey Optimizer kunt u ideeën testen, zoals:
 
 * **Onderwerpregel**: Wat zou het effect van een verandering in de toon of in de graad van personalisatie van een onderwerpregel kunnen zijn?
 * **Berichtinhoud**: Zal het veranderen van de visuele lay-out van een e-mail in meer klikken op e-mail resulteren?
@@ -60,7 +61,7 @@ Als u bijvoorbeeld de inhoud van de berichttekst wijzigt, is het onwaarschijnlij
 +++Voer de test uit op de juiste publieksgrootte of voor lang genoeg
 
 Als je langer tests uitvoert, kun je kleinere verschillen in het doel meten tussen behandelingen. Nochtans, als de basislijnwaarde van uw doel metrisch is, dan zult u grotere steekproefgrootte nodig hebben.
-Het aantal gebruikers dat in uw experiment moet worden omvat hangt van de effect grootte af u wenst te ontdekken, de variantie of de spreiding van uw doel metrisch, evenals uw tolerantie voor vals positieve en vals negatieve fouten. In klassieke experimenten kunt u een [voorbeeldgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) om te bepalen hoe lang u uw test moet in werking stellen.
+Het aantal gebruikers dat in uw experiment moet worden omvat hangt van de effect grootte af u wenst te ontdekken, de variantie of de spreiding van uw doel metrisch, evenals uw tolerantie voor vals positieve en vals negatieve fouten. In klassieke experimenten kunt u een [voorbeeldgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){_blank} om te bepalen hoe lang u de test moet uitvoeren.
 +++
 
 +++Statistische onzekerheid begrijpen
@@ -104,11 +105,11 @@ Als de betrouwbaarheidsintervallen voor twee behandelingen nauwelijks overlappen
 
 Adobe gebruikt 95% altijd geldige betrouwbaarheidsintervallen, of betrouwbaarheidsreeksen, wat betekent dat de resultaten op elk moment tijdens het experiment veilig kunnen worden bekeken.
 
-### 3. Lichten begrijpen {#understand-lift}
+### 3. Optillen begrijpen {#understand-lift}
 
 De samenvatting van het Experimentenrapport bevat de **[!UICONTROL Lift over Baseline]**, hetgeen een maatstaf is voor de procentuele verbetering van de conversiesnelheid van een bepaalde behandeling ten opzichte van de uitgangswaarde. Het is precies gedefinieerd als het verschil in prestaties tussen een bepaalde behandeling en de basislijn, gedeeld door de prestaties van de basislijn, uitgedrukt als een percentage.
 
-### 3. Vertrouwen {#understand-confidence}
+### 3. Vertrouwen begrijpen {#understand-confidence}
 
 Terwijl u zich vooral op de **[!UICONTROL Confidence interval]** Voor de uitvoering van elke behandeling toont Adobe ook het Vertrouwen, wat een probabilistische maat is van hoeveel bewijs er is dat een bepaalde behandeling gelijk is aan de basisbehandeling. Een hoger vertrouwen wijst op minder bewijs voor de veronderstelling dat de basislijn en de niet-basislijn behandelingen gelijke prestaties hebben. Meer in het bijzonder is het vertrouwen dat wordt weergegeven een waarschijnlijkheid (uitgedrukt als een percentage) dat we een kleiner verschil in omrekeningskoersen tussen een bepaalde behandeling en de basislijn zouden hebben gezien, als er in werkelijkheid geen verschil is in de werkelijke onderliggende omrekeningskoersen. Wat de p-waarden betreft, wordt een vertrouwen van 1 tot p-waarde weergegeven.
 
@@ -144,5 +145,3 @@ Nadat u uw experiment hebt uitgevoerd, zijn er verschillende mogelijke vervolgac
    >[!CAUTION]
    >
    >Meer analyses betekenen een grotere kans om een ongewenst effect, of vals positief te ontdekken.
-
-
