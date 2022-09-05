@@ -1,14 +1,14 @@
 ---
 title: Een contentexperiment maken
 description: Leer hoe u een content-experiment kunt maken in uw campagnes
-feature: Content Management, A/B Testing
+feature: A/B Testing
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 14a428a0f8b17d9f29d9dfff18c5e9bb7eb77b97
+source-git-commit: 6068060e66f75a7727f4a0fdae580c11542fa13b
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 1%
@@ -101,7 +101,7 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
 Zodra uw behandelingen gepersonaliseerd zijn, kunt u beginnen uw Experiment van de Inhoud te vormen.
 
-## Uw contentexperiment configureren {#configure-experiment}
+## Uw inhoudexperiment configureren {#configure-experiment}
 
 1. Wanneer beide leveringen zijn gepersonaliseerd, wordt vanaf de **[!UICONTROL Edit content]** venster, selecteert u **[!UICONTROL Configure content experiment]**.
 
