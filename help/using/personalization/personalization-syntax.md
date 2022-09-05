@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
+source-git-commit: 7476c50f82c0fdd63f282b3ee2dc3756862f598c
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 3%
@@ -43,7 +43,7 @@ De woorden **true**, **false**, **null** en **ongedefinieerd** zijn alleen toege
 
 In Handlebars, zijn de waarden teruggekeerd door {{expression}} zijn **HTML-ontsnapt**. Als de expressie `&`, dan wordt de teruggekeerde HTML-beschermde output geproduceerd zoals `&amp;`. Als u niet wilt dat Handgrepen aan een waarde ontsnappen, gebruikt u de &#39;&#39;drievoudig-streepje&#39;&#39;.
 
-Wat argumenten voor letterlijke functies betreft, biedt de sjabloontaalparser geen ondersteuning voor een enkel unescaped backslash (&#39;\&#39;)-symbool. Aan dit teken moet een extra backslash (&#39;\&#39;) worden toegevoegd. Voorbeeld :
+Wat argumenten voor letterlijke functies betreft, ondersteunt de parser voor sjabloontaal geen enkele backslash zonder escape-teken (`\`). Dit teken moet met een extra backslash (`\`). Voorbeeld :
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
