@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 6068060e66f75a7727f4a0fdae580c11542fa13b
+source-git-commit: f0e2f80a815aebb7574582fbf33770aa5da0abab
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 1%
@@ -101,7 +101,7 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
 Zodra uw behandelingen gepersonaliseerd zijn, kunt u beginnen uw Experiment van de Inhoud te vormen.
 
-## Uw inhoudexperiment configureren {#configure-experiment}
+## Uw contentexperiment configureren {#configure-experiment}
 
 1. Wanneer beide leveringen zijn gepersonaliseerd, wordt vanaf de **[!UICONTROL Edit content]** venster, selecteert u **[!UICONTROL Configure content experiment]**.
 
