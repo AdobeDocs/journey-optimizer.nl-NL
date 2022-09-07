@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 630b8ef5a140709161b24256083b2104be5b6121
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 1%
@@ -21,9 +21,9 @@ De [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/e
 
 De SDK van het Web van de Experience Platform steunt het vragen van de verpersoonlijkingsoplossingen bij Adobe, met inbegrip van Beslissingsbeheer, die u toestaat om gepersonaliseerde aanbiedingen terug te winnen en terug te geven die u gebruikend APIs of de Bibliotheek van de Aanbieding hebt gecreeerd. Raadpleeg de documentatie bij de [een aanbieding maken](../../get-started/starting-offer-decisioning.md).
 
-Er zijn twee manieren om Offer decisioning met de [Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). Eén manier is gericht op ontwikkelaars en vereist kennis van websites en programmering. De andere manier is door de Adobe Experience Platform-gebruikersinterface te gebruiken voor het instellen van aanbiedingen waarbij alleen naar een klein script moet worden verwezen in de koptekst van de pagina HTML.
+Er zijn twee manieren om het besluitvormingsbeheer uit te voeren met de [Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). Eén manier is gericht op ontwikkelaars en vereist kennis van websites en programmering. De andere manier is door de Adobe Experience Platform-gebruikersinterface te gebruiken voor het instellen van aanbiedingen waarbij alleen naar een klein script moet worden verwezen in de koptekst van de pagina HTML.
 
-Raadpleeg de documentatie bij [offer decisioning](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) voor meer informatie over hoe te om gepersonaliseerde aanbiedingen te leveren gebruikend het Web SDK van het Platform.
+Raadpleeg de documentatie bij [beslissingsbeheer](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=en#enabling-offer-decisioning) voor meer informatie over hoe te om gepersonaliseerde aanbiedingen te leveren gebruikend het Web SDK van het Platform.
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Om aanbiedingen te personaliseren, moet u uw personalisatie/profielen afzonderli
 
 <!-- Refer to the [doc](www.link.com) for detailed instructions.  -->
 
-Voer een van de volgende twee stappen uit om de SDK voor Offer decisioning te configureren:
+Voer een van de volgende twee stappen uit om de SDK voor beslissingsbeheer te configureren:
 
 ## Optie 1 - De tagextensie en -implementatie installeren met Starten
 
@@ -90,7 +90,7 @@ Deze optie is gebruiksvriendelijker voor mensen die minder ervaring hebben met c
 
 ## Optie 2 - Handmatig implementeren met behulp van de geïntegreerde zelfstandige versie
 
-Hier zijn de stappen nodig om Offer decisioning te gebruiken die de prebuilt standalone installatie van Web SDK gebruiken. In deze handleiding wordt ervan uitgegaan dat dit de eerste keer is dat u de SDK implementeert, zodat alle stappen mogelijk niet op u van toepassing zijn. Deze gids veronderstelt ook enige ontwikkelervaring.
+Hier zijn de stappen nodig om besluitvormingsbeheer te gebruiken gebruikend de prebuilt standalone installatie van Web SDK. In deze handleiding wordt ervan uitgegaan dat dit de eerste keer is dat u de SDK implementeert, zodat alle stappen mogelijk niet op u van toepassing zijn. Deze gids veronderstelt ook enige ontwikkelervaring.
 
 Neem het volgende JavaScript-fragment op uit Option 2: De vooraf gebouwde stand-alone versie op [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en) in de `<head>` van uw pagina HTML.
 

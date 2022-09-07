@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '446'
 ht-degree: 1%
 
 ---
@@ -29,11 +29,11 @@ In de standaardconfiguratie is de drempel ingesteld op 5 fouten.
 
 Als de levering succesvol is nadat opnieuw is geprobeerd, wordt de foutenteller van het adres opnieuw geïnitialiseerd.
 
-## De drempel voor opnieuw proberen bewerken {#edit-retry-threshold}
+## Drempelwaarde voor opnieuw proberen {#edit-retry-threshold}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_bounces"
->title="De drempel voor het aantal fouten bijwerken"
+>title="De drempel voor opnieuw proberen bijwerken"
 >abstract="Als de standaardwaarde niet aan uw behoeften voldoet, kunt u het toegestane aantal opeenvolgende zachte grenzen wijzigen. Wanneer de teller voor opnieuw proberen de foutendrempel voor een specifiek e-mailadres bereikt, wordt dit adres toegevoegd aan de onderdrukkingslijst."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="De suppressielijst begrijpen"
 

@@ -5,9 +5,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 1d0e28583c500d5eddf9f88250f279d188c4784a
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -26,4 +26,4 @@ De stappen voor het configureren van het pushmeldingskanaal en het testen van de
 
 U kunt ook meerdere handelingen uitvoeren met **[!DNL Adobe Journey Optimizer]API&#39;s**.
 
-Stappen om u te helpen beginnen te gebruiken [!DNL Offer Library] API is gedetailleerd [in deze sectie](../../offers/api-reference/getting-started.md). Deze handleiding bevat voorbeeld-API-oproepen voor het uitvoeren van toetsbewerkingen met behulp van de beslissingsbeheerengine.
+Stappen om u te helpen beginnen te gebruiken [!DNL Offer Library] API is gedetailleerd [in deze sectie](../../offers/api-reference/getting-started.md). Deze handleiding bevat voorbeeld-API-aanroepen voor het uitvoeren van toetsbewerkingen met behulp van de beslissingsengine.

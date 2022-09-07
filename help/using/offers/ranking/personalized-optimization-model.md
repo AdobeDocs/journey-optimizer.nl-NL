@@ -6,9 +6,10 @@ description: Meer informatie over aangepaste optimalisatiemodellen
 feature: Ranking Formulas
 role: User
 level: Intermediate
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+exl-id: c73b3092-e96d-4957-88e6-500e99542782
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -40,9 +41,9 @@ Er zijn drie typen functies:
 
 | Typen functies | Hoe te om eigenschappen aan modellen toe te voegen |
 |--------------|----------------------------|
-| offer decisioning Objects (placementID, activityID, DecisionScopeID) | Deel van de Offer decisioning terugkoppelt Ervaring Gebeurtenissen die naar AEP worden verzonden |
+| Decisioning-objecten (placementID, activityID, DecisionScopeID) | Deel van de feedback-ervaringen over het beheer van beslissingen die naar het AEP zijn verzonden |
 | Segmenten | 0-50 segmenten kunnen worden toegevoegd als functies bij het maken van het Willekeurige AI-model |
-| Contextgegevens | Een deel van de Offer decisioning geeft de Gebeurtenissen van de Ervaring terug die aan AEP worden verzonden. Beschikbare contextgegevens die aan schema moeten worden toegevoegd: Handelsgegevens, kanaaldetails, toepassingsdetails, webdetails, omgevingsdetails, apparaatdetails, context |
+| Contextgegevens | Een deel van de beslissing feedback over ervaringen die naar AEP zijn gestuurd. Beschikbare contextgegevens die aan schema moeten worden toegevoegd: Handelsgegevens, kanaaldetails, toepassingsdetails, webdetails, omgevingsdetails, apparaatdetails, context |
 
 Het model heeft twee fasen:
 

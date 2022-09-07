@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Hieronder vindt u aanvullende instructies en beperkingen bij het gebruik [!DNL A
 
 ## Garanties voor besluitvormingsbeheer {#offer-guardrails}
 
-Prestatiegerichten en statische limieten voor het besluitvormingsbeheer worden vermeld in de [Adobe Offer decisioning App Service, productbeschrijvingspagina](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
+De prestatiegerelateerde en statische grenzen voor besluiten zijn vermeld in [Adobe Offer decisioning App Service, productbeschrijvingspagina](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
 
 
 ## Handleidingen voor landingspagina&#39;s {#lp-guardrails}

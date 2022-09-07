@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '750'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Biedt aanbiedingen met de [!DNL Batch Decisioning] API {#deliver-offers-batch}
 
-De [!DNL Batch Decisioning] API staat organisaties toe om de functionaliteit van de offer decisioning voor alle profielen in een bepaald segment in één vraag te gebruiken. De aanbiedingsinhoud voor elke profielen in het segment wordt geplaatst in een dataset van Adobe Experience Platform waar het voor de werkschema&#39;s van de douanepartij beschikbaar is.
+De [!DNL Batch Decisioning] API staat organisaties toe om besluitvormingsfunctionaliteit voor alle profielen in een bepaald segment in één vraag te gebruiken. De aanbiedingsinhoud voor elke profielen in het segment wordt geplaatst in een dataset van Adobe Experience Platform waar het voor de werkschema&#39;s van de douanepartij beschikbaar is.
 
 Met de [!DNL Batch Decisioning] API, kunt u een dataset met de beste aanbiedingen voor alle profielen in een segment van Adobe Experience Platform voor besluitvormingswerkingsgebied bevolken. Een organisatie wil bijvoorbeeld [!DNL Batch Decisioning] zodat zij voorstellen naar een leverancier van de berichtlevering kunnen verzenden. Die aanbiedingen worden dan gebruikt als inhoud die voor partijberichtlevering aan het zelfde segment van gebruikers wordt verzonden.
 
@@ -128,7 +128,7 @@ Zie de [Beslissingsbeheerdocumentatie](../../get-started/starting-offer-decision
 
 | Eigenschap | Beschrijving | Voorbeeld |
 | -------- | ----------- | ------- |
-| `@id` | De UUID die wordt gegenereerd door Offer decisioning die één werkbelasting identificeert. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
+| `@id` | De UUID die door besluitvormingsbeheer wordt geproduceerd dat één enkele werkbelasting identificeert. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | De organisatie-id. | `9GTO98D5F@AdobeOrg` |
 | `xdm:containerId` | De container-id. | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | De tijd toen het verzoek van de beslissingswerklast werd gecreeerd. | `1648078924834` |
@@ -148,7 +148,7 @@ GET  {ENDPOINT_PATH}/{CONTAINER_ID}/workloads/decisions/{WORKLOAD_ID}
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/ode` |
 | `{CONTAINER_ID}` | De container waarin de beslissingen zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{WORKLOAD_ID}` | De UUID die wordt gegenereerd door Offer decisioning die één werkbelasting identificeert. | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |
+| `{WORKLOAD_ID}` | De UUID die door besluitvormingsbeheer wordt geproduceerd dat één enkele werkbelasting identificeert. | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |
 
 **Verzoek**
 
@@ -177,7 +177,7 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 
 | Eigenschap | Beschrijving | Voorbeeld |
 | -------- | ----------- | ------- |
-| `@id` | De UUID die wordt gegenereerd door Offer decisioning die één werkbelasting identificeert. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
+| `@id` | De UUID die door besluitvormingsbeheer wordt geproduceerd dat één enkele werkbelasting identificeert. | `5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8` |
 | `xdm:imsOrgId` | Organisatie-id | `9GTO98D5F@AdobeOrg` |
 | `xdm:containerId` | De container-id | `0948b1c5-fff8-3b76-ba17-909c6b93b5a2` |
 | `ode:createDate` | De tijd waarop de aanvraag voor beslissingswerkbelasting is gemaakt. | `1648076994405` |

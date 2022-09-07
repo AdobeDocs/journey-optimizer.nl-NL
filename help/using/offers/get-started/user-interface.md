@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Met de aanbiedingsbibliotheek kunt u uw plaatsingen en aanbiedingen op één loc
 
 Gebruik de  **[!UICONTROL Offers]** om gepersonaliseerde en terugvalaanbiedingen te beheren, hen in inzamelingen te organiseren, en hen te leveren door besluiten te creëren:
 
-* **[!UICONTROL Overview]**: Nieuw bij [!DNL Offer Decisioning]? Volg de stappen op het scherm om aan de slag te gaan met het instellen van plaatsingen, aanbiedingen en verzamelingen. Als u al vertrouwd bent met [!DNL Offer Decisioning], bekijk een overzicht van je meest recente aanbiedingen, verzamelingen en beslissingen. Zie [Overzicht](#overview).
+* **[!UICONTROL Overview]**: Nieuw bij [!DNL decision management]? Volg de stappen op het scherm om aan de slag te gaan met het instellen van plaatsingen, aanbiedingen en verzamelingen. Als u al vertrouwd bent met [!DNL decision management], bekijk een overzicht van je meest recente aanbiedingen, verzamelingen en beslissingen. Zie [Overzicht](#overview).
 
 * **[!UICONTROL Offers]**: Heb toegang tot uw gepersonaliseerde en reserveaanbiedingen of creeer nieuwe degenen. Zie [Een aanbieding maken](../offer-library/creating-personalized-offers.md) en [Een fallback-aanbieding maken](../offer-library/creating-fallback-offers.md).
 
@@ -47,7 +47,7 @@ Gebruik de  **[!UICONTROL Components]** menu voor het beheer van de componenten 
 
 ## Overzicht {#overview}
 
-Als u nog niet eerder [!DNL Offer Decisioning]de **[!UICONTROL Overview]** bevat een overzicht van de belangrijkste stappen die nodig zijn om de beslissing over je eerste voorstel op te stellen.
+Als u nog niet eerder [!DNL decision management]de **[!UICONTROL Overview]** bevat een overzicht van de belangrijkste stappen die nodig zijn om de beslissing over je eerste voorstel op te stellen.
 
 ![](../assets/overview_onboarding.png)
 
@@ -61,7 +61,7 @@ Zodra u met deze eerste stappen wordt gedaan, wordt u ertoe aangezet om aanbiedi
 >
 >De belangrijkste stappen om aanbiedingen tot stand te brengen en hen in een besluit te gebruiken zijn voorgesteld in [deze sectie](../offer-library/key-steps.md).
 
-Wanneer u vertrouwd bent met [!DNL Offer Decisioning] en u hebt al ten minste één biedingsbesluit gemaakt, de **[!UICONTROL Overview]** geeft uw meest recente aanbiedingen, verzamelingen en beslissingen weer.
+Wanneer u vertrouwd bent met [!DNL decision management] en u hebt al ten minste één biedingsbesluit gemaakt, de **[!UICONTROL Overview]** geeft uw meest recente aanbiedingen, verzamelingen en beslissingen weer.
 
 Klik op een voorstel of een beslissing om rechtstreeks toegang te krijgen tot de gegevens van het geselecteerde object.
 

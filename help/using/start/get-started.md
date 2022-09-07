@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: df5bb48130c715441fb02bc034edddcad1da7cbf
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '702'
+ht-degree: 6%
 
 ---
 
@@ -49,7 +49,7 @@ De belangrijkste mogelijkheden omvatten:
 
 * **Moderne Omnichannel Orchestration &amp; Execution** - Een enkel canvas waarop de reis van de klant voor 1:1 klantenovereenkomst en marketing-outreach wordt geharmoniseerd en geoptimaliseerd—om merken te helpen meer waarde in de gehele levenscyclus van de klant te leveren. Klantenreizen ontworpen in [!DNL Adobe Journey Optimizer] kan dynamisch zijn en gebeurtenis die wordt gebaseerd om brands te helpen op signalen in real time reageren evenals die interactie met geplande campagnes verbinden zodat kunnen de juiste besluiten over welke mededelingen worden gemaakt om een klant te verzenden, wanneer en door welke kanalen.
 
-* **Intelligente besluitvorming en persoonlijke voorkeur** - Merken kunnen gecentraliseerde besluitvorming toepassen en kunstmatige intelligentie en machinaal leren opnemen om voorspellende inzichten in de hele klantervaring aan het licht te brengen, waardoor beslissingen gemakkelijker kunnen worden geautomatiseerd en de ervaring op schaal kan worden geoptimaliseerd. offer decisioning biedt gecentraliseerde aanbiedingen via kanalen [!DNL Adobe Journey Optimizer].
+* **Intelligente besluitvorming en persoonlijke voorkeur** - Merken kunnen gecentraliseerde besluitvorming toepassen en kunstmatige intelligentie en machinaal leren opnemen om voorspellende inzichten in de hele klantervaring aan het licht te brengen, waardoor beslissingen gemakkelijker kunnen worden geautomatiseerd en de ervaring op schaal kan worden geoptimaliseerd. Beslissingsbevoegdheden gecentraliseerde aanbiedingen via kanalen op schaal [!DNL Adobe Journey Optimizer].
 
 ## Architectuur {#architecture}
 

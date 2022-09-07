@@ -6,7 +6,8 @@ description: Meer informatie over modellen voor automatische optimalisatie
 feature: Ranking Formulas
 role: User
 level: Intermediate
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '1404'
 ht-degree: 0%
@@ -19,7 +20,7 @@ Een model voor automatische optimalisatie is bedoeld voor aanbiedingen die het r
 
 ## Beperkingen {#limitations}
 
-Voor het gebruik van modellen voor automatische optimalisatie voor Offer decisioning gelden de onderstaande beperkingen:
+Voor het gebruik van modellen voor automatische optimalisatie voor besluitvormingsbeheer gelden de onderstaande beperkingen:
 
 * Modellen voor automatische optimalisatie werken niet met de API voor het bepalen van batch.
 * Feedback die nodig is om het model te maken, moet worden verzonden als een ervaringsgebeurtenis. Het mag niet automatisch worden verzonden in [!DNL Journey Optimizer] kanalen.

@@ -2,7 +2,7 @@
 title: Release-aantekeningen 2022
 description: Opmerkingen bij de release van Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 5aae2f685969460329f241720b0faf9c681fa668
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '2337'
 ht-degree: 9%
@@ -111,7 +111,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 
 * **Parameters voor URL-tracking** - U kunt de Expressieeditor nu gebruiken om URL-volgparameters in uw e-mailoppervlakken (dus voorinstellingen) te configureren. [Meer informatie](../configuration/email-settings.md#url-tracking)
 
-**offer decisioning**
+**beslissingsbeheer**
 
 * **Grootte publiek** - Een nieuwe de schattingscomponent van de publieksgrootte wordt nu getoond in het gebruikersinterface wanneer het creëren van een besluitvormingsregel, wanneer het selecteren van een segment of een regel om een aanbiedingsontvankelijkheid te plaatsen, of wanneer het toevoegen van een segment of een regel aan een besluitvormingswerkingsgebied.
 
@@ -340,7 +340,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 
 **Beslissingsbeheer**
 
-* **API voor besluitvorming op Edge** - De Edge-API voor besluitvorming kan persoonlijke aanbiedingen die in de Offer decisioning worden beheerd, leveren en renderen. U kunt uw aanbiedingen en andere verwante objecten maken met de gebruikersinterface (UI) of API&#39;s van de Offer decisioning. [Meer informatie](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
+* **API voor besluitvorming op Edge** - Edge Decisioning API kan persoonlijke aanbiedingen leveren en weergeven die worden beheerd in besluitvormingsbeheer. U kunt uw aanbiedingen en andere gerelateerde objecten maken met behulp van de gebruikersinterface (UI) of API&#39;s voor besluitvormingsbeheer. [Meer informatie](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
 **Beheer**
 
@@ -378,7 +378,7 @@ Als Adobe Campaign Standard-klant kunt u nu e-mails, pushberichten en SMS verzen
 **Beslissingsbeheer**
 
 * U kunt nu opgeven of het aanbieden van een maximum wordt toegepast op alle gebruikers of op één specifiek profiel, en op alle plaatsen of per plaatsing. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
-* Met de Batch-beslissings-API kunnen organisaties de functionaliteit offer decisioning gebruiken voor alle profielen in een bepaald segment in één aanroep. De aanbiedingsinhoud voor elke profielen in het segment wordt geplaatst in een AEP dataset waar het voor de werkschema&#39;s van de douanepartij beschikbaar is. [Meer informatie](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
+* Met de Batch-API kunnen organisaties de functionaliteit voor besluitvormingsbeheer gebruiken voor alle profielen in een bepaald segment in één aanroep. De aanbiedingsinhoud voor elke profielen in het segment wordt geplaatst in een AEP dataset waar het voor de werkschema&#39;s van de douanepartij beschikbaar is. [Meer informatie](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **Beheer**
 
@@ -476,7 +476,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * U kunt nu rapporten openen over de gegevens voor Tijdoptimalisatie verzenden: het aantal personen dat onmiddellijk berichten was en het aantal personen dat met optimalisatie van 1 uur, optimalisatie van 2 uur, enz. werd gecommuniceerd.
 
-<!--* Offer Decisioning reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
+<!--* decision management reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 
 **Beslissingsbeheer**
 
@@ -524,7 +524,7 @@ The suppression list helps you with honoring the ISPs’ feedback to preserve se
 
 * Journey Optimizer step-gebeurtenissen kunnen nu worden gekoppeld aan andere datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html). De **profileID** in het ingebouwde schema voor de gebeurtenis van de Stap van de Reis, wordt nu gedefinieerd als identiteitsgebied. [Meer informatie](../reports/sharing-overview.md#integration-cja)
 
-**offer decisioning**
+**beslissingsbeheer**
 
 * Wanneer u een aanbod, een fallback-aanbieding, een verzameling van aanbiedingen of een besluit van een aanbieding bijwerkt waarnaar direct of indirect wordt verwezen in een gepubliceerd bericht, worden de updates nu automatisch weerspiegeld in het bijbehorende bericht, zonder dat u het bericht opnieuw hoeft te publiceren. [Meer informatie](../offers/offers-e2e.md#insert-decision-in-email)
 

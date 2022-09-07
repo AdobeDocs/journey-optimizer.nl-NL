@@ -5,9 +5,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 5a6e18e6ff236d25bd5f81b42430be2998208321
+exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Op deze pagina vindt u de lijst met Adobe Journey Optimizer-gegevenssets en verw
 [Gegevensset voor feedbackgebeurtenis](../start/datasets-query-examples.md#message-feedback-event-dataset)
 [Dataset met gebeurtenissen voor het bijhouden van pushmeldingen](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
 [Reisstapgebeurtenis](../start/datasets-query-examples.md#journey-step-event)
-[Dataset voor gebeurtenis offer decisioning](../start/datasets-query-examples.md#ode-decisionevents)
+[Dataset voor beslissingsgebeurtenis](../start/datasets-query-examples.md#ode-decisionevents)
 [Dataset voor goedgekeurde service](../start/datasets-query-examples.md#consent-service-dataset)
 [Gegevensset BCC-feedbackgebeurtenis](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
 
@@ -198,7 +199,7 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
 
-## Dataset voor gebeurtenis offer decisioning{#ode-decisionevents}
+## Dataset voor beslissingsgebeurtenis{#ode-decisionevents}
 
 _Naam in de interface: ODE DecisionEvents (systeem dataset)_
 

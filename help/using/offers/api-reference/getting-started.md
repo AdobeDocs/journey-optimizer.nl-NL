@@ -1,21 +1,21 @@
 ---
 title: Aan de slag
-description: Leer hoe u de bibliotheek-API van de Aanbieding kunt gebruiken om belangrijke bewerkingen uit te voeren met behulp van de beslissingsbeheerengine.
+description: Leer hoe u de bibliotheek-API van de Aanbieding kunt gebruiken om toetsbewerkingen uit te voeren met de beslissingsengine.
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 79d3bd42c208d38aaebce742e70b247106c21587
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '638'
 ht-degree: 2%
 
 ---
 
 # Handleiding voor ontwikkelaars van API voor beheer van beslissingen {#decision-management-api-developer-guide}
 
-Deze handleiding voor ontwikkelaars bevat stappen waarmee u de functie [!DNL Offer Library] API. De gids verstrekt dan steekproefAPI vraag om zeer belangrijke verrichtingen uit te voeren gebruikend de Motor van het Beheer van het Besluit.
+Deze handleiding voor ontwikkelaars bevat stappen waarmee u de functie [!DNL Offer Library] API. De gids verstrekt dan steekproefAPI vraag voor het uitvoeren van zeer belangrijke verrichtingen gebruikend de bepalingsmotor.
 
 ➡️ [Meer informatie over de componenten van Beslissingsbeheer vindt u in deze video](#video)
 
@@ -25,7 +25,7 @@ Deze handleiding vereist een goed begrip van de volgende onderdelen van Adobe Ex
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target=&quot;_blank&quot;}: Het gestandaardiseerde kader waardoor [!DNL Experience Platform] organiseert de gegevens van de klantenervaring.
    * [Basisbeginselen van de schemacompositie](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html){target=&quot;_blank&quot;}: Leer over de basisbouwstenen van schema&#39;s XDM.
-* [Beslissingsbeheer](../../../using/offers/get-started/starting-offer-decisioning.md): Verklaart de concepten en de componenten die voor Ervaring in het algemeen en Offer decisioning in het bijzonder worden gebruikt. Toont de strategieën die voor het kiezen van de beste optie worden gebruikt om tijdens de ervaring van een klant voor te stellen.
+* [Beslissingsbeheer](../../../using/offers/get-started/starting-offer-decisioning.md): Hierin worden de concepten en componenten beschreven die worden gebruikt voor het nemen van een besluit over de ervaring in het algemeen en het nemen van besluiten in het bijzonder. Toont de strategieën die voor het kiezen van de beste optie worden gebruikt om tijdens de ervaring van een klant voor te stellen.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target=&quot;_blank&quot;}: PQL is een krachtige taal voor het schrijven van expressies over XDM-instanties. PQL wordt gebruikt om besluitvormingsregels te bepalen.
 
 ## API-voorbeeldaanroepen lezen {#reading-sample-api-calls}
@@ -130,7 +130,7 @@ Dit document bevatte de vereiste kennis die nodig was om oproepen te doen aan de
 
 >[!NOTE]
 >
-> Het communicatiekanaal in de app in Adobe Journey Optimizer gebruikt offer decisioning-objecten. Als uw organisatie het communicatiekanaal in de app gebruikt, bevatten aanvragen voor API-lijsten voor objecten objecten die zijn gemaakt door de communicatieservice in de app en kunnen deze worden genegeerd voor gebruik door de offer decisioning. Objecten die voor in-app-berichten zijn gemaakt, hebben `createdBy = “Mobile_Sheliak”`.
+> Het communicatiekanaal in de app in Adobe Journey Optimizer gebruikt beslissingsbeheerobjecten. Als uw organisatie het communicatiekanaal in de app gebruikt, bevatten aanvragen voor API-lijsten voor objecten objecten die zijn gemaakt door de communicatieservice in de app en kunnen deze worden genegeerd voor gebruikstoepassingen voor besluitvormingsbeheer. Objecten die voor in-app-berichten zijn gemaakt, hebben `createdBy = “Mobile_Sheliak”`.
 
 ## Hoe kan ik-video {#video}
 

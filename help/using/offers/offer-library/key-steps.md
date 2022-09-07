@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '341'
+ht-degree: 10%
 
 ---
 
@@ -58,7 +58,7 @@ Voordat u aanbiedingen gaat maken, moet u verschillende componenten definiëren 
 
 ## Besluiten maken en configureren {#create-and-configure-decisions}
 
-1. **Een beslissing maken** dat zal plaatsingen combineren met de gepersonaliseerde aanbiedingen en de terugvalaanbiedingen . Deze combinatie wordt door de Offer decisioning-engine gebruikt om de beste aanbieding voor een specifiek profiel te vinden.
+1. **Een beslissing maken** dat zal plaatsingen combineren met de gepersonaliseerde aanbiedingen en de terugvalaanbiedingen . Deze combinatie wordt door de beslissingsengine gebruikt om de beste aanbieding voor een specifiek profiel te vinden.
 
 1. **De beslissing configureren**. Selecteer hiertoe de plaatsen en selecteer voor elke plaatsing een verzameling en een fallback.
 

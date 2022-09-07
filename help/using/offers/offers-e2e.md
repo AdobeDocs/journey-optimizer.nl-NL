@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1060'
+ht-degree: 3%
 
 ---
 
@@ -191,7 +191,7 @@ De gedetailleerde stappen voor het maken van een verzameling worden beschreven i
 
 Nu moet u een besluit maken dat plaatsingen zal combineren met de gepersonaliseerde aanbiedingen en het fallback-aanbod dat u net hebt gemaakt.
 
-Deze combinatie wordt door de Offer decisioning-engine gebruikt om de beste aanbieding voor een specifiek profiel te vinden: in dit voorbeeld zal het gebaseerd zijn op de prioriteit en beslissingsregel u aan elk aanbod toewees.
+Deze combinatie wordt door de beslissingsengine gebruikt om de beste aanbieding voor een specifiek profiel te vinden: in dit voorbeeld zal het gebaseerd zijn op de prioriteit en beslissingsregel u aan elk aanbod toewees.
 
 Om een aanbiedingsbesluit tot stand te brengen en te vormen, volg de belangrijkste stappen hieronder:
 

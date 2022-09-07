@@ -2,7 +2,7 @@
 title: Opmerkingen bij de vorige release (2021)
 description: Opmerkingen bij de release van Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
 source-wordcount: '2067'
 ht-degree: 9%
@@ -47,7 +47,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 <tbody>
 <tr>
 <td>
-<p>U kunt nu simuleren welke aanbiedingen worden geleverd aan een testprofiel voor een bepaalde plaatsing in de gebruikersinterface van Journey Optimizer. Hierdoor kunt u uw besluitvormingslogica, inclusief geschiktheidsbeperkingen en classificatiealgoritmen, eenvoudig valideren voordat u ze in productie zet. Met deze functie kunnen niet-technische en technische gebruikers snel offer decisioning testen en mogelijke problemen oplossen.</p>
+<p>U kunt nu simuleren welke aanbiedingen worden geleverd aan een testprofiel voor een bepaalde plaatsing in de gebruikersinterface van Journey Optimizer. Hierdoor kunt u uw besluitvormingslogica, inclusief geschiktheidsbeperkingen en classificatiealgoritmen, eenvoudig valideren voordat u ze in productie zet. Dit vermogen staat niet-technische en technische gebruikers toe om besluitvormingsbeheer snel te testen en potentiële problemen op te lossen.</p>
 <p>Raadpleeg de <a href="../offers/offer-activities/simulation.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>

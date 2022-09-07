@@ -1,14 +1,14 @@
 ---
-title: '&Hoofdlettergebruik voor persoonlijke voorkeur; kennisgeving orderstatus'
+title: voor persoonlijke voorkeur; kennisgeving orderstatus
 description: Leer hoe u een bericht kunt personaliseren met profiel, beschikking en contextinformatie.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 In dit gebruiksgeval, zult u zien hoe te om veelvoudige types van verpersoonlijking in één enkel duw bericht te gebruiken. Er worden drie typen personalisatie gebruikt:
 
 * **Profiel**: berichten personaliseren op basis van een profielveld
-* **Offertebeslissing**: personalisatie op basis van offer decisioning variabelen
+* **Offertebeslissing**: personalisatie op basis van besluitvormingsbeheersvariabelen
 * **Context**: personalisatie op basis van contextuele gegevens van de reis
 
 Het doel van dit voorbeeld is om een gebeurtenis naar [!DNL Journey Optimizer] elke keer dat een order van een klant wordt bijgewerkt. Vervolgens wordt een pushmelding naar de klant gestuurd met informatie over de bestelling en een persoonlijke aanbieding.
@@ -77,7 +77,7 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
 
    ![](assets/perso-uc13.png)
 
-1. Selecteer in het linkermenu de optie **Besluiten voorstellen** om een variabele van de offer decisioning op te nemen. Selecteer de plaatsing en klik op **+** pictogram naast de beslissing om het aan het lichaam toe te voegen.
+1. Selecteer in het linkermenu de optie **Besluiten voorstellen** om een beslissingsvariabele in te voegen. Selecteer de plaatsing en klik op **+** pictogram naast de beslissing om het aan het lichaam toe te voegen.
 
    ![](assets/perso-uc14.png)
 

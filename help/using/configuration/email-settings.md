@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b5f779a67dd4f5a08981a0d16d1a902e78b775d6
+source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1153'
 ht-degree: 1%
 
 ---
@@ -38,9 +38,9 @@ In de **E-MAILTYPE** selecteert u het type bericht dat met het oppervlak wordt v
 
 Wanneer [een bericht maken](../messages/get-started-content.md), moet u een geldig kanaaloppervlak kiezen dat overeenkomt met de categorie die u voor uw e-mail hebt geselecteerd.
 
-## Subdomein en IP-pool {#subdomains-and-ip-pools}
+## Subdomein- en IP-pools {#subdomains-and-ip-pools}
 
-In de **DETAILS VAN SUBDOMEIN EN IP-POOL** -sectie, moet u:
+In de **Subdomein- en IP-pools** -sectie, moet u:
 
 1. Selecteer het subdomein dat u wilt gebruiken om de e-mails te verzenden. [Meer informatie](about-subdomain-delegation.md)
 
@@ -92,7 +92,7 @@ Meer informatie over het toevoegen van een link voor opzeggen van koptekst aan j
 
 ## Parameters koptekst{#email-header}
 
-In de **[!UICONTROL HEADER PARAMETERS]** in, voert u de namen en e-mailadressen van de afzender in die zijn gekoppeld aan het type e-mail dat met dat oppervlak is verzonden.
+In de **[!UICONTROL Header parameters]** in, voert u de namen en e-mailadressen van de afzender in die zijn gekoppeld aan het type e-mail dat met dat oppervlak is verzonden.
 
 >[!CAUTION]
 >
@@ -133,7 +133,7 @@ Het e-mailadres voor verzending wordt ingesteld door Adobe. Dit kan 3 tot 4 dage
 
 U kunt een identieke kopie (of blinde koolstofkopie) van e-mails verzenden die zijn verzonden door [!DNL Journey Optimizer] naar een BCC-postvak waar ze worden opgeslagen voor compatibiliteits- of archiefdoeleinden.
 
-Om dit te doen, laat toe **[!UICONTROL BCC EMAIL]** optionele functie op het niveau van het kanaaloppervlak. [Meer informatie](bcc-email.md)
+Om dit te doen, laat toe **[!UICONTROL BCC email]** optionele functie op het niveau van het kanaaloppervlak. [Meer informatie](bcc-email.md)
 
 ![](assets/preset-bcc.png)
 
@@ -145,7 +145,7 @@ Om dit te doen, laat toe **[!UICONTROL BCC EMAIL]** optionele functie op het niv
 >abstract="Retries worden 3,5 dagen (84 uur) uitgevoerd wanneer een e-maillevering mislukt als gevolg van een tijdelijke soft bounce-fout. U kunt deze standaardperiode voor opnieuw proberen aanpassen aan uw wensen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/email-configuration/monitor-reputation/retries.html" text="Opnieuw proberen"
 
-U kunt de **E-MAILPARAMETERS OPNIEUW VERZOEKEN**.
+U kunt de **Parameters opnieuw proberen**.
 
 ![](assets/preset-retry-parameters.png)
 
@@ -171,13 +171,15 @@ Meer informatie over nieuwe pogingen in [deze sectie](retries.md).
 >title="Voorvertoning van parameters voor URL bijhouden"
 >abstract="Bekijk hoe u parameters voor bijhouden toevoegt aan de URL&#39;s in uw e-mailinhoud."
 
-U kunt **[!UICONTROL URL TRACKING PARAMETERS]** om de doeltreffendheid van uw marketing inspanningen over kanalen te meten. Deze functie is optioneel.
+U kunt **[!UICONTROL URL tracking parameters]** om de doeltreffendheid van uw marketing inspanningen over kanalen te meten. Deze functie is optioneel.
 
 De parameters die in deze sectie worden gedefinieerd, worden toegevoegd aan het einde van de URL&#39;s die in de inhoud van uw e-mailbericht zijn opgenomen. Vervolgens kunt u deze parameters vastleggen in hulpprogramma&#39;s voor webanalyse, zoals Adobe Analytics of Google Analytics, en verschillende prestatierapporten maken.
 
-![](assets/preset-url-tracking.png)
+<!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
 
-Drie URL-volgparameters worden automatisch ingevuld als voorbeeld wanneer u een kanaaloppervlak maakt. U kunt deze bewerken en maximaal 10 volgparameters toevoegen met de opdracht **[!UICONTROL Add new parameter]** knop.
+U kunt maximaal 10 volgparameters toevoegen met de functie **[!UICONTROL Add new parameter]** knop.
+
+![](assets/preset-url-tracking.png)
 
 Als u een URL-volgparameter wilt configureren, kunt u rechtstreeks de gewenste waarden invoeren in het dialoogvenster **[!UICONTROL Name]** en **[!UICONTROL Value]** velden.
 
