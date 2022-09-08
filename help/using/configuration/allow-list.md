@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: c90dd7bb12461ada1d70da52a5024a5c6e860647
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '952'
 ht-degree: 2%
 
 ---
@@ -149,6 +149,11 @@ U kunt de opdracht **Toevoegen**, **Verwijderen** en **Get** bewerkingen.
 Meer informatie over het maken van API-aanroepen in het dialoogvenster [Adobe Experience Platform API&#39;s](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target=&quot;_blank&quot;} naslagdocumentatie.
 
 ## Lijst van gewenste personen-logica {#logic}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_allowed_list_logic"
+>title="De lijst van gewenste personen beheren"
+>abstract="Wanneer de lijst van gewenste personen wordt geactiveerd, ontvangen alleen de ontvangers die zijn opgenomen in de lijst van gewenste personen e-mailberichten van deze sandbox."
 
 Wanneer de lijst van gewenste personen [actief](#enable-allow-list), is de volgende logica van toepassing:
 
