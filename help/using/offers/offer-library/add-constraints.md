@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: e9aab8f3e686a6858e401101f751a35933a21c0a
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1772'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,11 @@ Als u bijvoorbeeld de volgende beperkingen instelt:
 >abstract="In deze sectie kunt u besluitvormingsregels gebruiken om te bepalen welke gebruikers in aanmerking komen voor de aanbieding."
 >additional-url="https://video.tv.adobe.com/v/329373" text="Demovideo bekijken"
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_total_profile_estimate"
+>title="Totale profielschatting"
+>abstract="Wanneer u segmenten of besluitvormingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien."
+
 De **[!UICONTROL Offer eligibility]** kunt u de aanbieding beperken tot specifieke profielen die u het gebruiken van segmenten of besluitvormingsregels bepaalt.
 
 >[!NOTE]
@@ -134,6 +139,11 @@ In feite, is de output van een segment een lijst van profielen, terwijl een besl
 >title="Afbeelding gebruiken"
 >abstract="Als u wilt voorkomen dat uw klanten te veel vragen, gebruikt u de optie Afdekken om het maximumaantal keren te bepalen dat een aanbieding kan worden gepresenteerd."
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping"
+>title="De frequentie voor uitlijnen instellen"
+>abstract="U kunt ervoor kiezen om de teller van de aanbiedingstafbeelding dagelijks, wekelijks of maandelijks opnieuw in te stellen."
+
 Afkappen wordt gebruikt als beperking om het maximumaantal keren te bepalen dat een aanbieding kan worden voorgesteld.
 
 Door het aantal keren dat gebruikers specifieke aanbiedingen krijgen te beperken, kunt u voorkomen dat uw klanten te veel vragen en zo elk aanraakpunt optimaliseren met de beste aanbieding.
@@ -160,6 +170,16 @@ Volg de onderstaande stappen om het toewijzen van plafonds in te stellen.
 
       Als je bijvoorbeeld een bank bent met een &#39;Platinum credit card&#39;-aanbieding, wil je niet dat dit voorstel meer dan vijf keer per profiel wordt weergegeven. U bent namelijk van mening dat als de gebruiker het aanbod vijf keer heeft gezien en er niet op heeft gereageerd, hij een grotere kans heeft om op het volgende beste aanbod in te gaan.
 
+1. Stel de **[!UICONTROL Frequency]** om te bepalen hoe vaak de aftaptelling wordt teruggesteld. Hiertoe definieert u de tijdsperiode voor het tellen (dagelijks, wekelijks of maandelijks) en voert u het aantal dagen/weken/maanden van uw keuze in.
+
+   ![](../assets/offer-capping-frequency.png)
+
+   >[!NOTE]
+   >
+   >De reset vindt plaats om 12.00 uur UTC, op de dag die u hebt gedefinieerd of op de eerste dag van de week/maand, indien van toepassing. De startdag van de week is zondag.
+
+   Als u bijvoorbeeld wilt dat het aantal bijschriften elke twee weken opnieuw wordt ingesteld, selecteert u **[!UICONTROL Weekly]** van de **[!UICONTROL Repeat]** vervolgkeuzelijst en type **2** in het tweede veld. De reset vindt om de zondag plaats om 23.00 uur UTC.
+
 1. Als u meerdere [representaties](#representations) voor je voorstel, geef aan of je de aftopping wilt toepassen **[!UICONTROL Across all placements]** of **[!UICONTROL For each placement]**.
 
    ![](../assets/offer-capping-placement.png)
@@ -172,7 +192,7 @@ Volg de onderstaande stappen om het toewijzen van plafonds in te stellen.
 
       Als een aanbieding bijvoorbeeld een **E-mail** plaatsing en **Web** plaatsing, en u plaatst het maximum bij **2 per profiel voor elke plaatsing** Vervolgens kan elk profiel tot twee keer de aanbieding voor e-mailplaatsing ontvangen en nog eens twee keer de plaatsing op het web.
 
-1. Als de aanbieding eenmaal is opgeslagen en goedgekeurd en het aantal keren dat u in dit veld hebt opgegeven aan de hand van de criteria die u hebt gedefinieerd, is weergegeven, wordt de levering gestopt.
+1. Als de aanbieding eenmaal is opgeslagen en goedgekeurd en deze het aantal keren heeft weergegeven dat u in dit veld hebt opgegeven op basis van de criteria en het tijdpad dat u hebt gedefinieerd, wordt de levering gestopt.
 
 Het aantal keren dat een aanbieding wordt voorgesteld, wordt berekend tijdens de voorbereiding van e-mail. Als u bijvoorbeeld een e-mail met een aantal voorstellen voorbereidt, tellen deze nummers mee voor de maximale limiet, ongeacht of de e-mail is verzonden of niet.
 
