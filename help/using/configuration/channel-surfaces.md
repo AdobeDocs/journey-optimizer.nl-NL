@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
+source-git-commit: 59da1d75885ffc6f4b97e218ea131233c198a7ae
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -42,139 +42,139 @@ Zodra de kanaaloppervlakten zijn gevormd, zult u hen kunnen selecteren wanneer h
 >title="Instellingen voor kanaaloppervlak"
 >abstract="Wanneer u een kanaaloppervlak instelt, selecteert u het kanaal waarop het van toepassing is en definieert u alle technische parameters die voor uw berichten vereist zijn, zoals het e-mailtype, de naam van de afzender, mobiele apps, de configuratie van SMS en meer."
 
-<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.
+<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.-->
 
-To create a channel surface, follow these steps:
+Ga als volgt te werk om een kanaaloppervlak te maken:
 
-1. Access the **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** menu, then click **[!UICONTROL Create channel surface]**.
+1. Toegang krijgen tot **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** en klik vervolgens op **[!UICONTROL Create channel surface]**.
 
-    ![](assets/preset-create.png)
+   ![](assets/preset-create.png)
 
-1. Enter a name and a description (optional) for the surface, then select the channel(s) to configure.
+1. Voer een naam en beschrijving (optioneel) voor het oppervlak in en selecteer vervolgens het kanaal of de kanalen die u wilt configureren.
 
-    ![](assets/preset-general.png)
+   ![](assets/preset-general.png)
 
-    >[!NOTE]
-    >
-    > Names must begin with a letter (A-Z). It can only contain alpha-numeric characters. You can also use underscore `_`, dot`.` and hyphen `-` characters. 
+   >[!NOTE]
+   >
+   > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook het onderstrepingsteken gebruiken `_`, punt`.` en afbreekstreepje `-` tekens.
 
-1. If you selected the **[!UICONTROL Email]** channel, configure your settings as described in [this section](email-settings.md).
+1. Als u **[!UICONTROL Email]** kanaal, configureert u uw instellingen zoals beschreven in [deze sectie](email-settings.md).
 
-    ![](assets/preset-email.png)
+   ![](assets/preset-email.png)
 
-1. For the **[!UICONTROL Push Notification]** channel, select at least one platform  -  **iOS** and/or **Android** -, and the mobile applications to use for each platform.
+1. Voor de **[!UICONTROL Push Notification]** kanaal, selecteer minstens één platform -  **iOS** en/of **Android** - en de mobiele toepassingen die voor elk platform moeten worden gebruikt.
 
-    ![](assets/preset-push.png)
-        
-    >[!NOTE]
-    >
-    >For more on how to configure your environment to send push notifications, refer to [this section](push-gs.md).
+   ![](assets/preset-push.png)
 
-1. For the **[!UICONTROL SMS]** channel, define your settings as detailed in [this section](sms-configuration.md#message-preset-sms).
+   >[!NOTE]
+   >
+   >Raadpleeg voor meer informatie over het configureren van uw omgeving voor het verzenden van pushberichten de [deze sectie](push-gs.md).
 
-    ![](assets/preset-sms.png)
+1. Voor de **[!UICONTROL SMS]** kanaal, uw montages bepalen zoals gedetailleerd in [deze sectie](sms-configuration.md#message-preset-sms).
 
-    >[!NOTE]
-    >
-    >For more on how to configure your environment to send SMS messages, refer to [this section](sms-configuration.md).
+   ![](assets/preset-sms.png)
 
-1. Once all the parameters have been configured, click **[!UICONTROL Submit]** to confirm. You can also save the channel surface as draft and resume its configuration later on.
+   >[!NOTE]
+   >
+   >Voor meer over hoe te om uw milieu te vormen om de berichten van SMS te verzenden, verwijs naar [deze sectie](sms-configuration.md).
 
-    ![](assets/preset-submit.png)
+1. Zodra alle parameters zijn gevormd, klik **[!UICONTROL Submit]** ter bevestiging. U kunt het kanaaloppervlak ook opslaan als concept en de configuratie later hervatten.
 
-    >[!NOTE]
-    >
-    >You cannot proceed with surface creation while the selected IP pool is under [edition](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status), and has never been associated with the selected subdomain. [Learn more](#subdomains-and-ip-pools)
-    >
-    >Save the surface as draft and wait until the IP pool has the **[!UICONTROL Success]** status to resume surface creation.
-    
-1. Once the channel surface has been created, it displays in the list with the **[!UICONTROL Processing]** status.
+   ![](assets/preset-submit.png)
 
-    During this step, several checks will be performed to verify that it has been configured properly. The processing time is around **48h-72h**, and can take up to **7-10 business days**.
+   >[!NOTE]
+   >
+   >U kunt niet met oppervlakverwezenlijking te werk gaan terwijl de geselecteerde IP pool onder is [editie](ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) en is nooit gekoppeld aan het geselecteerde subdomein. [Meer informatie](#subdomains-and-ip-pools)
+   >
+   >Sparen de oppervlakte als ontwerp en wacht tot de IP pool heeft **[!UICONTROL Success]** status om het maken van het oppervlak te hervatten.
 
-    These checks include configuration and technical tests that are performed by the Adobe team:
+1. Nadat het kanaaloppervlak is gemaakt, wordt het in de lijst weergegeven met de **[!UICONTROL Processing]** status.
 
-    * SPF validation
-    * DKIM validation
-    * MX record validation
-    * Check IPs denylisting
-    * Helo host check
-    * IP pool verification
-    * A/PTR record, t/m/res subdomain verification
+   Tijdens deze stap, zullen verscheidene controles worden uitgevoerd om te verifiëren dat het behoorlijk is gevormd. De verwerkingstijd is ongeveer **48u-72u** en kan **7-10 werkdagen**.
 
-    >[!NOTE]
-    >
-    >If the checks are not successful, learn more on the possible failure reasons in [this section](#monitor-channel-surfaces).  
+   Deze controles omvatten configuratie en technische tests die door het team van Adobe worden uitgevoerd:
 
-1. Once the checks are successful, the channel surface gets the **[!UICONTROL Active]** status. It is ready to be used to deliver messages.
+   * SPF-validatie
+   * DKIM-validatie
+   * MX-recordvalidatie
+   * Controle IPs voegend op lijst van gewenste personen
+   * Helo host check
+   * Verificatie van IP-pool
+   * A/PTR-record, t/m/res-subdomeinverificatie
 
-    ![](assets/preset-active.png)
+   >[!NOTE]
+   >
+   >Als de controles niet succesvol zijn, leer meer over de mogelijke mislukkingsredenen in [deze sectie](#monitor-channel-surfaces).
 
-## Monitor channel surfaces {#monitor-channel-surfaces}
+1. Als de controles zijn voltooid, krijgt het kanaaloppervlak de **[!UICONTROL Active]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
-All your channel surfaces display in the **[!UICONTROL Channels]** > **[!UICONTROL Channel surfaces]** menu. Filters are available to help you browse through the list (channel, user, status).
+   ![](assets/preset-active.png)
+
+## Kanaaloppervlakken controleren {#monitor-channel-surfaces}
+
+Al uw kanaaloppervlakken worden weergegeven in het dialoogvenster **[!UICONTROL Channels]** > **[!UICONTROL Channel surfaces]** -menu. Er zijn filters beschikbaar waarmee u door de lijst kunt bladeren (kanaal, gebruiker, status).
 
 ![](assets/preset-filters.png)
 
-Once created, channel surfaces can have the following statuses:
+Na het maken kunnen kanaaloppervlakken de volgende statussen hebben:
 
-* **[!UICONTROL Draft]**: The channel surface has been saved as a draft and has not been submitted yet. Open it to resume the configuration.
-* **[!UICONTROL Processing]**: The channel surface has been submitted and is going through several verifications steps.
-* **[!UICONTROL Active]**: The channel surface has been verified and can be selected to create messages.
-* **[!UICONTROL Failed]**: One or several checks have failed during the channel surface verification.
-* **[!UICONTROL Deactivated]**: The channel surface is deactivated. It cannot be used to create new messages.
+* **[!UICONTROL Draft]**: Het kanaaloppervlak is opgeslagen als concept en is nog niet verzonden. Open het om de configuratie te hervatten.
+* **[!UICONTROL Processing]**: Het kanaaloppervlak is verzonden en wordt door verschillende verificatiestappen gecontroleerd.
+* **[!UICONTROL Active]**: Het kanaaloppervlak is geverifieerd en kan worden geselecteerd om berichten te maken.
+* **[!UICONTROL Failed]**: Een of meer controles zijn mislukt tijdens de controle van het kanaaloppervlak.
+* **[!UICONTROL Deactivated]**: Het kanaaloppervlak wordt gedeactiveerd. Het kan niet worden gebruikt om nieuwe berichten tot stand te brengen.
 
-In case a channel surface creation fails, the details on each possible failure reason are described below.
+Als het maken van een kanaaloppervlak mislukt, worden de details van elke mogelijke oorzaak van een fout hieronder beschreven.
 
-If one of these errors occurs, contact [Adobe Customer Care](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} to get assistance.
+Als een van deze fouten optreedt, neemt u contact op met [Adobe Klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} voor hulp.
 
-* **SPF validation failed**: SPF (Sender Policy Framework) is an email authentication protocol that allows to specify authorized IPs that can send emails from a given subdomain. SPF validation failure means that the IP addresses in the SPF record do not match the IP addresses used for sending emails to the mailbox providers. 
+* **Validatie van SPF is mislukt**: SPF (het Kader van het Beleid van de Afzender) is een e-mailauthentificatieprotocol dat toestaat om erkende IPs te specificeren die e-mails van een bepaald subdomein kunnen verzenden. De de bevestigingsmislukking van SPF betekent dat de IP adressen in het SPF- verslag niet de IP adressen aanpassen die voor het verzenden van e-mails naar de brievenbusleveranciers worden gebruikt.
 
-* **DKIM validation failed**: DKIM (DomainKeys Identified Mail) allows the recipient server to verify that the received message was sent by the genuine sender of the associated domain and that the content of the original message was not altered on its way. DKIM validation failure means that the receiving mail servers are unable to verify the authenticity of the message content and its association with the sending domain.:
+* **DKIM-validatie mislukt**: DKIM (DomainKeys Identified Mail) staat de ontvankelijke server toe om te verifiëren dat het ontvangen bericht door de echte afzender van het bijbehorende domein werd verzonden en dat de inhoud van het originele bericht niet op zijn manier werd veranderd. DKIM-validatiefout betekent dat de ontvangende mailservers de authenticiteit van de berichtinhoud en de koppeling met het verzendende domein niet kunnen verifiëren.:
 
-* **MX record validation failed**: MX (Mail eXchange) record validation failure means that the mail servers responsible for accepting inbound emails on behalf of a given subdomain are not correctly configured.
+* **Validatie van MX-record mislukt**: MX (Mail eXchange)-fout bij de validatie van records betekent dat de mailservers die verantwoordelijk zijn voor het accepteren van binnenkomende e-mails namens een bepaald subdomein niet correct zijn geconfigureerd.
 
-* **Deliverability configurations failed**: Deliverability configurations failure can happen due to any of the following reasons:
-    * Blocklisting of the allocated IPs
-    * Invalid `helo` name
-    * Emails being sent from IPs other than the ones specified in the IP pool of the corresponding surface
-    * Unable to deliver emails to inboxes of major ISPs like Gmail and Yahoo
+* **Leverbaarheidsconfiguraties zijn mislukt**: Vanwege een van de volgende redenen kan een fout optreden in de configuraties van de aflevering:
+   * Voegend op lijst van gewenste personen van toegewezen IPs
+   * Ongeldig `helo` name
+   * E-mails die worden verzonden van IPs buiten degenen die in de IP pool van de overeenkomstige oppervlakte worden gespecificeerd
+   * Kan geen e-mails verzenden naar postvakken van belangrijke ISP&#39;s, zoals Gmail en Yahoo
 
-## Edit a channel surface {#edit-channel-surface}
+## Een kanaaloppervlak bewerken {#edit-channel-surface}
 
-To edit a channel surface, follow the steps below.
-
->[!NOTE]
->
->You cannot edit the **[!UICONTROL Push notification settings]**. If a channel surface is only configured for the Push notification channel, it is not editable.
-
-1. From the list, click a channel surface name to open it.
-
-    ![](assets/preset-name.png)
-
-1. Edit its properties as desired.
-
-    >[!NOTE]
-    >
-    >If a channel surface has the **[!UICONTROL Active]** status, the **[!UICONTROL Name]**, **[!UICONTROL Select channel]** and **[!UICONTROL Subdomain]** fields are greyed out and cannot be edited.
-
-1. Click **[!UICONTROL Submit]** to confirm your changes.
-
-    >[!NOTE]
-    >
-    >You can also save the channel surface as draft and resume update later on.
-
-Once the changes are submitted, the channel surface will go through a validation cycle similar to the one in place when [creating a channel surface](#create-channel-surface). The edition processing time can take up to **3 hours**.
+Volg onderstaande stappen om een kanaaloppervlak te bewerken.
 
 >[!NOTE]
 >
->If you only edit the **[!UICONTROL Description]**, **[!UICONTROL Email type]** and/or **[!UICONTROL Email retry parameters]** fields, the update is instantaneous.
+>U kunt de **[!UICONTROL Push notification settings]**. Als een kanaaloppervlakte slechts voor het Push- berichtkanaal wordt gevormd, is het niet editable.
 
-### Update details {#update-details}
+1. Klik in de lijst op de naam van een kanaaloppervlak om het te openen.
 
-For channel surfaces that have the **[!UICONTROL Active]** status, you can check the details of the update. To do so:
+   ![](assets/preset-name.png)
 
-Click the **[!UICONTROL Recent update]** icon that is displayed next to the active surface name.
+1. Bewerk de eigenschappen naar wens.
+
+   >[!NOTE]
+   >
+   >Als een kanaaloppervlak de **[!UICONTROL Active]** status, de **[!UICONTROL Name]**, **[!UICONTROL Select channel]** en **[!UICONTROL Subdomain]** velden worden grijs weergegeven en kunnen niet worden bewerkt.
+
+1. Klikken **[!UICONTROL Submit]** om uw wijzigingen te bevestigen.
+
+   >[!NOTE]
+   >
+   >U kunt het kanaaloppervlak ook opslaan als concept en de update later hervatten.
+
+Als de wijzigingen eenmaal zijn ingediend, doorloopt het kanaaloppervlak een validatiecyclus die vergelijkbaar is met de validatiecyclus die op dat moment wordt uitgevoerd [een kanaaloppervlak maken](#create-channel-surface). De verwerkingstijd van de editie kan maximaal **3 uur**.
+
+>[!NOTE]
+>
+>Als u alleen de **[!UICONTROL Description]**, **[!UICONTROL Email type]** en/of **[!UICONTROL Email retry parameters]** in velden, wordt de update onmiddellijk uitgevoerd.
+
+### Details bijwerken {#update-details}
+
+Voor kanaaloppervlakken met de **[!UICONTROL Active]** kunt u de details van de update controleren. Dit doet u als volgt:
+
+Klik op de knop **[!UICONTROL Recent update]** wordt weergegeven naast de naam van het actieve oppervlak.
 
 ![](assets/preset-recent-update-icon.png)
 
