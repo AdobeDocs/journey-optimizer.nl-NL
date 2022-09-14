@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: f0e2f80a815aebb7574582fbf33770aa5da0abab
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -21,17 +21,17 @@ ht-degree: 0%
 >
 >De functie Experimenteren met inhoud is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-## Wat is een contentexperiment?
+## Wat is een inhoudexperiment?
 
-Met Inhoud-experimenten kunt u inhoud optimaliseren voor de acties in uw campagnes.
+Met experimenten met inhoud kunt u inhoud optimaliseren voor de acties in uw campagnes.
 
-Experimenten bestaan uit een reeks gerandomiseerde onderzoeken, die in de context van online tests betekenen dat sommige willekeurig geselecteerde gebruikers worden blootgesteld aan een bepaalde variatie van een bericht en een andere willekeurig gekozen groep gebruikers aan een andere behandeling. Nadat u het bericht hebt verzonden, kunt u de resultaten meten die u interesseert, bijvoorbeeld wanneer u e-mails opent of klikt.
+Experimenten bestaan uit een reeks gerandomiseerde onderzoeken, die in de context van online tests betekenen dat sommige willekeurig geselecteerde gebruikers worden blootgesteld aan een bepaalde variatie van een bericht en een andere willekeurig gekozen groep gebruikers aan een andere behandeling. Nadat u het bericht hebt verzonden, kunt u de resultaten meten die u interesseert, bijvoorbeeld wanneer u e-mailberichten opent of klikt.
 
 ## Waarom experimenten uitvoeren?
 
 ![](assets/content_experiment_schema.png)
 
-Met behulp van experimenten kunt u de wijzigingen isoleren die tot verbeteringen in uw metriek leiden. Zoals geïllustreerd in de bovenstaande afbeelding: sommige willekeurig geselecteerde gebruikers worden blootgesteld aan elke behandelingsgroep wat betekent dat de groepen gemiddeld dezelfde kenmerken zullen hebben . Elk verschil in resultaten kan dus worden geïnterpreteerd als zijnde te wijten aan verschillen in de ontvangen behandelingen, d.w.z. dat u een oorzakelijk verband kunt vaststellen tussen de veranderingen die u hebt aangebracht en de resultaten waarin u geïnteresseerd bent.
+Met behulp van experimenten kunt u de wijzigingen isoleren die tot verbeteringen in uw metriek leiden. Zoals geïllustreerd in de bovenstaande afbeelding: sommige willekeurig geselecteerde gebruikers worden blootgesteld aan elke behandelingsgroep wat betekent dat de groepen gemiddeld dezelfde kenmerken zullen hebben . Elk verschil in uitkomsten kan dus worden geïnterpreteerd als zijnde te wijten aan de verschillen in de ontvangen behandelingen, dat wil zeggen dat u een oorzakelijk verband kunt vaststellen tussen de veranderingen die u hebt aangebracht en de uitkomsten waarin u geïnteresseerd bent.
 
 Dit staat u toe om gegevens gedreven besluiten in het optimaliseren van uw bedrijfsdoelstellingen te nemen.
 
@@ -39,6 +39,38 @@ Voor Inhoud-experimenten in Adobe Journey Optimizer kunt u ideeën testen, zoals
 
 * **Onderwerpregel**: Wat zou het effect van een verandering in de toon of in de graad van personalisatie van een onderwerpregel kunnen zijn?
 * **Berichtinhoud**: Zal het veranderen van de visuele lay-out van een e-mail in meer klikken op e-mail resulteren?
+
+## Hoe werkt content experimenteren? {#content-experiment-work}
+
+### Willekeurige toewijzing
+
+Bij het experimenteren met inhoud in Adobe Journey Optimizer wordt een pseudo-willekeurige hash van de identiteit van de bezoeker gebruikt om gebruikers in het doelpubliek willekeurig toe te wijzen aan een van de behandelingen die u hebt gedefinieerd. Het hashingmechanisme zorgt ervoor dat in scenario&#39;s waar de bezoeker een campagne veelvoudige tijden ingaat, zij deterministisch de zelfde behandeling zullen ontvangen.
+
+In detail, wordt het algoritme MumurHash3 met 32 bits gebruikt om het koord van de gebruikersidentiteit in één van 10.000 emmers te hakken. In een inhoudexperiment met 50% van het verkeer dat aan elke behandeling wordt toegewezen, zullen gebruikers die in emmers 1-5.000 vallen de eerste behandeling krijgen, terwijl gebruikers in de emmers 5.001 tot 10.000 de tweede behandeling zullen krijgen. Aangezien pseudo-willekeurige hashing wordt gebruikt, kan de bezoeker splitsen u waarneemt niet precies 50-50 zijn; desalniettemin zal de splitsing statistisch equivalent zijn aan uw streefsplitspercentage.
+
+Merk op dat als deel van het vormen van elke campagne met een inhoudexperiment, u een identiteitsnamespace moet kiezen waarvan userId voor het randomisatiealgoritme zal worden geselecteerd. Dit staat los van de [uitvoeringsadressen](../configuration/primary-email-addresses.md).
+
+### Gegevensverzameling en -analyse
+
+Op het tijdstip van taak d.w.z., wanneer het bericht in uitgaande kanalen wordt verzonden, of wanneer de gebruiker de campagne in binnenkomende kanalen ingaat, wordt een &quot;taakverslag&quot;geregistreerd aan de aangewezen systeemdataset. Hiermee wordt vastgelegd aan welke behandeling de gebruiker is toegewezen, samen met experiment- en campagne-id&#39;s.
+
+De objectieve metriek kan in twee hoofdklassen worden gegroepeerd:
+
+* Directe metriek, waarbij de gebruiker rechtstreeks op de behandeling reageert, bijvoorbeeld door een e-mail te openen of op een koppeling te klikken.
+* Indirecte of &quot;bodem van trechter&quot; metriek, die optreedt nadat de gebruiker aan de behandeling is blootgesteld.
+
+Voor directe objectieve metriek waar Adobe Journey Optimizer uw berichten bijhoudt, worden de reactiegebeurtenissen van eind - gebruikers automatisch geëtiketteerd met campagne en behandelingsidentificateurs, die directe vereniging van reactie metrisch met een behandeling toestaan. [Meer informatie over bijhouden](../design/message-tracking.md).
+
+![](assets/technote_2.png)
+
+Voor indirecte of &quot;onderste van funnel&quot; doelstellingen zoals aankopen, worden de responsgebeurtenissen van eindgebruikers niet getagd met campagne- en behandelingsidentificatoren, d.w.z. dat een aankoopgebeurtenis plaatsvindt na blootstelling aan een behandeling, er is geen directe koppeling tussen die aankoop en een voorafgaande behandelingstoewijzing. Voor deze metingen zal Adobe de behandeling koppelen aan de onderkant van de trechter-conversiegebeurtenis als:
+
+* De gebruikersidentiteit is hetzelfde op het moment van de toewijzing en conversie.
+* De conversie vindt plaats binnen zeven dagen na de toezending van de behandeling.
+
+![](assets/technote_3.png)
+
+Adobe Journey Optimizer gebruikt vervolgens geavanceerde &#39;op elk moment geldige&#39; statistische methoden om deze onbewerkte rapportgegevens te interpreteren, zodat u uw experimentatierapporten kunt interpreteren. Raadpleeg [deze pagina](../campaigns/experiment-calculations.md) voor meer informatie.
 
 ## Tips voor het uitvoeren van experimenten
 

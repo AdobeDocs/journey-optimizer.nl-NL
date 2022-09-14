@@ -6,16 +6,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
 
 # Kanaaloppervlakken instellen {#set-up-channel-surfaces}
 
-Met [!DNL Journey Optimizer]kunt u kanaaloppervlakken instellen (dus voorinstellingen voor berichten) die alle technische parameters definiëren die nodig zijn voor uw berichten: e-mailtype, e-mail en naam van de afzender, mobiele apps en meer.
+Met [!DNL Journey Optimizer]kunt u kanaaloppervlakken instellen (dus voorinstellingen voor berichten) die alle technische parameters definiëren die nodig zijn voor uw berichten: e-mailtype, e-mail en naam van de afzender, mobiele apps, configuratie van SMS en meer.
 
 >[!CAUTION]
 >
@@ -33,9 +33,14 @@ Zodra de kanaaloppervlakten zijn gevormd, zult u hen kunnen selecteren wanneer h
 ## Een kanaaloppervlak maken {#create-channel-surface}
 
 >[!CONTEXTUALHELP]
+>id="ajo_admin_message_presets_header"
+>title="Instellingen voor kanaaloppervlak"
+>abstract="Wanneer u een kanaaloppervlak instelt, selecteert u het kanaal waarop het van toepassing is en definieert u alle technische parameters die voor uw berichten vereist zijn, zoals het e-mailtype, subdomein, de naam van de afzender, mobiele apps, de configuratie van SMS en meer."
+
+>[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Instellingen voor kanaaloppervlak"
->abstract="Wanneer u een kanaaloppervlak instelt, selecteert u het kanaal waarop het wordt toegepast en definieert u alle technische parameters die voor uw berichten zijn vereist, zoals berichttype, subdomein, naam van de afzender, mobiele apps en meer."
+>abstract="Een kanaaloppervlak definieert alle technische parameters die voor uw berichten zijn vereist (e-mailtype, naam van de afzender, mobiele apps, configuratie van SMS, enz.): wanneer dit is geconfigureerd , kunt u het selecteren wanneer u acties maakt op basis van een reis of een campagne . U moet beschikken over de machtiging Kanaaloppervlak beheren om kanaaloppervlakken te maken, bewerken en verwijderen."
 
 Ga als volgt te werk om een kanaaloppervlak te maken:
 

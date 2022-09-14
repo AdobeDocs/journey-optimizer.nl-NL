@@ -4,9 +4,9 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van SMS-beri
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '665'
 ht-degree: 1%
 
 ---
@@ -24,9 +24,15 @@ Voordat u SMS verzendt, configureert u uw exemplaar. U moet [providerinstellinge
 ## Nieuwe API-referentie maken {#create-api}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_sms_api"
->title="Selecteer de configuratie van de leverancier van SMS"
+>id="ajo_admin_sms_api_header"
+>title="Uw SMS-leverancier configureren met Journey Optimizer"
 >abstract="Selecteer uw leverancier en vul uw SMS API-referenties in."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api"
+>title="Uw SMS-leverancier configureren met Journey Optimizer"
+>abstract="Voordat u SMS verzendt, moet u de providerinstellingen integreren met Journey Optimizer. Zodra gedaan, zult u een oppervlakte van SMS moeten tot stand brengen. Deze stappen moeten worden uitgevoerd door een systeembeheerder van Adobe Journey Optimizer."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/sms-configuration.html#message-preset-sms" text="Een SMS-kanaaloppervlak maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"

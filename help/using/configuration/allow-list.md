@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: c90dd7bb12461ada1d70da52a5024a5c6e860647
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '979'
 ht-degree: 2%
 
 ---
@@ -102,6 +102,11 @@ Als u nieuwe e-mailadressen of domeinen wilt toevoegen aan de lijst van gewenste
 >De lijst van gewenste personen kan maximaal 1.000 items bevatten.
 
 ### De lijst van gewenste personen handmatig vullen {#manually-populate-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_allowed_list_add_header"
+>title="Voeg adressen of domeinen aan de lijst van gewenste personen toe"
+>abstract="U kunt handmatig nieuwe e-mailadressen of domeinen aan de lijst van gewenste personen toevoegen door deze een voor een te selecteren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_add"

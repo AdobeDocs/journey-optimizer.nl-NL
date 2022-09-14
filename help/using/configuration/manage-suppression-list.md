@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1156'
 ht-degree: 1%
 
 ---
@@ -110,9 +110,14 @@ De mogelijke redenen van een leveringsfout zijn:
 ## Voeg handmatig adressen en domeinen toe {#add-addresses-and-domains}
 
 >[!CONTEXTUALHELP]
->id="ajo_admin_suppression_list"
+>id="ajo_admin_suppression_list_header"
 >title="E-mails of domeinen toevoegen aan de onderdrukkingslijst"
 >abstract="U kunt de Journey Optimizer-suppressielijst handmatig invullen om specifieke e-mailadressen en/of domeinen van uw verzending uit te sluiten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list"
+>title="E-mails of domeinen toevoegen aan de onderdrukkingslijst"
+>abstract="Als u de lijst met Journey Optimizer-suppressies wilt vullen, kunt u handmatig e-mailadressen of domeinen - één voor één of meerdere, of in bulkmodus toevoegen via een CSV-bestandsupload. Deze specifieke e-mailadressen en/of domeinen worden van uw verzending uitgesloten."
 
 Wanneer een bericht niet aan een e-mailadres kan worden geleverd, wordt dit adres automatisch toegevoegd aan de suppressielijst die op de bepaalde suppressieregel of stuiterende telling wordt gebaseerd.
 

@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: f0e2f80a815aebb7574582fbf33770aa5da0abab
+source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '916'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 >
 >De **Inhoud experimenteren** Deze functie is momenteel alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Met Journey Optimizer Content Experiment kunt u meerdere behandelingen voor de afgifte definiëren. Het betrokken publiek wordt willekeurig toegewezen aan elke behandeling om te bepalen welke behandeling het best presteert ten opzichte van de maatstaf van belangstelling. U kunt de inhoud, het onderwerp of de afzender van de e-mail variëren.
+Met Journey Optimizer Content Experiment kunt u meerdere behandelingen voor de afgifte definiëren. Het betrokken publiek wordt willekeurig toegewezen aan elke behandeling om te bepalen welke behandeling het best presteert ten opzichte van de maatstaf van belangstelling. U kunt kiezen om de leveringsinhoud, het onderwerp, of de afzender te variëren.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Met Journey Optimizer Content Experiment kunt u meerdere behandelingen voor de a
 
 In het onderstaande voorbeeld is de leveringsdoelstelling opgesplitst in twee groepen, die elk 45% van de doelpopulatie vertegenwoordigen, en een holdoutgroep van 10%, die de levering niet zal ontvangen.
 
-Elke persoon in het doelpubliek ontvangt één versie van het e-mailbericht, met een onderwerpregel die een van de volgende twee is:
+Elke persoon in het doelpubliek ontvangt één versie van een e-mail, met een onderwerpregel die één van de volgende twee is:
 
 * een rechtstreekse bevordering van een aanbod van 10 % voor de nieuwe collectie en een afbeelding .
 * de andere reclame maakt alleen reclame voor een speciale aanbieding zonder de 10 % korting zonder afbeelding te specificeren .
@@ -44,7 +44,7 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
    ![](assets/content_experiment_1.png)
 
-1. Selecteren **[!UICONTROL Email]** dan de **[!UICONTROL Surface]** wilt u gebruiken voor deze levering. Raadpleeg voor meer informatie de [Kanaaloppervlakken](../configuration/channel-surfaces.md) pagina.
+1. Selecteer vervolgens het kanaal **[!UICONTROL Surface]** wilt u gebruiken voor deze levering. Raadpleeg voor meer informatie de [Kanaaloppervlakken](../configuration/channel-surfaces.md) pagina.
 
    ![](assets/content_experiment_2.png)
 
@@ -59,7 +59,11 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
    ![](assets/content_experiment_3.png)
 
-1. Stel de **[!UICONTROL Audience]** en **[!UICONTROL Schedule]** parameters voor uw leveringen. [Meer informatie](create-campaign.md)
+1. Bepaal het publiek om te richten. Om dit te doen, klik **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-segmenten weer te geven. [Meer informatie over segmenten](../segment/about-segments.md)
+
+   In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren. [Meer informatie](get-started-experiment.md#content-experiment-work)
+
+1. Om uw campagne op een specifieke datum of op een terugkomende frequentie uit te voeren, vorm de sectie van het Programma. [Meer informatie](create-campaign.md)
 
 1. Klikken **[!UICONTROL Edit content]** om uw verschillende functies aan te passen **[!UICONTROL Treatments]**.
 
@@ -67,21 +71,15 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
 ## Uw behandelingen maken {#treatment-experiment}
 
-1. Van de **[!UICONTROL Edit content]** venster toevoegen **[!UICONTROL Subject line]** voor uw behandeling A e-mail en klik **[!UICONTROL Save]**.
+1. Van de **[!UICONTROL Edit content]** begin uw behandeling aan te passen A.
 
-   Voor deze behandeling specificeren wij het aanbod rechtstreeks in de onderwerpregel.
+   Voor deze behandeling zullen wij het speciale aanbod rechtstreeks in de onderwerpregel specificeren.
 
    ![](assets/content_experiment_5.png)
 
-1. Klikken **[!UICONTROL Email designer]** om uw leveringen aan te passen.
+1. Na het ontwerpen van de eerste behandeling, kunt u het beste **[!UICONTROL More actions]** klikt u op **[!UICONTROL Duplicate]**.
 
-   ![](assets/content_experiment_6.png)
-
-1. Klik op **[!UICONTROL Save]** en terug naar de **[!UICONTROL Edit content]** venster om Behandeling B te maken.
-
-1. Van de **[!UICONTROL More actions]** klikt u op **[!UICONTROL Duplicate]**.
-
-   U kunt er ook voor kiezen een nieuwe behandeling helemaal opnieuw te starten door op de knop **[!UICONTROL Content experiment]** om toegang te krijgen tot de geavanceerde opties **[!UICONTROL Add treatment]**.
+   U kunt er ook voor kiezen een nieuwe behandeling helemaal opnieuw te starten door op de knop **[!UICONTROL Content experiment]** knop ![](assets/content_experiment_16.png) om toegang te krijgen tot de geavanceerde opties **[!UICONTROL Add treatment]**.
 
    ![](assets/content_experiment_7.png)
 
@@ -89,19 +87,15 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
    ![](assets/content_experiment_8.png)
 
-1. Selecteer de e-maillevering die is gekoppeld aan uw nieuwe versie **[!UICONTROL Treatment]**.
+1. Pas uw tweede behandeling naar wens aan.
 
-1. Voeg de **[!UICONTROL Subject line]** voor levering.
-
-   Voor deze behandeling kiezen we ervoor het aanbod niet op te geven in het **[!UICONTROL Subject line]**.
+   Hier kiezen we ervoor het aanbod niet op te geven in het **[!UICONTROL Subject line]**.
 
    ![](assets/content_experiment_9.png)
 
-1. Klikken **[!UICONTROL Email designer]** indien nodig de behandeling B verder aanpassen.
-
 Zodra uw behandelingen gepersonaliseerd zijn, kunt u beginnen uw Experiment van de Inhoud te vormen.
 
-## Uw contentexperiment configureren {#configure-experiment}
+## Uw inhoudexperiment configureren {#configure-experiment}
 
 1. Wanneer beide leveringen zijn gepersonaliseerd, wordt vanaf de **[!UICONTROL Edit content]** venster, selecteert u **[!UICONTROL Configure content experiment]**.
 
