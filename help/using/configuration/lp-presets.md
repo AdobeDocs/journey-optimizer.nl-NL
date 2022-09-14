@@ -4,14 +4,19 @@ description: Leer hoe u uw omgeving configureert voor het maken en gebruiken van
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 9e499fd6523e18ecb78e25b306c49f2fc0e4a7c9
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '333'
 ht-degree: 2%
 
 ---
 
 # Voorinstellingen voor openingspagina definiëren {#lp-presets}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_config_lp_subdomain_header"
+>title="Een voorinstelling voor een openingspagina maken"
+>abstract="Als u een bestemmingspagina wilt maken en deze via Journey Optimizer wilt gebruiken, moet u een voorinstelling voor een bestemmingspagina maken die het te gebruiken subdomein bevat."
 
 Wanneer [een openingspagina maken](../landing-pages/create-lp.md#create-a-lp), moet u een voorinstelling voor een bestemmingspagina selecteren om de bestemmingspagina te kunnen samenstellen en er doorheen te kunnen gaan **[!DNL Journey Optimizer]**.
 
