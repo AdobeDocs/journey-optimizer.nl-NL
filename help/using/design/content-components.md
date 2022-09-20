@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '1172'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,24 @@ ht-degree: 1%
 # De inhoudcomponenten van de e-mailontwerper gebruiken {#content-components}
 
 >[!CONTEXTUALHELP]
->id="ac_content_components"
+>id="ac_content_components_email"
 >title="Informatie over inhoudscomponenten"
 >abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een e-mail te maken."
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components_landing_page"
+>title="Informatie over inhoudscomponenten"
+>abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een bestemmingspagina te maken."
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components_fragment"
+>title="Informatie over inhoudscomponenten"
+>abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een fragment te maken."
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components_template"
+>title="Informatie over inhoudscomponenten"
+>abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een sjabloon te maken."
 
 
 Als u uw e-mailinhoud helemaal zelf maakt, **[!UICONTROL Content components]** kunt u uw e-mail verder aanpassen met onbewerkte, lege onderdelen die u kunt gebruiken wanneer u een e-mail hebt geplaatst.
@@ -132,9 +147,27 @@ Gebruik de **[!UICONTROL Image]** om een afbeeldingsbestand van uw computer in t
 ## Video {#Video}
 
 >[!CONTEXTUALHELP]
->id="ac_edition_video"
+>id="ac_edition_video_email"
 >title="Video-instellingen"
 >abstract="Gebruik deze component om een video in te voegen in uw e-mail. Video&#39;s werken niet voor alle e-mailclients. We raden u aan een fallback-afbeelding in te stellen."
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Aanvullende informatie"
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_video_landing_page"
+>title="Video-instellingen"
+>abstract="Gebruik deze component om een video in te voegen in uw openingspagina. Video&#39;s werken niet op alle berichtclients. We raden u aan een fallback-afbeelding in te stellen."
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Aanvullende informatie"
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_video_fragment"
+>title="Video-instellingen"
+>abstract="Gebruik deze component om een video in te voegen in uw fragment. Video&#39;s werken niet op alle berichtclients. We raden u aan een fallback-afbeelding in te stellen."
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Aanvullende informatie"
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_video_template"
+>title="Video-instellingen"
+>abstract="Gebruik deze component om een video in uw sjabloon in te voegen. Video&#39;s werken niet op alle berichtclients. We raden u aan een fallback-afbeelding in te stellen."
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Aanvullende informatie"
 
 Gebruik de **[!UICONTROL Video]** om een video in te voegen in uw e-mail via een URL-koppeling.

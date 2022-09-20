@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 59da1d75885ffc6f4b97e218ea131233c198a7ae
+source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ Als een van deze fouten optreedt, neemt u contact op met [Adobe Klantenservice](
    * Voegend op lijst van gewenste personen van toegewezen IPs
    * Ongeldig `helo` name
    * E-mails die worden verzonden van IPs buiten degenen die in de IP pool van de overeenkomstige oppervlakte worden gespecificeerd
-   * Kan geen e-mails verzenden naar postvakken van belangrijke ISP&#39;s, zoals Gmail en Yahoo
+   * Kan geen e-mails naar postvakken van belangrijke ISP&#39;s verzenden
 
 ## Een kanaaloppervlak bewerken {#edit-channel-surface}
 

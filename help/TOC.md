@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4ea9786983d7919ea1598c91ec523826ba7a689
+source-git-commit: 1f0b9507c557140efe5e2aa170d4acfa28ed4b88
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1149'
 ht-degree: 39%
 
 ---
@@ -110,6 +110,10 @@ ht-degree: 39%
    + Gebruiksscenario’s{#personalization-use-cases}
       + [Statusmelding van bestelling](using/personalization/personalization-use-case.md)
       + [E-mailadres voor afmelden van winkelwagentje](using/personalization/personalization-use-case-helper-functions.md)
+   + Dynamische inhoud {#dynamic}
+      + [Aan de slag met dynamische inhoud](using/personalization/get-started-dynamic-content.md)
+      + [Voorwaarden maken](using/personalization/create-conditions.md)
+      + [Voorwaardelijke inhoud maken](using/personalization/dynamic-content.md)
 + Segmenten, profielen en identiteit{#segment}
    + Segmenten {#segments}
       + [Aan de slag met segmenten](using/segment/about-segments.md)
@@ -292,7 +296,7 @@ ht-degree: 39%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
+         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)

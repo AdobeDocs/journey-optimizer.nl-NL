@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,46 @@ ht-degree: 0%
 # Opnieuw starten {#create-email-content}
 
 >[!CONTEXTUALHELP]
->id="ac_structure_components"
+>id="ac_structure_components_email"
 >title="Informatie over de componenten Structuur"
 >abstract="Structuurelementen definiëren de indeling van de e-mail."
 
 >[!CONTEXTUALHELP]
->id="ac_edition_columns"
+>id="ac_structure_components_landing_page"
+>title="Informatie over de componenten Structuur"
+>abstract="Structuurcomponenten definiëren de lay-out van de bestemmingspagina."
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components_fragment"
+>title="Informatie over de componenten Structuur"
+>abstract="Structuurcomponenten definiëren de lay-out van het fragment."
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components_template"
+>title="Informatie over de componenten Structuur"
+>abstract="Structuurelementen definiëren de lay-out van de sjabloon."
+
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns_email"
 >title="E-mailkolommen definiëren"
 >abstract="Met de E-mailontwerper kunt u de indeling van uw e-mail eenvoudig definiëren door de kolomstructuur te definiëren."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns_landing_page"
+>title="Landingspaginakolommen definiëren"
+>abstract="Met de e-mailontwerper kunt u de indeling van de bestemmingspagina eenvoudig definiëren door de kolomstructuur te definiëren."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns_fragment"
+>title="Fragmentkolommen definiëren"
+>abstract="Met de e-mailontwerper kunt u de indeling van het fragment eenvoudig definiëren door de kolomstructuur te definiëren."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns_template"
+>title="Sjabloonkolommen definiëren"
+>abstract="Met de E-mailontwerper kunt u de indeling van uw sjabloon eenvoudig definiëren door de kolomstructuur te definiëren."
+
 
 Met de e-mailontwerper kunt u de structuur van uw e-mail eenvoudig definiëren. Door structuurelementen toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van uw e-mail binnen seconden ontwerpen.
 
