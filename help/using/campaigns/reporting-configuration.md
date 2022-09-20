@@ -8,7 +8,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 19c52b7c10659305bb729470bf5fa6b9b581bf82
+source-git-commit: 16c156d715a6b39652191909ca88f90e7f971706
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 2%
@@ -25,7 +25,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="Een gegevensset selecteren"
->abstract="U kunt alleen een gebeurtenistype-gegevensset selecteren die ten minste een van de ondersteunde veldgroepen moet bevatten: Application Details, Commerce Details, Web Details."
+>abstract="U kunt alleen een gebeurtenistype-gegevensset selecteren, die minstens een van de ondersteunde veldgroepen moet bevatten: Application Details, Commerce Details, Web Details."
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
