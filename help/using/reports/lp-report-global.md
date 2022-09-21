@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -16,13 +17,15 @@ ht-degree: 0%
 
 De openingspagina **[!UICONTROL Global report]** het rapport geeft informatie over de impact van de bestemmingspagina&#39;s op een geselecteerde tijdsperiode. Als u de gegevens van de bestemmingspagina alleen gedurende de laatste 24 uur wilt meten, raadpleegt u de [Live-verslag over de landingspagina](lp-report-live.md).
 
-Als u uw rapporten wilt openen, selecteert u **[!UICONTROL Global report]** in het geavanceerde menu van de geselecteerde bestemmingspagina.
+Als u uw rapporten wilt openen, selecteert u **[!UICONTROL Report]** in het geavanceerde menu van de geselecteerde bestemmingspagina.
 
-![](assets/landing_page_report_7.png)
+![](assets/landing_page_report.png)
 
 De openingspagina **[!UICONTROL Global report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw levering worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Zie voor meer informatie hierover [sectie](global-report.md).
 
-![](assets/landing_page_report_4.png)
+![](assets/landing_page_global.png)
+
++++Leer meer op de verschillende metriek en widgets beschikbaar voor het het Landing pagina globale rapport.
 
 De **[!UICONTROL Number of visits]** en **[!UICONTROL Number of visits over time]** Met widgets kunt u de invloed van de landingspagina op de geselecteerde tijdsperiode zien via een grafiek en KPI&#39;s met de volgende meetwaarden:
 
@@ -35,8 +38,6 @@ De **[!UICONTROL Landing page performance]** widget geeft via KPI&#39;s informat
 * **[!UICONTROL Conversion rate]**: Aantal personen dat met de aanlandingspagina heeft gecommuniceerd, bv. op een formulier geabonneerd, in verhouding tot het totale aantal bezoeken.
 
 * **[!UICONTROL Bounce rate]**: Aantal personen dat niet met de landingspagina in wisselwerking stond en de actie van het intekenen niet voltooide, in verhouding tot het totale aantal bezoeken.
-
-![](assets/landing_page_report_5.png)
 
 De **[!UICONTROL Visit sources]** widget geeft aan hoe bezoekers uw landingspagina openen:
 
@@ -56,8 +57,9 @@ De **[!UICONTROL Journey(s)]** widget geeft het aantal bezoeken aan uw landingsp
 
 De **[!UICONTROL Other sources]** widget geeft het aantal bezoeken aan uw landingspagina aan vanuit een externe bron in plaats van een reis .
 
-![](assets/landing_page_report_6.png)
-
 De **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** de grafieken geven het totale aantal bezoeken en personen aan die met succes hebben gereageerd op uw landingspagina voor de betrokken periode, afhankelijk van de verzonden berichten.
 
 De **[!UICONTROL Visits by channels]** / **[!UICONTROL Conversions by channels]** de grafieken geven het totale aantal bezoeken en personen aan die met succes hebben gereageerd op uw landingspagina voor de betrokken periode, afhankelijk van de kanalen.
++++
+
+Voor een gedetailleerde lijst van elke metrisch beschikbaar in Adobe Journey Optimizer, verwijs naar [deze pagina](global-report.md#list-of-components-global).

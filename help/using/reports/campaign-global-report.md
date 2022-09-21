@@ -6,26 +6,29 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
 
 # Campagne Global-rapport {#campaign-global-report}
 
-Het rapport Campagne Global kan rechtstreeks vanuit uw campagne worden geopend met de **[!UICONTROL Reports]** knop.
+Het rapport Campagne Global kan rechtstreeks vanuit uw campagne worden geopend met de **[!UICONTROL All time]** knop.
 
-![](assets/campaign_report_1.png)
+![](assets/campaign_report_global_5.png)
 
-Na het selecteren van **[!UICONTROL All time]** tabblad, de campagne **[!UICONTROL Global report]** Deze pagina wordt weergegeven met de volgende tabbladen:
+De campagne **[!UICONTROL Global report]** Deze pagina wordt weergegeven met de volgende tabbladen:
 
 * [Campaign](#campaign-global)
 * [Email](#email-global)
 * [Push](#push-global)
+* [Sms](#sms-global)
 
 De campagne **[!UICONTROL Global report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Raadpleeg voor meer informatie hierover [sectie](../reports/global-report.md#modify-dashboard).
+
+Voor een gedetailleerde lijst van elke metrisch beschikbaar in Adobe Journey Optimizer, verwijs naar [deze pagina](global-report.md#list-of-components-global.md)
 
 ## Tabblad Campagne {#campaign-global}
 
@@ -43,7 +46,11 @@ De **[!UICONTROL Campaign's Statistics]** widget geeft de belangrijkste informat
 
 ## Tabblad E-mail {#email-global}
 
+![](assets/campaign_report_global_2.png)
+
 Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Email]** bevat de belangrijkste gegevens met betrekking tot de e-mailleveringen die in uw campagne zijn verzonden.
+
++++ Meer informatie over de verschillende maatstaven en widgets die beschikbaar zijn voor het e-mailrapport.
 
 De **[!UICONTROL Email Sending Statistics]** grafiek geeft het succes van uw levering aan:
 
@@ -127,10 +134,15 @@ De **[!UICONTROL Send time optimization]** Geeft details over het succes van uw 
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 * **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
++++
 
-## Tabblad Push {#push-global}
+## Tabblad Pushmelding {#push-global}
 
-Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Push]** bevat de belangrijkste informatie met betrekking tot de pushberichten die in uw campagne worden verzonden.
+Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Push notification]** bevat de belangrijkste informatie met betrekking tot de pushberichten die in uw campagne worden verzonden.
+
+![](assets/campaign_report_global_3.png)
+
++++Leer meer op de verschillende metriek en widgets beschikbaar voor het Push- rapport.
 
 De **[!UICONTROL Push notification - Sending statistics]** de tabel bevat de belangrijkste informatie met betrekking tot uw pushberichten met grafiek en PKI&#39;s:
 
@@ -196,3 +208,47 @@ De **[!UICONTROL Error Reasons]** de grafiek en de lijst laten u zien welke fout
 De **[!UICONTROL Excluded reasons]** de grafiek en de lijst tonen de verschillende redenen die gebruikersprofielen, uitgesloten van de gerichte profielen, van het ontvangen van het bericht verhinderden.
 
 De **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** en **[!UICONTROL Breakdown by platform]** grafieken en tabellen geven het succes van uw pushmelding weer, afhankelijk van het besturingssysteem van de ontvanger.
++++
+
+## Tabblad SMS {#sms-global}
+
+Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL SMS]** bevat de belangrijkste informatie met betrekking tot de SMS-leveringen die in uw campagne zijn verzonden.
+
+![](assets/campaign_report_global_4.png)
+
++++Meer informatie over de verschillende maatstaven en widgets die beschikbaar zijn voor het SMS-rapport.
+
+De **[!UICONTROL SMS - Sending statistics]** de tabel geeft het succes van uw levering aan :
+
+* **[!UICONTROL Targeted]**: Aantal gebruikersprofielen dat als doelprofielen voor deze levering in aanmerking komt.
+
+* **[!UICONTROL Excluded]**: Aantal gebruikersprofielen dat is uitgesloten van de doelprofielen en dat het bericht niet heeft ontvangen.
+
+* **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
+
+* **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
+
+* **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
+
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
+
+De **[!UICONTROL SMS Performance by date]** widget geeft de belangrijkste informatie met betrekking tot uw bericht met een grafiek:
+
+* **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
+
+* **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
+
+* **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
+
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
+
+De **[!UICONTROL Exclude Reasons]**, **[!UICONTROL Bounces Reasons]** en **[!UICONTROL Error Reasons]** in grafieken en tabellen kunt u zien welke fout en uitsluitingen tijdens de levering zijn opgetreden.
++++
+
+## Aanvullende bronnen
+
+* [Aan de slag met campagnes](../campaigns/get-started-with-campaigns.md)
+* [Een campagne maken](../campaigns/create-campaign.md)
+* [API-gestuurde campagnes maken](../campaigns/api-triggered-campaigns.md)
+* [Een campagne wijzigen of stoppen](../campaigns/modify-stop-campaign.md)
+* [Campagne live-rapport](campaign-live-report.md)

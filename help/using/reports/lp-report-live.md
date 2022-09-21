@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -16,13 +17,13 @@ ht-degree: 0%
 
 De openingspagina **[!UICONTROL Live report]** het rapport bevat alleen informatie over de impact van uw bestemmingspagina&#39;s gedurende de laatste 24 uur. Als u de gegevens van de bestemmingspagina over een bepaalde tijdsperiode wilt meten, raadpleegt u de [Algemeen rapport landingspagina](lp-report-global.md).
 
-Als u uw rapporten wilt openen, selecteert u **[!UICONTROL Live report]** in het geavanceerde menu van de geselecteerde bestemmingspagina.
+Als u uw rapporten wilt openen, selecteert u **[!UICONTROL Report]** in het geavanceerde menu van de geselecteerde bestemmingspagina.
 
-![](assets/landing_page_report_1.png)
+![](assets/landing_page_report.png)
 
 De openingspagina **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw levering worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Zie voor meer informatie hierover [sectie](live-report.md).
 
-![](assets/landing_page_report_2.png)
++++Leer meer op de verschillende metriek en widgets beschikbaar voor het het Aanvoeren pagina levend rapport.
 
 De **[!UICONTROL Landing page performance]** widget geeft de belangrijkste informatie met betrekking tot uw bericht over de afgelopen 24 uur door KPIs detail:
 
@@ -46,8 +47,9 @@ De **[!UICONTROL Journey(s)]** widget geeft het aantal bezoeken aan uw landingsp
 
 De **[!UICONTROL Other sources]** widget geeft het aantal bezoeken aan uw landingspagina aan vanuit een externe bron in plaats van een reis .
 
-![](assets/landing_page_report_3.png)
-
 De **[!UICONTROL Visits by messages]** / **[!UICONTROL Conversions by messages]** grafieken geven het totale aantal bezoeken en personen aan die de laatste 24 uur succesvol hebben gereageerd op uw landingspagina, afhankelijk van de verzonden berichten.
 
 De **[!UICONTROL Visits by channels]** / **[!UICONTROL Conversions by channels]** de grafieken geven het totale aantal bezoeken en personen aan die de laatste 24 uur met succes hebben gereageerd op uw landingspagina, afhankelijk van de kanalen.
++++
+
+Voor een gedetailleerde lijst van elke metrisch beschikbaar in Adobe Journey Optimizer, verwijs naar [deze pagina](live-report.md#list-of-components-live).

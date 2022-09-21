@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1f0b9507c557140efe5e2aa170d4acfa28ed4b88
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1151'
 ht-degree: 39%
 
 ---
@@ -246,13 +246,13 @@ ht-degree: 39%
       + [Leveringen opwaarderen](using/building-journeys/ramp-up-deliveries-uc.md)
 + Bijhouden en bewaken {#reporting}
    + Live-rapport {#live-report}
-      + [Het dashboard voor Live-rapporten openen](using/reports/live-report.md)
+      + [Aan de slag met Live-rapport](using/reports/live-report.md)
       + [Journey Live-rapport](using/reports/journey-live-report.md)
       + [Campagne Live-rapport](using/reports/campaign-live-report.md)
       + [Openingspagina Live-rapport](using/reports/lp-report-live.md)
       + [Abonnementenlijst Live-rapport](using/reports/subscription-report-live.md)
    + Algemeen rapport {#global-report}
-      + [Het globale rapportdashboard van de toegang](using/reports/global-report.md)
+      + [Aan de slag met Global-rapport](using/reports/global-report.md)
       + [Journey Global-rapport](using/reports/journey-global-report.md)
       + [Campagne Global-rapport](using/reports/campaign-global-report.md)
       + [Openingspagina Global-rapport](using/reports/lp-report-global.md)

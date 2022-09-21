@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Het abonnement **[!UICONTROL Global report]** geeft details weer over de activiteit van je abonnees gedurende een geselecteerde tijdsperiode. Als u uw abonnementen alleen gedurende de afgelopen 24 uur wilt meten, raadpleegt u de [Live-rapport voor abonnement](subscription-report-live.md).
 
-Als u uw rapporten wilt openen, selecteert u **[!UICONTROL Global report]** in het geavanceerde menu van uw geselecteerde abonnementenlijst.
+Klik op de knop **[!UICONTROL Report]** pictogram van uw geselecteerde abonnementenlijst.
 
 ![](assets/subscription_report_7.png)
 

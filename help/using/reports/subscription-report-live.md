@@ -5,9 +5,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
+source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -16,9 +17,9 @@ ht-degree: 0%
 
 Het abonnement **[!UICONTROL Live report]** geeft alleen details weer over de activiteiten van je abonnees in de afgelopen 24 uur. Als u uw abonnementen over een bepaalde tijdsperiode wilt meten, raadpleegt u de [Globaal rapport voor abonnement](subscription-report-global.md).
 
-Als u uw rapporten wilt openen, selecteert u **[!UICONTROL Live report]** in het geavanceerde menu van uw geselecteerde abonnementenlijst.
+Klik op de knop **[!UICONTROL Report]** pictogram van uw geselecteerde abonnementenlijst.
 
-![](assets/subscription_report_6.png)
+![](assets/subscription_report_7.png)
 
 Het abonnement **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin uw abonnementen en afmeldingsopties worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Zie voor meer informatie hierover [sectie](live-report.md).
 
@@ -35,4 +36,3 @@ De **[!UICONTROL Subscription performance]** in de grafiek wordt de ontwikkeling
 ![](assets/subscription_report_4.png)
 
 De **Abonnementen - indeling** en **Abonnement opzeggen - Onderverdeling** de grafieken geven het totale aantal personen aan dat zich in de laatste 24 uur heeft geabonneerd of geabonneerd, afhankelijk van de berichten, de aanlandingspagina&#39;s en de kanalen.
-
