@@ -5,20 +5,14 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: d74295e6-53b2-46f9-809c-1ef479aba5ab
-source-git-commit: cdd5f963e11874d15591dad80712ca2d2ee8026f
+source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
 
 # Beleid voor gegevensgebruik {#Policies}
-
->[!CONTEXTUALHELP]
->id="ajo_olac_manage_access"
->title="Olac Manage Access"
->abstract="TBC"
-
 
 Met Adobe Experience Platform **Data Governance Service** kunt u beperkingen op het gegevensgebruik afdwingen door labels, marketingacties en beleidsregels te gebruiken.
 

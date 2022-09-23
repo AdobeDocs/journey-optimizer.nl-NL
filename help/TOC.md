@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aecbf0f8bcfb8f6747ee072d891029a38f8f2ed1
+source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1155'
 ht-degree: 39%
 
 ---
@@ -431,6 +431,7 @@ ht-degree: 39%
    + [Machtigingsniveaus](using/administration/high-low-permissions.md)
    + [Sandboxbeheer](using/administration/sandboxes.md)
    + [Op kenmerken gebaseerd toegangsbeheer](using/administration/attribute-based-access.md)
+   + [Toegangsbeheer op objectniveau](using/administration/object-based-access.md)
 + Privacy {#privacy}
    + [Beleid voor gegevensgebruik](using/privacy/policies.md)
    + [Privacyverzoeken](using/privacy/requests.md)
