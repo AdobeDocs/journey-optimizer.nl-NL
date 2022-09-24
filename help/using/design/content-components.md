@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
+source-git-commit: 030dc5f3a5d1927076c87aa600097a3b5761e803
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1104'
 ht-degree: 1%
 
 ---
@@ -150,25 +150,21 @@ Gebruik de **[!UICONTROL Image]** om een afbeeldingsbestand van uw computer in t
 >id="ac_edition_video_email"
 >title="Video-instellingen"
 >abstract="Gebruik deze component om een video in te voegen in uw e-mail. Video&#39;s werken niet voor alle e-mailclients. We raden u aan een fallback-afbeelding in te stellen."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Aanvullende informatie"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_landing_page"
 >title="Video-instellingen"
 >abstract="Gebruik deze component om een video in te voegen in uw openingspagina. Video&#39;s werken niet op alle berichtclients. We raden u aan een fallback-afbeelding in te stellen."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Aanvullende informatie"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_fragment"
 >title="Video-instellingen"
 >abstract="Gebruik deze component om een video in te voegen in uw fragment. Video&#39;s werken niet op alle berichtclients. We raden u aan een fallback-afbeelding in te stellen."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Aanvullende informatie"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_video_template"
 >title="Video-instellingen"
 >abstract="Gebruik deze component om een video in uw sjabloon in te voegen. Video&#39;s werken niet op alle berichtclients. We raden u aan een fallback-afbeelding in te stellen."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Aanvullende informatie"
 
 Gebruik de **[!UICONTROL Video]** om een video in te voegen in uw e-mail via een URL-koppeling.
 
