@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 769c5cb4c609a9c97223103216713dbec44847a4
+source-git-commit: b720134ae82a596321aa2815a36e92e6b19c71ba
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1159'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,11 @@ U kunt ook [**handmatig** een adres of domein toevoegen](#add-addresses-and-doma
 >Het duurt tussen 0 en 60 minuten [!DNL Journey Optimizer] om rekening te houden met de onderdrukte adressen in uitgaande e-mails.
 
 ## De lijst met onderdrukking openen {#access-suppression-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_suppression_list_download"
+>title="De lijst exporteren als een CSV-bestand"
+>abstract="Als u de suppressielijst wilt downloaden, kunt u de huidige lijst exporteren door een nieuw bestand te genereren of het eerder gegenereerde bestand downloaden."
 
 Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** en selecteert u **[!UICONTROL Suppression list]**.
 
