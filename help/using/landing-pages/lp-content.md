@@ -175,7 +175,7 @@ Wanneer [configureren van primaire pagina](create-lp.md#configure-primary-page)k
 >
 >Deze gegevens zijn mogelijk niet zichtbaar voor gebruikers die de pagina bezoeken.
 
-Als u een of meer toetsen met de bijbehorende waarden hebt gedefinieerd wanneer [configureren van primaire pagina](create-lp.md#configure-primary-page)kunt u deze toetsen gebruiken in de inhoud van de primaire pagina en subpagina&#39;s met de [Expression-editor](../personalization/personalization-build-expressions.md).
+Als u een of meer toetsen met de bijbehorende waarden hebt gedefinieerd wanneer [configureren van primaire pagina](create-lp.md#configure-primary-page)kunt u deze toetsen gebruiken voor de inhoud van de primaire pagina en de subpagina&#39;s via de [Expression-editor](../personalization/personalization-build-expressions.md).
 
 <!--When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
 
