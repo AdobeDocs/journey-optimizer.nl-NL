@@ -4,8 +4,8 @@ description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: d3895b0d6a73c1618f417d28e971c5b3c9b89b4e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '961'
+ht-degree: 9%
 
 ---
 
