@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '852'
 ht-degree: 1%
 
 ---
@@ -33,6 +33,8 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 >Adobe Experience Platform-segmenten worden één keer per dag berekend (**partij** segmenten) of in realtime (**gestreamd** segmenten, met gebruik van de optie High Frequency Audiences van Adobe Experience Platform).
 >
 >Als het geselecteerde segment wordt gestreamd, zullen de individuen die tot dit segment behoren potentieel de reis in real time ingaan. Als het segment partij is, zullen de mensen die nieuw voor dit segment worden gekwalificeerd de reis potentieel ingaan wanneer de segmentberekening op Adobe Experience Platform wordt uitgevoerd.
+>
+>U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een Leessegment, een Segmentkwalificatie of een zakelijke gebeurtenisactiviteit.
 
 
 1. De **[!UICONTROL Events]** categorie en een **[!UICONTROL Segment Qualification]** op uw canvas.

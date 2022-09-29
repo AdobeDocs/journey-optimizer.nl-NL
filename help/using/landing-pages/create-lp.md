@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1424'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ U kunt ook een openingspagina verwijderen, dupliceren en de publicatie ervan ong
 
 >[!CAUTION]
 >
->Als u de publicatie van een bestemmingspagina ongedaan maakt waarnaar in een niet-gepubliceerd bericht wordt verwezen, wordt de koppeling naar de bestemmingspagina verbroken en wordt een foutpagina weergegeven.
+>Als u de publicatie van een bestemmingspagina ongedaan maakt waarnaar in een bericht wordt verwezen, wordt de koppeling naar de bestemmingspagina verbroken en wordt een foutpagina weergegeven.
 
 Klik op de drie stippen naast een openingspagina om de gewenste actie te selecteren.
 
@@ -39,9 +39,16 @@ Klik op de drie stippen naast een openingspagina om de gewenste actie te selecte
 
 >[!NOTE]
 >
->U kunt een gepubliceerde bestemmingspagina niet verwijderen. Als u het wilt verwijderen, moet u de publicatie eerst ongedaan maken.
+>U kunt een [gepubliceerd](#publish-landing-page) openingspagina. Als u het wilt verwijderen, moet u de publicatie eerst ongedaan maken.
 
 ## Een landingspagina maken {#create-landing-page}
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_create"
+>title="De bestemmingspagina definiëren en configureren"
+>abstract="Als u een openingspagina wilt maken, moet u een voorinstelling selecteren, vervolgens de primaire pagina en subpagina&#39;s configureren en ten slotte de pagina testen voordat u deze publiceert."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="De openingspagina publiceren"
 
 De stappen voor het maken van een bestemmingspagina zijn als volgt.
 
@@ -52,6 +59,10 @@ De stappen voor het maken van een bestemmingspagina zijn als volgt.
 1. Voeg een titel toe. U kunt desgewenst een beschrijving toevoegen.
 
    ![](assets/lp_create-lp-details.png)
+
+1. Als u aangepaste of basislabels voor gegevensgebruik wilt toewijzen aan de landingspagina, selecteert u **[!UICONTROL Manage access]**. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md)
+
+   <!--You can add a tag. See AEP documentation?-->
 
 1. Selecteer een voorinstelling. Leer hoe u voorinstellingen voor openingspagina&#39;s maakt in [deze sectie](../configuration/lp-presets.md#lp-create-preset).
 
@@ -70,6 +81,19 @@ De stappen voor het maken van een bestemmingspagina zijn als volgt.
 Zodra u vormde en ontwierp [primaire pagina](#configure-primary-page)en de [subpagina&#39;s](#configure-subpages) indien van toepassing, kunt u [test](#test-landing-page) en [publish](#publish-landing-page) uw openingspagina.
 
 ## De primaire pagina configureren {#configure-primary-page}
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_primary_page"
+>title="De primaire pagina-instellingen definiëren"
+>abstract="De primaire pagina wordt direct aan de gebruikers getoond nadat zij de verbinding aan uw landende pagina, zoals van een e-mail of een website klikken."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="De inhoud van de bestemmingspagina ontwerpen"
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_settings"
+>title="De URL van de landingspagina definiëren"
+>abstract="Definieer in deze sectie een unieke URL van een bestemmingspagina. Voor het eerste deel van de URL moet u eerder een subdomein voor een bestemmingspagina instellen als onderdeel van de voorinstelling die u hebt geselecteerd."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="Subdomeinen van bestemmingspagina configureren"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
 
 De primaire pagina is de pagina die onmiddellijk aan de gebruikers wordt getoond nadat zij de verbinding aan uw landende pagina, zoals van een e-mail of een website klikken.
 
@@ -111,7 +135,9 @@ Voer de onderstaande stappen uit om de instellingen voor de primaire pagina te d
 
    ![](assets/lp_expiry-date.png)
 
-   <!--1. In the **[!UICONTROL Additional data]** section, define a **[!UICONTROL Key]** and the corresponding **[!UICONTROL Parameter value]**. // you can define how the data entered in the landing page is managed once it has been submitted by a user??-->
+1. In de **[!UICONTROL Additional data]** , definieert u een of meer sleutels en de bijbehorende parameterwaarden. U kunt deze toetsen gebruiken in de inhoud van uw primaire pagina en subpagina&#39;s met de opdracht [Expression-editor](../personalization/personalization-build-expressions.md). Meer informatie in [deze sectie](lp-content.md#use-form-component#use-additional-data).
+
+   ![](assets/lp_create-lp-additional-data.png)
 
 1. Als u een of meer abonnementenlijsten hebt geselecteerd wanneer [de primaire pagina ontwerpen](design-lp.md)worden weergegeven in de **[!UICONTROL Subscription list]** sectie.
 
@@ -124,6 +150,19 @@ Voer de onderstaande stappen uit om de instellingen voor de primaire pagina te d
    Klikken **[!UICONTROL Create journey]** om naar de **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** lijst.
 
 ## Subpagina&#39;s configureren {#configure-subpages}
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_subpage"
+>title="De subpagina-instellingen definiëren"
+>abstract="U kunt maximaal twee subpagina&#39;s toevoegen. U kunt bijvoorbeeld een pagina &#39;Bedankt&#39; maken die wordt weergegeven wanneer de gebruikers het formulier verzenden en u kunt een foutpagina definiëren die wordt aangeroepen wanneer zich een probleem voordoet met de landingspagina."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="De inhoud van de bestemmingspagina ontwerpen"
+
+>[!CONTEXTUALHELP]
+>id="ajo_lp_access_settings-subpage"
+>title="De URL van de landingspagina definiëren"
+>abstract="Definieer in deze sectie een unieke URL van een bestemmingspagina. Voor het eerste deel van de URL moet u eerder een subdomein voor een bestemmingspagina instellen als onderdeel van de voorinstelling die u hebt geselecteerd."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="Subdomeinen van bestemmingspagina configureren"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
 
 U kunt maximaal twee subpagina&#39;s toevoegen. U kunt bijvoorbeeld een pagina &#39;Bedankt&#39; maken die wordt weergegeven wanneer de gebruikers het formulier verzenden en u kunt een foutpagina definiëren die wordt aangeroepen wanneer zich een probleem voordoet met de landingspagina.
 

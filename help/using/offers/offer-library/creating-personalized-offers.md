@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 55d9befff9b9bf1bc81c6553cd76f015fdd3116e
+source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '700'
 ht-degree: 3%
 
 ---
@@ -45,7 +45,7 @@ Om een **aanbieden** Voer de volgende stappen uit:
 
    ![](../assets/create_offer.png)
 
-1. Geef de naam van de aanbieding en de begin- en einddatum en -tijd op. Buiten deze datums wordt de aanbieding niet geselecteerd door het beslissingsprogramma.
+1. Geef de naam van de aanbieding en de begin- en einddatum en -tijd op. Buiten deze datums wordt de aanbieding niet geselecteerd door de beslissingsengine.
 
    ![](../assets/offer_details.png)
 
@@ -56,6 +56,10 @@ Om een **aanbieden** Voer de volgende stappen uit:
 1. U kunt ook een of meerdere bestaande **[!UICONTROL tags]** aan de aanbieding, zodat u de bibliotheek van de Aanbieding gemakkelijker kunt zoeken en organiseren. [Meer informatie](creating-tags.md).
 
 1. De **[!UICONTROL Offer attributes]** kunt u sleutelwaardeparen aan de aanbieding koppelen voor rapportage- en analysedoeleinden.
+
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de aanbieding wilt toewijzen, selecteert u **[!UICONTROL Manage access]**. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../../administration/object-based-access.md)
+
+   ![](../assets/offer_manage-access.png)
 
 1. Voeg afbeeldingen toe om te bepalen waar je voorstel in het bericht wordt weergegeven. [Meer informatie](add-representations.md)
 

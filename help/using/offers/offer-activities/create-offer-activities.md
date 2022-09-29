@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1100'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,8 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 1. Geef zo nodig een begin- en einddatum en -tijd op en klik op **[!UICONTROL Next]**.
 
    ![](../assets/activities-name.png)
+
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de beslissing wilt toewijzen, selecteert u **[!UICONTROL Manage access]**. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../../administration/object-based-access.md)
 
 ## Bepaal beslissingsbereik {#add-decision-scopes}
 

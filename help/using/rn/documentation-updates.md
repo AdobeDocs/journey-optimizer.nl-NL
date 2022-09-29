@@ -2,9 +2,9 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
+source-git-commit: a5bbcfb84cb1be5770d91cc844e42e808dbe2957
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '2000'
 ht-degree: 19%
 
 ---
@@ -12,6 +12,19 @@ ht-degree: 19%
 # Documentatie-updates {#latest-updates}
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
+
+## September 2022 {#september-2022}
+
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van september &#39;22 is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
+* Er is een beste praktijk toegevoegd met betrekking tot het gebruik van wachtactiviteiten bij terugkerende leesegmentreizen. [Meer informatie](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Voorbeelden van query&#39;s voor nieuwe stapgebeurtenissen en informatie over het verschil tussen id, instanceid en profileid zijn toegevoegd. [Meer informatie](../reports/query-examples.md).
+* De pagina&#39;s die betrekking hebben op de [toDateOnly](../building-journeys/functions/functiontodateonly.md) en [toString](../building-journeys/functions/functiontostring.md) functies.
+* Meer informatie over de parameters voor de tijdvoorwaarde. [Meer informatie](../building-journeys/condition-activity.md#time_condition)
+* Toegevoegde informatie over ingebouwde datasets. [Meer informatie](../start/get-started-datasets.md#access-datasets)
+* De secties Global Report en Live zijn gereorganiseerd om beter leesbaar te worden. [Meer informatie](../reports/global-report.md)
+* Er is een lijst toegevoegd met alle in Adobe Journey Optimizer beschikbare rapporteringsmetrische gegevens.
+   [Meer informatie](../reports/global-report.md#email-and-sms-metrics)
+* Het e-mailgedeelte BCC is verplaatst naar de nieuwe pagina Ondersteuning voor archivering. [Meer informatie](../configuration/archiving-support.md)
 
 ## Augustus 2022 {#august-2022}
 

@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 3afef10461ce29b811cb20a2c8c4e94f452daf1f
+source-git-commit: 8ca0d2bbd01451de613d8ae985e10a711fcc6316
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1103'
 ht-degree: 8%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 8%
 
 ## Informatie over machtigingen voor berichten{#message-permissions}
 
-Adobe Journey Optimizer heeft nieuwe inline ontwerpmogelijkheden uitgebracht waarmee u uw berichten rechtstreeks vanuit een reis of een campagne kunt maken en schrijven. Voor meer informatie over deze nieuwe functie, [verwijzen naar deze pagina](../rn/inline-messages.md).
+Adobe Journey Optimizer heeft nieuwe inline ontwerpmogelijkheden uitgebracht waarmee u uw berichten rechtstreeks vanuit een reis of een campagne kunt maken en schrijven.
 
 Deze functie heeft als volgt invloed op de machtigingen:
 

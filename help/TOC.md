@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 40061255a2fcec3de1b39a168cadbdedd2e12d87
+source-git-commit: d6ff34a36abcf2b2233079aeddb5a5f0919f2590
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1153'
 ht-degree: 39%
 
 ---
@@ -21,9 +21,6 @@ ht-degree: 39%
       + [Opmerkingen bij de release van 2022](using/rn/release-notes-2022.md)
       + [Opmerkingen bij de release van 2021](using/rn/release-notes-2021.md)
    + [Documentatie-updates](using/rn/documentation-updates.md)
-   + Nieuwe inline ontwerpfunctie {#inline-authoring}
-      + [Migratieoverzicht](using/rn/inline-messages.md)
-      + [Migratiestappen](using/rn/inline-messages-steps.md)
 + Aan de slag{#get-started}
    + [Wat is Journey Optimizer](using/start/get-started.md)
    + Snel starten{#quick-start}
@@ -37,6 +34,7 @@ ht-degree: 39%
 + Campagnes{#campaigns}
    + [Aan de slag met campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Een campagne maken](using/campaigns/create-campaign.md)
+   + [Een campagne bekijken en activeren](using/campaigns/review-activate-campaign.md)
    + [Live campagnes beheren](using/campaigns/modify-stop-campaign.md)
    + Inhoudsexperiment {#content-experiment}
       + [Aan de slag met het experimenteren met inhoud](using/campaigns/get-started-experiment.md)
@@ -271,6 +269,7 @@ ht-degree: 39%
    + Leverbaarheid {#deliverability}
       + [Aan de slag met de prestaties](using/reports/deliverability.md)
       + [De onderdrukkingslijst begrijpen](using/reports/suppression-list.md)
+   + [Waarschuwingen](using/reports/alerts.md)
 + Beslissingsbeheer {#offer-decisioning}
    + Aan de slag met het beheer van beslissingen {#get-started-decision}
       + [Over het beheer van besluiten](using/offers/get-started/starting-offer-decisioning.md)
@@ -395,7 +394,7 @@ ht-degree: 39%
       + Kanaaloppervlakken instellen {#set-up-channels}
          + [Kanaaloppervlakken maken](using/configuration/channel-surfaces.md)
          + [E-mailinstellingen configureren](using/configuration/email-settings.md)
-         + [BCC-e-mail gebruiken](using/configuration/bcc-email.md)
+      + [Ondersteuning voor archivering](using/configuration/archiving-support.md)
       + [Uitvoeradressen beheren](using/configuration/primary-email-addresses.md)
       + [Regels voor frequenties configureren](using/configuration/frequency-rules.md)
    + Landingspagina’s configureren {#lp-configuration}
@@ -422,7 +421,6 @@ ht-degree: 39%
          + [Een actie configureren](using/action/about-custom-action-configuration.md)
          + [Integreren met Adobe Campaign Standard](using/action/acs-action.md)
          + [Integreren met Adobe Campaign v7/v8](using/action/acc-action.md)
-         + [Toestemming](using/action/consent.md)
    + [Bronnen](using/start/get-started-sources.md)
 + Toegangsbeheer {#access-control}
    + [Overzicht van toegangsbeheer](using/administration/permissions-overview.md)
@@ -435,4 +433,6 @@ ht-degree: 39%
 + Privacy {#privacy}
    + [Beleid voor gegevensgebruik](using/privacy/policies.md)
    + [Privacyverzoeken](using/privacy/requests.md)
-   + [Audit van Journey Optimizer-bronnen](using/privacy/audit-logs.md)
+   + [Controleregelingen op middelen](using/privacy/audit-logs.md)
+   + [Toestemming](using/action/consent.md)
+   + [Data Governance](using/action/action-privacy.md)

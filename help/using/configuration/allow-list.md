@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: e81e21f714a3c5450defa1129e1e2b9969dc1de7
+source-git-commit: 50f6b965b50b1ffe4dab9102657d43888cb6d5ea
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '986'
 ht-degree: 2%
 
 ---
@@ -158,7 +158,7 @@ Meer informatie over het maken van API-aanroepen in het dialoogvenster [Adobe Ex
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="De lijst van gewenste personen beheren"
->abstract="Wanneer de lijst van gewenste personen wordt geactiveerd, ontvangen alleen de ontvangers die zijn opgenomen in de lijst van gewenste personen e-mailberichten van deze sandbox."
+>abstract="Wanneer de lijst van gewenste personen wordt geactiveerd, ontvangen alleen de ontvangers die zijn opgenomen in de lijst van gewenste personen e-mailberichten van deze sandbox. Wanneer deze functie is gedeactiveerd, ontvangen alle ontvangers e-mailberichten."
 
 Wanneer de lijst van gewenste personen [actief](#enable-allow-list), is de volgende logica van toepassing:
 

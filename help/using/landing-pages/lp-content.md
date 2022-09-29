@@ -5,10 +5,11 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: f4b3a9de47e724f7b23df8a02b8106c131cf1b12
+exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
+source-git-commit: 75f29dacf54d29172039ac0a098ecafe467ad35d
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 1%
+source-wordcount: '1124'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +19,7 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 
 >[!NOTE]
 >
->U kunt ook een doorklikingspagina zonder een **[!UICONTROL Form]** component. In dat geval wordt de landingspagina weergegeven aan gebruikers, maar hoeven zij geen formulier in te dienen. Dit kan handig zijn als u alleen een bestemmingspagina wilt weergeven zonder dat u enige actie van uw ontvangers nodig hebt, zoals aanmelden of Weigeren, of als u informatie wilt opgeven waarvoor geen invoer van de gebruiker is vereist.
+>U kunt ook een doorklikingspagina zonder een **[!UICONTROL Form]** component. In dat geval wordt de landingspagina weergegeven aan gebruikers, maar hoeven zij geen formulier in te dienen. Dit kan handig zijn als u alleen een bestemmingspagina wilt weergeven zonder dat u enige actie van uw ontvangers nodig hebt, zoals aanmelden of Weigeren, of informatie wilt opgeven waarvoor geen invoer van de gebruiker is vereist.
 
 ## De formuliercomponent gebruiken {#use-form-component}
 
@@ -95,8 +96,6 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 
    ![](assets/lp_designer-form-save.png)
 
-<!--Will the name Email Designer be kept if you can also design LP with the same tool? > To modify in Messages section > content designer or Designer-->
-
 ## Landingspagina-formulierstijlen definiëren {#lp-form-styles}
 
 1. Als u de stijlen van de inhoud van een formuliercomponent wilt wijzigen, schakelt u op elk gewenst moment over naar de **[!UICONTROL Form style]** tab.
@@ -123,3 +122,85 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 
    ![](assets/lp_designer-form-error-preview.png)
 
+## De context van de primaire pagina gebruiken {#use-primary-page-context}
+
+U kunt contextuele gegevens gebruiken die afkomstig zijn van een andere pagina binnen dezelfde landingspagina.
+
+Als u bijvoorbeeld een selectievakje koppelt<!-- or the submission of the page--> een [abonnementenlijst](subscription-list.md) op de primaire landingspagina kunt u die abonnementslijst op de subpagina &quot;bedankt&quot; gebruiken.
+
+Stel dat u twee selectievakjes op de primaire pagina koppelt aan twee verschillende abonnementlijsten. Als een gebruiker zich op een van deze machtigingen abonneert, wilt u bij het verzenden van het formulier een specifiek bericht weergeven, afhankelijk van het selectievakje dat de gebruiker heeft ingeschakeld.
+
+Hiervoor voert u de volgende stappen uit:
+
+1. Koppel op de primaire pagina elk selectievakje aan de betreffende abonnementenlijst. [Meer informatie](#use-form-component).
+
+   ![](assets/lp_designer-form-luma-newsletter.png)
+
+1. Plaats de aanwijzer van de muis op de subpagina waar u de tekst wilt invoegen en selecteer **[!UICONTROL Add personalization]** in de contextuele werkbalk.
+
+   ![](assets/lp_designer-form-subpage-perso.png)
+
+1. In de **[!UICONTROL Edit personalization]** venster, selecteert u **[!UICONTROL Contextual attributes]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Primary Page Context]** > **[!UICONTROL Subscription]**.
+
+1. Alle abonnementenlijsten die u op de primaire pagina hebt geselecteerd, worden weergegeven. Selecteer de relevante items met het pictogram +.
+
+   ![](assets/lp_designer-form-add-subscription.png)
+
+1. Voeg de relevante voorwaarden toe met behulp van de hulpfuncties van de Expressieeditor. [Meer informatie](../personalization/functions/functions.md)
+
+   ![](assets/lp_designer-form-add-subscription-condition.png)
+
+   >[!CAUTION]
+   >
+   >Als er een speciaal teken in de expressie staat, zoals een afbreekstreepje, moet u de tekst weglaten, inclusief het afbreekstreepje.
+
+1. Sla uw wijzigingen op.
+
+![](assets/lp_designer-form-preview-checked-box.png)
+
+Wanneer gebruikers nu een van de selectievakjes selecteren, wordt het bericht dat overeenkomt met het geselecteerde selectievakje weergegeven bij het verzenden van het formulier.
+
+![](assets/lp_designer-form-thankyou-preview.png)
+
+>[!NOTE]
+>
+>Als een gebruiker de twee selectievakjes selecteert, worden beide teksten weergegeven.
+
+
+## Aanvullende gegevens op de landingspagina gebruiken {#use-additional-data}
+
+Wanneer [configureren van primaire pagina](create-lp.md#configure-primary-page)kunt u aanvullende gegevens maken om het opslaan van informatie mogelijk te maken wanneer de landingspagina wordt verzonden.
+
+>[!NOTE]
+>
+>Deze gegevens zijn mogelijk niet zichtbaar voor gebruikers die de pagina bezoeken.
+
+Als u een of meer toetsen met de bijbehorende waarden hebt gedefinieerd wanneer [configureren van primaire pagina](create-lp.md#configure-primary-page)kunt u deze toetsen gebruiken in de inhoud van de primaire pagina en subpagina&#39;s met de [Expression-editor](../personalization/personalization-build-expressions.md).
+
+<!--When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
+
+For example, if you define the company name as a key, you can quickly update it everywhere (on all the pages of a given landing page) by changing it only once in the [primary page settings](create-lp.md#configure-primary-page).-->
+
+Volg onderstaande stappen om deze toetsen in een landingspagina te gebruiken:
+
+1. Wanneer het vormen van de primaire pagina, bepaal een sleutel en zijn overeenkomstige waarde in **[!UICONTROL Additional data]** sectie. [Meer informatie](create-lp.md#configure-primary-page)
+
+   ![](assets/lp_create-lp-additional-data.png)
+
+1. Wanneer u de primaire pagina bewerkt met de ontwerper, plaatst u de aanwijzer van de muis op de plaats waar u de toets wilt invoegen en selecteert u **[!UICONTROL Add personalization]** in de contextuele werkbalk.
+
+   ![](assets/lp_designer-context-add-perso.png)
+
+1. In de **[!UICONTROL Edit Personalization]** venster, selecteert u **[!UICONTROL Contextual attributes]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Additional Context]**.
+
+   ![](assets/lp_designer-contextual-attributes.png)
+
+1. Alle sleutels die u bij het vormen van de primaire pagina creeerde zijn vermeld. Selecteer de sleutel van uw keus gebruikend + pictogram.
+
+   ![](assets/lp_designer-context-select-key.png)
+
+1. Sla uw wijzigingen op en herhaal de bovenstaande stappen zo vaak als nodig is.
+
+   ![](assets/lp_designer-context-keys-inserted.png)
+
+   U kunt zien dat het verpersoonlijkingspunt die aan uw sleutel beantwoordt nu wordt getoond overal u het opnam.

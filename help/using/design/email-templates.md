@@ -5,10 +5,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: e152099f81305c4f045ce7195eea810109eb2f2e
+exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 7%
+source-wordcount: '218'
+ht-degree: 5%
 
 ---
 
@@ -23,6 +24,11 @@ U kunt kiezen uit:
 * Opgeslagen sjablonen. [Meer informatie](#save-as-template)
 
 ## Opslaan als sjabloon {#save-as-template}
+
+>[!CONTEXTUALHELP]
+>id="ajo_messages_depecrated_inventory"
+>title="Leer hoe u berichten kunt migreren"
+>abstract="Op 25 juli 2022 is het menu Berichten verdwenen en worden berichten nu rechtstreeks vanuit een reis geschreven. Als u oude berichten tijdens reizen opnieuw wilt gebruiken, moet u ze opslaan als sjablonen."
 
 Zodra u uw [e-mailinhoud](design-emails.md), kunt u deze opslaan voor toekomstig hergebruik. Volg de onderstaande stappen om dit te doen.
 
@@ -63,4 +69,3 @@ De volgende keer dat u een e-mail maakt, kunt u deze sjabloon gebruiken om uw in
 1. Klikken **[!UICONTROL Use this email]** rechtsboven op het scherm.
 
 1. Bewerk de inhoud naar wens met de e-mailontwerper.
-

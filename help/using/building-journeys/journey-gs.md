@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1132'
+ht-degree: 8%
 
 ---
 
@@ -81,7 +81,7 @@ Hier volgen de belangrijkste stappen voor het verzenden van berichten via reizen
 
 Klik op het potloodpictogram in de rechterbovenhoek om de eigenschappen van de rit te openen.
 
-U kunt de naam van de reis wijzigen, een beschrijving toevoegen, opnieuw toegang toestaan, begin- en einddatum kiezen en, als Admin-gebruiker, een **[!UICONTROL Timeout and error]** duur. Als dit is ingeschakeld voor uw organisatie, kunt u ook [burst messaging](#burst).
+U kunt de naam van de reis wijzigen, een beschrijving toevoegen, opnieuw toegang toestaan, begin- en einddatum kiezen en, als Admin-gebruiker, een **[!UICONTROL Timeout and error]** duur.
 
 Voor live reizen worden in dit scherm de publicatiedatum en de naam weergegeven van de gebruiker die de reis heeft gepubliceerd.
 
@@ -96,6 +96,10 @@ Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de optie uitsc
 Wanneer een reis &quot;beëindigt&quot;, zal het de status hebben **[!UICONTROL Closed]**. De reis zal het niet langer mogelijk maken dat nieuwe individuen de reis betreden. Personen die al op reis zijn, zullen de reis normaal afmaken.
 
 Na de standaard wereldwijde time-out van 30 dagen wordt de reis overgeschakeld op de **Voltooid** status. Zie dit [sectie](../building-journeys/journey-gs.md#global_timeout).
+
+>[!NOTE]
+>
+>Eenheidstrajecten (te beginnen met een evenement of segmentkwalificatie) bevatten een geleider die voorkomt dat ritten voor dezelfde gebeurtenis meerdere keren ten onrechte worden gestart. De terugkeer van het profiel wordt tijdelijk geblokkeerd door gebrek gedurende 5 minuten. Als bijvoorbeeld een evenement om 12.01 uur een reis voor een bepaald profiel start en een ander om 12.03 uur aankomt (ongeacht of het dezelfde gebeurtenis is of een andere gebeurtenis die dezelfde reis veroorzaakt), zal die reis niet opnieuw beginnen voor dit profiel.
 
 ### Tijdslimiet en fout bij reisactiviteiten {#timeout_and_error}
 
@@ -127,31 +131,8 @@ Als een tijdzone in Adobe Experience Platform-profiel is gedefinieerd, kan deze 
 
 Zie voor meer informatie over tijdzonebeheer [deze pagina](../building-journeys/timezone-management.md).
 
-### Burstmodus {#burst}
+### Toegang beheren {#access}
 
-De Burst-modus is een Journey Optimizer-invoegtoepassing waarmee zeer snelle pushberichten in grote hoeveelheden kunnen worden verzonden. Het wordt gebruikt voor eenvoudige reizen die een **Segment lezen** en een eenvoudig pushbericht. De explosie wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons, bijvoorbeeld een breekbericht aan gebruikers wilt verzenden die uw nieuwskanaal app hebben geïnstalleerd.
+Als u aangepaste of basislabels voor gegevensgebruik aan de reis wilt toewijzen, klikt u op de knop **[!UICONTROL Manage access]** knop. [Meer informatie over OLA (Object Level Access Control)](../administration/object-based-access.md)
 
-Het overseinen van de barst komt met de volgende vereisten:
-
-* De reis moet beginnen met een **Segment lezen** activiteit. Gebeurtenissen zijn niet toegestaan.
-* De volgende stap moet een pushbericht zijn. Geen ander kanaal, activiteit of stap toegestaan.
-* In het pushbericht is geen personalisatie toegestaan.
-* Het bericht moet klein zijn (&lt;2KB).
-
->[!CAUTION]
->
->Als niet aan een van de eisen wordt voldaan, is de burst mode niet beschikbaar op de reis.
-
-Om te activeren **Burstmodus**, open uw reis en klik het potloodpictogram, in het hoogste recht om tot de eigenschappen van de reis toegang te hebben. Vervolgens activeert u de knop **Burst-modus inschakelen** schakelen.
-
-![](assets/burst.png)
-
-De Burst-modus wordt automatisch gedeactiveerd als u een burst-rit wijzigt en een activiteit toevoegt die niet compatibel is met een burst-bericht, zoals een e-mailbericht, een andere actie, een gebeurtenis enzovoort.
-
-![](assets/burst2.png)
-
-Vervolgens test en publiceert u uw reis zoals gewoonlijk. Merk op dat, op testwijze, de berichten niet via de burst wijze worden verzonden.
-
-Begrijp de toepasselijke gebruiksgevallen voor burst overseinen, en hoe te om een reis voor burst berichten te vormen, in deze video:
-
->[!VIDEO](https://video.tv.adobe.com/v/334523?quality=12)
+![](assets/journeys-manage-access.png)

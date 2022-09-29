@@ -5,10 +5,9 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 28380dbadf485ba05f7ef6788a50253876718441
+source-git-commit: 0167ce16198acc485da687a4a05c13fae85d088d
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '825'
 ht-degree: 3%
 
 ---
@@ -33,10 +32,10 @@ ht-degree: 3%
 
    ![](assets/create-campaign.png)
 
-<!--1. In the **[!UICONTROL Properties]** section, specify when you want to execute the campaign:
+1. In de **[!UICONTROL Properties]** in, geeft u op wanneer u de campagne wilt uitvoeren:
 
-    * **[!UICONTROL Scheduled]**: execute the campaign immediately or on a specified date. Scheduled campaigns are aimed at sending **marketing** type messages.
-    * **[!UICONTROL API-triggered]**: execute the campaign using an API call. API-triggered campaigns are aimed at sending **transactional** messages, i.e. messages sent out following an action performed by an individual: password reset, card abandonment etc. [Learn how to trigger a campaign using APIs](api-triggered-campaigns.md)-->
+   * **[!UICONTROL Scheduled]**: voert de campagne onmiddellijk of op een gespecificeerde datum uit. Geplande campagnes zijn gericht op het verzenden van **marketing** type berichten.
+   * **[!UICONTROL API-triggered]**: voer de campagne uit gebruikend een API vraag. API-gestuurde campagnes zijn gericht op het verzenden van **transactie** berichten, d.w.z. berichten die worden verzonden na een actie uitgevoerd door een individu: wachtwoord opnieuw instellen, kaart verlaten enzovoort. [Leer hoe u een campagne activeert met behulp van API&#39;s](api-triggered-campaigns.md)
 
 1. In de **[!UICONTROL Actions]** , kiest u het kanaal en het kanaaloppervlak dat u wilt gebruiken om uw bericht te verzenden en klikt u op **[!UICONTROL Create]**.
 
@@ -47,8 +46,6 @@ ht-degree: 3%
    >[!NOTE]
    >
    >Alleen kanaaloppervlakken die compatibel zijn met het type marketingcampagne worden weergegeven in de vervolgkeuzelijst.
-
-<!--Only channel surfaces compatible with the campaign type (marketing or transactional) are listed in the drop-down list.-->
 
 1. Geef een titel en een beschrijving voor de campagne op.
 
@@ -76,7 +73,9 @@ ht-degree: 3%
 
 1. Bepaal het publiek om te richten. Om dit te doen, klik **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-segmenten weer te geven. [Meer informatie over segmenten](../segment/about-segments.md)
 
-   <!-- NOTE For API-triggered campaigns, the audience needs to be set via API call. [Learn more](api-triggered-campaigns.md)-->
+   >[!NOTE]
+   >
+   >Voor API-getriggerde campagnes moet het publiek worden ingesteld via API-aanroep. [Meer informatie](api-triggered-campaigns.md)
 
    In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren. [Meer informatie over naamruimten](../event/about-creating.md#select-the-namespace)
 
@@ -90,41 +89,9 @@ ht-degree: 3%
 
 1. Om uw campagne op een specifieke datum of op een terugkomende frequentie uit te voeren, vorm **[!UICONTROL Schedule]** sectie. [Leer hoe u campagnes kunt plannen](#schedule)
 
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de campagne wilt toewijzen, klikt u op de knop **[!UICONTROL Manage access]** knop. [Meer informatie over OLA (Object Level Access Control)](../administration/object-based-access.md)
+
 Als uw campagne gereed is, kunt u deze controleren en publiceren. [Meer informatie](#review-activate)
-
-## Een campagne bekijken en activeren {#review-activate}
-
-Zodra uw campagne is gevormd, moet u zijn parameter en inhoud herzien alvorens het te activeren. Ga als volgt te werk om dit te doen:
-
-1. Klik in het scherm Campagneconfiguratie op **[!UICONTROL Review to activate]** om een overzicht van de campagne weer te geven.
-
-   In het overzicht kunt u uw campagne desgewenst wijzigen en controleren of een parameter onjuist is of ontbreekt.
-
-   >[!IMPORTANT]
-   >
-   >In het geval van fouten kunt u de campagne niet activeren. Los de fouten op voordat u verdergaat.
-
-   ![](assets/create-campaign-alerts.png)
-
-1. Controleer of uw campagne correct is geconfigureerd en klik vervolgens op **[!UICONTROL Activate]**.
-
-   ![](assets/create-campaign-review.png)
-
-1. De campagne is nu geactiveerd. Zijn status is **[!UICONTROL Live]**, of **[!UICONTROL Scheduled]** als u een begindatum hebt ingevoerd. [Meer informatie over de status van campagnes](get-started-with-campaigns.md#statuses).
-
-   Het bericht dat in de campagne wordt gevormd wordt verzonden onmiddellijk of op de gespecificeerde datum.
-
-   >[!NOTE]
-   >
-   >De **[!UICONTROL Completed]** de status wordt automatisch toegewezen aan een campagne drie dagen nadat deze is geactiveerd of op de einddatum van de campagne als deze een terugkerende uitvoering heeft.
-   >
-   >Als er geen einddatum is opgegeven, blijft de campagne **[!UICONTROL Live]** status. Als u deze wilt wijzigen, moet u de campagne handmatig stoppen. [Leer hoe u een campagne kunt stoppen](modify-stop-campaign.md)
-
-1. Nadat een campagne is geactiveerd, kunt u op elk gewenst moment de informatie controleren door deze te openen. Met dit overzicht kunt u statistieken opvragen over het aantal doelprofielen en geleverde en mislukte acties.
-
-   U kunt extra statistieken in specifieke rapporten ook krijgen door te klikken op **[!UICONTROL Reports]** knop. [Meer informatie](../reports/campaign-global-report.md)
-
-   ![](assets/create-campaign-summary.png)
 
 ## Een campagne plannen {#schedule}
 
@@ -135,3 +102,40 @@ U kunt een frequentie bepalen waarmee het bericht van de campagne zou moeten wor
 Als u uw campagne niet meteen na de activering wilt uitvoeren, kunt u een datum en tijd opgeven waarop het bericht moet worden verzonden met de opdracht **[!UICONTROL Campaign start]** optie. De  **[!UICONTROL Campaign end]** kunt u opgeven wanneer een terugkerende campagne niet meer wordt uitgevoerd.
 
 ![](assets/create-campaign-schedule.png)
+
+## Snelle leveringsmodus {#rapid-delivery}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_rapid_delivery"
+>title="Snelle leveringsmodus"
+>abstract="De snelle leveringswijze is een toe:voegen-op van Journey Optimizer die u hoge snelheidsuitgaven van niet-gepersonaliseerde berichten aan publiek onder 30M profielen laat uitvoeren."
+
+De snelle leveringswijze, die vroeger als wijze van de Borst bij reizen wordt bekend, is een [!DNL Journey Optimizer] een invoegtoepassing waarmee via campagnes zeer snel pushberichten op grote volumes kunnen worden verzonden.
+
+Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd.
+
+Voor meer informatie over prestaties bij gebruik van de modus Snelle levering raadpleegt u [Productbeschrijving Adobe Journye Optimizer](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html).
+
+
+### Vereisten {#prerequisites}
+
+Snelle levering overseinen komt met de volgende vereisten:
+
+* Snelle levering is beschikbaar voor **[!UICONTROL Scheduled]** alleen campagnes, en niet beschikbaar voor API-gestuurde campagnes;
+* In het pushbericht is geen personalisatie toegestaan.
+* Het doelpubliek moet minder dan 30M profielen bevatten,
+* U kunt tot 5 campagnes gelijktijdig uitvoeren gebruikend de Snelle leveringswijze.
+
+### Modus Snelle levering activeren
+
+1. Maak een pushmeldingscampagne en schakel de optie **[!UICONTROL Rapid delivery]** optie.
+
+![](assets/create-campaign-burst.png)
+
+1. Vorm de berichtinhoud en selecteer het publiek om te richten. [Leer een campagne maken](#create)
+
+   >[!IMPORTANT]
+   >
+   >Zorg ervoor dat de inhoud van het bericht geen personalisatie omvat, en dat het publiek minder dan 30M profielen bevat.
+
+1. Controleer en activeer uw campagne op de gebruikelijke manier. In de testmodus worden berichten niet verzonden via de snelle leveringsmodus. [Leer hoe u een campagne kunt beoordelen en activeren](review-activate-campaign.md)

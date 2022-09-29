@@ -6,9 +6,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: eff4cef0ea868802c734d16cf5000ff3efa6503c
+source-git-commit: bb90f582b9767b1aaeb5d86b0e68f500871fab3a
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1511'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Met [!DNL Journey Optimizer]kunt u kanaaloppervlakken instellen (dus voorinstell
 > * U moet de opdracht [E-mailconfiguratie](#configure-email-settings), [Pushconfiguratie](../configuration/push-configuration.md) en [SMS-configuratie](../configuration/sms-configuration.md) stappen voordat u kanaaloppervlakken maakt.
 
 
-Zodra de kanaaloppervlakten zijn gevormd, zult u hen kunnen selecteren wanneer het creëren van berichten van een reis.
+Zodra de kanaaloppervlakten zijn gevormd, zult u hen kunnen selecteren wanneer het creëren van berichten van een reis of een campagne.
 
 <!--
 ➡️ [Learn how to create and use email surfaces in this video](#video-presets)
@@ -35,14 +35,12 @@ Zodra de kanaaloppervlakten zijn gevormd, zult u hen kunnen selecteren wanneer h
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
 >title="Instellingen voor kanaaloppervlak"
->abstract="Wanneer u een kanaaloppervlak instelt, selecteert u het kanaal waarop het van toepassing is en definieert u alle technische parameters die voor uw berichten vereist zijn, zoals het e-mailtype, subdomein, de naam van de afzender, mobiele apps, de configuratie van SMS en meer."
+>abstract="Wanneer u een kanaaloppervlak instelt, selecteert u het kanaal waarop het van toepassing is en definieert u alle technische parameters die nodig zijn voor het verzenden, zoals het e-mailtype, de naam van de afzender, mobiele apps, de configuratie van SMS en meer."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Instellingen voor kanaaloppervlak"
->abstract="Wanneer u een kanaaloppervlak instelt, selecteert u het kanaal waarop het van toepassing is en definieert u alle technische parameters die voor uw berichten vereist zijn, zoals het e-mailtype, de naam van de afzender, mobiele apps, de configuratie van SMS en meer."
-
-<!--New contextual help content for September release: A channel surface defines all the technical parameters required for your messages (email type, sender name, mobile apps, SMS configuration, etc.): once configured, you will be able to select it when creating actions from a journey or a campaign. Note that you must have the Manage channel surface permission to create, edit and delete channel surfaces.-->
+>abstract="Om acties zoals e-mails van een reis of een campagne te kunnen tot stand brengen, moet u eerst een kanaaloppervlakte creëren die alle technische montages bepaalt die voor uw berichten worden vereist. U moet over de machtiging Kanaaloppervlak beheren beschikken om kanaaloppervlakken te maken, bewerken en verwijderen."
 
 Ga als volgt te werk om een kanaaloppervlak te maken:
 
@@ -90,7 +88,10 @@ Ga als volgt te werk om een kanaaloppervlak te maken:
 
 1. Nadat het kanaaloppervlak is gemaakt, wordt het in de lijst weergegeven met de **[!UICONTROL Processing]** status.
 
-   Tijdens deze stap, zullen verscheidene controles worden uitgevoerd om te verifiëren dat het behoorlijk is gevormd. De verwerkingstijd is ongeveer **48u-72u** en kan **7-10 werkdagen**.
+   Tijdens deze stap, zullen verscheidene controles worden uitgevoerd om te verifiëren dat het behoorlijk is gevormd. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
+
+   >[!NOTE]
+   >Wanneer u het eerste kanaaloppervlak voor een bepaald subdomein maakt, kan de verwerkingstijd **10 minuten tot 10 dagen**. Als het geselecteerde subdomein al in een ander oppervlak wordt gebruikt, duurt het maximaal 3 uur.
 
    Deze controles omvatten configuratie en technische tests die door het team van Adobe worden uitgevoerd:
 
@@ -101,6 +102,7 @@ Ga als volgt te werk om een kanaaloppervlak te maken:
    * Helo host check
    * Verificatie van IP-pool
    * A/PTR-record, t/m/res-subdomeinverificatie
+   * FBL-registratie (deze controle wordt alleen uitgevoerd wanneer voor een bepaald subdomein een e-mailoppervlak wordt gemaakt)
 
    >[!NOTE]
    >

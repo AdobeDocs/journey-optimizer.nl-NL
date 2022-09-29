@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1780310da6d8a952dd22b9ee9a0b23516efddb5f
+source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 5%
+source-wordcount: '1284'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +30,7 @@ Neem bijvoorbeeld het segment voor het openen en uitchecken van de Luma-app dat 
 >
 >Voor ritten die een activiteit van het Leessegment gebruiken, is er een maximumaantal reizen dat op het nauwkeurige zelfde ogenblik kan beginnen. Het systeem voert de controles uit, maar vermijd dat meer dan vijf reizen (met Leessegment, gepland of &quot;zo snel mogelijk&quot; te starten) op hetzelfde tijdstip beginnen door ze over een bepaalde tijd te verspreiden, bijvoorbeeld 5 tot 10 minuten na elkaar.
 >
->Met de Burst Betaalde add-on kunt u zeer snel pushberichten verzenden in grote volumes voor eenvoudige reizen die een leessegment en een eenvoudig pushbericht bevatten. Raadpleeg [deze sectie](../building-journeys/journey-gs.md#burst) voor meer informatie
+>U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een Leessegment, een Segmentkwalificatie of een zakelijke gebeurtenisactiviteit.
 
 ### De activiteit configureren {#configuring-segment-trigger-activity}
 
@@ -108,6 +108,8 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >[!NOTE]
 >
 >Eenmalig Leessegment-reizen gaan 30 dagen na de uitvoering van de reis over naar de voltooide status. Voor geplande Gelezen segmenten, is het 30 dagen na de uitvoering van het laatste voorkomen.
+>
+>U moet voorzichtig zijn terwijl het gebruiken van wachtactiviteiten bij terugkerende lees segmentreizen aangezien de levensduur van dergelijke reizen bij de volgende executie eindigt. Betekenis dat als een reis dagelijks loopt, de reisinstantie die vandaag is begonnen tot de executie van morgen zal duren. Als u bijvoorbeeld een wachttijd van twee dagen hebt toegevoegd, worden profielen altijd verplaatst bij de volgende uitvoering van de reis (dus de dag erna), ongeacht of ze zich in het volgende doelpubliek bevinden of niet. Profielen kunnen nooit twee dagen op die reis blijven.
 
 ### De journey testen en publiceren {#testing-publishing}
 

@@ -1,12 +1,10 @@
 ---
 title: Campagnes activeren met API's
 description: Leer hoe u campagnes kunt activeren met [!DNL Journey Optimizer] API's
-hide: true
-hidefromtoc: true
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 9fbfeef292e4b71396680573007e062b525b24c9
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -14,10 +12,6 @@ ht-degree: 0%
 # Campagnes activeren met API&#39;s {#trigger-campaigns}
 
 ## Informatie over API-gestuurde campagnes {#about}
-
->[!NOTE]
->
->De API voor het uitvoeren van interactieve berichten bevindt zich momenteel in de bètaversie, die vaak en zonder kennisgeving kan worden bijgewerkt.
 
 Met [!DNL Journey Optimizer]kunt u campagnes maken en deze vervolgens aanroepen vanuit een extern systeem op basis van een gebruikerstrigger met behulp van de [Interactive Message Execution REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Dit staat u toe om diverse operationele en transactionele overseinenbehoeften zoals wachtwoordterugstellen, het teken van OTP, onder andere te behandelen.
 
@@ -44,8 +38,12 @@ Voer de volgende stappen uit om een API-gestuurde campagne te maken:
    >[!NOTE]
    >
    >U kunt aanvullende gegevens doorgeven in de API-lading die u kunt gebruiken om uw bericht aan te passen. [Meer informatie](#contextual)
+   >
+   >Het gebruik van een groot aantal of zware contextafhankelijke gegevens in uw inhoud kan van invloed zijn op de prestaties.
 
-1. Geef de naamruimte op die moet worden gebruikt om de personen van het segment te identificeren.
+1. In de **[!UICONTROL Audience]** , geeft u de naamruimte op die moet worden gebruikt om de personen van het segment te identificeren.
+
+   De **[!UICONTROL Create new profiles]** kunt u automatisch profielen maken die niet in de database voorkomen. [Meer informatie over het maken van profielen tijdens de uitvoering van de campagne](#profile-creation)
 
 1. De begin- en einddatum van de campagne configureren.
 
@@ -88,6 +86,16 @@ Vervolgens kunt u deze id in uw API-payload gebruiken om de campagne te starten.
 
 Merk op dat als u een specifieke begin en/of einddatum toen het creëren van de campagne hebt gevormd, het niet buiten deze data zal worden uitgevoerd, en API vraag zal ontbreken.
 
+## Profiel maken tijdens uitvoering van de campagne {#profile-creation}
+
+In sommige gevallen moet u mogelijk transactieberichten verzenden naar profielen die niet in het systeem bestaan. Bijvoorbeeld als een onbekende gebruiker zich probeert aan te melden bij uw website.
+
+Wanneer een profiel niet in de database bestaat, kunt u het door Journey Optimizer automatisch maken tijdens het uitvoeren van de campagne om het verzenden van het bericht naar dit profiel toe te staan.
+
+Om dit te doen, knevel **[!UCONTROL Nieuwe profielen maken]** in de **[!UICONTROL Audience]** sectie.
+
+![](assets/api-triggered-create-profile.png)
+
 >[!NOTE]
 >
->In sommige gevallen moet u mogelijk transactieberichten verzenden naar profielen die niet in het systeem bestaan. Bijvoorbeeld als een onbekende gebruiker zich probeert aan te melden bij uw website. In dat geval wordt het corresponderende profiel automatisch gemaakt in Adobe Experience Platform, in het dialoogvenster **Gegevensset AJO Interactive Messaging Profile** dataset.
+>Onbekende profielen worden gemaakt in het dialoogvenster **Gegevensset AJO Interactive Messaging Profile** dataset, in drie standaardnaamruimte (e-mail, telefoon en ECID) respectievelijk voor elke uitgaande kanalen (E-mail, SMS en Push).

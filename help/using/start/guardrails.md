@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 9c0f604680787dbdf5fb820074408edad78f8bfb
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,6 @@ De prestatiegerelateerde en statische grenzen voor besluiten zijn vermeld in [Ad
 * In het geval van een fout worden drie pogingen systematisch opnieuw uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht.
 * De ingebouwde **Reactie** kunt u reageren op acties die buiten de box vallen. Meer informatie in [deze pagina](../building-journeys/reaction-events.md). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen.
 * U kunt geen twee acties parallel plaatsen, u moet hen één na andere toevoegen.
-* Er is vandaag de dag een technische beperking in de ritten die een profiel verhindert om meerdere keren aanwezig te zijn op dezelfde reis, tegelijkertijd. Een profiel kan een reis (gebaseerd op een het plaatsen) nog opnieuw ingaan, maar kan het niet doen tot hij dat vorige geval van de reis volledig verliet.
 * In de meeste gevallen kan een profiel niet meerdere keren tegelijk op dezelfde reis aanwezig zijn. Als de terugkeer wordt toegelaten, kan een profiel een reis opnieuw ingaan, maar kan het niet doen tot hij dat vorige geval van de reis volledig verliet. [Meer informatie](../building-journeys/journey-end.md)
 
 ### Journeyversies {#journey-versions-g}
@@ -68,6 +67,7 @@ De prestatiegerelateerde en statische grenzen voor besluiten zijn vermeld in [Ad
 
 * Voor door het systeem gegenereerde gebeurtenissen moeten streaminggegevens die worden gebruikt om een klantentraject te starten, eerst binnen Journey Optimizer worden geconfigureerd om een unieke orchestratie-id te verkrijgen. Deze orkest-id moet worden toegevoegd aan de streaminglading die naar Adobe Experience Platform komt. Deze beperking geldt niet voor op regels gebaseerde gebeurtenissen.
 * Zakelijke evenementen kunnen niet worden gebruikt in combinatie met eenheidsgebeurtenissen of segmentkwalificatieactiviteiten.
+* Eenheidstrajecten (te beginnen met een evenement of segmentkwalificatie) bevatten een geleider die voorkomt dat ritten voor dezelfde gebeurtenis meerdere keren ten onrechte worden gestart. De terugkeer van het profiel wordt tijdelijk geblokkeerd door gebrek gedurende 5 minuten. Als bijvoorbeeld een evenement om 12.01 uur een reis voor een bepaald profiel start en een ander om 12.03 uur aankomt (ongeacht of het dezelfde gebeurtenis is of een andere gebeurtenis die dezelfde reis veroorzaakt), zal die reis niet opnieuw beginnen voor dit profiel.
 
 ### Gegevensbronnen {#data-sources-g}
 
@@ -89,3 +89,8 @@ U kunt uit één van deze twee oplossingen kiezen:
 
 * De stromen segmenten zijn altijd bijgewerkt maar de partijsegmenten zullen niet bij herwinningstijd worden berekend. Ze worden alleen elke dag geëvalueerd op het tijdstip van de dagelijkse batchevaluatie.
 * Voor ritten die een activiteit van het Leessegment gebruiken, is er een maximumaantal reizen dat op het nauwkeurige zelfde ogenblik kan beginnen. Het systeem voert de controles uit, maar vermijd dat meer dan vijf reizen (met Leessegment, gepland of &quot;zo snel mogelijk&quot; te starten) op hetzelfde tijdstip beginnen door ze over een bepaalde tijd te verspreiden, bijvoorbeeld 5 tot 10 minuten na elkaar.
+
+### Expression-editor {#expression-editor}
+
+* U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een Leessegment, een Segmentkwalificatie of een zakelijke gebeurtenisactiviteit.
+

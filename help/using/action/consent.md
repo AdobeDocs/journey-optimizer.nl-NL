@@ -6,17 +6,15 @@ feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 8a68d1e6d498ef3055c703d4e73471ab6d7bff40
+source-git-commit: 30171e362e0dc70f5647bb2413031946062e8df3
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
 
-# Toegangsbeheer (bèta) {#consent-management}
+# Toestemmingsbeheer {#consent-management}
 
 Met Adobe Experience Platform kunt u eenvoudig marketingbeleid toepassen en afdwingen om de voorkeuren voor toestemming van uw klanten te respecteren. Beleid voor instemming wordt gedefinieerd in Adobe Experience Platform. Zie [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
 
@@ -24,7 +22,7 @@ In Journey Optimizer kunt u dit beleid voor toestemming toepassen op aangepaste 
 
 >[!NOTE]
 >
->Deze functie wordt vrijgegeven als een persoonlijke bètaversie. Het is niet beschikbaar voor alle Journey Optimizer-klanten.
+>Het beleid van de toestemming is momenteel slechts beschikbaar voor organisaties die het Advertentieschildaanbod hebben gekocht.
 
 In Journey Optimizer wordt de toestemming op verschillende niveaus gedefinieerd:
 
@@ -39,8 +37,8 @@ Met toestemmingsbeheer worden twee reisactiviteiten geanalyseerd:
 
 * Leessegment: het opgehaalde segment wordt in aanmerking genomen.
 * Aangepaste actie: bij het beheer van de toestemming wordt rekening gehouden met de gebruikte kenmerken ([actieparameters](../action/about-custom-action-configuration.md#define-the-message-parameters)) en de vastgestelde marketingactie(s) (vereiste marketingactie en aanvullende marketingactie).
-
-Toestemming is alleen van toepassing wanneer een (vereiste of aanvullende) marketingactie is ingesteld op het niveau van de aangepaste handeling.
+* Kenmerken die deel uitmaken van een veldgroep die het uit-van-de-doos Schema van de Unie gebruikt, worden niet gesteund. Deze kenmerken worden verborgen in de interface. U moet een andere veldgroep maken met een ander schema.
+* Het beleid voor toestemming is alleen van toepassing wanneer een (vereiste of aanvullende) marketingactie is ingesteld op het niveau van de aangepaste actie.
 
 Alle andere activiteiten die tijdens een reis worden gebruikt, worden niet in aanmerking genomen. Als u uw reis met een kwalificatie van het Segment begint, wordt het segment niet in aanmerking genomen.
 

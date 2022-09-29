@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 9eebc64476b1fb7c1d0300cf66b0377dfbf0754f
+source-git-commit: cca94d15da5473aa9890c67af7971f2e745d261e
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1409'
 ht-degree: 7%
 
 ---
@@ -83,9 +83,15 @@ Hierdoor kunt u verschillende handelingen uitvoeren op basis van het uur van de 
 
 >[!NOTE]
 >
->De tijdzone is niet langer specifiek voor een bepaalde aandoening en wordt nu op het niveau van de reis gedefinieerd in de reiseigenschappen. Zie [deze pagina](../building-journeys/timezone-management.md).
+>De tijdzone is niet specifiek voor een conditie en wordt op het niveau van de reis gedefinieerd in de reiseigenschappen. Zie [deze pagina](../building-journeys/timezone-management.md).
 
 ![](assets/journey51.png)
+
+Er zijn drie filteropties beschikbaar:
+
+* Uur: kunt u een voorwaarde instellen op basis van de tijd van de dag. Vervolgens definieert u de begin- en eindtijd. De individuen zullen de weg slechts tijdens de bepaalde uurwaaier ingaan.
+* Dag van de week: Hiermee kunt u een voorwaarde instellen op basis van de dag van de week. Vervolgens selecteert u welke dagen personen het pad moeten invoeren.
+* Dag van de week en uur: met deze optie worden de eerste twee opties gecombineerd .
 
 ## Percentage splitsing {#percentage_split}
 

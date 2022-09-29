@@ -4,10 +4,10 @@ description: Meer informatie over het gebruik van Adobe Experience Platform-gege
 role: User
 level: Beginner
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 1de18fa479a54c09751324a67793ce50e5657ce3
+source-git-commit: 4cf9a45ee9cc7169d060799de7d1ea128caa140f
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 2%
+source-wordcount: '820'
+ht-degree: 1%
 
 ---
 
@@ -33,12 +33,30 @@ Door gebrek, slechts worden de datasets die u hebt ingebed in getoond. Als u de 
 
 Selecteer de naam van een dataset om tot zijn de activiteitenscherm van de Dataset toegang te hebben en details van de dataset te zien u selecteerde. Het activiteitenlusje omvat een grafiek die het tarief visualiseert van berichten die worden verbruikt evenals een lijst van succesvolle en ontbroken partijen.
 
+Hier zijn de verschillende beschikbare datasets:
+
+**Rapportage**
+
+* _Rapportage - Gegevensset voor feedbackgebeurtenis_: Berichtenleveringslogboeken. Informatie over alle berichtlevering door Journey Optimizer voor rapportage en het creëren van segmenten. De terugkoppeling van e-mailISPs op grenzen wordt ook geregistreerd in deze dataset.
+* _Rapportage - Gegevensset over gebeurtenissen voor het bijhouden van e-mail_: Interactielogboeken voor e-mailkanaal die worden gebruikt voor rapportage en het maken van segmenten. Gegevens die zijn opgeslagen, bevatten informatie over acties die de eindgebruiker via e-mail heeft uitgevoerd (openen, klikken, enz.).
+* _Rapportage - Gegevensset van gebeurtenissen voor het bijhouden van push_: Interactielogboeken voor Push-kanaal die worden gebruikt voor rapportage en het maken van segmenten. Opgeslagen informatie over acties die door de eindgebruiker op dupberichten worden uitgevoerd.
+* _Rapportage - trapsgewijze gebeurtenis_: Vangt Alle Gebeurtenissen van de Ervaring van de Stap van de Reis die van Journey Optimizer worden geproduceerd om door de diensten zoals het Melden te worden verbruikt. Ook essentieel voor het samenstellen van rapporten in Customer Journey Analytics voor YoY-analyse. Bleed aan een Metagegevens van de Reis.
+* _Verslaggeving - Reizen_: Metagegevensset met informatie over de behuizing van elke stap op een reis.
+* _Rapportage - BCC_: Dataset Feedbackgebeurtenis waarin de leveringslogboeken voor BCC-e-mails worden opgeslagen. Te gebruiken voor rapportagedoeleinden.
+
+**Toestemming**
+
+* _Dataset voor goedgekeurde service_: slaat toestemmingsinformatie van een profiel op.
+
+**Intelligente services**
+
+* _Scores voor optimalisatie van de Send-Time/Engagement Scores_: Uitvoerscores van Journey AI.
+
 ## Gegevensbestanden voorvertonen{#preview-datasets}
 
 Selecteer in het activiteitenscherm Gegevensset de optie **Gegevensset voorvertoning** in de rechterbovenhoek van het scherm om een voorvertoning weer te geven van de meest recente succesvolle batch in deze dataset. Wanneer een dataset leeg is, wordt de voorproefverbinding gedeactiveerd.
 
 ![](assets/dataset-preview.png)
-
 
 ## Gegevenssets maken{#create-datasets}
 
