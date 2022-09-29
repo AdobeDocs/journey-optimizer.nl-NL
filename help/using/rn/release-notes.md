@@ -2,7 +2,7 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3895b0d6a73c1618f417d28e971c5b3c9b89b4e
+source-git-commit: 056ff0d4532126e22884d73e92fb2e7d3a2319b9
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 9%
@@ -198,7 +198,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 ### Andere wijzigingen{#sept-2022-other}
 
-* Modus Reisexplosie is vervangen door Modus Snelle levering campagne. [Meer informatie](../campaigns/create-campaign.md#rapid-delivery})
+* Modus Reisexplosie is vervangen door Modus Snelle levering campagne. [Meer informatie](../campaigns/create-campaign.md#rapid-delivery)
 * Om de prestaties te verbeteren, kunnen de de gebeurtenisgebiedgroepen van de Ervaring niet meer in reizen worden gebruikt die met een Gelezen segment, een kwalificatie van het Segment of een bedrijfsgebeurtenisactiviteit beginnen. Deze wijziging geldt alleen voor nieuwe reizen. De bestaande zullen het huidige gedrag houden. [Meer informatie](../start/guardrails.md#expression-editor)
 * De beperking van 1 uur voor geplande leesegmentreizen is verwijderd. Deze reizen kunnen nu zonder vertraging worden uitgevoerd.
 
