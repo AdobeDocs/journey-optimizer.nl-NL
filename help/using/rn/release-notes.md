@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1043'
 ht-degree: 9%
 
 ---
@@ -21,26 +21,23 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 ### Nieuwe functies{#sept-2022-features}
 
-
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Dynamic content & new conditional rule builder</strong><br/></th>
+<th><strong>Dynamische inhoud en nieuwe voorwaardelijke regelbuilder</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now create dynamic content to adapt the content of your messages based on conditional rules.</p> 
-<p>Conditional rules are created using a visual rule builder within the Expression Editor, where you can store them for further reuse across your journeys and campaigns.</p>
+<p>U kunt nu dynamische inhoud maken om de inhoud van uw berichten aan te passen op basis van voorwaardelijke regels.</p> 
+<p>Voorwaardelijke regels worden gecreeerd gebruikend een visuele regelbouwer binnen de Redacteur van de Uitdrukking, waar u hen voor verder hergebruik over uw reizen en campagnes kunt opslaan.</p>
 <img src="assets/do-not-localize/dynamic-content.gif"/>
-<p>For more information, refer to the <a href="../personalization/get-started-dynamic-content.md">detailed documentation</a>.
+<p>Raadpleeg de <a href="../personalization/get-started-dynamic-content.md">gedetailleerde documentatie</a> voor meer informatie.
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 <table>
 <thead>

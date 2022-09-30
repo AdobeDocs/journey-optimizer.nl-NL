@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '462'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,7 @@ Voer de volgende stappen uit om uw SMS-bericht aan te passen:
 
    ![](assets/sms-content.png)
 
-1. Gebruik de expressie-editor om inhoud te definiëren. U kunt elk kenmerk gebruiken om inhoud aan te passen, zoals de profielnaam of plaats. Meer informatie over personalisatie in de Expressieeditor in [deze sectie](../personalization/personalize.md).
+1. Gebruik de expressie-editor om inhoud te definiëren en dynamische inhoud toe te voegen. U kunt elk kenmerk gebruiken, zoals de profielnaam of plaats. Meer informatie over [personalisatie](../personalization/personalize.md) en [dynamische inhoud](../personalization/get-started-dynamic-content.md) in de Uitdrukking redacteur.
 
 1. Klikken **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning.
 

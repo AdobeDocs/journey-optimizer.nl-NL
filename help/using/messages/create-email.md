@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 711fdf1dce0688d2e21d405a4e3e8777612b2f3b
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '302'
 ht-degree: 4%
 
 ---
@@ -41,6 +41,8 @@ Gebruiken [!DNL Journey Optimizer] Designer e-mailen naar [ontwerp uw e-mail hel
 [!DNL Journey Optimizer] wordt geleverd met een set [ingebouwde sjablonen](../design/email-templates.md) om u te helpen beginnen. E-mailberichten kunnen ook als een sjabloon worden opgeslagen.
 
 Gebruiken [!DNL Journey Optimizer] De redacteur van de uitdrukking om uw berichten met profielgegevens te personaliseren. Raadpleeg voor meer informatie over personalisatie [deze sectie](../personalization/personalize.md).
+
+Pas de inhoud van uw berichten aan de doelprofielen aan door hefboomwerking [!DNL Journey Optimizer] dynamische inhoudmogelijkheden. [Aan de slag met dynamische inhoud](../personalization/get-started-dynamic-content.md)
 
 ## E-mailtracking{#email-tracking}
 

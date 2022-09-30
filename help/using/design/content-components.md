@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 030dc5f3a5d1927076c87aa600097a3b5761e803
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 1%
+source-wordcount: '1106'
+ht-degree: 0%
 
 ---
 
@@ -89,8 +89,7 @@ Gebruik de **[!UICONTROL Text]** om tekst in te voegen in uw e-mail. U kunt de k
    * **[!UICONTROL Duplicate]**: Voeg een kopie van de tekstcomponent toe.
    * **[!UICONTROL Delete]**: Verwijder de geselecteerde tekstcomponent uit uw e-mail.
    * **[!UICONTROL Add personalization]**: Voeg verpersoonlijkingsgebieden toe om de inhoud van uw profielgegevens aan te passen. [Meer informatie over content personalization](../personalization/personalize.md).
-
-1. Voor een betere gebruikerservaring kunt u verpersoonlijkingsgebieden toevoegen om uw publiek te richten. Raadpleeg deze [sectie](../personalization/personalize.md) voor meer informatie.
+   * **[!UICONTROL Enable conditional content]**: Voeg voorwaardelijke inhoud toe om de inhoud van de component aan de beoogde profielen aan te passen. [Meer informatie over dynamische inhoud](../personalization/get-started-dynamic-content.md).
 
 1. Pas de **[!UICONTROL Text color]**, **[!UICONTROL Font family]** en **[!UICONTROL Size]** in de **[!UICONTROL Components Settings]**.
 
@@ -208,7 +207,7 @@ Gebruik de **[!UICONTROL Social]** om koppelingen naar pagina&#39;s met sociale 
 
 ## Beslissing voorstel {#offer-decision}
 
-Gebruik de **[!UICONTROL Offer decision]** om beslissingen in te voegen in uw berichten. Besluiten maken gebruik van Beslissingsbeheer om de beste aanbieding aan uw klanten te kiezen.
+Gebruik de **[!UICONTROL Offer decision]** component om besluiten (die vroeger als aanbiedingsactiviteiten worden bekend) in uw berichten op te nemen. Besluiten maken gebruik van Beslissingsbeheer om de beste aanbieding aan uw klanten te kiezen.
 
 Verwante onderwerpen:
 

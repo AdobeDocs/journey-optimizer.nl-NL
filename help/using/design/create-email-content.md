@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 3c1da5b789ad3f1b010f3d5be9c521f296035b83
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,10 @@ Voer de onderstaande stappen uit om uw e-mailinhoud samen te stellen met de e-ma
 1. Voeg verpersoonlijkingsgebieden toe om de inhoud van uw profielgegevens aan te passen. [Meer informatie over content personalization](../personalization/personalize.md).
 
    ![](assets/email_designer_6.png)
+
+1. Voeg dynamische inhoud toe om de inhoud aan te passen aan de doelprofielen op basis van voorwaardelijke regels. [Aan de slag met dynamische inhoud](../personalization/get-started-dynamic-content.md).
+
+   ![](assets/email_designer_dynamic-content.png)
 
 1. In de **[!UICONTROL Links]** in het linkerdeelvenster, controleert u de lijst van alle URL&#39;s van de inhoud die wordt bijgehouden. U kunt de **[!UICONTROL Tracking Type]**, **[!UICONTROL Label]** en **[!UICONTROL Tags]** indien nodig.
 

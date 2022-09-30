@@ -3,9 +3,9 @@ title: Journey Optimizer Aan de slag voor Marketers
 description: Leer als praktijkbeoefenaar meer hoe u met Journey Optimizer kunt werken
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 63e250919cac5f7a3c010805d3333d204a6f99dc
+source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Raadpleeg de volgende secties voor het instellen van uw eerste reis, het toevoeg
 
 1. **Segmenten maken**. Met Journey Optimizer kunt u publiekssegmenten rechtstreeks vanuit het **Segmenten** en ze te gebruiken voor uw reizen.  Meer informatie over segmenten [op deze pagina](../../segment/about-segments.md). Ontdek hoe u segmenten kunt maken [in deze steekproef](../../segment/creating-a-segment.md).
 
-1. **Aanpassing toevoegen**. Gebruik Journey Optimizer-personalisatiefuncties om uw boodschap aan te passen aan uw publiek. Meer informatie over personalisatie [in deze sectie](../../personalization/personalize.md).
+1. **Verpersoonlijking en dynamische inhoud toevoegen**. Gebruik Journey Optimizer-personalisatie en dynamische inhoudmogelijkheden om uw boodschap aan te passen aan uw publiek. Meer informatie over [personalisatie](../../personalization/personalize.md) en [dynamische inhoud](../../personalization/get-started-dynamic-content.md).
 
    ![](../assets/perso_ee2.png)
 
