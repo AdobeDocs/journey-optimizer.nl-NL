@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 75f29dacf54d29172039ac0a098ecafe467ad35d
+source-git-commit: ad04aeddac78a6910258d924148fceca8fd7b6d9
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '939'
 ht-degree: 2%
 
 ---
@@ -166,41 +166,42 @@ Wanneer gebruikers nu een van de selectievakjes selecteren, wordt het bericht da
 >
 >Als een gebruiker de twee selectievakjes selecteert, worden beide teksten weergegeven.
 
+<!--
+## Use landing page additional data {#use-additional-data}
 
-## Aanvullende gegevens op de landingspagina gebruiken {#use-additional-data}
-
-Wanneer [configureren van primaire pagina](create-lp.md#configure-primary-page)kunt u aanvullende gegevens maken om het opslaan van informatie mogelijk te maken wanneer de landingspagina wordt verzonden.
+When [configuring the primary page](create-lp.md#configure-primary-page), you can create additional data to enable storing information when the landing page is being submitted.
 
 >[!NOTE]
 >
->Deze gegevens zijn mogelijk niet zichtbaar voor gebruikers die de pagina bezoeken.
+>This data may not be visible to users who visit the page.
 
-Als u een of meer toetsen met de bijbehorende waarden hebt gedefinieerd wanneer [configureren van primaire pagina](create-lp.md#configure-primary-page)kunt u deze toetsen gebruiken voor de inhoud van de primaire pagina en de subpagina&#39;s via de [Expression-editor](../personalization/personalization-build-expressions.md).
+If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [Expression editor](../personalization/personalization-build-expressions.md).
 
-<!--When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
+///When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
 
-For example, if you define the company name as a key, you can quickly update it everywhere (on all the pages of a given landing page) by changing it only once in the [primary page settings](create-lp.md#configure-primary-page).-->
+For example, if you define the company name as a key, you can quickly update it everywhere (on all the pages of a given landing page) by changing it only once in the [primary page settings](create-lp.md#configure-primary-page).///
 
-Volg onderstaande stappen om deze toetsen in een landingspagina te gebruiken:
+To leverage these keys in a landing page, follow the steps below:
 
-1. Wanneer het vormen van de primaire pagina, bepaal een sleutel en zijn overeenkomstige waarde in **[!UICONTROL Additional data]** sectie. [Meer informatie](create-lp.md#configure-primary-page)
+1. When configuring the primary page, define a key and its corresponding value in the **[!UICONTROL Additional data]** section. [Learn more](create-lp.md#configure-primary-page)
 
-   ![](assets/lp_create-lp-additional-data.png)
+    ![](assets/lp_create-lp-additional-data.png)
 
-1. Wanneer u de primaire pagina bewerkt met de ontwerper, plaatst u de aanwijzer van de muis op de plaats waar u de toets wilt invoegen en selecteert u **[!UICONTROL Add personalization]** in de contextuele werkbalk.
+1. When editing your primary page with the designer, place the pointer of your mouse where you want to insert your key and select **[!UICONTROL Add personalization]** from the contextual toolbar.
 
-   ![](assets/lp_designer-context-add-perso.png)
+    ![](assets/lp_designer-context-add-perso.png)
 
-1. In de **[!UICONTROL Edit Personalization]** venster, selecteert u **[!UICONTROL Contextual attributes]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Additional Context]**.
+1. In the **[!UICONTROL Edit Personalization]** window, select **[!UICONTROL Contextual attributes]** > **[!UICONTROL Landing Pages]** > **[!UICONTROL Additional Context]**.
 
-   ![](assets/lp_designer-contextual-attributes.png)
+    ![](assets/lp_designer-contextual-attributes.png)
 
-1. Alle sleutels die u bij het vormen van de primaire pagina creeerde zijn vermeld. Selecteer de sleutel van uw keus gebruikend + pictogram.
+1. All the keys that you created when configuring the primary page are listed. Select the key of your choice using the + icon.
 
-   ![](assets/lp_designer-context-select-key.png)
+    ![](assets/lp_designer-context-select-key.png)
 
-1. Sla uw wijzigingen op en herhaal de bovenstaande stappen zo vaak als nodig is.
+1. Save your changes and repeat the steps above as many times as needed.
 
-   ![](assets/lp_designer-context-keys-inserted.png)
+    ![](assets/lp_designer-context-keys-inserted.png)
 
-   U kunt zien dat het verpersoonlijkingspunt die aan uw sleutel beantwoordt nu wordt getoond overal u het opnam.
+    You can see that the personalization item corresponding to your key is now displayed everywhere you inserted it.
+-->
