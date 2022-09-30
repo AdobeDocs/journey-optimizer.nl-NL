@@ -2,10 +2,10 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ad04aeddac78a6910258d924148fceca8fd7b6d9
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '986'
+ht-degree: 9%
 
 ---
 
@@ -174,7 +174,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 **Beheer**
 
-* Wanneer u de lijst van gewenste personen in- of uitschakelt, wordt nu een nieuwe waarschuwing weergegeven waarin de effecten van elke actie worden beschreven. [Meer informatie](../configuration/allow-list.md#enable-allow-list)
+* Wanneer u de lijst van gewenste personen activeert of deactiveert, wordt nu een nieuwe waarschuwing weergegeven waarin de effecten van elke actie worden beschreven. [Meer informatie](../configuration/allow-list.md#enable-allow-list)
 * De gebruikersinterface voor het creëren van kanaaloppervlakken, het creëren van IP-pools, het beheren van de suppressielijst en de lijst van gewenste personen, en het configureren van het SMS-kanaal is bijgewerkt.
 * Wanneer u nu het eerste kanaaloppervlak voor een bepaald subdomein maakt, duurt de verwerkingstijd 10 minuten tot 10 dagen en slechts 3 uur voor volgende oppervlakken die dat subdomein gebruiken. [Meer informatie](../configuration/channel-surfaces.md#create-channel-surface)
 

@@ -2,9 +2,9 @@
 title: Campagnes activeren met API's
 description: Leer hoe u campagnes kunt activeren met [!DNL Journey Optimizer] API's
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 9fbfeef292e4b71396680573007e062b525b24c9
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -88,11 +88,15 @@ Merk op dat als u een specifieke begin en/of einddatum toen het creëren van de 
 
 ## Profiel maken tijdens uitvoering van de campagne {#profile-creation}
 
-In sommige gevallen moet u mogelijk transactieberichten verzenden naar profielen die niet in het systeem bestaan. Bijvoorbeeld als een onbekende gebruiker zich probeert aan te melden bij uw website.
+In sommige gevallen moet u mogelijk transactieberichten verzenden naar profielen die niet in het systeem bestaan. Bijvoorbeeld als een onbekende gebruiker het wachtwoord op uw website opnieuw probeert in te stellen.
 
 Wanneer een profiel niet in de database bestaat, kunt u het door Journey Optimizer automatisch maken tijdens het uitvoeren van de campagne om het verzenden van het bericht naar dit profiel toe te staan.
 
-Om dit te doen, knevel **[!UCONTROL Nieuwe profielen maken]** in de **[!UICONTROL Audience]** sectie.
+>[!IMPORTANT]
+>
+>Deze functie is beschikbaar voor **zeer kleine profielcreatie** in een grote transactie die gebruikscase verzendt, met het grootste deel van profielen reeds bestaand in platform.
+
+Als u het maken van profielen wilt activeren tijdens de uitvoering van de campagne, schakelt u het **[!UCONTROL Nieuwe profielen maken]** in de **[!UICONTROL Audience]** sectie.
 
 ![](assets/api-triggered-create-profile.png)
 

@@ -4,7 +4,7 @@ description: Leer hoe u uw omgeving configureert voor het maken en gebruiken van
 role: Admin
 level: Intermediate
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8bc6b3a5b8836b547e9c697f9420532fdea4acbc
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 2%
@@ -64,7 +64,7 @@ Volg onderstaande stappen om een voorinstelling voor een openingspagina te maken
 
    De instellingen die overeenkomen met de geselecteerde subdomeinweergave.
 
-1. Als u het subdomein van de bestemmingspagina als volgende URL wilt selecteren, controleer **[!UICONTROL Same as landing page subdomain]** optie. [Meer informatie over bijhouden](../design/message-tracking.md)
+1. Als u het subdomein van de bestemmingspagina voor het volgen URL wilt selecteren, controleer **[!UICONTROL Same as landing page subdomain]** optie. [Meer informatie over bijhouden](../design/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 

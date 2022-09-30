@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: bb1a9b35ce93f9b0ba635a89e781856f19b7d655
+source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 3%
@@ -115,7 +115,6 @@ De snelle leveringswijze, die vroeger als wijze van de Borst bij reizen wordt be
 Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd.
 
 Voor meer informatie over prestaties bij gebruik van de modus Snelle levering raadpleegt u [Adobe Journey Optimizer-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html).
-
 
 ### Vereisten {#prerequisites}
 
