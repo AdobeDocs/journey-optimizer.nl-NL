@@ -6,14 +6,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: d9f7c64358be3c3355337ba0db12e5b8c17bba4c
+source-git-commit: a51b41ddbb562137dc1f6cf15160ce326cc0564a
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 5%
+source-wordcount: '336'
+ht-degree: 4%
 
 ---
 
 # Segmenten maken {#build-segments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_create_rule"
+>title="Een regel maken"
+>abstract="De bouwstijl methode van de regelverwezenlijking staat u toe om een nieuwe segmentdefinitie tot stand te brengen gebruikend de Dienst van de Segmentatie van Adobe Experience Platform."
 
 In dit voorbeeld, zullen wij een segment bouwen om alle klanten te richten die in Atlanta, San Francisco, of Seattle en na 1980 worden geboren. Al deze klanten hadden de toepassing Luma in de laatste 7 dagen moeten openen en vervolgens binnen 2 uur na het openen van de toepassing een aankoop moeten doen.
 
