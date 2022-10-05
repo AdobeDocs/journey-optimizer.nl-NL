@@ -5,16 +5,17 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: bf4857f63b44d557304ef05e490fe6659f0ad888
+source-git-commit: ce0906afb8561c586cb080c4a49c58fb5bfac6a9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '329'
+ht-degree: 1%
 
 ---
 
 # Werken met [!DNL Customer Journey Analytics] {#cja-ajo}
 
 ![](assets/cja.png)
+[!DNL Journey Optimizer] integratie met [!DNL Customer Journey Analytics] biedt een holistische weergave van al uw reizen met geautomatiseerde rapportdistributie en aangepaste visualisaties van de gegevens.
 
 Na het maken van uw reis in [!DNL Journey Optimizer]kunt u uw klantgegevens importeren naar [!DNL Customer Journey Analytics] om rapporten te beginnen en het effect van elke interactie te begrijpen een klant met uw reizen heeft.
 
@@ -23,6 +24,11 @@ Na het maken van uw reis in [!DNL Journey Optimizer]kunt u uw klantgegevens impo
 Voor gebruik [!DNL Customer Journey Analytics] voor uw reizen, moet u deze integratie eerst vormen:
 
 1. [Verbinding maken](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) in [!DNL Customer Journey Analytics] met de **[!UICONTROL Dataset]** u wilt naar het Platform verzenden.
+
+   Het volgende [!DNL Journey Optimizer] kan worden geconfigureerd:
+   * [Reisstapgebeurtenis](../start/datasets-query-examples.md#journey-step-event): Hiermee kunt u zien wie uw reizen binnenkomt en hoe ver ze komen.
+   * [Gegevensbestanden voor feedback/reeksspatiëring](../start/datasets-query-examples.md#message-feedback-event-dataset): staat u toe om leveringsinformatie over uw berichten te bekijken die door worden verzonden [!DNL Journey Optimizer].
+   * [Gegevensbestanden voor entiteiten en reizen](../start/datasets-query-examples.md#entity-dataset): Hiermee kunt u zoeken in familienamen en deze gebruiken in uw rapportage.
 
 1. [Een gegevensweergave maken](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) om de afmetingen en metriek te vormen u voor uw rapport wilt gebruiken.
 
