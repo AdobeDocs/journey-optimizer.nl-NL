@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f439e4387139b3136c46d25ecb43f304e29b0f17
+source-git-commit: e68a234e52b40fbf988b74dfa90b347659203ea0
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -110,6 +110,11 @@ De **[!UICONTROL Exclude]** Met activiteit kunt u profielen uitsluiten van uw co
 >title="Beoordelingsactiviteit"
 >abstract="De activiteit van de Rang staat u toe om profielen te rangschikken die op een specifiek attribuut worden gebaseerd en hen te omvatten in uw samenstelling. Neem bijvoorbeeld de 50 profielen op met de grootste hoeveelheid loyaliteitspunten."
 
+>[!CONTEXTUALHELP]
+>id="ajo_ao_rank_profilelimit_text"
+>title="Profiellimiet toevoegen"
+>abstract="Schakel deze optie in om een maximumaantal profielen op te geven dat u in de compositie wilt opnemen.
+
 De **[!UICONTROL Rank]** De activiteit staat u toe om profielen te rangschikken die op een specifiek attribuut worden gebaseerd en hen te omvatten in uw samenstelling. U kunt bijvoorbeeld de 50 profielen met de grootste hoeveelheid loyaliteitspunten opnemen.
 
 1. Selecteer het kenmerk dat u wilt opzoeken en geef een rangschikking op (oplopend of aflopend).
@@ -138,6 +143,11 @@ De **[!UICONTROL Rank]** De activiteit staat u toe om profielen te rangschikken 
 >id="ajo_ao_split_type"
 >title="Tekst splitsen"
 >abstract="Met het gesplitste percentage kunt u profielen op willekeurige wijze splitsen in meerdere paden. Met het splitsingstype Kenmerk kunt u profielen splitsen op basis van een specifiek kenmerk."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_split_otherprofiles_text"
+>title="Andere profielen"
+>abstract="Schakel deze optie in of uit om een extra pad te maken met de resterende profielen die niet overeenkomen met een van de voorwaarden die in de andere paden zijn opgegeven."
 
 De **[!UICONTROL Split]** Met activiteit kunt u de compositie opsplitsen in meerdere paden.
 
