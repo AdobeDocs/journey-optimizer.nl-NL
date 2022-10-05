@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: e68a234e52b40fbf988b74dfa90b347659203ea0
+source-git-commit: b6f61a7a3ad1aaab90119c3a3a69254e55733271
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ De **[!UICONTROL Exclude]** Met activiteit kunt u profielen uitsluiten van uw co
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
 >title="Profiellimiet toevoegen"
->abstract="Schakel deze optie in om een maximumaantal profielen op te geven dat u in de compositie wilt opnemen.
+>abstract="Schakel deze optie in om een maximumaantal profielen op te geven dat u in de compositie wilt opnemen."
 
 De **[!UICONTROL Rank]** De activiteit staat u toe om profielen te rangschikken die op een specifiek attribuut worden gebaseerd en hen te omvatten in uw samenstelling. U kunt bijvoorbeeld de 50 profielen met de grootste hoeveelheid loyaliteitspunten opnemen.
 
