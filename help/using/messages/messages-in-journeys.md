@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a36f0b1c8d59d49e38b21725621d5b276741bd8e
+source-git-commit: ed1ae405367a0b0f37e61ceb81fc1f1d1b907ea7
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 1%
@@ -25,14 +25,14 @@ ht-degree: 1%
 >title="Kanaaloppervlak"
 >abstract="Een kanaaloppervlak is een instantie van dat kanaal dat over alle instellingen beschikt om een actie te kunnen uitvoeren via een campagne of een reis. Het wordt bepaald door een systeembeheerder."
 
-In uw reizen, gebruik de kanaalacties om het bericht te ontwerpen en te personaliseren u aan uw publiek wilt verzenden. Wanneer u een e-mail, een SMS- of een pushactie toevoegt aan de reiskanalen, maakt u een getriggerde send. Wanneer de contacten die kanaalactie bereiken, verzendt Adobe Journey Optimizer automatisch het bericht.
+In uw reizen, gebruik de kanaalacties om het bericht te ontwerpen en te personaliseren u aan uw publiek wilt verzenden. Wanneer u een e-mail, een SMS- of een pushactie toevoegt aan het canvas van de reis, maakt u een getriggerde send. Wanneer de contacten die kanaalactie bereiken, verzendt Adobe Journey Optimizer automatisch het bericht.
 
 
 >[!NOTE]
 >U kunt ook campagnes maken om geplande berichten te verzenden. Meer informatie [in deze sectie](../campaigns/get-started-with-campaigns.md).
 
 
-Als u berichten wilt toevoegen aan een reis, voegt u een push-, SMS- of e-mailactiviteit toe aan de reiskanalen.
+Voeg een push-, SMS- of e-mailactiviteit toe aan de reiscanvas om berichten toe te voegen aan een reis.
 
 1. Begin uw reis met een [Gebeurtenis](../building-journeys/general-events.md) of [Segment lezen](../building-journeys/read-segment.md) activiteit.
 
@@ -123,7 +123,7 @@ Volg onderstaande stappen om dit te doen:
 
 1. Enter **crtl+V** om het bericht te plakken.
 
-   Het bericht wordt toegevoegd aan de reiscanvas. Alle montages en configuratie zullen aan het nieuwe bericht worden gekopieerd.
+   Het bericht wordt toegevoegd aan het reiscanvas. Alle montages en configuratie zullen aan het nieuwe bericht worden gekopieerd.
 
    ![](assets/message-duplicated.png)
 
