@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a51b41ddbb562137dc1f6cf15160ce326cc0564a
+source-git-commit: 9d9183a8114aff2d17fc65eddaf2a7a8424e3f95
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1178'
 ht-degree: 38%
 
 ---
@@ -122,11 +122,10 @@ ht-degree: 38%
       + [Testprofielen maken](using/segment/creating-test-profiles.md)
    + [Identiteiten](using/segment/get-started-identity.md)
    + [Licentiegebruik](using/segment/license-usage.md)
-   + Doelgroep samenstellen {#audience-orchestration}
-      + [Aan de slag met publiekscompositie](using/segment/get-started-audience-orchestration.md)
-      + [Samenstellingswerkstromen maken](using/segment/create-compositions.md)
-      + [Werken met het compositicanvas](using/segment/composition-canvas.md)
-      + [Toegang tot en beheer van het publiek](using/segment/access-audiences.md)
+   + [Aan de slag met publiekscompositie](using/segment/get-started-audience-orchestration.md)
+   + [Samenstellingswerkstromen maken](using/segment/create-compositions.md)
+   + [Werken met het compositicanvas](using/segment/composition-canvas.md)
+   + [Toegang tot en beheer van het publiek](using/segment/access-audiences.md)
 + Journeys {#orchestrate-journeys}
    + Reizen{#about-journeys}
       + [Algemeen principe](using/building-journeys/journey.md)
@@ -302,7 +301,7 @@ ht-degree: 38%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
+         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
