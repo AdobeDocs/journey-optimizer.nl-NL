@@ -2,9 +2,9 @@
 title: Campagnes activeren met API's
 description: Leer hoe u campagnes kunt activeren met [!DNL Journey Optimizer] API's
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 1fb9c759032211979d24daf8a885e82fc359060e
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Wanneer een profiel niet in de database bestaat, kunt u het door Journey Optimiz
 >
 >Deze functie is beschikbaar voor **zeer kleine profielcreatie** in een grote transactie die gebruikscase verzendt, met het grootste deel van profielen reeds bestaand in platform.
 
-Als u het maken van profielen wilt activeren tijdens de uitvoering van de campagne, schakelt u het **[!UCONTROL Nieuwe profielen maken]** in de **[!UICONTROL Audience]** sectie.
+Als u het maken van profielen wilt activeren tijdens de uitvoering van de campagne, schakelt u het **[!UICONTROL Create new profiles]** in de **[!UICONTROL Audience]** sectie.
 
 ![](assets/api-triggered-create-profile.png)
 
