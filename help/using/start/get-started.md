@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 22672ba22713bcc354d5cc4acdba68995d47a685
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '703'
 ht-degree: 6%
 
 ---
@@ -53,9 +53,9 @@ De belangrijkste mogelijkheden omvatten:
 
 ## Architectuur {#architecture}
 
-Begrijp de basisarchitectuur van [!DNL Adobe Journey Optimizer], de integratiepunten en de relatie tussen [!DNL Journey Optimizer] met andere Adobe-toepassingen.
+Begrijp de basisarchitectuur van [!DNL Adobe Journey Optimizer], de integratiepunten en de relatie tussen [!DNL Journey Optimizer] en [!DNL Experience Platform], in het onderstaande diagram.
 
->[!VIDEO](https://video.tv.adobe.com/v/334205?quality=12)
+![](assets/ajo-architecture.png)
 
 
 >[!NOTE]
