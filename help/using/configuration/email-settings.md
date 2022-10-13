@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8a8950dbbda9a0a3aa498e304e41294ad343d0be
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 1%
@@ -78,7 +78,7 @@ De unsubscribe-koppeling bestaat uit twee elementen:
 
 * De **abonnement-URL opzeggen**, dit is de URL van de bestemmingspagina waarop de gebruiker wordt omgeleid wanneer deze het abonnement opzegt.
 
-   Als u een [one-click opt-out link](../messages/consent.md#one-click-opt-out) voor een bericht dat is gemaakt met dit oppervlak, is de URL voor het afmelden van een abonnement de URL die is gedefinieerd voor de koppeling om één muisklik uit te schakelen.
+   Als u een [one-click opt-out link](../privacy/opt-out.md#one-click-opt-out) voor een bericht dat is gemaakt met dit oppervlak, is de URL voor het afmelden van een abonnement de URL die is gedefinieerd voor de koppeling om één muisklik uit te schakelen.
 
    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
@@ -86,7 +86,7 @@ De unsubscribe-koppeling bestaat uit twee elementen:
    >
    >Als u geen koppeling om te weigeren met één klik toevoegt aan uw berichtinhoud, wordt er geen bestemmingspagina weergegeven voor de gebruiker.
 
-Meer informatie over het toevoegen van een link voor opzeggen van koptekst aan je berichten in [deze sectie](../messages/consent.md#unsubscribe-header).
+Meer informatie over het toevoegen van een link voor opzeggen van koptekst aan je berichten in [deze sectie](../privacy/opt-out.md#unsubscribe-header).
 
 <!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
 

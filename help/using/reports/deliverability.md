@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: ad1aadd8b10b05d96ee0de5988d82728aca57d5e
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Voor een diepgaander inzicht in wat de te leveren prestaties zijn en meer te ler
 
 ## Het klachtenpercentage verlagen {#reduce-complaint-rate}
 
-ISPs heeft gewoonlijk een duidelijk middel om een ontvangen bericht als spam te melden. Hierdoor kunnen onbetrouwbare bronnen worden geïdentificeerd. Door opting-out verzoeken snel na te leven en daarom te tonen dat u een betrouwbare afzender bent, kunt u klachtentarieven verminderen. [Meer informatie over beheer van opt-out](../messages/consent.md#opt-out-management).
+ISPs heeft gewoonlijk een duidelijk middel om een ontvangen bericht als spam te melden. Hierdoor kunnen onbetrouwbare bronnen worden geïdentificeerd. Door opting-out verzoeken snel na te leven en daarom te tonen dat u een betrouwbare afzender bent, kunt u klachtentarieven verminderen. [Meer informatie over beheer van opt-out](../privacy/opt-out.md#opt-out-management).
 
 Als algemene regel geldt dat u ontvangers die zich willen afmelden, niet in de weg wilt staan door van hen te verlangen dat ze bijvoorbeeld velden invullen zoals hun e-mailadres of naam. De landingspagina voor abonnementen mag slechts één validatieknop hebben.
 

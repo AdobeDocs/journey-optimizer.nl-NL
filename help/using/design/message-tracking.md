@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 1%
@@ -52,11 +52,11 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
    * **[!UICONTROL Landing page]**: Koppelingen naar bestemmingspagina&#39;s invoegen. Meer informatie in [deze sectie](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL One click Opt-out]**: Voeg een koppeling in om gebruikers in staat te stellen zich snel af te melden voor uw communicatie zonder dat ze hoeven te bevestigen dat ze het abonnement willen opzeggen. Meer informatie in [deze sectie](../messages/consent.md#one-click-opt-out).
+   * **[!UICONTROL One click Opt-out]**: Voeg een koppeling in om gebruikers in staat te stellen zich snel af te melden voor uw communicatie zonder dat ze hoeven te bevestigen dat ze het abonnement willen opzeggen. Meer informatie in [deze sectie](../privacy/opt-out.md#one-click-opt-out).
 
    * **[!UICONTROL External Opt-in/Subscription]**: Voeg een koppeling in om het ontvangen van communicatie van uw merk te accepteren.
 
-   * **[!UICONTROL External Opt-out/Unsubscription]**: Voeg een koppeling in om uw abonnement op te zeggen dat u geen communicatie van uw merk wilt ontvangen. Meer informatie over beheer van opt-out in [deze sectie](../messages/consent.md#opt-out-management).
+   * **[!UICONTROL External Opt-out/Unsubscription]**: Voeg een koppeling in om uw abonnement op te zeggen dat u geen communicatie van uw merk wilt ontvangen. Meer informatie over beheer van opt-out in [deze sectie](../privacy/opt-out.md#opt-out-management).
 
    * **[!UICONTROL Mirror page]**: Voeg een koppeling in om de e-mailinhoud in een webbrowser weer te geven. Meer informatie in [deze sectie](#mirror-page).
 
@@ -75,7 +75,7 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
 >[!NOTE]
 >
->E-mailberichten van het type Marketing moeten een [opt-out-koppeling](../messages/consent.md#opt-out-management), die niet vereist is voor transactieberichten. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd op de [kanaaloppervlak](../configuration/channel-surfaces.md#email-type) (d.w.z. vooraf ingestelde berichten) en wanneer [het bericht maken](../messages/get-started-content.md#create-new-message).
+>E-mailberichten van het type Marketing moeten een [opt-out-koppeling](../privacy/opt-out.md#opt-out-management), die niet vereist is voor transactieberichten. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd op de [kanaaloppervlak](../configuration/channel-surfaces.md#email-type) (d.w.z. vooraf ingestelde berichten) en wanneer [het bericht maken](../messages/get-started-content.md#create-new-message).
 
 ## Koppelen naar een spiegelpagina {#mirror-page}
 

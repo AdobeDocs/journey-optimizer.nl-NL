@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
-title: Toestemming
-description: Toestemming
+title: Werken met toestemmingsbeleid
+description: Meer informatie over het werken met het instemmingsbeleid van Adobe Experience Platform
 feature: Actions
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 30171e362e0dc70f5647bb2413031946062e8df3
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
 
-# Toestemmingsbeheer {#consent-management}
+# Werken met toestemmingsbeleid {#consent-management}
 
 Met Adobe Experience Platform kunt u eenvoudig marketingbeleid toepassen en afdwingen om de voorkeuren voor toestemming van uw klanten te respecteren. Beleid voor instemming wordt gedefinieerd in Adobe Experience Platform. Zie [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy).
 

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1b81ed696d4b2b47ab9b736be695983f5e18d8ae
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1188'
 ht-degree: 38%
 
 ---
@@ -52,7 +52,6 @@ ht-degree: 38%
    + [Een SMS-bericht maken](using/messages/create-sms.md)
    + [Een directe e-mail maken](using/messages/create-direct-mail.md)
    + [Waarschuwingen controleren](using/messages/alerts.md)
-   + [Toestemming beheren](using/messages/consent.md)
    + [Tijdoptimalisatie verzenden](using/messages/send-time-optimization.md)
 + Ontwerpcontent {#design}
    + [Aan de slag met e-mailontwerp](using/design/design-emails.md)
@@ -442,5 +441,7 @@ ht-degree: 38%
    + [Beleid voor gegevensgebruik](using/privacy/policies.md)
    + [Privacyverzoeken](using/privacy/requests.md)
    + [Controleregelingen op middelen](using/privacy/audit-logs.md)
-   + [Toestemming](using/action/consent.md)
+   + Toestemming beheren {#consent}
+      + [Weigeren beheren](using/privacy/opt-out.md)
+      + [Werken met toestemmingsbeleid](using/action/consent.md)
    + [Data Governance](using/action/action-privacy.md)

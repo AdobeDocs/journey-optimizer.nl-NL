@@ -2,7 +2,7 @@
 title: Opmerkingen bij de vorige release (2021)
 description: Opmerkingen bij de release van Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '2067'
 ht-degree: 9%
@@ -270,7 +270,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 **Inhoud ontwerpen**
 
 * **Achtergrond** - Achtergrondafbeeldingen worden nu ondersteund in live voorvertoning. [Meer informatie](../design/preview.md)
-* **Een-klik-koppeling voor weigeren** - U kunt een nieuw type koppeling invoegen in uw e-mailinhoud: de **Uitschakelen** de verbinding staat gebruikers toe om van het ontvangen van uw mededelingen in slechts één klik af te zien, zonder opnieuw te worden gericht aan een het landen pagina om het uit kiezen te bevestigen. [Meer informatie](../messages/consent.md#one-click-opt-out-link)
+* **Een-klik-koppeling voor weigeren** - U kunt een nieuw type koppeling invoegen in uw e-mailinhoud: de **Uitschakelen** de verbinding staat gebruikers toe om van het ontvangen van uw mededelingen in slechts één klik af te zien, zonder opnieuw te worden gericht aan een het landen pagina om het uit kiezen te bevestigen. [Meer informatie](../privacy/opt-out.md#one-click-opt-out-link)
 
 **Personalisatie**
 

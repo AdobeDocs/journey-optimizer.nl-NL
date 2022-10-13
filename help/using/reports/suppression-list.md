@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 2%
@@ -47,7 +47,7 @@ Meer informatie over harde stuit en zachte stuit in [deze sectie](#delivery-fail
 
 >[!NOTE]
 >
->Gebruikers met een abonnement kunnen geen adressen naar de onderdrukkingslijst verzenden omdat ze geen e-mails ontvangen van [!DNL Journey Optimizer]. Hun keuze wordt op het niveau van de Experience Platform behandeld. Meer informatie over [uitkiezen](../messages/consent.md).
+>Gebruikers met een abonnement kunnen geen adressen naar de onderdrukkingslijst verzenden omdat ze geen e-mails ontvangen van [!DNL Journey Optimizer]. Hun keuze wordt op het niveau van de Experience Platform behandeld. Meer informatie over [uitkiezen](../privacy/opt-out.md).
 
 Voor elk adres, de fundamentele reden voor onderdrukking en de onderdrukkingscategorie (zacht, hard, enz.) worden weergegeven in de lijst met onderdrukking. Meer informatie over het openen en beheren van de suppressielijst vindt u in [deze sectie](../configuration/manage-suppression-list.md).
 

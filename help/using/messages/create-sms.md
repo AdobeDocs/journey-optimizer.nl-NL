@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '395'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 3%
 >abstract="Voeg uw tekstbericht toe en begin het met de redacteur van de Uitdrukking aan te passen."
 
 Gebruiken [!DNL Journey Optimizer] om tekstberichten naar uw klanten op hun mobiele apparaten te verzenden. U kunt berichten in tekstformaat van de redacteur van SMS tot stand brengen, personaliseren en voorproef.
+
+>[!NOTE]
+>
+>In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS-marketingberichten een manier bevatten waarop de ontvangers hun abonnement gemakkelijk kunnen opzeggen. Om dit te doen, kunnen de ontvangers van SMS met opt-in en opt-out sleutelwoorden antwoorden. [Meer informatie over het beheren van opt-out](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 De levering van SMS kan worden gecreeerd:
 
@@ -61,17 +65,6 @@ Als u wilt visualiseren hoe uw SMS-bericht wordt weergegeven op mobiele apparate
 U moet ook waarschuwingen controleren in het bovenste gedeelte van de editor.  Sommige zijn eenvoudige waarschuwingen, maar andere kunnen voorkomen dat u het bericht gebruikt. Meer informatie in [deze sectie](alerts.md).
 
 ![](assets/sms-alert-button.png)
-
-
-## Opt-in en opt-out{#sms-opt-in-out}
-
-Voor alle marketingberichten moet het SMS een manier bevatten waarop de ontvangers het abonnement gemakkelijk kunnen opzeggen. Als u het abonnement opzegt, worden de profielen automatisch verwijderd uit het publiek van toekomstige marketingberichten. Het toevoegen van een koppeling voor het opzeggen van abonnementen is niet verplicht voor transactiemeldingen.
-
-De ontvangers van SMS kunnen met opt-in en opt-out sleutelwoorden antwoorden. Conform de industriestandaarden en -voorschriften verwerkt Adobe Journey Optimizer automatisch de volgende trefwoorden in binnenkomende berichten: START, STOP en ONTSTOP. Deze trefwoorden activeren automatische standaardantwoorden van de SMS-provider.
-
-Raadpleeg de volgende video voor meer informatie over de manier waarop native ondersteuning voor binnenkomende trefwoorden (start, stop en unstop) werkt voor SMS.
-
->[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
 
 <!--
 ## How-to video

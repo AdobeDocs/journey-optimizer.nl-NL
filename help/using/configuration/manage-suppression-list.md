@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 3c830d6e5ee577b0cfa0064550d1429754fbb366
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 1%
@@ -122,7 +122,7 @@ De mogelijke redenen van een leveringsfout zijn:
 
 >[!NOTE]
 >
->Niet-geabonneerde gebruikers ontvangen geen e-mails van [!DNL Journey Optimizer]Daarom kunnen hun e-mailadressen niet naar de onderdrukkingslijst worden verzonden. Hun keuze wordt op het niveau van de Experience Platform behandeld. [Meer informatie over opt-out](../messages/consent.md)
+>Niet-geabonneerde gebruikers ontvangen geen e-mails van [!DNL Journey Optimizer]Daarom kunnen hun e-mailadressen niet naar de onderdrukkingslijst worden verzonden. Hun keuze wordt op het niveau van de Experience Platform behandeld. [Meer informatie over opt-out](../privacy/opt-out.md)
 
 ## Voeg handmatig adressen en domeinen toe {#add-addresses-and-domains}
 

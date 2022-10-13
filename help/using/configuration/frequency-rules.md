@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 8766f64c4ea7985c6c9d6e4ba022ef6b1fc0dbed
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 2%
@@ -23,7 +23,7 @@ Hiervoor kunt u een regel voor de frequentie gebruiken die het aantal verzonden 
 
 >[!NOTE]
 >
->De regels van de berichtfrequentie zijn verschillend van opt-out beheer, dat gebruikers toestaat om van het ontvangen van mededelingen van een merk af te zien. [Meer informatie](../messages/consent.md#opt-out-management)
+>De regels van de berichtfrequentie zijn verschillend van opt-out beheer, dat gebruikers toestaat om van het ontvangen van mededelingen van een merk af te zien. [Meer informatie](../privacy/opt-out.md#opt-out-management)
 
 ➡️ [Ontdek deze functie in video](#video)
 

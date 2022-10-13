@@ -5,7 +5,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 13e4e261c2dede334f5eb9f180ca784e83c5c75f
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 1%
@@ -50,7 +50,7 @@ Voeg een push-, SMS- of e-mailactiviteit toe aan de reiscanvas om berichten toe 
    >
    >* Als u [frequentieregels](../configuration/frequency-rules.md) voor een specifiek kanaal en een bepaalde categorie, worden zij automatisch toegepast op het bericht wanneer het selecteren van dat kanaal en die categorie. Alleen de **[!UICONTROL Marketing]** categorie is beschikbaar voor frequentievoorschriften.
    >
-   >* Marketingberichten moeten een [opt-out-koppeling](../messages/consent.md#opt-out-management). Dit is niet vereist voor transactieberichten omdat deze berichten naar profielen kunnen worden verzonden die van marketing mededelingen afzien.
+   >* Marketingberichten moeten een [opt-out-koppeling](../privacy/opt-out.md#opt-out-management). Dit is niet vereist voor transactieberichten omdat deze berichten naar profielen kunnen worden verzonden die van marketing mededelingen afzien.
 
 
 1. Selecteer het kanaal **[!UICONTROL Surface]** (d.w.z. voorinstelling voor berichten) die moet worden gebruikt om uw bericht te verzenden.

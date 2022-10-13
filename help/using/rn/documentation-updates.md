@@ -2,9 +2,9 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a5bbcfb84cb1be5770d91cc844e42e808dbe2957
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '2018'
 ht-degree: 19%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 19%
 # Documentatie-updates {#latest-updates}
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
+
+## Oktober 2022 {#october-2022}
+
+* De informatie over het beleid inzake opt-out-beheer en toestemmingen is in een nieuw hoofdstuk ondergebracht. [Meer informatie](../privacy/opt-out.md)
 
 ## September 2022 {#september-2022}
 
@@ -108,7 +112,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Er is een nieuwe sectie over de schemavereisten toegevoegd die nodig zijn om gebeurtenistypen te kunnen verzenden bij het gebruik van een classificatiestrategie. [Meer informatie](../offers/ranking/schema-requirement.md)
 * Het gedeelte over [!DNL Journey Optimizer] personaliseringsmogelijkheden zijn gereorganiseerd voor een betere leesbaarheid . [Meer informatie](../personalization/personalize.md)
 * De **Voorinstellingen voor berichten maken** voor meer duidelijkheid is dit gedeelte in verschillende secties onderverdeeld . [Meer informatie](../configuration/channel-surfaces.md#create-channel-surface)
-* De **Uitschakelen, beheer** dit gedeelte is verduidelijkt en enigszins gereorganiseerd . [Meer informatie](../messages/consent.md#opt-out-management)
+* De **Uitschakelen, beheer** dit gedeelte is verduidelijkt en enigszins gereorganiseerd . [Meer informatie](../privacy/opt-out.md#opt-out-management)
 * De **Koppelingen invoegen** is bijgewerkt met de recente wijzigingen in de gebruikersinterface. [Meer informatie](../design/message-tracking.md#insert-links)
 
 ## November 2021 {#november-2021}
@@ -172,7 +176,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De sectie lijst van gewenste personen inschakelen is bijgewerkt. [Meer informatie](../configuration/allow-list.md#enable-allow-list)
 * De sectie met voorinstellingen voor monitorberichten is bijgewerkt met de mogelijke oorzaken van een eventuele fout bij het maken van de voorinstelling en details over dergelijke fouten. [Meer informatie](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * De sectie Tijdsperiode voor opnieuw proberen is bijgewerkt en de naam is gewijzigd om aan te geven dat u de instelling voor het opnieuw proberen van e-mail nu kunt aanpassen in de voorinstellingen voor berichten. [Meer informatie](../configuration/retries.md#retry-duration)
-* Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u met één klik een koppeling om te weigeren kunt invoegen in e-mailinhoud. [Meer informatie](../messages/consent.md#one-click-opt-out-link)
+* Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u met één klik een koppeling om te weigeren kunt invoegen in e-mailinhoud. [Meer informatie](../privacy/opt-out.md#one-click-opt-out-link)
 * De subdomeinsectie Delegeren is bijgewerkt met meer gedetailleerde informatie over het validatieproces dat door Adobe wordt uitgevoerd. [Meer informatie](../configuration/delegate-subdomain.md#subdomain-validation)
 * Er is een sectie toegevoegd waarin wordt beschreven hoe u handmatig e-mailadressen en domeinen aan de suppressielijst kunt toevoegen. [Meer informatie](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * De [De lijst met onderdrukking openen](../configuration/manage-suppression-list.md#access-suppression-list) en [Opnieuw](../configuration/retries.md) secties om de nieuwe gebruikersinterface te weerspiegelen.

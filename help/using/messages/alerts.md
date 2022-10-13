@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 89f445f2-df8a-4d2d-afe8-4f8b9cb001d9
-source-git-commit: b31eb2bcf52bb57aec8e145ad8e94790a1fb44bf
+source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
@@ -45,7 +45,7 @@ De instellingen en elementen die door het systeem zijn gecontroleerd, worden hie
 
 **Waarschuwingen**:
 
-* **[!UICONTROL The opt-out link is not present in the email body]**: u kunt het beste een koppeling zonder abonnement toevoegen aan uw e-mailadres. Leer hoe u deze kunt configureren in [deze sectie](consent.md#opt-out-management).
+* **[!UICONTROL The opt-out link is not present in the email body]**: u kunt het beste een koppeling zonder abonnement toevoegen aan uw e-mailadres. Leer hoe u deze kunt configureren in [deze sectie](../privacy/opt-out.md#opt-out-management).
 
    >[!NOTE]
    >
