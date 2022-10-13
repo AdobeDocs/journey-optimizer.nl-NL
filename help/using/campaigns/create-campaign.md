@@ -5,9 +5,9 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 845a8324d96d8891bf1edf64a0962d23976bb29e
+source-git-commit: 6b77133cb0b0e8d91cc9012d5b338628846c08b3
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '822'
 ht-degree: 3%
 
 ---
@@ -108,7 +108,7 @@ Als u uw campagne niet meteen na de activering wilt uitvoeren, kunt u een datum 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"
 >title="Snelle leveringsmodus"
->abstract="De snelle leveringswijze is een toe:voegen-op van Journey Optimizer die u hoge snelheidsuitgaven van niet-gepersonaliseerde berichten aan publiek onder 30M profielen laat uitvoeren."
+>abstract="Met de modus voor snelle levering kunt u snelle berichten verzenden via een pushkanaal naar een publieksgrootte van minder dan 30 MB."
 
 De snelle leveringswijze, die vroeger als wijze van de Borst bij reizen wordt bekend, is een [!DNL Journey Optimizer] een invoegtoepassing waarmee via campagnes zeer snel pushberichten op grote volumes kunnen worden verzonden.
 
