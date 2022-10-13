@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 405d99f14512727f8d5e4aa9513f07f1e87f1a39
+source-git-commit: ec1a889bf849f27d492d0c42e375327b0dc9c067
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1350'
 ht-degree: 1%
 
 ---
@@ -175,7 +175,7 @@ Zodra uw bericht door [reis](../building-journeys/journey.md)Als een ontvanger o
 >id="ajo_admin_preset_unsubscribe"
 >title="Koppeling voor abonnement toevoegen aan e-mailkoptekst"
 >abstract="Schakel List-Unsubscribe in om een koppeling voor afmelden aan de e-mailkoptekst toe te voegen. Als u een URL voor afmelden wilt instellen, voegt u een koppeling om te weigeren in de e-mailinhoud in."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent.html?lang=en#one-click-opt-out" text="Eén klik op Weigeren"
+>additional-url="https://experienceleague.corp.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#one-click-opt-out" text="Eén klik op Weigeren"
 
 Als de [List-Unsubscribe, optie](../configuration/channel-surfaces.md#list-unsubscribe) is ingeschakeld op het niveau van het kanaaloppervlak, de bijbehorende e-mails die worden verzonden met [!DNL Journey Optimizer] zal een unsubscribe verbinding in de e-mailkopbal omvatten.
 
