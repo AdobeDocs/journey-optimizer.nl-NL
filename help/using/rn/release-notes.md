@@ -2,9 +2,9 @@
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1101'
 ht-degree: 9%
 
 ---
@@ -16,6 +16,15 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 [!DNL Adobe Journey Optimizer] is native [!DNL Adobe Experience Platform] en erft van de meest recente innovaties en verbeteringen. Meer informatie over deze wijzigingen vindt u in [Opmerkingen bij de release van Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target=&quot;_blank&quot;}.
 
 ![Nieuwsbrief](../assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target=&quot;_blank&quot;} vandaag en ontvang de nieuwste productupdates, spannende artikelen, gebruiksscenario&#39;s, tips en nog veel meer die elk kwartaal rechtstreeks aan uw Postvak IN worden bezorgd.
+
+
+## Oktober 2022 {#oct-2022-release}
+
+### Verbeteringen{#oct-2022-improvements}
+
+**Journeys**
+
+* De **Herkomst forceren bij herhaling** Deze optie is toegevoegd in terugkerende parameters van het read-segment. Met deze optie kunt u alle profielen die zich nog in de reis bevinden, automatisch laten afsluiten bij de volgende uitvoering. Wanneer de optie is gedeactiveerd, moeten profielen de reis beëindigen alvorens zij in een ander voorkomen kunnen opnieuw ingaan. [Meer informatie](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 ## Release september 2022{#sept-2022-release}
 
@@ -164,7 +173,7 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 
 ### Verbeteringen{#sept-2022-improvements}
 
-**Journeys**
+**Reizen**
 
 * De **Entiteitsgegevens** is nu beschikbaar als out-of-the-box dataset in Adobe Journey Optimizer. Deze raadplegingsdataset omvat meta- gegevens om het volgen te verrijken en datasetinformatie terug te koppelen. Dit zal u helpen uw rapporten en vragen met begrijpelijkere gegevens verbeteren. [Meer informatie](../start/datasets-query-examples.md#entity-dataset)
 * Er is een nieuwe guardrail toegevoegd aan de unitaire reizen (te beginnen met een evenement of een segmentkwalificatie) om te voorkomen dat ritten meerdere keren ten onrechte voor dezelfde gebeurtenis worden gestart. De terugkeer van het profiel wordt nu tijdelijk geblokkeerd door gebrek voor 5 minuten. [Meer informatie](../start/guardrails.md#events-g)

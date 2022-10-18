@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 3012d5492205e99f4d6c22d4cc07ddef696e6f1f
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -311,7 +311,17 @@ Dataset om entiteitmeta-gegevens voor berichten op te slaan die naar het eind wo
 
 Het verwante schema is het AJO-entiteitsschema.
 
-Deze dataset staat u toe om diverse datasets met zeer belangrijke tellervriendelijke meta-gegevens te verrijken. Het messageID attribuut helpt diverse datasets zoals de Dataset van de Terugkoppeling van het Bericht en de Datasets van het Volgen van de Gebeurtenis van de Ervaring verbinden om details van een berichtlevering van het verzenden naar het volgen op een profielniveau te krijgen.
+Deze dataset geeft u toegang tot markeerder bepaalde meta-gegevens die u toestaat om betere rapporteringsinzichten te krijgen wanneer de datasets van Journey Optimizer uit voor het melden van visualisatie in externe hulpmiddelen worden uitgevoerd. Dit wordt bereikt gebruikend het messageID attribuut dat diverse datasets zoals de Dataset van de Terugkoppeling van het Bericht en de Datasets van de Gebeurtenis van de Ervaring helpt verbinden om details van een berichtlevering van het verzenden naar het volgen op een profielniveau te krijgen.
+
+**Belangrijke opmerkingen**
+
+* Een ingang voor een bericht wordt gecreeerd slechts nadat de reis of de campagne wordt gepubliceerd.
+
+* 30 minuten na de publicatie van de campagne/reis kunt u de vermelding zien.
+
+>[!NOTE]
+>
+>Voorlopig zijn er twee vermeldingen voor elke berichtpublicatie in de entiteitsdataset om toekomstige compatibiliteitsredenen. Dit beïnvloedt uw capaciteit om te gebruiken sluit zich aan bij vragen zoals nodig over datasets aan om de gewenste informatie te halen.
 
 De volgende vraag helpt u het bijbehorende berichtmalplaatje voor een bepaalde campagne krijgen:
 

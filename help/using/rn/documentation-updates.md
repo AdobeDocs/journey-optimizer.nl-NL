@@ -2,9 +2,9 @@
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '2018'
+source-wordcount: '2003'
 ht-degree: 19%
 
 ---
@@ -53,7 +53,6 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 ## Juni 2022 {#june-2022}
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 22 juni is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
-* Er is een nieuwe sectie over het beleid voor gegevensgebruik toegevoegd aan de documentatie. [Meer informatie](../privacy/policies.md)
 * Er is een nieuwe sectie over privacyverzoeken toegevoegd aan de documentatie. [Meer informatie](../privacy/requests.md)
 * Een nieuwe sectie over de logboeken van de Controle op middelen is toegevoegd aan de documentatie. [Meer informatie](../privacy/audit-logs.md)
 * Er is een nieuw gedeelte toegevoegd aan de documentatie over het toevoegen van HTML- of JSON-inhoud uit de Adobe Experience Cloud Asset Library aan een aanbiedingsweergave. [Meer informatie](../offers/offer-library/add-representations.md#html-json)

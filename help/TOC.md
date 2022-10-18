@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 32c69ef268c78ba834612d16b2ac1c721fb5df56
+source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1185'
 ht-degree: 38%
 
 ---
@@ -302,7 +302,7 @@ ht-degree: 38%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
+         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
@@ -438,7 +438,6 @@ ht-degree: 38%
    + [Op kenmerken gebaseerd toegangsbeheer](using/administration/attribute-based-access.md)
    + [Toegangsbeheer op objectniveau](using/administration/object-based-access.md)
 + Privacy {#privacy}
-   + [Beleid voor gegevensgebruik](using/privacy/policies.md)
    + [Privacyverzoeken](using/privacy/requests.md)
    + [Controleregelingen op middelen](using/privacy/audit-logs.md)
    + Toestemming beheren {#consent}
