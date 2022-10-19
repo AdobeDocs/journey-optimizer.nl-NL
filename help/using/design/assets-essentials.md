@@ -1,12 +1,14 @@
 ---
-title: ' Assets Essentials gebruiken in Journey Optimizer'
+solution: Journey Optimizer
+product: journey optimizer
+title: Assets Essentials gebruiken in Journey Optimizer
 description: Aan de slag met Assets Essentials
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 3%

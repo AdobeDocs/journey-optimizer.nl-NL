@@ -1,17 +1,19 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: De tekstversie van een e-mailbericht maken
 description: Leer hoe u de tekstversie van een e-mailbericht maakt
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 40c42303b8013c1d9f4dd214ab1acbec2942e094
+exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
 
 ---
-
 
 # De tekstversie van een e-mailbericht maken {#text-version-email}
 

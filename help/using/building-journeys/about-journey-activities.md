@@ -1,15 +1,16 @@
 ---
-title: Informatie over reisactiviteiten
+solution: Journey Optimizer
+product: journey optimizer
 description: Meer informatie over reisactiviteiten
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 85686ace0b7a8255c795f821caac481bbee1e6d6
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 24%
+source-wordcount: '260'
+ht-degree: 25%
 
 ---
 

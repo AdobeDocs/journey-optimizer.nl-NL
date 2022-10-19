@@ -1,12 +1,14 @@
 ---
-title: '&Hoofdlettergebruik voor persoonlijke voorkeur; e-mail over verlaten van winkelwagen'
+solution: Journey Optimizer
+product: journey optimizer
+title: voor persoonlijke voorkeur; e-mail over verlaten van winkelwagen
 description: Leer hoe u de hoofdtekst van een e-mailbericht kunt aanpassen met een kwestie van het type use.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 2%

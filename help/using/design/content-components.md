@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Onderdelen voor content van e-mailontwerpers gebruiken
 description: Leer hoe u inhoudcomponenten in uw e-mails kunt gebruiken
 feature: Overview
@@ -6,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 9593ea40853221e0eec45f30f7635d8a116b03c1
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 0%
@@ -181,7 +183,7 @@ Gebruik de **[!UICONTROL Video]** om een video in te voegen in uw e-mail via een
 
 1. U kunt uw afbeelding nu verder aanpassen door het **[!UICONTROL Style]**, **[!UICONTROL Margin]** en **[!UICONTROL Border]** bijvoorbeeld.
 
-## Sociaal {#social}
+## Social {#social}
 
 Gebruik de **[!UICONTROL Social]** om koppelingen naar pagina&#39;s met sociale media in uw e-mail in te voegen.
 

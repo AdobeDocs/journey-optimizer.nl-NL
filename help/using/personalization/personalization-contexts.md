@@ -1,12 +1,14 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Persoonlijke context
-description: 'Meer informatie over de manieren waarop u de inhoud en weergave van uw berichten kunt aanpassen. '
+description: Meer informatie over de manieren waarop u de inhoud en weergave van uw berichten kunt aanpassen.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%

@@ -1,11 +1,12 @@
 ---
-product: adobe campaign
+product: journey optimizer
 title: limiet
 description: Meer informatie over de functielimiet
 feature: Journeys
 role: Data Engineer
 level: Experienced
-source-git-commit: 0facae9e7eafc9f6fcbefbdc6d5563322eaf1251
+exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 4%
@@ -88,4 +89,3 @@ Retourneert `["A","B","C"]`.
 `limit(["A", "B", "C", "D", "E"], 3, false)`
 
 Retourneert `["C","D","E"]`.
-
