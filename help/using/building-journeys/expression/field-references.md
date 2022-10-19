@@ -1,14 +1,15 @@
 ---
-product: adobe campaign
+solution: Journey Optimizer
+product: journey optimizer
 title: Veldverwijzingen
 description: Meer informatie over veldverwijzingen in geavanceerde expressies
 feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '553'
 ht-degree: 3%
 
 ---
@@ -39,7 +40,7 @@ In de expressie wordt naar gebeurtenisvelden verwezen met &quot;@&quot; en wordt
 
 Een syntaxiskleur wordt gebruikt om (groene) gebeurtenisvelden visueel te onderscheiden van (blauwe) veldgroepen.
 
-## Standaardwaarden voor veldverwijzingen
+## Standaardwaarden voor veldverwijzingen {#default-value}
 
 Een standaardwaarde kan aan een gebiedsnaam worden geassocieerd. De syntaxis is als volgt:
 
@@ -54,7 +55,7 @@ Een standaardwaarde kan aan een gebiedsnaam worden geassocieerd. De syntaxis is 
 
 >[!NOTE]
 >
->Het veldtype en de standaardwaarde moeten hetzelfde zijn. Bijvoorbeeld @{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2} will be invalid because the default value is an integer whereas the expected value should be a string.
+>Het veldtype en de standaardwaarde moeten hetzelfde zijn. Bijvoorbeeld @{LobbyBeacon.endUserIDs._experience.ease.id, defaultValue: 2} is ongeldig omdat de standaardwaarde een geheel getal is en de verwachte waarde een tekenreeks.
 
 Voorbeelden:
 
@@ -86,6 +87,13 @@ expression examples:
 - #{ACP.Profile.emails.at(1).email}              -> "snow@thewall.westeros"
 - #{ACP.Profile.person.age, defaultValue : -1}   -> -1 // default value, age is not a field present in the payload
 - #{ACP.Profile.person.age}                      -> null
+```
+
+U kunt elke gewenste expressie toevoegen als standaardwaarde. De enige beperking is dat de expressie het verwachte gegevenstype moet retourneren. Wanneer u een functie gebruikt, moet u de functie inkapselen met ().
+
+```
+#{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
+== date("2022-02-10T00:00:00Z")
 ```
 
 ## Verwijzing naar een veld in verzamelingen
