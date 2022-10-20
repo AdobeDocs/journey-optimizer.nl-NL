@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 15dc5e2854358f7f200a54a3f06fa6e98f146efe
+source-git-commit: e3ae60321aac340328e1fcd7b1060192fbc7ee06
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1188'
 ht-degree: 38%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 38%
       + [Uw reis testen](using/building-journeys/testing-the-journey.md)
       + [Uw reis publiceren](using/building-journeys/publishing-the-journey.md)
       + [Tijdzonebeheer](using/building-journeys/timezone-management.md)
-      + [Een reis naar een andere sandbox kopiëren](using/building-journeys/copy-to-sandbox.md)
+      + [Een journey naar een andere sandbox kopiëren](using/building-journeys/copy-to-sandbox.md)
       + [Los uw reis problemen op](using/building-journeys/troubleshooting.md)
    + Activiteiten {#about-journey-building}
       + [Informatie over reisactiviteiten](using/building-journeys/about-journey-activities.md)
@@ -302,7 +302,7 @@ ht-degree: 38%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
+         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
@@ -398,6 +398,7 @@ ht-degree: 38%
             + [Hernieuwde pogingen](using/configuration/retries.md)
             + [Lijst van gewenste personen](using/configuration/allow-list.md)
       + [Sms-kanaal configureren](using/configuration/sms-configuration.md)
+      + [Direct mail configureren](using/configuration/direct-mail-configuration.md)
       + Kanaaloppervlakken instellen {#set-up-channels}
          + [Kanaaloppervlakken maken](using/configuration/channel-surfaces.md)
          + [E-mailinstellingen configureren](using/configuration/email-settings.md)
