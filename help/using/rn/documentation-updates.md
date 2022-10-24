@@ -4,10 +4,10 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
 workflow-type: tm+mt
-source-wordcount: '2003'
-ht-degree: 19%
+source-wordcount: '2052'
+ht-degree: 18%
 
 ---
 
@@ -17,6 +17,9 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 ## Oktober 2022 {#october-2022}
 
+* Toegevoegd een geval van het reisgebruik op hoe te om productie te beperken gebruikend Externe Gegevensbronnen en de Acties van de Douane. [Meer informatie](../building-journeys/limit-throughput.md)
+* De gevallenge van het reisgebruik is gereorganiseerd in twee categorieën: [Kwesties voor zakelijk gebruik](../building-journeys/journeys-uc.md) en [Kwesties van technisch gebruik](../building-journeys/collections.md).
+* De **Entiteitsgegevens** is bijgewerkt met meer details. [Meer informatie](../start/datasets-query-examples.md#entity-dataset)
 * De informatie over het beleid inzake opt-out-beheer en toestemmingen is in een nieuw hoofdstuk ondergebracht. [Meer informatie](../privacy/opt-out.md)
 
 ## September 2022 {#september-2022}
