@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e3ae60321aac340328e1fcd7b1060192fbc7ee06
+source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1203'
 ht-degree: 38%
 
 ---
@@ -243,11 +243,14 @@ ht-degree: 38%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Gebruiksscenario’s {#journey-use-cases}
-      + [Multikanaalberichten verzenden](using/building-journeys/journeys-uc.md)
-      + [Een bericht verzenden met Campagne v7/v8](using/building-journeys/campaign-classic-use-case.md)
-      + [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](using/building-journeys/collections.md)
-      + [Een bericht verzenden naar abonnees](using/building-journeys/message-to-subscribers-uc.md)
-      + [Leveringen opwaarderen](using/building-journeys/ramp-up-deliveries-uc.md)
+      + Kwesties voor zakelijk gebruik {#business-use-cases}
+         + [Multikanaalberichten verzenden](using/building-journeys/journeys-uc.md)
+         + [Een bericht verzenden met Campagne v7/v8](using/building-journeys/campaign-classic-use-case.md)
+         + [Een bericht verzenden naar abonnees](using/building-journeys/message-to-subscribers-uc.md)
+      + Kwesties van technisch gebruik {#technical-use-cases}
+         + [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](using/building-journeys/collections.md)
+         + [Leveringen opwaarderen](using/building-journeys/ramp-up-deliveries-uc.md)
+         + [Productie beperken met externe gegevensbronnen en aangepaste handelingen](using/building-journeys/limit-throughput.md)
 + Bijhouden en bewaken {#reporting}
    + Live-rapport {#live-report}
       + [Aan de slag met Live-rapport](using/reports/live-report.md)
