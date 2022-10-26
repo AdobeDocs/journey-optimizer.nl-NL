@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Met samenstellingsworkflows kunt u bestaande soorten publiek combineren en rangs
 
    ![](assets/audiences-publish.png)
 
-1. Zodra uw samenstelling klaar is, klik [**!UICONTROL publiceren]** om de compositie te publiceren en het resulterende publiek op te slaan in Adobe Experience Platform.
+1. Zodra uw samenstelling klaar is, klik **[!UICONTROL Publish]** om de compositie te publiceren en het resulterende publiek op te slaan in Adobe Experience Platform.
 
    Als er tijdens het publiceren een fout optreedt, worden waarschuwingen weergegeven met informatie over hoe u het probleem kunt oplossen.
 

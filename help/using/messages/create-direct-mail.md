@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: fe6fedfd3fb0a8b083f7b047e2879ef6510b041b
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 8%
@@ -30,6 +30,7 @@ Directe-mailberichten kunnen alleen worden gemaakt in het kader van geplande cam
 >[!IMPORTANT]
 >
 >Alvorens een direct-mailbericht te verzenden, zorg ervoor u hebt gevormd:
+>
 >* A [bestand dat configuratie verplettert](../configuration/direct-mail-configuration.md#file-routing-configuration) die de server aangeeft waar het extractiebestand moet worden geüpload en opgeslagen,
 >* A [direct-mailberichtoppervlak](../configuration/direct-mail-configuration.md#direct-mail-surface) die naar het dossier zal verwijzen dat configuratie verplettert.
 

@@ -6,7 +6,8 @@ description: Leer hoe u uw aanbiedingsschema configureert om gebeurtenissen vast
 feature: Ranking Formulas
 role: User
 level: Intermediate
-source-git-commit: 12b01cb9de84399e5ede987866609acc10b64c5f
+exl-id: f70ba749-f517-4e09-a381-243b21713b48
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -25,7 +26,7 @@ Telkens wanneer een aanbieding wordt getoond en/of geklikt, wilt u dat de overee
 
 Als u gebeurtenistypen wilt kunnen verzenden (weergegeven aanbod of aangeklikte aanbieding), moet u de juiste waarde voor elk gebeurtenistype instellen in een ervaringsgebeurtenis die naar Adobe Experience Platform wordt verzonden. Hieronder vindt u de schemavereisten die u in uw JavaScript-code moet implementeren:
 
-### Weergegeven scenario voorstellen
+## Weergegeven scenario voorstellen
 
 **Type gebeurtenis:** `decisioning.propositionDisplay`
 **Bron:** Web.sdk/Alloy.js (`sendEvent command -> xdm : {eventType, interactionMixin}`) of batch ingestie
@@ -48,8 +49,8 @@ Als u gebeurtenistypen wilt kunnen verzenden (weergegeven aanbod of aangeklikte 
                     "xdm:id": "personalized-offer:f67bab756ed6ee5",
                 }
             ],
-            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id - taken from experience event for “nextBestOffer”
-            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id - taken from experience event for “nextBestOffer”
+            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id - taken from experience event for "nextBestOffer"
+            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id - taken from experience event for "nextBestOffer"
         }
     ]
 }
@@ -107,4 +108,3 @@ Once a ranking strategy has been created, you can assign it to a placement in a 
 
 It is now ready to be used in a decision to rank eligible offers for a placement (see [Configure offers selection in decisions](../offer-activities/configure-offer-selection.md)).
 -->
-
