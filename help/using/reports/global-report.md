@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+source-git-commit: 7c7faa5e672d5ed6d7a083db50b206d11ecc4184
 workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 2%
@@ -306,7 +306,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
 </table>
 -->
 
-### Metrische gegevens voor pushmeldingen {#push-notification-metrics}
+### Metrische gegevens voor pushmeldingen
 
 <table> 
  <thead> 
@@ -433,7 +433,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
  </tbody> 
 </table>
 
-### Metrische gegevens voor pushmeldingen {#push-notification-metrics}
+### Metrische gegevens voor pushmeldingen
 
 <table> 
  <thead> 
