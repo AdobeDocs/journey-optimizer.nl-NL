@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 3%
+source-wordcount: '543'
+ht-degree: 2%
 
 ---
 
@@ -71,7 +71,9 @@ Controleer de volgende voorwaarden voordat u begint met het maken van uw eerste 
 
 Campagnes zijn toegankelijk vanuit de **[!UICONTROL Campaigns]** -menu.
 
-Standaard worden in de lijst alle campagnes met de **[!UICONTROL Draft]**, **[!UICONTROL Scheduled]**, en **[!UICONTROL Live]** statussen. Om gestopt, voltooide, en gearchiveerde campagnes te tonen, moet u de filter ontruimen.
+Standaard worden in de lijst alle campagnes met de **[!UICONTROL Draft]**, **[!UICONTROL Scheduled]**, en **[!UICONTROL Live]** statussen.
+
+Om gestopt, voltooide, en gearchiveerde campagnes te tonen, moet u de filter ontruimen.
 
 ![](assets/create-campaign-list.png)
 
@@ -83,9 +85,9 @@ Campagnes kunnen meerdere statussen hebben:
 * **[!UICONTROL Activating]**: De campagne wordt geactiveerd.
 * **[!UICONTROL Live]**: De campagne is geactiveerd.
 * **[!UICONTROL Scheduled]**: De campagne is geconfigureerd om te worden geactiveerd op een specifieke startdatum.
-* **[!UICONTROL Stopped]**: De campagne is handmatig gestopt. U kunt het niet meer activeren of opnieuw gebruiken. [Meer informatie](modify-stop-campaign.md#stop)
+* **[!UICONTROL Stopped]**: De campagne is handmatig gestopt. U kunt het niet meer activeren of opnieuw gebruiken. [Leer hoe u een campagne kunt stoppen](modify-stop-campaign.md#stop)
 * **[!UICONTROL Completed]**: De campagne is voltooid. Deze status wordt automatisch toegewezen 3 dagen nadat een campagne is geactiveerd, of op de einddatum van de campagne als de campagne een terugkerende uitvoering heeft.
-* **[!UICONTROL Archived]**: De campagne is gearchiveerd.
+* **[!UICONTROL Archived]**: De campagne is gearchiveerd. [Leer campagnes archiveren](modify-stop-campaign.md#archive)
 
 >[!NOTE]
 >

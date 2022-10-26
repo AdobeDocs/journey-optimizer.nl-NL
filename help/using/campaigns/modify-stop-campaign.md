@@ -8,18 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-# Live campagnes beheren {#modify-stop-campaign}
+# Campagnes beheren {#modify-stop-campaign}
 
 Nadat een campagne is geactiveerd, kunt u deze op elk gewenst moment wijzigen of stoppen. Deze bewerkingen zijn alleen beschikbaar voor campagnes met een terugkerende uitvoering.
 
-Bovendien kunt u live campagnes (die één keer of met een terugkerende uitvoering worden uitgevoerd) dupliceren om nieuwe campagnes te maken.
+Daarnaast kunt u live campagnes (die één keer of met een terugkerende uitvoering worden uitgevoerd) dupliceren om nieuwe campagnes te maken en voltooide of gestopt campagnes archiveren.
 
 ## Een terugkerende campagne wijzigen {#modify}
 
@@ -58,3 +58,13 @@ Als u een terugkerende campagne wilt stoppen, opent u deze en klikt u op de knop
 U kunt een live campagne dupliceren om een nieuwe te maken. Om dit te doen, open de campagne, dan klik **[!UICONTROL Duplicate]**.
 
 ![](assets/create-campaign-duplicate.png)
+
+## Een campagne archiveren {#archive}
+
+Met de tijd groeit de lijst met campagnes en wordt het uiteindelijk moeilijker om door voltooide en stopgezette campagnes te bladeren.
+
+Om dit te voorkomen, kunt u voltooide en gestopt campagnes archiveren die u niet meer nodig hebt. Om dit te doen, klik de ellipsknoop dan selecteren **[!UICONTROL Archive]**.
+
+![](assets/create-campaign-archive.png)
+
+Gearchiveerde campagnes kunnen vervolgens worden opgehaald met het speciale filter in de lijst. [Leer hoe u campagnes kunt openen](get-started-with-campaigns.md#access)
