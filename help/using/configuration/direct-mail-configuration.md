@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ef66b30870fabf882bd368294e8a3b388d7ec182
+source-git-commit: 1f6b29d781abc17e238e4a3e051dc61d250b37a0
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -69,7 +69,7 @@ Als u een direct-mailbericht wilt verzenden, moet u een bestand maken en uploade
 
    ![](assets/file-routing-config-sftp-details.png)
 
-1. Als u **[!UICONTROL Amazon S3]**, kunt u het AWS-gebied kiezen waar u uw direct-mailbestanden wilt exporteren en uploaden.
+1. Als u **[!UICONTROL Amazon S3]**, kiest u het AWS-gebied waar u uw bestanden voor directe e-mail wilt exporteren en uploaden.
 
    ![](assets/file-routing-config-aws-region.png)
 
