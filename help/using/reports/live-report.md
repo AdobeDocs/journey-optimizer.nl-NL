@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '987'
 ht-degree: 2%
 
 ---
@@ -228,25 +228,13 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
   <td>Bounces<br/> </td> 
    <td>Aantal personen die niet met de landingspagina in wisselwerking stonden en de actie van het intekenen niet voltooiden.<br/> </td> 
 </tr>
- <tr> 
-   <td>Stuitpercentage<br/> </td> 
-   <td>Aantal personen die niet met de landingspagina in wisselwerking stonden en de actie van het intekenen niet voltooiden.<br/> </td> 
-</tr>
  <tr>
   <tr> 
    <td>Klikken<br/> </td> 
    <td>Aantal keren dat op een inhoud is geklikt op de bestemmingspagina.<br/> </td> 
 </tr>
- <tr> 
-   <td>Klikfrequentie<br/> </td> 
-   <td>Percentage klikken op de bestemmingspagina.<br/> </td>
-</tr>
 <tr>
 <td>Conversie<br/> </td> 
-   <td>Aantal personen dat interactie had met de landingspagina, bijvoorbeeld geabonneerd op een formulier.<br/> </td> 
-</tr>
-<tr>
-   <td>Conversiepercentage<br/> </td> 
    <td>Aantal personen dat interactie had met de landingspagina, bijvoorbeeld geabonneerd op een formulier.<br/> </td> 
 </tr>
  <tr> 
@@ -272,3 +260,77 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
  </tbody> 
 </table>
 
+### Metrische gegevens voor pushmeldingen {#push-notification-metrics}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metrisch<br/> </th> 
+   <th> Definitie<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Acties<br/> </td> 
+   <td> Het totale aantal acties op de geleverde pushmelding, bijvoorbeeld klikken op de knop of ontslag.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Bounces<br/> </td> 
+   <td> Totaal aantal fouten gecumuleerd tijdens levering en automatische terugkeringsverwerking.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Afgeleverd<br/> </td> 
+   <td> Aantal verzonden berichten.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Engages<br/> </td> 
+   <td> Het totale aantal keren dat wordt geopend en de acties voor deze pushmelding, bijvoorbeeld als het profiel de pushmelding heeft geopend of als op een knop is geklikt.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Fouten<br/> </td> 
+   <td> Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Uitgesloten<br/> </td> 
+   <td> Aantal profielen dat door Adobe Journey Optimizer is uitgesloten.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Geopende items<br/> </td> 
+   <td> Het totale aantal pushberichten dat aan het apparaat is geleverd en waarop gebruikers hebben geklikt om de app te openen. Dit is gelijkaardig aan de Duw klikt behalve zal een Duw Open niet teweeggebracht worden als het bericht werd verworpen.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Verzonden<br/> </td> 
+   <td> Het totale aantal verzendt voor de levering.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Gericht<br/> </td> 
+   <td> Het totale aantal pushberichten dat tijdens de leveringsanalyse is verwerkt.<br/> </td> 
+</tr>  
+ </tbody> 
+</table>
+
+<!--
+### In-app metrics {#inapp-metrics}
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metric<br/> </th> 
+   <th> Definition<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Clicks<br/> </td> 
+   <td>Total number of recipients who interacted with the buttons included in the In-app message.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Impressions<br/> </td> 
+   <td> Total number of In-app messages delivered to all users.<br/> </td>
+</tr>
+  <tr> 
+   <td>Unique impressions<br/> </td> 
+   <td>Number of unique users to whom the In-app message was delivered.<br/> </td>
+</tr>
+ </tbody> 
+</table>
+-->

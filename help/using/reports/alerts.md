@@ -7,9 +7,9 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ In het linkermenu, onder **Beheer**, klikt u op **Waarschuwingen**. Er is een vo
 
 ![](assets/alerts1.png)
 
-Als een dergelijk onverwacht gedrag zich voordoet, wordt een waarschuwingsbericht verzonden naar abonnees van de waarschuwing via e-mail en in-app-meldingen, in de rechterbovenhoek van de interface.
+Als een dergelijk onverwacht gedrag zich voordoet, wordt een waarschuwingsbericht verzonden naar abonnees van de waarschuwing via e-mail, in de rechterbovenhoek van de interface.
 
 ![](assets/alerts2.png)
 
