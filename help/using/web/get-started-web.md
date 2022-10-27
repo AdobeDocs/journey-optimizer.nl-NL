@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ Als u al uitgaande kanalen gebruikt, zoals e-mail, SMS of pushberichten, kunt u 
 
 Via een intuïtieve visuele interface kunt u met deze functie eenvoudig uw wegeigenschappen wijzigen om uw campagnes voor eindgebruikers te experimenteren, te optimaliseren en aan te passen.
 
-<!-->
-➡️ [Meer informatie over webkanalen in deze video](#video)
-—>
+<!--
+[Learn more on web channel in this video](#video)
+-->
 
 <table>
 <tr>
@@ -42,10 +42,10 @@ Via een intuïtieve visuele interface kunt u met deze functie eenvoudig uw wegei
 </tr>
 </table>
 
-<!-->
-## Hoe kan ik-video{#video}
+<!--
+## How-to video{#video}
 
-In de onderstaande video ziet u hoe u
+The video below shows how to 
 
 >[!VIDEO]()
 -->
