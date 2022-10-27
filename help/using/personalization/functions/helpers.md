@@ -8,7 +8,7 @@ level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '370'
 ht-degree: 3%
 
 ---
@@ -144,7 +144,8 @@ Some edu specific content Content
 ## Elk{#each}
 
 De `each` helper wordt gebruikt om over een serie te herhalen.
-De syntaxis van de hulplijn is ```{{#each ArrayName}}``` YourContent {{/each}} We kunnen naar de afzonderlijke arrayitems verwijzen met het trefwoord **dit** in het blok. De index van het element van de array kan worden gerenderd met {{@index}}.
+De syntaxis van de hulplijn is ```{{#each ArrayName}}``` YourContent {{/each}}
+We kunnen naar de afzonderlijke arrayitems verwijzen met het trefwoord **dit** in het blok. De index van het element van de array kan worden gerenderd met {{@index}}.
 
 **Syntaxis**
 

@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 2%
@@ -32,7 +32,6 @@ De `countOnlyNull` Deze functie wordt gebruikt om het aantal null-waarden in een
 ```sql
 {%= countOnlyNull([4,0,1,6,0,0]) %}
 ```
-
 Retourneert 3.
 
 ## Tellen met null {#count-with-null}
@@ -70,7 +69,6 @@ Met de volgende bewerking worden personen opgegeven die orders in meer dan één
 ```sql
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
-
 ## Aantal zonder onderscheid met null {#distinct-count-with-null}
 
 De `distinctCountWithNull` Deze functie wordt gebruikt om het aantal verschillende waarden in een lijst te tellen, inclusief de null-waarden.

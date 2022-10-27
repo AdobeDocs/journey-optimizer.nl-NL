@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1222'
 ht-degree: 37%
 
 ---
@@ -59,12 +59,6 @@ ht-degree: 37%
    + [Webpagina&#39;s van auteurs](using/web/author-web.md)
    + [De extensie Visuele bewerkingshulp](using/web/visual-editing-helper.md)
    + [Webrapportage](using/web/web-report.md)
-+ Kanaal in app{#in-app}
-   + [Aan de slag met In-app-kanaal](using/in-app/get-started-in-app.md)
-   + [In-app-kanaal configureren](using/in-app/inapp-configuration.md)
-   + [Een bericht in de app maken](using/in-app/create-in-app.md)
-   + [In-app-inhoud ontwerpen](using/in-app/design-in-app.md)
-   + [Rapport in app](using/in-app/inapp-report.md)
 + Ontwerpcontent {#design}
    + [Aan de slag met e-mailontwerp](using/design/design-emails.md)
    + [Opnieuw starten ](using/design/create-email-content.md)
@@ -317,7 +311,7 @@ ht-degree: 37%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
+         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
@@ -423,7 +417,7 @@ ht-degree: 37%
    + Landingspagina’s configureren {#lp-configuration}
       + [Subdomeinen van bestemmingspagina configureren](using/configuration/lp-subdomains.md)
       + [Voorinstellingen voor openingspagina definiëren](using/configuration/lp-presets.md)
-   + Journey&#39;s configureren {#configure-journeys}
+   + Reizen configureren {#configure-journeys}
       + [Informatie over gegevensbronnen, gebeurtenissen en handelingen](using/configuration/about-data-sources-events-actions.md)
       + [Integreren met externe systemen](using/configuration/external-systems.md)
       + Configuratie van gebeurtenissen {#events-journeys}

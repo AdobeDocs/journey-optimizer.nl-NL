@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Let op: **[!UICONTROL Roles]**, **[!UICONTROL Policies]** en **[!UICONTROL Produ
 >Voordat u machtigingen voor een rol beheert, moet u eerst een beleid maken. Raadpleeg voor meer informatie hierover [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html).
 
 **[!UICONTROL Roles]** Dit zijn een reeks gebruikers die dezelfde machtigingen, labels en sandboxen binnen uw organisatie hebben. Elke gebruiker die tot een **[!UICONTROL Role]** heeft recht op de Adobe-apps en -services in het product.
-U kunt ook uw eigen **[!UICONTROL Roles]** als u de toegang van uw gebruikers tot bepaalde functies of voorwerpen in de interface wilt verfijnen.
+U kunt ook uw eigen **[!UICONTROL Roles]** als u de toegang van uw gebruikers tot bepaalde functies of objecten in de interface wilt verfijnen.
 
 We willen geselecteerde gebruikers nu toegang geven tot de **Nationaliteit** veld, met het label C2. Daartoe moeten we een nieuwe **[!UICONTROL Role]** met een specifieke reeks gebruikers en hun het label C2 geven waarmee zij de **Nationaliteit** details in een **[!UICONTROL Journey]**.
 
@@ -127,7 +127,7 @@ Voor ons voorbeeld zal een eerste gebruiker X met toegang tot voorwerpen geëtik
 
    ![](assets/journey_1.png)
 
-1. Een nieuwe toevoegen **[!UICONTROL Field group]** van uw nieuwe **[!UICONTROL Schema]** op de ingebouwde **[!UICONTROL Data source]**. U kunt ook een nieuwe externe **[!UICONTROL data source]** en bijbehorende **[!UICONTROL Field groups]**.
+1. Een nieuwe toevoegen **[!UICONTROL Field group]** van uw nieuwe **[!UICONTROL Schema]** op de ingebouwde **[!UICONTROL Data source]**. U kunt ook een nieuwe externe **[!UICONTROLDgegevensbron]** en bijbehorende **[!UICONTROL Field groups]**.
 
    ![](assets/journey_2.png)
 

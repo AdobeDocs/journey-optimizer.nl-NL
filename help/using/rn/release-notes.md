@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0433e312db84ee16a076c183a82345de372c6ae7
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1101'
 ht-degree: 9%
 
 ---
@@ -27,10 +27,6 @@ Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor [
 **Journeys**
 
 * De **Herkomst forceren bij herhaling** Deze optie is toegevoegd in terugkerende parameters van het read-segment. Met deze optie kunt u alle profielen die zich nog in de reis bevinden, automatisch laten afsluiten bij de volgende uitvoering. Wanneer de optie is gedeactiveerd, moeten profielen de reis beëindigen alvorens zij in een ander voorkomen kunnen opnieuw ingaan. [Meer informatie](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
-
-**Campagnes**
-
-* U kunt voltooide en gestopt campagnes nu archiveren. [Meer informatie](../campaigns/modify-stop-campaign.md#archive)
 
 ## Release september 2022{#sept-2022-release}
 

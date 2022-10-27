@@ -11,15 +11,15 @@ exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Een reis naar een andere sandbox kopiëren {#copy-to-sandbox}
+# Een journey naar een andere sandbox kopiëren {#copy-to-sandbox}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
->title="Een reis naar een andere sandbox kopiëren"
+>title="Een journey naar een andere sandbox kopiëren"
 >abstract="Met Journey Optimizer kunt u een volledige reis van de ene naar de andere sandbox kopiëren. U kunt bijvoorbeeld een reis kopiëren van de zandbakomgeving van het werkgebied naar uw productiefandbox. Naast de Reis zelf kopieert Journey Optimizer ook de meeste objecten waarvan de reis afhankelijk is."
 
 >[!CONTEXTUALHELP]

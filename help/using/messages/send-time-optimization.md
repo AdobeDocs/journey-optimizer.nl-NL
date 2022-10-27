@@ -8,21 +8,21 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
 
 ---
 
-# Send-Time optimalisatie{#send-time-optimization}
+## Send-Time optimalisatie{#send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
 >title="Optimalisatie Verzonden tijd"
->abstract="Met de functie Verzenden via Adobe Journey Optimizer, aangedreven door de AI-services voor optimalisatie van de Adobe, kunt u het beste tijdstip voorspellen waarop een e-mail- of pushbericht wordt verzonden om de betrokkenheid te maximaliseren op basis van een open historie en klikfrequentie."
+>abstract="De functie voor Send-Time optimalisatie van Adobe Journey Optimizer, aangedreven door de AI-services van Adobe, kan de beste tijd voorspellen voor het verzenden van een e-mail- of pushbericht om de betrokkenheid te maximaliseren op basis van de historische open en kliksnelheden."
 
-Met de functie Verzenden via Adobe Journey Optimizer, aangedreven door de AI-services voor optimalisatie van de Adobe, kunt u het beste tijdstip voorspellen waarop een e-mail- of pushbericht wordt verzonden om de betrokkenheid te maximaliseren op basis van een open historie en klikfrequentie. Gebruik ons machine-leert model om gepersonaliseerde verzendtijden voor elke gebruiker te plannen om open te groeien en tarieven van uw berichten te klikken.
+De functie voor Send-Time optimalisatie van Adobe Journey Optimizer, aangedreven door de AI-services van Adobe, kan de beste tijd voorspellen voor het verzenden van een e-mail- of pushbericht om de betrokkenheid te maximaliseren op basis van de historische open en kliksnelheden. Gebruik ons machine-leert model om gepersonaliseerde verzendtijden voor elke gebruiker te plannen om open te groeien en tarieven van uw berichten te klikken.
 
 Het model van de Optimalisering van de Send-Time neemt uw gegevens van Adobe Journey Optimizer op en kijkt open (voor e-mail en duw) op gebruikersniveau en klikt (voor e-mail) tarieven om te bepalen wanneer uw klanten het meest waarschijnlijk met uw overseinen in dienst zullen nemen. De optimalisering van de Send-Tijd vereist een minimum van één maand van bericht-volgende gegevens om geïnformeerde aanbevelingen te doen. Voor elke gebruiker kiest het systeem automatisch de beste tijd met behulp van de volgende scores:
 
@@ -41,7 +41,7 @@ Deze informatie wordt opgeslagen met het profiel van de gebruiker en wordt bij d
 >
 >Deze functie is niet compatibel met de burst-modus.
 
-## Send-Time optimaliseren activeren{#activate-send-time-optimization}
+### Send-Time optimaliseren activeren{#activate-send-time-optimization}
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"

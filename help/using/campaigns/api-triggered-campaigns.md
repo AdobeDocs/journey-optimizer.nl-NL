@@ -4,7 +4,7 @@ product: journey optimizer
 title: Campagnes activeren met API's
 description: Leer hoe u campagnes kunt activeren met [!DNL Journey Optimizer] API's
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -76,7 +76,6 @@ De `{{context.<contextualAttribute>}}` syntaxis wordt alleen toegewezen aan een 
 >[!IMPORTANT]
 >
 >De `context.system` syntaxis is beperkt tot Adobe intern gebruik en mag niet worden gebruikt om contextuele kenmerken door te geven.
-
 Let op: voorlopig is er geen contextueel kenmerk beschikbaar voor gebruik in het menu Linkerspoor. De attributen moeten direct in uw verpersoonlijkingsuitdrukking worden getypt, zonder controle die door wordt uitgevoerd [!DNL Journey Optimizer].
 
 ## De campagne uitvoeren {#execute}

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: d94f0690629f924245d7a672ecf81decd0724861
+source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '952'
+ht-degree: 4%
 
 ---
 
@@ -40,9 +40,7 @@ Webpagina&#39;s openen en ontwerpen in het dialoogvenster [!DNL Journey Optimize
 
 De webervaring kan alleen correct worden geleverd als de volgende instellingen zijn gedefinieerd:
 
-* In de [Adobe Experience Platform-gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target=&quot;_blank&quot;}, controleert u of er een gegevensstroom is gedefinieerd, bijvoorbeeld onder de **[!UICONTROL Adobe Experience Platform]** de dienst u zowel heeft **[!UICONTROL Edge Segmentation]** en **[!UICONTROL Adobe Journey Optimizer]** opties ingeschakeld.
-
-   Dit zorgt ervoor dat de inkomende Journey Optimizer-gebeurtenissen correct worden afgehandeld door de Adobe Experience Platform Edge. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target=&quot;_blank&quot;}
+* In de [Adobe Experience Platform-gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target=&quot;_blank&quot;}, controleert u of er een gegevensstroom is gedefinieerd, bijvoorbeeld onder de **[!UICONTROL Adobe Experience Platform]** de dienst u zowel heeft **[!UICONTROL Edge Segmentation]** en **[!UICONTROL Adobe Journey Optimizer]** opties ingeschakeld. Dit zorgt ervoor dat de inkomende Journey Optimizer-gebeurtenissen correct worden afgehandeld door de Adobe Experience Platform Edge. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target=&quot;_blank&quot;}
 
    ![](assets/web-aep-datastream-ajo.png)
 
@@ -51,8 +49,6 @@ De webervaring kan alleen correct worden geleverd als de volgende instellingen z
    >De **[!UICONTROL Adobe Journey Optimizer]** Deze optie kan alleen worden ingeschakeld wanneer de **[!UICONTROL Edge Segmentation]** is al ingeschakeld.
 
 * In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target=&quot;_blank&quot;}, zorg ervoor dat u één samenvoegbeleid hebt met de **[!UICONTROL Active-On-Edge Merge Policy]** optie ingeschakeld. Selecteer hiertoe een beleid in het dialoogvenster **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Menu Experience Platform. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target=&quot;_blank&quot;}
-
-   Dit samenvoegbeleid wordt gebruikt door [!DNL Journey Optimizer] binnenkomende kanalen om binnenkomende campagnes op de rand correct te activeren en te publiceren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target=&quot;_blank&quot;}
 
    ![](assets/web-aep-merge-policy.png)
 

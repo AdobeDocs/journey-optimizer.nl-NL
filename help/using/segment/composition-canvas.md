@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ De **[!UICONTROL Rank]** De activiteit staat u toe om profielen te rangschikken 
 
 1. Selecteer het kenmerk dat u wilt opzoeken en geef een rangschikking op (oplopend of aflopend).
 
-   >[!NOTE]
+   >[OPMERKING]
    >
    >U kunt kenmerken selecteren met de volgende gegevenstypen: integer, numbers, short <!--(other?)-->
 

@@ -1,13 +1,13 @@
 ---
 title: Stappen voor migratie naar inlineontwerpen
 description: Stappen voor migratie naar inlineontwerpen
-source-git-commit: f98ef26fa9c6075c852d33d19c796351296a3f94
+exl-id: 8412a0bd-674c-4d6a-aa5b-443655d2943a
+source-git-commit: 1ab038e8b2f0582ad947400c7d070a70e1a84b9b
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 1%
 
 ---
-
 
 # Inline ontwerpmigratiestappen{#migration-steps}
 
@@ -190,4 +190,3 @@ Als u geen nieuwere reisversies hebt gepubliceerd (zie deze [sectie](../rn/inlin
 ## Voor de derde en laatste herhaling (5 september){#migration-step-4}
 
 Tussen 1 augustus en 5 september moet u controleren of alles is gemigreerd en dat er geen reizen meer zijn die nog steeds berichten gebruiken, anders worden ze op 5 september afgekeurd.
-
