@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 ---
 
 
-# Berichten toevoegen aan campagnes{#messages-in- campaigns}
+# Berichten toevoegen aan campagnes{#messages-in-campaigns}
 
 In uw campagnes, selecteer het kanaal om het bericht te ontwerpen en te personaliseren u naar uw publiek wilt verzenden. Wanneer u een e-mail, een SMS-bericht of een pushbericht aan uw campagne toevoegt, kunt u deze direct verzenden of het bericht plannen.
 

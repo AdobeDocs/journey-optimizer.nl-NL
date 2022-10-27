@@ -7,9 +7,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 74f24c4ccdecd5afe52706e1ecb2d323c3200152
+source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '543'
 ht-degree: 3%
 
 ---
@@ -52,7 +52,7 @@ Voer de onderstaande stappen uit om een bericht in de app te maken:
    1. Selecteer in de linkervervolgkeuzelijst de gebeurtenis die nodig is om het bericht te activeren.
    1. Selecteer in de rechtervervolgkeuzelijst de vereiste validatie voor de geselecteerde gebeurtenis.
    1. Klik op de knop **[!UICONTROL Add]** als u wilt dat de trigger rekening houdt met meerdere gebeurtenissen of criteria. Herhaal vervolgens de bovenstaande stappen.
-   1. Selecteer hoe uw gebeurtenissen worden gekoppeld, bijvoorbeeld **[!UICONTROL And]** als u **beide** triggers moeten waar zijn om een bericht te kunnen weergeven en **[!UICONTROL Or]** als u wilt dat het bericht wordt getoond als **ofwel** van de triggers zijn waar.
+   1. Selecteer hoe uw gebeurtenissen worden gekoppeld. Kies bijvoorbeeld **[!UICONTROL And]** als u **beide** triggers moeten waar zijn om een bericht weer te geven of **[!UICONTROL Or]** als u wilt dat het bericht wordt getoond als **ofwel** van de triggers zijn waar.
 
    ![](assets/in_app_create_3.png)
 
