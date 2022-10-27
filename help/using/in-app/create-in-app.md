@@ -7,10 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+source-git-commit: 74f24c4ccdecd5afe52706e1ecb2d323c3200152
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 4%
+source-wordcount: '541'
+ht-degree: 3%
 
 ---
 
@@ -43,9 +43,18 @@ Voer de onderstaande stappen uit om een bericht in de app te maken:
 
 1. Kies de frequentie van de trigger wanneer het bericht in de app actief is:
 
-   * **[!UICONTROL Show every time]**
-   * **[!UICONTROL Show once]**
-   * **[!UICONTROL Show until click through]**
+   * **[!UICONTROL Show every time]**: Toon altijd het bericht wanneer de gebeurtenissen die in **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
+   * **[!UICONTROL Show once]**: Alleen dit bericht weergeven als de gebeurtenissen die voor de eerste keer zijn geselecteerd in het dialoogvenster **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
+   * **[!UICONTROL Show until click through]**: Dit bericht weergeven wanneer de gebeurtenissen zijn geselecteerd in het dialoogvenster **[!UICONTROL Mobile app trigger]** drop-down komt voor tot een interactie gebeurtenis door SDK met een actie van &quot;geklikt&quot;wordt verzonden.
+
+1. Van de **[!UICONTROL Mobile app trigger]** -dropdown(s), kies de gebeurtenis(sen) en de criteria die uw bericht zullen activeren:
+
+   1. Selecteer in de linkervervolgkeuzelijst de gebeurtenis die nodig is om het bericht te activeren.
+   1. Selecteer in de rechtervervolgkeuzelijst de vereiste validatie voor de geselecteerde gebeurtenis.
+   1. Klik op de knop **[!UICONTROL Add]** als u wilt dat de trigger rekening houdt met meerdere gebeurtenissen of criteria. Herhaal vervolgens de bovenstaande stappen.
+   1. Selecteer hoe uw gebeurtenissen worden gekoppeld, bijvoorbeeld **[!UICONTROL And]** als u **beide** triggers moeten waar zijn om een bericht te kunnen weergeven en **[!UICONTROL Or]** als u wilt dat het bericht wordt getoond als **ofwel** van de triggers zijn waar.
+
+   ![](assets/in_app_create_3.png)
 
 1. Kies de gebeurtenis die het bericht activeert in het menu **[!UICONTROL Mobile app trigger]**
 vervolgkeuzelijst.
