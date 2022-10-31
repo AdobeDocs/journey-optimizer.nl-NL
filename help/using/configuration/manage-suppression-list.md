@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 0c5a4291cdd46572faf2ab10c1c06987e4073b54
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1239'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Met [!DNL Journey Optimizer], kunt u alle e-mailadressen controleren die automat
 
 >[!NOTE]
 >
->De onderdrukkingslijst wordt uitgevoerd op sandboxniveau.
+>De suppressielijst wordt beheerd op sandboxniveau.
 
 Dergelijke e-mailadressen worden automatisch verzameld in de Journey Optimizer **onderdrukkingslijst**. Meer informatie over het concept en het gebruik van de suppressielijst in [deze sectie](../reports/suppression-list.md).
 
@@ -90,7 +90,7 @@ Voer de onderstaande stappen uit om de lijst met onderdrukking als een CSV-besta
 
    >[!NOTE]
    >
-   >De downloadtijd is afhankelijk van de bestandsgrootte. Dit betekent het aantal e-mailadressen in de lijst met onderdrukking.
+   >De downloadtijd is afhankelijk van de bestandsgrootte. Dit houdt in dat het aantal adressen in de lijst met downloads wordt weergegeven.
    >
    >Voor een bepaalde sandbox kan één downloadverzoek tegelijkertijd worden verwerkt.
 
