@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1686'
 ht-degree: 5%
 
 ---
@@ -34,6 +34,8 @@ U kunt een subdomein volledig delegeren, of een subdomein tot stand brengen gebr
 >[!CAUTION]
 >
 >De volledige subdomeindelegatie is de geadviseerde methode. Meer informatie over de verschillen tussen beide [subdomeinconfiguratiemethoden](about-subdomain-delegation.md#subdomain-delegation-methods).
+>
+>Subdomeinconfiguratie is algemeen voor alle omgevingen. Daarom zal elke wijziging aan een subdomein ook invloed hebben op de productiesandboxen.
 
 ## Volledige subdomeindelegatie {#full-subdomain-delegation}
 
@@ -67,6 +69,8 @@ Volg de onderstaande stappen om een nieuw subdomein volledig te delegeren aan Ad
    >
    >Subdomeinen van meerdere niveaus, zoals email.marketing.yourcompany.com, worden momenteel niet ondersteund.
 
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
+
 1. De lijst van records die in uw DNS-serverweergaven moeten worden geplaatst. Kopieer deze records één voor één of download een CSV-bestand en navigeer vervolgens naar uw domeinhostingoplossing om de overeenkomende DNS-records te genereren.
 
 1. Zorg ervoor dat alle DNS verslagen in uw domein het ontvangen oplossing zijn geproduceerd. Als alles behoorlijk wordt gevormd, controleer de doos &quot;ik bevestig...&quot;, dan klik **[!UICONTROL Submit]**.
@@ -92,8 +96,6 @@ Volg de onderstaande stappen om een nieuw subdomein volledig te delegeren aan Ad
    >[!NOTE]
    >
    >Het subdomein wordt gemarkeerd als **[!UICONTROL Failed]** als u er niet in slaagt de validatierecord voor uw hostoplossing te maken.
-
-   <!-- later on, users will be notified in Pulse -->
 
 Zodra een subdomein aan Adobe binnen wordt gedelegeerd [!DNL Journey Optimizer], wordt automatisch een PTR-record gemaakt en gekoppeld aan dit subdomein. [Meer informatie](ptr-records.md)
 
@@ -133,6 +135,8 @@ Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volge
    >Het delegeren van een ongeldig subdomein aan Adobe is niet toegestaan. Zorg ervoor u een geldig subdomein ingaat dat door uw organisatie, zoals marketing.yourcompany.com wordt bezeten.
    >
    >Subdomeinen van meerdere niveaus, zoals email.marketing.yourcompany.com, worden momenteel niet ondersteund.
+
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
 1. De lijst van records die in uw DNS-serverweergaven moeten worden geplaatst. Kopieer deze records één voor één of download een CSV-bestand en navigeer vervolgens naar uw domeinhostingoplossing om de overeenkomende DNS-records te genereren.
 

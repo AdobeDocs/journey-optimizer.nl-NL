@@ -6,9 +6,9 @@ description: Leer hoe u subdomeinen van landingspagina's configureert met Journe
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,12 @@ ht-degree: 0%
 Om in staat te zijn [voorinstellingen voor openingspagina&#39;s maken](lp-presets.md), moet u de subdomeinen instellen die u voor de bestemmingspagina&#39;s wilt gebruiken.
 
 U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of u kunt een ander subdomein vormen. Meer informatie over het delegeren van subdomeinen naar Adobe in [deze sectie](delegate-subdomain.md).
+
+>[!CAUTION]
+>
+>Subdomeinconfiguratie van de bestemmingspagina is gemeenschappelijk voor alle milieu&#39;s. Daarom zal elke wijziging in een subdomein van een bestemmingspagina ook invloed hebben op de productiesandboxen.
+
+Hoofdletters zijn niet toegestaan in een subdomein
 
 ## Een bestaand subdomein gebruiken {#lp-use-existing-subdomain}
 
@@ -63,6 +69,8 @@ Voer de onderstaande stappen uit om een subdomein te gebruiken dat al is gedeleg
    >[!NOTE]
    >
    >U kunt geen subdomein selecteren dat al wordt gebruikt als subdomein van de bestemmingspagina.
+
+   <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
    ![](assets/lp_prefix-and-subdomain.png)
 
@@ -106,6 +114,8 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
    >[!CAUTION]
    >
    >U kunt geen bestaand subdomein van een bestemmingspagina gebruiken.
+   >
+   >Hoofdletters zijn niet toegestaan in subdomeinen.
 
    Het delegeren van een ongeldig subdomein aan Adobe is niet toegestaan. Zorg ervoor u een geldig subdomein ingaat dat door uw organisatie, zoals marketing.yourcompany.com wordt bezeten.
 

@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2126'
 ht-degree: 18%
 
 ---
@@ -21,6 +21,8 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De gevallenge van het reisgebruik is gereorganiseerd in twee categorieën: [Kwesties voor zakelijk gebruik](../building-journeys/journeys-uc.md) en [Kwesties van technisch gebruik](../building-journeys/collections.md).
 * De **Entiteitsgegevens** is bijgewerkt met meer details. [Meer informatie](../start/datasets-query-examples.md#entity-dataset)
 * De informatie over het beleid inzake opt-out-beheer en toestemmingen is in een nieuw hoofdstuk ondergebracht. [Meer informatie](../privacy/opt-out.md)
+* De sectie over geavanceerde parameters in reisberichten is verduidelijkt en specificeert nu dat de e-mailadresopheffing slechts voor specifieke gebruiksgevallen zou moeten worden gebruikt. Meestal wordt de waarde gedefinieerd als het primaire adres in de **Uitvoervelden** Dat is de methode die moet worden gebruikt. [Meer informatie](../messages/messages-in-journeys.md#adv-settings)
+* Een notitie toegevoegd aan de **Subdomeinen van bestemmingspagina configureren** -sectie om aan te geven dat hoofdletters niet zijn toegestaan in subdomeinen van de landingspagina. [Meer informatie](../configuration/lp-subdomains.md)
 
 ## September 2022 {#september-2022}
 

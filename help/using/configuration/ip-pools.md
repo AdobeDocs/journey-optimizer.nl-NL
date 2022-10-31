@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"
 >title="Een IP-pool instellen"
->abstract="U kunt IP pools tot stand brengen om de IP adressen van uw subdomeinen voor betere e-mailleverbaarheid samen te groeperen."
+>abstract="IP de pools verzamelen de IP adressen van uw subdomeinen voor betere e-mailleverbaarheid."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool"
@@ -34,6 +34,10 @@ Met [!DNL Journey Optimizer], kunt u IP pools tot stand brengen om de IP adresse
 Het maken van IP-pools wordt ten zeerste aanbevolen voor e-maillevering. Door dit te doen, kunt u de reputatie van subdomain verhinderen uw andere subdomeinen te beïnvloeden.
 
 Bijvoorbeeld, moet één beste praktijk één IP pool voor uw marketing berichten, en een andere voor uw transactionele berichten hebben. Op deze manier, als een van uw marketingberichten slecht presteert en door een klant als spam wordt gedeclareerd, heeft dit geen invloed op de transactieberichten die naar dezelfde klant worden verzonden, die nog steeds transactionele berichten (aanschafbevestigingen, wachtwoordherstelberichten, enz.) zal ontvangen.
+
+>[!CAUTION]
+>
+>IP de poolconfiguratie is gemeenschappelijk voor alle milieu&#39;s. Daarom zal om het even welke IP groepsverwezenlijking of uitgave ook de productie zandbakken beïnvloeden.
 
 ## Een IP-pool maken {#create-ip-pool}
 
@@ -63,7 +67,7 @@ De IP pool wordt nu gecreeerd en toont in de lijst. U kunt deze selecteren om to
 
 ## Een IP-pool bewerken {#edit-ip-pool}
 
-Om een IP pool uit te geven:
+Volg onderstaande stappen om een IP-pool te bewerken.
 
 1. Klik in de lijst op de naam van de IP-pool om deze te openen.
 

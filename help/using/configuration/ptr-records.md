@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,9 @@ U kunt een PTR-record wijzigen om het subdomein te bewerken dat aan een IP-adres
 
 >[!CAUTION]
 >
->Ga voorzichtig verder met het bewerken van PTR-records. Neem in geval van twijfel contact op met een leverancier.<!--why?-->
-
->[!NOTE]
+>PTR-records worden in alle omgevingen gebruikt. Daarom zal elke wijziging van een PTR-record ook gevolgen hebben voor de productie-sandboxen.
 >
->U kunt de **[!UICONTROL IP]** en **[!UICONTROL PTR record]** velden.
+>Ga voorzichtig verder met het bewerken van PTR-records. Neem in geval van twijfel contact op met een leverancier.
 
 ### Volledig gedelegeerde subdomeinen {#fully-delegated-subdomains}
 
@@ -67,6 +65,10 @@ Een PTR-record bewerken met een subdomein dat [volledig gedelegeerd](delegate-su
    ![](assets/ptr-record-subdomain.png)
 
 1. Klikken **[!UICONTROL Save]** om uw wijzigingen te bevestigen.
+
+>[!NOTE]
+>
+>U kunt de **[!UICONTROL IP]** en **[!UICONTROL PTR record]** velden.
 
 ### Gedelegeerde subdomeinen die de methode CNAME gebruiken {#edit-ptr-subdomains-cname}
 
@@ -92,6 +94,10 @@ Als u een PTR-record wilt bewerken met een subdomein dat is gedelegeerd aan Adob
 
 
 1. Klikken **[!UICONTROL Save]** om uw wijzigingen te bevestigen.
+
+>[!NOTE]
+>
+>U kunt de **[!UICONTROL IP]** en **[!UICONTROL PTR record]** velden.
 
 ## Details van PTR-recordupdate controleren {#check-ptr-record-update}
 

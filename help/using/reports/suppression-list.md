@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '768'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Een suppressielijst bestaat uit e-mailadressen die u van uw leveringen wilt uitsluiten, omdat het verzenden naar deze contacten uw verzendende reputatie en leveringspercentages zou kunnen beschadigen.
 
-De [!DNL Journey Optimizer] de suppressielijst wordt beheerd op uw eigen milieuniveau.
+De [!DNL Journey Optimizer] de suppressielijst wordt beheerd op uw eigen milieuniveau, d.w.z. voor een bepaalde zandbak.
 
 Het verzamelt e-mailadressen en domeinen die over alle post in één enkele cliëntmilieu worden onderdrukt, betekenend specifiek voor een organisatie ID verbonden aan een zandbak identiteitskaart
 

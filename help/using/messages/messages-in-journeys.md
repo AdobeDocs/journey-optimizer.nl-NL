@@ -7,9 +7,9 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Gebruiken **[!UICONTROL Send-time optimization]** om gepersonaliseerd te plannen
 
 Geavanceerde parameters zijn standaard alleen-lezen en verborgen.
 
-Klik op de knop **[!UICONTROL Show read-only fields]** boven aan het berichtvenster.
+Klik op de knop **[!UICONTROL Show read-only fields]** boven aan het berichtvenster. Klik op hetzelfde pictogram om geavanceerde instellingen te verbergen.
 
 ![](assets/show-read-only.png)
 
@@ -93,14 +93,20 @@ Voor pushberichten kunt u de volgende parameters weergeven: Token, AppID, AppPla
 
 ![](assets/push-adv-parameters.png)
 
-Voor e-mail kunt u het primaire e-mailadres weergeven.
+Voor e-mail kunt u de [primair e-mailadres](../configuration/primary-email-addresses.md).
 
-Voor specifiek gebruik, kunt u deze waarden in specifieke contexten met voeten treden. Als u een waarde wilt afdwingen, klikt u op de knop **Parameteroverschrijving inschakelen** rechts van het veld. Deze optie is bijvoorbeeld handig voor:
+In specifieke contexten kunt u deze waarden overschrijven voor specifiek gebruik. Als u een waarde wilt afdwingen, klikt u op de knop **[!UICONTROL Enable parameter override]** rechts van het veld.
 
-* Test een e-mailadres. U kunt uw e-mailadres toevoegen. Nadat u de reis hebt gepubliceerd, wordt het e-mailbericht naar u verzonden.
+![](assets/email-adv-parameters.png)
+
+Deze optie is bijvoorbeeld handig voor:
+
+* Test een e-mailbericht. U kunt uw e-mailadres toevoegen. nadat u de reis hebt gepubliceerd, wordt het e-mailbericht naar u verzonden.
 * Raadpleeg het e-mailadres van de abonnees van een lijst. Meer informatie in [dit geval gebruiken](../building-journeys/message-to-subscribers-uc.md).
 
-Klik op hetzelfde pictogram om geavanceerde instellingen te verbergen.
+>[!NOTE]
+>
+>Overschrijven van e-mailadressen mag alleen worden gebruikt voor specifieke gebruiksgevallen. Meestal hoeft u het e-mailadres niet te wijzigen omdat de waarde die in het dialoogvenster **[!UICONTROL Execution fields]** Dat is de methode die moet worden gebruikt. [Meer informatie](../configuration/primary-email-addresses.md)
 
 ## Bladeren door berichten{#browse-message}
 
