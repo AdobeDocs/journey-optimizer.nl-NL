@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
+source-git-commit: ab2956ab1dc3dfdf2ff67c3b6bcb1e3090d34ee3
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '568'
 ht-degree: 2%
 
 ---
@@ -32,27 +32,38 @@ Ontwerp multistep geavanceerde scenario&#39;s aangedreven door de volgende mogel
 
 ## Stappen om een reis te maken{#steps-journey}
 
-Adobe Journey Optimizer bevat een omnichannel orchestration canvas dat marketers in staat stelt marketingactiviteiten te harmoniseren met een-op-een-klantenservice. Met de gebruikersinterface kunt u activiteiten van het palet naar het canvas slepen om uw reis te maken. U kunt ook op een activiteit dubbelklikken om deze in het canvas toe te voegen, bij de volgende beschikbare stap.
+Met Adobe Journey Optimizer kunt u persoonlijke reizen van één canvas ontwerpen en ordenen.
+
+Adobe Journey Optimizer bevat een omnichannel orchestration canvas dat marketers in staat stelt marketingactiviteiten te harmoniseren met een-op-een-klantenservice. Met de gebruikersinterface kunt u activiteiten van het palet naar het canvas slepen om uw reis te maken.
+
+![](assets/interface-journeys.png)
 
 Leer hoe u begint en uw eerste reis maakt in [deze pagina](journey-gs.md).
 
-Leer hoe u de ontwerper van de reis gebruikt en activiteiten combineert om krachtige omnichannel reizen in [deze sectie](using-the-journey-designer.md).
+De omnichannel reisontwerper helpt u multi-step reizen met gericht publiek, updates bouwen die op klanten of bedrijfsinteractie in real time worden gebaseerd, en omnichannel berichten gebruikend een intuïtieve belemmering-en-dalingsinterface.
 
-Als gegevensingenieur, leer hoe te om uw reizen, met inbegrip van Gegevensbronnen, Gebeurtenissen en Acties te vormen binnen [deze sectie](../configuration/about-data-sources-events-actions.md).
+![](assets/journey38.png)
+
+Meer informatie in [deze sectie](using-the-journey-designer.md).
+
+Als gegevensingenieur, zijn de stappen om uw reizen te vormen, met inbegrip van Gegevensbronnen, Gebeurtenissen en Acties gedetailleerd in [deze sectie](../configuration/about-data-sources-events-actions.md).
 
 
 ## Gebruiksscenario’s{#uc-journey}
 
-Ontdek de volgende gebruiksgevallen van begin tot eind om te gebruiken
-* Kwesties voor zakelijk gebruik
-   * [Multikanaalberichten verzenden](journeys-uc.md)
-   * [Een bericht verzenden met Campagne v7/v8](campaign-classic-use-case.md)
-   * [Een bericht verzenden naar abonnees](message-to-subscribers-uc.md)
+Leer hoe u reizen kunt maken in de volgende gebruiksgevallen van begin tot eind.
 
-* Kwesties van technisch gebruik
-   * [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](collections.md)
-   * [Leveringen opwaarderen](ramp-up-deliveries-uc.md)
-   * [Productie beperken met externe gegevensbronnen en aangepaste handelingen](limit-throughput.md)
+Kwesties voor zakelijk gebruik:
+
+* [Multikanaalberichten verzenden](journeys-uc.md)
+* [Een bericht verzenden met Campagne v7/v8](campaign-classic-use-case.md)
+* [Een bericht verzenden naar abonnees](message-to-subscribers-uc.md)
+
+Gevallen van technisch gebruik:
+
+* [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](collections.md)
+* [Leveringen opwaarderen](ramp-up-deliveries-uc.md)
+* [Productie beperken met externe gegevensbronnen en aangepaste handelingen](limit-throughput.md)
 
 ## Journeyversies{#journey-versions}
 
