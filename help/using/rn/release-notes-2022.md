@@ -4,7 +4,7 @@ product: journey optimizer
 title: Release-aantekeningen 2022
 description: Opmerkingen bij de release van Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
 workflow-type: tm+mt
 source-wordcount: '3461'
 ht-degree: 9%
@@ -347,7 +347,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 
 **Reizen**
 
-* **Een reis beëindigen** - Op het canvas **Einde** activiteit is verwijderd uit het palet. Eindtags worden nu standaard aan het einde van elk pad toegevoegd en kunnen niet worden verwijderd. Dankzij deze verbetering kan beter worden aangegeven waar een klant de reis heeft verlaten, zonder dat de reisdeskundige enige actie hoeft te ondernemen. Zie de [documentatie](../building-journeys/journey.md#journey-ending) en [functievideo](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
+* **Een reis beëindigen** - Op het canvas **Einde** activiteit is verwijderd uit het palet. Eindtags worden nu standaard aan het einde van elk pad toegevoegd en kunnen niet worden verwijderd. Dankzij deze verbetering kan beter worden aangegeven waar een klant de reis heeft verlaten, zonder dat de reisdeskundige enige actie hoeft te ondernemen. Zie de [documentatie](../building-journeys/end-journey.md) en [functievideo](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
 
 
 * De **Tijdzone van profiel** Deze optie is nu standaard uitgeschakeld in reiseigenschappen. [Meer informatie](../building-journeys/timezone-management.md#timezone-from-profiles)

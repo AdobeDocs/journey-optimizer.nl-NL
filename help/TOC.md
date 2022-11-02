@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1253'
 ht-degree: 37%
 
 ---
@@ -38,7 +38,10 @@ ht-degree: 37%
       + [Uw journey ontwerpen](using/building-journeys/using-the-journey-designer.md)
       + [Uw reis testen](using/building-journeys/testing-the-journey.md)
       + [Uw reis publiceren](using/building-journeys/publishing-the-journey.md)
+   + Uw reizen beheren{#mannage-journey}
+      + [Beëindig uw reis](using/building-journeys/end-journey.md)
       + [Tijdzonebeheer](using/building-journeys/timezone-management.md)
+      + [Profielbeheer](using/building-journeys/entry-management.md)
       + [Een journey naar een andere sandbox kopiëren](using/building-journeys/copy-to-sandbox.md)
       + [Los uw reis problemen op](using/building-journeys/troubleshooting.md)
       + [Integreren met intelligente services](using/building-journeys/ai-services-overview.md)
@@ -144,6 +147,14 @@ ht-degree: 37%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + Gebruiksscenario’s {#journey-use-cases}
+      + Kwesties voor zakelijk gebruik {#business-use-cases}
+         + [Multikanaalberichten verzenden](using/building-journeys/journeys-uc.md)
+         + [Een bericht verzenden met Campagne v7/v8](using/building-journeys/campaign-classic-use-case.md)
+         + [Een bericht verzenden naar abonnees](using/building-journeys/message-to-subscribers-uc.md)
+      + Kwesties van technisch gebruik {#technical-use-cases}
+         + [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](using/building-journeys/collections.md)
+         + [Leveringen opwaarderen](using/building-journeys/ramp-up-deliveries-uc.md)
+         + [Productie beperken met externe gegevensbronnen en aangepaste handelingen](using/building-journeys/limit-throughput.md)
 + Campagnes{#campaigns}
    + [Aan de slag met campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Een campagne maken](using/campaigns/create-campaign.md)
@@ -252,14 +263,6 @@ ht-degree: 37%
       + [Samenstellingswerkstromen maken](using/segment/create-compositions.md)
       + [Werken met het compositicanvas](using/segment/composition-canvas.md)
       + [Toegang tot en beheer van het publiek](using/segment/access-audiences.md)
-      + Kwesties voor zakelijk gebruik {#business-use-cases}
-         + [Multikanaalberichten verzenden](using/building-journeys/journeys-uc.md)
-         + [Een bericht verzenden met Campagne v7/v8](using/building-journeys/campaign-classic-use-case.md)
-         + [Een bericht verzenden naar abonnees](using/building-journeys/message-to-subscribers-uc.md)
-      + Kwesties van technisch gebruik {#technical-use-cases}
-         + [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](using/building-journeys/collections.md)
-         + [Leveringen opwaarderen](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [Productie beperken met externe gegevensbronnen en aangepaste handelingen](using/building-journeys/limit-throughput.md)
 + Bijhouden en bewaken {#reporting}
    + Live-rapport {#live-report}
       + [Aan de slag met Live-rapport](using/reports/live-report.md)
@@ -314,7 +317,7 @@ ht-degree: 37%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
+         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
