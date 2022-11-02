@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '1004'
 ht-degree: 0%
 
 ---
@@ -28,24 +28,28 @@ De stappen om een samenstelling in het samenstellingscanvas te vormen zijn als v
 
 ## Selecteer het beginpubliek {#starting-audience}
 
->[!CONTEXTUALHELP]
->id="ajo_ao_merge_types"
->title="Typen samenvoegen"
->abstract="Geef op hoe de profielen van het geselecteerde publiek moeten worden samengevoegd."
-
 De eerste stap om een samenstelling tot stand te brengen moet één of veelvoudige bestaande publiek als basis van uw samenstelling selecteren.
 
-Selecteer **[!UICONTROL Audience]** activiteit en klik vervolgens op **[!UICONTROL Add audience]** Selecteer vervolgens een of meer soorten publiek.
+1. Selecteer **[!UICONTROL Audience]** Geef vervolgens een label voor de activiteit op.
+
+1. Kies het publiek dat u als doel wilt instellen:
+
+   * Klik op de knop **[!UICONTROL Add audience]** knop om een of meer bestaande doelgroepen te selecteren;
+   * Klik op de knop **[!UICONTROL Build rule]** knop om een nieuwe segmentdefinitie te maken met de opdracht [Segmenteringsservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+
+   ![](assets/audiences-choose-audience.png)
+
+1. Als er meerdere soorten publiek zijn geselecteerd, geeft u op hoe de profielen van deze soorten publiek moeten worden samengevoegd:
+
+* **[!UICONTROL Union]**: alle profielen van het geselecteerde publiek omvatten,
+* **[!UICONTROL Intersection]**: profielen opnemen die alle geselecteerde doelgroepen gemeen hebben;
+* **[!UICONTROL Exclude overlap]**: bevatten profielen die alleen bij een van de doelgroepen horen. Profielen die bij meer dan één publiek horen, worden niet opgenomen.
 
 In dit voorbeeld willen we ons richten op alle profielen die tot het goud- en zilverpubliek behoren.
 
 ![](assets/audiences-starting-audience.png)
 
-Als u meerdere soorten publiek selecteert, geeft u op hoe de profielen van deze soorten publiek moeten worden samengevoegd:
-
-* **[!UICONTROL Union]**: alle profielen van het geselecteerde publiek omvatten,
-* **[!UICONTROL Intersection]**: profielen opnemen die alle geselecteerde doelgroepen gemeen hebben;
-* **[!UICONTROL Exclude overlap]**: bevatten profielen die alleen bij een van de doelgroepen horen. Profielen die bij meer dan één publiek horen, worden niet opgenomen.
+Nadat het publiek is geselecteerd, wordt het geschatte aantal profielen onder aan de activiteit weergegeven.
 
 ## Activiteiten toevoegen {#action-activities}
 
@@ -74,6 +78,11 @@ Beschikbare activiteiten zijn:
 >id="ajo_ao_audience"
 >title="Poortactiviteit"
 >abstract="Met de activiteit van het publiek kunt u in uw compositie aanvullende profielen opnemen die tot een bestaand publiek behoren."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_merge_types"
+>title="Typen samenvoegen"
+>abstract="Geef op hoe de profielen van het geselecteerde publiek moeten worden samengevoegd."
 
 De **[!UICONTROL Audience]** Met activiteiten kunt u in uw compositie aanvullende profielen opnemen die tot een bestaand publiek behoren.
 
@@ -121,7 +130,7 @@ De **[!UICONTROL Rank]** De activiteit staat u toe om profielen te rangschikken 
 
 1. Selecteer het kenmerk dat u wilt opzoeken en geef een rangschikking op (oplopend of aflopend).
 
-   >[OPMERKING]
+   >[!NOTE]
    >
    >U kunt kenmerken selecteren met de volgende gegevenstypen: integer, numbers, short <!--(other?)-->
 

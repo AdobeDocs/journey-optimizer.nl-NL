@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '138'
 ht-degree: 1%
 
 ---
@@ -20,10 +20,6 @@ ht-degree: 1%
 # Toegang tot en beheer van het publiek {#access-manage-audiences}
 
 Soorten publiek is toegankelijk vanuit de **[!UICONTROL Audiences]** in de **[!UICONTROL Segments]** -menu.
-
->[!IMPORTANT]
->
->Momenteel kunnen publiek dat het resultaat is van compositieworkflows, niet worden gericht op Journey Optimizer.
 
 Dit tabblad bevat een lijst met alle soorten publiek die in Adobe Experience Platform zijn opgeslagen. Het publiek dat met publiekscomposities wordt gemaakt, kan door de **[!UICONTROL Audience composition]** oorsprong.
 

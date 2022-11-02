@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 De samenstelling van het publiek staat u toe om tot stand te brengen **compositieworkflows**, waarin u bestaande Adobe Experience Platform-doelgroepen kunt combineren tot een visueel canvas en verschillende activiteiten (splitsen, uitsluiten...) kunt gebruiken om nieuwe doelgroepen te maken.
 
-Als u klaar bent, **resulterend publiek** worden samen met het bestaande publiek opgeslagen in Adobe Experience Platform.<!--, and can be **leveraged in campaigns** to target customers.-->
+Als u klaar bent, **resulterend publiek** worden samen met het bestaande publiek opgeslagen in Adobe Experience Platform en kunnen **gebruikt in campagnes** aan doelklanten.
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Momenteel kunnen publiek dat het resultaat is van compositieworkflows, niet worden gericht op Journey Optimizer. Deze doelen kunnen niet worden vermeld in Adobe Experience Platform-bestemmingen.
+>Publiek dat het resultaat is van samenstellingsworkflows kan alleen worden gericht op Journey Optimizer-campagnes. Zij zijn niet beschikbaar voor gebruik tijdens reizen.
 
 ## Toegang tot publiekscompositie {#access}
 

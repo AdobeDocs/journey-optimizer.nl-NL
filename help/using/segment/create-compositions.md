@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -39,25 +39,23 @@ Met samenstellingsworkflows kunt u bestaande soorten publiek combineren en rangs
    * **[!UICONTROL Save]**: de laatste stap van uw compositie. Met deze activiteit kunt u het resultaat van uw workflow opslaan in een nieuw publiek.
    Voor meer informatie over hoe te om activiteiten in het canvas van het samenstellingswerkschema te vormen, verwijs naar [Werken met het compositicanvas](composition-canvas.md).
 
-1. Selecteer **[!UICONTROL Audience]** activiteit, dan specificeer een etiket voor uw samenstelling.
+1. Open de compositieeigenschappen om een titel en een beschrijving op te geven.
 
-   >[!IMPORTANT]
-   >
-   >De **[!UICONTROL Audience]** het activiteitenetiket is het etiket van uw samenstelling. Zorg ervoor om een betekenisvolle naam te verstrekken om de samenstelling gemakkelijker in de lijst terug te winnen.
+   Als er geen titel is gedefinieerd in de eigenschappen, wordt het samengestelde label het eerste **[!UICONTROL Audience]** activiteit.
 
-   ![](assets/audiences-new-composition.png)
+   ![](assets/audiences-properties.png)
 
 1. Vorm uw samenstelling door zo vele activiteiten toe te voegen zoals nodig tussen **[!UICONTROL Audience]** en **[!UICONTROL Save]** activiteiten. [Leer hoe u met het compositicanvas werkt](composition-canvas.md)
 
    ![](assets/audiences-publish.png)
 
-1. Zodra uw samenstelling klaar is, klik [**!UICONTROL publiceren]** om de compositie te publiceren en het resulterende publiek op te slaan in Adobe Experience Platform.
+1. Zodra uw samenstelling klaar is, klik **[!UICONTROL Publish]** om de compositie te publiceren en het resulterende publiek op te slaan in Adobe Experience Platform.
 
    Als er tijdens het publiceren een fout optreedt, worden waarschuwingen weergegeven met informatie over hoe u het probleem kunt oplossen.
 
    ![](assets/audiences-alerts.png)
 
-1. De compositie wordt gepubliceerd. Het resulterende publiek wordt opgeslagen in Adobe Experience Platform. <!-- and are ready to be targeted in Journey Optimizer campaigns. [Get started with campaigns](../campaigns/get-started-with-campaigns.md)-->
+1. De compositie wordt gepubliceerd. Het resulterende publiek wordt opgeslagen in Adobe Experience Platform en is klaar om te worden gebruikt in Journey Optimizer-campagnes. [Aan de slag met campagnes](../campaigns/get-started-with-campaigns.md)
 
 ## Toegang tot composities {#access}
 
@@ -69,7 +67,7 @@ Met samenstellingsworkflows kunt u bestaande soorten publiek combineren en rangs
 Alle gemaakte composities zijn toegankelijk via de **[!UICONTROL Compositions]** tab. Ze kunnen meerdere statussen hebben:
 
 * **[!UICONTROL Draft]**: de samenstelling is in uitvoering en is niet gepubliceerd.
-* **[!UICONTROL Published]**: de samenstelling is gepubliceerd en het resulterende publiek is gered . <!-- and are available for use.-->
+* **[!UICONTROL Published]**: de samenstelling is gepubliceerd , het resulterende publiek is opgeslagen en beschikbaar voor gebruik .
 * **[!UICONTROL Archived]**: de samenstelling is gearchiveerd .
 
 ![](assets/audiences-compositions.png)
