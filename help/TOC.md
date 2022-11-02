@@ -317,7 +317,7 @@ ht-degree: 37%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
+         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
