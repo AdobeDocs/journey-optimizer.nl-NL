@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Berichten voorvertonen en testen{#preview-and-proof}
 
-Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u [persoonlijke inhoud](../personalization/personalize.md), kunt u controleren hoe deze inhoud in het bericht wordt getoond, leveraging de gegevens van het testprofiel.
+Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u [persoonlijke inhoud](../personalization/personalize.md)kunt u met testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
 
 Om mogelijke fouten in e-mailinhoud of verpersoonlijkingsmontages te ontdekken, verzend proefdrukken naar testprofielen. Telkens wanneer een wijziging wordt aangebracht, moet een bewijs worden verzonden om de meest recente inhoud te valideren.
 

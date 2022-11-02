@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 3%
@@ -60,7 +60,7 @@ Voer de volgende stappen uit om uw SMS-bericht aan te passen:
 >
 > Voor betere leverbaarheid, zou u de telefoonaantallen in de formaten altijd moeten gebruiken die door de leverancier worden gesteund. Twilio en Sinch ondersteunen bijvoorbeeld alleen telefoonnummers in E.164-indeling.
 
-Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u [persoonlijke inhoud](../personalization/personalize.md), kunt u controleren hoe deze inhoud in het bericht wordt getoond, leveraging de gegevens van het testprofiel.
+Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u [persoonlijke inhoud](../personalization/personalize.md)kunt u met testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
 
 Als u wilt visualiseren hoe uw SMS-bericht wordt weergegeven op mobiele apparaten, klikt u op de knop **[!UICONTROL Simulate content]** tab. Meer informatie over het simuleren van inhoud vindt u in [deze sectie](../design/preview.md).
 

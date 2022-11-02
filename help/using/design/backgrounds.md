@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 Als het gaat om het instellen van achtergronden met de e-mailontwerper, raadt Adobe het volgende aan:
 
 1. Pas een achtergrondkleur toe op de tekst van uw e-mail, indien dat door uw ontwerp wordt vereist.
-1. In de meeste gevallen stelt u achtergrondkleuren in op kolomniveau.
+1. Stel de achtergrondkleuren meestal in op kolomniveau.
 1. Probeer geen achtergrondkleuren te gebruiken voor afbeeldings- of tekstcomponenten, omdat deze moeilijk te beheren zijn.
 
 Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
