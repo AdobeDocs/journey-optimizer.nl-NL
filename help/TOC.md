@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1244'
 ht-degree: 37%
 
 ---
@@ -32,10 +32,7 @@ ht-degree: 37%
    + [Gebruikersinterface](using/start/user-interface.md)
    + [Guardrails](using/start/guardrails.md)
 + Journeys {#orchestrate-journeys}
-   + Aan de slag met reizen{#about-journeys}
-      + [Algemeen principe](using/building-journeys/journey.md)
-      + [Reislevenscyclus](using/building-journeys/journey-end.md)
-      + [Journeyversies](using/building-journeys/journey-versions.md)
+   + [Aan de slag met reizen](using/building-journeys/journey.md)
    + Een journey maken{#create-journey}
       + [Uw eerste journey maken](using/building-journeys/journey-gs.md)
       + [Uw journey ontwerpen](using/building-journeys/using-the-journey-designer.md)
@@ -46,7 +43,7 @@ ht-degree: 37%
       + [Los uw reis problemen op](using/building-journeys/troubleshooting.md)
       + [Integreren met intelligente services](using/building-journeys/ai-services-overview.md)
    + Activiteiten {#about-journey-building}
-      + [Informatie over reisactiviteiten](using/building-journeys/about-journey-activities.md)
+      + [Aan de slag met reisactiviteiten](using/building-journeys/about-journey-activities.md)
       + [Algemene gebeurtenissen](using/building-journeys/general-events.md)
       + [Reactie](using/building-journeys/reaction-events.md)
       + [Segmentkwalificatie](using/building-journeys/segment-qualification-events.md)
@@ -317,7 +314,7 @@ ht-degree: 37%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
+         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)

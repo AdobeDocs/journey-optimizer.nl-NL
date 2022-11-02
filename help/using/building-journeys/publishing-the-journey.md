@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 7%
@@ -21,7 +21,7 @@ U kunt een reis publiceren nadat u de geldigheid ervan hebt getest.
 
 ➡️ [Ontdek deze functie in video](#video)
 
-Als u wijzigingen in een gepubliceerde reis moet aanbrengen, moet u een nieuwe versie van uw reis tot stand brengen. Zie [deze pagina](../building-journeys/journey-versions.md). Als een reis alleen-lezen is, kunt u alleen de activiteitslabels en -beschrijvingen, de naam van de reis en de beschrijving van de reis wijzigen.
+Als u wijzigingen in een gepubliceerde reis moet aanbrengen, moet u een nieuwe versie van uw reis tot stand brengen. Zie [deze pagina](../building-journeys/journey.md). Als een reis alleen-lezen is, kunt u alleen de activiteitslabels en -beschrijvingen, de naam van de reis en de beschrijving van de reis wijzigen.
 
 Als je een reis stopt, wordt deze definitief gestopt. Alle mensen die op de reis gaan, zullen permanent worden gestopt en de reis zal ophouden nieuwkomers toe te laten. Als u de reis opnieuw moet gebruiken, moet u het dupliceren en het publiceren.
 

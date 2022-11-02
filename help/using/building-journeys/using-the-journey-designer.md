@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1577'
 ht-degree: 1%
 
 ---
@@ -60,15 +60,17 @@ Afhankelijk van de status van de reis kunt u verschillende handelingen op uw rei
 
 Wanneer je je reis ontwerpt, wil je je eerst afvragen hoe profielen de reis zullen ingaan. Er zijn twee mogelijkheden:
 
-**Starten met een gebeurtenis**: wanneer een reis naar het luisteren van evenementen is gepland , komen individuele personen de reis binnen **eenzijdig** in real-time. Berichten die in uw reis zijn opgenomen, worden verzonden naar de persoon die momenteel op reis gaat. [Meer informatie over gebeurtenissen](../event/about-events.md)
+1. **Starten met een gebeurtenis**: wanneer een reis naar het luisteren van evenementen is gepland , komen individuele personen de reis binnen **eenzijdig** in real-time. Berichten die in uw reis zijn opgenomen, worden verzonden naar de persoon die momenteel op reis gaat. [Meer informatie over gebeurtenissen](../event/about-events.md)
 
-**Beginnen met een leessegment**: u kunt uw reis plaatsen om naar de segmenten van Adobe Experience Platform te luisteren. In dit geval betreden alle personen die tot het gespecificeerde segment behoren de reis. De berichten inbegrepen in uw reis worden verzonden naar de individuen die tot het segment behoren. [Meer informatie over het lezen van segmenten](read-segment.md).
+1. **Beginnen met een leessegment**: u kunt uw reis plaatsen om naar de segmenten van Adobe Experience Platform te luisteren. In dit geval betreden alle personen die tot het gespecificeerde segment behoren de reis. De berichten inbegrepen in uw reis worden verzonden naar de individuen die tot het segment behoren. [Meer informatie over het lezen van segmenten](read-segment.md).
 
 ## De volgende stappen definiëren{#define-next-steps}
 
 Na uw eerste gebeurtenis of Read Segment, kunt u de verschillende activiteiten combineren om uw multi-step scenario&#39;s over het kanaal te bouwen. Kies in het palet de gewenste stappen.
 
 ### Gebeurtenissen{#jo-event}
+
+Gebeurtenissen zijn de aanleiding voor een persoonlijke reis, zoals een online aankoop. Wanneer iemand een reis binnengaat, beweegt hij als individu en bewegen geen twee individuen zich met dezelfde snelheid of langs dezelfde weg.
 
 Wanneer u uw reis met een gebeurtenis begint, wordt de reis teweeggebracht wanneer de gebeurtenis wordt ontvangen. Elke persoon op de reis volgt dan, individueel, de volgende stappen die in uw reis worden bepaald.
 
@@ -80,11 +82,15 @@ Gebruiken **Segmentkwalificatie** gebeurtenisactiviteiten om ervoor te zorgen da
 
 ### Orchestratie{#jo-orch}
 
-Gebruik de **Segment lezen** activiteit die uw reis zet om naar een Adobe Experience Platform-segment te luisteren. [Meer informatie over de activiteit Leessegment](read-segment.md).
+Orchestratieactiviteiten zijn verschillende omstandigheden die helpen de volgende stap in de reis te bepalen.
+
+Gebruik de **Segment lezen** om je reis te maken om naar een Adobe Experience Platform-segment te luisteren. [Meer informatie over de activiteit Leessegment](read-segment.md).
 
 Met de andere activiteiten kunt u voorwaarden aan uw reis toevoegen om meerdere paden te definiëren, een wachttijd in te stellen voordat u de volgende activiteit uitvoert of uw reis beëindigen. [Meer informatie over orkestwerkzaamheden](about-journey-activities.md#orchestration-activities).
 
 ### Acties{#jo-actions}
+
+Handelingen zijn wat u wilt doen als gevolg van een of andere trigger, zoals het verzenden van een bericht. Het is het traject dat de klant ervaart. Dit kan een e-mail-, sms- of pushbericht zijn of een actie van een derde, zoals een Slack-bericht.
 
 Met de activiteiten van de kanaalactie kunt u een bericht opnemen dat is ontworpen in [!DNL Journey Optimizer]. [Meer informatie over de activiteiten van de kanaalactie](journeys-message.md)
 

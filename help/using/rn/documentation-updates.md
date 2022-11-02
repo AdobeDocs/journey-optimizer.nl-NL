@@ -4,7 +4,7 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: ca423c25d39162838368b2242c1aff99388df768
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 18%
@@ -63,7 +63,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Er is een nieuwe sectie over privacyverzoeken toegevoegd aan de documentatie. [Meer informatie](../privacy/requests.md)
 * Een nieuwe sectie over de logboeken van de Controle op middelen is toegevoegd aan de documentatie. [Meer informatie](../privacy/audit-logs.md)
 * Er is een nieuw gedeelte toegevoegd aan de documentatie over het toevoegen van HTML- of JSON-inhoud uit de Adobe Experience Cloud Asset Library aan een aanbiedingsweergave. [Meer informatie](../offers/offer-library/add-representations.md#html-json)
-* Er is een nieuwe pagina toegevoegd over de levensstijl van de reis. [Meer informatie](../building-journeys/journey-end.md)
+* Er is een nieuwe pagina toegevoegd over de levensstijl van de reis. [Meer informatie](../building-journeys/journey.md#journey-versions)
 * De pagina Wachttijd activiteit is bijgewerkt. [Meer informatie](../building-journeys/wait-activity.md)
 * De lijst met Adobe Journey Optimizer-gegevenssets met queryvoorbeelden toegevoegd. [Meer informatie](../start/datasets-query-examples.md)
 * De pagina van de Lijst van gewenste personen is verplaatst naar de sectie van de Configuratie. [Meer informatie](../configuration/allow-list.md)
