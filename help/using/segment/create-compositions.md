@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Met samenstellingsworkflows kunt u bestaande soorten publiek combineren en rangs
 
    ![](assets/audiences-alerts.png)
 
-1. De compositie wordt gepubliceerd. Het resulterende publiek wordt opgeslagen in Adobe Experience Platform en is klaar om te worden gebruikt in Journey Optimizer-campagnes. [Aan de slag met campagnes](../campaigns/get-started-with-campaigns.md)
+1. De compositie wordt gepubliceerd. Het resulterende publiek wordt opgeslagen in Adobe Experience Platform en is klaar om te worden gebruikt in Journey Optimizer-campagnes. [Leer hoe u met campagnes kunt werken](../campaigns/get-started-with-campaigns.md)
 
 ## Toegang tot composities {#access}
 

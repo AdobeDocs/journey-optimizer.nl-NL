@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 De samenstelling van het publiek staat u toe om tot stand te brengen **compositieworkflows**, waarin u bestaande Adobe Experience Platform-doelgroepen kunt combineren tot een visueel canvas en verschillende activiteiten (splitsen, uitsluiten...) kunt gebruiken om nieuwe doelgroepen te maken.
 
-Als u klaar bent, **resulterend publiek** worden samen met het bestaande publiek opgeslagen in Adobe Experience Platform en kunnen **gebruikt in campagnes** aan doelklanten.
+Als u klaar bent, **resulterend publiek** worden samen met het bestaande publiek opgeslagen in Adobe Experience Platform en kunnen **gebruikt in campagnes** aan doelklanten. [Leer hoe u met campagnes kunt werken](../campaigns/get-started-with-campaigns.md)
 
 ![](assets/audiences-process.png)
 

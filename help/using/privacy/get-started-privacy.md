@@ -6,9 +6,9 @@ description: Meer weten over privacy in Adobe Journey Optimizer en Adobe Experie
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: af59c7ed83f18932fe13791b50713eabfba3b549
+source-git-commit: 4d3c79438056be6e97cfa877f1f7d6dfeba74548
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '201'
 ht-degree: 9%
 
 ---
@@ -24,11 +24,9 @@ Adobe Experience Platform en Journey Optimizer bieden verschillende tools om u t
 
 * **Acties van gebruikers controleren**: De logboeken van de Controle van de hefboomwerking om acties te identificeren die door gebruikers in het systeem worden uitgevoerd, problemen problemen problemen op te lossen, en uw zaken te helpen aan verordeningen en het beleid van het collectieve gegevensbeheer voldoen. [Meer informatie](audit-logs.md)
 
-* **Goedkeuring bijhouden en beheren**:
+* **Goedkeuring bijhouden en beheren**: De toestemming van klanten voor mededeling volgen en hun voorkeur en abonnementen beheren. [Meer informatie](opt-out.md)
 
-   De toestemming van klanten voor mededeling volgen en hun voorkeur en abonnementen beheren. [Meer informatie](opt-out.md)
-
-   Bepaal Adobe Experience Platform toestemmingsbeleid en pas hen op uw douaneacties toe om de voorkeur van uw klanten te respecteren. [Meer informatie](../action/consent.md)
+* **Goedkeuringsbeleid toepassen**: Bepaal Adobe Experience Platform toestemmingsbeleid en pas hen op uw douaneacties toe om de voorkeur van uw klanten te respecteren. [Meer informatie](../action/consent.md)
 
 * **Regelgevingsbeleid toepassen**: Gebruik Adobe Experience Platform-beheerbeleid om te voorkomen dat gevoelige velden via aangepaste handelingen naar systemen van derden worden geëxporteerd. [Meer informatie](../action/action-privacy.md)
 
@@ -37,7 +35,7 @@ Adobe Experience Platform en Journey Optimizer bieden verschillende tools om u t
 <td><img src="../assets/do-not-localize/icon-privacy-request.svg" width="60px"><p><a href="requests.md">Gegevensaanvragen beheren</a></p></td>
 <td><img src="../assets/do-not-localize/icon-privacy-audit.svg" width="60px"><p><a href="audit-logs.md">Acties van gebruikers controleren</a></p></td>
 <td><img src="../assets/do-not-localize/icon-privacy-optout.svg" width="60px"><p><a href="opt-out.md">Goedkeuring bijhouden en beheren</a></p></td>
-<td><img src="../assets/do-not-localize/icon-privacy-consent.svg" width="60px"><p><a href="../action/consent.md">Goedkeuring bijhouden en beheren</a></p></td>
+<td><img src="../assets/do-not-localize/icon-privacy-consent.svg" width="60px"><p><a href="../action/consent.md">Goedkeuringsbeleid toepassen</a></p></td>
 <td><img src="../assets/do-not-localize/icon-privacy-governance.svg" width="60px"><p><a href="../action/action-privacy.md">Regelgevingsbeleid toepassen</a></p></td>
 </tr>
 </table>
