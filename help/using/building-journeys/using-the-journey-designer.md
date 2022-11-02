@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 7d69fba9dc01fd36dd7a4360204ef318c3264b60
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1479'
 ht-degree: 1%
 
 ---
@@ -22,11 +22,13 @@ ht-degree: 1%
 >title="Uw journey ontwerpen"
 >abstract="Met de interface voor reizen kunt u activiteiten van het palet gemakkelijk naar het canvas slepen. U kunt ook dubbelklikken op een activiteit om deze in het canvas toe te voegen bij de volgende beschikbare stap."
 
-Met de interface voor reizen kunt u activiteiten van het palet gemakkelijk naar het canvas slepen. U kunt ook dubbelklikken op een activiteit om deze in het canvas toe te voegen bij de volgende beschikbare stap. Elke activiteit heeft een specifieke rol en plaats in het proces. De activiteiten worden gesequenceerd. Wanneer een activiteit wordt gebeëindigd, gaat de stroom verder en verwerkt de volgende activiteit, etc.
+Adobe Journey Optimizer bevat een omnichannel orchestration canvas dat marketers in staat stelt marketingactiviteiten te harmoniseren met een-op-een-klantenservice. Met de gebruikersinterface kunt u activiteiten van het palet naar het canvas slepen om uw reis te maken. U kunt ook op een activiteit dubbelklikken om deze in het canvas toe te voegen, bij de volgende beschikbare stap.
+
+Gebeurtenissen, organisatie en activiteiten hebben een specifieke rol en plaats in het proces. De activiteiten worden gerangschikt: wanneer een activiteit wordt gebeëindigd, gaat de stroom verder en verwerkt de volgende activiteit, etc.
 
 ## Aan de slag met het ontwerpen van de reis {#gs-journey-design}
 
-De **palet** bevindt zich aan de linkerkant van het scherm. Alle beschikbare activiteiten worden ingedeeld in verschillende categorieën: **[!UICONTROL Events]**, **[!UICONTROL Orchestration]** en **[!UICONTROL Actions]**. U kunt de verschillende categorieën uit- of samenvouwen door op de naam ervan te klikken. Als u een activiteit wilt gebruiken tijdens uw reis, sleept u deze van het palet naar het canvas.
+De **palet** bevindt zich aan de linkerkant van het scherm. Alle beschikbare activiteiten worden ingedeeld in verschillende categorieën: [Gebeurtenissen](#jo-event), [Orchestratie](#jo-orch) en [Handelingen](#jo-actions). U kunt de verschillende categorieën uit- of samenvouwen door op de naam ervan te klikken. Als u een activiteit wilt gebruiken tijdens uw reis, sleept u deze van het palet naar het canvas.
 
 Bij het starten van een nieuwe rit worden elementen die niet op het canvas kunnen worden neergezet als de eerste stap, verborgen. Dit heeft betrekking op alle handelingen, de activiteit van de aandoening, de wachttijd en de reactie.
 
@@ -66,27 +68,27 @@ Wanneer je je reis ontwerpt, wil je je eerst afvragen hoe profielen de reis zull
 
 Na uw eerste gebeurtenis of Read Segment, kunt u de verschillende activiteiten combineren om uw multi-step scenario&#39;s over het kanaal te bouwen. Kies in het palet de gewenste stappen.
 
-**Gebeurtenissen**
+### Gebeurtenissen{#jo-event}
 
-Wanneer u uw reis met een gebeurtenis begint, zal de reis teweeggebracht worden wanneer de gebeurtenis wordt ontvangen. De persoon zal dan, individueel, de volgende stappen volgen die in uw reis worden bepaald.
+Wanneer u uw reis met een gebeurtenis begint, wordt de reis teweeggebracht wanneer de gebeurtenis wordt ontvangen. Elke persoon op de reis volgt dan, individueel, de volgende stappen die in uw reis worden bepaald.
 
-U kunt **meerdere gebeurtenissen** in uw reis, zolang zij zelfde namespace gebruiken. Gebeurtenissen worden vooraf geconfigureerd. [Meer informatie over gebeurtenissen](about-journey-activities.md#event-activities)
+U kunt **meerdere gebeurtenissen** in uw reis, zolang zij zelfde namespace gebruiken. Gebeurtenissen worden vooraf geconfigureerd. [Meer informatie over evenementen tijdens reizen](about-journey-activities.md#event-activities)
 
-U kunt ook een **Reactie** gebeurtenis na een bericht om te reageren op volggegevens met betrekking tot het bericht. Op deze manier kunt u bijvoorbeeld een ander bericht verzenden als de persoon het vorige bericht heeft geopend of erin heeft geklikt. Meer informatie in deze [sectie](reaction-events.md).
+U kunt ook een **Reactie** gebeurtenis na een bericht om te reageren op volggegevens met betrekking tot het bericht. Op deze manier kunt u bijvoorbeeld een ander bericht verzenden als de persoon het vorige bericht heeft geopend of erin heeft geklikt. [Meer informatie over reacties](reaction-events.md).
 
-De **Segmentkwalificatie** Met gebeurtenisactiviteiten kunt u ervoor zorgen dat individuen een reis kunnen maken of vooruit kunnen gaan op basis van Adobe Experience Platform-segmenttoegang en -vertrek. U kunt alle nieuwe zilverklanten een reis maken en persoonlijke berichten verzenden. Meer informatie in deze [sectie](segment-qualification-events.md).
+Gebruiken **Segmentkwalificatie** gebeurtenisactiviteiten om ervoor te zorgen dat individuen op reis gaan of vooruit gaan op basis van de toegang tot en de uitgangen van Adobe Experience Platform-segmenten. U kunt alle nieuwe zilverklanten een reis maken en persoonlijke berichten verzenden. Meer informatie in deze [sectie](segment-qualification-events.md).
 
-**Orchestratie**
+### Orchestratie{#jo-orch}
 
-In de orkestactiviteiten vindt u de **Segment lezen** activiteit die u toestaat om uw reis te plaatsen om aan een segment van Adobe Experience Platform te luisteren. [Meer informatie over de activiteit Leessegment](read-segment.md).
+Gebruik de **Segment lezen** activiteit die uw reis zet om naar een Adobe Experience Platform-segment te luisteren. [Meer informatie over de activiteit Leessegment](read-segment.md).
 
-Met de andere activiteiten kunt u voorwaarden aan uw reis toevoegen om meerdere paden te definiëren, een wachttijd in te stellen voordat u de volgende activiteit uitvoert of uw reis beëindigen. Meer informatie in deze [sectie](about-journey-activities.md#orchestration-activities).
+Met de andere activiteiten kunt u voorwaarden aan uw reis toevoegen om meerdere paden te definiëren, een wachttijd in te stellen voordat u de volgende activiteit uitvoert of uw reis beëindigen. [Meer informatie over orkestwerkzaamheden](about-journey-activities.md#orchestration-activities).
 
-**Acties**
+### Acties{#jo-actions}
 
-Hier vindt u de activiteit van de kanaalhandeling waarmee u een bericht kunt opnemen dat is ontworpen in [!DNL Journey Optimizer]. [Meer informatie over de activiteiten van de kanaalactie](journeys-message.md)
+Met de activiteiten van de kanaalactie kunt u een bericht opnemen dat is ontworpen in [!DNL Journey Optimizer]. [Meer informatie over de activiteiten van de kanaalactie](journeys-message.md)
 
-U zult ook de douaneacties vinden die u hebt gevormd om berichten met derdesystemen te verzenden. Meer informatie in deze [sectie](about-journey-activities.md#action-activities).
+Gebruik aangepaste handelingen vanuit de actieactiviteiten om berichten te verzenden met systemen van derden. [Meer informatie over aangepaste handelingen](about-journey-activities.md#action-activities).
 
 ## Alternatieve paden toevoegen{#paths}
 
