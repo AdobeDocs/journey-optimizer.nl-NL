@@ -1,24 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Algemeen principe
-description: Algemeen principe
+title: Aan de slag met reizen
+description: Aan de slag met reizen
 feature: Journeys
-topic: Content Management
 role: User
 level: Beginner
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: ab2956ab1dc3dfdf2ff67c3b6bcb1e3090d34ee3
+source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 2%
+source-wordcount: '572'
+ht-degree: 1%
 
 ---
 
 
-# Algemeen principe{#jo-general-principle}
+# Aan de slag met reizen{#jo-general-principle}
 
-Gebruiken [!DNL Journey Optimizer] gebruiken voor het maken van realtime-orkestgebruik voor het gebruiken van contextafhankelijke gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen.
+Gebruiken [!DNL Journey Optimizer] gebruiken voor het maken van realtime-formulieren voor het orkestgebruik met gebruik van contextuele gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen.
 
 Ontwerp multistep geavanceerde scenario&#39;s aangedreven door de volgende mogelijkheden:
 
@@ -32,7 +31,7 @@ Ontwerp multistep geavanceerde scenario&#39;s aangedreven door de volgende mogel
 
 ## Stappen om een reis te maken{#steps-journey}
 
-Met Adobe Journey Optimizer kunt u persoonlijke reizen van één canvas ontwerpen en ordenen.
+Met Adobe Journey Optimizer kunt u persoonlijke reizen ontwerpen en ordenen vanaf één canvas.
 
 Adobe Journey Optimizer bevat een omnichannel orchestration canvas dat marketers in staat stelt marketingactiviteiten te harmoniseren met een-op-een-klantenservice. Met de gebruikersinterface kunt u activiteiten van het palet naar het canvas slepen om uw reis te maken.
 
@@ -75,7 +74,7 @@ Wanneer u een reis zoekt, verschijnen de nieuwste versies bij de eerste keer dat
 
 >[!NOTE]
 >
->In de meeste gevallen kan een profiel niet meerdere keren tegelijk op dezelfde reis aanwezig zijn. Als de terugkeer wordt toegelaten, kan een profiel een reis opnieuw ingaan, maar kan het niet doen tot hij dat vorige geval van de reis volledig verliet. [Meer informatie](end-journey.md).
+>Gewoonlijk kan een profiel niet meerdere keren op dezelfde reis tegelijk aanwezig zijn. Als de terugkeer wordt toegelaten, kan een profiel een reis opnieuw ingaan, maar kan het niet doen tot hij dat vorige geval van de reis volledig verliet. [Meer informatie](end-journey.md).
 
 Als u zich aan een levende reis moet aanpassen, creeer een nieuwe versie van uw reis.
 
