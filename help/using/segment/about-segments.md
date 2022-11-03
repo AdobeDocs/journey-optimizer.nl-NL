@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: df16e6be53629ef529b765c9e36a293234244867
+source-git-commit: bfd262db2fd12afbb7df6c73c68b29d18a1abf98
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -31,7 +31,7 @@ U kunt segmenten in reizen op verschillende manieren benutten:
 
 * Opbouwen **complexe omstandigheden** op reis met de eenvoudige of geavanceerde expressieeditor. Meer informatie in [deze sectie](../building-journeys/condition-activity.md#using-a-segment).
 
-## Evaluatiemethode in Adobe Journey Optimizer {#evaluation-method-in-journey-optimizer}
+## Methoden voor de evaluatie van het publiek{#evaluation-method-in-journey-optimizer}
 
 In Adobe Journey Optimizer wordt het publiek op basis van segmentdefinities op basis van een van de volgende evaluatiemethoden gegenereerd:
 
