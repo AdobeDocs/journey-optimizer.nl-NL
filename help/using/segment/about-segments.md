@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 1a2a5ed846319e7387589284e954d4c759b6b25e
+source-git-commit: df16e6be53629ef529b765c9e36a293234244867
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,8 +35,9 @@ U kunt segmenten in reizen op verschillende manieren benutten:
 
 In Adobe Journey Optimizer wordt het publiek op basis van segmentdefinities op basis van een van de volgende evaluatiemethoden gegenereerd:
 
-* Streaming segmentatie: de publiekslijst voor het segment wordt in real-time bijgewerkt terwijl nieuwe gegevens in het systeem stromen.
-* De segmentatie van de partij - de publiekslijst voor het segment wordt geëvalueerd om de 24 uur. Voor bestaande segmenten zorgt de incrementele segmentatie er echter voor dat de segmenten een uur vers blijven.
+* Streaming segmentatie: de publiekslijst voor het segment wordt in real-time bijgewerkt terwijl nieuwe gegevens in het systeem stromen. Streaming segmentatie is een doorlopend proces voor gegevensselectie dat uw segmenten bijwerkt als reactie op gebruikersactiviteit. Nadat een segment is gemaakt en opgeslagen, wordt de segmentdefinitie toegepast op inkomende gegevens naar Journey Optimizer. Segmenttoevoegingen en verwijderingen worden regelmatig verwerkt, zodat het doelpubliek relevant blijft.
+
+* De segmentatie van de partij - de publiekslijst voor het segment wordt geëvalueerd om de 24 uur. Als alternatief voor een lopend proces van de gegevensselectie, verplaatst de partijsegmentatie alle profielgegevens in één keer door segmentdefinities om het overeenkomstige publiek te veroorzaken. Zodra gecreeerd, wordt dit segment bewaard en opgeslagen zodat u het voor gebruik kunt uitvoeren.
 
 De bepaling tussen partijsegmentatie en het stromen segmentatie wordt gemaakt door het systeem voor elke segmentdefinitie, die op de ingewikkeldheid en de kosten wordt gebaseerd om de segmentregel te evalueren.
 
