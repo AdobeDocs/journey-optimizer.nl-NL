@@ -7,9 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: bca233ab888e2ca33b866bc3def31653f2d55ea9
+exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
+source-git-commit: dbb668b219b8d2ccea4d340c019918d6a6e387bb
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -129,21 +130,11 @@ Een direct-mailoppervlak moet ook het bestand bevatten dat de configuratie verpl
 
    ![](assets/surface-direct-mail-settings.png)
 
+   <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
+
 1. Selecteer de bestandsindeling: **[!UICONTROL CSV]** of **[!UICONTROL Text delimited]**.
 
-1. In de **[!UICONTROL Insertion]** kunt u dubbele rijen automatisch verwijderen.
-
-1. Definieer het maximumaantal records (dat wil zeggen rijen) voor elk bestand dat profielgegevens bevat. Nadat de opgegeven drempelwaarde is bereikt, wordt een ander bestand gemaakt voor de resterende records.
-
-   ![](assets/surface-direct-mail-split.png)
-
-   Als het bestand bijvoorbeeld 100.000 records bevat en de drempellimiet is ingesteld op 60.000, worden de records gesplitst in twee bestanden. Het eerste bestand bevat 60.000 rijen en het tweede bestand bevat de resterende 40.000 rijen.
-
-   >[!NOTE]
-   >
-   >U kunt een willekeurig getal tussen 1 en 200.000 records instellen. Dit betekent dat elk bestand ten minste 1 rij en maximaal 200.000 rijen moet bevatten.
-
-1. Tot slot selecteert u **[!UICONTROL File routing configuration]** onder de mensen die je creëerde. Hiermee bepaalt u waar het bestand wordt geëxporteerd zodat uw direct-mailprovider het kan gebruiken.
+1. Selecteer **[!UICONTROL File routing configuration]** onder de mensen die je creëerde. Hiermee bepaalt u waar het bestand wordt geëxporteerd zodat uw direct-mailprovider het kan gebruiken.
 
    >[!CAUTION]
    >
@@ -151,6 +142,29 @@ Een direct-mailoppervlak moet ook het bestand bevatten dat de configuratie verpl
 
    ![](assets/surface-direct-mail-file-routing.png)
 
+   <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
+
 1. Verzend het direct-mailoppervlak.
 
 U kunt nu [een direct-mailbericht maken](../messages/create-direct-mail.md) in een campagne. Nadat de campagne is gestart, wordt het bestand met de doelgegevens van het publiek automatisch geëxporteerd naar de server die u hebt gedefinieerd. De direct-mailprovider kan dat bestand vervolgens ophalen en doorgaan met de directe-maillevering.
+
+>[!NOTE]
+>
+>Dubbele rijen worden automatisch verwijderd.
+>
+>Als het maximumaantal records (dat wil zeggen rijen) voor elk bestand met profielgegevens te hoog is, wordt automatisch een ander bestand gemaakt voor de resterende records.
+
+<!--
+    In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.
+
+    Define the maximum number of records (i.e. rows) for each file containing profile data. After the specified threshold is reached, another file will be created for the remaining records.
+
+    ![](assets/surface-direct-mail-split.png)
+
+    For example, if there are 100,000 records in the file and the threshold limit is set to 60,000, the records will be split into two files. The first file will contain 60,000 rows, and the second file will contain the remaining 40,000 rows.
+
+    >[!NOTE]
+    >
+    >NOTE You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
+
+-->
