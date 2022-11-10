@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1187'
 ht-degree: 1%
 
 ---
@@ -64,15 +64,7 @@ De instelling voor het BCC-e-mailadres wordt direct opgeslagen en verwerkt op op
 
 ![](assets/preset-bcc-in-msg.png)
 
-Nochtans, wordt het adres BCC opgepikt voor het verzenden van mededelingen die de logica hieronder volgen:
-
-* Voor batch- en burstritten geldt deze regel niet voor batch- of burstuitvoering die al was gestart voordat de BCC-instelling werd ingesteld. De wijziging wordt opgepikt bij de volgende herhaling of nieuwe uitvoering.
-
-* Voor transactieberichten, wordt de verandering opgenomen onmiddellijk voor de volgende mededeling (tot één minieme vertraging).
-
->[!NOTE]
->
->U hoeft uw reis niet opnieuw te publiceren om de BCC-instelling op te halen.
+Nochtans, wordt het adres BCC opgepikt voor het verzenden van mededelingen na de beschreven logica [hier](email-settings.md).
 
 ### Recommendations en beperkingen {#bcc-recommendations-limitations}
 

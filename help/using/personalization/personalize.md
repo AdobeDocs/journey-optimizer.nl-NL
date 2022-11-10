@@ -8,10 +8,10 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 11%
+source-wordcount: '322'
+ht-degree: 13%
 
 ---
 
@@ -58,6 +58,6 @@ Leer hoe u contextuele gebeurtenisinformatie van een journey kunt gebruiken om e
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-Leer hoe u contextuele gebeurtenisinformatie van een journey kunt gebruiken om een bericht te personaliseren.
+Leer hoe u op profielen gebaseerde personalisatie aan een bericht kunt toevoegen en hoe u segmentlidmaatschap kunt gebruiken als voorwaarde voor een personalisatieblokkering.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

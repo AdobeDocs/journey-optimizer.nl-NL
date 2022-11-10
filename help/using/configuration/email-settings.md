@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1376'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,16 @@ ht-degree: 1%
 Definieer de e-mailinstellingen in de specifieke sectie van de configuratie van het kanaaloppervlak (dus de voorinstelling voor berichten). Leer hoe u oppervlakken maakt in [deze sectie](channel-surfaces.md).
 
 ![](assets/preset-email-settings.png)
+
+De configuratie van de e-mailoppervlakte wordt opgepikt voor het verzenden van mededelingen die de logica hieronder volgen:
+
+* Voor batch- en burstritten is deze niet van toepassing op batch- of burst-uitvoering die al was gestart voordat de e-mailoppervlakteconfiguratie werd gemaakt. De wijzigingen worden opgepikt bij de volgende herhaling of nieuwe uitvoering.
+
+* Voor transactieberichten, wordt de verandering onmiddellijk voor de volgende mededeling (tot vijf minuten vertraging) opgepikt.
+
+>[!NOTE]
+>
+>De bijgewerkte instellingen van het e-mailoppervlak worden automatisch opgehaald tijdens de reis(en) of campagne(s) waar het oppervlak wordt gebruikt.
 
 ## Type e-mail {#email-type}
 
@@ -96,25 +106,39 @@ Meer informatie over het toevoegen van een link voor opzeggen van koptekst aan j
 
 In de **[!UICONTROL Header parameters]** in, voert u de namen en e-mailadressen van de afzender in die zijn gekoppeld aan het type e-mail dat met dat oppervlak is verzonden.
 
->[!CAUTION]
->
->De e-mailadressen moeten de geselecteerde [gedelegeerd subdomein](about-subdomain-delegation.md).
-
 * **[!UICONTROL Sender name]**: De naam van de afzender, zoals de naam van uw merk.
 
-* **[!UICONTROL Sender email]**: Het e-mailadres dat u voor uw communicatie wilt gebruiken. Als het gedelegeerde subdomein bijvoorbeeld *marketing.luma.com* kunt u *contact@marketing.luma.com*.
+* **[!UICONTROL Sender email]**: Het e-mailadres dat u voor uw communicatie wilt gebruiken.
 
 * **[!UICONTROL Reply to (name)]**: De naam die wordt gebruikt wanneer de ontvanger op de knop **Reageren** in hun e-mailclientsoftware.
 
-* **[!UICONTROL Reply to (email)]**: Het e-mailadres dat wordt gebruikt wanneer de ontvanger op de knop **Reageren** in hun e-mailclientsoftware. U moet een adres gebruiken dat op gedelegeerde subdomein wordt bepaald (bijvoorbeeld *reply@marketing.luma.com*), anders worden de e-mails verwijderd.
+* **[!UICONTROL Reply to (email)]**: Het e-mailadres dat wordt gebruikt wanneer de ontvanger op de knop **Reageren** in hun e-mailclientsoftware. [Meer informatie](#reply-to-email)
 
 * **[!UICONTROL Error email]**: Alle fouten die door ISPs na een paar dagen van post worden geproduceerd die (asynchrone stuitingen) worden ontvangen op dit adres.
+
+>[!CAUTION]
+>
+>De **[!UICONTROL Sender email]** en **[!UICONTROL Error email]** adressen moeten de huidige geselecteerde gebruiken [gedelegeerd subdomein](about-subdomain-delegation.md). Als het gedelegeerde subdomein bijvoorbeeld *marketing.luma.com* kunt u *contact@marketing.luma.com* en *error@marketing.luma.com*.
 
 ![](assets/preset-header.png)
 
 >[!NOTE]
 >
 >Adressen moeten beginnen met een letter (A-Z) en mogen alleen alfanumerieke tekens bevatten. U kunt ook het onderstrepingsteken gebruiken `_`, punt`.` en afbreekstreepje `-` tekens.
+
+### Reageren op e-mail {#reply-to-email}
+
+Bij het definiëren van de **[!UICONTROL Reply to (email)]** adres, kunt u om het even welk e-mailadres specificeren op voorwaarde dat het een geldig adres, in correct formaat en zonder enige typefout is.
+
+Volg onderstaande aanbevelingen om een goed antwoordbeheer te garanderen:
+
+* De inbox die voor antwoorden wordt gebruikt, zal alle antwoorde-mails ontvangen, inclusief meldingen buiten het kantoor en antwoorden op uitdagingen. Zorg er dus voor dat u een handmatig of geautomatiseerd proces hebt om de e-mailberichten te verwerken die in deze inbox worden ingevoerd.
+
+* Zorg ervoor dat de toegewezen Postvak IN voldoende ontvangstcapaciteit heeft om alle e-mails met reacties te ontvangen die via het e-mailoppervlak worden verzonden. Als het postvak &#39;Bounces&#39; retourneert, worden sommige reacties van uw klanten mogelijk niet ontvangen.
+
+* De antwoorden moeten worden verwerkt met inachtneming van de verplichtingen inzake privacy en naleving, aangezien zij persoonlijk identificeerbare informatie (PII) kunnen bevatten.
+
+* Merk geen berichten als spam in antwoordinbox, aangezien het alle andere reacties zal beïnvloeden die naar dit adres worden verzonden.
 
 ### E-mail doorsturen {#forward-email}
 

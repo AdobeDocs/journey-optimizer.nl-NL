@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '765'
 ht-degree: 2%
 
 ---
 
 # Onderdrukkingslijst {#suppression-list}
 
-Een suppressielijst bestaat uit e-mailadressen die u van uw leveringen wilt uitsluiten, omdat het verzenden naar deze contacten uw verzendende reputatie en leveringspercentages zou kunnen beschadigen.
+Een suppressielijst bestaat uit adressen en domeinen die u van uw leveringen wilt uitsluiten, omdat het verzenden naar deze contacten uw verzendende reputatie en leveringspercentages zou kunnen beschadigen.
 
 De [!DNL Journey Optimizer] de suppressielijst wordt beheerd op uw eigen milieuniveau, d.w.z. voor een bepaalde zandbak.
 
@@ -25,7 +25,7 @@ Het verzamelt e-mailadressen en domeinen die over alle post in één enkele cli�
 
 >[!NOTE]
 >
->Adobe houdt een bijgewerkte lijst bij van bekende slechte e-mailadressen waarvan is aangetoond dat ze schadelijk zijn voor de service en de reputatie van mails, en zorgt ervoor dat er geen e-mailberichten aan hen worden bezorgd. Deze lijst wordt beheerd in een globale suppressielijst die over alle klanten van Adobe gemeenschappelijk is. De adressen en domeinnamen in de globale suppressielijst worden verborgen. Alleen het aantal uitgesloten ontvangers wordt vermeld in de leveringsverslagen.
+>Adobe houdt een bijgewerkte lijst bij van bekende slechte adressen waarvan is aangetoond dat deze schadelijk zijn voor de betrokkenheid en de mailingreputatie, en zorgt ervoor dat er geen e-mails aan hen worden bezorgd. Deze lijst wordt beheerd in een globale suppressielijst die over alle klanten van Adobe gemeenschappelijk is. De adressen en domeinnamen in de globale suppressielijst worden verborgen. Alleen het aantal uitgesloten ontvangers wordt vermeld in de leveringsverslagen.
 
 ## Waarom een suppressielijst? {#why-suppression-list}
 
@@ -37,11 +37,11 @@ Ontvangers van wie de e-mailadressen worden onderdrukt, worden automatisch uitge
 
 ## Wat staat er op de onderdrukkingslijst? {#what-s-on-suppression-list}
 
-De e-mailadressen worden als volgt toegevoegd aan de lijst van onderdrukking:
+De adressen worden toegevoegd aan de onderdrukkingslijst als volgt:
 
-* Alles **harde tegenstellingen** en **spamklachten** Stuur de bijbehorende e-mailadressen automatisch naar de suppressielijst na één exemplaar.
+* Alles **harde tegenstellingen** en **spamklachten** Verzend automatisch de overeenkomstige adressen naar de onderdrukkingslijst na één enkel voorkomen.
 
-* **Zachte golven** Stuur niet meteen een e-mailadres naar de onderdrukkingslijst, maar er wordt een foutenteller ingesteld. Meerdere [opnieuw](../configuration/retries.md) worden dan uitgevoerd, en wanneer de foutenteller de drempel bereikt, wordt het adres toegevoegd aan de onderdrukkingslijst.
+* **Zachte golven** niet onmiddellijk een adres naar de onderdrukkingslijst verzenden, maar zij verhogen een foutenteller. Meerdere [opnieuw](../configuration/retries.md) worden dan uitgevoerd, en wanneer de foutenteller de drempel bereikt, wordt het adres toegevoegd aan de onderdrukkingslijst.
 
 * U kunt ook [**handmatig** een adres of domein toevoegen](../configuration/manage-suppression-list.md#add-addresses-and-domains) aan de onderdrukkingslijst.
 

@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
 workflow-type: tm+mt
 source-wordcount: '1512'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Met [!DNL Journey Optimizer]kunt u kanaaloppervlakken instellen (dus voorinstell
 >
 > * Als u kanaaloppervlakken wilt maken, bewerken en verwijderen, moet u beschikken over de [Kanaaloppervlak beheren](../administration/high-low-permissions.md#manage-channel-surface) toestemming.
 >
-> * U moet de opdracht [E-mailconfiguratie](#configure-email-settings), [Pushconfiguratie](../configuration/push-configuration.md) en [SMS-configuratie](../configuration/sms-configuration.md) stappen voordat u kanaaloppervlakken maakt.
+> * U moet de opdracht [E-mailconfiguratie](email-settings.md), [Pushconfiguratie](../configuration/push-configuration.md) en [SMS-configuratie](../configuration/sms-configuration.md) stappen voordat u kanaaloppervlakken maakt.
 
 
 Zodra de kanaaloppervlakten zijn gevormd, zult u hen kunnen selecteren wanneer het creëren van berichten van een reis of een campagne.
