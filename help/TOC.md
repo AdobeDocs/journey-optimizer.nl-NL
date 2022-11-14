@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 56b0726c0d8db3025d3ba3ef2b863fec7f03c726
+source-git-commit: c92587670a56adf6811fcad49873a8ef0c5b7e84
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 37%
+source-wordcount: '1255'
+ht-degree: 36%
 
 ---
 
@@ -23,13 +23,14 @@ ht-degree: 37%
    + [Documentatie-updates](using/rn/documentation-updates.md)
 + Aan de slag{#get-started}
    + [Wat is Journey Optimizer](using/start/get-started.md)
-   + Snel starten{#quick-start}
+   + Hulplijnen voor snel starten{#quick-start}
       + [Overzicht](using/start/quick-start.md)
       + [Aan de slag als een marketeter](using/start/path/marketer.md)
       + [Aan de slag als Data engineer](using/start/path/data-engineer.md)
       + [Aan de slag als beheerder](using/start/path/administrator.md)
       + [Aan de slag als ontwikkelaar](using/start/path/developer.md)
    + [Gebruikersinterface](using/start/user-interface.md)
+   + [Integraties](using/start/ajo-integrations.md)
    + [Guardrails](using/start/guardrails.md)
 + Journeys {#orchestrate-journeys}
    + [Aan de slag met reizen](using/building-journeys/journey.md)
