@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 10%
@@ -27,4 +27,4 @@ De **[!UICONTROL Preview dataset]** de knoop staat u toe om de meest recente suc
 
 ![](../assets/dataset-preview.png)
 
-Voor meer informatie over hoe te om datasets te doorbladeren en te gebruiken, verwijs naar [deze pagina](../../start/get-started-datasets.md).
+Voor meer informatie over hoe te om datasets te doorbladeren en te gebruiken, verwijs naar [deze pagina](../../data/get-started-datasets.md).

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 6%
@@ -62,11 +62,11 @@ U vindt onder de volledige lijst met services en mogelijkheden in de linkernavig
 
 **[!UICONTROL DATA MANAGEMENT]**
 
-* **[!UICONTROL Schemas]** - Gebruik Adobe Experience Platform om schema&#39;s van het Model van de Gegevens van de Ervaring (XDM) in een interactief visueel canvas tot stand te brengen en te beheren genoemd de Redacteur van het Schema. [Meer informatie](get-started-schemas.md)
+* **[!UICONTROL Schemas]** - Gebruik Adobe Experience Platform om schema&#39;s van het Model van de Gegevens van de Ervaring (XDM) in een interactief visueel canvas tot stand te brengen en te beheren genoemd de Redacteur van het Schema. [Meer informatie](../data/get-started-schemas.md)
 
-* **[!UICONTROL Datasets]** - Alle gegevens die in Adobe Experience Platform worden opgenomen, blijven bestaan in het Data Lake als datasets. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat. [Meer informatie](get-started-datasets.md)
+* **[!UICONTROL Datasets]** - Alle gegevens die in Adobe Experience Platform worden opgenomen, blijven bestaan in het Data Lake als datasets. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat. [Meer informatie](../data/get-started-datasets.md)
 
-* **[!UICONTROL Queries]** - Gebruik Adobe Experience Platform Query Service om query&#39;s te schrijven en uit te voeren, eerder uitgevoerde query&#39;s weer te geven en toegang te krijgen tot query&#39;s die zijn opgeslagen door gebruikers binnen uw organisatie. [Meer informatie](get-started-queries.md)
+* **[!UICONTROL Queries]** - Gebruik Adobe Experience Platform Query Service om query&#39;s te schrijven en uit te voeren, eerder uitgevoerde query&#39;s weer te geven en toegang te krijgen tot query&#39;s die zijn opgeslagen door gebruikers binnen uw organisatie. [Meer informatie](../data/get-started-queries.md)
 
 * **[!UICONTROL Monitoring]** - Gebruik dit menu om uw gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html){target=&quot;_blank&quot;}
 

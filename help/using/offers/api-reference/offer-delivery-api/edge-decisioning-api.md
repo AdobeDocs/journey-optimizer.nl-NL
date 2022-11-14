@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
 workflow-type: tm+mt
 source-wordcount: '1056'
 ht-degree: 1%
@@ -48,7 +48,7 @@ De SDK heeft deze bibliotheken niet met elkaar gecombineerd en is een nieuwe imp
 
 1. Installeer de SDK. Er zijn meerdere methoden om dit te doen, die op de [De SDK-pagina installeren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=en). Deze pagina gaat verder met elke andere implementatiemethode.
 
-Als u de SDK wilt gebruiken, hebt u een [schema](../../../start/get-started-schemas.md) en [datastream](../../../start/get-started-datasets.md) gedefinieerd.
+Als u de SDK wilt gebruiken, hebt u een [schema](../../../data/get-started-schemas.md) en [datastream](../../../start/get-started-datasets.md) gedefinieerd.
 
 <!-- ****TODO - Configure schema**** -->
 
