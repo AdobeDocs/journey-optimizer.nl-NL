@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c92587670a56adf6811fcad49873a8ef0c5b7e84
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1264'
 ht-degree: 36%
 
 ---
@@ -150,7 +150,7 @@ ht-degree: 36%
    + Gebruiksscenario’s {#journey-use-cases}
       + Kwesties voor zakelijk gebruik {#business-use-cases}
          + [Multikanaalberichten verzenden](using/building-journeys/journeys-uc.md)
-         + [Een bericht verzenden met Campagne v7/v8](using/building-journeys/campaign-classic-use-case.md)
+         + [Een bericht verzenden met Campagne v7/v8](using/building-journeys/ajo-ac.md)
          + [Een bericht verzenden naar abonnees](using/building-journeys/message-to-subscribers-uc.md)
       + Kwesties van technisch gebruik {#technical-use-cases}
          + [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](using/building-journeys/collections.md)
@@ -318,7 +318,7 @@ ht-degree: 36%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
+         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
@@ -389,11 +389,12 @@ ht-degree: 36%
          + [Edge-API voor besluitvorming](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batchbeslissing-API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + Data management {#data-management}
-   + [Schema&#39;s](using/start/get-started-schemas.md)
-   + Gegevenssets {#datasets}
-      + [Aan de slag met gegevenssets](using/start/get-started-datasets.md)
-      + [Voorbeelden van query](using/start/datasets-query-examples.md)
-   + [Zoekopdrachten](using/start/get-started-queries.md)
+   + [Aan de slag met gegevensbeheer](using/data/gs-data.md)
+   + [Werken met schema&#39;s](using/data/get-started-schemas.md)
+   + Journey Optimizer-gegevenssets {#datasets}
+      + [Aan de slag met gegevenssets](using/data/get-started-datasets.md)
+      + [Voorbeelden van query](using/data/datasets-query-examples.md)
+   + [Zoekopdrachten](using/data/get-started-queries.md)
 + Configuratie{#configuration}
    + [Aan de slag met de Journey Optimizer-configuratie](using/configuration/get-started-configuration.md)
    + Berichten configureren {#configuration-message}

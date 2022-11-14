@@ -8,20 +8,21 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 8%
+source-wordcount: '554'
+ht-degree: 7%
 
 ---
 
 # Een gegevensbron configureren {#configure-data-source}
 
-Dit zijn de belangrijkste stappen voor de configuratie van databronnen:
 
 >[!NOTE]
 >
 >De databronconfiguratie wordt altijd uitgevoerd door een **technische gebruiker**.
+
+Volg onderstaande stappen om een gegevensbron te configureren:
 
 1. Selecteer in de sectie van het menu ADMINISTRATIE de optie **[!UICONTROL Configurations]**. In de  **[!UICONTROL Data Sources]** sectie, klikt u op **[!UICONTROL Manage]**. De lijst met databronnen wordt weergegeven. Zie [deze pagina](../start/user-interface.md) voor meer informatie over de interface.
 
@@ -51,7 +52,7 @@ Het aantal ritten dat een veldgroep gebruikt, wordt weergegeven in het dialoogve
 
 >[!NOTE]
 >
->Als een veldgroep geen veld heeft, wordt deze niet weergegeven in de expressie-editor.
+>Als een veldgroep geen veld heeft, wordt dit niet weergegeven in de expressieeditor.
 
 ![](assets/journey3bis.png)
 

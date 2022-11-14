@@ -7,9 +7,10 @@ feature: Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -25,11 +26,11 @@ In het linkermenu, onder **Beheer**, klikt u op **Waarschuwingen**. Er is een vo
 
 ![](assets/alerts1.png)
 
-Als een dergelijk onverwacht gedrag zich voordoet, wordt een waarschuwingsbericht verzonden naar abonnees van de waarschuwing via e-mail en in-app-meldingen, in de rechterbovenhoek van de interface.
+Als een dergelijk onverwacht gedrag zich voordoet, wordt een waarschuwingsbericht verzonden naar abonnees van de waarschuwing via e-mail, in de rechterbovenhoek van de interface.
 
 ![](assets/alerts2.png)
 
-Wanneer [het bekijken alarmregels in UI van het Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), kunt u zich op elke regel afzonderlijk abonneren. Wanneer u zich abonneert op waarschuwingen via [I/O-gebeurtenismeldingen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)De waarschuwingsregels zijn echter ingedeeld in verschillende abonnementspakketten. De naam van het I/O-gebeurtenisabonnement die overeenkomt met de waarschuwing van het Leessegment is: &quot;Reis read segment Delays, Failures and Errors&quot;.
+Wanneer [waarschuwingsregels weergeven in gebruikersinterface van Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), kunt u zich op elke regel afzonderlijk abonneren. Wanneer u zich abonneert op waarschuwingen via [I/O-gebeurtenismeldingen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)De waarschuwingsregels zijn echter ingedeeld in verschillende abonnementspakketten. De naam van het I/O-gebeurtenisabonnement die overeenkomt met de waarschuwing van het Leessegment is: &quot;Reis read segment Delays, Failures and Errors&quot;.
 
 >[!WARNING]
 >

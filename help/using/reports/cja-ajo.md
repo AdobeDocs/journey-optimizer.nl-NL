@@ -7,9 +7,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '330'
 ht-degree: 1%
 
 ---
@@ -25,7 +26,7 @@ Na het maken van uw reis in [!DNL Journey Optimizer]kunt u uw klantgegevens impo
 
 Voor gebruik [!DNL Customer Journey Analytics] voor uw reizen, moet u deze integratie eerst vormen:
 
-1. [Verbinding maken](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) in [!DNL Customer Journey Analytics] met de **[!UICONTROL Dataset]** u wilt naar het Platform verzenden.
+1. [Verbinding maken](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) in [!DNL Customer Journey Analytics] met de **[!UICONTROL Dataset]** je wilt naar Adobe Experience Platform sturen.
 
    Het volgende [!DNL Journey Optimizer] kan worden geconfigureerd:
    * [Reisstapgebeurtenis](../start/datasets-query-examples.md#journey-step-event): Hiermee kunt u zien wie uw reizen binnenkomt en hoe ver ze komen.

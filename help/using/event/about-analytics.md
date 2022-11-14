@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
 # Adobe Analytics-gegevens gebruiken{#analytics-data}
 
-U kunt alle Adobe Analytics-gedragsgebeurtenisgegevens die u al vastlegt en in het Platform stroomt, benutten om reizen te starten en ervaringen voor uw klanten te automatiseren.
+U kunt alle Adobe Analytics-gedragsgebeurtenisgegevens die u al vastlegt en streamt naar Adobe Experience Platform gebruiken om reizen te starten en ervaringen voor uw klanten te automatiseren.
 
 >[!NOTE]
 >
