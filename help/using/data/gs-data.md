@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 34f6f25560cbe7873f8aea9edda3d63dab63935a
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -34,7 +34,10 @@ In grote lijnen is de flexibiliteit die u van uw gegevens wilt gebruiken driemaa
     <br>
   </td>
   <td>
-    <div>Beschikbaar in andere bestemmingen - terwijl Journey Optimizer gegevens voor een hyper-gepersonaliseerde klantenervaring synergieert en integreert, wilt u deze gegevens in andere systemen in uw algemeen technologielandschap, terwijl u voor andere manieren kijkt om deze gegevens te gebruiken. <a href="../start/ajo-integrations.md">Meer informatie</a>&lt;</div>
+    <div>Beschikbaar in andere bestemmingen - terwijl Journey Optimizer gegevens voor een hyper-gepersonaliseerde klantenervaring synergieert en integreert, wilt u deze gegevens in andere systemen in uw algemeen technologielandschap, terwijl u voor andere manieren kijkt om deze gegevens te gebruiken.
+    <div>
+     <a href="../start/ajo-integrations.md">Meer informatie</a></div>
+    </div>
     <br>
   </td>
 </tr>
