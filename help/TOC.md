@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2acc398732805d5fdb9f6ba2feaabcb0fa22093e
+source-git-commit: 56b0726c0d8db3025d3ba3ef2b863fec7f03c726
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 37%
@@ -257,12 +257,12 @@ ht-degree: 37%
       + [Aan de slag met profielen](using/segment/get-started-profiles.md)
       + [Testprofielen maken](using/segment/creating-test-profiles.md)
    + [Identiteiten](using/segment/get-started-identity.md)
-   + [Licentiegebruik](using/segment/license-usage.md)
    + Doelgroep samenstellen {#audience-orchestration}
       + [Aan de slag met publiekscompositie](using/segment/get-started-audience-orchestration.md)
       + [Samenstellingswerkstromen maken](using/segment/create-compositions.md)
       + [Werken met het compositicanvas](using/segment/composition-canvas.md)
       + [Toegang tot en beheer van het publiek](using/segment/access-audiences.md)
+   + [Licentiegebruik](using/segment/license-usage.md)
 + Bijhouden en bewaken {#reporting}
    + Live-rapport {#live-report}
       + [Aan de slag met Live-rapport](using/reports/live-report.md)
@@ -317,7 +317,7 @@ ht-degree: 37%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
+         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
