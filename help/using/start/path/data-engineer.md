@@ -5,7 +5,7 @@ title: Journey Optimizer Get Started for Data Engineer
 description: Als gegevensengineer leert u meer hoe u met Journey Optimizer kunt werken
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 2%
@@ -29,7 +29,7 @@ De stappen om een identiteitsnamespace en een dataset tot stand te brengen die v
 
 1. **Een schema maken** en inschakelen voor profielen. Een schema is een set regels die de structuur en indeling van gegevens vertegenwoordigen en valideren. Op een hoog niveau, verstrekken de schema&#39;s een abstracte definitie van een real-world voorwerp (zoals een persoon) en schetsen welke gegevens in elke instantie van dat voorwerp (zoals voornaam, achternaam, verjaardag, etc.) zouden moeten worden omvat.  Meer informatie over schema&#39;s [op deze pagina](../../data/get-started-schemas.md).
 
-1. **Gegevenssets maken** en inschakelen voor profielen. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat. Datasets bevatten ook metagegevens die verschillende aspecten van de gegevens beschrijven die ze opslaan. Zodra een dataset wordt gecreeerd, kunt u het aan een bestaand schema in kaart brengen en gegevens toevoegen in het. Meer informatie over gegevenssets [op deze pagina](../get-started-datasets.md).
+1. **Gegevenssets maken** en inschakelen voor profielen. Een dataset is een opslag en beheersconstructie voor een inzameling van gegevens, typisch een lijst, die een schema (kolommen) en gebieden (rijen) bevat. Datasets bevatten ook metagegevens die verschillende aspecten van de gegevens beschrijven die ze opslaan. Zodra een dataset wordt gecreeerd, kunt u het aan een bestaand schema in kaart brengen en gegevens toevoegen in het. Meer informatie over gegevenssets [op deze pagina](../../data/get-started-datasets.md).
 
 1. **Bronconnectors configureren**. Met de Adobe Reis Optimzer kunt u gegevens uit externe bronnen innemen en kunt u inkomende gegevens structureren, labelen en verbeteren met behulp van de services van Platforms. U kunt gegevens uit diverse bronnen invoeren, zoals Adobe-toepassingen, opslag in de cloud, databases en vele andere. Meer informatie over bronconnectors [op deze pagina](../get-started-sources.md).
 
