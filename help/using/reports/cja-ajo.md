@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,9 +29,9 @@ Voor gebruik [!DNL Customer Journey Analytics] voor uw reizen, moet u deze integ
 1. [Verbinding maken](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) in [!DNL Customer Journey Analytics] met de **[!UICONTROL Dataset]** je wilt naar Adobe Experience Platform sturen.
 
    Het volgende [!DNL Journey Optimizer] kan worden geconfigureerd:
-   * [Reisstapgebeurtenis](../start/datasets-query-examples.md#journey-step-event): Hiermee kunt u zien wie uw reizen binnenkomt en hoe ver ze komen.
-   * [Gegevensbestanden voor feedback/reeksspatiëring](../start/datasets-query-examples.md#message-feedback-event-dataset): staat u toe om leveringsinformatie over uw berichten te bekijken die door worden verzonden [!DNL Journey Optimizer].
-   * [Gegevensbestanden voor entiteiten en reizen](../start/datasets-query-examples.md#entity-dataset): Hiermee kunt u zoeken in familienamen en deze gebruiken in uw rapportage.
+   * [Reisstapgebeurtenis](../data/datasets-query-examples.md#journey-step-event): Hiermee kunt u zien wie uw reizen binnenkomt en hoe ver ze komen.
+   * [Gegevensbestanden voor feedback/reeksspatiëring](../data/datasets-query-examples.md#message-feedback-event-dataset): staat u toe om leveringsinformatie over uw berichten te bekijken die door worden verzonden [!DNL Journey Optimizer].
+   * [Gegevensbestanden voor entiteiten en reizen](../data/datasets-query-examples.md#entity-dataset): Hiermee kunt u zoeken in familienamen en deze gebruiken in uw rapportage.
 
 1. [Een gegevensweergave maken](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) om de afmetingen en metriek te vormen u voor uw rapport wilt gebruiken.
 

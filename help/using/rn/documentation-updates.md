@@ -4,7 +4,7 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ca423c25d39162838368b2242c1aff99388df768
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 18%
@@ -19,7 +19,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 * Toegevoegd een geval van het reisgebruik op hoe te om productie te beperken gebruikend Externe Gegevensbronnen en de Acties van de Douane. [Meer informatie](../building-journeys/limit-throughput.md)
 * De gevallenge van het reisgebruik is gereorganiseerd in twee categorieën: [Kwesties voor zakelijk gebruik](../building-journeys/journeys-uc.md) en [Kwesties van technisch gebruik](../building-journeys/collections.md).
-* De **Entiteitsgegevens** is bijgewerkt met meer details. [Meer informatie](../start/datasets-query-examples.md#entity-dataset)
+* De **Entiteitsgegevens** is bijgewerkt met meer details. [Meer informatie](../data/datasets-query-examples.md#entity-dataset)
 * De informatie over het beleid inzake opt-out-beheer en toestemmingen is in een nieuw hoofdstuk ondergebracht. [Meer informatie](../privacy/opt-out.md)
 * De sectie over geavanceerde parameters in reisberichten is verduidelijkt en specificeert nu dat de e-mailadresopheffing slechts voor specifieke gebruiksgevallen zou moeten worden gebruikt. Meestal wordt de waarde gedefinieerd als het primaire adres in de **Uitvoervelden** Dat is de methode die moet worden gebruikt. [Meer informatie](../messages/messages-in-journeys.md#adv-settings)
 * Een notitie toegevoegd aan de **Subdomeinen van bestemmingspagina configureren** -sectie om aan te geven dat hoofdletters niet zijn toegestaan in subdomeinen van de landingspagina. [Meer informatie](../configuration/lp-subdomains.md)
@@ -31,7 +31,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Voorbeelden van query&#39;s voor nieuwe stapgebeurtenissen en informatie over het verschil tussen id, instanceid en profileid zijn toegevoegd. [Meer informatie](../reports/query-examples.md).
 * De pagina&#39;s die betrekking hebben op de [toDateOnly](../building-journeys/functions/functiontodateonly.md) en [toString](../building-journeys/functions/functiontostring.md) functies.
 * Meer informatie over de parameters voor de tijdvoorwaarde. [Meer informatie](../building-journeys/condition-activity.md#time_condition)
-* Toegevoegde informatie over ingebouwde datasets. [Meer informatie](../start/get-started-datasets.md#access-datasets)
+* Toegevoegde informatie over ingebouwde datasets. [Meer informatie](../data/get-started-datasets.md#access-datasets)
 * De secties Global Report en Live zijn gereorganiseerd om beter leesbaar te worden. [Meer informatie](../reports/global-report.md)
 * Er is een lijst toegevoegd met alle in Adobe Journey Optimizer beschikbare rapporteringsmetrische gegevens.
    [Meer informatie](../reports/global-report.md#email-and-sms-metrics)
@@ -65,7 +65,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Er is een nieuw gedeelte toegevoegd aan de documentatie over het toevoegen van HTML- of JSON-inhoud uit de Adobe Experience Cloud Asset Library aan een aanbiedingsweergave. [Meer informatie](../offers/offer-library/add-representations.md#html-json)
 * Er is een nieuwe pagina toegevoegd over de levensstijl van de reis. [Meer informatie](../building-journeys/journey.md#journey-versions)
 * De pagina Wachttijd activiteit is bijgewerkt. [Meer informatie](../building-journeys/wait-activity.md)
-* De lijst met Adobe Journey Optimizer-gegevenssets met queryvoorbeelden toegevoegd. [Meer informatie](../start/datasets-query-examples.md)
+* De lijst met Adobe Journey Optimizer-gegevenssets met queryvoorbeelden toegevoegd. [Meer informatie](../data/datasets-query-examples.md)
 * De pagina van de Lijst van gewenste personen is verplaatst naar de sectie van de Configuratie. [Meer informatie](../configuration/allow-list.md)
 * De pagina van de Lijst van de Onderdrukking is bijgewerkt om sommige informatie te verduidelijken, met inbegrip van het feit dat alle karakters van ASCII tussen 32 en 126 in de reden voor onderdrukking worden toegestaan. [Meer informatie](../configuration/manage-suppression-list.md)
 * Er is een verband toegevoegd met garanties en statische limieten voor het beheer van besluiten. [Meer informatie](../start/guardrails.md)
@@ -90,7 +90,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 22 april is in detail beschreven in de documentatie. [Meer informatie](release-notes.md)
 * De **reacties** de pagina met gebeurtenisdocumentatie is bijgewerkt. [Meer informatie](../building-journeys/reaction-events.md)
 * Video&#39;s voor beslissingsbeheermogelijkheden zijn bijgewerkt met Journey Optimizer-gebruikersinterface. [Meer informatie](../offers/get-started/starting-offer-decisioning.md)
-* De **Aan de slag met gegevenssets** de sectie is verbeterd aan detail hoe te om tot datasets toegang te hebben en te creëren. [Meer informatie](../start/get-started-datasets.md)
+* De **Aan de slag met gegevenssets** de sectie is verbeterd aan detail hoe te om tot datasets toegang te hebben en te creëren. [Meer informatie](../data/get-started-datasets.md)
 * Er zijn koppelingen toegevoegd naar hulplijnen en opmerkingen bij de release van het product **Adobe Journey Optimizer-documentatie** homepage. [Meer informatie](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * De **Voorinstellingen voor berichten maken** in deze sectie wordt nu aangegeven dat u niet kunt doorgaan met het maken van een voorinstelling terwijl de geselecteerde IP-pool zich in de editie bevindt (**[!UICONTROL Processing]** status) en is nooit gekoppeld aan het geselecteerde subdomein. [Meer informatie](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * Voorinstellingen voor berichten **URL-tracking** is bijgewerkt om kleine wijzigingen in de gebruikersinterface te weerspiegelen. [Meer informatie](../configuration/channel-surfaces.md#url-tracking)

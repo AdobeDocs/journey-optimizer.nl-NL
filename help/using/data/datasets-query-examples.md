@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 Op deze pagina vindt u de lijst met Adobe Journey Optimizer-gegevenssets en verwante gebruiksgevallen:
 
 [Dataset over e-mailvolgervaringen](../start/datasets-query-examples.md#email-tracking-experience-event-dataset)
-[Gegevensset voor feedbackgebeurtenis](../start/datasets-query-examples.md#message-feedback-event-dataset)
-[Dataset met gebeurtenissen voor het bijhouden van pushmeldingen](../start/datasets-query-examples.md#push-tracking-experience-event-dataset)
-[Reisstapgebeurtenis](../start/datasets-query-examples.md#journey-step-event)
-[Dataset voor beslissingsgebeurtenis](../start/datasets-query-examples.md#ode-decisionevents)
-[Dataset voor goedgekeurde service](../start/datasets-query-examples.md#consent-service-dataset)
-[Gegevensset BCC-feedbackgebeurtenis](../start/datasets-query-examples.md#bcc-feedback-event-dataset)
-[Entiteitsgegevens](../start/datasets-query-examples.md#entity-dataset)
+[Gegevensset voor feedbackgebeurtenis](../data/datasets-query-examples.md#message-feedback-event-dataset)
+[Dataset met gebeurtenissen voor het bijhouden van pushmeldingen](../data/datasets-query-examples.md#push-tracking-experience-event-dataset)
+[Reisstapgebeurtenis](../data/datasets-query-examples.md#journey-step-event)
+[Dataset voor beslissingsgebeurtenis](../data/datasets-query-examples.md#ode-decisionevents)
+[Dataset voor goedgekeurde service](../data/datasets-query-examples.md#consent-service-dataset)
+[Gegevensset BCC-feedbackgebeurtenis](../data/datasets-query-examples.md#bcc-feedback-event-dataset)
+[Entiteitsgegevens](../data/datasets-query-examples.md#entity-dataset)
 
 ## Dataset over e-mailvolgervaringen{#email-tracking-experience-event-dataset}
 
