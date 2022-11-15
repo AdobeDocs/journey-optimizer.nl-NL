@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 1%
@@ -17,8 +17,10 @@ ht-degree: 1%
 
 # Werken met [!DNL Customer Journey Analytics] {#cja-ajo}
 
-![](assets/cja.png)
+
 [!DNL Journey Optimizer] integratie met [!DNL Customer Journey Analytics] biedt een holistische weergave van al uw reizen met geautomatiseerde rapportdistributie en aangepaste visualisaties van de gegevens.
+
+![](assets/cja.png)
 
 Na het maken van uw reis in [!DNL Journey Optimizer]kunt u uw klantgegevens importeren naar [!DNL Customer Journey Analytics] om rapporten te beginnen en het effect van elke interactie te begrijpen een klant met uw reizen heeft.
 
