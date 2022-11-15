@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: 440c75dfd69c945ce01b73d8241138a70c7dd02b
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2141'
 ht-degree: 18%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 18%
 # Documentatie-updates {#latest-updates}
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
+
+## November 2022 {#november-2022}
+
+Er is een aanbeveling toegevoegd met betrekking tot de lengte van URL&#39;s van spiegelpagina&#39;s. [Meer informatie](../design/message-tracking.md)
 
 ## Oktober 2022 {#october-2022}
 
