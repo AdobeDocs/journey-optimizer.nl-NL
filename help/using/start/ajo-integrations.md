@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 9331c5de057a8de0b52bc4db34c17bc3ab79f193
+source-git-commit: 12ae84646e69870564406066e102c540ac920df7
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '528'
 ht-degree: 4%
 
 ---
@@ -22,8 +22,7 @@ Met Adobe Journey Optimizer kunt u deze gegevens eenvoudig beheren, behouden en 
 
 >[!NOTE]
 >
-> Adobe Journey Optimizer is gebaseerd op Adobe Experience Platform en heeft native verbinding met [Adobe Real-time klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target=&quot;_blank&quot;}. Deze ingebouwde gegevensbron is vooraf geconfigureerd en is ontworpen om gegevens op te halen en te gebruiken uit het Real-time profiel van de Klant (bijvoorbeeld, controleer of de persoon die een reis is aangegaan een klant is of niet). Hiermee kunt u de gegevens van het profiel en Events gebruiken.
-
+> Adobe Journey Optimizer is gebaseerd op Adobe Experience Platform en heeft native verbinding met [Adobe Real-time klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target=&quot;_blank&quot;}. Deze ingebouwde gegevensbron is vooraf geconfigureerd en is ontworpen om gegevens op te halen en te gebruiken uit het Real-time profiel van de Klant (bijvoorbeeld, controleer of de persoon die een reis is aangegaan een klant is of niet). Hiermee kunt u de gegevens van het profiel en Events gebruiken. [Meer informatie](../datasource/adobe-experience-platform-data-source.md).
 
 ## Rapportage{#integration-reporting}
 
@@ -45,7 +44,7 @@ Meer informatie over [Journey Optimizer + Analytics](../event/about-analytics.md
 
 ## Machine leren{#integration-intelligent-service}
 
-Dankzij de integratie met Adobe Intelligent Services kunt u gebruikmaken van de kracht van kunstmatige intelligentie en het leren van machines in gebruiksgevallen van de klantervaring. Dit staat voor marketing analisten toe om voorspellingen op te zetten specifiek voor de behoeften van een bedrijf gebruikend zaken-vlakke configuraties zonder de behoefte aan de deskundigheid van de gegevenswetenschap.
+Dankzij de integratie met Adobe Intelligent Services kunt u gebruikmaken van de kracht van kunstmatige intelligentie en het leren van machines in gebruiksgevallen van de klantervaring. Dit staat voor marketing analisten toe om voorspellingen op te zetten specifiek voor de behoeften van een bedrijf gebruikend zaken-vlakke configuraties zonder de behoefte aan de deskundigheid van de gegevenswetenschap. [Meer informatie](../building-journeys/ai-services-overview.md).
 
 ## Berichten verzenden {#integration-messages}
 
