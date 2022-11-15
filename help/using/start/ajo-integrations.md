@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 6c322a979ec4918228162799453b144765d69b28
+source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '516'
 ht-degree: 4%
 
 ---
@@ -41,7 +41,7 @@ U kunt alle Adobe Analytics-gedragsgebeurtenisgegevens die u al vastlegt en stre
 
 Meer informatie over [Journey Optimizer + Analytics](../event/about-analytics.md).
 
-## Machine leren{#integration-intelligent-service}
+## Adobe Intelligente services{#integration-intelligent-service}
 
 Dankzij de integratie met Adobe Intelligent Services kunt u gebruikmaken van de kracht van kunstmatige intelligentie en het leren van machines in gebruiksgevallen van de klantervaring. Dit staat voor marketing analisten toe om voorspellingen op te zetten specifiek voor de behoeften van een bedrijf gebruikend zaken-vlakke configuraties zonder de behoefte aan de deskundigheid van de gegevenswetenschap. [Meer informatie](../building-journeys/ai-services-overview.md).
 
