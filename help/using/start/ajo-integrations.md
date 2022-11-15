@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 12ae84646e69870564406066e102c540ac920df7
+source-git-commit: 6c322a979ec4918228162799453b144765d69b28
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '515'
 ht-degree: 4%
 
 ---
@@ -24,9 +24,8 @@ Met Adobe Journey Optimizer kunt u deze gegevens eenvoudig beheren, behouden en 
 >
 > Adobe Journey Optimizer is gebaseerd op Adobe Experience Platform en heeft native verbinding met [Adobe Real-time klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target=&quot;_blank&quot;}. Deze ingebouwde gegevensbron is vooraf geconfigureerd en is ontworpen om gegevens op te halen en te gebruiken uit het Real-time profiel van de Klant (bijvoorbeeld, controleer of de persoon die een reis is aangegaan een klant is of niet). Hiermee kunt u de gegevens van het profiel en Events gebruiken. [Meer informatie](../datasource/adobe-experience-platform-data-source.md).
 
-## Rapportage{#integration-reporting}
 
-### Adobe Customer Journey Analytics{#integration-cja}
+## Adobe Customer Journey Analytics{#integration-cja}
 
 U kunt door Journey Optimizer gegenereerde gegevens exporteren om geavanceerde analyses in Customer Journey Analytics uit te voeren.
 
@@ -36,7 +35,7 @@ Nadat u uw reis in Journey Optimizer hebt gemaakt, kunt u uw klantgegevens naar 
 
 Meer informatie over [Journey Optimizer + Customer Journey Analytics](../reports/cja-ajo.md).
 
-### Adobe Analytics{#integration-aa}
+## Adobe Analytics{#integration-aa}
 
 U kunt alle Adobe Analytics-gedragsgebeurtenisgegevens die u al vastlegt en streamt naar Adobe Experience Platform gebruiken om reizen te starten en ervaringen voor uw klanten te automatiseren.
 
@@ -46,11 +45,8 @@ Meer informatie over [Journey Optimizer + Analytics](../event/about-analytics.md
 
 Dankzij de integratie met Adobe Intelligent Services kunt u gebruikmaken van de kracht van kunstmatige intelligentie en het leren van machines in gebruiksgevallen van de klantervaring. Dit staat voor marketing analisten toe om voorspellingen op te zetten specifiek voor de behoeften van een bedrijf gebruikend zaken-vlakke configuraties zonder de behoefte aan de deskundigheid van de gegevenswetenschap. [Meer informatie](../building-journeys/ai-services-overview.md).
 
-## Berichten verzenden {#integration-messages}
 
-U kunt een systeem van derden gebruiken om berichten te verzenden.
-
-### Adobe Campaign{#integration-ac}
+## Adobe Campaign{#integration-ac}
 
 Integratie is beschikbaar als u Adobe Campaign v7 of v8 hebt. Gebruik deze integratie om e-mails, pushberichten en SMS te verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging.
 
@@ -60,7 +56,7 @@ U kunt ook een integratie met Adobe Campaign Standard opzetten om berichten tijd
 
 Meer informatie over [Journey Optimizer + Campaign Standard](../building-journeys/ajo-ac.md).
 
-### Aangepaste kanalen{#integration-custom}
+## Aangepaste kanalen{#integration-custom}
 
 Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om zijn verbinding aan uw reis te vormen. U kunt bijvoorbeeld verbinding maken met de volgende systemen met aangepaste handelingen: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase, enz.
 
