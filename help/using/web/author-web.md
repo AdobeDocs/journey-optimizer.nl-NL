@@ -7,10 +7,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 50bafd20671912ecbcb595a59fed0e7bad95a200
+exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
+source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 2%
+source-wordcount: '878'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +29,11 @@ Webpagina&#39;s openen en ontwerpen in het dialoogvenster [!DNL Journey Optimize
 
 Nadat u een webactie hebt gemaakt vanuit de campagne, kunt u de inhoud bewerken met de webontwerper. Hiervoor voert u de volgende stappen uit.
 
-1. Van de **[!UICONTROL Action]** tabblad van de campagne, selecteert u **[!UICONTROL Edit content]** om uw webcampagne te gaan ontwerpen. [Meer informatie](create-web.md#configure-web-campaign)
+>[!CAUTION]
+>
+>Te benaderen in [!DNL Journey Optimizer], moet uw webpagina worden geïmplementeerd met de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
+
+1. Van de **[!UICONTROL Action]** tabblad van de campagne, selecteert u **[!UICONTROL Edit content]** om uw webcampagne te gaan ontwerpen.
 
 1. Als u een pagina&#39;s maakte die regel aanpassen, moet u om het even welke URL ingaan die deze regel aanpast. De wijzigingen worden toegepast op alle pagina&#39;s die aan de regel voldoen.
 
@@ -42,7 +47,7 @@ Nadat u een webactie hebt gemaakt vanuit de campagne, kunt u de inhoud bewerken 
 
    >[!CAUTION]
    >
-   >De webpagina moet worden geïmplementeerd met de functie [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
+   >De webpagina moet de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
 
 1. Klikken **[!UICONTROL Open web designer]** om het te bewerken. [Meer informatie](author-web.md)
 
