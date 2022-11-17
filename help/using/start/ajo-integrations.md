@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
+source-git-commit: f635c6995c453ed6d1042ef3e699d977e824f01e
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '557'
 ht-degree: 4%
 
 ---
@@ -24,12 +24,11 @@ Met Adobe Journey Optimizer kunt u deze gegevens eenvoudig beheren, behouden en 
 >
 > Adobe Journey Optimizer is gebaseerd op Adobe Experience Platform en heeft native verbinding met [Adobe Real-time klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target=&quot;_blank&quot;}. Deze ingebouwde gegevensbron is vooraf geconfigureerd en is ontworpen om gegevens op te halen en te gebruiken uit het Real-time profiel van de Klant (bijvoorbeeld, controleer of de persoon die een reis is aangegaan een klant is of niet). Hiermee kunt u de gegevens van het profiel en Events gebruiken. [Meer informatie](../datasource/adobe-experience-platform-data-source.md).
 
-
 ## Adobe Customer Journey Analytics{#integration-cja}
 
 U kunt door Journey Optimizer gegenereerde gegevens exporteren om geavanceerde analyses in Customer Journey Analytics uit te voeren.
 
-De integratie van Journey Optimizer met Customer Journey Analytics biedt een holistische visie op al uw reizen met geautomatiseerde rapportdistributie en aangepaste visualisaties van de gegevens.
+De integratie van Journey Optimizer met Customer Journey Analytics biedt een holistische visie op al uw reizen, campagnes en aanbiedingen met geautomatiseerde rapportdistributie en aangepaste visualisaties van de gegevens.
 
 Nadat u uw reis in Journey Optimizer hebt gemaakt, kunt u uw klantgegevens naar Customer Journey Analytics importeren om rapporten te starten en inzicht te krijgen in de impact van elke interactie die een klant met uw reizen heeft.
 
@@ -37,13 +36,13 @@ Meer informatie over [Journey Optimizer + Customer Journey Analytics](../reports
 
 ## Adobe Analytics{#integration-aa}
 
-U kunt alle Adobe Analytics-gedragsgebeurtenisgegevens die u al vastlegt en streamt naar Adobe Experience Platform gebruiken om reizen te starten en ervaringen voor uw klanten te automatiseren.
+U kunt alle Adobe Analytics-gedragsgebeurtenisgegevens die u al vastlegt en streamt naar Adobe Experience Platform gebruiken om realtime reizen te activeren en ervaringen voor uw klanten te automatiseren.
 
 Meer informatie over [Journey Optimizer + Analytics](../event/about-analytics.md).
 
 ## Adobe Intelligente services{#integration-intelligent-service}
 
-Dankzij de integratie met Adobe Intelligent Services kunt u gebruikmaken van de kracht van kunstmatige intelligentie en het leren van machines in gebruiksgevallen van de klantervaring. Dit staat voor marketing analisten toe om voorspellingen op te zetten specifiek voor de behoeften van een bedrijf gebruikend zaken-vlakke configuraties zonder de behoefte aan de deskundigheid van de gegevenswetenschap. [Meer informatie](../building-journeys/ai-services-overview.md).
+Dankzij de integratie met Adobe Intelligent Services kunt u gebruikmaken van de kracht van kunstmatige intelligentie en het leren van machines in gebruiksgevallen van de klantervaring. Dit staat voor marketing analisten toe om voorspellingen op te zetten specifiek voor de behoeften van een bedrijf gebruikend zaken-vlakke configuraties zonder de behoefte aan de deskundigheid van de gegevenswetenschap. Met Adobe Intelligent Services kunnen merken bijvoorbeeld op basis van leerresultaten voor churn- of conversiemachines maken die beschikbaar zijn als profielkenmerken in Adobe Experience Platform en die kunnen worden gebruikt om een reis aan uw wensen aan te passen. [Meer informatie](../building-journeys/ai-services-overview.md).
 
 
 ## Adobe Campaign{#integration-ac}
@@ -64,7 +63,7 @@ Aangepaste acties zijn aanvullende acties die door technische gebruikers worden 
 
 Meer informatie over [aangepaste handelingen](../action/about-custom-action-configuration.md).
 
-## Externe systemen{#integration-external-systems}
+## Externe databronnen{#integration-external-systems}
 
 Met Journey Optimizer kunt u verbindingen met externe systemen configureren via aangepaste gegevensbronnen en aangepaste handelingen. Zo kunt u bijvoorbeeld uw reizen verrijken met gegevens die afkomstig zijn van een extern reserveringssysteem.
 
