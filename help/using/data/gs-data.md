@@ -9,9 +9,10 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 34f6f25560cbe7873f8aea9edda3d63dab63935a
+exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
+source-git-commit: f418570a82d7b56dfb4c83df22b8109f506ec73a
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
@@ -30,32 +31,23 @@ In grote lijnen is de flexibiliteit die u van uw gegevens wilt gebruiken driemaa
 <table style="table-layout:fixed">
 <tr style="border: 0;">
   <td>
-    <img alt="bestemmingen" src="assets/do-not-localize/dest.png" />
-    <br>
-  </td>
-  <td>
-    <div>Beschikbaar in andere bestemmingen - terwijl Journey Optimizer gegevens voor een hyper-gepersonaliseerde klantenervaring synergieert en integreert, wilt u deze gegevens in andere systemen in uw algemeen technologielandschap, terwijl u voor andere manieren kijkt om deze gegevens te gebruiken.
+    <div><img alt="bestemmingen" src="assets/do-not-localize/dest.png" /> 
+    <br>Beschikbaar in andere bestemmingen - terwijl Journey Optimizer gegevens voor een hyper-gepersonaliseerde klantenervaring synergieert en integreert, wilt u deze gegevens in andere systemen in uw algemeen technologielandschap, terwijl u voor andere manieren kijkt om deze gegevens te gebruiken.
     <div>
      <a href="../start/ajo-integrations.md">Meer informatie</a></div>
     </div>
     <br>
   </td>
 </tr>
-<tr style="border: 0;">
   <td>
-    <img alt="retentie" src="assets/do-not-localize/retention.png" />
-  </td>
-  <td>
-    <div>Behouden voor een bepaalde duur - Industriële of regionale regelgeving (zoals de GDPR of de CCPA) of intern beleid inzake gegevensbeheer bepalen hoe lang of hoe kort gegevens in het Data Lake van Adobe Experience Platform moeten worden bewaard of gearchiveerd. <a href="../privacy/get-started-privacy.md">Meer informatie</a></div>
+    <div><img alt="retentie" src="assets/do-not-localize/retention.png" />  
+    <br>Behouden voor een bepaalde duur - Industriële of regionale regelgeving (zoals de GDPR of de CCPA) of intern beleid inzake gegevensbeheer bepalen hoe lang of hoe kort gegevens in het Data Lake van Adobe Experience Platform moeten worden bewaard of gearchiveerd. <a href="../privacy/get-started-privacy.md">Meer informatie</a></div>
   </td>
 </tr>
 <tr style="border: 0;">
   <td>
-    <img alt="beleid" src="assets/do-not-localize/policy.png" />
-    <br>
-  </td>
-  <td>
-    <div>Verwijderde basis een overeengekomen tijdlijn of uw beleid - Gegevensverwijdering is een cruciaal aspect van gegevensbescherming en is een belangrijke stap in alle processen voor gegevensbeheer. Journey Optimizer kan meer gegevens produceren dan vereist. Ook, wilt u uiterst zorgvuldig wat gebeurt na de vereiste duur voor een dataset - of het wegens nut of regelgeving gebeurt. Het besturingselement dat u nodig hebt, moet gegevens op elk gewenst moment verwijderen.</div>
+    <div><img alt="beleid" src="assets/do-not-localize/policy.png" /> 
+    <br>Verwijderde basis een overeengekomen tijdlijn of uw beleid - Gegevensverwijdering is een cruciaal aspect van gegevensbescherming en is een belangrijke stap in alle processen voor gegevensbeheer. Journey Optimizer kan meer gegevens produceren dan vereist. Ook, wilt u uiterst zorgvuldig wat gebeurt na de vereiste duur voor een dataset - of het wegens nut of regelgeving gebeurt. Het besturingselement dat u nodig hebt, moet gegevens op elk gewenst moment verwijderen. <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html">Meer informatie over gegevenshygiëne vindt u in de documentatie van Adobe Experience Platform</a></div>
   </td>
 </tr>
 </table>
@@ -66,18 +58,23 @@ Alle gegevens worden beschouwd als het bezit van Klanten en kunnen slechts op uw
 
 U kunt de gegevensflexibiliteit van Journey Optimizer gebruiken om te voldoen aan uw specifieke vereisten met betrekking tot het bewaren, archiveren of verwijderen van gegevens:
 
-* **Gegevens extraheren/exporteren**: U kunt de extractie van brongegevens op elk moment starten via de API voor gegevenstoegang zonder boetes of vertragingen. De [API voor gegevenstoegang](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html) voorziet gebruikers van een interface RESTful die op de ontdekkingsbaarheid en de toegankelijkheid van ingebedde datasets binnen het Experience Platform wordt geconcentreerd. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **Gegevens extraheren/exporteren**: U kunt de extractie van brongegevens op elk moment starten via de API voor gegevenstoegang zonder boetes of vertragingen. De [API voor gegevenstoegang](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target=&quot;_blank&quot;} biedt gebruikers een RESTful-interface die is gericht op de detecteerbaarheid en toegankelijkheid van opgenomen datasets in het Experience Platform. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
    Merk op dat de inhoud die in reizen of campagnes wordt gebruikt niet via hierboven vermelde API- of doelmethoden kan worden geëxtraheerd.
 
 * **Bewaren van profielservicegegevens**: Voor gedragsgegevens en tijdreeksgegevens die aan een profiel worden toegevoegd, kunt u ervoor kiezen om de standaardinstelling van Journey Optimizer te gebruiken om deze gegevens te behouden gedurende maximaal 30 dagen vanaf de datum van toevoeging aan een profiel, of tot een andere door u geselecteerde tijdsperiode. De tijd die Adobe deze gegevens bewaart varieert van contract tot contract, en in het beleid van het de gegevensbehoud van een organisatie geschetst.
 
+   Meer informatie over het verlopen van gebeurtenissen in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target=&quot;_blank&quot;}.
+
 * **Opschoonings- en archiveringsmechanismen**: Het wissen van gegevens en archivering kan in Journey Optimizer vrij worden gedefinieerd en geautomatiseerd om het beleid voor gegevensbewaring te automatiseren. Het is mogelijk verschillende verouderingsstrategieën voor de verschillende gegevensentiteiten te definiëren. Exportmechanismen kunnen ook worden gedefinieerd om verouderde gegevens automatisch te exporteren voordat deze worden gewist of gearchiveerd.
+
+   De werkruimte van de Hygiëne van Gegevens in Adobe Experience Platform UI staat u toe om diverse taken van de gegevenshygiëne tot stand te brengen en te controleren, met inbegrip van het schrappen van consumentenidentiteiten en het plannen van datasetvervalsing. Meer informatie in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}.
 
 * **Data Lake and Deletions**: De gegevens van de klant die in het Datameer worden opgeslagen kunnen door Journey Optimizer worden bewaard:
 
    * gedurende 7 dagen om het aan boord nemen van klantgegevens in de profielservices te vergemakkelijken, waarna deze gegevens definitief kunnen worden verwijderd, of
    * totdat u ervoor kiest om door u te worden verwijderd
+
 
 * **Gegevens Extraheren bij beëindiging service/afsluiten**: Wanneer het contract volledig wordt geëindigd, worden de gegevens volledig verwijderd uit de opslagruimte van de Adobe. U kunt ook volledige profielextracten ophalen voordat u een overeenkomst beëindigt. Er zijn geen extra kosten voor deze functie. Dit kan op elk ogenblik en niet alleen bij beëindiging worden gedaan.
 
