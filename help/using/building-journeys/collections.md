@@ -4,7 +4,7 @@ product: journey optimizer
 title: Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen
 description: Een bericht verzenden met Campaign v7/v8
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 4%
@@ -67,6 +67,7 @@ U kunt een verzameling doorgeven in aangepaste handelingsparameters die bij uitv
     ]
    }
    ```
+
 * Als u verzamelingen wilt testen in de testmodus, moet u de modus Codeweergave gebruiken. De modus Codeweergave wordt momenteel niet ondersteund voor bedrijfsgebeurtenissen. U kunt alleen een verzameling met één element verzenden.
 
 ## Algemene procedure {#general-procedure}

@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 2%
@@ -62,6 +62,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 ## Stap 2: E-mail maken{#configure-email}
 
 1. In de **E-mail** activiteit, klik **[!UICONTROL Edit content]** en klik vervolgens op **[!UICONTROL Email Designer]**.
+
    ![](assets/personalization-uc-helpers-1.png)
 
 1. Sleep in het linkerpalet van de introductiepagina E-mail Designer drie structuurcomponenten naar de hoofdtekst van het bericht.
@@ -109,6 +110,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 1. Klikken **[!UICONTROL Validate]** en klik vervolgens op **[!UICONTROL Save]**.
 
    ![](assets/personalization-uc-helpers-6.png)
+
 1. Sla het bericht op.
 
 ## Stap 4: Lijst met artikelen uit het winkelwagentje invoegen {#each-helper}
@@ -164,6 +166,8 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
+
+
 1. Deze code plakken tussen het openen `{{#each}}` en het sluiten `{/each}}` tag:
 
    ```html
@@ -184,6 +188,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
    1. Voeg uit de vorige zoekresultaten de **[!UICONTROL Name]** gebruiken voor de expressie.
 
    Herhaal deze stappen tweemaal:
+
    * Vervang de tijdelijke aanduiding &quot;#quantity&quot; door de **[!UICONTROL Quantity]** token.
    * Vervang de tijdelijke aanduiding &quot;#priceTotal&quot; door de **[!UICONTROL Total price]** token.
 
@@ -202,7 +207,9 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
       </table>
    {{/each}}
    ```
+
 1. Klikken **[!UICONTROL Validate]** en klik vervolgens op **[!UICONTROL Save]**.
+
    ![](assets/personalization-uc-helpers-11.png)
 
 ## Stap 5: Een productspecifieke notitie invoegen {#if-helper}
@@ -225,6 +232,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
          {%else%} default_render
       {%/if%}
       ```
+
       ![](assets/personalization-uc-helpers-12.png)
 
 1. Deze voorwaarde verwijderen uit de expressie:
@@ -258,6 +266,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
          {%else%} default_render
       {%/if%}
       ```
+
       ![](assets/personalization-uc-helpers-13.png)
 
 1. De expressie wijzigen:
@@ -288,6 +297,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
          {%else%} default_render
       {%/if%}
       ```
+
    1. Verwijder de tijdelijke aanduiding &quot;default_render&quot; uit de expressie.
 1. Klikken **[!UICONTROL Validate]** en klik vervolgens op **[!UICONTROL Save]**.
 
