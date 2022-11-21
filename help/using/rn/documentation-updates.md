@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 90d7d4d39fe04198707be3d5b24888cfe5bed308
+source-git-commit: 2dcfcc8d7006c92e046152db5ac1288bdde8b063
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2143'
 ht-degree: 18%
 
 ---
@@ -17,15 +17,15 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 ## November 2022 {#november-2022}
 
-* Er is een nieuwe pagina toegevoegd over de integratie met Journey Optimizer. [Meer informatie](../start/ajo-integrations.md)
-* Er is een aanbeveling toegevoegd met betrekking tot de lengte van URL&#39;s van spiegelpagina&#39;s. [Meer informatie](../design/message-tracking.md)
+* Er is een nieuwe pagina toegevoegd over Journey Optimizer-integratie. [Meer informatie](../start/ajo-integrations.md)
+* Er is een aanbeveling toegevoegd over de lengte van URL&#39;s van spiegelpagina&#39;s. [Meer informatie](../design/message-tracking.md)
 
 ## Oktober 2022 {#october-2022}
 
 * Toegevoegd een geval van het reisgebruik op hoe te om productie te beperken gebruikend Externe Gegevensbronnen en de Acties van de Douane. [Meer informatie](../building-journeys/limit-throughput.md)
 * De gevallenge van het reisgebruik is gereorganiseerd in twee categorieën: [Kwesties voor zakelijk gebruik](../building-journeys/journeys-uc.md) en [Kwesties van technisch gebruik](../building-journeys/collections.md).
 * De **Entiteitsgegevens** is bijgewerkt met meer details. [Meer informatie](../data/datasets-query-examples.md#entity-dataset)
-* De informatie over het beleid inzake opt-out-beheer en toestemmingen is in een nieuw hoofdstuk ondergebracht. [Meer informatie](../privacy/opt-out.md)
+* De onderdelen &quot;opt-out&quot;-beheer en toestemmingsbeleid zijn gereorganiseerd. [Meer informatie](../privacy/opt-out.md)
 * De sectie over geavanceerde parameters in reisberichten is verduidelijkt en specificeert nu dat de e-mailadresopheffing slechts voor specifieke gebruiksgevallen zou moeten worden gebruikt. Meestal wordt de waarde gedefinieerd als het primaire adres in de **Uitvoervelden** Dat is de methode die moet worden gebruikt. [Meer informatie](../messages/messages-in-journeys.md#adv-settings)
 * Een notitie toegevoegd aan de **Subdomeinen van bestemmingspagina configureren** -sectie om aan te geven dat hoofdletters niet zijn toegestaan in subdomeinen van de landingspagina. [Meer informatie](../configuration/lp-subdomains.md)
 
@@ -37,7 +37,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De pagina&#39;s die betrekking hebben op de [toDateOnly](../building-journeys/functions/functiontodateonly.md) en [toString](../building-journeys/functions/functiontostring.md) functies.
 * Meer informatie over de parameters voor de tijdvoorwaarde. [Meer informatie](../building-journeys/condition-activity.md#time_condition)
 * Toegevoegde informatie over ingebouwde datasets. [Meer informatie](../data/get-started-datasets.md#access-datasets)
-* De secties Global Report en Live zijn gereorganiseerd om beter leesbaar te worden. [Meer informatie](../reports/global-report.md)
+* De secties Global Report en Live zijn verbeterd en gereorganiseerd. [Meer informatie](../reports/global-report.md)
 * Er is een lijst toegevoegd met alle in Adobe Journey Optimizer beschikbare rapporteringsmetrische gegevens.
    [Meer informatie](../reports/global-report.md#email-and-sms-metrics)
 * Het e-mailgedeelte BCC is verplaatst naar de nieuwe pagina Ondersteuning voor archivering. [Meer informatie](../configuration/archiving-support.md)

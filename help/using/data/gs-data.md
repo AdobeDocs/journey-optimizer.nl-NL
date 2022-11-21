@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: f418570a82d7b56dfb4c83df22b8109f506ec73a
+source-git-commit: 2dcfcc8d7006c92e046152db5ac1288bdde8b063
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ U kunt de gegevensflexibiliteit van Journey Optimizer gebruiken om te voldoen aa
 
 * **Opschoonings- en archiveringsmechanismen**: Het wissen van gegevens en archivering kan in Journey Optimizer vrij worden gedefinieerd en geautomatiseerd om het beleid voor gegevensbewaring te automatiseren. Het is mogelijk verschillende verouderingsstrategieën voor de verschillende gegevensentiteiten te definiëren. Exportmechanismen kunnen ook worden gedefinieerd om verouderde gegevens automatisch te exporteren voordat deze worden gewist of gearchiveerd.
 
-   De werkruimte van de Hygiëne van Gegevens in Adobe Experience Platform UI staat u toe om diverse taken van de gegevenshygiëne tot stand te brengen en te controleren, met inbegrip van het schrappen van consumentenidentiteiten en het plannen van datasetvervalsing. Meer informatie in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}.
+   De werkruimte van de Hygiëne van Gegevens in Adobe Experience Platform UI staat u toe om diverse taken van de gegevenshygiëne tot stand te brengen en te controleren, met inbegrip van het schrappen van consumentenidentiteiten en het plannen van datasetvervalsing. Deze werkruimte is beschikbaar met het beveiligings- en privacyschild en het gezondheidsschild. Meer informatie in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}.
 
 * **Data Lake and Deletions**: De gegevens van de klant die in het Datameer worden opgeslagen kunnen door Journey Optimizer worden bewaard:
 
