@@ -19,7 +19,7 @@ ht-degree: 6%
 
 Verbinden met [Adobe Experience Cloud](http://experience.adobe.com) en blader naar [!DNL Journey Optimizer].
 
-Belangrijke concepten bij het bladeren in de gebruikersinterface zijn gebruikelijk voor Adobe Experience Platform. Zie [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} voor meer informatie.
+Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Zie [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} voor meer informatie.
 
 De componenten en mogelijkheden die beschikbaar zijn in de gebruikersinterface zijn afhankelijk van uw [machtigingen](../administration/permissions.md) en op uw [licentiepakket](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Neem voor alle vragen contact op met uw Adobe Customer Success Manager.
 
