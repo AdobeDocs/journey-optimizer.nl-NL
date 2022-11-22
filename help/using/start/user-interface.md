@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+source-git-commit: 29f01b1c92c2b82a7cb11264b29604e74252b19b
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1508'
 ht-degree: 6%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 Verbinden met [Adobe Experience Cloud](http://experience.adobe.com) en blader naar [!DNL Journey Optimizer].
 
-Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Zie [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} voor meer informatie.
+Belangrijke concepten bij het bladeren in de gebruikersinterface zijn gebruikelijk voor Adobe Experience Platform. Zie [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} voor meer informatie.
 
 De componenten en mogelijkheden die beschikbaar zijn in de gebruikersinterface zijn afhankelijk van uw [machtigingen](../administration/permissions.md) en op uw [licentiepakket](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Neem voor alle vragen contact op met uw Adobe Customer Success Manager.
 
@@ -262,6 +262,11 @@ De gebruikersinterface is momenteel beschikbaar in de volgende talen:
 * Engels
 * Frans
 * Duits
+* Italiaans
+* Spaans
+* Portugees (Braziliaans)
+* Japans
+* Koreaans
 
 Uw standaardinterfacetaal wordt bepaald door de aangewezen taal die in uw gebruikersprofiel wordt gespecificeerd.
 
