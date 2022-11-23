@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: e8888ed6847fd04317e361e01a3e1dd277a9a4e5
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '1013'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,14 @@ In [!DNL Journey Optimizer] Webcreatie wordt aangedreven door de browser van Ado
 Webpagina&#39;s openen en ontwerpen in het dialoogvenster [!DNL Journey Optimizer] gebruikersinterface, volg de voorwaarden die in [deze sectie](create-web.md#prerequesites).
 
 ## Webpagina-inhoud bewerken {#edit-web-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_url_to_personalize_header"
+>title="Voer de URL in die u wilt bewerken"
+>abstract="Voer de URL in van een specifieke webpagina die u wilt gebruiken voor het bewerken van de inhoud die wordt toegepast op het hierboven gedefinieerde weboppervlak. De pagina moet worden geïmplementeerd met de Adobe Experience Platform Web SDK."
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Meer informatie"
+
+<!--Confirm the URL to use for authoring content on the surface. Typically the Authoring URL will be the surface URL itself, but you may include extra parameters if required. The page must include the Adobe Experience Platform Web SDK.-->
 
 Nadat u een webactie hebt gemaakt vanuit de campagne, kunt u de inhoud bewerken met de webontwerper. Hiervoor voert u de volgende stappen uit.
 
@@ -73,6 +81,11 @@ Nadat u een webactie hebt gemaakt vanuit de campagne, kunt u de inhoud bewerken 
 
 ## Inhoudscomponenten gebruiken {#content-components}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_components"
+>title="Inhoudscomponenten aan uw webpagina toevoegen"
+>abstract="U kunt een aantal componenten aan uw webpagina toevoegen en deze naar wens bewerken."
+
 1. Van de **[!UICONTROL Components]** kunt u de volgende componenten aan uw webpagina toevoegen en deze naar wens bewerken:
 
    * [Scheidingslijn](../design/content-components.md#divider)
@@ -113,6 +126,11 @@ Nadat u een webactie hebt gemaakt vanuit de campagne, kunt u de inhoud bewerken 
 
 ### Wisselen naar modus Bladeren {#browse-mode}
 
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_browse"
+>title="De modus Bladeren gebruiken"
+>abstract="In deze modus kunt u naar de exacte pagina navigeren vanuit het geselecteerde oppervlak dat u wilt aanpassen."
+
 U kunt de standaardinstelling wijzigen **[!UICONTROL Design]** aan de **[!UICONTROL Browse]** met de toegewezen knop.
 
 ![](assets/web-designer-browse-mode.png)
@@ -130,6 +148,11 @@ U kunt de zoomfocus ook wijzigen van 25% in 400%.
 ![](assets/web-designer-device.png)
 
 ## Wijzigingen beheren {#manage-modifications}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_modifications"
+>title="Eenvoudig al uw wijzigingen beheren"
+>abstract="Met dit deelvenster kunt u door alle aanpassingen en stijlen navigeren die u aan uw webpagina hebt toegevoegd en deze beheren."
 
 U kunt eenvoudig alle componenten, aanpassingen en stijlen beheren die u aan uw webpagina hebt toegevoegd.
 
@@ -164,6 +187,11 @@ Gebruik de **[!UICONTROL Offer decision]** in te voegen component [aanbiedingen]
 ![](assets/web-designer-offer.png)
 
 ## De webcampagne testen {#test-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_preview"
+>title="Een voorvertoning van uw webbeleving bekijken"
+>abstract="Bekijk een simulatie van hoe uw webervaring eruit zal zien."
 
 Volg onderstaande stappen om een voorvertoning van uw gewijzigde webervaring weer te geven.
 

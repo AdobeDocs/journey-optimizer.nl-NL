@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 5%
+source-wordcount: '204'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,12 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
 >title="Bepaal welk adres moet worden gebruikt"
->abstract="Wanneer verscheidene adressen in het gegevensbestand (persoonlijk, beroeps, enz.) beschikbaar zijn, kunt u kiezen welk adres om voor het verzenden voorrang te geven."
+>abstract="Als er meerdere e-mailadressen of telefoonnummers beschikbaar zijn in de database (persoonlijk, professioneel, enz.), kunt u aangeven welke prioriteit u wilt geven aan het verzenden."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_execution_address_header"
+>title="Bepaal welk adres moet worden gebruikt"
+>abstract="Bewerk de velden die worden gebruikt om het e-mailadres of telefoonnummer van het profiel te bepalen waaraan prioriteit moet worden gegeven bij het verzenden."
 
 Wanneer u een profiel als doel instelt, zijn mogelijk verschillende e-mailadressen of telefoonnummers beschikbaar in de database (professioneel e-mailadres, persoonlijk telefoonnummer, enz.).
 
