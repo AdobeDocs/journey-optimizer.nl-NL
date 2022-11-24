@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 29f01b1c92c2b82a7cb11264b29604e74252b19b
+source-git-commit: 44e87553b5a001414f28a972ec5c61947decdf55
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 6%
@@ -275,7 +275,7 @@ De taal wijzigen:
 * Klikken **Voorkeuren** vanaf uw avatar, rechtsboven.
    ![](assets/preferences.png)
 * Klik vervolgens op de taal die onder uw e-mailadres wordt weergegeven
-* Selecteer uw voorkeurstaal en klik op **Opslaan**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw voorste taal is gelokaliseerd.
+* Selecteer uw voorkeurstaal en klik op **Opslaan**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
    ![](assets/select-language.png)
 
 ## Zoeken{#unified-search}
