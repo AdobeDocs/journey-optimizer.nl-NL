@@ -7,13 +7,13 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 3d496efc-1bf9-4895-906c-3757f92c6fe3
+source-git-commit: c4683e10e4a15f99206a3e8702c1ad20591f1d67
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 2%
+source-wordcount: '554'
+ht-degree: 3%
 
 ---
-
 
 # Rapport in app {#inapp-report}
 
@@ -63,3 +63,72 @@ De **[!UICONTROL Clicks by button]** de grafiek en de lijst bevatten de beschikb
 * [In-app-bericht maken](../in-app/create-in-app.md)
 * [In-app-bericht ontwerpen](../in-app/design-in-app.md)
 * [Configuratie in de app](../in-app/inapp-configuration.md)
+
+
+>[!BEGINTABS]
+
+>[!TAB Een duwtje toevoegen aan een reis]
+
+1. Open de reis en sleep een duwactiviteit van de sectie van Acties van het palet.
+
+1. Verstrek basisinformatie over uw bericht (etiket, beschrijving, categorie), dan kies de berichtoppervlakte aan gebruik.
+
+>[!TAB Een duwtje toevoegen aan een campagne]
+
+1. Maak een nieuwe geplande of door API geactiveerde campagne, selecteer **[!UICONTROL Push notification]** als uw actie en kies **[!UICONTROL App surface]** te gebruiken.
+
+1. Klik op **[!UICONTROL Create]**.
+
+1. Van de **[!UICONTROL Properties]** sectie, uw campagne bewerken **[!UICONTROL Title]** en **[!UICONTROL Description]**.
+
+1. Klik op de knop **[!UICONTROL Select audience]** om het publiek te bepalen om van de lijst van beschikbare segmenten van Adobe Experience Platform te richten.
+
+1. In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren.
+
+1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe u de **[!UICONTROL Schedule]** van uw campagne.
+
+1. Van de **[!UICONTROL Action triggers]** kiest u de **[!UICONTROL Frequency]** van uw pushmelding:
+
+   * Eenmaal
+   * Dagelijks
+   * Wekelijks
+   * Maandelijks
+
+>[!ENDTABS]
+
+Test 2:
+
+1. Dit is een test
+
+>[!BEGINTABS]
+
+>[!TAB Een duwtje toevoegen aan een reis]
+
+    1. Open de reis en sleep een duwactiviteit van de sectie van Acties van het palet.
+    
+    1. Verstrek basisinformatie over uw bericht (etiket, beschrijving, categorie), dan kies de berichtoppervlakte aan gebruik.
+
+>[!TAB Een duwtje toevoegen aan een campagne]
+
+    1. Maak een nieuwe geplande of door API geactiveerde campagne, selecteer **[!UICONTROL Push notification]** als uw handeling en kies de **[!UICONTROL App surface]** te gebruiken.
+    
+    1. Klik op **[!UICONTROL Create]**.
+    
+    1. Vanaf **[!UICONTROL Properties]** sectie, uw campagne bewerken **[!UICONTROL Title]** en **[!UICONTROL Description]**.
+    
+    1. Klik op **[!UICONTROL Select audience]** om het publiek te bepalen om van de lijst van beschikbare segmenten van Adobe Experience Platform te richten.
+    
+    1. In de **[!UICONTROL Identity namespace]**, kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren.
+    
+    1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe u de **[!UICONTROL Schedule]** van uw campagne.
+    
+    1. Vanaf **[!UICONTROL Action triggers]***, kiest u de **[!UICONTROL Frequency]** van uw pushmelding:
+    
+    * Eenmaal
+    * Dagelijks
+    * Wekelijks
+    * Maandelijks
+
+>[!ENDTABS]
+
+1. Dit maakt deel uit van de test

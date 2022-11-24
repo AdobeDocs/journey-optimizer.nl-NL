@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: c4683e10e4a15f99206a3e8702c1ad20591f1d67
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 3%
+source-wordcount: '202'
+ht-degree: 4%
 
 ---
 
@@ -29,14 +29,42 @@ Een openingspagina is een zelfstandige webpagina waarnaar een gebruiker wordt ve
 * Geef uw ontvangers de **mogelijkheid om af te melden** van het ontvangen van uw mededelingen. [Meer informatie](lp-use-cases.md#opt-out)
 * Een **bevestigingsbericht** bij opt-in of opt-out. [Meer informatie](lp-use-cases.md#send-confirmation-email)
 
-<table>
-<tr>
-<td><img src="../assets/do-not-localize/icon_assets.svg" width="60px"><p><a href="create-lp.md">Openingspagina's maken</a></p></td>
-<td><img src="../assets/do-not-localize/icon_personalization.svg" width="60px"><p><a href="subscription-list.md">Abonnementslijsten maken</a></p></td>
-<td><img src="../assets/do-not-localize/icon_design.svg" width="60px"><p><a href="design-lp.md">Onderliggende pagina's ontwerpen</a></p></td>
-<td><img src="../assets/do-not-localize/monitor.svg" width="60px"><p><a href="../reports/lp-report-live.md">Rapportage</a></p></td>
-</tr>
-</table>
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-lp.md">
+<img alt="Lood" src="../assets/do-not-localize/lp-subscription.jpeg">
+</a>
+<div><a href="create-lp.md"><strong>Openingspagina's maken</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="subscription-list.md">
+<img alt="Onfrequent" src="../assets/do-not-localize/lp-list.jpg">
+</a>
+<div>
+<a href="subscription-list.md"><strong>Abonnementslijsten maken</strong></a>
+</div>
+<p></td>
+<td>
+<a href="design-lp.md">
+<img alt="Validatie" src="../assets/do-not-localize/lp-design.jpg">
+</a>
+<div>
+<a href="design-lp.md"><strong>Onderliggende pagina's ontwerpen</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="../reports/lp-report-live.md">
+<img alt="Validatie" src="../assets/do-not-localize/lp-reporting.jpg">
+</a>
+<div>
+<a href="../reports/lp-report-live.md"><strong>Rapportage</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
 
 ## Hoe kan ik-video{#video}
 
