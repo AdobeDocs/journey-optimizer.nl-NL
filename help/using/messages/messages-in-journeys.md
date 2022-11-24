@@ -7,13 +7,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 3a932747de33ced59d68835a96386b7ac560e4fe
+exl-id: acb5b65b-8787-4428-9924-36aa0a115926
+source-git-commit: 88182f9f685efbd45dd5ecf8a09745f55305a78f
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 1%
 
 ---
-
 
 # Berichten toevoegen tijdens reizen{#messages-in-journeys}
 
@@ -134,7 +134,7 @@ Volg onderstaande stappen om dit te doen:
 
    ![](assets/message-duplicated.png)
 
-1. Wijzig de naam van het bericht om het oorspronkelijke bericht te kunnen onderscheiden van de kopie, bijvoorbeeld bij het bewerken van berichten, zoals hieronder:
+1. Wijzig de naam van het bericht zodat u het eerste bericht kunt onderscheiden van de kopie, bijvoorbeeld bij het bewerken van berichten, zoals hieronder:
 
    ![](assets/multi-message.png)
 
