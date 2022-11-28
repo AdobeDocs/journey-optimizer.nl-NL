@@ -7,9 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 5c12ea559876d30a08f9aaf593d1b40b1f5b8bae
+exl-id: 617d623c-e038-4b5b-a367-5254116b7815
+source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '864'
 ht-degree: 3%
 
 ---
@@ -24,7 +25,7 @@ ht-degree: 3%
 >* [Aan de slag met segmenten](../segment/about-segments.md)
 
 
-## Maak uw eerste campagne {#create}
+## Uw eerste campagne maken {#create}
 
 1. Toegang krijgen tot **[!UICONTROL Campaigns]** en klik vervolgens op **[!UICONTROL Create campaign]**.
 
@@ -34,10 +35,12 @@ ht-degree: 3%
 
    ![](assets/create-campaign.png)
 
-1. In de **[!UICONTROL Properties]** in, geeft u op wanneer u de campagne wilt uitvoeren:
+1. In de **[!UICONTROL Properties]** , geeft u op hoe u de campagne wilt uitvoeren:
 
-   * **[!UICONTROL Scheduled]**: voert de campagne onmiddellijk of op een gespecificeerde datum uit. Geplande campagnes zijn gericht op het verzenden van **marketing** type berichten.
-   * **[!UICONTROL API-triggered]**: voer de campagne uit gebruikend een API vraag. API-gestuurde campagnes zijn gericht op het verzenden van **transactie** berichten, d.w.z. berichten die worden verzonden na een actie uitgevoerd door een individu: wachtwoord opnieuw instellen, kaart verlaten enzovoort. [Leer hoe u een campagne activeert met behulp van API&#39;s](api-triggered-campaigns.md)
+   * **[!UICONTROL Scheduled]**
+   * **[!UICONTROL API-triggered]**
+
+   Raadpleeg dit voor meer informatie over het type campagne en de bijbehorende betrokkenheid [sectie](#campaigntype).
 
 1. In de **[!UICONTROL Actions]** , kiest u het kanaal en het kanaaloppervlak dat u wilt gebruiken om uw bericht te verzenden en klikt u op **[!UICONTROL Create]**.
 
@@ -95,7 +98,40 @@ ht-degree: 3%
 
 Als uw campagne gereed is, kunt u deze controleren en publiceren. [Meer informatie](#review-activate)
 
+## Type campagne {#campaigntype}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_type"
+>title="Type campagne"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_category"
+>title="Campagne, categorie"
+>abstract="TBC"
+
+Er zijn twee soorten campagnes beschikbaar:
+
+* **[!UICONTROL Scheduled]**: voert de campagne onmiddellijk of op een gespecificeerde datum uit. Geplande campagnes zijn gericht op het verzenden van **marketing** type berichten.
+
+* **[!UICONTROL API-triggered]**: voer de campagne uit gebruikend een API vraag. API-gestuurde campagnes zijn gericht op het verzenden van **transactie** berichten, d.w.z. berichten die worden verzonden na een actie uitgevoerd door een individu: wachtwoord opnieuw instellen, kaart verlaten enzovoort. [Leer hoe u een campagne activeert met behulp van API&#39;s](api-triggered-campaigns.md)
+
 ## Een campagne plannen {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_start"
+>title="Start campagne"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_end"
+>title="Einde campagne"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_triggers"
+>title="actieftriggers voor campagne"
+>abstract="TBC"
 
 Standaard worden campagnes gestart zodra ze handmatig zijn geactiveerd en eindigen zodra het bericht eenmaal is verzonden.
 
@@ -105,7 +141,7 @@ Als u uw campagne niet meteen na de activering wilt uitvoeren, kunt u een datum 
 
 ![](assets/create-campaign-schedule.png)
 
-## Snelle leveringsmodus {#rapid-delivery}
+## Snelle leveringsmodus voor pushcampagne {#rapid-delivery}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_rapid_delivery"

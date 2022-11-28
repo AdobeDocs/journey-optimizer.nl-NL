@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1485'
 ht-degree: 13%
 
 ---
@@ -107,6 +107,11 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
    ![](assets/journey12.png)
 
 ## De naamruimte selecteren {#select-the-namespace}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_namespace"
+>title="Naamruimte van identiteit"
+>abstract="TBC"
 
 Met de naamruimte kunt u het type sleutel definiëren waarmee de persoon wordt geïdentificeerd die aan de gebeurtenis is gekoppeld. De configuratie is optioneel. Dit is vereist als u tijdens uw reizen aanvullende informatie wilt opvragen die afkomstig is van de [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target=&quot;_blank&quot;}. De naamruimtedefinitie is niet nodig als u alleen gegevens gebruikt die afkomstig zijn van een systeem van derden via een aangepaste gegevensbron.
 
