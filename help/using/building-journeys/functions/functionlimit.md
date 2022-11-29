@@ -6,16 +6,20 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 4%
+source-wordcount: '152'
+ht-degree: 5%
 
 ---
 
 # limiet {#limit}
 
 Retourneert de eerste of laatste N-elementen van een lijst.
+
+>[!NOTE]
+>
+>Als de doellijst een listObject is, kan deze functie alleen worden gebruikt in aangepaste actiedragers.
 
 ## Categorie
 

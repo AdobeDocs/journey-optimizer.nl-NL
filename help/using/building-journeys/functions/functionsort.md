@@ -6,16 +6,20 @@ feature: Journeys
 role: Data Engineer
 level: Experienced
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 6%
+source-wordcount: '148'
+ht-degree: 5%
 
 ---
 
 # sorteren {#sort}
 
 Hiermee sorteert u een lijst met waarden of objecten in natuurlijke volgorde.
+
+>[!NOTE]
+>
+>Als de doellijst een listObject is, kan deze functie alleen worden gebruikt in aangepaste actiedragers.
 
 ## Categorie
 

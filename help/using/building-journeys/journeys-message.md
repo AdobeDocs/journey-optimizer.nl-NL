@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 3%
+source-wordcount: '223'
+ht-degree: 2%
 
 ---
 
@@ -39,4 +39,12 @@ Volg onderstaande stappen om een bericht toe te voegen aan een rit:
 
    Alle stappen om het bericht te vormen en zijn inhoud te bepalen zijn gedetailleerd in [deze sectie](../messages/get-started-content.md).
 
+## Actieve inhoud bijwerken{#update-live-content}
 
+U kunt de inhoud van een bericht (e-mail, sms, push) tijdens een live reis bijwerken.
+
+Om dit te doen, open uw levende reis, selecteer de berichtactiviteit en klik **Inhoud bewerken**.
+
+![](assets/add-a-message2.png)
+
+U kunt de kenmerken die worden gebruikt in personalisatie echter niet wijzigen, ongeacht of het profielkenmerken of contextafhankelijke gegevens (van gebeurtenis- of reiseigenschappen) zijn.

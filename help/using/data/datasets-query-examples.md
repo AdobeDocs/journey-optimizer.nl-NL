@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -325,6 +325,8 @@ Deze dataset geeft u toegang tot markeerder bepaalde meta-gegevens die u toestaa
 >[!NOTE]
 >
 >Voorlopig zijn er twee vermeldingen voor elke berichtpublicatie in de entiteitsdataset om toekomstige compatibiliteitsredenen. Dit beïnvloedt uw capaciteit om te gebruiken sluit zich aan bij vragen zoals nodig over datasets aan om de gewenste informatie te halen.
+
+Als u, in uw rapporten, de e-mails wilt sorteren die door een specifieke reis volgens de actie worden verzonden die hen verzond. u kunt zich bij de dataset van de Terugkoppeling van het Bericht met de dataset van de Entiteit aansluiten. De volgende velden moeten worden gebruikt: `_experience.decisioning.propositions.scopeDetails.correlationID` en `_id field in entity dataset`.
 
 De volgende vraag helpt u het bijbehorende berichtmalplaatje voor een bepaalde campagne krijgen:
 

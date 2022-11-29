@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
+source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
 workflow-type: tm+mt
-source-wordcount: '2169'
+source-wordcount: '2187'
 ht-degree: 18%
 
 ---
@@ -20,6 +20,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Er is een nieuwe pagina toegevoegd over Journey Optimizer-integratie. [Meer informatie](../start/ajo-integrations.md)
 * Er is een aanbeveling toegevoegd over de lengte van URL&#39;s van spiegelpagina&#39;s. [Meer informatie](../design/message-tracking.md)
 * Er is een nieuwe subsectie in de configuratie van de e-mailinstellingen toegevoegd aan het antwoord op het e-mailadres, inclusief aanbevelingen voor een correct antwoordbeheer. [Meer informatie](../configuration/email-settings.md#reply-to-email)
+* Er is een sectie toegevoegd over het wijzigen van de inhoud van een bericht tijdens een live reis. [Meer informatie](../building-journeys/journeys-message.md#update-live-content)
 
 ## Oktober 2022 {#october-2022}
 
