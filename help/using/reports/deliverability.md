@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 146e2384e44fc040ddb73a96742cae0dea6f17da
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
 # Aan de slag met de prestaties {#manage-deliverability}
 
 Leverbaarheid is een maatstaf voor het succes van uw leveringen die uw ontvangers in postvakken bereiken.
+
+>[!NOTE]
+>
+>Voor klanten die een vergunning geven voor het Gezondheidsschild, gebruikt Adobe de Veiligheid van de Laag van het Vervoer (TLS) 1.2 om de gegevensuitwisseling tussen gebruikerssystemen (ontvangers) en Journey Optimizer (afzender) te beveiligen. Als de ontvangende mailserver geen ondersteuning biedt voor TLS 1.2, kunnen klanten problemen ondervinden met de te leveren items, zoals het terugsturen van e-mailberichten naar de oorspronkelijke afzender.
 
 **E-maillevering** verwijst naar de reeks eigenschappen die de capaciteit van een bericht bepalen om zijn bestemming, via een persoonlijk e-mailadres, binnen een korte tijd, en met de verwachte kwaliteit in termen van inhoud en formaat te bereiken. Deze kenmerken vallen in vier hoofdcategorieën: gegevenskwaliteit, bericht en inhoud, verzendende infrastructuur, en reputatie. Samen vormen ze de basis voor een succesvol e-mailprogramma.
 
