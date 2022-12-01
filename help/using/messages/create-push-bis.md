@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
+source-git-commit: 5e5b078fa61e2c615a2242f50439c2f20ea5216a
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # Een pushmelding maken {#create-push-notification-bis}
 
-## Maak de pushmelding tijdens een reis of campagne {#create}
+## Maak de pushmelding tijdens een reis of campagne
 
 Voer de onderstaande stappen uit om een pushmelding te maken:
 
@@ -71,7 +71,7 @@ Voer de onderstaande stappen uit om een pushmelding te maken:
 
 >[!ENDTABS]
 
-## Snelle leveringsmodus {#rapid-delivery}
+## Snelle leveringsmodus
 
 De snelle leveringswijze, die vroeger als wijze van de Borst bij reizen wordt bekend, is een [!DNL Journey Optimizer] een invoegtoepassing waarmee via campagnes zeer snel pushberichten op grote volumes kunnen worden verzonden.
 
@@ -79,7 +79,7 @@ Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kr
 
 Raadpleeg voor meer informatie over prestaties bij gebruik van de modus Snelle levering.
 
-### Vereisten {#prerequisites}
+### Vereisten
 
 Snelle levering overseinen komt met de volgende vereisten:
 

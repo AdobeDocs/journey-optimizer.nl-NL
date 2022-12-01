@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b7b333e96e0f4b32a0f94c3f1e67f0f3d3fc2816
+source-git-commit: 5e5b078fa61e2c615a2242f50439c2f20ea5216a
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS-marketingberichten een manier bevatten waarop de ontvangers hun abonnement gemakkelijk kunnen opzeggen. Om dit te doen, kunnen de ontvangers van SMS met opt-in en opt-out sleutelwoorden antwoorden.
 
-## Een SMS-bericht maken voor een reis of campagne {#sms-content}
+## Een SMS-bericht maken voor een reis of campagne
 
 Voer de volgende stappen uit om uw SMS-bericht aan te passen:
 
@@ -65,7 +65,7 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 
 >[!ENDTABS]
 
-## Je SMS-inhoud definiëren{#sms-content}
+## Je SMS-inhoud definiëren
 
 1. Van het reis of scherm van de campagneconfiguratie, klik **[!UICONTROL Edit content]** om de inhoud van SMS te vormen.
 
@@ -77,7 +77,7 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 
 1. Wanneer uw SMS-bericht gereed is, voltooit u de configuratie van uw berichten om deze te verzenden.
 
-## Je SMS valideren{#sms-preview}
+## Je SMS valideren
 
 >[!NOTE]
 >
