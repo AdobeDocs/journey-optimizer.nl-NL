@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 5%
@@ -26,7 +26,7 @@ ht-degree: 5%
 >
 >In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS-marketingberichten een manier bevatten waarop de ontvangers hun abonnement gemakkelijk kunnen opzeggen. Om dit te doen, kunnen de ontvangers van SMS met opt-in en opt-out sleutelwoorden antwoorden. [Meer informatie over het beheren van opt-out](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
-## Een SMS-bericht maken voor een reis of campagne {#sms-content}
+## Een SMS-bericht maken voor een reis of campagne {#create-sms-journey-campaign}
 
 Voer de volgende stappen uit om uw SMS-bericht aan te passen:
 
