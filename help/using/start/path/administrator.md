@@ -5,7 +5,7 @@ title: Journey Optimizer Aan de slag voor systeembeheer
 description: Als systeembeheerder, leer meer hoe te om met Journey Optimizer te werken
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 2%
@@ -48,11 +48,11 @@ Voer de onderstaande stappen uit:
 
 1. **Berichten en kanalen configureren**: oppervlakken definiëren, instellingen voor e-mail, sms en pushberichten aanpassen en aanpassen
 
-   * Definiëren **Instellingen voor pushmeldingen** in beide [!DNL Adobe Experience Platform] en [!DNL Adobe Experience Platform Launch]. [Meer informatie](../../configuration/push-gs.md)
+   * Definiëren **Instellingen voor pushmeldingen** in beide [!DNL Adobe Experience Platform] en [!DNL Adobe Experience Platform Launch]. [Meer informatie](../../push/push-gs.md)
 
    * Maken **kanaaloppervlakken** (d.w.z. voorinstellingen voor berichten) om alle technische parameters te configureren die vereist zijn voor e-mail, sms en pushmeldingen. [Meer informatie](../../configuration/channel-surfaces.md)
 
-   * Configureer de **SMS-kanaal** om alle technische parameters te configureren die voor SMS vereist zijn. [Meer informatie](../../configuration/sms-configuration.md)
+   * Configureer de **SMS-kanaal** om alle technische parameters te configureren die voor SMS vereist zijn. [Meer informatie](../../sms/sms-configuration.md)
 
    * Het aantal dagen beheren waarin **opnieuw** worden uitgevoerd voordat e-mailadressen naar de suppressielijst worden verzonden. [Meer informatie](../../configuration/manage-suppression-list.md)
 

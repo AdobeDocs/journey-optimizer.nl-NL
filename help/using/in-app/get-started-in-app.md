@@ -7,9 +7,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '148'
 ht-degree: 4%
 
 ---
@@ -32,9 +33,39 @@ Voordat u berichten in de app verzendt, moet u:
 
 Als u klaar bent, kunt u uw eerste In-app-bericht maken, configureren en verzenden. Leer hoe u dit kunt bereiken in [deze sectie](create-in-app.md).
 
-**Verwante onderwerpen:**
-
-* [In-app-bericht maken](create-in-app.md)
-* [In-app-bericht ontwerpen](design-in-app.md)
-* [Rapport in app](inapp-report.md)
-* [Configuratie in de app](inapp-configuration.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-in-app.md">
+<img alt="Lood" src="../assets/do-not-localize/inapp-create.jpeg">
+</a>
+<div><a href="create-in-app.md"><strong>In-app-bericht maken</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="design-in-app.md">
+<img alt="Onfrequent" src="../assets/do-not-localize/inapp-design.jpg">
+</a>
+<div>
+<a href="design-in-app.md"><strong>In-app-inhoud ontwerpen</strong></a>
+</div>
+<p></td>
+<td>
+<a href="inapp-report.md">
+<img alt="Validatie" src="../assets/do-not-localize/inapp-report.jpg">
+</a>
+<div>
+<a href="inapp-report.md"><strong>Rapport in app</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="inapp-configuration.md">
+<img alt="Validatie" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="inapp-configuration.md"><strong>In-app-kanaal configureren</strong></a>
+</div>
+<p>
+</td>
+</tr></table>

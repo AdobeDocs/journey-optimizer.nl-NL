@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 38ad3289def56440ef8e78db870a36ee14e965df
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 1%
@@ -182,7 +182,7 @@ Voer de onderstaande stappen uit om de subpagina-instellingen te definiëren.
 
    >[!NOTE]
    >
-   >U kunt een koppeling naar de primaire pagina invoegen vanuit elke subpagina van dezelfde bestemmingspagina. Als u bijvoorbeeld gebruikers wilt omleiden die een fout hebben gemaakt en zich opnieuw willen abonneren, kunt u een koppeling toevoegen van de bevestigingssubpagina naar de primaire pagina van het abonnement. Leer hoe u koppelingen kunt invoegen in [deze sectie](../design/message-tracking.md#insert-links).
+   >U kunt een koppeling naar de primaire pagina invoegen vanuit elke subpagina van dezelfde bestemmingspagina. Als u bijvoorbeeld gebruikers wilt omleiden die een fout hebben gemaakt en zich opnieuw willen abonneren, kunt u een koppeling toevoegen van de bevestigingssubpagina naar de primaire pagina van het abonnement. Leer hoe u koppelingen kunt invoegen in [deze sectie](../email/message-tracking.md#insert-links).
 
 1. Definieer de URL van de bestemmingspagina. Voor het eerste deel van de URL moet u eerder een subdomein voor een bestemmingspagina instellen. [Meer informatie](../configuration/lp-subdomains.md)
 
@@ -212,7 +212,7 @@ Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt
 
    ![](assets/lp_test-profiles.png)
 
-   De stappen om testprofielen te selecteren zijn het zelfde als wanneer het testen van een bericht. Deze worden in [deze sectie](../design/preview.md#select-test-profiles).
+   De stappen om testprofielen te selecteren zijn het zelfde als wanneer het testen van een bericht. Deze worden in [deze sectie](../email/preview.md#select-test-profiles).
 
 1. Selecteer **[!UICONTROL Preview]** en klik op **[!UICONTROL Open preview]** om de openingspagina te testen.
 
@@ -275,7 +275,7 @@ Als de landingspagina gereed is, kunt u deze publiceren en in een bericht gebrui
 
 Wanneer de landingspagina is gepubliceerd, wordt deze aan de lijst met landingspagina&#39;s toegevoegd met de opdracht **[!UICONTROL Published]** status.
 
-Het is nu live en klaar om te worden gebruikt in een [!DNL Journey Optimizer] [message](../messages/get-started-content.md) die via een [reis](../building-journeys/journey.md).
+Het is nu live en klaar om te worden gebruikt in een [!DNL Journey Optimizer] bericht dat via een [reis](../building-journeys/journey.md).
 
 >[!NOTE]
 >

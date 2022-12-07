@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 9fc05acf695396814ecfaec7cc086b07a63d4afd
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Testprofielen maken {#create-test-profiles}
 
-Testprofielen zijn vereist wanneer u de opdracht [testmodus](../building-journeys/testing-the-journey.md) op reis, en [inhoud voorvertonen en testen](../design/preview.md).
+Testprofielen zijn vereist wanneer u de opdracht [testmodus](../building-journeys/testing-the-journey.md) op reis, en [inhoud voorvertonen en testen](../email/preview.md).
 
 U kunt testprofielen op verschillende manieren maken. Op deze pagina vindt u meer informatie over:
 

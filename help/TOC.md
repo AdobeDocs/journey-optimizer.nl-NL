@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8026a214919e468b355aeb030ac1b387307e3e67
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 36%
+source-wordcount: '1301'
+ht-degree: 35%
 
 ---
 
@@ -160,57 +160,71 @@ ht-degree: 36%
    + [Aan de slag met campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Een campagne maken](using/campaigns/create-campaign.md)
    + [Een campagne bekijken en activeren](using/campaigns/review-activate-campaign.md)
-   + [Live campagnes beheren](using/campaigns/modify-stop-campaign.md)
+   + [Campagnes beheren](using/campaigns/modify-stop-campaign.md)
    + Inhoudsexperiment {#content-experiment}
       + [Aan de slag met het experimenteren met inhoud](using/campaigns/get-started-experiment.md)
       + [Een inhoudexperiment maken](using/campaigns/content-experiment.md)
       + [Statistische berekeningen begrijpen](using/campaigns/experiment-calculations.md)
       + [Testrapporten configureren](using/campaigns/reporting-configuration.md)
    + [Campagnes activeren met API&#39;s](using/campaigns/api-triggered-campaigns.md)
-+ Berichten {#messages}
-   + Aan de slag met berichten{#get-started-msg}
-      + [Overzicht](using/messages/get-started-content.md)
-      + [Berichten toevoegen tijdens reizen](using/messages/messages-in-journeys.md)
-      + [Berichten toevoegen aan campagnes](using/messages/messages-in-campaigns.md)
-   + [Een e-mail maken](using/messages/create-email.md)
-   + [Een pushmelding maken](using/messages/create-push.md)
-   + [Een SMS-bericht maken](using/messages/create-sms.md)
-   + [Een directe e-mail maken](using/messages/create-direct-mail.md)
-   + [Waarschuwingen controleren](using/messages/alerts.md)
-   + [Tijdoptimalisatie verzenden](using/messages/send-time-optimization.md)
-+ Webkanaal{#web}
-   + [Aan de slag met webkanaal](using/web/get-started-web.md)
-   + [Webervaringen maken](using/web/create-web.md)
-   + [Webpagina&#39;s van auteurs](using/web/author-web.md)
-   + [De extensie Visuele bewerkingshulp](using/web/visual-editing-helper.md)
-   + [Webrapportage](using/web/web-report.md)
++ E-mailkanaal {#email}
+   + [Aan de slag met e-mails](using/email/get-started-email.md)
+   + [Een e-mail maken](using/email/create-email.md)
+   + Uw e-mailinhoud ontwerpen {#design-email}
+      + [Aan de slag met e-mailontwerp](using/email/get-started-email-design.md)
+      + Inhoud maken {#start-creating-content}
+         + [Opnieuw starten](using/email/content-from-scratch.md)
+         + [Uw e-mailinhoud importeren](using/email/existing-content.md)
+         + [Uw eigen inhoud coderen](using/email/code-content.md)
+         + [Werken met sjablonen](using/email/email-templates.md)
+      + Uw inhoud ontwerpen {#add-content}
+         + [Inhoudscomponenten gebruiken](using/email/content-components.md)
+         + [Koppelingen toevoegen en berichten bijhouden](using/email/message-tracking.md)
+         + Elementen beheren {#manage-asset}
+            + [Werken met Assets Essentials](using/email/assets-essentials.md)
+            + [Werken met Adobe Stock](using/email/stock.md)
+         + [Aangepaste aanbiedingen toevoegen](using/email/add-offers-email.md)
+         + [De tekstversie genereren](using/email/text-version-email.md)
+         + [Een preheader toevoegen](using/email/preheader.md)
+      + Stijl bewerken {#edit-style}
+         + [Achtergrondinstellingen bewerken](using/email/backgrounds.md)
+         + [Verticale uitlijning en opvulling aanpassen](using/email/alignment-and-padding.md)
+         + [Een stijl voor koppelingen definiëren](using/email/styling-links.md)
+         + [Inline-opmaakkenmerken toevoegen](using/email/inline-styling.md)
+   + [Uw e-mail voorvertonen en testen](using/email/preview.md)
+   + [E-mailuitschakelbeheer](using/email/email-opt-out.md)
+   + E-mailkanaal configureren {#configure-email}
+      + [Aan de slag met e-mailconfiguratie](using/email/get-started-email-config.md)
+      + [Instellingen voor e-mailoppervlak configureren](using/email/email-settings.md)
 + Kanaal in app{#in-app}
    + [Aan de slag met In-app-kanaal](using/in-app/get-started-in-app.md)
    + [In-app-kanaal configureren](using/in-app/inapp-configuration.md)
    + [Een bericht in de app maken](using/in-app/create-in-app.md)
    + [In-app-inhoud ontwerpen](using/in-app/design-in-app.md)
    + [Rapport in app](using/in-app/inapp-report.md)
-+ Ontwerpcontent {#design}
-   + [Aan de slag met e-mailontwerp](using/design/design-emails.md)
-   + [Opnieuw starten ](using/design/create-email-content.md)
-   + [Uw e-mailinhoud importeren](using/design/existing-content.md)
-   + [Uw eigen inhoud coderen](using/design/code-content.md)
-   + [Werken met sjablonen](using/design/email-templates.md)
-   + Inhoud ontwerpen {#design-content}
-      + [Inhoudscomponenten gebruiken](using/design/content-components.md)
-      + [Achtergrondinstellingen](using/design/backgrounds.md)
-      + [Verticale uitlijning en opvulling aanpassen](using/design/adjusting-vertical-alignment-and-padding.md)
-      + [Een stijl voor koppelingen definiëren](using/design/styling-links.md)
-      + [Inline-opmaakkenmerken toevoegen](using/design/adding-inline-styling-attributes.md)
-   + E-mailinstellingen {#design-email}
-      + [De tekstversie genereren](using/design/text-version-email.md)
-      + [Een preheader toevoegen](using/design/preheader.md)
-   + Elementen toevoegen en beheren {#manage-asset}
-      + [Werken met Assets Essentials](using/design/assets-essentials.md)
-      + [Werken met Adobe Stock](using/design/stock.md)
-   + [Aangepaste aanbiedingen toevoegen](using/design/deliver-personalized-offers.md)
-   + [Koppelingen toevoegen en berichten bijhouden](using/design/message-tracking.md)
-   + [Voorvertoning en proefdrukken](using/design/preview.md)
++ Push-meldingskanaal{#push}
+   + [Aan de slag met pushmeldingen](using/push/get-started-push.md)
+   + [Een pushmelding maken](using/push/create-push.md)
+   + [Uw pushmelding ontwerpen](using/push/design-push.md)
+   + [Uw pushmelding verzenden](using/push/send-push.md)
+   + Pushmeldingen configureren{#push-config}
+      + [Pushberichten en Adobe Journey Optimizer](using/push/push-gs.md)
+      + [Pushmeldingskanaal configureren](using/push/push-configuration.md)
++ Sms-kanaal{#sms}
+   + [Aan de slag met sms](using/sms/get-started-sms.md)
+   + [Een SMS-bericht maken](using/sms/create-sms.md)
+   + [Een SMS-bericht verzenden](using/sms/send-sms.md)
+   + [SMS-optie beheren](using/sms/sms-opt-out.md)
+   + [Sms-kanaal configureren](using/sms/sms-configuration.md)
++ Direct mail {#direct-mail}
+   + [Een directe e-mail maken](using/direct-mail/create-direct-mail.md)
+   + [Direct mail configureren](using/direct-mail/direct-mail-configuration.md)
++ Webkanaal{#web}
+   + [Aan de slag met webkanaal](using/web/get-started-web.md)
+   + [Webervaringen maken](using/web/create-web.md)
+   + [Webpagina&#39;s van auteurs](using/web/author-web.md)
+   + [De extensie Visuele bewerkingshulp](using/web/visual-editing-helper.md)
+   + [Webrapportage](using/web/web-report.md)
 + Landingspagina’s {#landing-pages}
    + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
    + [Een landingspagina maken](using/landing-pages/create-lp.md)
@@ -318,7 +332,7 @@ ht-degree: 36%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
+         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
@@ -398,9 +412,6 @@ ht-degree: 36%
 + Configuratie{#configuration}
    + [Aan de slag met de Journey Optimizer-configuratie](using/configuration/get-started-configuration.md)
    + Berichten configureren {#configuration-message}
-      + Pushmeldingen configureren{#push-config}
-         + [Aan de slag met de pushconfiguratie](using/configuration/push-gs.md)
-         + [Pushmeldingskanaal configureren](using/configuration/push-configuration.md)
       + E-mails configureren {#email-configuration}
          + Subdomeinen delegeren {#delegate-subdomains}
             + [Aan de slag met subdomeindelegatie](using/configuration/about-subdomain-delegation.md)
@@ -414,11 +425,8 @@ ht-degree: 36%
             + [Onderdrukkingslijst](using/configuration/manage-suppression-list.md)
             + [Hernieuwde pogingen](using/configuration/retries.md)
             + [Lijst van gewenste personen](using/configuration/allow-list.md)
-      + [Sms-kanaal configureren](using/configuration/sms-configuration.md)
-      + [Direct mail configureren](using/configuration/direct-mail-configuration.md)
       + Kanaaloppervlakken instellen {#set-up-channels}
          + [Kanaaloppervlakken maken](using/configuration/channel-surfaces.md)
-         + [E-mailinstellingen configureren](using/configuration/email-settings.md)
       + [Ondersteuning voor archivering](using/configuration/archiving-support.md)
       + [Uitvoeradressen beheren](using/configuration/primary-email-addresses.md)
       + [Regels voor frequenties configureren](using/configuration/frequency-rules.md)

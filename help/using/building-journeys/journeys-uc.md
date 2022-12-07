@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 2%
@@ -88,7 +88,7 @@ De gebeurtenis is nu geconfigureerd en klaar om in uw reis te worden gebruikt. M
 
    ![](assets/jo-uc4.png)
 
-1. Een dropknop **E-mail** en definieert de inhoud van het &quot;eerste bericht&quot;. Dit bericht wordt naar alle personen op de reis gestuurd. Zie dit [sectie](../messages/create-email.md) leren hoe u een e-mail kunt configureren en ontwerpen.
+1. Een dropknop **E-mail** en definieert de inhoud van het &quot;eerste bericht&quot;. Dit bericht wordt naar alle personen op de reis gestuurd. Zie dit [sectie](../email/create-email.md) leren hoe u een e-mail kunt configureren en ontwerpen.
 
    ![](assets/jo-uc5.png)
 
@@ -104,11 +104,11 @@ De gebeurtenis is nu geconfigureerd en klaar om in uw reis te worden gebruikt. M
    >
    >Wanneer u een time-out configureert voor meerdere gebeurtenissen (de twee reacties in dit geval), hoeft u de time-out alleen te configureren voor een van deze gebeurtenissen.
 
-1. Zet een **E-mail** en definieert de inhoud van het vervolgbericht. Dit bericht wordt verzonden naar de personen die het e-mailbericht of het eerste pushbericht de volgende dag niet openen. Zie dit [sectie](../messages/create-email.md) leren hoe u een e-mail kunt configureren en ontwerpen.
+1. Zet een **E-mail** en definieert de inhoud van het vervolgbericht. Dit bericht wordt verzonden naar de personen die het e-mailbericht of het eerste pushbericht de volgende dag niet openen. Zie dit [sectie](../email/create-email.md) leren hoe u een e-mail kunt configureren en ontwerpen.
 
 1. Sluit de drie paden aan op de eerder gemaakte aankoopgebeurtenis. De gebeurtenis wordt geactiveerd wanneer een individu een aankoop doet.
 
-1. Na de gebeurtenis, laat vallen a **Push** actie en definieer de inhoud van het &#39;&#39;bedankt&#39;&#39; bericht. Zie dit [sectie](../messages/create-push.md) leren hoe u een push kunt configureren en ontwerpen.
+1. Na de gebeurtenis, laat vallen a **Push** actie en definieer de inhoud van het &#39;&#39;bedankt&#39;&#39; bericht. Zie dit [sectie](../push/create-push.md) leren hoe u een push kunt configureren en ontwerpen.
 
 ## De journey testen en publiceren
 

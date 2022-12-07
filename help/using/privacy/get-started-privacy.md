@@ -7,16 +7,18 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
-source-git-commit: a153db2adcea4d65cac0d6a4f08c7b997b9ddda1
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 10%
+source-wordcount: '240'
+ht-degree: 9%
 
 ---
 
 # Aan de slag met privacy {#privacy}
 
 Journey Optimizer is een krachtig instrument voor het verzamelen en verwerken van zeer grote hoeveelheden gegevens, waaronder persoonlijke informatie en gevoelige gegevens. Daarom moet privacy zorgvuldig worden beheerd.
+
+Bovendien wordt in verordeningen zoals de GDPR bepaald dat u aan specifieke vereisten moet voldoen voordat u informatie van Gegevenssubjecten kunt gebruiken. Bovendien moeten betrokkenen hun toestemming te allen tijde kunnen wijzigen.
 
 Adobe Experience Platform en Journey Optimizer bieden verschillende tools om u te helpen privacybeheer te garanderen.
 

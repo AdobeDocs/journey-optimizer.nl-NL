@@ -7,13 +7,13 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 0%
 
 ---
-
 
 # Dynamische inhoud maken {#dynamic-content}
 
@@ -41,7 +41,7 @@ U kunt als volgt dynamische inhoud in expressies toevoegen:
 
    ![](assets/conditions-language-sample.png)
 
-1. Als de inhoud gereed is, kunt u een voorvertoning van de verschillende varianten weergeven met de opdracht **[!UICONTROL Simulate content]** knop. [Leer hoe u berichten kunt testen en bekijken](../design/preview.md)
+1. Als de inhoud gereed is, kunt u een voorvertoning van de verschillende varianten weergeven met de opdracht **[!UICONTROL Simulate content]** knop. [Leer hoe u berichten kunt testen en bekijken](../email/preview.md)
 
    ![](assets/conditions-preview.png)
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 3%
+source-wordcount: '533'
+ht-degree: 4%
 
 ---
 
@@ -56,25 +56,58 @@ ht-degree: 3%
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
-1. In de **[!UICONTROL Actions]** , vorm het bericht om met de campagne te verzenden:
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de campagne wilt toewijzen, klikt u op de knop **[!UICONTROL Manage access]** knop. [Meer informatie over OLA (Object Level Access Control)](../administration/object-based-access.md)
 
-   1. Klik op de knop **[!UICONTROL Edit content]** en vervolgens configureert en ontwerpt u uw berichtinhoud. [Meer informatie over berichten](../messages/get-started-content.md).
+## Het bericht maken {#content}
 
-      Leer gedetailleerde stappen om uw berichtinhoud tot stand te brengen op de volgende pagina:
+In de **[!UICONTROL Actions]** , maakt u het bericht dat u wilt verzenden met de campagne.
 
-      * [Een e-mail maken](../messages/create-email.md)
-      * [Pushberichten maken](../messages/create-push.md)
-      * [Een SMS-bericht maken](../messages/create-sms.md)
-   1. Wanneer de inhoud is gedefinieerd, gebruikt u de **[!UICONTROL Simulate content]** om de inhoud met testprofielen voor te vertonen en te testen. [Meer informatie](../design/preview.md).
+1. Klik op de knop **[!UICONTROL Edit content]** en maak vervolgens uw berichtinhoud.
 
-   1. Klik op de pijl om terug te gaan naar het scherm Campagne maken.
+   Leer gedetailleerde stappen om uw berichtinhoud op de volgende pagina&#39;s tot stand te brengen:
 
-      ![](assets/create-campaign-design.png)
+   <table style="table-layout:fixed">
+    <tr style="border: 0;">
+    <td>
+    <a href="../email/create-email.md">
+    <img alt="Lood" src="../assets/do-not-localize/email.jpg">
+    </a>
+    <div><a href="../email/create-email.md"><strong>E-mails maken</strong>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../push/create-push.md">
+      <img alt="Onfrequent" src="../assets/do-not-localize/push.jpg">
+    </a>
+    <div>
+    <a href="../push/create-push.md"><strong>Pushberichten maken</strong></a>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../sms/create-sms.md">
+      <img alt="Validatie" src="../assets/do-not-localize/sms.jpg">
+    </a>
+    <div>
+    <a href="../sms/create-sms.md"><strong>SMS-berichten maken</strong></a>
+    </div>
+    <p>
+    </td>
+    </tr>
+    </table>
 
-   1. In de **[!UICONTROL Actions tracking]** in, geeft u op of u wilt bijhouden hoe de ontvangers op uw levering reageren: u kunt klikken volgen en/of opent.
+1. Wanneer de inhoud is gedefinieerd, gebruikt u de **[!UICONTROL Simulate content]** om de inhoud met testprofielen voor te vertonen en te testen. [Meer informatie](../email/preview.md).
 
-      De resultaten van het bijhouden van de campagne zijn toegankelijk via het campagnerapport nadat de campagne is uitgevoerd. [Meer informatie over campagnerapporten](../reports/campaign-global-report.md)
+1. Klik op de pijl om terug te gaan naar het scherm Campagne maken.
 
+   ![](assets/create-campaign-design.png)
+
+1. In de **[!UICONTROL Actions tracking]** in, geeft u op of u wilt bijhouden hoe de ontvangers op uw levering reageren: u kunt klikken volgen en/of opent.
+
+   De resultaten van het bijhouden van de campagne zijn toegankelijk via het campagnerapport nadat de campagne is uitgevoerd. [Meer informatie over campagnerapporten](../reports/campaign-global-report.md)
+
+## De doelgroep definiëren {#audience}
 
 1. Bepaal het publiek om te richten. Om dit te doen, klik **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-segmenten weer te geven. [Meer informatie over segmenten](../segment/about-segments.md)
 
@@ -91,6 +124,8 @@ ht-degree: 3%
    >Individuen die tot een segment behoren dat niet de geselecteerde identiteit (namespace) onder hun verschillende identiteiten heeft zullen niet door de campagne worden gericht.
 
    <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+
+## De campagne plannen {#schedule}
 
 1. Om uw campagne op een specifieke datum of op een terugkomende frequentie uit te voeren, vorm **[!UICONTROL Schedule]** sectie. [Leer hoe u campagnes kunt plannen](#schedule)
 
@@ -115,64 +150,3 @@ Er zijn twee soorten campagnes beschikbaar:
 * **[!UICONTROL Scheduled]**: voert de campagne onmiddellijk of op een gespecificeerde datum uit. Geplande campagnes zijn gericht op het verzenden van **marketing** type berichten.
 
 * **[!UICONTROL API-triggered]**: voer de campagne uit gebruikend een API vraag. API-gestuurde campagnes zijn gericht op het verzenden van **transactie** berichten, d.w.z. berichten die worden verzonden na een actie uitgevoerd door een individu: wachtwoord opnieuw instellen, kaart verlaten enzovoort. [Leer hoe u een campagne activeert met behulp van API&#39;s](api-triggered-campaigns.md)
-
-## Een campagne plannen {#schedule}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_schedule_start"
->title="Start campagne"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_schedule_end"
->title="Einde campagne"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_schedule_triggers"
->title="actieftriggers voor campagne"
->abstract="TBC"
-
-Standaard worden campagnes gestart zodra ze handmatig zijn geactiveerd en eindigen zodra het bericht eenmaal is verzonden.
-
-U kunt een frequentie bepalen waarmee het bericht van de campagne zou moeten worden verzonden. Om dit te doen, gebruik **[!UICONTROL Action triggers]** in het scherm Campagne creëren om te specificeren of de campagne dagelijks, wekelijks, of maandelijks zou moeten worden uitgevoerd.
-
-Als u uw campagne niet meteen na de activering wilt uitvoeren, kunt u een datum en tijd opgeven waarop het bericht moet worden verzonden met de opdracht **[!UICONTROL Campaign start]** optie. De  **[!UICONTROL Campaign end]** kunt u opgeven wanneer een terugkerende campagne niet meer wordt uitgevoerd.
-
-![](assets/create-campaign-schedule.png)
-
-## Snelle leveringsmodus voor pushcampagne {#rapid-delivery}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_rapid_delivery"
->title="Snelle leveringsmodus"
->abstract="Met de modus voor snelle levering kunt u snelle berichten verzenden via een pushkanaal naar een publieksgrootte van minder dan 30 MB."
-
-De snelle leveringswijze, die vroeger als wijze van de Borst bij reizen wordt bekend, is een [!DNL Journey Optimizer] een invoegtoepassing waarmee via campagnes zeer snel pushberichten op grote volumes kunnen worden verzonden.
-
-Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd.
-
-Voor meer informatie over prestaties bij gebruik van de modus Snelle levering raadpleegt u [Adobe Journey Optimizer-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html).
-
-### Vereisten {#prerequisites}
-
-Snelle levering overseinen komt met de volgende vereisten:
-
-* Snelle levering is beschikbaar voor **[!UICONTROL Scheduled]** alleen campagnes, en niet beschikbaar voor API-gestuurde campagnes;
-* In het pushbericht is geen personalisatie toegestaan.
-* Het doelpubliek moet minder dan 30M profielen bevatten,
-* U kunt tot 5 campagnes gelijktijdig uitvoeren gebruikend de Snelle leveringswijze.
-
-### Modus Snelle levering activeren
-
-1. Maak een pushmeldingscampagne en schakel de optie **[!UICONTROL Rapid delivery]** optie.
-
-![](assets/create-campaign-burst.png)
-
-1. Vorm de berichtinhoud en selecteer het publiek om te richten. [Leer een campagne maken](#create)
-
-   >[!IMPORTANT]
-   >
-   >Zorg ervoor dat de inhoud van het bericht geen personalisatie omvat, en dat het publiek minder dan 30M profielen bevat.
-
-1. Controleer en activeer uw campagne op de gebruikelijke manier. In de testmodus worden berichten niet verzonden via de snelle leveringsmodus. [Leer hoe u een campagne kunt beoordelen en activeren](review-activate-campaign.md)

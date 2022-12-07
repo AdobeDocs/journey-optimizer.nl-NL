@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 0%
@@ -22,14 +22,13 @@ ht-degree: 0%
 >title="App-oppervlak"
 >abstract="Een oppervlak is een configuratie die door een systeembeheerder is gedefinieerd. Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enz."
 
-
 Met [!DNL Journey Optimizer]kunt u kanaaloppervlakken instellen (dus voorinstellingen voor berichten) die alle technische parameters definiëren die nodig zijn voor uw berichten: e-mailtype, e-mail en naam van de afzender, mobiele apps, configuratie van SMS en meer.
 
 >[!CAUTION]
 >
 > * Als u kanaaloppervlakken wilt maken, bewerken en verwijderen, moet u beschikken over de [Kanaaloppervlak beheren](../administration/high-low-permissions.md#manage-channel-surface) toestemming.
 >
-> * U moet de opdracht [E-mailconfiguratie](email-settings.md), [Pushconfiguratie](../configuration/push-configuration.md) en [SMS-configuratie](../configuration/sms-configuration.md) stappen voordat u kanaaloppervlakken maakt.
+> * U moet de opdracht [E-mailconfiguratie](../email/get-started-email-config.md), [Pushconfiguratie](../push/push-configuration.md) en [SMS-configuratie](../sms/sms-configuration.md) stappen voordat u kanaaloppervlakken maakt.
 
 
 Zodra de kanaaloppervlakten zijn gevormd, zult u hen kunnen selecteren wanneer het creëren van berichten van een reis of een campagne.
@@ -64,7 +63,7 @@ Ga als volgt te werk om een kanaaloppervlak te maken:
    >
    > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook het onderstrepingsteken gebruiken `_`, punt`.` en afbreekstreepje `-` tekens.
 
-1. Als u **[!UICONTROL Email]** kanaal, configureert u uw instellingen zoals beschreven in [deze sectie](email-settings.md).
+1. Als u **[!UICONTROL Email]** kanaal, configureert u uw instellingen zoals beschreven in [deze sectie](../email/email-settings.md).
 
    ![](assets/preset-email.png)
 
@@ -74,15 +73,15 @@ Ga als volgt te werk om een kanaaloppervlak te maken:
 
    >[!NOTE]
    >
-   >Raadpleeg voor meer informatie over het configureren van uw omgeving voor het verzenden van pushberichten de [deze sectie](push-gs.md).
+   >Raadpleeg voor meer informatie over het configureren van uw omgeving voor het verzenden van pushberichten de [deze sectie](../push/push-gs.md).
 
-1. Voor de **[!UICONTROL SMS]** kanaal, uw montages bepalen zoals gedetailleerd in [deze sectie](sms-configuration.md#message-preset-sms).
+1. Voor de **[!UICONTROL SMS]** kanaal, uw montages bepalen zoals gedetailleerd in [deze sectie](../sms/sms-configuration.md#message-preset-sms).
 
    ![](assets/preset-sms.png)
 
    >[!NOTE]
    >
-   >Voor meer over hoe te om uw milieu te vormen om de berichten van SMS te verzenden, verwijs naar [deze sectie](sms-configuration.md).
+   >Voor meer over hoe te om uw milieu te vormen om de berichten van SMS te verzenden, verwijs naar [deze sectie](../sms/sms-configuration.md).
 
 1. Zodra alle parameters zijn gevormd, klik **[!UICONTROL Submit]** ter bevestiging. U kunt het kanaaloppervlak ook opslaan als concept en de configuratie later hervatten.
 

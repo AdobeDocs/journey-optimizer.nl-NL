@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '386'
 ht-degree: 3%
 
 ---
@@ -66,30 +66,6 @@ Controleer de volgende voorwaarden voordat u begint met het maken van uw eerste 
 
 1. **U hebt een publiek nodig**. De segmenten van het publiek moeten beschikbaar zijn alvorens de campagne te creëren. Meer informatie over publiek maken [op deze pagina](../segment/about-segments.md).
 1. **U hebt een kanaaloppervlak nodig**. Als u een kanaal wilt selecteren, moet het bijbehorende kanaaloppervlak (dus de voorinstelling) zijn gemaakt en beschikbaar. Meer informatie over kanaaloppervlakken [op deze pagina](../configuration/channel-surfaces.md).
-
-## Campagnes openen {#access}
-
-Campagnes zijn toegankelijk vanuit de **[!UICONTROL Campaigns]** -menu.
-
-Standaard worden in de lijst alle campagnes met de **[!UICONTROL Draft]**, **[!UICONTROL Scheduled]**, en **[!UICONTROL Live]** statussen. Om gestopt, voltooide, en gearchiveerde campagnes te tonen, moet u de filter ontruimen.
-
-![](assets/create-campaign-list.png)
-
-## Campagnestatus {#statuses}
-
-Campagnes kunnen meerdere statussen hebben:
-
-* **[!UICONTROL Draft]**: De campagne wordt bewerkt en is niet geactiveerd.
-* **[!UICONTROL Activating]**: De campagne wordt geactiveerd.
-* **[!UICONTROL Live]**: De campagne is geactiveerd.
-* **[!UICONTROL Scheduled]**: De campagne is geconfigureerd om te worden geactiveerd op een specifieke startdatum.
-* **[!UICONTROL Stopped]**: De campagne is handmatig gestopt. U kunt het niet meer activeren of opnieuw gebruiken. [Meer informatie](modify-stop-campaign.md#stop)
-* **[!UICONTROL Completed]**: De campagne is voltooid. Deze status wordt automatisch toegewezen 3 dagen nadat een campagne is geactiveerd, of op de einddatum van de campagne als de campagne een terugkerende uitvoering heeft.
-* **[!UICONTROL Archived]**: De campagne is gearchiveerd.
-
->[!NOTE]
->
->Het pictogram Conceptversie openen naast een **[!UICONTROL Live]** of **[!UICONTROL Scheduled]** status geeft aan dat een nieuwe versie van de campagne is gemaakt en nog niet is geactiveerd. [Meer informatie](modify-stop-campaign.md#modify).
 
 ## Hoe kan ik-video {#video}
 

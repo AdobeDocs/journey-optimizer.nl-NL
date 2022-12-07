@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 3%
@@ -155,7 +155,7 @@ Persoonlijke URL&#39;s sturen ontvangers naar specifieke pagina&#39;s van een we
 
 Met Journey Optimizer kunt u een of meer URL&#39;s in uw bericht aanpassen door er personalisatievelden aan toe te voegen. Volg onderstaande stappen om een URL aan te passen:
 
-1. Maak een koppeling in de inhoud van het bericht. [Meer informatie](../design/message-tracking.md#insert-links)
+1. Maak een koppeling in de inhoud van het bericht. [Meer informatie](../email/message-tracking.md#insert-links)
 1. Selecteer de kenmerken in het verpersoonlijkingspictogram. Het verpersoonlijkingspictogram is alleen beschikbaar voor deze typen koppelingen: **Externe koppeling**, **Koppeling met abonnement opheffen** en **Uitschakelen**.
 
 ![](assets/perso-url.png)

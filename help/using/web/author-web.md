@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: f39e2094db24e7d0e8a304750624c985ff631572
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 1%
@@ -94,13 +94,13 @@ Nadat u een webactie hebt gemaakt vanuit de campagne, kunt u de inhoud bewerken 
 
 1. Van de **[!UICONTROL Components]** kunt u de volgende componenten aan uw webpagina toevoegen en deze naar wens bewerken:
 
-   * [Scheidingslijn](../design/content-components.md#divider)
-   * [HTML](../design/content-components.md#HTML)
-   * [Afbeelding](../design/content-components.md#image)
-   * Kop - Het gebruik van deze component lijkt op het gebruik van de **[!UICONTROL Text]** in de e-mailontwerper. [Meer informatie](../design/content-components.md#text)
-   * Alinea - Het gebruik van deze component lijkt op het gebruik van de component **[!UICONTROL Text]** in de e-mailontwerper. [Meer informatie](../design/content-components.md#text)
-   * Koppeling - Leer hoe u de opmaak van koppelingen kunt definiëren in [deze sectie](../design/styling-links.md)
-   * [Offertebeslissing](../design/deliver-personalized-offers.md)
+   * [Scheidingslijn](../email/content-components.md#divider)
+   * [HTML](../email/content-components.md#HTML)
+   * [Afbeelding](../email/content-components.md#image)
+   * Kop - Het gebruik van deze component lijkt op het gebruik van de **[!UICONTROL Text]** in de e-mailontwerper. [Meer informatie](../email/content-components.md#text)
+   * Alinea - Het gebruik van deze component lijkt op het gebruik van de component **[!UICONTROL Text]** in de e-mailontwerper. [Meer informatie](../email/content-components.md#text)
+   * Koppeling - Leer hoe u de opmaak van koppelingen kunt definiëren in [deze sectie](../email/styling-links.md)
+   * [Offertebeslissing](../email/add-offers-email.md)
 
    ![](assets/web-designer-components.png)
 
@@ -188,7 +188,7 @@ Als u verpersoonlijking wilt toevoegen, selecteert u een container en selecteert
 
 ![](assets/web-designer-personalization.png)
 
-Gebruik de **[!UICONTROL Offer decision]** in te voegen component [aanbiedingen](../offers/get-started/starting-offer-decisioning.md) in uw webpagina&#39;s. Het proces is hetzelfde als wanneer [een voorstel toevoegen aan een e-mailbericht](../design/deliver-personalized-offers.md). Het zal Beslissingsbeheer gebruiken om de beste aanbieding aan uw klanten te kiezen.
+Gebruik de **[!UICONTROL Offer decision]** in te voegen component [aanbiedingen](../offers/get-started/starting-offer-decisioning.md) in uw webpagina&#39;s. Het proces is hetzelfde als wanneer [een voorstel toevoegen aan een e-mailbericht](../email/add-offers-email.md). Het zal Beslissingsbeheer gebruiken om de beste aanbieding aan uw klanten te kiezen.
 
 ![](assets/web-designer-offer.png)
 

@@ -8,7 +8,7 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 23627545ffe290a5a482b3cecf54b2f51d2053e3
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 2%
@@ -33,8 +33,8 @@ Alvorens u begint, zorg ervoor u weet hoe te om deze elementen te vormen:
 
 * Een eenheidsgebeurtenis. [Meer informatie](../event/about-events.md).
 * Een reis die begint met een evenement. [Meer informatie](../building-journeys/using-the-journey-designer.md).
-* Een e-mailbericht op reis. [Meer informatie](../messages/get-started-content.md)
-* De hoofdtekst van een e-mail. [Meer informatie](../design/create-email-content.md).
+* Een e-mailbericht op reis. [Meer informatie](../email/create-email.md)
+* De hoofdtekst van een e-mail. [Meer informatie](../email/content-from-scratch.md).
 
 Voer de volgende stappen uit:
 

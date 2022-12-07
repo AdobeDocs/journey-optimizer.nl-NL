@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 2%
@@ -115,7 +115,7 @@ De status van de regel verandert in **[!UICONTROL Inactive]** en de regel zal ni
 
 Volg onderstaande stappen om een frequentieregel toe te passen op een bericht.
 
-1. [Een bericht maken](../messages/get-started-content.md#create-new-message) door een van de kanalen te selecteren u voor uw regel bepaalde.
+1. Maak een bericht door een van de kanalen te selecteren die u voor de regel hebt gedefinieerd.
 
 1. Selecteer de categorie die u voor de [regel die u hebt gemaakt](#create-new-rule).
 
@@ -162,9 +162,9 @@ U kunt verschillende regels voor berichtfrequentie combineren, zoals in het onde
 
 1. Opslaan en [activate](#activate-rule) de regel.
 
-1. Maak een e-mail en selecteer de **[!UICONTROL Marketing]** categorie voor dat bericht. [Meer informatie](../messages/get-started-content.md#create-new-message)
+1. Maak een e-mail en selecteer de **[!UICONTROL Marketing]** categorie voor dat bericht. [Meer informatie](../email/create-email.md)
 
-1. Maak een pushmelding en selecteer de optie **[!UICONTROL Marketing]** categorie voor dat bericht. [Meer informatie](../messages/get-started-content.md#create-new-message)
+1. Maak een pushmelding en selecteer de optie **[!UICONTROL Marketing]** categorie voor dat bericht. [Meer informatie](../push/create-push.md)
 
 In dit scenario wordt een individueel profiel:
 * per maand maximaal 12 marketingberichten kunnen ontvangen;

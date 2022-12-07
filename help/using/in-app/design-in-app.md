@@ -7,7 +7,8 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: e7431d1b69e460471b01439c9bd2577fd69944ed
+exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 9%
@@ -80,7 +81,7 @@ De **[!UICONTROL Media]** kunt u media toevoegen aan uw In-app-bericht om een aa
 
 ![](assets/in_app_content_3.png)
 
-Typ uw media-URL of klik op de knop **[!UICONTROL Select Assets]** om elementen die in uw middelenbibliotheek zijn opgeslagen, rechtstreeks toe te voegen aan uw In-app-bericht. [Meer informatie over middelenbeheer](../design/assets-essentials.md).
+Typ uw media-URL of klik op de knop **[!UICONTROL Select Assets]** om elementen die in uw middelenbibliotheek zijn opgeslagen, rechtstreeks toe te voegen aan uw In-app-bericht. [Meer informatie over middelenbeheer](../email/assets-essentials.md).
 U kunt ook een **[!UICONTROL Alternative text]** voor schermlezingstoepassingen.
 
 +++Meer opties met geavanceerde opmaak
@@ -192,4 +193,3 @@ Als de **[!UICONTROL Advanced formatting mode]** is ingeschakeld, kunt u uw beri
 * [In-app-bericht maken](create-in-app.md)
 * [Rapport in app](inapp-report.md)
 * [Configuratie in de app](inapp-configuration.md)
-

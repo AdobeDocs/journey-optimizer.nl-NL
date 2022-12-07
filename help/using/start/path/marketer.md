@@ -5,7 +5,7 @@ title: Journey Optimizer Aan de slag voor Marketers
 description: Leer als praktijkbeoefenaar meer hoe u met Journey Optimizer kunt werken
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -24,13 +24,13 @@ Raadpleeg de volgende secties voor het instellen van uw eerste reis, het toevoeg
 
    ![](../assets/perso_ee2.png)
 
-1. **Elementen maken en beheren**. [!DNL Adobe Experience Manager Assets Essentials] biedt één gecentraliseerde opslagplaats voor elementen die u kunt gebruiken om uw berichten te vullen. Meer informatie [in deze sectie](../../design/assets-essentials.md).
+1. **Elementen maken en beheren**. [!DNL Adobe Experience Manager Assets Essentials] biedt één gecentraliseerde opslagplaats voor elementen die u kunt gebruiken om uw berichten te vullen. Meer informatie [in deze sectie](../../email/assets-essentials.md).
 
 1. **Aanbiedingen toevoegen**. Gebruiken [!DNL Journey Optimizer] om uw klanten de beste aanbieding en ervaring op alle aanraakpunten op het juiste moment te bieden. Als u ze eenmaal hebt ontworpen, richt u zich op uw publiek met persoonlijke aanbiedingen. Meer informatie over Beslissingsbeheer [in deze sectie](../../offers/get-started/starting-offer-decisioning.md).
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **Testen en valideren**. Nadat de inhoud is gedefinieerd, kunt u testprofielen gebruiken om deze voor te vertonen en te testen. Als u [persoonlijke inhoud](../../personalization/personalize.md)kunt u met testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven. Bovendien kunt u uw **Litmus** account [!DNL Journey Optimizer] om direct een voorvertoning van uw **e-mailrendering** in populaire e-mailclients. U kunt er dan voor zorgen dat uw e-mailinhoud er goed uitziet en goed werkt in elk Postvak IN. Leer hoe u uw berichten kunt testen en valideren [in deze sectie](../../design/preview.md).
+1. **Testen en valideren**. Nadat de inhoud is gedefinieerd, kunt u testprofielen gebruiken om deze voor te vertonen en te testen. Als u [persoonlijke inhoud](../../personalization/personalize.md)kunt u met testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven. Bovendien kunt u uw **Litmus** account [!DNL Journey Optimizer] om direct een voorvertoning van uw **e-mailrendering** in populaire e-mailclients. U kunt er dan voor zorgen dat uw e-mailinhoud er goed uitziet en goed werkt in elk Postvak IN. Leer hoe u uw berichten kunt testen en valideren [in deze sectie](../../email/preview.md).
 
 1. **Klantreizen ontwerpen** om persoonlijke, contextafhankelijke ervaringen te bieden. [!DNL Journey Optimizer] kunt u in real time het gebruikscase van het orkestgebruik met contextuele gegevens bouwen die in gebeurtenissen of gegevensbronnen worden opgeslagen. Ontwerp multistep geavanceerde scenario&#39;s aangedreven door de volgende mogelijkheden:
 

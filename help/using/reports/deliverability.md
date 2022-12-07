@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 146e2384e44fc040ddb73a96742cae0dea6f17da
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Volg onderstaande principes bij het ontwerpen van de inhoud van uw bericht om de
 
 * **Koppeling en bestemmingspagina opzeggen**: De afmeldingslink is essentieel. Het formulier moet zichtbaar en geldig zijn en moet functioneel zijn.
 
-[Meer informatie over het ontwerpen van e-mailinhoud](../design/design-emails.md).
+[Meer informatie over het ontwerpen van e-mailinhoud](../email/get-started-email-design.md).
 
 ## Uw reputatie als afzender vaststellen
 

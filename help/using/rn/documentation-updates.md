@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2185'
 ht-degree: 18%
 
 ---
@@ -18,8 +18,8 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 ## November 2022 {#november-2022}
 
 * Er is een nieuwe pagina toegevoegd over Journey Optimizer-integratie. [Meer informatie](../start/ajo-integrations.md)
-* Er is een aanbeveling toegevoegd over de lengte van URL&#39;s van spiegelpagina&#39;s. [Meer informatie](../design/message-tracking.md)
-* Er is een nieuwe subsectie in de configuratie van de e-mailinstellingen toegevoegd aan het antwoord op het e-mailadres, inclusief aanbevelingen voor een correct antwoordbeheer. [Meer informatie](../configuration/email-settings.md#reply-to-email)
+* Er is een aanbeveling toegevoegd over de lengte van URL&#39;s van spiegelpagina&#39;s. [Meer informatie](../email/message-tracking.md)
+* Er is een nieuwe subsectie in de configuratie van de e-mailinstellingen toegevoegd aan het antwoord op het e-mailadres, inclusief aanbevelingen voor een correct antwoordbeheer. [Meer informatie](../email/email-settings.md#reply-to-email)
 * Er is een sectie toegevoegd over het wijzigen van de inhoud van een bericht tijdens een live reis. [Meer informatie](../building-journeys/journeys-message.md#update-live-content)
 
 ## Oktober 2022 {#october-2022}
@@ -28,7 +28,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De gevallenge van het reisgebruik is gereorganiseerd in twee categorieën: [Kwesties voor zakelijk gebruik](../building-journeys/journeys-uc.md) en [Kwesties van technisch gebruik](../building-journeys/collections.md).
 * De **Entiteitsgegevens** is bijgewerkt met meer details. [Meer informatie](../data/datasets-query-examples.md#entity-dataset)
 * De onderdelen &quot;opt-out&quot;-beheer en toestemmingsbeleid zijn gereorganiseerd. [Meer informatie](../privacy/opt-out.md)
-* De sectie over geavanceerde parameters in reisberichten is verduidelijkt en specificeert nu dat de e-mailadresopheffing slechts voor specifieke gebruiksgevallen zou moeten worden gebruikt. Meestal wordt de waarde gedefinieerd als het primaire adres in de **Uitvoervelden** Dat is de methode die moet worden gebruikt. [Meer informatie](../messages/messages-in-journeys.md#adv-settings)
+* De sectie over geavanceerde parameters in reisberichten is verduidelijkt en specificeert nu dat de e-mailadresopheffing slechts voor specifieke gebruiksgevallen zou moeten worden gebruikt. Meestal wordt de waarde gedefinieerd als het primaire adres in de **Uitvoervelden** Dat is de methode die moet worden gebruikt.
 * Een notitie toegevoegd aan de **Subdomeinen van bestemmingspagina configureren** -sectie om aan te geven dat hoofdletters niet zijn toegestaan in subdomeinen van de landingspagina. [Meer informatie](../configuration/lp-subdomains.md)
 
 ## September 2022 {#september-2022}
@@ -76,21 +76,21 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De pagina van de Lijst van gewenste personen is verplaatst naar de sectie van de Configuratie. [Meer informatie](../configuration/allow-list.md)
 * De pagina van de Lijst van de Onderdrukking is bijgewerkt om sommige informatie te verduidelijken, met inbegrip van het feit dat alle karakters van ASCII tussen 32 en 126 in de reden voor onderdrukking worden toegestaan. [Meer informatie](../configuration/manage-suppression-list.md)
 * Er is een verband toegevoegd met garanties en statische limieten voor het beheer van besluiten. [Meer informatie](../start/guardrails.md)
-* Send-Time Optimization is nu beschikbaar voor alle klanten. De bètavermelding is verwijderd. [Meer informatie](../messages/send-time-optimization.md)
+* Send-Time Optimization is nu beschikbaar voor alle klanten. De bètavermelding is verwijderd. [Meer informatie](../building-journeys/journeys-message.md#send-time-optimization)
 * De API voor het bepalen van de batch is toegevoegd aan de lijst met beschikbare API&#39;s voor het aanbieden van gepersonaliseerde aanbiedingen. [Meer informatie](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
 
 ## Mei 2022 {#may-2022}
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van mei &#39;22 is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
 * Nieuwe queryvoorbeelden met betrekking tot [segmentkwalificatie](../reports/query-examples.md#segment-qualification-queries) en [gebeurtenissen](../reports/query-examples.md#event-based-queries) zijn toegevoegd.
-* In de sectie E-mailontwerp staan nu nieuwe ingebouwde sjablonen waarmee inhoud kan worden gestart. Gerelateerde schermafbeeldingen zijn bijgewerkt. [Meer informatie](../design/design-emails.md)
+* In de sectie E-mailontwerp staan nu nieuwe ingebouwde sjablonen waarmee inhoud kan worden gestart. Gerelateerde schermafbeeldingen zijn bijgewerkt. [Meer informatie](../email/get-started-email-design.md)
 * Koppelingen naar belangrijke bronnen zijn bijgewerkt in de homepage van Journey Optimizer-documentatie.
 * Screenshots voor de openingspagina en abonnementrapportage zijn bijgewerkt. [Meer informatie](../reports/live-report.md)
 * Er is een opmerking toegevoegd waarin staat dat de methode Verwijderen niet wordt ondersteund in aangepaste handelingen. [Meer informatie](../action/about-custom-action-configuration.md)
 * De koppelingen naar Hoe kan ik-video&#39;s zijn bijgewerkt.
 * De [E-mailconfiguratie](../configuration/about-subdomain-delegation.md), [Voorinstellingen voor berichten](../configuration/channel-surfaces.md) en [Landingspagina&#39;s configureren](../configuration/lp-subdomains.md) secties zijn gereorganiseerd voor betere leesbaarheid.
-* De sectie URL-tracking is bijgewerkt en verbeterd met voorbeelden. [Meer informatie](../configuration/email-settings.md#url-tracking)
-* Er is een nieuwe subsectie toegevoegd over het instellen van een e-mailadres voor verzending. U kunt dit niet doen via de gebruikersinterface. [Meer informatie](../configuration/email-settings.md#forward-email)
+* De sectie URL-tracking is bijgewerkt en verbeterd met voorbeelden. [Meer informatie](../email/email-settings.md#url-tracking)
+* Er is een nieuwe subsectie toegevoegd over het instellen van een e-mailadres voor verzending. U kunt dit niet doen via de gebruikersinterface. [Meer informatie](../email/email-settings.md#forward-email)
 
 ## April 2022 {#april-2022}
 
@@ -126,7 +126,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Het gedeelte over [!DNL Journey Optimizer] personaliseringsmogelijkheden zijn gereorganiseerd voor een betere leesbaarheid . [Meer informatie](../personalization/personalize.md)
 * De **Voorinstellingen voor berichten maken** voor meer duidelijkheid is dit gedeelte in verschillende secties onderverdeeld . [Meer informatie](../configuration/channel-surfaces.md#create-channel-surface)
 * De **Uitschakelen, beheer** dit gedeelte is verduidelijkt en enigszins gereorganiseerd . [Meer informatie](../privacy/opt-out.md#opt-out-management)
-* De **Koppelingen invoegen** is bijgewerkt met de recente wijzigingen in de gebruikersinterface. [Meer informatie](../design/message-tracking.md#insert-links)
+* De **Koppelingen invoegen** is bijgewerkt met de recente wijzigingen in de gebruikersinterface. [Meer informatie](../email/message-tracking.md#insert-links)
 
 ## November 2021 {#november-2021}
 
@@ -204,8 +204,8 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Koppelingen toegevoegd aan [!DNL Journey Optimizer] productbeschrijving op de homepage
 * Videozelfstudie toegevoegd op meerdere pagina&#39;s
 * Geoptimaliseerde homepage-images
-* Verplaatst, verbeterd en de naam van de sectie &#39;Bericht bijhouden&#39; is gewijzigd in &#39;Koppelingen toevoegen en berichten bijhouden&#39;. [Meer informatie](../design/message-tracking.md)
-* Een subsectie toegevoegd op spiegelpagina&#39;s. [Meer informatie](../design/message-tracking.md#mirror-page)
+* Verplaatst, verbeterd en de naam van de sectie &#39;Bericht bijhouden&#39; is gewijzigd in &#39;Koppelingen toevoegen en berichten bijhouden&#39;. [Meer informatie](../email/message-tracking.md)
+* Een subsectie toegevoegd op spiegelpagina&#39;s. [Meer informatie](../email/message-tracking.md#mirror-page)
 * In documentatie en schermen hernoemd tot &#39;aanbiedingsactiviteiten&#39; als &#39;besluiten&#39; en &#39;besluiten&#39; als &#39;besluiten&#39;. [Meer informatie](../offers/get-started/starting-offer-decisioning.md)
 * Nieuwe gebruikscase: [personaliseren een bericht met hulpfuncties](../personalization/personalization-use-case-helper-functions.md)
 * De documentatie voor het Leessegment is bijgewerkt om de gevolgen voor het geconcretiseerde segment te weerspiegelen. [Meer informatie](../building-journeys/read-segment.md)

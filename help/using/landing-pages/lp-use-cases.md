@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 1%
@@ -53,9 +53,9 @@ Stel bijvoorbeeld dat u volgende maand een gebeurtenis organiseert en een regist
 
    ![](assets/lp_subscription-uc-journey.png)
 
-1. [De e-mail ontwerpen](../messages/get-started-content.md) om aan te geven dat de registratie nu geopend is voor uw gebeurtenis.
+1. [De e-mail ontwerpen](../email/get-started-email-design.md) om aan te geven dat de registratie nu geopend is voor uw gebeurtenis.
 
-1. [Een koppeling invoegen](../design/message-tracking.md#insert-links) in uw berichtinhoud. Selecteren **[!UICONTROL Landing page]** als de **[!UICONTROL Link type]** en kiest u [landingspagina](create-lp.md#configure-primary-page) die u voor registratie hebt gemaakt.
+1. [Een koppeling invoegen](../email/message-tracking.md#insert-links) in uw berichtinhoud. Selecteren **[!UICONTROL Landing page]** als de **[!UICONTROL Link type]** en kiest u [landingspagina](create-lp.md#configure-primary-page) die u voor registratie hebt gemaakt.
 
    ![](assets/lp_subscription-uc-link.png)
 
@@ -128,9 +128,9 @@ Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zi
 
    ![](assets/lp_opt-out-publish.png)
 
-1. [Een e-mailbericht maken](../messages/get-started-content.md) tijdens een reis.
+1. [Een e-mailbericht maken](../email/get-started-email-design.md) tijdens een reis.
 
-1. Selecteer tekst in uw inhoud en [een koppeling invoegen](../design/message-tracking.md#insert-links) gebruiken van de contextafhankelijke werkbalk. U kunt ook een koppeling op een knop gebruiken.
+1. Selecteer tekst in uw inhoud en [een koppeling invoegen](../email/message-tracking.md#insert-links) gebruiken van de contextafhankelijke werkbalk. U kunt ook een koppeling op een knop gebruiken.
 
    ![](assets/lp_opt-out-insert-link.png)
 

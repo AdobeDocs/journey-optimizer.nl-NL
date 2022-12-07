@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 2%
@@ -23,13 +23,13 @@ U kunt de inhoud van de bestemmingspagina definiëren met behulp van aangepaste 
 
 Als u aangepaste JavaScript wilt invoegen in openende pagina-inhoud, kunt u het volgende doen:
 
-* Importeer bestaande HTML-inhoud wanneer u begint met het maken van uw inhoud en selecteer het bestand dat uw aangepaste JavaScript-code bevat. Leer hoe u inhoud importeert [in deze sectie](../design/existing-content.md).
+* Importeer bestaande HTML-inhoud wanneer u begint met het maken van uw inhoud en selecteer het bestand dat uw aangepaste JavaScript-code bevat. Leer hoe u inhoud importeert [in deze sectie](../email/existing-content.md).
 
-* Ontwerp de openingspagina helemaal zelf of op basis van een opgeslagen sjabloon. Sleep de **[!UICONTROL HTML]** inhoudcomponent op het canvas en toon de broncode om uw JavaSCript in de component toe te voegen. Leer hoe u de component HTML gebruikt in [deze sectie](../design/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* Ontwerp de openingspagina helemaal zelf of op basis van een opgeslagen sjabloon. Sleep de **[!UICONTROL HTML]** inhoudcomponent op het canvas en toon de broncode om uw JavaSCript in de component toe te voegen. Leer hoe u de component HTML gebruikt in [deze sectie](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
    ![](assets/lp_designer-html-component.png)
 
-* Typ of plak JavaScript-code rechtstreeks in de inhoudsontwerper. Leer hoe u uw eigen inhoud codeert [in deze sectie](../design/code-content.md).
+* Typ of plak JavaScript-code rechtstreeks in de inhoudsontwerper. Leer hoe u uw eigen inhoud codeert [in deze sectie](../email/code-content.md).
 
 >[!NOTE]
 >

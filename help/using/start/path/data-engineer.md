@@ -5,7 +5,7 @@ title: Journey Optimizer Get Started for Data Engineer
 description: Als gegevensengineer leert u meer hoe u met Journey Optimizer kunt werken
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 6f509a2518866b8e16a16a5550c41f7fb4154642
+source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 2%
@@ -33,7 +33,7 @@ De stappen om een identiteitsnamespace en een dataset tot stand te brengen die v
 
 1. **Bronconnectors configureren**. Met de Adobe Reis Optimzer kunt u gegevens uit externe bronnen innemen en kunt u inkomende gegevens structureren, labelen en verbeteren met behulp van de services van Platforms. U kunt gegevens uit diverse bronnen invoeren, zoals Adobe-toepassingen, opslag in de cloud, databases en vele andere. Meer informatie over bronconnectors [op deze pagina](../get-started-sources.md).
 
-1. **Testprofielen maken**. Testprofielen zijn vereist wanneer u de opdracht [testmodus](../../building-journeys/testing-the-journey.md) op reis, en [uw berichten bekijken en testen](../../design/preview.md) vóór verzending. De stappen voor het maken van testprofielen zijn gedetailleerd [op deze pagina](../../segment/creating-test-profiles.md).
+1. **Testprofielen maken**. Testprofielen zijn vereist wanneer u de opdracht [testmodus](../../building-journeys/testing-the-journey.md) op reis, en [uw berichten bekijken en testen](../../email/preview.md) vóór verzending. De stappen voor het maken van testprofielen zijn gedetailleerd [op deze pagina](../../segment/creating-test-profiles.md).
 
 
 Bovendien moet u, om berichten in reizen te kunnen verzenden, vormen **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]**. Meer informatie [in deze sectie](../../configuration/about-data-sources-events-actions.md).
@@ -44,4 +44,4 @@ Bovendien moet u, om berichten in reizen te kunnen verzenden, vormen **[!UICONTR
 
 * **Gebeurtenissen** u toestaan om uw reizen te activeren om berichten, in real time, naar het individu te verzenden dat de reis overgaat. In de gebeurtenisconfiguratie, vormt u de gebeurtenissen die in de reizen worden verwacht. De gegevens van de binnenkomende gebeurtenissen worden genormaliseerd volgens het Adobe Experience Data Model (XDM). Gebeurtenissen zijn afkomstig van de streamingopname-API’s voor geverifieerde en niet-geverifieerde gebeurtenissen (zoals Adobe Mobile SDK-gebeurtenissen). Meer informatie over gebeurtenissen [in deze sectie](../../event/about-events.md).
 
-* [!DNL Journey Optimizer] komt met [ingebouwde berichtmogelijkheden](../../messages/get-started-content.md): u kunt uw berichten binnen een reis tot stand brengen en uw inhoud ontwerpen. Als u berichten verzendt via een systeem van derden, bijvoorbeeld Adobe Campaign, maakt u een **aangepaste handeling**. Meer informatie over handelingen in deze [in deze sectie](../../action/action.md).
+* [!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtmogelijkheden: u kunt uw berichten binnen een reis tot stand brengen en uw inhoud ontwerpen. Als u berichten verzendt via een systeem van derden, bijvoorbeeld Adobe Campaign, maakt u een **aangepaste handeling**. Meer informatie over handelingen in deze [in deze sectie](../../action/action.md).
