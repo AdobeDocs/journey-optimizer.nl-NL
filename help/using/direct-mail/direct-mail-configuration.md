@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 978751263ba2ed21e35e41e767f1e31ddbe59d53
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,8 @@ Voordat u dit bestand kunt genereren, moet u het volgende maken:
 >id="ajo_dm_file_routing_details"
 >title="Definieer het bestand dat de configuratie verplettert"
 >abstract="Nadat u een direct-mailbericht hebt gemaakt, wordt het bestand met de doelpublieksgegevens gegenereerd en geëxporteerd naar een server. U moet de serverdetails specificeren zodat uw direct-mailleverancier tot dat dossier voor levering direct-mail kan toegang hebben en gebruiken."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Een direct-mailbericht maken"
+<!-->
+>additional-url=&quot;https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html&quot; text=&quot;Create a direct mail message&quot;—>
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"

@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aan de slag met reizen
+title: Uw eerste journey maken
 description: Belangrijke stappen om uw eerste reis met Adobe Journey Optimizer te maken
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 978751263ba2ed21e35e41e767f1e31ddbe59d53
 workflow-type: tm+mt
 source-wordcount: '995'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
-# Aan de slag met reizen{#jo-quick-start}
+# Uw eerste journey maken{#jo-quick-start}
 
 ## Vereisten{#start-prerequisites}
 
