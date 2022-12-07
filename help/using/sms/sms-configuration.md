@@ -6,9 +6,9 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van SMS met 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: a7c9cbcc23e4a2ef8a3acd887c0f51e51c5befc0
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '666'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Voordat u SMS verzendt, configureert u uw exemplaar. U moet [providerinstellinge
 >id="ajo_admin_sms_api"
 >title="Uw SMS-leverancier configureren met Journey Optimizer"
 >abstract="Voordat u SMS verzendt, moet u de providerinstellingen integreren met Journey Optimizer. Zodra gedaan, zult u een oppervlakte van SMS moeten tot stand brengen. Deze stappen moeten worden uitgevoerd door een systeembeheerder van Adobe Journey Optimizer."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/configuration-message/sms-configuration.html#message-preset-sms" text="Een SMS-kanaaloppervlak maken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html?lang=en#message-preset-sms" text="Een SMS-kanaaloppervlak maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_configuration"
