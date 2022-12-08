@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: E-mails ontwerpen
-description: Leer hoe u de stijl van uw e-mailinhoud aanpast
+title: Aan de slag met e-mailstijl
+description: Ontdek de verschillende manieren waarop u de stijl van uw e-mailinhoud kunt aanpassen
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0e9037ddcbb61ae84a6487ec24be45462e871169
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
-# Aan de slag met stijl van e-mailinhoud {#get-started-email-style}
+# Aan de slag met e-mailstijl {#get-started-email-style}
 
 Nadat u uw e-mailinhoud hebt gemaakt in [!DNL Journey Optimizer], kunt u een aantal opmaakparameters en -kenmerken aanpassen in het instellingenvenster E-mailontwerper.
 

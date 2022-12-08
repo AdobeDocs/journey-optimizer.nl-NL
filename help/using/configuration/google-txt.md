@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 21%
@@ -28,7 +28,7 @@ Om ervoor te zorgen dat de e-mailadressen optimaal kunnen worden bezorgd en succ
 
 >[!CAUTION]
 >
-> Deze bewerking kan alleen worden uitgevoerd als een subdomein het **[!UICONTROL Success]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](access-subdomains.md).
+> Deze bewerking kan alleen worden uitgevoerd als een subdomein het **[!UICONTROL Success]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](about-subdomain-delegation.md#access-delegated-subdomains).
 
 Ga als volgt te werk om een Google TXT-record aan uw subdomein toe te voegen:
 

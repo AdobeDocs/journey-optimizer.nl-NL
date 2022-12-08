@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '1716'
 ht-degree: 5%
@@ -86,7 +86,7 @@ Volg de onderstaande stappen om een nieuw subdomein volledig te delegeren aan Ad
    >
    >U kunt de verslagen tot stand brengen en de subdomeinconfiguratie voorleggen later op het gebruiken van **[!UICONTROL Save as draft]** knop. Vervolgens kunt u de subdomeindelegatie hervatten door deze te openen vanuit de lijst met subdomeinen.
 
-1. Nadat de volledige subdomeindelegatie is verzonden, wordt het subdomein weergegeven in de lijst met de **[!UICONTROL Processing]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](access-subdomains.md).
+1. Nadat de volledige subdomeindelegatie is verzonden, wordt het subdomein weergegeven in de lijst met de **[!UICONTROL Processing]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](about-subdomain-delegation.md#access-delegated-subdomains).
 
    ![](assets/subdomain-processing.png)
 
@@ -167,7 +167,7 @@ Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volge
    >
    >U kunt ook de validatierecord maken en de subdomeinconfiguratie later verzenden met de opdracht **[!UICONTROL Save as draft]** knop. Vervolgens kunt u de subdomeindelegatie hervatten door deze te openen vanuit de lijst met subdomeinen.
 
-1. Zodra de subdomeindelegatie van CNAME is voorgelegd, toont subdomain in de lijst met **[!UICONTROL Processing]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](access-subdomains.md).
+1. Zodra de subdomeindelegatie van CNAME is voorgelegd, toont subdomain in de lijst met **[!UICONTROL Processing]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](about-subdomain-delegation.md#access-delegated-subdomains).
 
    Voordat u dat subdomein kunt gebruiken voor het verzenden van berichten, moet u wachten tot Adobe de vereiste controles uitvoert. Dit duurt meestal 2 tot 3 uur. Meer informatie in [deze sectie](#subdomain-validation).
 

@@ -8,9 +8,9 @@ level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '377'
 ht-degree: 15%
 
 ---
@@ -24,21 +24,31 @@ Als u uw reizen wilt maken en berichten wilt verzenden, moet u de onderstaande c
 
 ## Berichten en kanalen configureren
 
-Bepaal kanaaloppervlakken, pas de berichten aan en pas deze aan.
+1. Om berichten te kunnen tot stand brengen en verzenden, moet u specifieke configuraties afhankelijk van het kanaal uitvoeren.
 
-* [Delegeren naar de Adobe van de subdomeinen](about-subdomain-delegation.md) je wilt e-mails verzenden en [IP-pools maken](ip-pools.md) om IP adressen te groeperen die aan uw instantie worden geleverd.
+   * Voor de **E-mail** kanaal, moet u subdomeinen aan Adobe afvaardigen en IP pools creëren om IP adressen samen te groeperen. [Meer informatie](../email/get-started-email-config.md)
 
-* Het aantal dagen beheren waarin opnieuw pogingen worden uitgevoerd voordat e-mailadressen naar de suppressielijst worden verzonden. [Meer informatie](manage-suppression-list.md)
+   * Voor de **Push** kanaal, moet u dupberichten montages in allebei bepalen [!DNL Adobe Experience Platform] en [!DNL Adobe Experience Platform Launch]. [Meer informatie](../push/push-configuration.md)
 
-* Instellingen voor pushmeldingen definiëren in beide [!DNL Adobe Experience Platform] en [!DNL Adobe Experience Platform Launch]. [Meer informatie](../push/push-gs.md)
+   * Voor de **SMS** kanaal, moet u uw instantie vormen om SMS te verzenden, met inbegrip van het integreren van de leveranciersmontages met [!DNL Journey Optimizer]. [Meer informatie](../sms/sms-configuration.md)
 
-   <!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
+1. Als u klaar bent, moet u **kanaaloppervlakken** om alle technische parameters te vormen die worden vereist om berichten te leveren. [Meer informatie](channel-surfaces.md)
 
-* Configureer uw instantie voor het verzenden van SMS (momenteel alleen beschikbaar voor een set organisaties - Beperkte beschikbaarheid). [Meer informatie](../sms/sms-configuration.md)
+1. U kunt ook het volgende doen:
 
-* Creeer kanaaloppervlakten om alle technische parameters te vormen die worden vereist om berichten te leveren. [Meer informatie](channel-surfaces.md)
+   * Het aantal dagen beheren waarin opnieuw pogingen worden uitgevoerd voordat e-mailadressen naar de suppressielijst worden verzonden. [Meer informatie](manage-suppression-list.md)
 
-* Bepaal welk e-mailadres en/of telefoonnummer als prioriteit voor uw ontvangers moet worden gebruikt wanneer er in Adobe Experience Platform verschillende adressen/nummers beschikbaar zijn. [Meer informatie](primary-email-addresses.md)
+   * De optie **BBC-e-mailoptie** om een kopie van de berichten te bewaren die aan individuen worden verzonden. [Meer informatie](archiving-support.md#enable-bcc)
+
+   * Configureren **frequentieregels** om te voorkomen dat uw ontvangers te veel vragen. [Meer informatie](frequency-rules.md)
+
+   * Bepaal welk e-mailadres en/of telefoonnummer als prioriteit voor uw ontvangers moet worden gebruikt wanneer er in Adobe Experience Platform verschillende adressen/nummers beschikbaar zijn. [Meer informatie](primary-email-addresses.md)
+
+<!--* Understand the push notification flow. [Learn more](../push/push-gs.md)-->
+
+>[!NOTE]
+>
+>Deze stappen moeten worden uitgevoerd door een [Adobe Journey Optimizer-systeembeheerder](../start/path/administrator.md).
 
 ## Journey&#39;s configureren
 

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1296'
 ht-degree: 35%
 
 ---
@@ -183,10 +183,11 @@ ht-degree: 35%
          + Elementen beheren {#manage-asset}
             + [Werken met Assets Essentials](using/email/assets-essentials.md)
             + [Werken met Adobe Stock](using/email/stock.md)
-         + [Aangepaste aanbiedingen toevoegen](using/email/add-offers-email.md)
+         + [Aangepaste aanbiedingen invoegen](using/email/add-offers-email.md)
          + [De tekstversie genereren](using/email/text-version-email.md)
          + [Een preheader toevoegen](using/email/preheader.md)
       + Stijl bewerken {#edit-style}
+         + [Aan de slag met e-mailstijl](using/email/get-started-email-style.md)
          + [Achtergrondinstellingen bewerken](using/email/backgrounds.md)
          + [Verticale uitlijning en opvulling aanpassen](using/email/alignment-and-padding.md)
          + [Een stijl voor koppelingen definiëren](using/email/styling-links.md)
@@ -234,7 +235,10 @@ ht-degree: 35%
       + [Sjablonen maken](using/landing-pages/lp-templates.md)
       + [Aangepast JavaScript toevoegen](using/landing-pages/lp-custom-js.md)
    + [Een lidmaatschapslijst maken](using/landing-pages/subscription-list.md)
-   + [Gebruiksscenario’s](using/landing-pages/lp-use-cases.md)
+   + [Gebruikskwesties leren](using/landing-pages/lp-use-cases.md)
+   + Landingspagina’s configureren {#lp-configuration}
+      + [Subdomeinen van bestemmingspagina configureren](using/landing-pages/lp-subdomains.md)
+      + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
 + Persoonlijke en dynamische inhoud {#personalized-dynamic-content}
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
@@ -411,28 +415,20 @@ ht-degree: 35%
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Configuratie{#configuration}
    + [Aan de slag met de Journey Optimizer-configuratie](using/configuration/get-started-configuration.md)
-   + Berichten configureren {#configuration-message}
-      + E-mails configureren {#email-configuration}
-         + Subdomeinen delegeren {#delegate-subdomains}
-            + [Aan de slag met subdomeindelegatie](using/configuration/about-subdomain-delegation.md)
-            + [Een subdomein delegeren](using/configuration/delegate-subdomain.md)
-            + [Gedelegeerde subdomeinen benaderen](using/configuration/access-subdomains.md)
-         + Handelingen met betrekking tot subdomeinen beheren {#subdomain-related-actions}
-            + [Een Google TXT-record toevoegen](using/configuration/google-txt.md)
-            + [PTR-records openen en bewerken](using/configuration/ptr-records.md)
-            + [IP-pools maken](using/configuration/ip-pools.md)
-         + E-mailadressen controleren {#monitor-reputation}
-            + [Onderdrukkingslijst](using/configuration/manage-suppression-list.md)
-            + [Hernieuwde pogingen](using/configuration/retries.md)
-            + [Lijst van gewenste personen](using/configuration/allow-list.md)
-      + Kanaaloppervlakken instellen {#set-up-channels}
-         + [Kanaaloppervlakken maken](using/configuration/channel-surfaces.md)
-      + [Ondersteuning voor archivering](using/configuration/archiving-support.md)
-      + [Uitvoeradressen beheren](using/configuration/primary-email-addresses.md)
-      + [Regels voor frequenties configureren](using/configuration/frequency-rules.md)
-   + Landingspagina’s configureren {#lp-configuration}
-      + [Subdomeinen van bestemmingspagina configureren](using/configuration/lp-subdomains.md)
-      + [Voorinstellingen voor openingspagina definiëren](using/configuration/lp-presets.md)
+   + E-mailsubdomeinen delegeren {#delegate-subdomains}
+      + [Aan de slag met subdomeindelegatie](using/configuration/about-subdomain-delegation.md)
+      + [Een subdomein delegeren](using/configuration/delegate-subdomain.md)
+      + [Een Google TXT-record toevoegen](using/configuration/google-txt.md)
+      + [PTR-records openen en bewerken](using/configuration/ptr-records.md)
+      + [IP-pools maken](using/configuration/ip-pools.md)
+   + [Kanaaloppervlakken instellen](using/configuration/channel-surfaces.md)
+   + E-mailadressen controleren {#monitor-reputation}
+      + [Onderdrukkingslijst](using/configuration/manage-suppression-list.md)
+      + [Hernieuwde pogingen](using/configuration/retries.md)
+      + [Lijst van gewenste personen](using/configuration/allow-list.md)
+   + [Ondersteuning voor archivering](using/configuration/archiving-support.md)
+   + [Regels voor frequenties configureren](using/configuration/frequency-rules.md)
+   + [Uitvoeradressen beheren](using/configuration/primary-email-addresses.md)
    + Journey&#39;s configureren {#configure-journeys}
       + [Informatie over gegevensbronnen, gebeurtenissen en handelingen](using/configuration/about-data-sources-events-actions.md)
       + [Integreren met externe systemen](using/configuration/external-systems.md)

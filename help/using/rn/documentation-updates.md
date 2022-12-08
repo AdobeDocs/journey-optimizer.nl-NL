@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2207'
 ht-degree: 18%
 
 ---
@@ -14,6 +14,14 @@ ht-degree: 18%
 # Documentatie-updates {#latest-updates}
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
+
+## December 2022 {#december-2022}
+
+* De gids van Berichten is gereorganiseerd en verdeeld in specifieke gidsen voor elk kanaal:
+
+   * [E-mailkanaal](../email/get-started-email.md)
+   * [Push-meldingskanaal](../push/get-started-push.md)
+   * [Sms-kanaal](../sms/get-started-sms.md)
 
 ## November 2022 {#november-2022}
 
@@ -29,7 +37,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De **Entiteitsgegevens** is bijgewerkt met meer details. [Meer informatie](../data/datasets-query-examples.md#entity-dataset)
 * De onderdelen &quot;opt-out&quot;-beheer en toestemmingsbeleid zijn gereorganiseerd. [Meer informatie](../privacy/opt-out.md)
 * De sectie over geavanceerde parameters in reisberichten is verduidelijkt en specificeert nu dat de e-mailadresopheffing slechts voor specifieke gebruiksgevallen zou moeten worden gebruikt. Meestal wordt de waarde gedefinieerd als het primaire adres in de **Uitvoervelden** Dat is de methode die moet worden gebruikt.
-* Een notitie toegevoegd aan de **Subdomeinen van bestemmingspagina configureren** -sectie om aan te geven dat hoofdletters niet zijn toegestaan in subdomeinen van de landingspagina. [Meer informatie](../configuration/lp-subdomains.md)
+* Een notitie toegevoegd aan de **Subdomeinen van bestemmingspagina configureren** -sectie om aan te geven dat hoofdletters niet zijn toegestaan in subdomeinen van de landingspagina. [Meer informatie](../landing-pages/lp-subdomains.md)
 
 ## September 2022 {#september-2022}
 
@@ -88,7 +96,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Screenshots voor de openingspagina en abonnementrapportage zijn bijgewerkt. [Meer informatie](../reports/live-report.md)
 * Er is een opmerking toegevoegd waarin staat dat de methode Verwijderen niet wordt ondersteund in aangepaste handelingen. [Meer informatie](../action/about-custom-action-configuration.md)
 * De koppelingen naar Hoe kan ik-video&#39;s zijn bijgewerkt.
-* De [E-mailconfiguratie](../configuration/about-subdomain-delegation.md), [Voorinstellingen voor berichten](../configuration/channel-surfaces.md) en [Landingspagina&#39;s configureren](../configuration/lp-subdomains.md) secties zijn gereorganiseerd voor betere leesbaarheid.
+* De [E-mailconfiguratie](../configuration/about-subdomain-delegation.md), [Voorinstellingen voor berichten](../configuration/channel-surfaces.md) en [Landingspagina&#39;s configureren](../landing-pages/lp-subdomains.md) secties zijn gereorganiseerd voor betere leesbaarheid.
 * De sectie URL-tracking is bijgewerkt en verbeterd met voorbeelden. [Meer informatie](../email/email-settings.md#url-tracking)
 * Er is een nieuwe subsectie toegevoegd over het instellen van een e-mailadres voor verzending. U kunt dit niet doen via de gebruikersinterface. [Meer informatie](../email/email-settings.md#forward-email)
 

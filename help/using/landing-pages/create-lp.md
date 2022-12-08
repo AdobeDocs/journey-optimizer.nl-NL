@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '1460'
 ht-degree: 1%
@@ -72,7 +72,7 @@ De stappen voor het maken van een bestemmingspagina zijn als volgt.
 
    <!--You can add a tag. See AEP documentation?-->
 
-1. Selecteer een voorinstelling. Leer hoe u voorinstellingen voor openingspagina&#39;s maakt in [deze sectie](../configuration/lp-presets.md#lp-create-preset).
+1. Selecteer een voorinstelling. Leer hoe u voorinstellingen voor openingspagina&#39;s maakt in [deze sectie](../landing-pages/lp-presets.md#lp-create-preset).
 
    ![](assets/lp_create-lp-presets.png)
 
@@ -113,7 +113,7 @@ Voer de onderstaande stappen uit om de instellingen voor de primaire pagina te d
 
    ![](assets/lp_open-designer.png)
 
-1. Definieer de URL van de bestemmingspagina. Voor het eerste deel van de URL moet u eerder een subdomein van een bestemmingspagina instellen als onderdeel van het [voorinstelling](../configuration/lp-presets.md#lp-create-preset) geselecteerd. [Meer informatie](../configuration/lp-subdomains.md)
+1. Definieer de URL van de bestemmingspagina. Voor het eerste deel van de URL moet u eerder een subdomein van een bestemmingspagina instellen als onderdeel van het [voorinstelling](../landing-pages/lp-presets.md#lp-create-preset) geselecteerd. [Meer informatie](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -184,7 +184,7 @@ Voer de onderstaande stappen uit om de subpagina-instellingen te definiëren.
    >
    >U kunt een koppeling naar de primaire pagina invoegen vanuit elke subpagina van dezelfde bestemmingspagina. Als u bijvoorbeeld gebruikers wilt omleiden die een fout hebben gemaakt en zich opnieuw willen abonneren, kunt u een koppeling toevoegen van de bevestigingssubpagina naar de primaire pagina van het abonnement. Leer hoe u koppelingen kunt invoegen in [deze sectie](../email/message-tracking.md#insert-links).
 
-1. Definieer de URL van de bestemmingspagina. Voor het eerste deel van de URL moet u eerder een subdomein voor een bestemmingspagina instellen. [Meer informatie](../configuration/lp-subdomains.md)
+1. Definieer de URL van de bestemmingspagina. Voor het eerste deel van de URL moet u eerder een subdomein voor een bestemmingspagina instellen. [Meer informatie](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >

@@ -4,7 +4,7 @@ product: journey optimizer
 title: Release-aantekeningen 2022
 description: Opmerkingen bij de release van Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
 source-wordcount: '3453'
 ht-degree: 9%
@@ -173,7 +173,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 * Wanneer u de lijst van gewenste personen activeert of deactiveert, wordt nu een nieuwe waarschuwing weergegeven waarin de effecten van elke actie worden beschreven. [Meer informatie](../configuration/allow-list.md#enable-allow-list)
 * De gebruikersinterface voor het creëren van kanaaloppervlakken, het creëren van IP-pools, het beheren van de suppressielijst en de lijst van gewenste personen, en het configureren van het SMS-kanaal is bijgewerkt.
 * Wanneer u nu het eerste kanaaloppervlak voor een bepaald subdomein maakt, duurt de verwerkingstijd 10 minuten tot 10 dagen en slechts 3 uur voor volgende oppervlakken die dat subdomein gebruiken. [Meer informatie](../configuration/channel-surfaces.md#create-channel-surface)
-* De gebruikersinterface voor het maken van voorinstellingen voor openingspagina&#39;s en het landen van subdomeinen van de pagina is bijgewerkt. [Meer informatie](../configuration/lp-subdomains.md)
+* De gebruikersinterface voor het maken van voorinstellingen voor openingspagina&#39;s en het landen van subdomeinen van de pagina is bijgewerkt. [Meer informatie](../landing-pages/lp-subdomains.md)
 
 **Controles van audits**
 

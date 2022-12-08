@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 32%
+source-wordcount: '888'
+ht-degree: 26%
 
 ---
 
 # Subdomeindelegatie in [!DNL Journey Optimizer] {#subdomain-delegation}
 
-Het creëren van subdomain voor e-mailcampagnes staat merken toe om verschillende types van verkeer (marketing versus collectief bijvoorbeeld) in specifieke IP groepen en met specifieke domeinen te isoleren, die het IP opwarmingsproces zullen versnellen en leveringscapaciteit over het algemeen zullen verbeteren. Als u een domein deelt en het wordt geblokkeerd of aan de lijst van gewezen personen toegevoegd, zou het uw collectieve postlevering kunnen beïnvloeden. Nochtans, zullen de kwesties van de reputatie of de blokken op een domein specifiek voor uw e-mailmarketing mededelingen enkel die stroom van e-mail beïnvloeden. Als u uw hoofddomein als afzender of het adres &#39;Van&#39; voor meerdere e-mailstreams gebruikt, kan de e-mailverificatie ook worden verbroken, waardoor uw berichten worden geblokkeerd of in de spammap worden geplaatst.
+Het creëren van subdomain voor e-mailcampagnes staat merken toe om verschillende types van verkeer (marketing versus collectief bijvoorbeeld) in specifieke IP groepen en met specifieke domeinen te isoleren, die het IP opwarmingsproces zullen versnellen en leveringscapaciteit over het algemeen zullen verbeteren. Als u een domein deelt en het wordt geblokkeerd of aan de lijst van gewezen personen toegevoegd, zou het uw collectieve postlevering kunnen beïnvloeden. Nochtans, zullen de kwesties van de reputatie of de blokken op een domein specifiek voor uw e-mailmarketing mededelingen enkel die stroom van e-mail beïnvloeden. Het gebruiken van uw hoofddomein als afzender of &quot;van&quot;adres voor veelvoudige poststromen kon e-mailauthentificatie ook breken, veroorzakend uw berichten om worden geblokkeerd of in de spamomslag worden geplaatst.
 
 >[!NOTE]
 >
@@ -69,3 +69,31 @@ In de onderstaande tabel wordt een overzicht gegeven van de werking van deze met
 Aanvullende informatie over domeinconfiguratie is beschikbaar in [deze documentatie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
 
 Als u om het even welke vraag betreffende de methodes van de subdomeinconfiguratie hebt, bereik uit aan Adobe, of uiteindelijk contacteer de Zorg van de Klant om het raadplegen van de Leverbaarheid te verzoeken.
+
+## Gedelegeerde subdomeinen benaderen {#access-delegated-subdomains}
+
+Alle gedelegeerde subdomeinen worden weergegeven in het dialoogvenster **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** -menu. Er zijn filters beschikbaar waarmee u de lijst (datum van delegatie, gebruiker of status) kunt verfijnen.
+
+![](assets/subdomain-list.png)
+
+De **[!UICONTROL Status]** de kolom verstrekt informatie over het subdomain delegatieproces:
+
+* **[!UICONTROL Draft]**: De subdomeindelegatie is opgeslagen als een concept. Klik op de subdomeinnaam om het delegatieproces te hervatten.
+* **[!UICONTROL Processing]**: Het subdomein gaat door verscheidene configuratiecontroles alvorens het kan worden gebruikt,
+* **[!UICONTROL Success]**: Het subdomein is door de controles met succes gegaan en kan worden gebruikt om berichten te leveren,
+* **[!UICONTROL Failed]**: Een of meer controles zijn mislukt nadat de subdomeindelegatie is verzonden.
+
+Als u toegang wilt krijgen tot gedetailleerde informatie over een subdomein met de **[!UICONTROL Success]** status, opent u deze vanuit de lijst.
+
+![](assets/subdomain-delegated.png)
+
+U kunt:
+
+* Haal de subdomeinnaam (read-only) op die tijdens het delegatieproces wordt gevormd, evenals geproduceerde URLs (middelen, spiegelpagina&#39;s, het volgen URLs),
+
+* Voeg een TXT-record voor verificatie van de Google-site toe aan uw subdomein om te controleren of deze is geverifieerd (zie [Een Google TXT-record toevoegen aan een subdomein](google-txt.md)).
+
+
+>[!CAUTION]
+>
+>Subdomeinconfiguratie is algemeen voor alle omgevingen. Daarom zal elke wijziging aan een subdomein ook invloed hebben op de productiesandboxen.
