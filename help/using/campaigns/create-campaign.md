@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 5f8a765eefe4033a642c46e18be518d29b196bc3
+source-git-commit: ab770b7b48fc906634f12458e0b31c7db0f641e8
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 3%
+source-wordcount: '687'
+ht-degree: 0%
 
 ---
 
@@ -19,30 +19,35 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Voordat u een nieuwe campagne maakt, moet u ervoor zorgen dat u een oppervlaktekanaal (d.w.z. een berichtvoorinstelling) en een Adobe Experience Platform-segment gebruiksklaar hebt. Meer informatie vindt u in deze secties:
+>Voordat u een nieuwe campagne maakt, moet u ervoor zorgen dat u een oppervlaktekanaal (d.w.z. een berichtvoorinstelling) en een Adobe Experience Platform-segment klaar hebt voor gebruik. Meer informatie vindt u in deze secties:
 >
 >* [Kanaaloppervlakken maken](../configuration/channel-surfaces.md)
 >* [Aan de slag met segmenten](../segment/about-segments.md)
 
 
-## Uw eerste campagne maken {#create}
+Als u een nieuwe campagne wilt maken, opent u de **[!UICONTROL Campaigns]** en klik vervolgens op **[!UICONTROL Create campaign]**. U kunt ook een bestaande live campagne dupliceren om een nieuwe te maken. [Meer informatie](modify-stop-campaign.md#duplicate)
 
-1. Toegang krijgen tot **[!UICONTROL Campaigns]** en klik vervolgens op **[!UICONTROL Create campaign]**.
+![](assets/create-campaign.png)
 
-   >[!NOTE]
-   >
-   >U kunt ook een bestaande live campagne dupliceren om een nieuwe te maken. [Meer informatie](modify-stop-campaign.md#duplicate)
+## Het type campagne en het kanaal kiezen {#campaigntype}
 
-   ![](assets/create-campaign.png)
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_type"
+>title="Type campagne"
+>abstract="Voor een marketingbericht door een verzenddatum op te geven, wordt de **Gepland** type is het meest geschikt. Als u echter transactieberichten wilt verzenden, zoals het opnieuw instellen van het wachtwoord of het opgeven van de kaart, kunt u **API geactiveerd** type is de beste keuze."
 
-1. In de **[!UICONTROL Properties]** , geeft u op hoe u de campagne wilt uitvoeren:
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_category"
+>title="Campagne, categorie"
+>abstract="De waarde van de categorie wordt direct geassocieerd met de waarde van het campagnetype. Het campagneretype voor de **Marketing** categorie en door de API geactiveerd type voor de categorie **Transactioneel**"
 
-   * **[!UICONTROL Scheduled]**
-   * **[!UICONTROL API-triggered]**
+1. In de **[!UICONTROL Properties]** , geeft u op hoe u de campagne wilt uitvoeren. Er zijn twee soorten campagnes beschikbaar:
 
-   Raadpleeg dit voor meer informatie over het type campagne en de bijbehorende betrokkenheid [sectie](#campaigntype).
+   * **[!UICONTROL Scheduled]**: voert de campagne onmiddellijk of op een gespecificeerde datum uit. Geplande campagnes zijn gericht op het verzenden van **marketing** type berichten.
 
-1. In de **[!UICONTROL Actions]** , kiest u het kanaal en het kanaaloppervlak dat u wilt gebruiken om uw bericht te verzenden en klikt u op **[!UICONTROL Create]**.
+   * **[!UICONTROL API-triggered]**: voer de campagne uit gebruikend een API vraag. API-gestuurde campagnes zijn gericht op het verzenden van **transactie** berichten, d.w.z. berichten die worden verzonden na een actie uitgevoerd door een individu: wachtwoord opnieuw instellen, kaart verlaten enzovoort. [Leer hoe u een campagne activeert met behulp van API&#39;s](api-triggered-campaigns.md)
+
+1. In de **[!UICONTROL Actions]** kiest u het kanaal en het kanaaloppervlak dat u wilt gebruiken om uw bericht te verzenden.
 
    Een oppervlak is een configuratie die is gedefinieerd door een [Systeembeheerder](../start/path/administrator.md). Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enz. [Meer informatie](../configuration/channel-surfaces.md).
 
@@ -52,11 +57,17 @@ ht-degree: 3%
    >
    >Alleen kanaaloppervlakken die compatibel zijn met het type marketingcampagne worden weergegeven in de vervolgkeuzelijst.
 
+1. Klikken **[!UICONTROL Create]** om de campagne te maken.
+
+## De eigenschappen van de campagne definiëren {#create}
+
 1. Geef een titel en een beschrijving voor de campagne op.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
 1. Als u aangepaste of basislabels voor gegevensgebruik aan de campagne wilt toewijzen, klikt u op de knop **[!UICONTROL Manage access]** knop. [Meer informatie over OLA (Object Level Access Control)](../administration/object-based-access.md)
+
+   ![](assets/create-campaign-properties.png)
 
 ## Het bericht maken {#content}
 
@@ -107,9 +118,9 @@ In de **[!UICONTROL Actions]** , maakt u het bericht dat u wilt verzenden met de
 
    De resultaten van het bijhouden van de campagne zijn toegankelijk via het campagnerapport nadat de campagne is uitgevoerd. [Meer informatie over campagnerapporten](../reports/campaign-global-report.md)
 
-## De doelgroep definiëren {#audience}
+## Het publiek definiëren {#audience}
 
-1. Bepaal het publiek om te richten. Om dit te doen, klik **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-segmenten weer te geven. [Meer informatie over segmenten](../segment/about-segments.md)
+1. Bepaal het publiek om te richten. Om dit te doen, klik **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platforms weer te geven. [Meer informatie over segmenten](../segment/about-segments.md)
 
    >[!NOTE]
    >
@@ -130,38 +141,24 @@ In de **[!UICONTROL Actions]** , maakt u het bericht dat u wilt verzenden met de
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
 >title="Start campagne"
->abstract="TBC"
+>abstract="Geef een datum en tijd op waarop het bericht moet worden verzonden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_end"
 >title="Einde campagne"
->abstract="TBC"
+>abstract="Geef op wanneer een terugkerende campagne moet stoppen met uitvoeren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_triggers"
 >title="actieftriggers voor campagne"
->abstract="TBC"
+>abstract="Definieer de frequentie waarmee het campagnebericht moet worden verzonden."
 
-1. Om uw campagne op een specifieke datum of op een terugkomende frequentie uit te voeren, vorm **[!UICONTROL Schedule]** sectie. [Leer hoe u campagnes kunt plannen](#schedule)
+Standaard worden campagnes gestart zodra ze handmatig zijn geactiveerd en eindigen zodra het bericht eenmaal is verzonden.
 
-1. Als u aangepaste of basislabels voor gegevensgebruik aan de campagne wilt toewijzen, klikt u op de knop **[!UICONTROL Manage access]** knop. [Meer informatie over OLA (Object Level Access Control)](../administration/object-based-access.md)
+U kunt een frequentie bepalen waarmee het bericht van de campagne zou moeten worden verzonden. Om dit te doen, gebruik **[!UICONTROL Action triggers]** in het scherm Campagne creëren om te specificeren of de campagne dagelijks, wekelijks, of maandelijks zou moeten worden uitgevoerd.
+
+Als u uw campagne niet meteen na activering wilt uitvoeren, kunt u een datum en tijd opgeven waarop het bericht moet worden verzonden met de opdracht **[!UICONTROL Campaign start]** optie. De **[!UICONTROL Campaign end]** kunt u opgeven wanneer een terugkerende campagne niet meer wordt uitgevoerd.
+
+![](assets/create-campaign-schedule.png)
 
 Als uw campagne gereed is, kunt u deze controleren en publiceren. [Meer informatie](#review-activate)
-
-## Type campagne {#campaigntype}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_type"
->title="Type campagne"
->abstract="Voor een marketingbericht door een verzenddatum op te geven, wordt de **Gepland** type is het meest geschikt. Als u echter transactieberichten wilt verzenden, zoals het opnieuw instellen van het wachtwoord of het opgeven van de kaart, kunt u **API geactiveerd** type is de beste keuze."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_category"
->title="Campagne, categorie"
->abstract="De waarde van de categorie wordt direct geassocieerd met de waarde van het campagnetype. Het campagneretype voor de **Marketing** categorie en door de API geactiveerd type voor de categorie **Transactioneel**"
-
-Er zijn twee soorten campagnes beschikbaar:
-
-* **[!UICONTROL Scheduled]**: voert de campagne onmiddellijk of op een gespecificeerde datum uit. Geplande campagnes zijn gericht op het verzenden van **marketing** type berichten.
-
-* **[!UICONTROL API-triggered]**: voer de campagne uit gebruikend een API vraag. API-gestuurde campagnes zijn gericht op het verzenden van **transactie** berichten, d.w.z. berichten die worden verzonden na een actie uitgevoerd door een individu: wachtwoord opnieuw instellen, kaart verlaten enzovoort. [Leer hoe u een campagne activeert met behulp van API&#39;s](api-triggered-campaigns.md)
