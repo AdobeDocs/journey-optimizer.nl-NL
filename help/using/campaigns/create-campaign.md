@@ -11,7 +11,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: ab770b7b48fc906634f12458e0b31c7db0f641e8
 workflow-type: tm+mt
 source-wordcount: '687'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Voordat u een nieuwe campagne maakt, moet u ervoor zorgen dat u een oppervlaktekanaal (d.w.z. een berichtvoorinstelling) en een Adobe Experience Platform-segment klaar hebt voor gebruik. Meer informatie vindt u in deze secties:
+>Voordat u een nieuwe campagne maakt, moet u ervoor zorgen dat u een oppervlaktekanaal (d.w.z. een berichtvoorinstelling) en een Adobe Experience Platform-segment gebruiksklaar hebt. Meer informatie vindt u in deze secties:
 >
 >* [Kanaaloppervlakken maken](../configuration/channel-surfaces.md)
 >* [Aan de slag met segmenten](../segment/about-segments.md)
@@ -118,9 +118,9 @@ In de **[!UICONTROL Actions]** , maakt u het bericht dat u wilt verzenden met de
 
    De resultaten van het bijhouden van de campagne zijn toegankelijk via het campagnerapport nadat de campagne is uitgevoerd. [Meer informatie over campagnerapporten](../reports/campaign-global-report.md)
 
-## Het publiek definiëren {#audience}
+## De doelgroep definiëren {#audience}
 
-1. Bepaal het publiek om te richten. Om dit te doen, klik **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platforms weer te geven. [Meer informatie over segmenten](../segment/about-segments.md)
+1. Bepaal het publiek om te richten. Om dit te doen, klik **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-segmenten weer te geven. [Meer informatie over segmenten](../segment/about-segments.md)
 
    >[!NOTE]
    >
