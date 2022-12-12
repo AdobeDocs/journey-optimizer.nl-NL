@@ -10,10 +10,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: efea1bbd5154d378daf1f52315384156b6d23ae3
+source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 1%
+source-wordcount: '949'
+ht-degree: 0%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Inhoudsexperiment"
->abstract="TBC"
+>abstract="U kunt verkiezen om de leveringsinhoud, het onderwerp, of de afzender te variëren om veelvoudige leveringsbehandelingen te bepalen en de beste combinatie voor uw publiek te bepalen."
 
 >[!AVAILABILITY]
 >
->De **Inhoud experimenteren** Deze functie is momenteel alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>De **Inhoud experimenteren** Deze functie is momenteel alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe.
 
-Met Journey Optimizer Content Experiment kunt u meerdere behandelingen voor de afgifte definiëren. Het betrokken publiek wordt willekeurig toegewezen aan elke behandeling om te bepalen welke behandeling het best presteert ten opzichte van de maatstaf van belangstelling. U kunt kiezen om de leveringsinhoud, het onderwerp, of de afzender te variëren.
+Gebruik Reisoptimalisatie-inhoud experimenteren om meerdere leveringsbehandelingen te definiëren. Het betrokken publiek wordt willekeurig toegewezen aan elke behandeling om te bepalen welke behandeling het best presteert ten opzichte van de maatstaf van belangstelling. U kunt kiezen om de leveringsinhoud, het onderwerp, of de afzender te variëren.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
    ![](assets/content_experiment_2.png)
 
-1. Klik op **[!UICONTROL Create]**.
+1. Klikken **[!UICONTROL Create]**.
 
 1. Stel de **[!UICONTROL Properties]** van je levering:
    * **[!UICONTROL Title]**
@@ -66,7 +66,7 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
    ![](assets/content_experiment_3.png)
 
-1. Bepaal het publiek om te richten. Om dit te doen, klik **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-segmenten weer te geven. [Meer informatie over segmenten](../segment/about-segments.md)
+1. Bepaal het publiek om te richten. Om dit te doen, klik **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platforms weer te geven. [Meer informatie over segmenten](../segment/about-segments.md)
 
    In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren. [Meer informatie](get-started-experiment.md#content-experiment-work)
 
@@ -86,7 +86,7 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
 1. Na het ontwerpen van de eerste behandeling, kunt u het beste **[!UICONTROL More actions]** klikt u op **[!UICONTROL Duplicate]**.
 
-   U kunt er ook voor kiezen een nieuwe behandeling helemaal opnieuw te starten door op de knop **[!UICONTROL Content experiment]** knop ![](assets/content_experiment_16.png) om toegang te krijgen tot de geavanceerde opties **[!UICONTROL Add treatment]**.
+   U kunt er ook voor kiezen om een nieuwe behandeling helemaal opnieuw te starten door op de knop **[!UICONTROL Content experiment]** knop ![](assets/content_experiment_16.png) om toegang te krijgen tot de geavanceerde opties **[!UICONTROL Add treatment]**.
 
    ![](assets/content_experiment_7.png)
 
@@ -140,7 +140,7 @@ Na het vormen van uw experimenteren en campagne, kunt u het succes van uw leveri
 
 >[!AVAILABILITY]
 >
->De functie voor het experimenteren met inhoud is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>De functie voor het experimenteren met inhoud is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe.
 
 ![](assets/performance_report.gif)
 
@@ -158,7 +158,7 @@ Houd er rekening mee dat elke widget indien nodig kan worden vergroot of verklei
 
 >[!AVAILABILITY]
 >
->De functie voor het experimenteren met inhoud is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>De functie voor het experimenteren met inhoud is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe.
 
 ![](assets/experimentation_report_3.png)
 
