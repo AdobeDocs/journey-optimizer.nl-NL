@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Een landingspagina maken
-description: Leer hoe u een bestemmingspagina in Journey Optimizer configureert en publiceert
+title: Een openingspagina maken
+description: Leer hoe u een bestemmingspagina configureert en publiceert in Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: e7add9627a9938b861ddbcc40f168f41c871119b
 workflow-type: tm+mt
-source-wordcount: '1460'
-ht-degree: 1%
+source-wordcount: '1397'
+ht-degree: 0%
 
 ---
 
@@ -43,13 +43,13 @@ Klik op de drie stippen naast een openingspagina om de gewenste actie te selecte
 >
 >U kunt een [gepubliceerd](#publish-landing-page) openingspagina. Als u het wilt verwijderen, moet u de publicatie eerst ongedaan maken.
 
-## Een landingspagina maken {#create-landing-page}
+## Een openingspagina maken {#create-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_create"
 >title="De bestemmingspagina definiëren en configureren"
 >abstract="Als u een openingspagina wilt maken, moet u een voorinstelling selecteren, vervolgens de primaire pagina en subpagina&#39;s configureren en ten slotte de pagina testen voordat u deze publiceert."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="De openingspagina publiceren"
 
 >[!CONTEXTUALHELP]
@@ -76,7 +76,7 @@ De stappen voor het maken van een bestemmingspagina zijn als volgt.
 
    ![](assets/lp_create-lp-presets.png)
 
-1. Klik op **[!UICONTROL Create]**.
+1. Klikken **[!UICONTROL Create]**.
 
 1. De primaire pagina en de bijbehorende eigenschappen worden weergegeven. Leer hoe u de instellingen voor de primaire pagina configureert [hier](#configure-primary-page).
 
@@ -100,8 +100,8 @@ Zodra u vormde en ontwierp [primaire pagina](#configure-primary-page)en de [subp
 >id="ajo_lp_access_settings"
 >title="De URL van de landingspagina definiëren"
 >abstract="Definieer in deze sectie een unieke URL van een bestemmingspagina. Voor het eerste deel van de URL moet u eerder een subdomein voor een bestemmingspagina instellen als onderdeel van de voorinstelling die u hebt geselecteerd."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-subdomains.html" text="Subdomeinen van bestemmingspagina configureren"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/lp-configuration/lp-presets.html#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-subdomains.html" text="Subdomeinen van bestemmingspagina configureren"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
 
 De primaire pagina is de pagina die onmiddellijk aan de gebruikers wordt getoond nadat zij de verbinding aan uw landende pagina, zoals van een e-mail of een website klikken.
 
