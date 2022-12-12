@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Een landingspagina maken
-description: Leer hoe u een bestemmingspagina in Journey Optimizer configureert en publiceert
+title: Een openingspagina maken
+description: Leer hoe u een bestemmingspagina configureert en publiceert in Journey Optimizer
 feature: Landing Pages
 topic: Content Management
 role: User
@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
 workflow-type: tm+mt
-source-wordcount: '1460'
-ht-degree: 1%
+source-wordcount: '1397'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +43,7 @@ Klik op de drie stippen naast een openingspagina om de gewenste actie te selecte
 >
 >U kunt een [gepubliceerd](#publish-landing-page) openingspagina. Als u het wilt verwijderen, moet u de publicatie eerst ongedaan maken.
 
-## Een landingspagina maken {#create-landing-page}
+## Een openingspagina maken {#create-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_create"
@@ -76,7 +76,7 @@ De stappen voor het maken van een bestemmingspagina zijn als volgt.
 
    ![](assets/lp_create-lp-presets.png)
 
-1. Klik op **[!UICONTROL Create]**.
+1. Klikken **[!UICONTROL Create]**.
 
 1. De primaire pagina en de bijbehorende eigenschappen worden weergegeven. Leer hoe u de instellingen voor de primaire pagina configureert [hier](#configure-primary-page).
 
