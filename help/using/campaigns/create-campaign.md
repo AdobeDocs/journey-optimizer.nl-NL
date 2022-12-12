@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: ef838945e0c3595de8ad920203b278bb51671d16
+source-git-commit: 5f8a765eefe4033a642c46e18be518d29b196bc3
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 3%
+source-wordcount: '602'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Voordat u een nieuwe campagne maakt, moet u ervoor zorgen dat u een oppervlaktekanaal (d.w.z. een berichtvoorinstelling) en een Adobe Experience Platform-segment gebruiksklaar hebt. Meer informatie vindt u in deze secties:
+>Voordat u een nieuwe campagne maakt, moet u ervoor zorgen dat u een oppervlaktekanaal (d.w.z. een berichtvoorinstelling) en een Adobe Experience Platform-segment klaar hebt voor gebruik. Meer informatie vindt u in deze secties:
 >
 >* [Kanaaloppervlakken maken](../configuration/channel-surfaces.md)
 >* [Aan de slag met segmenten](../segment/about-segments.md)
@@ -107,9 +107,9 @@ In de **[!UICONTROL Actions]** , maakt u het bericht dat u wilt verzenden met de
 
    De resultaten van het bijhouden van de campagne zijn toegankelijk via het campagnerapport nadat de campagne is uitgevoerd. [Meer informatie over campagnerapporten](../reports/campaign-global-report.md)
 
-## De doelgroep definiëren {#audience}
+## Het publiek definiëren {#audience}
 
-1. Bepaal het publiek om te richten. Om dit te doen, klik **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-segmenten weer te geven. [Meer informatie over segmenten](../segment/about-segments.md)
+1. Bepaal het publiek om te richten. Om dit te doen, klik **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platforms weer te geven. [Meer informatie over segmenten](../segment/about-segments.md)
 
    >[!NOTE]
    >
@@ -127,6 +127,21 @@ In de **[!UICONTROL Actions]** , maakt u het bericht dat u wilt verzenden met de
 
 ## De campagne plannen {#schedule}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_start"
+>title="Start campagne"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_end"
+>title="Einde campagne"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule_triggers"
+>title="actieftriggers voor campagne"
+>abstract="TBC"
+
 1. Om uw campagne op een specifieke datum of op een terugkomende frequentie uit te voeren, vorm **[!UICONTROL Schedule]** sectie. [Leer hoe u campagnes kunt plannen](#schedule)
 
 1. Als u aangepaste of basislabels voor gegevensgebruik aan de campagne wilt toewijzen, klikt u op de knop **[!UICONTROL Manage access]** knop. [Meer informatie over OLA (Object Level Access Control)](../administration/object-based-access.md)
@@ -143,7 +158,7 @@ Als uw campagne gereed is, kunt u deze controleren en publiceren. [Meer informat
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Campagne, categorie"
->abstract="De waarde van de categorie is direct verbonden met de waarde van het campagnetype. Het campagneretype voor de **Marketing** categorie en door de API geactiveerd type voor de categorie **Transactioneel**"
+>abstract="De waarde van de categorie wordt direct geassocieerd met de waarde van het campagnetype. Het campagneretype voor de **Marketing** categorie en door de API geactiveerd type voor de categorie **Transactioneel**"
 
 Er zijn twee soorten campagnes beschikbaar:
 
