@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Ondersteuning voor archivering in Journey Optimizer
+title: Ondersteuning voor archivering in Reis Optimizer
 description: Leer hoe u berichten kunt archiveren
 feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 43137871e8f45e05c6fe00c51bc3c9847fabd0da
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 1%
+source-wordcount: '1078'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,7 @@ U kunt een identieke kopie (of blinde koolstofkopie) van een e-mailbericht verze
 
 ### BCC-e-mail inschakelen {#enable-bcc}
 
-Om het **[!UICONTROL BCC email]** voert u het e-mailadres van uw keuze in in het desbetreffende veld van het dialoogvenster [kanaaloppervlak](channel-surfaces.md) (d.w.z. voorinstelling bericht). U kunt elk extern adres opgeven in de juiste indeling, behalve een e-mailadres dat is gedefinieerd voor een subdomein dat is gedelegeerd aan Adobe. Als u bijvoorbeeld de opdracht *marketing.luma.com* subdomein voor Adobe, elk adres zoals *abc@marketing.luma.com* is verboden.
+Om het **[!UICONTROL BCC email]** voert u het e-mailadres van uw keuze in in het desbetreffende veld van het dialoogvenster [kanaaloppervlak](channel-surfaces.md) (d.w.z. voorinstelling bericht). U kunt elk extern adres opgeven in de juiste indeling, behalve een e-mailadres dat is gedefinieerd voor een subdomein dat is gedelegeerd aan de Adobe. Als u bijvoorbeeld de opdracht *marketing.luma.com* subdomein voor Adobe, elk adres zoals *abc@marketing.luma.com* is verboden.
 
 >[!CAUTION]
 >
@@ -89,7 +89,7 @@ Nochtans, wordt het adres BCC opgepikt voor het verzenden van mededelingen na de
 
 ### GDPR-conformiteit {#gdpr-compliance}
 
-In verordeningen zoals de GDPR is bepaald dat betrokkenen hun toestemming te allen tijde kunnen wijzigen. Omdat de BCC-e-mails die u met Journey Optimizer verzendt, veilig herkenbare gegevens (PII&#39;s) bevatten, moet u de **[!UICONTROL CJM Email BCC Feedback Event Schema]** deze PII te kunnen beheren in overeenstemming met de GDPR en soortgelijke voorschriften.
+In verordeningen zoals de GDPR is bepaald dat betrokkenen hun toestemming te allen tijde kunnen wijzigen. Omdat de BCC-e-mails die u verzendt met de functie Reis Optimizer beveiligde, persoonlijk identificeerbare gegevens bevatten, moet u de **[!UICONTROL CJM Email BCC Feedback Event Schema]** deze PII te kunnen beheren in overeenstemming met de GDPR en soortgelijke voorschriften.
 
 Volg de onderstaande stappen om dit te doen.
 
@@ -99,7 +99,7 @@ Volg de onderstaande stappen om dit te doen.
 
 1. Klik om uit te vouwen **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagment]** dan **[!UICONTROL secondaryRecipientDetail]**.
 
-1. Selecteer **[!UICONTROL originalRecipientAddress]**.
+1. Selecteren **[!UICONTROL originalRecipientAddress]**.
 
 1. In de **[!UICONTROL Field properties]** rechts, omlaag schuiven naar de **[!UICONTROL Identity]** selectievakje.
 
@@ -109,7 +109,7 @@ Volg de onderstaande stappen om dit te doen.
 
    ![](assets/preset-bcc-schema-identity.png)
 
-1. Klik op **[!UICONTROL Apply]**.
+1. Klikken **[!UICONTROL Apply]**.
 
 >[!NOTE]
 >
@@ -131,21 +131,21 @@ Afhankelijk van welke informatie u zoekt, kunt u de volgende vragen in werking s
 
 1. Voor alle andere hieronder vragen, zult u identiteitskaart van de reisactie nodig hebben. Voer deze query uit om alle actie-id&#39;s op te halen die zijn gekoppeld aan een bepaalde versie-id voor de reis binnen de laatste twee dagen:
 
-       &quot;
-       SELECT
-       DISTINCT
-       CAST(TIMESTAMP AS DATE) ALS EventTime,
-       _experience.tripOrchestration.stepEvents.tripVersionID,
-       _experience.tripOrchestration.stepEvents.actionName,
-       _experience.tripOrchestration.stepEvents.actionID
-       FROM trip_step_events
-       WAAR
-       _experience.tripOrchestration.stepEvents.tripVersionID = &#39;&lt;journey version=&quot;&quot; id=&quot;&quot;>&quot; EN
-       _experience.tripOrchestration.stepEvents.actionID is niet NULL EN
-       TIJDSTEMPEL > NOW() - INTERVAL &#39;2&#39; DAG
-       ORDER BY EventTime DESC;
-       &quot;
-   
+   ```
+   SELECT
+   DISTINCT
+   CAST(TIMESTAMP AS DATE) AS EventTime,
+   _experience.journeyOrchestration.stepEvents.journeyVersionID,
+   _experience.journeyOrchestration.stepEvents.actionName, 
+   _experience.journeyOrchestration.stepEvents.actionID 
+   FROM journey_step_events 
+   WHERE 
+   _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND 
+   _experience.journeyOrchestration.stepEvents.actionID is not NULL AND 
+   TIMESTAMP > NOW() - INTERVAL '2' DAY 
+   ORDER BY EventTime DESC;
+   ```
+
    >[!NOTE]
    >
    >Om de `<journey version id>`parameter, selecteer de overeenkomstige [reisversie](../building-journeys/journey.md#journey-versions) van de **[!UICONTROL Journey management]** > **[!UICONTROL Journeys]** -menu. De reisversie-id wordt weergegeven aan het einde van de URL die in uw webbrowser wordt weergegeven.
@@ -154,28 +154,28 @@ Afhankelijk van welke informatie u zoekt, kunt u de volgende vragen in werking s
 
 1. Voer deze query uit om alle bericht-feedbackgebeurtenissen (met name feedbackstatus) op te halen die zijn gegenereerd voor een bepaald bericht dat binnen de laatste twee dagen als doel is ingesteld voor een specifieke gebruiker:
 
-       &quot;
-       SELECT
-       _experience.customerJourneyManagement.messageExecution.tripVersionID AS JourneyVersionID,
-       _experience.customerJourneyManagement.messageExecution.tripActionID AS JourneyActionID,
-       timestamp AS EventTime,
-       _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress,
-       _experience.customerjourneymanagement.messageDeliyfeedback.feedbackStatus AS FeedbackStatus,
-       CASE_experience.customerjourneymanagement.messageDeliyfeedback.feedbackStatus
-       WANNEER &#39;sent&#39; VERVOLGENS &#39;Sent&#39;
-       WANNEER &#39;delay&#39; VERVOLGENS &#39;Opnieuw&#39;
-       WANNEER &#39;out_of_band&#39; VERVOLGENS &#39;Bounce&#39;
-       WANNEER &#39;stuiteren&#39; VERVOLGENS &#39;stuiteren&#39;
-       END ALS FeedbackStatusCategory
-       FROM cjm_message_feedback_event_dataset
-       WAAR
-       timestamp > now() - INTERVAL &#39;2&#39; day EN
-       _experience.customerJourneyManagement.messageExecution.tripVersionID = &#39;&lt;journey version=&quot;&quot; id=&quot;&quot;>&quot; EN
-       _experience.customerJourneyManagement.messageExecution.tripActionID = &#39;&lt;journey action=&quot;&quot; id=&quot;&quot;>&quot; EN
-       _experience.customerJourneyManagement.emailChannelContext.address = &#39;&lt;recipient email=&quot;&quot; address=&quot;&quot;>&#39;
+   ```
+   SELECT  
+   _experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID, 
+   _experience.customerJourneyManagement.messageExecution.journeyActionID AS JourneyActionID, 
+   timestamp AS EventTime, 
+   _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress, 
+   _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus AS FeedbackStatus,
+   CASE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackStatus
+       WHEN 'sent' THEN 'Sent'
+       WHEN 'delay' THEN 'Retry'
+       WHEN 'out_of_band' THEN 'Bounce' 
+       WHEN 'bounce' THEN 'Bounce'
+   END AS FeedbackStatusCategory
+   FROM cjm_message_feedback_event_dataset 
+   WHERE  
+       timestamp > now() - INTERVAL '2' day  AND
+       _experience.customerJourneyManagement.messageExecution.journeyVersionID = '<journey version id>' AND 
+       _experience.customerJourneyManagement.messageExecution.journeyActionID = '<journey action id>' AND  
+       _experience.customerJourneyManagement.emailChannelContext.address = '<recipient email address>'
        ORDER BY EventTime DESC;
-       &quot;
-   
+   ```
+
    >[!NOTE]
    >
    >Om de `<journey action id>` parameter, stel de eerste hierboven beschreven vraag in werking gebruikend identiteitskaart van de reisversie. De `<recipient email address>` parameter is het beoogde of werkelijke e-mailadres van de ontvanger.
