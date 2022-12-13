@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Ondersteuning voor archivering in Reis Optimizer
+title: Ondersteuning voor archivering in Journey Optimizer
 description: Leer hoe u berichten kunt archiveren
 feature: Application Settings
 topic: Administration
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: 43137871e8f45e05c6fe00c51bc3c9847fabd0da
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 0%
+source-wordcount: '1084'
+ht-degree: 1%
 
 ---
 
@@ -40,7 +40,7 @@ U kunt een identieke kopie (of blinde koolstofkopie) van een e-mailbericht verze
 
 ### BCC-e-mail inschakelen {#enable-bcc}
 
-Om het **[!UICONTROL BCC email]** voert u het e-mailadres van uw keuze in in het desbetreffende veld van het dialoogvenster [kanaaloppervlak](channel-surfaces.md) (d.w.z. voorinstelling bericht). U kunt elk extern adres opgeven in de juiste indeling, behalve een e-mailadres dat is gedefinieerd voor een subdomein dat is gedelegeerd aan de Adobe. Als u bijvoorbeeld de opdracht *marketing.luma.com* subdomein voor Adobe, elk adres zoals *abc@marketing.luma.com* is verboden.
+Om het **[!UICONTROL BCC email]** voert u het e-mailadres van uw keuze in in het desbetreffende veld van het dialoogvenster [kanaaloppervlak](channel-surfaces.md) (d.w.z. voorinstelling bericht). U kunt elk extern adres opgeven in de juiste indeling, behalve een e-mailadres dat is gedefinieerd voor een subdomein dat is gedelegeerd aan Adobe. Als u bijvoorbeeld de opdracht *marketing.luma.com* subdomein voor Adobe, elk adres zoals *abc@marketing.luma.com* is verboden.
 
 >[!CAUTION]
 >
@@ -89,7 +89,7 @@ Nochtans, wordt het adres BCC opgepikt voor het verzenden van mededelingen na de
 
 ### GDPR-conformiteit {#gdpr-compliance}
 
-In verordeningen zoals de GDPR is bepaald dat betrokkenen hun toestemming te allen tijde kunnen wijzigen. Omdat de BCC-e-mails die u verzendt met de functie Reis Optimizer beveiligde, persoonlijk identificeerbare gegevens bevatten, moet u de **[!UICONTROL CJM Email BCC Feedback Event Schema]** deze PII te kunnen beheren in overeenstemming met de GDPR en soortgelijke voorschriften.
+In verordeningen zoals de GDPR is bepaald dat betrokkenen hun toestemming te allen tijde kunnen wijzigen. Omdat de BCC-e-mails die u met Journey Optimizer verzendt, veilig herkenbare gegevens (PII&#39;s) bevatten, moet u de **[!UICONTROL CJM Email BCC Feedback Event Schema]** deze PII te kunnen beheren in overeenstemming met de GDPR en soortgelijke voorschriften.
 
 Volg de onderstaande stappen om dit te doen.
 
@@ -99,7 +99,7 @@ Volg de onderstaande stappen om dit te doen.
 
 1. Klik om uit te vouwen **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagment]** dan **[!UICONTROL secondaryRecipientDetail]**.
 
-1. Selecteren **[!UICONTROL originalRecipientAddress]**.
+1. Selecteer **[!UICONTROL originalRecipientAddress]**.
 
 1. In de **[!UICONTROL Field properties]** rechts, omlaag schuiven naar de **[!UICONTROL Identity]** selectievakje.
 
@@ -109,7 +109,7 @@ Volg de onderstaande stappen om dit te doen.
 
    ![](assets/preset-bcc-schema-identity.png)
 
-1. Klikken **[!UICONTROL Apply]**.
+1. Klik op **[!UICONTROL Apply]**.
 
 >[!NOTE]
 >
