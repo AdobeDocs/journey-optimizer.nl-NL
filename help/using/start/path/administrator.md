@@ -1,14 +1,14 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer Aan de slag voor systeembeheer
-description: Als systeembeheerder, leer meer hoe te om met Journey Optimizer te werken
+title: Reisoptimalisator Aan de slag voor systeembeheer
+description: Als Beheerder van het Systeem, leer meer hoe te om met de Optimizer van de Reis te werken
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 9f67172f31ddc1caef9d014c365f71e470e45390
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 2%
+source-wordcount: '712'
+ht-degree: 0%
 
 ---
 
@@ -26,23 +26,23 @@ Meer informatie over toegangsbeheer vindt u op de volgende pagina&#39;s:
 1. **Sandboxen maken** om uw instanties in afzonderlijke, geïsoleerde virtuele omgevingen te verdelen. **Sandboxen** worden gemaakt in [!DNL Journey Optimizer]. Meer informatie in het dialoogvenster [Sandboxen](../../administration/sandboxes.md) sectie.
 
    >[!NOTE]
-   >Als **Systeembeheerder** als u de **[!UICONTROL Sandboxes]** menu in [!DNL Journey Optimizer]kunt u uw machtigingen in de [Admin Console](https://adminconsole.adobe.com/){_blank}. Leer hoe u uw productprofiel kunt bijwerken in [deze pagina](../../administration/permissions.md#edit-product-profile).
+   >Als **Systeembeheerder** als u de **[!UICONTROL Sandboxes]** menu in [!DNL Journey Optimizer]kunt u uw machtigingen in de [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Leer hoe u uw productprofiel kunt bijwerken in [deze pagina](../../administration/permissions.md#edit-product-profile).
 
 1. **Productprofielen begrijpen**. Productprofielen zijn een reeks eenheidrechten die gebruikers toegang tot bepaalde functies of objecten in de interface biedt. Meer informatie in het dialoogvenster [Productprofielen buiten de verpakking](../../administration/ootb-product-profiles.md) sectie.
 
-1. **Machtigingen instellen** voor productprofielen, waaronder **Sandboxen** en geef toegang tot uw teamleden door deze toe te wijzen aan verschillende productprofielen. Deze stap wordt uitgevoerd in het dialoogvenster [Admin Console](https://adminconsole.adobe.com/){_blank}. Machtigingen zijn eenheidrechten waarmee u de machtigingen kunt definiëren die zijn toegewezen aan **[!UICONTROL Product profile]**. Elke toestemming wordt verzameld onder mogelijkheden, bijvoorbeeld Reis of Aanbiedingen, die de verschillende functionaliteiten of voorwerpen in vertegenwoordigen [!DNL Journey Optimizer]. Meer informatie in het dialoogvenster [Machtigingsniveaus](../../administration/high-low-permissions.md) sectie.
+1. **Machtigingen instellen** voor productprofielen, waaronder **Sandboxen** en geef toegang tot uw teamleden door deze toe te wijzen aan verschillende productprofielen. Deze stap wordt uitgevoerd in het dialoogvenster [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Machtigingen zijn eenheidrechten waarmee u de machtigingen kunt definiëren die zijn toegewezen aan **[!UICONTROL Product profile]**. Elke toestemming wordt verzameld onder mogelijkheden, bijvoorbeeld Reis of Aanbiedingen, die de verschillende functionaliteiten of voorwerpen in vertegenwoordigen [!DNL Journey Optimizer]. Meer informatie in het dialoogvenster [Machtigingsniveaus](../../administration/high-low-permissions.md) sectie.
 
-Bovendien moet u gebruikers die toegang tot Assets Essentials nodig hebben, toevoegen aan de **Assets Essentials Consumer Users** of/en **Assets Essentials-gebruikers** Productprofielen. [Meer informatie in Assets Essentials-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
+Bovendien moet u gebruikers toevoegen die toegang tot de Hoofdzaak van Activa aan de **Essentiële elementen Consumentengebruikers** of/en **Essentiële gebruikers van middelen** Productprofielen. [Meer informatie in de documentatie bij Essentiële elementen](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;}.
 
 >[!NOTE]
->Voor Journey Optimizer-producten die zijn verkregen vóór 6 januari 2022, moet u [!DNL Adobe Experience Manager Assets Essentials] voor uw organisatie. Meer informatie in het dialoogvenster [Assets Essentials implementeren](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;} -sectie.
+>Voor artikelen voor het optimaliseren van reizen die vóór 6 januari 2022 zijn verkregen, moet u [!DNL Adobe Experience Manager Assets Essentials] voor uw organisatie. Meer informatie in het dialoogvenster [Elementen implementeren](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target=&quot;_blank&quot;} -sectie.
 
 Bij toegang [!DNL Journey Optimizer] voor het eerst, bent u provisioned een productiesandbox en toegewezen een bepaald aantal IPs afhankelijk van uw contract.
 
 Als u uw reizen wilt maken en berichten wilt verzenden, opent u de **ADMINISTRATIE** -menu. Bladeren in het dialoogvenster **[!UICONTROL Channels]** -menu om uw berichten en kanaaloppervlakken te configureren (d.w.z. voorinstellingen voor berichten).
 
 >[!NOTE]
->Als **Systeembeheerder** als u de **[!UICONTROL Channels]** menu in [!DNL Journey Optimizer]kunt u uw machtigingen in de [Admin Console](https://adminconsole.adobe.com/){_blank}. Leer hoe u uw productprofiel kunt bijwerken in [deze pagina](../../administration/permissions.md#edit-product-profile).
+>Als **Systeembeheerder** als u de **[!UICONTROL Channels]** menu in [!DNL Journey Optimizer]kunt u uw machtigingen in de [Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;}. Leer hoe u uw productprofiel kunt bijwerken in [deze pagina](../../administration/permissions.md#edit-product-profile).
 
 Voer de onderstaande stappen uit:
 
@@ -56,7 +56,7 @@ Voer de onderstaande stappen uit:
 
    * Het aantal dagen beheren waarin **opnieuw** worden uitgevoerd voordat e-mailadressen naar de suppressielijst worden verzonden. [Meer informatie](../../configuration/manage-suppression-list.md)
 
-1. **Subdomeinen delegeren**: voor om het even welk nieuw subdomain dat in Journey Optimizer moet worden gebruikt, zal de eerste stap het delegeren zijn. [Meer informatie](../../configuration/about-subdomain-delegation.md)
+1. **Subdomeinen delegeren**: voor om het even welk nieuw subdomain dat in de Optimizer van de Reis moet worden gebruikt, zal de eerste stap het delegeren zijn. [Meer informatie](../../configuration/about-subdomain-delegation.md)
 
    ![](../assets/subdomain.png)
 
@@ -64,10 +64,10 @@ Voer de onderstaande stappen uit:
 
    ![](../assets/ip-pool.png)
 
-1. **De onderdrukking en lijsten van gewenste personen beheren**: verbeter uw leverbaarheid met onderdrukking en lijsten van gewenste personen
+1. **De lijsten voor onderdrukken en toestaan beheren**: verbeter uw leverbaarheid met onderdrukking en toegestane lijsten
 
-   * A [onderdrukkingslijst](../../reports/suppression-list.md) bestaat uit e-mailadressen die u van uw leveringen wilt uitsluiten, omdat het verzenden naar deze contacten uw verzendende reputatie en leveringspercentages zou kunnen beschadigen. U kunt alle e-mailadressen controleren die automatisch van het verzenden van een reis, zoals ongeldige adressen, adressen worden uitgesloten die constant elektronische stuiteren, en uw e-mailreputatie, en ontvangers die een spamklacht van één of andere soort tegen één van uw e-mailberichten negatief zouden kunnen beïnvloeden. Leer hoe u de [onderdrukkingslijst](../../configuration/manage-suppression-list.md) en [opnieuw](../../configuration/retries.md).
+   * A [onderdrukkingslijst](../../reports/suppression-list.md) bestaat uit e-mailadressen die u van uw leveringen wilt uitsluiten, omdat het verzenden naar deze contacten uw verzendende reputatie en leveringspercentages zou kunnen beschadigen. U kunt alle e-mailadressen controleren die automatisch van het verzenden in een reis, zoals ongeldige adressen worden uitgesloten, adressen die constant elektronische stuiteren, en uw e-mailreputatie, en ontvangers die een spamklacht van één of andere soort tegen één van uw e-mailberichten negatief zouden kunnen beïnvloeden. Leer hoe u de [onderdrukkingslijst](../../configuration/manage-suppression-list.md) en [opnieuw](../../configuration/retries.md).
    ![](../assets/suppression-list-filtering-example.png)
 
-   * De [lijst van gewenste personen](../../configuration/allow-list.md) kunt u afzonderlijke e-mailadressen of domeinen opgeven die de enige ontvangers of domeinen zijn die geautoriseerd zijn om de e-mails te ontvangen die u verzendt vanuit een specifieke sandbox. Dit kan voorkomen dat u per ongeluk e-mailberichten naar de adressen van de echte klant stuurt wanneer u zich in een testomgeving bevindt. Leer hoe u [de lijst van gewenste personen inschakelen](../../configuration/allow-list.md).
+   * De [toegestane lijst](../../configuration/allow-list.md) kunt u afzonderlijke e-mailadressen of domeinen opgeven die de enige ontvangers of domeinen zijn die geautoriseerd zijn om de e-mails te ontvangen die u verzendt vanuit een specifieke sandbox. Dit kan voorkomen dat u per ongeluk e-mailberichten naar de adressen van de echte klant stuurt wanneer u zich in een testomgeving bevindt. Leer hoe u [de toegestane lijst inschakelen](../../configuration/allow-list.md).
    Meer informatie over het beheer van de aflevering vindt u in [!DNL Adobe Journey Optimizer] [op deze pagina](../../reports/deliverability.md).
