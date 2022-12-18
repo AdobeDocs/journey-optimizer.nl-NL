@@ -13,7 +13,7 @@ ht-degree: 22%
 
 ---
 
-# differentCountWithNull {#distinctCountWithNull}
+# distinctCountWithNull {#distinctCountWithNull}
 
 Telt het aantal verschillende waarden inclusief de null-waarden.
 

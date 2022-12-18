@@ -51,7 +51,7 @@ Wat argumenten voor letterlijke functies betreft, ondersteunt de parser voor sja
 
 ## Profiel
 
-Met deze naamruimte kunt u verwijzen naar alle kenmerken die zijn gedefinieerd in het profielschema dat wordt beschreven in [Adobe Experience Platform Data Model (XDM)-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target=&quot;_blank&quot;}.
+Met deze naamruimte kunt u verwijzen naar alle kenmerken die zijn gedefinieerd in het profielschema dat wordt beschreven in [Adobe Experience Platform Data Model (XDM)-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target=&quot;_blank&quot;}.
 
 De attributen moeten in het schema worden bepaald alvorens in a wordt van verwijzingen voorzien [!DNL Journey Optimizer] verpersoonlijkingsblok.
 

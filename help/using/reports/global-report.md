@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 7c7faa5e672d5ed6d7a083db50b206d11ecc4184
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1421'
 ht-degree: 2%
 
 ---
@@ -306,7 +306,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
 </table>
 -->
 
-### Metrische gegevens voor pushmeldingen {#push-notification-metrics}
+### Metrische gegevens voor pushmeldingen
 
 <table> 
  <thead> 
@@ -433,3 +433,105 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
  </tbody> 
 </table>
 
+### Metrische gegevens voor pushmeldingen
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metrisch<br/> </th> 
+   <th> Definitie<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Acties<br/> </td> 
+   <td> Het totale aantal acties op de geleverde pushmelding, bijvoorbeeld klikken op de knop of ontslag.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Bounces<br/> </td> 
+   <td> Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Bouncepercentage<br/> </td> 
+   <td> Percentage pushmeldingen dat is teruggestuurd in vergelijking met verzonden pushberichten.<br/> </td>
+</tr>
+  <tr> 
+   <td> Afgeleverd<br/> </td> 
+   <td> Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Leveringsgraad<br/> </td> 
+   <td> Percentage pushberichten verzonden.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Engages<br/> </td> 
+   <td> Het totale aantal keren dat wordt geopend en de acties voor deze pushmelding, bijvoorbeeld als het profiel de pushmelding heeft geopend of als op een knop is geklikt.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Betrokkenheid<br/> </td> 
+   <td> Percentage van het aantal keren dat wordt geopend en handelingen voor deze pushmelding, bijvoorbeeld als het profiel de pushmelding heeft geopend of als op een knop is geklikt.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Fouten<br/> </td> 
+   <td> Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Foutfrequentie<br/> </td> 
+   <td> Percentage fouten die optraden tijdens een levering waardoor deze niet kon worden verzonden, vergeleken met verzonden pushberichten.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Uitgesloten<br/> </td> 
+   <td> Aantal profielen dat door Adobe Journey Optimizer is uitgesloten.<br/> </td> 
+</tr>
+  <tr> 
+   <td> Geopende items<br/> </td> 
+   <td> Het totale aantal pushberichten dat aan het apparaat is geleverd en waarop gebruikers hebben geklikt om de app te openen. Dit is gelijkaardig aan de Duw klikt behalve zal een Duw Open niet teweeggebracht worden als het bericht werd verworpen.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Open rate<br/> </td> 
+   <td> Percentage geopende pushmeldingen.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Verzonden<br/> </td> 
+   <td> Het totale aantal verzendt voor de levering.<br/> </td> 
+</tr> 
+  <tr> 
+   <td> Gericht<br/> </td> 
+   <td> Het totale aantal pushberichten dat tijdens de leveringsanalyse is verwerkt.<br/> </td> 
+</tr>  
+ </tbody> 
+</table>
+
+<!--
+### In-app metrics {#inapp-metrics}
+<table> 
+ <thead> 
+  <tr> 
+   <th> Metric<br/> </th> 
+   <th> Definition<br/> </th> 
+</tr>
+ </thead> 
+ <tbody>
+ <tr> 
+   <td>Clicks<br/> </td> 
+   <td>Total number of recipients who interacted with the buttons included in the In-app message.<br/> </td> 
+</tr>
+  <tr> 
+   <td>Click rate<br/> </td> 
+   <td>Percentage of users who interacted with the buttons included in the In-app message compared to users who saw the message.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Dismiss rate<br/> </td> 
+   <td> Percentage of In-app messages that recipients dismissed.<br/> </td> 
+</tr> 
+  <tr> 
+   <td>Impressions<br/> </td> 
+   <td> Total number of In-app messages delivered to all users.<br/> </td>
+</tr>
+  <tr> 
+   <td>Unique impressions<br/> </td> 
+   <td>Number of unique users to whom the In-app message was delivered.<br/> </td>
+</tr>
+ </tbody> 
+</table>
+-->

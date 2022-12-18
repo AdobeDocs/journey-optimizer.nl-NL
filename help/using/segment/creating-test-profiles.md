@@ -181,7 +181,7 @@ Uw testprofielen worden toegevoegd en kunnen nu worden gebruikt bij het testen v
 
 ## Testprofielen maken met behulp van API-aanroepen{#create-test-profiles-api}
 
-U kunt testprofielen ook maken via API-aanroepen. Meer informatie in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target=&quot;_blank&quot;}.
+U kunt testprofielen ook maken via API-aanroepen. Meer informatie in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target=&quot;_blank&quot;}.
 
 U moet een profielschema gebruiken dat de het gebiedsgroep van &quot;de testdetails van het Profiel&quot;bevat. De markering testProfile maakt deel uit van deze veldgroep.
 Wanneer u een profiel maakt, moet u de waarde doorgeven: testProfile = true.

@@ -7,7 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+exl-id: aad4e08a-3369-454d-9e32-974347a3b393
+source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
@@ -59,4 +60,3 @@ U moet ook waarschuwingen controleren in het bovenste gedeelte van de editor.  S
 ![](assets/push_alert.png)
 
 Wanneer uw pushmelding gereed is, voltooit u de configuratie van uw [reis](../building-journeys/journey-gs.md) of [campagne](../campaigns/create-campaign.md) om het te verzenden.
-

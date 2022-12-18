@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 0%
+source-wordcount: '1712'
+ht-degree: 5%
 
 ---
 
@@ -20,19 +20,19 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="Subdomeindelegatie"
->abstract="De Optimizer van de reis staat u toe om uw subdomeinen aan Adobe te delegeren. U kunt een subdomein volledig delegeren aan Adobe, wat de geadviseerde methode is. U kunt ook een subdomein tot stand brengen gebruikend CNAMEs om aan Adobe-specifieke verslagen te richten, maar deze benadering vereist u om DNS verslagen op uw te handhaven en te beheren."
+>abstract="Met Journey Optimizer kunt u uw subdomeinen delegeren aan Adobe. U kunt een subdomein volledig delegeren aan Adobe, wat de geadviseerde methode is. U kunt ook een subdomein tot stand brengen gebruikend CNAMEs om aan Adobe-specifieke verslagen te richten, maar deze benadering vereist u om DNS verslagen op uw te handhaven en te beheren."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation.html#subdomain-delegation-methods" text="Methoden voor subdomeinconfiguratie"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
 >title="Subdomeindelegatie"
->abstract="Als u e-mailberichten wilt verzenden, delegeert u uw subdomein aan de Adobe. Zodra gedaan, DNS verslagen, inboxes, afzender, antwoord aan en stuitend adressen zullen voor u worden gevormd."
+>abstract="Als u e-mailberichten wilt verzenden, delegeert u uw subdomein aan Adobe. Zodra gedaan, DNS verslagen, inboxes, afzender, antwoord aan en stuitend adressen zullen voor u worden gevormd."
 
-Domeinnaamdelegatie is een methode die de eigenaar van een domeinnaam toestaat (technisch: een DNS-zone) om een onderverdeling ervan te delegeren (technisch gezien: een DNS-zone eronder, die een subzone kan worden genoemd) aan een andere entiteit. In feite, als klant, als u de streek &quot;example.com&quot;behandelt, kunt u subzone &quot;marketing.example.com&quot;aan Adobe delegeren. Meer informatie over [subdomeindelegatie](about-subdomain-delegation.md)
+Domeinnaamdelegatie is een methode die de eigenaar van een domeinnaam toestaat (technisch: een DNS-zone) om een onderverdeling ervan te delegeren (technisch gezien: een DNS-zone eronder, die een subzone kan worden genoemd) aan een andere entiteit. In feite, als klant, als u de streek &quot;example.com&quot;behandelt, kunt u subzone &quot;marketing.example.com&quot;aan Adobe afvaardigen. Meer informatie over [subdomeindelegatie](about-subdomain-delegation.md)
 
 >[!NOTE]
 >
->Standaard, [!DNL Journey Optimizer] Met een licentiecontract kunt u maximaal 10 subdomeinen delegeren. Neem contact op met de Adobe als u deze beperking wilt verhogen.
+>Standaard, [!DNL Journey Optimizer] Met een licentiecontract kunt u maximaal 10 subdomeinen delegeren. Neem contact op met uw Adobe als u deze beperking wilt verhogen.
 
 U kunt een subdomein volledig delegeren, of een subdomein tot stand brengen gebruikend CNAMEs om aan Adobe-specifieke verslagen te richten.
 
@@ -47,10 +47,10 @@ U kunt een subdomein volledig delegeren, of een subdomein tot stand brengen gebr
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
 >title="De overeenkomende DNS-records genereren"
->abstract="Om volledig een nieuw subdomain aan Adobe te delegeren, moet u kopiëren-kleven de Adobe nameserverinformatie die in de interface van de Optimizer van de Reis in uw domein-ontvangende oplossing wordt getoond om de passende DNS verslagen te produceren. Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, moet u ook de URL-validatierecord van de SSL CDN kopiëren en plakken. Zodra de controles succesvol zijn, is subdomain klaar om worden gebruikt om berichten te leveren."
+>abstract="Om volledig een nieuw subdomain aan Adobe te delegeren, moet u kopiëren-kleven de Adobe nameserverinformatie die in de interface van Journey Optimizer in uw domein-ontvangende oplossing wordt getoond om de passende DNS verslagen te produceren. Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, moet u ook de URL-validatierecord van de SSL CDN kopiëren en plakken. Zodra de controles succesvol zijn, is subdomain klaar om worden gebruikt om berichten te leveren."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain.html#cname-subdomain-delegation" text="CNAME-subdomeindelegatie"
 
-[!DNL Journey Optimizer] staat u toe om uw subdomeinen aan Adobe direct van de productinterface volledig te delegeren. Door dit, zal de Adobe berichten als beheerde dienst kunnen leveren door alle aspecten van DNS te controleren en te handhaven die voor het leveren, het teruggeven en het volgen van e-mailcampagnes worden vereist.
+[!DNL Journey Optimizer] staat u toe om uw subdomeinen aan Adobe direct van de productinterface volledig te delegeren. Door dit te doen, zal Adobe berichten als beheerde dienst kunnen leveren door alle aspecten van DNS te controleren en te handhaven die voor het leveren, het teruggeven en het volgen van e-mailcampagnes worden vereist.
 
 U kunt op Adobe vertrouwen om de DNS infrastructuur te handhaven die wordt vereist om aan industrie-standaardleveringsvereisten voor uw e-mail marketing verzendende domeinen te voldoen, terwijl het blijven DNS voor uw interne e-maildomeinen handhaven en controleren.
 
@@ -70,13 +70,13 @@ Volg de onderstaande stappen om een nieuw subdomein volledig te delegeren aan Ad
 
    >[!CAUTION]
    >
-   >Het delegeren van een ongeldig subdomein aan Adobe wordt niet toegestaan. Zorg ervoor dat u een geldig subdomein invoert dat eigendom is van uw organisatie, zoals marketing.yourcompany.com.
+   >Het delegeren van een ongeldig subdomein aan Adobe is niet toegestaan. Zorg ervoor u een geldig subdomein ingaat dat door uw organisatie, zoals marketing.yourcompany.com wordt bezeten.
    >
-   >Subdomeinen met meerdere niveaus, zoals email.marketing.yourcompany.com, worden momenteel niet ondersteund.
+   >Subdomeinen van meerdere niveaus, zoals email.marketing.yourcompany.com, worden momenteel niet ondersteund.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
-1. De lijst van verslagen die in uw DNS serververtoningen moeten worden geplaatst. Kopieer deze verslagen, of één voor één, of door een Csv- dossier te downloaden, dan navigeer aan uw domein ontvangende oplossing om de passende DNS verslagen te produceren.
+1. De lijst van records die in uw DNS-serverweergaven moeten worden geplaatst. Kopieer deze records één voor één of download een CSV-bestand en navigeer vervolgens naar uw domeinhostingoplossing om de overeenkomende DNS-records te genereren.
 
 1. Zorg ervoor dat alle DNS verslagen in uw domein het ontvangen oplossing zijn geproduceerd. Als alles behoorlijk wordt gevormd, controleer de doos &quot;ik bevestig...&quot;, dan klik **[!UICONTROL Submit]**.
 
@@ -90,7 +90,7 @@ Volg de onderstaande stappen om een nieuw subdomein volledig te delegeren aan Ad
 
    ![](assets/subdomain-processing.png)
 
-   Voordat u dat subdomein kunt gebruiken om berichten te verzenden, moet u wachten tot de Adobe de vereiste controles uitvoert. Dit kan maximaal 3 uur in beslag nemen. Meer informatie in [deze sectie](#subdomain-validation).
+   Voordat u dat subdomein kunt gebruiken om berichten te verzenden, moet u wachten tot Adobe de vereiste controles uitvoert. Dit kan maximaal 3 uur in beslag nemen. Meer informatie in [deze sectie](#subdomain-validation).
 
    >[!NOTE]
    >
@@ -113,17 +113,17 @@ Zodra een subdomein aan Adobe binnen wordt gedelegeerd [!DNL Journey Optimizer],
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
 >title="De overeenkomende DNS- en validatierecords genereren"
->abstract="Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, moet u de gegevens van de Adobe-nameserver en de URL-validatierecord van de SSL CDN kopiëren en plakken die in de interface Journey Optimizer in uw hostplatform worden weergegeven. Zodra de controles succesvol zijn, is subdomain klaar om worden gebruikt om berichten te leveren."
+>abstract="Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, moet u de gegevens van de Adobe-nameserver en de URL-validatierecord van de SSL CDN kopiëren en plakken die in de Journey Optimizer-interface in uw hostplatform worden weergegeven. Zodra de controles succesvol zijn, is subdomain klaar om worden gebruikt om berichten te leveren."
 
 Als u domein-specifieke beperkingsbeleid hebt en u Adobe slechts gedeeltelijke controle over DNS wilt hebben, kunt u verkiezen om alle DNS-gerelateerde activiteiten op uw kant uit te voeren.
 
-De subdomeindelegatie van CNAME laat u toe om subdomain tot stand te brengen en CNAMEs te gebruiken om aan Adobe-specifieke verslagen te richten. Met deze configuratie delen u en de Adobe de verantwoordelijkheid voor het onderhoud van DNS in de omgeving voor het verzenden, renderen en volgen van e-mails.
+De subdomeindelegatie van CNAME laat u toe om subdomain tot stand te brengen en CNAMEs te gebruiken om aan Adobe-specifieke verslagen te richten. Met behulp van deze configuratie delen u en Adobe de verantwoordelijkheid voor het onderhoud van DNS in de omgeving voor het verzenden, renderen en volgen van e-mails.
 
 >[!CAUTION]
 >
->De methode CNAME wordt geadviseerd als het beleid van uw organisatie de volledige subdomain delegatiemethode beperkt. Deze benadering vereist u om DNS verslagen op uw te handhaven en te beheren. De Adobe zal niet in het veranderen van, het handhaven van of het beheren van DNS voor subdomain kunnen bijwonen die door de methode CNAME wordt gevormd.
+>De methode CNAME wordt geadviseerd als het beleid van uw organisatie de volledige subdomain delegatiemethode beperkt. Deze benadering vereist u om DNS verslagen op uw te handhaven en te beheren. Adobe zal niet in het veranderen van, het handhaven van of het beheren van DNS voor subdomain kunnen bijwonen die door de methode CNAME wordt gevormd.
 
-➡️ [Leer hoe te om subdomain tot stand te brengen gebruikend CNAME om aan Adobe-specifieke verslagen in deze video te richten](#video)
+➡️ [Leer hoe u een subdomein maakt met CNAME om naar Adobe-specifieke records in deze video te verwijzen](#video)
 
 Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volgende stappen uit:
 
@@ -137,13 +137,13 @@ Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volge
 
    >[!CAUTION]
    >
-   >Het delegeren van een ongeldig subdomein aan Adobe wordt niet toegestaan. Zorg ervoor dat u een geldig subdomein invoert dat eigendom is van uw organisatie, zoals marketing.yourcompany.com.
+   >Het delegeren van een ongeldig subdomein aan Adobe is niet toegestaan. Zorg ervoor u een geldig subdomein ingaat dat door uw organisatie, zoals marketing.yourcompany.com wordt bezeten.
    >
-   >Subdomeinen met meerdere niveaus, zoals email.marketing.yourcompany.com, worden momenteel niet ondersteund.
+   >Subdomeinen van meerdere niveaus, zoals email.marketing.yourcompany.com, worden momenteel niet ondersteund.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
-1. De lijst van verslagen die in uw DNS serververtoningen moeten worden geplaatst. Kopieer deze verslagen, of één voor één, of door een Csv- dossier te downloaden, dan navigeer aan uw domein ontvangende oplossing om de passende DNS verslagen te produceren.
+1. De lijst van records die in uw DNS-serverweergaven moeten worden geplaatst. Kopieer deze records één voor één of download een CSV-bestand en navigeer vervolgens naar uw domeinhostingoplossing om de overeenkomende DNS-records te genereren.
 
 1. Zorg ervoor dat alle DNS verslagen in uw domein het ontvangen oplossing zijn geproduceerd. Als alles behoorlijk wordt gevormd, controleer de doos &quot;ik bevestig...&quot;.
 
@@ -151,9 +151,9 @@ Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volge
 
    >[!NOTE]
    >
-   >U kunt de records later maken met de opdracht **[!UICONTROL Save as draft]** knop. Vervolgens kunt u de subdomeindelegatie in dit stadium hervatten door deze vanuit de lijst met subdomeinen te openen.
+   >U kunt de records later maken met de **[!UICONTROL Save as draft]** knop. Vervolgens kunt u de subdomeindelegatie in dit stadium hervatten door deze vanuit de lijst met subdomeinen te openen.
 
-1. Wacht tot de Adobe controleert dat deze verslagen zonder fouten op uw het ontvangen oplossing worden geproduceerd. Dit proces kan tot 2 minuten duren.
+1. Wacht tot Adobe controleert of deze verslagen zonder fouten op uw het ontvangen oplossing worden geproduceerd. Dit proces kan tot 2 minuten duren.
 
    >[!NOTE]
    >
@@ -169,7 +169,7 @@ Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volge
 
 1. Zodra de subdomeindelegatie van CNAME is voorgelegd, toont subdomain in de lijst met **[!UICONTROL Processing]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](about-subdomain-delegation.md#access-delegated-subdomains).
 
-   Voordat u dat subdomein kunt gebruiken om berichten te verzenden, moet u wachten tot de Adobe de vereiste controles uitvoert. Dit duurt meestal 2 tot 3 uur. Meer informatie in [deze sectie](#subdomain-validation).
+   Voordat u dat subdomein kunt gebruiken voor het verzenden van berichten, moet u wachten tot Adobe de vereiste controles uitvoert. Dit duurt meestal 2 tot 3 uur. Meer informatie in [deze sectie](#subdomain-validation).
 
 1. Zodra de controles succesvol zijn<!--i.e Adobe validates the record you created and installs it-->, wordt het subdomein de **[!UICONTROL Success]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
@@ -177,7 +177,7 @@ Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volge
    >
    >Het subdomein wordt gemarkeerd als **[!UICONTROL Failed]** als u er niet in slaagt de validatierecord voor uw hostoplossing te maken.
 
-Na het valideren van de record en het installeren van het certificaat wordt door Adobe automatisch de PTR-record voor het subdomein CNAME gemaakt. [Meer informatie](ptr-records.md)
+Na het valideren van de record en het installeren van het certificaat maakt Adobe automatisch de PTR-record voor het CNAME-subdomein. [Meer informatie](ptr-records.md)
 
 >[!CAUTION]
 >
@@ -191,7 +191,7 @@ De onderstaande controles en acties worden uitgevoerd totdat het subdomein is ge
 >
 >Deze stappen worden uitgevoerd door Adobe en kunnen tot 3 uur duren.
 
-1. **Pre-validate**: De Adobe controleert of subdomain aan Adobe DNS (NS verslag, verslag SOA, de opstelling van de Zone, eigendomsverslag) is gedelegeerd. Als de pre-bevestigingsstap ontbreekt, is een fout teruggekeerd samen met de overeenkomstige reden, anders gaat de Adobe aan de volgende stap.
+1. **Pre-validate**: Adobe controleert of het subdomein is gedelegeerd aan Adobe DNS (NS-record, SOA-record, Zone-instelling, eigendomsrecord). Als de pre-bevestigingsstap ontbreekt, is een fout teruggekeerd samen met de overeenkomstige reden, anders gaat Adobe naar de volgende stap.
 
 1. **DNS voor het domein configureren**:
 
@@ -201,20 +201,20 @@ De onderstaande controles en acties worden uitgevoerd totdat het subdomein is ge
    * **A**: Standaard IP-toewijzing.
    * **CNAME**: Een Canonical Name- of CNAME-record is een type DNS-record dat een aliasnaam toewijst aan een echte of canonieke domeinnaam.
 
-1. **URL&#39;s voor bijhouden en spiegelen maken**: als het domein email.example.com is, zal het volgen/spiegeldomein data.email.example.com zijn. Het wordt beveiligd door het SSL-certificaat te installeren.
+1. **URL&#39;s voor bijhouden en spiegelen maken**: als het domein email.example.com is, zal het tracking/mirror domein data.email.example.com zijn. Het wordt beveiligd door het SSL-certificaat te installeren.
 
-1. **CDN CloudFront instellen**: als CDN niet reeds opstelling is, bepaalt de Adobe het voor identiteitskaart van uw organisatie.
+1. **CDN CloudFront instellen**: als CDN niet reeds opstelling is, voorziet Adobe het voor identiteitskaart van uw organisatie.
 
-1. **CDN-domein maken**: als het domein email.example.com is, zal het CDN domein cdn.email.example.com zijn.
+1. **CDN-domein maken**: als het domein email.example.com is, zal het domein CDN cdn.email.example.com zijn.
 
 1. **CDN SSL-certificaat maken en koppelen**: Adobe maakt het CDN-certificaat voor het CDN-domein en koppelt het certificaat aan het CDN-domein.
 
-1. **forward DNS maken**: als dit het eerste subdomein is dat u delegeert, zal de Adobe voorwaartse DNS tot stand brengen die wordt vereist om PTR verslagen - voor elk van uw IPs tot stand te brengen.
+1. **forward DNS maken**: als dit eerste subdomain is dat u delegeert, zal Adobe voorwaartse DNS tot stand brengen die wordt vereist om PTR verslagen - voor elk van uw IPs tot stand te brengen.
 
-1. **PTR-record maken**: PTR-record, ook wel omgekeerd DNS-record genoemd, wordt vereist door de ISP&#39;s, zodat deze de e-mails niet als spam markeren. Gmail adviseert ook hebbend PTR verslagen voor elk IP. Adobe leidt tot PTR verslagen slechts wanneer u subdomain voor het eerst, één voor elk IP delegeert, alle IPs die dat subdomain richten. Als het IP-bestand bijvoorbeeld *192.1.2.1* en het subdomein is *email.example.com* De PTR-record is: *192.1.2.1 PTR r1.email.example.com*. U kunt de PTR-record achteraf bijwerken en naar het nieuwe gedelegeerde domein verwijzen. [Meer informatie over PTR-records](ptr-records.md)
+1. **PTR-record maken**: PTR-record, ook wel omgekeerd DNS-record genoemd, wordt vereist door de ISP&#39;s, zodat deze de e-mails niet als spam markeren. Gmail adviseert ook hebbend PTR verslagen voor elk IP. Adobe leidt PTR verslagen slechts tot wanneer u subdomain voor het eerst, voor elk IP, één voor alle IP&#39;s delegeert die dat subdomain richten. Als het IP-bestand bijvoorbeeld *192.1.2.1* en het subdomein is *email.example.com* De PTR-record is: *192.1.2.1 PTR r1.email.example.com*. U kunt de PTR-record achteraf bijwerken en naar het nieuwe gedelegeerde domein verwijzen. [Meer informatie over PTR-records](ptr-records.md)
 
 ## Hoe kan ik-video{#video}
 
-Leer hoe te om subdomain tot stand te brengen gebruikend CNAME om aan Adobe-specifieke verslagen te richten.
+Leer hoe u een subdomein maakt met CNAME om naar Adobe-specifieke records te verwijzen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

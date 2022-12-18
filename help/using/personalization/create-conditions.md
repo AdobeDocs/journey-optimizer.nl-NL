@@ -7,13 +7,13 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 1%
 
 ---
-
 
 # Werken met voorwaardelijke regels {#conditions}
 
@@ -63,7 +63,7 @@ De stappen voor het maken van een voorwaardelijke regel zijn als volgt:
 
    * **[!UICONTROL Profile]**:
       * **[!UICONTROL Segment Membership]** geeft alle segmentkenmerken weer (bijvoorbeeld status, versie enz.) for [Adobe Experience Platform Segmentation-service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
-      * **[!UICONTROL XDM Individual profiles]** Hiermee worden alle profielkenmerken weergegeven die zijn gekoppeld aan de [XDM-schema (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) gedefinieerd in Adobe Experience Platform.
+      * **[!UICONTROL XDM Individual profiles]** Hiermee worden alle profielkenmerken weergegeven die zijn gekoppeld aan de [XDM-schema (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) gedefinieerd in Adobe Experience Platform.
    * **[!UICONTROL Contextual]**: wanneer uw bericht in een reis wordt gebruikt, zijn de contextuele reisgebieden beschikbaar door dit lusje.
    * **[!UICONTROL Audiences]**: geeft een overzicht van alle soorten publiek die worden gegenereerd op basis van segmenten die zijn gemaakt in [Adobe Experience Platform Segmentation-service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 

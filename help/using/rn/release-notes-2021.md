@@ -155,7 +155,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 ### Verbeteringen
 
-**Reizen**
+**Journeys**
 
 * Systeem produceerde schema&#39;s en datasets die tijdens levering voor stapgebeurtenissen zijn gecreeerd zijn nu op read-only wijze, beschermend tegen om het even welke onbedoelde wijzigingen in kritieke schema&#39;s. [Meer informatie](../reports/sharing-overview.md)
 * De **Wachten** activiteit met een label dat op het canvas wordt weergegeven. Het etiket wordt ook gebruikt in rapportering en testwijzelogboeken om duidelijk te identificeren wat u doet. [Meer informatie](../building-journeys/about-journey-activities.md#best-practices)
@@ -258,7 +258,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 ### Verbeteringen
 
-**Reizen**
+**Journeys**
 
 * **Dynamische koppen** - U kunt nu dynamische gegevens doorgeven in HTTP-headerparameters. Deze parameters kunnen door de integratiesystemen worden gebruikt die de vraag van HTTP van de reisactie, bijvoorbeeld timestamp of het volgen identiteitskaart ontvangen. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
 * **Dynamische URL-paden** - U kunt nu dynamische URL-paden instellen voor aangepaste handelingen. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
@@ -335,7 +335,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 ### Verbeteringen
 
-**Reizen**
+**Journeys**
 
 * De algemene vertragingssnelheid van alle gelezen segmenten die gelijktijdig in dezelfde sandbox worden uitgevoerd, is beperkt tot 17.000 berichten per seconde. [Meer informatie](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 * De **Cacheduur** Het veld is verwijderd uit het configuratievenster van de gegevensbron. [Meer informatie](../datasource/about-data-sources.md)

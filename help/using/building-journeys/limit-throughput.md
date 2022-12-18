@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 title: Productie beperken met externe gegevensbronnen en aangepaste handelingen
 description: Productie beperken met externe gegevensbronnen en aangepaste handelingen
-source-git-commit: 8e3753927e16cc0c4bebf83be2fded6f19d9487e
+exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
+source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 0%
 
 ---
-
 
 # Hoofdlettergebruik: beperking productie met Externe Gegevensbronnen en de Acties van de Douane{#limit-throughput}
 
@@ -65,4 +65,3 @@ Als extra hulpmiddel, kunt u de mogelijkheden van het Afschilderen ook gebruiken
 >[!NOTE]
 >
 >In tegenstelling tot de mogelijkheden van het Afbakenen, die een eindpunt beschermen door globaal aan alle reizen van een zandbak te zijn, werkt deze alternerende actie slechts op reisniveau. Dit betekent dat als meerdere reizen parallel lopen en zich richten op hetzelfde eindpunt, u daarmee rekening moet houden bij het ontwerpen van uw reis. Deze oplossing is daarom niet geschikt voor elk geval van gebruik.
-

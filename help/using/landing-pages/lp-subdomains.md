@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Subdomeinen van bestemmingspagina configureren
-description: Leer hoe u subdomeinen van landingspagina's configureert met Reis Optimizer
+description: Leer hoe u subdomeinen van landingspagina's configureert met Journey Optimizer
 role: Admin
 level: Intermediate
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '774'
 ht-degree: 0%
 
 ---
@@ -44,13 +44,13 @@ Hoofdletters zijn niet toegestaan in een subdomein
 
 ## Een bestaand subdomein gebruiken {#lp-use-existing-subdomain}
 
-Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aan Adobe.
+Voer de onderstaande stappen uit om een subdomein te gebruiken dat al is gedelegeerd aan Adobe.
 
 1. Toegang krijgen tot **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, selecteert u vervolgens **[!UICONTROL Email configuration]** > **[!UICONTROL Landing page subdomains]**.
 
    ![](assets/lp_access-subdomains.png)
 
-1. Klikken **[!UICONTROL Set up subdomain]**.
+1. Klik op **[!UICONTROL Set up subdomain]**.
 
    ![](assets/lp_set-up-subdomain.png)
 
@@ -80,7 +80,7 @@ Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aa
    >
    >Als u een domein selecteert dat aan Adobe werd gedelegeerd gebruikend [CNAME, methode](../configuration/delegate-subdomain.md#cname-subdomain-delegation), moet u het DNS-record op uw hostingplatform maken. Om het DNS verslag te produceren, is het proces het zelfde als wanneer u een nieuw landend paginasubdomain vormt. Meer informatie over [deze sectie](#lp-configure-new-subdomain).
 
-1. Klikken **[!UICONTROL Submit]**.
+1. Klik op **[!UICONTROL Submit]**.
 
 1. Na verzending wordt het subdomein in de lijst weergegeven met de **[!UICONTROL Processing]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
@@ -88,7 +88,7 @@ Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aa
 
    >[!NOTE]
    >
-   >Voordat u dat subdomein kunt gebruiken om berichten te verzenden, moet u wachten tot de Adobe de vereiste controles uitvoert. Dit kan maximaal 4 uur in beslag nemen.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   >Voordat u dat subdomein kunt gebruiken om berichten te verzenden, moet u wachten tot Adobe de vereiste controles uitvoert. Dit kan maximaal 4 uur in beslag nemen.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. Wanneer de controles zijn voltooid, haalt het subdomein het subdomein **[!UICONTROL Success]** status. Deze kan worden gebruikt om voorinstellingen voor openingspagina&#39;s te maken.
 
@@ -97,13 +97,13 @@ Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aa
 >[!CONTEXTUALHELP]
 >id="ajo_admin_lp_subdomain_dns"
 >title="De overeenkomende DNS-record genereren"
->abstract="Om een nieuw het landen paginasubdomain te vormen, moet u de Adobe nameserverinformatie kopiëren die in de interface van de Optimizer van de Reis wordt getoond en het kleven in uw domein-ontvangende oplossing om het passende DNS verslag te produceren. Als de controles zijn voltooid, kan het subdomein worden gebruikt om voorinstellingen voor bestemmingspagina&#39;s te maken."
+>abstract="Als u een nieuw subdomein van een bestemmingspagina wilt configureren, moet u de gegevens van de Adobe nameserver kopiëren die in de Journey Optimizer-interface worden weergegeven en deze plakken in uw domein-ontvangende oplossing om het overeenkomende DNS-record te genereren. Als de controles zijn voltooid, kan het subdomein worden gebruikt om voorinstellingen voor bestemmingspagina&#39;s te maken."
 
 Volg onderstaande stappen om een nieuw subdomein te configureren.
 
 1. Toegang krijgen tot **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, selecteert u vervolgens **[!UICONTROL Email configuration]** > **[!UICONTROL Landing page subdomains]**.
 
-1. Klikken **[!UICONTROL Set up subdomain]**.
+1. Klik op **[!UICONTROL Set up subdomain]**.
 
 1. Selecteren **[!UICONTROL Add your own domain]** van de **[!UICONTROL Configuration type]** sectie.
 
@@ -117,7 +117,7 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
    >
    >Hoofdletters zijn niet toegestaan in subdomeinen.
 
-   Het delegeren van een ongeldig subdomein aan Adobe wordt niet toegestaan. Zorg ervoor dat u een geldig subdomein invoert dat eigendom is van uw organisatie, zoals marketing.yourcompany.com.
+   Het delegeren van een ongeldig subdomein aan Adobe is niet toegestaan. Zorg ervoor u een geldig subdomein ingaat dat door uw organisatie, zoals marketing.yourcompany.com wordt bezeten.
 
    >[!NOTE]
    >
@@ -137,7 +137,7 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
    >[!NOTE]
    >
-   >Voordat u dat subdomein kunt gebruiken om berichten te verzenden, moet u wachten tot de Adobe de vereiste controles uitvoert. Dit kan maximaal 4 uur in beslag nemen.<!--Learn more in [this section](#subdomain-validation).-->
+   >Voordat u dat subdomein kunt gebruiken om berichten te verzenden, moet u wachten tot Adobe de vereiste controles uitvoert. Dit kan maximaal 4 uur in beslag nemen.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. Wanneer de controles zijn voltooid, haalt het subdomein het subdomein **[!UICONTROL Success]** status. Deze kan worden gebruikt om voorinstellingen voor openingspagina&#39;s te maken.
 

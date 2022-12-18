@@ -7,7 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
+source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
 workflow-type: tm+mt
 source-wordcount: '1215'
 ht-degree: 9%
@@ -106,5 +107,3 @@ U kunt configureren **[!UICONTROL Advanced options]** voor uw pushmelding. De be
 | **[!UICONTROL Notification visibility]** (alleen Android) | Hiermee definieert u de zichtbaarheid van het pushbericht. <br/><b>Persoonlijk</b> toont de melding op alle vergrendelingsschermen, maar verbergt gevoelige of persoonlijke informatie op veilige vergrendelingsschermen. <br/><b>Openbaar</b> de volledige kennisgeving wordt op alle vergrendelingsschermen weergegeven. <br/><b>Geheim</b> geen enkel deel van de melding zichtbaar maken op een veilig vergrendelingssysteem. <br/>Raadpleeg voor meer informatie de [Documentatie voor ontwikkelaars van Android](https://developer.android.com/reference/android/app/Notification). |
 | **[!UICONTROL Notification priority]** (alleen Android) | Hiermee definieert u het belang van de pushmelding van Laag tot Max. Dit bepaalt hoe &quot;indringend&quot;de dupmelding zal zijn wanneer het wordt geleverd. Raadpleeg voor meer informatie de [Documentatie voor ontwikkelaars van Android](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
 | **[!UICONTROL Delivery priority]** (alleen Android) | Hiermee stelt u een hoge of normale prioriteit in voor uw pushberichten. Zie de [Google Developer-documentatie](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message) voor meer informatie over de prioriteit van berichten. |
-
-

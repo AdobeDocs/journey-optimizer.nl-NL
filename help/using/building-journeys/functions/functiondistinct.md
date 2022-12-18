@@ -13,7 +13,7 @@ ht-degree: 4%
 
 ---
 
-# onderscheiden {#distinct}
+# distinct {#distinct}
 
 Geeft als resultaat de verschillende waarden of objecten van een bepaalde lijst. Null-items worden genegeerd.
 

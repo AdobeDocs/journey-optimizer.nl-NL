@@ -21,8 +21,8 @@ Op deze pagina vindt u informatie over specifieke functies die beschikbaar zijn 
 
 |  | Verzoeken/sec | Latentie |
 |---|---|---|
-| API voor besluitvorming | 2000 | &lt;500 ms |
-| Edge-API voor besluitvorming | 5000 | &lt;250 ms |
+| API voor besluitvorming | 2000 | &lt;500ms |
+| Edge-API voor besluitvorming | 5000 | &lt;250ms |
 
 Raadpleeg de volgende secties voor meer informatie over het werken met de API&#39;s:
 * [API voor besluitvorming](decisioning-api.md)
