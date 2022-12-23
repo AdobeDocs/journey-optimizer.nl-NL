@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '888'
 ht-degree: 1%
 
 ---
@@ -66,6 +66,10 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
    >Let op: **[!UICONTROL Enter]** en **[!UICONTROL Exit]** komt overeen met de **Gerealiseerd** en **Verlaat** de deelnamestatistieken van Adobe Experience Platform. Raadpleeg voor meer informatie over het evalueren van een segment de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
 
 1. Selecteer een naamruimte. Dit is alleen nodig als de gebeurtenis als eerste stap van de reis wordt geplaatst.
+
+   >[!NOTE]
+   >
+   >U kunt alleen een naamruimte selecteren die is gebaseerd op personen. Als u een naamruimte voor een opzoektabel hebt gedefinieerd (bijvoorbeeld: ProductID-naamruimte voor een productzoekopdracht), is deze niet beschikbaar in het dialoogvenster **Naamruimte** vervolgkeuzelijst.
 
    ![](assets/segment7.png)
 

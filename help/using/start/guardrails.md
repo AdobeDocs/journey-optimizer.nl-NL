@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 9b4ab81a362c38dce5ff4b10fb301c81ed117688
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '939'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,7 @@ De prestatiegerelateerde en statische grenzen voor besluiten zijn vermeld in [Ad
 * Voor door het systeem gegenereerde gebeurtenissen moeten streaminggegevens die worden gebruikt om een klantentraject te starten, eerst binnen Journey Optimizer worden geconfigureerd om een unieke orchestratie-id te verkrijgen. Deze orkest-id moet worden toegevoegd aan de streaminglading die naar Adobe Experience Platform komt. Deze beperking geldt niet voor op regels gebaseerde gebeurtenissen.
 * Zakelijke evenementen kunnen niet worden gebruikt in combinatie met eenheidsgebeurtenissen of segmentkwalificatieactiviteiten.
 * Eenheidstrajecten (te beginnen met een evenement of segmentkwalificatie) bevatten een geleider die voorkomt dat ritten voor dezelfde gebeurtenis meerdere keren ten onrechte worden gestart. De terugkeer van het profiel wordt tijdelijk geblokkeerd door gebrek gedurende 5 minuten. Als bijvoorbeeld een evenement om 12.01 uur een reis voor een bepaald profiel start en een ander om 12.03 uur aankomt (ongeacht of het dezelfde gebeurtenis is of een andere gebeurtenis die dezelfde reis veroorzaakt), zal die reis niet opnieuw beginnen voor dit profiel.
+* Journey Optimizer vereist dat gebeurtenissen naar de Dienst van de Kern van de Gegevensverzameling (DCCS) worden gestroomd om een reis te kunnen teweegbrengen. Gebeurtenissen in batch of gebeurtenissen uit interne Journey Optimizer-gegevenssets (Berichtfeedback, E-mailtracking, enz.) kan niet worden gebruikt om een reis te starten. Als u gestreamde gebeurtenissen niet kunt ophalen, maakt u een segment op basis van deze gebeurtenissen en gebruikt u de optie **Segment lezen** in plaats daarvan. De segmentkwalificatie kan technisch worden gebruikt, maar kan stroomafwaartse uitdagingen veroorzaken die op de gebruikte acties worden gebaseerd.
 
 ### Gegevensbronnen {#data-sources-g}
 

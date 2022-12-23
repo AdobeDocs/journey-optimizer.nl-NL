@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,16 @@ In Journey Optimizer kunt u vervolgens alle velden uit de gekoppelde tabellen be
 * bij het gebruik van omstandigheden tijdens een reis, [Meer informatie](../event/experience-event-schema.md#journey_conditions_using_event_context)
 * in berichtverpersoonlijking, [Meer informatie](../event/experience-event-schema.md#message_personalization)
 * op maat van aangepaste handelingen, [Meer informatie](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+
+### Arrays{#relationships_limitations}
+
+U kunt een schemaverhouding op een serie van koorden, bijvoorbeeld, een lijst van product IDs bepalen.
+
+![](assets/schema15.png)
+
+U kunt echter geen schema-relatie definiëren met een kenmerk binnen een array van objecten, bijvoorbeeld een lijst met aankoopgegevens (product-id, productnaam, prijs, korting). De opzoekwaarden zijn niet beschikbaar voor reizen (voorwaarden, aangepaste handelingen, enz.) en berichtpersonalisatie.
+
+![](assets/schema16.png)
 
 ### Configuratie van gebeurtenissen{#unitary_event_configuration}
 
