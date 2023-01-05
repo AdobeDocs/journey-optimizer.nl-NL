@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
 
 # Live-verslag over de landingspagina {#lp-report-live}
+
+>[!CONTEXTUALHELP]
+>id="ajo_landing_page_live_report"
+>title="Live-verslag over de landingspagina"
+>abstract="Met het live rapport op de landingspagina kunt u de impact en prestaties van uw landingspagina alleen in de afgelopen 24 uur in real-time meten en visualiseren. Uw rapport is verdeeld in verschillende widgets die gedetailleerd uw het mislukken en fouten van de landingspagina beschrijven. Elk rapportdashboard kan worden gewijzigd door widgets te vergroten of te verkleinen of te verwijderen."
 
 De openingspagina **[!UICONTROL Live report]** het rapport bevat alleen informatie over de impact van uw bestemmingspagina&#39;s gedurende de laatste 24 uur. Als u de gegevens van de bestemmingspagina over een bepaalde tijdsperiode wilt meten, raadpleegt u de [Algemeen rapport landingspagina](lp-report-global.md).
 

@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
 
 # Live-rapport voor abonnement {#subscription-report-live}
+
+>[!CONTEXTUALHELP]
+>id="ajo_subscription_live_report"
+>title="Live-rapport voor abonnement"
+>abstract="Met het Live-rapport voor abonnementen kunt u de activiteiten van uw abonnees alleen in de afgelopen 24 uur in real-time meten en visualiseren. Uw rapport is verdeeld in verschillende widgets waarin uw abonnementen en afboekingen worden gedetailleerd. Elk rapportdashboard kan worden gewijzigd door widgets te vergroten of te verkleinen of te verwijderen."
 
 Het abonnement **[!UICONTROL Live report]** geeft alleen details weer over de activiteiten van je abonnees in de afgelopen 24 uur. Als u uw abonnementen over een bepaalde tijdsperiode wilt meten, raadpleegt u de [Globaal rapport voor abonnement](subscription-report-global.md).
 

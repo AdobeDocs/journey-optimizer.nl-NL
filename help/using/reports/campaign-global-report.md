@@ -8,16 +8,21 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
 
-# Campagne Global-rapport {#campaign-global-report}
+# Globaal verslag campagne voeren {#campaign-global-report}
 
-Het rapport Campagne Global kan rechtstreeks vanuit uw campagne worden geopend met de **[!UICONTROL All time]** knop.
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_report"
+>title="Globaal verslag campagne voeren"
+>abstract="Met het algemene rapport Campagne kunt u het effect van uw campagnes over een bepaalde tijdsperiode meten. Uw rapport is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Elk rapportdashboard kan worden gewijzigd door widgets te vergroten of te verkleinen of te verwijderen."
+
+Het algemene rapport van de campagne kan direct van uw Campagne met het **[!UICONTROL View report]** knop.
 
 ![](assets/campaign_report_global_5.png)
 

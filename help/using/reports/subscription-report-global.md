@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
 
 # Globaal rapport voor abonnement {#subscription-report-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_subscription_global_report"
+>title="Globaal rapport voor abonnement"
+>abstract="Met het rapport Abonnement geven kunt u de activiteit van uw abonnees gedurende een bepaalde tijdsperiode meten en visualiseren. Uw rapport is verdeeld in verschillende widgets waarin uw abonnementen en afboekingen worden gedetailleerd. Elk rapportdashboard kan worden gewijzigd door widgets te vergroten of te verkleinen of te verwijderen."
 
 Het abonnement **[!UICONTROL Global report]** geeft details weer over de activiteit van je abonnees gedurende een geselecteerde tijdsperiode. Als u uw abonnementen alleen gedurende de afgelopen 24 uur wilt meten, raadpleegt u de [Live-rapport voor abonnement](subscription-report-live.md).
 

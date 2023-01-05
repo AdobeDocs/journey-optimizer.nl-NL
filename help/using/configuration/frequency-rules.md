@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '942'
 ht-degree: 2%
 
 ---
@@ -48,6 +48,21 @@ Gebruikers met de **[!UICONTROL View frequency rules]** de toestemming kan regel
 Meer informatie over machtigingen in [deze sectie](../administration/high-low-permissions.md).
 
 ## Een regel maken {#create-new-rule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_category"
+>title="Selecteer de categorie voor berichtregels"
+>abstract="Wanneer deze optie wordt geactiveerd en toegepast op een bericht, worden alle frequentieregels die overeenkomen met de geselecteerde categorie automatisch toegepast op dit bericht. Momenteel is alleen de marketingcategorie beschikbaar."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_capping"
+>title="De uitlijning van uw regel instellen"
+>abstract="Geef het maximumaantal berichten op dat elke maand naar een klantprofiel wordt verzonden. Frequentiegrens wordt gebaseerd op een maandelijkse kalenderperiode en wordt aan het begin van elke maand opnieuw ingesteld."
+
+>[!CONTEXTUALHELP]
+>id="ajo_rules_channel"
+>title="Bepaal de kanalen waarop de regel van toepassing is"
+>abstract="Selecteer ten minste één kanaal. De bedekking wordt toegepast over kanalen als totale telling."
 
 Volg onderstaande stappen om een nieuwe regel te maken.
 
@@ -115,26 +130,23 @@ De status van de regel verandert in **[!UICONTROL Inactive]** en de regel zal ni
 
 Volg onderstaande stappen om een frequentieregel toe te passen op een bericht.
 
-1. Maak een bericht door een van de kanalen te selecteren die u voor de regel hebt gedefinieerd.
+1. Wanneer u een [reis](../building-journeys/journey-gs.md), voeg een bericht toe door één van de kanalen te selecteren u voor uw regel bepaalde.
 
 1. Selecteer de categorie die u voor de [regel die u hebt gemaakt](#create-new-rule).
 
-   ![](assets/inline-message-category.png)
+   ![](assets/journey-message-category.png)
 
    >[!NOTE]
    >
    >Alleen de **[!UICONTROL Marketing]** de categorie is beschikbaar voor berichtfrequentieregels.
 
-   <!--
-   1. You can click the **[!UICONTROL Frequency rule]** link to view the frequency rules that will apply for the selected category and channel(s). A new tab will open to display the matching message frequency rules.-->
+1. U kunt op de knop **[!UICONTROL Frequency rule]** koppeling om het scherm met frequentieregels weer te geven in een nieuw tabblad. [Meer informatie](#access-rules)
 
-1. Alle frequentieregels die overeenkomen met de geselecteerde categorie en kanalen worden automatisch toegepast op dit bericht.
+   Alle frequentieregels die overeenkomen met de geselecteerde categorie en kanalen worden automatisch toegepast op dit bericht.
 
    >[!NOTE]
    >
-   >Berichten <!--that do not have any selected category or messages -->waarbij de geselecteerde categorie **[!UICONTROL Transactional]** niet worden getoetst aan de frequentievoorschriften.
-
-   <!--Clicking the link out button next to the category selector will jump you over to the rules inventory screen to see which rules will be applied to the message.-->
+   >Berichten waarbij de geselecteerde categorie is **[!UICONTROL Transactional]** niet worden getoetst aan de frequentievoorschriften.
 
 1. U kunt het aantal profielen dat is uitgesloten van levering bekijken in het dialoogvenster [Algemeen rapport](../reports/global-report.md)en in de [Live-rapport](../reports/live-report.md), waarbij de frequentievoorschriften worden vermeld als mogelijke reden voor gebruikers die van levering zijn uitgesloten.
 

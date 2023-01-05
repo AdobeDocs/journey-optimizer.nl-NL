@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
 
 # Algemeen rapport landingspagina {#lp-report-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_landing_page_global_report"
+>title="Algemeen rapport landingspagina"
+>abstract="Met het algemene rapport voor de bestemmingspagina kunt u de impact van de bestemmingspagina&#39;s over een bepaalde tijdsperiode meten. Uw rapport is verdeeld in verschillende widgets die gedetailleerd uw het mislukken en fouten van de landingspagina beschrijven. Elk rapportdashboard kan worden gewijzigd door widgets te vergroten of te verkleinen of te verwijderen."
 
 De openingspagina **[!UICONTROL Global report]** het rapport geeft informatie over de impact van de bestemmingspagina&#39;s op een geselecteerde tijdsperiode. Als u de gegevens van de bestemmingspagina alleen gedurende de laatste 24 uur wilt meten, raadpleegt u de [Live-verslag over de landingspagina](lp-report-live.md).
 
