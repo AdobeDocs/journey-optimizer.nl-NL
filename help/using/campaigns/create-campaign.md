@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: ab770b7b48fc906634f12458e0b31c7db0f641e8
+source-git-commit: ef7c1ac61a59407507e9570e1114e6ef0cb8a7ca
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 3%
@@ -161,4 +161,4 @@ Als u uw campagne niet meteen na activering wilt uitvoeren, kunt u een datum en 
 
 ![](assets/create-campaign-schedule.png)
 
-Als uw campagne gereed is, kunt u deze controleren en publiceren. [Meer informatie](#review-activate)
+Als uw campagne gereed is, kunt u deze controleren en publiceren. [Meer informatie](review-activate-campaign.md)
