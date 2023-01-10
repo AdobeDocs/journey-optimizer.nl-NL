@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: b320a69b12abe14f745097403d7447e47c101596
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '832'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 1%
 >title="Afhankelijke objecten"
 >abstract="Dit is de lijst van bijbehorende voorwerpen die in de reis worden gebruikt. In deze lijst worden de naam, het objecttype en de interne Journey Optimizer-id weergegeven."
 
-Met Journey Optimizer kunt u een volledige reis van de ene naar de andere sandbox kopiëren. U kunt bijvoorbeeld een traject kopiëren van de zandbakomgeving van het werkgebied naar de productiefandbox. Naast de reis zelf kopieert Journey Optimizer ook de meeste objecten die de reis afhangt van: segmenten, oppervlakken (d.w.z. voorinstellingen), schema&#39;s, gebeurtenissen en acties. Raadpleeg deze voor meer informatie over gekopieerde objecten [sectie](../building-journeys/copy-to-sandbox.md#limitations).
+Met Journey Optimizer kunt u een volledige reis van de ene naar de andere sandbox kopiëren. U kunt bijvoorbeeld een traject kopiëren van de zandbakomgeving van het werkgebied naar de productiefandbox. Naast de reis zelf kopieert Journey Optimizer ook de meeste objecten die de reis afhangt van: segmenten, oppervlakken (d.w.z. voorinstellingen), schema&#39;s, gebeurtenissen en acties. Raadpleeg deze voor meer informatie over gekopieerde objecten [sectie](#limitations).
 
 >[!CAUTION]
 >
@@ -75,7 +75,7 @@ Ga als volgt te werk om een reis naar een andere sandbox te kopiëren:
 
 ## Verwerking en beperkingen kopiëren {#limitations}
 
-We garanderen niet dat alle gekoppelde elementen naar de doelsandbox worden gekopieerd. We raden u ten zeerste aan een grondige controle uit te voeren. Identificeer om het even welk potentieel ontbrekend voorwerp en creeer hen manueel alvorens de reis te publiceren.
+Mogelijk worden niet alle gekoppelde elementen gekopieerd naar de doelsandbox. Adobe raadt u ten zeerste aan een grondige controle uit te voeren. Identificeer om het even welk potentieel ontbrekend voorwerp en creeer hen manueel alvorens de reis te publiceren.
 
 De volgende objecten worden gekopieerd:
 
