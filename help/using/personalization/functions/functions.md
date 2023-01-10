@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 315c3e8c04b2e3944d0d5b2befb205acbe0ef7c9
+source-git-commit: 075a90130696877d5dea39b7bfe4e85b2aac4791
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1739'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ In de [!DNL Journey Optimizer] De redacteur van de uitdrukking, helperfuncties w
 
 Selecteer een categorie voor toegang tot subcategorieën en functies.
 
-Toegang tot subcategorieën door op de knop `>` pictogram. Selecteer een functie door op de knop `+` pictogram: De functie wordt automatisch toegevoegd aan het verpersoonlijkingsscherm.
+Toegang tot subcategorieën door op de knop `>` pictogram. Selecteer een functie door op de knop `+` pictogram: de functie wordt automatisch toegevoegd aan het verpersoonlijkingsscherm.
 
 Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aan uw favorieten toe te voegen. [Meer informatie](../personalize.md#fav)
 
@@ -146,22 +146,22 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
 
 <table>
     <tr>
-        <td><a href="objects.md#absolute">Absoluut</a></td><td>Deze functie converteert een getal dat de absolute waarde heeft</td>
+        <td><a href="math.md#absolute">Absoluut</a></td><td>Deze functie converteert een getal waarvan de absolute waarde</td>
     </tr>
     <tr>
-        <td><a href="objects.md#random">Random</a></td><td>Deze functie retourneert een willekeurige waarde tussen 0 en 1</td>
+        <td><a href="math.md#random">Random</a></td><td>Deze functie retourneert een willekeurige waarde tussen 0 en 1</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-down">Omlaag afronden</a></td><td>Deze functie rondt een getal af</td>
+        <td><a href="math.md#round-down">Omlaag afronden</a></td><td>Deze functie rondt een getal af</td>
     </tr>
     <tr>
-        <td><a href="objects.md#round-up">Omhoog afronden</a></td><td>Deze functie rondt een getal af</td>
+        <td><a href="math.md#round-up">Omhoog afronden</a></td><td>Deze functie rondt een getal af</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-percentage">Naar percentage</a></td><td>Deze functie zet een getal om in een percentage</td>
+        <td><a href="math.md#to-percentage">Naar percentage</a></td><td>Deze functie zet een getal om in een percentage</td>
     </tr>
     <tr>
-        <td><a href="objects.md#to-precision">Naar nauwkeurigheid</a></td><td>Deze functie converteert een getal naar de vereiste precisie</td>
+        <td><a href="math.md#to-precision">Naar nauwkeurigheid</a></td><td>Deze functie converteert een getal naar de vereiste precisie</td>
     </tr>
 </table>
 
@@ -292,7 +292,7 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
         <td><a href="string.md#sub-string">Subtekenreeks</a></td><td>Deze functie retourneert de subtekenreeks van de tekenreeksexpressie tussen de beginindex en de eindindex.</td>
     </tr>
     <tr>
-        <td><a href="string.md#titleCase">Alles Beginhoofdletter</a></td><td>Deze functie wordt gebruikt om eerste letters van elk woord van een tekenreeks te kapitaliseren</td>
+        <td><a href="string.md#titleCase">Alles Beginhoofdletter</a></td><td>Deze functie wordt gebruikt om eerste letters van elk woord van een tekenreeks met hoofdletters te maken</td>
     </tr>
     <tr>
         <td><a href="string.md#to-bool">Naar bool</a></td><td>Deze functie zet een argumentwaarde in een booleaanse waarde om, afhankelijk van het type.</td>
@@ -325,7 +325,7 @@ Helpers worden gedetailleerd in [deze pagina](helpers.md).
 
 <table>
     <tr>
-        <td><a href="helpers.md#default">Standaardfallbackwaarde</a></td><td>Met deze functie kunt u een variabele met standaard renderen</td>
+        <td><a href="helpers.md#default">Standaardfallbackwaarde</a></td><td>Deze functie wordt gebruikt om een variabele met gebrek terug te geven</td>
     </tr>
     <tr>
         <td><a href="helpers.md#each">Elk</a></td><td>Deze functie wordt gebruikt om een array te doorlopen</td>
