@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 2160d52f24af50417cdcf8c6ec553b746a544c2f
+source-git-commit: 91f221781f1655066ec0f6b1c3f2c1faefd09d69
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 2%
@@ -125,7 +125,7 @@ De `topN` function wordt gebruikt om de eerste te retourneren `N` items in een a
 
 **Voorbeeld**
 
-De volgende bewerking retourneert de bovenste vijf bestellingen met de hoogste prijs.
+De volgende bewerking retourneert de eerste vijf bestellingen met de laagste prijs.
 
 ```sql
 {%= topN(orders,price, 5) %}
@@ -223,7 +223,7 @@ De `bottomN` function wordt gebruikt om de laatste te retourneren `N` items in e
 
 **Voorbeeld**
 
-De volgende bewerking retourneert de bovenste vijf bestellingen met de laagste prijs.
+De volgende bewerking retourneert de laatste vijf bestellingen met de hoogste prijs.
 
 ```sql
 {%= bottomN(orders,price, 5) %}
