@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 7c7faa5e672d5ed6d7a083db50b206d11ecc4184
+source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1183'
 ht-degree: 2%
 
 ---
@@ -104,7 +104,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
  </tbody> 
 </table>
 
-### Metrische gegevens voor e-mail en SMS {#email-and-sms-metrics}
+### E-mail en sms afmetingen en metriek {#email-and-sms-metrics}
 
 <table> 
  <thead> 
@@ -430,75 +430,6 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
    <td>Bezoeken<br/> </td> 
    <td>Aantal bezoeken aan uw landingspagina, met inbegrip van veelvoudige bezoeken van één ontvanger.<br/> </td> 
 </tr>
- </tbody> 
-</table>
-
-### Metrische gegevens voor pushmeldingen
-
-<table> 
- <thead> 
-  <tr> 
-   <th> Metrisch<br/> </th> 
-   <th> Definitie<br/> </th> 
-</tr>
- </thead> 
- <tbody>
- <tr> 
-   <td>Acties<br/> </td> 
-   <td> Het totale aantal acties op de geleverde pushmelding, bijvoorbeeld klikken op de knop of ontslag.<br/> </td> 
-</tr>
-  <tr> 
-   <td>Bounces<br/> </td> 
-   <td> Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Bouncepercentage<br/> </td> 
-   <td> Percentage pushmeldingen dat is teruggestuurd in vergelijking met verzonden pushberichten.<br/> </td>
-</tr>
-  <tr> 
-   <td> Afgeleverd<br/> </td> 
-   <td> Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Leveringsgraad<br/> </td> 
-   <td> Percentage pushberichten verzonden.<br/> </td> 
-</tr>
-  <tr> 
-   <td>Engages<br/> </td> 
-   <td> Het totale aantal keren dat wordt geopend en de acties voor deze pushmelding, bijvoorbeeld als het profiel de pushmelding heeft geopend of als op een knop is geklikt.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Betrokkenheid<br/> </td> 
-   <td> Percentage van het aantal keren dat wordt geopend en handelingen voor deze pushmelding, bijvoorbeeld als het profiel de pushmelding heeft geopend of als op een knop is geklikt.<br/> </td> 
-</tr>
-  <tr> 
-   <td> Fouten<br/> </td> 
-   <td> Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.<br/> </td> 
-</tr>
-  <tr> 
-   <td> Foutfrequentie<br/> </td> 
-   <td> Percentage fouten die optraden tijdens een levering waardoor deze niet kon worden verzonden, vergeleken met verzonden pushberichten.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Uitgesloten<br/> </td> 
-   <td> Aantal profielen dat door Adobe Journey Optimizer is uitgesloten.<br/> </td> 
-</tr>
-  <tr> 
-   <td> Geopende items<br/> </td> 
-   <td> Het totale aantal pushberichten dat aan het apparaat is geleverd en waarop gebruikers hebben geklikt om de app te openen. Dit is gelijkaardig aan de Duw klikt behalve zal een Duw Open niet teweeggebracht worden als het bericht werd verworpen.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Open rate<br/> </td> 
-   <td> Percentage geopende pushmeldingen.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Verzonden<br/> </td> 
-   <td> Het totale aantal verzendt voor de levering.<br/> </td> 
-</tr> 
-  <tr> 
-   <td> Gericht<br/> </td> 
-   <td> Het totale aantal pushberichten dat tijdens de leveringsanalyse is verwerkt.<br/> </td> 
-</tr>  
  </tbody> 
 </table>
 
