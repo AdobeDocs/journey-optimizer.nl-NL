@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 61c90f39fa2bddb384e5581e3935c43d4691c355
+source-git-commit: fc88faceceea0312417e1176a5a61c1c03a6f01b
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1736'
 ht-degree: 5%
 
 ---
@@ -114,6 +114,11 @@ Zodra een subdomein aan Adobe binnen wordt gedelegeerd [!DNL Journey Optimizer],
 >id="ajo_admin_subdomain_dns_cname"
 >title="De overeenkomende DNS- en validatierecords genereren"
 >abstract="Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, moet u de gegevens van de Adobe-nameserver en de URL-validatierecord van de SSL CDN kopiëren en plakken die in de Journey Optimizer-interface in uw hostplatform worden weergegeven. Zodra de controles succesvol zijn, is subdomain klaar om worden gebruikt om berichten te leveren."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_subdomain_cdn_cname"
+>title="De validatierecord kopiëren"
+>abstract="Adobe genereert een validatierecord. U moet de corresponderende record op uw hostplatform maken voor CDN URL-validatie."
 
 Als u domein-specifieke beperkingsbeleid hebt en u Adobe slechts gedeeltelijke controle over DNS wilt hebben, kunt u verkiezen om alle DNS-gerelateerde activiteiten op uw kant uit te voeren.
 
