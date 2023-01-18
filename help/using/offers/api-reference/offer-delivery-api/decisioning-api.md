@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: d3a22f223353dfa5d43acab400cea3d5c314662f
+source-git-commit: f5d5c9dacd640b130dd4bcbaab803ecc7e999d10
 workflow-type: tm+mt
 source-wordcount: '937'
 ht-degree: 1%
@@ -75,7 +75,7 @@ curl -X POST \
                 }
                 ]
             },
-            "xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"
+            "xdm:decisionRequestId": "0AA00002-0000-1224-c0de-cjf98Csj43"
             }
         ],
         "xdm:allowDuplicatePropositions": {
@@ -110,7 +110,7 @@ curl -X POST \
 | `xdm:itemCount` | Het aantal voorstellen dat moet worden geretourneerd. Het maximumaantal is 30. | `"xdm:itemCount": 2` |
 | `xdm:profiles` | Dit object bevat informatie over het profiel waarvoor de beslissing wordt gevraagd. Voor een API-aanvraag bevat dit één profiel. |
 | `xdm:profiles.xdm:identityMap` | Dit object bevat een set eindgebruikers-id&#39;s op basis van de naamruimte-integratiecode van de identiteit. De identiteitskaart kan meer dan één identiteit van elke namespace dragen. Voor meer informatie over naamruimten raadpleegt u [deze pagina](../../../segment/get-started-identity.md). | `Email: [{"xdm:id": "123@abc.com"}]` |
-| `xdm:profiles.xdm:decisionRequestId` | De id die door de client wordt gegenereerd en die kan worden gebruikt om een verzoek voor een profielbeslissing uniek te identificeren. Deze ID wordt in het antwoord herhaald en heeft geen invloed op de uitkomst van het besluit. | `"xdm:decisionRequestId": "0AA00002-0000-1337-c0de-c0fefec0fefe"` |
+| `xdm:profiles.xdm:decisionRequestId` | De id die door de client wordt gegenereerd en die kan worden gebruikt om een verzoek voor een profielbeslissing uniek te identificeren. Deze ID wordt in het antwoord herhaald en heeft geen invloed op de uitkomst van het besluit. | `"xdm:decisionRequestId": "0AA00002-0000-1224-c0de-cjf98Csj43"` |
 | `xdm:allowDuplicatePropositions` | Dit heeft betrekking op de controlestructuur van de deduplicatieregels. Het bestaat uit een reeks vlaggen die erop wijzen of de zelfde optie over een bepaalde afmeting kan worden voorgesteld. Een markering die is ingesteld op true betekent dat duplicaten zijn toegestaan en niet mogen worden verwijderd over de categorie die wordt aangegeven door de markering. Een vlag die aan vals wordt geplaatst betekent dat de besluitvormingsmotor niet de zelfde voorstel over de afmeting zou moeten doen en in plaats daarvan de volgende beste optie voor één van de subbesluiten kiezen. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Indien ingesteld op true, kunnen meerdere beslissingen dezelfde optie krijgen. | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | Indien ingesteld op true, kunnen meerdere plaatsingen dezelfde optie krijgen. | `"xdm:acrossPlacements": true` |
