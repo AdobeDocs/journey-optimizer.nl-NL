@@ -5,12 +5,13 @@ title: Overzicht van User Management
 description: Leer hoe u machtigingen definieert en beheert
 feature: Access Management
 topic: Administration
-role: Admin
+role: Admin, Architect
 level: Intermediate
+keywords: machtigingen, rechten, beperkingen, toegang, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '198'
 ht-degree: 19%
 
 ---

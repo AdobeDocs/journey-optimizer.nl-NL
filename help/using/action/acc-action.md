@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Integreren met Adobe Campaign v7/v8
-description: Leer hoe u kunt integreren met Adobe Campaign v7/v8
+description: Leer hoe u Journey Optimizer kunt integreren met Adobe Campaign v7/v8
 feature: Actions
 topic: Administration
-role: Admin
+role: Admin,Developer
 level: Intermediate
+keywords: campagne, acc, integratie
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -44,7 +45,7 @@ Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de
 
 ## Vereisten {#prerequisites}
 
-In Campagne, moet u een transactiebericht en zijn bijbehorende gebeurtenis tot stand brengen en publiceren. Zie de [Adobe Campaign-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target=&quot;_blank&quot;}.
+In Campagne, moet u een transactiebericht en zijn bijbehorende gebeurtenis tot stand brengen en publiceren. Zie de [Adobe Campaign-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html#transactional-messaging){target="_blank"}.
 
 U kunt uw JSON-lading voor elk bericht samenstellen volgens het onderstaande patroon. U gaat deze payload vervolgens plakken tijdens het configureren van de handeling in Journey Optimizer (zie hieronder)
 

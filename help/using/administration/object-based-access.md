@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Toegangsbeheer op objectniveau
-description: Meer informatie over toegangsbeheer op objectniveau
+description: Meer informatie over toegangsbeheer op objectniveau waarmee u machtigingen kunt definiëren voor het beheren van gegevenstoegang tot een selectie objecten
 feature: Access Management
 topic: Administration
-role: Admin
-level: Intermediate
+role: Admin, Developer, Architect
+level: Experienced
+keywords: voorwerp, niveau, toegang, controle, etiketten, olc, vergunning
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '427'
 ht-degree: 2%
 
 ---

@@ -5,12 +5,13 @@ title: Sandboxbeheer
 description: Leer hoe u sandboxen beheert
 feature: Sandboxes
 topic: Administration
-role: Admin
-level: Intermediate
+role: Admin, Architect, Developer
+level: Experienced
+keywords: sandboxen, virtueel, omgevingen, organisatie, platform
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '364'
 ht-degree: 26%
 
 ---
@@ -23,7 +24,7 @@ In [!DNL Journey Optimizer] kunt u uw instantie partitioneren in afzonderlijke v
 Sandboxen worden toegewezen via productprofielen in de Admin Console. [Leer hoe u sandboxen toewijst](permissions.md#create-product-profile).
 
 [!DNL Journey Optimizer] weerspiegelt Adobe Experience Platform-sandboxen die voor een bepaalde organisatie zijn gemaakt.
-U kunt Adobe Experience Platform-sandboxen maken of herstellen vanuit uw Adobe Experience Platform-instantie. [Meer informatie in de gebruikershandleiding voor de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target=&quot;_blank&quot;}.
+U kunt Adobe Experience Platform-sandboxen maken of herstellen vanuit uw Adobe Experience Platform-instantie. [Meer informatie in de gebruikershandleiding voor de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target="_blank"}.
 
 U kunt het besturingselement voor de sandboxswitch rechtsboven in het scherm vinden naast de naam van uw organisatie. Als u van sandbox wilt wisselen, klikt u op de momenteel actieve sandbox in de schakelfunctie en selecteert u een andere sandbox in de vervolgkeuzelijst.
 
@@ -35,7 +36,7 @@ U kunt het besturingselement voor de sandboxswitch rechtsboven in het scherm vin
 
 >[!IMPORTANT]
 >
-> Sandboxbeheer kan alleen worden uitgevoerd door een **[!UICONTROL Product]** of **[!UICONTROL System]** beheerder. Raadpleeg voor meer informatie hierover de [Documentatie beheerconsole](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target=&quot;_blank&quot;}.
+> Sandboxbeheer kan alleen worden uitgevoerd door een **[!UICONTROL Product]** of **[!UICONTROL System]** beheerder. Raadpleeg voor meer informatie hierover de [Documentatie beheerconsole](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
 
 U kunt desgewenst verschillende sandboxen toewijzen **[!UICONTROL Product profiles]**.
 
@@ -53,7 +54,7 @@ Sandboxen toewijzen:
 
    ![](assets/sandbox_2.png)
 
-1. Klik onder **[!UICONTROL Available Permissions Items]** op het pluspictogram (+) om sandboxen aan uw profiel toe te wijzen. [Meer informatie over sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html){target=&quot;_blank&quot;}.
+1. Klik onder **[!UICONTROL Available Permissions Items]** op het pluspictogram (+) om sandboxen aan uw profiel toe te wijzen. [Meer informatie over sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html){target="_blank"}.
 
    ![](assets/sandbox_3.png)
 
@@ -71,7 +72,7 @@ Als u de toegankelijkheid van uw inhoud wilt configureren, moet u een gedeelde i
 
 Houd er rekening mee dat voor synchronisatie van uw inhoud met de juiste sandbox dezelfde syntaxis moet worden gebruikt als de sandbox, bijvoorbeeld als de sandbox ontwikkeling wordt genoemd, moet uw gedeelde map dezelfde naam hebben.
 
-[Leer hoe u gedeelde mappen kunt beheren](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target=&quot;_blank&quot;}.
+[Leer hoe u gedeelde mappen kunt beheren](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-adobe-storage.ug.html){target="_blank"}.
 
 ## Hoe kan ik-video{#video}
 

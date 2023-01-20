@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Gebruikers en productprofielen beheren
-description: Leer hoe u machtigingen beheert
+description: Leer hoe u gebruikers en productprofielen beheert
 exl-id: 85fd386a-45fa-4f9a-89d1-cecc0749b90d
 feature: Access Management
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+keywords: product, profielen, sandbox
+source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '726'
 ht-degree: 11%
 
 ---
@@ -99,7 +100,7 @@ Indien nodig kunt u ook een nieuw productprofiel met specifieke machtigingen mak
 
 [!DNL Journey Optimizer] staat u toe om uw te creëren **[!UICONTROL Product profiles]** en wijs een reeks toestemmingen en zandbakken aan uw gebruikers toe. Met **[!UICONTROL Product profiles]** kunt u toegang tot bepaalde functies of objecten in de interface toestaan of weigeren.
 
-Voor meer informatie over het maken en beheren van sandboxen raadpleegt u [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target=&quot;_blank&quot;}.
+Voor meer informatie over het maken en beheren van sandboxen raadpleegt u [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target="_blank"}.
 
 In dit voorbeeld maken we een productprofiel met de naam **Reizen, alleen-lezen** waar wij read-only rechten op de eigenschap van de Reis zullen verlenen. Gebruikers kunnen alleen reizen openen en bekijken en hebben geen toegang tot andere functies, zoals **[!DNL  Decision management]** in [!DNL Journey Optimizer].
 
