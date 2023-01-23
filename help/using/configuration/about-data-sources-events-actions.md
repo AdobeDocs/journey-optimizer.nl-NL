@@ -7,10 +7,11 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: configuratie, reis, dashboard, gegevensbronnen, gebeurtenissen, acties
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
-source-git-commit: f04454860ebe597d3306e62b58de5f32e08342ee
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '407'
 ht-degree: 35%
 
 ---
@@ -44,7 +45,7 @@ Journey Optimizer-berichtmogelijkheden zijn ingebouwd: u moet slechts een activi
 
 Bij het definiëren van een [gebeurtenispayload](../event/about-creating.md#define-the-payload-fields), een [veldengroep-payload](../datasource/configure-data-sources.md#define-field-groups) en het selecteren van velden in de [expressie-editor](../building-journeys/expression/expressionadvanced.md) wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt opgehaald uit de schemadefinitie in het Gegevenservaringmodel.
 
-Als er beschrijvingen als xdm:alternateDisplayInfo worden opgegeven tijdens het instellen van schema’s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en algemene velden. U kunt beschrijvers van vriendschappelijke namen via een API vraag vormen. Zie voor meer informatie de [Handleiding voor ontwikkelaars van het schema Register](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html){target=&quot;_blank&quot;}.
+Als er beschrijvingen als xdm:alternateDisplayInfo worden opgegeven tijdens het instellen van schema’s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en algemene velden. U kunt beschrijvers van vriendschappelijke namen via een API vraag vormen. Zie voor meer informatie de [Handleiding voor ontwikkelaars van het schema Register](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html){target="_blank"}.
 
 ![](assets/xdm-from-descriptors.png)
 

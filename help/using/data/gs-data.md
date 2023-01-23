@@ -1,16 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aan de slag met gegevens in [!DNL Journey Optimizer]
-description: Leer hoe u met gegevens werkt in [!DNL Journey Optimizer]
+title: Aan de slag met gegevens in Journey Optimizer
+description: Leer hoe u met gegevens werkt in Journey Optimizer
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: gegevens, beheer, platform
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 504e93a5c21baadf6ac938a9298c1adeb2a2d878
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -60,7 +61,7 @@ Alle gegevens worden beschouwd als het bezit van Klanten en kunnen slechts op uw
 
 U kunt de [!DNL Journey Optimizer]De flexibiliteit van gegevens om te voldoen aan uw specifieke vereisten met betrekking tot het bewaren, archiveren of verwijderen van gegevens:
 
-* **Gegevens extraheren/exporteren**: U kunt de extractie van brongegevens op elk moment starten via de API voor gegevenstoegang zonder boetes of vertragingen. De [API voor gegevenstoegang](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target=&quot;_blank&quot;} biedt gebruikers een RESTful-interface die gericht is op de detecteerbaarheid en toegankelijkheid van opgenomen datasets binnen [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **Gegevens extraheren/exporteren**: U kunt de extractie van brongegevens op elk moment starten via de API voor gegevenstoegang zonder boetes of vertragingen. De [API voor gegevenstoegang](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html){target="_blank"} voorziet gebruikers van een interface RESTful die op de ontdekkingsbaarheid en de toegankelijkheid van opgenomen datasets binnen wordt geconcentreerd [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
    Merk op dat de inhoud die in reizen of campagnes wordt gebruikt niet via hierboven vermelde API- of doelmethoden kan worden geëxtraheerd.
 
@@ -72,7 +73,7 @@ U kunt de [!DNL Journey Optimizer]De flexibiliteit van gegevens om te voldoen aa
 
 * **Opschoonings- en archiveringsmechanismen**: Het wissen van gegevens en archivering kan vrij worden gedefinieerd en geautomatiseerd in [!DNL Adobe Journey Optimizer] om het beleid voor gegevensbewaring te automatiseren. Het is mogelijk verschillende verouderingsstrategieën voor de verschillende gegevensentiteiten te definiëren. Exportmechanismen kunnen ook worden gedefinieerd om verouderde gegevens automatisch te exporteren voordat deze worden gewist of gearchiveerd.
 
-   De werkruimte van de Hygiëne van Gegevens in Adobe Experience Platform UI staat u toe om diverse taken van de gegevenshygiëne tot stand te brengen en te controleren, met inbegrip van het schrappen van consumentenidentiteiten en het plannen van datasetvervalsing. Deze werkruimte is beschikbaar met het beveiligings- en privacyschild en het gezondheidsschild. Meer informatie in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target=&quot;_blank&quot;}.
+   De werkruimte van de Hygiëne van Gegevens in Adobe Experience Platform UI staat u toe om diverse taken van de gegevenshygiëne tot stand te brengen en te controleren, met inbegrip van het schrappen van consumentenidentiteiten en het plannen van datasetvervalsing. Deze werkruimte is beschikbaar met het beveiligings- en privacyschild en het gezondheidsschild. Meer informatie in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target="_blank"}.
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:

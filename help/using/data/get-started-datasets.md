@@ -5,10 +5,11 @@ title: Aan de slag met gegevenssets
 description: Meer informatie over het gebruik van Adobe Experience Platform-gegevenssets in Adobe Journey Optimizer
 role: User
 level: Beginner
+keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 7e27f5502d64d0c91de2c67e4011e650e77c6a92
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -66,8 +67,8 @@ Om een nieuwe dataset tot stand te brengen, begin door te selecteren **Gegevenss
 
 U kunt:
 
-* Gegevensset maken van schema. [Meer informatie in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target=&quot;_blank&quot;}
-* Gegevensset maken van CSV-bestand. [Meer informatie in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html){target=&quot;_blank&quot;}
+* Gegevensset maken van schema. [Meer informatie in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#schema){target="_blank"}
+* Gegevensset maken van CSV-bestand. [Meer informatie in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html){target="_blank"}
 
 Bekijk deze video om te leren hoe te om een dataset tot stand te brengen, het in kaart te brengen aan een schema, gegevens aan het toe te voegen, en te bevestigen dat de gegevens zijn opgenomen.
 
@@ -81,19 +82,19 @@ Een van de kernmogelijkheden van [!DNL Adobe Experience Platform] is gegevens va
 
 [!DNL Adobe Experience Platform Data Governance] staat u toe om klantengegevens te beheren en naleving van verordeningen, beperkingen, en beleid te verzekeren van toepassing op gegevensgebruik. Het speelt een sleutelrol binnen Experience Platform op diverse niveaus, met inbegrip van catalogisering, gegevenslijn, het etiketteren van het gegevensgebruik, het beleid van het gegevensgebruik, en het controleren van het gebruik van gegevens voor marketing acties.
 
-Meer informatie over labels voor gegevensbeheer en gegevensgebruik vindt u in de [Documentatie gegevensbeheer](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html){target=&quot;_blank&quot;}
+Meer informatie over labels voor gegevensbeheer en gegevensgebruik vindt u in de [Documentatie gegevensbeheer](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html){target="_blank"}
 
 ## Monsters en gebruiksgevallen{#uc-datasets}
 
 Leer hoe u een schema, een gegevensset en nieuwe gegevens maakt om testprofielen toe te voegen in Adobe Journey Optimizer in [deze end-to-end steekproef](../segment/creating-test-profiles.md)
 
-Meer informatie over het maken van gegevenssets in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
+Meer informatie over het maken van gegevenssets in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}.
 
-Leer hoe u de interface Gegevensbestanden in het dialoogvenster [Documentatie over gegevensinsluiting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target=&quot;_blank&quot;}.
+Leer hoe u de interface Gegevensbestanden in het dialoogvenster [Documentatie over gegevensinsluiting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target="_blank"}.
 
 Er is een lijst met gebruiksgevallen met queryvoorbeelden beschikbaar [hier](../data/datasets-query-examples.md).
 
 **Zie ook**
 
-* [Overzicht van het opnemen van streaming](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl){target=&quot;_blank&quot;}
-* [Gegevens opnemen in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target=&quot;_blank&quot;}
+* [Overzicht van het opnemen van streaming](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl){target="_blank"}
+* [Gegevens opnemen in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target="_blank"}

@@ -6,10 +6,11 @@ description: Meer informatie over het maken van query's in Adobe Journey Optimiz
 feature: Schemas
 role: User
 level: Beginner
+keywords: query's, platform, gegevens, exploratie
 exl-id: 6f32f068-429a-4039-bb76-d190069e7402
-source-git-commit: f6db4f7cbb1951c009fa7915f340da96eea74120
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '120'
 ht-degree: 6%
 
 ---
@@ -22,9 +23,9 @@ De Redacteur van de vraag steunt het ontwikkelen van vragen voor analyse en gege
 
 ![](assets/queries-home.png)
 
-Leer hoe te om de Redacteur van de Vraag te gebruiken in [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target=&quot;_blank&quot;}.
+Leer hoe te om de Redacteur van de Vraag te gebruiken in [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html){target="_blank"}.
 
 **Zie ook**
 
-* [Documentatie bij Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl){target=&quot;_blank&quot;}
-* [Overzicht van Query Service-video](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target=&quot;_blank&quot;}
+* [Documentatie bij Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl){target="_blank"}
+* [Overzicht van Query Service-video](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html){target="_blank"}

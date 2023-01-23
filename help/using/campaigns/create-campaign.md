@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Een campagne maken
-description: Leer hoe u campagnes kunt maken in [!DNL Journey Optimizer]
+description: Meer informatie over het maken van campagnes in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: ef7c1ac61a59407507e9570e1114e6ef0cb8a7ca
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '694'
 ht-degree: 3%
 
 ---

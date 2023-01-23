@@ -7,10 +7,11 @@ feature: Deliverability
 topic: Content Management
 role: User
 level: Intermediate
+keywords: lijst van gewenste personen, lijst, veilig, configuratie
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '991'
 ht-degree: 2%
 
 ---
@@ -141,7 +142,7 @@ Volg de onderstaande stappen om dit te doen.
 
    >[!NOTE]
    >
-   >Alle ASCII-tekens tussen 32 en 126 zijn toegestaan in het dialoogvenster **[!UICONTROL Reason]** veld. De volledige lijst is te vinden op [deze pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} bijvoorbeeld.
+   >Alle ASCII-tekens tussen 32 en 126 zijn toegestaan in het dialoogvenster **[!UICONTROL Reason]** veld. De volledige lijst is te vinden op [deze pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} bijvoorbeeld.
 
 1. Klik op **[!UICONTROL Submit]**.
 
@@ -153,7 +154,7 @@ Als u de lijst van gewenste personen wilt vullen, kunt u de API voor onderdrukki
 
 U kunt de opdracht **Toevoegen**, **Verwijderen** en **Get** bewerkingen.
 
-Meer informatie over het maken van API-aanroepen in het dialoogvenster [Adobe Experience Platform API&#39;s](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target=&quot;_blank&quot;} naslagdocumentatie.
+Meer informatie over het maken van API-aanroepen in het dialoogvenster [Adobe Experience Platform API&#39;s](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} referentiedocumentatie.
 
 ## Lijst van gewenste personen-logica {#logic}
 
@@ -180,7 +181,7 @@ Wanneer de lijst van gewenste personen [gedeactiveerd](#deactivate-allow-list), 
 
 ## Uitsluitingsrapportage {#reporting}
 
-Wanneer de lijst van gewenste personen actief is, kunt u e-mailadressen of domeinen terugwinnen die van het verzenden werden uitgesloten omdat zij niet op de lijst van gewenste personen waren. Om dit te doen, kunt u gebruiken [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target=&quot;_blank&quot;} om de API-aanroepen hieronder uit te voeren.
+Wanneer de lijst van gewenste personen actief is, kunt u e-mailadressen of domeinen terugwinnen die van het verzenden werden uitgesloten omdat zij niet op de lijst van gewenste personen waren. Om dit te doen, kunt u gebruiken [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} om de API-aanroepen hieronder uit te voeren.
 
 Om de **aantal e-mails** die niet werden verzonden omdat de ontvangers niet op de lijst van gewenste personen waren, gebruik de volgende vraag:
 

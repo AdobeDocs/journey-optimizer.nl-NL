@@ -7,12 +7,13 @@ feature: Data Sources
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: configuratie, experimenteren, rapporteren, optimaliseren
 hide: true
 hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '696'
 ht-degree: 2%
 
 ---
@@ -46,11 +47,11 @@ Voor deze configuratie, moet u één of meerdere datasets toevoegen die de extra
 ## Vereisten
 
 
-Alvorens een dataset aan de rapporteringsconfiguratie toe te voegen, moet u die dataset tot stand brengen. Meer informatie in het dialoogvenster [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#create){target=&quot;_blank&quot;}.
+Alvorens een dataset aan de rapporteringsconfiguratie toe te voegen, moet u die dataset tot stand brengen. Meer informatie in het dialoogvenster [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#create){target="_blank"}.
 
 * U kunt alleen gegevenssets van het gebeurtenistype toevoegen.
 
-* Deze gegevensbestanden moeten ten minste een van de volgende elementen bevatten [veldgroepen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;}: **Toepassingsdetails**, **Handelsgegevens**, **Webdetails**.
+* Deze gegevensbestanden moeten ten minste een van de volgende elementen bevatten [veldgroepen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}: **Toepassingsdetails**, **Handelsgegevens**, **Webdetails**.
 
    >[!NOTE]
    >
@@ -66,7 +67,7 @@ Alvorens een dataset aan de rapporteringsconfiguratie toe te voegen, moet u die 
 
 >[!NOTE]
 >
->Meer informatie over XDM-schema&#39;s en veldgroepen in de [Documentatie over XDM System-overzicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target=&quot;_blank&quot;}.
+>Meer informatie over XDM-schema&#39;s en veldgroepen in de [Documentatie over XDM System-overzicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
 ## Doelstellingen voor elke veldgroep {#objective-list}
 
@@ -98,11 +99,11 @@ In de onderstaande tabel wordt aangegeven welke maatstaven worden toegevoegd aan
 
    >[!CAUTION]
    >
-   >U kunt slechts een gebeurtenis-type dataset selecteren, die minstens één van gesteund moet bevatten [veldgroepen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target=&quot;_blank&quot;}: **Toepassingsdetails**, **Handelsgegevens**, **Webdetails**. Als u een dataset selecteert die die criteria niet aanpast, zult u uw veranderingen niet kunnen bewaren.
+   >U kunt slechts een gebeurtenis-type dataset selecteren, die minstens één van gesteund moet bevatten [veldgroepen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}: **Toepassingsdetails**, **Handelsgegevens**, **Webdetails**. Als u een dataset selecteert die die criteria niet aanpast, zult u uw veranderingen niet kunnen bewaren.
 
    ![](assets/reporting-config-datasets.png)
 
-   Meer informatie over gegevenssets in het dialoogvenster [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target=&quot;_blank&quot;}.
+   Meer informatie over gegevenssets in het dialoogvenster [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}.
 
 1. Van de **[!UICONTROL Profile ID]** drop-down lijst, selecteer de attributen van het gegevenssetgebied die zullen worden gebruikt om elk profiel in uw rapporten te identificeren.
 
@@ -116,7 +117,7 @@ In de onderstaande tabel wordt aangegeven welke maatstaven worden toegevoegd aan
 
    ![](assets/reporting-config-namespace.png)
 
-   Meer informatie over naamruimten in het dialoogvenster [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target=&quot;_blank&quot;}.
+   Meer informatie over naamruimten in het dialoogvenster [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target="_blank"}.
 
 1. Sparen uw veranderingen om de geselecteerde dataset aan de rapportconfiguratielijst toe te voegen.
 

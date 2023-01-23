@@ -2,15 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Aan de slag met campagnes
-description: Meer informatie over campagnes in [!DNL Journey Optimizer]
+description: Meer informatie over campagnes in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
+keywords: campagne, hoe, begin, optimaliseer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '389'
 ht-degree: 3%
 
 ---
@@ -41,13 +42,13 @@ Controleer de volgende voorwaarden voordat u begint met het maken van uw eerste 
 
 1. **U hebt de juiste machtigingen nodig**. Campagnes zijn alleen beschikbaar voor gebruikers die toegang hebben tot een campagne **[!UICONTROL Product profile]** zoals Campagnebeheerder, Campagneontwikkelaar, Campagnebeheerder en/of Campagneviewer.
 
-   Als u geen toegang hebt tot campagnes, moeten uw toestemmingen worden uitgebreid. Als u toegang hebt tot [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} voor uw organisatie voert u de onderstaande stappen uit. Als dat niet het geval is, neemt u contact op met uw Journey Optimizer-beheerder.
+   Als u geen toegang hebt tot campagnes, moeten uw toestemmingen worden uitgebreid. Als u toegang hebt tot [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} voor uw organisatie voert u de onderstaande stappen uit. Als dat niet het geval is, neemt u contact op met uw Journey Optimizer-beheerder.
 
    +++Leer hoe u campagnemachtigingen toewijst
 
    Om de overeenkomstige **[!UICONTROL Product profile]** aan uw gebruikers:
 
-   1. Van [Adobe Admin Console](https://adminconsole.adobe.com/){target=&quot;_blank&quot;} selecteert u de optie [!DNL Adobe Experience Platform] product.
+   1. Van [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}, selecteert u de [!DNL Adobe Experience Platform] product.
 
    1. Bladeren naar de **[!UICONTROL Product profile]** selecteert u een van de ingebouwde campagnes die betrekking hebben op **[!UICONTROL Product profile]**: Campagnebeheerder, campagnefiatteur, campagnebeheerder of campagneviewer.
 

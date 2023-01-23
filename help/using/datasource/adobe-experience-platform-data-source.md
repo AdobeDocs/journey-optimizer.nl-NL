@@ -5,12 +5,13 @@ title: Adobe Experience Platform-databron
 description: Leer hoe u Adobe Experience Platform-gegevensbron configureert
 feature: Data Sources
 topic: Administration
-role: Admin
+role: Admin, Developer
 level: Intermediate
+keywords: ingebouwde, bron, gegevens, platform, integratie
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 69037a070f43fa89d0971cedc03adb577e1450d9
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '415'
 ht-degree: 9%
 
 ---
@@ -22,7 +23,7 @@ ht-degree: 9%
 >title="Adobe Experience Platform-databron"
 >abstract="Adobe Experience Platform-gegevensbron definieert de verbinding met Adobe Real-Time Klantprofiel. Deze gegevensbron is ingebouwd en vooraf geconfigureerd en kan niet worden verwijderd. Het is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is). Hiermee kunt u de gegevens van het profiel en Events gebruiken."
 
-Adobe Experience Platform-gegevensbron definieert de verbinding met Adobe Real-Time Klantprofiel. Deze gegevensbron is ingebouwd en vooraf geconfigureerd en kan niet worden verwijderd. Deze gegevensbron is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is). Hiermee kunt u de gegevens van het profiel en Events gebruiken. Raadpleeg voor meer informatie over het Adobe Real-time profiel van de Klant: [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target=&quot;_blank&quot;}.
+Adobe Experience Platform-gegevensbron definieert de verbinding met Adobe Real-Time Klantprofiel. Deze gegevensbron is ingebouwd en vooraf geconfigureerd en kan niet worden verwijderd. Deze gegevensbron is ontworpen om gegevens van de Real-time Dienst van het Profiel van de Klant terug te winnen en te gebruiken (bijvoorbeeld, controleer of de persoon die een reis inging een vrouwelijk is). Hiermee kunt u de gegevens van het profiel en Events gebruiken. Raadpleeg voor meer informatie over het Adobe Real-time profiel van de Klant: [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}.
 
 
 Om de verbinding aan de Dienst van het Profiel van de Klant in real time toe te staan, moeten wij een sleutel gebruiken om een persoon, en een namespace te identificeren die contextualizes de sleutel. Hierdoor kunt u deze gegevensbron alleen gebruiken als uw reizen beginnen met een gebeurtenis die een sleutel en een naamruimte bevat. [Meer informatie](../building-journeys/journey.md).

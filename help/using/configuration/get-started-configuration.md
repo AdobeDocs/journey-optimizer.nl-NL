@@ -3,14 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Aan de slag met [!DNL Journey Optimizer] configuratie
 description: Meer informatie over [!DNL Journey Optimizer] configuratie
-role: Admin
+role: Admin, Developer
 level: Intermediate
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+keywords: configuratie, configureren, berichten, kanaal, sandbox, optimaliseren
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '383'
 ht-degree: 15%
 
 ---

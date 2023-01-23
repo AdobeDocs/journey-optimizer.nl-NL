@@ -7,10 +7,11 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: onderdrukken, lijst, stuiteren, e-mail, optimaliseren
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0c5a4291cdd46572faf2ab10c1c06987e4073b54
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1240'
 ht-degree: 1%
 
 ---
@@ -195,7 +196,7 @@ Selecteer hiervoor de optie **[!UICONTROL Add email or domain]** en voert u een 
 
    >[!NOTE]
    >
-   >Alle ASCII-tekens tussen 32 en 126 zijn toegestaan in het dialoogvenster **[!UICONTROL Reason]** veld. De volledige lijst is te vinden op [deze pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} bijvoorbeeld.
+   >Alle ASCII-tekens tussen 32 en 126 zijn toegestaan in het dialoogvenster **[!UICONTROL Reason]** veld. De volledige lijst is te vinden op [deze pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} bijvoorbeeld.
 
 1. Klik op **[!UICONTROL Submit]**.
 
@@ -228,7 +229,7 @@ Selecteer hiervoor de optie **[!UICONTROL Add email or domain]** en voert u een 
 
    >[!NOTE]
    >
-   >Alle ASCII-tekens tussen 32 en 126 zijn toegestaan in het dialoogvenster **Opmerking** kolom. De volledige lijst is te vinden op [deze pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target=&quot;_blank&quot;} bijvoorbeeld.
+   >Alle ASCII-tekens tussen 32 en 126 zijn toegestaan in het dialoogvenster **Opmerking** kolom. De volledige lijst is te vinden op [deze pagina](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"} bijvoorbeeld.
 
 1. Wanneer u klaar bent, sleept u het CSV-bestand en klikt u op **[!UICONTROL Submit]**.
 

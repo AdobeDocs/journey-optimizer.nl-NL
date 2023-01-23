@@ -5,13 +5,14 @@ title: Informatie over databronnen
 description: Een databron configureren
 feature: Data Sources
 topic: Administration
-role: Admin
+role: Admin, Developer
 level: Intermediate
+keywords: gegevens, bron, reis, platform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 0b19af568b33d29f4b35deeab6def17919cfe824
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 73%
+source-wordcount: '316'
+ht-degree: 83%
 
 ---
 
@@ -44,7 +45,7 @@ Voor elke databron definieert u de informatie die u wilt ophalen met behulp van 
 >
 >Schemarelaties worden niet ondersteund voor gegevensbronnen.
 
-Voor meer informatie over hoe te om een Gegevensbron van Adobe Experience Platform en een externe gegevensbron te vormen en hoe te om gegevens in een reis te vinden en te gebruiken, bekijk dit [zelfstudievideo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target=&quot;_blank&quot;}.
+Voor meer informatie over het configureren van een Adobe Experience Platform-databron en een externe databron en hoe u gegevens in een journey kunt vinden en gebruiken, bekijkt u deze [zelfstudievideo](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## Hoe kan ik-video {#video}
 

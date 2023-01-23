@@ -5,8 +5,9 @@ title: Journey Optimizer integreren met externe systemen
 description: Leer de beste praktijken bij het integreren van Journey Optimizer met externe systemen
 role: User
 level: Beginner
+keywords: extern, API, optimaliseren, aftopping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 1%
@@ -43,7 +44,7 @@ Een uitlijningsregel is specifiek voor één eindpunt, maar is globaal voor alle
 
 Bijvoorbeeld, laten wij zeggen dat u een het begrenzen regel van 100 vraag per seconde voor uw extern systeem hebt bepaald. Uw systeem wordt opgeroepen door een aangepaste actie tijdens 10 verschillende reizen. Als één reis 200 vraag per seconde ontvangt, zal het de 100 beschikbare groeven gebruiken en de 100 resterende groeven verwerpen. Aangezien het maximumtarief is overschreden, zullen de overige 9 reizen geen slots meer hebben. Deze granulariteit helpt het externe systeem te beschermen tegen overbelasting en vastlopen.
 
-Voor meer informatie over de API voor aftiteling en over het configureren van aftapregels raadpleegt u [Journey Orchestration-documentatie](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}.
+Voor meer informatie over de API voor aftiteling en over het configureren van aftapregels raadpleegt u [Journey Orchestration-documentatie](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}.
 
 ## Time-out en opnieuw proberen{#timeout}
 
@@ -71,7 +72,7 @@ Laten we een voorbeeld nemen voor een time-out van 5 seconden.
 
 **Hoe kan ik een het in kaart brengen regel vormen? Is er een standaard het in kaart brengen regel?**
 
-Standaard is er geen uitlijningsregel. De begrenzingsregels worden bepaald op zandbakniveau voor een specifiek eindpunt (geroepen URL), gebruikend Capping API. Zie [deze sectie](../configuration/external-systems.md#capping) en [Journey Orchestration-documentatie](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}.
+Standaard is er geen uitlijningsregel. De begrenzingsregels worden bepaald op zandbakniveau voor een specifiek eindpunt (geroepen URL), gebruikend Capping API. Zie [deze sectie](../configuration/external-systems.md#capping) en [Journey Orchestration-documentatie](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}.
 
 **Hoeveel pogingen worden uitgevoerd? Kan ik het aantal pogingen veranderen of een minimumwachttijd tussen pogingen bepalen?**
 

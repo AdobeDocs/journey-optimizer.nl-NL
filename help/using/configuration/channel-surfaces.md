@@ -7,10 +7,11 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 23f1ad4580d714acaefd7a5948ee674ce5203bc6
+source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -135,7 +136,7 @@ Na het maken kunnen kanaaloppervlakken de volgende statussen hebben:
 
 Als het maken van een kanaaloppervlak mislukt, worden de details van elke mogelijke oorzaak van een fout hieronder beschreven.
 
-Als een van deze fouten optreedt, neemt u contact op met [Adobe Klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;} voor hulp.
+Als een van deze fouten optreedt, neemt u contact op met [Adobe Klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} om hulp te krijgen.
 
 * **Validatie van SPF is mislukt**: SPF (het Kader van het Beleid van de Afzender) is een e-mailauthentificatieprotocol dat toestaat om erkende IPs te specificeren die e-mails van een bepaald subdomein kunnen verzenden. De de bevestigingsmislukking van SPF betekent dat de IP adressen in het SPF- verslag niet de IP adressen aanpassen die voor het verzenden van e-mails naar de brievenbusleveranciers worden gebruikt.
 
