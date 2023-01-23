@@ -7,8 +7,9 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
+keywords: expressie, editor, syntaxis, personalisatie
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 3%
@@ -29,7 +30,7 @@ Voorbeeld van eenvoudige expressie:
 waarbij:
 
 * `profile` is een naamruimte.
-* `person.name` is een token dat wordt samengesteld door kenmerken. De kenmerkstructuur wordt gedefinieerd in een Adobe Experience Platform XDM-schema. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target=&quot;_blank&quot;}.
+* `person.name` is een token dat wordt samengesteld door kenmerken. De kenmerkstructuur wordt gedefinieerd in een Adobe Experience Platform XDM-schema. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
 ## Algemene syntaxisregels {#general-rules}
 
@@ -51,7 +52,7 @@ Wat argumenten voor letterlijke functies betreft, ondersteunt de parser voor sja
 
 ## Profiel
 
-Met deze naamruimte kunt u verwijzen naar alle kenmerken die zijn gedefinieerd in het profielschema dat wordt beschreven in [Adobe Experience Platform Data Model (XDM)-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target=&quot;_blank&quot;}.
+Met deze naamruimte kunt u verwijzen naar alle kenmerken die zijn gedefinieerd in het profielschema dat wordt beschreven in [Adobe Experience Platform Data Model (XDM)-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
 De attributen moeten in het schema worden bepaald alvorens in a wordt van verwijzingen voorzien [!DNL Journey Optimizer] verpersoonlijkingsblok.
 

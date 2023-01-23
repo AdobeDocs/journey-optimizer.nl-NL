@@ -7,10 +7,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
+keywords: voorraad, afbeeldingen, integratie, foto's
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 1%
 
 De [!DNL Adobe Stock] en [!DNL Adobe Journey Optimizer] De integratie-insteekmodule van E-mailDesigner biedt klanten een gemakkelijke manier om te navigeren, een licentie te verlenen en afbeeldingen op te slaan voor gebruik in berichtontwerpen.
 
-[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;} biedt toegang tot miljoenen kwalitatief hoogstaande, gekrulde, royaltyvrije foto&#39;s, video&#39;s, illustraties en vectorafbeeldingen. U kunt ervoor kiezen om een creditpakket aan te schaffen om een licentie voor activa te verkrijgen of slechts één standaard- of uitgebreide licentie voor het benodigde element te kopen. Adobe Stock biedt ook een gratis collectie van activa.
+[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} biedt toegang tot miljoenen kwalitatief hoogstaande, gekrulde en royaltyvrije foto&#39;s, video&#39;s, illustraties en vectorafbeeldingen. U kunt ervoor kiezen om een creditpakket aan te schaffen om een licentie voor activa te verkrijgen of slechts één standaard- of uitgebreide licentie voor het benodigde element te kopen. Adobe Stock biedt ook een gratis collectie van activa.
 
 Met [!DNL Adobe Journey Optimizer]kunt u afbeeldingen rechtstreeks vanaf [!DNL Adobe Stock] en voeg het toe aan uw **[!UICONTROL Assets]** map met de **[!UICONTROL Find Adobe Stock photos]** optie. Bovendien **[!UICONTROL Find Similar Stock photos]** helpt u bij het zoeken naar afbeeldingen die overeenkomen met de inhoud, kleur en compositie van het element dat in de levering wordt gebruikt.
 
@@ -29,7 +30,7 @@ Met [!DNL Adobe Journey Optimizer]kunt u afbeeldingen rechtstreeks vanaf [!DNL A
 
 De **[!UICONTROL Find Adobe Stock photos]** en **[!UICONTROL Find Similar Image]** -opties zijn beschikbaar voor gebruikers met toegang tot een AEM Assets Essentials Product Profile.
 
-Raadpleeg voor meer informatie hierover [Essentiële documentatie voor middelen](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target=&quot;_blank&quot;}.
+Raadpleeg voor meer informatie hierover [Essentiële documentatie voor middelen](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
 
 ## Een afbeelding invoegen vanuit [!DNL Adobe Stock] {#add-stock-image}
 
@@ -87,7 +88,7 @@ Voer de onderstaande stappen uit om een licentie te verkrijgen en uw afbeelding 
 
    Deze aankoop is afhankelijk van uw Adobe Stock-abonnement of -abonnement. Als je meerdere Adobe Stock-accounts hebt, wordt je doorgestuurd naar de laatst gebruikte voorraad-id. Controleer in dit geval of u bent aangemeld bij de juiste account voordat u een licentie voor uw asset aanschaft.
 
-   Meer informatie over Adobe Stock-plannen en -prijzen vindt u in [Adobe Stock-documentatie](https://stock.adobe.com/plans){target=&quot;_blank&quot;}.
+   Meer informatie over Adobe Stock-plannen en -prijzen vindt u in [Adobe Stock-documentatie](https://stock.adobe.com/plans){target="_blank"}.
 
    >[!WARNING]
    > Als een e-mail met een afbeelding zonder licentie wordt verzonden, behoudt de afbeelding het formulier zonder licentie met het watermerk.
@@ -102,5 +103,5 @@ Voer de onderstaande stappen uit om een licentie te verkrijgen en uw afbeelding 
 
 * [E-mailontwerp in Journey Optimizer](get-started-email-design.md)
 * [Componentinstellingen voor e-mailontwerp](content-components.md)
-* [Adobe Stock Aan de slag](https://helpx.adobe.com/stock/get-started.html){target=&quot;_blank&quot;}.
+* [Adobe Stock Aan de slag](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
 

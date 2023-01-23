@@ -7,10 +7,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: opt-out, e-mail, link, abonnement opzeggen
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1016'
 ht-degree: 1%
 
 ---
@@ -59,7 +60,7 @@ Eerst moet u een afmeldingskoppeling toevoegen aan een bericht. Volg de ondersta
 
 ### Een API-aanroep voor opt-out implementeren {#opt-out-api}
 
-Als u wilt dat de ontvangers de optie Weigeren kiezen wanneer ze hun keuze op de bestemmingspagina indienen, moet u een **API-oproep voor abonnement** doorheen [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} om de voorkeuren van de corresponderende profielen bij te werken.
+Als u wilt dat de ontvangers de optie Weigeren kiezen wanneer ze hun keuze op de bestemmingspagina indienen, moet u een **API-oproep voor abonnement** doorheen [Adobe Developer](https://developer.adobe.com){target="_blank"} om de voorkeuren van de overeenkomstige profielen bij te werken.
 
 Deze vraag van de POST is als volgt:
 
@@ -97,7 +98,7 @@ Instantie van aanvraag:
 }
 ```
 
-[!DNL Journey Optimizer] gebruikt u deze parameters om de keuze van het corresponderende profiel bij te werken via de [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;} API-aanroep.
+[!DNL Journey Optimizer] gebruikt u deze parameters om de keuze van het corresponderende profiel bij te werken via de [Adobe Developer](https://developer.adobe.com){target="_blank"} API-aanroep.
 
 ### Bericht verzenden met afmeldingskoppeling {#send-message-unsubscribe-link}
 
@@ -117,7 +118,7 @@ Zodra u de unsubscribe verbinding aan uw landende pagina vormde en de API vraag 
 
    Dit heeft tot gevolg dat deze gebruiker geen communicatie van uw merk ontvangt, tenzij hij opnieuw een abonnement neemt.
 
-1. Als u wilt controleren of de keuze van het corresponderende profiel is bijgewerkt, gaat u naar het Experience Platform en opent u het profiel door een naamruimte voor identiteiten en een bijbehorende identiteitswaarde te selecteren. Meer informatie in het dialoogvenster [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+1. Als u wilt controleren of de keuze van het corresponderende profiel is bijgewerkt, gaat u naar het Experience Platform en opent u het profiel door een naamruimte voor identiteiten en een bijbehorende identiteitswaarde te selecteren. Meer informatie in het dialoogvenster [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
 
    ![](assets/opt-out-profile-choice.png)
 
@@ -185,4 +186,4 @@ Afhankelijk van de e-mailclient kan het klikken op de koppeling voor het opzegge
    >
    >Als u geen koppeling voor het uitschakelen van een muisklik toevoegt aan uw berichtinhoud, wordt er geen bestemmingspagina weergegeven.
 
-* Het corresponderende profiel wordt direct uitgeschakeld en deze keuze wordt in het Experience Platform bijgewerkt. Meer informatie in het dialoogvenster [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+* Het corresponderende profiel wordt direct uitgeschakeld en deze keuze wordt in het Experience Platform bijgewerkt. Meer informatie in het dialoogvenster [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.

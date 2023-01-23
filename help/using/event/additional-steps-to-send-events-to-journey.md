@@ -7,8 +7,9 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: stappen, configuratie, reis, gebeurtenissen, stroom, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 4%
@@ -19,7 +20,7 @@ ht-degree: 4%
 
 Om gebeurtenissen te vormen die moeten worden verzonden naar **[!UICONTROL Streaming Ingestion APIs]** en te gebruiken in [!DNL Journey Optimizer], moet u deze stappen volgen:
 
-1. Haal de inlaatURL op van Adobe Experience Platform API&#39;s. Meer informatie in [Overzicht van API&#39;s voor streaming-insluiting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl){target=&quot;_blank&quot;}.
+1. Haal de inlaatURL op van Adobe Experience Platform API&#39;s. Meer informatie in [Overzicht van API&#39;s voor streaming-insluiting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl){target="_blank"}.
 1. Kopieer de lading van de payload voorproef in **[!UICONTROL Event]** -menu. Meer informatie in [deze pagina](../event/about-creating.md#define-the-payload-fields).
 
 Vervolgens moet u het gegevenssysteem configureren dat gebeurtenissen naar Streaming Ingestie-API&#39;s stuurt met de door u gekopieerde payload:
@@ -87,6 +88,6 @@ Hier volgt een voorbeeld van een gebeurtenis Streaming ingestie-API&#39;s:
 }
 ```
 
-U kunt een JSON-visualisatiefunctie gebruiken, zoals [JSON-formatter](https://jsonformatter.curiousconcept.com){target=&quot;_blank&quot;}.
+U kunt een JSON-visualisatiefunctie gebruiken, zoals [JSON-formatter](https://jsonformatter.curiousconcept.com){target="_blank"}.
 
-Raadpleeg voor het oplossen van problemen met de API&#39;s voor streaming-insluiting [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;}.
+Raadpleeg voor het oplossen van problemen met de API&#39;s voor streaming-insluiting [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}.

@@ -7,10 +7,11 @@ feature: Events
 topic: Administration
 role: Admin
 level: Intermediate
+keywords: analyse, integratie, web sdk, platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 53d89f216961daba72e96a728301572b83824655
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '569'
 ht-degree: 7%
 
 ---
@@ -49,7 +50,7 @@ Dit laat de bron van Analytics schakelaar voor die rapportreeks toe. Telkens wan
 
 ![](assets/ajo-aa_4.png)
 
-Meer informatie over de Adobe Analytics-bronconnector in  [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target=&quot;_blank&quot;} en [zelfstudie](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target=&quot;_blank&quot;}.
+Meer informatie over de Adobe Analytics-bronconnector in  [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} and [tutorial](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}.
 
 ## Een reis maken met een gebeurtenis met Adobe Analytics of Web SDK-gegevens {#event-analytics}
 

@@ -5,10 +5,11 @@ title: Voorinstellingen voor openingspagina definiëren
 description: Leer hoe u uw omgeving configureert voor het maken en gebruiken van bestemmingspagina's met Journey Optimizer
 role: Admin
 level: Intermediate
+keywords: landen, landen pagina, vormen, milieu, subdomein, vooraf instelt
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '324'
 ht-degree: 2%
 
 ---

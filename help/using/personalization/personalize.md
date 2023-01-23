@@ -7,10 +7,11 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
+keywords: expressie, editor, start, personalisatie
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 6014088011c41fd5f673eb3d36fb0609c4a01270
+source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '324'
 ht-degree: 13%
 
 ---
@@ -35,7 +36,7 @@ Bij het verwerken van het bericht (e-mail en push) vervangt Journey Optimizer de
 
 ## Gebruik profielgegevens om uw berichten aan te passen {#data}
 
-De verpersoonlijking is gebaseerd op de profielgegevens die door **Afzonderlijk XDM-profiel** schema gedefinieerd in Adobe Experience Platform. Meer informatie in [Adobe Experience Platform Data Model (XDM)-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target=&quot;_blank&quot;}.
+De verpersoonlijking is gebaseerd op de profielgegevens die door **Afzonderlijk XDM-profiel** schema gedefinieerd in Adobe Experience Platform. Meer informatie in [Adobe Experience Platform Data Model (XDM)-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
 >[!CAUTION]
 >De **Afzonderlijk XDM-profiel** schema is het enige schema dat u kunt gebruiken om inhoud in te personaliseren [!DNL Journey Optimizer].
