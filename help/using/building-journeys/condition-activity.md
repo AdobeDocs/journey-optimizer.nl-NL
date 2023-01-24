@@ -7,8 +7,9 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: activiteit, toestand, canvas, reis
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
 source-wordcount: '1409'
 ht-degree: 7%
@@ -60,7 +61,7 @@ In de eenvoudige modus kunt u eenvoudige query&#39;s uitvoeren op basis van een 
 
 ![](assets/journey64.png)
 
-Als u de [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target=&quot;_blank&quot;} om uw segmenten te maken, kunt u deze gebruiken in uw reisomstandigheden. Zie [Segmenten in omstandigheden gebruiken](../building-journeys/condition-activity.md#using-a-segment).
+Als u de [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} om uw segmenten te creëren, kunt u hen in uw reisvoorwaarden gebruiken. Zie [Segmenten in omstandigheden gebruiken](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
@@ -161,4 +162,4 @@ Voer de volgende stappen uit om een segment te gebruiken in een reisvoorwaarde:
 
    >[!NOTE]
    >
-   >Let erop dat alleen de personen met de **Gerealiseerd** en **Bestaande** de deelnamestatistieken van segmenten worden beschouwd als leden van het segment . Raadpleeg voor meer informatie over het evalueren van een segment de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Let erop dat alleen de personen met de **Gerealiseerd** en **Bestaande** de deelnamestatistieken van segmenten worden beschouwd als leden van het segment . Raadpleeg voor meer informatie over het evalueren van een segment de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

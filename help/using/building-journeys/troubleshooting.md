@@ -7,11 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: problemen oplossen, problemen oplossen, reis, controle, fouten
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 021cf48ab4b5ea8975135a20d5cef8846faa5991
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 81%
+source-wordcount: '1012'
+ht-degree: 80%
 
 ---
 
@@ -49,7 +50,7 @@ Het startpunt van een journey is altijd een gebeurtenis. U kunt tests uitvoeren 
 
 U kunt controleren of de API-aanroep die u via deze tools verzendt, correct is verzonden of niet. Als een fout wordt geretourneerd, betekent dit dat er een probleem is met uw aanroep. Controleer opnieuw de payload, de koptekst (vooral de organisatie-id) en de bestemmings-URL. U kunt de beheerder vragen wat de juiste URL is.
 
-Gebeurtenissen worden niet rechtstreeks van de bron naar de ritten verplaatst. Reizen vertrouwen inderdaad op de streaming opname-API&#39;s van Adobe Experience Platform. Als u problemen hebt met gebeurtenissen, kunt u dus verwijzen naar [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target=&quot;_blank&quot;} voor het oplossen van problemen met opname-API&#39;s voor streaming.
+Gebeurtenissen worden niet rechtstreeks van de bron naar de ritten verplaatst. Reizen vertrouwen inderdaad op de streaming opname-API&#39;s van Adobe Experience Platform. Als u problemen hebt met gebeurtenissen, kunt u dus verwijzen naar [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} voor het oplossen van problemen met opname-API&#39;s voor streaming.
 
 ## Controleren of mensen de reis betreden{#checking-if-people-enter-the-journey}
 

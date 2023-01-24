@@ -6,10 +6,11 @@ description: Leer hoe u profielinvoer beheert
 feature: Journeys
 role: User
 level: Intermediate
+keywords: terugkeer, reis, profiel, terugkerend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de optie uitsc
 
 ![](assets/journey-re-entrance.png)
 
-Wanneer een reis eindigt, is zijn status **[!UICONTROL Closed]**. TNieuwe individuen kunnen de reis niet meer betreden. Personen die al op reis zijn, maken de reis normaal af.
+Wanneer een reis eindigt, is zijn status **[!UICONTROL Closed]**. Nieuwe individuen kunnen de reis niet meer betreden. Personen die al op reis zijn, maken de reis normaal af.
 
 Na de standaard globale onderbreking van 30 dagen, schakelt de reis naar **Voltooid** status.  [Meer informatie](journey-gs.md#global_timeout).
 

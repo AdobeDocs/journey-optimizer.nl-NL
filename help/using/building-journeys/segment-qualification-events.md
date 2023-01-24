@@ -7,10 +7,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+keywords: kwalificatie, evenementen, segment, reis, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '889'
 ht-degree: 1%
 
 ---
@@ -63,7 +64,7 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
    >[!NOTE]
    >
-   >Let op: **[!UICONTROL Enter]** en **[!UICONTROL Exit]** komt overeen met de **Gerealiseerd** en **Verlaat** de deelnamestatistieken van Adobe Experience Platform. Raadpleeg voor meer informatie over het evalueren van een segment de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target=&quot;_blank&quot;}.
+   >Let op: **[!UICONTROL Enter]** en **[!UICONTROL Exit]** komt overeen met de **Gerealiseerd** en **Verlaat** de deelnamestatistieken van Adobe Experience Platform. Raadpleeg voor meer informatie over het evalueren van een segment de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Selecteer een naamruimte. Dit is alleen nodig als de gebeurtenis als eerste stap van de reis wordt geplaatst.
 
@@ -113,7 +114,7 @@ Niet gebruiken in een **[!UICONTROL Segment Qualification]** activiteit, een bat
 
 ![](assets/segment-error.png)
 
-Plaats een plafondregel voor gegevensbronnen en handelingen die tijdens reizen worden gebruikt om overbelasting te voorkomen. Meer informatie in [Journey Orchestration-documentatie](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target=&quot;_blank&quot;}. De bijschilderregel hoeft niet opnieuw te worden uitgevoerd. Als u het opnieuw moet proberen, moet u een alternatief pad in de reis gebruiken door de doos te controleren **[!UICONTROL Add an alternative path in case of a timeout or an error]** in omstandigheden of acties.
+Plaats een plafondregel voor gegevensbronnen en handelingen die tijdens reizen worden gebruikt om overbelasting te voorkomen. Meer informatie in [Journey Orchestration-documentatie](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. De bijschilderregel hoeft niet opnieuw te worden uitgevoerd. Als u het opnieuw moet proberen, moet u een alternatief pad in de reis gebruiken door de doos te controleren **[!UICONTROL Add an alternative path in case of a timeout or an error]** in omstandigheden of acties.
 
 Voordat u het segment in een productietraject gaat gebruiken, moet u altijd eerst het aantal personen beoordelen dat dagelijks voor dit segment in aanmerking komt. Om dit te doen, kunt u controleren **[!UICONTROL Segments]** menu, opent u het segment en bekijkt u het **[!UICONTROL Profiles over time]** grafiek.
 

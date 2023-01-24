@@ -4,12 +4,13 @@ product: journey optimizer
 title: Functies voor het beheer van verzamelingen
 description: Meer informatie over gegevenstypen in functies voor verzamelingsbeheer
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: query, collecties, functies, lading, reis
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '588'
 ht-degree: 1%
 
 ---

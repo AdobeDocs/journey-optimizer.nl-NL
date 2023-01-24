@@ -4,13 +4,14 @@ product: journey optimizer
 title: De geavanceerde expressie-editor
 description: Geavanceerde expressies maken
 feature: Journeys
-role: Data Engineer
+role: Data Engineer, Architect
 level: Experienced
+keywords: expression editor, data, trip
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: d17e64e03d093a8a459caef2fb0197a5710dfb7d
+source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 80%
+source-wordcount: '592'
+ht-degree: 79%
 
 ---
 
