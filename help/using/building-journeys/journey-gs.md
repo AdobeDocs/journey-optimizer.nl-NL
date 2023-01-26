@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, segment, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 9%
@@ -95,9 +95,11 @@ De **Technische details kopiëren** staat u toe om technische informatie over de
 ### Entrance{#entrance}
 
 Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de controle van **Opnieuw openen toestaan** optie voor &quot;één enkele schot&quot;reizen, bijvoorbeeld als u een eenmalig geschenk wilt aanbieden wanneer een persoon een winkel ingaat.
+
 <!--
 When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
 -->
+
 Meer informatie over toegangsbeheer voor profielen vindt u in [deze sectie](entry-management.md).
 
 ### Toegang beheren {#access}
@@ -117,11 +119,13 @@ Als een tijdzone in Adobe Experience Platform-profiel is gedefinieerd, kan deze 
 Zie voor meer informatie over tijdzonebeheer [deze pagina](../building-journeys/timezone-management.md).
 
 ### Begin- en einddatum {#dates}
+
 <!--
 You can define a **Start date**. If you haven't specified one, it will be automatically defined at publication time. 
 
 You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read segment journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
 -->
+
 U kunt een **Begindatum**. U kunt ook een **Einddatum**. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. Als u geen einddatum opgeeft, kunnen profielen blijven tot de standaardreistime-out.
 
 ### Tijdslimiet en fout bij reisactiviteiten {#timeout_and_error}

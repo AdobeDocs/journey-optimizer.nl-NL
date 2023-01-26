@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1808'
 ht-degree: 5%
 
 ---
@@ -702,7 +702,7 @@ De volgende vraag bepaalt, met gevalsgevoeligheid, als de naam van de persoon me
 
 ## Tekenreeks naar datum {#string-to-date}
 
-De functie &#39;stringToDate&#39; zet een tekenreekswaarde om in een datum-tijdwaarde. Er zijn twee argumenten: tekenreeksrepresentatie van een datum- en tekenreeksrepresentatie van de formatter.
+De `stringToDate` functie converteert een tekenreekswaarde naar een datum-tijdwaarde. Er zijn twee argumenten: tekenreeksrepresentatie van een datum- en tekenreeksrepresentatie van de formatter.
 
 **Syntaxis**
 
