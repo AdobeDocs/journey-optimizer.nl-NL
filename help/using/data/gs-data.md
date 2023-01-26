@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: gegevens, beheer, platform
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 61b800c7f987d2650c4fe6d9f08e1c02ac0f667c
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ U kunt de [!DNL Journey Optimizer]De flexibiliteit van gegevens om te voldoen aa
 
 * **Opschoonings- en archiveringsmechanismen**: Het wissen van gegevens en archivering kan vrij worden gedefinieerd en geautomatiseerd in [!DNL Adobe Journey Optimizer] om het beleid voor gegevensbewaring te automatiseren. Het is mogelijk verschillende verouderingsstrategieën voor de verschillende gegevensentiteiten te definiëren. Exportmechanismen kunnen ook worden gedefinieerd om verouderde gegevens automatisch te exporteren voordat deze worden gewist of gearchiveerd.
 
-   De werkruimte van de Hygiëne van Gegevens in Adobe Experience Platform UI staat u toe om diverse taken van de gegevenshygiëne tot stand te brengen en te controleren, met inbegrip van het schrappen van consumentenidentiteiten en het plannen van datasetvervalsing. Deze werkruimte is beschikbaar met het beveiligings- en privacyschild en het gezondheidsschild. Meer informatie in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html){target="_blank"}.
+   De werkruimte van de Hygiëne van Gegevens staat u toe om diverse taken van de gegevenshygiëne tot stand te brengen en te controleren, met inbegrip van het schrappen van consumentenidentiteiten en het plannen van datasetvervalsing. Deze werkruimte is beschikbaar met het beveiligings- en privacyschild en het gezondheidsschild. Meer informatie in [deze pagina](../privacy/data-hygiene.md).
 
 <!--
 * **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:
