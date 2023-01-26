@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: 645db980155993155a10d27f4ff59967b000442f
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '461'
 ht-degree: 7%
 
 ---
@@ -38,8 +38,8 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 <td>
 <p>Adobe Experience Platform biedt een reeks mogelijkheden voor gegevenshygiëne waarmee u uw opgeslagen gegevens kunt beheren via programmatische verwijderingen van consumentengegevens en gegevenssets. Deze mogelijkheid is nu beschikbaar voor Adobe Journey Optimizer. </p>
 <p>U kunt uw gegevensopslag beheren om ervoor te zorgen dat de informatie wordt gebruikt zoals verwacht, wordt bijgewerkt wanneer onjuiste gegevens het bevestigen vereisen, en wordt geschrapt wanneer het organisatorische beleid het noodzakelijk acht.</p>
-<p><strong>Waarschuwing</strong> - De mogelijkheden voor gegevenshygiëne zijn momenteel alleen beschikbaar voor organisaties die de invoegtoepassing voor het gezondheidsschild hebben aangeschaft.</p>
-<p>Raadpleeg de <a href="../privacy/data-hygiene.md">gedetailleerde documentatie</a> voor meer informatie.
+<p><strong>Waarschuwing</strong> - Gegevenshygiëne-mogelijkheden zijn momenteel alleen beschikbaar voor organisaties die de <strong>Gezondheidsschild</strong> en <strong>Privacy- en beveiligingsschild</strong> add-on aanbiedingen.</p><p>Raadpleeg de <a href="../privacy/data-hygiene.md">gedetailleerde documentatie</a> voor meer informatie.
+
 </td>
 </tr>
 </tbody>

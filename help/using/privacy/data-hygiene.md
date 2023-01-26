@@ -6,9 +6,9 @@ description: Leer hoe u bewerkingen voor gegevenshygiëne uitvoert
 feature: Monitoring
 role: User
 level: Intermediate
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 645db980155993155a10d27f4ff59967b000442f
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '133'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->De mogelijkheden van de Hygiëne van gegevens zijn momenteel slechts beschikbaar voor organisaties die het Adjunct-aanbod van het Schild van de Gezondheidszorg hebben gekocht. Het is ook beschikbaar voor privacy en veiligheidsschild, behalve voor het gezondheidszorgschild
+>De mogelijkheden van de hygiëne van gegevens zijn momenteel slechts beschikbaar voor organisaties die hebben gekocht **Gezondheidsschild** en **Privacy- en beveiligingsschild** add-on aanbiedingen.
 
 
 Aangezien de gegevens voortdurend in Adobe Experience Platform worden opgenomen, wordt het cruciaal om ervoor te zorgen dat uw gegevens worden gebruikt zoals bedoeld, waar nodig worden bijgewerkt en per organisatiebeleid worden verwijderd.
