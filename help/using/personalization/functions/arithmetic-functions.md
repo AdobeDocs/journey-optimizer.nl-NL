@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 21ef8f50-8389-4675-a8e5-0438a3eee592
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Rekenkundige functies worden gebruikt voor het uitvoeren van basisberekeningen o
 
 De `+` (optellen) functie wordt gebruikt om de som twee argumentuitdrukkingen te vinden.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= double + double %}
@@ -39,7 +39,7 @@ De volgende transactie geeft de prijs van twee verschillende producten weer.
 
 De `*` (vermenigvuldigen) functie wordt gebruikt om het product van twee argument uitdrukkingen te vinden.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= double * double %}
@@ -57,7 +57,7 @@ Bij de volgende bewerking worden het product van de inventaris en de prijs van e
 
 De `-` (aftrekken) functie wordt gebruikt om het verschil tussen twee argument expressies te vinden.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= double - double %}
@@ -75,7 +75,7 @@ De volgende transactie vindt het prijsverschil tussen twee verschillende product
 
 De `/` (delen) wordt gebruikt om het quotiënt van twee argumentuitdrukkingen te vinden.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= double / double %}
@@ -93,7 +93,7 @@ Met de volgende bewerking wordt het quotiënt gevonden tussen de totale verkocht
 
 De `%` (restbepaling bij deling/rest) wordt gebruikt om de rest te zoeken na het delen van de twee argumentexpressies.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= double % double %}

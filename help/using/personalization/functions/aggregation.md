@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: a029f716-ea1e-4d79-82b7-59770f05161b
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ Samenvoegfuncties worden gebruikt om meerdere waarden te groeperen en één same
 
 De `average` Deze functie retourneert het rekenkundig gemiddelde van alle geselecteerde waarden binnen de array.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= average(array) %}
@@ -39,7 +39,7 @@ De volgende bewerking retourneert de gemiddelde prijs van alle orders.
 
 De `count` function retourneert het aantal elementen binnen de opgegeven array.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= count(array) %}
@@ -57,7 +57,7 @@ De volgende bewerking retourneert het aantal orders in de array.
 
 De `max` functie retourneert de grootste van alle geselecteerde waarden binnen de array.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= max(array) %}
@@ -75,7 +75,7 @@ De volgende bewerking retourneert de hoogste prijs van alle orders.
 
 De `min` Deze functie retourneert het kleinste van alle geselecteerde waarden binnen de array.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= min(array) %}
@@ -93,7 +93,7 @@ De volgende bewerking retourneert de laagste prijs van alle orders.
 
 De `sum` Deze functie retourneert de som van alle geselecteerde waarden binnen de array.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= sum(array) %}

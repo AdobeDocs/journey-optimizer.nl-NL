@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1070'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,10 @@ Wanneer Journey Optimizer een aanroep naar een externe API uitvoert, worden de t
 De ingebouwde API voor uitlijnen biedt een stroomopwaartse technische hulplijn die u helpt uw externe systeem te beschermen.
 
 Voor externe gegevensbronnen, wordt het maximumaantal vraag per seconde geplaatst aan 15. Als het aantal vraag 15 per seconde overschrijdt, worden de resterende vraag verworpen. U kunt deze limiet verhogen voor externe privégegevensbronnen. Adobe van het contact om het eindpunt in de lijst van gewenste personen te omvatten. Dit is niet mogelijk voor openbare externe gegevensbronnen.
+
+>[!NOTE]
+>
+> Als een gegevensbron een douaneauthentificatie met een verschillend eindpunt dan gebruikt voor de gegevensbron gebruikt, moet u Adobe contacteren om dat eindpunt in de lijst van gewenste personen ook te omvatten.
 
 Voor aangepaste handelingen moet u de capaciteit van de externe API evalueren. Bijvoorbeeld, als Journey Optimizer 1000 vraag per seconde verzendt en uw systeem slechts 100 vraag per seconde kan steunen, moet u een afschilderingsregel bepalen zodat uw systeem niet verzadigt.
 

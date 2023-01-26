@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1572'
 ht-degree: 6%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 6%
 
 Verbinden met [Adobe Experience Cloud](http://experience.adobe.com) en blader naar [!DNL Journey Optimizer].
 
-Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Zie [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target=&quot;_blank&quot;} voor meer informatie.
+Belangrijke concepten bij het bladeren in de gebruikersinterface zijn gebruikelijk voor Adobe Experience Platform. Zie [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target="_blank"} voor meer informatie .
 
-De componenten en mogelijkheden die beschikbaar zijn in de gebruikersinterface zijn afhankelijk van uw [machtigingen](../administration/permissions.md) en op uw [licentiepakket](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}. Neem voor alle vragen contact op met uw Adobe Customer Success Manager.
+De componenten en mogelijkheden die beschikbaar zijn in de gebruikersinterface zijn afhankelijk van uw [machtigingen](../administration/permissions.md) en op uw [licentiepakket](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Neem voor alle vragen contact op met uw Adobe Customer Success Manager.
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ U vindt onder de volledige lijst met services en mogelijkheden in de linkernavig
 
 * **[!UICONTROL Queries]** - Gebruik Adobe Experience Platform Query Service om query&#39;s te schrijven en uit te voeren, eerder uitgevoerde query&#39;s weer te geven en toegang te krijgen tot query&#39;s die zijn opgeslagen door gebruikers binnen uw organisatie. [Meer informatie](../data/get-started-queries.md)
 
-* **[!UICONTROL Monitoring]** - Gebruik dit menu om uw gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html){target=&quot;_blank&quot;}
+* **[!UICONTROL Monitoring]** - Gebruik dit menu om uw gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html){target="_blank"}
 
 **[!UICONTROL CONNECTIONS]**
 
@@ -88,7 +88,7 @@ U vindt onder de volledige lijst met services en mogelijkheden in de linkernavig
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform biedt sandboxen die één instantie in afzonderlijke virtuele omgevingen verdelen om toepassingen voor digitale ervaringen te ontwikkelen en te ontwikkelen. [Meer informatie](../administration/sandboxes.md)
 
-* **[!UICONTROL Alerts]** - Met de gebruikersinterface kunt u een geschiedenis bekijken van ontvangen waarschuwingen op basis van meetgegevens die zijn onthuld door Adobe Experience Platform Observability Insights. UI staat u ook toe om, beschikbare waakzame regels te bekijken toe te laten en onbruikbaar te maken. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target=&quot;_blank&quot;}
+* **[!UICONTROL Alerts]** - Met de gebruikersinterface kunt u een geschiedenis bekijken van ontvangen waarschuwingen op basis van meetgegevens die zijn onthuld door Adobe Experience Platform Observability Insights. UI staat u ook toe om, beschikbare waakzame regels te bekijken toe te laten en onbruikbaar te maken. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
 
 
 ## Gebruiksgevallen in producten {#in-product-uc}
@@ -118,7 +118,7 @@ De toegankelijkheidsfuncties in [!DNL Adobe Journey Optimizer] zijn overgenomen 
 * Kleurcontrast
 * Validatie van vereiste velden
 
-[Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target=&quot;_blank&quot;} in Adobe Experience Platform-documentatie.
+[Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target="_blank"} in Adobe Experience Platform documentatie.
 
 U kunt deze algemene sneltoetsen gebruiken in [!DNL Journey Optimizer]:
 
@@ -130,7 +130,7 @@ U kunt deze algemene sneltoetsen gebruiken in [!DNL Journey Optimizer]:
 | Een element dat de focus heeft selecteren of wissen | Enter of spatiebalk |
 | Een selectie annuleren, een deelvenster samenvouwen of een dialoogvenster sluiten | Esc |
 
-[Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target=&quot;_blank&quot;} in Adobe Experience Platform-documentatie.
+[Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target="_blank"} in Adobe Experience Platform documentatie.
 
 U kunt deze sneltoetsen gebruiken in specifieke delen van Journey Optimizer:
 
@@ -154,12 +154,32 @@ U kunt deze sneltoetsen gebruiken in specifieke delen van Journey Optimizer:
   </tr>
   <tr>
     <td>Alle activiteiten selecteren</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
+    <td>CTRL + A (Windows)<br/>CMD + A (Mac)</td>
   </tr>
   <tr>
     <td>Geselecteerde activiteiten verwijderen</td>
     <td>Verwijder of Backspace en ga vervolgens in om de verwijdering te bevestigen</td>
   </tr>
+  <tr>
+    <td>In- en uitzoomen (focus op canvas of een van de onderliggende elementen)</td>
+    <td>CTRL +/- (Windows) of CMD +/- (Mac)</td>
+  </tr>  
+  <tr>
+    <td>Navigeren tussen elke activiteit en elk pad (focus op canvas) of tussen werkbalkknoppen (focus op werkbalk)</td>
+    <td>PIJLtoetsen</td>
+  </tr>   
+  <tr>
+    <td>Ga naar het volgende actiefelement op het canvas, waarbij de werkbalk de eerste is</td>
+    <td>Tabtoets</td>
+  </tr>  
+  <tr>
+    <td>Open het juiste configuratievenster (nadruk op een activiteit)</td>
+    <td>ENTER</td>
+  </tr>   
+  <tr>
+    <td>Een activiteit verplaatsen op het canvas (focus op een activiteit)</td>
+    <td>SHIFT + PIJL-toetsen</td>
+  </tr>  
   <tr>
   <td rowspan="3">
 

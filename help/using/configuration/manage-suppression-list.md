@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: onderdrukken, lijst, stuiteren, e-mail, optimaliseren
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1293'
 ht-degree: 1%
 
 ---
@@ -247,11 +247,17 @@ Om dit te doen, van **[!UICONTROL Suppression list]** klik op de knop **[!UICONT
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
-De meest recente uploads die u hebt verzonden en de bijbehorende statussen worden weergegeven.
+De meest recente uploads die u hebt verzonden en de bijbehorende statussen worden weergegeven:
 
-Als een foutenrapport met een dossier wordt geassocieerd, kunt u het downloaden om de gevonden fouten te controleren.
+* **[!UICONTROL Pending]**: De bestandsupload wordt verwerkt.
+* **[!UICONTROL Error]**: Het uploaden van het bestand is mislukt als gevolg van een technische fout of een fout in de bestandsindeling.
+* **[!UICONTROL Complete]**: Het uploaden van het bestand is voltooid.
 
-![](assets/suppression-list-recent-uploads-error.png)
+Als tijdens het uploaden sommige adressen niet in het correcte formaat zijn, worden zij niet toegevoegd aan [!DNL Journey Optimizer] suppressielijst.
+
+In dat geval, wanneer uploaden volledig is, wordt het geassocieerd met een rapport. U kunt het downloaden om de fouten te controleren<!-- and understand why they were not added to the suppression list-->.
+
+![](assets/suppression-list-recent-uploads-report.png)
 
 Hieronder ziet u een voorbeeld van het type items dat u kunt vinden in het foutrapport:
 

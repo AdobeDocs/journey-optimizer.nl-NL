@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1436'
 ht-degree: 1%
 
 ---
@@ -68,6 +68,14 @@ U kunt niet met oppervlakverwezenlijking te werk gaan terwijl de geselecteerde I
 >[!NOTE]
 >
 >Voor niet-productiemilieu&#39;s, creeert Adobe geen uit-van-de-doos testsubdomeinen noch verleent toegang tot een gedeelde verzendende IP pool. U moet [delegeren uw eigen subdomeinen](../configuration/delegate-subdomain.md) en gebruik IPs van de pool die aan uw organisatie wordt toegewezen.
+
+Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het hangen over de IP adressen onder de IP pool drop-down lijst wordt getoond. [Meer informatie over PTR-records](../configuration/ptr-records.md)
+
+![](assets/email-surface-ptr-record.png)
+
+>[!NOTE]
+>
+>Als een PTR-record niet is geconfigureerd, neemt u contact op met uw Adobe-vertegenwoordiger.
 
 ## List-Unsubscribe {#list-unsubscribe}
 

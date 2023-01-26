@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 075a90130696877d5dea39b7bfe4e85b2aac4791
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1805'
 ht-degree: 2%
 
 ---
@@ -146,7 +146,10 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
 
 <table>
     <tr>
-        <td><a href="math.md#absolute">Absoluut</a></td><td>Deze functie converteert een getal waarvan de absolute waarde</td>
+        <td><a href="math.md#absolute">Absoluut</a></td><td>Deze functie formatteert om het even welk aantal in zijn taal-gevoelige vertegenwoordiging.</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#format-number">Indelingsnummer</a></td><td>Deze functie formatteert om het even welk aantal in zijn taal-gevoelige vertegenwoordiging.</td>
     </tr>
     <tr>
         <td><a href="math.md#random">Random</a></td><td>Deze functie retourneert een willekeurige waarde tussen 0 en 1</td>
@@ -158,10 +161,16 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
         <td><a href="math.md#round-up">Omhoog afronden</a></td><td>Deze functie rondt een getal af</td>
     </tr>
     <tr>
+    <td><a href="math.md#to-hex-string">Naar hexadecimale tekenreeks</a></td><td>converteert een willekeurig getal naar de hexadecimale tekenreeks.</td>
+    </tr>
+    <tr>
         <td><a href="math.md#to-percentage">Naar percentage</a></td><td>Deze functie zet een getal om in een percentage</td>
     </tr>
     <tr>
         <td><a href="math.md#to-precision">Naar nauwkeurigheid</a></td><td>Deze functie converteert een getal naar de vereiste precisie</td>
+    </tr>
+    <tr>
+        <td><a href="math.md#to-string">Naar tekenreeks</a></td><td>Deze functie converteert een willekeurig getal naar de tekenreeksrepresentatie. </td>
     </tr>
 </table>
 
@@ -181,6 +190,9 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
 <table>
     <tr>
         <td><a href="string.md#camelCase">Camel Case</a></td><td>Deze functie wordt gebruikt om de eerste letter van elk woord van een tekenreeks met een hoofdletter te kapitaliseren</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#char-code-at">Tekencode op</a></td><td>Deze functie retourneert ASCII-waarde van een teken, zoals de functie charCodeAt in JavaScript</td>
     </tr>
     <tr>
         <td><a href="string.md#concat">Concat</a></td><td>Deze functie wordt gebruikt om twee tekenreeksen te combineren tot één</td>
@@ -212,6 +224,9 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
     </tr>
     <tr>
         <td><a href="string.md#extractEmailDomain">E-maildomein extraheren</a></td><td>Deze functie wordt gebruikt om het domein van een e-mailadres te extraheren</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#format-currency">Valuta opmaken</a></td><td>Deze functie converteert een willekeurig getal naar de corresponderende taalgevoelige valutarepresentatie, afhankelijk van de landinstelling die als tekenreeks is doorgegeven in het tweede argument</td>
     </tr>
     <tr>
         <td><a href="string.md#get-url-host">URL-host ophalen</a></td><td>Deze functie wordt gebruikt om url host op te halen.</td>
@@ -280,7 +295,7 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
         <td><a href="string.md#startsWith">Starts with (Begint met)</a></td><td>Deze functie wordt gebruikt om te bepalen of een tekenreeks begint met een opgegeven subtekenreeks</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-date">Tekenreeks naar datum</a></td><td>Deze functie wordt gebruikt om tekenreeks om te zetten in datum. De epochdatum wordt geretourneerd als uitvoer voor ongeldige invoer.</td>
+        <td><a href="string.md#string-to-date">Tekenreeks naar datum</a></td><td>Deze functie converteert een tekenreekswaarde naar een datum-tijdwaarde</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-integer">Tekenreeks naar geheel getal</a></td><td>Deze functie converteert een tekenreekswaarde naar een geheel-getalwaarde.</td>

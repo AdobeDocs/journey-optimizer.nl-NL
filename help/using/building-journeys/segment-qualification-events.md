@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: kwalificatie, evenementen, segment, reis, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '900'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
    >
    >Let op: **[!UICONTROL Enter]** en **[!UICONTROL Exit]** komt overeen met de **Gerealiseerd** en **Verlaat** de deelnamestatistieken van Adobe Experience Platform. Raadpleeg voor meer informatie over het evalueren van een segment de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
-1. Selecteer een naamruimte. Dit is alleen nodig als de gebeurtenis als eerste stap van de reis wordt geplaatst.
+1. Selecteer een naamruimte. Dit is alleen nodig als de gebeurtenis als eerste stap van de reis wordt geplaatst. Het veld wordt standaard voorgevuld met de laatst gebruikte naamruimte.
 
    >[!NOTE]
    >

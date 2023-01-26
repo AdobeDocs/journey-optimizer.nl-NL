@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: f06e1e03b3660be36b32437647a8329d0c0d296e
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ Datum- en tijdfuncties worden gebruikt om datum- en tijdbewerkingen uit te voere
 
 De `age` Deze functie wordt gebruikt om de leeftijd vanaf een bepaalde datum op te halen.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
  {%= age(datetime) %}
@@ -41,7 +41,7 @@ The following operation gets the value of the identity map for the key `example@
 
 De `currentTimeInMillis` Deze functie wordt gebruikt om de huidige tijd in epoch milliseconds op te halen.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= currentTimeInMillis() %}
@@ -61,7 +61,7 @@ The following operation gets all the keys for the map `identityMap`.
 
 De `dateDiff` wordt gebruikt om het verschil tussen twee datums in aantal dagen op te halen.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= dateDiff(datetime,datetime) %}
@@ -82,7 +82,7 @@ The following operation gets all the values for the map `identityMap`.
 
 De `dayOfWeek` Deze functie wordt gebruikt om de dag van de week op te halen.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= dayOfWeek(datetime) %}
@@ -102,7 +102,7 @@ The following operation gets all the values for the map `identityMap`.
 
 De `dayOfYear` wordt gebruikt om de dag van het jaar terug te winnen.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= dayOfYear(datetime) %}
@@ -122,7 +122,7 @@ The following operation gets all the values for the map `identityMap`.
 
 De `formatDate` Deze functie wordt gebruikt om een datumtijdwaarde op te maken. De indeling moet een geldig Java DateTimeFormat-patroon zijn.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= formatDate(datetime, format) %}
@@ -134,7 +134,7 @@ Waar de eerste tekenreeks het datumkenmerk is en de tweede waarde hoe u de datum
 >
 > Als een datumpatroon ongeldig is, wordt de datum teruggezet naar de ISO-standaardindeling.
 >
-> U kunt functies voor datumnotatie in Java gebruiken als een overzicht [in de documentatie bij Oracles](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
+> U kunt functies voor datumnotatie gebruiken die zijn samengevat in [Documentatie oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **Voorbeeld**
 
@@ -148,7 +148,7 @@ De volgende bewerking retourneert de datum in de volgende notatie: DD-MM-YY.
 
 De `setDays` wordt gebruikt om de dag van de maand voor de bepaalde datum-tijd te plaatsen.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= setDays(datetime, day) %}
@@ -168,7 +168,7 @@ The following operation gets all the values for the map `identityMap`.
 
 De `setHours` wordt gebruikt om het uur van de datum-tijd te plaatsen.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= setHours(datetime, hour) %}
@@ -190,7 +190,7 @@ The following operation gets all the values for the map `identityMap`.
 De `toUTC` wordt gebruikt om een datetime in UTC om te zetten.
 
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= toUTC(datetime) %}
@@ -211,7 +211,7 @@ The following operation gets all the values for the map `identityMap`.
 
 De `weekOfYear` Deze functie wordt gebruikt om de week van het jaar op te halen.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= weekOfYear(datetime) %}

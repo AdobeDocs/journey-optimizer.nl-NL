@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 91f221781f1655066ec0f6b1c3f2c1faefd09d69
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Gebruik deze functies om interactie met arrays, lijsten en tekenreeksen eenvoudi
 
 De `countOnlyNull` Deze functie wordt gebruikt om het aantal null-waarden in een lijst te tellen.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= countOnlyNull(array) %}
@@ -39,7 +39,7 @@ Retourneert 3.
 
 De `countWithNull` Deze functie wordt gebruikt om alle elementen van een lijst te tellen, inclusief null-waarden.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= countWithNull(array) %}
@@ -57,7 +57,7 @@ Retourneert 6.
 
 De `distinct` functie wordt gebruikt om waarden op te halen uit een array of lijst waarvan dubbele waarden zijn verwijderd.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= distinct(array) %}
@@ -75,7 +75,7 @@ Met de volgende bewerking worden personen opgegeven die orders in meer dan één
 
 De `distinctCountWithNull` Deze functie wordt gebruikt om het aantal verschillende waarden in een lijst te tellen, inclusief de null-waarden.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= distinctCountWithNull(array) %}
@@ -93,7 +93,7 @@ Retourneert 3.
 
 De `head` functie wordt gebruikt om het eerste item in een array of lijst te retourneren.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= head(array) %}
@@ -111,7 +111,7 @@ De volgende bewerking retourneert de eerste van de bovenste vijf bestellingen me
 
 De `topN` function wordt gebruikt om de eerste te retourneren `N` items in een array, indien gesorteerd in oplopende volgorde op basis van de opgegeven numerieke expressie.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= topN(array, value, amount) %}
@@ -135,7 +135,7 @@ De volgende bewerking retourneert de eerste vijf bestellingen met de laagste pri
 
 De `in` wordt gebruikt om te bepalen of een punt een lid van een serie of een lijst is.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= in(value, array) %}
@@ -153,7 +153,7 @@ De volgende bewerking definieert personen met verjaardagen in maart, juni of sep
 
 De `includes` wordt gebruikt om te bepalen of een array of lijst een bepaald item bevat.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= includes(array,item) %}
@@ -171,7 +171,7 @@ De volgende bewerking definieert personen van wie de favoriete kleur rood bevat.
 
 De `intersects` functie wordt gebruikt om te bepalen of twee series of lijsten minstens één gemeenschappelijk lid hebben.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= intersects(array1, array2) %}
@@ -190,7 +190,7 @@ De volgende bewerking definieert personen van wie de favoriete kleuren ten minst
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
-**Format**
+**Syntax**
 
 ```sql
 intersection({ARRAY},{ARRAY})
@@ -209,7 +209,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 De `bottomN` function wordt gebruikt om de laatste te retourneren `N` items in een array, indien gesorteerd in oplopende volgorde op basis van de opgegeven numerieke expressie.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= bottomN(array, value, amount) %}
@@ -237,7 +237,7 @@ De `notIn` wordt gebruikt om te bepalen of een item geen lid is van een array of
 >
 >De `notIn` function *ook* zorgt ervoor dat geen van beide waarden gelijk is aan null. Daarom zijn de resultaten geen exacte ontkenning van de `in` functie.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= notIn(value, array) %}
@@ -256,7 +256,7 @@ De volgende bewerking definieert personen met verjaardagen die zich niet in maar
 
 De `subsetOf` wordt gebruikt om te bepalen of een specifieke array (array A) een subset is van een andere array (array B). Met andere woorden, alle elementen in array A zijn elementen van array B.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= subsetOf(array1, array2) %}
@@ -274,7 +274,7 @@ De volgende bewerking definieert mensen die al hun favoriete steden hebben bezoc
 
 De `supersetOf` wordt gebruikt om te bepalen of een specifieke array (array A) een superset is van een andere array (array B). Met andere woorden, die array A bevat alle elementen in array B.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= supersetOf(array1, array2) %}

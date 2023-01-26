@@ -4,9 +4,9 @@ product: journey optimizer
 title: Release-aantekeningen 2022
 description: Opmerkingen bij de release van Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: c6498633fdfdc9442203a3bf980f1b12bd1c6a6b
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '3453'
+source-wordcount: '3583'
 ht-degree: 9%
 
 ---
@@ -14,6 +14,47 @@ ht-degree: 9%
 # Aanvullende informatie 2022 {#release-notes-2022}
 
 Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] vrijgegeven in 2022.
+
+
+
+## Release oktober 2022 {#oct-2022-release}
+
+<!--
+
+### New capability{#oct-2022-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Direct Mail Channel (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now add direct mail messages in your campaigns and journeys. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+-->
+
+### Verbeteringen {#oct-2022-improvements}
+
+**Journeys**
+
+* De **Herkomst forceren bij herhaling** Deze optie is toegevoegd in terugkerende parameters van het read-segment. Met deze optie kunt u alle profielen die zich nog in de reis bevinden, automatisch laten afsluiten bij de volgende uitvoering. Wanneer de optie is gedeactiveerd, moeten profielen de reis beëindigen alvorens zij in een ander voorkomen kunnen opnieuw ingaan. [Meer informatie](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+
+**Beheer**
+
+* Er is een bericht toegevoegd aan de gebruikersinterface om te waarschuwen dat subdomein, landende paginasubdomain, PTR-record en IP-poolconfiguraties algemeen gelden voor alle sandboxen en dat elke wijziging aan een van deze configuraties dus ook van invloed is op de productiesandboxen.
+* De stappen voor het uploaden van de suppressielijst als een CSV-bestand vanuit de gebruikersinterface zijn gewijzigd. [Meer informatie](../configuration/manage-suppression-list.md#download-suppression-list)
+
+**Campagnes**
+
+* U kunt voltooide en gestopt campagnes nu archiveren. [Meer informatie](../campaigns/modify-stop-campaign.md#archive)
 
 
 ## Release september 2022{#sept-2022-release}
@@ -346,7 +387,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 
 **Journeys**
 
-* **Een reis beëindigen** - Op het canvas **Einde** activiteit is verwijderd uit het palet. Eindtags worden nu standaard aan het einde van elk pad toegevoegd en kunnen niet worden verwijderd. Dankzij deze verbetering kan beter worden aangegeven waar een klant de reis heeft verlaten, zonder dat de reisdeskundige enige actie hoeft te ondernemen. Zie de [documentatie](../building-journeys/end-journey.md) en [functievideo](https://video.tv.adobe.com/v/345376){target=&quot;_blank&quot;}.
+* **Een reis beëindigen** - Op het canvas **Einde** activiteit is verwijderd uit het palet. Eindtags worden nu standaard aan het einde van elk pad toegevoegd en kunnen niet worden verwijderd. Dankzij deze verbetering kan beter worden aangegeven waar een klant de reis heeft verlaten, zonder dat de reisdeskundige enige actie hoeft te ondernemen. Zie de [documentatie](../building-journeys/end-journey.md) en [functievideo](https://video.tv.adobe.com/v/345376){target="_blank"}.
 
 
 * De **Tijdzone van profiel** Deze optie is nu standaard uitgeschakeld in reiseigenschappen. [Meer informatie](../building-journeys/timezone-management.md#timezone-from-profiles)

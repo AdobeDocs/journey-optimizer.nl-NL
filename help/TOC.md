@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer Guide
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: cd8217a7f28f30a259863ecce0c062ddc5d2667b
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1307'
 ht-degree: 35%
 
 ---
@@ -166,6 +166,7 @@ ht-degree: 35%
       + [Een inhoudexperiment maken](using/campaigns/content-experiment.md)
       + [Statistische berekeningen begrijpen](using/campaigns/experiment-calculations.md)
       + [Testrapporten configureren](using/campaigns/reporting-configuration.md)
+      + [Statistische berekeningen in het verslag over experimenten](using/campaigns/experiment-report-calculations.md)
    + [Campagnes activeren met API&#39;s](using/campaigns/api-triggered-campaigns.md)
 + E-mailkanaal {#email}
    + [Aan de slag met e-mails](using/email/get-started-email.md)
@@ -464,6 +465,7 @@ ht-degree: 35%
    + [Aan de slag met privacy](using/privacy/get-started-privacy.md)
    + [Privacyverzoeken](using/privacy/requests.md)
    + [Controleregelingen op middelen](using/privacy/audit-logs.md)
+   + [Gegevenshygiëne uitvoeren](using/privacy/data-hygiene.md)
    + Toestemming beheren {#consent}
       + [Weigeren beheren](using/privacy/opt-out.md)
       + [Werken met toestemmingsbeleid](using/action/consent.md)

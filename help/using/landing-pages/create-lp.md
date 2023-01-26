@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landen, pagina landen, maken, publiceren
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 1%
@@ -57,7 +57,7 @@ Klik op de drie stippen naast een openingspagina om de gewenste actie te selecte
 >id="ajo_lp_access_management_labels"
 >title="Labels toewijzen aan uw bestemmingspagina"
 >abstract="Om gevoelige digitale elementen te beschermen, kunt u vergunningen bepalen om gegevenstoegang tot uw landingspagina te beheren gebruikend etiketten."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Voorinstellingen voor openingspagina&#39;s maken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Toegangsbeheer op objectniveau"
 
 De stappen voor het maken van een bestemmingspagina zijn als volgt.
 

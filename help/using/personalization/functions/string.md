@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 1d9fc184bb67362aac608e9816fe3afe64eb055c
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 3%
+source-wordcount: '1809'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Leer hoe te om de functies van het Koord in de redacteur van de Uitdrukking te g
 
 De `camelCase` functie kapitaliseert de eerste letter van elk woord van een tekenreeks.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= camelCase(string)%}
@@ -35,11 +35,29 @@ Met de volgende functie krijgt de eerste letter van het woord een hoofdletter in
 {%= camelCase(profile.homeAddress.street) %}
 ```
 
+## Tekencode op {#char-code-at}
+
+De `charCodeAt` Deze functie retourneert de ASCII-waarde van een teken, zoals de functie charCodeAt in JavaScript. Er wordt een tekenreeks en een geheel getal gebruikt (de positie van het teken wordt gedefinieerd) als invoerargumenten en de bijbehorende ASCII-waarde wordt geretourneerd.
+
+**Syntaxis**
+
+```sql
+{%= charCodeAt(string,int) %}: int
+```
+
+**Voorbeeld**
+
+De volgende functie retourneert de ASCII-waarde van o, d.w.z. 111.
+
+```sql
+{%= charCodeAt("some", 1)%}
+```
+
 ## Concat {#concate}
 
 De `concat` functie combineert twee tekenreeksen in één.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= concat(string,string) %}
@@ -57,7 +75,7 @@ De volgende functie combineert profielstad en land in één tekenreeks.
 
 De `contains` wordt gebruikt om te bepalen of een tekenreeks een opgegeven subtekenreeks bevat.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= contains(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -87,7 +105,7 @@ De `contains` wordt gebruikt om te bepalen of een tekenreeks een opgegeven subte
 
 De `doesNotContain` wordt gebruikt om te bepalen of een tekenreeks geen opgegeven subtekenreeks bevat.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= doesNotContain(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -112,7 +130,7 @@ De volgende query bepaalt, met hoofdlettergevoeligheid, of het e-mailadres van d
 
 De `doesNotEndWith` wordt gebruikt om te bepalen of een tekenreeks niet eindigt met een opgegeven subtekenreeks.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= doesNotEndWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -136,7 +154,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 De `doesNotStartWith` wordt gebruikt om te bepalen of een tekenreeks niet begint met een opgegeven subtekenreeks.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= doesNotStartWith(STRING_1, STRING_2, CASE_SENSITIVE)%}
@@ -160,7 +178,7 @@ De volgende query bepaalt, met hoofdlettergevoeligheid, of de naam van de persoo
 
 De `encode64` Deze functie wordt gebruikt om een tekenreeks te coderen zodat Personal Information (PI) behouden blijft als deze bijvoorbeeld in een URL moet worden opgenomen.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= encode64(string) %}
@@ -170,7 +188,7 @@ De `encode64` Deze functie wordt gebruikt om een tekenreeks te coderen zodat Per
 
 De `endsWith` wordt gebruikt om te bepalen of een tekenreeks eindigt met een opgegeven subtekenreeks.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= endsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -195,7 +213,7 @@ De volgende query bepaalt, met hoofdlettergevoeligheid, of het e-mailadres van d
 
 De `equals` wordt gebruikt om te bepalen of een tekenreeks gelijk is aan de opgegeven tekenreeks, met hoofdlettergevoeligheid.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= equals(STRING_1, STRING_2) %}
@@ -218,7 +236,7 @@ De volgende vraag bepaalt, met gevalgevoeligheid, als de naam van de persoon &qu
 
 De `equalsIgnoreCase` wordt gebruikt om te bepalen of een tekenreeks gelijk is aan de opgegeven tekenreeks, zonder hoofdlettergevoeligheid.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= equalsIgnoreCase(STRING_1, STRING_2) %}
@@ -241,7 +259,7 @@ De volgende vraag bepaalt, zonder gevalgevoeligheid, als de naam van de persoon 
 
 De `extractEmailDomain` wordt gebruikt om het domein van een e-mailadres te extraheren.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= extractEmailDomain(string) %}
@@ -255,11 +273,29 @@ De volgende query extraheert het e-maildomein van het persoonlijke e-mailadres.
 {%= extractEmailDomain(profile.personalEmail.address) %}
 ```
 
+## Valuta opmaken {#format-currency}
+
+De `formatCurrency` wordt gebruikt om een willekeurig getal om te zetten in de corresponderende taalgevoelige valutarepresentatie, afhankelijk van de landinstelling die als tekenreeks is doorgegeven in het tweede argument.
+
+**Syntaxis**
+
+```sql
+{%= formatCurrency(number/double,string) %}: string
+```
+
+**Voorbeeld**
+
+Deze query retourneert £ 56,00
+
+```sql
+{%= formatCurrency(56L,"en_GB") %}
+```
+
 ## URL-host ophalen {#get-url-host}
 
 De `getUrlHost` wordt gebruikt om de hostnaam van een URL op te halen.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= getUrlHost(string) %}: string
@@ -277,7 +313,7 @@ Retourneert &quot;www.myurl.com&quot;
 
 De `getUrlPath` wordt gebruikt om het pad na de domeinnaam van een URL op te halen.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= getUrlPath(string) %}: string
@@ -295,7 +331,7 @@ Retourneert &quot;/contact.html&quot;
 
 De `getUrlProtocol` wordt gebruikt om het protocol van een URL op te halen.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= getUrlProtocol(string) %}: string
@@ -313,7 +349,7 @@ Retourneert &quot;http&quot;
 
 De `indexOf` wordt gebruikt om de positie (in het eerste argument) van de eerste instantie van de tweede parameter te retourneren. Retourneert -1 als er geen overeenkomend actiepunt is.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= indexOf(STRING_1, STRING_2) %}: integer
@@ -336,7 +372,7 @@ Retourneert 6.
 
 De `isEmpty` wordt gebruikt om te bepalen of een tekenreeks leeg is.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= isEmpty(string) %}
@@ -354,7 +390,7 @@ De volgende functie retourneert &#39;true&#39; als het mobiele telefoonnummer va
 
 De `isNotEmpty` wordt gebruikt om te bepalen of een tekenreeks niet leeg is.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {= isNotEmpty(string) %}: boolean
@@ -372,7 +408,7 @@ De volgende functie retourneert &#39;true&#39; als het mobiele telefoonnummer va
 
 De `lastIndexOf` wordt gebruikt om de positie (in het eerste argument) van de laatste instantie van de tweede parameter te retourneren. Retourneert -1 als er geen overeenkomend actiepunt is.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {= lastIndexOf(STRING_1, STRING_2) %}: integer
@@ -395,7 +431,7 @@ Retourneert 7.
 
 De `leftTrim` wordt gebruikt om witruimten te verwijderen uit het begin van een tekenreeks.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= leftTrim(string) %}
@@ -405,7 +441,7 @@ De `leftTrim` wordt gebruikt om witruimten te verwijderen uit het begin van een 
 
 De `length` wordt gebruikt om het aantal tekens in een tekenreeks of expressie op te halen.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= length(string) %}
@@ -423,7 +459,7 @@ De volgende functie retourneert de lengte van de stadsnaam van het profiel.
 
 De `like` wordt gebruikt om te bepalen of een tekenreeks overeenkomt met een opgegeven patroon.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= like(STRING_1, STRING_2) %}
@@ -464,7 +500,7 @@ Deze functie converteert de voornaam van het profiel naar kleine letters.
 
 De `matches` wordt gebruikt om te bepalen of een tekenreeks overeenkomt met een specifieke reguliere expressie. Zie [dit document](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html) voor meer informatie over overeenkomende patronen in reguliere expressies.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= matches(STRING_1, STRING_2) %}
@@ -482,7 +518,7 @@ De volgende vraag bepaalt, zonder case gevoeligheid, als de naam van de persoon 
 
 De `Mask` wordt gebruikt om een deel van een tekenreeks te vervangen door &#39;X&#39;-tekens.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= mask(string,integer,integer) %}
@@ -502,7 +538,7 @@ De query retourneert `1XXXXXX89`.
 
 De `md5` functie wordt gebruikt om de md5 hash van een tekenreeks te berekenen en te retourneren.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= md5(string) %}: string
@@ -520,7 +556,7 @@ Retourneert &quot;5eb63be01eeed093cb22bb8f5acdc3&quot;
 
 De `notEqualTo` wordt gebruikt om te bepalen of een tekenreeks niet gelijk is aan de opgegeven tekenreeks.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= notEqualTo(STRING_1, STRING_2) %}
@@ -543,7 +579,7 @@ De volgende vraag bepaalt, met case gevoeligheid, als de naam van de persoon nie
 
 De `notEqualWithIgnoreCase` functie wordt gebruikt om twee tekenreeksen te vergelijken die case negeren.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {= notEqualWithIgnoreCase(STRING_1,STRING_2) %}: boolean
@@ -566,7 +602,7 @@ De volgende query bepaalt of de naam van de persoon geen john is, zonder hoofdle
 
 De `Group` Deze functie wordt gebruikt om specifieke informatie te extraheren op basis van de reguliere expressie die wordt gegeven.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= regexGroup(STRING, EXPRESSION, GROUP) %}
@@ -590,7 +626,7 @@ De volgende query wordt gebruikt om de domeinnaam uit een e-mailadres te extrahe
 
 De `replace` Deze functie wordt gebruikt om een bepaalde subtekenreeks in een tekenreeks te vervangen door een andere subtekenreeks.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= replace(STRING_1,STRING_2,STRING_3) %}:string
@@ -614,7 +650,7 @@ Retourneert &quot;Hello Mark, hier is je maandelijkse nieuwsbrief!&quot;
 
 De `replaceAll` Deze functie wordt gebruikt om alle subtekenreeksen van een tekst te vervangen die overeenkomt met &quot;target&quot; met de opgegeven letterlijke tekenreeks &quot;replacement&quot;. De vervanging vindt plaats vanaf het begin van de tekenreeks tot het einde. Als u bijvoorbeeld &quot;aa&quot; vervangt door &quot;b&quot; in de tekenreeks &quot;aaa&quot;, resulteert dit in &quot;ba&quot; in plaats van &quot;ab&quot;.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= replaceAll(string,string,string) %}
@@ -624,7 +660,7 @@ De `replaceAll` Deze functie wordt gebruikt om alle subtekenreeksen van een teks
 
 De `rightTrim` functie wordt gebruikt verwijdert witte ruimten van het eind van een koord.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= rightTrim(string) %}
@@ -634,7 +670,7 @@ De `rightTrim` functie wordt gebruikt verwijdert witte ruimten van het eind van 
 
 De `split` functie wordt gebruikt om een tekenreeks te splitsen op een bepaald teken.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= split(string,string) %}
@@ -644,7 +680,7 @@ De `split` functie wordt gebruikt om een tekenreeks te splitsen op een bepaald t
 
 De `startsWith` wordt gebruikt om te bepalen of een tekenreeks begint met een opgegeven subtekenreeks.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= startsWith(STRING_1, STRING_2, CASE_SENSITIVE) %}
@@ -664,11 +700,27 @@ De volgende vraag bepaalt, met gevalsgevoeligheid, als de naam van de persoon me
 {%= startsWith(person.name,"Joe") %}
 ```
 
+## Tekenreeks naar datum {#string-to-date}
+
+De functie &#39;stringToDate&#39; zet een tekenreekswaarde om in een datum-tijdwaarde. Er zijn twee argumenten: tekenreeksrepresentatie van een datum- en tekenreeksrepresentatie van de formatter.
+
+**Syntaxis**
+
+```sql
+{= stringToDate("date-time value","formatter" %}
+```
+
+**Voorbeeld**
+
+```sql
+{= stringToDate("2023-01-10 23:13:26", "yyyy-MM-dd HH:mm:ss") %}
+```
+
 ## Tekenreeks naar geheel getal {#string-to-integer}
 
 De `string_to_integer` wordt gebruikt om een tekenreekswaarde om te zetten in een geheel-getalwaarde.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {= string_to_integer(string) %}: int
@@ -678,7 +730,7 @@ De `string_to_integer` wordt gebruikt om een tekenreekswaarde om te zetten in ee
 
 De `stringToNumber` wordt gebruikt om een tekenreeks in een getal om te zetten. Deze geeft dezelfde tekenreeks als uitvoer voor ongeldige invoer.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= stringToNumber(string) %}: double
@@ -687,7 +739,7 @@ De `stringToNumber` wordt gebruikt om een tekenreeks in een getal om te zetten. 
 ## Subtekenreeks {#sub-string}
 
 De `Count string` wordt gebruikt om de subtekenreeks van de tekenreeksexpressie tussen de beginindex en de eindindex te retourneren.
-**Indeling**
+**Syntaxis**
 
 ```sql
 {= substr(string, integer, integer) %}: string
@@ -715,7 +767,7 @@ Als de persoon in Washington high street woont, zal deze functie Washington High
 
 De `toBool` functie wordt gebruikt om een argumentwaarde in een booleaanse waarde om te zetten, afhankelijk van het type.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {= toBool(string) %}: boolean
@@ -725,7 +777,7 @@ De `toBool` functie wordt gebruikt om een argumentwaarde in een booleaanse waard
 
 De `toDateTime` functie wordt gebruikt om tekenreeks om te zetten in datum. De epochdatum wordt geretourneerd als uitvoer voor ongeldige invoer.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= toDateTime(string, string) %}: date-time
@@ -733,15 +785,15 @@ De `toDateTime` functie wordt gebruikt om tekenreeks om te zetten in datum. De e
 
 ## Alleen tot op heden {#to-date-time-only}
 
-De `toDateTimeOnly` function wordt gebruikt om een argumentwaarde om te zetten in een waarde met alleen de datumtijd. De epochdatum wordt geretourneerd als uitvoer voor ongeldige invoer.
+De `toDateTimeOnly` function wordt gebruikt om een argumentwaarde om te zetten in een waarde die alleen voor de datumtijd geldt. De epochdatum wordt geretourneerd als uitvoer voor ongeldige invoer. Deze functie accepteert veldtypen tekenreeks, datum, lang en int.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
-{%= toDateTimeOnly(string) %}: date-time
+{%= toDateTimeOnly(string/date/long/int) %}: date-time
 ```
 
-## Verkleinen{#trim}
+## Verkleinen {#trim}
 
 De **bijsnijden** verwijdert alle spaties van het begin tot het einde van een tekenreeks.
 
@@ -769,11 +821,11 @@ Deze functie converteert de achternaam van het profiel naar hoofdletters.
 {%= upperCase(profile.person.name.lastName) %}
 ```
 
-## url-decodering {#url-decode}
+## URL-decodering {#url-decode}
 
 De `urlDecode` Deze functie wordt gebruikt om een URL-gecodeerde tekenreeks te decoderen.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= urlDecode(string) %}: string
@@ -783,7 +835,7 @@ De `urlDecode` Deze functie wordt gebruikt om een URL-gecodeerde tekenreeks te d
 
 De `Count only null` wordt gebruikt om een tekenreeks te coderen met url.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= urlEncode(string) %}: string

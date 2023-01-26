@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Hiervoor moet u eerst een API-getriggerde campagne in Journey Optimizer maken en
 Beschikbare kanalen voor API-getriggerde campagnes zijn E-mail, SMS en Push berichten.
 
 ## Een API-gestuurde campagne maken {#create}
+
+### De campagne configureren en activeren {#create-activate}
 
 Het proces om API-teweeggebrachte campagnes tot stand te brengen blijft het zelfde als geplande campagnes, behalve de publieksselectie die in de API lading wordt uitgevoerd. Gedetailleerde informatie over het maken van een campagne is beschikbaar in [deze sectie](create-campaign.md).
 
@@ -55,11 +57,23 @@ Voer de volgende stappen uit om een API-gestuurde campagne te maken:
 
    Als u een specifieke begin en/of einddatum voor een campagne vormt, zal het niet buiten deze data worden uitgevoerd, en API vraag zal ontbreken als de campagne door APIs teweeggebracht wordt.
 
-1. In de **[!UICONTROL cURL request]** van de **[!UICONTROL Campaign ID]** gebruiken in de API-payload.
+1. Klikken **[!UICONTROL Review to activate]** om te controleren dat uw campagne correct wordt gevormd, dan activeer het.
+
+U kunt de campagne nu uitvoeren vanuit de API&#39;s. [Meer informatie](#execute)
+
+### De campagne uitvoeren {#execute}
+
+Nadat de campagne is geactiveerd, moet u het gegenereerde voorbeeld-cURL-verzoek ophalen en deze in de API gebruiken om de payload te bouwen en de campagne te starten.
+
+1. Open de campagne en kopieer het voorbeeldverzoek vanuit de **[!UICONTROL cURL request]** sectie.
 
    ![](assets/api-triggered-curl.png)
 
-1. Klikken **[!UICONTROL Review to activate]** om te controleren dat uw campagne correct wordt gevormd, dan activeer het.
+1. Gebruik dit cURL-verzoek in de API&#39;s om de payload te bouwen en de campagne te starten. Raadpleeg voor meer informatie de [Interactieve API-documentatie voor berichtuitvoering](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+
+   >[!NOTE]
+   >
+   >Als u een specifieke begin en/of einddatum toen het creëren van de campagne hebt gevormd, zal het niet buiten deze data worden uitgevoerd, en API vraag zal ontbreken.
 
 ## Contextafhankelijke kenmerken gebruiken in door API&#39;s geactiveerde campagnes {#contextual}
 
@@ -82,16 +96,6 @@ De `{{context.<contextualAttribute>}}` syntaxis wordt alleen toegewezen aan een 
 >De `context.system` syntaxis is beperkt tot Adobe intern gebruik en mag niet worden gebruikt om contextuele kenmerken door te geven.
 
 Let op: voorlopig is er geen contextueel kenmerk beschikbaar voor gebruik in het menu Linkerspoor. De attributen moeten direct in uw verpersoonlijkingsuitdrukking worden getypt, zonder controle die door wordt uitgevoerd [!DNL Journey Optimizer].
-
-## De campagne uitvoeren {#execute}
-
-Om een API-teweeggebrachte campagne uit te voeren, moet u eerst zijn identiteitskaart terugwinnen en het in de API lading overgaan. Om dit te doen, open de campagne, dan kopieer-kleef identiteitskaart van **[!UICONTROL cURL request]** sectie.
-
-![](assets/api-triggered-id.png)
-
-Vervolgens kunt u deze id in uw API-payload gebruiken om de campagne te starten. Zie de [Interactieve API-documentatie voor berichtuitvoering](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) voor meer informatie .
-
-Merk op dat als u een specifieke begin en/of einddatum toen het creëren van de campagne hebt gevormd, het niet buiten deze data zal worden uitgevoerd, en API vraag zal ontbreken.
 
 ## Profiel maken tijdens uitvoering van de campagne {#profile-creation}
 

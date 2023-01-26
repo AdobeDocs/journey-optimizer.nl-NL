@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, segment, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1303'
 ht-degree: 4%
 
 ---
@@ -61,7 +61,7 @@ De stappen om de activiteit van het Leessegment te vormen zijn als volgt:
 
    ![](assets/read-segment-copy.png)
 
-1. In de **[!UICONTROL Namespace]** gebruiken, kiest u de naamruimte die u wilt gebruiken om de personen te identificeren. [Meer informatie over naamruimten](../event/about-creating.md#select-the-namespace).
+1. In de **[!UICONTROL Namespace]** gebruiken, kiest u de naamruimte die u wilt gebruiken om de personen te identificeren. Het veld wordt standaard voorgevuld met de laatst gebruikte naamruimte. [Meer informatie over naamruimten](../event/about-creating.md#select-the-namespace).
 
    >[!NOTE]
    >

@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: de6a8da2-55cf-4105-ba93-40c556732626
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Gebruik de functies Kaart in verpersoonlijking om interactie met kaarten gemakke
 
 De `get` wordt gebruikt om de waarde van een kaart voor een bepaalde sleutel terug te winnen.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= get(map, string) %}
@@ -39,7 +39,7 @@ Met de volgende bewerking wordt de waarde van het identiteitsoverzicht voor de s
 
 De `keys` wordt gebruikt om alle sleutels voor een bepaalde kaart terug te winnen.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= keys(map) %}
@@ -57,7 +57,7 @@ Met de volgende bewerking worden alle toetsen voor de kaart opgehaald `identityM
 
 De `values` wordt gebruikt om alle waarden van een bepaalde kaart op te halen.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= values(map) %}

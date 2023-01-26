@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: e-mail, ontwerp, voorraad, middelen
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 5%
+source-wordcount: '309'
+ht-degree: 4%
 
 ---
 
@@ -52,6 +52,10 @@ Zodra u [e-mail toevoegen](create-email.md) voor een reis of een campagne, kunt 
    * **Bestaande inhoud selecteren** uit een lijst met ingebouwde of aangepaste sjablonen. Leer hoe u met e-mailsjablonen werkt [deze sectie](email-templates.md).
 
    ![](assets/email_designer_create_options.png)
+
+1. Zodra uw e-mailinhoud is gedefinieerd en gepersonaliseerd, kunt u uw inhoud exporteren voor validatie of later gebruik. Klikken **[!UICONTROL Export HTML]** om op uw computer een zip-bestand op te slaan dat uw HTML en elementen bevat.
+
+   ![](assets/email_designer_export.png)
 
 ## Hoe kan ik-video {#video}
 

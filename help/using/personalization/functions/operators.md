@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 75b0b380-d9a6-418e-b9f6-e64de385ba8d
-source-git-commit: 284d95976ab1b58aaea2a4c41db20a3ea5a9b761
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ Booleaanse functies worden gebruikt voor het uitvoeren van Booleaanse logica op 
 
 De `and` Deze functie wordt gebruikt om een logische combinatie te maken.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= query1 and query2 %}
@@ -41,7 +41,7 @@ De volgende operatie zal alle mensen met een thuisland als Frankrijk en geboorte
 
 De `or` Deze functie wordt gebruikt om een logische scheiding te maken.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= query1 or query2 %}
@@ -60,7 +60,7 @@ De volgende operatie zal alle mensen terugsturen die in Frankrijk of in 1985 in 
 
 The `not` (or `!`) function is used to create a logical negation.
 
-**Format**
+**Syntax**
 
 ```sql
 not ({QUERY})
@@ -84,7 +84,7 @@ Vergelijkingsfuncties worden gebruikt om verschillende expressies en waarden met
 
 De `=` (equals) functie controleert of één waarde of expressie gelijk is aan een andere waarde of expressie.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= expression = value %}
@@ -102,7 +102,7 @@ De volgende operatie controleert of het thuisadresland Frankrijk is.
 
 De `!=` (niet gelijk aan) functie controleert of één waarde of expressie **niet** gelijk aan een andere waarde of expressie.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= expression != value %}
@@ -120,7 +120,7 @@ De volgende operatie controleert of het thuisadresland niet Frankrijk is.
 
 De `>` (groter dan) wordt gebruikt om te controleren of de eerste waarde groter is dan de tweede waarde.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= expression1 > expression2 %}
@@ -138,7 +138,7 @@ De volgende bewerking definieert personen die strikt na 1970 geboren zijn.
 
 De `>=` (groter dan of gelijk aan) functie wordt gebruikt om te controleren of de eerste waarde groter dan of gelijk aan de tweede waarde is.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= expression1 >= expression2 %}
@@ -156,7 +156,7 @@ In de volgende bewerking worden personen gedefinieerd die in of na 1970 zijn geb
 
 De `<` (kleiner dan) vergelijkingsfunctie wordt gebruikt om te controleren of de eerste waarde kleiner is dan de tweede waarde.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= expression1 < expression2 %}
@@ -174,7 +174,7 @@ In de volgende bewerking worden personen gedefinieerd die vóór 2000 zijn gebor
 
 De `<=` (kleiner dan of gelijk aan) vergelijkingsfunctie wordt gebruikt om te controleren of de eerste waarde kleiner dan of gelijk is aan de tweede waarde.
 
-**Indeling**
+**Syntaxis**
 
 ```sql
 {%= expression1 <= expression2 %}

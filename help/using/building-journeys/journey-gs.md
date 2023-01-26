@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, segment, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1047'
 ht-degree: 9%
 
 ---
@@ -94,9 +94,35 @@ De **Technische details kopiëren** staat u toe om technische informatie over de
 
 ### Entrance{#entrance}
 
-Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de optie uitschakelen voor &#39;één opname&#39;-reizen, bijvoorbeeld als u een eenmalige gift wilt aanbieden wanneer een persoon een winkel betreedt.
-
+Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de controle van **Opnieuw openen toestaan** optie voor &quot;één enkele schot&quot;reizen, bijvoorbeeld als u een eenmalig geschenk wilt aanbieden wanneer een persoon een winkel ingaat.
+<!--
+When the **Allow re-entrance** option is activated, the **Re-entrance wait period** field is displayed. This field allows you to define the time to wait before allowing a profile to enter the journey again in unitary journeys (starting with an event or a segment qualification). This prevents journeys from being erroneously triggered multiple times for the same event. By default the field is set to 5 minutes.
+-->
 Meer informatie over toegangsbeheer voor profielen vindt u in [deze sectie](entry-management.md).
+
+### Toegang beheren {#access}
+
+Als u aangepaste of basislabels voor gegevensgebruik aan de reis wilt toewijzen, klikt u op de knop **[!UICONTROL Manage access]** knop. [Meer informatie over OLA (Object Level Access Control)](../administration/object-based-access.md)
+
+![](assets/journeys-manage-access.png)
+
+### Tijdzone en profieltijdzone {#timezone}
+
+De tijdzone wordt gedefinieerd op het niveau van de reis.
+
+U kunt een vaste tijdzone invoeren of Adobe Experience Platform-profielen gebruiken om de tijdzone van de reis te definiëren.
+
+Als een tijdzone in Adobe Experience Platform-profiel is gedefinieerd, kan deze tijdens de reis worden opgehaald.
+
+Zie voor meer informatie over tijdzonebeheer [deze pagina](../building-journeys/timezone-management.md).
+
+### Begin- en einddatum {#dates}
+<!--
+You can define a **Start date**. If you haven't specified one, it will be automatically defined at publication time. 
+
+You can also add an **End date**. This allows profiles to exit automatically when the date is reached. If you don't specify an end date, pofiles can stay until the default journey timeout (generally 30 days, 7 days with Healthcare Shield add-on offering). The only exception is recurring read segment journeys with **Force re-entrance on recurrence** activated, which end at the start date of the next occurrence. 
+-->
+U kunt een **Begindatum**. U kunt ook een **Einddatum**. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. Als u geen einddatum opgeeft, kunnen profielen blijven tot de standaardreistime-out.
 
 ### Tijdslimiet en fout bij reisactiviteiten {#timeout_and_error}
 
@@ -118,18 +144,3 @@ Naast de [timeout](#timeout_and_error) Bij reisactiviteiten wordt ook een wereld
 
 Vanwege de 30 dagen durende reistijd, wanneer het niet is toegestaan om de reis opnieuw te betreden, kunnen we er niet voor zorgen dat het blokkeren van de terugkeer meer dan 30 dagen zal duren. Aangezien we alle informatie over personen die 30 dagen na hun binnenkomst de reis hebben betreden, verwijderen, kunnen we niet weten dat de persoon eerder, meer dan 30 dagen geleden, is binnengekomen.
 
-### Tijdzone en profieltijdzone {#timezone}
-
-De tijdzone wordt gedefinieerd op het niveau van de reis.
-
-U kunt een vaste tijdzone invoeren of Adobe Experience Platform-profielen gebruiken om de tijdzone van de reis te definiëren.
-
-Als een tijdzone in Adobe Experience Platform-profiel is gedefinieerd, kan deze tijdens de reis worden opgehaald.
-
-Zie voor meer informatie over tijdzonebeheer [deze pagina](../building-journeys/timezone-management.md).
-
-### Toegang beheren {#access}
-
-Als u aangepaste of basislabels voor gegevensgebruik aan de reis wilt toewijzen, klikt u op de knop **[!UICONTROL Manage access]** knop. [Meer informatie over OLA (Object Level Access Control)](../administration/object-based-access.md)
-
-![](assets/journeys-manage-access.png)

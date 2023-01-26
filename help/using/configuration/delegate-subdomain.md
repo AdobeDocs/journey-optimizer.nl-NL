@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: subdomein, delegatie, domein, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '1740'
 ht-degree: 5%
@@ -167,13 +167,15 @@ Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volge
 
 1. Adobe genereert een SSL CDN URL-validatierecord. Kopieer deze validatierecord naar het hostplatform. Als u deze record op de hostingoplossing juist hebt gemaakt, schakelt u het selectievakje &quot;I confirm...&quot; in en klikt u op **[!UICONTROL Submit]**.
 
-   ![](assets/subdomain-cdn-url-validation.png)
+   <!--![](assets/subdomain-cdn-url-validation.png)-->
 
    >[!NOTE]
    >
    >U kunt ook de validatierecord maken en de subdomeinconfiguratie later verzenden met de opdracht **[!UICONTROL Save as draft]** knop. Vervolgens kunt u de subdomeindelegatie hervatten door deze te openen vanuit de lijst met subdomeinen.
 
 1. Zodra de subdomeindelegatie van CNAME is voorgelegd, toont subdomain in de lijst met **[!UICONTROL Processing]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](about-subdomain-delegation.md#access-delegated-subdomains).
+
+   ![](assets/subdomain-cname-processing.png)
 
    Voordat u dat subdomein kunt gebruiken voor het verzenden van berichten, moet u wachten tot Adobe de vereiste controles uitvoert. Dit duurt meestal 2 tot 3 uur. Meer informatie in [deze sectie](#subdomain-validation).
 

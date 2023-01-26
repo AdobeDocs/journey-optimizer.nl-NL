@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: schema's, XDM, platform, streaming, opname, reis
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
 source-wordcount: '840'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Om het even welk XDM schema dat voor zal worden gebruikt [!DNL Journey Optimizer
 
    ![](assets/schema3.png)
 
-* Declareer een identiteitsveld voor het identificeren van het onderwerp van de gebeurtenis. Als er geen identiteit is opgegeven, kan een identiteitskaart worden gebruikt. Dit wordt niet aanbevolen.
+* Declareer een identiteitsveld voor het identificeren van afzonderlijke profielen in de gebeurtenis. Als er geen identiteit is opgegeven, kan een identiteitskaart worden gebruikt. Dit wordt niet aanbevolen.
 
    ![](assets/schema4.png)
 

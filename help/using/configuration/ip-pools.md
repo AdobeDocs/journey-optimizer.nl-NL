@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: IP, pools, groep, subdomeinen, leverbaarheid
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,18 @@ Ga als volgt te werk om een IP-pool te maken:
    >[!NOTE]
    >
    >Alle IP adressen provisioned met uw instantie zijn beschikbaar in de lijst.
+
+Wanneer het selecteren van IPs, kunt u van de lijst de PTR verslagen zien verbonden aan IPs. Dit staat u toe om de branding informatie voor elk IP te verifiëren wanneer het creëren van een IP pool, en IPs met de zelfde branding informatie bijvoorbeeld te selecteren. [Meer informatie over PTR-records](ptr-records.md)
+
+![](assets/ip-pool-ptr-record.png)
+
+>[!NOTE]
+>
+>Als geen PTR verslag voor IP wordt gevormd, kunt u niet dat IP selecteren. Bereik uit aan uw vertegenwoordiger van Adobe voor het vormen van het PTR verslag van dat IP.
+
+Nadat een IP pool is gecreeerd, is de informatie PTR zichtbaar wanneer het hangen over de IP adressen die onder de IP pool drop-down lijst worden getoond.
+
+![](assets/ip-pool-ptr-record-tooltip.png)
 
 De IP pool wordt nu gecreeerd en toont in de lijst. U kunt deze selecteren om toegang te krijgen tot de eigenschappen en het bijbehorende kanaaloppervlak weer te geven (d.w.z. de voorinstelling voor berichten). Voor meer op hoe te om een kanaaloppervlakte met een IP pool te associëren, verwijs naar [deze sectie](channel-surfaces.md).
 
