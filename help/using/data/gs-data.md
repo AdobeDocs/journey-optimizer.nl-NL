@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: gegevens, beheer, platform
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 61b800c7f987d2650c4fe6d9f08e1c02ac0f667c
+source-git-commit: ef34cb0207d3011eca6d76ad6568f3edc00e13a3
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,11 @@ In grote lijnen is de flexibiliteit die u van uw gegevens wilt gebruiken:
 <tr style="border: 0;">
   <td>
     <div><img alt="beleid" src="assets/do-not-localize/policy.png" /> 
-    <br>Verwijderde basis een overeengekomen tijdlijn of uw beleid - Gegevensverwijdering is een cruciaal aspect van gegevensbescherming en is een belangrijke stap in alle processen voor gegevensbeheer. [!DNL Adobe Journey Optimizer] kan meer gegevens produceren dan vereist. Ook, wilt u uiterst zorgvuldig wat gebeurt na de vereiste duur voor een dataset - of het wegens nut of regelgeving gebeurt. Het besturingselement dat u nodig hebt, moet gegevens op elk gewenst moment verwijderen. <a href="https://experienceleague.adobe.com/docs/experience-platform/hygiene/ui/overview.html">Meer informatie over gegevenshygiëne vindt u in de documentatie van Adobe Experience Platform</a></div>
+    <br>Verwijderde basis een overeengekomen tijdlijn of uw beleid - Gegevensverwijdering is een cruciaal aspect van gegevensbescherming en is een belangrijke stap in alle processen voor gegevensbeheer. [!DNL Adobe Journey Optimizer] kan meer gegevens produceren dan vereist. Ook, wilt u uiterst zorgvuldig wat gebeurt na de vereiste duur voor een dataset - of het wegens nut of regelgeving gebeurt. Het besturingselement dat u nodig hebt, moet gegevens op elk gewenst moment verwijderen. 
+    </div>
+      <div>
+     <a href="../privacy/data-hygiene.md">Meer informatie</a></div>
+    </div>
   </td>
 </tr>
 </table>
