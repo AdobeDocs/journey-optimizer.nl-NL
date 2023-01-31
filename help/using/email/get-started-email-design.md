@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: e-mail, ontwerp, voorraad, middelen
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 4%
@@ -45,7 +45,6 @@ Zodra u [e-mail toevoegen](create-email.md) voor een reis of een campagne, kunt 
       >[!NOTE]
       >
       >In een campagne kunt u ook de opdracht **[!UICONTROL Code Editor]** van de knop **[!UICONTROL Edit content]** scherm. [Meer informatie](create-email.md#define-email-content)
-
 
    * **Bestaande HTML-inhoud importeren** uit een bestand of een ZIP-map. Leer hoe u e-mailinhoud importeert in [deze sectie](existing-content.md).
 

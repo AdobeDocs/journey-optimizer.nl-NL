@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: e-mail, sjablonen, ontwerpen
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 5%
+source-wordcount: '255'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,8 @@ Gebruik de **[!UICONTROL Select design template]** om uw inhoud op te bouwen van
 
 U kunt kiezen uit:
 * 20 e-mailsjablonen buiten de box.
-* Opgeslagen sjablonen. [Meer informatie](#use-saved-template)
+* Opgeslagen e-mailsjablonen. [Meer informatie](#use-saved-template)
+* Contentsjablonen. [Meer informatie](content-templates.md)
 
 ## Opslaan als sjabloon {#save-as-template}
 
@@ -34,6 +35,10 @@ U kunt kiezen uit:
 >abstract="Op 25 juli 2022 is het menu Berichten verdwenen en worden berichten nu rechtstreeks vanuit een reis geschreven. Als u oude berichten tijdens reizen opnieuw wilt gebruiken, moet u ze opslaan als sjablonen."
 
 Zodra u uw [e-mailinhoud](get-started-email-design.md), kunt u deze opslaan voor toekomstig hergebruik. Volg de onderstaande stappen om dit te doen.
+
+>[!CAUTION]
+>
+>Als u inhoud als sjabloon wilt opslaan, moet u beschikken over de **[!DNL Manage Library Items]** bevoegdheid opgenomen in de **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
 
 1. Klik op de ellips rechtsboven in het scherm.
 
@@ -46,6 +51,8 @@ Zodra u uw [e-mailinhoud](get-started-email-design.md), kunt u deze opslaan voor
    ![](assets/email_designer-template-name.png)
 
 1. Klik op **[!UICONTROL Save]**.
+
+Deze sjabloon wordt opgeslagen in de lijst met inhoudssjablonen. [Meer informatie](content-templates.md)
 
 De volgende keer dat u een e-mail maakt, kunt u deze sjabloon gebruiken om uw inhoud samen te stellen. [Meer informatie](#use-saved-template)
 

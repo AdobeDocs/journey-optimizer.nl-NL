@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: machtigingen, schrijven, berichten
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1128'
 ht-degree: 9%
 
 ---
@@ -107,8 +107,18 @@ Dit productprofiel bevat de volgende toestemmingen:
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
 
-De **[!DNL Decisioning manager]** het productprofiel staat alleen de **[!UICONTROL Decision management]** -menu. Gebruikers die aan dit productprofiel zijn toegewezen, kunnen alleen beslissingen beheren, weergeven en publiceren.
+De **[!DNL Decisioning manager]** het productprofiel verleent slechts toegang tot **[!UICONTROL Decision management]** -menu. Gebruikers die aan dit productprofiel zijn toegewezen, kunnen alleen beslissingen beheren, weergeven en publiceren.
 
 Dit productprofiel bevat de volgende toestemmingen:
 
 | Capaciteit | Machtigingen| |-|-| |Beheer van besluiten | <ul><li>**[!DNL Manage decisions]**: lezen, maken, bewerken en verwijderen van beslissingsentiteiten.</li><li>**[!DNL View decisions]**: alleen-lezen toegang tot beslissingsentiteiten.</li><li>**[!DNL Manage ranking strategies]**: U kunt aangepaste rapporten lezen, maken, bewerken en verwijderen en actiefuncties gebruiken.</li><li>**[!DNL Publish decisions]**: beslissingsactiviteiten activeren of deactiveren.</li></ul>|
+
+## [!DNL Content Library Manager] {#content-library-manager}
+
+De **[!DNL Content Library Manager]** het productprofiel verleent slechts toegang tot **[!UICONTROL Content templates]** -menu. Gebruikers die aan dit productprofiel zijn toegewezen, hebben alleen toegang tot de sjabloonbibliotheek om inhoud te maken zonder de reizen of campagnes te openen.
+
+Dit productprofiel bevat de volgende toestemmingen:
+
+| Capaciteit | Machtigingen| |-|-| |Journey Optimizer-bibliotheek| <ul><li>**[!DNL Manage library items]**: Journey Optimizer Library-items lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage simulate content]**: toegang tot de **[!UICONTROL Simulate content]** voor voorvertoning en proefdruk.</li></ul>|
+|Beslissingsbeheer|<ul><li>**[!DNL Manage decisions]**: lezen, maken, bewerken en verwijderen van beslissingsentiteiten.</li><li>**[!DNL Manage ranking strategies]**: U kunt aangepaste rapporten lezen, maken, bewerken en verwijderen en actiefuncties gebruiken.</li></ul>|
+|Adobe Experience Platform| <ul><li> **[!DNL Manage segments]**: segmenten lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage profiles]**: profielen lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Read datasets]**: alleen-lezen toegang tot gegevenssets.</li><li>**[!DNL Read schemas]**: alleen-lezen toegang tot schema&#39;s.</li><li>**[!DNL Manage merge policies]**: beleid voor het lezen, maken, bewerken en verwijderen van samenvoegingen.</li></ul>|
