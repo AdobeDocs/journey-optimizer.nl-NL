@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: f5d5c9dacd640b130dd4bcbaab803ecc7e999d10
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 1%
+source-wordcount: '1058'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,9 @@ In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudsty
 | Accepteren | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
 | Inhoudstype | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
 
-**API-indeling**
+## API-verzoek {#request}
+
+### API-indeling
 
 ```https
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
@@ -43,7 +45,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
 | `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/ode/` |
 | `{CONTAINER_ID}` | De container waarin de beslissingen zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
-**Verzoek**
+### Verzoek
 
 ```shell
 curl -X POST \
@@ -122,7 +124,7 @@ curl -X POST \
 | `xdm:responseFormat.xdm:option` | Deze markering identificeert de specifieke metagegevens die worden geretourneerd voor `xdm:option`. | `name`, `characteristics` |
 | `xdm:responseFormat.xdm:placement` | Deze markering identificeert de specifieke metagegevens die worden geretourneerd voor `xdm:placement`. | `name`, `channel`, `componentType` |
 
-**Antwoord**
+### Antwoord
 
 Een succesvol antwoord geeft informatie over uw voorstel, met inbegrip van zijn uniek `xdm:propositionId`.
 
@@ -192,6 +194,20 @@ Een succesvol antwoord geeft informatie over uw voorstel, met inbegrip van zijn 
 | `xdm:propositions.xdm:fallback.dc:format` | De fysieke of digitale manifestatie van de bron. De indeling moet meestal het mediatype van de bron bevatten. Het formaat kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. U wordt aangeraden een waarde te selecteren in een gecontroleerde woordenlijst, bijvoorbeeld de lijst met [Internetmediatypen](http://www.iana.org/assignments/media-types/) computermedia-indelingen definiëren. | `"dc:format": "image/png"` of `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | Een optionele URL voor het lezen van het element van een netwerk of servicedetinepunt voor de levering van inhoud. Deze URL wordt gebruikt om het middel openlijk van een gebruikersagent toegang te hebben. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | De tijd toen het bericht van het beslissingsantwoord werd gecreeerd. Dit wordt weergegeven als tijdperk. | `"ode:createDate": 1566497582038` |
+
+**Antwoordcodes**
+
+De onderstaande tabel bevat een lijst met alle codes die in het antwoord kunnen worden geretourneerd:
+
+| Code | Beschrijving |
+|  ---  |  ---  |
+| 200 | Geslaagd. Er is een besluit genomen over bepaalde activiteiten |
+| 400 | Ongeldige parameter request. Het verzoek kan niet door de server worden begrepen wegens misvormde syntaxis. |
+| 403 | Verboden, onvoldoende machtigingen. |
+| 422 | Onbewerkbare entiteit. De aanvraagsyntaxis is correct, echter, wegens semantische fouten kan het niet worden verwerkt. |
+| 429 | Te veel verzoeken. De gebruiker heeft te veel verzoeken binnen een bepaalde hoeveelheid tijd verzonden. |
+| 500 | Interne serverfout. De server heeft een onverwachte voorwaarde aangetroffen waardoor deze de aanvraag niet kan uitvoeren. |
+| 503 | Service niet beschikbaar vanwege overbelasting van de server. De server kan het verzoek momenteel niet verwerken vanwege een tijdelijke overbelasting. |
 
 ## Video over zelfstudie {#video}
 

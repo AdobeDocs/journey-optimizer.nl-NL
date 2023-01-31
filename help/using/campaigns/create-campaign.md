@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '724'
 ht-degree: 3%
 
 ---
@@ -52,11 +52,13 @@ Als u een nieuwe campagne wilt maken, opent u de **[!UICONTROL Campaigns]** en k
 
    Een oppervlak is een configuratie die is gedefinieerd door een [Systeembeheerder](../start/path/administrator.md). Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enz. [Meer informatie](../configuration/channel-surfaces.md).
 
+   Alleen kanaaloppervlakken die compatibel zijn met het type marketingcampagne worden weergegeven in de vervolgkeuzelijst.
+
    ![](assets/create-campaign-action.png)
 
    >[!NOTE]
    >
-   >Alleen kanaaloppervlakken die compatibel zijn met het type marketingcampagne worden weergegeven in de vervolgkeuzelijst.
+   >Als u een pushmeldingscampagne maakt, kunt u de optie **[!UICONTROL Rapid delivery mode]**, een Journey Optimizer-invoegtoepassing die het mogelijk maakt om zeer snelle pushberichten in grote hoeveelheden te verzenden. [Meer informatie](../push/create-push.md#rapid-delivery)
 
 1. Klikken **[!UICONTROL Create]** om de campagne te maken.
 

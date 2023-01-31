@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '2003'
 ht-degree: 0%
@@ -29,24 +29,30 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 <!--Personalized offers form the set of choices for a decision. The objective for decisioning is to take a large inventory of items and apply numerous constraint rules to that inventory to narrow it down and then to rank the qualifying options according to a criteria. The resulting propositions assemble and personalize the experience for specific individuals.-->
 
-## Id {#identifier}
++++ Id
 
 **Veld:** _id
 **Titel:** Id
 **Omschrijving:** Een unieke id voor de record.
 **Type:** string
 
-## _experience {#experience}
++++
+
++++ _experience {#experience}
 
 **Veld:** _experience
 **Type:** object
 
-### _experience > decisions
++++
+
++++ _experience > decisions
 
 **Veld:** beslissing
 **Type:** object
 
-#### _experience > decisions > endarConstraints
++++
+
++++ _experience > decisions > endarConstraints
 
 **Veld:** agendaConstraints
 **Titel:** Details kalenderbeperking
@@ -67,21 +73,27 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
    **Omschrijving:** De begindatum van de geldigheid van een beslissing. Opties die hun begindatum nog niet hebben bereikt, kunnen nog niet in het besluitvormingsproces worden voorgesteld.
    **Type:** string
 
-#### _experience > decisions > attributes
++++
+
++++ _experience > decisions > attributes
 
 **Veld:** kenmerken
 **Titel:** Kenmerken van de optie Beslissing
 **Omschrijving:** Aanvullende eigenschappen of kenmerken die tot deze bepaalde beslissingsoptie behoren. Verschillende instanties kunnen verschillende kenmerken hebben (toetsen in de kaart). De kenmerken zijn naamwaardeparen die worden gebruikt om een beslissingsoptie te onderscheiden van andere. Kenmerken worden gebruikt als waarden in de inhoud die deze beslissingsoptie vertegenwoordigt en als kenmerken voor het analyseren en optimaliseren van de prestaties van een optie. Wanneer elke instantie de zelfde attributen of het bezit heeft, zou dat aspect als uitbreidingsschema moeten worden gemodelleerd dat uit de details van de besluitvormingsoptie voortkomt.
 **Type:** object
 
-#### _experience > decisions > contents
++++
+
++++ _experience > decisions > contents
 
 **Veld:** inhoud
 **Titel:** Details inhoud
 **Omschrijving:** Inhoudsitems om het beslissingsitem in verschillende contexten weer te geven. Een enkele beslissingsoptie kan meerdere inhoudvarianten hebben. Inhoud is informatie die naar een publiek wordt gericht voor gebruik in een (digitale) ervaring. Inhoud wordt via kanalen aan een bepaalde plaatsing geleverd.
 **Type:** array
 
-**_experience > decisions > contents > components**
++++
+
++++_experience > decisions > contents > components
 
 **Veld:** componenten
 **Omschrijving:** De componenten van de inhoud die de beslissingsoptie vertegenwoordigen, inclusief alle taalvarianten. Specifieke componenten worden gevonden door &#39;dx:format&#39;, &#39;dc:subject&#39; en &#39;dc:language&#39; of een combinatie daarvan. Deze metagegevens worden gebruikt om de inhoud te zoeken of weer te geven die aan een aanbieding is gekoppeld en deze te integreren volgens het plaatsingscontract.
@@ -168,14 +180,16 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
    **Type:** string
    **Voorbeeld:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-**_experience > decisions > contents > Placement**
++++_experience > decisions > contents > Placement
 
 **Veld:** plaatsing
 **Titel:** Plaatsing
 **Omschrijving:** Plaatsing om te voldoen aan. De waarde is de URI (@id) van de aanbiedingsplaatsing waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/placement.
 **Type:** string
 
-#### _experience > decisions > Lifecycle Status
++++
+
++++ _experience > decisions > Lifecycle Status
 
 **Veld:** lifecycleStatus
 **Titel:** Status levenscyclus
@@ -183,35 +197,45 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 **Type:** string
 **Mogelijke waarden:** &quot;Concept&quot; (standaardwaarde), &quot;Goedgekeurd&quot;, &quot;Live&quot;, &quot;Voltooid&quot;, &quot;Gearchiveerd&quot;
 
-#### _experience > decisions > Decision Option Name
++++
+
++++ _experience > decisions > Decision Option Name
 
 **Veld:** name
 **Titel:** Naam van beslissingsoptie
 **Omschrijving:** De naam van de optie die in diverse gebruikersinterfaces wordt getoond.
 **Type:** string
 
-#### _experience > decisions > profileConstraints
++++
+
++++ _experience > decisions > profileConstraints
 
 **Veld:** profileConstraints
 **Titel:** Profielrestrictiedetails
 **Omschrijving:** De profielbeperkingen bepalen of een optie op dit moment in aanmerking komt voor deze profielidentiteit. Als de profielbeperking geen waarden van elke optie hoeft te overwegen, d.w.z. dat deze geen opties uit de optieselectie bevat, annuleert de profielbeperking die &#39;false&#39; oplevert de volledige optieselectie. Anderzijds wordt voor elke kwalificerende optie van de optiesselectie een regel voor profielbeperking geëvalueerd die een optie als parameter neemt.
 **Type:** object
 
-**_experience > decisions > profileConstraints > Description**
++++
+
++++_experience > decisions > profileConstraints > Description
 
 **Veld:** beschrijving
 **Titel:** Beschrijving
 **Omschrijving:** Beschrijving van profielbeperking. Het wordt gebruikt om menselijke leesbare intenties over te brengen over hoe of waarom deze profielbeperking is geconstrueerd en/of welke optie daarin wordt opgenomen of uitgesloten.
 **Type:** string
 
-**_experience > decisions > profileConstraints > Eligibility Rule**
++++
+
++++_experience > decisions > profileConstraints > Eligibility Rule
 
 **Veld:** geschiktheidregel
 **Titel:** Subsidiabiliteitsregel
 **Omschrijving:** Een verwijzing naar een beslissingsregel die voor een bepaald profiel en/of andere contextuele XDM-objecten naar waar of onwaar evalueert. De regel wordt gebruikt om te beslissen als de optie voor een bepaald profiel kwalificeert. De waarde is URI (@id) van de beslissingsregel waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/rule.
 **Type:** string
 
-**_experience > decisions > profileConstraints > Profielrestrictietype**
++++
+
+++_experience > decisions > profileConstraints > Type profielrestrictie
 
 **Veld:** profileConstraintType
 **Titel:** Type profielbeperking
@@ -224,7 +248,9 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 * &quot;allSegments&quot;: &quot;De profielbeperking wordt uitgedrukt als één of meerdere segmenten en het profiel moet een lid van elk van hen zijn alvorens de beperkte actie wordt toegestaan.&quot;
 * &quot;regels&quot;: &quot;De profielbeperking wordt uitgedrukt als een aantal verschillende regels, bijvoorbeeld geschiktheid, toepasbaarheid, geschiktheid, die allemaal op true moeten worden beoordeeld voordat de beperkte handeling is toegestaan.&quot;
 
-**_experience > decisions > profileConstraints > Segment-id&#39;s**
++++
+
++++_experience > decisions > profileConstraints > Segment-id&#39;s
 
 **Veld:** segmentIdentities
 **Titel:** Segment-id&#39;s
@@ -260,14 +286,18 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
    **Omschrijving:** Wanneer deze waarde aanwezig is, vertegenwoordigt deze een naamruimte-id die uniek is voor alle naamruimte-bereikid&#39;s in alle naamruimten.
    **Type:** string
 
-#### _experience > decisions > Rangschikking
++++
+
++++ _experience > decisions > Rangschikking
 
 **Veld:** rangschikking
 **Titel:** Beoordelingsdetails
 **Omschrijving:** Rang (prioriteit). Definieert wat wordt beschouwd als de &quot;beste actie\&quot; gezien de context van het beslissingscriterium. Bij alle geselecteerde opties die voldoen aan de selectiegrens, wordt in de rangorde bepaald welke optie(s) bovenaan (of bovenste N) moet(en) worden voorgesteld.
 **Type:** object
 
-**_experience > decisions > Ranging > Order Evaluation**
++++
+
+++_experience > decisions > Rangschikking > Order Evaluation
 
 **Veld:** bestellen
 **Titel:** Orderevaluatie
@@ -296,7 +326,9 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
    **Omschrijving:** Een verwijzing naar een strategie die een lijst van besluitvormingsoptie rangschikt. Beslissingsopties worden geretourneerd in een geordende lijst. De waarde van deze eigenschap is de URI (@id) van de functie die met één optie tegelijk moet worden aangeroepen. Zie schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
    **Type:** string
 
-**_Experience > decisions > Rangschikking > Priority**
++++
+
++++_experience > decisions > Rangschikking > Prioriteit
 
 **Veld:** prioriteit
 **Titel:** Prioriteit
@@ -305,23 +337,31 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 **Minimumwaarde:** 0
 **Standaardwaarde:** 0
 
-#### _experience > decisions > tags
++++
+
++++ _experience > decisions > tags
 
 **Veld:** tags
 **Titel:** Tags
 **Omschrijving:** De reeks codes die aan deze entiteit is gekoppeld. De tags worden gebruikt in filterexpressies om de totale voorraad te beperken tot een subset (categorie).
 **Type:** array
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++_repo
 
 **Veld:** _repo
 **Type:** object
 
-### _repo > Beslissingsoptie ETag
++++
+
++++ _repo > Beslissingsoptie ETag
 
 **Veld:** etel
 **Titel:** Beslissingsoptie ETag
 **Omschrijving:** De revisie die het object voor de beslissingsoptie had toen de momentopname werd gemaakt.
 **Type:** string
+
++++

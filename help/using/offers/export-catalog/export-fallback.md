@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 0%
@@ -27,40 +27,50 @@ De meest recente succesvolle partij in de dataset wordt getoond op het recht. De
 
 Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogvenster **[!UICONTROL Decision Object Repository - Fallback Offers]** dataset.
 
-## Id {#identifier}
++++ Id
 
 **Veld:** _id
 **Titel:** Id
 **Omschrijving:** Een unieke id voor de record.
 **Type:** string
 
-## _experience {#experience}
++++
+
++++ _experience
 
 **Veld:** _experience
 **Type:** object
 
-### _experience > decisions
++++
+
++++ _experience > decisions
 
 **Veld:** beslissing
 **Type:** object
 
-#### _experience > decisions > attributes
++++
+
++++ _experience > decisions > attributes
 
 **Veld:** kenmerken
 **Titel:** Kenmerken van de optie Beslissing
 **Omschrijving:** Aanvullende eigenschappen of kenmerken die tot deze bepaalde beslissingsoptie behoren. Verschillende instanties kunnen verschillende kenmerken hebben (toetsen in de kaart). De kenmerken zijn naamwaardeparen die worden gebruikt om een beslissingsoptie te onderscheiden van andere. Kenmerken worden gebruikt als waarden in de inhoud die deze beslissingsoptie vertegenwoordigt en als kenmerken voor het analyseren en optimaliseren van de prestaties van een optie. Wanneer elke instantie de zelfde attributen of het bezit heeft, zou dat aspect als uitbreidingsschema moeten worden gemodelleerd dat uit de details van de besluitvormingsoptie voortkomt.
 **Type:** object
 
++++
+
 <!--Field under Characteristics without title = additionalProperties? Desc = Value of the property. Type: string-->
 
-#### _experience > decisions > contents
++++ _experience > decisions > contents
 
 **Veld:** inhoud
 **Titel:** Details inhoud
 **Omschrijving:** Inhoudsitems om het beslissingsitem in verschillende contexten weer te geven. Een enkele beslissingsoptie kan meerdere inhoudvarianten hebben. Inhoud is informatie die naar een publiek wordt gericht voor gebruik in een (digitale) ervaring. Inhoud wordt via kanalen aan een bepaalde plaatsing geleverd.
 **Type:** array
 
-**_experience > decisions > contents > components**
++++
+
++++_experience > decisions > contents > components
 
 **Veld:** componenten
 **Omschrijving:** De componenten van de inhoud die de beslissingsoptie vertegenwoordigen, inclusief alle taalvarianten. Specifieke componenten worden gevonden door &#39;dx:format&#39;, &#39;dc:subject&#39; en &#39;dc:language&#39; of een combinatie daarvan. Deze metagegevens worden gebruikt om de inhoud te zoeken of weer te geven die aan een aanbieding is gekoppeld en deze te integreren volgens het plaatsingscontract.
@@ -148,14 +158,18 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
    **Type:** string
    **Voorbeeld:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
-**_experience > decisions > contents > Placement**
++++
+
++++ _experience > decisions > contents > Placement
 
 **Veld:** plaatsing
 **Titel:** Plaatsing
 **Omschrijving:** Plaatsing om te voldoen aan. De waarde is de URI (@id) van de aanbiedingsplaatsing waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/placement.
 **Type:** string
 
-#### _experience > decisions > Lifecycle Status
++++
+
++++ _experience > decisions > Lifecycle Status
 
 **Veld:** lifecycleStatus
 **Titel:** Status levenscyclus
@@ -163,30 +177,40 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 **Type:** string
 **Mogelijke waarden:** &quot;Concept&quot; (standaardwaarde), &quot;Goedgekeurd&quot;, &quot;Live&quot;, &quot;Voltooid&quot;, &quot;Gearchiveerd&quot;
 
-#### _experience > decisions > Decision Option Name
++++
+
++++ _experience > decisions > Decision Option Name
 
 **Veld:** name
 **Titel:** Naam van beslissingsoptie
 **Omschrijving:** De naam van de optie die in diverse gebruikersinterfaces wordt getoond.
 **Type:** string
 
-#### _experience > decisions > tags
++++
+
++++ _experience > decisions > tags
 
 **Veld:** tags
 **Titel:** Tags
 **Omschrijving:** De reeks codes die aan deze entiteit is gekoppeld. De tags worden gebruikt in filterexpressies om de totale voorraad te beperken tot een subset (categorie).
 **Type:** array
 
++++
+
 <!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
-## _repo {#repo}
++++ _repo {#repo}
 
 **Veld:** _repo
 **Type:** object
 
-### _repo > Beslissingsoptie ETag
++++
+
++++ _repo > Beslissingsoptie ETag
 
 **Veld:** etel
 **Titel:** Beslissingsoptie ETag
 **Omschrijving:** De revisie die het object voor de beslissingsoptie had toen de momentopname werd gemaakt.
 **Type:** string
+
++++

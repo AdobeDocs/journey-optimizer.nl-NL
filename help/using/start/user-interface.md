@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '1572'
-ht-degree: 6%
+source-wordcount: '1155'
+ht-degree: 7%
 
 ---
 
@@ -110,158 +110,6 @@ Klik op de knop **[!UICONTROL Begin]** om het gebruik te starten.
 
 U hebt toegang tot uitvoerbare gebruiksgevallen via het dialoogvenster **[!UICONTROL View use case library]** knop.
 
-## Toegankelijkheid{#accessibility}
-
-De toegankelijkheidsfuncties in [!DNL Adobe Journey Optimizer] zijn overgenomen van Adobe Experience Platform:
-
-* Toegankelijkheid toetsenbord
-* Kleurcontrast
-* Validatie van vereiste velden
-
-[Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html){target="_blank"} in Adobe Experience Platform documentatie.
-
-U kunt deze algemene sneltoetsen gebruiken in [!DNL Journey Optimizer]:
-
-| Actie | Sneltoets |
-| --- | --- |
-| Tussen gebruikersinterface-elementen, -secties en -menugroepen verplaatsen | Tabtoets |
-| Ga achterwaarts tussen gebruikersinterface-elementen, -secties en -menuproepen | Shift + Tab |
-| Binnen secties verplaatsen om focus in te stellen op afzonderlijke elementen | Pijl |
-| Een element dat de focus heeft selecteren of wissen | Enter of spatiebalk |
-| Een selectie annuleren, een deelvenster samenvouwen of een dialoogvenster sluiten | Esc |
-
-[Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/accessibility/custom.html){target="_blank"} in Adobe Experience Platform documentatie.
-
-U kunt deze sneltoetsen gebruiken in specifieke delen van Journey Optimizer:
-
-<table>
-  <thead>
-    <tr>
-      <th>Interface-element</th>
-      <th>Actie</th>
-      <th>Sneltoets</th>
-    </tr>
-  </thead>
-  <tr>
-    <td>Lijst met reizen, handelingen, gegevensbronnen of gebeurtenissen</td>
-    <td>Een reis, handeling, gegevensbron of gebeurtenis maken</td>
-    <td>C</td>
-  </tr>
-  <tr>
-    <td rowspan="3">Reis canvas in conceptstatus</td>
-    <td>Voeg een activiteit van het linkerpalet bij de eerste beschikbare positie toe, van boven tot onder</td>
-    <td>Dubbelklik op de activiteit</td>
-  </tr>
-  <tr>
-    <td>Alle activiteiten selecteren</td>
-    <td>CTRL + A (Windows)<br/>CMD + A (Mac)</td>
-  </tr>
-  <tr>
-    <td>Geselecteerde activiteiten verwijderen</td>
-    <td>Verwijder of Backspace en ga vervolgens in om de verwijdering te bevestigen</td>
-  </tr>
-  <tr>
-    <td>In- en uitzoomen (focus op canvas of een van de onderliggende elementen)</td>
-    <td>CTRL +/- (Windows) of CMD +/- (Mac)</td>
-  </tr>  
-  <tr>
-    <td>Navigeren tussen elke activiteit en elk pad (focus op canvas) of tussen werkbalkknoppen (focus op werkbalk)</td>
-    <td>PIJLtoetsen</td>
-  </tr>   
-  <tr>
-    <td>Ga naar het volgende actiefelement op het canvas, waarbij de werkbalk de eerste is</td>
-    <td>Tabtoets</td>
-  </tr>  
-  <tr>
-    <td>Open het juiste configuratievenster (nadruk op een activiteit)</td>
-    <td>ENTER</td>
-  </tr>   
-  <tr>
-    <td>Een activiteit verplaatsen op het canvas (focus op een activiteit)</td>
-    <td>SHIFT + PIJL-toetsen</td>
-  </tr>  
-  <tr>
-  <td rowspan="3">
-
-Configuratievenster van deze elementen:
-
-<ul>
-  <li>Activiteit in een reis</li>
-  <li>Gebeurtenis</li>
-  <li>Gegevensbron</li>
-  <li>Actie</li>
-</ul>
-
-</td>
-    <td>Ga naar het volgende veld dat moet worden geconfigureerd</td>
-    <td>Tabtoets</td>
-  </tr>
-  <tr>
-    <td>Wijzigingen opslaan en het configuratievenster sluiten</td>
-    <td>Enter</td>
-  </tr>
-  <tr>
-    <td>Wijzigingen negeren en het configuratievenster sluiten</td>
-    <td>Esc</td>
-  </tr>
-  <tr>
-    <td rowspan="4">Reizen in testmodus</td>
-    <td>De testmodus in- of uitschakelen</td>
-    <td>T</td>
-  </tr>
-  <tr>
-    <td>Een gebeurtenis activeren tijdens een op een gebeurtenis gebaseerde reis</td>
-    <td>E</td>
-  </tr>
-  <tr>
-    <td>
-
-Een gebeurtenis activeren in een op segmenten gebaseerde reis waarvoor de **[!UICONTROL Single profile at a time]** optie is ingeschakeld
-
-</td>
-    <td>P</td>
-  </tr>
-  <tr>
-    <td>De testlogboeken weergeven</td>
-    <td>L</td>
-  </tr>
-<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
-  <tr>
-    <td>Page with a search bar</td>
-    <td>Select the search bar</td>
-    <td>Ctrl/Command + F</td>
-  </tr>
--->
-  <tr>
-    <td>Tekstveld</td>
-    <td>Alle tekst in het geselecteerde veld selecteren</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
-  </tr>
-  <tr>
-    <td rowspan="2">Pop-upvenster</td>
-    <td>Wijzigingen opslaan of de handeling bevestigen</td>
-    <td>Enter</td>
-  </tr>
-  <tr>
-    <td>Sluit het venster</td>
-    <td>Esc</td>
-  </tr>
-  <tr>
-    <td>Eenvoudige expressie-editor</td>
-    <td>Een veld selecteren en toevoegen</td>
-    <td>Dubbelklikken op een veld</td>
-  </tr>
-  <tr>
-    <td>Bladeren door XDM-velden</td>
-    <td>Alle velden van een knooppunt selecteren</td>
-    <td>Het bovenliggende knooppunt selecteren</td>
-  </tr>
-  <tr>
-    <td>Payloadvoorbeeld</td>
-    <td>Selecteer de lading</td>
-    <td>Ctrl + A (Windows)<br/>Command + A (Mac)</td>
-  </tr>
-</table>
 
 ## Hulp en ondersteuning zoeken {#find-help}
 
@@ -312,9 +160,9 @@ Druk **Enter** om tot alle resultaten toegang te hebben en filter door bedrijfsv
 
 ## Filterlijsten{#filter-lists}
 
-In de meeste lijsten, staat een onderzoeksbar u toe om naar een specifiek punt te zoeken en het filtreren criteria te selecteren.
+In de meeste lijsten, gebruik de onderzoeksbar om specifieke punten te vinden, en het filtreren criteria te bepalen.
 
-Filters zijn toegankelijk door op het filterpictogram linksboven in de lijst te klikken. Met het filtermenu kunt u de weergegeven elementen filteren op basis van verschillende criteria. U kunt ervoor kiezen om alleen elementen van een bepaald type of een bepaalde status weer te geven, zoals de elementen die u hebt gemaakt of de elementen die in de afgelopen 30 dagen zijn gewijzigd. Welke opties beschikbaar zijn, is afhankelijk van de context.
+Filters zijn toegankelijk door op het filterpictogram linksboven in een lijst te klikken. Met het filtermenu kunt u de weergegeven elementen filteren op basis van verschillende criteria. U kunt ervoor kiezen om alleen elementen van een bepaald type of een bepaalde status weer te geven, zoals de elementen die u hebt gemaakt of de elementen die in de afgelopen 30 dagen zijn gewijzigd. Welke opties beschikbaar zijn, is afhankelijk van de context.
 
 In de lijst met ritten kunt u de ritten filteren op basis van hun status, type en versie van de **[!UICONTROL Status and version filters]**. Het type kan zijn: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** of **[!UICONTROL Burst]**. U kunt ervoor kiezen alleen reizen weer te geven die een specifieke gebeurtenis, veldgroep of handeling uit de **[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]**. De **[!UICONTROL Publication filters]** Hiermee kunt u een publicatiedatum of een gebruiker selecteren. U kunt bijvoorbeeld kiezen of u de nieuwste versies wilt weergeven van live reizen die gisteren zijn gepubliceerd. [Meer informatie](../building-journeys/using-the-journey-designer.md).
 

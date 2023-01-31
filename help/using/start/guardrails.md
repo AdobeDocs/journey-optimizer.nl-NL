@@ -8,16 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: dd65c4155320c818f97400548c0f9d4d6d4e2507
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
 
 # Afvoerkanalen en beperkingen {#limitations}
 
-De rechten, de productbeperkingen en de prestatiegaranties worden vermeld in [Adobe Journey Optimizer-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target=&quot;_blank&quot;}.
+De rechten, de productbeperkingen en de prestatiegaranties worden vermeld in [Adobe Journey Optimizer-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+
+U moet zich ook bewust zijn van [Gardrails voor gegevens in realtime klantprofiel voordat u begint](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html){target="_blank"}.
 
 Hieronder vindt u aanvullende instructies en beperkingen bij het gebruik [!DNL Adobe Journey Optimizer].
 
@@ -29,7 +31,7 @@ Hieronder vindt u aanvullende instructies en beperkingen bij het gebruik [!DNL A
 
 ## Garanties voor besluitvormingsbeheer {#offer-guardrails}
 
-De prestatiegerelateerde en statische grenzen voor besluiten zijn vermeld in [Adobe Offer decisioning App Service, productbeschrijvingspagina](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target=&quot;_blank&quot;}.
+De prestatiegerelateerde en statische grenzen voor besluiten zijn vermeld in [Adobe Offer decisioning App Service, productbeschrijvingspagina](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
 
 
 ## Handleidingen voor landingspagina&#39;s {#lp-guardrails}

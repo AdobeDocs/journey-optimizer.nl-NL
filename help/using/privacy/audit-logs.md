@@ -7,9 +7,9 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 # Audit van Journey Optimizer-bronnen {#track-changes}
 
 ## Over auditlogboeken {#audit-logs}
+
+>[!IMPORTANT]
+>
+>Om controlelogboek te bekijken en uit te voeren, moet u hebben **[!DNL View User Activity Log]** toestemming verleend. [Meer informatie](../administration/ootb-product-profiles.md)
 
 Met Journey Optimizer kunt u acties identificeren die door gebruikers in het systeem worden uitgevoerd op verschillende services en mogelijkheden, zoals reizen, berichten, landingspagina&#39;s enzovoort.
 

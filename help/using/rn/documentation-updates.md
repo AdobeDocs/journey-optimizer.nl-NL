@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3adcd750089d81e6216316dc3d39f6a7982033f4
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
-source-wordcount: '2218'
+source-wordcount: '2280'
 ht-degree: 18%
 
 ---
@@ -14,6 +14,13 @@ ht-degree: 18%
 # Documentatie-updates {#latest-updates}
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
+
+## Januari 2023 {#jan-2023}
+
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 23 januari is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
+* Toegankelijkheidsfuncties in [!DNL Journey Optimizer] worden nu gegroepeerd in een specifieke pagina. [Meer informatie](../start/accessibility.md)
+* Er is een nieuwe pagina toegevoegd over gegevensbeheer in [!DNL Journey Optimizer]. [Meer informatie](../data/gs-data.md)
+* Er is een tabel toegevoegd met alle codes die in de reactie kunnen worden geretourneerd wanneer aanbiedingen worden geleverd met de API voor besluitvorming. [Meer informatie](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 ## December 2022 {#december-2022}
 

@@ -4,7 +4,7 @@ product: journey optimizer
 title: Release-aantekeningen 2022
 description: Opmerkingen bij de release van Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
 workflow-type: tm+mt
 source-wordcount: '3583'
 ht-degree: 9%
@@ -234,7 +234,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 
 ### Andere wijzigingen{#sept-2022-other}
 
-* Modus Reisexplosie is vervangen door Modus Snelle levering campagne. [Meer informatie](../campaigns/create-campaign.md#rapid-delivery)
+* Modus Reisexplosie is vervangen door Modus Snelle levering campagne. [Meer informatie](../push/create-push.md#rapid-delivery)
 * Om de prestaties te verbeteren, kunnen de de gebeurtenisgebiedgroepen van de Ervaring niet meer in reizen worden gebruikt die met een Gelezen segment, een kwalificatie van het Segment of een bedrijfsgebeurtenisactiviteit beginnen. Deze wijziging geldt alleen voor nieuwe reizen. De bestaande zullen het huidige gedrag houden. [Meer informatie](../start/guardrails.md#expression-editor)
 * De beperking van 1 uur voor geplande leesegmentreizen is verwijderd. Deze reizen kunnen nu zonder vertraging worden uitgevoerd.
 
