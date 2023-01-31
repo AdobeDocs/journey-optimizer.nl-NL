@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: a61cbb5b2a6cea21dbaf41a9fcb085fe1b814087
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 +++
 
-+++ _experience > decisions > Criteria > description*
++++ _experience > decisions > criteria > description
 
 **Veld:** beschrijving
 **Titel:** Beschrijving
@@ -110,7 +110,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 +++
 
-+++_experience > Determination > Criteria > placements**
++++_Experience > decisions > Criteria > Plaatsingen
 
 **Veld:** plaatsing
 **Titel:** Plaatsingsbeperkingen
@@ -125,7 +125,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 +++
 
-+++_experience > decisions > Criteria > profileConstraints**
++++_experience > decisions > Criteria > profileConstraints
 
 **Veld:** profileConstraints
 **Titel:** Profielbeperking
@@ -205,7 +205,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 +++
 
-+++_experience > decisions > Criteria > Rangschikking*
++++_experience > decisions > Criteria > Rangschikking
 
 **Veld:** rangschikking
 **Titel:** Beoordelingsdetails
@@ -292,7 +292,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 +++
 
-+++ _repo {#repo}
++++ _repo
 
 **Veld:** _repo
 **Type:** object
