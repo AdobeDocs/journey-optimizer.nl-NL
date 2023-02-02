@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landen, pagina landen, maken, publiceren
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 1%
@@ -59,7 +59,9 @@ Klik op de drie stippen naast een openingspagina om de gewenste actie te selecte
 >abstract="Om gevoelige digitale elementen te beschermen, kunt u vergunningen bepalen om gegevenstoegang tot uw landingspagina te beheren gebruikend etiketten."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/access-control/object-based-access.html" text="Toegangsbeheer op objectniveau"
 
-De stappen voor het maken van een bestemmingspagina zijn als volgt.
+De belangrijkste stappen voor het maken van bestemmingspagina&#39;s zijn als volgt:
+
+![](assets/lp-creation-process.png)
 
 1. Klik in de lijst met openingspagina&#39;s op **[!UICONTROL Create landing page]**.
 

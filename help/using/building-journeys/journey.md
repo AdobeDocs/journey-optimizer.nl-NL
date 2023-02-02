@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: reis, ontdek, begin
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '585'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,9 @@ Ontwerp multistep geavanceerde scenario&#39;s aangedreven door de volgende mogel
 
 ## Stappen om een reis te maken{#steps-journey}
 
-Met Adobe Journey Optimizer kunt u persoonlijke reizen ontwerpen en ordenen vanaf één canvas.
+Met Adobe Journey Optimizer kunt u persoonlijke reizen ontwerpen en ordenen vanaf één canvas. De belangrijkste stappen om een reis tot stand te brengen zijn als volgt:
+
+![](assets/journey-creation-process.png)
 
 Adobe Journey Optimizer bevat een omnichannel orchestration canvas dat marketers in staat stelt marketingactiviteiten te harmoniseren met een-op-een-klantenservice. Met de gebruikersinterface kunt u activiteiten van het palet naar het canvas slepen om uw reis te maken.
 

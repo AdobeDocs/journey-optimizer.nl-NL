@@ -7,29 +7,65 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 1%
+source-wordcount: '936'
+ht-degree: 2%
 
 ---
 
-# Inhoudssjablonen maken {#content-templates}
+# Werken met inhoudssjablonen {#content-templates}
 
 >[!CONTEXTUALHELP]
 >id="ajo_content_templates"
 >title="Inhoudssjablonen maken"
->abstract="Zelfstandige sjablonen maken om inhoud te hergebruiken voor reizen en campagnes."
+>abstract="Zelfstandige sjablonen maken om inhoud te hergebruiken tijdens reizen en campagnes."
 
-Voor een geavanceerd en verbeterd ontwerpproces kunt u zelfstandige sjablonen maken om aangepaste inhoud eenvoudig te hergebruiken in [!DNL Journey Optimizer] campagnes en reizen.
+Voor een versnelde en verbeterde ontwerpprocedure kunt u zelfstandige sjablonen maken om aangepaste inhoud eenvoudig te hergebruiken in [!DNL Journey Optimizer] campagnes en reizen.
 
 Met deze functionaliteit kunnen gebruikers die op inhoud zijn gericht, aan sjablonen werken buiten campagnes of reizen. Marketing-gebruikers kunnen deze zelfstandige inhoudssjablonen vervolgens hergebruiken en aanpassen binnen hun eigen reizen of campagnes.
+
+Een gebruiker in uw bedrijf is bijvoorbeeld alleen verantwoordelijk voor inhoud en heeft daarom geen toegang tot campagnes of reizen. Deze gebruiker kan echter een e-mailsjabloon maken die de marketers van uw organisatie kunnen selecteren voor gebruik in alle e-mails als startpunt.
+
+➡️ [Leer hoe u in deze video sjablonen maakt en gebruikt](#video-templates)
 
 >[!CAUTION]
 >
 >Als u inhoudssjablonen wilt maken, bewerken en verwijderen, moet u beschikken over de **[!DNL Manage Library Items]** bevoegdheid opgenomen in de **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
 
-Een gebruiker in uw bedrijf is bijvoorbeeld alleen verantwoordelijk voor inhoud en heeft daarom geen toegang tot campagnes of reizen. Deze gebruiker kan echter een e-mailsjabloon maken die de marketers van uw organisatie kunnen selecteren voor gebruik in alle e-mails als startpunt.
+## Sjablonen openen en beheren {#access-manage-templates}
+
+Selecteer **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** in het linkermenu.
+
+![](assets/content-template-list.png)
+
+Alle sjablonen die op de huidige sandbox zijn gemaakt - van een reis of een campagne met de [Opslaan als sjabloon](#save-as-template) van de **[!UICONTROL Content Templates]** menu - worden weergegeven.
+
+U kunt inhoudssjablonen sorteren op aanmaak- of wijzigingsdatum. U kunt er ook voor kiezen om alleen de items weer te geven die u hebt gemaakt of gewijzigd.
+
+![](assets/content-template-list-filters.png)
+
+Als u sjablooninhoud wilt bewerken, klikt u op het gewenste item in de lijst en selecteert u **[!UICONTROL Edit content]**.
+
+![](assets/content-template-list-edit.png)
+
+Als u een sjabloon wilt verwijderen, selecteert u het prullenbakpictogram naast de gewenste sjabloon.
+
+![](assets/content-template-list-delete.png)
+
+>[!NOTE]
+>
+>Wanneer een sjabloon wordt bewerkt of verwijderd, hebben campagnes of reizen, inclusief e-mails die met deze sjabloon zijn gemaakt, geen invloed op deze sjabloon.
+
+## Inhoudssjablonen maken {#create-content-templates}
+
+U kunt inhoudssjablonen op twee manieren maken:
+
+* Een geheel nieuw inhoudssjabloon maken met de linkerrails **[!UICONTROL Content Templates]** -menu. [Meer informatie](#create-template-from-scratch)
+
+* Sla uw e-mailinhoud op als sjabloon wanneer u een e-mail ontwerpt in een campagne of een reis. [Meer informatie](#save-as-template)
+
+Nadat u de inhoudssjabloon hebt opgeslagen, kunt u deze gebruiken voor een campagne of een reis. Of deze sjabloon nu op basis van een blanco formulier of op basis van een vorige e-mail is gemaakt, u kunt deze sjabloon nu gebruiken bij het samenstellen van [email](get-started-email-design.md) binnen [!DNL Journey Optimizer]. [Meer informatie](email-templates.md)
 
 >[!NOTE]
 >
@@ -38,19 +74,13 @@ Een gebruiker in uw bedrijf is bijvoorbeeld alleen verantwoordelijk voor inhoud 
 >* En als sjablonen worden gebruikt in een campagne of een reis, hebben alle bewerkingen die u aanbrengt in uw campagne en inhoud van de reis geen invloed op de eerder gebruikte inhoudssjabloon.
 
 
-➡️ [Leer hoe u in deze video sjablonen maakt en gebruikt](#video-templates)
+### Een geheel nieuwe sjabloon maken {#create-template-from-scratch}
 
-Voer de onderstaande stappen uit om een inhoudssjabloon te maken.
+Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken.
 
-1. Selecteer **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** in het linkermenu.
+1. Open de lijst met inhoudssjablonen via **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** links.
 
    ![](assets/content-template-list.png)
-
-1. Alle sjablonen die op de huidige sandbox zijn gemaakt - van een reis, een campagne of de **[!UICONTROL Content Templates]** menu - worden weergegeven.
-
-   >[!NOTE]
-   >
-   >U kunt inhoudssjablonen sorteren op aanmaak- of wijzigingsdatum.
 
 1. Selecteer **[!UICONTROL Create template]**.
 
@@ -64,36 +94,74 @@ Voer de onderstaande stappen uit om een inhoudssjabloon te maken.
 
 1. Selecteer **[!UICONTROL Manage access]**. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md).
 
-1. Klikken **[!UICONTROL Create]** en kies hoe u uw e-mail van de volgende opties wilt ontwerpen:
+1. Klikken **[!UICONTROL Create]** en kies hoe u uw e-mail van de verschillende opties wilt ontwerpen:
 
-   * **[!UICONTROL Design from scratch]**
-   * **[!UICONTROL Code your own]**
-   * **[!UICONTROL Import HTML]**
-   * **[!UICONTROL Select design template]**
-
-   ![](assets/content-template-design.png)
-
-   >[!NOTE]
-   >
-   >Als u een sjabloon selecteert, kunt u kiezen tussen **[!UICONTROL Sample templates]**, die e-mailsjablonen zijn die buiten de box vallen, en **[!UICONTROL Saved templates]**, die ontstaan zijn door een reis, een campagne of **[!UICONTROL Content Templates]** -menu. [Meer informatie](email-templates.md#save-as-template)
-
-1. In het dialoogvenster E-mailontwerper wordt weergegeven. Bewerk uw inhoud naar wens, net zoals u doet voor elke e-mail binnen een rit of campagne, afhankelijk van de optie die u hebt geselecteerd:
-
-   * [Ontwerp uw e-mail helemaal zelf](content-from-scratch.md) via de interface van de ontwerper en met behulp van afbeeldingen [Adobe Experience Manager Assets Essentials](assets-essentials.md).
+   * [Ontwerp uw e-mail helemaal zelf](content-from-scratch.md) via de interface van E-mailontwerper.
 
    * [Code of copy-paste onbewerkte HTML](code-content.md) rechtstreeks in de e-mailontwerper.
 
    * [Bestaande HTML-inhoud importeren](existing-content.md) uit een bestand of een ZIP-map.
 
-   * [Bestaande inhoud gebruiken](email-templates.md) uit een lijst met ingebouwde of aangepaste sjablonen.
+   * Bestaande inhoud uit een lijst met ingebouwde of aangepaste sjablonen gebruiken. De stappen voor het gebruik van een inhoudssjabloon in een e-mail worden beschreven in [deze sectie](email-templates.md).
+
+   ![](assets/content-template-design.png)
+
+1. De [E-mailontwerper](get-started-email-design.md) worden weergegeven. Bewerk uw inhoud naar wens, net zoals u dat zou doen voor elke e-mail binnen een reis of campagne, afhankelijk van de optie die u hebt geselecteerd.
 
    ![](assets/content-template-designer.png)
 
-1. Klikken **[!UICONTROL Simulate Content]** om de rendering van uw e-mail te controleren. U kunt kiezen voor de weergave Computer of Mobiel. [Meer informatie](preview.md)
+1. U kunt de inhoud desgewenst testen. [Meer informatie](#test-template)
 
-   >[!CAUTION]
-   >
-   >Om inhoud te simuleren, moet u hebben **[!DNL Manage Simulate Content]** bevoegdheid opgenomen in de **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
+1. Als de sjabloon gereed is, klikt u op **[!UICONTROL Save]**.
+
+1. Klik zo nodig op de pijl naast de sjabloonnaam om terug te gaan naar de **[!UICONTROL Details]** het scherm en geeft uw malplaatje uit.
+
+   ![](assets/content-template-designer-back.png)
+
+Deze sjabloon kan nu worden gebruikt wanneer u e-mailberichten maakt binnen [!DNL Journey Optimizer]. [Meer informatie](email-templates.md)
+
+### Opslaan als sjabloon {#save-as-template}
+
+>[!CONTEXTUALHELP]
+>id="ajo_messages_depecrated_inventory"
+>title="Leer hoe u berichten kunt migreren"
+>abstract="Op 25 juli 2022 is het menu Berichten verdwenen en worden berichten nu rechtstreeks vanuit een reis geschreven. Als u oude berichten tijdens reizen opnieuw wilt gebruiken, moet u ze opslaan als sjablonen."
+
+Bij het ontwerpen van een [email](get-started-email-design.md) in een campagne of een reis, kunt u uw e-mailinhoud voor toekomstig hergebruik bewaren. Volg de onderstaande stappen om dit te doen.
+
+1. Klik in de E-mailontwerper op de ellips rechtsboven in het scherm.
+
+1. Selecteren **[!UICONTROL Save as content template]** in het keuzemenu.
+
+   ![](assets/email_designer-save-template.png)
+
+1. Voeg een naam en beschrijving toe voor deze sjabloon.
+
+   ![](assets/email_designer-template-name.png)
+
+1. Klik op **[!UICONTROL Save]**.
+
+1. De sjabloon wordt opgeslagen in de **[!UICONTROL Content Templates]** lijst, toegankelijk via de [!DNL Journey Optimizer] speciaal menu. Het wordt een standalone inhoudsmalplaatje dat kan worden betreden, worden uitgegeven en worden geschrapt zoals om het even welk ander punt op die lijst. [Meer informatie](#access-manage-templates)
+
+U kunt deze sjabloon nu gebruiken wanneer u een [email](get-started-email-design.md) binnen [!DNL Journey Optimizer]. [Meer informatie](email-templates.md)
+
+>[!NOTE]
+>
+>Om het even welke verandering in dat nieuwe malplaatje wordt niet verspreid aan e-mail het uit komt. Op dezelfde manier wordt de nieuwe sjabloon niet gewijzigd wanneer de oorspronkelijke inhoud in die e-mail wordt bewerkt.
+
+## De inhoudssjabloon testen {#test-template}
+
+U kunt de rendering van elke sjabloon voor e-mailinhoud testen, ongeacht of deze geheel nieuw of via een e-mail is gemaakt. Hiervoor voert u de volgende stappen uit.
+
+>[!CAUTION]
+>
+>Om inhoud te simuleren, moet u hebben **[!DNL Manage Simulate Content]** bevoegdheid opgenomen in de **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
+
+1. Open de lijst met inhoudssjablonen via **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** en selecteert u een sjabloon.
+
+1. Klikken **[!UICONTROL Edit content]** van de **[!UICONTROL Template properties]**.
+
+1. Klikken **[!UICONTROL Simulate Content]** en selecteer een testprofiel om de weergave van uw e-mail te controleren. U kunt kiezen voor de weergave Computer of Mobiel. [Meer informatie](preview.md)
 
    ![](assets/content-template-stimulate.png)
 
@@ -105,17 +173,7 @@ Voer de onderstaande stappen uit om een inhoudssjabloon te maken.
 
       ![](assets/content-template-stimulate-proof-surface.png)
 
-1. Als de sjabloon gereed is, klikt u op **[!UICONTROL Save]**.
-
-1. Klik zo nodig op de pijl naast de sjabloonnaam om terug te gaan naar de **[!UICONTROL Details]** het scherm en geeft uw malplaatje uit.
-
-   ![](assets/content-template-designer-back.png)
-
-1. U kunt deze inhoudssjabloon nu gebruiken wanneer u een [email](get-started-email-design.md) binnen [!DNL Journey Optimizer]. Meer informatie over [een opgeslagen sjabloon gebruiken](email-templates.md#use-saved-template).
-
-   ![](assets/email_designer-saved-templates.png)
-
-## Hoe kan ik-video{#video-templates}
+## Hoe kan ik-video {#video-templates}
 
 Leer hoe u inhoudssjablonen kunt maken, bewerken en gebruiken in [!DNL Journey Optimizer].
 
