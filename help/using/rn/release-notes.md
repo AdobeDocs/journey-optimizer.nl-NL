@@ -4,7 +4,7 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: ad0ca954d2ba15293bdde2715a7aaed62b040cce
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 8%
@@ -56,9 +56,8 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 <td>
 <p>U kunt nu zelfstandige inhoudssjablonen maken die u kunt gebruiken voor reizen en campagnes voor snel hergebruik.</p> 
 </p>
-<!--img src="assets/do-not-localize/"/-->
-<p>Leer hoe u inhoudssjablonen kunt maken, bewerken en gebruiken in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">deze video</a>.
-<p>Raadpleeg de <a href="../email/content-templates.md">gedetailleerde documentatie</a> voor meer informatie.
+<img src="assets/do-not-localize/content-template.gif"/>
+<p>Leer hoe u inhoudssjablonen kunt maken, bewerken en gebruiken in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html">deze video</a>. Raadpleeg de <a href="../email/content-templates.md">gedetailleerde documentatie</a> voor meer informatie.
 </p>
 </td>
 </tr>
