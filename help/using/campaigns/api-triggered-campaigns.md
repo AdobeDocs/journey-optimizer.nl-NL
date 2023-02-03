@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,10 @@ De `{{context.<contextualAttribute>}}` syntaxis wordt alleen toegewezen aan een 
 
 ![](assets/api-triggered-context.png)
 
+
 >[!IMPORTANT]
+>
+>De contextafhankelijke kenmerken die aan de aanvraag worden doorgegeven, mogen niet groter zijn dan 50 kB.
 >
 >De `context.system` syntaxis is beperkt tot Adobe intern gebruik en mag niet worden gebruikt om contextuele kenmerken door te geven.
 
