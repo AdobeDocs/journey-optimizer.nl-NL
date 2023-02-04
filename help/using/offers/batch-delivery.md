@@ -2,9 +2,9 @@
 title: Batchbeslissing
 description: Leer hoe u beslissingen kunt aanbieden voor alle profielen in een bepaald Adobe Experience Platform-segment.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: f3f38e7db95bd1a6dc41b1626177c800280fb71c
+source-git-commit: a56d675e014d55064073eba011fb50e2d363844d
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '812'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Voordat u een taakaanvraag configureert, moet u controleren of u het volgende he
 
    >[!NOTE]
    >
-   >Een batchtaak loopt van de profielmomentopname die één keer per dag plaatsvindt. Met de optie Batch-beslissingen wordt de frequentie vastgelegd en worden profielen altijd geladen vanaf de meest recente momentopname.
+   >Een batchtaak loopt van de profielmomentopname die één keer per dag plaatsvindt. Met de optie Batch-beslissingen wordt de frequentie vastgelegd en worden profielen altijd geladen vanaf de meest recente momentopname. Wacht 24 uur nadat u een segment hebt gemaakt voordat u de batch-beslissings-API uitprobeert.
 
 * **Een besluit** in Adobe Journey Optimizer. [Leer hoe u een beslissing maakt](offer-activities/create-offer-activities.md)
 
