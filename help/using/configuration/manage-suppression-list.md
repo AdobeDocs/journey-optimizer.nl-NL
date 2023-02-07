@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: onderdrukken, lijst, stuiteren, e-mail, optimaliseren, quarantaine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 0c5b0ff95ccfc1140eb380bf321c810a594946e6
+source-git-commit: 508576b1ee161a7efe46a2c553bd309db7ac2f7d
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1454'
 ht-degree: 1%
 
 ---
@@ -30,17 +30,19 @@ Meer informatie over het concept en het gebruik van de suppressielijst in [deze 
 
 Blader naar de gedetailleerde lijst met uitgesloten e-mailadressen en domeinen voor toegang tot deze lijst **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** en selecteert u **[!UICONTROL Suppression list]**.
 
+
+![](assets/suppression-list-access.png)
+
 >[!CAUTION]
 >
 >Machtigingen voor het weergeven, exporteren en beheren van de suppressielijst zijn beperkt tot [Reisbeheerders](../administration/ootb-product-profiles.md#journey-administrator). Meer informatie over beheren [!DNL Journey Optimizer] toegangsrechten van gebruikers in [deze sectie](../administration/permissions-overview.md).
 
-![](assets/suppression-list-access.png)
 
 Er zijn filters beschikbaar waarmee u door de lijst kunt bladeren.
 
 ![](assets/suppression-list-filters.png)
 
-U kunt filteren op de **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, of **[!UICONTROL Reason]**. Selecteer de optie(s) van uw keuze voor elk criterium. Als deze optie is geselecteerd, kunt u elk filter of alle filters die boven op de lijst worden weergegeven, wissen.
+U kunt filteren op de **[!UICONTROL Suppression category]**, **[!UICONTROL Address type]**, of **[!UICONTROL Reason]**. Selecteer een of meer opties voor elk criterium. Als deze optie is geselecteerd, kunt u elk filter of alle filters die boven op de lijst worden weergegeven, wissen.
 
 ![](assets/suppression-list-filtering-example.png)
 
@@ -220,7 +222,7 @@ Als u een adres uit de lijst met onderdrukking wilt verwijderen, gebruikt u de o
 
 Bijvoorbeeld in het geval van een stroomonderbreking van Internet Service Provider (ISP), worden de e-mails ten onrechte gemarkeerd als harde bruggen omdat zij niet met succes aan hun ontvanger kunnen worden geleverd. Deze e-mailadressen moeten uit de onderdrukkingslijst worden verwijderd.
 
-Om dit te doen, filter de suppressielijst aan vertonings beïnvloede e-mailadressen of domeinen. Bijvoorbeeld als een ISP stroomonderbreking van 11 Nov, 2022 aan 13 Nov, 2022 op **test.com** -domein, filtert u de adressen die in die tijdlijn aan de suppressielijst zijn toegevoegd, zoals hieronder:
+Om dit te doen, filter de suppressielijst aan vertoningsbeïnvloede e-mailadressen of domeinen. Bijvoorbeeld als een ISP stroomonderbreking van 11 Nov, 2022 aan 13 Nov, 2022 op **test.com** -domein, filtert u de adressen die in die tijdlijn aan de suppressielijst zijn toegevoegd, zoals hieronder:
 
 ![](assets/remove-from-supp-list.png)
 
