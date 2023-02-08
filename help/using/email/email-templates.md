@@ -9,23 +9,33 @@ role: User
 level: Beginner
 keywords: e-mail, sjablonen, ontwerpen
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '242'
 ht-degree: 1%
 
 ---
 
 # E-mailsjablonen gebruiken {#email-templates}
 
+>[!CONTEXTUALHELP]
+>id="ajo_use_template"
+>title="Inhoud maken op basis van een aangepaste sjabloon"
+>abstract="Als u uw e-mailinhoud wilt gaan maken, selecteert u een bestaande sjabloon die geheel nieuw is gemaakt of als sjabloon is opgeslagen in een vorige e-mail."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/content-templates.html#create-content-templates" text="Inhoudssjablonen maken"
+
 Van de **[!UICONTROL Create your email]** scherm, gebruik **[!UICONTROL Select design template]** om uw inhoud op te bouwen van een sjabloon.
 
 ![](assets/email_designer-templates.png)
 
 U kunt kiezen uit:
+
 * **Voorbeeldsjablonen**. De [!DNL Journey Optimizer] de interface biedt 20 uit-van-de-doos e-mailmalplaatjes aan die u van kunt kiezen.
+
 * **Opgeslagen sjablonen**. U kunt ook een aangepaste sjabloon gebruiken die u:
+
    * Geheel nieuw gemaakt met de **[!UICONTROL Content templates]** -menu. [Meer informatie](content-templates.md#create-template-from-scratch)
+
    * Opgeslagen via een e-mail op reis of tijdens een campagne via de **[!UICONTROL Save as content template]** optie. [Meer informatie](content-templates.md#save-as-template)
 
 Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen met een van de voorbeeldsjablonen of opgeslagen sjablonen.

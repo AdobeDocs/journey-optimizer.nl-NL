@@ -4,10 +4,10 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '2305'
-ht-degree: 18%
+source-wordcount: '2328'
+ht-degree: 17%
 
 ---
 
@@ -18,6 +18,8 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 ## Februari 2023 {#feb-2023}
 
 * Er is een opmerking toegevoegd aan de API-getriggerde campagnedocumentatie om op te geven dat contextafhankelijke kenmerken die aan de aanvraag worden doorgegeven, niet groter mogen zijn dan 50 kB. [Meer informatie](../campaigns/api-triggered-campaigns.md#contextual)
+
+* Toegevoegde informatie over de wijze waarop gegevens over opt-out worden opgeslagen in het dialoogvenster **Dataset voor goedgekeurde service** nadat de ontvangers zijn afgemeld via een bestemmingspagina. [Meer informatie](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## Januari 2023 {#jan-2023}
 

@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 keywords: in-app, bericht, ontwerp, opmaak
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 9%
+source-wordcount: '789'
+ht-degree: 8%
 
 ---
 
@@ -194,3 +194,9 @@ Als de **[!UICONTROL Advanced formatting mode]** is ingeschakeld, kunt u uw beri
 * [In-app-bericht maken](create-in-app.md)
 * [Rapport in app](inapp-report.md)
 * [Configuratie in de app](inapp-configuration.md)
+
+## Hoe kan ik-video{#video}
+
+In de onderstaande video ziet u hoe u uw In-app-berichten kunt ontwerpen en testen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

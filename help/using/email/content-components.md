@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: componenten, e-mailontwerper, editor, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1071'
 ht-degree: 0%
 
 ---
@@ -168,44 +168,6 @@ Gebruik de **[!UICONTROL Image]** om een afbeeldingsbestand van uw computer in t
    ![](assets/email_designer_10.png)
 
 1. Pas de andere opmaakkenmerken aan, zoals marge, rand, enz. of u voegt een koppeling toe om uw publiek om te leiden naar een andere inhoud vanuit de **[!UICONTROL Component settings]** venster.
-
-## Video {#Video}
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_email"
->title="Video-instellingen"
->abstract="Gebruik deze component om een video in te voegen in uw e-mail. Video&#39;s werken niet voor alle e-mailclients. We raden u aan een fallback-afbeelding in te stellen."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_landing_page"
->title="Video-instellingen"
->abstract="Gebruik deze component om een video in te voegen in uw openingspagina. Video&#39;s werken niet op alle berichtclients. We raden u aan een fallback-afbeelding in te stellen."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_fragment"
->title="Video-instellingen"
->abstract="Gebruik deze component om een video in te voegen in uw fragment. Video&#39;s werken niet op alle berichtclients. We raden u aan een fallback-afbeelding in te stellen."
-
->[!CONTEXTUALHELP]
->id="ac_edition_video_template"
->title="Video-instellingen"
->abstract="Gebruik deze component om een video in uw sjabloon in te voegen. Video&#39;s werken niet op alle berichtclients. We raden u aan een fallback-afbeelding in te stellen."
-
-Gebruik de **[!UICONTROL Video]** om een video in te voegen in uw e-mailinhoud via een URL-koppeling.
-
-1. Van **[!UICONTROL Content Components]**, slepen en neerzetten **[!UICONTROL Video]** component in een **[!UICONTROL Structure component]**.
-
-   ![](assets/email_designer_17.png)
-
-1. Klik op de nieuwe component.
-
-1. In de **[!UICONTROL Video link]** van het **[!UICONTROL Components settings]** toevoegen.
-
-   ![](assets/email_designer_18.png)
-
-1. U kunt een **[!UICONTROL Poster image]** op uw video om een afbeelding op te geven die moet worden weergegeven totdat uw publiek op de afspeelknop klikt.
-
-1. Pas de andere opmaakkenmerken aan, zoals stijl, marge, rand, enzovoort. van de **[!UICONTROL Component settings]** venster.
 
 ## Social {#social}
 

@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 keywords: in-app, bericht, maken, starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '564'
 ht-degree: 3%
 
 ---
@@ -115,3 +115,9 @@ Zodra verzonden, kunt u het effect van uw in-app berichten binnen het rapport va
 * [In-app-bericht ontwerpen](design-in-app.md)
 * [Rapport in app](inapp-report.md)
 * [Configuratie in de app](inapp-configuration.md)
+
+## Hoe kan ik-video{#video}
+
+In de onderstaande video ziet u hoe u in-app-berichten kunt maken, configureren en publiceren in uw campagnes.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)

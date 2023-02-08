@@ -7,19 +7,14 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '945'
 ht-degree: 2%
 
 ---
 
 # Werken met inhoudssjablonen {#content-templates}
-
->[!CONTEXTUALHELP]
->id="ajo_content_templates"
->title="Inhoudssjablonen maken"
->abstract="Zelfstandige sjablonen maken om inhoud te hergebruiken tijdens reizen en campagnes."
 
 Voor een versnelde en verbeterde ontwerpprocedure kunt u zelfstandige sjablonen maken om aangepaste inhoud eenvoudig te hergebruiken in [!DNL Journey Optimizer] campagnes en reizen.
 
@@ -58,6 +53,11 @@ Als u een sjabloon wilt verwijderen, selecteert u het prullenbakpictogram naast 
 >Wanneer een sjabloon wordt bewerkt of verwijderd, hebben campagnes of reizen, inclusief e-mails die met deze sjabloon zijn gemaakt, geen invloed op deze sjabloon.
 
 ## Inhoudssjablonen maken {#create-content-templates}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_template"
+>title="Uw eigen inhoudssjabloon definiëren"
+>abstract="Maak een volledig zelfstandig aangepaste sjabloon, zodat uw inhoud tijdens meerdere reizen en campagnes opnieuw kan worden gebruikt."
 
 U kunt inhoudssjablonen op twee manieren maken:
 
