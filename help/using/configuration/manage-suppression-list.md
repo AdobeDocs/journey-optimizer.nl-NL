@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: onderdrukken, lijst, stuiteren, e-mail, optimaliseren, quarantaine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 508576b1ee161a7efe46a2c553bd309db7ac2f7d
+source-git-commit: 792eb6d042e748601c9810e6988ecc0b79061dda
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1457'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ Mogelijke oorzaken voor een mislukking van de levering zijn:
 
 ### Regels voor onderdrukking  {#suppression-rules}
 
-Van de **[!UICONTROL Suppression list]** kunt u ook de parameter retry bewerken die is gekoppeld aan de onderdrukkingsregels in het menu **[!UICONTROL Edit suppression rules button]**. Gebruik deze optie om de drempel voor opnieuw proberen voor de huidige zandbak bij te werken. [Meer informatie](retries.md)
+Van de **[!UICONTROL Suppression list]** kunt u ook de parameter retry bewerken die is gekoppeld aan de onderdrukkingsregels in het menu **[!UICONTROL Edit suppression rules]** knop. Gebruik deze optie om de drempel voor opnieuw proberen voor de huidige zandbak bij te werken. [Meer informatie over pogingen](retries.md).
 
 
 ## Voeg adressen en domeinen aan de onderdrukkingslijst toe{#add-addresses-and-domains}
@@ -126,7 +126,7 @@ Voer de onderstaande stappen uit om een e-mailadres of domein toe te voegen aan 
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. Selecteer het adrestype: **[!UICONTROL Email address]** of **[!UICONTROL Domain address]**.
+1. Selecteer het adrestype: **[!UICONTROL Email]** of **[!UICONTROL Domain]**.
 
 1. Voer het e-mailadres of domein in dat u van uw verzending wilt uitsluiten.
 
