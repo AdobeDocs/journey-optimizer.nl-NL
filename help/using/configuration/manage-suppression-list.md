@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: onderdrukken, lijst, stuiteren, e-mail, optimaliseren, quarantaine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
+source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
 workflow-type: tm+mt
 source-wordcount: '1429'
 ht-degree: 1%
@@ -221,7 +221,7 @@ Als u een adres uit de lijst met onderdrukking wilt verwijderen, gebruikt u de o
 
 Bijvoorbeeld in het geval van een stroomonderbreking van Internet Service Provider (ISP), worden de e-mails ten onrechte gemarkeerd als harde bruggen omdat zij niet met succes aan hun ontvanger kunnen worden geleverd. Deze e-mailadressen moeten uit de onderdrukkingslijst worden verwijderd.
 
-Om die adressen terug te winnen, stel een specifieke vraag met douaneparameters in werking, die op de context van de stroomonderbreking worden gebaseerd. [Meer informatie in dit voorbeeld](../data/datasets-query-examples.md#isp-outageisp-outage-query).
+Om die adressen terug te winnen, stel een specifieke vraag met douaneparameters in werking, die op de context van de stroomonderbreking worden gebaseerd. [Meer informatie in dit voorbeeld](../data/datasets-query-examples.md#isp-outage-query).
 
 Wanneer de betrokken e-mailadressen zijn geïdentificeerd, filtert u de lijst met onderdrukking om deze weer te geven. Bijvoorbeeld als een ISP stroomonderbreking van 11 Nov, 2022 aan 13 Nov, 2022 op **test.com** -domein, filtert u de adressen die in die tijdlijn aan de suppressielijst zijn toegevoegd, zoals hieronder:
 
