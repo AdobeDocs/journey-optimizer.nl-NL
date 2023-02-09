@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: onderdrukken, lijst, stuiteren, e-mail, optimaliseren, quarantaine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 792eb6d042e748601c9810e6988ecc0b79061dda
+source-git-commit: 1af4f6c0ec3b529eb53c45e1cfa2fd0148a98b04
 workflow-type: tm+mt
 source-wordcount: '1457'
 ht-degree: 1%
@@ -220,13 +220,13 @@ Als u een adres uit de lijst met onderdrukking wilt verwijderen, gebruikt u de o
 >Ga voorzichtig te werk wanneer u overweegt een e-mailadres of domein te verwijderen. Neem in geval van twijfel contact op met een leverancier.
 
 
-Bijvoorbeeld in het geval van een stroomonderbreking van Internet Service Provider (ISP), worden de e-mails ten onrechte gemarkeerd als harde bruggen omdat zij niet met succes aan hun ontvanger kunnen worden geleverd. Deze e-mailadressen moeten uit de onderdrukkingslijst worden verwijderd.
+Bijvoorbeeld in het geval van een stroomonderbreking van Internet Service Provider (ISP), kunnen de e-mails verkeerd als harde grenzen worden gemerkt omdat zij niet met succes aan hun ontvanger kunnen worden geleverd. Deze e-mailadressen moeten uit de onderdrukkingslijst worden verwijderd.
 
 Om dit te doen, filter de suppressielijst aan vertoningsbeïnvloede e-mailadressen of domeinen. Bijvoorbeeld als een ISP stroomonderbreking van 11 Nov, 2022 aan 13 Nov, 2022 op **test.com** -domein, filtert u de adressen die in die tijdlijn aan de suppressielijst zijn toegevoegd, zoals hieronder:
 
 ![](assets/remove-from-supp-list.png)
 
-U moet ook een filter op het type harde stuit, afhankelijk van de details van de stroomonderbreking toevoegen. Deze details worden verstrekt door ISP, zoals de nauwkeurige foutencode die aan de afzender is teruggekeerd. Bijvoorbeeld: `550 <email address> recipient rejected` of `550 5.1.1 ‘email address’: user lookup success but no user record found`.
+U moet ook een filter op het type van stuit toevoegen, afhankelijk van de details van de stroomonderbreking. Deze details worden verstrekt door ISP, zoals de nauwkeurige foutencode die aan de afzender is teruggekeerd. Bijvoorbeeld: `550 <email address> recipient rejected` of `550 5.1.1 ‘email address’: user lookup success but no user record found`.
 
 Zodra geïdentificeerd, kunnen deze adressen manueel uit de onderdrukkingslijst worden verwijderd gebruikend **[!UICONTROL Delete]** knop. Deze adressen kunnen dan in toekomstige e-mailcampagnes worden omvat.
 
