@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: onderdrukken, lijst, stuiteren, e-mail, optimaliseren, quarantaine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1af4f6c0ec3b529eb53c45e1cfa2fd0148a98b04
+source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1429'
 ht-degree: 1%
 
 ---
@@ -219,16 +219,15 @@ Als u een adres uit de lijst met onderdrukking wilt verwijderen, gebruikt u de o
 >
 >Ga voorzichtig te werk wanneer u overweegt een e-mailadres of domein te verwijderen. Neem in geval van twijfel contact op met een leverancier.
 
+Bijvoorbeeld in het geval van een stroomonderbreking van Internet Service Provider (ISP), worden de e-mails ten onrechte gemarkeerd als harde bruggen omdat zij niet met succes aan hun ontvanger kunnen worden geleverd. Deze e-mailadressen moeten uit de onderdrukkingslijst worden verwijderd.
 
-Bijvoorbeeld in het geval van een stroomonderbreking van Internet Service Provider (ISP), kunnen de e-mails verkeerd als harde grenzen worden gemerkt omdat zij niet met succes aan hun ontvanger kunnen worden geleverd. Deze e-mailadressen moeten uit de onderdrukkingslijst worden verwijderd.
+Om die adressen terug te winnen, stel een specifieke vraag met douaneparameters in werking, die op de context van de stroomonderbreking worden gebaseerd. [Meer informatie in dit voorbeeld](../data/datasets-query-examples.md#isp-outageisp-outage-query).
 
-Om dit te doen, filter de suppressielijst aan vertoningsbeïnvloede e-mailadressen of domeinen. Bijvoorbeeld als een ISP stroomonderbreking van 11 Nov, 2022 aan 13 Nov, 2022 op **test.com** -domein, filtert u de adressen die in die tijdlijn aan de suppressielijst zijn toegevoegd, zoals hieronder:
+Wanneer de betrokken e-mailadressen zijn geïdentificeerd, filtert u de lijst met onderdrukking om deze weer te geven. Bijvoorbeeld als een ISP stroomonderbreking van 11 Nov, 2022 aan 13 Nov, 2022 op **test.com** -domein, filtert u de adressen die in die tijdlijn aan de suppressielijst zijn toegevoegd, zoals hieronder:
 
 ![](assets/remove-from-supp-list.png)
 
-U moet ook een filter op het type van stuit toevoegen, afhankelijk van de details van de stroomonderbreking. Deze details worden verstrekt door ISP, zoals de nauwkeurige foutencode die aan de afzender is teruggekeerd. Bijvoorbeeld: `550 <email address> recipient rejected` of `550 5.1.1 ‘email address’: user lookup success but no user record found`.
-
-Zodra geïdentificeerd, kunnen deze adressen manueel uit de onderdrukkingslijst worden verwijderd gebruikend **[!UICONTROL Delete]** knop. Deze adressen kunnen dan in toekomstige e-mailcampagnes worden omvat.
+Vervolgens kunt u de in quarantaine geplaatste e-mailadressen verwijderen uit de lijst met onderdrukking met de opdracht **[!UICONTROL Delete]** knop.
 
 ## De suppressielijst downloaden {#download-suppression-list}
 
@@ -236,7 +235,7 @@ Zodra geïdentificeerd, kunnen deze adressen manueel uit de onderdrukkingslijst 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list_download"
 >title="Export the list as a CSV file"
->abstract="To download the suppression list, you can either export the current list by generating a new file, or download the file that was previously generated."
+>abstract="To download the suppression list, Qou can either export the current list by generating a new file, or download the file that was previously generated."
 -->
 
 Voer de volgende stappen uit om de lijst met onderdrukking als een CSV-bestand te exporteren:

@@ -1,14 +1,14 @@
 ---
 product: Journey Optimizer
 audience: end-user
-user-guide-title: Journey Optimizer Guide
-user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
+user-guide-title: Handleiding voor Journey Optimizer
+user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
 source-wordcount: '1311'
-ht-degree: 35%
+ht-degree: 36%
 
 ---
 
@@ -413,10 +413,10 @@ ht-degree: 35%
 + Data management {#data-management}
    + [Aan de slag met gegevensbeheer](using/data/gs-data.md)
    + [Werken met schema&#39;s](using/data/get-started-schemas.md)
+   + [Zoekopdrachten](using/data/get-started-queries.md)
    + Journey Optimizer-gegevenssets {#datasets}
       + [Aan de slag met gegevenssets](using/data/get-started-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-   + [Zoekopdrachten](using/data/get-started-queries.md)
 + Configuratie{#configuration}
    + [Aan de slag met de Journey Optimizer-configuratie](using/configuration/get-started-configuration.md)
    + E-mailsubdomeinen delegeren {#delegate-subdomains}
@@ -471,4 +471,4 @@ ht-degree: 35%
    + Toestemming beheren {#consent}
       + [Weigeren beheren](using/privacy/opt-out.md)
       + [Werken met toestemmingsbeleid](using/action/consent.md)
-   + [Data Governance](using/action/action-privacy.md)
+   + [Gegevensbeheer](using/action/action-privacy.md)

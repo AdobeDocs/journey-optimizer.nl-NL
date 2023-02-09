@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: dataset, optimizer, gebruiksgevallen
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -144,6 +144,28 @@ Permanente fouten gegroepeerd op stuitercode:
 ```sql
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
+
+### Identificeer quarantined adressen na een ISP stroomonderbreking{#isp-outage-query}
+
+In het geval van een stroomonderbreking van Internet Service Provider (ISP), moet u e-mailadressen identificeren die verkeerd als grenzen (quarantined) voor specifieke domeinen, tijdens een timeframe worden aangebracht. Gebruik de volgende query om deze adressen op te halen:
+
+```sql
+SELECT
+    _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress,
+    timestamp AS EventTime,
+    _experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.reason AS "Invalid Recipient"
+FROM cjm_message_feedback_event_dataset
+WHERE
+    eventtype = 'message.feedback' AND
+    DATE(timestamp) BETWEEN '<start-date-time>' AND '<end-date-time>' AND
+    _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND
+    _experience.customerJourneyManagement.emailChannelContext.address ILIKE '%domain.com%'
+ORDER BY timestamp DESC;
+```
+
+wanneer de datumnotatie: YYYY-MM-DD HH:MM:SS.
+
+Zodra geïdentificeerd, verwijder die adressen uit de onderdrukkingslijst van Journey Optimizer. [Meer informatie](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
 ## Dataset met gebeurtenissen voor het bijhouden van pushmeldingen {#push-tracking-experience-event-dataset}
 
