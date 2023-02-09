@@ -1,16 +1,16 @@
 ---
 title: Webpagina's van auteurs
 description: Leer hoe u een webpagina ontwerpt en de inhoud ervan bewerkt in Journey Optimizer
-feature: Overview
+feature: Web channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ Nadat u een webactie hebt gemaakt vanuit de campagne, kunt u de inhoud bewerken 
 
 >[!CAUTION]
 >
->Te benaderen in [!DNL Journey Optimizer], moet uw webpagina worden geïmplementeerd met de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
+>Te benaderen in [!DNL Journey Optimizer], moet uw webpagina worden geïmplementeerd met de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.
 
 1. Van de **[!UICONTROL Action]** tabblad van de campagne, selecteert u **[!UICONTROL Edit content]** om uw webcampagne te gaan ontwerpen.
 
@@ -61,7 +61,7 @@ Nadat u een webactie hebt gemaakt vanuit de campagne, kunt u de inhoud bewerken 
 
    >[!CAUTION]
    >
-   >De webpagina moet de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
+   >De webpagina moet de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.
 
 1. Klikken **[!UICONTROL Open web designer]** om het te bewerken. [Meer informatie](author-web.md)
 

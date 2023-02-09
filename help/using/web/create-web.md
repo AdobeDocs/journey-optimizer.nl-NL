@@ -1,16 +1,16 @@
 ---
 title: Webervaringen maken
 description: Leer hoe u een webpagina ontwerpt en de inhoud ervan bewerkt in Journey Optimizer
-feature: Overview
+feature: Web channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 0f69a47dccad20f3e978613b349a29f9daab94bd
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '971'
 ht-degree: 4%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 4%
 
 Webpagina&#39;s openen en ontwerpen in het dialoogvenster [!DNL Journey Optimizer] voor de gebruikersinterface:
 
-* Als u wijzigingen aan uw website wilt toevoegen, moet u het [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;} op uw website.
+* Als u wijzigingen aan uw website wilt toevoegen, moet u het [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} op uw website.
 
-* Om toegang te krijgen tot [!DNL Journey Optimizer] webontwerper: u moet de [Helper voor Adobe Experience Cloud Visual Editing](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=&quot;_blank&quot;} browserextensie op Chrome. [Meer informatie](visual-editing-helper.md)
+* Om toegang te krijgen tot [!DNL Journey Optimizer] webontwerper: u moet de [Helper voor Adobe Experience Cloud Visual Editing](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} browserextensie op Chrome. [Meer informatie](visual-editing-helper.md)
 
 >[!CAUTION]
 >
@@ -41,9 +41,9 @@ Webpagina&#39;s openen en ontwerpen in het dialoogvenster [!DNL Journey Optimize
 
 De webervaring kan alleen correct worden geleverd als de volgende instellingen zijn gedefinieerd:
 
-* In de [Adobe Experience Platform-gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target=&quot;_blank&quot;}, controleert u of er een gegevensstroom is gedefinieerd, bijvoorbeeld onder de **[!UICONTROL Adobe Experience Platform]** de dienst u zowel heeft **[!UICONTROL Edge Segmentation]** en **[!UICONTROL Adobe Journey Optimizer]** opties ingeschakeld.
+* In de [Adobe Experience Platform-gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target="_blank"}moet u ervoor zorgen dat er een gegevensstroom is gedefinieerd, zoals onder de **[!UICONTROL Adobe Experience Platform]** de dienst u zowel heeft **[!UICONTROL Edge Segmentation]** en **[!UICONTROL Adobe Journey Optimizer]** opties ingeschakeld.
 
-   Dit zorgt ervoor dat de inkomende Journey Optimizer-gebeurtenissen correct worden afgehandeld door de Adobe Experience Platform Edge. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target=&quot;_blank&quot;}
+   Dit zorgt ervoor dat de inkomende Journey Optimizer-gebeurtenissen correct worden afgehandeld door de Adobe Experience Platform Edge. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
    ![](assets/web-aep-datastream-ajo.png)
 
@@ -51,9 +51,9 @@ De webervaring kan alleen correct worden geleverd als de volgende instellingen z
    >
    >De **[!UICONTROL Adobe Journey Optimizer]** Deze optie kan alleen worden ingeschakeld wanneer de **[!UICONTROL Edge Segmentation]** is al ingeschakeld.
 
-* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target=&quot;_blank&quot;}, zorg ervoor dat u één samenvoegbeleid hebt met de **[!UICONTROL Active-On-Edge Merge Policy]** optie ingeschakeld. Selecteer hiertoe een beleid in het dialoogvenster **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Menu Experience Platform. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target=&quot;_blank&quot;}
+* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
-   Dit samenvoegbeleid wordt gebruikt door [!DNL Journey Optimizer] binnenkomende kanalen om binnenkomende campagnes op de rand correct te activeren en te publiceren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target=&quot;_blank&quot;}
+   Dit samenvoegbeleid wordt gebruikt door [!DNL Journey Optimizer] binnenkomende kanalen om binnenkomende campagnes op de rand correct te activeren en te publiceren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}
 
    ![](assets/web-aep-merge-policy.png)
 

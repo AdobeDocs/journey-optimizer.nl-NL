@@ -1,16 +1,16 @@
 ---
 title: De extensie Visuele bewerkingshulp
 description: Ontdek de uitbreiding van Helper Chrome van het Visuele Uitgeven die u toestaat om Web-pagina's in Journey Optimizer te ontwerpen en voor te vertonen
-feature: Overview
+feature: Web channel
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: f4a0ec45-d624-4f80-b888-42e5987cdc4f
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '391'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Met de Adobe Experience Cloud Visual Editing Helper-browserextensie voor Google 
 
 Voer de onderstaande stappen uit om de extensie van de browser van de Visual Editing Helper te verkrijgen en te installeren.
 
-1. Navigeer in de Google Chrome Web Store naar de [Helper voor Adobe Experience Cloud Visual Editing](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=&quot;_blank&quot;} browserextensie.
+1. Navigeer in de Google Chrome Web Store naar de [Helper voor Adobe Experience Cloud Visual Editing](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} browserextensie.
 
 1. Klik op **[!UICONTROL Add to Chrome]** > **[!UICONTROL Add Extension]**.
 
@@ -56,7 +56,7 @@ De extensie heeft geen voorwaardelijke instellingen en verwerkt alle instellinge
 
 Bij gebruik van de Adobe [!DNL Journey Optimizer] webontwerper, als u probeert een website te laden die niet kan worden geladen, wordt een bericht weergegeven waarin wordt gesuggereerd dat u de [Visuele bewerkingsfunctie voor de browserextensie van Helper](#install-visual-editing-helper).
 
-Als de SDK van het Web van Adobe Experience Platform nog niet op de website wordt uitgevoerd, toont een berichtvertoningen in de Webontwerper die erop wijzen dat u de Visuele het Uitgeven Helper browser uitbreiding installeert en uitvoert [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target=&quot;_blank&quot;}.
+Als de SDK van het Web van Adobe Experience Platform nog niet op de website wordt uitgevoerd, toont een berichtvertoningen in de Webontwerper die erop wijzen dat u de Visuele het Uitgeven Helper browser uitbreiding installeert en uitvoert [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.
 
 Als de site niet kan worden geladen of zich onverwacht gedraagt, kunt u cookies op uw website in de browser accepteren voordat u deze probeert te laden in Adobe [!DNL Journey Optimizer].
 

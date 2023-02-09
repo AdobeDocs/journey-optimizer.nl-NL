@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: E-mailinstellingen configureren
 description: Leer hoe u e-mailinstellingen op het niveau van het kanaaloppervlak configureert
-feature: Application Settings
+feature: Surface
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
 workflow-type: tm+mt
 source-wordcount: '1436'
 ht-degree: 1%
