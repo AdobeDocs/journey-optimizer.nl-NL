@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: transport, bericht, push, sms, e-mail
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 8c8b00cc68cec3602e9094188ebecc55d502c076
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '828'
 ht-degree: 1%
 
 ---
@@ -125,3 +125,15 @@ Schakel SendTime Optimization in op een e-mail- of pushbericht door de optie **S
 Kies bij e-mailberichten of u wilt optimaliseren bij het openen van een e-mail of door op het juiste keuzerondje te klikken. Pushberichten worden standaard ingesteld op de optie Openen, omdat klikken niet van toepassing zijn op pushberichten.
 
 U kunt er ook voor kiezen om de verzendtijden die door het systeem worden gebruikt, te accentueren door een waarde in te voeren voor het dialoogvenster **Verzenden binnen de volgende** optie. Als u &quot;zes uur&quot;als waarde kiest, [!DNL Journey Optimizer] zal elk gebruikersprofiel controleren en de optimale verzendtijd kiezen binnen zes uur na de uitvoeringstijd van de reis.
+
+**Wat gebeurt er als de optimale tijd zich buiten het venster bevindt?**
+
+Neem een voorbeeld met de volgende opstelling:
+
+* Optimaliseren bij klikken
+* Actie moet om 10.00 uur beginnen
+* Venster is 3 uur
+
+Een profiel kan een optimale open tijd hebben die buiten het venster is. De optimale open functie van John bij klikken is bijvoorbeeld 17.00 uur.
+
+Op profielniveau zijn er scores voor elk uur van de week. In dit voorbeeld wordt de e-mail altijd verzonden binnen het venster. Tijdens runtime, controleert het systeem de lijst van scores binnen dat venster (3 uurvenster dat bij 10 AM begint). Vervolgens vergelijkt het systeem de scores voor 10, 11 en 12 uur &#39;s middags en wordt het hoogste geselecteerd. Het e-mailbericht wordt op dat moment verzonden.
