@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: transport, bericht, push, sms, e-mail
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 8c8b00cc68cec3602e9094188ebecc55d502c076
+source-git-commit: 45d508b284c23235518fab37095413091208e497
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 1%
