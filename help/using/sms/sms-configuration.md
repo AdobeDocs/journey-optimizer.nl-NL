@@ -6,10 +6,10 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van SMS met 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: d0ef261f81bf9d193a426c0a260d701908afb4d9
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -131,3 +131,5 @@ Je kunt nu SMS-berichten verzenden met Journey Optimizer.
 
 * [Een SMS-bericht maken](create-sms.md)
 * [Een bericht toevoegen in een journey](../building-journeys/journeys-message.md)
+* [Een bericht toevoegen aan een campagne](../campaigns/create-campaign.md)
+
