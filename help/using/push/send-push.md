@@ -1,25 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Uw pushmelding verzenden
+title: Uw pushmelding bekijken en testen
 description: Leer hoe u uw pushmelding in Journey Optimizer kunt bekijken en testen
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 0%
+source-wordcount: '343'
+ht-degree: 4%
 
 ---
 
-# Uw pushmelding verzenden {#send-push}
+# Uw pushmelding bekijken en testen {#send-push}
 
 ## Een voorbeeld van uw pushmelding bekijken {#preview-push}
 
-Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u persoonlijke inhoud hebt ingevoegd, kunt u controleren hoe deze inhoud in het bericht wordt weergegeven en daarbij gebruikmaken van testprofielgegevens.
+Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u gepersonaliseerde inhoud hebt ingevoegd, kunt u met behulp van testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
 
 1. Klik op **[!UICONTROL Simulate content]**.
 
@@ -29,11 +29,9 @@ Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken o
 
    ![](assets/push_preview_1.png)
 
-1. Pas de hierboven beschreven stappen toe om een testprofiel te selecteren en
+1. Nadat u het testprofiel hebt geselecteerd, kunt u het dialoogvenster **[!UICONTROL Add test profile]** venster.
 
-   ![](assets/push_preview_2.png)
-
-1. In de pushvoorvertoning worden de gegevens van het testprofiel gebruikt in de berichtinhoud.
+1. Van de **Voorvertonen en testen** worden de gegevens van het testprofiel toegevoegd aan de inhoud van het bericht.
 
    Selecteer het type apparaat waarvan u een voorvertoning van inhoud wilt weergeven: **[!UICONTROL iOS]** of **[!UICONTROL Android]**.
 
@@ -41,11 +39,8 @@ Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken o
 
 ## Uw pushmelding valideren {#push-validate}
 
->[!NOTE]
->
-> Voor betere leverbaarheid, zou u de telefoonaantallen in de formaten altijd moeten gebruiken die door de leverancier worden gesteund. Twilio en Sinch ondersteunen bijvoorbeeld alleen telefoonnummers in E.164-indeling.
 
-U moet ook waarschuwingen controleren in het bovenste gedeelte van de editor.  Sommige zijn eenvoudige waarschuwingen, maar andere kunnen voorkomen dat u het bericht gebruikt. Er kunnen twee typen waarschuwingen optreden:
+U moet alarm in de hogere sectie van de redacteur controleren. Sommige zijn eenvoudige waarschuwingen, maar andere kunnen u verhinderen het bericht te verzenden. Er kunnen twee typen waarschuwingen optreden: waarschuwingen en fouten.
 
 * **Waarschuwingen** verwijzen naar aanbevelingen en beste praktijken.
 
@@ -57,6 +52,22 @@ U moet ook waarschuwingen controleren in het bovenste gedeelte van de editor.  S
 
    * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: de grootte van de pushmelding mag niet groter zijn dan 4 kB. U kunt deze limiet in acht nemen door het gebruik van afbeeldingen of emojis te beperken. Leer hoe u de inhoud van uw pushmelding beheert in [deze sectie](../push/create-push.md).
 
-![](assets/push_alert.png)
+   ![](assets/push_alert.png)
 
-Wanneer uw pushmelding gereed is, voltooit u de configuratie van uw [reis](../building-journeys/journey-gs.md) of [campagne](../campaigns/create-campaign.md) om het te verzenden.
+
+>[!NOTE]
+>
+> Voor betere leverbaarheid, zou u de telefoonaantallen in de formaten altijd moeten gebruiken die door de leverancier worden gesteund. Twilio en Sinch ondersteunen bijvoorbeeld alleen telefoonnummers in E.164-indeling.
+
+## Uw pushmelding verzenden{#push-send}
+
+Wanneer uw pushbericht klaar is, voltooit u de configuratie van uw [reis](../building-journeys/journey-gs.md) of [campagne](../campaigns/create-campaign.md) om het te verzenden.
+
+**Verwante onderwerpen**
+
+* [Pushkanaal configureren](push-configuration.md)
+* [Pushmeldingenrapport](../reports/journey-global-report.md#push-global)
+* [Een pushmelding maken](create-push.md)
+* [Een bericht toevoegen in een journey](../building-journeys/journeys-message.md)
+* [Een bericht toevoegen aan een campagne](../campaigns/create-campaign.md)
+

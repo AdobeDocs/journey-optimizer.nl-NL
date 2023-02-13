@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Berichten voorvertonen en proefdrukken verzenden
-description: Leer hoe u berichten kunt bekijken en testen
+description: Leer hoe u uw e-mail kunt bekijken en testen
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: voorvertoning, inhoud, e-mail, proefdruk, test, profiel
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 1%
 
 ---
 
-# Berichten voorvertonen en testen {#preview-and-proof}
+# Uw e-mail voorvertonen en testen {#preview-and-proof}
 
 Nadat u de e-mailinhoud hebt gedefinieerd, kunt u testprofielen gebruiken om deze voor te vertonen en te testen. Als u [persoonlijke inhoud](../personalization/personalize.md)kunt u met testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
 

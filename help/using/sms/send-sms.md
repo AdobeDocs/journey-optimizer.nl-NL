@@ -1,25 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Je SMS-bericht bekijken
+title: Je SMS-bericht bekijken en testen
 description: Meer weten over het bekijken en testen van je SMS-bericht in Journey Optimizer?
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '261'
 ht-degree: 5%
 
 ---
 
-# Je SMS-bericht verzenden {#send-sms}
+# Je SMS-bericht bekijken en testen {#send-sms}
 
-## Je SMS-bericht bekijken {#preview-sms}
+## Je SMS bekijken {#preview-sms}
 
-Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u persoonlijke inhoud hebt ingevoegd, kunt u controleren hoe deze inhoud in het bericht wordt weergegeven en daarbij gebruikmaken van testprofielgegevens.
+Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u gepersonaliseerde inhoud hebt ingevoegd, kunt u met behulp van testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
 
 1. Klik op **[!UICONTROL Simulate content]**.
 
@@ -31,27 +31,26 @@ Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken o
 
 1. Nadat u het testprofiel hebt geselecteerd, kunt u het dialoogvenster **[!UICONTROL Add test profile]** venster.
 
-   ![](assets/sms_preview_1.png)
-
-1. Vanuit het venster Voorvertoning en test worden de gegevens van het testprofiel gebruikt in de inhoud van het bericht.
-
-   Voor dit SMS-bericht is de inhoud van beide berichten bijvoorbeeld gepersonaliseerd:
+1. Van de **Voorvertonen en testen** worden de gegevens van het testprofiel toegevoegd aan de inhoud van het bericht.
 
    ![](assets/sms_preview_2.png)
 
-## Je SMS valideren{#sms-preview}
+
+## Je SMS valideren{#sms-validate}
+
+U moet alarm in de hogere sectie van de redacteur controleren. Sommige zijn eenvoudige waarschuwingen, maar andere kunnen u verhinderen het bericht te verzenden. Er kunnen twee typen waarschuwingen optreden: waarschuwingen en fouten.
+
+* **Waarschuwingen** verwijzen naar aanbevelingen en beste praktijken. Er wordt bijvoorbeeld een waarschuwingsbericht weergegeven als uw SMS-bericht leeg is.
+
+* **Fouten** voorkomt u dat u de reis test of activeert, of de campagne publiceert, zolang deze niet is opgelost. Er verschijnt bijvoorbeeld een foutbericht wanneer de onderwerpregel ontbreekt.
+
+![](assets/sms-alert-button.png)
 
 >[!NOTE]
 >
-> Voor betere leverbaarheid, zou u de telefoonaantallen in de formaten altijd moeten gebruiken die door de leverancier worden gesteund. Twilio en Sinch ondersteunen bijvoorbeeld alleen telefoonnummers in E.164-indeling.
+> Om uw leverbaarheid te verbeteren, gebruik de telefoonaantallen in de formaten die door de leverancier worden gesteund. Twilio en Sinch ondersteunen bijvoorbeeld alleen telefoonnummers in E.164-indeling.
 
-U moet ook waarschuwingen controleren in het bovenste gedeelte van de editor.  Sommige zijn eenvoudige waarschuwingen, maar andere kunnen voorkomen dat u het bericht gebruikt. Er kunnen twee typen waarschuwingen optreden:
-
-* **Waarschuwingen** verwijzen naar aanbevelingen en beste praktijken. Er wordt bijvoorbeeld een bericht weergegeven als uw SMS-bericht leeg is.
-
-* **Fouten** voorkomt dat u de reis test of activeert zolang deze niet is opgelost. U wordt bijvoorbeeld in een bericht gewaarschuwd dat de onderwerpregel ontbreekt.
-
-![](assets/sms-alert-button.png)
+## SMS verzenden{#sms-send}
 
 Wanneer uw SMS-bericht klaar is, voltooit u de configuratie van uw [reis](../building-journeys/journey-gs.md) of [campagne](../campaigns/create-campaign.md) om het te verzenden.
 

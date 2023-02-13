@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 34ab78408981d2b53736b31c94412da06cb860c4
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '405'
 ht-degree: 5%
 
 ---
@@ -19,22 +19,18 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="SMS-ontwerp"
->abstract="Voeg uw tekstbericht toe en begin het met de redacteur van de Uitdrukking aan te passen."
+>title="Een SMS-bericht maken"
+>abstract="Voeg uw SMS-bericht toe en pas het aan met de Expressieeditor."
 
->[!NOTE]
->
->In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS-marketingberichten een manier bevatten waarop de ontvangers hun abonnement gemakkelijk kunnen opzeggen. Om dit te doen, kunnen de ontvangers van SMS met opt-in en opt-out sleutelwoorden antwoorden. [Meer informatie over het beheren van opt-out](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+## Een SMS-bericht toevoegen {#create-sms-journey-campaign}
 
-## Een SMS-bericht maken voor een reis of campagne {#create-sms-journey-campaign}
-
-Voer de volgende stappen uit om uw SMS-bericht aan te passen:
+Blader op de onderstaande tabbladen om te leren hoe u een SMS-bericht kunt toevoegen aan een campagne of een reis.
 
 >[!BEGINTABS]
 
 >[!TAB Een SMS-bericht toevoegen aan een reis]
 
-1. Open uw reis dan belemmering en laat vallen een activiteit van SMS van de sectie van Acties van het palet.
+1. Open uw reis en sleep een activiteit van SMS van **Handelingen** in het palet.
 
    ![](assets/sms_create_1.png)
 
@@ -44,7 +40,7 @@ Voer de volgende stappen uit om uw SMS-bericht aan te passen:
 
    Voor meer informatie over hoe te om een reis te vormen, verwijs naar [deze pagina](../building-journeys/journey-gs.md)
 
-U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit content]** knop. [Ontwerp uw SMS-inhoud](#sms-content)
+U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit content]** knop. [Je SMS-inhoud definiëren](#sms-content)
 
 >[!TAB Een SMS-bericht toevoegen aan een campagne]
 
@@ -79,6 +75,7 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 
 >[!ENDTABS]
 
+
 ## Je SMS-inhoud definiëren{#sms-content}
 
 1. Van het reis of scherm van de campagneconfiguratie, klik **[!UICONTROL Edit content]** om de inhoud van SMS te vormen.
@@ -93,8 +90,13 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 
    ![](assets/sms-content-preview.png)
 
+>[!NOTE]
+>
+>In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS-marketingberichten een manier bevatten waarop de ontvangers hun abonnement gemakkelijk kunnen opzeggen. Om dit te doen, kunnen de ontvangers van SMS met opt-in en opt-out sleutelwoorden antwoorden. [Meer informatie over het beheren van opt-out](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+
 **Verwante onderwerpen**
 
 * [Sms-kanaal configureren](sms-configuration.md)
 * [Sms-rapport](../reports/journey-global-report.md#sms-global)
 * [Een bericht toevoegen in een journey](../building-journeys/journeys-message.md)
+* [Een bericht toevoegen aan een campagne](../campaigns/create-campaign.md)

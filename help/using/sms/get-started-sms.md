@@ -8,18 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 15%
+source-wordcount: '171'
+ht-degree: 16%
 
 ---
 
 # Aan de slag met sms {#get-started-sms}
-
->[!IMPORTANT]
->
->Als dit uw eerste keer het creëren van SMS is, zorg ervoor het kanaal van SMS is gevormd. [Meer informatie](sms-configuration.md).
 
 Gebruiken [!DNL Journey Optimizer] om tekstberichten naar uw klanten op hun mobiele apparaten te verzenden. U kunt berichten in tekstformaat van de redacteur van SMS tot stand brengen, personaliseren en voorproef.
 
@@ -33,7 +29,10 @@ De levering van SMS kan worden gecreeerd:
 
    Voor meer informatie over hoe te om uw campagne te vormen, verwijs naar dit [page](../campaigns/create-campaign.md#configure).
 
-Als dit de eerste keer is die tot een SMS-bericht leidt, zorg er dan voor dat het SMS-kanaal is geconfigureerd. [Meer informatie](sms-configuration.md).
+
+>[!IMPORTANT]
+>
+>Als dit uw eerste keer het creëren van SMS is, zorg ervoor het kanaal van SMS is gevormd. [Meer informatie](sms-configuration.md).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
