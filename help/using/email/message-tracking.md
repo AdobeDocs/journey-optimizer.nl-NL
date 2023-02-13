@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: koppelingen, bijhouden, controleren, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '653'
 ht-degree: 1%
 
 ---
@@ -88,7 +88,7 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
 >[!NOTE]
 >
->E-mailberichten van het type Marketing moeten een [opt-out-koppeling](../privacy/opt-out.md#opt-out-management), die niet vereist is voor transactieberichten. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd op de [kanaaloppervlak](../configuration/channel-surfaces.md#email-type) (d.w.z. vooraf ingestelde berichten) en bij het maken van het bericht.
+>E-mailberichten van het type Marketing moeten een [opt-out-koppeling](../privacy/opt-out.md#opt-out-management), die niet vereist is voor transactieberichten. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd in de [kanaaloppervlak](../configuration/channel-surfaces.md#email-type) (d.w.z. voorinstelling bericht) bij het maken van het bericht.
 
 ## Koppelen naar een spiegelpagina {#mirror-page}
 

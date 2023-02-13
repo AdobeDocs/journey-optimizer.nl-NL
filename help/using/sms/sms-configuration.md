@@ -6,10 +6,10 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van SMS met 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: d0ef261f81bf9d193a426c0a260d701908afb4d9
+source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '742'
+ht-degree: 2%
 
 ---
 
@@ -73,12 +73,12 @@ Voer de volgende stappen uit om uw SMS-leverancier te configureren met Journey O
 
 Nadat u de API-referentie hebt gemaakt en geconfigureerd, moet u nu een kanaaloppervlak (d.w.z. een voorinstelling voor berichten) voor SMS-berichten maken.
 
-## Een kanaaloppervlak maken {#message-preset-sms}
+## Een SMS-oppervlak maken {#message-preset-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="De categorie SMS definiëren"
->abstract="Selecteer het type SMS-berichten dat wordt verzonden wanneer u dit oppervlak gebruikt: Marketing voor promotionele SMS-berichten waarvoor toestemming van de gebruiker vereist is, of Transactie voor niet-commerciële SMS-berichten die ook in specifieke contexten naar niet-geabonneerde profielen kunnen worden verzonden."
+>abstract="Selecteer het type SMS-berichten op dit oppervlak: Marketing voor promotionele SMS-berichten waarvoor toestemming van de gebruiker vereist is, of Transactie voor niet-commerciële SMS-berichten, zoals het opnieuw instellen van wachtwoorden."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="Afmelden bij marketing van SMS-berichten"
 
 Zodra uw kanaal van SMS is gevormd, moet u een kanaaloppervlakte tot stand brengen om de berichten van SMS van te kunnen verzenden **[!DNL Journey Optimizer]**.
@@ -103,6 +103,15 @@ Ga als volgt te werk om een kanaaloppervlak te maken:
 
    * Selecteer **[!UICONTROL SMS Type]** die samen met het oppervlak worden verzonden: **[!UICONTROL Transactional]** of **[!UICONTROL Marketing]**.
 
+      * Kies **Marketing** voor promotionele SMS: voor deze berichten is toestemming van de gebruiker vereist .
+      * Kies **Transactioneel** voor niet-commerciële berichten, zoals bevestiging van de bestelling, wachtwoordherstelmeldingen of leveringsgegevens.
+
+      >[!CAUTION]
+      >
+      >**Transactioneel** SMS-berichten kunnen worden verzonden naar profielen die zich niet meer hebben geabonneerd op marketingberichten. Deze berichten kunnen alleen in specifieke contexten worden verzonden.
+
+      Wanneer u een SMS-bericht maakt, moet u een geldig kanaaloppervlak kiezen dat overeenkomt met de categorie die u voor uw bericht hebt geselecteerd.
+
    * Selecteer **[!UICONTROL SMS configuration]** aan het oppervlak te koppelen.
 
       Voor meer over hoe te om uw milieu te vormen om de berichten van SMS te verzenden, verwijs naar [deze sectie](#create-api).
@@ -110,6 +119,7 @@ Ga als volgt te werk om een kanaaloppervlak te maken:
    * Voer de **[!UICONTROL Sender number]** &#x200B; u voor uw mededelingen wilt gebruiken.
 
    * Selecteer uw **[!UICONTROL SMS Execution Field]** om de **[!UICONTROL Profile attribute]** aan de telefoonaantallen van de profielen worden geassocieerd.
+
 
 1. Zodra alle parameters zijn gevormd, klik **[!UICONTROL Submit]** ter bevestiging. U kunt het kanaaloppervlak ook opslaan als concept en de configuratie later hervatten.
 
