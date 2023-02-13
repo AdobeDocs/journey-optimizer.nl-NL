@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: aca38b71ee06e678358bc1451e6d522ea5d0e1b6
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '424'
 ht-degree: 5%
 
 ---
@@ -86,9 +86,11 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 
 1. Gebruik de expressie-editor om inhoud te definiëren en dynamische inhoud toe te voegen. U kunt elk kenmerk gebruiken, zoals de profielnaam of plaats. Meer informatie over [personalisatie](../personalization/personalize.md) en [dynamische inhoud](../personalization/get-started-dynamic-content.md) in de Uitdrukking redacteur.
 
-1. Klikken **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning. [Meer informatie](send-sms.md)
+1. Klikken **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning.
 
    ![](assets/sms-content-preview.png)
+
+Je kunt nu je SMS-bericht testen en naar je publiek sturen. [Meer informatie](send-sms.md)
 
 >[!NOTE]
 >
@@ -96,6 +98,7 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 
 **Verwante onderwerpen**
 
+* [Je SMS-bericht bekijken, testen en verzenden](send-sms.md)
 * [Sms-kanaal configureren](sms-configuration.md)
 * [Sms-rapport](../reports/journey-global-report.md#sms-global)
 * [Een bericht toevoegen in een journey](../building-journeys/journeys-message.md)
