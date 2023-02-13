@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: d1c11881654580247e8d7c92237cad130f11f749
+source-git-commit: 676e2d6788c8110b76a38e857a62ba9c1be5842c
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -19,21 +19,27 @@ ht-degree: 0%
 
 In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS-marketingberichten een manier bevatten waarop de ontvangers hun abonnement gemakkelijk kunnen opzeggen. [Meer informatie over privacy- en opt-outbeheer](../privacy/opt-out.md)
 
-Adobe Journey Optimizer verwerkt standaard standaardantwoordberichten in de Engelse taal, zoals STOP, UNSTOP en START voor berichten met de gratis en lange code, in overeenstemming met industriestandaarden voor native integratie, zoals Sinch en Twilio. Deze trefwoorden activeren doorgaans een automatisch standaardantwoord van uw externe provider (bijvoorbeeld Twilio, Sinch, enz.). U kunt dit rechtstreeks bij uw provider of via de documentatiesite bevestigen.
-
-Er zijn geen stappen vereist om ervoor te zorgen dat de mogelijkheden voor SMS-opt-out in Adobe Journey Optimizer werken. De trefwoordreacties STOP, UNSTOP en START worden dan automatisch herkend.
-
-Naast het stoppen van de verzending door Adobe Journey Optimizer op basis van de opt-out status (voor directe integratie met Twilio of Sinch), handhaven de meeste leveranciers van de gateway van SMS ook een lijst van gewezen personen ervoor zorgt dat geen SMS bericht zal worden geleverd aan een individu dat heeft gekozen om te weigeren. Als u een andere provider dan Sinch of Twilio gebruikt en een SMS verzendt via [aangepast kanaal](../building-journeys/using-custom-actions.md)moet u dit bevestigen met uw provider.
-
 >[!IMPORTANT]
 >
->Voor campagnes voor tekstberichten kunnen verschillende wettelijke nalevingsvereisten gelden, afhankelijk van de aard van uw campagne voor tekstberichten, de locatie vanwaar u uw tekstberichten verzendt en de locatie van uw ontvangers. <br>Hoewel Adobe Journey Optimizer de berichten over lange codes en gratis nummers zal afhandelen zoals hierboven beschreven, dient u uw juridische adviseur te raadplegen om ervoor te zorgen dat uw campagne voor tekstberichten voldoet aan alle toepasselijke wettelijke nalevingsvereisten.
+>Communicatie van tekstberichten kan afhankelijk van zijn aard, de plaats van waar u tekstberichten verzendt, en de plaats van uw ontvangers onderworpen zijn aan diverse wettelijke nalevingsvereisten. Terwijl Adobe Journey Optimizer de berichten over lange codes en gratis nummers afhandelt zoals hieronder beschreven, raadpleegt u uw juridische adviseur om ervoor te zorgen dat uw communicatie over tekstberichten voldoet aan alle toepasselijke wettelijke nalevingsvereisten.
+
+## Oorspronkelijke binnenkomende trefwoorden{#sms-native-keywords}
+
+Adobe Journey Optimizer verwerkt standaard standaardantwoordberichten in de Engelse taal, zoals STOP, UNSTOP en START voor berichten met de gratis en lange code, in overeenstemming met industriestandaarden voor native integratie, zoals Sinch en Twilio.
+
+Deze trefwoorden activeren doorgaans een automatische standaardreactie van uw externe provider (zoals Twilio of Sinch). U kunt dit rechtstreeks bij uw provider of via de documentatiesite bevestigen.
+
+Er zijn geen stappen vereist om ervoor te zorgen dat de mogelijkheden voor SMS-uitschakelmogelijkheden in Adobe Journey Optimizer werken als de trefwoordreacties STOP, UNSTOP en START automatisch worden herkend. De status van de optie om profielen te weigeren wordt in real time bijgewerkt in Adobe Journey Optimizer.
+
+
+## Lijsten van gewezen personen{#sms-blocklists}
+
+Naast het tegenhouden van Adobe Journey Optimizer verzendt op basis van de opt-out status (voor directe integratie met Twilio of Sinch), handhaven de meeste de gatewayleveranciers van SMS ook een lijst van gewezen personen die u verzekert dat een bericht van SMS niet aan een individu wordt geleverd die heeft verkozen om uit te kiezen. Als u een andere provider dan Sinch of Twilio gebruikt en een SMS-bericht verzendt via [aangepast kanaal](../building-journeys/using-custom-actions.md)moet u dit bevestigen met uw provider.
+
 
 ## Korte codes {#short-codes}
 
-Adobe Journey Optimizer verwerkt standaard geen opt-out-, opt-in- of Help-trefwoorden voor korte codenummers.
-
-U moet ervoor zorgen dat uw korte code aan alle industrieregels en verordeningen voor opt-out behandeling voldoet.
+Adobe Journey Optimizer verwerkt standaard geen opt-out-, opt-in- of Help-trefwoorden voor korte codenummers. U moet ervoor zorgen dat uw korte code aan alle industrieregels en verordeningen voor opt-out behandeling voldoet.
 
 ## Alfanumerieke afzender-id {#alphanumeric}
 
