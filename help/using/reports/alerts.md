@@ -8,19 +8,25 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 731eb471c5765b0d3efbc9354c64c32cc5e56516
+source-git-commit: 46fe345d424a5a201cf75a8ee0e2035bc68621fe
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met waarschuwingen {#alerts}
 
-Journey Optimizer maakt gebruik van Adobe Experience Platform-waarschuwingsmogelijkheden. Hierdoor hebt u via de gebruikersinterface toegang tot systeemwaarschuwingen. U kunt de beschikbare waarschuwingen weergeven en hierop een abonnement nemen. Wanneer een bepaalde reeks voorwaarden in uw verrichtingen (zoals een potentieel probleem wanneer het systeem een drempel) overschrijdt wordt bereikt, worden de waakzame berichten geleverd aan om het even welke gebruikers in uw organisatie die aan hen hebben geabonneerd. Deze berichten kunnen over een vooraf bepaald tijdinterval herhalen tot het alarm is opgelost.
+Journey Optimizer maakt gebruik van Adobe Experience Platform-waarschuwingsmogelijkheden. Hierdoor hebt u via de gebruikersinterface toegang tot systeemwaarschuwingen. U kunt de beschikbare waarschuwingen weergeven en hierop een abonnement nemen.
+
+Wanneer een bepaalde reeks voorwaarden in uw verrichtingen (zoals een potentieel probleem wanneer het systeem een drempel) overschrijdt wordt bereikt, worden de waakzame berichten geleverd aan om het even welke gebruikers in uw organisatie die aan hen hebben geabonneerd. Deze berichten kunnen over een vooraf bepaald tijdinterval herhalen tot het alarm is opgelost.
 
 Meer informatie over berichten in Adobe Experience Platform [documentatie](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html).
 Leren hoe te om aan alarm in te schrijven en hen te vormen, verwijs naar dit [page](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
+
+>[!AVAILABILITY]
+>
+>Er worden enkele ontwerpwijzigingen doorgevoerd voor de waarschuwing &quot;Read Segment Trigger Unsuccess&quot;, zodat deze waarschuwing voorlopig wordt gepauzeerd. Zodra de wijzigingen zijn vrijgegeven, wordt deze waarschuwing opnieuw weergegeven en kunt u zich erop abonneren.
 
 In het linkermenu, onder **Beheer**, klikt u op **Waarschuwingen**.
 
@@ -28,9 +34,10 @@ In het linkermenu, onder **Beheer**, klikt u op **Waarschuwingen**.
 
 ![](assets/alerts1.png)-->
 
-Als een dergelijk onverwacht gedrag zich voordoet, wordt een waarschuwingsbericht verzonden naar abonnees van de waarschuwing via e-mail, in de rechterbovenhoek van de interface.
+Als een onverwacht gedrag voorkomt, wordt een waakzaam bericht verzonden naar abonnees van het alarm door e-mail, in de hoogste juiste hoek van de interface.
 
 <!--![](assets/alerts2.png)-->
+
 
 Wanneer [waarschuwingsregels weergeven in gebruikersinterface van Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), kunt u zich op elke regel afzonderlijk abonneren. Wanneer u zich abonneert op waarschuwingen via [I/O-gebeurtenismeldingen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)De waarschuwingsregels zijn echter ingedeeld in verschillende abonnementspakketten.
 
