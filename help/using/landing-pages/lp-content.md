@@ -9,22 +9,45 @@ role: User
 level: Beginner
 keywords: landing, landing page, creation, page, form, component
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '1114'
 ht-degree: 2%
 
 ---
 
 # Paginaspecifieke inhoud definiëren {#lp-content}
 
-Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de bestemmingspagina kunnen selecteren en verzenden, gebruikt u de optie **[!UICONTROL Form]** component. Hiervoor voert u de volgende stappen uit.
+>[!CONTEXTUALHELP]
+>id="ac_lp_components"
+>title="Inhoudscomponenten gebruiken"
+>abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een bestemmingspagina te maken. Gebruik de formuliercomponent om specifieke inhoud te definiëren waarmee gebruikers hun keuzes kunnen selecteren en verzenden."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/content-components.html#add-content-components" text="Inhoudscomponenten toevoegen"
+
+Als u de inhoud van de bestemmingspagina wilt ontwerpen, kunt u dezelfde onderdelen gebruiken als voor een e-mail. [Meer informatie](../email/content-components.md#add-content-components)
+
+Om specifieke inhoud te ontwerpen die gebruikers zal toelaten om hun keuzen te selecteren en voor te leggen, [de formuliercomponent gebruiken](#use-form-component) en stelt [paginaspecifieke stijlen plaatsen](#lp-form-styles).
 
 >[!NOTE]
 >
 >U kunt ook een doorklikingspagina zonder een **[!UICONTROL Form]** component. In dat geval wordt de landingspagina weergegeven aan gebruikers, maar hoeven zij geen formulier in te dienen. Dit kan handig zijn als u alleen een bestemmingspagina wilt weergeven zonder dat u enige actie van uw ontvangers nodig hebt, zoals aanmelden of Weigeren, of informatie wilt opgeven waarvoor geen invoer van de gebruiker is vereist.
 
+Met de landende pagina-inhoudontwerper kunt u ook contextuele gegevens gebruiken die afkomstig zijn van de primaire pagina in een subpagina. [Meer informatie](#use-primary-page-context)
+
 ## De formuliercomponent gebruiken {#use-form-component}
+
+>[!CONTEXTUALHELP]
+>id="ac_lp_formfield"
+>title="De velden voor formuliercomponenten instellen"
+>abstract="Bepaal hoe de ontvangers hun keuzes vanaf de bestemmingspagina zien en verzenden."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="Landingspagina-formulierstijlen definiëren"
+
+>[!CONTEXTUALHELP]
+>id="ac_lp_submission"
+>title="Wat gebeurt er als u op de knop klikt"
+>abstract="Bepaal wat er gebeurt wanneer gebruikers het formulier voor de landingspagina indienen."
+
+Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de bestemmingspagina kunnen selecteren en verzenden, gebruikt u de optie **[!UICONTROL Form]** component. Hiervoor voert u de volgende stappen uit.
 
 1. De landingspagina-specifiek slepen en neerzetten **[!UICONTROL Form]** van het linkerpalet naar de hoofdwerkruimte.
 
@@ -129,13 +152,13 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 
 U kunt contextuele gegevens gebruiken die afkomstig zijn van een andere pagina binnen dezelfde landingspagina.
 
-Als u bijvoorbeeld een selectievakje koppelt<!-- or the submission of the page--> een [abonnementenlijst](subscription-list.md) op de primaire landingspagina kunt u die abonnementslijst op de subpagina &quot;bedankt&quot; gebruiken.
+Als u bijvoorbeeld een selectievakje koppelt <!-- or the submission of the page--> een [abonnementenlijst](subscription-list.md) op de primaire landingspagina kunt u die abonnementslijst op de subpagina &quot;bedankt&quot; gebruiken.
 
 Stel dat u twee selectievakjes op de primaire pagina koppelt aan twee verschillende abonnementlijsten. Als een gebruiker zich op een van deze machtigingen abonneert, wilt u bij het verzenden van het formulier een specifiek bericht weergeven, afhankelijk van het selectievakje dat de gebruiker heeft ingeschakeld.
 
 Hiervoor voert u de volgende stappen uit:
 
-1. Koppel op de primaire pagina elk selectievakje aan de betreffende abonnementenlijst. [Meer informatie](#use-form-component).
+1. Koppel op de primaire pagina elk selectievakje van het **[!UICONTROL Form]** aan de betreffende abonnementenlijst. [Meer informatie](#use-form-component).
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 
