@@ -8,14 +8,19 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 6c255d66fb89ba756add062d8a4315dd622fd8e7
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 0%
+source-wordcount: '581'
+ht-degree: 1%
 
 ---
 
 # Aan de slag met Adobe Experience Platform-segmenten {#about-segments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_segment"
+>title="Segment"
+>abstract="Door gebruik te maken van realtime klantprofielgegevens kunt u in Adobe Experience Platform eenvoudig doelsegmenten maken die de unieke gedragingen en voorkeuren van uw klanten vastleggen."
 
 [!DNL Journey Optimizer]  kunt u Adobe Experience Platform-segmenten rechtstreeks vanuit het dialoogvenster **[!UICONTROL Segments]** en gebruikt u deze voor reizen of campagnes.
 
