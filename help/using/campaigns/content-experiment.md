@@ -11,10 +11,10 @@ keywords: inhoud, experiment, meerdere, publiek, behandeling
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -163,6 +163,11 @@ Met de **[!UICONTROL Campaign objective]** widget, kunt u ook kiezen om uw hoofd
 Houd er rekening mee dat elke widget indien nodig kan worden vergroot of verkleind en verwijderd. Raadpleeg voor meer informatie hierover [sectie](../reports/global-report.md#modify-dashboard).
 
 ## Experimentatierapport {#experimentation-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_click"
+>title="Unieke klikken per profiel"
+>abstract="De unieke kliks per profiel metrisch helpt u begrijpen hoe effectief uw experiment uw publiek aanhaalt en het drijven klikt aan uw doelbestemming. Het berekent het aantal verschillende klikken op een bepaalde verbinding, gedeeld door het totale aantal profielen dat aan de verbinding werd blootgesteld."
 
 >[!AVAILABILITY]
 >

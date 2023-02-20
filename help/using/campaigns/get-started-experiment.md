@@ -11,9 +11,9 @@ keywords: aan de slag, starten, inhoud, experimenteren
 hide: true
 hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
 workflow-type: tm+mt
-source-wordcount: '1931'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -111,6 +111,11 @@ Om echte bedrijfsinzichten te bereiken, zou u zich aan enkel één Experiment mo
 +++
 
 ## De resultaten van uw experimenten interpreteren {#interpret-results}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_summary"
+>title="Samenvattingswidget"
+>abstract="De widget Samenvatting geeft een overzicht van de resultaten van uw experiment, bijvoorbeeld of deze overtuigend zijn of niet. Het biedt een snelle en gemakkelijke manier om het resultaat van uw experiment te begrijpen."
 
 ![](assets/experimentation_report_3.png)
 
