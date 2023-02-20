@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Aanvullende informatie
-description: Journey Optimizer Release-aantekeningen
+description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ad0ca954d2ba15293bdde2715a7aaed62b040cce
+source-git-commit: d160baac2eb454cfd10097e29147562f83c1cd50
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 8%
+source-wordcount: '907'
+ht-degree: 5%
 
 ---
 
@@ -20,6 +20,43 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 [!DNL Adobe Journey Optimizer] is native [!DNL Adobe Experience Platform] en erft van de meest recente innovaties en verbeteringen. Meer informatie over deze wijzigingen vindt u in [Opmerkingen bij de release van Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ![Nieuwsbrief](../assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die direct aan uw Postbus worden geleverd elk kwartaal.
+
+
+## Opmerkingen bij de release Vroege februari 2023 {#feb-2023}
+
+Deze rubriek bevat pre-releasegegevens. Releasedatums, -functies en andere informatie kunnen zonder voorafgaande kennisgeving worden gewijzigd. Gedetailleerde documentatie is beschikbaar op de releasedatum.
+
+Beschikbaarheid: **22 februari 2023**
+
+### Verbeteringen {#feb-2023-improvements}
+
+**Journeys**
+
+* De **Wachttijd bij terugkeer** het veld is toegevoegd aan de eigenschappen van de reis . In dit veld kunt u de tijd definiëren die u moet wachten voordat een profiel de reis weer in één keer kan betreden (te beginnen met een gebeurtenis of een segmentkwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten.
+
+* Er zijn verbeteringen aangebracht voor **begin- en einddatum van de reis**. Als u geen begindatum hebt opgegeven, wordt deze nu automatisch toegevoegd op het moment van publicatie. Voor **Segment lezen** voor reizen kunt u nu een einddatum toevoegen. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt.
+
+* Het canvas Journey is verbeterd voor een eenvoudigere en verbeterde gebruikerservaring. Aan het einde van elk pad op het canvas zijn de lege plaatsaanduidingen verwijderd. U kunt nu gewoon uw activiteiten toevoegen door deze naar een willekeurige locatie tussen knooppunten te slepen.
+
+* Tijdslimiet en foutenbeheer zijn verbeterd op het gebied van reizen. Time-out- en foutpaden worden nu altijd toegevoegd op het canvas. Er is een nieuwe werkbalkknop beschikbaar om deze paden weer te geven/te verbergen.
+
+* Er is een nieuw type systeemwaarschuwing ingevoerd. U kunt nu een melding krijgen wanneer een aangepaste handeling mislukt.
+
+
+**Beheer**
+
+* **Lijst van gewenste personen** - U kunt de lijst van gewenste personen nu downloaden als een CSV-bestand.
+
+* **E-mailoppervlak** - Er is een extra controle toegevoegd aan de instellingen voor het e-mailoppervlak: als de MX-record voor het subdomein dat wordt gebruikt in het dialoogvenster **Reageren op (e-mailadres)** of in de **BCC-e-mailadres** is niet behoorlijk gevormd, kan de e-mailoppervlakte niet meer worden gecreeerd. U moet het gevormd hebben of een andere gebruiken.
+
+* **E-mailoppervlak** - In het gedeelte URL-volgparameters van de instellingen van het e-mailoppervlak, de limiet voor elke **Waarde** Het veld is bijgewerkt van 255 tekens naar 5 kB ten behoeve van compatibiliteit met Adobe Analytics-tracking.
+
+**Beslissingsbeheer**
+
+* **Plaatsen** - Er zijn aanvullende parameters toegevoegd aan het scherm voor het maken van plaatsingen. Hiermee kunt u bepalen of een aanbieding op meerdere plaatsen kan worden gedupliceerd en kunt u opgeven of de inhoud en metagegevens van de aanbieding moeten worden opgenomen in de API-reactie.
+
+* **URL-personalisatie** - Wanneer u URL&#39;s als inhoud toevoegt aan de representaties van uw aanbiedingen, kunt u deze URL&#39;s nu aanpassen met de Expressieeditor.
+
 
 
 ## Release van januari 2023 {#jan-2023-release}
