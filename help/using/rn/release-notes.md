@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d160baac2eb454cfd10097e29147562f83c1cd50
+source-git-commit: 1565a61f2bd3b8168eaefc2e69b40c9949a0af23
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 5%
+source-wordcount: '816'
+ht-degree: 6%
 
 ---
 
@@ -35,13 +35,6 @@ Beschikbaarheid: **22 februari 2023**
 * De **Wachttijd bij terugkeer** het veld is toegevoegd aan de eigenschappen van de reis . In dit veld kunt u de tijd definiëren die u moet wachten voordat een profiel de reis weer in één keer kan betreden (te beginnen met een gebeurtenis of een segmentkwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten.
 
 * Er zijn verbeteringen aangebracht voor **begin- en einddatum van de reis**. Als u geen begindatum hebt opgegeven, wordt deze nu automatisch toegevoegd op het moment van publicatie. Voor **Segment lezen** voor reizen kunt u nu een einddatum toevoegen. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt.
-
-* Het canvas Journey is verbeterd voor een eenvoudigere en verbeterde gebruikerservaring. Aan het einde van elk pad op het canvas zijn de lege plaatsaanduidingen verwijderd. U kunt nu gewoon uw activiteiten toevoegen door deze naar een willekeurige locatie tussen knooppunten te slepen.
-
-* Tijdslimiet en foutenbeheer zijn verbeterd op het gebied van reizen. Time-out- en foutpaden worden nu altijd toegevoegd op het canvas. Er is een nieuwe werkbalkknop beschikbaar om deze paden weer te geven/te verbergen.
-
-* Er is een nieuw type systeemwaarschuwing ingevoerd. U kunt nu een melding krijgen wanneer een aangepaste handeling mislukt.
-
 
 **Beheer**
 
