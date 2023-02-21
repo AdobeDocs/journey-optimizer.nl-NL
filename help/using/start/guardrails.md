@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '969'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ De prestatiegerelateerde en statische grenzen voor besluiten zijn vermeld in [Ad
 * Alleen methoden voor het aanroepen van POSTEN en PUTTEN worden ondersteund
 * De naam van de queryparameter of -header mag niet beginnen met &quot;.&quot; of &quot;$&quot;
 * IP-adressen zijn niet toegestaan
-* Interne Adobe-adressen (.adobe.) zijn niet toegestaan.
+* Interne Adobe-adressen (`.adobe.*`) zijn niet toegestaan in URL&#39;s en API&#39;s.
 
 ### Gebeurtenissen {#events-g}
 
@@ -77,6 +77,7 @@ De prestatiegerelateerde en statische grenzen voor besluiten zijn vermeld in [Ad
 ### Gegevensbronnen {#data-sources-g}
 
 * De externe gegevensbronnen kunnen binnen een klantenreis worden gebruikt om externe gegevens in echt op te zoeken - tijd. Deze bronnen moeten bruikbaar zijn via REST API, JSON ondersteunen en het volume van aanvragen kunnen verwerken.
+* Interne Adobe-adressen (`.adobe.*`) zijn niet toegestaan in URL&#39;s en API&#39;s.
 
 ### Reizen en profiel maken {#journeys-limitation-profile-creation}
 
