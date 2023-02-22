@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1692'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,7 @@ De campagne **[!UICONTROL Global report]** Deze pagina wordt weergegeven met de 
 
 * [Campaign](#campaign-global)
 * [Email](#email-global)
+* [In-app](#inapp-global)
 * [Push](#push-global)
 * [Sms](#sms-global)
 
@@ -141,6 +142,37 @@ De **[!UICONTROL Send time optimization]** Geeft details over het succes van uw 
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 * **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
++++
+
+## Tabblad In-app {#inapp-global}
+
+>[!IMPORTANT]
+>
+>De functie In-app is momenteel beschikbaar als een bètaversie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.
+
+Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL In-app]** bevat de belangrijkste informatie met betrekking tot de in-app-leveringen die in uw campagne zijn verzonden.
+
+![](assets/campaign_report_global_6.png)
+
++++ Meer informatie over de verschillende maatstaven en widgets die beschikbaar zijn voor het rapport in de app.
+
+De **[!UICONTROL In-app performance]** KPI&#39;s geven een gedetailleerde beschrijving van de belangrijkste informatie over de betrokkenheid van uw bezoekers bij uw In-app-berichten, zoals:
+
+* **[!UICONTROL Unique impressions]**: aantal unieke gebruikers aan wie het In-app-bericht is bezorgd.
+
+* **[!UICONTROL Impressions]**: totaal aantal in-app berichten dat aan alle gebruikers wordt geleverd.
+
+* **[!UICONTROL Click rate]**: percentage gebruikers dat interactie had met de knoppen in het In-app-bericht vergeleken met gebruikers die het bericht hebben gezien.
+
+* **[!UICONTROL Dismiss rate]**: percentage in-app berichten dat ontvangers hebben genegeerd.
+
+De **[!UICONTROL In-app summary]** in de grafiek wordt de ontwikkeling van uw In-app-afbeeldingen voor de desbetreffende periode weergegeven.
+
+De **[!UICONTROL Clicks by button]** de grafiek en de lijst bevatten de beschikbare gegevens voor ontvangend gedrag per knoop:
+
+* **[!UICONTROL Clicks]**: het totale aantal ontvangers dat interactie heeft gehad met de knoppen die in het bericht in de app zijn opgenomen.
+
+* **[!UICONTROL Click rate]**: percentage gebruikers dat interactie had met de knoppen in het In-app-bericht vergeleken met gebruikers die het bericht hebben gezien.
 +++
 
 ## Tabblad Pushmelding {#push-global}

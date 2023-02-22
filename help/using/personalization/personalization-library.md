@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, bibliotheek, personalisatie
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 6%
@@ -70,7 +70,7 @@ Voer de volgende stappen uit om een expressie op te slaan in de bibliotheek:
 
 Om een bestaande uitdrukking uit te geven, voeg het aan de redacteur toe, dan wijzig het volgens uw behoeften. Klikken **[!UICONTROL Add to library]** om de syntaxis te valideren en de expressie op te slaan.
 
-Als u een expressie wilt verwijderen, klikt u op de knop Ovaal en vervolgens klikt u op **[!UICONTROL Delete]**.
+Als u een expressie wilt verwijderen, klikt u op de knop voor ovaal en vervolgens klikt u op **[!UICONTROL Delete]**.
 
 ## Hoe kan ik-video{#video}
 

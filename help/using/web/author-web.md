@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 1%
@@ -29,8 +29,8 @@ Webpagina&#39;s openen en ontwerpen in het dialoogvenster [!DNL Journey Optimize
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
->title="Voer de URL in die u wilt bewerken"
->abstract="Voer de URL in van een specifieke webpagina die u wilt gebruiken voor het bewerken van de inhoud die wordt toegepast op het hierboven gedefinieerde weboppervlak. De webpagina moet worden geïmplementeerd met de Adobe Experience Platform Web SDK."
+>title="Bevestig de URL die u wilt bewerken"
+>abstract="Bevestig de URL van de specifieke webpagina die u wilt gebruiken voor het bewerken van de inhoud die wordt toegepast op het hierboven gedefinieerde weboppervlak. De webpagina moet worden geïmplementeerd met de Adobe Experience Platform Web SDK."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Meer informatie"
 
 >[!CONTEXTUALHELP]

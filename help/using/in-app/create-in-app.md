@@ -5,18 +5,21 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: in-app, bericht, maken, starten
+badge: label="Beta" type="Informatief"
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 3%
+source-wordcount: '590'
+ht-degree: 2%
 
 ---
 
 # Een bericht in de app maken {#create-in-app}
+
+>[!IMPORTANT]
+>
+>De functie In-app is momenteel beschikbaar als een bètaversie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.
 
 ## Een campagne en een bericht in de app maken{#create-in-app-in-a-campaign}
 
@@ -108,12 +111,12 @@ Volg onderstaande stappen om dit te doen:
 
 Uw campagne is nu geactiveerd. Het bericht In-App dat in de campagne wordt gevormd wordt verzonden onmiddellijk, of op de gespecificeerde datum.
 
-Zodra verzonden, kunt u het effect van uw in-app berichten binnen het rapport van de Campagne meten. Raadpleeg [deze sectie](inapp-report.md) voor meer informatie over rapporten.
+Zodra verzonden, kunt u het effect van uw in-app berichten binnen het rapport van de Campagne meten. Raadpleeg [deze sectie](../reports/campaign-global-report.md#inapp-report) voor meer informatie over rapporten.
 
 **Verwante onderwerpen:**
 
 * [In-app-bericht ontwerpen](design-in-app.md)
-* [Rapport in app](inapp-report.md)
+* [Rapport in app](../reports/campaign-global-report.md#inapp-report)
 * [Configuratie in de app](inapp-configuration.md)
 
 ## Hoe kan ik-video{#video}

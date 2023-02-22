@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1605'
 ht-degree: 1%
 
 ---
@@ -151,6 +151,14 @@ Volg onderstaande aanbevelingen om een goed antwoordbeheer te garanderen:
 
 * Merk geen berichten als spam in antwoordinbox, aangezien het alle andere reacties zal beïnvloeden die naar dit adres worden verzonden.
 
+Bovendien, wanneer het bepalen van **[!UICONTROL Reply to (email)]** adres, zorg ervoor om subdomain te gebruiken die een geldige MX verslagconfiguratie heeft, anders zal de verwerking van de e-mailoppervlakte ontbreken.
+
+Als u een fout bij het voorleggen van de e-mailoppervlakte krijgt, betekent het dat het MX- verslag niet voor subdomain van het adres wordt gevormd u inging. Contacteer uw beheerder voor het vormen van het overeenkomstige MX verslag of gebruik een ander adres met een geldige MX verslagconfiguratie.
+
+>[!NOTE]
+>
+>Als het subdomein van het adres u inging een domein is dat [volledig gedelegeerd](../configuration/delegate-subdomain.md#full-subdomain-delegation) om Adobe te, contacteer uw Adobe- rekeningsmanager.
+
 ### E-mail doorsturen {#forward-email}
 
 Als je naar een specifiek e-mailadres wilt doorsturen, alle e-mails ontvangen door [!DNL Journey Optimizer] voor het gedelegeerde subdomein, contacteer de Zorg van de Klant van de Adobe. U moet het volgende opgeven:
@@ -173,6 +181,10 @@ U kunt een identieke kopie (of blinde koolstofkopie) van e-mails verzenden die z
 Om dit te doen, laat toe **[!UICONTROL BCC email]** optionele functie op het niveau van het kanaaloppervlak. [Meer informatie](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
+
+Bovendien, wanneer het bepalen van **[!UICONTROL Bcc email]** adres, zorg ervoor om subdomain te gebruiken die een geldige MX verslagconfiguratie heeft, anders zal de verwerking van de e-mailoppervlakte ontbreken.
+
+Als u een fout bij het voorleggen van de e-mailoppervlakte krijgt, betekent het dat het MX- verslag niet voor subdomain van het adres wordt gevormd u inging. Contacteer uw beheerder voor het vormen van het overeenkomstige MX verslag of gebruik een ander adres met een geldige MX verslagconfiguratie.
 
 ## Parameters opnieuw proberen {#email-retry}
 
@@ -237,7 +249,7 @@ U kunt ook elke **[!UICONTROL Value]** veld met [Expressieeditor](../personaliza
 
 >[!NOTE]
 >
->U kunt tekstwaarden typen en contextafhankelijke kenmerken gebruiken in de Expressieeditor. Elk **[!UICONTROL Value]** het veld kan in totaal maximaal 255 tekens bevatten.
+>U kunt tekstwaarden typen en contextafhankelijke kenmerken gebruiken in de Expressieeditor. Elk **[!UICONTROL Value]** mag een aantal tekens bevatten tot maximaal 5 kB.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

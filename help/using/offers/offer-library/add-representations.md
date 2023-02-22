@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 0e978d0eab570a28c187f3e7779c450437f16cfb
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 0%
+source-wordcount: '635'
+ht-degree: 1%
 
 ---
 
@@ -72,7 +72,7 @@ Als de geselecteerde plaatsing van het afbeeldingstype is, kunt u inhoud toevoeg
 
 >[!NOTE]
 >
-> Werken met [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}, moet u implementeren [!DNL Assets Essentials] voor uw organisatie en zorg ervoor dat de gebruikers een deel van zijn **Assets Essentials Consumer Users** of/en **Assets Essentials-gebruikers** Productprofielen. Meer informatie over [deze pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target=&quot;_blank&quot;}.
+> Werken met [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
 
 1. Kies de optie **[!UICONTROL Asset library]**.
 
@@ -88,9 +88,9 @@ Als de geselecteerde plaatsing van het afbeeldingstype is, kunt u inhoud toevoeg
 
 ### HTML- of JSON-bestanden toevoegen {#html-json}
 
-Als de geselecteerde plaatsing van het type HTML is, kunt u ook HTML- of JSON-inhoud toevoegen die afkomstig is van de [Adobe Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target=&quot;_blank&quot;}).
+Als de geselecteerde plaatsing van het type HTML is, kunt u ook HTML- of JSON-inhoud toevoegen die afkomstig is van de [Adobe Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}).
 
-U hebt bijvoorbeeld een e-mailsjabloon voor HTML gemaakt in [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target=&quot;_blank&quot;} en u wilt dat bestand gebruiken voor uw aanbiedingsinhoud. In plaats van een nieuw bestand te maken, kunt u de sjabloon gewoon uploaden naar de **Elementenbibliotheek** om het in de vertegenwoordigingen van je voorstel opnieuw te kunnen gebruiken.
+U hebt bijvoorbeeld een e-mailsjabloon voor HTML gemaakt in [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} en u wilt dat bestand gebruiken voor de inhoud van uw voorstel. In plaats van een nieuw bestand te maken, kunt u de sjabloon gewoon uploaden naar de **Elementenbibliotheek** om het in de vertegenwoordigingen van je voorstel opnieuw te kunnen gebruiken.
 
 Als u de inhoud opnieuw wilt gebruiken in een weergave, bladert u naar de **Elementenbibliotheek** zoals beschreven in [deze sectie](#images) en selecteer het gewenste HTML- of JSON-bestand.
 
@@ -100,7 +100,17 @@ Als u de inhoud opnieuw wilt gebruiken in een weergave, bladert u naar de **Elem
 
 Als u inhoud van een externe openbare locatie wilt toevoegen, selecteert u **[!UICONTROL URL]** Voer vervolgens het URL-adres in van de inhoud die u wilt toevoegen.
 
+U kunt URL&#39;s personaliseren met de Expressieeditor. Meer informatie over [personalisatie](../../personalization/personalize.md#use-expression-editor).
+
 ![](../assets/offer-content-url.png)
+
+U wilt bijvoorbeeld de afbeelding aanpassen die als een aanbieding wordt weergegeven. Je wilt dat gebruikers die de voorkeur geven aan vakanties in de stad de skyline NYC zien en gebruikers die de voorkeur geven aan strandvakanties om de noordkust van Hawaii te zien.
+
+Gebruik de Redacteur van de Uitdrukking om de attributen van het Profiel terug te winnen die in Adobe Experience Platform worden opgeslagen gebruikend unieschema&#39;s. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
+
+![](../assets/offer-content-url-personalization.png)
+
+Als u een **[!UICONTROL Destination link]** kunt u ook de URL aanpassen waarnaar de gebruikers die op de aanbieding klikken, worden geleid.
 
 ### Aangepaste tekst toevoegen {#custom-text}
 

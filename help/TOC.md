@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1314'
 ht-degree: 36%
 
 ---
@@ -202,10 +202,9 @@ ht-degree: 36%
       + [Instellingen voor e-mailoppervlak configureren](using/email/email-settings.md)
 + Kanaal in app{#in-app}
    + [Aan de slag met In-app-kanaal](using/in-app/get-started-in-app.md)
-   + [In-app-kanaal configureren](using/in-app/inapp-configuration.md)
    + [Een bericht in de app maken](using/in-app/create-in-app.md)
    + [In-app-inhoud ontwerpen](using/in-app/design-in-app.md)
-   + [Rapport in app](using/in-app/inapp-report.md)
+   + [In-app-kanaal configureren](using/in-app/inapp-configuration.md)
 + Push-meldingskanaal{#push}
    + [Aan de slag met pushmeldingen](using/push/get-started-push.md)
    + [Een pushmelding maken](using/push/create-push.md)
@@ -416,6 +415,7 @@ ht-degree: 36%
    + [Zoekopdrachten](using/data/get-started-queries.md)
    + Journey Optimizer-gegevenssets {#datasets}
       + [Aan de slag met gegevenssets](using/data/get-started-datasets.md)
+      + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
 + Configuratie{#configuration}
    + [Aan de slag met de Journey Optimizer-configuratie](using/configuration/get-started-configuration.md)

@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: archief, berichten, HIPAA, BCC, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 1%
@@ -82,7 +82,6 @@ Nochtans, wordt het adres BCC opgepikt voor het verzenden van mededelingen na de
 * Open of klik niet door de e-mails die naar het BCC-adres worden verzonden, aangezien hiermee rekening wordt gehouden bij het openen van het totaal en klikken op de verzendanalyse, wat tot onjuiste berekeningen kan leiden bij: [rapporten](../reports/global-report.md).
 
 * Markeer geen berichten als spam in de BCC-postvak, omdat dit invloed heeft op alle andere e-mails die naar dit adres worden verzonden.
-
 
 >[!CAUTION]
 >

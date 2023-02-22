@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: lijst van gewenste personen, lijst, veilig, configuratie
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1084'
 ht-degree: 2%
 
 ---
@@ -155,6 +155,34 @@ Als u de lijst van gewenste personen wilt vullen, kunt u de API voor onderdrukki
 U kunt de opdracht **Toevoegen**, **Verwijderen** en **Get** bewerkingen.
 
 Meer informatie over het maken van API-aanroepen in het dialoogvenster [Adobe Experience Platform API&#39;s](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"} referentiedocumentatie.
+
+## De lijst van gewenste personen downloaden {#download-allowed-list}
+
+Voer de volgende stappen uit om de lijst van gewenste personen als een CSV-bestand te exporteren:
+
+1. Selecteer de knop **[!UICONTROL Download CSV]**.
+
+   ![](assets/allowed-list-download-csv.png)
+
+1. Wacht tot het bestand is gegenereerd.
+
+   ![](assets/allowed-list-download-generate.png)
+
+   >[!NOTE]
+   >
+   >De downloadtijd is afhankelijk van de bestandsgrootte. Dit betekent het aantal adressen in de lijst van gewenste personen.
+   >
+   >Voor een bepaalde sandbox kan één downloadverzoek tegelijkertijd worden verwerkt.
+
+1. Nadat het bestand is gegenereerd, ontvangt u een melding. Klik op het belpictogram rechtsboven op het scherm om het scherm weer te geven.
+
+1. Klik op de melding zelf om het bestand te downloaden.
+
+   ![](assets/allowed-list-download-notification.png)
+
+   >[!NOTE]
+   >
+   >De koppeling is 24 uur geldig.
 
 ## Lijst van gewenste personen-logica {#logic}
 

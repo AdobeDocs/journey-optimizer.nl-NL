@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 1%
@@ -31,7 +31,7 @@ Dit tabblad bevat een lijst met alle soorten publiek die in Adobe Experience Pla
 
 De **[!UICONTROL Profile count]** bevat informatie over het aantal profielen dat is opgenomen in een publiek. Klik op de knop &quot;i&quot; voor meer informatie over de datum waarop deze gegevens zijn berekend.
 
-Als u aangepaste labels of basislabels voor gegevensgebruik wilt toewijzen aan een publiek, klikt u op de knop Ovaal en selecteert u **[!UICONTROL Manage Access]**. [Meer informatie over OLA (Object Level Access Control)](../administration/object-based-access.md)
+Als u aangepaste labels of basislabels voor gegevensgebruik wilt toewijzen aan een publiek, klikt u op de knop voor weglatingsteken en selecteert u **[!UICONTROL Manage Access]**. [Meer informatie over OLA (Object Level Access Control)](../administration/object-based-access.md)
 
 <!--
 -edit an audience?

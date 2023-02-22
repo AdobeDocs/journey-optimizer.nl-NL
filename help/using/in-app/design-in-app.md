@@ -5,18 +5,21 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: in-app, bericht, ontwerp, opmaak
+badge: label="Beta" type="Informatief"
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '815'
 ht-degree: 8%
 
 ---
 
 # In-app-inhoud ontwerpen {#design-content}
+
+>[!IMPORTANT]
+>
+>De functie In-app is momenteel beschikbaar als een bètaversie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.
 
 U kunt de inhoud in de app bewerken om ervaringsopties te configureren, zoals de lay-out en weergave van berichten, tekst en knopopties.
 
@@ -192,7 +195,7 @@ Als de **[!UICONTROL Advanced formatting mode]** is ingeschakeld, kunt u uw beri
 **Verwante onderwerpen:**
 
 * [In-app-bericht maken](create-in-app.md)
-* [Rapport in app](inapp-report.md)
+* [Rapport in app](../reports/campaign-global-report.md#inapp-report)
 * [Configuratie in de app](inapp-configuration.md)
 
 ## Hoe kan ik-video{#video}

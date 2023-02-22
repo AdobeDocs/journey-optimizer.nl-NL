@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: opnieuw proberen, stuiteren, zacht, optimaliseren, fout
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 1%
@@ -72,5 +72,5 @@ U kunt bijvoorbeeld de periode voor het opnieuw proberen instellen op 24 uur voo
 >
 >De periode van opnieuw proberen mag niet langer zijn dan 84 uur. De minimumperiode voor het opnieuw proberen is 6 uur voor marketing e-mails en 10 minuten voor transactie e-mails.
 
-Leer hoe u de parameters voor het opnieuw proberen van e-mail aanpast bij het maken van een kanaaloppervlak in [deze sectie](channel-surfaces.md#create-channel-surface).
+Leer hoe u de parameters voor het opnieuw proberen van e-mail aanpast bij het maken van een kanaaloppervlak in [deze sectie](../email/email-settings.md#email-retry).
 

@@ -2,7 +2,7 @@
 title: Batchbeslissing
 description: Leer hoe u beslissingen kunt aanbieden voor alle profielen in een bepaald Adobe Experience Platform-segment.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: a56d675e014d55064073eba011fb50e2d363844d
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Nadat een taakaanvraag is gemaakt, worden meerdere statussen gebruikt voor de ba
 
 >[!NOTE]
 >
->Om ervoor te zorgen dat u de recentste informatie over de status van een baanverzoek krijgt, gebruik de ellipse knoop naast de baan om het te verfrissen.
+>Om ervoor te zorgen dat u de recentste informatie over de status van een baanverzoek krijgt, gebruik de ellipsknoop naast de baan om het te verfrissen.
 
 1. **[!UICONTROL Queued]**: Het taakverzoek is gemaakt en is in de verwerkingswachtrij geplaatst. Tot 5 partijbanen kunnen in een tijd per dataset worden in werking gesteld. Om het even welke andere partijverzoeken met de zelfde outputdataset worden toegevoegd aan de rij. Er wordt een taak in de wachtrij opgehaald om te worden verwerkt zodra de vorige taak is voltooid.
 1. **[!UICONTROL Processing]**: Het taakverzoek wordt verwerkt

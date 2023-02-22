@@ -5,24 +5,25 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 keywords: in-app, bericht, maken, starten
+badge: label="Beta" type="Informatief"
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 4%
+source-wordcount: '197'
+ht-degree: 3%
 
 ---
 
 # Aan de slag met In-app-kanaal {#gs-in-app}
 
-In-app berichten zijn meldingen die u naar gebruikers in uw app kunt sturen om ze naar specifieke aandachtspunten te leiden. Meldingen in de app kunnen worden gebruikt om een service voor te stellen, een nieuwe functie, een speciale aanbieding of een nieuwe gebruiker te promoten.
+>[!IMPORTANT]
+>
+>De functie In-app is momenteel beschikbaar als een bètaversie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.
+
+In-app-berichten zijn meldingen die naar gebruikers in uw app kunnen worden verzonden en die hen naar specifieke aandachtspunten kunnen sturen. Deze meldingen kunnen voor verschillende doeleinden worden gebruikt, zoals het promoten van nieuwe functies, het aanbieden van speciale aanbiedingen of het vergemakkelijken van het instappen van gebruikers. Door in-app berichten te gebruiken, kunt u effectief met uw publiek in gesprek gaan en hen naar belangrijke aspecten van uw toepassing sturen.
 
 Gebruik Journey Optimizer om meldingen in de app te maken en ervaringsopties te configureren, waaronder de lay-out en weergave van berichten, tekst en knopopties.
-
-![](assets/new-in-app.png)
 
 ## Vereisten{#prerequisites-in-app}
 
@@ -52,11 +53,11 @@ Als u klaar bent, kunt u uw eerste In-app-bericht maken, configureren en verzend
 </div>
 <p></td>
 <td>
-<a href="inapp-report.md">
+<a href="../reports/campaign-global-report.md#inapp-global">
 <img alt="Validatie" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="inapp-report.md"><strong>Rapport in app</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>Rapport in app</strong></a>
 </div>
 <p>
 </td>

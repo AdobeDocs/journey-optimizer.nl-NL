@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: campagnes, status, planning, toegang, optimaliseren beheren
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -90,7 +90,7 @@ U kunt een live campagne dupliceren om een nieuwe te maken. Om dit te doen, open
 
 Met de tijd groeit de lijst met campagnes en wordt het uiteindelijk moeilijker om door voltooide en stopgezette campagnes te bladeren.
 
-Om dit te voorkomen, kunt u voltooide en gestopt campagnes archiveren die u niet meer nodig hebt. Om dit te doen, klik de ellipsknoop dan selecteren **[!UICONTROL Archive]**.
+Om dit te voorkomen, kunt u voltooide en gestopt campagnes archiveren die u niet meer nodig hebt. Klik hiertoe op de knop voor ovaal en selecteer **[!UICONTROL Archive]**.
 
 ![](assets/create-campaign-archive.png)
 
