@@ -4,7 +4,7 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5ef9fec615c39935184595d91e7b12d4cd08903f
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 8%
@@ -58,7 +58,7 @@ Deze functie is momenteel in bètaversie beschikbaar voor bètaklanten. Neem con
 
 <img src="assets/do-not-localize/gif-destinations.gif"/>
 
-<p>Raadpleeg de <a href="../privacy/data-hygiene.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="../data/export-datasets.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
