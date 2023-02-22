@@ -8,7 +8,7 @@ level: Beginner
 keywords: in-app, bericht, maken, starten
 badge: label="Beta" type="Informatief"
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Aan de slag met In-app-kanaal {#gs-in-app}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >De functie In-app is momenteel beschikbaar als een bètaversie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.
 

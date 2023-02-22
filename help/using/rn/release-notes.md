@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5ef9fec615c39935184595d91e7b12d4cd08903f
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '919'
 ht-degree: 8%
 
 ---
@@ -28,15 +28,14 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 <table>
 <thead>
 <tr>
-<th><strong>Kanaal in app</strong><br/></th>
+<th><strong>Kanaal in app (bèta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>U kunt nu binnen een campagne persoonlijke In-app-berichten naar gebruikers van de app sturen. Met Journey Optimizer kunt u meldingen ontwerpen en de lay-out, weergave, tekst en knoppen van berichten aanpassen voor een naadloze ervaring.</p>
-<p>
-Deze functie is momenteel in bètaversie beschikbaar voor bètaklanten. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.</p>
+<p><strong>Waarschuwing</strong> - Deze functie is momenteel in bètaversie beschikbaar voor bètaklanten. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
 <p>Raadpleeg de <a href="../in-app/get-started-in-app.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
@@ -55,9 +54,7 @@ Deze functie is momenteel in bètaversie beschikbaar voor bètaklanten. Neem con
 <td>
 <p>U kunt nu een live verbinding maken met opslaglocaties in de cloud om de inhoud van uw gegevenssets te exporteren. Beschikbare doelen zijn: Amazon S3 Cloud Storage, Azure Blob, Azure Data Lake Gen 2, Data Landing Zone, Google Cloud Storage, SFTP.</p>
 <p><strong>Waarschuwing</strong> - Deze functie is momenteel in bèta beschikbaar voor alle Adobe Journey Optimizer-gebruikers. Werk samen met uw Adobe-medewerker om toegang te krijgen tot Doelen als u nog geen toegang hebt.</p>
-
 <img src="assets/do-not-localize/gif-destinations.gif"/>
-
 <p>Raadpleeg de <a href="../data/export-datasets.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>

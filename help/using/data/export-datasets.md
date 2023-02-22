@@ -5,10 +5,11 @@ title: Gegevenssets exporteren naar opslaglocaties in de cloud
 description: Leer hoe u uw gegevenssets exporteert met Adobe Experience Platform-cloudopslagbestemmingen.
 role: User
 level: Beginner
+badge: label="Beta" type="Informatief"
 keywords: platform, data Lake, create, Lake, datasets, profile
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: c3ad875b50999da833d75e97a787cab9e24e38d4
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
