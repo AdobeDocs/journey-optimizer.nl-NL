@@ -11,10 +11,10 @@ keywords: inhoud, experiment, meerdere, publiek, behandeling
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 72fc1625eac26531ff9c83d39c16ffbb3c391ba5
+source-git-commit: 2bf4883fa4b649a807608403d48f6a68b73a8626
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1053'
+ht-degree: 1%
 
 ---
 
@@ -166,8 +166,8 @@ Houd er rekening mee dat elke widget indien nodig kan worden vergroot of verklei
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_click"
->title="Unieke klikken per profiel"
->abstract="De unieke kliks per profiel metrisch helpt u begrijpen hoe effectief uw experiment uw publiek aanhaalt en het drijven klikt aan uw doelbestemming. Het berekent het aantal verschillende klikken op een bepaalde verbinding, gedeeld door het totale aantal profielen dat aan de verbinding werd blootgesteld."
+>title="Metrisch met succes"
+>abstract="De totale waarde van de metrische waarde van het Succes, eerder geselecteerd toen het creëren van uw Experimenten, gedeeld door het aantal profielen."
 
 >[!AVAILABILITY]
 >
