@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, redacteur, helpers, gebruiksgeval, verpersoonlijking
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 02fc8825f61bd365b02788bbcd3e0647f5842bfa
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 2%
@@ -154,6 +154,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems.product as |variable|}} {{/each}}
       ```
+
       In dit voorbeeld: *event_ID* vertegenwoordigt de id van uw gebeurtenis.
 
       ![](assets/personalization-uc-helpers-10.png)
