@@ -8,7 +8,7 @@ level: Beginner
 keywords: in-app, bericht, ontwerp, opmaak
 badge: label="Beta" type="Informatief"
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 8%
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # In-app-inhoud ontwerpen {#design-content}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >De functie In-app is momenteel beschikbaar als een bètaversie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.
 

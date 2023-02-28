@@ -6,7 +6,7 @@ level: Intermediate
 keywords: in-app, bericht, configuratie, platform
 badge: label="Beta" type="Informatief"
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # In-app-kanaal configureren {#inapp-configuration}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >De functie In-app is momenteel beschikbaar als een bètaversie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.
 
@@ -25,7 +25,7 @@ Voordat u berichten in de app verzendt, moet u het kanaal in de app configureren
 
 1. Selecteer [!DNL Adobe Experience Platform] service.
 
-   [!DNL Edge Segmentation], [!DNL Offer Decisioning] en [!DNL Adobe Journey Optimizer] moet worden geselecteerd.
+   [!DNL Edge Segmentation] en [!DNL Adobe Journey Optimizer] moet worden geselecteerd.
 
    ![](assets/inapp_config_6.png)
 

@@ -8,7 +8,7 @@ level: Beginner
 keywords: in-app, bericht, maken, starten
 badge: label="Beta" type="Informatief"
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Een bericht in de app maken {#create-in-app}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
 >De functie In-app is momenteel beschikbaar als een bètaversie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.
 
