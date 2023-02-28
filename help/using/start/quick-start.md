@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Snel starten
-description: Als Marketer, Beheerder of Ingenieur van Gegevens, leer en ontdek de macht van Adobe Journey Optimizer met geleidelijke begeleiding.
+description: Leer en ontdek als marketeer, beheerder of data-engineer de kracht van Adobe Journey Optimizer met stapsgewijze begeleiding.
 feature: Overview
 topic: Content Management
 role: User
@@ -11,7 +11,7 @@ exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 source-git-commit: 5fd4f8c5ffaf2c417d95f88fa31c850bc88db13f
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 5%
+ht-degree: 16%
 
 ---
 

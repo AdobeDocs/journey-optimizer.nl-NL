@@ -1,6 +1,6 @@
 ---
 title: Aan de slag met Beslissingsbeheer
-description: Ontdek hoe Adobe Journey Optimizer u kan helpen uw klanten het juiste aanbod op het juiste moment te sturen
+description: Ontdek hoe Adobe Journey Optimizer u kan helpen uw klanten op het juiste moment het juiste aanbod te sturen
 feature: Offers
 topic: Integrations
 role: User
@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 46%
+source-wordcount: '933'
+ht-degree: 48%
 
 ---
 
@@ -37,7 +37,7 @@ Voordelen zijn:
 
 >[!NOTE]
 >
->Als u een [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=&quot;_blank&quot;} gebruiker gebruikt de **offer decisioning** alle functies voor Beslissingsbeheer die in deze sectie worden beschreven, zijn ook op u van toepassing.
+>Als u een [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} gebruiker die de **offer decisioning** alle functies voor Beslissingsbeheer die in deze sectie worden beschreven, zijn ook op u van toepassing.
 
 ## Aanbiedingen en beslissingen {#about-offers-and-decisions}
 
@@ -69,7 +69,7 @@ Dankzij de mogelijkheden voor Beslissingsbeheer en de integratie met Adobe Exper
 
 ## Toegang verlenen tot het beheer van besluiten {#granting-acess-to-decision-management}
 
-Machtigingen voor toegang tot en gebruik van beslissingsmogelijkheden worden beheerd met behulp van de [Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html){target=&quot;_blank&quot;}.
+Machtigingen voor toegang tot en gebruik van beslissingsmogelijkheden worden beheerd met behulp van de [Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html){target="_blank"}.
 
 Om toegang tot de functionaliteit van het Beheer van het Besluit te verlenen, moet u tot een **[!UICONTROL Product profile]** en wijs de overeenkomstige toestemmingen aan uw gebruikers toe. Meer informatie over beheren [!DNL Journey Optimizer] gebruikers en machtigingen in [deze sectie](../../administration/permissions.md).
 
