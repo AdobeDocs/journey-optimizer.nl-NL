@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 9e8bac0c908646213a9d9a0598e3aa4750084b50
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 3%
+source-wordcount: '501'
+ht-degree: 1%
 
 ---
 
@@ -46,6 +46,22 @@ Voer de volgende stappen uit om een plaatsing te maken:
    * **[!UICONTROL Description]**: Een beschrijving van de plaatsing (optioneel).
 
    ![](../assets/offers_placement_creation_properties.png)
+
+
+1. De **[!UICONTROL Request settings]** en **[!UICONTROL Response format]** de secties verstrekken extra parameters:
+
+   * **[!UICONTROL Allow Duplicates across placements]**: Bepaal of hetzelfde aanbod meerdere keren op verschillende plaatsen kan worden voorgesteld. Als deze optie is ingeschakeld, overweegt het systeem dezelfde aanbieding voor meerdere plaatsingen.
+
+      Als deze optie voor om het even welke plaatsing in een beslissingsverzoek aan vals wordt geplaatst, zullen alle plaatsen in het verzoek het &quot;vals&quot;plaatsen erven.
+
+   * **[!UICONTROL Request offer]**: Standaard wordt één aanbieding van het beslissingsbereik geretourneerd voor elk profiel. Met deze optie kunt u het aantal geretourneerde voorstellen aanpassen. Als u bijvoorbeeld 2 selecteert, worden de beste 2 aanbiedingen weergegeven voor het geselecteerde beslissingsbereik.
+
+   * **[!UICONTROL Include content]** / **[!UICONTROL Include metadata]**: Geef op of de inhoud en metagegevens van de aanbieding moeten worden geretourneerd in de API-reactie. U kunt alleen alle metagegevens of specifieke velden opnemen.
+   Deze parameters kunnen ook rechtstreeks in uw API-verzoek worden ingesteld als u met de [API voor besluitvorming](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). Als u deze echter configureert in de gebruikersinterface, kunt u tijd besparen omdat u deze niet in elke API-aanvraag hoeft door te geven. Merk op dat als u de parameters zowel in gebruikersinterface als het API verzoek vormt, de waarden van het API verzoek over degenen van de interface zullen prevaleren.
+
+   >[!NOTE]
+   >
+   >Als u met de [Edge-API voor besluitvorming](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?), kunt u deze parameters niet in uw verzoek plaatsen. U moet ze in dit scherm definiëren. Als u met de [Batchbeslissing-API](../api-reference/offer-delivery-api/batch-decisioning-api.md), moet u deze parameters rechtstreeks in uw API-verzoek opnemen, aangezien de parameters die in dit scherm zijn ingesteld, niet in aanmerking worden genomen bij het verzenden van batchleveringen.
 
 1. Klik op **[!UICONTROL Save]** om te bevestigen.
 
