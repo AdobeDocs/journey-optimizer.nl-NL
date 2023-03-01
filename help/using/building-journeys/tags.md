@@ -10,10 +10,11 @@ level: Intermediate
 keywords: reis, tags
 hidefromtoc: true
 hide: true
-source-git-commit: 1a756b7277a6c01768f320745b81ef942c6f6b0f
+badge: label="Beta" type="Informatief"
+source-git-commit: e856786cfad58cc3f602a31ad1354a497e090764
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 1%
+source-wordcount: '253'
+ht-degree: 0%
 
 ---
 
@@ -21,25 +22,25 @@ ht-degree: 1%
 
 Als Journey Optimizer-expert kunt u uw reizen organiseren met tags. Met tags kunt u objecten snel en eenvoudig classificeren om zoekopdrachten te verbeteren.
 
->[!CAUTION]
+>[!AVAILABILITY]
 >
 > De verenigde markeringen zijn momenteel in Bèta. De documentatie en de functionaliteit kunnen worden gewijzigd.
 
-## Belangrijke opmerkingen
-
-* Tags zijn hoofdlettergevoelig
-* Als u een tag volledig wilt verwijderen, moet u deze uit alle objecten verwijderen.
-* Als u een reis dupliceert of een nieuwe versie maakt, blijven de labels behouden.
-
-## Tags toevoegen tijdens een rit
+## Tags toevoegen aan een rit
 
 De **Tags** in de reiseigenschappen kunt u tags voor uw reis definiëren. U kunt een bestaande tag selecteren of een nieuwe tag maken. Typ de naam van de gewenste tag en selecteer deze in de lijst. Als deze niet beschikbaar is, klikt u op **Maken** om een nieuwe te maken en toe te voegen aan uw reis. U kunt zo veel tags definiëren als nodig is.
 
 ![](assets/tags1.png)
 
-De gedefinieerde lijst met tags wordt onder het veld weergegeven. U kunt ze verwijderen.
+De gedefinieerde lijst met tags wordt weergegeven onder de **Tags** veld.
 
-## Codes en filter bewerken
+>[!NOTE]
+>
+> Tags zijn hoofdlettergevoelig
+> 
+> Als u een reis dupliceert of een nieuwe versie maakt, blijven de labels behouden.
+
+## Filteren op labels
 
 De lijst van de Reis toont een specifieke kolom zodat kunt u uw markeringen gemakkelijk visualiseren.
 
@@ -51,6 +52,10 @@ U kunt tags toevoegen aan of verwijderen uit elk type transport (live, concept, 
 
 ![](assets/tags3.png)
 
-## Geavanceerd beheer
+## Tags beheren
 
 Beheerders kunnen met de opdracht **Tags** menu, onder **ADMINISTRATIE**. Zie dit [documentatie](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html).
+
+>[!NOTE]
+>
+> Tags die zijn gedefinieerd tijdens reizen, worden toegevoegd aan de ingebouwde categorie &quot;Niet-gecategoriseerd&quot;.
