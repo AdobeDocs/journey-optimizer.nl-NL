@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: ccaad8c4d9d26c0fd968e627e7a6bf853f232000
+source-git-commit: 2e22b44b2139ab37c5b62573c9bdeaa0fbfc8b12
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1685'
 ht-degree: 0%
 
 ---
@@ -144,10 +144,10 @@ In feite, is de output van een segment een lijst van profielen, terwijl een besl
 >title="De frequentie voor uitlijnen instellen"
 >abstract="U kunt ervoor kiezen om de teller van de aanbiedingstafbeelding dagelijks, wekelijks of maandelijks opnieuw in te stellen."
 
-[!CONTEXTUALHELP]
->id=&quot;ajo_decisions_frequency_capping_IMAGING&quot;
->title=&quot;Impression&quot;
->abstract=&quot;Het gebruik van beelden als het begrenzen gebeurtenissen is beschikbaar voor binnenkomende kanalen slechts.&quot;
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping_impression"
+>title="Impressie"
+>abstract="Het gebruik van indrukkingen als afdekkende gebeurtenissen is alleen beschikbaar voor binnenkomende kanalen."
 
 Afkappen wordt gebruikt als beperking om het maximumaantal keren te bepalen dat een aanbieding kan worden voorgesteld.
 
