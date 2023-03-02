@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e856786cfad58cc3f602a31ad1354a497e090764
+source-git-commit: ccaad8c4d9d26c0fd968e627e7a6bf853f232000
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1322'
 ht-degree: 36%
 
 ---
@@ -197,6 +197,7 @@ ht-degree: 36%
          + [Inline-opmaakkenmerken toevoegen](using/email/inline-styling.md)
    + [Uw e-mail voorvertonen en testen](using/email/preview.md)
    + [Inhoudssjablonen maken](using/email/content-templates.md)
+   + [Experience Manager-sjablonen gebruiken](using/email/aem-templates.md)
    + [E-mailuitschakelbeheer](using/email/email-opt-out.md)
    + E-mailkanaal configureren {#configure-email}
       + [Aan de slag met e-mailconfiguratie](using/email/get-started-email-config.md)
