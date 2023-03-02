@@ -10,9 +10,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="Informatief"
-source-git-commit: c909e366ba5e911f685656140caf53cc122552ee
+source-git-commit: a162f70dceb3bef635085840fc304e0da2c33eed
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ Voordat u begint met het gebruik van deze functie, moet u zich aan de volgende v
 
 Om het gebruik van Adobe Experience Manager met Adobe Journey Optimizer verder te optimaliseren, is het belangrijk dat u rekening houdt met de volgende aanvullende instructies en beperkingen:
 
-* Het malplaatje van de Experience Manager moet geen verpersoonlijking bevatten. Personalisatie mag alleen worden uitgevoerd in Journey Optimizer.
+* Het malplaatje van de Experience Manager moet geen verpersoonlijking bevatten. Personalisatie mag alleen in Journey Optimizer worden uitgevoerd.
 
 * Bulksjabloonexport wordt momenteel niet ondersteund, sjablonen moeten afzonderlijk worden geëxporteerd.
 
@@ -89,7 +89,7 @@ Zodra het malplaatje van de Experience Manager in Journey Optimizer als inhoudsm
 
    ![](assets/aem_ajo_2.png)
 
-1. Klik in het venster Sjablooneigenschappen op de knop **[!UICONTROL Manage access]** gebruiken om aangepaste of basislabels voor gegevensgebruik toe te wijzen aan uw sjabloon. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md)
+1. In de **[!UICONTROL Template properties]** venster, klikt u op de knop **[!UICONTROL Manage access]** gebruiken om aangepaste of basislabels voor gegevensgebruik toe te wijzen aan uw sjabloon. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md)
 
 1. Om uw AEM sjabloon verder aan te passen en aangepaste personalisatie aan uw inhoud toe te voegen, klikt u op **[!UICONTROL Edit content]**. Zo kunt u gemakkelijk wijzigingen aanbrengen en de sjabloon aan uw specifieke behoeften aanpassen. [Meer informatie](get-started-email-design.md)
 
