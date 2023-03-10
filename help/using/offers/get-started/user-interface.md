@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Gebruik de  **[!UICONTROL Components]** menu voor het beheer van de componenten 
 
 * **[!UICONTROL Placements]**: Maak en beheer plaatsingen waar uw aanbiedingen worden weergegeven. Zie [Plaatsen maken](../offer-library/creating-placements.md).
 
-* **[!UICONTROL Tags]**: Tags maken en beheren om uw aanbiedingen te organiseren en filteren. Zie [Tags maken](../offer-library/creating-tags.md).
+* **[!UICONTROL Collection qualifiers]**: Maak en beheer verzamelingsaanduidingen (voorheen &#39;tags&#39; genoemd) om uw aanbiedingen te organiseren en filteren. Zie [Verzamelingsaanduidingen maken](../offer-library/creating-tags.md).
 
 * **[!UICONTROL Rules]**: De voorwaarden beheren waaronder uw voorstellen worden weergegeven. Zie [Een beslissingsregel maken](../offer-library/creating-decision-rules.md).
 

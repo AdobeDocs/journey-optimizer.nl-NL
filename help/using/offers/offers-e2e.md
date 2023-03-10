@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1070'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ De belangrijkste stappen om aanbiedingen te vormen, hen te omvatten in een beslu
 
    * Plaatsingen maken
    * Beslissingsregels maken
-   * Tags maken
+   * Verzamelingsaanduidingen maken (voorheen &#39;&#39;tags&#39;&#39; genoemd)
    * Classificaties maken (optioneel)
 
 1. [De aanbiedingen configureren](#configure-offers)
@@ -92,15 +92,15 @@ U vindt ze onder de **[!UICONTROL Decision Management]** > **[!UICONTROL Compone
 
    De gedetailleerde stappen voor het maken van regels worden beschreven in [deze sectie](../../using/offers/offer-library/creating-decision-rules.md).
 
-1. U kunt ook een **tag**.
+1. U kunt ook een **verzamelingskwalificatie**.
 
-   Vervolgens kunt u het aan uw aanbiedingen koppelen en deze tag gebruiken om uw voorstellen samen in een verzameling te groeperen.
+   U zult het dan aan uw aanbiedingen kunnen associëren en deze inzamelingskwalificatie gebruiken om uw aanbiedingen samen in een inzameling te groeperen.
 
-   In dit voorbeeld maakt u de opdracht *Yoga* tag.
+   In dit voorbeeld maakt u de opdracht *Yoga* verzamelingskwalificatie.
 
    ![](assets/offers-e2e-tag.png)
 
-   De gedetailleerde stappen voor het maken van tags worden beschreven in [deze sectie](../../using/offers/offer-library/creating-tags.md).
+   De gedetailleerde stappen om inzamelingsbepalende eigenschappen tot stand te brengen worden beschreven in [deze sectie](../../using/offers/offer-library/creating-tags.md).
 
 1. Als u regels wilt definiëren die bepalen welke aanbieding als eerste voor een bepaalde plaatsing moet worden gepresenteerd (in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen), kunt u een **waarderingsformule**.
 
@@ -181,7 +181,7 @@ Wanneer het vormen van het besluit, zult u uw gepersonaliseerde aanbiedingen als
 
 1. Om het besluitvormingsproces te versnellen, creeer een dynamische inzameling.
 
-1. Gebruik de *Yoga* tag gebruiken om de vier aangepaste aanbiedingen te selecteren die u eerder hebt gemaakt.
+1. Gebruik de *Yoga* de kwalificatiecode van de inzameling om de vier gepersonaliseerde aanbiedingen te selecteren u vroeger creeerde.
 
    ![](assets/offers-e2e-collection-using-tag.png)
 

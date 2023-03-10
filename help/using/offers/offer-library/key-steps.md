@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '346'
 ht-degree: 10%
 
 ---
@@ -29,7 +29,7 @@ Voordat u aanbiedingen gaat maken, moet u verschillende componenten definiëren 
 
 1. **Beslissingsregels maken** daarin worden de voorwaarden voor de indiening van de offertes gespecificeerd .
 
-1. **Tags maken** dat u aan de aanbiedingen zult associëren, die u toestaat om hen gemakkelijk te organiseren en in de bibliotheek te zoeken.
+1. **Verzamelingsaanduidingen maken** (voorheen bekend als &#39;&#39;tags&#39;&#39;) die u aan de aanbiedingen wilt koppelen, zodat u deze eenvoudig kunt organiseren en doorzoeken in de bibliotheek.
 
 1. Als u regels wilt definiëren die bepalen welke aanbieding als eerste voor een bepaalde plaatsing moet worden gepresenteerd (in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen), kunt u **een waarderingsformule maken**.
 

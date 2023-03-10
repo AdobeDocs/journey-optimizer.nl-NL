@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: a61cbb5b2a6cea21dbaf41a9fcb085fe1b814087
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1548'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
    **Veld:** filter
    **Titel:** Option-filter
-   **Omschrijving:** De verwijzing naar een op tags gebaseerd filter dat de opties uit een overzicht weergeeft met behulp van de bijbehorende tags. De waarde is URI (@id) van de beslissingsregel waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/filter.
+   **Omschrijving:** De verwijzing naar een op &#39;tag&#39; gebaseerde filter dat is gebaseerd op een kwalificatie voor verzamelingen (voorheen &#39;tag&#39; genoemd) die overeenkomt met opties uit een inventaris met behulp van de bijbehorende kwalificatietekens voor verzamelingen. De waarde is URI (@id) van de beslissingsregel waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/filter.
    **Type:** string
 
 * Type profielbeperking

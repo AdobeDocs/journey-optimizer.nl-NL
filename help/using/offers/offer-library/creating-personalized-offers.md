@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '706'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ Voordat u een aanbieding maakt, moet u controleren of u het volgende hebt gemaak
 
 * A **plaatsing** waarin de aanbieding wordt weergegeven. Zie [Plaatsen maken](../offer-library/creating-placements.md)
 * Als u een toelatingsvoorwaarde wilt toevoegen: a **beslissingsregel** daarin wordt bepaald onder welke voorwaarden de aanbieding zal worden ingediend . Zie [Beslissingsregels maken](../offer-library/creating-decision-rules.md).
-* Eén of meerdere **tags** die u wellicht aan de aanbieding wilt koppelen. Zie [Tags maken](../offer-library/creating-tags.md).
+* Eén of meerdere **verzamelingskwalificaties** (voorheen bekend als &#39;&#39;tags&#39;&#39;) die u aan de aanbieding wilt koppelen. Zie [Verzamelingsaanduidingen maken](../offer-library/creating-tags.md).
 
 ➡️ [Ontdek deze functie in video](#video)
 
@@ -53,7 +53,7 @@ Om een **aanbieden** Voer de volgende stappen uit:
    >
    >Het bijwerken van de begin- en einddatum kan van invloed zijn op de aftopping. [Meer informatie](add-constraints.md#capping-change-date)
 
-1. U kunt ook een of meerdere bestaande **[!UICONTROL tags]** aan de aanbieding, zodat u de bibliotheek van de Aanbieding gemakkelijker kunt zoeken en organiseren. [Meer informatie](creating-tags.md).
+1. U kunt ook een of meerdere bestaande **[!UICONTROL collection qualifiers]** aan de aanbieding, zodat u de bibliotheek van de Aanbieding gemakkelijker kunt zoeken en organiseren. [Meer informatie](creating-tags.md).
 
 1. De **[!UICONTROL Offer attributes]** kunt u sleutelwaardeparen aan de aanbieding koppelen voor rapportage- en analysedoeleinden.
 

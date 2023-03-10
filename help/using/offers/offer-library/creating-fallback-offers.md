@@ -5,9 +5,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '286'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ Voer de volgende stappen uit om een fallback-aanbieding te maken:
 
    ![](../assets/create_fallback.png)
 
-1. Geef de naam van de fallback-aanbieding op. U kunt ook een of meerdere bestaande tags aan de bibliotheek koppelen, zodat u de bibliotheek met aanbiedingen eenvoudiger kunt doorzoeken en organiseren.
+1. Geef de naam van de fallback-aanbieding op. U kunt ook een of meerdere bestaande kwalificatoren voor verzamelingen (voorheen bekend als &#39;tags&#39;) aan de verzameling koppelen, zodat u de bibliotheek met aanbiedingen eenvoudiger kunt doorzoeken en indelen.
 
    ![](../assets/fallback_details.png)
 

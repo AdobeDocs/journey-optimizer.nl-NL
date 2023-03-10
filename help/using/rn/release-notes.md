@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4fbb879f40952aaef5b197b170578bf9e27f10f9
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1025'
 ht-degree: 8%
 
 ---
@@ -27,6 +27,12 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 **Tags beheren in uw reizen**
 
 Als Journey Optimizer-expert kunt u uw zakelijke objecten nu organiseren met tags. Met tags kunt u objecten snel en eenvoudig classificeren om zoekopdrachten te verbeteren. Deze functie is momenteel beschikbaar in bèta en alleen voor reizen. [Meer informatie](../building-journeys/tags.md)
+
+**Beslissingsbeheercodes hernoemd naar Verzamelingskwalificaties**
+
+Om mogelijke verwarring met de recente versie van tags in Adobe Experience Platform te voorkomen, zijn de namen van Beslissingsbeheertags gewijzigd in &quot;Verzamelingsaanduidingen&quot;.
+
+Hoewel de term &quot;tag&quot; niet meer wordt gebruikt in de gebruikersinterface van het besluitvormingsbeheer, wordt deze nog steeds gebruikt in back-endservices zoals API&#39;s en datasets.
 
 ## Opmerkingen bij de release februari 2023 {#feb-2023}
 

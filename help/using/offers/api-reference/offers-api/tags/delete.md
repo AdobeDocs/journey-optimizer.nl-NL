@@ -1,21 +1,21 @@
 ---
-title: Labels verwijderen
-description: Met labels kunt u uw voorstellen beter organiseren en doorlopen.
+title: Verzamelingsaanduidingen verwijderen
+description: Met de verzamelingskwalificatietags kunt u uw voorstellen beter organiseren en sorteren.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 335c1b80-f1f0-4fd0-add8-84b8cc5e2e00
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 3%
+source-wordcount: '157'
+ht-degree: 1%
 
 ---
 
-# Een tag verwijderen {#delete-tag}
+# Een verzamelingskwalificatie verwijderen {#delete-tag}
 
-Soms is het nodig om een tag te verwijderen (DELETE). Alleen tags die u maakt in de container van de huurder, kunnen worden verwijderd. Dit wordt gedaan door een verzoek van de DELETE aan uit te voeren [!DNL Offer Library] API die $id gebruikt van de tag die u wilt verwijderen.
+Het kan soms nodig zijn om (DELETE) een verzamelingskwalificatie (voorheen bekend als &quot;tag&quot;) te verwijderen. Alleen verzamelingsaanduidingen die u in de huurderscontainer maakt, kunnen worden verwijderd. Dit wordt gedaan door een verzoek van de DELETE aan uit te voeren [!DNL Offer Library] API die $id gebruikt van de inzamelingskwalificatie u wenst om te schrappen.
 
 **API-indeling**
 
@@ -26,8 +26,8 @@ DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | De container waarin de tags zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | De instantie-id van de tag die u wilt bijwerken. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| `{CONTAINER_ID}` | De container waar de inzamelingsbepalende eigenschappen worden gevestigd. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | De instantie-id van de verzamelingskwalificatie die u wilt bijwerken. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **Verzoek**
 
@@ -45,4 +45,4 @@ curl -X DELETE \
 
 Een geslaagde reactie retourneert HTTP-status 202 (Geen inhoud) en een lege hoofdtekst.
 
-U kunt de verwijdering bevestigen door een opzoekverzoek (GET) in te dienen bij de tag. U moet een header Accept in de aanvraag opnemen, maar u moet de HTTP-status 404 (Niet gevonden) ontvangen omdat de tag uit de container is verwijderd.
+U kunt de schrapping bevestigen door een raadpleging (GET) verzoek aan het inzamelingsbepaler te proberen. U zult een Accept- kopbal in het verzoek moeten omvatten, maar zou een status 404 van HTTP (niet Gevonden) moeten ontvangen omdat het inzamelingsbepalende karakter uit de container is verwijderd.

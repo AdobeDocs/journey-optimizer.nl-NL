@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 11596bfbe5f98e362224384d51ba32d61275bc1d
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '314'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ De lijst met aanbiedingscollecties is toegankelijk in het **[!UICONTROL Offers]*
 
 U kunt twee typen verzamelingen maken:
 
-* **Dynamische verzamelingen** Dit zijn verzamelingen voorstellen die zijn gebaseerd op tags. Deze verzamelingen worden automatisch bijgewerkt. Als bijvoorbeeld een nieuwe aanbieding wordt gemaakt met de geselecteerde tag, wordt deze automatisch toegevoegd aan de verzameling.
+* **Dynamische verzamelingen** Dit zijn verzamelingen van aanbiedingen die zijn gebaseerd op verzamelingsaanduidingen (die voorheen &#39;&#39;tags&#39;&#39; werden genoemd). Deze verzamelingen worden automatisch bijgewerkt. Bijvoorbeeld, als een nieuwe aanbieding met het geselecteerde inzamelingsbepaler wordt gecreeerd, zal het automatisch aan de inzameling worden toegevoegd.
 
 * **Statische verzamelingen** zijn inzamelingen die door individuele aanbiedingen manueel te selecteren om in de Inzameling te omvatten worden gebouwd. De verzameling kan alleen worden bijgewerkt door er handmatig meer aanbiedingen aan toe te voegen.
 
@@ -42,13 +42,13 @@ Ga als volgt te werk om een verzameling te maken:
 
    ![](../assets/collection_create.png)
 
-1. Als u een dynamische verzameling wilt maken, selecteert u in het linkerdeelvenster de tag van de aanbiedingen die u aan de verzameling wilt toevoegen. Klik vervolgens op **[!UICONTROL Save]**. Alle aanbiedingen met de geselecteerde tag worden opgeslagen in de verzameling.
+1. Als u een dynamische verzameling wilt maken, selecteert u in het linkerdeelvenster de verzamelingskwalificatie van de aanbiedingen die u aan de verzameling wilt toevoegen. Klik vervolgens op **[!UICONTROL Save]**. Alle aanbiedingen met de geselecteerde inzamelingskwalificatie zullen in de inzameling worden bewaard.
 
-   Voor meer informatie over het maken van tags raadpleegt u [Tags maken](../offer-library/creating-tags.md).
+   Voor meer bij de verwezenlijking van inzamelingsbepalers, zie [Verzamelingsaanduidingen maken](../offer-library/creating-tags.md).
 
    ![](../assets/dynamic_collection.png)
 
-1. Als u een statische verzameling wilt maken, filtert u in het linkerdeelvenster de lijst met aanbiedingen (status, label, datum, kanaal, inhoudstype) en selecteert u de aanbiedingen die u aan de verzameling wilt toevoegen.
+1. Als u een statische verzameling wilt maken, gebruikt u het linkerdeelvenster om de lijst met aanbiedingen (status, kwalificatie van verzameling, datum, kanaal, inhoudstype) te filteren en selecteert u vervolgens de aanbiedingen die u aan de verzameling wilt toevoegen.
 
    ![](../assets/static_collection.png)
 

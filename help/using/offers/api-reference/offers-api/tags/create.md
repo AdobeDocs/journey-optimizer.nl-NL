@@ -1,21 +1,21 @@
 ---
-title: Een tag maken
-description: Met labels kunt u uw voorstellen beter organiseren en doorlopen.
+title: Een verzamelingskwalificatie maken
+description: Met de verzamelingskwalificatietags kunt u uw voorstellen beter organiseren en sorteren.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
-source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 6%
+source-wordcount: '141'
+ht-degree: 2%
 
 ---
 
-# Een tag maken {#create-tag}
+# Een verzamelingskwalificatie maken {#create-tag}
 
-U kunt een tag maken door een POST aan te vragen bij de [!DNL Offer Library] API, terwijl u uw container-id opgeeft.
+U kunt een verzamelingskwalificatie maken (voorheen &#39;&#39;tag&#39;&#39; genoemd) door een POST-aanvraag in te dienen bij de [!DNL Offer Library] API, terwijl u uw container-id opgeeft.
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
@@ -35,7 +35,7 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | De container waarin de tags zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{CONTAINER_ID}` | De container waar de inzamelingsbepalende eigenschappen worden gevestigd. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Verzoek**
 
@@ -55,7 +55,7 @@ curl -X POST \
 
 **Antwoord**
 
-Een geslaagde reactie retourneert informatie over de nieuwe tag, inclusief de unieke instantie-id en plaatsing `@id`. U kunt de instantie-id in latere stappen gebruiken om de tag bij te werken of te verwijderen. U kunt uw unieke tag gebruiken `@id` in latere zelfstudies om verzamelingen en persoonlijke aanbiedingen te maken.
+Een geslaagde reactie retourneert informatie over de nieuwe verzamelingskwalificatie, inclusief de unieke instantie-id en plaatsing `@id`. U kunt de instantie-id in latere stappen gebruiken om de verzamelingskwalificatie bij te werken of te verwijderen. U kunt uw unieke verzamelingskwalificatie gebruiken `@id` in latere zelfstudies om verzamelingen en persoonlijke aanbiedingen te maken.
 
 ```json
 {

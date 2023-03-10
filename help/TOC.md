@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ccaad8c4d9d26c0fd968e627e7a6bf853f232000
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 36%
+source-wordcount: '1328'
+ht-degree: 35%
 
 ---
 
@@ -325,7 +325,7 @@ ht-degree: 36%
    + Componenten maken {#create-components}
       + [Plaatsingen maken](using/offers/offer-library/creating-placements.md)
       + [Beslissingsregels maken](using/offers/offer-library/creating-decision-rules.md)
-      + [Tags maken](using/offers/offer-library/creating-tags.md)
+      + [Verzamelingsaanduidingen maken](using/offers/offer-library/creating-tags.md)
    + Classificaties maken {#rankings}
       + [Aan de slag met waarderingen](using/offers/ranking/get-started-rankings.md)
       + [Beoordelingsformule](using/offers/ranking/create-ranking-formulas.md)
@@ -377,11 +377,11 @@ ht-degree: 36%
             + [Een beslissingsregel bijwerken](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [Een beslissingsregel verwijderen](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + Tags {#tags}
-            + [Tags weergeven](using/offers/api-reference/offers-api/tags/tags-list.md)
-            + [Een tag opzoeken](using/offers/api-reference/offers-api/tags/lookup.md)
-            + [Een tag maken](using/offers/api-reference/offers-api/tags/create.md)
-            + [Een tag bijwerken](using/offers/api-reference/offers-api/tags/update.md)
-            + [Een tag verwijderen](using/offers/api-reference/offers-api/tags/delete.md)
+            + [Kwaliteit van collectie weergeven](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [Een verzamelingskwalificatie opzoeken](using/offers/api-reference/offers-api/tags/lookup.md)
+            + [Een verzamelingskwalificatie maken](using/offers/api-reference/offers-api/tags/create.md)
+            + [Een verzamelingskwalificatie bijwerken](using/offers/api-reference/offers-api/tags/update.md)
+            + [Een verzamelingskwalificatie verwijderen](using/offers/api-reference/offers-api/tags/delete.md)
          + Persoonlijke aanbiedingen {#personalized-offers}
             + [Persoonlijke aanbiedingen weergeven](using/offers/api-reference/offers-api/personalized-offers/offers-list.md)
             + [Een persoonlijke aanbieding opzoeken](using/offers/api-reference/offers-api/personalized-offers/lookup.md)

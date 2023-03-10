@@ -1,25 +1,25 @@
 ---
-title: Tags weergeven
-description: Met labels kunt u uw voorstellen beter organiseren en doorlopen.
+title: Kwaliteit van collectie weergeven
+description: Met de verzamelingskwalificatietags kunt u uw voorstellen beter organiseren en sorteren.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 2%
+source-wordcount: '322'
+ht-degree: 1%
 
 ---
 
-# Tags weergeven {#list-tags}
+# Kwaliteit van collectie weergeven {#list-tags}
 
-Met labels kunt u uw voorstellen beter organiseren en doorlopen. U kunt bijvoorbeeld de tag &#39;Zwarte vrijdag&#39; gebruiken voor uw aanbiedingen op de zwarte vrijdag. Vervolgens kunt u met de zoekfunctionaliteit in de bibliotheek met aanbiedingen alle aanbiedingen met die tag gemakkelijk vinden.
+Met de verzamelingsaanduidingen (voorheen &#39;&#39;tags&#39;&#39; genoemd) kunt u uw aanbiedingen beter organiseren en doorlopen. U kunt bijvoorbeeld een label geven aan de zwarte vrijdag-aanbiedingen met de verzamelingsaanduiding &#39;Zwarte vrijdag&#39;. U kunt dan de onderzoeksfunctionaliteit in de Bibliotheek van de Aanbieding gebruiken om van alle aanbiedingen met die inzamelingskwalificatie gemakkelijk de plaats te bepalen.
 
-De markeringen kunnen ook worden gebruikt om aanbiedingen samen in inzamelingen te groeperen. Raadpleeg de zelfstudie voor meer informatie [verzamelingen maken](../../../offer-library/creating-collections.md).
+De bepalende eigenschappen van de inzameling kunnen ook worden gebruikt om aanbiedingen samen in inzamelingen te groeperen. Raadpleeg de zelfstudie voor meer informatie [verzamelingen maken](../../../offer-library/creating-collections.md).
 
-U kunt een lijst met alle tags in een container weergeven door één GET-aanvraag uit te voeren bij de [!DNL Offer Library] API.
+U kunt een lijst van alle inzamelingsbepalende eigenschappen binnen een container bekijken door één enkel verzoek van de GET aan uit te voeren [!DNL Offer Library] API.
 
 **API-indeling**
 
@@ -30,8 +30,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | De container waarin de tags zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | Definieert het schema dat aan labels is gekoppeld. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `{CONTAINER_ID}` | De container waar de inzamelingsbepalende eigenschappen worden gevestigd. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | Bepaalt het schema verbonden aan inzamelingsbepalende eigenschappen. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
 | `{QUERY_PARAMS}` | Optionele queryparameters om resultaten te filteren op. | `limit=2` |
 
 **Verzoek**
@@ -60,11 +60,11 @@ De gemeenschappelijkste vraagparameters voor het pagineren omvatten:
 | `qop` | Past EN of OF exploitant op waarden in q vraagkoordparam toe. | `AND` / `OR` |
 | `field` | Optionele lijst met velden om de zoekopdracht te beperken tot. Deze param kan als volgt worden herhaald: field=field1[,field=field2,...] en (padexpressies hebben de vorm van door punten gescheiden paden, zoals _instance.xdm:name) | `_instance.xdm:name` |
 | `orderBy` | Resultaten sorteren op een bepaalde eigenschap. Een `-` vóór titel (`orderby=-title`) worden objecten op titel gesorteerd in aflopende volgorde (Z-A). | `-repo:createdDate` |
-| `limit` | Beperk het aantal geretourneerde tags. | `limit=5` |
+| `limit` | Beperk het aantal teruggekeerde inzamelingsbepalers. | `limit=5` |
 
 **Antwoord**
 
-Een geslaagde reactie retourneert een lijst met tags die aanwezig zijn in de container waartoe u toegang hebt.
+Een succesvolle reactie keert een lijst van inzamelingsbepalende eigenschappen terug die binnen de container aanwezig zijn u toegang tot hebt.
 
 ```json
 {

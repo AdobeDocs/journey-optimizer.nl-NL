@@ -1,44 +1,44 @@
 ---
-title: Tags maken
-description: Leer hoe u labels voor uw aanbiedingen maakt
+title: Verzamelingsaanduidingen maken
+description: Leer hoe u kwalificatietoetsen voor verzamelingen voor uw aanbiedingen kunt maken
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
-source-git-commit: 5596c851b70cc38cd117793d492a15fd4ce175ef
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 6%
+source-wordcount: '178'
+ht-degree: 2%
 
 ---
 
-# Tags maken {#create-tags}
+# Verzamelingsaanduidingen maken {#create-tags}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_tags"
->title="Tags"
->abstract="Koppel een of meerdere tags aan de aanbieding om de bibliotheek met aanbiedingen overzichtelijker te houden en aanbiedingen gemakkelijker te vinden. Tags worden gemaakt in het menu Component."
+>title="Verzamelingsaanduidingen"
+>abstract="Koppel een of meer verzamelingskwalificeerders aan de aanbieding om de bibliotheek met aanbiedingen overzichtelijker te houden en aanbiedingen gemakkelijker te vinden. Verzamelingsaanduidingen worden gemaakt in het menu Component."
 
-Door tags aan uw aanbiedingen te koppelen, kunt u deze eenvoudiger organiseren. U kunt bijvoorbeeld de tag &#39;Zwarte vrijdag&#39; gebruiken voor uw aanbiedingen op de zwarte vrijdag. Vervolgens kunt u met de zoekfunctionaliteit in de bibliotheek met aanbiedingen alle aanbiedingen met die tag gemakkelijk vinden.
+Door verzamelingsaanduidingen (die voorheen &#39;&#39;tags&#39;&#39; werden genoemd) aan uw aanbiedingen te koppelen, kunt u ze eenvoudiger organiseren. U kunt bijvoorbeeld een label geven aan de zwarte vrijdag-aanbiedingen met de verzamelingsaanduiding &#39;Zwarte vrijdag&#39;. U kunt dan de onderzoeksfunctionaliteit in de Bibliotheek van de Aanbieding gebruiken om van alle aanbiedingen met die inzamelingskwalificatie gemakkelijk de plaats te bepalen.
 
-De markeringen kunnen ook worden gebruikt om aanbiedingen samen in aanbiedingsinzamelingen te groeperen. Zie [Verzamelingen maken](../offer-library/creating-collections.md).
+Verzamelingsbepalers kunnen ook worden gebruikt om aanbiedingen samen te groeperen in aanbiedingsinzamelingen. Zie [Verzamelingen maken](../offer-library/creating-collections.md).
 
 ➡️ [Ontdek deze functie in video](#video)
 
-De lijst met gemaakte tags is toegankelijk in het dialoogvenster **[!UICONTROL Components]** -menu.
+De lijst met gecreeerde verzamelingskwalificatoren is toegankelijk in het dialoogvenster **[!UICONTROL Components]** -menu.
 
 ![](../assets/tags_list.png)
 
-Voer de volgende stappen uit om een tag te maken:
+Ga als volgt te werk om een verzamelingskwalificatie te maken:
 
-1. Ga naar de **[!UICONTROL Tags]** tab, en klik vervolgens op **[!UICONTROL Create tag]**.
+1. Ga naar de **[!UICONTROL Collection qualifiers]** tab, en klik vervolgens op **[!UICONTROL Create collection qualifier]**.
 
-1. Geef de naam van de tag op en klik vervolgens op **[!UICONTROL Save]**.
+1. Geef de naam van de verzamelingskwalificatie op en klik vervolgens op **[!UICONTROL Save]**.
 
    ![](../assets/tags_create.png)
 
-1. Nadat de tag is gemaakt, wordt deze weergegeven in de lijst. U kunt het selecteren om zijn eigenschappen te tonen en het uit te geven of te onderdrukken.
+1. Zodra de inzamelingsbepaler wordt gecreeerd, toont het in de lijst. U kunt het selecteren om zijn eigenschappen te tonen en het uit te geven of te onderdrukken.
 
    ![](../assets/tags_created.png)
 

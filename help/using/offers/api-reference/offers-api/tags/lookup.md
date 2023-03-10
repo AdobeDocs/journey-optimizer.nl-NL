@@ -1,21 +1,21 @@
 ---
-title: Een tag opzoeken
-description: Met labels kunt u uw voorstellen beter organiseren en doorlopen.
+title: Een verzamelingskwalificatie opzoeken
+description: Met de verzamelingskwalificatietags kunt u uw voorstellen beter organiseren en sorteren.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: e2d1f093-c1b8-4c4c-a20f-4bd7c2ea5269
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '163'
 ht-degree: 1%
 
 ---
 
-# Een tag opzoeken {#look-up-tag}
+# Een verzamelingskwalificatie opzoeken {#look-up-tag}
 
-U kunt specifieke tags opzoeken door een verzoek in te dienen bij de GET [!DNL Offer Library] API die een van de tags bevat `@id` of de naam van de tag in het aanvraagpad.
+U kunt specifieke inzamelingsbepalers (die vroeger &quot;markeringen&quot;worden genoemd opzoeken door een GET verzoek aan te richten [!DNL Offer Library] API die de kwalificatie voor de verzameling bevat `@id` of de naam van de verzamelingskwalificatie in het aanvraagpad.
 
 **API-indeling**
 
@@ -26,8 +26,8 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_TAG}&{QUE
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | De container waarin de tags zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_TAG}` | Definieert het schema dat aan labels is gekoppeld. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
+| `{CONTAINER_ID}` | De container waar de inzamelingsbepalende eigenschappen worden gevestigd. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{SCHEMA_TAG}` | Bepaalt het schema verbonden aan inzamelingsbepalende eigenschappen. | `https://ns.adobe.com/experience/offer-management/tag;version=0.1` |
 | `id` | Een tekenreeks die overeenkomt met de `@id` eigendom van de entiteiten. De tekenreeks komt exact overeen. De parameters `id` en `name` kan niet samen worden gebruikt. | `xcore:tag:124e147572cd7866` |
 | `name` | Een tekenreeks die overeenkomt met de eigenschap xdm:name van de entiteiten. De tekenreeks komt exact overeen met hoofdletters, maar er kunnen jokertekens worden gebruikt. De parameters `id` en `name` kan niet samen worden gebruikt | `Holiday sales and promotions` |
 
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Antwoord**
 
-Een succesvol antwoord retourneert de details van de tag, inclusief informatie over de container-id, de instantie-id en de unieke tag `@id`.
+Een succesvolle reactie keert de details van de inzamelingsbepaler met inbegrip van informatie over uw containeridentiteitskaart, instantieidentiteitskaart en, unieke inzamelingsbepaler terug `@id`.
 
 ```json
 {

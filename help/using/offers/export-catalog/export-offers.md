@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
 workflow-type: tm+mt
-source-wordcount: '2003'
+source-wordcount: '2009'
 ht-degree: 0%
 
 ---
@@ -343,12 +343,12 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 **Veld:** tags
 **Titel:** Tags
-**Omschrijving:** De reeks codes die aan deze entiteit is gekoppeld. De tags worden gebruikt in filterexpressies om de totale voorraad te beperken tot een subset (categorie).
+**Omschrijving:** De set verzamelingsaanduidingen (voorheen &quot;tags&quot; genoemd) die aan deze entiteit zijn gekoppeld. De verzamelingsaanduidingen worden gebruikt in filterexpressies om de totale inventaris te beperken tot een subset (categorie).
 **Type:** array
 
 +++
 
-<!--Field without name under tags: Description: An identifier of a tag object. The value is the @id of the tag that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
+<!--Field without name under tags: Description: An identifier of a collection qualifier object. The value is the @id of the collection qualifier that is referenced. See tag schema: https://ns.adobe.com/experience/decisioning/tag. Type: string-->
 
 +++_repo
 
