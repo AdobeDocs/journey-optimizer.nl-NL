@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
 workflow-type: tm+mt
-source-wordcount: '1805'
+source-wordcount: '1828'
 ht-degree: 2%
 
 ---
@@ -112,6 +112,9 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
     </tr>
     <tr>
         <td><a href="dates.md#format-date">Indelingsdatum</a></td><td>Deze functie formatteert een waarde van de datumtijd</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#format-date-locale">Datumnotatie met ondersteuning voor landinstellingen</a></td><td>Deze functie maakt een datumtijdwaarde op in de corresponderende taalgevoelige representatie, d.w.z. in een gewenste landinstelling.</td>
     </tr>
     <tr>
         <td><a href="dates.md#set-days">Dagen instellen</a></td><td>Deze functie stelt de dag van de maand in voor de opgegeven datum en tijd</td>

@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 4%
+source-wordcount: '413'
+ht-degree: 3%
 
 ---
 
@@ -142,6 +142,35 @@ De volgende bewerking retourneert de datum in de volgende notatie: DD-MM-YY.
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY") %}
+```
+
+## Datumnotatie met ondersteuning voor landinstellingen{#format-date-locale}
+
+De `formatDate` wordt gebruikt om een datumtijdwaarde op te maken in de corresponderende taalgevoelige representatie, d.w.z. in een gewenste landinstelling. De indeling moet een geldig Java DateTimeFormat-patroon zijn.
+
+**Syntaxis**
+
+```sql
+{%= formatDate(datetime, format, locale) %}
+```
+
+Waar de eerste tekenreeks het datumkenmerk is, is de tweede waarde hoe u de datum wilt omzetten en weergeven en de derde waarde de landinstelling in tekenreeksindeling.
+
+>[!NOTE]
+>
+> Als een datumpatroon ongeldig is, wordt de datum teruggezet naar de ISO-standaardindeling.
+>
+> U kunt functies voor datumnotatie gebruiken die zijn samengevat in [Documentatie oracle](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html).
+>
+> U kunt opmaak en geldige landinstellingen gebruiken, zoals in [Documentatie oracle](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) en [Ondersteunde landinstellingen](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html).
+
+
+**Voorbeeld**
+
+De volgende bewerking retourneert de datum in de volgende notatie: DD-MM-YY en landinstelling FRANKRIJK.
+
+```sql
+{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY", "fr_FR") %}
 ```
 
 ## Aantal dagen instellen{#set-days}
