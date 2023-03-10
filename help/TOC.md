@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 51f09bac0278182b1df3e36425b01fbbf7deddd8
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1329'
 ht-degree: 35%
 
 ---
@@ -376,7 +376,7 @@ ht-degree: 35%
             + [Een beslissingsregel maken](using/offers/api-reference/offers-api/decision-rules/create.md)
             + [Een beslissingsregel bijwerken](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [Een beslissingsregel verwijderen](using/offers/api-reference/offers-api/decision-rules/delete.md)
-         + Tags {#tags}
+         + Verzamelingsaanduidingen {#tags}
             + [Kwaliteit van collectie weergeven](using/offers/api-reference/offers-api/tags/tags-list.md)
             + [Een verzamelingskwalificatie opzoeken](using/offers/api-reference/offers-api/tags/lookup.md)
             + [Een verzamelingskwalificatie maken](using/offers/api-reference/offers-api/tags/create.md)
