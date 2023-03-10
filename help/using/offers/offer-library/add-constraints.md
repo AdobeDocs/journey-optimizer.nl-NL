@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 1bb5fbdc08f8650132e191e659b03caadae8edf4
+source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2211'
 ht-degree: 1%
 
 ---
@@ -164,7 +164,9 @@ Volg de onderstaande hoofdstappen om de uitlijning in te stellen.
 
 1. Definiëren welke **[!UICONTROL Capping event]** zal in aanmerking worden genomen om de teller te verhogen. [Meer informatie](#capping-event)
 
-1. Bepaal het aantal keren dat de aanbieding kan worden gepresenteerd. [Meer informatie](#capping-type)
+1. Stel het aantal keren in dat de aanbieding kan worden weergegeven. [Meer informatie](#capping-count)
+
+1. Kies deze optie als u de afbeelding op alle gebruikers of slechts op één profiel wilt toepassen. [Meer informatie](#capping-type)
 
 1. Stel de **[!UICONTROL Frequency]** om te bepalen hoe vaak de aftaptelling wordt teruggesteld. [Meer informatie](#frequency-capping)
 
@@ -184,6 +186,8 @@ Het aantal keren dat een aanbieding wordt voorgesteld, wordt berekend tijdens de
 
 De **[!UICONTROL Capping event]** in het veld kunt u bepalen welke **[!UICONTROL Capping event]** zal in aanmerking worden genomen om de teller te verhogen:
 
+![](../assets/offer-capping-event.png)
+
 * **[!UICONTROL Decision event]** (standaardwaarde): Er kan maximaal een aantal malen een voorstel worden aangeboden.
 * **[!UICONTROL Impression]**: Het maximale aantal keer dat de aanbieding aan een gebruiker kan worden weergegeven.
 
@@ -192,21 +196,25 @@ De **[!UICONTROL Capping event]** in het veld kunt u bepalen welke **[!UICONTROL
    >Het gebruik van indrukkingen als afdekkende gebeurtenissen is beschikbaar voor **binnenkomende kanalen** alleen.
 
 * **[!UICONTROL Clicks]**: Een gebruiker kan op het aanbod klikken om het maximumaantal keren te wijzigen.
-* **[!UICONTROL Custom event]**: U kunt een aangepaste gebeurtenis definiëren die wordt gebruikt om het aantal verzonden aanbiedingen te beperken. U kunt bijvoorbeeld het aantal aflossingen beperken tot een bepaald profiel één keer is afgelost. Gebruik hiervoor [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} schema&#39;s om een regel van de douanegebeurtenis te bouwen.
+* **[!UICONTROL Custom event]**: U kunt een aangepaste gebeurtenis definiëren die wordt gebruikt om het aantal verzonden aanbiedingen te beperken. U kunt bijvoorbeeld het aantal aflossingen beperken tot ze gelijk zijn aan 10000 of tot een bepaald profiel één keer is afgelost. Gebruik hiervoor [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} schema&#39;s om een regel van de douanegebeurtenis te bouwen.
 
-   ![](../assets/offer-capping-event.png)
+   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. In the example below, you can cap on the number of subscriptions.-->
+   In het onderstaande voorbeeld wilt u het aantal abonnementen beperken. Selecteren **[!UICONTROL Custom event]** in de lijst en **[!UICONTROL Create custom event rules]** bouwer om de relevante gebeurtenissen te selecteren.
 
-   <!--![](../assets/offer-capping-custom-event.png)-->
+   ![](../assets/offer-capping-custom-event.png)
+
+   Zodra de regel wordt gecreeerd, toont het in **[!UICONTROL Custom event query]** veld.
+
+   ![](../assets/offer-capping-custom-event-query.png)
 
    >[!CAUTION]
    >
    >Voor alle begrenzingsgebeurtenissen behalve beslissingsgebeurtenis, kan de terugkoppeling van het besluitvormingsbeheer niet automatisch worden verzameld, zodat wordt gewaarborgd dat de gegevens binnen komen. [Meer informatie over gegevensverzameling](../data-collection/data-collection.md)
 
-### Type uitlijnen {#capping-type}
+### Afdektelling {#capping-count}
 
-De **[!UICONTROL Capping type]** kunt u het aantal keren opgeven dat de aanbieding kan worden weergegeven.
+De **[!UICONTROL Capping count]** kunt u het aantal keren opgeven dat de aanbieding kan worden weergegeven.
 
 ![](../assets/offer-capping-times.png)
 
@@ -214,9 +222,9 @@ De **[!UICONTROL Capping type]** kunt u het aantal keren opgeven dat de aanbiedi
 >
 >Het getal moet een geheel getal groter dan 0 zijn.
 
-<!--For example, if you defined a custom capping event such as subsciptions are taken into account, if you enter 10 in the **[!UICONTROL Capping count]** field, no more offers will be sent after 10 subscriptions.-->
+Als u bijvoorbeeld een aangepaste gebeurtenis voor het toewijzen van bijschriften hebt gedefinieerd, zoals ondertitels, wordt er rekening mee gehouden als u 10 invoert in het dialoogvenster **[!UICONTROL Capping count]** in het veld worden geen voorstellen meer verzonden na 10 abonnementen.
 
-<!--![](../assets/offer-capping-custom-example.png)-->
+### Type uitlijnen {#capping-type}
 
 U kunt ook opgeven of u de aftopping wilt toepassen op alle gebruikers of op één specifiek profiel:
 

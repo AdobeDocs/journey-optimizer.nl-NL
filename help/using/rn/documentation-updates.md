@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2365'
 ht-degree: 17%
 
 ---
@@ -17,13 +17,13 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 ## Maart 2023 {#march-2023}
 
-* In de gids voor het beheer van besluiten is een nieuw gedeelte opgenomen over de wijze waarop feedback van offer decisioning in Adobe Experience Platform kan worden verzameld, met inbegrip van de aanbiedingen die worden weergegeven en de wijze waarop gebruikers met hen communiceren.  [Meer informatie](../offers/data-collection/data-collection.md)
+* In de gids voor het beheer van besluiten is een nieuw gedeelte opgenomen over de wijze waarop feedback van offer decisioning in Adobe Experience Platform kan worden verzameld, met inbegrip van de aanbiedingen die worden weergegeven en de wijze waarop gebruikers met hen communiceren. [Meer informatie](../offers/data-collection/data-collection.md)
 
 ## Februari 2023 {#feb-2023}
 
 * Er is een opmerking toegevoegd aan de API-getriggerde campagnedocumentatie om op te geven dat contextafhankelijke kenmerken die aan de aanvraag worden doorgegeven, niet groter mogen zijn dan 50 kB. [Meer informatie](../campaigns/api-triggered-campaigns.md#contextual)
 
-* Toegevoegde informatie over de wijze waarop gegevens over opt-out worden opgeslagen in het dialoogvenster **Dataset voor goedgekeurde service** nadat de ontvangers zijn afgemeld via een bestemmingspagina. [Meer informatie](../landing-pages/lp-use-cases.md#configure-opt-out)
+* Er is informatie toegevoegd over de wijze waarop gegevens over opt-out worden opgeslagen in het dialoogvenster **Dataset voor goedgekeurde service** nadat de ontvangers zijn afgemeld via een bestemmingspagina. [Meer informatie](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## Januari 2023 {#jan-2023}
 
