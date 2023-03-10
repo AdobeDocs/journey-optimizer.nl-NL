@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: fee83ffd136ebe21ae62c7e0bd50dc31e0f4b948
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1064'
 ht-degree: 8%
 
 ---
@@ -33,6 +33,12 @@ Als Journey Optimizer-expert kunt u uw zakelijke objecten nu organiseren met tag
 Om mogelijke verwarring met de recente versie van tags in Adobe Experience Platform te voorkomen, zijn de namen van Beslissingsbeheertags gewijzigd in &quot;Verzamelingsaanduidingen&quot;.
 
 Hoewel de term &quot;tag&quot; niet meer wordt gebruikt in de gebruikersinterface van het besluitvormingsbeheer, wordt deze nog steeds gebruikt in back-endservices zoals API&#39;s en datasets.
+
+**Aftopping van het besluitvormingsbeheer**
+
+* U kunt de teller van de aanbieding nu op een dagelijkse, wekelijkse of maandelijkse basis terugstellen. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
+
+* U kunt ook kiezen naar welke Adobe Experience Platform-gebeurtenis moet worden gezocht om de offer decisioning te beperken. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
 
 ## Opmerkingen bij de release februari 2023 {#feb-2023}
 
@@ -163,10 +169,6 @@ Note that each widget can be resized and deleted as needed.
 -->
 
 * **URL-personalisatie** - Wanneer u URL&#39;s als inhoud toevoegt aan de representaties van uw aanbiedingen, kunt u deze URL&#39;s nu aanpassen met de Expressieeditor. [Meer informatie](../offers/offer-library/add-representations.md)
-
-* **Afbeelding** - U kunt de teller van de aanbieding nu opnieuw instellen op een dagelijkse, wekelijkse of maandelijkse basis. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
-
-* **Afbeelding** - U kunt nu kiezen naar welke Adobe Experience Platform-gebeurtenis moet worden gekeken om de offer decisioning te beperken. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
 
 ## Release van januari 2023 {#jan-2023-release}
 
