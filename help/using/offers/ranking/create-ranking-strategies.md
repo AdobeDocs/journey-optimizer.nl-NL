@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 3188bc97b8103d2a01101a23d8c242a3e2924f76
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 3%
+source-wordcount: '381'
+ht-degree: 2%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 3%
 ## Een AI-model maken {#create-ranking-strategy}
 
 Voer de volgende stappen uit om een AI-model te maken:
+
+1. Maak een gegevensset waarin conversiegebeurtenissen worden verzameld. [Meer informatie](../data-collection/create-dataset.md)
 
 1. In de **[!UICONTROL Components]** menu, opent u de **[!UICONTROL Ranking]** tab, dan selecteren **[!UICONTROL AI models]**.
 
@@ -52,7 +54,7 @@ Voer de volgende stappen uit om een AI-model te maken:
    >
    >Deze gebeurtenissen worden automatisch vastgelegd met de Web SDK of de Mobile SDK die is opgegeven. Meer informatie hierover vindt u in [Overzicht Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
 
-1. Selecteer de gegevensset(s) waar de conversie- en impressiefeedagen worden verzameld. Leer hoe u een dergelijke gegevensset maakt in [deze sectie](#create-dataset). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
+1. Selecteer de gegevensset(s) waar de conversie- en impressiefeedagen worden verzameld. Leer hoe u een dergelijke gegevensset maakt in [deze sectie](../data-collection/create-dataset.md). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
    ![](../assets/ai-ranking-dataset-id.png)
 
@@ -71,3 +73,13 @@ Voer de volgende stappen uit om een AI-model te maken:
 1. Sla het AI-model op en activeer het.
 
    ![](../assets/ai-ranking-save-activate.png)
+
+<!--At this point, you must have:
+
+* created the AI model,
+* defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
+* and in which dataset you want to collect the event data.-->
+
+Telkens wanneer een aanbieding wordt getoond en/of geklikt, wilt u dat de overeenkomstige gebeurtenis automatisch wordt gevangen door **[!UICONTROL Experience Event - Proposition Interactions]** veldgroep met de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} of Mobile SDK.
+
+Als u gebeurtenistypen wilt kunnen verzenden (weergegeven aanbod of aangeklikte aanbieding), moet u de juiste waarde voor elk gebeurtenistype instellen in een ervaringsgebeurtenis die naar Adobe Experience Platform wordt verzonden. [Meer informatie](../data-collection/schema-requirement.md)

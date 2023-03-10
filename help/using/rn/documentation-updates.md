@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '2328'
+source-wordcount: '2364'
 ht-degree: 17%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 17%
 # Documentatie-updates {#latest-updates}
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
+
+## Maart 2023 {#march-2023}
+
+* In de gids voor het beheer van besluiten is een nieuw gedeelte opgenomen over de wijze waarop feedback van offer decisioning in Adobe Experience Platform kan worden verzameld, met inbegrip van de aanbiedingen die worden weergegeven en de wijze waarop gebruikers met hen communiceren.  [Meer informatie](../offers/data-collection/data-collection.md)
 
 ## Februari 2023 {#feb-2023}
 
@@ -145,7 +149,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 22 januari is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
 * De **AI-classificaties van offer decisioning** is bijgewerkt met een meer gedetailleerde beschrijving van het model voor automatische optimalisatie. [Meer informatie](../offers/ranking/auto-optimization-model.md)
-* Er is een nieuwe sectie over de schemavereisten toegevoegd die nodig zijn om gebeurtenistypen te kunnen verzenden bij het gebruik van een classificatiestrategie. [Meer informatie](../offers/ranking/schema-requirement.md)
+* Er is een nieuwe sectie over de schemavereisten toegevoegd die nodig zijn om gebeurtenistypen te kunnen verzenden bij het gebruik van een classificatiestrategie. [Meer informatie](../offers/data-collection/schema-requirement.md)
 * Het gedeelte over [!DNL Journey Optimizer] personaliseringsmogelijkheden zijn gereorganiseerd voor een betere leesbaarheid . [Meer informatie](../personalization/personalize.md)
 * De **Voorinstellingen voor berichten maken** voor meer duidelijkheid is dit gedeelte in verschillende secties onderverdeeld . [Meer informatie](../configuration/channel-surfaces.md#create-channel-surface)
 * De **Uitschakelen, beheer** dit gedeelte is verduidelijkt en enigszins gereorganiseerd . [Meer informatie](../privacy/opt-out.md#opt-out-management)

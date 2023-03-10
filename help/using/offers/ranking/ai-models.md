@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 12bc2373ac5c391764df3880c5c87666a19e99b2
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 3%
@@ -38,7 +38,7 @@ Er zijn twee typen AI-modellen beschikbaar in [!DNL Journey Optimizer]:
 
 U kunt als volgt AI-modellen maken en gebruiken:
 
-1. Maak een gegevensset waarin conversie- en importeergebeurtenissen worden verzameld. [Meer informatie](create-dataset.md)
+1. Maak een gegevensset waarin conversie- en importeergebeurtenissen worden verzameld. [Meer informatie](../data-collection/create-dataset.md)
 1. Maak een AI-model dat gebeurtenissen van de dataset gebruikt om aanbiedingen te rangschikken. [Meer informatie](create-ranking-strategies.md)
-1. Configureer uw aanbiedingsschema om automatisch gebeurtenissen vast te leggen. [Meer informatie](schema-requirement.md)
+1. Configureer uw aanbiedingsschema om automatisch gebeurtenissen vast te leggen. [Meer informatie](../data-collection/schema-requirement.md)
 1. Wijs het AI-model toe aan een plaatsing in een besluit om in aanmerking komende aanbiedingen te classificeren. [Meer informatie](../offer-activities/configure-offer-selection.md)

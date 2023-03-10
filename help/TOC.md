@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 51f09bac0278182b1df3e36425b01fbbf7deddd8
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1334'
 ht-degree: 35%
 
 ---
@@ -334,10 +334,7 @@ ht-degree: 35%
          + AI-modeltypen {#ai-model-types}
             + [Model voor automatische optimalisatie](using/offers/ranking/auto-optimization-model.md)
             + [Gepersonaliseerd optimalisatiemodel](using/offers/ranking/personalized-optimization-model.md)
-         + AI-modellen maken {#configure-ai-model}
-            + [Een gegevensset maken om gebeurtenissen te verzamelen](using/offers/ranking/create-dataset.md)
-            + [Een AI-model maken](using/offers/ranking/create-ranking-strategies.md)
-            + [Vastleggen van gebeurtenissen configureren](using/offers/ranking/schema-requirement.md)
+         + [AI-modellen maken](using/offers/ranking/create-ranking-strategies.md)
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
@@ -349,10 +346,14 @@ ht-degree: 35%
       + [Beslissingen nemen](using/offers/offer-activities/create-offer-activities.md)
       + [Selectie van aanbiedingen in beslissingen configureren](using/offers/offer-activities/configure-offer-selection.md)
       + [Simulaties maken](using/offers/offer-activities/simulation.md)
-   + [Batchbeslissing](using/offers/batch-delivery.md)
+   + [Batchbeslissingen gebruiken](using/offers/batch-delivery.md)
+   + Gebeurtenisgegevens verzamelen {#collect-event-data}
+      + [Aan de slag met gegevensverzameling](using/offers/data-collection/data-collection.md)
+      + [Een gegevensset maken om gebeurtenissen te verzamelen](using/offers/data-collection/create-dataset.md)
+      + [Vastleggen van gebeurtenissen configureren](using/offers/data-collection/schema-requirement.md)
    + Beslissingsbeheerrapporten maken {#create-reports}
       + [Aan de slag met besluitvormingsgebeurtenissen](using/offers/reports/get-started-events.md)
-      + [Belangrijke informatie over gebeurtenissen met betrekking tot Beslissingsbeheer](using/offers/reports/key-information.md)
+      + [Belangrijke informatie over gebeurtenissen met betrekking tot het beheer van beslissingen](using/offers/reports/key-information.md)
       + [Toegang tot gebeurtenissen van XDM-velden](using/offers/reports/xdm-fields.md)
    + De aanbiedingscatalogus exporteren {#export-catalog}
       + [Aan de slag met het exporteren van de aanbiedingscatalogus ](using/offers/export-catalog/get-started-export.md)

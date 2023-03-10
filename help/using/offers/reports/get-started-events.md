@@ -6,20 +6,20 @@ topic: Integrations
 role: User
 level: Beginner
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 47%
 
 ---
 
-# Aan de slag met Beslissingsbeheergebeurtenissen {#monitor-offer-events}
+# Aan de slag met besluitvormingsgebeurtenissen {#monitor-offer-events}
 
-Telkens wanneer Beslissingsbeheer een besluit neemt voor een bepaald profiel, wordt informatie over deze gebeurtenissen automatisch naar Adobe Experience Platform verzonden.
+Telkens wanneer het Beslissingsbeheer een besluit neemt voor een bepaald profiel, wordt informatie over deze gebeurtenissen automatisch naar Adobe Experience Platform verzonden.
 
 Op deze manier kunt u deze gegevens exporteren om ze te analyseren in uw eigen rapportagesysteem. U kunt de Adobe Experience Platform [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl) ook gebruiken in combinatie met andere tools voor verbeterde analyse- en rapportagedoeleinden.
 
-De datasets met gebeurtenissen van het Besluit Management zijn toegankelijk vanuit Adobe Experience Platform **[!UICONTROL Datasets]** -menu. Eén dataset wordt automatisch gemaakt bij het invullen van elk van uw instanties.
+De datasets met gebeurtenissen in verband met het beheer van besluiten zijn toegankelijk vanuit Adobe Experience Platform **[!UICONTROL Datasets]** -menu. Eén dataset wordt automatisch gemaakt bij het invullen van elk van uw instanties.
 
 ![](../assets/events-datasets-list.png)
 
