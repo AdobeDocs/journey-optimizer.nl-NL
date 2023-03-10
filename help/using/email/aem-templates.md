@@ -10,9 +10,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="Informatief"
-source-git-commit: a162f70dceb3bef635085840fc304e0da2c33eed
+source-git-commit: 84278edbfa479d9c7588594c0b389a442aa3fe7c
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -40,12 +40,11 @@ Voordat u begint met het gebruik van deze functie, moet u zich aan de volgende v
 
    Als u inhoudssjablonen wilt maken, bewerken en verwijderen in Adobe Journey Optimizer, moet u beschikken over de **[!DNL Manage Library Items]** bevoegdheid opgenomen in de **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
 
-
 ## Afvoerkanalen en beperkingen{#aem-templates-limitations}
 
 Om het gebruik van Adobe Experience Manager met Adobe Journey Optimizer verder te optimaliseren, is het belangrijk dat u rekening houdt met de volgende aanvullende instructies en beperkingen:
 
-* Het malplaatje van de Experience Manager moet geen verpersoonlijking bevatten. Personalisatie mag alleen in Journey Optimizer worden uitgevoerd.
+* De correcte syntaxis van Journey Optimizer wordt vereist voor verpersoonlijking in het malplaatje van de Experience Manager om efficiënt te zijn. [Meer informatie](../personalization/personalization-syntax.md)
 
 * Bulksjabloonexport wordt momenteel niet ondersteund, sjablonen moeten afzonderlijk worden geëxporteerd.
 
@@ -59,13 +58,13 @@ Voer de volgende stappen uit om een Adobe Experience Manager-sjabloon naar Adobe
 
    ![](assets/aem-outbound-menu.png)
 
-1. Open uw inhoudsbibliotheek en selecteer de sjabloon die u naar Journey Optimizer wilt exporteren.
+1. Vanuit uw inhoudsbibliotheek kunt u eerder geconfigureerde sjablonen gebruiken of een geheel nieuwe sjabloon maken. [Meer informatie](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page)
 
-   U kunt ook een geheel nieuwe pagina maken. [Meer informatie](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=en#creating-a-new-page)
+1. Door Journey Optimizer-verpersoonlijkingssyntaxis in uw sjabloon op te nemen, kunt u de aanpassingsmogelijkheden van de toepassing verbeteren. [Meer informatie](../personalization/personalization-syntax.md)
 
-   ![](assets/aem-send-template.png)
+   ![](assets/aem_ajo_4.png)
 
-1. Nadat u de sjabloon hebt geselecteerd, selecteert u **[!UICONTROL Send to]** in het geavanceerde menu.
+1. Selecteer de sjabloon die u naar Journey Optimizer wilt exporteren en klik op **[!UICONTROL Send to]** in het geavanceerde menu.
 
    ![](assets/aem-advanced-menu.png)
 
@@ -91,7 +90,7 @@ Zodra het malplaatje van de Experience Manager in Journey Optimizer als inhoudsm
 
 1. In de **[!UICONTROL Template properties]** venster, klikt u op de knop **[!UICONTROL Manage access]** gebruiken om aangepaste of basislabels voor gegevensgebruik toe te wijzen aan uw sjabloon. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md)
 
-1. Om uw AEM sjabloon verder aan te passen en aangepaste personalisatie aan uw inhoud toe te voegen, klikt u op **[!UICONTROL Edit content]**. Zo kunt u gemakkelijk wijzigingen aanbrengen en de sjabloon aan uw specifieke behoeften aanpassen. [Meer informatie](get-started-email-design.md)
+1. Om uw malplaatje van de Experience Manager verder aan te passen en douaneprijdbaarheid aan uw inhoud toe te voegen, klik **[!UICONTROL Edit content]**. Zo kunt u gemakkelijk wijzigingen aanbrengen en de sjabloon aan uw specifieke behoeften aanpassen. [Meer informatie](get-started-email-design.md)
 
    >[!NOTE]
    >
@@ -101,8 +100,22 @@ Zodra het malplaatje van de Experience Manager in Journey Optimizer als inhoudsm
 
 1. Nadat u de inhoud hebt gedefinieerd, kunt u deze gebruiken bij het maken van een nieuwe e-mail door in de **[!UICONTROL Saved templates]** verzameling. Selecteer vervolgens **[!UICONTROL Use this template]**.
 
-   Leer hoe u e-mailinhoud kunt bewerken en aanpassen in [deze sectie](content-from-scratch.md).
-
    ![](assets/aem_ajo_3.png)
+
+1. U kunt de inhoud nu bewerken en aanpassen. Raadpleeg deze voor meer informatie over het samenstellen van uw e-mailinhoud [page](content-from-scratch.md).
+
+   ![](assets/aem_ajo_5.png)
+
+1. Als u gepersonaliseerde inhoud aan uw malplaatje van de Experience Manager hebt toegevoegd, klik **[!UICONTROL Simulate Content]** aan voorproef hoe het in het bericht zal verschijnen gebruikend testprofielen.
+
+[Meer informatie over voorvertoningen en testprofielen](../email/preview.md)
+
+   ![](assets/aem_ajo_6.png)
+
+1. Wanneer u de voorvertoning van het bericht weergeeft, worden alle gepersonaliseerde elementen automatisch vervangen door de bijbehorende gegevens uit het geselecteerde testprofiel.
+
+   Indien nodig kunnen aanvullende testprofielen via de **[!UICONTROL Manage test profiles]** knop.
+
+   ![](assets/aem_ajo_7.png)
 
 Wanneer uw e-mail klaar is, voltooi de configuratie van uw [reis](../building-journeys/journey-gs.md) of [campagne](../campaigns/create-campaign.md)en activeer deze om het bericht te verzenden.
