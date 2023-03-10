@@ -1,21 +1,21 @@
 ---
-title: Labels bijwerken
-description: Met labels kunt u uw voorstellen beter organiseren en doorlopen.
+title: Verzamelingsaanduidingen bijwerken
+description: Met de verzamelingskwalificatietags kunt u uw voorstellen beter organiseren en sorteren.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
-source-git-commit: 882b99d9b49e1ae6d0f97872a74dc5a8a4639050
+source-git-commit: 230f4915baedf557fe8effe216f463fca6af4849
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 4%
+source-wordcount: '171'
+ht-degree: 2%
 
 ---
 
-# Een tag bijwerken {#update-tag}
+# Een verzamelingskwalificatie bijwerken {#update-collection-qualifier}
 
-U kunt een tag in uw container wijzigen of bijwerken door een PATCH-aanvraag in te dienen bij de [!DNL Offer Library] API.
+U kunt een verzamelingskwalificatie (voorheen &#39;&#39;tag&#39;&#39; genoemd) in uw container wijzigen of bijwerken door een PATCH-aanvraag in te dienen bij de [!DNL Offer Library] API.
 
 Raadpleeg voor meer informatie over JSON Patch, inclusief beschikbare bewerkingen, de officiële [JSON-patchdocumentatie](http://jsonpatch.com/).
 
@@ -68,7 +68,7 @@ curl -X PATCH \
 
 **Antwoord**
 
-Een succesvol antwoord retourneert de bijgewerkte details van de tag, inclusief de unieke instantie-id en -tag `@id`.
+Een succesvolle reactie keert de bijgewerkte details van de inzamelingskwalificatie, met inbegrip van zijn unieke instantieidentiteitskaart en inzamelingsbepaler terug `@id`.
 
 ```json
 {
