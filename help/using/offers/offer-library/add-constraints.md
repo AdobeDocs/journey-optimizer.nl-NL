@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
+source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
 workflow-type: tm+mt
-source-wordcount: '2211'
+source-wordcount: '2237'
 ht-degree: 1%
 
 ---
@@ -200,14 +200,21 @@ De **[!UICONTROL Capping event]** in het veld kunt u bepalen welke **[!UICONTROL
 
    <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   In het onderstaande voorbeeld wilt u het aantal abonnementen beperken. Selecteren **[!UICONTROL Custom event]** in de lijst en **[!UICONTROL Create custom event rules]** bouwer om de relevante gebeurtenissen te selecteren.
+   In het onderstaande voorbeeld wilt u het aantal kassa&#39;s beperken.
 
-   ![](../assets/offer-capping-custom-event.png)
+   1. Selecteren **[!UICONTROL Custom event]** in de lijst en **[!UICONTROL Add custom event]** knop.
 
-   Zodra de regel wordt gecreeerd, toont het in **[!UICONTROL Custom event query]** veld.
+      ![](../assets/offer-capping-custom-event-add.png)
 
-   ![](../assets/offer-capping-custom-event-query.png)
+   1. Gebruik de **[!UICONTROL Create custom event rules]** bouwer om de relevante gebeurtenis te selecteren. U kunt elke actie van de gebruiker kiezen waarop u de aanbiedingen wilt uitlijnen.
 
+      Kies hier **[!UICONTROL Commerce]** > **[!UICONTROL Checkouts]** > **[!UICONTROL Value]** en selecteert u **[!UICONTROL exists]** in de vervolgkeuzelijst.
+
+      ![](../assets/offer-capping-custom-event.png)
+
+   1. Zodra de regel wordt gecreeerd, toont het in **[!UICONTROL Custom event query]** veld.
+
+      ![](../assets/offer-capping-custom-event-query.png)
    >[!CAUTION]
    >
    >Voor alle begrenzingsgebeurtenissen behalve beslissingsgebeurtenis, kan de terugkoppeling van het besluitvormingsbeheer niet automatisch worden verzameld, zodat wordt gewaarborgd dat de gegevens binnen komen. [Meer informatie over gegevensverzameling](../data-collection/data-collection.md)
@@ -222,7 +229,7 @@ De **[!UICONTROL Capping count]** kunt u het aantal keren opgeven dat de aanbied
 >
 >Het getal moet een geheel getal groter dan 0 zijn.
 
-Als u bijvoorbeeld een aangepaste gebeurtenis voor het toewijzen van bijschriften hebt gedefinieerd, zoals ondertitels, wordt er rekening mee gehouden als u 10 invoert in het dialoogvenster **[!UICONTROL Capping count]** in het veld worden geen voorstellen meer verzonden na 10 abonnementen.
+U hebt bijvoorbeeld een aangepaste gebeurtenis voor het toewijzen van plafonds gedefinieerd, waarmee rekening wordt gehouden, zoals het aantal uitcheckgebeurtenissen. Als u 10 invoert in het dialoogvenster **[!UICONTROL Capping count]** , worden er na 10 afboekingen geen voorstellen meer verzonden.
 
 ### Type uitlijnen {#capping-type}
 
