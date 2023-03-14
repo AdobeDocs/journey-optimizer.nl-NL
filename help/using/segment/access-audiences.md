@@ -10,22 +10,31 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+badge: label="Beta" type="Informatief"
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 1%
+source-wordcount: '184'
+ht-degree: 0%
 
 ---
 
 # Toegang tot en beheer van het publiek {#access-manage-audiences}
 
-Soorten publiek is toegankelijk vanuit de **[!UICONTROL Audiences]** in de **[!UICONTROL Segments]** -menu.
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Wat u in deze documentatie zult vinden:<br/><ul>
+<li><a href="get-started-audience-orchestration.md">Aan de slag met publiekscompositie</a></li>
+<li><a href="create-compositions.md">Uw eerste compositieworkflow maken</a></li>
+<li><a href="composition-canvas.md">Werken met het compositicanvas</a></li>
+<li><b><a href="access-audiences.md">Toegang tot en beheer van het publiek</a></b></li></ul></td></tr></table>
+
+Het publiek dat het resultaat is van de samenstelling van het publiek, is toegankelijk via de **[!UICONTROL Browse]** in de **[!UICONTROL Segments]** -menu.
 
 Dit tabblad bevat een lijst met alle soorten publiek die in Adobe Experience Platform zijn opgeslagen. Het publiek dat met publiekscomposities wordt gemaakt, kan door de **[!UICONTROL Audience composition]** oorsprong.
 
 ![](assets/audiences-list.png)
 
 >[!NOTE]
+>
+>Voor deze bètaversie worden verschillende componenten en/of metagegevens die oorspronkelijk in de segmentinventarisatie werden weergegeven, niet op dit tabblad weergegeven (bijvoorbeeld uitsplitsing, evaluatiemethode, enz.).
 >
 >Raadpleeg voor meer informatie over andere soorten publiek in Adobe Experience Platform de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
@@ -36,9 +45,3 @@ Als u aangepaste labels of basislabels voor gegevensgebruik wilt toewijzen aan e
 <!--
 -edit an audience?
 -->
-
-Meer informatie:
-
-* [Aan de slag met publiekscompositie](get-started-audience-orchestration.md)
-* [Samenstellingswerkstromen maken](create-compositions.md)
-* [Werken met het compositicanvas](composition-canvas.md)

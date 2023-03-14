@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 3%
@@ -35,7 +35,7 @@ Als u een nieuwe campagne wilt maken, opent u de **[!UICONTROL Campaigns]** en k
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Type campagne"
->abstract="Voor een marketingbericht door een verzenddatum op te geven, wordt de **Gepland** type is het meest geschikt. Als u echter transactieberichten wilt verzenden, zoals het opnieuw instellen van het wachtwoord of het opgeven van de kaart, kunt u **API geactiveerd** type is de beste keuze."
+>abstract="Voor een marketingbericht door een verzenddatum op te geven, wordt de **Gepland** type is het meest geschikt. Als u echter transactieberichten wilt verzenden, zoals het opnieuw instellen van het wachtwoord of het verlaten van het winkelwagentje, kunt u de **API geactiveerd** type is de beste keuze."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
@@ -46,7 +46,7 @@ Als u een nieuwe campagne wilt maken, opent u de **[!UICONTROL Campaigns]** en k
 
    * **[!UICONTROL Scheduled]**: voert de campagne onmiddellijk of op een gespecificeerde datum uit. Geplande campagnes zijn gericht op het verzenden van **marketing** type berichten.
 
-   * **[!UICONTROL API-triggered]**: voer de campagne uit gebruikend een API vraag. API-gestuurde campagnes zijn gericht op het verzenden van **transactie** berichten, d.w.z. berichten die worden verzonden na een actie uitgevoerd door een individu: wachtwoord opnieuw instellen, kaart verlaten enzovoort. [Leer hoe u een campagne activeert met behulp van API&#39;s](api-triggered-campaigns.md)
+   * **[!UICONTROL API-triggered]**: voer de campagne uit gebruikend een API vraag. API-gestuurde campagnes zijn gericht op het verzenden van **transactie** berichten, d.w.z. berichten die worden verzonden na een actie uitgevoerd door een individu: wachtwoord opnieuw instellen, winkelen van winkelwagentjes enz. [Leer hoe u een campagne activeert met behulp van API&#39;s](api-triggered-campaigns.md)
 
 1. In de **[!UICONTROL Actions]** kiest u het kanaal en het kanaaloppervlak dat u wilt gebruiken om uw bericht te verzenden.
 

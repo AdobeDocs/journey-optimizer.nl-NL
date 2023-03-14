@@ -10,9 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+badge: label="Beta" type="Informatief"
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -24,11 +25,15 @@ ht-degree: 0%
 >title="Een compositie maken"
 >abstract="Maak een compositieworkflow om bestaande Adobe Experience Platform-doelgroepen te combineren tot een visueel canvas en gebruik verschillende activiteiten (splitsen, uitsluiten...) om een nieuw publiek te maken."
 
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Wat u in deze documentatie zult vinden:<br/><ul>
+<li><b><a href="get-started-audience-orchestration.md">Aan de slag met publiekscompositie</a></b></li>
+<li><a href="create-compositions.md">Uw eerste compositieworkflow maken</a></li>
+<li><a href="composition-canvas.md">Werken met het compositicanvas</a></li>
+<li><a href="access-audiences.md">Toegang tot en beheer van het publiek</a></li></ul></td></tr></table>
+
 >[!AVAILABILITY]
 >
->De samenstelling van het publiek is momenteel slechts beschikbaar als privé bèta, en kan aan regelmatige updates zonder bericht worden onderworpen.
-
-## Over publiekscompositie {#about}
+>De samenstelling van het publiek is momenteel slechts beschikbaar als privé bèta, en kan aan regelmatige updates zonder bericht worden onderworpen. De bètaversie wordt geleverd op het niveau van de IMS-organisatie, wat betekent dat deze van invloed is op alle sandboxen binnen uw organisatie.
 
 De samenstelling van het publiek staat u toe om tot stand te brengen **compositieworkflows**, waarin u bestaande Adobe Experience Platform-doelgroepen kunt combineren tot een visueel canvas en verschillende activiteiten (splitsen, uitsluiten...) kunt gebruiken om nieuwe doelgroepen te maken.
 
@@ -40,22 +45,23 @@ Als u klaar bent, **resulterend publiek** worden samen met het bestaande publiek
 >
 >Publiek dat het resultaat is van samenstellingsworkflows kan alleen worden gericht op Journey Optimizer-campagnes. Zij zijn niet beschikbaar voor gebruik tijdens reizen.
 
-## Toegang tot publiekscompositie {#access}
+De compositie van het publiek is toegankelijk vanuit Adobe Journey Optimizer **[!UICONTROL Segments]** menu:
 
-De samenstelling van het publiek is toegankelijk vanuit de **[!UICONTROL Segments]** menu:
+![](assets/audiences-browse.png)
 
-* De **[!UICONTROL Audiences]** worden alle bestaande soorten publiek weergegeven die in Adobe Experience Platform zijn opgeslagen. [Leer hoe u toegang krijgt tot publiek en hoe u dit beheert](access-audiences.md)
+* De **[!UICONTROL Overview]** tab bevat een speciaal dashboard met de belangrijkste maatstaven voor de segmentgegevens van uw organisatie. Raadpleeg voor meer informatie [Handleiding voor Adobe Experience Platform-dashboards](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/segments.html).
 
-* De **[!UICONTROL Compositions]** kunt u samenstellingswerkschema&#39;s tot stand brengen waar u publiek kunt combineren en rangschikken om nieuwe te creëren. [Leer hoe u samenstellingsworkflows maakt](create-compositions.md)
+* De **[!UICONTROL Browse]** worden alle bestaande soorten publiek weergegeven die in Adobe Experience Platform zijn opgeslagen.
 
-![](assets/audiences-list.png)
+* De **[!UICONTROL Compositions]** kunt u samenstellingswerkschema&#39;s tot stand brengen waar u publiek kunt combineren en rangschikken om nieuwe te creëren.
 
->[!NOTE]
->
->Deze documentatie is slechts op publiekssamenstelling van toepassing. De **[!UICONTROL Overview]** en **[!UICONTROL Segments]** worden gebruikt in de context van het creëren van segmentdefinities. Raadpleeg voor meer informatie de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+Klik op elke kaart om te leren hoe te met publiekssamenstelling te werken:
 
-Meer informatie:
-
-* [Samenstellingswerkstromen maken](create-compositions.md)
-* [Werken met het compositicanvas](composition-canvas.md)
-* [Toegang tot en beheer van het publiek](access-audiences.md)
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><a href="create-compositions.md"><img alt="Samenstellingswerkstromen maken" src="../assets/do-not-localize/ao-workflows.jpg"></a>
+<div><a href="create-compositions.md"><strong>Uw eerste compositieworkflow maken</strong></a></div></td>
+<td><a href="composition-canvas.md"><img alt="Werken met het compositicanvas" src="../assets/do-not-localize/ao-canvas.jpg"></a>
+<div><a href="composition-canvas.md"><strong>Werken met het compositicanvas</strong></a></div></td>
+<td><a href="access-audiences.md"><img alt="Toegang tot en beheer van het publiek" src="../assets/do-not-localize/ao-audiences.jpeg"></a>
+<div><a href="access-audiences.md"><strong>Toegang tot en beheer van het publiek</strong></a></div></td>
+</tr></table>

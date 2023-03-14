@@ -10,18 +10,25 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 8d56e3060e78422b028ced17f415497789908ff9
+badge: label="Beta" type="Informatief"
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1310'
 ht-degree: 0%
 
 ---
 
 # Werken met het compositicanvas {#composition-canvas}
 
-Het compositicanvas is een visueel canvas waarmee u composities kunt maken door publiek en activiteiten te benutten (splitsen, uitsluiten...).
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Wat u in deze documentatie zult vinden:<br/><ul>
+<li><a href="get-started-audience-orchestration.md">Aan de slag met publiekscompositie</a></li>
+<li><a href="create-compositions.md">Uw eerste compositieworkflow maken</a></li>
+<li><b><a href="composition-canvas.md">Werken met het compositicanvas</a></b></li>
+<li><a href="access-audiences.md">Toegang tot en beheer van het publiek</a></li></ul></td></tr></table>
 
-De stappen om een samenstelling in het samenstellingscanvas te vormen zijn als volgt:
+De samenstelling van het publiek verstrekt een visueel canvas dat u toestaat om publiek tot stand te brengen en diverse activiteiten (gespleten, verrijkt, enz.) te gebruiken.
+
+U kunt als volgt een publiek op het canvas samenstellen:
 
 1. [Uw beginpubliek(en) definiëren](#starting-audience)
 1. [Voeg een of meerdere activiteiten toe](#action-activities)
@@ -56,22 +63,21 @@ Nadat het publiek is geselecteerd, wordt het geschatte aantal profielen onder aa
 
 Voeg activiteiten toe nadat u het beginpubliek hebt geselecteerd om de selectie te verfijnen.
 
-Om dit te doen, klik + knoop op de samenstellingsweg dan selecteren de gewenste activiteit. De juiste ruit opent, toestaand u om de activiteit te vormen.
+Om dit te doen, klik + knoop op de samenstellingsweg dan selecteren de gewenste activiteit. Het juiste paneel opent, toestaand u om de onlangs toegevoegde activiteit te vormen.
 
 ![](assets/audiences-select-activity.png)
-
->[!NOTE]
->
->U kunt maximaal **[!UICONTROL Audience]** en **[!UICONTROL Exclude]** activiteiten die nodig zijn in uw compositie. Er kan echter geen aanvullende activiteit worden toegevoegd na **[!UICONTROL Rank]** en **[!UICONTROL Split]** activiteiten.
-
-U kunt een activiteit uit het canvas op elk ogenblik verwijderen door de schrappingsknoop in de juiste ruit te klikken. Alle activiteiten die na deze activiteit worden toegevoegd, worden ook van het canvas verwijderd.
 
 Beschikbare activiteiten zijn:
 
 * [Publiek](#audience): aanvullende profielen opnemen die tot een of meer bestaande doelgroepen behoren;
 * [Uitsluiten](#exclude): profielen uitsluiten die tot een bestaand publiek behoren of profielen uitsluiten die op specifieke kenmerken zijn gebaseerd;
+* [Verrijken]{#enrich}: verrijken uw publiek met extra kenmerken die afkomstig zijn uit Adobe Experience Platform-gegevenssets.
 * [Rang](#rank): rangschikt profielen die op een specifiek attribuut worden gebaseerd, specificeer het aantal profielen om te houden en hen in uw samenstelling te omvatten;
 * [Splitsen](#split): verdeel uw samenstelling in veelvoudige wegen die op willekeurige percentages of op attributen worden gebaseerd.
+
+U kunt maximaal **[!UICONTROL Audience]** en **[!UICONTROL Exclude]** activiteiten die nodig zijn in uw compositie. Er kan echter geen aanvullende activiteit worden toegevoegd na **[!UICONTROL Rank]** en **[!UICONTROL Split]** activiteiten.
+
+U kunt een activiteit uit het canvas op elk ogenblik verwijderen door de schrappingsknoop in de juiste ruit te klikken.  Als de activiteit die u wilt schrappen een ouder van andere activiteiten in de samenstelling is, toont een berichtvertoningen, toestaand u om te specificeren als u de geselecteerde activiteit slechts, of al zijn kindactiviteiten wilt schrappen.
 
 ### Poortactiviteit {#audience}
 
@@ -115,6 +121,46 @@ De **[!UICONTROL Exclude]** Met activiteit kunt u profielen uitsluiten van uw co
 
    ![](assets/audiences-exclude-attribute.png)
 
+### Verrijken {#enrich}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich"
+>title="Verrijken van activiteit"
+>abstract="Gebruik de activiteit Verrijken om profielen uit te sluiten die tot een bestaand publiek behoren. Met de optie Uitsluiten met behulp van het kenmerktype kunt u profielen uitsluiten op basis van een specifiek kenmerk."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_dataset"
+>title="Verrijkingsgegevens"
+>abstract="Selecteer de verrijkingsdataset die de gegevens bevat die u aan het publiek wilt associëren."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_criteria"
+>title="Verrijkingscriteria"
+>abstract="Selecteer de velden die u wilt gebruiken als combinatietoets tussen de brondataset, d.w.z. het publiek, en de verrijkingsdataset."
+
+>[!CONTEXTUALHELP]
+>id="ajo_ao_enrich_attributes"
+>title="Verrijkingskenmerken"
+>abstract="Selecteer een of meerdere kenmerken in de verrijkingsgegevensset die u aan het publiek wilt koppelen. Zodra de samenstelling wordt gepubliceerd, worden deze attributen geassocieerd aan het publiek en kunnen in campagnes worden gebruikt om leveringen te personaliseren."
+
+De **[!UICONTROL Enrich]** Met deze activiteit kunt u uw publiek verrijken met extra kenmerken die afkomstig zijn uit Adobe Experience Platform-gegevenssets. U kunt bijvoorbeeld informatie met betrekking tot het aangekochte product toevoegen, zoals de naam, de prijs of de fabrikant-id, en deze informatie gebruiken om de leveringen die naar het publiek worden verzonden, aan te passen.
+
+>[!IMPORTANT]
+>
+>Voor nu, worden de etiketten op de dataset, of op het datasetniveau of op het gebiedsniveau, niet verspreid aan het pas gecreëerde publiek. Dit kan de toegangscontrole en/of gegevensbeheer voor het resulterende publiek beïnvloeden. Gebruik daarom bij het samenstellen van het publiek alleen testgegevens.
+
+Voer de volgende stappen uit om de activiteit te configureren:
+
+1. Selecteer **[!UICONTROL Enrichment dataset]** met de gegevens die u aan het publiek wilt koppelen.
+
+1. In de **[!UICONTROL Enrichment criteria]** selecteert u de velden die u wilt gebruiken als combinatietoets tussen de brondataset, d.w.z. het publiek, en de verrijkingsdataset. In dit voorbeeld gebruiken we de id van het aangeschafte product als verzoeningssleutel.
+
+1. Klik op de knop **[!UICONTROL Add atttributes]** dan selecteert de knoop één of veelvoudige attributen van de verrijkingsdataset aan vennoot aan het publiek.
+
+   ![](assets/audiences-enrich-activity.png)
+
+Zodra de samenstelling wordt gepubliceerd, worden de geselecteerde attributen geassocieerd aan het publiek en kunnen in campagnes worden gebruikt om leveringen te personaliseren.
+
 ### Leesactiviteit {#rank}
 
 >[!CONTEXTUALHELP]
@@ -141,10 +187,10 @@ De **[!UICONTROL Rank]** De activiteit staat u toe om profielen te rangschikken 
 
 ### Gesplitste activiteit {#split}
 
->[!CONTEXTUALHELP]
+<!-- [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
->title="Controlegroep"
->abstract="Gebruik controlegroepen om een gedeelte van de profielen te isoleren. Hierdoor kunt u de impact van een marketingactiviteit meten en een vergelijking maken met het gedrag van de rest van de bevolking."
+>title="Control Group"
+>abstract="Use control groups to isolate a portion of the profiles. This allows you to measure the impact of a marketing activity and make a comparison with the behavior of the rest of the population."-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
@@ -167,7 +213,7 @@ Deze bewerking voegt automatisch een **[!UICONTROL Save]** activiteit aan het ei
 
 Er zijn twee soorten splitsingsbewerkingen beschikbaar:
 
-* **[!UICONTROL Percent split]**: willekeurig gesplitste profielen in twee of meer paden. U kunt de profielen bijvoorbeeld opsplitsen in twee afzonderlijke paden van elk 45% en een extra pad toevoegen voor een controlegroep.
+* **[!UICONTROL Percent split]**: willekeurig gesplitste profielen in twee of meer paden. U kunt de profielen bijvoorbeeld opsplitsen in twee afzonderlijke paden van elk 50%. <!--and add an additional path for control group.-->
 
    ![](assets/audiences-split-percentage.png)
 
@@ -188,9 +234,3 @@ Selecteer hiervoor de optie **[!UICONTROL Save audience]** aan het einde van elk
 ![](assets/audiences-publish.png)
 
 Zodra uw samenstelling klaar is, kunt u het publiceren. [Leer hoe u composities maakt](create-compositions.md)
-
-Meer informatie:
-
-* [Aan de slag met publiekscompositie](get-started-audience-orchestration.md)
-* [Samenstellingswerkstromen maken](create-compositions.md)
-* [Toegang tot en beheer van het publiek](access-audiences.md)

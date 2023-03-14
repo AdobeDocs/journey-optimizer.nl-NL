@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Samenstellingswerkstromen maken
+title: Uw eerste compositieworkflow maken
 description: Leer hoe u samenstellingsworkflows maakt om bestaande soorten publiek te combineren en te rangschikken.
 feature: Journeys
 topic: Content Management
@@ -10,18 +10,25 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+badge: label="Beta" type="Informatief"
+source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
 
-# Samenstellingswerkstromen maken {#create-compositions}
+# Uw eerste compositieworkflow maken {#create-compositions}
 
-Met samenstellingsworkflows kunt u bestaande soorten publiek combineren en rangschikken om nieuwe soorten publiek te maken.
+<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Wat u in deze documentatie zult vinden:<br/><ul>
+<li><a href="get-started-audience-orchestration.md">Aan de slag met publiekscompositie</a></li>
+<li><b><a href="create-compositions.md">Uw eerste compositieworkflow maken</a></b></li>
+<li><a href="composition-canvas.md">Werken met het compositicanvas</a></li>
+<li><a href="access-audiences.md">Toegang tot en beheer van het publiek</a></li></ul></td></tr></table>
 
 ## Een compositieworkflow maken {#create}
+
+Ga als volgt te werk om een compositieworkflow te maken:
 
 1. Toegang krijgen tot **[!UICONTROL Segments]** en selecteert u **[!UICONTROL Create Audience]**.
 
@@ -42,7 +49,7 @@ Met samenstellingsworkflows kunt u bestaande soorten publiek combineren en rangs
 
 1. Open de compositieeigenschappen om een titel en een beschrijving op te geven.
 
-   Als er geen titel is gedefinieerd in de eigenschappen, wordt het samengestelde label het eerste **[!UICONTROL Audience]** activiteit.
+   Als er geen titel in de eigenschappen is gedefinieerd, wordt het label van de compositie ingesteld op &quot;Compositie&quot;, gevolgd door de aanmaakdatum en -tijd.
 
    ![](assets/audiences-properties.png)
 
@@ -76,9 +83,3 @@ Alle gemaakte composities zijn toegankelijk via de **[!UICONTROL Compositions]**
 >[!NOTE]
 >
 >U kunt een bestaande compositie op elk gewenst moment dupliceren of verwijderen met de knop voor weglatingen in de lijst.
-
-Meer informatie:
-
-* [Aan de slag met publiekscompositie](get-started-audience-orchestration.md)
-* [Werken met het compositicanvas](composition-canvas.md)
-* [Toegang tot en beheer van het publiek](access-audiences.md)
