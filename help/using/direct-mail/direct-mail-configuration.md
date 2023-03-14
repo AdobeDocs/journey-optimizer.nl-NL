@@ -9,14 +9,24 @@ keyword: direct, mail, configuration, direct-mail, provider
 hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+badge: label="Beta" type="Informatief"
+source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
 
 # Directe-mailconfiguratie {#direct-mail-configuration}
+
+>[!BEGINSHADEBOX]
+
+Wat u in deze documentatie zult vinden:
+
+* [Een directe e-mail maken](create-direct-mail.md)
+* **[Direct mail configureren](direct-mail-configuration.md)**
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] staat u toe om de dossiers te personaliseren en te produceren die door directe postleveranciers worden vereist om post naar uw klanten te verzenden.
 
