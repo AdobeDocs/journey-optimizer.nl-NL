@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informatief"
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '1310'
 ht-degree: 0%
@@ -20,11 +20,16 @@ ht-degree: 0%
 
 # Werken met het compositicanvas {#composition-canvas}
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Wat u in deze documentatie zult vinden:<br/><ul>
-<li><a href="get-started-audience-orchestration.md">Aan de slag met publiekscompositie</a></li>
-<li><a href="create-compositions.md">Uw eerste compositieworkflow maken</a></li>
-<li><b><a href="composition-canvas.md">Werken met het compositicanvas</a></b></li>
-<li><a href="access-audiences.md">Toegang tot en beheer van het publiek</a></li></ul></td></tr></table>
+>[!BEGINSHADEBOX]
+
+Wat u in deze documentatie zult vinden:
+
+* [Aan de slag met publiekscompositie](get-started-audience-orchestration.md)
+* [Uw eerste compositieworkflow maken](create-compositions.md)
+* **[Werken met het compositicanvas](composition-canvas.md)**
+* [Toegang tot en beheer van het publiek](access-audiences.md)
+
+>[!ENDSHADEBOX]
 
 De samenstelling van het publiek verstrekt een visueel canvas dat u toestaat om publiek tot stand te brengen en diverse activiteiten (gespleten, verrijkt, enz.) te gebruiken.
 

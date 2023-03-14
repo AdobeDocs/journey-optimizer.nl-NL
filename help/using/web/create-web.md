@@ -8,18 +8,27 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 01fc9bfba54e9cdbd356c1ed06ef2caeb3705a0a
+badge: label="Beta" type="Informatief"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '984'
 ht-degree: 4%
 
 ---
 
 # Webervaringen maken {#create-web}
 
->[!AVAILABILITY]
->
->De functie Webkanaal is momenteel beschikbaar als bètaversie om alleen gebruikers te selecteren.
+>[!BEGINSHADEBOX]
+
+Wat u in deze documentatie zult vinden:
+
+* [Aan de slag met webkanaal](get-started-web.md)
+* **[Webervaringen maken](create-web.md)**
+* [Webpagina&#39;s van auteurs](author-web.md)
+* [De extensie Visuele bewerkingshulp](visual-editing-helper.md)
+* [Webrapportage](web-report.md)
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] kunt u de webervaring aanpassen die u aan uw klanten via binnenkomende webcampagnes levert.
 

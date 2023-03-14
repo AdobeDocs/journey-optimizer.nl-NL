@@ -9,9 +9,10 @@ keywords: direct mail, bericht, campagne
 hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+badge: label="Beta" type="Informatief"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '502'
 ht-degree: 3%
 
 ---
@@ -22,6 +23,19 @@ ht-degree: 3%
 >id="ajo_direct_mail"
 >title="Direct mail maken"
 >abstract="Maak direct-mailberichten in geplande campagnes en ontwerp de extractiedossiers die door directe postleveranciers worden vereist om post naar uw klanten te verzenden."
+
+>[!BEGINSHADEBOX]
+
+Wat u in deze documentatie zult vinden:
+
+* **[Een directe e-mail maken](create-direct-mail.md)**
+* [Direct mail configureren](direct-mail-configuration.md)
+
+>[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>Direct mail is momenteel beschikbaar als een persoonlijke bètaversie en kan zonder voorafgaande kennisgeving regelmatig worden bijgewerkt.
 
 Directe post is een off-line kanaal dat u toestaat om de extractiedossiers te personaliseren en te produceren die door directe postleveranciers worden vereist om post naar uw klanten te verzenden.
 

@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informatief"
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
@@ -25,11 +25,16 @@ ht-degree: 0%
 >title="Een compositie maken"
 >abstract="Maak een compositieworkflow om bestaande Adobe Experience Platform-doelgroepen te combineren tot een visueel canvas en gebruik verschillende activiteiten (splitsen, uitsluiten...) om een nieuw publiek te maken."
 
-<table style="table-layout:fixed"><tr style="border: 0;"><tr><td>Wat u in deze documentatie zult vinden:<br/><ul>
-<li><b><a href="get-started-audience-orchestration.md">Aan de slag met publiekscompositie</a></b></li>
-<li><a href="create-compositions.md">Uw eerste compositieworkflow maken</a></li>
-<li><a href="composition-canvas.md">Werken met het compositicanvas</a></li>
-<li><a href="access-audiences.md">Toegang tot en beheer van het publiek</a></li></ul></td></tr></table>
+>[!BEGINSHADEBOX]
+
+Wat u in deze documentatie zult vinden:
+
+* **[Aan de slag met publiekscompositie](get-started-audience-orchestration.md)**
+* [Uw eerste compositieworkflow maken](create-compositions.md)
+* [Werken met het compositicanvas](composition-canvas.md)
+* [Toegang tot en beheer van het publiek](access-audiences.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

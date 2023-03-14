@@ -8,20 +8,29 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 1d3d3804-dd1a-4939-b41a-f572d2bfd136
-source-git-commit: 3217cdd366cd61096a232306aa85c075a7542b0e
+badge: label="Beta" type="Informatief"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '168'
 ht-degree: 2%
 
 ---
 
 # Webrapport {#web-report}
 
-Het rapport Web is beschikbaar in het campagnerapport.
+>[!BEGINSHADEBOX]
 
->[!NOTE]
->
->De functie Webkanaal is momenteel beschikbaar als bètaversie om alleen gebruikers te selecteren.
+Wat u in deze documentatie zult vinden:
+
+* [Aan de slag met webkanaal](get-started-web.md)
+* [Webervaringen maken](create-web.md)
+* [Webpagina&#39;s van auteurs](author-web.md)
+* [De extensie Visuele bewerkingshulp](visual-editing-helper.md)
+* **[Webrapportage](web-report.md)**
+
+>[!ENDSHADEBOX]
+
+Het rapport Web is beschikbaar in het campagnerapport.
 
 De pagina van het campagnerapport zal met de volgende lusjes worden getoond:
 

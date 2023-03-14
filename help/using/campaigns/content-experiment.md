@@ -11,9 +11,10 @@ keywords: inhoud, experiment, meerdere, publiek, behandeling
 hide: true
 hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 2bf4883fa4b649a807608403d48f6a68b73a8626
+badge: label="Beta" type="Informatief"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1061'
 ht-degree: 1%
 
 ---
@@ -25,9 +26,17 @@ ht-degree: 1%
 >title="Inhoudsexperiment"
 >abstract="U kunt verkiezen om de leveringsinhoud, het onderwerp, of de afzender te variëren om veelvoudige leveringsbehandelingen te bepalen en de beste combinatie voor uw publiek te bepalen."
 
->[!AVAILABILITY]
->
->De **Inhoud experimenteren** Deze functie is momenteel alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>[!BEGINSHADEBOX]
+
+Wat u in deze documentatie zult vinden:
+
+* [Aan de slag met het experimenteren met inhoud](get-started-experiment.md)
+* **[Een inhoudexperiment maken](content-experiment.md)**
+* [Statistische berekeningen begrijpen](experiment-calculations.md)
+* [Testrapporten configureren](reporting-configuration.md)
+* [Statistische berekeningen in het verslag over experimenten](experiment-report-calculations.md)
+
+>[!ENDSHADEBOX]
 
 Met het Journey Optimizer Content Experiment kunt u meerdere leveringsbehandelingen definiëren om te meten welke het beste presteert voor uw doelgroep. U kunt kiezen om de leveringsinhoud, het onderwerp, of de afzender te variëren. Het betrokken publiek wordt willekeurig toegewezen aan elke behandeling om te bepalen welke het beste in termen van gespecificeerde metrisch werkt.
 

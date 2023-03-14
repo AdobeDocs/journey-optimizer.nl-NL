@@ -8,18 +8,27 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+badge: label="Beta" type="Informatief"
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1072'
 ht-degree: 1%
 
 ---
 
 # Webpagina&#39;s van auteurs {#author-web}
 
->[!AVAILABILITY]
->
->De functie Webkanaal is momenteel beschikbaar als bètaversie om alleen gebruikers te selecteren.
+>[!BEGINSHADEBOX]
+
+Wat u in deze documentatie zult vinden:
+
+* [Aan de slag met webkanaal](get-started-web.md)
+* [Webervaringen maken](create-web.md)
+* **[Webpagina&#39;s van auteurs](author-web.md)**
+* [De extensie Visuele bewerkingshulp](visual-editing-helper.md)
+* [Webrapportage](web-report.md)
+
+>[!ENDSHADEBOX]
 
 In [!DNL Journey Optimizer] Webcreatie wordt aangedreven door de browser van Adobe Experience Cloud Visual Helper chrome uitbreiding. [Meer informatie](visual-editing-helper.md)
 
