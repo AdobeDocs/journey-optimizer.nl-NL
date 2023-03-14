@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3fa6f5379b04565328df1c09c6770507373858c7
+source-git-commit: 60514a739a2b3380260b6d1e33e33467cc88baad
 workflow-type: tm+mt
-source-wordcount: '2365'
+source-wordcount: '2384'
 ht-degree: 17%
 
 ---
@@ -21,8 +21,8 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 ## Februari 2023 {#feb-2023}
 
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] Release Feb &#39;23 is gedetailleerd in de documentatie. [Meer informatie](release-notes.md)
 * Er is een opmerking toegevoegd aan de API-getriggerde campagnedocumentatie om op te geven dat contextafhankelijke kenmerken die aan de aanvraag worden doorgegeven, niet groter mogen zijn dan 50 kB. [Meer informatie](../campaigns/api-triggered-campaigns.md#contextual)
-
 * Er is informatie toegevoegd over de wijze waarop gegevens over opt-out worden opgeslagen in het dialoogvenster **Dataset voor goedgekeurde service** nadat de ontvangers zijn afgemeld via een bestemmingspagina. [Meer informatie](../landing-pages/lp-use-cases.md#configure-opt-out)
 
 ## Januari 2023 {#jan-2023}
@@ -31,6 +31,8 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Toegankelijkheidsfuncties in [!DNL Journey Optimizer] worden nu gegroepeerd in een specifieke pagina. [Meer informatie](../start/accessibility.md)
 * Er is een nieuwe pagina toegevoegd over gegevensbeheer in [!DNL Journey Optimizer]. [Meer informatie](../data/gs-data.md)
 * Er is een tabel toegevoegd met alle codes die in de reactie kunnen worden geretourneerd wanneer aanbiedingen worden geleverd met de API voor besluitvorming. [Meer informatie](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+
++++ 2022
 
 ## December 2022 {#december-2022}
 
@@ -155,11 +157,14 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De **Uitschakelen, beheer** dit gedeelte is verduidelijkt en enigszins gereorganiseerd . [Meer informatie](../privacy/opt-out.md#opt-out-management)
 * De **Koppelingen invoegen** is bijgewerkt met de recente wijzigingen in de gebruikersinterface. [Meer informatie](../email/message-tracking.md#insert-links)
 
++++
+
++++ 2021
+
 ## November 2021 {#november-2021}
 
 * Een volledige beschrijving van de **geavanceerde expressie-editor** gebruikt voor reizen is nu beschikbaar . [Meer informatie](../building-journeys/expression/expressionadvanced.md)
 * Een nieuwe sectie over **Methode voor subdomeindelegatie van CNAME** is toegevoegd. [Meer informatie](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
-
 
 ## Oktober 2021 {#october-2021}
 
@@ -202,7 +207,6 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 * Een subsectie toegevoegd over het bewerken van IP-pools. [Meer informatie](../configuration/ip-pools.md#edit-ip-pool)
 
-
 ## Augustus 2021 {#august-2021}
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 21 augustus is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
@@ -221,7 +225,6 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Er is een sectie toegevoegd waarin wordt beschreven hoe u handmatig e-mailadressen en domeinen aan de suppressielijst kunt toevoegen. [Meer informatie](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * De [De lijst met onderdrukking openen](../configuration/manage-suppression-list.md#access-suppression-list) en [Opnieuw](../configuration/retries.md) secties om de nieuwe gebruikersinterface te weerspiegelen.
 * De nieuwe flow om weergaven toe te voegen en te configureren wanneer u een aanbod maakt, is gedocumenteerd. [Meer informatie](../offers/offer-library/creating-personalized-offers.md#representations)
-
 
 ## Juli 2021 {#july-2021}
 
@@ -242,3 +245,4 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Documenteerde het nieuwe Besluit Management **[!UICONTROL Overview]** tab. [Meer informatie](../offers/get-started/user-interface.md#overview)
 * Nieuwe secties toegevoegd om de acties te beschrijven die beschikbaar zijn op de lijsten met aanbiedingen en besluiten: [Aanbiedingslijst](../offers/offer-library/creating-personalized-offers.md#offer-list) en [Beslissingslijst](../offers/offer-activities/create-offer-activities.md#decision-list).
 
++++
