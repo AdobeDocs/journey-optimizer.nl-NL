@@ -5,9 +5,9 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: d690e066e5a6ec51b0cc86f9e4f375e72cd7f661
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -43,17 +43,15 @@ Feedback op afbeeldingen en klikken wordt vastgelegd op basis van de [!DNL Journ
 
    * E-mails geschreven door [!DNL Journey Optimizer]
    * Mobiele pushmeldingen gemaakt door [!DNL Journey Optimizer]
-   * Mobiele toepassingen met de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} of mobiele SDK<!--TBC--> om aanbiedingen te renderen <!--need more info + link-->
 
-   >[!NOTE]
-   >
-   >Als Adobe de aanbieding visueel aan de eindgebruiker op het kanaal teruggeeft, kunt u veronderstellen dat de Adobe automatisch zal verzenden in terugkoppelt.
+   <!--If Adobe renders the offer visually to the end user on the channel, you can assume that Adobe will auto-send in the feedback.-->
 
 1. Aan de andere kant vereisen sommige kanalen dat indrukken en klikgegevens als een **Experience, gebeurtenis**.
 
-   Met uitzondering van mobiele apps die de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} of mobiele SDK<!--TBC-->Alle kanalen die een API-aanvraag voor besluitvorming gebruiken om aanbiedingen te ontvangen, moeten feedback verzenden als een ervaringsgebeurtenis. Dit omvat:
+   Alle kanalen die een beslissing-API-aanvraag gebruiken om aanbiedingen te ontvangen, moeten feedback verzenden als een ervaringsgebeurtenis. Dit omvat:
 
-   * Webpagina&#39;s
+   * Webpagina&#39;s die de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} om aanbiedingen te renderen
+   * Mobiele toepassingen met de [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} om aanbiedingen te renderen
    * Kiosks
    * Berichten die via toepassingen van derden worden verzonden
 
