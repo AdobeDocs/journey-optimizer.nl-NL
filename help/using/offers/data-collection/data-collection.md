@@ -5,10 +5,10 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: d690e066e5a6ec51b0cc86f9e4f375e72cd7f661
+source-git-commit: c9e970bc231fc3d19f0243b71256ea0f5a981af7
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 1%
 
 ---
 
@@ -39,25 +39,20 @@ Afbeeldingen en klikken in het kader van besluitvormingsbeheer worden als volgt 
 
 Feedback op afbeeldingen en klikken wordt vastgelegd op basis van de [!DNL Journey Optimizer] kanaal dat wordt gebruikt.
 
-1. Aan de ene kant, sommige kanalen **automatisch** impressies bijhouden en klikken. Deze zijn als volgt:
+**E-mails** gemaakt door [!DNL Journey Optimizer] **automatisch** impressies bijhouden en klikken.
 
-   * E-mails geschreven door [!DNL Journey Optimizer]
-   * Mobiele pushmeldingen gemaakt door [!DNL Journey Optimizer]
+Maar **meeste kanalen** impressies en klikgegevens vereisen die als een **Experience, gebeurtenis**. Dit omvat:
 
-   <!--If Adobe renders the offer visually to the end user on the channel, you can assume that Adobe will auto-send in the feedback.-->
+* Webpagina&#39;s die de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} om aanbiedingen te renderen
 
-1. Aan de andere kant vereisen sommige kanalen dat indrukken en klikgegevens als een **Experience, gebeurtenis**.
+* Mobiele toepassingen met de [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* Kiosks
+* Berichten die via toepassingen van derden worden verzonden
+   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
 
-   Alle kanalen die een beslissing-API-aanvraag gebruiken om aanbiedingen te ontvangen, moeten feedback verzenden als een ervaringsgebeurtenis. Dit omvat:
-
-   * Webpagina&#39;s die de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} om aanbiedingen te renderen
-   * Mobiele toepassingen met de [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} om aanbiedingen te renderen
-   * Kiosks
-   * Berichten die via toepassingen van derden worden verzonden
-
-   >[!NOTE]
-   >
-   >Als de aanbieding instructies over hoe te om te geven nodig heeft, kunt u veronderstellen dat u in terugkoppelt als ervaringsgebeurtenissen zou moeten verzenden.
+>[!NOTE]
+>
+>Kanalen die een beslissing-API-aanvraag gebruiken om aanbiedingen te ontvangen, moeten feedback verzenden als een ervaringsgebeurtenis. Met andere woorden, als de aanbieding instructies over hoe te om vereist terug te geven, kunt u veronderstellen dat u in terugkoppelt als ervaringsgebeurtenissen zou moeten verzenden.
 
 ### Aangepaste gebeurtenissen
 
