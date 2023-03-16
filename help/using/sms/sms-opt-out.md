@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 676e2d6788c8110b76a38e857a62ba9c1be5842c
+source-git-commit: 63237c02f632d289dba845acdcd0859f2d6de9c9
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS
 
 ## Oorspronkelijke binnenkomende trefwoorden{#sms-native-keywords}
 
-Adobe Journey Optimizer verwerkt standaard standaardantwoordberichten in de Engelse taal, zoals STOP, UNSTOP en START voor berichten met de gratis en lange code, in overeenstemming met industriestandaarden voor native integratie, zoals Sinch en Twilio.
+Adobe Journey Optimizer verwerkt standaard de volgende standaardantwoordberichten voor Engelse talen voor Toll-Free en Long Code-berichten: STOPPEN, OPHEFFEN, STARTEN, AFSLUITEN, ANNULEREN, EINDIGEN EN NIET-ABONNEMENT. Merk op dat slechts Sinch inheemse sleutelwoorden wanneer gebruikt met Journey Optimizer steunt.
 
-Deze trefwoorden activeren doorgaans een automatische standaardreactie van uw externe provider (zoals Twilio of Sinch). U kunt dit rechtstreeks bij uw provider of via de documentatiesite bevestigen.
+Deze trefwoorden activeren doorgaans een automatische standaardreactie van uw externe provider. U kunt dit rechtstreeks bij uw provider of via de documentatiesite bevestigen.
 
-Er zijn geen stappen vereist om ervoor te zorgen dat de mogelijkheden voor SMS-uitschakelmogelijkheden in Adobe Journey Optimizer werken als de trefwoordreacties STOP, UNSTOP en START automatisch worden herkend. De status van de optie om profielen te weigeren wordt in real time bijgewerkt in Adobe Journey Optimizer.
+Er zijn geen stappen vereist om ervoor te zorgen dat de mogelijkheden voor SMS-opt-out in Adobe Journey Optimizer werken als de trefwoordreacties STOP, UNSTOP, START, QUIT, CANCEL, END en UNSUBSCRIBE automatisch worden herkend. De status van de optie om profielen te weigeren wordt in real time bijgewerkt in Adobe Journey Optimizer.
 
 
 ## Lijsten van gewezen personen{#sms-blocklists}
@@ -39,7 +39,9 @@ Naast het tegenhouden van Adobe Journey Optimizer verzendt op basis van de opt-o
 
 ## Korte codes {#short-codes}
 
-Adobe Journey Optimizer verwerkt standaard geen opt-out-, opt-in- of Help-trefwoorden voor korte codenummers. U moet ervoor zorgen dat uw korte code aan alle industrieregels en verordeningen voor opt-out behandeling voldoet.
+Standaard worden opt-in- of Help-trefwoorden voor korte codenummers niet door Adobe Journey Optimizer afgehandeld. Om naleving van de industrieregels en regels voor opt-out behandeling te verzekeren, is het essentieel om te verifiëren dat uw korte code aan alle richtlijnen voldoet.
+
+Journey Optimizer biedt echter wel ondersteuning voor wereldwijde opt-outs op basis van binnenkomende trefwoorden met verschillende verzender-id&#39;s.
 
 ## Alfanumerieke afzender-id {#alphanumeric}
 
