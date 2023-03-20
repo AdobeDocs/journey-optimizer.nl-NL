@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: schema's, platform, gegevens, structuur
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 7%
+source-wordcount: '332'
+ht-degree: 6%
 
 ---
 
@@ -32,6 +32,8 @@ De **Schemas** werkruimte in [!DNL Adobe Journey Optimizer] In de gebruikersinte
 Leer hoe u de gebruikersinterface Schemas kunt gebruiken in [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html){target="_blank"}
 
 De geleidelijke documentatie om een schema tot stand te brengen gebruikend de Redacteur van het Schema is beschikbaar in [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html){target="_blank"}
+
+Als u de volledige lijst met velden en kenmerken voor elk schema wilt weergeven, raadpleegt u de [Journey Optimizer-schemawoordenboek](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 
 ## Hoe kan ik-video{#video-schema}

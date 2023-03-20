@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '836'
 ht-degree: 1%
 
 ---
@@ -55,6 +55,8 @@ Hier zijn de verschillende beschikbare datasets:
 
 * _Scores voor optimalisatie van de Send-Time/Engagement Scores_: Uitvoerscores van Journey AI.
 
+Als u de volledige lijst met velden en kenmerken voor elk schema wilt weergeven, raadpleegt u de [Journey Optimizer-schemawoordenboek](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+
 ## Gegevensbestanden voorvertonen{#preview-datasets}
 
 Selecteer in het activiteitenscherm Gegevensset de optie **Gegevensset voorvertoning** in de rechterbovenhoek van het scherm om een voorvertoning weer te geven van de meest recente succesvolle batch in deze dataset. Wanneer een dataset leeg is, wordt de voorproefverbinding gedeactiveerd.
@@ -74,7 +76,7 @@ Bekijk deze video om te leren hoe te om een dataset tot stand te brengen, het in
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
-## Data Governance
+## Gegevensbeheer
 
 Blader in een gegevensset door de **Gegevensbeheer** tabblad om labels op gegevensset- en veldniveau te controleren. Gegevensbeheer categoriseert gegevens op basis van het soort beleid dat van toepassing is.
 

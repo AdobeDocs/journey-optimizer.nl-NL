@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: dataset, optimizer, gebruiksgevallen
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: fb4121b426b13e4ac8094a1eb7babdb6660a2882
+source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Op deze pagina vindt u de lijst met Adobe Journey Optimizer-gegevenssets en verw
 [Dataset voor goedgekeurde service](#consent-service-dataset)
 [Gegevensset BCC-feedbackgebeurtenis](#bcc-feedback-event-dataset)
 [Entiteitsgegevens](#entity-dataset)
+
+Als u de volledige lijst met velden en kenmerken voor elk schema wilt weergeven, raadpleegt u de [Journey Optimizer-schemawoordenboek](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
 
 ## Dataset over e-mailvolgervaringen{#email-tracking-experience-event-dataset}
 
