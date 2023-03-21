@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: dc313d7cbee9e412b9294b644fddbc7840f90339
+source-git-commit: db7c57ce9f5c46d8beb6ff0037a8854fd136cb4a
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1868'
 ht-degree: 5%
 
 ---
@@ -648,13 +648,20 @@ Retourneert &quot;Hello Mark, hier is je maandelijkse nieuwsbrief!&quot;
 
 ## Alles vervangen{#replaceAll}
 
-De `replaceAll` Deze functie wordt gebruikt om alle subtekenreeksen van een tekst te vervangen die overeenkomt met &quot;target&quot; met de opgegeven letterlijke tekenreeks &quot;replacement&quot;. De vervanging vindt plaats vanaf het begin van de tekenreeks tot het einde. Als u bijvoorbeeld &quot;aa&quot; vervangt door &quot;b&quot; in de tekenreeks &quot;aaa&quot;, resulteert dit in &quot;ba&quot; in plaats van &quot;ab&quot;.
+De `replaceAll` Deze functie wordt gebruikt om alle subtekenreeksen van een tekst te vervangen die overeenkomt met de expressie &quot;regex&quot; door de opgegeven letterlijke tekenreeks &quot;replacement&quot;. Regex hanteert speciale functies voor &quot;\&quot; en &quot;+&quot; en alle regex-expressies volgen de PQL-escaperestrategie. De vervanging vindt plaats vanaf het begin van de tekenreeks tot het einde. Als u bijvoorbeeld &quot;aa&quot; vervangt door &quot;b&quot; in de tekenreeks &quot;aaa&quot;, resulteert dit in &quot;ba&quot; in plaats van &quot;ab&quot;.
 
 **Syntaxis**
 
 ```sql
 {%= replaceAll(string,string,string) %}
 ```
+>[!NOTE]
+>
+> Als de regex-expressie die als tweede argument wordt gebruikt, een speciaal regex-teken is, moeten we een dubbele backslash (`//`) om dergelijke gevallen te behandelen.
+>
+> Lijst met speciale regex-tekens [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> 
+> Dit wordt samengevat in [Documentatie oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}
 
 ## Rechts bijsnijden {#rightTrim}
 
