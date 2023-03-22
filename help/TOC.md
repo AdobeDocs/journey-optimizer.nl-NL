@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a402f9c8510c5905551e9ca97ca7ae762e7e56a1
+source-git-commit: 759ad1d84d9a74584c6a3d59450e4aa5af641442
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1341'
 ht-degree: 34%
 
 ---
@@ -419,7 +419,7 @@ ht-degree: 34%
       + [Aan de slag met gegevenssets](using/data/get-started-datasets.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-   + [Journey Optimizer ingebouwde schema&#39;s](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
+      + [Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Configuratie{#configuration}
    + [Aan de slag met de Journey Optimizer-configuratie](using/configuration/get-started-configuration.md)
