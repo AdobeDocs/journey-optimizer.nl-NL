@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: db7c57ce9f5c46d8beb6ff0037a8854fd136cb4a
+source-git-commit: 9301d02be37c6aabad9c10a4cc43c20d3e3ee23e
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1857'
 ht-degree: 5%
 
 ---
@@ -655,13 +655,12 @@ De `replaceAll` Deze functie wordt gebruikt om alle subtekenreeksen van een teks
 ```sql
 {%= replaceAll(string,string,string) %}
 ```
+
 >[!NOTE]
 >
-> Als de regex-expressie die als tweede argument wordt gebruikt, een speciaal regex-teken is, moeten we een dubbele backslash (`//`) om dergelijke gevallen te behandelen.
->
-> Lijst met speciale regex-tekens [., +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> Wanneer de expressie die als tweede argument wordt gebruikt, een speciaal regex-teken is, gebruikt u dubbele backslash (`//`).  Speciale regex-tekens zijn: [, +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
 > 
-> Dit wordt samengevat in [Documentatie oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}
+> Meer informatie in [Documentatie oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 
 ## Rechts bijsnijden {#rightTrim}
 
