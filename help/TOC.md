@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 759ad1d84d9a74584c6a3d59450e4aa5af641442
+source-git-commit: abdc20ed5f73d3822d5cbfa21a60f568f7ad5e4d
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1342'
 ht-degree: 34%
 
 ---
@@ -445,7 +445,7 @@ ht-degree: 34%
          + Een eenheidsgebeurtenis configureren {#unitary-events}
             + [Aan de slag met eenheidsgebeurtenissen](using/event/about-creating.md)
             + [ExperienceEvent-schema’s](using/event/experience-event-schema.md)
-            + [Adobe Analytics gebruiken](using/event/about-analytics.md)
+            + [Werken met Adobe Analytics](using/event/about-analytics.md)
          + [Een bedrijfsgebeurtenis configureren](using/event/about-creating-business.md)
          + [Aanvullende stappen om gebeurtenissen te verzenden](using/event/additional-steps-to-send-events-to-journey.md)
       + Gegevensbronconfiguratie{#data-source-journeys}
