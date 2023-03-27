@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4399d1665fd27fdd3b2cca6cfe448464c3c79f0c
+source-git-commit: 2a6c5ab81a1fa708756fd2da029febd056f81f7a
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 7%
+source-wordcount: '1397'
+ht-degree: 6%
 
 ---
 
@@ -26,7 +26,7 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 
 Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd tot de beschikbaarheidsdatum van de release. Bijgewerkte documentatie wordt gepubliceerd op de releasedatum en er worden directe koppelingen toegevoegd aan deze pagina.
 
-**Beschikbaarheidsdatum**: 29 maart
+**Beschikbaarheidsdatum**: 29 maart 2023
 
 ### Nieuwe functies{#mar-2023-features}
 
@@ -42,7 +42,7 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 <td>
 <p>U kunt nu binnen een campagne persoonlijke In-app-berichten naar gebruikers van de app sturen. Met Journey Optimizer kunt u meldingen ontwerpen en de lay-out, weergave, tekst en knoppen van berichten aanpassen voor een naadloze ervaring.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>Raadpleeg de <a href="../in-app/get-started-in-app.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
 </table>
@@ -74,7 +74,7 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 <tr>
 <td>
 <p>Als Journey Optimizer-expert kunt u uw zakelijke objecten nu organiseren met tags. Met tags kunt u objecten snel en eenvoudig classificeren om zoekopdrachten te verbeteren. Deze functie is momenteel beschikbaar in bèta en alleen voor reizen.</p>
-<p>Raadpleeg de <a href="../building-journeys/tags.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<!--p>For more information, refer to the <a href="../building-journeys/tags.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
