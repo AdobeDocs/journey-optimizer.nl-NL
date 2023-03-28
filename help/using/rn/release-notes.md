@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2a6c5ab81a1fa708756fd2da029febd056f81f7a
+source-git-commit: 1dcaab6dba62e3c8119e45ce87dbe6f902e37921
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1398'
 ht-degree: 6%
 
 ---
@@ -89,13 +89,11 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 * Het canvas Journey is verbeterd voor een eenvoudigere en verbeterde gebruikerservaring. Aan het einde van elk pad op het canvas zijn de lege plaatsaanduidingen verwijderd. U kunt nu gewoon uw activiteiten toevoegen door deze aan het einde van een pad te slepen. <!--[Learn more](../building-journeys/using-the-journey-designer.md)-->
 * De standaardonderbreking en foutenduur in reiseigenschappen zijn veranderd van 5 aan 30 seconden. De standaardvertragingstarief in gelezen segmentactiviteiten is veranderd van 20.000 in 5.000 berichten per seconde.
 * Er is een hulplijn toegevoegd aan de testmodus om alleen te luisteren naar gebeurtenissen die via de interface worden verzonden. Er wordt geen rekening gehouden met gebeurtenissen die via een extern gereedschap worden verzonden.
-* Wanneer u een actie E-mail, SMS of Push toevoegt aan een reis, wordt het oppervlak standaard voorgevuld met het laatst gebruikte oppervlak voor dat kanaal.
 
-<!-- * A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)-->
-
-<!--
+<!-- 
+* When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
+* A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)
 * Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)
-
 * The Journey dashboard is now split in two tabs:
     * Use the **Overview** tab to access a new dashboard which displays key metrics related to your journeys.
     * Use the **Browse** tab to access list of all journeys.
@@ -112,6 +110,10 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 * U kunt ook kiezen naar welke Adobe Experience Platform-gebeurtenis moet worden gezocht om de offer decisioning te beperken. <!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
 
 * Er zijn aanvullende parameters toegevoegd aan het scherm Plaatsingsontwerp. Hiermee kunt u bepalen of een aanbieding op meerdere plaatsen kan worden gedupliceerd en kunt u opgeven of de inhoud en metagegevens van de aanbieding moeten worden opgenomen in de API-reactie. <!--[Learn more](../offers/offer-library/creating-placements.md)-->
+
+**Personalisatie**
+
+* U kunt nu standaardterugvaltekst voor op tekenreeks gebaseerde profielkenmerken opnemen in de Expressieeditor. Deze waarden worden weergegeven als de geselecteerde kenmerken geen resultaat opleveren. <!--[Learn more](../personalization/personalization-build-expressions.md#add)-->
 
 ## Opmerkingen bij de release februari 2023 {#feb-2023}
 
