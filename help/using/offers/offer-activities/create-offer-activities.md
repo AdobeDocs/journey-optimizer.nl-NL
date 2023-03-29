@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1342'
+ht-degree: 1%
 
 ---
 
@@ -98,19 +98,19 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
    ![](../assets/activity_constraint-estimate.png)
 
-1. Definieer de waarderingsmethode die u wilt gebruiken om de beste aanbieding voor elk profiel te selecteren.
+1. Definieer de waarderingsmethode die u wilt gebruiken om de beste aanbieding voor elk profiel te selecteren. [Meer informatie](../offer-activities/configure-offer-selection.md).
 
    ![](../assets/activity_ranking-method.png)
 
-   * Als meerdere aanbiedingen voor deze plaatsing in aanmerking komen, wordt standaard de aanbieding met de hoogste prioriteitsscore aan de klant geleverd.
+   * Als meerdere aanbiedingen standaard in aanmerking komen voor deze plaatsing, wordt de opdracht **[!UICONTROL Offer priority]** de methode gebruikt de waarde die in de aanbiedingen is gedefinieerd: het aanbod met de hoogste prioriteitsscore zal aan de gebruiker worden geleverd.
 
-   * Als u een specifieke formule wilt gebruiken om te kiezen welke aanbieding in aanmerking komt, selecteert u **[!UICONTROL Ranking formula]**. Leer hoe je voorstellen kunt beoordelen in [deze sectie](../offer-activities/configure-offer-selection.md).
+   * Als u een specifieke berekende score wilt gebruiken om te kiezen welke aanbieding in aanmerking komt, selecteert u **[!UICONTROL Formula]** of **[!UICONTROL AI model]**. [Meer informatie](../offer-activities/configure-offer-selection.md).
 
 1. Klikken **[!UICONTROL Add]** om meer criteria voor dezelfde plaatsing te definiëren.
 
    ![](../assets/activity_add-collection.png)
 
-1. Wanneer u meerdere criteria toevoegt, worden deze in een bepaalde volgorde geëvalueerd. De eerste verzameling die aan de reeks is toegevoegd, wordt eerst geëvalueerd, enzovoort.
+1. Wanneer u meerdere criteria toevoegt, worden deze in een bepaalde volgorde geëvalueerd. De eerste verzameling die aan de reeks is toegevoegd, wordt eerst geëvalueerd, enzovoort. [Meer informatie](#evaluation-criteria-order)
 
    Als u de standaardvolgorde wilt wijzigen, kunt u de verzamelingen slepen en neerzetten om ze naar wens opnieuw te rangschikken.
 
@@ -120,13 +120,27 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
    ![](../assets/activity_move-collection.png)
 
-   Ze hebben nu dezelfde rang en zullen dus tegelijkertijd worden geëvalueerd.
+   Ze hebben nu dezelfde rang en zullen dus tegelijkertijd worden geëvalueerd. [Meer informatie](#evaluation-criteria-order)
 
    ![](../assets/activity_same-rank-collections.png)
 
 1. Als u een andere plaatsing voor uw voorstellen wilt toevoegen als onderdeel van deze beslissing, gebruikt u de opdracht **[!UICONTROL New scope]** knop. Herhaal bovenstaande stappen voor elk beslissingsbereik.
 
    ![](../assets/activity_new-scope.png)
+
+### Volgorde van de beoordelingscriteria {#evaluation-criteria-order}
+
+Zoals hierboven is beschreven, bestaan de evaluatiecriteria uit een verzameling, subsidiabiliteitsbeperkingen en een rangorde. U kunt de opeenvolgende orde plaatsen u voor de evaluatiecriteria wilt worden geëvalueerd, maar u kunt veelvoudige evaluatiecriteria ook combineren zodat zij samen en niet afzonderlijk worden geëvalueerd.
+
+U hebt bijvoorbeeld twee verzamelingen, één in evaluatiecriteria A en één in evaluatiecriteria B. Er worden twee voorstellen teruggestuurd. Laten we zeggen dat er twee in aanmerking komende aanbiedingen zijn uit evaluatiecriteria A en drie in aanmerking komende aanbiedingen uit evaluatiecriteria B.
+
+* Indien de twee evaluatiecriteria **niet gecombineerd** en/of in sequentiële volgorde (1 en 2) worden de twee belangrijkste in aanmerking komende aanbiedingen uit de evaluatiecriteria in de eerste rij teruggegeven. Als er niet twee in aanmerking komende aanbiedingen voor de eerste evaluatiecriteria zijn, zal de beslissingsmotor achtereenvolgens overgaan op de volgende evaluatiecriteria om te zien hoeveel aanbiedingen nog nodig zijn, en uiteindelijk een terugslag teruggeven indien nodig.
+
+   ![](../assets/activity_consecutive-rank-collections.png)
+
+* Als de twee verzamelingen **tegelijk geëvalueerd** Aangezien er twee in aanmerking komende aanbiedingen zijn op basis van beoordelingscriteria A en drie in aanmerking komende aanbiedingen op basis van beoordelingscriteria B, worden de vijf offertes in een stapel geplaatst op basis van de waarde die door de respectieve rangordemethoden wordt bepaald. Er wordt om twee aanbiedingen verzocht, zodat de twee belangrijkste in aanmerking komende aanbiedingen van deze vijf aanbiedingen worden teruggegeven.
+
+   ![](../assets/activity_same-rank-collections.png)
 
 ## Een fallback-aanbieding toevoegen {#add-fallback}
 

@@ -3,10 +3,10 @@ title: Configuratie in de app
 description: Leer hoe u uw omgeving configureert voor het verzenden van In-app-berichten met Journey Optimizer
 role: Admin
 level: Intermediate
-keywords: in-app, bericht, configuratie, platform
 badge: label="Beta" type="Informatief"
+keywords: in-app, bericht, configuratie, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 2%

@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 keywords: landen, landingspagina, subdomeinen, configuratie
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of u kunt 
 >[!CAUTION]
 >
 >Subdomeinconfiguratie van de bestemmingspagina is gemeenschappelijk voor alle milieu&#39;s. Daarom zal elke wijziging in een subdomein van een bestemmingspagina ook invloed hebben op de productiesandboxen.
-
-Hoofdletters zijn niet toegestaan in een subdomein
 
 ## Een bestaand subdomein gebruiken {#lp-use-existing-subdomain}
 
@@ -138,7 +136,7 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
    >[!NOTE]
    >
-   >Voordat u dat subdomein kunt gebruiken om berichten te verzenden, moet u wachten tot Adobe de vereiste controles uitvoert. Dit kan maximaal 4 uur in beslag nemen.<!--Learn more in [this section](#subdomain-validation).-->
+   >Voordat u dat subdomein kunt gebruiken voor uw bestemmingspagina&#39;s, moet u wachten totdat Adobe de vereiste controles uitvoert. Dit kan maximaal 4 uur in beslag nemen.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. Wanneer de controles zijn voltooid, haalt het subdomein het subdomein **[!UICONTROL Success]** status. Deze kan worden gebruikt om voorinstellingen voor openingspagina&#39;s te maken.
 

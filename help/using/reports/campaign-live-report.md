@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '806'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ Van uw campagne **[!UICONTROL Live report]** de **[!UICONTROL SMS]** bevat de be
 
 +++Meer informatie over de verschillende maatstaven en widgets die beschikbaar zijn voor het SMS-rapport.
 
-De **[!UICONTROL SMS - Sending statistics]** de tabel geeft het succes van uw levering aan :
+De **[!UICONTROL SMS - Statistics]** de tabel geeft het succes van uw levering aan :
 
 * **[!UICONTROL Targeted]**: Aantal gebruikersprofielen dat als doelprofielen voor deze levering in aanmerking komt.
 
@@ -148,6 +148,8 @@ De **[!UICONTROL SMS - Sending statistics]** de tabel geeft het succes van uw le
 * **[!UICONTROL Bounces]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische terugkeringsverwerking.
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
+
+* **[!UICONTROL Clicks]**: Totaal aantal URL-bezoeken.
 
 De **[!UICONTROL SMS Performance by date]** widget geeft de belangrijkste informatie met betrekking tot uw bericht met een grafiek:
 

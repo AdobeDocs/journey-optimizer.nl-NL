@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: test, reis, controle, fout, het oplossen van problemen
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1501'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 
 ## Belangrijke opmerkingen {#important_notes}
 
-* Er is een interface beschikbaar voor het afvuren van gebeurtenissen naar de geteste reis, maar evenementen kunnen ook door systemen van derden, zoals Postman, worden verzonden.
+* In de testmodus kunt u gebeurtenissen starten met de interface.
 * Alleen personen die zijn gemarkeerd als &quot;testprofielen&quot; in de realtime klantenprofielservice mogen de geteste reis betreden. Zie dit [sectie](../segment/creating-test-profiles.md).
 * De testmodus is alleen beschikbaar voor conceptochten waarbij een naamruimte wordt gebruikt. In de testmodus moet worden nagegaan of een persoon die de reis betreedt een testprofiel is en moet hij dus Adobe Experience Platform kunnen bereiken.
 * Het maximumaantal testprofielen dat een reis tijdens een testsessie kan betreden, is 100.
@@ -103,8 +103,6 @@ Wanneer u op de knop **[!UICONTROL Send]** de test begint. De voortgang van het 
 Wanneer u een ander testprofiel in het scherm van de gebeurtenisconfiguratie selecteert en de test opnieuw in werking stelt, wordt de visuele stroom ontruimd en toont de weg van nieuw individu.
 
 Wanneer u een rit tijdens de test opent, komt het weergegeven pad overeen met de laatste uitgevoerde test.
-
-De visuele stroom werkt of de gebeurtenis via de interface of extern (bijvoorbeeld met Postman) wordt geactiveerd.
 
 ## Testmodus voor op regels gebaseerde reizen {#test-rule-based}
 

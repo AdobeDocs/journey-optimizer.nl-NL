@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, segment, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 4%
@@ -69,7 +69,7 @@ De stappen om de activiteit van het Leessegment te vormen zijn als volgt:
 
 1. Stel de **[!UICONTROL Throttling rate]** gebied aan de productiegrens van de gelezen segmentactiviteit.
 
-   Deze waarde wordt opgeslagen in de lading van de reisversie. De standaardwaarde is 20.000 berichten per seconde. U kunt deze waarde wijzigen van 500 tot 20.000 berichten per seconde.
+   Deze waarde wordt opgeslagen in de lading van de reisversie. De standaardwaarde is 5.000 berichten per seconde. U kunt deze waarde wijzigen van 500 tot 20.000 berichten per seconde.
 
    >[!NOTE]
    >
@@ -164,7 +164,7 @@ De segmentatie kan worden gebaseerd op:
 
 **Uitsluiting**
 
-Hetzelfde **Voorwaarde** de activiteit die voor segmentatie wordt gebruikt (zie hierboven) staat u ook toe om een deel van de bevolking uit te sluiten. U kunt bijvoorbeeld VIP personen uitsluiten door ze na afloop naar een vertakking te laten gaan met een eindstap.
+Hetzelfde **Voorwaarde** de activiteit die voor segmentatie wordt gebruikt (zie hierboven) staat u ook toe om een deel van de bevolking uit te sluiten. U kunt bijvoorbeeld VIP personen uitsluiten door ze na afloop naar een vertakking te laten lopen met een eindstap.
 
 Deze uitsluiting zou direct na het opvragen van segmenten kunnen plaatsvinden, voor het tellen van de bevolking of langs een reis met meerdere stappen.
 

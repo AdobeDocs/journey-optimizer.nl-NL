@@ -8,9 +8,9 @@ role: User, Developer
 level: Experienced
 keywords: reis, gegevensbronnen, grens, productie, douane, acties
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,13 @@ Dit kan gebeuren met:
 
 * **Aangepaste handelingen**: informatie naar externe systemen te sturen, bijvoorbeeld om e-mails via een externe oplossing te verzenden met behulp van Journey Optimizer-mogelijkheden voor orkestvorming, naast profielinformatie, publieksgegevens en reiscontext.
 
-Als u met externe gegevensbronnen of douaneacties werkt, kunt u uw externe systemen willen beschermen door reisproductie te beperken: tot 5000 exemplaren per seconde voor eenheidstreizen en tot 20000 exemplaren per seconde voor segmentgestuurde reizen. U kunt een begrenzing op eindpuntniveau bepalen om die externe systemen te vermijden overweldigend door Journey Optimizer Capping APIs. Alle resterende aanvragen nadat de limiet is bereikt, worden echter genegeerd.
+Als u met externe gegevensbronnen of douaneacties werkt, kunt u uw externe systemen willen beschermen door reisproductie te beperken: tot 5000 exemplaren per seconde voor eenheidstreizen en tot 20000 exemplaren per seconde voor segmentgestuurde reizen.
 
-In deze sectie vindt u tijdelijke oplossingen waarmee u de doorvoer kunt optimaliseren. Raadpleeg voor meer informatie over het integreren met externe systemen de volgende [page](../configuration/external-systems.md).
+Voor aangepaste acties zijn vertragingsmogelijkheden beschikbaar op productniveau. Zie dit [page](../configuration/external-systems.md#capping).
+
+Voor externe gegevensbronnen, kunt u een het begrenzen op eindpuntniveau bepalen om die externe systemen te vermijden overweldigend door Journey Optimizer Capping APIs. Alle resterende aanvragen nadat de limiet is bereikt, worden echter genegeerd. In deze sectie vindt u tijdelijke oplossingen waarmee u de doorvoer kunt optimaliseren.
+
+Raadpleeg voor meer informatie over het integreren met externe systemen de volgende [page](../configuration/external-systems.md).
 
 ## Implementatie
 

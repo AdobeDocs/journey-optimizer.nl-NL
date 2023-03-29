@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Nadat u een rangschikkingsformule hebt gemaakt, kunt u deze toewijzen aan een pl
 
 Voer de volgende stappen uit om een rangschikkingsformule te maken:
 
-1. Toegang krijgen tot **[!UICONTROL Components]** en selecteert u vervolgens de **[!UICONTROL Rankings]** tab. De eerder gemaakte lijst met waarderingen wordt weergegeven.
+1. Toegang krijgen tot **[!UICONTROL Components]** en selecteert u vervolgens de **[!UICONTROL Ranking]** tab. De **[!UICONTROL Formulas]** is standaard geselecteerd. De lijst met eerder gemaakte formules wordt weergegeven.
 
    ![](../assets/rankings-list.png)
 
@@ -35,7 +35,7 @@ Voer de volgende stappen uit om een rangschikkingsformule te maken:
 
    ![](../assets/ranking-create-formula.png)
 
-1. Geef de naam, beschrijving en formule van de waarderingsformule op.
+1. Geef de naam, beschrijving en formule van de formule op.
 
    In dit voorbeeld willen we de prioriteit van alle aanbiedingen verhogen met het kenmerk &quot;hot&quot; als het werkelijke weer heet is. Om dit te doen, **contextData.weather=hot** werd overgegaan in de beslissingsvraag.
 

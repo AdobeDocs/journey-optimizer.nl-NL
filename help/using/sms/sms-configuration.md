@@ -6,9 +6,9 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van SMS met 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '781'
 ht-degree: 2%
 
 ---
@@ -120,6 +120,12 @@ Ga als volgt te werk om een kanaaloppervlak te maken:
 
    * Selecteer uw **[!UICONTROL SMS Execution Field]** om de **[!UICONTROL Profile attribute]** aan de telefoonaantallen van de profielen worden geassocieerd.
 
+
+1. Als u de functie URL-verkorting wilt gebruiken in uw SMS-berichten, selecteert u een item in het menu **[!UICONTROL Subdomain]** lijst.
+
+   >[!NOTE]
+   >
+   >Om subdomain te kunnen selecteren, zorg ervoor u eerder minstens één subdomain van SMS hebt gevormd. [Meer informatie](sms-subdomains.md)
 
 1. Zodra alle parameters zijn gevormd, klik **[!UICONTROL Submit]** ter bevestiging. U kunt het kanaaloppervlak ook opslaan als concept en de configuratie later hervatten.
 

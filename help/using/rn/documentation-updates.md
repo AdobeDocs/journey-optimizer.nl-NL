@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 371bd375d2c93b0694fa7eaf148f5c0793d59c8e
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2443'
 ht-degree: 17%
 
 ---
@@ -17,8 +17,10 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 ## Maart 2023 {#march-2023}
 
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 23 maart is in detail beschreven in de documentatie. [Meer informatie](release-notes.md)
 * Voeg een stap toe om Adobe Analytics-gebeurtenissen tijdens uw reizen mogelijk te maken. [Meer informatie](../event/about-analytics.md)
 * In de gids voor het beheer van besluiten is een nieuw gedeelte opgenomen over de wijze waarop feedback van offer decisioning in Adobe Experience Platform kan worden verzameld, met inbegrip van de aanbiedingen die worden weergegeven en de wijze waarop gebruikers met hen communiceren. [Meer informatie](../offers/data-collection/data-collection.md)
+* Er is een nieuwe subsectie toegevoegd aan de **Beslissing maken** een toelichting bij het verschil tussen de beoordeling van de criteria in een opeenvolgende volgorde of tegelijkertijd. [Meer informatie](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
 
 ## Februari 2023 {#feb-2023}
 

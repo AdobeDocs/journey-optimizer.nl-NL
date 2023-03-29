@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 76da07406a751bf657bc03efb6fa5ebbae260876
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '438'
+ht-degree: 5%
 
 ---
 
@@ -38,7 +38,7 @@ U kunt bijvoorbeeld de prioriteit verhogen van alle aanbiedingen met een einddat
 
 Leer hoe u een waarderingsformule maakt in [deze sectie](../ranking/create-ranking-formulas.md).
 
-Nadat u een rangschikkingsformule hebt gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Volg de onderstaande stappen om dit te doen:
+Nadat een formule is gemaakt, kunt u deze toewijzen aan een plaatsing in een beslissing. Volg de onderstaande stappen om dit te doen:
 
 1. Maak een beslissing of bewerk een bestaande beslissing. Zie [Besluiten maken](../offer-activities/create-offer-activities.md).
 
@@ -46,17 +46,17 @@ Nadat u een rangschikkingsformule hebt gemaakt, kunt u deze toewijzen aan een pl
 
 1. Voeg voor elke plaatsing een verzameling toe. Zie [Verzamelingen maken](../offer-library/creating-collections.md).
 
-1. Selecteren **[!UICONTROL Ranking formula]** als de waarderingsmethode klikt u op **[!UICONTROL Add ranking]**.
+1. Selecteren **[!UICONTROL Formula]** als de waarderingsmethode klikt u op **[!UICONTROL Add ranking]**.
 
    ![](../assets/offer-activity-ranking.png)
 
-1. Selecteer de gewenste rangschikkingsformule en klik op **[!UICONTROL Select]**.
+1. Selecteer de gewenste formule en klik op **[!UICONTROL Select]**.
 
    ![](../assets/ranking-selection.png)
 
 De rangschikkingsformule is nu gekoppeld aan de plaatsing.
 
-Indien meerdere aanbiedingen in aanmerking komen om in deze plaatsing te worden gepresenteerd, wordt in het besluit de formule van de rangorde gebruikt om te berekenen welke aanbieding het eerst wordt geleverd.
+Als meerdere aanbiedingen in aanmerking komen om in deze plaatsing te worden gepresenteerd, wordt in de beslissing de geselecteerde formule gebruikt om te berekenen welke aanbieding het eerst wordt geleverd.
 
 ## AI-rangschikking {#use-ranking-strategy}
 

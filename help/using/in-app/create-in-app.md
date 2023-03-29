@@ -5,13 +5,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: in-app, bericht, maken, starten
 badge: label="Beta" type="Informatief"
+keywords: in-app, bericht, maken, starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 2%
+source-wordcount: '556'
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ Voer de onderstaande stappen uit om een bericht in de app te maken:
 
 1. Van de **[!UICONTROL Properties]** sectie, uw campagne bewerken **[!UICONTROL Title]** en **[!UICONTROL Description]**.
 
-1. Als u aangepaste of basislabels voor gegevensgebruik wilt toewijzen aan de landingspagina, selecteert u **[!UICONTROL Manage access]**. [Meer informatie](../administration/object-based-access.md).
+1. Selecteer **[!UICONTROL Manage access]**. [Meer informatie](../administration/object-based-access.md).
 
 1. Klik op de knop **[!UICONTROL Select audience]** om het publiek te bepalen om van de lijst van beschikbare segmenten van Adobe Experience Platform te richten. [Meer informatie](../segment/about-segments.md).
 
@@ -45,27 +45,22 @@ Voer de onderstaande stappen uit om een bericht in de app te maken:
 
 1. In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren. [Meer informatie](../event/about-creating.md#select-the-namespace).
 
+1. Klikken **[!UICONTROL Edit triggers]** om de gebeurtenis(sen) en criteria te kiezen die uw bericht activeren:
+
+   1. Klikken **[!UICONTROL Add]voorwaarde** als u wilt dat de trigger rekening houdt met meerdere gebeurtenissen of criteria.
+   1. Selecteer hoe uw gebeurtenissen worden gekoppeld. Kies bijvoorbeeld **[!UICONTROL And]** als u **beide** triggers moeten waar zijn om een bericht weer te geven of **[!UICONTROL Or]** als u wilt dat het bericht wordt getoond als **ofwel** van de triggers zijn waar.
+   1. Klikken **[!UICONTROL Make group]** om triggers samen te groeperen.
+
+   ![](assets/in_app_create_3.png)
+
 1. Kies de frequentie van de trigger wanneer het bericht in de app actief is:
 
-   * **[!UICONTROL Show every time]**: Toon altijd het bericht wanneer de gebeurtenissen die in **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
-   * **[!UICONTROL Show once]**: Alleen dit bericht weergeven als de gebeurtenissen die voor de eerste keer zijn geselecteerd in het dialoogvenster **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
-   * **[!UICONTROL Show until click through]**: Dit bericht weergeven wanneer de gebeurtenissen zijn geselecteerd in het dialoogvenster **[!UICONTROL Mobile app trigger]** drop-down komt voor tot een interactie gebeurtenis door SDK met een actie van &quot;geklikt&quot;wordt verzonden.
+   * **[!UICONTROL Everytime]**: Toon altijd het bericht wanneer de gebeurtenissen die in **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
+   * **[!UICONTROL Once]**: Alleen dit bericht weergeven als de gebeurtenissen die voor de eerste keer zijn geselecteerd in het dialoogvenster **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
+   * **[!UICONTROL Until click through]**: Dit bericht weergeven wanneer de gebeurtenissen zijn geselecteerd in het dialoogvenster **[!UICONTROL Mobile app trigger]** drop-down komt voor tot een interactie gebeurtenis door SDK met een actie van &quot;geklikt&quot;wordt verzonden.
+   * **[!UICONTROL X number of times]**: Dit bericht X-tijd tonen.
 
-1. Van de **[!UICONTROL Mobile app trigger]** -dropdown(s), kies de gebeurtenis(sen) en de criteria die uw bericht zullen activeren:
-
-   1. Selecteer in de linkervervolgkeuzelijst de gebeurtenis die nodig is om het bericht te activeren.
-   1. Selecteer in de rechtervervolgkeuzelijst de vereiste validatie voor de geselecteerde gebeurtenis.
-   1. Klik op de knop **[!UICONTROL Add]** als u wilt dat de trigger rekening houdt met meerdere gebeurtenissen of criteria. Herhaal vervolgens de bovenstaande stappen.
-   1. Selecteer hoe uw gebeurtenissen worden gekoppeld. Kies bijvoorbeeld **[!UICONTROL And]** als u **beide** triggers moeten waar zijn om een bericht weer te geven of **[!UICONTROL Or]** als u wilt dat het bericht wordt getoond als **ofwel** van de triggers zijn waar.
-
-   ![](assets/in_app_create_3.png)
-
-1. Kies de gebeurtenis die het bericht activeert in het menu **[!UICONTROL Mobile app trigger]**
-vervolgkeuzelijst.
-
-   Als u een trigger kiest, kiest u welke actie van de gebruiker het bericht in de app weergeeft.
-
-   ![](assets/in_app_create_3.png)
+1. Kies zo nodig welke **[!UICONTROL Day of the week]** of **[!UICONTROL Time of day]** Het bericht in de app wordt weergegeven.
 
 1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe u de **[!UICONTROL Schedule]** van uw campagne in [deze sectie](../campaigns/create-campaign.md#schedule).
 
@@ -111,7 +106,7 @@ Volg onderstaande stappen om dit te doen:
 
 Uw campagne is nu geactiveerd. Het bericht In-App dat in de campagne wordt gevormd wordt verzonden onmiddellijk, of op de gespecificeerde datum.
 
-Zodra verzonden, kunt u het effect van uw in-app berichten binnen het rapport van de Campagne meten. Raadpleeg [deze sectie](../reports/campaign-global-report.md#inapp-report) voor meer informatie over rapporten.
+Zodra verzonden, kunt u het effect van uw in-app berichten binnen de Campagne of de rapporten van de Reis meten. Raadpleeg [deze sectie](../reports/campaign-global-report.md#inapp-report) voor meer informatie over rapporten.
 
 **Verwante onderwerpen:**
 

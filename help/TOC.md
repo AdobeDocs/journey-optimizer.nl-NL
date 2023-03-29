@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: abdc20ed5f73d3822d5cbfa21a60f568f7ad5e4d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1342'
+source-wordcount: '1355'
 ht-degree: 34%
 
 ---
@@ -221,6 +221,7 @@ ht-degree: 34%
    + [Je SMS bekijken en testen](using/sms/send-sms.md)
    + [SMS-optie beheren](using/sms/sms-opt-out.md)
    + [Sms-kanaal configureren](using/sms/sms-configuration.md)
+   + [SMS-subdomeinen instellen](using/sms/sms-subdomains.md)
 + Direct mail {#direct-mail}
    + [Een directe e-mail maken](using/direct-mail/create-direct-mail.md)
    + [Direct mail configureren](using/direct-mail/direct-mail-configuration.md)
@@ -439,7 +440,10 @@ ht-degree: 34%
    + [Uitvoeradressen beheren](using/configuration/primary-email-addresses.md)
    + Journey&#39;s configureren {#configure-journeys}
       + [Informatie over gegevensbronnen, gebeurtenissen en handelingen](using/configuration/about-data-sources-events-actions.md)
-      + [Integreren met externe systemen](using/configuration/external-systems.md)
+      + Integreren met externe systemen {#external-systems}
+         + [Reisintegratie met externe systemen](using/configuration/external-systems.md)
+         + [API voor uitlijnen](using/configuration/capping.md)
+         + [Throttling API](using/configuration/throttling.md)
       + Configuratie van gebeurtenissen {#events-journeys}
          + [Algemeen principe](using/event/about-events.md)
          + Een eenheidsgebeurtenis configureren {#unitary-events}

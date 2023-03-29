@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: aca38b71ee06e678358bc1451e6d522ea5d0e1b6
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '524'
 ht-degree: 5%
 
 ---
@@ -39,6 +39,8 @@ Blader op de onderstaande tabbladen om te leren hoe u een SMS-bericht kunt toevo
    ![](assets/sms_create_2.png)
 
    Voor meer informatie over hoe te om een reis te vormen, verwijs naar [deze pagina](../building-journeys/journey-gs.md)
+
+<!-- The **[!UICONTROL Surface]**field is pre-filled, by default, with the last surface used for that channel by the user. -->
 
 U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit content]** knop. [Je SMS-inhoud definiëren](#sms-content)
 
@@ -75,7 +77,6 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 
 >[!ENDTABS]
 
-
 ## Je SMS-inhoud definiëren{#sms-content}
 
 1. Van het reis of scherm van de campagneconfiguratie, klik **[!UICONTROL Edit content]** om de inhoud van SMS te vormen.
@@ -86,11 +87,24 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 
 1. Gebruik de expressie-editor om inhoud te definiëren en dynamische inhoud toe te voegen. U kunt elk kenmerk gebruiken, zoals de profielnaam of plaats. Meer informatie over [personalisatie](../personalization/personalize.md) en [dynamische inhoud](../personalization/get-started-dynamic-content.md) in de Uitdrukking redacteur.
 
-1. Klikken **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning.
+1. Nadat u de inhoud hebt gedefinieerd, kunt u de URL&#39;s van de track toevoegen aan uw bericht. Om dit te doen, toegang tot **[!UICONTROL Helper functions]** en selecteert u **[!UICONTROL Helpers]**.
+
+   Merk op dat om de functie te gebruiken die URL verkort, u eerst een subdomain moet vormen die dan aan uw oppervlakte zal worden verbonden. [Meer informatie](sms-subdomains.md)
+
+   ![](assets/sms_tracking_1.png)
+
+1. Binnen de **[!UICONTROL Helper functions]** menu, klikt u op **[!UICONTROL URL function]** en selecteer vervolgens **[!UICONTROL Add URL]**.
+
+   ![](assets/sms_tracking_2.png)
+
+1. In de `originalUrl` plakken, plakt u de URL die u wilt verkorten.
+
+1. Klikken **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning. U kunt **[!UICONTROL Simulate content]** om een voorvertoning weer te geven van uw verkorte URL&#39;s of persoonlijke inhoud.
 
    ![](assets/sms-content-preview.png)
 
 Je kunt nu je SMS-bericht testen en naar je publiek sturen. [Meer informatie](send-sms.md)
+Zodra verzonden, kunt u het effect van uw SMS binnen de Campagne of rapporten van de Reis meten. Raadpleeg [deze sectie](../reports/campaign-global-report.md#sms-tab) voor meer informatie over rapporten.
 
 >[!NOTE]
 >

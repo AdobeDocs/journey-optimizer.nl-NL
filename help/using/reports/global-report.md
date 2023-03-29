@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1278'
 ht-degree: 2%
 
 ---
@@ -64,6 +64,10 @@ Elk rapportdashboard kan worden gewijzigd door de tijdsperiode te wijzigen en wi
    ![](assets/report_modify_5.png)
 
 1. Als u tevreden bent met de weergavevolgorde en de grootte van de widgets, klikt u op **[!UICONTROL Save]**.
+
+1. Als u de manier wilt aanpassen waarop uw gegevens worden weergegeven, kunt u schakelen tussen verschillende visualisatieopties, zoals grafieken, tabellen en donutgrafieken.
+
+   ![](assets/report_modify_10.png)
 
 Uw dashboard wordt nu opgeslagen. Uw verschillende wijzigingen worden opnieuw toegepast voor een later gebruik van uw live rapporten. Gebruik indien nodig de **[!UICONTROL Reset]** gebruiken om de standaardvolgorde van widgets en widgets te herstellen.
 

@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1dcaab6dba62e3c8119e45ce87dbe6f902e37921
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1398'
-ht-degree: 6%
+source-wordcount: '1320'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 ![Nieuwsbrief](../assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die direct aan uw Postbus worden geleverd elk kwartaal.
 
 
-## Opmerkingen bij de release Vroege maart 2023 {#mar-2023}
+## Opmerkingen bij de release maart 2023 {#mar-2023}
 
 Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd tot de beschikbaarheidsdatum van de release. Bijgewerkte documentatie wordt gepubliceerd op de releasedatum en er worden directe koppelingen toegevoegd aan deze pagina.
 
@@ -30,22 +30,23 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 
 ### Nieuwe functies{#mar-2023-features}
 
-
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Kanaal in de app (algemene beschikbaarheid)</strong><br/></th>
+<th><strong>In-app channel (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu binnen een campagne persoonlijke In-app-berichten naar gebruikers van de app sturen. Met Journey Optimizer kunt u meldingen ontwerpen en de lay-out, weergave, tekst en knoppen van berichten aanpassen voor een naadloze ervaring.</p>
+<p>You can now send personalized In-app messages to your app users within a campaign. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
@@ -57,7 +58,8 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 <tr>
 <td>
 <p>Met SMS klikt het volgen, kunt u de prestaties van uw verkorte URLs controleren, identificeren wie op hen klikte, en deze gegevens gebruiken om die klanten met verdere campagnes opnieuw te richten.</p>
-<!--p>For more information, refer to the <a href="../sms/create-sms.md#sms-content">detailed documentation</a>.</p-->
+<img src="assets/do-not-localize/sms-tracking.gif"/>
+<p>Raadpleeg de <a href="../sms/create-sms.md#sms-content">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -74,7 +76,7 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 <tr>
 <td>
 <p>Als Journey Optimizer-expert kunt u uw zakelijke objecten nu organiseren met tags. Met tags kunt u objecten snel en eenvoudig classificeren om zoekopdrachten te verbeteren. Deze functie is momenteel beschikbaar in bèta en alleen voor reizen.</p>
-<!--p>For more information, refer to the <a href="../building-journeys/tags.md">detailed documentation</a>.</p-->
+<p>Raadpleeg de <a href="../building-journeys/tags.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -85,10 +87,11 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 
 **Journeys**
 
-* De nieuwe **Throttling API** Hiermee kunt u een limiet instellen voor het aantal gebeurtenissen dat per seconde wordt verzonden, zodat overweldigende verkeersspikes op uw externe systemen of API worden voorkomen. Wanneer de ingestelde limiet is bereikt, worden alle volgende API-aanroepen zo snel mogelijk in de wachtrij geplaatst en verwerkt in de volgorde waarin ze zijn ontvangen. Houd er rekening mee dat deze functie slechts ondersteuning biedt voor één configuratie met vertraagde verwerking van al uw sandboxen.
-* Het canvas Journey is verbeterd voor een eenvoudigere en verbeterde gebruikerservaring. Aan het einde van elk pad op het canvas zijn de lege plaatsaanduidingen verwijderd. U kunt nu gewoon uw activiteiten toevoegen door deze aan het einde van een pad te slepen. <!--[Learn more](../building-journeys/using-the-journey-designer.md)-->
-* De standaardonderbreking en foutenduur in reiseigenschappen zijn veranderd van 5 aan 30 seconden. De standaardvertragingstarief in gelezen segmentactiviteiten is veranderd van 20.000 in 5.000 berichten per seconde.
-* Er is een hulplijn toegevoegd aan de testmodus om alleen te luisteren naar gebeurtenissen die via de interface worden verzonden. Er wordt geen rekening gehouden met gebeurtenissen die via een extern gereedschap worden verzonden.
+* De nieuwe **Throttling API** Hiermee kunt u een limiet instellen voor het aantal gebeurtenissen dat per seconde wordt verzonden, zodat overweldigende verkeersspikes op uw externe systemen of API worden voorkomen. Wanneer de ingestelde limiet is bereikt, worden alle volgende API-aanroepen zo snel mogelijk in de wachtrij geplaatst en verwerkt in de volgorde waarin ze zijn ontvangen. Houd er rekening mee dat deze functie slechts ondersteuning biedt voor één configuratie met vertraagde verwerking van al uw sandboxen. [Meer informatie](../configuration/external-systems.md)
+* Het canvas Journey is verbeterd voor een eenvoudigere en verbeterde gebruikerservaring. Aan het einde van elk pad op het canvas zijn de lege plaatsaanduidingen verwijderd. U kunt nu gewoon uw activiteiten toevoegen door deze aan het einde van een pad te slepen.
+* In het reiscanvas, het etiket van **Einde** tag wordt niet meer automatisch ingesteld met de naam van de vorige activiteit. Gebruikers kunnen desgewenst handmatig een aangepast label toevoegen.
+* De standaardonderbreking en foutenduur in reiseigenschappen zijn veranderd van 5 aan 30 seconden. [Meer informatie](../configuration/external-systems.md#timeout)
+* De standaardvertragingstarief in gelezen segmentactiviteiten is veranderd van 20.000 in 5.000 berichten per seconde. [Meer informatie](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
 
 <!-- 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
@@ -105,15 +108,23 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 
    Hoewel de term &quot;tag&quot; niet meer wordt gebruikt in de gebruikersinterface van het besluitvormingsbeheer, wordt deze nog steeds gebruikt in back-endservices zoals API&#39;s en datasets.
 
-* U kunt de teller van de aanbieding nu op een dagelijkse, wekelijkse of maandelijkse basis terugstellen. <!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
+* U kunt de teller van de aanbieding nu op een dagelijkse, wekelijkse of maandelijkse basis terugstellen. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
 
-* U kunt ook kiezen naar welke Adobe Experience Platform-gebeurtenis moet worden gezocht om de offer decisioning te beperken. <!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
+* U kunt ook kiezen naar welke Adobe Experience Platform-gebeurtenis moet worden gezocht om de offer decisioning te beperken. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
 
-* Er zijn aanvullende parameters toegevoegd aan het scherm Plaatsingsontwerp. Hiermee kunt u bepalen of een aanbieding op meerdere plaatsen kan worden gedupliceerd en kunt u opgeven of de inhoud en metagegevens van de aanbieding moeten worden opgenomen in de API-reactie. <!--[Learn more](../offers/offer-library/creating-placements.md)-->
+<!--* Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)-->
 
-**Personalisatie**
+<!--**Personalization**
 
-* U kunt nu standaardterugvaltekst voor op tekenreeks gebaseerde profielkenmerken opnemen in de Expressieeditor. Deze waarden worden weergegeven als de geselecteerde kenmerken geen resultaat opleveren. <!--[Learn more](../personalization/personalization-build-expressions.md#add)-->
+* You can now include default fallback text for string-based profile attributes in the Expression Editor. These values will display if the selected attributes return no result. [Learn more](../personalization/personalization-build-expressions.md#add)-->
+
+<!--
+**Reporting**
+
+* The reporting widget functionality has been improved with the ability to customize how users view their data. With this improvement, users can now choose between multiple visualization options, including graph, table, and donut charts.
+
+    To have access to the latest widgets, please note that you will have to reset the different reporting dashboards. For more information on dashboard customization, refer to the [detailed documentation](../reports/global-report.md#modify-dashboard).
+-->
 
 ## Opmerkingen bij de release februari 2023 {#feb-2023}
 
@@ -130,6 +141,7 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 <td>
 <p>U kunt nu binnen een campagne persoonlijke In-app-berichten naar gebruikers van de app sturen. Met Journey Optimizer kunt u meldingen ontwerpen en de lay-out, weergave, tekst en knoppen van berichten aanpassen voor een naadloze ervaring.</p>
 <p><strong>Waarschuwing</strong> - Deze functie is momenteel in bètaversie beschikbaar voor bètaklanten. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.</p>
+<img src="assets/do-not-localize/in-app.gif"/>
 <p>Raadpleeg de <a href="../in-app/get-started-in-app.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -185,6 +197,25 @@ With the **[!UICONTROL Campaign objective]** widget, you can also choose to comp
 
 Note that each widget can be resized and deleted as needed.
 +++
+
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Use Tags in your Journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>As a Journey Optimizer practitioner, you can now organize your business objects using tags. Tags are a quick and easy way of classifying objects to improve search. Tags are currently only available for Journeys.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 -->
 
 ### Verbeteringen {#feb-2023-improvements}
@@ -218,6 +249,10 @@ Note that each widget can be resized and deleted as needed.
 * **E-mailoppervlak** - In de **Parameters voor URL-tracking** sectie van de instellingen van het e-mailoppervlak, de limiet voor elke **Waarde** Het veld is bijgewerkt van 255 tekens naar 5 kB ten behoeve van compatibiliteit met Adobe Analytics-tracking. [Meer informatie](../email/email-settings.md#url-tracking)
 
 **Beslissingsbeheer**
+
+<!--
+* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
+-->
 
 * **URL-personalisatie** - Wanneer u URL&#39;s als inhoud toevoegt aan de representaties van uw aanbiedingen, kunt u deze URL&#39;s nu aanpassen met de Expressieeditor. [Meer informatie](../offers/offer-library/add-representations.md)
 

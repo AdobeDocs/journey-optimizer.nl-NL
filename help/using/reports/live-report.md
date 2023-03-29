@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: ee2c3c5d356bddf622da2d9313ad7e0511be3092
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1027'
 ht-degree: 2%
 
 ---
@@ -38,6 +38,8 @@ Voor een gedetailleerde lijst van elke metrisch beschikbaar in Adobe Journey Opt
 
 Elk rapportdashboard kan worden gewijzigd door widgets te vergroten of te verkleinen of te verwijderen. Het wijzigen van de widgets heeft alleen invloed op het dashboard van de huidige gebruiker. Andere gebruikers zien hun eigen dashboards of de dashboards die standaard zijn ingesteld.
 
+1. Van de **[!UICONTROL Actions]** en kiest u of u wilt rapporteren over een bepaalde handeling van uw reizen.
+
 1. Kies of u testgebeurtenissen wilt uitsluiten van uw rapporten met de schakelbalk. Raadpleeg voor meer informatie over testgebeurtenissen [deze pagina](../building-journeys/testing-the-journey.md).
 
    De **[!UICONTROL Exclude test events]** Deze optie is alleen beschikbaar voor Journey-rapporten.
@@ -57,6 +59,10 @@ Elk rapportdashboard kan worden gewijzigd door widgets te vergroten of te verkle
    ![](assets/report_modify_9.png)
 
 1. Als u tevreden bent met de weergavevolgorde en de grootte van de widgets, klikt u op **[!UICONTROL Save]**.
+
+1. Als u de manier wilt aanpassen waarop uw gegevens worden weergegeven, kunt u schakelen tussen verschillende visualisatieopties, zoals grafieken, tabellen en donutgrafieken.
+
+   ![](assets/report_modify_11.png)
 
 Uw dashboard wordt nu opgeslagen. Uw verschillende wijzigingen worden opnieuw toegepast voor een later gebruik van uw live rapporten. Gebruik indien nodig de **[!UICONTROL Reset]** gebruiken om de standaardvolgorde van widgets en widgets te herstellen.
 

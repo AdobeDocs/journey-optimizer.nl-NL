@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Data Governance
+title: Gegevensbeheer
 description: Een governancebeleid definiëren dat gekoppeld is aan een label en een marketingactie
 feature: Privacy
 topic: Administration
@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: gegevens, bestuur, DULE, labels, labels, platform, beleid
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 1177a0ac99035837ff4a7422808bb92a91710f15
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
 
-# Data Governance {#restrict-fields}
+# Gegevensbeheer {#restrict-fields}
 
 
 >[!IMPORTANT]
@@ -39,7 +39,6 @@ Raadpleeg de documentatie van Adobe Experience Platform voor meer informatie ove
 
 * Gegevensbeheer is alleen van toepassing op aangepaste handelingen tijdens reizen. Campaign Classic- en Campaign Standard-acties worden niet ondersteund.
 * Het beleid van goed bestuur is slechts van toepassing wanneer een (vereiste of extra) marketing actie op het niveau van de douaneactie wordt geplaatst.
-* Kenmerken die deel uitmaken van een veldgroep die het uit-van-de-doos Schema van de Unie gebruikt, worden niet gesteund. Deze kenmerken worden verborgen in de interface. U moet een andere veldgroep maken met een ander schema.
 
 ## Beleid inzake governance definiëren {#governance-policies}
 

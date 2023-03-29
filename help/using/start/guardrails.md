@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4bcdd5a5d6161aea70939fc4f8a90f6e607b02f4
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,7 @@ De prestatiegerelateerde en statische grenzen voor besluiten zijn vermeld in [Ad
 * Het segment en de naamruimte die zijn gekozen in **Segmentkwalificatie** (eerste knooppunt) kan niet worden gewijzigd in nieuwe versies.
 * De re-entry regel moet het zelfde in alle reisversies zijn.
 * Een reis die begint met een **Segment lezen** kan niet met een andere gebeurtenis in volgende versies beginnen.
+* U kunt geen nieuwe versie van een read segment reis met stijgende lees tot stand brengen. Je moet de reis dupliceren.
 
 ### Aangepaste acties {#custom-actions-g}
 

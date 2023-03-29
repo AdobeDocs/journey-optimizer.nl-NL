@@ -5,10 +5,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: in-app, bericht, ontwerp, opmaak
 badge: label="Beta" type="Informatief"
+keywords: in-app, bericht, ontwerp, opmaak
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 5a1ee11b603d523c1bc91a75beda00d0ac531cb9
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 8%
@@ -25,7 +25,7 @@ U kunt de inhoud in de app bewerken om ervaringsopties te configureren, zoals de
 
 Om de berichtinhoud te vormen, klik **[!UICONTROL Edit content]** en gebruik de opties in het rechtergedeelte van het scherm om uw inhoud van uw In-app-bericht te ontwerpen.
 
-![](assets/edit-in-app-content.png)
+![](assets/in_app_create_4.png)
 
 De **[!UICONTROL Advanced formatting]** als u schakelt, worden aanvullende opties geactiveerd om de ervaring aan te passen.
 

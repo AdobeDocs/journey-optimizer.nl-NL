@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: ontwerp, canvas, reis, interface, slepen, neerzetten
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1614'
 ht-degree: 1%
 
 ---
@@ -46,6 +46,12 @@ U kunt ook de opdracht **[!UICONTROL Search]** veld. Alleen gebeurtenissen en ha
 De **canvas** is de centrale zone in de reisontwerper. Het is in deze streek dat u uw activiteiten kunt laten vallen en hen vormen. Klik op een activiteit op het canvas om deze te configureren. Dit opent de ruit van de activiteitenconfiguratie op de rechterkant.
 
 ![](assets/journey39.png)
+
+De **werkbalk**, in de rechterbovenhoek van het canvas, kunt u het raster tonen/verbergen, in-/uitzoomen en een schermafbeelding van het canvas downloaden. Zie dit [sectie](../building-journeys/journey-gs.md#timeout_and_error).
+
+<!--and show/hide timeout and error paths-->
+
+![](assets/toolbar.png){width="70%" align="left"}
 
 De **activiteitenconfiguratievenster** wordt weergegeven wanneer u op een activiteit in het palet klikt. Vul de vereiste velden in. Klik op de knop **[!UICONTROL Delete]** pictogram om de activiteit te verwijderen. Klikken **[!UICONTROL Cancel]** om de wijzigingen te annuleren of **[!UICONTROL Ok]** ter bevestiging. Als u activiteiten wilt verwijderen, kunt u ook één activiteit (of meerdere activiteiten) selecteren en op de backspace-toets drukken. Als u op de escape-toets drukt, wordt het deelvenster voor activiteitenconfiguratie gesloten.
 
