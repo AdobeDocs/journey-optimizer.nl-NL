@@ -7,28 +7,30 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
+source-git-commit: 1af9a3adeb6727e965e61434b0ed2c41ff3d4911
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Een bericht in de app maken {#create-in-app}
 
+In-app berichten worden gemaakt in de context van een campagne.
+
 Voer de onderstaande stappen uit om een bericht in de app te maken:
 
 1. Toegang krijgen tot **[!UICONTROL Campaigns]** en klik vervolgens op **[!UICONTROL Create campaign]**.
 
-1. In de **[!UICONTROL Properties]** , geeft u op wanneer u de campagne wilt uitvoeren.
+1. In de **[!UICONTROL Properties]** selecteert u wanneer het uitvoeringstype van de campagne: Gepland of API-geactiveerd. Meer informatie over soorten campagnes in [deze pagina](../campaigns/create-campaign.md#campaigntype).
 
 1. In de **[!UICONTROL Actions]** in, kiest u de **[!UICONTROL In-app message]** en de **[!UICONTROL App surface]** eerder geconfigureerd voor uw bericht in de app. Klik vervolgens op **[!UICONTROL Create]**.
 
-   [Meer informatie over configuratie in de app](inapp-configuration.md).
+   Meer informatie over configuratie in de app in [deze pagina](inapp-configuration.md).
 
    ![](assets/in_app_create_1.png)
 
-1. Van de **[!UICONTROL Properties]** sectie, uw campagne bewerken **[!UICONTROL Title]** en **[!UICONTROL Description]**.
+1. Van de **[!UICONTROL Properties]** in, voert u de **[!UICONTROL Title]** en de **[!UICONTROL Description]** beschrijving.
 
 1. Selecteer **[!UICONTROL Manage access]**. [Meer informatie](../administration/object-based-access.md).
 
@@ -40,13 +42,13 @@ Voer de onderstaande stappen uit om een bericht in de app te maken:
 
 1. Klikken **[!UICONTROL Edit triggers]** om de gebeurtenis(sen) en criteria te kiezen die uw bericht activeren:
 
-   1. Klikken **[!UICONTROL Add]voorwaarde** als u wilt dat de trigger rekening houdt met meerdere gebeurtenissen of criteria.
+   1. Klikken **Voorwaarde toevoegen** als u wilt dat de trigger rekening houdt met meerdere gebeurtenissen of criteria.
    1. Selecteer hoe uw gebeurtenissen worden gekoppeld. Kies bijvoorbeeld **[!UICONTROL And]** als u **beide** triggers moeten waar zijn om een bericht weer te geven of **[!UICONTROL Or]** als u wilt dat het bericht wordt getoond als **ofwel** van de triggers zijn waar.
    1. Klikken **[!UICONTROL Make group]** om triggers samen te groeperen.
 
    ![](assets/in_app_create_3.png)
 
-1. Kies de frequentie van de trigger wanneer het bericht in de app actief is:
+1. Kies de frequentie van de trigger wanneer het bericht in de app actief is. De volgende opties zijn beschikbaar:
 
    * **[!UICONTROL Everytime]**: Toon altijd het bericht wanneer de gebeurtenissen die in **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
    * **[!UICONTROL Once]**: Alleen dit bericht weergeven als de gebeurtenissen die voor de eerste keer zijn geselecteerd in het dialoogvenster **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
