@@ -5,21 +5,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informatief"
 keywords: in-app, bericht, maken, starten
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 3%
+source-wordcount: '171'
+ht-degree: 4%
 
 ---
 
 # Aan de slag met In-app-kanaal {#gs-in-app}
-
->[!AVAILABILITY]
->
->De functie In-app is momenteel beschikbaar als een bètaversie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.
 
 In-app-berichten zijn meldingen die naar gebruikers in uw app kunnen worden verzonden en die hen naar specifieke aandachtspunten kunnen sturen. Deze meldingen kunnen voor verschillende doeleinden worden gebruikt, zoals het promoten van nieuwe functies, het aanbieden van speciale aanbiedingen of het vergemakkelijken van het instappen van gebruikers. Door in-app berichten te gebruiken, kunt u effectief met uw publiek in gesprek gaan en hen naar belangrijke aspecten van uw toepassing sturen.
 

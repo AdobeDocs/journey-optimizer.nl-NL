@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d0ce2c6f4f9ad46a74d3be7864dbfd23c941ee55
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 7%
+source-wordcount: '1435'
+ht-degree: 8%
 
 ---
 
@@ -29,24 +29,23 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 
 ### Nieuwe functies{#mar-2023-features}
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>In-app channel (General Availability)</strong><br/></th>
+<th><strong>Kanaal in de app (algemene beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now send personalized In-app messages to your app users within a campaign. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
+<p>U kunt nu binnen een campagne persoonlijke In-app-berichten naar gebruikers van de app sturen. Met Journey Optimizer kunt u meldingen ontwerpen en de lay-out, weergave, tekst en knoppen van berichten aanpassen voor een naadloze ervaring.</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p>
+<p>Raadpleeg de <a href="../in-app/get-started-in-app.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </tr>
 </tbody>
 </table>
 
-
+<!--
 <table>
 <thead>
 <tr>

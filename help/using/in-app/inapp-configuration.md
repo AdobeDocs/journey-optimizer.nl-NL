@@ -3,21 +3,16 @@ title: Configuratie in de app
 description: Leer hoe u uw omgeving configureert voor het verzenden van In-app-berichten met Journey Optimizer
 role: Admin
 level: Intermediate
-badge: label="Beta" type="Informatief"
 keywords: in-app, bericht, configuratie, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 2%
+source-wordcount: '266'
+ht-degree: 3%
 
 ---
 
 # In-app-kanaal configureren {#inapp-configuration}
-
->[!AVAILABILITY]
->
->De functie In-app is momenteel beschikbaar als een bètaversie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.
 
 Voordat u berichten in de app verzendt, moet u het kanaal in de app configureren [!DNL Adobe Experience Platform Data Collection].
 

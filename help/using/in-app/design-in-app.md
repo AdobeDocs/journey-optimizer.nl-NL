@@ -5,21 +5,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informatief"
 keywords: in-app, bericht, ontwerp, opmaak
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 8%
+source-wordcount: '789'
+ht-degree: 9%
 
 ---
 
 # In-app-inhoud ontwerpen {#design-content}
-
->[!AVAILABILITY]
->
->De functie In-app is momenteel beschikbaar als een bètaversie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.
 
 U kunt de inhoud in de app bewerken om ervaringsopties te configureren, zoals de lay-out en weergave van berichten, tekst en knopopties.
 

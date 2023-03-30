@@ -5,21 +5,16 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informatief"
 keywords: in-app, bericht, maken, starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '530'
 ht-degree: 3%
 
 ---
 
 # Een bericht in de app maken {#create-in-app}
-
->[!AVAILABILITY]
->
->De functie In-app is momenteel beschikbaar als een bètaversie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.
 
 ## Een campagne en een bericht in de app maken{#create-in-app-in-a-campaign}
 
