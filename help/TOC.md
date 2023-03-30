@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 5e1485b33608d55d878d311c2448669f898486b3
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1361'
 ht-degree: 34%
 
 ---
@@ -206,6 +206,7 @@ ht-degree: 34%
    + [Aan de slag met In-app-kanaal](using/in-app/get-started-in-app.md)
    + [Een bericht in de app maken](using/in-app/create-in-app.md)
    + [In-app-inhoud ontwerpen](using/in-app/design-in-app.md)
+   + [Uw In-app-melding testen en verzenden](using/in-app/send-in-app.md)
    + [In-app-kanaal configureren](using/in-app/inapp-configuration.md)
 + Push-meldingskanaal{#push}
    + [Aan de slag met pushmeldingen](using/push/get-started-push.md)
