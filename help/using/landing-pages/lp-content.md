@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: landing, landing page, creation, page, form, component
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
+source-git-commit: abf0a3f87baf9aa822e2f4aa5a90777359767541
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -93,7 +93,19 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 
    ![](assets/lp_designer-form-checkbox-2.png)
 
-1. Nadat u alle gewenste selectievakjes hebt toegevoegd, klikt u op **[!UICONTROL Call to action]** om de corresponderende sectie uit te vouwen. Hiermee kunt u het gedrag van de knop in het dialoogvenster **[!UICONTROL Form]** component.
+1. U kunt ook een **[!UICONTROL Text field]**.
+
+   ![](assets/lp_designer-form-add-text-field.png)
+
+   * Voer de **[!UICONTROL Label]** die boven op het veld in het formulier worden weergegeven.
+
+   * Voer een **[!UICONTROL Placeholder]** tekst. Het wordt in het veld weergegeven voordat de gebruiker het veld invult.
+
+   * Schakel indien nodig de optie **[!UICONTROL Make form field mandatory]** in. In dat geval kan de landingspagina alleen worden verzonden als de gebruiker dit veld heeft ingevuld. Als een verplicht veld niet is ingevuld, wordt een foutbericht weergegeven wanneer de gebruiker de pagina verzendt.
+
+   ![](assets/lp_designer-form-text-field.png)
+
+1. Nadat u alle gewenste selectievakjes en/of tekstvelden hebt toegevoegd, klikt u op **[!UICONTROL Call to action]** om de corresponderende sectie uit te vouwen. Hiermee kunt u het gedrag van de knop in het dialoogvenster **[!UICONTROL Form]** component.
 
    ![](assets/lp_designer-form-call-to-action.png)
 
