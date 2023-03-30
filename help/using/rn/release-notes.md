@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 15b3b783f0a679e207a104d6333e96c92a02efb1
+source-git-commit: 51f93270c969875e94cc3e98919149d67d764ed1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1429'
+ht-degree: 8%
 
 ---
 
@@ -111,7 +111,7 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 
 * U kunt ook kiezen naar welke Adobe Experience Platform-gebeurtenis moet worden gezocht om de offer decisioning te beperken. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
 
-<!--* Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)-->
+* Er zijn aanvullende parameters toegevoegd aan het scherm Plaatsingsontwerp. Hiermee kunt u bepalen of een aanbieding op meerdere plaatsen kan worden gedupliceerd en kunt u opgeven of de inhoud en metagegevens van de aanbieding moeten worden opgenomen in de API-reactie. [Meer informatie](../offers/offer-library/creating-placements.md)
 
 **Personalisatie**
 
@@ -249,9 +249,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Beslissingsbeheer**
 
-<!--
-* **Placements** - Additional parameters have been added in placements creation screen. They allow you to control whether an offer can be duplicated across multiple placements, and to specify if the offer's content and metadata should be included in the API response. [Learn more](../offers/offer-library/creating-placements.md)
--->
+* **Plaatsen** - Er zijn aanvullende parameters toegevoegd aan het scherm voor het maken van plaatsingen. Hiermee kunt u bepalen of een aanbieding op meerdere plaatsen kan worden gedupliceerd en kunt u opgeven of de inhoud en metagegevens van de aanbieding moeten worden opgenomen in de API-reactie. [Meer informatie](../offers/offer-library/creating-placements.md)
 
 * **URL-personalisatie** - Wanneer u URL&#39;s als inhoud toevoegt aan de representaties van uw aanbiedingen, kunt u deze URL&#39;s nu aanpassen met de Expressieeditor. [Meer informatie](../offers/offer-library/add-representations.md)
 
