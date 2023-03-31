@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activiteit, toestand, canvas, reis
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: c247fe725492a2f3997564bae52ebddeb69c5272
+source-git-commit: 603174032552214686cc0f2b9ea0854f348ce949
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: '1434'
 ht-degree: 6%
 
 ---
@@ -130,7 +130,7 @@ U kunt dit voorwaardetype gebruiken om het volume van uw leveringen te verhogen.
 
 De standaard-uiteinde is 1000.
 
-De teller geldt alleen voor de geselecteerde reisversie. De teller wordt na een maand weer teruggezet naar nul, na een nieuwe reisversie of op een dubbele versie van de reis. Na het opnieuw instellen nemen de ingevoerde profielen het nominale pad opnieuw tot de tellerlimiet is bereikt.
+De teller geldt alleen voor de geselecteerde reisversie. De teller wordt teruggezet aan nul wanneer de reis wordt gedupliceerd of wanneer een nieuwe versie wordt gecreeerd. Na het opnieuw instellen nemen de ingevoerde profielen het nominale pad opnieuw tot de tellerlimiet is bereikt.
 
 Wanneer de profieldop op een terugkerende reis wordt bepaald, stelt de teller na elke herhaling niet terug.
 
