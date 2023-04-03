@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 8a311d546829d0d80f32dfdddcdf30805688f757
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: '1685'
 ht-degree: 0%
 
 ---
@@ -145,10 +145,6 @@ De **[!UICONTROL Send time optimization]** Geeft details over het succes van uw 
 +++
 
 ## Tabblad In-app {#inapp-global}
-
->[!IMPORTANT]
->
->De functie In-app is momenteel beschikbaar als een bètaversie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.
 
 Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL In-app]** bevat de belangrijkste informatie met betrekking tot de in-app-leveringen die in uw campagne zijn verzonden.
 
