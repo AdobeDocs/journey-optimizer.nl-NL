@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informatief"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 242fd8dbb04d62b9ec838655985add4ea0d7b377
 workflow-type: tm+mt
 source-wordcount: '1310'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Beschikbare activiteiten zijn:
 
 * [Publiek](#audience): aanvullende profielen opnemen die tot een of meer bestaande doelgroepen behoren;
 * [Uitsluiten](#exclude): profielen uitsluiten die tot een bestaand publiek behoren of profielen uitsluiten die op specifieke kenmerken zijn gebaseerd;
-* [Verrijken]{#enrich}: verrijken uw publiek met extra kenmerken die afkomstig zijn uit Adobe Experience Platform-gegevenssets.
+* [Verrijken](#enrich): verrijken uw publiek met extra kenmerken die afkomstig zijn uit Adobe Experience Platform-gegevenssets.
 * [Rang](#rank): rangschikt profielen die op een specifiek attribuut worden gebaseerd, specificeer het aantal profielen om te houden en hen in uw samenstelling te omvatten;
 * [Splitsen](#split): verdeel uw samenstelling in veelvoudige wegen die op willekeurige percentages of op attributen worden gebaseerd.
 
