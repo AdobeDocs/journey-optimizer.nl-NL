@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 90d7d4d39fe04198707be3d5b24888cfe5bed308
+source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '703'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ Met Adobe Journey Optimizer kunt u deze gegevens eenvoudig beheren, behouden en 
 
 >[!NOTE]
 >
-> Adobe Journey Optimizer is gebaseerd op Adobe Experience Platform en heeft native verbinding met [Adobe Real-time klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target=&quot;_blank&quot;}. Deze ingebouwde gegevensbron is vooraf geconfigureerd en is ontworpen om gegevens op te halen en te gebruiken uit het Real-time profiel van de Klant (bijvoorbeeld, controleer of de persoon die een reis is aangegaan een klant is of niet). Hiermee kunt u de gegevens van het profiel en Events gebruiken. [Meer informatie](../datasource/adobe-experience-platform-data-source.md).
+> Adobe Journey Optimizer is gebaseerd op Adobe Experience Platform en heeft native verbinding met [Adobe Real-time klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}. Deze ingebouwde gegevensbron is vooraf geconfigureerd en is ontworpen om gegevens op te halen en te gebruiken uit het Real-time profiel van de Klant (bijvoorbeeld, controleer of de persoon die een reis is aangegaan een klant is of niet). Hiermee kunt u de gegevens van het profiel en Events gebruiken. [Meer informatie](../datasource/adobe-experience-platform-data-source.md).
 
 ## Adobe Customer Journey Analytics{#integration-cja}
 
@@ -37,6 +37,25 @@ Meer informatie over [Journey Optimizer + Customer Journey Analytics](../reports
 U kunt alle Adobe Analytics-gedragsgebeurtenisgegevens die u al vastlegt en streamt naar Adobe Experience Platform, gebruiken om real-time reizen te starten en ervaringen voor uw klanten te automatiseren. Deze gegevens kunnen ook worden gebruikt om segmenten te maken die met Journey Optimizer kunnen worden gebruikt.
 
 Meer informatie over [Journey Optimizer + Analytics](../event/about-analytics.md).
+
+
+## Adobe Experience Manager Assets Essentials{#integration-assets}
+
+Maak kennis met marketing en creatieve workflows [!DNL Adobe Experience Manager Assets Essentials]. Native geïntegreerd met [!DNL Adobe Journey Optimizer], toegang [!DNL Assets Essentials] digitale middelen opslaan, beheren, ontdekken en distribueren. Het biedt één gecentraliseerde opslagplaats van middelen die u kunt gebruiken om uw berichten te vullen.
+
+[!DNL Adobe Experience Manager Assets Essentials] rechtstreeks vanuit [!DNL Adobe Journey Optimizer] via het linkermenu **[!UICONTROL Assets]** sectie.
+
+Meer informatie over [Journey Optimizer + Assets Essentials](../email/assets-essentials.md).
+
+
+## Adobe Stock{#integration-stock}
+
+De [!DNL Adobe Stock] en [!DNL Adobe Journey Optimizer] De integratie-insteekmodule van E-mailDesigner biedt klanten een gemakkelijke manier om te navigeren, een licentie te verlenen en afbeeldingen op te slaan voor gebruik in berichtontwerpen.
+
+Met [!DNL Adobe Journey Optimizer]kunt u afbeeldingen rechtstreeks vanaf [!DNL Adobe Stock] en voeg het toe aan uw **[!UICONTROL Assets]** map met de **[!UICONTROL Find Adobe Stock photos]** optie. Bovendien **[!UICONTROL Find Similar Stock photos]** helpt u bij het zoeken naar afbeeldingen die overeenkomen met de inhoud, kleur en compositie van het element dat in de levering wordt gebruikt.
+
+Meer informatie over [Journey Optimizer + Stock](../email/stock.md).
+
 
 ## Adobe Intelligente services{#integration-intelligent-service}
 
@@ -59,7 +78,7 @@ Meer informatie over [Journey Optimizer + Campaign Standard](../building-journey
 
 ## Aangepaste kanalen{#integration-custom}
 
-Als u een systeem van de derde gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om met uw reis te verbinden. U kunt bijvoorbeeld verbinding maken met de volgende systemen met aangepaste handelingen: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target=&quot;_blank&quot;}, Firebase, enz.
+Als u een systeem van de derde gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om met uw reis te verbinden. U kunt bijvoorbeeld verbinding maken met de volgende systemen met aangepaste handelingen: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, enz.
 
 Aangepaste acties zijn aanvullende acties die door technische gebruikers worden gedefinieerd en beschikbaar worden gesteld aan verkopers. Zodra gevormd, verschijnen zij in het linkerpalet van uw reis in **[!UICONTROL Action]** categorie. Meer informatie in [deze pagina](../building-journeys/about-journey-activities.md#action-activities).
 
