@@ -6,9 +6,9 @@ description: Leer hoe u met de Throttling-API werkt
 role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,8 @@ Deze sectie bevat algemene informatie over het werken met de API. Een gedetaille
 >Er is momenteel slechts één configuratie toegestaan per organisatie. Er moet een configuratie worden gedefinieerd in een productiesandbox (opgegeven via de naam x-sandbox in de koppen).
 >
 >Een configuratie wordt toegepast op organisatieniveau.
+>
+>Wanneer de limiet die is ingesteld in de API is bereikt, worden nog meer gebeurtenissen in de wachtrij geplaatst voor maximaal 6 uur. Deze waarde kan niet worden gewijzigd.
 
 ## Beschrijving van de Throttende API {#description}
 
