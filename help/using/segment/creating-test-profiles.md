@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1317'
 ht-degree: 2%
 
 ---
@@ -27,9 +27,9 @@ U kunt testprofielen op verschillende manieren maken. Op deze pagina vindt u mee
 
    Naast deze twee methoden wordt in Adobe Journey Optimizer een specifieke [geval van gebruik in producten](#use-case-1) om het maken van testprofielen te vergemakkelijken.
 
-U kunt een jsdossier in een bestaande dataset ook uploaden. Raadpleeg voor meer informatie de [Documentatie over gegevensinname](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target=&quot;_blank&quot;}.
+U kunt een jsdossier in een bestaande dataset ook uploaden. Raadpleeg voor meer informatie de [Documentatie over gegevensinname](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html#add-data-to-dataset){target="_blank"}.
 
-Het maken van een testprofiel lijkt op het maken van gewone profielen in Adobe Experience Platform. Raadpleeg voor meer informatie de [Documentatie van het profiel van de klant in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target=&quot;_blank&quot;}.
+Het maken van een testprofiel lijkt op het maken van gewone profielen in Adobe Experience Platform. Raadpleeg voor meer informatie de [Documentatie van het profiel van de klant in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}.
 
 ➡️ [Leer hoe u testprofielen maakt in deze video](#video)
 
@@ -65,7 +65,7 @@ Als u klaar bent, klikt u op **[!UICONTROL Add field groups]**: de lijst van geb
 
 >[!NOTE]
 >
->Raadpleeg voor meer informatie over het maken van schema&#39;s de [XDM-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target=&quot;_blank&quot;}.
+>Raadpleeg voor meer informatie over het maken van schema&#39;s de [XDM-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html#prerequisites){target="_blank"}.
 
 Vervolgens moet u **Maak de dataset** waarin de profielen worden geïmporteerd. Voer de volgende stappen uit:
 
@@ -82,7 +82,7 @@ Vervolgens moet u **Maak de dataset** waarin de profielen worden geïmporteerd. 
 
 >[!NOTE]
 >
-> Voor meer informatie over de verwezenlijking van dataset, verwijs naar [Documentatie Catalog Service](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target=&quot;_blank&quot;}.
+> Voor meer informatie over de verwezenlijking van dataset, verwijs naar [Documentatie Catalog Service](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}.
 
 ## Gebruiksscenario in het product{#use-case-1}
 
@@ -177,11 +177,11 @@ In Adobe Experience Platform kunt u profielen maken door een CSV-bestand met de 
 Uw testprofielen worden toegevoegd en kunnen nu worden gebruikt bij het testen van een reis. Zie [deze sectie](../building-journeys/testing-the-journey.md).
 >[!NOTE]
 >
-> Raadpleeg voor meer informatie over CSV-import de [Documentatie over gegevensinname](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target=&quot;_blank&quot;}.
+> Raadpleeg voor meer informatie over CSV-import de [Documentatie over gegevensinname](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html#tutorials){target="_blank"}.
 
 ## Testprofielen maken met behulp van API-aanroepen{#create-test-profiles-api}
 
-U kunt testprofielen ook maken via API-aanroepen. Meer informatie in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target=&quot;_blank&quot;}.
+U kunt testprofielen ook maken via API-aanroepen. Meer informatie in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}.
 
 U moet een profielschema gebruiken dat de het gebiedsgroep van &quot;de testdetails van het Profiel&quot;bevat. De markering testProfile maakt deel uit van deze veldgroep.
 Wanneer u een profiel maakt, moet u de waarde doorgeven: testProfile = true.

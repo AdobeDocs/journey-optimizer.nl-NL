@@ -9,8 +9,8 @@ level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 5%
+source-wordcount: '238'
+ht-degree: 7%
 
 ---
 
@@ -24,13 +24,13 @@ Gebruikmaken van realtime-klantprofiel in [!DNL Adobe Journey Optimizer] om een 
 
 ![](assets/profiles-home.png)
 
-Leren hoe u toegang krijgt tot en werkt met de **Profieldashboard** en gedetailleerde informatie over de metriek die in het dashboard worden getoond, verwijs naar [deze sectie](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html){target=&quot;_blank&quot;}.
+Leren hoe u toegang krijgt tot en werkt met de **Profieldashboard** en gedetailleerde informatie over de metriek die in het dashboard worden getoond, verwijs naar [deze sectie](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html){target="_blank"}.
 
 U kunt gegevensfragmenten samenbrengen uit meerdere bronnen en deze combineren om een volledige weergave van elk van uw individuele klanten te zien. Wanneer het brengen van deze gegevens samen, zijn het fusiebeleid de regels die worden gebruikt om te bepalen hoe de gegevens voorrang zullen krijgen en welke gegevens zullen worden gecombineerd om de verenigde mening tot stand te brengen.
 
-Meer informatie over **Beleid samenvoegen** in [documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target=&quot;_blank&quot;}.
+Meer informatie over **Beleid samenvoegen** in [documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}.
 
 **Zie ook**
 
-* [Documentatie van het profiel van de klant in realtime](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl){target=&quot;_blank&quot;}
-* [Video over het realtime-overzicht van het klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target=&quot;_blank&quot;}
+* [Documentatie bij real-timeklantprofiel](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl){target="_blank"}
+* [Video over het realtime-overzicht van het klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}

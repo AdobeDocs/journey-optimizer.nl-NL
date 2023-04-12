@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 07d25f8e-0065-4410-9895-ffa15d6447bb
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '475'
 ht-degree: 3%
 
 ---
@@ -58,11 +58,11 @@ De lijsten van XDM gebieden die tot Adobe Experience Platform worden overgegaan 
 
 ## Integratie met Customer Journey Analytics {#integration-cja}
 
-[!DNL Journey Optimizer] step-gebeurtenissen kunnen worden gekoppeld aan andere datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html){target=&quot;_blank&quot;}.
+[!DNL Journey Optimizer] step-gebeurtenissen kunnen worden gekoppeld aan andere datasets in [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html){target="_blank"}.
 
 De algemene workflow is:
 
 * [!DNL Customer Journey Analytics] Neemt de dataset &quot;Journey Step Event&quot; op.
 * De **profileID** veld in het bijbehorende &quot;Dagboekstapschema voor Journey Orchestration&quot; wordt gedefinieerd als een identiteitsveld. In [!DNL Customer Journey Analytics], kunt u deze dataset aan een andere dataset dan verbinden die de zelfde waarde zoals persoon gebaseerde herkenningsteken heeft.
-* Deze gegevensset gebruiken in [!DNL Customer Journey Analytics], voor de analyse van de kanaalreis, zie [Customer Journey Analytics-documentatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target=&quot;_blank&quot;}.
+* Deze gegevensset gebruiken in [!DNL Customer Journey Analytics], voor de analyse van de kanaalreis, zie [Customer Journey Analytics-documentatie](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 

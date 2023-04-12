@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 badge: label="Beta" type="Informatief"
-source-git-commit: c21c0386be33eea6f7053fb891ebad3d9a1154c9
+source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 3%
+source-wordcount: '984'
+ht-degree: 4%
 
 ---
 
@@ -72,11 +72,6 @@ De webervaring kan alleen correct worden geleverd als de volgende instellingen z
 >id="ajo_web_surface"
 >title="Een weboppervlak definiëren"
 >abstract="Een weboppervlak kan overeenkomen met één pagina-URL of meerdere pagina&#39;s, zodat u inhoudwijzigingen kunt doorvoeren op een of meerdere webpagina&#39;s."
-
->[!CONTEXTUALHELP]
->id="ajo_web_surface_rule"
->title="Een overeenkomende regel voor pagina&#39;s maken"
->abstract="Met een regel voor paginaovereenkomsten kunt u meerdere URL&#39;s met dezelfde regel als doel instellen. Dit geldt bijvoorbeeld als u de wijzigingen wilt toepassen op een hoofdbanner op een hele website of een bovenste afbeelding wilt toevoegen die op alle productpagina&#39;s van een website wordt weergegeven."
 
 Volg onderstaande stappen om uw webervaring op te bouwen via een campagne.
 

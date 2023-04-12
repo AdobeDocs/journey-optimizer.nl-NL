@@ -9,7 +9,7 @@ level: Intermediate
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -29,17 +29,17 @@ Voor het gebruik van modellen voor automatische optimalisatie voor besluitvormin
 
 De volgende termen zijn handig wanneer u het over automatisch optimaliseren hebt:
 
-* **Meervoudig bewapende bandit**: A [meerbewapende bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=&quot;_blank&quot;} -benadering om een optimale balans te vinden tussen exploratief leren en gebruik van dat leren.
+* **Meervoudig bewapende bandit**: A [meerbewapende bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit){target="_blank"} de optimalisatiebenadering maakt een balans op tussen verkennend leren en het benutten van dat leren.
 
 * **Thomson sampling**: Thompson sampling is een algoritme voor online beslissingsproblemen waarbij acties opeenvolgend worden genomen op een manier die evenwicht moet vinden tussen het exploiteren van wat bekend is om het maximaliseren van de directe prestaties en het investeren om nieuwe informatie te verzamelen die toekomstige prestaties kan verbeteren. [Meer informatie](#thompson-sampling)
 
-* [**Beta-distributie**](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}: Ononderbroken set [kansverdeling](https://en.wikipedia.org/wiki/Probability_distribution){target=&quot;_blank&quot;} gedefinieerd op het interval [0,1] [geparametriseerd](https://en.wikipedia.org/wiki/Statistical_parameter){target=&quot;_blank&quot;} door twee positieve waarden [vormparameters](https://en.wikipedia.org/wiki/Shape_parameter){target=&quot;_blank&quot;}.
+* [**Beta-distributie**](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}: Set of continuous [probability distributions](https://en.wikipedia.org/wiki/Probability_distribution){target="_blank"} defined on the interval [0, 1] [parameterized](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"} by two positive [shape parameters](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"}.
 
 ## Thompson Sampling {#thompson-sampling}
 
 Het algoritme dat aan Auto-optimalisering ten grondslag ligt is **Thompson sampling**. In deze sectie bespreken we de intuïtie achter Thompson-steekproeven.
 
-[Thompson sampling](https://en.wikipedia.org/wiki/Thompson_sampling){target=&quot;_blank&quot;}, of Bayesiaanse banits, is een Bayesiaanse benadering van het multi-gewapende bandit probleem.  Het basisidee is om de gemiddelde beloning te behandelen? van elke aanbieding als **willekeurige variabele** en gebruik de gegevens die we tot nu toe hebben verzameld om ons &quot; geloof &quot; over de gemiddelde beloning bij te werken . Dit &quot;geloof&quot; wordt wiskundig weergegeven door een **waarschijnlijkheidsverdeling achter de hand** - in wezen een reeks waarden voor de gemiddelde beloning, samen met de plausibiliteit (of waarschijnlijkheid) die de beloning voor elke aanbieding heeft. Dan, voor elk besluit zullen we **monster een punt van elk van deze beloningsverdelingen achteraf** en selecteer het bod waarvan de in de steekproef opgenomen beloning de hoogste waarde had.
+[Thompson sampling](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}, of Bayesiaanse bandieten, is een Bayesiaanse benadering van het multi-gewapende bandit probleem.  Het basisidee is om de gemiddelde beloning te behandelen? van elke aanbieding als **willekeurige variabele** en gebruik de gegevens die we tot nu toe hebben verzameld om ons &quot; geloof &quot; over de gemiddelde beloning bij te werken . Dit &quot;geloof&quot; wordt wiskundig weergegeven door een **waarschijnlijkheidsverdeling achter de hand** - in wezen een reeks waarden voor de gemiddelde beloning, samen met de plausibiliteit (of waarschijnlijkheid) die de beloning voor elke aanbieding heeft. Dan, voor elk besluit zullen we **monster een punt van elk van deze beloningsverdelingen achteraf** en selecteer het bod waarvan de in de steekproef opgenomen beloning de hoogste waarde had.
 
 Dit proces wordt geïllustreerd in onderstaande afbeelding, waar we drie verschillende aanbiedingen hebben. Aanvankelijk hebben we geen bewijs van de gegevens en we gaan ervan uit dat alle aanbiedingen een uniforme posterior-beloningspreiding hebben. We nemen een monster van de posterior beloningsdistributie van elk aanbod. Het voorbeeld dat u hebt geselecteerd bij de distributie van Aanbieding 2, heeft de hoogste waarde. Dit is een voorbeeld van **exploratie**. Na het tonen van Aanbieding 2, verzamelen wij om het even welke potentiële beloning (bijvoorbeeld omzetting/geen-omzetting) en werken de posterior distributie van Aanbieding 2 bij gebruikend Bayes Theorem zoals hieronder verklaard.  We zetten dit proces voort en werken de posterior distributies bij telkens wanneer een aanbieding wordt getoond en de beloning wordt geïnd. In het tweede cijfer, wordt Aanbieding 3 geselecteerd - hoewel Aanbieding 1 de hoogste gemiddelde beloning heeft (zijn posterior beloningsdistributie is het verst naar rechts), heeft het proces van bemonstering van elke distributie ertoe geleid dat wij een schijnbaar suboptimale Aanbieding 3 kozen. Zo geven we onszelf de kans om meer te leren over de werkelijke beloningsverdeling van aanbieding 3.
 
@@ -71,7 +71,7 @@ De auto-optimalisering wordt ontworpen om binaire beloningen (klik/geen-klik) te
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
-De functie van de Waarschijnlijkheid zoals wij hierboven verklaren wordt gemodelleerd door een Binomiale distributie, met s successes (omzettingen) en f mislukkingen (geen omzettingen) en q is a [willekeurige variabele](https://en.wikipedia.org/wiki/Random_variable){target=&quot;_blank&quot;} met een [bèta-distributie](https://en.wikipedia.org/wiki/Beta_distribution){target=&quot;_blank&quot;}.
+De functie van de Waarschijnlijkheid zoals wij hierboven verklaren wordt gemodelleerd door een Binomiale distributie, met s successes (omzettingen) en f mislukkingen (geen omzettingen) en q is a [willekeurige variabele](https://en.wikipedia.org/wiki/Random_variable){target="_blank"} with a [beta distribution](https://en.wikipedia.org/wiki/Beta_distribution){target="_blank"}.
 
 De bovenstaande methode wordt gemodelleerd door bètadistributie en de posterior-distributie heeft de volgende vorm:
 
@@ -85,8 +85,8 @@ Voor automatische optimalisatie, zoals in het bovenstaande voorbeeld wordt getoo
 **Verwante onderwerpen**:
 
 Lees de volgende onderzoeksdocumenten voor een dieper inzicht in Thompson sampling:
-* [Een empirische evaluatie van Thompson Sampling](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target=&quot;_blank&quot;}
-* [Analyse van Thompson Sampling voor het probleem van de multigewapende bandit](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target=&quot;_blank&quot;}
+* [Een empirische evaluatie van Thompson Sampling](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
+* [Analyse van Thompson Sampling voor het probleem van de multigewapende bandit](http://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 
 ## Koudstartprobleem {#cold-start}
 

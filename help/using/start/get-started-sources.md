@@ -9,7 +9,7 @@ level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
 source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '109'
 ht-degree: 5%
 
 ---
@@ -24,4 +24,4 @@ In deze video ziet u hoe u bronconnectors kunt configureren in Journey Optimizer
 
 >[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
-Leer meer hoe te om gegevens van externe bronnen met Bron schakelaars in te nemen [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=nl){target=&quot;_blank&quot;}.
+Leer meer hoe te om gegevens van externe bronnen met Bron schakelaars in te nemen [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=nl){target="_blank"}.
