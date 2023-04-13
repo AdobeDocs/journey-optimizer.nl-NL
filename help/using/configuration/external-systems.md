@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
+source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
-source-wordcount: '1201'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Wanneer Journey Optimizer een aanroep naar een externe API uitvoert, worden de t
 
 1. Er worden afdekregels of vertragingsregels toegepast: als het maximumtarief wordt bereikt, worden de resterende vraag verworpen of een rij gevormd.
 
-2. Time-out en opnieuw proberen: als de het begrenzen regel wordt vervuld, probeert Journey Optimizer om de vraag uit te voeren tot het eind van de onderbrekingsduur wordt bereikt.
+2. Time-out en opnieuw proberen: als het begrenzen of het vertragen regel wordt vervuld, probeert Journey Optimizer om de vraag uit te voeren tot het eind van de onderbrekingsduur wordt bereikt.
 
 ## API&#39;s uitlijnen en vertragen {#capping}
 

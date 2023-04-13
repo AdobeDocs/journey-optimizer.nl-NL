@@ -6,16 +6,17 @@ description: Leer hoe u met de Throttling-API werkt
 role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
-source-git-commit: 40afc1c0e0ae55dfbec45ff0b22170d6345a8e46
+exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
+source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Werken met de Throttling-API
 
-De Throttling API helpt u uw throttling configuraties tot stand te brengen, te vormen en te controleren.
+Met de Throttling-API kunt u uw vertragingsconfiguraties maken, configureren en controleren om het aantal gebeurtenissen dat per seconde wordt verzonden te beperken.
 
 Deze sectie bevat algemene informatie over het werken met de API. Een gedetailleerde API-beschrijving is beschikbaar in [Adobe Journey Optimizer API-documentatie](https://developer.adobe.com/journey-optimizer-apis/).
 
