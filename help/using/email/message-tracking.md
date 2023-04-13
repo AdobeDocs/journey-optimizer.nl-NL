@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: koppelingen, bijhouden, controleren, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 740afa0c9c760d815a4358159a0e08f25efd4b8d
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 1%
@@ -73,8 +73,6 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
    * **[!UICONTROL Mirror page]**: Voeg een koppeling in om de e-mailinhoud in een webbrowser weer te geven. Meer informatie in [deze sectie](#mirror-page).
 
-   ![](assets/message-tracking-links.png)
-
 1. U kunt uw koppelingen aanpassen. Meer informatie over gepersonaliseerde URL&#39;s vindt u in [deze sectie](../personalization/personalization-syntax.md#perso-urls).
 
 1. Sla uw wijzigingen op.
@@ -121,8 +119,6 @@ De [E-mailontwerper](content-from-scratch.md) Hiermee kunt u de bijgehouden URL&
    In deze lijst kunt u een gecentraliseerde weergave gebruiken en elke URL in de e-mailinhoud opzoeken.
 
 1. Als u een koppeling wilt bewerken, klikt u op het bijbehorende potloodpictogram.
-
-   ![](assets/message-tracking-edit-links.png)
 
 1. U kunt de **[!UICONTROL Tracking Type]** indien nodig:
 

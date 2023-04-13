@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: elementen, essentiële elementen, ervaringsmanager, integratie
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '445'
 ht-degree: 3%
 
 ---
@@ -57,29 +57,23 @@ Voor meer informatie over het uploaden van elementen raadpleegt u [Adobe Experie
 
 1. Van de **[!UICONTROL Upload files]**, klikt u op **[!UICONTROL Browse]** en kies als u wilt **[!UICONTROL Browse files]** of **[!UICONTROL Browse folders]**.
 
-   ![](assets/media_library_3.png)
+1. Selecteer het bestand dat u wilt uploaden. Klik op **[!UICONTROL Upload]** als u klaar bent. Raadpleeg deze voor meer informatie over het beheren van uw elementen [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
 
-1. Selecteer het bestand dat u wilt uploaden. Klik op **[!UICONTROL Upload]** als u klaar bent.
-
-   Raadpleeg deze voor meer informatie over het beheren van uw elementen [page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html).
-
-1. Nadat uw element is geüpload, kunt u uw elementen nu in een van uw berichten invoegen via de e-mailontwerper.
-
-   Uw middel kan ook verder worden bewerkt met de **Bewerken** modus van [!DNL Assets Essentials]. [Meer informatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
+1. Dubbelklik op de elementen om uw elementen verder te bewerken met Adobe Photoshop Express. Selecteer vervolgens in het rechtermenu de optie **[!UICONTROL Edit mode]** pictogram. [Meer informatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html){target="_blank"}.
 
    ![](assets/media_library_12.png)
 
-1. Van [!DNL Adobe Journey Optimizer], selecteert u **[!UICONTROL Asset picker]** in het linkerdeelvenster van de e-mailontwerper.
+1. Van [!DNL Adobe Journey Optimizer], selecteert u de **[!UICONTROL Asset picker]** in het linkerdeelvenster van de e-mailontwerper.
 
    ![](assets/media_library_5.png)
 
-1. Selecteer uw **[!UICONTROL Assets]** map. U kunt ook op de zoekbalk zoeken naar uw middelen of map.
+1. Selecteer uw eerder gemaakte **[!UICONTROL Assets]** map. U kunt ook op de zoekbalk zoeken naar uw middelen of map.
 
 1. Sleep uw middel naar uw e-mailinhoud en zet het neer.
 
    ![](assets/media_library_6.png)
 
-1. U kunt uw elementen verder aanpassen, zoals het toevoegen van een externe koppeling of een tekst met de opdracht **[!UICONTROL Components settings]**. [Meer informatie over componentinstellingen](content-components.md)
+1. U kunt uw elementen verder aanpassen, zoals het toevoegen van een externe koppeling of een tekst met de opdracht **[!UICONTROL Settings]** en **[!UICONTROL Styles]** tabs. [Meer informatie over componentinstellingen](content-components.md)
 
    ![](assets/media_library_13.png)
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: preheader, editor, overzicht, e-mail
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -39,13 +39,9 @@ Voer de volgende stappen uit om de e-mailvoorheader te definiëren:
 
    ![](assets/preheader_body.png)
 
-1. Van de **[!UICONTROL Body settings]** in het rechterdeelvenster klikt u op het pictogram Bewerken naast het pictogram **[!UICONTROL Preheader]** veld om inhoud toe te voegen.
+1. Van de **[!UICONTROL Settings]** klikt u op het pictogram voor het aanpassen van de afbeelding naast de knop **[!UICONTROL Preheader]** veld om inhoud toe te voegen.
 
    ![](assets/preheader_body_settings.png)
-
-1. Voeg de preheader toe. U kunt de afbeelding verder aanpassen door op de knop **[!UICONTROL Add personalization]** pictogram.
-
-   ![](assets/preheader_3.png)
 
 1. Van de **[!UICONTROL Edit Personalization]** venster, kunt u toevoegen **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** of **[!UICONTROL Personalization fields]**.
 

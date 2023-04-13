@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: achtergrond, e-mail, kleur, editor
 exl-id: 09a2e892-8c6f-460d-8b12-5026582c6ed0
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
@@ -60,5 +60,3 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
    >Dit is het meest gebruikte geval. Adobe raadt aan achtergrondkleuren in te stellen op kolomniveau, omdat dit meer flexibiliteit biedt bij het bewerken van de volledige e-mailinhoud.
 
    U kunt ook een achtergrondafbeelding instellen op kolomniveau, maar dit wordt zelden gebruikt.
-
-   ![](assets/background_5.png)

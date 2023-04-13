@@ -7,7 +7,8 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 2%
@@ -108,9 +109,7 @@ Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken
 
 1. De [E-mailontwerper](get-started-email-design.md) worden weergegeven. Bewerk uw inhoud naar wens, net zoals u dat zou doen voor elke e-mail binnen een reis of campagne, afhankelijk van de optie die u hebt geselecteerd.
 
-   ![](assets/content-template-designer.png)
-
-1. U kunt de inhoud desgewenst testen. [Meer informatie](#test-template)
+   U kunt de inhoud desgewenst testen. [Meer informatie](#test-template)
 
 1. Als de sjabloon gereed is, klikt u op **[!UICONTROL Save]**.
 

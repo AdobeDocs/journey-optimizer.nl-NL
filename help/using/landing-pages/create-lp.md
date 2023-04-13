@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landen, pagina landen, maken, publiceren
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 339320940a24d04bf89a5aced42841e57d152f38
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '1499'
 ht-degree: 1%
@@ -209,15 +209,15 @@ Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt
 >
 >U moet testprofielen beschikbaar hebben om een voorbeeld van uw berichten te kunnen bekijken en proefdrukken te kunnen verzenden. Leer hoe u [testprofielen maken](../segment/creating-test-profiles.md).
 
-1. Klik in de interface van de bestemmingspagina op de knop **[!UICONTROL Preview & test]** om de selectie van het testprofiel te openen.
+1. Klik in de interface van de bestemmingspagina op de knop **[!UICONTROL Simulate content]** om de selectie van het testprofiel te openen.
 
-   ![](assets/lp_preview-button.png)
+   ![](assets/lp_simulate-button.png)
 
    >[!NOTE]
    >
-   >De **[!UICONTROL Preview]** De knop is ook toegankelijk vanuit de inhoudsontwerper.
+   >De **[!UICONTROL Simulate content]** De knop is ook toegankelijk vanuit de inhoudsontwerper.
 
-1. Van de **[!UICONTROL Preview & test]** selecteert u een of meer testprofielen.
+1. Van de **[!UICONTROL Simulate ]** selecteert u een of meer testprofielen.
 
    ![](assets/lp_test-profiles.png)
 

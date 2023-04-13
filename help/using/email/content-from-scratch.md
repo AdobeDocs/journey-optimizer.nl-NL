@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: inhoud, editor, e-mail, starten
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -82,15 +82,13 @@ Voer de onderstaande stappen uit om uw e-mailinhoud te gaan samenstellen:
 
    Selecteer **[!UICONTROL n:n column]** om het aantal kolommen van uw keus (tussen 3 en 10) te bepalen. U kunt de breedte van elke kolom ook bepalen door de pijlen bij de bodem van elke kolom te bewegen.
 
-   ![](assets/email_designer_structure_n-n-colum.png)
-
    >[!NOTE]
    >
    >Elke kolomgrootte mag niet kleiner zijn dan 10% van de totale breedte van de structuurcomponent. U kunt geen kolom verwijderen die niet leeg is.
 
-1. Breid uit **[!UICONTROL Content components]** en voegt zo veel elementen toe als u nodig hebt in een of meer structuurcomponenten. [Meer informatie over inhoudscomponenten](content-components.md)
+1. Van de **[!UICONTROL Content components]** voegt u zoveel elementen toe als u nodig hebt in een of meer structuurcomponenten. [Meer informatie over inhoudscomponenten](content-components.md)
 
-1. Elke component kan verder worden aangepast met de **[!UICONTROL Component settings]** aan de rechterkant. U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen. [Meer informatie over uitlijning en opvulling](alignment-and-padding.md)
+1. Elke component kan verder worden aangepast met de **[!UICONTROL Settings]** of **[!UICONTROL Style]** in het rechtermenu. U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen. [Meer informatie over uitlijning en opvulling](alignment-and-padding.md)
 
    ![](assets/email_designer_structure_component.png)
 
@@ -104,7 +102,7 @@ Voer de onderstaande stappen uit om uw e-mailinhoud te gaan samenstellen:
 
    ![](assets/email_designer_personalization.png)
 
-1. Voeg dynamische inhoud toe om de inhoud aan te passen aan de doelprofielen op basis van voorwaardelijke regels. [Aan de slag met dynamische inhoud](../personalization/get-started-dynamic-content.md)
+1. Klikken **[!UICONTROL Enable condition content]** dynamische inhoud toevoegen en de inhoud aanpassen aan de doelprofielen op basis van voorwaardelijke regels. [Aan de slag met dynamische inhoud](../personalization/get-started-dynamic-content.md)
 
    ![](assets/email_designer_dynamic-content.png)
 
@@ -112,7 +110,7 @@ Voer de onderstaande stappen uit om uw e-mailinhoud te gaan samenstellen:
 
    ![](assets/email_designer_links.png)
 
-1. Indien nodig kunt u uw e-mail verder aanpassen door op **[!UICONTROL Switch to code editor]** in het geavanceerde menu. [Meer informatie over de code-editor](code-content.md)
+1. U kunt uw e-mail verder aanpassen door op **[!UICONTROL Switch to code editor]** in het geavanceerde menu. [Meer informatie over de code-editor](code-content.md)
 
    ![](assets/email_designer_switch-to-code.png)
 

@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, bibliotheek, personalisatie
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 6%
@@ -31,9 +31,7 @@ Als u de opgeslagen expressies wilt openen, klikt u op de knop **[!UICONTROL Lib
 
 >[!NOTE]
 >
->Met de knop Info kunt u meer informatie ophalen over de inhoud van een opgeslagen expressie. Als u over de juiste machtigingen beschikt om bibliotheekitems te beheren, wordt de informatieknop weergegeven in het ovaalmenu.
-
-![](assets/library-list.png)
+>Meer informatie over de inhoud van een opgeslagen expressie kunt u opvragen via de knop Ovaal. De informatieknop wordt weergegeven in het ovaal als u over de juiste machtigingen beschikt om bibliotheekitems te beheren.
 
 Klik + om de uitdrukking in de redacteur op te nemen. Vervolgens kunt u de inhoud van uw personalisatie op de gebruikelijke wijze aanpassen en valideren. [Meer informatie](../personalization/personalization-build-expressions.md)
 

@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, context, personalisatie
 exl-id: fe39570b-cbd2-4b24-af10-e12990a9a885
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Wanneer u een e-mailbericht maakt, kunt u personalisatie toevoegen aan de **[!UI
 
 In de e-mailontwerper kunt u de inhoud personaliseren:
 
-* In de **message**: Klik in een tekstblok en klik op de knop **Persoonlijk maken** pictogram in de contextafhankelijke werkbalk en selecteer **Verpersoonlijking invoegen** veld. Zie deze voor meer informatie over de interface E-mailontwerper [sectie](../email/get-started-email-design.md).
+* In de **message**: Klik in een tekstblok en klik op de knop **Persoonlijkheid toevoegen** van de contextafhankelijke werkbalk. Zie deze voor meer informatie over de interface E-mailontwerper [sectie](../email/get-started-email-design.md).
 
    ![](assets/perso_insert.png)
 

@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, syntaxis, personalisatie
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 3%
@@ -159,7 +159,7 @@ Met Journey Optimizer kunt u een of meer URL&#39;s in uw bericht aanpassen door 
 1. Maak een koppeling in de inhoud van het bericht. [Meer informatie](../email/message-tracking.md#insert-links)
 1. Selecteer de kenmerken in het verpersoonlijkingspictogram. Het verpersoonlijkingspictogram is alleen beschikbaar voor deze typen koppelingen: **Externe koppeling**, **Koppeling met abonnement opheffen** en **Uitschakelen**.
 
-![](assets/perso-url.png)
+   ![](assets/perso-url.png)
 
 >[!NOTE]
 >

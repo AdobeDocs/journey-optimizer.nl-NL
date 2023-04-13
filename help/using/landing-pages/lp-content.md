@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: landing, landing page, creation, page, form, component
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: abf0a3f87baf9aa822e2f4aa5a90777359767541
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1236'
 ht-degree: 2%
 
 ---
@@ -63,7 +63,7 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 
    >[!NOTE]
    >
-   >Naar de **[!UICONTROL Form style]** kunt u op elk gewenst moment de stijlen van de inhoud van uw formuliercomponent bewerken. [Meer informatie](#define-lp-styles)
+   >Naar de **[!UICONTROL Styles]** kunt u op elk gewenst moment de stijlen van de inhoud van uw formuliercomponent bewerken. [Meer informatie](#define-lp-styles)
 
 1. Van de **[!UICONTROL Checkbox 1]** kunt u het label bewerken dat overeenkomt met dit selectievakje.
 
@@ -83,7 +83,7 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 
    * **[!UICONTROL Subscription list]**: U moet de abonnementenlijst selecteren die wordt bijgewerkt als het profiel dit selectievakje selecteert. Meer informatie over [abonnementenlijsten](subscription-list.md).
 
-      ![](assets/lp_designer-form-subs-list.png)
+      <!--![](assets/lp_designer-form-subs-list.png)-->
 
    * **[!UICONTROL Channel (email)]**: De opt-in of opt-out geldt voor het gehele kanaal. Als een profiel dat opteert bijvoorbeeld twee e-mailadressen heeft, worden beide adressen uitgesloten van al uw communicatie.
 
@@ -136,21 +136,25 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 
 ## Landingspagina-formulierstijlen definiëren {#lp-form-styles}
 
-1. Als u de stijlen van de inhoud van een formuliercomponent wilt wijzigen, schakelt u op elk gewenst moment over naar de **[!UICONTROL Form style]** tab.
+1. Als u de stijlen van de inhoud van een formuliercomponent wilt wijzigen, schakelt u op elk gewenst moment over naar de **[!UICONTROL Style]** tab.
 
    ![](assets/lp_designer-form-style.png)
 
-1. Breid uit **[!UICONTROL Checkboxes]** om de vormgeving van de selectievakjes en de bijbehorende tekst te definiëren. U kunt bijvoorbeeld de lettertypefamilie of -grootte en de randkleur van het selectievakje aanpassen.
+1. De **[!UICONTROL Fields]** wordt standaard uitgevouwen, zodat u de weergave van het tekstveld kunt bewerken, zoals het label- en plaatsaanduidingslettertype, de positie van het label, de achtergrondkleur van het veld of de veldrand.
+
+   ![](assets/lp_designer-form-style-fields.png)
+
+1. Breid uit **[!UICONTROL Checkboxes]** om de vormgeving van de selectievakjes en de bijbehorende tekst te definiëren. U kunt bijvoorbeeld de lettertypefamilie of -grootte of de randkleur van het selectievakje aanpassen.
 
    ![](assets/lp_designer-form-style-checkboxes.png)
 
-1. Breid uit **[!UICONTROL Buttons]** om de weergave van de knop in het deelformulier te wijzigen. U kunt bijvoorbeeld een rand toevoegen, de labelkleur bij aanwijzen bewerken of de uitlijning van de knop aanpassen.
+1. Breid uit **[!UICONTROL Buttons]** om de weergave van de knop in het deelformulier te wijzigen. U kunt bijvoorbeeld het lettertype wijzigen, een rand toevoegen, de labelkleur bewerken op de muisaanwijzer of de uitlijning van de knop aanpassen.
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   U kunt een voorvertoning van bepaalde instellingen, zoals de kleur van knoplabels op de muisaanwijzer, weergeven met de opdracht **[!UICONTROL Preview]** knop. Meer informatie over het testen van bestemmingspagina&#39;s [hier](create-lp.md#test-landing-page).
+   U kunt een voorvertoning van bepaalde instellingen, zoals de kleur van knoplabels op de muisaanwijzer, weergeven met de opdracht **[!UICONTROL Simulate content]** knop. Meer informatie over het testen van bestemmingspagina&#39;s [hier](create-lp.md#test-landing-page).
 
-   ![](assets/lp_designer-form-style-buttons-preview.png)
+   <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
 1. Breid uit **[!UICONTROL Form layout]** om de layoutinstellingen zoals de achtergrondkleur, opvulling of marge te bewerken.
 
@@ -194,11 +198,15 @@ Hiervoor voert u de volgende stappen uit:
 
 1. Sla uw wijzigingen op.
 
+Nu wanneer gebruikers een van de selectievakjes selecteren,
+
 ![](assets/lp_designer-form-preview-checked-box.png)
 
-Wanneer gebruikers nu een van de selectievakjes selecteren, wordt het bericht dat overeenkomt met het geselecteerde selectievakje weergegeven bij het verzenden van het formulier.
+het bericht dat overeenkomt met het geselecteerde selectievakje wordt weergegeven bij het verzenden van het formulier.
 
 ![](assets/lp_designer-form-thankyou-preview.png)
+
+<!--![](assets/lp_designer-form-subscription-preview.png)-->
 
 >[!NOTE]
 >

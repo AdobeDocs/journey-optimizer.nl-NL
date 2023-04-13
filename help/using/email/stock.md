@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: voorraad, afbeeldingen, integratie, foto's
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '546'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,6 @@ Afbeeldingen toevoegen van [!DNL Adobe Stock] Voer de onderstaande stappen uit o
 
    Als de geselecteerde afbeelding geen licentie heeft, moet u [krijg de vergunning](#license-stock-image).
 
-
 ## Vergelijkbare foto&#39;s zoeken {#similar-stock-image}
 
 U kunt elke bestaande afbeelding in uw e-mailinhoud vervangen door een foto uit [!DNL Adobe Stock]. Deze optie is beschikbaar voor alle afbeeldingen: Stock-afbeeldingen en afbeeldingen die onder licentie of zonder licentie in de map Assets staan.
@@ -68,7 +67,7 @@ Voer de onderstaande stappen uit om door vergelijkbare foto&#39;s te bladeren:
 
    Als de geselecteerde afbeelding geen licentie heeft, moet u [krijg de vergunning](#license-stock-image).
 
-1. Pas indien nodig uw afbeelding aan met de **[!UICONTROL Components settings]** -menu. [Meer informatie over componentinstellingen](content-components.md).
+1. Pas indien nodig uw afbeelding aan met de **[!UICONTROL Settings]** en **[!UICONTROL Styles]** tabs. [Meer informatie over componentinstellingen](content-components.md).
 
 ## De licentie ophalen van [!DNL Adobe Stock] {#license-stock-image}
 
@@ -80,7 +79,7 @@ Voer de onderstaande stappen uit om een licentie te verkrijgen en uw afbeelding 
 
    ![](assets/stock-license-icon.png)
 
-   U wordt vervolgens omgeleid naar de [!DNL Adobe Stock] website behalve de licentie.
+   U wordt vervolgens omgeleid naar de [!DNL Adobe Stock] website om de licentie te kopen.
 
    ![](assets/stock-license-photo.png)
 

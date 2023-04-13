@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: text, email, version, plain, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Standaard maakt de e-mailontwerper een **[!UICONTROL Plain text]** versie van uw
 
 Voer de onderstaande stappen uit als u liever een andere inhoud gebruikt voor de versie zonder opmaak:
 
-1. Selecteer in uw e-mail de optie **[!UICONTROL Plain text]** tab.
+1. Selecteer in uw e-mail de optie **[!UICONTROL Plain text]** pictogram.
 
    ![](assets/text_version_3.png)
 

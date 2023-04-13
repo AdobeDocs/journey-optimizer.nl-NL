@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: componenten, e-mailontwerper, editor, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
@@ -60,13 +60,17 @@ Voer de onderstaande stappen uit om inhoudcomponenten aan uw e-mail toe te voege
    >
    >U kunt meerdere componenten toevoegen aan één structuurcomponent en aan elke kolom van een structuurcomponent.
 
-1. Pas de opmaakkenmerken voor elke component aan met de opdracht **[!UICONTROL Component settings]** aan de rechterkant. U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen. [Meer informatie over uitlijning en opvulling](alignment-and-padding.md)
+1. Pas de opmaakkenmerken voor elke component aan met de opdracht **[!UICONTROL Settings]** en **[!UICONTROL Style]** aan de rechterkant. U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen. [Meer informatie over uitlijning en opvulling](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 
+1. Via het geavanceerde menu van uw **[!UICONTROL Content component]** kunt u inhoudscomponenten gemakkelijk verwijderen of dupliceren.
+
+   ![](assets/email_designer_content_components_settings_2.png)
+
 ## Container {#container}
 
-U kunt een eenvoudige container toevoegen waarin u een andere inhoudscomponent kunt toevoegen. Op deze manier kunt u een specifieke stijl op de container toepassen. Deze stijl verschilt van de binnenste component.
+Als u specifieke opmaak wilt toepassen op een groep inhoudcomponenten, kunt u een **[!UICONTROL Container]** en voegt vervolgens de gewenste inhoudcomponent(en) in de component toe. Hierdoor kunt u een afzonderlijke stijl op de container toepassen. Deze stijl verschilt van de stijl die op de inhoudcomponenten binnen wordt toegepast.
 
 Voeg bijvoorbeeld een **[!UICONTROL Container]** en voegt vervolgens een [Knop](#button) in die container. U kunt een specifieke achtergrond voor de container, en een andere voor de knoop gebruiken.
 
@@ -78,11 +82,11 @@ Gebruik de **[!UICONTROL Button]** om een of meerdere knoppen in te voegen in uw
 
 1. Van **[!UICONTROL Content components]**, slepen en neerzetten **[!UICONTROL Button]** in een **[!UICONTROL Structure component]**.
 
-1. Klik op de knop die u net hebt toegevoegd om de tekst aan te passen en toegang te krijgen tot de knop **[!UICONTROL Components settings]** in het rechterdeelvenster van E-mailontwerper.
+1. Klik op de knop die u net hebt toegevoegd om de tekst aan te passen en toegang te krijgen tot de knop **[!UICONTROL Settings]** en **[!UICONTROL Styles]** tabbladen in het rechterdeelvenster van E-mailontwerper.
 
    ![](assets/email_designer_button_component.png)
 
-1. In de **[!UICONTROL Link]** , voegt u de URL toe waarnaar u wilt omleiden wanneer u op de knop klikt.
+1. Van de **[!UICONTROL Link]** voegt u de URL toe waarnaar u wilt omleiden wanneer u op de knop klikt.
 
 1. Kies hoe de doelgroep wordt omgeleid met de **[!UICONTROL Target]** vervolgkeuzelijst:
 
@@ -98,13 +102,13 @@ Gebruik de **[!UICONTROL Button]** om een of meerdere knoppen in te voegen in uw
 
 ## Tekst {#text}
 
-Gebruik de **[!UICONTROL Text]** om tekst in te voegen in uw e-mail, en de stijl (rand, grootte, opvulling, enz.) aan te passen met de **[!UICONTROL Component settings]** venster.
+Gebruik de **[!UICONTROL Text]** om tekst in te voegen in uw e-mail, en de stijl (rand, grootte, opvulling, enz.) aan te passen met de **[!UICONTROL Styles]** tab.
 
 ![](assets/email_designer_text_component.png)
 
 1. Van **[!UICONTROL Content components]**, slepen en neerzetten **[!UICONTROL Text]** in een **[!UICONTROL Structure component]**.
 
-1. Klik op de nieuwe component om de tekst aan te passen en toegang te krijgen tot de component **[!UICONTROL Components Settings]** in het rechterdeelvenster van de E-mailontwerper.
+1. Klik op de nieuwe component om de tekst aan te passen en toegang te krijgen tot de component **[!UICONTROL Settings]** en **[!UICONTROL Styles]** in het rechterdeelvenster van de e-mailontwerper.
 
 1. Wijzig de tekst met de volgende opties beschikbaar op de werkbalk:
 
@@ -115,20 +119,25 @@ Gebruik de **[!UICONTROL Text]** om tekst in te voegen in uw e-mail, en de stijl
    * **[!UICONTROL Create list]**: Voeg opsommingstekens of nummers toe aan uw tekst.
    * **[!UICONTROL Set heading]**: Voeg maximaal zes kopniveaus aan uw tekst toe.
    * **Fontgrootte**: Selecteer de tekengrootte van de tekst in pixels.
+   * **[!UICONTROL Change font color]**: kiest u de kleur van het lettertype.
+   * **[!UICONTROL Insert link]**: voeg om het even welk type van verbinding aan uw inhoud toe.
    * **[!UICONTROL Edit image]**: Voeg een afbeelding of een element toe aan uw tekstcomponent. [Meer informatie over middelenbeheer](assets-essentials.md)
+   * **[!UICONTROL Change font color]**: kiest u de kleur van het lettertype.
+   * **[!UICONTROL Add personalization]**: Voeg verpersoonlijkingsgebieden toe om de inhoud van uw profielgegevens aan te passen. [Meer informatie over content personalization](../personalization/personalize.md)
    * **[!UICONTROL Show the source code]**: de broncode van de tekst weergeven. Het kan niet worden gewijzigd.
+   * **[!UICONTROL Enable conditional content]**: Voeg voorwaardelijke inhoud toe om de inhoud van de component aan de beoogde profielen aan te passen. [Meer informatie over dynamische inhoud](../personalization/get-started-dynamic-content.md)
    * **[!UICONTROL Duplicate]**: Voeg een kopie van de tekstcomponent toe.
    * **[!UICONTROL Delete]**: Verwijder de geselecteerde tekstcomponent uit uw e-mail.
-   * **[!UICONTROL Add personalization]**: Voeg verpersoonlijkingsgebieden toe om de inhoud van uw profielgegevens aan te passen. [Meer informatie over content personalization](../personalization/personalize.md)
-   * **[!UICONTROL Enable conditional content]**: Voeg voorwaardelijke inhoud toe om de inhoud van de component aan de beoogde profielen aan te passen. [Meer informatie over dynamische inhoud](../personalization/get-started-dynamic-content.md)
 
-1. Pas de andere opmaakkenmerken aan, zoals tekstkleur, lettertypefamilie, rand, opvulling, marge, enzovoort. van de **[!UICONTROL Component settings]** venster.
+1. Pas de andere opmaakkenmerken aan, zoals tekstkleur, lettertypefamilie, rand, opvulling, marge, enzovoort. van de **[!UICONTROL Styles]** tab.
+
+   ![](assets/email_designer_text_component_2.png)
 
 ## Scheidingslijn {#divider}
 
 Gebruik de **[!UICONTROL Divider]** om een scheidingslijn in te voegen om de lay-out en inhoud van uw e-mail te ordenen.
 
-U kunt opmaakkenmerken zoals lijnkleur, -stijl en -hoogte aanpassen vanuit het dialoogvenster **[!UICONTROL Component settings]** venster.
+U kunt opmaakkenmerken zoals lijnkleur, -stijl en -hoogte aanpassen vanuit het dialoogvenster **[!UICONTROL Settings]** en **[!UICONTROL Styles]** tabs.
 
 ![](assets/email_designer_divider.png)
 
@@ -156,18 +165,22 @@ Gebruik de **[!UICONTROL Image]** om een afbeeldingsbestand van uw computer in t
 
 1. Van **[!UICONTROL Content components]**, slepen en neerzetten **[!UICONTROL Image]** in een **[!UICONTROL Structure component]**.
 
+   ![](assets/email_designer_image_content.png)
+
 1. Klikken **[!UICONTROL Browse]** om een afbeeldingsbestand te kiezen uit uw elementen.
 
    Meer informatie over [!DNL Assets Essentials], zie [Adobe Experience Manager Assets Essentials-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
-1. Klik op de nieuwe component en stel de afbeeldingseigenschappen in met de opdracht **[!UICONTROL Components settings]** deelvenster:
+1. Klik op de nieuw toegevoegde component en stel de afbeeldingseigenschappen in via het dialoogvenster **[!UICONTROL Settings]** tab:
 
    * **[!UICONTROL Image title]** Hiermee kunt u een titel voor de afbeelding definiëren.
    * **[!UICONTROL Alt text]** Hiermee kunt u het bijschrift definiëren dat aan de afbeelding is gekoppeld. Dit komt overeen met het kenmerk alt HTML.
 
    ![](assets/email_designer_10.png)
 
-1. Pas de andere opmaakkenmerken aan, zoals marge, rand, enz. of u voegt een koppeling toe om uw publiek om te leiden naar een andere inhoud vanuit de **[!UICONTROL Component settings]** venster.
+1. U kunt ook **[!UICONTROL Find similar Stock photos]**. [Meer informatie](stock.md)
+
+1. Van de **[!UICONTROL Styles]** , past u de andere opmaakkenmerken aan, zoals marge, rand, enz. of u voegt een koppeling toe om uw publiek om te leiden naar een andere inhoud vanuit de **[!UICONTROL Component settings]** venster.
 
 ## Social {#social}
 
@@ -175,9 +188,9 @@ Gebruik de **[!UICONTROL Social]** om koppelingen naar pagina&#39;s met sociale 
 
 1. Van **[!UICONTROL Content Components]**, slepen en neerzetten **[!UICONTROL Social]** in een **[!UICONTROL Structure component]**.
 
-1. Klik op de nieuwe component.
+1. Selecteer de zojuist toegevoegde component.
 
-1. In de **[!UICONTROL Social]** van het **[!UICONTROL Components settings]** kiest u welke sociale media u wilt toevoegen of verwijderen.
+1. In de **[!UICONTROL Social]** van het **[!UICONTROL Settings]** kiest u welke sociale media u wilt toevoegen of verwijderen.
 
    ![](assets/email_designer_20.png)
 
@@ -187,13 +200,25 @@ Gebruik de **[!UICONTROL Social]** om koppelingen naar pagina&#39;s met sociale 
 
    ![](assets/email_designer_21.png)
 
-1. U kunt de pictogrammen van elk van uw sociale media desgewenst ook wijzigen in het dialoogvenster **[!UICONTROL Image]** veld.
+1. U kunt de pictogrammen van elk van uw sociale media desgewenst ook wijzigen in uw Middelen.
 
-1. Pas de andere opmaakkenmerken aan, zoals stijl, marge, rand, enzovoort. van de **[!UICONTROL Component settings]** venster.
+1. Pas de andere opmaakkenmerken aan, zoals stijl, marge, rand, enzovoort. van de **[!UICONTROL Styles]** tab.
 
 ## Offertebeslissing {#offer-decision}
 
 Gebruik de **[!UICONTROL Offer decision]** om aanbiedingen in te voegen in uw berichten. De [beslissingsbeheer](../offers/get-started/starting-offer-decisioning.md) engine kiest de beste aanbieding voor uw klanten.
+
+1. Van **[!UICONTROL Content Components]**, slepen en neerzetten **[!UICONTROL Offer decision]** in een **[!UICONTROL Structure component]**.
+
+1. Klikken **[!UICONTROL Add]** om uw **[!UICONTROL Offer decision]**.
+
+   ![](assets/component_offers.png)
+
+1. Selecteer in de vervolgkeuzelijst de optie **[!UICONTROL Placements]**.  Selecteer vervolgens de **[!UICONTROL Offer decision]** wilt u toevoegen aan uw inhoud en klikt u op **[!UICONTROL Add]**.
+
+   ![](assets/component_offers_2.png)
+
+1. Van de **[!UICONTROL Offer decision]** kunt u een voorbeeld van het ingevoegde voorstel bekijken of dit wijzigen.
 
 Leer hoe u persoonlijke aanbiedingen kunt toevoegen aan een e-mailbericht in [deze sectie](add-offers-email.md).
 

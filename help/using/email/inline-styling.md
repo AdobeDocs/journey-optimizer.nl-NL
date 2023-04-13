@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: inline, stijl, kenmerken, editor
 exl-id: 1f43bcde-0786-45e8-baf4-065c3920fd4e
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ ht-degree: 0%
 Wanneer u in de interface E-mailontwerper een element selecteert en de instellingen van het element in het zijpaneel weergeeft, kunt u de inline-kenmerken en de bijbehorende waarde voor dat specifieke element aanpassen.
 
 1. Selecteer een element in de inhoud.
-1. Op het zijpaneel, zoek naar **[!UICONTROL Styles Inline]** instellingen.
+
+1. Van de **[!UICONTROL Styles]** tab, zoek naar de **[!UICONTROL Styles Inline]** instellingen onder de **[!UICONTROL Advanced]** vervolgkeuzelijst.
 
    ![](assets/styles_1.png)
 

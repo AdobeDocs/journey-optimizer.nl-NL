@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: aanbiedingen, beslissingen, e-mails, personalisatie, beslissingen
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
+source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -73,15 +73,13 @@ Nadat u uw wijzigingen hebt opgeslagen, kunt u uw aanbiedingen weergeven voor de
 
 ## Aanbiedingen voorvertonen in een e-mail {#preview-offers-in-email}
 
-U kunt de verschillende aanbiedingen die deel uitmaken van de beslissing die aan de e-mail is toegevoegd, voorvertonen met de opdracht **[!UICONTROL Offers]** voor de inhoudcomponenten pijlen.
+U kunt de verschillende aanbiedingen die deel uitmaken van de beslissing die aan de e-mail is toegevoegd, voorvertonen met de opdracht **[!UICONTROL Offer]** voor de inhoudcomponenten pijlen.
 
 ![](assets/deliver-offer-preview.png)
 
 Volg onderstaande stappen om de verschillende aanbiedingen die deel uitmaken van de beslissing, weer te geven met een klantprofiel.
 
-1. Klik op **[!UICONTROL Preview]**.
-
-   ![](assets/deliver-offer-preview-button.png)
+1. Klik op de knop **[!UICONTROL Simulate Content button]**.
 
    >[!NOTE]
    >
@@ -120,4 +118,3 @@ Meer informatie over de gedetailleerde stappen voor het controleren van de beric
 Leer hoe u een component voor beslissingsbeheer aan berichten kunt toevoegen in [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
-
