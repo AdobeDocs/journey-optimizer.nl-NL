@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: publiceren, reizen, live, geldigheid, controle
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 7%
+source-wordcount: '241'
+ht-degree: 5%
 
 ---
 
@@ -32,6 +32,10 @@ Als je een reis stopt, wordt deze definitief gestopt. Alle mensen die op de reis
    ![](assets/journeyuc1_18.png)
 
 Wanneer de reis wordt gepubliceerd, is het op read-only wijze.
+
+>[!IMPORTANT]
+>
+>Als er wijzigingen worden aangebracht in een biedbesluit dat wordt gebruikt in een reisbericht, moet u de reis ongedaan maken en opnieuw publiceren.  Dit zal ervoor zorgen dat de veranderingen in het reisbericht worden opgenomen en dat de boodschap in overeenstemming is met de meest recente updates.
 
 ## Hoe kan ik-video {#video}
 

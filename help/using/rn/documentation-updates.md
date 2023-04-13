@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '2516'
+source-wordcount: '2570'
 ht-degree: 17%
 
 ---
@@ -18,7 +18,8 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 ## April 2023 {#apr-2023}
 
 * Adobe Experience Manager Assets Essentials en Adobe Stock zijn toegevoegd aan de integratiepagina voor meerdere oplossingen. [Meer informatie](../start/ajo-integrations.md)
-
+* De waarschuwing dat e-mailsubdomeinen op meerdere niveaus niet zijn toegestaan, is verwijderd omdat deze nu worden ondersteund. [Meer informatie](../configuration/delegate-subdomain.md)
+* Er is een notitie toegevoegd om aan te geven dat als er wijzigingen worden aangebracht in een besluit over een aanbieding dat wordt gebruikt in het bericht van een reis, u de reis ongedaan moet maken en opnieuw moet publiceren. [Meer informatie](../building-journeys/publishing-the-journey.md)
 
 ## Maart 2023 {#march-2023}
 

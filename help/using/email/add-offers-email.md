@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: aanbiedingen, beslissingen, e-mails, personalisatie, beslissingen
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,12 @@ In [!DNL Journey Optimizer] e-mailberichten, kunt u besluiten opnemen die hefboo
 
 U kunt bijvoorbeeld een besluit toevoegen dat in uw e-mail een speciale kortingsaanbieding weergeeft die afhankelijk is van het loyaliteitsniveau van de ontvanger.
 
-Raadpleeg voor meer informatie over het maken en beheren van aanbiedingen [deze sectie](../offers/get-started/starting-offer-decisioning.md).
+>[!IMPORTANT]
+>
+>Als er wijzigingen worden aangebracht in een biedbesluit dat wordt gebruikt in een reisbericht, moet u de reis ongedaan maken en opnieuw publiceren.  Dit zal ervoor zorgen dat de veranderingen in het reisbericht worden opgenomen en dat de boodschap in overeenstemming is met de meest recente updates.
 
-Voor een **volledig end-to-end voorbeeld** tonen hoe te om aanbiedingen te vormen, hen in een besluit te gebruiken en dit besluit in een e-mail te gebruiken, controleer uit [deze sectie](../offers/offers-e2e.md#insert-decision-in-email).
+* Raadpleeg voor meer informatie over het maken en beheren van aanbiedingen [deze sectie](../offers/get-started/starting-offer-decisioning.md).
+* Voor een **volledig end-to-end voorbeeld** tonen hoe te om aanbiedingen te vormen, hen in een besluit te gebruiken en dit besluit in een e-mail te gebruiken, controleer uit [deze sectie](../offers/offers-e2e.md#insert-decision-in-email).
 
 ➡️ [In deze video ziet u hoe u aanbiedingen als personalisatie toevoegt](#video-offers)
 

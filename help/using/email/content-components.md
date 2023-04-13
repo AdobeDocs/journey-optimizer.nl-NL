@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: componenten, e-mailontwerper, editor, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 08d842a877ed52349eef5a901aaf9c75187c69d3
+source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -197,3 +197,6 @@ Gebruik de **[!UICONTROL Offer decision]** om aanbiedingen in te voegen in uw be
 
 Leer hoe u persoonlijke aanbiedingen kunt toevoegen aan een e-mailbericht in [deze sectie](add-offers-email.md).
 
+>[!IMPORTANT]
+>
+>Als er wijzigingen worden aangebracht in een biedbesluit dat wordt gebruikt in een reisbericht, moet u de reis ongedaan maken en opnieuw publiceren.  Dit zal ervoor zorgen dat de veranderingen in het reisbericht worden opgenomen en dat de boodschap in overeenstemming is met de meest recente updates.
