@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: e-mail, starten, maken, voorvertonen
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: ce6dc6eec59ad61bec2c00e811f6f6e006eb20da
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Gebruiken [!DNL Journey Optimizer] om e-mailberichten naar uw klanten te verzend
 
 E-mailleveringen kunnen worden gemaakt:
 
-* In een **Reis**: nadat u een **[!UICONTROL Email]** en gedefinieerde basisinstellingen, kunt u de **[!UICONTROL Actions: Email]** in het rechterdeelvenster om de inhoud voor het SMS-bericht te maken.
+* In een **Reis**: nadat u een **[!UICONTROL Email]** en gedefinieerde basisinstellingen, kunt u de **[!UICONTROL Actions: Email]** in het rechterdeelvenster om de inhoud voor het bericht te maken.
 
    Voor meer informatie over hoe te om uw reis te vormen, verwijs naar dit [page](../building-journeys/journey-gs.md).
 
