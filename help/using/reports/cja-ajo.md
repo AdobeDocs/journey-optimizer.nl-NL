@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: 928ad6822efbe95c0ddf5456531d92be8b4bed75
+source-git-commit: 0e45d6e4995f4f21dc5122203b715ae999e2b760
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +26,12 @@ Na het maken van uw reis in [!DNL Journey Optimizer]kunt u uw klantgegevens impo
 
 ➡️ [Discover Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html){target="_blank"}
 
+>[!NOTE]
+>
+>Naast deze integratie kunt u ook de inhoud van Adobe Journey Optimizer-gegevenssets exporteren naar opslaglocaties in de cloud en deze informatie gebruiken voor rapportage- of analysedoeleinden. [Leer hoe u gegevenssets exporteert naar opslaglocaties in de cloud](../data/export-datasets.md)
+>
+>Merk op dat de de uitvoereigenschap van datasets momenteel in bèta en beschikbaar aan alle gebruikers van Adobe Journey Optimizer is. Werk samen met uw Adobe-medewerker om toegang te krijgen tot Doelen als u nog geen toegang hebt.
+
 Voor gebruik [!DNL Customer Journey Analytics] voor uw reizen, moet u deze integratie eerst vormen:
 
 1. [Verbinding maken](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) in [!DNL Customer Journey Analytics] met de **[!UICONTROL Dataset]** je wilt naar Adobe Experience Platform sturen.
@@ -38,7 +44,6 @@ Voor gebruik [!DNL Customer Journey Analytics] voor uw reizen, moet u deze integ
 1. [Een gegevensweergave maken](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) om de afmetingen en metriek te vormen u voor uw rapport wilt gebruiken.
 
    U kunt Journey Optimizer-specifieke metriek maken om de gegevens van uw reizen beter weer te geven. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
-
 
 Gebruiken [!DNL Journey Optimizer] with [!DNL Customer Journey Analytics] kan leiden tot enige discrepantie in de rapportage van gegevens die wordt veroorzaakt door:
 
