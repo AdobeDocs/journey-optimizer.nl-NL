@@ -7,24 +7,28 @@ role: User
 level: Beginner
 keywords: in-app, bericht, ontwerp, opmaak
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '785'
 ht-degree: 9%
 
 ---
 
 # In-app-inhoud ontwerpen {#design-content}
 
-U kunt de inhoud in de app bewerken om ervaringsopties te configureren, zoals de lay-out en weergave van berichten, tekst en knopopties.
+U kunt de inhoud in de app bewerken om ervaringsopties te configureren:
 
-Om de berichtinhoud te vormen, klik **[!UICONTROL Edit content]** en gebruik de opties in het rechtergedeelte van het scherm om uw inhoud van uw In-app-bericht te ontwerpen.
+* In een **[!UICONTROL Campaign]** van de **[!UICONTROL Action]** om de berichtinhoud te configureren, klikt u op de knop **[!UICONTROL Edit content]** knop.
 
-![](assets/in_app_create_4.png)
+   ![](assets/edit-in-app-content.png)
+
+* In een **[!UICONTROL Journey]** in het geavanceerde menu van uw In-app **[!UICONTROL Action]** kunt u uw inhoud ontwerpen met de **[!UICONTROL Edit content]** knop.
+
+   ![](assets/design_inapp_journey.png)
 
 De **[!UICONTROL Advanced formatting]** als u schakelt, worden aanvullende opties geactiveerd om de ervaring aan te passen.
 
-Nadat u het bericht in de app hebt gemaakt en de inhoud ervan hebt gedefinieerd en gepersonaliseerd, kunt u het bericht controleren en activeren. Vervolgens worden de meldingen verzonden volgens het campagneprogramma. Meer informatie in [deze pagina](create-in-app.md#in-app-send).
+Nadat u het bericht in de app hebt gemaakt en de inhoud ervan hebt gedefinieerd en gepersonaliseerd, kunt u het bericht controleren en activeren. Vervolgens worden de meldingen verzonden volgens het campagneprogramma. Meer informatie in [deze pagina](send-in-app.md).
 
 ## Berichtlay-out {#message-layout}
 

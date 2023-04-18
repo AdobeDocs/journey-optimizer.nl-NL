@@ -7,18 +7,18 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: transport, bericht, push, sms, e-mail
+keywords: reis, bericht, push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 45d508b284c23235518fab37095413091208e497
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '864'
 ht-degree: 1%
 
 ---
 
-# E-mail, SMS, Push{#add-a-message-in-a-journey}
+# E-mail, In-app, Push, SMS{#add-a-message-in-a-journey}
 
-[!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtmogelijkheden. U kunt gewoon tijdens uw reis een push-, SMS- of e-mailberichtactiviteit toevoegen en instellingen en inhoud definiëren. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis.
+[!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtmogelijkheden. U kunt gewoon tijdens uw reis een push-, SMS-, In-app- of e-mailberichtactiviteit toevoegen en instellingen en inhoud definiëren. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis.
 
 U kunt ook specifieke acties instellen om u berichten te sturen:
 
@@ -33,7 +33,7 @@ Volg onderstaande stappen om een bericht toe te voegen aan een rit:
 
 1. Begin uw reis met een [Gebeurtenis](general-events.md) of [Segment lezen](read-segment.md) activiteit.
 
-1. Van de **Handelingen** van het palet, slepen en neerzetten en **email**, en **SMS** of **Push** op het canvas.
+1. Van de **Handelingen** van het palet, slepen en neerzetten en **email**, en **In-app**, en **SMS** of **Push** op het canvas.
 
 1. Configureer uw activiteit. Leer gedetailleerde stappen om uw berichtinhoud op de volgende pagina&#39;s tot stand te brengen:
 
@@ -44,6 +44,14 @@ Volg onderstaande stappen om een bericht toe te voegen aan een rit:
    <img alt="Lood" src="../assets/do-not-localize/email.jpg">
    </a>
    <div><a href="../email/create-email.md"><strong>E-mails maken</strong>
+   </div>
+   <p>
+   </td>
+   <td>
+   <a href="../in-app/create-in-app.md">
+   <img alt="Lood" src="../assets/do-not-localize/in-app.jpg">
+   </a>
+   <div><a href="../in-app/create-in-app.md"><strong>In-app-berichten maken</strong>
    </div>
    <p>
    </td>
@@ -70,13 +78,15 @@ Volg onderstaande stappen om een bericht toe te voegen aan een rit:
 
 ## Actieve inhoud bijwerken{#update-live-content}
 
-U kunt de inhoud van een bericht (e-mail, sms, push) tijdens een live reis bijwerken.
+U kunt de inhoud van een bericht (e-mail, In-app, Push, SMS) tijdens een live reis bijwerken.
 
 Om dit te doen, open uw levende reis, selecteer de berichtactiviteit en klik **Inhoud bewerken**.
 
 ![](assets/add-a-message2.png)
 
 U kunt de kenmerken die worden gebruikt in personalisatie echter niet wijzigen, ongeacht of het profielkenmerken of contextafhankelijke gegevens (van gebeurtenis- of reiseigenschappen) zijn.
+
+Voor de activiteit in de app kunnen wijzigingen in de inhoud worden aangebracht terwijl de reis live is, maar triggers in de app kunnen niet worden gewijzigd.
 
 ## Send-Time optimalisatie{#send-time-optimization}
 

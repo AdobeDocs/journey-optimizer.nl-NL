@@ -6,9 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
-source-git-commit: c70b782b077b57485e7a40ec9f159832604f76e5
+exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '271'
 ht-degree: 4%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 4%
 
 ## Voorvertonen op apparaat {#preview-device}
 
-Eenmaal [Het In-app-bericht is gemaakt](create-in-app.md) en [gedefinieerde inhoud](design-in-app.md)kunt u een voorvertoning van de melding in de app weergeven op een bepaald apparaat.
+Als u een blik van het in-app bericht wilt krijgen alvorens het voor alle gebruikers live gaat, hebt u de capaciteit om het op een specifiek apparaat voor te vertonen. Met deze functionaliteit kunt u ervoor zorgen dat de melding er op het gekozen apparaat uitziet en naar behoren functioneert, zodat de gebruikers er beter van kunnen genieten.
 
 Volg onderstaande stappen om dit te doen:
 
@@ -37,7 +38,7 @@ Het bericht in de app kan nu rechtstreeks op het apparaat worden geactiveerd, zo
 
 ## Uw In-app-melding controleren en activeren{#in-app-review}
 
-Zodra uw In-App-bericht gereed is, kunt u het controleren en activeren.
+Nadat u het bericht in de app hebt gemaakt en de inhoud ervan hebt gedefinieerd en gepersonaliseerd, kunt u het bericht controleren en activeren.
 
 Volg onderstaande stappen om dit te doen:
 

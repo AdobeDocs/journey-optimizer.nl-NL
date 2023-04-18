@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 1af9a3adeb6727e965e61434b0ed2c41ff3d4911
+source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '699'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,55 @@ ht-degree: 2%
 
 In-app berichten worden gemaakt in de context van een campagne.
 
-Voer de onderstaande stappen uit om een bericht in de app te maken:
+>[!BEGINTABS]
+
+>[!TAB Een bericht in de app toevoegen aan een reis]
+
+>[!AVAILABILITY]
+>
+>De activiteit in de app is momenteel beschikbaar als een bètaversie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.
+
+1. Open uw reis en sleep vervolgens een **[!UICONTROL In-app]** van de **[!UICONTROL Actions]** in het palet.
+
+   Wanneer een profiel het einde van de rit bereikt, verlopen alle berichten in de app die aan hen worden weergegeven, automatisch. Daarom wordt er automatisch een wachtbewerking toegevoegd na uw activiteiten in de app om de juiste timing te garanderen.
+
+   ![](assets/in_app_journey_1.png)
+
+1. Voer een **[!UICONTROL Label]** en **[!UICONTROL Description]** voor uw bericht.
+
+1. Kies de optie [In-app oppervlak](inapp-configuration.md) te gebruiken.
+
+   ![](assets/in_app_journey_2.png)
+
+1. U kunt nu beginnen met het ontwerpen van uw inhoud met de **[!UICONTROL Edit content]** knop. [Meer informatie](design-in-app.md)
+
+1. Klikken **[!UICONTROL Edit trigger]** om de trigger te configureren.
+
+   ![](assets/in_app_journey_4.png)
+
+1. Kies de frequentie van de trigger wanneer het bericht in de app actief is:
+
+   * **[!UICONTROL Show every time]**: Toon altijd het bericht wanneer de gebeurtenissen die in **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
+   * **[!UICONTROL Show once]**: Alleen dit bericht weergeven als de gebeurtenissen die voor de eerste keer zijn geselecteerd in het dialoogvenster **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
+   * **[!UICONTROL Show until click through]**: Dit bericht weergeven wanneer de gebeurtenissen zijn geselecteerd in het dialoogvenster **[!UICONTROL Mobile app trigger]** drop-down komt voor tot een interactie gebeurtenis door SDK met een actie van &quot;geklikt&quot;wordt verzonden.
+
+1. Van de **[!UICONTROL Mobile app trigger]** -dropdown(s), kies de gebeurtenis(sen) en de criteria die uw bericht zullen activeren:
+
+   1. Selecteer in de linkervervolgkeuzelijst de gebeurtenis die nodig is om het bericht te activeren.
+   1. Selecteer in de rechtervervolgkeuzelijst de vereiste validatie voor de geselecteerde gebeurtenis.
+   1. Klik op de knop **[!UICONTROL Add]** als u wilt dat de trigger rekening houdt met meerdere gebeurtenissen of criteria. Herhaal vervolgens de bovenstaande stappen.
+   1. Selecteer hoe uw gebeurtenissen worden gekoppeld. Kies bijvoorbeeld **[!UICONTROL And]** als u **beide** triggers moeten waar zijn om een bericht weer te geven of **[!UICONTROL Or]** als u wilt dat het bericht wordt getoond als **ofwel** van de triggers zijn waar.
+   1. Klikken **[!UICONTROL Save]** wanneer uw triggers zijn geconfigureerd.
+
+   ![](assets/in_app_journey_3.png)
+
+1. Indien nodig voltooit u de reisflow door extra handelingen of gebeurtenissen te slepen en neer te zetten. [Meer informatie](../building-journeys/about-journey-activities.md)
+
+1. Zodra uw bericht in de app klaar is, voltooit u de configuratie en publiceert u uw reis om het te activeren.
+
+Voor meer informatie over hoe te om een reis te vormen, verwijs naar [deze pagina](../building-journeys/journey-gs.md).
+
+>[!TAB Een bericht in de app toevoegen aan een campagne]
 
 1. Toegang krijgen tot **[!UICONTROL Campaigns]** en klik vervolgens op **[!UICONTROL Create campaign]**.
 
@@ -65,6 +113,7 @@ Voer de onderstaande stappen uit om een bericht in de app te maken:
 
    ![](assets/in_app_create_4.png)
 
+>[!ENDTABS]
 
 ## Hoe kan ik-video{#video}
 
