@@ -8,9 +8,10 @@ level: Beginner
 keywords: in-app, bericht, maken, starten
 hide: true
 hidefromtoc: true
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
+source-git-commit: 252011710574122c1f321a388b65bdafb7c666df
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '516'
 ht-degree: 1%
 
 ---
@@ -67,10 +68,11 @@ Voor meer informatie over hoe te om een reis te vormen, verwijs naar [deze pagin
 
 * Personalisatie kan alleen profielkenmerken bevatten.
 
-* De weergave in de app is gekoppeld aan de duur van de rit. Dit houdt in dat wanneer de reis afloopt voor een profiel, alle in-app-berichten in die reis niet meer worden weergegeven voor dat profiel. Dit betekent dat u een In-app niet rechtstreeks kunt stoppen vanuit een reisactiviteit. Je moet die reis beëindigen.
-* De weergave in de app is gekoppeld aan de levensduur van een rit. Dit houdt in dat, wanneer een reis voor een bepaald gebruikersprofiel is voltooid, alle in-app-berichten binnen die reis niet meer worden weergegeven voor dat profiel. Het is daarom niet mogelijk om een bericht in de app rechtstreeks te stoppen van een reisactiviteit. In plaats daarvan moet u de volledige reis beëindigen om te voorkomen dat de berichten in de app naar het profiel worden weergegeven.
+* De weergave in de app is gekoppeld aan de duur van de rit. Dit houdt in dat wanneer de reis voor een profiel afloopt, alle in-app-berichten binnen die reis niet meer worden weergegeven voor dat profiel.  Het is daarom niet mogelijk om een bericht in de app rechtstreeks te stoppen van een reisactiviteit. In plaats daarvan moet u de volledige reis beëindigen om te voorkomen dat de berichten in de app naar het profiel worden weergegeven.
 
-* Met deze functie kun je nog niet gebruiken **[!UICONTROL Reaction]** activiteiten om te reageren op een geopende In-app of klik.
+* In de testmodus is de weergave in de app afhankelijk van de levensduur van de rit. Om te voorkomen dat de reis te vroeg eindigt tijdens de test, past u de **[!UICONTROL Wait time]** waarde voor uw **[!UICONTROL Wait]** activiteiten.
+
+* **[!UICONTROL Reaction]** activiteiten kunnen niet worden gebruikt om te reageren op een geopende In-app of klik.
 
 * Er treedt een activeringsvertraging op tussen het moment dat een gebruikersprofiel een in-app-activiteit op het canvas bereikt en het moment waarop het bericht in de app wordt weergegeven. Deze vertraging kan variëren van 15 minuten tot 1 uur.
 
