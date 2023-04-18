@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
+source-git-commit: 15973fd7bf85a428be24252e9eb1bf3834a581f3
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1363'
 ht-degree: 34%
 
 ---
@@ -214,8 +214,9 @@ ht-degree: 34%
    + [Uw pushmelding ontwerpen](using/push/design-push.md)
    + [Uw pushmelding verzenden](using/push/send-push.md)
    + Pushmeldingen configureren{#push-config}
-      + [Pushberichten en Adobe Journey Optimizer](using/push/push-gs.md)
+      + [Pushmeldingsstroom](using/push/push-gs.md)
       + [Pushmeldingskanaal configureren](using/push/push-configuration.md)
+      + [Snelstartworkflow voor mobiele instaptoegang](using/push/mobile-onboarding-wf.md)
 + Sms-kanaal{#sms}
    + [Aan de slag met sms](using/sms/get-started-sms.md)
    + [Een SMS-bericht maken](using/sms/create-sms.md)

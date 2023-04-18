@@ -1,23 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Pushberichten en Adobe Journey Optimizer
+title: Stroom van pushberichten in Adobe Journey Optimizer
 description: De gegevensstroom van pushmeldingen en componenten begrijpen
 topic: Mobile
 feature: Push
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 1%
+source-wordcount: '699'
+ht-degree: 3%
 
 ---
 
-# Pushberichten en Adobe Journey Optimizer {#get-started-push}
+# Gegevensstroom van pushmeldingen en componenten {#get-started-push}
 
-Deze pagina helpt u bij het instellen en begrijpen van belangrijke services en workflows die te maken hebben met pushmeldingen in [!DNL Journey Optimizer]. Meer informatie over het maken van pushmeldingen op [deze pagina](create-push.md).
+Met deze pagina kunt u belangrijke services en workflows instellen en begrijpen die bij pushmeldingen zijn betrokken in [!DNL Journey Optimizer].
+
+<!--
+>[!AVAILABILITY]
+>
+>The new **mobile onboarding quick start workflow** is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and to send mobile push notifications. This capability is accessible via the Data Collection home page as a public beta. [Learn more](mobile-onboarding-wf.md)
+>
+-->
+
+Meer informatie over het maken van pushmeldingen op [deze pagina](create-push.md).
 
 Stappen voor het configureren van het pushkanaal [!DNL Adobe Journey Optimizer] worden gedetailleerd op [deze pagina](push-configuration.md).
 
@@ -38,7 +47,7 @@ De volgende afbeelding toont de systemen en services die bij de bijbehorende geg
 1. Pushmeldingen worden aan eindgebruikersapparaten geleverd
 1. Pushmeldingsinteracties voor eindgebruikers worden als Experience Events verzonden vanuit de eindgebruikerclient via SDK-integratie
 
-## Rollen van de Zeer belangrijke Diensten in de Berichten van de Duw {#roles-of-key-services}
+## Rollen van sleutelservices in pushberichten {#roles-of-key-services}
 
 * **Serviceproviders voor pushmeldingen** zijn de belangrijkste onderdelen van webservices die meldingen leveren van externe servers naar mobiele apps.
 
@@ -58,8 +67,16 @@ De volgende afbeelding toont de systemen en services die bij de bijbehorende geg
 
 * **[!DNL Adobe Journey Optimizer]** : zodra uw mobiele app is geïntegreerd met de hierboven vermelde componenten en uw klantprofielen in Adobe Experience Platform, kunt u pushberichten ontwerpen en ordenen in [!DNL Adobe Journey Optimizer] om contact op te nemen met uw gebruikers.
 
-## Push Technical Setup and Practice Workflows {#push-technical-setup}
+## Werk met meer technische instellingen en praktische workflows {#push-technical-setup}
 
 In de volgende afbeelding ziet u de verschillende stappen van begin tot eind die nodig zijn voor het configureren van de componenten die het skelet van de gegevensstroom van de push vormen. De actiepunten zijn gecategoriseerd gebaseerd op de rol die de configuratie en de component uitvoert die worden gevormd.
 
 ![](assets/user-flow.png)
+
+**Verwante onderwerpen**
+
+* [Pushkanaal configureren](push-configuration.md)
+* [Pushmeldingenrapport](../reports/journey-global-report.md#push-global)
+* [Een pushmelding maken](create-push.md)
+* [Een bericht toevoegen in een journey](../building-journeys/journeys-message.md)
+* [Een bericht toevoegen aan een campagne](../campaigns/create-campaign.md)

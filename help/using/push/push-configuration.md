@@ -6,7 +6,7 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van pushmeld
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
 workflow-type: tm+mt
 source-wordcount: '1406'
 ht-degree: 3%
@@ -16,6 +16,13 @@ ht-degree: 3%
 # Pushmeldingskanaal configureren {#push-notification-configuration}
 
 [!DNL Journey Optimizer] kunt u uw reizen maken en berichten naar het beoogde publiek sturen. Voordat u pushmeldingen verzendt met [!DNL Journey Optimizer], dient u ervoor te zorgen dat configuraties en integratie aanwezig zijn op de mobiele app en voor tags in Adobe Experience Platform. Om inzicht te krijgen in de gegevensstroom van pushmeldingen in [!DNL Adobe Journey Optimizer] verwijzen naar [deze pagina](push-gs.md).
+
+<!--
+>[!AVAILABILITY]
+>
+>The new **mobile onboarding quick start workflow** is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and to send mobile push notifications. This capability is accessible via the Data Collection home page as a public beta. [Learn more](mobile-onboarding-wf.md)
+>
+-->
 
 ## Voordat u begint {#before-starting}
 
