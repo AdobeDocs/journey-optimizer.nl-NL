@@ -10,17 +10,17 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informatief"
-source-git-commit: 145d2a60bc5dbd6e2a92f13afbf2db662f465e36
+exl-id: 82477d40-cfea-456b-a7b1-9cfebd76db35
+source-git-commit: 62954221f9797fc4ac7b5e066ffea6f99c17ad45
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 3%
+source-wordcount: '368'
+ht-degree: 4%
 
 ---
 
-
 # Snelstartworkflow voor mobiele instaptoegang {#mobile-wf}
 
-De nieuwe **Snelle start-workflow voor mobiel instapsysteem** is een nieuwe productfunctie voor het snel configureren van de Mobile SDK, het verzamelen en valideren van gegevens over mobiele gebeurtenissen en het verzenden van pushberichten met [!DNL Journey Optimizer].
+De nieuwe **Snelle start-workflow voor mobiel instapsysteem** is een nieuwe productfunctie voor het snel configureren van de Adobe Experience Platform Mobile SDK, het verzamelen en valideren van mobiele gebeurtenisgegevens en het verzenden van pushberichten met [!DNL Journey Optimizer].
 
 Deze mogelijkheid is toegankelijk via de **[!DNL Adobe Experience Platform Data Collection]** homepage naar alle klanten als openbare bètaversie.
 
@@ -35,8 +35,8 @@ Als u toegang wilt tot de nieuwe workflow voor snel aan boord gaan van mobiele a
 Hieronder vindt u een aantal aanvullende kenmerken:
 
 * Eenvoudige workflow in vier stappen en gebruikersinterface.
-* Biedt een basisconfiguratie voor het in minuten verzamelen van mobiele gebeurtenisgegevens via de Mobile SDK.
-* Mogelijkheid om een eenvoudige mobiele pushgebeurtenis te testen en te valideren met behulp van een betrouwbaarheidsverklaring.
+* Biedt een basisconfiguratie voor het verzamelen van mobiele gebeurtenisgegevens via de [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} in minuten.
+* Mogelijkheid om een eenvoudige mobiele pushgebeurtenis te testen en te valideren met behulp van [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html){target="_blank"}.
 * Auto leidt tot en vormt alle noodzakelijke Inzameling van Gegevens, en de activa van Journey Optimizer.
 * In productbegeleiding en tooltips.
 * Verstrekt een natuurlijke overgang voor geavanceerdere implementatie indien nodig.

@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0358b039f038705aa67e6b779b6b8da228a603b
+source-git-commit: 0f36c42c5de52da3be894737ac4c73b7ad529fc4
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 8%
+source-wordcount: '1896'
+ht-degree: 7%
 
 ---
 
@@ -21,32 +21,112 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 
 ![Nieuwsbrief](../assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die direct aan uw Postbus worden geleverd elk kwartaal.
 
-<!--
-## April 2023 Updates {#apr-2023}
+
+## Opmerkingen bij de vervroegde release april 2023 {#apr-e-rn-2023}
+
+Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd tot de beschikbaarheidsdatum van de release. Bijgewerkte documentatie wordt gepubliceerd op de releasedatum en er worden directe koppelingen toegevoegd aan deze pagina.
+
+**Releasedatum**: 27 april 2023
+
+### Nieuwe functies{#apr-2023-features}
 
 
 <table>
 <thead>
 <tr>
-<th><strong>Mobile onboarding quick start workflow (beta)</strong><br/></th>
+<th><strong>Webkanaal (algemene beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The new mobile onboarding quick start workflow is now available. Use this new product feature to rapidly configure the Mobile SDK to start collecting and validating mobile event data, and send mobile push notifications with Adobe Journey Optimizer. This capability is accessible via the Data Collection home page as a public beta.</p>
+<p>Adobe Journey Optimizer breidt zijn mogelijkheden over de kanalen uit door steun voor Webkanaal toe te voegen. U kunt nu net als elk ander kanaal een webeleving ontwerpen, wijzigen en voorvertonen via een slimme en intuïtieve visuele interface om uw ervaring voor eindgebruikers aan te passen. Op dit moment kunt u in Journey Optimizer alleen webervaringen maken in campagnes.</p>
+<img src="assets/do-not-localize/create-web-campaign.gif"/>
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Snelstartworkflow voor mobiele toegang (bèta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De nieuwe workflow voor snel starten op het instapmodel voor mobiele apparaten is nu beschikbaar. Met deze nieuwe productfunctie kunt u de Mobile SDK snel configureren om gegevens van mobiele gebeurtenissen te verzamelen en te valideren en om mobiele pushberichten te verzenden met Adobe Journey Optimizer. Dit vermogen is toegankelijk via de homepage van de Inzameling van Gegevens als openbare bèta.</p>
 <img src="../push/assets/mobile-wf-home.png"/>
-<p>For more information, refer to the <a href="../push/mobile-onboarding-wf.md">detailed documentation</a>.</p>
+<p>Raadpleeg de <a href="../push/mobile-onboarding-wf.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
+
+<table>
+<thead>
+<tr>
+<th><strong>Nieuw journaal (bèta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p> Het dashboard Journey is nu gesplitst in twee tabbladen:</p>
+<ul><li>Gebruik de <strong>Overzicht</strong> om toegang te krijgen tot een nieuw dashboard dat belangrijke metriek met betrekking tot uw reizen toont.</li>
+<li>Gebruik de <strong>Bladeren</strong> tabblad voor toegang tot de lijst met alle reizen.</li></ul>
+<p>Deze mogelijkheid is toegankelijk voor alle reizen als een openbare bètaversie.</p>
+<img src="assets/do-not-localize/journey-dashboard.gif"/>
+<!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Personalized Optimization AI ranking model (General Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>-->
+
+### Verbeteringen {#april-2023-improvements}
+
+**Journeys**
+
+* Het reiscanvas geeft nu de activiteit-id weer op actieknooppunten en eindtags. Dit verbetert rapportage en heroriëntering.
+* De indeling van het configuratievenster, dat wordt weergegeven in handelingen, gegevensbronnen, gebeurtenissen en reizen, is verbeterd.
+* Er zijn nieuwe trajecten toegevoegd aan de trajecten:
+   * Het aantal knooppunten in een reis is nu beperkt tot maximaal 50
+   * Het aantal rechtstreekse reizen op één org is nu beperkt tot maximaal 100. Er wordt geen rekening gehouden met de ritten in de testmodus.
+
+* Wanneer u een actie E-mail, SMS of Push toevoegt aan een reis, wordt het oppervlak standaard voorgevuld met het laatst gebruikte oppervlak voor dat kanaal.
+* U kunt nu statische of dynamische queryparameters definiëren in uw aangepaste handelingen.
+
+**Rapportage**
+
+* U kunt nu Journey Optimizer-rapporten exporteren als PDF.
+
+**Content Designer**
+
+* De Adobe Journey Optimizer Content Designer is bijgewerkt en de toegang tot ontwerpstijlen en -componenten is nu eenvoudiger. Deze nieuwe versie biedt een verbeterde gebruikerservaring en wordt geleverd met verbeterde prestaties, gedeeltelijke compatibiliteit met donkere modi en ondersteuning voor nieuwe toegankelijkheidsstandaarden.
+
+
 
 ## Opmerkingen bij de release maart 2023 {#mar-2023}
-
-<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.-->
-
 
 ### Nieuwe functies{#mar-2023-features}
 
@@ -142,7 +222,7 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 
    Als u toegang wilt hebben tot de meest recente widgets, moet u de verschillende rapportdashboards opnieuw instellen. Raadpleeg voor meer informatie over het aanpassen van het dashboard de [gedetailleerde documentatie](../reports/global-report.md#modify-dashboard).
 
-## Opmerkingen bij de release februari 2023 {#feb-2023}
+## Opmerkingen bij de release van februari 2023 {#feb-2023}
 
 ### Nieuwe functies{#feb-2023-features}
 
@@ -270,7 +350,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **URL-personalisatie** - Wanneer u URL&#39;s als inhoud toevoegt aan de representaties van uw aanbiedingen, kunt u deze URL&#39;s nu aanpassen met de Expressieeditor. [Meer informatie](../offers/offer-library/add-representations.md)
 
-## Release van januari 2023 {#jan-2023-release}
+## Opmerkingen bij de release januari 2023{#jan-2023-release}
 
 ### Nieuwe functies{#jan-2023-features}
 
