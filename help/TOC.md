@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1365'
 ht-degree: 34%
 
 ---
@@ -356,8 +356,7 @@ ht-degree: 34%
       + [Een gegevensset maken om gebeurtenissen te verzamelen](using/offers/data-collection/create-dataset.md)
       + [Vastleggen van gebeurtenissen configureren](using/offers/data-collection/schema-requirement.md)
    + Beslissingsbeheerrapporten maken {#create-reports}
-      + [Aan de slag met besluitvormingsgebeurtenissen](using/offers/reports/get-started-events.md)
-      + [Belangrijke informatie over gebeurtenissen met betrekking tot het beheer van beslissingen](using/offers/reports/key-information.md)
+      + [Werken met gebeurtenissen voor het beheer van beslissingen](using/offers/reports/get-started-events.md)
       + [Toegang tot gebeurtenissen van XDM-velden](using/offers/reports/xdm-fields.md)
    + De aanbiedingscatalogus exporteren {#export-catalog}
       + [Aan de slag met het exporteren van de aanbiedingscatalogus ](using/offers/export-catalog/get-started-export.md)
@@ -445,8 +444,8 @@ ht-degree: 34%
       + [Informatie over gegevensbronnen, gebeurtenissen en handelingen](using/configuration/about-data-sources-events-actions.md)
       + Integreren met externe systemen {#external-systems}
          + [Reisintegratie met externe systemen](using/configuration/external-systems.md)
-         + [API voor uitlijnen](using/configuration/capping.md)
-         + [Throttling API](using/configuration/throttling.md)
+         + [Afkappings-API](using/configuration/capping.md)
+         + [API voor beperken](using/configuration/throttling.md)
       + Configuratie van gebeurtenissen {#events-journeys}
          + [Algemeen principe](using/event/about-events.md)
          + Een eenheidsgebeurtenis configureren {#unitary-events}

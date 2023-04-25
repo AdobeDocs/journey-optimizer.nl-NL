@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Informatief"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 3%
@@ -85,9 +85,9 @@ U kunt als volgt een direct-mailbericht maken en verzenden:
 
 1. Herhaal deze stappen om zoveel kolommen toe te voegen als nodig is om uw extractiebestand samen te stellen. U kunt maximaal 50 kolommen toevoegen.
 
-   ![](assets/direct-mail-complete.png)
-
    U kunt op elk gewenst moment een kolom verwijderen door deze te selecteren en op de knop **[!UICONTROL Remove]** van de knop **[!UICONTROL Formatting]** sectie.
+
+   ![](assets/direct-mail-complete.png)
 
 1. Zodra de direct-mailinhoud is bepaald, voltooi de configuratie van uw campagne.
 
