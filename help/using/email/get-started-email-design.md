@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: e-mail, ontwerp, voorraad, middelen
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 4df89a36705fb53984ba04ba1ae2f45554e47f77
+source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 4%
+source-wordcount: '453'
+ht-degree: 3%
 
 ---
 
@@ -29,6 +29,14 @@ U kunt bestaande inhoud importeren in [!DNL Journey Optimizer] of mogelijkheden 
 * Verbeter de ervaring van klanten door gepersonaliseerde en dynamische berichten te creëren die op hun profielattributen worden gebaseerd. Meer informatie over [personalisatie](../personalization/personalize.md) en [dynamische inhoud](../personalization/get-started-dynamic-content.md).
 
 ➡️ [Ontdek deze functie in video](#video)
+
+## Aanbevolen werkwijzen voor e-mailontwerp {#best-practices}
+
+Bij het verzenden van e-mails is het belangrijk om te bedenken dat ontvangers deze kunnen doorsturen, wat soms problemen kan veroorzaken bij het weergeven van de e-mail. Dit geldt met name wanneer u CSS-klassen gebruikt die mogelijk niet worden ondersteund door de e-mailprovider die wordt gebruikt voor het doorsturen, bijvoorbeeld als u de CSS-klasse &#39;is-desktop-hidden&#39; gebruikt om een afbeelding op mobiele apparaten te verbergen.
+
+Om deze weergaveproblemen tot een minimum te beperken, raden we u aan de structuur van uw e-mailontwerp zo eenvoudig mogelijk te houden. Probeer één ontwerp te gebruiken dat goed werkt voor zowel mobiele als desktopapparaten en gebruik geen complexe CSS-klassen of andere ontwerpelementen die mogelijk niet volledig door alle e-mailclients worden ondersteund. Door deze beste praktijken te volgen, kunt u helpen ervoor zorgen dat uw e-mails constant correct worden teruggegeven, ongeacht hoe zij door ontvangers worden bekeken of door:sturen.
+
+## Belangrijke stappen om e-mailinhoud te maken {#key-steps}
 
 Zodra u [e-mail toevoegen](create-email.md) voor een reis of een campagne, kunt u beginnen uw e-mailinhoud te creëren.
 
