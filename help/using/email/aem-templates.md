@@ -10,9 +10,10 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="Informatief"
-source-git-commit: 7a044f7c048ba797e7b857212f6d6b0cf2644b5d
+exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '742'
 ht-degree: 1%
 
 ---
@@ -54,7 +55,7 @@ Om het gebruik van Adobe Experience Manager met Adobe Journey Optimizer verder t
 
 Voer de volgende stappen uit om een Adobe Experience Manager-sjabloon naar Adobe Journey Optimizer te exporteren:
 
-1. Selecteer op je Adobe Experience Manager-homepage de optie **[!UICONTROL Outbound Marketing]**.
+1. Selecteer op uw Adobe Experience Manager-homepage de optie **[!UICONTROL Outbound Marketing]**.
 
    ![](assets/aem-outbound-menu.png)
 

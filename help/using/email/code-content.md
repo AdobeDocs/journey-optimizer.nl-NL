@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: code, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 6%
+source-wordcount: '180'
+ht-degree: 5%
 
 ---
 
@@ -36,9 +36,13 @@ Gebruik de **[!UICONTROL Code your own]** om onbewerkte HTML te importeren en/of
 
    ![](assets/code-editor.png)
 
-1. Als u de e-mailontwerper wilt openen om uw e-mail te starten vanuit een nieuw ontwerp, selecteert u **[!UICONTROL Change your design]** in het optiemenu.
+1. Als u uw e-mailinhoud wilt wissen en uw e-mail wilt starten vanuit een nieuw ontwerp, selecteert u **[!UICONTROL Change your design]** in het optiemenu.
 
    ![](assets/code-editor-change-design.png)
+
+   >[!NOTE]
+   >
+   >Met deze actie opent u de geselecteerde sjabloon in de e-mailontwerper. Van daar, kunt u of het ontwerp van uw e-mail voltooien, of naar de coderedacteur teruggaan gebruikend **[!UICONTROL Switch to code editor]** optie.
 
 1. Klik op de knop **[!UICONTROL Preview]** om het berichtontwerp en de verpersoonlijking te controleren gebruikend testprofielen. [Meer informatie](preview.md)
 

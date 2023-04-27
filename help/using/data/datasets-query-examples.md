@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: dataset, optimizer, gebruiksgevallen
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 4c0508d415630ca4a74ec30e5b43a3bfe7fd8a4f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ Op deze pagina vindt u de lijst met Adobe Journey Optimizer-gegevenssets en verw
 [Dataset met gebeurtenissen voor het bijhouden van pushmeldingen](#push-tracking-experience-event-dataset)
 [Reisstapgebeurtenis](#journey-step-event)
 [Dataset voor beslissingsgebeurtenis](#ode-decisionevents)
-[Dataset voor goedgekeurde service](#consent-service-dataset)
 [Gegevensset BCC-feedbackgebeurtenis](#bcc-feedback-event-dataset)
 [Entiteitsgegevens](#entity-dataset)
 
@@ -258,15 +257,16 @@ select explode(propositionexplode.selections) AS proposedOffers from
 group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.ranking.priority;
 ```
 
-## Dataset voor goedgekeurde service{#consent-service-dataset}
+<!--
+## Consent Service Dataset{#consent-service-dataset}
 
-_Naam in de interface: CJM de Dataset van de Dienst van de Goedkeuring (systeemdataset)_
+_Name in the interface: CJM Consent Service Dataset (system dataset)_
 
-Dataset voor Journey Optimizer-service voor toestemming.
+Dataset for Journey Optimizer Consent service.
 
-Het verwante schema is CJM Consent Service Schema.
+The related schema is CJM Consent Service Schema.
 
-Vraag om e-mailadressen weer te geven waarvoor toestemming is verleend om e-mail te ontvangen:
+Query to list email IDs that have consented to receive email:
 
 ```sql
 select key as email FROM (
@@ -278,7 +278,7 @@ select key as email FROM (
 where value.marketing.email.val == 'y'
 ```
 
-Vraag om toestemmingswaarde voor een e-mailidentiteitskaart terug te keren waar e-mailidentiteitskaart de input zou zijn:
+Query to return consent value for an email ID where email ID would be the input:
 
 ```sql
 select value.marketing.email.val FROM (
@@ -287,6 +287,7 @@ select value.marketing.email.val FROM (
   from cjm_consent_service_dataset
  )
 ```
+-->
 
 ## Gegevensset BCC-feedbackgebeurtenis{#bcc-feedback-event-dataset}
 

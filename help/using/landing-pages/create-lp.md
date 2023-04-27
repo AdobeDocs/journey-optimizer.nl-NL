@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: landen, pagina landen, maken, publiceren
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1495'
 ht-degree: 1%
 
 ---
@@ -223,13 +223,13 @@ Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt
 
    De stappen om testprofielen te selecteren zijn het zelfde als wanneer het testen van een bericht. Deze worden in [deze sectie](../email/preview.md#select-test-profiles).
 
-1. Selecteer **[!UICONTROL Preview]** en klik op **[!UICONTROL Open preview]** om de openingspagina te testen.
+1. Selecteren **[!UICONTROL Open preview]** om de openingspagina te testen.
 
    ![](assets/lp_open-preview.png)
 
 1. De voorvertoning van de bestemmingspagina wordt in een nieuw tabblad geopend. De gepersonaliseerde elementen worden vervangen door de geselecteerde gegevens van het testprofiel.
 
-   ![](assets/lp_preview.png)
+   <!--![](assets/lp_preview.png)-->
 
 1. Selecteer andere testprofielen om de rendering voor elke variant van de landingspagina te bekijken.
 

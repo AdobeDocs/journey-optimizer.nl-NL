@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: gegevens, bestuur, DULE, labels, labels, platform, beleid
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 0%
@@ -53,11 +53,9 @@ Raadpleeg deze voor meer informatie over het beheren van beleidsregels [document
 Laten we het voorbeeld nemen van het veld voor het bloedtype dat u als gevoelig moet labelen en dat u niet mag exporteren naar een derde. Hier volgen de verschillende stappen:
 
 1. In het linkermenu, onder **Privacy**, klikt u op **Beleid**.
-   ![](assets/action-privacy0.png)
 1. Selecteer **Labels** en klik op **Label maken**.
    ![](assets/action-privacy1.png)
 1. Definieer een naam en een vriendelijke naam voor dit label. Bijvoorbeeld: _ePHI1_.
-   ![](assets/action-privacy2.png)
 1. In het linkermenu, onder **Gegevensbeheer**, klikt u op **Schemas** en klik op de knop **Toegangs- en gegevensbeheerlabels toepassen** knop. Selecteer uw schema en veld (bloedtype) en selecteer het label dat u eerder hebt gemaakt. _ePHI1_ in ons voorbeeld.
    ![](assets/action-privacy3.png)
 1. Ga terug naar de **Beleid** selecteert u de **Handeling** en klik op **Marketing-actie maken**. We raden u aan één marketingactie te maken voor elke aangepaste actie van derden die wordt gebruikt tijdens uw reizen. Laten we bijvoorbeeld een _Slack-marketingactie_ die wordt gebruikt voor uw aangepaste Slack-actie.

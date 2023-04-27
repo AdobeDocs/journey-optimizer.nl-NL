@@ -5,7 +5,8 @@ feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
-source-git-commit: c9e970bc231fc3d19f0243b71256ea0f5a981af7
+exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 1%
@@ -56,7 +57,7 @@ Maar **meeste kanalen** impressies en klikgegevens vereisen die als een **Experi
 
 ### Aangepaste gebeurtenissen
 
-Feedback op aangepaste gebeurtenissen die aan een voorstel zijn gekoppeld, kan naar Adobe Experience Platform worden verzonden op basis van je eigen voorkeuren. Als een aanbieding bijvoorbeeld meerdere knoppen bevat, zoals *Geïnteresseerd*, *Niet geïnteresseerd*, enzovoort, wilt u deze gebeurtenissen mogelijk afzonderlijk verzenden, maar deze kunnen ook worden verzonden als ervaringsgebeurtenissen. <!--Not sure to get that part. How feedback is collected in the first case, i.e. when events are sent in separately? Does it mean the customer just handles it the wau he wants?-->
+Feedback op aangepaste gebeurtenissen die aan een voorstel zijn gekoppeld, kan naar Adobe Experience Platform worden verzonden op basis van je eigen voorkeuren. Als een aanbieding bijvoorbeeld meerdere knoppen bevat, zoals *Geïnteresseerd*, *Niet geïnteresseerd*, enzovoort, wilt u deze gebeurtenissen mogelijk afzonderlijk verzenden, maar deze kunnen ook worden verzonden als ervaringsgebeurtenissen.
 
 ## Feedbackgegevens verzenden
 
@@ -65,4 +66,3 @@ Als u feedbackgegevens wilt verzenden, moet u een gegevensset maken om gebeurten
 * Leer hoe te om een dataset tot stand te brengen waar de ervaringsgebeurtenissen in zullen worden verzameld [deze sectie](create-dataset.md).
 
 * Leer hoe u ervaringsgebeurtenissen definieert die u wilt verzenden in feedbackgegevens in [deze sectie](schema-requirement.md).
-

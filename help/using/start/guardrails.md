@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: b86e42f95e92d4fad3d20bfbab329ae6d80c2d50
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,11 @@ De prestatiegerelateerde en statische grenzen voor besluiten zijn vermeld in [Ad
 
 ## Reisgeleiders {#journeys-guardrails}
 
+### Algemene reisgeleiders {#journeys-guardrails-journeys}
+
+* Het aantal activiteiten op een reis is beperkt tot 50. Het aantal activiteiten wordt weergegeven in de linkerbovensectie van het reiscanvas.
+* Het aantal **Levende reizen** in één organisatie geldt een limiet van 100 per sandbox. Wanneer deze limiet is bereikt, kunt u geen nieuwe rit meer publiceren.
+
 ### Algemene acties {#general-actions-g}
 
 * Er is geen verzendvertraging.
@@ -67,6 +72,7 @@ De prestatiegerelateerde en statische grenzen voor besluiten zijn vermeld in [Ad
 * De naam van de queryparameter of -header mag niet beginnen met &quot;.&quot; of &quot;$&quot;
 * IP-adressen zijn niet toegestaan
 * Interne Adobe-adressen (`.adobe.*`) zijn niet toegestaan in URL&#39;s en API&#39;s.
+* Ingebouwde aangepaste handelingen kunnen niet worden verwijderd.
 
 ### Gebeurtenissen {#events-g}
 
@@ -99,5 +105,6 @@ U kunt uit één van deze twee oplossingen kiezen:
 
 ### Expression-editor {#expression-editor}
 
-* U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een Leessegment, een Segmentkwalificatie of een zakelijke gebeurtenisactiviteit.
+* U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een Leessegment, een Segmentkwalificatie of een zakelijke gebeurtenisactiviteit. U moet een nieuw segment tot stand brengen en een insegmentvoorwaarde in de reis gebruiken.
+
 

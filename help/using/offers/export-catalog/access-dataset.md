@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: a2d05c7f2c00172a6f4e7b9d9f60d1732c91af8a
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 10%
+source-wordcount: '83'
+ht-degree: 12%
 
 ---
 
@@ -21,10 +21,8 @@ De geëxporteerde aanbiedingencatalogus is toegankelijk in Adobe Experience Plat
 
 Klik op een gegevensset om de details te openen.
 
+De **[!UICONTROL Preview dataset]** de knoop staat u toe om de meest recente succesvolle partij in de dataset te tonen.
+
 ![](../assets/dataset-activity.png)
-
-De **[!UICONTROL Preview dataset]** de knoop staat u toe om de meest recente succesvolle partij in de dataset te tonen. Het linkerdeelvenster bevat informatie over de typen gegevens die zijn geëxporteerd.
-
-![](../assets/dataset-preview.png)
 
 Voor meer informatie over hoe te om datasets te doorbladeren en te gebruiken, verwijs naar [deze pagina](../../data/get-started-datasets.md).

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: inhoud, editor, e-mail, starten
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 4ce8573aa76ceae807d404e736b2d780f687aa56
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -110,13 +110,11 @@ Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen:
 
    ![](assets/email_designer_links.png)
 
-1. Indien nodig kunt u de inhoud verder aanpassen door op **[!UICONTROL Switch to code editor]** vanaf boven **Meer** knop. [Meer informatie over de code-editor](code-content.md)
-
-   ![](assets/email_designer_switch-to-code.png)
+1. Indien nodig kunt u uw e-mail verder aanpassen door op **[!UICONTROL Switch to code editor]** in het geavanceerde menu. Op deze manier kunt u de broncode van de e-mail bewerken, bijvoorbeeld door tags voor bijhouden of aangepaste HTML toe te voegen. [Meer informatie over de code-editor](code-content.md)
 
    >[!CAUTION]
    >
-   >U kunt niet terug naar de visuele ontwerper voor deze inhoud terugkeren na het schakelen naar de coderedacteur.
+   >U kunt niet terugkeren naar de visuele ontwerper voor deze e-mail na het schakelen naar de coderedacteur.
 
 1. Als de inhoud gereed is, klikt u op de knop **[!UICONTROL Simulate content]** om de rendering te controleren. U kunt kiezen voor de weergave Computer of Mobiel. [Meer informatie over een voorbeeld van uw e-mail](preview.md)
 

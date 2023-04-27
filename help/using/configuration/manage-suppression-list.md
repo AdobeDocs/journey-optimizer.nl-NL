@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: onderdrukken, lijst, stuiteren, e-mail, optimaliseren, quarantaine
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 2a3bb638ff3485b6c74d92d64126b3b5fd2925e6
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1499'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,9 @@ Dergelijke e-mailadressen worden automatisch verzameld in de Journey Optimizer *
 
 Meer informatie over het concept en het gebruik van de suppressielijst in [deze sectie](../reports/suppression-list.md).
 
-
+>[!NOTE]
+>
+>Adobe houdt een bijgewerkte lijst bij van bekende slechte adressen waarvan is aangetoond dat deze schadelijk zijn voor de betrokkenheid en de mailingreputatie, en zorgt ervoor dat er geen e-mails aan hen worden bezorgd. Deze lijst wordt beheerd in een globale suppressielijst die over alle klanten van Adobe gemeenschappelijk is. De adressen en domeinnamen in de globale suppressielijst worden verborgen. Alleen het aantal uitgesloten ontvangers wordt vermeld in de leveringsverslagen.
 
 ## De lijst met onderdrukking openen {#access-suppression-list}
 

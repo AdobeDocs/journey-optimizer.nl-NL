@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: reis, ontdek, begin
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: cd154b137d7b4e5a3b35948241d2bbbb18265903
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,11 @@ Ontwerp multistep geavanceerde scenario&#39;s aangedreven door de volgende mogel
 * Gebruik de **ingebouwde handelingen** om berichten te verzenden die zijn ontworpen in [!DNL Journey Optimizer] of maak **aangepaste handelingen** als u een systeem van derden gebruikt om uw berichten te verzenden.
 
 * Met de **reisontwerper**, maak uw meerstapse gebruiksscenario&#39;s: U kunt eenvoudig een entry-gebeurtenis of een lezen-segmentactiviteit slepen en neerzetten, voorwaarden toevoegen en gepersonaliseerde berichten verzenden.
+
+
+>[!NOTE]
+>
+>Reishandleidingen en -beperkingen worden beschreven in [deze pagina](../start/guardrails.md)
 
 ## Stappen om een reis te maken{#steps-journey}
 
@@ -98,7 +103,3 @@ Vanaf het moment dat de reis wordt gepubliceerd, zullen individuen naar de recen
 Reisversies kunnen afzonderlijk worden gestopt. Alle versies van reizen hebben dezelfde naam.
 
 Wanneer u een nieuwe versie van een reis publiceert, automatisch beëindigt de vorige versie en schakelt naar **Gesloten** status. Er kan geen toegang tot de reis plaatsvinden. Zelfs als u de laatste versie stopt, blijft de vorige versie gesloten.
-
->[!NOTE]
->
->Meer informatie over reisversies, instructies en beperkingen, in [deze pagina](../start/guardrails.md#journey-versions-limitations)

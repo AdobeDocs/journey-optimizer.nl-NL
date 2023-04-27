@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landen, landingspagina, maken, sjablonen
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 4%
@@ -24,7 +24,7 @@ Zodra u uw [pagina-inhoud plaatsen](lp-content.md), kunt u deze opslaan voor toe
 
 1. Klik op de ellips rechtsboven in het scherm.
 
-1. Selecteren **[!UICONTROL Save design template]** in het keuzemenu.
+1. Selecteren **[!UICONTROL Save as content template]** in het keuzemenu.
 
    ![](assets/lp_designer-save-template.png)
 
@@ -52,7 +52,7 @@ De volgende keer dat u een openingspagina maakt, kunt u deze sjabloon gebruiken 
 
    ![](assets/lp_designer-saved-templates-navigate.png)
 
-1. Klik op **[!UICONTROL Use this landing page]**.
+1. Klik op **[!UICONTROL Use this template]**.
 
 1. Bewerk de inhoud naar wens met de ontwerper van de bestemmingspagina.
 

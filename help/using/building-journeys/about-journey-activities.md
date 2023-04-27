@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: reis, activiteiten, aan de slag, gebeurtenissen, actie
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 16%
+source-wordcount: '484'
+ht-degree: 14%
 
 ---
 
@@ -66,9 +66,27 @@ Als u aangepaste handelingen hebt geconfigureerd, worden deze ook hier weergegev
 
 ## Best practices {#best-practices}
 
+### Een label toevoegen
+
 Met de meeste activiteiten kunt u een **[!UICONTROL Label]**. Hiermee voegt u een achtervoegsel toe aan de naam die onder uw activiteit op het canvas wordt weergegeven. Dit is handig als u dezelfde activiteit meerdere keren gebruikt en u deze gemakkelijker wilt identificeren. Het zal ook het zuiveren in het geval van fouten gemakkelijker maken en het zal rapporten gemakkelijker te lezen maken. U kunt ook een optionele **[!UICONTROL Description]**.
 
-![](assets/journey59bis.png)
+![](assets/journey-action-label.png)
+
+### Geavanceerde parameters beheren {#advanced-parameters}
+
+De meeste activiteiten geven een aantal geavanceerde en/of technische parameters weer die u niet kunt wijzigen.
+
+![](assets/journey-advanced-parameters.png)
+
+Voor een betere leesbaarheid kunt u deze parameters verbergen met de opdracht **[!UICONTROL Hide read-only fields]** knop.
+
+![](assets/journey-hide-read-only-fields.png)
+
+In bepaalde situaties kunt u de waarden van deze parameters voor specifiek gebruik overschrijven. Als u een waarde wilt afdwingen, klikt u op de knop **[!UICONTROL Enable parameter override]** rechts van het veld. [Meer informatie](../configuration/primary-email-addresses.md#journey-parameters)
+
+![](assets/journey-enable-parameter-override.png)
+
+### Een alternatief pad toevoegen
 
 Wanneer er een fout in een actie of een voorwaarde optreedt, eindigt de journey van een individu. De enige manier om door te gaan is het selectievakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in te schakelen. Zie [deze sectie](../building-journeys/using-the-journey-designer.md#paths).
 

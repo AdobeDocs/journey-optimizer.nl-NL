@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1458'
 ht-degree: 2%
 
 ---
@@ -104,6 +104,152 @@ AND
 ORDER BY timestamp;
 ```
 
+**Hoeveel tijd is verstreken tussen twee knopen**
+
+Deze vragen kunnen, bijvoorbeeld, worden gebruikt om de tijd te schatten die in een wachttijdactiviteit wordt doorgebracht. Dit staat u toe om ervoor te zorgen dat de wachttijdactiviteit correct wordt gevormd.
+
+_Gegevens Meer query_
+
+```sql
+WITH
+
+START_NODE_INFO AS (
+
+    SELECT 
+    
+        timestamp AS TS_START,
+        _experience.journeyOrchestration.stepEvents.nodeName AS NODE_NAME,
+        _experience.journeyOrchestration.stepEvents.instanceID AS INSTANCE_ID
+        
+    FROM 
+    
+        journey_step_events
+    
+    WHERE
+    
+        _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND
+        _experience.journeyOrchestration.stepEvents.nodeName = '<name of node before wait activity>' AND
+        _experience.journeyOrchestration.stepEvents.journeyNodeProcessed = true
+        
+),
+
+END_NODE_INFO AS (
+
+    SELECT 
+    
+        timestamp AS TS_END,
+        _experience.journeyOrchestration.stepEvents.nodeName AS NODE_NAME,
+        _experience.journeyOrchestration.stepEvents.instanceID AS INSTANCE_ID
+        
+    FROM 
+    
+        journey_step_events
+    
+    WHERE
+    
+        _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND
+        _experience.journeyOrchestration.stepEvents.nodeName = '<name of wait activity node>' AND
+        _experience.journeyOrchestration.stepEvents.journeyNodeProcessed = true
+        
+)
+
+SELECT 
+
+    T1.INSTANCE_ID AS INSTANCE_ID,
+    T1.NODE_NAME AS START_NODE_NAME,
+    T2.NODE_NAME AS END_NODE_NAME,
+    DATEDIFF(millisecond,T1.TS_START,T2.TS_END) AS ELAPSED_TIME_MS
+    
+FROM
+
+    START_NODE_INFO AS T1,
+    END_NODE_INFO AS T2
+    
+WHERE
+
+    T1.INSTANCE_ID = T2.INSTANCE_ID
+```
+
+_Gegevens Meer query_
+
+```sql
+WITH
+
+START_NODE_INFO AS (
+
+    SELECT 
+    
+        timestamp AS TS_START,
+        _experience.journeyOrchestration.stepEvents.nodeName AS NODE_NAME,
+        _experience.journeyOrchestration.stepEvents.instanceID AS INSTANCE_ID
+        
+    FROM 
+    
+        journey_step_events
+    
+    WHERE
+    
+        _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND
+        _experience.journeyOrchestration.stepEvents.nodeName = '<name of node before wait activity>' AND
+        _experience.journeyOrchestration.stepEvents.journeyNodeProcessed = true
+        
+),
+
+END_NODE_INFO AS (
+
+    SELECT 
+    
+        timestamp AS TS_END,
+        _experience.journeyOrchestration.stepEvents.nodeName AS NODE_NAME,
+        _experience.journeyOrchestration.stepEvents.instanceID AS INSTANCE_ID
+        
+    FROM 
+    
+        journey_step_events
+    
+    WHERE
+    
+        _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey version id>' AND
+        _experience.journeyOrchestration.stepEvents.nodeName = '<name of wait activity node>' AND
+        _experience.journeyOrchestration.stepEvents.journeyNodeProcessed = true
+        
+)
+
+SELECT 
+
+    AVG(DATEDIFF(millisecond,T1.TS_START,T2.TS_END)) AS AVERAGE_ELAPSED_TIME,
+    MIN(DATEDIFF(millisecond,T1.TS_START,T2.TS_END)) AS MIN_ELAPSED_TIME,
+    MAX(DATEDIFF(millisecond,T1.TS_START,T2.TS_END)) AS MAX_ELAPSED_TIME
+    
+FROM
+
+    START_NODE_INFO AS T1,
+    END_NODE_INFO AS T2
+    
+WHERE
+
+    T1.INSTANCE_ID = T2.INSTANCE_ID
+```
+
+**Hoe te om de details van een serviceEvent te controleren**
+
+De dataset van de Gebeurtenissen van de Stap van de Reis bevat alle stepEvents en serviceEvents. stepEvents worden gebruikt in de rapportage, aangezien ze betrekking hebben op activiteiten (gebeurtenis, acties, enz.) van profielen op reis. serviceEvents worden opgeslagen in de zelfde dataset, en zij wijzen op extra informatie voor het zuiveren doeleinden, bijvoorbeeld de reden voor een gebeurtenis van de ervaringsgebeurtenis verwerpen.
+
+Hier is een voorbeeld van vraag om de details van een serviceEvent te controleren:
+
+_Gegevens Meer query_
+
+```sql
+SELECT
+
+     _experience.journeyOrchestration.profile.ID, 
+     _experience.journeyOrchestration.journey.versionID, 
+     to_json(_experience.journeyOrchestration.serviceEvents) 
+
+FROM journey_step_event 
+
+WHERE _experience.journeyOrchestration.serviceType is not null;
+```
 
 ## Bericht-/handelingsfouten {#message-action-errors}
 
@@ -1066,4 +1212,3 @@ GROUP BY
 ORDER BY
     DATETIME DESC
 ```
-

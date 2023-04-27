@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1371'
 ht-degree: 34%
 
 ---
@@ -230,10 +230,10 @@ ht-degree: 34%
    + [Direct mail configureren](using/direct-mail/direct-mail-configuration.md)
 + Webkanaal{#web}
    + [Aan de slag met webkanaal](using/web/get-started-web.md)
+   + [Voorwaarden voor webkanalen](using/web/web-prerequisites.md)
    + [Webervaringen maken](using/web/create-web.md)
    + [Webpagina&#39;s van auteurs](using/web/author-web.md)
-   + [De extensie Visuele bewerkingshulp](using/web/visual-editing-helper.md)
-   + [Webrapportage](using/web/web-report.md)
+   + [Websubdomeinen configureren](using/web/web-delegated-subdomains.md)
 + Landingspagina’s {#landing-pages}
    + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
    + [Een landingspagina maken](using/landing-pages/create-lp.md)
@@ -294,12 +294,14 @@ ht-degree: 34%
 + Bijhouden en bewaken {#reporting}
    + Live-rapport {#live-report}
       + [Aan de slag met Live-rapport](using/reports/live-report.md)
+      + [Lijst met componenten](using/reports/live-report-components.md)
       + [Journey Live-rapport](using/reports/journey-live-report.md)
       + [Campagne Live-rapport](using/reports/campaign-live-report.md)
       + [Openingspagina Live-rapport](using/reports/lp-report-live.md)
       + [Abonnementenlijst Live-rapport](using/reports/subscription-report-live.md)
    + Algemeen rapport {#global-report}
       + [Aan de slag met Global-rapport](using/reports/global-report.md)
+      + [Lijst met componenten](using/reports/global-report-components.md)
       + [Journey Global-rapport](using/reports/journey-global-report.md)
       + [Campagne Global-rapport](using/reports/campaign-global-report.md)
       + [Openingspagina Global-rapport](using/reports/lp-report-global.md)

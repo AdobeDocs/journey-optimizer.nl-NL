@@ -9,16 +9,20 @@ role: Admin
 level: Intermediate
 keywords: reis, boodschap, campagne, integratie
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 1%
+source-wordcount: '412'
+ht-degree: 0%
 
 ---
 
 # Hoofdlettergebruik: een bericht verzenden met Campagne v7/v8 {#campaign-classic-use-case}
 
 In dit geval worden alle stappen beschreven die nodig zijn om een e-mail te verzenden via de integratie met Adobe Campaign Classic v7 en Adobe Campaign v8.
+
+>[!NOTE]
+>
+>Om deze integratie te kunnen gebruiken, moet u Campaign Classic bouwen 9125 of hoger hebben.
 
 We maken eerst een transactionele e-mailsjabloon in Campagne. In Journey Optimizer maken we dan het evenement, de actie en ontwerpen we de reis.
 

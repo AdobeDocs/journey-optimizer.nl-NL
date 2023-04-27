@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1692'
 ht-degree: 1%
 
 ---
@@ -243,9 +243,23 @@ Als u een URL-volgparameter wilt configureren, kunt u rechtstreeks de gewenste w
 >
 >Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
-U kunt ook elke **[!UICONTROL Value]** veld met [Expressieeditor](../personalization/personalization-build-expressions.md). Klik op het pictogram van de editie om de editor te openen. Vervolgens kunt u de contextafhankelijke kenmerken van uw keuze selecteren en/of de tekst rechtstreeks bewerken.
+U kunt ook elke **[!UICONTROL Value]** veld met [Expressieeditor](../personalization/personalization-build-expressions.md). Klik op het pictogram van de editie om de editor te openen. Vervolgens kunt u de beschikbare contextafhankelijke kenmerken selecteren en/of de tekst rechtstreeks bewerken.
 
 ![](assets/preset-url-tracking-editor.png)
+
+De volgende vooraf gedefinieerde waarden zijn beschikbaar via de Expressieeditor:
+
+* **Id van handeling Bron**: Id van de e-mailactie die is toegevoegd aan de reis of campagne.
+
+* **Naam van bronhandeling**: naam van de e-mailactie die aan de reis of campagne is toegevoegd.
+
+* **Bron-id**: Id van de reis of campagne waarmee de e-mail is verzonden.
+
+* **Bronnaam**: naam van de reis of campagne waarmee de e-mail is verzonden.
+
+* **Id van bronversie**: Id van de reis- of campagneversie waarmee de e-mail is verzonden.
+
+* **Offerte-id**: ID van het voorstel dat in de e-mail wordt gebruikt.
 
 >[!NOTE]
 >

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 47145e980c37f67b6981ffd9cc4300d29e179f45
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2271'
 ht-degree: 1%
 
 ---
@@ -215,9 +215,12 @@ De **[!UICONTROL Capping event]** in het veld kunt u bepalen welke **[!UICONTROL
    1. Zodra de regel wordt gecreeerd, toont het in **[!UICONTROL Custom event query]** veld.
 
       ![](../assets/offer-capping-custom-event-query.png)
-   >[!CAUTION]
-   >
-   >Voor alle begrenzingsgebeurtenissen behalve beslissingsgebeurtenis, kan de terugkoppeling van het besluitvormingsbeheer niet automatisch worden verzameld, zodat wordt gewaarborgd dat de gegevens binnen komen. [Meer informatie over gegevensverzameling](../data-collection/data-collection.md)
+
+>[!CAUTION]
+>
+>Voor alle begrenzingsgebeurtenissen behalve beslissingsgebeurtenis, kan de terugkoppeling van het beslissingsbeheer niet automatisch worden verzameld, wat ertoe kan leiden dat de afspeelteller niet correct wordt verhoogd. [Meer informatie](../data-collection/data-collection.md)
+>
+>Om ervoor te zorgen dat elke begrenzingsgebeurtenis wordt bijgehouden en in de afluisterteller wordt verwerkt, zorg ervoor dat het schema dat wordt gebruikt om ervaringsgebeurtenissen te verzamelen de correcte gebiedsgroep voor die gebeurtenis omvat. [Meer informatie](../data-collection/schema-requirement.md)
 
 ### Afdektelling {#capping-count}
 

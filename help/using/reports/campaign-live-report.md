@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '915'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,7 @@ De campagne **[!UICONTROL Live report]** Deze pagina wordt weergegeven met de vo
 * [Email](#email-live)
 * [Push](#push-live)
 * [Sms](#sms-live)
+* [Web](#web-tab)
 
 De campagne **[!UICONTROL Live report]** is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Elke widget kan indien nodig worden vergroot of verkleind en verwijderd. Raadpleeg voor meer informatie hierover [sectie](../reports/live-report.md#modify-dashboard).
 
@@ -162,6 +163,25 @@ De **[!UICONTROL SMS Performance by date]** widget geeft de belangrijkste inform
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
 De **[!UICONTROL Exclude Reasons]**, **[!UICONTROL Bounces Reasons]** en **[!UICONTROL Error Reasons]** in grafieken en tabellen kunt u zien welke fout en uitsluitingen tijdens de levering zijn opgetreden.
++++
+
+## Tabblad Web {#web-tab}
+
+Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Web]** van het lusje details de belangrijkste informatie met betrekking tot uw Web-pagina&#39;s.
+
++++Leer meer op de verschillende metriek en widgets beschikbaar voor het rapport van het Web.
+
+De **[!UICONTROL Web performance]** KPI&#39;s geven een gedetailleerde beschrijving van de belangrijkste informatie over de betrokkenheid van uw bezoekers bij uw webervaringen, zoals:
+
+* **[!UICONTROL Unique impressions]**: aantal unieke gebruikers aan wie de webervaring is geleverd.
+
+* **[!UICONTROL Impressions]**: totaal aantal webervaringen dat aan alle gebruikers wordt geleverd.
+
+* **[!UICONTROL Clicks]**: totaal aantal URL-bezoeken.
+
+De **[!UICONTROL Web summary]** in de grafiek wordt de evolutie van uw webervaringen (indrukken, unieke indrukken en klikken) voor de desbetreffende periode weergegeven.
+
+De **[!UICONTROL Clicks by element]** de tabel bevat de belangrijkste informatie over de betrokkenheid van uw bezoekers bij de verschillende elementen op uw webpagina&#39;s.
 +++
 
 ## Aanvullende bronnen

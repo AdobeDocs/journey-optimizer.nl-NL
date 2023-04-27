@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d2ce7d7e717ed5fa171cb3de31915830f391d7f9
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '814'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,7 @@ Voer de volgende stappen uit om een API-gestuurde campagne te maken:
 
    ![](assets/api-triggered-type.png)
 
-1. Specificeer een titel en een beschrijving voor de campagne, dan vorm het te verzenden bericht.
-
-   ![](assets/api-triggered-properties.png)
+1. Geef een titel en een beschrijving voor de campagne op en klik vervolgens op **[!UICONTROL Edit content]** om het te verzenden bericht te vormen.
 
    >[!NOTE]
    >

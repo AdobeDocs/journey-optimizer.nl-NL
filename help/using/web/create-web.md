@@ -5,30 +5,15 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-badge: label="Beta" type="Informatief"
-source-git-commit: c21c0386be33eea6f7053fb891ebad3d9a1154c9
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '632'
 ht-degree: 3%
 
 ---
 
 # Webervaringen maken {#create-web}
-
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatie zult vinden:
-
-* [Aan de slag met webkanaal](get-started-web.md)
-* **[Webervaringen maken](create-web.md)**
-* [Webpagina&#39;s van auteurs](author-web.md)
-* [De extensie Visuele bewerkingshulp](visual-editing-helper.md)
-* [Webrapportage](web-report.md)
-
->[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] kunt u de webervaring aanpassen die u aan uw klanten via binnenkomende webcampagnes levert.
 
@@ -36,35 +21,7 @@ Wat u in deze documentatie zult vinden:
 >
 >Momenteel in [!DNL Journey Optimizer] u kunt alleen webervaringen maken met **campagnes**.
 
-## Vereisten {#prerequesites}
-
-Webpagina&#39;s openen en ontwerpen in het dialoogvenster [!DNL Journey Optimizer] voor de gebruikersinterface:
-
-* Als u wijzigingen aan uw website wilt toevoegen, moet u het [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} op uw website.
-
-* Om toegang te krijgen tot [!DNL Journey Optimizer] webontwerper: u moet de [Helper voor Adobe Experience Cloud Visual Editing](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} browserextensie op Chrome. [Meer informatie](visual-editing-helper.md)
-
->[!CAUTION]
->
->Google Chrome is momenteel de enige browser die het ontwerpen van webpagina&#39;s ondersteunt in [!DNL Journey Optimizer].
-
-De webervaring kan alleen correct worden geleverd als de volgende instellingen zijn gedefinieerd:
-
-* In de [Adobe Experience Platform-gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target="_blank"}moet u ervoor zorgen dat er een gegevensstroom is gedefinieerd, zoals onder de **[!UICONTROL Adobe Experience Platform]** de dienst u zowel heeft **[!UICONTROL Edge Segmentation]** en **[!UICONTROL Adobe Journey Optimizer]** opties ingeschakeld.
-
-   Dit zorgt ervoor dat de inkomende Journey Optimizer-gebeurtenissen correct worden afgehandeld door de Adobe Experience Platform Edge. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
-
-   ![](assets/web-aep-datastream-ajo.png)
-
-   >[!NOTE]
-   >
-   >De **[!UICONTROL Adobe Journey Optimizer]** Deze optie kan alleen worden ingeschakeld wanneer de **[!UICONTROL Edge Segmentation]** is al ingeschakeld.
-
-* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
-
-   Dit samenvoegbeleid wordt gebruikt door [!DNL Journey Optimizer] binnenkomende kanalen om binnenkomende campagnes op de rand correct te activeren en te publiceren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}
-
-   ![](assets/web-aep-merge-policy.png)
+[Leer hoe u een webcampagne kunt maken in deze video](#video)
 
 ## Een webcampagne maken {#create-web-campaign}
 
@@ -76,15 +33,17 @@ De webervaring kan alleen correct worden geleverd als de volgende instellingen z
 >[!CONTEXTUALHELP]
 >id="ajo_web_surface_rule"
 >title="Een overeenkomende regel voor pagina&#39;s maken"
->abstract="Met een regel voor paginaovereenkomsten kunt u meerdere URL&#39;s met dezelfde regel als doel instellen. Dit geldt bijvoorbeeld als u de wijzigingen wilt toepassen op een hoofdbanner op een hele website of een bovenste afbeelding wilt toevoegen die op alle productpagina&#39;s van een website wordt weergegeven."
+>abstract="Met een regel voor pagina&#39;s die overeenkomen met een regel, kunt u bijvoorbeeld meerdere URL&#39;s met dezelfde regel als doel instellen. Dit is bijvoorbeeld het geval als u de wijzigingen wilt toepassen op een hoofdbanner op een hele website of een bovenste afbeelding wilt toevoegen die op alle productpagina&#39;s van een website wordt weergegeven."
 
 Volg onderstaande stappen om uw webervaring op te bouwen via een campagne.
+
+>[!NOTE]
+>
+>Als dit de eerste keer is dat u een webervaring maakt, moet u de voorwaarden volgen die worden beschreven in [deze sectie](web-prerequisites.md).
 
 1. Een campagne maken. [Meer informatie](../campaigns/create-campaign.md)
 
 1. Selecteer **[!UICONTROL Web]** handeling.
-
-   ![](assets/web-create-campaign.png)
 
 1. Definieer een weboppervlak.
 
@@ -112,47 +71,13 @@ Volg onderstaande stappen om uw webervaring op te bouwen via een campagne.
 
    ![](assets/web-pages-matching-rule-example.png)
 
-1. Nadat u het weboppervlak hebt gedefinieerd, selecteert u **[!UICONTROL Create]**. U kunt uw campagneeigenschappen en montages nu vormen.
+1. Nadat u het weboppervlak hebt gedefinieerd, selecteert u **[!UICONTROL Create]**.
 
-## De webcampagne configureren {#configure-web-campaign}
+1. Voer de stappen uit om een webcampagne te maken, zoals de eigenschappen van de campagne, [publiek](../segment/about-segments.md), en [schema](../campaigns/create-campaign.md#schedule).
 
-1. In de **[!UICONTROL Properties]** kunt u de naam van de campagne bewerken en zo nodig een beschrijving toevoegen.
+   ![](assets/web-campaign-steps.png)
 
-   ![](assets/web-campaign-properties.png)
-
-1. Als u aangepaste of basislabels voor gegevensgebruik wilt toewijzen aan de webcampagne, selecteert u de optie **[!UICONTROL Manage access]** boven op het scherm. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md)
-
-1. U kunt **[!UICONTROL Content experiment]** de behandeling van de inhoud met delen van de doelgroep te testen, om te bepalen welke behandeling het best presteert ten opzichte van een specifieke meting. [Meer informatie](../campaigns/content-experiment.md)
-
-   >[!AVAILABILITY]
-   >
-   >De **Inhoud experimenteren** Deze functie is momenteel alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
-
-1. Van de **[!UICONTROL Action]** tabblad van de campagne, selecteert u **[!UICONTROL Edit content]** om uw webcampagne te gaan ontwerpen. [Meer informatie](author-web.md)
-
-   ![](assets/web-edit-content.png)
-
-1. Van de **[!UICONTROL Audience]** , definieert u wie uw webcampagne kan bekijken. Standaard is de webcampagne zichtbaar voor alle bezoekers.
-
-   ![](assets/web-campaign-audience.png)
-
-   U kunt ook een specifiek publiek selecteren. Gebruik de **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-segmenten weer te geven. [Meer informatie over segmenten](../segment/about-segments.md)
-
-   >[!NOTE]
-   >
-   >Voor API-getriggerde campagnes moet het publiek worden ingesteld via API-aanroep. [Meer informatie](../campaigns/api-triggered-campaigns.md)
-
-   ![](assets/web-campaign-select-audience.png)
-
-1. In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren. [Meer informatie over naamruimten](../event/about-creating.md#select-the-namespace)
-
-1. Een **[!UICONTROL Schedule]** voor uw webcampagne. [Meer informatie](../campaigns/create-campaign.md#schedule)
-
-   ![](assets/web-campaign-schedule.png)
-
-   Standaard wordt het programma gestart wanneer het handmatig wordt geactiveerd en eindigt het wanneer het handmatig wordt gestopt, maar u kunt ook specifieke datums en tijden definiëren waarop de wijzigingen zichtbaar moeten zijn.
-
-   ![](assets/web-campaign-schedule-start.png)
+Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [deze pagina](../campaigns/get-started-with-campaigns.md).
 
 ## De webcampagne activeren {#activate-web-campaign}
 
@@ -164,9 +89,7 @@ Zodra u uw [webcampagneinstellingen](#configure-web-campaign) en u hebt de inhou
 
 1. Selecteer in uw webcampagne de optie **[!UICONTROL Review to activate]**.
 
-   ![](assets/web-campaign-review.png)
-
-1. Bekijk en bewerk indien nodig de inhoud, eigenschappen, oppervlak, publiek en planning.
+1. Controleer en bewerk indien nodig de inhoud, eigenschappen, oppervlak, publiek en planning.
 
 1. Selecteer **[!UICONTROL Activate]**.
 
@@ -201,3 +124,9 @@ Wanneer een webcampagne live is, kunt u deze stoppen om te voorkomen dat uw publ
 >[!NOTE]
 >
 >Nadat een webcampagne is gestopt, kunt u deze niet meer bewerken of activeren. U kunt de gedupliceerde campagne alleen dupliceren en activeren.
+
+## Hoe kan ik-video{#video}
+
+In de onderstaande video ziet u hoe u een webcampagne kunt maken, de eigenschappen ervan kunt configureren, beoordelen en publiceren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

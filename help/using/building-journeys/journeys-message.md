@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '894'
 ht-degree: 1%
 
 ---
@@ -85,6 +85,10 @@ Om dit te doen, open uw levende reis, selecteer de berichtactiviteit en klik **I
 ![](assets/add-a-message2.png)
 
 U kunt de kenmerken die worden gebruikt in personalisatie echter niet wijzigen, ongeacht of het profielkenmerken of contextafhankelijke gegevens (van gebeurtenis- of reiseigenschappen) zijn.
+
+Als u contextafhankelijke gegevens hebt gewijzigd, wordt het volgende foutbericht weergegeven: ERR_AUTHORING_JOURNEYVERSION_201
+
+Als u profielkenmerken hebt gewijzigd, wordt het volgende foutbericht weergegeven: ERR_AUTHORING_JOURNEYVERSION_202
 
 Voor de activiteit in de app kunnen wijzigingen in de inhoud worden aangebracht terwijl de reis live is, maar triggers in de app kunnen niet worden gewijzigd.
 

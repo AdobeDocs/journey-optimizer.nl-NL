@@ -4,10 +4,10 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 93e3ed9e1a9a437353b800aee58952b86eab9370
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '2570'
-ht-degree: 17%
+source-wordcount: '2709'
+ht-degree: 16%
 
 ---
 
@@ -17,9 +17,13 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 ## April 2023 {#apr-2023}
 
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 23 april is in detail beschreven in de documentatie. [Meer informatie](release-notes.md)
 * Adobe Experience Manager Assets Essentials en Adobe Stock zijn toegevoegd aan de integratiepagina voor meerdere oplossingen. [Meer informatie](../start/ajo-integrations.md)
 * De waarschuwing dat e-mailsubdomeinen op meerdere niveaus niet zijn toegestaan, is verwijderd omdat deze nu worden ondersteund. [Meer informatie](../configuration/delegate-subdomain.md)
-* Er is een notitie toegevoegd om aan te geven dat als er wijzigingen worden aangebracht in een besluit over een aanbieding dat wordt gebruikt in het bericht van een reis, u de reis ongedaan moet maken en opnieuw moet publiceren. [Meer informatie](../building-journeys/publishing-the-journey.md)
+* Er is een notitie toegevoegd om aan te geven dat als er wijzigingen worden aangebracht in een besluit over een aanbod dat wordt gebruikt in een reisbericht, u de reis ongedaan moet maken en opnieuw moet publiceren. [Meer informatie](../building-journeys/publishing-the-journey.md)
+* In het besluitvormingsbeheer is verduidelijkt hoe u ervoor moet zorgen dat gebeurtenissen correct in de afluisterteller worden verwerkt **gebeurtenis Capping** sectie. [Meer informatie](../offers/offer-library/add-constraints.md#capping-event)
+* Er is een nieuwe sectie toegevoegd aan de **Uitvoeringadressen wijzigen** pagina. Het specificeert dat het mogelijk is om het uitvoeringsgebied met voeten te treden globaal in de reis geavanceerde parameters wordt geplaatst, maar de e-mailadresopheffing zou slechts voor specifieke gebruiksgevallen moeten worden gebruikt. Meestal wordt de waarde gedefinieerd als het primaire adres in de **Uitvoervelden** Dat is de methode die moet worden gebruikt. [Meer informatie](../configuration/primary-email-addresses.md#journey-parameters)
+* De **URL-tracking** biedt nu de lijst en beschrijving van alle contextafhankelijke kenmerken die kunnen worden ingesteld voor URL-tracking in een oppervlak van een e-mailkanaal. [Meer informatie](../offers/offer-library/add-constraints.md)
 
 ## Maart 2023 {#march-2023}
 

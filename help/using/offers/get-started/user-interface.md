@@ -6,56 +6,45 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 0%
+source-wordcount: '639'
+ht-degree: 3%
 
 ---
 
 # Gebruikersinterface {#user-interface}
 
-Met de aanbiedingsbibliotheek kunt u uw plaatsingen en aanbiedingen op één locatie maken en beheren en hebt u toegang tot alle gemaakte beslissingen.
+De **[!UICONTROL Decision management]** het gedeelte in de linkerrail bevat twee menu &#39; s die u toegang geven tot de mogelijkheden voor besluitvormingsbeheer :
 
->[!NOTE]
->
->Als u problemen ondervindt bij het openen van de bibliotheek met aanbiedingen of bepaalde functies, vraagt u een Admin-gebruiker om de vereiste rechten. Zie [Toegang verlenen tot het beheer van besluiten](starting-offer-decisioning.md#granting-acess-to-decision-management).
+Gebruik de **[!UICONTROL Offers]** menu voor het beheren en leveren van uw aanbiedingen:
 
-Gebruik de  **[!UICONTROL Offers]** om gepersonaliseerde en terugvalaanbiedingen te beheren, hen in inzamelingen te organiseren, en hen te leveren door besluiten te creëren:
-
-* **[!UICONTROL Overview]**: Nieuw bij [!DNL decision management]? Volg de stappen op het scherm om aan de slag te gaan met het instellen van plaatsingen, aanbiedingen en verzamelingen. Als u al vertrouwd bent met [!DNL decision management], bekijk een overzicht van je meest recente aanbiedingen, verzamelingen en beslissingen. Zie [Overzicht](#overview).
-
-* **[!UICONTROL Offers]**: Heb toegang tot uw gepersonaliseerde en reserveaanbiedingen of creeer nieuwe degenen. Zie [Een aanbieding maken](../offer-library/creating-personalized-offers.md) en [Een fallback-aanbieding maken](../offer-library/creating-fallback-offers.md).
-
-* **[!UICONTROL Collections]**: Creeer en beheer statische en dynamische aanbiedingsinzamelingen. Zie [Over aanbiedingsverzamelingen](../offer-library/creating-collections.md).
-
-* **[!UICONTROL Decisions]**: Beslissingen maken en beheren om uw aanbiedingen te leveren. Zie [Besluiten maken](../offer-activities/create-offer-activities.md).
 
 ![](../assets/offers_menu.png)
 
-Gebruik de  **[!UICONTROL Components]** menu voor het beheer van de componenten die nodig zijn om aanbiedingen te maken:
+* **[!UICONTROL Overview]**: Nieuw bij [!DNL decision management]? Volg de stappen op het scherm om aan de slag te gaan met het instellen van plaatsingen, aanbiedingen en verzamelingen. Als u al vertrouwd bent met [!DNL decision management], bekijk een overzicht van je meest recente aanbiedingen, verzamelingen en beslissingen. [Meer informatie](#overview)
+* **[!UICONTROL Offers]**: Maak en open uw persoonlijke en fallback-aanbiedingen. Leer hoe u creeert [aanbiedingen](../offer-library/creating-personalized-offers.md) en [fallbackaanbiedingen](../offer-library/creating-fallback-offers.md)
+* **[!UICONTROL Collections]**: Organiseer uw aanbiedingen in statische en dynamische verzamelingen. [Meer informatie](../offer-library/creating-collections.md)
+* **[!UICONTROL Decisions]**: Beslissingen maken en beheren om uw aanbiedingen te leveren. [Meer informatie](../offer-activities/create-offer-activities.md)
+* **[!UICONTROL Batch decisioning]**: Besluiten over aanbiedingen voor alle profielen in een bepaald Adobe Experience Platform-segment. [Meer informatie](../batch-delivery.md)
+* **[!UICONTROL Simulation]**: Valideer uw besluitvormingslogica door te simuleren welke aanbiedingen aan een testprofiel voor een bepaalde plaatsing zullen worden geleverd. [Meer informatie](../offer-activities/simulation.md)
 
-* **[!UICONTROL Placements]**: Maak en beheer plaatsingen waar uw aanbiedingen worden weergegeven. Zie [Plaatsen maken](../offer-library/creating-placements.md).
-
-* **[!UICONTROL Collection qualifiers]**: Maak en beheer verzamelingsaanduidingen (voorheen &#39;tags&#39; genoemd) om uw aanbiedingen te organiseren en filteren. Zie [Verzamelingsaanduidingen maken](../offer-library/creating-tags.md).
-
-* **[!UICONTROL Rules]**: De voorwaarden beheren waaronder uw voorstellen worden weergegeven. Zie [Een beslissingsregel maken](../offer-library/creating-decision-rules.md).
-
-* **[!UICONTROL Rankings]**: Opstellen en beheren van rangschikkingsformules om te bepalen welke aanbieding als eerste voor een bepaalde plaatsing moet worden gepresenteerd. Zie [Classificatieformules maken](../ranking/create-ranking-formulas.md).
+Gebruik de **[!UICONTROL Components]** menu om componenten te maken en te beheren die nodig zijn om aanbiedingen en beslissingen te maken:
 
 ![](../assets/offer_activities.png)
 
+* **[!UICONTROL Placements]**: Maak en beheer plaatsingen waar uw aanbiedingen worden weergegeven. [Meer informatie](../offer-library/creating-placements.md)
+* **[!UICONTROL Collection qualifiers]**: Maak en beheer verzamelingsaanduidingen (voorheen &#39;tags&#39; genoemd) om uw aanbiedingen te organiseren en filteren. [Meer informatie](../offer-library/creating-tags.md)
+* **[!UICONTROL Rules]**: De voorwaarden beheren waaronder uw voorstellen worden weergegeven. [Meer informatie](../offer-library/creating-decision-rules.md)
+* **[!UICONTROL Ranking]**: Opstellen en beheren van rangschikkingsformules om te bepalen welke aanbieding als eerste voor een bepaalde plaatsing moet worden gepresenteerd. [Meer informatie](../ranking/create-ranking-formulas.md)
+
+>[!NOTE]
+>
+>Als u problemen ondervindt bij het benaderen van het beslissingsbeheer of een aantal van de functies ervan, kunt u contact opnemen met een Admin-gebruiker om te controleren of u de vereiste rechten hebt. Zie [Toegang verlenen tot het beheer van besluiten](starting-offer-decisioning.md#granting-acess-to-decision-management).
+
 ## Overzicht {#overview}
 
-Als u nog niet eerder [!DNL decision management]de **[!UICONTROL Overview]** bevat een overzicht van de belangrijkste stappen die nodig zijn om de beslissing over je eerste voorstel op te stellen.
-
-![](../assets/overview_onboarding.png)
-
-Volg de stappen op het scherm om plaatsingen, aanbiedingen en verzamelingen te maken.
-
-Zodra u met deze eerste stappen wordt gedaan, wordt u ertoe aangezet om aanbiedingsbesluiten tot stand te brengen.
-
-![](../assets/overview_collection-created.png)
+Als u nog niet eerder [!DNL decision management]de **[!UICONTROL Overview]** bevat een overzicht van de belangrijkste stappen die nodig zijn om de beslissing over je eerste voorstel op te stellen. Volg de stappen op het scherm om plaatsingen, aanbiedingen en verzamelingen te maken. Zodra u met deze eerste stappen wordt gedaan, wordt u ertoe aangezet om aanbiedingsbesluiten tot stand te brengen.
 
 >[!NOTE]
 >
@@ -95,11 +84,7 @@ Selecteer in de verschillende lijsten een element om een informatievenster weer 
 
 Met de lijsten met aanbiedingen en beslissingen kunt u ook bulkacties uitvoeren op verschillende elementen. U doet dit door de gewenste aanbiedingen of beslissingen te selecteren en vervolgens in het informatievenster de actie te selecteren die u wilt uitvoeren.
 
-![](../assets/bulk-actions.png)
-
 U kunt ook een bestaande aanbieding of een bestaande beslissing dupliceren om een kopie te maken met de **[!UICONTROL Draft]** status. Dit kan of van de informatieruit of van een aanbieding of de gedetailleerde mening van een besluit worden uitgevoerd.
-
-![](../assets/duplicate-offer.png)
 
 ## Aanbiedingen en besluiten veranderen logboeken {#changes-logs}
 

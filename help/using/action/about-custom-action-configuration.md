@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '998'
 ht-degree: 4%
 
 ---
@@ -97,35 +97,31 @@ Wanneer het vormen van een douaneactie, moet u het volgende bepalen **[!UICONTRO
    >
    > De **DELETE** methode wordt niet ondersteund. Als u een bestaande bron moet bijwerken, selecteert u de optie **PUT** methode.
 
-1. In de **[!UICONTROL Headers]** in, definieert u de HTTP-headers van het aanvraagbericht dat naar de externe service moet worden verzonden:
-   1. Als u een koptekstveld wilt toevoegen, klikt u op **[!UICONTROL Add a header field]**.
-   1. Voer de sleutel van het headerveld in.
-   1. Als u een dynamische waarde voor het sleutelwaardepaar wilt instellen, selecteert u **[!UICONTROL Variable]**. Anders selecteert u **[!UICONTROL Constant]**.
+1. Definieer de headers en queryparameters:
 
-      Voor een tijdstempel kunt u bijvoorbeeld een dynamische waarde instellen.
+   * In de **[!UICONTROL Headers]** sectie, klikt u op **[!UICONTROL Add a header field]** om de kopballen van HTTP van het verzoekbericht te bepalen dat naar de externe dienst moet worden verzonden. De **[!UICONTROL Content-Type]** en **[!UICONTROL Charset]** koptekstvelden worden standaard ingesteld. U kunt deze velden niet wijzigen of verwijderen.
 
-   1. Als u **[!UICONTROL Constant]** Voer vervolgens de constante waarde in.
+   * In de **[!UICONTROL Query parameters]** sectie, klikt u op **[!UICONTROL Add a Query parameter field]** om de parameters te bepalen u in URL wilt toevoegen.
 
-      Als u **[!UICONTROL Variable]**, dan zult u deze variabele specificeren wanneer het toevoegen van de douaneactie aan een reis. [Meer informatie](../building-journeys/using-custom-actions.md).
+   ![](assets/journeyurlconfiguration2bis.png)
 
-      ![](assets/journeyurlconfiguration2.png)
+1. Voer het label of de naam van het veld in.
 
-   1. Als u een koptekstveld wilt verwijderen, wijst u naar het koptekstveld en klikt u op de knop **[!UICONTROL Delete]** pictogram.
-   De **[!UICONTROL Content-Type]** en **[!UICONTROL Charset]** koptekstvelden worden standaard ingesteld. U kunt deze velden niet wijzigen of verwijderen.
+1. Selecteer het type: **[!UICONTROL Constant]** of **[!UICONTROL Variable]**. Als u **[!UICONTROL Constant]** Voer vervolgens de constante waarde in het dialoogvenster **[!UICONTROL Value]** veld. Als u **[!UICONTROL Variable]**, dan zult u deze variabele specificeren wanneer het toevoegen van de douaneactie aan een reis. [Meer informatie](../building-journeys/using-custom-actions.md).
 
-   Nadat u de douaneactie aan een reis hebt toegevoegd, kunt u nog kopbalgebieden aan het toevoegen als de reis in ontwerpstatus is. Als u niet wilt dat de reis door configuratieveranderingen wordt beïnvloed, dupliceer de douaneactie en voeg de kopbalgebieden aan de nieuwe douaneactie toe.
+   ![](assets/journeyurlconfiguration2.png)
 
    >[!NOTE]
+   >
+   >Nadat u de douaneactie aan een reis hebt toegevoegd, kunt u kopbal of vraagparametergebieden aan het nog toevoegen als de reis in ontwerpstatus is. Als u niet wilt dat de reis door configuratieveranderingen wordt beïnvloed, dupliceer de douaneactie en voeg de gebieden aan de nieuwe douaneactie toe.
    >
    >Kopteksten worden gevalideerd volgens veldparseringsregels. Meer informatie in [deze documentatie](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
 ## De actieparameters definiëren {#define-the-message-parameters}
 
-![](assets/messageparameterssection.png)
-
 In de **[!UICONTROL Action parameters]** plakken, plakt u een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden.
 
-![](assets/customactionpayloadmessage.png)
+![](assets/messageparameterssection.png)
 
 >[!NOTE]
 >
@@ -135,7 +131,7 @@ U kunt het parametertype definiëren (bijvoorbeeld: tekenreeks, geheel getal, en
 
 U kunt ook opgeven of een parameter een constante of een variabele is.
 
-* Constante betekent dat de waarde van de parameter in de ruit van de actieconfiguratie door een technische persoon wordt bepaald. De waarde zal altijd het zelfde over reizen zijn. De kleur verandert niet en de markeerstift ziet deze niet wanneer u de aangepaste handeling voor de reis gebruikt. Het kan bijvoorbeeld een id zijn die het externe systeem verwacht. In dat geval is het veld rechts van de schakelconstante/variabele de doorgegeven waarde.
-* Variabele betekent dat de waarde van de parameter varieert. Marktdeelnemers die deze aangepaste handeling tijdens een reis gebruiken, kunnen de gewenste waarde doorgeven of opgeven waar de waarde voor deze parameter moet worden opgehaald (bijvoorbeeld vanaf het evenement, vanuit Adobe Experience Platform, enz.). In dat geval, is het gebied op het recht van de knevelconstante/variabele de etiketmarketers in de reis zullen zien om deze parameter te noemen.
+* **Constante** betekent dat de waarde van de parameter in de ruit van de actieconfiguratie door een technische persoon wordt bepaald. De waarde zal altijd het zelfde over reizen zijn. De kleur verandert niet en de markeerstift ziet deze niet wanneer u de aangepaste handeling voor de reis gebruikt. Het kan bijvoorbeeld een id zijn die het externe systeem verwacht. In dat geval is het veld rechts van de schakelconstante/variabele de doorgegeven waarde.
+* **Variabele** betekent dat de waarde van de parameter zal variëren. Marktdeelnemers die deze aangepaste handeling tijdens een reis gebruiken, kunnen de gewenste waarde doorgeven of opgeven waar de waarde voor deze parameter moet worden opgehaald (bijvoorbeeld vanaf het evenement, vanuit Adobe Experience Platform, enz.). In dat geval, is het gebied op het recht van de knevelconstante/variabele de etiketmarketers in de reis zullen zien om deze parameter te noemen.
 
 ![](assets/customactionpayloadmessage2.png)

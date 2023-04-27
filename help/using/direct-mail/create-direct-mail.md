@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 badge: label="Beta" type="Informatief"
-source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 3%
@@ -60,8 +60,6 @@ U kunt als volgt een direct-mailbericht maken en verzenden:
    ![](assets/direct-mail-campaign.png)
 
 1. Klikken **[!UICONTROL Create]** definieert u vervolgens de basisinformatie over uw campagne (naam, beschrijving). [Leer hoe u een campagne kunt configureren](../campaigns/create-campaign.md)
-
-   ![](assets/direct-mail-edit.png)
 
 1. Klik op de knop **[!UICONTROL Edit content]** om het extractiebestand te configureren dat naar uw directe-mailprovider wordt verzonden.
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: test, reis, controle, fout, het oplossen van problemen
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
 source-wordcount: '1501'
 ht-degree: 1%
@@ -128,6 +128,7 @@ Wanneer u een bedrijfsgebeurtenis voor het eerst activeert, kunt u de definitie 
 De **[!UICONTROL Show log]** kunt u de testresultaten bekijken. Op deze pagina worden de huidige gegevens van de reis in JSON-indeling weergegeven. Met een knop kunt u hele knooppunten kopiëren. U moet de pagina handmatig vernieuwen om de testresultaten van de reis bij te werken.
 
 ![](assets/journeytest3.png)
+
 
 >[!NOTE]
 >

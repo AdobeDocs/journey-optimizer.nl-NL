@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: actie, douane, API, reis, configuratie, de dienst
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 23%
+source-wordcount: '395'
+ht-degree: 24%
 
 ---
 
@@ -55,18 +55,13 @@ De samengevoegde URL heeft de volgende vorm:
 
 ![](assets/journey-custom-action-url.png)
 
-### Kopteksten
+### Kopteksten en queryparameters {#headers}
 
-De **[!UICONTROL URL Configuration]** in deze sectie worden de dynamische koptekstvelden weergegeven, maar niet de constante koptekstvelden. Dynamische headervelden zijn HTTP-headervelden waarvan de waarde is geconfigureerd als een variabele. [Meer informatie](../action/about-custom-action-configuration.md).
+De **[!UICONTROL URL Configuration]** in deze sectie worden de velden voor dynamische koptekst- en queryparameters weergegeven, maar niet de velden voor constante waarden. Dynamische kopbal en vraagparametergebieden worden bepaald als variabele in het scherm van de actieconfiguratie. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
 
-Geef zo nodig de waarde van dynamische koptekstvelden op:
+Als u de waarde van dynamische koptekst- en queryparametervelden wilt opgeven, klikt u in het veld of op het potloodpictogram en selecteert u het gewenste veld.
 
-1. Selecteer de aangepaste handeling tijdens de rit.
-1. Klik in het configuratievenster op het potloodpictogram naast het koptekstveld in het dialoogvenster **[!UICONTROL URL Configuration]** sectie.
-
-   ![](assets/journey-dynamicheaderfield.png)
-
-1. Selecteer een veld en klik op **[!UICONTROL OK]**.
+![](assets/journey-dynamicheaderfield.png)
 
 ## Handelingsparameters
 

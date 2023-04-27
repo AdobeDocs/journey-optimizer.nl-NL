@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informatief"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Wat u in deze documentatie zult vinden:
 
 >[!AVAILABILITY]
 >
->De samenstelling van het publiek is momenteel slechts beschikbaar als privé bèta, en kan aan regelmatige updates zonder bericht worden onderworpen. De bètaversie wordt geleverd op het niveau van de IMS-organisatie, wat betekent dat deze van invloed is op alle sandboxen binnen uw organisatie.
+>De samenstelling van het publiek is momenteel slechts beschikbaar als privé bèta, en kan aan regelmatige updates zonder bericht worden onderworpen. De bètaversie wordt geleverd op organisatieniveau, wat betekent dat deze van invloed is op alle sandboxen binnen uw organisatie.
 
 De samenstelling van het publiek staat u toe om tot stand te brengen **compositieworkflows**, waarin u bestaande Adobe Experience Platform-doelgroepen kunt combineren tot een visueel canvas en verschillende activiteiten (splitsen, uitsluiten...) kunt gebruiken om nieuwe doelgroepen te maken.
 

@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 324ceaa981b3ce2025e4ba64c62cbe377d62e817
+source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
 workflow-type: tm+mt
-source-wordcount: '1897'
-ht-degree: 7%
+source-wordcount: '1859'
+ht-degree: 8%
 
 ---
 
@@ -24,9 +24,9 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 
 ## Opmerkingen bij de vervroegde release april 2023 {#apr-e-rn-2023}
 
-Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd tot de beschikbaarheidsdatum van de release. Bijgewerkte documentatie wordt gepubliceerd op de releasedatum en er worden directe koppelingen toegevoegd aan deze pagina.
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**Releasedatum**: 27 april 2023
+**Release date**: April 27, 2023-->
 
 ### Nieuwe functies{#apr-2023-features}
 
@@ -42,7 +42,7 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 <td>
 <p>Adobe Journey Optimizer breidt zijn mogelijkheden over de kanalen uit door steun voor Webkanaal toe te voegen. U kunt nu net als elk ander kanaal een webeleving ontwerpen, wijzigen en voorvertonen via een slimme en intuïtieve visuele interface om uw ervaring voor eindgebruikers aan te passen. Op dit moment kunt u in Journey Optimizer alleen webervaringen maken in campagnes.</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>Raadpleeg de <a href="../web/get-started-web.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </tr>
 </tbody>
 </table>
@@ -65,27 +65,27 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Nieuw journaal (bèta)</strong><br/></th>
+<th><strong>New Journey dashboard (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> Het dashboard Journey is nu gesplitst in twee tabbladen:</p>
-<ul><li>Gebruik de <strong>Overzicht</strong> om toegang te krijgen tot een nieuw dashboard dat belangrijke metriek met betrekking tot uw reizen toont.</li>
-<li>Gebruik de <strong>Bladeren</strong> voor toegang tot de lijst van alle reizen.</li></ul>
-<p>Deze mogelijkheid is toegankelijk voor alle reizen als een openbare bètaversie.</p>
+<p> The Journey dashboard is now split in two tabs:</p>
+<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
+<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
+<p>This capability is accessible in all journeys as a public beta.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<!--p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
+
 <table>
 <thead>
 <tr>
@@ -107,14 +107,14 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 
 **Journeys**
 
-* Het reiscanvas geeft nu de activiteit-id weer op actieknooppunten en eindtags. Dit verbetert rapportage en heroriëntering.
+* Het reiscanvas geeft nu de activiteit-id weer op berichtactiviteiten en eindtags. Dit verbetert rapportage en heroriëntering.
 * De indeling van het configuratievenster, dat wordt weergegeven in handelingen, gegevensbronnen, gebeurtenissen en reizen, is verbeterd.
 * Er zijn nieuwe trajecten toegevoegd aan de trajecten:
-   * Het aantal knooppunten in een reis is nu beperkt tot maximaal 50
-   * Het aantal rechtstreekse reizen op één org is nu beperkt tot maximaal 100. Er wordt geen rekening gehouden met de ritten in de testmodus.
+   * Het aantal activiteiten op een reis is nu beperkt tot 50. [Meer informatie](../start/guardrails.md#journeys-guardrails-journeys)
+   * Het aantal **Levende reizen** in één organisatie geldt nu een limiet van 100 per sandbox . Er wordt geen rekening gehouden met de ritten in de testmodus. [Meer informatie](../start/guardrails.md#journeys-guardrails-journeys)
 
-* Wanneer u een actie E-mail, SMS of Push toevoegt aan een reis, wordt het oppervlak standaard voorgevuld met het laatst gebruikte oppervlak voor dat kanaal.
-* U kunt nu statische of dynamische queryparameters definiëren in uw aangepaste handelingen.
+* Wanneer u een [E-mail](../email/create-email.md), [SMS](../sms/create-sms.md) of [Push](../push/create-push.md) tijdens een reis wordt het oppervlak standaard voorgevuld met het laatst gebruikte oppervlak voor dat kanaal, in de huidige reis.
+* U kunt nu statische of dynamische queryparameters definiëren in uw aangepaste handelingen. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
 
 **Rapportage**
 
@@ -190,6 +190,8 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 * In het reiscanvas, het etiket van **Einde** tag wordt niet meer automatisch ingesteld met de naam van de vorige activiteit. Gebruikers kunnen desgewenst handmatig een aangepast label toevoegen.
 * De standaardonderbreking en foutenduur in reiseigenschappen zijn veranderd van 5 aan 30 seconden. [Meer informatie](../configuration/external-systems.md#timeout)
 * De standaardvertragingstarief in gelezen segmentactiviteiten is veranderd van 20.000 in 5.000 berichten per seconde. [Meer informatie](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Er is een hulplijn toegevoegd aan de testmodus om alleen te luisteren naar gebeurtenissen die via de interface worden verzonden. Er wordt geen rekening gehouden met gebeurtenissen die via een extern gereedschap worden verzonden. [Meer informatie](../building-journeys/testing-the-journey.md)
+
 
 <!-- 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
