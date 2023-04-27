@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: c2ce36d65df939f2445f783eea7376b0765bdcd7
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: '1858'
 ht-degree: 8%
 
 ---
@@ -22,14 +22,13 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 ![Nieuwsbrief](../assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die direct aan uw Postbus worden geleverd elk kwartaal.
 
 
-## Opmerkingen bij de vervroegde release april 2023 {#apr-e-rn-2023}
+## Opmerkingen bij de release van april 2023 {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
 **Release date**: April 27, 2023-->
 
 ### Nieuwe functies{#apr-2023-features}
-
 
 <table>
 <thead>
