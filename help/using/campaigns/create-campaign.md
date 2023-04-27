@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: bf058b13508c7ad644a3b1f63e9208740abf8602
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '722'
 ht-degree: 3%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 3%
 
 
 Als u een nieuwe campagne wilt maken, opent u de **[!UICONTROL Campaigns]** en klik vervolgens op **[!UICONTROL Create campaign]**. U kunt ook een bestaande live campagne dupliceren om een nieuwe te maken. [Meer informatie](modify-stop-campaign.md#duplicate)
-
-![](assets/create-campaign.png)
 
 ## Het type campagne en het kanaal kiezen {#campaigntype}
 
@@ -64,15 +62,13 @@ Als u een nieuwe campagne wilt maken, opent u de **[!UICONTROL Campaigns]** en k
 
 ## De eigenschappen van de campagne definiëren {#create}
 
-1. Geef een titel en een beschrijving voor de campagne op.
+1. In de **[!UICONTROL Properties]** , geeft u een naam en een beschrijving voor de campagne op.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../campaigns/content-experiment.md).-->
 
 1. Als u aangepaste of basislabels voor gegevensgebruik aan de campagne wilt toewijzen, klikt u op de knop **[!UICONTROL Manage access]** knop. [Meer informatie over OLA (Object Level Access Control)](../administration/object-based-access.md)
 
-   ![](assets/create-campaign-properties.png)
-
-## Het bericht maken {#content}
+## Creeer het bericht en vorm het volgen {#content}
 
 In de **[!UICONTROL Actions]** , maakt u het bericht dat u wilt verzenden met de campagne.
 
@@ -123,21 +119,21 @@ In de **[!UICONTROL Actions]** , maakt u het bericht dat u wilt verzenden met de
 
 ## De doelgroep definiëren {#audience}
 
-1. Bepaal het publiek om te richten. Om dit te doen, klik **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-segmenten weer te geven. [Meer informatie over segmenten](../segment/about-segments.md)
+Klik op de knop **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-segmenten weer te geven. [Meer informatie over segmenten](../segment/about-segments.md)
 
-   >[!NOTE]
-   >
-   >Voor API-getriggerde campagnes moet het publiek worden ingesteld via API-aanroep. [Meer informatie](api-triggered-campaigns.md)
+>[!NOTE]
+>
+>Voor API-getriggerde campagnes moet het publiek worden ingesteld via API-aanroep. [Meer informatie](api-triggered-campaigns.md)
 
-   In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren. [Meer informatie over naamruimten](../event/about-creating.md#select-the-namespace)
+In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren. [Meer informatie over naamruimten](../event/about-creating.md#select-the-namespace)
 
-   ![](assets/create-campaign-namespace.png)
+![](assets/create-campaign-namespace.png)
 
-   >[!NOTE]
-   >
-   >Individuen die tot een segment behoren dat niet de geselecteerde identiteit (namespace) onder hun verschillende identiteiten heeft zullen niet door de campagne worden gericht.
+>[!NOTE]
+>
+>Individuen die tot een segment behoren dat niet de geselecteerde identiteit (namespace) onder hun verschillende identiteiten heeft zullen niet door de campagne worden gericht.
 
-   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+<!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## De campagne plannen {#schedule}
 
