@@ -4,7 +4,7 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c523783b0984a36f919a581053e994ca131a0115
+source-git-commit: 324ceaa981b3ce2025e4ba64c62cbe377d62e817
 workflow-type: tm+mt
 source-wordcount: '1897'
 ht-degree: 7%
@@ -41,7 +41,7 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 <tr>
 <td>
 <p>Adobe Journey Optimizer breidt zijn mogelijkheden over de kanalen uit door steun voor Webkanaal toe te voegen. U kunt nu net als elk ander kanaal een webeleving ontwerpen, wijzigen en voorvertonen via een slimme en intuïtieve visuele interface om uw ervaring voor eindgebruikers aan te passen. Op dit moment kunt u in Journey Optimizer alleen webervaringen maken in campagnes.</p>
-<img src="assets/do-not-localize/create-web-campaign.gif"/>
+<img src="assets/do-not-localize/web-authoring.gif"/>
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
 </tbody>
