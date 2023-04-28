@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 68a1a36c06b430d3fbb614ca24cc1e87399e1f38
+source-git-commit: 4ce00b4a709c23284148dfffb0187767fcecbe8a
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1732'
 ht-degree: 1%
 
 ---
@@ -263,3 +263,7 @@ Hieronder staan voorbeelden van URL&#39;s die compatibel zijn met Adobe Analytic
 U kunt de resulterende URL voor bijhouden dynamisch voorvertonen. Elke keer dat u een parameter toevoegt, bewerkt of verwijdert, wordt de voorvertoning automatisch bijgewerkt.
 
 ![](assets/preset-url-tracking-preview.png)
+
+>[!NOTE]
+>
+>U kunt ook dynamische parameters voor gepersonaliseerde reeksspatiëring toevoegen aan de koppelingen in uw e-mailinhoud, maar dit is niet mogelijk op oppervlakteneniveau. Dit moet u doen wanneer u uw bericht ontwerpt met de e-mailontwerper. [Meer informatie](message-tracking.md#url-tracking)
