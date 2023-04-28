@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 68a1a36c06b430d3fbb614ca24cc1e87399e1f38
 workflow-type: tm+mt
 source-wordcount: '1692'
 ht-degree: 1%
@@ -224,24 +224,11 @@ U kunt **[!UICONTROL URL tracking parameters]** om de doeltreffendheid van uw ma
 
 De parameters die in deze sectie worden gedefinieerd, worden toegevoegd aan het einde van de URL&#39;s die in de inhoud van uw e-mailbericht zijn opgenomen. Vervolgens kunt u deze parameters vastleggen in hulpprogramma&#39;s voor webanalyse, zoals Adobe Analytics of Google Analytics, en verschillende prestatierapporten maken.
 
-<!--Three URL tracking parameters are auto-populated as an example when you create a channel surface. You can edit these and add up to 10 tracking parameters using the **[!UICONTROL Add new parameter]** button.-->
-
 U kunt maximaal 10 volgparameters toevoegen met de functie **[!UICONTROL Add new parameter]** knop.
 
 ![](assets/preset-url-tracking.png)
 
 Als u een URL-volgparameter wilt configureren, kunt u rechtstreeks de gewenste waarden invoeren in het dialoogvenster **[!UICONTROL Name]** en **[!UICONTROL Value]** velden.
-
-<!--You can also choose from a list of predefined values by navigating to the following objects:
-* Journey attributes: **Source id**, **Source name**, **Source version id**
-* Action attributes: **Action id**, **Action name**
-* Offer decisioning attributes: **Offer id**, **Offer name**
-
-![](assets/preset-url-tracking-source.png)
-
->[!CAUTION]
->
->Do not select a folder: make sure to browse to the necessary folder and select a profile attribute to use as a tracking parameter value.-->
 
 U kunt ook elke **[!UICONTROL Value]** veld met [Expressieeditor](../personalization/personalization-build-expressions.md). Klik op het pictogram van de editie om de editor te openen. Vervolgens kunt u de beschikbare contextafhankelijke kenmerken selecteren en/of de tekst rechtstreeks bewerken.
 
