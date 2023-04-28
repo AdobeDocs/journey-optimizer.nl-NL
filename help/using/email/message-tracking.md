@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: koppelingen, bijhouden, controleren, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '841'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
 >[!NOTE]
 >
->E-mailberichten van het type Marketing moeten een [opt-out-koppeling](../privacy/opt-out.md#opt-out-management), die niet vereist is voor transactieberichten. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd in de [kanaaloppervlak](../configuration/channel-surfaces.md#email-type) (d.w.z. voorinstelling bericht) bij het maken van het bericht.
+>E-mailberichten van het type Marketing moeten een [opt-out-koppeling](../privacy/opt-out.md#opt-out-management), die niet vereist is voor transactieberichten. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd in de [kanaaloppervlak](../configuration/channel-surfaces.md#email-type) wanneer u het bericht maakt.
 
 ## Koppelen naar een spiegelpagina {#mirror-page}
 
@@ -132,3 +132,29 @@ De [E-mailontwerper](content-from-scratch.md) Hiermee kunt u de bijgehouden URL&
    * **[!UICONTROL Never]**: Hiermee activeert u het bijhouden van deze URL nooit. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 Rapportage over openingen en klikken is beschikbaar in de [Live-rapport](../reports/live-report.md) en in de [Algemeen rapport](../reports/global-report.md).
+
+## URL-tracking {#url-tracking}
+
+Meestal [URL-tracking](email-settings.md#url-tracking) wordt beheerd op oppervlakniveau, maar de profielattributen worden niet gesteund. De enige manier om dit te doen is door [URL&#39;s aanpassen](../personalization/personalization-syntax.md#perso-urls) in de e-mailontwerper.
+
+Volg onderstaande stappen om aangepaste URL-volgparameters toe te voegen aan uw koppelingen.
+
+1. Selecteer een koppeling en klik op **[!UICONTROL Insert link]** in de contextuele werkbalk.
+
+1. Selecteer het verpersoonlijkingspictogram. Deze optie is alleen beschikbaar voor de volgende typen koppelingen: **Externe koppeling**, **Koppeling met abonnement opheffen** en **Uitschakelen**.
+
+   ![](assets/message-tracking-insert-link-perso.png)
+
+1. Voeg de URL-volgparameter toe en selecteer het profielkenmerk van uw keuze in de expressieeditor.
+
+   ![](assets/message-tracking-perso-parameter.png)
+
+1. Sla uw wijzigingen op.
+
+1. Herhaal bovenstaande stappen voor elke koppeling waaraan u deze parameter voor bijhouden wilt toevoegen.
+
+Wanneer de e-mail wordt verzonden, wordt deze parameter automatisch toegevoegd aan het einde van de URL. U kunt deze parameter vervolgens vastleggen in hulpprogramma&#39;s voor webanalyse of in prestatierapporten.
+
+>[!NOTE]
+>
+>Als u de uiteindelijke URL wilt controleren, kunt u [een bewijs verzenden](preview.md#send-proofs) en klik op de koppeling in de inhoud van het e-mailbericht als u de proefdruk hebt ontvangen. De URL moet de parameter tracking weergeven. In het bovenstaande voorbeeld is de laatste URL: https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number
