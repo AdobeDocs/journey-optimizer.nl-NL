@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c2ce36d65df939f2445f783eea7376b0765bdcd7
+source-git-commit: e0c8aaf114e1e60a49a721c894d14b0cc6b9f764
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1860'
+ht-degree: 8%
 
 ---
 
@@ -117,7 +117,7 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 
 **Rapportage**
 
-* U kunt nu Journey Optimizer-rapporten exporteren als PDF.
+* U kunt nu Journey Optimizer-rapporten exporteren als PDF. [Meer informatie](../reports/global-report.md#export-reports)
 
 **Content Designer**
 
