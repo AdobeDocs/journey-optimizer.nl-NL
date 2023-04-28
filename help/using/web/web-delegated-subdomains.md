@@ -8,9 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: web, subdomeinen, configuratie
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
+source-git-commit: 2d11233f1cf1fee5f500d233c3fcacf03b7e5c10
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -29,8 +30,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
->title="Een standaardsubdomein instellen"
->abstract="U kunt verschillende subdomeinen voor het web maken, maar alleen het standaardsubdomein wordt gebruikt. U kunt het standaardwebsubdomein wijzigen, maar u kunt slechts één subdomein tegelijk gebruiken."
+>title="Een websubdomein instellen"
+>abstract="Selecteer een subdomein in de lijst met subdomeinen die zijn gedelegeerd aan Adobe. U kunt dit websubdomein instellen als het standaardsubdomein, maar er kan slechts één standaardsubdomein tegelijk worden gebruikt."
 
 Als u tijdens het ontwerpen van een webversie inhoud toevoegt die afkomstig is van de [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) moet u het subdomein instellen dat wordt gebruikt om deze inhoud te publiceren.
 
@@ -67,11 +68,15 @@ U kunt meerdere subdomeinen voor het web maken, maar alleen de subdomeinen **def
 
    >[!NOTE]
    >
-   >Alleen de **default** subdomein wordt gebruikt. U kunt het standaardwebsubdomein wijzigen, maar u kunt slechts één subdomein tegelijk gebruiken.
+   >Alleen de **default** subdomein wordt gebruikt.
 
 1. Klik op **[!UICONTROL Submit]**. Het subdomein krijgt de **[!UICONTROL Success]** status. Het is klaar om te worden gebruikt voor uw webervaringen.
 
 1. De **[!UICONTROL Default]** badge wordt weergegeven naast het subdomein dat momenteel als standaard wordt gebruikt. Als u het standaardsubdomein wilt wijzigen, selecteert u **[!UICONTROL Set as default]** van de **[!UICONTROL More actions]** naast het gewenste subdomein.
+
+   >[!NOTE]
+   >
+   >U kunt het standaardwebsubdomein wijzigen, maar u kunt slechts één subdomein tegelijk gebruiken.
 
    ![](assets/web-subdomain-default.png)
 
@@ -80,4 +85,3 @@ U kunt meerdere subdomeinen voor het web maken, maar alleen de subdomeinen **def
 1. U kunt alleen een **[!UICONTROL Failed]** subdomein om de lijst op te schonen. Selecteer **[!UICONTROL Delete]** van de **[!UICONTROL More actions]** naast het gewenste subdomein.
 
 <!--You cannot delete a subdomain with the **[!UICONTROL Processing]** status.-->
-

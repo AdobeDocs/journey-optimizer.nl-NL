@@ -6,28 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 1%
+source-wordcount: '160'
+ht-degree: 2%
 
 ---
 
 # Aan de slag met webkanaal {#get-sarted-web}
 
->[!AVAILABILITY]
->
->Deze mogelijkheid is alleen beschikbaar met de [!DNL Adobe Journey Optimizer] **Eerste** en **Ultieme** [pakketten](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html).
-
 [!DNL Journey Optimizer] kunt u uw klanten visueel ontwerpen en persoonlijke webervaringen aanbieden.
-
-Als u al uitgaande kanalen gebruikt, zoals e-mail, SMS of pushberichten, kunt u nu het binnenkomende webkanaal gebruiken om een echt gepersonaliseerde ervaring te bieden die zich over alle kanalen uitstrekt.
 
 Via een intuïtieve visuele interface kunt u met deze functie eenvoudig uw wegeigenschappen wijzigen om uw campagnes voor eindgebruikers te experimenteren, te optimaliseren en aan te passen.
 
->[!CAUTION]
->
->Momenteel in [!DNL Journey Optimizer] u kunt alleen webervaringen maken met **campagnes**.
+Als u al uitgaande kanalen gebruikt, zoals e-mail, SMS of pushberichten, kunt u nu het binnenkomende webkanaal gebruiken om een echt gepersonaliseerde ervaring te bieden die zich over alle kanalen uitstrekt.
 
 Als u een campagne hebt gemaakt, selecteert u **Web** als uw handeling en basisinstellingen definiëren. Voor meer informatie over hoe te om uw campagne te vormen, verwijs naar dit [page](../campaigns/create-campaign.md#configure).
 
@@ -73,9 +65,5 @@ Ontdek de gedetailleerde stappen voor het maken van een webcampagne in [deze vid
 <p>
 </td>
 </tr></table>
-
->[!CAUTION]
->
->[!DNL Journey Optimizer] webcampagnes zijn gericht op nieuwe profielen die nog niet eerder zijn ingeschakeld op andere kanalen. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden. De licentiemetriek voor elk pakket wordt vermeld op het tabblad [Journey Optimizer-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) pagina.
 
 

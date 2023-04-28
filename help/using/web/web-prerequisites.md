@@ -5,14 +5,15 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
+source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '809'
 ht-degree: 2%
 
 ---
 
-# Voorwaarden voor webkanalen {#web-prerequisites}
+# Vereisten en geleiders {#web-prerequisites}
 
 Webpagina&#39;s openen en ontwerpen in het dialoogvenster [!DNL Journey Optimizer] voor de gebruikersinterface:
 
@@ -21,6 +22,13 @@ Webpagina&#39;s openen en ontwerpen in het dialoogvenster [!DNL Journey Optimize
 * Om toegang te krijgen tot [!DNL Journey Optimizer] webontwerper heeft een specifieke Google Chrome-browserextensie geïnstalleerd. [Meer informatie](#visual-authoring-prerequesites)
 
 * Zorg ervoor dat u de gedetailleerde Adobe Experience Platform-instellingen definieert voor een correcte webervaring [hier](#delivery-prerequisites).
+
+## Waarschuwing
+
+Momenteel in [!DNL Journey Optimizer] u kunt alleen webervaringen maken met **campagnes**. [Meer informatie](../campaigns/create-campaign.md#configure)
+
+
+[!DNL Journey Optimizer] webcampagnes zijn gericht op nieuwe profielen die nog niet eerder zijn ingeschakeld op andere kanalen. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden. De licentiemetriek voor elk pakket wordt vermeld op het tabblad [Journey Optimizer-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) pagina.
 
 ## Voorwaarden voor implementatie {#implementation-prerequisites}
 
@@ -123,6 +131,3 @@ De webervaring kan alleen correct worden geleverd als de volgende instellingen z
 Branded domains for assets
 
 When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content. [Learn more](web-delegated-subdomains.md)-->
-
-
-
