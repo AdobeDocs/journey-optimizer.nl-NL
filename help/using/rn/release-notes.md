@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e0c8aaf114e1e60a49a721c894d14b0cc6b9f764
+source-git-commit: 1071229582008d66b4184ec782aaf23bad111a93
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1920'
 ht-degree: 8%
 
 ---
@@ -64,26 +64,27 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 </tbody>
 </table>
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>New Journey dashboard (beta)</strong><br/></th>
+<th><strong>Nieuw journaal (bèta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> The Journey dashboard is now split in two tabs:</p>
-<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
-<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
-<p>This capability is accessible in all journeys as a public beta.</p>
+<p> Het dashboard Journey is nu gesplitst in twee tabbladen:</p>
+<ul><li>Gebruik de <strong>Overzicht</strong> om toegang te krijgen tot een nieuw dashboard dat belangrijke metriek met betrekking tot uw reizen toont.</li>
+<li>Gebruik de <strong>Bladeren</strong> voor toegang tot de lijst van alle reizen.</li></ul>
+<p>Deze mogelijkheid is toegankelijk voor alle reizen als een openbare bètaversie.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
+<p>Raadpleeg de <a href="../building-journeys/journey-gs.md#journey-access">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 
 <table>
 <thead>
