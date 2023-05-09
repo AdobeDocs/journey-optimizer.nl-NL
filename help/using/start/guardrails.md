@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: c212ecb02a8feee67d49610d8919d559a22bcfa0
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,6 @@ Hieronder vindt u aanvullende instructies en beperkingen bij het gebruik [!DNL A
 
 * U kunt geen bijlagen aan een e-mailbericht toevoegen met [!DNL Journey Optimizer].
 * U kunt niet hetzelfde verzendende domein gebruiken om berichten te verzenden van [!DNL Adobe Journey Optimizer] en van een ander product, zoals [!DNL Adobe Campaign] of [!DNL Adobe Marketo Engage] bijvoorbeeld.
-
-
-## Garanties voor besluitvormingsbeheer {#offer-guardrails}
-
-De prestatiegerelateerde en statische grenzen voor besluiten zijn vermeld in [Adobe Offer decisioning App Service, productbeschrijvingspagina](https://helpx.adobe.com/legal/product-descriptions/offer-decisioning-app-service.html){target="_blank"}.
 
 
 ## Handleidingen voor landingspagina&#39;s {#lp-guardrails}
