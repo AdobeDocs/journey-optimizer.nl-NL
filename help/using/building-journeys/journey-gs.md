@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, segment, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: bc88e1348e6d6408d2c1a5f318e631f8387c2c8f
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1311'
 ht-degree: 9%
 
 ---
@@ -38,27 +38,26 @@ Voor het verzenden van berichten met ritten zijn de volgende configuraties verei
 
    ![](assets/custom2.png)
 
-<!--
-## Access journeys {#journey-access}
+## Toegang tot reizen {#journey-access}
 
-In the JOURNEY MANAGEMENT menu section, click **[!UICONTROL Journeys]**. Two tabs are available:
+Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]**. Er zijn twee tabbladen beschikbaar:
 
-**Browse**: this tab displays the list of existing journeys. You can search for journeys, use filters and perform basic actions on each element. For example, you can duplicate or delete an item. For more information, refer to [this section](../start/user-interface.md#filter-lists).
+**Bladeren**: op dit tabblad wordt de lijst met bestaande reizen weergegeven. U kunt reizen zoeken, filters gebruiken en basishandelingen op elk element uitvoeren. U kunt bijvoorbeeld een item dupliceren of verwijderen. Raadpleeg [deze sectie](../start/user-interface.md#filter-lists) voor meer informatie.
 
-![](assets/journeys-browse.png)  
+![](assets/journeys-browse.png)
 
-**Overview**: this tab displays a dashboard with key metrics related to your journeys:
+**Overzicht**: op dit tabblad wordt een dashboard weergegeven met de belangrijkste maatstaven voor uw reizen:
 
-* **Profiles processed**: total number of profiles processed in last 24 hours
-* **Live journeys**: total number of live journeys
-* **Unitary journeys**: total number of unitary live journeys (event-based journeys)
-* **Batch journeys**: total number of batch live journeys (read segment journeys)
-* **Error rate**: ratio of all profiles in error compared with the total number of profiles who entered. 
-* **Discard rate**: ratio of all profiles dicarded compared with the total number of profiles who entered. 
+* **Profielen verwerkt**: totaal aantal profielen dat in de afgelopen 24 uur is verwerkt
+* **Levende reizen**: totaal aantal rechtstreekse reizen met verkeer in de afgelopen 24 uur. Levende reizen omvatten **Eenheidstreizen** (op basis van gebeurtenissen) en **Batchreizen** (lees segment).
+* **Foutfrequentie**: verhouding tussen alle profielen die fout zijn, en het totale aantal profielen dat in de afgelopen 24 uur is ingevoerd.
+* **Percentage negeren**: verhouding tussen alle profielen die zijn gedecimeerd en het totale aantal profielen dat in de afgelopen 24 uur is ingevoerd.
 
-![](assets/journeys-dashboard.png)  
+>[!NOTE]
+>
+>Dit dashboard houdt rekening met de reizen met verkeer in de afgelopen 24 uur. Alleen de reizen waartoe u toegang hebt, worden weergegeven.
 
--->
+![](assets/journeys-dashboard.png)
 
 ## Uw reis maken{#jo-build}
 
@@ -71,15 +70,7 @@ Deze stap wordt uitgevoerd door de **zakelijke gebruiker**. Hier maak je je reiz
 
 Hier volgen de belangrijkste stappen voor het verzenden van berichten via reizen:
 
-1. Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]**. De lijst met reizen wordt weergegeven.
-
-   ![](assets/interface-journeys.png)
-
-1. Klikken **[!UICONTROL Create Journey]** om een nieuwe reis te maken.
-
-<!--
-1. From the **Journeys** menu, click **[!UICONTROL Create Journey]** to create a new journey. 
--->
+1. Van de **Bladeren** tabblad, klikt u op **[!UICONTROL Create Journey]** om een nieuwe reis te maken.
 
 1. Bewerk de eigenschappen van de journey in het configuratievenster dat aan de rechterkant wordt weergegeven. Meer informatie in deze [sectie](journey-gs.md#change-properties).
 
