@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
+source-git-commit: 65a33d6836c43564ef7c93660a8076677ea5cba8
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '846'
 ht-degree: 2%
 
 ---
@@ -127,7 +127,6 @@ De webervaring kan alleen correct worden geleverd als de volgende instellingen z
 
    ![](assets/web-aep-merge-policy.png)
 
-<!--
-Branded domains for assets
+## Gemarkeerde domeinen voor elementen {#branded-domains-for-assets}
 
-When authoring web experiences, if you add content coming from the [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) library, you  must set up the subdomain that will be used to publish this content. [Learn more](web-delegated-subdomains.md)-->
+Als u tijdens het ontwerpen van een webversie inhoud toevoegt die afkomstig is van de [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) moet u het subdomein instellen dat wordt gebruikt om deze inhoud te publiceren. [Meer informatie](web-delegated-subdomains.md)
