@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 keywords: web, subdomeinen, configuratie
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 66ef57c263d29572ce0377e41bf0a8010e2f22d1
+source-git-commit: 40cdcace9788206ad32dc6ae1e5f70c66e684bcb
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -78,11 +78,11 @@ U kunt meerdere subdomeinen voor het web maken, maar alleen de subdomeinen **def
 
 1. De **[!UICONTROL Default]** badge wordt weergegeven naast het subdomein dat momenteel als standaard wordt gebruikt. Als u het standaardsubdomein wilt wijzigen, selecteert u **[!UICONTROL Set as default]** van de **[!UICONTROL More actions]** naast het gewenste subdomein.
 
+   ![](assets/web-subdomain-default.png)
+
    >[!NOTE]
    >
    >U kunt het standaardwebsubdomein wijzigen, maar u kunt slechts één subdomein tegelijk gebruiken.
-
-   ![](assets/web-subdomain-default.png)
 
    <!--Only a subdomain with the **[!UICONTROL Success]** status can be set as default.
 
