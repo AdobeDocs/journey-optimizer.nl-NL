@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1071229582008d66b4184ec782aaf23bad111a93
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1910'
 ht-degree: 8%
 
 ---
@@ -21,6 +21,24 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 
 ![Nieuwsbrief](../assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die direct aan uw Postbus worden geleverd elk kwartaal.
 
+## Verbeteringen in mei 2023 {#may-improvements}
+
+<table>
+<thead>
+<tr>
+<th><strong>Tags gebruiken in uw campagnes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu Adobe Experience Platform Unified Tags toewijzen aan uw campagnes. Op deze manier kunt u ze gemakkelijk classificeren en de zoekopdracht in de lijst met campagnes verbeteren. Merk op dat de Verenigde markeringseigenschap momenteel in bèta is.
+<img src="assets/do-not-localize/campaigns-tag.gif"/>
+<p>Raadpleeg de <a href="../start/search-filter-categorize.md#tags">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Opmerkingen bij de release van april 2023 {#apr-rn-2023}
 
@@ -46,7 +64,6 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -64,21 +81,22 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Nieuw journaal (bèta)</strong><br/></th>
+<th><strong>New Journey dashboard (beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> Het dashboard Journey is nu gesplitst in twee tabbladen:</p>
-<ul><li>Gebruik de <strong>Overzicht</strong> om toegang te krijgen tot een nieuw dashboard dat belangrijke metriek met betrekking tot uw reizen toont.</li>
-<li>Gebruik de <strong>Bladeren</strong> voor toegang tot de lijst van alle reizen.</li></ul>
-<p>Deze mogelijkheid is toegankelijk voor alle reizen als een openbare bètaversie.</p>
+<p> The Journey dashboard is now split in two tabs:</p>
+<ul><li>Use the <strong>Overview</strong> tab to access a new dashboard which displays key metrics related to your journeys.</li>
+<li>Use the <strong>Browse</strong> tab to access the list of all journeys.</li></ul>
+<p>This capability is accessible in all journeys as a public beta.</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>Raadpleeg de <a href="../building-journeys/journey-gs.md#journey-access">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>For more information, refer to the <a href="../building-journeys/journey-gs.md#journey-access">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -173,13 +191,11 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 <tr>
 <td>
 <p>Als Journey Optimizer-expert kunt u uw zakelijke objecten nu organiseren met tags. Met tags kunt u objecten snel en eenvoudig classificeren om zoekopdrachten te verbeteren. Deze functie is momenteel beschikbaar in bèta en alleen voor reizen.</p>
-<p>Raadpleeg de <a href="../building-journeys/tags.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="../start/search-filter-categorize.md#tags">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-
 
 ### Verbeteringen {#mar-2023-improvements}
 

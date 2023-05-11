@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1370'
 ht-degree: 34%
 
 ---
@@ -30,6 +30,7 @@ ht-degree: 34%
       + [Aan de slag als beheerder](using/start/path/administrator.md)
       + [Aan de slag als ontwikkelaar](using/start/path/developer.md)
    + [Gebruikersinterface](using/start/user-interface.md)
+   + [Zoeken, filteren en categoriseren](using/start/search-filter-categorize.md)
    + [Toegankelijkheid](using/start/accessibility.md)
    + [Integraties](using/start/ajo-integrations.md)
    + [Guardrails](using/start/guardrails.md)
@@ -47,7 +48,6 @@ ht-degree: 34%
       + [Een journey naar een andere sandbox kopiëren](using/building-journeys/copy-to-sandbox.md)
       + [Los uw reis problemen op](using/building-journeys/troubleshooting.md)
       + [Integreren met intelligente services](using/building-journeys/ai-services-overview.md)
-      + [Tags tijdens reizen beheren](using/building-journeys/tags.md)
    + Activiteiten {#about-journey-building}
       + [Aan de slag met reisactiviteiten](using/building-journeys/about-journey-activities.md)
       + [Algemene gebeurtenissen](using/building-journeys/general-events.md)

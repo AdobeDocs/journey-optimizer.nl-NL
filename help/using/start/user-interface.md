@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 7%
+source-wordcount: '813'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,6 @@ De componenten en mogelijkheden die beschikbaar zijn in de gebruikersinterface z
 >[!NOTE]
 >
 >Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
-
 
 ## Linkernavigatie {#left-nav}
 
@@ -90,7 +89,6 @@ U vindt onder de volledige lijst met services en mogelijkheden in de linkernavig
 
 * **[!UICONTROL Alerts]** - Met de gebruikersinterface kunt u een geschiedenis bekijken van ontvangen waarschuwingen op basis van meetgegevens die zijn onthuld door Adobe Experience Platform Observability Insights. UI staat u ook toe om, beschikbare waakzame regels te bekijken toe te laten en onbruikbaar te maken. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
 
-
 ## Gebruiksgevallen in producten {#in-product-uc}
 
 Hefboomwerking [!DNL Adobe Journey Optimizer] Gebruik gevallen op de startpagina en geef een paar snelle invoer voor een reis naar de klant.
@@ -110,7 +108,6 @@ Klik op de knop **[!UICONTROL Begin]** om het gebruik te starten.
 
 U hebt toegang tot uitvoerbare gebruiksgevallen via het dialoogvenster **[!UICONTROL View use case library]** knop.
 
-
 ## Hulp en ondersteuning zoeken {#find-help}
 
 Toegang tot Adobe Journey Optimizer-sleutelHelp-pagina&#39;s in de onderste sectie van de startpagina.
@@ -118,10 +115,6 @@ Toegang tot Adobe Journey Optimizer-sleutelHelp-pagina&#39;s in de onderste sect
 Gebruik de **Help** voor toegang tot Help-pagina&#39;s, contact opnemen met ondersteuning en feedback delen. U kunt Help-artikelen en video&#39;s zoeken in het zoekveld.
 
 ![](assets/ajo-help.png)
-
-## Ondersteunde browsers {#browsers}
-
-Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in de nieuwste versie van Google Chrome. Mogelijk kunt u problemen ondervinden bij het gebruik van bepaalde functies in oudere versies of andere browsers.
 
 ## Taalvoorkeuren {#language-pref}
 
@@ -145,39 +138,3 @@ De taal wijzigen:
 * Klik vervolgens op de taal die onder uw e-mailadres wordt weergegeven
 * Selecteer uw voorkeurstaal en klik op **Opslaan**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
    ![](assets/select-language.png)
-
-## Zoeken{#unified-search}
-
-Overal van de interface van Adobe Journey Optimizer, gebruik het Verenigde de onderzoeksvermogen van Adobe Experience Cloud op het centrum van de hoogste bar om activa, reizen, datasets, en meer over uw zandbakken te vinden.
-
-Voer inhoud in om de beste resultaten weer te geven. Help-artikelen over de ingevoerde trefwoorden worden ook weergegeven in de resultaten.
-
-![](assets/unified-search.png)
-
-Druk **Enter** om tot alle resultaten toegang te hebben en filter door bedrijfsvoorwerp.
-
-![](assets/search-and-filter.png)
-
-## Filterlijsten{#filter-lists}
-
-In de meeste lijsten, gebruik de onderzoeksbar om specifieke punten te vinden, en het filtreren criteria te bepalen.
-
-Filters zijn toegankelijk door op het filterpictogram linksboven in een lijst te klikken. Met het filtermenu kunt u de weergegeven elementen filteren op basis van verschillende criteria. U kunt ervoor kiezen om alleen elementen van een bepaald type of een bepaalde status weer te geven, zoals de elementen die u hebt gemaakt of de elementen die in de afgelopen 30 dagen zijn gewijzigd. Welke opties beschikbaar zijn, is afhankelijk van de context.
-
-In de lijst met ritten kunt u de ritten filteren op basis van hun status, type en versie van de **[!UICONTROL Status and version filters]**. Het type kan zijn: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** of **[!UICONTROL Burst]**. U kunt ervoor kiezen alleen reizen weer te geven die een specifieke gebeurtenis, veldgroep of handeling uit de **[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]**. De **[!UICONTROL Publication filters]** Hiermee kunt u een publicatiedatum of een gebruiker selecteren. U kunt bijvoorbeeld kiezen of u de nieuwste versies wilt weergeven van live reizen die gisteren zijn gepubliceerd. [Meer informatie](../building-journeys/using-the-journey-designer.md).
-
->[!NOTE]
->
->De weergegeven kolommen kunnen worden gepersonaliseerd met de configuratieknop rechtsboven van de lijsten. Personalisatie wordt voor elke gebruiker opgeslagen.
-
-Gebruik de **[!UICONTROL Last update]** en **[!UICONTROL Last update by]** kolommen om te controleren wanneer de laatste update van uw reizen is gebeurd en wie het heeft gered.
-
-![](assets/filter-journeys.png)
-
-In de configuratievensters Gebeurtenis, Gegevensbron en Actie, **[!UICONTROL Used in]** in het veld wordt het aantal ritten weergegeven dat van die specifieke gebeurtenis, veldgroep of handeling gebruikmaakt. U kunt klikken op de knop **[!UICONTROL View journeys]** om de lijst met corresponderende journey’s weer te geven.
-
-![](assets/journey3bis.png)
-
-In de lijsten, kunt u basisacties op elk element uitvoeren. U kunt bijvoorbeeld een item dupliceren of verwijderen.
-
-![](assets/journey4.png)

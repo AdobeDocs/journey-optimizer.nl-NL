@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: campagnes, status, planning, toegang, optimaliseren beheren
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '497'
 ht-degree: 1%
 
 ---
@@ -26,11 +26,11 @@ Daarnaast kunt u live campagnes (die één keer of met een terugkerende uitvoeri
 
 Campagnes zijn toegankelijk vanuit de **[!UICONTROL Campaigns]** -menu.
 
-Standaard worden in de lijst alle campagnes met de **[!UICONTROL Draft]**, **[!UICONTROL Scheduled]**, en **[!UICONTROL Live]** statussen.
-
-Om gestopt, voltooide, en gearchiveerde campagnes te tonen, moet u de filter ontruimen.
+Standaard worden in de lijst alle campagnes met de **[!UICONTROL Draft]**, **[!UICONTROL Scheduled]**, en **[!UICONTROL Live]** statussen. Om gestopt, voltooide, en gearchiveerde campagnes te tonen, moet u de filter ontruimen.
 
 ![](assets/create-campaign-list.png)
+
+Bovendien kunt u de lijst filteren op basis van het type en het kanaal van de campagne of de tags die aan de campagnes zijn toegewezen tijdens het maken van de campagnes. [Leer hoe u tags kunt toewijzen aan een campagne](create-campaign.md#create)
 
 ## Campagnestatus {#statuses}
 
