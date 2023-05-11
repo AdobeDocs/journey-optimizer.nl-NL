@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: fc7f996fca8b1e8e5f6b7379cc3b2b7da764e0ed
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 7%
@@ -53,7 +53,7 @@ Met Adobe Experience Platform [Verenigde tags](https://experienceleague.adobe.co
 >
 >De verenigde markeringen zijn momenteel in Bèta. De documentatie en de functionaliteit kunnen worden gewijzigd.
 
-## Tags toevoegen aan een object
+### Tags toevoegen aan een object
 
 De **Tags** in de [reis](../building-journeys/journey-gs.md#change-properties) of [campagne](../campaigns/create-campaign.md#create) eigenschappen, kunt u labels voor het object definiëren. U kunt een bestaande tag selecteren of een nieuwe tag maken.
 
@@ -69,7 +69,7 @@ De gedefinieerde lijst met tags wordt weergegeven onder de **Tags** veld.
 > 
 > Als u een reis of campagne dupliceert of een nieuwe versie maakt, blijven de tags behouden.
 
-## Filteren op labels
+### Filteren op labels
 
 In de lijsten met reizen en campagnes wordt een specifieke kolom weergegeven, zodat u uw tags eenvoudig kunt visualiseren.
 
@@ -81,7 +81,7 @@ U kunt tags toevoegen aan of verwijderen uit elk type reis of campagne (live, co
 
 ![](assets/tags3.png)
 
-## Tags beheren
+### Tags beheren
 
 Beheerders kunnen met de opdracht **Tags** menu, onder **ADMINISTRATIE**. Meer informatie over tagbeheer in het dialoogvenster [Unified Tags-documentatie](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
 
