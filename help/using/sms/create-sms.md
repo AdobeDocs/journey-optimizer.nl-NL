@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 33dccf32b60a6afb58931823016821fc1effcbd8
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '556'
 ht-degree: 5%
 
 ---
@@ -90,6 +90,10 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 1. Nadat u de inhoud hebt gedefinieerd, kunt u de URL&#39;s van de track toevoegen aan uw bericht. Om dit te doen, toegang tot **[!UICONTROL Helper functions]** en selecteert u **[!UICONTROL Helpers]**.
 
    Merk op dat om de functie te gebruiken die URL verkort, u eerst een subdomain moet vormen die dan aan uw oppervlakte zal worden verbonden. [Meer informatie](sms-subdomains.md)
+
+   >[!CAUTION]
+   >
+   > Om tot subdomeinen van SMS toegang te hebben en uit te geven, moet u hebben **[!UICONTROL Manage SMS Subdomains]** toestemming voor de productiesandbox.
 
    ![](assets/sms_tracking_1.png)
 
