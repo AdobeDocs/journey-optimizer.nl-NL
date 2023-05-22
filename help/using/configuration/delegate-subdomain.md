@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: subdomein, delegatie, domein, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 54ea3573e4fb6e24c3e56349292528bc6da42d67
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1718'
 ht-degree: 5%
 
 ---
@@ -72,8 +72,6 @@ Volg de onderstaande stappen om een nieuw subdomein volledig te delegeren aan Ad
    >[!CAUTION]
    >
    >Het delegeren van een ongeldig subdomein aan Adobe is niet toegestaan. Zorg ervoor u een geldig subdomein ingaat dat door uw organisatie, zoals marketing.yourcompany.com wordt bezeten.
-   >
-   >Subdomeinen van meerdere niveaus, zoals email.marketing.yourcompany.com, worden momenteel niet ondersteund.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
@@ -144,8 +142,6 @@ Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volge
    >[!CAUTION]
    >
    >Het delegeren van een ongeldig subdomein aan Adobe is niet toegestaan. Zorg ervoor u een geldig subdomein ingaat dat door uw organisatie, zoals marketing.yourcompany.com wordt bezeten.
-   >
-   >Subdomeinen van meerdere niveaus, zoals email.marketing.yourcompany.com, worden momenteel niet ondersteund.
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
