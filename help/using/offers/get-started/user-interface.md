@@ -1,19 +1,19 @@
 ---
-title: Gebruikersinterface
+title: Gebruikersinterface van de Bibliotheek van de aanbieding
 description: Meer informatie over de gebruikersinterface van de Bibliotheek van de Aanbieding
 feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: b5fa17bfc888236994e73474c35b1aaafcda3ebe
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 3%
+source-wordcount: '643'
+ht-degree: 2%
 
 ---
 
-# Gebruikersinterface {#user-interface}
+# Gebruikersinterface van de Bibliotheek van de aanbieding {#user-interface}
 
 De **[!UICONTROL Decision management]** het gedeelte in de linkerrail bevat twee menu &#39; s die u toegang geven tot de mogelijkheden voor besluitvormingsbeheer :
 

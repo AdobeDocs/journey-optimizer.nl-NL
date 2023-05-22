@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1c4a2f19bd929720e93f4019bb1646c82bed9265
+source-git-commit: d04f102100e67baf34ca72f9af26931955f84c67
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 8%
+source-wordcount: '2379'
+ht-degree: 7%
 
 ---
 
@@ -21,24 +21,172 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 
 ![Nieuwsbrief](../assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die direct aan uw Postbus worden geleverd elk kwartaal.
 
-## Verbeteringen in mei 2023 {#may-improvements}
 
-<table>
+## Opmerkingen bij de vervroegde release mei 2023 {#may-rn-2023}
+
+Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd tot de beschikbaarheidsdatum van de release. Bijgewerkte documentatie wordt gepubliceerd op de releasedatum en er worden directe koppelingen toegevoegd aan deze pagina.
+
+**Releasedatum**: 25 mei 2023
+
+### Nieuwe functies{#may-2023-features}
+
+<!--table>
 <thead>
 <tr>
-<th><strong>Tags gebruiken in uw campagnes</strong><br/></th>
+<th><strong>Audience Composition</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu Adobe Experience Platform Unified Tags toewijzen aan uw campagnes. Op deze manier kunt u ze gemakkelijk classificeren en de zoekopdracht in de lijst met campagnes verbeteren. Merk op dat de Verenigde markeringseigenschap momenteel in bèta is.
+<p>You can now create composition workflows to combine existing Adobe Experience Platform audiences into a visual canvas and leverage various activities (split, enrich...) to create new audiences. Newly created audiences are saved backed into Adobe Experience Platform along with existing audiences and can be leveraged in Journey Optimizer campaigns to target customers.</p>
+<img src="../segment/assets/audiences-publish.png"/>
+<!--p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Inhoud experimenteren in campagnes</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer steunt nu experimenten in campagnes. Experimenten zijn gerandomiseerde onderzoeken, die in de context van online tests betekenen dat u sommige willekeurig geselecteerde gebruikers aan een bepaalde variatie van een bericht blootstelt, en een andere willekeurig geselecteerde reeks gebruikers aan één of andere andere variatie of behandeling. Na blootstelling, kunt u de resultaatmetriek meten u in geinteresseerd bent, zoals opent van e-mail, abonnementen, of aankopen.</p>
+<img src="assets/do-not-localize/experiment.gif"/>
+<!--p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Objective reporting and performance measurement in campaigns</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now measure the performance of your campaigns across inbound and outbound through dedicated reports. Adobe Journey Optimizer reports can retrieve additional metrics to use in the Objectives tab of your campaign reports.</p>
+<img src="assets/do-not-localize/performance_report.gif"/>
+<p>For more information, refer to the <a href="../reports/campaign-global-report.md">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Fragmenten maken en gebruiken in uw e-mailinhoud</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu fragmenten ontwerpen, gebruiken en beheren om uw e-mails en inhoudssjablonen snel samen te stellen. Een fragment is een vooraf gebouwde herbruikbare component waarnaar in meerdere e-mails van Journey Optimizer-campagnes en -reizen kan worden verwezen voor een verbeterd en versneld ontwerpproces.</p>
+<img src="assets/fragment-insert.png"/>
+<!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Tags gebruiken in uw campagnes (bèta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu Adobe Experience Platform Unified Tags toewijzen aan uw campagnes. Op deze manier kunt u ze gemakkelijk classificeren en de zoekopdracht in de lijst met campagnes verbeteren. Merk op dat de Verenigde markeringseigenschap momenteel in bèta is.</p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Raadpleeg de <a href="../start/search-filter-categorize.md#tags">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Persoonlijk beoordelingsmodel voor optimalisatie voor AI (algemene beschikbaarheid)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De gepersonaliseerde Optimalisering AI rangschikkingsmodellen zijn nu algemeen beschikbaar in Beslissingsbeheer. Met dit nieuwe type model kunt u aanbiedingen optimaliseren en aanpassen op basis van segmenten en prestaties bieden.</p>
+<img src="assets/do-not-localize/ai-ranking.gif"/>
+<p>Raadpleeg de <a href="../offers/ranking/personalized-optimization-model.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+### Verbeteringen {#may-2023-improvements}
+
+<!--
+**Terminology**
+
+* "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
+-->
+<!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
+-->
+
+
+**Doelgroepen**
+
+* Er zijn verbeteringen aangebracht in de publiekekiezer tijdens reizen of campagnes, met toevoeging van nieuwe kolommen waarin de oorsprong en de actualiseringsfrequentie van het publiek worden weergegeven.
+
+**Sms-kanaal**
+
+* Infobip is toegevoegd als leverancier wanneer het vormen van uw het kanaaloppervlakten van SMS.
+* Twillio - De API credentieopstelling omvat nu de capaciteit om de dienst SID van het Overseinen voor naadloze integratie met uw rekening van Twilio toe te voegen.
+
+**Kanaal in app**
+
+* Toegevoegde nieuwe regels van de berichttrekker voor de Dienst van Plaatsen van Adobe.
+* Nieuwe Adobe Experience Platform Assurance-mogelijkheden toegevoegd om apparaatgebeurtenissen vast te leggen die moeten worden toegevoegd als triggerregels.
+
+**Journeys**
+
+* U kunt nu API vraagreacties in douaneacties gebruiken en uw reis structureren die op deze reacties wordt gebaseerd.
+
+**Campagnes**
+
+* Het is nu mogelijk een campagne te dupliceren vanuit het inventarisscherm met behulp van het actiemenu voor ovaal.
+* U kunt nu ontwerpwijzigingen in een live campagne verwijderen.
+* De stappen voor het activeren van een campagne zijn nu gestroomlijnd.
+
+**Beslissingsbeheer**
+
+* U kunt nu de frequentietoewijzing bewerken als de aanbieding de conceptstatus heeft en nog niet eerder is gepubliceerd.
+
+**Personalisatie**
+
+* U kunt activa verwijzingen van de Redacteur van de Personalisatie nu selecteren en direct opnemen wanneer het werken in HTML inhoud.
+
+### Oplossingen{#may-2023-fixes}
+
+* In-app Berichten - Probleem verholpen waarbij het plannen van de campagne conflicteerde met de instellingen voor berichtfrequentie.
+
 
 ## Opmerkingen bij de release van april 2023 {#apr-rn-2023}
 
@@ -67,7 +215,7 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 <table>
 <thead>
 <tr>
-<th><strong>Snelstartworkflow voor mobiele toegang (bèta)</strong><br/></th>
+<th><strong>Snelstartworkflow voor mobiel aan boord (bèta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -100,25 +248,6 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 </tr>
 </tbody>
 </table>
-
-<!--
-
-<table>
-<thead>
-<tr>
-<th><strong>Personalized Optimization AI ranking model (General Availability)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Personalized Optimization AI ranking models are now generally available in Decision Management. This new type of model allows you to optimize and personalize offers based on segments and offer performance.</p>
-<img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>For more information, refer to the <a href="../offers/ranking/personalized-optimization-model.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>-->
 
 ### Verbeteringen {#april-2023-improvements}
 
