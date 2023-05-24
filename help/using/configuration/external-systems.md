@@ -9,8 +9,8 @@ keywords: extern, API, optimaliseren, aftopping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: 609fdb747b1b0f9e18a96f93a4e235d01da8ff72
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1202'
+ht-degree: 31%
 
 ---
 
@@ -34,36 +34,36 @@ Wanneer Journey Optimizer een aanroep naar een externe API uitvoert, worden de t
 
 ### Informatie over API&#39;s voor uitlijnen en draaien
 
-Wanneer het vormen van een gegevensbron of een actie, vestigt u een verbinding aan een systeem om of extra informatie terug te winnen om in uw reizen te gebruiken of berichten of API vraag te verzenden.
+Wanneer u een databron of een actie configureert, maakt u een verbinding met een systeem om extra informatie op te halen voor gebruik in uw journeys of om berichten of API-oproepen te versturen.
 
-Reis-API&#39;s ondersteunen maximaal 5000 gebeurtenissen per seconde, maar sommige externe systemen of API&#39;s hebben mogelijk geen equivalente doorvoer. Om overbelasting van deze systemen te voorkomen, kunt u de **Afbeelding** en **Throttling** API&#39;s om het aantal verzonden gebeurtenissen per seconde te beperken.
+Journey-API&#39;s ondersteunen tot 5000 gebeurtenissen per seconde, maar sommige externe systemen of API&#39;s hebben mogelijk geen equivalente verwerkingscapaciteit. Om overbelasting van deze systemen te voorkomen, kunt u de **Afbeelding** en **Throttling** API&#39;s om het aantal verzonden gebeurtenissen per seconde te beperken.
 
-Telkens wanneer een API-aanroep door reizen wordt uitgevoerd, loopt deze door de API-engine. Als de limiet die is ingesteld in de API wordt bereikt, wordt de aanroep afgewezen als u de API voor uitsnijden gebruikt, of gedurende maximaal 6 uur in de wachtrij geplaatst en zo snel mogelijk verwerkt in de volgorde waarin deze is ontvangen als u de API voor rotatie gebruikt.
+Telkens wanneer een API-oproep wordt uitgevoerd door journeys, passeert deze de API-engine. Als de limiet die is ingesteld in de API wordt bereikt, wordt de aanroep afgewezen als u de API voor uitsnijden gebruikt, of gedurende maximaal 6 uur in de wachtrij geplaatst en zo snel mogelijk verwerkt in de volgorde waarin deze is ontvangen als u de API voor rotatie gebruikt.
 
-Stel bijvoorbeeld dat u voor uw externe systeem een regel hebt gedefinieerd voor het bijsnijden of vertragen van 100 aanroepen per seconde. Uw systeem wordt opgeroepen door een aangepaste actie tijdens 10 verschillende reizen. Als één reis 200 vraag per seconde ontvangt, zal het de 100 beschikbare groeven gebruiken en zal verwerpen of de 100 resterende groeven in de rij plaatsen. Aangezien het maximumtarief is overschreden, zullen de overige 9 reizen geen slots meer hebben. Deze granulariteit helpt het externe systeem te beschermen tegen overbelasting en vastlopen.
+Stel bijvoorbeeld dat u voor uw externe systeem een regel voor afkappen of beperken hebt gedefinieerd van 100 oproepen per seconde. Uw systeem wordt opgeroepen door een aangepaste actie in 10 verschillende journeys. Indien één journey 200 oproepen per seconde ontvangt, gebruikt deze de 100 beschikbare slots en de 100 resterende slots verwijderen of in een wachtrij plaatsen. Aangezien het maximumaantal is overschreden, hebben de andere 9 journeys geen slot meer. Deze granulariteit helpt het externe systeem te beschermen tegen overbelasting en vastlopen.
 
 >[!IMPORTANT]
 >
->**Afdekregels** worden geconfigureerd op sandboxniveau voor een specifiek eindpunt (de URL wordt aangeroepen), maar globaal voor alle reizen van die sandbox.
+>**Afkappingsregels** worden op sandboxniveau geconfigureerd voor een specifiek eindpunt (de opgeroepen URL), maar globaal voor alle journeys van deze sandbox.
 >
->**Throtatieregels** alleen geconfigureerd zijn op productiestanddozen, voor een specifiek eindpunt maar globaal voor alle reizen over alle sandboxen. U kunt slechts één throttling configuratie per organisatie hebben.
+>**Beperkingsregels** worden voor productiesandboxen alleen geconfigureerd voor een specifiek eindpunt, maar globaal voor alle journeys in alle sandboxes. U kunt slechts één beperkingsconfiguratie per organisatie hebben.
 
 Raadpleeg de volgende secties voor meer informatie over het werken met de API&#39;s:
 
-* [API voor uitlijnen](capping.md)
-* [Throttling API](throttling.md)
+* [Afkappings-API](capping.md)
+* [API voor beperken](throttling.md)
 
 Een gedetailleerde beschrijving van de API&#39;s is beschikbaar in [Adobe Journey Optimizer API-documentatie](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
 
-### Gegevensbronnen en aangepaste handelingscapaciteit {#capacity}
+### Capaciteit gegevensbronnen en aangepaste acties {#capacity}
 
-Voor **externe gegevensbronnen**, is het maximumaantal oproepen per seconde beperkt tot 15. Als deze limiet wordt overschreden, worden eventuele aanvullende aanroepen genegeerd of in een wachtrij geplaatst, afhankelijk van de gebruikte API. Het is mogelijk om deze grens voor privé externe gegevensbronnen te verhogen door Adobe te contacteren om het eindpunt in de lijst van gewenste personen op te nemen, maar dit is geen optie voor openbare externe gegevensbronnen. * [Leer hoe te om gegevensbronnen te vormen](../datasource/about-data-sources.md).
+Voor **externe gegevensbronnen** is het maximum aantal oproepen per seconde beperkt tot 15. Als deze limiet wordt overschreden, worden alle verdere oproepen ofwel afgewezen ofwel in de wachtrij geplaatst, afhankelijk van de gebruikte API. Het is mogelijk om deze limiet te verhogen voor externe privédatabronnen door contact op te nemen met Adobe om het eindpunt op te nemen in de lijst van gewenste personen, maar dit is geen optie voor externe openbare databronnen. * [Leer hoe u databronnen kunt configureren](../datasource/about-data-sources.md).
 
 >[!NOTE]
 >
->Als een gegevensbron een douaneauthentificatie met een verschillend eindpunt dan gebruikt voor de gegevensbron gebruikt, moet u Adobe contacteren om dat eindpunt in de lijst van gewenste personen ook te omvatten.
+>Als een databron een aangepaste authenticatie gebruikt met een ander eindpunt dan het eindpunt dat voor de databron wordt gebruikt, moet u contact opnemen met Adobe om ook dat eindpunt in de lijst van gewenste personen op te nemen.
 
-Voor **aangepaste handelingen**, moet u de capaciteit van uw externe API evalueren. Bijvoorbeeld, als Journey Optimizer 1000 vraag per seconde verzendt en uw systeem slechts 100 vraag per seconde kan steunen, moet u een het in kaart brengen of het gooien configuratie bepalen zodat uw systeem niet verzadigt. [Leer hoe u handelingen configureert](../action/action.md)
+Voor **aangepaste acties** moet u de capaciteit van uw externe API evalueren. Als Journey Optimizer bijvoorbeeld 1000 oproepen per seconde verstuurt en uw systeem slechts 100 oproepen per seconde kan ondersteunen, moet u een afkappings- of beperkingsconfiguratie definiëren zodat uw systeem niet verzadigd raakt. [Ontdek hoe u acties kunt configureren](../action/action.md)
 
 ## Time-out en opnieuw proberen{#timeout}
 

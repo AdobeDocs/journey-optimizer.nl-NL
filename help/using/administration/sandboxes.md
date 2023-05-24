@@ -12,7 +12,7 @@ exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 26%
+ht-degree: 28%
 
 ---
 
@@ -54,7 +54,7 @@ Sandboxen toewijzen:
 
    ![](assets/sandbox_2.png)
 
-1. Klik onder **[!UICONTROL Available Permissions Items]** op het pluspictogram (+) om sandboxen aan uw profiel toe te wijzen. [Meer informatie over sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html){target="_blank"}.
+1. Klik onder **[!UICONTROL Available Permissions Items]** op het pluspictogram (+) om sandboxen aan uw profiel toe te wijzen. [Meer informatie over sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=nl){target="_blank"}.
 
    ![](assets/sandbox_3.png)
 
