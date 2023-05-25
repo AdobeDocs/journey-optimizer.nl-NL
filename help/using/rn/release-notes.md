@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 104a5d3def95272e09be050c822f5eafed6a6cb0
+source-git-commit: 271952e9c5d3c7823edba100d38e4ef673143cc3
 workflow-type: tm+mt
-source-wordcount: '2484'
+source-wordcount: '2425'
 ht-degree: 8%
 
 ---
@@ -86,22 +86,22 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 -->
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Fragmenten maken en gebruiken in uw e-mailinhoud</strong><br/></th>
+<th><strong>Create and use fragments in your email content</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu fragmenten ontwerpen, gebruiken en beheren om uw e-mails en inhoudssjablonen snel samen te stellen. Een fragment is een vooraf gebouwde herbruikbare component waarnaar in meerdere e-mails van Journey Optimizer-campagnes en -reizen kan worden verwezen voor een verbeterd en versneld ontwerpproces.</p>
+<p>You can now author, use, and manage fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Journey Optimizer campaigns and journeys for an improved and accelerated design process.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<p>Raadpleeg de <a href="../email/fragments.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>For more information, refer to the <a href="../email/fragments.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <table>
