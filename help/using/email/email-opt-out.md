@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: opt-out, e-mail, link, abonnement opzeggen
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1012'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Als u ontvangers de mogelijkheid wilt bieden zich af te melden voor het ontvange
 
 Hiervoor kunt u:
 
-* Een **koppeling naar een externe bestemmingspagina** in een e-mail om gebruikers in staat te stellen zich af te melden voor het ontvangen van communicatie van uw merk. [Meer informatie over het toevoegen van een externe uitschakelkoppeling](#opt-out-external-lp)
+* Een **koppeling naar een externe bestemmingspagina** in een e-mail om gebruikers in staat te stellen zich af te melden voor het ontvangen van communicatie van uw merk. [Leer hoe u een externe opt-out-koppeling toevoegt](#opt-out-external-lp)
 
 * Voeg een **one-click opt-out link** in uw e-mailinhoud. Deze verbinding zal uw ontvangers toestaan om van uw mededelingen snel af te zien, zonder aan een landende pagina worden opnieuw gericht waar zij hun keus moeten bevestigen, die het afmeldingsproces versnellen. [Meer informatie over het toevoegen van een koppeling om te weigeren met één klik](#one-click-opt-out)
 
@@ -30,7 +30,7 @@ Als de **[!UICONTROL List-Unsubscribe]** is ingeschakeld op het niveau van het k
 
 >[!NOTE]
 >
->E-mailberichten van het type Marketing moeten een opt-out-koppeling bevatten, die niet vereist is voor transactiemeldingen. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd op de [kanaaloppervlak](../configuration/channel-surfaces.md#email-type) (d.w.z. vooraf ingestelde berichten) en bij het maken van het bericht).
+>E-mailberichten van het type Marketing moeten een opt-out-koppeling bevatten, die niet vereist is voor transactiemeldingen. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd op de [kanaaloppervlak](../configuration/channel-surfaces.md#email-type) niveau en bij het maken van het bericht).
 
 ## Externe opt-out {#opt-out-external-lp}
 
@@ -64,12 +64,11 @@ Als u wilt dat de ontvangers de optie Weigeren kiezen wanneer ze hun keuze op de
 
 Deze vraag van de POST is als volgt:
 
-Eindpunt: platform.adobe.io/journey/imp/consent/preferences
+Eindpunt: https://platform.adobe.io/journey/imp/consent/preferences
 
 Parameters query:
 
 * **param**: bevat de gecodeerde lading
-* **sig**: handtekening
 * **pid**: gecodeerde profiel-id
 
 Deze drie parameters worden opgenomen in de URL van de bestemmingspagina van derden die naar de ontvanger wordt verzonden:

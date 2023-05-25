@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: koppelingen, bijhouden, controleren, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 9592e9c1b0e9c8a1c606a9a187501542e496eddb
+source-git-commit: af1bc66021f04dacee8cf674925af9e2d0c2f30b
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 1%
+source-wordcount: '1004'
+ht-degree: 2%
 
 ---
 
@@ -63,30 +63,59 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
    * **[!UICONTROL External link]**: Voeg een koppeling naar een externe URL in.
 
-   * **[!UICONTROL Landing page]**: Koppelingen naar bestemmingspagina&#39;s invoegen. Meer informatie in [deze sectie](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL Landing page]**: Koppelingen naar bestemmingspagina&#39;s invoegen. [Meer informatie ](../landing-pages/get-started-lp.md)
 
-   * **[!UICONTROL One click Opt-out]**: Voeg een koppeling in om gebruikers in staat te stellen zich snel af te melden voor uw communicatie zonder dat ze hoeven te bevestigen dat ze het abonnement willen opzeggen. Meer informatie in [deze sectie](../privacy/opt-out.md#one-click-opt-out).
+   * **[!UICONTROL One click Opt-out]**: Voeg een koppeling in om gebruikers in staat te stellen zich snel af te melden voor uw communicatie zonder dat ze hoeven te bevestigen dat ze het abonnement willen opzeggen. [Meer informatie](email-opt-out.md#one-click-opt-out).
 
    * **[!UICONTROL External Opt-in/Subscription]**: Voeg een koppeling in om het ontvangen van communicatie van uw merk te accepteren.
 
-   * **[!UICONTROL External Opt-out/Unsubscription]**: Voeg een koppeling in om uw abonnement op te zeggen dat u geen communicatie van uw merk wilt ontvangen. Meer informatie over beheer van opt-out in [deze sectie](../privacy/opt-out.md#opt-out-management).
+   * **[!UICONTROL External Opt-out/Unsubscription]**: Voeg een koppeling in om uw abonnement op te zeggen dat u geen communicatie van uw merk wilt ontvangen. Meer informatie over beheer van opt-out in [deze sectie](email-opt-out.md#opt-out-management).
 
-   * **[!UICONTROL Mirror page]**: Voeg een koppeling in om de e-mailinhoud in een webbrowser weer te geven. Meer informatie in [deze sectie](#mirror-page).
+   * **[!UICONTROL Mirror page]**: Voeg een koppeling toe om de e-mailinhoud in een webbrowser weer te geven. [Meer informatie](#mirror-page)
 
-1. U kunt uw koppelingen aanpassen. Meer informatie over gepersonaliseerde URL&#39;s vindt u in [deze sectie](../personalization/personalization-syntax.md#perso-urls).
+1. Voer de gewenste URL in het desbetreffende veld in of selecteer een openingspagina en definieer de koppelingsinstellingen en -stijlen. [Meer informatie](#adjust-links)
+
+   >[!NOTE]
+   >
+   >Voor het interpreteren van URL&#39;s [!DNL Journey Optimizer] voldoet aan de URI-syntaxis ([RFC 3986-standaard](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), waardoor sommige speciale internationale tekens in URL&#39;s worden uitgeschakeld. Wanneer u de proefdruk of e-mail probeert te verzenden, kunt u de tekenreeks via URL coderen als tijdelijke oplossing als u een fout hebt geretourneerd met een URL die aan uw inhoud is toegevoegd.
+
+1. U kunt uw koppelingen aanpassen. [Meer informatie](../personalization/personalization-syntax.md#perso-urls)
 
 1. Sla uw wijzigingen op.
 
-1. Als de koppeling eenmaal is gemaakt, kunt u deze nog steeds wijzigen in het menu **[!UICONTROL Component settings]** aan de rechterkant.
-
-   * U kunt de koppeling bewerken en het type van de koppeling wijzigen.
-   * U kunt de koppeling onderstrepen of niet door de bijbehorende optie in te schakelen.
+1. Als de koppeling eenmaal is gemaakt, kunt u deze nog steeds wijzigen in het menu **[!UICONTROL Settings]** en **[!UICONTROL Styles]** aan de rechterkant.
 
    ![](assets/message-tracking-link-settings.png)
 
 >[!NOTE]
 >
 >E-mailberichten van het type Marketing moeten een [opt-out-koppeling](../privacy/opt-out.md#opt-out-management), die niet vereist is voor transactieberichten. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd in de [kanaaloppervlak](../configuration/channel-surfaces.md#email-type) wanneer u het bericht maakt.
+
+## Koppelingen aanpassen {#adjust-links}
+
+U kunt de koppelingen aanpassen met de **[!UICONTROL Settings]** en **[!UICONTROL Styles]** aan de rechterkant. U kunt een koppeling onderstrepen, de kleur ervan bewerken en het doel ervan selecteren.
+
+1. In een **[!UICONTROL Text]** Selecteer de koppeling waar een koppeling wordt ingevoegd.
+
+1. Van de **[!UICONTROL Settings]** , kiest u hoe de doelgroep wordt omgeleid met de **[!UICONTROL Target]** vervolgkeuzelijst:
+
+   * **[!UICONTROL None]**: Hiermee opent u de koppeling in hetzelfde frame als waarop u hebt geklikt (standaard).
+   * **[!UICONTROL Blank]**: Hiermee opent u de koppeling in een nieuw venster of op een nieuw tabblad.
+   * **[!UICONTROL Self]**: Hiermee opent u de koppeling in hetzelfde frame als waarop u hebt geklikt.
+   * **[!UICONTROL Parent]**: Hiermee opent u de koppeling in het bovenliggende frame.
+   * **[!UICONTROL Top]**: Hiermee opent u de koppeling in de volledige tekst van het venster.
+
+   ![](assets/link_2.png)
+
+1. Controleren **[!UICONTROL Underline link]** om de labeltekst van uw koppeling te onderstrepen.
+
+   ![](assets/link_1.png)
+
+1. Als u de kleur van de koppeling wilt wijzigen, klikt u op **[!UICONTROL Link color]** van de **[!UICONTROL Styles]** tab.
+
+   ![](assets/link_3.png)
+
+1. Sla uw wijzigingen op.
 
 ## Koppelen naar een spiegelpagina {#mirror-page}
 

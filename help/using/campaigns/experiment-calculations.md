@@ -8,34 +8,19 @@ topic: Content Management
 role: User
 level: Experienced
 keywords: inhoud, experiment, statistiek, berekening
-hide: true
-hidefromtoc: true
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-badge: label="Beta" type="Informatief"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
 
 # Statistische berekeningen begrijpen {#experiment-calculations}
 
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatie zult vinden:
-
-* [Aan de slag met het experimenteren met inhoud](get-started-experiment.md)
-* [Een inhoudexperiment maken](content-experiment.md)
-* **[Statistische berekeningen begrijpen](experiment-calculations.md)**
-* [Testrapporten configureren](reporting-configuration.md)
-* [Statistische berekeningen in het verslag over experimenten](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
-
 In dit artikel worden de statistische berekeningen beschreven die worden gebruikt bij het uitvoeren van experimenten in Adobe Journey Optimizer.
 
-Experimentatie gebruikt geavanceerde statistische methoden om te berekenen **Vertrouwensreeksen** en **Vertrouwen**, zodat u uw experimenten zo lang als nodig kunt uitvoeren en de resultaten voortdurend kunt controleren.
+Gebruik van experimenten [geavanceerde statistische methoden](../campaigns/assets/confidence_sequence_technical_details.pdf) om te berekenen **Vertrouwensreeksen** en **Vertrouwen**, zodat u uw experimenten zo lang als nodig kunt uitvoeren en de resultaten voortdurend kunt controleren.
 
 In dit artikel wordt beschreven hoe de Experimentatie werkt en wordt een intuïtieve inleiding tot Adobe gegeven **Elke geldige betrouwbaarheidsreeks**.
 
@@ -43,12 +28,23 @@ Voor gebruikers van deskundigen worden de technische details en de verwijzingen 
 
 ## Statistische test- en controlefouten {#statistical-testing}
 
+Wanneer u een experiment uitvoert, probeert u te bepalen of er een verschil is tussen twee populaties en de waarschijnlijkheid dat dat verschil toe te schrijven is aan toeval.
+
+Over het algemeen zijn er twee hypothesen:
+
+* de **Null Hypothese** de behandeling geen effect heeft.
+* de **Alternatieve hypothese** wat betekent dat er een effect is op de behandeling.
+
+In statistisch opzicht is het de bedoeling te proberen de kracht van het bewijs te beoordelen om de nulhypothese af te wijzen. Een belangrijk punt om op te merken is dat statistische significantie wordt gebruikt om te beoordelen hoe waarschijnlijk de behandelingen zullen zijn, niet hoe waarschijnlijk ze zullen zijn. Daarom wordt statistische significantie gebruikt in combinatie met **Optillen**.
+
+Effectieve experimenten vereisen dat rekening wordt gehouden met verschillende soorten fouten die onjuiste conclusies kunnen veroorzaken.
+
 ![](assets/technote_1.png)
 
-Zoals in de bovenstaande tabel wordt geïllustreerd, zijn veel statistische bepalingsmethoden ontworpen om twee soorten fouten te beheersen:
+In de bovenstaande tabel worden de verschillende fouttypen geïllustreerd:
 
-* **False Positives (Type-I-fouten)**: is een onjuiste afwijzing van de nulhypothese, terwijl dat juist is. In de context van online experimenten betekent dit dat we ten onrechte concluderen dat de uitkomst per behandeling verschilt, hoewel het dezelfde was.
-   </br>Voordat we het experiment uitvoeren, kiezen we doorgaans een drempel `\alpha`. Nadat het experiment is uitgevoerd, `p-value` is berekend en wij verwerpen `null if p < \alpha`. Een veel gebruikte drempel is `\alpha = 0.05`Dat betekent dat we op de lange termijn verwachten dat 5 van de 100 experimenten valse positieven zijn.
+* **False Positives (Type-I-fouten)**: De nulhypothese wordt onjuist verworpen, terwijl dat juist is. In de context van online experimenten betekent dit dat we ten onrechte concluderen dat de uitkomst per behandeling verschilt, hoewel het dezelfde was.
+   </br>Voordat we het experiment uitvoeren, kiezen we doorgaans een drempel `\alpha`. Nadat het experiment is uitgevoerd, `p-value` is berekend en wij verwerpen `null if p < \alpha`Een `/alpha` is gebaseerd op de gevolgen van het krijgen van het verkeerde antwoord, bijvoorbeeld in een klinische proef waarbij het leven van iemand kan worden beïnvloed u zou kunnen besluiten om een `\alpha = 0.005`. Een veel gebruikte drempel in online experimenten is `\alpha = 0.05`Dat betekent dat we op de lange termijn verwachten dat 5 van de 100 experimenten valse positieven zijn.
 
 * **False Negatives (Type-II fouten)**: Dat betekent dat wij de nulhypothese niet verwerpen, hoewel deze onjuist is. Voor experimenten betekent dit dat we de nulhypothese niet verwerpen, terwijl die in feite anders is. Om dit soort fouten te kunnen beheren, moeten we in ons experiment over het algemeen voldoende gebruikers hebben om een bepaalde macht te garanderen, gedefinieerd als `1 - \beta`(d.w.z. één min de waarschijnlijkheid van een fout van type II).
 
@@ -70,7 +66,7 @@ De theoretische grondslagen van **Vertrouwensreeksen** afkomstig zijn uit het on
 
 >[!NOTE]
 >
->De opeenvolgingen van het vertrouwen kunnen als veilige opeenvolgende analogen van betrouwbaarheidsintervallen worden geïnterpreteerd.U kunt gegevens in uw Experimenten bekijken en interpreteren wanneer u wilt, en veilig ophouden, of experimenten voortzetten. het overeenkomstige, op elk moment geldige vertrouwen, of `p-value`, is ook veilig te interpreteren.
+>De opeenvolgingen van het vertrouwen kunnen als veilige opeenvolgende analogen van betrouwbaarheidsintervallen worden geïnterpreteerd. Met betrouwbaarheidsintervallen kunt u het experiment alleen interpreteren als u de vooraf bepaalde steekproefgrootte hebt bereikt. Met vertrouwensreeksen kunt u echter op elk gewenst moment gegevens in uw experimenten bekijken en interpreteren, en experimenten veilig stoppen of voortzetten. het overeenkomstige, op elk moment geldige vertrouwen, of `p-value`, is ook veilig om op elk ogenblik te interpreteren.
 
 Aangezien vertrouwensreeksen &quot;op elk moment geldig&quot; zijn, zijn ze conservatiever dan een methode met een vaste tijdshorizon die bij dezelfde steekproefgrootte wordt gebruikt. De grenzen van de vertrouwensreeks zijn over het algemeen breder dan een berekening van het betrouwbaarheidsinterval, terwijl het tijdsverloop van een geldig vertrouwen kleiner zal zijn dan een berekening van het vaste horizonvertrouwen. Het voordeel van dit conservatisme is dat je je resultaten altijd veilig kunt interpreteren.
 

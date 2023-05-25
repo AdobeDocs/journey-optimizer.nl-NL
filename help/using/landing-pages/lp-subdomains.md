@@ -7,9 +7,9 @@ role: Admin
 level: Intermediate
 keywords: landen, landingspagina, subdomeinen, configuratie
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,12 @@ U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of u kunt 
 
 >[!CAUTION]
 >
->Subdomeinconfiguratie van de bestemmingspagina is gemeenschappelijk voor alle milieu&#39;s. Daarom zal elke wijziging in een subdomein van een bestemmingspagina ook invloed hebben op de productiesandboxen.
+>Subdomeinconfiguratie van de bestemmingspagina is gemeenschappelijk voor alle milieu&#39;s. Daarom geldt het volgende:
+>
+>* Als u landende subdomeinen van pagina&#39;s wilt openen en bewerken, moet u beschikken over **[!UICONTROL Manage Landing Page Subdomains]** toestemming voor de productiesandbox.
+>
+> * Elke wijziging in een subdomein van een bestemmingspagina heeft ook invloed op de productiesandboxen.
+
 
 ## Een bestaand subdomein gebruiken {#lp-use-existing-subdomain}
 

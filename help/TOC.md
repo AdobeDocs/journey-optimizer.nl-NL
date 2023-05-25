@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1377'
 ht-degree: 34%
 
 ---
@@ -166,9 +166,10 @@ ht-degree: 34%
    + Inhoudsexperiment {#content-experiment}
       + [Aan de slag met het experimenteren met inhoud](using/campaigns/get-started-experiment.md)
       + [Een inhoudexperiment maken](using/campaigns/content-experiment.md)
-      + [Statistische berekeningen begrijpen](using/campaigns/experiment-calculations.md)
       + [Testrapporten configureren](using/campaigns/reporting-configuration.md)
-      + [Statistische berekeningen in het verslag over experimenten](using/campaigns/experiment-report-calculations.md)
+      + Technische opmerkingen {#technotes}
+         + [Statistische berekeningen begrijpen](using/campaigns/experiment-calculations.md)
+         + [Statistische berekeningen in het Experimentenrapport begrijpen](using/campaigns/experiment-report-calculations.md)
    + [Campagnes activeren met API&#39;s](using/campaigns/api-triggered-campaigns.md)
 + E-mailkanaal {#email}
    + [Aan de slag met e-mails](using/email/get-started-email.md)
@@ -193,11 +194,11 @@ ht-degree: 34%
          + [Aan de slag met e-mailstijl](using/email/get-started-email-style.md)
          + [Achtergrondinstellingen bewerken](using/email/backgrounds.md)
          + [Verticale uitlijning en opvulling aanpassen](using/email/alignment-and-padding.md)
-         + [Een stijl voor koppelingen definiëren](using/email/styling-links.md)
          + [Inline-opmaakkenmerken toevoegen](using/email/inline-styling.md)
    + [Uw e-mail voorvertonen en testen](using/email/preview.md)
    + [Inhoudssjablonen maken](using/email/content-templates.md)
    + [Experience Manager-sjablonen gebruiken](using/email/aem-templates.md)
+   + [Werken met fragmenten](using/email/fragments.md)
    + [E-mailuitschakelbeheer](using/email/email-opt-out.md)
    + E-mailkanaal configureren {#configure-email}
       + [Aan de slag met e-mailconfiguratie](using/email/get-started-email-config.md)
@@ -304,6 +305,7 @@ ht-degree: 34%
       + [Lijst met componenten](using/reports/global-report-components.md)
       + [Journey Global-rapport](using/reports/journey-global-report.md)
       + [Campagne Global-rapport](using/reports/campaign-global-report.md)
+      + [Doelstelling](using/reports/objective-report.md)
       + [Openingspagina Global-rapport](using/reports/lp-report-global.md)
       + [Abonnementenlijst Global-rapport](using/reports/subscription-report-global.md)
    + Reisrapporten {#reports}
@@ -468,13 +470,15 @@ ht-degree: 34%
          + [Integreren met Adobe Campaign v7/v8](using/action/acc-action.md)
    + [Bronnen](using/start/get-started-sources.md)
 + Toegangsbeheer {#access-control}
-   + [Overzicht van toegangsbeheer](using/administration/permissions-overview.md)
-   + [Geïntegreerde productprofielen](using/administration/ootb-product-profiles.md)
-   + [Gebruikers en productprofielen beheren](using/administration/permissions.md)
-   + [Machtigingsniveaus](using/administration/high-low-permissions.md)
-   + [Sandboxbeheer](using/administration/sandboxes.md)
+   + Overzicht van toegangsbeheer {#privacy}
+      + [Aan de slag met gebruikersbeheer](using/administration/permissions-overview.md)
+      + [Ingebouwde rollen](using/administration/ootb-product-profiles.md)
+      + [Ingebouwde machtigingen](using/administration/ootb-permissions.md)
+      + [Machtigingsniveaus](using/administration/high-low-permissions.md)
+   + [Gebruikers en rollen beheren](using/administration/permissions.md)
    + [Op kenmerken gebaseerd toegangsbeheer](using/administration/attribute-based-access.md)
    + [Toegangsbeheer op objectniveau](using/administration/object-based-access.md)
+   + [Sandboxbeheer](using/administration/sandboxes.md)
 + Privacy {#privacy}
    + [Aan de slag met privacy](using/privacy/get-started-privacy.md)
    + [Privacyverzoeken](using/privacy/requests.md)

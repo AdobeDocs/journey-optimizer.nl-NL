@@ -9,18 +9,15 @@ keywords: in-app, bericht, maken, starten
 hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-source-git-commit: 252011710574122c1f321a388b65bdafb7c666df
+badge: label="Beta" type="Informatief"
+source-git-commit: 50afe137c618153278c596f1553216c20637e40b
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '498'
 ht-degree: 1%
 
 ---
 
 # Een bericht in de app maken in een reis {#create-in-app-journey}
-
->[!AVAILABILITY]
->
->De activiteit in de app is momenteel beschikbaar als een bètaversie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.
 
 1. Open uw reis en sleep vervolgens een **[!UICONTROL In-app]** van de **[!UICONTROL Actions]** in het palet.
 

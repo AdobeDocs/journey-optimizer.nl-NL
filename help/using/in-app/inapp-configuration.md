@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 keywords: in-app, bericht, configuratie, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '264'
 ht-degree: 3%
 
 ---
@@ -58,7 +58,7 @@ Voordat u berichten in de app verzendt, moet u het kanaal in de app configureren
    * Mobiele kern
    * Profiel
 
-   Zie [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=en#add-a-new-extension) voor de nadere regeling.
+   Zie [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html#add-a-new-extension) voor de nadere regeling.
 
    ![](assets/inapp_config_5.png)
 

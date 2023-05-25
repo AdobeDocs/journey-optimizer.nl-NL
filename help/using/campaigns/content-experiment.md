@@ -8,13 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
-hide: true
-hidefromtoc: true
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-badge: label="Beta" type="Informatief"
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '693'
 ht-degree: 1%
 
 ---
@@ -26,23 +23,11 @@ ht-degree: 1%
 >title="Inhoudsexperiment"
 >abstract="U kunt verkiezen om de leveringsinhoud, het onderwerp, of de afzender te variëren om veelvoudige leveringsbehandelingen te bepalen en de beste combinatie voor uw publiek te bepalen."
 
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatie zult vinden:
-
-* [Aan de slag met het experimenteren met inhoud](get-started-experiment.md)
-* **[Een inhoudexperiment maken](content-experiment.md)**
-* [Statistische berekeningen begrijpen](experiment-calculations.md)
-* [Testrapporten configureren](reporting-configuration.md)
-* [Statistische berekeningen in het verslag over experimenten](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
-
-Met het Journey Optimizer Content Experiment kunt u meerdere leveringsbehandelingen definiëren om te meten welke het beste presteert voor uw doelgroep. U kunt kiezen om de leveringsinhoud, het onderwerp, of de afzender te variëren. Het betrokken publiek wordt willekeurig toegewezen aan elke behandeling om te bepalen welke het beste in termen van gespecificeerde metrisch werkt.
-
 >[!NOTE]
 >
 >Alvorens met de Experimenteer van de Inhoud te beginnen, zorg ervoor dat uw rapporteringsconfiguratie voor uw douanedatasets wordt geplaatst. Meer informatie in [deze sectie](reporting-configuration.md).
+
+Met het Journey Optimizer Content Experiment kunt u meerdere leveringsbehandelingen definiëren om te meten welke het beste presteert voor uw doelgroep. U kunt kiezen om de leveringsinhoud, het onderwerp, of de afzender te variëren. Het betrokken publiek wordt willekeurig toegewezen aan elke behandeling om te bepalen welke het beste in termen van gespecificeerde metrisch werkt.
 
 In het onderstaande voorbeeld is de leveringsdoelstelling opgesplitst in twee groepen, die elk 45% van de doelpopulatie vertegenwoordigen, en een holdoutgroep van 10%, die de levering niet zal ontvangen.
 
@@ -72,6 +57,8 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 -->
 1. Selecteer vervolgens het kanaal **[!UICONTROL Surface]** wilt gebruiken voor deze levering en klikt u op **[!UICONTROL Create]**. Raadpleeg voor meer informatie de [Kanaaloppervlakken](../configuration/channel-surfaces.md) pagina.
 
+   In dit voorbeeld kiezen we ervoor om een campagne te verzenden met e-mails.
+
    ![](assets/content_experiment_2.png)
 
 1. Stel de **[!UICONTROL Properties]** van je levering:
@@ -90,7 +77,7 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
 1. Om uw campagne op een specifieke datum of op een terugkomende frequentie uit te voeren, vorm **[!UICONTROL Schedule]** sectie. [Meer informatie](create-campaign.md)
 
-1. Klikken **[!UICONTROL Edit content]** om uw levering aan te passen. [Meer informatie](../email/content-from-scratch.md)
+1. Klikken **[!UICONTROL Edit content]** om uw levering aan te passen.
 
    ![](assets/content_experiment_17.png)
 
@@ -160,57 +147,4 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
    ![](assets/content_experiment_14.png)
 
-Na het vormen van uw experimenteren en campagne, kunt u het succes van uw levering met het rapport van de Campagne volgen.
-
-## Doelstellingen {#objectives-global}
-
->[!AVAILABILITY]
->
->De functie voor het experimenteren met inhoud is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
-
-![](assets/performance_report.gif)
-
-De **[!UICONTROL Objectives]** kunt u in uw campagnerapport de rapporten van uw leveringen perfectioneren door zich op één specifieke metrische waarde te richten.
-
-De **[!UICONTROL Objectives]** vermeld **[!UICONTROL Datasets]** die een verbinding met een systeem definiëren om aanvullende informatie op te halen. Een lijst met ingebouwde **[!UICONTROL Objectives]** is beschikbaar maar u kunt uw eigen item toevoegen door nieuwe toe te voegen **[!UICONTROL Dataset]**. Voor de gedetailleerde procedure, zie [sectie](reporting-configuration.md).
-
-Nadat u de doelstellingen hebt geselecteerd waarop u zich wilt richten, worden de twee **[!UICONTROL Performance overview]** en **[!UICONTROL Campaign objective]** widgets zullen een gedetailleerde samenvatting van uw leveringsprestaties verstrekken.
-
-Met de **[!UICONTROL Campaign objective]** widget, kunt u ook kiezen om uw hoofddoel met een andere metrische waarde te vergelijken.
-
-Houd er rekening mee dat elke widget indien nodig kan worden vergroot of verkleind en verwijderd. Raadpleeg voor meer informatie hierover [sectie](../reports/global-report.md#modify-dashboard).
-
-## Experimentatierapport {#experimentation-global}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_content_experiment_click"
->title="Metrisch met succes"
->abstract="De totale waarde van de metrische waarde van het Succes, eerder geselecteerd toen het creëren van uw Experimenten, gedeeld door het aantal profielen."
-
->[!AVAILABILITY]
->
->De functie voor het experimenteren met inhoud is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
-
-![](assets/experimentation_report_3.png)
-
-Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Experimentation]** tabblad bevat de belangrijkste informatie met betrekking tot de manier waarop elke variant wordt uitgevoerd en of er een best presterende variant is.
-
-Het kan enige tijd duren om de beste uitvoerder te definiëren. Dit pictogram geeft dit weer. ![](assets/experimentation_report_1.png).
-
-De **[!UICONTROL Experiment result]** widget geeft de prestaties van elke variant weer. U kunt uw basislijn wijzigen door een van de behandelingen te kiezen in het menu **[!UICONTROL Baseline]** de vervolgkeuzelijst. De beste behandeling wordt weergegeven met een sterpictogram.
-
-De tabel bevat de volgende cijfers:
-
-* **[!UICONTROL Profiles]**: Aantal profielen waarop deze behandeling is gericht.
-
-* **[!UICONTROL Unique outbound clicks]**: Het totale aantal klikken over uitgaande kanalen.
-
-* **[!UICONTROL Count per profile]**: Totale waarde van de metrische waarde van de doelstelling Experiment gedeeld door het aantal profielen.
-
-* **[!UICONTROL Confidence interval]**: Percentage verschil in prestaties tussen de basislijn en de best presterende behandeling. [Meer informatie](../campaigns/experiment-calculations.md#confidence-intervals).
-
-* **[!UICONTROL Average lift]**: Percentage verbetering van de conversiesnelheid van een gegeven behandeling ten opzichte van de uitgangswaarde. [Meer informatie](../campaigns/experiment-calculations.md#understand-lift)
-
-* **[!UICONTROL Confidence]**: Bewijs dat een bepaalde behandeling gelijk is aan de basisbehandeling. [Meer informatie](../campaigns/experiment-calculations.md#understand-confidence)
-
-Raadpleeg voor een diepgaande analyse van deze resultaten en de manier waarop u deze kunt interpreteren de volgende bronnen: [deze pagina](../campaigns/get-started-experiment.md#interpret-results).
+Na het vormen van uw experimenteren en campagne, kunt u het succes van uw levering met het rapport van de Campagne volgen. [Meer informatie](../reports/campaign-global-report.md#experimentation-report)

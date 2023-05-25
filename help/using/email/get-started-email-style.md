@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: email, style, css, body, structure
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
@@ -28,5 +28,4 @@ Volg de onderstaande koppelingen om te zien hoe u bepaalde stijlinstellingen in 
 
 * Leer hoe u [uw e-mailachtergrond aanpassen](backgrounds.md)
 * Leer hoe u [verticale uitlijning en opvulling beheren](alignment-and-padding.md)
-* Leer hoe u [een stijl definiëren voor de koppelingen in uw e-mail](styling-links.md)
 * Leer hoe u [inline-opmaakkenmerken aanpassen](inline-styling.md)

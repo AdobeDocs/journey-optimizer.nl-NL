@@ -7,9 +7,9 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: b06b545d377fcd1ffe6ed218badeb94c1bb85ef2
+source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '379'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Voer de volgende stappen uit om een AI-model te maken:
 1. Geef een unieke naam en een beschrijving voor het AI-model op en selecteer het type AI-model dat u wilt maken:
 
    * **[!UICONTROL Auto-optimization]** optimaliseert aanbiedingen op basis van de prestaties van de vorige aanbieding. [Meer informatie](auto-optimization-model.md)
-   * **[!UICONTROL Personalized]** optimaliseert en past aanbiedingen aan op basis van segmenten en biedt prestaties. [Meer informatie](personalized-optimization-model.md)
+   * **[!UICONTROL Personalized optimization]** optimaliseert en past aanbiedingen aan op basis van segmenten en biedt prestaties. [Meer informatie](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -52,7 +52,7 @@ Voer de volgende stappen uit om een AI-model te maken:
    >* **Conversiegebeurtenissen** (aanbiedingen die resulteren in klikken via e-mail of web).
 
    >
-   >Deze gebeurtenissen worden automatisch vastgelegd met de Web SDK of de Mobile SDK die is opgegeven. Meer informatie hierover vindt u in [Overzicht Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en).
+   >Deze gebeurtenissen worden automatisch vastgelegd met de Web SDK of de Mobile SDK die is opgegeven. Meer informatie hierover vindt u in [Overzicht Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html).
 
 1. Selecteer de gegevensset(s) waar de conversie- en impressiefeedagen worden verzameld. Leer hoe u een dergelijke gegevensset maakt in [deze sectie](../data-collection/create-dataset.md). <!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
@@ -62,7 +62,7 @@ Voer de volgende stappen uit om een AI-model te maken:
    >
    >Alleen de gegevenssets die zijn gemaakt op basis van schema&#39;s die zijn gekoppeld aan de **[!UICONTROL Experience Event - Proposition Interactions]** veldgroep (voorheen bekend als mixin) wordt weergegeven in de vervolgkeuzelijst.
 
-1. Als u een **[!UICONTROL Personalization]** AI-model: selecteer het segment of de segmenten die u wilt gebruiken om het AI-model op te leiden.
+1. Als u een **[!UICONTROL Personalized optimization]** AI-model: selecteer het segment of de segmenten die u wilt gebruiken om het AI-model op te leiden.
 
    ![](../assets/ai-ranking-segments.png)
 

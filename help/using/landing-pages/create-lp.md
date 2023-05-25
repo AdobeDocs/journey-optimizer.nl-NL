@@ -9,14 +9,18 @@ role: User
 level: Beginner
 keywords: landen, pagina landen, maken, publiceren
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1533'
 ht-degree: 1%
 
 ---
 
 # bestemmingspagina&#39;s maken en publiceren {#create-lp}
+
+>[!CAUTION]
+>
+>Als u bestemmingspagina&#39;s wilt testen en publiceren, moet u beschikken over **[!UICONTROL Publish Messages]** toestemming.
 
 ## Openingspagina&#39;s openen {#access-landing-pages}
 
@@ -207,6 +211,8 @@ Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt
 
 >[!CAUTION]
 >
+>Als u bestemmingspagina&#39;s wilt testen, moet u beschikken over **[!UICONTROL Publish Messages]** toestemming.
+>
 >U moet testprofielen beschikbaar hebben om een voorbeeld van uw berichten te kunnen bekijken en proefdrukken te kunnen verzenden. Leer hoe u [testprofielen maken](../segment/creating-test-profiles.md).
 
 1. Klik in de interface van de bestemmingspagina op de knop **[!UICONTROL Simulate content]** om de selectie van het testprofiel te openen.
@@ -273,6 +279,10 @@ Er kunnen twee typen waarschuwingen optreden:
 -->
 
 ## De openingspagina publiceren {#publish-landing-page}
+
+>[!CAUTION]
+>
+>Als u bestemmingspagina&#39;s wilt publiceren, moet u beschikken over **[!UICONTROL Publish Messages]** toestemming.
 
 Als de landingspagina gereed is, kunt u deze publiceren en in een bericht gebruiken.
 

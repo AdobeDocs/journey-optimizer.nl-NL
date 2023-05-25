@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 badge: label="Beta" type="Informatief"
-source-git-commit: 55f1c6a681aece6446a3330184466ff61e4db580
+source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Om het dossier te vormen die, volg de stappen hieronder verpletteren.
 
    >[!NOTE]
    >
-   >Momenteel worden alleen Amazon S3 en SFTP ondersteund in [!DNL Journey Optimizer].
+   >Amazon S3, SFTP en Azure worden momenteel ondersteund in [!DNL Journey Optimizer].
 
 1. Vul de gegevens en referenties voor uw server in, zoals het serveradres, de toegangstoets, enzovoort.
 
@@ -116,7 +116,7 @@ Om het dossier te vormen die, volg de stappen hieronder verpletteren.
 >id="ajo_dm_surface_settings"
 >title="Instellingen voor direct mail definiëren"
 >abstract="Een direct-mailoppervlak bevat de instellingen voor de opmaak van het bestand dat de doelpublieksgegevens bevat en wordt gebruikt door de mailprovider. U moet ook bepalen waar het dossier door het dossier te selecteren verplettert configuratie zal worden uitgevoerd."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html?lang=en#file-routing-configuration" text="Bestands-routering configureren"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/direct-mail-configuration.html#file-routing-configuration" text="Bestands-routering configureren"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -146,6 +146,10 @@ Een direct-mailoppervlak moet ook het bestand bevatten dat de configuratie verpl
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
 1. Selecteer de bestandsindeling: **[!UICONTROL CSV]** of **[!UICONTROL Text delimited]**.
+
+1. Als u **[!UICONTROL Text delimited]** definieert u het kolomscheidingsteken van uw keuze: tabellatie, puntkomma, pijp of ampersand.
+
+   ![](assets/surface-direct-mail-column-separator.png)
 
 1. Selecteer **[!UICONTROL File routing configuration]** onder de mensen die je creëerde. Hiermee bepaalt u waar het bestand wordt geëxporteerd zodat uw direct-mailprovider het kan gebruiken.
 

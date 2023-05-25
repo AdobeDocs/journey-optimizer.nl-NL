@@ -5,30 +5,14 @@ feature: A/B Testing
 topic: Content Management
 role: User
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta" type="Informatief"
-exl-id: b3336381-bc73-4c8f-938f-f10fe37305b0
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
 
-# Statistische berekeningen in het verslag over experimenten {#experiment-report-calculations}
-
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatie zult vinden:
-
-* [Aan de slag met het experimenteren met inhoud](get-started-experiment.md)
-* [Een inhoudexperiment maken](content-experiment.md)
-* [Statistische berekeningen begrijpen](experiment-calculations.md)
-* [Testrapporten configureren](reporting-configuration.md)
-* **[Statistische berekeningen in het verslag over experimenten](experiment-report-calculations.md)**
-
->[!ENDSHADEBOX]
+# Statistische berekeningen in het Experimentenrapport begrijpen {#experiment-report-calculations}
 
 Op deze pagina worden de gedetailleerde statistische berekeningen beschreven die in het Experimentatierapport voor campagnes in Adobe Journey Optimizer worden gebruikt.
 

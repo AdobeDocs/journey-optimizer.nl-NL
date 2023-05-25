@@ -8,34 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
-hide: true
-hidefromtoc: true
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-badge: label="Beta" type="Informatief"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '1942'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met content-experimenten {#get-started-experiment}
-
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatie zult vinden:
-
-* **[Aan de slag met het experimenteren met inhoud](get-started-experiment.md)**
-* [Een inhoudexperiment maken](content-experiment.md)
-* [Statistische berekeningen begrijpen](experiment-calculations.md)
-* [Testrapporten configureren](reporting-configuration.md)
-* [Statistische berekeningen in het verslag over experimenten](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->De functie Experimenteren met inhoud is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 ## Wat is een inhoudexperiment?
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 2%
@@ -81,8 +81,6 @@ Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken
 
 1. Open de lijst met inhoudssjablonen via **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** links.
 
-   ![](assets/content-template-list.png)
-
 1. Selecteer **[!UICONTROL Create template]**.
 
 1. Vul de sjabloondetails in.
@@ -95,7 +93,7 @@ Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken
 
 1. Selecteer **[!UICONTROL Manage access]**. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md).
 
-1. Klikken **[!UICONTROL Create]** en kies hoe u uw e-mail van de verschillende opties wilt ontwerpen:
+1. Klikken **[!UICONTROL Create]** en kies uit de verschillende opties hoe u de sjabloon wilt ontwerpen:
 
    * [Ontwerp uw e-mail helemaal zelf](content-from-scratch.md) via de interface van E-mailontwerper.
 

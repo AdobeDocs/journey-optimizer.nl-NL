@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: gegevens, bestuur, DULE, labels, labels, platform, beleid
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ In Journey Optimizer kunt u dit beleid toepassen op aangepaste acties om te voor
 Raadpleeg de documentatie van Adobe Experience Platform voor meer informatie over het gegevensbeheerkader en over het werken met labels en beleid:
 
 * [Overzicht van Data Governance Service](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html)
-* [Overzicht van labels voor gegevensgebruik](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=en)
+* [Overzicht van labels voor gegevensgebruik](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html)
 * [Beleid voor gegevensgebruik](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html)
 
 ## Belangrijke opmerkingen {#important-notes}
@@ -48,7 +48,7 @@ U kunt bestaande labels, marketingacties en beleid gebruiken. Hier zijn de belan
 * Definieer een marketingactie voor elke aangepaste actie van derden die wordt gebruikt tijdens uw reizen.
 * Maak een governancebeleid en koppel dit aan de label- en marketingactie.
 
-Raadpleeg deze voor meer informatie over het beheren van beleidsregels [documentatie](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=en#consent-policy)
+Raadpleeg deze voor meer informatie over het beheren van beleidsregels [documentatie](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy)
 
 Laten we het voorbeeld nemen van het veld voor het bloedtype dat u als gevoelig moet labelen en dat u niet mag exporteren naar een derde. Hier volgen de verschillende stappen:
 

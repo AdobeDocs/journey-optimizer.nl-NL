@@ -9,9 +9,9 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, attribute, Authorizations, data, access, sensitive, assets
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ In dit voorbeeld willen wij de toegang tot **Nationaliteit** veld. Dit veld is a
 
 U kunt ook toevoegen  **[!UICONTROL Label]** tot  **[!UICONTROL Schema]**,  **[!UICONTROL Datasets]** en  **[!UICONTROL Segments]**.
 
-1. Maak uw **[!UICONTROL Schema]**. Raadpleeg voor meer informatie hierover [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en).
+1. Maak uw **[!UICONTROL Schema]**. Raadpleeg voor meer informatie hierover [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html).
 
    ![](assets/label_1.png)
 

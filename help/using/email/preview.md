@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: voorvertoning, inhoud, e-mail, proefdruk, test, profiel
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '976'
 ht-degree: 1%
 
 ---
@@ -49,8 +49,8 @@ Bovendien kunt u uw **Litmus** account [!DNL Journey Optimizer] om direct een vo
 >id="ac_preview_testprofiles"
 >title="Berichten voorvertonen en testen"
 >abstract="Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#email-rendering" text="E-mailweergave"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html?lang=en#preview-email" text="Voorvertoning"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html#email-rendering" text="E-mailweergave"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html#preview-email" text="Voorvertoning"
 
 Gebruiken [Testprofielen](../segment/creating-test-profiles.md) om extra ontvangers te richten die niet de bepaalde het richten criteria aanpassen.
 

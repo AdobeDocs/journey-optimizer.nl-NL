@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0a515afc2335a14c9c978f9cbf394850a88964c4
+source-git-commit: 74318fe0e9f72fe6341c060f7113fc877fc7d116
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2816'
 ht-degree: 16%
 
 ---
@@ -17,8 +17,10 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 ## Mei 2023 {#may-2023}
 
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van mei &#39;23 is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
 * Er is een nieuwe pagina toegevoegd waarin wordt beschreven hoe u het subdomein instelt dat wordt gebruikt om inhoud die afkomstig is van de Adobe Experience Manager Assets Essentials, te publiceren in uw webervaringen. [Meer informatie](../web/web-delegated-subdomains.md)
 * Er is een nieuwe subsectie toegevoegd om uit te leggen hoe u aangepaste volgparameters kunt toevoegen aan URL&#39;s in de e-mailontwerper. [Meer informatie](../email/message-tracking.md#url-tracking)
+* Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u ervoor kunt zorgen dat de keuze van uw klanten die ervoor kiezen hun profielgegevens niet te laten gebruiken voor personalisatie, wordt gerespecteerd. [Meer informatie](../privacy/opt-out.md#)
 
 ## April 2023 {#apr-2023}
 

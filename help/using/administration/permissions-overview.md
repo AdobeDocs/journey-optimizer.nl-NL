@@ -9,14 +9,14 @@ role: Admin, Architect
 level: Intermediate
 keywords: machtigingen, rechten, beperkingen, toegang, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: d99feb7b6b11f9bba4f4164e7febecfca1d7da3b
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 19%
+source-wordcount: '200'
+ht-degree: 17%
 
 ---
 
-# Overzicht van User Management {#permissions-overview}
+# Aan de slag met gebruikersbeheer {#permissions-overview}
 
 [!DNL Journey Optimizer]Met kunt u de machtigingen definiëren en beheren die aan verschillende gebruikers zijn toegewezen. Machtigingen zijn een reeks rechten en beperkingen die toegang tot functies en mogelijkheden in producten toestaan of weigeren.
 

@@ -7,18 +7,14 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
 
 # Gepersonaliseerd optimalisatiemodel {#personalized-optimization-model}
-
->[!CAUTION]
->
->Het gebruik van aangepaste optimalisatiemodellen is momenteel beschikbaar in een vroeg stadium en alleen voor bepaalde gebruikers.
 
 ## Overzicht {#overview}
 
@@ -35,14 +31,14 @@ Als een bank bijvoorbeeld twee creditcardaanbiedingen heeft met het enige versch
 
 ## Hoe het werkt {#how}
 
-Automatische personalisatie leert complexe functieinteracties tussen aanbiedingen, gebruikersgegevens en contextuele informatie om gepersonaliseerde aanbiedingen aan eindgebruikers aan te bevelen. Functies zijn invoer in het model.
+Het model leert complexe eigenschapinteractie tussen aanbiedingen, gebruikersinformatie en contextafhankelijke informatie om gepersonaliseerde aanbiedingen aan eind - gebruikers aan te bevelen. Functies zijn invoer in het model.
 
 Er zijn drie typen functies:
 
 | Typen functies | Hoe te om eigenschappen aan modellen toe te voegen |
 |--------------|----------------------------|
-| Decisioning-objecten (placementID, activityID, DecisionScopeID) | Deel van de feedback-ervaringen over het beheer van beslissingen die naar het AEP zijn verzonden |
 | Segmenten | 0-50 segmenten kunnen worden toegevoegd als functies bij het maken van het Willekeurige AI-model |
+| Decisioning-objecten (placementID, activityID, DecisionScopeID) | Deel van de feedback-ervaringen over het beheer van beslissingen die naar het AEP zijn verzonden |
 | Contextgegevens | Een deel van de beslissing feedback over ervaringen die naar AEP zijn gestuurd. Beschikbare contextgegevens die aan schema moeten worden toegevoegd: Handelsgegevens, kanaaldetails, toepassingsdetails, webdetails, omgevingsdetails, apparaatdetails, context |
 
 Het model heeft twee fasen:
@@ -66,7 +62,7 @@ In feite is dit het idee om historische eigenschapinteractie te leren en te herd
 Koud-startprobleem doet zich voor wanneer er onvoldoende gegevens zijn om een aanbeveling te doen. Voor auto-verpersoonlijking, zijn er twee soorten koudstartproblemen.
 
 * **Na het maken van een nieuwe classificatiestrategie zonder historische gegevens**, worden de aanbiedingen voor een bepaalde periode willekeurig bediend om gegevens te verzamelen, en de gegevens worden gebruikt om het eerste model op te leiden.
-* A **nadat het eerste model is vrijgegeven** 10% van het totale verkeer zal worden toegewezen voor willekeurig verkeer, terwijl 90% van het verkeer zal worden gebruikt voor modelaanbevelingen. Als nieuwe aanbiedingen aan de rangorde worden toegevoegd, zouden zij dus worden geleverd als onderdeel van de 10% van het verkeer. De gegevens die over die aanbiedingen worden verzameld zouden het aantal tijden bepalen het onder de 90% van verkeer wordt geselecteerd aangezien het model blijft worden bijgewerkt.
+* **Nadat het eerste model is vrijgegeven** 10% van het totale verkeer zal worden toegewezen voor willekeurig verkeer, terwijl 90% van het verkeer zal worden gebruikt voor modelaanbevelingen. Als nieuwe aanbiedingen aan de rangorde worden toegevoegd, zouden zij dus worden geleverd als onderdeel van de 10% van het verkeer. De gegevens die over die aanbiedingen worden verzameld zouden het aantal tijden bepalen het onder de 90% van verkeer wordt geselecteerd aangezien het model blijft worden bijgewerkt.
 
 ## Herscholing {#re-training}
 
