@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec2113d6789f53827c725573669e948e1385c2e4
+source-git-commit: 104a5d3def95272e09be050c822f5eafed6a6cb0
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2484'
 ht-degree: 8%
 
 ---
@@ -167,11 +167,11 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 **Sms-kanaal**
 
 * Infobip is toegevoegd als leverancier wanneer het vormen van uw het kanaaloppervlakten van SMS. [Meer informatie](../sms/sms-configuration.md)
-* Twillio - De API credentieopstelling omvat nu de capaciteit om de dienst SID van het Overseinen voor naadloze integratie met uw rekening van Twilio toe te voegen.
+* Twillio - De API credentieopstelling omvat nu de capaciteit om de dienst SID van het Overseinen voor naadloze integratie met uw rekening van Twilio toe te voegen. [Meer informatie](../sms/sms-configuration.md)
 
 **Kanaal in app**
 
-* Toegevoegde nieuwe regels van de berichttrekker voor de Dienst van Plaatsen van Adobe.
+* Toegevoegde nieuwe regels van de berichttrekker voor de Dienst van Plaatsen van Adobe. [Meer informatie](../in-app/inapp-configuration.md)
 * Nieuwe Adobe Experience Platform Assurance-mogelijkheden toegevoegd om apparaatgebeurtenissen vast te leggen die moeten worden toegevoegd als triggerregels.
 
 **Journeys**
@@ -180,9 +180,9 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 
 **Campagnes**
 
-* Het is nu mogelijk een campagne te dupliceren vanuit het inventarisscherm met behulp van het actiemenu voor ovaal.
+* Het is nu mogelijk een campagne te dupliceren vanuit het inventarisscherm met behulp van het actiemenu voor ovaal. [Meer informatie](../campaigns/modify-stop-campaign.md#duplicate)
 * U kunt nu ontwerpwijzigingen in een live campagne verwijderen.
-* De stappen voor het activeren van een campagne zijn nu gestroomlijnd.
+* De stappen voor het activeren van een campagne zijn nu gestroomlijnd. [Meer informatie](../campaigns/modify-stop-campaign.md)
 
 **Beslissingsbeheer**
 

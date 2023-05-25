@@ -6,9 +6,9 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van SMS met 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 442e3213ad512b62332cd08d6639dfc52bdc766a
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '865'
 ht-degree: 2%
 
 ---
@@ -55,20 +55,25 @@ Voer de volgende stappen uit om uw SMS-leverancier te configureren met Journey O
 
    ![](assets/sms_6.png)
 
-1. Selecteer uw **[!UICONTROL SMS vendor]**:
+1. Vorm uw geloofsbrieven van SMS API:
 
-   * **[!DNL Sinch]**
+   * Voor **[!DNL Sinch]**:
 
-      Als u uw **[!UICONTROL Service ID]** en **[!UICONTROL API Token]** hebt u toegang tot SMS > API&#39;s via uw Sinch-account.
+      * **[!UICONTROL Name]**: Kies een naam voor uw API-referentie.
 
-   * **[!DNL Twilio]**
+      * **[!UICONTROL Service ID]** en **[!UICONTROL API Token]**: als u toegang wilt tot de pagina API&#39;s, vindt u uw gegevens onder het tabblad SMS.  [Meer informatie](https://developers.sinch.com/docs/sms/getting-started/)
+   * Voor **[!DNL Twilio]**:
 
-      Als u uw **[!UICONTROL Service ID]** en **[!UICONTROL API Token]**, opent u het venster Accountinformatie van de pagina Dashboard van de console.
+      * **[!UICONTROL Name]**: Kies een naam voor uw API-referentie.
 
+      * **[!UICONTROL Account SID]** en **[!UICONTROL Auth Token]**: Open het venster Accountinfo van de pagina Dashboard van de Twilio Console om uw referenties te zoeken.
 
-1. Voer een **[!UICONTROL Name]** voor uw API-referentie.
+      * **[!UICONTROL Message SID]**: Voer de unieke id in die aan elk bericht is toegewezen dat door de API van Twilio is gemaakt. [Meer informatie](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+   * Voor **[!DNL Infobip]**:
 
-1. Voer uw **[!UICONTROL Service ID]** en **[!UICONTROL API Token]**.
+      * **[!UICONTROL Name]**: Kies een naam voor uw API-referentie.
+
+      * **[!UICONTROL API base URL]** en **[!UICONTROL API token]**: toegang tot uw webinterfacehomepage of de API-sleutelbeheerpagina om uw referenties te zoeken. [Meer informatie](https://www.infobip.com/docs/api)
 
    ![](assets/sms_7.png)
 
