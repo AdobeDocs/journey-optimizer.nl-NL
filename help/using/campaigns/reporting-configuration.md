@@ -8,13 +8,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: configuratie, experimenteren, rapporteren, optimaliseren
-hide: true
-hidefromtoc: true
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-badge: label="Beta" type="Informatief"
-source-git-commit: 160e4ce03d3be975157c30fbe511875a85b00551
+source-git-commit: 066bceb078f619e75e5776764f534619d5a0bd5a
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '692'
 ht-degree: 2%
 
 ---
@@ -30,18 +27,6 @@ ht-degree: 2%
 >id="ajo_admin_reporting_dataset"
 >title="Een gegevensset selecteren"
 >abstract="U kunt alleen een gebeurtenistype-gegevensset selecteren, die minstens een van de ondersteunde veldgroepen moet bevatten: Application Details, Commerce Details, Web Details."
-
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatie zult vinden:
-
-* [Aan de slag met het experimenteren met inhoud](get-started-experiment.md)
-* [Een inhoudexperiment maken](content-experiment.md)
-* [Statistische berekeningen begrijpen](experiment-calculations.md)
-* **[Testrapporten configureren](reporting-configuration.md)**
-* [Statistische berekeningen in het verslag over experimenten](experiment-report-calculations.md)
-
->[!ENDSHADEBOX]
 
 <!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
 
@@ -60,7 +45,7 @@ Voor deze configuratie, moet u één of meerdere datasets toevoegen die de extra
 ## Vereisten
 
 
-Alvorens een dataset aan de rapporteringsconfiguratie toe te voegen, moet u die dataset tot stand brengen. Meer informatie in het dialoogvenster [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en#create){target="_blank"}.
+Alvorens een dataset aan de rapporteringsconfiguratie toe te voegen, moet u die dataset tot stand brengen. Meer informatie in het dialoogvenster [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
 
 * U kunt alleen gegevenssets van het gebeurtenistype toevoegen.
 
