@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 7dca239cbdb710b55e8a6c26b5fa3c1644edd778
+source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
-source-wordcount: '2269'
+source-wordcount: '2298'
 ht-degree: 1%
 
 ---
@@ -140,16 +140,6 @@ In feite, is de output van een segment een lijst van profielen, terwijl een besl
 >abstract="Als u wilt voorkomen dat uw klanten te veel vragen, gebruikt u de optie Afdekken om het maximumaantal keren te bepalen dat een aanbieding kan worden gepresenteerd."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="Het wijzigen van datums kan invloed hebben op de plafondfunctie"
 
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping"
->title="De frequentie voor uitlijnen instellen"
->abstract="U kunt ervoor kiezen om de teller van de aanbiedingstafbeelding dagelijks, wekelijks of maandelijks opnieuw in te stellen. Als je je voorstel hebt opgeslagen, kun je de geselecteerde frequentie niet meer wijzigen."
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_frequency_capping_impression"
->title="Impressie"
->abstract="Het gebruik van indrukkingen als afdekkende gebeurtenissen is alleen beschikbaar voor binnenkomende kanalen."
-
 Afkappen wordt gebruikt als beperking om het maximumaantal keren te bepalen dat een aanbieding kan worden voorgesteld.
 
 Door het aantal keren dat gebruikers specifieke aanbiedingen krijgen te beperken, kunt u voorkomen dat uw klanten te veel vragen en zo elk aanraakpunt optimaliseren met de beste aanbieding.
@@ -183,6 +173,11 @@ Het aantal keren dat een aanbieding wordt voorgesteld, wordt berekend tijdens de
 >Afdekkingstellers worden opnieuw ingesteld wanneer de aanbieding vervalt of 2 jaar na de startdatum van de aanbieding, afhankelijk van welke datum het eerst valt. Meer informatie over het definiëren van de datum van een aanbieding in [deze sectie](creating-personalized-offers.md#create-offer).
 
 ### gebeurtenis Capping {#capping-event}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping_impression"
+>title="Impressie"
+>abstract="Het gebruik van indrukkingen als afdekkende gebeurtenissen is alleen beschikbaar voor binnenkomende kanalen."
 
 De **[!UICONTROL Capping event]** in het veld kunt u bepalen welke **[!UICONTROL Capping event]** zal in aanmerking worden genomen om de teller te verhogen:
 
@@ -250,6 +245,11 @@ U kunt ook opgeven of u de aftopping wilt toepassen op alle gebruikers of op é�
 
 ### Frequentiecorrectie {#frequency-capping}
 
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_frequency_capping"
+>title="De frequentie voor uitlijnen instellen"
+>abstract="U kunt ervoor kiezen om de teller van de aanbiedingstafbeelding dagelijks, wekelijks of maandelijks opnieuw in te stellen. Nadat u de aanbieding hebt gepubliceerd met de functie voor het toewijzen van frequenties ingeschakeld, kunt u de gedefinieerde frequentie niet meer wijzigen."
+
 De **[!UICONTROL Frequency]** kunt u definiëren hoe vaak het aantal bijschriften wordt teruggezet. Hiertoe definieert u de tijdsperiode voor het tellen (dagelijks, wekelijks of maandelijks) en voert u het aantal dagen/weken/maanden van uw keuze in.
 
 ![](../assets/offer-capping-frequency.png)
@@ -262,7 +262,9 @@ Als u bijvoorbeeld wilt dat het aantal bijschriften elke twee weken opnieuw word
 
 >[!CAUTION]
 >
->Nadat je je voorstel hebt opgeslagen, kun je de tijdsperiode (maandelijks, wekelijks of dagelijks) die je voor de frequentie hebt geselecteerd, niet meer wijzigen.
+>Na publicatie van uw voorstel kunt u de tijdsperiode (maandelijks, wekelijks of dagelijks) die u voor de frequentie hebt geselecteerd, niet meer wijzigen.
+>
+>U kunt de frequentietoewijzing nog steeds bewerken als de aanbieding de **[!UICONTROL Draft]** status en nooit eerder gepubliceerd met ingeschakelde frequentiecapping.
 
 ### Plakken en plaatsen {#placements}
 

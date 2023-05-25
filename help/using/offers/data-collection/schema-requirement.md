@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 1%
+source-wordcount: '267'
+ht-degree: 0%
 
 ---
 
@@ -99,6 +99,15 @@ Zorg ervoor dat het gebeurtenistype en de bron als volgt zijn:
 ## Aangepaste gebeurtenissen bijhouden
 
 Voor douanegebeurtenissen, moet het schema dat in de dataset wordt gebruikt ook hebben **[!UICONTROL Experience Event - Proposition Interactions]** veldgroep die eraan is gekoppeld, maar er is geen specifieke vereiste met betrekking tot het type ervaringsgebeurtenis dat moet worden gebruikt om deze gebeurtenissen van tags te voorzien.
+
+>[!NOTE]
+>
+>Als u aangepaste gebeurtenissen wilt laten opnemen in [frequentiecalculatie](../offer-library/add-constraints.md#capping), moet u de ervaringsgebeurtenis met Adobe Experience Platform eindpunten verbinden door het naar één van beide eindpunten van de gegevensinzameling van Edge te verzenden:
+>
+>* POST /ee/v2/interact
+>* POST /ee/v2/collect
+>
+>Als u het [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, wordt de verbinding automatisch gemaakt.
 
 <!--
 ## Using a ranking strategy {#using-ranking}
