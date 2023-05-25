@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0622911847dddfff553bbcfdaa9aef451b64101c
+source-git-commit: ec2113d6789f53827c725573669e948e1385c2e4
 workflow-type: tm+mt
-source-wordcount: '2504'
-ht-degree: 7%
+source-wordcount: '2476'
+ht-degree: 8%
 
 ---
 
@@ -22,11 +22,11 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 ![Nieuwsbrief](../assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die direct aan uw Postbus worden geleverd elk kwartaal.
 
 
-## Opmerkingen bij de vervroegde release mei 2023 {#may-rn-2023}
+## Opmerkingen bij de release mei 2023 {#may-rn-2023}
 
-Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd tot de beschikbaarheidsdatum van de release. Bijgewerkte documentatie wordt gepubliceerd op de releasedatum en er worden directe koppelingen toegevoegd aan deze pagina.
+<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
-**Releasedatum**: 25 mei 2023
+**Release date**: May 25, 2023-->
 
 ### Nieuwe functies{#may-2023-features}
 
@@ -60,7 +60,7 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 <td>
 <p>Adobe Journey Optimizer steunt nu experimenten in campagnes. Experimenten zijn gerandomiseerde onderzoeken, die in de context van online tests betekenen dat u sommige willekeurig geselecteerde gebruikers aan een bepaalde variatie van een bericht blootstelt, en een andere willekeurig geselecteerde reeks gebruikers aan één of andere andere variatie of behandeling. Na blootstelling, kunt u de resultaatmetriek meten u in geinteresseerd bent, zoals opent van e-mail, abonnementen, of aankopen.</p>
 <img src="assets/do-not-localize/experiment.gif"/>
-<!--p>For more information, refer to the <a href="../campaigns/content-experiment.md">detailed documentation</a>.</p-->
+<p>Raadpleeg de <a href="../campaigns/content-experiment.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -97,7 +97,7 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 <td>
 <p>U kunt nu fragmenten ontwerpen, gebruiken en beheren om uw e-mails en inhoudssjablonen snel samen te stellen. Een fragment is een vooraf gebouwde herbruikbare component waarnaar in meerdere e-mails van Journey Optimizer-campagnes en -reizen kan worden verwezen voor een verbeterd en versneld ontwerpproces.</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<!--p>For more information, refer to the <a href="../email/content-templates.md">detailed documentation</a>.</p-->
+<p>Raadpleeg de <a href="../email/fragments.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -144,14 +144,6 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 
 ### Verbeteringen {#may-2023-improvements}
 
-<!--
-**Terminology**
-
-* "Segments" are now "Audiences". Documentation and product UI have been updated to reflect this change.
--->
-
-<!-- Namespace is now Identity type. Documentation and product UI have been updated to reflect this change.
--->
 
 
 **Doelgroepen**
@@ -161,23 +153,20 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
    * Publiek: Een reeks personen, accounts, huishoudens of andere entiteiten die gemeenschappelijke kenmerken en gedragingen delen.
    * Segmentdefinitie: In Adobe Experience Platform, de regels die worden gebruikt om zeer belangrijke eigenschappen of gedrag van een doelpubliek te beschrijven. Deze term werd voorheen &quot;segment&quot; genoemd.
 
-   Als gevolg hiervan wordt in Adobe Journey Optimizer en de gebruikersinterface van Adobe Experience Platform &quot;Segmenten&quot; vervangen door &quot;Soorten publiek&quot; om deze nieuwe manier van publieksvorming en -beheer weer te geven.
+   Dientengevolge, binnen Adobe Journey Optimizer en Adobe Experience Platform UI, zult u &quot;Segmenten&quot;vervangen door &quot;Publiek&quot;zien om deze nieuwe weg van publieksverwezenlijking en beheer te weerspiegelen.
 
-   De veranderingen zullen geleidelijk aan met volgende UI en documentatiereleases worden uitgevoerd.
-
-   De vertalingen van de term &quot;publiek&quot; voor een groep profielen die bedoeld zijn om een bericht te ontvangen, zijn geharmoniseerd voor alle Digital Experience-producten voor de volgende talen:
+   De vertalingen van de term &quot;publiek&quot; voor een groep profielen die bedoeld zijn om een bericht te ontvangen, zijn voor sommige talen geharmoniseerd voor alle Digital Experience-producten:
 
    * Duits: Zielgruppe
    * Braziliaans Portugees: público-alvo
    * Spaans: público destinatario
 
 
-
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
 **Sms-kanaal**
 
-* Infobip is toegevoegd als leverancier wanneer het vormen van uw het kanaaloppervlakten van SMS.
+* Infobip is toegevoegd als leverancier wanneer het vormen van uw het kanaaloppervlakten van SMS. [Meer informatie](../sms/sms-configuration.md)
 * Twillio - De API credentieopstelling omvat nu de capaciteit om de dienst SID van het Overseinen voor naadloze integratie met uw rekening van Twilio toe te voegen.
 
 **Kanaal in app**
@@ -197,7 +186,7 @@ Onderstaande informatie kan zonder voorafgaande kennisgeving worden gewijzigd to
 
 **Beslissingsbeheer**
 
-* U kunt nu de frequentietoewijzing bewerken als de aanbieding de conceptstatus heeft en nog niet eerder is gepubliceerd.
+* U kunt nu de frequentietoewijzing bewerken als de aanbieding de **[!UICONTROL Draft]** status en nooit eerder gepubliceerd met ingeschakelde frequentiecapping. [Meer informatie](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **Personalisatie**
 
