@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
+source-git-commit: d759ecdbf915bf3dbbb01d25cb2537aa37a0e206
 workflow-type: tm+mt
-source-wordcount: '2484'
+source-wordcount: '2465'
 ht-degree: 8%
 
 ---
@@ -174,9 +174,11 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 * Toegevoegde nieuwe regels van de berichttrekker voor de Dienst van Plaatsen van Adobe. [Meer informatie](../in-app/inapp-configuration.md)
 * Nieuwe Adobe Experience Platform Assurance-mogelijkheden toegevoegd om apparaatgebeurtenissen vast te leggen die moeten worden toegevoegd als triggerregels.
 
+<!--
 **Journeys**
 
-* U kunt nu API vraagreacties in douaneacties gebruiken en uw reis structureren die op deze reacties wordt gebaseerd.
+* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.
+-->
 
 **Campagnes**
 
