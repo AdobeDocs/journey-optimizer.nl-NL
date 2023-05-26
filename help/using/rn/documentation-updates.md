@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 681b84869c3545d6cc58d53eff6289ef45f108c6
+source-git-commit: 245937875136d0a92cfab1506544d3e592ebd46f
 workflow-type: tm+mt
-source-wordcount: '2816'
+source-wordcount: '2874'
 ht-degree: 16%
 
 ---
@@ -21,6 +21,9 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Er is een nieuwe pagina toegevoegd waarin wordt beschreven hoe u het subdomein instelt dat wordt gebruikt om inhoud die afkomstig is van de Adobe Experience Manager Assets Essentials, te publiceren in uw webervaringen. [Meer informatie](../web/web-delegated-subdomains.md)
 * Er is een nieuwe subsectie toegevoegd waarin wordt uitgelegd hoe u aangepaste volgparameters kunt toevoegen aan URL&#39;s in de e-mailontwerper. [Meer informatie](../email/message-tracking.md#url-tracking)
 * Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u ervoor kunt zorgen dat de keuze van uw klanten die ervoor kiezen hun profielgegevens niet te laten gebruiken voor personalisatie, wordt gerespecteerd. [Meer informatie](../privacy/opt-out.md#opt-out-personalization)
+* Er is een opmerking toegevoegd over het gebruik van speciale internationale tekens in URL&#39;s die in e-mailinhoud zijn opgenomen. [Meer informatie](../email/message-tracking.md#insert-links)
+* De benodigde machtigingen voor het testen en publiceren van bestemmingspagina&#39;s zijn toegevoegd. [Meer informatie](../landing-pages/create-lp.md)
+* Er is een notitie toegevoegd over de Adobe Experience Platform-eindpunten die nodig zijn om uw aangepaste gebeurtenissen op te nemen in de frequentietoewijzing voor beheerbeslissingen. [Meer informatie](../offers/data-collection/schema-requirement.md#track-custom-events)
 
 ## April 2023 {#apr-2023}
 
