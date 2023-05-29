@@ -7,13 +7,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 251c145eb69fe8227a99655346e6e37f59a42bea
+exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
+source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1399'
 ht-degree: 2%
 
 ---
-
 
 # Werken met fragmenten {#fragments}
 
@@ -21,8 +21,7 @@ Een fragment is een herbruikbare component waarnaar in een of meer e-mails kan w
 
 Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud samenstellen die door niet-technische marketinggebruikers kunnen worden gebruikt om snel e-mailinhoud samen te stellen in een verbeterd ontwerpproces.
 
-<!--
-➡️ [Learn how to create and use templates in this video](#video-templates)-->
+➡️ [Leer hoe u fragmenten beheert, ontwerpt en gebruikt in deze video](#video-fragments)
 
 >[!CAUTION]
 >
@@ -266,12 +265,9 @@ Volg onderstaande stappen om overerving te onderbreken:
 
 1. Dat fragment wordt een zelfstandig element dat niet meer aan het oorspronkelijke fragment is gekoppeld. Bewerk de inhoud als elke andere inhoudscomponent in de inhoud. [Meer informatie](content-components.md)
 
-<!--
+## Hoe kan ik-video {#video-fragments}
 
-## How-to video {#video-templates}
+Leer hoe u fragmenten beheert, ontwerpt en gebruikt in [!DNL Journey Optimizer].
 
-Learn how to create, edit, and use fragments in [!DNL Journey Optimizer].
+>[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
->[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)
-
--->
