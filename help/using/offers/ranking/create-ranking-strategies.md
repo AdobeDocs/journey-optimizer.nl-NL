@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
+source-git-commit: d2f0a6db7cd86512febfd307039d06ae4b60232e
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 2%
+source-wordcount: '402'
+ht-degree: 3%
 
 ---
 
@@ -64,6 +64,8 @@ Voer de volgende stappen uit om een AI-model te maken:
 
 1. Als u een **[!UICONTROL Personalized optimization]** AI-model: selecteer het segment of de segmenten die u wilt gebruiken om het AI-model op te leiden.
 
+   ➡️ [Ontdek deze functie in video](#video)
+
    ![](../assets/ai-ranking-segments.png)
 
    >[!NOTE]
@@ -83,3 +85,9 @@ Voer de volgende stappen uit om een AI-model te maken:
 Telkens wanneer een aanbieding wordt getoond en/of geklikt, wilt u dat de overeenkomstige gebeurtenis automatisch wordt gevangen door **[!UICONTROL Experience Event - Proposition Interactions]** veldgroep met de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} of Mobile SDK.
 
 Als u gebeurtenistypen wilt kunnen verzenden (weergegeven aanbod of aangeklikte aanbieding), moet u de juiste waarde voor elk gebeurtenistype instellen in een ervaringsgebeurtenis die naar Adobe Experience Platform wordt verzonden. [Meer informatie](../data-collection/schema-requirement.md)
+
+## Hoe kan ik-video {#video}
+
+Leer hoe u een gepersonaliseerd optimalisatiemodel maakt en hoe u dit op een beslissing toepast.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
