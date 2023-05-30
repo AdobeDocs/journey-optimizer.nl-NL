@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 402ec28dc0087a64b3a91c1a937620d931ed28ef
+source-git-commit: 6f7365b1ddeb3ed3e253669d21702b02f0ec7275
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 4%
@@ -117,6 +117,8 @@ Gebruik de **Help** voor toegang tot Help-pagina&#39;s, contact opnemen met onde
 ![](assets/ajo-help.png)
 
 Gebruik op elke pagina contextafhankelijke Help-knoppen voor meer informatie over een functie en blader naar **[!DNL Adobe Experience League]** documentatie.
+
+![](assets/do-not-localize/Context-help.gif)
 
 ## Taalvoorkeuren {#language-pref}
 
