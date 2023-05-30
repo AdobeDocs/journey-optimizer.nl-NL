@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9b38eb37408be9603c0ec06e6f66b4e65465252f
+source-git-commit: 402ec28dc0087a64b3a91c1a937620d931ed28ef
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '832'
 ht-degree: 4%
 
 ---
@@ -51,7 +51,7 @@ U vindt onder de volledige lijst met services en mogelijkheden in de linkernavig
 
 **[!UICONTROL DECISION MANAGEMENT]**
 
-* **[!UICONTROL Offers]** - Heb toegang tot uw recente bronnen en datasets van dit menu. In deze sectie kunt u nieuwe voorstellen maken. [Meer informatie](../offers/offer-library/creating-personalized-offers.md)
+* **[!UICONTROL Offers]** - Heb toegang tot uw recente bronnen en datasets van dit menu. In deze sectie kunt u voorstellen maken. [Meer informatie](../offers/offer-library/creating-personalized-offers.md)
 
 * **[!UICONTROL Components]** - Plaatsen, regels en tags maken. [Meer informatie](../offers/offer-library/key-steps.md)
 
@@ -71,11 +71,11 @@ U vindt onder de volledige lijst met services en mogelijkheden in de linkernavig
 
 **[!UICONTROL CONNECTIONS]**
 
-* **[!UICONTROL Sources]** - Gebruik dit menu om gegevens uit diverse bronnen in te voeren, zoals Adobe-toepassingen, opslag in de cloud, databases en meer, en om inkomende gegevens te structureren, labelen en verbeteren. [Meer informatie](get-started-sources.md)
+* **[!UICONTROL Sources]** - Gebruik dit menu om gegevens uit diverse bronnen in te voeren, zoals Adobe-toepassingen, opslag in de cloud, databases en meer. U kunt inkomende gegevens structureren, labelen en verbeteren. [Meer informatie](get-started-sources.md)
 
 **[!UICONTROL CUSTOMER]**
 
-* **[!UICONTROL Segments]** - Maak en beheer Experience Platforms segmentdefinities en gebruik deze voor uw reizen. [Meer informatie](../segment/about-segments.md)
+* **[!UICONTROL Segments]** - Maak en beheer definities van Experience Platforms segmenten en gebruik deze in uw reizen. [Meer informatie](../segment/about-segments.md)
 
 * **[!UICONTROL Profiles]** - Het profiel van de Klant in real time leidt tot een holistische mening van elk van uw individuele klanten, die gegevens van veelvoudige kanalen met inbegrip van online, off-line, CRM, en derdegegevens combineren. [Meer informatie](../segment/get-started-profiles.md)
 
@@ -83,7 +83,7 @@ U vindt onder de volledige lijst met services en mogelijkheden in de linkernavig
 
 **[!UICONTROL ADMINISTRATION]**
 
-* **[!UICONTROL Journey Administration]** - Gebruik dit menu om te configureren [gebeurtenissen](../event/about-events.md), [gegevensbronnen](../datasource/about-data-sources.md) en [handelingen](../action/action.md) om te gebruiken voor uw reizen.
+* **[!UICONTROL Journey Administration]** - Gebruik dit menu om te configureren [gebeurtenissen](../event/about-events.md), [gegevensbronnen](../datasource/about-data-sources.md), en [handelingen](../action/action.md) om te gebruiken voor uw reizen.
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform biedt sandboxen die één instantie in afzonderlijke virtuele omgevingen verdelen om toepassingen voor digitale ervaringen te ontwikkelen en te ontwikkelen. [Meer informatie](../administration/sandboxes.md)
 
@@ -91,7 +91,7 @@ U vindt onder de volledige lijst met services en mogelijkheden in de linkernavig
 
 ## Gebruiksgevallen in producten {#in-product-uc}
 
-Hefboomwerking [!DNL Adobe Journey Optimizer] Gebruik gevallen op de startpagina en geef een paar snelle invoer voor een reis naar de klant.
+Van [!DNL Adobe Journey Optimizer] homepage, de gevallen van het productgebruik verstrekken een snelle input om een klantenreis tot stand te brengen.
 
 ![](assets/use-cases-home.png)
 
@@ -102,9 +102,9 @@ Beschikbare gebruiksgevallen zijn:
 * **E-mails naar nieuwe klanten aan boord sturen**, om eenvoudig maximaal twee e-mails te verzenden om uw nieuw geregistreerde klanten te verwelkomen. (binnenkort beschikbaar)
 * **Pushberichten verzenden naar geïmporteerde lijst met klanten**, om snel een pushmelding te verzenden naar een lijst met klanten die zijn geïmporteerd uit een CSV-bestand. (binnenkort beschikbaar)
 
-Klikken **[!UICONTROL View details]** voor meer informatie over elk geval van gebruik.
+Klik op de knop **[!UICONTROL View details]** koppeling.
 
-Klik op de knop **[!UICONTROL Begin]** om het gebruik te starten.
+Klik op de knop **[!UICONTROL Begin]** knop.
 
 U hebt toegang tot uitvoerbare gebruiksgevallen via het dialoogvenster **[!UICONTROL View use case library]** knop.
 
@@ -116,9 +116,11 @@ Gebruik de **Help** voor toegang tot Help-pagina&#39;s, contact opnemen met onde
 
 ![](assets/ajo-help.png)
 
+Gebruik op elke pagina contextafhankelijke Help-knoppen voor meer informatie over een functie en blader naar **[!DNL Adobe Experience League]** documentatie.
+
 ## Taalvoorkeuren {#language-pref}
 
-De gebruikersinterface is momenteel beschikbaar in de volgende talen:
+De gebruikersinterface is beschikbaar in de volgende talen:
 
 * Engels
 * Frans
