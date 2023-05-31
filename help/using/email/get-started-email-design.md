@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: e-mail, ontwerp, voorraad, middelen
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 3a9b11b1a4d2159261586394f1595e52c8b749e7
+source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '472'
 ht-degree: 3%
 
 ---
@@ -64,8 +64,12 @@ Zodra u [e-mail toevoegen](create-email.md) voor een reis of een campagne, kunt 
 
    ![](assets/email_designer_export.png)
 
-## Hoe kan ik-video {#video}
+## Instructievideo&#39;s {#video}
 
 Leer hoe u e-mailinhoud maakt met de berichteneditor.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
+
+Leer hoe u contentexperimenten configureert voor een A/B-test en e-mailinhoud verkent, wat de beste manier is om uw zakelijke doelstellingen te bepalen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

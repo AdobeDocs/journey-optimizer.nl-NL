@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configuratie, experimenteren, rapporteren, optimaliseren
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 066bceb078f619e75e5776764f534619d5a0bd5a
+source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 2%
+source-wordcount: '544'
+ht-degree: 3%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 2%
 >title="Een gegevensset selecteren"
 >abstract="U kunt alleen een gebeurtenistype-gegevensset selecteren, die minstens een van de ondersteunde veldgroepen moet bevatten: Application Details, Commerce Details, Web Details."
 
-<!--The reporting data source configuration allows you to define a connection to a system in order to retrieve additional information that will be used in your reports.-->
+De rapporterende gegevensbronconfiguratie staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw rapporten zal worden gebruikt.
 
-De rapportgegevensbronconfiguratie staat u toe om extra metriek terug te winnen die in zal worden gebruikt **[!UICONTROL Objectives]** van uw campagnerapporten. [Meer informatie](content-experiment.md#objectives-global)
+<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports. [Learn more](content-experiment.md#objectives-global)-->
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Alvorens een dataset aan de rapporteringsconfiguratie toe te voegen, moet u die 
 
    Op dezelfde manier, als u over mobiele interactie wilt rapporteren, moet u een dataset van de ervaringsgebeurtenis met creëren **Toepassingsdetails** veldgroep.
 
-   De cijfers voor elke veldgroep worden weergegeven [hier](#objective-list).
+   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
 * U kunt deze gebiedsgroepen aan één of verscheidene schema&#39;s toevoegen die in één of verscheidene datasets zullen worden gebruikt.
 
@@ -67,15 +67,17 @@ Alvorens een dataset aan de rapporteringsconfiguratie toe te voegen, moet u die 
 >
 >Meer informatie over XDM-schema&#39;s en veldgroepen in de [Documentatie over XDM System-overzicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
-## Doelstellingen voor elke veldgroep {#objective-list}
+<!--
+## Objectives corresponding to each field group {#objective-list}
 
-In de onderstaande tabel wordt aangegeven welke maatstaven worden toegevoegd aan de **[!UICONTROL Objectives]** tabblad van uw campagnerapporten voor elke veldgroep.
+The table below shows which metrics will be added to the **[!UICONTROL Objectives]** tab of your campaign reports for each field group.
 
-| Veldgroep | Doelstellingen |
+| Field group | Objectives |
 |--- |--- |
-| Handelsgegevens | Prijs totaal<br>Betalingsbedrag<br>(Uniek) Afhandelingen<br>(Unieke) Toegevoegde productlijst<br>(Uniek) Productlijst wordt geopend<br>(Unieke) productlijst verwijderen<br>(Unieke) productenlijstweergaven<br>(Unieke) productweergaven<br>(Unieke) aankopen<br>(Uniek) Opslaan voor later<br>Totaal productprijs<br>Aantal producten |
-| Toepassingsdetails | (Uniek) App Launches<br>First App Launches<br>(Uniek) App-installaties<br>(Unieke) App-upgrades |
-| Webdetails | (Unieke) paginaweergaven |
+| Commerce Details | Price Total<br>Payment Amount<br>(Unique) Checkouts<br>(Unique) Product List Adds<br>(Unique) Product List Opens<br>(Unique) Product List Removal<br>(Unique) Product List Views<br>(Unique) Product Views<br>(Unique) Purchases<br>(Unique) Save For Laters<br>Product Price Total<br>Product Quantity |
+| Application Details | (Unique) App Launches<br>First App Launches<br>(Unique) App Installs<br>(Unique) App Upgrades |
+| Web Details | (Unique) Page Views |
+-->
 
 ## Gegevenssets toevoegen {#add-datasets}
 
@@ -115,7 +117,7 @@ In de onderstaande tabel wordt aangegeven welke maatstaven worden toegevoegd aan
 
    ![](assets/reporting-config-namespace.png)
 
-   Meer informatie over naamruimten in het dialoogvenster [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html){target="_blank"}.
+   Meer informatie over naamruimten in het dialoogvenster [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=nl){target="_blank"}.
 
 1. Sparen uw veranderingen om de geselecteerde dataset aan de rapportconfiguratielijst toe te voegen.
 
@@ -123,15 +125,16 @@ In de onderstaande tabel wordt aangegeven welke maatstaven worden toegevoegd aan
    >
    >Als u een dataset selecteerde die geen gebeurtenis-type is, zult u niet kunnen te werk gaan.
 
-Wanneer het bouwen van uw campagnerapporten, kunt u de metriek nu zien die aan de gebiedsgroepen beantwoordt die in de datasets worden gebruikt u toevoegde. Ga naar de **[!UICONTROL Objectives]** en selecteert u de gewenste maatstaven voor een betere afstemming van uw rapporten. [Meer informatie](content-experiment.md#objectives-global)
+<!--
+When building your campaign reports, you can now see the metrics corresponding to the field groups used in the datasets you added. Go to the **[!UICONTROL Objectives]** tab and select the metrics of your choice to better fine-tune your reports. [Learn more](content-experiment.md#objectives-global)
 
 ![](assets/reporting-config-objectives.png)
 
 >[!NOTE]
 >
->Als u verscheidene datasets toevoegt, zullen alle gegevens van alle datasets voor rapportering beschikbaar zijn.
+>If you add several datasets, all data from all datasets will be available for reporting.
 
-<!--
+
 ## How-to video {#video}
 
 Understand how to configure Experience Platform reporting data sources.
