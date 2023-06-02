@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informatief"
-source-git-commit: 2d3cb7e9981e7df1f2cdd6eff1506fce24a5a962
+source-git-commit: 8ca779efd237174c3ac9b7694b1cb81fc8b3ea3e
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '488'
 ht-degree: 1%
 
 ---
@@ -52,6 +52,8 @@ ht-degree: 1%
    * **[!UICONTROL Show once]**: Alleen dit bericht weergeven als de gebeurtenissen die voor de eerste keer zijn geselecteerd in het dialoogvenster **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
    * **[!UICONTROL Show until click through]**: Dit bericht weergeven wanneer de gebeurtenissen zijn geselecteerd in het dialoogvenster **[!UICONTROL Mobile app trigger]** drop-down komt voor tot een interactie gebeurtenis door SDK met een actie van &quot;geklikt&quot;wordt verzonden.
 
+1. Selecteer de dag van de week en het specifieke tijdstip waarop u het bericht in de app wilt activeren en klik op **[!UICONTROL Save]**.
+
 1. Indien nodig voltooit u de reisflow door extra handelingen of gebeurtenissen te slepen en neer te zetten. [Meer informatie](../building-journeys/about-journey-activities.md)
 
 1. Zodra uw bericht in de app klaar is, voltooit u de configuratie en publiceert u uw reis om het te activeren.
@@ -70,7 +72,7 @@ Voor meer informatie over hoe te om een reis te vormen, verwijs naar [deze pagin
 
 * **[!UICONTROL Reaction]** activiteiten kunnen niet worden gebruikt om te reageren op een geopende In-app of klik.
 
-* Er treedt een activeringsvertraging op tussen het moment dat een gebruikersprofiel een in-app-activiteit op het canvas bereikt en het moment waarop het bericht in de app wordt weergegeven. Deze vertraging kan variëren van 15 minuten tot 1 uur.
+* Er kan een activeringsvertraging optreden tussen het moment dat een gebruikersprofiel een in-app-activiteit op het canvas bereikt en het moment waarop het bericht in de app wordt weergegeven.
 
 **Verwante onderwerpen:**
 
