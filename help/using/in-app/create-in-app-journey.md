@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informatief"
-source-git-commit: 50afe137c618153278c596f1553216c20637e40b
+source-git-commit: 2d3cb7e9981e7df1f2cdd6eff1506fce24a5a962
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '474'
 ht-degree: 1%
 
 ---
@@ -37,21 +37,20 @@ ht-degree: 1%
 
    ![](assets/in_app_journey_4.png)
 
-1. Kies de frequentie van de trigger wanneer het bericht in de app actief is:
+1. Van de **[!UICONTROL In-app message trigger]** kiest u de gebeurtenis(sen) en criteria die uw bericht activeren:
+
+   1. Klikken **[!UICONTROL Add condition]** als u wilt dat de trigger rekening houdt met meerdere gebeurtenissen of criteria.
+   1. Van de **[!UICONTROL Select an event]** selecteert u het type gebeurtenis voor de trigger.
+   1. Selecteer hoe uw gebeurtenissen worden gekoppeld. Kies bijvoorbeeld **[!UICONTROL And]** als u **beide** triggers moeten waar zijn om een bericht weer te geven of **[!UICONTROL Or]** als u wilt dat het bericht wordt getoond als **ofwel** van de triggers zijn waar.
+   1. Klikken **[!UICONTROL Make group]** om triggers samen te groeperen.
+
+   ![](assets/in_app_journey_3.png)
+
+1. Kies de frequentie waarop uw trigger wordt geactiveerd wanneer uw bericht in de app actief is:
 
    * **[!UICONTROL Show every time]**: Toon altijd het bericht wanneer de gebeurtenissen die in **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
    * **[!UICONTROL Show once]**: Alleen dit bericht weergeven als de gebeurtenissen die voor de eerste keer zijn geselecteerd in het dialoogvenster **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
    * **[!UICONTROL Show until click through]**: Dit bericht weergeven wanneer de gebeurtenissen zijn geselecteerd in het dialoogvenster **[!UICONTROL Mobile app trigger]** drop-down komt voor tot een interactie gebeurtenis door SDK met een actie van &quot;geklikt&quot;wordt verzonden.
-
-1. Van de **[!UICONTROL Mobile app trigger]** -dropdown(s), kies de gebeurtenis(sen) en de criteria die uw bericht zullen activeren:
-
-   1. Selecteer in de linkervervolgkeuzelijst de gebeurtenis die nodig is om het bericht te activeren.
-   1. Selecteer in de rechtervervolgkeuzelijst de vereiste validatie voor de geselecteerde gebeurtenis.
-   1. Klik op de knop **[!UICONTROL Add]** als u wilt dat de trigger rekening houdt met meerdere gebeurtenissen of criteria. Herhaal vervolgens de bovenstaande stappen.
-   1. Selecteer hoe uw gebeurtenissen worden gekoppeld. Kies bijvoorbeeld **[!UICONTROL And]** als u **beide** triggers moeten waar zijn om een bericht weer te geven of **[!UICONTROL Or]** als u wilt dat het bericht wordt getoond als **ofwel** van de triggers zijn waar.
-   1. Klikken **[!UICONTROL Save]** wanneer uw triggers zijn geconfigureerd.
-
-   ![](assets/in_app_journey_3.png)
 
 1. Indien nodig voltooit u de reisflow door extra handelingen of gebeurtenissen te slepen en neer te zetten. [Meer informatie](../building-journeys/about-journey-activities.md)
 
