@@ -10,10 +10,10 @@ hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
 badge: label="Beta" type="Informatief"
-source-git-commit: 8b966ddc9f96485e27cc7e9aa360d6d2ead84153
+source-git-commit: e91ca6f6210fd883e7a483fe81dda59bdf6ab42a
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 1%
+source-wordcount: '668'
+ht-degree: 0%
 
 ---
 
@@ -74,6 +74,35 @@ Voor meer informatie over hoe te om een reis te vormen, verwijs naar [deze pagin
 * **[!UICONTROL Reaction]** activiteiten kunnen niet worden gebruikt om te reageren op een geopende In-app of klik.
 
 * Er kan een activeringsvertraging optreden tussen het moment dat een gebruikersprofiel een in-app-activiteit op het canvas bereikt en het moment waarop het bericht in de app wordt weergegeven.
+
+## Rapport in app {#inapp-report}
+
+Van je reis **[!UICONTROL Global report]** de **[!UICONTROL In-app]** bevat de belangrijkste informatie met betrekking tot de in-app-leveringen die tijdens uw reizen worden verzonden.
+
+Meer informatie over [Journaal algemeen rapport](../reports/journey-global-report.md).
+
+![](assets/in-app-journey-report.png)
+
++++ Meer informatie over de verschillende maatstaven en widgets die beschikbaar zijn voor het rapport in de app.
+
+De **[!UICONTROL In-app performance]** KPI&#39;s geven een gedetailleerde beschrijving van de belangrijkste informatie over de betrokkenheid van uw bezoekers bij uw In-app-berichten, zoals:
+
+* **[!UICONTROL Unique impressions]**: aantal unieke gebruikers aan wie het In-app-bericht is bezorgd.
+
+* **[!UICONTROL Impressions]**: totaal aantal in-app berichten dat aan alle gebruikers wordt geleverd.
+
+* **[!UICONTROL Click rate]**: percentage gebruikers dat interactie had met de knoppen in het In-app-bericht vergeleken met gebruikers die het bericht hebben gezien.
+
+* **[!UICONTROL Dismiss rate]**: percentage in-app berichten dat ontvangers hebben genegeerd.
+
+De **[!UICONTROL In-app summary]** in de grafiek wordt de ontwikkeling van uw In-app-afbeeldingen voor de desbetreffende periode weergegeven.
+
+De **[!UICONTROL Clicks by button]** grafieken en tabel bevatten de beschikbare gegevens voor het gedrag van de ontvanger per knop:
+
+* **[!UICONTROL Clicks]**: het totale aantal ontvangers dat interactie heeft gehad met de knoppen die in het bericht in de app zijn opgenomen.
+
+* **[!UICONTROL Click rate]**: percentage gebruikers dat interactie had met de knoppen in het In-app-bericht vergeleken met gebruikers die het bericht hebben gezien.
++++
 
 **Verwante onderwerpen:**
 
