@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6f7365b1ddeb3ed3e253669d21702b02f0ec7275
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 4%
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # Gebruikersinterface {#cjm-user-interface}
 
-Verbinden met [Adobe Experience Cloud](http://experience.adobe.com) en blader naar [!DNL Journey Optimizer].
+Verbinden met [Adobe Experience Cloud](https://experience.adobe.com) en blader naar [!DNL Journey Optimizer].
 
 Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Zie [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target="_blank"} voor meer informatie .
 

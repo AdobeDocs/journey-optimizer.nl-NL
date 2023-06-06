@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 9301d02be37c6aabad9c10a4cc43c20d3e3ee23e
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1857'
 ht-degree: 5%
@@ -304,7 +304,7 @@ De `getUrlHost` wordt gebruikt om de hostnaam van een URL op te halen.
 **Voorbeeld**
 
 ```sql
-{%= getUrlHost("http://www.myurl.com/contact") %}
+{%= getUrlHost("https://www.myurl.com/contact") %}
 ```
 
 Retourneert &quot;www.myurl.com&quot;
@@ -322,7 +322,7 @@ De `getUrlPath` wordt gebruikt om het pad na de domeinnaam van een URL op te hal
 **Voorbeeld**
 
 ```sql
-{%= getUrlPath("http://www.myurl.com/contact.html") %}
+{%= getUrlPath("https://www.myurl.com/contact.html") %}
 ```
 
 Retourneert &quot;/contact.html&quot;
@@ -340,7 +340,7 @@ De `getUrlProtocol` wordt gebruikt om het protocol van een URL op te halen.
 **Voorbeeld**
 
 ```sql
-{%= getUrlProtocol("http://www.myurl.com/contact.html") %}
+{%= getUrlProtocol("https://www.myurl.com/contact.html") %}
 ```
 
 Retourneert &quot;http&quot;

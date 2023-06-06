@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: a2f4a7f7b08cce3980eab71fea0b2704975087ca
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 2%
@@ -191,7 +191,7 @@ Een succesvol antwoord geeft informatie over uw voorstel, met inbegrip van zijn 
 | `xdm:propositions.xdm:content` | De indeling van de responsinhoud. | De inhoud van de reactie kan zijn: `text`, `html block`, of `image link` |
 | `xdm:score` | De score voor een optie die wordt berekend als resultaat van een classificatiefunctie die aan de optie of de beslissing is gekoppeld. Dit veld wordt door de API geretourneerd als een ranking-functie is betrokken bij het bepalen van de score van een aanbieding tijdens de rangschikking. | `"xdm:score": 45.65` |
 | `xdm:propositions.xdm:fallback` | Dit object bevat één fallback-aanbieding, inclusief de unieke id. | `"xdm:id": "xcore:fallback:ccc0222"` |
-| `xdm:propositions.xdm:fallback.dc:format` | De fysieke of digitale manifestatie van de bron. De indeling moet meestal het mediatype van de bron bevatten. Het formaat kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. U wordt aangeraden een waarde te selecteren in een gecontroleerde woordenlijst, bijvoorbeeld de lijst met [Internetmediatypen](http://www.iana.org/assignments/media-types/) computermedia-indelingen definiëren. | `"dc:format": "image/png"` of `"image/jpeg"` |
+| `xdm:propositions.xdm:fallback.dc:format` | De fysieke of digitale manifestatie van de bron. De indeling moet meestal het mediatype van de bron bevatten. Het formaat kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. U wordt aangeraden een waarde te selecteren in een gecontroleerde woordenlijst, bijvoorbeeld de lijst met [Internetmediatypen](https://www.iana.org/assignments/media-types/) computermedia-indelingen definiëren. | `"dc:format": "image/png"` of `"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | Een optionele URL voor het lezen van het element van een netwerk of servicedetinepunt voor de levering van inhoud. Deze URL wordt gebruikt om het middel openlijk van een gebruikersagent toegang te hebben. | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | De tijd toen het bericht van het beslissingsantwoord werd gecreeerd. Dit wordt weergegeven als tijdperk. | `"ode:createDate": 1566497582038` |
 

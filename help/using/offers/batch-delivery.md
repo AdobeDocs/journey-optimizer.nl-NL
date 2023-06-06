@@ -2,7 +2,7 @@
 title: Batchbeslissing
 description: Leer hoe u beslissingen kunt aanbieden voor alle profielen in een bepaald Adobe Experience Platform-segment.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Voordat u een taakaanvraag configureert, moet u controleren of u het volgende he
 
 * **Een gegevensset** in Adobe Experience Platform. Deze dataset zal worden gebruikt om het beslissingsresultaat op te slaan gebruikend het schema &quot;ODE DecisionEvents&quot;. Meer informatie in het dialoogvenster [Documentatie over gegevenssets](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html).
 
-* **Een segment** in Adobe Experience Platform. Het segment zou dan moeten worden geëvalueerd en worden bijgewerkt. Leer hoe te om de evaluatie van het segmentlidmaatschap bij te werken in [Documentatie voor segmentatieservice](http://www.adobe.com/go/segmentation-overview-en)
+* **Een segment** in Adobe Experience Platform. Het segment zou dan moeten worden geëvalueerd en worden bijgewerkt. Leer hoe te om de evaluatie van het segmentlidmaatschap bij te werken in [Documentatie voor segmentatieservice](https://www.adobe.com/go/segmentation-overview-en)
 
    >[!NOTE]
    >

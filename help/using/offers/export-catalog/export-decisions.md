@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 0%
@@ -260,7 +260,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 **Veld:** endTime
 **Titel:** Einddatum en -tijd van activiteit
-**Omschrijving:** Einddatum en eindtijd van de beschikking (voorheen bekend als activiteit). De eigenschap heeft de semantische waarde van de eigenschap &#39;endTime&#39; van schema.org gedefinieerd op http://schema.org/Action.
+**Omschrijving:** Einddatum en eindtijd van de beschikking (voorheen bekend als activiteit). De eigenschap heeft de semantische waarde van de eigenschap &#39;endTime&#39; van schema.org gedefinieerd op https://schema.org/Action.
 **Type:** string
 
 +++
@@ -287,7 +287,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 **Veld:** startTime
 **Titel:** Begindatum en -tijd van activiteit
-**Omschrijving:** Begindatum en eindtijd van de beschikking (voorheen bekend als activiteit). De eigenschap heeft de semantische waarde van de eigenschap &#39;startTime&#39; van schema.org gedefinieerd op http://schema.org/Action.
+**Omschrijving:** Begindatum en eindtijd van de beschikking (voorheen bekend als activiteit). De eigenschap heeft de semantische waarde van de eigenschap &#39;startTime&#39; van schema.org gedefinieerd op https://schema.org/Action.
 **Type:** string
 
 +++

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
 workflow-type: tm+mt
 source-wordcount: '2009'
 ht-degree: 0%
@@ -117,7 +117,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
       **Veld:** format
       **Titel:** Indeling
-      **Omschrijving:** De fysieke of digitale manifestatie van de bron. Normaal gesproken moet de indeling het mediatype van de bron bevatten. De indeling kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. De aanbevolen werkwijze is het selecteren van een waarde in een gecontroleerde woordenlijst (bijvoorbeeld de lijst met [Internetmediatypen](http://www.iana.org/assignments/media-types/) computermedia-indelingen definiëren).
+      **Omschrijving:** De fysieke of digitale manifestatie van de bron. Normaal gesproken moet de indeling het mediatype van de bron bevatten. De indeling kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. De aanbevolen werkwijze is het selecteren van een waarde in een gecontroleerde woordenlijst (bijvoorbeeld de lijst met [Internetmediatypen](https://www.iana.org/assignments/media-types/) computermedia-indelingen definiëren).
       **Type:** string
       **Voorbeeld:** &quot;application/vnd.adobe.photoshop&quot;
 
