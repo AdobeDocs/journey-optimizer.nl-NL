@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: f50617dc5ea07d01d1f7ec1ab3f9790557dcd957
+source-git-commit: c2cd44113223b9886f803da131e451440293a966
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
 
 # Simulaties maken {#create-simulations}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_simulation"
+>title="Aanbiedingsbesluiten simuleren"
+>abstract="Met simulatie kunt u simuleren welke aanbiedingen aan een testprofiel voor een bepaalde plaatsing worden geleverd. Hierdoor kunt u verschillende versies van uw aanbiedingen testen en verfijnen, zonder dat dit gevolgen heeft voor de beoogde ontvangers.
 
 ## Informatie over simulatie {#about-simulation}
 
