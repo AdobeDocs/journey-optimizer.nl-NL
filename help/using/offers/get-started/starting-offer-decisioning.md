@@ -57,15 +57,15 @@ Dankzij de mogelijkheden voor Beslissingsbeheer en de integratie met Adobe Exper
 
 * Geef op de startpagina van uw website de aanbiedingen weer die passen bij de belangstelling van de bezoekende klant, op basis van gegevens van Adobe Experience Platform.
 
-   ![](../assets/website.png)
+  ![](../assets/website.png)
 
 * Als klanten in de buurt van één van uw winkels lopen, stuur ze dan pushmeldingen om hen te herinneren aan beschikbare aanbiedingen op basis van hun kenmerken (loyaliteitsniveau, gender, eerdere aankopen...).
 
-   ![](../assets/push_sample.png)
+  ![](../assets/push_sample.png)
 
 * Beslissingsbeheer helpt u ook de ervaring van uw klanten te verbeteren wanneer u contact opneemt met uw ondersteuningsteam. Het Beheer APIs van het besluit staat u toe om in uw portaalinformatie van de agenten van het vraagcentrum over de terugbetaalde klant en volgende beste aanbiedingen te tonen.
 
-   ![](../../assets/do-not-localize/call-center.png)
+  ![](../../assets/do-not-localize/call-center.png)
 
 ## Toegang verlenen tot het beheer van besluiten {#granting-acess-to-decision-management}
 
