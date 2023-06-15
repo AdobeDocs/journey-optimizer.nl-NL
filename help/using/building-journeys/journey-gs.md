@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, segment, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 70db4a6c235b8490fb80e24d133775f5f5a19eb1
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1495'
 ht-degree: 9%
 
 ---
@@ -47,7 +47,7 @@ Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]**. Er zijn t
 * **Profielen verwerkt**: totaal aantal profielen dat in de afgelopen 24 uur is verwerkt
 * **Levende reizen**: totaal aantal rechtstreekse reizen met verkeer in de afgelopen 24 uur. Levende reizen omvatten **Eenheidstreizen** (op basis van gebeurtenissen) en **Batchreizen** (lees segment).
 * **Foutfrequentie**: verhouding tussen alle profielen die fout zijn, en het totale aantal profielen dat in de afgelopen 24 uur is ingevoerd.
-* **Percentage negeren**: verhouding tussen alle profielen die zijn gedecimeerd en het totale aantal profielen dat in de afgelopen 24 uur is ingevoerd.
+* **Percentage negeren**: verhouding tussen alle genegeerde profielen en het totale aantal profielen dat in de afgelopen 24 uur is ingevoerd. Een weggegooid profiel vertegenwoordigt iemand die niet in aanmerking komt om de reis binnen te gaan, bijvoorbeeld vanwege een onjuiste naamruimte of vanwege regels voor opnieuw betreden.
 
 >[!NOTE]
 >

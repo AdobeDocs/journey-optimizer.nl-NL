@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 70db4a6c235b8490fb80e24d133775f5f5a19eb1
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -44,8 +44,7 @@ Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in 
 
 ### Algemene reisgeleiders {#journeys-guardrails-journeys}
 
-* Het aantal activiteiten op een reis is beperkt tot 50. Het aantal activiteiten wordt weergegeven in de linkerbovensectie van het reiscanvas.
-* Het aantal **Levende reizen** in één organisatie geldt een limiet van 100 per sandbox. Wanneer deze limiet is bereikt, kunt u geen nieuwe rit meer publiceren.
+* Het aantal activiteiten op een reis is beperkt tot 50. Het aantal activiteiten wordt weergegeven in de linkerbovensectie van het reiscanvas. Dit zal helpen in leesbaarheid, QA en het oplossen van problemen.
 
 ### Algemene acties {#general-actions-g}
 
