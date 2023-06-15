@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informatief"
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Wat u in deze documentatie zult vinden:
 
 >[!AVAILABILITY]
 >
->De samenstelling van het publiek is momenteel slechts beschikbaar als privé bèta, en kan aan regelmatige updates zonder bericht worden onderworpen. De bètaversie wordt geleverd op organisatieniveau, wat betekent dat deze van invloed is op alle sandboxen binnen uw organisatie.
+>De samenstelling van het publiek is slechts beschikbaar aan een beperkte groep klanten op dit ogenblik. Neem contact op met uw Adobe-vertegenwoordiger als u vragen hebt.
 
 De samenstelling van het publiek staat u toe om tot stand te brengen **compositieworkflows**, waarin u bestaande Adobe Experience Platform-doelgroepen kunt combineren tot een visueel canvas en verschillende activiteiten (splitsen, uitsluiten...) kunt gebruiken om nieuwe doelgroepen te maken.
 
@@ -49,6 +49,8 @@ Als u klaar bent, **resulterend publiek** worden samen met het bestaande publiek
 >[!IMPORTANT]
 >
 >Publiek dat het resultaat is van samenstellingsworkflows kan alleen worden gericht op Journey Optimizer-campagnes. Zij zijn niet beschikbaar voor gebruik tijdens reizen.
+>
+>Campagnes in Adobe Journey Optimizer zijn nog niet geïntegreerd met de politie. Daarom worden labels voor gegevensgebruik die u toepast op uw publiekskenmerken, niet afgedwongen in Journey Optimizer-campagnes.
 
 De compositie van het publiek is toegankelijk vanuit Adobe Journey Optimizer **[!UICONTROL Segments]** menu:
 

@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 badge: label="Beta" type="Informatief"
-source-git-commit: 818c3ff2d159ec3a668c55224996b4736f950e5d
+source-git-commit: 2acb92e5157b4e0ecc026b66078f65e82f76ff5e
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,7 @@ Ga als volgt te werk om een compositieworkflow te maken:
    * **[!UICONTROL Audience]**: het uitgangspunt van uw samenstelling. Met deze activiteit kunt u een of meer soorten publiek selecteren als basis voor uw workflow.
 
    * **[!UICONTROL Save]**: de laatste stap van uw compositie. Met deze activiteit kunt u het resultaat van uw workflow opslaan in een nieuw publiek.
+
    Voor meer informatie over hoe te om activiteiten in het canvas van het samenstellingswerkschema te vormen, verwijs naar [Werken met het compositicanvas](composition-canvas.md).
 
 1. Open de compositieeigenschappen om een titel en een beschrijving op te geven.
@@ -66,7 +67,7 @@ Ga als volgt te werk om een compositieworkflow te maken:
 
    >[!IMPORTANT]
    >
-   >U kunt maximaal 75 composities publiceren in een bepaalde sandbox. Als u deze drempel hebt bereikt, moet u een samenstelling schrappen om ruimte vrij te maken en nieuwe te publiceren.
+   >U kunt maximaal 10 composities publiceren in een bepaalde sandbox. Als u deze drempel hebt bereikt, moet u een samenstelling schrappen om ruimte vrij te maken en nieuwe te publiceren.
 
    Als er tijdens het publiceren een fout optreedt, worden waarschuwingen weergegeven met informatie over hoe u het probleem kunt oplossen.
 
@@ -85,7 +86,6 @@ Alle gemaakte composities zijn toegankelijk via de **[!UICONTROL Compositions]**
 
 * **[!UICONTROL Draft]**: de samenstelling is in uitvoering en is niet gepubliceerd.
 * **[!UICONTROL Published]**: de samenstelling is gepubliceerd , het resulterende publiek is opgeslagen en beschikbaar voor gebruik .
-* **[!UICONTROL Archived]**: de samenstelling is gearchiveerd .
 
 ![](assets/audiences-compositions.png)
 
