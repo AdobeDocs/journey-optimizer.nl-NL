@@ -6,9 +6,9 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van SMS met 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 442e3213ad512b62332cd08d6639dfc52bdc766a
+source-git-commit: ce9ebee71f80ec28f1e98eff0ff15d728978e817
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '866'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Voordat u SMS verzendt, configureert u uw exemplaar. U moet [providerinstellinge
 
 ## Vereisten{#sms-prerequisites}
 
-Adobe Journey Optimizer is momenteel geïntegreerd met externe providers zoals Sinch en Twilio, die sms-diensten aanbieden die onafhankelijk zijn van Adobe Journey Optimizer.
+Adobe Journey Optimizer is momenteel geïntegreerd met externe providers zoals Sinch, Twilio en Infobip, die sms-diensten aanbieden die onafhankelijk zijn van Adobe Journey Optimizer.
 
 Voordat u de SMS-configuratie start, moet u een account maken bij een van deze SMS-providers om de API Token en Service ID te ontvangen waarmee u de verbinding tussen Adobe Journey Optimizer en de betreffende SMS-provider tot stand kunt brengen.
 
@@ -62,6 +62,7 @@ Voer de volgende stappen uit om uw SMS-leverancier te configureren met Journey O
       * **[!UICONTROL Name]**: Kies een naam voor uw API-referentie.
 
       * **[!UICONTROL Service ID]** en **[!UICONTROL API Token]**: als u toegang wilt tot de pagina API&#39;s, vindt u uw gegevens onder het tabblad SMS.  [Meer informatie](https://developers.sinch.com/docs/sms/getting-started/)
+
    * Voor **[!DNL Twilio]**:
 
       * **[!UICONTROL Name]**: Kies een naam voor uw API-referentie.
@@ -69,6 +70,7 @@ Voer de volgende stappen uit om uw SMS-leverancier te configureren met Journey O
       * **[!UICONTROL Account SID]** en **[!UICONTROL Auth Token]**: Open het venster Accountinfo van de pagina Dashboard van de Twilio Console om uw referenties te zoeken.
 
       * **[!UICONTROL Message SID]**: Voer de unieke id in die aan elk bericht is toegewezen dat door de API van Twilio is gemaakt. [Meer informatie](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+
    * Voor **[!DNL Infobip]**:
 
       * **[!UICONTROL Name]**: Kies een naam voor uw API-referentie.
@@ -114,20 +116,19 @@ Ga als volgt te werk om een kanaaloppervlak te maken:
       * Kies **Marketing** voor promotionele SMS: voor deze berichten is toestemming van de gebruiker vereist .
       * Kies **Transactioneel** voor niet-commerciële berichten, zoals bevestiging van de bestelling, wachtwoordherstelmeldingen of leveringsgegevens.
 
-      >[!CAUTION]
-      >
-      >**Transactioneel** SMS-berichten kunnen worden verzonden naar profielen die zich niet meer hebben geabonneerd op marketingberichten. Deze berichten kunnen alleen in specifieke contexten worden verzonden.
+     >[!CAUTION]
+     >
+     >**Transactioneel** SMS-berichten kunnen worden verzonden naar profielen die zich niet meer hebben geabonneerd op marketingberichten. Deze berichten kunnen alleen in specifieke contexten worden verzonden.
 
-      Wanneer u een SMS-bericht maakt, moet u een geldig kanaaloppervlak kiezen dat overeenkomt met de categorie die u voor uw bericht hebt geselecteerd.
+     Wanneer u een SMS-bericht maakt, moet u een geldig kanaaloppervlak kiezen dat overeenkomt met de categorie die u voor uw bericht hebt geselecteerd.
 
    * Selecteer **[!UICONTROL SMS configuration]** aan het oppervlak te koppelen.
 
-      Voor meer over hoe te om uw milieu te vormen om de berichten van SMS te verzenden, verwijs naar [deze sectie](#create-api).
+     Voor meer over hoe te om uw milieu te vormen om de berichten van SMS te verzenden, verwijs naar [deze sectie](#create-api).
 
    * Voer de **[!UICONTROL Sender number]** &#x200B; u voor uw mededelingen wilt gebruiken.
 
    * Selecteer uw **[!UICONTROL SMS Execution Field]** om de **[!UICONTROL Profile attribute]** aan de telefoonaantallen van de profielen worden geassocieerd.
-
 
 1. Als u de functie URL-verkorting wilt gebruiken in uw SMS-berichten, selecteert u een item in het menu **[!UICONTROL Subdomain]** lijst.
 
