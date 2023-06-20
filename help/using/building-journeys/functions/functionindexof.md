@@ -7,7 +7,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: indexOf, function, expression, trip
 exl-id: 3b57be48-8dc5-4207-9ebb-664ff3e1fb3c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 383ab306401bc52717a9818e871100993e1ff2ff
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 14%
@@ -16,7 +16,7 @@ ht-degree: 14%
 
 # indexOf {#indexOf}
 
-Controleert of de eerste argumenttekenreeks eindigt met een specifieke tekenreeks (tweede argumenttekenreeks). Retourneer -1 als de tekenreeks niet wordt gevonden.
+Retourneert de positie (in het eerste argument) van de eerste instantie van de tweede parameter. Retourneert -1 als er geen overeenkomend actiepunt is.
 
 ## Categorie
 
