@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: terugkeer, reis, profiel, terugkerend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: deb3646235377bf48b91b019e3442e4a3d6f0cf8
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
@@ -42,6 +42,6 @@ In een leesegment reis:
 
 * Voor eenmalige ritten: het profiel wordt slechts eenmaal ingevoerd .
 
-* Voor terugkerende ritten: het profiel gaat de reis op elke herhaling in, als hij zich in het segment/de verwachte status bevindt. Als hij nog onderweg was van een eerdere herhaling, zal hij het vanaf het begin opnieuw starten.
+* Voor terugkerende ritten: het profiel gaat de reis op elke herhaling in, als zij in het segment/verwachte status zijn. Als ze nog onderweg waren vanaf een eerdere herhaling, zullen ze deze vanaf het begin opnieuw starten.
 
-Bij zakelijke gebeurtenissenreizen die beginnen met een **Segment lezen** activiteit: wetende dat deze reis op de ontvangst van een bedrijfsgebeurtenis gebaseerd is, als het profiel in het verwachte segment wordt gekwalificeerd, zal hij de reis voor elke ontvangen bedrijfsgebeurtenis ingaan, die betekent dat dit profiel veelvoudige tijden in de zelfde reis, tezelfdertijd, maar in de context van verschillende bedrijfsgebeurtenissen kan zijn.
+Bij zakelijke gebeurtenissenreizen die beginnen met een **Segment lezen** activiteit: wetende dat deze reis op de ontvangst van een bedrijfsgebeurtenis gebaseerd is, als het profiel in het verwachte segment wordt gekwalificeerd, zullen zij de reis voor elke ontvangen bedrijfsgebeurtenis ingaan, die betekent dat dit profiel veelvoudige tijden in de zelfde reis, tezelfdertijd, maar in de context van verschillende bedrijfsgebeurtenissen kan zijn.
