@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, segment, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 61acbad019ead6bfd86c6fb39d7de1920f28d984
+source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1299'
 ht-degree: 4%
 
 ---
@@ -87,9 +87,9 @@ De stappen om de activiteit van het Leessegment te vormen zijn als volgt:
 
    ![](assets/read-segment-schedule-list.png)
 
-   **Incrementeel lezen** optie: wanneer een reis met terugkerende **Segment lezen** voert voor het eerst uit, alle profielen in het segment de reis ingaan. Met deze optie kunt u zich na de eerste keer richten op alleen de personen die het segment hebben betreden sinds de laatste uitvoering van de reis.
+   Wanneer een reis met een terugkerende **Segment lezen** voert voor het eerst uit, alle profielen in het segment de reis ingaan. Gebruik de **Incrementeel lezen** de mogelijkheid om na de eerste gebeurtenis alleen de personen aan te wijzen die het segment zijn binnengekomen sinds de laatste uitvoering van de reis.
 
-   **Herkomst forceren bij herhaling**: met deze optie kunt u alle profielen die nog aanwezig zijn op de reis automatisch laten afsluiten bij de volgende uitvoering. Als u bijvoorbeeld een wachttijd van twee dagen hebt op een dagelijkse terugkerende reis door deze optie in te schakelen, worden profielen altijd verplaatst bij de volgende uitvoering van de reis (dus de dag erna), ongeacht of ze zich in het volgende publiek bevinden of niet. Als de levensduur van uw profielen tijdens deze reis langer kan zijn dan de herhalingsfrequentie, activeer deze optie niet om ervoor te zorgen dat profielen hun reis kunnen voltooien.
+   Het inschakelen van de **Herkomst forceren bij herhaling** kunt u automatisch alle profielen verwijderen die zich tijdens de volgende uitvoering op het pad bevinden. Als er bijvoorbeeld een wachttijd van twee dagen is in een dagelijkse terugkerende reis, worden bij het activeren van deze optie de profielen steeds verplaatst naar de volgende uitvoering van de reis (de volgende dag), ongeacht of ze deel uitmaken van het volgende publiek. Als de duur van de profielen in deze reis echter de frequentie van herhaling kan overschrijden, is het raadzaam deze optie niet in te schakelen om ervoor te zorgen dat profielen hun reis kunnen voltooien.
 
 <!--
 
@@ -112,7 +112,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->Eenmalig Leessegment-reizen gaan 30 dagen na de uitvoering van de reis over naar de voltooide status. Voor geplande Gelezen segmenten, is het 30 dagen na de uitvoering van het laatste voorkomen.
+>Eenmalig **Segment lezen** de reizen gaan naar de **Voltooid** status 30 dagen na de uitvoering van de reis. Voor gepland **Segmenten lezen**, is het 30 dagen na de uitvoering van het laatste voorval.
 
 ### De journey testen en publiceren {#testing-publishing}
 

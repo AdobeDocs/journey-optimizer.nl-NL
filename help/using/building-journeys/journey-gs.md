@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, segment, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 70db4a6c235b8490fb80e24d133775f5f5a19eb1
+source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1507'
 ht-degree: 9%
 
 ---
@@ -153,7 +153,7 @@ U kunt ook een **Einddatum**. Hiermee kunnen profielen automatisch worden afgesl
 
 ### Tijdslimiet en fout bij reisactiviteiten {#timeout_and_error}
 
-Wanneer u een actie of voorwaardenactiviteit bewerkt, kunt u een alternatief pad definiëren in het geval van een fout of time-out. Indien de verwerking van de activiteit die een derdenstelsel ondervraagt, langer duurt dan de in de eigendommen van de reis vastgestelde tijdsduur (**[!UICONTROL Timeout and  error]** (veld), wordt het tweede pad gekozen om een mogelijke fallback-actie uit te voeren.
+Wanneer u een actie of voorwaardenactiviteit bewerkt, kunt u een alternatief pad opgeven in het geval van een fout of time-out. Als de verwerking van de activiteit, die het vragen van een derdesysteem impliceert, de duur overschrijdt die in de eigenschappen van de reis voor onderbreking en fout behandeling wordt gespecificeerd (**[!UICONTROL Timeout and  error]** (veld), wordt het tweede pad geselecteerd om indien nodig een fallback-actie uit te voeren.
 
 Toegestane waarden liggen tussen 1 en 30 seconden.
 
