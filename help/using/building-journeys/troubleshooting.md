@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: problemen oplossen, problemen oplossen, reis, controle, fouten
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 41c01f2a32e0f60d7b189dbe2e0be68e998881c8
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1011'
 ht-degree: 80%
 
 ---
@@ -58,7 +58,7 @@ Reisrapportage meet de toegang van mensen tot een reis in real-time.
 
 Als u de gebeurtenis zonder problemen verzendt maar geen toegang tot de journey ziet, betekent dit dat er iets misgaat tussen het verzenden van de gebeurtenis en de ontvangst van de gebeurtenis in de journey.
 
-Hier volgen een paar dingen die de beheerder moet controleren:
+U kunt het oplossen van problemen met de hieronder vragen beginnen:
 
 * Weet u zeker dat de journey waar u de eerste gebeurtenis verwacht, in de testmodus of live is?
 * Hebt u de gebeurtenis opgeslagen voordat u de payload uit de payloadvoorvertoning hebt gekopieerd?
@@ -67,10 +67,10 @@ Hier volgen een paar dingen die de beheerder moet controleren:
 * Hebt u de payloadstructuur van de streamingopname-API’s gevolgd en de voorvertoning van de payloadstructuur in het deelvenster voor gebeurtenisconfiguratie gebruikt? Zie [deze pagina](../event/about-creating.md#preview-the-payload).
 * Gebruikt u de juiste sleutel-waardeparen in de kopbal van uw gebeurtenis?
 
-   ```
-   X-gw-ims-org-id - your organization's ID
-   Content-type - application/json
-   ```
+  ```
+  X-gw-ims-org-id - your organization's ID
+  Content-type - application/json
+  ```
 
 ## Controleren hoe mensen door de reis navigeren{#checking-how-people-navigate-through-the-journey}
 
