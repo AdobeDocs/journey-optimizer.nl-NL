@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, segment, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a85fb7e5cbfa42ec9044e9091cc24df4c9a40ec9
+source-git-commit: a278b217882f2646e106600e110226941e7e4f10
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1298'
 ht-degree: 4%
 
 ---
@@ -75,7 +75,7 @@ De stappen om de activiteit van het Leessegment te vormen zijn als volgt:
    >
    >De totale vertragingssnelheid per sandbox is ingesteld op 20.000 berichten per seconde. Daarom voegt de vertragingssnelheid van alle gelezen segmenten die gelijktijdig in de zelfde zandbak lopen tot hoogstens 20.000 berichten per seconde toe. U kunt dit uiteinde niet wijzigen.
 
-1. De **[!UICONTROL Read Segment]** de activiteit staat u toe om de tijd te specificeren waarop het segment de reis zal ingaan. Om dit te doen, klik **[!UICONTROL Edit journey schedule]** verbinding om tot de eigenschappen van de reis toegang te hebben, dan vorm **[!UICONTROL Scheduler type]** veld.
+1. De **[!UICONTROL Read Segment]** de activiteit staat u toe om de tijd te specificeren waarop het segment de reis zal ingaan. Om dit te doen, klik **[!UICONTROL Edit journey schedule]** verbinding om tot de eigenschappen van de reis toegang te hebben.Dan, vorm **[!UICONTROL Scheduler type]** veld.
 
    ![](assets/read-segment-schedule.png)
 
