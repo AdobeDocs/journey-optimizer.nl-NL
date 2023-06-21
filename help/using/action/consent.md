@@ -9,7 +9,7 @@ role: Admin,Developer
 level: Experienced
 keywords: beleid, bestuur, platform, gezondheidsschild, toestemming
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Met toestemmingsbeheer worden twee reisactiviteiten geanalyseerd:
 
 Alle andere activiteiten die tijdens een reis worden gebruikt, worden niet in aanmerking genomen. Als u uw reis met een kwalificatie van het Segment begint, wordt het segment niet in aanmerking genomen.
 
-Als tijdens een reis een profiel door een toestemmingsbeleid in een douaneactie wordt uitgesloten, wordt het bericht niet naar hem verzonden, maar hij gaat door met de reis. Het profiel gaat niet naar de time-out en het foutpad wanneer een voorwaarde wordt gebruikt.
+Als tijdens een reis een profiel door een toestemmingsbeleid in een douaneactie wordt uitgesloten, wordt het bericht niet naar hen verzonden, maar zij zetten de reis voort. Het profiel gaat niet naar de time-out en het foutpad wanneer een voorwaarde wordt gebruikt.
 
 Voordat u het beleid vernieuwt in een aangepaste handeling die op een reis wordt geplaatst, moet u ervoor zorgen dat er geen fouten optreden tijdens de reis.
 

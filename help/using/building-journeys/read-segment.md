@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, segment, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a278b217882f2646e106600e110226941e7e4f10
+source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1296'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 Gebruik de **Segment lezen** activiteit om alle individuen van een segment de reis te maken. Het starten van een journey kan één keer, of op regelmatige basis plaatsvinden.
 
-Neem bijvoorbeeld het segment voor het openen en uitchecken van de Luma-app dat is gemaakt in het dialoogvenster [Segmenten maken](../segment/about-segments.md) use case. Met de activiteit van het Leessegment, kunt u alle individuen die tot dit segment behoren een reis maken en hen tot geïndividualiseerde reizen maken die alle reisfunctionaliteit gebruiken: voorwaarden, timers, gebeurtenissen, handelingen.
+Neem bijvoorbeeld het segment voor het openen en uitchecken van de Luma-app dat is gemaakt in het dialoogvenster [Gebruiksscenario voor segmenten samenstellen](../segment/about-segments.md). Met de **[!UICONTROL Read Segment]** activiteit, kunt u alle individuen die tot een segment behoren een reis maken en hen tot geïndividualiseerde reizen maken die alle reisfuncties zullen gebruiken: voorwaarden, timers, gebeurtenissen, handelingen.
 
 >[!NOTE]
 >
