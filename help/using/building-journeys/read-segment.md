@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, segment, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 61acbad019ead6bfd86c6fb39d7de1920f28d984
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 4%
@@ -116,13 +116,13 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### De journey testen en publiceren {#testing-publishing}
 
-De **[!UICONTROL Read Segment]** met deze activiteit kunt u de reis testen op een uniform profiel of op 100 willekeurig gekozen testprofielen uit de profielen die voor het segment in aanmerking komen.
+De **[!UICONTROL Read Segment]** met deze activiteit kunt u de reis testen op een uniform profiel of op 100 willekeurige testprofielen die zijn geselecteerd uit de profielen die voor het segment zijn gekwalificeerd.
 
-Hiervoor activeert u de testmodus en selecteert u de gewenste optie in het linkerdeelvenster.
+Om dit te doen, activeer **testmodus**. Selecteer vervolgens de gewenste optie in het linkerdeelvenster.
 
 ![](assets/read-segment-test-mode.png)
 
-U kunt de testwijze dan vormen en in werking stellen zoals gebruikelijk. [Leer hoe u een reis test](testing-the-journey.md).
+U kunt dan vormen en in werking stellen **testmodus** zoals gebruikelijk. [Leer hoe u een reis test](testing-the-journey.md).
 
 Als de test eenmaal is uitgevoerd, wordt **[!UICONTROL Show logs]** met de knop kunt u de testresultaten bekijken volgens de geselecteerde testoptie:
 
@@ -130,9 +130,9 @@ Als de test eenmaal is uitgevoerd, wordt **[!UICONTROL Show logs]** met de knop 
 
 * **[!UICONTROL Up to 100 profiles at once]**: Aan de hand van de testlogboeken kunt u de voortgang van de segmentexport vanuit Adobe Experience Platform volgen, evenals de individuele voortgang van alle personen die de reis hebben betreden.
 
-   Houd er rekening mee dat u door het testen van de reis met maximaal 100 profielen tegelijk de voortgang van de individuele personen op de reis niet kunt bijhouden met behulp van de visuele stroom.
+  Houd er rekening mee dat u door het testen van de reis met maximaal 100 profielen tegelijk de voortgang van de individuele personen op de reis niet kunt bijhouden met behulp van de visuele stroom.
 
-   ![](assets/read-segment-log.png)
+  ![](assets/read-segment-log.png)
 
 Wanneer de tests succesvol zijn, kunt u uw reis publiceren (zie [De reis publiceren](publishing-the-journey.md)). Personen die tot het segment behoren, komen de reis binnen op de datum/tijd die in de eigendommen van de reis is vermeld **[!UICONTROL Scheduler]** sectie.
 
