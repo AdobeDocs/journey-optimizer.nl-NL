@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: reis, ontdek, begin
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 17c13b54d59e254543eb3340f791745ea24208c8
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '591'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Adobe Journey Optimizer bevat een omnichannel orchestration canvas dat marketers
 
 Leer hoe u begint en uw eerste reis maakt in [deze pagina](journey-gs.md).
 
-De omnichannel reisontwerper helpt u multi-step reizen met gericht publiek, updates bouwen die op klanten of bedrijfsinteractie in real time worden gebaseerd, en omnichannel berichten gebruikend een intuïtieve belemmering-en-dalingsinterface.
+De omnichannel reisontwerper helpt u bij het maken van meerstapse reizen, die specifiek gericht zijn op het publiek, en het opnemen van updates die op klanten of bedrijfsinteractie in real time worden gebaseerd. U kunt er ook omnichannel berichten mee maken via een intuïtieve interface voor slepen en neerzetten.
 
 ![](assets/journey38.png)
 
