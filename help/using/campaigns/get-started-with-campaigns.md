@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: campagne, hoe, begin, optimaliseer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 8b1bf0b0469c1efc5194dae56ddddd9f05dbf722
+source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 3%
+source-wordcount: '414'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ Gebruik Journey Optimizer-campagnes om eenmalige inhoud via verschillende kanale
 U kunt twee typen campagnes maken:
 
 * **Geplande campagnes** voor eenvoudige ad-hoc partijmededelingen voor marketing gebruiksgevallen zoals promotieaanbiedingen, betrokkenheidscampagnes, aankondigingen, wettelijke berichten, of beleidsupdates toestaan.
-* **API-gestuurde campagnes** eenvoudige transactie-/operationele berichten mogelijk maken met REST API&#39;s (opnieuw instellen van wachtwoorden, verlaten van winkelwagentje, enz.), waarbij de behoefte kan bestaan uit personalisatie met behulp van profielkenmerken en contextafhankelijke gegevens van lading.
+* **API-gestuurde campagnes** toestaan of voor marketing mededelingen om aan een publiek op het juiste ogenblik te bereiken, of voor transactie/operationele berichten aan een individu zoals het terugstellen van een wachtwoord, waar de behoefte personalisatie kan impliceren door niet alleen profielattributen maar ook de contextgegevens in real time in de trekker te gebruiken die een nuttige lading van de WEERSTAPI is.
 
 De belangrijkste stappen voor het opzetten van een campagne zijn:
 
@@ -61,6 +61,7 @@ Controleer de volgende voorwaarden voordat u begint met het maken van uw eerste 
       ![](assets/do-not-localize/admin_2.png)
 
    1. Typ de naam, de groep of het e-mailadres van uw gebruiker en klik op **[!UICONTROL Save]**.
+
    Uw gebruiker heeft nu toegang tot **[!UICONTROL Campaigns]**.
 
 +++
