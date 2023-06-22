@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 4b3b7ef3ec83705758374ca9e9170ce2933fa8de
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 0%
@@ -25,6 +25,10 @@ Hiervoor moet u eerst een API-getriggerde campagne in Journey Optimizer maken en
 
 Beschikbare kanalen voor API-getriggerde campagnes zijn E-mail, SMS en Push berichten.
 
+>[!NOTE]
+>
+>Op dit moment wordt snelle levering niet ondersteund voor door de API geïnitieerde campagnes met pushmeldingen.
+
 ## Een API-gestuurde campagne maken {#create}
 
 ### De campagne configureren en activeren {#create-activate}
@@ -38,10 +42,6 @@ Voer de onderstaande stappen uit om een API-gestuurde campagne te maken. Gedetai
 1. Kies een van de ondersteunde kanalen en het bijbehorende kanaaloppervlak voor het verzenden van uw bericht en klik op **[!UICONTROL Create]**.
 
    ![](assets/api-triggered-type.png)
-
-   >[!NOTE]
-   >
-   >Op dit moment wordt snelle levering niet ondersteund voor door de API geïnitieerde campagnes met pushmeldingen.
 
 1. Geef een titel en een beschrijving voor de campagne op en klik vervolgens op **[!UICONTROL Edit content]** om het te verzenden bericht te vormen.
 
