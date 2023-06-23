@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informatief"
-source-git-commit: bd805d9a52572e284b5846166e1f799f1f71fc59
+source-git-commit: fdfee4f88b4ed29c5083d1f755f488a43cc38f95
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%
@@ -42,7 +42,7 @@ Wat u in deze documentatie zult vinden:
 
 De samenstelling van het publiek staat u toe om tot stand te brengen **compositieworkflows**, waarin u bestaande Adobe Experience Platform-doelgroepen kunt combineren tot een visueel canvas en verschillende activiteiten (splitsen, uitsluiten...) kunt gebruiken om nieuwe doelgroepen te maken.
 
-Als u klaar bent, **resulterend publiek** worden samen met het bestaande publiek opgeslagen in Adobe Experience Platform en kunnen worden gebruikt voor klanten in [Journey Optimizer-campagnes](../campaigns/get-started-with-campaigns.md), of in Adobe [Real-time Customer Data Platform-bestemmingen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=nl).
+Als u klaar bent, **resulterend publiek** worden samen met het bestaande publiek opgeslagen in Adobe Experience Platform en kunnen worden gebruikt voor klanten in [Journey Optimizer-campagnes](../campaigns/get-started-with-campaigns.md), of in Adobe [Real-time Customer Data Platform-bestemmingen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=nl){target="_blank"}.
 
 ![](assets/audiences-process.png)
 
