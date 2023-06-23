@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 4%
@@ -39,8 +39,8 @@ Houd er ook rekening mee dat de parameters voor aangepaste handelingen een verwa
 
 In Journey Optimizer kunt u beleid voor gegevensbeheer en toestemming toepassen op uw aangepaste acties om te voorkomen dat bepaalde velden worden geëxporteerd naar systemen van derden of om klanten uit te sluiten die niet hebben ingestemd met het ontvangen van e-mail, push- of SMS-berichten. Raadpleeg de volgende pagina&#39;s voor meer informatie:
 
-* [Gegevensbeheer](../action/action.md).
-* [Toestemming](../action/action.md).
+* [Gegevensbeheer](../action/action-privacy.md).
+* [Toestemming](../action/action-privacy.md).
 
 
 ## Configuratiestappen {#configuration-steps}
@@ -82,9 +82,10 @@ Wanneer het vormen van een douaneactie, moet u het volgende bepalen **[!UICONTRO
 
    * Als de URL een dynamisch pad bevat, voert u alleen het statische gedeelte van de URL in, dat wil zeggen het schema, de host, de poort en eventueel een statisch gedeelte van het pad.
 
-      Voorbeeld: `https://xxx.yyy.com/somethingstatic/`
+     Voorbeeld: `https://xxx.yyy.com/somethingstatic/`
 
-      U geeft het dynamische pad van de URL op wanneer u de aangepaste handeling aan een rit toevoegt. [Meer informatie](../building-journeys/using-custom-actions.md).
+     U geeft het dynamische pad van de URL op wanneer u de aangepaste handeling aan een rit toevoegt. [Meer informatie](../building-journeys/using-custom-actions.md).
+
    >[!NOTE]
    >
    >Om veiligheidsredenen raden we u ten zeerste aan het HTTPS-schema te gebruiken voor de URL. Wij staan niet het gebruik van Adobe adressen toe die niet openbaar en het gebruik van IP adressen zijn.

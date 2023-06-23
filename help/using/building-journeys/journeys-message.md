@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '886'
 ht-degree: 1%
 
 ---
@@ -115,10 +115,6 @@ Het model varieert, of u over score of opleiding spreekt. De training wordt aanv
 * Scores - de toepassing van een score op individuele profielen die op het getrainde model worden gebaseerd
 
 Deze informatie wordt opgeslagen met het profiel van de gebruiker en wordt bij de uitvoering van de reis gebruikt om Adobe Journey Optimizer te laten weten wanneer je bericht moet worden verzonden.
-
->[!CAUTION]
->
->Deze functie is niet compatibel met de burst-modus.
 
 ### Send-Time optimaliseren activeren{#activate-send-time-optimization}
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, segment, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: b0b65ad119b6939a6d65d6f05edc67b2f2b22a31
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 9%
@@ -59,7 +59,7 @@ Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]**. Er zijn t
 
 ![](assets/journeys-browse.png)
 
-In de lijst met ritten kunt u de ritten filteren op basis van hun status, type en versie van de **[!UICONTROL Status and version filters]**. Het type kan zijn: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]**, **[!UICONTROL Business event]** of **[!UICONTROL Burst]**.
+In de lijst met ritten kunt u de ritten filteren op basis van hun status, type en versie van de **[!UICONTROL Status and version filters]**. Het type kan zijn: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]** of **[!UICONTROL Business event]**.
 
 U kunt ervoor kiezen alleen reizen weer te geven die een specifieke gebeurtenis, veldgroep of handeling uit de **[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]**. Daarnaast worden de **[!UICONTROL Publication filters]** Hiermee kunt u een publicatiedatum of een gebruiker selecteren. U kunt bijvoorbeeld kiezen of u de nieuwste versies wilt weergeven van live reizen die gisteren zijn gepubliceerd. [Meer informatie](../building-journeys/using-the-journey-designer.md).
 

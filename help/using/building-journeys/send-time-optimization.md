@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: send-time, send, message, optimization, trip, AI, Intelligent
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -37,10 +37,6 @@ Het model varieert, of u over score of opleiding spreekt. De training wordt aanv
 * Scores - de toepassing van een score op individuele profielen die op het getrainde model worden gebaseerd
 
 Deze informatie wordt opgeslagen met het profiel van de gebruiker en wordt bij de uitvoering van de reis gebruikt om Adobe Journey Optimizer te laten weten wanneer je bericht moet worden verzonden.
-
->[!CAUTION]
->
->Deze functie is niet compatibel met de burst-modus.
 
 ## Send-Time optimaliseren activeren{#activate-send-time-optimization}
 

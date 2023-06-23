@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1471'
 ht-degree: 2%
 
 ---
@@ -26,6 +26,10 @@ Zorg ervoor dat de gebieden die in uw vragen worden gebruikt waarden in het over
 * id: uniek voor alle items van de step-gebeurtenis. Twee verschillende step-gebeurtenissen kunnen niet dezelfde id hebben.
 * instanceId: instanceID is het zelfde voor alle step gebeurtenissen verbonden aan een profiel binnen een reis uitvoering. Als een profiel de reis opnieuw ingaat, zal een verschillend instanceId worden gebruikt. Deze nieuwe instanceId zal voor alle step gebeurtenissen van de opnieuw ingegaan instantie (van begin tot eind) hetzelfde zijn.
 * profileID: de identiteit van het profiel die overeenkomt met de naamruimte van de reis.
+
+>[!NOTE]
+>
+>Voor het oplossen van problemendoeleinden, adviseren wij gebruikend tripVersionID in plaats van tripVersionName wanneer het vragen van reizen.
 
 ## Basis gebruiksgevallen/gemeenschappelijke vragen {#common-queries}
 
