@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b3196a68e64734ba067f672a3acd8b7fd9c15d93
+source-git-commit: ae7585473373e23da02f16c0b43ab0b1b29f356d
 workflow-type: tm+mt
-source-wordcount: '2874'
+source-wordcount: '2947'
 ht-degree: 16%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 16%
 # Documentatie-updates {#latest-updates}
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
+
+## Juni 2023 {#june-2023}
+
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 23 juni is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
+* Er zijn aanvullende voorbeelden toegevoegd aan de **Besluiten maken** aan te geven in welke gevallen meerdere criteria en verschillende besluitvormingsgebieden worden gebruikt. [Meer informatie](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
+* De documentatie van het Beslissingsbeheer is verduidelijkt met een nota die specificeert dat het gebruik van de Controle van de Toegang van het Niveau van Objecten niet beschikbaar voor dynamische inzamelingen is. [Meer informatie](../offers/offer-library/creating-collections.md)
 
 ## Mei 2023 {#may-2023}
 
@@ -95,7 +101,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Toegevoegde informatie over ingebouwde datasets. [Meer informatie](../data/get-started-datasets.md#access-datasets)
 * De secties Global Report en Live zijn verbeterd en gereorganiseerd. [Meer informatie](../reports/global-report.md)
 * Er is een lijst toegevoegd met alle in Adobe Journey Optimizer beschikbare rapporteringsmetrische gegevens.
-   [Meer informatie](../reports/global-report.md#email-and-sms-metrics)
+  [Meer informatie](../reports/global-report.md#email-and-sms-metrics)
 * Het e-mailgedeelte BCC is verplaatst naar de nieuwe pagina Ondersteuning voor archivering. [Meer informatie](../configuration/archiving-support.md)
 
 ## Augustus 2022 {#august-2022}
