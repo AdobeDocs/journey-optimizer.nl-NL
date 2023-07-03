@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9910c748cf66828ccbd314757c252b9093d2af75
+source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1384'
 ht-degree: 34%
 
 ---
@@ -363,7 +363,7 @@ ht-degree: 34%
       + [Werken met gebeurtenissen voor het beheer van beslissingen](using/offers/reports/get-started-events.md)
       + [Toegang tot gebeurtenissen van XDM-velden](using/offers/reports/xdm-fields.md)
    + De aanbiedingscatalogus exporteren {#export-catalog}
-      + [Aan de slag met het exporteren van de aanbiedingscatalogus ](using/offers/export-catalog/get-started-export.md)
+      + [Aan de slag met het exporteren van de aanbiedingscatalogus](using/offers/export-catalog/get-started-export.md)
       + [De geëxporteerde aanbiedingscatalogus openen](using/offers/export-catalog/access-dataset.md)
       + [Dataset met gepersonaliseerde aanbiedingen](using/offers/export-catalog/export-offers.md)
       + [Dataset met beslissingen](using/offers/export-catalog/export-decisions.md)
@@ -426,7 +426,7 @@ ht-degree: 34%
       + [Aan de slag met gegevenssets](using/data/get-started-datasets.md)
       + [Journey Optimizer-gegevenssets exporteren](using/data/export-datasets.md)
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
-      + [Ingebouwde schema&#39;s > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
+      + [Ingebouwde schema&#39;s >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Configuratie{#configuration}
    + [Aan de slag met de Journey Optimizer-configuratie](using/configuration/get-started-configuration.md)
@@ -488,3 +488,4 @@ ht-degree: 34%
       + [Weigeren beheren](using/privacy/opt-out.md)
       + [Werken met toestemmingsbeleid](using/action/consent.md)
    + [Gegevensbeheer](using/action/action-privacy.md)
+   + [Door de klant beheerde sleutels instellen en beheren](using/privacy/cmk.md)

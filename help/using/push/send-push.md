@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 4%
@@ -39,7 +39,6 @@ Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken o
 
 ## Uw pushmelding valideren {#push-validate}
 
-
 U moet alarm in de hogere sectie van de redacteur controleren. Sommige zijn eenvoudige waarschuwingen, maar andere kunnen u verhinderen het bericht te verzenden. Er kunnen twee typen waarschuwingen optreden: waarschuwingen en fouten.
 
 * **Waarschuwingen** verwijzen naar aanbevelingen en beste praktijken.
@@ -52,7 +51,7 @@ U moet alarm in de hogere sectie van de redacteur controleren. Sommige zijn eenv
 
    * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: de grootte van de pushmelding mag niet groter zijn dan 4 kB. U kunt deze limiet in acht nemen door het gebruik van afbeeldingen of emojis te beperken. Leer hoe u de inhoud van uw pushmelding beheert in [deze sectie](../push/create-push.md).
 
-   ![](assets/push_alert.png)
+  ![](assets/push_alert.png)
 
 
 >[!NOTE]
