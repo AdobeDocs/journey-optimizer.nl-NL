@@ -8,9 +8,9 @@ level: Beginner
 badge: label="Beta" type="Informatief"
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 98957bfff8fdc719dc81d3064eb3332c3f9f2cc4
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Controleer de volgende eerste vereisten voordat u begint met het exporteren van 
 
 * Om datasets uit te voeren, hebt u nodig **Doelen beheren**, **Doelen weergeven**, **Doelen activeren**, en **Dataset-doelen beheren en activeren** [toegangsbeheermachtigingen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). Lees de [toegangsbeheeroverzicht](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) of neem contact op met de productbeheerder om de vereiste machtigingen te verkrijgen.
 
-* Deze functie ondersteunt alleen het exporteren van gegevens van de eerste generatie, dat wil zeggen onbewerkte gegevens zoals gedefinieerd in het dialoogvenster [Real-time Customer Data Platform-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). Zorg ervoor dat de dataset die u wilt uitvoeren geen gegevens van de tweede generatie bevat.
+* Zorg ervoor dat de dataset die u wilt uitvoeren geen gegevens van de tweede generatie bevat. Deze functie ondersteunt alleen het exporteren van gegevens van de eerste generatie, dat wil zeggen onbewerkte gegevens zoals gedefinieerd in het dialoogvenster [Real-time Customer Data Platform-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). De gegevens van de eerste generatie omvatten datasets die via de Bronnen van Adobe Experience Platform worden gebracht of datasets die worden verzameld gebruikend de oplossingen van Adobe zoals de Verbinding van Gegevens van de Analyse en de logboeken/rapportdatasets van Journey Optimizer.
 
 ## Belangrijkste stappen om gegevenssets te exporteren {#main-steps}
 
