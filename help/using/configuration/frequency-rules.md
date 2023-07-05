@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: bericht, frequentie, regels, druk
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 74db87267c2bc4a1aabfc506adaa29758467dd81
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '949'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,7 @@ ht-degree: 2%
 
 [!DNL Journey Optimizer] Hiermee kunt u bepalen hoe vaak gebruikers een bericht zullen ontvangen of een reis zullen betreden door kanaalregels in te stellen die automatisch overgevraagde profielen uitsluiten van berichten en acties.
 
-Bijvoorbeeld, wilt u uw merk niet meer dan 3 marketing berichten per maand naar hun klanten verzenden.
-
-Hiervoor kunt u een regel voor de frequentie gebruiken die het aantal verzonden berichten beperkt op basis van een of meer kanalen gedurende een maandelijkse kalenderperiode.
+Voor een merk kan het bijvoorbeeld de regel zijn dat niet meer dan drie marketingberichten per maand naar hun klanten worden gestuurd. Hiervoor kunt u een regel voor de frequentie gebruiken die het aantal verzonden berichten beperkt op basis van een of meer kanalen gedurende een maandelijkse kalenderperiode.
 
 >[!NOTE]
 >
