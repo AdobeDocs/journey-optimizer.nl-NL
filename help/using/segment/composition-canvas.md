@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informatief"
-source-git-commit: 66cf0332c62a9c3b034398c3a6046cbcec622d40
+source-git-commit: 715674d48d01526b5e6a328ed3951357edc2b73b
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1330'
 ht-degree: 0%
 
 ---
@@ -116,22 +116,22 @@ De **[!UICONTROL Exclude]** Met activiteit kunt u profielen uitsluiten van uw co
 
 * **[!UICONTROL Exclude Audience]**: Profielen uitsluiten die bij een bestaand publiek horen.
 
-   Klik op de knop **[!UICONTROL Add audience]** selecteert u vervolgens het publiek dat u wilt uitsluiten.
+  Klik op de knop **[!UICONTROL Add audience]** selecteert u vervolgens het publiek dat u wilt uitsluiten.
 
-   ![](assets/audiences-exclude-audience.png)
+  ![](assets/audiences-exclude-audience.png)
 
 * **[!UICONTROL Exclude using attribute]**: Profielen uitsluiten die zijn gebaseerd op een specifiek kenmerk.
 
-   Selecteer het kenmerk dat u wilt opzoeken en geef de waarde op die u wilt uitsluiten. In dit voorbeeld sluiten we compositieprofielen uit waarvan het adres in Japan ligt.
+  Selecteer het kenmerk dat u wilt opzoeken en geef de waarde op die u wilt uitsluiten. In dit voorbeeld sluiten we compositieprofielen uit waarvan het adres in Japan ligt.
 
-   ![](assets/audiences-exclude-attribute.png)
+  ![](assets/audiences-exclude-attribute.png)
 
 ### Verrijken {#enrich}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
 >title="Verrijken van activiteit"
->abstract="Gebruik de activiteit Verrijken om profielen uit te sluiten die tot een bestaand publiek behoren. Met de optie Uitsluiten met behulp van het kenmerktype kunt u profielen uitsluiten op basis van een specifiek kenmerk."
+>abstract="Gebruik de Verrijken activiteit om uw publiek met extra attributen te verrijken die uit de datasets van Adobe Experience Platform komen. U kunt bijvoorbeeld informatie met betrekking tot het aangekochte product toevoegen, zoals de naam, de prijs of de fabrikant-id, en deze informatie gebruiken om de leveringen die naar het publiek worden verzonden, aan te passen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_dataset"
@@ -220,15 +220,15 @@ Er zijn twee soorten splitsingsbewerkingen beschikbaar:
 
 * **[!UICONTROL Percent split]**: willekeurig gesplitste profielen in twee of meer paden. U kunt de profielen bijvoorbeeld opsplitsen in twee afzonderlijke paden van elk 50%. <!--and add an additional path for control group.-->
 
-   ![](assets/audiences-split-percentage.png)
+  ![](assets/audiences-split-percentage.png)
 
 * **[!UICONTROL Attribute split]**: gesplitste profielen op basis van een specifiek kenmerk. In dit voorbeeld splitsen we profielen op basis van voorkeuren voor kamertype.
 
-   ![](assets/audiences-split.png)
+  ![](assets/audiences-split.png)
 
-   >[!NOTE]
-   >
-   >De **[!UICONTROL Other profiles]** kunt u een extra pad maken met de resterende profielen die niet overeenkomen met een van de voorwaarden die in de andere paden zijn opgegeven.
+  >[!NOTE]
+  >
+  >De **[!UICONTROL Other profiles]** kunt u een extra pad maken met de resterende profielen die niet overeenkomen met een van de voorwaarden die in de andere paden zijn opgegeven.
 
 ## Uw publiek opslaan {#save}
 
