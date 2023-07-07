@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: c9941a800783b399b587b952c4191ce906b70552
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '2061'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 >id="ajo_campaign_global_report"
 >title="Globaal verslag campagne voeren"
 >abstract="Met het algemene rapport Campagne kunt u het effect van uw campagnes over een bepaalde tijdsperiode meten. Uw rapport is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Elk rapportdashboard kan worden gewijzigd door widgets te vergroten of te verkleinen of te verwijderen."
+
+Globale rapporten, toegankelijk vanaf het tabblad Alle tijd, geven gebeurtenissen weer die zich ten minste twee uur geleden hebben voorgedaan en bestrijken gebeurtenissen gedurende een geselecteerde tijdsperiode. In vergelijking hiermee richten Live-rapporten zich op gebeurtenissen die zich in de afgelopen 24 uur hebben voorgedaan, met een minimale tijdsinterval van twee minuten vanaf het plaatsvinden van de gebeurtenis.
 
 Het algemene rapport van de campagne kan direct van uw Campagne met het **[!UICONTROL View report]** knop.
 

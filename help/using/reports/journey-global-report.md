@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 >id="ajo_journey_global_report"
 >title="Journaal algemeen rapport"
 >abstract="Met het algemene rapport Journey kunt u de impact van uw reizen over een bepaalde tijdsperiode meten. Uw rapport is verdeeld in verschillende widgets die het succes en de fouten van uw reis gedetailleerd beschrijven. Elk rapportdashboard kan worden gewijzigd door widgets te vergroten of te verkleinen of te verwijderen."
+
+Globale rapporten, toegankelijk vanaf het tabblad Alle tijd, geven gebeurtenissen weer die zich ten minste twee uur geleden hebben voorgedaan en bestrijken gebeurtenissen gedurende een geselecteerde tijdsperiode. In vergelijking hiermee richten Live-rapporten zich op gebeurtenissen die zich in de afgelopen 24 uur hebben voorgedaan, met een minimale tijdsinterval van twee minuten vanaf het plaatsvinden van de gebeurtenis.
 
 Het algemene rapport van de reis kan direct van uw reis met worden betreden **[!UICONTROL View report]** knop.
 

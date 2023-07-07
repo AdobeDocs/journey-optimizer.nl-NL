@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 >id="ajo_journey_live_report"
 >title="Journaal live"
 >abstract="Met het Live Journey-rapport kunt u de impact en prestaties van uw reizen in real-time alleen in de afgelopen 24 uur meten en visualiseren. Uw rapport is verdeeld in verschillende widgets die het succes en de fouten van uw reis gedetailleerd beschrijven. Elk rapportdashboard kan worden gewijzigd door widgets te vergroten of te verkleinen of te verwijderen."
+
+Live rapporten, die toegankelijk zijn vanaf het tabblad Laatste 24 uur, geven gebeurtenissen weer die in de afgelopen 24 uur hebben plaatsgevonden, met een minimale tijdsinterval van twee minuten vanaf de gebeurtenis. Globale rapporten richten zich daarentegen op gebeurtenissen die zich minstens twee uur geleden hebben voorgedaan en bestrijken gebeurtenissen gedurende een geselecteerde tijdsperiode.
 
 Reis live rapport kan direct vanaf je reis worden geopend met de **[!UICONTROL View report]** knop.
 

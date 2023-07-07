@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: 0ec122bbf134c41f95755a3b6f08eb7ef68506df
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >title="Live-verslag over de landingspagina"
 >abstract="Met het live rapport op de landingspagina kunt u de impact en prestaties van uw landingspagina alleen in de afgelopen 24 uur in real-time meten en visualiseren. Uw rapport is verdeeld in verschillende widgets die gedetailleerd uw het mislukken en fouten van de landingspagina beschrijven. Elk rapportdashboard kan worden gewijzigd door widgets te vergroten of te verkleinen of te verwijderen."
 
-De openingspagina **[!UICONTROL Live report]** het rapport bevat alleen informatie over de impact van uw bestemmingspagina&#39;s gedurende de laatste 24 uur. Als u de gegevens van de bestemmingspagina over een bepaalde tijdsperiode wilt meten, raadpleegt u de [Algemeen rapport landingspagina](lp-report-global.md).
+Live rapporten, die toegankelijk zijn vanaf het tabblad Laatste 24 uur, geven gebeurtenissen weer die in de afgelopen 24 uur hebben plaatsgevonden, met een minimale tijdsinterval van twee minuten vanaf de gebeurtenis. Globale rapporten richten zich daarentegen op gebeurtenissen die zich minstens twee uur geleden hebben voorgedaan en bestrijken gebeurtenissen gedurende een geselecteerde tijdsperiode.
 
 Als u uw rapporten wilt openen, selecteert u **[!UICONTROL Report]** in het geavanceerde menu van de geselecteerde bestemmingspagina.
 

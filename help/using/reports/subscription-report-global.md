@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >title="Globaal rapport voor abonnement"
 >abstract="Het globale rapport van het Abonnement staat u toe om de activiteit van uw abonnees over een geselecteerde tijdspanne te meten en te visualiseren. Uw rapport is verdeeld in verschillende widgets waarin uw abonnementen en afboekingen worden gedetailleerd. Elk rapportdashboard kan worden gewijzigd door widgets te vergroten of te verkleinen of te verwijderen."
 
-Het abonnement **[!UICONTROL Global report]** geeft details weer over de activiteit van je abonnees gedurende een geselecteerde tijdsperiode. Als u uw abonnementen alleen gedurende de afgelopen 24 uur wilt meten, raadpleegt u de [Live-rapport voor abonnement](subscription-report-live.md).
+Globale rapporten, toegankelijk vanaf het tabblad Alle tijd, geven gebeurtenissen weer die zich ten minste twee uur geleden hebben voorgedaan en bestrijken gebeurtenissen gedurende een geselecteerde tijdsperiode. In vergelijking hiermee richten Live-rapporten zich op gebeurtenissen die zich in de afgelopen 24 uur hebben voorgedaan, met een minimale tijdsinterval van twee minuten vanaf het plaatsvinden van de gebeurtenis.
 
 Klik op de knop **[!UICONTROL Report]** pictogram van uw geselecteerde abonnementenlijst.
 
