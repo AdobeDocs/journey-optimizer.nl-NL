@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: voorwerp, niveau, toegang, controle, etiketten, olc, vergunning
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 9cb6164f029fa0bd198a51ff934b272ae09ac3c3
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '404'
 ht-degree: 2%
 
 ---
@@ -22,10 +22,6 @@ ht-degree: 2%
 >id="ajo_olac_manage_access"
 >title="Toegangsbeheer op objectniveau"
 >abstract="Als u labels toepast waartoe u geen toegang hebt, wordt de toegang tot dit object ingetrokken."
-
->[!IMPORTANT]
->
->Het gebruik van de toegangscontrole van het niveau van Objecten is momenteel beperkt tot geselecteerde klanten, en zal aan alle milieu&#39;s in een toekomstige versie worden opgesteld.
 
 Met toegangsbeheer op objectniveau (OLAC) kunt u machtigingen definiëren om gegevenstoegang tot een selectie objecten te beheren:
 

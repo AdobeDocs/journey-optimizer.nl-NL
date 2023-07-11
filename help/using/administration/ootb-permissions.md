@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: machtigingen, schrijven, berichten
 exl-id: fd7a7564-bf67-4796-8182-0b9b04516f21
-source-git-commit: f5b4beb327804c23e58835de3218d67f1ab4e87e
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '573'
 ht-degree: 1%
 
 ---
@@ -19,10 +19,8 @@ ht-degree: 1%
 # Ingebouwde machtigingen {#ootb-permissions}
 
 | Capaciteit | Toestemmingen |
-|---|---|
-| Waarschuwingen | **[!DNL Manage alerts]**: alarmregels voor reizen en aanspraken in- en uitschakelen.</br>**[!DNL Resolve alerts]**: kunt u getriggerde waarschuwingen oplossen.</br>**[!DNL View alerts]**: Hiermee kunt u ontvangen waarschuwingsberichten weergeven en het tabblad Waarschuwingen openen. </br>**[!DNL View alerts history]**: Hiermee kunt u een geschiedenis van ontvangen waarschuwingen weergeven. |
+|-|-|
 | Campagnes | **[!DNL Manage campaigns]**: campagnes lezen, maken, bewerken en verwijderen. </br>**[!DNL Publish campaigns]**: het recht om campagnes te publiceren.</br>**[!DNL View campaigns]**: alleen-lezen toegang tot campagnes. </br>**[!DNL View campaigns report]**: campagnerapporten lezen en bewerken. |
-| Kanaalconfiguratie | **[!DNL View messages general settings]**: read-only toegang tot bericht algemene montages.</br>**[!DNL Manage web subdomain]**: websubdomeinen lezen, maken, bewerken en verwijderen.</br>**[!DNL Manage messages general settings]**: algemene instellingen van berichten lezen, maken, bewerken en verwijderen.</br>**[!DNL Manage suppression]**: suppressieregels lezen, maken, bewerken en verwijderen.</br>**[!DNL Manage messages presets]**: het lezen, creëren, uitgeven, en schrappen van inhoudbranding.</br>**[!DNL View messages presets]**: alleen-lezen toegang tot voorinstellingen voor berichten.</br>**[!DNL Manage SMS subdomains]**: sms-subdomeinen lezen, maken, bewerken en verwijderen.</br>**[!DNL Manage subdomains delegation]**: subdomeindelegatie lezen, maken, bewerken en verwijderen.</br>**[!DNL Manage IP pools]**: lees, creeer, geef, en schrap ip pool uit.</br>**[!DNL Manage PTR records]**: PTR-records lezen en bewerken.</br>**[!DNL View PTR records]**: alleen-lezen toegang tot PTR-records.</br>**[!DNL Manage channel surfaces]**: het lezen, creëren, uitgeven, en schrappen van inhoudbranding.</br>**[!DNL Manage Landing page settings]**: subdomeinen van de pagina Landing lezen, maken, bewerken en verwijderen, en voorinstellingen van de pagina Landing.</br>**[!DNL Manage SMS settings]**: API-referenties en oppervlakken van SMS-kanalen die zijn vereist voor het inschakelen van SMS-kanalen, lezen, maken, bewerken en verwijderen.</br>**[!DNL Export suppression list]**: toegang tot de lijst met exportonderdrukking als csv.</br>**[!DNL View suppression list]**: lokale suppressielijst lezen en exporteren. |
 | Dashboards | **[!DNL View license usage dashboards]**: read-only toegang tot het dashboard van het vergunningsgebruik. </br>**[!DNL Manage custom dashboards]**: kunt u een nieuw dashboard maken of een bestaand dashboard bewerken.</br>**[!DNL View custom dashboards]**: alleen-lezen toegang tot door de gebruiker gedefinieerde dashboards. </br>**[!DNL View standard dashboards]**: alleen-lezen toegang tot de dashboards van profielen, doelen en segmenten.</br>**[!DNL Manage standard dashboards]**: kunt u aangepaste widgets maken en het widgetschema bewerken via de Widgetbibliotheek. |
 | Gegevensverzameling | **[!DNL Manage datastream]**: gegevensstromen lezen, maken en bewerken.</br>**[!DNL View datastream]**: alleen-lezen toegang tot gegevensstromen. |
 | Gegevensbeheer | **[!DNL Manage usage labels]**: labels lezen, maken, bewerken en verwijderen.</br>**[!DNL Manage data usage policies]**: beleidsregels voor het lezen, maken, bewerken en verwijderen van gegevens.</br>**[!DNL View data usage policies]**: read-only toegang voor het beleid van het gegevensgebruik dat tot uw organisatie behoort.</br>**[!DNL View user activity log]**: alleen-lezen toegang tot opgenomen auditlogs van activiteiten van Platforms. |

@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: sandboxen, virtueel, omgevingen, organisatie, platform
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 28%
+source-wordcount: '344'
+ht-degree: 21%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 28%
 ## Sandboxen gebruiken {#using-sandbox}
 
 In [!DNL Journey Optimizer] kunt u uw instantie partitioneren in afzonderlijke virtuele omgevingen, sandboxen genoemd.
-Sandboxen worden toegewezen via productprofielen in de Admin Console. [Leer hoe u sandboxen toewijst](permissions.md#create-product-profile).
+Sandboxen worden toegewezen via rollen in Machtigingen. [Leer hoe u sandboxen toewijst](permissions.md#create-product-profile).
 
 [!DNL Journey Optimizer] weerspiegelt Adobe Experience Platform-sandboxen die voor een bepaalde organisatie zijn gemaakt.
 U kunt Adobe Experience Platform-sandboxen maken of herstellen vanuit uw Adobe Experience Platform-instantie. [Meer informatie in de gebruikershandleiding voor de sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html){target="_blank"}.
@@ -38,27 +38,21 @@ U kunt het besturingselement voor de sandboxswitch rechtsboven in het scherm vin
 >
 > Sandboxbeheer kan alleen worden uitgevoerd door een **[!UICONTROL Product]** of **[!UICONTROL System]** beheerder. Raadpleeg voor meer informatie hierover de [Documentatie beheerconsole](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
 
-U kunt desgewenst verschillende sandboxen toewijzen **[!UICONTROL Product profiles]**.
+U kunt desgewenst verschillende sandboxen toewijzen **[!UICONTROL Roles]**.
 
 Sandboxen toewijzen:
 
-1. In de [!DNL Admin Console]van de **[!UICONTROL Products]** selecteert u de **[!UICONTROL Adobe Experience Platform Apps]** product.
-
-1. Selecteer een **[!UICONTROL Product profile]**.
+1. In [!DNL Permissions]van de **[!UICONTROL Roles]** selecteert u een **[!UICONTROL Role]**.
 
    ![](assets/sandbox_1.png)
 
-1. Selecteer het tabblad **[!UICONTROL Permissions]**. 
+1. Klik op **[!UICONTROL Edit]**.
 
-1. Selecteer **[!UICONTROL Sandboxes]** capaciteit.
-
-   ![](assets/sandbox_2.png)
-
-1. Klik onder **[!UICONTROL Available Permissions Items]** op het pluspictogram (+) om sandboxen aan uw profiel toe te wijzen. [Meer informatie over sandboxen](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=nl){target="_blank"}.
+1. Van de **[!UICONTROL Sandboxes]** bron drop-down, selecteer de zandbak die aan uw rol zal worden toegewezen.
 
    ![](assets/sandbox_3.png)
 
-1. Indien nodig, onder **[!UICONTROL Included Permission Items]**, klikt u op het X-pictogram naast het verwijderen van sandboxen die toegang hebben tot uw **[!UICONTROL Product profile]**.
+1. Klik indien nodig op het X-pictogram naast het verwijderen van sandboxen die toegang hebben tot uw **[!UICONTROL Role]**.
 
    ![](assets/sandbox_4.png)
 

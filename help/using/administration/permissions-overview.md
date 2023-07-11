@@ -9,10 +9,10 @@ role: Admin, Architect
 level: Intermediate
 keywords: machtigingen, rechten, beperkingen, toegang, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: d99feb7b6b11f9bba4f4164e7febecfca1d7da3b
+source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 17%
+source-wordcount: '197'
+ht-degree: 10%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 17%
 
 Gebruikersbeheer in [!DNL Journey Optimizer] is gebaseerd op drie concepten:
 
-* **[!UICONTROL Product profile]**: Een reeks eenheidsrechten die gebruikers toegang tot bepaalde functies of objecten in de interface biedt. Zie de [Productprofielen buiten de verpakking](ootb-product-profiles.md) sectie
+* **[!UICONTROL Role]**: Een reeks eenheidsrechten die gebruikers toegang tot bepaalde functies of objecten in de interface biedt. Zie de [Buiten-de-box rollen](ootb-product-profiles.md) sectie.
 
-* **[!UICONTROL Permissions]**: Unierechten waarmee u de machtigingen kunt definiëren die zijn toegewezen aan **[!UICONTROL Product profile]**. Elke toestemming wordt verzameld onder mogelijkheden, bijvoorbeeld Reis of Aanbiedingen, die de verschillende functionaliteiten of voorwerpen in vertegenwoordigen [!DNL Journey Optimizer]. Zie de [Machtigingsniveaus](high-low-permissions.md) sectie.
+* **[!UICONTROL Permissions]**: Unierechten waarmee u de machtigingen kunt definiëren die zijn toegewezen aan **[!UICONTROL Roles]**. Elke toestemming wordt verzameld onder middelen, bijvoorbeeld Reis of Aanbiedingen, die de verschillende functionaliteit of voorwerpen in vertegenwoordigen [!DNL Journey Optimizer]. Zie de [Machtigingsniveaus](high-low-permissions.md) sectie.
 
-* **[!UICONTROL Sandbox]**: Virtuele sandboxen die instanties in afzonderlijke, geïsoleerde virtuele omgevingen verdelen. Zie de [Sandboxen gebruiken](sandboxes.md)
+* **[!UICONTROL Sandbox]**: Virtuele sandboxen die instanties in afzonderlijke, geïsoleerde virtuele omgevingen verdelen. Zie de [Sandboxen gebruiken](sandboxes.md).
 
 Elk concept kan worden beheerd door **[!UICONTROL Product administrators]** die toegang hebben tot de beheerconsole. [Meer informatie over Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html).
 
@@ -36,6 +36,6 @@ Elk concept kan worden beheerd door **[!UICONTROL Product administrators]** die 
 
 ## Hoe kan ik-video{#video}
 
-Meer informatie over toegangsbeheersystemen en aangepaste productprofielen in Adobe Journey Optimizer. Leer hoe u productprofielen en -machtigingen kunt beheren en hoe u gebruikers kunt toevoegen en beheren.
+Meer informatie over het toegangsbeheersysteem en aangepaste profielen in Adobe Journey Optimizer. Leer hoe u rollen en machtigingen beheert en hoe u gebruikers toevoegt en beheert.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333998?quality=12)
