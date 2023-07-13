@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: c67c7b7c6a8af1ea24c66df261ddd390e55675f7
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 34%
@@ -282,15 +282,15 @@ ht-degree: 34%
    + Doelgroepen {#audiences}
       + [Aan de slag met het publiek](using/audience/about-audiences.md)
       + [Segmentdefinities samenstellen](using/audience/creating-a-segment-definition.md)
+      + Doelgroep samenstellen {#audience-orchestration}
+         + [Aan de slag met publiekscompositie](using/audience/get-started-audience-orchestration.md)
+         + [Samenstellingswerkstromen maken](using/audience/create-compositions.md)
+         + [Werken met het compositicanvas](using/audience/composition-canvas.md)
+         + [Toegang tot en beheer van het publiek](using/audience/access-audiences.md)
    + Profielen{#profiles}
       + [Aan de slag met profielen](using/audience/get-started-profiles.md)
       + [Testprofielen maken](using/audience/creating-test-profiles.md)
    + [Identiteiten](using/audience/get-started-identity.md)
-   + Doelgroep samenstellen {#audience-orchestration}
-      + [Aan de slag met publiekscompositie](using/audience/get-started-audience-orchestration.md)
-      + [Samenstellingswerkstromen maken](using/audience/create-compositions.md)
-      + [Werken met het compositicanvas](using/audience/composition-canvas.md)
-      + [Toegang tot en beheer van het publiek](using/audience/access-audiences.md)
    + [Licentiegebruik](using/audience/license-usage.md)
 + Bijhouden en bewaken {#reporting}
    + Live-rapport {#live-report}
