@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: profiel, update, reis, activiteit
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -58,11 +58,11 @@ Gebruik de **[!UICONTROL Update Profile]** activiteit om een bestaand profiel va
 
    * Met de eenvoudige expressieeditor kunt u een veld uit een gegevensbron of uit de binnenkomende gebeurtenis selecteren.
 
-      ![](assets/profileupdate4.png)
+     ![](assets/profileupdate4.png)
 
    * Als u een specifieke waarde wilt definiëren of geavanceerde functies wilt gebruiken, klikt u op **Geavanceerde modus**.
 
-      ![](assets/profileupdate3.png)
+     ![](assets/profileupdate3.png)
 
 De **Profiel bijwerken** is nu geconfigureerd.
 
@@ -75,4 +75,4 @@ In de testmodus wordt de profielupdate niet gesimuleerd. De update wordt uitgevo
 
 Alleen testprofielen kunnen een reis maken in de testmodus. U kunt een nieuw testprofiel maken of een bestaand profiel omzetten in een testprofiel. In Adobe Experience Platform kunt u profielkenmerken bijwerken via een CSV-bestand importeren of API-aanroepen. Een eenvoudigere methode is om een **Profiel bijwerken** en wijzig het Booleaanse veld voor het testprofiel van false in true.
 
-Raadpleeg voor meer informatie over de manier waarop u een bestaand profiel in een testprofiel kunt omzetten [sectie](../segment/creating-test-profiles.md#create-test-profiles-csv).
+Raadpleeg voor meer informatie over de manier waarop u een bestaand profiel in een testprofiel kunt omzetten [sectie](../audience/creating-test-profiles.md#create-test-profiles-csv).

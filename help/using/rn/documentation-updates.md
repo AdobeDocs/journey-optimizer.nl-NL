@@ -4,22 +4,16 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ae7585473373e23da02f16c0b43ab0b1b29f356d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '2947'
-ht-degree: 16%
+source-wordcount: '2874'
+ht-degree: 15%
 
 ---
 
 # Documentatie-updates {#latest-updates}
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
-
-## Juni 2023 {#june-2023}
-
-* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 23 juni is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
-* Er zijn aanvullende voorbeelden toegevoegd aan de **Besluiten maken** aan te geven in welke gevallen meerdere criteria en verschillende besluitvormingsgebieden worden gebruikt. [Meer informatie](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
-* De documentatie van het Beslissingsbeheer is verduidelijkt met een nota die specificeert dat het gebruik van de Controle van de Toegang van het Niveau van Objecten niet beschikbaar voor dynamische inzamelingen is. [Meer informatie](../offers/offer-library/creating-collections.md)
 
 ## Mei 2023 {#may-2023}
 
@@ -48,7 +42,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Voeg een stap toe om Adobe Analytics-gebeurtenissen tijdens uw reizen mogelijk te maken. [Meer informatie](../event/about-analytics.md)
 * In de gids voor het beheer van besluiten is een nieuw gedeelte opgenomen over de wijze waarop feedback van offer decisioning in Adobe Experience Platform kan worden verzameld, met inbegrip van de aanbiedingen die worden weergegeven en de wijze waarop gebruikers met hen communiceren. [Meer informatie](../offers/data-collection/data-collection.md)
 * Er is een nieuwe subsectie toegevoegd aan de **Beslissing maken** een toelichting bij het verschil tussen de beoordeling van de criteria in een opeenvolgende volgorde of tegelijkertijd. [Meer informatie](../offers/offer-activities/create-offer-activities.md#evaluation-criteria-order)
-* Er is een hulplijn toegevoegd voor leesegmentreizen met incrementele leestoegang. U kunt geen nieuwe versie maken, u moet de reis dupliceren. [Meer informatie](../start/guardrails.md#journey-versions-g)
+* Er is een hulplijn toegevoegd voor het lezen van lezersritten met incrementeel lezen. U kunt geen nieuwe versie maken, u moet de reis dupliceren. [Meer informatie](../start/guardrails.md#journey-versions-g)
 
 ## Februari 2023 {#feb-2023}
 
@@ -94,7 +88,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 ## September 2022 {#september-2022}
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van september &#39;22 is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
-* Er is een beste praktijk toegevoegd met betrekking tot het gebruik van wachtactiviteiten bij terugkerende leesegmentreizen. [Meer informatie](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Er is een aanbevolen werkwijze toegevoegd met betrekking tot het gebruik van wachtactiviteiten bij terugkerende publiekstrajecten. [Meer informatie](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * Voorbeelden van query&#39;s voor nieuwe stapgebeurtenissen en informatie over het verschil tussen id, instanceid en profileid zijn toegevoegd. [Meer informatie](../reports/query-examples.md).
 * De pagina&#39;s die betrekking hebben op de [toDateOnly](../building-journeys/functions/functiontodateonly.md) en [toString](../building-journeys/functions/functiontostring.md) functies.
 * Meer informatie over de parameters voor de tijdvoorwaarde. [Meer informatie](../building-journeys/condition-activity.md#time_condition)
@@ -109,7 +103,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 22 augustus is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
 * De sectie van de Regels van de Frequentie is bijgewerkt om op de nieuwe in-lijn overseinenstroom te wijzen. [Meer informatie](../configuration/frequency-rules.md#apply-frequency-rule)
 * Er wordt nu verwezen naar een video waarin wordt getoond hoe u abonnementen kunt configureren en bestemmingspagina&#39;s kunt maken in de sectie Aan de slag met bestemmingspagina&#39;s. [Meer informatie](../landing-pages/get-started-lp.md#video)
-* Er is een beperking toegevoegd voor reizen die gebruikmaken van leessegmentactiviteiten. [Meer informatie](../building-journeys/read-segment.md)
+* Er is een beperking toegevoegd voor ritten die gebruikmaken van leespubliek-activiteiten. [Meer informatie](../building-journeys/read-audience.md)
 * De pagina met operators van expressies is verbeterd. [Meer informatie](../building-journeys/expression/operators.md)
 * Er is een sectie toegevoegd over het plannen van een campagne. [Meer informatie](../campaigns/create-campaign.md)
 * De sectie van de algemene syntaxisregels voor uitdrukkingsredacteur is bijgewerkt om rekening te houden met de nieuwe regel betreffende backslash symbool ontsnapend in letterlijke functies. Deze wijziging heeft geen invloed op de bestaande gepubliceerde berichten. Alleen de nieuwe berichten of conceptberichten moeten worden bijgewerkt. [Meer informatie](../personalization/personalization-syntax.md#general-rules)
@@ -120,7 +114,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De **Kanaaloppervlakken instellen** Deze sectie is verduidelijkt en bijgewerkt met koppelingen naar de pagina die beschrijft hoe u het SMS-kanaal kunt configureren. [Meer informatie](../configuration/channel-surfaces.md#create-channel-surface)
 * In de reiseigenschappen **Tijdzone profiel** Deze optie is nu standaard uitgeschakeld. [Meer informatie](../building-journeys/timezone-management.md#timezone-from-profiles)
 * In de **Wachten** de **Vaste datum** is niet meer beschikbaar. [Meer informatie](../building-journeys/wait-activity.md)
-* Meer informatie over de **Incrementeel lezen** in de **Segment lezen** activiteit. [Meer informatie](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* Meer informatie over de **Incrementeel lezen** in de **Lees publiek** activiteit. [Meer informatie](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * Toegevoegde aanbevelingen voor de **Profiel uiteinde** voorwaardetype. [Meer informatie](../building-journeys/condition-activity.md#profile_cap)
 * Een beperking toegevoegd op bedrijfsgebeurtenissen. [Meer informatie](../start/guardrails.md#events-g)
 
@@ -142,7 +136,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 ## Mei 2022 {#may-2022}
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van mei &#39;22 is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
-* Nieuwe queryvoorbeelden met betrekking tot [segmentkwalificatie](../reports/query-examples.md#segment-qualification-queries) en [gebeurtenissen](../reports/query-examples.md#event-based-queries) zijn toegevoegd.
+* Nieuwe queryvoorbeelden met betrekking tot [publiekskwalificatie](../reports/query-examples.md#segment-qualification-queries) en [gebeurtenissen](../reports/query-examples.md#event-based-queries) zijn toegevoegd.
 * In de sectie E-mailontwerp staan nu nieuwe ingebouwde sjablonen waarmee inhoud kan worden gestart. Gerelateerde schermafbeeldingen zijn bijgewerkt. [Meer informatie](../email/get-started-email-design.md)
 * Koppelingen naar belangrijke bronnen zijn bijgewerkt in de homepage van Journey Optimizer-documentatie.
 * Screenshots voor de openingspagina en abonnementrapportage zijn bijgewerkt. [Meer informatie](../reports/live-report.md)
@@ -166,7 +160,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 22 maart is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
 * Er is een nieuwe pagina toegevoegd aan de **Offer decisioning** , met inbegrip van een grondige beschrijving van de [model voor automatische optimalisatie](../offers/ranking/auto-optimization-model.md), het gebruikte algoritme en meer technische details. [Meer informatie](../offers/ranking/ai-models.md)
-* De pagina voor het maken van het testprofiel is verplaatst naar de  **Segment, profielen en identiteit** sectie. [Meer informatie](../segment/creating-test-profiles.md)
+* De pagina voor het maken van het testprofiel is verplaatst naar de  **Publiek, profielen en identiteit** sectie. [Meer informatie](../audience/creating-test-profiles.md)
 * Er is een voorbeeld toegevoegd over het toevoegen van een expressie als standaardwaarde in de expressie-editor. [Meer informatie](../building-journeys/expression/field-references.md#default-value)
 * De **Aangepaste aanbiedingen maken** deze sectie is gereorganiseerd voor een betere leesbaarheid. [Meer informatie](../offers/offer-library/creating-personalized-offers.md)
 * Er is een nieuw gedeelte toegevoegd waarin wordt beschreven welke gevolgen het wijzigen van de begin- en/of einddatum van een aanbieding kan hebben voor de maximale frequentie van deze aanbieding. [Meer informatie](../offers/offer-library/add-constraints.md#capping-change-date)
@@ -232,7 +226,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 * Nu zijn alle functies voor Beslissingsbeheer die in de desbetreffende sectie worden beschreven ook van toepassing op Adobe Experience Platform-gebruikers die gebruikmaken van de toepassingsservice van de Offer decisioning. [Meer informatie](../offers/get-started/starting-offer-decisioning.md)
 
-* Een subsectie toegevoegd om de verschillen tussen het gebruiken van segmenten versus besluitvormingsregels te verduidelijken wanneer het toepassen van een beperking om de selectie van aanbiedingen voor een bepaalde plaatsing te beperken. [Meer informatie](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
+* Een subsectie toegevoegd om de verschillen tussen het gebruik van regels voor publiek en beslissing bij het toepassen van een beperking om de selectie van aanbiedingen voor een bepaalde plaatsing te beperken, te verduidelijken. [Meer informatie](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 
 * Voorbeelden van specifieke rangschikkingsformules zijn toegevoegd ter illustratie van een aantal praktijkvoorbeelden. [Meer informatie](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
 
@@ -245,7 +239,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Bijgewerkte screenshots van e-mailontwerpers met de nieuwste gebruikersinterface.
 * De configuratieprocedure voor aangepaste handelingen met dynamische URL-paden en dynamische koppen is bijgewerkt. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
 * Een sectie over toegankelijkheidsfuncties en sneltoetsen toegevoegd. [Meer informatie](../start/user-interface.md#accessibility)
-* Er is een sectie over de methodes van de segmentevaluatie toegevoegd. [Meer informatie](../segment/about-segments.md#evaluation-method-in-journey-optimizer)
+* Een sectie toegevoegd over de evaluatiemethoden voor het publiek. [Meer informatie](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
 * Toegevoegde notities bij de lijst Onderdrukking, de secties Lijst van gewenste personen en E-mail global/live om aan te geven dat profielen met de status Onderdrukt en Niet toegestaan zijn uitgesloten van het e-mailrapport Metriek verzonden. [Meer informatie](../reports/global-report.md)
 * Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe e-mailadressen of domeinen kunnen worden opgehaald die zijn uitgesloten van een verzendende server omdat deze zich niet op de lijst van gewenste personen bevonden. [Meer informatie](../configuration/allow-list.md#reporting)
 * De sectie lijst van gewenste personen inschakelen is bijgewerkt. [Meer informatie](../configuration/allow-list.md#enable-allow-list)
@@ -269,7 +263,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Een subsectie toegevoegd op spiegelpagina&#39;s. [Meer informatie](../email/message-tracking.md#mirror-page)
 * In documentatie en schermen hernoemd tot &#39;aanbiedingsactiviteiten&#39; als &#39;besluiten&#39; en &#39;besluiten&#39; als &#39;besluiten&#39;. [Meer informatie](../offers/get-started/starting-offer-decisioning.md)
 * Nieuwe gebruikscase: [personaliseren een bericht met hulpfuncties](../personalization/personalization-use-case-helper-functions.md)
-* De documentatie voor het Leessegment is bijgewerkt om de gevolgen voor het geconcretiseerde segment te weerspiegelen. [Meer informatie](../building-journeys/read-segment.md)
+* Bijgewerkt de Lees publieksdocumentatie om de concretiseerde segmentgevolgen te weerspiegelen. [Meer informatie](../building-journeys/read-audience.md)
 * De beperkingen voor de reis zijn bijgewerkt. [Meer informatie](../start/guardrails.md)
 * Bijgewerkt Configure aanbiedingen selectie in beslissingssectie. [Meer informatie](../offers/offer-activities/configure-offer-selection.md)
 * Er is een waarschuwing toegevoegd om aan te geven dat op gebeurtenissen gebaseerde aanbiedingen momenteel niet worden ondersteund. [Meer informatie](../offers/offer-library/creating-personalized-offers.md#eligibility)

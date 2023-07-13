@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: reis, expressie, editor, eigenschappen
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 1%
@@ -46,26 +46,26 @@ Hier volgen enkele voorbeelden van gebruiksgevallen:
 
 | Categorie | Veldnaam | Label | Beschrijving |
 |---|---|---|------------|
-| Reisversie | tripUID | Reis-id |  |
-|  | tripVersionUID | Reisversie-id |  |
-|  | tripVersionName | Naam reisversie |  |
-|  | tripVersionDescription | Beschrijving van reisversie |  |
-|  | tripVersion | Reisversie |  |
+| Reisversie | tripUID | Reis-id | |
+| | tripVersionUID | Reisversie-id | |
+| | tripVersionName | Naam reisversie | |
+| | tripVersionDescription | Beschrijving van reisversie | |
+| | tripVersion | Reisversie | |
 | Reisexemplaar | instanceUID | Reisexemplaar-id | ID van de instantie |
-|  | externalKey | Externe sleutel | Individuele identificatie die de reis veroorzaakt |
-|  | organisationId | Organisatie-id | Merkorganisatie |
-|  | sandboxName | Naam van sandbox | Naam van de sandbox |
+| | externalKey | Externe sleutel | Individuele identificatie die de reis veroorzaakt |
+| | organisationId | Organisatie-id | Merkorganisatie |
+| | sandboxName | Naam van sandbox | Naam van de sandbox |
 | Identiteit | profileId | Identificatiecode profiel | Identificatiecode van het profiel tijdens de reis |
-|  | namespace | Naamruimte voor profielidentiteit | Naamruimte van het profiel in de rit (voorbeeld: ECID) |
+| | namespace | Naamruimte voor profielidentiteit | Naamruimte van het profiel in de rit (voorbeeld: ECID) |
 | Huidig knooppunt | currentNodeId | Huidige knooppunt-id | Identifier van de huidige activiteit (knooppunt) |
-|  | currentNodeName | Huidige knooppuntnaam | Naam van de huidige activiteit (knooppunt) |
+| | currentNodeName | Huidige knooppuntnaam | Naam van de huidige activiteit (knooppunt) |
 | Vorig knooppunt | previousNodeId | Vorige knooppunt-id | Identifier van de vorige activiteit (knooppunt) |
-|  | previousNodeName | Vorige knooppuntnaam | Naam van de vorige activiteit (knooppunt) |
+| | previousNodeName | Vorige knooppuntnaam | Naam van de vorige activiteit (knooppunt) |
 | Fouten | lastNodeUIDInError | Laatste knooppunt-id in fout | Identifier van de laatste activiteit (knooppunt) in fout |
-|  | lastNodeNameInError | Laatste knooppuntnaam in fout | Naam van de laatste activiteit (knooppunt) in fout |
-|  | lastNodeTypeInError | Laatste knooppunttype in fout | Fouttype van de meest recente activiteit (knooppunt) in fout. Mogelijke typen:<ul><li>Gebeurtenissen: Gebeurtenissen, Reacties, SQ (voorbeeld: Segmentkwalificatie)</li><li>Stroomregeling: Einde, Voorwaarde, Wacht</li><li>Handelingen: ACS-acties, Springen, Aangepaste actie</li></ul> |
-|  | lastErrorCode | Laatste foutcode | Foutcode van de laatste activiteit (knooppunt) in fout. Mogelijke fouten: <ul><li>HTTP-foutcodes</li><li>afgetopt</li><li>timedOut</li><li>fout (voorbeeld: standaard in het geval van een onverwachte fout. Dit mag niet of zeer zelden voorkomen.)</li></ul> |
-|  | lastExecutedActionErrorCode | Foutcode voor laatst uitgevoerde handeling | Foutcode van de laatste foutactie |
-|  | lastDataFetchErrorCode | Foutcode laatste gegevensophalen | Foutcode van de meest recente gegevensopname van gegevensbronnen |
+| | lastNodeNameInError | Laatste knooppuntnaam in fout | Naam van de laatste activiteit (knooppunt) in fout |
+| | lastNodeTypeInError | Laatste knooppunttype in fout | Fouttype van de meest recente activiteit (knooppunt) in fout. Mogelijke typen:<ul><li>Gebeurtenissen: Gebeurtenissen, Reacties, SQ (voorbeeld: Audience Qualification)</li><li>Stroomregeling: Einde, Voorwaarde, Wacht</li><li>Handelingen: ACS-acties, Springen, Aangepaste actie</li></ul> |
+| | lastErrorCode | Laatste foutcode | Foutcode van de laatste activiteit (knooppunt) in fout. Mogelijke fouten: <ul><li>HTTP-foutcodes</li><li>afgetopt</li><li>timedOut</li><li>fout (voorbeeld: standaard in het geval van een onverwachte fout. Dit mag niet of zeer zelden voorkomen.)</li></ul> |
+| | lastExecutedActionErrorCode | Foutcode voor laatst uitgevoerde handeling | Foutcode van de laatste foutactie |
+| | lastDataFetchErrorCode | Foutcode laatste gegevensophalen | Foutcode van de meest recente gegevensopname van gegevensbronnen |
 | Tijd | lastActionExecutionElapsedTime | Uitvoeringstijd laatste handeling verstreken | Tijd besteed aan uitvoering van de laatste handeling |
-|  | lastDataFetchElapsedTime | Laatste ophalen gegevens verstreken tijd | Tijd besteed aan het uitvoeren van de nieuwste gegevensopname van gegevensbronnen |
+| | lastDataFetchElapsedTime | Laatste ophalen gegevens verstreken tijd | Tijd besteed aan het uitvoeren van de nieuwste gegevensopname van gegevensbronnen |

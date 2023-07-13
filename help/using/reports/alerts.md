@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 1832f3395b07580e62f32c886a0a4256267b2970
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -26,7 +26,8 @@ Leren hoe te om aan alarm in te schrijven en hen te vormen, verwijs naar dit [pa
 
 >[!AVAILABILITY]
 >
->Er worden enkele ontwerpwijzigingen doorgevoerd voor de waarschuwing &quot;Read Segment Trigger Unsuccess&quot;. Deze waarschuwing wordt daarom voorlopig gepauzeerd en is tijdelijk verwijderd uit de gebruikersinterface. Zodra deze wijzigingen zijn vrijgegeven, wordt de waarschuwing opnieuw weergegeven en kunt u zich erop abonneren.
+>Er worden enkele ontwerpwijzigingen doorgevoerd voor de waarschuwing ‘Doelgroep lezen is mislukt’. Deze waarschuwing wordt daarom voorlopig gepauzeerd en is tijdelijk verwijderd uit de gebruikersinterface. Zodra deze wijzigingen zijn vrijgegeven, wordt de waarschuwing opnieuw weergegeven en kunt u zich erop abonneren.
+>
 
 In het linkermenu, onder **Beheer**, klikt u op **Waarschuwingen**.
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: bf738ebac09d5c852872a8ea85f6532ad9d4222d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Aan de slag met API&#39;s voor levering van aanbiedingen {#about-decisioning-apis}
 
-U kunt voorstellen leveren gebruikend of **Beslissing** of de **Randbeslissing** API. Daarnaast worden de **Batchbeslissing** API staat u toe om aanbiedingen aan alle profielen in een bepaald segment in één vraag te leveren. De aanbiedingsinhoud voor elke profielen in het segment wordt geplaatst in een dataset van Adobe Experience Platform waar het voor de werkschema&#39;s van de douanepartij beschikbaar is.
+U kunt voorstellen leveren gebruikend of **Beslissing** of de **Randbeslissing** API. Daarnaast worden de **Batchbeslissing** API staat u toe om aanbiedingen aan alle profielen in een bepaald publiek in één vraag te leveren. De aanbiedingsinhoud voor elke profielen in het publiek wordt geplaatst in een dataset van Adobe Experience Platform waar het voor de werkschema&#39;s van de douanepartij beschikbaar is.
 
 Op deze pagina vindt u informatie over specifieke functies die beschikbaar zijn bij de **Beslissing** en **Randbeslissing** API&#39;s. Terwijl beide u toestaan om aanbiedingen aan uw klanten te leveren, adviseren wij gebruikend **Randbeslissing** API waar mogelijk voor binnenkomende gebruiksgevallen en voor betere latentie en doorvoer op uw platform.
 

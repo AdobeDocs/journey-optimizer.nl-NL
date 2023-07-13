@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: transport, integratie, standaard, campagne, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 0f7a0732025e11a92292704743242f688b9629a1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '887'
 ht-degree: 3%
 
 ---
@@ -48,7 +48,7 @@ Voor **[!UICONTROL Email]** en **[!UICONTROL SMS]**, zijn de parameters identiek
 
 >[!NOTE]
 >
->Als Adobe Campaign Standard de transactiesjabloon van een profiel gebruikt voor e-mail, wordt het systeem voor het opzeggen van abonnementen automatisch afgehandeld. Om dit uit te voeren, kunt u gemakkelijk omvatten **[!UICONTROL Unsubscription link]** inhoudsblok binnen [de transactiemalplaatje voor e-mail](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl). Nochtans, als u een op gebeurtenis-gebaseerde malplaatje (rtEvent) gebruikt, moet u een verbinding in het bericht opnemen die de e-mail van de ontvanger als parameter URL overgaat, en hen aan een unsubscription het landen pagina leidt. Deze landingspagina moet worden gemaakt en ervoor zorgen dat de beslissing van de ontvanger om af te zien, daadwerkelijk aan Adobe wordt toegezonden.
+>Voor e-mail, als u een malplaatje van de profieltransactie gebruikt, wordt het unsubscription mechanisme verwerkt ingebouwd door Campaign Standard. U voegt eenvoudig een **[!UICONTROL Unsubscription link]** inhoudsblok in de sjabloon ([Meer informatie](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl)). Als u een op een gebeurtenis gebaseerde sjabloon (rtEvent) gebruikt, moet u in het bericht een koppeling toevoegen die de e-mail van de persoon in de URL-parameter doorgeeft en naar een bestemmingspagina zonder abonnement verwijst. U moet deze landingspagina maken en ervoor zorgen dat de beslissing van de persoon om het abonnement op te zeggen wordt doorgegeven aan Adobe.
 
 Eerst, moet u een transactioneel overseinensjabloon kiezen.
 

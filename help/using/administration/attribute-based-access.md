@@ -9,7 +9,7 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, attribute, Authorizations, data, access, sensitive, assets
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 6a81760170e53ed9c34142f3b0b367bd62c3464c
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Op attributen-gebaseerde toegangsbeheer (ABAC) laat u toestemmingen bepalen om gegevenstoegang voor specifieke teams of groepen gebruikers te beheren. Het doel is gevoelige digitale activa te beschermen tegen ongeoorloofde gebruikers, zodat persoonsgegevens verder kunnen worden beschermd.
 
-In Adobe Journey Optimizer, staat ABAC u toe om gegevens te beschermen en specifieke toegang te verlenen tot specifieke gebiedselementen met inbegrip van de schema&#39;s van de Gegevens van de Ervaring van het Model (XDM), de attributen van het Profiel, en segmenten.
+In Adobe Journey Optimizer, staat ABAC u toe om gegevens te beschermen en specifieke toegang tot specifieke gebiedselementen met inbegrip van de schema&#39;s van de Gegevens van de Ervaring (XDM), de attributen van het Profiel, en publiek te verlenen.
 
 Voor een meer gedetailleerde lijst van de gebruikte terminologie met ABAC, verwijs naar [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/overview.html).
 
@@ -90,7 +90,7 @@ De gebruikers in de **Beperkte rol demografische** De rol heeft nu toegang tot d
 **[!UICONTROL Labels]** kan worden gebruikt om specifieke eigenschapgebieden toe te wijzen gebruikend op Attributen-Gebaseerd toegangsbeheer.
 In dit voorbeeld willen wij de toegang tot **Nationaliteit** veld. Dit veld is alleen toegankelijk voor gebruikers met de bijbehorende **[!UICONTROL Label]** hun  **[!UICONTROL Role]**.
 
-U kunt ook toevoegen  **[!UICONTROL Label]** tot  **[!UICONTROL Schema]**,  **[!UICONTROL Datasets]** en  **[!UICONTROL Segments]**.
+U kunt ook toevoegen  **[!UICONTROL Label]** tot  **[!UICONTROL Schema]**,  **[!UICONTROL Datasets]** en  **[!UICONTROL Audiences]**.
 
 1. Maak uw **[!UICONTROL Schema]**. Raadpleeg voor meer informatie hierover [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html).
 

@@ -9,7 +9,7 @@ role: Admin,Developer
 level: Intermediate
 keywords: campagne, acc, integratie
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de
 
 ## Belangrijke opmerkingen {#important-notes}
 
-* Er is geen vertraging van berichten. Het systeem kapt het aantal berichten die over aan 4000 per 5 minuten kunnen worden verzonden, die op huidige Campagne SLA worden gebaseerd. Daarom mag Journey Optimizer alleen worden gebruikt in gevallen van eenmalig gebruik (individuele gebeurtenissen, niet segmenten).
+* Er is geen vertraging van berichten. Het systeem kapt het aantal berichten die over aan 4000 per 5 minuten kunnen worden verzonden, die op huidige Campagne SLA worden gebaseerd. Om deze reden dient Journey Optimizer alleen te worden gebruikt in gevallen van eenmalig gebruik (individuele gebeurtenissen, niet het publiek).
 
 * U moet één actie op het canvas per malplaatje vormen u wenst te gebruiken. U moet één actie in Journey Optimizer voor elke malplaatje vormen u om van Adobe Campaign wenst te gebruiken.
 
@@ -41,7 +41,7 @@ Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de
 
 * Er is geen bevestiging dat de lading of het bericht van de Campagne correct is.
 
-* U kunt geen actie van de Campagne met een gebeurtenis van de segmentkwalificatie gebruiken.
+* U kunt een Campagne-actie niet gebruiken met een kwalificatiegebeurtenis voor het publiek.
 
 ## Vereisten {#prerequisites}
 

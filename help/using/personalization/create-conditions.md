@@ -9,16 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, voorwaardelijk, regels
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '582'
 ht-degree: 1%
 
 ---
 
 # Werken met voorwaardelijke regels {#conditions}
 
-Voorwaardelijke regels zijn sets regels die bepalen welke inhoud in uw berichten moet worden weergegeven, afhankelijk van verschillende criteria zoals de kenmerken van profielen, segmentlidmaatschap of contextuele gebeurtenissen.
+Voorwaardelijke regels zijn regels die bepalen welke inhoud in uw berichten moet worden weergegeven, afhankelijk van verschillende criteria zoals de kenmerken van profielen, het lidmaatschap van het publiek of contextuele gebeurtenissen.
 
 Voorwaardelijke regels worden gecreeerd gebruikend de uitdrukkingsredacteur en kunnen worden opgeslagen als u hen over uw inhoud wilt opnieuw gebruiken. [Leer hoe u een voorwaardelijke regel opslaat in de bibliotheek](#save)
 
@@ -32,11 +32,11 @@ Voorwaardelijke regels worden gemaakt op basis van de **[!UICONTROL Conditions]*
 
 * Vanuit de e-mailontwerper, bij het inschakelen van dynamische inhoud voor een component in de hoofdtekst van de e-mail. [Leer hoe u dynamische inhoud toevoegt aan e-mails](dynamic-content.md#emails)
 
-   ![](assets/conditions-access-email.png)
+  ![](assets/conditions-access-email.png)
 
 * Op elk gebied waar u verpersoonlijking kunt toevoegen gebruikend [Expressieeditor](personalization-build-expressions.md).
 
-   ![](assets/conditions-access-editor.png)
+  ![](assets/conditions-access-editor.png)
 
 ## Een voorwaardelijke regel maken {#create-condition}
 
@@ -56,17 +56,17 @@ De stappen voor het maken van een voorwaardelijke regel zijn als volgt:
 
 1. Bouw de voorwaardelijke regel volgens uw behoeften. U doet dit door de gewenste kenmerken vanuit het linkermenu naar het canvas te slepen en neer te zetten.
 
-   De stappen om kenmerken in het canvas te combineren zijn gelijkaardig aan de ervaring van het segmentbouwen. Voor meer informatie over hoe te met het canvas van de regelbouwer te werken, verwijs naar [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
+   De stappen om attributen in het canvas te combineren zijn gelijkaardig aan de segmentdefinitie bouwend ervaring. Voor meer informatie over hoe te met het canvas van de regelbouwer te werken, verwijs naar [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#rule-builder-canvas).
 
    ![](assets/conditions-create.png)
 
    De kenmerken zijn ingedeeld in drie tabbladen:
 
    * **[!UICONTROL Profile]**:
-      * **[!UICONTROL Segment Membership]** geeft alle segmentkenmerken weer (bijvoorbeeld status, versie enz.) for [Adobe Experience Platform Segmentation-service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
+      * **[!UICONTROL Audiences]** geeft alle publiekskenmerken weer (bijvoorbeeld status, versie enz.) for [Adobe Experience Platform Segmentation-service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
       * **[!UICONTROL XDM Individual profiles]** Hiermee worden alle profielkenmerken weergegeven die zijn gekoppeld aan de [XDM-schema (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) gedefinieerd in Adobe Experience Platform.
    * **[!UICONTROL Contextual]**: wanneer uw bericht in een reis wordt gebruikt, zijn de contextuele reisgebieden beschikbaar door dit lusje.
-   * **[!UICONTROL Audiences]**: geeft een overzicht van alle soorten publiek die worden gegenereerd op basis van segmenten die zijn gemaakt in [Adobe Experience Platform Segmentation-service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+   * **[!UICONTROL Audiences]**: maakt een lijst van alle publiek dat van segmentdefinities wordt geproduceerd in [Adobe Experience Platform Segmentation-service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 1. Zodra uw voorwaardelijke regel klaar is, kunt u deze aan uw bericht toevoegen om dynamische inhoud te maken. [Leer hoe u dynamische inhoud toevoegt](dynamic-content.md)
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1458'
 ht-degree: 2%
 
 ---
@@ -26,10 +26,6 @@ Zorg ervoor dat de gebieden die in uw vragen worden gebruikt waarden in het over
 * id: uniek voor alle items van de step-gebeurtenis. Twee verschillende step-gebeurtenissen kunnen niet dezelfde id hebben.
 * instanceId: instanceID is het zelfde voor alle step gebeurtenissen verbonden aan een profiel binnen een reis uitvoering. Als een profiel de reis opnieuw ingaat, zal een verschillend instanceId worden gebruikt. Deze nieuwe instanceId zal voor alle step gebeurtenissen van de opnieuw ingegaan instantie (van begin tot eind) hetzelfde zijn.
 * profileID: de identiteit van het profiel die overeenkomt met de naamruimte van de reis.
-
->[!NOTE]
->
->Voor het oplossen van problemendoeleinden, adviseren wij gebruikend tripVersionID in plaats van tripVersionName wanneer het vragen van reizen.
 
 ## Basis gebruiksgevallen/gemeenschappelijke vragen {#common-queries}
 
@@ -429,11 +425,11 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-De vraag resteert, voor de bepaalde periode, het aantal profielen dat de reis elke dag inging. Als een profiel wordt ingevoerd via meerdere identiteiten, wordt het twee keer geteld. Als terugkeer wordt toegelaten, zou het profielaantal over verschillende dagen kunnen worden gedupliceerd als het de reis op verschillende dag opnieuw inging.
+De vraag keert, voor de bepaalde periode, het aantal profielen terug dat de reis elke dag inging. Als een profiel wordt ingevoerd via meerdere identiteiten, wordt het twee keer geteld. Als terugkeer wordt toegelaten, zou het profielaantal over verschillende dagen kunnen worden gedupliceerd als het de reis op verschillende dag opnieuw inging.
 
-## Vragen met betrekking tot het leessegment {#read-segment-queries}
+## Vragen over het leespubliek {#read-segment-queries}
 
-**Tijd die nodig is om een segmentexporttaak te voltooien**
+**Tijd die nodig is om een doelexporttaak te voltooien**
 
 _Gegevens Meer query_
 
@@ -463,7 +459,7 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
-De vraag keert het tijdverschil, in notulen, tussen terug wanneer de baan van de segmentuitvoer een rij werd gevormd en toen het definitief eindigde.
+De vraag keert het tijdverschil, in notulen, tussen terug wanneer de publiek uitvoerbaan een rij werd gevormd en wanneer het definitief eindigde.
 
 **Aantal profielen dat tijdens de rit is verwijderd omdat het dubbele profielen waren**
 
@@ -575,7 +571,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 De vraag keert alle profielID terug die door de reis wegens één of andere interne fout werden verworpen.
 
-**Overzicht van het Leessegment voor een bepaalde reisversie**
+**Overzicht van het leespubliek voor een bepaalde reisversie**
 
 _Gegevens Meer query_
 
@@ -604,7 +600,7 @@ Het zal alle de dienstgebeurtenissen terugkeren met betrekking tot de bepaalde r
 
 We kunnen ook problemen ontdekken zoals:
 
-* fouten in onderwerp of de verwezenlijking van de uitvoerbaan (met inbegrip van onderbrekingen op de vraag van de segmentuitvoer API)
+* fouten in onderwerp of de schepping van de uitvoerbaan (met inbegrip van onderbrekingen op de vraag van de publieksuitvoer API)
 * exportbanen die kunnen worden vastgezet (als voor een bepaalde reisversie geen enkele gebeurtenis over de beëindiging van exporttaken heeft)
 * problemen met workers als we een gebeurtenis voor het beëindigen van exporttaken hebben ontvangen, maar geen eindversie voor verwerking door worker één
 
@@ -613,7 +609,7 @@ BELANGRIJK: als er geen gebeurtenis is die door deze vraag is teruggekeerd, kan 
 * de reisversie heeft het schema niet bereikt
 * als de reisversie de uitvoerbaan zou hebben veroorzaakt door het orkest aan te roepen , ging er iets mis op de upstram flow : kwestie op reis plaatsing, bedrijfsgebeurtenis of kwestie met planner.
 
-**Fouten met leessegmenten ophalen voor een bepaalde reisversie**
+**Ontvang leesfouten voor een bepaalde reisversie**
 
 _Gegevens Meer query_
 
@@ -728,7 +724,7 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**Hiermee krijgt u geaggregeerde metriek (segmentexporttaken en verwijderde gegevens) voor alle exporttaken**
+**Hiermee krijgt u geaggregeerde metriek (doelgroepen, exporttaken en verwijderde bestanden) voor alle exporttaken**
 
 _Gegevens Meer query_
 
@@ -791,9 +787,9 @@ Deze query is anders dan de vorige.
 
 Het keert de algemene metriek voor een bepaalde reisversie terug, ongeacht de banen die voor het kunnen lopen (in het geval van terugkerende reizen, teweeggebrachte bedrijfsgebeurtenissen degenen die onderwerphergebruik leveraging).
 
-## Vragen in verband met segmentkwalificatie {#segment-qualification-queries}
+## Vragen in verband met de kwalificatie van het publiek {#segment-qualification-queries}
 
-**Profiel dat is verwijderd vanwege een andere segmentrealisatie dan geconfigureerd**
+**Profiel dat is verwijderd vanwege een andere publieksrealisatie dan geconfigureerd**
 
 _Gegevens Meer query_
 
@@ -815,9 +811,9 @@ _experience.journeyOrchestration.journey.versionID = 'a868f3c9-4888-46ac-a274-94
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEGMENT_REALISATION_CONDITION_MISMATCH'
 ```
 
-Deze vraag keert alle profielID terug die door de reisversie wegens verkeerde segmentverwezenlijking werden verworpen.
+Deze vraag keert alle profielID terug die door de reisversie wegens verkeerde publieksrealisatie werden verworpen.
 
-**De gebeurtenissen van de Kwalificatie van het segment die door een andere reden voor een specifiek profiel worden verworpen**
+**De gebeurtenissen van de Kwalificatie van het publiek die door een andere reden voor een specifiek profiel worden verworpen**
 
 _Gegevens Meer query_
 
@@ -841,7 +837,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-Deze query retourneert alle gebeurtenissen (externe gebeurtenissen/segmentkwalificatiegebeurtenissen) die vanwege een andere reden voor een profiel zijn genegeerd.
+Deze query retourneert alle gebeurtenissen (externe gebeurtenissen/kwalificatiegebeurtenissen voor het publiek) die vanwege een andere reden voor een profiel zijn genegeerd.
 
 ## Op gebeurtenissen gebaseerde query&#39;s {#event-based-queries}
 

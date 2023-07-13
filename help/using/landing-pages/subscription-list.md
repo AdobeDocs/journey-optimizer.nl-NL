@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landen, landingspagina, lijst, abonnement, service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 4%
@@ -76,7 +76,7 @@ De mogelijke status is als volgt:
 
 Zodra de abonnementenlijst wordt gecreeerd, kunt u het in een het landen pagina gebruiken. De profielen die zich aanmelden via het formulier voor de landingspagina worden toegevoegd aan de lijst. [Meer informatie](design-lp.md)
 
-U kunt abonnementlijsten ook als segmenten gebruiken wanneer [trajecten](../building-journeys/journey-gs.md#jo-build) en personalisatie toevoegen.
+U kunt abonnementenlijsten ook als publiek gebruiken wanneer [trajecten](../building-journeys/journey-gs.md#jo-build) en personalisatie toevoegen.
 
 >[!NOTE]
 >

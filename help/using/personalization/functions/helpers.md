@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 22752a30fef53808fa9deb80a2053d5bc22abc95
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '363'
 ht-degree: 3%
 
 ---
@@ -94,7 +94,7 @@ De `elseif` De instructie geeft een nieuwe voorwaarde op die moet worden getest 
    {%/if%}
    ```
 
-1. **Voorwaardelijke inhoud gebaseerd op segmentlidmaatschap**
+1. **Voorwaardelijke inhoud op basis van publiekslidmaatschap**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -106,7 +106,7 @@ De `elseif` De instructie geeft een nieuwe voorwaarde op die moet worden getest 
 
 >[!NOTE]
 >
->Meer over segmentatie en segmentatie de dienst leren, verwijs naar dit [sectie](../../segment/about-segments.md).
+>Meer over publiek en de segmentatieservice leren, verwijs naar dit [sectie](../../audience/about-audiences.md).
 
 
 ## Tenzij{#unless}

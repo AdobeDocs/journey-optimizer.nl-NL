@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expression editor, data, trip
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 79%
@@ -51,7 +51,7 @@ U kunt de geavanceerde expressie-editor op verschillende manieren openen:
 
 * Wanneer u een databronvoorwaarde maakt, kunt u de geavanceerde editor openen door te klikken op **[!UICONTROL Advanced mode]**.
 
-   ![](../assets/journeyuc2_33.png)
+  ![](../assets/journeyuc2_33.png)
 
 * Wanneer u een aangepaste timer maakt, wordt de geavanceerde editor direct weergegeven.
 * Wanneer u een actieparameter toewijst, klikt u op **[!UICONTROL Advanced mode]**.
@@ -65,7 +65,7 @@ In dit scherm kunt u uw expressie handmatig schrijven.
 Links in het scherm worden de beschikbare velden en functies weergegeven:
 
 * **[!UICONTROL Events]**: kies een van de velden die worden ontvangen van de binnenkomende gebeurtenis. De weergegeven lijst met gebeurtenisvelden is contextafhankelijk en varieert al naar gelang de gebeurtenissen die tijdens de journey worden toegevoegd. [Meer informatie](../../event/about-events.md)
-* **[!UICONTROL Segments]**: als u een **[!UICONTROL Segment qualification]** kiest u het segment dat u in uw expressie wilt gebruiken. [Meer informatie](../condition-activity.md#using-a-segment)
+* **[!UICONTROL Audiences]**: als u een **[!UICONTROL Audience qualification]** kiest u het publiek dat u in uw expressie wilt gebruiken. [Meer informatie](../condition-activity.md#using-a-segment)
 * **[!UICONTROL Data Sources]**: kies uit de lijst met velden die beschikbaar zijn in de veldengroepen van uw databronnen. [Meer informatie](../../datasource/about-data-sources.md)
 * **[!UICONTROL Journey properties]**: in dit deel worden de technische gebieden die verband houden met de reis voor een bepaald profiel gegroepeerd . [Meer informatie](journey-properties.md)
 * **[!UICONTROL Functions]**: kies uit de lijst met ingebouwde functies die complexe filtering mogelijk maken. Functies zijn ingedeeld in categorieën. [Meer informatie](functions.md)

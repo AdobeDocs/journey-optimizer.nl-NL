@@ -7,7 +7,7 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 2%
@@ -123,7 +123,7 @@ Configuratievenster van deze elementen:
   <tr>
     <td>
 
-Een gebeurtenis activeren in een op segmenten gebaseerde reis waarvoor de **[!UICONTROL Single profile at a time]** optie is ingeschakeld
+Een gebeurtenis activeren in een op het publiek gebaseerde reis waarvoor de **[!UICONTROL Single profile at a time]** optie is ingeschakeld
 
 </td>
     <td>P</td>

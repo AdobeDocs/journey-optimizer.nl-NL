@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 4%
@@ -38,6 +38,7 @@ Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken o
    ![](assets/push_preview_3.png)
 
 ## Uw pushmelding valideren {#push-validate}
+
 
 U moet alarm in de hogere sectie van de redacteur controleren. Sommige zijn eenvoudige waarschuwingen, maar andere kunnen u verhinderen het bericht te verzenden. Er kunnen twee typen waarschuwingen optreden: waarschuwingen en fouten.
 

@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, syntaxis, personalisatie
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '735'
 ht-degree: 3%
 
 ---
@@ -76,12 +76,12 @@ De attributen moeten in het schema worden bepaald alvorens in a wordt van verwij
 
 `{{profile.faxPhone.number}}`
 
-## Segmenten{#perso-segments}
+## Doelgroepen{#perso-segments}
 
 Leer hoe u onder de volgende omstandigheden profielkenmerken kunt gebruiken [deze sectie](functions/helpers.md#if-function).
 
 >[!NOTE]
->Voor meer informatie over segmentatie en segmentatieservice raadpleegt u [deze sectie](../segment/about-segments.md).
+>Meer over de segmentatieservice leren, verwijs naar [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
 
 ## Aanbiedingen {#offers-syntax}
 
@@ -107,19 +107,19 @@ Alle verwijzingen worden bevestigd tegen het Schema van Aanbiedingen met een bev
 
 * Locatie waar de afbeelding wordt gehost:
 
-   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
+  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].deliveryUrl`
 
 * Doel-URL wanneer u op de afbeelding klikt:
 
-   `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
+  `offers.image.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].linkUrl`
 
 * Tekstinhoud van het aanbod afkomstig van de beslissingsengine:
 
-   `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+  `offers.text.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 * HTML inhoud van het aanbod afkomstig van de beslissingsmotor:
 
-   `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
+  `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
 
 ## Helpers{#helpers-all}
@@ -134,6 +134,7 @@ Blokken zijn expressies met een blokopening ({{# }}) and closing ({{/}}).
 >[!NOTE]
 >
 >Helperfuncties worden beschreven in [deze sectie](functions/helpers.md).
+>
 
 ## Letterlijke typen {#literal-types}
 
@@ -163,7 +164,8 @@ Met Journey Optimizer kunt u een of meer URL&#39;s in uw bericht aanpassen door 
 
 >[!NOTE]
 >
->In de uitdrukkingsredacteur, wanneer u een gepersonaliseerde URL uitgeeft, zijn de hulpfuncties en segmentlidmaatschap om veiligheidsredenen gehandicapt.
+>Wanneer u in de expressieeditor een gepersonaliseerde URL bewerkt, zijn hulpfuncties en het lidmaatschap van het publiek uit veiligheidsoverwegingen uitgeschakeld.
+>
 
 **Voorbeeld van gepersonaliseerde URL&#39;s**
 

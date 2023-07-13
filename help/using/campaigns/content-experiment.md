@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 382aa7089a84a9c4e0d37800ae77a53918c380f2
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 1%
@@ -57,7 +57,7 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 -->
 1. Selecteer vervolgens het kanaal **[!UICONTROL Surface]** wilt gebruiken voor deze levering en klikt u op **[!UICONTROL Create]**. Raadpleeg voor meer informatie de [Kanaaloppervlakken](../configuration/channel-surfaces.md) pagina.
 
-   In dit voorbeeld kiezen we ervoor een campagne te verzenden met e-mails.
+   In dit voorbeeld kiezen we ervoor om een campagne te verzenden met e-mails.
 
    ![](assets/content_experiment_2.png)
 
@@ -65,9 +65,9 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
    * **[!UICONTROL Name]**
    * **[!UICONTROL Description]**
 
-1. Bepaal het publiek om te richten. Om dit te doen, klik **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-segmenten weer te geven. [Meer informatie over segmenten](../segment/about-segments.md)
+1. Bepaal het publiek om te richten. Om dit te doen, klik **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-doelgroepen weer te geven. [Meer informatie over publiek](../audience/about-audiences.md)
 
-   In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren. [Meer informatie](get-started-experiment.md#content-experiment-work)
+   In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde publiek te identificeren. [Meer informatie](get-started-experiment.md#content-experiment-work)
 
    ![](assets/content_experiment_16.png)
 

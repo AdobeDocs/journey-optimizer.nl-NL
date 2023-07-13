@@ -7,11 +7,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: reis, eerste, begin, snel-begin, segment, gebeurtenis, actie
+keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1495'
 ht-degree: 9%
 
 ---
@@ -26,7 +26,7 @@ Voor het verzenden van berichten met ritten zijn de volgende configuraties verei
 
    ![](assets/jo-event7bis.png)
 
-1. **Een segment maken**: uw reis kan ook naar Adobe Experience Platform segmenten luisteren om berichten in partij naar een gespecificeerde reeks profielen te verzenden. Hiervoor moet u segmenten maken. [Meer informatie](../segment/about-segments.md).
+1. **Een publiek maken**: uw reis kan ook naar Adobe Experience Platform-publiek luisteren om berichten in batch naar een bepaalde reeks profielen te verzenden. Hiervoor moet u een publiek maken. [Meer informatie](../audience/about-audiences.md).
 
    ![](assets/segment2.png)
 
@@ -45,7 +45,7 @@ Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]**. Er zijn t
 **Overzicht**: op dit tabblad wordt een dashboard weergegeven met de belangrijkste maatstaven voor uw reizen:
 
 * **Profielen verwerkt**: totaal aantal profielen dat in de afgelopen 24 uur is verwerkt
-* **Levende reizen**: totaal aantal rechtstreekse reizen met verkeer in de afgelopen 24 uur. Levende reizen omvatten **Eenheidstreizen** (op basis van gebeurtenissen) en **Batchreizen** (lees segment).
+* **Levende reizen**: totaal aantal rechtstreekse reizen met verkeer in de afgelopen 24 uur. Levende reizen omvatten **Eenheidstreizen** (op basis van gebeurtenissen) en **Batchreizen** (lees publiek).
 * **Foutfrequentie**: verhouding tussen alle profielen die fout zijn, en het totale aantal profielen dat in de afgelopen 24 uur is ingevoerd.
 * **Percentage negeren**: verhouding tussen alle genegeerde profielen en het totale aantal profielen dat in de afgelopen 24 uur is ingevoerd. Een weggegooid profiel vertegenwoordigt iemand die niet in aanmerking komt om de reis binnen te gaan, bijvoorbeeld vanwege een onjuiste naamruimte of vanwege regels voor opnieuw betreden.
 
@@ -59,7 +59,7 @@ Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]**. Er zijn t
 
 ![](assets/journeys-browse.png)
 
-In de lijst met ritten kunt u de ritten filteren op basis van hun status, type en versie van de **[!UICONTROL Status and version filters]**. Het type kan zijn: **[!UICONTROL Unitary event]**, **[!UICONTROL Segment qualification]**, **[!UICONTROL Read segment]** of **[!UICONTROL Business event]**.
+In de lijst met ritten kunt u de ritten filteren op basis van hun status, type en versie van de **[!UICONTROL Status and version filters]**. Het type kan zijn: **[!UICONTROL Unitary event]**, **[!UICONTROL Audience qualification]**, **[!UICONTROL Read audience]**, **[!UICONTROL Business event]** of **[!UICONTROL Burst]**.
 
 U kunt ervoor kiezen alleen reizen weer te geven die een specifieke gebeurtenis, veldgroep of handeling uit de **[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]**. Daarnaast worden de **[!UICONTROL Publication filters]** Hiermee kunt u een publicatiedatum of een gebruiker selecteren. U kunt bijvoorbeeld kiezen of u de nieuwste versies wilt weergeven van live reizen die gisteren zijn gepubliceerd. [Meer informatie](../building-journeys/using-the-journey-designer.md).
 
@@ -88,7 +88,7 @@ Hier volgen de belangrijkste stappen voor het verzenden van berichten via reizen
 
    ![](assets/jo-properties.png)
 
-1. Begin door een gebeurtenis of een **Segment lezen** van het palet naar het canvas. Raadpleeg voor meer informatie over het ontwerpen van reizen de [deze sectie](using-the-journey-designer.md).
+1. Begin door een gebeurtenis of een **Publiek lezen** van het palet naar het canvas. Raadpleeg voor meer informatie over het ontwerpen van reizen de [deze sectie](using-the-journey-designer.md).
 
    ![](assets/read-segment.png)
 
@@ -125,7 +125,7 @@ De **Technische details kopiëren** staat u toe om technische informatie over de
 
 Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de controle van **Opnieuw openen toestaan** optie voor &quot;één enkele schot&quot;reizen, bijvoorbeeld als u een eenmalig geschenk wilt aanbieden wanneer een persoon een winkel ingaat.
 
-Wanneer de **Opnieuw openen toestaan** -optie is geactiveerd, de **Wachttijd bij terugkeer** wordt weergegeven. In dit veld kunt u de tijd definiëren die u moet wachten voordat een profiel de reis weer in één keer kan betreden (te beginnen met een gebeurtenis of een segmentkwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten.
+Wanneer de **Opnieuw openen toestaan** -optie is geactiveerd, de **Wachttijd bij terugkeer** wordt weergegeven. In dit veld kunt u de tijd definiëren die u moet wachten voordat u een profiel toestaat om de reis opnieuw te betreden tijdens een enkele reis (te beginnen met een evenement of een publiekskwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten.
 
 Meer informatie over toegangsbeheer voor profielen vindt u in [deze sectie](entry-management.md).
 
@@ -149,11 +149,11 @@ Zie voor meer informatie over tijdzonebeheer [deze pagina](../building-journeys/
 
 U kunt een **Begindatum**. Als u er geen hebt opgegeven, wordt deze automatisch gedefinieerd op het moment van publicatie.
 
-U kunt ook een **Einddatum**. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. Als u geen einddatum opgeeft, kunnen profielen blijven tot de standaardreistime-out (doorgaans 30 dagen, 7 dagen met de invoegtoepassing voor het gezondheidsschild). De enige uitzondering is terugkerende read-segment reizen met **Herkomst forceren bij herhaling** geactiveerd, die eindigt op de begindatum van het volgende exemplaar.
+U kunt ook een **Einddatum**. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. Als u geen einddatum opgeeft, kunnen profielen blijven tot de standaardreistime-out (doorgaans 30 dagen, 7 dagen met de invoegtoepassing voor het gezondheidsschild). De enige uitzondering is terugkerende publiekstrajecten met **Herkomst forceren bij herhaling** geactiveerd, die eindigt op de begindatum van het volgende exemplaar.
 
 ### Tijdslimiet en fout bij reisactiviteiten {#timeout_and_error}
 
-Wanneer u een actie of voorwaardenactiviteit bewerkt, kunt u een alternatief pad opgeven in het geval van een fout of time-out. Als de verwerking van de activiteit, die het vragen van een derdesysteem impliceert, de duur overschrijdt die in de eigenschappen van de reis voor onderbreking en fout behandeling wordt gespecificeerd (**[!UICONTROL Timeout and  error]** (veld), wordt het tweede pad geselecteerd om indien nodig een fallback-actie uit te voeren.
+Wanneer u een actie of voorwaardenactiviteit bewerkt, kunt u een alternatief pad definiëren in het geval van een fout of time-out. Indien de verwerking van de activiteit die een derdenstelsel ondervraagt, langer duurt dan de in de eigendommen van de reis vastgestelde tijdsduur (**[!UICONTROL Timeout and  error]** (veld), wordt het tweede pad gekozen om een mogelijke fallback-actie uit te voeren.
 
 Toegestane waarden liggen tussen 1 en 30 seconden.
 

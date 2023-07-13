@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: aangepast, algemeen, evenementen, reizen
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Voor dit type gebeurtenis kunt u alleen een label en een beschrijving toevoegen.
 
 ![](assets/general-events.png)
 
-Wanneer u een bedrijfsgebeurtenis neerzet, wordt automatisch een **Segment lezen** activiteit. Voor meer informatie over bedrijfsgebeurtenissen, verwijs naar [deze sectie](../event/about-events.md)
+Wanneer u een bedrijfsgebeurtenis neerzet, wordt automatisch een **Publiek lezen** activiteit. Voor meer informatie over bedrijfsgebeurtenissen, verwijs naar [deze sectie](../event/about-events.md)
 
 ## Luisteren naar gebeurtenissen tijdens een bepaald tijdstip {#events-specific-time}
 

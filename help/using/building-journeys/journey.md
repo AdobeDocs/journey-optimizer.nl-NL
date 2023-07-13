@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: reis, ontdek, begin
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: c235e7cd77e50a15a12f6ed14e51ca4185ecb7c2
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -22,13 +22,13 @@ Gebruiken [!DNL Journey Optimizer] gebruiken voor het maken van realtime-formuli
 
 Ontwerp multistep geavanceerde scenario&#39;s aangedreven door de volgende mogelijkheden:
 
-* In real time verzenden **unitaire levering** geactiveerd wanneer een gebeurtenis wordt ontvangen, of **in batch** Adobe Experience Platform-segmenten gebruiken.
+* In real time verzenden **unitaire levering** geactiveerd wanneer een gebeurtenis wordt ontvangen, of **in batch** met Adobe Experience Platform-publiek.
 
 * Hefboomwerking **contextafhankelijke gegevens** uit gebeurtenissen, informatie van Adobe Experience Platform of gegevens van externe API-services.
 
 * Gebruik de **ingebouwde handelingen** om berichten te verzenden die zijn ontworpen in [!DNL Journey Optimizer] of maak **aangepaste handelingen** als u een systeem van derden gebruikt om uw berichten te verzenden.
 
-* Met de **reisontwerper**, maak uw meerstapse gebruiksscenario&#39;s: U kunt eenvoudig een entry-gebeurtenis of een lezen-segmentactiviteit slepen en neerzetten, voorwaarden toevoegen en gepersonaliseerde berichten verzenden.
+* Met de **reisontwerper**, maak uw meerstapse gebruiksscenario&#39;s: U kunt eenvoudig een entry-gebeurtenis of een lezen-publieksactiviteit slepen en neerzetten, voorwaarden toevoegen en gepersonaliseerde berichten verzenden.
 
 
 >[!NOTE]
@@ -47,7 +47,7 @@ Adobe Journey Optimizer bevat een omnichannel orchestration canvas dat marketers
 
 Leer hoe u begint en uw eerste reis maakt in [deze pagina](journey-gs.md).
 
-De omnichannel reisontwerper helpt u bij het maken van meerstapse reizen, die specifiek gericht zijn op het publiek, en het opnemen van updates die op klanten of bedrijfsinteractie in real time worden gebaseerd. U kunt er ook omnichannel berichten mee maken via een intuïtieve interface voor slepen en neerzetten.
+De omnichannel reisontwerper helpt u multi-step reizen met gericht publiek, updates bouwen die op klanten of bedrijfsinteractie in real time worden gebaseerd, en omnichannel berichten gebruikend een intuïtieve belemmering-en-dalingsinterface.
 
 ![](assets/journey38.png)
 
@@ -82,7 +82,7 @@ Wanneer u een reis zoekt, verschijnen de nieuwste versies bij de eerste keer dat
 
 >[!NOTE]
 >
->Gewoonlijk kan een profiel niet meerdere keren op dezelfde reis tegelijk aanwezig zijn. Als re-entry wordt toegelaten, kan een profiel een reis opnieuw ingaan, maar kan het niet doen tot zij dat vorige geval van de reis volledig verlaten. [Meer informatie](end-journey.md).
+>Gewoonlijk kan een profiel niet meerdere keren op dezelfde reis tegelijk aanwezig zijn. Als de terugkeer wordt toegelaten, kan een profiel een reis opnieuw ingaan, maar kan het niet doen tot hij dat vorige geval van de reis volledig verliet. [Meer informatie](end-journey.md).
 
 Als u zich aan een levende reis moet aanpassen, creeer een nieuwe versie van uw reis.
 

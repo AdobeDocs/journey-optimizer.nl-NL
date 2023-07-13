@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: e3628950dbc59b6f2570245651e79b4e203b75c3
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '314'
 ht-degree: 2%
 
 ---
@@ -57,10 +57,6 @@ Ga als volgt te werk om een verzameling te maken:
    >Statische verzamelingen worden niet automatisch bijgewerkt. Als u aanbiedingen wilt toevoegen aan een statische verzameling, moet u deze bewerken en handmatig toevoegen.
 
 1. Als u aangepaste of basislabels voor gegevensgebruik wilt toewijzen aan een statische verzameling, selecteert u **[!UICONTROL Manage access]**. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../../administration/object-based-access.md)
-
-   >[!NOTE]
-   >
-   >Het gebruik van OLAC is niet beschikbaar voor dynamische inzamelingen. Het moet op het niveau van de aanbiedingen worden beheerd. Daarom is het mogelijk dat u geen aanbiedingen in een dynamische verzameling ziet als u geen toegang hebt tot een van deze aanbiedingen.
 
 1. Zodra de inzameling wordt gecreeerd, toont het in de lijst. U kunt het selecteren om het uit te geven of te schrappen.
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 12%
@@ -59,12 +59,12 @@ Deze mix bevat alle velden die overeenkomen met een profielexporttaak.
 
 | Veldnaam | Type | Beschrijving |
 |---|---|------------|
-| Id | Tekenreeks | De id van de getriggerde segmentexporttaak |
-| status | Tekenreeks | De status van de segmentexporttaak: in de wachtrij, gestart, voltooid |
-| exportCountTotal | Geheel | De maximaal mogelijke waarde van de segmentexporttaak |
-| exportCountRealized | Geheel | Het werkelijke aantal segmenten dat via de taak is geëxporteerd |
-| exportCountFailed | Geheel | Het aantal segmenten is mislukt tijdens het exporteren via de taak |
-| exportSegmentID | Tekenreeks | De id van het segment dat wordt geëxporteerd |
+| Id | Tekenreeks | De id van de doelexporttaak die wordt geactiveerd |
+| status | Tekenreeks | De status van de doelexporttaak: in de wachtrij, gestart, voltooid |
+| exportCountTotal | Geheel | De maximaal mogelijke waarde van de doelexporttaak |
+| exportCountRealized | Geheel | Het werkelijke aantal soorten publiek dat via de taak is geëxporteerd |
+| exportCountFailed | Geheel | Het aantal doelgroepen is mislukt tijdens het exporteren via de taak |
+| exportSegmentID | Tekenreeks | De id van het publiek dat wordt geëxporteerd |
 | eventType | Tekenreeks | Het gebeurtenistype dat aangeeft of het een foutgebeurtenis van een info-gebeurtenis is: Info, fout |
 | eventCode | Tekenreeks | De foutcode die de reden voor het overeenkomende eventType aangeeft |
 

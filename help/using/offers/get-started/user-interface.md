@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: b5fa17bfc888236994e73474c35b1aaafcda3ebe
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Gebruik de **[!UICONTROL Offers]** menu voor het beheren en leveren van uw aanbi
 * **[!UICONTROL Offers]**: Maak en open uw persoonlijke en fallback-aanbiedingen. Leer hoe u creeert [aanbiedingen](../offer-library/creating-personalized-offers.md) en [fallbackaanbiedingen](../offer-library/creating-fallback-offers.md)
 * **[!UICONTROL Collections]**: Organiseer uw aanbiedingen in statische en dynamische verzamelingen. [Meer informatie](../offer-library/creating-collections.md)
 * **[!UICONTROL Decisions]**: Beslissingen maken en beheren om uw aanbiedingen te leveren. [Meer informatie](../offer-activities/create-offer-activities.md)
-* **[!UICONTROL Batch decisioning]**: Besluiten over aanbiedingen voor alle profielen in een bepaald Adobe Experience Platform-segment. [Meer informatie](../batch-delivery.md)
+* **[!UICONTROL Batch decisioning]**: Beslissingen aanbieden aan alle profielen in een bepaald Adobe Experience Platform-publiek. [Meer informatie](../batch-delivery.md)
 * **[!UICONTROL Simulation]**: Valideer uw besluitvormingslogica door te simuleren welke aanbiedingen aan een testprofiel voor een bepaalde plaatsing zullen worden geleverd. [Meer informatie](../offer-activities/simulation.md)
 
 Gebruik de **[!UICONTROL Components]** menu om componenten te maken en te beheren die nodig zijn om aanbiedingen en beslissingen te maken:

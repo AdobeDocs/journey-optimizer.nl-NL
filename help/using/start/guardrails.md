@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4c29bb1fbbf2c67d04fcd73076be456323eddc7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,6 @@ Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in 
 ### Algemene reisgeleiders {#journeys-guardrails-journeys}
 
 * Het aantal activiteiten op een reis is beperkt tot 50. Het aantal activiteiten wordt weergegeven in de linkerbovensectie van het reiscanvas. Dit zal helpen in leesbaarheid, QA en het oplossen van problemen.
-* Tijdens het publiceren van reizen worden de schaal en de stabiliteit automatisch aangepast om een maximale doorvoer en stabiliteit te garanderen. Aangezien u dichtbij de mijlpaal van 100 levende reizen in één keer, zult u een bericht over deze verwezenlijking zien verschijnen in UI. Als u deze melding ziet en uw reizen moet verlengen tot meer dan 100 rechtstreekse reizen tegelijk, maak dan een ticket voor de klantenservice en wij helpen u uw doelstellingen te bereiken.
 
 ### Algemene acties {#general-actions-g}
 
@@ -53,16 +52,16 @@ Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in 
 * In het geval van een fout worden drie pogingen systematisch opnieuw uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht.
 * De ingebouwde **Reactie** kunt u reageren op acties die buiten de box vallen. Meer informatie in [deze pagina](../building-journeys/reaction-events.md). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen.
 * U kunt geen twee acties parallel plaatsen, u moet hen één na andere toevoegen.
-* Een profiel kan niet meerdere keren op dezelfde reis tegelijk aanwezig zijn. Als de terugkeer wordt toegelaten, kan een profiel een reis opnieuw ingaan, maar kan het niet doen tot hij dat vorige geval van de reis volledig verliet. [Meer informatie](../building-journeys/end-journey.md)
+* Gewoonlijk kan een profiel niet meerdere keren op dezelfde reis tegelijk aanwezig zijn. Als de terugkeer wordt toegelaten, kan een profiel een reis opnieuw ingaan, maar kan het niet doen tot hij dat vorige geval van de reis volledig verliet. [Meer informatie](../building-journeys/end-journey.md)
 
 ### Journeyversies {#journey-versions-g}
 
-* Een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis beginnen met een **Segmentkwalificatie** gebeurtenis.
-* Een reis die begint met een **Segmentkwalificatie** activiteit in v1 moet altijd beginnen met een **Segmentkwalificatie** in verdere versies.
-* Het segment en de naamruimte die zijn gekozen in **Segmentkwalificatie** (eerste knooppunt) kan niet worden gewijzigd in nieuwe versies.
+* Een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis beginnen met een **Poortkwalificatie** gebeurtenis.
+* Een reis die begint met een **Poortkwalificatie** activiteit in v1 moet altijd beginnen met een **Poortkwalificatie** in verdere versies.
+* Het publiek en de naamruimte die zijn gekozen in **Poortkwalificatie** (eerste knooppunt) kan niet worden gewijzigd in nieuwe versies.
 * De re-entry regel moet het zelfde in alle reisversies zijn.
-* Een reis die begint met een **Segment lezen** kan niet met een andere gebeurtenis in volgende versies beginnen.
-* U kunt geen nieuwe versie van een read segment reis met stijgende lees tot stand brengen. Je moet de reis dupliceren.
+* Een reis die begint met een **Publiek lezen** kan niet met een andere gebeurtenis in volgende versies beginnen.
+* U kunt geen nieuwe versie maken van een leestoegang met incrementeel lezen. Je moet de reis dupliceren.
 
 ### Aangepaste acties {#custom-actions-g}
 
@@ -76,9 +75,9 @@ Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in 
 ### Gebeurtenissen {#events-g}
 
 * Voor door het systeem gegenereerde gebeurtenissen moeten streaminggegevens die worden gebruikt om een klantentraject te starten, eerst binnen Journey Optimizer worden geconfigureerd om een unieke orchestratie-id te verkrijgen. Deze orkest-id moet worden toegevoegd aan de streaminglading die naar Adobe Experience Platform komt. Deze beperking geldt niet voor op regels gebaseerde gebeurtenissen.
-* Zakelijke evenementen kunnen niet worden gebruikt in combinatie met eenheidsgebeurtenissen of segmentkwalificatieactiviteiten.
-* Eenheidstrajecten (te beginnen met een evenement of segmentkwalificatie) bevatten een geleider die voorkomt dat ritten voor dezelfde gebeurtenis meerdere keren ten onrechte worden gestart. De terugkeer van het profiel wordt tijdelijk geblokkeerd door gebrek gedurende 5 minuten. Als bijvoorbeeld een evenement om 12.01 uur een reis voor een bepaald profiel start en een ander om 12.03 uur aankomt (ongeacht of het dezelfde gebeurtenis is of een andere gebeurtenis die dezelfde reis veroorzaakt), zal die reis niet opnieuw beginnen voor dit profiel.
-* Journey Optimizer vereist dat gebeurtenissen naar de Dienst van de Kern van de Gegevensverzameling (DCCS) worden gestroomd om een reis te kunnen teweegbrengen. Gebeurtenissen in batch of gebeurtenissen uit interne Journey Optimizer-gegevenssets (Berichtfeedback, E-mailtracking, enz.) kan niet worden gebruikt om een reis te starten. Als u gestreamde gebeurtenissen niet kunt ophalen, maakt u een segment op basis van deze gebeurtenissen en gebruikt u de optie **Segment lezen** in plaats daarvan. De segmentkwalificatie kan technisch worden gebruikt, maar kan stroomafwaartse uitdagingen veroorzaken die op de gebruikte acties worden gebaseerd.
+* Zakelijke evenementen kunnen niet worden gebruikt in combinatie met monitaire evenementen of kwalificatieactiviteiten voor het publiek.
+* Eenheidstrajecten (te beginnen met een evenement of een kwalificatie van het publiek) bevatten een begeleidend element dat voorkomt dat ritten bij dezelfde gebeurtenis meerdere keren ten onrechte worden gestart. De terugkeer van het profiel wordt tijdelijk geblokkeerd door gebrek gedurende 5 minuten. Als bijvoorbeeld een evenement om 12.01 uur een reis voor een bepaald profiel start en een ander om 12.03 uur aankomt (ongeacht of het dezelfde gebeurtenis is of een andere gebeurtenis die dezelfde reis veroorzaakt), zal die reis niet opnieuw beginnen voor dit profiel.
+* Journey Optimizer vereist dat gebeurtenissen naar de Dienst van de Kern van de Gegevensverzameling (DCCS) worden gestroomd om een reis te kunnen teweegbrengen. Gebeurtenissen in batch of gebeurtenissen uit interne Journey Optimizer-gegevenssets (Berichtfeedback, E-mailtracking, enz.) kan niet worden gebruikt om een reis te starten. Als u gestreamde gebeurtenissen niet kunt ophalen, maakt u een publiek op basis van deze gebeurtenissen en gebruikt u de optie **Publiek lezen** in plaats daarvan. De kwalificatie van het publiek kan technisch worden gebruikt, maar kan stroomafwaartse uitdagingen veroorzaken die op de gebruikte acties worden gebaseerd.
 
 ### Gegevensbronnen {#data-sources-g}
 
@@ -97,13 +96,13 @@ U kunt uit één van deze twee oplossingen kiezen:
 
 * Stel een reis in die niet onmiddellijk gebruikmaakt van het profiel. Als de reis bijvoorbeeld is ontworpen om het aanmaken van een account te bevestigen, kan de ervaringsgebeurtenis informatie bevatten die nodig is om het eerste bevestigingsbericht te verzenden (voornaam, achternaam, e-mailadres, enz.).
 
-### Segment lezen {#read-segment-g}
+### Doelgroep lezen {#read-segment-g}
 
-* De stromen segmenten zijn altijd bijgewerkt maar de partijsegmenten zullen niet bij herwinningstijd worden berekend. Ze worden alleen elke dag geëvalueerd op het tijdstip van de dagelijkse batchevaluatie.
-* Voor ritten die een activiteit van het Leessegment gebruiken, is er een maximumaantal reizen dat op het nauwkeurige zelfde ogenblik kan beginnen. Het systeem voert de controles uit, maar vermijd dat meer dan vijf reizen (met Leessegment, gepland of &quot;zo snel mogelijk&quot; te starten) op hetzelfde tijdstip beginnen door ze over een bepaalde tijd te verspreiden, bijvoorbeeld 5 tot 10 minuten na elkaar.
+* Gestroomlijnde doelgroepen zijn altijd up-to-date, maar batchdoelgroepen worden niet berekend tijdens het ophalen. Ze worden alleen elke dag geëvalueerd op het tijdstip van de dagelijkse batchevaluatie.
+* Voor reizen die gebruikmaken van een activiteit van het leespubliek is er een maximumaantal reizen dat precies op hetzelfde moment kan beginnen. Het systeem zal tests uitvoeren, maar u moet vermijden dat meer dan vijf reizen (met Leespubliek, gepland of &quot;zo snel mogelijk&quot; te starten) op precies hetzelfde tijdstip beginnen door deze over een bepaalde tijd te verspreiden, bijvoorbeeld 5 tot 10 minuten uit elkaar.
 
 ### Expression-editor {#expression-editor}
 
-* U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een Leessegment, een Segmentkwalificatie of een zakelijke gebeurtenisactiviteit. U moet een nieuw segment tot stand brengen en een insegmentvoorwaarde in de reis gebruiken.
+* U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een leespubliek, een kwalificatie Audience of een activiteit voor een zakelijke gebeurtenis. U moet een nieuw publiek creëren en een onsegmentvoorwaarde in de reis gebruiken.
 
 

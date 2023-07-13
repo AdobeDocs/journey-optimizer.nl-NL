@@ -8,7 +8,7 @@ role: User, Developer
 level: Experienced
 keywords: reis, gegevensbronnen, grens, productie, douane, acties
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Dit kan gebeuren met:
 
 * **Aangepaste handelingen**: informatie naar externe systemen te sturen, bijvoorbeeld om e-mails via een externe oplossing te verzenden met behulp van Journey Optimizer-mogelijkheden voor orkestvorming, naast profielinformatie, publieksgegevens en reiscontext.
 
-Als u met externe gegevensbronnen of douaneacties werkt, kunt u uw externe systemen willen beschermen door reisproductie te beperken: tot 5000 exemplaren per seconde voor eenheidstreizen en tot 20000 exemplaren per seconde voor segmentgestuurde reizen.
+Als u met externe gegevensbronnen of douaneacties werkt, kunt u uw externe systemen willen beschermen door reisproductie te beperken: tot 5000 exemplaren per seconde voor eenheidstreizen en tot 20000 exemplaren per seconde voor publiek-activering.
 
 Voor aangepaste acties zijn vertragingsmogelijkheden beschikbaar op productniveau. Zie dit [page](../configuration/external-systems.md#capping).
 
@@ -37,7 +37,7 @@ Raadpleeg voor meer informatie over het integreren met externe systemen de volge
 
 ## Implementatie
 
-Voor **gesegmenteerde trajecten** kunt u de snelheid van de leessegmentactiviteit bepalen die de doorvoer van de reis beïnvloedt.  [Meer informatie](../building-journeys/read-segment.md)
+Voor **door het publiek geïnitieerde reizen** kunt u de snelheid van de activiteit van het leespubliek bepalen die de doorvoer van de reis beïnvloedt.  [Meer informatie](../building-journeys/read-audience.md)
 
 ![](assets/limit-throughput-1.png)
 
@@ -45,9 +45,9 @@ U kunt deze waarde wijzigen van 500 tot 20 000 exemplaren per seconde. Als u lag
 
 ![](assets/limit-throughput-2.png)
 
-Neem een voorbeeld van een **gesegmenteerde trajecten** werken met een bevolking van **10.000 profielen** en gegevens verzenden naar een extern systeem dat ondersteuning biedt voor **100 verzoeken/seconde**.
+Neem een voorbeeld van een **door het publiek geïnitieerde reizen** werken met een bevolking van **10.000 profielen** en gegevens verzenden naar een extern systeem dat ondersteuning biedt voor **100 verzoeken/seconde**.
 
-1. U kunt het Leessegment definiëren om profielen te lezen met een doorvoer van 500 profielen/seconde. Dit betekent dat het 20 seconden duurt om al uw profielen te lezen. Op de tweede 1 lees je er 500, op de tweede 2 500, enzovoort.
+1. U kunt het leespubliek definiëren om profielen te lezen met een doorvoer van 500 profielen per seconde. Dit betekent dat het 20 seconden duurt om al uw profielen te lezen. Op de tweede 1 lees je er 500, op de tweede 2 500, enzovoort.
 
 1. Vervolgens kunt u een Condition-activiteit (percentage gesplitst) met een splitsing van 20% toevoegen, zodat elke seconde 100 profielen in elke vertakking wordt gebruikt.
 
@@ -56,14 +56,14 @@ Neem een voorbeeld van een **gesegmenteerde trajecten** werken met een bevolking
    * Op tak 1, zullen zij 30 seconden wachten, betekenend dat:
       * op de tweede 1 wachten 100 profielen op de tweede 31
       * in de tweede 2 wachten 100 profielen op de tweede 32 , enz .
+
    * Op tak 2, zullen zij 60 seconden wachten, betekenend dat:
       * Op de tweede 1 wachten 100 profielen op de tweede 61 (1&#39;01&#39;)
       * In de tweede 2 wachten 100 profielen op de tweede 62 (1&#39;02&#39;), enz.
+
    * Als we weten dat we maximaal 20 seconden nodig hebben om alle profielen te lezen, is er geen overlapping tussen elke vertakking. De tweede 20 is de laatste waarin profielen in de voorwaarde vloeien. Tussen de tweede 31 en de tweede 51 worden alle profielen in branche 1 verwerkt. Tussen de tweede 61 (1&#39;01&#39;) en de tweede 81 (1&#39;21&#39;&#39;) worden alle profielen in branche 2 verwerkt, enz.
 
    * Als hulpmiddel, kunt u een zesde tak ook toevoegen om minder dan 100 profielen per tak te hebben, vooral als uw extern systeem slechts 100 verzoeken/seconde steunt.
-
-
 
 >[!IMPORTANT]
 >

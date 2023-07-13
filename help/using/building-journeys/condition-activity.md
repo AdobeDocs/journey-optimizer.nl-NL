@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: activiteit, toestand, canvas, reis
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 603174032552214686cc0f2b9ea0854f348ce949
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 6%
@@ -61,7 +61,7 @@ In de eenvoudige modus kunt u eenvoudige query&#39;s uitvoeren op basis van een 
 
 ![](assets/journey64.png)
 
-Als u de [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} om uw segmenten te creëren, kunt u hen in uw reisvoorwaarden gebruiken. Zie [Segmenten in omstandigheden gebruiken](../building-journeys/condition-activity.md#using-a-segment).
+Als u de [Adobe Experience Platform Segmentation Service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"} om uw publiek te creëren, kunt u hen in uw reisvoorwaarden gebruiken. Zie [Het publiek onder bepaalde omstandigheden gebruiken](../building-journeys/condition-activity.md#using-a-segment).
 
 
 >[!NOTE]
@@ -145,11 +145,11 @@ In de testmodus wordt geen rekening gehouden met de profielbegrenzing.
 
 ![](assets/profile-cap-condition.png)
 
-## Segmenten gebruiken in voorwaarden {#using-a-segment}
+## Gebruik van soorten publiek in omstandigheden {#using-a-segment}
 
-Deze sectie verklaart hoe te om een segment in een reisvoorwaarde te gebruiken. Voor meer op segmenten en hoe te om hen te bouwen, verwijs naar [deze sectie](../segment/about-segments.md).
+In deze sectie wordt uitgelegd hoe u een publiek kunt gebruiken in een reisconditie. Raadpleeg voor meer informatie over het publiek en hoe u deze kunt opbouwen [deze sectie](../audience/about-audiences.md).
 
-Voer de volgende stappen uit om een segment te gebruiken in een reisvoorwaarde:
+Voer de volgende stappen uit om een publiek in een reisvoorwaarde te gebruiken:
 
 1. Een reis openen en een **[!UICONTROL Condition]** en kiest u de **Voorwaarde gegevensbron**.
    ![](assets/journey47.png)
@@ -158,10 +158,10 @@ Voer de volgende stappen uit om een segment te gebruiken in een reisvoorwaarde:
 
    ![](assets/segment3.png)
 
-1. Links vouwen **[!UICONTROL Segments]** knooppunt. Sleep het segment dat u voor de voorwaarde wilt gebruiken en zet het neer. De standaardwaarde voor het segment is true.
+1. Links vouwen **[!UICONTROL Audiences]** knooppunt. Sleep het publiek dat u voor de voorwaarde wilt gebruiken en zet het neer. Standaard is de voorwaarde voor het publiek waar.
 
    ![](assets/segment4.png)
 
    >[!NOTE]
    >
-   >Let erop dat alleen de personen met de **Gerealiseerd** en **Bestaande** de deelnamestatistieken van segmenten worden beschouwd als leden van het segment . Raadpleeg voor meer informatie over het evalueren van een segment de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Let erop dat alleen de personen met de **Gerealiseerd** en **Bestaande** de publieksparticipatiestatistieken worden beschouwd als leden van het publiek . Raadpleeg voor meer informatie over het evalueren van een publiek de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

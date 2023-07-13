@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 3%
@@ -73,7 +73,7 @@ Volg onderstaande stappen om uw webervaring op te bouwen via een campagne.
 
 1. Nadat u het weboppervlak hebt gedefinieerd, selecteert u **[!UICONTROL Create]**.
 
-1. Voer de stappen uit om een webcampagne te maken, zoals de eigenschappen van de campagne, [publiek](../segment/about-segments.md), en [schema](../campaigns/create-campaign.md#schedule).
+1. Voer de stappen uit om een webcampagne te maken, zoals de eigenschappen van de campagne, [publiek](../audience/about-audiences.md), en [schema](../campaigns/create-campaign.md#schedule).
 
    ![](assets/web-campaign-steps.png)
 

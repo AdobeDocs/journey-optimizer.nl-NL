@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: inhoud, editor, e-mail, starten
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen:
 
    ![](assets/email_designer_asset_picker.png)
 
-1. Voeg verpersoonlijkingsgebieden in om uw inhoud van profielattributen, Segmentlidmaatschap, Contextuele attributen, en meer aan te passen. [Meer informatie over content personalization](../personalization/personalize.md)
+1. Voeg verpersoonlijkingsgebieden in om uw inhoud van profielattributen, publiekslidmaatschappen, Contextuele attributen, en meer aan te passen. [Meer informatie over content personalization](../personalization/personalize.md)
 
    ![](assets/email_designer_personalization.png)
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: 146dda9b180a4767b7041b50382f9a0eac0a0058
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '1389'
 ht-degree: 1%
 
 ---
@@ -72,17 +72,17 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
 1. Gebruik de **[!UICONTROL Eligibility]** om de selectie van aanbiedingen voor deze plaatsing te beperken.
 
-   Deze beperking kan worden toegepast door een **beslissingsregel**, of een of meer **Adobe Experience Platform-segmenten**. Beide zijn gedetailleerd in [deze sectie](../offer-library/add-constraints.md#segments-vs-decision-rules).
+   Deze beperking kan worden toegepast door een **beslissingsregel**, of een of meer **Adobe Experience Platform-publiek**. Beide zijn gedetailleerd in [deze sectie](../offer-library/add-constraints.md#segments-vs-decision-rules).
 
-   * Selecteer **[!UICONTROL Segments]** en klik vervolgens op **[!UICONTROL Add segments]**.
+   * Als u de selectie van de aanbiedingen wilt beperken tot de leden van een publiek in een Experience Platform, selecteert u **[!UICONTROL Audiences]** en klik vervolgens op **[!UICONTROL Add audiences]**.
 
      ![](../assets/activity_constraint_segment.png)
 
-     Voeg een of meerdere segmenten uit het linkervenster toe en combineer deze met de opdracht **[!UICONTROL And]** / **[!UICONTROL Or]** logische operatoren.
+     Voeg een of meer soorten publiek toe vanuit het linkervenster en combineer deze via het dialoogvenster **[!UICONTROL And]** / **[!UICONTROL Or]** logische operatoren.
 
      ![](../assets/activity_constraint_segment2.png)
 
-     Leer hoe u met segmenten werkt in [deze sectie](../../segment/about-segments.md).
+     Leer hoe u met het publiek kunt werken in [deze sectie](../../audience/about-audiences.md).
 
    * Als u een selectiegrens met een beslissingsregel wilt toevoegen, gebruikt u de optie **[!UICONTROL Decision rule]** en selecteert u de gewenste regel.
 
@@ -90,7 +90,7 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
      Leer hoe u een beslissingsregel maakt in [deze sectie](../offer-library/creating-decision-rules.md).
 
-1. Wanneer u segmenten of besluitvormingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien. Klikken **[!UICONTROL Refresh]** om gegevens bij te werken.
+1. Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien. Klikken **[!UICONTROL Refresh]** om gegevens bij te werken.
 
    >[!NOTE]
    >
@@ -128,18 +128,9 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
    ![](../assets/activity_new-scope.png)
 
-   >[!NOTE]
-   >
-   >Wanneer het toevoegen van veelvoudige beslissingswerkingsgebied, zal de orde van de evaluatiecriteria worden beïnvloed. [Meer informatie](#multiple-scopes)
-
 ### Volgorde van de beoordelingscriteria {#evaluation-criteria-order}
 
 Zoals hierboven is beschreven, bestaan de evaluatiecriteria uit een verzameling, subsidiabiliteitsbeperkingen en een rangorde. U kunt de opeenvolgende orde plaatsen u voor de evaluatiecriteria wilt worden geëvalueerd, maar u kunt veelvoudige evaluatiecriteria ook combineren zodat zij samen en niet afzonderlijk worden geëvalueerd.
-
-#### Met één bereik {#one-scope}
-
-
-Binnen één besluitvormingsgebied bepalen meerdere criteria en de groepering daarvan de prioriteit van de criteria en de rangorde van de in aanmerking komende aanbiedingen. De eerste criteria hebben de hoogste prioriteit en de criteria die in dezelfde &quot;groep&quot; worden gecombineerd, hebben dezelfde prioriteit.
 
 U hebt bijvoorbeeld twee verzamelingen, één in evaluatiecriteria A en één in evaluatiecriteria B. Er worden twee voorstellen teruggestuurd. Laten we zeggen dat er twee in aanmerking komende aanbiedingen zijn uit evaluatiecriteria A en drie in aanmerking komende aanbiedingen uit evaluatiecriteria B.
 
@@ -150,131 +141,6 @@ U hebt bijvoorbeeld twee verzamelingen, één in evaluatiecriteria A en één in
 * Als de twee verzamelingen **tegelijk geëvalueerd** Aangezien er twee in aanmerking komende aanbiedingen zijn op basis van beoordelingscriteria A en drie in aanmerking komende aanbiedingen op basis van beoordelingscriteria B, worden de vijf offertes in een stapel geplaatst op basis van de waarde die door de respectieve rangordemethoden wordt bepaald. Er wordt om twee aanbiedingen verzocht, zodat de twee belangrijkste in aanmerking komende aanbiedingen van deze vijf aanbiedingen worden teruggegeven.
 
   ![](../assets/activity_same-rank-collections.png)
-
-+++ **Voorbeeld met meerdere criteria**
-
-Laten we nu een voorbeeld bekijken waarbij u meerdere criteria hebt voor één bereik dat is verdeeld in verschillende groepen.
-
-U hebt drie criteria gedefinieerd. De criteria 1 en 2 worden in groep 1 samengevoegd en criterium 3 is onafhankelijk (groep 2).
-
-De in aanmerking komende aanbiedingen voor elke criteria en hun prioriteit (gebruikt bij de beoordeling van de rangorde) zijn als volgt:
-
-* Groep 1:
-   * Criteria 1 - (Aanbieding 1, Aanbieding 2, Aanbieding 3) - Prioriteit 1
-   * Criteria 2 - (Aanbieding 3, Aanbieding 4, Aanbieding 5) - Prioriteit 1
-
-* Groep 2:
-   * Criteria 3 - (Aanbieding 5, Aanbieding 6) - Prioriteit 0
-
-De hoogste prioritaire aanbiedingen worden eerst geëvalueerd en aan de gerangschikte lijst met aanbiedingen toegevoegd.
-
-**Herhaling 1:**
-
-De criteria 1 en criteria 2 voorstellen worden samen geëvalueerd (voorstel 1, voorstel 2, voorstel 3, voorstel 4, voorstel 5). Laten we zeggen dat het resultaat is:
-
-Aanbieding 1 - 10 Aanbieding 2 - 20 Aanbieding 3 - 30 uit criteria 1, 45 uit criteria 2. Het hoogste van beide wordt in overweging genomen, dus er wordt rekening gehouden met 45.
-Voorstel 4 - 40 voorstel 5 - 50
-
-Het gerangschikte aanbod is nu als volgt: Voorstel 5, voorstel 3, voorstel 4, voorstel 2, voorstel 1.
-
-**Herhaling 2:**
-
-Criteria 3 worden geëvalueerd (voorstel 5, voorstel 6). Laten we zeggen dat het resultaat is:
-
-* Voorstel 5 - Wordt niet geëvalueerd omdat dit al in het bovenstaande resultaat voorkomt.
-* Aanbieding 6 - 60
-
-De gerangschikte aanbiedingen zijn nu als volgt: Voorstel 5, voorstel 3, voorstel 4, voorstel 2, voorstel 1, voorstel 6.
-
-+++
-
-#### Met meerdere bereiken {#multiple-scopes}
-
-**Als duplicatie is uitgeschakeld**
-
-Wanneer u meerdere besluitvormingsgebieden aan een besluit toevoegt en wanneer overlappingen niet zijn toegestaan op verschillende plaatsen, worden de in aanmerking komende aanbiedingen opeenvolgend geselecteerd in de volgorde van de beslissingsreikwijdte in het verzoek.
-
->[!NOTE]
->
->De **[!UICONTROL Allow Duplicates across placements]** parameter wordt ingesteld op het plaatsingsniveau. Als duplicatie is ingesteld op false voor plaatsing in een beslissingsverzoek, nemen alle plaatsen in het verzoek de instelling false over. [Meer informatie over de parameter duplicatie](../offer-library/creating-placements.md)
-
-Neem een voorbeeld waarin u twee beslissingsbereiken hebt toegevoegd, zoals:
-
-* Toepassingsgebied 1: Er zijn vier geschikte voorstellen (voorstel 1, voorstel 2, voorstel 3, voorstel 4) en het verzoek is om twee voorstellen terug te sturen.
-* Toepassingsgebied 2: Er zijn vier geschikte voorstellen (voorstel 1, voorstel 2, voorstel 3, voorstel 4) en het verzoek is om twee voorstellen terug te sturen.
-
-+++ **Voorbeeld 1**
-
-De selectie ziet er als volgt uit:
-
-1. De bovenste twee in aanmerking komende aanbiedingen uit bereik 1 worden geretourneerd (voorstel 1, voorstel 2).
-1. De resterende twee in aanmerking komende aanbiedingen uit bereik 2 worden geretourneerd (voorstel 3, voorstel 4).
-
-+++
-
-+++ **Voorbeeld 2**
-
-In dit voorbeeld heeft Aanbod 1 de limiet voor de frequentiegrenzen bereikt. [Meer informatie over aftopping van frequenties](../offer-library/add-constraints.md#capping)
-
-De selectie ziet er als volgt uit:
-
-1. De resterende twee in aanmerking komende aanbiedingen uit bereik 1 worden geretourneerd (voorstel 2, voorstel 3).
-1. Het resterende in aanmerking komende aanbod uit bereik 2 wordt geretourneerd (voorstel 4).
-
-+++
-
-+++ **Voorbeeld 3**
-
-In dit voorbeeld bereikten Aanbod 1 en Aanbieding 3 hun limiet voor de frequentiegrenzen. [Meer informatie over aftopping van frequenties](../offer-library/add-constraints.md#capping)
-
-De selectie ziet er als volgt uit:
-
-1. De resterende twee in aanmerking komende aanbiedingen uit bereik 1 worden geretourneerd (voorstel 2, voorstel 4).
-1. Er zijn geen voorstellen die in aanmerking komen voor het tweede bereik, zodat de [fallback-aanbieding](#add-fallback) wordt geretourneerd.
-
-+++
-
-**Als duplicatie is ingeschakeld**
-
-Wanneer duplicatie op alle plaatsen is toegestaan, kan hetzelfde aanbod meerdere keren voor verschillende plaatsen worden voorgesteld. Als deze optie is ingeschakeld, overweegt het systeem dezelfde aanbieding voor meerdere plaatsingen. [Meer informatie over de parameter duplicatie](../offer-library/creating-placements.md)
-
-Neem het zelfde voorbeeld zoals hierboven waar u twee besluitvormingswerkingsgebied zoals toevoegde:
-
-* Toepassingsgebied 1: Er zijn vier geschikte voorstellen (voorstel 1, voorstel 2, voorstel 3, voorstel 4) en het verzoek is om twee voorstellen terug te sturen.
-* Toepassingsgebied 2: Er zijn vier geschikte voorstellen (voorstel 1, voorstel 2, voorstel 3, voorstel 4) en het verzoek is om twee voorstellen terug te sturen.
-
-+++ **Voorbeeld 1**
-
-De selectie ziet er als volgt uit:
-
-1. De bovenste twee in aanmerking komende aanbiedingen uit bereik 1 worden geretourneerd (voorstel 1, voorstel 2).
-1. Dezelfde top twee in aanmerking komende aanbiedingen uit bereik 2 worden geretourneerd (voorstel 1, voorstel 2).
-
-+++
-
-+++ **Voorbeeld 2**
-
-In dit voorbeeld heeft Aanbod 1 de limiet voor de frequentiegrenzen bereikt. [Meer informatie over aftopping van frequenties](../offer-library/add-constraints.md#capping)
-
-De selectie ziet er als volgt uit:
-
-1. De resterende twee in aanmerking komende aanbiedingen uit bereik 1 worden geretourneerd (voorstel 2, voorstel 3).
-
-1. Dezelfde resterende twee in aanmerking komende aanbiedingen uit bereik 2 worden geretourneerd (voorstel 2, voorstel 3).
-
-+++
-
-+++ **Voorbeeld 3**
-
-In dit voorbeeld bereikten Aanbod 1 en Aanbieding 3 hun limiet voor de frequentiegrenzen. [Meer informatie over aftopping van frequenties](../offer-library/add-constraints.md#capping)
-
-De selectie ziet er als volgt uit:
-
-1. De resterende twee in aanmerking komende aanbiedingen uit bereik 1 worden geretourneerd (voorstel 2, voorstel 4).
-
-1. Dezelfde resterende twee in aanmerking komende aanbiedingen uit bereik 2 worden geretourneerd (voorstel 2, voorstel 4).
-
-+++
 
 ## Een fallback-aanbieding toevoegen {#add-fallback}
 

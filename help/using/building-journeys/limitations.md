@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reizen, beperking
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -29,13 +29,12 @@ Hier zijn beperkingen met betrekking tot het gebruik van reizen.
 
 ## Beperkingen van reisversies {#journey-versions-limitations}
 
-* Een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis beginnen met een **Segmentkwalificatie** gebeurtenis.
-* Een reis die begint met een **Segmentkwalificatie** activiteit in v1 moet altijd beginnen met een **Segmentkwalificatie** in verdere versies.
-* Het segment en de naamruimte die zijn gekozen in **Segmentkwalificatie** (eerste knooppunt) kan niet worden gewijzigd in nieuwe versies.
+* Een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis beginnen met een **Poortkwalificatie** gebeurtenis.
+* Een reis die begint met een **Poortkwalificatie** activiteit in v1 moet altijd beginnen met een **Poortkwalificatie** in verdere versies.
+* Het publiek en de naamruimte die zijn gekozen in **Poortkwalificatie** (eerste knooppunt) kan niet worden gewijzigd in nieuwe versies.
 * De re-entry regel moet het zelfde in alle reisversies zijn.
-* Een reis die begint met een **Segment lezen** kan niet met een andere gebeurtenis in volgende versies beginnen.
+* Een reis die begint met een **Publiek lezen** kan niet met een andere gebeurtenis in volgende versies beginnen.
  
-
 ## Beperkingen voor aangepaste handelingen
 
 * De URL van de aangepaste handeling ondersteunt geen dynamische parameters. 
@@ -44,12 +43,10 @@ Hier zijn beperkingen met betrekking tot het gebruik van reizen.
 * IP-adressen zijn niet toegestaan. 
 * Interne Adobe-adressen (.adobe.) zijn niet toegestaan.
  
-
 ## Beperkingen voor gebeurtenissen
 
 * Voor door het systeem gegenereerde gebeurtenissen moeten streaminggegevens die worden gebruikt om een klantentraject te starten, eerst binnen Journey Optimizer worden geconfigureerd om een unieke orchestratie-id te verkrijgen. Deze orkest-id moet worden toegevoegd aan de streaminglading die naar Adobe Experience Platform komt. Deze beperking geldt niet voor op regels gebaseerde gebeurtenissen.
  
-
 ## Beperkingen op gegevensbronnen
 
 * De externe gegevensbronnen kunnen binnen een klantenreis worden gebruikt om externe gegevens in real time op te zoeken. Deze bronnen moeten bruikbaar zijn via REST API, JSON ondersteunen en het volume van aanvragen kunnen verwerken.
@@ -66,6 +63,6 @@ U kunt uit één van deze twee oplossingen kiezen:
 
 * Stel een reis in die niet onmiddellijk gebruikmaakt van het profiel. Als de reis bijvoorbeeld is ontworpen om het maken van een account te bevestigen, kan de ervaringsgebeurtenis informatie bevatten die nodig is om het eerste bevestigingsbericht te verzenden (voornaam, achternaam, e-mailadres, enz.).
 
-## Segmentbeperkingen lezen
+## Beperkingen van het publiek lezen
 
-* De stromen segmenten zijn altijd bijgewerkt maar de partijsegmenten zullen niet bij herwinningstijd worden berekend. Ze worden alleen elke dag geëvalueerd op het tijdstip van de dagelijkse batchevaluatie.
+* Gestroomlijnde doelgroepen zijn altijd up-to-date, maar batchdoelgroepen worden niet berekend tijdens het ophalen. Ze worden alleen elke dag geëvalueerd op het tijdstip van de dagelijkse batchevaluatie.

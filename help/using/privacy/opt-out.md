@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 8b459f71852d031dc650b77725bdc693325cdb1d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 1%
+source-wordcount: '1015'
+ht-degree: 0%
 
 ---
 
@@ -67,15 +67,19 @@ Als u aanbiedingen gebruikt, worden de voorkeuren voor personalisatie niet autom
 >
 >Beslissingsbereik gebruikt in [!DNL Journey Optimizer] authored kanalen voldoen aan deze eis van de reis of de campagne waartoe zij behoren.
 
+1. Een [Adobe Experience Platform-publiek](../audience/access-audiences.md) met de [Segmenteringsservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"} en gebruik een profielkenmerk, zoals **[!UICONTROL Personalize Content = Yes (opt-in)]** om gebruikers aan te wijzen die met personalisatie hebben ingestemd.
 
+   ![](assets/perso-consent-od-audience.png)
 
-1. Een [Adobe Experience Platform-segment](../segment/about-segments.md) een profielkenmerk gebruiken, zoals: *&quot;Consents to Personalization = True&quot;* om gebruikers aan te wijzen die met personalisatie hebben ingestemd.
+1. Wanneer u een [beslissing](../offers/offer-activities/create-offer-activities.md), voegt u een beslissingsbereik toe en definieert u een subsidiabiliteitsbeperking op basis van dit publiek voor elke verzameling evaluatiecriteria die gepersonaliseerde aanbiedingen bevat.
 
-1. Wanneer u een [beslissing](../offers/offer-activities/create-offer-activities.md), voegt u een beslissingsbereik toe en definieert u een subsidiabiliteitsbeperking op basis van dit segment voor elke verzameling evaluatiecriteria die gepersonaliseerde aanbiedingen bevat.
+   ![](assets/perso-consent-od-audience-decision.png)
 
 1. Een [fallback-aanbieding](../offers/offer-library/creating-fallback-offers.md) dat geen gepersonaliseerde inhoud omvat.
 
 1. [Toewijzen](../offers/offer-activities/create-offer-activities.md#add-fallback) het niet-persoonlijke fallback-aanbod aan het besluit.
+
+   ![](assets/perso-consent-od-audience-fallback.png)
 
 1. [Controleren en opslaan](../offers/offer-activities/create-offer-activities.md#review) de beschikking.
 
@@ -89,3 +93,87 @@ Als een gebruiker:
 >
 >Toestemming voor het gebruik van profielgegevens in [gegevensmodellering](../offers/ranking/ai-models.md) wordt nog niet ondersteund in [!DNL Journey Optimizer].
 
+## In de expressie-editor
+
+<!--Expressions Editor while personalizing images, text, subject line  ( Segment in Campaigns) - UI and Headless -->
+
+De [Expression-editor](../personalization/personalization-build-expressions.md) zelf voert geen toestemmingscontroles of handhaving uit, aangezien het niet betrokken is bij de levering van berichten.
+
+Nochtans, staat het gebruik van op recht-gebaseerde etiketten van de toegangscontrole toe om te beperken welke gebieden voor verpersoonlijking kunnen worden gebruikt. De [berichtvoorbeeld](../email/preview.md#preview-email) en [e-mailrenderservice](../email/preview.md#email-rendering) de velden die met gevoelige informatie zijn aangeduid, maskeren.
+
+>[!NOTE]
+>
+>Leer meer op het niveau van Objecten toegangsbeheer (OLAC) binnen [deze sectie](../administration/object-based-access.md).
+
+
+In [!DNL Journey Optimizer] het toestemmingsbeleid wordt als volgt gehandhaafd :
+
+* U kunt toestemmingsbeleidsdefinities als deel van de publieksverwezenlijking omvatten om ervoor te zorgen dat het publiek dat voor de campagne wordt geselecteerd reeds heeft **uitgefilterde profielen die niet voldoen aan de toestemmingscriteria**.
+
+* [!DNL Journey Optimizer] voert een algemene controle uit op het kanaalniveau om **ervoor zorgen dat profielen hebben gekozen** het ontvangen van marketingberichten op het desbetreffende kanaal.
+
+  >[!NOTE]
+  >
+  >De [!DNL Journey Optimizer] campagneobject zelf voert momenteel geen aanvullende controles uit op de handhaving van het toestemmingsbeleid.
+
+Volg een van de onderstaande opties om de toestemming voor personalisatie handmatig af te dwingen in campagnes.
+
+### Het gebruiken van de bouwer van de segmentregel
+
+U kunt de bouwer van de segmentregel gebruiken om een publiek tot stand te brengen dat opt-outprofielen bevat.
+
+1. Een [Adobe Experience Platform-publiek](../audience/access-audiences.md) met de [Segmenteringsservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
+
+   ![](assets/perso-consent-audience-build-rule.png)
+
+1. Selecteer een profielkenmerk, zoals **[!UICONTROL Personalize Content = No (opt-out)]** om gebruikers uit te sluiten die niet hebben ingestemd met personalisatie.
+
+   ![](assets/perso-consent-audience-no.png)
+
+1. Klik op **[!UICONTROL Save]**.
+
+U kunt dit publiek nu gebruiken om profielen die geen toestemming voor personalisatie hebben gegeven, uit uw campagnes te filteren.
+
+### Een gesplitste activiteit gebruiken in een compositiewerkstroom
+
+U kunt een controle van de verpersoonlijkingstoestemming aan een publiek ook toevoegen door een gespleten activiteit aan een samenstellingswerkschema toe te voegen.
+
+1. Een publiek maken met de opdracht **[!UICONTROL Compose Audience]** optie. [Meer informatie over het maken van een compositieworkflow](../audience/create-compositions.md)
+
+   ![](assets/perso-consent-audience-compose.png)
+
+1. Voeg uw beginnende publiek toe gebruikend de specifieke knoop op het recht.
+
+1. Klik op het pictogram + en selecteer **[!UICONTROL Split]** om een gesplitst publiek te maken. [Meer informatie over de splitsingsactiviteit](../audience/composition-canvas.md#split)
+
+   ![](assets/perso-consent-audience-split.png)
+
+1. Selecteren **[!UICONTROL Attribute split]** als het gesplitste type in het rechterdeelvenster.
+
+   ![](assets/perso-consent-audience-attribute-split.png)
+
+1. Klik op het potloodpictogram naast het pictogram **[!UICONTROL Attribute]** veld om de **[!UICONTROL Select a profile attribute]** venster.
+
+1. Zoeken naar het kenmerk voor verpersoonlijkingstoestemming (`profile.consents.personalize.content.val`) en selecteert u deze.
+
+   ![](assets/perso-consent-audience-consent-attribute.png)
+
+1. **[!UICONTROL Path 1]** zal het niet-gepersonaliseerde publiek zijn. Kies een relevant label.
+
+1. Kies de gewenste waarde in deze [list](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}.
+
+   In dit geval gebruiken we `n` om aan te geven dat gebruikers niet instemmen met het gebruik van hun gegevens voor personalisatie.
+
+   ![](assets/perso-consent-audience-path-1-n.png)
+
+1. U kunt een afzonderlijk pad maken voor andere keuzevelden. U kunt ook de resterende paden verwijderen en inschakelen **[!UICONTROL Other profiles]** om alle andere profielen op te nemen waarvoor geen keuzevrijheid van `n`.
+
+1. Klik op **[!UICONTROL Save Audience]** voor elk pad om het resultaat van uw workflow op te slaan in een nieuw publiek. Voor elk pad wordt één publiek opgeslagen in Adobe Experience Platform.
+
+1. Publiceer de compositieworkflow als u klaar bent.
+
+U kunt dit publiek nu gebruiken om profielen die geen toestemming voor personalisatie hebben gegeven, uit uw campagnes te filteren.
+
+>[!NOTE]
+>
+>Als u een publiek creeert dat geen toestemming voor verpersoonlijking heeft gegeven en u dan dit publiek in een campagne selecteert, zullen de verpersoonlijkingshulpmiddelen beschikbaar blijven. Het is aan uw marketing gebruikers om te begrijpen dat als zij met een publiek werken dat geen verpersoonlijking zou moeten ontvangen, zij geen verpersoonlijkingshulpmiddelen zouden moeten gebruiken.

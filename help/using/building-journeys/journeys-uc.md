@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: use case, multi-channel, messages, trip, channel, events, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 2%
@@ -18,13 +18,13 @@ ht-degree: 2%
 
 # Hoofdlettergebruik: berichten met meerdere kanalen verzenden{#send-multi-channel-messages}
 
-In deze sectie wordt een gebruiksscenario beschreven waarin een leessegment, een gebeurtenis, reactiegebeurtenissen en e-mail-/pushberichten worden gecombineerd.
+In deze sectie wordt een gebruiksscenario beschreven waarin een leespubliek, een gebeurtenis, reactiegebeurtenissen en e-mail-/pushberichten worden gecombineerd.
 
 ![](assets/jo-uc1.png)
 
 ## Beschrijving van het gebruiksgeval
 
-In dit geval, willen wij een eerste bericht (e-mail en duw) naar alle klanten verzenden die tot een specifiek segment behoren.
+In dit geval, willen wij een eerste bericht (e-mail en duw) naar alle klanten verzenden die tot een specifiek publiek behoren.
 
 Op basis van hun reactie op het eerste bericht willen we specifieke berichten verzenden.
 
@@ -36,20 +36,20 @@ Vervolgens wachten we op een aankoop en sturen we een pushbericht om de klant te
 
 Voor dit gebruiksgeval om te werken, moet u het volgende vormen:
 
-* een segment voor alle klanten die in Atlanta, San Francisco of Seattle wonen en na 1980 geboren zijn.
+* een publiek voor alle klanten die in Atlanta, San Francisco of Seattle wonen en na 1980 geboren zijn.
 * een aankoopgebeurtenis
 
-### Het segment maken
+### Het publiek maken
 
-In onze reis, willen wij hefboomwerking een specifiek segment van klanten. Alle personen die tot het segment behoren, nemen de reis over en volgen de verschillende stappen. In ons voorbeeld hebben we een segment nodig dat gericht is op alle klanten die in Atlanta, San Francisco of Seattle wonen en na 1980 geboren zijn.
+In onze reis, willen wij hefboomwerking een specifiek publiek van klanten. Alle personen die tot het publiek behoren, reizen de reis en volgen de verschillende stappen. In ons voorbeeld hebben we een publiek nodig dat gericht is op alle klanten die in Atlanta, San Francisco of Seattle wonen en na 1980 geboren zijn.
 
-Raadpleeg deze voor meer informatie over segmenten [page](../segment/about-segments.md).
+Raadpleeg de volgende secties voor meer informatie over het publiek [page](../audience/about-audiences.md).
 
-1. Selecteer in de menusectie KLANT de optie **[!UICONTROL Segments]**.
+1. Selecteer in de menusectie KLANT de optie **[!UICONTROL Audiences]**.
 
-1. Klik op de knop **[!UICONTROL Create segment]** knoop die bij het hoogste recht van de segmentlijst wordt gevestigd.
+1. Klik op de knop **[!UICONTROL Create audience]** knoop die bij het hoogste recht van de publiekslijst wordt gevestigd.
 
-1. In de **[!UICONTROL Segment properties]** Voer een naam voor het segment in.
+1. In de **[!UICONTROL Audience properties]** voert u een naam in voor het publiek.
 
 1. Sleep de gewenste velden vanuit het linkerdeelvenster naar de werkruimte in het midden en configureer ze op basis van uw behoeften. In dit voorbeeld gebruiken wij **Plaats** en **Geboortejaar** kenmerkvelden.
 
@@ -57,7 +57,7 @@ Raadpleeg deze voor meer informatie over segmenten [page](../segment/about-segme
 
    ![](assets/add-attributes.png)
 
-Het segment is nu gemaakt en klaar om in uw reis te worden gebruikt. Een **Segment lezen** activiteit, kunt u alle individuen van het segment tot de reis maken.
+Het publiek is nu gemaakt en klaar om te worden gebruikt op uw reis. Een **Publiek lezen** activiteit, kunt u alle individuen die tot het publiek behoren tot de reis maken.
 
 ### De gebeurtenis configureren
 
@@ -85,7 +85,7 @@ De gebeurtenis is nu geconfigureerd en klaar om in uw reis te worden gebruikt. M
 
 ## De reis ontwerpen
 
-1. Begin de reis met een **Segment lezen** activiteit. Selecteer het eerder gemaakte segment. Alle personen die tot het segment behoren, komen de reis binnen.
+1. Begin de reis met een **Publiek lezen** activiteit. Selecteer het publiek dat eerder is gemaakt. Alle personen die tot het publiek behoren, nemen de reis in.
 
    ![](assets/jo-uc4.png)
 
@@ -95,7 +95,7 @@ De gebeurtenis is nu geconfigureerd en klaar om in uw reis te worden gebruikt. M
 
 1. Plaats de cursor op de e-mailactiviteit en klik op het plusteken (+) om een nieuw pad te maken.
 
-1. Voeg in het eerste pad een **Reactie** gebeurtenis en selecteer **Push geopend**. De gebeurtenis wordt geactiveerd wanneer een individu dat tot het segment behoort de pushversie van het eerste bericht opent.
+1. Voeg in het eerste pad een **Reactie** gebeurtenis en selecteer **Push geopend**. De gebeurtenis wordt geactiveerd wanneer een individu dat tot het publiek behoort de pushversie van het eerste bericht opent.
 
 1. Voeg in het tweede pad een **Reactie** gebeurtenis en selecteer **E-mail geopend**. De gebeurtenis wordt geactiveerd wanneer de persoon het e-mailbericht opent.
 

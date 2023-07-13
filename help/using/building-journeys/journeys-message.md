@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, e-mail, in-app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 1cf62f949c1309b864ccd352059a444fd7bd07f0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '894'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ U kunt ook specifieke acties instellen om u berichten te sturen:
 
 Volg onderstaande stappen om een bericht toe te voegen aan een rit:
 
-1. Begin uw reis met een [Gebeurtenis](general-events.md) of [Segment lezen](read-segment.md) activiteit.
+1. Begin uw reis met een [Gebeurtenis](general-events.md) of [Publiek lezen](read-audience.md) activiteit.
 
 1. Van de **Handelingen** van het palet, slepen en neerzetten en **email**, en **In-app**, en **SMS** of **Push** op het canvas.
 
@@ -115,6 +115,10 @@ Het model varieert, of u over score of opleiding spreekt. De training wordt aanv
 * Scores - de toepassing van een score op individuele profielen die op het getrainde model worden gebaseerd
 
 Deze informatie wordt opgeslagen met het profiel van de gebruiker en wordt bij de uitvoering van de reis gebruikt om Adobe Journey Optimizer te laten weten wanneer je bericht moet worden verzonden.
+
+>[!CAUTION]
+>
+>Deze functie is niet compatibel met de burst-modus.
 
 ### Send-Time optimaliseren activeren{#activate-send-time-optimization}
 

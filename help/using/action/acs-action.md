@@ -9,7 +9,7 @@ role: Admin,Developer
 level: Intermediate
 keywords: campagne, standaard, integratie, plafonnering, actie
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 3%
@@ -30,7 +30,7 @@ Het transactiebericht van Campaign Standard en de bijbehorende gebeurtenis moete
 
 * Adobe Campaign Standard-integratie wordt ingesteld door middel van een speciale ingebouwde actie in de lijst met acties. Dit moet voor elke zandbak worden gevormd.
 
-* U kunt geen actie van de Campaign Standard met een kwalificatie van het Segment of Gelezen segmentactiviteit gebruiken.
+* U kunt geen actie van de Campaign Standard met een kwalificatie van het Publiek of Gelezen activiteit van het Publiek gebruiken.
 
 * Een reis kan niet zowel Berichten als Campaign Standard acties gebruiken.
 

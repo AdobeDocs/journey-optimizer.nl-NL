@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reis, activiteiten, aan de slag, gebeurtenissen, actie
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 14%
@@ -28,7 +28,7 @@ Gebeurtenissen geconfigureerd door de technische gebruiker (zie [deze pagina](..
 
 * [Algemene gebeurtenissen](../building-journeys/general-events.md)
 * [Reactie](../building-journeys/reaction-events.md)
-* [Segmentkwalificatie](../building-journeys/segment-qualification-events.md)
+* [Poortkwalificatie](../building-journeys/audience-qualification-events.md)
 
 ![](assets/journey43.png)
 
@@ -44,7 +44,7 @@ In het palet zijn aan de linkerkant van het scherm de volgende orkestactiviteite
 
 * [Voorwaarde](../building-journeys/condition-activity.md)
 * [Wachten](../building-journeys/wait-activity.md)
-* [Segment lezen](../building-journeys/read-segment.md)
+* [Publiek lezen](../building-journeys/read-audience.md)
 
 ![](assets/journey49.png)
 

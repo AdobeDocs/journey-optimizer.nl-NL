@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 0%
@@ -79,32 +79,32 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 * Beschrijving
 
-   **Veld:** beschrijving
-   **Titel:** Beschrijving
-   **Omschrijving:** Beschrijving van optie-selectie. Het wordt gebruikt om menselijke leesbare intenties over te brengen over hoe of waarom deze optie is geselecteerd en/of welke optie zal overeenkomen.
-   **Type:** string
+  **Veld:** beschrijving
+  **Titel:** Beschrijving
+  **Omschrijving:** Beschrijving van optie-selectie. Het wordt gebruikt om menselijke leesbare intenties over te brengen over hoe of waarom deze optie is geselecteerd en/of welke optie zal overeenkomen.
+  **Type:** string
 
 * Option-filter
 
-   **Veld:** filter
-   **Titel:** Option-filter
-   **Omschrijving:** De verwijzing naar een op &#39;tag&#39; gebaseerde filter dat is gebaseerd op een kwalificatie voor verzamelingen (voorheen &#39;tag&#39; genoemd) die overeenkomt met opties uit een inventaris met behulp van de bijbehorende kwalificatietekens voor verzamelingen. De waarde is URI (@id) van de beslissingsregel waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/filter.
-   **Type:** string
+  **Veld:** filter
+  **Titel:** Option-filter
+  **Omschrijving:** De verwijzing naar een op &#39;tag&#39; gebaseerde filter dat is gebaseerd op een kwalificatie voor verzamelingen (voorheen &#39;tag&#39; genoemd) die overeenkomt met opties uit een inventaris met behulp van de bijbehorende kwalificatietekens voor verzamelingen. De waarde is URI (@id) van de beslissingsregel waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/filter.
+  **Type:** string
 
 * Type profielbeperking
 
-   **Veld:** optionSelectionType
-   **Titel:** Type profielbeperking
-   **Omschrijving:** Hiermee wordt bepaald of er momenteel beperkingen zijn ingesteld en hoe de beperkingen worden uitgedrukt. Het zou door een filtervraag of door één of meerdere segmentlidmaatschap kunnen zijn.
-   **Type:** string
-   **Mogelijke waarden:** &quot;none&quot; (standaardwaarde), &quot;directList&quot;, &quot;filter&quot;
+  **Veld:** optionSelectionType
+  **Titel:** Type profielbeperking
+  **Omschrijving:** Hiermee wordt bepaald of er momenteel beperkingen zijn ingesteld en hoe de beperkingen worden uitgedrukt. Het zou door een filtervraag of door één of meerdere publiekslidmaatschappen kunnen zijn.
+  **Type:** string
+  **Mogelijke waarden:** &quot;none&quot; (standaardwaarde), &quot;directList&quot;, &quot;filter&quot;
 
 * Optielijst
 
-   **Veld:** opties
-   **Titel:** Optielijst
-   **Omschrijving:** Een lijst die de opties direct specificeert zonder een filtervraag te evalueren. U kunt een optielijst of een regel met een optiefilter opgeven.
-   **Type:** array
+  **Veld:** opties
+  **Titel:** Optielijst
+  **Omschrijving:** Een lijst die de opties direct specificeert zonder een filtervraag te evalueren. U kunt een optielijst of een regel met een optiefilter opgeven.
+  **Type:** array
 
 <!--Missing title under Option List? Desc = An identifier of an decision option entity. The value value refers to an `@id` property of a decision option. Type: string-->
 
@@ -119,9 +119,9 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 * Plaatsings-id
 
-   **Titel:** Plaatsings-id
-   **Omschrijving:** Een verwijzing naar een plaatsingsentiteit. De waarde is de URI (@id) van de plaatsing waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/placement.
-   **Type:** string
+  **Titel:** Plaatsings-id
+  **Omschrijving:** Een verwijzing naar een plaatsingsentiteit. De waarde is de URI (@id) van de plaatsing waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/placement.
+  **Type:** string
 
 +++
 
@@ -156,13 +156,13 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 **Veld:** profileConstraintType
 **Titel:** Type profielbeperking
-**Omschrijving:** Hiermee wordt bepaald of er momenteel beperkingen zijn ingesteld en hoe de beperkingen worden uitgedrukt. Het zou door een regel of door één of meerdere segmentlidmaatschap kunnen zijn.
+**Omschrijving:** Hiermee wordt bepaald of er momenteel beperkingen zijn ingesteld en hoe de beperkingen worden uitgedrukt. Het zou door een regel of door één of meerdere publieksleden kunnen zijn.
 **Type:** string
 **Mogelijke waarden:**
 * &quot;none&quot; (standaardwaarde)
 * &quot;toelatingsregel&quot;: &quot;De profielbeperking wordt uitgedrukt als één enkele regel die aan waar moet evalueren alvorens de beperkte actie wordt toegestaan.&quot;
-* &quot;anySegments&quot;: &quot;De profielbeperking wordt uitgedrukt als één of meerdere segmenten en het profiel moet een lid van minstens één van hen zijn alvorens de beperkte actie wordt toegestaan.&quot;
-* &quot;allSegments&quot;: &quot;De profielbeperking wordt uitgedrukt als één of meerdere segmenten en het profiel moet een lid van elk van hen zijn alvorens de beperkte actie wordt toegestaan.&quot;
+* &quot;anySegments&quot;: &quot;De profielbeperking wordt uitgedrukt als een of meer soorten publiek en het profiel moet lid zijn van ten minste een van deze groepen voordat de beperkte handeling is toegestaan.&quot;
+* &quot;allSegments&quot;: &quot;De profielbeperking wordt uitgedrukt als een of meer soorten publiek en het profiel moet lid zijn van al deze groepen voordat de beperkte handeling is toegestaan.&quot;
 * &quot;regels&quot;: &quot;De profielbeperking wordt uitgedrukt als een aantal verschillende regels, bijvoorbeeld geschiktheid, toepasbaarheid, geschiktheid, die allemaal op true moeten worden beoordeeld voordat de beperkte handeling is toegestaan.&quot;
 
 +++
@@ -171,37 +171,37 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 **Veld:** segmentIdentities
 **Titel:** Segment-id&#39;s
-**Omschrijving:** Id&#39;s van de segmenten.
+**Omschrijving:** Identificatienummers van het publiek.
 **Type:** array
 
 * Id
 
-   **Veld:** _id
-   **Titel:** Id
-   **Omschrijving:** Identiteit van het segment in verwante namespace.
-   **Type:** string
+  **Veld:** _id
+  **Titel:** Id
+  **Omschrijving:** Identiteit van het publiek in de verwante naamruimte.
+  **Type:** string
 
 * namespace
 
-   **Veld:** namespace
-   **Titel:** Naamruimte
-   **Omschrijving:** De naamruimte die is gekoppeld aan de `xid` kenmerk.
-   **Type:** object
-   **Vereist:** &quot;code&quot;
+  **Veld:** namespace
+  **Titel:** Naamruimte
+  **Omschrijving:** De naamruimte die is gekoppeld aan de `xid` kenmerk.
+  **Type:** object
+  **Vereist:** &quot;code&quot;
 
    * Code
 
-      **Veld:** code
-      **Titel:** Code
-      **Omschrijving:** De code is een leesbare id voor de naamruimte en kan worden gebruikt om de technische naamruimte-id aan te vragen die wordt gebruikt voor het verwerken van identiteitsgrafieken.
-      **Type:** string
+     **Veld:** code
+     **Titel:** Code
+     **Omschrijving:** De code is een leesbare id voor de naamruimte en kan worden gebruikt om de technische naamruimte-id aan te vragen die wordt gebruikt voor het verwerken van identiteitsgrafieken.
+     **Type:** string
 
 * Ervings-id
 
-   **Veld:** xid
-   **Titel:** Ervings-id
-   **Omschrijving:** Wanneer deze waarde aanwezig is, vertegenwoordigt deze een naamruimte-id die uniek is voor alle naamruimte-bereikid&#39;s in alle naamruimten.
-   **Type:** string
+  **Veld:** xid
+  **Titel:** Ervings-id
+  **Omschrijving:** Wanneer deze waarde aanwezig is, vertegenwoordigt deze een naamruimte-id die uniek is voor alle naamruimte-bereikid&#39;s in alle naamruimten.
+  **Type:** string
 
 +++
 
@@ -223,25 +223,25 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 * Scorefunctie
 
-   **Veld:** function
-   **Titel:** Scorefunctie
-   **Omschrijving:** Een verwijzing naar een functie die een numerieke score voor deze beslissingsoptie berekent. Beslissingsopties worden vervolgens met die score geordend (gerangschikt). De waarde van deze eigenschap is de URI (@id) van de functie die met één optie tegelijk moet worden aangeroepen. Zie schema https://ns.adobe.com/experience/decisioning/function.
-   **Type:** string
+  **Veld:** function
+  **Titel:** Scorefunctie
+  **Omschrijving:** Een verwijzing naar een functie die een numerieke score voor deze beslissingsoptie berekent. Beslissingsopties worden vervolgens met die score geordend (gerangschikt). De waarde van deze eigenschap is de URI (@id) van de functie die met één optie tegelijk moet worden aangeroepen. Zie schema https://ns.adobe.com/experience/decisioning/function.
+  **Type:** string
 
 * Type beoordeling van bestelling**
 
-   **Veld:** orderEvaluationType
-   **Titel:** Type beoordeling van bestelling
-   **Omschrijving:** Specificeert welk mechanisme van de ordeevaluatie wordt gebruikt, statische prioriteit van de besluitvormingsopties, een scorefunctie die een numerieke waarde voor elke optie of een rangschikkingsstrategie berekent die een lijst ontvangt om het te bestellen.
-   **Type:** string
-   **Mogelijke waarden:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
+  **Veld:** orderEvaluationType
+  **Titel:** Type beoordeling van bestelling
+  **Omschrijving:** Specificeert welk mechanisme van de ordeevaluatie wordt gebruikt, statische prioriteit van de besluitvormingsopties, een scorefunctie die een numerieke waarde voor elke optie of een rangschikkingsstrategie berekent die een lijst ontvangt om het te bestellen.
+  **Type:** string
+  **Mogelijke waarden:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
 * Rangschikkingsstrategie
 
-   **Veld:** rangschikkingStrategie
-   **Titel:** Rangschikkingsstrategie
-   **Omschrijving:** Een verwijzing naar een strategie die een lijst van besluitvormingsoptie rangschikt. Beslissingsopties worden geretourneerd in een geordende lijst. De waarde van deze eigenschap is de URI (@id) van de functie die met één optie tegelijk moet worden aangeroepen. Zie schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
-   **Type:** string
+  **Veld:** rangschikkingStrategie
+  **Titel:** Rangschikkingsstrategie
+  **Omschrijving:** Een verwijzing naar een strategie die een lijst van besluitvormingsoptie rangschikt. Beslissingsopties worden geretourneerd in een geordende lijst. De waarde van deze eigenschap is de URI (@id) van de functie die met één optie tegelijk moet worden aangeroepen. Zie schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
+  **Type:** string
 
 +++
 

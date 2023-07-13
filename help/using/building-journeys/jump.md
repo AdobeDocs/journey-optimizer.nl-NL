@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: springen, activiteit, reis, splitsen, splitsen
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 2%
@@ -58,8 +58,8 @@ Bij reis B wordt het eerste evenement intern geactiveerd, via de **[!UICONTROL J
 
 * De **[!UICONTROL Jump]** activiteit is alleen beschikbaar bij reizen die een naamruimte gebruiken.
 * U kunt alleen naar een reis springen die dezelfde naamruimte gebruikt als de oorspronkelijke reis.
-* U kunt niet naar een reis springen die begint met een **Segmentkwalificatie** gebeurtenis of **Segment lezen**.
-* U kunt geen **[!UICONTROL Jump]** en **Segmentkwalificatie** gebeurtenis of **Segment lezen** op dezelfde reis.
+* U kunt niet naar een reis springen die begint met een **Poortkwalificatie** gebeurtenis of **Publiek lezen**.
+* U kunt geen **[!UICONTROL Jump]** en **Poortkwalificatie** gebeurtenis of **Publiek lezen** op dezelfde reis.
 * U kunt maximaal **[!UICONTROL Jump]** activiteiten die u op reis nodig hebt. Na een **[!UICONTROL Jump]**, kunt u elke gewenste activiteit toevoegen.
 * U kunt zo veel sprongniveaus hebben zoals nodig. Reis A springt bijvoorbeeld naar reis B, die naar reis C gaat enzovoort.
 * De doelreis kan ook het aantal **[!UICONTROL Jump]** activiteiten indien nodig.
@@ -81,7 +81,7 @@ Bij reis B wordt het eerste evenement intern geactiveerd, via de **[!UICONTROL J
    ![](assets/jump2.png)
 
 1. Klik in het dialoogvenster **Doelreis** veld.
-De lijst toont alle reisversies die ontwerp, levend of in testwijze zijn. Reizen die een andere naamruimte gebruiken of die beginnen met een **Segmentkwalificatie** is niet beschikbaar. Doeltrajecten die een luspatroon zouden maken, worden ook uitgefilterd.
+De lijst toont alle reisversies die ontwerp, levend of in testwijze zijn. Reizen die een andere naamruimte gebruiken of die beginnen met een **Poortkwalificatie** is niet beschikbaar. Doeltrajecten die een luspatroon zouden maken, worden ook uitgefilterd.
 
    ![](assets/jump3.png)
 

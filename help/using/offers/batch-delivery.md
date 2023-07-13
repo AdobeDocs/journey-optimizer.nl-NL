@@ -1,8 +1,8 @@
 ---
 title: Batchbeslissing
-description: Leer hoe u beslissingen kunt aanbieden voor alle profielen in een bepaald Adobe Experience Platform-segment.
+description: Leer hoe u beslissingen kunt aanbieden aan alle profielen in een bepaald Adobe Experience Platform-publiek.
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 0%
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ## Aan de slag met batch-beslissingen {#start}
 
-Journey Optimizer stelt u in staat om beslissingen te geven voor alle profielen in een bepaald Adobe Experience Platform-segment.
+Met Journey Optimizer kunt u besluiten aanbieden aan alle profielen in een bepaald Adobe Experience Platform-publiek.
 
-Hiervoor moet u in Journey Optimizer een taakverzoek maken dat informatie bevat over het segment waarop u zich wilt richten en over het besluit dat u wilt aanbieden. De aanbiedingsinhoud voor elk profiel in het segment wordt dan geplaatst in een dataset van Adobe Experience Platform waar het voor de werkschema&#39;s van de douanepartij beschikbaar is.
+Hiervoor moet u in Journey Optimizer een aanvraag voor een taak maken die informatie bevat over het doelpubliek en het besluit om een aanbieding te gebruiken. De aanbiedingsinhoud voor elk profiel in het publiek wordt dan geplaatst in een dataset van Adobe Experience Platform waar het voor de werkschema&#39;s van de douanepartij beschikbaar is.
 
 Batchlevering kan ook worden uitgevoerd met behulp van API&#39;s. Raadpleeg voor meer informatie de [Batchbeslissings-API-documentatie](api-reference/offer-delivery-api/batch-decisioning-api.md).
 
@@ -25,11 +25,11 @@ Voordat u een taakaanvraag configureert, moet u controleren of u het volgende he
 
 * **Een gegevensset** in Adobe Experience Platform. Deze dataset zal worden gebruikt om het beslissingsresultaat op te slaan gebruikend het schema &quot;ODE DecisionEvents&quot;. Meer informatie in het dialoogvenster [Documentatie over gegevenssets](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html).
 
-* **Een segment** in Adobe Experience Platform. Het segment zou dan moeten worden geëvalueerd en worden bijgewerkt. Leer hoe te om de evaluatie van het segmentlidmaatschap bij te werken in [Documentatie voor segmentatieservice](https://www.adobe.com/go/segmentation-overview-en)
+* **Een publiek** in Adobe Experience Platform. Het publiek moet worden geëvalueerd en vervolgens worden bijgewerkt. Leer hoe u de evaluatie van het publiekslidmaatschap kunt bijwerken in het dialoogvenster [Documentatie voor segmentatieservice](http://www.adobe.com/go/segmentation-overview-en)
 
-   >[!NOTE]
-   >
-   >Een batchtaak loopt van de profielmomentopname die één keer per dag plaatsvindt. Met de optie Batch-beslissingen wordt de frequentie vastgelegd en worden profielen altijd geladen vanaf de meest recente momentopname. Wacht 24 uur nadat u een segment hebt gemaakt voordat u de batch-beslissings-API uitprobeert.
+  >[!NOTE]
+  >
+  >Een batchtaak loopt van de profielmomentopname die één keer per dag plaatsvindt. Met de optie Batch-beslissingen wordt de frequentie vastgelegd en worden profielen altijd geladen vanaf de meest recente momentopname. Wacht 24 uur nadat u een publiek hebt gemaakt voordat u de batch-beslissings-API uitprobeert.
 
 * **Een besluit** in Adobe Journey Optimizer. [Leer hoe u een beslissing maakt](offer-activities/create-offer-activities.md)
 
@@ -45,9 +45,9 @@ Volg onderstaande stappen om een nieuwe taakaanvraag te maken.
 
 1. Geef uw taakverzoek een naam en selecteer vervolgens de gegevensset waarin de taakgegevens moeten worden verzonden.
 
-1. Selecteer het Adobe Experience Platform-segment dat u als doel wilt instellen.
+1. Selecteer het Adobe Experience Platform-publiek dat u als doel wilt instellen.
 
-1. Selecteer één of veelvoudige het besluitvormingswerkingsgebied van de aanbieding dat u wilt gebruiken om aanbiedingen aan het segment te leveren:
+1. Selecteer een of meer keuzelijsten voor biedingsbesluiten die u wilt gebruiken om aanbiedingen aan het publiek te leveren:
    1. Selecteer een plaatsing in de lijst.
    1. De beslissingen die beschikbaar zijn voor de geselecteerde plaatsingsweergave. Selecteer de gewenste beslissing en klik op **[!UICONTROL Add]**.
    1. Herhaal de bewerking om zoveel beslissingsbereik toe te voegen als u wilt.
@@ -93,11 +93,11 @@ Als er een fout optreedt terwijl de taakaanvraag wordt uitgevoerd, krijgt deze d
 
 De tijd van begin tot eind voor elke partijbaan is de duur van de tijd de werkbelasting aan de tijd wordt gecreeerd wanneer het beslissingsresultaat in de outputdataset beschikbaar is.
 
-De segmentgrootte is de belangrijkste factor die van invloed is op de eindtijd van de batch-beslissing. Als voor de in aanmerking komende aanbieding een algemeen frequentiegrenswaarde is ingeschakeld, duurt het nemen van batchbeslissingen meer tijd om dit te voltooien. Hieronder volgen een aantal benaderingen van de verwerkingstijd van begin tot eind voor hun respectieve segmentgrootte, zowel met als zonder frequentietoewijzing voor in aanmerking komende aanbiedingen:
+De publieksgrootte is de belangrijkste factor die de partijbeslissingstijd van begin tot eind beïnvloedt. Als voor de in aanmerking komende aanbieding een algemeen frequentiegrenswaarde is ingeschakeld, duurt het nemen van batchbeslissingen meer tijd om dit te voltooien. Hieronder vindt u een aantal benaderingen van de end-to-end verwerkingstijd voor de verschillende doelformaten, zowel met als zonder aftopping van de frequentie voor in aanmerking komende aanbiedingen:
 
 Met frequentiegrens ingeschakeld voor in aanmerking komende aanbiedingen:
 
-| Segmentgrootte | Eind-aan-eind verwerkingstijd |
+| Grootte publiek | Eind-aan-eind verwerkingstijd |
 |--------------|----------------------------|
 | 10.000 profielen of minder | 7 minuten |
 | 1 miljoen profielen of minder | 30 minuten |
@@ -105,7 +105,7 @@ Met frequentiegrens ingeschakeld voor in aanmerking komende aanbiedingen:
 
 Zonder frequentiegrens voor in aanmerking komende aanbiedingen:
 
-| Segmentgrootte | Eind-aan-eind verwerkingstijd |
+| Grootte publiek | Eind-aan-eind verwerkingstijd |
 |--------------|----------------------------|
 | 10.000 profielen of minder | 6 minuten |
 | 1 miljoen profielen of minder | 8 minuten |

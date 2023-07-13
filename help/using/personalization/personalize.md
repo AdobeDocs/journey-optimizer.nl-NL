@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: expressie, editor, start, personalisatie
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 13%
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ Discover [!DNL Adobe Journey Optimizer] personaliseringsmogelijkheden om uw beri
 
 ## Verpersoonlijkingsexpressies maken met behulp van een speciale syntaxis {#syntax}
 
-[!DNL Journey Optimizer] gebruikt een **inline** eenvoudige verpersoonlijkingssyntaxis die op Handlebars wordt gebaseerd die u toestaat om uitdrukkingen tot stand te brengen met inhoud die door dubbele krullende steunen wordt ingesloten **{{}**. U kunt meerdere expressies zonder beperkingen toevoegen in dezelfde inhoud of hetzelfde veld. Meer informatie in [Personalisatiesyntaxis](personalization-syntax.md).
+[!DNL Journey Optimizer] gebruikt een **inline** eenvoudige verpersoonlijkingssyntaxis die op Handlebars wordt gebaseerd die u toestaat om uitdrukkingen tot stand te brengen met inhoud die door dubbele krullende steunen wordt ingesloten **{{}}**. U kunt meerdere expressies zonder beperkingen toevoegen in dezelfde inhoud of hetzelfde veld. Meer informatie in [Personalisatiesyntaxis](personalization-syntax.md).
 
 **Voorbeelden:**
 
@@ -59,6 +59,6 @@ Leer hoe u contextuele gebeurtenisinformatie van een journey kunt gebruiken om e
 
 >[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
-Leer hoe u op profielen gebaseerde personalisatie aan een bericht kunt toevoegen en hoe u segmentlidmaatschap kunt gebruiken als voorwaarde voor een personalisatieblokkering.
+Leer hoe u op profiel gebaseerde personalisatie aan een bericht toevoegt en hoe u het lidmaatschap van een publiek als voorwaarde aan een verpersoonlijkingsblok kunt gebruiken.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)

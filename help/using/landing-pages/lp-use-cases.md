@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: landen, landingspagina, hoofdletter gebruiken
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 1e149c33159ba8b5d96f5752bddc7ebe9f3934fe
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 2%
@@ -74,9 +74,9 @@ Bovendien kunt u een bevestigingsbericht verzenden naar de ontvangers die zich h
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. De **[!UICONTROL Events]** categorie en een **[!UICONTROL Segment Qualification]** op uw canvas. [Meer informatie](../building-journeys/segment-qualification-events.md)
+1. De **[!UICONTROL Events]** categorie en zet een **[!UICONTROL Audience Qualification]** op uw canvas. [Meer informatie](../building-journeys/audience-qualification-events.md)
 
-1. Klik in het dialoogvenster **[!UICONTROL Segment]** en selecteer de abonnementenlijst die u hebt gemaakt.
+1. Klik in het dialoogvenster **[!UICONTROL Audience]** en selecteer de abonnementenlijst die u hebt gemaakt.
 
    ![](assets/lp_subscription-uc-confirm-journey.png)
 
@@ -227,7 +227,7 @@ To do this, you need to create an event containing the landing page submission i
 
     ![](assets/lp_subscription-uc-event-create-journey.png)
 
-1. In the journey, unfold the **[!UICONTROL Events]** category and drop the event that you created into the canvas. Learn more [here](../building-journeys/segment-qualification-events.md)
+1. In the journey, unfold the **[!UICONTROL Events]** category and drop the event that you created into the canvas. Learn more [here](../building-journeys/audience-qualification-events.md)
 
     ![](assets/lp_subscription-uc-journey-event.png)
 

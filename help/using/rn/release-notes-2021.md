@@ -4,7 +4,7 @@ product: journey optimizer
 title: Opmerkingen bij de vorige release (2021)
 description: Opmerkingen bij de release van Journey Optimizer 2021
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2065'
 ht-degree: 9%
@@ -65,7 +65,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 <tbody>
 <tr>
 <td>
-<p>U kunt de inhoud van uw aanbiedingen nu aanpassen met Adobe Experience Platform-profielkenmerken en -segmenten en dezelfde expressie-editorcomponent gebruiken die in de gehele gebruikersinterface van Journey Optimizer wordt gebruikt. </p>
+<p>U kunt de inhoud van uw aanbiedingen nu personaliseren met Adobe Experience Platform-profielkenmerken en -soorten publiek, met dezelfde expressie-editorcomponent die in de hele gebruikersinterface van Journey Optimizer wordt gevonden. </p>
 <p>Raadpleeg de <a href="../offers/offer-library/creating-personalized-offers.md#custom-text">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -79,7 +79,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 **Journeys**
 
-* **Expression-editor** - Als energiegebruiker kunt u nu functies gebruiken om met kaarten te werken. Deze mogelijkheid kan worden benut met de abonnementenlijsten. Als voorbeeld, van een segment, kunt u een e-mailadres van een abonnementenlijst nu krijgen. [Meer informatie in dit voorbeeld](../building-journeys/message-to-subscribers-uc.md)
+* **Expression-editor** - Als energiegebruiker kunt u nu functies gebruiken om met kaarten te werken. Deze mogelijkheid kan worden benut met de abonnementenlijsten. Als voorbeeld kunt u vanuit een publiek nu een e-mailadres ophalen uit een abonnementenlijst. [Meer informatie in dit voorbeeld](../building-journeys/message-to-subscribers-uc.md)
 
 * **Toezicht** - De stapgebeurtenissen voor de live ritten en de testmodus zijn verbeterd. [Nieuwe velden](../reports/sharing-field-list.md#serviceevents) zijn toegevoegd met betrekking tot exporttaken voor profielen. Voor een betere gebruikerservaring zijn de velden voor stapgebeurtenissen nu ingedeeld in verschillende categorieën. Alle gebeurtenisvelden van vorige stappen zijn nog steeds beschikbaar in het dialoogvenster [stepEvents](../reports/sharing-legacy-fields.md) categorie.
 * **Toegankelijkheid** - Er zijn verbeteringen aangebracht in de toegankelijkheid van reizen.
@@ -262,12 +262,12 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 * **Dynamische koppen** - U kunt nu dynamische gegevens doorgeven in HTTP-headerparameters. Deze parameters kunnen door de integratiesystemen worden gebruikt die de vraag van HTTP van de reisactie, bijvoorbeeld timestamp of het volgen identiteitskaart ontvangen. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
 * **Dynamische URL-paden** - U kunt nu dynamische URL-paden instellen voor aangepaste handelingen. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
-* De algemene vertragingssnelheid voor gelezen segmenten is veranderd van 17.000 in 20.000 berichten per seconde. [Meer informatie](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* De totale snelheid voor leessoorten is gewijzigd van 17.000 naar 20.000 berichten per seconde. [Meer informatie](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Gebruikersinterface**
 
 * **Zoeken** - Op elke pagina, kunt u bedrijfsvoorwerpen en hulpartikelen van het Verenigde Experience Cloud onderzoeksgebied nu direct zoeken. [Meer informatie](../start/user-interface.md#unified-search)
-* **Recenten** - De weergave van recente elementen van de startpagina van Adobe Journey Optimizer wordt nu uitgebreid naar extra zakelijke objecten. Met deze update, omvatten de kortere weg aan uw onlangs betreden Berichten, Reizen, Segmenten, Schema&#39;s, Datasets, Gegevensbronnen, Gebeurtenissen, Acties, Bronnen, en Doelen. [Meer informatie](../action/about-custom-action-configuration.md#passing-collection)
+* **Recenten** - De weergave van recente elementen van de startpagina van Adobe Journey Optimizer wordt nu uitgebreid naar extra zakelijke objecten. Met deze update, omvatten de kortere weg aan uw onlangs betreden Berichten, Reizen, Soorten, Schema&#39;s, Datasets, Gegevensbronnen, Gebeurtenissen, Acties, Bronnen, en Doelen. [Meer informatie](../action/about-custom-action-configuration.md#passing-collection)
 
 **Inhoud ontwerpen**
 
@@ -337,12 +337,12 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 **Journeys**
 
-* De algemene vertragingssnelheid van alle gelezen segmenten die gelijktijdig in dezelfde sandbox worden uitgevoerd, is beperkt tot 17.000 berichten per seconde. [Meer informatie](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* De algemene snelheid waarmee alle leessoorten die tegelijkertijd in dezelfde sandbox worden uitgevoerd, worden vertraagd, is beperkt tot 17.000 berichten per seconde. [Meer informatie](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * De **Cacheduur** Het veld is verwijderd uit het configuratievenster van de gegevensbron. [Meer informatie](../datasource/about-data-sources.md)
 * Voor externe gegevensbronnen, wordt een het maximum van 15 vraag per seconde nu automatisch bepaald. [Meer informatie](../configuration/external-systems.md#capping)
 * Voor live reizen worden in het scherm met de reiseigenschappen nu de publicatiedatum en de naam van de gebruiker weergegeven die de reis heeft gepubliceerd. [Meer informatie](../building-journeys/journey-gs.md#change-properties)
 * In het scherm van de reislijst, is het filter van het reistype toegevoegd. [Meer informatie](../start/user-interface.md#filter-lists)
-* De **[!UICONTROL Throttling rate]** parameter is toegevoegd in de Gelezen segmentactiviteit. [Meer informatie](../building-journeys/read-segment.md#configuring-segment-trigger-activity)
+* De **[!UICONTROL Throttling rate]** parameter is toegevoegd aan de activiteit voor het lezen-publiek. [Meer informatie](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Voorvertonen en testen**
 

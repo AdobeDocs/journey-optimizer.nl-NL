@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: aanbiedingen, beslissingen, e-mails, personalisatie, beslissingen
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Volg onderstaande stappen om de verschillende aanbiedingen die deel uitmaken van
 
 >[!NOTE]
 >
->U hebt testprofielen nodig om een voorbeeld van uw berichten te kunnen bekijken. Leer hoe u [testprofielen maken](../segment/creating-test-profiles.md).
+>U hebt testprofielen nodig om een voorbeeld van uw berichten te kunnen bekijken. Leer hoe u [testprofielen maken](../audience/creating-test-profiles.md).
 
 1. Selecteer de testprofielen die u wilt gebruiken om een voorvertoning van de aanbieding weer te geven:
 
@@ -85,7 +85,7 @@ Volg onderstaande stappen om de verschillende aanbiedingen die deel uitmaken van
 
       >[!NOTE]
       >
-      >In dit voorbeeld gebruiken wij **E-mail** naamruimte. Meer informatie over naamruimten in Adobe Experience Platform [in deze sectie](../segment/get-started-identity.md).
+      >In dit voorbeeld gebruiken wij **E-mail** naamruimte. Meer informatie over naamruimten in Adobe Experience Platform [in deze sectie](../audience/get-started-identity.md).
 
    1. In de **[!UICONTROL Identity value]** voert u de waarde in die het testprofiel moet identificeren. In dit voorbeeld voert u het e-mailadres van een testprofiel in.
 
@@ -94,7 +94,6 @@ Volg onderstaande stappen om de verschillende aanbiedingen die deel uitmaken van
    1. Voeg andere profielen toe zodat u verschillende varianten van het bericht afhankelijk van de profielgegevens kunt testen.
 
       ![](assets/deliver-offer-test-profiles.png)
-
 
 1. Klik op de knop **[!UICONTROL Preview]** om uw bericht te testen en selecteer vervolgens een testprofiel. Het aanbod dat overeenkomt met het geselecteerde profiel (een vrouw) wordt weergegeven.
 

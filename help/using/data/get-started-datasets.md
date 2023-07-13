@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 1%
@@ -40,9 +40,9 @@ Hier zijn de verschillende beschikbare datasets:
 
 **Rapportage**
 
-* _Rapportage - Gegevensset voor feedbackgebeurtenis_: Berichtenleveringslogboeken. Informatie over alle berichtlevering door Journey Optimizer voor rapportage en het creëren van segmenten. De terugkoppeling van e-mailISPs op grenzen wordt ook geregistreerd in deze dataset.
-* _Rapportage - Gegevensset over gebeurtenissen voor het bijhouden van e-mail_: Interactielogboeken voor e-mailkanaal die worden gebruikt voor rapportage en het maken van segmenten. Gegevens die zijn opgeslagen, bevatten informatie over acties die de eindgebruiker via e-mail heeft uitgevoerd (openen, klikken, enz.).
-* _Rapportage - Gegevensset van gebeurtenissen voor het bijhouden van push_: Interactielogboeken voor Push-kanaal die worden gebruikt voor rapportage en het maken van segmenten. Opgeslagen informatie over acties die door de eindgebruiker op dupberichten worden uitgevoerd.
+* _Rapportage - Gegevensset voor feedbackgebeurtenis_: Berichtenleveringslogboeken. Informatie over alle berichtlevering van Journey Optimizer voor rapportage en het creëren van publiek. De terugkoppeling van e-mailISPs op grenzen wordt ook geregistreerd in deze dataset.
+* _Rapportage - Gegevensset over gebeurtenissen voor het bijhouden van e-mail_: Interactielogboeken voor e-mailkanaal die worden gebruikt voor rapportage en het maken van doelgroepen. Gegevens die zijn opgeslagen, bevatten informatie over acties die de eindgebruiker via e-mail heeft uitgevoerd (openen, klikken, enz.).
+* _Rapportage - Gegevensset van gebeurtenissen voor het bijhouden van push_: Interactielogboeken voor pushkanaal die worden gebruikt voor rapportage en het maken van doelgroepen. Opgeslagen informatie over acties die door de eindgebruiker op dupberichten worden uitgevoerd.
 * _Rapportage - trapsgewijze gebeurtenis_: Vangt Alle Gebeurtenissen van de Ervaring van de Stap van de Reis die van Journey Optimizer worden geproduceerd om door de diensten zoals het Melden te worden verbruikt. Ook essentieel voor het samenstellen van rapporten in Customer Journey Analytics voor YoY-analyse. Bleed aan een Metagegevens van de Reis.
 * _Verslaggeving - Reizen_: Metagegevensset met informatie over de behuizing van elke stap op een reis.
 * _Rapportage - BCC_: Dataset Feedbackgebeurtenis waarin de leveringslogboeken voor BCC-e-mails worden opgeslagen. Te gebruiken voor rapportagedoeleinden.
@@ -88,7 +88,7 @@ Meer informatie over labels voor gegevensbeheer en gegevensgebruik vindt u in de
 
 ## Monsters en gebruiksgevallen{#uc-datasets}
 
-Leer hoe u een schema, een gegevensset en nieuwe gegevens maakt om testprofielen toe te voegen in Adobe Journey Optimizer in [deze end-to-end steekproef](../segment/creating-test-profiles.md)
+Leer hoe u een schema, een gegevensset en nieuwe gegevens maakt om testprofielen toe te voegen in Adobe Journey Optimizer in [deze end-to-end steekproef](../audience/creating-test-profiles.md)
 
 Meer informatie over het maken van gegevenssets in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}.
 

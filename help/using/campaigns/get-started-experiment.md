@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1942'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Als u bijvoorbeeld de inhoud van de berichttekst wijzigt, is het onwaarschijnlij
 +++Voer de test uit op de juiste publieksgrootte of voor lang genoeg
 
 Als je langer tests uitvoert, kun je kleinere verschillen in het doel meten tussen behandelingen. Nochtans, als de basislijnwaarde van uw doel metrisch is, dan zult u grotere steekproefgrootte nodig hebben.
-Het aantal gebruikers dat in uw experiment moet worden omvat hangt van de effect grootte af u wenst te ontdekken, de variantie of de spreiding van uw doel metrisch, evenals uw tolerantie voor vals positieve en vals negatieve fouten. In klassieke experimenten kunt u een [voorbeeldgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){_blank} om te bepalen hoe lang u de test moet uitvoeren.
+Het aantal gebruikers dat in uw experiment moet worden omvat hangt van de effect grootte af u wenst te ontdekken, de variantie of de spreiding van uw doel metrisch, evenals uw tolerantie voor vals positieve en vals negatieve fouten. In klassieke experimenten kunt u een [voorbeeldgroottecalculator](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){_blank} om te bepalen hoe lang u uw test moet in werking stellen.
 +++
 
 +++Statistische onzekerheid begrijpen
@@ -101,7 +101,7 @@ Statistische methoden bieden ons een manier om die onzekerheid te formaliseren. 
 
 +++Nieuwe hypothesen maken en voortdurend testen
 
-Om echte bedrijfsinzichten te bereiken, zou u zich aan enkel één Experiment moeten houden. In plaats daarvan, follow-up experimenten door nieuwe hypothesen te formuleren, en nieuwe tests met verschillende veranderingen, op verschillende segmenten, en door het effect op de verschillende metriek te onderzoeken.
+Om echte bedrijfsinzichten te bereiken, zou u zich aan enkel één Experiment moeten houden. In plaats daarvan, follow-up experimenten door nieuwe hypothesen te formuleren, en nieuwe tests met verschillende veranderingen, op verschillende soorten publiek, en door de invloed op de verschillende metriek te onderzoeken.
 +++
 
 ## De resultaten van uw experimenten interpreteren {#interpret-results}
@@ -161,21 +161,21 @@ Nadat u uw experiment hebt uitgevoerd, zijn er verschillende mogelijke vervolgac
 
 * **Winnende ideeën implementeren**
 
-   Met een eenduidig resultaat kunt u dit winnende idee implementeren door de best presterende behandeling naar al uw klanten te sturen of door nieuwe campagnes te maken waar de structuur van de best presterende behandeling wordt gerepliceerd.
-   </br>Let op: in een dynamische omgeving, wat goed werkt in één keer, werkt later misschien niet goed.
+  Met een eenduidig resultaat kunt u dit winnende idee implementeren door de best presterende behandeling naar al uw klanten te sturen of door nieuwe campagnes te maken waar de structuur van de best presterende behandeling wordt gerepliceerd.
+  </br>Let op: in een dynamische omgeving, wat goed werkt in één keer, werkt later misschien niet goed.
 
 * **Follow-uptests uitvoeren**
 
-   Soms zijn de resultaten van uw experimenten onduidelijk, ofwel omdat er onvoldoende profielen waren om verschillen in behandeling op te sporen, ofwel omdat de door u gedefinieerde behandelingen niet voldoende verschillend waren.
+  Soms zijn de resultaten van uw experimenten onduidelijk, ofwel omdat er onvoldoende profielen waren om verschillen in behandeling op te sporen, ofwel omdat de door u gedefinieerde behandelingen niet voldoende verschillend waren.
 
-   Als de hypothese die u aan het testen was nog steeds relevant is, kan het uitvoeren van een follow-uptest op een groter of ander publiek, of het aanpassen van uw behandelingen zodat er duidelijkere verschillen zijn, de beste follow-upactie zijn.
+  Als de hypothese die u aan het testen was nog steeds relevant is, kan het uitvoeren van een follow-uptest op een groter of ander publiek, of het aanpassen van uw behandelingen zodat er duidelijkere verschillen zijn, de beste follow-upactie zijn.
 
 * **Diepgaande analyses uitvoeren**
 
-   De behandeling die goed werkt voor één publiek is soms niet de beste behandeling voor een ander publiek. Het doen van diepgaande analyses over hoe de behandelingen zich voor verschillende segmenten gedragen helpen ideeën voor nieuwe tests produceren.
+  De behandeling die goed werkt voor één publiek is soms niet de beste behandeling voor een ander publiek. Door diepgaande analyses uit te voeren over de manier waarop behandelingen voor verschillende doelgroepen zich gedragen, worden ideeën voor nieuwe tests gegenereerd.
 
-   Op dezelfde manier kan het bestuderen van de prestaties van elke behandeling met verschillende meetwaarden ook een uitgebreider beeld van uw experimenten geven.
+  Op dezelfde manier kan het bestuderen van de prestaties van elke behandeling met verschillende meetwaarden ook een uitgebreider beeld van uw experimenten geven.
 
-   >[!CAUTION]
-   >
-   >Meer analyses betekenen een grotere kans om een ongewenst effect, of vals positief te ontdekken.
+  >[!CAUTION]
+  >
+  >Meer analyses betekenen een grotere kans om een ongewenst effect, of vals positief te ontdekken.

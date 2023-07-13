@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: voorvertoning, inhoud, e-mail, proefdruk, test, profiel
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Om mogelijke fouten in e-mailinhoud of verpersoonlijkingsmontages te ontdekken, 
 >
 >U hebt testprofielen nodig om uw berichten te kunnen bekijken en proefdrukken te kunnen verzenden.
 >
->Leer hoe u testprofielen maakt in [deze pagina](../segment/creating-test-profiles.md).
+>Leer hoe u testprofielen maakt in [deze pagina](../audience/creating-test-profiles.md).
 
 Als u uw e-mailinhoud wilt testen, moet u:
 
@@ -52,7 +52,7 @@ Bovendien kunt u uw **Litmus** account [!DNL Journey Optimizer] om direct een vo
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html#email-rendering" text="E-mailweergave"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html#preview-email" text="Voorvertoning"
 
-Gebruiken [Testprofielen](../segment/creating-test-profiles.md) om extra ontvangers te richten die niet de bepaalde het richten criteria aanpassen.
+Gebruiken [Testprofielen](../audience/creating-test-profiles.md) om extra ontvangers te richten die niet de bepaalde het richten criteria aanpassen.
 
 Volg onderstaande stappen om testprofielen te selecteren:
 
@@ -68,7 +68,7 @@ Volg onderstaande stappen om testprofielen te selecteren:
 
    ![](assets/previewselect-namespace.png)
 
-   Meer informatie over naamruimten in Adobe Experience Platform [in deze sectie](../segment/get-started-identity.md).
+   Meer informatie over naamruimten in Adobe Experience Platform [in deze sectie](../audience/get-started-identity.md).
 
    In het onderstaande voorbeeld gebruiken we de **E-mail** naamruimte.
 

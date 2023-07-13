@@ -9,7 +9,7 @@ role: User, Developer
 level: Intermediate
 keywords: zandbak, reis, exemplaar, milieu
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 1%
@@ -38,7 +38,7 @@ ht-degree: 1%
 >title="Afhankelijke objecten"
 >abstract="Dit is de lijst van bijbehorende voorwerpen die in de reis worden gebruikt. In deze lijst worden de naam, het objecttype en de interne Journey Optimizer-id weergegeven."
 
-Met Journey Optimizer kunt u een volledige reis van de ene naar de andere sandbox kopiëren. U kunt bijvoorbeeld een traject kopiëren van de zandbakomgeving van het werkgebied naar de productiefandbox. Naast de reis zelf kopieert Journey Optimizer ook de meeste objecten die de reis afhangt van: segmenten, oppervlakken (d.w.z. voorinstellingen), schema&#39;s, gebeurtenissen en acties. Raadpleeg deze voor meer informatie over gekopieerde objecten [sectie](#limitations).
+Met Journey Optimizer kunt u een volledige reis van de ene naar de andere sandbox kopiëren. U kunt bijvoorbeeld een traject kopiëren van de zandbakomgeving van het werkgebied naar de productiefandbox. Naast de reis zelf kopieert Journey Optimizer ook de meeste objecten die de reis afhangt van: publiek, oppervlakken (d.w.z. voorinstellingen), schema&#39;s, gebeurtenissen en acties. Raadpleeg deze voor meer informatie over gekopieerde objecten [sectie](#limitations).
 
 >[!CAUTION]
 >
@@ -80,32 +80,32 @@ Mogelijk worden niet alle gekoppelde elementen gekopieerd naar de doelsandbox. A
 
 De volgende objecten worden gekopieerd:
 
-* Segment
+* Audience
 
-   Een segment kan slechts eenmaal van de ene naar de andere sandbox worden gekopieerd. Als een segment eenmaal is gekopieerd, kan het niet worden bewerkt in de doelsandbox.
+  Een publiek kan slechts eenmaal van de ene naar de andere sandbox worden gekopieerd. Wanneer een publiek is gekopieerd, kan het niet worden bewerkt in de doelsandbox.
 
 * Schema
 
-   De schema&#39;s die in deze reis worden gebruikt worden gekopieerd.
+  De schema&#39;s die in deze reis worden gebruikt worden gekopieerd.
 
 * Bericht
 
-   De activiteiten van de kanaalactie die in de reis worden gebruikt. De gebieden die voor verpersoonlijking in het bericht worden gebruikt worden niet gecontroleerd op volledigheid. Inhoudsblokken worden niet gekopieerd.
+  De activiteiten van de kanaalactie die in de reis worden gebruikt. De gebieden die voor verpersoonlijking in het bericht worden gebruikt worden niet gecontroleerd op volledigheid. Inhoudsblokken worden niet gekopieerd.
 
 * Reis - canvasdetails
 
-   De representatie van de reis op het canvas, inclusief de objecten op de reis, zoals voorwaarden, handelingen, gebeurtenissen, gelezen segmenten, enz. De sprongactiviteit wordt uitgesloten van het exemplaar.
+  De representatie van de reis op het canvas, inclusief de objecten op de reis, zoals voorwaarden, handelingen, gebeurtenissen, leespubliek, enz. De sprongactiviteit wordt uitgesloten van het exemplaar.
 
 * Gebeurtenis
 
-   De gebeurtenissen en de gebeurtenisdetails die in de reis worden gebruikt worden gekopieerd.
+  De gebeurtenissen en de gebeurtenisdetails die in de reis worden gebruikt worden gekopieerd.
 
 * Actie
 
-   De acties en actiedetails die in de reis worden gebruikt worden gekopieerd.
+  De acties en actiedetails die in de reis worden gebruikt worden gekopieerd.
 
 Oppervlakken (d.w.z. voorinstellingen) worden niet overschreven. Het systeem selecteert automatisch de dichtstbijzijnde mogelijke overeenkomst op de bestemmingszandbak, die op berichttype en oppervlaknaam wordt gebaseerd. Als er geen oppervlakken worden gevonden in de doelsandbox, mislukt de kopie van het oppervlak. Dit zal betekenen dat het berichtexemplaar ook zal ontbreken omdat een bericht een oppervlakte om voor opstelling vereist te zijn. In dit geval moet ten minste één oppervlak worden gemaakt, zodat het bericht naar rechts kan worden weergegeven.
 
-Voor schema&#39;s, het Beleid en de Segmenten van de Fusie, de tweede keer deze voorwerpen proberen om worden gekopieerd, zullen zij slechts van verwijzingen worden voorzien. Deze worden behandeld als objecten die al bestaan en worden opnieuw gekopieerd. Dit betekent dat deze objecten slechts eenmaal kunnen worden gekopieerd.
+Voor schema&#39;s, het Beleid van de Fusie en Soorten publiek, de tweede keer deze voorwerpen proberen om worden gekopieerd, zullen zij slechts van verwijzingen worden voorzien. Deze worden behandeld als objecten die al bestaan en worden opnieuw gekopieerd. Dit betekent dat deze objecten slechts eenmaal kunnen worden gekopieerd.
 
-Er is een vertraging van vijf minuten voordat Adobe Journey Optimizer naar schema&#39;s, beleid en segmenten samenvoegen kan verwijzen zonder een fout op het canvas te zien. Wacht vijf minuten en deze referenties zijn beschikbaar.
+Er is een vertraging van vijf minuten voordat Adobe Journey Optimizer kan verwijzen naar schema&#39;s, beleid en soorten publiek samenvoegen zonder een fout op het canvas te zien. Wacht vijf minuten en deze referenties zijn beschikbaar.

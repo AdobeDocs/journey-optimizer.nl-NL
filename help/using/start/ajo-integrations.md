@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 14b081fbc1d824664c82e6af262a0a7e50764c0c
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 4%
@@ -21,6 +21,7 @@ Met Adobe Journey Optimizer kunt u deze gegevens eenvoudig beheren, behouden en 
 >[!NOTE]
 >
 > Adobe Journey Optimizer is gebaseerd op Adobe Experience Platform en heeft native verbinding met [Adobe Real-time klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}. Deze ingebouwde gegevensbron is vooraf geconfigureerd en is ontworpen om gegevens op te halen en te gebruiken uit het Real-time profiel van de Klant (bijvoorbeeld, controleer of de persoon die een reis is aangegaan een klant is of niet). Hiermee kunt u de gegevens van het profiel en Events gebruiken. [Meer informatie](../datasource/adobe-experience-platform-data-source.md).
+>
 
 ## Adobe Customer Journey Analytics{#integration-cja}
 
@@ -34,7 +35,7 @@ Meer informatie over [Journey Optimizer + Customer Journey Analytics](../reports
 
 ## Adobe Analytics{#integration-aa}
 
-U kunt alle Adobe Analytics-gedragsgebeurtenisgegevens die u al vastlegt en streamt naar Adobe Experience Platform, gebruiken om real-time reizen te starten en ervaringen voor uw klanten te automatiseren. Deze gegevens kunnen ook worden gebruikt om segmenten te maken die met Journey Optimizer kunnen worden gebruikt.
+U kunt alle Adobe Analytics-gedragsgebeurtenisgegevens die u al vastlegt en streamt naar Adobe Experience Platform, gebruiken om real-time reizen te starten en ervaringen voor uw klanten te automatiseren. Deze gegevens kunnen ook worden gebruikt om een publiek te maken dat via Journey Optimizer kan worden gebruikt.
 
 Meer informatie over [Journey Optimizer + Analytics](../event/about-analytics.md).
 

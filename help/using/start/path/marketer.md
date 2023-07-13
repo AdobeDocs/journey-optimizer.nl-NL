@@ -5,9 +5,9 @@ title: Journey Optimizer Aan de slag voor Marketers
 description: Leer als praktijkbeoefenaar meer hoe u met Journey Optimizer kunt werken
 level: Intermediate
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Als **Marketer** of **Reiswerker**, bent u verantwoordelijk voor het maken van a
 
 Raadpleeg de volgende secties voor het instellen van uw eerste reis, het toevoegen van aanbiedingen en middelen en het verzenden van berichten:
 
-1. **Segmenten maken**. Met Journey Optimizer kunt u publiekssegmenten rechtstreeks vanuit het **Segmenten** en ze te gebruiken voor uw reizen.  Meer informatie over segmenten [op deze pagina](../../segment/about-segments.md). Ontdek hoe u segmenten kunt maken [in deze steekproef](../../segment/creating-a-segment.md).
+1. **Soorten publiek maken**. Met Journey Optimizer kunt u een publiek maken via segmentdefinities rechtstreeks vanuit de **Soorten publiek** en ze te gebruiken voor uw reizen.  Meer informatie over publiek [op deze pagina](../../audience/about-audiences.md). Ontdek hoe u segmentdefinities kunt maken [in deze steekproef](../../audience/creating-a-segment-definition.md).
 
 1. **Verpersoonlijking en dynamische inhoud toevoegen**. Gebruik Journey Optimizer-personalisatie en dynamische inhoudmogelijkheden om uw boodschap aan te passen aan uw publiek. Meer informatie over [personalisatie](../../personalization/personalize.md) en [dynamische inhoud](../../personalization/get-started-dynamic-content.md).
 
@@ -34,13 +34,13 @@ Raadpleeg de volgende secties voor het instellen van uw eerste reis, het toevoeg
 
 1. **Klantreizen ontwerpen** om persoonlijke, contextafhankelijke ervaringen te bieden. [!DNL Journey Optimizer] kunt u in real time het gebruikscase van het orkestgebruik met contextuele gegevens bouwen die in gebeurtenissen of gegevensbronnen worden opgeslagen. Ontwerp multistep geavanceerde scenario&#39;s aangedreven door de volgende mogelijkheden:
 
-   * In real time verzenden **unitaire levering** geactiveerd wanneer een gebeurtenis wordt ontvangen, of **in batch** Adobe Experience Platform-segmenten gebruiken.
+   * In real time verzenden **unitaire levering** geactiveerd wanneer een gebeurtenis wordt ontvangen, of **in batch** met Adobe Experience Platform-publiek.
 
    * Hefboomwerking **contextafhankelijke gegevens** uit gebeurtenissen, informatie van Adobe Experience Platform of gegevens van externe API-services.
 
    * Gebruik de **ingebouwde kanaalhandelingen** (E-mail, SMS, Push) voor het verzenden van berichten die zijn ontworpen in [!DNL Journey Optimizer] of maak **aangepaste handelingen** als u een systeem van derden gebruikt om uw berichten te verzenden.
 
-   * Met de **reisontwerper**, maak uw meerstapse gebruiksscenario&#39;s: U kunt eenvoudig een entry-gebeurtenis of een lezen-segmentactiviteit slepen en neerzetten, voorwaarden toevoegen en gepersonaliseerde berichten verzenden.
+   * Met de **reisontwerper**, maak uw meerstapse gebruiksscenario&#39;s: U kunt eenvoudig een entry-gebeurtenis of een lezen-publieksactiviteit slepen en neerzetten, voorwaarden toevoegen en gepersonaliseerde berichten verzenden.
 
    ![](../assets/journey-design.png)
 

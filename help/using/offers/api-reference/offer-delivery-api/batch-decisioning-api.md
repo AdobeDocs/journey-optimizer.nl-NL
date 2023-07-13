@@ -1,12 +1,12 @@
 ---
 title: Batchbeslissing-API
-description: Leer hoe u de Batch-API voor besluitvorming gebruikt om de beste aanbiedingen voor gesegmenteerde profielen te selecteren binnen een vooraf gedefinieerd beslissingsbereik.
+description: Leer hoe u de Batch-API voor besluitvorming gebruikt om de beste aanbiedingen voor de profielen van het publiek te selecteren binnen een vooraf gedefinieerd beslissingsbereik.
 feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 1%
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Biedt aanbiedingen met de [!DNL Batch Decisioning] API {#deliver-offers-batch}
 
-De [!DNL Batch Decisioning] API staat organisaties toe om besluitvormingsfunctionaliteit voor alle profielen in een bepaald segment in één vraag te gebruiken. De aanbiedingsinhoud voor elke profielen in het segment wordt geplaatst in een dataset van Adobe Experience Platform waar het voor de werkschema&#39;s van de douanepartij beschikbaar is.
+De [!DNL Batch Decisioning] API staat organisaties toe om besluitvormingsfunctionaliteit voor alle profielen in een bepaald publiek in één vraag te gebruiken. De aanbiedingsinhoud voor elke profielen in het publiek wordt geplaatst in een dataset van Adobe Experience Platform waar het voor de werkschema&#39;s van de douanepartij beschikbaar is.
 
-Met de [!DNL Batch Decisioning] API, kunt u een dataset met de beste aanbiedingen voor alle profielen in een segment van Adobe Experience Platform voor besluitvormingswerkingsgebied bevolken. Een organisatie wil bijvoorbeeld [!DNL Batch Decisioning] zodat zij voorstellen naar een leverancier van de berichtlevering kunnen verzenden. Die aanbiedingen worden dan gebruikt als inhoud die voor partijberichtlevering aan het zelfde segment van gebruikers wordt verzonden.
+Met de [!DNL Batch Decisioning] API, kunt u een dataset met de beste aanbiedingen voor alle profielen in een publiek van Adobe Experience Platform voor besluitvormingswerkingsgebied bevolken. Een organisatie wil bijvoorbeeld [!DNL Batch Decisioning] zodat zij voorstellen naar een leverancier van de berichtlevering kunnen verzenden. Die aanbiedingen worden dan gebruikt als inhoud die voor partijberichtlevering aan het zelfde publiek van gebruikers wordt verzonden.
 
 Hiertoe zou de organisatie:
 
@@ -30,7 +30,7 @@ Hiertoe zou de organisatie:
 
 * Exporteer de dataset naar de API van de leverancier van de berichtlevering.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting segments.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Voordat u deze API gebruikt, moet u de volgende vereiste stappen uitvoeren.
 
 ### De beslissing voorbereiden {#prepare-decision}
 
-Om één of meerdere besluiten voor te bereiden, zorg ervoor u een dataset, een segment, en een besluit hebt gecreeerd. Deze voorwaarden worden nader beschreven in [deze sectie](../../batch-delivery.md).
+Om één of meerdere besluiten voor te bereiden, zorg ervoor u een dataset, een publiek, en een besluit hebt gecreeerd. Deze voorwaarden worden nader beschreven in [deze sectie](../../batch-delivery.md).
 
 ### API-vereisten {#api-requirements}
 
@@ -104,7 +104,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-90
 
 | Eigenschap | Beschrijving | Voorbeeld |
 | -------- | ----------- | ------- |
-| `xdm:segmentIds` | De waarde is een array die de unieke id van het segment bevat. Het kan slechts één waarde bevatten. | `609028e4-e66c-4776-b0d9-c782887e2273` |
+| `xdm:segmentIds` | De waarde is een array die de unieke id van het publiek bevat. Het kan slechts één waarde bevatten. | `609028e4-e66c-4776-b0d9-c782887e2273` |
 | `xdm:dataSetId` | De output dataSet dat beslissingsgebeurtenissen kunnen worden geschreven in. | `6196b4a1a63bd118dafe093c` |
 | `xdm:propositionRequests` | Een omslag die bevat `placementId` en `activityId` |  |
 | `xdm:activityId` | De unieke identificatiecode van het besluit. | `xcore:offer-activity:1410cdcda196707b` |

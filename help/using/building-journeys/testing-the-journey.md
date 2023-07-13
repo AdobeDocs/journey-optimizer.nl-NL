@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: test, reis, controle, fout, het oplossen van problemen
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1501'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 Gebruik testprofielen om uw reis te testen voordat u deze publiceert. In deze modus kunt u een test van uw reis uitvoeren en problemen identificeren aan de hand van testprofielen.
 
-Alleen testprofielen kunnen een reis maken in de testmodus. U kunt nieuwe testprofielen maken of bestaande profielen omzetten in testprofielen. Meer informatie over testprofielen vindt u in [deze sectie](../segment/creating-test-profiles.md).
+Alleen testprofielen kunnen een reis maken in de testmodus. U kunt nieuwe testprofielen maken of bestaande profielen omzetten in testprofielen. Meer informatie over testprofielen vindt u in [deze sectie](../audience/creating-test-profiles.md).
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 ## Belangrijke opmerkingen {#important_notes}
 
 * In de testmodus kunt u gebeurtenissen starten met de interface.
-* Alleen personen die zijn gemarkeerd als &quot;testprofielen&quot; in de realtime klantenprofielservice mogen de geteste reis betreden. Zie dit [sectie](../segment/creating-test-profiles.md).
+* Alleen personen die zijn gemarkeerd als &quot;testprofielen&quot; in de realtime klantenprofielservice mogen de geteste reis betreden. Zie dit [sectie](../audience/creating-test-profiles.md).
 * De testmodus is alleen beschikbaar voor conceptochten waarbij een naamruimte wordt gebruikt. In de testmodus moet worden nagegaan of een persoon die de reis betreedt een testprofiel is en moet hij dus Adobe Experience Platform kunnen bereiken.
 * Het maximumaantal testprofielen dat een reis tijdens een testsessie kan betreden, is 100.
 * Wanneer u de testmodus uitschakelt, worden de reizen verwijderd van alle mensen die het in het verleden hebben betreden of die er momenteel in zitten. Ook wordt de rapportage gewist.
@@ -114,7 +114,7 @@ Wanneer u een gebeurtenis activeert, worden de **Gebeurtenisconfiguratie** kunt 
 
 ## Testmodus voor bedrijfsgebeurtenissen {#test-business}
 
-Wanneer u een [business, gebeurtenis](../event/about-events.md), gebruikt u de testmodus om één enkele ingang van het testprofiel in de rit te activeren, de gebeurtenis te simuleren en de juiste profiel-id te doorstaan. U moet de gebeurtenisparameters en de identificatiecode van het testprofiel doorgeven die de reis tijdens de test zal betreden. U kunt de **[!UICONTROL Up to 100 profiles at once]** optie die bestaat voor andere op segmenten gebaseerde reizen. In de testmodus is er geen modus &quot;Codeweergave&quot; beschikbaar voor reizen op basis van bedrijfsgebeurtenissen.
+Wanneer u een [business, gebeurtenis](../event/about-events.md), gebruikt u de testmodus om één enkele ingang van het testprofiel in de rit te activeren, de gebeurtenis te simuleren en de juiste profiel-id te doorstaan. U moet de gebeurtenisparameters en de identificatiecode van het testprofiel doorgeven die de reis tijdens de test zal betreden. U kunt de **[!UICONTROL Up to 100 profiles at once]** optie die bestaat voor andere op het publiek gebaseerde reizen. In de testmodus is er geen modus &quot;Codeweergave&quot; beschikbaar voor reizen op basis van bedrijfsgebeurtenissen.
 
 Wanneer u een bedrijfsgebeurtenis voor het eerst activeert, kunt u de definitie van een bedrijfsgebeurtenis niet in dezelfde testsessie wijzigen. U kunt alleen dezelfde persoon of een andere persoon dezelfde of een andere persoon de reis laten doorlopen met dezelfde of een andere id. Als u parameters voor bedrijfsgebeurtenissen wilt wijzigen, moet u de testmodus stoppen en opnieuw starten.
 

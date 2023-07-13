@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: bericht, frequentie, regels, druk
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 74db87267c2bc4a1aabfc506adaa29758467dd81
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '946'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,9 @@ ht-degree: 2%
 
 [!DNL Journey Optimizer] Hiermee kunt u bepalen hoe vaak gebruikers een bericht zullen ontvangen of een reis zullen betreden door kanaalregels in te stellen die automatisch overgevraagde profielen uitsluiten van berichten en acties.
 
-Voor een merk kan het bijvoorbeeld de regel zijn dat niet meer dan drie marketingberichten per maand naar hun klanten worden gestuurd. Hiervoor kunt u een regel voor de frequentie gebruiken die het aantal verzonden berichten beperkt op basis van een of meer kanalen gedurende een maandelijkse kalenderperiode.
+Bijvoorbeeld, wilt u uw merk niet meer dan 3 marketing berichten per maand naar hun klanten verzenden.
+
+Hiervoor kunt u een regel voor de frequentie gebruiken die het aantal verzonden berichten beperkt op basis van een of meer kanalen gedurende een maandelijkse kalenderperiode.
 
 >[!NOTE]
 >
@@ -183,7 +185,7 @@ In dit scenario wordt een individueel profiel:
 
 >[!NOTE]
 >
->Bij het testen van de frequentieregels wordt aanbevolen een nieuw [testprofiel](../segment/creating-test-profiles.md)Omdat er geen manier is om de teller opnieuw in te stellen tot de volgende maand wanneer de frequentie-instelling van een profiel is bereikt. Als u een regel deactiveert, kunnen beperkte profielen berichten ontvangen, maar worden er geen tellerverhogingen verwijderd of verwijderd.
+>Bij het testen van de frequentieregels wordt aanbevolen een nieuw [testprofiel](../audience/creating-test-profiles.md)Omdat er geen manier is om de teller opnieuw in te stellen tot de volgende maand wanneer de frequentie-instelling van een profiel is bereikt. Als u een regel deactiveert, kunnen beperkte profielen berichten ontvangen, maar worden er geen tellerverhogingen verwijderd of verwijderd.
 
 ## Hoe kan ik-video {#video}
 

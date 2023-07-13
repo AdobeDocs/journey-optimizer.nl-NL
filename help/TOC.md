@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aac7c84221a68bb8258738db2c8d616db3332edf
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1378'
 ht-degree: 34%
 
 ---
@@ -52,10 +52,10 @@ ht-degree: 34%
       + [Aan de slag met reisactiviteiten](using/building-journeys/about-journey-activities.md)
       + [Algemene gebeurtenissen](using/building-journeys/general-events.md)
       + [Reactie](using/building-journeys/reaction-events.md)
-      + [Segmentkwalificatie](using/building-journeys/segment-qualification-events.md)
+      + [Poortkwalificatie](using/building-journeys/audience-qualification-events.md)
       + [Voorwaarde](using/building-journeys/condition-activity.md)
       + [Wachten](using/building-journeys/wait-activity.md)
-      + [Segment lezen](using/building-journeys/read-segment.md)
+      + [Doelgroep lezen](using/building-journeys/read-audience.md)
       + [E-mail, In-app, Push, SMS](using/building-journeys/journeys-message.md)
       + [Aangepaste acties](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard-acties](using/building-journeys/using-adobe-campaign-standard.md)
@@ -278,20 +278,20 @@ ht-degree: 34%
       + [Aan de slag met dynamische inhoud](using/personalization/get-started-dynamic-content.md)
       + [Voorwaardelijke regels maken](using/personalization/create-conditions.md)
       + [Dynamische inhoud maken](using/personalization/dynamic-content.md)
-+ Segmenten, profielen en identiteit{#segment}
-   + Segmenten {#segments}
-      + [Aan de slag met segmenten](using/segment/about-segments.md)
-      + [Segmenten maken](using/segment/creating-a-segment.md)
++ Soorten publiek, profielen en identiteit{#audiences-profiles-identities}
+   + Doelgroepen {#audiences}
+      + [Aan de slag met het publiek](using/audience/about-audiences.md)
+      + [Segmentdefinities samenstellen](using/audience/creating-a-segment-definition.md)
    + Profielen{#profiles}
-      + [Aan de slag met profielen](using/segment/get-started-profiles.md)
-      + [Testprofielen maken](using/segment/creating-test-profiles.md)
-   + [Identiteiten](using/segment/get-started-identity.md)
+      + [Aan de slag met profielen](using/audience/get-started-profiles.md)
+      + [Testprofielen maken](using/audience/creating-test-profiles.md)
+   + [Identiteiten](using/audience/get-started-identity.md)
    + Doelgroep samenstellen {#audience-orchestration}
-      + [Aan de slag met publiekscompositie](using/segment/get-started-audience-orchestration.md)
-      + [Samenstellingswerkstromen maken](using/segment/create-compositions.md)
-      + [Werken met het compositicanvas](using/segment/composition-canvas.md)
-      + [Toegang tot en beheer van het publiek](using/segment/access-audiences.md)
-   + [Licentiegebruik](using/segment/license-usage.md)
+      + [Aan de slag met publiekscompositie](using/audience/get-started-audience-orchestration.md)
+      + [Samenstellingswerkstromen maken](using/audience/create-compositions.md)
+      + [Werken met het compositicanvas](using/audience/composition-canvas.md)
+      + [Toegang tot en beheer van het publiek](using/audience/access-audiences.md)
+   + [Licentiegebruik](using/audience/license-usage.md)
 + Bijhouden en bewaken {#reporting}
    + Live-rapport {#live-report}
       + [Aan de slag met Live-rapport](using/reports/live-report.md)
@@ -488,4 +488,3 @@ ht-degree: 34%
       + [Weigeren beheren](using/privacy/opt-out.md)
       + [Werken met toestemmingsbeleid](using/action/consent.md)
    + [Gegevensbeheer](using/action/action-privacy.md)
-   + [Door de klant beheerde sleutels instellen en beheren](using/privacy/cmk.md)

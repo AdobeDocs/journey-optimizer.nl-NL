@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2009'
 ht-degree: 0%
@@ -61,17 +61,17 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 * **Einddatum en -tijd**
 
-   **Veld:** endDate
-   **Titel:** Einddatum en -tijd
-   **Omschrijving:** De einddatum van de geldigheid van een beslissing. Opties die hun einddatum hebben bereikt, kunnen niet langer in het besluitvormingsproces worden voorgesteld.
-   **Type:** string
+  **Veld:** endDate
+  **Titel:** Einddatum en -tijd
+  **Omschrijving:** De einddatum van de geldigheid van een beslissing. Opties die hun einddatum hebben bereikt, kunnen niet langer in het besluitvormingsproces worden voorgesteld.
+  **Type:** string
 
 * **Begindatum en -tijd**
 
-   **Veld:** startDate
-   **Titel:** Begindatum en -tijd
-   **Omschrijving:** De begindatum van de geldigheid van een beslissing. Opties die hun begindatum nog niet hebben bereikt, kunnen nog niet in het besluitvormingsproces worden voorgesteld.
-   **Type:** string
+  **Veld:** startDate
+  **Titel:** Begindatum en -tijd
+  **Omschrijving:** De begindatum van de geldigheid van een beslissing. Opties die hun begindatum nog niet hebben bereikt, kunnen nog niet in het besluitvormingsproces worden voorgesteld.
+  **Type:** string
 
 +++
 
@@ -102,83 +102,83 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 * **_experience > decisions > contents > components > Content Component Type**
 
-   **Veld:** _type
-   **Titel:** Type inhoudcomponent
-   **Omschrijving:** Een opsomming van URI&#39;s waarbij elke waarde wordt toegewezen aan een type dat aan de inhoudcomponent wordt gegeven. Sommige consumenten van de inhoudrepresentaties verwachten dat de @type-waarde een verwijzing naar het schema is dat aanvullende eigenschappen van de inhoudscomponent beschrijft.
-   **Type:** string
+  **Veld:** _type
+  **Titel:** Type inhoudcomponent
+  **Omschrijving:** Een opsomming van URI&#39;s waarbij elke waarde wordt toegewezen aan een type dat aan de inhoudcomponent wordt gegeven. Sommige consumenten van de inhoudrepresentaties verwachten dat de @type-waarde een verwijzing naar het schema is dat aanvullende eigenschappen van de inhoudscomponent beschrijft.
+  **Type:** string
 
 * **_experience > decisions > contents > components > _dc**
 
-   **Veld:** _dc
-   **Type:** object
-   **Vereist:** &quot;format&quot;
+  **Veld:** _dc
+  **Type:** object
+  **Vereist:** &quot;format&quot;
 
    * **Indeling**
 
-      **Veld:** format
-      **Titel:** Indeling
-      **Omschrijving:** De fysieke of digitale manifestatie van de bron. Normaal gesproken moet de indeling het mediatype van de bron bevatten. De indeling kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. De aanbevolen werkwijze is het selecteren van een waarde in een gecontroleerde woordenlijst (bijvoorbeeld de lijst met [Internetmediatypen](https://www.iana.org/assignments/media-types/) computermedia-indelingen definiëren).
-      **Type:** string
-      **Voorbeeld:** &quot;application/vnd.adobe.photoshop&quot;
+     **Veld:** format
+     **Titel:** Indeling
+     **Omschrijving:** De fysieke of digitale manifestatie van de bron. Normaal gesproken moet de indeling het mediatype van de bron bevatten. De indeling kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. De aanbevolen werkwijze is het selecteren van een waarde in een gecontroleerde woordenlijst (bijvoorbeeld de lijst met [Internetmediatypen](https://www.iana.org/assignments/media-types/) computermedia-indelingen definiëren).
+     **Type:** string
+     **Voorbeeld:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Taal**
-      **Veld:** taal
-      **Titel:** Taal
-      **Omschrijving:** De taal of talen van de bron. \nTalen worden opgegeven in taalcode zoals gedefinieerd in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), dat deel uitmaakt van BCP 47, dat elders in XDM wordt gebruikt.
-      **Type:** array
-      **Voorbeelden:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
+     **Veld:** taal
+     **Titel:** Taal
+     **Omschrijving:** De taal of talen van de bron. \nTalen worden opgegeven in taalcode zoals gedefinieerd in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), dat deel uitmaakt van BCP 47, dat elders in XDM wordt gebruikt.
+     **Type:** array
+     **Voorbeelden:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
 * **_experience > decisions > contents > components > _repo**
 
-   **Veld:** _repo
-   **Type:** object
+  **Veld:** _repo
+  **Type:** object
 
    * **id**
 
-      **Veld:** id
-      **Omschrijving:** Een optionele unieke id die verwijst naar het element in een inhoudsopslagplaats. Wanneer Platform-API&#39;s worden gebruikt om de representatie op te halen, kan de client een extra eigenschap \&quot;repo:resolveUrl\&quot; verwachten om het element op te halen.
-      **Type:** string
-      **Voorbeeld:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+     **Veld:** id
+     **Omschrijving:** Een optionele unieke id die verwijst naar het element in een inhoudsopslagplaats. Wanneer Platform-API&#39;s worden gebruikt om de representatie op te halen, kan de client een extra eigenschap \&quot;repo:resolveUrl\&quot; verwachten om het element op te halen.
+     **Type:** string
+     **Voorbeeld:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
-      **Veld:** name
-      **Omschrijving:** Sommige tips over de locatie van de opslagplaats die het externe element opslaat via de \&quot;repo:id\&quot;.
-      **Type:** string
+     **Veld:** name
+     **Omschrijving:** Sommige tips over de locatie van de opslagplaats die het externe element opslaat via de \&quot;repo:id\&quot;.
+     **Type:** string
 
    * **repositoryID**
 
-      **Veld:** repositoryID
-      **Omschrijving:** Een optionele unieke id die verwijst naar het element in een inhoudsopslagplaats. Wanneer Platform-API&#39;s worden gebruikt om de representatie op te halen, kan de client een extra eigenschap \&quot;repo:resolveUrl\&quot; verwachten om het element op te halen.
-      **Type:** string
-      **Voorbeeld:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
+     **Veld:** repositoryID
+     **Omschrijving:** Een optionele unieke id die verwijst naar het element in een inhoudsopslagplaats. Wanneer Platform-API&#39;s worden gebruikt om de representatie op te halen, kan de client een extra eigenschap \&quot;repo:resolveUrl\&quot; verwachten om het element op te halen.
+     **Type:** string
+     **Voorbeeld:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
-      **Veld:** resolveURL
-      **Omschrijving:** Een optionele unieke resource locator voor het lezen van het middel in een inhoudsopslagplaats. Hierdoor wordt het eenvoudiger om het middel te verkrijgen zonder dat de klant begrijpt waar het middel wordt beheerd en welke API&#39;s moeten worden aangeroepen. Dit is vergelijkbaar met een HAL-link, maar de semantiek is eenvoudiger en doelgerichter.
-      **Type:** string
-      **Voorbeeld:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
+     **Veld:** resolveURL
+     **Omschrijving:** Een optionele unieke resource locator voor het lezen van het middel in een inhoudsopslagplaats. Hierdoor wordt het eenvoudiger om het middel te verkrijgen zonder dat de klant begrijpt waar het middel wordt beheerd en welke API&#39;s moeten worden aangeroepen. Dit is vergelijkbaar met een HAL-link, maar de semantiek is eenvoudiger en doelgerichter.
+     **Type:** string
+     **Voorbeeld:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > decisions > contents > components > content**
 
-   **Veld:** content
-   **Omschrijving:** Een optioneel veld waarin inhoud rechtstreeks kan worden opgeslagen. In plaats van te verwijzen naar inhoud in een opslagplaats voor bedrijfsmiddelen, kan de component eenvoudige inhoud direct bevatten. Dit veld wordt niet gebruikt voor samengestelde, complexe en binaire inhoudselementen.
-   **Type:** string
+  **Veld:** content
+  **Omschrijving:** Een optioneel veld waarin inhoud rechtstreeks kan worden opgeslagen. In plaats van te verwijzen naar inhoud in een opslagplaats voor bedrijfsmiddelen, kan de component eenvoudige inhoud direct bevatten. Dit veld wordt niet gebruikt voor samengestelde, complexe en binaire inhoudselementen.
+  **Type:** string
 
 * **_experience > decisions > contents > components > deliveryURL**
 
-   **Veld:** deliveryURL
-   **Omschrijving:** Een facultatieve unieke middellocator om het middel van een netwerk of de diensteindpunt van de inhoudslevering te verkrijgen. Deze URL wordt gebruikt om tot het middel openlijk door een gebruikersagent toegang te hebben.
-   **Type:** string
-   **Voorbeeld:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Veld:** deliveryURL
+  **Omschrijving:** Een facultatieve unieke middellocator om het middel van een netwerk of de diensteindpunt van de inhoudslevering te verkrijgen. Deze URL wordt gebruikt om tot het middel openlijk door een gebruikersagent toegang te hebben.
+  **Type:** string
+  **Voorbeeld:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisions > contents > components > linkURL**
 
-   **Veld:** linkURL
-   **Omschrijving:** Een optionele unieke resource locator voor gebruikersinteracties. Deze URL wordt gebruikt om de eindgebruiker naar in een gebruikersagent te verwijzen en kan worden gevolgd.
-   **Type:** string
-   **Voorbeeld:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Veld:** linkURL
+  **Omschrijving:** Een optionele unieke resource locator voor gebruikersinteracties. Deze URL wordt gebruikt om de eindgebruiker naar in een gebruikersagent te verwijzen en kan worden gevolgd.
+  **Type:** string
+  **Voorbeeld:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisions > contents > Placement
 
@@ -239,13 +239,13 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 **Veld:** profileConstraintType
 **Titel:** Type profielbeperking
-**Omschrijving:** Hiermee wordt bepaald of er momenteel beperkingen zijn ingesteld en hoe de beperkingen worden uitgedrukt. Het zou door een regel of door één of meerdere segmentlidmaatschap kunnen zijn.
+**Omschrijving:** Hiermee wordt bepaald of er momenteel beperkingen zijn ingesteld en hoe de beperkingen worden uitgedrukt. Het zou door een regel of door één of meerdere publieksleden kunnen zijn.
 **Type:** string
 **Mogelijke waarden:**
 * &quot;none&quot; (standaardwaarde)
 * &quot;toelatingsregel&quot;: &quot;De profielbeperking wordt uitgedrukt als één enkele regel die aan waar moet evalueren alvorens de beperkte actie wordt toegestaan.&quot;
-* &quot;anySegments&quot;: &quot;De profielbeperking wordt uitgedrukt als één of meerdere segmenten en het profiel moet een lid van minstens één van hen zijn alvorens de beperkte actie wordt toegestaan.&quot;
-* &quot;allSegments&quot;: &quot;De profielbeperking wordt uitgedrukt als één of meerdere segmenten en het profiel moet een lid van elk van hen zijn alvorens de beperkte actie wordt toegestaan.&quot;
+* &quot;anySegments&quot;: &quot;De profielbeperking wordt uitgedrukt als een of meer soorten publiek en het profiel moet lid zijn van ten minste een van deze groepen voordat de beperkte handeling is toegestaan.&quot;
+* &quot;allSegments&quot;: &quot;De profielbeperking wordt uitgedrukt als een of meer soorten publiek en het profiel moet lid zijn van al deze groepen voordat de beperkte handeling is toegestaan.&quot;
 * &quot;regels&quot;: &quot;De profielbeperking wordt uitgedrukt als een aantal verschillende regels, bijvoorbeeld geschiktheid, toepasbaarheid, geschiktheid, die allemaal op true moeten worden beoordeeld voordat de beperkte handeling is toegestaan.&quot;
 
 +++
@@ -254,37 +254,37 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 **Veld:** segmentIdentities
 **Titel:** Segment-id&#39;s
-**Omschrijving:** Identificatoren van de segmenten
+**Omschrijving:** Identificatienummers van het publiek
 **Type:** array
 
 * **Id**
 
-   **Veld:** _id
-   **Titel:** Id
-   **Omschrijving:** Identiteit van het segment in verwante namespace.
-   **Type:** string
+  **Veld:** _id
+  **Titel:** Id
+  **Omschrijving:** Identiteit van het publiek in de verwante naamruimte.
+  **Type:** string
 
 * **Naamruimte**
 
-   **Veld:** namespace
-   **Titel:** Naamruimte
-   **Omschrijving:** De naamruimte die is gekoppeld aan de `xid` kenmerk.
-   **Type:** object
-   **Vereist:** &quot;code&quot;
+  **Veld:** namespace
+  **Titel:** Naamruimte
+  **Omschrijving:** De naamruimte die is gekoppeld aan de `xid` kenmerk.
+  **Type:** object
+  **Vereist:** &quot;code&quot;
 
    * **Code**
 
-      **Veld:** code
-      **Titel:** Code
-      **Omschrijving:** De code is een leesbare id voor de naamruimte en kan worden gebruikt om de technische naamruimte-id aan te vragen die wordt gebruikt voor het verwerken van identiteitsgrafieken.
-      **Type:** string
+     **Veld:** code
+     **Titel:** Code
+     **Omschrijving:** De code is een leesbare id voor de naamruimte en kan worden gebruikt om de technische naamruimte-id aan te vragen die wordt gebruikt voor het verwerken van identiteitsgrafieken.
+     **Type:** string
 
 * **Ervings-id**
 
-   **Veld:** xid
-   **Titel:** Ervings-id
-   **Omschrijving:** Wanneer deze waarde aanwezig is, vertegenwoordigt deze een naamruimte-id die uniek is voor alle naamruimte-bereikid&#39;s in alle naamruimten.
-   **Type:** string
+  **Veld:** xid
+  **Titel:** Ervings-id
+  **Omschrijving:** Wanneer deze waarde aanwezig is, vertegenwoordigt deze een naamruimte-id die uniek is voor alle naamruimte-bereikid&#39;s in alle naamruimten.
+  **Type:** string
 
 +++
 
@@ -306,25 +306,25 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 * **Scorefunctie**
 
-   **Veld:** function
-   **Titel:** Scorefunctie
-   **Omschrijving:** Een verwijzing naar een functie die een numerieke score voor deze beslissingsoptie berekent. Beslissingsopties worden vervolgens met die score geordend (gerangschikt). De waarde van deze eigenschap is de URI (@id) van de functie die met één optie tegelijk moet worden aangeroepen. Zie schema https://ns.adobe.com/experience/decisioning/function.
-   **Type:** string
+  **Veld:** function
+  **Titel:** Scorefunctie
+  **Omschrijving:** Een verwijzing naar een functie die een numerieke score voor deze beslissingsoptie berekent. Beslissingsopties worden vervolgens met die score geordend (gerangschikt). De waarde van deze eigenschap is de URI (@id) van de functie die met één optie tegelijk moet worden aangeroepen. Zie schema https://ns.adobe.com/experience/decisioning/function.
+  **Type:** string
 
 * **Type beoordeling van bestelling**
 
-   **Veld:** orderEvaluationType
-   **Titel:** Type beoordeling van bestelling
-   **Omschrijving:** Specificeert welk mechanisme van de ordeevaluatie wordt gebruikt, statische prioriteit van de besluitvormingsopties, een scorefunctie die een numerieke waarde voor elke optie of een rangschikkingsstrategie berekent die een lijst ontvangt om het te bestellen.
-   **Type:** string
-   **Mogelijke waarden:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
+  **Veld:** orderEvaluationType
+  **Titel:** Type beoordeling van bestelling
+  **Omschrijving:** Specificeert welk mechanisme van de ordeevaluatie wordt gebruikt, statische prioriteit van de besluitvormingsopties, een scorefunctie die een numerieke waarde voor elke optie of een rangschikkingsstrategie berekent die een lijst ontvangt om het te bestellen.
+  **Type:** string
+  **Mogelijke waarden:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 
 * **Rangschikkingsstrategie**
 
-   **Veld:** rangschikkingStrategie
-   **Titel:** Rangschikkingsstrategie
-   **Omschrijving:** Een verwijzing naar een strategie die een lijst van besluitvormingsoptie rangschikt. Beslissingsopties worden geretourneerd in een geordende lijst. De waarde van deze eigenschap is de URI (@id) van de functie die met één optie tegelijk moet worden aangeroepen. Zie schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
-   **Type:** string
+  **Veld:** rangschikkingStrategie
+  **Titel:** Rangschikkingsstrategie
+  **Omschrijving:** Een verwijzing naar een strategie die een lijst van besluitvormingsoptie rangschikt. Beslissingsopties worden geretourneerd in een geordende lijst. De waarde van deze eigenschap is de URI (@id) van de functie die met één optie tegelijk moet worden aangeroepen. Zie schema https://ns.adobe.com/experience/decisioning/rankingStrategy.
+  **Type:** string
 
 +++
 

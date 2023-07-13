@@ -7,32 +7,32 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inSegment, functie, expressie, reis
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '199'
 ht-degree: 5%
 
 ---
 
 # inSegment {#inSegment}
 
-Controleert of een individu tot een bepaald segment behoort.
+Controleert of een individu tot een bepaald publiek behoort.
 
 >[!NOTE]
 >
->U kunt tot 100 segmenten terugwinnen.
+>U kunt maximaal 100 soorten publiek ophalen.
 
-De segmentnaam moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn.
+De publieksnaam moet een tekenreeksconstante zijn. Het kan geen veldverwijzing of expressie zijn.
 
-Segmenten worden gedefinieerd in het dialoogvenster [Adobe Experience Platform](https://platform.adobe.com/segment/overview). De uitdrukkingsredacteur verstrekt een autocompleted lijst van segmenten.
+Soorten publiek wordt gedefinieerd in het gedeelte [Adobe Experience Platform](https://platform.adobe.com/audience/overview). De uitdrukkingsredacteur verstrekt een autocompleted lijst van publiek.
 
-Segmenten kunnen drie statussen hebben:
+Het publiek kan drie statussen hebben:
 
-* bestaande: entiteit blijft deel uitmaken van het segment.
-* gerealiseerd: entiteit gaat het segment in.
-* verlaten: entiteit verlaat het segment.
+* bestaande: entiteit blijft in het publiek.
+* gerealiseerd: entiteit betreedt het publiek.
+* verlaten: entiteit verlaat het publiek.
 
-Alleen personen met de **Gerealiseerd** en **Bestaande** de deelnamestatistieken van segmenten worden beschouwd als leden van het segment . Raadpleeg voor meer informatie over het evalueren van een segment de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
+Alleen personen met de **Gerealiseerd** en **Bestaande** de publieksparticipatiestatistieken worden beschouwd als leden van het publiek . Raadpleeg voor meer informatie over het evalueren van een publiek de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` betekent dat u een segmentLidmaatschap met de ingegaan/bestaande status hebt.
 
@@ -50,7 +50,7 @@ Adobe Experience Platform
 
 | Parameter | Beschrijving | Type |
 |--- |--- |--- |
-| Segment | De segmentnaam | `<string>` |
+| Segment | De publieksnaam | `<string>` |
 
 ## Handtekening en type geretourneerd
 
@@ -64,4 +64,4 @@ Retourneert een Booleaanse waarde.
 
 Uitleg:
 
-De functie wordt geretourneerd **[!UICONTROL true]** als de persoon binnen de reisinstantie deel uitmaakt van het Adobe Experience Platform-segment &quot;mannen boven de 50&quot;, **[!UICONTROL false]** anders.
+De functie wordt geretourneerd **[!UICONTROL true]** als het individu in de reisinstantie deel uitmaakt van het Adobe Experience Platform-publiek met de naam &quot;mannen boven de 50&quot;, **[!UICONTROL false]** anders.

@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: reenter, transport, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 3%
@@ -54,7 +54,7 @@ Een reis kan om de volgende redenen worden gesloten:
 
 * De reis wordt handmatig gesloten via de **[!UICONTROL Close to new entrances]** knop.
 * Een reis op basis van een segment met één opname die klaar is met de uitvoering.
-* Na het laatste voorkomen van een terugkerende op segment gebaseerde reis.
+* Na het laatste optreden van een terugkerende, op het publiek gebaseerde reis.
 
 Als u een reis handmatig sluit, weet u zeker dat klanten die de reis al hebben betreden, hun pad kunnen voltooien, maar dat nieuwe gebruikers de reis niet kunnen betreden. Wanneer een reis wordt gesloten (om een van de bovenstaande redenen), heeft deze de status **[!UICONTROL Closed]**. De reis houdt in dat nieuwe individuen de reis kunnen betreden. Personen die al onderweg zijn, kunnen de reis normaal afmaken. Na de standaard wereldwijde time-out van 30 dagen wordt de reis overgeschakeld op de **Voltooid** status. Zie dit [sectie](../building-journeys/journey-gs.md#global_timeout).
 

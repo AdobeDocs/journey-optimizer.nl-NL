@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Om het voordeel van het gebruiken van auto-verpersoonlijking te maximaliseren, z
 
 * **Aanbiedingen zijn anders genoeg, zodat gebruikers verschillende voorkeuren hebben voor de aanbiedingen in kwestie**. Als de aanbiedingen te gelijkaardig zijn, zal een resulterend model minder effect hebben aangezien de reacties schijnbaar willekeurig zijn.
 Als een bank bijvoorbeeld twee creditcardaanbiedingen heeft met het enige verschil in kleur, dan maakt het niet uit welke kaart wordt aanbevolen, maar als elke kaart andere voorwaarden heeft, geeft dit een reden waarom bepaalde klanten er een zouden kiezen en voldoende verschil tussen de aanbiedingen zouden maken om een onhandiger model op te bouwen.
-* **Gebruikersverkeerssamenstelling is stabiel**. Als de samenstelling van het gebruikersverkeer tijdens modelopleiding en het voorspellen dramatisch verandert, zouden de modelprestaties kunnen degraderen. Bijvoorbeeld, veronderstel in modelopleidingsfase, slechts zijn de gegevens voor gebruikers in segment A beschikbaar, maar het opgeleide model wordt gebruikt om voorspellingen voor gebruikers in segment B te produceren, dan modelprestaties zou kunnen worden beïnvloed.
+* **Gebruikersverkeerssamenstelling is stabiel**. Als de samenstelling van het gebruikersverkeer tijdens modelopleiding en het voorspellen dramatisch verandert, zouden de modelprestaties kunnen degraderen. Bijvoorbeeld, veronderstel in model opleidingsfase, slechts zijn de gegevens voor gebruikers in publiek A beschikbaar, maar het opgeleide model wordt gebruikt om voorspellingen voor gebruikers in publiek B te produceren, dan modelprestaties zouden kunnen worden beïnvloed.
 * **De prestaties van aanbiedingen veranderen niet drastisch over een korte periode** aangezien dit model wekelijks bijwerkt en de veranderingen in prestaties worden overgebracht als modelupdates. Een product was bijvoorbeeld al eerder erg populair, maar in een openbaar rapport wordt het product geïdentificeerd als schadelijk voor onze gezondheid, en dit product wordt extreem snel impopulair. In dit scenario, kon het model dit product blijven voorspellen tot het model met veranderingen in gebruikersgedrag bijwerkt.
 
 ## Hoe het werkt {#how}
@@ -37,8 +37,8 @@ Er zijn drie typen functies:
 
 | Typen functies | Hoe te om eigenschappen aan modellen toe te voegen |
 |--------------|----------------------------|
-| Segmenten | 0-50 segmenten kunnen worden toegevoegd als functies bij het maken van het Willekeurige AI-model |
 | Decisioning-objecten (placementID, activityID, DecisionScopeID) | Deel van de feedback-ervaringen over het beheer van beslissingen die naar het AEP zijn verzonden |
+| Doelgroepen | Het publiek 0-50 kan worden toegevoegd als functies bij het maken van het Willekeurige AI-model |
 | Contextgegevens | Een deel van de beslissing feedback over ervaringen die naar AEP zijn gestuurd. Beschikbare contextgegevens die aan schema moeten worden toegevoegd: Handelsgegevens, kanaaldetails, toepassingsdetails, webdetails, omgevingsdetails, apparaatdetails, context |
 
 Het model heeft twee fasen:
