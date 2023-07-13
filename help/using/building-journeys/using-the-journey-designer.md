@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: ontwerp, canvas, reis, interface, slepen, neerzetten
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: 9270f706d3b0693178ffc076aea2e631ba736afe
 workflow-type: tm+mt
 source-wordcount: '1614'
 ht-degree: 1%
@@ -69,11 +69,11 @@ Wanneer je je reis ontwerpt, wil je je eerst afvragen hoe profielen de reis zull
 
 1. **Starten met een gebeurtenis**: wanneer een reis naar het luisteren van evenementen is gepland , komen individuele personen de reis binnen **eenzijdig** in real-time. Berichten die in uw reis zijn opgenomen, worden verzonden naar de persoon die momenteel op reis gaat. [Meer informatie over gebeurtenissen](../event/about-events.md)
 
-1. **Beginnen met een leessegment**: u kunt uw reis plaatsen om naar de segmenten van Adobe Experience Platform te luisteren. In dit geval betreden alle personen die tot het gespecificeerde segment behoren de reis. De berichten inbegrepen in uw reis worden verzonden naar de individuen die tot het segment behoren. [Meer informatie over het lezen van segmenten](read-segment.md).
+1. **Beginnen met een leespubliek**: Je kunt je reis maken om naar Adobe Experience Platform te luisteren. In dit geval betreden alle personen die tot het opgegeven publiek behoren de reis. Berichten die deel uitmaken van uw reis worden verzonden naar de personen die tot het publiek behoren. Meer informatie over [leest publiek](read-audience.md).
 
 ## De volgende stappen definiëren{#define-next-steps}
 
-Na uw eerste gebeurtenis of Read Segment, kunt u de verschillende activiteiten combineren om uw multi-step scenario&#39;s over het kanaal te bouwen. Kies in het palet de gewenste stappen.
+Na uw eerste gebeurtenis of Lees publiek, kunt u de verschillende activiteiten combineren om uw scenario&#39;s met meerdere stappen voor meerdere kanalen samen te stellen. Kies in het palet de gewenste stappen.
 
 ### Gebeurtenissen{#jo-event}
 
@@ -85,13 +85,13 @@ U kunt **meerdere gebeurtenissen** in uw reis, zolang zij zelfde namespace gebru
 
 U kunt ook een **Reactie** gebeurtenis na een bericht om te reageren op volggegevens met betrekking tot het bericht. Op deze manier kunt u bijvoorbeeld een ander bericht verzenden als de persoon het vorige bericht heeft geopend of erin heeft geklikt. [Meer informatie over reacties](reaction-events.md).
 
-Gebruiken **Segmentkwalificatie** gebeurtenisactiviteiten om ervoor te zorgen dat individuen op reis gaan of vooruit gaan op basis van de toegang tot en de uitgangen van Adobe Experience Platform-segmenten. U kunt alle nieuwe zilverklanten een reis maken en persoonlijke berichten verzenden. Meer informatie in deze [sectie](segment-qualification-events.md).
+Gebruiken **Poortkwalificatie** gebeurtenisactiviteiten om ervoor te zorgen dat individuen op reis gaan of vooruit gaan op basis van de toegang en het vertrek van het Adobe Experience Platform-publiek. U kunt alle nieuwe zilverklanten een reis maken en persoonlijke berichten verzenden. Meer informatie in deze [sectie](audience-qualification-events.md).
 
 ### Orchestratie{#jo-orch}
 
 Orchestratieactiviteiten zijn verschillende omstandigheden die helpen de volgende stap in de reis te bepalen.
 
-Gebruik de **Segment lezen** om je reis te maken om naar een Adobe Experience Platform-segment te luisteren. [Meer informatie over de activiteit Leessegment](read-segment.md).
+Gebruik de **Publiek lezen** om je reis te maken om naar een Adobe Experience Platform-publiek te luisteren. [Meer informatie over de activiteit van het leespubliek](read-audience.md).
 
 Met de andere activiteiten kunt u voorwaarden aan uw reis toevoegen om meerdere paden te definiëren, een wachttijd in te stellen voordat u de volgende activiteit uitvoert of uw reis beëindigen. [Meer informatie over orkestwerkzaamheden](about-journey-activities.md#orchestration-activities).
 
