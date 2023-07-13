@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, aan de slag, voorwaarden, starten
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_conditions_list"
 >title="Voorwaarden"
->abstract="Met voorwaardelijke regels kunt u meerdere inhoudsvarianten in uw berichten weergeven op basis van profielkenmerken, contextuele gebeurtenissen of publiekssegmenten."
+>abstract="Met voorwaardelijke regels kunt u meerdere inhoudsvarianten in uw berichten weergeven op basis van profielkenmerken, contextuele gebeurtenissen of doelgroepen."
 
-Met dynamische inhoud kunt u de inhoud van berichten aanpassen op basis van **voorwaardelijke regels** die kunnen worden opgebouwd uit profielkenmerken, contextuele gebeurtenissen of publiekssegmenten. Voorwaardelijke regels worden gecreeerd gebruikend een visuele regelbouwer binnen de Redacteur van de Uitdrukking, waar u hen voor verder hergebruik over uw reizen en campagnes kunt opslaan.
+Met dynamische inhoud kunt u de inhoud van berichten aanpassen op basis van **voorwaardelijke regels** die kunnen worden opgebouwd uit profielkenmerken, contextuele gebeurtenissen of publiek. Voorwaardelijke regels worden gecreeerd gebruikend een visuele regelbouwer binnen de Redacteur van de Uitdrukking, waar u hen voor verder hergebruik over uw reizen en campagnes kunt opslaan.
 
 Voorwaardelijke regels kunnen worden gebruikt in de e-mailontwerper en de expressieeditor naar **dynamische inhoud maken** die zich zal aanpassen aan de profielen in uw berichten worden gericht.
 

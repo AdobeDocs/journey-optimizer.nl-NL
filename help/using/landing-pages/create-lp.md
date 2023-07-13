@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landen, pagina landen, maken, publiceren
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: ad4bc06d17727c6c8476344f3c1028fd9e717a15
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 1%
@@ -205,7 +205,7 @@ Voer de onderstaande stappen uit om de subpagina-instellingen te definiëren.
 >id="ac_preview_lp_profiles"
 >title="De openingspagina voorvertonen en testen"
 >abstract="Nadat u de instellingen en inhoud van de bestemmingspagina hebt gedefinieerd, kunt u testprofielen gebruiken om een voorvertoning weer te geven."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="Testprofielen selecteren"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audience/profiles/creating-test-profiles.html" text="Testprofielen selecteren"
 
 Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt u testprofielen gebruiken om een voorvertoning weer te geven. Als u [persoonlijke inhoud](../personalization/personalize.md)kunt u met testprofielgegevens controleren hoe deze inhoud op de bestemmingspagina wordt weergegeven.
 
@@ -213,7 +213,7 @@ Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt
 >
 >Als u bestemmingspagina&#39;s wilt testen, moet u beschikken over **[!UICONTROL Publish Messages]** toestemming.
 >
->U moet testprofielen beschikbaar hebben om een voorbeeld van uw berichten te kunnen bekijken en proefdrukken te kunnen verzenden. Leer hoe u [testprofielen maken](../segment/creating-test-profiles.md).
+>U moet testprofielen beschikbaar hebben om een voorbeeld van uw berichten te kunnen bekijken en proefdrukken te kunnen verzenden. Leer hoe u [testprofielen maken](../audience/creating-test-profiles.md).
 
 1. Klik in de interface van de bestemmingspagina op de knop **[!UICONTROL Simulate content]** om de selectie van het testprofiel te openen.
 
@@ -223,7 +223,7 @@ Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt
    >
    >De **[!UICONTROL Simulate content]** De knop is ook toegankelijk vanuit de inhoudsontwerper.
 
-1. Van de **[!UICONTROL Simulate ]** selecteert u een of meer testprofielen.
+1. Van de **[!UICONTROL Simulate]** selecteert u een of meer testprofielen.
 
    ![](assets/lp_test-profiles.png)
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 2%
+source-wordcount: '757'
+ht-degree: 3%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Voordat u een nieuwe campagne maakt, moet u ervoor zorgen dat u een oppervlaktekanaal (d.w.z. een berichtvoorinstelling) en een Adobe Experience Platform-segment gebruiksklaar hebt. Meer informatie vindt u in deze secties:
+>Voordat u een nieuwe campagne maakt, moet u ervoor zorgen dat u een oppervlaktekanaal (d.w.z. een berichtvoorinstelling) en een Adobe Experience Platform-publiek hebt die u kunt gebruiken. Meer informatie vindt u in deze secties:
 >
 >* [Kanaaloppervlakken maken](../configuration/channel-surfaces.md)
->* [Aan de slag met segmenten](../segment/about-segments.md)
+>* [Aan de slag met het publiek](../audience/about-audiences.md)
 
 Als u een nieuwe campagne wilt maken, opent u de **[!UICONTROL Campaigns]** en klik vervolgens op **[!UICONTROL Create campaign]**. U kunt ook een bestaande live campagne dupliceren om een nieuwe te maken. [Meer informatie](modify-stop-campaign.md#duplicate)
 
@@ -32,20 +32,18 @@ Als u een nieuwe campagne wilt maken, opent u de **[!UICONTROL Campaigns]** en k
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Type campagne"
->abstract="**Geplande campagnes** onmiddellijk of op een bepaalde datum worden uitgevoerd en bedoeld zijn om marketingberichten te verzenden. **API geactiveerd** campagnes worden uitgevoerd gebruikend een API vraag. Zij zijn gericht op het verzenden van marketingberichten of transactiemeldingen, d.w.z. berichten die worden verzonden na een actie die door een individu wordt uitgevoerd: wachtwoord opnieuw instellen, winkelen van winkelwagentjes enz."
+>abstract="Voor een marketingbericht door een verzenddatum op te geven, wordt de **Gepland** type is het meest geschikt. Als u echter transactieberichten wilt verzenden, zoals het opnieuw instellen van het wachtwoord of het verlaten van het winkelwagentje, kunt u de **API geactiveerd** type is de beste keuze."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Campagne, categorie"
->abstract="Als u een geplande campagne maakt, kunt u **marketing** tekst wordt automatisch geselecteerd. Voor API-getriggerde campagnes kiest u of u een **marketing** of **transactie** bericht, d.w.z. een bericht dat wordt verzonden naar aanleiding van een actie uitgevoerd door een individu: wachtwoord opnieuw instellen, winkelen van winkelwagentjes enz."
+>abstract="De waarde van de categorie wordt direct geassocieerd met de waarde van het campagnetype. Het campagneretype voor de **Marketing** categorie en door de API geactiveerd type voor de categorie **Transactioneel**"
 
 1. In de **[!UICONTROL Properties]** , geeft u op hoe u de campagne wilt uitvoeren. Er zijn twee soorten campagnes beschikbaar:
 
-   * **[!UICONTROL Scheduled]**: voert de campagne onmiddellijk of op een gespecificeerde datum uit. Geplande campagnes zijn gericht op het verzenden van **marketing** berichten. Zij worden gevormd en uitgevoerd van het gebruikersinterface.
+   * **[!UICONTROL Scheduled]**: voert de campagne onmiddellijk of op een gespecificeerde datum uit. Geplande campagnes zijn gericht op het verzenden van **marketing** type berichten.
 
-   * **[!UICONTROL API-triggered]**: voer de campagne uit gebruikend een API vraag. API-gestuurde campagnes zijn gericht op het verzenden van: **marketing**, of **transactie** berichten, d.w.z. berichten die worden verzonden na een actie uitgevoerd door een individu: wachtwoord opnieuw instellen, winkelwagentje aanschaffen enz. [Leer hoe u een campagne activeert met behulp van API&#39;s](api-triggered-campaigns.md)
-
-1. Als u een geplande campagne maakt, kunt u **marketing** tekst wordt automatisch geselecteerd. Voor API-getriggerde campagnes kiest u of u een **marketing** of **transactie** bericht.&quot;
+   * **[!UICONTROL API-triggered]**: voer de campagne uit gebruikend een API vraag. API-gestuurde campagnes zijn gericht op het verzenden van **transactie** berichten, d.w.z. berichten die worden verzonden na een actie uitgevoerd door een individu: wachtwoord opnieuw instellen, winkelen van winkelwagentjes enz. [Leer hoe u een campagne activeert met behulp van API&#39;s](api-triggered-campaigns.md)
 
 1. In de **[!UICONTROL Actions]** kiest u het kanaal en het kanaaloppervlak dat u wilt gebruiken om uw bericht te verzenden.
 
@@ -122,19 +120,19 @@ In de **[!UICONTROL Actions]** , maakt u het bericht dat u wilt verzenden met de
 
 ## De doelgroep definiëren {#audience}
 
-Klik op de knop **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-segmenten weer te geven. [Meer informatie over segmenten](../segment/about-segments.md)
+Klik op de knop **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-doelgroepen weer te geven. [Meer informatie over publiek](../audience/about-audiences.md)
 
 >[!NOTE]
 >
 >Voor API-getriggerde campagnes moet het publiek worden ingesteld via API-aanroep. [Meer informatie](api-triggered-campaigns.md)
 
-In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren. [Meer informatie over naamruimten](../event/about-creating.md#select-the-namespace)
+In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde publiek te identificeren. [Meer informatie over naamruimten](../event/about-creating.md#select-the-namespace)
 
 ![](assets/create-campaign-namespace.png)
 
-    >[!OPMERKING]
-    >
-    >Individuen die tot een segment behoren dat niet de geselecteerde identiteit (naamruimte) onder hun verschillende identiteiten heeft, worden niet voor de campagne bedoeld.
+>[!NOTE]
+>
+>Individuen die tot een publiek behoren dat niet de geselecteerde identiteit (namespace) onder hun verschillende identiteiten heeft zullen niet door de campagne worden gericht.
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 

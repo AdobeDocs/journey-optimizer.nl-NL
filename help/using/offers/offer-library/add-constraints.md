@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 34d30a4c45f007da6197999dbf1d0b283fba8248
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 1%
@@ -64,7 +64,7 @@ Als u bijvoorbeeld de volgende beperkingen instelt:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_eligibility"
 >title="Geschiktheid definiëren"
->abstract="Standaard kan elk profiel in aanmerking komen voor presentatie van de aanbieding, maar u kunt segmenten of besluitvormingsregels gebruiken om de aanbieding te beperken tot specifieke profielen."
+>abstract="Standaard kan elk profiel in aanmerking komen om het aanbod te presenteren, maar u kunt het publiek of besluitvormingsregels gebruiken om het aanbod te beperken tot specifieke profielen."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_eligibility"
@@ -75,33 +75,33 @@ Als u bijvoorbeeld de volgende beperkingen instelt:
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="Totale profielschatting"
->abstract="Wanneer u segmenten of besluitvormingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien."
+>abstract="Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien."
 
-De **[!UICONTROL Offer eligibility]** kunt u de aanbieding beperken tot specifieke profielen die u het gebruiken van segmenten of besluitvormingsregels bepaalt.
+De **[!UICONTROL Offer eligibility]** kunt u het aanbod beperken tot specifieke profielen die u definieert met behulp van publiek- of beslissingsregels.
 
 >[!NOTE]
 >
->Meer informatie over het gebruik van **segmenten** versus **beslissingsregels** in [deze sectie](#segments-vs-decision-rules).
+>Meer informatie over het gebruik van **publiek** versus **beslissingsregels** in [deze sectie](#segments-vs-decision-rules).
 
 * Standaard worden de **[!UICONTROL All visitors]** geselecteerd is, wat betekent dat elk profiel in aanmerking komt voor de presentatie van de aanbieding.
 
-   ![](../assets/offer-eligibility-default.png)
+  ![](../assets/offer-eligibility-default.png)
 
-* U kunt ook de presentatie van het voorstel beperken tot de leden van een of meerdere [Adobe Experience Platform-segmenten](../../segment/about-segments.md).
+* U kunt ook de presentatie van het voorstel beperken tot de leden van een of meerdere [Adobe Experience Platform-publiek](../../audience/about-audiences.md).
 
-   Om dit te doen, activeer **[!UICONTROL Visitors who fall into one or multiple segments]** voegt u vervolgens een of meerdere segmenten toe vanuit het linkervenster en combineert u deze met de optie **[!UICONTROL And]** / **[!UICONTROL Or]** logische operatoren.
+  Om dit te doen, activeer **[!UICONTROL Visitors who fall into one or multiple audiences]** voegt u vervolgens een of meer soorten publiek toe vanuit het linkervenster en combineert u deze via het **[!UICONTROL And]** / **[!UICONTROL Or]** logische operatoren.
 
-   ![](../assets/offer-eligibility-segment.png)
+  ![](../assets/offer-eligibility-segment.png)
 
 * Als u een specifieke koppeling wilt maken [beslissingsregel](../offer-library/creating-decision-rules.md) aan de aanbieding, selecteer **[!UICONTROL By defined decision rule]** en sleep de gewenste lijn van het linkerdeelvenster naar het deelvenster **[!UICONTROL Decision rule]** gebied.
 
-   ![](../assets/offer_rule.png)
+  ![](../assets/offer_rule.png)
 
-   >[!CAUTION]
-   >
-   >Aanbiedingen op basis van gebeurtenissen worden momenteel niet ondersteund in [!DNL Journey Optimizer]. Als u een beslissingsregel maakt op basis van een [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, je kunt dit object niet gebruiken in een voorstel.
+  >[!CAUTION]
+  >
+  >Aanbiedingen op basis van gebeurtenissen worden momenteel niet ondersteund in [!DNL Journey Optimizer]. Als u een beslissingsregel maakt op basis van een [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, je kunt dit object niet gebruiken in een voorstel.
 
-Wanneer u segmenten of besluitvormingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien. Klikken **[!UICONTROL Refresh]** om gegevens bij te werken.
+Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien. Klikken **[!UICONTROL Refresh]** om gegevens bij te werken.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -109,23 +109,23 @@ Wanneer u segmenten of besluitvormingsregels selecteert, kunt u informatie over 
 >
 >Profielramingen zijn niet beschikbaar wanneer regelparameters gegevens bevatten die niet in het profiel staan, zoals contextgegevens. Bijvoorbeeld, een toelatingsregel die het huidige weer om 80 graden vereist te zijn.
 
-### Segmenten en beslissingsregels gebruiken {#segments-vs-decision-rules}
+### Het gebruiken van publiek versus besluitvormingsregels {#segments-vs-decision-rules}
 
-Als u een beperking wilt toepassen, kunt u de selectie van aanbiedingen beperken tot de leden van een of meerdere **Adobe Experience Platform-segmenten** of u kunt een **beslissingsregel**, beide oplossingen voor verschillende toepassingen.
+Als u een beperking wilt toepassen, kunt u de selectie van aanbiedingen beperken tot de leden van een of meerdere **Adobe Experience Platform-publiek** of u kunt een **beslissingsregel**, beide oplossingen voor verschillende toepassingen.
 
-In feite, is de output van een segment een lijst van profielen, terwijl een besluitvormingsregel een functie is die op bestelling tegen één enkel profiel tijdens het besluitvormingsproces wordt uitgevoerd. Het verschil tussen deze twee toepassingen wordt hieronder nader toegelicht.
+In feite is de uitvoer van een publiek een lijst met profielen, terwijl een beslissingsregel een functie is die op aanvraag tegen één profiel wordt uitgevoerd tijdens het besluitvormingsproces. Het verschil tussen deze twee toepassingen wordt hieronder nader toegelicht.
 
-* **Segmenten**
+* **Doelgroepen**
 
-   Aan de ene kant zijn segmenten een groep Adobe Experience Platform-profielen die overeenkomen met een bepaalde logica op basis van profielkenmerken en gebeurtenissen ervaren. Het segment wordt echter niet opnieuw berekend door het Offertenbeheer, dat mogelijk niet up-to-date is wanneer de aanbieding wordt gepresenteerd.
+  Enerzijds is het publiek een groep Adobe Experience Platform-profielen die overeenkomen met een bepaalde logica op basis van profielkenmerken en gebeurtenissen beleven. Aanbiedingsbeheer berekent het publiek echter niet opnieuw, wat mogelijk niet up-to-date is wanneer het voorstel wordt gepresenteerd.
 
-   Meer informatie over segmenten in [deze sectie](../../segment/about-segments.md).
+  Meer informatie over publiek in [deze sectie](../../audience/about-audiences.md).
 
 * **Beslissingsregels**
 
-   Anderzijds is een beslissingsregel gebaseerd op in Adobe Experience Platform beschikbare gegevens en bepaalt aan wie een aanbieding kan worden getoond. Zodra geselecteerd in een aanbieding of een besluit voor een bepaalde plaatsing, wordt de regel uitgevoerd telkens als een besluit wordt genomen, die ervoor zorgt dat elk profiel de recentste en beste aanbieding krijgt.
+  Anderzijds is een beslissingsregel gebaseerd op in Adobe Experience Platform beschikbare gegevens en bepaalt aan wie een aanbieding kan worden getoond. Zodra geselecteerd in een aanbieding of een besluit voor een bepaalde plaatsing, wordt de regel uitgevoerd telkens als een besluit wordt genomen, die ervoor zorgt dat elk profiel de recentste en beste aanbieding krijgt.
 
-   Meer informatie over beslissingsregels vindt u in [deze sectie](creating-decision-rules.md).
+  Meer informatie over beslissingsregels vindt u in [deze sectie](creating-decision-rules.md).
 
 ## Afbeelding {#capping}
 
@@ -186,16 +186,16 @@ De **[!UICONTROL Capping event]** in het veld kunt u bepalen welke **[!UICONTROL
 * **[!UICONTROL Decision event]** (standaardwaarde): Er kan maximaal een aantal malen een voorstel worden aangeboden.
 * **[!UICONTROL Impression]**: Het maximale aantal keer dat de aanbieding aan een gebruiker kan worden weergegeven.
 
-   >[!NOTE]
-   >
-   >Het gebruik van indrukkingen als afdekkende gebeurtenissen is beschikbaar voor **binnenkomende kanalen** alleen.
+  >[!NOTE]
+  >
+  >Het gebruik van indrukkingen als afdekkende gebeurtenissen is beschikbaar voor **binnenkomende kanalen** alleen.
 
 * **[!UICONTROL Clicks]**: Een gebruiker kan op het aanbod klikken om het maximumaantal keren te wijzigen.
 * **[!UICONTROL Custom event]**: U kunt een aangepaste gebeurtenis definiëren die wordt gebruikt om het aantal verzonden aanbiedingen te beperken. U kunt bijvoorbeeld het aantal aflossingen beperken tot ze gelijk zijn aan 10000 of tot een bepaald profiel één keer is afgelost. Gebruik hiervoor [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} schema&#39;s om een regel van de douanegebeurtenis te bouwen.
 
-   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
+  <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
-   In het onderstaande voorbeeld wilt u het aantal kassa&#39;s beperken.
+  In het onderstaande voorbeeld wilt u het aantal kassa&#39;s beperken.
 
    1. Selecteren **[!UICONTROL Custom event]** in de lijst en **[!UICONTROL Add custom event]** knop.
 
@@ -237,11 +237,11 @@ U kunt ook opgeven of u de aftopping wilt toepassen op alle gebruikers of op é�
 
 * Selecteren **[!UICONTROL In total]** om te bepalen hoe vaak een aanbieding over het gecombineerde doelpubliek kan worden voorgesteld, betekenend over alle gebruikers.
 
-   Als u bijvoorbeeld een elektronicawinkel bent met een &#39;tv-huis-deal&#39;, wilt u dat het aanbod slechts 200 keer wordt geretourneerd voor alle profielen.
+  Als u bijvoorbeeld een elektronicawinkel bent met een &#39;tv-huis-deal&#39;, wilt u dat het aanbod slechts 200 keer wordt geretourneerd voor alle profielen.
 
 * Selecteren **[!UICONTROL Per profile]** om te bepalen hoe vaak een aanbieding aan dezelfde gebruiker kan worden voorgesteld.
 
-   Als je bijvoorbeeld een bank bent met een &#39;Platinum credit card&#39;-aanbieding, wil je niet dat dit voorstel meer dan vijf keer per profiel wordt weergegeven. U bent namelijk van mening dat als de gebruiker het aanbod vijf keer heeft gezien en er niet op heeft gereageerd, hij een grotere kans heeft om op het volgende beste aanbod in te gaan.
+  Als je bijvoorbeeld een bank bent met een &#39;Platinum credit card&#39;-aanbieding, wil je niet dat dit voorstel meer dan vijf keer per profiel wordt weergegeven. U bent namelijk van mening dat als de gebruiker het aanbod vijf keer heeft gezien en er niet op heeft gereageerd, hij een grotere kans heeft om op het volgende beste aanbod in te gaan.
 
 ### Frequentiecorrectie {#frequency-capping}
 
@@ -274,11 +274,11 @@ Als u meerdere [representaties](add-representations.md) voor je voorstel, geef a
 
 * **[!UICONTROL Across all placements]**: het beperken van aantallen zal alle besluiten over de plaatsen verbonden aan de aanbieding in totaal nemen.
 
-   Als een aanbieding bijvoorbeeld een **E-mail** plaatsing en **Web** plaatsing, en u plaatst het maximum bij **2 per profiel voor alle plaatsen** Vervolgens kan elk profiel het aanbod in totaal maximaal twee keer ontvangen, ongeacht de plaatsingsmix.
+  Als een aanbieding bijvoorbeeld een **E-mail** plaatsing en **Web** plaatsing, en u plaatst het maximum bij **2 per profiel voor alle plaatsen** Vervolgens kan elk profiel het aanbod in totaal maximaal twee keer ontvangen, ongeacht de plaatsingsmix.
 
 * **[!UICONTROL For each placement]**: Bij het beperken van tellingen worden de beslissingsaantallen voor elke plaatsing afzonderlijk toegepast.
 
-   Als een aanbieding bijvoorbeeld een **E-mail** plaatsing en **Web** plaatsing, en u plaatst het maximum bij **2 per profiel voor elke plaatsing** Vervolgens kan elk profiel tot twee keer de aanbieding voor e-mailplaatsing ontvangen en nog eens twee keer de plaatsing op het web.
+  Als een aanbieding bijvoorbeeld een **E-mail** plaatsing en **Web** plaatsing, en u plaatst het maximum bij **2 per profiel voor elke plaatsing** Vervolgens kan elk profiel tot twee keer de aanbieding voor e-mailplaatsing ontvangen en nog eens twee keer de plaatsing op het web.
 
 ### Gevolgen van het wijzigen van datums voor plafonnering {#capping-change-date}
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 13c228c2409400da8c62189d96e9b47bcb94ee19
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -50,13 +50,13 @@ Als u deze functie wilt openen, selecteert u de optie **[!UICONTROL Simulation]*
 >id="ajo_decisioning_simulation_test_profile"
 >title="Testprofielen toevoegen"
 >abstract="U kunt een testprofiel toevoegen door een naamruimte voor de identiteit en een bijbehorende identiteitswaarde te selecteren. U moet testprofielen al beschikbaar hebben om hen voor simulatie te kunnen gebruiken."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/segment/profiles/creating-test-profiles.html" text="Testprofielen maken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audience/profiles/creating-test-profiles.html" text="Testprofielen maken"
 
 Eerst moet u de testprofielen selecteren die u voor simulatie gaat gebruiken.
 
 >[!CAUTION]
 >
->U moet testprofielen beschikbaar hebben om te simuleren welke aanbiedingen aan hen zullen worden geleverd. Leer hoe u [testprofielen maken](../../segment/creating-test-profiles.md).
+>U moet testprofielen beschikbaar hebben om te simuleren welke aanbiedingen aan hen zullen worden geleverd. Leer hoe u [testprofielen maken](../../audience/creating-test-profiles.md).
 
 1. Klik op **[!UICONTROL Manage profile]**.
 
@@ -66,7 +66,7 @@ Eerst moet u de testprofielen selecteren die u voor simulatie gaat gebruiken.
 
    >[!NOTE]
    >
-   >Een naamruimte voor identiteiten definieert de context van een id, zoals een e-mailadres of CRM-id. Meer informatie over naamruimten in Adobe Experience Platform [in deze sectie](../../segment/get-started-identity.md){target="_blank"}.
+   >Een naamruimte voor identiteiten definieert de context van een id, zoals een e-mailadres of CRM-id. Meer informatie over naamruimten in Adobe Experience Platform [in deze sectie](../../audience/get-started-identity.md){target="_blank"}.
 
 1. Voer de identiteitswaarde in en klik op **[!UICONTROL View]** om de beschikbare profielen weer te geven.
 

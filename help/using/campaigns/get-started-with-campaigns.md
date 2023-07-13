@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: campagne, hoe, begin, optimaliseer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 11c1945f8e7f7ca74a2c9ca33ff85fea77bcf5db
+source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 2%
+source-wordcount: '387'
+ht-degree: 3%
 
 ---
 
@@ -21,14 +21,14 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campagnes"
->abstract="Maak campagnes om eenmalige inhoud aan een specifiek segment over verschillende kanalen te leveren. Voordat u de campagne maakt, moet u controleren of u een kanaaloppervlak (d.w.z. een berichtvoorinstelling) en een Adobe Experience Platform-segment hebt die u kunt gebruiken."
+>abstract="Maak campagnes om eenmalige inhoud aan een specifiek publiek op verschillende kanalen te leveren. Voordat u de campagne maakt, moet u ervoor zorgen dat u een kanaaloppervlak (d.w.z. een berichtvoorinstelling) en een Adobe Experience Platform-publiek hebt die u kunt gebruiken."
 
-Gebruik Journey Optimizer-campagnes om eenmalige inhoud via verschillende kanalen aan een specifiek segment te leveren. Wanneer u reizen gebruikt, worden handelingen op volgorde uitgevoerd. Met campagnes, worden de acties uitgevoerd gelijktijdig, of onmiddellijk, of gebaseerd op een gespecificeerd programma.
+Gebruik Journey Optimizer-campagnes om via verschillende kanalen eenmalige inhoud aan een specifiek publiek te leveren. Wanneer u reizen gebruikt, worden handelingen op volgorde uitgevoerd. Met campagnes, worden de acties uitgevoerd gelijktijdig, of onmiddellijk, of gebaseerd op een gespecificeerd programma.
 
 U kunt twee typen campagnes maken:
 
 * **Geplande campagnes** voor eenvoudige ad-hoc partijmededelingen voor marketing gebruiksgevallen zoals promotieaanbiedingen, betrokkenheidscampagnes, aankondigingen, wettelijke berichten, of beleidsupdates toestaan.
-* **API-gestuurde campagnes** toestaan of voor marketing mededelingen om aan een publiek op het juiste ogenblik te bereiken, of voor transactie/operationele berichten aan een individu zoals het terugstellen van een wachtwoord, waar de behoefte personalisatie kan impliceren door niet alleen profielattributen maar ook de contextgegevens in real time in de trekker te gebruiken die een nuttige lading van de WEERSTAPI is.
+* **API-gestuurde campagnes** eenvoudige transactie-/operationele berichten mogelijk maken met REST API&#39;s (opnieuw instellen van wachtwoorden, verlaten van winkelwagentje, enz.), waarbij de behoefte kan bestaan uit personalisatie met behulp van profielkenmerken en contextafhankelijke gegevens van lading.
 
 De belangrijkste stappen voor het opzetten van een campagne zijn:
 
@@ -66,7 +66,7 @@ Controleer de volgende voorwaarden voordat u begint met het maken van uw eerste 
 
 +++
 
-1. **U hebt een publiek nodig**. De segmenten van het publiek moeten beschikbaar zijn alvorens de campagne te creëren. Meer informatie over publiek maken [op deze pagina](../segment/about-segments.md).
+1. **U hebt een publiek nodig**. De doelgroepen moeten beschikbaar zijn voordat ze de campagne kunnen opzetten. Meer informatie over publiek [op deze pagina](../audience/about-audiences.md).
 1. **U hebt een kanaaloppervlak nodig**. Als u een kanaal wilt selecteren, moet het bijbehorende kanaaloppervlak (dus de voorinstelling) zijn gemaakt en beschikbaar. Meer informatie over kanaaloppervlakken [op deze pagina](../configuration/channel-surfaces.md).
 
 ## Hoe kan ik-video {#video}
