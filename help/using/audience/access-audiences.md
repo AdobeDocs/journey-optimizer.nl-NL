@@ -7,29 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
 
 # Toegang tot en beheer van het publiek {#access-manage-audiences}
-
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatie zult vinden:
-
-* [Aan de slag met publiekscompositie](get-started-audience-orchestration.md)
-* [Uw eerste compositieworkflow maken](create-compositions.md)
-* [Werken met het compositicanvas](composition-canvas.md)
-* **[Toegang tot en beheer van het publiek](access-audiences.md)**
-
->[!ENDSHADEBOX]
 
 Het publiek dat het resultaat is van de samenstelling van het publiek, is toegankelijk via de **[!UICONTROL Browse]** in de **[!UICONTROL Audiences]** -menu.
 
@@ -38,8 +25,6 @@ Dit tabblad bevat een lijst met alle soorten publiek die in Adobe Experience Pla
 ![](assets/audiences-list.png)
 
 >[!NOTE]
->
->Voor deze bètaversie worden verschillende componenten en/of metagegevens die oorspronkelijk in de publieksinventaris werden weergegeven, niet op dit tabblad weergegeven (bijvoorbeeld uitsplitsing, evaluatiemethode, enz.).
 >
 >Raadpleeg voor meer informatie over andere soorten publiek in Adobe Experience Platform de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 

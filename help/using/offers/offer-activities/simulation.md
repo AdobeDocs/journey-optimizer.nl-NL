@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Als u deze functie wilt openen, selecteert u de optie **[!UICONTROL Simulation]*
 >id="ajo_decisioning_simulation_test_profile"
 >title="Testprofielen toevoegen"
 >abstract="U kunt een testprofiel toevoegen door een naamruimte voor de identiteit en een bijbehorende identiteitswaarde te selecteren. U moet testprofielen al beschikbaar hebben om hen voor simulatie te kunnen gebruiken."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audience/profiles/creating-test-profiles.html" text="Testprofielen maken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html" text="Testprofielen maken"
 
 Eerst moet u de testprofielen selecteren die u voor simulatie gaat gebruiken.
 

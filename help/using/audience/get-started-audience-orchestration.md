@@ -7,13 +7,11 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -24,21 +22,6 @@ ht-degree: 0%
 >id="ajo_ao_create_composition"
 >title="Een compositie maken"
 >abstract="Maak een compositieworkflow om bestaande Adobe Experience Platform-doelgroepen te combineren tot een visueel canvas en gebruik verschillende activiteiten (splitsen, uitsluiten...) om een nieuw publiek te maken."
-
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatie zult vinden:
-
-* **[Aan de slag met publiekscompositie](get-started-audience-orchestration.md)**
-* [Uw eerste compositieworkflow maken](create-compositions.md)
-* [Werken met het compositicanvas](composition-canvas.md)
-* [Toegang tot en beheer van het publiek](access-audiences.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->De samenstelling van het publiek is slechts beschikbaar aan een beperkte groep klanten op dit ogenblik. Neem contact op met uw Adobe-vertegenwoordiger als u vragen hebt.
 
 De samenstelling van het publiek staat u toe om tot stand te brengen **compositieworkflows**, waarin u bestaande Adobe Experience Platform-doelgroepen kunt combineren tot een visueel canvas en verschillende activiteiten (splitsen, uitsluiten...) kunt gebruiken om nieuwe doelgroepen te maken.
 

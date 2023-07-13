@@ -7,29 +7,16 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
 
 # Werken met het compositicanvas {#composition-canvas}
-
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatie zult vinden:
-
-* [Aan de slag met publiekscompositie](get-started-audience-orchestration.md)
-* [Uw eerste compositieworkflow maken](create-compositions.md)
-* **[Werken met het compositicanvas](composition-canvas.md)**
-* [Toegang tot en beheer van het publiek](access-audiences.md)
-
->[!ENDSHADEBOX]
 
 De samenstelling van het publiek verstrekt een visueel canvas dat u toestaat om publiek tot stand te brengen en diverse activiteiten (gespleten, verrijkt, enz.) te gebruiken.
 
@@ -151,6 +138,8 @@ De **[!UICONTROL Exclude]** Met activiteit kunt u profielen uitsluiten van uw co
 De **[!UICONTROL Enrich]** Met deze activiteit kunt u uw publiek verrijken met extra kenmerken die afkomstig zijn uit Adobe Experience Platform-gegevenssets. U kunt bijvoorbeeld informatie met betrekking tot het aangekochte product toevoegen, zoals de naam, de prijs of de fabrikant-id, en deze informatie gebruiken om de leveringen die naar het publiek worden verzonden, aan te passen.
 
 >[!IMPORTANT]
+>
+>Verrijking is beschikbaar voor **[!UICONOTROL Adobe Journey Optimizer]** alleen gebruikers.
 >
 >Voor nu, worden de etiketten op de dataset, of op het datasetniveau of op het gebiedsniveau, niet verspreid aan het pas gecreëerde publiek. Dit kan de toegangscontrole en/of gegevensbeheer voor het resulterende publiek beïnvloeden. Gebruik daarom bij het samenstellen van het publiek alleen testgegevens.
 
