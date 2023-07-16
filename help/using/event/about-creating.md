@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: evenement, eenheidsprijs, creëren, reis
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1578'
 ht-degree: 12%
 
 ---
@@ -69,6 +69,8 @@ Hier volgen de eerste stappen voor het configureren van een nieuwe gebeurtenis:
    >[!NOTE]
    >
    >De geavanceerde expressie-editor is niet beschikbaar bij het definiëren van de **[!UICONTROL Event ID condition]**. In de eenvoudige expressie-editor zijn niet alle operatoren beschikbaar, maar zijn ze afhankelijk van het gegevenstype. Voor een tekenreekstype kunt u bijvoorbeeld &quot;contains&quot; of &quot;equal to&quot; gebruiken.
+   >
+   >Als u het schema na het maken van de gebeurtenis wijzigt met nieuwe opsomwaarden, moet u de volgende stappen uitvoeren om de wijzigingen toe te passen op de bestaande gebeurtenis: Hef de selectie van het opsommingsveld in de gebeurtenisvelden op, bevestig de selectie en selecteer vervolgens nogmaals het nummeringsveld. De nieuwe opsommingswaarde wordt nu weergegeven.
 
 1. Voeg een naamruimte toe. Deze stap is optioneel, maar wordt aangeraden, omdat u door het toevoegen van een naamruimte gegevens kunt gebruiken die zijn opgeslagen in de real-timeklantprofielservice. U definieert zo het type sleutel van de gebeurtenis. Zie [deze sectie](../event/about-creating.md#select-the-namespace).
 

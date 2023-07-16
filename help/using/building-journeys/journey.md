@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: reis, ontdek, begin
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 1%
@@ -82,7 +82,7 @@ Wanneer u een reis zoekt, verschijnen de nieuwste versies bij de eerste keer dat
 
 >[!NOTE]
 >
->Gewoonlijk kan een profiel niet meerdere keren op dezelfde reis tegelijk aanwezig zijn. Als de terugkeer wordt toegelaten, kan een profiel een reis opnieuw ingaan, maar kan het niet doen tot hij dat vorige geval van de reis volledig verliet. [Meer informatie](end-journey.md).
+>Gewoonlijk kan een profiel niet meerdere keren op dezelfde reis tegelijk aanwezig zijn. Als re-entry wordt toegelaten, kan een profiel een reis opnieuw ingaan, maar kan het niet doen tot zij dat vorige geval van de reis volledig verlaten. [Meer informatie](end-journey.md).
 
 Als u zich aan een levende reis moet aanpassen, creeer een nieuwe versie van uw reis.
 

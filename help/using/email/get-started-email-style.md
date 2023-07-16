@@ -9,20 +9,20 @@ role: User
 level: Intermediate
 keywords: email, style, css, body, structure
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met e-mailstijl {#get-started-email-style}
 
-Nadat u uw e-mailinhoud hebt gemaakt in [!DNL Journey Optimizer], kunt u een aantal opmaakparameters en -kenmerken aanpassen in het instellingenvenster E-mailontwerper.
+Nadat u uw e-mailinhoud hebt gemaakt in [!DNL Journey Optimizer]kunt u een aantal opmaakparameters en -kenmerken aanpassen in de e-mailontwerper **[!UICONTROL Styles]** venster.
 
 U kunt de wijzigingen toepassen op de hoofdtekst van de e-mail, op een structuurcomponent of op een inhoudscomponent.
 
-![](assets/email_designer_content_components_settings.png)
+![](assets/email_designer_content_components_styles.png)
 
 Volg de onderstaande koppelingen om te zien hoe u bepaalde stijlinstellingen in uw e-mail kunt aanpassen.
 

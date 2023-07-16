@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -19,23 +19,27 @@ ht-degree: 0%
 
 ## Informatie over API-gestuurde campagnes {#about}
 
-Met [!DNL Journey Optimizer]kunt u campagnes maken en deze vervolgens aanroepen vanuit een extern systeem op basis van een gebruikerstrigger met behulp van de [Interactive Message Execution REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Dit staat u toe om diverse operationele en transactionele overseinenbehoeften zoals wachtwoordterugstellen, het teken van OTP, onder andere te behandelen.
+Met [!DNL Journey Optimizer]kunt u campagnes maken en deze vervolgens aanroepen vanuit een extern systeem op basis van een gebruikerstrigger met behulp van de [Interactive Message Execution REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution). Dit staat u toe om diverse marketing en transactionele overseinenbehoeften zoals wachtwoordterugstellen, het teken van OTP, onder andere te behandelen.
 
 Hiervoor moet u eerst een API-getriggerde campagne in Journey Optimizer maken en vervolgens de uitvoering starten via een API-aanroep.
 
 Beschikbare kanalen voor API-getriggerde campagnes zijn E-mail, SMS en Push berichten.
 
+>[!NOTE]
+>
+>Op dit moment wordt snelle levering niet ondersteund voor door de API geïnitieerde campagnes met pushmeldingen.
+
 ## Een API-gestuurde campagne maken {#create}
 
 ### De campagne configureren en activeren {#create-activate}
 
-Het proces om API-teweeggebrachte campagnes tot stand te brengen blijft het zelfde als geplande campagnes, behalve de publieksselectie die in de API lading wordt uitgevoerd. Gedetailleerde informatie over het maken van een campagne is beschikbaar in [deze sectie](create-campaign.md).
-
-Voer de volgende stappen uit om een API-gestuurde campagne te maken:
+Voer de onderstaande stappen uit om een API-gestuurde campagne te maken. Gedetailleerde informatie over het maken van een campagne is beschikbaar in [deze sectie](create-campaign.md).
 
 1. Maak een nieuwe campagne met de **[!UICONTROL API-triggered]** type.
 
-1. Kies het kanaal en de kanaaloppervlakte om uw bericht te verzenden, dan klik **[!UICONTROL Create]**.
+1. Kies de optie **[!UICONTROL Marketing]** of **[!UICONTROL Transactional]** afhankelijk van het type communicatie dat u wilt verzenden.
+
+1. Kies een van de ondersteunde kanalen en het bijbehorende kanaaloppervlak voor het verzenden van uw bericht en klik op **[!UICONTROL Create]**.
 
    ![](assets/api-triggered-type.png)
 
@@ -47,9 +51,11 @@ Voer de volgende stappen uit om een API-gestuurde campagne te maken:
    >
    >Het gebruik van een groot aantal of zware contextafhankelijke gegevens in uw inhoud kan van invloed zijn op de prestaties.
 
-1. In de **[!UICONTROL Audience]** , geeft u de naamruimte op die moet worden gebruikt om de personen van het publiek te identificeren.
+1. In de **[!UICONTROL Audience]** in, geeft u de naamruimte op die moet worden gebruikt om de personen te identificeren.
 
-   De **[!UICONTROL Create new profiles]** kunt u automatisch profielen maken die niet in de database voorkomen. [Meer informatie over het maken van profielen tijdens de uitvoering van de campagne](#profile-creation)
+   * Als u een **transactie**-type campagne, moeten de gerichte profielen in de API vraag worden bepaald. De **[!UICONTROL Create new profiles]** kunt u automatisch profielen maken die niet in de database voorkomen. [Meer informatie over het maken van profielen tijdens de uitvoering van de campagne](#profile-creation)
+
+   * Voor **marketing**-type campagnes, klik **[!UICONTROL Audience]** om het publiek te kiezen waarop u zich wilt richten.
 
 1. De begin- en einddatum van de campagne configureren.
 
@@ -68,6 +74,9 @@ Nadat de campagne is geactiveerd, moet u het gegenereerde voorbeeld-cURL-verzoek
    ![](assets/api-triggered-curl.png)
 
 1. Gebruik dit cURL-verzoek in de API&#39;s om de payload te bouwen en de campagne te starten. Raadpleeg voor meer informatie de [Interactieve API-documentatie voor berichtuitvoering](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution).
+
+
+   Voorbeelden van API-aanroepen zijn ook beschikbaar in [deze pagina](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/).
 
    >[!NOTE]
    >
@@ -92,7 +101,7 @@ De `{{context.<contextualAttribute>}}` syntaxis wordt alleen toegewezen aan een 
 
 >[!IMPORTANT]
 >
->De contextafhankelijke kenmerken die aan de aanvraag worden doorgegeven, mogen niet groter zijn dan 50 kB.
+>De contextafhankelijke kenmerken die in de aanvraag worden doorgegeven, mogen niet groter zijn dan 50 kB en zijn altijd van het type tekenreeks.
 >
 >De `context.system` syntaxis is beperkt tot Adobe intern gebruik en mag niet worden gebruikt om contextuele kenmerken door te geven.
 
@@ -106,9 +115,9 @@ Wanneer een profiel niet in de database bestaat, kunt u het door Journey Optimiz
 
 >[!IMPORTANT]
 >
->Deze functie is beschikbaar voor **zeer kleine profielcreatie** in een grote transactie die gebruikscase verzendt, met het grootste deel van profielen reeds bestaand in platform.
+>In het geval van transactieberichten, wordt deze eigenschap verstrekt **zeer kleine profielcreatie** in een grote transactie die gebruikscase verzendt, met het grootste deel van profielen reeds bestaand in platform.
 
-Als u het maken van profielen wilt activeren tijdens de uitvoering van de campagne, schakelt u het **[!UICONTROL Create new profiles]** in de **[!UICONTROL Audience]** sectie.
+Als u het maken van profielen wilt activeren tijdens de uitvoering van de campagne, schakelt u het **[!UICONTROL Create new profiles]** in de **[!UICONTROL Audience]** sectie. Als deze optie is uitgeschakeld, worden onbekende profielen voor verzending geweigerd en mislukt de API-aanroep.
 
 ![](assets/api-triggered-create-profile.png)
 

@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 2%
+source-wordcount: '402'
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ Voer de volgende stappen uit om een AI-model te maken:
 1. Geef een unieke naam en een beschrijving voor het AI-model op en selecteer het type AI-model dat u wilt maken:
 
    * **[!UICONTROL Auto-optimization]** optimaliseert aanbiedingen op basis van de prestaties van de vorige aanbieding. [Meer informatie](auto-optimization-model.md)
-   * **[!UICONTROL Personalized]** optimaliseert en personaliseert aanbiedingen op basis van publiek en biedt prestaties. [Meer informatie](personalized-optimization-model.md)
+   * **[!UICONTROL Personalized optimization]** optimaliseert en personaliseert aanbiedingen op basis van publiek en biedt prestaties. [Meer informatie](personalized-optimization-model.md)
 
    ![](../assets/ai-ranking-fields.png)
 
@@ -61,7 +61,9 @@ Voer de volgende stappen uit om een AI-model te maken:
    >
    >Alleen de gegevenssets die zijn gemaakt op basis van schema&#39;s die zijn gekoppeld aan de **[!UICONTROL Experience Event - Proposition Interactions]** veldgroep (voorheen bekend als mixin) wordt weergegeven in de vervolgkeuzelijst.
 
-1. Als u een **[!UICONTROL Personalized optimization]** AI-model: selecteer de publiek(en) die u wilt gebruiken om het AI-model op te leiden.
+1. Als u een **[!UICONTROL Personalized optimization]** AI-model: selecteer het segment of de segmenten die u wilt gebruiken om het AI-model op te leiden.
+
+   ➡️ [Ontdek deze functie in video](#video)
 
    ![](../assets/ai-ranking-segments.png)
 

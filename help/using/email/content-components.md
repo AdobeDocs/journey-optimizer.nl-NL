@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: componenten, e-mailontwerper, editor, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1224'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Voer de onderstaande stappen uit om inhoudcomponenten aan uw e-mail toe te voege
    >
    >U kunt meerdere componenten toevoegen aan één structuurcomponent en aan elke kolom van een structuurcomponent.
 
-1. Pas de opmaakkenmerken voor elke component aan met de opdracht **[!UICONTROL Settings]** en **[!UICONTROL Style]** aan de rechterkant. U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen. [Meer informatie over uitlijning en opvulling](alignment-and-padding.md)
+1. Pas de kenmerken en opmaak voor elke component aan met de opdracht **[!UICONTROL Settings]** en **[!UICONTROL Style]** aan de rechterkant. U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen. [Meer informatie over uitlijning en opvulling](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
 

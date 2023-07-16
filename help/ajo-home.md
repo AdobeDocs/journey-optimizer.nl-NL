@@ -5,10 +5,10 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 16%
+source-wordcount: '316'
+ht-degree: 13%
 
 ---
 
@@ -32,40 +32,44 @@ ht-degree: 16%
     <div>
       <a href="using/rn/release-notes.md">Aanvullende informatie</a>
     </div>
-    <p>Nieuwe mogelijkheden, nieuwste verbeteringen en oplossingen
+    <p>Nieuwe mogelijkheden, nieuwste verbeteringen en oplossingen</p>
    <p>
     <div>
       <a href="using/start/quick-start.md">Snelle startgids</a>
     </div>
-    <p>
-    Leer hoe te als Beheerder, de ingenieur van Gegevens of de praktijk van de Reis te beginnen
+    <p>Leer hoe te om als Beheerder, de ingenieur van Gegevens, of de praktijkbeoefenaar van de Reis te beginnen</p>
     <p>
     <p>
     <div>
       <a href="using/email/get-started-email-design.md">E-mailinhoud ontwerpen</a>
     </div>
-    <p>
-    Een nieuwe e-mail ontwerpen of bestaande HTML-inhoud importeren
+    <p>Een nieuwe e-mail ontwerpen of bestaande HTML-inhoud importeren</p>
     <p>
     <div>
     <a href="using/building-journeys/journey-gs.md">Uw eerste journey maken</a>
     </div>
     <p>Leer hoe u een reis bouwt en uitvoert
     <p>
+     <div>
+      <a href="using/campaigns/create-campaign.md">Campagnes maken en beheren</a>
+    </div>
+    <p>Uw eerste campagne maken, configureren en verzenden</p>
+    <p>
+    <div>
     <div>
     <a href="using/configuration/get-started-configuration.md">Configureren [!DNL Journey Optimizer]</a>
     </div>
-    <p>Leer belangrijke stappen om te vormen [!DNL Journey Optimizer]
+    <p>Leer belangrijke stappen om te vormen [!DNL Journey Optimizer]</p>
     <p>
     <div>
     <a href="using/administration/permissions-overview.md">Toegang verlenen tot [!DNL Journey Optimizer]</a>
     </div>
-    <p>De machtigingen definiëren en beheren die zijn toegewezen aan [!DNL Journey Optimizer] gebruikers
+    <p>De machtigingen definiëren en beheren die zijn toegewezen aan [!DNL Journey Optimizer] gebruikers</p>
     <p>
     <div>
     <a href="using/offers/get-started/starting-offer-decisioning.md">Beslissingsbeheer</a>
     </div>
-    <p>Maak aanbiedingen en lever de beste aanbieding en ervaring aan uw klanten
+    <p>Maak aanbiedingen en lever de beste aanbieding en ervaring aan uw klanten</p>
     <p>
     <p>
     <div><strong>Aanvullende bronnen</strong>
@@ -92,6 +96,24 @@ ht-degree: 16%
       <a href="https://www.adobe.com/nl/experience-platform/documentation-and-developer-resources.html" target="_blank">Bronnen voor Adobe Experience Platform-ontwikkelaars</a>
     </li>
     </div>
+    <p>
+    </p>
+    <p>
+    </p>
+    <div>
+    </div>
+    <div><strong>Nieuwsbrief</strong>
+    </div>
+    <p>
+    <p>
+    <div>
+    <p>Meld u aan voor de <a href="https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html" target="_blank">Adobe Journey Optimizer driemaandelijkse nieuwsbrief</a>.</p>
+    <p>Ontvang de nieuwste productupdates, spannende verhalen, gebruiksgevallen, tips en meer die elk kwartaal rechtstreeks aan uw Postvak IN worden bezorgd. In elke nieuwsbrief kunt u vinden:</p>
+    <li>nieuws en updates over producten, waaronder onlangs gepubliceerde mogelijkheden</li>
+    <li>Uitnodigingen voor evenementen en webinars en opnames voor recente webinars</li>
+    <li>Top besprekingen in de Gemeenschap Adobe Journey Optimizer Experience League </li>
+    <li>Casestudy's en gebruiksscenario's van andere klanten van Adobe Journey Optimizer</li>
+    <li>Tips en trucs om de klantervaringen te leveren die bedrijfssucces drijven</li>
   </td>
    <td>
    <div><strong>Directe koppelingen naar belangrijke bronnen</strong>
@@ -125,6 +147,9 @@ ht-degree: 16%
     <li>
       <a href="using/email/content-templates.md">Contentsjablonen</a>
     </li>
+      <li>
+      <a href="using/email/fragments.md">Fragmenten</a>
+    </li>
     <p>
     <p>GEGEVENSBEHEER</p>
     <li>
@@ -142,7 +167,7 @@ ht-degree: 16%
     <p>
     <p>VERBINDINGEN</p>
       <li>
-      <a href="using/data/get-started-datasets.md">Doelen</a>
+      <a href="using/data/export-datasets.md">Doelen</a>
     </li>
     <li>
       <a href="using/start/get-started-sources.md">Bronnen</a>
@@ -165,10 +190,16 @@ ht-degree: 16%
     <p>
     <p>PRIVACY</p>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl" target="_blank">Beleid</a>
+      <a href="using/action/action-privacy.md">Beleid</a>
     </li>
     <li>
-      <a href="https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=nl"target="_blank">Verzoeken</a>
+      <a href="using/privacy/requests.md">Verzoeken</a>
+    </li>
+        <li>
+      <a href="using/privacy/audit-logs.md"target="_blank">Audit</a>
+    </li>
+        <li>
+      <a href="using/privacy/data-hygiene.md"target="_blank">Gegevenshygiëne</a>
     </li>
     <p>
     <p>ADMINISTRATIE</p>
@@ -178,24 +209,18 @@ ht-degree: 16%
     <li>
       <a href="using/configuration/frequency-rules.md">Regels</a>
     </li>
+        <li>
+      <a href="using/reports/alerts.md">Waarschuwingen</a>
+    </li>
     <li>
       <a href="using/configuration/get-started-configuration.md">Kanalen</a>
     </li>
      <li>
       <a href="using/administration/sandboxes.md">Sandboxes</a>
     </li>
+     <li>
+      <a href="using/start/search-filter-categorize.md#work-with-unified-tags">Tags</a>
+    </li>
   </td>
 </tr>
 </table>
-
-
-![Nieuwsbrief](using/assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} vandaag!
-
-Ontvang de nieuwste productupdates, spannende verhalen, gebruiksgevallen, tips en meer die elk kwartaal rechtstreeks aan uw Postvak IN worden bezorgd.
-
-In elke nieuwsbrief zult u vinden:
-* nieuws en updates over producten, waaronder onlangs gepubliceerde mogelijkheden
-* Uitnodigingen voor evenementen en webinars en opnames voor recente webinars
-* Top besprekingen in de Gemeenschap Adobe Journey Optimizer Experience League
-* Casestudy&#39;s en gebruiksscenario&#39;s van andere klanten van Adobe Journey Optimizer
-* Tips en trucs om de uitzonderlijke klantervaringen te leveren die bedrijfssucces drijven

@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, voorwaardelijk, regels
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 1%
+source-wordcount: '581'
+ht-degree: 0%
 
 ---
 
@@ -56,17 +56,17 @@ De stappen voor het maken van een voorwaardelijke regel zijn als volgt:
 
 1. Bouw de voorwaardelijke regel volgens uw behoeften. U doet dit door de gewenste kenmerken vanuit het linkermenu naar het canvas te slepen en neer te zetten.
 
-   De stappen om attributen in het canvas te combineren zijn gelijkaardig aan de segmentdefinitie bouwend ervaring. Voor meer informatie over hoe te met het canvas van de regelbouwer te werken, verwijs naar [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#rule-builder-canvas).
+De stappen om kenmerken in het canvas te combineren zijn gelijkaardig aan de ervaring van het segmentbouwen. Voor meer informatie over hoe te met het canvas van de regelbouwer te werken, verwijs naar [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
 
-   ![](assets/conditions-create.png)
-
-   De kenmerken zijn ingedeeld in drie tabbladen:
-
-   * **[!UICONTROL Profile]**:
-      * **[!UICONTROL Audiences]** geeft alle publiekskenmerken weer (bijvoorbeeld status, versie enz.) for [Adobe Experience Platform Segmentation-service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
-      * **[!UICONTROL XDM Individual profiles]** Hiermee worden alle profielkenmerken weergegeven die zijn gekoppeld aan de [XDM-schema (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) gedefinieerd in Adobe Experience Platform.
-   * **[!UICONTROL Contextual]**: wanneer uw bericht in een reis wordt gebruikt, zijn de contextuele reisgebieden beschikbaar door dit lusje.
-   * **[!UICONTROL Audiences]**: maakt een lijst van alle publiek dat van segmentdefinities wordt geproduceerd in [Adobe Experience Platform Segmentation-service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+    ![](assets/conditions-create.png)
+    
+    De kenmerken zijn ingedeeld in drie tabbladen:
+    
+    * **[!UICONTROL Profile]**:
+    * **[!UICONTROL Audiences]** bevat alle publiekskenmerken (bijvoorbeeld status, versie, enz.) voor [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
+    * **[!UICONTROL XDM Individual profiles]** bevat een lijst met alle profielkenmerken die zijn gekoppeld aan het [XDM-schema (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) dat is gedefinieerd in Adobe Experience Platform.
+    * **[!UICONTROL Contextual]**: wanneer uw bericht in een reis wordt gebruikt, zijn de contextuele reisgebieden beschikbaar door dit lusje.
+    * **[!UICONTROL Audiences]**: geeft een overzicht van alle publiek dat wordt gegenereerd op basis van segmentdefinities die zijn gemaakt in [Adobe Experience Platform Segmentation service] (https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 1. Zodra uw voorwaardelijke regel klaar is, kunt u deze aan uw bericht toevoegen om dynamische inhoud te maken. [Leer hoe u dynamische inhoud toevoegt](dynamic-content.md)
 

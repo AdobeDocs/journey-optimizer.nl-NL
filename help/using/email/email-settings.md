@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1736'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Bepaal de e-mailmontages in de specifieke sectie van de configuratie van de kana
 
 De configuratie van de e-mailoppervlakte wordt opgepikt voor het verzenden van mededelingen die de logica hieronder volgen:
 
-* Voor batch- en burstritten is deze niet van toepassing op batch- of burst-uitvoering die al was gestart voordat de e-mailoppervlakteconfiguratie werd gemaakt. De wijzigingen worden opgepikt bij de volgende herhaling of nieuwe uitvoering.
+* Voor batchritten is deze code niet van toepassing op batchuitvoering die al was gestart voordat de configuratie van het e-mailoppervlak is gemaakt. De wijzigingen worden opgepikt bij de volgende herhaling of nieuwe uitvoering.
 
 * Voor transactieberichten, wordt de verandering onmiddellijk voor de volgende mededeling (tot vijf minuten vertraging) opgepikt.
 

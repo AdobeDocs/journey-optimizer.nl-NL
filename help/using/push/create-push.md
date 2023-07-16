@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '693'
 ht-degree: 4%
 
 ---
@@ -103,7 +103,7 @@ Voer de onderstaande stappen uit om een pushmelding te maken:
 >title="Snelle leveringsmodus"
 >abstract="Met de modus voor snelle levering kunt u snelle berichten verzenden via een pushkanaal naar een publieksgrootte van minder dan 30 MB."
 
-De snelle leveringswijze, die vroeger als wijze van de Borst bij reizen wordt bekend, is een [!DNL Journey Optimizer] een invoegtoepassing waarmee via campagnes zeer snel pushberichten op grote volumes kunnen worden verzonden.
+De snelle leveringswijze is een [!DNL Journey Optimizer] een invoegtoepassing waarmee via campagnes zeer snel pushberichten op grote volumes kunnen worden verzonden.
 
 Snelle levering wordt gebruikt wanneer de vertraging in berichtlevering zaken-kritiek is, wanneer u een dringende duwalarm op mobiele telefoons wilt verzenden, bijvoorbeeld een breekbericht aan gebruikers die uw nieuwskanaal app hebben geïnstalleerd.
 

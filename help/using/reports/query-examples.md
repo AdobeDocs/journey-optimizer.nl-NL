@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1471'
 ht-degree: 2%
 
 ---
@@ -26,6 +26,10 @@ Zorg ervoor dat de gebieden die in uw vragen worden gebruikt waarden in het over
 * id: uniek voor alle items van de step-gebeurtenis. Twee verschillende step-gebeurtenissen kunnen niet dezelfde id hebben.
 * instanceId: instanceID is het zelfde voor alle step gebeurtenissen verbonden aan een profiel binnen een reis uitvoering. Als een profiel de reis opnieuw ingaat, zal een verschillend instanceId worden gebruikt. Deze nieuwe instanceId zal voor alle step gebeurtenissen van de opnieuw ingegaan instantie (van begin tot eind) hetzelfde zijn.
 * profileID: de identiteit van het profiel die overeenkomt met de naamruimte van de reis.
+
+>[!NOTE]
+>
+>Voor het oplossen van problemendoeleinden, adviseren wij gebruikend tripVersionID in plaats van tripVersionName wanneer het vragen van reizen.
 
 ## Basis gebruiksgevallen/gemeenschappelijke vragen {#common-queries}
 
@@ -604,7 +608,7 @@ We kunnen ook problemen ontdekken zoals:
 * exportbanen die kunnen worden vastgezet (als voor een bepaalde reisversie geen enkele gebeurtenis over de beëindiging van exporttaken heeft)
 * problemen met workers als we een gebeurtenis voor het beëindigen van exporttaken hebben ontvangen, maar geen eindversie voor verwerking door worker één
 
-BELANGRIJK: als er geen gebeurtenis is die door deze vraag is teruggekeerd, kan het aan één van de volgende redenen zijn:
+BELANGRIJK: Als er geen gebeurtenis is die door deze vraag is teruggekeerd, kan het aan één van de volgende redenen zijn:
 
 * de reisversie heeft het schema niet bereikt
 * als de reisversie de uitvoerbaan zou hebben veroorzaakt door het orkest aan te roepen , ging er iets mis op de upstram flow : kwestie op reis plaatsing, bedrijfsgebeurtenis of kwestie met planner.

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 4%
@@ -39,8 +39,8 @@ Houd er ook rekening mee dat de parameters voor aangepaste handelingen een verwa
 
 In Journey Optimizer kunt u beleid voor gegevensbeheer en toestemming toepassen op uw aangepaste acties om te voorkomen dat bepaalde velden worden geëxporteerd naar systemen van derden of om klanten uit te sluiten die niet hebben ingestemd met het ontvangen van e-mail, push- of SMS-berichten. Raadpleeg de volgende pagina&#39;s voor meer informatie:
 
-* [Gegevensbeheer](../action/action.md).
-* [Toestemming](../action/action.md).
+* [Gegevensbeheer](../action/action-privacy.md).
+* [Toestemming](../action/action-privacy.md).
 
 
 ## Configuratiestappen {#configuration-steps}

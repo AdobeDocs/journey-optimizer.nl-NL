@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reis, gebeurtenissen, reactie, volgen, platform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 2%
@@ -51,4 +51,4 @@ Hier volgen de verschillende stappen voor het configureren van reactiegebeurteni
 
 >[!IMPORTANT]
 >
->E-mailclients zoals Gmail staan het blokkeren van afbeeldingen toe. E-mails die worden geopend, worden bijgehouden met een afbeelding van 0 pixels die in de e-mail is opgenomen. Als afbeeldingen worden geblokkeerd, wordt er geen rekening gehouden met het openen van e-mail.
+>E-mailclients zoals Gmail staan het blokkeren van afbeeldingen toe. E-mail wordt geopend wordt bijgehouden met een afbeelding van 0 pixels die in de e-mail is opgenomen. Als afbeeldingen worden geblokkeerd, wordt er geen rekening gehouden met het openen van e-mail.

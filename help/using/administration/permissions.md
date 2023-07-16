@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: product, profielen, sandbox
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 2%
@@ -109,7 +109,7 @@ Als u onze **Reizen, alleen-lezen** **[!UICONTROL Role]**:
 
    ![](assets/do-not-localize/access_control_13.png)
 
-1. Selecteren tussen de verschillende mogelijkheden, zoals **[!DNL Journeys]**, **[!DNL Segments]** <!--CHECK--> of **[!DNL Decision management]** beschikbaar in [!DNL Journey Optimizer] in het linkermenu.
+1. Selecteren tussen verschillende bronnen, zoals **[!DNL Journeys]**, **[!DNL Segments]** of **[!DNL Decision management]** beschikbaar in [!DNL Journey Optimizer] in het linkermenu.
 
    Hier selecteren we de **[!UICONTROL Journeys]** resource.
 

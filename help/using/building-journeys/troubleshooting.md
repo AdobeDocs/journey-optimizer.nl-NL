@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: problemen oplossen, problemen oplossen, reis, controle, fouten
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1011'
 ht-degree: 80%
 
 ---
@@ -58,7 +58,7 @@ Reisrapportage meet de toegang van mensen tot een reis in real-time.
 
 Als u de gebeurtenis zonder problemen verzendt maar geen toegang tot de journey ziet, betekent dit dat er iets misgaat tussen het verzenden van de gebeurtenis en de ontvangst van de gebeurtenis in de journey.
 
-Hier volgen een paar dingen die de beheerder moet controleren:
+U kunt het oplossen van problemen met de hieronder vragen beginnen:
 
 * Weet u zeker dat de journey waar u de eerste gebeurtenis verwacht, in de testmodus of live is?
 * Hebt u de gebeurtenis opgeslagen voordat u de payload uit de payloadvoorvertoning hebt gekopieerd?

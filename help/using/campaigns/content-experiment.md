@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 1%
@@ -57,7 +57,7 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 -->
 1. Selecteer vervolgens het kanaal **[!UICONTROL Surface]** wilt gebruiken voor deze levering en klikt u op **[!UICONTROL Create]**. Raadpleeg voor meer informatie de [Kanaaloppervlakken](../configuration/channel-surfaces.md) pagina.
 
-   In dit voorbeeld kiezen we ervoor om een campagne te verzenden met e-mails.
+   In dit voorbeeld kiezen we ervoor een campagne te verzenden met e-mails.
 
    ![](assets/content_experiment_2.png)
 
