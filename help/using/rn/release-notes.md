@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 781c83a2742989eb0bf7d68411ca3d7daa1eb1e0
+source-git-commit: ec71600fdc50e812e627f246e8a5bd2c5ad7e835
 workflow-type: tm+mt
-source-wordcount: '2590'
+source-wordcount: '2694'
 ht-degree: 8%
 
 ---
@@ -24,7 +24,6 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 
 ## Updates van juli 2023
 
-
 <table>
 <thead>
 <tr>
@@ -35,13 +34,16 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 <tr>
 <td>
 <p>U kunt nu compositieworkflows maken om bestaande Adobe Experience Platform-soorten publiek te combineren tot een visueel canvas en verschillende activiteiten (splitsen, verrijken...) gebruiken om nieuwe soorten publiek te maken. Nieuw gecreëerd publiek wordt samen met het bestaande publiek weer in Adobe Experience Platform opgeslagen en kan in Journey Optimizer-campagnes worden gebruikt om klanten te bereiken.</p>
+
 <img src="../audience/assets/audiences-publish.png"/>
+
 <p>Raadpleeg de <a href="../audience/get-started-audience-orchestration.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+
+<p>De samenstelling van het publiek is volledig geïntegreerd met het nieuwe Adobe Experience Platform-menu "Soorten publiek", dat als een gecentraliseerd portaal voor het publiek fungeert. U kunt nu een bladerpagina gebruiken die een nieuw dashboard met segmenttendensen en overlappingen omvat om nieuwe inzichten te vinden en organisatorische hulpmiddelen voor het folderen en het etiketteren te onderzoeken. Binnen deze ervaring zijn beheerbesturingselementen ingebouwd voor gestandaardiseerde publiekslabels en mogelijkheden voor levenscyclusbeheer van het publiek om activeringsworkflows te beheren. Met deze nieuwe beheerervaring kunt u het publiek nu gemakkelijk en veilig beheren vanaf één locatie. Raadpleeg voor meer informatie <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html" target="_blank">Adobe Experience Platform-documentatie</a>.</p></p>
 </td>
 </tr>
 </tbody>
 </table>
-
 
 ## Opmerkingen bij de release van juni 2023 {#june-rn-2023}
 
