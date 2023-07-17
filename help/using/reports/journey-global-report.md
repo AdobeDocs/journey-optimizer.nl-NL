@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 208934b120d5273efc0a34ff35c254b819a84f3c
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1835'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Vanaf uw reis **[!UICONTROL Global report]** de **[!UICONTROL Email]** bevat de 
 
 De **[!UICONTROL Email Sending Statistics]** grafiek geeft het succes van uw levering aan:
 
-* **[!UICONTROL Targeted]**: Het aantal profielen dat de Journey Orchestration van Adobe voor om het even welke actie zoals verzendt e-mail of SMS richt.
+* **[!UICONTROL Targeted]**: Aantal profielen voor acties zoals verzenden via e-mail of SMS.
 
 * **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
 
@@ -193,7 +193,7 @@ Vanaf uw reis **[!UICONTROL Global report]** de **[!UICONTROL Push notification]
 
 De **[!UICONTROL Push notification - Sending statistics]** de tabel bevat de belangrijkste informatie met betrekking tot uw pushberichten met grafiek en PKI&#39;s:
 
-* **[!UICONTROL Targeted]**: Het aantal profielen dat de Journey Orchestration van Adobe voor om het even welke actie zoals verzendt e-mail of SMS richt.
+* **[!UICONTROL Targeted]**: Aantal profielen voor acties zoals verzenden via e-mail of SMS.
 
 * **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
 
