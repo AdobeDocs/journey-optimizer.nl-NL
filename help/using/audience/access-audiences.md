@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 exl-id: 0758eeaf-a188-4b43-9c9a-a2e5a9e5dd76
 badge: label="Beta" type="Informative"
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
 
 # Toegang tot en beheer van het publiek {#access-manage-audiences}
+
+>[!BEGINSHADEBOX]
+
+Deze documentatie bevat gedetailleerde informatie over het werken met de compositie van het publiek in Adobe Journey Optimizer. Als u Adobe Journey Optimizer niet gebruikt, [klik hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 Het publiek dat het resultaat is van de samenstelling van het publiek, is toegankelijk via de **[!UICONTROL Browse]** in de **[!UICONTROL Audiences]** -menu.
 
