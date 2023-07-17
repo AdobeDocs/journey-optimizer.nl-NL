@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: configuratie, experimenteren, rapporteren, optimaliseren
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
+source-git-commit: c83305a27d987fdf7861b7c2fc720cc4a6aa260b
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 3%
+source-wordcount: '575'
+ht-degree: 2%
 
 ---
 
@@ -49,17 +49,19 @@ Alvorens een dataset aan de rapporteringsconfiguratie toe te voegen, moet u die 
 
 * U kunt alleen gegevenssets van het gebeurtenistype toevoegen.
 
-* Deze gegevensbestanden moeten ten minste een van de volgende elementen bevatten [veldgroepen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}: **Toepassingsdetails**, **Handelsgegevens**, **Webdetails**.
+* Deze gegevensbestanden moeten de **Experience Event - Propositie-interacties** [veldgroep](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}.
 
-   >[!NOTE]
-   >
-   >Momenteel worden alleen deze veldgroepen ondersteund.
+* Deze gegevensreeksen kunnen ook een van de volgende elementen bevatten [veldgroepen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}: **Toepassingsdetails**, **Handelsgegevens**, **Webdetails**.
 
-   Als u bijvoorbeeld wilt weten wat het effect is van een e-mailcampagne op handelsgegevens zoals aankopen of bestellingen, moet u een dataset van de ervaringsgebeurtenis maken met de **Handelsgegevens** veldgroep.
+  >[!NOTE]
+  >
+  >Andere veldgroepen kunnen ook worden opgenomen, maar momenteel worden alleen de bovenstaande veldgroepen ondersteund in Journey Optimizer-rapportage.
 
-   Op dezelfde manier, als u over mobiele interactie wilt rapporteren, moet u een dataset van de ervaringsgebeurtenis met creëren **Toepassingsdetails** veldgroep.
+  Als u bijvoorbeeld wilt weten wat het effect is van een e-mailcampagne op handelsgegevens zoals aankopen of bestellingen, moet u een dataset van de ervaringsgebeurtenis maken met de **Handelsgegevens** veldgroep.
 
-   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
+  Op dezelfde manier, als u over mobiele interactie wilt rapporteren, moet u een dataset van de ervaringsgebeurtenis met creëren **Toepassingsdetails** veldgroep.
+
+  <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
 * U kunt deze gebiedsgroepen aan één of verscheidene schema&#39;s toevoegen die in één of verscheidene datasets zullen worden gebruikt.
 
