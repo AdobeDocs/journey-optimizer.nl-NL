@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 0e0c293b31e3b74b57b12e0ae06f6ea9eb4d0dc1
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 4%
+source-wordcount: '1233'
+ht-degree: 5%
 
 ---
 
 # Gebruikersinterface {#cjm-user-interface}
 
-Verbinden met [Adobe Experience Cloud](https://experience.adobe.com) en blader naar [!DNL Journey Optimizer].
+Voor toegang tot  [!DNL Adobe Journey Optimizer], verbinding maken met [Adobe Experience Cloud](https://experience.adobe.com) met uw Adobe ID en selecteer [!DNL Journey Optimizer].
 
 Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Zie [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target="_blank"} voor meer informatie .
 
@@ -39,27 +39,48 @@ Blader links naar de koppelingen voor toegang [!DNL Journey Optimizer] mogelijkh
 
 U vindt onder de volledige lijst met services en mogelijkheden in de linkernavigatie en koppelingen naar de bijbehorende Help-pagina&#39;s.
 
-**Home**
+### Home {#left-nav-home}
 
-[!DNL Journey Optimizer] de homepage bevat zeer belangrijke verbindingen en middelen om te beginnen. De **[!UICONTROL Recents]** de lijst bevat sneltoetsen voor de onlangs gemaakte gebeurtenissen en reizen. In deze lijst staan de datum en status van het maken en wijzigen van de bestanden.
+[!DNL Journey Optimizer] de homepage bevat zeer belangrijke verbindingen en middelen om te beginnen.
 
-**[!UICONTROL JOURNEY MANAGEMENT]**
+De **[!UICONTROL Recents]** de lijst bevat sneltoetsen voor de onlangs gemaakte gebeurtenissen en reizen. In deze lijst staan de datum en status van het maken en wijzigen van de bestanden.
 
-* **[!UICONTROL Journeys]** - Maak, configureer en orkestreer uw klantritten. [Meer informatie](../building-journeys/journey-gs.md#jo-build)
+Blader in de gevallen waarin u producten gebruikt om bronnen en berichten te maken. [Meer informatie](#in-product-use-cases).
 
-* **[!UICONTROL Landing pages]** - bestemmingspagina&#39;s maken, ontwerpen, testen en publiceren. [Meer informatie](../landing-pages/get-started-lp.md)
+Gebruik de koppelingen onder aan de homepage voor meer informatie over hoe u begint [!DNL Journey Optimizer]. [Meer informatie](#find-help-and-support).
 
-**[!UICONTROL DECISION MANAGEMENT]**
+### [!UICONTROL JOURNEY MANAGEMENT] {#left-nav-journey}
+
+Bouw campagnes en reizen van deze sectie.
+
+* **[!UICONTROL Campaigns]** - Maak, configureer en orkestreer campagnes om eenmalige inhoud aan een bepaald publiek te leveren via verschillende kanalen. [Meer informatie](../campaigns/get-started-with-campaigns.md)
+
+* **[!UICONTROL Journeys]** - Maak, configureer en orkestreer uw klantritten: combineer de gebeurtenissen, de organisatie en de actieactiviteiten om uw multi-step scenario&#39;s over het kanaal te bouwen. [Meer informatie](../building-journeys/journey-gs.md#jo-build)
+
+* **[!UICONTROL Landing pages]** - bestemmingspagina&#39;s maken, ontwerpen, testen en publiceren: Verzend uw gebruikersverbindingen naar online vormen waar zij kunnen opt-in of opt-out van het ontvangen van uw mededelingen, of aan de specifieke diensten intekenen. [Meer informatie](../landing-pages/get-started-lp.md)
+
+
+### [!UICONTROL DECISION MANAGEMENT] {#left-nav-offers}
+
+Maak voorstellen en componenten van deze sectie.
 
 * **[!UICONTROL Offers]** - Heb toegang tot uw recente bronnen en datasets van dit menu. In deze sectie kunt u voorstellen maken. [Meer informatie](../offers/offer-library/creating-personalized-offers.md)
 
 * **[!UICONTROL Components]** - Plaatsen, regels en tags maken. [Meer informatie](../offers/offer-library/key-steps.md)
 
-**[!UICONTROL CONTENT MANAGEMENT]**
+### [!UICONTROL CONTENT MANAGEMENT] {#left-nav-content}
+
+Inhoud van deze sectie maken en beheren.
 
 * **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] is een gecentraliseerde opslagplaats van activa die u kunt gebruiken om uw berichten te bevolken. [Meer informatie](../email/assets-essentials.md)
 
-**[!UICONTROL DATA MANAGEMENT]**
+* **[!UICONTROL Content templates]** - Voor een versneld en verbeterd ontwerpproces maakt u zelfstandige sjablonen om aangepaste inhoud eenvoudig te hergebruiken in Journey Optimizer-campagnes en -reizen. [Meer informatie](../email/content-templates.md)
+
+* **[!UICONTROL Fragments]** - Fragmenten maken en beheren voor een vloeiend e-mailontwerpproces: Maak vooraf aangepaste inhoudsblokken die kunnen worden gebruikt om snel e-mailinhoud samen te stellen. [Meer informatie](../email/fragments.md)
+
+### [!UICONTROL DATA MANAGEMENT] {#left-nav-data}
+
+Uw gegevens in deze sectie beheren.
 
 * **[!UICONTROL Schemas]** - Gebruik Adobe Experience Platform om schema&#39;s van het Model van de Gegevens van de Ervaring (XDM) in een interactief visueel canvas tot stand te brengen en te beheren genoemd de Redacteur van het Schema. [Meer informatie](../data/get-started-schemas.md)
 
@@ -67,31 +88,59 @@ U vindt onder de volledige lijst met services en mogelijkheden in de linkernavig
 
 * **[!UICONTROL Queries]** - Gebruik Adobe Experience Platform Query Service om query&#39;s te schrijven en uit te voeren, eerder uitgevoerde query&#39;s weer te geven en toegang te krijgen tot query&#39;s die zijn opgeslagen door gebruikers binnen uw organisatie. [Meer informatie](../data/get-started-queries.md)
 
-* **[!UICONTROL Monitoring]** - Gebruik dit menu om uw gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html){target="_blank"}
+* **[!UICONTROL Monitoring]** - Gebruik dit menu om uw gegevensinvoer in de gebruikersinterface van Adobe Experience Platform te controleren. Meer informatie in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html){target="_blank"}
 
-**[!UICONTROL CONNECTIONS]**
+### [!UICONTROL CONNECTIONS] {#left-nav-connections}
+
+Beheer uw gegevensverbindingen met andere apps en wolken vanuit deze sectie.
 
 * **[!UICONTROL Sources]** - Gebruik dit menu om gegevens uit diverse bronnen in te voeren, zoals Adobe-toepassingen, opslag in de cloud, databases en meer. U kunt inkomende gegevens structureren, labelen en verbeteren. [Meer informatie](get-started-sources.md)
 
-**[!UICONTROL CUSTOMER]**
+* **[!UICONTROL Destinations]** - Gebruik dit menu om een live verbinding te maken met opslaglocaties in de cloud om de inhoud van uw gegevenssets te exporteren. [Meer informatie](../data/export-datasets.md)
 
-* **[!UICONTROL Audiences]** - Maak en beheer Experience Platforms segmentdefinities en gebruik deze voor uw reizen. [Meer informatie](../audience/about-audiences.md)
+### [!UICONTROL CUSTOMER] {#left-nav-customers}
+
+Beheer uw publiek- en profielgegevens vanuit deze sectie.
+
+* **[!UICONTROL Audiences]** - Maak en beheer het publiek van het Experience Platform en gebruik het in uw reizen. [Meer informatie](../audience/about-audiences.md)
+
+* **[!UICONTROL Subscription lists]** - In [!DNL Journey Optimizer], klanten die aan de abonnementsdienst verkozen hebben worden verzameld in een abonnementenlijst. [Meer informatie](../landing-pages/subscription-list.md)
 
 * **[!UICONTROL Profiles]** - Het profiel van de Klant in real time leidt tot een holistische mening van elk van uw individuele klanten, die gegevens van veelvoudige kanalen met inbegrip van online, off-line, CRM, en derdegegevens combineren. [Meer informatie](../audience/get-started-profiles.md)
 
 * **[!UICONTROL Identities]** - Adobe Experience Platform Identity Service beheert de identificatie van uw klanten over het hele apparaat, over het kanaal en bijna in realtime in een identiteitsgrafiek in Adobe Experience Platform. [Meer informatie](../audience/get-started-identity.md)
 
-**[!UICONTROL ADMINISTRATION]**
+### [!UICONTROL PRIVACY] {#left-nav-privacy}
 
-* **[!UICONTROL Journey Administration]** - Gebruik dit menu om te configureren [gebeurtenissen](../event/about-events.md), [gegevensbronnen](../datasource/about-data-sources.md), en [handelingen](../action/action.md) om te gebruiken voor uw reizen.
+Beheer uw privacybeheer en verzoeken vanuit deze sectie.
 
-* **[!UICONTROL Sandboxes]** - Adobe Experience Platform biedt sandboxen die één instantie in afzonderlijke virtuele omgevingen verdelen om toepassingen voor digitale ervaringen te ontwikkelen en te ontwikkelen. [Meer informatie](../administration/sandboxes.md)
+* **[!UICONTROL Policies]** - Met Adobe Experience Platform kunt u labels toewijzen aan uw velden en marketingacties maken voor elk kanaal. Vervolgens definieert u een governancebeleid dat gekoppeld is aan een label en een marketingactie. [Meer informatie](../action/action-privacy.md)
 
-* **[!UICONTROL Alerts]** - Met de gebruikersinterface kunt u een geschiedenis bekijken van ontvangen waarschuwingen op basis van meetgegevens die zijn onthuld door Adobe Experience Platform Observability Insights. UI staat u ook toe om, beschikbare waakzame regels te bekijken toe te laten en onbruikbaar te maken. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}
+* **[!UICONTROL Requests]** - Aanvragen voor privacy worden beheerd in de Adobe Experience Platform Privacy Service. Het verstrekt RESTful API en gebruikersinterface om u te helpen de verzoeken van klantgegevens beheren. [Meer informatie](../privacy/requests.md)
+
+* **[!UICONTROL Audit]** - Blader naar deze sectie om activiteitenlogboeken te controleren. [Meer informatie](../privacy/audit-logs.md)
+
+* **[!UICONTROL Data hygiene]** - In deze sectie kunt u bewerkingen voor gegevenshygiëne configureren en plannen, zodat uw gegevens correct worden onderhouden. [Meer informatie](../privacy/data-hygiene.md)
+
+### [!UICONTROL ADMINISTRATION] {#left-nav-admin}
+
+* **[!UICONTROL Configurations]** - Gebruik dit menu om te configureren [Gebeurtenissen](../event/about-events.md), [Gegevensbronnen](../datasource/about-data-sources.md), en [Handelingen](../action/action.md) om te gebruiken voor uw reizen.
+
+  U hebt ook toegang tot de **Rapportage** sectie om rapportering voor campagneexperimentatie te vormen. [Meer informatie](../campaigns/reporting-configuration.md)
+
+* **[!UICONTROL Rules]** - Gebruik deze sectie om kanaalfrequentieregels tot stand te brengen om te controleren hoe vaak de gebruikers een bericht ontvangen, of een reis ingaan. [Meer informatie](../configuration/frequency-rules.md)
+
+* **[!UICONTROL Alerts]** - Met de gebruikersinterface kunt u een geschiedenis bekijken van ontvangen waarschuwingen op basis van meetgegevens die zijn onthuld door Adobe Experience Platform Observability Insights. UI staat u ook toe om, beschikbare waakzame regels te bekijken toe te laten en onbruikbaar te maken. [Meer informatie](../reports/alerts.md)
+
+* **[!UICONTROL Sandboxes]** - Adobe Experience Platform biedt sandboxen die één instantie in afzonderlijke virtuele omgevingen verdelen om toepassingen voor digitale ervaringen te ontwikkelen en te ontwikkelen. Blader in deze sectie om uw sandbaoxen te beheren. [Meer informatie](../administration/sandboxes.md)
+
+* **[!UICONTROL Channels]** - Gebruik deze sectie om uw kanalen, met inbegrip van onderstations, oppervlakten, en leveringsmontages te vormen. [Meer informatie](../configuration/get-started-configuration.md)
+
+* **[!UICONTROL Tags]** - Met Verenigde Markeringen, kunt u uw reizen en campagnes gemakkelijk classificeren om onderzoek van de lijsten te verbeteren. [Meer informatie](../start/search-filter-categorize.md#work-with-unified-tags)
 
 ## Gebruiksgevallen in producten {#in-product-uc}
 
-Van [!DNL Adobe Journey Optimizer] homepage, de gevallen van het productgebruik verstrekken een snelle input om een klantenreis tot stand te brengen.
+Van [!DNL Adobe Journey Optimizer] homepage, de gevallen van het productgebruik verstrekken een snelle input om testprofielen, of uw eerste klantenreizen tot stand te brengen.
 
 ![](assets/use-cases-home.png)
 
@@ -106,7 +155,7 @@ Klik op de knop **[!UICONTROL View details]** koppeling.
 
 Klik op de knop **[!UICONTROL Begin]** knop.
 
-U hebt toegang tot uitvoerbare gebruiksgevallen via het dialoogvenster **[!UICONTROL View use case library]** knop.
+U hebt toegang tot uitvoerbare gebruiksgevallen via het dialoogvenster **[!UICONTROL View library]** knop.
 
 ## Hulp en ondersteuning zoeken {#find-help}
 
