@@ -4,7 +4,7 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '2947'
 ht-degree: 15%
@@ -182,7 +182,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 22 januari is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
 * De **AI-classificaties van offer decisioning** is bijgewerkt met een meer gedetailleerde beschrijving van het model voor automatische optimalisatie. [Meer informatie](../offers/ranking/auto-optimization-model.md)
-* Er is een nieuwe sectie over de schemavereisten toegevoegd die nodig zijn om gebeurtenistypen te kunnen verzenden bij het gebruik van een classificatiestrategie. [Meer informatie](../offers/data-collection/schema-requirement.md)
+* Er is een nieuwe sectie toegevoegd over de schemavereisten die nodig zijn om gebeurtenistypen te kunnen verzenden bij het gebruik van een AI-model. [Meer informatie](../offers/data-collection/schema-requirement.md)
 * Het gedeelte over [!DNL Journey Optimizer] personaliseringsmogelijkheden zijn gereorganiseerd voor een betere leesbaarheid . [Meer informatie](../personalization/personalize.md)
 * De **Voorinstellingen voor berichten maken** voor meer duidelijkheid is dit gedeelte in verschillende secties onderverdeeld . [Meer informatie](../configuration/channel-surfaces.md#create-channel-surface)
 * De **Uitschakelen, beheer** dit gedeelte is verduidelijkt en enigszins gereorganiseerd . [Meer informatie](../privacy/opt-out.md#opt-out-management)

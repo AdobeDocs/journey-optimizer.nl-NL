@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 4f3d22c9ce3a5b77969a2a04dafbc28b53f95507
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '437'
 ht-degree: 5%
 
 ---
@@ -62,9 +62,9 @@ Als meerdere aanbiedingen in aanmerking komen om in deze plaatsing te worden gep
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-U kunt ook een getraind modelsysteem gebruiken dat aanbiedingen voor een bepaald profiel automatisch rangschikt door een classificatiestrategie te selecteren. Leer hoe u een waarderingsstrategie maakt in [deze sectie](../ranking/create-ranking-strategies.md).
+U kunt ook een getraind modelsysteem gebruiken dat aanbiedingen voor een bepaald profiel automatisch rangschikt door een AI-model te selecteren. Leer hoe u een AI-model maakt in [deze sectie](../ranking/create-ranking-strategies.md).
 
-Zodra een rangschikkingsstrategie is gecreeerd, kunt u het aan een plaatsing in een besluit toewijzen. Hiervoor voert u de volgende stappen uit:
+Nadat u een AI-model hebt gemaakt, kunt u het toewijzen aan een plaatsing in een beslissing. Hiervoor voert u de volgende stappen uit:
 
 1. Maak een beslissing of bewerk een bestaande beslissing. Zie [Besluiten maken](../offer-activities/create-offer-activities.md).
 
@@ -76,11 +76,11 @@ Zodra een rangschikkingsstrategie is gecreeerd, kunt u het aan een plaatsing in 
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
-1. Selecteer de waarderingsstrategie die u hebt gemaakt. Alle details van de classificatiestrategie worden weergegeven.
+1. Selecteer het AI-model dat u hebt gemaakt. Alle details van het model worden weergegeven.
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. Klik op **[!UICONTROL Select]**. De rangschikkingsstrategie is nu gekoppeld aan de plaatsing.
+1. Klik op **[!UICONTROL Select]**. Het AI-model is nu gekoppeld aan de plaatsing.
 
 Indien meerdere aanbiedingen in aanmerking komen, bepaalt het opgeleide modelsysteem welke aanbieding eerst voor een bepaalde plaatsing moet worden gepresenteerd.
 

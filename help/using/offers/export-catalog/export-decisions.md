@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 0%
@@ -232,7 +232,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
   **Veld:** orderEvaluationType
   **Titel:** Type beoordeling van bestelling
-  **Omschrijving:** Specificeert welk mechanisme van de ordeevaluatie wordt gebruikt, statische prioriteit van de besluitvormingsopties, een scorefunctie die een numerieke waarde voor elke optie of een rangschikkingsstrategie berekent die een lijst ontvangt om het te bestellen.
+  **Omschrijving:** Geeft aan welk evaluatiemechanisme voor bestellingen wordt gebruikt, statische prioriteit van de beslissingsopties, een scorefunctie die een numerieke waarde berekent voor elke optie of een AI-model dat een lijst ontvangt om deze te bestellen.
   **Type:** string
   **Mogelijke waarden:** &quot;static&quot;, &quot;scoringFunction&quot;, &quot;rankingStrategy&quot;
 

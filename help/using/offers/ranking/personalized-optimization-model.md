@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -61,8 +61,8 @@ In feite is dit het idee om historische eigenschapinteractie te leren en te herd
 
 Koud-startprobleem doet zich voor wanneer er onvoldoende gegevens zijn om een aanbeveling te doen. Voor auto-verpersoonlijking, zijn er twee soorten koudstartproblemen.
 
-* **Na het maken van een nieuwe classificatiestrategie zonder historische gegevens**, worden de aanbiedingen voor een bepaalde periode willekeurig bediend om gegevens te verzamelen, en de gegevens worden gebruikt om het eerste model op te leiden.
-* **Nadat het eerste model is vrijgegeven** 10% van het totale verkeer zal worden toegewezen voor willekeurig verkeer, terwijl 90% van het verkeer zal worden gebruikt voor modelaanbevelingen. Als nieuwe aanbiedingen aan de rangorde worden toegevoegd, zouden zij dus worden geleverd als onderdeel van de 10% van het verkeer. De gegevens die over die aanbiedingen worden verzameld zouden het aantal tijden bepalen het onder de 90% van verkeer wordt geselecteerd aangezien het model blijft worden bijgewerkt.
+* **Na het maken van een nieuw AI-model zonder historische gegevens**, worden de aanbiedingen voor een bepaalde periode willekeurig bediend om gegevens te verzamelen, en de gegevens worden gebruikt om het eerste model op te leiden.
+* **Nadat het eerste model is vrijgegeven** 10% van het totale verkeer zal worden toegewezen voor willekeurig verkeer, terwijl 90% van het verkeer zal worden gebruikt voor modelaanbevelingen. Als nieuwe aanbiedingen aan het AI-model worden toegevoegd, zouden deze dus worden geleverd als onderdeel van de 10% van het verkeer. De gegevens die over die aanbiedingen worden verzameld zouden het aantal tijden bepalen het onder de 90% van verkeer wordt geselecteerd aangezien het model blijft worden bijgewerkt.
 
 ## Herscholing {#re-training}
 
