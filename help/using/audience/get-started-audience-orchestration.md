@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 badge: label="Beta" type="Informative"
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: 0996de79ae5b9593db8ec61ba51fc17073c0f458
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,12 @@ ht-degree: 0%
 >id="ajo_ao_create_composition"
 >title="Een compositie maken"
 >abstract="Maak een compositieworkflow om bestaande Adobe Experience Platform-doelgroepen te combineren tot een visueel canvas en gebruik verschillende activiteiten (splitsen, uitsluiten...) om een nieuw publiek te maken."
+
+>[!BEGINSHADEBOX]
+
+Deze documentatie bevat gedetailleerde informatie over het werken met de compositie van het publiek in Adobe Journey Optimizer. Als u Adobe Journey Optimizer niet gebruikt, [klik hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+
+>[!ENDSHADEBOX]
 
 De samenstelling van het publiek staat u toe om tot stand te brengen **compositieworkflows**, waarin u bestaande Adobe Experience Platform-doelgroepen kunt combineren tot een visueel canvas en verschillende activiteiten (splitsen, uitsluiten...) kunt gebruiken om nieuwe doelgroepen te maken.
 
