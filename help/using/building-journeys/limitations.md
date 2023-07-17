@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reizen, beperking
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: aced11ffd80bcc0d79ef2e094b05dde8cb9a6248
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Hier zijn beperkingen met betrekking tot het gebruik van reizen.
 
-## Algemene actiedrempels
+## Algemene actiedrempels {#action-limitations}
 
 * Er is geen verzendvertraging. 
 * In het geval van een fout worden drie pogingen systematisch opnieuw uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht. 
@@ -35,7 +35,7 @@ Hier zijn beperkingen met betrekking tot het gebruik van reizen.
 * De re-entry regel moet het zelfde in alle reisversies zijn.
 * Een reis die begint met een **Publiek lezen** kan niet met een andere gebeurtenis in volgende versies beginnen.
  
-## Beperkingen voor aangepaste handelingen
+## Beperkingen voor aangepaste handelingen {#custom-actions-limitations}
 
 * De URL van de aangepaste handeling ondersteunt geen dynamische parameters. 
 * Alleen methoden voor het aanroepen van POSTEN en PUTTEN worden ondersteund. 
@@ -43,11 +43,11 @@ Hier zijn beperkingen met betrekking tot het gebruik van reizen.
 * IP-adressen zijn niet toegestaan. 
 * Interne Adobe-adressen (.adobe.) zijn niet toegestaan.
  
-## Beperkingen voor gebeurtenissen
+## Beperkingen voor gebeurtenissen {#events-limitations}
 
 * Voor door het systeem gegenereerde gebeurtenissen moeten streaminggegevens die worden gebruikt om een klantentraject te starten, eerst binnen Journey Optimizer worden geconfigureerd om een unieke orchestratie-id te verkrijgen. Deze orkest-id moet worden toegevoegd aan de streaminglading die naar Adobe Experience Platform komt. Deze beperking geldt niet voor op regels gebaseerde gebeurtenissen.
  
-## Beperkingen op gegevensbronnen
+## Beperkingen op gegevensbronnen {#data-sources-limitations}
 
 * De externe gegevensbronnen kunnen binnen een klantenreis worden gebruikt om externe gegevens in real time op te zoeken. Deze bronnen moeten bruikbaar zijn via REST API, JSON ondersteunen en het volume van aanvragen kunnen verwerken.
 
@@ -63,6 +63,6 @@ U kunt uit één van deze twee oplossingen kiezen:
 
 * Stel een reis in die niet onmiddellijk gebruikmaakt van het profiel. Als de reis bijvoorbeeld is ontworpen om het maken van een account te bevestigen, kan de ervaringsgebeurtenis informatie bevatten die nodig is om het eerste bevestigingsbericht te verzenden (voornaam, achternaam, e-mailadres, enz.).
 
-## Beperkingen van het publiek lezen
+## Beperkingen van het publiek lezen {#read-audiences-limitations}
 
 * Gestroomlijnde doelgroepen zijn altijd up-to-date, maar batchdoelgroepen worden niet berekend tijdens het ophalen. Ze worden alleen elke dag geëvalueerd op het tijdstip van de dagelijkse batchevaluatie.
