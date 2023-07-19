@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
 badge: label="Beta" type="Informative"
-source-git-commit: be95b72646a7794c886c5600f84d4248b1f41c3e
+source-git-commit: dfee69e3573bed6029a0e12fbf4d16c169686683
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1373'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ De **[!UICONTROL Exclude]** Met activiteit kunt u profielen uitsluiten van uw co
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich_attributes"
 >title="Verrijkingskenmerken"
->abstract="Selecteer een of meerdere kenmerken in de verrijkingsgegevensset die u aan het publiek wilt koppelen. Zodra de samenstelling wordt gepubliceerd, worden deze attributen geassocieerd aan het publiek en kunnen in campagnes worden gebruikt om leveringen te personaliseren."
+>abstract="Selecteer een of meerdere kenmerken in de verrijkingsgegevensset die u aan het publiek wilt koppelen. Zodra de samenstelling wordt gepubliceerd, worden deze attributen geassocieerd aan het publiek en kunnen in campagnes van Journey Optimizer worden gebruikt om leveringen te personaliseren."
 
 De **[!UICONTROL Enrich]** Met deze activiteit kunt u uw publiek verrijken met extra kenmerken die afkomstig zijn uit Adobe Experience Platform-gegevenssets. U kunt bijvoorbeeld informatie met betrekking tot het aangekochte product toevoegen, zoals de naam, de prijs of de fabrikant-id, en deze informatie gebruiken om de leveringen die naar het publiek worden verzonden, aan te passen.
 
