@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 729150262a1e6823349e8025a1632dd37968bde9
+source-git-commit: 4d59989a32096190aec770364467a0a6fe31888f
 workflow-type: tm+mt
 source-wordcount: '1563'
 ht-degree: 0%
@@ -98,10 +98,10 @@ Ga als volgt te werk om een kanaaloppervlak te maken:
    Tijdens deze stap, zullen verscheidene controles worden uitgevoerd om te verifiëren dat het behoorlijk is gevormd. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
-   > Wanneer u een e-mailoppervlak maakt voor een subdomein, varieert de verwerkingstijd, zoals hieronder beschreven:
+   > Wanneer u een e-mailoppervlak maakt voor een subdomein, varieert de verwerkingstijd zoals hieronder beschreven:
    >
-   > * Voor nieuwe subdomeinen kan het proces voor het maken van het eerste kanaaloppervlak **10 min tot 10 dagen**.
-   > * Voor **niet-productie sandboxen** of als het geselecteerde subdomein **reeds gebruikt** in een ander kanaal duurt het proces slechts 3 uur .
+   > * Voor **nieuwe subdomeinen** kan het proces voor het maken van het eerste kanaaloppervlak **10 min tot 10 dagen**.
+   > * Voor **niet-productie sandboxen** of als het geselecteerde subdomein **reeds gebruikt** in een ander kanaal neemt het proces slechts **3 uur**.
 
    Deze controles omvatten configuratie en technische tests die door het team van Adobe worden uitgevoerd:
 
