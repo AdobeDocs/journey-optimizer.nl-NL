@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 9555c37f8bac295a668f64990e229c6e0e5ceb8d
+source-git-commit: 729150262a1e6823349e8025a1632dd37968bde9
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1563'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,6 @@ Met [!DNL Journey Optimizer]kunt u kanaaloppervlakken instellen (dus voorinstell
 > * Als u kanaaloppervlakken wilt maken, bewerken en verwijderen, moet u beschikken over de [Kanaaloppervlak beheren](../administration/high-low-permissions.md#manage-channel-surface) toestemming.
 >
 > * U moet de opdracht [E-mailconfiguratie](../email/get-started-email-config.md), [Pushconfiguratie](../push/push-configuration.md) en [SMS-configuratie](../sms/sms-configuration.md) stappen voordat u kanaaloppervlakken maakt.
-
 
 Zodra de kanaaloppervlakten zijn gevormd, zult u hen kunnen selecteren wanneer het creëren van berichten van een reis of een campagne.
 
@@ -99,7 +98,10 @@ Ga als volgt te werk om een kanaaloppervlak te maken:
    Tijdens deze stap, zullen verscheidene controles worden uitgevoerd om te verifiëren dat het behoorlijk is gevormd. <!--The processing time is around **48h-72h**, and can take up to **7-10 business days**.-->
 
    >[!NOTE]
-   >Wanneer u het eerste e-mailoppervlak voor een bepaald subdomein maakt, kan de verwerkingstijd **10 minuten tot 10 dagen**. Als het geselecteerde subdomein al in een ander e-mailoppervlak wordt gebruikt, duurt het slechts 3 uur.
+   > Wanneer u een e-mailoppervlak maakt voor een subdomein, varieert de verwerkingstijd, zoals hieronder beschreven:
+   >
+   > * Voor nieuwe subdomeinen kan het proces voor het maken van het eerste kanaaloppervlak **10 min tot 10 dagen**.
+   > * Voor **niet-productie sandboxen** of als het geselecteerde subdomein **reeds gebruikt** in een ander kanaal duurt het proces slechts 3 uur .
 
    Deze controles omvatten configuratie en technische tests die door het team van Adobe worden uitgevoerd:
 
