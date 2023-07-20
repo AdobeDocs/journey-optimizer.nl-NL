@@ -5,9 +5,9 @@ title: Aanvullende informatie
 description: Opmerkingen bij de vervroegde release van Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: b677776becaabc15c85be0a5a46b741cebb9d87b
+source-git-commit: c9e8088cd460992b0c84e3e14e63c2388fa94fd1
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '617'
 ht-degree: 8%
 
 ---
@@ -90,7 +90,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <tbody>
 <tr>
 <td>
-<p>U kunt nu, naast campagnes en reizen, Adobe Experience Platform Unified Tags toewijzen aan uw bestemmingspagina's, sjablonen, inhoudsfragmenten en abonnementlijsten. Op deze manier kunt u ze gemakkelijk classificeren en kunt u zoeken en navigeren in alle lijsten verbeteren. Deze functie is momenteel beschikbaar in de huidige GA (algemeen beschikbaar).</p>
+<p>Naast campagnes en reizen kunt u nu Adobe Experience Platform Unified Tags toewijzen aan uw bestemmingspagina's, sjablonen, inhoudsfragmenten en abonnementenlijsten. Op deze manier kunt u ze gemakkelijk classificeren en kunt u zoeken en navigeren in alle lijsten verbeteren. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Raadpleeg de <a href="../start/search-filter-categorize.md#tags">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
@@ -103,6 +103,16 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 
 Deze release bevat de verbeteringen die hieronder worden vermeld.
 
+**Journeys**
+
+* U kunt nu API vraagreacties in douaneacties gebruiken en uw reis structureren die op deze reacties wordt gebaseerd.
+
+
+**Campagnes**
+
+* Contextuele gebeurtenissen met betrekking tot campagnes zijn nu beschikbaar voor gebruik in het menu Contextafhankelijke kenmerken van de verpersoonlijkingseditor.
+
+
 **Doelgroepen**
 
 Er zijn verbeteringen aangebracht in de publiekekiezer tijdens reizen of campagnes, met toevoeging van nieuwe kolommen waarin de oorsprong en de actualiseringsfrequentie van het publiek worden weergegeven.
@@ -114,13 +124,4 @@ Met de release van de portal Publiek compositie hebben Adobe Experience Platform
 
 Dientengevolge, binnen Adobe Journey Optimizer en Adobe Experience Platform UI, zult u &quot;Segmenten&quot;vervangen door &quot;Publiek&quot;zien om deze nieuwe weg van publieksverwezenlijking en beheer te weerspiegelen.
 
-
-**Journeys**
-
-* U kunt nu API vraagreacties in douaneacties gebruiken en uw reis structureren die op deze reacties wordt gebaseerd.
-
-
-**Campagnes**
-
-* Contextuele gebeurtenissen met betrekking tot campagnes zijn nu beschikbaar voor gebruik in het menu Contextafhankelijke kenmerken van de verpersoonlijkingseditor.
 
