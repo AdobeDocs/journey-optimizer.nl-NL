@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -170,8 +170,6 @@ De **[!UICONTROL SMS - Sending statistics]** de tabel geeft het succes van uw le
 
 * **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
 
-* **[!UICONTROL Delivered]**: Aantal verzonden berichten.
-
 * **[!UICONTROL Opens]**: Aantal keren dat een bericht in een levering werd geopend.
 
 * **[!UICONTROL Clicks]**: Het aantal keren dat op een inhoud is geklikt in een levering.
@@ -181,8 +179,6 @@ De **[!UICONTROL SMS - Sending statistics]** de tabel geeft het succes van uw le
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
 De **[!UICONTROL SMS Summary]** grafiek geeft het succes van uw levering aan:
-
-* **[!UICONTROL Delivered]**: Aantal verzonden berichten.
 
 * **[!UICONTROL Bounces]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische terugkeringsverwerking.
 

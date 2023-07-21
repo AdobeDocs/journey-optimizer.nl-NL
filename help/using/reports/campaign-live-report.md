@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '956'
 ht-degree: 1%
 
 ---
@@ -146,8 +146,6 @@ De **[!UICONTROL SMS - Statistics]** de tabel geeft het succes van uw levering a
 
 * **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
 
-* **[!UICONTROL Delivered]**: Aantal verzonden berichten.
-
 * **[!UICONTROL Bounces]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische terugkeringsverwerking.
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
@@ -157,8 +155,6 @@ De **[!UICONTROL SMS - Statistics]** de tabel geeft het succes van uw levering a
 De **[!UICONTROL SMS Performance by date]** widget geeft de belangrijkste informatie met betrekking tot uw bericht met een grafiek:
 
 * **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
-
-* **[!UICONTROL Delivered]**: Aantal verzonden berichten.
 
 * **[!UICONTROL Bounces]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische terugkeringsverwerking.
 
