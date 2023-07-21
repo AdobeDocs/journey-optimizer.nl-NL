@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 05284fcb3fc426bcf8bc5343a3267bd24c2a26cc
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '742'
 ht-degree: 1%
 
 ---
@@ -88,6 +88,16 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
    ![](assets/content_experiment_5.png)
 
 ## Uw inhoudexperiment configureren {#configure-experiment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_dimension"
+>title="Dimension"
+>abstract="Kies de specifieke dimensie die u wilt bijhouden voor uw expert, zoals specifieke kliks of weergaven van specifieke pagina&#39;s."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_content_experiment_success_metric"
+>title="Metrisch met succes"
+>abstract="Succesvolle maatstaf wordt gebruikt om de best presterende behandeling in een experiment bij te houden en te evalueren. Ben zeker aan opstelling uw dataset voor bepaalde metriek alvorens het te gebruiken."
 
 1. Wanneer uw levering, van de overzichtspagina van de Campagne wordt gepersonaliseerd, klik **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren.
 
