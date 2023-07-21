@@ -5,9 +5,9 @@ title: Aanvullende informatie
 description: Opmerkingen bij de vervroegde release van Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 1cfca1884bc35c93d36137b190e3062aa0d0de33
+source-git-commit: c75664f9b4d58fff1b073c385bcb839e9c11c8ec
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '740'
 ht-degree: 8%
 
 ---
@@ -26,6 +26,23 @@ Opmerkingen bij de eerste release hieronder kunnen zonder voorafgaande kennisgev
 ### Nieuwe functies{#july-2023-features}
 
 Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
+
+<table>
+<thead>
+<tr>
+<th><strong>Inhoudssjablonen, API's</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu Adobe Journey Optimizer-inhoudssjablonen maken en beheren met behulp van speciale API's, zodat u uw bestaande inhoudssysteem naadloos kunt integreren.</p>
+<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -109,7 +126,6 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 * Er is een nieuw type systeemwaarschuwing ingevoerd. U kunt nu een melding krijgen wanneer een aangepaste handeling mislukt.
 
 
-
 **Campagnes**
 
 * Contextuele gebeurtenissen met betrekking tot campagnes zijn nu beschikbaar voor gebruik in het menu Contextafhankelijke kenmerken van de verpersoonlijkingseditor.
@@ -126,5 +142,15 @@ Met de release van de portal Publiek compositie hebben Adobe Experience Platform
 
 Dientengevolge, binnen Adobe Journey Optimizer en Adobe Experience Platform UI, zult u &quot;Segmenten&quot;vervangen door &quot;Publiek&quot;zien om deze nieuwe weg van publieksverwezenlijking en beheer te weerspiegelen.
 
+**API&#39;s**
+
+Verificatie van Adobe Journey Optimizer API&#39;s - De JWT-methode voor het genereren van toegangstokens is afgekeurd. Alle nieuwe integraties moeten worden gecreeerd gebruikend de server-aan-Server authentificatiemethode OAuth. Adobe raadt u ook aan uw bestaande integratie te migreren naar de methode OAuth. [Meer informatie](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)
 
 
+**Andere wijzigingen**
+
+Journey Optimizer-gegevenssets die naar Cloud Storage-doelen worden geëxporteerd, zijn nu beschikbaar voor alle klanten. Met deze functie kunt u een live verbinding maken met opslaglocaties in de cloud om de inhoud van uw gegevenssets te exporteren. [Meer informatie](../data/export-datasets.md)
+
+>[!AVAILABILITY]
+>
+>Deze functie is momenteel in bèta beschikbaar en kan worden gewijzigd.</p>
