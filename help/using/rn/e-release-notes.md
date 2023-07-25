@@ -5,10 +5,10 @@ title: Aanvullende informatie
 description: Opmerkingen bij de vervroegde release van Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: c75664f9b4d58fff1b073c385bcb839e9c11c8ec
+source-git-commit: e384991599c19f72910f299350c0839fa16b4588
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 8%
+source-wordcount: '639'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,6 @@ ht-degree: 8%
 
 Opmerkingen bij de eerste release hieronder kunnen zonder voorafgaande kennisgeving worden gewijzigd tot de beschikbaarheidsdatum van de release. De verbindingen, de schermen en de bijgewerkte documentatie worden gepubliceerd in [releaseopmerkingen](release-notes.md), op de datum van vrijgave.
 
-
 ## Opmerkingen bij de vervroegde release juli 2023 {#july-rn-2023}
 
 **Releasedatum**: 26-27 juli
@@ -26,23 +25,6 @@ Opmerkingen bij de eerste release hieronder kunnen zonder voorafgaande kennisgev
 ### Nieuwe functies{#july-2023-features}
 
 Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
-
-<table>
-<thead>
-<tr>
-<th><strong>Inhoudssjablonen, API's</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U kunt nu Adobe Journey Optimizer-inhoudssjablonen maken en beheren met behulp van speciale API's, zodat u uw bestaande inhoudssysteem naadloos kunt integreren.</p>
-<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <table>
 <thead>
@@ -62,23 +44,22 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 </tbody>
 </table>
 
-
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Direct mailkanaal</strong><br/></th>
+<th><strong>Direct mail channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu direct-mailberichten toevoegen aan uw campagnes. Directe post is een off-line kanaal dat u toestaat om de dossiers te personaliseren en te produceren die door directe postleveranciers worden vereist om post naar uw klanten te verzenden.</p>
-<p>Wanneer u een directe postbestelling voorbereidt, genereert Journey Optimizer een bestand met alle doelprofielen en de gekozen contactgegevens (bijvoorbeeld postadres). U kunt dit bestand dan naar uw direct-mailprovider sturen, die voor de werkelijke verzending zorgt.</p>
+<p>You can now add direct mail messages in your campaigns. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
+<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
 <img src="../direct-mail/assets/direct-mail-properties.png">
-<p>Raadpleeg de <a href="../direct-mail/create-direct-mail.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -110,6 +91,23 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <p>Naast campagnes en reizen kunt u nu Adobe Experience Platform Unified Tags toewijzen aan uw bestemmingspagina's, inhoudssjablonen, fragmenten en abonnementenlijsten. Op deze manier kunt u ze gemakkelijk classificeren en kunt u zoeken en navigeren in alle lijsten verbeteren. </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>Raadpleeg de <a href="../start/search-filter-categorize.md#tags">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Inhoudssjablonen, API's</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu Adobe Journey Optimizer-inhoudssjablonen maken en beheren met behulp van speciale API's, zodat u uw bestaande inhoudssysteem naadloos kunt integreren.</p>
+<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
@@ -149,8 +147,8 @@ Verificatie van Adobe Journey Optimizer API&#39;s - De JWT-methode voor het gene
 
 **Andere wijzigingen**
 
-Journey Optimizer-gegevenssets die naar Cloud Storage-doelen worden geëxporteerd, zijn nu beschikbaar voor alle klanten. Met deze functie kunt u een live verbinding maken met opslaglocaties in de cloud om de inhoud van uw gegevenssets te exporteren. [Meer informatie](../data/export-datasets.md)
+Journey Optimizer-gegevenssets die naar Cloud Storage-doelen worden geëxporteerd, zijn nu beschikbaar voor alle klanten als een openbare bètaversie. Met deze functie kunt u een live verbinding maken met opslaglocaties in de cloud om de inhoud van uw gegevenssets te exporteren. [Meer informatie](../data/export-datasets.md)
 
->[!AVAILABILITY]
->
->Deze functie is momenteel in bèta beschikbaar en kan worden gewijzigd.</p>
+
+
+
