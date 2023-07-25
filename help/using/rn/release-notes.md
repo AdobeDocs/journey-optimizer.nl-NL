@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fa9b76803c286bb14925839e820fae1bab19e58
+source-git-commit: 380d07067a999de439ebf5a4198a203c1aa6b1d8
 workflow-type: tm+mt
-source-wordcount: '3125'
+source-wordcount: '3124'
 ht-degree: 7%
 
 ---
@@ -130,28 +130,26 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 **Journeys**
 
 <!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
-* Er is een nieuw type systeemwaarschuwing ingevoerd. U kunt nu een melding krijgen wanneer een aangepaste handeling mislukt.
+Er is een nieuw type systeemwaarschuwing ingevoerd. U kunt nu een melding krijgen wanneer een aangepaste handeling mislukt.
 
 
 **Campagnes**
 
-* Contextuele gebeurtenissen met betrekking tot campagnes zijn nu beschikbaar voor gebruik in het menu Contextafhankelijke kenmerken van de verpersoonlijkingseditor.
+Contextuele gebeurtenissen met betrekking tot campagnes zijn nu beschikbaar voor gebruik in het menu Contextafhankelijke kenmerken van de verpersoonlijkingseditor.
 
 
 **Doelgroepen**
 
-Er zijn verbeteringen aangebracht in de publiekekiezer tijdens reizen of campagnes, met toevoeging van nieuwe kolommen waarin de oorsprong en de actualiseringsfrequentie van het publiek worden weergegeven.
-
-Met de release van de portal Publiek compositie hebben Adobe Experience Platform en Adobe Journey Optimizer het gebruik van &quot;publiek&quot; en &quot;segment&quot; binnen het systeem en de documentatie bijgewerkt.
+Er zijn verbeteringen aangebracht in de publiekekiezer tijdens reizen of campagnes, met toevoeging van nieuwe kolommen waarin de oorsprong en de actualiseringsfrequentie van het publiek worden weergegeven. Met de release van de portal Publiek compositie hebben Adobe Experience Platform en Adobe Journey Optimizer het gebruik van &quot;publiek&quot; en &quot;segment&quot; binnen het systeem en de documentatie bijgewerkt.
 
 * Publiek: Een reeks personen, accounts, huishoudens of andere entiteiten die gemeenschappelijke kenmerken en gedragingen delen.
 * Segmentdefinitie: In Adobe Experience Platform, de regels die worden gebruikt om zeer belangrijke eigenschappen of gedrag van een doelpubliek te beschrijven. Deze term werd voorheen &quot;segment&quot; genoemd.
 
-Dientengevolge, binnen Adobe Journey Optimizer en Adobe Experience Platform UI, zult u &quot;Segmenten&quot;vervangen door &quot;Publiek&quot;zien om deze nieuwe weg van publieksverwezenlijking en beheer te weerspiegelen.
+Als gevolg hiervan worden in Adobe Journey Optimizer en de gebruikersinterface van Adobe Experience Platform &quot;Segmenten&quot; vervangen door &quot;Soorten publiek&quot; om deze nieuwe weg van publieksvorming en -beheer weer te geven.
 
 **API&#39;s**
 
-Verificatie van Adobe Journey Optimizer API&#39;s - De JWT-methode voor het genereren van toegangstokens is afgekeurd. Alle nieuwe integraties moeten worden gecreeerd gebruikend de server-aan-Server authentificatiemethode OAuth. Adobe raadt u ook aan uw bestaande integratie te migreren naar de methode OAuth. [Meer informatie](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)
+De JWT-methode voor het genereren van toegangstokens voor Adobe Journey Optimizer API-verificatie is afgekeurd. Alle nieuwe integraties moeten worden gecreeerd gebruikend de server-aan-Server authentificatiemethode OAuth. Adobe raadt u ook aan uw bestaande integratie te migreren naar de methode OAuth. [Meer informatie](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
 
 
 **Andere wijzigingen**
