@@ -5,7 +5,7 @@ title: Aanvullende informatie
 description: Opmerkingen bij de vervroegde release van Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: e384991599c19f72910f299350c0839fa16b4588
+source-git-commit: c58a238bf722eeb18864f145aadc85843a132212
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 4%
@@ -36,9 +36,9 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <tr>
 <td>
 <p>U kunt nu compositieworkflows maken om bestaande Adobe Experience Platform-soorten publiek te combineren tot een visueel canvas en verschillende activiteiten (splitsen, verrijken...) gebruiken om nieuwe soorten publiek te maken. Nieuw gecreëerd publiek wordt samen met het bestaande publiek weer in Adobe Experience Platform opgeslagen en kan in Journey Optimizer-campagnes worden gebruikt om klanten te bereiken.</p>
-<img src="../audience/assets/audiences-publish.png"/>
+<img src="../audience/assets/gif-ao.gif"/>
 <p>Raadpleeg de <a href="../audience/get-started-audience-orchestration.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p>De samenstelling van het publiek is volledig geïntegreerd met het nieuwe Adobe Experience Platform-menu "Soorten publiek", dat als een gecentraliseerd portaal voor het publiek fungeert. U kunt nu een bladerpagina gebruiken die een nieuw dashboard met segmenttendensen en overlappingen omvat om nieuwe inzichten te vinden en organisatorische hulpmiddelen voor het folderen en het etiketteren te onderzoeken. Binnen deze ervaring zijn beheerbesturingselementen ingebouwd voor gestandaardiseerde publiekslabels en mogelijkheden voor levenscyclusbeheer van het publiek om activeringsworkflows te beheren. Met deze nieuwe beheerervaring kunt u het publiek nu gemakkelijk en veilig beheren vanaf één locatie. Raadpleeg voor meer informatie <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html" target="_blank">Adobe Experience Platform-documentatie</a>.</p></p>
+<p>De samenstelling van het publiek is volledig geïntegreerd met het nieuwe Adobe Experience Platform-menu "Soorten publiek", dat als een gecentraliseerd portaal voor het publiek fungeert. U kunt nu een bladerpagina gebruiken die een nieuw dashboard met segmenttendensen en overlappingen omvat om nieuwe inzichten te vinden en organisatorische hulpmiddelen te onderzoeken voor het folderen en het etiketteren. Binnen deze ervaring zijn beheerbesturingselementen ingebouwd voor gestandaardiseerde publiekslabels en mogelijkheden voor levenscyclusbeheer van het publiek om activeringsworkflows te beheren. Met deze nieuwe beheerervaring kunt u het publiek nu gemakkelijk en veilig beheren vanaf één locatie. Raadpleeg voor meer informatie <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html" target="_blank">Adobe Experience Platform-documentatie</a>.</p></p>
 </td>
 </tr>
 </tbody>
@@ -70,7 +70,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <tbody>
 <tr>
 <td>
-<p>U kunt nu alle HTML-inhoud importeren en converteren in de e-maileditor van Journey Optimizer. Inhoudsblokken worden automatisch geïdentificeerd en zijn beschikbaar in de e-mailontwerper: gebruik zijn krachtige ontwerpmogelijkheden om het bij te werken en te personaliseren!</p>
+<p>U kunt nu alle HTML-inhoud importeren en converteren in de e-maileditor van Journey Optimizer. Inhoudsblokken worden automatisch geïdentificeerd en zijn beschikbaar in de e-mailontwerper: gebruik zijn krachtige ontwerpmogelijkheden om de inhoud bij te werken en aan te passen!</p>
 <img src="../email/assets/html-imported_2.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -121,7 +121,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 **Journeys**
 
 <!--* You can now leverage API call responses in custom actions and orchestrate your journey based on these responses.-->
-* Er is een nieuw type systeemwaarschuwing ingevoerd. U kunt nu een melding krijgen wanneer een aangepaste handeling mislukt.
+* Er is een nieuw type systeemwaarschuwing geïntroduceerd. U kunt nu een melding krijgen wanneer een aangepaste handeling mislukt.
 
 
 **Campagnes**
@@ -136,13 +136,13 @@ Er zijn verbeteringen aangebracht in de publiekekiezer tijdens reizen of campagn
 Met de release van de portal Publiek compositie hebben Adobe Experience Platform en Adobe Journey Optimizer het gebruik van &quot;publiek&quot; en &quot;segment&quot; binnen het systeem en de documentatie bijgewerkt.
 
 * Publiek: Een reeks personen, accounts, huishoudens of andere entiteiten die gemeenschappelijke kenmerken en gedragingen delen.
-* Segmentdefinitie: In Adobe Experience Platform, de regels die worden gebruikt om zeer belangrijke eigenschappen of gedrag van een doelpubliek te beschrijven. Deze term werd voorheen &quot;segment&quot; genoemd.
+* Segmentdefinitie: in Adobe Experience Platform worden de regels gebruikt om sleutelkenmerken of gedrag van een doelgroep te beschrijven. Deze term werd voorheen &quot;segment&quot; genoemd.
 
 Dientengevolge, binnen Adobe Journey Optimizer en Adobe Experience Platform UI, zult u &quot;Segmenten&quot;vervangen door &quot;Publiek&quot;zien om deze nieuwe weg van publieksverwezenlijking en beheer te weerspiegelen.
 
 **API&#39;s**
 
-Verificatie van Adobe Journey Optimizer API&#39;s - De JWT-methode voor het genereren van toegangstokens is afgekeurd. Alle nieuwe integraties moeten worden gecreeerd gebruikend de server-aan-Server authentificatiemethode OAuth. Adobe raadt u ook aan uw bestaande integratie te migreren naar de methode OAuth. [Meer informatie](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)
+Verificatie van Adobe Journey Optimizer API&#39;s - De JWT-methode voor het genereren van toegangstokens is vervangen. Alle nieuwe integraties moeten worden gecreeerd gebruikend de server-aan-Server authentificatiemethode OAuth. Adobe raadt u ook aan uw bestaande integratie te migreren naar de methode OAuth. [Meer informatie](https://developer.adobe.com/journey-optimizer-apis/references/authentication/)
 
 
 **Andere wijzigingen**
