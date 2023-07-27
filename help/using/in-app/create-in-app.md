@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: ed08b21f10246ef548d991807aa31d13ad8cbccc
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '684'
 ht-degree: 2%
 
 ---
@@ -155,15 +155,13 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 * In de onderstaande video ziet u hoe u in-app-berichten kunt maken, configureren en publiceren in uw campagnes.
 
-  +++Zie video
   >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
-+++
+
 
 * In de onderstaande video ziet u hoe u experimenten met inhoud kunt configureren en analyseren op berichten in de A/B-test.
 
-  +++Zie video
   >[!VIDEO](https://video.tv.adobe.com/v/3419898)
-+++
+
 
 
 **Verwante onderwerpen:**
