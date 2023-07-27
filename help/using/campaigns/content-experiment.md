@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 05284fcb3fc426bcf8bc5343a3267bd24c2a26cc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
@@ -34,15 +34,15 @@ In het onderstaande voorbeeld is de leveringsdoelstelling opgesplitst in twee gr
 Elke persoon in het doelpubliek ontvangt één versie van een e-mail, met een onderwerpregel die één van de volgende twee is:
 
 * een rechtstreekse bevordering van een aanbod van 10 % voor de nieuwe collectie en een afbeelding .
-* de andere reclame maakt alleen reclame voor een speciale aanbieding zonder de 10 % korting zonder afbeelding te specificeren .
+* de andere reclame maakt alleen reclame voor een speciale aanbieding zonder dat de 10 % korting zonder afbeelding wordt opgegeven .
 
-Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het ontvangen experiment interactie aangaan. Daarom zullen wij **[!UICONTROL Email Opens]** als het primaire doel metrisch in deze Content Experiment.
+Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het ontvangen experiment interactie aangaan. Daarom zullen wij kiezen **[!UICONTROL Email Opens]** als het primaire doel metrisch in deze Content Experiment.
 
 ![](assets/content_experiment.png)
 
 ## Uw campagne maken {#campaign-experiment}
 
-1. Van de **[!UICONTROL Campaigns]** pagina, klikt u op **[!UICONTROL Create campaign]**.
+1. Van de **[!UICONTROL Campaigns]** pagina, klikt u **[!UICONTROL Create campaign]**.
 
    ![](assets/content_experiment_1.png)
 
@@ -71,7 +71,7 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
    ![](assets/content_experiment_16.png)
 
-1. In de **[!UICONTROL Actions tracking]** in, geeft u op of u wilt bijhouden hoe de ontvangers op uw levering reageren: u kunt klikken volgen en/of opent.
+1. In de **[!UICONTROL Actions tracking]** , geeft u op of u wilt bijhouden hoe de ontvangers op uw levering reageren: u kunt klikken en/of openen bijhouden.
 
    De resultaten van het bijhouden van de campagne zijn toegankelijk via het campagnerapport nadat de campagne is uitgevoerd.
 
@@ -103,11 +103,15 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
    ![](assets/content_experiment_3.png)
 
-1. Selecteer **[!UICONTROL Success metric]** u wilt instellen voor uw experiment.
+1. Selecteer de **[!UICONTROL Success metric]** u wilt instellen voor uw experiment.
 
    Voor ons experiment selecteren we **[!UICONTROL Email open]** om te testen of ontvangers hun e-mails zullen openen als de promotiecode zich op de onderwerpregel bevindt.
 
    ![](assets/content_experiment_11.png)
+
+1. Wanneer u een experiment instelt met de In-app of het webkanaal en de optie **[!UICONTROL Inbound Clicks]**, **[!UICONTROL Unique Inbound Clicks]** , **[!UICONTROL Page Views]** , of **[!UICONTROL Unique Page Views metrics]** de **[!UICONTROL Click Action]**  kunt u klikken en weergaven op specifieke pagina&#39;s nauwkeurig bijhouden en controleren.
+
+   ![](assets/content_experiment_20.png)
 
 1. Klikken **[!UICONTROL Add treatment]** zoveel nieuwe behandelingen te creëren als nodig is.
 
@@ -153,7 +157,7 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
    ![](assets/content_experiment_15.png)
 
-1. Controleer of uw campagne correct is geconfigureerd en klik vervolgens op **[!UICONTROL Activate]** om te starten.
+1. Controleer of uw campagne correct is geconfigureerd en klik vervolgens op **[!UICONTROL Activate]** om het te starten.
 
    ![](assets/content_experiment_14.png)
 

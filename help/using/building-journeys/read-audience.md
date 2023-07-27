@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, publiek, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1349'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 Gebruik de **Publiek lezen** activiteit om alle individuen van een publiek de reis te maken. Het starten van een journey kan één keer, of op regelmatige basis plaatsvinden.
 
-Neem bijvoorbeeld het publiek voor het openen en uitchecken van de Luma-app dat is gemaakt in het dialoogvenster [Stimulerend publiek](../audience/about-audiences.md) use case. Met de activiteit van het Leespubliek, kunt u alle individuen die tot dit publiek behoren een reis maken en hen tot geïndividualiseerde reizen maken die alle reisfunctionaliteit gebruiken: voorwaarden, timers, gebeurtenissen, handelingen.
+Neem bijvoorbeeld het publiek voor het openen en uitchecken van de Luma-app dat is gemaakt in het dialoogvenster [Stimulerend publiek](../audience/about-audiences.md) use case. Met de activiteit van het Leespubliek, kunt u alle individuen die tot dit publiek behoren tot een reis maken en hen tot geïndividualiseerde reizen maken die alle reisfunctionaliteit, voorwaarden, timers, gebeurtenissen, acties zullen hefboomwerking.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Neem bijvoorbeeld het publiek voor het openen en uitchecken van de Luma-app dat 
 
 De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt:
 
-1. De **[!UICONTROL Orchestration]** categorie en een **[!UICONTROL Read Audience]** op uw canvas.
+1. Ontvouw de **[!UICONTROL Orchestration]** categorie en zet een **[!UICONTROL Read Audience]** op uw canvas.
 
    De activiteit moet als eerste stap van een reis worden geplaatst.
 
@@ -51,7 +51,7 @@ De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt:
 
    >[!NOTE]
    >
-   >Alleen personen met de **Gerealiseerd** en **Bestaande** de status van de publieksparticipatie zal de reis betreden . Raadpleeg voor meer informatie over het evalueren van een publiek de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Alleen de personen met de **Realistisch** en **Bestaande** de status van de publieksparticipatie zal de reis betreden . Raadpleeg voor meer informatie over het evalueren van een publiek de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
    ![](assets/read-segment-selection.png)
 
@@ -67,13 +67,13 @@ De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt:
    >
    >Personen die tot een publiek behoren dat niet de geselecteerde identiteit (naamruimte) onder hun verschillende identiteiten heeft, kunnen de reis niet betreden. U kunt alleen een naamruimte selecteren die is gebaseerd op personen. Als u een naamruimte voor een opzoektabel hebt gedefinieerd (bijvoorbeeld: ProductID-naamruimte voor een productzoekopdracht), is deze niet beschikbaar in het dialoogvenster **Naamruimte** vervolgkeuzelijst.
 
-1. Stel de **[!UICONTROL Throttling rate]** veld naar de productielimiet van de activiteit van het leespubliek.
+1. Stel de **[!UICONTROL Throttling rate]**. Dit is het maximumaantal profielen dat het gelezen publiek per seconde kan ingaan. Dit percentage geldt alleen voor deze activiteit. Zij is niet van toepassing op andere activiteiten tijdens de reis. Als u bijvoorbeeld een vertragingsfactor voor aangepaste handelingen wilt definiëren, moet u de vertragings-API gebruiken. Zie dit [page](../configuration/throttling.md).
 
-   Deze waarde wordt opgeslagen in de lading van de reisversie. De standaardwaarde is 5.000 berichten per seconde. U kunt deze waarde wijzigen van 500 tot 20.000 berichten per seconde.
+   Deze waarde wordt opgeslagen in de lading van de reisversie. De standaardwaarde is 5.000 profielen per seconde. U kunt deze waarde wijzigen van 500 tot 20.000 profielen per seconde.
 
    >[!NOTE]
    >
-   >De totale vertragingssnelheid per sandbox is ingesteld op 20.000 berichten per seconde. De snelheid waarmee alle leessoorten die gelijktijdig in dezelfde sandbox worden uitgevoerd, worden vertraagd, kan daarom maximaal 20.000 berichten per seconde bedragen. U kunt dit uiteinde niet wijzigen.
+   >De totale snelheid per sandbox is ingesteld op 20.000 profielen per seconde. De snelheid waarmee alle leessoorten die tegelijkertijd in dezelfde sandbox worden uitgevoerd, worden vertraagd, kan daarom maximaal 20.000 profielen per seconde zijn. U kunt dit uiteinde niet wijzigen.
 
 1. De **[!UICONTROL Read Audience]** U kunt de tijd opgeven waarop het publiek de reis zal betreden. Om dit te doen, klik **[!UICONTROL Edit journey schedule]** verbinding om tot de eigenschappen van de reis toegang te hebben, dan vorm **[!UICONTROL Scheduler type]** veld.
 
@@ -83,13 +83,13 @@ De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt:
 
    >[!NOTE]
    >
-   >De **[!UICONTROL Schedule]** -sectie alleen beschikbaar als een **[!UICONTROL Read Audience]** activiteit is weggelaten op het canvas.
+   >Let erop dat de **[!UICONTROL Schedule]** -sectie is alleen beschikbaar als een **[!UICONTROL Read Audience]** activiteit is weggelaten op het canvas.
 
    ![](assets/read-segment-schedule-list.png)
 
-   **Incrementeel lezen** optie: wanneer een reis met terugkerende **Lees publiek** voert voor het eerst uit, alle profielen in het publiek gaan de reis in. Met deze optie kunt u zich na de eerste keer richten op alleen de personen die het publiek zijn binnengekomen sinds de laatste uitvoering van de reis.
+   **Incrementeel lezen** optie: wanneer een reis met een terugkerende **Lees publiek** voert voor het eerst uit, alle profielen in het publiek gaan de reis in. Met deze optie kunt u zich na de eerste keer richten op alleen de personen die het publiek zijn binnengekomen sinds de laatste uitvoering van de reis.
 
-   **Herkomst forceren bij herhaling**: met deze optie kunt u alle profielen die nog aanwezig zijn op de reis automatisch laten afsluiten bij de volgende uitvoering. Als u bijvoorbeeld een wachttijd van twee dagen hebt op een dagelijkse terugkerende reis door deze optie in te schakelen, worden profielen altijd verplaatst bij de volgende uitvoering van de reis (dus de dag erna), ongeacht of ze zich in het volgende publiek bevinden of niet. Als de levensduur van uw profielen tijdens deze reis langer kan zijn dan de herhalingsfrequentie, activeer deze optie niet om ervoor te zorgen dat profielen hun reis kunnen voltooien.
+   **Herkomst forceren bij herhaling**: met deze optie kunt u alle profielen die zich nog in de reis bevinden, automatisch laten afsluiten bij de volgende uitvoering. Als u bijvoorbeeld een wachttijd van twee dagen hebt op een dagelijkse terugkerende reis door deze optie in te schakelen, worden profielen altijd verplaatst bij de volgende uitvoering van de reis (dus de dag erna), ongeacht of ze zich in het volgende publiek bevinden of niet. Als de levensduur van uw profielen tijdens deze reis langer kan zijn dan de herhalingsfrequentie, activeer deze optie niet om ervoor te zorgen dat profielen hun reis kunnen voltooien.
 
 <!--
 
@@ -126,9 +126,9 @@ U kunt de testwijze dan vormen en in werking stellen zoals gebruikelijk. [Leer h
 
 Als de test eenmaal is uitgevoerd, wordt **[!UICONTROL Show logs]** met de knop kunt u de testresultaten bekijken volgens de geselecteerde testoptie:
 
-* **[!UICONTROL Single profile at a time]**: de teststammen bevatten dezelfde informatie als wanneer de monitaire testmodus wordt gebruikt. Raadpleeg [deze sectie](testing-the-journey.md#viewing_logs) voor meer informatie
+* **[!UICONTROL Single profile at a time]**: de teststammen geven dezelfde informatie weer als wanneer de monitaire testmodus wordt gebruikt. Raadpleeg [deze sectie](testing-the-journey.md#viewing_logs) voor meer informatie
 
-* **[!UICONTROL Up to 100 profiles at once]**: Aan de hand van de testlogboeken kunt u de voortgang van de publieksexport vanuit Adobe Experience Platform bijhouden, evenals de individuele voortgang van alle personen die de reis hebben betreden.
+* **[!UICONTROL Up to 100 profiles at once]**: Met de testlogboeken kunt u de voortgang van de publieksexport vanuit Adobe Experience Platform bijhouden, evenals de individuele voortgang van alle personen die de reis hebben betreden.
 
   Houd er rekening mee dat u door het testen van de reis met maximaal 100 profielen tegelijk de voortgang van de individuele personen op de reis niet kunt bijhouden met behulp van de visuele stroom.
 
@@ -155,10 +155,10 @@ U kunt voorwaarden gebruiken om segmentatie uit te voeren gebruikend **Voorwaard
 De segmentatie kan worden gebaseerd op:
 
 * gegevensbrongegevens
-* de context van de gebeurtenissen, deel van de reisgegevens, bijvoorbeeld: heeft iemand op het bericht geklikt dat een uur geleden is ontvangen ?
-* een datum, bijvoorbeeld: zijn we in juni wanneer iemand de reis doorgaat?
-* een tijd, bijvoorbeeld: is het morgenochtend in de tijdzone van de persoon ?
-* een algoritme waarin het publiek dat de reis volgt wordt gesplitst op basis van een percentage, bijvoorbeeld: 90% - 10% om een controlegroep uit te sluiten
+* de context van de gebeurtenissen maakt deel uit van de reisgegevens , bijvoorbeeld : heeft iemand op het bericht geklikt dat een uur geleden werd ontvangen ?
+* een datum, bijvoorbeeld: zijn we in juni wanneer iemand de reis doorloopt?
+* een tijd , bijvoorbeeld : is het morgenochtend in de tijdzone van de persoon ?
+* een algoritme waarin het publiek dat de reis volgt wordt gesplitst op basis van een percentage , bijvoorbeeld : 90 % - 10 % om een controlegroep uit te sluiten
 
 ![](assets/read-segment-audience1.png)
 

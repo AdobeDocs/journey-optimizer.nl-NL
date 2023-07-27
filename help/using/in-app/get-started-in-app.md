@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: e35aeba17f45145cc7712740cbcf1f0e169760fc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 4%
+source-wordcount: '189'
+ht-degree: 3%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 4%
 In-app-berichten zijn meldingen die naar gebruikers in uw app kunnen worden verzonden en die hen naar specifieke aandachtspunten kunnen sturen. Deze meldingen kunnen voor verschillende doeleinden worden gebruikt, zoals het promoten van nieuwe functies, het aanbieden van speciale aanbiedingen of het vergemakkelijken van het instappen van gebruikers. Door in-app berichten te gebruiken, kunt u effectief met uw publiek in gesprek gaan en hen naar belangrijke aspecten van uw toepassing sturen.
 
 Gebruik Journey Optimizer om meldingen in de app te maken en ervaringsopties te configureren, waaronder de lay-out en weergave van berichten, tekst en knopopties.
+
+>[!AVAILABILITY]
+>
+>Momenteel is het In-app-kanaal niet beschikbaar voor organisaties die de invoegtoepassing voor het Adobe Healthcare Shield hebben aangeschaft.
+>
 
 ## Vereisten{#prerequisites-in-app}
 

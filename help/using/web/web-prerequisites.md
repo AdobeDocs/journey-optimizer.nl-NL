@@ -6,29 +6,34 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: d62d364571ad9528d2be50469663c6fa5ab01291
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '851'
 ht-degree: 2%
 
 ---
 
 # Vereisten en geleiders {#web-prerequisites}
 
-Webpagina&#39;s openen en ontwerpen in het dialoogvenster [!DNL Journey Optimizer] voor de gebruikersinterface:
+Webpagina&#39;s openen en ontwerpen in het dialoogvenster [!DNL Journey Optimizer] gebruikersinterface, volg de volgende voorwaarden:
 
 * Als u wijzigingen aan uw website wilt toevoegen, moet u over een specifieke implementatie beschikken. [Meer informatie](#implementation-prerequisites)
 
-* Om toegang te krijgen tot [!DNL Journey Optimizer] webontwerper heeft een specifieke Google Chrome-browserextensie geïnstalleerd. [Meer informatie](#visual-authoring-prerequesites)
+* Als u toegang wilt krijgen tot [!DNL Journey Optimizer] webontwerper heeft een specifieke Google Chrome-browserextensie geïnstalleerd. [Meer informatie](#visual-authoring-prerequesites)
 
 * Zorg ervoor dat u de gedetailleerde Adobe Experience Platform-instellingen definieert voor een correcte webervaring [hier](#delivery-prerequisites).
 
-## Waarschuwing
+## Let op: {#caution-notes-web}
 
-Momenteel in [!DNL Journey Optimizer] u kunt alleen webervaringen maken met **campagnes**. [Meer informatie](../campaigns/create-campaign.md#configure)
+* Momenteel in [!DNL Journey Optimizer] u kunt alleen webervaringen maken in **campagnes**. [Meer informatie](../campaigns/create-campaign.md#configure)
+
+* [!DNL Journey Optimizer] webcampagnes zijn gericht op nieuwe profielen die nog niet eerder zijn ingeschakeld op andere kanalen. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden. De licentiemetriek voor elk pakket wordt vermeld op het tabblad [Journey Optimizer-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) pagina.
 
 
-[!DNL Journey Optimizer] webcampagnes zijn gericht op nieuwe profielen die nog niet eerder zijn ingeschakeld op andere kanalen. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden. De licentiemetriek voor elk pakket wordt vermeld op het tabblad [Journey Optimizer-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) pagina.
+>[!AVAILABILITY]
+>
+>Het webkanaal is momenteel niet beschikbaar voor organisaties die de add-on Adobe Healthcare Shield-aanbieding hebben aangeschaft.
+>
 
 ## Voorwaarden voor implementatie {#implementation-prerequisites}
 
@@ -94,10 +99,9 @@ De extensie heeft geen voorwaardelijke instellingen en verwerkt alle instellinge
 > * De website bevindt zich in een iframe.
 > * De QA- of werkgebiedsite van de klant is niet beschikbaar voor de buitenwereld (de site is intern).
 
-
 ### Problemen met laden van website oplossen {#troubleshooting}
 
-Bij gebruik van de Adobe [!DNL Journey Optimizer] webontwerper, als u probeert een website te laden die niet kan worden geladen, wordt een bericht weergegeven waarin wordt gesuggereerd dat u de [Visuele bewerkingsfunctie voor de browserextensie van Helper](#install-visual-editing-helper).
+Bij gebruik van de Adobe [!DNL Journey Optimizer] webontwerper, als u probeert een website te laden die niet kan worden geladen, wordt een bericht weergegeven waarin wordt gesuggereerd dat u de [Visuele bewerkingshulpprogramma voor browsers](#install-visual-editing-helper).
 
 Als de Visual Editing Helper browser uitbreiding correct geïnstalleerd is, maar de website nog niet laadt of zich onverwacht gedraagt, is een potentiële moeilijke situatie om uw website in browser te openen en koekjes goed te keuren alvorens het in te proberen te laden in browser [!DNL Journey Optimizer] webontwerper.
 
@@ -113,15 +117,15 @@ De webervaring kan alleen correct worden geleverd als de volgende instellingen z
 
 * In de [Adobe Experience Platform-gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target="_blank"}moet u ervoor zorgen dat er een gegevensstroom is gedefinieerd, zoals onder de **[!UICONTROL Adobe Experience Platform]** de dienst u hebt **[!UICONTROL Adobe Journey Optimizer]** optie ingeschakeld.
 
-   Dit zorgt ervoor dat de inkomende Journey Optimizer-gebeurtenissen correct worden afgehandeld door de Adobe Experience Platform Edge. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
+  Dit zorgt ervoor dat de inkomende Journey Optimizer-gebeurtenissen correct worden afgehandeld door de Adobe Experience Platform Edge. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
 
-   ![](assets/web-aep-datastream-ajo.png)
+  ![](assets/web-aep-datastream-ajo.png)
 
 * In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}, make sure you have one merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
-   Dit samenvoegbeleid wordt gebruikt door [!DNL Journey Optimizer] binnenkomende kanalen om binnenkomende campagnes op de rand correct te activeren en te publiceren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}
+  Dit samenvoegbeleid wordt gebruikt door [!DNL Journey Optimizer] binnenkomende kanalen om binnenkomende campagnes op de rand correct te activeren en te publiceren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}
 
-   ![](assets/web-aep-merge-policy.png)
+  ![](assets/web-aep-merge-policy.png)
 
 ## Gemarkeerde domeinen voor elementen {#branded-domains-for-assets}
 

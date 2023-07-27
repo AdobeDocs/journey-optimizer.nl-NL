@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d5fc0219c07979c1d7b7512efe462ddcf0c90ee7
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '3104'
-ht-degree: 7%
+source-wordcount: '3078'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,9 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 ![Nieuwsbrief](../assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die direct aan uw Postbus worden geleverd elk kwartaal.
 
 
-## Opmerkingen bij de vervroegde release juli 2023 {#july-rn-2023}
-
-Opmerkingen bij de eerste release hieronder kunnen zonder voorafgaande kennisgeving worden gewijzigd tot de beschikbaarheidsdatum van de release. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd op de releasedatum.
-
-
-**Releasedatum**: 26-27 juli
+## Opmerkingen bij de release juli 2023 {#july-rn-2023}
 
 ### Nieuwe functies{#july-2023-features}
-
-Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
-
-
 
 <table>
 <thead>
@@ -45,9 +36,9 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <tr>
 <td>
 <p>U kunt nu compositieworkflows maken om bestaande Adobe Experience Platform-soorten publiek te combineren tot een visueel canvas en verschillende activiteiten (splitsen, verrijken...) gebruiken om nieuwe soorten publiek te maken. Nieuw gecreëerd publiek wordt samen met het bestaande publiek weer in Adobe Experience Platform opgeslagen en kan in Journey Optimizer-campagnes worden gebruikt om klanten te bereiken.</p>
-<img src="../audience/assets/audiences-publish.png"/>
+<img src="assets/do-not-localize/gif-ao.gif"/>
 <p>Raadpleeg de <a href="../audience/get-started-audience-orchestration.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<p>De samenstelling van het publiek is volledig geïntegreerd met het nieuwe Adobe Experience Platform-menu "Soorten publiek", dat als een gecentraliseerd portaal voor het publiek fungeert. U kunt nu een bladerpagina gebruiken die een nieuw dashboard met segmenttendensen en overlappingen omvat om nieuwe inzichten te vinden en organisatorische hulpmiddelen voor het folderen en het etiketteren te onderzoeken. Binnen deze ervaring zijn beheerbesturingselementen ingebouwd voor gestandaardiseerde publiekslabels en mogelijkheden voor levenscyclusbeheer van het publiek om activeringsworkflows te beheren. Met deze nieuwe beheerervaring kunt u het publiek nu gemakkelijk en veilig beheren vanaf één locatie. Raadpleeg voor meer informatie <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html" target="_blank">Adobe Experience Platform-documentatie</a>.</p></p>
+<p>De samenstelling van het publiek is volledig geïntegreerd met het nieuwe Adobe Experience Platform-menu "Soorten publiek", dat als een gecentraliseerd portaal voor het publiek fungeert. U kunt nu een bladerpagina gebruiken die een nieuw dashboard met segmenttendensen en overlappingen omvat om nieuwe inzichten te vinden en organisatorische hulpmiddelen te onderzoeken voor het folderen en het etiketteren. Binnen deze ervaring zijn beheerbesturingselementen ingebouwd voor gestandaardiseerde publiekslabels en mogelijkheden voor levenscyclusbeheer van het publiek om activeringsworkflows te beheren. Met deze nieuwe beheerervaring kunt u het publiek nu gemakkelijk en veilig beheren vanaf één locatie. Raadpleeg voor meer informatie <a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html" target="_blank">Adobe Experience Platform-documentatie</a>.</p></p>
 </td>
 </tr>
 </tbody>
@@ -64,7 +55,8 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <td>
 <p>You can now add direct mail messages in your campaigns. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
 <p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
-<img src="../direct-mail/assets/direct-mail-properties.png">
+<p>For now, Direct mail channel is not available for organizations that have purchased the Adobe Healthcare Shield add-on offering.</p>
+<img src="assets/do-not-localize/gif-dm.gif"/>
 <p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
@@ -79,7 +71,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <tbody>
 <tr>
 <td>
-<p>U kunt nu alle HTML-inhoud importeren en converteren in de e-maileditor van Journey Optimizer. Inhoudsblokken worden automatisch geïdentificeerd en zijn beschikbaar in de e-mailontwerper: gebruik zijn krachtige ontwerpmogelijkheden om het bij te werken en te personaliseren!</p>
+<p>U kunt nu alle HTML-inhoud importeren en converteren in de e-maileditor van Journey Optimizer. Inhoudsblokken worden automatisch geïdentificeerd en zijn beschikbaar in de e-mailontwerper: gebruik zijn krachtige ontwerpmogelijkheden om de inhoud bij te werken en aan te passen!</p>
 <img src="../email/assets/html-imported_2.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -116,12 +108,11 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <tr>
 <td>
 <p>U kunt nu Adobe Journey Optimizer-inhoudssjablonen maken en beheren met behulp van speciale API's, zodat u uw bestaande inhoudssysteem naadloos kunt integreren.</p>
-<!--<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>-->
+<p>Raadpleeg de <a href="https://developer.adobe.com/journey-optimizer-apis/references/content-templates/">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
 
 ### Verbeteringen {#july-2023-improvements}
 
@@ -143,7 +134,7 @@ Contextuele gebeurtenissen met betrekking tot campagnes zijn nu beschikbaar voor
 Er zijn verbeteringen aangebracht in de publiekekiezer tijdens reizen of campagnes, met toevoeging van nieuwe kolommen waarin de oorsprong en de actualiseringsfrequentie van het publiek worden weergegeven. Met de release van de portal Publiek compositie hebben Adobe Experience Platform en Adobe Journey Optimizer het gebruik van &quot;publiek&quot; en &quot;segment&quot; binnen het systeem en de documentatie bijgewerkt.
 
 * Publiek: Een reeks personen, accounts, huishoudens of andere entiteiten die gemeenschappelijke kenmerken en gedragingen delen.
-* Segmentdefinitie: In Adobe Experience Platform, de regels die worden gebruikt om zeer belangrijke eigenschappen of gedrag van een doelpubliek te beschrijven. Deze term werd voorheen &quot;segment&quot; genoemd.
+* Segmentdefinitie: in Adobe Experience Platform worden de regels gebruikt om sleutelkenmerken of gedrag van een doelgroep te beschrijven. Deze term werd voorheen &quot;segment&quot; genoemd.
 
 Als gevolg hiervan worden in Adobe Journey Optimizer en de gebruikersinterface van Adobe Experience Platform &quot;Segmenten&quot; vervangen door &quot;Soorten publiek&quot; om deze nieuwe weg van publieksvorming en -beheer weer te geven.
 
@@ -172,7 +163,7 @@ Journey Optimizer-gegevenssets die naar Cloud Storage-doelen worden geëxporteer
 <tr>
 <td>
 <p>U kunt nu API's gebruiken om marketingcampagnes in Adobe Journey Optimizer te starten vanaf een extern systeem.</p>
-<p>Tot deze versie, beantwoordde API-teweeggebrachte campagnecapaciteit diverse operationele en transactionele overseinenbehoeften zoals wachtwoordterugstellen of teken OTP, maar kon niet worden gebruikt om marketing campagnes tot stand te brengen. Beschikbare kanalen voor API-gestuurde campagnes zijn: E-mail-, SMS- en pushberichten.</p>
+<p>Tot deze versie, beantwoordde API-teweeggebrachte campagnecapaciteit diverse operationele en transactionele overseinenbehoeften zoals wachtwoordterugstellen of teken OTP, maar kon niet worden gebruikt om marketing campagnes tot stand te brengen. Beschikbare kanalen voor API-getriggerde campagnes zijn: E-mail, SMS en Push berichten.</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
 <p>Raadpleeg de <a href="../campaigns/api-triggered-campaigns.md">gedetailleerde documentatie</a> voor meer informatie.
 </td>
@@ -210,7 +201,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * A new type of system alert has been introduced. You can now get notified when a custom action fails.
 -->
 
-## Opmerkingen bij de release mei 2023 {#may-rn-2023}
+## Opmerkingen bij de release van mei 2023 {#may-rn-2023}
 
 ### Nieuwe functies{#may-2023-features}
 
@@ -316,14 +307,14 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * Ter voorbereiding op de algemene beschikbaarheid van de Poortfunctie Publiek werkt Adobe Experience Platform het gebruik van &quot;publiek&quot; en &quot;segment&quot; binnen het systeem en de documentatie bij.
 
    * Publiek: Een reeks personen, accounts, huishoudens of andere entiteiten die gemeenschappelijke kenmerken en gedragingen delen.
-   * Segmentdefinitie: In Adobe Experience Platform, de regels die worden gebruikt om zeer belangrijke eigenschappen of gedrag van een doelpubliek te beschrijven. Deze term werd voorheen &quot;segment&quot; genoemd.
+   * Segmentdefinitie: in Adobe Experience Platform worden de regels gebruikt om sleutelkenmerken of gedrag van een doelgroep te beschrijven. Deze term werd voorheen &quot;segment&quot; genoemd.
 
   Dientengevolge, binnen Adobe Journey Optimizer en Adobe Experience Platform UI, zult u &quot;Segmenten&quot;vervangen door &quot;Publiek&quot;zien om deze nieuwe weg van publieksverwezenlijking en beheer te weerspiegelen.
 
   De vertalingen van de term &quot;publiek&quot; voor een groep profielen die bedoeld zijn om een bericht te ontvangen, zijn voor sommige talen geharmoniseerd voor alle Digital Experience-producten:
 
    * Duits: Zielgruppe
-   * Braziliaans Portugees: público-alvo
+   * Portugees in Brazilië: público-alvo
    * Spaans: público destinatario
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
@@ -352,7 +343,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Beslissingsbeheer**
 
-* U kunt nu de frequentietoewijzing bewerken als de aanbieding de **[!UICONTROL Draft]** status en nooit eerder gepubliceerd met ingeschakelde frequentiecapping. [Meer informatie](../offers/offer-library/add-constraints.md#frequency-capping)
+* U kunt nu de frequentietoewijzing bewerken als de aanbieding de optie **[!UICONTROL Draft]** status en nooit eerder gepubliceerd met ingeschakelde frequentiecapping. [Meer informatie](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **Personalisatie**
 
@@ -430,7 +421,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * Het reiscanvas geeft nu de activiteit-id weer op berichtactiviteiten en eindtags. Dit verbetert rapportage en heroriëntering.
 * De indeling van het configuratievenster, dat wordt weergegeven in handelingen, gegevensbronnen, gebeurtenissen en reizen, is verbeterd.
-* Nieuw inzicht in het aantal knooppunten op het canvas met beveiligingen die helpen groeien: de reis gemakkelijk te lezen, QA te houden en met een maximum aantal knopen per reis bij 50 problemen op te lossen. [Meer informatie](../start/guardrails.md#journeys-guardrails-journeys)
+* Nieuw inzicht in het aantal knooppunten op het canvas met beveiligingen om mee te groeien: maak reizen gemakkelijk te lezen, QA en los problemen op met een maximum aantal knooppunten per reis bij 50. [Meer informatie](../start/guardrails.md#journeys-guardrails-journeys)
 * Wanneer u een [E-mail](../email/create-email.md), [SMS](../sms/create-sms.md) of [Push](../push/create-push.md) tijdens een reis wordt het oppervlak standaard voorgevuld met het laatst gebruikte oppervlak voor dat kanaal, in de huidige reis.
 * U kunt nu statische of dynamische queryparameters definiëren in uw aangepaste handelingen. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
 
@@ -503,7 +494,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * De nieuwe **Throttling API** Hiermee kunt u een limiet instellen voor het aantal gebeurtenissen dat per seconde wordt verzonden, zodat overweldigende verkeersspikes op uw externe systemen of API worden voorkomen. Wanneer de ingestelde limiet is bereikt, worden alle volgende API-aanroepen zo snel mogelijk in de wachtrij geplaatst en verwerkt in de volgorde waarin ze zijn ontvangen. Houd er rekening mee dat deze functie slechts ondersteuning biedt voor één configuratie met vertraagde verwerking van al uw sandboxen. [Meer informatie](../configuration/external-systems.md)
 * Het canvas Journey is verbeterd voor een eenvoudigere en verbeterde gebruikerservaring. Aan het einde van elk pad op het canvas zijn de lege plaatsaanduidingen verwijderd. U kunt nu gewoon uw activiteiten toevoegen door deze aan het einde van een pad te slepen.
-* In het reiscanvas, het etiket van **Einde** tag wordt niet meer automatisch ingesteld met de naam van de vorige activiteit. Gebruikers kunnen desgewenst handmatig een aangepast label toevoegen.
+* In het reiscanvas, het etiket van **Einde** -tag wordt niet meer automatisch ingesteld met de naam van de vorige activiteit. Gebruikers kunnen desgewenst handmatig een aangepast label toevoegen.
 * De standaardonderbreking en foutenduur in reiseigenschappen zijn veranderd van 5 aan 30 seconden. [Meer informatie](../configuration/external-systems.md#timeout)
 * De standaardsnelheid voor het wijzigen van het aantal berichten voor het publiek is gewijzigd van 20.000 in 5.000 berichten per seconde. [Meer informatie](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * Er is een hulplijn toegevoegd aan de testmodus om alleen te luisteren naar gebeurtenissen die via de interface worden verzonden. Er wordt geen rekening gehouden met gebeurtenissen die via een extern gereedschap worden verzonden. [Meer informatie](../building-journeys/testing-the-journey.md)
@@ -571,7 +562,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>U kunt nu een live verbinding maken met opslaglocaties in de cloud om de inhoud van uw gegevenssets te exporteren. Beschikbare doelen zijn: Amazon S3 Cloud Storage, Azure Blob, Azure Data Lake Gen 2, Data Landing Zone, Google Cloud Storage, SFTP.</p>
+<p>U kunt nu een live verbinding maken met opslaglocaties in de cloud om de inhoud van uw gegevenssets te exporteren. Beschikbare bestemmingen zijn: Amazon S3 Cloud Storage, Azure Blob, Azure Data Lake Gen 2, Data Landing Zone, Google Cloud Storage, SFTP.</p>
 <p><strong>Waarschuwing</strong> - Deze functie is momenteel in bèta beschikbaar voor alle Adobe Journey Optimizer-gebruikers. Werk samen met uw Adobe-medewerker om toegang te krijgen tot Doelen als u nog geen toegang hebt.</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
 <p>Raadpleeg de <a href="../data/export-datasets.md">gedetailleerde documentatie</a> voor meer informatie.</p>
@@ -638,7 +629,7 @@ Note that each widget can be resized and deleted as needed.
 
 * De **Wachttijd bij terugkeer** het veld is toegevoegd aan de eigenschappen van de reis . In dit veld kunt u de tijd definiëren die u moet wachten voordat u een profiel toestaat om de reis opnieuw te betreden tijdens een enkele reis (te beginnen met een evenement of een publiekskwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. [Meer informatie](../building-journeys/journey-gs.md#entrance)
 
-* Er zijn verbeteringen aangebracht voor **begin- en einddatum van de reis**. Als u geen begindatum hebt opgegeven, wordt deze nu automatisch toegevoegd op het moment van publicatie. Voor **Lees publiek** voor reizen kunt u nu een einddatum toevoegen. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. [Meer informatie](../building-journeys/journey-gs.md#dates)
+* Er zijn verbeteringen doorgevoerd voor **begin- en einddatum van de reis**. Als u geen begindatum hebt opgegeven, wordt deze nu automatisch toegevoegd op het moment van publicatie. Voor **Lees publiek** voor reizen kunt u nu een einddatum toevoegen. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. [Meer informatie](../building-journeys/journey-gs.md#dates)
 
 <!--
 
@@ -658,7 +649,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **Lijst van gewenste personen** - U kunt de lijst van gewenste personen nu downloaden als een CSV-bestand. [Meer informatie](../configuration/allow-list.md#download-allowed-list)
 
-* **E-mailoppervlak** - Er is een extra controle toegevoegd aan de instellingen voor het e-mailoppervlak: als de MX-record voor het subdomein dat wordt gebruikt in het dialoogvenster **Reageren op (e-mailadres)** of in de **BCC-e-mailadres** is niet behoorlijk gevormd, kan de e-mailoppervlakte niet meer worden gecreeerd. U moet het gevormd hebben of een andere gebruiken. [Meer informatie](../email/email-settings.md#reply-to-email)
+* **E-mailoppervlak** - Er is een extra controle toegevoegd aan de instellingen van het e-mailoppervlak: als de MX-record voor het subdomein dat wordt gebruikt in het dialoogvenster **Reageren op (e-mailadres)** of in de **BCC-e-mailadres** is niet behoorlijk gevormd, kan de e-mailoppervlakte niet meer worden gecreeerd. U moet het gevormd hebben of een andere gebruiken. [Meer informatie](../email/email-settings.md#reply-to-email)
 
 * **E-mailoppervlak** - In de **Parameters voor URL-tracking** sectie van de instellingen van het e-mailoppervlak, de limiet voor elke **Waarde** Het veld is bijgewerkt van 255 tekens naar 5 kB ten behoeve van compatibiliteit met Adobe Analytics-tracking. [Meer informatie](../email/email-settings.md#url-tracking)
 
@@ -712,7 +703,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Journeys**
 
-* Wanneer u een **Poortkwalificatie** of **Lees publiek** in een reis, wordt namespace nu vooraf gevuld, door gebrek, met het laatst gebruikte namespace. Zie de [Poortkwalificatie](../building-journeys/audience-qualification-events.md#about-segment-qualification) en [Lees publiek](../building-journeys/read-audience.md#configuring-segment-trigger-activity) secties.
+* Wanneer u een **kwalificatie publiek** of **Lees publiek** in een reis, wordt namespace nu vooraf gevuld, door gebrek, met het laatst gebruikte namespace. Zie de [kwalificatie publiek](../building-journeys/audience-qualification-events.md#about-segment-qualification) en [Lees publiek](../building-journeys/read-audience.md#configuring-segment-trigger-activity) secties.
 
 * Op het reiscanvas is er een nieuwe knop beschikbaar op de werkbalk waarmee u een schermafbeelding van uw reis kunt downloaden.
 

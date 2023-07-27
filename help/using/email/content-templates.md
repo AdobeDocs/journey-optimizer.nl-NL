@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 03212e47a4430ce793a9389fa8cd9de0ef8d2bcc
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '1022'
 ht-degree: 2%
 
 ---
@@ -23,15 +23,17 @@ Met deze functionaliteit kunnen gebruikers die op inhoud zijn gericht, aan sjabl
 
 Een gebruiker in uw bedrijf is bijvoorbeeld alleen verantwoordelijk voor inhoud en heeft daarom geen toegang tot campagnes of reizen. Deze gebruiker kan echter een e-mailsjabloon maken die de marketers van uw organisatie kunnen selecteren voor gebruik in alle e-mails als startpunt.
 
+U kunt inhoudssjablonen ook maken en beheren met API&#39;s. Raadpleeg voor meer informatie de [Journey Optimizer API-documentatie](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/).
+
 ➡️ [Leer hoe u in deze video sjablonen maakt en gebruikt](#video-templates)
 
 >[!CAUTION]
 >
->Als u inhoudssjablonen wilt maken, bewerken en verwijderen, moet u beschikken over de **[!DNL Manage Library Items]** bevoegdheid opgenomen in de **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
+>U moet beschikken over de **[!DNL Manage Library Items]** bevoegdheid opgenomen in de **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
 
 ## Sjablonen openen en beheren {#access-manage-templates}
 
-Selecteer **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** in het linkermenu.
+Als u de lijst met inhoudssjablonen wilt openen, selecteert u **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** in het linkermenu.
 
 ![](assets/content-template-list.png)
 
@@ -43,7 +45,7 @@ U kunt inhoudssjablonen sorteren op aanmaak- of wijzigingsdatum. U kunt er ook v
 
 Als u sjablooninhoud wilt bewerken, klikt u op het gewenste item in de lijst en selecteert u **[!UICONTROL Edit content]**.
 
-![](assets/content-template-list-edit.png)
+![](assets/content-template-edit.png)
 
 Als u een sjabloon wilt verwijderen, selecteert u het prullenbakpictogram naast de gewenste sjabloon.
 
@@ -72,8 +74,7 @@ Nadat u de inhoudssjabloon hebt opgeslagen, kunt u deze gebruiken voor een campa
 >
 >* Wijzigingen in inhoudssjablonen worden niet doorgegeven aan campagnes of reizen, of het nu live of conceptueel gaat.
 >
->* En als sjablonen worden gebruikt in een campagne of een reis, hebben alle bewerkingen die u aanbrengt in uw campagne en inhoud van de reis geen invloed op de eerder gebruikte inhoudssjabloon.
-
+>* Op dezelfde manier wanneer sjablonen worden gebruikt in een campagne of een reis, hebben alle bewerkingen die u aanbrengt in uw campagne en inhoud van de reis geen invloed op de eerder gebruikte inhoudssjabloon.
 
 ### Een geheel nieuwe sjabloon maken {#create-template-from-scratch}
 
@@ -89,9 +90,11 @@ Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken
 
    >[!NOTE]
    >
-   >Alleen de **E-mail** kanaal en **HTML** type worden ondersteund.
+   >Momenteel alleen de **E-mail** kanaal en **HTML** type worden ondersteund.
 
-1. Selecteer **[!UICONTROL Manage access]**. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md).
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de sjabloon wilt toewijzen, selecteert u **[!UICONTROL Manage access]**. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md).
+
+1. Adobe Experience Platform-tags selecteren of maken vanuit het menu **[!UICONTROL Tags]** veld om de sjabloon te categoriseren voor een betere zoekopdracht. [Meer informatie](../start/search-filter-categorize.md#tags)
 
 1. Klikken **[!UICONTROL Create]** en kies uit de verschillende opties hoe u de sjabloon wilt ontwerpen:
 
@@ -105,11 +108,11 @@ Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken
 
    ![](assets/content-template-design.png)
 
-1. De [E-mailontwerper](get-started-email-design.md) worden weergegeven. Bewerk uw inhoud naar wens, net zoals u dat zou doen voor elke e-mail binnen een reis of campagne, afhankelijk van de optie die u hebt geselecteerd.
+1. De [E-mailDesigner](get-started-email-design.md) worden weergegeven. Bewerk uw inhoud naar wens, net zoals u dat zou doen voor elke e-mail binnen een reis of campagne, afhankelijk van de optie die u hebt geselecteerd.
 
    U kunt de inhoud desgewenst testen. [Meer informatie](#test-template)
 
-1. Als de sjabloon gereed is, klikt u op **[!UICONTROL Save]**.
+1. Als de sjabloon klaar is, klikt u op **[!UICONTROL Save]**.
 
 1. Klik zo nodig op de pijl naast de sjabloonnaam om terug te gaan naar de **[!UICONTROL Details]** het scherm en geeft uw malplaatje uit.
 
@@ -124,7 +127,7 @@ Deze sjabloon kan nu worden gebruikt wanneer u e-mailberichten maakt binnen [!DN
 >title="Leer hoe u berichten kunt migreren"
 >abstract="Op 25 juli 2022 is het menu Berichten verdwenen en worden berichten nu rechtstreeks vanuit een reis geschreven. Als u oude berichten tijdens reizen opnieuw wilt gebruiken, moet u ze opslaan als sjablonen."
 
-Bij het ontwerpen van een [email](get-started-email-design.md) in een campagne of een reis, kunt u uw e-mailinhoud voor toekomstig hergebruik bewaren. Volg de onderstaande stappen om dit te doen.
+Wanneer u een [email](get-started-email-design.md) in een campagne of een reis, kunt u uw e-mailinhoud voor toekomstig hergebruik bewaren. Volg de onderstaande stappen om dit te doen.
 
 1. Klik in de E-mailontwerper op de ellips rechtsboven in het scherm.
 
@@ -135,6 +138,10 @@ Bij het ontwerpen van een [email](get-started-email-design.md) in een campagne o
 1. Voeg een naam en beschrijving toe voor deze sjabloon.
 
    ![](assets/email_designer-template-name.png)
+
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de sjabloon wilt toewijzen, selecteert u **[!UICONTROL Manage access]**. [Meer informatie](../administration/object-based-access.md).
+
+1. Selecteer of maak een Adobe Experience Platform-tag in het menu **Tags** veld om uw sjabloon te categoriseren. [Meer informatie](../start/search-filter-categorize.md#tags)
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -152,7 +159,7 @@ U kunt de rendering van elke sjabloon voor e-mailinhoud testen, ongeacht of deze
 
 >[!CAUTION]
 >
->Om inhoud te simuleren, moet u hebben **[!DNL Manage Simulate Content]** bevoegdheid opgenomen in de **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
+>Als u inhoud wilt simuleren, moet u beschikken over **[!DNL Manage Simulate Content]** bevoegdheid opgenomen in de **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
 
 1. Open de lijst met inhoudssjablonen via **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** en selecteert u een sjabloon.
 
@@ -168,7 +175,7 @@ U kunt de rendering van elke sjabloon voor e-mailinhoud testen, ongeacht of deze
 
    * Voordat u de proefdruk verzendt, moet u de optie [e-mailoppervlak](../configuration/channel-surfaces.md) die wordt gebruikt om uw inhoud te testen.
 
-      ![](assets/content-template-stimulate-proof-surface.png)
+     ![](assets/content-template-stimulate-proof-surface.png)
 
 ## Hoe kan ik-video {#video-templates}
 

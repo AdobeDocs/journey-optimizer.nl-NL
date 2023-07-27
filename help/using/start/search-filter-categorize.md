@@ -7,13 +7,13 @@ feature: Overview
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b5fa17bfc888236994e73474c35b1aaafcda3ebe
+exl-id: 0d09f7d7-d0a4-4831-90e8-8c2062de06b9
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 6%
+source-wordcount: '504'
+ht-degree: 9%
 
 ---
-
 
 # Zoeken, filteren en ordenen {#search-filter-organize}
 
@@ -33,7 +33,7 @@ Druk **Enter** om tot alle resultaten toegang te hebben en filter door bedrijfsv
 
 In de meeste lijsten, gebruik de onderzoeksbar om specifieke punten te vinden, en het filtreren criteria te bepalen.
 
-Filters zijn toegankelijk door op het filterpictogram linksboven in een lijst te klikken. Met het filtermenu kunt u de weergegeven elementen filteren op basis van verschillende criteria: U kunt ervoor kiezen om alleen elementen van een bepaald type of een bepaalde status weer te geven, zoals de elementen die u hebt gemaakt of de elementen die in de afgelopen 30 dagen zijn gewijzigd. Welke opties beschikbaar zijn, is afhankelijk van de context.
+Filters zijn toegankelijk door op het filterpictogram linksboven in een lijst te klikken. Met het filtermenu kunt u de weergegeven elementen filteren op basis van verschillende criteria: u kunt ervoor kiezen alleen elementen van een bepaald type of een bepaalde status weer te geven, de elementen die u hebt gemaakt of de elementen die in de afgelopen 30 dagen zijn gewijzigd. Welke opties beschikbaar zijn, is afhankelijk van de context.
 
 Bovendien kunt u Verenigde markeringen gebruiken om een lijst afhankelijk van de markeringen te filtreren die aan een voorwerp worden toegewezen. Momenteel zijn er tags beschikbaar voor reizen en campagnes. [Leer hoe u met tags kunt werken](#tags)
 
@@ -49,41 +49,52 @@ In de lijsten, kunt u basisacties op elk element uitvoeren. U kunt bijvoorbeeld 
 
 Met Adobe Experience Platform [Verenigde tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html)kunt u uw Journey Optimizer-reizen en -campagnes eenvoudig classificeren om zoekopdrachten te verbeteren vanuit de lijsten.
 
->[!AVAILABILITY]
->
->De verenigde markeringen zijn momenteel in Bèta. De documentatie en de functionaliteit kunnen worden gewijzigd.
-
 ### Tags toevoegen aan een object
 
-De **Tags** in de [reis](../building-journeys/journey-gs.md#change-properties) of [campagne](../campaigns/create-campaign.md#create) eigenschappen, kunt u labels voor het object definiëren. U kunt een bestaande tag selecteren of een nieuwe tag maken.
+De **[!UICONTROL Tags]** kunt u tags voor het object definiëren. Tags zijn beschikbaar voor de volgende objecten:
 
-Typ de naam van de gewenste tag en selecteer deze in de lijst. Als deze niet beschikbaar is, klikt u op **Maken** om een nieuwe te maken en toe te voegen. U kunt zo veel tags definiëren als nodig is.
+* [Journeys](../building-journeys/journey-gs.md#change-properties)
+* [Campagnes](../campaigns/create-campaign.md#create)
+* [Sjablonen](../email/content-templates.md)
+* [Fragmenten](../email/fragments.md)
+* [Abonnementenlijsten](../landing-pages/subscription-list.md)
+* [Landingspagina&#39;s](../landing-pages/create-lp.md)
 
-![](assets/tags1.png)
+U kunt een bestaande tag selecteren of een nieuwe tag maken. Hiervoor voert u de volgende stappen uit.
 
-De gedefinieerde lijst met tags wordt weergegeven onder de **Tags** veld.
+1. Typ de naam van het gewenste label en/of selecteer het in de lijst.
+
+   ![](assets/tags1.png)
+
+   >[!NOTE]
+   >
+   > Tags zijn niet hoofdlettergevoelig.
+
+1. Als de tag die u zoekt niet beschikbaar is, klikt u op **[!UICONTROL Create ""]** om een nieuwe te definiëren - deze wordt automatisch toegevoegd aan het huidige object en wordt beschikbaar voor alle andere objecten.
+
+   ![](assets/tags4.png)
+
+1. De lijst met geselecteerde of gemaakte tags wordt weergegeven onder de **[!UICONTROL Tags]** veld. U kunt zo veel tags definiëren als nodig is.
 
 >[!NOTE]
->
-> Tags zijn hoofdlettergevoelig
 > 
-> Als u een reis of campagne dupliceert of een nieuwe versie maakt, blijven de tags behouden.
+> Als u een object dupliceert of een nieuwe versie maakt, blijven de tags behouden.
 
 ### Filteren op labels
 
-In de lijsten met reizen en campagnes wordt een specifieke kolom weergegeven, zodat u uw tags eenvoudig kunt visualiseren.
+In elke objectlijst wordt een specifieke kolom weergegeven, zodat u de tags eenvoudig kunt visualiseren.
 
-Een filter is ook beschikbaar om alleen reizen of campagnes met bepaalde tags weer te geven.
+Een filter is ook beschikbaar voor alleen weergaveobjecten met bepaalde tags.
 
 ![](assets/tags2.png)
 
-U kunt tags toevoegen aan of verwijderen uit elk type reis of campagne (live, concept, enz.). Om dit te doen, klik **Meer handelingen** pictogram naast het object en selecteer **Codes bewerken**.
+U kunt tags toevoegen aan of verwijderen uit elk type reis of campagne (live, concept, enz.). Om dit te doen, klik **[!UICONTROL More actions]** pictogram naast het object en selecteer **[!UICONTROL Edit tags]**.
 
 ![](assets/tags3.png)
 
 ### Tags beheren
 
-Beheerders kunnen met de opdracht **Tags** menu, onder **ADMINISTRATIE**. Meer informatie over tagbeheer in het dialoogvenster [Unified Tags-documentatie](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
+Beheerders kunnen tags verwijderen en deze op categorieën ordenen met de opdracht **[!UICONTROL Tags]** menu, onder **[!UICONTROL ADMINISTRATION]**. Meer informatie over tagbeheer in het dialoogvenster [Unified Tags-documentatie](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/ui/managing-tags.html).
 
 >[!NOTE]
 >

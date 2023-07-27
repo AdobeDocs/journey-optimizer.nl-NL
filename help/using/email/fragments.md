@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
-source-git-commit: a2b2398280624c4f344ff2530a6054b68f082eab
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1440'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ U kunt zo veel mogelijk gebruikmaken van fragmenten:
 
 ## Fragmenten openen en beheren {#access-manage-fragments}
 
-Selecteer **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** in het linkermenu.
+Als u de fragmentlijst wilt openen, selecteert u **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** in het linkermenu.
 
 ![](assets/fragment-list.png)
 
@@ -63,7 +63,7 @@ Van de **[!UICONTROL More actions]** naast elk fragment kunt u het volgende doen
 Voer de onderstaande stappen uit om een fragment te bewerken.
 
 1. Klik op het gewenste item in het pop-upmenu **[!UICONTROL Fragment]** lijst.
-1. Vanuit de fragmenteigenschappen kunt u [verwijzingen verkennen](#explore-references), [zijn toegang beheren](../administration/object-based-access.md) en werkt de fragmentdetails bij.
+1. Vanuit de fragmenteigenschappen kunt u [verwijzingen verkennen](#explore-references), [zijn toegang beheren](../administration/object-based-access.md)en werkt de fragmentdetails bij, inclusief [tags](../start/search-filter-categorize.md#tags).
 
    ![](assets/fragment-edit-content.png)
 
@@ -118,9 +118,9 @@ U kunt op twee manieren fragmenten maken:
 
 * Sla bij het ontwerpen van een e-mail- of inhoudssjabloon een gedeelte van de inhoud op als fragment. [Meer informatie](#save-as-template)
 
-Als het fragment eenmaal is opgeslagen, kan het worden gebruikt in een reis, campagne of sjabloon. Of het nu om een geheel nieuw fragment of om een bestaand fragment gaat, u kunt dit fragment nu gebruiken bij het samenstellen van een [email](get-started-email-design.md) of [inhoudssjabloon](content-templates.md) binnen [!DNL Journey Optimizer]. [Meer informatie](#use-fragments)
+Als het fragment eenmaal is opgeslagen, kan het worden gebruikt in een reis, een campagne of een sjabloon. Of het nu om een geheel nieuw fragment of om een bestaand fragment gaat, u kunt dit fragment nu gebruiken bij het samenstellen van een [email](get-started-email-design.md) of [inhoudssjabloon](content-templates.md) binnen [!DNL Journey Optimizer]. [Meer informatie](#use-fragments)
 
-### Maken vanaf nul {#create-from-scratch}
+### Maken op basis van niets {#create-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"
@@ -139,13 +139,15 @@ Voer de onderstaande stappen uit om een geheel nieuw fragment te maken.
 
    >[!NOTE]
    >
-   >Alleen de **[!UICONTROL Visual fragment]** en de **E-mail** wordt ondersteund.
+   >Momenteel alleen de **[!UICONTROL Visual fragment]** en de **E-mail** wordt ondersteund.
 
-1. Selecteer **[!UICONTROL Manage access]**. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md).
+1. Als u aangepaste of basislabels voor gegevensgebruik aan het fragment wilt toewijzen, selecteert u **[!UICONTROL Manage access]**. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md).
+
+1. Adobe Experience Platform-tags selecteren of maken vanuit het menu **[!UICONTROL Tags]** veld om het fragment te categoriseren voor een betere zoekopdracht. [Meer informatie](../start/search-filter-categorize.md#tags)
 
 1. Klik op **[!UICONTROL Create]**.
 
-1. De [E-mailontwerper](get-started-email-design.md) worden weergegeven. Bewerk uw inhoud naar wens, net zoals u doet voor elke e-mail binnen een reis of campagne.
+1. De [E-mailDesigner](get-started-email-design.md) worden weergegeven. Bewerk uw inhoud naar wens, net zoals u dat zou doen voor elke e-mail binnen een reis of campagne.
 
    >[!NOTE]
    >
@@ -163,15 +165,15 @@ Dit fragment kan nu worden gebruikt bij het maken van [email](get-started-email-
 
 ### Opslaan als fragment {#save-as-fragment}
 
-Bij het ontwerpen van een [inhoudssjabloon](content-templates.md) of [email](get-started-email-design.md) in een campagne of een reis, kunt u een deel van uw inhoud als fragment voor toekomstig hergebruik bewaren. Volg de onderstaande stappen om dit te doen.
+Wanneer u een [inhoudssjabloon](content-templates.md) of een [email](get-started-email-design.md) in een campagne of een reis, kunt u een deel van uw inhoud als fragment voor toekomstig hergebruik bewaren. Volg de onderstaande stappen om dit te doen.
 
-1. In de [E-mailontwerper](get-started-email-design.md)Klik op de ellips rechtsboven in het scherm.
+1. In de [E-mailDesigner](get-started-email-design.md)Klik op de ellips rechtsboven in het scherm.
 
 1. Selecteren **[!UICONTROL Save as fragment]** in het keuzemenu.
 
    ![](assets/fragment-save-as.png)
 
-1. De **[!UICONTROL Save as fragment]** weergegeven. Hier selecteert u de elementen die u in het fragment wilt opnemen, inclusief personalisatievelden en dynamische inhoud. Contextafhankelijke kenmerken worden niet ondersteund in fragmenten.
+1. De **[!UICONTROL Save as fragment]** schermweergaven. Hier selecteert u de elementen die u in het fragment wilt opnemen, inclusief personalisatievelden en dynamische inhoud. Contextuele kenmerken worden niet ondersteund in fragmenten.
 
    >[!CAUTION]
    >
@@ -185,9 +187,11 @@ Bij het ontwerpen van een [inhoudssjabloon](content-templates.md) of [email](get
 
    >[!NOTE]
    >
-   >Alleen de **[!UICONTROL Visual fragment]** en de **E-mail** wordt ondersteund.
+   >Momenteel alleen de **[!UICONTROL Visual fragment]** en de **E-mail** wordt ondersteund.
 
-1. Selecteer **[!UICONTROL Manage access]**. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md).
+1. Als u aangepaste of basislabels voor gegevensgebruik aan het fragment wilt toewijzen, selecteert u **[!UICONTROL Manage access]**. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md).
+
+1. Adobe Experience Platform-tags selecteren of maken vanuit het menu **Tags** veld om de sjabloon te categoriseren voor een betere zoekopdracht. [Meer informatie](../start/search-filter-categorize.md#tags)
 
 1. Klikken **[!UICONTROL Create]** opnieuw. Het fragment wordt opgeslagen in de **[!UICONTROL Fragments]** lijst, toegankelijk via de [!DNL Journey Optimizer] speciaal menu.
 
@@ -201,11 +205,11 @@ U kunt dit fragment nu gebruiken wanneer u een [email](get-started-email-design.
 
 ## Fragmenten gebruiken {#use-fragments}
 
-U kunt een fragment gebruiken in een [email](get-started-email-design.md) tijdens een reis, een campagne of [inhoudssjabloon](content-templates.md).
+U kunt een fragment in een [email](get-started-email-design.md) tijdens een reis, een campagne of [inhoudssjabloon](content-templates.md).
 
-1. Open e-mail- of sjablooninhoud met de [E-mailontwerper](get-started-email-design.md).
+1. Open e-mail- of sjablooninhoud met de [E-mailDesigner](get-started-email-design.md).
 
-1. Selecteer **[!UICONTROL Fragments]** pictogram van de linkerspoorstaaf.
+1. Selecteer de **[!UICONTROL Fragments]** pictogram van de linkerrails.
 
    ![](assets/fragments-in-designer.png)
 
@@ -227,7 +231,7 @@ U kunt een fragment gebruiken in een [email](get-started-email-design.md) tijden
 
 1. Net als bij andere componenten kunt u het fragment in de inhoud verplaatsen.
 
-1. Selecteer het fragment om het corresponderende venster aan de rechterkant weer te geven. Daarna kunt u het fragment uit de inhoud verwijderen of dupliceren. U kunt deze handelingen ook rechtstreeks uitvoeren vanuit het contextmenu dat boven op het fragment wordt weergegeven.
+1. Selecteer het fragment om het corresponderende venster rechts weer te geven. Daarna kunt u het fragment uit de inhoud verwijderen of dupliceren. U kunt deze handelingen ook rechtstreeks uitvoeren vanuit het contextmenu dat boven op het fragment wordt weergegeven.
 
    ![](assets/fragment-right-pane.png)
 

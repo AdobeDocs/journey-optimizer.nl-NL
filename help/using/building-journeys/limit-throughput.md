@@ -8,14 +8,14 @@ role: User, Developer
 level: Experienced
 keywords: reis, gegevensbronnen, grens, productie, douane, acties
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
 
-# Hoofdlettergebruik: beperking productie met Externe Gegevensbronnen en de Acties van de Douane{#limit-throughput}
+# Gebruik hoofdletters/kleine letters om de doorvoer te beperken met Externe gegevensbronnen en aangepaste handelingen{#limit-throughput}
 
 ## Beschrijving van het gebruiksgeval
 
@@ -23,11 +23,11 @@ Adobe Journey Optimizer staat artsen toe om API vraag naar externe systemen door
 
 Dit kan gebeuren met:
 
-* **Gegevensbronnen**: om informatie van externe systemen te verzamelen en te gebruiken in de reiscontext, bijvoorbeeld om weerinformatie over de profielstad te krijgen en een specifieke reisdoorloop te hebben die op dat punt is gebaseerd.
+* **Gegevensbronnen**: informatie verzamelen van externe systemen en deze gebruiken in de reiscontext, bijvoorbeeld om weerinformatie over de profielstad te krijgen en een specifieke reisroute te hebben die op die informatie is gebaseerd.
 
-* **Aangepaste handelingen**: informatie naar externe systemen te sturen, bijvoorbeeld om e-mails via een externe oplossing te verzenden met behulp van Journey Optimizer-mogelijkheden voor orkestvorming, naast profielinformatie, publieksgegevens en reiscontext.
+* **Aangepaste handelingen**: informatie naar externe systemen sturen, bijvoorbeeld om e-mails via een externe oplossing te verzenden met behulp van Journey Optimizer-mogelijkheden voor orkestvorming, naast profielinformatie, publieksgegevens en reiscontext.
 
-Als u met externe gegevensbronnen of douaneacties werkt, kunt u uw externe systemen willen beschermen door reisproductie te beperken: tot 5000 exemplaren per seconde voor eenheidstreizen en tot 20000 exemplaren per seconde voor publiek-activering.
+Als u met externe gegevensbronnen of douaneacties werkt, kunt u uw externe systemen willen beschermen door reisproductie te beperken: tot 5000 instanties/seconde voor unitaire reizen en tot 20000 instanties/seconde voor publiek-teweeggebrachte degenen.
 
 Voor aangepaste acties zijn vertragingsmogelijkheden beschikbaar op productniveau. Zie dit [page](../configuration/external-systems.md#capping).
 
@@ -37,7 +37,11 @@ Raadpleeg voor meer informatie over het integreren met externe systemen de volge
 
 ## Implementatie
 
-Voor **door het publiek geïnitieerde reizen** kunt u de snelheid van de activiteit van het leespubliek bepalen die de doorvoer van de reis beïnvloedt.  [Meer informatie](../building-journeys/read-audience.md)
+Voor **door het publiek geïnitieerde reizen** kunt u de snelheid van de activiteit van het leespubliek bepalen die de doorvoer van de reis beïnvloedt. [Meer informatie](../building-journeys/read-audience.md)
+
+>[!NOTE]
+>
+> Dit is het maximumaantal profielen dat het gelezen publiek per seconde kan ingaan. Dit tarief geldt alleen voor deze activiteit en niet voor andere activiteiten op de reis. [Meer informatie](../building-journeys/read-audience.md)
 
 ![](assets/limit-throughput-1.png)
 
@@ -45,7 +49,7 @@ U kunt deze waarde wijzigen van 500 tot 20 000 exemplaren per seconde. Als u lag
 
 ![](assets/limit-throughput-2.png)
 
-Neem een voorbeeld van een **door het publiek geïnitieerde reizen** werken met een bevolking van **10.000 profielen** en gegevens verzenden naar een extern systeem dat ondersteuning biedt voor **100 verzoeken/seconde**.
+Neem een voorbeeld van een **door het publiek geïnitieerde reizen** werken met een bevolking van **10.000 profielen** en gegevens verzenden naar een extern systeem dat ondersteuning biedt **100 verzoeken/seconde**.
 
 1. U kunt het leespubliek definiëren om profielen te lezen met een doorvoer van 500 profielen per seconde. Dit betekent dat het 20 seconden duurt om al uw profielen te lezen. Op de tweede 1 lees je er 500, op de tweede 2 500, enzovoort.
 

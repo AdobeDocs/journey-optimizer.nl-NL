@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expression editor, data, trip
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 79%
+source-wordcount: '630'
+ht-degree: 75%
 
 ---
 
@@ -67,7 +67,7 @@ Links in het scherm worden de beschikbare velden en functies weergegeven:
 * **[!UICONTROL Events]**: kies een van de velden die worden ontvangen van de binnenkomende gebeurtenis. De weergegeven lijst met gebeurtenisvelden is contextafhankelijk en varieert al naar gelang de gebeurtenissen die tijdens de journey worden toegevoegd. [Meer informatie](../../event/about-events.md)
 * **[!UICONTROL Audiences]**: als u een **[!UICONTROL Audience qualification]** kiest u het publiek dat u in uw expressie wilt gebruiken. [Meer informatie](../condition-activity.md#using-a-segment)
 * **[!UICONTROL Data Sources]**: kies uit de lijst met velden die beschikbaar zijn in de veldengroepen van uw databronnen. [Meer informatie](../../datasource/about-data-sources.md)
-* **[!UICONTROL Journey properties]**: in dit deel worden de technische gebieden die verband houden met de reis voor een bepaald profiel gegroepeerd . [Meer informatie](journey-properties.md)
+* **[!UICONTROL Journey properties]**: in dit deel worden de technische gebieden met betrekking tot de reis voor een bepaald profiel gegroepeerd. [Meer informatie](journey-properties.md)
 * **[!UICONTROL Functions]**: kies uit de lijst met ingebouwde functies die complexe filtering mogelijk maken. Functies zijn ingedeeld in categorieën. [Meer informatie](functions.md)
 
 ![](../assets/journey65.png)
@@ -82,7 +82,7 @@ Een mechanisme voor de syntaxisvalidatie controleert de integriteit van uw code.
 
 **Parameters vereist tijdens het samenstellen van voorwaarden met de geavanceerde expressie-editor**
 
-Als u een veld selecteert uit een externe gegevensbron waarvoor een parameter moet worden aangeroepen (zie [deze pagina](../../datasource/external-data-sources.md). In een databron met betrekking tot weersomstandigheden is ‘city’ bijvoorbeeld een veelgebruikte parameter. Dit betekent dat u moet selecteren waar u deze parameter ‘city’ wilt ophalen. Functies kunnen ook op parameters worden toegepast om opmaakwijzigingen of samenvoegingen uit te voeren.
+Als u een veld selecteert uit een externe gegevensbron waarvoor een parameter moet worden aangeroepen (zie [deze pagina](../../datasource/external-data-sources.md)), wordt er een nieuw tabblad weergegeven aan de rechterkant waarin u deze parameter kunt opgeven. De parameterwaarde kan afkomstig zijn van de gebeurtenissen in de reis of de gegevensbron van het Experience Platform (en niet uit andere externe gegevensbronnen). In een databron met betrekking tot weersomstandigheden is ‘city’ bijvoorbeeld een veelgebruikte parameter. Dit betekent dat u moet selecteren waar u deze parameter ‘city’ wilt ophalen. Functies kunnen ook op parameters worden toegepast om opmaakwijzigingen of samenvoegingen uit te voeren.
 
 ![](../assets/journeyuc2_19.png)
 

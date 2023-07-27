@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 3%
+source-wordcount: '688'
+ht-degree: 2%
 
 ---
 
@@ -68,11 +68,11 @@ For more information on how to configure a journey, refer to [this page](../buil
 >[!TAB Add an In-app message to a campaign]
 -->
 
-1. Toegang krijgen tot **[!UICONTROL Campaigns]** en klik vervolgens op **[!UICONTROL Create campaign]**.
+1. Toegang krijgen tot de **[!UICONTROL Campaigns]** en klik vervolgens op **[!UICONTROL Create campaign]**.
 
-1. In de **[!UICONTROL Properties]** selecteert u wanneer het uitvoeringstype van de campagne: Gepland of API-geactiveerd. Meer informatie over soorten campagnes in [deze pagina](../campaigns/create-campaign.md#campaigntype).
+1. In de **[!UICONTROL Properties]** , selecteert u wanneer het type uitvoering van de campagne: Gepland of API-geactiveerd. Meer informatie over campagneretypen in [deze pagina](../campaigns/create-campaign.md#campaigntype).
 
-1. In de **[!UICONTROL Actions]** in, kiest u de **[!UICONTROL In-app message]** en de **[!UICONTROL App surface]** eerder geconfigureerd voor uw bericht in de app. Klik vervolgens op **[!UICONTROL Create]**.
+1. In de **[!UICONTROL Actions]** in, kiest u **[!UICONTROL In-app message]** en de **[!UICONTROL App surface]** eerder geconfigureerd voor uw bericht in de app. Klik vervolgens op **[!UICONTROL Create]**.
 
    Meer informatie over configuratie in de app in [deze pagina](inapp-configuration.md).
 
@@ -80,7 +80,7 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 1. Van de **[!UICONTROL Properties]** in, voert u de **[!UICONTROL Title]** en de **[!UICONTROL Description]** beschrijving.
 
-1. Selecteer **[!UICONTROL Manage access]**. [Meer informatie](../administration/object-based-access.md).
+1. Als u aangepaste of basislabels voor gegevensgebruik wilt toewijzen aan het bericht in de app, selecteert u **[!UICONTROL Manage access]**. [Meer informatie](../administration/object-based-access.md).
 
 1. Klik op de knop **[!UICONTROL Select audience]** om het publiek te bepalen om van de lijst van beschikbare publiek van Adobe Experience Platform te richten. [Meer informatie](../audience/about-audiences.md).
 
@@ -90,20 +90,52 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 1. Klikken **[!UICONTROL Create experiment]** om uw inhoud te configureren experimenteert u en maakt u behandelingen om de prestaties te meten en de beste optie voor uw doelgroep te identificeren. [Meer informatie](../campaigns/content-experiment.md)
 
-1. Klikken **[!UICONTROL Edit triggers]** om de gebeurtenis(sen) en criteria te kiezen die uw bericht activeren:
+1. Klikken **[!UICONTROL Edit triggers]** om de gebeurtenis(sen) en criteria te kiezen die uw bericht activeren. Met regelbuilders kunnen gebruikers criteria en waarden opgeven die, wanneer ze voldoen, een set handelingen activeren, zoals het verzenden van een bericht in de app.
 
-   1. Klikken **Voorwaarde toevoegen** als u wilt dat de trigger rekening houdt met meerdere gebeurtenissen of criteria.
-   1. Selecteer hoe uw gebeurtenissen worden gekoppeld. Kies bijvoorbeeld **[!UICONTROL And]** als u **beide** triggers moeten waar zijn om een bericht weer te geven of **[!UICONTROL Or]** als u wilt dat het bericht wordt getoond als **ofwel** van de triggers zijn waar.
+   1. Klik op de vervolgkeuzelijst Gebeurtenis om de trigger zo nodig te wijzigen.
+
+   1. Klikken **[!UICONTROL Add condition]** als u wilt dat de trigger rekening houdt met meerdere gebeurtenissen of criteria.
+
+   1. Kies de optie **[!UICONTROL Or]** voorwaarde als u meer wilt toevoegen **[!UICONTROL Triggers]** om uw regel verder uit te breiden.
+
+      ![](assets/in_app_create_3.png)
+
+   1. Kies de optie **[!UICONTROL And]** voorwaarde als u wilt toevoegen **[!UICONTROL Traits]** en perfectioneer uw regel beter.
+
+      +++Zie beschikbare Traits.
+
+      | Pakket | Eigenschappen  | Definitie |
+      |---|---|---|
+      | Apparaatinfo | Naam vervoerder | Wordt geactiveerd wanneer aan een van de naam van de vervoerder uit de lijst wordt voldaan. |
+      | Apparaatinfo | Apparaatnaam | Wordt geactiveerd wanneer aan een van de apparaatnamen wordt voldaan. |
+      | Apparaatinfo | Landinstelling | Wordt geactiveerd wanneer aan een van de talen in de lijst wordt voldaan. |
+      | Apparaatinfo | Besturingssysteemversie | Wordt geactiveerd wanneer aan een van de opgegeven versies van het besturingssysteem wordt voldaan. |
+      | Apparaatinfo | Vorige OS-versie | Wordt geactiveerd wanneer aan een van de opgegeven versies van het vorige besturingssysteem wordt voldaan. |
+      | Apparaatinfo | Uitvoeren, modus | Wordt geactiveerd als de uitvoeringsmodus een toepassing of een uitbreiding is. |
+      | Levenscyclus toepassing | Toepassings-id | Wordt geactiveerd wanneer aan de opgegeven toepassings-id wordt voldaan. |
+      | Levenscyclus toepassing | Dag van de week | Wordt geactiveerd wanneer de opgegeven dag van de week is bereikt. |
+      | Levenscyclus toepassing | Dag sinds eerste gebruik | Wordt geactiveerd wanneer het opgegeven aantal dagen sinds het eerste gebruik is bereikt. |
+      | Levenscyclus toepassing | Dag sinds laatste gebruik | Wordt geactiveerd wanneer het opgegeven aantal dagen sinds laatste gebruik is bereikt. |
+      | Levenscyclus toepassing | Dag sinds upgrade | Wordt geactiveerd wanneer het opgegeven aantal dagen sinds de laatste upgrade is bereikt. |
+      | Levenscyclus toepassing | Datum van installatie | Wordt geactiveerd wanneer de opgegeven installatiedatum is bereikt. |
+      | Levenscyclus toepassing | Lanceringen | Wordt geactiveerd wanneer aan het opgegeven aantal Launches wordt voldaan. |
+      | Levenscyclus toepassing | Tijd van dag | Wordt geactiveerd wanneer de opgegeven tijd van de dag is bereikt. |
+      | Plaatsen | Huidige POI | Wordt geactiveerd door de SDK Plaatsen wanneer uw klant het opgegeven Point of Interest (POI) invoert. |
+      | Plaatsen | Laatste ingevoerde POI | Wordt geactiveerd door de SDK van Plaatsen, afhankelijk van uw klant die het laatst Point of Interest (POI) heeft ingevoerd. |
+      | Plaatsen | Laatst afgesloten POI | Wordt geactiveerd door de SDK van Plaatsen, afhankelijk van het punt van interesse dat de klant het laatst heeft verlaten (POI). |
+
++++
+
+      ![](assets/in_app_create_8.png)
+
    1. Klikken **[!UICONTROL Make group]** om triggers samen te groeperen.
-
-   ![](assets/in_app_create_3.png)
 
 1. Kies de frequentie van de trigger wanneer het bericht in de app actief is. De volgende opties zijn beschikbaar:
 
    * **[!UICONTROL Everytime]**: Toon altijd het bericht wanneer de gebeurtenissen die in **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
-   * **[!UICONTROL Once]**: Alleen dit bericht weergeven als de gebeurtenissen die voor de eerste keer zijn geselecteerd in het dialoogvenster **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
+   * **[!UICONTROL Once]**: Alleen dit bericht weergeven als de in het dialoogvenster **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
    * **[!UICONTROL Until click through]**: Dit bericht weergeven wanneer de gebeurtenissen zijn geselecteerd in het dialoogvenster **[!UICONTROL Mobile app trigger]** drop-down komt voor tot een interactie gebeurtenis door SDK met een actie van &quot;geklikt&quot;wordt verzonden.
-   * **[!UICONTROL X number of times]**: Dit bericht X-tijd tonen.
+   * **[!UICONTROL X number of times]**: Dit bericht wordt X-tijd weergegeven.
 
 1. Kies zo nodig welke **[!UICONTROL Day of the week]** of **[!UICONTROL Time of day]** Het bericht in de app wordt weergegeven.
 
@@ -121,13 +153,18 @@ For more information on how to configure a journey, refer to [this page](../buil
 
 ## Instructievideo&#39;s{#video}
 
-In de onderstaande video ziet u hoe u in-app-berichten kunt maken, configureren en publiceren in uw campagnes.
+* In de onderstaande video ziet u hoe u in-app-berichten kunt maken, configureren en publiceren in uw campagnes.
 
->[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+  +++Zie video
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
++++
 
-In de onderstaande video ziet u hoe u experimenten met inhoud kunt configureren en analyseren voor een A/B-test van berichten in de app.
+* In de onderstaande video ziet u hoe u experimenten met inhoud kunt configureren en analyseren op berichten in de A/B-test.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419898)
+  +++Zie video
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898)
++++
+
 
 **Verwante onderwerpen:**
 

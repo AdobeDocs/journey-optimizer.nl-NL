@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '418'
 ht-degree: 1%
 
 ---
@@ -33,11 +33,11 @@ In de interface van de uitdrukkingsredacteur, zult u, alle gegevens selecteren s
 
 In het linkergedeelte van het scherm wordt een domeinkiezer weergegeven waarmee u de bron voor personalisatie kunt selecteren. Beschikbare bronnen zijn:
 
-* **[!UICONTROL Profile attributes]** : Hiermee worden alle verwijzingen weergegeven die zijn gekoppeld aan het profielschema dat wordt beschreven in [Adobe Experience Platform Data Model (XDM)-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
-* **[!UICONTROL Audiences]** : geeft een lijst weer van alle publiek dat in de dienst van de Segmentatie van Adobe Experience Platform wordt gecreeerd. Meer informatie over segmentatie is beschikbaar [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
-* **[!UICONTROL Offer decisions]** : geeft een overzicht van alle aanbiedingen verbonden aan een specifieke plaatsing. Selecteer de plaatsing en voeg de aanbiedingen in uw inhoud in. Voor volledige documentatie over het beheren van aanbiedingen raadpleegt u [deze sectie](../offers/get-started/starting-offer-decisioning.md).
-* **[!UICONTROL Contextual attributes]** : Wanneer een activiteit van de kanaalactie (E-mail, duw, SMS) in een reis wordt gebruikt, zijn de contextafhankelijke reisgebieden beschikbaar door dit menu. Meer informatie in [deze sectie](personalization-use-case.md).
-* **[!UICONTROL Helper functions]** : Hiermee worden alle hulpfuncties weergegeven die beschikbaar zijn om bewerkingen uit te voeren op gegevens, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en deze te manipuleren in de context van personalisatie. Meer informatie in [deze sectie](functions/functions.md).
+* **[!UICONTROL Profile attributes]** : geeft alle referenties weer die zijn gekoppeld aan het profielschema dat wordt beschreven in [Adobe Experience Platform Data Model (XDM)-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
+* **[!UICONTROL Audiences]** : geeft een lijst weer van alle soorten publiek dat is gemaakt in de Adobe Experience Platform Segmentation-service. Meer informatie over segmentatie is beschikbaar [hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
+* **[!UICONTROL Offer decisions]** : geeft een overzicht van alle aanbiedingen die aan een specifieke plaatsing zijn gekoppeld. Selecteer de plaatsing en voeg de aanbiedingen in uw inhoud in. Voor volledige documentatie over het beheren van aanbiedingen raadpleegt u [deze sectie](../offers/get-started/starting-offer-decisioning.md).
+* **[!UICONTROL Contextual attributes]** : wanneer een activiteit van de kanaalactie (E-mail, duw, SMS) in een reis of een campagne wordt gebruikt, zijn de contextafhankelijke attributen met betrekking tot gebeurtenissen en eigenschappen beschikbaar voor verpersoonlijking. Een voorbeeld van personalisatie die gebruik maakt van contextafhankelijke kenmerken wordt weergegeven in [deze sectie](personalization-use-case.md).
+* **[!UICONTROL Helper functions]** : geeft een overzicht van alle hulpfuncties die beschikbaar zijn om bewerkingen op gegevens uit te voeren, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en deze in de context van personalisatie te manipuleren. Meer informatie in [deze sectie](functions/functions.md).
 
 ## Aanpassingskenmerken toevoegen {#add}
 

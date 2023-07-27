@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: landen, landingspagina, lijst, abonnement, service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 4%
+source-wordcount: '434'
+ht-degree: 5%
 
 ---
 
@@ -30,11 +30,11 @@ Een abonnementsdienst heeft betrekking op marketinggoederen en -diensten die wor
 
 Een abonnementenservice kan:
 
-* een nieuwsbrief , bijvoorbeeld : &quot;Running series&quot;
-* een gebeurtenis, bijvoorbeeld: &quot;Top 2021&quot;
+* een nieuwsbrief, bijvoorbeeld: &quot;Running series&quot;
+* een evenement , bijvoorbeeld : &quot; top 2021 &quot;
 * een webinar, bijvoorbeeld: &quot;Meer informatie over crypto&quot;
-* een belang bij een bepaald product/sport/dienst/enz., bijvoorbeeld: &quot;Wil in de komende 12 maanden een huis kopen&quot;
-* een voorkeur voor de wijze van kennisgeving, bijvoorbeeld: &quot;Ontvang nieuwe berichten over nummers op e-mail&quot;
+* een belang bij een bepaald product/een bepaalde sport/dienst/enz., bijvoorbeeld: &quot;Interessant om in de komende twaalf maanden een huis te kopen&quot;
+* een voorkeur voor het melden van nieuwe nummers, bijvoorbeeld: &quot;Ontvang nieuwe berichten over nummers via e-mail&quot;
 
 De profielen kunnen aan een abonnementenlijst door worden toegevoegd [landingspagina](create-lp.md). Een voorbeeld wordt weergegeven in [deze sectie](lp-use-cases.md#subscription-to-a-service).
 
@@ -42,7 +42,7 @@ De profielen kunnen aan een abonnementenlijst door worden toegevoegd [landingspa
 
 Voer de onderstaande stappen uit om een abonnementenlijst te maken.
 
-1. Selecteer **[!UICONTROL Customer]** > **[!UICONTROL Subscription list]**.
+1. Als u de abonnementenlijsten wilt openen, selecteert u **[!UICONTROL Customer]** > **[!UICONTROL Subscription list]**.
 
    ![](assets/lp_subscription-lists.png)
 
@@ -58,6 +58,8 @@ Voer de onderstaande stappen uit om een abonnementenlijst te maken.
    >
    >U kunt momenteel geen spatiëring gebruiken of een naam invoeren die al bestaat voor een andere abonnementenlijst in het dialoogvenster **[!UICONTROL Title]** veld.
 
+1. Adobe Experience Platform-tags selecteren of maken vanuit het menu **[!UICONTROL Tags]** veld om uw landingspagina te categoriseren voor een betere zoekopdracht. [Meer informatie](../start/search-filter-categorize.md#tags)
+
 1. U kunt een begin- en einddatum definiëren.
 
    ![](assets/lp_subscription-list-dates.png)
@@ -68,11 +70,11 @@ In de lijst worden alle gemaakte abonnementenlijsten weergegeven. U kunt ze filt
 
 ![](assets/lp_subscription-filters.png)
 
-De mogelijke status is als volgt:
+De mogelijke statussen zijn als volgt:
 
 * **[!UICONTROL Not started]**: U hebt een begindatum gedefinieerd die later is dan de huidige dag. De geabonneerde profielen ontvangen nog geen communicatie met betrekking tot deze abonnementenlijst.
 * **[!UICONTROL Live]**: De huidige dag bestaat uit de begindatum en einddatum van de abonnementenlijst, of u hebt geen begin-/einddatum gedefinieerd, wat betekent dat de abonnementenlijst altijd live is.
-* **[!UICONTROL Expired]**: De einddatum wordt overgegaan, zodat is de abonnementenlijst niet meer geldig. Voor elk geabonneerd profiel worden geen berichten meer ontvangen die betrekking hebben op deze abonnementenlijst.
+* **[!UICONTROL Expired]**: De einddatum wordt doorgegeven, zodat de abonnementenlijst niet meer geldig is. Voor elk geabonneerd profiel worden geen berichten meer ontvangen die betrekking hebben op deze abonnementenlijst.
 
 Zodra de abonnementenlijst wordt gecreeerd, kunt u het in een het landen pagina gebruiken. De profielen die zich aanmelden via het formulier voor de landingspagina worden toegevoegd aan de lijst. [Meer informatie](design-lp.md)
 

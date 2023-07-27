@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 keywords: in-app, bericht, configuratie, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '308'
 ht-degree: 3%
 
 ---
@@ -16,19 +16,24 @@ ht-degree: 3%
 
 Voordat u berichten in de app verzendt, moet u het kanaal in de app configureren [!DNL Adobe Experience Platform Data Collection].
 
-1. Van uw [!DNL Adobe Experience Platform Data Collection] account, toegang krijgen tot **[!UICONTROL Datastream]** menu en klik op **[!UICONTROL New datastream]**. Raadpleeg voor meer informatie over het maken van gegevensstromen de [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html).
+1. Van uw [!DNL Adobe Experience Platform Data Collection] account, toegang krijgen tot de **[!UICONTROL Datastream]** menu en klik op **[!UICONTROL New datastream]**. Raadpleeg voor meer informatie over het maken van gegevensstromen de [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html).
 
-1. Selecteer [!DNL Adobe Experience Platform] service.
+1. Selecteer de [!DNL Adobe Experience Platform] service.
 
    [!DNL Edge Segmentation] en [!DNL Adobe Journey Optimizer] moet worden geselecteerd.
 
    ![](assets/inapp_config_6.png)
 
-1. Ga vervolgens naar de **[!UICONTROL App surfaces]** en klik vervolgens op **[!UICONTROL Create App surface]**.
+1. Ga vervolgens naar het dialoogvenster **[!UICONTROL App surfaces]** en klik vervolgens op **[!UICONTROL Create App surface]**.
+
+   >[!NOTE]
+   >
+   > U hebt de **Toepassingsconfiguratie beheren** toestemming om toegang te hebben tot **[!UICONTROL App surfaces]** -menu. Raadpleeg voor meer informatie [deze video](#video).
 
    ![](assets/inapp_config_1.png)
 
 1. Voeg een naam toe aan uw **[!UICONTROL App surface]**.
+
 
 1. Typ in de vervolgkeuzelijst Apple iOS uw **iOS-bundel-id**. Zie [Apple-documentatie](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) voor meer informatie over **Bundel-id**.
 
@@ -70,3 +75,12 @@ Het kanaal in de app is nu geconfigureerd. U kunt in-app-berichten naar uw gebru
 * [Een campagne maken](../campaigns/create-campaign.md)
 * [In-app-bericht ontwerpen](design-in-app.md)
 * [Rapport in app](../reports/campaign-global-report.md#inapp-report)
+
+
+## Instructievideo&#39;s{#video}
+
+* In de onderstaande video ziet u hoe u de **Toepassingsconfiguratie beheren** machtiging om het menu met toepassingsoppervlakken te openen.
+
+  +++Zie video
+  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
++++

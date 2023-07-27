@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: wachten, activiteit, reis, volgende, canvas
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 6%
+source-wordcount: '466'
+ht-degree: 5%
 
 ---
 
@@ -35,11 +35,15 @@ Als u wilt wachten voordat u de volgende activiteit in het pad uitvoert, kunt u 
 
 ## Informatie over de activiteit Wachten{#about_wait}
 
-De maximale wachttijd is 30 dagen. In de testmodus **[!UICONTROL Wait time in test]** parameter staat u toe om de tijd te bepalen dat elke wachttijdactiviteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Zie [deze pagina](../building-journeys/testing-the-journey.md)
+De maximale wachttijd is 30 dagen. In de testmodus **[!UICONTROL Wait time in test]** parameter staat u toe om de tijd te bepalen dat elke wachttijdactiviteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Zie [deze pagina](../building-journeys/testing-the-journey.md).
 
-Wees voorzichtig als u meerdere wachtactiviteiten gebruikt op een reis terwijl de wereldwijde time-out van de reis 30 dagen bedraagt, wat betekent dat een profiel altijd maximaal 30 dagen na het vertrek zal verdwijnen.
+Wees voorzichtig als u meerdere wachtactiviteiten gebruikt op een reis terwijl de wereldwijde time-out van de reis 30 dagen bedraagt, wat betekent dat een profiel altijd maximaal 30 dagen na het vertrek zal verdwijnen. Zie [deze pagina](../building-journeys/journey-gs.md#global_timeout).
 
-## Wachttijd duur{#duration}
+Een individu kan alleen een wachtdienst doen als hij of zij genoeg tijd in de reis heeft om de wachttijd voor de 30 dagen reisonderbreking te voltooien. Als u bijvoorbeeld twee wachtactiviteiten toevoegt die elk op 20 dagen zijn ingesteld, detecteert het systeem dat de tweede wachttijd na de time-out van 30 dagen eindigt. De tweede wachttijd zal daarom genegeerd worden en de persoon zal de reis verlaten alvorens het te beginnen. In dat voorbeeld zal de klant in totaal 20 dagen op de reis blijven.
+
+Het is aan te raden om geen wachttijden te gebruiken om hertoetreding te blokkeren. Gebruik in plaats daarvan de opdracht **Hernieuwde toegang toestaan** optie op het niveau van de reiseigenschappen. Zie [deze pagina](../building-journeys/journey-gs.md#entrance).
+
+## Wachten op duur{#duration}
 
 Selecteer de duur van de wachttijd voordat de volgende activiteit wordt uitgevoerd.
 
@@ -60,9 +64,9 @@ Met deze optie kunt u een aangepaste datum definiëren, bijvoorbeeld 12 juli 202
 
 >[!NOTE]
 >
->U kunt een dateTimeOnly-expressie gebruiken of een functie gebruiken om om te zetten in een dateTimeOnly. Bijvoorbeeld: toDateTimeOnly(@{Event.biedOpened.activity.endTime}), waarbij het veld in de gebeurtenis de vorm 2016-08-12T09 heeft:46:06Z.
+>U kunt een dateTimeOnly-expressie gebruiken of een functie gebruiken om om te zetten in een dateTimeOnly. Bijvoorbeeld: toDateTimeOnly(@{Event.biedOpened.activity.endTime}), waarbij het veld in de gebeurtenis van de vorm 2016-08-12T09 is:46:06Z.
 >
->De **tijdzone** wordt verwacht in de eigenschappen van uw reis. Dientengevolge, is het vandaag van de interface niet mogelijk om bij volledig ISO-8601 timestamp het mengen tijd en tijdzonecompensatie zoals 2016-08-12T09 direct te richten:46:06.982-05. Zie [deze pagina](../building-journeys/timezone-management.md).
+>De **tijdzone** wordt verwacht in de eigenschappen van uw reis. Dientengevolge, is het vandaag van de interface niet mogelijk om bij volledig ISO-8601 timestamp het mengen tijd en de tijdzonecompensatie zoals 2016-08-12T09 direct te richten:46:06.982-05. Zie [deze pagina](../building-journeys/timezone-management.md).
 
 ![](assets/journey57.png)
 
@@ -88,4 +92,4 @@ This type of wait uses a score calculated in Adobe Experience Platform. The scor
 
 ![](assets/journey57bis.png)-->
 
-
+Kunt u daar iets aan toevoegen?

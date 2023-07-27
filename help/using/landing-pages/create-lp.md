@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: landen, pagina landen, maken, publiceren
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## Openingspagina&#39;s openen {#access-landing-pages}
 
-Selecteer **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** in het linkermenu.
+Als u de lijst met bestemmingspagina wilt openen, selecteert u **[!UICONTROL Journey Management]** > **[!UICONTROL Landing pages]** in het linkermenu.
 
 ![](assets/lp_access-list.png)
 
@@ -67,7 +67,7 @@ De belangrijkste stappen voor het maken van bestemmingspagina&#39;s zijn als vol
 
 ![](assets/lp-creation-process.png)
 
-1. Klik in de lijst met openingspagina&#39;s op **[!UICONTROL Create landing page]**.
+1. Klik in de lijst met bestemmingspagina op **[!UICONTROL Create landing page]**.
 
    ![](assets/lp_create-lp.png)
 
@@ -77,7 +77,7 @@ De belangrijkste stappen voor het maken van bestemmingspagina&#39;s zijn als vol
 
 1. Als u aangepaste of basislabels voor gegevensgebruik wilt toewijzen aan de landingspagina, selecteert u **[!UICONTROL Manage access]**. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md)
 
-   <!--You can add a tag. See AEP documentation?-->
+1. Adobe Experience Platform-tags selecteren of maken vanuit het menu **[!UICONTROL Tags]** veld om uw landingspagina te categoriseren voor een betere zoekopdracht. [Meer informatie](../start/search-filter-categorize.md#tags)
 
 1. Selecteer een voorinstelling. Leer hoe u voorinstellingen voor openingspagina&#39;s maakt in [deze sectie](../landing-pages/lp-presets.md#lp-create-preset).
 
@@ -93,7 +93,7 @@ De belangrijkste stappen voor het maken van bestemmingspagina&#39;s zijn als vol
 
    ![](assets/lp_add-subpage.png)
 
-Zodra u vormde en ontwierp [primaire pagina](#configure-primary-page)en de [subpagina&#39;s](#configure-subpages) indien van toepassing, kunt u [test](#test-landing-page) en [publish](#publish-landing-page) uw openingspagina.
+Zodra u vormde en vormde [primaire pagina](#configure-primary-page)en de [subpagina&#39;s](#configure-subpages) indien van toepassing, kunt u [test](#test-landing-page) en [publish](#publish-landing-page) uw openingspagina.
 
 ## De primaire pagina configureren {#configure-primary-page}
 
@@ -120,7 +120,7 @@ Voer de onderstaande stappen uit om de instellingen voor de primaire pagina te d
 
    ![](assets/lp_open-designer.png)
 
-1. Definieer de URL van de bestemmingspagina. Voor het eerste deel van de URL moet u eerder een subdomein van een bestemmingspagina instellen als onderdeel van het [voorinstelling](../landing-pages/lp-presets.md#lp-create-preset) geselecteerd. [Meer informatie](../landing-pages/lp-subdomains.md)
+1. Geef de URL van de bestemmingspagina op. Voor het eerste deel van de URL moet u eerder een subdomein van een bestemmingspagina instellen als onderdeel van het [voorinstelling](../landing-pages/lp-presets.md#lp-create-preset) geselecteerd. [Meer informatie](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -146,7 +146,7 @@ Voer de onderstaande stappen uit om de instellingen voor de primaire pagina te d
 
    * **[!UICONTROL Redirect URL]**: Voer de URL in van de pagina waarnaar de gebruikers worden omgeleid wanneer de pagina vervalt.
    * **[!UICONTROL Custom page]**: [Een subpagina configureren](#configure-subpages) en selecteert u deze in de vervolgkeuzelijst die wordt weergegeven.
-   * **[!UICONTROL Browser error]**: Typ de fouttekst die in plaats van de pagina wordt weergegeven.
+   * **[!UICONTROL Browser error]**: Typ de fouttekst die wordt weergegeven in plaats van de pagina.
 
    ![](assets/lp_expiry-date.png)
 
@@ -162,7 +162,7 @@ Voer de onderstaande stappen uit om de instellingen voor de primaire pagina te d
 
    ![](assets/lp_create-journey.png)
 
-   Klikken **[!UICONTROL Create journey]** om naar de **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** lijst.
+   Klikken **[!UICONTROL Create journey]** om te worden omgeleid naar **[!UICONTROL Journey Management]** > **[!UICONTROL Journeys]** lijst.
 
 ## Subpagina&#39;s configureren {#configure-subpages}
 
@@ -191,7 +191,7 @@ Voer de onderstaande stappen uit om de subpagina-instellingen te definiëren.
    >
    >U kunt een koppeling naar de primaire pagina invoegen vanuit elke subpagina van dezelfde bestemmingspagina. Als u bijvoorbeeld gebruikers wilt omleiden die een fout hebben gemaakt en zich opnieuw willen abonneren, kunt u een koppeling toevoegen van de bevestigingssubpagina naar de primaire pagina van het abonnement. Leer hoe u koppelingen kunt invoegen in [deze sectie](../email/message-tracking.md#insert-links).
 
-1. Definieer de URL van de bestemmingspagina. Voor het eerste deel van de URL moet u eerder een subdomein voor een bestemmingspagina instellen. [Meer informatie](../landing-pages/lp-subdomains.md)
+1. Geef de URL van de bestemmingspagina op. Voor het eerste deel van de URL moet u eerder een subdomein voor een bestemmingspagina instellen. [Meer informatie](../landing-pages/lp-subdomains.md)
 
    >[!CAUTION]
    >
@@ -227,7 +227,7 @@ Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt
 
    ![](assets/lp_test-profiles.png)
 
-   De stappen om testprofielen te selecteren zijn het zelfde als wanneer het testen van een bericht. Deze worden in [deze sectie](../email/preview.md#select-test-profiles).
+   De stappen om testprofielen te selecteren zijn het zelfde als wanneer het testen van een bericht. Deze worden nader beschreven in [deze sectie](../email/preview.md#select-test-profiles).
 
 1. Selecteren **[!UICONTROL Open preview]** om de openingspagina te testen.
 
@@ -294,7 +294,7 @@ Als de landingspagina gereed is, kunt u deze publiceren en in een bericht gebrui
 
 Wanneer de landingspagina is gepubliceerd, wordt deze aan de lijst met landingspagina&#39;s toegevoegd met de opdracht **[!UICONTROL Published]** status.
 
-Het is nu live en klaar om te worden gebruikt in een [!DNL Journey Optimizer] bericht dat via een [reis](../building-journeys/journey.md).
+Het is nu live en klaar voor gebruik in een [!DNL Journey Optimizer] bericht dat via een [reis](../building-journeys/journey.md).
 
 >[!NOTE]
 >

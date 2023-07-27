@@ -8,9 +8,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->De de uitvoereigenschap van datasets is momenteel in bèta en beschikbaar aan alle gebruikers van Adobe Journey Optimizer. Werk samen met uw Adobe-medewerker om toegang te krijgen tot Doelen als u nog geen toegang hebt.
+>De de uitvoereigenschap van datasets is momenteel in bèta en beschikbaar aan alle gebruikers van Adobe Journey Optimizer.
 
 Met Journey Optimizer kunt u een live verbinding maken met opslaglocaties in de cloud om de inhoud van uw gegevenssets te exporteren.
 
@@ -48,7 +48,7 @@ Gedetailleerde informatie over elke bestemming is beschikbaar in de documentatie
 
 Controleer de volgende eerste vereisten voordat u begint met het exporteren van uw gegevenssets:
 
-* Om datasets uit te voeren, hebt u nodig **Doelen beheren**, **Doelen weergeven**, **Doelen activeren**, en **Dataset-doelen beheren en activeren** [toegangsbeheermachtigingen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). Lees de [toegangsbeheeroverzicht](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) of neem contact op met de productbeheerder om de vereiste machtigingen te verkrijgen.
+* Om datasets uit te voeren, hebt u nodig **Doelen weergeven** en **Dataset-doelen beheren en activeren** [toegangsbeheermachtigingen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions). Lees de [toegangsbeheeroverzicht](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) of neem contact op met de productbeheerder om de vereiste machtigingen te verkrijgen.
 
 * Zorg ervoor dat de dataset die u wilt uitvoeren geen gegevens van de tweede generatie bevat. Deze functie ondersteunt alleen het exporteren van gegevens van de eerste generatie, dat wil zeggen onbewerkte gegevens zoals gedefinieerd in het dialoogvenster [Real-time Customer Data Platform-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/real-time-customer-data-platform-b2c-edition-prime-and-ultimate-packages.html). De gegevens van de eerste generatie omvatten datasets die via de Bronnen van Adobe Experience Platform worden gebracht of datasets die worden verzameld gebruikend de oplossingen van Adobe zoals de Verbinding van Gegevens van de Analyse en de logboeken/rapportdatasets van Journey Optimizer.
 
@@ -64,7 +64,7 @@ Gedetailleerde informatie over elke stap is beschikbaar in de documentatie van A
 
    <!--![](assets/dataset-export-setup.png)-->
 
-1. **Selecteer de bestemming voor cloudopslag** waar u uw datasets wilt uitvoeren. Klik in de catalogus met doelen op de knop **[!UICONTROL Export datasets]** op de gewenste kaart en selecteer de verbinding die u wilt gebruiken.
+1. **Selecteer de bestemming voor cloudopslag** waar u uw datasets wilt uitvoeren. Klik in de catalogus met doelen op de knop **[!UICONTROL Export datasets]** op de gewenste kaart en selecteer de te gebruiken verbinding.
 
    <!--![](assets/dataset-export-destination.png)-->
 

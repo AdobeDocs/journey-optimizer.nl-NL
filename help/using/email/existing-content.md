@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: email, import, content, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 15%
+source-wordcount: '220'
+ht-degree: 10%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 15%
 * An **HTML-bestand** met een model;
 * A **.zip-map** inclusief een HTML-bestand, de stijlpagina (.css) en afbeeldingen.
 
-   >[!NOTE]
-   >
-   >Er gelden geen beperkingen voor de .zip-bestandsstructuur. Verwijzingen moeten echter relatief zijn en passen bij de boomstructuur van de ZIP-map.
+  >[!NOTE]
+  >
+  >Er gelden geen beperkingen voor de .zip-bestandsstructuur. Verwijzingen moeten echter relatief zijn en passen bij de boomstructuur van de ZIP-map.
 
 Voer de volgende stappen uit om een bestand met HTML-inhoud te importeren:
 
@@ -33,11 +33,23 @@ Voer de volgende stappen uit om een bestand met HTML-inhoud te importeren:
 
    ![](assets/import-html_2.png)
 
-1. Sleep het HTML- of ZIP-bestand met de inhoud van uw HTML.
+1. Sleep het HTML- of ZIP-bestand met de inhoud van uw HTML en klik op **[!UICONTROL Import]**.
 
-1. Zodra de HTML-inhoud is geüpload, kunt u de e-mailfuncties van E-mailontwerper gebruiken om uw e-mailadres te bewerken en er een voorvertoning van weer te geven. [Meer informatie](content-from-scratch.md)
+   ![](assets/html-imported_2.png)
+
+1. Nadat de HTML-inhoud is geüpload, wordt uw inhoud weergegeven in **[!UICONTROL Compatibility mode]**.
+
+   In deze modus kunt u alleen uw tekst aanpassen, koppelingen toevoegen of elementen aan uw inhoud toevoegen.
+
+1. Als u gebruik wilt maken van de inhoudcomponenten van E-mail Designer, opent u het dialoogvenster **[!UICONTROL HTML converter]** en klik op **[!UICONTROL Convert]**.
 
    ![](assets/html-imported.png)
+
+   >[!NOTE]
+   >
+   > Een `<table>` -tag als de eerste laag in een HTML-bestand kan leiden tot stijlverlies, inclusief de instellingen voor achtergrond en breedte in de bovenste laagtag.
+
+1. U kunt uw geïmporteerde bestand nu naar wens aanpassen met de functies van E-mailontwerper [Meer informatie](content-from-scratch.md).
 
 ## Hoe kan ik-video {#video}
 
