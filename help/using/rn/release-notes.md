@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2b6ba46ed7036915aff1abf3c5f54781edd9c780
+source-git-commit: 446fa1ab7d8f897aa1b6997b9cc664100e30e5a2
 workflow-type: tm+mt
-source-wordcount: '3078'
+source-wordcount: '3192'
 ht-degree: 8%
 
 ---
@@ -44,23 +44,23 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Direct mail channel</strong><br/></th>
+<th><strong>Direct mailkanaal</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now add direct mail messages in your campaigns. Direct mail is an offline channel that allows you to personalize and generate the files required by direct mail providers to send mail to your customers.</p>
-<p>When you prepare a direct mail delivery, Journey Optimizer generates a file including all the targeted profiles and the chosen contact information (postal address for example). You will then be able to send this file to your direct mail provider who will take care of the actual sending.</p>
-<p>For now, Direct mail channel is not available for organizations that have purchased the Adobe Healthcare Shield add-on offering.</p>
+<p>U kunt nu direct-mailberichten toevoegen aan uw campagnes. Directe post is een off-line kanaal dat u toestaat om de dossiers te personaliseren en te produceren die door directe postleveranciers worden vereist om post naar uw klanten te verzenden.</p>
+<p>Wanneer u een directe postbestelling voorbereidt, genereert Journey Optimizer een bestand met alle doelprofielen en de gekozen contactgegevens (bijvoorbeeld postadres). U kunt dit bestand dan naar uw direct-mailprovider sturen, die voor de werkelijke verzending zorgt.</p>
+<p>Direct mail channel is momenteel niet beschikbaar voor organisaties die de Adobe Healthcare Shield Add-on-aanbieding hebben aangeschaft.</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
-<p>For more information, refer to the <a href="../direct-mail/create-direct-mail.md">detailed documentation</a>.</p>
+<p>Raadpleeg de <a href="../direct-mail/create-direct-mail.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <table>
 <thead>
