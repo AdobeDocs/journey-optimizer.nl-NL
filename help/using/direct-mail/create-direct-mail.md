@@ -6,14 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: direct mail, bericht, campagne
-hide: true
-hidefromtoc: true
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-badge: label="Beta" type="Informatief"
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 25e1680c54fc1cebada7c4e8e5e4d84061248528
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 3%
+source-wordcount: '422'
+ht-degree: 5%
 
 ---
 
@@ -24,69 +21,58 @@ ht-degree: 3%
 >title="Direct mail maken"
 >abstract="Maak direct-mailberichten in geplande campagnes en ontwerp de extractiedossiers die door directe postleveranciers worden vereist om post naar uw klanten te verzenden."
 
->[!BEGINSHADEBOX]
+## Een campagne voor direct mail maken{#create-dm-campaign}
 
-Wat u in deze documentatie zult vinden:
+1. Maak een nieuwe geplande campagne en kies **[!UICONTROL Direct mail]** als de handeling.
 
-* **[Een directe e-mail maken](create-direct-mail.md)**
-* [Direct mail configureren](direct-mail-configuration.md)
+1. Selecteer de **[!UICONTROL Direct mail surface]** gebruiken en klikken **[!UICONTROL Create]**. [Leer hoe u een direct-mailoppervlak maakt](direct-mail-configuration.md#direct-mail-surface).
 
->[!ENDSHADEBOX]
+   ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
->[!AVAILABILITY]
->
->Direct mail is momenteel beschikbaar als een persoonlijke bètaversie en kan zonder voorafgaande kennisgeving regelmatig worden bijgewerkt.
+1. In de **[!UICONTROL Properties]** sectie, uw campagne bewerken **[!UICONTROL Title]** en **[!UICONTROL Description]**.
 
-Directe post is een off-line kanaal dat u toestaat om de extractiedossiers te personaliseren en te produceren die door directe postleveranciers worden vereist om post naar uw klanten te verzenden.
+1. Om uw doelpubliek te bepalen, klik **[!UICONTROL Select audience]** en kies een van de beschikbare Adobe Experience Platform-doelgroepen. [Meer informatie](../audience/about-audiences.md).
 
-Wanneer u een directe post creeert, produceert Journey Optimizer een dossier met alle gerichte profielen en de gekozen gegevens (postadres, profielattributen bijvoorbeeld). Uw direct-mailprovider kan dat bestand dan ophalen en zorgt voor de verzending zelf.
+   >[!IMPORTANT]
+   >
+   >Momenteel is de selectie van het publiek beperkt tot 3 miljoen profielen. Deze beperking kan op verzoek aan uw Adobe-vertegenwoordiger worden opgeheven.
 
-Directe-mailberichten kunnen alleen worden gemaakt in het kader van geplande campagnes. Ze zijn niet beschikbaar voor gebruik in API-getriggerde campagnes of reizen.
+1. In de **[!UICONTROL Identity namespace]** selecteert u de juiste naamruimte om personen in het gekozen publiek te identificeren. [Meer informatie](../event/about-creating.md#select-the-namespace).
 
->[!IMPORTANT]
->
->Alvorens een direct-mailbericht te verzenden, zorg ervoor u hebt gevormd:
->
->1. A [bestand dat configuratie verplettert](../direct-mail/direct-mail-configuration.md#file-routing-configuration) die de server aangeeft waar het extractiebestand moet worden geüpload en opgeslagen,
->1. A [direct-mailberichtoppervlak](../direct-mail/direct-mail-configuration.md#direct-mail-surface) die naar het dossier zal verwijzen dat configuratie verplettert.
+   ![](assets/direct-mail-campaign-properties.png){width="800" align="center"}
 
+1. De campagnes kunnen voor een specifieke datum worden gepland of worden geplaatst om met regelmatige intervallen opnieuw te komen. Leer hoe u de **[!UICONTROL Schedule]** van uw campagne in [deze sectie](../campaigns/create-campaign.md#schedule).
 
-## Direct mailbericht maken {#create}
+U kunt nu het extractiebestand configureren en verzenden naar uw directe-mailprovider.
 
-U kunt als volgt een direct-mailbericht maken en verzenden:
+## Het extractiebestand configureren {#extraction-file}
 
-1. Maak een nieuwe geplande campagne en selecteer **[!UICONTROL Direct mail]** als uw handeling en kies het kanaaloppervlak dat u wilt gebruiken. [Leer hoe u een direct-mailoppervlak maakt](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
+1. Van het scherm van de campagneconfiguratie, klik **[!UICONTROL Edit content]** om de inhoud van het extractiebestand te configureren.
 
-   ![](assets/direct-mail-campaign.png)
+1. Pas de eigenschappen van het extractiebestand aan:
 
-1. Klikken **[!UICONTROL Create]** definieert u vervolgens de basisinformatie over uw campagne (naam, beschrijving). [Leer hoe u een campagne kunt configureren](../campaigns/create-campaign.md)
+   1. Geef de gewenste waarden op **[!UICONTROL Filename]** voor het extractiebestand.
 
-1. Klik op de knop **[!UICONTROL Edit content]** om het extractiebestand te configureren dat naar uw directe-mailprovider wordt verzonden.
+   1. Schakel desgewenst de optie **[!UICONTROL Append timestamp to export filename]** als u een automatische tijdstempel wilt toevoegen aan de opgegeven bestandsnaam.
 
-1. De naam van het extractiebestand definiëren in het dialoogvenster **[!UICONTROL Filename]** veld.
+   1. Soms moet u informatie toevoegen aan het begin of aan het einde van het extractiebestand. Om dit te doen, gebruik **[!UICONTROL Notes]** Geef vervolgens aan of u de notitie wilt opnemen als kop- of voettekst.
 
-   Soms moet u informatie toevoegen aan het begin of aan het einde van het extractiebestand. Om dit te doen, gebruik **[!UICONTROL Notes]** Geef vervolgens aan of u de notitie wilt opnemen in een kop- of voettekst.
+      ![](assets/direct-mail-properties.png){width="800" align="center"}
 
-   <!--Click on the button to the right of the Output file field and enter the desired label. You can use personalization fields, content blocks and dynamic text (see Defining content). For example, you can complete the label with the delivery ID or the extraction date.-->
+1. Configureer de kolommen en de informatie die in het extractiebestand moeten worden weergegeven:
 
-   ![](assets/direct-mail-properties.png)
+   1. Klik op de knop **[!UICONTROL Add]** om een nieuwe kolom te maken.
 
-1. Gebruik het linkergebied van de hand om de informatie te bepalen die als kolommen in het extractiedossier moet worden getoond:
+   1. De **[!UICONTROL Formatting]** wordt aan de rechterkant weergegeven, zodat u de geselecteerde kolom kunt instellen. Geef een **[!UICONTROL Label]** voor de kolom.
 
-   1. Klik op de knop **[!UICONTROL Add]** om een nieuwe kolom toe te voegen, dan selecteer het van de lijst.
+   1. In de **[!UICONTROL Data]** in het veld selecteert u de profielkenmerken die u wilt weergeven met de [Expressieeditor](../personalization/personalization-build-expressions.md).
 
-   1. In de **[!UICONTROL Formatting]** -sectie, geeft u een label voor de kolom op en definieert u vervolgens de profielkenmerken die u wilt weergeven met de [Expressieeditor](../personalization/personalization-build-expressions.md).
+   1. Als u het extractiebestand wilt sorteren met een kolom, selecteert u de kolom en schakelt u de optie **[!UICONTROL Sort by]** -optie. De **[!UICONTROL Sort By]** wordt weergegeven naast het label van de kolom in het dialoogvenster **[!UICONTROL Data Fields]** sectie.
 
-      ![](assets/direct-mail-content.png)
+      ![](assets/direct-mail-content.png){width="800" align="center"}
 
-   1. Als u het extractiebestand wilt sorteren met de geselecteerde kolom, schakelt u het **[!UICONTROL Sort by]** optie ingeschakeld. De **[!UICONTROL Sort By]** wordt vervolgens naast het label van de kolom in de bestandsstructuur weergegeven.
+   1. Herhaal deze stappen om zoveel kolommen toe te voegen als u nodig hebt voor het extractiebestand. U kunt maximaal 50 kolommen toevoegen.
 
-1. Herhaal deze stappen om zoveel kolommen toe te voegen als nodig is om uw extractiebestand samen te stellen. U kunt maximaal 50 kolommen toevoegen.
+      Als u de positie van een kolom wilt wijzigen, sleept u de kolom naar de gewenste locatie in het dialoogvenster **[!UICONTROL Data field]** sectie. Als u een kolom wilt verwijderen, selecteert u deze en klikt u op de knop **[!UICONTROL Remove]** in de **[!UICONTROL Formatting]** venster.
 
-   U kunt op elk gewenst moment een kolom verwijderen door deze te selecteren en op de knop **[!UICONTROL Remove]** van de knop **[!UICONTROL Formatting]** sectie.
-
-   ![](assets/direct-mail-complete.png)
-
-1. Zodra de direct-mailinhoud is bepaald, voltooi de configuratie van uw campagne.
-
-   Wanneer de campagne wordt gestart, wordt het extractiebestand automatisch gegenereerd en geëxporteerd naar de server die is opgegeven in uw [bestand dat configuratie verplettert](../direct-mail/direct-mail-configuration.md).
+U kunt nu uw directe-mailbericht testen en verzenden naar uw publiek. [Leer hoe u e-mailberichten test en verzendt](test-send-direct-mail.md)

@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bef5bc9f86d1e11e6b1ed5853fc0b57a6e47d4ac
+source-git-commit: 598a5d5ef77d7c1fe5a8487abdb54c8cfb96a2bb
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1399'
 ht-degree: 34%
 
 ---
@@ -47,13 +47,13 @@ ht-degree: 34%
       + [Tijdzonebeheer](using/building-journeys/timezone-management.md)
       + [Profieltoegangsbeheer](using/building-journeys/entry-management.md)
       + [Een journey naar een andere sandbox kopiëren](using/building-journeys/copy-to-sandbox.md)
-      + [Los uw reis problemen op](using/building-journeys/troubleshooting.md)
+      + [Uw reis oplossen](using/building-journeys/troubleshooting.md)
       + [Integreren met intelligente services](using/building-journeys/ai-services-overview.md)
    + Activiteiten {#about-journey-building}
       + [Aan de slag met reisactiviteiten](using/building-journeys/about-journey-activities.md)
       + [Algemene gebeurtenissen](using/building-journeys/general-events.md)
       + [Reactie](using/building-journeys/reaction-events.md)
-      + [Poortkwalificatie](using/building-journeys/audience-qualification-events.md)
+      + [kwalificatie publiek](using/building-journeys/audience-qualification-events.md)
       + [Voorwaarde](using/building-journeys/condition-activity.md)
       + [Wachten](using/building-journeys/wait-activity.md)
       + [Doelgroep lezen](using/building-journeys/read-audience.md)
@@ -167,7 +167,7 @@ ht-degree: 34%
    + Inhoudsexperiment {#content-experiment}
       + [Aan de slag met het experimenteren met inhoud](using/campaigns/get-started-experiment.md)
       + [Een inhoudexperiment maken](using/campaigns/content-experiment.md)
-      + [Testrapporten configureren](using/campaigns/reporting-configuration.md)
+      + [Evaluatierapporten configureren](using/campaigns/reporting-configuration.md)
       + Technische opmerkingen {#technotes}
          + [Statistische berekeningen begrijpen](using/campaigns/experiment-calculations.md)
          + [Statistische berekeningen in het Experimentenrapport begrijpen](using/campaigns/experiment-report-calculations.md)
@@ -228,7 +228,9 @@ ht-degree: 34%
    + [Sms-kanaal configureren](using/sms/sms-configuration.md)
    + [SMS-subdomeinen instellen](using/sms/sms-subdomains.md)
 + Direct mail {#direct-mail}
+   + [Aan de slag met direct mail](using/direct-mail/get-started-direct-mail.md)
    + [Een directe e-mail maken](using/direct-mail/create-direct-mail.md)
+   + [Een direct mailbericht testen en verzenden](using/direct-mail/test-send-direct-mail.md)
    + [Direct mail configureren](using/direct-mail/direct-mail-configuration.md)
 + Webkanaal{#web}
    + [Aan de slag met webkanaal](using/web/get-started-web.md)
@@ -330,7 +332,7 @@ ht-degree: 34%
       + [Over het beheer van besluiten](using/offers/get-started/starting-offer-decisioning.md)
       + [Gebruikersinterface](using/offers/get-started/user-interface.md)
       + [Belangrijke stappen voor het maken en beheren van aanbiedingen](using/offers/offer-library/key-steps.md)
-      + [Hoofdlettergebruik: aanbiedingen in een e-mail invoegen](using/offers/offers-e2e.md)
+      + [Kwestie gebruiken: aanbiedingen invoegen in een e-mail](using/offers/offers-e2e.md)
    + Componenten maken {#create-components}
       + [Plaatsingen maken](using/offers/offer-library/creating-placements.md)
       + [Beslissingsregels maken](using/offers/offer-library/creating-decision-rules.md)
@@ -347,7 +349,7 @@ ht-degree: 34%
    + Aanbiedingen maken en beheren {#managing-offers-in-the-offer-library}
       + Aanbiedingen configureren {#configure-offers}
          + [Gepersonaliseerde aanbiedingen maken](using/offers/offer-library/creating-personalized-offers.md)
-         + [Weergaven toevoegen](using/offers/offer-library/add-representations.md)
+         + [Afbeeldingen toevoegen](using/offers/offer-library/add-representations.md)
          + [Beperkingen toevoegen](using/offers/offer-library/add-constraints.md)
       + [Alternatieve aanbiedingen maken](using/offers/offer-library/creating-fallback-offers.md)
       + [Verzamelingen maken](using/offers/offer-library/creating-collections.md)
@@ -361,7 +363,7 @@ ht-degree: 34%
       + [Een gegevensset maken om gebeurtenissen te verzamelen](using/offers/data-collection/create-dataset.md)
       + [Vastleggen van gebeurtenissen configureren](using/offers/data-collection/schema-requirement.md)
    + Beslissingsbeheerrapporten maken {#create-reports}
-      + [Werken met gebeurtenissen voor het beheer van beslissingen](using/offers/reports/get-started-events.md)
+      + [Werken met gebeurtenissen in verband met het beheer van beslissingen](using/offers/reports/get-started-events.md)
       + [Toegang tot gebeurtenissen van XDM-velden](using/offers/reports/xdm-fields.md)
    + De aanbiedingscatalogus exporteren {#export-catalog}
       + [Aan de slag met het exporteren van de aanbiedingscatalogus](using/offers/export-catalog/get-started-export.md)
@@ -386,7 +388,7 @@ ht-degree: 34%
             + [Een beslissingsregel bijwerken](using/offers/api-reference/offers-api/decision-rules/update.md)
             + [Een beslissingsregel verwijderen](using/offers/api-reference/offers-api/decision-rules/delete.md)
          + Verzamelingsaanduidingen {#tags}
-            + [Kwaliteit van collectie weergeven](using/offers/api-reference/offers-api/tags/tags-list.md)
+            + [Kwaliteitsaanduidingen voor verzamelingen weergeven](using/offers/api-reference/offers-api/tags/tags-list.md)
             + [Een verzamelingskwalificatie opzoeken](using/offers/api-reference/offers-api/tags/lookup.md)
             + [Een verzamelingskwalificatie maken](using/offers/api-reference/offers-api/tags/create.md)
             + [Een verzamelingskwalificatie bijwerken](using/offers/api-reference/offers-api/tags/update.md)
@@ -477,7 +479,7 @@ ht-degree: 34%
       + [Ingebouwde machtigingen](using/administration/ootb-permissions.md)
       + [Machtigingsniveaus](using/administration/high-low-permissions.md)
    + [Gebruikers en rollen beheren](using/administration/permissions.md)
-   + [Op kenmerken gebaseerd toegangsbeheer](using/administration/attribute-based-access.md)
+   + [Toegangsbeheer op basis van kenmerken](using/administration/attribute-based-access.md)
    + [Toegangsbeheer op objectniveau](using/administration/object-based-access.md)
    + [Sandboxbeheer](using/administration/sandboxes.md)
 + Privacy {#privacy}

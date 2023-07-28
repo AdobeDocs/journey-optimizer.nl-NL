@@ -6,27 +6,15 @@ topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
-hide: true
-hidefromtoc: true
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-badge: label="Beta" type="Informatief"
-source-git-commit: fd6b2d2097f20f6f75e9f3d8af4a61128d8d56fe
+source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
 
 # Directe-mailconfiguratie {#direct-mail-configuration}
-
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatie zult vinden:
-
-* [Een directe e-mail maken](create-direct-mail.md)
-* **[Direct mail configureren](direct-mail-configuration.md)**
-
->[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] staat u toe om de dossiers te personaliseren en te produceren die door directe postleveranciers worden vereist om post naar uw klanten te verzenden.
 
@@ -72,21 +60,21 @@ Voordat u dit bestand kunt genereren, moet u het volgende maken:
 >title="Kies het AWS-gebied"
 >abstract="Selecteer het geografische gebied van de AWS-server waarop u uw bestanden voor directe e-mail wilt exporteren. In het algemeen verdient het de voorkeur het gebied te kiezen dat het dichtst bij de locatie van uw directe-mailprovider ligt."
 
-Om een direct-mailbericht te leveren, [!DNL Journey Optimizer] Hiermee genereert en exporteert u het bestand met de doelgegevens naar een server.
+Een direct-mailbericht verzenden [!DNL Journey Optimizer] Hiermee genereert en exporteert u het bestand met de doelgegevens naar een server.
 
 U moet die serverdetails specificeren zodat uw direct-mailleverancier tot dat dossier voor het leveren van post kan toegang hebben en gebruiken.
 
-Om het dossier te vormen die, volg de stappen hieronder verpletteren.
+Om het dossier te vormen dat, volg de stappen hieronder verplettert.
 
-1. Toegang krijgen tot **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL File routing configuration]** > **[!UICONTROL File Routing]** en klik vervolgens op **[!UICONTROL Create routing configuration]**.
+1. Toegang krijgen tot de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL File routing configuration]** > **[!UICONTROL File Routing]** en klik vervolgens op **[!UICONTROL Create routing configuration]**.
 
-   ![](assets/file-routing-config-button.png)
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Plaats een naam voor uw configuratie.
 
-1. Selecteer **[!UICONTROL Server type]** die u wilt gebruiken voor het exporteren van de direct-mailbestanden.
+1. Selecteer de **[!UICONTROL Server type]** die u wilt gebruiken voor het exporteren van de direct-mailbestanden.
 
-   ![](assets/file-routing-config-type.png)
+   ![](assets/file-routing-config-type.png){width="800" align="center"}
 
    >[!NOTE]
    >
@@ -98,13 +86,13 @@ Om het dossier te vormen die, volg de stappen hieronder verpletteren.
 
 1. Als u **[!UICONTROL Amazon S3]**, kiest u de **[!UICONTROL AWS region]** waar de serverinfrastructuur zal worden gevestigd.
 
-   ![](assets/file-routing-config-aws-region.png)
+   ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
    >[!NOTE]
    >
    >AWS-regio&#39;s zijn geografische gebieden die AWS gebruikt om haar cloudinfrastructuur te hosten. In het algemeen verdient het de voorkeur het gebied te kiezen dat het dichtst bij de locatie van uw directe-mailprovider ligt.
 
-1. Selecteer **[!UICONTROL Submit]**. Het dossier dat configuratie verplettert wordt gecreeerd met **[!UICONTROL Active]** status. Het is nu klaar om te worden gebruikt in een [direct-mailoppervlak](#direct-mail-surface).
+1. Selecteer **[!UICONTROL Submit]**. Het dossier dat configuratie verplettert wordt gecreeerd met **[!UICONTROL Active]** status. Het is nu klaar om in een [direct-mailoppervlak](#direct-mail-surface).
 
    >[!NOTE]
    >
@@ -135,29 +123,29 @@ Een direct-mailoppervlak moet ook het bestand bevatten dat de configuratie verpl
 
 1. Maak een kanaaloppervlak. [Meer informatie](../configuration/channel-surfaces.md)
 
-1. Selecteer **[!UICONTROL Direct mail]** kanaal.
+1. Selecteer de **[!UICONTROL Direct mail]** kanaal.
 
-   ![](assets/surface-direct-mail-channel.png)
+   ![](assets/surface-direct-mail-channel.png){width="800" align="center"}
 
 1. Bepaal de direct-mailmontages in de specifieke sectie van de configuratie van de kanaaloppervlakte.
 
-   ![](assets/surface-direct-mail-settings.png)
+   ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
 1. Selecteer de bestandsindeling: **[!UICONTROL CSV]** of **[!UICONTROL Text delimited]**.
 
-1. Als u **[!UICONTROL Text delimited]** definieert u het kolomscheidingsteken van uw keuze: tabellatie, puntkomma, pijp of ampersand.
+1. Als u **[!UICONTROL Text delimited]** definieert u het kolomscheidingsteken van uw keuze: tabulatie, puntkomma, verticale balk of ampersand.
 
    ![](assets/surface-direct-mail-column-separator.png)
 
-1. Selecteer **[!UICONTROL File routing configuration]** onder de mensen die je creëerde. Hiermee bepaalt u waar het bestand wordt geëxporteerd zodat uw direct-mailprovider het kan gebruiken.
+1. Selecteer de **[!UICONTROL File routing configuration]** onder de mensen die je creëerde. Hiermee bepaalt u waar het bestand wordt geëxporteerd zodat uw direct-mailprovider het kan gebruiken.
 
    >[!CAUTION]
    >
    >Als u geen dossier gevormd hebt dat optie verplettert, zult u geen direct-mailoppervlak kunnen tot stand brengen. [Meer informatie](#file-routing-configuration)
 
-   ![](assets/surface-direct-mail-file-routing.png)
+   ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
