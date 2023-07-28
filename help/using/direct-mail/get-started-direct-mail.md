@@ -6,18 +6,19 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: direct mail, bericht, campagne
-source-git-commit: 40cd058475b37b8fa7d5c0286ad230422e027cf8
+source-git-commit: a445e418dc11f577c609c16894ce119359f2a261
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
 
 ---
 
-# Een direct-mailbericht maken {#create-direct}
+# Aan de slag met direct mail {#create-direct}
 
 >[!AVAILABILITY]
 >
 >Direct mail channel is momenteel niet beschikbaar voor organisaties die de Adobe Healthcare Shield Add-on-aanbieding hebben aangeschaft.
+>
 
 Directe post is een off-line kanaal dat u toestaat om de extractiedossiers te personaliseren en te produceren die door directe postleveranciers worden vereist om post naar uw klanten te verzenden.
 
