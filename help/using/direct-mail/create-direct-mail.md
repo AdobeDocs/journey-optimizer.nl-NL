@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: direct mail, bericht, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 25e1680c54fc1cebada7c4e8e5e4d84061248528
+source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 5%
+source-wordcount: '523'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,19 @@ ht-degree: 5%
 >title="Direct mail maken"
 >abstract="Maak direct-mailberichten in geplande campagnes en ontwerp de extractiedossiers die door directe postleveranciers worden vereist om post naar uw klanten te verzenden."
 
+Als u direct-mailberichten wilt maken, maakt u een geplande campagne en configureert u het extractiebestand. Dit bestand is vereist door directe-mailproviders om e-mail naar uw klanten te verzenden.
+
+>[!IMPORTANT]
+>
+>Voordat u een direct-mailbericht maakt, moet u controleren of u het volgende hebt geconfigureerd:
+>
+>1. A [bestand dat configuratie verplettert](../direct-mail/direct-mail-configuration.md#file-routing-configuration) die de server aangeeft waar het extractiebestand moet worden geüpload en opgeslagen,
+>1. A [direct-mailberichtoppervlak](../direct-mail/direct-mail-configuration.md#direct-mail-surface) die naar het dossier zal verwijzen dat configuratie verplettert.
+
+
 ## Een campagne voor direct mail maken{#create-dm-campaign}
+
+Voer de volgende stappen uit om een campagne voor directe e-mail te maken:
 
 1. Maak een nieuwe geplande campagne en kies **[!UICONTROL Direct mail]** als de handeling.
 
@@ -46,6 +58,8 @@ ht-degree: 5%
 U kunt nu het extractiebestand configureren en verzenden naar uw directe-mailprovider.
 
 ## Het extractiebestand configureren {#extraction-file}
+
+Het extractiebestand wordt vereist door directe-mailproviders om e-mail naar uw klanten te sturen. Voer de volgende stappen uit om de configuratie van het extractiebestand te definiëren:
 
 1. Van het scherm van de campagneconfiguratie, klik **[!UICONTROL Edit content]** om de inhoud van het extractiebestand te configureren.
 
