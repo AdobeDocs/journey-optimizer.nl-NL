@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landen, landingspagina, lijst, abonnement, service
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: b7685798cec415c8a97992ddacf8f0ebcb393107
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 5%
@@ -58,11 +58,11 @@ Voer de onderstaande stappen uit om een abonnementenlijst te maken.
    >
    >U kunt momenteel geen spatiëring gebruiken of een naam invoeren die al bestaat voor een andere abonnementenlijst in het dialoogvenster **[!UICONTROL Title]** veld.
 
-1. Adobe Experience Platform-tags selecteren of maken vanuit het menu **[!UICONTROL Tags]** veld om uw landingspagina te categoriseren voor een betere zoekopdracht. [Meer informatie](../start/search-filter-categorize.md#tags)
-
 1. U kunt een begin- en einddatum definiëren.
 
    ![](assets/lp_subscription-list-dates.png)
+
+1. Adobe Experience Platform-tags selecteren of maken vanuit het menu **[!UICONTROL Tags]** veld om uw landingspagina te categoriseren voor een betere zoekopdracht. [Meer informatie](../start/search-filter-categorize.md#tags)
 
 1. Klik op **[!UICONTROL Save]**.
 
