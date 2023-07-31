@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 0%
@@ -59,9 +59,9 @@ In de volgende secties vindt u informatie over het beheren van opt-out in Journe
 
 Uw klanten kunnen er ook voor kiezen om geen persoonlijke inhoud te presenteren. Zodra een profiel uit verpersoonlijking heeft gekozen, moet u ervoor zorgen dat hun gegevens niet voor verpersoonlijking worden gebruikt en u moet om het even welke gepersonaliseerde inhoud met een fallback variant vervangen.
 
-### In beslissingsbeheer
+### In beslissingsbeheer {#opt-out-decision-management}
 
-Als u aanbiedingen gebruikt, worden de voorkeuren voor personalisatie niet automatisch geïmplementeerd in [beslissingsbereik](../offers/offer-activities/create-offer-activities.md#add-decision-scopes) gebruikt uit een [beslissing](../offers/api-reference/offer-delivery-api/decisioning-api.md) API-verzoek of [randdefinitie](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API-verzoek. In dit geval, moet u verpersoonlijkingstoestemming manueel afdwingen. Hiervoor voert u de volgende stappen uit.
+Als u aanbiedingen gebruikt, worden de voorkeuren voor personalisatie niet automatisch geïmplementeerd in [beslissingsbereik](../offers/offer-activities/create-offer-activities.md#add-decision-scopes) gebruikt uit een [beslissing](../offers/api-reference/offer-delivery-api/decisioning-api.md) API-verzoek of [randdefinitie](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API-verzoek. In dit geval moet u handmatig toestemming voor personalisatie afdwingen. Hiervoor voert u de volgende stappen uit.
 
 >[!NOTE]
 >
@@ -93,9 +93,7 @@ Als een gebruiker:
 >
 >Toestemming voor het gebruik van profielgegevens in [gegevensmodellering](../offers/ranking/ai-models.md) wordt nog niet ondersteund in [!DNL Journey Optimizer].
 
-## In de expressie-editor
-
-<!--Expressions Editor while personalizing images, text, subject line  ( Segment in Campaigns) - UI and Headless -->
+## In de expressie-editor {#opt-out-expression-editor}
 
 De [Expression-editor](../personalization/personalization-build-expressions.md) zelf voert geen toestemmingscontroles of handhaving uit, aangezien het niet betrokken is bij de levering van berichten.
 
@@ -104,7 +102,6 @@ Nochtans, staat het gebruik van op recht-gebaseerde etiketten van de toegangscon
 >[!NOTE]
 >
 >Leer meer op het niveau van Objecten toegangsbeheer (OLAC) binnen [deze sectie](../administration/object-based-access.md).
-
 
 In [!DNL Journey Optimizer] het toestemmingsbeleid wordt als volgt gehandhaafd :
 
@@ -138,7 +135,7 @@ U kunt dit publiek nu gebruiken om profielen die geen toestemming voor personali
 
 U kunt een controle van de verpersoonlijkingstoestemming aan een publiek ook toevoegen door een gespleten activiteit aan een samenstellingswerkschema toe te voegen.
 
-1. Een publiek maken met de opdracht **[!UICONTROL Compose Audience]** optie. [Meer informatie over het maken van een compositieworkflow](../audience/create-compositions.md)
+1. Een publiek maken met de opdracht **[!UICONTROL Compose Audience]** -optie. [Meer informatie over het maken van een compositieworkflow](../audience/create-compositions.md)
 
    ![](assets/perso-consent-audience-compose.png)
 

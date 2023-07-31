@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
 workflow-type: tm+mt
-source-wordcount: '2999'
+source-wordcount: '3059'
 ht-degree: 15%
 
 ---
@@ -17,9 +17,11 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 ## Juli 2023 {#july-2023}
 
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 23 juli is in detail beschreven in de documentatie. [Meer informatie](release-notes.md)
 * De pagina met documentatie over wachtactiviteiten is verbeterd met aanvullende informatie en aanbevolen procedures met betrekking tot de algemene time-out en het herbetreden van bestanden. [Meer informatie](../building-journeys/wait-activity.md)
 * De pagina over toegangsbeheer is verbeterd. [Meer informatie](../building-journeys/entry-management.md)
 * Er is aanvullende informatie toegevoegd over de vertragingsfactor in de documentatie over de activiteit van het publiek lezen. [Meer informatie](../building-journeys/read-audience.md)
+* De **Persoonlijkheidsgoedkeuring implementeren** de sectie is bijgewerkt om te beschrijven hoe te om verpersoonlijkingstoestemming in campagnes manueel af te dwingen: u kunt de bouwer van de segmentregel gebruiken om een publiek tot stand te brengen die opt-out profielen of een gespleten activiteit aan een samenstellingswerkschema bevatten. [Meer informatie](../privacy/opt-out.md#opt-out-expression-editor)
 
 ## Juni 2023 {#june-2023}
 
