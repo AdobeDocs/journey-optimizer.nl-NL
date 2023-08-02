@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: cb5f3b042c1902add9b22d28eb24e2b6e8f1a20b
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 30%
+source-wordcount: '607'
+ht-degree: 28%
 
 ---
 
@@ -31,7 +31,7 @@ Deze sectie bevat algemene informatie over het werken met de API. Een gedetaille
 | [!DNL POST] | /endConfigs/`{uid}`/canDeploy | Controle als een eindpunt het begrenzen configuratie kan worden opgesteld of niet |
 | [!DNL PUT] | /endConfigs/`{uid}` | Een configuratie voor het afdekken van eindpunten bijwerken |
 | [!DNL GET] | /endConfigs/`{uid}` | Retrireer een eindpunt dat configuratie begrenst |
-| [!DNL DELETE] | /endConfigs/`{uid}` | Een configuratie voor het toewijzen van een hoekpunt verwijderen |
+| [!DNL DELETE] | /endConfigs/`{uid}` | Een configuratie voor een uitlijningselement verwijderen |
 
 Wanneer een configuratie wordt gecreeerd of bijgewerkt, automatisch wordt een controle uitgevoerd om de syntaxis en de integriteit van de lading te waarborgen.
 Als sommige problemen voorkomen, keert de verrichting waarschuwing of fouten terug om u te helpen de configuratie verbeteren.
@@ -46,7 +46,7 @@ Hier is de basisstructuur van een eindpuntconfiguratie:
     "methods": [ "<HTTP method such as GET, POST, >, ...],
     "services": {
         "<service name>": { . //must be "action" or "dataSource" 
-            "maxHttpConnections": <max connections count to the endpoint>
+            "maxHttpConnections": <max connections count to the endpoint (optional)>
             "rating": {          
                 "maxCallsCount": <max calls to be performed in the period defined by period/timeUnit>,
                 "periodInMs": <integer value greater than 0>
@@ -56,6 +56,12 @@ Hier is de basisstructuur van een eindpuntconfiguratie:
     }
 }
 ```
+
+>[!IMPORTANT]
+>
+>De **maxHttpConnections** parameter is optioneel. Zo kunt u het aantal verbindingen beperken dat Journey Optimizer opent voor het externe systeem.
+>
+>De maximale waarde die kan worden ingesteld, is 400. Als niets wordt gespecificeerd, dan kan het systeem tot veelvoudige duizenden verbindingen afhankelijk van het dynamische schrapen van het systeem openen.
 
 ### Voorbeeld:
 
@@ -67,9 +73,9 @@ Hier is de basisstructuur van een eindpuntconfiguratie:
   ],
   "services": {
     "dataSource": {
-      "maxHttpConnections": 30000,
+      "maxHttpConnections": 50,
       "rating": {
-        "maxCallsCount": 5000,
+        "maxCallsCount": 500,
         "periodInMs": 1000
       }
     }
@@ -89,19 +95,19 @@ Wanneer een **canDeploy** De methode wordt geroepen, bevestigt het proces de con
 De mogelijke fouten zijn:
 
 * **ERR_ENDPOINTCONFIG_100**: configuratie beperken: ontbrekende of ongeldige URL
-* **ERR_ENDPOINTCONFIG_101**: configuratie beperken: misvormde url
-* **ERR_ENDPOINTCONFIG_102**: configuratie beperken: onjuist gevormde URL: jokerteken in URL niet toegestaan in host:poort
-* **ERR_ENDPOINTCONFIG_103**: configuratie beperken: ontbrekende HTTP-methoden
-* **ERR_ENDPOINTCONFIG_104**: configuratie beperken: geen callrating gedefinieerd
-* **ERR_ENDPOINTCONFIG_107**: configuratie beperken: ongeldige maximum vraagtelling (maxCallsCount)
-* **ERR_ENDPOINTCONFIG_108**: configuratie beperken: ongeldige maximum vraagtelling (periodInMS)
-* **ERR_ENDPOINTCONFIG_111**: configuratie beperken: kan eindpunt config niet tot stand brengen: ongeldige payload
-* **ERR_ENDPOINTCONFIG_112**: configuratie beperken: kan eindpunt config niet tot stand brengen: JSON-payload verwacht
+* **ERR_ENDPOINTCONFIG_101**: config.capping: onjuist gevormde URL
+* **ERR_ENDPOINTCONFIG_102**: config.capping: onjuist gevormde url: wildchar in url niet toegestaan in host:port
+* **ERR_ENDPOINTCONFIG_103**: config.capping: ontbrekende HTTP-methoden
+* **ERR_ENDPOINTCONFIG_104**: het maximum config: geen bepaalde vraagclassificatie
+* **ERR_ENDPOINTCONFIG_107**: het in kaart brengen config: ongeldige maximumvraagtelling (maxCallsCount)
+* **ERR_ENDPOINTCONFIG_108**: het in kaart brengen config: ongeldige maximum vraagtelling (periodInMS)
+* **ERR_ENDPOINTCONFIG_111**: het begrenzen config: kan geen eindpunt config tot stand brengen: ongeldige lading
+* **ERR_ENDPOINTCONFIG_112**: het begrenzen config: kan geen eindpunt config tot stand brengen: het verwachten van een JSON nuttige lading
 * **ERR_AUTHORING_ENDPOINTCONFIG_1**: ongeldige servicenaam `<!--<given value>-->`: moet &#39;dataSource&#39; of &#39;action&#39; zijn
 
 De mogelijke waarschuwing is:
 
-**ERR_ENDPOINTCONFIG_106**: configuratie beperken: max. HTTP-verbindingen niet gedefinieerd: geen beperking
+**ERR_ENDPOINTCONFIG_106**: config.max. HTTP-verbindingen niet gedefinieerd: standaard geen beperking
 
 ## Gebruiksscenario&#39;s
 
