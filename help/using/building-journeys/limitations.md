@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reizen, beperking
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: aced11ffd80bcc0d79ef2e094b05dde8cb9a6248
+source-git-commit: 64abe386cd0d7b7e849fb6f6cdc70c00b4365feb
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Hier zijn beperkingen met betrekking tot het gebruik van reizen.
 * Het publiek en de naamruimte die zijn gekozen in **Poortkwalificatie** (eerste knooppunt) kan niet worden gewijzigd in nieuwe versies.
 * De re-entry regel moet het zelfde in alle reisversies zijn.
 * Een reis die begint met een **Publiek lezen** kan niet met een andere gebeurtenis in volgende versies beginnen.
- 
+
 ## Beperkingen voor aangepaste handelingen {#custom-actions-limitations}
 
 * De URL van de aangepaste handeling ondersteunt geen dynamische parameters. 
@@ -42,11 +42,11 @@ Hier zijn beperkingen met betrekking tot het gebruik van reizen.
 * De naam van de queryparameter of -header mag niet beginnen met &quot;.&quot; of &quot;$&quot;. 
 * IP-adressen zijn niet toegestaan. 
 * Interne Adobe-adressen (.adobe.) zijn niet toegestaan.
- 
+
 ## Beperkingen voor gebeurtenissen {#events-limitations}
 
 * Voor door het systeem gegenereerde gebeurtenissen moeten streaminggegevens die worden gebruikt om een klantentraject te starten, eerst binnen Journey Optimizer worden geconfigureerd om een unieke orchestratie-id te verkrijgen. Deze orkest-id moet worden toegevoegd aan de streaminglading die naar Adobe Experience Platform komt. Deze beperking geldt niet voor op regels gebaseerde gebeurtenissen.
- 
+
 ## Beperkingen op gegevensbronnen {#data-sources-limitations}
 
 * De externe gegevensbronnen kunnen binnen een klantenreis worden gebruikt om externe gegevens in real time op te zoeken. Deze bronnen moeten bruikbaar zijn via REST API, JSON ondersteunen en het volume van aanvragen kunnen verwerken.
