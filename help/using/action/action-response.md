@@ -11,16 +11,16 @@ badge: label="Beta" type="Informative"
 keywords: handeling, extern, aangepast, reizen, API
 hide: true
 hidefromtoc: true
-source-git-commit: 1674eceb1b9ae4cf8cd3f19deda26a9e72290106
+source-git-commit: d94988dd491759fe6ed8489403a3f1a295b19ef5
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '497'
 ht-degree: 4%
 
 ---
 
 # Verbeteringen voor aangepaste acties
 
-U kunt nu API vraagreacties in douaneacties gebruiken en uw reis structureren die op deze reacties wordt gebaseerd.
+U kunt nu API vraagreacties in douaneacties gebruiken en uw reizen ordenen die op deze reacties worden gebaseerd.
 
 Deze mogelijkheid was alleen beschikbaar bij het gebruik van gegevensbronnen. U kunt deze nu gebruiken met aangepaste handelingen.
 
@@ -55,11 +55,11 @@ De **Handelingsparameters** de naam van de sectie is gewijzigd **Payloads**. Er 
 
 1. Klik in het dialoogvenster **Antwoord** veld.
 
-   ![](assets/action-response3.png){width="70%" align="left"}
+   ![](assets/action-response3.png){width="80%" align="left"}
 
 1. Plak een voorbeeld van de lading die door de vraag is teruggekeerd. Controleer of de veldtypen correct zijn (tekenreeks, geheel getal, enz.).
 
-   ![](assets/action-response4.png){width="70%" align="left"}
+   ![](assets/action-response4.png){width="80%" align="left"}
 
 1. Klikken **Opslaan**.
 
@@ -121,15 +121,15 @@ Voeg gewoon de aangepaste handeling toe aan een reis. U kunt de ladingsgebieden 
 
 U kunt bijvoorbeeld een voorwaarde toevoegen om de windsnelheid te controleren. Wanneer de persoon de surfshop binnenkomt, kunt u een duw sturen als het weer te vaag is.
 
-![](assets/action-response5.png){width="70%" align="left"}
+![](assets/action-response5.png)
 
 In de voorwaarde moet u de geavanceerde editor gebruiken om de velden voor actierespons te gebruiken, onder de **Context** knooppunt.
 
-![](assets/action-response6.png){width="70%" align="left"}
+![](assets/action-response6.png)
 
 U kunt ook gebruikmaken van de **jo_status** code om een nieuw pad te maken in het geval van een fout.
 
-![](assets/action-response7.png){width="70%" align="left"}
+![](assets/action-response7.png)
 
 >[!WARNING]
 >
@@ -142,15 +142,19 @@ Hier volgen de mogelijke waarden voor dit veld:
 * Fout bij toewijzen: **afgetopt**
 * interne fout: **internalError**
 
+Zie voor meer informatie over reisactiviteiten [deze sectie](../building-journeys/about-journey-activities.md).
+
 ### Berichtenpersonalisatie
 
 U kunt uw berichten personaliseren gebruikend de reactiegebieden. In ons voorbeeld, in het dupbericht, personaliseren wij de inhoud gebruikend de snelheidswaarde.
 
-![](assets/action-response8.png){width="70%" align="left"}
+![](assets/action-response8.png)
 
 >[!NOTE]
 >
->De oproep wordt slechts eenmaal per profiel uitgevoerd op een bepaalde reis. De veelvoudige berichten zullen geen nieuwe vraag teweegbrengen.
+>De oproep wordt slechts eenmaal per profiel uitgevoerd op een bepaalde reis. De veelvoudige berichten aan het zelfde profiel zullen geen nieuwe vraag teweegbrengen.
+
+Voor meer informatie over berichtverpersoonlijking, zie [deze sectie](../personalization/personalize.md).
 
 ## Expressiesyntaxis
 
@@ -175,4 +179,4 @@ Hier volgen enkele voorbeelden:
 @action{OpenWeatherMap.main.temp, defaultValue: @{myEvent.temperature}} 
 ```
 
-
+Zie voor meer informatie over veldverwijzingen [deze sectie](../building-journeys/expression/field-references.md).
