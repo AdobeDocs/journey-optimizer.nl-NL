@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
+source-git-commit: 173ae09e48a67e0e40aa59f0f714b014eb8b8064
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Om het dossier te vormen dat, volg de stappen hieronder verplettert.
 
    >[!NOTE]
    >
-   >Amazon S3, SFTP en Azure worden momenteel ondersteund in [!DNL Journey Optimizer].
+   >Amazon S3 en SFTP<!--and Azure--> worden ondersteund in [!DNL Journey Optimizer].
 
 1. Vul de gegevens en referenties voor uw server in, zoals het serveradres, de toegangstoets, enzovoort.
 
@@ -135,7 +135,7 @@ Een direct-mailoppervlak moet ook het bestand bevatten dat de configuratie verpl
 
 1. Selecteer de bestandsindeling: **[!UICONTROL CSV]** of **[!UICONTROL Text delimited]**.
 
-1. Als u **[!UICONTROL Text delimited]** definieert u het kolomscheidingsteken van uw keuze: tabulatie, puntkomma, verticale balk of ampersand.
+1. Als u **[!UICONTROL Text delimited]** definieert u het kolomscheidingsteken naar keuze: tabulatie, puntkomma of pipe<!--or ampersand-->.
 
    ![](assets/surface-direct-mail-column-separator.png)
 
