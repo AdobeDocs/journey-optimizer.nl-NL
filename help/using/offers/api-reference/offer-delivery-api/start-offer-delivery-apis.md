@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 76661d574ffabf32c4c1db8d88744604e50d7b40
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 1%
+source-wordcount: '430'
+ht-degree: 0%
 
 ---
 
@@ -19,10 +19,6 @@ U kunt voorstellen leveren gebruikend of **Beslissing** of de **Randbeslissing**
 
 Op deze pagina vindt u informatie over specifieke functies die beschikbaar zijn bij de **Beslissing** en **Randbeslissing** API&#39;s. Terwijl beide u toestaan om aanbiedingen aan uw klanten te leveren, adviseren wij gebruikend **Randbeslissing** API waar mogelijk voor binnenkomende gebruiksgevallen en voor betere latentie en doorvoer op uw platform.
 
-|  | Verzoeken/sec | Latentie |
-|---|---|---|
-| API voor besluitvorming | 2000 | &lt;500ms |
-| Edge-API voor besluitvorming | 5000 | &lt;250ms |
 
 Raadpleeg de volgende secties voor meer informatie over het werken met de API&#39;s:
 * [API voor besluitvorming](decisioning-api.md)
@@ -51,9 +47,9 @@ Wanneer contextgegevens worden doorgegeven met een Edge-API-aanvraag voor beslui
 
 De hieronder vermelde functies zijn alleen beschikbaar met de API voor besluitvorming. Gebruik de API voor besluitvorming als u een van deze toepassingen wilt gebruiken om aan uw vereisten te voldoen. Anders raden we u aan de Edge-API&#39;s voor besluitvorming te gebruiken.
 
-* **Gebeurtenissen van Experience**: hefboomwerkingservaringsgebeurtenissen om uw beslissingsregels te bouwen.
+* **Gebeurtenissen van Experience**: de hefboomwerkervaring gebeurtenissen om uw besluitvormingsregels te bouwen.
 * **Inhoud en kenmerken van aanbiedingen**: u kunt ervoor kiezen om de inhoud en kenmerken van een aanbieding niet te retourneren met een speciale optie.
 * **Metagegevens aanbieden**: een optie inschakelen om de metagegevens van een aanbieding te retourneren.
-* **Samenvoegbeleid**: in uw aanvraag een ander samenvoegbeleid gebruiken dan het beleid dat aan uw sandbox is gekoppeld.
+* **Samenvoegbeleid**: gebruik in uw aanvraag een ander samenvoegbeleid dan het beleid dat aan uw sandbox is gekoppeld.
 * **Decisitiegebeurtenissen en frequentiecapping**: blokbeslissingsgebeurtenissen worden niet geteld door een willekeurige frequentiecapping die plaatsvindt.
-* **Proposities dupliceren**: Schakel een optie in om voorstellingen niet te dedupliceren.
+* **Proposities dupliceren**: schakel een optie in om voorstellingen niet te dedupliceren.
