@@ -11,28 +11,28 @@ badge: label="Beta" type="Informative"
 keywords: handeling, extern, aangepast, reizen, API
 hide: true
 hidefromtoc: true
-source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
+source-git-commit: 1674eceb1b9ae4cf8cd3f19deda26a9e72290106
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 4%
 
 ---
 
-# Verbeteringen voor aangepaste acties {#configure-an-action}
+# Verbeteringen voor aangepaste acties
 
 U kunt nu API vraagreacties in douaneacties gebruiken en uw reis structureren die op deze reacties wordt gebaseerd.
 
 Deze mogelijkheid was alleen beschikbaar bij het gebruik van gegevensbronnen. U kunt deze nu gebruiken met aangepaste handelingen.
 
-> [!AVAILABILITY]
+>[!AVAILABILITY]
 >
-> Deze functie is momenteel beschikbaar als een persoonlijke bètaversie.
+>Deze functie is momenteel beschikbaar als een persoonlijke bètaversie.
 
 ## De aangepaste handeling definiëren
 
 Bij het definiëren van de aangepaste actie zijn twee verbeteringen beschikbaar gesteld: de toevoeging van de methode GET en het nieuwe veld voor de laadreactie. De andere opties en parameters blijven ongewijzigd. Zie [deze pagina](../action/about-custom-action-configuration.md).
 
-### Eindpuntconfiguratie {#url-configuration}
+### Eindpuntconfiguratie
 
 De **URL-configuratie** de naam van de sectie is gewijzigd **Eindpuntconfiguratie**.
 
@@ -40,16 +40,16 @@ In de **Methode** vervolgkeuzelijst, kunt u nu selecteren **GET**.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### Payloads {#url-configuration}
+### Payloads
 
 De **Handelingsparameters** de naam van de sectie is gewijzigd **Payloads**. Er zijn twee velden beschikbaar:
 
 * De **Verzoek** veld: dit veld is alleen beschikbaar voor aanroepmethoden van POSTEN en PUTTEN.
 * De **Antwoord** veld : dit is de nieuwe mogelijkheid . Dit gebied zoals beschikbaar voor alle roepende methodes.
 
-> [!NOTE]
+>[!NOTE]
 > 
-> Beide velden zijn optioneel.
+>Beide velden zijn optioneel.
 
 ![](assets/action-response2.png){width="70%" align="left"}
 
@@ -131,9 +131,9 @@ U kunt ook gebruikmaken van de **jo_status** code om een nieuw pad te maken in h
 
 ![](assets/action-response7.png){width="70%" align="left"}
 
-> [!WARNING]
+>[!WARNING]
 >
-> Alleen nieuw gemaakte aangepaste handelingen bevatten dit veld uit de doos. Als u deze wilt gebruiken met een bestaande aangepaste handeling, moet u de handeling bijwerken. U kunt bijvoorbeeld de beschrijving bijwerken en opslaan.
+>Alleen nieuw gemaakte aangepaste handelingen bevatten dit veld uit de doos. Als u deze wilt gebruiken met een bestaande aangepaste handeling, moet u de handeling bijwerken. U kunt bijvoorbeeld de beschrijving bijwerken en opslaan.
 
 Hier volgen de mogelijke waarden voor dit veld:
 
@@ -148,9 +148,9 @@ U kunt uw berichten personaliseren gebruikend de reactiegebieden. In ons voorbee
 
 ![](assets/action-response8.png){width="70%" align="left"}
 
-> [!NOTE]
+>[!NOTE]
 >
-> De oproep wordt slechts eenmaal per profiel uitgevoerd op een bepaalde reis. De veelvoudige berichten zullen geen nieuwe vraag teweegbrengen.
+>De oproep wordt slechts eenmaal per profiel uitgevoerd op een bepaalde reis. De veelvoudige berichten zullen geen nieuwe vraag teweegbrengen.
 
 ## Expressiesyntaxis
 
