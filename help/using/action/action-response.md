@@ -11,9 +11,9 @@ badge: label="Beta" type="Informative"
 keywords: handeling, extern, aangepast, reizen, API
 hide: true
 hidefromtoc: true
-source-git-commit: d94988dd491759fe6ed8489403a3f1a295b19ef5
+source-git-commit: 00535d5c50bb89b308a74ab95f7b68449ba5b819
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '665'
 ht-degree: 4%
 
 ---
@@ -27,6 +27,10 @@ Deze mogelijkheid was alleen beschikbaar bij het gebruik van gegevensbronnen. U 
 >[!AVAILABILITY]
 >
 >Deze functie is momenteel beschikbaar als een persoonlijke bètaversie.
+
+>[!WARNING]
+>
+>Aangepaste acties mogen alleen worden gebruikt met persoonlijke of interne eindpunten en moeten worden gebruikt met een passende limiet voor afdekkingen of vertragen. Zie [deze pagina](../configuration/external-systems.md).
 
 ## De aangepaste handeling definiëren
 
@@ -57,104 +61,80 @@ De **Handelingsparameters** de naam van de sectie is gewijzigd **Payloads**. Er 
 
    ![](assets/action-response3.png){width="80%" align="left"}
 
-1. Plak een voorbeeld van de lading die door de vraag is teruggekeerd. Controleer of de veldtypen correct zijn (tekenreeks, geheel getal, enz.).
+1. Plak een voorbeeld van de lading die door de vraag is teruggekeerd. Controleer of de veldtypen correct zijn (tekenreeks, geheel getal, enz.). Hier is een voorbeeld van antwoordlading die tijdens de vraag wordt gevangen. Ons lokale eindpunt verzendt het aantal loyaliteitspunten en de status van een profiel.
+
+   ```
+   {
+   "customerID" : "xY12hye",    
+   "status":"gold",
+   "points": 1290 }
+   ```
 
    ![](assets/action-response4.png){width="80%" align="left"}
 
+   Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payloadvoorbeeld zijn opgenomen.
+
+1. Laten wij ook CustomerID als vraagparameter toevoegen.
+
+   ![](assets/action-response9.png){width="80%" align="left"}
+
 1. Klikken **Opslaan**.
 
-Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payloadvoorbeeld zijn opgenomen. U kunt op **Een nieuwe lading plakken** als u de huidige lading wilt veranderen.
-
-Hier is een voorbeeld van een antwoordlading die tijdens de vraag aan de dienst van weer API wordt gevangen:
-
-```
-{
-    "coord": {
-        "lon": 2.3488,
-        "lat": 48.8534
-    },
-    "weather": [
-        {
-            "id": 800,
-            "main": "Clear",
-            "description": "clear sky",
-            "icon": "01d"
-        }
-    ],
-    "base": "stations",
-    "main": {
-        "temp": 29.78,
-        "feels_like": 29.78,
-        "temp_min": 29.92,
-        "temp_max": 30.43,
-        "pressure": 1016,
-        "humidity": 31
-    },
-    "visibility": 10000,
-    "wind": {
-        "speed": 5.66,
-        "deg": 70
-    },
-    "clouds": {
-        "all": 0
-    },
-    "dt": 1686066467,
-    "sys": {
-        "type": 1,
-        "id": 6550,
-        "country": "FR",
-        "sunrise": 1686023350,
-        "sunset": 1686080973
-    },
-    "timezone": 7200,
-    "id": 2988507,
-    "name": "Paris",
-    "cod": 200
-}
-```
-
-## Gebruikmaken van de respons op een reis
+## De respons in een reis benutten
 
 Voeg gewoon de aangepaste handeling toe aan een reis. U kunt de ladingsgebieden van de reactie in voorwaarden, andere acties en berichtverpersoonlijking dan gebruiken.
 
-### Voorwaarden en acties
-
-U kunt bijvoorbeeld een voorwaarde toevoegen om de windsnelheid te controleren. Wanneer de persoon de surfshop binnenkomt, kunt u een duw sturen als het weer te vaag is.
+U kunt bijvoorbeeld een voorwaarde toevoegen om het aantal loyaliteitspunten te controleren. Wanneer de persoon het restaurant ingaat, verzendt uw lokale eindpunt een vraag met de loyaliteitsinformatie van het profiel. U kunt een push verzenden als het profiel een gouden klant is. En als een fout in de vraag wordt ontdekt, verzend een douaneactie om uw systeembeheerder op de hoogte te brengen.
 
 ![](assets/action-response5.png)
 
-In de voorwaarde moet u de geavanceerde editor gebruiken om de velden voor actierespons te gebruiken, onder de **Context** knooppunt.
+1. Voeg uw gebeurtenis en de aangepaste handeling Loyalty toe die u eerder hebt gemaakt.
 
-![](assets/action-response6.png)
+1. Wijs in de aangepaste actie Loyalty de queryparameter voor de klant-id toe aan de profiel-id. Schakel de optie in **Een alternatief pad toevoegen bij een time-out of fout**.
 
-U kunt ook gebruikmaken van de **jo_status** code om een nieuw pad te maken in het geval van een fout.
+   ![](assets/action-response10.png)
 
-![](assets/action-response7.png)
+1. Voeg in de eerste vertakking een voorwaarde toe en gebruik de geavanceerde editor om de velden voor actierespons te benutten, onder **Context** knooppunt.
 
->[!WARNING]
->
->Alleen nieuw gemaakte aangepaste handelingen bevatten dit veld uit de doos. Als u deze wilt gebruiken met een bestaande aangepaste handeling, moet u de handeling bijwerken. U kunt bijvoorbeeld de beschrijving bijwerken en opslaan.
+   ![](assets/action-response6.png)
+
+1. Voeg vervolgens uw pushbericht toe en pas uw bericht aan met de responsvelden. In ons voorbeeld, personaliseren wij de inhoud gebruikend het aantal loyaliteitspunten en de klantenstatus. De velden voor actierespons zijn beschikbaar onder **Contextafhankelijke kenmerken** > **Journey Orchestration** > **Handelingen**.
+
+   ![](assets/action-response8.png)
+
+   >[!NOTE]
+   >
+   >Elk profiel dat de douaneactie ingaat zal een vraag teweegbrengen. Zelfs als de reactie altijd het zelfde is, zal de Reizen nog één vraag per profiel uitvoeren.
+
+1. Voeg in de vertakking Time-out en Fout een voorwaarde toe en gebruik de ingebouwde **jo_status_code** veld. In ons voorbeeld gebruiken we de
+   **http_400** fouttype. Zie [deze sectie](#error-status).
+
+   ```
+   @action{ActionLoyalty.jo_status_code} == "http_400"
+   ```
+
+   ![](assets/action-response7.png)
+
+1. Voeg een aangepaste actie toe die naar uw organisatie wordt verzonden.
+
+   ![](assets/action-response11.png)
+
+## Foutstatus{#error-status}
+
+De **jo_status_code** veld is altijd beschikbaar, zelfs als er geen antwoordlading is gedefinieerd.
 
 Hier volgen de mogelijke waarden voor dit veld:
 
-* http-statuscode: bijvoorbeeld **http_200** of **http_400**
+* http status code: http_`<HTTP API call returned code>`, bijvoorbeeld http_200 of http_400
 * time-outfout: **timedout**
 * Fout bij toewijzen: **afgetopt**
 * interne fout: **internalError**
 
-Zie voor meer informatie over reisactiviteiten [deze sectie](../building-journeys/about-journey-activities.md).
+Een actieaanroep wordt als fout beschouwd wanneer de geretourneerde http-code groter is dan 2xx of wanneer een fout optreedt. De reis stroomt naar de specifieke onderbreking of foutentak in dergelijke gevallen.
 
-### Berichtenpersonalisatie
-
-U kunt uw berichten personaliseren gebruikend de reactiegebieden. In ons voorbeeld, in het dupbericht, personaliseren wij de inhoud gebruikend de snelheidswaarde.
-
-![](assets/action-response8.png)
-
->[!NOTE]
+>[!WARNING]
 >
->De oproep wordt slechts eenmaal per profiel uitgevoerd op een bepaalde reis. De veelvoudige berichten aan het zelfde profiel zullen geen nieuwe vraag teweegbrengen.
-
-Voor meer informatie over berichtverpersoonlijking, zie [deze sectie](../personalization/personalize.md).
+>Alleen nieuw gemaakte aangepaste acties bevatten de **jo_status_code** veld uit de doos. Als u deze wilt gebruiken met een bestaande aangepaste handeling, moet u de handeling bijwerken. U kunt bijvoorbeeld de beschrijving bijwerken en opslaan.
 
 ## Expressiesyntaxis
 
