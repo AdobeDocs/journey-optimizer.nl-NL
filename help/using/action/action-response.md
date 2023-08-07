@@ -11,7 +11,7 @@ badge: label="Beta" type="Informative"
 keywords: handeling, extern, aangepast, reizen, API
 hide: true
 hidefromtoc: true
-source-git-commit: 00535d5c50bb89b308a74ab95f7b68449ba5b819
+source-git-commit: a3c95497fb7304ddd0aa26435f5d0279ff8fdb0f
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 4%
@@ -147,16 +147,16 @@ Hier volgt de syntaxis:
 Hier volgen enkele voorbeelden:
 
 ```json
-// action response field
-@action{<action name>.<path to the field>}
-@action{OpenWeatherMap.main.temp}
+ // action response field
+ @action{<action name>.<path to the field>}
+ @action{ActionLoyalty.status}
 ```
 
 ```json
-// action response field
-@action{<action name>.<path to the field>, defaultValue: <default value expression>}
-@action{OpenWeatherMap.main.temp, defaultValue: 273.15}
-@action{OpenWeatherMap.main.temp, defaultValue: @{myEvent.temperature}} 
+ // action response field
+ @action{<action name>.<path to the field>, defaultValue: <default value expression>}
+ @action{ActionLoyalty.points, defaultValue: 0}
+ @action{ActionLoyalty.points, defaultValue: @{myEvent.newPoints}}
 ```
 
 Zie voor meer informatie over veldverwijzingen [deze sectie](../building-journeys/expression/field-references.md).
