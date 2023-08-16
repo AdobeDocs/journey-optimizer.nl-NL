@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: landen, pagina landen, maken, publiceren
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 2a443c1b264dd8c9a2a2f5082d4c2ac373cdddfa
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1732'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,12 @@ ht-degree: 1%
 >[!CAUTION]
 >
 >Als u bestemmingspagina&#39;s wilt testen en publiceren, moet u beschikken over **[!UICONTROL Publish Messages]** toestemming.
+
+Als u uw klanten wilt doorverwijzen naar een gedefinieerde webpagina die u wilt weergeven wanneer ze op een specifieke koppeling klikken, maakt u een bestemmingspagina in [!DNL Journey Optimizer], configureert u de primaire pagina en eventuele subpagina&#39;s, test en publiceert u deze.
+
+>[!CAUTION]
+>
+>U hebt geen toegang tot uw landingspagina door de URL die is gedefinieerd toen u kopieerde en plakt in een webbrowser [pagina maken](#create-landing-page), zelfs indien gepubliceerd. In plaats daarvan kunt u het testen met behulp van de voorvertoningsfunctie, zoals beschreven in [deze sectie](#test-landing-page).
 
 ## Openingspagina&#39;s openen {#access-landing-pages}
 
@@ -95,6 +101,10 @@ De belangrijkste stappen voor het maken van bestemmingspagina&#39;s zijn als vol
 
 Zodra u vormde en vormde [primaire pagina](#configure-primary-page)en de [subpagina&#39;s](#configure-subpages) indien van toepassing, kunt u [test](#test-landing-page) en [publish](#publish-landing-page) uw openingspagina.
 
+>[!CAUTION]
+>
+>U hebt geen toegang tot uw landingspagina door de gedefinieerde URL gewoon te kopiëren en in een webbrowser te plakken, zelfs niet als deze is gepubliceerd. In plaats daarvan kunt u het testen met behulp van de voorvertoningsfunctie, zoals beschreven in [deze sectie](#test-landing-page).
+
 ## De primaire pagina configureren {#configure-primary-page}
 
 >[!CONTEXTUALHELP]
@@ -125,12 +135,10 @@ Voer de onderstaande stappen uit om de instellingen voor de primaire pagina te d
    >[!CAUTION]
    >
    >De bestemmingspagina-URL moet uniek zijn.
-
-   ![](assets/lp_access-url.png)
-
-   >[!NOTE]
    >
    >U hebt geen toegang tot uw landingspagina door deze URL gewoon in een webbrowser te kopiëren en te plakken, zelfs niet als deze gepubliceerd is. In plaats daarvan kunt u het testen met behulp van de voorvertoningsfunctie, zoals beschreven in [deze sectie](#test-landing-page).
+
+   ![](assets/lp_access-url.png)
 
 1. Als u wilt dat de landingspagina de formuliergegevens vooraf laadt die al beschikbaar zijn, selecteert u de optie **[!UICONTROL Pre-fill form fields with profile information]**.
 
@@ -196,6 +204,8 @@ Voer de onderstaande stappen uit om de subpagina-instellingen te definiëren.
    >[!CAUTION]
    >
    >De bestemmingspagina-URL moet uniek zijn.
+   >
+   >U hebt geen toegang tot uw subpagina door deze URL gewoon in een webbrowser te kopiëren en te plakken, zelfs niet als deze is gepubliceerd. In plaats daarvan kunt u het testen met behulp van de voorvertoningsfunctie, zoals beschreven in [deze sectie](#test-landing-page).
 
 ![](assets/lp_subpage-settings.png)
 
@@ -298,5 +308,6 @@ Het is nu live en klaar voor gebruik in een [!DNL Journey Optimizer] bericht dat
 
 >[!NOTE]
 >
->U kunt de gevolgen van de landingspagina controleren aan de hand van specifieke rapporten. [Meer informatie](../reports/lp-report-live.md)
+>U hebt geen toegang tot uw landingspagina door de URL die is gedefinieerd toen u kopieerde en plakt in een webbrowser [pagina maken](#create-landing-page), zelfs indien gepubliceerd. In plaats daarvan kunt u het testen met behulp van de voorvertoningsfunctie, zoals beschreven in [deze sectie](#test-landing-page).
 
+U kunt de gevolgen van de landingspagina controleren aan de hand van specifieke rapporten. [Meer informatie](../reports/lp-report-live.md)
