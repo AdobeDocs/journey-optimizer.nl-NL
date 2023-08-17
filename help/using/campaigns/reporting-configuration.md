@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: configuratie, experimenteren, rapporteren, optimaliseren
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
+source-git-commit: cab7fb06039b2d483f403361f6a46d2aadcadff0
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '616'
 ht-degree: 2%
 
 ---
@@ -59,7 +59,7 @@ Alvorens een dataset aan de rapporteringsconfiguratie toe te voegen, moet u die 
 
   Als u bijvoorbeeld wilt weten wat het effect is van een e-mailcampagne op handelsgegevens zoals aankopen of bestellingen, moet u een dataset van de ervaringsgebeurtenis maken met de `Commerce Details` veldgroep.
 
-  Evenzo, als u over mobiele interactie wilt rapporteren, moet u een dataset van de ervaringsgebeurtenis met de ` de gebiedsgroep van Details van de Toepassing&quot;tot stand brengen.
+  Op dezelfde manier, als u over mobiele interactie wilt rapporteren, moet u een dataset van de ervaringsgebeurtenis met creëren `Application Details` veldgroep.
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
