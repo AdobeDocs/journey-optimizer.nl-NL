@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '3059'
+source-wordcount: '3169'
 ht-degree: 15%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 15%
 # Documentatie-updates {#latest-updates}
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
+
+## Augustus 2023 {#august-2023}
+
+* Er is een nieuwe sectie toegevoegd over de voorwaarden voor het testen van inhoud voor het webkanaal. [Meer informatie](../web/web-prerequisites.md#experiment-prerequisites)
+* Er is een waarschuwing toegevoegd op de **Werken met inhoudssjablonen** pagina om aan te geven dat huidige tracering niet wordt ondersteund bij het testen van sjablonen voor e-mailinhoud. Voor het testen van het bijhouden moet u de inhoudssjabloon in een e-mail gebruiken en een proefdruk verzenden. [Meer informatie](../email/content-templates.md#test-template)
+* Er zijn verschillende waarschuwingen toegevoegd aan de **bestemmingspagina&#39;s maken en publiceren** om aan te geven dat u de landingspagina niet kunt openen door de bij het maken van de pagina gedefinieerde URL gewoon te kopiëren en in een webbrowser te plakken, zelfs als deze is gepubliceerd. In plaats daarvan kunt u het testen met behulp van de voorvertoningsfunctie. [Meer informatie](../landing-pages/create-lp.md)
 
 ## Juli 2023 {#july-2023}
 
@@ -260,7 +266,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De sectie met voorinstellingen voor monitorberichten is bijgewerkt met de mogelijke oorzaken van een eventuele fout bij het maken van de voorinstelling en details over dergelijke fouten. [Meer informatie](../configuration/channel-surfaces.md#monitor-channel-surfaces)
 * De sectie Tijdsperiode voor opnieuw proberen is bijgewerkt en de naam is gewijzigd om aan te geven dat u de instelling voor het opnieuw proberen van e-mail nu kunt aanpassen in de voorinstellingen voor berichten. [Meer informatie](../configuration/retries.md#retry-duration)
 * Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u met één klik een koppeling om te weigeren kunt invoegen in e-mailinhoud. [Meer informatie](../privacy/opt-out.md#one-click-opt-out-link)
-* De subdomeinsectie Delegeren is bijgewerkt met meer gedetailleerde informatie over het validatieproces dat door Adobe wordt uitgevoerd. [Meer informatie](../configuration/delegate-subdomain.md#subdomain-validation)
+* De subdomeinsectie Delegeren is bijgewerkt met meer gedetailleerde informatie over het validatieproces dat door de Adobe wordt uitgevoerd. [Meer informatie](../configuration/delegate-subdomain.md#subdomain-validation)
 * Er is een sectie toegevoegd waarin wordt beschreven hoe u handmatig e-mailadressen en domeinen aan de suppressielijst kunt toevoegen. [Meer informatie](../configuration/manage-suppression-list.md#add-addresses-and-domains)
 * De [De lijst met onderdrukking openen](../configuration/manage-suppression-list.md#access-suppression-list) en [Opnieuw](../configuration/retries.md) secties om de nieuwe gebruikersinterface te weerspiegelen.
 * De nieuwe flow om weergaven toe te voegen en te configureren wanneer u een aanbod maakt, is gedocumenteerd. [Meer informatie](../offers/offer-library/creating-personalized-offers.md#representations)

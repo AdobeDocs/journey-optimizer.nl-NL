@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: configuratie, experimenteren, rapporteren, optimaliseren
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: c83305a27d987fdf7861b7c2fc720cc4a6aa260b
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '618'
 ht-degree: 2%
 
 ---
@@ -21,16 +21,16 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="Gegevenssets instellen voor rapportage"
->abstract="De rapporteringsconfiguratie staat u toe om extra metriek terug te winnen die in het lusje van Doelstellingen van uw campagnerapporten zal worden gebruikt. Het moet door een technische gebruiker worden uitgevoerd."
+>abstract="De rapporteringsconfiguratie staat u toe om extra metriek terug te winnen die in uw campagnerapporten zal worden gebruikt. Het moet door een technische gebruiker worden uitgevoerd."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="Een gegevensset selecteren"
->abstract="U kunt alleen een gebeurtenistype-gegevensset selecteren, die minstens een van de ondersteunde veldgroepen moet bevatten: Application Details, Commerce Details, Web Details."
+>abstract="U kunt een gebeurtenis-type dataset slechts selecteren, die minstens één van de gesteunde gebiedsgroepen moet bevatten: de Details van de Toepassing, de Details van de Handel, de Details van het Web,."
 
 De rapporterende gegevensbronconfiguratie staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw rapporten zal worden gebruikt.
 
-<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports. [Learn more](content-experiment.md#objectives-global)-->
+<!--The reporting data source configuration allows you to retrieve additional metrics that will be used in the **[!UICONTROL Objectives]** tab of your campaign reports.-->
 
 >[!NOTE]
 >
@@ -47,19 +47,19 @@ Voor deze configuratie, moet u één of meerdere datasets toevoegen die de extra
 
 Alvorens een dataset aan de rapporteringsconfiguratie toe te voegen, moet u die dataset tot stand brengen. Meer informatie in het dialoogvenster [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#create){target="_blank"}.
 
-* U kunt alleen gegevenssets van het gebeurtenistype toevoegen.
+* U kunt alleen gebeurtenistypen toevoegen.
 
-* Deze gegevensbestanden moeten de **Experience Event - Propositie-interacties** [veldgroep](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}.
+* Deze gegevensbestanden moeten de `Experience Event - Proposition Interactions` [veldgroep](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}.
 
-* Deze gegevensreeksen kunnen ook een van de volgende elementen bevatten [veldgroepen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}: **Toepassingsdetails**, **Handelsgegevens**, **Webdetails**.
+* Deze gegevensreeksen kunnen ook een van de volgende elementen bevatten: [veldgroepen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"}: `Application Details`, `Commerce Details`, `Web Details`.
 
   >[!NOTE]
   >
   >Andere veldgroepen kunnen ook worden opgenomen, maar momenteel worden alleen de bovenstaande veldgroepen ondersteund in Journey Optimizer-rapportage.
 
-  Als u bijvoorbeeld wilt weten wat het effect is van een e-mailcampagne op handelsgegevens zoals aankopen of bestellingen, moet u een dataset van de ervaringsgebeurtenis maken met de **Handelsgegevens** veldgroep.
+  Als u bijvoorbeeld wilt weten wat het effect is van een e-mailcampagne op handelsgegevens zoals aankopen of bestellingen, moet u een dataset van de ervaringsgebeurtenis maken met de `Commerce Details` veldgroep.
 
-  Op dezelfde manier, als u over mobiele interactie wilt rapporteren, moet u een dataset van de ervaringsgebeurtenis met creëren **Toepassingsdetails** veldgroep.
+  Evenzo, als u over mobiele interactie wilt rapporteren, moet u een dataset van de ervaringsgebeurtenis met de ` de gebiedsgroep van Details van de Toepassing&quot;tot stand brengen.
 
   <!--The metrics corresponding to each field group are listed [here](#objective-list).-->
 
@@ -83,7 +83,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
 ## Gegevenssets toevoegen {#add-datasets}
 
-1. Van de **[!UICONTROL ADMINISTRATION]** menu, selecteert u **[!UICONTROL Configurations]**. In de  **[!UICONTROL Reporting]** sectie, klikt u op **[!UICONTROL Manage]**.
+1. Van de **[!UICONTROL ADMINISTRATION]** menu, selecteert u **[!UICONTROL Configurations]**. In de  **[!UICONTROL Reporting]** sectie, klikken **[!UICONTROL Manage]**.
 
    ![](assets/reporting-config-menu.png)
 
@@ -126,6 +126,12 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
    >[!CAUTION]
    >
    >Als u een dataset selecteerde die geen gebeurtenis-type is, zult u niet kunnen te werk gaan.
+
+Voor webkanalen en in-app-kanalen moet u ervoor zorgen dat de [gegevensset](../data/get-started-datasets.md) gevormd voor gegevensinzameling wordt ook toegevoegd aan deze rapporteringsconfiguratie. Anders worden web- en In-app-gegevens niet weergegeven in de rapporten over het experimenteren met inhoud.
+
+* Meer informatie over vereisten voor het experimenteren met inhoud voor webkanalen in [deze sectie](../web/web-prerequisites.md#experiment-prerequisites).
+
+* Meer informatie over de kanaalconfiguratie in de app in [deze sectie](../in-app/inapp-configuration.md).
 
 <!--
 When building your campaign reports, you can now see the metrics corresponding to the field groups used in the datasets you added. Go to the **[!UICONTROL Objectives]** tab and select the metrics of your choice to better fine-tune your reports. [Learn more](content-experiment.md#objectives-global)

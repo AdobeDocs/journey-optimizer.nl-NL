@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 2%
+source-wordcount: '1041'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ Webpagina&#39;s openen en ontwerpen in het dialoogvenster [!DNL Journey Optimize
 
 >[!AVAILABILITY]
 >
->Het webkanaal is momenteel niet beschikbaar voor organisaties die de add-on Adobe Healthcare Shield-aanbieding hebben aangeschaft.
+>Het webkanaal is momenteel niet beschikbaar voor organisaties die de add-on Adobe Healthcare Shield hebben aangeschaft.
 >
 
 ## Voorwaarden voor implementatie {#implementation-prerequisites}
@@ -40,6 +40,10 @@ Webpagina&#39;s openen en ontwerpen in het dialoogvenster [!DNL Journey Optimize
 Momenteel worden twee typen implementaties ondersteund om het ontwerpen en leveren van webkanaalcampagnes op uw wegeigenschappen mogelijk te maken:
 
 * Alleen client - Als u wijzigingen aan uw website wilt toevoegen, moet u het [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} op uw website.
+
+  >[!NOTE]
+  >
+  >Zorg ervoor dat de AEP Web SDK-versie 2.16 of hoger is.
 
 * Hybride modus - U kunt de opdracht [AEP Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} to request for personalization server-side; the response is provided to the Adobe Experience Platform Web SDK to render the modifications client-side. Learn more in the Adobe Experience Platform [Edge Network Server API documentation](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}. You can find out more about the hybrid mode and check some implementation samples in [this blog post](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
 
@@ -109,7 +113,7 @@ Voor pagina&#39;s onder verificatie, als de aanmeldingspagina niet kan worden ge
 
 * Probeer u eerst aan te melden op een nieuw browsertabblad en navigeer naar de gewenste pagina. Kopieer vervolgens de URL en open deze in het dialoogvenster [!DNL Journey Optimizer] webontwerper.
 
-* Als u uw website nog steeds niet kunt laden in het dialoogvenster [!DNL Journey Optimizer] Webontwerper, contacteer de Zorg van de Klant van Adobe om het probleem te melden, ervoor zorgt u het falende URL specificeert.
+* Als u uw website nog steeds niet kunt laden in het dialoogvenster [!DNL Journey Optimizer] Webontwerper, contacteer de Zorg van de Klant van de Adobe om het probleem te melden, ervoor zorgt u het falende URL specificeert.
 
 ## Leveringsvoorwaarden {#delivery-prerequisites}
 
@@ -126,6 +130,24 @@ De webervaring kan alleen correct worden geleverd als de volgende instellingen z
   Dit samenvoegbeleid wordt gebruikt door [!DNL Journey Optimizer] binnenkomende kanalen om binnenkomende campagnes op de rand correct te activeren en te publiceren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}
 
   ![](assets/web-aep-merge-policy.png)
+
+## Voorwaarden voor het testen van inhoud {#experiment-prerequisites}
+
+Als u inhoudstests voor het webkanaal wilt inschakelen, moet u ervoor zorgen dat de [gegevensset](../data/get-started-datasets.md) gebruikt in uw webimplementatie [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} is ook aanwezig in uw rapportconfiguratie.
+
+Met andere woorden, wanneer het vormen experimenteert rapportering, als u een dataset toevoegt die niet in uw Webgegevensstroom aanwezig is, zullen de Webgegevens niet in de rapporten van het inhoudexperiment tonen.
+
+Leer hoe u gegevenssets voor het experimenteren met inhoud toevoegt aan de rapportering in [deze sectie](../campaigns/reporting-configuration.md#add-datasets).
+
+>[!NOTE]
+>
+>De dataset wordt gebruikt read-only door [!DNL Journey Optimizer] rapportagesysteem en heeft geen invloed op gegevensverzameling of gegevensinvoer.
+
+Als u **niet** met behulp van de volgende vooraf gedefinieerde [veldgroepen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), moet u de volgende veldgroepen toevoegen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, en `Web Details`. Deze zijn nodig voor de [!DNL Journey Optimizer] de inhoud experimenteert rapportering terwijl zij volgen welke experimenten en behandelingen elk profiel aan deelnemen.
+
+>[!NOTE]
+>
+>Het toevoegen van deze veldgroepen heeft geen invloed op de normale gegevensverzameling. Het is alleen additief voor de pagina&#39;s waarop een experiment wordt uitgevoerd, waarbij alle andere tracking ongewijzigd blijft.
 
 ## Gemarkeerde domeinen voor elementen {#branded-domains-for-assets}
 

@@ -5,16 +5,16 @@ role: Admin
 level: Intermediate
 keywords: in-app, bericht, configuratie, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 7de25a5e82837190ada3e67f3b202a4934c9b793
+source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 3%
+source-wordcount: '372'
+ht-degree: 2%
 
 ---
 
 # In-app-kanaal configureren {#inapp-configuration}
 
-Voordat u berichten in de app verzendt, moet u het kanaal in de app configureren [!DNL Adobe Experience Platform Data Collection].
+Voordat u berichten in de app verzendt, moet u uw kanaal in de app configureren in [!DNL Adobe Experience Platform Data Collection].
 
 1. Van uw [!DNL Adobe Experience Platform Data Collection] account, toegang krijgen tot de **[!UICONTROL Datastream]** menu en klik op **[!UICONTROL New datastream]**. Raadpleeg voor meer informatie over het maken van gegevensstromen de [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html).
 
@@ -24,7 +24,13 @@ Voordat u berichten in de app verzendt, moet u het kanaal in de app configureren
 
    ![](assets/inapp_config_6.png)
 
-1. Ga vervolgens naar het dialoogvenster **[!UICONTROL App surfaces]** en klik vervolgens op **[!UICONTROL Create App surface]**.
+   >[!NOTE]
+   >
+   >Als u inhoudsexperimenten wilt inschakelen voor het kanaal in de app, moet u ervoor zorgen dat de [gegevensset](../data/get-started-datasets.md) gebruikt in uw In-app [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} is ook aanwezig in uw rapportconfiguratie. Anders worden in-app-gegevens niet weergegeven in de rapporten over het inhoudexperiment. [Leer hoe u gegevenssets kunt toevoegen](../campaigns/reporting-configuration.md#add-datasets)
+   >
+   >De dataset wordt gebruikt read-only door [!DNL Journey Optimizer] rapportagesysteem en heeft geen invloed op gegevensverzameling of gegevensinvoer.
+
+1. Ga vervolgens naar het dialoogvenster **[!UICONTROL App surfaces]** menu en klik op **[!UICONTROL Create App surface]**.
 
    >[!NOTE]
    >
