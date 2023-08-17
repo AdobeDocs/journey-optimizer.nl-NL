@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gebeurtenissen van Audience Qualification
+title: Gebeurtenissen in verband met de kwalificatie van het publiek
 description: Meer informatie over kwalificatiegebeurtenissen voor het publiek
 feature: Journeys
 topic: Content Management
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ---
 
-# Gebeurtenissen van Audience Qualification {#segment-qualification}
+# Gebeurtenissen in verband met de kwalificatie van het publiek {#segment-qualification}
 
 ## Informatie over publiekskwalificatiegebeurtenissen{#about-segment-qualification}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
->title="Kwalificatiegebeurtenissen voor het publiek"
+>title="kwalificatiegebeurtenissen voor het publiek"
 >abstract="Met deze activiteit kunt u luisteren naar de inzendingen en uitgangen van profielen in Adobe Experience Platform-kijkers om ervoor te zorgen dat individuen op reis gaan of vooruit gaan."
 
 Met deze activiteit kunt u luisteren naar de inzendingen en uitgangen van profielen in Adobe Experience Platform-kijkers om ervoor te zorgen dat individuen op reis gaan of vooruit gaan. Raadpleeg de volgende secties voor meer informatie over het maken van doelgroepen [sectie](../audience/about-audiences.md).
@@ -40,7 +40,7 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 >U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een leespubliek, een kwalificatie Audience of een activiteit voor een zakelijke gebeurtenis.
 
 
-1. De **[!UICONTROL Events]** categorie en zet een **[!UICONTROL Audience Qualification]** op uw canvas.
+1. Ontvouw de **[!UICONTROL Events]** categorie en zet een **[!UICONTROL Audience Qualification]** op uw canvas.
 
    ![](assets/segment5.png)
 
@@ -64,7 +64,7 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
    >[!NOTE]
    >
-   >Let op: **[!UICONTROL Enter]** en **[!UICONTROL Exit]** komt overeen met de **Gerealiseerd** en **Verlaat** statistieken over de participatie van het publiek in Adobe Experience Platform. Raadpleeg voor meer informatie over het evalueren van een publiek de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Let op: **[!UICONTROL Enter]** en **[!UICONTROL Exit]** komt overeen met de **Realistisch** en **Verlaat** statistieken over de participatie van het publiek in Adobe Experience Platform. Raadpleeg voor meer informatie over het evalueren van een publiek de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Selecteer een naamruimte. Dit is alleen nodig als de gebeurtenis als eerste stap van de reis wordt geplaatst. Het veld wordt standaard voorgevuld met de laatst gebruikte naamruimte.
 
@@ -114,8 +114,8 @@ Niet gebruiken in een **[!UICONTROL Audience Qualification]** , een batchgroep d
 
 ![](assets/segment-error.png)
 
-Plaats een plafondregel voor gegevensbronnen en handelingen die tijdens reizen worden gebruikt om overbelasting te voorkomen. Meer informatie in [Journey Orchestration-documentatie](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. De bijschilderregel hoeft niet opnieuw te worden uitgevoerd. Als u het opnieuw moet proberen, moet u een alternatief pad in de reis gebruiken door de doos te controleren **[!UICONTROL Add an alternative path in case of a timeout or an error]** in omstandigheden of acties.
+Plaats een plafondregel voor gegevensbronnen en handelingen die tijdens reizen worden gebruikt om overbelasting te voorkomen. Meer informatie in [Documentatie Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. De bijschilderregel hoeft niet opnieuw te worden uitgevoerd. Als u het opnieuw moet proberen, moet u een alternatief pad in de reis gebruiken door de doos te controleren **[!UICONTROL Add an alternative path in case of a timeout or an error]** in omstandigheden of acties.
 
-Voordat u het publiek in een productiereis gaat gebruiken, moet u altijd eerst het aantal personen evalueren dat elke dag voor dit publiek in aanmerking komt. Om dit te doen, kunt u controleren **[!UICONTROL Audience]** menu, opent u het publiek en bekijkt u het **[!UICONTROL Profiles over time]** grafiek.
+Voordat u het publiek in een productiereis gaat gebruiken, moet u altijd eerst het aantal personen evalueren dat elke dag voor dit publiek in aanmerking komt. U kunt de opdracht **[!UICONTROL Audience]** menu, opent u het publiek en bekijkt u het **[!UICONTROL Profiles over time]** grafiek.
 
 ![](assets/segment-overload.png)

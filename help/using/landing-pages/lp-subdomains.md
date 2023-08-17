@@ -45,12 +45,11 @@ U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of u kunt 
 >
 > * Elke wijziging in een subdomein van een bestemmingspagina heeft ook invloed op de productiesandboxen.
 
-
 ## Een bestaand subdomein gebruiken {#lp-use-existing-subdomain}
 
-Voer de onderstaande stappen uit om een subdomein te gebruiken dat al is gedelegeerd aan Adobe.
+Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aan Adobe.
 
-1. Toegang krijgen tot **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, selecteert u vervolgens **[!UICONTROL Email configuration]** > **[!UICONTROL Landing page subdomains]**.
+1. Toegang krijgen tot de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, selecteert u vervolgens **[!UICONTROL Email configuration]** > **[!UICONTROL Landing page subdomains]**.
 
    ![](assets/lp_access-subdomains.png)
 
@@ -92,7 +91,7 @@ Voer de onderstaande stappen uit om een subdomein te gebruiken dat al is gedeleg
 
    >[!NOTE]
    >
-   >Voordat u dat subdomein kunt gebruiken om berichten te verzenden, moet u wachten tot Adobe de vereiste controles uitvoert. Dit kan maximaal 4 uur in beslag nemen.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   >Voordat u dat subdomein kunt gebruiken om berichten te verzenden, moet u wachten tot de Adobe de vereiste controles uitvoert. Dit kan maximaal 4 uur in beslag nemen.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. Wanneer de controles zijn voltooid, haalt het subdomein het subdomein **[!UICONTROL Success]** status. Deze kan worden gebruikt om voorinstellingen voor openingspagina&#39;s te maken.
 
@@ -101,11 +100,11 @@ Voer de onderstaande stappen uit om een subdomein te gebruiken dat al is gedeleg
 >[!CONTEXTUALHELP]
 >id="ajo_admin_lp_subdomain_dns"
 >title="De overeenkomende DNS-record genereren"
->abstract="Als u een nieuw subdomein van een bestemmingspagina wilt configureren, moet u de gegevens van de Adobe nameserver kopiëren die in de Journey Optimizer-interface worden weergegeven en deze plakken in uw domein-ontvangende oplossing om het overeenkomende DNS-record te genereren. Als de controles zijn voltooid, kan het subdomein worden gebruikt om voorinstellingen voor bestemmingspagina&#39;s te maken."
+>abstract="Als u een nieuw subdomein van een bestemmingspagina wilt configureren, moet u de gegevens van de Adobe-nameserver kopiëren die in de Journey Optimizer-interface worden weergegeven en deze plakken in uw domein-ontvangende oplossing om het overeenkomende DNS-record te genereren. Als de controles zijn voltooid, kan het subdomein worden gebruikt om voorinstellingen voor bestemmingspagina&#39;s te maken."
 
 Volg onderstaande stappen om een nieuw subdomein te configureren.
 
-1. Toegang krijgen tot **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, selecteert u vervolgens **[!UICONTROL Email configuration]** > **[!UICONTROL Landing page subdomains]**.
+1. Toegang krijgen tot de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, selecteert u vervolgens **[!UICONTROL Email configuration]** > **[!UICONTROL Landing page subdomains]**.
 
 1. Klik op **[!UICONTROL Set up subdomain]**.
 
@@ -121,7 +120,7 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
    >
    >Hoofdletters zijn niet toegestaan in subdomeinen.
 
-   Het delegeren van een ongeldig subdomein aan Adobe is niet toegestaan. Zorg ervoor u een geldig subdomein ingaat dat door uw organisatie, zoals marketing.yourcompany.com wordt bezeten.
+   Het delegeren van een ongeldig subdomein aan Adobe wordt niet toegestaan. Zorg ervoor dat u een geldig subdomein invoert dat eigendom is van uw organisatie, zoals marketing.yourcompany.com.
 
    >[!NOTE]
    >
@@ -141,7 +140,7 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
    >[!NOTE]
    >
-   >Voordat u dat subdomein kunt gebruiken voor uw bestemmingspagina&#39;s, moet u wachten totdat Adobe de vereiste controles uitvoert. Dit kan maximaal 4 uur in beslag nemen.<!--Learn more in [this section](#subdomain-validation).-->
+   >Voordat u dat subdomein kunt gebruiken voor uw bestemmingspagina&#39;s, moet u wachten tot de Adobe de vereiste controles uitvoert, die tot 4 uur kunnen duren.<!--Learn more in [this section](#subdomain-validation).-->
 
 1. Wanneer de controles zijn voltooid, haalt het subdomein het subdomein **[!UICONTROL Success]** status. Deze kan worden gebruikt om voorinstellingen voor openingspagina&#39;s te maken.
 

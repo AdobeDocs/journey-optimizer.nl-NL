@@ -28,14 +28,14 @@ Experimenten bestaan uit een reeks gerandomiseerde onderzoeken, die in de contex
 
 ![](assets/content_experiment_schema.png)
 
-Met behulp van experimenten kunt u de wijzigingen isoleren die tot verbeteringen in uw metriek leiden. Zoals geïllustreerd in de bovenstaande afbeelding: sommige willekeurig geselecteerde gebruikers worden blootgesteld aan elke behandelingsgroep wat betekent dat de groepen gemiddeld dezelfde kenmerken zullen hebben . Elk verschil in uitkomsten kan dus worden geïnterpreteerd als zijnde te wijten aan de verschillen in de ontvangen behandelingen, dat wil zeggen dat u een oorzakelijk verband kunt vaststellen tussen de veranderingen die u hebt aangebracht en de uitkomsten waarin u geïnteresseerd bent.
+Met behulp van experimenten kunt u de wijzigingen isoleren die tot verbeteringen in uw metriek leiden. Zoals in bovenstaande afbeelding wordt geïllustreerd: sommige willekeurig geselecteerde gebruikers worden blootgesteld aan elke behandelingsgroep, wat betekent dat de groepen gemiddeld dezelfde kenmerken zullen hebben. Elk verschil in uitkomsten kan dus worden geïnterpreteerd als zijnde te wijten aan de verschillen in de ontvangen behandelingen, dat wil zeggen dat u een oorzakelijk verband kunt vaststellen tussen de veranderingen die u hebt aangebracht en de uitkomsten waarin u geïnteresseerd bent.
 
 Dit staat u toe om gegevens gedreven besluiten in het optimaliseren van uw bedrijfsdoelstellingen te nemen.
 
 Voor Inhoud-experimenten in Adobe Journey Optimizer kunt u ideeën testen, zoals:
 
-* **Onderwerpregel**: Wat zou het effect van een verandering in de toon of in de graad van personalisatie van een onderwerpregel kunnen zijn?
-* **Berichtinhoud**: Zal het veranderen van de visuele lay-out van een e-mail in meer klikken op e-mail resulteren?
+* **Onderwerpregel**: Wat kan het effect zijn van een wijziging in de toon of de mate van personalisatie van een onderwerpregel?
+* **Berichtinhoud**: Zal het wijzigen van de visuele lay-out van een e-mailbericht ertoe leiden dat er meer op de e-mail wordt geklikt?
 
 ## Hoe werkt content experimenteren? {#content-experiment-work}
 
@@ -43,7 +43,7 @@ Voor Inhoud-experimenten in Adobe Journey Optimizer kunt u ideeën testen, zoals
 
 Bij het experimenteren met inhoud in Adobe Journey Optimizer wordt een pseudo-willekeurige hash van de identiteit van de bezoeker gebruikt om gebruikers in het doelpubliek willekeurig toe te wijzen aan een van de behandelingen die u hebt gedefinieerd. Het hashingmechanisme zorgt ervoor dat in scenario&#39;s waar de bezoeker een campagne veelvoudige tijden ingaat, zij deterministisch de zelfde behandeling zullen ontvangen.
 
-In detail, wordt het algoritme MumurHash3 met 32 bits gebruikt om het koord van de gebruikersidentiteit in één van 10.000 emmers te hakken. In een inhoudexperiment met 50% van het verkeer dat aan elke behandeling wordt toegewezen, zullen gebruikers die in emmers 1-5.000 vallen de eerste behandeling krijgen, terwijl gebruikers in de emmers 5.001 tot 10.000 de tweede behandeling zullen krijgen. Aangezien pseudo-willekeurige hashing wordt gebruikt, kan de bezoeker splitsen u waarneemt niet precies 50-50 zijn; desalniettemin zal de splitsing statistisch equivalent zijn aan uw streefsplitspercentage.
+In detail, wordt het algoritme MumurHash3 met 32 bits gebruikt om het koord van de gebruikersidentiteit in één van 10.000 emmers te hakken. In een inhoudexperiment met 50% van het verkeer dat aan elke behandeling wordt toegewezen, zullen gebruikers die in emmers 1-5.000 vallen de eerste behandeling krijgen, terwijl gebruikers in de emmers 5.001 tot 10.000 de tweede behandeling zullen krijgen. Aangezien pseudo-willekeurige hashing wordt gebruikt, is het mogelijk dat de bezoeker niet precies 50-50 splitst. De splitsing is echter statistisch gelijk aan het splitsingspercentage van het doel.
 
 Merk op dat als deel van het vormen van elke campagne met een inhoudexperiment, u een identiteitsnamespace moet kiezen waarvan userId voor het randomisatiealgoritme zal worden geselecteerd. Dit staat los van de [uitvoeringsadressen](../configuration/primary-email-addresses.md).
 
@@ -53,14 +53,14 @@ Op het tijdstip van taak d.w.z., wanneer het bericht in uitgaande kanalen wordt 
 
 De objectieve metriek kan in twee hoofdklassen worden gegroepeerd:
 
-* Directe metriek, waarbij de gebruiker rechtstreeks op de behandeling reageert, bijvoorbeeld door een e-mail te openen of op een koppeling te klikken.
+* Directe cijfers, waarbij de gebruiker rechtstreeks op de behandeling reageert, bijvoorbeeld door een e-mail te openen of op een koppeling te klikken.
 * Indirecte of &quot;bodem van trechter&quot; metriek, die optreedt nadat de gebruiker aan de behandeling is blootgesteld.
 
 Voor directe objectieve metriek waar Adobe Journey Optimizer uw berichten bijhoudt, worden de reactiegebeurtenissen van eind - gebruikers automatisch geëtiketteerd met campagne en behandelingsidentificateurs, die directe vereniging van reactie metrisch met een behandeling toestaan. [Meer informatie over bijhouden](../email/message-tracking.md).
 
 ![](assets/technote_2.png)
 
-Voor indirecte of &quot;onderste van funnel&quot; doelstellingen zoals aankopen, worden de responsgebeurtenissen van eindgebruikers niet getagd met campagne- en behandelingsidentificatoren, d.w.z. dat een aankoopgebeurtenis plaatsvindt na blootstelling aan een behandeling, er is geen directe koppeling tussen die aankoop en een voorafgaande behandelingstoewijzing. Voor deze metingen zal Adobe de behandeling koppelen aan de onderkant van de trechter-conversiegebeurtenis als:
+Voor indirecte of &quot;onderste van funnel&quot; doelstellingen zoals aankopen, worden de responsgebeurtenissen van eindgebruikers niet getagd met campagne- en behandelingsidentificatoren, d.w.z. dat een aankoopgebeurtenis plaatsvindt na blootstelling aan een behandeling, er is geen directe koppeling tussen die aankoop en een voorafgaande behandelingstoewijzing. Voor deze metriek zal de Adobe de behandeling koppelen aan de onderkant van de trechter-conversiegebeurtenis als:
 
 * De gebruikersidentiteit is hetzelfde op het moment van de toewijzing en conversie.
 * De conversie vindt plaats binnen zeven dagen na de toezending van de behandeling.
@@ -108,7 +108,7 @@ Om echte bedrijfsinzichten te bereiken, zou u zich aan enkel één Experiment mo
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_summary"
->title="Samenvattingswidget"
+>title="Widget Overzicht"
 >abstract="De widget Samenvatting geeft een overzicht van de resultaten van uw experiment, bijvoorbeeld of deze overtuigend zijn of niet. Het biedt een snelle en gemakkelijke manier om het resultaat van uw experiment te begrijpen."
 
 ![](assets/experimentation_report_3.png)
@@ -117,11 +117,11 @@ In dit gedeelte worden de experimentele rapporten beschreven en wordt uitgelegd 
 
 Hier volgen enkele richtlijnen voor het interpreteren van de resultaten van uw Content Experiment.
 
-Bij een volledige beschrijving van de resultaten moet rekening worden gehouden met alle beschikbare gegevens (bv. steekproefgrootten, omrekeningskoersen, betrouwbaarheidsintervallen enz.) en niet alleen met de vermelding van overtuigend of niet. Zelfs als een resultaat nog niet overtuigend is, kan er nog steeds overtuigend bewijs zijn dat de ene behandeling anders is dan de andere.
+Bij een volledige beschrijving van de resultaten moet rekening worden gehouden met alle beschikbare gegevens (bv. steekproefgrootten, omrekeningskoersen, betrouwbaarheidsintervallen enz.) en niet alleen met de verklaring van afdoend of niet. Zelfs als een resultaat nog niet overtuigend is, kan er nog steeds overtuigend bewijs zijn dat de ene behandeling anders is dan de andere.
 
 Voor meer begrip van statistische berekeningen, verwijs naar dit [page](../campaigns/experiment-calculations.md).
 
-### 1. Genormaliseerde metriek vergelijken {#normalized-metrics}
+### 1. Vergelijk genormaliseerde meetgegevens {#normalized-metrics}
 
 Wanneer u de prestaties van twee behandelingen vergelijkt, moet u altijd de genormaliseerde meetwaarden vergelijken om rekening te houden met eventuele verschillen in het aantal profielen dat aan elke behandeling wordt blootgesteld.
 
@@ -131,7 +131,7 @@ Als het experimentele doel bijvoorbeeld is ingesteld op **[!UICONTROL Unique Ope
 
 Wanneer u experimenteert met monsters van uw profielen, geeft de conversiekoers die voor een bepaalde behandeling wordt waargenomen een schatting van de werkelijke onderliggende conversiesnelheid.
 
-Bijvoorbeeld als Behandeling A een **[!UICONTROL Conversion Rate]** van 3%, terwijl behandeling B een waargenomen **[!UICONTROL Conversion Rate]** van 2%, is Behandeling A beter dan Behandeling B? Om dit te kunnen beantwoorden, moeten we eerst de onzekerheid in deze waargenomen omrekeningskoersen kwantificeren.
+Bijvoorbeeld als Behandeling A een **[!UICONTROL Conversion Rate]** van 3%, terwijl behandeling B een waargenomen waarde heeft **[!UICONTROL Conversion Rate]** van 2%, is Behandeling A beter dan Behandeling B? Om dit te kunnen beantwoorden, moeten we eerst de onzekerheid in deze waargenomen omrekeningskoersen kwantificeren.
 
 Vertrouwensintervallen helpen de mate van onzekerheid in de geschatte omrekeningskoersen te kwantificeren, maar bredere betrouwbaarheidsintervallen impliceren meer onzekerheid. Als er meer profielen aan het experiment worden toegevoegd, worden de intervallen kleiner, wat een nauwkeurigere schatting is. Het betrouwbaarheidsinterval vertegenwoordigt een reeks conversiekoersen die compatibel zijn met de waargenomen gegevens.
 
@@ -139,17 +139,17 @@ Als de betrouwbaarheidsintervallen voor twee behandelingen nauwelijks overlappen
 
 Adobe gebruikt 95% altijd geldige betrouwbaarheidsintervallen, of betrouwbaarheidsreeksen, wat betekent dat de resultaten op elk moment tijdens het experiment veilig kunnen worden bekeken.
 
-### 3. Optillen begrijpen {#understand-lift}
+### 3. Begrijp optillen {#understand-lift}
 
-De samenvatting van het Experimentenrapport bevat de **[!UICONTROL Lift over Baseline]**, hetgeen een maatstaf is voor de procentuele verbetering van de conversiesnelheid van een bepaalde behandeling ten opzichte van de uitgangswaarde. Het is precies gedefinieerd als het verschil in prestaties tussen een bepaalde behandeling en de basislijn, gedeeld door de prestaties van de basislijn, uitgedrukt als een percentage.
+De samenvatting van het Experimentenrapport bevat de **[!UICONTROL Lift over Baseline]**, hetgeen een maatstaf is voor de procentuele verbetering van de conversiesnelheid van een bepaalde behandeling ten opzichte van de uitgangswaarde. Dit is het verschil in prestaties tussen een bepaalde behandeling en de basislijn, gedeeld door de prestaties van de basislijn, uitgedrukt als een percentage.
 
-### 3. Vertrouwen begrijpen {#understand-confidence}
+### 3. Begrijp vertrouwen {#understand-confidence}
 
-Terwijl u zich vooral op de **[!UICONTROL Confidence interval]** Voor de uitvoering van elke behandeling toont Adobe ook het Vertrouwen, wat een probabilistische maat is van hoeveel bewijs er is dat een bepaalde behandeling gelijk is aan de basisbehandeling. Een hoger vertrouwen wijst op minder bewijs voor de veronderstelling dat de basislijn en de niet-basislijn behandelingen gelijke prestaties hebben. Meer in het bijzonder is het vertrouwen dat wordt weergegeven een waarschijnlijkheid (uitgedrukt als een percentage) dat we een kleiner verschil in omrekeningskoersen tussen een bepaalde behandeling en de basislijn zouden hebben gezien, als er in werkelijkheid geen verschil is in de werkelijke onderliggende omrekeningskoersen. Wat de p-waarden betreft, wordt een vertrouwen van 1 tot p-waarde weergegeven.
+Terwijl u zich vooral op de **[!UICONTROL Confidence interval]** Voor de uitvoering van elke behandeling toont de Adobe ook het Vertrouwen, wat een probabilistische maat is van hoeveel bewijs er is dat een bepaalde behandeling gelijk is aan de basisbehandeling. Een hoger vertrouwen wijst op minder bewijs voor de veronderstelling dat de basislijn en de niet-basislijn behandelingen gelijke prestaties hebben. Meer in het bijzonder is het vertrouwen dat wordt weergegeven een waarschijnlijkheid (uitgedrukt als een percentage) dat we een kleiner verschil in omrekeningskoersen tussen een bepaalde behandeling en de basislijn zouden hebben gezien, als er in werkelijkheid geen verschil is in de werkelijke onderliggende omrekeningskoersen. Wat de p-waarden betreft, wordt een vertrouwen van 1 tot p-waarde weergegeven.
 
-Adobe gebruikt het Vertrouwen van &quot;om het even welk Geldige&quot;Vertrouwen, en &quot;Om het even welk Geldige&quot;p-waarden die met de hierboven beschreven Vertrouwensopeenvolgingen verenigbaar zijn.
+De Adobe gebruikt het Vertrouwen van &quot;om het even welk Geldige&quot;, en &quot;om het even welk Geldige&quot;p-waarden die met de hierboven beschreven Vertrouwensopeenvolgingen verenigbaar zijn.
 
-### 4. Statistische significantie
+### 4. Statistisch belang
 
 Bij het uitvoeren van experimenten wordt een resultaat statistisch significant geacht als het zeer onwaarschijnlijk was dat het werd waargenomen als er een nulhypothese bestond dat een bepaalde behandeling en de basislijn identieke werkelijke onderliggende conversiekoersen/prestaties hebben.
 

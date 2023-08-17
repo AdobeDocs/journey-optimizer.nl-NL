@@ -35,7 +35,7 @@ U kunt als volgt een publiek op het canvas samenstellen:
 
 De eerste stap om een samenstelling tot stand te brengen moet één of veelvoudige bestaande publiek als basis van uw samenstelling selecteren.
 
-1. Selecteer **[!UICONTROL Audience]** Geef vervolgens een label voor de activiteit op.
+1. Selecteer de **[!UICONTROL Audience]** Geef vervolgens een label voor de activiteit op.
 
 1. Kies het publiek dat u als doel wilt instellen:
 
@@ -46,9 +46,9 @@ De eerste stap om een samenstelling tot stand te brengen moet één of veelvoudi
 
 1. Als er meerdere soorten publiek zijn geselecteerd, geeft u op hoe de profielen van deze soorten publiek moeten worden samengevoegd:
 
-* **[!UICONTROL Union]**: alle profielen van het geselecteerde publiek omvatten,
-* **[!UICONTROL Intersection]**: profielen opnemen die alle geselecteerde doelgroepen gemeen hebben;
-* **[!UICONTROL Exclude overlap]**: bevatten profielen die alleen bij een van de doelgroepen horen. Profielen die bij meer dan één publiek horen, worden niet opgenomen.
+* **[!UICONTROL Union]**: alle profielen van het geselecteerde publiek opnemen,
+* **[!UICONTROL Intersection]**: include-profielen die algemeen gelden voor alle geselecteerde doelgroepen,
+* **[!UICONTROL Exclude overlap]**: neem alleen profielen op die bij een van de doelgroepen horen. Profielen die bij meer dan één publiek horen, worden niet opgenomen.
 
 In dit voorbeeld willen we ons richten op alle profielen die tot het goud- en zilverpubliek behoren.
 
@@ -67,10 +67,10 @@ Om dit te doen, klik + knoop op de samenstellingsweg dan selecteren de gewenste 
 Beschikbare activiteiten zijn:
 
 * [Publiek](#audience): aanvullende profielen opnemen die tot een of meer bestaande doelgroepen behoren;
-* [Uitsluiten](#exclude): profielen uitsluiten die tot een bestaand publiek behoren of profielen uitsluiten die op specifieke kenmerken zijn gebaseerd;
-* [Verrijken](#enrich): verrijken uw publiek met extra kenmerken die afkomstig zijn uit Adobe Experience Platform-gegevenssets.
-* [Rang](#rank): rangschikt profielen die op een specifiek attribuut worden gebaseerd, specificeer het aantal profielen om te houden en hen in uw samenstelling te omvatten;
-* [Splitsen](#split): verdeel uw samenstelling in veelvoudige wegen die op willekeurige percentages of op attributen worden gebaseerd.
+* [Uitsluiten](#exclude): sluit profielen uit die tot een bestaand publiek behoren of sluit profielen uit die op specifieke kenmerken zijn gebaseerd;
+* [Verrijken](#enrich): verrijk uw publiek met extra kenmerken die afkomstig zijn uit Adobe Experience Platform-datasets,
+* [Rang](#rank): rank profielen die op een specifiek kenmerk zijn gebaseerd, geeft het aantal profielen op dat moet worden behouden en neemt deze op in de compositie,
+* [Splitsen](#split): verdeel uw compositie in veelvoudige wegen die op willekeurige percentages of op attributen worden gebaseerd.
 
 U kunt maximaal **[!UICONTROL Audience]** en **[!UICONTROL Exclude]** activiteiten die nodig zijn in uw compositie. Er kan echter geen aanvullende activiteit worden toegevoegd na **[!UICONTROL Rank]** en **[!UICONTROL Split]** activiteiten.
 
@@ -106,13 +106,13 @@ De configuratie van deze activiteit is identiek aan het begin [Poortactiviteit](
 
 De **[!UICONTROL Exclude]** Met activiteit kunt u profielen uitsluiten van uw compositie. Er zijn twee soorten uitsluitingen beschikbaar:
 
-* **[!UICONTROL Exclude Audience]**: Profielen uitsluiten die bij een bestaand publiek horen.
+* **[!UICONTROL Exclude Audience]**: Sluit profielen uit die bij een bestaand publiek horen.
 
   Klik op de knop **[!UICONTROL Add audience]** selecteert u vervolgens het publiek dat u wilt uitsluiten.
 
   ![](assets/audiences-exclude-audience.png)
 
-* **[!UICONTROL Exclude using attribute]**: Profielen uitsluiten die zijn gebaseerd op een specifiek kenmerk.
+* **[!UICONTROL Exclude using attribute]**: Sluit profielen op basis van een specifiek kenmerk uit.
 
   Selecteer het kenmerk dat u wilt opzoeken en geef de waarde op die u wilt uitsluiten. In dit voorbeeld sluiten we compositieprofielen uit waarvan het adres in Japan ligt.
 
@@ -150,7 +150,7 @@ Houd rekening met de volgende beperkingen wanneer u werkt met de **[!UICONTROL E
 
 Voer de volgende stappen uit om de activiteit te configureren:
 
-1. Selecteer **[!UICONTROL Enrichment dataset]** met de gegevens die u aan het publiek wilt koppelen.
+1. Selecteer de **[!UICONTROL Enrichment dataset]** met de gegevens die u aan het publiek wilt koppelen.
 
 1. In de **[!UICONTROL Enrichment criteria]** selecteert u de velden die u wilt gebruiken als combinatietoets tussen de brondataset, d.w.z. het publiek, en de verrijkingsdataset. In dit voorbeeld gebruiken we de id van het aangeschafte product als verzoeningssleutel.
 
@@ -174,11 +174,11 @@ Zodra de samenstelling wordt gepubliceerd, worden de geselecteerde attributen ge
 
 De **[!UICONTROL Rank]** De activiteit staat u toe om profielen te rangschikken die op een specifiek attribuut worden gebaseerd en hen te omvatten in uw samenstelling. U kunt bijvoorbeeld de 50 profielen met de grootste hoeveelheid loyaliteitspunten opnemen.
 
-1. Selecteer het kenmerk dat u wilt opzoeken en geef een rangschikking op (oplopend of aflopend).
+1. Selecteer het kenmerk dat u wilt opzoeken en geef een volgorde op (oplopend of aflopend).
 
    >[!NOTE]
    >
-   >U kunt kenmerken selecteren met de volgende gegevenstypen: integer, numbers, short <!--(other?)-->
+   >U kunt kenmerken selecteren met de volgende gegevenstypen: geheel getal, getallen, kort <!--(other?)-->
 
 1. Schakelen tussen **[!UICONTROL Add profile limit]** en geeft u een maximumaantal profielen op dat u in de compositie wilt opnemen.
 
@@ -194,7 +194,7 @@ De **[!UICONTROL Rank]** De activiteit staat u toe om profielen te rangschikken 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
 >title="Gesplitste activiteit"
->abstract="Met de activiteit Splitsen kunt u de compositie opsplitsen in meerdere paden. Wanneer u de compositie publiceert, wordt voor elk pad één publiek opgeslagen in Adobe Experience Platform."
+>abstract="Met de activiteit Splitsen kunt u de compositie in meerdere paden verdelen. Wanneer u de compositie publiceert, wordt voor elk pad één publiek opgeslagen in Adobe Experience Platform."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split_type"
@@ -212,7 +212,7 @@ Deze bewerking voegt automatisch een **[!UICONTROL Save]** activiteit aan het ei
 
 Er zijn twee soorten splitsingsbewerkingen beschikbaar:
 
-* **[!UICONTROL Percent split]**: willekeurig gesplitste profielen in twee of meer paden. U kunt de profielen bijvoorbeeld opsplitsen in twee afzonderlijke paden van elk 50%. <!--and add an additional path for control group.-->
+* **[!UICONTROL Percent split]**: Hiermee kunt u profielen willekeurig splitsen in twee of meer paden. U kunt de profielen bijvoorbeeld opsplitsen in twee afzonderlijke paden van elk 50%. <!--and add an additional path for control group.-->
 
   ![](assets/audiences-split-percentage.png)
 
@@ -228,7 +228,7 @@ Er zijn twee soorten splitsingsbewerkingen beschikbaar:
 
 Configureer het resulterende publiek dat in Adobe Experience Platform wordt opgeslagen.
 
-Selecteer hiervoor de optie **[!UICONTROL Save audience]** aan het einde van elk pad geeft u vervolgens de naam op van het nieuwe publiek dat u wilt maken.
+Selecteer de optie **[!UICONTROL Save audience]** aan het einde van elk pad geeft u vervolgens de naam op van het nieuwe publiek dat u wilt maken.
 
 ![](assets/audiences-publish.png)
 

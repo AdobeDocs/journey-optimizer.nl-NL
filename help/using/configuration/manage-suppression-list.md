@@ -26,7 +26,7 @@ Meer informatie over het concept en het gebruik van de suppressielijst in [deze 
 
 >[!NOTE]
 >
->Adobe houdt een bijgewerkte lijst bij van bekende slechte adressen waarvan is aangetoond dat deze schadelijk zijn voor de betrokkenheid en de mailingreputatie, en zorgt ervoor dat er geen e-mails aan hen worden bezorgd. Deze lijst wordt beheerd in een globale suppressielijst die over alle klanten van Adobe gemeenschappelijk is. De adressen en domeinnamen in de globale suppressielijst worden verborgen. Alleen het aantal uitgesloten ontvangers wordt vermeld in de leveringsverslagen.
+>Adobe houdt een bijgewerkte lijst bij van bekende slechte adressen waarvan is aangetoond dat ze de betrokkenheid en de mailingreputatie schaden, en zorgt ervoor dat er geen e-mails aan hen worden bezorgd. Deze lijst wordt beheerd in een globale suppressielijst die over alle klanten van de Adobe gemeenschappelijk is. De adressen en domeinnamen in de globale suppressielijst worden verborgen. Alleen het aantal uitgesloten ontvangers wordt vermeld in de leveringsverslagen.
 
 ## De lijst met onderdrukking openen {#access-suppression-list}
 
@@ -55,9 +55,9 @@ Wanneer een bericht niet aan een e-mailadres kan worden bezorgd, [!DNL Journey O
 
 De onderdrukkingscategorieën zijn als volgt:
 
-* **Hard**: Een vaste stuit geeft een ongeldig e-mailadres aan (een e-mailadres dat niet bestaat). Dit omvat een stuitbericht van de ontvangende e-mailserver waarin expliciet wordt vermeld dat het adres ongeldig is. Het e-mailadres wordt direct naar de onderdrukkingslijst verzonden.
+* **Hard**: Een harde stuit geeft een ongeldig e-mailadres aan (een e-mailadres dat niet bestaat). Dit omvat een stuitbericht van de ontvangende e-mailserver waarin expliciet wordt vermeld dat het adres ongeldig is. Het e-mailadres wordt direct naar de onderdrukkingslijst verzonden.
 
-   Wanneer de fout het resultaat van een spamklacht is, valt het ook in **Hard** categorie. Het e-mailadres van de ontvanger die de klacht heeft ingediend, wordt onmiddellijk naar de onderdrukkingslijst gezonden.
+  Wanneer de fout het resultaat van een spamklacht is, valt het ook in **Hard** categorie. Het e-mailadres van de ontvanger die de klacht heeft ingediend, wordt onmiddellijk naar de onderdrukkingslijst gezonden.
 
 * **Zacht**: Een zachte stuit is een tijdelijke e-mailstuit die voor een geldig e-mailadres voorkwam. Het e-mailadres wordt toegevoegd aan de suppressielijst nadat u het opnieuw hebt geprobeerd. Zachte fouten verzenden een adres naar de onderdrukkingslijst zodra de foutenteller de grensdrempel bereikt. [Meer informatie over pogingen](retries.md)
 
@@ -67,7 +67,7 @@ Voor elk e-mailadres dat wordt vermeld, kunt u ook de **[!UICONTROL Type]** (e-m
 
 ![](assets/suppression-list.png)
 
-Mogelijke oorzaken voor een mislukking van de levering zijn:
+Mogelijke oorzaken voor een mislukte levering zijn:
 
 | Reden | Beschrijving | Categorie |
 | --- | --- | --- |
@@ -84,7 +84,7 @@ Mogelijke oorzaken voor een mislukking van de levering zijn:
 >Niet-geabonneerde gebruikers ontvangen geen e-mails van [!DNL Journey Optimizer]Daarom kunnen hun e-mailadressen niet naar de onderdrukkingslijst worden verzonden. Hun keuze wordt op het niveau van de Experience Platform behandeld. [Meer informatie over opt-out](../privacy/opt-out.md)
 
 
-### Regels voor onderdrukking  {#suppression-rules}
+### Onderdrukkingsregels  {#suppression-rules}
 
 Van de **[!UICONTROL Suppression list]** kunt u ook de parameter retry bewerken die is gekoppeld aan de onderdrukkingsregels in het menu **[!UICONTROL Edit suppression rules]** knop. Gebruik deze optie om de drempel voor opnieuw proberen voor de huidige zandbak bij te werken. [Meer informatie over pogingen](retries.md).
 
@@ -99,7 +99,7 @@ Van de **[!UICONTROL Suppression list]** kunt u ook de parameter retry bewerken 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_suppression_list"
 >title="E-mails of domeinen toevoegen aan de onderdrukkingslijst"
->abstract="Als u de lijst met onderdrukking wilt vullen, kunt u handmatig e-mailadressen of domeinen toevoegen: één voor één, of in bulkwijze door een Csv- dossierupload. Deze specifieke e-mailadressen en/of domeinen worden van uw verzending uitgesloten."
+>abstract="Als u de suppressielijst wilt vullen, kunt u handmatig e-mailadressen of domeinen toevoegen: een voor een, of in bulkmodus door een CSV-bestand te uploaden. Deze specifieke e-mailadressen en/of domeinen worden van uw verzending uitgesloten."
 
 Wanneer een bericht niet aan een e-mailadres kan worden geleverd, wordt dit adres automatisch toegevoegd aan de suppressielijst die op de bepaalde suppressieregel of stuiterende telling wordt gebaseerd.
 
@@ -134,7 +134,7 @@ Voer de onderstaande stappen uit om een e-mailadres of domein toe te voegen aan 
 
    >[!NOTE]
    >
-   >Zorg ervoor dat u een geldig e-mailadres (zoals abc@company.com) of domein (zoals abc.company.com) opgeeft.
+   >Controleer of u een geldig e-mailadres (zoals abc@company.com) of domein (zoals abc.company.com) invoert.
 
 1. (optioneel) Voer een reden in. Alle afdrukbare ASCII-tekens tussen 32 en 126 zijn toegestaan in dit veld.
 
@@ -169,6 +169,7 @@ Voer de onderstaande stappen uit om een groep e-mailadressen of domeinen toe te 
    >Wijzig de naam van de kolommen in de CSV-sjabloon niet.
    >
    >De bestandsgrootte mag niet groter zijn dan 1 MB.
+   >
 
 1. Als u klaar bent, sleept u het CSV-bestand en gebruikt u de **[!UICONTROL Submit]** ter bevestiging.
 
@@ -185,7 +186,7 @@ Gebruik de **[!UICONTROL Recent uploads]** om de status van de meest recente ge�
 Mogelijke statussen zijn:
 
 * **[!UICONTROL Pending]**: De bestandsupload wordt verwerkt.
-* **[!UICONTROL Error]**: Het uploaden van het bestand is mislukt als gevolg van een technische fout of een fout in de bestandsindeling.
+* **[!UICONTROL Error]**: Het uploadproces van het bestand is mislukt als gevolg van een technische fout of een fout in de bestandsindeling.
 * **[!UICONTROL Complete]**: Het uploaden van het bestand is voltooid.
 
 Als tijdens het uploaden sommige adressen niet in het correcte formaat zijn, worden zij niet toegevoegd aan [!DNL Journey Optimizer] suppressielijst.
@@ -210,7 +211,7 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 
 U kunt de onderdrukkingslijst handmatig bijwerken. Het verwijderen van een e-mailadres uit quarantaine is een gevoelige verrichting en kan uw IP reputatie en leverbaarheidstarieven beïnvloeden. Wees voorzichtig.
 
-Wanneer u een e-mailadres of domein uit de suppressielijst verwijdert, kan Adobe Journey Optimizer opnieuw beginnen met het leveren aan dit adres of domein.  Meer informatie over leverbaarbaarheid in [deze sectie](../reports/deliverability.md).
+Wanneer Adobe Journey Optimizer een e-mailadres of domein uit de suppressielijst verwijdert, kan het opnieuw leveren aan dit adres of domein.  Meer informatie over leverbaarbaarheid in [deze sectie](../reports/deliverability.md).
 
 Als u een adres uit de lijst met onderdrukking wilt verwijderen, gebruikt u de opdracht **[!UICONTROL Delete]** knop.
 

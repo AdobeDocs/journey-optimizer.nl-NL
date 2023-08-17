@@ -1,6 +1,6 @@
 ---
 title: Beperkingen aan een aanbieding toevoegen
-description: Leer hoe u de voorwaarden voor een aanbieding definieert die moeten worden weergegeven
+description: Leer hoe u de voorwaarden voor een aanbieding kunt definiëren
 feature: Offers
 topic: Integrations
 role: User
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
->title="Info over aanbiedingsprioriteit"
+>title="Info over prioriteit aanbieden"
 >abstract="Op dit gebied, kunt u prioritaire montages voor de aanbieding specificeren. Prioriteit is een nummer dat wordt gebruikt om aanbiedingen te rangschikken die aan alle beperkingen voldoen, zoals geschiktheid, datums en aftopping."
 
 >[!CONTEXTUALHELP]
@@ -37,7 +37,7 @@ ht-degree: 1%
 
 Met beperkingen kunt u de voorwaarden definiëren waaronder een aanbieding wordt weergegeven.
 
-1. Configureer de **[!UICONTROL Offer eligibility]**. [Meer informatie](#eligibility)
+1. Vorm **[!UICONTROL Offer eligibility]**. [Meer informatie](#eligibility)
 
    ![](../assets/offer-eligibility.png)
 
@@ -89,7 +89,7 @@ De **[!UICONTROL Offer eligibility]** kunt u het aanbod beperken tot specifieke 
 
 * U kunt ook de presentatie van het voorstel beperken tot de leden van een of meerdere [Adobe Experience Platform-publiek](../../audience/about-audiences.md).
 
-  Om dit te doen, activeer **[!UICONTROL Visitors who fall into one or multiple audiences]** voegt u vervolgens een of meer soorten publiek toe vanuit het linkervenster en combineert u deze via het **[!UICONTROL And]** / **[!UICONTROL Or]** logische operatoren.
+  Activeer de **[!UICONTROL Visitors who fall into one or multiple audiences]** voegt u vervolgens een of meer soorten publiek toe vanuit het linkervenster en combineert u deze via het **[!UICONTROL And]** / **[!UICONTROL Or]** logische operatoren.
 
   ![](../assets/offer-eligibility-segment.png)
 
@@ -101,7 +101,7 @@ De **[!UICONTROL Offer eligibility]** kunt u het aanbod beperken tot specifieke 
   >
   >Aanbiedingen op basis van gebeurtenissen worden momenteel niet ondersteund in [!DNL Journey Optimizer]. Als u een beslissingsregel maakt op basis van een [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, je kunt dit object niet gebruiken in een voorstel.
 
-Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien. Klikken **[!UICONTROL Refresh]** om gegevens bij te werken.
+Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien. Klikken **[!UICONTROL Refresh]** gegevens bijwerken.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -111,7 +111,7 @@ Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de ges
 
 ### Het gebruiken van publiek versus besluitvormingsregels {#segments-vs-decision-rules}
 
-Als u een beperking wilt toepassen, kunt u de selectie van aanbiedingen beperken tot de leden van een of meerdere **Adobe Experience Platform-publiek** of u kunt een **beslissingsregel**, beide oplossingen voor verschillende toepassingen.
+Als u een beperking wilt toepassen, kunt u de selectie van aanbiedingen beperken tot de leden van een of meerdere **Adobe Experience Platform-publiek** of u kunt een **beslissingsregel**, beide oplossingen die overeenkomen met verschillende toepassingen.
 
 In feite is de uitvoer van een publiek een lijst met profielen, terwijl een beslissingsregel een functie is die op aanvraag tegen één profiel wordt uitgevoerd tijdens het besluitvormingsproces. Het verschil tussen deze twee toepassingen wordt hieronder nader toegelicht.
 
@@ -150,7 +150,7 @@ Volg de onderstaande hoofdstappen om de uitlijning in te stellen.
 
    >[!CAUTION]
    >
-   >Het is niet mogelijk om frequentie het in- en uitschakelen voor eerder gemaakte aanbiedingen uit te schakelen. Hiervoor moet u het voorstel dupliceren of een nieuw voorstel maken.
+   >Het is niet mogelijk om frequentie het in- en uitschakelen voor eerder gemaakte aanbiedingen in of uit te schakelen. Hiervoor moet u het voorstel dupliceren of een nieuw voorstel maken.
 
 1. Definiëren welke **[!UICONTROL Capping event]** zal in aanmerking worden genomen om de teller te verhogen. [Meer informatie](#capping-event)
 
@@ -170,7 +170,7 @@ Het aantal keren dat een aanbieding wordt voorgesteld, wordt berekend tijdens de
 
 >[!NOTE]
 >
->Afdekkingstellers worden opnieuw ingesteld wanneer de aanbieding vervalt of 2 jaar na de startdatum van de aanbieding, afhankelijk van welke datum het eerst valt. Meer informatie over het definiëren van de datum van een aanbieding in [deze sectie](creating-personalized-offers.md#create-offer).
+>Afdekkingstellers worden opnieuw ingesteld wanneer de aanbieding vervalt of twee jaar na de startdatum van de aanbieding, afhankelijk van welke datum het eerst valt. Meer informatie over het definiëren van de datum van een aanbieding in [deze sectie](creating-personalized-offers.md#create-offer).
 
 ### gebeurtenis Capping {#capping-event}
 
@@ -183,14 +183,14 @@ De **[!UICONTROL Capping event]** in het veld kunt u bepalen welke **[!UICONTROL
 
 ![](../assets/offer-capping-event.png)
 
-* **[!UICONTROL Decision event]** (standaardwaarde): Er kan maximaal een aantal malen een voorstel worden aangeboden.
-* **[!UICONTROL Impression]**: Het maximale aantal keer dat de aanbieding aan een gebruiker kan worden weergegeven.
+* **[!UICONTROL Decision event]** (standaardwaarde): een aanbieding kan maximaal worden weergegeven.
+* **[!UICONTROL Impression]**: Maximumaantal keren dat de aanbieding aan een gebruiker kan worden weergegeven.
 
   >[!NOTE]
   >
   >Het gebruik van indrukkingen als afdekkende gebeurtenissen is beschikbaar voor **binnenkomende kanalen** alleen.
 
-* **[!UICONTROL Clicks]**: Een gebruiker kan op het aanbod klikken om het maximumaantal keren te wijzigen.
+* **[!UICONTROL Clicks]**: Maximumaantal keren dat een gebruiker op de aanbieding kan klikken.
 * **[!UICONTROL Custom event]**: U kunt een aangepaste gebeurtenis definiëren die wordt gebruikt om het aantal verzonden aanbiedingen te beperken. U kunt bijvoorbeeld het aantal aflossingen beperken tot ze gelijk zijn aan 10000 of tot een bepaald profiel één keer is afgelost. Gebruik hiervoor [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} schema&#39;s om een regel van de douanegebeurtenis te bouwen.
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
@@ -227,7 +227,7 @@ De **[!UICONTROL Capping count]** kunt u het aantal keren opgeven dat de aanbied
 >
 >Het getal moet een geheel getal groter dan 0 zijn.
 
-U hebt bijvoorbeeld een aangepaste gebeurtenis voor het toewijzen van plafonds gedefinieerd, waarmee rekening wordt gehouden, zoals het aantal uitcheckgebeurtenissen. Als u 10 invoert in het dialoogvenster **[!UICONTROL Capping count]** , worden er na 10 afboekingen geen voorstellen meer verzonden.
+U hebt bijvoorbeeld een aangepaste gebeurtenis voor het toewijzen van plafonds gedefinieerd, waarmee rekening wordt gehouden, zoals het aantal uitcheckgebeurtenissen. Als u 10 in **[!UICONTROL Capping count]** , worden na 10 afboekingen geen voorstellen meer verzonden.
 
 ### Type uitlijnen {#capping-type}
 
@@ -272,11 +272,11 @@ Als u meerdere [representaties](add-representations.md) voor je voorstel, geef a
 
 ![](../assets/offer-capping-placement.png)
 
-* **[!UICONTROL Across all placements]**: het beperken van aantallen zal alle besluiten over de plaatsen verbonden aan de aanbieding in totaal nemen.
+* **[!UICONTROL Across all placements]**: het maximum aantal besluiten zal alle besluiten over de plaatsen verbonden aan de aanbieding in totaal omvatten.
 
   Als een aanbieding bijvoorbeeld een **E-mail** plaatsing en **Web** plaatsing, en u plaatst het maximum bij **2 per profiel voor alle plaatsen** Vervolgens kan elk profiel het aanbod in totaal maximaal twee keer ontvangen, ongeacht de plaatsingsmix.
 
-* **[!UICONTROL For each placement]**: Bij het beperken van tellingen worden de beslissingsaantallen voor elke plaatsing afzonderlijk toegepast.
+* **[!UICONTROL For each placement]**: de het maximum tellen zal besluittellingen voor elke plaatsing afzonderlijk toepassen.
 
   Als een aanbieding bijvoorbeeld een **E-mail** plaatsing en **Web** plaatsing, en u plaatst het maximum bij **2 per profiel voor elke plaatsing** Vervolgens kan elk profiel tot twee keer de aanbieding voor e-mailplaatsing ontvangen en nog eens twee keer de plaatsing op het web.
 
@@ -305,26 +305,26 @@ Hier zijn de mogelijke scenario&#39;s wanneer **de begindatum van een aanbieding
 
 | Scenario:<br>Indien... | Wat gebeurt er?<br>dan... | Mogelijke invloed op het maximumaantal |
 |--- |--- |--- |
-| ... de aanvangsdatum van de aanbieding wordt bijgewerkt voordat de oorspronkelijke startdatum van de aanbieding is ingegaan; | ... het maximumaantal begint op de nieuwe begindatum. | Nee |
-| ... de nieuwe begindatum valt vóór de huidige einddatum; | ... de begrenzing wordt voortgezet met een nieuwe begindatum en het vorige maximumaantal voor elk profiel wordt voortgezet. | Nee |
-| ... de nieuwe begindatum valt na de huidige einddatum; | ... de huidige plafonnering verloopt en het nieuwe maximumaantal begint opnieuw bij 0 voor alle profielen op de nieuwe begindatum. | Ja |
+| ... de begindatum van de aanbieding wordt bijgewerkt voordat de begindatum van de oorspronkelijke aanbieding is ingegaan, | ... het aantal aftopping begint op de nieuwe startdatum. | Nee |
+| ... de nieuwe begindatum valt vóór de huidige einddatum; | ... de aftopping wordt voortgezet met een nieuwe begindatum en het vorige aantal aftopping voor elk profiel wordt voortgezet. | Nee |
+| ... de nieuwe begindatum valt na de huidige einddatum; | ... het huidige maximum zal verlopen en het nieuwe maximum aantal zal opnieuw van 0 voor alle profielen op de nieuwe begindatum beginnen. | Ja |
 
 Hier zijn de mogelijke scenario&#39;s wanneer **verlenging van de uiterste datum voor de aanbieding**:
 
 | Scenario:<br>Indien... | Wat gebeurt er?<br>dan... | Mogelijke invloed op het maximumaantal |
 |--- |--- |--- |
-| ... een beslissingsverzoek wordt ingediend vóór de oorspronkelijke einddatum van de aanbieding; | ... het maximumaantal wordt bijgewerkt en het vorige maximumaantal voor elk profiel wordt voortgezet. | Nee |
-| ... geen verzoek om een beslissing wordt ingediend vóór de oorspronkelijke einddatum; | ... het maximumaantal wordt opnieuw ingesteld op de oorspronkelijke einddatum voor elk profiel. Het nieuwe maximum aantal zal dan opnieuw van 0 voor om het even welke nieuwe beslissingsverzoeken beginnen die na de originele einddatum zullen voorkomen. | Ja |
+| ... een verzoek om een beslissing wordt ingediend vóór de einddatum van de oorspronkelijke aanbieding; | ... het aantal aftopping wordt bijgewerkt en het vorige aantal aftopping voor elk profiel wordt voortgezet. | Nee |
+| ... er geen verzoek tot een besluit komt vóór de oorspronkelijke einddatum; | ... wordt het aantal bijschriften opnieuw ingesteld op de oorspronkelijke einddatum voor elk profiel. Het nieuwe maximum aantal zal dan opnieuw van 0 voor om het even welke nieuwe beslissingsverzoeken beginnen die na de originele einddatum zullen voorkomen. | Ja |
 
 **Voorbeeld**
 
-Stel dat je een voorstel hebt met een oorspronkelijke begindatum ingesteld op **1 januari**, verloopt op **31 januari**.
+Stel dat je een voorstel hebt waarvan de oorspronkelijke begindatum is ingesteld op **1 januari**, verloopt op **31 januari**.
 
 1. De profielen X, Y en Z worden voorgesteld.
 1. Aan **10 januari**, wordt de einddatum van de aanbieding gewijzigd in **15 februari**.
-1. **11 januari tot en met 31 januari** alleen profiel Z wordt aangeboden.
+1. **Van 11 januari tot en met 31 januari** alleen profiel Z wordt aangeboden.
 
    * Omdat een beslissingsverzoek vóór de oorspronkelijke einddatum is ingediend **voor profiel Z** kan de uiterste datum van de aanbieding worden verlengd tot **15 februari**.
-   * Aangezien er echter geen activiteit heeft plaatsgevonden vóór de oorspronkelijke einddatum voor **profielen X en Y**, zullen hun tellers verlopen en hun het maximum beperken tellingen aan 0 op **31 januari**.
+   * Aangezien er echter geen activiteit heeft plaatsgevonden vóór de oorspronkelijke einddatum voor **profielen X en Y**, zullen hun tellers verlopen en hun het maximum tellen zal aan 0 op worden teruggesteld **31 januari**.
 
 ![](../assets/offer-capping-change-date-ex.png)

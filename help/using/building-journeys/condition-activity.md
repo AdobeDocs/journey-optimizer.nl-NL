@@ -21,12 +21,12 @@ ht-degree: 6%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
 >title="Voorwaardeactiviteit"
->abstract="Deze activiteit staat u toe om te bepalen hoe het individu in de reis zal stromen. Er worden verschillende paden gemaakt op basis van verschillende criteria. U kunt ook een alternatief pad maken in het geval van een time-out of een fout."
+>abstract="Deze activiteit staat u toe om te bepalen hoe het individu in de reis zal stromen. Er worden verschillende paden gemaakt op basis van verschillende criteria. U kunt ook een alternatief pad maken voor een time-out of een fout."
 
 Deze voorwaarden zijn beschikbaar:
 
 * [Gegevensbronvoorwaarde](#data_source_condition)
-* [Tijdvoorwaarde](#time_condition)
+* [Tijdconditie](#time_condition)
 * [Percentage splitsing](#percentage_split)
 * [Datumvoorwaarde](#date_condition)
 * [Profiel uiteinde](#profile_cap)
@@ -46,7 +46,7 @@ Klikken **[!UICONTROL Add a path]** als u meerdere voorwaarden wilt definiëren.
 
 ![](assets/journey47.png)
 
-Merk op dat het ontwerp van de reizen functionele gevolgen heeft. Wanneer meerdere paden na een voorwaarde worden gedefinieerd, wordt alleen het eerste in aanmerking komende pad uitgevoerd. Dit betekent dat u de prioritering van paden kunt wijzigen door deze boven of onder elkaar te plaatsen.
+Merk op dat het ontwerp van de ritten functionele gevolgen heeft. Wanneer meerdere paden na een voorwaarde worden gedefinieerd, wordt alleen het eerste in aanmerking komende pad uitgevoerd. Dit betekent dat u de prioritering van paden kunt wijzigen door deze boven of onder elkaar te plaatsen.
 
 Laten we bijvoorbeeld het voorbeeld nemen van de voorwaarde &#39;De persoon is een VIP&#39; van een eerste pad en de voorwaarde &#39;De persoon is een man&#39; van een tweede pad. Als een persoon die aan beide voorwaarden voldoet (een man die een VIP is) deze stap doorstaat, wordt het eerste pad gekozen, zelfs als deze persoon ook in aanmerking komt voor het tweede pad, omdat het eerste pad &quot;boven&quot; is. Verplaats uw activiteiten in een andere verticale volgorde om deze prioriteit te wijzigen.
 
@@ -57,7 +57,7 @@ U kunt een ander pad maken voor publiek dat niet in aanmerking komt voor de gede
 In de eenvoudige modus kunt u eenvoudige query&#39;s uitvoeren op basis van een combinatie van velden. Alle beschikbare velden worden links op het scherm weergegeven. Sleep velden naar de hoofdzone. Als u de verschillende elementen wilt combineren, koppelt u ze aan elkaar om verschillende groepen en/of groepsniveaus te maken. Vervolgens kiest u een logische operator om elementen op hetzelfde niveau te combineren:
 
 * EN: een doorsnede van twee criteria. Alleen de elementen die aan alle criteria voldoen, worden in aanmerking genomen.
-* OF: een unie van twee criteria . Elementen die ten minste aan een van de twee criteria voldoen, worden in aanmerking genomen.
+* OF: een combinatie van twee criteria. Elementen die ten minste aan een van de twee criteria voldoen, worden in aanmerking genomen.
 
 ![](assets/journey64.png)
 
@@ -80,7 +80,7 @@ Met de geavanceerde expressieeditor kunt u geavanceerdere voorwaarden instellen 
 
 ![](assets/journey50.png)
 
-## Tijdvoorwaarde{#time_condition}
+## Tijdconditie{#time_condition}
 
 Hierdoor kunt u verschillende handelingen uitvoeren op basis van het uur van de dag en/of de dag van de week. U kunt bijvoorbeeld kiezen om pushberichten overdag en e-mailberichten &#39;s nachts tijdens weekdagen te verzenden.
 
@@ -92,13 +92,13 @@ Hierdoor kunt u verschillende handelingen uitvoeren op basis van het uur van de 
 
 Er zijn drie filteropties beschikbaar:
 
-* Uur: kunt u een voorwaarde instellen op basis van de tijd van de dag. Vervolgens definieert u de begin- en eindtijd. De individuen zullen de weg slechts tijdens de bepaalde uurwaaier ingaan.
-* Dag van de week: Hiermee kunt u een voorwaarde instellen op basis van de dag van de week. Vervolgens selecteert u welke dagen personen het pad moeten invoeren.
-* Dag van de week en uur: met deze optie worden de eerste twee opties gecombineerd .
+* Uur: hiermee kunt u een voorwaarde instellen op basis van de tijd van de dag. Vervolgens definieert u de begin- en eindtijd. De individuen zullen de weg slechts tijdens de bepaalde uurwaaier ingaan.
+* Dag van de week: hiermee kunt u een aandoening instellen op basis van de dag van de week. Vervolgens selecteert u welke dagen personen het pad moeten invoeren.
+* Dag van de week en het uur: deze optie combineert de eerste twee opties.
 
 ## Percentage splitsing {#percentage_split}
 
-Met deze optie kunt u het publiek willekeurig opsplitsen om een andere actie voor elke groep te definiëren. Definieer het aantal splitsingen en de verdeling voor elk pad. De gesplitste berekening is statistisch, aangezien het systeem niet kan voorspellen hoeveel mensen in deze activiteit van de reis zullen stromen. Als gevolg hiervan heeft de splitsing een zeer lage foutmarge. Deze functie is gebaseerd op een willekeurig Java-mechanisme (zie deze [page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
+Met deze optie kunt u het publiek willekeurig opsplitsen om een andere actie voor elke groep te definiëren. Geef het aantal splitsingen en de verdeling voor elk pad op. De gesplitste berekening is statistisch, aangezien het systeem niet kan voorspellen hoeveel mensen in deze activiteit van de reis zullen stromen. Als gevolg hiervan heeft de splitsing een zeer lage foutmarge. Deze functie is gebaseerd op een willekeurig Java-mechanisme (zie deze [page](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)).
 
 In de testmodus wordt bij het bereiken van een splitsing altijd de bovenste vertakking gekozen. U kunt de positie van de gesplitste vertakkingen opnieuw ordenen als u wilt dat de test een ander pad kiest. Zie [deze pagina](../building-journeys/testing-the-journey.md)
 
@@ -154,7 +154,7 @@ Voer de volgende stappen uit om een publiek in een reisvoorwaarde te gebruiken:
 1. Een reis openen en een **[!UICONTROL Condition]** en kiest u de **Voorwaarde gegevensbron**.
    ![](assets/journey47.png)
 
-1. Klikken **[!UICONTROL Add a path]** voor elk extra pad dat nodig is. Klik voor elk pad op de knop **[!UICONTROL Expression]** veld.
+1. Klikken **[!UICONTROL Add a path]** voor elk extra pad nodig. Klik voor elk pad op de knop **[!UICONTROL Expression]** veld.
 
    ![](assets/segment3.png)
 
@@ -164,4 +164,4 @@ Voer de volgende stappen uit om een publiek in een reisvoorwaarde te gebruiken:
 
    >[!NOTE]
    >
-   >Let erop dat alleen de personen met de **Gerealiseerd** en **Bestaande** de publieksparticipatiestatistieken worden beschouwd als leden van het publiek . Raadpleeg voor meer informatie over het evalueren van een publiek de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Let erop dat alleen de personen met de **Realistisch** en **Bestaande** de publieksparticipatiestatistieken worden beschouwd als leden van het publiek . Raadpleeg voor meer informatie over het evalueren van een publiek de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

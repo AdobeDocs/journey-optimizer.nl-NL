@@ -21,7 +21,7 @@ In [!DNL Journey Optimizer], webauthoring wordt aangedreven door de **Adobe Expe
 
 >[!CAUTION]
 >
->Webpagina&#39;s openen en ontwerpen in het dialoogvenster [!DNL Journey Optimizer] gebruikersinterface, zorg ervoor u de eerste vereisten volgt die in worden vermeld [deze sectie](web-prerequisites.md).
+>Webpagina&#39;s openen en ontwerpen in het dialoogvenster [!DNL Journey Optimizer] gebruikersinterface, zorg ervoor u de eerste vereisten volgt die in [deze sectie](web-prerequisites.md).
 
 [Leer hoe u een webcampagne maakt in deze video](#video)
 
@@ -35,17 +35,17 @@ In [!DNL Journey Optimizer], webauthoring wordt aangedreven door de **Adobe Expe
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
->title="Voer de URL in die u wilt bewerken"
+>title="Voer de te bewerken URL in"
 >abstract="Voer de URL in van een specifieke webpagina die u wilt gebruiken voor het bewerken van de inhoud die wordt toegepast op alle pagina&#39;s die aan de regel voldoen. De webpagina moet worden geïmplementeerd met Adobe Experience Platform Web SDK."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Meer informatie"
 
 Volg onderstaande stappen om uw webcampagne te ontwerpen.
 
-1. Van de **[!UICONTROL Action]** tabblad van het dialoogvenster [campagne](create-web.md#create-web-campaign), selecteert u **[!UICONTROL Edit content]**.<!--change screen with rule-->
+1. Van de **[!UICONTROL Action]** tabblad van het [campagne](create-web.md#create-web-campaign), selecteert u **[!UICONTROL Edit content]**.<!--change screen with rule-->
 
    ![](assets/web-campaign-edit-content.png)
 
-1. Als u een pagina&#39;s maakte die regel aanpassen, moet u om het even welke URL ingaan die deze regel aanpast: de wijzigingen worden toegepast op alle pagina &#39; s die aan de regel voldoen . De inhoud van de pagina wordt weergegeven.
+1. Als u een pagina&#39;s creeerde die regel aanpassen, moet u om het even welke URL ingaan die deze regel aanpast: de veranderingen zullen op alle pagina&#39;s worden toegepast die de regel aanpassen. De inhoud van de pagina wordt weergegeven.
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ Volg onderstaande stappen om uw webcampagne te ontwerpen.
 
    >[!NOTE]
    >
-   >Als u probeert een website te laden die niet kan worden geladen, wordt een bericht weergegeven waarin u wordt gesuggereerd dat u de [Visuele bewerkingsfunctie voor de browserextensie van Helper](#install-visual-editing-helper). Zie enkele tips voor het oplossen van problemen in [deze sectie](web-prerequisites.md#troubleshooting).
+   >Als u probeert een website te laden die niet kan worden geladen, wordt een bericht weergegeven waarin u wordt gesuggereerd dat u de [Visuele bewerkingshulpprogramma voor browsers](#install-visual-editing-helper). Zie enkele tips voor het oplossen van problemen in [deze sectie](web-prerequisites.md#troubleshooting).
 
 1. Selecteer een element op het canvas, zoals een afbeelding, knop, alinea, tekst, container, kop, koppeling, enzovoort. [Meer informatie](#content-components)
 
@@ -139,7 +139,7 @@ Gebruik de **[!UICONTROL Offer decision]** in te voegen component [aanbiedingen]
 
 U kunt eenvoudig alle componenten, aanpassingen en stijlen beheren die u aan uw webpagina hebt toegevoegd.
 
-1. Selecteer **[!UICONTROL Modifications]** pictogram om het corresponderende venster links weer te geven.
+1. Selecteer de **[!UICONTROL Modifications]** pictogram om het corresponderende venster links weer te geven.
 
    ![](assets/web-designer-modifications-pane.png)
 
@@ -262,7 +262,7 @@ Volg onderstaande stappen om een voorvertoning van uw gewijzigde webervaring wee
 
    ![](assets/web-designer-preview.png)
 
-1. U kunt de URL ook openen in de standaardbrowser of de test-URL kopiëren en in een browser plakken. Op deze manier kunt u de koppeling delen met uw team en belanghebbenden die de nieuwe webervaring in een browser kunnen bekijken voordat de campagne live gaat.
+1. U kunt de URL ook in de standaardbrowser openen of de test-URL kopiëren en in een browser plakken. Op deze manier kunt u de koppeling delen met uw team en belanghebbenden die de nieuwe webervaring in een browser kunnen bekijken voordat de campagne live gaat.
 
    >[!NOTE]
    >

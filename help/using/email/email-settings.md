@@ -39,7 +39,7 @@ De configuratie van de e-mailoppervlakte wordt opgepikt voor het verzenden van m
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="De e-mailcategorie definiëren"
->abstract="Selecteer het type e-mail dat wordt verzonden wanneer u dit oppervlak gebruikt: Marketing voor speciale e-mailberichten waarvoor toestemming van de gebruiker vereist is, of Transactie voor niet-commerciële e-mails die ook in specifieke contexten naar profielen zonder abonnement kunnen worden verzonden."
+>abstract="Selecteer het type e-mailberichten dat wordt verzonden wanneer u dit oppervlak gebruikt: marketing voor speciale e-mails waarvoor toestemming van de gebruiker vereist is of Transactie voor niet-commerciële e-mails die ook in specifieke contexten naar profielen zonder abonnement kunnen worden verzonden."
 
 In de **E-MAILTYPE** selecteert u het type bericht dat met het oppervlak wordt verzonden: **Marketing** of **Transactioneel**.
 
@@ -63,7 +63,7 @@ U kunt niet met oppervlakverwezenlijking te werk gaan terwijl de geselecteerde I
 
 >[!NOTE]
 >
->Voor niet-productiemilieu&#39;s, creeert Adobe geen uit-van-de-doos testsubdomeinen noch verleent toegang tot een gedeelde verzendende IP pool. U moet [delegeren uw eigen subdomeinen](../configuration/delegate-subdomain.md) en gebruik IPs van de pool die aan uw organisatie wordt toegewezen.
+>Voor niet-productiemilieu&#39;s, leidt de Adobe niet uit-van-de-doos testsubdomeinen noch verleent toegang tot een gedeelde verzendende IP pool. U moet [delegeren uw eigen subdomeinen](../configuration/delegate-subdomain.md) en gebruik IPs van de pool die aan uw organisatie wordt toegewezen.
 
 Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het hangen over de IP adressen onder de IP pool drop-down lijst wordt getoond. [Meer informatie over PTR-records](../configuration/ptr-records.md)
 
@@ -71,7 +71,7 @@ Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het ha
 
 >[!NOTE]
 >
->Als een PTR-record niet is geconfigureerd, neemt u contact op met uw Adobe-vertegenwoordiger.
+>Als een PTR-record niet is geconfigureerd, neemt u contact op met uw Adobe.
 
 ## List-Unsubscribe {#list-unsubscribe}
 
@@ -117,9 +117,9 @@ In de **[!UICONTROL Header parameters]** in, voert u de namen en e-mailadressen 
 
 * **[!UICONTROL Sender email]**: Het e-mailadres dat u voor uw communicatie wilt gebruiken.
 
-* **[!UICONTROL Reply to (name)]**: De naam die wordt gebruikt wanneer de ontvanger op de knop **Reageren** in hun e-mailclientsoftware.
+* **[!UICONTROL Reply to (name)]**: De naam die wordt gebruikt wanneer de ontvanger op de knop **Antwoord** in hun e-mailclientsoftware.
 
-* **[!UICONTROL Reply to (email)]**: Het e-mailadres dat wordt gebruikt wanneer de ontvanger op de knop **Reageren** in hun e-mailclientsoftware. [Meer informatie](#reply-to-email)
+* **[!UICONTROL Reply to (email)]**: Het e-mailadres dat wordt gebruikt wanneer de ontvanger op de knop **Antwoord** in hun e-mailclientsoftware. [Meer informatie](#reply-to-email)
 
 * **[!UICONTROL Error email]**: Alle fouten die door ISPs na een paar dagen van post worden geproduceerd die (asynchrone stuitingen) worden ontvangen op dit adres.
 
@@ -133,17 +133,17 @@ In de **[!UICONTROL Header parameters]** in, voert u de namen en e-mailadressen 
 >
 >Adressen moeten beginnen met een letter (A-Z) en mogen alleen alfanumerieke tekens bevatten. U kunt ook het onderstrepingsteken gebruiken `_`, punt`.` en afbreekstreepje `-` tekens.
 
-### Reageren op e-mail {#reply-to-email}
+### E-mail beantwoorden {#reply-to-email}
 
 Bij het definiëren van de **[!UICONTROL Reply to (email)]** adres, kunt u om het even welk e-mailadres specificeren op voorwaarde dat het een geldig adres, in correct formaat en zonder enige typefout is.
 
-Volg onderstaande aanbevelingen om een goed antwoordbeheer te garanderen:
+Volg onderstaande aanbevelingen om te zorgen voor een goed antwoordbeheer:
 
 * De inbox die voor antwoorden wordt gebruikt, zal alle antwoorde-mails ontvangen, inclusief meldingen buiten het kantoor en antwoorden op uitdagingen. Zorg er dus voor dat u een handmatig of geautomatiseerd proces hebt om de e-mailberichten te verwerken die in deze inbox worden ingevoerd.
 
 * Zorg ervoor dat de toegewezen Postvak IN voldoende ontvangstcapaciteit heeft om alle e-mails met reacties te ontvangen die via het e-mailoppervlak worden verzonden. Als het postvak &#39;Bounces&#39; retourneert, worden sommige reacties van uw klanten mogelijk niet ontvangen.
 
-* De antwoorden moeten worden verwerkt met inachtneming van de verplichtingen inzake privacy en naleving, aangezien zij persoonlijk identificeerbare informatie (PII) kunnen bevatten.
+* De reacties moeten worden verwerkt met inachtneming van de verplichtingen inzake privacy en naleving, aangezien zij persoonlijk identificeerbare informatie (PII) kunnen bevatten.
 
 * Merk geen berichten als spam in antwoordinbox, aangezien het alle andere reacties zal beïnvloeden die naar dit adres worden verzonden.
 
@@ -153,7 +153,7 @@ Als u een fout bij het voorleggen van de e-mailoppervlakte krijgt, betekent het 
 
 >[!NOTE]
 >
->Als het subdomein van het adres u inging een domein is dat [volledig gedelegeerd](../configuration/delegate-subdomain.md#full-subdomain-delegation) om Adobe te, contacteer uw Adobe- rekeningsmanager.
+>Als het subdomein van het adres u inging een domein is dat [volledig gedelegeerd](../configuration/delegate-subdomain.md#full-subdomain-delegation) als u Adobe wilt, neemt u contact op met de accountmanager van uw Adobe.
 
 ### E-mail doorsturen {#forward-email}
 
@@ -218,7 +218,7 @@ Meer informatie over nieuwe pogingen in [deze sectie](../configuration/retries.m
 
 U kunt **[!UICONTROL URL tracking parameters]** om de doeltreffendheid van uw marketing inspanningen over kanalen te meten. Deze functie is optioneel.
 
-De parameters die in deze sectie worden gedefinieerd, worden toegevoegd aan het einde van de URL&#39;s die in de inhoud van uw e-mailbericht zijn opgenomen. Vervolgens kunt u deze parameters vastleggen in hulpprogramma&#39;s voor webanalyse, zoals Adobe Analytics of Google Analytics, en verschillende prestatierapporten maken.
+De parameters die in deze sectie worden gedefinieerd, worden toegevoegd aan het einde van de URL&#39;s die in de inhoud van uw e-mailbericht zijn opgenomen. Vervolgens kunt u deze parameters vastleggen in hulpprogramma&#39;s voor webanalyse, zoals Adobe Analytics of Googles Analytics, en verschillende prestatierapporten maken.
 
 U kunt maximaal 10 volgparameters toevoegen met de functie **[!UICONTROL Add new parameter]** knop.
 
@@ -226,21 +226,21 @@ U kunt maximaal 10 volgparameters toevoegen met de functie **[!UICONTROL Add new
 
 Als u een URL-volgparameter wilt configureren, kunt u rechtstreeks de gewenste waarden invoeren in het dialoogvenster **[!UICONTROL Name]** en **[!UICONTROL Value]** velden.
 
-U kunt ook elke **[!UICONTROL Value]** veld met [Expressieeditor](../personalization/personalization-build-expressions.md). Klik op het pictogram van de editie om de editor te openen. Vervolgens kunt u de beschikbare contextafhankelijke kenmerken selecteren en/of de tekst rechtstreeks bewerken.
+U kunt ook elke **[!UICONTROL Value]** veld met de [Expressieeditor](../personalization/personalization-build-expressions.md). Klik op het pictogram van de editie om de editor te openen. Vervolgens kunt u de beschikbare contextafhankelijke kenmerken selecteren en/of de tekst rechtstreeks bewerken.
 
 ![](assets/preset-url-tracking-editor.png)
 
 De volgende vooraf gedefinieerde waarden zijn beschikbaar via de Expressieeditor:
 
-* **Id van handeling Bron**: Id van de e-mailactie die is toegevoegd aan de reis of campagne.
+* **Id van handeling Bron**: ID van de e-mailactie die aan de reis of campagne is toegevoegd.
 
 * **Naam van bronhandeling**: naam van de e-mailactie die aan de reis of campagne is toegevoegd.
 
-* **Bron-id**: Id van de reis of campagne waarmee de e-mail is verzonden.
+* **Bron-id**: ID van de reis of campagne waarnaar de e-mail is verzonden.
 
-* **Bronnaam**: naam van de reis of campagne waarmee de e-mail is verzonden.
+* **Bronnaam**: naam van de reis of campagne waarnaar de e-mail is verzonden.
 
-* **Id van bronversie**: Id van de reis- of campagneversie waarmee de e-mail is verzonden.
+* **Id van bronversie**: ID van de reis- of campagneversie waarmee de e-mail is verzonden.
 
 * **Offerte-id**: ID van het voorstel dat in de e-mail wordt gebruikt.
 
@@ -250,11 +250,11 @@ De volgende vooraf gedefinieerde waarden zijn beschikbaar via de Expressieeditor
 
 <!--You can drag and drop the parameters to reorder them.-->
 
-Hieronder staan voorbeelden van URL&#39;s die compatibel zijn met Adobe Analytics en Google Analytics.
+Hieronder staan voorbeelden van URL&#39;s die compatibel zijn met Adobe Analytics en Googles Analytics.
 
 * URL die compatibel is met Adobe Analytics: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
-* Compatibele URL voor Google Analytics: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
+* Compatibele URL voor Googles Analytics: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
 
 U kunt de resulterende URL voor bijhouden dynamisch voorvertonen. Elke keer dat u een parameter toevoegt, bewerkt of verwijdert, wordt de voorvertoning automatisch bijgewerkt.
 

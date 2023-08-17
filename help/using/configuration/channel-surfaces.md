@@ -21,13 +21,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
 >title="Oppervlak"
->abstract="Een oppervlak is een configuratie die door een systeembeheerder is gedefinieerd. Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enz."
+>abstract="Een oppervlak is een configuratie die door een systeembeheerder is gedefinieerd. Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enzovoort."
 
-Met [!DNL Journey Optimizer]kunt u kanaaloppervlakken instellen (dus voorinstellingen voor berichten) die alle technische parameters definiëren die nodig zijn voor uw berichten: e-mailtype, e-mail en naam van de afzender, mobiele apps, configuratie van SMS en meer.
+Met [!DNL Journey Optimizer]kunt u kanaaloppervlakken instellen (d.w.z. voorinstellingen voor berichten) die alle technische parameters definiëren die vereist zijn voor uw berichten: e-mailtype, e-mail en naam van de afzender, mobiele apps, SMS-configuratie en meer.
 
 >[!CAUTION]
 >
-> * Als u kanaaloppervlakken wilt maken, bewerken en verwijderen, moet u beschikken over de [Kanaaloppervlak beheren](../administration/high-low-permissions.md#manage-channel-surface) toestemming.
+> * U moet beschikken over de [Kanaaloppervlak beheren](../administration/high-low-permissions.md#manage-channel-surface) toestemming.
 >
 > * U moet de opdracht [E-mailconfiguratie](../email/get-started-email-config.md), [Pushconfiguratie](../push/push-configuration.md) en [SMS-configuratie](../sms/sms-configuration.md) stappen voordat u kanaaloppervlakken maakt.
 
@@ -51,7 +51,7 @@ Zodra de kanaaloppervlakten zijn gevormd, zult u hen kunnen selecteren wanneer h
 
 Ga als volgt te werk om een kanaaloppervlak te maken:
 
-1. Toegang krijgen tot **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** en klik vervolgens op **[!UICONTROL Create channel surface]**.
+1. Toegang krijgen tot de **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** en klik vervolgens op **[!UICONTROL Create channel surface]**.
 
    ![](assets/preset-create.png)
 
@@ -104,7 +104,7 @@ Ga als volgt te werk om een kanaaloppervlak te maken:
    > * Voor **niet-productie sandboxen** of als het geselecteerde subdomein **reeds gebruikt** in een ander goedgekeurd kanaaloppervlak neemt het proces slechts tot **3 uur**.
 
 
-   Deze controles omvatten configuratie en technische tests die door het team van Adobe worden uitgevoerd:
+   Deze controles omvatten configuratie en technische tests die door het team van de Adobe worden uitgevoerd:
 
    * SPF-validatie
    * DKIM-validatie
@@ -131,23 +131,23 @@ Al uw kanaaloppervlakken worden weergegeven in het dialoogvenster **[!UICONTROL 
 
 Na het maken kunnen kanaaloppervlakken de volgende statussen hebben:
 
-* **[!UICONTROL Draft]**: Het kanaaloppervlak is opgeslagen als concept en is nog niet verzonden. Open het om de configuratie te hervatten.
+* **[!UICONTROL Draft]**: Het kanaaloppervlak is opgeslagen als een concept en is nog niet verzonden. Open het om de configuratie te hervatten.
 * **[!UICONTROL Processing]**: Het kanaaloppervlak is verzonden en wordt door verschillende verificatiestappen gecontroleerd.
-* **[!UICONTROL Active]**: Het kanaaloppervlak is geverifieerd en kan worden geselecteerd om berichten te maken.
+* **[!UICONTROL Active]**: De kanaaloppervlakte is geverifieerd en kan worden geselecteerd om berichten te maken.
 * **[!UICONTROL Failed]**: Een of meer controles zijn mislukt tijdens de controle van het kanaaloppervlak.
-* **[!UICONTROL Deactivated]**: Het kanaaloppervlak wordt gedeactiveerd. Het kan niet worden gebruikt om nieuwe berichten tot stand te brengen.
+* **[!UICONTROL Deactivated]**: Het kanaaloppervlak wordt gedeactiveerd. U kunt er geen nieuwe berichten mee maken.
 
 Als het maken van een kanaaloppervlak mislukt, worden de details van elke mogelijke oorzaak van een fout hieronder beschreven.
 
-Als een van deze fouten optreedt, neemt u contact op met [Adobe Klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} om hulp te krijgen.
+Als één van deze fouten voorkomt, contacteer [Klantenservice Adoben](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} om hulp te krijgen.
 
 * **Validatie van SPF is mislukt**: SPF (het Kader van het Beleid van de Afzender) is een e-mailauthentificatieprotocol dat toestaat om erkende IPs te specificeren die e-mails van een bepaald subdomein kunnen verzenden. De de bevestigingsmislukking van SPF betekent dat de IP adressen in het SPF- verslag niet de IP adressen aanpassen die voor het verzenden van e-mails naar de brievenbusleveranciers worden gebruikt.
 
-* **DKIM-validatie mislukt**: DKIM (DomainKeys Identified Mail) staat de ontvankelijke server toe om te verifiëren dat het ontvangen bericht door de echte afzender van het bijbehorende domein werd verzonden en dat de inhoud van het originele bericht niet op zijn manier werd veranderd. DKIM-validatiefout betekent dat de ontvangende mailservers de authenticiteit van de berichtinhoud en de koppeling met het verzendende domein niet kunnen verifiëren.:
+* **DKIM-validatie mislukt**: DKIM (DomainKeys Identified Mail) staat de ontvangende server toe om te verifiëren dat het ontvangen bericht door de echte afzender van het bijbehorende domein werd verzonden en dat de inhoud van het oorspronkelijke bericht niet op zijn manier werd veranderd. DKIM-validatiefout betekent dat de ontvangende mailservers de authenticiteit van de berichtinhoud en de koppeling met het verzendende domein niet kunnen verifiëren.:
 
-* **Validatie van MX-record mislukt**: MX (Mail eXchange)-fout bij de validatie van records betekent dat de mailservers die verantwoordelijk zijn voor het accepteren van binnenkomende e-mails namens een bepaald subdomein niet correct zijn geconfigureerd.
+* **Validatie van MX-record mislukt**: MX (Mail eXchange) fout bij de validatie van records betekent dat de mailservers die verantwoordelijk zijn voor het accepteren van binnenkomende e-mails namens een bepaald subdomein niet correct zijn geconfigureerd.
 
-* **Leverbaarheidsconfiguraties zijn mislukt**: Vanwege een van de volgende redenen kan een fout optreden in de configuraties van de aflevering:
+* **Leverbaarheidsconfiguraties zijn mislukt**: De configuratiefout van de leveringsconfiguratie kan door om het even welke volgende redenen gebeuren:
    * Voegend op lijst van gewenste personen van toegewezen IPs
    * Ongeldig `helo` name
    * E-mails die worden verzonden van IPs buiten degenen die in de IP pool van de overeenkomstige oppervlakte worden gespecificeerd
@@ -202,8 +202,8 @@ Op de **[!UICONTROL Recent update]** op het scherm, kunt u informatie zoals de u
 Een update van een kanaaloppervlak kan de volgende statussen hebben:
 
 * **[!UICONTROL Processing]**: De update van het kanaaloppervlak is verzonden en wordt door verschillende verificatiestappen uitgevoerd.
-* **[!UICONTROL Success]**: Het bijgewerkte kanaaloppervlak is geverifieerd en kan worden geselecteerd om berichten te maken.
-* **[!UICONTROL Failed]**: Een of meer controles zijn mislukt tijdens de update-verificatie van het kanaaloppervlak.
+* **[!UICONTROL Success]**: De bijgewerkte kanaaloppervlakte is geverifieerd en kan worden geselecteerd om berichten te maken.
+* **[!UICONTROL Failed]**: Een of meer controles zijn mislukt tijdens de updateverificatie van het kanaaloppervlak.
 
 Elke status wordt hieronder beschreven.
 
@@ -219,7 +219,7 @@ De verwerkingstijd kan maximaal **3 uur**. Meer informatie over de controles die
 
 Als u een oppervlak bewerkt dat al actief was:
 
-* Zijn status blijft behouden **[!UICONTROL Active]** terwijl het validatieproces bezig is.
+* Zijn status blijft behouden **[!UICONTROL Active]** tijdens het validatieproces.
 
 * De **[!UICONTROL Recent update]** wordt naast de naam van het oppervlak in de lijst met kanaaloppervlakken weergegeven.
 
@@ -253,7 +253,7 @@ Als u een **[!UICONTROL Active]** kanaaloppervlak niet beschikbaar om nieuwe ber
 
 1. Open de lijst met kanaaloppervlakken.
 
-1. Voor het actieve oppervlak van uw keuze klikt u op de knop **[!UICONTROL More actions]** knop.
+1. Voor het actieve oppervlak van uw keuze klikt u op **[!UICONTROL More actions]** knop.
 
 1. Selecteer **[!UICONTROL Deactivate]**.
 
@@ -263,7 +263,7 @@ Als u een **[!UICONTROL Active]** kanaaloppervlak niet beschikbaar om nieuwe ber
 >
 >Gedeactiveerde kanaaloppervlakken kunnen niet worden verwijderd om problemen te voorkomen tijdens reizen waarbij deze oppervlakken worden gebruikt om berichten te verzenden.
 
-U kunt een gedeactiveerd kanaaloppervlak niet rechtstreeks bewerken. U kunt het bestand echter wel dupliceren en de kopie bewerken om een nieuwe versie te maken waarmee u nieuwe berichten kunt maken. U kunt de toepassing ook opnieuw activeren en wachten tot de update is gelukt om deze te bewerken.
+U kunt een gedeactiveerd kanaaloppervlak niet rechtstreeks bewerken. U kunt het bestand echter wel dupliceren en de kopie bewerken om een nieuwe versie te maken die u kunt gebruiken om nieuwe berichten te maken. U kunt de toepassing ook opnieuw activeren en wachten tot de update is gelukt om deze te bewerken.
 
 ![](assets/preset-activate.png)
 

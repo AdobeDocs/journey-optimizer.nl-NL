@@ -26,12 +26,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="Structuurcomponenten toevoegen"
->abstract="Structuurcomponenten definiëren de lay-out van de bestemmingspagina. Sleep een **Structuur** op het canvas om de inhoud van de bestemmingspagina te ontwerpen."
+>abstract="Structuurcomponenten definiëren de indeling van de bestemmingspagina. Sleep een **Structuur** op het canvas om de inhoud van de bestemmingspagina te ontwerpen."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="Structuurcomponenten toevoegen"
->abstract="Structuurcomponenten definiëren de lay-out van het fragment. Sleep een **Structuur** op het canvas om de inhoud van het fragment te ontwerpen."
+>abstract="Structuurcomponenten definiëren de indeling van het fragment. Sleep een **Structuur** op het canvas om de inhoud van het fragment te ontwerpen."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
@@ -64,7 +64,7 @@ Met Adobe Journey Optimizer Designer kunt u eenvoudig de structuur van uw inhoud
 
 Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen:
 
-1. Selecteer op de introductiepagina van Designer de optie **[!UICONTROL Design from scratch]** optie.
+1. Selecteer op de introductiepagina van Designer de **[!UICONTROL Design from scratch]** -optie.
 
    ![](assets/email_designer.png)
 
@@ -80,7 +80,7 @@ Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen:
 
    ![](assets/email_designer_structure_components.png)
 
-   Selecteer **[!UICONTROL n:n column]** om het aantal kolommen van uw keus (tussen 3 en 10) te bepalen. U kunt de breedte van elke kolom ook bepalen door de pijlen bij de bodem van elke kolom te bewegen.
+   Selecteer de **[!UICONTROL n:n column]** om het aantal kolommen van uw keus (tussen 3 en 10) te bepalen. U kunt de breedte van elke kolom ook bepalen door de pijlen bij de bodem van elke kolom te bewegen.
 
    >[!NOTE]
    >

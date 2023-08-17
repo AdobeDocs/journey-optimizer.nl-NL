@@ -20,10 +20,10 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
->title="Optimalisatie Verzonden tijd"
->abstract="Met de functie Verzenden via Adobe Journey Optimizer, aangedreven door de AI-services voor optimalisatie van de Adobe, kunt u het beste tijdstip voorspellen waarop een e-mail- of pushbericht wordt verzonden om de betrokkenheid te maximaliseren op basis van een open historie en klikfrequentie."
+>title="Optimalisatie van verzonden tijd"
+>abstract="De functie voor Send-Time optimalisatie van Adobe Journey Optimizer, aangedreven door de AI-services van de Adobe, kan de beste tijd voorspellen om een e-mail- of pushbericht te verzenden om de betrokkenheid te maximaliseren op basis van een open historie en klikfrequentie."
 
-Met de functie Verzenden via Adobe Journey Optimizer, aangedreven door de AI-services voor optimalisatie van de Adobe, kunt u het beste tijdstip voorspellen waarop een e-mail- of pushbericht wordt verzonden om de betrokkenheid te maximaliseren op basis van een open historie en klikfrequentie. Gebruik ons machine-leert model om gepersonaliseerde verzendtijden voor elke gebruiker te plannen om open te groeien en tarieven van uw berichten te klikken.
+De functie voor Send-Time optimalisatie van Adobe Journey Optimizer, aangedreven door de AI-services van de Adobe, kan de beste tijd voorspellen om een e-mail- of pushbericht te verzenden om de betrokkenheid te maximaliseren op basis van een open historie en klikfrequentie. Gebruik ons machine-leert model om gepersonaliseerde verzendtijden voor elke gebruiker te plannen om open te groeien en tarieven van uw berichten te klikken.
 
 Het model van de Optimalisering van de Send-Time neemt uw gegevens van Adobe Journey Optimizer op en kijkt open (voor e-mail en duw) op gebruikersniveau en klikt (voor e-mail) tarieven om te bepalen wanneer uw klanten het meest waarschijnlijk met uw overseinen in dienst zullen nemen. De optimalisering van de Send-Tijd vereist een minimum van één maand van bericht-volgende gegevens om geïnformeerde aanbevelingen te doen. Voor elke gebruiker kiest het systeem automatisch de beste tijd met behulp van de volgende scores:
 
@@ -33,7 +33,7 @@ Het model van de Optimalisering van de Send-Time neemt uw gegevens van Adobe Jou
 
 Het model varieert, of u over score of opleiding spreekt. De training wordt aanvankelijk wekelijks en vervolgens driemaandelijks gegeven. De score wordt eerst wekelijks en daarna maandelijks vastgesteld.
 
-* Training - de ontwikkeling van het algoritme dat wordt gebruikt om de score te maken
+* Training - de ontwikkeling van het algoritme waarmee de score wordt gemaakt
 * Scores - de toepassing van een score op individuele profielen die op het getrainde model worden gebaseerd
 
 Deze informatie wordt opgeslagen met het profiel van de gebruiker en wordt bij de uitvoering van de reis gebruikt om Adobe Journey Optimizer te laten weten wanneer je bericht moet worden verzonden.
@@ -56,4 +56,4 @@ Schakel SendTime Optimization in op een e-mail- of pushbericht door de optie **S
 
 Kies bij e-mailberichten of u wilt optimaliseren bij het openen van een e-mail of door op het juiste keuzerondje te klikken. Pushberichten worden standaard ingesteld op de optie Openen, omdat klikken niet van toepassing zijn op pushberichten.
 
-U kunt er ook voor kiezen om de verzendtijden die door het systeem worden gebruikt, te accentueren door een waarde in te voeren voor het dialoogvenster **Verzenden binnen de volgende** optie. Als u &quot;zes uur&quot;als waarde kiest, [!DNL Journey Optimizer] zal elk gebruikersprofiel controleren en de optimale verzendtijd kiezen binnen zes uur na de uitvoeringstijd van de reis.
+U kunt er ook voor kiezen om de verzendtijden die door het systeem worden gebruikt, te accentueren door een waarde in te voeren voor de **Verzenden binnen de volgende** -optie. Als u &quot;zes uur&quot;als waarde kiest, [!DNL Journey Optimizer] zal elk gebruikersprofiel controleren en de optimale verzendtijd kiezen binnen zes uur na de uitvoeringstijd van de reis.

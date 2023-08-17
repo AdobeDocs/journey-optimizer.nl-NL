@@ -18,9 +18,9 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="Vertegenwoordigingen"
->abstract="Voeg afbeeldingen toe om te bepalen waar je voorstel in het bericht wordt weergegeven. Hoe meer vertegenwoordigingen een aanbieding heeft, des te meer mogelijkheden er zijn om het aanbod in verschillende plaatsingscontexten te gebruiken."
+>abstract="Voeg representaties toe om te bepalen waar je voorstel in het bericht wordt weergegeven. Hoe meer vertegenwoordigingen een aanbieding heeft, des te meer mogelijkheden er zijn om het aanbod in verschillende plaatsingscontexten te gebruiken."
 
-Een aanbieding kan op verschillende plaatsen in een bericht worden getoond: in een bovenste banner met een afbeelding, als tekst in een alinea, als een HTML-blok, enz. Hoe meer vertegenwoordigingen een aanbieding heeft, des te meer mogelijkheden er zijn om het aanbod in verschillende plaatsingscontexten te gebruiken.
+Een aanbieding kan op verschillende plaatsen in een bericht worden weergegeven: in een bovenste banner met een afbeelding, als tekst in een alinea, als een HTML-blok, enz. Hoe meer vertegenwoordigingen een aanbieding heeft, des te meer mogelijkheden er zijn om het aanbod in verschillende plaatsingscontexten te gebruiken.
 
 ## De representaties van de aanbieding configureren {#representations}
 
@@ -36,7 +36,7 @@ Volg onderstaande stappen om een of meerdere vertegenwoordigingen aan uw aanbied
 
 1. Selecteer een plaatsing in de lijst.
 
-   U kunt ook de knop naast de knop **[!UICONTROL Placement]** vervolgkeuzelijst om door alle plaatsen te bladeren.
+   U kunt ook de knop naast de **[!UICONTROL Placement]** vervolgkeuzelijst om door alle plaatsen te bladeren.
 
    ![](../assets/browse-button-placements.png)
 
@@ -116,7 +116,7 @@ Als u een **[!UICONTROL Destination link]** kunt u ook de URL aanpassen waarnaar
 
 U kunt ook teksttype-inhoud invoegen wanneer u een compatibele plaatsing selecteert.
 
-1. Selecteer **[!UICONTROL Custom]** en klik op **[!UICONTROL Add content]**.
+1. Selecteer de **[!UICONTROL Custom]** en klik op **[!UICONTROL Add content]**.
 
    ![](../assets/offer-add-content.png)
 

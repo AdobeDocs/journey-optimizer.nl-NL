@@ -11,7 +11,7 @@ keywords: subdomein, PTR, records, DNS, domein, post
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
 >title="PTR-records van subdomeinen"
->abstract="Wanneer een subdomein is gedelegeerd aan Adobe in Journey Optimizer, wordt automatisch een PTR-record gemaakt en gekoppeld aan dit subdomein."
+>abstract="Zodra een subdomein aan Adobe in Journey Optimizer wordt gedelegeerd, wordt een PTR- verslag automatisch gecreeerd en met dit subdomein geassocieerd."
 
 ## PTR-records {#about-ptr-records}
 
@@ -60,7 +60,7 @@ U kunt een PTR-record wijzigen om het subdomein te bewerken dat aan een IP-adres
 
 ### Volledig gedelegeerde subdomeinen {#fully-delegated-subdomains}
 
-Een PTR-record bewerken met een subdomein dat [volledig gedelegeerd](delegate-subdomain.md#full-subdomain-delegation) om te Adobe, volg de hieronder stappen.
+Een PTR-record bewerken met een subdomein dat [volledig gedelegeerd](delegate-subdomain.md#full-subdomain-delegation) Volg onderstaande stappen om de Adobe uit te voeren.
 
 1. Klik in de lijst op de naam van een PTR-record om deze te openen.
 
@@ -78,26 +78,25 @@ Een PTR-record bewerken met een subdomein dat [volledig gedelegeerd](delegate-su
 
 ### Gedelegeerde subdomeinen die de methode CNAME gebruiken {#edit-ptr-subdomains-cname}
 
-Als u een PTR-record wilt bewerken met een subdomein dat is gedelegeerd aan Adobe, gebruikt u de opdracht [CNAME, methode](delegate-subdomain.md#cname-subdomain-delegation)volgt u de onderstaande stappen.
+Als u een PTR-record wilt bewerken met een subdomein dat aan de Adobe is gedelegeerd, gebruikt u de opdracht [CNAME, methode](delegate-subdomain.md#cname-subdomain-delegation)volgt u de onderstaande stappen.
 
 1. Klik in de lijst op de naam van een PTR-record om deze te openen.
 
    ![](assets/ptr-record-select-cname.png)
 
-1. Selecteer een subdomein dat aan Adobe wordt gedelegeerd met de opdracht [CNAME, methode](delegate-subdomain.md#cname-subdomain-delegation) in de lijst.
+1. Selecteer een subdomein dat is gedelegeerd aan de Adobe met de opdracht [CNAME, methode](delegate-subdomain.md#cname-subdomain-delegation) in de lijst.
 
    ![](assets/ptr-record-subdomain-cname.png)
 
-1. U moet een nieuw voorwaarts DNS verslag op uw het ontvangen platform tot stand brengen. Hiervoor kopieert u de record die door Adobe is gegenereerd. Als u klaar bent, schakelt u het selectievakje &quot;Ik bevestig...&quot; in.
+1. U moet een nieuw voorwaarts DNS verslag op uw het ontvangen platform tot stand brengen. Hiervoor kopieert u de record die door de Adobe is gegenereerd. Als u klaar bent, schakelt u het selectievakje &quot;Ik bevestig...&quot; in.
 
    ![](assets/ptr-record-subdomain-confirm.png)
 
    >[!NOTE]
    >
-   >Als u dit bericht krijgt: &quot;Maak eerst een nieuwe DNS en probeer het opnieuw&quot;, volg de onderstaande stappen:
+   >Als u dit bericht krijgt: &quot;Maak eerst een forward DNS en probeer het opnieuw&quot;, volgt u de onderstaande stappen:
    >   * Controleer de DNS leverancier als het voorwaartse DNS verslag met succes werd gecreeerd.
    >   * Records in de DNS worden mogelijk niet meteen gesynchroniseerd. Wacht een paar minuten en probeer het opnieuw.
-
 
 1. Klikken **[!UICONTROL Save]** om uw wijzigingen te bevestigen.
 
@@ -115,7 +114,7 @@ Nadat u de PTR-recordbewerking hebt bevestigd, **[!UICONTROL Processing]** wordt
 >
 >De [updateverwerking](#processing) kan tot 3 uur duren.
 
-Klik op het pictogram naast de details van de PTR-recordupdate. Meer informatie over de statussen van de verschillende pictogrammen vindt u in [deze sectie](#ptr-record-update-statuses).
+Als u de details van de PTR-recordupdate wilt controleren, klikt u op het pictogram ernaast. Meer informatie over de statussen van de verschillende pictogrammen vindt u in [deze sectie](#ptr-record-update-statuses).
 
 ![](assets/ptr-record-recent-update.png)
 
@@ -127,8 +126,8 @@ U kunt informatie zoals de updatestatus, en de gevraagde veranderingen zien.
 
 Een PTR-recordupdate kan de volgende statussen hebben:
 
-* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**: De PTR-recordupdate is verzonden en wordt momenteel gecontroleerd.
-* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: Het bijgewerkte PTR-record is geverifieerd en het nieuwe subdomein is nu gekoppeld aan het IP-adres.
+* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**: De PTR-recordupdate is verzonden en wordt gecontroleerd.
+* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: De bijgewerkte PTR-record is geverifieerd en het nieuwe subdomein is nu gekoppeld aan het IP-adres.
 * ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: Een of meer controles zijn mislukt tijdens de verificatie van de PTR-recordupdate.
 
 ### Verwerking {#processing}
