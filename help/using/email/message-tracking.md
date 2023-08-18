@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: koppelingen, bijhouden, controleren, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: af1bc66021f04dacee8cf674925af9e2d0c2f30b
+source-git-commit: bdebd6495b0147b606a86153025090bdcb5c96a7
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '995'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ U kunt het bijhouden van wijzigingen op berichtniveau inschakelen door de optie 
 
 >[!BEGINTABS]
 
->[!TAB Tracering tijdens een reis inschakelen]
+>[!TAB Tekstspatiëring tijdens een reis inschakelen]
 
 ![](assets/message-tracking-journey.png)
 
@@ -63,13 +63,13 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
    * **[!UICONTROL External link]**: Voeg een koppeling naar een externe URL in.
 
-   * **[!UICONTROL Landing page]**: Koppelingen naar bestemmingspagina&#39;s invoegen. [Meer informatie ](../landing-pages/get-started-lp.md)
+   * **[!UICONTROL Landing page]**: Koppelingen naar bestemmingspagina&#39;s invoegen. [Meer informatie](../landing-pages/get-started-lp.md)
 
    * **[!UICONTROL One click Opt-out]**: Voeg een koppeling in om gebruikers in staat te stellen zich snel af te melden voor uw communicatie zonder dat ze hoeven te bevestigen dat ze het abonnement willen opzeggen. [Meer informatie](email-opt-out.md#one-click-opt-out).
 
    * **[!UICONTROL External Opt-in/Subscription]**: Voeg een koppeling in om het ontvangen van communicatie van uw merk te accepteren.
 
-   * **[!UICONTROL External Opt-out/Unsubscription]**: Voeg een koppeling in om uw abonnement op te zeggen dat u geen communicatie van uw merk wilt ontvangen. Meer informatie over beheer van opt-out in [deze sectie](email-opt-out.md#opt-out-management).
+   * **[!UICONTROL External Opt-out/Unsubscription]**: Voeg een koppeling in om het abonnement op communicatie van uw merk op te zeggen. Meer informatie over beheer van opt-out in [deze sectie](email-opt-out.md#opt-out-management).
 
    * **[!UICONTROL Mirror page]**: Voeg een koppeling toe om de e-mailinhoud in een webbrowser weer te geven. [Meer informatie](#mirror-page)
 
@@ -93,17 +93,17 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
 ## Koppelingen aanpassen {#adjust-links}
 
-U kunt de koppelingen aanpassen met de **[!UICONTROL Settings]** en **[!UICONTROL Styles]** aan de rechterkant. U kunt een koppeling onderstrepen, de kleur ervan bewerken en het doel ervan selecteren.
+U kunt uw koppelingen aanpassen met de opdracht **[!UICONTROL Settings]** en **[!UICONTROL Styles]** aan de rechterkant. U kunt een koppeling onderstrepen, de kleur ervan bewerken en het doel ervan selecteren.
 
 1. In een **[!UICONTROL Text]** Selecteer de koppeling waar een koppeling wordt ingevoegd.
 
 1. Van de **[!UICONTROL Settings]** , kiest u hoe de doelgroep wordt omgeleid met de **[!UICONTROL Target]** vervolgkeuzelijst:
 
-   * **[!UICONTROL None]**: Hiermee opent u de koppeling in hetzelfde frame als waarop u hebt geklikt (standaard).
-   * **[!UICONTROL Blank]**: Hiermee opent u de koppeling in een nieuw venster of op een nieuw tabblad.
-   * **[!UICONTROL Self]**: Hiermee opent u de koppeling in hetzelfde frame als waarop u hebt geklikt.
-   * **[!UICONTROL Parent]**: Hiermee opent u de koppeling in het bovenliggende frame.
-   * **[!UICONTROL Top]**: Hiermee opent u de koppeling in de volledige tekst van het venster.
+   * **[!UICONTROL None]**: hiermee wordt de koppeling geopend in hetzelfde frame als waarop is geklikt (standaard).
+   * **[!UICONTROL Blank]**: hiermee opent u de koppeling in een nieuw venster of op een nieuw tabblad.
+   * **[!UICONTROL Self]**: hiermee opent u de koppeling in hetzelfde frame als waarop u hebt geklikt.
+   * **[!UICONTROL Parent]**: hiermee opent u de koppeling in het bovenliggende frame.
+   * **[!UICONTROL Top]**: hiermee opent u de koppeling in de volledige tekst van het venster.
 
    ![](assets/link_2.png)
 
@@ -111,7 +111,7 @@ U kunt de koppelingen aanpassen met de **[!UICONTROL Settings]** en **[!UICONTRO
 
    ![](assets/link_1.png)
 
-1. Als u de kleur van de koppeling wilt wijzigen, klikt u op **[!UICONTROL Link color]** van de **[!UICONTROL Styles]** tab.
+1. Klik op **[!UICONTROL Link color]** van de **[!UICONTROL Styles]** tab.
 
    ![](assets/link_3.png)
 
@@ -141,7 +141,7 @@ De retentieperiode voor een spiegelpagina is 60 dagen. Na die vertraging is de s
 
 ## Beheer van bijhouden {#manage-tracking}
 
-De [E-mailontwerper](content-from-scratch.md) Hiermee kunt u de bijgehouden URL&#39;s beheren, zoals het bewerken van het trackingtype voor elke koppeling.
+De [E-mailDesigner](content-from-scratch.md) Hiermee kunt u de bijgehouden URL&#39;s beheren, zoals het bewerken van het trackingtype voor elke koppeling.
 
 1. Klik op de knop **[!UICONTROL Links]** in het linkerdeelvenster om de lijst weer te geven met alle URL&#39;s van de inhoud die wordt bijgehouden.
 
@@ -155,10 +155,10 @@ De [E-mailontwerper](content-from-scratch.md) Hiermee kunt u de bijgehouden URL&
 
    Voor elke bijgehouden URL kunt u de modus Tekstspatiëring instellen op een van de volgende waarden:
 
-   * **[!UICONTROL Tracked]**: Hiermee activeert u het bijhouden van wijzigingen op deze URL.
+   * **[!UICONTROL Tracked]**: activeert tracering op deze URL.
    * **[!UICONTROL Opt out]**: beschouwt deze URL als een opt-out- of niet-abonnements-URL.
    * **[!UICONTROL Mirror page]**: beschouwt deze URL als een URL van een spiegelpagina.
-   * **[!UICONTROL Never]**: Hiermee activeert u het bijhouden van deze URL nooit. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Never]**: activeert het bijhouden van deze URL nooit. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 Rapportage over openingen en klikken is beschikbaar in de [Live-rapport](../reports/live-report.md) en in de [Algemeen rapport](../reports/global-report.md).
 
@@ -186,4 +186,4 @@ Wanneer de e-mail wordt verzonden, wordt deze parameter automatisch toegevoegd a
 
 >[!NOTE]
 >
->Als u de uiteindelijke URL wilt controleren, kunt u [een bewijs verzenden](preview.md#send-proofs) en klik op de koppeling in de inhoud van het e-mailbericht als u de proefdruk hebt ontvangen. De URL moet de parameter tracking weergeven. In het bovenstaande voorbeeld is de laatste URL: https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number
+>U kunt de uiteindelijke URL controleren door [een bewijs verzenden](preview.md#send-proofs) en klik op de koppeling in de inhoud van het e-mailbericht als u de proefdruk hebt ontvangen. De URL moet de parameter tracking weergeven. In het bovenstaande voorbeeld is de laatste URL: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
