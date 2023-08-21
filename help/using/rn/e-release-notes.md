@@ -5,9 +5,9 @@ title: Aanvullende informatie
 description: Opmerkingen bij de vervroegde release van Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 36634fc3993261756c081e71c47e7408c77c65ae
+source-git-commit: 3d166f79d9f6334c6f873ba3eecd264a60b8f4ba
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '402'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <table>
 <thead>
 <tr>
-<th><strong>Kanaal in app tijdens reizen</strong><br/></th>
+<th><strong>In-app berichten verzenden tijdens uw reizen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -64,13 +64,14 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <table>
 <thead>
 <tr>
-<th><strong>Inhoudsassistent voor tekst en afbeeldingen</strong><br/></th>
+<th><strong>Tekst en afbeeldingen genereren met de Content Assistant</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Wanneer u uw bericht hebt gemaakt en gepersonaliseerd, neemt u de inhoud naar het volgende niveau met de Content Assistant. U kunt nu de Content Assistant gebruiken om de impact van uw bericht te optimaliseren door te experimenteren met verschillende hoofdtitels en afbeeldingen. Elke variant wordt beheerd als een unieke behandeling, om te meten en te vergelijken welke titel effectief meer kliks produceert.</p>
+<p>Deze functie is momenteel beschikbaar als een persoonlijke bètaversie.</p>
 <img src="assets/gen-ai-image-2.png"/>
 <!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
 </td>
@@ -96,3 +97,9 @@ Er is nu een nieuwe API beschikbaar voor het maken en beheren van inhoudsfragmen
 
 * U kunt nu API vraagreacties in douaneacties gebruiken en uw reis structureren die op deze reacties wordt gebaseerd.
 * Er is een nieuw type systeemwaarschuwing geïntroduceerd. U kunt nu een melding krijgen wanneer een aangepaste handeling mislukt.
+
+
+**Direct mail**
+
+* Steun Azure Blob als verpletterende bestemming.
+* `&amp;&#39; als douane separator steunen.
