@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: terugkeer, reis, profiel, terugkerend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: c4b40d66db042e7dce1326e64b9d706f33cb01c2
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '598'
 ht-degree: 1%
 
 ---
@@ -31,13 +31,16 @@ Bij unitaire reizen kunt u het opnieuw betreden in- of uitschakelen:
 
 * Als re-entry wordt toegelaten, kan een profiel een reis verscheidene keren ingaan, maar kan het niet doen tot hij dat vorige geval van de reis volledig verliet.
 
-* Als re-entry gehandicapt is, kan een profiel niet veelvoudige tijden de zelfde reis ingaan
+* Als re-entry gehandicapt is, kan een profiel niet veelvoudige tijden de zelfde reis ingaan.
 
-Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de optie uitschakelen voor &#39;één opname&#39;-reizen, bijvoorbeeld als u een eenmalige gift wilt aanbieden wanneer een persoon een winkel betreedt. In dat geval, wilt u niet de klant de reis kunnen opnieuw ingaan en de aanbieding opnieuw ontvangen. Wanneer een reis eindigt, is zijn status **[!UICONTROL Closed]**. Nieuwe individuen kunnen niet langer de reis betreden. Personen die al op reis zijn, maken de reis normaal af. [Meer informatie](journey-gs.md#entrance)
+Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de optie uitschakelen voor &#39;één opname&#39;-reizen, bijvoorbeeld als u een eenmalige gift wilt aanbieden wanneer iemand een winkel bezoekt. In dat geval mag de klant de reis niet opnieuw kunnen betreden en het aanbod opnieuw kunnen ontvangen. Wanneer een reis eindigt, is zijn status **[!UICONTROL Closed]**. Nieuwe individuen kunnen niet langer de reis betreden. Personen die al op reis zijn, maken de reis normaal af. [Meer informatie](journey-gs.md#entrance)
 
 ![](assets/journey-re-entrance.png)
 
-Na de standaard globale onderbreking van 30 dagen, schakelt de reis naar **Voltooid** status. Nieuwe individuen kunnen niet langer de reis betreden. Personen die al op reis zijn, maken de reis normaal af.Vanwege de 30-daagse reistijd, wanneer het niet is toegestaan om de reis opnieuw te betreden, kunnen we er niet voor zorgen dat de heringstop meer dan 30 dagen werkt. Aangezien we alle informatie over personen die 30 dagen na hun binnenkomst de reis hebben betreden, verwijderen, kunnen we niet weten dat de persoon eerder, meer dan 30 dagen geleden, is binnengekomen. [Meer informatie](journey-gs.md#global_timeout).
+Na de standaard globale onderbreking van 30 dagen, schakelt de reis naar **Voltooid** status. Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden. Dit gedrag wordt alleen voor 30 dagen ingesteld om zich aan te passen aan de privacystandaard. Na deze periode kunnen profielen de reis opnieuw betreden. U kunt dit voorkomen door een voorwaarde toe te voegen om te testen of het profiel al dan niet is ingevoerd. Meer informatie over de time-out van een reis in [deze sectie](journey-gs.md#global_timeout).
+
+<!--
+Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
 
 Eenheidstrajecten (te beginnen met een evenement of een kwalificatie van het publiek) bevatten een begeleidend element dat voorkomt dat ritten bij dezelfde gebeurtenis meerdere keren ten onrechte worden gestart. De terugkeer van het profiel wordt tijdelijk geblokkeerd door gebrek gedurende 5 minuten. Als bijvoorbeeld een evenement om 12.01 uur een reis voor een bepaald profiel start en een ander om 12.03 uur aankomt (ongeacht of het dezelfde gebeurtenis is of een andere gebeurtenis die dezelfde reis veroorzaakt), zal die reis niet opnieuw beginnen voor dit profiel.
 
