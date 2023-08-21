@@ -5,7 +5,7 @@ title: Aanvullende informatie
 description: Opmerkingen bij de vervroegde release van Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 3d166f79d9f6334c6f873ba3eecd264a60b8f4ba
+source-git-commit: 2420e04143e9ac357fb0cc14fe09c07ec577e021
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 5%
@@ -102,4 +102,4 @@ Er is nu een nieuwe API beschikbaar voor het maken en beheren van inhoudsfragmen
 **Direct mail**
 
 * Steun Azure Blob als verpletterende bestemming.
-* `&amp;&#39; als douane separator steunen.
+* Ondersteuning `&` als een aangepast scheidingsteken.
