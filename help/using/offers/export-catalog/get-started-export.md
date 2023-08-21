@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 0ca491315e214e3c12bec11a93da1a2b98b493b6
+source-git-commit: a68b4417c86b71d16622e8776c17625b2d061cc7
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 15%
+source-wordcount: '83'
+ht-degree: 22%
 
 ---
 
@@ -26,6 +26,8 @@ Bij het exporteren wordt één gegevensset gemaakt voor elk object in de bibliot
 
 Telkens wanneer een van deze objecten wordt gewijzigd in de bibliotheek met aanbiedingen, wordt automatisch een nieuwe exporttaak uitgevoerd om de gegevenssets bij te werken.
 
+<!--
 >[!NOTE]
 >
->Deze functie is niet standaard ingeschakeld. Als u het wilt gebruiken, contacteer uw Adobe contact om het voor uw catalogus te laten activeren. Als deze optie is ingeschakeld, worden exporttaken automatisch uitgevoerd en is er geen actie van uw kant nodig.
+>This feature is not enabled by default. If you want to use it, reach out to your Adobe contact to have it activated for your catalog. Once it is enabled, export jobs will be automated and will require no action from your side.
+-->
