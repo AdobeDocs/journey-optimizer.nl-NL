@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: 30d09c884e7ce778712a0f7a8e4c571c32ded8ed
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 16%
@@ -21,13 +21,13 @@ Gebruiken [!DNL Journey Optimizer] om tekstberichten naar uw klanten op hun mobi
 
 De levering van SMS kan worden gecreeerd:
 
-* In een **Reis**: Nadat u een SMS-activiteit hebt toegevoegd aan uw reis en basisinstellingen hebt gedefinieerd, kunt u de opdracht **[!UICONTROL Actions: SMS]** in het rechterdeelvenster om de inhoud voor het SMS-bericht te maken.
+* In een **Reis**: Als u eenmaal een SMS-activiteit hebt toegevoegd aan uw reis en basisinstellingen hebt gedefinieerd, kunt u de opdracht **[!UICONTROL Actions: SMS]** in het rechterdeelvenster om de inhoud voor het SMS-bericht te maken.
 
-   Voor meer informatie over hoe te om uw reis te vormen, verwijs naar dit [page](../building-journeys/journey-gs.md).
+  Voor meer informatie over hoe te om uw reis te vormen, verwijs naar dit [page](../building-journeys/journey-gs.md).
 
 * In een **Campagne**: Nadat u een campagne hebt gemaakt, selecteert u SMS als uw handeling en definieert u de basisinstellingen.
 
-   Voor meer informatie over hoe te om uw campagne te vormen, verwijs naar dit [page](../campaigns/create-campaign.md#configure).
+  Raadpleeg voor meer informatie over het configureren van uw campagne [page](../campaigns/create-campaign.md#configure).
 
 
 >[!IMPORTANT]
@@ -75,4 +75,4 @@ De levering van SMS kan worden gecreeerd:
 
 Leer hoe u sms-berichten configureert, opstelt en opneemt in uw klantjourneys.
 
->[!VIDEO](https://video.tv.adobe.com/v/344460?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
