@@ -5,9 +5,9 @@ title: Aanvullende informatie
 description: Opmerkingen bij de vervroegde release van Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 2420e04143e9ac357fb0cc14fe09c07ec577e021
+source-git-commit: f528c2f11000d323370f06210c70a127a99f905d
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '411'
 ht-degree: 5%
 
 ---
@@ -71,7 +71,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <tr>
 <td>
 <p>Wanneer u uw bericht hebt gemaakt en gepersonaliseerd, neemt u de inhoud naar het volgende niveau met de Content Assistant. U kunt nu de Content Assistant gebruiken om de impact van uw bericht te optimaliseren door te experimenteren met verschillende hoofdtitels en afbeeldingen. Elke variant wordt beheerd als een unieke behandeling, om te meten en te vergelijken welke titel effectief meer kliks produceert.</p>
-<p>Deze functie is momenteel beschikbaar als een persoonlijke bètaversie.</p>
+<p>Deze mogelijkheid is momenteel beschikbaar als een persoonlijke bètaversie.</p>
 <img src="assets/gen-ai-image-2.png"/>
 <!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
 </td>
@@ -95,7 +95,7 @@ Er is nu een nieuwe API beschikbaar voor het maken en beheren van inhoudsfragmen
 
 **Journeys**
 
-* U kunt nu API vraagreacties in douaneacties gebruiken en uw reis structureren die op deze reacties wordt gebaseerd.
+* U kunt nu API vraagreacties in douaneacties gebruiken en uw reis structureren die op deze reacties wordt gebaseerd. Deze functie is momenteel beschikbaar als een persoonlijke bètaversie.
 * Er is een nieuw type systeemwaarschuwing geïntroduceerd. U kunt nu een melding krijgen wanneer een aangepaste handeling mislukt.
 
 
