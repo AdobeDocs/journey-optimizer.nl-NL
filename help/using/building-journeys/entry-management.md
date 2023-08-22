@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: terugkeer, reis, profiel, terugkerend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 1bcc47389b128c6eb6e768578b2ae64c4b0fea89
+source-git-commit: b0cda95aee58a3dd3a0e22d09b5938ff11abcf32
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de optie uitsc
 
 ![](assets/journey-re-entrance.png)
 
-Na de standaard globale onderbreking van 30 dagen, schakelt de reis naar **Voltooid** status. Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden. Dit gedrag wordt slechts voor 30 dagen ingesteld (standaardwaarde voor de time-out van de reis) aangezien wij alle informatie over profielen verwijderen die de reis 30 dagen nadat zij ingegaan waren. Na deze periode kunnen profielen de reis opnieuw betreden. U kunt dit voorkomen door een voorwaarde toe te voegen om te testen of het profiel al dan niet is ingevoerd. Meer informatie over de time-out van een reis in [deze sectie](journey-gs.md#global_timeout).
+Na de standaardinstelling [algemene time-out](journey-gs.md#global_timeout) van 30 dagen, wordt de reis overgeschakeld op de **Voltooid** status. Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden. Dit gedrag wordt slechts voor 30 dagen ingesteld (d.w.z. de standaardwaarde van de reistijd) aangezien alle informatie over profielen die de reis zijn ingegaan 30 dagen nadat zij zijn ingegaan wordt verwijderd. Na deze periode kunnen profielen de reis opnieuw betreden. Als u dit wilt voorkomen en opnieuw toegang voor deze profielen volledig wilt uitschakelen, kunt u een voorwaarde toevoegen om te testen of het profiel al dan niet is ingevoerd.
 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
