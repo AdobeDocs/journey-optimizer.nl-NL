@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca22edacfdad9b09abd742229471d23d23d2059b
+source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
 workflow-type: tm+mt
-source-wordcount: '3513'
+source-wordcount: '3494'
 ht-degree: 8%
 
 ---
@@ -103,8 +103,8 @@ Er is een nieuwe optie beschikbaar in de instellingen van het e-mailoppervlak om
 **Journeys**
 
 * U kunt nu API vraagreacties in douaneacties gebruiken en uw reis structureren die op deze reacties wordt gebaseerd. Deze functie is momenteel beschikbaar als een persoonlijke bètaversie.
-* Er is een nieuw type systeemwaarschuwing geïntroduceerd. U kunt nu een melding krijgen wanneer een aangepaste handeling mislukt.
-  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
+<!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
+* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **Direct mail**
