@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
+source-git-commit: 3a4a58f8601c67e8e9a2b606a47c6b4bcc2dab05
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 3%
@@ -98,9 +98,9 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## Dag van het jaar{#day-year}
+## Dag van jaar{#day-year}
 
-De `dayOfYear` wordt gebruikt om de dag van het jaar terug te winnen.
+De `dayOfYear` Deze functie wordt gebruikt om de dag van het jaar op te halen.
 
 **Syntaxis**
 
@@ -138,10 +138,10 @@ Waar de eerste tekenreeks het datumkenmerk is en de tweede waarde hoe u de datum
 
 **Voorbeeld**
 
-De volgende bewerking retourneert de datum in de volgende notatie: DD-MM-YY.
+De volgende bewerking retourneert de datum in de volgende notatie: MM/DD/YY.
 
 ```sql
-{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY") %}
+{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}
 ```
 
 ## Datumnotatie met ondersteuning voor landinstellingen{#format-date-locale}
@@ -154,7 +154,7 @@ De `formatDate` wordt gebruikt om een datumtijdwaarde op te maken in de correspo
 {%= formatDate(datetime, format, locale) %}
 ```
 
-Waar de eerste tekenreeks het datumkenmerk is, is de tweede waarde hoe u de datum wilt omzetten en weergeven en de derde waarde de landinstelling in tekenreeksindeling.
+Waar de eerste tekenreeks het datumkenmerk is, is de tweede waarde hoe u de datum wilt converteren en weergeven en de derde waarde de landinstelling in tekenreeksindeling.
 
 >[!NOTE]
 >
@@ -167,7 +167,7 @@ Waar de eerste tekenreeks het datumkenmerk is, is de tweede waarde hoe u de datu
 
 **Voorbeeld**
 
-De volgende bewerking retourneert de datum in de volgende notatie: DD-MM-YY en landinstelling FRANKRIJK.
+De volgende bewerking retourneert de datum in de volgende notatie: MM/DD/YY en landinstelling FRANKRIJK.
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/DD/YY", "fr_FR") %}
