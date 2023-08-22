@@ -5,9 +5,9 @@ title: Aanvullende informatie
 description: Opmerkingen bij de vervroegde release van Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: f18fc404a238271edf9240a509f2f0df54c9503c
+source-git-commit: ca22edacfdad9b09abd742229471d23d23d2059b
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '362'
 ht-degree: 5%
 
 ---
@@ -52,7 +52,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <tbody>
 <tr>
 <td>
-<p>U kunt nu zaadlijsten maken en beheren in Journey Optimizer. Een zaadlijst bestaat uit teste-mailadressen waarnaar u een e-mail verzendt voordat u deze naar uw werkelijke publiek verzendt. Met deze functie kunt u de verzonden e-mailkopieën controleren en controleren of alle weergaveformaten, URL's, afbeeldingen en koppelingen correct zijn.</p>
+<p>U kunt nu zaadlijsten maken en beheren in Journey Optimizer. Een zaadlijst bestaat uit interne adressen die aan uw daadwerkelijke publiek kunnen worden toegevoegd en het nauwkeurige zelfde bericht zoals de gerichte profielen bij de tijd van de leveringsuitvoering ontvangen. Gebruik deze mogelijkheid om de verzonden communicatie te controleren en ervoor te zorgen dat alle weergave-indelingen, URL's, afbeeldingen en koppelingen correct zijn.</p>
 <img src="../configuration/assets/seed-list-details.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -61,23 +61,23 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Tekst en afbeeldingen genereren met de Content Assistant</strong><br/></th>
+<th><strong>Generate text and images with the Content assistant</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Wanneer u uw bericht hebt gemaakt en gepersonaliseerd, neemt u de inhoud naar het volgende niveau met de Content Assistant. U kunt nu de Content Assistant gebruiken om de impact van uw bericht te optimaliseren door te experimenteren met verschillende hoofdtitels en afbeeldingen. Elke variant wordt beheerd als een unieke behandeling, om te meten en te vergelijken welke titel effectief meer kliks produceert.</p>
-<p>Deze mogelijkheid is momenteel beschikbaar als een persoonlijke bètaversie.</p>
+<p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>This capability is currently available as a private beta.</p>
 <img src="assets/gen-ai-image-2.png"/>
-<!--p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 
@@ -91,7 +91,7 @@ Er is nu een nieuwe API beschikbaar voor het maken en beheren van inhoudsfragmen
 
 **E-mailkanaal**
 
-* Er is een nieuwe optie beschikbaar in de instellingen van het e-mailoppervlak om e-mailadressen op te nemen die zijn onderdrukt als gevolg van een spamklacht bij het publiek van uw transactieberichten. Zelfs als zij marketing berichten als spam merkten, kunnen deze profielen transactieberichten, zoals wachtwoordterugstellen of rekeningsverklaringen dan ontvangen. Deze optie is standaard uitgeschakeld.
+Er is een nieuwe optie beschikbaar in de instellingen van het e-mailoppervlak om e-mailadressen op te nemen die zijn onderdrukt als gevolg van een spamklacht bij het publiek van uw transactieberichten. Zelfs als zij marketing berichten als spam merkten, kunnen deze profielen transactieberichten, zoals wachtwoordterugstellen of rekeningsverklaringen dan ontvangen. Deze optie is standaard uitgeschakeld.
 
 **Journeys**
 
@@ -102,5 +102,5 @@ Er is nu een nieuwe API beschikbaar voor het maken en beheren van inhoudsfragmen
 
 **Direct mail**
 
-* Steun Azure Blob als verpletterende bestemming.
-* Ondersteuning `&` als een aangepast scheidingsteken.
+* Azure kan nu als servertype in het dossier worden geselecteerd dat configuratie verplettert.
+* Ampersand is nu beschikbaar als veld voor kolomscheidingen in de instellingen voor het oppervlak voor directe e-mail.

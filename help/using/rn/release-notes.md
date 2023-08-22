@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0ff415fa209da7996254a60817ef69998fd47903
+source-git-commit: ca22edacfdad9b09abd742229471d23d23d2059b
 workflow-type: tm+mt
-source-wordcount: '3200'
-ht-degree: 9%
+source-wordcount: '3513'
+ht-degree: 8%
 
 ---
 
@@ -20,6 +20,99 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 [!DNL Adobe Journey Optimizer] is native [!DNL Adobe Experience Platform] en erft van de meest recente innovaties en verbeteringen. Meer informatie over deze wijzigingen vindt u in [Opmerkingen bij de release van Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ![Nieuwsbrief](../assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die direct aan uw Postbus worden geleverd elk kwartaal.
+
+
+## Opmerkingen bij de vervroegde release augustus 2023 {#aug-rn-2023}
+
+Opmerkingen bij de eerste release hieronder kunnen zonder voorafgaande kennisgeving worden gewijzigd tot de releasedatum. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd op de releasedatum.
+
+
+**Releasedatum**: 23-24 augustus 2023
+
+### Nieuwe functies{#aug-2023-features}
+
+Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
+
+<table>
+<thead>
+<tr>
+<th><strong>In-app berichten verzenden tijdens uw reizen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu persoonlijke In-app-berichten naar uw app-gebruikers verzenden voor een reis. Met Journey Optimizer kunt u meldingen ontwerpen en de lay-out, weergave, tekst en knoppen van berichten aanpassen voor een naadloze ervaring.</p>
+<img src="assets/in_app_journey_1.png"/>
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>E-mails met lijsten met zaden valideren</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu zaadlijsten maken en beheren in Journey Optimizer. Een zaadlijst bestaat uit interne adressen die aan uw daadwerkelijke publiek kunnen worden toegevoegd en het nauwkeurige zelfde bericht zoals de gerichte profielen bij de tijd van de leveringsuitvoering ontvangen. Gebruik deze mogelijkheid om de verzonden communicatie te controleren en ervoor te zorgen dat alle weergave-indelingen, URL's, afbeeldingen en koppelingen correct zijn.</p>
+<img src="../configuration/assets/seed-list-details.png">
+<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Generate text and images with the Content assistant</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+<p>This capability is currently available as a private beta.</p>
+<img src="assets/gen-ai-image-2.png"/>
+<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+
+### Verbeteringen {#aug-2023-improvements}
+
+Deze release bevat de verbeteringen die hieronder worden vermeld.
+
+**API&#39;s**
+
+Er is nu een nieuwe API beschikbaar voor het maken en beheren van inhoudsfragmenten. [Meer informatie](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+
+**E-mailkanaal**
+
+Er is een nieuwe optie beschikbaar in de instellingen van het e-mailoppervlak om e-mailadressen op te nemen die zijn onderdrukt als gevolg van een spamklacht bij het publiek van uw transactieberichten. Zelfs als zij marketing berichten als spam merkten, kunnen deze profielen transactieberichten, zoals wachtwoordterugstellen of rekeningsverklaringen dan ontvangen. Deze optie is standaard uitgeschakeld.
+
+**Journeys**
+
+* U kunt nu API vraagreacties in douaneacties gebruiken en uw reis structureren die op deze reacties wordt gebaseerd. Deze functie is momenteel beschikbaar als een persoonlijke bètaversie.
+* Er is een nieuw type systeemwaarschuwing geïntroduceerd. U kunt nu een melding krijgen wanneer een aangepaste handeling mislukt.
+  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
+
+
+**Direct mail**
+
+* Azure kan nu als servertype in het dossier worden geselecteerd dat configuratie verplettert.
+* Ampersand is nu beschikbaar als veld voor kolomscheidingen in de instellingen voor het oppervlak voor directe e-mail.
+
+
 
 
 ## Opmerkingen bij de release juli 2023 {#july-rn-2023}
