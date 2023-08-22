@@ -5,10 +5,10 @@ title: Aanvullende informatie
 description: Opmerkingen bij de vervroegde release van Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 132121b4dd9c20149e4a5b24e90ebffd4ebbdcbc
+source-git-commit: f18fc404a238271edf9240a509f2f0df54c9503c
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 4%
+source-wordcount: '411'
+ht-degree: 5%
 
 ---
 
@@ -97,7 +97,7 @@ Er is nu een nieuwe API beschikbaar voor het maken en beheren van inhoudsfragmen
 
 * U kunt nu API vraagreacties in douaneacties gebruiken en uw reis structureren die op deze reacties wordt gebaseerd. Deze functie is momenteel beschikbaar als een persoonlijke bètaversie.
 * Er is een nieuw type systeemwaarschuwing geïntroduceerd. U kunt nu een melding krijgen wanneer een aangepaste handeling mislukt.
-* Wanneer u een reis dupliceert, kunt u nu de naam van de reiskopie definiëren.
+  <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **Direct mail**
