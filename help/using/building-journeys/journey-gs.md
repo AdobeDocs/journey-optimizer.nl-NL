@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: ca2db9343f1362d3fe3e75b74c3c7bb12bb1c30f
+source-git-commit: 2281daefaf6b45c056ef9100b58f51dcd9c87257
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1553'
 ht-degree: 9%
 
 ---
@@ -121,13 +121,13 @@ De **Technische details kopiëren** staat u toe om technische informatie over de
 
 ![](assets/journey32.png)
 
-### Entrance{#entrance}
+### Entrance en re-entry {#entrance}
 
 Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de controle van **Hernieuwde toegang toestaan** optie voor &quot;één enkele schot&quot;reizen, bijvoorbeeld als u een eenmalig geschenk wilt aanbieden wanneer een persoon een winkel ingaat.
 
 Wanneer de **Hernieuwde toegang toestaan** -optie is geactiveerd, de **Wachttijd bij terugkeer** wordt weergegeven. In dit veld kunt u de tijd definiëren die u moet wachten voordat u een profiel toestaat om de reis opnieuw te betreden tijdens een enkele reis (te beginnen met een evenement of een publiekskwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten.
 
-Meer informatie over toegangsbeheer voor profielen vindt u in [deze sectie](entry-management.md).
+Meer informatie over toegang tot profielen en beheer van nieuwe toegang, in [deze sectie](entry-management.md).
 
 ### Toegang beheren {#access}
 
