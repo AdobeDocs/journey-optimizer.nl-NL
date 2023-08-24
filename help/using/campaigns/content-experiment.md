@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '770'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment"
 >title="Inhoudsexperiment"
->abstract="U kunt verkiezen om de leveringsinhoud, het onderwerp, of de afzender te variëren om veelvoudige leveringsbehandelingen te bepalen en de beste combinatie voor uw publiek te bepalen."
+>abstract="U kunt verkiezen om de berichtinhoud, onderwerp, of afzender te variëren om veelvoudige behandelingen te bepalen en de beste combinatie voor uw publiek te bepalen."
 
 >[!NOTE]
 >
@@ -99,13 +99,13 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 >title="Metrisch met succes"
 >abstract="Succesvolle maatstaf wordt gebruikt om de best presterende behandeling in een experiment bij te houden en te evalueren. Ben zeker aan opstelling uw dataset voor bepaalde metriek alvorens het te gebruiken."
 
-1. Wanneer uw levering, van de overzichtspagina van de Campagne wordt gepersonaliseerd, klik **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren.
+1. Wanneer uw bericht wordt gepersonaliseerd, van de pagina van het campagneresamenvatting, klik **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren.
 
    ![](assets/content_experiment_3.png)
 
 1. Selecteer de **[!UICONTROL Success metric]** u wilt instellen voor uw experiment.
 
-   Voor ons experiment selecteren we **[!UICONTROL Email open]** om te testen of ontvangers hun e-mails zullen openen als de promotiecode zich op de onderwerpregel bevindt.
+   In dit voorbeeld selecteert u **[!UICONTROL Email open]** om te testen of profielen hun e-mails openen als de promotiecode zich op de onderwerpregel bevindt.
 
    ![](assets/content_experiment_11.png)
 
