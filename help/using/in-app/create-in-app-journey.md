@@ -1,6 +1,6 @@
 ---
 title: Een melding in de app maken in een reis
-description: Leer hoe u een bericht in de app maakt in Journey Optimizer
+description: Leer hoe u een In-app-bericht tijdens een rit kunt toevoegen
 feature: Overview
 topic: Content Management
 role: User
@@ -9,15 +9,17 @@ keywords: in-app, bericht, maken, starten
 hide: true
 hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-badge: label="Beta" type="Informatief"
-source-git-commit: e91ca6f6210fd883e7a483fe81dda59bdf6ab42a
+source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
 
+
 # Een bericht in de app maken in een reis {#create-in-app-journey}
+
+Ga als volgt te werk om een bericht in de app toe te voegen:
 
 1. Open uw reis en sleep vervolgens een **[!UICONTROL In-app]** van de **[!UICONTROL Actions]** in het palet.
 
@@ -41,17 +43,17 @@ ht-degree: 0%
 
    1. Klikken **[!UICONTROL Add condition]** als u wilt dat de trigger rekening houdt met meerdere gebeurtenissen of criteria.
    1. Van de **[!UICONTROL Select an event]** selecteert u het type gebeurtenis voor de trigger.
-   1. Selecteer hoe uw gebeurtenissen worden gekoppeld. Kies bijvoorbeeld **[!UICONTROL And]** als u **beide** triggers moeten waar zijn om een bericht weer te geven of **[!UICONTROL Or]** als u wilt dat het bericht wordt getoond als **ofwel** van de triggers zijn waar.
+   1. Selecteer hoe uw gebeurtenissen worden gekoppeld. Kies bijvoorbeeld **[!UICONTROL And]** als u wilt **beide** triggers moeten waar zijn om een bericht weer te geven of **[!UICONTROL Or]** als u wilt dat het bericht wordt getoond als **ofwel** van de triggers zijn waar.
    1. Klikken **[!UICONTROL Make group]** om triggers samen te groeperen.
 
    ![](assets/in_app_journey_3.png)
 
-1. Kies de frequentie waarop uw trigger wordt geactiveerd wanneer uw bericht in de app actief is:
+1. Kies de frequentie waarop uw trigger wordt geactiveerd wanneer uw In-app-bericht actief is:
 
    * **[!UICONTROL Every time]**: Toon altijd het bericht wanneer de gebeurtenissen die in **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
-   * **[!UICONTROL Once]**: Alleen dit bericht weergeven als de gebeurtenissen die voor de eerste keer zijn geselecteerd in het dialoogvenster **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
+   * **[!UICONTROL Once]**: Alleen dit bericht weergeven als de in het dialoogvenster **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
    * **[!UICONTROL Until click through]**: Dit bericht weergeven wanneer de gebeurtenissen zijn geselecteerd in het dialoogvenster **[!UICONTROL Mobile app trigger]** drop-down komt voor tot een interactie gebeurtenis door SDK met een actie van &quot;geklikt&quot;wordt verzonden.
-   * **[!UICONTROL X number of times]**: Toon het bericht slechts een specifiek aantal tijden, die door de waarde wordt bepaald die in **[!UICONTROL Times to display]** veld.
+   * **[!UICONTROL X number of times]**: Alleen een specifiek aantal keren tonen dat het bericht wordt weergegeven. Dit wordt bepaald door de waarde die is ingesteld in het dialoogvenster **[!UICONTROL Times to display]** veld.
 
 1. Selecteer de dag van de week en het specifieke tijdstip waarop u het bericht in de app wilt activeren en klik op **[!UICONTROL Save]**.
 
@@ -59,7 +61,7 @@ ht-degree: 0%
 
 1. Zodra uw bericht in de app klaar is, voltooit u de configuratie en publiceert u uw reis om het te activeren.
 
-Voor meer informatie over hoe te om een reis te vormen, verwijs naar [deze pagina](../building-journeys/journey-gs.md).
+Voor meer informatie over hoe te om een reis te vormen, raadpleeg [deze pagina](../building-journeys/journey-gs.md).
 
 ## Beperkingen van activiteiten in de app {#in-app-activity-limitations}
 
@@ -89,17 +91,17 @@ De **[!UICONTROL In-app performance]** KPI&#39;s geven een gedetailleerde beschr
 
 * **[!UICONTROL Unique impressions]**: aantal unieke gebruikers aan wie het In-app-bericht is bezorgd.
 
-* **[!UICONTROL Impressions]**: totaal aantal in-app berichten dat aan alle gebruikers wordt geleverd.
+* **[!UICONTROL Impressions]**: totaal aantal in-app berichten dat aan alle gebruikers is bezorgd.
 
 * **[!UICONTROL Click rate]**: percentage gebruikers dat interactie had met de knoppen in het In-app-bericht vergeleken met gebruikers die het bericht hebben gezien.
 
-* **[!UICONTROL Dismiss rate]**: percentage in-app berichten dat ontvangers hebben genegeerd.
+* **[!UICONTROL Dismiss rate]**: percentage in-app-berichten dat ontvangers hebben genegeerd.
 
-De **[!UICONTROL In-app summary]** in de grafiek wordt de ontwikkeling van uw In-app-afbeeldingen voor de desbetreffende periode weergegeven.
+De **[!UICONTROL In-app summary]** in de grafiek wordt de ontwikkeling van uw In-app-indrukkingen voor de desbetreffende periode weergegeven.
 
 De **[!UICONTROL Clicks by button]** grafieken en tabel bevatten de beschikbare gegevens voor het gedrag van de ontvanger per knop:
 
-* **[!UICONTROL Clicks]**: het totale aantal ontvangers dat interactie heeft gehad met de knoppen die in het bericht in de app zijn opgenomen.
+* **[!UICONTROL Clicks]**: totaal aantal ontvangers dat interactie heeft gehad met de knoppen die in het bericht in de app zijn opgenomen.
 
 * **[!UICONTROL Click rate]**: percentage gebruikers dat interactie had met de knoppen in het In-app-bericht vergeleken met gebruikers die het bericht hebben gezien.
 +++

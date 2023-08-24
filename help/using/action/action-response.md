@@ -1,28 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Een aangepaste handeling configureren
-description: Leer hoe u een aangepaste handeling configureert
+title: Verbeteringen voor aangepaste acties
+description: Meer informatie over de nieuwste verbeteringen voor aangepaste acties
 feature: Actions
 topic: Administration
 role: Admin
 level: Experienced
 badge: label="Beta" type="Informative"
 keywords: handeling, extern, aangepast, reizen, API
-hide: true
-hidefromtoc: true
-source-git-commit: a3c95497fb7304ddd0aa26435f5d0279ff8fdb0f
+source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '666'
 ht-degree: 4%
 
 ---
 
-# Verbeteringen voor aangepaste acties
+# Verbeteringen voor aangepaste acties {#custom-action-enhancements}
 
 U kunt nu API vraagreacties in douaneacties gebruiken en uw reizen ordenen die op deze reacties worden gebaseerd.
 
-Deze mogelijkheid was alleen beschikbaar bij het gebruik van gegevensbronnen. U kunt deze nu gebruiken met aangepaste handelingen.
+Deze mogelijkheid was eerder alleen beschikbaar bij het gebruik van gegevensbronnen. U kunt deze nu gebruiken met aangepaste handelingen.
 
 >[!AVAILABILITY]
 >
@@ -32,11 +30,11 @@ Deze mogelijkheid was alleen beschikbaar bij het gebruik van gegevensbronnen. U 
 >
 >Aangepaste acties mogen alleen worden gebruikt met persoonlijke of interne eindpunten en moeten worden gebruikt met een passende limiet voor afdekkingen of vertragen. Zie [deze pagina](../configuration/external-systems.md).
 
-## De aangepaste handeling definiëren
+## De aangepaste handeling definiëren {#define-custom-action}
 
 Bij het definiëren van de aangepaste actie zijn twee verbeteringen beschikbaar gesteld: de toevoeging van de methode GET en het nieuwe veld voor de laadreactie. De andere opties en parameters blijven ongewijzigd. Zie [deze pagina](../action/about-custom-action-configuration.md).
 
-### Eindpuntconfiguratie
+### Eindpuntconfiguratie {#endpoint-configuration}
 
 De **URL-configuratie** de naam van de sectie is gewijzigd **Eindpuntconfiguratie**.
 
@@ -44,7 +42,7 @@ In de **Methode** vervolgkeuzelijst, kunt u nu selecteren **GET**.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
-### Payloads
+### Payloads {#payloads-new}
 
 De **Handelingsparameters** de naam van de sectie is gewijzigd **Payloads**. Er zijn twee velden beschikbaar:
 
@@ -80,7 +78,7 @@ De **Handelingsparameters** de naam van de sectie is gewijzigd **Payloads**. Er 
 
 1. Klikken **Opslaan**.
 
-## De respons in een reis benutten
+## De respons in een reis benutten {#response-in-journey}
 
 Voeg gewoon de aangepaste handeling toe aan een reis. U kunt de ladingsgebieden van de reactie in voorwaarden, andere acties en berichtverpersoonlijking dan gebruiken.
 
@@ -119,7 +117,7 @@ U kunt bijvoorbeeld een voorwaarde toevoegen om het aantal loyaliteitspunten te 
 
    ![](assets/action-response11.png)
 
-## Foutstatus{#error-status}
+## Foutstatus {#error-status}
 
 De **jo_status_code** veld is altijd beschikbaar, zelfs als er geen antwoordlading is gedefinieerd.
 
@@ -136,7 +134,7 @@ Een actieaanroep wordt als fout beschouwd wanneer de geretourneerde http-code gr
 >
 >Alleen nieuw gemaakte aangepaste acties bevatten de **jo_status_code** veld uit de doos. Als u deze wilt gebruiken met een bestaande aangepaste handeling, moet u de handeling bijwerken. U kunt bijvoorbeeld de beschrijving bijwerken en opslaan.
 
-## Expressiesyntaxis
+## Expressiesyntaxis {#exp-syntax}
 
 Hier volgt de syntaxis:
 
@@ -160,3 +158,4 @@ Hier volgen enkele voorbeelden:
 ```
 
 Zie voor meer informatie over veldverwijzingen [deze sectie](../building-journeys/expression/field-references.md).
+

@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: extern, bronnen, gegevens, configuratie, verbinding, derde
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 458632fcae14db9fe7d099309b85550e47090340
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 85%
+source-wordcount: '1454'
+ht-degree: 81%
 
 ---
 
@@ -83,20 +83,20 @@ Voor de parameterreeks ‘long/lat’ maken we een veldengroep met de volgende i
 * **[!UICONTROL Dynamic Values]**: voer de verschillende parameters in, gescheiden door een komma, in het voorbeeld ‘long,lat’. Aangezien de parameterwaarden afhankelijk zijn van de uitvoeringscontext, worden ze tijdens de journey’s gedefinieerd. [Meer informatie](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL Response Payload]**: klik in het veld **[!UICONTROL Payload]** en plak een voorbeeld van de payload die door de aanroep is geretourneerd. Voor ons voorbeeld hebben we een payload gebruikt van een API-weerwebsite. Controleer of de veldtypen correct zijn. Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payloadvoorbeeld zijn opgenomen. U kunt klikken op **[!UICONTROL Paste a new payload]** als u de huidige payload wilt wijzigen.
 
-   >[!NOTE]
-   >
-   >Scalaire arrays worden niet ondersteund in de definitie van de responslading.
+  >[!NOTE]
+  >
+  >Scalaire arrays worden niet ondersteund in de definitie van de responslading.
 
 * **[!UICONTROL Sent Payload]**: dit veld staat niet in ons voorbeeld. Deze optie is alleen beschikbaar als u de methode POST selecteert. Plak de payload die naar het externe systeem wordt verzonden.
 
 Bij een GET-aanroep die parameter(s) vereist, voert u de parameter(s) in het veld **[!UICONTROL Dynamic Values]** in en worden deze automatisch toegevoegd aan het eind van de aanroep. Bij een POST-aanroep doet u het volgende:
 
-* geef een lijst op van de parameters die op het aanroeptijdstip moeten worden doorgegeven in het veld **[!UICONTROL Dynamic Values]** (in het voorbeeld hieronder: ‘identifier’).
-* geef ze ook volgens precies dezelfde syntaxis op in de hoofdtekst van de verzonden payload. Hiervoor moet u het volgende toevoegen: ‘param’: ‘naam van de parameter’ (in het onderstaande voorbeeld: ‘identifier’). Volg de onderstaande syntaxis:
+* lijst van de parameters die bij vraagtijd in **[!UICONTROL Dynamic Values]** veld (in het onderstaande voorbeeld: &quot;identifier&quot;).
+* geef ze ook volgens precies dezelfde syntaxis op in de hoofdtekst van de verzonden payload. Hiervoor moet u het volgende toevoegen: &quot;param&quot;: &quot;name of your parameter&quot; (in het onderstaande voorbeeld: &quot;identifier&quot;). Volg de onderstaande syntaxis:
 
-   ```
-   {"id":{"param":"identifier"}}
-   ```
+  ```
+  {"id":{"param":"identifier"}}
+  ```
 
 ![](assets/journey29.png)
 
@@ -132,10 +132,10 @@ De definitie van het eindpunt dat moet worden aangeroepen om de toegangstoken te
 
 * endpoint: URL om het eindpunt te genereren
 * methode van de HTTP-aanvraag bij het eindpunt (GET of POST)
-* kopteksten: sleutel-waarde paren die als kopballen in deze vraag moeten worden geïnjecteerd indien vereist
+* kopballen: sleutel-waarde paren die als kopballen in deze vraag moeten worden ingespoten indien vereist
 * body: beschrijft de hoofdtekst van de aanroep als de methode POST is. Wij steunen een beperkte lichaamsstructuur, die in bodyParams (zeer belangrijke-waardeparen) wordt bepaald. Het bodyType beschrijft de indeling en versleuteling van de hoofdtekst in de aanroep:
-   * &quot;formulier&quot;: betekent dat het inhoudstype application/x-www-form-urlencoded (charset UTF-8) zal zijn en de sleutel-waarde paren zullen in series worden vervaardigd zoals is: key1=value1&amp;key2=value2&amp;...
-   * &quot;json&quot;: betekent dat het inhoudstype application/json (charset UTF-8) zal zijn en de sleutel-waardeparen als json voorwerp in series zullen worden vervaardigd aangezien is: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ..._
+   * &#39;form&#39;: betekent dat het inhoudstype application/x-www-form-urlencoded (charset UTF-8) is en dat de sleutelwaardeparen serieel worden geordend zoals: key1=value1&amp;key2=value2&amp;..
+   * &#39;json&#39;: betekent dat het inhoudstype application/json (charset UTF-8) is en dat de sleutelwaardeparen als een JSON-object worden geserialiseerd: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 De definitie van de manier waarop de toegangstoken in de HTTP-aanvraag van de actie moet worden geïnjecteerd:
 
@@ -208,7 +208,10 @@ Hier is een voorbeeld voor het dragerauthentificatietype:
 
 >[!NOTE]
 >
+>Het verificatietoken wordt per reis in de cache opgeslagen: wanneer twee reizen dezelfde aangepaste handeling gebruiken, heeft elke reis een eigen token in de cache. Deze token wordt niet tussen deze reizen gedeeld.
+>
 >De duur van het geheime voorgeheugen helpt om teveel vraag aan de authentificatieeindpunten te vermijden. Het symbolenbehoud van de authentificatie wordt caching in de diensten, er is geen persistentie. Als de dienst opnieuw wordt begonnen, begint het met een schone geheime voorgeheugen. De cache-duur is standaard 1 uur. In de lading van de douaneauthentificatie, kan het worden aangepast door een andere bewaarduur te specificeren.
+>
 
 Hier ziet u een voorbeeld van het type headerverificatie:
 

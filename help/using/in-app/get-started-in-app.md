@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 3%
@@ -22,7 +22,7 @@ Gebruik Journey Optimizer om meldingen in de app te maken en ervaringsopties te 
 
 >[!AVAILABILITY]
 >
->Momenteel is het In-app-kanaal niet beschikbaar voor organisaties die de invoegtoepassing voor het Adobe Healthcare Shield hebben aangeschaft.
+>Momenteel is het In-app-kanaal niet beschikbaar voor organisaties die de invoegtoepassing Adobe Healthcare Shield hebben aangeschaft.
 >
 
 ## Vereisten{#prerequisites-in-app}
@@ -31,7 +31,7 @@ Voordat u berichten in de app verzendt, moet u:
 
 * Configureer het kanaal in de app. [Meer informatie](inapp-configuration.md)
 
-* Zorg ervoor dat u de juiste machtigingen hebt voor Journey Optimizer-campagnes voordat u begint. [Meer informatie](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+* Zorg ervoor dat u de juiste machtigingen hebt voor Journey Optimizer-campagnes voordat u begint<!--, even if you plan to only use in-app messages in journeys. Campaign permissions are still required-->. [Meer informatie](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
 Als u klaar bent, kunt u uw eerste In-app-bericht maken, configureren en verzenden. Leer hoe u dit kunt bereiken in [deze sectie](create-in-app.md).
 

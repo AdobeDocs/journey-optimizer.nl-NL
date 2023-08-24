@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '1892'
 ht-degree: 1%
 
 ---
@@ -181,6 +181,31 @@ Om dit te doen, laat toe **[!UICONTROL BCC email]** optionele functie op het niv
 Bovendien, wanneer het bepalen van **[!UICONTROL Bcc email]** adres, zorg ervoor om subdomain te gebruiken die een geldige MX verslagconfiguratie heeft, anders zal de verwerking van de e-mailoppervlakte ontbreken.
 
 Als u een fout bij het voorleggen van de e-mailoppervlakte krijgt, betekent het dat het MX- verslag niet voor subdomain van het adres wordt gevormd u inging. Contacteer uw beheerder voor het vormen van het overeenkomstige MX verslag of gebruik een ander adres met een geldige MX verslagconfiguratie.
+
+## Zaadlijst {#seed-list}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_seed_list"
+>title="Een zaadlijst toevoegen"
+>abstract="Selecteer de zaadlijst van uw keus om specifieke e-mailzaadadressen in uw leveringen automatisch te omvatten. Deze adressen zullen op de leveringstijd worden opgenomen en zullen een nauwkeurige kopie van de levering voor betrouwbaarheidsdoeleinden ontvangen."
+
+Een zaadlijst in [!DNL Journey Optimizer] kunt u automatisch specifieke e-mailadressen toevoegen aan uw leveringen. [Meer informatie](../configuration/seed-lists.md)
+
+>[!CAUTION]
+>
+>Deze functie is momenteel alleen van toepassing op het e-mailkanaal.
+
+Selecteer de lijst die voor u relevant is in het dialoogvenster **[!UICONTROL Seed list]** sectie. Leer hoe u een zaadlijst maakt in [deze sectie](../configuration/seed-lists.md#create-seed-list).
+
+![](../configuration/assets/seed-list-surface.png)
+
+>[!NOTE]
+>
+>Er kan slechts één zaadlijst tegelijk worden geselecteerd.
+
+Wanneer de huidige oppervlakte in een campagne of reis wordt gebruikt, zijn de e-mailadressen op de geselecteerde zaadlijst inbegrepen bij de leveringstijd, die zij een exemplaar van de levering voor verzekeringsdoeleinden zullen ontvangen.
+
+Leer hoe u de lijst met voorvertoningen gebruikt in een campagne of een reis in [deze sectie](../configuration/seed-lists.md#use-seed-list).
 
 ## Parameters opnieuw proberen {#email-retry}
 

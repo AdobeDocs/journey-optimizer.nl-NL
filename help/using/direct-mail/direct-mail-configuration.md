@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 173ae09e48a67e0e40aa59f0f714b014eb8b8064
+source-git-commit: 375dfbebcb37f948b468ec9689963b0ffebebecf
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,7 @@ Voordat u dit bestand kunt genereren, moet u het volgende maken:
 >id="ajo_dm_file_routing_details"
 >title="Definieer het bestand dat de configuratie verplettert"
 >abstract="Nadat u een direct-mailbericht hebt gemaakt, wordt het bestand met de doelpublieksgegevens gegenereerd en geëxporteerd naar een server. U moet de serverdetails specificeren zodat uw direct-mailleverancier tot dat dossier voor levering direct-mail kan toegang hebben en gebruiken."
-
-<!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Create a direct mail message"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/direct-mail/create-direct-mail.html" text="Een direct-mailbericht maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
@@ -78,7 +76,7 @@ Om het dossier te vormen dat, volg de stappen hieronder verplettert.
 
    >[!NOTE]
    >
-   >Amazon S3 en SFTP<!--and Azure--> worden ondersteund in [!DNL Journey Optimizer].
+   >Amazon S3, SFTP en Azure worden momenteel ondersteund in [!DNL Journey Optimizer].
 
 1. Vul de gegevens en referenties voor uw server in, zoals het serveradres, de toegangstoets, enzovoort.
 
@@ -135,7 +133,7 @@ Een direct-mailoppervlak moet ook het bestand bevatten dat de configuratie verpl
 
 1. Selecteer de bestandsindeling: **[!UICONTROL CSV]** of **[!UICONTROL Text delimited]**.
 
-1. Als u **[!UICONTROL Text delimited]** definieert u het kolomscheidingsteken naar keuze: tabulatie, puntkomma of pipe<!--or ampersand-->.
+1. Als u **[!UICONTROL Text delimited]** definieert u het kolomscheidingsteken van uw keuze: tabulatie, puntkomma, verticale balk of ampersand.
 
    ![](assets/surface-direct-mail-column-separator.png)
 

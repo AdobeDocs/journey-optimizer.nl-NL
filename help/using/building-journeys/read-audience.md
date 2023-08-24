@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, publiek, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: d9e6c07d8ccd3b836616c7b9813731ff7b26e7ce
+source-git-commit: e06e0585f98897cca339e7923c38d3860767dac6
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 3%
@@ -57,7 +57,7 @@ De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt:
 
    Als het publiek eenmaal is toegevoegd, wordt de opdracht **[!UICONTROL Copy]** kunt u de naam en de id kopiëren:
 
-   `{"name":"Luma app opening and checkout",”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+   `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/read-segment-copy.png)
 
@@ -157,7 +157,7 @@ De segmentatie kan worden gebaseerd op:
 * gegevensbrongegevens
 * de context van de gebeurtenissen maakt deel uit van de reisgegevens , bijvoorbeeld : heeft iemand op het bericht geklikt dat een uur geleden werd ontvangen ?
 * een datum, bijvoorbeeld: zijn we in juni wanneer iemand de reis doorloopt?
-* een tijd , bijvoorbeeld : is het morgenochtend in de tijdzone van de persoon ?
+* een tijd , bijvoorbeeld : is het &#39; s morgens in de tijdzone van de betrokkene ?
 * een algoritme waarin het publiek dat de reis volgt wordt gesplitst op basis van een percentage , bijvoorbeeld : 90 % - 10 % om een controlegroep uit te sluiten
 
 ![](assets/read-segment-audience1.png)

@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
+source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 34%
+source-wordcount: '1424'
+ht-degree: 33%
 
 ---
 
@@ -435,22 +435,23 @@ ht-degree: 34%
       + [Voorbeelden van query](using/data/datasets-query-examples.md)
       + [Ingebouwde schema&#39;s >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
    + [Zoekopdrachten](using/data/get-started-queries.md)
-+ Configuratie{#configuration}
++ Configuratie {#configuration}
    + [Aan de slag met de Journey Optimizer-configuratie](using/configuration/get-started-configuration.md)
+   + [Kanaaloppervlakken instellen](using/configuration/channel-surfaces.md)
    + E-mailsubdomeinen delegeren {#delegate-subdomains}
       + [Aan de slag met subdomeindelegatie](using/configuration/about-subdomain-delegation.md)
       + [Een subdomein delegeren](using/configuration/delegate-subdomain.md)
       + [Een Google TXT-record toevoegen](using/configuration/google-txt.md)
       + [PTR-records openen en bewerken](using/configuration/ptr-records.md)
       + [IP-pools maken](using/configuration/ip-pools.md)
-   + [Kanaaloppervlakken instellen](using/configuration/channel-surfaces.md)
    + E-mailadressen controleren {#monitor-reputation}
       + [Onderdrukkingslijst](using/configuration/manage-suppression-list.md)
       + [Hernieuwde pogingen](using/configuration/retries.md)
       + [Lijst van gewenste personen](using/configuration/allow-list.md)
+   + [zaadlijsten gebruiken](using/configuration/seed-lists.md)
    + [Ondersteuning voor archivering](using/configuration/archiving-support.md)
+   + [Uitvoeringadressen wijzigen](using/configuration/primary-email-addresses.md)
    + [Regels voor frequenties configureren](using/configuration/frequency-rules.md)
-   + [Uitvoeradressen beheren](using/configuration/primary-email-addresses.md)
    + Journey&#39;s configureren {#configure-journeys}
       + [Informatie over gegevensbronnen, gebeurtenissen en handelingen](using/configuration/about-data-sources-events-actions.md)
       + Integreren met externe systemen {#external-systems}
@@ -475,7 +476,7 @@ ht-degree: 34%
          + [Een actie configureren](using/action/about-custom-action-configuration.md)
          + [Integreren met Adobe Campaign Standard](using/action/acs-action.md)
          + [Integreren met Adobe Campaign v7/v8](using/action/acc-action.md)
-         + [Acties](using/action/action-response.md)
+         + [API-aanroepreacties gebruiken in aangepaste handelingen](using/action/action-response.md)
    + [Bronnen](using/start/get-started-sources.md)
 + Toegangsbeheer {#access-control}
    + Overzicht van toegangsbeheer {#privacy}

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 2281daefaf6b45c056ef9100b58f51dcd9c87257
+source-git-commit: 91b82736b86bd01ebb24cca36da56bde7fe84b6e
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 9%
+source-wordcount: '1620'
+ht-degree: 8%
 
 ---
 
@@ -172,3 +172,20 @@ Naast de [timeout](#timeout_and_error) Bij reisactiviteiten wordt ook een wereld
 Vanwege de 30 dagen durende reistijd, wanneer het niet is toegestaan om de reis opnieuw te betreden, kunnen we er niet voor zorgen dat de heringstop meer dan 30 dagen werkt. Aangezien we alle informatie over personen die 30 dagen na hun binnenkomst de reis hebben betreden, verwijderen, kunnen we niet weten dat de persoon eerder, meer dan 30 dagen geleden, is binnengekomen.
 
 Een individu kan alleen een wachtdienst doen als hij of zij genoeg tijd in de reis heeft om de wachttijd voor de 30 dagen reisonderbreking te voltooien. Zie [deze pagina](../building-journeys/wait-activity.md).
+
+## Een reis dupliceren {#duplicate-a-journey}
+
+U kunt een bestaande reis dupliceren vanaf de **Bladeren** tab. Alle objecten en instellingen worden gedupliceerd naar de reiskopie.
+
+Volg onderstaande stappen om dit te doen:
+
+1. Navigeer naar de reis u wilt kopiëren, klik **Meer handelingen** pictogram (de drie punten naast de naam van het transport).
+1. Selecteren **Dupliceren**.
+
+   ![Een reis dupliceren](assets/duplicate-jo.png)
+
+<!--1. Enter the name of the journey and confirm. 
+
+    If no name is specified, t-->The journey copy name is set to the default name, i.e. the name of the initial journey with `_copy` characters added at the end. It can be changed in the journey properties screen.
+
+1. De nieuwe reis wordt gecreeerd en beschikbaar in de reislijst.

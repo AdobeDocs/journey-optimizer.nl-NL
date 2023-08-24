@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
-source-git-commit: 246205d13c1dd30b4f4769780f69e5acdd388e66
+source-git-commit: 7d753a1fd71e85e29c141fc697348579eaa15380
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 2%
+source-wordcount: '442'
+ht-degree: 1%
 
 ---
 
@@ -50,3 +50,15 @@ Voordat u de campagne voor directe mail activeert, moet u controleren of de camp
 Klik op de knop **[!UICONTROL Activate]** knop. Wanneer de campagne start, wordt het extractiebestand automatisch gegenereerd en geëxporteerd naar de server die in uw [bestand dat configuratie verplettert](../direct-mail/direct-mail-configuration.md).
 
 Nadat u de campagne hebt verzonden, kunt u de impact van de campagne voor directe e-mail meten in de campagnerapporten. Raadpleeg deze sectie voor meer informatie over rapporten.
+
+## Toestemming voor direct mail beheren {#dm-consent-management}
+
+In [!DNL Journey Optimizer], wordt de toestemming door het Experience Platform afgehandeld [Goedkeuringsschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie.
+
+Als een profiel ervoor heeft gekozen geen directe e-mail te ontvangen, moet u in de desbetreffende profielkenmerken van het Experience Platform de waarde voor `consents.marketing.postalMail.val` wordt `n` en het corresponderende profiel zal van latere leveringen worden uitgesloten.
+
+Als u dit opnieuw wilt inschakelen, moet u het profielkenmerk wijzigen in `consents.marketing.postalMail.val` : `y`.
+
+Als u de kenmerken van een profiel wilt beheren, gaat u naar het Experience Platform en opent u het profiel door een naamruimte voor identiteiten en een bijbehorende identiteitswaarde te selecteren. Meer informatie in het dialoogvenster [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
+
+Meer informatie over het beheren van opt-out in Journey Optimizer in [deze sectie](../privacy/opt-out.md).
