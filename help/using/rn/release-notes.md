@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
+source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
 workflow-type: tm+mt
-source-wordcount: '3383'
+source-wordcount: '3431'
 ht-degree: 9%
 
 ---
@@ -28,21 +28,21 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 
 Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Send In-app messages in your journeys</strong><br/></th>
+<th><strong>In-app berichten verzenden tijdens uw reizen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now send personalized In-app messages to your app users within a journey. Use Journey Optimizer to design notifications and customize the message layout, display, text, and buttons to create a seamless experience.</p>
+<p>U kunt nu persoonlijke In-app-berichten naar uw app-gebruikers verzenden voor een reis. Met Journey Optimizer kunt u meldingen ontwerpen en de lay-out, weergave, tekst en knoppen van berichten aanpassen voor een naadloze ervaring.</p>
 <img src="assets/in_app_journey_1.png"/>
-<p>For more information, refer to the <a href="../in-app/create-in-app-journey.md">detailed documentation</a>.</p>
+<p>Raadpleeg de <a href="../in-app/create-in-app-journey.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 <table>

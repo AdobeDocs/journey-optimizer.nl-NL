@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 4ecaf60923f32e7bc2363981a1d7c0874b3b7e94
+source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '205'
 ht-degree: 3%
 
 ---
@@ -31,7 +31,7 @@ Voordat u berichten in de app verzendt, moet u:
 
 * Configureer het kanaal in de app. [Meer informatie](inapp-configuration.md)
 
-* Zorg ervoor dat u de juiste machtigingen hebt voor Journey Optimizer-campagnes voordat u begint<!--, even if you plan to only use in-app messages in journeys. Campaign permissions are still required-->. [Meer informatie](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+* Zorg ervoor dat u de juiste machtigingen hebt voor Journey Optimizer-campagnes voordat u begint, zelfs als u alleen in-app-berichten tijdens reizen wilt gebruiken. Campagnemachtigingen zijn nog steeds vereist. [Meer informatie](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
 
 Als u klaar bent, kunt u uw eerste In-app-bericht maken, configureren en verzenden. Leer hoe u dit kunt bereiken in [deze sectie](create-in-app.md).
 
