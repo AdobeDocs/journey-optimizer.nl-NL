@@ -8,11 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: reis, tags
-badge: label="Beta" type="Informatief"
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -21,13 +20,9 @@ ht-degree: 0%
 
 Als Journey Optimizer-expert kunt u uw reizen organiseren met tags. Met tags kunt u objecten snel en eenvoudig classificeren om zoekopdrachten te verbeteren.
 
->[!AVAILABILITY]
->
-> De verenigde markeringen zijn momenteel in Bèta. De documentatie en de functionaliteit kunnen worden gewijzigd.
-
 ## Tags toevoegen aan een rit
 
-De **Tags** in de reiseigenschappen kunt u tags voor uw reis definiëren. U kunt een bestaande tag selecteren of een nieuwe tag maken. Typ de naam van de gewenste tag en selecteer deze in de lijst. Als deze niet beschikbaar is, klikt u op **Maken** om een nieuwe te maken en toe te voegen aan uw reis. U kunt zo veel tags definiëren als nodig is.
+De **Tags** in de reiseigenschappen kunt u tags voor uw reis definiëren. U kunt een bestaande tag selecteren of een nieuwe tag maken. Typ de naam van de gewenste tag en selecteer deze in de lijst. Als deze niet beschikbaar is, klikt u op **Maken** om een nieuwe te maken en deze aan uw reis toe te voegen. U kunt zo veel tags definiëren als nodig is.
 
 ![](assets/tags1.png)
 
@@ -53,7 +48,7 @@ U kunt tags toevoegen aan of verwijderen uit elk type transport (live, concept, 
 
 ## Tags beheren
 
-Beheerders kunnen met de opdracht **Tags** menu, onder **ADMINISTRATIE**. Zie dit [documentatie](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html).
+Beheerders kunnen tags verwijderen en deze op categorieën ordenen met de opdracht **Tags** menu, onder **ADMINISTRATIE**. Zie dit [documentatie](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html).
 
 >[!NOTE]
 >

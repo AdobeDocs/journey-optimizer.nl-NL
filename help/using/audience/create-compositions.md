@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: f924af0e1baadabb97167f42457b1b419256fa8c
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-Deze documentatie bevat gedetailleerde informatie over het werken met de compositie van het publiek in Adobe Journey Optimizer. Als u Adobe Journey Optimizer niet gebruikt, [klik hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html)
+Deze documentatie bevat gedetailleerde informatie over het werken met de compositie van het publiek in Adobe Journey Optimizer. Als u Adobe Journey Optimizer niet gebruikt, [klik hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -27,7 +27,7 @@ Deze documentatie bevat gedetailleerde informatie over het werken met de composi
 
 Ga als volgt te werk om een compositieworkflow te maken:
 
-1. Toegang krijgen tot **[!UICONTROL Audiences]** en selecteert u **[!UICONTROL Create Audience]**.
+1. Toegang krijgen tot de **[!UICONTROL Audiences]** en selecteert u **[!UICONTROL Create Audience]**.
 
 1. Selecteer **[!UICONTROL Compose Audience]**.
 
@@ -39,7 +39,7 @@ Ga als volgt te werk om een compositieworkflow te maken:
 
 1. Het compositicanvas wordt weergegeven met twee standaardactiviteiten:
 
-   * **[!UICONTROL Audience]**: het uitgangspunt van uw samenstelling. Met deze activiteit kunt u een of meer soorten publiek selecteren als basis voor uw workflow.
+   * **[!UICONTROL Audience]**: het beginpunt van de compositie. Met deze activiteit kunt u een of meer soorten publiek selecteren als basis voor uw workflow.
 
    * **[!UICONTROL Save]**: de laatste stap van uw compositie. Met deze activiteit kunt u het resultaat van uw workflow opslaan in een nieuw publiek.
 
@@ -77,7 +77,7 @@ Ga als volgt te werk om een compositieworkflow te maken:
 Alle gemaakte composities zijn toegankelijk via de **[!UICONTROL Compositions]** tab. Ze kunnen meerdere statussen hebben:
 
 * **[!UICONTROL Draft]**: de samenstelling is in uitvoering en is niet gepubliceerd.
-* **[!UICONTROL Published]**: de samenstelling is gepubliceerd , het resulterende publiek is opgeslagen en beschikbaar voor gebruik .
+* **[!UICONTROL Published]**: de compositie is gepubliceerd, het resulterende publiek is opgeslagen en beschikbaar voor gebruik.
 
 ![](assets/audiences-compositions.png)
 

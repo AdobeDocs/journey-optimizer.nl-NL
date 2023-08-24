@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: e-mail, ontwerp, voorraad, middelen
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: dc48cc6d95e4af288727961fd9f7761dee4f2552
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 3%
@@ -22,9 +22,9 @@ U kunt bestaande inhoud importeren in [!DNL Journey Optimizer] of mogelijkheden 
 
 * Gebruiken [!DNL Journey Optimizer] **e-mailontwerpmogelijkheden** om responsieve e-mails te ontwerpen of te importeren. [Meer informatie](content-from-scratch.md)
 
-* Hefboomwerking **Adobe Experience Manager Assets Essentials** om uw e-mails te verrijken, maakt en beheert u uw eigen database met middelen. [Meer informatie](assets-essentials.md)
+* Hefboomwerking **Adobe Experience Manager Assets Essentials** om uw e-mails te verrijken, maakt en beheert u uw eigen database met middelen. [Meer informatie](../content-management/assets-essentials.md)
 
-* Zoeken **Adobe Stock-foto&#39;s** om uw inhoud samen te stellen en uw e-mailontwerp te verbeteren. [Meer informatie](stock.md)
+* Zoeken **Adobe Stock-foto&#39;s** om uw inhoud samen te stellen en uw e-mailontwerp te verbeteren. [Meer informatie](../content-management/stock.md)
 
 * Verbeter de ervaring van klanten door gepersonaliseerde en dynamische berichten te creëren die op hun profielattributen worden gebaseerd. Meer informatie over [personalisatie](../personalization/personalize.md) en [dynamische inhoud](../personalization/get-started-dynamic-content.md).
 
@@ -32,13 +32,13 @@ U kunt bestaande inhoud importeren in [!DNL Journey Optimizer] of mogelijkheden 
 
 ## Aanbevolen werkwijzen voor e-mailontwerp {#best-practices}
 
-Bij het verzenden van e-mails is het belangrijk om te bedenken dat ontvangers deze kunnen doorsturen, wat soms problemen kan veroorzaken bij het weergeven van de e-mail. Dit geldt met name wanneer u CSS-klassen gebruikt die mogelijk niet worden ondersteund door de e-mailprovider die wordt gebruikt voor het doorsturen, bijvoorbeeld als u de CSS-klasse &#39;is-desktop-hidden&#39; gebruikt om een afbeelding op mobiele apparaten te verbergen.
+Bij het verzenden van e-mails is het belangrijk om te bedenken dat ontvangers de berichten kunnen doorsturen, wat soms problemen kan veroorzaken met de weergave van de e-mail. Dit geldt met name wanneer u CSS-klassen gebruikt die mogelijk niet worden ondersteund door de e-mailprovider die wordt gebruikt voor het doorsturen, bijvoorbeeld wanneer u de CSS-klasse &#39;is-desktop-hidden&#39; gebruikt om een afbeelding op mobiele apparaten te verbergen.
 
 Om deze weergaveproblemen tot een minimum te beperken, raden we u aan de structuur van uw e-mailontwerp zo eenvoudig mogelijk te houden. Probeer één ontwerp te gebruiken dat goed werkt voor zowel mobiele als desktopapparaten en gebruik geen complexe CSS-klassen of andere ontwerpelementen die mogelijk niet volledig door alle e-mailclients worden ondersteund. Door deze beste praktijken te volgen, kunt u helpen ervoor zorgen dat uw e-mails constant correct worden teruggegeven, ongeacht hoe zij door ontvangers worden bekeken of door:sturen.
 
 ## Belangrijke stappen om e-mailinhoud te maken {#key-steps}
 
-Zodra u [e-mail toevoegen](create-email.md) voor een reis of een campagne, kunt u beginnen uw e-mailinhoud te creëren.
+Als u eenmaal [een e-mail toevoegen](create-email.md) voor een reis of een campagne, kunt u beginnen uw e-mailinhoud te creëren.
 
 1. Van het reis of scherm van de campagneconfiguratie, ga door **[!UICONTROL Edit content]** scherm voor toegang tot de e-mailontwerper. [Meer informatie](create-email.md#define-email-content)
 
@@ -46,13 +46,13 @@ Zodra u [e-mail toevoegen](create-email.md) voor een reis of een campagne, kunt 
 
 1. Kies op de introductiepagina van E-mail Designer hoe u uw e-mail wilt ontwerpen uit de volgende opties:
 
-   * **Ontwerp uw e-mail helemaal zelf** via de interface van de e-mailontwerper en met behulp van afbeeldingen van [Adobe Experience Manager Assets Essentials](assets-essentials.md). Leer hoe u uw e-mailinhoud ontwerpt in [deze sectie](content-from-scratch.md).
+   * **Ontwerp uw e-mail helemaal zelf** via de interface van de e-mailontwerper en met behulp van afbeeldingen van [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md). Leer hoe u uw e-mailinhoud ontwerpt in [deze sectie](content-from-scratch.md).
 
    * **Code of paste raw HTML** rechtstreeks in de e-mailontwerper. Leer hoe u uw eigen inhoud codeert in [deze sectie](code-content.md).
 
-      >[!NOTE]
-      >
-      >In een campagne kunt u ook de opdracht **[!UICONTROL Code Editor]** van de knop **[!UICONTROL Edit content]** scherm. [Meer informatie](create-email.md#define-email-content)
+     >[!NOTE]
+     >
+     >In een campagne kunt u ook de **[!UICONTROL Code Editor]** van de knop **[!UICONTROL Edit content]** scherm. [Meer informatie](create-email.md#define-email-content)
 
    * **Bestaande HTML-inhoud importeren** uit een bestand of een ZIP-map. Leer hoe u e-mailinhoud importeert in [deze sectie](existing-content.md).
 

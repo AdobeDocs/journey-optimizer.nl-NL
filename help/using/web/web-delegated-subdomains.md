@@ -7,7 +7,7 @@ role: Admin
 level: Intermediate
 keywords: web, subdomeinen, configuratie
 exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: 40cdcace9788206ad32dc6ae1e5f70c66e684bcb
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 >title="Een websubdomein instellen"
 >abstract="Selecteer een subdomein in de lijst met subdomeinen die zijn gedelegeerd aan de Adobe. U kunt dit websubdomein instellen als het standaardsubdomein, maar er kan slechts één standaardsubdomein tegelijk worden gebruikt."
 
-Als u tijdens het ontwerpen van een webversie inhoud toevoegt die afkomstig is van de [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md) moet u het subdomein instellen dat wordt gebruikt om deze inhoud te publiceren.
+Als u tijdens het ontwerpen van een webversie inhoud toevoegt die afkomstig is van de [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) moet u het subdomein instellen dat wordt gebruikt om deze inhoud te publiceren.
 
 Hiervoor moet u kiezen uit de lijst met subdomeinen die al zijn gedelegeerd aan de Adobe. Meer informatie over het delegeren van subdomeinen naar Adobe in [deze sectie](../configuration/delegate-subdomain.md).
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 657bed1a3419fd536c5a80f3b9fc8d7c52ae1325
+source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-Deze documentatie bevat gedetailleerde informatie over het werken met de compositie van het publiek in Adobe Journey Optimizer. Als u een klant bent die alleen in realtime het profiel van de klant heeft en geen Adobe Journey Optimizer gebruikt, [klik hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html).
+Deze documentatie bevat gedetailleerde informatie over het werken met de compositie van het publiek in Adobe Journey Optimizer. Als u een klant bent die alleen in realtime het profiel van de klant heeft en geen Adobe Journey Optimizer gebruikt, [klik hier](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -36,7 +36,7 @@ Als u klaar bent, **resulterend publiek** worden samen met het bestaande publiek
 
 >[!IMPORTANT]
 >
->Publiek dat het resultaat is van samenstellingsworkflows kan alleen worden gericht op Journey Optimizer-campagnes. Zij zijn niet beschikbaar voor gebruik tijdens reizen.
+>Publiek dat het resultaat is van samenstellingsworkflows, kan alleen worden gericht op Journey Optimizer-campagnes. Zij zijn niet beschikbaar voor gebruik tijdens reizen.
 >
 >Campagnes in Adobe Journey Optimizer zijn nog niet geïntegreerd met de politie. Daarom worden labels voor gegevensgebruik die u toepast op uw publiekskenmerken, niet afgedwongen in Journey Optimizer-campagnes.
 

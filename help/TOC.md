@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 98e9d4530feb584ddcbf460714f1302b87d7822a
+source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1416'
 ht-degree: 34%
 
 ---
@@ -185,9 +185,6 @@ ht-degree: 34%
       + Uw inhoud ontwerpen {#add-content}
          + [Inhoudscomponenten gebruiken](using/email/content-components.md)
          + [Koppelingen toevoegen en berichten bijhouden](using/email/message-tracking.md)
-         + Elementen beheren {#manage-asset}
-            + [Werken met Assets Essentials](using/email/assets-essentials.md)
-            + [Werken met Adobe Stock](using/email/stock.md)
          + [Aangepaste aanbiedingen invoegen](using/email/add-offers-email.md)
          + [De tekstversie genereren](using/email/text-version-email.md)
          + [Een preheader toevoegen](using/email/preheader.md)
@@ -251,6 +248,13 @@ ht-degree: 34%
    + Landingspagina’s configureren {#lp-configuration}
       + [Subdomeinen van bestemmingspagina configureren](using/landing-pages/lp-subdomains.md)
       + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
++ Contentmanagement {#content-management}
+   + [Werken met Assets Essentials](using/content-management/assets-essentials.md)
+   + [Werken met Adobe Stock](using/content-management/stock.md)
+   + Werken met de Inhoudsassistent{#content-assistant}
+      + [Aan de slag met de inhoudsassistent](using/content-management/gs-generative.md)
+      + [Titel genereren](using/content-management/generative-title.md)
+      + [Afbeelding genereren](using/content-management/generative-image.md)
 + Persoonlijke en dynamische inhoud {#personalized-dynamic-content}
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)

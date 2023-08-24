@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 0e0c293b31e3b74b57b12e0ae06f6ea9eb4d0dc1
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 5%
@@ -21,7 +21,7 @@ Voor toegang tot  [!DNL Adobe Journey Optimizer], verbinding maken met [Adobe Ex
 
 Belangrijke concepten bij het bladeren in de gebruikersinterface komen veel voor in Adobe Experience Platform. Zie [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide){target="_blank"} voor meer informatie .
 
-De componenten en mogelijkheden die beschikbaar zijn in de gebruikersinterface zijn afhankelijk van uw [machtigingen](../administration/permissions.md) en op uw [licentiepakket](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Neem voor alle vragen contact op met uw Adobe Customer Success Manager.
+De componenten en mogelijkheden die beschikbaar zijn in de gebruikersinterface zijn afhankelijk van uw [machtigingen](../administration/permissions.md) en op uw [licentiepakket](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Neem voor alle vragen contact op met de Customer Success Manager van de Adobe.
 
 >[!NOTE]
 >
@@ -53,11 +53,11 @@ Gebruik de koppelingen onder aan de homepage voor meer informatie over hoe u beg
 
 Bouw campagnes en reizen van deze sectie.
 
-* **[!UICONTROL Campaigns]** - Maak, configureer en orkestreer campagnes om eenmalige inhoud aan een bepaald publiek te leveren via verschillende kanalen. [Meer informatie](../campaigns/get-started-with-campaigns.md)
+* **[!UICONTROL Campaigns]** - Maak, configureer en orkestreer campagnes om eenmalige inhoud aan een bepaald publiek te leveren, met behulp van verschillende kanalen. [Meer informatie](../campaigns/get-started-with-campaigns.md)
 
-* **[!UICONTROL Journeys]** - Maak, configureer en orkestreer uw klantritten: combineer de gebeurtenissen, de organisatie en de actieactiviteiten om uw multi-step scenario&#39;s over het kanaal te bouwen. [Meer informatie](../building-journeys/journey-gs.md#jo-build)
+* **[!UICONTROL Journeys]** - Maak, configureer en orkestreer uw klantritten: combineer de gebeurtenissen, organisatie en actieactiviteiten om uw meerstapsscenario&#39;s voor meerdere kanalen samen te stellen. [Meer informatie](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL Landing pages]** - bestemmingspagina&#39;s maken, ontwerpen, testen en publiceren: Verzend uw gebruikersverbindingen naar online vormen waar zij kunnen opt-in of opt-out van het ontvangen van uw mededelingen, of aan de specifieke diensten intekenen. [Meer informatie](../landing-pages/get-started-lp.md)
+* **[!UICONTROL Landing pages]** - bestemmingspagina&#39;s maken, ontwerpen, testen en publiceren: stuur uw gebruikers koppelingen naar onlineformulieren waar ze zich kunnen aanmelden of ervoor kunnen kiezen uw communicatie niet te ontvangen, of abonneer op specifieke services. [Meer informatie](../landing-pages/get-started-lp.md)
 
 
 ### [!UICONTROL DECISION MANAGEMENT] {#left-nav-offers}
@@ -72,11 +72,11 @@ Maak voorstellen en componenten van deze sectie.
 
 Inhoud van deze sectie maken en beheren.
 
-* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] is een gecentraliseerde opslagplaats van activa die u kunt gebruiken om uw berichten te bevolken. [Meer informatie](../email/assets-essentials.md)
+* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] is een gecentraliseerde opslagplaats van activa die u kunt gebruiken om uw berichten te bevolken. [Meer informatie](../content-management/assets-essentials.md)
 
 * **[!UICONTROL Content templates]** - Voor een versneld en verbeterd ontwerpproces maakt u zelfstandige sjablonen om aangepaste inhoud eenvoudig te hergebruiken in Journey Optimizer-campagnes en -reizen. [Meer informatie](../email/content-templates.md)
 
-* **[!UICONTROL Fragments]** - Fragmenten maken en beheren voor een vloeiend e-mailontwerpproces: Maak vooraf aangepaste inhoudsblokken die kunnen worden gebruikt om snel e-mailinhoud samen te stellen. [Meer informatie](../email/fragments.md)
+* **[!UICONTROL Fragments]** - Fragmenten maken en beheren om het ontwerpen van e-mail soepel te laten verlopen: maak vooraf aangepaste inhoudblokken die kunnen worden gebruikt om e-mailinhoud snel samen te stellen. [Meer informatie](../email/fragments.md)
 
 ### [!UICONTROL DATA MANAGEMENT] {#left-nav-data}
 
@@ -178,7 +178,7 @@ De gebruikersinterface is beschikbaar in de volgende talen:
 * Duits
 * Italiaans
 * Spaans
-* Portugees (Braziliaans)
+* Portugees (Brazilië)
 * Japans
 * Koreaans
 * Traditioneel Chinees

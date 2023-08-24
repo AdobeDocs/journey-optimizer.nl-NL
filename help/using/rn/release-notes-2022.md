@@ -1,10 +1,10 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Release-aantekeningen 2022
+title: Opmerkingen bij de release 2022
 description: Opmerkingen bij de release van Journey Optimizer 2022
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 17dd8e2226555ba6bf74f813c11bdeecac05ddd2
 workflow-type: tm+mt
 source-wordcount: '3575'
 ht-degree: 9%
@@ -212,13 +212,13 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 **Beheer**
 
 * Wanneer u de lijst van gewenste personen activeert of deactiveert, wordt nu een nieuwe waarschuwing weergegeven waarin de effecten van elke actie worden beschreven. [Meer informatie](../configuration/allow-list.md#enable-allow-list)
-* De gebruikersinterface voor het creëren van kanaaloppervlakken, het creëren van IP-pools, het beheren van de suppressielijst en de lijst van gewenste personen, en het configureren van het SMS-kanaal is bijgewerkt.
+* De gebruikersinterface voor het creëren van kanaaloppervlakten, het creëren van IP pools, het beheren van de suppressielijst en de lijst van gewenste personen, en het vormen van het kanaal van SMS is bijgewerkt.
 * Wanneer u nu het eerste kanaaloppervlak voor een bepaald subdomein maakt, duurt de verwerkingstijd 10 minuten tot 10 dagen en slechts 3 uur voor volgende oppervlakken die dat subdomein gebruiken. [Meer informatie](../configuration/channel-surfaces.md#create-channel-surface)
 * De gebruikersinterface voor het maken van voorinstellingen voor openingspagina&#39;s en het landen van subdomeinen van de pagina is bijgewerkt. [Meer informatie](../landing-pages/lp-subdomains.md)
 
 **Controles van audits**
 
-* Met Journey Optimizer kunt u acties identificeren die door gebruikers in het systeem worden uitgevoerd op verschillende services en mogelijkheden, zoals campagnes, reizen, berichten, landingspagina&#39;s enz. De middelen van het logboek van de controle omvatten nu veranderingen op diverse andere acties, en worden automatisch geregistreerd aangezien de activiteit voorkomt. Meer informatie vindt u [op deze pagina](../privacy/audit-logs.md).
+* Met Journey Optimizer kunt u acties identificeren die door gebruikers in het systeem worden uitgevoerd op verschillende services en mogelijkheden, zoals campagnes, reizen, berichten, landingspagina&#39;s, enz. De middelen van het logboek van de controle omvatten nu veranderingen op diverse andere acties, en worden automatisch geregistreerd aangezien de activiteit voorkomt. Meer informatie vindt u [op deze pagina](../privacy/audit-logs.md).
 
 **Ondersteuning voor archivering**
 
@@ -236,7 +236,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 
 * Modus Reisexplosie is vervangen door Modus Snelle levering campagne. [Meer informatie](../push/create-push.md#rapid-delivery)
 * Om de prestaties te verbeteren, kunnen de groepen van het de gebeurtenisgebied van de Ervaring niet meer worden gebruikt in reizen die met een Gelezen publiek, een kwalificatie van het Publiek of een bedrijfsgebeurtenisactiviteit beginnen. Deze wijziging geldt alleen voor nieuwe reizen. De bestaande zullen het huidige gedrag houden. [Meer informatie](../start/guardrails.md#expression-editor)
-* De limiet van 1 uur voor geplande leestuchtreizen is verwijderd. Deze reizen kunnen nu zonder vertraging worden uitgevoerd.
+* De limiet van 1 uur voor geplande leestuchtritten is verwijderd. Deze reizen kunnen nu zonder vertraging worden uitgevoerd.
 
 
 
@@ -323,7 +323,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer biedt een nieuwe stroom voor het schrijven van berichten in de pers. In-line berichten besparen gebruikers aanzienlijke tijd en stroomlijnen het workflowproces voor het maken en leveren van een e-mail, een pushmelding of een SMS in Journey Optimizer. Door Berichten als afzonderlijke stap te verwijderen en in plaats daarvan editable in-line als deel van een actie op het Canvas van de Reis, zullen de gebruikers minder knopen moeten klikken en minder schermen navigeren om hun inhoud te ontwerpen en uit te geven.</p>
+<p>Journey Optimizer biedt een nieuwe stroom voor het schrijven van berichten in de pers. In-line berichten besparen gebruikers aanzienlijke tijd en stroomlijnen het workflowproces voor het maken en leveren van een e-mail, een pushmelding of een SMS in Journey Optimizer. Door Berichten als afzonderlijke stap te verwijderen en in plaats daarvan editable in-line als deel van een actie op het Canvas van de Reis te maken, zullen de gebruikers minder knopen moeten klikken en minder schermen navigeren om hun inhoud te ontwerpen en uit te geven.</p>
 <img src="assets/do-not-localize/inline.gif"/>
 </td>
 </tr>
@@ -340,7 +340,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 <tbody>
 <tr>
 <td>
-<p>U kunt schemagebieden met etiketten nu identificeren die organisatorisch of gegevensgebruikswerkingsgebied bepalen. De beheerders kunnen de interface van Toestemmingen gebruiken om toegangsbeleid te bepalen dat XDM schemagebieden behandelt en beter de toegang beheren die aan gebruikers of groepen gebruikers (interne, externe, of derdegebruikers) wordt gegeven, en toegang tot specifieke types van gegevens (d.w.z. Gevoelige Persoonlijke Gegevens/SPD) te beheren.</p>
+<p>U kunt schemagebieden met etiketten nu identificeren die organisatorisch of gegevensgebruikswerkingsgebied bepalen. Beheerders kunnen de interface voor machtigingen gebruiken om toegangsbeleid te definiëren dat betrekking heeft op XDM-schemavelden en om de toegang die wordt verleend aan gebruikers of groepen gebruikers (interne, externe of externe gebruikers) beter te beheren, en om toegang tot specifieke typen gegevens (d.w.z. gevoelige persoonlijke gegevens/SPD) te beheren.</p>
 <p>Het gebruik van op attributen-gebaseerde toegangsbeheer is momenteel beperkt tot geselecteerde gebruikers, en zal aan alle milieu's in een toekomstige versie worden opgesteld.</p>
 <p>Raadpleeg de <a href="../administration/attribute-based-access.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
@@ -387,7 +387,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 
 **Journeys**
 
-* **Een reis beëindigen** - Op het canvas **Einde** activiteit is verwijderd uit het palet. Eindtags worden nu standaard aan het einde van elk pad toegevoegd en kunnen niet worden verwijderd. Dankzij deze verbetering kan beter worden aangegeven waar een klant de reis heeft verlaten, zonder dat de reisdeskundige enige actie hoeft te ondernemen. Zie de [documentatie](../building-journeys/end-journey.md) en [functievideo](https://video.tv.adobe.com/v/345376){target="_blank"}.
+* **Een reis beëindigen** - In het reiscanvas **Einde** activiteit is verwijderd uit het palet. Eindtags worden nu standaard aan het einde van elk pad toegevoegd en kunnen niet worden verwijderd. Dankzij deze verbetering kan beter worden aangegeven waar een klant de reis heeft verlaten, zonder dat de reisdeskundige enige actie hoeft te ondernemen. Zie de [documentatie](../building-journeys/end-journey.md) en [functievideo](https://video.tv.adobe.com/v/345376){target="_blank"}.
 
 
 * De **Tijdzone van profiel** Deze optie is nu standaard uitgeschakeld in reiseigenschappen. [Meer informatie](../building-journeys/timezone-management.md#timezone-from-profiles)
@@ -400,11 +400,11 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 
 * **PTR-recordeditie** - Wanneer u nu een PTR-record bijwerkt, duurt de verwerkingstijd maximaal 3 uur. [Meer informatie](../configuration/ptr-records.md#processing)
 
-* **UI lijst van gewenste personen** - U kunt nu de Journey Optimizer-gebruikersinterface gebruiken om nieuwe e-mailadressen of domeinen aan de lijst van gewenste personen toe te voegen. [Meer informatie](../configuration/allow-list.md)
+* **UI LIJST VAN GEWENSTE PERSONEN** - U kunt nu de Journey Optimizer-gebruikersinterface gebruiken om nieuwe e-mailadressen of domeinen aan de lijst van gewenste personen toe te voegen. [Meer informatie](../configuration/allow-list.md)
 
 * **Update voor logica van lijst van gewenste personen** - De logica lijst van gewenste personen wordt nu toegepast zodra de functie is ingeschakeld, zelfs als de lijst leeg is. [Meer informatie](../configuration/allow-list.md#logic)
 
-* **Parameters voor URL-tracking** - U kunt de Expressieeditor nu gebruiken om URL-volgparameters in uw e-mailoppervlakken (dus voorinstellingen) te configureren. [Meer informatie](../email/email-settings.md#url-tracking)
+* **Parameters voor URL-tracking** - U kunt nu de Expressieeditor gebruiken om URL-volgparameters in uw e-mailoppervlakken (dus voorinstellingen) te configureren. [Meer informatie](../email/email-settings.md#url-tracking)
 
 **Beslissingsbeheer**
 
@@ -426,7 +426,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 <td>
 <p>U kunt nu SMS in Journey Optimizer maken, personaliseren en verzenden via integratie met <b>Sinch</b> of <b>Twilio</b>.</p>
 <!--img src="assets/do-not-localize/SMS.gif"/-->
-<p>Het SMS-kanaal is momenteel alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.</p>
+<p>Het SMS-kanaal is momenteel alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe.</p>
 <p>Leer hoe u in dit venster een SMS maakt en verzendt <a href="../sms/create-sms.md">gedetailleerde documentatie</a>.</p>
 </td>
 </tr>
@@ -443,9 +443,9 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 <tbody>
 <tr>
 <td>
-<p>Met de integratie-insteekmodule Adobe Stock en Adobe Journey Optimizer Email Designer kunnen klanten eenvoudig door afbeeldingen navigeren, licenties aanschaffen en afbeeldingen opslaan voor gebruik in berichtontwerpen. </br> De nieuwe <b>Vergelijkbare stockfoto's zoeken</b> kunt u ook Stock-foto's zoeken die overeenkomen met de inhoud, kleur en compositie van de afbeeldingen. </p>
+<p>De integratie-insteekmodule Adobe Stock en Adobe Journey Optimizer Email Designer biedt klanten een eenvoudige manier om te navigeren in afbeeldingen en deze te licentiëren en op te slaan voor gebruik in het schrijven van berichten. </br> De nieuwe <b>Vergelijkbare stockfoto's zoeken</b> kunt u ook Stock-foto's zoeken die overeenkomen met de inhoud, kleur en compositie van de afbeeldingen. </p>
 <!--img src="assets/do-not-localize/stock-rn.gif"/-->
-<p>Raadpleeg de <a href="../email/stock.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="../content-management/stock.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -495,7 +495,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 <tbody>
 <tr>
 <td>
-<p>U kunt de ervaringen nu opnieuw maken van een Journey Optimizer-sandbox naar een andere sandbox, bijvoorbeeld van een niet-productiesandbox naar een productiesandbox. Deze nieuwe mogelijkheid kopieert een volledige Reis, inclusief alle objecten waarvan de Reis afhankelijk is om correct te worden uitgevoerd, van de ene omgeving naar de andere. Naast de Reizen, kunt u andere componenten, zoals Aanbiedingen, Berichten, Schema's, Datasets, Gegevensbronnen, Gebeurtenissen, en Acties ook kopiëren.</p>
+<p>U kunt de ervaringen nu opnieuw maken van een Journey Optimizer-sandbox naar een andere sandbox, bijvoorbeeld van een niet-productiesandbox naar een productiesandbox. Deze nieuwe mogelijkheid kopieert een volledige Reis, inclusief alle objecten waarvan de Reis afhankelijk is om correct te worden uitgevoerd, van de ene omgeving naar de andere. Naast Reizen kunt u ook andere componenten kopiëren, zoals Aanbiedingen, Berichten, Schema's, Datasets, Gegevensbronnen, Gebeurtenissen en Handelingen.</p>
 <p>Raadpleeg de <a href="../building-journeys/copy-to-sandbox.md">gedetailleerde documentatie</a> voor meer informatie.
 </td>
 </tr>
@@ -521,7 +521,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 
 * **Voorvertoning van URL-parameters bijhouden** - Als u een berichtvoorinstelling configureert en URL-trackingparameters definieert, wordt nu een dynamische voorvertoning van de resulterende URL weergegeven. [Meer informatie](../email/email-settings.md#url-tracking)
 
-* **Vooraf ingestelde berichtversie** - Wanneer u nu een berichtvoorinstelling bijwerkt, kan de verwerkingstijd maximaal 3 uur in beslag nemen. [Meer informatie](../configuration/channel-surfaces.md#edit-channel-surface)
+* **Vooraf ingestelde berichtversie** - Wanneer u nu een berichtvoorinstelling bijwerkt, kan de verwerkingstijd maximaal 3 uur duren. [Meer informatie](../configuration/channel-surfaces.md#edit-channel-surface)
 
 * **IP-pooleditie** - Wanneer het bijwerken van een IP pool, kan de verwerkingstijd slechts tot 3 uren vergen. [Meer informatie](../configuration/ip-pools.md#edit-ip-pool)
 
@@ -616,11 +616,11 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 **Journeys**
 
 * **Lees publiek** - Eenmalig Leespubliek wordt nu 30 dagen na de uitvoering van de reis de status Voltooid. Voor een gepland leespubliek duurt het 30 dagen na de uitvoering van het laatste exemplaar. [Meer informatie](../building-journeys/read-audience.md)
-* **Expression-editor** - de [limiet](../building-journeys/functions/functionlimit.md) Er is een functie toegevoegd waarmee u het aantal items in een lijst kunt beperken. De [sorteren](../building-journeys/functions/functionsort.md) Met deze functie kunt u nu een lijstobject sorteren. De ondersteuning van listObject is ook toegevoegd aan de [ontkenning](../building-journeys/functions/functiondistinct.md) en [differentWithNull](../building-journeys/functions/functiondistinctwithnull.md) functies.
+* **Expression-editor** - de [limiet](../building-journeys/functions/functionlimit.md) Er is een functie toegevoegd waarmee u het aantal items in een lijst kunt beperken. De [sorteren](../building-journeys/functions/functionsort.md) Met deze functie kunt u nu een lijstobject sorteren. De ondersteuning van listObject is ook toegevoegd aan de [onenigheid](../building-journeys/functions/functiondistinct.md) en [differentWithNull](../building-journeys/functions/functiondistinctwithnull.md) functies.
 
 **Beheer**
 
-* **Update voor gebruiksdashboard voor licenties** - Het gebruiksdashboard voor licenties is beschikbaar in het dialoogvenster [!DNL Adobe Journey Optimizer] de gebruikersinterface weerspiegelt nu de juiste waarde voor de **Gelicentieerd** Gemiddelde profielrijkheid. Deze metrische weergave wordt verlaagd, wat betekent dat de licentielimiet nu correct wordt gerapporteerd. [Meer informatie](../audience/license-usage.md)
+* **Update van het gebruiksdashboard voor licenties** - Het gebruiksdashboard voor licenties is beschikbaar in het dialoogvenster [!DNL Adobe Journey Optimizer] de gebruikersinterface weerspiegelt nu de juiste waarde voor de **Gelicentieerd** Gemiddelde profielrijkheid. Deze metrische weergave wordt verlaagd, wat betekent dat de licentielimiet nu correct wordt gerapporteerd. [Meer informatie](../audience/license-usage.md)
 
 
 ## Release van april 2022 {#april-2022-release}
@@ -629,7 +629,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 
 **Landingspagina’s**
 
-* **Nieuwe optie voor selectievakjes opt-in/opt-out** - U kunt nu één selectievakje voor aanmelding/opt-out invoegen op abonnementsbestemmingspagina&#39;s. Gebruikers moeten het selectievakje voor toestemming (opt-in) inschakelen en het selectievakje uitschakelen om hun toestemming (opt-out) te verwijderen. [Meer informatie](../landing-pages/design-lp.md#define-lp-specific-content)
+* **Nieuwe optie voor selectievakjes opt-in/opt-out** - U kunt nu een enkel selectievakje voor aanmelding/opt-out invoegen op abonnementsbestemmingspagina&#39;s. Gebruikers moeten het selectievakje voor toestemming (opt-in) inschakelen en het selectievakje uitschakelen om hun toestemming (opt-out) te verwijderen. [Meer informatie](../landing-pages/design-lp.md#define-lp-specific-content)
 
 * **Vooraf opgevulde landingspaginavelden** - Het is nu mogelijk om gebruikers de mogelijkheid te geven om de landingspagina-velden vooraf te vullen met profielinformatie. [Meer informatie](../landing-pages/create-lp.md#configure-primary-page)
 
@@ -651,7 +651,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 
 **Integratie met Adobe Campaign Standard**
 
-Als Adobe Campaign Standard-klant kunt u nu e-mails, pushberichten en SMS verzenden via Journey Optimizer. Gebruik de nieuwe ingebouwde acties om de mogelijkheden van het Overseinen van de Campaign Standard Transactie in Journey Optimizer te gebruiken.  [Meer informatie](../action/acs-action.md)
+Als Adobe Campaign Standard-klant kunt u nu e-mails, pushberichten en SMS verzenden via Journey Optimizer. Gebruik de nieuwe ingebouwde acties om de Transactionele mogelijkheden van het Overseinen van het Campaign Standard in Journey Optimizer te gebruiken.  [Meer informatie](../action/acs-action.md)
 
 <!--
 ### Fixes
@@ -749,7 +749,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tbody>
 <tr>
 <td>
-<p>In Journey Optimizer-berichtinhoud kunt u nu UTM-parameters aan uw koppelingen toevoegen: zij kunnen extra gegevens over die verbinding verstrekken, en u helpen identificeren waar en waarom een persoon op uw verbinding klikte.</p>
+<p>In Journey Optimizer-berichtinhoud kunt u nu UTM-parameters aan uw koppelingen toevoegen. Deze kunnen aanvullende gegevens over die koppeling verschaffen en u helpen te bepalen waar en waarom iemand op uw koppeling heeft geklikt.</p>
 <p>Raadpleeg de <a href="../configuration/channel-surfaces.md#configure-email-settings">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -769,7 +769,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
    * In de lijst Berichtenuitvoering kunt u nu proefdrukken uitsluiten van de lijst met leveringen.
    * In uw Live/Global-rapporten kunt u testgebeurtenissen uitsluiten.
 
-* U kunt nu rapporten openen over de gegevens voor Tijdoptimalisatie verzenden: het aantal personen dat onmiddellijk berichten was en het aantal personen dat met optimalisatie van 1 uur, optimalisatie van 2 uur, enz. werd gecommuniceerd.
+* U hebt nu toegang tot rapporten over de optimalisatiegegevens van Verzendtijd: het aantal personen dat onmiddellijk berichten waren en het aantal personen dat via optimalisatie van 1 uur werd gemaild, 2 uur optimalisatie, enz.
 
 <!--* decision management reports are now available in Journey Optimizer. You can access the following metrics: Offers sent - Offers' impression rate - Offers' click rate - Breakdown report on Offers' sent.-->
 
@@ -790,7 +790,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tbody>
 <tr>
 <td>
-<p>Wanneer u een <strong>Voorwaarde</strong> tijdens een rit kunt u nu een profieluiteinde definiëren. Met dit nieuwe voorwaardetype kunt u een maximumaantal profielen instellen voor een reispad. Wanneer deze limiet is bereikt, hebben de invoerprofielen een ander pad. Dit staat u toe om het volume van uw leveringen (IP oprijplaat) te verhogen. U kunt bijvoorbeeld de levering in een domein opsplitsen door de uitvoering te splitsen: verzend 1000 berichten op dag 1, 2000 op dag 2, enz.</p>
+<p>Wanneer u een <strong>Voorwaarde</strong> tijdens een rit kunt u nu een profieluiteinde definiëren. Met dit nieuwe voorwaardetype kunt u een maximumaantal profielen instellen voor een reispad. Wanneer deze limiet is bereikt, hebben de invoerprofielen een ander pad. Dit staat u toe om het volume van uw leveringen (IP oprijplaat) te verhogen. U kunt bijvoorbeeld uw leveringen opvoeren op een domein door de uitvoering te splitsen: verzend 1000 berichten op dag 1, 2000 op dag 2, enz.</p>
 <p>Raadpleeg voor meer informatie de <a href="../building-journeys/condition-activity.md#profile_cap">gedetailleerde documentatie</a> en aanverwante <a href="../building-journeys/ramp-up-deliveries-uc.md">voorbeeldgebruik</a>.</p>
 </td>
 </tr>

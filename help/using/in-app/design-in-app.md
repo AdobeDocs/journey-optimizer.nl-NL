@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, bericht, ontwerp, opmaak
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 9%
@@ -20,11 +20,11 @@ U kunt de inhoud in de app bewerken om ervaringsopties te configureren:
 
 * In een **[!UICONTROL Campaign]** van de **[!UICONTROL Action]** om de berichtinhoud te configureren, klikt u op de knop **[!UICONTROL Edit content]** knop.
 
-   ![](assets/edit-in-app-content.png)
+  ![](assets/edit-in-app-content.png)
 
 * In een **[!UICONTROL Journey]** in het geavanceerde menu van uw In-app **[!UICONTROL Action]** kunt u uw inhoud ontwerpen met de **[!UICONTROL Edit content]** knop.
 
-   ![](assets/design_inapp_journey.png)
+  ![](assets/design_inapp_journey.png)
 
 De **[!UICONTROL Advanced formatting]** als u schakelt, worden aanvullende opties geactiveerd om de ervaring aan te passen.
 
@@ -38,27 +38,27 @@ Van de **[!UICONTROL Message Layout]** , selecteert u een van de vier verschille
 
 * **[!UICONTROL Fullscreen]**: Dit type lay-out bedekt het volledige scherm van de apparaten van uw doelgroep.
 
-   Media- (afbeeldingen, video), tekst- en knopcomponenten worden ondersteund.
+  Media- (afbeeldingen, video), tekst- en knopcomponenten worden ondersteund.
 
 * **[!UICONTROL Modal]**: Deze lay-out wordt weergegeven in een groot waarschuwingsvenster. Uw applicatie is op de achtergrond nog steeds zichtbaar.
 
-   Media- (afbeeldingen, video), tekst- en knopcomponenten worden ondersteund.
+  Media- (afbeeldingen, video), tekst- en knopcomponenten worden ondersteund.
 
 * **[!UICONTROL Banner]**: Dit type lay-out wordt weergegeven als een waarschuwingsbericht van het besturingssysteem.
 
-   U kunt alleen een **[!UICONTROL Header]** en **[!UICONTROL Body]** aan uw bericht.
+  U kunt alleen een **[!UICONTROL Header]** en **[!UICONTROL Body]** aan uw bericht.
 
-* **[!UICONTROL Custom]**: In de modus Aangepast bericht kunt u een van uw vooraf geconfigureerde HTML-berichten rechtstreeks importeren en bewerken.
+* **[!UICONTROL Custom]**: In de modus Aangepast bericht kunt u een van de vooraf geconfigureerde HTML-berichten rechtstreeks importeren en bewerken.
 
    * Selecteren **[!UICONTROL Compose]** om de onbewerkte HTML-code in te voeren of te plakken.
 
-      Gebruik het linkerdeelvenster om de personalisatiemogelijkheden van Journey Optimizer te benutten. Raadpleeg [deze sectie](../personalization/personalize.md) voor meer informatie.
+     Gebruik het linkerdeelvenster om de personalisatiemogelijkheden van Journey Optimizer te benutten. Raadpleeg [deze sectie](../personalization/personalize.md) voor meer informatie.
 
    * Selecteren **[!UICONTROL Import]** om het HTML- of ZIP-bestand met uw HTML-inhoud te importeren.
 
 ## Inhoud, tabblad {#content-tab}
 
-Van de **Inhoud** kunt u definiëren en aanpassen: de inhoud van de kennisgeving en de stijl van de **Sluiten** knop. U kunt ook media toevoegen aan uw melding in de app en actieknoppen toevoegen vanaf dit tabblad.
+Van de **Inhoud** kunt u definiëren en aanpassen: de inhoud van het bericht en de stijl van het **Sluiten** knop. U kunt ook media toevoegen aan uw melding in de app en actieknoppen toevoegen vanaf dit tabblad.
 
 ### Knop Sluiten {#close-button}
 
@@ -84,8 +84,8 @@ De **[!UICONTROL Media]** kunt u media toevoegen aan uw In-app-bericht om een aa
 
 ![](assets/in_app_content_3.png)
 
-Typ uw media-URL of klik op de knop **[!UICONTROL Select Assets]** om elementen die in uw middelenbibliotheek zijn opgeslagen, rechtstreeks toe te voegen aan uw In-app-bericht. [Meer informatie over middelenbeheer](../email/assets-essentials.md).
-U kunt ook een **[!UICONTROL Alternative text]** voor schermlezingstoepassingen.
+Typ uw media-URL of klik op de knop **[!UICONTROL Select Assets]** om elementen die in uw middelenbibliotheek zijn opgeslagen, rechtstreeks toe te voegen aan uw In-app-bericht. [Meer informatie over middelenbeheer](../content-management/assets-essentials.md).
+U kunt ook een **[!UICONTROL Alternative text]** voor toepassingen voor schermlezen.
 
 +++Meer opties met geavanceerde opmaak
 
@@ -125,7 +125,7 @@ Zo past u de knop aan:
 
 1. Voer de URL van uw web in of selecteer deze in het dialoogvenster **[!UICONTROL Target]** veld.
 
-1. Als u meerdere knoppen wilt toevoegen, klikt u op **[!UICONTROL Add button]**.
+1. Klik op **[!UICONTROL Add button]**.
 
 +++Meer opties met geavanceerde opmaak
 
@@ -151,7 +151,7 @@ Van de **Instellingen** kunt u de berichtlay-out definiëren en een voorvertonin
 
 De **[!UICONTROL App Preview]** kunt u een achtergrond toevoegen achter uw In-app-bericht:
 
-* Media van een URL-koppeling.
+* Een medium via een URL-koppeling.
 
 * Een middel uit uw bibliotheek van Activa.
 
@@ -163,7 +163,7 @@ De **[!UICONTROL App Preview]** kunt u een achtergrond toevoegen achter uw In-ap
 
 De **[!UICONTROL Background image]** kunt u een achtergrond toevoegen aan uw In-app-bericht:
 
-* Media van een URL-koppeling.
+* Een medium via een URL-koppeling.
 
 * Een achtergrondkleur.
 
@@ -177,17 +177,17 @@ Met de optie UI-overname, die standaard is ingeschakeld, kunt u de achtergrond a
 
 Als de **[!UICONTROL Advanced formatting mode]** is ingeschakeld, kunt u uw bericht verder personaliseren met de volgende opties:
 
-* **[!UICONTROL Customize gestures]**: Hiermee kunt u aanpassen wat de interactie met een veegbeweging van de gebruiker is. Als sluiten is geselecteerd, kunt u een aangepaste interactie-gebeurtenis en/of doelbestemming toevoegen.
+* **[!UICONTROL Customize gestures]**: hiermee kunt u aanpassen wat de interactie met een veegbeweging van de gebruiker is. Als sluiten is geselecteerd, kunt u een aangepaste interactie-gebeurtenis en/of doelbestemming toevoegen.
 
-* **[!UICONTROL Customize UI takeover]**: Hiermee kunt u een kleur selecteren die op de achtergrond en de dekking wordt weergegeven.
+* **[!UICONTROL Customize UI takeover]**: hiermee kunt u een kleur selecteren die op de achtergrond en de dekking wordt weergegeven.
 
-* **[!UICONTROL Customize size]**: kunt u de breedte en hoogte van uw In-app-melding aanpassen.
+* **[!UICONTROL Customize size]**: hiermee kunt u de breedte en hoogte van uw In-app-melding aanpassen.
 
-* **[!UICONTROL Customize position]**: Hiermee kunt u de positie van uw In-app-berichten op het scherm van uw gebruikers aanpassen. U kunt de verticale en horizontale uitlijning wijzigen.
+* **[!UICONTROL Customize position]**: hiermee kunt u de positie van uw In-app-berichten op het scherm van uw gebruikers aanpassen. U kunt de verticale en horizontale uitlijning wijzigen.
 
-* **[!UICONTROL Customize animation]**: Hiermee kunt u de weergave- en weergaveanimaties aanpassen, bijvoorbeeld als u een melding in de app links of boven aan het apparaat van de gebruiker ziet.
+* **[!UICONTROL Customize animation]** Met : kunt u de animaties Weergeven en Afwijzen aanpassen, bijvoorbeeld als u een melding in de app links of boven op het apparaat van de gebruiker verschijnt.
 
-* **[!UICONTROL Message round corner]**: kunt u ronde hoeken toevoegen aan uw In-app-melding door het **[!UICONTROL Corner radius]**.
+* **[!UICONTROL Message round corner]**: hiermee kunt u ronde hoeken toevoegen aan uw In-app-melding door het dialoogvenster **[!UICONTROL Corner radius]**.
 
 +++
 

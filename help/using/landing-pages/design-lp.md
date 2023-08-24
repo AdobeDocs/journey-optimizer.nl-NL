@@ -7,9 +7,9 @@ feature: Landing Pages
 topic: Content Management
 role: User
 level: Beginner
-keywords: landing, landing page, design, HTML
+keywords: landen, landingspagina, ontwerp, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 1%
@@ -24,7 +24,7 @@ Beginnen met het maken van inhoud voor uw landing [primaire pagina](create-lp.md
 
 Vanaf dat punt kunt u:
 
-* **Ontwerp uw openingspagina helemaal** via de interface van de inhoudsontwerper en met behulp van afbeeldingen van [Adobe Experience Manager Assets Essentials](../email/assets-essentials.md). Leer hoe u uw inhoud ontwerpt <!--or use built-in templates--> [in deze sectie](../email/content-from-scratch.md).
+* **De openingspagina helemaal ontwerpen** via de interface van de inhoudsontwerper en met behulp van afbeeldingen van [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md). Leer hoe u uw inhoud ontwerpt <!--or use built-in templates--> [in deze sectie](../email/content-from-scratch.md).
 
 * **Code of paste raw HTML** rechtstreeks in de inhoudsontwerper. Leer hoe u uw eigen inhoud codeert [in deze sectie](../email/code-content.md).
 

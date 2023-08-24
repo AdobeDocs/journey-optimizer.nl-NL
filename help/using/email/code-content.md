@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: code, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 5%
@@ -24,7 +24,7 @@ Gebruik de **[!UICONTROL Code your own]** om onbewerkte HTML te importeren en/of
 
 >[!CAUTION]
 >
-> Afbeeldingen van [Adobe Experience Manager Assets Essentials](assets-essentials.md) kan niet worden van verwijzingen voorzien wanneer het gebruiken van deze methode. De afbeeldingen waarnaar in uw HTML-code wordt verwezen, moeten worden opgeslagen op een openbare locatie.
+> Afbeeldingen van [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) kan niet worden van verwijzingen voorzien wanneer het gebruiken van deze methode. De afbeeldingen waarnaar in uw HTML-code wordt verwezen, moeten worden opgeslagen op een openbare locatie.
 
 1. Selecteer op de introductiepagina E-mail Designer de optie **[!UICONTROL Code your own]**.
 
@@ -36,13 +36,13 @@ Gebruik de **[!UICONTROL Code your own]** om onbewerkte HTML te importeren en/of
 
    ![](assets/code-editor.png)
 
-1. Als u uw e-mailinhoud wilt wissen en uw e-mail wilt starten vanuit een nieuw ontwerp, selecteert u **[!UICONTROL Change your design]** in het optiemenu.
+1. Als u uw e-mailinhoud wilt wissen en uw e-mail wilt starten vanuit een nieuw ontwerp, selecteert u **[!UICONTROL Change your design]** in het menu Opties.
 
    ![](assets/code-editor-change-design.png)
 
    >[!NOTE]
    >
-   >Met deze actie opent u de geselecteerde sjabloon in de e-mailontwerper. Van daar, kunt u of het ontwerp van uw e-mail voltooien, of naar de coderedacteur teruggaan gebruikend **[!UICONTROL Switch to code editor]** optie.
+   >Met deze actie opent u de geselecteerde sjabloon in de e-mailontwerper. Van daar, kunt u of het ontwerp van uw e-mail voltooien, of naar de coderedacteur teruggaan gebruikend **[!UICONTROL Switch to code editor]** -optie.
 
 1. Klik op de knop **[!UICONTROL Preview]** om het berichtontwerp en de verpersoonlijking te controleren gebruikend testprofielen. [Meer informatie](preview.md)
 
