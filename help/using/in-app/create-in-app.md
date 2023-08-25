@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: cce45bfd11bfae07e07b69a488e58c282771d96a
+source-git-commit: 1d8d6e7f773b2bc88eeef1949af805d527911323
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1042'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,8 @@ U kunt een bericht in de app toevoegen aan een campagne of een reis. Voer de ond
 >[!BEGINTABS]
 
 >[!TAB Een bericht in de app toevoegen aan een reis]
+
+Ga als volgt te werk om een bericht in de app toe te voegen:
 
 1. Open uw reis en sleep vervolgens een **[!UICONTROL In-app]** van de **[!UICONTROL Actions]** in het palet.
 
