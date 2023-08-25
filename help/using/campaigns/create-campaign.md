@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: ceb37193797c69ee87f136f3abecf54b5927d6a2
+source-git-commit: a2aaf6bff4af8dff451eb64d68700efda0892c71
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '838'
 ht-degree: 2%
 
 ---
@@ -32,12 +32,12 @@ Als u een nieuwe campagne wilt maken, opent u de **[!UICONTROL Campaigns]** en k
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Type campagne"
->abstract="**Geplande campagnes** onmiddellijk of op een bepaalde datum worden uitgevoerd en bedoeld zijn om marketingberichten te verzenden. **API geactiveerd** campagnes worden uitgevoerd gebruikend een API vraag. Zij zijn gericht op het verzenden van marketingberichten of transactiemeldingen, d.w.z. berichten die worden verzonden na een actie die door een individu wordt uitgevoerd: het opnieuw instellen van wachtwoorden, het verlaten van het winkelwagentje enz."
+>abstract="**Geplande campagnes** onmiddellijk of op een bepaalde datum worden uitgevoerd en bedoeld zijn om marketingberichten te verzenden. **API geactiveerd** campagnes worden uitgevoerd gebruikend een API vraag. Zij zijn gericht op het verzenden van ofwel marketingberichten (promotieberichten waarvoor toestemming van de gebruiker vereist is) ofwel transactieberichten (niet-commerciële berichten die ook in specifieke omstandigheden naar niet-geabonneerde profielen kunnen worden verzonden)."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Campagne, categorie"
->abstract="Als u een geplande campagne maakt, kunt u **marketing** tekst wordt automatisch geselecteerd. Voor API-getriggerde campagnes kiest u of u een **marketing** of **transactie** bericht, d.w.z. een bericht dat wordt verzonden na een actie die door een individu wordt uitgevoerd: wachtwoordinstelling, afschaffing van winkelwagentjes enz."
+>abstract="Als u een geplande campagne maakt, kunt u **marketing** tekst wordt automatisch geselecteerd. Voor API-getriggerde campagnes kiest u of u een **marketing** bericht (promotiebericht waarvoor toestemming van de gebruiker vereist is) of **transactie** bericht (niet-commercieel bericht, dat ook naar niet-geabonneerde profielen in specifieke contexten kan worden verzonden)."
 
 1. In de **[!UICONTROL Properties]** , geeft u op hoe u de campagne wilt uitvoeren. Er zijn twee soorten campagnes beschikbaar:
 
