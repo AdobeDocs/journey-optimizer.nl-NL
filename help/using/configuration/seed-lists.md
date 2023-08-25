@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: zaadlijst, zaadlijst, zaad, configuratie
-source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
+source-git-commit: 49c283fc19d90b5ced896c5854325266d80e8bc2
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '891'
 ht-degree: 3%
 
 ---
@@ -49,9 +49,14 @@ Zaadadressen zijn geen echte profielen en testprofielen, omdat deze geen profiel
 
 Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** en selecteert u **[!UICONTROL Seed list]**.
 
+<!--
 >[!CAUTION]
 >
->Machtigingen voor het weergeven, exporteren en beheren van de zaadlijsten zijn beperkt tot [Reisbeheerders](../administration/ootb-product-profiles.md#journey-administrator). Meer informatie over beheren [!DNL Journey Optimizer] toegangsrechten van gebruikers in [deze sectie](../administration/permissions-overview.md).
+>Permissions to view, export and manage the seed lists are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+
+>[!CAUTION]
+>
+>Om zaadlijsten te kunnen bekijken, uitgeven en beheren, moet u hebben **[!UICONTROL Manage Seedlist]** toestemming.
 
 ![](assets/seed-list-access.png)
 
