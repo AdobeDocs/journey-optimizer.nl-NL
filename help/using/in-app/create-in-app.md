@@ -1,72 +1,68 @@
 ---
-title: Een In-app-melding maken in een campagne
-description: Leer hoe u een bericht in de app maakt in een campagne in Journey Optimizer
+title: Een melding in de app maken in Journey Optimizer
+description: Leer hoe u een bericht in de app maakt in Journey Optimizer
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: cf3e56f2c87ad39d94cb412fc605f5b235d6d1e1
+source-git-commit: cce45bfd11bfae07e07b69a488e58c282771d96a
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '1031'
 ht-degree: 2%
 
 ---
 
-# Een bericht in de app maken in een campagne {#create-in-app}
+# Een bericht in de app maken {#create-in-app}
 
-<!--
+U kunt een bericht in de app toevoegen aan een campagne of een reis. Voer de onderstaande stappen uit om in beide contexten een bericht in de app te maken.
+
 >[!BEGINTABS]
 
->[!TAB Add an In-app message to a journey]
+>[!TAB Een bericht in de app toevoegen aan een reis]
 
->[!AVAILABILITY]
->
->The In-app activity is currently available as a beta to select users only. To join the beta program, contact Adobe Customer Care.
+1. Open uw reis en sleep vervolgens een **[!UICONTROL In-app]** van de **[!UICONTROL Actions]** in het palet.
 
-1. Open your journey, then drag and drop an **[!UICONTROL In-app]** activity from the **[!UICONTROL Actions]** section of the palette.
+   Wanneer een profiel het einde van de rit bereikt, verlopen alle berichten in de app die aan hen worden weergegeven, automatisch. Daarom wordt er automatisch een wachtbewerking toegevoegd na uw activiteiten in de app om de juiste timing te garanderen.
 
-    When a profile reaches the end of their journey, any in-app messages displayed to them will automatically expire. For that reason, a Wait activity is automatically added after your In-app activity to ensure proper timing.
+   ![](assets/in_app_journey_1.png)
 
-    ![](assets/in_app_journey_1.png)
+1. Voer een **[!UICONTROL Label]** en **[!UICONTROL Description]** voor uw bericht.
 
-1. Enter a **[!UICONTROL Label]** and **[!UICONTROL Description]** for your message.
+1. Kies de optie [In-app oppervlak](inapp-configuration.md) te gebruiken.
 
-1. Choose the [In-app surface](inapp-configuration.md) to use.
+   ![](assets/in_app_journey_2.png)
 
-    ![](assets/in_app_journey_2.png)
+1. U kunt nu beginnen met het ontwerpen van uw inhoud met de **[!UICONTROL Edit content]** knop. [Meer informatie](design-in-app.md)
 
-1. You can now start designing your content with the **[!UICONTROL Edit content]** button. [Learn more](design-in-app.md)
+1. Klikken **[!UICONTROL Edit trigger]** om de trigger te configureren.
 
-1. Click **[!UICONTROL Edit trigger]** to configure your Trigger. 
+   ![](assets/in_app_journey_4.png)
 
-    ![](assets/in_app_journey_4.png)
+1. Kies de frequentie van de trigger wanneer het bericht in de app actief is:
 
-1. Choose the frequency of your trigger when your In-app message is active:
+   * **[!UICONTROL Show every time]**: Toon altijd het bericht wanneer de gebeurtenissen die in **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
+   * **[!UICONTROL Show once]**: Alleen dit bericht weergeven als de in het dialoogvenster **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
+   * **[!UICONTROL Show until click through]**: Dit bericht weergeven wanneer de gebeurtenissen zijn geselecteerd in het dialoogvenster **[!UICONTROL Mobile app trigger]** drop-down komt voor tot een interactie gebeurtenis door SDK met een actie van &quot;geklikt&quot;wordt verzonden.
 
-    * **[!UICONTROL Show every time]**: Always show the message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
-    * **[!UICONTROL Show once]**: Only show this message the first time the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur.
-    * **[!UICONTROL Show until click through]**: Show this message when the events selected in the **[!UICONTROL Mobile app trigger]** drop-down occur until an interact event is sent by the SDK with an action of "clicked".
+1. Van de **[!UICONTROL Mobile app trigger]** -dropdown(s), kies de gebeurtenis(sen) en de criteria die uw bericht zullen activeren:
 
-1. From the **[!UICONTROL Mobile app trigger]** dropdown(s), choose the event(s) and criteria that will trigger your message:
+   1. Selecteer in de linkervervolgkeuzelijst de gebeurtenis die nodig is om het bericht te activeren.
+   1. Selecteer in de rechtervervolgkeuzelijst de vereiste validatie voor de geselecteerde gebeurtenis.
+   1. Klik op de knop **[!UICONTROL Add]** als u wilt dat de trigger rekening houdt met meerdere gebeurtenissen of criteria. Herhaal vervolgens de bovenstaande stappen.
+   1. Selecteer hoe uw gebeurtenissen worden gekoppeld. Kies bijvoorbeeld **[!UICONTROL And]** als u wilt **beide** triggers moeten waar zijn om een bericht weer te geven of **[!UICONTROL Or]** als u wilt dat het bericht wordt getoond als **ofwel** van de triggers zijn waar.
+   1. Klikken **[!UICONTROL Save]** wanneer uw triggers zijn geconfigureerd.
 
-    1. From the left drop-down, select the event required to trigger the message.
-    1. From the right drop-down, select the validation required on the selected event.
-    1. Click the **[!UICONTROL Add]** button if you want the trigger to consider multiple events or criteria. Then, repeat the steps above.
-    1. Select how your events are linked, e.g. choose **[!UICONTROL And]** if you want **both** triggers to be true in order for a message to be shown or choose **[!UICONTROL Or]** if you want the message to be shown if **either** of the triggers are true.
-    1. Click **[!UICONTROL Save]** when your Triggers have been configured.
+   ![](assets/in_app_journey_3.png)
 
-    ![](assets/in_app_journey_3.png)
-    
-1. If necessary, complete your journey flow by dragging and dropping additional actions or events. [Learn more](../building-journeys/about-journey-activities.md)
+1. Indien nodig voltooit u de reisflow door extra handelingen of gebeurtenissen te slepen en neer te zetten. [Meer informatie](../building-journeys/about-journey-activities.md)
 
-1. Once your In-app message is ready, finalize the configuration and publish your journey to activate it.
+1. Zodra uw bericht in de app klaar is, voltooit u de configuratie en publiceert u uw reis om het te activeren.
 
-For more information on how to configure a journey, refer to [this page](../building-journeys/journey-gs.md).
+Voor meer informatie over hoe te om een reis te vormen, raadpleeg [deze pagina](../building-journeys/journey-gs.md).
 
->[!TAB Add an In-app message to a campaign]
--->
+>[!TAB Een bericht in de app toevoegen aan een campagne]
 
 Voer de volgende stappen uit om een bericht in de app toe te voegen aan een campagne:
 
@@ -149,9 +145,7 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
 
    ![](assets/in_app_create_4.png)
 
-<!--
 >[!ENDTABS]
--->
 
 ## Instructievideo&#39;s{#video}
 
