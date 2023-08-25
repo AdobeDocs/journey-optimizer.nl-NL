@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: archief, berichten, HIPAA, BCC, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 9657862f1c6bdb2399fcf3e6384bb9dec5b8f32b
+source-git-commit: 315309fdede3aa095fc59266acf765dc4b782dd9
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 1%
+source-wordcount: '1089'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ Regels zoals HIPAA schrijven voor dat [!DNL Journey Optimizer] moeten een manier
 
 * Voor het e-mailkanaal: [!DNL Journey Optimizer] biedt een ingebouwde BCC e-mailmogelijkheid. [Meer informatie](#bcc-email)
 
-* Daarnaast kunt u voor alle kanalen het veld Sjabloon gebruiken in het dialoogvenster **Entiteitsgegevens**, die de details van de niet-gepersonaliseerde berichtmalplaatjes bevat. Exporteer de gegevensset met dit veld om metagegevens op te slaan, zoals: wie het bericht heeft verzonden, aan wie en wanneer. Persoonlijke gegevens worden niet geëxporteerd. Alleen de sjabloon (indeling en structuur van het bericht) wordt in aanmerking genomen. [Meer informatie](../data/datasets-query-examples.md#entity-dataset)
+* Daarnaast kunt u voor alle kanalen het veld Sjabloon gebruiken in het dialoogvenster **Entiteitsgegevens**, die de details van de niet-gepersonaliseerde berichtmalplaatjes bevat. Exporteer de dataset met dit veld om metagegevens op te slaan, zoals: wie het bericht heeft verzonden, naar wie en wanneer. Persoonlijke gegevens worden niet geëxporteerd. Alleen de sjabloon (indeling en structuur van het bericht) wordt in aanmerking genomen. [Meer informatie](../data/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
@@ -35,13 +35,13 @@ Regels zoals HIPAA schrijven voor dat [!DNL Journey Optimizer] moeten een manier
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="Een BCC-e-mailadres definiëren"
->abstract="U kunt een kopie van verzonden e-mailberichten bewaren door deze naar een BCC-postvak te verzenden. Voer het e-mailadres van uw keuze in, zodat elke verzonden e-mail blind wordt gekopieerd naar dit BCC-adres. Merk op dat het BCC adresdomein niet het zelfde zou moeten zijn als om het even welk subdomain die aan Adobe wordt gedelegeerd. Deze functie is optioneel."
+>abstract="U kunt een kopie van verzonden e-mailberichten bewaren door deze naar een BCC-postvak te verzenden. Voer het e-mailadres van uw keuze in, zodat elke verzonden e-mail blind wordt gekopieerd naar dit BCC-adres. Merk op dat het BCC adresdomein van om het even welk subdomein moet verschillend zijn dat aan Adobe wordt gedelegeerd. Deze functie is optioneel."
 
-U kunt een identieke kopie (of blinde koolstofkopie) van een e-mailbericht verzenden dat is verzonden door [!DNL Journey Optimizer] naar een BCC-postvak. Met deze optionele functie kunt u kopieën behouden van e-mailberichten die u naar uw gebruikers verzendt voor compatibiliteits- en/of archiefdoeleinden. Dit zal onzichtbaar zijn voor de leverende ontvangers.
+U kunt BCC (blind carbon copy) van een e-mail verzenden die is verzonden door [!DNL Journey Optimizer] naar een toegewezen BCC-adres. Met deze optionele functie kunt u kopieën behouden van e-mailberichten die u naar uw gebruikers verzendt voor compatibiliteits- en/of archiefdoeleinden. Het BCC-adres is niet zichtbaar voor andere ontvangers van het bericht.
 
 ### BCC-e-mail inschakelen {#enable-bcc}
 
-Om het **[!UICONTROL BCC email]** voert u het e-mailadres van uw keuze in in het desbetreffende veld van het dialoogvenster [kanaaloppervlak](channel-surfaces.md) (d.w.z. voorinstelling bericht). U kunt elk extern adres opgeven in de juiste indeling, behalve een e-mailadres dat is gedefinieerd voor een subdomein dat is gedelegeerd aan Adobe. Als u bijvoorbeeld de opdracht *marketing.luma.com* subdomein voor Adobe, elk adres zoals *abc@marketing.luma.com* is verboden.
+Om het **[!UICONTROL BCC email]** voert u het e-mailadres van uw keuze in in het desbetreffende veld van het dialoogvenster [kanaaloppervlak](channel-surfaces.md) (d.w.z. voorinstelling bericht). U kunt elk extern adres opgeven in de juiste indeling, behalve een e-mailadres dat is gedefinieerd voor een subdomein dat is gedelegeerd aan de Adobe. Als u bijvoorbeeld de opdracht *marketing.luma.com* subdomein voor Adobe, elk adres zoals *abc@marketing.luma.com* is verboden.
 
 >[!CAUTION]
 >
@@ -55,11 +55,11 @@ Om het **[!UICONTROL BCC email]** voert u het e-mailadres van uw keuze in in het
 
 ![](assets/preset-bcc.png)
 
-Alle e-mailberichten die op dit oppervlak worden weergegeven, worden blind gekopieerd naar het e-mailadres dat u hebt ingevoerd. Van daaruit kunnen ze worden verwerkt en gearchiveerd met behulp van een extern systeem.
+Zodra configuratie wordt gedaan, worden alle e-mailberichten die op dit oppervlak worden gebaseerd blind-gekopieerd aan het BCC e-mailadres u inging. Van daar, kunnen de berichten worden verwerkt en worden gearchiveerd gebruikend een extern systeem.
 
 >[!CAUTION]
 >
->Het gebruik van de BCC-functie wordt afgeboekt op het aantal berichten waarvoor u een licentie hebt. Vandaar, laat slechts het in de oppervlakken toe die voor kritieke mededelingen worden gebruikt die u wenst te archiveren. Controleer uw contract op volumes met licentie.
+>Het gebruik van uw BCC-functie wordt afgeteld bij het aantal berichten waarvoor u een licentie hebt. Vandaar, laat slechts het in de oppervlakken toe die voor kritieke mededelingen worden gebruikt die u wenst te archiveren. Controleer uw contract op volumes met licentie.
 
 De instelling voor het BCC-e-mailadres wordt direct opgeslagen en verwerkt op oppervlakteneniveau. Wanneer u een nieuw bericht gebruikend dit oppervlak creeert, wordt het e-mailadres BCC automatisch getoond.
 
@@ -75,9 +75,9 @@ Nochtans, wordt het adres BCC opgepikt voor het verzenden van mededelingen na de
 
 * De inbox die voor BCC wordt gebruikt, moet correct worden beheerd voor ruimte en levering. Als het postvak inbox bellen retourneert, worden sommige e-mails mogelijk niet ontvangen en worden deze daarom niet gearchiveerd.
 
-* De berichten kunnen aan het BCC e-mailadres vóór de doelontvangers worden geleverd. BCC-berichten kunnen ook worden verzonden, ook al hebben de oorspronkelijke berichten mogelijk [afgezwakt](../reports/suppression-list.md#delivery-failures).
+* De berichten kunnen aan het BCC e-mailadres vóór de doelontvangers worden geleverd. BCC-berichten kunnen ook worden verzonden, ook al hebben de oorspronkelijke berichten mogelijk [afgezet](../reports/suppression-list.md#delivery-failures).
 
-   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
+  <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
 * Open of klik niet door de e-mails die naar het BCC-adres worden verzonden, aangezien hiermee rekening wordt gehouden bij het openen van het totaal en klikken op de verzendanalyse, wat tot onjuiste berekeningen kan leiden bij: [rapporten](../reports/global-report.md).
 
@@ -113,7 +113,7 @@ Volg de onderstaande stappen om dit te doen.
 
 >[!NOTE]
 >
->Meer informatie over het beheren van privacy en de toepasselijke regels in het dialoogvenster [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"}.
+>Meer informatie over het beheren van privacy en de toepasselijke regels in het dialoogvenster [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl){target="_blank"}.
 
 ### BCC-rapportagegegevens {#bcc-reporting}
 
