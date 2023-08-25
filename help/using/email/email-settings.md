@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
+source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1918'
 ht-degree: 1%
 
 ---
@@ -187,7 +187,10 @@ Als u een fout bij het voorleggen van de e-mailoppervlakte krijgt, betekent het 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_seed_list"
 >title="Een zaadlijst toevoegen"
->abstract="Selecteer de zaadlijst van uw keus om specifieke e-mailzaadadressen in uw leveringen automatisch te omvatten. Deze adressen zullen op de leveringstijd worden opgenomen en zullen een nauwkeurige kopie van de levering voor betrouwbaarheidsdoeleinden ontvangen."
+>abstract="Selecteer de zaadlijst van uw keus om specifieke interne adressen aan uw publiek automatisch toe te voegen. Deze zaadadressen zullen op de tijd van de leveringsuitvoering worden omvat en zullen een nauwkeurige kopie van het bericht voor betrouwbaarheidsdoeleinden ontvangen."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="Wat zijn zaadlijsten?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=en#create-seed-list" text="Een zaadlijst maken"
+
 
 Een zaadlijst in [!DNL Journey Optimizer] kunt u automatisch specifieke e-mailadressen toevoegen aan uw leveringen. [Meer informatie](../configuration/seed-lists.md)
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: zaadlijst, zaadlijst, zaad, configuratie
-source-git-commit: 1276aa334a057de1a14b7772d07dd9e2ac4f614f
+source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '900'
 ht-degree: 3%
 
 ---
@@ -71,14 +71,14 @@ U kunt op de naam van een zaadlijst klikken om deze te bewerken. <!--Use the **[
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"
->title="De zaadlijst definiëren"
->abstract="Vul de details van de zaadlijst in om automatisch specifieke zaadadressen in uw leveringen te omvatten. Deze adressen zullen op de leveringstijd worden opgenomen en zullen een nauwkeurige kopie van de levering voor betrouwbaarheidsdoeleinden ontvangen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="Wat zijn zaadlijsten"
+>title="Een zaadlijst definiëren"
+>abstract="Gebruik een zaadlijst om specifieke interne adressen aan uw leveringspubliek voor verzekeringsdoeleinden automatisch toe te voegen. Met zaadlijsten kunt u de berichtkopieën controleren die worden verzonden om ervoor te zorgen dat alle weergave-elementen correct zijn en uw mailinglijst beveiligen. Deze functie is momenteel alleen van toepassing op het e-mailkanaal."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="Wat zijn zaadlijsten?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
->title="Geef de te gebruiken adressen op"
->abstract="Voeg de zaadadressen toe die automatisch in uw leveringen zullen worden omvat. U kunt een CSV-bestand importeren of handmatig e-mailadressen invoeren."
+>title="De zaadlijst invullen"
+>abstract="Selecteer de adressen die op de leveringstijd zullen worden omvat en een nauwkeurige kopie van uw bericht zullen ontvangen. U kunt een CSV-bestand importeren of handmatig e-mailadressen invoeren."
 
 Voer de onderstaande stappen uit om een zaadlijst te maken.
 
