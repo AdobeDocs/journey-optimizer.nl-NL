@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: 0d8a19568e52952f3bc8af3c768cef4804a31749
+source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
@@ -51,19 +51,19 @@ Vanaf uw reis **[!UICONTROL Live report]** de **[!UICONTROL Journey]** geeft u e
 
 De **[!UICONTROL Journey Statistics]** widget geeft de volgende KPI&#39;s weer:
 
-* **[!UICONTROL Entered profiles]**: Het totale aantal personen dat de inreisgebeurtenis van de reis heeft bereikt.
+* **[!UICONTROL Entered profiles]**: Totaal aantal personen dat de inreisgebeurtenis van de reis heeft bereikt.
 
-* **[!UICONTROL Exited profiles]**: Het totale aantal personen dat de reis heeft verlaten.
+* **[!UICONTROL Exited profiles]**: Totaal aantal personen dat de reis heeft verlaten.
 
-* **[!UICONTROL Failed individual journeys]**: Het totale aantal individuele reizen dat niet succesvol is uitgevoerd.
+* **[!UICONTROL Failed individual journeys]**: Totaal aantal individuele reizen die niet succesvol zijn uitgevoerd.
 
-De **[!UICONTROL Event executed over the last 24 hours]** en **[!UICONTROL Events]** Met widgets kunt u zien welke van uw gebeurtenissen met succes zijn uitgevoerd via een overzichtsnummer, grafiek en tabel.
+De **[!UICONTROL Event executed over the last 24 hours]** en **[!UICONTROL Events]** Met widgets kunt u zien welke van uw gebeurtenissen met succes zijn uitgevoerd via een overzichtsnummer, een grafiek en een tabel.
 
 De **[!UICONTROL Action executed over the last 24 hours]** en **[!UICONTROL Actions executed and errors]** widgets zijn de meest succesvolle actie en fouten die zijn opgetreden toen uw acties werden geactiveerd. De grafiek, de lijst en de samenvattingsaantallen van de Actie bevatten de gegevens beschikbaar voor acties, zoals:
 
-* **[!UICONTROL Actions executed]**: Het totale aantal acties dat met succes voor een reis wordt uitgevoerd.
+* **[!UICONTROL Actions executed]**: Totaal aantal acties uitgevoerd voor een reis.
 
-* **[!UICONTROL Error in actions]**: Het totale aantal fouten dat is opgetreden voor handelingen.
+* **[!UICONTROL Error in actions]**: Totaal aantal fouten dat is opgetreden voor handelingen.
 +++
 
 ## Tabblad E-mail {#email-live}
@@ -78,27 +78,27 @@ De **[!UICONTROL Email Sending Statistics]** widget geeft details over de belang
 
 * **[!UICONTROL Delivered]**: Aantal verzonden berichten.
 
-* **[!UICONTROL Bounces]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische terugkeringsverwerking.
+* **[!UICONTROL Bounces]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische terugzendverwerking.
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
 De **[!UICONTROL Sending metrics by Email]** tabel en **[!UICONTROL Email Summary]** grafiek geeft het succes van uw levering aan:
 
-* **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
+* **[!UICONTROL Sent]**: Totaal aantal verzendingen voor de levering.
 
 * **[!UICONTROL Delivered]**: Aantal verzonden berichten.
 
-* **[!UICONTROL Bounces]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische terugkeringsverwerking.
+* **[!UICONTROL Bounces]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische terugzendverwerking.
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
-* **[!UICONTROL Opens]**: Aantal keren dat een bericht in een levering werd geopend.
+* **[!UICONTROL Opens]**: Aantal keren dat een bericht is geopend in een levering.
 
 * **[!UICONTROL Clicks]**: Het aantal keren dat op een inhoud is geklikt in een levering.
 
-* **[!UICONTROL Unsubscribe]**: Aantal klikken op de verbinding van het unsubscription.
+* **[!UICONTROL Unsubscribe]**: Het aantal klikken op de koppeling voor het opzeggen van abonnementen.
 
-* **[!UICONTROL Spam complaints]**: Aantal keren dat een bericht als spam of junk werd verklaard.
+* **[!UICONTROL Spam complaints]**: Het aantal keren dat een bericht is gedeclareerd als spam of junk.
 
 De **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** en **[!UICONTROL Hard and bounce - by Email]** widgets bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd, zoals:
 
@@ -106,7 +106,7 @@ De **[!UICONTROL Bounce Reasons]**, **[!UICONTROL Bounce categories]** en **[!UI
 
 * **[!UICONTROL Soft bounce]**: Het totale aantal tijdelijke fouten, zoals een volledig postvak.
 
-* **[!UICONTROL Ignored]**: Het totale aantal tijdelijke gegevens, zoals Buiten-kantoor, of een technische fout, bijvoorbeeld als het type afzender postmaster is.
+* **[!UICONTROL Ignored]**: Het totale aantal tijdelijke berichten, zoals Buiten-kantoor, of een technische fout, bijvoorbeeld als het type afzender postmaster is.
 
 De **[!UICONTROL Error Reasons]** en **[!UICONTROL Exclude Reasons]** in grafieken en tabellen kunt u zien welke fout en uitsluitingen tijdens de levering zijn opgetreden.
 
@@ -114,13 +114,13 @@ De **[!UICONTROL Email - Top recipient domain]** grafiek en lijstdetails welke d
 
 >[!NOTE]
 >
->De widgets en cijfers voor aanbiedingen zijn alleen beschikbaar als een beslissing in een e-mail is ingevoegd. Raadpleeg voor meer informatie over het beheer van de besluiten [page](../offers/get-started/starting-offer-decisioning.md).
+>De widgets en cijfers voor aanbiedingen zijn alleen beschikbaar als een beslissing in een e-mail is ingevoegd. Raadpleeg voor meer informatie over het beheer van de beslissingen het volgende [page](../offers/get-started/starting-offer-decisioning.md).
 
 De **[!UICONTROL Offers statistic]** en **[!UICONTROL Offers statistics]** in de loop der tijd meten de widgets het succes van uw aanbieding en de impact op uw doelgroep. Het detailleert de belangrijkste informatie met betrekking tot uw bericht met KPIs:
 
-* **[!UICONTROL Offer sent]**: Het totale aantal verzendingen voor de aanbieding.
+* **[!UICONTROL Offer sent]**: Totaal aantal verzendingen voor de aanbieding.
 
-* **[!UICONTROL Offer impression]**: Aantal keren dat het voorstel is geopend in een levering.
+* **[!UICONTROL Offer impression]**: Het aantal keren dat de aanbieding is geopend in een levering.
 
 * **[!UICONTROL Offer clicks]**: Aantal keren dat op een voorstel is geklikt in een levering.
 +++
@@ -135,17 +135,17 @@ Vanaf uw reis **[!UICONTROL Live report]** de **[!UICONTROL Push notification]**
 
 **[!UICONTROL Push notification sending performance]**, **[!UICONTROL Push notification summary]** en **[!UICONTROL Sending metrics - by Push]** widgets geeft details over de belangrijkste informatie met betrekking tot uw bericht:
 
-* **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
+* **[!UICONTROL Sent]**: Totaal aantal verzendingen voor de levering.
 
 * **[!UICONTROL Delivered]**: Aantal verzonden berichten.
 
-* **[!UICONTROL Bounces]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische terugkeringsverwerking.
+* **[!UICONTROL Bounces]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische terugzendverwerking.
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
-* **[!UICONTROL Opens]**: Aantal keren dat een bericht in een levering werd geopend.
+* **[!UICONTROL Opens]**: Aantal keren dat een bericht is geopend in een levering.
 
-* **[!UICONTROL Actions]**: Het totale aantal acties op de geleverde pushmelding, bijvoorbeeld klikken op de knop of ontslag.
+* **[!UICONTROL Actions]**: Totaal aantal acties op de geleverde pushmelding, bijvoorbeeld klikken op de knop of ontslag.
 
 * **[!UICONTROL Engagements]**: Het totale aantal keren dat wordt geopend en de acties voor deze pushmelding, bijvoorbeeld als het profiel de pushmelding heeft geopend of als op een knop is geklikt.
 
@@ -168,21 +168,39 @@ De **[!UICONTROL SMS - Sending statistics]** de tabel geeft het succes van uw le
 
 * **[!UICONTROL Excluded]**: Aantal gebruikersprofielen dat is uitgesloten van de doelprofielen en dat het bericht niet heeft ontvangen.
 
-* **[!UICONTROL Sent]**: Het totale aantal verzendt voor de levering.
+* **[!UICONTROL Sent]**: Totaal aantal verzendingen voor de levering.
 
-* **[!UICONTROL Opens]**: Aantal keren dat een bericht in een levering werd geopend.
+* **[!UICONTROL Opens]**: Aantal keren dat een bericht is geopend in een levering.
 
 * **[!UICONTROL Clicks]**: Het aantal keren dat op een inhoud is geklikt in een levering.
 
-* **[!UICONTROL Bounces]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische terugkeringsverwerking.
+* **[!UICONTROL Bounces]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische terugzendverwerking.
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
 De **[!UICONTROL SMS Summary]** grafiek geeft het succes van uw levering aan:
 
-* **[!UICONTROL Bounces]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische terugkeringsverwerking.
+* **[!UICONTROL Bounces]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische terugzendverwerking.
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
 De **[!UICONTROL Exclude Reasons]** in grafieken en tabellen kunt u zien welke fout en uitsluitingen tijdens de levering zijn opgetreden.
++++
+
+## Tabblad In-app {#in-app-live}
+
+![](assets/journey_live_5.png)
+
++++ Meer informatie over de verschillende maatstaven en widgets die beschikbaar zijn voor het rapport in de app.
+
+De **[!UICONTROL In-app performance]** KPI&#39;s geven een gedetailleerde beschrijving van de belangrijkste informatie over de betrokkenheid van uw bezoekers bij uw In-app-berichten, zoals:
+
+* **[!UICONTROL Impressions]**: totaal aantal in-app berichten dat aan alle gebruikers is bezorgd.
+
+* **[!UICONTROL Interactions]**: totaal aantal contracten met uw In-app-bericht. Dit omvat alle handelingen die de gebruikers hebben uitgevoerd, zoals klikken, ontslag of andere interactie.
+
+De **[!UICONTROL In-app summary]** in de grafiek wordt de ontwikkeling van uw In-app-afbeeldingen en -interacties voor de desbetreffende periode weergegeven.
+
+De **[!UICONTROL Interactions by type]** grafieken en tabellen geven aan hoe gebruikers met uw bericht in de app hebben gewerkt door een klik, sluiting of interactie bij te houden.
+
 +++

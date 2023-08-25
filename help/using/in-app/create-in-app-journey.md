@@ -6,11 +6,13 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
+hide: true
+hidefromtoc: true
 exl-id: b774e34f-8225-41a0-a2ec-b91d3a86cf2b
-source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
+source-git-commit: d27fa0192b72de79fefb52b472bd06c6511a8b70
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 0%
+source-wordcount: '524'
+ht-degree: 1%
 
 ---
 
@@ -60,20 +62,6 @@ Ga als volgt te werk om een bericht in de app toe te voegen:
 1. Zodra uw bericht in de app klaar is, voltooit u de configuratie en publiceert u uw reis om het te activeren.
 
 Voor meer informatie over hoe te om een reis te vormen, raadpleeg [deze pagina](../building-journeys/journey-gs.md).
-
-## Beperkingen van activiteiten in de app {#in-app-activity-limitations}
-
-* Deze functie is momenteel niet beschikbaar voor klanten in de gezondheidszorg.
-
-* Personalisatie kan alleen profielkenmerken bevatten.
-
-* De weergave in de app is gekoppeld aan de duur van de rit. Dit houdt in dat wanneer de reis voor een profiel afloopt, alle in-app-berichten binnen die reis niet meer worden weergegeven voor dat profiel.  Het is daarom niet mogelijk om een bericht in de app rechtstreeks te stoppen van een reisactiviteit. In plaats daarvan moet u de volledige reis beëindigen om te voorkomen dat de berichten in de app naar het profiel worden weergegeven.
-
-* In de testmodus is de weergave in de app afhankelijk van de levensduur van de rit. Om te voorkomen dat de reis te vroeg eindigt tijdens de test, past u de **[!UICONTROL Wait time]** waarde voor uw **[!UICONTROL Wait]** activiteiten.
-
-* **[!UICONTROL Reaction]** activiteiten kunnen niet worden gebruikt om te reageren op een geopende In-app of klik.
-
-* Er kan een activeringsvertraging optreden tussen het moment dat een gebruikersprofiel een in-app-activiteit op het canvas bereikt en het moment waarop het bericht in de app wordt weergegeven.
 
 ## Rapport in app {#inapp-report}
 

@@ -4,7 +4,7 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 066491e19a0a3be84c3e6ca6fefe88a9beb26285
+source-git-commit: 4b9992d3824111fbd9cf4dd712bdcc17f9a76817
 workflow-type: tm+mt
 source-wordcount: '3431'
 ht-degree: 9%
@@ -38,8 +38,8 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <tr>
 <td>
 <p>U kunt nu persoonlijke In-app-berichten naar uw app-gebruikers verzenden voor een reis. Met Journey Optimizer kunt u meldingen ontwerpen en de lay-out, weergave, tekst en knoppen van berichten aanpassen voor een naadloze ervaring.</p>
-<img src="assets/in_app_journey_1.png"/>
-<p>Raadpleeg de <a href="../in-app/create-in-app-journey.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<img src="assets/do-not-localize/in-app-GA.gif"/>
+<p>Raadpleeg de <a href="../in-app/create-in-app.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </tr>
 </tbody>
 </table>

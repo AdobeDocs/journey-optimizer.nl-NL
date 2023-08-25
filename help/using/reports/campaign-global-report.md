@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 96d90ff8c4ef29328810b3146d1e9a2aa3c25f2a
+source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
 workflow-type: tm+mt
-source-wordcount: '2225'
+source-wordcount: '2204'
 ht-degree: 0%
 
 ---
@@ -219,17 +219,11 @@ De **[!UICONTROL In-app performance]** KPI&#39;s geven een gedetailleerde beschr
 
 * **[!UICONTROL Impressions]**: totaal aantal in-app berichten dat aan alle gebruikers is bezorgd.
 
-* **[!UICONTROL Click rate]**: percentage gebruikers dat interactie had met de knoppen in het In-app-bericht vergeleken met gebruikers die het bericht hebben gezien.
+* **[!UICONTROL Interactions rate]**: percentage contracten met uw In-app-bericht. Dit omvat alle handelingen die de gebruikers hebben uitgevoerd, zoals klikken, ontslag of andere interactie.
 
-* **[!UICONTROL Dismiss rate]**: percentage in-app-berichten dat ontvangers hebben genegeerd.
+De **[!UICONTROL In-app summary]** in de grafiek wordt de ontwikkeling van uw In-app-afbeeldingen en -interacties voor de desbetreffende periode weergegeven.
 
-De **[!UICONTROL In-app summary]** in de grafiek wordt de ontwikkeling van uw In-app-indrukkingen voor de desbetreffende periode weergegeven.
-
-De **[!UICONTROL Clicks by button]** de grafiek en de lijst bevatten de beschikbare gegevens voor ontvangend gedrag per knoop:
-
-* **[!UICONTROL Clicks]**: totaal aantal ontvangers dat interactie heeft gehad met de knoppen die in het bericht in de app zijn opgenomen.
-
-* **[!UICONTROL Click rate]**: percentage gebruikers dat interactie had met de knoppen in het In-app-bericht vergeleken met gebruikers die het bericht hebben gezien.
+De **[!UICONTROL Interactions by type]** grafieken en tabellen geven aan hoe gebruikers met uw bericht in de app hebben gewerkt door een klik, sluiting of interactie bij te houden.
 +++
 
 ## Tabblad Pushmelding {#push-global}
@@ -354,11 +348,11 @@ De **[!UICONTROL Web performance]** KPI&#39;s geven een gedetailleerde beschrijv
 
 * **[!UICONTROL Impressions]**: totaal aantal webervaringen dat aan alle gebruikers wordt geleverd.
 
-* **[!UICONTROL Click rate]**: percentage bezoekers dat interactie heeft gehad met de verschillende elementen op uw webpagina&#39;s.
+* **[!UICONTROL Interaction rate]**: percentage van de afspraken met uw webpagina. Dit omvat alle handelingen die de gebruikers hebben uitgevoerd, zoals klikken of andere interacties.
 
-De **[!UICONTROL Web summary]** in de grafiek wordt de evolutie van uw webervaringen (indrukken, unieke indrukken en klikken) voor de desbetreffende periode weergegeven.
+De **[!UICONTROL Web summary]** in de grafiek wordt de evolutie van uw webervaringen (indrukken, unieke indrukken en interacties) voor de desbetreffende periode weergegeven.
 
-De **[!UICONTROL Clicks by element]** de tabel bevat de belangrijkste informatie over de betrokkenheid van uw bezoekers bij de verschillende elementen op uw webpagina&#39;s.
+De **[!UICONTROL Interactions by element]** de tabel bevat de belangrijkste informatie over de betrokkenheid van uw bezoekers bij de verschillende elementen op uw webpagina&#39;s.
 +++
 
 ## Tabblad Direct mail {#direct-mail-global}

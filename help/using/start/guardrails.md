@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1534106b7ed80376060d39a445d5e706df832e05
+source-git-commit: c01195dbee3e14a356c58353169507678aec5d30
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1292'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in 
 * Alleen methoden voor het aanroepen van POSTEN en PUTTEN worden ondersteund
 * De naam van de queryparameter of -header mag niet beginnen met &quot;.&quot; of &quot;$&quot;
 * IP-adressen zijn niet toegestaan
-* Interne Adobe-adressen (`.adobe.*`) zijn niet toegestaan in URL&#39;s en API&#39;s.
+* Interne adressen van Adoben (`.adobe.*`) zijn niet toegestaan in URL&#39;s en API&#39;s.
 * Ingebouwde aangepaste handelingen kunnen niet worden verwijderd.
 
 ### Gebeurtenissen {#events-g}
@@ -82,7 +82,7 @@ Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in 
 ### Gegevensbronnen {#data-sources-g}
 
 * De externe gegevensbronnen kunnen binnen een klantenreis worden gebruikt om externe gegevens in echt op te zoeken - tijd. Deze bronnen moeten bruikbaar zijn via REST API, JSON ondersteunen en het volume van aanvragen kunnen verwerken.
-* Interne Adobe-adressen (`.adobe.*`) zijn niet toegestaan in URL&#39;s en API&#39;s.
+* Interne adressen van Adoben (`.adobe.*`) zijn niet toegestaan in URL&#39;s en API&#39;s.
 
 ### Reizen en profiel maken {#journeys-limitation-profile-creation}
 
@@ -105,3 +105,19 @@ U kunt uit één van deze twee oplossingen kiezen:
 
 * U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een leespubliek, een kwalificatie Audience of een activiteit voor een zakelijke gebeurtenis. Je moet een nieuw publiek maken en een onpublieksvoorwaarde in de reis gebruiken.
 
+
+### Beperkingen van activiteiten in de app {#in-app-activity-limitations}
+
+* Deze functie is momenteel niet beschikbaar voor klanten in de gezondheidszorg.
+
+* Personalisatie kan alleen profielkenmerken bevatten.
+
+* De weergave in de app is gekoppeld aan de duur van de rit. Dit houdt in dat wanneer de reis voor een profiel afloopt, alle in-app-berichten binnen die reis niet meer worden weergegeven voor dat profiel.  Het is daarom niet mogelijk om een bericht in de app rechtstreeks te stoppen van een reisactiviteit. In plaats daarvan moet u de volledige reis beëindigen om te voorkomen dat de berichten in de app naar het profiel worden weergegeven.
+
+* In de testmodus is de weergave in de app afhankelijk van de levensduur van de rit. Om te voorkomen dat de reis te vroeg eindigt tijdens de test, past u de **[!UICONTROL Wait time]** waarde voor uw **[!UICONTROL Wait]** activiteiten.
+
+* **[!UICONTROL Reaction]** activiteiten kunnen niet worden gebruikt om te reageren op een geopende In-app of klik.
+
+* Er kan een activeringsvertraging optreden tussen het moment dat een gebruikersprofiel een in-app-activiteit op het canvas bereikt en het moment waarop het bericht in de app wordt weergegeven.
+
+* De inhoud van berichten in de app is beperkt tot 2 MB. Het opnemen van grote afbeeldingen kan het publicatieproces belemmeren.

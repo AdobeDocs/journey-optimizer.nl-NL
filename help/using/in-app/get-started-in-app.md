@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 7c4509c0f9fd0d3aefb88c2c5ef4ccab5d58ace8
+source-git-commit: d27fa0192b72de79fefb52b472bd06c6511a8b70
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '209'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 In-app-berichten zijn meldingen die naar gebruikers in uw app kunnen worden verzonden en die hen naar specifieke aandachtspunten kunnen sturen. Deze meldingen kunnen voor verschillende doeleinden worden gebruikt, zoals het promoten van nieuwe functies, het aanbieden van speciale aanbiedingen of het vergemakkelijken van het instappen van gebruikers. Door in-app berichten te gebruiken, kunt u effectief met uw publiek in gesprek gaan en hen naar belangrijke aspecten van uw toepassing sturen.
 
-Gebruik Journey Optimizer om meldingen in de app te maken en ervaringsopties te configureren, waaronder de lay-out en weergave van berichten, tekst en knopopties. U kunt in-app-berichten toevoegen [in een campagne](create-in-app.md) en [op reis](create-in-app-journey.md).
+Gebruik Journey Optimizer om meldingen in de app te maken en ervaringsopties te configureren, waaronder de lay-out en weergave van berichten, tekst en knopopties.
 
 >[!AVAILABILITY]
 >
