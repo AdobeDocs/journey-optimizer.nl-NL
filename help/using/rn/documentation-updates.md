@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5daf828c934432810c58035986df1072a0fe73e3
+source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
 workflow-type: tm+mt
-source-wordcount: '3204'
+source-wordcount: '3277'
 ht-degree: 15%
 
 ---
@@ -18,10 +18,15 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 ## Augustus 2023 {#august-2023}
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van augustus &#39;23 is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
+* De opmerking over **beheer van verificatiecache** op reis is bijgewerkt om duidelijk te maken dat het token niet wordt gedeeld tussen verschillende reizen . [Meer informatie](../datasource/external-data-sources.md#custom-authentication-mode)
+* De pagina over de reis **toegangsbeheer** is bijgewerkt om het gedrag te verduidelijken. [Meer informatie](../building-journeys/entry-management.md)
+* Offer decisioning **exportgegevenssets** zijn nu standaard ingeschakeld. De opmerking over het vorige gedrag is verwijderd.  [Meer informatie](../offers/export-catalog/get-started-export.md)
+* Diversen **campagnerapportcijfers** zijn hernoemd, zowel in Live als in Global-rapporten. [Meer informatie](../reports/campaign-global-report.md)
 * Er is een nieuwe sectie toegevoegd over de voorwaarden voor het testen van inhoud voor het webkanaal. [Meer informatie](../web/web-prerequisites.md#experiment-prerequisites)
 * Er is een waarschuwing toegevoegd op de **Werken met inhoudssjablonen** pagina om aan te geven dat huidige tracering niet wordt ondersteund bij het testen van sjablonen voor e-mailinhoud. Voor het testen van het bijhouden moet u de inhoudssjabloon in een e-mail gebruiken en een proefdruk verzenden. [Meer informatie](../email/content-templates.md#test-template)
 * Er zijn verschillende waarschuwingen toegevoegd aan de **bestemmingspagina&#39;s maken en publiceren** om aan te geven dat u de landingspagina niet kunt openen door de bij het maken van de pagina gedefinieerde URL gewoon te kopiëren en in een webbrowser te plakken, zelfs als deze is gepubliceerd. In plaats daarvan kunt u het testen met behulp van de voorvertoningsfunctie. [Meer informatie](../landing-pages/create-lp.md)
-* Er is een nieuwe sectie toegevoegd over het beheren van de toestemming voor het direct-mailkanaal. [Meer informatie](../direct-mail/test-send-direct-mail.md)
+* Er is een nieuwe sectie toegevoegd over hoe u **toestemming beheren** voor het directe-mailkanaal. [Meer informatie](../direct-mail/test-send-direct-mail.md)
+
 
 ## Juli 2023 {#july-2023}
 
