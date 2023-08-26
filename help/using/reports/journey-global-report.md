@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 98be0e87928ddf0a7a73ca4dd91f5fc99d18d587
+source-git-commit: d73f023a5eee538f110d044103bbeb8193a0703e
 workflow-type: tm+mt
 source-wordcount: '1993'
 ht-degree: 0%
@@ -312,7 +312,7 @@ De **[!UICONTROL In-app performance]** KPI&#39;s geven een gedetailleerde beschr
   > 
   >Als gevolg van het tweede criterium kunnen er aanzienlijke verschillen zijn tussen het aantal doelprofielen en het aantal unieke indrukkingen.
 
-* **[!UICONTROL Interaction rate]**: percentage contracten met uw In-app-bericht. Dit omvat alle handelingen die de gebruikers hebben uitgevoerd, zoals klikken, ontslag of andere interactie.
+* **[!UICONTROL Interaction]**: aantal contracten met uw In-app-bericht. Dit omvat alle handelingen die de gebruikers hebben uitgevoerd, zoals klikken, ontslag of andere interactie.
 
 De **[!UICONTROL In-app summary]** in de grafiek wordt de ontwikkeling van uw In-app-afbeeldingen en -interacties voor de desbetreffende periode weergegeven.
 
