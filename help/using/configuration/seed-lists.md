@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: zaadlijst, zaadlijst, zaad, configuratie
-source-git-commit: ddd80da2577ef3006211a7f7d108bf263f539660
+source-git-commit: f6708555d20fd04beb85574afd46e75be654d4e6
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '930'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ Zaadlijsten in [!DNL Journey Optimizer] kunt u toestaan om automatisch specifiek
 >
 >Deze functie is momenteel alleen van toepassing op het e-mailkanaal.
 >
->Varianten worden momenteel niet ondersteund. Zoals elk profiel van het gerichte publiek, ontvangen de zaadadressen één enkel exemplaar van het bericht en niet alle varianten (zoals de verschillende behandelingen van een [inhoudexperiment](../campaigns/get-started-experiment.md)).
+>Varianten worden momenteel niet ondersteund. Als elk profiel van het gerichte publiek, ontvangen de zaadadressen één enkel exemplaar van elk bericht, maar niet alle varianten van het zelfde bericht (zoals de verschillende behandelingen van een [inhoudexperiment](../campaigns/get-started-experiment.md)).
 
 Seed-adressen worden gebruikt om ontvangers die niet aan de gedefinieerde doelcriteria voldoen, doelgericht te benaderen. Op deze manier kunnen ontvangers die buiten het bereik van de levering vallen, de levering ontvangen, net als elke andere doelontvanger.
 
