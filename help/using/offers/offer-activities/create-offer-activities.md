@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: f4e4a6dfeee0205aa3d8abbd1d6b237dcf14cb10
+source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
 workflow-type: tm+mt
 source-wordcount: '2100'
 ht-degree: 1%
@@ -52,7 +52,7 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
    ![](../assets/activities-evaluation-criteria.png)
 
-   Elk criterium bestaat uit een verzameling aanbiedingen die gekoppeld is aan een geschiktheidsbeperking en een waarderingsmethode om de aanbiedingen te bepalen die in de plaatsing moeten worden getoond.
+   Elk criterium bestaat uit een verzameling aanbiedingen die gekoppeld is aan een geschiktheidsbeperking en een rangschikkingsmethode om de aanbiedingen te bepalen die in de plaatsing moeten worden getoond.
 
    >[!NOTE]
    >
@@ -90,7 +90,7 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
      Leer hoe u een beslissingsregel maakt in [deze sectie](../offer-library/creating-decision-rules.md).
 
-1. Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien. Klikken **[!UICONTROL Refresh]** om gegevens bij te werken.
+1. Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien. Klikken **[!UICONTROL Refresh]** gegevens bijwerken.
 
    >[!NOTE]
    >
@@ -102,7 +102,7 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
 
    ![](../assets/activity_ranking-method.png)
 
-   * Als meerdere aanbiedingen standaard in aanmerking komen voor deze plaatsing, wordt de opdracht **[!UICONTROL Offer priority]** de methode gebruikt de waarde die in de aanbiedingen is gedefinieerd: het aanbod met de hoogste prioriteitsscore zal aan de gebruiker worden geleverd.
+   * Als meerdere aanbiedingen standaard in aanmerking komen voor deze plaatsing, wordt de opdracht **[!UICONTROL Offer priority]** de methode gebruikt de waarde die in de aanbiedingen is gedefinieerd: de aanbieding met de hoogste prioriteitsscore wordt aan de gebruiker geleverd.
 
    * Als u een specifieke berekende score wilt gebruiken om te kiezen welke aanbieding in aanmerking komt, selecteert u **[!UICONTROL Formula]** of **[!UICONTROL AI model]**. [Meer informatie](../offer-activities/configure-offer-selection.md).
 
@@ -163,27 +163,27 @@ De in aanmerking komende aanbiedingen voor elke criteria en hun prioriteit (gebr
    * Criteria 2 - (Aanbieding 3, Aanbieding 4, Aanbieding 5) - Prioriteit 1
 
 * Groep 2:
-   * Criteria 3 - (Aanbieding 5, Aanbieding 6) - Prioriteit 0
+   * Criteria 3 - (voorstel 5, voorstel 6) - Prioriteit 0
 
 De hoogste prioritaire aanbiedingen worden eerst geëvalueerd en aan de gerangschikte lijst met aanbiedingen toegevoegd.
 
 **Herhaling 1:**
 
-De criteria 1 en criteria 2 voorstellen worden samen geëvalueerd (voorstel 1, voorstel 2, voorstel 3, voorstel 4, voorstel 5). Laten we zeggen dat het resultaat is:
+De criteria 1 en criteria 2 voorstellen worden samen geëvalueerd (voorstel 1, voorstel 2, voorstel 3, voorstel 4, voorstel 5). Laten we zeggen dat het resultaat:
 
 Aanbieding 1 - 10 Aanbieding 2 - 20 Aanbieding 3 - 30 uit criteria 1, 45 uit criteria 2. Het hoogste van beide wordt in overweging genomen, dus er wordt rekening gehouden met 45.
 Voorstel 4 - 40 voorstel 5 - 50
 
-Het gerangschikte aanbod is nu als volgt: Voorstel 5, voorstel 3, voorstel 4, voorstel 2, voorstel 1.
+Het gerangschikte voorstel is nu als volgt: Voorstel 5, voorstel 3, voorstel 4, voorstel 2, voorstel 1.
 
 **Herhaling 2:**
 
-Criteria 3 worden geëvalueerd (voorstel 5, voorstel 6). Laten we zeggen dat het resultaat is:
+Criteria 3 worden geëvalueerd (voorstel 5, voorstel 6). Laten we zeggen dat het resultaat:
 
 * Voorstel 5 - Wordt niet geëvalueerd omdat dit al in het bovenstaande resultaat voorkomt.
-* Aanbieding 6 - 60
+* Voorstel 6 - 60
 
-De gerangschikte aanbiedingen zijn nu als volgt: Voorstel 5, voorstel 3, voorstel 4, voorstel 2, voorstel 1, voorstel 6.
+De gerangschikte voorstellen zijn nu als volgt: Voorstel 5, voorstel 3, voorstel 4, voorstel 2, voorstel 1, voorstel 6.
 
 +++
 
@@ -199,8 +199,8 @@ Wanneer u meerdere besluitvormingsgebieden aan een besluit toevoegt en wanneer o
 
 Neem een voorbeeld waarin u twee beslissingsbereiken hebt toegevoegd, zoals:
 
-* Toepassingsgebied 1: Er zijn vier geschikte voorstellen (voorstel 1, voorstel 2, voorstel 3, voorstel 4) en het verzoek is om twee voorstellen terug te sturen.
-* Toepassingsgebied 2: Er zijn vier geschikte voorstellen (voorstel 1, voorstel 2, voorstel 3, voorstel 4) en het verzoek is om twee voorstellen terug te sturen.
+* Bereik 1: Er zijn vier in aanmerking komende aanbiedingen (voorstel 1, voorstel 2, voorstel 3, voorstel 4) en het verzoek is om twee voorstellen terug te sturen.
+* Bereik 2: Er zijn vier in aanmerking komende aanbiedingen (voorstel 1, voorstel 2, voorstel 3, voorstel 4) en het verzoek is om twee voorstellen terug te sturen.
 
 +++ **Voorbeeld 1**
 
@@ -239,8 +239,8 @@ Wanneer duplicatie op alle plaatsen is toegestaan, kan hetzelfde aanbod meerdere
 
 Neem het zelfde voorbeeld zoals hierboven waar u twee besluitvormingswerkingsgebied zoals toevoegde:
 
-* Toepassingsgebied 1: Er zijn vier geschikte voorstellen (voorstel 1, voorstel 2, voorstel 3, voorstel 4) en het verzoek is om twee voorstellen terug te sturen.
-* Toepassingsgebied 2: Er zijn vier geschikte voorstellen (voorstel 1, voorstel 2, voorstel 3, voorstel 4) en het verzoek is om twee voorstellen terug te sturen.
+* Bereik 1: Er zijn vier in aanmerking komende aanbiedingen (voorstel 1, voorstel 2, voorstel 3, voorstel 4) en het verzoek is om twee voorstellen terug te sturen.
+* Bereik 2: Er zijn vier in aanmerking komende aanbiedingen (voorstel 1, voorstel 2, voorstel 3, voorstel 4) en het verzoek is om twee voorstellen terug te sturen.
 
 +++ **Voorbeeld 1**
 
@@ -295,7 +295,7 @@ Als alles behoorlijk wordt gevormd, toont een samenvatting van de beslissingseig
 
    ![](../assets/review-decision.png)
 
-1. U kunt elke plaatsing uitvouwen of samenvouwen. U kunt voor elke plaatsing een voorvertoning weergeven van de beschikbare voorstellen, de geschiktheid en de waarderingsdetails. U kunt ook informatie weergeven over de geschatte gekwalificeerde profielen. Klikken **[!UICONTROL Refresh]** om gegevens bij te werken.
+1. U kunt elke plaatsing uitvouwen of samenvouwen. U kunt voor elke plaatsing een voorvertoning weergeven van de beschikbare voorstellen, de geschiktheid en de rangschikkingsgegevens. U kunt ook informatie weergeven over de geschatte gekwalificeerde profielen. Klikken **[!UICONTROL Refresh]** gegevens bijwerken.
 
    ![](../assets/review-decision-details.png)
 
@@ -316,7 +316,7 @@ In de beslissingslijst kunt u de beslissing selecteren om de eigenschappen ervan
 
 ![](../assets/decision_created.png)
 
-Selecteer **[!UICONTROL Edit]** om terug te gaan naar de modus voor beslissingseditie, waar u de beslissing kunt wijzigen [details](#create-activity), [beslissingsbereik](#add-decision-scopes) en [fallback-aanbieding](#add-fallback).
+Selecteer de **[!UICONTROL Edit]** om terug te gaan naar de modus voor beslissingseditie, waar u de beslissing kunt wijzigen [details](#create-activity), [beslissingsbereik](#add-decision-scopes) en [fallback-aanbieding](#add-fallback).
 
 >[!IMPORTANT]
 >
@@ -332,11 +332,11 @@ De **[!UICONTROL More actions]** schakelt u de hieronder beschreven handelingen 
 
 ![](../assets/decision_more-actions.png)
 
-* **[!UICONTROL Complete]**: stelt de status van de beslissing in op **[!UICONTROL Complete]**, wat betekent dat het besluit niet meer kan worden genoemd. Deze handeling is alleen beschikbaar voor geactiveerde beslissingen. Het besluit is nog steeds beschikbaar in de lijst, maar u kunt de status niet terugzetten op **[!UICONTROL Draft]** of **[!UICONTROL Approved]**. U kunt het alleen dupliceren, verwijderen of archiveren.
+* **[!UICONTROL Complete]**: stelt de status van het besluit in op **[!UICONTROL Complete]**, wat betekent dat het besluit niet meer kan worden genoemd. Deze handeling is alleen beschikbaar voor geactiveerde beslissingen. Het besluit is nog steeds beschikbaar in de lijst, maar u kunt de status niet terugzetten op **[!UICONTROL Draft]** of **[!UICONTROL Approved]**. U kunt het alleen dupliceren, verwijderen of archiveren.
 
-* **[!UICONTROL Duplicate]**: een besluit met dezelfde eigenschappen, beslissingsbereik en terugvalaanbieding. Het nieuwe besluit heeft standaard de **[!UICONTROL Draft]** status.
+* **[!UICONTROL Duplicate]**: maakt een beslissing met dezelfde eigenschappen, hetzelfde beslissingsbereik en hetzelfde fallback-aanbod. Het nieuwe besluit heeft standaard de **[!UICONTROL Draft]** status.
 
-* **[!UICONTROL Delete]**: Hiermee verwijdert u de beslissing uit de lijst.
+* **[!UICONTROL Delete]**: verwijdert de beslissing uit de lijst.
 
   >[!CAUTION]
   >
@@ -358,7 +358,7 @@ Nadat u een beslissing hebt gemaakt, kunt u in de lijst op de naam ervan klikken
 
 ![](../assets/decision_click-name.png)
 
-Dit laat u toe om tot gedetailleerde informatie voor dat besluit toegang te hebben. Selecteer **[!UICONTROL Change log]** tab naar [alle wijzigingen controleren](../get-started/user-interface.md#changes-log) die op het besluit zijn genomen.
+Dit laat u toe om tot gedetailleerde informatie voor dat besluit toegang te hebben. Selecteer de **[!UICONTROL Change log]** tab naar [alle wijzigingen controleren](../get-started/user-interface.md#changes-log) die op het besluit zijn genomen.
 
 ![](../assets/decision_information.png)
 
