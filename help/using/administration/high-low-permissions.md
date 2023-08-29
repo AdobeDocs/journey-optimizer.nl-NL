@@ -8,9 +8,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: machtiging, hoog niveau, laag niveau, profiel, beheerconsole
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 7ac2ae714f2d11d2559b6195af37e2dece35b17c
+source-git-commit: bb988dbc3aa8b70081c9f3de595d49904cc699b4
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Zij kunnen in twee types worden verdeeld:
 
 * **Toestemming op laag niveau**: vertegenwoordigt de verschillende toestemmingen die uit de toestemming op hoog niveau komen.
 
-De **[!DNL Journey administrator]** de rol wordt toegewezen aan **[!DNL Manage journeys]** toestemming. Uit deze toestemming vloeit het laagniveautoestemmingen voort die de beheerder van de Reis zullen toestaan om reizen te schrijven, te lezen en te schrappen.
+Bijvoorbeeld de **[!DNL Journey administrator]** de rol wordt toegewezen aan **[!DNL Manage journeys]** toestemming. Uit deze toestemming vloeit het laagniveautoestemmingen voort die de beheerder van de Reis zullen toestaan om reizen te schrijven, te lezen en te schrappen.
 
 ## Reisbron {#journey-capability}
 
@@ -40,6 +40,7 @@ De **[!DNL Journey administrator]** de rol wordt toegewezen aan **[!DNL Manage j
       * journeys.write
       * journeys.delete
       * messages.read
+
    * specifiek voor Adobe Experience Platform:
 
       * segments.read
@@ -64,6 +65,7 @@ De **[!DNL Journey administrator]** de rol wordt toegewezen aan **[!DNL Manage j
 
    * specifiek voor Journey Optimizer:
       * journeys.read
+
    * specifiek voor Adobe Experience Platform:
       * segments.read
       * profiles.read
@@ -84,6 +86,7 @@ De **[!DNL Journey administrator]** de rol wordt toegewezen aan **[!DNL Manage j
       * reizen_handelingen.read
       * trajecten_handelingen.write
       * reizen_handelingen.delete
+
    * specifiek voor Adobe Experience Platform:
       * schemas.read
       * datasets.read
@@ -99,6 +102,7 @@ De **[!DNL Journey administrator]** de rol wordt toegewezen aan **[!DNL Manage j
       * rites_events.read
       * reizen_gegevens_bronnen.read
       * reizen_handelingen.read
+
    * specifiek voor Adobe Experience Platform:
       * schemas.read
       * datasets.read
@@ -113,6 +117,7 @@ De **[!DNL Journey administrator]** de rol wordt toegewezen aan **[!DNL Manage j
    * specifiek voor Journey Optimizer:
       * trajecten_rapport.read
       * messages_report.read
+
    * specifiek voor Adobe Experience Platform:
       * datasets.read
       * queries.read
@@ -145,6 +150,19 @@ De **[!DNL Journey administrator]** de rol wordt toegewezen aan **[!DNL Manage j
 
 ## Campagnebron {#campaign-capability}
 
+* **[!DNL Export suppression list]** Met machtiging op hoog niveau kunnen gebruikers de lijst met onderdrukking downloaden als een CSV-bestand.
+
++++ Dit omvat de volgende laagniveaumachtigingen:
+
+   * specifiek voor Journey Optimizer:
+      * suppression_list.export
+
+   * specifiek voor Adobe Experience Platform:
+      * profiles.read
+      * datasets.read
+
++++
+
 * **[!DNL Manage campaigns]** Met machtiging op hoog niveau kunnen gebruikers nieuwe campagnes maken en deze bewerken/verwijderen
 
 +++ Dit omvat de volgende laagniveaumachtigingen:
@@ -154,10 +172,10 @@ De **[!DNL Journey administrator]** de rol wordt toegewezen aan **[!DNL Manage j
       * campaign.read
       * campaign.write
       * campaign.delete
-
-      <!--* experiments.read
+     <!--* experiments.read
       * experiments.write
       * experiments.delete-->
+
 +++
 
 * **[!DNL Publish campaigns]** Met machtiging op hoog niveau kunnen gebruikers campagnes publiceren.
@@ -168,7 +186,7 @@ De **[!DNL Journey administrator]** de rol wordt toegewezen aan **[!DNL Manage j
 
       * door campagne gelezen
       * campagnepublicatie
-         <!--* experiments.activate-->
+        <!--* experiments.activate-->
 
 +++
 
@@ -179,9 +197,9 @@ De **[!DNL Journey administrator]** de rol wordt toegewezen aan **[!DNL Manage j
    * specifiek voor Journey Optimizer:
       * campaign.read
       * campaign-report.read
-
-      <!--* experiments.read
+     <!--* experiments.read
       * experiments_report.read-->
+
 +++
 
 ## Hulpbron voor Besluit {#decisions-permissions}
@@ -190,7 +208,7 @@ De **[!DNL Journey administrator]** de rol wordt toegewezen aan **[!DNL Manage j
 
 +++ Dit omvat de volgende laagniveaumachtigingen:
 
-   * Specifieke aspecten van het besluitvormingsbeheer:
+   * Specifiek beheer van besluiten:
       * activities.read
       * activities.write
       * activities.delete
@@ -201,6 +219,7 @@ De **[!DNL Journey administrator]** de rol wordt toegewezen aan **[!DNL Manage j
       * placements.write
       * placements.delete
       * classificeren_strategie.read
+
    * specifiek voor Adobe Experience Platform:
       * datasets.read
       * datasets.write
@@ -215,11 +234,12 @@ De **[!DNL Journey administrator]** de rol wordt toegewezen aan **[!DNL Manage j
 
 +++ Dit omvat de volgende laagniveaumachtigingen:
 
-   * Specifieke aspecten van het besluitvormingsbeheer:
+   * Specifiek beheer van besluiten:
       * activities.read
       * offers.read
       * placements.read
       * classificeren_strategie.read
+
    * specifiek voor Adobe Experience Platform:
       * schemas.read
       * segment.read
@@ -233,7 +253,7 @@ De **[!DNL Journey administrator]** de rol wordt toegewezen aan **[!DNL Manage j
 
 +++ Dit omvat de volgende laagniveaumachtigingen:
 
-   * Specifieke aspecten van het besluitvormingsbeheer:
+   * Specifiek beheer van besluiten:
       * aanbiedingen_activity.read
       * offers.read
       * offers.Write
@@ -242,6 +262,7 @@ De **[!DNL Journey administrator]** de rol wordt toegewezen aan **[!DNL Manage j
       * placements.Write
       * placements.Delete
       * classificeren_strategie.read
+
    * specifiek voor Adobe Experience Platform:
       * schemas.read
       * segment.read
@@ -254,7 +275,7 @@ De **[!DNL Journey administrator]** de rol wordt toegewezen aan **[!DNL Manage j
 
 +++ Dit omvat de volgende laagniveaumachtigingen:
 
-   * Specifieke aspecten van het besluitvormingsbeheer:
+   * Specifiek beheer van besluiten:
       * classificeren_strategie.read
       * classificeren_strategie.write
       * classificeren_strategie.delete
@@ -265,72 +286,6 @@ De **[!DNL Journey administrator]** de rol wordt toegewezen aan **[!DNL Manage j
 +++
 
 ## Bron voor kanaalconfiguraties {#administration-permissions}
-
-* **[!DNL Manage subdomains delegation]** Op hoog niveau staat de toestemming gebruikers toe om subdomeindelegaties (met inbegrip van IP pool) tot stand te brengen, uit te geven en te schrappen.
-
-+++ Dit omvat de volgende laagniveaumachtigingen:
-   * specifiek voor Journey Optimizer:
-
-      * subdomeinen_delegatie.read
-      * subdomeinen_delegatie.write
-      * subdomeinen_delegatie.delete
-
-+++
-
-* **[!DNL Manage PTR records]** De toestemming op hoog niveau staat gebruikers toe om PTR verslagen te lezen en uit te geven die gebaseerd op subdomain zijn gevormd.
-
-+++ Dit omvat de volgende laagniveaumachtigingen:
-
-   * specifiek voor Journey Optimizer:
-      * PTR_records.read
-      * PTR_records.write
-      * subdomeinen_delegatie.read
-
-+++
-
-* **[!DNL View PTR records]** De toestemming op hoog niveau staat gebruikers toe om PTR verslagen te bekijken die gebaseerd op subdomain zijn gevormd.
-
-+++ Dit omvat de volgende laagniveaumachtigingen:
-   * specifiek voor Journey Optimizer:
-
-      * PTR_records.read
-      * subdomeinen_delegatie.read
-
-+++
-
-* **[!DNL Manage IP pools]** Met machtiging op hoog niveau kunnen gebruikers de affiniteitsdefinitie maken, bewerken en verwijderen.
-
-+++ Dit omvat de volgende laagniveaumachtigingen:
-   * specifiek voor Journey Optimizer:
-      * IP_pools.read
-      * IP_pools.write
-      * IP_pools.delete
-
-+++
-
-* **[!DNL Manage messages general settings]** Met machtiging op hoog niveau kunnen gebruikers algemene instellingen op sandboxniveau maken, bewerken en verwijderen.
-
-+++ Dit omvat de volgende laagniveaumachtigingen:
-
-   * specifiek voor Journey Optimizer:
-      * messages_general_settings.read
-      * messages_general_settings.write
-      * messages_general_settings.delete
-   * specifiek voor Adobe Experience Platform:
-      * schemas.read
-
-+++
-
-* **[!DNL View messages general settings]** Met machtiging op hoog niveau kunnen gebruikers algemene instellingen voor berichten weergeven, zoals het uitvoeringsadres.
-
-+++ Dit omvat de volgende laagniveaumachtigingen:
-
-   * specifiek voor Journey Optimizer:
-      * messages_general_settings.read
-   * specifiek voor Adobe Experience Platform:
-      * schemas.read
-
-+++
 
 * **[!DNL Manage channel surface]** Met machtiging op hoog niveau kunnen gebruikers kanaaloppervlakken maken, bewerken en verwijderen via kanalen op sandboxniveau.
 
@@ -346,51 +301,13 @@ De **[!DNL Journey administrator]** de rol wordt toegewezen aan **[!DNL Manage j
 
 +++
 
-<!--
-### [!DNL View channel surface] permission {#view-channel-surface}
-
-The **[!DNL View channel surface]** high-level permission allows users to view channel surfaces in order to know which channel surfaces to use. 
-  +++ It includes the following low-level permissions:  
-
-* messages_presets.read
-* subdomains_delegation.read
-* IP_pools.read
-* mobile_setting.read (from Adobe Experience Platform Data Collection)
--->
-
-* **[!DNL Manage suppression]** Met machtiging op hoog niveau kunnen gebruikers het aantal instanties definiëren voordat een e-mailadres aan de suppressielijst wordt toegevoegd en kunnen ze items toevoegen aan of verwijderen uit de lijst met onderdrukking.
+* **[!DNL Manage IP pools]** Met machtiging op hoog niveau kunnen gebruikers de affiniteitsdefinitie maken, bewerken en verwijderen.
 
 +++ Dit omvat de volgende laagniveaumachtigingen:
    * specifiek voor Journey Optimizer:
-      * suppression_rules.read
-      * suppression_rules.write
-      * suppression_rules.delete
-      * suppression_list.write
-      * suppression_list.delete
-
-+++
-
-* **[!DNL View suppression list]** Met machtiging op hoog niveau kunnen gebruikers de inhoud en instellingen van de suppressielijst bekijken.
-
-+++ Dit omvat de volgende laagniveaumachtigingen:
-
-   * specifiek voor Journey Optimizer:
-      * suppression_list.view
-   * specifiek voor Adobe Experience Platform:
-      * profiles.read
-      * datasets.read
-
-+++
-
-* **[!DNL Export suppression list]** Met machtiging op hoog niveau kunnen gebruikers de lijst met onderdrukking downloaden als een CSV-bestand.
-
-+++ Dit omvat de volgende laagniveaumachtigingen:
-
-   * specifiek voor Journey Optimizer:
-      * suppression_list.export
-   * specifiek voor Adobe Experience Platform:
-      * profiles.read
-      * datasets.read
+      * IP_pools.read
+      * IP_pools.write
+      * IP_pools.delete
 
 +++
 
@@ -409,13 +326,19 @@ The **[!DNL View channel surface]** high-level permission allows users to view c
 
 +++
 
-<!--
-### Manage web subdomain permission {#web-subdomain}
+* **[!DNL Manage messages general settings]** Met machtiging op hoog niveau kunnen gebruikers algemene instellingen op sandboxniveau maken, bewerken en verwijderen.
 
-The **[!DNL Manage web subdomain]** high-level permission allows users to read, create, edit, and delete web subdomains.
++++ Dit omvat de volgende laagniveaumachtigingen:
 
-  +++ It includes the following low-level permissions: 
--->
+   * specifiek voor Journey Optimizer:
+      * messages_general_settings.read
+      * messages_general_settings.write
+      * messages_general_settings.delete
+
+   * specifiek voor Adobe Experience Platform:
+      * schemas.read
+
++++
 
 * **[!DNL Manage messages presets]** Met machtiging op hoog niveau kunnen gebruikers inhoud van een brandmerk lezen, maken, bewerken en verwijderen.
 
@@ -427,21 +350,31 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * messages_presets.delete
       * subdomeinen_delegatie.read
       * IP_pools.read
+
    * Specifieke gegevensverzameling:
       * Mobile_setting.read
 
 +++
 
-* **[!DNL View messages presets]** Met machtiging op hoog niveau kunnen gebruikers voorinstellingen voor berichten weergeven.
+* **[!DNL Manage PTR records]** De toestemming op hoog niveau staat gebruikers toe om PTR verslagen te lezen en uit te geven die gebaseerd op subdomain zijn gevormd.
 
 +++ Dit omvat de volgende laagniveaumachtigingen:
 
    * specifiek voor Journey Optimizer:
-      * messages_presets.read
+      * PTR_records.read
+      * PTR_records.write
       * subdomeinen_delegatie.read
-      * IP_pools.read
-   * Specifieke gegevensverzameling:
-      * Mobile_setting.read
+
++++
+
+* **[!DNL Manage Seedlist]** Met machtiging op hoog niveau kunnen gebruikers de zaadlijst lezen, maken, bewerken en verwijderen.
+
++++ Dit omvat de volgende laagniveaumachtigingen:
+
+   * specifiek voor Journey Optimizer:
+      * seedlist.read
+      * seedlist.write
+      * seedlist.delete
 
 +++
 
@@ -453,4 +386,98 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * sms_subdomeinen.read
       * sms_subdomeinen.write
       * sms_subdomeinen.delete
+
 +++
+
+* **[!DNL Manage subdomains delegation]** Op hoog niveau kunnen gebruikers subdomeindelegaties (waaronder IP-pool) maken, bewerken en verwijderen.
+
++++ Dit omvat de volgende laagniveaumachtigingen:
+   * specifiek voor Journey Optimizer:
+
+      * subdomeinen_delegatie.read
+      * subdomeinen_delegatie.write
+      * subdomeinen_delegatie.delete
+
++++
+
+* **[!DNL Manage suppression]** Met machtiging op hoog niveau kunnen gebruikers het aantal instanties definiëren voordat een e-mailadres aan de suppressielijst wordt toegevoegd en kunnen ze items toevoegen aan of verwijderen uit de lijst met onderdrukking.
+
++++ Dit omvat de volgende laagniveaumachtigingen:
+   * specifiek voor Journey Optimizer:
+      * suppression_rules.read
+      * suppression_rules.write
+      * suppression_rules.delete
+      * suppression_list.write
+      * suppression_list.delete
+
++++
+
+* **[!DNL View PTR records]** De toestemming op hoog niveau staat gebruikers toe om PTR verslagen te bekijken die gebaseerd op subdomain zijn gevormd.
+
++++ Dit omvat de volgende laagniveaumachtigingen:
+   * specifiek voor Journey Optimizer:
+
+      * PTR_records.read
+      * subdomeinen_delegatie.read
+
++++
+
+* **[!DNL View messages general settings]** Met machtiging op hoog niveau kunnen gebruikers algemene instellingen voor berichten weergeven, zoals het uitvoeringsadres.
+
++++ Dit omvat de volgende laagniveaumachtigingen:
+
+   * specifiek voor Journey Optimizer:
+      * messages_general_settings.read
+
+   * specifiek voor Adobe Experience Platform:
+      * schemas.read
+
++++
+
+* **[!DNL View messages presets]** Met machtiging op hoog niveau kunnen gebruikers voorinstellingen voor berichten weergeven.
+
++++ Dit omvat de volgende laagniveaumachtigingen:
+
+   * specifiek voor Journey Optimizer:
+      * messages_presets.read
+      * subdomeinen_delegatie.read
+      * IP_pools.read
+
+   * Specifieke gegevensverzameling:
+      * Mobile_setting.read
+
++++
+<!--
+### [!DNL View channel surface] permission {#view-channel-surface}
+
+The **[!DNL View channel surface]** high-level permission allows users to view channel surfaces in order to know which channel surfaces to use. 
+  +++ It includes the following low-level permissions:  
+
+* messages_presets.read
+* subdomains_delegation.read
+* IP_pools.read
+* mobile_setting.read (from Adobe Experience Platform Data Collection)
+-->
+
+
+* **[!DNL View suppression list]** Met machtiging op hoog niveau kunnen gebruikers de inhoud en instellingen van de suppressielijst bekijken.
+
++++ Dit omvat de volgende laagniveaumachtigingen:
+
+   * specifiek voor Journey Optimizer:
+      * suppression_list.view
+
+   * specifiek voor Adobe Experience Platform:
+      * profiles.read
+      * datasets.read
+
++++
+
+<!--
+### Manage web subdomain permission {#web-subdomain}
+
+The **[!DNL Manage web subdomain]** high-level permission allows users to read, create, edit, and delete web subdomains.
+
+  +++ It includes the following low-level permissions: 
+-->
+
