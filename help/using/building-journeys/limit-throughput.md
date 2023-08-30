@@ -8,7 +8,7 @@ role: User, Developer
 level: Experienced
 keywords: reis, gegevensbronnen, grens, productie, douane, acties
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: e06e0585f98897cca339e7923c38d3860767dac6
+source-git-commit: 392bd63b666e4db72c2865e4b7134bb3c1711816
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Raadpleeg voor meer informatie over het integreren met externe systemen de volge
 
 ## Implementatie
 
-Voor **door het publiek geïnitieerde reizen** kunt u de snelheid van de activiteit van het leespubliek bepalen die de doorvoer van de reis beïnvloedt. [Meer informatie](../building-journeys/read-audience.md)
+Voor **door het publiek geïnitieerde reizen** kunt u de leessnelheid van de activiteit van het leespubliek definiëren die de doorvoer van de reis beïnvloedt. [Meer informatie](../building-journeys/read-audience.md)
 
 >[!NOTE]
 >
