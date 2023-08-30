@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c01195dbee3e14a356c58353169507678aec5d30
+source-git-commit: d56053d9db3d7c07d629069c985640e694b32ce1
 workflow-type: tm+mt
 source-wordcount: '1292'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in 
 ### Aangepaste acties {#custom-actions-g}
 
 * De URL van de aangepaste handeling ondersteunt geen dynamische parameters.
-* Alleen methoden voor het aanroepen van POSTEN en PUTTEN worden ondersteund
+* Methoden voor POST, PUT en GET worden ondersteund
 * De naam van de queryparameter of -header mag niet beginnen met &quot;.&quot; of &quot;$&quot;
 * IP-adressen zijn niet toegestaan
 * Interne adressen van Adoben (`.adobe.*`) zijn niet toegestaan in URL&#39;s en API&#39;s.
