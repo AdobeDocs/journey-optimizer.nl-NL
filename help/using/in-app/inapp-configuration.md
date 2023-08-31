@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 keywords: in-app, bericht, configuratie, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 13020825a0cf06bd67f48ccbe6f46b6eaea210d3
+source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '394'
 ht-degree: 2%
 
 ---
@@ -31,6 +31,10 @@ Voordat u berichten in de app verzendt, moet u uw kanaal in de app configureren 
    >De dataset wordt gebruikt read-only door [!DNL Journey Optimizer] rapportagesysteem en heeft geen invloed op gegevensverzameling of gegevensinvoer.
 
 1. Ga vervolgens naar het dialoogvenster **[!UICONTROL App surfaces]** menu en klik op **[!UICONTROL Create App surface]**.
+
+   >[!NOTE]
+   >
+   > U hebt de **Toepassingsconfiguratie beheren** toestemming om toegang te hebben tot **[!UICONTROL App surfaces]** -menu. Raadpleeg voor meer informatie [deze video](#video).
 
    >[!NOTE]
    >
@@ -87,5 +91,10 @@ Het kanaal in de app is nu geconfigureerd. U kunt in-app-berichten naar uw gebru
 
 * In de onderstaande video ziet u hoe u de **Toepassingsconfiguratie beheren** machtiging om het menu met toepassingsoppervlakken te openen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421607)
+  +++Zie video
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
+
++++
+
 
