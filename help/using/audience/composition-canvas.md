@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 48a0fb11c141d847fae444909a7e6080e4a4935a
+source-git-commit: a6e46e7ff5a84ebb59dcb7825fa71df09b0f9a98
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -116,9 +116,13 @@ De **[!UICONTROL Exclude]** Met activiteit kunt u profielen uitsluiten van uw co
 
   Selecteer het kenmerk dat u wilt opzoeken en geef de waarde op die u wilt uitsluiten. In dit voorbeeld sluiten we compositieprofielen uit waarvan het adres in Japan ligt.
 
+  >[!NOTE]
+  >
+  >Er kan slechts één uitsluitingswaarde worden opgegeven.
+
   ![](assets/audiences-exclude-attribute.png)
 
-### Verrijken {#enrich}
+### Verrijken van activiteit {#enrich}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_enrich"
@@ -220,9 +224,16 @@ Er zijn twee soorten splitsingsbewerkingen beschikbaar:
 
   ![](assets/audiences-split.png)
 
-  >[!NOTE]
-  >
-  >De **[!UICONTROL Other profiles]** kunt u een extra pad maken met de resterende profielen die niet overeenkomen met een van de voorwaarden die in de andere paden zijn opgegeven.
+  Om een op attribuut-gebaseerde splitsingsactiviteit te vormen:
+
+   1. Klik op de knop naast de knop **[!UICONTROL Attribute]** veld waarin u het kenmerk kunt kiezen dat u als criteria wilt selecteren.
+   1. Voeg naar wens zoveel paden toe en geef voor elk pad een label en de waarde op die u wilt gebruiken om de profielen te selecteren die u in het pad wilt opnemen.
+
+      >[!NOTE]
+      >
+      >Er kan slechts één waarde worden opgegeven voor elk pad.
+
+   1. In-/uitschakelen **[!UICONTROL Other profiles]** een extra pad maken met de resterende profielen die niet overeenkomen met een van de voorwaarden die in de andere paden zijn opgegeven.
 
 ## Uw publiek opslaan {#save}
 
