@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: a6e46e7ff5a84ebb59dcb7825fa71df09b0f9a98
+source-git-commit: cfe7c04d6a45e468933a3e79f36365754d1e15d9
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1448'
 ht-degree: 0%
 
 ---
@@ -224,10 +224,10 @@ Er zijn twee soorten splitsingsbewerkingen beschikbaar:
 
   ![](assets/audiences-split.png)
 
-  Om een op attribuut-gebaseerde splitsingsactiviteit te vormen:
+  Voer de volgende stappen uit om een op kenmerken gebaseerde splitsingsactiviteit in te stellen:
 
-   1. Klik op de knop naast de knop **[!UICONTROL Attribute]** veld waarin u het kenmerk kunt kiezen dat u als criteria wilt selecteren.
-   1. Voeg naar wens zoveel paden toe en geef voor elk pad een label en de waarde op die u wilt gebruiken om de profielen te selecteren die u in het pad wilt opnemen.
+   1. Klik op de knop naast de knop **[!UICONTROL Attribute]** veld om het kenmerk te selecteren dat u als splitsingscriteria wilt gebruiken.
+   1. Voeg zoveel paden toe als u nodig hebt. Geef voor elk pad een label en geef de waarde op die wordt gebruikt om te bepalen welke profielen moeten worden opgenomen in dat pad.
 
       >[!NOTE]
       >
