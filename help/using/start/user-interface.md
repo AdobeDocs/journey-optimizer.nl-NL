@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: b58bc332886e37b8d8eb2e439fd8ddb459dbe356
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 5%
@@ -116,7 +116,7 @@ Beheer uw privacybeheer en verzoeken vanuit deze sectie.
 
 * **[!UICONTROL Policies]** - Met Adobe Experience Platform kunt u labels toewijzen aan uw velden en marketingacties maken voor elk kanaal. Vervolgens definieert u een governancebeleid dat gekoppeld is aan een label en een marketingactie. [Meer informatie](../action/action-privacy.md)
 
-* **[!UICONTROL Requests]** - Aanvragen voor privacy worden beheerd in de Adobe Experience Platform Privacy Service. Het verstrekt RESTful API en gebruikersinterface om u te helpen de verzoeken van klantgegevens beheren. [Meer informatie](../privacy/requests.md)
+* **[!UICONTROL Requests]** - De privacyverzoeken worden beheerd in de Adobe Experience Platform Privacy Service. Het verstrekt RESTful API en gebruikersinterface om u te helpen de verzoeken van klantgegevens beheren. [Meer informatie](../privacy/requests.md)
 
 * **[!UICONTROL Audit]** - Blader naar deze sectie om activiteitenlogboeken te controleren. [Meer informatie](../privacy/audit-logs.md)
 
