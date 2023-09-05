@@ -10,9 +10,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 280b1c2c7276b872143062aeba0939a899897d42
+source-git-commit: 32dd999f18bf3ddb3e073631f6d117238dc46c12
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 **Inhoudsopgave**
 
 * **[Aan de slag met de inhoudsassistent](gs-generative.md)**
-* [Tekst genereren met de inhoudsassistent](generative-title.md)
+* [Tekst genereren met de inhoudsassistent](generative-content.md)
 * [Afbeeldingen genereren met de Content Assistant](generative-image.md)
 
 >[!ENDSHADEBOX]
@@ -36,7 +36,7 @@ De Adobe Reis Optimier Content assistent biedt proactieve suggesties voor inhoud
 
 
 
-Gebruik de Content Assistant om de impact van uw bericht te optimaliseren door te experimenteren met verschillende hoofdtitels en -afbeeldingen. Genereer meerdere varianten en maak een experiment om ze te vergelijken. Als u gebruikmaakt van Journey Optimizer Content Experiment, kunt u meerdere berichtbehandelingen definiëren om te meten welke het beste presteert voor uw doelgroep. U kunt kiezen om de leveringsinhoud, het onderwerp, of de afzender te variëren. Het berichtpubliek wordt willekeurig toegewezen aan elke behandeling om te bepalen welke één het beste in termen van gespecificeerde metrisch werkt. Meer informatie over Inhoud experimenteren in [deze sectie](../campaigns/content-experiment.md).
+Gebruik de Content Assistant om de impact van uw bericht te optimaliseren door te experimenteren met verschillende hoofdtitels en -afbeeldingen. Genereer meerdere varianten en maak een experiment om ze te vergelijken. Als u gebruikmaakt van Journey Optimizer Content Experiment, kunt u meerdere berichtbehandelingen definiëren om te meten welke het beste presteert voor uw doelgroep. U kunt kiezen om de leveringsinhoud, of onderwerp te variëren. Het berichtpubliek wordt willekeurig toegewezen aan elke behandeling om te bepalen welke één het beste in termen van gespecificeerde metrisch werkt. Meer informatie over Inhoud experimenteren in [deze sectie](../campaigns/content-experiment.md).
 
 
 >[!AVAILABILITY]
