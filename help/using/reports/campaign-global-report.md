@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 164a7376c362f67f82f7cf07ec21aa42b9b342cf
+source-git-commit: ea56d3cac5e4c4bc95560734fa3b9e8f410c8691
 workflow-type: tm+mt
-source-wordcount: '2204'
+source-wordcount: '2198'
 ht-degree: 0%
 
 ---
@@ -145,9 +145,9 @@ De **[!UICONTROL Email Sending Statistics]** grafiek geeft het succes van uw lev
 
 De **[!UICONTROL Email - Tracking statistics]** widget bevat de beschikbare gegevens voor de activiteit van de ontvanger voor uw levering:
 
-* **[!UICONTROL Opens]**: Aantal keren dat de levering is geopend in een levering.
+* **[!UICONTROL Opens]**: Aantal keer dat de e-mail is geopend.
 
-* **[!UICONTROL Unique Opens]**: Percentage geopende leveringen.
+* **[!UICONTROL Unique Opens]**: Percentage geopende e-mails.
 
 * **[!UICONTROL Open Rate]**: Het totale aantal geopende e-mails in verhouding tot het aantal geleverde e-mails.
 
@@ -196,7 +196,9 @@ De **[!UICONTROL Email - Top recipient domain]** grafiek en lijstdetails welke d
 De **[!UICONTROL Optimized vs non optimized]** de grafiek geeft de belangrijkste informatie met betrekking tot uw bericht of zij of niet worden geoptimaliseerd:
 
 * **[!UICONTROL Sent]**: Totaal aantal verzendingen voor de levering.
-* **[!UICONTROL Opens]**: Aantal keren dat de levering is geopend in een levering.
+
+* **[!UICONTROL Opens]**: Het aantal keren dat het bericht is geopend.
+
 * **[!UICONTROL Clicks]**: Aantal keer dat er op inhoud is geklikt in een e-mail.
 
 De **[!UICONTROL Send time optimization]** bepaalt het succes van uw levering afhankelijk van de verzendende methode: geoptimaliseerd of normaal.
