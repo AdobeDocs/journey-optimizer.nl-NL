@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 2e30b155-688b-432b-a703-d09de12ebdfd
-source-git-commit: 353aaf2bc4f32b1b0d7bfc2f7f4f48537cc79df4
+source-git-commit: 3568e86015ee7b2ec59a7fa95e042449fb5a0693
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '102'
 ht-degree: 1%
 
 ---
@@ -17,111 +17,86 @@ ht-degree: 1%
 
 Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
 
-U kunt specifieke gepersonaliseerde aanbiedingen opzoeken door een verzoek van de GET aan [!DNL Offer Library] API die of de gepersonaliseerde aanbieding omvat `@id` of de naam van de gepersonaliseerde aanbieding in het verzoekpad.
+U kunt specifieke gepersonaliseerde aanbiedingen opzoeken door een verzoek van de GET tot de [!DNL Offer Library] API die de gepersonaliseerde aanbiedings-id in het aanvraagpad bevat.
 
 **API-indeling**
 
 ```http
-GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALIZED_OFFER}&{QUERY_PARAMS}
+GET /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
 ```
 
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | De container waarin de gepersonaliseerde aanbiedingen zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{SCHEMA_PERSONALIZED_OFFER}` | Bepaalt het schema verbonden aan gepersonaliseerde aanbiedingen. | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
-| `id` | Een tekenreeks die overeenkomt met de `@id` eigendom van de entiteiten. De tekenreeks komt exact overeen. De parameters &quot;id&quot; en &quot;name&quot; kunnen niet samen worden gebruikt. | `xcore:personalized-offer:124cc332095cfa74` |
-| `name` | Een tekenreeks die overeenkomt met de eigenschap xdm:name van de entiteiten. De tekenreeks komt exact overeen met hoofdletters, maar er kunnen jokertekens worden gebruikt. De parameters `id` en `name` kan niet samen worden gebruikt | `Discount offer` |
+| `{ENDPOINT_PATH}` | Het eindpuntpad voor persistentie-API&#39;s. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | De id van de entiteit die u wilt opzoeken. | `personalizedOffer1234` |
 
 **Verzoek**
 
 ```shell
-curl -X GET \
-  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances?schema=https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5&name=Discount%20offer' \
-  -H 'Accept: *,application/vnd.adobe.platform.xcore.hal+json; schema="https://ns.adobe.com/experience/xcore/hal/results"' \
-  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
-  -H 'x-api-key: {API_KEY}' \
-  -H 'x-gw-ims-org-id: {IMS_ORG}' \
-  -H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X GET 'https://platform.adobe.io/data/core/dps/offers/personalizedOffer1234?offer-type=personalized' \
+-H 'Accept: *,application/json' \
+-H 'Authorization: Bearer {ACCESS_TOKEN}' \
+-H 'x-api-key: {API_KEY}' \
+-H 'x-gw-ims-org-id: {IMS_ORG}' \
+-H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 **Antwoord**
 
-Een succesvol antwoord retourneert de details van de plaatsing, inclusief informatie over uw container-id, instantie-id en unieke persoonlijke aanbieding `@id`.
+Een succesvol antwoord retourneert de details van de persoonlijke aanbieding, inclusief informatie over uw unieke persoonlijke aanbieding `id`.
 
 ```json
 {
-    "containerId": "e0bd8463-0913-4ca1-bd84-6309134ca1f6",
-    "schemaNs": "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5",
-    "requestTime": "2020-10-21T20:59:16.238585Z",
-    "_embedded": {
-        "results": [
-            {
-                "instanceId": "fb2aad00-130e-11eb-aa26-21e7b1fa6da6",
-                "schemas": [
-                    "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"
-                ],
-                "productContexts": [
-                    "acp"
-                ],
-                "repo:etag": 1,
-                "repo:createdDate": "2020-10-20T20:01:02.927874Z",
-                "repo:lastModifiedDate": "2020-10-20T20:01:02.927874Z",
-                "repo:createdBy": "{CREATED_BY}",
-                "repo:lastModifiedBy": "{MODIFIED_BY}",
-                "repo:createdByClientId": "{CREATED_CLIENT_ID}",
-                "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}",
-                "_score": 0,
-                "_instance": {
-                    "xdm:name": "Discount offer",
-                    "xdm:representations": [
-                        {
-                            "xdm:components": [
-                                {
-                                    "dc:language": [
-                                        "en"
-                                    ],
-                                    "@type": "https://ns.adobe.com/experience/offer-management/content-component-json",
-                                    "dc:format": "application/json"
-                                }
-                            ],
-                            "xdm:placement": "xcore:offer-placement:12428d436d87dc84"
-                        }
+    "created": "2023-05-15T14:35:16.781+00:00",
+    "modified": "2023-05-15T14:38:26.691+00:00",
+    "etag": 2,
+    "schemas": [
+        "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.15"
+    ],
+    "createdBy": "{CREATED_BY}",
+    "lastModifiedBy": "{MODIFIED_BY}",
+    "id": "personalizedOffer1234",
+    "name": "Test personalized offer with frequency constraint",
+    "status": "draft",
+    "representations": [
+        {
+            "channel": "https://ns.adobe.com/xdm/channel-types/web",
+            "placement": "offerPlacement1234",
+            "components": [
+                {
+                    "type": "html",
+                    "format": "text/html",
+                    "language": [
+                        "en-us"
                     ],
-                    "xdm:rank": {
-                        "xdm:priority": 1
-                    },
-                    "xdm:selectionConstraint": {
-                        "xdm:startDate": "2020-10-01T16:00:00Z",
-                        "xdm:endDate": "2021-12-13T16:00:00Z",
-                        "xdm:eligibilityRule": "xcore:eligibility-rule:124cb4511da781fc"
-                    },
-                    "xdm:status": "draft",
-                    "xdm:cappingConstraint": {
-                        "xdm:globalCap": 150
-                    },
-                    "xdm:tags": [
-                        "xcore:tag:1246d138ec8cca1f"
-                    ],
-                    "@id": "xcore:personalized-offer:124cc332095cfa74"
-                },
-                "_links": {
-                    "self": {
-                        "name": "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5#fb2aad00-130e-11eb-aa26-21e7b1fa6da6",
-                        "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/fb2aad00-130e-11eb-aa26-21e7b1fa6da6",
-                        "@type": "https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"
-                    }
+                    "content": "Hello You qualify for our Discount of 60%"
                 }
-            }
-        ],
-        "total": 1,
-        "count": 1
-    },
-    "_links": {
-        "self": {
-            "href": "/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances?schema=https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5&name=Discount%20offer",
-            "@type": "https://ns.adobe.com/experience/xcore/hal/results"
+            ]
         }
-    }
+    ],
+    "selectionConstraint": {
+        "startDate": "2022-07-27T05:00:00.000+00:00",
+        "endDate": "2023-07-29T05:00:00.000+00:00",
+        "profileConstraintType": "none"
+    },
+    "rank": {
+        "priority": 0
+    },
+    "cappingConstraint": {},
+    "frequencyCappingConstraints": [
+        {
+            "enabled": false,
+            "limit": 1,
+            "startDate": "2023-05-15T14:25:49.622+00:00",
+            "endDate": "2023-05-25T14:25:49.622+00:00",
+            "scope": "global",
+            "entity": "offer",
+            "repeat": {
+                "enabled": false,
+                "unit": "month",
+                "unitCount": 1
+            }
+        }
+    ]
 }
 ```
