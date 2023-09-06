@@ -6,16 +6,16 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: e8fe3ffd936c4954e8b17f58f1a2628bea0e2e79
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 8%
+source-wordcount: '115'
+ht-degree: 7%
 
 ---
 
 # Een beslissing nemen {#create-decision}
 
-U kunt een beslissing maken door een verzoek tot POST in te dienen bij de [!DNL Offer Library] API.
+U kunt een beslissing maken door een verzoek tot POST in te dienen bij de [!DNL Offer Library] API, terwijl het verstrekken van uw container identiteitskaart
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
@@ -29,67 +29,61 @@ In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudsty
 **API-indeling**
 
 ```http
-POST /{ENDPOINT_PATH}/offer-decisions
+POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 ```
 
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Het eindpuntpad voor persistentie-API&#39;s. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | De container waarin de beslissingen zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Verzoek**
 
 ```shell
-curl -X POST 'https://platform.adobe.io/data/core/offer-decisions' \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}' \
--d '{
-    "name": "Test Offer Decision",
-    "description": "Offer Decision description",
-    "status": "live",
-    "startDate": "2021-08-23T07:00:00.000+00:00",
-    "endDate": "2021-08-25T07:00:00.000+00:00",
-    "fallback": "fallbackOffer1234",
-    "criteria": [
-        {
-            "placements": [
-                "offerPlacement1234",
-                "offerPlacement5678"
-            ],
-            "rank": {
-                "priority": 0,
-                "order": {
-                    "orderEvaluationType": "ranking-strategy",
-                    "rankingStrategy": "123456789123"
-                }
-            },
-            "profileConstraint": {
-                "profileConstraintType": "none"
-            },
-            "optionSelection": {
-                "filter": "offerCollection1234"
-            }
-        }
-    ]
-}'
+curl -X POST \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Content-Type: application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}' \
+  -d '{
+      "_instance": {
+          "xdm:name": "Test API",
+          "xdm:startDate": "2022-01-20T16:00:00Z",
+          "xdm:endDate": "2022-01-27T16:00:00Z",
+          "xdm:status": "live",
+          "xdm:criteria": [
+              {
+                  "xdm:placements": [
+                      "xcore:offer-placement:1457f9322f005194"
+                  ],
+                  "xdm:optionSelection": {
+                      "xdm:filter": "xcore:offer-filter:1457f93227d0b6f0"
+                  }
+              }
+          ],
+          "xdm:fallback": "xcore:fallback-offer:13c259399d8bf013"
+      },
+      "_links": {}
+  }'
 ```
 
 **Antwoord**
 
-Een geslaagde reactie retourneert informatie over de nieuwe beslissing, inclusief de unieke instantie-id en plaatsing `@id`. U kunt id in latere stappen gebruiken om uw beslissing bij te werken of te verwijderen.
+Een geslaagde reactie retourneert informatie over de nieuwe beslissing, inclusief de unieke instantie-id en plaatsing `@id`. U kunt de instantie-id in latere stappen gebruiken om uw beslissing bij te werken of te verwijderen.
 
 ```json
 {
-    "etag": 1,
-    "createdBy": "{CREATED_BY}",
-    "lastModifiedBy": "{MODIFIED_BY}",
-    "id": "{ID}",
-    "sandboxId": "{SANDBOX_ID}",
-    "createdDate": "2023-05-31T15:09:11.771Z",
-    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
-    "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "instanceId": "f88c9be0-1245-11eb-8622-b77b60702882",
+    "@id": "xcore:offer-activity:124b79dc3ce2d720",
+    "repo:etag": 1,
+    "repo:createdDate": "2020-10-19T20:02:09.694067Z",
+    "repo:lastModifiedDate": "2020-10-19T20:02:09.694067Z",
+    "repo:createdBy": "{CREATED_BY}",
+    "repo:lastModifiedBy": "{MODIFIED_BY}",
+    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```

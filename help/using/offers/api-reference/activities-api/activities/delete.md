@@ -6,41 +6,43 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1eb19ff1-b210-4891-ab41-5488e2635527
-source-git-commit: 3568e86015ee7b2ec59a7fa95e042449fb5a0693
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 4%
+source-wordcount: '141'
+ht-degree: 3%
 
 ---
 
 # Een beslissing verwijderen {#delete-decision}
 
-Het kan soms nodig zijn een beslissing te schrappen (DELETE). Dit wordt gedaan door een verzoek van de DELETE aan uit te voeren [!DNL Offer Library] API die de `id` van de beslissing die u wilt verwijderen.
+Het kan soms nodig zijn een beslissing te schrappen (DELETE). Slechts kunnen de besluiten die u in de huurderscontainer creeert worden geschrapt. Dit wordt gedaan door een verzoek van de DELETE aan uit te voeren [!DNL Offer Library] API gebruikt $id van de fallback-aanbieding die u wilt verwijderen.
 
 **API-indeling**
 
 ```http
-DELETE /{ENDPOINT_PATH}/offer-decisions/{ID}
+DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Het eindpuntpad voor persistentie-API&#39;s. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | De id van de entiteit die u wilt verwijderen. | `offerDecision1234` |
+| `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | De container waarin de beslissingen zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | De zaak-id van de beslissing. | `f88c9be0-1245-11eb-8622-b77b60702882` |
 
 **Verzoek**
 
 ```shell
-curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-decisions/offerDecision1234' \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer  {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}'
+curl -X DELETE \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/f88c9be0-1245-11eb-8622-b77b60702882' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
 **Antwoord**
 
-Een geslaagde reactie retourneert HTTP-status 200 en een lege hoofdtekst.
+Een geslaagde reactie retourneert HTTP-status 202 (Geen inhoud) en een lege hoofdtekst.
 
-U kunt de schrapping bevestigen door een raadpleging (GET) verzoek aan het besluit te proberen. U moet de HTTP-status 404 (Niet gevonden) ontvangen omdat de beslissing is verwijderd.
+U kunt de schrapping bevestigen door een raadpleging (GET) verzoek aan het besluit te proberen. U zult een Accept- kopbal in het verzoek moeten omvatten, maar zou een status 404 van HTTP (niet Gevonden) moeten ontvangen omdat het besluit uit de container is verwijderd.

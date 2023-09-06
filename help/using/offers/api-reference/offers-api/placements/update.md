@@ -6,81 +6,85 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 6990918c-e736-4f28-9ac6-9ac3101b069f
-source-git-commit: e8fe3ffd936c4954e8b17f58f1a2628bea0e2e79
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '161'
 ht-degree: 4%
 
 ---
 
 # Een plaatsing bijwerken {#update-placement}
 
-U kunt een plaatsing wijzigen of bijwerken door een verzoek van PATCH aan de [!DNL Offer Library] API.
+U kunt een plaatsing in uw container wijzigen of bijwerken door een verzoek van PATCH aan de [!DNL Offer Library] API.
 
 Raadpleeg voor meer informatie over JSON Patch, inclusief beschikbare bewerkingen, de officiële [JSON-patchdocumentatie](https://jsonpatch.com/).
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
-In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* veld in de aanvraagkoptekst:
+In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
-| Inhoudstype | `application/json` |
+| Accepteren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Inhoudstype | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"` |
 
 **API-indeling**
 
 ```http
-PATCH /{ENDPOINT_PATH}/placements/{ID}
+PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Het eindpuntpad voor persistentie-API&#39;s. | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | De id van de entiteit die u wilt bijwerken. | `offerPlacement1234` |
+| `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | De container waarin de plaatsingen zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | De instantie-id van de plaatsing die u wilt bijwerken. | `9aa58fd0-13d7-11eb-928b-576735ea4db8` |
 
 **Verzoek**
 
 ```shell
-curl -X PATCH 'https://platform.adobe.io/data/core/dps/placements/offerPlacement1234' \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer  {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}' \
--d '[
-    {
-        "op": "replace",
-        "path": "/name",
-        "value": "Updated placement"
-    },
-    {
-        "op": "replace",
-        "path": "/description",
-        "value": "Updated placement description"
-    }
-]'
+curl -X PATCH \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/9aa58fd0-13d7-11eb-928b-576735ea4db8' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}'\
+  -d '[
+        {
+            "op": "replace",
+            "path": "/_instance/xdm:name",
+            "value": "Sales and Promotions Placement"
+        },
+        {
+            "op": "replace",
+            "path": "/_instance/xdm:description",
+            "value": "A test placement to contain offers of sales and discounts"
+        }
+    ]'
 ```
 
 | Parameter | Beschrijving |
 | --------- | ----------- |
-| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen omvatten: `add`, `replace`, `remove`, `copy` en `test`. |
+| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen omvatten: `add`, `replace`, en `remove`. |
 | `path` | Het pad van de parameter die moet worden bijgewerkt. |
 | `value` | De nieuwe waarde waarmee u de parameter wilt bijwerken. |
 
 **Antwoord**
 
-Een geslaagde reactie retourneert de bijgewerkte details van de plaatsing, inclusief de unieke instantie-id en plaatsing `id`.
+Een geslaagde reactie retourneert de bijgewerkte details van de plaatsing, inclusief de unieke instantie-id en plaatsing `@id`.
 
 ```json
 {
-    "etag": 2,
-    "createdBy": "{CREATED_BY}",
-    "lastModifiedBy": "{MODIFIED_BY}",
-    "id": "{ID}",
-    "sandboxId": "{SANDBOX_ID}",
-    "createdDate": "2023-05-31T15:09:11.771Z",
-    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
-    "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "instanceId": "9aa58fd0-13d7-11eb-928b-576735ea4db8",
+    "@id": "xcore:offer-placement:124e0be5699743d3",
+    "repo:etag": 2,
+    "repo:createdDate": "2020-10-21T19:57:09.837456Z",
+    "repo:lastModifiedDate": "2020-10-21T19:59:10.700149Z",
+    "repo:createdBy": "{CREATED_BY}",
+    "repo:lastModifiedBy": "{MODIFIED_BY}",
+    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```

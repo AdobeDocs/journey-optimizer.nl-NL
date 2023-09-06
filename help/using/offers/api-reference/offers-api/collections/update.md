@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7d766f0a-4fcb-434a-bbfd-e18ade71ae56
-source-git-commit: 3568e86015ee7b2ec59a7fa95e042449fb5a0693
+source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '166'
 ht-degree: 4%
 
 ---
@@ -21,66 +21,70 @@ Raadpleeg voor meer informatie over JSON Patch, inclusief beschikbare bewerkinge
 
 ## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
 
-In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* veld in de aanvraagkoptekst:
+In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
-| Inhoudstype | `application/json` |
+| Accepteren | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Inhoudstype | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
 
 **API-indeling**
 
 ```http
-PATCH /{ENDPOINT_PATH}/offer-collections/{ID}
+PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Het eindpuntpad voor persistentie-API&#39;s. | `https://platform.adobe.io/data/core/dps` |
-| `{ID}` | De id van de entiteit die u wilt bijwerken. | `offerCollection1234` |
+| `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | De container waarin de verzamelingen zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{INSTANCE_ID}` | De instantie-id van de verzameling die u wilt bijwerken. | `0bf31c20-13f1-11eb-a752-e58fd7dc4cb3` |
 
 **Verzoek**
 
 ```shell
-curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-collections/offerCollection1234' \
--H 'Content-Type: application/json' \
--H 'Authorization: Bearer  {ACCESS_TOKEN}' \
--H 'x-api-key: {API_KEY}' \
--H 'x-gw-ims-org-id: {IMS_ORG}' \
--H 'x-sandbox-name: {SANDBOX_NAME}' \
--d '[
-    {
-        "op": "replace",
-        "path": "/name",
-        "value": "Updated offer collection"
-    },
-    {
-        "op": "replace",
-        "path": "/description",
-        "value": "Updated offer collection description"
-    }
-]'
+curl -X PATCH \
+  'https://platform.adobe.io/data/core/xcore/e0bd8463-0913-4ca1-bd84-6309134ca1f6/instances/0bf31c20-13f1-11eb-a752-e58fd7dc4cb3' \
+  -H 'Accept: application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1' \
+  -H 'Content-Type: application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"' \
+  -H 'Authorization: Bearer {ACCESS_TOKEN}' \
+  -H 'x-api-key: {API_KEY}' \
+  -H 'x-gw-ims-org-id: {IMS_ORG}' \
+  -H 'x-sandbox-name: {SANDBOX_NAME}' \
+  -d '[
+        {
+            "op": "add",
+            "path": "/_instance/xdm:filterType",
+            "value": "anyTags"
+        },
+        {
+            "op": "add",
+            "path": "/_instance/xdm:ids",
+            "value": ["xcore:tag:124e147572cd7866"]
+        }
+    ]'
 ```
 
 | Parameter | Beschrijving |
 | --------- | ----------- |
-| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen omvatten: `add`, `replace`, `remove`, `copy` en `test`. |
+| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen omvatten: `add`, `replace`, en `remove`. |
 | `path` | Het pad van de parameter die moet worden bijgewerkt. |
 | `value` | De nieuwe waarde waarmee u de parameter wilt bijwerken. |
 
 **Antwoord**
 
-Een succesvolle reactie retourneert de bijgewerkte details van de verzameling, inclusief de unieke verzameling ervan `id`.
+Een geslaagde reactie retourneert de bijgewerkte details van de verzameling, inclusief de unieke instantie-id en verzameling `@id`.
 
 ```json
 {
-    "etag": 2,
-    "createdBy": "{CREATED_BY}",
-    "lastModifiedBy": "{MODIFIED_BY}",
-    "id": "{ID}",
-    "sandboxId": "{SANDBOX_ID}",
-    "createdDate": "2023-05-31T15:09:11.771Z",
-    "lastModifiedDate": "2023-05-31T15:09:11.771Z",
-    "createdByClientId": "{CREATED_CLIENT_ID}",
-    "lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
+    "instanceId": "0bf31c20-13f1-11eb-a752-e58fd7dc4cb3",
+    "@id": "xcore:offer-filter:124e3594ce8b4930",
+    "repo:etag": 1,
+    "repo:createdDate": "2020-10-21T22:59:17.345797Z",
+    "repo:lastModifiedDate": "2020-10-21T22:59:17.345797Z",
+    "repo:createdBy": "{CREATED_BY}",
+    "repo:lastModifiedBy": "{MODIFIED_BY}",
+    "repo:createdByClientId": "{CREATED_CLIENT_ID}",
+    "repo:lastModifiedByClientId": "{MODIFIED_CLIENT_ID}"
 }
 ```
