@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3a044127f5acc1333b2c535c3e1b50d651566180
+source-git-commit: ce0cba88c5649b3efd557d6d539ffd7dc2c8f193
 workflow-type: tm+mt
-source-wordcount: '3277'
+source-wordcount: '3301'
 ht-degree: 15%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 15%
 # Documentatie-updates {#latest-updates}
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
+
+## September 2023 (#september-2023)
+
+* Er is een lijst toegevoegd aan de documentatie van het besluitvormingsbeheer met beperkingen die u bekend moeten maken bij het opstellen van beslissingsregels. [Meer informatie](../offers/offer-library/creating-decision-rules.md)
 
 ## Augustus 2023 {#august-2023}
 
