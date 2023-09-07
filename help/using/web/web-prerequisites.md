@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 5f8dcb6d8984da9b343702d06bc400c851a9c017
+source-git-commit: cfa797146c4f6f87a55e72393f45c271480cf7f5
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1035'
 ht-degree: 1%
 
 ---
@@ -107,13 +107,15 @@ De extensie heeft geen voorwaardelijke instellingen en verwerkt alle instellinge
 
 Bij gebruik van de Adobe [!DNL Journey Optimizer] webontwerper, als u probeert een website te laden die niet kan worden geladen, wordt een bericht weergegeven waarin wordt gesuggereerd dat u de [Visuele bewerkingshulpprogramma voor browsers](#install-visual-editing-helper).
 
-Als de Visual Editing Helper browser uitbreiding correct geïnstalleerd is, maar de website nog niet laadt of zich onverwacht gedraagt, is een potentiële moeilijke situatie om uw website in browser te openen en koekjes goed te keuren alvorens het in te proberen te laden in browser [!DNL Journey Optimizer] webontwerper.
+1. Zorg ervoor de Visuele het Uitgeven Helper browser uitbreiding correct geïnstalleerd is.
+
+1. Als de website zich nog steeds onverwacht gedraagt, moet u ervoor zorgen dat cookies van andere leveranciers zijn toegestaan in uw browser. Als dit niet het geval is, kan de webpagina niet worden geladen in het dialoogvenster [!DNL Journey Optimizer] webontwerper.
 
 Voor pagina&#39;s onder verificatie, als de aanmeldingspagina niet kan worden geladen of als u na het aanmelden nog steeds niet bent aangemeld:
 
-* Probeer u eerst aan te melden op een nieuw browsertabblad en navigeer naar de gewenste pagina. Kopieer vervolgens de URL en open deze in het dialoogvenster [!DNL Journey Optimizer] webontwerper.
+1. Probeer u eerst aan te melden op een nieuw browsertabblad en navigeer naar de gewenste pagina. Kopieer vervolgens de URL en open deze in het dialoogvenster [!DNL Journey Optimizer] webontwerper.
 
-* Als u uw website nog steeds niet kunt laden in het dialoogvenster [!DNL Journey Optimizer] Webontwerper, contacteer de Zorg van de Klant van de Adobe om het probleem te melden, ervoor zorgt u het falende URL specificeert.
+2. Als u uw website nog steeds niet kunt laden in het dialoogvenster [!DNL Journey Optimizer] Webontwerper, contacteer de Zorg van de Klant van de Adobe om het probleem te melden, ervoor zorgt u het falende URL specificeert.
 
 ## Leveringsvoorwaarden {#delivery-prerequisites}
 
