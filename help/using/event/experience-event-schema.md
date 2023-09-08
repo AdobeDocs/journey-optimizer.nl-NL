@@ -3,13 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Over ExperienceEvent-schema's voor reisgebeurtenissen
 description: Meer informatie over ExperienceEvent-schema's voor reisgebeurtenissen
-feature: Schemas
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: schema's, XDM, platform, streaming, opname, reis
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 7e66450900d0625530025c6e17ef037e27da728e
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 0%
@@ -20,11 +19,11 @@ ht-degree: 0%
 
 [!DNL Journey Optimizer] Gebeurtenissen zijn XDM Experience Events die via Streaming Ingestie naar Adobe Experience Platform worden verzonden.
 
-Een belangrijke voorwaarde voor het instellen van gebeurtenissen voor [!DNL Journey Optimizer] is dat u bekend bent met het gegevensmodel van de Ervaring van Adobe Experience Platform (of XDM) en hoe te om de schema&#39;s van de Gebeurtenis van de Ervaring XDM samen te stellen, evenals hoe te om XDM-Geformatteerde gegevens aan Adobe Experience Platform te stromen.
+Als zodanig is dit een belangrijke voorwaarde voor het instellen van gebeurtenissen voor [!DNL Journey Optimizer] is dat u bekend bent met het Adobe Experience Platform Experience Data Model (of XDM) en hoe u XDM Experience Event-schema&#39;s kunt samenstellen, en hoe u XDM-opgemaakte gegevens kunt streamen naar Adobe Experience Platform.
 
 ## Schemavereisten voor [!DNL Journey Optimizer] Gebeurtenissen  {#schema-requirements}
 
-De eerste stap bij het instellen van een gebeurtenis voor [!DNL Journey Optimizer] moet ervoor zorgen dat u een XDM-schema hebt dat wordt bepaald om de gebeurtenis te vertegenwoordigen, en een dataset die wordt gecreeerd om instanties van de gebeurtenis op Adobe Experience Platform te registreren. Het hebben van een dataset voor uw gebeurtenissen is niet strikt noodzakelijk, maar het verzenden van de gebeurtenissen naar een specifieke dataset zal u toestaan om gebruikers&#39; gebeurtenisgeschiedenis voor toekomstige verwijzing en analyse te handhaven, zodat is het altijd een goed idee. Als u nog geen geschikt schema en een geschikte dataset voor uw gebeurtenis hebt, kunnen beide taken in de Webinterface van Adobe Experience Platform worden gedaan.
+De eerste stap bij het instellen van een gebeurtenis voor [!DNL Journey Optimizer] moet ervoor zorgen dat u een XDM-schema hebt dat wordt bepaald om de gebeurtenis te vertegenwoordigen, en een dataset die wordt gecreeerd om instanties van de gebeurtenis op Adobe Experience Platform te registreren. Het hebben van een dataset voor uw gebeurtenissen is niet strikt noodzakelijk, maar het verzenden van de gebeurtenissen naar een specifieke dataset zal u toestaan om de de gebeurtenisgeschiedenis van gebruikers voor toekomstige verwijzing en analyse te handhaven, zodat is het altijd een goed idee. Als u nog geen geschikt schema en een geschikte dataset voor uw gebeurtenis hebt, kunnen beide taken in de Webinterface van Adobe Experience Platform worden gedaan.
 
 ![](assets/schema1.png)
 
@@ -117,7 +116,7 @@ Voeg een voorwaarde toe in een reis, geef de uitdrukking uit en ontvouw de gebeu
 
 Als u wilt leren hoe u de reisvoorwaarden definieert, raadpleegt u deze [page](../building-journeys/condition-activity.md).
 
-### Berichtpersonalisatie{#message_personalization}
+### Berichtenpersonalisatie{#message_personalization}
 
 De gekoppelde velden zijn beschikbaar wanneer u een bericht personaliseert. De verwante gebieden worden getoond in de context die van de reis tot het bericht wordt overgegaan.
 
@@ -131,4 +130,4 @@ De verbonden gebieden zijn beschikbaar wanneer het vormen van de actieparameters
 
 ![](assets/schema13.png)
 
-Raadpleeg deze voor meer informatie over het gebruik van aangepaste handelingen [page](../building-journeys/using-custom-actions.md).
+Raadpleeg de volgende secties voor meer informatie over het gebruik van aangepaste handelingen [page](../building-journeys/using-custom-actions.md).

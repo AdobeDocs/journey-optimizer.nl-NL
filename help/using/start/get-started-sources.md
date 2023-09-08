@@ -3,11 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Aan de slag met Bronconnectors in Journey Optimizer
 description: Leer hoe u gegevens uit externe bronnen in Adobe Journey Optimizer kunt opnemen
-feature: Schemas
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 7e66450900d0625530025c6e17ef037e27da728e
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 5%
@@ -16,7 +15,7 @@ ht-degree: 5%
 
 # Aan de slag met Bronconnectors {#sources-gs}
 
-Adobe Journey Optimizer staat toe dat gegevens uit externe bronnen worden opgenomen terwijl u de mogelijkheid krijgt om inkomende gegevens te structureren, te labelen en te verbeteren met behulp van de services van het Platform. U kunt gegevens uit diverse bronnen invoeren, zoals Adobe-toepassingen, opslag in de cloud, databases en vele andere.
+Adobe Journey Optimizer staat toe dat gegevens uit externe bronnen worden opgenomen terwijl u de mogelijkheid krijgt om inkomende gegevens te structureren, te labelen en te verbeteren met behulp van de platformservices. U kunt gegevens uit diverse bronnen invoeren, zoals toepassingen voor Adobe, opslag in de cloud, databases en vele andere.
 
 ![](assets/sources-home.png)
 
