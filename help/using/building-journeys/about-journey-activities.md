@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: reis, activiteiten, aan de slag, gebeurtenissen, actie
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 865f8c3a2a598bdb90ab3cb85104684c160a560f
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 14%
+source-wordcount: '513'
+ht-degree: 13%
 
 ---
 
@@ -71,6 +71,10 @@ Als u aangepaste handelingen hebt geconfigureerd, worden deze ook hier weergegev
 Met de meeste activiteiten kunt u een **[!UICONTROL Label]**. Hiermee voegt u een achtervoegsel toe aan de naam die onder uw activiteit op het canvas wordt weergegeven. Dit is handig als u dezelfde activiteit meerdere keren gebruikt en u deze gemakkelijker wilt identificeren. Het zal ook het zuiveren in het geval van fouten gemakkelijker maken en het zal rapporten gemakkelijker te lezen maken. U kunt ook een optionele **[!UICONTROL Description]**.
 
 ![](assets/journey-action-label.png)
+
+>[!NOTE]
+>
+>Voor bepaalde activiteiten is de id ook zichtbaar in het deelvenster. Deze id kan worden gebruikt in rapportage als een stabielere sleutel dan het label, dat kan veranderen.
 
 ### Geavanceerde parameters beheren {#advanced-parameters}
 
