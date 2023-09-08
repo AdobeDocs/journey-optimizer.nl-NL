@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 54368710-1021-43c0-87b7-5176cc6c72f7
-source-git-commit: ccc3ad2b186a64b9859a5cc529fe0aefa736fc00
+source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '165'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ curl -X GET \
 
 **Antwoord**
 
-Een succesvolle reactie keert de details van de specifieke besluitregel terug u omhoog keek, met inbegrip van informatie over zijn container identiteitskaart, instantie ID en, unieke besluitregel `@id`.
+Een succesvolle reactie keert de details van de specifieke besluitvormingsregel terug u omhoog keek, met inbegrip van informatie over zijn unieke beslissingsregel `id`.
 
 ```json
 {
