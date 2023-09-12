@@ -4,7 +4,7 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f6a9234b64247f7d1aef95eb3f1d1bf299be4710
+source-git-commit: 605354d25e5d6f74a6a3119ab88ff4ed89aff883
 workflow-type: tm+mt
 source-wordcount: '3595'
 ht-degree: 14%
@@ -99,7 +99,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De informatie is toegevoegd op de eindpunten van de douaneauthentificatie in de het maximum documentatie. [Meer informatie](../configuration/external-systems.md)
 * Een nieuw voorbeeld van de douaneauthentificatie is toegevoegd in de externe datasources sectie. [Meer informatie](../datasource/external-data-sources.md#custom-authentication-mode)
 * Er is een opmerking toegevoegd over Data Collection Core Service (DCCS) voor door gebeurtenissen geïnitieerde reizen. [Meer informatie](../start/guardrails.md#events-g)
-* Er is een opmerking toegevoegd over het ophalen van naamruimten in het dialoogvenster [Lees publiek](../building-journeys/read-audience.md), [Segmentkwalificatie](../building-journeys/segment-qualification-events.md) en [Gebeurtenis maken](../event/about-creating.md) secties.
+* Er is een opmerking toegevoegd over het ophalen van naamruimten in het dialoogvenster [Lees publiek](../building-journeys/read-audience.md), [kwalificatie publiek](../building-journeys/audience-qualification-events.md) en [Gebeurtenis maken](../event/about-creating.md) secties.
 * Toegankelijkheidsfuncties in [!DNL Journey Optimizer] worden nu gegroepeerd in een specifieke pagina. [Meer informatie](../start/accessibility.md)
 * De voorbeelden zijn bijgewerkt in de sectie Operatoren van de documentatie van de geavanceerde expressie-editor. [Meer informatie](../building-journeys/expression/operators.md)
 * Er is een opmerking toegevoegd over de beperking bij het opzoeken met een array van objecten. [Meer informatie](../event/experience-event-schema.md#relationships_limitations)
