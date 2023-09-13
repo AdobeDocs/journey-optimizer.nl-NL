@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 41d31d27a844f47d46a22b64802b716b9600c6c7
+source-git-commit: 6f92f9ce0a4785f0359658f00150d283f1326900
 workflow-type: tm+mt
-source-wordcount: '3431'
+source-wordcount: '3467'
 ht-degree: 9%
 
 ---
@@ -21,6 +21,24 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 
 ![Nieuwsbrief](../assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die direct aan uw Postbus worden geleverd elk kwartaal.
 
+## Updates van september 2023 {#sept-rn-2023}
+
+### Nieuwe functies{#sept-2023-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Opslag van gebruikersgegevens voor mobiele toepassingen per sandbox</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met deze nieuwe functie kunt u pushgegevens eenvoudig beheren en koppelen aan een specifieke sandbox in App Surfaces.</p>
+<p>Raadpleeg de <a href="../in-app/inapp-configuration.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</tr>
+</tbody>
+</table>
 
 ## Opmerkingen bij de release augustus 2023 {#aug-rn-2023}
 

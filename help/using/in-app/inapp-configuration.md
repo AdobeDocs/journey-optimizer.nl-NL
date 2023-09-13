@@ -5,9 +5,9 @@ role: Admin
 level: Intermediate
 keywords: in-app, bericht, configuratie, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
+source-git-commit: 6f92f9ce0a4785f0359658f00150d283f1326900
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '507'
 ht-degree: 2%
 
 ---
@@ -36,20 +36,47 @@ Voordat u berichten in de app verzendt, moet u uw kanaal in de app configureren 
    >
    > U hebt de **Toepassingsconfiguratie beheren** toestemming om toegang te hebben tot **[!UICONTROL App surfaces]** -menu. Raadpleeg voor meer informatie [deze video](#video).
 
-   >[!NOTE]
-   >
-   > U hebt de **Toepassingsconfiguratie beheren** toestemming om toegang te hebben tot **[!UICONTROL App surfaces]** -menu. Raadpleeg voor meer informatie [deze video](#video).
-
    ![](assets/inapp_config_1.png)
 
 1. Voeg een naam toe aan uw **[!UICONTROL App surface]**.
 
+   ![](assets/inapp_config_2b.png)
 
-1. Typ in de vervolgkeuzelijst Apple iOS uw **iOS-bundel-id**. Zie [Apple-documentatie](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) voor meer informatie over **Bundel-id**.
+1. Van de **[!UICONTROL Apple iOS]** , configureert u uw mobiele toepassing voor Apple iOS.
 
-   ![](assets/inapp_config_2.png)
++++ Meer informatie
 
-1. Typ in de vervolgkeuzelijst Android uw **Android-pakketnaam**. Zie [Android-documentatie](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) voor meer informatie over **Pakketnaam**.
+   1. Typ uw **[!UICONTROL iOS Bundle ID]**. Zie [Apple-documentatie](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) voor meer informatie over **Bundel-id**.
+
+   1. (optioneel) Kies de optie **[!UICONTROL Sandbox]** waar u pushmeldingen wilt verzenden. Merk op dat het kiezen van een specifieke zandbak de noodzakelijke toegangstoestemmingen vereist.
+
+      Raadpleeg voor meer informatie over sandboxbeheer [deze pagina](../administration/sandboxes.md#assign-sandboxes).
+
+   1. De optie **[!UICONTROL Push credentials]** om het .p8-bestand met de aautoets indien nodig te slepen en neer te zetten.
+
+      U kunt ook de opdracht **[!UICONTROL Manually enter push credentials]** om de APNs AUth-toets rechtstreeks te kopiëren en plakken.
+
+   1. Voer uw **[!UICONTROL Key ID]** en **[!UICONTROL Team ID]**.
+
+      ![](assets/inapp_config_2.png)
+
++++
+
+1. Van de **[!UICONTROL Android]** , configureert u uw mobiele toepassing voor Android.
+
++++ Meer informatie
+
+   1. Typ uw **[!UICONTROL Android package name]**. Zie [Android-documentatie](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) voor meer informatie over **Pakketnaam**.
+
+   1. (optioneel) Kies de optie **[!UICONTROL Sandbox]** waar u pushmeldingen wilt verzenden. Merk op dat het kiezen van een specifieke zandbak de noodzakelijke toegangstoestemmingen vereist.
+
+      Raadpleeg voor meer informatie over sandboxbeheer [deze pagina](../administration/sandboxes.md#assign-sandboxes).
+
+   1. De optie **[!UICONTROL Push credentials]** optie om uw .json dossier van de privé sleutel te slepen en te laten vallen indien nodig.
+
+      U kunt ook de opdracht **[!UICONTROL Manually enter push credentials]** om de persoonlijke sleutel van FCM rechtstreeks te kopiëren en te plakken.
+
+      ![](assets/inapp_config_7.png)
 
 1. Klikken **[!UICONTROL Save]** wanneer u de configuratie van uw voltooide **[!UICONTROL App surface]**.
 
