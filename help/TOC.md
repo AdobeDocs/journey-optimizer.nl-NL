@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5b69e8d8539e37f42d44383e32b85e651e412937
+source-git-commit: 4aea5c1434caa07aad26445c49a3d5c6274502ec
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 34%
+source-wordcount: '1470'
+ht-degree: 33%
 
 ---
 
@@ -229,12 +229,17 @@ ht-degree: 34%
    + [Een directe e-mail maken](using/direct-mail/create-direct-mail.md)
    + [Een direct mailbericht testen en verzenden](using/direct-mail/test-send-direct-mail.md)
    + [Direct mail configureren](using/direct-mail/direct-mail-configuration.md)
-+ Webkanaal{#web}
++ Webkanaal {#web}
    + [Aan de slag met webkanaal](using/web/get-started-web.md)
    + [Voorwaarden voor webkanalen](using/web/web-prerequisites.md)
    + [Webervaringen maken](using/web/create-web.md)
    + [Webpagina&#39;s van auteurs](using/web/author-web.md)
    + [Websubdomeinen configureren](using/web/web-delegated-subdomains.md)
++ Ervaring op basis van code {#code-based-experience}
+   + [Aan de slag met op code gebaseerd kanaal](using/code-based/get-started-code-based.md)
+   + [Voorwaarden die zijn gebaseerd op code](using/code-based/code-based-prerequisites.md)
+   + [Op code gebaseerde implementatiemonsters](using/code-based/code-based-implementation-samples.md)
+   + [Op code gebaseerde ervaringen maken](using/code-based/create-code-based.md)
 + Landingspagina’s {#landing-pages}
    + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
    + [Een landingspagina maken](using/landing-pages/create-lp.md)
@@ -426,6 +431,17 @@ ht-degree: 34%
          + [API voor besluitvorming](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
          + [Edge-API voor besluitvorming](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
          + [Batchbeslissing-API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
++ Ervaar beslissingsvermogen {#experience-decisioning}
+   + [Aan de slag met Experience Decisition](using/experience-decisioning/gs-experience-decisioning.md)
+   + Je beslissingsobjecten beheren {#decision-items}
+      + [De itemcatalogus configureren](using/experience-decisioning/catalogs.md)
+      + [Beslissingsitems maken](using/experience-decisioning/items.md)
+      + [Objectverzamelingen beheren](using/experience-decisioning/collections.md)
+   + Selectie van items configureren {#selection}
+      + [Beslissingsregels maken](using/experience-decisioning/rules.md)
+      + [Classificatiemethoden maken](using/experience-decisioning/ranking.md)
+   + [Selectiestrategieën maken](using/experience-decisioning/selection-strategies.md)
+   + [Beslissingsbeleid maken](using/experience-decisioning/create-decision.md)
 + Data management {#data-management}
    + [Aan de slag met gegevensbeheer](using/data/gs-data.md)
    + [Werken met schema&#39;s](using/data/get-started-schemas.md)
