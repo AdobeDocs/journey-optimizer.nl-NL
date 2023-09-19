@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 4aea5c1434caa07aad26445c49a3d5c6274502ec
+source-git-commit: 9b7280c33ce8238b54f7fd1865545f865ffb72ed
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '339'
 ht-degree: 1%
 
 ---
@@ -66,6 +66,4 @@ De belangrijkste stappen om met de Beslissing van de Ervaring te werken zijn als
 
 1. **Een beslissingsbeleid insluiten in uw op code gebaseerde campagne**: In het besluitvormingsbeleid worden meerdere selectiestrategieën gecombineerd om te bepalen welke in aanmerking komende beslissingsitems aan het beoogde publiek moeten worden getoond.
 
-## Woordenlijst
-
-Brandon om voorwaarden te verstrekken.
+<!--## Glossary-->
