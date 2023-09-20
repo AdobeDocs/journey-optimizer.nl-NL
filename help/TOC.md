@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4aea5c1434caa07aad26445c49a3d5c6274502ec
+source-git-commit: decf400bbdc0a063bd1714c6ce01595ef7fb222a
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1466'
 ht-degree: 33%
 
 ---
@@ -260,30 +260,28 @@ ht-degree: 33%
       + [Aan de slag met de inhoudsassistent](using/content-management/gs-generative.md)
       + [Inhoud genereren](using/content-management/generative-content.md)
       + [Afbeelding genereren](using/content-management/generative-image.md)
-+ Persoonlijke en dynamische inhoud {#personalized-dynamic-content}
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
       + [Persoonlijke context](using/personalization/personalization-contexts.md)
-      + Expressies samenstellen {#build-expressions}
-         + [Personalisatiesyntaxis](using/personalization/personalization-syntax.md)
-         + Werken met de Expressieeditor {#expression-editor}
-            + [Over de Expressieeditor](using/personalization/personalization-build-expressions.md)
-            + [Kenmerken toevoegen aan Favorieten](using/personalization/personalization-favorites.md)
-            + [Werken met opgeslagen expressies](using/personalization/personalization-library.md)
-            + [Validatie van personalisatie](using/personalization/personalization-validation.md)
-         + Helpfuncties{#functions}
-            + [Aan de slag met hulpfuncties](using/personalization/functions/functions.md)
-            + [Samenvoegingsfuncties](using/personalization/functions/aggregation.md)
-            + [Rekenkundige functies](using/personalization/functions/arithmetic-functions.md)
-            + [Arrays en lijstfuncties](using/personalization/functions/arrays-list.md)
-            + [Datumfuncties](using/personalization/functions/dates.md)
-            + [Booleaanse en vergelijkingsfuncties](using/personalization/functions/operators.md)
-            + [Helpers](using/personalization/functions/helpers.md)
-            + [Toewijzingsfuncties](using/personalization/functions/maps.md)
-            + [Math-functies](using/personalization/functions/math.md)
-            + [Objectfuncties](using/personalization/functions/objects.md)
-            + [Reeksfuncties](using/personalization/functions/string.md)
-      + Gebruiksscenario’s{#personalization-use-cases}
+      + [Personalisatiesyntaxis](using/personalization/personalization-syntax.md)
+      + Werken met de Expressieeditor {#expression-editor}
+         + [Over de Expressieeditor](using/personalization/personalization-build-expressions.md)
+         + [Kenmerken toevoegen aan Favorieten](using/personalization/personalization-favorites.md)
+         + [Werken met opgeslagen expressies](using/personalization/personalization-library.md)
+         + [Validatie van personalisatie](using/personalization/personalization-validation.md)
+      + Helpfuncties{#functions}
+         + [Aan de slag met hulpfuncties](using/personalization/functions/functions.md)
+         + [Samenvoegingsfuncties](using/personalization/functions/aggregation.md)
+         + [Rekenkundige functies](using/personalization/functions/arithmetic-functions.md)
+         + [Arrays en lijstfuncties](using/personalization/functions/arrays-list.md)
+         + [Datumfuncties](using/personalization/functions/dates.md)
+         + [Booleaanse en vergelijkingsfuncties](using/personalization/functions/operators.md)
+         + [Helpers](using/personalization/functions/helpers.md)
+         + [Toewijzingsfuncties](using/personalization/functions/maps.md)
+         + [Math-functies](using/personalization/functions/math.md)
+         + [Objectfuncties](using/personalization/functions/objects.md)
+         + [Reeksfuncties](using/personalization/functions/string.md)
+      + Gebruikszaken aanpassen{#personalization-use-cases}
          + [Statusmelding van bestelling](using/personalization/personalization-use-case.md)
          + [E-mailadres voor afmelden van winkelwagentje](using/personalization/personalization-use-case-helper-functions.md)
    + Dynamische inhoud {#dynamic}
