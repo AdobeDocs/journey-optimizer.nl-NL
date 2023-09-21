@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, pools, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '244'
 ht-degree: 2%
 
 ---
@@ -39,11 +39,17 @@ U moet één of meerdere campagnes met een specifieke toegelaten optie tot stand
 
 Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
 
-1. Een [oppervlak](channel-surfaces.md) voor het domein en IPs die u voor uw warmlopingsplan hebt geïdentificeerd.<!--how do you identify these or who does it at the customer level?-->
+1. Een e-mail maken [oppervlak](channel-surfaces.md) voor het domein en IPs die u voor uw warmlopingsplan hebt geïdentificeerd.<!--how do you identify these or who does it at the customer level?-->
+
+   >[!NOTE]
+   >
+   >Leer hoe te om het domein en IPs te selecteren in een e-mailoppervlak in [deze sectie](using/email/email-settings.md#subdomains-and-ip-pools).
 
 1. Een [campagne](../campaigns/create-campaign.md) en selecteert u de [E-mail](../email/create-email.md#create-email-journey-campaign) handeling.
 
 1. Selecteer de oppervlakte die u voor IP warmte-up creeerde.
+
+   ![](assets/ip-warmup-campaign-surface.png)
 
    <!--You must use the same surface as the one that will be used for the asociated IP warmup plan. [Learn how to create an IP warmup plan](#create-ip-warmup-plan)-->
 
@@ -53,7 +59,7 @@ Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
 
    ![](assets/ip-warmup-campaign-plan-activation.png)
 
-   De campagne [schema](../campaigns/create-campaign.md#schedule) zal door het IP warmup plan worden gedreven het zal worden geassocieerd met, betekenend dat het programma niet meer in de campagne zelf wordt bepaald.
+   De campagne [schema](../campaigns/create-campaign.md#schedule) wordt gedreven door de [IP-opwarmingsplan](ip-warmup-plan.md) het zal worden geassocieerd met , wat betekent dat het schema niet meer in de campagne zelf wordt gedefinieerd .
 
 1. [Activeren](../campaigns/review-activate-campaign.md) de campagne. Zodra levend, is het klaar voor gebruik in een IP warmup plan.
 

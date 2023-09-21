@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, pools, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '282'
 ht-degree: 2%
 
 ---
@@ -73,4 +73,4 @@ De belangrijkste stappen om een IP opwarmingsplan uit te voeren zijn als volgt:
 
 1. Creeer een IP warmup plan en upload uw plan. [Meer informatie](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
-1. Pas elke fase van uw plan aan en activeer de looppas. [Meer informatie](ip-warmup-running.md)
+1. Selecteer een campagne voor elke fase van uw plan en activeer de overeenkomstige looppas. [Meer informatie](ip-warmup-running.md)

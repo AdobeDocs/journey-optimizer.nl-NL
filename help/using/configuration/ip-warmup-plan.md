@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, pools, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '544'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,8 @@ Wat u in deze documentatiehandleiding zult vinden:
 * [Voer het IP-opwarmingsplan uit](ip-warmup-running.md)
 
 >[!ENDSHADEBOX]
+
+Eenmaal [één of meer campagnes hebben gemaakt](ip-warmup-campaign.md) met een specifieke toegelaten oppervlakte en IP warmup optie, kunt u beginnen uw IP warmup plan tot stand te brengen.
 
 ## Toegang en beheer IP-opwarmingsplannen {#manage-ip-warmup-plans}
 
