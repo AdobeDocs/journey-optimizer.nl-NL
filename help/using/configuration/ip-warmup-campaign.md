@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP, pools, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: ea86d44f7c9309ff69877e01cea6a13e7907a039
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 2%
@@ -43,7 +43,7 @@ Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
 
    >[!NOTE]
    >
-   >Leer hoe te om het domein en IPs te selecteren in een e-mailoppervlak in [deze sectie](using/email/email-settings.md#subdomains-and-ip-pools).
+   >Leer hoe te om het domein en IPs te selecteren in een e-mailoppervlak in [deze sectie](../email/email-settings.md#subdomains-and-ip-pools).
 
 1. Een [campagne](../campaigns/create-campaign.md) en selecteert u de [E-mail](../email/create-email.md#create-email-journey-campaign) handeling.
 
@@ -68,4 +68,6 @@ Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
 >Voor een levende campagne met IP warmup plan geactiveerd, **[!UICONTROL Delete]** de knoop is beschikbaar tot het met een IP warmup plan wordt geassocieerd.
 
 Voor meer informatie over hoe te om een campagne te vormen, raadpleeg [deze pagina](../campaigns/get-started-with-campaigns.md).
+
+<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
 
