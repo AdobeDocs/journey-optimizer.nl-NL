@@ -5,10 +5,10 @@ title: Aanvullende informatie
 description: Opmerkingen bij de vervroegde release van Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 0ed72b947c176b54220b5e00cdae6ccf91aac9a8
+source-git-commit: b0a842232259ef2b1b930927a8c61c32bfc45123
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 6%
+source-wordcount: '525'
+ht-degree: 4%
 
 ---
 
@@ -18,26 +18,26 @@ ht-degree: 6%
 
 Opmerkingen bij de eerste release hieronder kunnen zonder voorafgaande kennisgeving worden gewijzigd tot de beschikbaarheidsdatum van de release. De verbindingen, de schermen en de bijgewerkte documentatie worden gepubliceerd in [releaseopmerkingen](release-notes.md), op de datum van vrijgave.
 
-## Opmerkingen bij de vervroegde release augustus 2023 {#aug-rn-2023}
+## Opmerkingen bij de vervroegde release september 2023 {#sept-rn-2023}
 
-**Releasedatum**: 23-24 augustus 2023
+**Releasedatum**: september 2023
 
-### Nieuwe functies{#aug-2023-features}
+### Nieuwe functies{#sept-2023-features}
 
 Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 
 <table>
 <thead>
 <tr>
-<th><strong>In-app berichten verzenden tijdens uw reizen</strong><br/></th>
+<th><strong>Geconsolideerde Kanaalrapporten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu persoonlijke In-app-berichten naar uw app-gebruikers verzenden voor een reis. Met Journey Optimizer kunt u meldingen ontwerpen en de lay-out, weergave, tekst en knoppen van berichten aanpassen voor een naadloze ervaring.</p>
-<img src="assets/in_app_journey_1.png"/>
-<p>Raadpleeg de <a href="../in-app/get-started-in-app.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>De functie Kanaalrapport biedt analisten en marketers een uitgebreid overzicht van verkeers- en betrokkenheidsgegevens op kanaalniveau. Voor toegang tot het menu 'Rapport' hebt u de machtiging **Kanaalrapporten weergeven** nodig.</p>
+<img src="assets/channel-reports.png"/>
+<p>Raadpleeg de <a href="../in-app/get-started-in-app.md">gedetailleerde documentatie</a> voor meer informatie.</p-->
 </tr>
 </tbody>
 </table>
@@ -46,14 +46,14 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <table>
 <thead>
 <tr>
-<th><strong>E-mails met lijsten met zaden valideren</strong><br/></th>
+<th><strong>Gegevensset Export Generation (GA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu zaadlijsten maken en beheren in Journey Optimizer. Een zaadlijst bestaat uit interne adressen die aan uw daadwerkelijke publiek kunnen worden toegevoegd en het nauwkeurige zelfde bericht zoals de gerichte profielen bij de tijd van de leveringsuitvoering ontvangen. Gebruik deze mogelijkheid om de verzonden communicatie te controleren en ervoor te zorgen dat alle weergave-indelingen, URL's, afbeeldingen en koppelingen correct zijn.</p>
-<img src="../configuration/assets/seed-list-details.png">
+<p>Journey Optimizer-gegevenssets die naar Cloud Storage-doelen worden geëxporteerd, zijn nu algemeen beschikbaar. Met deze functie kunt u een live verbinding maken met opslaglocaties in de cloud om de inhoud van uw gegevenssets te exporteren.</p>
+<img src="../data/assets/dataset-export-setup.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -61,46 +61,41 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 </table>
 
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Generate text and images with the Content assistant</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Once you have created and personalized your message, take your content to the next level with the Content assistant. You can now use the Content assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
-<p>This capability is currently available as a private beta.</p>
-<img src="assets/gen-ai-image-2.png"/>
-<p>For more information, refer to the <a href="../start/search-filter-categorize.md#tags">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-
-
-### Verbeteringen {#aug-2023-improvements}
+### Verbeteringen {#sept-2023-improvements}
 
 Deze release bevat de verbeteringen die hieronder worden vermeld.
 
-**API&#39;s**
+**Doelgroepen**
 
-Er is nu een nieuwe API beschikbaar voor het maken en beheren van inhoudsfragmenten. [Meer informatie](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+* U kunt nu doelgroepen kiezen die vanuit een CSV-bestand naar reizen en campagnes zijn geüpload.
+* Er zijn verbeteringen aangebracht in de publiekekiezer tijdens reizen of campagnes, met toevoeging van nieuwe kolommen waarin de oorsprong en de actualiseringsfrequentie van het publiek worden weergegeven.
+* U kunt nu doelgroepen kiezen die het resultaat zijn van compositieworkflows naar reizen.
 
-**E-mailkanaal**
+**Personalisatie**
 
-Er is een nieuwe optie beschikbaar in de instellingen van het e-mailoppervlak om e-mailadressen op te nemen die zijn onderdrukt als gevolg van een spamklacht bij het publiek van uw transactieberichten. Zelfs als zij marketing berichten als spam merkten, kunnen deze profielen transactieberichten, zoals wachtwoordterugstellen of rekeningsverklaringen dan ontvangen. Deze optie is standaard uitgeschakeld.
+* Naast visuele fragmenten is het nu mogelijk om expressiefragmenten te maken, op te slaan en opnieuw te gebruiken vanuit de Journey Optimizer-interface via de Expressieeditor. Expressiefragmenten vervangen de eerder opgeslagen expressies.
+* U kunt nu Adobe Experience Platform berekende kenmerken gebruiken voor personalisatie in Journey Optimizer. Berekende kenmerken zijn geaggregeerde waarden die worden berekend op basis van de gegevenssets voor gebeurtenissen met profiel die in Adobe Experience Platform worden ingevoerd.
+
+**Waarschuwing**
+
+Er is een nieuw type systeemwaarschuwing geïntroduceerd. U kunt nu op de hoogte worden gesteld wanneer een leessegment mislukt.
+
+**Webkanaal**
+
+* U kunt nu selecteren op welke specifieke weergaven u de wijzigingen van uw webpagina wilt toepassen. Een weergave kan worden gedefinieerd als een hele site of een groep visuele elementen op een site, zoals de startpagina, de hele productsite of het voorkeurenframe voor levering op alle afrekenpagina&#39;s.
+* Wanneer u een pagina bewerkt met de webontwerper, kunt u nu rechtstreeks vanuit het deelvenster Wijzigingen nieuwe wijzigingen aan uw inhoud toevoegen, zonder dat u een component hoeft te selecteren en te bewerken vanuit de ontwerpinterface.
+* Wanneer u websubdomeinen instelt, kunt u nu ook uw eigen subdomein toevoegen, naast het gebruik van een subdomein dat al is gedelegeerd aan de Adobe.
 
 **Journeys**
 
-* U kunt nu API vraagreacties in douaneacties gebruiken en uw reis structureren die op deze reacties wordt gebaseerd. Deze functie is momenteel beschikbaar als een persoonlijke bètaversie.
-<!--* A new type of system alert has been introduced. You can now get notified when a custom action fails.
-* When duplicating a journey, you can now define the name of the journey copy.-->
+* Er is een nieuw type systeemwaarschuwing geïntroduceerd. U kunt nu een melding krijgen wanneer een aangepaste handeling mislukt.
+* Wanneer u een reis dupliceert, kunt u nu de naam van de reiskopie definiëren.
 
 
-**Direct mail**
+**E-mailkanaal**
 
-* Azure kan nu als servertype in het dossier worden geselecteerd dat configuratie verplettert.
-* Ampersand is nu beschikbaar als veld voor kolomscheidingen in de instellingen voor het oppervlak voor directe e-mail.
+Met een nieuwe optie in de configuratie van het e-mailoppervlak kunt u ervoor kiezen om transactieberichten naar profielen te verzenden, zelfs als hun e-mailadres voorkomt in de lijst met Adobe Journey Optimizer-onderdrukking.
+
+**Beslissingsbeheer**
+
+Er zijn verbeteringen aangebracht in de publiekekiezer tijdens reizen of campagnes, met toevoeging van nieuwe kolommen waarin de oorsprong en de actualiseringsfrequentie van het publiek worden weergegeven.
