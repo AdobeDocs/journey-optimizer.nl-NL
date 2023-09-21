@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP, pools, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 1%
@@ -67,14 +67,11 @@ Eenmaal [één of meer campagnes hebben gemaakt](ip-warmup-campaign.md) met een 
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="Kanaaloppervlakken instellen"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="IP-warmtecampagnes maken"
 
->[!CAUTION]
->
->Om IP warmup plannen tot stand te brengen, uit te geven en te schrappen, moet u hebben **[!UICONTROL Deliverability Consultant]** toestemming.
-<!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
-
 Wanneer een of meer live campagnes met de **[!UICONTROL IP warmup plan activation]** toegelaten optie wordt geactiveerd, kunt u hen met een IP warmlopingsplan associëren.
 
 >[!CAUTION]
+>
+>Om IP warmup plannen tot stand te brengen, uit te geven en te schrappen, moet u hebben **[!UICONTROL Deliverability Consultant]** toestemming. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
 >
 >Werk samen met uw leverancier om ervoor te zorgen dat uw IP het malplaatje van het warmlopingsplan correct opstelling is. <!--TBC-->
 
