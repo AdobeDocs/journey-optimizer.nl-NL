@@ -5,9 +5,9 @@ title: Aanvullende informatie
 description: Opmerkingen bij de vervroegde release van Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 2e9a7bd5244feddddefb531dab42a25cf5935bcf
+source-git-commit: e5e4825996359cbe6c5bf0a06fc32a2ef116d906
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '540'
 ht-degree: 3%
 
 ---
@@ -26,20 +26,6 @@ Opmerkingen bij de eerste release hieronder kunnen zonder voorafgaande kennisgev
 
 Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 
-<table>
-<thead>
-<tr>
-<th><strong>Opslag van gebruikersgegevens voor mobiele toepassingen per sandbox</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Met deze nieuwe functie kunt u pushgegevens eenvoudig beheren en koppelen aan een specifieke sandbox in App Surfaces.</p>
-<p>Raadpleeg de <a href="../in-app/inapp-configuration.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -75,6 +61,20 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Opslag van gebruikersgegevens voor mobiele toepassingen per sandbox</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met deze nieuwe functie kunt u pushgegevens eenvoudig beheren en koppelen aan een specifieke sandbox in App Surfaces.</p>
+<p>Raadpleeg de <a href="../in-app/inapp-configuration.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</tr>
+</tbody>
+</table>
 
 ### Verbeteringen {#sept-2023-improvements}
 
@@ -83,7 +83,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 **Doelgroepen**
 
 * U kunt nu doelgroepen kiezen die vanuit een CSV-bestand naar reizen en campagnes zijn geüpload.
-* Er zijn verbeteringen aangebracht in de publiekekiezer tijdens reizen of campagnes, met toevoeging van nieuwe kolommen waarin de oorsprong en de actualiseringsfrequentie van het publiek worden weergegeven.
+  <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 * U kunt nu doelgroepen kiezen die het resultaat zijn van compositieworkflows naar reizen.
 
 **Personalisatie**
@@ -111,6 +111,6 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 Met een nieuwe optie in de configuratie van het e-mailoppervlak kunt u ervoor kiezen om transactieberichten naar profielen te verzenden, zelfs als hun e-mailadres voorkomt in de lijst met Adobe Journey Optimizer-onderdrukking.
 
-**Beslissingsbeheer**
+<!--**Decision management**
 
-Er zijn verbeteringen aangebracht in de publiekekiezer tijdens reizen of campagnes, met toevoeging van nieuwe kolommen waarin de oorsprong en de actualiseringsfrequentie van het publiek worden weergegeven.
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
