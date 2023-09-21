@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 3a2c9e34790aaf6d96d89244e66deb200d844564
+source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '953'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
->title="De code-editor gebruiken"
+>title="De expressie-editor gebruiken"
 >abstract="Voeg de code die u wilt leveren in en bewerk deze als onderdeel van deze op code gebaseerde ervaringsactie."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="Aan de slag met de Expressieeditor"
 
@@ -76,7 +76,7 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. De code-editor wordt geopend. Het is een niet-visuele interface voor het maken van ervaringen.
+1. De [Expression-editor](../personalization/personalization-build-expressions.md) wordt geopend. Het is een niet-visuele interface van de ervaringsverwezenlijking die u toestaat om uw code te ontwerpen.
 
 1. U kunt de ontwerpmodus wijzigen van HTML in JSON en andersom.
 
@@ -84,7 +84,7 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
    >
    >Als u de ontwerpmodus wijzigt, gaan al uw huidige code verloren. Zorg er dus voor dat u overschakelt naar een andere modus voordat u begint met ontwerpen.
 
-1. Voer de gewenste code in. De code-editor gebruikt de [!DNL Journey Optimizer] De redacteur van de uitdrukking met al zijn verpersoonlijking en auteursmogelijkheden. [Meer informatie](../personalization/personalization-build-expressions.md)
+1. Voer de gewenste code in. U kunt de [!DNL Journey Optimizer] De redacteur van de uitdrukking met al zijn verpersoonlijking en auteursmogelijkheden. [Meer informatie](../personalization/personalization-build-expressions.md)
 
    ![](assets/code-based-campaign-code-editor.png)
 
@@ -113,7 +113,7 @@ Volg de onderstaande stappen om een voorvertoning weer te geven van uw aangepast
 >
 >U moet testprofielen beschikbaar hebben om te simuleren welke aanbiedingen aan hen zullen worden geleverd. Leer hoe u [testprofielen maken](../audience/creating-test-profiles.md).
 
-1. Selecteer in de code-editor of in het scherm Inhoud bewerken **[!UICONTROL Simulate content]**.
+1. Selecteer in de expressieeditor of in het inhoudsscherm de optie **[!UICONTROL Simulate content]**.
 
    ![](assets/code-based-campaign-simulate.png)
 

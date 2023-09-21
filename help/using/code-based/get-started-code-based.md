@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 1%
@@ -111,7 +111,7 @@ Als u zaken voor webgebruik wilt uitvoeren, kunt u het webkanaal of de ervaring 
 * Het is gericht op marketer-persona.
 
 **Ervaring op basis van code**
-* Uw inhoud bewerken met de opdracht [code-editor](create-code-based.md#edit-code).
+* Uw inhoud bewerken met de opdracht [Expression-editor](create-code-based.md#edit-code).
 * De op code-gebaseerde ervaring vereist vorige ontwikkelingswerk aan uw implementatie om ervoor te zorgen dat uw oppervlakten de inhoud kunnen interpreteren en leveren die op de rand wordt gepubliceerd door [!DNL Journey Optimizer] voor deze oppervlakken. [Meer informatie](#surface-definition)
 * Het vereist meer planning en het kan slechts de dingen veranderen die de ontwikkelaars specificeren. Daarom is het van essentieel belang dat de componenten worden geïdentificeerd (thuisbanner, hoofdafbeelding, menubalk, enz.) op de oppervlakken die moeten worden aangepast voor personalisatie of testen, en samenwerken met uw ontwikkelingsteam om de implementatie te bouwen die nodig is voor het verwerken van deze wijzigingen.
 * U kunt hiermee JSON-code-inhoud gebruiken.
@@ -133,7 +133,7 @@ De belangrijkste stappen om een op code-gebaseerde campagne uit te voeren zijn a
 
 1. Een [oppervlak](#surface-definition), wat eigenlijk de plaats is waar u uw code-gebaseerde ervaring wilt toevoegen, en een campagne in [!DNL Journey Optimizer] met dit oppervlak. [Meer informatie](create-code-based.md#create-code-based-campaign)
 
-1. Stel een ervaring samen door inhoud voor het geselecteerde oppervlak te specificeren gebruikend [!DNL Journey Optimizer] code-editor. [Meer informatie](create-code-based.md#edit-code)
+1. Stel een ervaring samen door inhoud voor het geselecteerde oppervlak te specificeren gebruikend [!DNL Journey Optimizer] Expressieeditor. [Meer informatie](create-code-based.md#edit-code)
 
 1. Uw app-implementatieteam doet expliciete API- of SDK-aanroepen om inhoud op te halen voor de benoemde oppervlakken, zoals &quot;Banner Text&quot; of &quot;Recommendations Tray 1&quot; of niet-UI gerelateerde beslissingspunten in een toepassing, zoals &quot;zoekalgoritmeparameters&quot;. In dit geval is het implementatieteam verantwoordelijk voor het renderen of anderszins interpreteren en reageren op de geretourneerde inhoud.<!--TBC with Robert - should link to a new section with API/SDK call samples-->
 
