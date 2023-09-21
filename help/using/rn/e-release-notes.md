@@ -5,10 +5,10 @@ title: Aanvullende informatie
 description: Opmerkingen bij de vervroegde release van Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 8aeb0c252a2c24442098fa1e88a75eb0e0a94d4e
+source-git-commit: 2e9a7bd5244feddddefb531dab42a25cf5935bcf
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 2%
+source-wordcount: '594'
+ht-degree: 3%
 
 ---
 
@@ -29,13 +29,28 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <table>
 <thead>
 <tr>
+<th><strong>Opslag van gebruikersgegevens voor mobiele toepassingen per sandbox</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met deze nieuwe functie kunt u pushgegevens eenvoudig beheren en koppelen aan een specifieke sandbox in App Surfaces.</p>
+<p>Raadpleeg de <a href="../in-app/inapp-configuration.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Geconsolideerde Kanaalrapporten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>De functie Kanaalrapport biedt analisten en marketers een uitgebreid overzicht van verkeers- en betrokkenheidsgegevens op kanaalniveau. Voor toegang tot het menu 'Rapport' hebt u de machtiging **Kanaalrapporten weergeven** nodig.</p>
+<p>De functie Kanaalrapport biedt analisten en marketers een uitgebreid overzicht van verkeers- en betrokkenheidsgegevens op kanaalniveau. Als u het menu Rapport wilt openen, hebt u de machtiging Kanaalrapporten weergeven nodig.</p>
 <img src="assets/channel-reports.png"/>
 <!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
 </tr>
@@ -52,7 +67,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer-gegevenssets die naar Cloud Storage-doelen worden geëxporteerd, zijn nu algemeen beschikbaar. Met deze functie kunt u een live verbinding maken met opslaglocaties in de cloud om de inhoud van uw gegevenssets te exporteren.</p>
+<p>Journey Optimizer-gegevenssets die naar Cloud Storage-doelen worden geëxporteerd, zijn nu over het algemeen beschikbaar. Met deze functie kunt u een live verbinding maken met opslaglocaties in de cloud om de inhoud van uw gegevenssets te exporteren.</p>
 <img src="../data/assets/dataset-export-setup.png">
 <!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
 </td>
@@ -78,7 +93,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Waarschuwing**
 
-Er is een nieuw type systeemwaarschuwing geïntroduceerd. U kunt nu op de hoogte worden gesteld wanneer een leessegment mislukt.
+* Er zijn twee nieuwe typen systeemwaarschuwingen ingevoerd. U kunt nu op de hoogte worden gesteld wanneer een aangepaste handeling of een gelezen segment mislukt.
 
 **Webkanaal**
 
@@ -88,9 +103,9 @@ Er is een nieuw type systeemwaarschuwing geïntroduceerd. U kunt nu op de hoogte
 
 **Journeys**
 
-* Er is een nieuw type systeemwaarschuwing geïntroduceerd. U kunt nu een melding krijgen wanneer een aangepaste handeling mislukt.
+* De aangepaste responsmogelijkheden voor handelingen zijn nu GA. Hierdoor kunt u API-aanroepreacties gebruiken in aangepaste handelingen en uw reis ordenen op basis van deze reacties. Bovendien is een nieuwe guardrail toegevoegd om alle douaneacties tot 5000 vraag/s per eindpunt te beperken.
 * Wanneer u een reis dupliceert, kunt u nu de naam van de reiskopie definiëren.
-
+* De maximumduur die u in de activiteit van de Wacht kunt bepalen is nu 29 dagen in plaats van 30.
 
 **E-mailkanaal**
 
