@@ -5,9 +5,9 @@ title: Aanvullende informatie
 description: Opmerkingen bij de vervroegde release van Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 94f6a1ee3a226f22042776b2f8b3ffa99c61cc55
+source-git-commit: c9be63086b63fb5f4d6094d8bc7690464cf6b768
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '556'
 ht-degree: 3%
 
 ---
@@ -96,7 +96,8 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Webkanaal**
 
-* U kunt nu selecteren op welke specifieke weergaven u de wijzigingen van uw webpagina wilt toepassen. Een weergave kan worden gedefinieerd als een hele site of een groep visuele elementen op een site, zoals de startpagina, de hele productsite of het voorkeurenframe voor levering op alle afrekenpagina&#39;s.
+* Toepassingen met één pagina (SPA) kunnen nu worden ontworpen in een visuele webeditor. U kunt nu selecteren op welke specifieke weergaven u de wijzigingen van uw webpagina wilt toepassen. Een weergave kan worden gedefinieerd als een hele site of een groep visuele elementen op een site, zoals de startpagina, de hele productsite of het voorkeurenframe voor levering op alle afrekenpagina&#39;s. Eenmalige ontwikkelaarsopstelling is nodig om de meningen in de implementatie van SDK van het Web van Adobe Experience Platform te bepalen, dit laat marketers toe om de Webcampagnes van Adobe Journey Optimizer op SPA tot stand te brengen en in werking te stellen.
+
 * Wanneer u een pagina bewerkt met de webontwerper, kunt u nu rechtstreeks vanuit het deelvenster Wijzigingen nieuwe wijzigingen aan uw inhoud toevoegen, zonder dat u een component hoeft te selecteren en te bewerken vanuit de ontwerpinterface.
 * Wanneer u websubdomeinen instelt, kunt u nu ook uw eigen subdomein toevoegen, naast het gebruik van een subdomein dat al is gedelegeerd aan de Adobe.
 
