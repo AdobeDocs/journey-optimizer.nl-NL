@@ -8,7 +8,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: 14b6ea7d0bf460cdab865f21977ab4bbe789ef7c
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 1%
@@ -66,5 +66,3 @@ De belangrijkste stappen om met de Beslissing van de Ervaring te werken zijn als
 1. **Selectiestrategieën maken**: Bouw selectiestrategieën die hefboomwerkingen inzamelingen, besluitvormingsregels, en rangschikkende methodes om de besluitvormingspunten te identificeren geschikt voor vertoning aan profielen.
 
 1. **Een beslissingsbeleid insluiten in uw op code gebaseerde campagne**: In het besluitvormingsbeleid worden meerdere selectiestrategieën gecombineerd om te bepalen welke in aanmerking komende beslissingsitems aan het beoogde publiek moeten worden getoond.
-
-<!--## Glossary-->
