@@ -5,9 +5,9 @@ title: Aanvullende informatie
 description: Opmerkingen bij de vervroegde release van Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: c9be63086b63fb5f4d6094d8bc7690464cf6b768
+source-git-commit: 91d40b697b7f70f0b27454684e7a0bfa3e6488c6
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '550'
 ht-degree: 3%
 
 ---
@@ -92,7 +92,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Waarschuwing**
 
-* Er zijn twee nieuwe typen systeemwaarschuwingen ingevoerd. U kunt nu op de hoogte worden gesteld wanneer een aangepaste handeling of een gelezen segment mislukt.
+* Er is een nieuw type systeemwaarschuwing geïntroduceerd. U kunt nu op de hoogte worden gesteld wanneer een publiek dat het lezen uitvoert, mislukt.
 
 **Webkanaal**
 
@@ -103,13 +103,20 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Journeys**
 
-* De aangepaste responsmogelijkheden voor handelingen zijn nu GA. Hierdoor kunt u API-aanroepreacties gebruiken in aangepaste handelingen en uw reis ordenen op basis van deze reacties. Bovendien is een nieuwe guardrail toegevoegd om alle douaneacties tot 5000 vraag/s per eindpunt te beperken.
+* Ondersteuning voor aangepaste acties is nu GA. Hierdoor kunt u API-aanroepreacties gebruiken in aangepaste handelingen en uw reis ordenen op basis van deze reacties. Bovendien is een nieuwe guardrail toegevoegd om alle douaneacties tot 5000 vraag/s per eindpunt te beperken.
 * Wanneer u een reis dupliceert, kunt u nu de naam van de reiskopie definiëren.
-* De maximumduur die u in de activiteit van de Wacht kunt bepalen is nu 29 dagen in plaats van 30.
+
+<!--
+* The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
+-->
 
 **E-mailkanaal**
 
 Met een nieuwe optie in de configuratie van het e-mailoppervlak kunt u ervoor kiezen om transactieberichten naar profielen te verzenden, zelfs als hun e-mailadres voorkomt in de lijst met Adobe Journey Optimizer-onderdrukking.
+
+**Rapportage**
+
+U kunt nu Journey Optimizer-rapporten exporteren als CSV-bestand. [Meer informatie](../reports/global-report.md#export-reports)
 
 <!--**Decision management**
 
