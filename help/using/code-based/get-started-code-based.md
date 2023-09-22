@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 1%
@@ -168,10 +168,10 @@ In de onderstaande tabel staan enkele voorbeelden van de oppervlakte-URI-definit
 | Web | web://domain.com/*#element | Jokeroppervlak - vertegenwoordigt een afzonderlijk element op elke pagina onder een specifiek domein. |
 | Desktop | desktop://com.vendor.bundle | Vertegenwoordigt een specifieke bureaubladtoepassing. |
 | Desktop | desktop://com.vendor.bundle#element | Vertegenwoordigt een specifiek element binnen een toepassing, zoals een knoop, een menu, een heldenbanner, enz. |
-| iOS-app | ios://com.vendor.bundle | Vertegenwoordigt een specifieke mobiele toepassing voor één platform - in dit geval iOS-app. |
-| iOS-app | ios://com.vendor.bundle/activity | Vertegenwoordigt een specifieke activiteit (mening) binnen een mobiele toepassing. |
-| iOS-app | ios://com.vendor.bundle/activity#element | Vertegenwoordigt een specifiek element binnen een activiteit, zoals een knoop of ander meningselement. |
-| Android-app | android://com.vendor.bundle | Vertegenwoordigt een specifieke mobiele toepassing voor één platform - in dit geval Android-app. |
+| iOS-app | mobileapp://com.vendor.bundle | Vertegenwoordigt een specifieke mobiele toepassing voor één platform - in dit geval iOS-app. |
+| iOS-app | mobileapp://com.vendor.bundle/activity | Vertegenwoordigt een specifieke activiteit (mening) binnen een mobiele toepassing. |
+| iOS-app | mobileapp://com.vendor.bundle/activity#element | Vertegenwoordigt een specifiek element binnen een activiteit, zoals een knoop of ander meningselement. |
+| Android-app | mobileapp://com.vendor.bundle | Vertegenwoordigt een specifieke mobiele toepassing voor één platform - in dit geval Android-app. |
 | tvOS-app | tvos://com.vendor.bundle | Vertegenwoordigt een specifieke tvOS-app. |
 | TV-app | tvcd://com.vendor.bundle | Vertegenwoordigt een specifieke apparaat-app voor Smart TV of met tv verbonden apparaten - bundle ID. |
 | Service | service://servicename | Vertegenwoordigt een server-zijproces of andere handentiteit. |

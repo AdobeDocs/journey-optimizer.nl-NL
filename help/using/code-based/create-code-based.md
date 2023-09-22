@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 60c74bcc5e33afa354a2380d3e6f490a4c2c3e6d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '955'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
    >
    >Voor meer informatie over hoe te om een campagne te vormen, raadpleeg [deze pagina](../campaigns/get-started-with-campaigns.md).
 
-1. Bewerk de inhoud naar wens met de [op code gebaseerde editor](#edit-code).
+1. Bewerk de inhoud naar wens met de Expressieeditor. [Meer informatie](#edit-code)
 
    ![](assets/code-based-campaign-edit-content.png)
 

@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1220'
 ht-degree: 2%
 
 ---
@@ -181,11 +181,11 @@ De gerangschikte voorstellen zijn nu als volgt: Voorstel 5, voorstel 3, voorstel
 
 ## Het beslissingsbeleid in de code-editor gebruiken {#use-decision-policy}
 
-Zodra gecreeerd, kan het besluitvormingsbeleid in worden gebruikt [code-editor](../code-based/create-code-based.md#edit-code). Hiervoor voert u de volgende stappen uit.
+Zodra gecreeerd, kan het besluitvormingsbeleid in worden gebruikt [Expression-editor](../code-based/create-code-based.md#edit-code). Hiervoor voert u de volgende stappen uit.
 
 >[!NOTE]
 >
->De code-editor gebruikt de [!DNL Journey Optimizer] De redacteur van de uitdrukking met al zijn verpersoonlijking en auteursmogelijkheden. [Meer informatie](../personalization/personalization-build-expressions.md)
+>De op code gebaseerde ervaring gebruikt de [!DNL Journey Optimizer] De redacteur van de uitdrukking met al zijn verpersoonlijking en auteursmogelijkheden. [Meer informatie](../personalization/personalization-build-expressions.md)
 
 1. Klik op het pictogram +. De code die overeenkomt met het beslissingsbeleid wordt toegevoegd. Nu kunt u alle beslissingskenmerken toevoegen die u in die code wilt.
 
@@ -197,7 +197,7 @@ Zodra gecreeerd, kan het besluitvormingsbeleid in worden gebruikt [code-editor](
 
 1. Klik op het beslissingsbeleid. De beslissingskenmerken worden weergegeven.
 
-   Deze kenmerken worden opgeslagen in het dialoogvenster **[!UICONTROL Offers]** catalogusschema. Aangepaste kenmerken worden opgeslagen in het dialoogvenster **_cjmstage** map en standaardkenmerken in het dialoogvenster **_experience** map. [Meer informatie over het schema van de catalogus met aanbiedingen](catalogs.md)
+   Deze kenmerken worden opgeslagen in het dialoogvenster **[!UICONTROL Offers]** catalogusschema. Aangepaste kenmerken worden opgeslagen in het dialoogvenster **`_<imsOrg`>** map en standaardkenmerken in het dialoogvenster **`_experience`** map. [Meer informatie over het schema van de catalogus met aanbiedingen](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
 
