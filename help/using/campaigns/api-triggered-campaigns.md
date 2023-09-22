@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: ae00c13e66247ba1e894609bec2bd21a44398431
 workflow-type: tm+mt
 source-wordcount: '897'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Beschikbare kanalen voor API-getriggerde campagnes zijn E-mail, SMS en Push beri
 
 >[!NOTE]
 >
->Op dit moment wordt snelle levering niet ondersteund voor door de API geïnitieerde campagnes met pushmeldingen.
+>Vanaf nu wordt de snelle leveringsmodus niet ondersteund voor door de pushmelding API-geactiveerde campagnes.
 
 ## Een API-gestuurde campagne maken {#create}
 
@@ -103,9 +103,9 @@ De `{{context.<contextualAttribute>}}` syntaxis wordt alleen toegewezen aan een 
 >
 >De contextafhankelijke kenmerken die in de aanvraag worden doorgegeven, mogen niet groter zijn dan 50 kB en zijn altijd van het type tekenreeks.
 >
->De `context.system` syntaxis is beperkt tot Adobe intern gebruik en mag niet worden gebruikt om contextuele kenmerken door te geven.
+>De `context.system` syntaxis is beperkt tot Adobe intern gebruik en mag niet worden gebruikt om contextafhankelijke kenmerken door te geven.
 
-Let op: voorlopig is er geen contextueel kenmerk beschikbaar voor gebruik in het menu Linkerspoor. De attributen moeten direct in uw verpersoonlijkingsuitdrukking worden getypt, zonder controle die door wordt uitgevoerd [!DNL Journey Optimizer].
+Let op: voorlopig is er geen contextueel kenmerk beschikbaar voor gebruik in het menu Linkerspoor. De attributen moeten direct in uw verpersoonlijkingsuitdrukking worden getypt, zonder controle die door [!DNL Journey Optimizer].
 
 ## Profiel maken tijdens uitvoering van de campagne {#profile-creation}
 
