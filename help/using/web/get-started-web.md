@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 466bc17385740511a62d60ccc9506bdf51eedc17
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 2%
@@ -21,7 +21,7 @@ Via een intuïtieve visuele interface kunt u met deze functie eenvoudig uw wegei
 
 Als u al uitgaande kanalen gebruikt, zoals e-mail, SMS of pushberichten, kunt u nu het binnenkomende webkanaal gebruiken om een echt gepersonaliseerde ervaring te bieden die zich over alle kanalen uitstrekt.
 
-Als u een campagne hebt gemaakt, selecteert u **Web** als uw handeling en basisinstellingen definiëren. Voor meer informatie over hoe te om uw campagne te vormen, verwijs naar dit [page](../campaigns/create-campaign.md#configure).
+Als u een campagne hebt gemaakt, selecteert u **Web** als uw handeling en basisinstellingen definiëren. Raadpleeg voor meer informatie over het configureren van uw campagne [page](../campaigns/create-campaign.md#configure).
 
 >[!NOTE]
 >
@@ -47,11 +47,11 @@ Ontdek de gedetailleerde stappen voor het maken van een webcampagne in [deze vid
 </div>
 <p></td>
 <td>
-<a href="author-web.md">
+<a href="edit-web-content.md">
 <img alt="Validatie" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="author-web.md"><strong>Webpagina's van auteurs</strong></a>
+<a href="edit-web-content.md"><strong>Webpagina's van auteurs</strong></a>
 </div>
 <p>
 </td>

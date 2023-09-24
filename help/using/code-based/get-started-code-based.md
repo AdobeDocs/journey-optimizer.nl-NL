@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1172'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ Wanneer moet u het op code gebaseerde kanaal gebruiken in plaats van het andere?
 
 * U kunt overwegen om op code-gebaseerde ervaringen te gebruiken wanneer uw digitale bezit niet door Webbrowser of een mobiele app wordt betreden - gevallen waarin u waarschijnlijk beter kunt gebruiken [!DNL Journey Optimizer] [webkanaal](../web/get-started-web.md){target="_blank"} or the [!DNL Journey Optimizer] [in-app messaging](../in-app/get-started-in-app.md){target="_blank"} kanaal.
 
-* U kunt het op code gebaseerde kanaal gebruiken als alternatief voor het [!DNL Journey Optimizer] webkanaal als uw website niet in de [webvisuele editor](../web/author-web.md){target="_blank"} or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} dat visuele authoring voor het webkanaal mogelijk maakt.
+* U kunt het op code gebaseerde kanaal gebruiken als alternatief voor het [!DNL Journey Optimizer] webkanaal als uw website niet in de [webontwerper](../web/edit-web-content.md#work-with-web-designer){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} dat visuele authoring voor het webkanaal mogelijk maakt.
 
 * U kunt het op code gebaseerde kanaal ook gebruiken als alternatief voor het [!DNL Journey Optimizer] web- of in-app-kanalen voor het geval u een API-gebaseerde, headless- of server-side implementatie hebt.
 
@@ -104,9 +104,9 @@ Wanneer moet u het op code gebaseerde kanaal gebruiken in plaats van het andere?
 Als u zaken voor webgebruik wilt uitvoeren, kunt u het webkanaal of de ervaring op basis van code gebruiken, maar afhankelijk van uw context is een van beide geschikter. De belangrijkste verschillen worden hieronder vermeld zodat kunt u een weloverwogen besluit nemen over wat te gebruiken wanneer.
 
 **Web**
-* Uw inhoud bewerken met de opdracht [visuele editor](../web/author-web.md){target="_blank"}.
+* Uw inhoud bewerken met de opdracht [webontwerper](../web/edit-web-content.md#work-with-web-designer){target="_blank"} visuele editor.
 * U hebt de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} implementation and the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}
-* Met het webkanaal kunt u alles op de pagina wijzigen en hebt u een vooraf gedefinieerde lijst met handelingen die u kunt gebruiken om wijzigingen aan te brengen. [Meer informatie](../web/author-web.md){target="_blank"}
+* Met het webkanaal kunt u alles op de pagina wijzigen en hebt u een vooraf gedefinieerde lijst met handelingen die u kunt gebruiken om wijzigingen aan te brengen. [Meer informatie](../web/edit-web-content.md#work-with-web-designer){target="_blank"}
 * Het is eenvoudig om in te stellen en snel te gaan.
 * Het is gericht op marketer-persona.
 

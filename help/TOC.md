@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dc1eeb3c199e7db2fc152b682404a547e2ae56c7
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1502'
 ht-degree: 32%
 
 ---
@@ -233,7 +233,10 @@ ht-degree: 32%
    + [Aan de slag met webkanaal](using/web/get-started-web.md)
    + [Voorwaarden voor webkanalen](using/web/web-prerequisites.md)
    + [Webervaringen maken](using/web/create-web.md)
-   + [Webpagina&#39;s van auteurs](using/web/author-web.md)
+   + Webpagina&#39;s van auteurs {#author-web-pages}
+      + [Webpagina-inhoud bewerken](using/web/edit-web-content.md)
+      + [Wijzigingen beheren](using/web/manage-web-modifications.md)
+      + [Uw webcampagnes volgen](using/web/monitor-web-campaigns.md)
    + [Websubdomeinen configureren](using/web/web-delegated-subdomains.md)
 + Ervaring op basis van code {#code-based-experience}
    + [Aan de slag met op code gebaseerd kanaal](using/code-based/get-started-code-based.md)

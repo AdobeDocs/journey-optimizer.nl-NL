@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '794'
 ht-degree: 3%
 
 ---
@@ -43,7 +43,7 @@ Volg onderstaande stappen om uw webervaring op te bouwen via een campagne.
 
 1. Een campagne maken. [Meer informatie](../campaigns/create-campaign.md)
 
-1. Selecteer **[!UICONTROL Web]** handeling.
+1. Selecteer de **[!UICONTROL Web]** handeling.
 
 1. Definieer een weboppervlak.
 
@@ -77,15 +77,46 @@ Volg onderstaande stappen om uw webervaring op te bouwen via een campagne.
 
    ![](assets/web-campaign-steps.png)
 
-Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [deze pagina](../campaigns/get-started-with-campaigns.md).
+Voor meer informatie over hoe te om een campagne te vormen, raadpleeg [deze pagina](../campaigns/get-started-with-campaigns.md).
+
+## De webcampagne testen {#test-web-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_designer_preview"
+>title="Een voorvertoning van uw webbeleving bekijken"
+>abstract="Bekijk een simulatie van hoe uw webervaring eruit zal zien."
+
+Eenmaal [gemaakt voor uw webervaring](edit-web-content.md) met de webontwerper kunt u een voorvertoning van uw gewijzigde webpagina&#39;s weergeven voordat u uw campagne activeert. Hiervoor voert u de volgende stappen uit.
+
+>[!CAUTION]
+>
+>U moet testprofielen beschikbaar hebben om te simuleren welke aanbiedingen aan hen zullen worden geleverd. Leer hoe u [testprofielen maken](../audience/creating-test-profiles.md).
+
+1. Selecteer in het scherm Inhoud voor webcampagne bewerken of in de webontwerper **[!UICONTROL Simulate content]**.
+
+   <!--![](assets/web-designer-simulate.png)-->
+
+   ![](assets/web-campaign-simulate.png)
+
+1. Klikken **[!UICONTROL Manage test profiles]** om een of meer testprofielen te selecteren.
+1. Er wordt een voorvertoning van de gewijzigde webpagina weergegeven.
+
+   ![](assets/web-designer-preview.png)
+
+1. U kunt de URL ook in de standaardbrowser openen of de test-URL kopiëren en in een browser plakken. Op deze manier kunt u de koppeling delen met uw team en belanghebbenden die de nieuwe webervaring in een browser kunnen bekijken voordat de campagne live gaat.
+
+   >[!NOTE]
+   >
+   >Wanneer het kopiëren van testURL, is de getoonde inhoud die voor het testprofiel wordt gepersonaliseerd dat wordt gebruikt toen de inhoudsimulatie werd geproduceerd in [!DNL Journey Optimizer].
 
 ## De webcampagne activeren {#activate-web-campaign}
 
-Zodra u uw [webcampagneinstellingen](#configure-web-campaign) en u hebt de inhoud naar wens bewerkt met de [webontwerper](author-web.md), kunt u uw webcampagne controleren en activeren. Voer de onderstaande stappen uit.
+Zodra u uw [webcampagneinstellingen](#configure-web-campaign) en u hebt de inhoud naar wens bewerkt met de [webontwerper](edit-web-content.md#work-with-web-designer), kunt u uw webcampagne controleren en activeren. Voer de onderstaande stappen uit.
 
+<!--
 >[!NOTE]
 >
->U kunt ook een voorvertoning van de inhoud van uw webcampagne weergeven voordat u deze activeert. [Meer informatie](author-web.md#test-web-campaign)
+>You can also preview your web campaign content before activating it. [Learn more](#test-web-campaign)-->
 
 1. Selecteer in uw webcampagne de optie **[!UICONTROL Review to activate]**.
 

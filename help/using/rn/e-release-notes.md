@@ -5,9 +5,9 @@ title: Aanvullende informatie
 description: Opmerkingen bij de vervroegde release van Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 3df2e550c9ab2c83e6fa9c26dc62a882a523229a
+source-git-commit: 1bf010b247b3683c6171bc387c9b94ab1b5dcefc
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '588'
 ht-degree: 3%
 
 ---
@@ -96,9 +96,9 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Webkanaal**
 
-* Toepassingen met één pagina (SPA) kunnen nu worden ontworpen in een visuele webeditor. U kunt nu selecteren op welke specifieke weergaven u de wijzigingen van uw webpagina wilt toepassen. Een weergave kan worden gedefinieerd als een hele site of een groep visuele elementen op een site, zoals de startpagina, de hele productsite of het voorkeurenframe voor levering op alle afrekenpagina&#39;s. Eenmalige ontwikkelaarsopstelling is nodig om de meningen in de implementatie van SDK van het Web van Adobe Experience Platform te bepalen, dit laat marketers toe om de Webcampagnes van Adobe Journey Optimizer op SPA tot stand te brengen en in werking te stellen.
+* Toepassingen van één pagina (SPA) kunnen nu worden ontworpen in de visuele editor van de webontwerper. U kunt nu selecteren op welke specifieke weergaven u de wijzigingen van uw webpagina wilt toepassen. Een weergave kan worden gedefinieerd als een hele site of een groep visuele elementen op een site, zoals de startpagina, de hele productsite of het voorkeurenframe voor levering op alle afrekenpagina&#39;s. Eenmalige ontwikkelaarsopstelling is nodig om de meningen in de implementatie van SDK van het Web van Adobe Experience Platform te bepalen; dit laat marketers toe om de Webcampagnes van Adobe Journey Optimizer op SPA tot stand te brengen en in werking te stellen.
 
-* Wanneer u een pagina bewerkt met de webontwerper, kunt u nu rechtstreeks vanuit het deelvenster Wijzigingen nieuwe wijzigingen aan uw inhoud toevoegen, zonder dat u een component hoeft te selecteren en te bewerken vanuit de ontwerpinterface.
+* Wanneer u een pagina bewerkt met de webontwerper, kunt u nu rechtstreeks vanuit de **Wijzigingen** deelvenster - zonder dat u een component hoeft te selecteren en te bewerken in de ontwerpinterface.
 * Wanneer u websubdomeinen instelt, kunt u nu ook uw eigen subdomein toevoegen, naast het gebruik van een subdomein dat al is gedelegeerd aan de Adobe.
 
 **Journeys**

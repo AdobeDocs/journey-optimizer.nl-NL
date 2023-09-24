@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: cfa797146c4f6f87a55e72393f45c271480cf7f5
+source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 1%
@@ -85,13 +85,7 @@ Voer de onderstaande stappen uit om de extensie van de browser van de Visual Edi
 
    ![](assets/web-visual-editing-extension-edge.png)
 
-<!--1. Launch [!DNL Journey Optimizer] in a new tab of your browser with the extension installed.
-
-1. Create a web channel campaign in [!DNL Journey Optimizer]. [Learn how](author-web.md#create-web-campaign)
-
-1. Open the [!DNL Journey Optimizer] web designer to start authoring your web experience. [Learn more](author-web.md)-->
-
-De Adobe Experience Cloud Visual Editing Helper wordt nu automatisch ingeschakeld wanneer een website wordt geopend in het dialoogvenster [!DNL Journey Optimizer] webontwerper wil creatieve functies uitoefenen.
+De Adobe Experience Cloud Visual Editing Helper wordt nu automatisch ingeschakeld wanneer een website wordt geopend in het dialoogvenster [!DNL Journey Optimizer] [webontwerper](edit-web-content.md#work-with-web-designer) aan macht authoring.
 
 De extensie heeft geen voorwaardelijke instellingen en verwerkt alle instellingen automatisch, inclusief de instellingen voor Cookies van SameSite.
 
