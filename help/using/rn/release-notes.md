@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 27b5d9d66cd2659b4254ee26ac7de928cdd13fe1
+source-git-commit: d92152d5b9ab01398c095adb8051ac51a3202973
 workflow-type: tm+mt
-source-wordcount: '3467'
-ht-degree: 9%
+source-wordcount: '3977'
+ht-degree: 8%
 
 ---
 
@@ -21,9 +21,49 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 
 ![Nieuwsbrief](../assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die direct aan uw Postbus worden geleverd elk kwartaal.
 
-## Update van september 2023 {#sept-rn-2023}
+## Opmerkingen bij de vervroegde release september 2023 {#sept-rn-2023}
 
-### Nieuwe functie {#sept-2023-features}
+Opmerkingen bij de eerste release hieronder kunnen zonder voorafgaande kennisgeving worden gewijzigd tot de beschikbaarheidsdatum van de release. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd op de releasedatum.
+
+**Releasedatum**: september 2023
+
+### Nieuwe functies{#sept-2023-features}
+
+Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
+
+<table>
+<thead>
+<tr>
+<th><strong>Geconsolideerde Kanaalrapporten</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De functie Kanaalrapport biedt analisten en marketers een uitgebreid overzicht van verkeers- en betrokkenheidsgegevens op kanaalniveau. Als u het menu Rapport wilt openen, hebt u de machtiging Kanaalrapporten weergeven nodig.</p>
+<img src="assets/channel-reports.png"/>
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Dataset-exportdoelen (GA)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer-gegevenssets die naar Cloud Storage-doelen worden geëxporteerd, zijn nu over het algemeen beschikbaar. Met deze functie kunt u een live verbinding maken met opslaglocaties in de cloud om de inhoud van uw gegevenssets te exporteren.</p>
+<img src="../data/assets/dataset-export-setup.png">
+<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -39,6 +79,56 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 </tr>
 </tbody>
 </table>
+
+### Verbeteringen {#sept-2023-improvements}
+
+Deze release bevat de verbeteringen die hieronder worden vermeld.
+
+<!--**Audiences**
+
+* You can now target audiences uploaded from a CSV file into journeys and campaigns.
+* You can now target audiences resulting from composition workflows into journeys. -->
+
+**Personalisatie**
+
+* Naast visuele fragmenten is het nu mogelijk om expressiefragmenten te maken, op te slaan en opnieuw te gebruiken vanuit de Journey Optimizer-interface via de Expressieeditor. Expressiefragmenten vervangen de eerder opgeslagen expressies.
+* U kunt nu Adobe Experience Platform berekende kenmerken gebruiken voor personalisatie in Journey Optimizer. Berekende kenmerken zijn geaggregeerde waarden die worden berekend op basis van de gegevenssets voor gebeurtenissen met profiel die in Adobe Experience Platform worden ingevoerd.
+
+**Waarschuwing**
+
+* Er is een nieuw type systeemwaarschuwing geïntroduceerd. U kunt nu op de hoogte worden gesteld wanneer een publiek dat het lezen uitvoert, mislukt.
+
+**Webkanaal**
+
+* Toepassingen met één pagina (SPA) kunnen nu worden ontworpen in een visuele webeditor. U kunt nu selecteren op welke specifieke weergaven u de wijzigingen van uw webpagina wilt toepassen. Een weergave kan worden gedefinieerd als een hele site of een groep visuele elementen op een site, zoals de startpagina, de hele productsite of het voorkeurenframe voor levering op alle afrekenpagina&#39;s. Eenmalige ontwikkelaarsopstelling is nodig om de meningen in de implementatie van SDK van het Web van Adobe Experience Platform te bepalen, dit laat marketers toe om de Webcampagnes van Adobe Journey Optimizer op SPA tot stand te brengen en in werking te stellen.
+
+* Wanneer u een pagina bewerkt met de webontwerper, kunt u nu rechtstreeks vanuit het deelvenster Wijzigingen nieuwe wijzigingen aan uw inhoud toevoegen, zonder dat u een component hoeft te selecteren en te bewerken vanuit de ontwerpinterface.
+* Wanneer u websubdomeinen instelt, kunt u nu ook uw eigen subdomein toevoegen, naast het gebruik van een subdomein dat al is gedelegeerd aan de Adobe.
+
+**Journeys**
+
+* Ondersteuning voor aangepaste acties is nu GA. Hierdoor kunt u API-aanroepreacties gebruiken in aangepaste handelingen en uw reis ordenen op basis van deze reacties. Bovendien is een nieuwe guardrail toegevoegd om alle douaneacties tot 5000 vraag/s per eindpunt te beperken.
+* Wanneer u een reis dupliceert, kunt u nu de naam van de reiskopie definiëren.
+
+<!--
+* The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
+-->
+
+**E-mailkanaal**
+
+Met een nieuwe optie in de configuratie van het e-mailoppervlak kunt u ervoor kiezen om transactieberichten naar profielen te verzenden, zelfs als hun e-mailadres voorkomt in de lijst met Adobe Journey Optimizer-onderdrukking.
+
+**Sms-kanaal**
+
+Twee nieuwe velden, **Bericht bij aanmelden** en **Help-bericht**, zijn toegevoegd aan het API-configuratiescherm, zodat gebruikers reacties voor binnenkomende trefwoorden kunnen aanpassen. Merk op dat dit slechts voor de leverancier van SMS van Sinch beschikbaar is.
+
+**Rapportage**
+
+U kunt nu Journey Optimizer-rapporten exporteren als CSV-bestand. [Meer informatie](../reports/global-report.md#export-reports)
+
+<!--**Decision management**
+
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
 
 ## Opmerkingen bij de release augustus 2023 {#aug-rn-2023}
 
