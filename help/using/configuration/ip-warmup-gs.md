@@ -7,12 +7,12 @@ feature: Application Settings
 topic: Administration
 role: Admin
 level: Experienced
-keywords: IP, pools, groep, subdomeinen, leverbaarheid
+keywords: IP, leverbaarheid
 hide: true
 hidefromtoc: true
-source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '294'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Wat u in deze documentatiehandleiding zult vinden:
 * **[Ga aan de slag met IP-opwarming](ip-warmup-gs.md)**
 * [IP-warmtecampagnes maken](ip-warmup-campaign.md)
 * [Creeer een IP warmlopingsplan](ip-warmup-plan.md)
-* [Voer het IP-opwarmingsplan uit](ip-warmup-running.md)
+* [Voer het IP warmlopingsplan uit](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ Met [!DNL Journey Optimizer], kunt u IP warmteopwerkschema&#39;s op een gestanda
 
 Wanneer e-mails met een nieuw platform worden verzonden, zijn internetproviders (ISP&#39;s) verdacht van IP-adressen die niet worden herkend. Als er plotseling grote hoeveelheden e-mails worden verzonden, markeren de ISP&#39;s deze vaak als spam.
 
-Als u wilt voorkomen dat spam wordt gemarkeerd, kunt u het verzonden volume progressief verhogen met de functie voor IP-warmteopruimingsplannen. Een nieuwe optie in het dialoogvenster **[!UICONTROL Administration]** kunt u dit beter doen in plaats van complexe dagelijkse reizen te maken. Dit zou een vlotte ontwikkeling van de startfase moeten verzekeren en u toelaten om het algemene tarief van ongeldige adressen te verminderen.
+Als u wilt voorkomen dat spam wordt gemarkeerd, kunt u het verzonden volume progressief verhogen met de functie voor het IP-opwarmingsplan. Deze nieuwe optie in het dialoogvenster **[!UICONTROL Administration]** kunt u dit gemakkelijker op geconsolideerde wijze doen in plaats van complexe dagelijkse reizen te maken . Dit zou een vlotte ontwikkeling van de startfase moeten verzekeren en u toelaten om het algemene tarief van ongeldige adressen te verminderen.
 
 >[!NOTE]
 >
@@ -69,8 +69,8 @@ Benefits
 
 De belangrijkste stappen om een IP opwarmingsplan uit te voeren zijn als volgt:
 
-1. U moet eerst één of meerdere campagnes met IP toegelaten warmup optie creëren. [Meer informatie](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
+1. U moet eerst één of meerdere campagnes met IP toegelaten warmup optie creëren. [Meer informatie](ip-warmup-campaign.md)
 
-1. Creeer een IP warmlopingsplan in [!DNL Journey Optimizer] en uploadt het Excel-werkblad dat eerder is ingevuld met uw IP-warmtegegevens. [Meer informatie](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. Creeer een IP warmlopingsplan in [!DNL Journey Optimizer] en uploadt u het Excel-werkblad dat u hebt voorbereid met de hulp van uw consultant voor te leveren items. [Meer informatie](ip-warmup-plan.md)
 
-1. Selecteer een campagne voor elke fase van uw plan en activeer de overeenkomstige looppas. [Meer informatie](ip-warmup-running.md)
+1. Selecteer een campagne voor elke fase van uw plan en activeer de overeenkomstige looppas. [Meer informatie](ip-warmup-execution.md)

@@ -6,13 +6,13 @@ description: Leer hoe te om een IP warmup campagne te creëren
 feature: Application Settings
 topic: Administration
 role: Admin
-level: Experienced
-keywords: IP, pools, groep, subdomeinen, leverbaarheid
+level: Intermediate
+keywords: IP, pools, leverbaarheid
 hide: true
 hidefromtoc: true
-source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
+source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '338'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
 >title="Activeer de IP optie van het warmlopingsplan"
->abstract="Selecteer de optie voor activering van het IP-opwarmingsplan. Zodra de campagne levend is, kan het met een IP warmlopingsplan worden geassocieerd."
+>abstract="Wanneer u deze optie selecteert, kan de campagne in een IP warmlopingsplan worden gebruikt. Het campagneschema zal dan door het IP warmup plan worden aangedreven het met wordt geassocieerd."
 
 >[!BEGINSHADEBOX]
 
@@ -31,7 +31,7 @@ Wat u in deze documentatiehandleiding zult vinden:
 * [Ga aan de slag met IP-opwarming](ip-warmup-gs.md)
 * **[IP-warmtecampagnes maken](ip-warmup-campaign.md)**
 * [Creeer een IP warmlopingsplan](ip-warmup-plan.md)
-* [Voer het IP-opwarmingsplan uit](ip-warmup-running.md)
+* [Voer het IP warmlopingsplan uit](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
    >
    >Leer hoe te om het domein en IPs te selecteren in een e-mailoppervlak in [deze sectie](../email/email-settings.md#subdomains-and-ip-pools).
    >
-   >Indien nodig, werk met uw leverbaarheidsconsultant om het domein en IPs te identificeren dat voor uw IP warmup plan moet worden gebruikt.<!--TBC-->
+   >Het werk met uw leverbaarheidsadviseur om het domein en IPs te identificeren dat voor uw IP warmup plan moet worden gebruikt.<!--TBC-->
 
 1. Een [campagne](../campaigns/create-campaign.md) en selecteert u de [E-mail](../email/create-email.md#create-email-journey-campaign) handeling.
 
@@ -73,9 +73,9 @@ Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
 
    >[!NOTE]
    >
-   >Voor een levende campagne met IP warmup plan geactiveerd, **[!UICONTROL Delete]** de knoop is beschikbaar tot het met een IP warmup plan wordt geassocieerd. Zodra gebruikt in een IP warmup plan, kan de campagne niet meer worden geschrapt.
+   >Voor een levende campagne met IP warmup plan geactiveerd, **[!UICONTROL Delete]** de knoop is beschikbaar tot het met een IP warmup plan wordt geassocieerd. Als de campagne eenmaal in een abonnement is gebruikt, kan deze niet meer worden verwijderd.
 
-1. De campagne wordt weergegeven in het dialoogvenster **[!UICONTROL Campaigns]** lijst. Om alle IP warmup campagnes gemakkelijk terug te winnen die op de huidige zandbak worden gecreeerd, kunt u op de campagneoptie filtreren **[!UICONTROL IP warmup]**.
+1. De campagne wordt weergegeven in het dialoogvenster **[!UICONTROL Campaigns]** lijst. Om alle IP warmup campagnes gemakkelijk terug te winnen die op de huidige zandbak worden gecreeerd, kunt u op **[!UICONTROL IP warmup]** campagneoptie.
 
    ![](assets/ip-warmup-campaign-filter.png)
 
