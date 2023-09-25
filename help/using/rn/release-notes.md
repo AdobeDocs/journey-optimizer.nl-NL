@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d92152d5b9ab01398c095adb8051ac51a3202973
+source-git-commit: e0564971b18932d311d44a31a0b3acafa467e809
 workflow-type: tm+mt
-source-wordcount: '3977'
+source-wordcount: '3975'
 ht-degree: 8%
 
 ---
@@ -124,7 +124,7 @@ Twee nieuwe velden, **Bericht bij aanmelden** en **Help-bericht**, zijn toegevoe
 
 **Rapportage**
 
-U kunt nu Journey Optimizer-rapporten exporteren als CSV-bestand. [Meer informatie](../reports/global-report.md#export-reports)
+U kunt nu Journey Optimizer-rapporten exporteren als CSV-bestand. <!--[Learn more](../reports/global-report.md#export-reports)-->
 
 <!--**Decision management**
 
