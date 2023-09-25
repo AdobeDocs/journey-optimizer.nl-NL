@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, pools, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
-source-git-commit: 11bdb3ddc666d2025133f70ab522c4ce2d676aa6
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,12 @@ Wat u in deze documentatiehandleiding zult vinden:
 * **[Voer het IP-opwarmingsplan uit](ip-warmup-running.md)**
 
 >[!ENDSHADEBOX]
+
+Als u eenmaal [leidde tot een IP warmup plan](ip-warmup-plan.md) en het bestand geüpload dat u samen met uw leverancier hebt voorbereid, kunt u de fasen en uitvoering in uw abonnement definiëren.
+
+Elke fase komt overeen met een periode die bestaat uit meerdere uitvoeringen, waaraan u één campagne toewijst.
+
+Voor elke run hebt u een bepaald aantal ontvangers en u plant wanneer deze run wordt uitgevoerd.
 
 ## De fasen definiëren {#define-phases}
 
@@ -96,7 +102,7 @@ Op faseniveau, zorgt het systeem ervoor dat eerder gericht + nieuwe profielen wo
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Selecteer een eindtijd, die het venster bepaalt waarbinnen de IP warmup campagne kan worden uitgevoerd in het geval dat er om het even welke vertragingen in de uitvoering van de publiekssegmentatie zijn. Als geen eindtijd wordt gespecificeerd, wordt de uitvoering geprobeerd bij de begintijd en zal ontbreken als de segmentatie niet werd voltooid.
+1. Optioneel, selecteer het venster waarin de IP warmup campagne kan worden uitgevoerd voor het geval dat er vertragingen in de uitvoering van de publiekssegmentatie optreden. Als geen eindtijd wordt gespecificeerd, wordt de uitvoering geprobeerd bij de begintijd en zal ontbreken als de segmentatie niet werd voltooid.
 
 1. Activeer elke run. Zorg ervoor u een tijd vroeg genoeg plant om voor de segmentatietaak toe te laten om worden in werking gesteld. <!--explain how you can evaluate a proper time-->
 
@@ -132,18 +138,28 @@ You don't have to decide the campaign upfront. You can do a split later. It's a 
 But need to explain in which case you want to modify campaigns, provide examples
 -->
 
-## Het abonnement controleren
+## Een abonnement markeren als voltooid {#mark-as-completed}
 
-Een run kan de volgende statussen hebben<!--TBC with Medha-->:
+Als uw plan niet goed genoeg presteert of als u het wilt laten vallen om een andere te creëren, kunt u het merken zoals voltooid.
 
-* **[!UICONTROL Completed]**:
-* **[!UICONTROL Failed]**:
-* **[!UICONTROL Cancelled]**: u hebt de uitvoering gestopt voordat de uitvoering van de campagne is gestart.
+Klik hiertoe op de knop **[!UICONTROL More]** knoop op bovenkant recht de IP warmup plan en selecteer **[!UICONTROL Mark as completed]**.
 
-Voordelen :
+![](assets/ip-warmup-plan-mark-completed.png)
 
-* De rapporten zullen op campagnereniveau met gelijkaardige mogelijkheden zoals vandaag blijven tonen. Maar het opwarmingsplan van het IP dient ook als een geconsolideerd rapport op één enkele plaats van hoeveel executies werden uitgevoerd enzovoort.
+Deze optie is alleen beschikbaar als alle runnen in het abonnement zijn opgenomen **[!UICONTROL Succeeded]** of **[!UICONTROL Draft]** status. Er kan geen uitvoering worden uitgevoerd **[!UICONTROL Live]**.
 
-* Één enkele plaats om te beheren en te bekijken hoe IP warm vordert.
+De verschillende uitvoerstatussen worden vermeld in [deze sectie](#monitor-plan).
 
-* Geconsolideerd rapport op creatief/campagnereniveau zoals alle voor een fase loopt
+## Het abonnement controleren {#monitor-plan}
+
+Om het effect van uw plan te meten, kunt u de prestaties van uw IP warmup campagnes controleren gebruikend rapporten. Meer informatie over de campagne-e-mail [live-rapport](../reports/campaign-live-report.md#email-live) en [algemeen rapport](../reports/campaign-global-report.md##email-global).
+
+Het opwarmingsplan van het IP zelf dient ook als een geconsolideerd rapport op één enkele plaats. U kunt elementen controleren zoals het aantal **[!UICONTROL Live]** of **[!UICONTROL Succeeded]** looppas voor elke fase, en mening hoe uw IP warmup plan vordert.
+
+Een run kan de volgende statussen hebben:
+
+* **[!UICONTROL Draft]** : telkens wanneer een run wordt gemaakt, wanneer [Een nieuw abonnement uploaden](ip-warmup-plan.md) of [toevoegen, run](#define-runs) vanuit de gebruikersinterface **[!UICONTROL Draft]** status.
+* **[!UICONTROL Live]**: wanneer u een run activeert, neemt deze de **[!UICONTROL Live]** status.
+* **[!UICONTROL Succeeded]**<!--TBC-->: de uitvoering van de campagne voor deze run is voltooid. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
+* **[!UICONTROL Cancelled]**: a **[!UICONTROL Live]** uitvoering is geannuleerd met de opdracht **[!UICONTROL Stop]** knop. Deze knop is alleen beschikbaar als de uitvoering van de campagne niet is gestart. [Meer informatie](#define-runs)
+* **[!UICONTROL Failed]**: er is een fout aangetroffen door het systeem of de campagne die voor de huidige fase is gebruikt, is gestopt<!--what should the user do in that case?-->.

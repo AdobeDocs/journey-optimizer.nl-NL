@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, pools, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
-source-git-commit: 53be033ff0474cbafff71ed36194c18627234fd4
+source-git-commit: 1ec2c406e777e08de97c3ad53cee5986afeb3c44
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '292'
 ht-degree: 2%
 
 ---
@@ -71,6 +71,6 @@ De belangrijkste stappen om een IP opwarmingsplan uit te voeren zijn als volgt:
 
 1. U moet eerst één of meerdere campagnes met IP toegelaten warmup optie creëren. [Meer informatie](ip-warmup-campaign.md) <!--this is usually done by a marketer persona??)-->
 
-1. Creeer een IP warmup plan en upload uw plan. [Meer informatie](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
+1. Creeer een IP warmlopingsplan in [!DNL Journey Optimizer] en uploadt het Excel-werkblad dat eerder is ingevuld met uw IP-warmtegegevens. [Meer informatie](ip-warmup-plan.md) <!--this is usually done by a deliverability consultant??-->
 
 1. Selecteer een campagne voor elke fase van uw plan en activeer de overeenkomstige looppas. [Meer informatie](ip-warmup-running.md)
