@@ -5,9 +5,9 @@ title: Aanvullende informatie
 description: Opmerkingen bij de vervroegde release van Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+source-git-commit: 5edd643f7e93ade8d12515c83dc6321c96fe3c77
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '634'
 ht-degree: 3%
 
 ---
@@ -76,6 +76,22 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Berekende kenmerken</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met berekende kenmerken kunt u gebeurtenisgegevens eenvoudig samenvatten in profielkenmerken via een intuïtieve gebruikersinterface voor verbeterde op gedrag gebaseerde segmentatie, personalisatie en activering. Met deze functie kunt u berekende kenmerken op een zelfservermanier maken, deze beheren en ze in segmentatie gebruiken, in realtime klantprofielbestemmingen of Journey Optimizer. <br/>
+Bovendien vereenvoudigt de berekende attributen segmentatie en reisworkflows om u te helpen relevante ervaringen naadloos te leveren. Meer informatie in het dialoogvenster <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">gedetailleerde documentatie</a>.</p>
+</tr>
+</tbody>
+</table>
+
+
 ### Verbeteringen {#sept-2023-improvements}
 
 Deze release bevat de verbeteringen die hieronder worden vermeld.
@@ -88,7 +104,6 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 **Personalisatie**
 
 * Naast visuele fragmenten is het nu mogelijk om expressiefragmenten te maken, op te slaan en opnieuw te gebruiken vanuit de Journey Optimizer-interface via de Expressieeditor. Expressiefragmenten vervangen de eerder opgeslagen expressies.
-* U kunt nu Adobe Experience Platform berekende kenmerken gebruiken voor personalisatie in Journey Optimizer. Berekende kenmerken zijn geaggregeerde waarden die worden berekend op basis van de gegevenssets voor gebeurtenissen met profiel die in Adobe Experience Platform worden ingevoerd.
 
 **Waarschuwing**
 
