@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
-source-git-commit: 5fa3c0c39de43450b199a41c4a4a032674dd4887
+source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '158'
 ht-degree: 7%
 
 ---
@@ -30,14 +30,13 @@ In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudsty
 **API-indeling**
 
 ```http
-PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
+PATCH /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
 ```
 
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | De container waar de reserveaanbiedingen worden gevestigd. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | De instantie-id van de fallback-aanbieding. | `b3966680-13ec-11eb-9c20-8323709cfc65` |
+| `{ENDPOINT_PATH}` | Het eindpuntpad voor persistentie-API&#39;s. | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | De id van de entiteit die u wilt bijwerken. | `fallbackOffer1234` |
 
 **Verzoek**
 
@@ -64,7 +63,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 
 | Parameter | Beschrijving |
 | --------- | ----------- |
-| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen omvatten: `add`, `replace`, en `remove`. |
+| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen omvatten: `add`, `replace`, `remove`, `copy` en `test`. |
 | `path` | Het pad van de parameter die moet worden bijgewerkt. |
 | `value` | De nieuwe waarde waarmee u de parameter wilt bijwerken. |
 
