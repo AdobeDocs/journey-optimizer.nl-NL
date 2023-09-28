@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
+source-git-commit: 92cf1d4a350359adbbad93c4006ec7a0e3902397
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%
@@ -77,20 +77,6 @@ U kunt uw verschillende rapporten eenvoudig exporteren naar de indelingen PDF of
 
 >[!BEGINTABS]
 
->[!TAB Uw rapport exporteren als een PDF-bestand]
-
-1. Klik in uw rapport op **[!UICONTROL Export]** en selecteert u **[!UICONTROL PDF file]**.
-
-   ![](assets/export_2.png)
-
-1. Configureer het document in het venster Afdrukken naar wens. Welke opties beschikbaar zijn, is afhankelijk van de browser.
-
-1. Kies of u het rapport wilt afdrukken of opslaan als PDF.
-
-1. Zoek de map waarin u het bestand wilt opslaan, geef het bestand een andere naam als dat nodig is en klik op Opslaan.
-
-Uw rapport is nu beschikbaar voor weergave of delen in een PDF-bestand.
-
 >[!TAB Uw rapport exporteren als een CSV-bestand]
 
 1. Klik in uw rapport op **[!UICONTROL Export]** en selecteert u **[!UICONTROL CSV file]** om een CSV-bestand op algemeen rapportniveau te genereren.
@@ -106,5 +92,21 @@ Uw rapport is nu beschikbaar voor weergave of delen in een PDF-bestand.
    Als u het bestand op rapportniveau hebt gegenereerd, bevat het gedetailleerde informatie voor elke widget, inclusief de titel en gegevens.
 
    Als u het bestand op widgetniveau hebt gegenereerd, bevat dit specifiek gegevens voor de geselecteerde widget.
+
+>[!TAB Uw rapport exporteren als een PDF-bestand]
+
+1. Klik in uw rapport op **[!UICONTROL Export]** en selecteert u **[!UICONTROL PDF file]**.
+
+   ![](assets/export_2.png)
+
+1. Configureer het document in het venster Afdrukken naar wens. Welke opties beschikbaar zijn, is afhankelijk van de browser.
+
+1. Kies of u het rapport wilt afdrukken of opslaan als PDF.
+
+1. Zoek de map waarin u het bestand wilt opslaan, geef het bestand een andere naam als dat nodig is en klik op Opslaan.
+
+Uw rapport is nu beschikbaar voor weergave of delen in een PDF-bestand.
+
+
 
 >[!ENDTABS]
