@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: cd6fbe0367f54f68814ffd9a8eb13c887ae057b3
+source-git-commit: 94ad48537e6c13b17130f9f31d747bd9749e982c
 workflow-type: tm+mt
-source-wordcount: '4058'
-ht-degree: 8%
+source-wordcount: '4013'
+ht-degree: 9%
 
 ---
 
@@ -137,10 +137,6 @@ Twee nieuwe velden, **Bericht bij aanmelden** en **Help-bericht**, zijn toegevoe
 **Direct mailkanaal**
 
 U kunt nu bestanden versleutelen die zijn bedoeld voor uw direct-mailproviders wanneer deze worden overgebracht naar een server. Om dit te doen, is een nieuw gebied beschikbaar in het dossier dat configuratiescherm verplettert, toestaand u om uw encryptiesleutel te kopiëren-kleven. [Meer informatie](../direct-mail/direct-mail-configuration.md)
-
-**Direct mailkanaal**
-
-U kunt nu bestanden versleutelen die zijn bedoeld voor uw direct-mailproviders wanneer deze worden overgebracht naar een server. Om dit te doen, is een nieuw gebied beschikbaar in het dossier dat configuratiescherm verplettert, toestaand u om uw encryptiesleutel te kopiëren-kleven.
 
 **Rapportage**
 
