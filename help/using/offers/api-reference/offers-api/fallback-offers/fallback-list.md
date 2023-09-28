@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: bee5e067e70e065c9db14448c42224a9ec09c5bf
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '212'
 ht-degree: 4%
 
 ---
@@ -51,7 +51,7 @@ De gemeenschappelijkste vraagparameters voor het pagineren omvatten:
 
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
-| `property` | Een optioneel eigenschapsfilter: <br> <ul> - De eigenschappen worden gegroepeerd op AND-bewerking. <br><br> - Parameters kunnen als volgt worden herhaald: property=<property-expr>[&amp;eigenschap=<property-expr2>...] or property=<property-expr1>[,<property-expr2>...] <br><br> - Eigenschapexpressies hebben een indeling [!]field[op]waarde, met op in [==,!=,&lt;=,>=,&lt;,>,~], die reguliere expressies ondersteunen | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `property` | Een optioneel eigenschapsfilter: <ul><li> De eigenschappen worden gegroepeerd door EN-bewerking. <br><br> - Parameters kunnen als volgt worden herhaald: property=`<property-expr>`[&amp;eigenschap=`<property-expr2>`...] or property=`<property-expr1>`[&amp;`<property-expr2>`...] <br><br> - Eigenschapexpressies hebben een indeling `[!]field[op]` waarde, met op in `[==,!=,'<=',>=,<,>,~]`, die reguliere expressies ondersteunen  </li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
 | `orderBy` | Resultaten sorteren op een bepaalde eigenschap. Als u de naam a - before toevoegt (orderby=-name), worden de items op naam gesorteerd in aflopende volgorde (Z-A). Padexpressies hebben de vorm van door punten gescheiden paden. Deze parameter kan als volgt worden herhaald: `orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | Beperk het aantal geretourneerde entiteiten. | `limit=5` |
 
