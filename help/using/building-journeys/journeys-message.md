@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, email, in app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 1%
+source-wordcount: '1108'
+ht-degree: 0%
 
 ---
 
@@ -119,6 +119,24 @@ Deze informatie wordt opgeslagen met het profiel van de gebruiker en wordt bij d
 >[!CAUTION]
 >
 >Deze functie is niet compatibel met de burst-modus.
+
+### Veelgestelde vragen {#faq-send-time}
+
+Wat kan de Optimalisering van de Verzendtijd doen? Hoe worden nieuwe profielen verwerkt? Spreidt het over een periode van 6/12/24 uur?
+
+Optimalisatie van verzendtijd probeert de beste tijd te voorspellen om met klanten in contact te komen en open-/kliksnelheden voor e-mails te optimaliseren. De score heeft een indeling van `3*7*24` kenmerken voor elk profiel. De `7*24` kenmerken beschrijven de volgorde van de te verwachten beste tijd voor het verzenden van e-mails naar de ontvanger en 3 is voor het optimaliseren van de e-mailopeningsfrequentie, het klikken op snelheid via e-mail en het open tarief via push.
+
+Waar kan ik de verwachte verzendtijd voor elk profiel zien?
+
+U kunt de algemene score zien in het dialoogvenster **Profielen** interface. Voor elk van de drie sets van 168 scores lopen de ranks van -83 tot 84. Hoe hoger de rangorde, hoe beter de tijd is om met de ontvanger te communiceren. Aangezien u het begin en de duur van een reis kunt bepalen, kan de beste rang (84) niet in dat tijdvenster vallen. In dit geval raden we u aan een uur met de hoogste rangorde te kiezen.
+
+Welke rapportage is beschikbaar?
+
+Open uw reis, klik **Rapport weergeven** in de rechterbovenhoek en selecteert u de **Reis** links. [Meer informatie](../reports/journey-global-report.md)
+
+Hoe beïnvloeden de gegevens van de Optimalisering van de Send-Time profielrijkdom?
+
+De optimalisering van de Send-Tijd voegt de score/de attributen aan elk profiel toe maar geen nieuw profiel wordt gecreeerd.
 
 ### Send-Time optimaliseren activeren{#activate-send-time-optimization}
 

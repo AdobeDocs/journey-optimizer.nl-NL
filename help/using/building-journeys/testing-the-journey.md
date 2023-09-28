@@ -7,12 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-keywords: test, reis, controle, fout, het oplossen van problemen
+keywords: test, reis, controle, fout, oplossen
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 1%
+source-wordcount: '1489'
+ht-degree: 2%
 
 ---
 
@@ -53,7 +53,7 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 
    ![](assets/journeyuctest1-bis.png)
 
-1. Nadat de gebeurtenissen zijn ontvangen, klikt u op de knop **[!UICONTROL Show log]** om het testresultaat te bekijken en te verifiëren. Zie [deze sectie](#viewing_logs).
+1. Nadat de gebeurtenissen zijn ontvangen, klikt u op **[!UICONTROL Show log]** om het testresultaat te bekijken en te verifiëren. Zie [deze sectie](#viewing_logs).
 
    ![](assets/journeyuctest2.png)
 
@@ -86,7 +86,7 @@ Gebruik de **[!UICONTROL Trigger an event]** knoop om een gebeurtenis te vormen 
 
 Als voorwaarde moet u weten welke profielen in Adobe Experience Platform zijn gemarkeerd als testprofielen. In de testmodus zijn deze profielen alleen toegestaan tijdens de reis en moet het evenement een id bevatten. De verwachte id is afhankelijk van de gebeurtenisconfiguratie. Het kan bijvoorbeeld een ECID of een e-mailadres zijn. De waarde van deze sleutel moet worden toegevoegd aan de **Profiel-id** veld.
 
-Als uw reis verscheidene gebeurtenissen bevat, gebruik de drop-down lijst om een gebeurtenis te selecteren. Configureer vervolgens voor elke gebeurtenis de doorgegeven velden en de uitvoering van de gebeurtenis die de gebeurtenis verzendt. De interface helpt u de juiste informatie in de gebeurtenislading overgaan en ervoor zorgen het informatietype correct is. In de testmodus worden de laatste parameters die in een testsessie worden gebruikt, opgeslagen voor later gebruik.
+Als uw reis verscheidene gebeurtenissen bevat, gebruik de drop-down lijst om een gebeurtenis te selecteren. Configureer vervolgens voor elke gebeurtenis de doorgegeven velden en de uitvoering van de gebeurtenis die de gebeurtenis verzendt. De interface helpt u de juiste informatie in de gebeurtenislading over te gaan en ervoor te zorgen het informatietype correct is. In de testmodus worden de laatste parameters die in een testsessie worden gebruikt, opgeslagen voor later gebruik.
 
 ![](assets/journeytest4.png)
 
@@ -106,7 +106,7 @@ Wanneer u een rit tijdens de test opent, komt het weergegeven pad overeen met de
 
 ## Testmodus voor op regels gebaseerde reizen {#test-rule-based}
 
-De testmodus is ook beschikbaar voor reizen die een op regels gebaseerde gebeurtenis gebruiken. Voor meer informatie over op regel-gebaseerde gebeurtenissen, verwijs naar [deze pagina](../event/about-events.md).
+De testmodus is ook beschikbaar voor reizen die een op regels gebaseerde gebeurtenis gebruiken. Raadpleeg voor meer informatie over op regels gebaseerde gebeurtenissen [deze pagina](../event/about-events.md).
 
 Wanneer u een gebeurtenis activeert, worden de **Gebeurtenisconfiguratie** kunt u de gebeurtenisparameters definiëren die tijdens de test moeten worden doorgegeven. U kunt de voorwaarde van de gebeurtenis-identiteitskaart bekijken door het tooltip pictogram in de hoogste juiste hoek te klikken. Er is ook knopinfo beschikbaar naast elk veld dat deel uitmaakt van de regelevaluatie.
 
@@ -114,7 +114,7 @@ Wanneer u een gebeurtenis activeert, worden de **Gebeurtenisconfiguratie** kunt 
 
 ## Testmodus voor bedrijfsgebeurtenissen {#test-business}
 
-Wanneer u een [business, gebeurtenis](../event/about-events.md), gebruikt u de testmodus om één enkele ingang van het testprofiel in de rit te activeren, de gebeurtenis te simuleren en de juiste profiel-id te doorstaan. U moet de gebeurtenisparameters en de identificatiecode van het testprofiel doorgeven die de reis tijdens de test zal betreden. U kunt de **[!UICONTROL Up to 100 profiles at once]** optie die bestaat voor andere op het publiek gebaseerde reizen. In de testmodus is er geen modus &quot;Codeweergave&quot; beschikbaar voor reizen op basis van bedrijfsgebeurtenissen.
+Wanneer u een [business, gebeurtenis](../event/about-events.md), gebruikt u de testmodus om één enkele ingang van het testprofiel in de rit te activeren, de gebeurtenis te simuleren en de juiste profiel-id te doorstaan. U moet de gebeurtenisparameters en de identificatiecode van het testprofiel doorgeven die de reis tijdens de test zal betreden. In de testmodus is er geen modus &quot;Codeweergave&quot; beschikbaar voor reizen op basis van bedrijfsgebeurtenissen.
 
 Wanneer u een bedrijfsgebeurtenis voor het eerst activeert, kunt u de definitie van een bedrijfsgebeurtenis niet in dezelfde testsessie wijzigen. U kunt alleen dezelfde persoon of een andere persoon dezelfde of een andere persoon de reis laten doorlopen met dezelfde of een andere id. Als u parameters voor bedrijfsgebeurtenissen wilt wijzigen, moet u de testmodus stoppen en opnieuw starten.
 
@@ -136,24 +136,24 @@ De **[!UICONTROL Show log]** kunt u de testresultaten bekijken. Op deze pagina w
 
 Het aantal personen (technisch gesproken worden ze instanties genoemd) dat zich momenteel in de reis bevindt, wordt weergegeven. Hier volgt nuttige informatie die voor elk individu wordt weergegeven:
 
-* _Id_: de interne identiteitskaart van de persoon tijdens de reis. Dit kan voor het zuiveren doeleinden worden gebruikt.
-* _huidige stap_: de stap waar het individu op de reis is. We raden u aan labels aan uw activiteiten toe te voegen om ze gemakkelijker te kunnen identificeren.
-* _huidige stap_ > fase: de status van de reis van de betrokkene (aflopend, voltooid, fout of time-out). Zie hieronder voor meer informatie.
+* _Id_: de interne id van de betrokkene tijdens de reis. Dit kan voor het zuiveren doeleinden worden gebruikt.
+* _huidige stap_: de stap waar de persoon op reis is. We raden u aan labels aan uw activiteiten toe te voegen om ze gemakkelijker te kunnen identificeren.
+* _huidige stap_ > fase: de status van de individuele reis (loopt, gebeëindigd, fout of getimed uit). Zie hieronder voor meer informatie.
 * _huidige stap_ > _extraInfo_: beschrijving van de fout en andere contextuele informatie.
-* _huidige stap_ > _fetchErrors_: informatie over de fouten van de ophaalgegevens die tijdens deze stap voorkwamen.
-* _externalKeys_: de waarde voor de sleutelformule die in de gebeurtenis wordt bepaald.
+* _huidige stap_ > _fetchErrors_: informatie over fouten met opgehaalde gegevens die tijdens deze stap zijn opgetreden.
+* _externalKeys_: de waarde voor de sleutelformule die in de gebeurtenis wordt gedefinieerd.
 * _enrichedData_: de gegevens die de reis heeft opgehaald als de reis gegevensbronnen gebruikt.
-* _transitionHistory_: de lijst met stappen die de persoon heeft gevolgd. Voor gebeurtenissen wordt de payload weergegeven.
+* _transitionHistory_: de lijst met stappen die de individu heeft gevolgd. Voor gebeurtenissen wordt de payload weergegeven.
 * _actionExecutionErrors_ : informatie over de fouten die zijn opgetreden.
 
 Hier zijn de verschillende statussen van de reis van een individu:
 
-* _Wordt uitgevoerd_: het individu is momenteel onderweg .
-* _Voltooid_: het individu bevindt zich aan het einde van de reis .
-* _Fout_: het individu tijdens de reis wordt gestopt als gevolg van een fout.
-* _Onderbroken_: het individu wordt tijdens de reis tegengehouden vanwege een stap die te veel tijd heeft gekost .
+* _Wordt uitgevoerd_: het individu bevindt zich momenteel op reis.
+* _Voltooid_: het individu bevindt zich aan het einde van de reis.
+* _Fout_: het individu wordt tijdens de reis gestopt als gevolg van een fout.
+* _Onderbroken_: het individu wordt tijdens de reis gestopt vanwege een stap die te veel tijd heeft gekost.
 
 Wanneer een gebeurtenis gebruikend de testwijze wordt teweeggebracht, wordt een dataset automatisch geproduceerd met de naam van de bron.
 
-In de testmodus wordt automatisch een Experience Event gemaakt en naar Adobe Experience Platform verzonden. De naam van de bron voor deze ervaringsgebeurtenis is &quot;Journey Orchestration Test Events&quot;.
+In de testmodus wordt automatisch een Experience Event gemaakt en naar Adobe Experience Platform verzonden. De naam van de bron voor deze ervaringsgebeurtenis is &quot;de Gebeurtenissen van de Test van het Journey Orchestration&quot;.
 

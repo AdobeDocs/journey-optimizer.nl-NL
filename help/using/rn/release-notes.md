@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6230eb26ca577398c09465207b27e87ea3d813d2
+source-git-commit: cd6fbe0367f54f68814ffd9a8eb13c887ae057b3
 workflow-type: tm+mt
-source-wordcount: '4068'
+source-wordcount: '4058'
 ht-degree: 8%
 
 ---
@@ -21,11 +21,8 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 
 ![Nieuwsbrief](../assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die direct aan uw Postbus worden geleverd elk kwartaal.
 
-## Opmerkingen bij de vervroegde release september 2023 {#sept-rn-2023}
 
-Opmerkingen bij de eerste release hieronder kunnen zonder voorafgaande kennisgeving worden gewijzigd tot de beschikbaarheidsdatum van de release. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd op de releasedatum.
-
-**Releasedatum**: september 2023
+## Opmerkingen bij de release september 2023 {#sept-rn-2023}
 
 ### Nieuwe functies{#sept-2023-features}
 
@@ -41,8 +38,8 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <tr>
 <td>
 <p>Met berekende kenmerken kunt u gebeurtenisgegevens eenvoudig samenvatten in profielkenmerken via een intuïtieve gebruikersinterface voor verbeterde op gedrag gebaseerde segmentatie, personalisatie en activering. Met deze functie kunt u berekende kenmerken op een zelfservermanier maken, deze beheren en ze in segmentatie gebruiken, in realtime klantprofielbestemmingen of Journey Optimizer.<br/><br/>
-Bovendien vereenvoudigt de berekende attributen segmentatie en reisworkflows om u te helpen relevante ervaringen naadloos te leveren. Meer informatie in het dialoogvenster <a href="https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html">gedetailleerde documentatie</a>.</p>
-<img src="assets/computed-attributes.png">
+Bovendien vereenvoudigt de berekende attributen segmentatie en reisworkflows om u te helpen relevante ervaringen naadloos te leveren. Meer informatie in het dialoogvenster <a href="../audience/computed-attributes.md">gedetailleerde documentatie</a>.</p>
+<img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
 </table>
@@ -57,9 +54,10 @@ Bovendien vereenvoudigt de berekende attributen segmentatie en reisworkflows om 
 <tbody>
 <tr>
 <td>
-<p>De functie Kanaalrapport biedt analisten en marketers een uitgebreid overzicht van verkeers- en betrokkenheidsgegevens op kanaalniveau. Als u het menu Rapport wilt openen, hebt u de machtiging Kanaalrapporten weergeven nodig.</p>
+<p>De functie Kanaalrapport biedt analisten en marketers een uitgebreid overzicht van verkeers- en betrokkenheidsgegevens op kanaalniveau.</p>
+<p>Als u toegang wilt krijgen tot <b>Rapport</b> menu, moet u de <b>Kanaalrapporten weergeven</b> toestemming.</p>
 <img src="assets/channel-reports.png"/>
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>Raadpleeg voor meer informatie de <a href="../reports/channel-report.md">gedetailleerde documentatie</a>, en &lt;a href="../reports/channel-report.md#how-to-video-channel-report-video" how-to="" video="" span="" id="2" translate="no" /&gt;.</a></p>
 </tr>
 </tbody>
 </table>
@@ -76,7 +74,7 @@ Bovendien vereenvoudigt de berekende attributen segmentatie en reisworkflows om 
 <td>
 <p>Journey Optimizer-gegevenssets die naar Cloud Storage-doelen worden geëxporteerd, zijn nu over het algemeen beschikbaar. Met deze functie kunt u een live verbinding maken met opslaglocaties in de cloud om de inhoud van uw gegevenssets te exporteren.</p>
 <img src="../data/assets/dataset-export-setup.png">
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>Raadpleeg de <a href="../data/export-datasets.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -101,42 +99,44 @@ Bovendien vereenvoudigt de berekende attributen segmentatie en reisworkflows om 
 
 Deze release bevat de verbeteringen die hieronder worden vermeld.
 
-<!--**Audiences**
+<!--**Personalization**
 
-* You can now target audiences uploaded from a CSV file into journeys and campaigns.
-* You can now target audiences resulting from composition workflows into journeys. -->
+* In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions.-->
 
-**Personalisatie**
+<!--
+**Alerting**
 
-* Naast visuele fragmenten is het nu mogelijk om expressiefragmenten te maken, op te slaan en opnieuw te gebruiken vanuit de Journey Optimizer-interface via de Expressieeditor. Expressiefragmenten vervangen de eerder opgeslagen expressies.
-
-**Waarschuwing**
-
-* Er is een nieuw type systeemwaarschuwing geïntroduceerd. U kunt nu op de hoogte worden gesteld wanneer een publiek dat het lezen uitvoert, mislukt.
+* A new type of system alert has been introduced. You can now get notified when a read audience fails.    -->
 
 **Webkanaal**
 
-* Toepassingen met één pagina (SPA) kunnen nu worden ontworpen in een visuele webeditor. U kunt nu selecteren op welke specifieke weergaven u de wijzigingen van uw webpagina wilt toepassen. Een weergave kan worden gedefinieerd als een hele site of een groep visuele elementen op een site, zoals de startpagina, de hele productsite of het voorkeurenframe voor levering op alle afrekenpagina&#39;s. Eenmalige ontwikkelaarsopstelling is nodig om de meningen in de implementatie van SDK van het Web van Adobe Experience Platform te bepalen, dit laat marketers toe om de Webcampagnes van Adobe Journey Optimizer op SPA tot stand te brengen en in werking te stellen.
+* Toepassingen van één pagina (SPA) kunnen nu worden ontworpen in de visuele editor van het web, zodat u kunt selecteren op welke specifieke weergaven u de wijzigingen van uw webpagina wilt toepassen. Een weergave kan worden gedefinieerd als een hele site of een groep visuele elementen op een site, zoals de startpagina, de hele productsite of het voorkeurenframe voor levering op alle afrekenpagina&#39;s. Eenmalige ontwikkelaarsopstelling is nodig om de meningen in de implementatie van SDK van het Web van Adobe Experience Platform te bepalen; dit laat marketers toe om de Webcampagnes van Adobe Journey Optimizer op SPA tot stand te brengen en in werking te stellen. [Meer informatie](../web/web-spa.md)
 
-* Wanneer u een pagina bewerkt met de webontwerper, kunt u nu rechtstreeks vanuit het deelvenster Wijzigingen nieuwe wijzigingen aan uw inhoud toevoegen, zonder dat u een component hoeft te selecteren en te bewerken vanuit de ontwerpinterface.
-* Wanneer u websubdomeinen instelt, kunt u nu ook uw eigen subdomein toevoegen, naast het gebruik van een subdomein dat al is gedelegeerd aan de Adobe.
+* Wanneer u een pagina bewerkt met de webontwerper, kunt u nu rechtstreeks vanuit het deelvenster Wijzigingen nieuwe wijzigingen aan uw inhoud toevoegen, zonder dat u een component hoeft te selecteren en te bewerken vanuit de ontwerpinterface. [Meer informatie](../web/manage-web-modifications.md#add-modifications)
+
+* Wanneer u websubdomeinen instelt, kunt u nu ook uw eigen subdomein toevoegen, naast het gebruik van een subdomein dat al is gedelegeerd aan de Adobe. [Meer informatie](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
 
 **Journeys**
 
-* Ondersteuning voor aangepaste acties is nu GA. Hierdoor kunt u API-aanroepreacties gebruiken in aangepaste handelingen en uw reis ordenen op basis van deze reacties. Bovendien is een nieuwe guardrail toegevoegd om alle douaneacties tot 5000 vraag/s per eindpunt te beperken.
-* Wanneer u een reis dupliceert, kunt u nu de naam van de reiskopie definiëren.
+Wanneer u een reis dupliceert, kunt u nu de naam van de reiskopie definiëren. [Meer informatie](../building-journeys/journey-gs.md#uplicate-a-journey)
+
 
 <!--
+* Support of custom action responses is now GA. This allows you to leverage API call responses in custom actions and orchestrate your journey based on these responses. In addition, a new guardrail has been added to limit all customs actions to 5000 calls/s per endpoint.
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
 
 **E-mailkanaal**
 
-Met een nieuwe optie in de configuratie van het e-mailoppervlak kunt u ervoor kiezen om transactieberichten naar profielen te verzenden, zelfs als hun e-mailadres voorkomt in de lijst met Adobe Journey Optimizer-onderdrukking.
+Met een nieuwe optie in de configuratie van het e-mailoppervlak kunt u ervoor kiezen om transactieberichten naar profielen te verzenden, zelfs als hun e-mailadres zich op de Adobe bevindt [!DNL Journey Optimizer] suppressielijst. [Meer informatie](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **Sms-kanaal**
 
-Twee nieuwe velden, **Bericht bij aanmelden** en **Help-bericht**, zijn toegevoegd aan het API-configuratiescherm, zodat gebruikers reacties voor binnenkomende trefwoorden kunnen aanpassen. Merk op dat dit slechts voor de leverancier van SMS van Sinch beschikbaar is.
+Twee nieuwe velden, **Bericht bij aanmelden** en **Help-bericht**, zijn toegevoegd aan het API-configuratiescherm, zodat gebruikers reacties voor binnenkomende trefwoorden kunnen aanpassen. Merk op dat dit slechts voor de leverancier van SMS van Sinch beschikbaar is. [Meer informatie](../sms/sms-configuration.md)
+
+**Direct mailkanaal**
+
+U kunt nu bestanden versleutelen die zijn bedoeld voor uw direct-mailproviders wanneer deze worden overgebracht naar een server. Om dit te doen, is een nieuw gebied beschikbaar in het dossier dat configuratiescherm verplettert, toestaand u om uw encryptiesleutel te kopiëren-kleven. [Meer informatie](../direct-mail/direct-mail-configuration.md)
 
 **Direct mailkanaal**
 
@@ -144,7 +144,11 @@ U kunt nu bestanden versleutelen die zijn bedoeld voor uw direct-mailproviders w
 
 **Rapportage**
 
-U kunt nu Journey Optimizer-rapporten exporteren als CSV-bestand. <!--[Learn more](../reports/global-report.md#export-reports)-->
+U kunt nu Journey Optimizer-rapporten exporteren als CSV-bestand. [Meer informatie](../reports/global-report.md#export-reports)
+
+**Assets**
+
+Met een nieuwe optie voor Middelen kunt u de repository voor uw Middelen in Journey Optimizer kiezen. U kunt kiezen voor een opslagplaats voor Assets Essentials of een as a Cloud Service opslagplaats voor middelen, op voorwaarde dat u eigenaar bent van deze oplossing. [Meer informatie](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 

@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Dagboeken
-description: Dagboeken
+title: Reisgevallen
+description: Reisgevallen
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: use case, multi-channel, messages, trip, channel, events, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '826'
 ht-degree: 2%
 
 ---
@@ -89,7 +89,7 @@ De gebeurtenis is nu geconfigureerd en klaar om in uw reis te worden gebruikt. M
 
    ![](assets/jo-uc4.png)
 
-1. Een dropknop **E-mail** en definieert de inhoud van het &quot;eerste bericht&quot;. Dit bericht wordt naar alle personen op de reis gestuurd. Zie dit [sectie](../email/create-email.md) leren hoe u een e-mail kunt configureren en ontwerpen.
+1. Een dropknop **E-mail** en definieert de inhoud van het eerste bericht. Dit bericht wordt naar alle personen op de reis gestuurd. Zie dit [sectie](../email/create-email.md) leren hoe u een e-mail kunt configureren en ontwerpen.
 
    ![](assets/jo-uc5.png)
 
@@ -109,12 +109,12 @@ De gebeurtenis is nu geconfigureerd en klaar om in uw reis te worden gebruikt. M
 
 1. Sluit de drie paden aan op de eerder gemaakte aankoopgebeurtenis. De gebeurtenis wordt geactiveerd wanneer een individu een aankoop doet.
 
-1. Na de gebeurtenis, laat vallen a **Push** actie en definieer de inhoud van het &#39;&#39;bedankt&#39;&#39; bericht. Zie dit [sectie](../push/create-push.md) leren hoe u een push kunt configureren en ontwerpen.
+1. Na de gebeurtenis, laat vallen a **Push** actie en definieer de inhoud van het &#39;&#39;bedankt&#39;&#39;-bericht. Zie dit [sectie](../push/create-push.md) leren hoe u een push kunt configureren en ontwerpen.
 
 ## De journey testen en publiceren
 
 1. Controleer voordat u de reis test of deze geldig is en of er geen fout optreedt.
 
-1. Klik op de knop **Testen** in de rechterbovenhoek wordt geschakeld om de testmodus te activeren. Bepaal hoe u testprofielen de test wilt ingaan: één profiel, of maximaal 100 tegelijk. Zie dit [sectie](testing-the-journey.md) om te leren hoe u de testmodus kunt gebruiken.
+1. Klik op de knop **Testen** in de rechterbovenhoek wordt geschakeld om de testmodus te activeren. Zie dit [sectie](testing-the-journey.md) om te leren hoe u de testmodus kunt gebruiken.
 
 1. Als de reis klaar is, publiceert u deze met de **Publiceren** in de rechterbovenhoek.

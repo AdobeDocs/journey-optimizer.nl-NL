@@ -6,9 +6,9 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van SMS met 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: ce9ebee71f80ec28f1e98eff0ff15d728978e817
+source-git-commit: e2851c97dd14577a992625bcfd60fc7300b432d3
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '888'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 [!DNL Journey Optimizer] kunt u uw reizen maken en berichten naar het beoogde publiek sturen.
 
-Voordat u SMS verzendt, configureert u uw exemplaar. U moet [providerinstellingen integreren](#create-api) met Journey Optimizer en [een sms-oppervlak maken](#message-preset-sms) (d.w.z. voorinstelling SMS). Deze stappen moeten worden uitgevoerd door een [Adobe Journey Optimizer-systeembeheerder](../start/path/administrator.md).
+Voordat u SMS verzendt, configureert u uw exemplaar. U moet [de providerinstellingen integreren](#create-api) met Journey Optimizer en [een sms-oppervlak maken](#message-preset-sms) (d.w.z. voorinstelling SMS). Deze stappen moeten worden uitgevoerd door [Adobe Journey Optimizer-systeembeheerder](../start/path/administrator.md).
 
 ## Vereisten{#sms-prerequisites}
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer is momenteel geïntegreerd met externe providers zoals S
 
 Voordat u de SMS-configuratie start, moet u een account maken bij een van deze SMS-providers om de API Token en Service ID te ontvangen waarmee u de verbinding tussen Adobe Journey Optimizer en de betreffende SMS-provider tot stand kunt brengen.
 
-Voor je gebruik van SMS-services gelden aanvullende voorwaarden van de betreffende SMS-provider. Aangezien Sinch en Twilio producten van derden zijn die via integratie beschikbaar zijn voor Adobe Journey Optimizer-gebruikers, zullen gebruikers van Sinch of Twilio voor problemen of vragen in verband met de SMS-diensten contact moeten opnemen met de toepasselijke SMS-provider voor hulp. Adobe heeft geen zeggenschap over en is niet verantwoordelijk voor producten van derden.
+Voor je gebruik van SMS-services gelden aanvullende voorwaarden van de betreffende SMS-provider. Aangezien Sinch en Twilio producten van derden zijn die via integratie beschikbaar zijn voor Adobe Journey Optimizer-gebruikers, zullen gebruikers van Sinch of Twilio voor problemen of vragen in verband met de SMS-diensten contact moeten opnemen met de toepasselijke SMS-provider voor hulp. Adobe heeft geen betrekking op producten van derden en is niet verantwoordelijk voor deze producten.
 
 >[!CAUTION]
 >
@@ -59,23 +59,27 @@ Voer de volgende stappen uit om uw SMS-leverancier te configureren met Journey O
 
    * Voor **[!DNL Sinch]**:
 
-      * **[!UICONTROL Name]**: Kies een naam voor uw API-referentie.
+      * **[!UICONTROL Name]**: kies een naam voor uw API-referentie.
 
-      * **[!UICONTROL Service ID]** en **[!UICONTROL API Token]**: als u toegang wilt tot de pagina API&#39;s, vindt u uw gegevens onder het tabblad SMS.  [Meer informatie](https://developers.sinch.com/docs/sms/getting-started/)
+      * **[!UICONTROL Service ID]** en **[!UICONTROL API Token]**: als u toegang wilt tot de pagina met API&#39;s, vindt u uw referenties onder het tabblad SMS.  [Meer informatie](https://developers.sinch.com/docs/sms/getting-started/)
+
+      * **[!UICONTROL Opt-In Message]**: Typ de aangepaste reactie die automatisch als uw **[!UICONTROL Opt-In Message]**.
+
+      * **[!UICONTROL Help Message]**: Typ de aangepaste reactie die automatisch als uw **[!UICONTROL  Help Message]**.
 
    * Voor **[!DNL Twilio]**:
 
-      * **[!UICONTROL Name]**: Kies een naam voor uw API-referentie.
+      * **[!UICONTROL Name]**: kies een naam voor uw API-referentie.
 
-      * **[!UICONTROL Account SID]** en **[!UICONTROL Auth Token]**: Open het venster Accountinfo van de pagina Dashboard van de Twilio Console om uw referenties te zoeken.
+      * **[!UICONTROL Account SID]** en **[!UICONTROL Auth Token]**: ga naar het venster Accountinformatie van de pagina Dashboard van de Twilio-console om uw referenties te zoeken.
 
-      * **[!UICONTROL Message SID]**: Voer de unieke id in die aan elk bericht is toegewezen dat door de API van Twilio is gemaakt. [Meer informatie](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+      * **[!UICONTROL Message SID]**: voer de unieke id in die aan elk bericht is toegewezen dat door de API van Twilio is gemaakt. [Meer informatie](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
 
    * Voor **[!DNL Infobip]**:
 
-      * **[!UICONTROL Name]**: Kies een naam voor uw API-referentie.
+      * **[!UICONTROL Name]**: kies een naam voor uw API-referentie.
 
-      * **[!UICONTROL API base URL]** en **[!UICONTROL API token]**: toegang tot uw webinterfacehomepage of de API-sleutelbeheerpagina om uw referenties te zoeken. [Meer informatie](https://www.infobip.com/docs/api)
+      * **[!UICONTROL API base URL]** en **[!UICONTROL API token]**: ga naar de startpagina van uw webinterface of de API-sleutelbeheerpagina om uw referenties te zoeken. [Meer informatie](https://www.infobip.com/docs/api)
 
    ![](assets/sms_7.png)
 
@@ -91,7 +95,7 @@ Nadat u de API-referentie hebt gemaakt en geconfigureerd, moet u nu een kanaalop
 >abstract="Selecteer het type SMS-berichten op dit oppervlak: Marketing voor promotionele SMS-berichten waarvoor toestemming van de gebruiker vereist is, of Transactie voor niet-commerciële SMS-berichten, zoals het opnieuw instellen van wachtwoorden."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="Afmelden bij marketing van SMS-berichten"
 
-Zodra uw kanaal van SMS is gevormd, moet u een kanaaloppervlakte tot stand brengen om de berichten van SMS van te kunnen verzenden **[!DNL Journey Optimizer]**.
+Zodra uw kanaal van SMS is gevormd, moet u een kanaaloppervlakte tot stand brengen om SMS berichten van te kunnen verzenden **[!DNL Journey Optimizer]**.
 
 Ga als volgt te werk om een kanaaloppervlak te maken:
 
@@ -111,9 +115,9 @@ Ga als volgt te werk om een kanaaloppervlak te maken:
 
    ![](assets/preset-sms.png)
 
-   * Selecteer **[!UICONTROL SMS Type]** die samen met het oppervlak worden verzonden: **[!UICONTROL Transactional]** of **[!UICONTROL Marketing]**.
+   * Selecteer de **[!UICONTROL SMS Type]** die samen met het oppervlak worden verzonden: **[!UICONTROL Transactional]** of **[!UICONTROL Marketing]**.
 
-      * Kies **Marketing** voor promotionele SMS: voor deze berichten is toestemming van de gebruiker vereist .
+      * Kies **Marketing** voor promotionele SMS: voor deze berichten is toestemming van de gebruiker vereist.
       * Kies **Transactioneel** voor niet-commerciële berichten, zoals bevestiging van de bestelling, wachtwoordherstelmeldingen of leveringsgegevens.
 
      >[!CAUTION]
@@ -122,7 +126,7 @@ Ga als volgt te werk om een kanaaloppervlak te maken:
 
      Wanneer u een SMS-bericht maakt, moet u een geldig kanaaloppervlak kiezen dat overeenkomt met de categorie die u voor uw bericht hebt geselecteerd.
 
-   * Selecteer **[!UICONTROL SMS configuration]** aan het oppervlak te koppelen.
+   * Selecteer de **[!UICONTROL SMS configuration]** aan het oppervlak te koppelen.
 
      Voor meer over hoe te om uw milieu te vormen om de berichten van SMS te verzenden, verwijs naar [deze sectie](#create-api).
 
@@ -150,7 +154,7 @@ Ga als volgt te werk om een kanaaloppervlak te maken:
 
    ![](assets/preset-active.png)
 
-Je kunt nu SMS-berichten verzenden met Journey Optimizer.
+Je bent nu klaar om SMS-berichten te verzenden met Journey Optimizer.
 
 **Verwante onderwerpen**
 

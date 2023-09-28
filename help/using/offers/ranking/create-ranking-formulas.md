@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 5083536950e43fc2df66a6bb46e69173245acf18
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Nadat u een rangschikkingsformule hebt gemaakt, kunt u deze toewijzen aan een pl
 
 Voer de volgende stappen uit om een rangschikkingsformule te maken:
 
-1. Toegang krijgen tot **[!UICONTROL Components]** en selecteert u vervolgens de **[!UICONTROL Ranking]** tab. De **[!UICONTROL Formulas]** is standaard geselecteerd. De lijst met eerder gemaakte formules wordt weergegeven.
+1. Toegang krijgen tot de **[!UICONTROL Components]** en selecteert u vervolgens de **[!UICONTROL Ranking]** tab. De **[!UICONTROL Formulas]** is standaard geselecteerd. De lijst met eerder gemaakte formules wordt weergegeven.
 
    ![](../assets/rankings-list.png)
 
@@ -79,7 +79,7 @@ Boost the priority of offers based on whether the user is a member of a priority
 **Ranking formula:**
 
 ```
-if( segmentMembership.get("ups").get(offer.characteristics.prioritySegmentId).status in (["realized","existing"]), offer.rank.priority + 10, offer.rank.priority)
+if( segmentMembership.get("ups").get(offer.characteristics.get("prioritySegmentId")).status in (["realized","existing"]), offer.rank.priority + 10, offer.rank.priority)
 ```
 -->
 
@@ -90,7 +90,7 @@ Als het profiel in de stad woont die overeenkomt met het aanbod, dan verdubbelt 
 **Willekeurige formule:**
 
 ```
-if( offer.characteristics.city = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
+if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 2, offer.rank.priority)
 ```
 
 ### Verhoog aanbiedingen waarbij de einddatum minder dan 24 uur is.
@@ -101,7 +101,7 @@ if( offer.characteristics.city = homeAddress.city, offer.rank.priority * 2, offe
 if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.priority * 3, offer.rank.priority)
 ```
 
-### De aanbiedingen van de verhoging met bepaalde aanbiedingsattributen die op contextgegevens worden gebaseerd
+### Verhoog aanbiedingen met bepaalde aanbiedingskenmerken op basis van contextgegevens
 
 Verhoog bepaalde aanbiedingen die op de contextgegevens worden gebaseerd die in de beslissingsvraag worden overgegaan. Als de `contextData.weather=hot` wordt overgegaan in de besluitvormingsvraag, de prioriteit van alle aanbiedingen met `attribute=hot` moet worden versterkt.
 
@@ -109,7 +109,7 @@ Verhoog bepaalde aanbiedingen die op de contextgegevens worden gebaseerd die in 
 
 ```
 if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
-and offer.characteristics.weather=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
+and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
 ```
 
 Wanneer u de API voor besluitvorming gebruikt, worden de contextgegevens toegevoegd aan het profielelement in de aanvraaginstantie, zoals in het onderstaande voorbeeld.
@@ -139,7 +139,7 @@ Wanneer u de API voor besluitvorming gebruikt, worden de contextgegevens toegevo
 
 ### Verhoog de aanbiedingen op basis van de neiging van klanten om het aangeboden product te kopen
 
-U kunt de score voor een aanbieding verhogen op basis van een klantdichtheid.
+U kunt de score voor een aanbieding verhogen op basis van een klantdichtheid-score.
 
 In dit voorbeeld is de instantiekant *_verkoopsnelheid* en het profielschema bevat een reeks scores die in een array zijn opgeslagen:
 
@@ -173,6 +173,6 @@ Uw rangschikkingsformule kan dan de prioriteit van elk aanbod aan gelijke klante
 
 ```
 let score = (select _Individual_Scoring1 from _salesvelocity.individualScoring
-             where _Individual_Scoring1.core.category.equals(offer.characteristics.propensityType, false)).head().core.propensityScore
+             where _Individual_Scoring1.core.category.equals(offer.characteristics.get("propensityType"), false)).head().core.propensityScore
 in if(score.isNotNull(), score, offer.rank.priority)
 ```

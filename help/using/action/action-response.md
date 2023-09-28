@@ -9,55 +9,99 @@ role: Admin
 level: Experienced
 badge: label="Beta" type="Informative"
 keywords: handeling, extern, aangepast, reizen, API
-source-git-commit: 494e51d5e44796047e237e6ad692fc6fd4c4e31d
+exl-id: 8f47b605-7179-4522-b50c-0ea34b09bd22
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '610'
 ht-degree: 4%
 
 ---
 
-# Verbeteringen voor aangepaste acties {#custom-action-enhancements}
+# API-aanroepreacties gebruiken in aangepaste handelingen {#custom-action-enhancements}
 
-U kunt nu API vraagreacties in douaneacties gebruiken en uw reizen ordenen die op deze reacties worden gebaseerd.
-
-Deze mogelijkheid was eerder alleen beschikbaar bij het gebruik van gegevensbronnen. U kunt deze nu gebruiken met aangepaste handelingen.
+U kunt API vraagreacties in douaneacties gebruiken en uw reizen organiseren die op deze reacties worden gebaseerd.
 
 >[!AVAILABILITY]
 >
->Deze functie is momenteel beschikbaar als een persoonlijke bètaversie.
+>Deze functie is momenteel beschikbaar in bèta.
 
->[!WARNING]
->
->Aangepaste acties mogen alleen worden gebruikt met persoonlijke of interne eindpunten en moeten worden gebruikt met een passende limiet voor afdekkingen of vertragen. Zie [deze pagina](../configuration/external-systems.md).
+<!--
+You can now leverage API call responses in custom actions and orchestrate your journeys based on these responses.
 
-## De aangepaste handeling definiëren {#define-custom-action}
+This capability was previously only available when using data sources. You can now use it with custom actions. 
+-->
 
-Bij het definiëren van de aangepaste actie zijn twee verbeteringen beschikbaar gesteld: de toevoeging van de methode GET en het nieuwe veld voor de laadreactie. De andere opties en parameters blijven ongewijzigd. Zie [deze pagina](../action/about-custom-action-configuration.md).
+## Belangrijke opmerkingen{#custom-action-enhancements-notes}
 
-### Eindpuntconfiguratie {#endpoint-configuration}
+<!--
+* Custom actions should only be used with private or internal endpoints, and used with an appropriate capping or throttling limit. See [this page](../configuration/external-systems.md). 
+-->
 
-De **URL-configuratie** de naam van de sectie is gewijzigd **Eindpuntconfiguratie**.
+* Scalaire arrays worden ondersteund bij een payload als reactie:
 
-In de **Methode** vervolgkeuzelijst, kunt u nu selecteren **GET**.
+  ```
+  "dummyScalarArray": [
+  "val1",
+  "val2"
+  ]
+  ```
+
+* Heterogene arrays worden niet ondersteund bij een payload als reactie:
+
+  ```
+  "dummyRandomArray": [
+  20,
+  "aafw",
+  false
+  ]
+  ```
+
+<!--
+## Best practices{#custom-action-enhancements-best-practices}
+
+A capping limit of 5000 calls/s is defined for all custom actions. This limit has been set based on customers usage, to protect external endpoints targeted by custom actions. You need to take this into account in your audience-based journeys by defining an appropriate reading rate (5000 profiles/s when custom actions are used). If needed, you can override this setting by defining a greater capping or throttling limit through our Capping/Throttling APIs. See [this page](../configuration/external-systems.md).
+
+You should not target public endpoints with custom actions for various reasons:
+
+* Without proper capping or throttling, there is a risk of sending too many calls to a public endpoint that may not support such volume.
+* Profile data can be sent through custom actions, so targeting a public endpoint could lead to inadvertently sharing personal information externally.
+* You have no control on the data being returned by public endpoints. If an endpoint changes its API or starts sending incorrect information, those will be made available in communications sent, with potential negative impacts.
+-->
+
+<!--
+## Define the custom action {#define-custom-action}
+
+When defining the custom action, two enhancements have been made available: the addition of the GET method and the new payload response field. The other options and parameters are unchanged. See [this page](../action/about-custom-action-configuration.md).
+
+### Endpoint configuration {#endpoint-configuration}
+
+The **URL configuration** section has been renamed **Endpoint configuration**.
+
+In the **Method** drop-down, you can now select **GET**.
 
 ![](assets/action-response1.png){width="70%" align="left"}
 
 ### Payloads {#payloads-new}
 
-De **Handelingsparameters** de naam van de sectie is gewijzigd **Payloads**. Er zijn twee velden beschikbaar:
+The **Action parameters** section has been renamed **Payloads**. Two fields are available:
 
-* De **Verzoek** veld: dit veld is alleen beschikbaar voor aanroepmethoden van POSTEN en PUTTEN.
-* De **Antwoord** veld : dit is de nieuwe mogelijkheid . Dit gebied zoals beschikbaar voor alle roepende methodes.
+* The **Request** field: this field is only available for POST and PUT calling methods.
+* The **Response** field: this is the new capability. This field as available for all calling methods.
 
 >[!NOTE]
 > 
->Beide velden zijn optioneel.
+>Both these fields are optional.
 
 ![](assets/action-response2.png){width="70%" align="left"}
+-->
+
+## Aangepaste actie configureren {#config-response}
+
+1. Maak de aangepaste handeling. Zie [deze pagina](../action/about-custom-action-configuration.md).
 
 1. Klik in het dialoogvenster **Antwoord** veld.
 
-   ![](assets/action-response3.png){width="80%" align="left"}
+   ![](assets/action-response2.png){width="80%" align="left"}
 
 1. Plak een voorbeeld van de lading die door de vraag is teruggekeerd. Controleer of de veldtypen correct zijn (tekenreeks, geheel getal, enz.). Hier is een voorbeeld van antwoordlading die tijdens de vraag wordt gevangen. Ons lokale eindpunt verzendt het aantal loyaliteitspunten en de status van een profiel.
 
@@ -117,6 +161,12 @@ U kunt bijvoorbeeld een voorwaarde toevoegen om het aantal loyaliteitspunten te 
 
    ![](assets/action-response11.png)
 
+## Logboeken van testmodi {#test-mode-logs}
+
+Via de testmodus hebt u toegang tot statuslogboeken die gerelateerd zijn aan aangepaste actieantwoorden. Als u aangepaste acties hebt gedefinieerd met reacties op uw reis, ziet u een **actionsHistory** sectie op die logboeken die de nuttige lading tonen door het externe eindpunt (als reactie van die douaneactie) is teruggekeerd. Dit kan zeer nuttig in termen van het zuiveren zijn.
+
+![](assets/action-response12.png)
+
 ## Foutstatus {#error-status}
 
 De **jo_status_code** veld is altijd beschikbaar, zelfs als er geen antwoordlading is gedefinieerd.
@@ -158,4 +208,3 @@ Hier volgen enkele voorbeelden:
 ```
 
 Zie voor meer informatie over veldverwijzingen [deze sectie](../building-journeys/expression/field-references.md).
-

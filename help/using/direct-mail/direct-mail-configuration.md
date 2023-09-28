@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 375dfbebcb37f948b468ec9689963b0ffebebecf
+source-git-commit: 280e311ca4515d2147f451af0fffbe6d5fc8029c
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Wanneer [een direct-mailbericht maken](../direct-mail/create-direct-mail.md), de
 
 Voordat u dit bestand kunt genereren, moet u het volgende maken:
 
-1. A [bestand dat configuratie verplettert](#file-routing-configuration) om de server op te geven waar het bestand wordt geëxporteerd.
+1. A [bestand dat configuratie verplettert](#file-routing-configuration) om de server op te geven waar het bestand wordt geëxporteerd en het bestand indien nodig te coderen.
 
 1. A [direct-mailoppervlak](#direct-mail-surface) dat het dossier zal van verwijzingen voorzien dat configuratie verplettert.
 
@@ -89,6 +89,8 @@ Om het dossier te vormen dat, volg de stappen hieronder verplettert.
    >[!NOTE]
    >
    >AWS-regio&#39;s zijn geografische gebieden die AWS gebruikt om haar cloudinfrastructuur te hosten. In het algemeen verdient het de voorkeur het gebied te kiezen dat het dichtst bij de locatie van uw directe-mailprovider ligt.
+
+1. Als u het bestand wilt versleutelen, kopieert en plakt u de coderingssleutel in de **[!UICONTROL PGP/GPG encryption key]** veld.
 
 1. Selecteer **[!UICONTROL Submit]**. Het dossier dat configuratie verplettert wordt gecreeerd met **[!UICONTROL Active]** status. Het is nu klaar om in een [direct-mailoppervlak](#direct-mail-surface).
 

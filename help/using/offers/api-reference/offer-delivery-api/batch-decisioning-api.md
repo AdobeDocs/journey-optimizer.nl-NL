@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 1%
@@ -20,7 +20,7 @@ De [!DNL Batch Decisioning] API staat organisaties toe om besluitvormingsfunctio
 
 Met de [!DNL Batch Decisioning] API, kunt u een dataset met de beste aanbiedingen voor alle profielen in een publiek van Adobe Experience Platform voor besluitvormingswerkingsgebied bevolken. Een organisatie wil bijvoorbeeld [!DNL Batch Decisioning] zodat zij voorstellen naar een leverancier van de berichtlevering kunnen verzenden. Die aanbiedingen worden dan gebruikt als inhoud die voor partijberichtlevering aan het zelfde publiek van gebruikers wordt verzonden.
 
-Hiertoe zou de organisatie:
+Om dit te doen, zou de organisatie:
 
 * Voer de [!DNL Batch Decisioning] API, die twee verzoeken bevat:
 
@@ -30,14 +30,14 @@ Hiertoe zou de organisatie:
 
 * Exporteer de dataset naar de API van de leverancier van de berichtlevering.
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=en) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
 >U kunt de batch ook bepalen via de Journey Optimizer-interface. Raadpleeg voor meer informatie [deze sectie](../../batch-delivery.md), die informatie verstrekt over globale voorwaarden en beperkingen om rekening te houden met wanneer het gebruiken van partijbesluit.
 
-* **Het aantal lopende partijbanen per dataset**: Tot vijf partijbanen kunnen tegelijkertijd, per dataset worden in werking gesteld. Om het even welke andere partijverzoeken met de zelfde outputdataset worden toegevoegd aan de rij. Er wordt een taak in de wachtrij opgehaald om te worden verwerkt zodra de vorige taak is voltooid.
-* **Frequentiecorrectie**: Een batch wordt uitgevoerd zonder de profielmomentopname die één keer per dag plaatsvindt. De [!DNL Batch Decisioning] API kapt de frequentie en laadt altijd profielen van de meest recente momentopname.
+* **Het aantal lopende partijbanen per dataset**: Er kunnen maximaal vijf batchtaken tegelijk per dataset worden uitgevoerd. Om het even welke andere partijverzoeken met de zelfde outputdataset worden toegevoegd aan de rij. Er wordt een taak in de wachtrij opgehaald om te worden verwerkt zodra de vorige taak is voltooid.
+* **Frequentiecorrectie**: Een batch wordt uitgevoerd uit de profielmomentopname die één keer per dag plaatsvindt. De [!DNL Batch Decisioning] API kapt de frequentie en laadt altijd profielen van de meest recente momentopname.
 
 ## Aan de slag {#getting-started}
 
@@ -186,4 +186,4 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 
 ## Volgende stappen {#next-steps}
 
-Door deze API-handleiding te volgen, hebt u de werklaststatus gecontroleerd en aanbiedingen geleverd met de [!DNL [!DNL Batch Decisioning]] API. Zie voor meer informatie de [overzicht van het besluitvormingsbeheer](../../get-started/starting-offer-decisioning.md).
+Door deze API-handleiding te volgen, hebt u de werklaststatus gecontroleerd en aanbiedingen geleverd met de [!DNL [!DNL Batch Decisioning]] API. Zie de klasse [overzicht van het besluitvormingsbeheer](../../get-started/starting-offer-decisioning.md).

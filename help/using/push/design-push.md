@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: 19440c38d5d663a6b5ea7e99817ee65496bb43e6
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1239'
 ht-degree: 9%
 
 ---
@@ -62,17 +62,15 @@ Maak een actionable melding door knoppen toe te voegen aan uw pushinhoud.
 
 Als het apparaatscherm vergrendeld is, worden deze knoppen niet weergegeven: alleen de **Titel** en de **Bericht** van de kennisgeving zichtbaar zijn. Als het apparaat ontgrendeld is, zien de ontvangers de knoppen.
 
-In de iOS-versie kunt u maximaal vier knoppen toevoegen. In de Android-versie kunt u maximaal drie knoppen toevoegen.
+In de Android-versie kunt u maximaal drie knoppen toevoegen.
 
->[!NOTE]
->
->Voor iOS gebruikt u de opdracht **[!UICONTROL iOS category]** veld voor het koppelen van handelingen aan een berichtencategorie.
+In de iOS-versie wordt een id voor een berichtencategorie opgegeven. Meldingscategorieën moeten vooraf worden geconfigureerd in de iOS-app, waarin de knoppen worden gedefinieerd die moeten worden weergegeven en de acties die moeten worden ondernomen. Zie de [Apple-documentatie](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types) voor meer informatie .
 
 1. Gebruik de **[!UICONTROL Add button]** om instellingen te definiëren: het label en de bijbehorende actie. Mogelijke acties zijn hetzelfde als voor [klikgedrag](#on-click-behavior).
 
 1. Gebruik de **[!UICONTROL Expand view]** onder de centrale voorvertoning om een voorvertoning van uw persoonlijke knoppen weer te geven.
 
-![](assets/push_buttons.png)
+   ![](assets/push_buttons.png)
 
 ## Een stille melding verzenden {#silent-notification}
 

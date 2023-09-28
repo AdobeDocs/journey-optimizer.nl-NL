@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 9a1eea69c47ace2ad9bbd1d4668007b8ea1796fc
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,15 @@ Gebruik de **[!UICONTROL Global report]** om de impact van uw reizen en levering
 
 * Als u een reis of leveringen in het kader van een reis wilt richten, vanaf **[!UICONTROL Journeys]** en klik op de knop **[!UICONTROL View report]** knop. Je kunt dan de wereldwijde rapporten Journey, Email, SMS en Push vinden.
 
-   ![](assets/report_journey.png)
+  ![](assets/report_journey.png)
 
-* Als u een campagne wilt richten, van **[!UICONTROL Campaigns]** , opent u uw campagne en klikt u op de knop **[!UICONTROL Reports]** knop.
+* Als u een campagne wilt richten, van **[!UICONTROL Campaigns]** , opent u uw campagne en klikt u op **[!UICONTROL Reports]** knop.
 
-   ![](assets/report_campaign.png)
+  ![](assets/report_campaign.png)
 
 * Als u van wilt schakelen **[!UICONTROL Live report]** aan de **[!UICONTROL Global report]** voor uw levering klikt u op **[!UICONTROL All time]** met de tabschakeloptie.
 
-   ![](assets/report_5.png)
+  ![](assets/report_5.png)
 
 Voor een gedetailleerde lijst van elke metrisch beschikbaar in Adobe Journey Optimizer, verwijs naar [deze pagina](#list-of-components-global)
 
@@ -47,7 +47,7 @@ Elk rapportdashboard kan worden gewijzigd door de tijdsperiode te wijzigen en wi
 
 1. Kies of u testgebeurtenissen wilt uitsluiten van uw rapporten met de schakelbalk. Raadpleeg voor meer informatie over testgebeurtenissen [deze pagina](../building-journeys/testing-the-journey.md).
 
-   De **[!UICONTROL Exclude test events]** Deze optie is alleen beschikbaar voor Journey-rapporten.
+   Let erop dat de **[!UICONTROL Exclude test events]** Deze optie is alleen beschikbaar voor Journey-rapporten.
 
    ![](assets/report_modify_2.png)
 
@@ -73,11 +73,15 @@ Uw dashboard wordt nu opgeslagen. Uw verschillende wijzigingen worden opnieuw to
 
 ## Uw rapporten exporteren {#export-reports}
 
-U kunt uw verschillende rapporten gemakkelijk naar het formaat van de PDF uitvoeren, dat u toelaat om hen te delen of te drukken.
+U kunt uw verschillende rapporten eenvoudig exporteren naar de indelingen PDF of CSV, zodat u deze kunt delen of afdrukken.
 
-1. Klik in uw rapport op **[!UICONTROL Export]**.
+>[!BEGINTABS]
 
-   ![](assets/export_1.png)
+>[!TAB Uw rapport exporteren als een PDF-bestand]
+
+1. Klik in uw rapport op **[!UICONTROL Export]** en selecteert u **[!UICONTROL PDF file]**.
+
+   ![](assets/export_2.png)
 
 1. Configureer het document in het venster Afdrukken naar wens. Welke opties beschikbaar zijn, is afhankelijk van de browser.
 
@@ -87,3 +91,20 @@ U kunt uw verschillende rapporten gemakkelijk naar het formaat van de PDF uitvoe
 
 Uw rapport is nu beschikbaar voor weergave of delen in een PDF-bestand.
 
+>[!TAB Uw rapport exporteren als een CSV-bestand]
+
+1. Klik in uw rapport op **[!UICONTROL Export]** en selecteert u **[!UICONTROL CSV file]** om een CSV-bestand op algemeen rapportniveau te genereren.
+
+   ![](assets/export_1.png)
+
+1. U kunt er ook voor kiezen om gegevens uit een specifieke widget te exporteren. Klikken **[!UICONTROL Export widget data to CSV]** naast de geselecteerde widget.
+
+   ![](assets/export_3.png)
+
+1. Het bestand wordt automatisch gedownload en kan zich in uw lokale bestanden bevinden.
+
+   Als u het bestand op rapportniveau hebt gegenereerd, bevat het gedetailleerde informatie voor elke widget, inclusief de titel en gegevens.
+
+   Als u het bestand op widgetniveau hebt gegenereerd, bevat dit specifiek gegevens voor de geselecteerde widget.
+
+>[!ENDTABS]

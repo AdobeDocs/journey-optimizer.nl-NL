@@ -7,9 +7,9 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 58223b4b6e6e2ef5b7fc23c5b475e74ad72d0d13
+source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ De Redacteur van uitdrukkingen terwijl het personaliseren van beelden, tekst, on
 
 De redacteur van de Personalisatie zelf voert geen toestemmingscontroles of handhaving uit aangezien het niet betrokken is bij de levering van berichtacties. De redacteur van de verpersoonlijking houdt zich aan rechten gebaseerde de etiketten van de toegangscontrole die door de verenigde profieldienst worden verstrekt om verschillende gebieden toe te staan/toe te staan om voor verpersoonlijking worden gebruikt. De voorproef van het bericht en geeft dienst terug zal geïdentificeerde gebieden met gevoelige informatie maskeren.
 
-In AJO-campagnes kan de handhaving van het toestemmingsbeleid op twee plaatsen plaatsvinden. Klanten kunnen definities van het toestemmingsbeleid opnemen als onderdeel van het publiek of de segmentcreatie om ervoor te zorgen dat het publiek dat voor de campagne is geselecteerd reeds profielen heeft uitgefilterd die niet aan de toestemmingscriteria voldoen. Ten tweede zal de dienst van berichtruntime een algemene toestemmingscontrole op het kanaalniveau uitvoeren om ervoor te zorgen dat de profielen hebben gekozen-binnen om marketingmededelingen op het specifieke kanaal te ontvangen. Het voorwerp van de Campagne AJO zelf voert geen extra controles van het toestemmingsbeleid op dit ogenblik uit.
+In AJO-campagnes kan de handhaving van het toestemmingsbeleid op twee plaatsen plaatsvinden. Klanten kunnen definities van het toestemmingsbeleid opnemen als onderdeel van het publiek of de segmentcreatie om ervoor te zorgen dat het publiek dat voor de campagne is geselecteerd reeds profielen heeft uitgefilterd die niet aan de toestemmingscriteria voldoen. Ten tweede zal de dienst van berichtruntime een algemene toestemmingscontrole op het kanaalniveau uitvoeren om ervoor te zorgen dat de profielen hebben gekozen-binnen om marketingmededelingen op het specifieke kanaal te ontvangen. Het voorwerp van de Campagne AJO zelf voert momenteel geen extra controles van het toestemmingsbeleid uit.
 
 AJO-campagne en persoonlijke stappen voor het handmatig afdwingen van toestemming:
 
@@ -33,7 +33,7 @@ Als u composer voor het publiek gebruikt, kunt u het publiek splitsen met behulp
 
 Ga als volgt te werk om een gesplitst publiek in de publiekscompositie te maken:
 
-1. Selecteer het beginpubliek.
+1. Selecteer uw beginnende publiek.
 
 1. Klik op het pluspictogram om een gesplitst publiek te maken.
 
@@ -47,7 +47,7 @@ Ga als volgt te werk om een gesplitst publiek in de publiekscompositie te maken:
 
 1. In Weg 1 - kies een etiket om u te helpen het niet-gepersonaliseerde publiek bepalen.
 
-1. Kies de gewenste waarde in deze lijst: https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=en#choice-values
+1. Kies de gewenste waarde in deze lijst: https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values
 
    In dit geval gebruiken we een &#39;n&#39; om NO aan te duiden als de opt-out voor personalisatie
 

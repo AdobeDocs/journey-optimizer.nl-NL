@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a75dea16748a6628c3e21f1846a2ac9872cc55cb
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '3594'
+source-wordcount: '3693'
 ht-degree: 14%
 
 ---
@@ -17,7 +17,19 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 ## September 2023 {#september-2023}
 
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van september &#39;23 is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
+* Er is een nieuwe pagina toegevoegd met de aanbevolen tips voor het schalen en stitching in real time. [Meer informatie](../start/best-practices.md)
+
+<!--  * The maximum wait duration has been changed from 30 to 29 days. [Read more](../building-journeys/wait-management.md) -->
+
+* Een veelgestelde-Vragen sectie is toegevoegd voor Optimalisering Send-Time. [Meer informatie](../building-journeys/journeys-message.md#faq-send-time)
+* Er is een opmerking toegevoegd voor de kwalificatieactiviteit van het publiek. Het kan 10 minuten duren om actief te zijn en te luisteren naar profielen die het publiek binnenkomen of verlaten. [Meer informatie](../building-journeys/audience-qualification-events.md#important-notes-segment-qualification)
 * Er is een lijst toegevoegd aan de documentatie van het besluitvormingsbeheer met beperkingen die u bekend moeten maken bij het opstellen van beslissingsregels. [Meer informatie](../offers/offer-library/creating-decision-rules.md)
+* De koppelingen naar de documentatie van toegangsbeheer zijn bijgewerkt. [Meer informatie](../administration/permissions.md)
+* In-app kanaalvereisten zijn bijgewerkt met Adobe Experience Platform-gegevens over gegevensverzameling. [Meer informatie](../in-app/inapp-configuration.md)
+
+
+
 
 ## Augustus 2023 {#august-2023}
 

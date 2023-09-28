@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 32%
+source-wordcount: '1521'
+ht-degree: 31%
 
 ---
 
@@ -232,11 +232,13 @@ ht-degree: 32%
 + Webkanaal {#web}
    + [Aan de slag met webkanaal](using/web/get-started-web.md)
    + [Voorwaarden voor webkanalen](using/web/web-prerequisites.md)
+   + [Implementatie van één pagina](using/web/web-spa-implementation.md)
    + [Webervaringen maken](using/web/create-web.md)
    + Webpagina&#39;s van auteurs {#author-web-pages}
       + [Webpagina-inhoud bewerken](using/web/edit-web-content.md)
       + [Wijzigingen beheren](using/web/manage-web-modifications.md)
       + [Uw webcampagnes volgen](using/web/monitor-web-campaigns.md)
+      + [Toepassingen van één pagina maken](using/web/web-spa.md)
    + [Websubdomeinen configureren](using/web/web-delegated-subdomains.md)
 + Ervaring op basis van code {#code-based-experience}
    + [Aan de slag met op code gebaseerd kanaal](using/code-based/get-started-code-based.md)
@@ -303,6 +305,7 @@ ht-degree: 32%
    + Profielen{#profiles}
       + [Aan de slag met profielen](using/audience/get-started-profiles.md)
       + [Testprofielen maken](using/audience/creating-test-profiles.md)
+      + [Werken met berekende kenmerken](using/audience/computed-attributes.md)
    + [Identiteiten](using/audience/get-started-identity.md)
    + [Licentiegebruik](using/audience/license-usage.md)
 + Bijhouden en bewaken {#reporting}
@@ -321,6 +324,9 @@ ht-degree: 32%
       + [Doelstelling](using/reports/objective-report.md)
       + [Openingspagina Global-rapport](using/reports/lp-report-global.md)
       + [Abonnementenlijst Global-rapport](using/reports/subscription-report-global.md)
+   + Kanaalrapporten {#channel-report}
+      + [Aan de slag met Channel-rapporten](using/reports/channel-report-gs.md)
+      + [Kanaalrapporten](using/reports/channel-report.md)
    + Reisrapporten {#reports}
       + [Trainingsrapporten maken](using/reports/sharing-overview.md)
       + [Lijst met gebeurtenisvelden voor stappen](using/reports/sharing-field-list.md)

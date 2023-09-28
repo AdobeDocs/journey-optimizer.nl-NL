@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: kwalificatie, evenementen, publiek, reis, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -31,14 +31,17 @@ Laten we zeggen dat je een &quot;zilveren klant&quot; publiek hebt. Met deze act
 
 Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
->[!IMPORTANT]
->
->Onthoud dat het publiek in Adobe Experience Platform één keer per dag wordt berekend (**partij** publiek) of in realtime (**gestreamd** publiek, met gebruik van de optie Frequentie publiek van Adobe Experience Platform).
->
->Als het geselecteerde publiek wordt gestreamd, zullen de individuen die tot dit publiek behoren de reis in real time kunnen betreden. Als het publiek een batch is, kunnen mensen die net voor dit publiek zijn gekwalificeerd de reis invoeren wanneer de publieksberekening op Adobe Experience Platform wordt uitgevoerd.
->
->U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een leespubliek, een kwalificatie Audience of een activiteit voor een zakelijke gebeurtenis.
+### Belangrijke opmerkingen{#important-notes-segment-qualification}
 
+* Onthoud dat het publiek in Adobe Experience Platform één keer per dag wordt berekend (**partij** publiek) of in realtime (**gestreamd** publiek, met gebruik van de optie Frequentie publiek van Adobe Experience Platform).
+
+* Als het geselecteerde publiek wordt gestreamd, zullen de individuen die tot dit publiek behoren de reis in real time kunnen betreden. Als het publiek een batch is, kunnen mensen die net voor dit publiek zijn gekwalificeerd de reis invoeren wanneer de publieksberekening op Adobe Experience Platform wordt uitgevoerd.
+
+* U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een leespubliek, een kwalificatie Audience of een activiteit voor een zakelijke gebeurtenis.
+
+* Wanneer u een publiekskwalificatie gebruikt op een reis, kan het tot 10 minuten duren voordat de activiteit van de publiekskwalificatie actief is en naar profielen luistert die het publiek binnenkomen of verlaten.
+
+### De activiteit configureren{#cnfigure-segment-qualification}
 
 1. Ontvouw de **[!UICONTROL Events]** categorie en zet een **[!UICONTROL Audience Qualification]** op uw canvas.
 

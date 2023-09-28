@@ -9,10 +9,10 @@ role: Admin, Architect
 level: Intermediate
 keywords: machtigingen, rechten, beperkingen, toegang, sandbox
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 10%
+source-wordcount: '173'
+ht-degree: 8%
 
 ---
 
@@ -24,13 +24,11 @@ ht-degree: 10%
 
 Gebruikersbeheer in [!DNL Journey Optimizer] is gebaseerd op drie concepten:
 
-* **[!UICONTROL Role]**: Een reeks eenheidsrechten die gebruikers toegang tot bepaalde functies of objecten in de interface biedt. Zie de [Buiten-de-box rollen](ootb-product-profiles.md) sectie.
+* **[!UICONTROL Role]**: Een reeks eenheidsrechten die gebruikers toegang verleent tot bepaalde functies of objecten in de interface. Zie de [Buiten-de-box rollen](ootb-product-profiles.md) sectie.
 
 * **[!UICONTROL Permissions]**: Unierechten waarmee u de machtigingen kunt definiëren die zijn toegewezen aan **[!UICONTROL Roles]**. Elke toestemming wordt verzameld onder middelen, bijvoorbeeld Reis of Aanbiedingen, die de verschillende functionaliteit of voorwerpen in vertegenwoordigen [!DNL Journey Optimizer]. Zie de [Machtigingsniveaus](high-low-permissions.md) sectie.
 
-* **[!UICONTROL Sandbox]**: Virtuele sandboxen die instanties in afzonderlijke, geïsoleerde virtuele omgevingen verdelen. Zie de [Sandboxen gebruiken](sandboxes.md).
-
-Elk concept kan worden beheerd door **[!UICONTROL Product administrators]** die toegang hebben tot de beheerconsole. [Meer informatie over Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html).
+* **[!UICONTROL Sandbox]**: virtuele sandboxen die instanties in afzonderlijke, geïsoleerde virtuele omgevingen verdelen. Zie de [Sandboxen gebruiken](sandboxes.md).
 
 ![](assets/do-not-localize/permissions_2.png)
 

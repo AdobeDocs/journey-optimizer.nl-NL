@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 89d2eb94a600af437862aa2ded74d77179a5c3e8
+source-git-commit: 5e58db84275d78c5248f1d617328799d71bb10d1
 workflow-type: tm+mt
-source-wordcount: '1918'
+source-wordcount: '2201'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ De configuratie van de e-mailoppervlakte wordt opgepikt voor het verzenden van m
 >title="De e-mailcategorie definiëren"
 >abstract="Selecteer het type e-mailberichten dat wordt verzonden wanneer u dit oppervlak gebruikt: marketing voor speciale e-mails waarvoor toestemming van de gebruiker vereist is of Transactie voor niet-commerciële e-mails die ook in specifieke contexten naar profielen zonder abonnement kunnen worden verzonden."
 
-In de **E-MAILTYPE** selecteert u het type bericht dat met het oppervlak wordt verzonden: **Marketing** of **Transactioneel**.
+In de **E-MAILTYPE** selecteert u het type bericht dat met het oppervlak wordt verzonden: **[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**.
 
 * Kies **Marketing** voor speciale e-mails, zoals wekelijkse promoties voor een winkel. Voor deze berichten is toestemming van de gebruiker vereist.
 
@@ -182,6 +182,36 @@ Bovendien, wanneer het bepalen van **[!UICONTROL Bcc email]** adres, zorg ervoor
 
 Als u een fout bij het voorleggen van de e-mailoppervlakte krijgt, betekent het dat het MX- verslag niet voor subdomain van het adres wordt gevormd u inging. Contacteer uw beheerder voor het vormen van het overeenkomstige MX verslag of gebruik een ander adres met een geldige MX verslagconfiguratie.
 
+## Verzenden naar onderdrukt e-mailadressen {#send-to-suppressed-email-addresses}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_suppressed_addresses"
+>title="Prioriteit suppressielijst overschrijven"
+>abstract="U kunt ook transactiemeldingen verzenden naar profielen, zelfs als hun e-mailadres op de suppressielijst voor Adobe Journey Optimizer staat vanwege een spamklacht. Deze optie is standaard uitgeschakeld."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html" text="De vervolgkeuzelijst beheren"
+
+>[!IMPORTANT]
+>
+>Deze optie is alleen beschikbaar als u **[!UICONTROL Transactional]** e-mailtype. [Meer informatie](#email-type)
+
+In [!DNL Journey Optimizer], worden alle e-mailadressen die zijn gemarkeerd als harde stuiteringen, zachte stuiteringen en spamklachten, automatisch verzameld in de [onderdrukkingslijst](../configuration/manage-suppression-list.md) en van een reis of een campagne zijn uitgesloten.
+
+U kunt echter besluiten door te gaan met het verzenden van berichten van de **transactie** typen naar profielen, zelfs als hun e-mailadressen op de suppressielijst staan vanwege een spamklacht van de gebruiker.
+
+Transactieberichten bevatten over het algemeen nuttige en verwachte informatie, zoals een orderbevestiging of een wachtwoordherstelmelding. Daarom zelfs als zij één van uw marketing berichten als spam hebben gemeld, het grootste deel van de tijd wilt u uw klanten dit type van niet-commerciële e-mail ontvangen.
+
+Als u e-mailadressen wilt opnemen die zijn onderdrukt als gevolg van een spamklacht in het publiek van het transactiebericht, selecteert u de desbetreffende optie in het menu **[!UICONTROL Send to suppressed email addresses]** sectie.
+
+![](assets/preset-suppressed-email-addresses.png)
+
+>[!NOTE]
+>
+>Deze optie is standaard uitgeschakeld.
+
+Deze optie is standaard uitgeschakeld als best practice voor de te leveren items. Zo weet u zeker dat er geen contact wordt opgenomen met uw klanten die ervoor hebben gekozen dit niet te doen. Nochtans, kunt u deze standaardoptie veranderen, die u dan toestaat om transactieberichten naar uw klanten te verzenden.
+
+Zodra deze optie wordt toegelaten, hoewel een klant uw marketing e-mail als spam merkte, zal die klant uw transactiemeldingen kunnen ontvangen gebruikend de huidige oppervlakte. Zorg er altijd voor dat de voorkeuren voor weigeren worden beheerd in overeenstemming met de best practices voor prestaties.
+
 ## Zaadlijst {#seed-list}
 
 >[!CONTEXTUALHELP]
@@ -189,7 +219,7 @@ Als u een fout bij het voorleggen van de e-mailoppervlakte krijgt, betekent het 
 >title="Een zaadlijst toevoegen"
 >abstract="Selecteer de zaadlijst van uw keus om specifieke interne adressen aan uw publiek automatisch toe te voegen. Deze zaadadressen zullen op de tijd van de leveringsuitvoering worden omvat en zullen een nauwkeurige kopie van het bericht voor betrouwbaarheidsdoeleinden ontvangen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="Wat zijn zaadlijsten?"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=en#create-seed-list" text="Een zaadlijst maken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#create-seed-list" text="Een zaadlijst maken"
 
 
 Een zaadlijst in [!DNL Journey Optimizer] kunt u automatisch specifieke e-mailadressen toevoegen aan uw leveringen. [Meer informatie](../configuration/seed-lists.md)

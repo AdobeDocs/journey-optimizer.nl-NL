@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inSegment, functie, expressie, reis
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: be372f8f80d304067748d539fb8e210df6280721
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '197'
 ht-degree: 5%
 
 ---
@@ -28,11 +28,11 @@ Soorten publiek wordt gedefinieerd in het gedeelte [Adobe Experience Platform](h
 
 Het publiek kan drie statussen hebben:
 
-* bestaande: entiteit blijft in het publiek.
+* bestaande : entiteit blijft in het publiek aanwezig .
 * gerealiseerd: entiteit betreedt het publiek.
 * verlaten: entiteit verlaat het publiek.
 
-Alleen personen met de **Gerealiseerd** en **Bestaande** de publieksparticipatiestatistieken worden beschouwd als leden van het publiek . Raadpleeg voor meer informatie over het evalueren van een publiek de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=en#interpret-segment-results).
+Alleen de personen met de **Realistisch** en **Bestaande** de publieksparticipatiestatistieken worden beschouwd als leden van het publiek . Raadpleeg voor meer informatie over het evalueren van een publiek de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results).
 
 `IF inSegment('segmentName') == true` betekent dat u een segmentLidmaatschap met de ingegaan/bestaande status hebt.
 

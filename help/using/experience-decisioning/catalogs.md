@@ -8,13 +8,13 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 613a0a16-2e8f-499d-9db4-5175fefd93cc
+source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '312'
 ht-degree: 1%
 
 ---
-
 
 # Itemcatalogus {#catalog}
 
@@ -65,6 +65,6 @@ Ga als volgt te werk om het schema van de catalogus te openen waarin de kenmerke
    >* Boolean
    >* Getal
 
-   Gedetailleerde informatie over het werken met Adobe Experience Platform-schema&#39;s is beschikbaar in het dialoogvenster [XDM System-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en).
+   Gedetailleerde informatie over het werken met Adobe Experience Platform-schema&#39;s is beschikbaar in het dialoogvenster [XDM System-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html).
 
 1. Sla het schema op wanneer u de gewenste aangepaste kenmerken hebt toegevoegd. Het nieuwe veld is nu beschikbaar in het scherm voor het maken van itembeslissingen, in het dialoogvenster **[!UICONTROL Custom attributes]** sectie.

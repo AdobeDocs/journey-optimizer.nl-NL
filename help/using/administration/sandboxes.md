@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: sandboxen, virtueel, omgevingen, organisatie, platform
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 9f43387ff63c3d2c2849fad1ca6a98310b3915b3
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 21%
+source-wordcount: '326'
+ht-degree: 22%
 
 ---
 
@@ -36,9 +36,9 @@ U kunt het besturingselement voor de sandboxswitch rechtsboven in het scherm vin
 
 >[!IMPORTANT]
 >
-> Sandboxbeheer kan alleen worden uitgevoerd door een **[!UICONTROL Product]** of **[!UICONTROL System]** beheerder. Raadpleeg voor meer informatie hierover de [Documentatie beheerconsole](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/admin-roles.ug.html){target="_blank"}.
+> Sandboxbeheer kan alleen worden uitgevoerd door een **[!UICONTROL Product]** of **[!UICONTROL System]** beheerder.
 
-U kunt desgewenst verschillende sandboxen toewijzen **[!UICONTROL Roles]**.
+U kunt verschillende sandboxen toewijzen aan een externe of aangepaste sandbox **[!UICONTROL Roles]**.
 
 Sandboxen toewijzen:
 
@@ -60,7 +60,7 @@ Sandboxen toewijzen:
 
 ## Toegang tot inhoud {#content-access}
 
-Als u de toegankelijkheid van uw inhoud wilt configureren, moet u een gedeelde inhoudsmap toewijzen aan elk van uw sandboxen. U kunt uw gedeelde map maken en configureren in het dialoogvenster **[!UICONTROL Storage]** weergegeven in het dialoogvenster [!DNL Admin Console] voor beheerders. Als u toegang hebt tot [!DNL Admin Console] als systeembeheerder, kunt u gedeelde omslagen tot stand brengen en afgevaardigden met verschillend toegangsniveau toevoegen aan uw gedeelde omslagen.
+Als u de toegankelijkheid van uw inhoud wilt configureren, moet u een gedeelde inhoudsmap toewijzen aan elk van uw sandboxen. U kunt uw gedeelde map maken en configureren in het dialoogvenster **[!UICONTROL Storage]** weergegeven in het dialoogvenster [!DNL Admin Console] voor beheerders. Als u toegang hebt tot de [!DNL Admin Console] als systeembeheerder, kunt u gedeelde omslagen tot stand brengen en afgevaardigden met verschillend toegangsniveau toevoegen aan uw gedeelde omslagen.
 
 ![](assets/do-not-localize/content_access.png)
 

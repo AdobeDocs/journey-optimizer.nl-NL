@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d56053d9db3d7c07d629069c985640e694b32ce1
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1350'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,7 @@ Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in 
 
 * Het aantal activiteiten op een reis is beperkt tot 50. Het aantal activiteiten wordt weergegeven in de linkerbovensectie van het reiscanvas. Dit zal helpen in leesbaarheid, QA en het oplossen van problemen.
 * Tijdens het publiceren van reizen worden de schaal en de stabiliteit automatisch aangepast om een maximale doorvoer en stabiliteit te garanderen. Aangezien u dichtbij de mijlpaal van 100 levende reizen in één keer, zult u een bericht over deze verwezenlijking zien verschijnen in UI. Als u deze melding ziet en uw reizen moet verlengen tot meer dan 100 rechtstreekse reizen tegelijk, maak dan een ticket voor de klantenservice en wij helpen u uw doelstellingen te bereiken.
+* Wanneer u een publiekskwalificatie gebruikt op een reis, kan het tot 10 minuten duren voordat de activiteit van de publiekskwalificatie actief is en naar profielen luistert die het publiek binnenkomen of verlaten.
 
 ### Algemene acties {#general-actions-g}
 
@@ -65,6 +66,7 @@ Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in 
 
 ### Aangepaste acties {#custom-actions-g}
 
+* Een maximum van 5000 vraag/s wordt bepaald voor alle douaneacties. Deze grens is geplaatst gebaseerd op klantengebruik, om externe eindpunten te beschermen die door douaneacties worden gericht.
 * De URL van de aangepaste handeling ondersteunt geen dynamische parameters.
 * Methoden voor POST, PUT en GET worden ondersteund
 * De naam van de queryparameter of -header mag niet beginnen met &quot;.&quot; of &quot;$&quot;

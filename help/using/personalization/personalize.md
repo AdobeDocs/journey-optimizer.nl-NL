@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: expressie, editor, start, personalisatie
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: f0a7f785a84cb53be0319284a4886841f6974e3d
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 7%
+source-wordcount: '372'
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,7 @@ Discover [!DNL Adobe Journey Optimizer] personaliseringsmogelijkheden om uw beri
 ➡️ [Leer hoe u een bericht in deze video&#39;s kunt aanpassen](#video-perso)
 ➡️ [Gebruiksscenario&#39;s detecteren door personalisatie te gebruiken](personalization-use-case.md)
 
-## Verpersoonlijkingsexpressies maken met behulp van een speciale syntaxis {#syntax}
+## Verpersoonlijkingsexpressies maken met een speciale syntaxis {#syntax}
 
 [!DNL Journey Optimizer] gebruikt een **inline** eenvoudige verpersoonlijkingssyntaxis die op Handlebars wordt gebaseerd die u toestaat om uitdrukkingen tot stand te brengen met inhoud die door dubbele krullende steunen wordt ingesloten **{{}}**. U kunt meerdere expressies zonder beperkingen toevoegen in dezelfde inhoud of hetzelfde veld. Meer informatie in [Personalisatiesyntaxis](personalization-syntax.md).
 
@@ -36,14 +36,16 @@ Bij het verwerken van het bericht (e-mail en push) vervangt Journey Optimizer de
 
 ## Gebruik profielgegevens om uw berichten aan te passen {#data}
 
-De verpersoonlijking is gebaseerd op de profielgegevens die door **Afzonderlijk XDM-profiel** schema gedefinieerd in Adobe Experience Platform. Meer informatie in [Adobe Experience Platform Data Model (XDM)-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
+De personalisatie is gebaseerd op de profielgegevens die door **Afzonderlijk XDM-profiel** schema gedefinieerd in Adobe Experience Platform. Meer informatie in [Adobe Experience Platform Data Model (XDM)-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
 >[!CAUTION]
 >De **Afzonderlijk XDM-profiel** schema is het enige schema dat u kunt gebruiken om inhoud in te personaliseren [!DNL Journey Optimizer].
 
+Daarnaast kunt u ook gebruikmaken van **berekende kenmerken** om uw inhoud aan te passen. De berekende attributen zijn gebaseerd op profiel-Toegelaten Gegevensreeksen van de Gebeurtenis van de Ervaring die in Adobe Experience Platform worden opgenomen en dienen als samengevoegde gegevenspunten die binnen klantenprofielen worden opgeslagen die individuele gedragsgebeurtenissen samenvatten [Leer hoe u met berekende kenmerken werkt](../audience/computed-attributes.md)
+
 ## Verpersoonlijking toevoegen in verschillende contexten {#contexts}
 
-[!DNL Journey Optimizer] kunt u de inhoud en de weergave van berichten op verschillende manieren aanpassen. Meer informatie over de context waarin u personalisatie kunt uitvoeren in [deze sectie](personalization-contexts.md).
+[!DNL Journey Optimizer] Hiermee kunt u de inhoud en de weergave van berichten op verschillende manieren aanpassen. Meer informatie over de context waarin u personalisatie kunt uitvoeren in [deze sectie](personalization-contexts.md).
 
 ## Werken met de expressie-editor {#editor}
 
@@ -51,7 +53,7 @@ De verpersoonlijking is gebaseerd op de profielgegevens die door **Afzonderlijk 
 
 Er zijn verschillende gereedschappen beschikbaar waarmee u uw inhoud voor personalisatie (helperfuncties, vooraf gedefinieerde expressies, bibliotheek met kenmerken die u begunstigen...) kunt maken.
 
-Meer informatie over [!DNL Journey Optimizer] expression editor in [deze sectie](personalization-build-expressions.md)
+Meer informatie over [!DNL Journey Optimizer] expressieeditor in [deze sectie](personalization-build-expressions.md)
 
 ## Instructievideo&#39;s{#video-perso}
 

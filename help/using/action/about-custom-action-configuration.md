@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1229'
+ht-degree: 4%
 
 ---
 
@@ -34,6 +34,16 @@ Aangepaste acties worden geleverd met enkele beperkingen die worden vermeld in [
 In parameters voor aangepaste handelingen kunt u een eenvoudige verzameling en een verzameling objecten doorgeven. Meer informatie over verzamelingsbeperkingen vindt u in [deze pagina](../building-journeys/collections.md#limitations).
 
 De parameters voor aangepaste handelingen hebben een verwachte indeling (bijvoorbeeld tekenreeks, decimaal, enz.). U moet deze verwachte formaten zorgvuldig respecteren. Meer informatie in deze [use case](../building-journeys/collections.md).
+
+## Best practices{#custom-action-enhancements-best-practices}
+
+Een maximum van 5000 vraag/s wordt bepaald voor alle douaneacties. Deze grens is geplaatst gebaseerd op klantengebruik, om externe eindpunten te beschermen die door douaneacties worden gericht. U moet hiermee rekening houden bij reizen voor uw publiek door een juiste leessnelheid te definiëren (5000 profielen/s wanneer aangepaste handelingen worden gebruikt). Indien nodig, kunt u deze het plaatsen met voeten treden door een grotere het maximum van het maximum of het vertragen grens door onze Capping/het Draaien APIs te bepalen. Zie [deze pagina](../configuration/external-systems.md).
+
+U zou openbare eindpunten met douaneacties niet om verschillende redenen moeten richten:
+
+* Zonder behoorlijk het in kaart brengen of het vertragen, is er een risico om teveel vraag naar een openbaar eindpunt te verzenden dat zulk volume niet kan steunen.
+* De gegevens van het profiel kunnen door douaneacties worden verzonden, zodat het richten van een openbaar eindpunt tot onbedoeld het delen van persoonlijke informatie buiten zou kunnen leiden.
+* U hebt geen controle over de gegevens die door openbare eindpunten worden teruggekeerd. Als een eindpunt zijn API verandert of onjuiste informatie begint te verzenden, zullen die in verzonden mededelingen, met potentiële negatieve gevolgen ter beschikking worden gesteld.
 
 ## Toestemming en gegevensbeheer {#privacy}
 
@@ -70,11 +80,11 @@ Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vorm
    >
    >Wanneer een douaneactie in een reis wordt gebruikt, zijn de meeste parameters read-only. U kunt alleen de **[!UICONTROL Name]**, **[!UICONTROL Description]**, **[!UICONTROL URL]** en de **[!UICONTROL Authentication]** sectie.
 
-## URL-configuratie {#url-configuration}
+## Eindpuntconfiguratie {#url-configuration}
 
-Wanneer het vormen van een douaneactie, moet u het volgende bepalen **[!UICONTROL URL Configuration]** parameters:
+Wanneer het vormen van een douaneactie, moet u het volgende bepalen **[!UICONTROL Endpoint Configuration]** parameters:
 
-![](assets/journeyurlconfiguration.png)
+![](assets/action-response1bis.png){width="70%" align="left"}
 
 1. In de **[!UICONTROL URL]** -veld, geeft u de URL van de externe service op:
 
@@ -92,7 +102,7 @@ Wanneer het vormen van een douaneactie, moet u het volgende bepalen **[!UICONTRO
    >
    >Alleen de standaardpoorten zijn toegestaan bij het definiëren van een aangepaste handeling: 80 voor http en 443 voor https.
 
-1. Selecteer de vraag **[!UICONTROL Method]**: het kan **[!UICONTROL POST]** of **[!UICONTROL PUT]**.
+1. Selecteer de vraag **[!UICONTROL Method]**: het kan **[!UICONTROL POST]**, **[!UICONTROL GET]** of **[!UICONTROL PUT]**.
 
    >[!NOTE]
    >
@@ -118,11 +128,17 @@ Wanneer het vormen van een douaneactie, moet u het volgende bepalen **[!UICONTRO
    >
    >Kopteksten worden gevalideerd volgens veldparseringsregels. Meer informatie in [deze documentatie](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}.
 
-## De actieparameters definiëren {#define-the-message-parameters}
+## De parameters voor de nuttige lading definiëren {#define-the-message-parameters}
 
-In de **[!UICONTROL Action parameters]** plakken, plakt u een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden.
+1. In de **[!UICONTROL Request]** plakken, plakt u een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden. Dit gebied is facultatief en slechts beschikbaar voor POST en PUT die methodes roepen.
 
-![](assets/messageparameterssection.png)
+1. In de **[!UICONTROL Response]** plakken, een voorbeeld van de lading die door de vraag is teruggekeerd. Dit veld is optioneel en beschikbaar voor alle aanroepmethoden. Voor gedetailleerde informatie over het gebruik van API-aanroepreacties in aangepaste acties raadpleegt u [deze pagina](../action/action-response.md).
+
+>[!NOTE]
+>
+>De responscapaciteit is momenteel beschikbaar in bèta.
+
+![](assets/action-response2bis.png){width="70%" align="left"}
 
 >[!NOTE]
 >

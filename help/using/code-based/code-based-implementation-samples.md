@@ -8,9 +8,10 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 398b5ac6-0bdc-402f-8b13-7edd9b524808
+source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '823'
 ht-degree: 2%
 
 ---
@@ -114,7 +115,7 @@ Als u een server-zijimplementatie hebt, kunt u één AEP Edge Network API gebrui
 ### Werking
 
 1. De webpagina wordt opgevraagd en eventuele cookies die eerder door de browser zijn opgeslagen, worden vooraf opgeslagen `kndctr_` worden opgenomen.
-1. Wanneer de pagina bij de toepassingsserver wordt aangevraagd, wordt een gebeurtenis verzonden naar [interactief eindpunt van gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=en) om personalisatie-inhoud op te halen. In deze voorbeeldtoepassing worden enkele hulpmethoden gebruikt om het samenstellen en verzenden van aanvragen naar de API te vereenvoudigen (zie [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Maar het verzoek is gewoon een `POST` met een payload die een gebeurtenis en query bevat. De cookies (indien beschikbaar) uit de vorige stap worden in de `meta>state>entries` array.
+1. Wanneer de pagina bij de toepassingsserver wordt aangevraagd, wordt een gebeurtenis verzonden naar [interactief eindpunt van gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) om personalisatie-inhoud op te halen. In deze voorbeeldtoepassing worden enkele hulpmethoden gebruikt om het samenstellen en verzenden van aanvragen naar de API te vereenvoudigen (zie [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Maar het verzoek is gewoon een `POST` met een payload die een gebeurtenis en query bevat. De cookies (indien beschikbaar) uit de vorige stap worden in de `meta>state>entries` array.
 
    ```javascript
    fetch(
@@ -275,4 +276,3 @@ Als u een hybride implementatie hebt, checkt u de onderstaande koppelingen uit.
 
 * Tech-blog Adobe: [Hybride personalisatie in de SDK van het Web van Adobe Experience Platform](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * SDK-documentatie: [Hybride verpersoonlijking die Web SDK en de Server API van het Netwerk van Edge gebruikt](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
-

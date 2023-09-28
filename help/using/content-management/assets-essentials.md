@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: elementen, essentiële elementen, ervaringsmanager, integratie
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 1f4a49f9fc53cea21391d0e77bc151ebf84cc4f9
+source-git-commit: 8673391de8ac5c91bfbd28d23f7ab9a1416f4a83
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '497'
 ht-degree: 3%
 
 ---
@@ -44,6 +44,19 @@ Voor meer informatie over het uploaden van elementen raadpleegt u [Adobe Experie
 1. Van [!DNL Adobe Journey Optimizer] homepage, selecteer **[!UICONTROL Assets]** onder de **[!UICONTROL Content management]** menu voor toegang [!DNL Assets Essentials].
 
    ![](assets/media_library_1.png)
+
+1. Kies de opslagplaats voor uw middelen in Journey Optimizer. U kunt kiezen voor een opslagplaats voor Assets Essentials of een as a Cloud Service opslagplaats voor middelen, op voorwaarde dat u eigenaar bent van deze oplossing.
+
+   ![](assets/media_library_4.png)
+
++++
+Leer hoe u naar een andere opslagplaats voor middelen kunt gaan.
+
+   Als u de gegevensopslagplaats van uw middelen wilt wijzigen, selecteert u het pictogram Account rechtsboven en klikt u op **[!UICONTROL Select Repository]**.
+
+   ![](assets/media_library_3.png)
+
++++
 
 1. Dubbelklik op een map in de centrale sectie of in de structuurweergave om deze te openen.
 

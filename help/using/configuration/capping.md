@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: cb5f3b042c1902add9b22d28eb24e2b6e8f1a20b
+source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 28%
+source-wordcount: '639'
+ht-degree: 26%
 
 ---
 
@@ -62,6 +62,8 @@ Hier is de basisstructuur van een eindpuntconfiguratie:
 >De **maxHttpConnections** parameter is optioneel. Zo kunt u het aantal verbindingen beperken dat Journey Optimizer opent voor het externe systeem.
 >
 >De maximale waarde die kan worden ingesteld, is 400. Als niets wordt gespecificeerd, dan kan het systeem tot veelvoudige duizenden verbindingen afhankelijk van het dynamische schrapen van het systeem openen.
+>
+>Wanneer de het plafonneren configuratie wordt opgesteld, als geen &quot;maxHttpConnection&quot;waarde is verstrekt, wordt het gebrek &quot;maxHttpConnection = -1&quot;toegevoegd in de opgestelde configuratie, betekenend dat Journey Optimizer de standaardwaarde van het systeem zal gebruiken.
 
 ### Voorbeeld:
 
@@ -73,14 +75,12 @@ Hier is de basisstructuur van een eindpuntconfiguratie:
   ],
   "services": {
     "dataSource": {
-      "maxHttpConnections": 50,
       "rating": {
         "maxCallsCount": 500,
         "periodInMs": 1000
       }
     }
-  },
-  "orgId": "<IMS Org Id>"
+  }
 }
 ```
 
