@@ -7,9 +7,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 7c56deac0deb0863fff5ad9416d69f632f92acc8
+source-git-commit: 3de5f29c8a79ab540ffc961c3e4d4850a8b93ab3
 workflow-type: tm+mt
-source-wordcount: '1655'
+source-wordcount: '1656'
 ht-degree: 1%
 
 ---
@@ -307,7 +307,7 @@ De **[!UICONTROL Exclude Reasons]** en **[!UICONTROL Error Reasons]** in grafiek
 +++
 
 
-## Hoe kan ik-video {#channel-report-video}
+## Kanaalrapport (video) {#channel-report-video}
 
 Leer hoe u rapporten op kanaalniveau in deze video kunt openen, navigeren en exporteren
 
