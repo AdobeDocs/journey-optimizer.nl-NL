@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 92cf1d4a350359adbbad93c4006ec7a0e3902397
+source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,10 @@ Uw dashboard wordt nu opgeslagen. Uw verschillende wijzigingen worden opnieuw to
 
 ## Uw rapporten exporteren {#export-reports}
 
-U kunt uw verschillende rapporten eenvoudig exporteren naar de indelingen PDF of CSV, zodat u deze kunt delen of afdrukken.
+U kunt uw verschillende rapporten eenvoudig exporteren naar de indelingen PDF of CSV, zodat u deze kunt delen of afdrukken. De stappen voor het exporteren van rapporten worden in de onderstaande tabbladen beschreven.
+
+➡️ [Ontdek deze functie in video](#video-csv)
+
 
 >[!BEGINTABS]
 
@@ -110,3 +113,11 @@ Uw rapport is nu beschikbaar voor weergave of delen in een PDF-bestand.
 
 
 >[!ENDTABS]
+
+
+### Rapporten exporteren (video) {#video-csv}
+
+Leer hoe u een CSV-rapport voor een rapport en voor één widget downloadt in de volgende Hoe kan ik-video.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424603?quality=12)
+

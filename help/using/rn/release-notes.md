@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a5cb591a3340f2af27806967e5a1403be9fe26e4
+source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
 workflow-type: tm+mt
-source-wordcount: '4009'
-ht-degree: 9%
+source-wordcount: '4017'
+ht-degree: 8%
 
 ---
 
@@ -140,7 +140,7 @@ U kunt nu bestanden versleutelen die zijn bedoeld voor uw direct-mailproviders w
 
 **Rapportage**
 
-U kunt nu Journey Optimizer-rapporten exporteren als CSV-bestand. [Meer informatie](../reports/global-report.md#export-reports)
+U kunt nu Journey Optimizer-rapporten exporteren als CSV-bestand. Meer informatie in het dialoogvenster [gedetailleerde documentatie](../reports/global-report.md#export-reports) en de [hoe kan ik-video](../reports/global-report.md#video-csv).
 
 **Assets**
 
