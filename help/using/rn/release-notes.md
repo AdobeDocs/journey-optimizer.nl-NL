@@ -4,7 +4,7 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
+source-git-commit: 8e9d3f6916ee5a0b6919446b95c716cc6648fbbc
 workflow-type: tm+mt
 source-wordcount: '4017'
 ht-degree: 8%
@@ -57,7 +57,7 @@ Bovendien vereenvoudigt de berekende attributen segmentatie en reisworkflows om 
 <p>De functie Kanaalrapport biedt analisten en marketers een uitgebreid overzicht van verkeers- en betrokkenheidsgegevens op kanaalniveau.</p>
 <p>Als u toegang wilt krijgen tot <b>Rapport</b> menu, moet u de <b>Kanaalrapporten weergeven</b> toestemming.</p>
 <img src="assets/channel-reports.png"/>
-<p>Raadpleeg voor meer informatie de <a href="../reports/channel-report.md">gedetailleerde documentatie</a>, en <a href="../reports/channel-report.md#how-to-video-channel-report-video">hoe kan ik-video</a>.</p>
+<p>Raadpleeg voor meer informatie de <a href="../reports/channel-report.md">gedetailleerde documentatie</a>, en <a href="../reports/channel-report.md#channel-report-video">hoe kan ik-video</a>.</p>
 </tr>
 </tbody>
 </table>
