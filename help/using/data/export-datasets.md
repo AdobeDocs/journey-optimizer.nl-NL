@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: 08f24547237c01c581248d675c55c834c261b173
+source-git-commit: a5cb591a3340f2af27806967e5a1403be9fe26e4
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '984'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,6 @@ U kunt gegevenssets exporteren naar 6 cloudopslagdoelen die toegankelijk zijn va
 
 ![](assets/dataset-export-setup.png)
 
->[!AVAILABILITY]
->
->Deze bestemmingen zijn allemaal beschikbaar in bèta en kunnen worden gewijzigd.
 
 Gedetailleerde informatie over elke bestemming is beschikbaar in de documentatie van Adobe Experience Platform:
 
