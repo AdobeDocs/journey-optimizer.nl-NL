@@ -6,9 +6,9 @@ description: Leer hoe u met berekende kenmerken werkt.
 feature: Profiles
 role: User
 level: Beginner
-source-git-commit: d2619b3b3871073b35faf04adba71dbb1ddd29a1
+source-git-commit: 608394da88d42095a1adc517a067c725eac52707
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Elk verwerkt kenmerk is een profielkenmerk dat u kunt gebruiken voor segmentatie
 
 Als u berekende kenmerken wilt maken, navigeert u naar de **[!UICONTROL Computed attributes]** in de **[!UICONTROL Profiles]** aan de linkerzijde.
 
-Van dit scherm, kunt u gegevens verwerkte attributen construeren door regels te bouwen die gebeurtenisattributen, samengevoegde functies, naast een gespecificeerde raadplegingsperiode combineren. U kunt bijvoorbeeld de som van de aankopen berekenen die in de laatste drie maanden zijn gedaan, het meest recente object identificeren dat wordt weergegeven door een profiel met wie in de afgelopen week geen aankoop is gedaan, of de totale bonuspunten optellen die elk profiel heeft geaccumuleerd.
+Vanuit dit scherm kunt u berekende kenmerken samenstellen door regels te maken die gebeurteniskenmerken, statistische functies en een bepaalde terugzoekperiode combineren. U kunt bijvoorbeeld de som van de aankopen berekenen die in de laatste drie maanden zijn gedaan, het meest recente object identificeren dat wordt weergegeven door een profiel dat de afgelopen week geen aankoop heeft gedaan, of de totale bonuspunten optellen die elk profiel heeft geaccumuleerd.
 
 ![](assets/computed-attributes.png)
 
@@ -66,6 +66,6 @@ Gedetailleerde informatie over het toevoegen van veldgroepen aan de Adobe Experi
 
 Berekende kenmerken bieden een veelzijdige set mogelijkheden binnen de functie Reisoptimalisatie. U kunt ze voor verschillende doeleinden gebruiken, zoals het personaliseren van berichtinhoud, het maken van nieuwe soorten publiek of het splitsen van reizen op basis van een specifiek berekend kenmerk. U kunt bijvoorbeeld het pad van een rit splitsen op basis van de totale aankopen van een profiel in de laatste drie weken door één berekend kenmerk toe te voegen aan een Condition-activiteit. U kunt een e-mailbericht ook personaliseren door het laatst bekeken item voor elk profiel weer te geven.
 
-Aangezien berekende kenmerken profielkenmerkvelden zijn die in het schema van de profielunie zijn gemaakt, kunt u ze openen via de Expressieeditor in het dialoogvenster **SystemComputedAttributes** veldgroep. Daarna kunt u het berekende kenmerk aan uw expressies toevoegen en deze als elk ander profielkenmerk behandelen om de gewenste bewerkingen uit te voeren.
+Aangezien berekende kenmerken profielkenmerkvelden zijn die in het schema van de profielunie zijn gemaakt, kunt u ze openen via de Expressieeditor in het dialoogvenster **SystemComputedAttributes** veldgroep. Vanaf dat punt kunt u het berekende kenmerk aan uw expressies toevoegen en deze als elk ander profielkenmerk behandelen om de gewenste bewerkingen uit te voeren.
 
 ![](assets/computed-attributes-ajo.png)
