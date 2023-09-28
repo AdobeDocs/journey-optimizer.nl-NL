@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 28c98b8982123f0538ca86870a82bdd6228dd674
+source-git-commit: 6230eb26ca577398c09465207b27e87ea3d813d2
 workflow-type: tm+mt
-source-wordcount: '4023'
+source-wordcount: '4068'
 ht-degree: 8%
 
 ---
@@ -137,6 +137,10 @@ Met een nieuwe optie in de configuratie van het e-mailoppervlak kunt u ervoor ki
 **Sms-kanaal**
 
 Twee nieuwe velden, **Bericht bij aanmelden** en **Help-bericht**, zijn toegevoegd aan het API-configuratiescherm, zodat gebruikers reacties voor binnenkomende trefwoorden kunnen aanpassen. Merk op dat dit slechts voor de leverancier van SMS van Sinch beschikbaar is.
+
+**Direct mailkanaal**
+
+U kunt nu bestanden versleutelen die zijn bedoeld voor uw direct-mailproviders wanneer deze worden overgebracht naar een server. Om dit te doen, is een nieuw gebied beschikbaar in het dossier dat configuratiescherm verplettert, toestaand u om uw encryptiesleutel te kopiëren-kleven.
 
 **Rapportage**
 
