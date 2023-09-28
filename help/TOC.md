@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+source-git-commit: c5c7d4d050958fac9b91e2a2a4c4a7a6640d1f06
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 31%
@@ -232,7 +232,6 @@ ht-degree: 31%
 + Webkanaal {#web}
    + [Aan de slag met webkanaal](using/web/get-started-web.md)
    + [Voorwaarden voor webkanalen](using/web/web-prerequisites.md)
-   + [Implementatie van één pagina](using/web/web-spa-implementation.md)
    + [Webervaringen maken](using/web/create-web.md)
    + Webpagina&#39;s van auteurs {#author-web-pages}
       + [Webpagina-inhoud bewerken](using/web/edit-web-content.md)
@@ -480,6 +479,7 @@ ht-degree: 31%
    + [Ondersteuning voor archivering](using/configuration/archiving-support.md)
    + [Uitvoeringadressen wijzigen](using/configuration/primary-email-addresses.md)
    + [Regels voor frequenties configureren](using/configuration/frequency-rules.md)
+   + [Toepassingen van één pagina implementeren](using/web/web-spa-implementation.md)
    + Journey&#39;s configureren {#configure-journeys}
       + [Informatie over gegevensbronnen, gebeurtenissen en handelingen](using/configuration/about-data-sources-events-actions.md)
       + Integreren met externe systemen {#external-systems}
