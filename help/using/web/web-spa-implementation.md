@@ -4,17 +4,15 @@ description: Leer hoe u SPA weergaven implementeert in Journey Optimizer
 feature: Web Channel
 topic: Content Management
 role: User
-level: Beginner
-hide: true
-hidefromtoc: true
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+level: Intermediate
+source-git-commit: 2c1b53120913580be627b0a26cf4b386f32fcf1b
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
 
-# Implementatie van één pagina {#web-spa-implementation}
+# Toepassingen van één pagina implementeren (SPA) {#web-spa-implementation}
 
 Adobe Experience Platform Web SDK verstrekt rijke eigenschappen die uw zaken uitrusten om verpersoonlijking op volgende-generatie, cliënt-zijtechnologieën zoals enig-paginatoepassingen (SPA) uit te voeren.
 
@@ -24,7 +22,7 @@ De moderne Webtoepassingen, zoals enig-paginatoepassingen (SPA), hebben in plaat
 
 ![](assets/web-spa-vs-traditional-lifecycle.png)
 
-## Voordelen van AEP Web SDK voor SPA
+## Voordelen van Adobe Experience Platform Web SDK voor SPA {#web-spa-benefits}
 
 Hier volgen enkele voordelen van Adobe Experience Platform Web SDK voor uw single-page toepassingen:
 
@@ -32,7 +30,7 @@ Hier volgen enkele voordelen van Adobe Experience Platform Web SDK voor uw singl
 * Verbeter de gebruikerservaring op uw site aanzienlijk omdat aanbiedingen direct via de cache worden weergegeven zonder vertraging die door traditionele serveraanroepen is geïntroduceerd.
 * Eenmalige ontwikkelaarsopstelling laat marketers toe om verpersoonlijking en experimenteringsactiviteiten via de visuele redacteur van het Web van Adobe Journey Optimizer op uw SPA tot stand te brengen en in werking te stellen.
 
-## XDM-weergaven en toepassingen van één pagina
+## XDM-weergaven en toepassingen van één pagina {#web-spa-xdm}
 
 De Adobe **[!UICONTROL Journey Optimizer]** de Web redacteur haalt voordeel uit een concept genoemd meningen: een logische groep van visuele elementen die samen een SPA ervaring maken. Een toepassing van één pagina kan daarom worden beschouwd als een overgang door meningen, in plaats van URLs, die op gebruikersinteractie wordt gebaseerd. Een weergave kan doorgaans een hele site, een enkele pagina of gegroepeerde visuele elementen op een pagina vertegenwoordigen.
 
@@ -91,7 +89,7 @@ Hiervoor moeten de volgende stappen worden uitgevoerd om een eenmalige ontwikkel
 
 Deze sectie schetst twee voorbeelden die tonen hoe te om te roepen `sendEvent()` in React voor een hypothetische e-commerce SPA.
 
-### Voorbeeld 1: Introductiepagina A/B-test
+### Voorbeeld 1: Introductiepagina A/B-test {#web-spa-sample-1}
 
 Het marketing team wil tests A/B op de volledige homepage in werking stellen.
 
@@ -136,7 +134,7 @@ history.listen(onViewChange);
 <Router history={hashHistory} onUpdate={onViewChange} >
 ```
 
-### Voorbeeld 2: Persoonlijke producten
+### Voorbeeld 2: Persoonlijke producten {#web-spa-sample-2}
 
 Het marketingteam wil de tweede rij producten aanpassen door de kleur van het prijsetiket in rood te veranderen nadat een gebruiker klikt om alle producten van Men te zien.
 

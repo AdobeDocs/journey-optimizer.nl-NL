@@ -6,10 +6,10 @@ description: Leer hoe u frequentieregels definieert
 feature: Overview
 topic: Content Management
 role: User
-level: Beginner
+level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 2c1b53120913580be627b0a26cf4b386f32fcf1b
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 2%
@@ -65,11 +65,11 @@ Meer informatie over machtigingen in [deze sectie](../administration/high-low-pe
 
 Volg onderstaande stappen om een nieuwe regel te maken.
 
-1. Toegang krijgen tot **[!UICONTROL Message frequency rules]** lijst en klik vervolgens op **[!UICONTROL Create rule]**.
+1. Toegang krijgen tot de **[!UICONTROL Message frequency rules]** lijst en klik vervolgens op **[!UICONTROL Create rule]**.
 
    ![](assets/message-rules-create.png)
 
-1. Definieer de regelnaam.
+1. Bepaal de regelnaam.
 
    ![](assets/message-rules-details.png)
 
@@ -77,9 +77,9 @@ Volg onderstaande stappen om een nieuwe regel te maken.
 
    >[!NOTE]
    >
-   >Alleen de **[!UICONTROL Marketing]** -categorie is beschikbaar.
+   >Momenteel alleen de **[!UICONTROL Marketing]** -categorie is beschikbaar.
 
-1. Plaats het in kaart brengen voor uw regel, betekenend het maximumaantal berichten dat naar een individueel gebruikersprofiel elke maand kan worden verzonden.
+1. Plaats het maximum voor uw regel, betekenend het maximumaantal berichten dat naar een individueel gebruikersprofiel elke maand kan worden verzonden.
 
    ![](assets/message-rules-capping.png)
 
@@ -113,7 +113,7 @@ Het activeren van een regel heeft invloed op berichten waarop deze van toepassin
 
 >[!NOTE]
 >
->Het kan 10 minuten duren voordat een regel volledig geactiveerd is. U hoeft geen berichten te wijzigen of ritten opnieuw te publiceren voordat een regel van kracht wordt.
+>Het kan tot 10 minuten duren voordat een regel volledig geactiveerd is. U hoeft geen berichten te wijzigen of ritten opnieuw te publiceren voordat een regel van kracht wordt.
 
 Als u een berichtfrequentieregel wilt deactiveren, klikt u op de ellips naast de regel en selecteert u **[!UICONTROL Deactivate]**.
 
@@ -131,13 +131,13 @@ Volg onderstaande stappen om een frequentieregel toe te passen op een bericht.
 
 1. Wanneer u een [reis](../building-journeys/journey-gs.md), voeg een bericht toe door één van de kanalen te selecteren u voor uw regel bepaalde.
 
-1. Selecteer de categorie die u voor de [regel die u hebt gemaakt](#create-new-rule).
+1. Selecteer de categorie die u voor de [regel gemaakt](#create-new-rule).
 
    ![](assets/journey-message-category.png)
 
    >[!NOTE]
    >
-   >Alleen de **[!UICONTROL Marketing]** de categorie is beschikbaar voor berichtfrequentieregels.
+   >Momenteel alleen de **[!UICONTROL Marketing]** de categorie is beschikbaar voor berichtfrequentieregels.
 
 1. U kunt op de knop **[!UICONTROL Frequency rule]** koppeling om het scherm met frequentieregels weer te geven in een nieuw tabblad. [Meer informatie](#access-rules)
 
@@ -159,12 +159,12 @@ U kunt verschillende regels voor berichtfrequentie combineren, zoals in het onde
 
 1. [Een regel maken](#create-new-rule) gebeld *Algemene marketinglimiet*:
 
-   * Selecteer E-mail- en pushkanalen.
+   * Selecteer E-mail en Push kanalen.
    * Afbeelding instellen op 12.
 
    ![](assets/message-rules-ex-overall-cap.png)
 
-1. Als u het aantal op marketing gebaseerde pushmeldingen dat een gebruiker wordt verzonden verder wilt beperken, maakt u een tweede regel met de naam *Push Marketing Cap*:
+1. Om het aantal op marketing-gebaseerde pushberichten verder te beperken dat een gebruiker wordt verzonden, creeer een tweede regel genoemd *Push Marketing Cap*:
 
    * Selecteer Push-kanaal.
    * Afbeelding instellen op 4.
