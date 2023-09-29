@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: dbdc363ccfcaa99b02289fb365dbece5d08ed544
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
@@ -24,7 +24,7 @@ In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS
 >Communicatie van tekstberichten kan afhankelijk van zijn aard, de plaats van waar u uw tekstberichten verzendt, en de plaats van uw ontvangers onderworpen zijn aan diverse wettelijke nalevingsvereisten. Hoewel Adobe Journey Optimizer de berichten over lange codes en gratis nummers afhandelt zoals hieronder beschreven, raadpleegt u uw juridische adviseur om ervoor te zorgen dat uw communicatie over tekstberichten voldoet aan alle toepasselijke wettelijke nalevingsvereisten.
 >
 
-## Oorspronkelijke binnenkomende trefwoorden{#sms-native-keywords}
+## Oorspronkelijke binnenkomende trefwoorden {#sms-native-keywords}
 
 Adobe Journey Optimizer verwerkt standaard de volgende standaardantwoordberichten in de Engelse taal voor Toll-Free en Long Code-berichten: STOP, UNSTOP, START, QUIT, CANCEL, END en UNSUBSCRIBE. Merk op dat slechts Sinch en Infobip inheemse sleutelwoorden steunen wanneer gebruikt met Journey Optimizer.
 
@@ -33,7 +33,7 @@ Deze trefwoorden activeren doorgaans een automatische standaardreactie van uw ex
 Er zijn geen stappen vereist om ervoor te zorgen dat de mogelijkheden voor SMS-opt-out in Adobe Journey Optimizer werken als de trefwoordreacties STOP, UNSTOP, START, QUIT, CANCEL, END en UNSUBSCRIBE automatisch worden herkend. De status van de optie om profielen te weigeren wordt in real time bijgewerkt in Adobe Journey Optimizer.
 
 
-## Lijsten van gewezen personen{#sms-blocklists}
+## Lijsten van gewezen personen {#sms-blocklists}
 
 Naast het tegenhouden van Adobe Journey Optimizer verzendt op basis van de opt-out status (voor directe integratie met Twilio of Sinch), handhaven de meeste de gatewayleveranciers van SMS ook een lijst van gewezen personen die u verzekert dat een bericht van SMS niet aan een individu wordt geleverd die heeft verkozen om uit te kiezen. Als u een andere provider dan Sinch of Twilio gebruikt en een SMS-bericht verzendt via [aangepast kanaal](../building-journeys/using-custom-actions.md)moet u dit bevestigen met uw provider.
 
@@ -46,7 +46,7 @@ Journey Optimizer biedt echter wel ondersteuning voor wereldwijde opt-outs op ba
 
 ## Alfanumerieke afzender-id {#alphanumeric}
 
-Alfanumerieke identiteitskaart van de Afzender is slechts voor unidirectioneel overseinen, en kan binnenkomende berichten niet ontvangen. Dientengevolge, START van het SMS van Adobe Journey Optimizer, de sleutelwoorden van HELP zijn niet van toepassing op AlphaAfzender IDs. U moet andere instructies verstrekken, zoals het schrijven aan het team van de Steun, het roepen van een de telefoonlijn van de Steun, of het sms&#39;en van een ander telefoonaantal of code om gebruikers toe te staan om van berichten te kiezen die via Alphanumeric identiteitskaart van de Afzender worden verzonden.
+Alfanumerieke identiteitskaart van de Afzender is slechts voor unidirectioneel overseinen, en kan binnenkomende berichten niet ontvangen. Dientengevolge, START van het SMS van Adobe Journey Optimizer, de sleutelwoorden van HELP zijn niet van toepassing voor de Afzender IDs van de Alpha. U moet andere instructies verstrekken, zoals het schrijven aan het team van de Steun, het roepen van een de telefoonlijn van de Steun, of het sms&#39;en van een ander telefoonaantal of code om gebruikers toe te staan om van berichten te kiezen die via Alphanumeric identiteitskaart van de Afzender worden verzonden.
 
 ## Video {#video-sms}
 

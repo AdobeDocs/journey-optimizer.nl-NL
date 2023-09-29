@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8e9d3f6916ee5a0b6919446b95c716cc6648fbbc
+source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
 workflow-type: tm+mt
-source-wordcount: '4017'
+source-wordcount: '4085'
 ht-degree: 8%
 
 ---
@@ -132,7 +132,9 @@ Met een nieuwe optie in de configuratie van het e-mailoppervlak kunt u ervoor ki
 
 **Sms-kanaal**
 
-Twee nieuwe velden, **Bericht bij aanmelden** en **Help-bericht**, zijn toegevoegd aan het API-configuratiescherm, zodat gebruikers reacties voor binnenkomende trefwoorden kunnen aanpassen. Merk op dat dit slechts voor de leverancier van SMS van Sinch beschikbaar is. [Meer informatie](../sms/sms-configuration.md)
+* Twee nieuwe velden, **Bericht bij aanmelden** en **Help-bericht**, zijn toegevoegd aan het API-configuratiescherm, zodat gebruikers reacties voor binnenkomende trefwoorden kunnen aanpassen. Merk op dat dit slechts voor de leverancier van SMS van Sinch beschikbaar is. [Meer informatie](../sms/sms-configuration.md#create-api)
+
+* De opt-out van SMS wordt niet meer beheerd op kanaalniveau. Het is nu numeriek-specifiek, wat betekent dat als sommige profielen van een bepaald aantal of korte code opteren, u hen nog berichten van andere aantallen kunt verzenden u kunt gebruiken om SMS berichten te verzenden. Met een nieuwe optie kunt u de optie **Uitschakelen-nummer** u wilt gebruiken voor een bepaald oppervlak. [Meer informatie](../sms/sms-configuration.md#message-preset-sms)
 
 **Direct mailkanaal**
 

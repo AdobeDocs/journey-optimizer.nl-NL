@@ -11,9 +11,9 @@ keywords: IP, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
 exl-id: 0fd0ba66-8ad2-4239-a6e0-ea29ea2a4a15
-source-git-commit: b657f4380026988ac324ee87c96375734a9b3961
+source-git-commit: c7a36d895927e616591627a6afc05d1fa43b7c51
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1618'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,11 @@ Elke fase bestaat uit verschillende uitvoeringen, waaraan u één campagne toewi
 >title="Domeingroepen uitsluiten"
 >abstract="Selecteer de domeinen die u van de huidige fase wilt uitsluiten. De uitsluiting van het domein vereist een niet-uitgevoerde fase, zodat kunt u een lopende fase moeten verdelen om uitsluitingen toe te voegen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-execution.html#split-phase" text="Een fase splitsen"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_phases"
+>title="Definieer de fasen van uw abonnement"
+>abstract="Elke fase bestaat uit verschillende uitvoeringen, waaraan u één campagne toewijst."
 
 <!--You need to associate the campaign and audience at phase level and turns on some settings as needed for all runs associated with a single creative/campaign
 
@@ -103,6 +108,31 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >Als u alle fasen van het IP warmlopingsplan schrapt, wordt het geadviseerd om een plan opnieuw te uploaden. [Meer informatie](#re-upload-plan)
 
 ## De uitvoeringen definiëren {#define-runs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_run"
+>title="Elke uitvoering definiëren"
+>abstract="Definieer en activeer elke uitvoering voor alle fasen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_last_engagement"
+>title="Filter op betrokkenheid"
+>abstract="Deze kolom is een filter dat alleen gericht is op de gebruikers die de afgelopen 20 dagen bijvoorbeeld met uw merk zijn verbonden. U kunt deze instelling ook wijzigen via het dialoogvenster **Uitvoeren bewerken** -optie."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_retry"
+>title="Een tijdvenster instellen"
+>abstract="U kunt een tijdvenster bepalen waarin de IP warmup campagne kan worden uitgevoerd voor het geval dat er om het even welke vertragingen in de segmentatietaak zijn."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_pause"
+>title="Uitvoeren annuleren met publieksfouten"
+>abstract="Selecteer deze optie als u een uitvoering wilt annuleren als de gekwalificeerde profielen kleiner zijn dan de doelprofielen nadat het publiek voor die uitvoering is geëvalueerd."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_ip_warmup_qualified"
+>title="De gekwalificeerde profielen weergeven"
+>abstract="In deze kolom wordt het aantal gekwalificeerde profielen weergegeven. Als het publiek voor een run is geëvalueerd en er meer doelprofielen zijn dan gekwalificeerde profielen, wordt de run nog steeds uitgevoerd, tenzij de **Pauzeren voor fouten** is ingeschakeld. In dit geval wordt de uitvoering geannuleerd."
 
 1. Selecteer een schema voor elke run.
 
