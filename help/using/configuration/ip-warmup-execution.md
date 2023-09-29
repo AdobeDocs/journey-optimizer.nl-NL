@@ -11,9 +11,9 @@ keywords: IP, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
 exl-id: 0fd0ba66-8ad2-4239-a6e0-ea29ea2a4a15
-source-git-commit: 1d5bc1de8a33401c165eeee4c8159fc19087c9c9
+source-git-commit: b657f4380026988ac324ee87c96375734a9b3961
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1442'
 ht-degree: 0%
 
 ---
@@ -122,23 +122,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-edit-run.png)
 
-1. Selecteer de **[!UICONTROL Pause for errors]** als u de uitvoering wilt pauzeren voor het geval er een fout optreedt.<!--can't see the Paused status for runs? Is it failed?-->
+1. Selecteer de **[!UICONTROL Pause for errors]** als de gekwalificeerde profielen kleiner zijn dan de doelprofielen, kunt u een uitvoering annuleren nadat het publiek voor die uitvoering is geëvalueerd.
 
    ![](assets/ip-warmup-plan-pause.png)
 
-   Als het beoogde aantal profielen lager is dan verwacht, wordt de uitvoering geannuleerd nadat de segmentatietaak is uitgevoerd.
-
-1. **[!UICONTROL Activate]** de run. Zorg ervoor dat u voldoende tijd hebt gepland om de segmentatietaak uit te voeren.
-
-   ![](assets/ip-warmup-plan-activate.png)
-
-   >[!CAUTION]
-   >
-   >Elke run moet ten minste 12 uur voor de werkelijke verzendtijd worden geactiveerd. Anders kan de segmentatie niet worden voltooid. <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
-
-   <!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
-
-   <!--Upon activation, when the segment evaluation happens, more segments will be created by the IP warmup service and will be leveraged in an audience composition and a new audience will be created for each run splitted into the different selected domains.-->
+1. **[!UICONTROL Activate]** de run. [Meer informatie](#activate-run)
 
 1. De status van deze uitvoering verandert in **[!UICONTROL Live]**. De verschillende uitvoerstatussen worden vermeld in [deze sectie](#monitor-plan). Als de uitvoering van de campagne niet is gestart, kunt u een live run stoppen.<!--why?-->
 
@@ -152,6 +140,37 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
+## Een uitvoering activeren {#activate-run}
+
+Selecteer de optie **[!UICONTROL Activate]** knop.
+
+Zorg ervoor dat u voldoende tijd hebt gepland om de segmentatietaak uit te voeren.
+
+![](assets/ip-warmup-plan-activate.png)
+
+>[!CAUTION]
+>
+>Elke run moet ten minste 12 uur voor de werkelijke verzendtijd worden geactiveerd. Anders kan de segmentatie niet worden voltooid.
+
+Wanneer u een run activeert, worden automatisch meerdere segmenten gemaakt:
+
+* Indien de eerste uitvoering van een fase wordt geactiveerd:
+
+   * Er wordt een segment gemaakt voor het (eventuele) uitgesloten campagnepubliek.
+   * Een ander segment wordt gecreeerd voor de (als om het even welk) uitgesloten domeingroepen.
+
+* Bij het activeren van een uitvoering:
+
+   * Er wordt een ander segment gemaakt voor het laatste betrokkenheidsfilter.
+   * Er wordt een publiekscompositie gemaakt die overeenkomt met het publiek waarnaar de campagne wordt verzonden.
+
+<!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
+
+<!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
+
+<!--Upon activation, when the segment evaluation happens, more segments will be created by the IP warmup service and will be leveraged in an audience composition and a new audience will be created for each run splitted into the different selected domains.-->
+
+
 ## Uw abonnement beheren {#manage-plan}
 
 Op om het even welk punt, als uw IP warmup plan niet zoals verwacht presteert, kunt u de hieronder acties nemen.
@@ -164,7 +183,7 @@ Als u een nieuwe fase wilt toevoegen die van een specifieke looppas begint, sele
 
 Er wordt een nieuwe fase gemaakt voor de resterende uitvoeringen van de huidige fase.
 
-Als u deze optie bijvoorbeeld selecteert voor Run #4, worden Runs #4 tot en met #8 verplaatst naar een nieuwe fase.
+Als u deze optie bijvoorbeeld selecteert voor Run #4, worden Runs #4 tot en met #8 verplaatst naar een nieuwe fase vlak na de huidige fase.
 
 Voer de stappen uit [boven](#define-phases) de nieuwe fase te definiëren.
 
@@ -196,13 +215,23 @@ Als uw IP warmup plan niet zoals verwacht uitvoert (bijvoorbeeld, als u opmerkt 
 
 ![](assets/ip-warmup-re-upload-plan.png)
 
-Alle eerder uitgevoerde looppas zal worden duidelijk aangezien voltooid. Het nieuwe plan wordt getoond onder het eerste plan.
+Alle eerder uitgevoerde looppas zal read-only zijn. Het nieuwe plan wordt getoond onder het eerste plan.
 
 Voer de stappen uit [boven](#define-phases) de fases van het nieuwe plan te bepalen.
 
 >[!NOTE]
 >
->De IP details van het warmup plan zullen veranderen zoals per het onlangs geupload dossier. Dit heeft geen invloed op de live en voltooide run.
+>De IP details van het warmup plan zullen veranderen zoals per het onlangs geupload dossier. De eerder uitgevoerde looppas (ongeacht hun [status](#monitor-plan)) worden niet beïnvloed.
+
+Laten we een voorbeeld nemen:
+
+* Met het aanvankelijke IP warmup plan, had Fase 2 9 looppas.
+
+* Er zijn vier uitvoeringen uitgevoerd (ongeacht of deze zijn mislukt, voltooid of geannuleerd - zolang er is geprobeerd een run uit te voeren, is dit een uitgevoerde run).
+
+* Als u een nieuw plan opnieuw uploadt, zal Fase 2 met de eerste 4 uitgevoerde looppas op read-only wijze gaan.
+
+* De resterende 5 looppas (die in ontwerpstaat zijn) wordt verplaatst naar een nieuwe fase (Fase 3) die volgens het onlangs geüploade plan verschijnt.
 
 ## Het abonnement controleren {#monitor-plan}
 
@@ -216,6 +245,6 @@ Een run kan de volgende statussen hebben:
 
 * **[!UICONTROL Draft]** : telkens wanneer een run wordt gemaakt, wanneer [het opstellen van een nieuw plan](ip-warmup-plan.md) of [toevoegen, run](#define-runs) vanuit de gebruikersinterface **[!UICONTROL Draft]** status.
 * **[!UICONTROL Live]**: wanneer u een run activeert, neemt deze de **[!UICONTROL Live]** status.
-* **[!UICONTROL Completed]**<!--TBC-->: de uitvoering van de campagne voor deze run is voltooid. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
+* **[!UICONTROL Completed]**: de uitvoering van de campagne voor deze run is voltooid. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
 * **[!UICONTROL Cancelled]**: a **[!UICONTROL Live]** uitvoering is geannuleerd met de opdracht **[!UICONTROL Stop]** knop. Deze knop is alleen beschikbaar als de uitvoering van de campagne niet is gestart. [Meer informatie](#define-runs)
-* **[!UICONTROL Failed]**: er is een fout aangetroffen door het systeem of de campagne die voor de huidige fase is gebruikt, is gestopt<!--what should the user do in that case?-->.
+* **[!UICONTROL Failed]**: er is een fout aangetroffen door het systeem of de campagne die voor de huidige fase is gebruikt, is gestopt. Als een run mislukt, kunt u een andere run plannen voor de volgende dag.
