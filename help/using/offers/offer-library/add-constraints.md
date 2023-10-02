@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: c710f647707168105a863ae8b0ea087b7d015aa5
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2294'
 ht-degree: 1%
 
 ---
@@ -150,7 +150,7 @@ Volg de onderstaande hoofdstappen om de uitlijning in te stellen.
 
    >[!CAUTION]
    >
-   >Het is niet mogelijk om frequentie het in- en uitschakelen voor eerder gemaakte aanbiedingen in of uit te schakelen. Hiervoor moet u het voorstel dupliceren of een nieuw voorstel maken.
+   >Het is niet mogelijk om frequentie het in- en uitschakelen voor eerder gemaakte aanbiedingen in of uit te schakelen. Hiervoor moet u een nieuw voorstel maken.
 
 1. Definiëren welke **[!UICONTROL Capping event]** zal in aanmerking worden genomen om de teller te verhogen. [Meer informatie](#capping-event)
 

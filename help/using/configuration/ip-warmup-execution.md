@@ -11,9 +11,9 @@ keywords: IP, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: c4ab97999d000d969f6f09f4d84be017d1288f94
+source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
@@ -138,11 +138,11 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Optioneel, kunt u een tijdvenster bepalen waarin de IP warmup campagne kan worden uitgevoerd in het geval dat er om het even welke vertragingen in de segmentatietaak zijn. Als u dit wilt doen, klikt u op het pictogram Eigenschappen linksboven, naast de naam van het plan en gebruikt u de knop **[!UICONTROL Retry run time]** vervolgkeuzelijst voor het selecteren van een duur tot 240 minuten (4 uur).
+1. Optioneel, kunt u een tijdvenster bepalen waarin de IP warmup campagne kan worden uitgevoerd voor het geval er om het even welke vertragingen in zijn [segmentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} taak. Als u dit wilt doen, klikt u op het pictogram Eigenschappen linksboven, naast de naam van het plan en gebruikt u de knop **[!UICONTROL Retry run time]** vervolgkeuzelijst voor het selecteren van een duur tot 240 minuten (4 uur).
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 
-   Als u bijvoorbeeld een verzendtijd instelt op een bepaalde dag om 21.00 uur en 120 minuten selecteert als de runtime voor opnieuw proberen, is dit een periode van 2 uur voor de uitvoering van de segmentatietaak.
+   Als u bijvoorbeeld een verzendtijd instelt op een bepaalde dag om 9.00 uur en 120 minuten selecteert als de runtime voor opnieuw proberen, biedt dit een periode van 2 uur (9.00 - 11.00 uur) voor de segmentatietaak die moet worden uitgevoerd.
 
    >[!NOTE]
    >
@@ -158,7 +158,9 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 1. **[!UICONTROL Activate]** de run. [Meer informatie](#activate-run)
 
-1. De status van deze uitvoering verandert in **[!UICONTROL Live]**. De verschillende uitvoerstatussen worden vermeld in [deze sectie](#monitor-plan). Als de uitvoering van de campagne niet is gestart, kunt u een live run stoppen.<!--why?-->
+1. De status van deze uitvoering verandert in **[!UICONTROL Live]**. De verschillende uitvoerstatussen worden vermeld in [deze sectie](#monitor-plan).
+
+1. Als de uitvoering van de campagne niet is gestart, kunt u een live run stoppen.<!--why?-->
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
@@ -166,7 +168,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Nadat de uitvoering van de campagne is gestart, **[!UICONTROL Stop]** wordt niet meer beschikbaar.
 
-1. Als u een uitvoering wilt toevoegen, selecteert u **[!UICONTROL Add a run below]** van het pictogram met drie punten.
+1. Als u een uitvoering wilt toevoegen, selecteert u **[!UICONTROL Add a run below]** in het pictogram Meer handelingen.
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
@@ -174,7 +176,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 Selecteer de optie **[!UICONTROL Activate]** knop.
 
-Zorg ervoor dat u voldoende tijd hebt gepland om de segmentatietaak uit te voeren.
+Zorg ervoor dat u voldoende tijd hebt gepland om de [segmentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} uit te voeren taak.
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -182,17 +184,17 @@ Zorg ervoor dat u voldoende tijd hebt gepland om de segmentatietaak uit te voere
 >
 >Elke run moet ten minste 12 uur voor de werkelijke verzendtijd worden geactiveerd. Anders kan de segmentatie niet worden voltooid.
 
-Wanneer u een run activeert, worden automatisch meerdere segmenten gemaakt:
+Wanneer u een run activeert, worden automatisch meerdere segmenten gemaakt.
 
 * Indien de eerste uitvoering van een fase wordt geactiveerd:
 
-   * Er wordt een segment gemaakt voor het (eventuele) uitgesloten campagnepubliek.
+   * A [segment](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"} wordt gemaakt voor het (eventuele) uitgesloten campagnepubliek.
    * Een ander segment wordt gecreeerd voor de (als om het even welk) uitgesloten domeingroepen.
 
 * Bij het activeren van een uitvoering:
 
    * Er wordt een ander segment gemaakt voor het laatste betrokkenheidsfilter.
-   * Er wordt een publiekscompositie gemaakt die overeenkomt met het publiek waarnaar de campagne wordt verzonden.
+   * An [publiekscompositie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html){target="_blank"} wordt gemaakt voor het publiek waarnaar de campagne wordt verzonden.
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
@@ -200,14 +202,13 @@ Wanneer u een run activeert, worden automatisch meerdere segmenten gemaakt:
 
 <!--Upon activation, when the segment evaluation happens, more segments will be created by the IP warmup service and will be leveraged in an audience composition and a new audience will be created for each run splitted into the different selected domains.-->
 
-
 ## Uw abonnement beheren {#manage-plan}
 
 Op om het even welk punt, als uw IP warmup plan niet zoals verwacht presteert, kunt u de hieronder acties nemen.
 
 ### Een fase splitsen {#split-phase}
 
-Als u een nieuwe fase wilt toevoegen die van een specifieke looppas begint, selecteer **[!UICONTROL Split to a new phase option]** van het pictogram met drie punten.
+Als u een nieuwe fase wilt toevoegen die van een specifieke looppas begint, selecteer **[!UICONTROL Split to a new phase option]** in het pictogram Meer handelingen.
 
 ![](assets/ip-warmup-plan-run-split-run.png)
 
@@ -257,7 +258,7 @@ Laten we een voorbeeld nemen:
 
 * Met het aanvankelijke IP warmup plan, had Fase 2 9 looppas.
 
-* Er zijn vier uitvoeringen uitgevoerd (ongeacht of deze zijn mislukt, voltooid of geannuleerd - zolang er is geprobeerd een run uit te voeren, is dit een uitgevoerde run).
+* Er zijn vier uitvoeringen uitgevoerd (ongeacht of dit is mislukt, voltooid of geannuleerd)<!--as long as a run has been attempted, it is an executed run-->).
 
 * Als u een nieuw plan opnieuw uploadt, zal Fase 2 met de eerste 4 uitgevoerde looppas op read-only wijze gaan.
 
@@ -276,5 +277,5 @@ Een run kan de volgende statussen hebben:
 * **[!UICONTROL Draft]** : telkens wanneer een run wordt gemaakt, wanneer [het opstellen van een nieuw plan](ip-warmup-plan.md) of [toevoegen, run](#define-runs) vanuit de gebruikersinterface **[!UICONTROL Draft]** status.
 * **[!UICONTROL Live]**: wanneer u een run activeert, neemt deze de **[!UICONTROL Live]** status.
 * **[!UICONTROL Completed]**: de uitvoering van de campagne voor deze run is voltooid. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
-* **[!UICONTROL Cancelled]**: a **[!UICONTROL Live]** uitvoering is geannuleerd met de opdracht **[!UICONTROL Stop]** knop. Deze knop is alleen beschikbaar als de uitvoering van de campagne niet is gestart. [Meer informatie](#define-runs)
+* **[!UICONTROL Cancelled]**: a **[!UICONTROL Live]** uitvoering is geannuleerd met de opdracht **[!UICONTROL Stop]** of u hebt de **[!UICONTROL Pause for errors]** en er is een fout opgetreden. [Meer informatie](#define-runs)
 * **[!UICONTROL Failed]**: er is een fout aangetroffen door het systeem of de campagne die voor de huidige fase is gebruikt, is gestopt. Als een run mislukt, kunt u een andere run plannen voor de volgende dag.

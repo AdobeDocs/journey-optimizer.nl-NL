@@ -8,10 +8,11 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
+source-git-commit: 7437268e87cc2c71bec394fbef1b512b31946cf5
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 3%
+source-wordcount: '271'
+ht-degree: 4%
 
 ---
 
@@ -37,6 +38,8 @@ Wat u in deze documentatiehandleiding zult vinden:
 Met beslissingsregels kunt u het publiek voor beslissingsitems definiëren door beperkingen toe te passen, rechtstreeks op het niveau van de beslissingsitems of binnen een specifieke selectiestrategie. Hierdoor kunt u precies bepalen welke items aan wie moeten worden gepresenteerd.
 
 Laten we bijvoorbeeld een scenario overwegen waarin u beslissingsitems hebt die Yoga-gerelateerde producten bevatten die zijn ontworpen voor vrouwen. Met de besluitvormingsregels kunt u zeggen dat deze items alleen mogen worden weergegeven aan profielen waarvan het geslacht &quot;Vrouwelijk&quot; is en die in &#39;Yoga&#39; een &#39;belangenpunt&#39; hebben aangegeven.
+
+Naast de besluitvormingsregels op het niveau van item- en selectiestrategie kunt u ook aanvullende parameters voor het beoogde publiek op campagnereniveau maken. [Meer informatie](../campaigns/create-campaign.md)
 
 De lijst met besluitvormingsregels is toegankelijk in het **[!UICONTROL Configuration]** / **[!UICONTROL Decisions rules]** -menu.
 

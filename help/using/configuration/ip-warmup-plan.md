@@ -10,7 +10,8 @@ level: Experienced
 keywords: IP, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
+source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
 workflow-type: tm+mt
 source-wordcount: '797'
 ht-degree: 1%
@@ -85,6 +86,8 @@ Gebruik de **[!UICONTROL Custom Domain Group]** om een nieuwe domeingroep te def
 
 Als u bijvoorbeeld het aangepaste domein Luma toevoegt, wilt u de volgende subdomeinen opnemen: luma.com, luma.co.uk, luma.it, luma.fr, luma.de, enzovoort.
 
+![](assets/ip-warmup-sample-file-custom.png)
+
 ## Toegang en beheer IP-opwarmingsplannen {#manage-ip-warmup-plans}
 
 1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL IP warmup plans]**. Alle IP warmup die plannen tot nu toe worden gecreeerd worden getoond.
@@ -95,7 +98,7 @@ Als u bijvoorbeeld het aangepaste domein Luma toevoegt, wilt u de volgende subdo
 
    * **Niet gestart**: er is nog geen uitvoering geactiveerd. [Meer informatie](ip-warmup-execution.md#define-runs)
    * **Live**: het plan verandert in deze status zodra de eerste run in de eerste fase met succes is geactiveerd. [Meer informatie](ip-warmup-execution.md#define-runs)
-   * **Voltooid**: het plan is gemarkeerd als voltooid. Deze optie is alleen beschikbaar als alle runnen in het abonnement zijn opgenomen **[!UICONTROL Succeeded]** of **[!UICONTROL Draft]** status (geen run kan worden uitgevoerd) **[!UICONTROL Live]**). [Meer informatie](ip-warmup-execution.md#define-runs#mark-as-completed)
+   * **Voltooid**: het plan is gemarkeerd als voltooid. Deze optie is alleen beschikbaar als alle runnen in het abonnement zijn opgenomen **[!UICONTROL Completed]** of **[!UICONTROL Draft]** status (geen run kan worden uitgevoerd) **[!UICONTROL Live]**). [Meer informatie](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
 1. Om een IP warmup plan te schrappen, selecteer **[!UICONTROL Delete]** naast de naam van een abonnement en het verwijderen bevestigen.
