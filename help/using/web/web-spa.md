@@ -5,10 +5,11 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
+source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 4%
+source-wordcount: '452'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +23,9 @@ ht-degree: 4%
 >abstract="De wijzigingen worden alleen toegepast op geselecteerde weergaven. Weergaven kunnen worden gedetecteerd met de **Bladeren** en navigeer naar deze. Kan de weergave waarnaar u zoekt niet vinden?"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Meer informatie"
 
-**Toepassingen met één pagina** (SPA) kan nu worden gemaakt in de visuele editor van de webontwerper. Op deze manier kunt u selecteren op welke specifieke weergaven u de wijzigingen van uw webpagina wilt toepassen.
+**Toepassingen met één pagina** (SPA) kan nu worden gemaakt in de visuele editor van de webontwerper. Op deze manier kunt u selecteren welke specifieke **views** waarop u de wijzigingen van uw webpagina wilt toepassen.
+
+[In deze video leert u hoe u toepassingen van één pagina ontwerpt](#video)
 
 Een weergave kan worden gedefinieerd als een hele site of een groep visuele elementen op een site, zoals de startpagina, de hele productsite of het voorkeurenframe voor levering op alle afrekenpagina&#39;s.
 
@@ -77,3 +80,14 @@ Nadat u een wijziging hebt toegevoegd terwijl u zich in een bepaalde weergave be
 1. Wisselen naar **[!UICONTROL Browse]** om te controleren of de wijzigingen zijn toegepast op de gewenste pagina&#39;s.
 
    ![](assets/web-designer-modifications-applied-view.png)
+
+## Hoe kan ik-video{#video}
+
+In deze video wordt uitgelegd hoe u:
+
+* SPA bekijken met **[!UICONTROL Browse]** mode
+* Ontwerpbewerkingen uitvoeren op de huidige weergave
+* websitewijzigingen toepassen op meerdere weergaven of op alle weergaven die zijn ontdekt
+* Handelingen bulksgewijs uitvoeren op wijzigingen
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)

@@ -5,10 +5,10 @@ feature: Web Channel
 topic: Content Management
 role: User
 level: Beginner
-exl-id: da12c416-3dcb-4c45-806c-ebe298c386f4
-source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
+source-git-commit: f00843c54f18c6d9599d527101496d1d58df09f3
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '894'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ U kunt eenvoudig alle componenten, aanpassingen en stijlen beheren die u aan uw 
 
 Wanneer u een pagina bewerkt met de webontwerper, kunt u nieuwe wijzigingen rechtstreeks vanuit de **[!UICONTROL Modifications]** deelvenster - zonder dat u een component hoeft te selecteren en te bewerken in de interface van de webontwerper. Voer de onderstaande stappen uit.
 
-1. Van de **[!UICONTROL Modifications]** klikt u op de knop **[!UICONTROL More actions]** knop.
+1. Van de **[!UICONTROL Modifications]** klikt u op het deelvenster **[!UICONTROL More actions]** knop.
 
 1. Selecteer **[!UICONTROL Add a modification]**.
 
@@ -66,7 +66,7 @@ Wanneer u een pagina bewerkt met de webontwerper, kunt u nieuwe wijzigingen rech
 
 1. Selecteer het wijzigingstype:
 
-   * **[!UICONTROL CSS Selector]**- [Meer informatie](#css-selector)
+   * **[!UICONTROL CSS Selector]** - [Meer informatie](#css-selector)
    * **[!UICONTROL Page `<Head>`]** - [Meer informatie](#page-head)
 
 1. Voer uw inhoud in en **[!UICONTROL Save]** uw wijzigingen.
@@ -184,4 +184,3 @@ Bij elke wijziging wordt een nieuw element gemaakt in het dialoogvenster **[!UIC
 Als u het **[!UICONTROL Page `<head>`]** Als u het type wilt wijzigen voor twee campagnes die van invloed zijn op dezelfde URL, wordt het JavaScript vanuit beide campagnes in de pagina geïnjecteerd. [!DNL Journey Optimizer] bepaalt automatisch de orde van de geleverde inhoud. Zorg ervoor dat de code niet afhankelijk is van plaatsing. Het is aan u om ervoor te zorgen dat er geen conflicten in de code zijn.
 
 +++
-
