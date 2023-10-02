@@ -4,7 +4,7 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
+source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
 workflow-type: tm+mt
 source-wordcount: '4085'
 ht-degree: 8%
@@ -90,7 +90,7 @@ Bovendien vereenvoudigt de berekende attributen segmentatie en reisworkflows om 
 <tr>
 <td>
 <p>Met deze nieuwe functie kunt u pushgegevens eenvoudig beheren en koppelen aan een specifieke sandbox in App Surfaces.</p>
-<p>Raadpleeg de <a href="../in-app/inapp-configuration.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="../in-app/inapp-configuration.md#channel-prerequisites">gedetailleerde documentatie</a> voor meer informatie.</p>
 </tr>
 </tbody>
 </table>
