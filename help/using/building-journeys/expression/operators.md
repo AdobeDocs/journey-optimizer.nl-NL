@@ -171,7 +171,8 @@ Voorbeeld:
 ```
 
 >[!NOTE]
-Voor &lt;expression1> en &lt;expression2> er is geen controle van het gegevenstype.
+>
+>Voor &lt;expression1> en &lt;expression2> er is geen controle van het gegevenstype.
 
 Het resultaat is booleaans.
 
