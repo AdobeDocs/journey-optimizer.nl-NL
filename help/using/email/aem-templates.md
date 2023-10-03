@@ -9,11 +9,11 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informatief"
+badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '737'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->Integratie met Adobe Experience Manager is momenteel alleen beschikbaar als bètaversie om gebruikers te selecteren.
+>Integratie met Adobe Experience Manager is momenteel alleen beschikbaar als een bètaversie om gebruikers te selecteren.
 > Als bètagebruiker kunt u [dit formulier](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} om feedback te delen.
 
 Met Adobe Journey Optimizer kunt u op maat gemaakte berichten maken via Adobe Experience Manager-sites. Begin door uw sjablonen te ontwerpen met gebruik van Adobe Experience Manager-inhoudsbronnen en verzend deze vervolgens naar Adobe Journey Optimizer. Als deze sjablonen eenmaal zijn gedeeld, zijn ze toegankelijk in de Adobe Journey Optimizer e-mailontwerper, waardoor het maken en verzenden van berichten naar het gewenste publiek eenvoudiger wordt.
@@ -33,13 +33,13 @@ Voordat u begint met het gebruik van deze functie, moet u zich aan de volgende v
 
 * **Experience Manager-instellingen**
 
-   Deze mogelijkheid is beschikbaar bij [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html){target="_blank"}.
+  Deze mogelijkheid is beschikbaar bij [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html){target="_blank"}.
 
-   Als onderdeel van het bètaprogramma wordt de configuratie van de Cloud Service uitgevoerd door Adobe in Adobe Experience Manager om verbinding te maken met Adobe Journey Optimizer.
+  Als deel van het bètaprogramma, wordt de configuratie van de Cloud Service uitgevoerd door Adobe in Adobe Experience Manager om met Adobe Journey Optimizer te verbinden.
 
 * **Toestemmingen**
 
-   Als u inhoudssjablonen wilt maken, bewerken en verwijderen in Adobe Journey Optimizer, moet u beschikken over de **[!DNL Manage Library Items]** bevoegdheid opgenomen in de **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
+  Als u inhoudssjablonen wilt maken, bewerken en verwijderen in Adobe Journey Optimizer, moet u beschikken over de **[!DNL Manage Library Items]** bevoegdheid opgenomen in de **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
 
 ## Afvoerkanalen en beperkingen{#aem-templates-limitations}
 
@@ -73,7 +73,7 @@ Voer de volgende stappen uit om een Adobe Experience Manager-sjabloon naar Adobe
 
    ![](assets/aem-send-template-settings.png)
 
-1. Nadat u op de knop **[!UICONTROL Send]** -knop, wordt het exportproces gestart. Wanneer het exporteren is voltooid, wordt het volgende bericht weergegeven in de gebruikersinterface: &quot;Template &quot;XX&quot; is naar AJO verzonden.&quot;
+1. Nadat u op de knop **[!UICONTROL Send]** -knop, wordt het exportproces gestart. Wanneer het exporteren is voltooid, wordt in de gebruikersinterface het volgende bericht weergegeven: &quot;Sjabloon &quot;XX&quot; is naar AJO verzonden.&quot;
 
 De sjabloon wordt toegevoegd aan Adobe Journey Optimizer-inhoudssjablonen van de geselecteerde sandbox.
 
@@ -89,7 +89,7 @@ Zodra het malplaatje van de Experience Manager in Journey Optimizer als inhoudsm
 
    ![](assets/aem_ajo_2.png)
 
-1. In de **[!UICONTROL Template properties]** venster, klikt u op de knop **[!UICONTROL Manage access]** gebruiken om aangepaste of basislabels voor gegevensgebruik toe te wijzen aan uw sjabloon. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md)
+1. In de **[!UICONTROL Template properties]** venster, klikt u op **[!UICONTROL Manage access]** gebruiken om aangepaste of basislabels voor gegevensgebruik toe te wijzen aan uw sjabloon. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md)
 
 1. Om uw malplaatje van de Experience Manager verder aan te passen en douaneprijdbaarheid aan uw inhoud toe te voegen, klik **[!UICONTROL Edit content]**. Zo kunt u gemakkelijk wijzigingen aanbrengen en de sjabloon aan uw specifieke behoeften aanpassen. [Meer informatie](get-started-email-design.md)
 
@@ -97,7 +97,7 @@ Zodra het malplaatje van de Experience Manager in Journey Optimizer als inhoudsm
    >
    > Als u de sjabloon wilt bewerken en aanpassen, kunt u alleen de compatibiliteitsmodus gebruiken.
 
-1. Wanneer uw inhoudssjabloon gereed is, [testen en valideren](content-templates.md#test-template).
+1. Wanneer uw inhoudssjabloon gereed is, [testen en valideren](../content-management/content-templates.md#test-template).
 
 1. Nadat u de inhoud hebt gedefinieerd, kunt u deze gebruiken bij het maken van een nieuwe e-mail door in de **[!UICONTROL Saved templates]** verzameling. Selecteer vervolgens **[!UICONTROL Use this template]**.
 

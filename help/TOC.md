@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f4ed1bc887666c9b70444266b1ecc3e60b4a1df3
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1527'
 ht-degree: 31%
 
 ---
@@ -182,9 +182,10 @@ ht-degree: 31%
          + [Inhoud helemaal opnieuw ontwerpen](using/email/content-from-scratch.md)
          + [Uw inhoud importeren](using/email/existing-content.md)
          + [Uw eigen inhoud coderen](using/email/code-content.md)
-         + [Werken met sjablonen](using/email/email-templates.md)
+         + [E-mailsjablonen gebruiken](using/email/use-email-templates.md)
       + Uw inhoud ontwerpen {#add-content}
          + [Inhoudscomponenten gebruiken](using/email/content-components.md)
+         + [Gebruik visuele fragmenten](using/email/use-visual-fragments.md)
          + [Koppelingen toevoegen en berichten bijhouden](using/email/message-tracking.md)
          + [Aangepaste aanbiedingen invoegen](using/email/add-offers-email.md)
          + [De tekstversie genereren](using/email/text-version-email.md)
@@ -195,9 +196,7 @@ ht-degree: 31%
          + [Verticale uitlijning en opvulling aanpassen](using/email/alignment-and-padding.md)
          + [Inline-opmaakkenmerken toevoegen](using/email/inline-styling.md)
    + [Uw e-mail voorvertonen en testen](using/email/preview.md)
-   + [Inhoudssjablonen maken](using/email/content-templates.md)
    + [Experience Manager-sjablonen gebruiken](using/email/aem-templates.md)
-   + [Werken met fragmenten](using/email/fragments.md)
    + [E-mailuitschakelbeheer](using/email/email-opt-out.md)
    + E-mailkanaal configureren {#configure-email}
       + [Aan de slag met e-mailconfiguratie](using/email/get-started-email-config.md)
@@ -271,7 +270,7 @@ ht-degree: 31%
       + Werken met de Expressieeditor {#expression-editor}
          + [Over de Expressieeditor](using/personalization/personalization-build-expressions.md)
          + [Kenmerken toevoegen aan Favorieten](using/personalization/personalization-favorites.md)
-         + [Werken met opgeslagen expressies](using/personalization/personalization-library.md)
+         + [Expressiefragmenten gebruiken](using/personalization/use-expression-fragments.md)
          + [Validatie van personalisatie](using/personalization/personalization-validation.md)
       + Helpfuncties{#functions}
          + [Aan de slag met hulpfuncties](using/personalization/functions/functions.md)
@@ -288,6 +287,9 @@ ht-degree: 31%
       + Gebruikszaken aanpassen{#personalization-use-cases}
          + [Statusmelding van bestelling](using/personalization/personalization-use-case.md)
          + [E-mailadres voor afmelden van winkelwagentje](using/personalization/personalization-use-case-helper-functions.md)
+   + Herbruikbare inhoud beheren {#reusable-content}
+      + [Werken met inhoudssjablonen](using/content-management/content-templates.md)
+      + [Werken met fragmenten](using/content-management/fragments.md)
    + Dynamische inhoud {#dynamic}
       + [Aan de slag met dynamische inhoud](using/personalization/get-started-dynamic-content.md)
       + [Voorwaardelijke regels maken](using/personalization/create-conditions.md)

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b58bc332886e37b8d8eb2e439fd8ddb459dbe356
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 5%
@@ -74,9 +74,9 @@ Inhoud van deze sectie maken en beheren.
 
 * **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] is een gecentraliseerde opslagplaats van activa die u kunt gebruiken om uw berichten te bevolken. [Meer informatie](../content-management/assets-essentials.md)
 
-* **[!UICONTROL Content templates]** - Voor een versneld en verbeterd ontwerpproces maakt u zelfstandige sjablonen om aangepaste inhoud eenvoudig te hergebruiken in Journey Optimizer-campagnes en -reizen. [Meer informatie](../email/content-templates.md)
+* **[!UICONTROL Content templates]** - Voor een versneld en verbeterd ontwerpproces maakt u zelfstandige sjablonen om aangepaste inhoud eenvoudig te hergebruiken in Journey Optimizer-campagnes en -reizen. [Meer informatie](../content-management/content-templates.md)
 
-* **[!UICONTROL Fragments]** - Fragmenten maken en beheren om het ontwerpen van e-mail soepel te laten verlopen: maak vooraf aangepaste inhoudblokken die kunnen worden gebruikt om e-mailinhoud snel samen te stellen. [Meer informatie](../email/fragments.md)
+* **[!UICONTROL Fragments]** - Fragmenten maken en beheren om het ontwerpen van e-mail soepel te laten verlopen: maak vooraf aangepaste inhoudblokken die kunnen worden gebruikt om e-mailinhoud snel samen te stellen. [Meer informatie](../content-management/fragments.md)
 
 ### [!UICONTROL DATA MANAGEMENT] {#left-nav-data}
 

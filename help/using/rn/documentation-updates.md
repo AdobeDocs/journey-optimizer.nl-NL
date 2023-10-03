@@ -4,7 +4,7 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: eee717b9fb0ceec72df449abcf3e37b41fe31e15
+source-git-commit: dd463d36550b53faaffca90691550278498c862a
 workflow-type: tm+mt
 source-wordcount: '3709'
 ht-degree: 14%
@@ -37,7 +37,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Offer decisioning **exportgegevenssets** zijn nu standaard ingeschakeld. De opmerking over het vorige gedrag is verwijderd.  [Meer informatie](../offers/export-catalog/get-started-export.md)
 * Diversen **campagnerapportcijfers** zijn hernoemd, zowel in Live als in Global-rapporten. [Meer informatie](../reports/campaign-global-report.md)
 * Er is een nieuwe sectie toegevoegd over de voorwaarden voor het testen van inhoud voor het webkanaal. [Meer informatie](../web/web-prerequisites.md#experiment-prerequisites)
-* Er is een waarschuwing toegevoegd op de **Werken met inhoudssjablonen** pagina om aan te geven dat huidige tracering niet wordt ondersteund bij het testen van sjablonen voor e-mailinhoud. Voor het testen van het bijhouden moet u de inhoudssjabloon in een e-mail gebruiken en een proefdruk verzenden. [Meer informatie](../email/content-templates.md#test-template)
+* Er is een waarschuwing toegevoegd op de **Werken met inhoudssjablonen** pagina om aan te geven dat huidige tracering niet wordt ondersteund bij het testen van sjablonen voor e-mailinhoud. Voor het testen van het bijhouden moet u de inhoudssjabloon in een e-mail gebruiken en een proefdruk verzenden. [Meer informatie](../content-management/content-templates.md#test-template)
 * Er zijn verschillende waarschuwingen toegevoegd aan de **bestemmingspagina&#39;s maken en publiceren** om aan te geven dat u de landingspagina niet kunt openen door de bij het maken van de pagina gedefinieerde URL gewoon te kopiëren en in een webbrowser te plakken, zelfs als deze is gepubliceerd. In plaats daarvan kunt u het testen met behulp van de voorvertoningsfunctie. [Meer informatie](../landing-pages/create-lp.md)
 * Er is een nieuwe sectie toegevoegd over hoe u **toestemming beheren** voor het directe-mailkanaal. [Meer informatie](../direct-mail/test-send-direct-mail.md)
 
