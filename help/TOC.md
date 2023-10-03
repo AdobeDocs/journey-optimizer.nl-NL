@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 31%
+source-wordcount: '1656'
+ht-degree: 35%
 
 ---
 
@@ -428,12 +428,56 @@ ht-degree: 31%
             + [Een alternatieve aanbieding maken](using/offers/api-reference/offers-api/fallback-offers/create.md)
             + [Een alternatieve aanbieding bijwerken](using/offers/api-reference/offers-api/fallback-offers/update.md)
             + [Een alternatieve aanbieding verwijderen](using/offers/api-reference/offers-api/fallback-offers/delete.md)
-      + Beslissingen nemen en beheren met behulp van API’s {#activities-api}
-         + [Beslissingen weergeven](using/offers/api-reference/activities-api/activities/activities-list.md)
-         + [Een beslissing opzoeken](using/offers/api-reference/activities-api/activities/lookup.md)
-         + [Een beslissing nemen](using/offers/api-reference/activities-api/activities/create.md)
-         + [Een beslissing bijwerken](using/offers/api-reference/activities-api/activities/update.md)
-         + [Een beslissing verwijderen](using/offers/api-reference/activities-api/activities/delete.md)
+         + Besluiten {#decisions-api}
+            + [Beslissingen weergeven](using/offers/api-reference/activities-api/activities/activities-list.md)
+            + [Een beslissing opzoeken](using/offers/api-reference/activities-api/activities/lookup.md)
+            + [Een beslissing nemen](using/offers/api-reference/activities-api/activities/create.md)
+            + [Een beslissing bijwerken](using/offers/api-reference/activities-api/activities/update.md)
+            + [Een beslissing verwijderen](using/offers/api-reference/activities-api/activities/delete.md)
+         + Verouderde API&#39;s {#legacy-api}
+            + [Oudere API&#39;s](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
+            + Plaatsingen {#placements}
+               + [Plaatsingen weergeven](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
+               + [Een plaatsing opzoeken](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)
+               + [Een plaatsing maken](using/offers/api-reference/offers-api/legacy-apis/placements/create.md)
+               + [Een plaatsing bijwerken](using/offers/api-reference/offers-api/legacy-apis/placements/update.md)
+               + [Een plaatsing verwijderen](using/offers/api-reference/offers-api/legacy-apis/placements/delete.md)
+            + Beslissingsregels {#decision-rules}
+               + [Beslissingsregels weergeven](using/offers/api-reference/offers-api/legacy-apis/decision-rules/rules-list.md)
+               + [Een beslissingsregel opzoeken](using/offers/api-reference/offers-api/legacy-apis/decision-rules/lookup.md)
+               + [Een beslissingsregel maken](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
+               + [Een beslissingsregel bijwerken](using/offers/api-reference/offers-api/legacy-apis/decision-rules/update.md)
+               + [Een beslissingsregel verwijderen](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
+            + Verzamelingsaanduidingen {#tags}
+               + [Kwaliteitsaanduidingen voor verzamelingen weergeven](using/offers/api-reference/offers-api/legacy-apis/tags/tags-list.md)
+               + [Een verzamelingskwalificatie opzoeken](using/offers/api-reference/offers-api/legacy-apis/tags/lookup.md)
+               + [Een verzamelingskwalificatie maken](using/offers/api-reference/offers-api/legacy-apis/tags/create.md)
+               + [Een verzamelingskwalificatie bijwerken](using/offers/api-reference/offers-api/legacy-apis/tags/update.md)
+               + [Een verzamelingskwalificatie verwijderen](using/offers/api-reference/offers-api/legacy-apis/tags/delete.md)
+            + Persoonlijke aanbiedingen {#personalized-offers}
+               + [Persoonlijke aanbiedingen weergeven](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/offers-list.md)
+               + [Een persoonlijke aanbieding opzoeken](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/lookup.md)
+               + [Een persoonlijke aanbieding maken](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/create.md)
+               + [Een persoonlijke aanbieding bijwerken](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/update.md)
+               + [Een persoonlijke aanbieding verwijderen](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/delete.md)
+            + Alternatieve aanbiedingen {#fallback-offers}
+               + [Alternatieve aanbiedingen weergeven](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/fallback-list.md)
+               + [Een alternatieve aanbieding opzoeken](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/lookup.md)
+               + [Een alternatieve aanbieding maken](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
+               + [Een alternatieve aanbieding bijwerken](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/update.md)
+               + [Een alternatieve aanbieding verwijderen](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/delete.md)
+            + Verzamelingen {#collections}
+               + [Verzamelingen weergeven](using/offers/api-reference/offers-api/legacy-apis/collections/collections-list.md)
+               + [Een verzameling opzoeken](using/offers/api-reference/offers-api/legacy-apis/collections/lookup.md)
+               + [Een verzameling maken](using/offers/api-reference/offers-api/legacy-apis/collections/create.md)
+               + [Een verzameling bijwerken](using/offers/api-reference/offers-api/legacy-apis/collections/update.md)
+               + [Een verzameling verwijderen](using/offers/api-reference/offers-api/legacy-apis/collections/delete.md)
+            + Besluiten {#decisions-api}
+               + [Beslissingen weergeven](using/offers/api-reference/offers-api/legacy-apis/activities-api/activities-list.md)
+               + [Een beslissing opzoeken](using/offers/api-reference/offers-api/legacy-apis/activities-api/lookup.md)
+               + [Een beslissing nemen](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
+               + [Een beslissing bijwerken](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
+               + [Een beslissing verwijderen](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
       + Aanbiedingen leveren met behulp van API&#39;s {#offer-delivery-api}
          + [Aan de slag met API&#39;s voor levering van aanbiedingen](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
          + [API voor besluitvorming](using/offers/api-reference/offer-delivery-api/decisioning-api.md)

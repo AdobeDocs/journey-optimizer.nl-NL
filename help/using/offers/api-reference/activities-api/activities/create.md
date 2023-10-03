@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 553501b0-30a9-4795-9a9d-f42df5f4f2ea
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '96'
 ht-degree: 9%
 
 ---
@@ -77,7 +77,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-decisions' \
 
 **Antwoord**
 
-Een geslaagde reactie retourneert informatie over de nieuwe beslissing, inclusief de unieke instantie-id en plaatsing `@id`. U kunt id in latere stappen gebruiken om uw beslissing bij te werken of te verwijderen.
+Een succesvol antwoord retourneert informatie over het nieuwe besluit, inclusief de unieke `id`. U kunt de `id` in latere stappen om uw beslissing bij te werken of te verwijderen.
 
 ```json
 {

@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 683f8b86-8545-46d0-a4a8-25c5b3c7b9c3
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: a6ba9632f6de91ed7911012ec4174cb7a01f5f12
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 6%
+source-wordcount: '128'
+ht-degree: 7%
 
 ---
 
@@ -61,7 +61,7 @@ curl -X POST 'https://platform.adobe.io/data/core/offer-collections' \
 
 **Antwoord**
 
-Een geslaagde reactie retourneert informatie over de nieuwe verzameling, inclusief de unieke instantie-id en plaatsing `@id`. U kunt de instantie-id in latere stappen gebruiken om de verzameling bij te werken of te verwijderen. U kunt uw unieke verzameling gebruiken `@id` in een latere zelfstudie om een beslissing te maken.
+Een geslaagde reactie retourneert informatie over de nieuwe verzameling, inclusief de bijbehorende `id`. U kunt de `id` in latere stappen om uw verzameling bij te werken of te verwijderen of in een latere zelfstudie om een beslissing te maken.
 
 ```json
 {
