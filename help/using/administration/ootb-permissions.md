@@ -8,10 +8,10 @@ topic: Administration
 role: Admin, User
 level: Intermediate
 keywords: machtigingen, schrijven, berichten
-exl-id: fd7a7564-bf67-4796-8182-0b9b04516f21
-source-git-commit: bb988dbc3aa8b70081c9f3de595d49904cc699b4
+exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
+source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '695'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 1%
 | Capaciteit | Toestemmingen |
 |-|-|
 | Campagnes | **[!DNL Manage campaigns]**: campagnes lezen, maken, bewerken en verwijderen. </br>**[!DNL Publish campaigns]**: recht om campagnes te publiceren.</br>**[!DNL View campaigns]**: alleen-lezen toegang tot campagnes. </br>**[!DNL View campaigns report]**: campagnerapporten lezen en bewerken. |
+| Rapporten | **[!DNL View channel reports]**: lees en bewerk kanaalrapporten. |
 | Kanaalconfiguraties | **[!DNL Export suppression list]**: toegang tot lijst met exportonderdrukking als een CSV-bestand.</br>**[!DNL Manage alerts]**: waarschuwingen voor campagnes, berichten en aanspraken in- en uitschakelen.</br> **[!DNL Manage IP pools]**: lees, creeer, geef, en schrap ip pool uit. </br>**[!DNL Manage landing page settings]**: lees, maak, bewerk en verwijder de landingspagina-instellingen.</br> **[!DNL Manage messages general settings]**: algemene instellingen van berichten lezen, maken, bewerken en verwijderen.</br>**[!DNL Manage messages presets]**: inhoud lezen, maken, bewerken en verwijderen.</br>**[!DNL Manage PTR records]**: lees PTR-records en bewerk deze. </br>**[!DNL Manage SMS settings]**: lees-, maak-, bewerk- en verwijderinstellingen voor SMS.</br>**[!DNL Manage SMS subdomains]**: subdomeinen van SMS lezen, maken, bewerken en verwijderen.</br> **[!DNL Manage Seedlist]**: zaadlijst lezen, maken, bewerken en verwijderen. </br> **[!DNL Manage subdomains delegation]**: subdomeindelegatie lezen, maken, bewerken en verwijderen. </br>**[!DNL Manage suppression rules]**: toegang tot suppressieregels lezen, maken, bewerken en verwijderen.</br>**[!DNL View channel surfaces]**: alleen-lezen toegang tot kanaaloppervlakken.</br> **[!DNL View messages general settings]**: alleen-lezen toegang tot algemene instellingen voor berichten.</br> **[!DNL View messages presets]**: alleen-lezen toegang tot voorinstellingen voor berichten. </br> **[!DNL View PTR records]**: alleen-lezen toegang tot PTR-records.</br>**[!DNL View suppression list]**: lees en exporteer de lokale suppressielijst. |
 | Dashboards | **[!DNL View license usage dashboards]**: alleen-lezen toegang tot het dashboard voor licentiegebruik. </br>**[!DNL Manage custom dashboards]**: hiermee kunt u een nieuw dashboard maken of een bestaand dashboard bewerken.</br>**[!DNL View custom dashboards]**: alleen-lezen toegang tot door de gebruiker gedefinieerde dashboards. </br>**[!DNL View standard dashboards]**: alleen-lezen toegang tot de dashboards van profielen, doelen en segmenten.</br>**[!DNL Manage standard dashboards]**: hiermee kunt u aangepaste widgets maken en het widgetschema bewerken via de Widgetbibliotheek. |
 | Gegevensverzameling | **[!DNL Manage datastream]**: lees, maak en bewerk gegevensstromen.</br>**[!DNL View datastream]**: alleen-lezen toegang tot gegevensstromen. |

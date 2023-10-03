@@ -7,7 +7,8 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: e812621c0b365e07432f6b517a012cf59c37f01f
+exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
+source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -40,7 +41,7 @@ Om de overeenkomstige toestemming aan uw toe te wijzen **[!UICONTROL Role]**:
 
    ![](assets/channel_permission_1.png)
 
-1. Sleep de **[!UICONTROL Report]** bron om bevoegdheid toe te wijzen.
+1. Sleep de **[!UICONTROL Reports]** bron om bevoegdheid toe te wijzen.
 
    Van de **[!UICONTROL Report]** bron drop-down, selecteer **[!UICONTROL View Channel Reports]** toestemming.
 
