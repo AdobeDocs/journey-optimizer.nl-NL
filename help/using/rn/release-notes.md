@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 854e5959eaa9a79bce28ab47752b36aa71373757
 workflow-type: tm+mt
-source-wordcount: '4085'
+source-wordcount: '4120'
 ht-degree: 8%
 
 ---
@@ -99,9 +99,9 @@ Bovendien vereenvoudigt de berekende attributen segmentatie en reisworkflows om 
 
 Deze release bevat de verbeteringen die hieronder worden vermeld.
 
-<!--**Personalization**
+**Personalisatie**
 
-* In addition to visual fragments, it is now possible to create, save and reuse expression fragments from the Journey Optimizer interface through the Expression Editor. Expression fragments replace the previously saved expressions.-->
+* Naast visuele fragmenten is het nu mogelijk om expressiefragmenten te maken, op te slaan en opnieuw te gebruiken vanuit de Journey Optimizer-interface via de Expressieeditor. Expressiefragmenten vervangen de eerder opgeslagen expressies. [Meer informatie](../content-management/fragments.md#create-expression-fragment)
 
 <!--
 **Alerting**
