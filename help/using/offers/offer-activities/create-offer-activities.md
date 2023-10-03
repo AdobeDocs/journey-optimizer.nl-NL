@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: fd035fdd956c76d9183acbd0dddf6462890c4f44
+source-git-commit: 18d44b689a524dc2b031a32b8b79ac755d680e23
 workflow-type: tm+mt
-source-wordcount: '2100'
+source-wordcount: '2161'
 ht-degree: 1%
 
 ---
@@ -123,6 +123,12 @@ Voordat u een beslissing maakt, moet u controleren of de onderstaande componente
    Ze hebben nu dezelfde rang en zullen dus tegelijkertijd worden geëvalueerd. [Meer informatie](#evaluation-criteria-order)
 
    ![](../assets/activity_same-rank-collections.png)
+
+   >[!CAUTION]
+   >
+   >* Indien [AI-model](../ranking/ai-models.md) wordt gebruikt in een groep van evaluatiecriteria, moeten alle evaluatiecriteria in die groep gebruikmaken van de AI-waarderingsmethode en moeten zij hetzelfde specifieke AI-model gebruiken.
+   >
+   >* Slechts één groep met evaluatiecriteria kan het AI-model gebruiken. Andere groepen binnen een beslissingsbereik moeten andere rangordemethoden gebruiken (prioriteit of formule). [Meer informatie over waarderingsmethoden](../offer-activities/configure-offer-selection.md)
 
 1. Als u een andere plaatsing voor uw voorstellen wilt toevoegen als onderdeel van deze beslissing, gebruikt u de opdracht **[!UICONTROL New scope]** knop. Herhaal bovenstaande stappen voor elk beslissingsbereik.
 
