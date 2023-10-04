@@ -6,7 +6,7 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van SMS met 
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
+source-git-commit: ef9d50ba9806ade40cfa9db7bb6b9e31274a208f
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 2%
@@ -61,11 +61,11 @@ Voer de volgende stappen uit om uw SMS-leverancier te configureren met Journey O
 
       * **[!UICONTROL Name]**: kies een naam voor uw API-referentie.
 
-      * **[!UICONTROL Service ID]** en **[!UICONTROL API Token]**: als u toegang wilt tot de pagina met API&#39;s, vindt u uw referenties onder het tabblad SMS.  [Meer informatie](https://developers.sinch.com/docs/sms/getting-started/)
+      * **[!UICONTROL Service ID]** en **[!UICONTROL API Token]**: als u toegang wilt tot de pagina met API&#39;s, vindt u uw referenties onder het tabblad SMS.  [Meer informatie](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}.
 
-      * **[!UICONTROL Opt-In Message]**: Typ de aangepaste reactie die automatisch als uw **[!UICONTROL Opt-In Message]**.
+      * **[!UICONTROL Opt-In Message]**: voer de aangepaste reactie in die automatisch als uw **[!UICONTROL Opt-In Message]**.
 
-      * **[!UICONTROL Help Message]**: Typ de aangepaste reactie die automatisch als uw **[!UICONTROL  Help Message]**.
+      * **[!UICONTROL Help Message]**: voer de aangepaste reactie in die automatisch als uw **Help-bericht**.
 
    * Voor **[!DNL Twilio]**:
 
@@ -73,13 +73,13 @@ Voer de volgende stappen uit om uw SMS-leverancier te configureren met Journey O
 
       * **[!UICONTROL Account SID]** en **[!UICONTROL Auth Token]**: ga naar het venster Accountinformatie van de pagina Dashboard van de Twilio-console om uw referenties te zoeken.
 
-      * **[!UICONTROL Message SID]**: voer de unieke id in die aan elk bericht is toegewezen dat door de API van Twilio is gemaakt. [Meer informatie](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-)
+      * **[!UICONTROL Message SID]**: voer de unieke id in die aan elk bericht is toegewezen dat door de API van Twilio is gemaakt. [Meer informatie](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
    * Voor **[!DNL Infobip]**:
 
       * **[!UICONTROL Name]**: kies een naam voor uw API-referentie.
 
-      * **[!UICONTROL API base URL]** en **[!UICONTROL API token]**: ga naar de startpagina van uw webinterface of de API-sleutelbeheerpagina om uw referenties te zoeken. [Meer informatie](https://www.infobip.com/docs/api)
+      * **[!UICONTROL API base URL]** en **[!UICONTROL API token]**: ga naar de startpagina van uw webinterface of de API-sleutelbeheerpagina om uw referenties te zoeken. [Meer informatie](https://www.infobip.com/docs/api){target="_blank"}.
 
    ![](assets/sms_7.png)
 
