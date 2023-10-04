@@ -5,12 +5,13 @@ feature: Offers
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 6%
+source-wordcount: '155'
+ht-degree: 5%
 
 ---
+
 
 # Een verzameling maken {#create-collection}
 
@@ -35,7 +36,8 @@ POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Het eindpuntpad voor persistentie-API&#39;s. | `https://platform.adobe.io/data/core/dps/` |
+| `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | De container waarin de verzamelingen zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **Verzoek**
 
@@ -59,7 +61,7 @@ curl -X POST \
 
 **Antwoord**
 
-Een geslaagde reactie retourneert informatie over de nieuwe verzameling, inclusief de bijbehorende `id`. U kunt de `id` in latere stappen om uw verzameling bij te werken of te verwijderen of in een latere zelfstudie om een beslissing te maken.
+Een geslaagde reactie retourneert informatie over de nieuwe verzameling, inclusief de unieke instantie-id en plaatsing `@id`. U kunt de instantie-id in latere stappen gebruiken om de verzameling bij te werken of te verwijderen. U kunt uw unieke verzameling gebruiken `@id` in een latere zelfstudie om een beslissing te maken.
 
 ```json
 {
