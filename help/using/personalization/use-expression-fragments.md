@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, bibliotheek, personalisatie
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: b65547efb2041bbb49b61cb23c15936ee2bab973
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,7 @@ ht-degree: 0%
 
 Wanneer u de expressie-editor gebruikt, kunt u alle uitdrukkingsfragmenten benutten die zijn gemaakt of opgeslagen in de huidige sandbox.
 
->[!NOTE]
->
->Leer hoe u fragmenten maakt en beheert in [deze sectie](../content-management/fragments.md).
+Leer hoe u fragmenten maakt en beheert in [deze sectie](../content-management/fragments.md).
 
 ➡️ [Leer hoe u fragmenten beheert, ontwerpt en gebruikt in deze video](../content-management/fragments.md#video-fragments)
 
@@ -68,6 +66,10 @@ Volg onderstaande stappen om expressiefragmenten aan uw inhoud toe te voegen.
 
 1. Vervolgens kunt u de inhoud op de gebruikelijke manier aanpassen en valideren met alle personalisatie- en ontwerpmogelijkheden van de [Expression-editor](personalization-build-expressions.md).
 
+>[!NOTE]
+>
+>Als u een expressiefragment maakt dat meerdere regeleinden bevat en het gebruikt in [SMS](../sms/create-sms.md#sms-content) of [duwen](../push/design-push.md) inhoud, blijven de regeleinden behouden. Zorg er dus voor dat u een voorvertoning weergeeft en uw [SMS](../sms/send-sms.md) of [duwen](../push/send-push.md) bericht voordat het wordt verzonden.
+
 ## Overerving onderbreken {#break-inheritance}
 
 Wanneer u een fragment-id toevoegt aan de expressie-editor, worden de wijzigingen die in het oorspronkelijke expressiefragment zijn aangebracht, gesynchroniseerd.
@@ -79,13 +81,4 @@ U kunt echter ook de inhoud van een expressiefragment in de editor plakken. Sele
 In dat geval wordt de overerving van het oorspronkelijke fragment verbroken. De inhoud van het fragment wordt naar de editor gekopieerd en de wijzigingen worden niet meer gesynchroniseerd.
 
 Het wordt een zelfstandig element dat niet meer aan het oorspronkelijke fragment is gekoppeld. U kunt het net als elk ander element in de code bewerken.
-
-<!--
-TO REPLACE WITH UPDATED VIDEO ON EXPRESSION FRAGMENTS
-## How-to video{#video}
-
-Learn how to use saved personalization library items in a message and how to create and manage personalization library items.
-
->[!VIDEO](https://video.tv.adobe.com/v/340941?quality=12)
--->
 
