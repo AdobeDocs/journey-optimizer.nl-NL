@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 4f4912530f6d39ba937b346f9eaccceff4b974dd
+source-git-commit: 78085934a00f4e365b49012b426e57a218bf48ba
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ U kunt zich op elke waarschuwing afzonderlijk abonneren vanuit de gebruikersinte
 
 ![](assets/alert-subscribe.png)
 
-U kunt zich ook abonneren op waarschuwingen via [I/O-gebeurtenismeldingen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}De waarschuwingsregels zijn echter ingedeeld in verschillende abonnementspakketten.
+U kunt zich ook abonneren op waarschuwingen via [I/O-gebeurtenismeldingen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}. Waarschuwingsregels zijn ingedeeld in verschillende abonnementspakketten. Abonnementen voor gebeurtenissen die overeenkomen met de specifieke Journey Optimizer-waarschuwingen worden hieronder beschreven.
 
 Als een onverwacht gedrag optreedt, wordt een waarschuwingsbericht verzonden naar de abonnees. Op basis van de gebruikersvoorkeuren worden waarschuwingen verzonden via e-mail, of rechtstreeks in het Journey Optimizer-meldingscentrum, in de rechterbovenhoek van de gebruikersinterface.
 
 Wanneer een alarm wordt opgelost, ontvangen de abonnees een &quot;Opgelost&quot;bericht.
 
->[!WARNING]
+>[!CAUTION]
 >
 >Specifieke Adobe Journey Optimizer-waarschuwingen gelden alleen voor **leven** ritten. Er worden geen waarschuwingen gegeven voor reizen in testmodus.
 
@@ -51,7 +51,7 @@ Waarschuwingen over aangepaste handelingen worden opgelost wanneer, gedurende de
 
 * er is geen fout opgetreden bij die aangepaste handeling (of bij fouten onder de drempel van 1%);
 
-* Er is ook geen profiel voor die aangepaste handeling bereikt.
+* of, er is geen profiel dat aangepaste handeling heeft bereikt.
 
 De naam van het abonnement voor de I/O-gebeurtenis die overeenkomt met de aangepaste waarschuwing voor een handeling is **Aangepaste actie voor reis mislukt**.
 
