@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 29bd838e42d82c87a03e36012a280b5f56ae3ad0
+source-git-commit: c6f0e43fd2dacbc1aa79aee3605f6a30c5f9c7b4
 workflow-type: tm+mt
-source-wordcount: '4142'
+source-wordcount: '4140'
 ht-degree: 9%
 
 ---
@@ -105,7 +105,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Waarschuwing**
 
-* Er is een nieuw type systeemwaarschuwing geïntroduceerd. U kunt nu op de hoogte worden gesteld wanneer een publiek dat het lezen uitvoert, mislukt. [Meer informatie](../reports/alerts.md).
+* Er is een nieuw type systeemwaarschuwing geïntroduceerd. U kunt nu een melding krijgen wanneer een **Publiek lezen** activiteit mislukt. [Meer informatie](../reports/alerts.md).
 
 **Webkanaal**
 
@@ -117,7 +117,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Journeys**
 
-Wanneer u een reis dupliceert, kunt u nu de naam van de reiskopie definiëren. [Meer informatie](../building-journeys/journey-gs.md#uplicate-a-journey)
+* Wanneer u een reis dupliceert, kunt u nu de naam van de reiskopie definiëren. [Meer informatie](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
 <!--
@@ -127,7 +127,7 @@ Wanneer u een reis dupliceert, kunt u nu de naam van de reiskopie definiëren. [
 
 **E-mailkanaal**
 
-Met een nieuwe optie in de configuratie van het e-mailoppervlak kunt u ervoor kiezen om transactieberichten naar profielen te verzenden, zelfs als hun e-mailadres zich op de Adobe bevindt [!DNL Journey Optimizer] suppressielijst. [Meer informatie](../email/email-settings.md#send-to-suppressed-email-addresses)
+* Met een nieuwe optie in de configuratie van het e-mailoppervlak kunt u ervoor kiezen om transactieberichten naar profielen te verzenden, zelfs als hun e-mailadres zich op de Adobe bevindt [!DNL Journey Optimizer] suppressielijst. [Meer informatie](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **Sms-kanaal**
 
@@ -137,15 +137,15 @@ Met een nieuwe optie in de configuratie van het e-mailoppervlak kunt u ervoor ki
 
 **Direct mailkanaal**
 
-U kunt nu bestanden versleutelen die zijn bedoeld voor uw direct-mailproviders wanneer deze worden overgebracht naar een server. Om dit te doen, is een nieuw gebied beschikbaar in het dossier dat configuratiescherm verplettert, toestaand u om uw encryptiesleutel te kopiëren-kleven. [Meer informatie](../direct-mail/direct-mail-configuration.md)
+* U kunt nu bestanden versleutelen die zijn bedoeld voor uw direct-mailproviders wanneer deze worden overgebracht naar een server. Om dit te doen, is een nieuw gebied beschikbaar in het dossier dat configuratiescherm verplettert, toestaand u om uw encryptiesleutel te kopiëren-kleven. [Meer informatie](../direct-mail/direct-mail-configuration.md)
 
 **Rapportage**
 
-U kunt nu Journey Optimizer-rapporten exporteren als CSV-bestand. Meer informatie in het dialoogvenster [gedetailleerde documentatie](../reports/global-report.md#export-reports) en de [hoe kan ik-video](../reports/global-report.md#video-csv).
+* U kunt nu Journey Optimizer-rapporten exporteren als CSV-bestand. Meer informatie in het dialoogvenster [gedetailleerde documentatie](../reports/global-report.md#export-reports) en de [hoe kan ik-video](../reports/global-report.md#video-csv).
 
 **Assets**
 
-Met een nieuwe optie voor Middelen kunt u de repository voor uw Middelen in Journey Optimizer kiezen. U kunt kiezen voor een opslagplaats voor Assets Essentials of een as a Cloud Service opslagplaats voor middelen, op voorwaarde dat u eigenaar bent van deze oplossing. [Meer informatie](../content-management/assets-essentials.md)
+* Met een nieuwe optie voor Middelen kunt u de repository voor uw Middelen in Journey Optimizer kiezen. U kunt kiezen voor een opslagplaats voor Assets Essentials of een as a Cloud Service opslagplaats voor middelen, op voorwaarde dat u eigenaar bent van deze oplossing. [Meer informatie](../content-management/assets-essentials.md)
 
 <!--**Decision management**
 

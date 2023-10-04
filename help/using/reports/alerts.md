@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 01bc2351b08fc7226c5e5633820f476c8621e404
+source-git-commit: 4f4912530f6d39ba937b346f9eaccceff4b974dd
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -57,12 +57,12 @@ De naam van het abonnement voor de I/O-gebeurtenis die overeenkomt met de aangep
 
 ## Trigger voor leessegment is mislukt {#alert-read-audiences}
 
-Deze waarschuwing geeft een waarschuwing als een **Segment lezen** geen profiel 10 minuten na de geplande uitvoeringstijd heeft verwerkt. Deze fout kan worden veroorzaakt door technische problemen, of omdat het publiek leeg is.
+Deze waarschuwing geeft een waarschuwing als een **Publiek lezen** geen profiel 10 minuten na de geplande uitvoeringstijd heeft verwerkt. Deze fout kan worden veroorzaakt door technische problemen, of omdat het publiek leeg is.
 
 ![](assets/alerts1.png)
 
-Waarschuwingen ingeschakeld **Segment lezen** de activiteiten zijn alleen van toepassing op terugkerende reizen . **Segment lezen** activiteiten in het kader van rechtstreekse reizen die volgens een tijdschema moeten worden uitgevoerd **Eenmaal** of **Zo snel mogelijk** worden genegeerd.
+Waarschuwingen ingeschakeld **Publiek lezen** de activiteiten zijn alleen van toepassing op terugkerende reizen . **Publiek lezen** activiteiten in het kader van rechtstreekse reizen die volgens een tijdschema moeten worden uitgevoerd **Eenmaal** of **Zo snel mogelijk** worden genegeerd.
 
-Waarschuwingen ingeschakeld **Segment lezen** worden opgelost wanneer een profiel wordt ingevoerd **Segment lezen** knooppunt.
+Waarschuwingen ingeschakeld **Publiek lezen** worden opgelost wanneer een profiel wordt ingevoerd **Publiek lezen** knooppunt.
 
-De naam van het I/O-gebeurtenisabonnement die overeenkomt met de **Segment lezen** waarschuwing is **Vertragingen, fouten en fouten met betrekking tot het lezen van segmenten voor reizen**.
+De naam van het I/O-gebeurtenisabonnement die overeenkomt met de **Trigger voor leessegment is mislukt** waarschuwing is **Vertragingen, fouten en fouten met betrekking tot het lezen van segmenten voor reizen**.
