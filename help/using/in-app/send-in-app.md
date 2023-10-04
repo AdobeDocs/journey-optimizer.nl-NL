@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 0c32248d13c08a98e9298ddc932aa2e547ab2acd
+source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Volg onderstaande stappen om dit te doen:
 
 1. Van de **[!UICONTROL Connect to device]** venster, klikt u op **[!UICONTROL Start]**.
 
-1. Typ in het dialoogvenster **[!UICONTROL Base URL]** van uw toepassing en klik op **[!UICONTROL Next]**.
+1. Voer de **[!UICONTROL Base URL]** van uw toepassing en klik op **[!UICONTROL Next]**.
 
    ![](assets/in_app_create_7.png)
 

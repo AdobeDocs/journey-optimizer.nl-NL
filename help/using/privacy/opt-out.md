@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 65ebc3f711b92e665aedc1d41d4310ed155a8dfe
+source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -141,11 +141,11 @@ U kunt een controle van de verpersoonlijkingstoestemming aan een publiek ook toe
 
 1. Voeg uw beginnende publiek toe gebruikend de specifieke knoop op het recht.
 
-1. Klik op het pictogram + en selecteer **[!UICONTROL Split]** om een gesplitst publiek te maken. [Meer informatie over de splitsingsactiviteit](../audience/composition-canvas.md#split)
+1. Klik op de knop **+** en selecteert u een **[!UICONTROL Split]** activiteit om een gespleten publiek tot stand te brengen. [Meer informatie over de splitsingsactiviteit](../audience/composition-canvas.md#split)
 
    ![](assets/perso-consent-audience-split.png)
 
-1. Selecteren **[!UICONTROL Attribute split]** als het gesplitste type in het rechterdeelvenster.
+1. Selecteer in het rechterdeelvenster de optie **[!UICONTROL Attribute split]** als het gesplitste type.
 
    ![](assets/perso-consent-audience-attribute-split.png)
 

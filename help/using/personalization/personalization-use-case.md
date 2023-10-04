@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: voor persoonlijke voorkeur; kennisgeving orderstatus
+title: Hoofdlettergebruik&dubbele punt; statusmelding bestellen
 description: Leer hoe u een bericht kunt personaliseren met profiel, beschikking en contextinformatie.
 feature: Personalization
 topic: Personalization
@@ -9,22 +9,22 @@ role: Data Engineer
 level: Intermediate
 keywords: uitdrukking, redacteur, gebruiksgeval, verpersoonlijking
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Gebruiksscenario voor personalisatie: kennisgeving orderstatus {#personalization-use-case}
+# Hoofdlettergebruik voor persoonlijk gebruik: kennisgeving van status van bestelling {#personalization-use-case}
 
 In dit gebruiksgeval, zult u zien hoe te om veelvoudige types van verpersoonlijking in één enkel duw bericht te gebruiken. Er worden drie typen personalisatie gebruikt:
 
-* **Profiel**: berichten personaliseren op basis van een profielveld
-* **Offertebeslissing**: personalisatie op basis van besluitvormingsbeheersvariabelen
+* **Profiel**: berichtpersonalisatie op basis van een profielveld
+* **Offertebeslissing**: personalisatie op basis van variabelen voor besluitvormingsbeheer
 * **Context**: personalisatie op basis van contextuele gegevens van de reis
 
-Het doel van dit voorbeeld is om een gebeurtenis naar [!DNL Journey Optimizer] elke keer dat een order van een klant wordt bijgewerkt. Vervolgens wordt een pushmelding naar de klant gestuurd met informatie over de bestelling en een persoonlijke aanbieding.
+Het doel van dit voorbeeld is om een gebeurtenis naar [!DNL Journey Optimizer] telkens wanneer een klantenorder wordt bijgewerkt. Vervolgens wordt een pushmelding naar de klant gestuurd met informatie over de bestelling en een persoonlijke aanbieding.
 
 Voor dit gebruik zijn de volgende voorwaarden nodig:
 
@@ -51,7 +51,7 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
 
    ![](assets/perso-uc2.png)
 
-1. Typ het onderwerp en voeg profielpersonalisatie toe. Gebruik de zoekbalk om het voornaamveld van het profiel te zoeken. Plaats de cursor in de onderwerptekst op de plaats waar u het aanpassingsveld wilt invoegen en klik op de knop **+** pictogram. Klikken **Opslaan**.
+1. Voer het onderwerp in en voeg profielpersonalisatie toe. Gebruik de zoekbalk om het voornaamveld van het profiel te zoeken. Plaats de cursor in de onderwerptekst op de plaats waar u het aanpassingsveld wilt invoegen en klik op de knop **+** pictogram. Klikken **Opslaan**.
 
    ![](assets/perso-uc3.png)
 
@@ -61,10 +61,10 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
 
    ![](assets/perso-uc9.png)
 
-1. Selecteer **Contextafhankelijke kenmerken** -menu. Contextuele kenmerken zijn alleen beschikbaar als een reis contextuele gegevens heeft doorgegeven aan het bericht. Klikken **Journey Orchestration**. De volgende contextafhankelijke informatie wordt weergegeven:
+1. Selecteer de **Contextafhankelijke kenmerken** -menu. Contextafhankelijke kenmerken zijn alleen beschikbaar als een reis contextuele gegevens heeft doorgegeven aan het bericht. Klikken **Journey Orchestration**. De volgende contextafhankelijke informatie wordt weergegeven:
 
-   * **Gebeurtenissen**: deze categorie groepeert alle velden van de gebeurtenis(sen) die vóór de kanaalactieactiviteit op de reis zijn geplaatst.
-   * **Reiseigenschappen**: de technische gebieden die verband houden met de reis voor een bepaald profiel, bijvoorbeeld de reis-id of de specifieke fouten die zijn geconstateerd. Meer informatie in [Journey Orchestration-documentatie](../building-journeys/expression/journey-properties.md).
+   * **Gebeurtenissen**: deze categorie hergroepeert alle velden van de gebeurtenis(sen) die vóór de kanaalactieactiviteit in de reis zijn geplaatst.
+   * **Reiseigenschappen**: de technische gebieden die verband houden met de reis voor een bepaald profiel, bijvoorbeeld de reis-id of de specifieke fouten die zijn geconstateerd. Meer informatie in [Documentatie Journey Orchestration](../building-journeys/expression/journey-properties.md).
 
    ![](assets/perso-uc10.png)
 
@@ -80,7 +80,7 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
 
    ![](assets/perso-uc13.png)
 
-1. Selecteer in het linkermenu de optie **Besluiten voorstellen** om een beslissingsvariabele in te voegen. Selecteer de plaatsing en klik op **+** pictogram naast de beslissing om het aan het lichaam toe te voegen.
+1. Selecteer in het linkermenu de optie **Beslissingen voorstellen** om een beslissingsvariabele in te voegen. Selecteer de plaatsing en klik op **+** pictogram naast de beslissing om het aan het lichaam toe te voegen.
 
    ![](assets/perso-uc14.png)
 
