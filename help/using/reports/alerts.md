@@ -8,49 +8,61 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 6386a5ee5a0d1f221beab67f43636c599531736a
+source-git-commit: 01bc2351b08fc7226c5e5633820f476c8621e404
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met waarschuwingen {#alerts}
 
-Journey Optimizer maakt gebruik van Adobe Experience Platform-alarmeringsmogelijkheden. Hierdoor hebt u via de gebruikersinterface toegang tot systeemwaarschuwingen. U kunt de beschikbare waarschuwingen weergeven en hierop een abonnement nemen.
+## Waarschuwingsmogelijkheden {#alerting-capabilities}
 
-Wanneer een bepaalde reeks voorwaarden in uw verrichtingen (zoals een potentieel probleem wanneer het systeem een drempel) overschrijdt wordt bereikt, worden de waakzame berichten geleverd aan om het even welke gebruikers in uw organisatie die aan hen hebben geabonneerd.
+U kunt tot systeemalarm door het gebruikersinterface toegang hebben, of een e-mail ontvangen wanneer een mislukking gebeurt. Van de **Waarschuwingen** kunt u de beschikbare waarschuwingen weergeven en hierop een abonnement nemen. Wanneer een bepaalde reeks voorwaarden in uw verrichtingen (zoals een potentieel probleem wanneer het systeem een drempel) overschrijdt wordt bereikt, worden de waakzame berichten geleverd aan om het even welke gebruikers in uw organisatie die aan hen hebben geabonneerd.
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
-Meer informatie over berichten in Adobe Experience Platform [documentatie](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html).
+Meer informatie over berichten in Adobe Experience Platform in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}.
 
-Leren hoe te om aan alarm in te schrijven en hen te vormen, verwijs naar dit [page](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html).
+In het linkermenu, onder **Administratie**, klikt u op **Waarschuwingen**. Er zijn twee vooraf geconfigureerde waarschuwingen voor Journey Optimizer beschikbaar: de [Aangepaste actie voor reis mislukt](#alert-custom-actions) en de [Trigger voor leessegment is mislukt](#alert-read-audiences) waarschuwing. Deze waarschuwingen worden hieronder beschreven.
 
->[!AVAILABILITY]
->
->Er worden enkele ontwerpwijzigingen uitgevoerd voor de waarschuwing &#39;Doelgroep lezen is mislukt&#39;. Deze waarschuwing wordt daarom voorlopig gepauzeerd en is tijdelijk verwijderd uit de gebruikersinterface. Zodra deze wijzigingen zijn vrijgegeven, wordt de waarschuwing opnieuw weergegeven en kunt u zich erop abonneren.
+U kunt zich op elke waarschuwing afzonderlijk abonneren vanuit de gebruikersinterface door de optie **Abonneren** van de **Waarschuwingen** dashboard. Gebruik dezelfde methode om uw abonnement op te zeggen.
 
-In het linkermenu, onder **Administratie**, klikt u op **Waarschuwingen**. Er is een vooraf geconfigureerde waarschuwing voor Journey Optimizer beschikbaar. Deze waarschuwing geeft een waarschuwing als een aangepaste handeling mislukt. Wij zijn van mening dat er sprake is van een mislukking waarbij de afgelopen vijf minuten meer dan 1 procent van de fouten is gemaakt bij een specifieke aangepaste actie. Dit wordt elke 30 seconden geëvalueerd.
+![](assets/alert-subscribe.png)
 
-![](assets/alerts-custom-action.png)
+U kunt zich ook abonneren op waarschuwingen via [I/O-gebeurtenismeldingen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}De waarschuwingsregels zijn echter ingedeeld in verschillende abonnementspakketten.
 
+Als een onverwacht gedrag optreedt, wordt een waarschuwingsbericht verzonden naar de abonnees. Op basis van de gebruikersvoorkeuren worden waarschuwingen verzonden via e-mail, of rechtstreeks in het Journey Optimizer-meldingscentrum, in de rechterbovenhoek van de gebruikersinterface.
 
-<!--A pre-configured alert for Journey Optimizer is available. This alert will warn you if a read segment node has not processed any profile during the defined time frame.
-
-![](assets/alerts1.png)-->
-
-Als een onverwacht gedrag optreedt, wordt een waarschuwingsbericht naar de abonnees van de waarschuwing verzonden via e-mail of rechtstreeks in Journey Optimizer, in de rechterbovenhoek van de interface, op basis van gebruikersvoorkeuren.
-
-Wanneer een alarm wordt opgelost, ontvangt u een &quot;Opgelost&quot;bericht. Voor de aangepaste actieredeling kan dit om twee redenen gebeuren:
-* In de afgelopen 5 minuten is er geen fout opgetreden bij die aangepaste handeling (of bij fouten onder de drempel van 1%).
-* Er is geen profiel bereikt voor die aangepaste handeling.
-
-Wanneer [waarschuwingsregels weergeven in gebruikersinterface van Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html), kunt u zich op elke regel afzonderlijk abonneren. Wanneer u zich abonneert op waarschuwingen via [I/O-gebeurtenismeldingen](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html)De waarschuwingsregels zijn echter ingedeeld in verschillende abonnementspakketten. De abonnementsnaam voor de I/O-gebeurtenis die overeenkomt met de aangepaste actiedraag is: &quot;Aangepaste actiedout van reis&quot;.
-
-<!--The I/O event subscription name corresponding to the Read segment alert is: "Journey read segment Delays, Failures and Errors".-->
+Wanneer een alarm wordt opgelost, ontvangen de abonnees een &quot;Opgelost&quot;bericht.
 
 >[!WARNING]
 >
->Deze waarschuwingen zijn alleen van toepassing op levende reizen. Er worden geen waarschuwingen gegeven voor ritten in testmodus.
+>Specifieke Adobe Journey Optimizer-waarschuwingen gelden alleen voor **leven** ritten. Er worden geen waarschuwingen gegeven voor reizen in testmodus.
 
+## Aangepaste actie voor reis mislukt {#alert-custom-actions}
+
+Deze waarschuwing geeft een waarschuwing als een aangepaste handeling mislukt. Wij zijn van mening dat er sprake is van een mislukking waarbij de afgelopen vijf minuten meer dan 1 procent van de fouten is gemaakt bij een specifieke aangepaste actie. Dit wordt elke 30 seconden geëvalueerd.
+
+![](assets/alerts-custom-action.png)
+
+Waarschuwingen over aangepaste handelingen worden opgelost wanneer, gedurende de laatste 5 minuten:
+
+* er is geen fout opgetreden bij die aangepaste handeling (of bij fouten onder de drempel van 1%);
+
+* Er is ook geen profiel voor die aangepaste handeling bereikt.
+
+De naam van het abonnement voor de I/O-gebeurtenis die overeenkomt met de aangepaste waarschuwing voor een handeling is **Aangepaste actie voor reis mislukt**.
+
+## Trigger voor leessegment is mislukt {#alert-read-audiences}
+
+Deze waarschuwing geeft een waarschuwing als een **Segment lezen** geen profiel 10 minuten na de geplande uitvoeringstijd heeft verwerkt. Deze fout kan worden veroorzaakt door technische problemen, of omdat het publiek leeg is.
+
+![](assets/alerts1.png)
+
+Waarschuwingen ingeschakeld **Segment lezen** de activiteiten zijn alleen van toepassing op terugkerende reizen . **Segment lezen** activiteiten in het kader van rechtstreekse reizen die volgens een tijdschema moeten worden uitgevoerd **Eenmaal** of **Zo snel mogelijk** worden genegeerd.
+
+Waarschuwingen ingeschakeld **Segment lezen** worden opgelost wanneer een profiel wordt ingevoerd **Segment lezen** knooppunt.
+
+De naam van het I/O-gebeurtenisabonnement die overeenkomt met de **Segment lezen** waarschuwing is **Vertragingen, fouten en fouten met betrekking tot het lezen van segmenten voor reizen**.

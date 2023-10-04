@@ -4,10 +4,10 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 854e5959eaa9a79bce28ab47752b36aa71373757
+source-git-commit: 29bd838e42d82c87a03e36012a280b5f56ae3ad0
 workflow-type: tm+mt
-source-wordcount: '4120'
-ht-degree: 8%
+source-wordcount: '4142'
+ht-degree: 9%
 
 ---
 
@@ -103,10 +103,9 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 * Naast visuele fragmenten is het nu mogelijk om expressiefragmenten te maken, op te slaan en opnieuw te gebruiken vanuit de Journey Optimizer-interface via de Expressieeditor. Expressiefragmenten vervangen de eerder opgeslagen expressies. [Meer informatie](../content-management/fragments.md#create-expression-fragment)
 
-<!--
-**Alerting**
+**Waarschuwing**
 
-* A new type of system alert has been introduced. You can now get notified when a read audience fails.    -->
+* Er is een nieuw type systeemwaarschuwing geïntroduceerd. U kunt nu op de hoogte worden gesteld wanneer een publiek dat het lezen uitvoert, mislukt. [Meer informatie](../reports/alerts.md).
 
 **Webkanaal**
 
@@ -528,7 +527,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
   De vertalingen van de term &quot;publiek&quot; voor een groep profielen die bedoeld zijn om een bericht te ontvangen, zijn voor sommige talen geharmoniseerd voor alle Digital Experience-producten:
 
    * Duits: Zielgruppe
-   * Portugees in Brazilië: público-alvo
+   * Braziliaans Portugees: público-alvo
    * Spaans: público destinatario
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
