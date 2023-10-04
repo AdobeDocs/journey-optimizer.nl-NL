@@ -8,18 +8,18 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 78085934a00f4e365b49012b426e57a218bf48ba
+source-git-commit: d46ed2b5bb5402ab5ce8d3c033261d0366a5de34
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met waarschuwingen {#alerts}
 
-## Waarschuwingsmogelijkheden {#alerting-capabilities}
+## Toegang tot en abonnement nemen op waarschuwingen {#alerting-capabilities}
 
-U kunt tot systeemalarm door het gebruikersinterface toegang hebben, of een e-mail ontvangen wanneer een mislukking gebeurt. Van de **Waarschuwingen** kunt u de beschikbare waarschuwingen weergeven en hierop een abonnement nemen. Wanneer een bepaalde reeks voorwaarden in uw verrichtingen (zoals een potentieel probleem wanneer het systeem een drempel) overschrijdt wordt bereikt, worden de waakzame berichten geleverd aan om het even welke gebruikers in uw organisatie die aan hen hebben geabonneerd.
+Wanneer er een fout optreedt, kunt u systeemwaarschuwingen ontvangen in het Journey Optimizer-meldingscentrum en een e-mail ontvangen. Van de **Waarschuwingen** kunt u de beschikbare waarschuwingen weergeven en hierop een abonnement nemen. Wanneer een bepaalde reeks voorwaarden in uw verrichtingen (zoals een potentieel probleem wanneer het systeem een drempel) overschrijdt wordt bereikt, worden de waakzame berichten geleverd aan om het even welke gebruikers in uw organisatie die aan hen hebben geabonneerd.
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
