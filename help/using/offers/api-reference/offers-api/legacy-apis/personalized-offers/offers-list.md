@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
-source-git-commit: 5315c0878db9ddf1806f4f7d22fdd9f5a037fd59
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 4%
@@ -25,10 +25,12 @@ U kunt een lijst van alle gepersonaliseerde voorstellen binnen een container bek
 ```http
 GET /{ENDPOINT_PATH}/offers?offer-type=personalized&{QUERY_PARAMS}
 ```
+
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | Het eindpuntpad voor persistentie-API&#39;s. | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | Optionele queryparameters om resultaten te filteren op. | `limit=2` |
+
 **Verzoek**
 
 ```shell
@@ -40,9 +42,13 @@ curl -X GET \
 -H 'x-gw-ims-org-id: {IMS_ORG}' \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
+
 ## Query-parameters gebruiken {#using-query-parameters}
+
 U kunt queryparameters gebruiken om de resultaten te filteren en te pagineren wanneer u bronnen weergeeft.
+
 ### Paginering {#paging}
+
 De gemeenschappelijkste vraagparameters voor het pagineren omvatten:
 
 | Parameter | Beschrijving | Voorbeeld |

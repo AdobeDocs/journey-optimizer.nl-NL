@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 98c5ccf9-2a7f-4129-a520-d0671a86e13d
-source-git-commit: ef22b6183c7646cca8636f4a7e4dd87c8f88e8ce
+source-git-commit: 722b908c33834af1c4199d597fe4d573cdea8557
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '158'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,9 @@ U kunt een beslissing in uw container wijzigen of bijwerken door een PATCH-verzo
 
 Raadpleeg voor meer informatie over JSON Patch, inclusief beschikbare bewerkingen, de officiële [JSON-patchdocumentatie](https://jsonpatch.com/).
 
-    @@ -19,61 +19,62 @@ In de volgende tabel staan de geldige waarden die het *Content-Type* en
+## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
+
+In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
 
 | Naam koptekst | Waarde |
 | ----------- | ----- |
