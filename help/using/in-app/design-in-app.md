@@ -7,14 +7,19 @@ role: User
 level: Beginner
 keywords: in-app, bericht, ontwerp, opmaak
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 39953bb09a699ed4fd07db26a3f2e54f4e2cacd7
+source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 9%
+source-wordcount: '1046'
+ht-degree: 6%
 
 ---
 
 # In-app-inhoud ontwerpen {#design-content}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_content"
+>title="In-app-inhoud definiëren"
+>abstract="Pas de inhoud en de stijl van uw in-app berichten aan. U kunt ook media- en actieknoppen toevoegen om uw berichten aantrekkelijker en effectiever te maken."
 
 U kunt de inhoud in de app bewerken om ervaringsopties te configureren:
 
@@ -31,6 +36,11 @@ De **[!UICONTROL Advanced formatting]** als u schakelt, worden aanvullende optie
 Nadat u het bericht in de app hebt gemaakt en de inhoud ervan hebt gedefinieerd en gepersonaliseerd, kunt u het bericht controleren en activeren. Vervolgens worden de meldingen verzonden volgens het campagneprogramma. Meer informatie in [deze pagina](send-in-app.md).
 
 ## Berichtlay-out {#message-layout}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_layout"
+>title="In-app-inhoud definiëren"
+>abstract="De berichtlay-out voorziet u van algemeen gebruikte malplaatjes om uw bericht te voorzien. Aangepaste indeling biedt opties voor het uploaden of samenstellen van aangepaste HTML-berichten."
 
 Van de **[!UICONTROL Message Layout]** , selecteert u een van de vier verschillende indelingsopties waaruit u kunt kiezen, afhankelijk van uw berichtenbehoeften.
 
@@ -58,9 +68,14 @@ Van de **[!UICONTROL Message Layout]** , selecteert u een van de vier verschille
 
 ## Inhoud, tabblad {#content-tab}
 
-Van de **Inhoud** kunt u definiëren en aanpassen: de inhoud van het bericht en de stijl van het **Sluiten** knop. U kunt ook media toevoegen aan uw melding in de app en actieknoppen toevoegen vanaf dit tabblad.
+Van de **Inhoud** kunt u de inhoud van het bericht en de stijl van het dialoogvenster **Sluiten** knop. U kunt ook media toevoegen aan uw melding in de app en actieknoppen toevoegen vanaf dit tabblad.
 
 ### Knop Sluiten {#close-button}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_close"
+>title="Kies de Stijl van uw Dichte knoop."
+>abstract="In de sectie Knop Sluiten kunt u opties selecteren voor het selecteren van variaties van de knop Sluiten van het bericht en kunt u een aangepaste afbeelding uploaden."
 
 ![](assets/in_app_content_2.png)
 
@@ -80,6 +95,11 @@ Als de **[!UICONTROL Advanced formatting mode]** is ingeschakeld, kunt u control
 
 ### Media {#add-media}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_media"
+>title="Voeg media toe aan uw bericht in de app om een aantrekkelijke ervaring voor de eindgebruiker te creëren."
+>abstract="Geef een directe koppeling naar de inhoud op of gebruik de kiezer voor middelen om media in Essentiële elementen te selecteren om aan uw bericht toe te voegen."
+
 De **[!UICONTROL Media]** kunt u media toevoegen aan uw In-app-bericht om een aantrekkelijke ervaring voor de eindgebruiker te creëren.
 
 ![](assets/in_app_content_3.png)
@@ -94,6 +114,11 @@ Als de **[!UICONTROL Advanced formatting mode]** is ingeschakeld, kunt u de **[!
 +++
 
 ### Koptekst en tekst {#title-body}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_content"
+>title="Als u uw bericht wilt samenstellen, voert u de inhoud in de velden Koptekst en Hoofdtekst in."
+>abstract="Hier kan zowel de koptekst als de hoofdtekst worden toegevoegd. Als u personalisatietokens wilt opnemen, opent u het dialoogvenster voor personalisatie."
 
 Als u uw bericht wilt samenstellen, voert u de inhoud in het dialoogvenster **[!UICONTROL Header]** en **[!UICONTROL Body]** velden.
 
@@ -112,6 +137,11 @@ Als de **[!UICONTROL Advanced formatting mode]** is ingeschakeld, kunt u kiezen 
 +++
 
 ### Knoppen {#add-buttons}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_buttons"
+>title="Voeg knoppen toe waarmee gebruikers kunnen communiceren met uw In-app-bericht."
+>abstract="Deze sectie zal u toestaan om vraag-aan-actie knopen aan uw bericht toe te voegen. U kunt aangepaste tekst en doelen voor elke knop opnemen."
 
 Voeg knoppen toe waarmee gebruikers kunnen communiceren met uw In-app-bericht.
 
@@ -147,6 +177,11 @@ Van de **Instellingen** kunt u de berichtlay-out definiëren en een voorvertonin
 
 ### Voorvertoning {#preview-tab}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_preview"
+>title="Geef een voorvertoning weer van uw bericht in de app."
+>abstract="Dit is de voorvertoningsafbeelding die wordt weergegeven wanneer uw bericht naar het berichtenoverzicht van het apparaat wordt verzonden."
+
 ![](assets/in_app_content_6.png)
 
 De **[!UICONTROL App Preview]** kunt u een achtergrond toevoegen achter uw In-app-bericht:
@@ -159,6 +194,11 @@ De **[!UICONTROL App Preview]** kunt u een achtergrond toevoegen achter uw In-ap
 
 ### Lay-out {#layout-options}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_layout"
+>title="Bepaal de berichtlay-out van uw In-app bericht."
+>abstract="In deze sectie kunt u een achtergrond toevoegen aan uw In-app-bericht. Hiervoor moet de overname van de gebruikersinterface zijn ingeschakeld."
+
 ![](assets/in_app_content_7.png)
 
 De **[!UICONTROL Background image]** kunt u een achtergrond toevoegen aan uw In-app-bericht:
@@ -168,6 +208,11 @@ De **[!UICONTROL Background image]** kunt u een achtergrond toevoegen aan uw In-
 * Een achtergrondkleur.
 
 ### Bericht {#message-tab}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_authoring_message_advanced"
+>title="Definieer de geavanceerde instellingen voor berichten."
+>abstract="In deze sectie kunt u de inhoud in de app aanpassen, met name wanneer Geavanceerde opmaak is ingeschakeld."
 
 ![](assets/in_app_content_8.png)
 

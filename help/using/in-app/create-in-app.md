@@ -7,14 +7,19 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 94c4e0e53625fdf20f940e8bfd15d67dba1d0120
+source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '1894'
 ht-degree: 1%
 
 ---
 
 # Een bericht in de app maken {#create-in-app}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_inapp_triggers"
+>title="In-app-triggers beheren"
+>abstract="U kunt uw triggers efficiënt besturen door de specifieke gebeurtenissen en criteria te selecteren waarmee uw berichten worden geactiveerd. Met de Bouwer van de Regel, kunnen de gebruikers nauwkeurige voorwaarden en waarden bepalen. Wanneer aan deze voorwaarden wordt voldaan, starten zij een reeks acties, waaronder de levering van berichten in de app."
 
 U kunt een bericht in de app toevoegen aan een campagne of een reis. Voer de onderstaande stappen uit om in beide contexten een bericht in de app te maken.
 

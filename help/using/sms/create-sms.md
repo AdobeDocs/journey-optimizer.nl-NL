@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: b4e3d0ac51ffcabfd7168b9a01e9446adc61ff53
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '604'
 ht-degree: 5%
 
 ---
@@ -38,7 +38,7 @@ Blader op de onderstaande tabbladen om te leren hoe u een SMS-bericht kunt toevo
 
    ![](assets/sms_create_2.png)
 
-   Voor meer informatie over hoe te om een reis te vormen, verwijs naar [deze pagina](../building-journeys/journey-gs.md)
+   Voor meer informatie over hoe te om een reis te vormen, raadpleeg [deze pagina](../building-journeys/journey-gs.md)
 
    De **[!UICONTROL Surface]** wordt standaard voorgevuld met het laatste oppervlak dat de gebruiker voor dat kanaal gebruikt.
 
@@ -68,7 +68,7 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 
 1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe u de **[!UICONTROL Schedule]** van uw campagne in [deze sectie](../campaigns/create-campaign.md#schedule).
 
-1. Van de **[!UICONTROL Action triggers]** kiest u de **[!UICONTROL Frequency]** van je SMS-bericht:
+1. Van de **[!UICONTROL Action triggers]** kiest u de optie **[!UICONTROL Frequency]** van je SMS-bericht:
 
    * Eenmaal
    * Dagelijks
@@ -81,6 +81,11 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 
 ## Je SMS-inhoud definiëren{#sms-content}
 
+>[!CONTEXTUALHELP]
+>id="ajo_message_sms_content"
+>title="Je SMS-inhoud definiëren"
+>abstract="Pas uw SMS-berichten aan en pas deze aan door de expressieeditor te gebruiken om de inhoud te definiëren en dynamische elementen op te nemen."
+
 1. Van het reis of scherm van de campagneconfiguratie, klik **[!UICONTROL Edit content]** om de inhoud van SMS te vormen.
 
 1. Klik op de knop **[!UICONTROL Message]** om de Expressieeditor te openen.
@@ -89,7 +94,7 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 
 1. Gebruik de expressie-editor om inhoud te definiëren en dynamische inhoud toe te voegen. U kunt elk kenmerk gebruiken, zoals de profielnaam of plaats. Meer informatie over [personalisatie](../personalization/personalize.md) en [dynamische inhoud](../personalization/get-started-dynamic-content.md) in de Uitdrukking redacteur.
 
-1. Nadat u de inhoud hebt gedefinieerd, kunt u de URL&#39;s van de track toevoegen aan uw bericht. Om dit te doen, toegang tot **[!UICONTROL Helper functions]** en selecteert u **[!UICONTROL Helpers]**.
+1. Nadat u de inhoud hebt gedefinieerd, kunt u de URL&#39;s van de track toevoegen aan uw bericht. Om dit te doen, open **[!UICONTROL Helper functions]** en selecteert u **[!UICONTROL Helpers]**.
 
    Merk op dat om de functie te gebruiken die URL verkort, u eerst een subdomain moet vormen die dan aan uw oppervlakte zal worden verbonden. [Meer informatie](sms-subdomains.md)
 
@@ -105,7 +110,7 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 
 1. In de `originalUrl` plakken, plakt u de URL die u wilt verkorten.
 
-1. Klikken **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning. U kunt **[!UICONTROL Simulate content]** om een voorvertoning weer te geven van uw verkorte URL&#39;s of persoonlijke inhoud.
+1. Klikken **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning. U kunt **[!UICONTROL Simulate content]** om een voorvertoning weer te geven van uw verkorte URL&#39;s of gepersonaliseerde inhoud.
 
    ![](assets/sms-content-preview.png)
 
