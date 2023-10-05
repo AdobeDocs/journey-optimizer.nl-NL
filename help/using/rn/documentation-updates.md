@@ -4,9 +4,9 @@ product: journey optimizer
 title: Documentatie-updates
 description: Meer informatie over de meest recente documentatie-updates
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 16367587716c73c63c2f2207c29090b41500ecf8
 workflow-type: tm+mt
-source-wordcount: '3709'
+source-wordcount: '3763'
 ht-degree: 14%
 
 ---
@@ -28,6 +28,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De koppelingen naar de documentatie van toegangsbeheer zijn bijgewerkt. [Meer informatie](../administration/permissions.md)
 * In-app kanaalvereisten zijn bijgewerkt met Adobe Experience Platform-gegevens over gegevensverzameling. [Meer informatie](../in-app/inapp-configuration.md)
 * Sommige expressies die worden weergegeven in voorbeelden van ranking-formules zijn bijgewerkt om validatiefouten te voorkomen. [Meer informatie](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
+* Er is een waarschuwing toegevoegd aan de **Bepaal beslissingsbereik** om te specificeren dat, indien AI-model wordt gebruikt in een groep van evaluatiecriteria, alle evaluatiecriteria in die groep de AI-waarderingsmethode moeten gebruiken, met hetzelfde specifieke AI-model. Bovendien kan slechts één groep met evaluatiecriteria het AI-model gebruiken. [Meer informatie](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## Augustus 2023 {#august-2023}
 
