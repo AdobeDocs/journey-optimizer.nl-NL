@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
+source-git-commit: 2874acfda5947bedd6c390468ded294cf07f9383
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 4%
@@ -132,7 +132,7 @@ Wanneer het vormen van een douaneactie, moet u het volgende bepalen **[!UICONTRO
 
 1. In de **[!UICONTROL Request]** plakken, plakt u een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden. Dit gebied is facultatief en slechts beschikbaar voor POST en PUT die methodes roepen.
 
-1. In de **[!UICONTROL Response]** plakken, een voorbeeld van de lading die door de vraag is teruggekeerd. Dit veld is optioneel en beschikbaar voor alle aanroepmethoden. Voor gedetailleerde informatie over het gebruik van API-aanroepreacties in aangepaste acties raadpleegt u [deze pagina](../action/action-response.md).
+1. In de **[!UICONTROL Response]** plakken, een voorbeeld van de lading die door de vraag is teruggekeerd. Dit veld is optioneel en beschikbaar voor alle aanroepmethoden. Voor gedetailleerde informatie over het gebruik van API-aanroepreacties in aangepaste handelingen raadpleegt u [deze pagina](../action/action-response.md).
 
 >[!NOTE]
 >
