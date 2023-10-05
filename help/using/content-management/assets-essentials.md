@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: elementen, essentiële elementen, ervaringsmanager, integratie
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 8673391de8ac5c91bfbd28d23f7ab9a1416f4a83
+source-git-commit: f6404776cc4cd2b83373617ce6d5e18c960d0371
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 3%
@@ -49,8 +49,7 @@ Voor meer informatie over het uploaden van elementen raadpleegt u [Adobe Experie
 
    ![](assets/media_library_4.png)
 
-+++
-Leer hoe u naar een andere opslagplaats voor middelen kunt gaan.
++++ Leer hoe u naar een andere opslagplaats voor middelen kunt gaan.
 
    Als u de gegevensopslagplaats van uw middelen wilt wijzigen, selecteert u het pictogram Account rechtsboven en klikt u op **[!UICONTROL Select Repository]**.
 
