@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4d74588b5df0afab7e56e540703891c48a94ab5f
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '4140'
+source-wordcount: '4189'
 ht-degree: 9%
 
 ---
@@ -120,8 +120,9 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 * Wanneer u een reis dupliceert, kunt u nu de naam van de reiskopie definiëren. [Meer informatie](../building-journeys/journey-gs.md#uplicate-a-journey)
 
 
+
+* Ondersteuning voor aangepaste acties is nu GA. Met deze mogelijkheid kunt u API-oproepreacties gebruiken in aangepaste acties en uw reis ordenen op basis van deze reacties. Bovendien is een nieuwe guardrail toegevoegd om alle douaneacties tot 15.000 vraag over 30 seconden per eindpunt te beperken. [Meer informatie](../action/action-response.md)
 <!--
-* Support of custom action responses is now GA. This allows you to leverage API call responses in custom actions and orchestrate your journey based on these responses. In addition, a new guardrail has been added to limit all customs actions to 5000 calls/s per endpoint.
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: elementen, essentiële elementen, ervaringsmanager, integratie
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: f6404776cc4cd2b83373617ce6d5e18c960d0371
+source-git-commit: 6295b7d5379b3a81d7917a8f1a6dba2a34fc3cde
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '499'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Meer informatie in [Adobe Experience Manager Assets Essentials-documentatie](htt
 
 ## Vereisten{#assets-prerequisites}
 
-Voor gebruik [!DNL Adobe Experience Manager Assets Essentials], moet u gebruikers toevoegen aan de **Assets Essentials Consumentengebruikers** of/en **Gebruikers Assets Essentials** Productprofielen. Meer informatie in [Documentatie Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"}.
+Voor gebruik [!DNL Adobe Experience Manager Assets Essentials], moet u gebruikers toevoegen aan de **Assets Essentials Consumentengebruikers** of/en **Gebruikers Assets Essentials** Productprofielen. Meer informatie in [Documentatie Assets Essentials](https://experienceleague.corp.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-user-groups){target="_blank"}.
 
 >[!NOTE]
 >Voor Journey Optimizer-producten die zijn verkregen vóór 6 januari 2022, moet u [!DNL Adobe Experience Manager Assets Essentials] voor uw organisatie. Meer informatie in het dialoogvenster [Assets Essentials implementeren](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html){target="_blank"} sectie.

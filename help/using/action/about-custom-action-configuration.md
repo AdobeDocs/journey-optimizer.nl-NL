@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1230'
 ht-degree: 4%
 
 ---
@@ -37,7 +37,7 @@ De parameters voor aangepaste handelingen hebben een verwachte indeling (bijvoor
 
 ## Best practices{#custom-action-enhancements-best-practices}
 
-Een maximum van 5000 vraag/s wordt bepaald voor alle douaneacties. Deze grens is geplaatst gebaseerd op klantengebruik, om externe eindpunten te beschermen die door douaneacties worden gericht. U moet hiermee rekening houden bij reizen voor uw publiek door een juiste leessnelheid te definiëren (5000 profielen/s wanneer aangepaste handelingen worden gebruikt). Indien nodig, kunt u deze het plaatsen met voeten treden door een grotere het maximum van het maximum of het vertragen grens door onze Capping/het Draaien APIs te bepalen. Zie [deze pagina](../configuration/external-systems.md).
+Voor alle aangepaste handelingen wordt een begrenzingslimiet van 150.000 aanroepen over 30 seconden gedefinieerd. Deze grens is geplaatst gebaseerd op klantengebruik, om externe eindpunten te beschermen die door douaneacties worden gericht. U moet hiermee rekening houden bij reizen voor uw publiek door een juiste leessnelheid te definiëren (5000 profielen/s wanneer aangepaste handelingen worden gebruikt). Indien nodig, kunt u deze het plaatsen met voeten treden door een grotere het maximum van het maximum of het vertragen grens door onze Capping/het Draaien APIs te bepalen. Zie [deze pagina](../configuration/external-systems.md).
 
 U zou openbare eindpunten met douaneacties niet om verschillende redenen moeten richten:
 
@@ -148,7 +148,7 @@ U kunt het parametertype definiëren (bijvoorbeeld: tekenreeks, geheel getal, en
 
 U kunt ook opgeven of een parameter een constante of een variabele is.
 
-* **Constante** betekent dat de waarde van de parameter in de ruit van de actieconfiguratie door een technische persoon wordt bepaald. De waarde zal altijd het zelfde over reizen zijn. De kleur verandert niet en de markeerstift ziet deze niet wanneer u de aangepaste handeling voor de reis gebruikt. Het kan bijvoorbeeld een id zijn die het externe systeem verwacht. In dat geval is het veld rechts van de schakelconstante/variabele de doorgegeven waarde.
+* **Constante** betekent dat de waarde van de parameter in de ruit van de actieconfiguratie door een technische persoon wordt bepaald. De waarde zal altijd het zelfde over reizen zijn. Het zal niet variëren en de marktleider zal het niet zien wanneer het gebruiken van de douaneactie in de reis. Het kan bijvoorbeeld een id zijn die het externe systeem verwacht. In dat geval is het veld rechts van de schakelconstante/variabele de doorgegeven waarde.
 * **Variabele** betekent dat de waarde van de parameter zal variëren. Marktdeelnemers die deze aangepaste handeling tijdens een reis gebruiken, kunnen de gewenste waarde doorgeven of opgeven waar de waarde voor deze parameter moet worden opgehaald (bijvoorbeeld vanaf het evenement, vanuit Adobe Experience Platform, enz.). In dat geval, is het gebied op het recht van de knevelconstante/variabele de etiketmarketers in de reis zullen zien om deze parameter te noemen.
 
 ![](assets/customactionpayloadmessage2.png)

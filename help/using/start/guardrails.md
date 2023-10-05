@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: f1a8305d0f9cc93ae5dc93d73c8ed9513733d1a2
 workflow-type: tm+mt
-source-wordcount: '1350'
+source-wordcount: '1351'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in 
 
 ### Aangepaste acties {#custom-actions-g}
 
-* Een maximum van 5000 vraag/s wordt bepaald voor alle douaneacties. Deze grens is geplaatst gebaseerd op klantengebruik, om externe eindpunten te beschermen die door douaneacties worden gericht.
+* Voor alle aangepaste handelingen wordt een begrenzingslimiet van 150.000 aanroepen over 30 seconden gedefinieerd. Deze grens is geplaatst gebaseerd op klantengebruik, om externe eindpunten te beschermen die door douaneacties worden gericht.
 * De URL van de aangepaste handeling ondersteunt geen dynamische parameters.
 * Methoden voor POST, PUT en GET worden ondersteund
 * De naam van de queryparameter of -header mag niet beginnen met &quot;.&quot; of &quot;$&quot;
