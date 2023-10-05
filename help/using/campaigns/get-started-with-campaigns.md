@@ -9,14 +9,20 @@ role: User
 level: Intermediate
 keywords: campagne, hoe, begin, optimaliseer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 2%
+source-wordcount: '451'
+ht-degree: 3%
 
 ---
 
 # Aan de slag met campagnes {#get-started-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="ajo_homepage_card3"
+>title="Campagnes maken"
+>abstract="Gebruiken **Adobe Journey Optimizer** om eenmalige inhoud via verschillende kanalen aan een specifiek publiek te leveren. Wanneer u reizen gebruikt, worden handelingen op volgorde uitgevoerd. Met campagnes, worden de acties uitgevoerd gelijktijdig, of onmiddellijk, of gebaseerd op een gespecificeerd programma."
+
 
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
@@ -40,7 +46,7 @@ De belangrijkste stappen voor het opzetten van een campagne zijn:
 
 Controleer de volgende voorwaarden voordat u begint met het maken van uw eerste campagne in Journey Optimizer:
 
-1. **U hebt de juiste machtigingen nodig**. Campagnes zijn alleen beschikbaar voor gebruikers die toegang hebben tot een campagne **[!UICONTROL Product profile]** zoals Campagnebeheerder, Campagneontwikkelaar, Campagnebeheerder en/of Campagneviewer.
+1. **U hebt de juiste machtigingen nodig**. Campagnes zijn alleen beschikbaar voor gebruikers die toegang hebben tot een campagne **[!UICONTROL Product profile]** zoals Campagnebeheerder, campagnefiatteur, campagnebeheerder en/of campagneviewer.
 
    Als u geen toegang hebt tot campagnes, moeten uw toestemmingen worden uitgebreid. Als u toegang hebt tot [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} voor uw organisatie voert u de onderstaande stappen uit. Als dat niet het geval is, neemt u contact op met uw Journey Optimizer-beheerder.
 
@@ -50,13 +56,13 @@ Controleer de volgende voorwaarden voordat u begint met het maken van uw eerste 
 
    1. Van [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}, selecteert u de [!DNL Adobe Experience Platform] product.
 
-   1. Bladeren naar de **[!UICONTROL Product profile]** selecteert u een van de ingebouwde campagnes die betrekking hebben op **[!UICONTROL Product profile]**: Campagnebeheerder, campagnefiatteur, campagnebeheerder of campagneviewer.
+   1. Bladeren naar de **[!UICONTROL Product profile]** selecteert u een van de ingebouwde campagneonderdelen **[!UICONTROL Product profile]**: Campagnebeheerder, campagnefiatteur, campagnebeheerder of campagneviewer.
 
       Meer informatie over de Journey Optimizer-campagne **[!UICONTROL Product profiles]** en **[!UICONTROL Permissions]**, [verwijzen naar deze pagina](../administration/ootb-product-profiles.md).
 
       ![](assets/do-not-localize/admin_1.png)
 
-   1. Klikken **[!UICONTROL Add user]** om aan uw gebruiker toe te wijzen selecteerde **[!UICONTROL Product profile]**.
+   1. Klikken **[!UICONTROL Add user]** om de geselecteerde **[!UICONTROL Product profile]**.
 
       ![](assets/do-not-localize/admin_2.png)
 
@@ -66,7 +72,7 @@ Controleer de volgende voorwaarden voordat u begint met het maken van uw eerste 
 
 +++
 
-1. **U hebt een publiek nodig**. De doelgroepen moeten beschikbaar zijn voordat ze de campagne kunnen opzetten. Meer informatie over publiek [op deze pagina](../audience/about-audiences.md).
+1. **U hebt een publiek nodig**. De doelgroepen moeten beschikbaar zijn voordat ze de campagne kunnen opzetten. Meer informatie over het publiek [op deze pagina](../audience/about-audiences.md).
 1. **U hebt een kanaaloppervlak nodig**. Als u een kanaal wilt selecteren, moet het bijbehorende kanaaloppervlak (dus de voorinstelling) zijn gemaakt en beschikbaar. Meer informatie over kanaaloppervlakken [op deze pagina](../configuration/channel-surfaces.md).
 
 ## Hoe kan ik-video {#video}
