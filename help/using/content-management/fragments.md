@@ -7,10 +7,10 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-exl-id: 05f74838-6766-47ea-aaed-a67c174a51a9
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
+source-git-commit: 732b84a8945e85cb77a8d2c477f9c9a064988109
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1370'
 ht-degree: 2%
 
 ---
@@ -127,7 +127,7 @@ U kunt op twee manieren fragmenten maken:
 
 * Een geheel nieuw fragment maken met de opdracht **[!UICONTROL Fragments]** speciaal menu. [Meer informatie](#create-from-scratch)
 
-* Sla bij het ontwerpen van inhoud een deel van de inhoud op als fragment. [Meer informatie](#save-as-template)
+* Sla bij het ontwerpen van inhoud een deel van de inhoud op als fragment. [Meer informatie](#save-as-fragment)
 
 Als het fragment eenmaal is opgeslagen, kan het worden gebruikt in een reis, een campagne of een sjabloon. Of het nu om een geheel nieuw fragment of om bestaande inhoud gaat, u kunt dit fragment nu gebruiken bij het maken van inhoud binnen [!DNL Journey Optimizer]. Zie [Visuele fragmenten toevoegen](../email/use-visual-fragments.md) en [Expressiefragmenten benutten](../personalization/use-expression-fragments.md)
 
@@ -148,7 +148,7 @@ Voer de onderstaande stappen uit om een geheel nieuw fragment te maken.
 
    ![](assets/fragment-details.png)
 
-1. Selecteer het fragmenttype: **[!UICONTROL Visual fragment]** of **[!UICONTROL Expression fragment]**.
+1. Selecteer het fragmenttype: [Visueel fragment](#create-visual-fragment) of [Expressiefragment](#create-expression-fragment).
 
 1. Als u aangepaste of basislabels voor gegevensgebruik aan het fragment wilt toewijzen, selecteert u **[!UICONTROL Manage access]**. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md).
 
