@@ -8,16 +8,21 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 19440c38d5d663a6b5ea7e99817ee65496bb43e6
+source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 9%
+source-wordcount: '1364'
+ht-degree: 8%
 
 ---
 
 # Een pushmelding ontwerpen {#design-push-notification}
 
 ## Titel en body {#push-title-body}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-compose"
+>title="Pas uw pushmelding aan."
+>abstract="Als u uw bericht wilt samenstellen, voert u de inhoud in de velden Titel en Tekst in. Als u personalisatietokens wilt opnemen, opent u het dialoogvenster voor personalisatie."
 
 Klik op de knop **[!UICONTROL Title]** en **[!UICONTROL Body]** velden. Gebruik de uitdrukkingsredacteur om inhoud te bepalen, gegevens te personaliseren en dynamische inhoud toe te voegen. Meer informatie over [personalisatie](../personalization/personalize.md) en [dynamische inhoud](../personalization/get-started-dynamic-content.md) in de Uitdrukking redacteur.
 
@@ -40,7 +45,12 @@ U kunt het gedrag selecteren wanneer een gebruiker op de hoofdtekst van het push
 
 ## Media toevoegen {#add-media-push}
 
-In de iOS-versie van uw pushmelding kunt u een afbeelding, video of GIF toevoegen die binnen uw melding wordt weergegeven.
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-media"
+>title="Media toevoegen aan uw pushmelding"
+>abstract="U kunt een afbeelding, video of GIF toevoegen die in uw melding worden weergegeven."
+
+In de iOS-versie van uw pushmelding kunt u een afbeelding, video of GIF toevoegen die in uw melding worden weergegeven.
 
 In de Android-versie kunt u alleen een afbeeldingspictogram en een afbeelding toevoegen voor uitgebreide berichten.
 
@@ -57,6 +67,11 @@ Er zijn twee opties beschikbaar. U kunt:
 Nadat de media zijn toegevoegd, worden deze rechts van de meldingsinstantie weergegeven.
 
 ## Knoppen toevoegen {#add-buttons-push}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-buttons"
+>title="Voeg knoppen toe waarmee gebruikers kunnen communiceren met uw pushmelding."
+>abstract="Deze sectie zal u toestaan om vraag-aan-actie knopen aan uw bericht toe te voegen. Geef voor iOS een identificatie voor de berichtencategorie op. Voor Android kunt u voor elke knop aangepaste tekst en doelen opnemen."
 
 Maak een actionable melding door knoppen toe te voegen aan uw pushinhoud.
 
@@ -85,11 +100,21 @@ Selecteer de **[!UICONTROL Silent Notification]** optie om de toepassing zonder 
 
 Gebruik de **[!UICONTROL Custom data]** om sleutelwaardeparen toe te voegen.
 
-## Aangepaste gegevens
+## Aangepaste gegevens {#custom-data}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-custom"
+>title="Configureer aangepaste gegevens voor uw pushmelding."
+>abstract="Voeg aangepaste variabelen toe aan de payload, afhankelijk van de configuratie van uw mobiele toepassing."
 
 In de **[!UICONTROL Custom data]** kunt u aangepaste variabelen toevoegen aan de payload, afhankelijk van de configuratie van uw mobiele toepassing. Raadpleeg voor meer informatie over het instellen van pushmeldingen in Adobe Experience Platform en het starten van de Adobe [deze sectie](push-gs.md)
 
 ## Geavanceerde opties {#advanced-options-push}
+
+>[!CONTEXTUALHELP]
+>id="ajo-message-push-advanced"
+>title="Configureer geavanceerde opties voor uw pushmelding."
+>abstract="In deze sectie kunt u de personalisatie van uw pushmelding verbeteren."
 
 U kunt **[!UICONTROL Advanced options]** voor uw pushmelding. De beschikbare parameters worden hieronder weergegeven:
 

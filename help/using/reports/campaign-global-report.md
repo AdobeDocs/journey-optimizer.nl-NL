@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 2ae9cc843d613bf22e1413b1903e151faf3f8f76
+source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2696'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,11 @@ Voor een gedetailleerde lijst van elke metrisch beschikbaar in Adobe Journey Opt
 ## Tabblad Campagne {#campaign-global}
 
 ### Levering {#delivery-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_delivery_global"
+>title="Statistieken van de campagne"
+>abstract="De widget Statistieken van de campagne bevat de belangrijkste informatie met betrekking tot uw campagne, zoals de ingevoerde profielen en acties."
 
 ![](assets/campaign_report_global_1.png)
 
@@ -209,6 +214,21 @@ De **[!UICONTROL Send time optimization]** bepaalt het succes van uw levering af
 
 ## Tabblad In-app {#inapp-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_performance"
+>title="Prestaties in de app"
+>abstract="De prestatie-KPI&#39;s in de app bieden essentiële inzichten in de betrokkenheid van uw bezoekers bij In-app-berichten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_interactions"
+>title="Interacties per type"
+>abstract="De interacties per type grafieken en de lijstdetails hoe de gebruikers met uw in-app bericht in wisselwerking stonden door om het even welke klik te volgen, te ontslaan, of interactie."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_inapp_summary"
+>title="Overzicht in de app"
+>abstract="De overzichtsgrafiek in de app illustreert de voortgang van uw impressies en interacties in de app gedurende de opgegeven periode."
+
 Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL In-app]** bevat de belangrijkste informatie met betrekking tot de in-app-leveringen die in uw campagne zijn verzonden.
 
 ![](assets/campaign_report_global_6.png)
@@ -223,20 +243,50 @@ De **[!UICONTROL In-app performance]** KPI&#39;s geven een gedetailleerde beschr
 
 * **[!UICONTROL Interactions rate]**: percentage contracten met uw In-app-bericht. Dit omvat alle handelingen die de gebruikers hebben uitgevoerd, zoals klikken, ontslag of andere interactie.
 
-De **[!UICONTROL In-app summary]** in de grafiek wordt de ontwikkeling van uw In-app-afbeeldingen en -interacties voor de desbetreffende periode weergegeven.
-
 De **[!UICONTROL Interactions by type]** grafieken en tabellen geven aan hoe gebruikers met uw bericht in de app hebben gewerkt door een klik, sluiting of interactie bij te houden.
+
+De **[!UICONTROL In-app summary]** in de grafiek wordt de ontwikkeling van uw In-app-afbeeldingen en -interacties voor de desbetreffende periode weergegeven.
 +++
 
 ## Tabblad Pushmelding {#push-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_sending_statistics"
+>title="Pushmelding - Statistieken verzenden"
+>abstract="De lijst van het Verzenden van de Statistieken van het Bericht van de Duw vat essentiële gegevens over uw dupberichten zoals Gerichte of Geleide berichten samen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_tracking_statistics"
+>title="Pushmeldingen - Statistieken bijhouden"
+>abstract="De Statistieken van het Spoor van de Duw verstrekken gegevens over ontvankelijke activiteit voor uw levering."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_sending_summary"
+>title="Pushmelding - Samenvatting verzenden"
+>abstract="In de grafiek Samenvatting van pushberichten wordt aangegeven welke gegevens beschikbaar zijn voor verzonden pushberichten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_excluded_reasons"
+>title="Pushmelding - Uitgesloten redenen"
+>abstract="In de grafieken en de tabel met uitgesloten redenen worden de verschillende factoren weergegeven die hebben geleid tot gebruikersprofielen die zijn uitgesloten van het doelpubliek en die het bericht niet ontvangen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_error_reasons"
+>title="Pushmelding - Foutredenen"
+>abstract="Met de grafieken en de tabel met de oorzaken van fouten kunt u de specifieke fouten identificeren die tijdens de levering zijn opgetreden."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_push_breakdown_platform"
+>title="Pushmelding - Onderverdeling per platform"
+>abstract="De grafieken en tabel van de indeling naar platform geven een overzicht van het succes van uw pushberichten op basis van het besturingssysteem van de ontvanger."
+
 Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Push notification]** bevat de belangrijkste informatie met betrekking tot de pushberichten die in uw campagne worden verzonden.
 
-![](assets/campaign_report_global_3.png)
+![](assets/campaign_report_global_3.png)De prestatie-KPI&#39;s in de app bevatten gedetailleerde informatie over de belangrijkste informatie over de betrokkenheid van uw bezoekers bij uw berichten in de app.
 
 +++Leer meer op de verschillende metriek en widgets beschikbaar voor het Push- rapport.
 
-De **[!UICONTROL Push notification - Sending statistics]** de tabel bevat de belangrijkste informatie met betrekking tot uw pushberichten met grafiek en PKI&#39;s:
+De **[!UICONTROL Push notification - Sending statistics]** de tabel bevat de belangrijkste informatie met betrekking tot uw pushmeldingen
 
 * **[!UICONTROL Targeted]**: Het totale aantal berichten dat tijdens de leveringsanalyse wordt verwerkt.
 
@@ -295,14 +345,44 @@ De **[!UICONTROL Send time optimization]** bepaalt het succes van uw levering af
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 * **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten.
 
-De **[!UICONTROL Error Reasons]** de grafiek en de lijst laten u zien welke fout tijdens uw levering voorkwam.
+De **[!UICONTROL Error Reasons]** aan de hand van grafieken en tabellen kunt u zien welke fout tijdens de levering is opgetreden.
 
-De **[!UICONTROL Excluded reasons]** de grafiek en de lijst tonen de verschillende redenen die gebruikersprofielen, uitgesloten van de gerichte profielen, van het ontvangen van het bericht verhinderden.
+De **[!UICONTROL Excluded reasons]** in grafieken en tabellen worden de verschillende redenen weergegeven waarom gebruikersprofielen, die zijn uitgesloten van de doelprofielen, het bericht niet hebben ontvangen.
 
-De **[!UICONTROL Tracking by platform]**, **[!UICONTROL Sending by platform]** en **[!UICONTROL Breakdown by platform]** grafieken en tabellen geven het succes van uw pushmelding weer, afhankelijk van het besturingssysteem van de ontvanger.
+De **[!UICONTROL Breakdown by platform]** de grafiek en de lijst detailleert het succes van uw dupmelding afhankelijk van het werkende systeem van uw ontvanger.
 +++
 
 ## Tabblad SMS {#sms-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_sending_statistics"
+>title="SMS - Statistieken verzenden"
+>abstract="De SMS die Statistieken verzendt vat essentiële gegevens over uw SMS- berichten zoals Gerichte of Geleide berichten samen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_error_reasons"
+>title="SMS - Redenen voor fouten"
+>abstract="Met SMS - Foutgrafieken en -tabel kunt u de specifieke fouten identificeren die tijdens de levering zijn opgetreden."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_performance"
+>title="SMS - Prestaties op datum"
+>abstract="De widget SMS-prestaties op datum biedt via een grafische weergave belangrijke informatie over uw berichten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_excluded_reasons"
+>title="SMS - Uitgesloten redenen"
+>abstract="In de grafieken en de tabel met uitgesloten redenen worden de verschillende factoren weergegeven die hebben geleid tot gebruikersprofielen die zijn uitgesloten van het doelpubliek en die het bericht niet ontvangen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_bounces_reasons"
+>title="SMS - Bounges redenen"
+>abstract="De grafieken en de tabel met Bounces Reasons bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_sms_clicks_links"
+>title="SMS - Klikken op koppelingen"
+>abstract="SMS - De widget klikt op koppelingen biedt essentiële inzichten in de betrokkenheid van uw bezoekers bij de URL&#39;s in uw berichten"
 
 Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL SMS]** bevat de belangrijkste informatie met betrekking tot de SMS-leveringen die in uw campagne zijn verzonden.
 
@@ -330,13 +410,28 @@ De **[!UICONTROL SMS Performance by date]** widget geeft de belangrijkste inform
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
-De **[!UICONTROL Exclude Reasons]**, **[!UICONTROL Bounces Reasons]** en **[!UICONTROL Error Reasons]** in grafieken en tabellen kunt u zien welke fout en uitsluitingen tijdens de levering zijn opgetreden.
+De **[!UICONTROL Exclude Reasons]** en **[!UICONTROL Bounces Reasons]** en **[!UICONTROL Error Reasons]** in grafieken en tabellen kunt u zien welke fout en uitsluitingen tijdens de levering zijn opgetreden.
 
-De **[!UICONTROL SMS - Clicks by links]** en **[!UICONTROL SMS - Tracking statistics]** widgets bevatten gedetailleerde informatie over de belangrijkste informatie met betrekking tot de betrokkenheid van uw bezoekers bij uw URL&#39;s.
+De **[!UICONTROL SMS - Clicks by links]** widgets geeft de belangrijkste informatie met betrekking tot de betrokkenheid van uw bezoekers bij uw URL&#39;s.
 
 +++
 
 ## Tabblad Web {#web-tab}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_performance"
+>title="Webprestaties"
+>abstract="De KPI&#39;s voor webprestaties bieden uitgebreide informatie over de betrokkenheid van uw bezoekers bij uw webervaringen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_summary"
+>title="Weboverzicht"
+>abstract="De webinvattingsgrafiek illustreert de voortgang van uw webervaringen, inclusief indrukken, unieke indrukken en interacties, gedurende de opgegeven periode."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_web_interactions"
+>title="Interacties per element"
+>abstract="De tabel Interacties per element biedt belangrijke informatie over de betrokkenheid van uw bezoekers bij verschillende elementen op uw webpagina&#39;s."
 
 Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Web]** van het lusje details de belangrijkste informatie met betrekking tot uw Web-pagina&#39;s.
 
@@ -358,6 +453,21 @@ De **[!UICONTROL Interactions by element]** de tabel bevat de belangrijkste info
 +++
 
 ## Tabblad Direct mail {#direct-mail-global}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_sending_statistics"
+>title="Directe post - Verzendstatistieken"
+>abstract="De Direct mail die Statistieken verzendt vat essentiële gegevens over uw Directe Berichten zoals Gerichte of Geleverde berichten samen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_error_reasons"
+>title="Directe post - de redenen van de Fout"
+>abstract="Met de grafieken en de tabel Direct mail - Foutredenen kunt u de specifieke fouten identificeren die tijdens de levering zijn opgetreden."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_direct_excluded_reasons"
+>title="Direct mail - Uitgesloten redenen"
+>abstract="De grafiek en de tabel met uitgesloten redenen voor Direct Mail illustreren de verschillende factoren die tot gebruikersprofielen hebben geleid, die van het beoogde publiek zijn uitgesloten en die het bericht niet ontvangen."
 
 Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Direct mail]** bevat de belangrijkste informatie met betrekking tot uw Direct-mailleveringen.
 
