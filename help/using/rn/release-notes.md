@@ -4,9 +4,9 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 9de7c9e6cf4a581ca089785467bf838f8e9943a7
 workflow-type: tm+mt
-source-wordcount: '4220'
+source-wordcount: '4253'
 ht-degree: 9%
 
 ---
@@ -104,6 +104,10 @@ Bovendien vereenvoudigt de berekende attributen segmentatie en reisworkflows om 
 ### Verbeteringen {#sept-2023-improvements}
 
 Deze release bevat de verbeteringen die hieronder worden vermeld.
+
+**Beslissingsbeheer**
+
+* Nieuwe API&#39;s voor het maken en beheren van besluitvormingsbeheerobjecten zijn nu beschikbaar. Deze API&#39;s bieden betere prestaties en een verbeterde gebruikerservaring. De oudere API&#39;s worden ondersteund tot 27-03-2024. [Meer informatie](../offers/api-reference/getting-started.md)
 
 **Personalisatie**
 
