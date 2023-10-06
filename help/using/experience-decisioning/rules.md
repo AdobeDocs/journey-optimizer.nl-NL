@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 7437268e87cc2c71bec394fbef1b512b31946cf5
+source-git-commit: 4b23f9fa2d6d7d12988f3c590d6e835637c05bea
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '268'
 ht-degree: 4%
 
 ---
@@ -39,7 +39,10 @@ Met beslissingsregels kunt u het publiek voor beslissingsitems definiëren door 
 
 Laten we bijvoorbeeld een scenario overwegen waarin u beslissingsitems hebt die Yoga-gerelateerde producten bevatten die zijn ontworpen voor vrouwen. Met de besluitvormingsregels kunt u zeggen dat deze items alleen mogen worden weergegeven aan profielen waarvan het geslacht &quot;Vrouwelijk&quot; is en die in &#39;Yoga&#39; een &#39;belangenpunt&#39; hebben aangegeven.
 
-Naast de besluitvormingsregels op het niveau van item- en selectiestrategie kunt u ook aanvullende parameters voor het beoogde publiek op campagnereniveau maken. [Meer informatie](../campaigns/create-campaign.md)
+>[!NOTE]
+>
+>Naast de besluitvormingsregels op het niveau van de item- en selectiestrategie kunt u ook het doelpubliek op campagnereniveau definiëren. [Meer informatie](../campaigns/create-campaign.md#audience)
+
 
 De lijst met besluitvormingsregels is toegankelijk in het **[!UICONTROL Configuration]** / **[!UICONTROL Decisions rules]** -menu.
 
@@ -49,7 +52,7 @@ De lijst met besluitvormingsregels is toegankelijk in het **[!UICONTROL Configur
 >
 >Momenteel worden de besluitvormingsregels beheerd met Journey Optimizer **Beslissingsbeheer** -menu. Dientengevolge, **[!UICONTROL Decision rules]** De lijst in Ervaring Beslissing omvat regels die van beide Journey Optimizer worden gecreeerd **[!UICONTROL Decision Management]** of **[!UICONTROL Experience Decisioning]** menu&#39;s.
 
-Ga als volgt te werk om een verzameling te maken:
+Ga als volgt te werk om een regel te maken:
 
 1. Ga naar **[!UICONTROL Configuration]** / **[!UICONTROL Decision rules]**.
 1. Journey Optimizer-gebruikersinterface voor beslissingsbeheer wordt in het centrale gebied weergegeven. Voer de stappen uit die in het dialoogvenster [Beslissingsbeheersdocumentatie](../offers/offer-library/creating-decision-rules.md) om uw regel te bouwen die op uw behoeften wordt gebaseerd.
