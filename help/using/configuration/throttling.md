@@ -7,16 +7,16 @@ role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: b95d3a709075c388b1784bd18407258acd786851
+source-git-commit: 4905c3c395ee06e1af34da9a2b5cae9b4a3c39e6
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '826'
 ht-degree: 91%
 
 ---
 
 # Werken met de beperkings-API
 
-Met de Throttling-API kunt u uw vertragingsconfiguraties maken, configureren en controleren om het aantal gebeurtenissen dat per seconde wordt verzonden te beperken.
+Met de Throttling-API kunt u uw throttling-configuraties maken, configureren en controleren om het aantal gebeurtenissen dat per seconde wordt verzonden te beperken.
 
 Deze sectie bevat algemene informatie over het werken met de API. Een gedetailleerde API-beschrijving is beschikbaar in [Adobe Journey Optimizer API-documentatie](https://developer.adobe.com/journey-optimizer-apis/).
 
@@ -136,7 +136,7 @@ Wanneer u probeert een andere configuratie te maken:
 
 ## Gebruiksscenario&#39;s {#uc}
 
-Voor hulp bij het testen en configureren is [hier](https://raw.githubusercontent.com/AdobeDocs/JourneyAPI/master/postman-collections/Journey-Orchestration_Throttling-API_postman-collection.json) een Postman-verzameling beschikbaar.
+Voor hulp bij het testen en configureren is [hier](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json) een Postman-verzameling beschikbaar.
 
 Deze Postman-verzameling is opgezet om de Postman Variabele verzameling te delen die is gegenereerd via __[Adobe I/O Console-integraties](https://console.adobe.io/integrations) > Uitproberen > Downloaden voor Postman__, wat een Postman-omgevingsbestand genereert met de geselecteerde integratiewaarden.
 
