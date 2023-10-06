@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: testprofielen, testen, testen, reizen
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Testprofielen maken {#create-test-profiles}
 
-Testprofielen zijn vereist wanneer u de opdracht [testmodus](../building-journeys/testing-the-journey.md) op reis, en [inhoud voorvertonen en testen](../email/preview.md).
+Testprofielen zijn vereist wanneer u de opdracht [testmodus](../building-journeys/testing-the-journey.md) op een reis en naar [inhoud voorvertonen en testen](../email/preview.md).
 
 U kunt testprofielen op verschillende manieren maken. Op deze pagina vindt u meer informatie over:
 
@@ -42,18 +42,18 @@ Naar **een schema maken** Voer de volgende stappen uit:
 
 1. Klik in de menusectie GEGEVENSBEHEER op **[!UICONTROL Schemas]**.
    ![](assets/test-profiles-0.png)
-1. Klikken **[!UICONTROL Create schema]** selecteert u in de rechterbovenhoek een schematype, bijvoorbeeld **Afzonderlijk XDM-profiel**.
+1. Klikken **[!UICONTROL Create schema]** Selecteer in de rechterbovenhoek een schematype, bijvoorbeeld **Individueel profiel** en klik op **Volgende**.
    ![](assets/test-profiles-1.png)
-1. Selecteer de juiste veldgroepen. Zorg ervoor dat u de **Details van de profieltest** veldgroep.
+1. Voer een naam voor het schema in en klik op **Voltooien**.
+   ![](assets/test-profiles-1-bis.png)
+1. In de **Veldgroepen** klikt u links in het scherm op **Add$ en selecteert u de gewenste veldgroepen. Zorg ervoor dat u de **Details van de profieltest** veldgroep.
    ![](assets/test-profiles-1-ter.png)
-Als u klaar bent, klikt u op **[!UICONTROL Add field groups]**: de lijst van gebiedsgroepen wordt getoond op het schema overzichtsscherm.
+Klik op **[!UICONTROL Add field groups]**: De lijst met veldgroepen wordt weergegeven in het scherm Schema-overzicht.
    ![](assets/test-profiles-2.png)
 
    >[!NOTE]
    >
-   >* Klik op de naam van het schema om het te wijzigen en de eigenschappen ervan bij te werken.
-   >
-   >* Klik op de knop **[!UICONTROL Add]** in de sectie Veldgroepen om andere veldgroepen te selecteren die in het schema moeten worden toegevoegd
+   >Klik op de naam van het schema om de eigenschappen ervan bij te werken.
 
 1. Klik in de lijst met velden op het veld dat u als primaire identiteit wilt definiëren.
    ![](assets/test-profiles-3.png)
@@ -77,12 +77,12 @@ Vervolgens moet u **Maak de dataset** waarin de profielen worden geïmporteerd. 
    ![](assets/test-profiles-8.png)
 1. Kies een naam en klik op **[!UICONTROL Finish]**.
    ![](assets/test-profiles-9.png)
-1. De optie **[!UICONTROL Profile]** optie.
+1. De optie **[!UICONTROL Profile]** -optie.
    ![](assets/test-profiles-10.png)
 
 >[!NOTE]
 >
-> Voor meer informatie over de verwezenlijking van dataset, verwijs naar [Documentatie Catalog Service](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}.
+> Raadpleeg voor meer informatie over het maken van gegevenssets de [Documentatie Catalog Service](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#getting-started){target="_blank"}.
 
 ## Gebruiksscenario in het product{#use-case-1}
 
@@ -94,17 +94,17 @@ Klik op de knop **[!UICONTROL Begin]** om het gebruik te starten.
 
 De volgende informatie is vereist:
 
-1. **Naamruimte identiteit**: De [naamruimte identity](../audience/get-started-identity.md) worden gebruikt om de testprofielen uniek te identificeren. Als e-mail bijvoorbeeld wordt gebruikt om de testprofielen te identificeren, wordt de naamruimte van de identiteit **E-mail** moet worden geselecteerd. Als het unieke herkenningsteken het telefoonaantal is, dan identiteit namespace **Telefoon** moet worden geselecteerd.
+1. **Naamruimte identiteit**: De [naamruimte identity](../audience/get-started-identity.md) worden gebruikt om de testprofielen op unieke wijze te identificeren. Als e-mail bijvoorbeeld wordt gebruikt om de testprofielen te identificeren, wordt de naamruimte van de identiteit **E-mail** moet worden geselecteerd. Als het unieke herkenningsteken het telefoonaantal is, dan identiteit namespace **Telefoon** moet worden geselecteerd.
 
 2. **CSV-bestand**: Een door komma&#39;s gescheiden bestand met de lijst testprofielen die moeten worden gemaakt. De gebruikscase verwacht een vooraf gedefinieerde indeling voor het CSV-bestand dat de lijst met testprofielen bevat die moet worden gemaakt. Elke rij in het bestand moet de volgende velden in de juiste volgorde bevatten:
 
-   1. **Persoon-id**: Unieke identificatiecode van het testprofiel. De waarden van dit veld moeten de naamruimte weerspiegelen die is geselecteerd. (Als voorbeeld: als **Telefoon** is geselecteerd voor de naamruimte van de identiteit. De waarden van dit veld moeten telefoonnummers zijn. Op dezelfde manier als **E-mail** is geselecteerd, dan moeten de waarden van dit veld e-mails zijn)
-   1. **E-mailadres**: E-mailadres testprofiel. (De **Persoon-id** en **E-mailadres** veld kan dezelfde waarden bevatten als **E-mail** is geselecteerd als naamruimte voor identiteit)
+   1. **Persoon-id**: Unieke id van het testprofiel. De waarden van dit veld moeten de naamruimte weerspiegelen die is geselecteerd. (Als voorbeeld: als **Telefoon** is geselecteerd voor de naamruimte van de identiteit. De waarden van dit veld moeten telefoonnummers zijn. Op dezelfde manier als **E-mail** is geselecteerd, dan moeten de waarden van dit veld e-mails zijn)
+   1. **E-mailadres**: E-mailadres voor testprofiel. (De **Persoon-id** en de **E-mailadres** veld kan dezelfde waarden bevatten als **E-mail** is geselecteerd als naamruimte voor identiteit)
    1. **Voornaam**: Voornaam van testprofiel.
    1. **Achternaam**: Achternaam van testprofiel.
-   1. **Plaats**: Testprofiel woonplaats
+   1. **Plaats**: testprofiel stad van verblijf
    1. **Land**: Testprofiel land van verblijf
-   1. **Geslacht**: Geslacht testprofiel. Beschikbare waarden zijn **mannetje**, **vrouwelijk** en **niet_opgegeven**
+   1. **Geslacht**: sekse testprofiel. Beschikbare waarden zijn **mannetje**, **vrouwelijk** en **niet_opgegeven**
 
 Nadat u de naamruimte Identiteit hebt geselecteerd en het CSV-bestand hebt opgegeven op basis van de bovenstaande indeling, klikt u op **[!UICONTROL Run]** aan de rechterbovenhoek. Het kan enkele minuten duren voordat de gebruiksaanwijzing is voltooid. Zodra het gebruik is voltooid en de testprofielen zijn gemaakt, wordt een melding verzonden om de gebruiker op de hoogte te stellen.
 
@@ -116,7 +116,7 @@ Nadat u de naamruimte Identiteit hebt geselecteerd en het CSV-bestand hebt opgeg
 
 U kunt een bestaand profiel omzetten in een testprofiel: u kunt profielkenmerken op dezelfde manier bijwerken als wanneer u een profiel maakt.
 
-Een eenvoudige manier om dit te doen is met behulp van een **[!UICONTROL Update Profile]** de activiteit van de actie in een reis en verandert **testProfile** Booleaans veld van false naar true.
+Een eenvoudige manier om dit te doen is door een **[!UICONTROL Update Profile]** de activiteit van de actie in een reis en verandert **testProfile** Booleaans veld van false naar true.
 
 Uw reis zal bestaan uit een **[!UICONTROL Read Audience]** en **[!UICONTROL Update Profile]** activiteit. Eerst moet u een publiek maken dat zich richt op de profielen die u wilt omzetten in testprofielen.
 
@@ -124,9 +124,9 @@ Uw reis zal bestaan uit een **[!UICONTROL Read Audience]** en **[!UICONTROL Upda
 >
 > Aangezien u de **testProfile** in de gekozen profielen moet dit veld worden opgenomen. Het gerelateerde schema moet de **Details van de profieltest** veldgroep. Zie [deze sectie](../audience/creating-test-profiles.md#test-profiles-prerequisites).
 
-1. Bladeren naar **Soorten publiek** vervolgens **publiek maken**, in de rechterbovenhoek.
+1. Bladeren naar **Soorten publiek** vervolgens **publiek maken**, rechtsboven.
    ![](assets/test-profiles-22.png)
-1. Definieer een naam voor uw publiek en stel het publiek samen: Selecteer de velden en de waarden die u als doel wilt instellen.
+1. Definieer een naam voor de doelgroep en stel de doelgroep samen: kies een of meer velden en waarden voor de gewenste profielen.
    ![](assets/test-profiles-23.png)
 1. Klikken **Opslaan** en controleert u of de doelprofielen correct zijn ingesteld door de doelgroep.
    ![](assets/test-profiles-24.png)
@@ -169,7 +169,7 @@ In Adobe Experience Platform kunt u profielen maken door een CSV-bestand met de 
    ![](assets/test-profiles-18.png)
 1. Wijs de bronCSV gebieden aan de schemagebieden toe, dan klik **Voltooien**.
    ![](assets/test-profiles-19.png)
-1. Het importeren van de gegevens begint. De status verandert van **Verwerking** tot **Succes**. Klikken **Gegevensset voorvertoning**, in de rechterbovenhoek.
+1. Het importeren van de gegevens begint. De status verandert van **Verwerking** tot **Succes**. Klikken **Gegevensset voorvertoning**, rechtsboven.
    ![](assets/test-profiles-20.png)
 1. Controleer of de testprofielen correct zijn toegevoegd.
    ![](assets/test-profiles-21.png)
@@ -184,7 +184,7 @@ Uw testprofielen worden toegevoegd en kunnen nu worden gebruikt bij het testen v
 U kunt testprofielen ook maken via API-aanroepen. Meer informatie in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}.
 
 U moet een profielschema gebruiken dat de het gebiedsgroep van &quot;de testdetails van het Profiel&quot;bevat. De markering testProfile maakt deel uit van deze veldgroep.
-Wanneer u een profiel maakt, moet u de waarde doorgeven: testProfile = true.
+Wanneer u een profiel maakt, moet u de waarde testProfile = true doorgeven.
 
 U kunt een bestaand profiel ook bijwerken en de markering testProfile wijzigen in &quot;true&quot;.
 

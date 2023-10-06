@@ -6,9 +6,9 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van pushmeld
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1479'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,8 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->De nieuwe **Snelle start-workflow voor mobiel instapsysteem** is nu beschikbaar. Met deze nieuwe productfunctie kunt u de Mobile SDK snel configureren om gegevens van mobiele gebeurtenissen te verzamelen en te valideren en om mobiele pushberichten te verzenden. Dit vermogen is toegankelijk via de homepage van de Inzameling van Gegevens als openbare bèta. [Meer informatie](mobile-onboarding-wf.md)
+>De nieuwe **Snelle start-workflow voor mobiel instapinstapsysteem** is nu beschikbaar. Met deze nieuwe productfunctie kunt u de Mobile SDK snel configureren om gegevens van mobiele gebeurtenissen te verzamelen en te valideren en om mobiele pushberichten te verzenden. Dit vermogen is toegankelijk via de homepage van de Inzameling van Gegevens als openbare bèta. [Meer informatie](mobile-onboarding-wf.md)
+>
 
 
 ## Voordat u begint {#before-starting}
@@ -52,13 +53,13 @@ Voordat u een mobiele toepassing maakt, moet u er eerst voor zorgen dat u over d
 
 Om **Eigenschap** en **Bedrijf** rechten, volgt u de onderstaande stappen:
 
-1. Toegang krijgen tot **[!DNL Admin Console]**.
+1. Toegang krijgen tot de **[!DNL Admin Console]**.
 
 1. Van de **[!UICONTROL Products]** selecteert u de **[!UICONTROL Adobe Experience Platform Data Collection]** kaart.
 
    ![](assets/push_product_1.png)
 
-1. Bestaande selecteren **[!UICONTROL Product Profile]** of maak een nieuwe met de **[!UICONTROL New profile]** knop. Leer hoe u een nieuwe **[!UICONTROL New profile]** in de [Documentatie beheerconsole](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
+1. Bestaande selecteren **[!UICONTROL Product Profile]** of maak een nieuwe versie met de **[!UICONTROL New profile]** knop. Leer hoe u een nieuwe **[!UICONTROL New profile]** in de [Documentatie voor beheerconsole](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
 
 1. Selecteer op het tabblad **[!UICONTROL Permissions]** de optie **[!UICONTROL Property rights]**.
 
@@ -90,7 +91,7 @@ Om **Eigenschap** en **Bedrijf** rechten, volgt u de onderstaande stappen:
 
 Om dit toe te wijzen **[!UICONTROL Product profile]** aan gebruikers, volg de hieronder stappen:
 
-1. Toegang krijgen tot **[!DNL Admin Console]**.
+1. Toegang krijgen tot de **[!DNL Admin Console]**.
 
 1. Van de **[!UICONTROL Products]** selecteert u de **[!UICONTROL Adobe Experience Platform Data Collection]** kaart.
 
@@ -114,21 +115,21 @@ De technische opstelling impliceert nauwe samenwerking tussen de toepassingsontw
 
 Voer de implementatiestappen uit die in de onderstaande koppelingen worden beschreven:
 
-* Voor **Apple iOS**: Leer hoe u uw app registreert bij APN&#39;s in [Apple-documentatie](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}
+* Voor **Apple iOS**: Leer hoe u uw app bij APN&#39;s kunt registreren in [Apple-documentatie](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}
 * Voor **Google Android**: Leer hoe u een Firebase Cloud Messaging-clienttoepassing op Android instelt in [Google-documentatie](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}
 
 ### Uw mobiele app integreren met de SDK van Adobe Experience Platform {#integrate-mobile-app}
 
-Adobe Experience Platform Mobile SDK biedt client-side integratie-API&#39;s voor uw mobiele apparaten via met Android en iOS compatibele SDK&#39;s. Volg [Adobe Experience Platform Mobile SDK-documentatie](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} voor installatie met Adobe Experience Platform Mobile SDK&#39;s in uw app.
+Adobe Experience Platform Mobile SDK biedt client-side integratie-API&#39;s voor uw mobiele apparaten via met Android en iOS compatibele SDK&#39;s. Volgen [Adobe Experience Platform Mobile SDK-documentatie](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"} voor installatie met Adobe Experience Platform Mobile SDK&#39;s in uw app.
 
-Tegen het einde van deze procedure had u ook een mobiele eigenschap moeten maken en configureren in [!DNL Adobe Experience Platform Data Collection]. Normaal gesproken maakt u een eigenschap mobile voor elke mobiele toepassing die u wilt beheren. Leer hoe u een mobiele eigenschap kunt maken en configureren in [Adobe Experience Platform Mobile SDK-documentatie](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
+Tegen het einde van deze procedure had u ook een mobiele eigenschap moeten maken en configureren in [!DNL Adobe Experience Platform Data Collection]. Doorgaans maakt u een eigenschap voor mobiele apparaten voor elke mobiele toepassing die u wilt beheren. Leer hoe u een mobiele eigenschap kunt maken en configureren in [Adobe Experience Platform Mobile SDK-documentatie](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}.
 
 
-## Stap 1: Uw pushgegevens voor de app toevoegen in Adobe Experience Platform Data Collection {#push-credentials-launch}
+## Stap 1: Voeg uw pushreferenties voor de app toe in Adobe Experience Platform Data Collection {#push-credentials-launch}
 
 Nadat u de juiste gebruikersmachtigingen hebt verleend, moet u nu uw pushgegevens voor mobiele toepassingen toevoegen in [!DNL Adobe Experience Platform Data Collection].
 
-De registratie van de pushreferenties voor de mobiele app is vereist om Adobe te machtigen pushberichten namens u te verzenden. Raadpleeg de onderstaande stappen:
+De registratie van de pushreferenties voor de mobiele app is vereist om Adobe te autoriseren pushberichten namens u te verzenden. Raadpleeg de onderstaande stappen:
 
 1. Van [!DNL Adobe Experience Platform Data Collection], selecteert u de **[!UICONTROL App Surfaces]** in het linkerdeelvenster.
 
@@ -142,27 +143,27 @@ De registratie van de pushreferenties voor de mobiele app is vereist om Adobe te
 
    * **Voor iOS**
 
-      ![](assets/add-app-config-ios.png)
+     ![](assets/add-app-config-ios.png)
 
       1. Voer de mobiele app in **Bundel-id** in de **[!UICONTROL App ID (iOS Bundle ID)]** veld. De bundel-id van de app vindt u in het gedeelte **Algemeen** tabblad van het primaire doel in **XCode**.
 
-      1. Schakelt op de **[!UICONTROL Push Credentials]** om uw referenties toe te voegen.
+      1. Schakelt over op de **[!UICONTROL Push Credentials]** om uw referenties toe te voegen.
 
       1. Sleep het .p8 Apple Push Notification Authentication Key-bestand naar het bestand. Deze sleutel kan worden opgehaald uit de **Certificaten**, **Id&#39;s** en **Profielen** pagina.
 
       1. Geef de **Sleutel-id**. Dit is een tekenreeks van 10 tekens die wordt toegewezen tijdens het maken van de p8-auttoets. Het is te vinden onder **Toetsen** tab in **Certificaten**, **Id&#39;s** en **Profielen** pagina.
 
       1. Geef de **Team-id**. Dit is een tekenreekswaarde die u vindt op het tabblad Lidmaatschap.
+
    * **Voor Android**
 
-      ![](assets/add-app-config-android.png)
+     ![](assets/add-app-config-android.png)
 
       1. Geef de **[!UICONTROL App ID (Android package name)]**: doorgaans is de pakketnaam de toepassings-id in uw `build.gradle` bestand.
 
-      1. Schakelt op de **[!UICONTROL Push Credentials]** om uw referenties toe te voegen.
+      1. Schakelt over op de **[!UICONTROL Push Credentials]** om uw referenties toe te voegen.
 
       1. Sleep de FCM-pushgegevens en zet deze neer. Raadpleeg voor meer informatie over hoe u de pushreferenties kunt ophalen [Google-documentatie](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
-
 
 
 1. Klikken **[!UICONTROL Save]** om uw toepassingsconfiguratie te maken.
@@ -189,7 +190,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 De **Adobe Journey Optimizer-extensie** voor Adobe Experience Platform Mobile SDK&#39;s kunt u pushmeldingen voor uw mobiele apps maken en gebruikers-pushtokens verzamelen en interactiemetingen beheren met Adobe Experience Platform-services.
 
-Leer hoe u Journey Optimizer-extensies kunt instellen in [Adobe Experience Platform Mobile SDK-documentatie](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/){target="_blank"}.
+Meer informatie over het instellen van de Journey Optimizer-extensie in [Adobe Experience Platform Mobile SDK-documentatie](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/){target="_blank"}.
 
 
 <!-- 
@@ -256,7 +257,7 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 -->
 
-## Stap 3: Uw mobiele app testen met een gebeurtenis {#mobile-app-test}
+## Stap 3: Test uw mobiele app met een gebeurtenis {#mobile-app-test}
 
 Nadat u uw mobiele app hebt geconfigureerd in zowel Adobe Experience Platform als in [!DNL Adobe Experience Platform Data Collection], kunt u deze nu testen voordat u pushmeldingen naar uw profielen verzendt. In dit geval maken we een reis om onze mobiele app als doel in te stellen en een gebeurtenis in te stellen die de pushmelding activeert.
 
@@ -266,20 +267,20 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 Voor deze reis aan het werk, moet u een schema tot stand brengen XDM. Raadpleeg voor meer informatie [XDM-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#schemas-and-data-ingestion){target="_blank"}.
 
-1. Blader in het linkermenu naar **[!UICONTROL Schemas]**.
-
-1. Klikken **[!UICONTROL Create schema]** Selecteer vervolgens **[!UICONTROL XDM ExperienceEvent]**.
-
+1. Klik in de menusectie GEGEVENSBEHEER op **[!UICONTROL Schemas]**.
+   ![](assets/test_push_1.png)
+1. Klikken **[!UICONTROL Create schema]** selecteert u in de rechterbovenhoek de optie **[!UICONTROL Experience Event]** en klik op **Volgende**.
    ![](assets/test_push_2.png)
+1. Voer een naam en beschrijving in voor uw schema en klik op **Voltooien**.
+   ![](assets/test_push_3.png)
+1. In de **Veldgroepen** , klikt u links op **Toevoegen** en selecteert u **[!UICONTROL Create a new field group]**.
 
-1. Selecteer **[!UICONTROL Create a new field group]**.
-
-1. Voer een **[!UICONTROL Display Name]** en **[!UICONTROL Description]**. Klik op **[!UICONTROL Add field groups]** wanneer u gereed bent. Voor meer informatie over het maken van veldgroepen raadpleegt u [XDM System-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html){target="_blank"}.
+1. Voer een **[!UICONTROL Display Name]** en **[!UICONTROL Description]**. Klik op **[!UICONTROL Add field groups]** wanneer u gereed bent. Raadpleeg voor meer informatie over het maken van veldgroepen [XDM System-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html){target="_blank"}.
 
 
    ![](assets/test_push_4.png)
 
-1. Selecteer het schema aan de linkerkant. Voer in het rechterdeelvenster de naam van het schema en de beschrijving in. Dit schema inschakelen voor **[!UICONTROL Profile]**.
+1. Selecteer het schema aan de linkerkant. In de juiste ruit, laat dit schema voor toe **[!UICONTROL Profile]**.
 
    ![](assets/test_push_4b.png)
 
@@ -352,7 +353,7 @@ Uw gebeurtenis wordt nu gemaakt en kan nu op een reis worden gebruikt.
 
 Uw gebeurtenis wordt geactiveerd en u ontvangt uw pushmelding voor uw mobiele app.
 
-## Stap 4: Een kanaaloppervlak maken voor duwen{#message-preset}
+## Stap 4: een kanaaloppervlak maken voor duwen{#message-preset}
 
 Zodra uw mobiele app is ingesteld in [!DNL Adobe Experience Platform Data Collection], moet u een oppervlak maken om pushmeldingen te kunnen verzenden vanuit **[!DNL Journey Optimizer]**.
 

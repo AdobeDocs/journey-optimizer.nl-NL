@@ -7,10 +7,10 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
+source-git-commit: 7f5085e1f615917181dc618ec1006b4526346afe
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 7%
+source-wordcount: '231'
+ht-degree: 6%
 
 ---
 
@@ -20,9 +20,9 @@ Om ervaringsgebeurtenissen te verzamelen, moet u eerst een dataset tot stand bre
 
 Begin door het schema te creëren dat in uw dataset zal worden gebruikt:
 
-1. Van de **[!UICONTROL Data Management]** menu, selecteert u **[!UICONTROL Schema]** en ga naar de **[!UICONTROL Browse]** tab.
+1. Van de **[!UICONTROL Data Management]** menu, selecteert u **[!UICONTROL Schema]**.
 
-1. Klikken **[!UICONTROL Create schema]** en kiest u **[!UICONTROL XDM ExperienceEvent]**.
+1. Klikken **[!UICONTROL Create schema]** selecteert u in de rechterbovenhoek de optie **[!UICONTROL Experience Event]** en klik op **Volgende**.
 
    ![](../assets/ai-ranking-xdm-event.png)
 
@@ -30,13 +30,16 @@ Begin door het schema te creëren dat in uw dataset zal worden gebruikt:
    >
    >Meer informatie over XDM-schema&#39;s en veldgroepen in de [Documentatie over XDM System-overzicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
+1. Voer een naam en beschrijving in voor uw schema en klik op **Voltooien**.
+   ![](../assets/ai-ranking-xdm-event-2.png)
+
 1. Van de **[!UICONTROL Field groups]** in het linkergedeelte selecteert u **[!UICONTROL Add]**.
 
    ![](../assets/ai-ranking-fields-groups.png)
 
 1. In de **[!UICONTROL Search]** veld, typ &quot;propositieinteractie&quot;.
 
-1. Selecteer **[!UICONTROL Experience Event - Proposition Interactions]** veldgroep en klik op **[!UICONTROL Add field groups]**.
+1. Selecteer de **[!UICONTROL Experience Event - Proposition Interactions]** veldgroep en klik op **[!UICONTROL Add field groups]**.
 
    ![](../assets/ai-ranking-add-field-group.png)
 
@@ -44,7 +47,7 @@ Begin door het schema te creëren dat in uw dataset zal worden gebruikt:
    >
    >Het schema dat in uw dataset zal worden gebruikt moet hebben **[!UICONTROL Experience Event - Proposition Interactions]** veldgroep die eraan is gekoppeld. Anders kunt u het niet gebruiken in uw AI-model.
 
-1. Typ een naam en sla het schema op.
+1. Sla het schema op.
 
 >[!NOTE]
 >
