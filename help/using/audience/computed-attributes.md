@@ -6,19 +6,23 @@ description: Leer hoe u met berekende kenmerken werkt.
 feature: Profiles
 role: User
 level: Beginner
-source-git-commit: 608394da88d42095a1adc517a067c725eac52707
+exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 0%
 
 ---
 
-
 # Werken met berekende kenmerken {#computed-attributes}
 
 Met berekende kenmerken kunt u afzonderlijke gedragsgebeurtenissen samenvatten in berekende profielkenmerken die beschikbaar zijn op Adobe Experience Platform. Deze berekende kenmerken zijn gebaseerd op de gegevenssets van de Experience Event die zijn opgenomen in Adobe Experience Platform en fungeren als geaggregeerde gegevenspunten die zijn opgeslagen in de profielen van de klant.
 
 Elk verwerkt kenmerk is een profielkenmerk dat u kunt gebruiken voor segmentatie, personalisatie en activering tijdens reizen en campagnes. Deze vereenvoudiging verbetert de mogelijkheid om uw klanten actuele en zinvolle persoonlijke ervaringen te bieden.
+
+
+![](../rn/assets/do-not-localize/computed-attributes.gif)
+
 
 >[!NOTE]
 >

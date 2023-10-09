@@ -6,7 +6,8 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: direct mail, bericht, campagne
-source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
+exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
@@ -24,10 +25,11 @@ Directe post is een off-line kanaal dat u toestaat om de extractiedossiers te pe
 
 Bij het maken van een campagne voor direct mail genereert Journey Optimizer automatisch een bestand met alle doelprofielen en geselecteerde gegevens, zoals postadressen en profielkenmerken. Dit bestand wordt naar de server van uw keuze verzonden, zodat het toegankelijk is voor uw gekozen directe-mailprovider, die het eigenlijke mailingproces voor u afhandelt.
 
+![](../rn/assets/do-not-localize/gif-dm.gif)
+
+
 De belangrijkste stappen voor het verzenden van direct-mailberichten zijn als volgt:
 
 ![](assets/dm-creation-process.png)
 
 Directe-mailberichten kunnen alleen worden gemaakt in het kader van geplande campagnes. Ze zijn niet beschikbaar voor gebruik in API-getriggerde campagnes of reizen.
-
-

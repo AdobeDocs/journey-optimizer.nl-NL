@@ -7,7 +7,7 @@ feature: Ranking Formulas
 role: User
 level: Intermediate
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -19,6 +19,8 @@ ht-degree: 0%
 ## Overzicht {#overview}
 
 Door de geavanceerde technologieën in het gecontroleerde machine leren en diep leren te gebruiken, staat de auto-verpersoonlijking een bedrijfsgebruiker (marktleider) toe om bedrijfsdoelstellingen te bepalen en hun klantengegevens te gebruiken om zaken-georiënteerde modellen te trainen om gepersonaliseerde aanbiedingen te dienen en KPIs te maximaliseren.
+
+![](../../rn/assets/do-not-localize/ai-ranking.gif)
 
 ## Belangrijkste modelaannames en -beperkingen {#key}
 
@@ -35,11 +37,11 @@ Het model leert complexe eigenschapinteractie tussen aanbiedingen, gebruikersinf
 
 Er zijn drie typen functies:
 
-| Typen functies | Hoe te om eigenschappen aan modellen toe te voegen |
+| Typen functies | Functies toevoegen aan modellen |
 |--------------|----------------------------|
 | Decisioning-objecten (placementID, activityID, DecisionScopeID) | Deel van de feedback-ervaringen over het beheer van beslissingen die naar het AEP zijn verzonden |
 | Doelgroepen | Het publiek 0-50 kan worden toegevoegd als functies bij het maken van het Willekeurige AI-model |
-| Contextgegevens | Een deel van de beslissing feedback over ervaringen die naar AEP zijn gestuurd. Beschikbare contextgegevens die aan schema moeten worden toegevoegd: Handelsgegevens, kanaaldetails, toepassingsdetails, webdetails, omgevingsdetails, apparaatdetails, context |
+| Contextgegevens | Een deel van de beslissing feedback over ervaringen die naar AEP zijn gestuurd. Beschikbare contextgegevens die aan het schema moeten worden toegevoegd: Details van de handel, Details van het Kanaal, Details van de Toepassing, Details van het Web, Details van het Milieu, Apparaatdetails, PlaceContext |
 
 Het model heeft twee fasen:
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 2%
@@ -18,6 +18,9 @@ ht-degree: 2%
 [!DNL Journey Optimizer] kunt u uw klanten visueel ontwerpen en persoonlijke webervaringen aanbieden.
 
 Via een intuïtieve visuele interface kunt u met deze functie eenvoudig uw wegeigenschappen wijzigen om uw campagnes voor eindgebruikers te experimenteren, te optimaliseren en aan te passen.
+
+![](../rn/assets/do-not-localize/web-authoring.gif)
+
 
 Als u al uitgaande kanalen gebruikt, zoals e-mail, SMS of pushberichten, kunt u nu het binnenkomende webkanaal gebruiken om een echt gepersonaliseerde ervaring te bieden die zich over alle kanalen uitstrekt.
 
