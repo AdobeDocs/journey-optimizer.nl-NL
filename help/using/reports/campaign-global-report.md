@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: adcfff1cb8bb2ae98d41e4071f56a137e52ee56a
+source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
 workflow-type: tm+mt
-source-wordcount: '2696'
+source-wordcount: '2922'
 ht-degree: 0%
 
 ---
@@ -120,35 +120,80 @@ Raadpleeg voor een diepgaande analyse van deze resultaten en de manier waarop u 
 
 ## Tabblad E-mail {#email-global}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_sending_statistics"
+>title="E-mail - Statistieken verzenden"
+>abstract="De tabel E-mail - Statistieken verzenden bevat een overzicht van de belangrijkste gegevens over uw e-mail, zoals Gericht of bezorgd."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_tracking_statistics"
+>title="E-mail - Trackingstatistieken"
+>abstract="De tabel E-mail - Statistische gegevens bijhouden bevat gegevens over profielactiviteiten voor uw e-mail."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_sending_performance"
+>title="E-mail - Prestaties verzenden"
+>abstract="De grafiek van de e-mail - die prestatiesgrafiek verzendt toont uitvoerige gegevens betreffende verzonden E-mail, die inzicht in zeer belangrijke metriek zoals leveringen en grenzen, toestaat voor een gedetailleerde analyse van het proces van de e-maillevering."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounce_categories"
+>title="E-mail - Bounce-categorieën"
+>abstract="De categorieën E-mail - Stuiteren grafieken en tabel bieden gegevens over zowel tijdelijke als permanente fouten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounce_reasons"
+>title="E-mail - Bounges redenen"
+>abstract="De grafieken en tabel met redenen voor e-mail - Bounces bevatten de beschikbare gegevens met betrekking tot teruggestuurde berichten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_error_reasons"
+>title="E-mail - Foutredenen"
+>abstract="Met de grafieken en de tabel met redenen voor e-mail - Fout kunt u de specifieke fouten identificeren die tijdens het verzendingsproces zijn opgetreden."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_excluded_reasons"
+>title="E-mail - Uitgesloten redenen"
+>abstract="In de grafieken en de tabel met uitgesloten redenen worden de verschillende factoren weergegeven die hebben geleid tot gebruikersprofielen die zijn uitgesloten van het doelpubliek en die het bericht niet ontvangen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_top_url"
+>title="E-mail - bovenste URL"
+>abstract="De grafiek en tabel E-mail - URL bovenaan bieden een uitgebreid overzicht van de URL&#39;s in uw e-mail die het hoogste bezoekersverkeer ontvangen, zodat u de populairste koppelingen kunt identificeren."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_best_recipient"
+>title="E-mail - Beste ontvangende domein"
+>abstract="De grafiek en tabel met het domein E-mail - Beste ontvangers bieden een gedetailleerde uitsplitsing van de domeinen die ontvangers het vaakst gebruiken om e-mail te openen, en bieden waardevolle inzichten in het gedrag van ontvangers."
+
 ![](assets/campaign_report_global_2.png)
 
 Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Email]** bevat de belangrijkste gegevens met betrekking tot de e-mailleveringen die in uw campagne zijn verzonden.
 
 +++ Meer informatie over de verschillende maatstaven en widgets die beschikbaar zijn voor het e-mailrapport.
 
-De **[!UICONTROL Email Sending Statistics]** grafiek geeft het succes van uw levering aan:
+De **[!UICONTROL Email Sending Statistics]** Grafiek geeft het succes van je e-mail weer:
 
-* **[!UICONTROL Targeted]**: Het totale aantal berichten dat tijdens de leveringsanalyse wordt verwerkt.
+* **[!UICONTROL Targeted]**: Het totale aantal berichten dat tijdens het verzendingsproces wordt verwerkt.
 
-* **[!UICONTROL Sent]**: Totaal aantal verzendingen voor de levering.
+* **[!UICONTROL Sent]**: Totaal aantal verzendingen voor uw e-mail.
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
 * **[!UICONTROL Delivery Rate]**: Percentage berichten dat succesvol is verzonden.
 
-* **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten.
+* **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens het verzendingsproces en automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.
 
 * **[!UICONTROL Bounce Rate]**: Percentage van e-mails dat is teruggestuurd in vergelijking met verzonden e-mails.
 
-* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens het verzendproces waardoor het niet naar profielen kan worden verzonden.
 
-* **[!UICONTROL Error Rate]**: Percentage fouten die optraden tijdens een levering waardoor deze niet kon worden verzonden, vergeleken met verzonden e-mailberichten.
+* **[!UICONTROL Error Rate]**: Percentage fouten dat is opgetreden tijdens het verzendproces waardoor het niet kan worden verzonden, vergeleken met verzonden e-mailberichten.
 
 * **[!UICONTROL Retries]**: Aantal e-mails in de wachtrij voor nieuwe pogingen.
 
 * **[!UICONTROL Excluded]**: Aantal profielen dat door Adobe Journey Optimizer is uitgesloten.
 
-De **[!UICONTROL Email - Tracking statistics]** widget bevat de beschikbare gegevens voor de activiteit van de ontvanger voor uw levering:
+De **[!UICONTROL Email - Tracking statistics]** widget bevat de beschikbare gegevens voor profielactiviteiten voor uw e-mail:
 
 * **[!UICONTROL Opens]**: Aantal keer dat de e-mail is geopend.
 
@@ -158,23 +203,23 @@ De **[!UICONTROL Email - Tracking statistics]** widget bevat de beschikbare gege
 
 * **[!UICONTROL Clicks]**: Aantal keer dat er op inhoud is geklikt in een e-mail.
 
-* **[!UICONTROL Unique Clicks]**:Aantal ontvangers die op een inhoud in een e-mail hebben geklikt.
+* **[!UICONTROL Unique Clicks]**:Aantal profielen dat op de inhoud van een e-mail heeft geklikt.
 
-* **[!UICONTROL Unique Click Rate]**: Percentage gebruikers dat interactie had met de levering.
+* **[!UICONTROL Unique Click Rate]**: Percentage gebruikers dat interactie heeft gehad met uw e-mail.
 
 * **[!UICONTROL Unsubscriptions]**: Het aantal klikken op de koppeling voor het opzeggen van abonnementen.
 
 * **[!UICONTROL Spam complaints]**: Het aantal keren dat een bericht is gedeclareerd als spam of junk.
 
-De **[!UICONTROL Sending Statistics]** De grafiek bevat de gegevens die beschikbaar zijn voor verzonden e-mailberichten, zoals:
+De **[!UICONTROL Sending Performance]** De grafiek bevat de gegevens die beschikbaar zijn voor verzonden e-mailberichten, zoals:
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
-* **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten.
+* **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens het verzendingsproces en automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.
 
 * **[!UICONTROL Retries]**: Aantal e-mails in de wachtrij voor nieuwe pogingen.
 
-* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens het verzendproces waardoor het niet naar profielen kan worden verzonden.
 
 De **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]** widgets bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd, zoals:
 
@@ -186,30 +231,31 @@ De **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]** widgets
 
 Voor meer informatie over grenzen raadpleegt u de [Onderdrukkingslijst](../reports/suppression-list.md) pagina.
 
-De **[!UICONTROL Error Reasons]** de grafiek en de lijst laten u zien welke fout tijdens uw levering voorkwam.
+De **[!UICONTROL Error Reasons]** de grafiek en de lijst staan u toe om te zien welke fout tijdens het verzendende proces voorkwam.
 
 De **[!UICONTROL Excluded reasons]** de grafiek en de lijst tonen de verschillende redenen die gebruikersprofielen, uitgesloten van de gerichte profielen, van het ontvangen van het bericht verhinderden.
 
-De **[!UICONTROL Email - Top Url]** grafiek en lijstdetails die URLs van uw levering het meest bezocht zijn.
+De **[!UICONTROL Email - Top Url]** grafiek en lijstdetails die URLs van uw e-mail het meest bezochte zijn.
 
-De **[!UICONTROL Email - Top recipient domain]** grafiek en lijstdetails welke domeinen het meest door ontvangers worden gebruikt om e-mail te openen.
+De **[!UICONTROL Email - Top recipient domain]** grafiek en lijstdetails die domeinen het meest door profielen worden gebruikt om e-mail te openen.
 
 >[!NOTE]
 >
->De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]**  widgets zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor uw levering. Voor meer informatie over Send-Time Optimization, verwijs naar [deze pagina](../building-journeys/journeys-message.md#send-time-optimization).
+>De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]**  widgets zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor uw e-mail. Voor meer informatie over Send-Time Optimization, verwijs naar [deze pagina](../building-journeys/journeys-message.md#send-time-optimization).
 
 De **[!UICONTROL Optimized vs non optimized]** de grafiek geeft de belangrijkste informatie met betrekking tot uw bericht of zij of niet worden geoptimaliseerd:
 
-* **[!UICONTROL Sent]**: Totaal aantal verzendingen voor de levering.
+* **[!UICONTROL Sent]**: Totaal aantal verzendingen.
 
 * **[!UICONTROL Opens]**: Het aantal keren dat het bericht is geopend.
 
 * **[!UICONTROL Clicks]**: Aantal keer dat er op inhoud is geklikt in een e-mail.
 
-De **[!UICONTROL Send time optimization]** bepaalt het succes van uw levering afhankelijk van de verzendende methode: geoptimaliseerd of normaal.
+De **[!UICONTROL Send time optimization]** geeft details over het succes van uw e-mail, afhankelijk van de verzendmethode: geoptimaliseerd of normaal.
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
-* **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten.
+
+* **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens het verzendingsproces en automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.
 +++
 
 ## Tabblad In-app {#inapp-global}
@@ -258,7 +304,7 @@ De **[!UICONTROL In-app summary]** in de grafiek wordt de ontwikkeling van uw In
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_tracking_statistics"
 >title="Pushmeldingen - Statistieken bijhouden"
->abstract="De Statistieken van het Spoor van de Duw verstrekken gegevens over ontvankelijke activiteit voor uw levering."
+>abstract="De statistieken van het Spoor van de Duw verstrekken gegevens over profielactiviteit voor uw dupmelding."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_sending_summary"
@@ -273,12 +319,12 @@ De **[!UICONTROL In-app summary]** in de grafiek wordt de ontwikkeling van uw In
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_error_reasons"
 >title="Pushmelding - Foutredenen"
->abstract="Met de grafieken en de tabel met de oorzaken van fouten kunt u de specifieke fouten identificeren die tijdens de levering zijn opgetreden."
+>abstract="Met de grafieken en de tabel met oorzaken van fouten kunt u de specifieke fouten identificeren die tijdens het verzendingsproces zijn opgetreden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="Pushmelding - Onderverdeling per platform"
->abstract="De grafieken en tabel van de indeling naar platform geven een overzicht van het succes van uw pushberichten op basis van het besturingssysteem van de ontvanger."
+>abstract="De grafieken en tabel van de indeling naar platform geven een overzicht van het succes van uw pushberichten op basis van het besturingssysteem van het profiel."
 
 Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Push notification]** bevat de belangrijkste informatie met betrekking tot de pushberichten die in uw campagne worden verzonden.
 
@@ -288,27 +334,27 @@ Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Push notificatio
 
 De **[!UICONTROL Push notification - Sending statistics]** de tabel bevat de belangrijkste informatie met betrekking tot uw pushmeldingen
 
-* **[!UICONTROL Targeted]**: Het totale aantal berichten dat tijdens de leveringsanalyse wordt verwerkt.
+* **[!UICONTROL Targeted]**: Het totale aantal berichten dat tijdens de analyse wordt verwerkt.
 
-* **[!UICONTROL Sent]**: Totaal aantal verzendingen voor de levering.
+* **[!UICONTROL Sent]**: Totaal aantal verzendingen voor de pushmelding.
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
 * **[!UICONTROL Delivery Rate]**: Percentage berichten dat succesvol is verzonden.
 
-* **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten.
+* **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens het verzendingsproces en automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.
 
 * **[!UICONTROL Bounce Rate]**: Percentage pushmeldingen dat is teruggestuurd in vergelijking met verzonden pushmeldingen.
 
-* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden waardoor deze niet naar profielen kon worden verzonden.
 
-* **[!UICONTROL Error Rate]**: Percentage fouten die optraden tijdens een levering waardoor deze niet kon worden verzonden, vergeleken met verzonden pushberichten.
+* **[!UICONTROL Error Rate]**: percentage fouten dat is opgetreden tijdens het voorkomen dat deze werden verzonden, vergeleken met verzonden pushberichten.
 
 * **[!UICONTROL Excluded]**: Aantal profielen dat door Adobe Journey Optimizer is uitgesloten.
 
-De **[!UICONTROL Push - Tracking statistics]** bevat de beschikbare gegevens voor ontvankelijke activiteit voor uw levering:
+De **[!UICONTROL Push - Tracking statistics]** bevat de beschikbare gegevens voor profielactiviteit voor uw pushmelding:
 
-* **[!UICONTROL Opens]**: Aantal keren dat een bericht is geopend in een levering.
+* **[!UICONTROL Opens]**: Het aantal keren dat uw pushmelding is geopend.
 
 * **[!UICONTROL Open Rate]**: Percentage geopende pushmeldingen.
 
@@ -320,36 +366,39 @@ De **[!UICONTROL Push - Tracking statistics]** bevat de beschikbare gegevens voo
 
 De **[!UICONTROL Push notification summary]** De grafiek bevat de gegevens die beschikbaar zijn voor verzonden pushberichten, zoals:
 
-* **[!UICONTROL Opens]**: Aantal keren dat een bericht is geopend in een levering.
+* **[!UICONTROL Opens]**: Het aantal keren dat uw pushmelding is geopend.
 
 * **[!UICONTROL Actions]**: Totaal aantal acties op de geleverde pushmelding, bijvoorbeeld klikken op de knop of ontslag.
 
-* **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten.
+* **[!UICONTROL Bounces]**: Totaal aantal gecumuleerde fouten en automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
-* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden waardoor deze niet naar profielen kon worden verzonden.
 
 >[!NOTE]
 >
->De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]**  widgets zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor uw levering. Voor meer informatie over Send-Time Optimization, verwijs naar [deze pagina](../building-journeys/journeys-message.md#send-time-optimization).
+>De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]**  widgets zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor uw pushmelding. Voor meer informatie over Send-Time Optimization, verwijs naar [deze pagina](../building-journeys/journeys-message.md#send-time-optimization).
 
 De **[!UICONTROL Optimized vs non optimized]** de grafiek geeft de belangrijkste informatie met betrekking tot uw bericht of zij of niet worden geoptimaliseerd:
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
-* **[!UICONTROL Opens]**: Aantal keren dat de levering is geopend in een levering.
+
+* **[!UICONTROL Opens]**: Het aantal keren dat uw pushmelding is geopend.
+
 * **[!UICONTROL Actions]**: Totaal aantal acties op de geleverde pushmelding, bijvoorbeeld klikken op de knop of ontslag.
 
-De **[!UICONTROL Send time optimization]** bepaalt het succes van uw levering afhankelijk van de verzendende methode: geoptimaliseerd of normaal.
+De **[!UICONTROL Send time optimization]** geeft details over het succes van uw pushmelding, afhankelijk van de verzendmethode: geoptimaliseerd of normaal.
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
-* **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten.
 
-De **[!UICONTROL Error Reasons]** aan de hand van grafieken en tabellen kunt u zien welke fout tijdens de levering is opgetreden.
+* **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens het verzendingsproces en automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.
+
+De **[!UICONTROL Error Reasons]** aan de hand van grafieken en tabellen kunt u zien welke fout is opgetreden.
 
 De **[!UICONTROL Excluded reasons]** in grafieken en tabellen worden de verschillende redenen weergegeven waarom gebruikersprofielen, die zijn uitgesloten van de doelprofielen, het bericht niet hebben ontvangen.
 
-De **[!UICONTROL Breakdown by platform]** de grafiek en de lijst detailleert het succes van uw dupmelding afhankelijk van het werkende systeem van uw ontvanger.
+De **[!UICONTROL Breakdown by platform]** in een grafiek en tabel ziet u hoe succesvol uw pushmelding is, afhankelijk van het besturingssysteem van uw profiel.
 +++
 
 ## Tabblad SMS {#sms-global}
@@ -362,7 +411,7 @@ De **[!UICONTROL Breakdown by platform]** de grafiek en de lijst detailleert het
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_error_reasons"
 >title="SMS - Redenen voor fouten"
->abstract="Met SMS - Foutgrafieken en -tabel kunt u de specifieke fouten identificeren die tijdens de levering zijn opgetreden."
+>abstract="Met SMS - Foutgrafieken en -tabel kunt u de specifieke fouten identificeren die tijdens het verzendingsproces zijn opgetreden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
@@ -390,27 +439,27 @@ Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL SMS]** bevat de 
 
 +++Meer informatie over de verschillende maatstaven en widgets die beschikbaar zijn voor het SMS-rapport.
 
-De **[!UICONTROL SMS - Sending statistics]** de tabel geeft het succes van uw levering aan :
+De **[!UICONTROL SMS - Sending statistics]** in de tabel wordt aangegeven hoe succesvol je SMS-bericht is:
 
-* **[!UICONTROL Targeted]**: Aantal gebruikersprofielen dat als doelprofielen voor deze levering in aanmerking komt.
+* **[!UICONTROL Targeted]**: Aantal gebruikersprofielen dat als doelprofielen wordt gekwalificeerd.
 
 * **[!UICONTROL Excluded]**: Aantal gebruikersprofielen dat is uitgesloten van de doelprofielen en dat het bericht niet heeft ontvangen.
 
-* **[!UICONTROL Sent]**: Totaal aantal verzendingen voor de levering.
+* **[!UICONTROL Sent]**: Totaal aantal verzendingen voor uw SMS-bericht.
 
-* **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten.
+* **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens het verzendingsproces en automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.
 
-* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden waardoor deze niet naar profielen kon worden verzonden.
 
 De **[!UICONTROL SMS Performance by date]** widget geeft de belangrijkste informatie met betrekking tot uw bericht met een grafiek:
 
-* **[!UICONTROL Sent]**: Totaal aantal verzendingen voor de levering.
+* **[!UICONTROL Sent]**: Het totale aantal verzendingen voor uw SMS-berichten.
 
-* **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten.
+* **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens het verzendingsproces en automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.
 
-* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden waardoor deze niet naar profielen kon worden verzonden.
 
-De **[!UICONTROL Exclude Reasons]** en **[!UICONTROL Bounces Reasons]** en **[!UICONTROL Error Reasons]** in grafieken en tabellen kunt u zien welke fout en uitsluitingen tijdens de levering zijn opgetreden.
+De **[!UICONTROL Exclude Reasons]** en **[!UICONTROL Bounces Reasons]** en **[!UICONTROL Error Reasons]** in grafieken en tabellen kunt u zien welke fout en uitsluitingen tijdens het verzendingsproces zijn opgetreden.
 
 De **[!UICONTROL SMS - Clicks by links]** widgets geeft de belangrijkste informatie met betrekking tot de betrokkenheid van uw bezoekers bij uw URL&#39;s.
 
@@ -462,7 +511,7 @@ De **[!UICONTROL Interactions by element]** de tabel bevat de belangrijkste info
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_error_reasons"
 >title="Directe post - de redenen van de Fout"
->abstract="Met de grafieken en de tabel Direct mail - Foutredenen kunt u de specifieke fouten identificeren die tijdens de levering zijn opgetreden."
+>abstract="Met de grafieken en de tabel Directe e-mail - Foutredenen kunt u de specifieke fouten identificeren die tijdens het verzendingsproces zijn opgetreden."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_direct_excluded_reasons"
@@ -475,17 +524,17 @@ Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Direct mail]** b
 
 +++ Meer informatie over de verschillende maatstaven en widgets die beschikbaar zijn voor het Direct-mailrapport.
 
-De **[!UICONTROL Direct Mail - Sending statistics]** de tabel geeft het succes van uw levering aan :
+De **[!UICONTROL Direct Mail - Sending statistics]** in de tabel wordt aangegeven hoe succesvol je e-mail is :
 
-* **[!UICONTROL Targeted]**: Aantal gebruikersprofielen dat als doelprofielen voor deze levering in aanmerking komt.
+* **[!UICONTROL Targeted]**: Aantal gebruikersprofielen dat als doelprofielen voor deze direct-mail kwalificeert.
 
-* **[!UICONTROL Sent]**: Totaal aantal verzendingen voor de levering.
+* **[!UICONTROL Sent]**: Het totale aantal verzendingen voor deze direct-mail.
 
-* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens het verzendproces waardoor het niet naar profielen kan worden verzonden.
 
-* **[!UICONTROL Excluded]**: Aantal gebruikersprofielen dat niet is opgenomen in de doelprofielen en dat de levering niet heeft ontvangen.
+* **[!UICONTROL Excluded]**: Aantal gebruikersprofielen dat niet is opgenomen in de doelprofielen en dat uw e-mail niet heeft ontvangen.
 
-De **[!UICONTROL Direct Mail - Excluded reasons]** en **[!UICONTROL Direct Mail - Error reasons]** in grafieken en tabellen kunt u zien welke fout en uitsluitingen tijdens de levering zijn opgetreden.
+De **[!UICONTROL Direct Mail - Excluded reasons]** en **[!UICONTROL Direct Mail - Error reasons]** in grafieken en tabellen kunt u zien welke fout en uitsluitingen tijdens het verzendingsproces zijn opgetreden.
 +++
 
 ## Aanvullende bronnen
