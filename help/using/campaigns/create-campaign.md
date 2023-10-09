@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: a2aaf6bff4af8dff451eb64d68700efda0892c71
+source-git-commit: 78744537149a18b2e5c8b54689de97c350939a00
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '902'
 ht-degree: 2%
 
 ---
@@ -139,6 +139,11 @@ In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt geb
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## De campagne plannen {#schedule}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_schedule"
+>title="Campagne"
+>abstract="Standaard worden campagnes gestart bij handmatige activering en worden ze onmiddellijk beëindigd nadat het bericht eenmaal is verzonden. Desalniettemin hebt u de flexibiliteit om een specifieke datum en tijd voor het te verzenden bericht te plaatsen. Bovendien kunt u een einddatum opgeven voor terugkerende of API-gestuurde campagnes. In de triggers van Actie kunt u de verzendfrequentie van berichten ook configureren om deze aan te passen aan uw voorkeuren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
