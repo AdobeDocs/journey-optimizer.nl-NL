@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: test, reis, controle, fout, oplossen
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 2e06ca80a74c6f8a16ff379ee554d57a69ceeffd
+source-git-commit: 7c0b0fe67a5a2665f7cf7bdce4a36207d7bcef56
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 2%
+source-wordcount: '1506'
+ht-degree: 1%
 
 ---
 
@@ -70,6 +70,7 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 * U kunt uw reis niet wijzigen wanneer de testwijze wordt geactiveerd. In de testmodus kunt u de rit rechtstreeks publiceren. U hoeft de testmodus daarvoor niet te deactiveren.
 * Bij het bereiken van een splitsing wordt altijd de bovenste vertakking gekozen. U kunt de positie van de gesplitste vertakkingen opnieuw ordenen als u wilt dat de test een ander pad kiest.
 * Om prestaties te optimaliseren en verouderd middelgebruik te voorkomen, zullen alle reizen in testwijze die niet voor een week zijn teweeggebracht terug naar **Concept** status.
+* Gebeurtenissen die door de testwijze worden teweeggebracht worden opgeslagen in specifieke datasets. Deze gegevenssets worden als volgt gelabeld: `JOtestmode - <schema of your event>`
 
 ## Trigger uw gebeurtenissen {#firing_events}
 
