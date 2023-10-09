@@ -6,14 +6,19 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: 805f7bdc921c53f63367041afbb6198d0ec05ad8
+source-git-commit: 7e9984aee1eba29a2757b025ca0aa1092d95a761
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 3%
+source-wordcount: '373'
+ht-degree: 2%
 
 ---
 
 # Handleiding voor ontwikkelaars van API voor beheer van beslissingen {#decision-management-api-developer-guide}
+
+>[!CONTEXTUALHELP]
+>id="od_api_support"
+>title="Nieuwe API&#39;s voor besluitvormingsbeheer"
+>abstract="Nieuwe API&#39;s voor het maken en beheren van besluitvormingsbeheerobjecten zijn nu beschikbaar. De oudere API&#39;s worden ondersteund tot 27-03-2024."
 
 Deze handleiding voor ontwikkelaars bevat stappen waarmee u de functie [!DNL Offer Library] API. De gids verstrekt dan steekproefAPI vraag voor het uitvoeren van zeer belangrijke verrichtingen gebruikend de bepalingsmotor.
 
