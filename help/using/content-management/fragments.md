@@ -8,37 +8,44 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 732b84a8945e85cb77a8d2c477f9c9a064988109
+source-git-commit: 95172d45401dc933ce09ae7d9be6eadf01952e3c
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1481'
 ht-degree: 2%
 
 ---
 
 # Werken met fragmenten {#fragments}
 
+>[!CONTEXTUALHELP]
+>id="ajo_create_fragment"
+>title="Uw eigen fragmenten definiëren"
+>abstract="Maak en beheer standalone fragmenten om uw inhoud te hergebruiken voor meerdere reizen en campagnes."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/fragments.html#create-fragments" text="Fragmenten maken"
+
 Een fragment is een herbruikbare component waarnaar in een of meer e-mails kan worden verwezen [!DNL Journey Optimizer] campagnes en reizen.
 
 Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud vooraf samenstellen. Deze blokken kunnen door marketinggebruikers worden gebruikt om snel e-mailinhoud samen te stellen in een verbeterd ontwerpproces.
 
-➡️ [Leer hoe u fragmenten beheert, ontwerpt en gebruikt in deze video&#39;s](#video-fragments)
+![](../rn/assets/do-not-localize/fragments.gif)
 
->[!CAUTION]
->
->Als u fragmenten wilt maken, bewerken en archiveren, moet u beschikken over de **[!DNL Manage Library Items]** bevoegdheid opgenomen in de **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
+➡️ [Leer hoe u fragmenten beheert, ontwerpt en gebruikt in deze video&#39;s](#video-fragments)
 
 U kunt zo veel mogelijk gebruikmaken van fragmenten:
 
 * Maak uw eigen fragmenten. U kunt visuele fragmenten of expressiefragmenten maken. [Meer informatie](#create-fragments)
+
 * Gebruik deze zo vaak als nodig is in de inhoud. Zie [Visuele fragmenten toevoegen](../email/use-visual-fragments.md) en [Expressiefragmenten benutten](../personalization/use-expression-fragments.md)
 
->[!NOTE]
->
->Momenteel in [!DNL Journey Optimizer]:
->
->* Visuele fragmenten zijn alleen beschikbaar voor het e-mailkanaal.
->
->* Expressiefragmenten zijn niet beschikbaar voor het web en in-app kanalen.
+## Voordat u begint {#fragment-prerequisites}
+
+U moet beschikken over de **[!DNL Manage Library Items]** bevoegdheid opgenomen in de **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
+
+In deze versie gelden de volgende beperkingen:
+
+* Visuele fragmenten zijn alleen beschikbaar voor het e-mailkanaal
+
+* Expressiefragmenten zijn niet beschikbaar voor het web en in-app kanalen
 
 ## Fragmenten openen en beheren {#access-manage-fragments}
 
@@ -133,14 +140,9 @@ Als het fragment eenmaal is opgeslagen, kan het worden gebruikt in een reis, een
 
 ### Maken op basis van niets {#create-from-scratch}
 
->[!CONTEXTUALHELP]
->id="ajo_create_fragment"
->title="Uw eigen fragment definiëren"
->abstract="Maak een volledig zelfstandig fragment, zodat uw inhoud tijdens meerdere reizen en campagnes opnieuw kan worden gebruikt."
-
 Voer de onderstaande stappen uit om een geheel nieuw fragment te maken.
 
-1. Open de fragmentlijst via de **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** links.
+1. [De fragmentlijst openen](#access-manage-fragments) via de **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** links.
 
 1. Selecteer **[!UICONTROL Create fragment]**.
 
@@ -157,6 +159,12 @@ Voer de onderstaande stappen uit om een geheel nieuw fragment te maken.
 1. Klik op **[!UICONTROL Create]**.
 
 ### Een visueel fragment maken {#create-visual-fragment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_visual_fragment"
+>title="Selecteer het visuele type"
+>abstract="Maak een zelfstandig visueel fragment om uw inhoud te hergebruiken in een e-mail binnen een reis, een campagne of een inhoudssjabloon."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="Visuele fragmenten toevoegen aan uw e-mails"
 
 1. [Een fragment maken](#create-from-scratch) van de **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** en selecteert u de **[!UICONTROL Visual fragment]** type.
 
@@ -181,6 +189,12 @@ Voer de onderstaande stappen uit om een geheel nieuw fragment te maken.
 Dit fragment kan nu worden gebruikt bij het maken van [email](../email/get-started-email-design.md) of [inhoudssjabloon](content-templates.md) binnen [!DNL Journey Optimizer]. [Meer informatie](../email/use-visual-fragments.md)
 
 ### Een expressiefragment maken {#create-expression-fragment}
+
+>[!CONTEXTUALHELP]
+>id="ajo_create_expression_fragment"
+>title="Expressietype selecteren"
+>abstract="Maak een zelfstandig expressiefragment om uw inhoud te hergebruiken voor meerdere reizen en campagnes. Wanneer u de expressie-editor gebruikt, kunt u alle uitdrukkingsfragmenten benutten die in de huidige sandbox zijn gemaakt."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Expressiefragmenten benutten"
 
 1. [Een fragment maken](#create-from-scratch) van de **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** en selecteert u de **[!UICONTROL Expression fragment]** type.
 
