@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 78744537149a18b2e5c8b54689de97c350939a00
+source-git-commit: 298562247af79b9dd504a957c197856d702d0f6b
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 2%
@@ -122,7 +122,7 @@ In de **[!UICONTROL Actions]** , maakt u het bericht dat u wilt verzenden met de
 
 ## De doelgroep definiëren {#audience}
 
-Klik op de knop **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-segmenten weer te geven. [Meer informatie over segmenten](../audience/about-audiences.md)
+Klik op de knop **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-doelgroepen weer te geven. [Meer informatie over publiek](../audience/about-audiences.md)
 
 >[!NOTE]
 >

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 298562247af79b9dd504a957c197856d702d0f6b
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,16 @@ ht-degree: 0%
 >title="Audience"
 >abstract="Met Adobe Experience Platform kunt u eenvoudig segmentdefinities maken door gebruik te maken van realtime klantprofielgegevens. Zo kunt u doelgroepen maken die de unieke gedragingen en voorkeuren van uw klanten vastleggen."
 
-[!DNL Journey Optimizer] stelt u in staat om Adobe Experience Platform-publiek rechtstreeks vanuit de **[!UICONTROL Audiences]** en gebruikt u deze voor reizen of campagnes.
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_audience"
+>title="Selecteer het campagnepubliek"
+>abstract="In deze lijst worden alle beschikbare Adobe Experience Platform-soorten publiek weergegeven. Selecteer het publiek voor uw campagne. Het bericht dat in de campagne wordt gevormd zal naar alle individuen worden verzonden die tot het geselecteerde publiek behoren. [Meer informatie over publiek](../audience/about-audiences.md)"
+
+[!DNL Journey Optimizer] stelt u in staat om Adobe Experience Platform-publiek rechtstreeks vanuit de **[!UICONTROL Audiences]** en gebruikt u deze in uw reizen of campagnes.
 
 Meer informatie in het dialoogvenster [Adobe Experience Platform Segmentation Service-documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
-## Soorten publiek gebruiken in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+## Gebruik publiek in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
 U kunt het publiek benutten in **[!DNL Journey Optimizer]** op verschillende manieren:
 
@@ -36,7 +41,7 @@ U kunt het publiek benutten in **[!DNL Journey Optimizer]** op verschillende man
 
   Laten we zeggen dat je een &quot;zilveren klant&quot; publiek hebt. Met deze activiteit, kunt u alle zilveren klanten een reis maken en hen een reeks gepersonaliseerde berichten verzenden. [Leer hoe te om een Gelezen publieksactiviteit te vormen](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
 
-* Gebruik de **Poortkwalificatie** gebeurtenisactiviteit op een reis om ervoor te zorgen dat individuen de reis betreden of vooruit gaan op basis van de toegang tot en het vertrek van Adobe Experience Platform-gebruikers.
+* Gebruik de **kwalificatie publiek** gebeurtenisactiviteit op een reis om ervoor te zorgen dat individuen de reis betreden of vooruit gaan op basis van de toegang tot en het vertrek van Adobe Experience Platform-gebruikers.
 
   U kunt bijvoorbeeld alle nieuwe zilverklanten een reis laten maken en hun berichten sturen. Raadpleeg voor meer informatie over het gebruik van deze activiteit [Leer hoe te om een de kwalificatieactiviteit van het Publiek te vormen](../building-journeys/audience-qualification-events.md).
 
@@ -50,7 +55,7 @@ In Adobe Journey Optimizer worden publiek op basis van segmentdefinities gegener
 
   Streaming segmentatie is een doorlopend proces voor gegevensselectie dat uw publiek bijwerkt als reactie op gebruikersactiviteit. Zodra een segmentdefinitie is gebouwd en het resulterende publiek is bewaard, wordt de segmentdefinitie toegepast op inkomende gegevens aan Journey Optimizer. Dit betekent dat individuen worden toegevoegd of uit het publiek verwijderd aangezien hun profielgegevens veranderen, ervoor zorgen dat uw doelpubliek altijd relevant is.
 
-* **Batchsegmentatie**: De profiellijst voor het publiek wordt om de 24 uur geëvalueerd.
+* **Batchsegmentatie**: De profiellijst voor het publiek wordt elke 24 uur geëvalueerd.
 
   De segmentatie van de partij is een alternatief aan het stromen segmentatie die alle profielgegevens in één keer door segmentdefinities verwerkt. Zo maakt u een momentopname van het publiek die u kunt opslaan en exporteren voor gebruik. Nochtans, in tegenstelling tot het stromen segmentatie, werkt de partijsegmentatie niet onophoudelijk de publiekslijst in real time bij, en de nieuwe gegevens die binnen na het partijproces komen zullen niet in het publiek tot het volgende partijproces worden weerspiegeld.&quot;
 
