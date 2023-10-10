@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: direct mail, bericht, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: d8ae894cc303237f5b2257afd8da5b2d0cf1b7a6
+source-git-commit: 86385c0c36a54985bb4624f90e475d1a0229f8cd
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 4%
+source-wordcount: '674'
+ht-degree: 3%
 
 ---
 
@@ -47,7 +47,7 @@ Voer de volgende stappen uit om een campagne voor directe e-mail te maken:
 
    >[!IMPORTANT]
    >
-   >Momenteel is de selectie van het publiek beperkt tot 3 miljoen profielen. Deze beperking kan op verzoek aan uw Adobe-vertegenwoordiger worden opgeheven.
+   >Momenteel is de selectie van het publiek beperkt tot 3 miljoen profielen. Deze beperking kan op verzoek aan uw Adobe worden opgeheven.
 
 1. In de **[!UICONTROL Identity namespace]** selecteert u de juiste naamruimte om personen in het gekozen publiek te identificeren. [Meer informatie](../event/about-creating.md#select-the-namespace).
 
@@ -58,6 +58,32 @@ Voer de volgende stappen uit om een campagne voor directe e-mail te maken:
 U kunt nu het extractiebestand configureren en verzenden naar uw directe-mailprovider.
 
 ## Het extractiebestand configureren {#extraction-file}
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_data_fields"
+>title="Gegevensvelden"
+>abstract="Voeg en vorm de kolommen en de informatie toe die in het extractiedossier moet worden getoond dat door directe postleveranciers wordt vereist om post naar uw klanten te verzenden. U kunt maximaal 50 kolommen toevoegen."
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_sort"
+>title="Opmaak van extractiebestanden"
+>abstract="De <b>Sorteren op</b> kunt u het geselecteerde veld gebruiken om de kolommen van het extractiebestand te sorteren. Als deze optie is uitgeschakeld, worden de kolommen automatisch gesorteerd op basis van het veld Profiel-id."
+
+1. Configureer de kolommen en de informatie die in het extractiebestand moeten worden weergegeven:
+
+   1. Klik op de knop **[!UICONTROL Add]** om een nieuwe kolom te maken.
+
+   1. De **[!UICONTROL Formatting]** wordt aan de rechterkant weergegeven, zodat u de geselecteerde kolom kunt instellen. Geef een **[!UICONTROL Label]** voor de kolom.
+
+   1. In de **[!UICONTROL Data]** in het veld selecteert u de profielkenmerken die u wilt weergeven met de [Expressieeditor](../personalization/personalization-build-expressions.md).
+
+   1. Als u het extractiebestand wilt sorteren met een kolom, selecteert u de kolom en schakelt u de optie **[!UICONTROL Sort by]** -optie. De **[!UICONTROL Sort By]** wordt weergegeven naast het label van de kolom in het dialoogvenster **[!UICONTROL Data Fields]** sectie.
+
+
+
+
+
+
 
 Het extractiebestand wordt vereist door directe-mailproviders om e-mail naar uw klanten te sturen. Voer de volgende stappen uit om de configuratie van het extractiebestand te definiëren:
 
