@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: ad590f7fedad10c49f5c45b34cc687df063e35a8
+source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1611'
 ht-degree: 0%
 
 ---
@@ -123,3 +123,32 @@ U kunt uit één van deze twee oplossingen kiezen:
 * Er kan een activeringsvertraging optreden tussen het moment dat een gebruikersprofiel een in-app-activiteit op het canvas bereikt en het moment waarop het bericht in de app wordt weergegeven.
 
 * De inhoud van berichten in de app is beperkt tot 2 MB. Het opnemen van grote afbeeldingen kan het publicatieproces belemmeren.
+
+## Beslissingsbeheer {#decision-management}
+
+### Prestatiegerichten {#performance-guardrails}
+
+De leveringstijd komt overeen met het aantal beslissingsreacties dat binnen een bepaalde tijd door de app-service van het beslissingsbeheer kan worden geleverd. Het aantal besluiten per seconde wordt in onderstaande tabel aangegeven.
+
+| API | Besluiten per seconde |
+|---------|----------|
+| API-aanvragen voor besluitvorming | 500 per seconde |
+| Aanvragen voor Edge-API voor besluitvorming | 5000 per seconde |
+
+### Beperkingen {#offers-limitations}
+
+De beperkingen van het besluitvormingsbeheer worden hieronder vermeld.
+
+* **Goedgekeurde persoonlijke aanbiedingen + alternatieven** - Tot 10.000 gecombineerde goedgekeurde persoonlijke aanbiedingen en goedgekeurde alternatieven.
+* **Besluiten** - Tot 10.000 besluiten.
+* **Live beslissingen** - Offer decisioning App Service ondersteunt maximaal 1.000 Live-beslissingen.
+* **Per reactie geretourneerde voorstellen** - Offer decisioning ondersteunt maximaal 100 aanbiedingen die per aanvraag worden teruggestuurd over alle besluitvormingsgebieden in aanvraag.
+* **Verzamelingen** - Tot 10.000 verzamelingen.
+* **Verzamelingen per beslissing** - Tot 30 verzamelingen per beslissing.
+* **Beslissingsregels + rangschikkingsfuncties** Tot 10.000 gecombineerde besluitvormingsregels en rangordefuncties.
+* **Plaatsen** - Tot 1.000 Plaatsen.
+* **Plaatsingen per besluit** - Tot 30 plaatsen per besluit.
+* **Beoordelingsmethode per besluit** - Offer decisioning App Service ondersteunt maximaal 30 ranking-functies per besluit.
+* **AI-beoordelingsmodel** - Offer decisioning App Service ondersteunt maximaal vijf AI-waarderingsmodellen.
+* **Verzamelingskwalificatie per aanbieding of verzameling** - Offer decisioning App Service biedt ondersteuning voor maximaal 20 verzamelingskwalificatie in één persoonlijke aanbieding of enkele verzameling.
+* **Totaal aantal verzamelingskwalificaties** - Offer decisioning App Service ondersteunt maximaal 1.000 Collectieve Kwalificatoren.
