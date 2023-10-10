@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: dd88835075bb458f0067d68c51b4996c5823b057
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 9%
+source-wordcount: '533'
+ht-degree: 8%
 
 ---
 
@@ -46,6 +46,11 @@ In de lijsten, kunt u basisacties op elk element uitvoeren. U kunt bijvoorbeeld 
 ![](assets/journey4.png)
 
 ## Werken met Unified-tags {#tags}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_tags"
+>title="Tags"
+>abstract="Met dit veld kunt u Adobe Experience Platform Unified Tags aan uw campagne toewijzen. Op deze manier kunt u ze gemakkelijk classificeren en de zoekopdracht in de lijst met campagnes verbeteren."
 
 Met Adobe Experience Platform [Verenigde tags](https://experienceleague.adobe.com/docs/experience-platform/administrative-tags/overview.html)kunt u uw Journey Optimizer-reizen en -campagnes eenvoudig classificeren om zoekopdrachten te verbeteren vanuit de lijsten.
 
