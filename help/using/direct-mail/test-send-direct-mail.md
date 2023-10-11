@@ -6,9 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
-source-git-commit: 7d753a1fd71e85e29c141fc697348579eaa15380
+exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
+source-git-commit: 804ff95d2a19601d036e739bb1d5a629930247b9
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -16,6 +17,11 @@ ht-degree: 1%
 # Een direct mailbericht testen en verzenden {#direct-mail-test-send}
 
 ## Een voorbeeld van het extractiebestand bekijken {#preview-dm}
+
+>[!CONTEXTUALHELP]
+>id="ajo_direct_mail_preview"
+>title="Voorvertoning van extractiebestand"
+>abstract="In dit deelvenster kunt u voorvertonen hoe het extractiebestand wordt weergegeven voor elk testprofiel dat in het linkerdeelvenster is geselecteerd. Als u persoonlijke inhoud hebt ingevoegd, kunt u met behulp van de gegevens van het testprofiel controleren hoe deze inhoud wordt weergegeven."
 
 Nadat de inhoud van het extractiebestand is gedefinieerd, kunt u er testprofielen voor gebruiken. Als u gepersonaliseerde inhoud hebt ingevoegd, kunt u met behulp van testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
 

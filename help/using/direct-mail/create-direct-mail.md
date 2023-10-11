@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: direct mail, bericht, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 86385c0c36a54985bb4624f90e475d1a0229f8cd
+source-git-commit: 804ff95d2a19601d036e739bb1d5a629930247b9
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '673'
 ht-degree: 3%
 
 ---
@@ -65,9 +65,9 @@ U kunt nu het extractiebestand configureren en verzenden naar uw directe-mailpro
 >abstract="Voeg en vorm de kolommen en de informatie toe die in het extractiedossier moet worden getoond dat door directe postleveranciers wordt vereist om post naar uw klanten te verzenden. U kunt maximaal 50 kolommen toevoegen."
 
 >[!CONTEXTUALHELP]
->id="ajo_direct_mail_sort"
+>id="ajo_direct_mail_formatting"
 >title="Opmaak van extractiebestanden"
->abstract="De <b>Sorteren op</b> kunt u het geselecteerde veld gebruiken om de kolommen van het extractiebestand te sorteren. Als deze optie is uitgeschakeld, worden de kolommen automatisch gesorteerd op basis van het veld Profiel-id."
+>abstract="Geef voor elk veld een label en de informatie op die u wilt weergeven met de Expressieeditor. <br/><br/> De <b>Sorteren op</b> kunt u het geselecteerde veld gebruiken om de kolommen van het extractiebestand te sorteren."
 
 1. Configureer de kolommen en de informatie die in het extractiebestand moeten worden weergegeven:
 
