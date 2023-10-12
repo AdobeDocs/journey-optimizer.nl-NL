@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 6bceccc561daac594f5c84d3d3250d887a349b7b
+source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
 workflow-type: tm+mt
-source-wordcount: '2922'
+source-wordcount: '2929'
 ht-degree: 0%
 
 ---
@@ -239,9 +239,9 @@ De **[!UICONTROL Email - Top Url]** grafiek en lijstdetails die URLs van uw e-ma
 
 De **[!UICONTROL Email - Top recipient domain]** grafiek en lijstdetails die domeinen het meest door profielen worden gebruikt om e-mail te openen.
 
->[!NOTE]
+>[!CAUTION]
 >
->De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]**  widgets zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor uw e-mail. Voor meer informatie over Send-Time Optimization, verwijs naar [deze pagina](../building-journeys/journeys-message.md#send-time-optimization).
+> De **[!UICONTROL Email - Top recipient domain]** de widget heeft een nauwkeurigheid van 99 , 95 % .
 
 De **[!UICONTROL Optimized vs non optimized]** de grafiek geeft de belangrijkste informatie met betrekking tot uw bericht of zij of niet worden geoptimaliseerd:
 
@@ -256,6 +256,11 @@ De **[!UICONTROL Send time optimization]** geeft details over het succes van uw 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
 * **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens het verzendingsproces en automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.
+
+>[!NOTE]
+>
+>De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]**  widgets zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor uw e-mail. Voor meer informatie over Send-Time Optimization, verwijs naar [deze pagina](../building-journeys/journeys-message.md#send-time-optimization).
+
 +++
 
 ## Tabblad In-app {#inapp-global}
