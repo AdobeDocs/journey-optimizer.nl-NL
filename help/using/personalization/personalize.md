@@ -9,7 +9,7 @@ role: Data Engineer
 level: Beginner
 keywords: expressie, editor, start, personalisatie
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 5e7a430feba5f67e5778704fde63003876c5dc67
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 5%
@@ -70,3 +70,4 @@ Leer hoe u contextuele gebeurtenisinformatie van een journey kunt gebruiken om e
 Leer hoe u op profiel gebaseerde personalisatie aan een bericht toevoegt en hoe u het lidmaatschap van een publiek als voorwaarde aan een verpersoonlijkingsblok kunt gebruiken.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
+
