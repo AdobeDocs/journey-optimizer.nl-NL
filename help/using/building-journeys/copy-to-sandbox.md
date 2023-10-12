@@ -9,7 +9,7 @@ role: User, Developer
 level: Intermediate
 keywords: zandbak, reis, exemplaar, milieu
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: aaa9dcbfc691eac0fd9d06e905c2e1d7612d854a
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 1%
@@ -38,11 +38,11 @@ ht-degree: 1%
 >title="Afhankelijke objecten"
 >abstract="Dit is de lijst van bijbehorende voorwerpen die in de reis worden gebruikt. In deze lijst worden de naam, het objecttype en de interne Journey Optimizer-id weergegeven."
 
-Met Journey Optimizer kunt u een volledige reis van de ene naar de andere sandbox kopiëren. U kunt bijvoorbeeld een traject kopiëren van de zandbakomgeving van het werkgebied naar de productiefandbox. Naast de reis zelf kopieert Journey Optimizer ook de meeste objecten die de reis afhangt van: publiek, oppervlakken (d.w.z. voorinstellingen), schema&#39;s, gebeurtenissen en acties. Raadpleeg deze voor meer informatie over gekopieerde objecten [sectie](#limitations).
+Met Journey Optimizer kunt u een volledige reis van de ene naar de andere sandbox kopiëren. U kunt bijvoorbeeld een traject kopiëren van de zandbakomgeving van het werkgebied naar de productiefandbox. Naast de reis zelf kopieert Journey Optimizer ook de meeste objecten die de reis afhangt van: publiek, oppervlakken (d.w.z. voorinstellingen), schema&#39;s, evenementen en acties. Raadpleeg deze voor meer informatie over gekopieerde objecten [sectie](#limitations).
 
 >[!CAUTION]
 >
->We garanderen niet dat alle gekoppelde elementen naar de doelsandbox worden gekopieerd. We raden u ten zeerste aan een grondige controle uit te voeren voordat u de reis publiceert. Hierdoor kunt u elk mogelijk ontbrekend object identificeren.
+>We garanderen niet dat alle gekoppelde elementen naar de doelsandbox worden gekopieerd. We raden u ten zeerste aan een grondige controle uit te voeren voordat u de reis publiceert. Zo kunt u elk mogelijk ontbrekend object identificeren.
 
 De gekopieerde objecten in de doelsandbox zijn uniek en er bestaat geen risico dat bestaande elementen worden overschreven. Zowel de reis als alle berichten binnen de reis worden in de ontwerpmodus overgenomen. Hierdoor kunt u een grondige validatie uitvoeren voordat deze wordt gepubliceerd in de doelsandbox. Het kopieerproces kopieert alleen de metagegevens over de reis en de objecten in die reis. Er worden geen profiel- of gegevenssetgegevens gekopieerd als onderdeel van dit proces.
 
@@ -58,7 +58,7 @@ Ga als volgt te werk om een reis naar een andere sandbox te kopiëren:
 
    ![](assets/copy-sandbox2.png)
 
-3. Selecteer **Doelsandbox** in het vervolgkeuzeveld. Alleen sandboxen binnen uw organisatie zijn beschikbaar.
+3. Selecteer de **Doelsandbox** in het vervolgkeuzeveld. Alleen sandboxen binnen uw organisatie zijn beschikbaar.
 
 4. Controleer de **Afhankelijke objecten** sectie. Dit is de lijst van bijbehorende voorwerpen die in de reis worden gebruikt. In deze lijst worden de naam, het objecttype en de interne Journey Optimizer-id weergegeven.
 
@@ -76,7 +76,7 @@ Ga als volgt te werk om een reis naar een andere sandbox te kopiëren:
 
 ## Verwerking en beperkingen kopiëren {#limitations}
 
-Mogelijk worden niet alle gekoppelde elementen gekopieerd naar de doelsandbox. Adobe raadt u ten zeerste aan een grondige controle uit te voeren. Identificeer om het even welk potentieel ontbrekend voorwerp en creeer hen manueel alvorens de reis te publiceren.
+Mogelijk worden niet alle gekoppelde elementen gekopieerd naar de doelsandbox. Adobe beveelt ten zeerste aan dat u een grondige controle uitvoert. Identificeer om het even welk potentieel ontbrekend voorwerp en creeer hen manueel alvorens de reis te publiceren.
 
 De volgende objecten worden gekopieerd:
 
@@ -104,7 +104,7 @@ De volgende objecten worden gekopieerd:
 
   De acties en actiedetails die in de reis worden gebruikt worden gekopieerd.
 
-Oppervlakken (d.w.z. voorinstellingen) worden niet overschreven. Het systeem selecteert automatisch de dichtstbijzijnde mogelijke overeenkomst op de bestemmingszandbak, die op berichttype en oppervlaknaam wordt gebaseerd. Als er geen oppervlakken worden gevonden in de doelsandbox, mislukt de kopie van het oppervlak. Dit zal betekenen dat het berichtexemplaar ook zal ontbreken omdat een bericht een oppervlakte om voor opstelling vereist te zijn. In dit geval moet ten minste één oppervlak worden gemaakt, zodat het bericht naar rechts kan worden weergegeven.
+Oppervlakken (d.w.z. voorinstellingen) worden niet over de oppervlakken gekopieerd. Het systeem selecteert automatisch de dichtstbijzijnde mogelijke overeenkomst op de bestemmingszandbak, die op berichttype en oppervlaknaam wordt gebaseerd. Als er geen oppervlakken worden gevonden in de doelsandbox, mislukt de kopie van het oppervlak. Dit zal betekenen dat het berichtexemplaar ook zal ontbreken omdat een bericht een oppervlakte om voor opstelling vereist te zijn. In dit geval moet ten minste één oppervlak worden gemaakt, zodat het bericht naar rechts kan worden weergegeven.
 
 Voor schema&#39;s, het Beleid van de Fusie en Soorten publiek, de tweede keer deze voorwerpen proberen om worden gekopieerd, zullen zij slechts van verwijzingen worden voorzien. Deze worden behandeld als objecten die al bestaan en worden opnieuw gekopieerd. Dit betekent dat deze objecten slechts eenmaal kunnen worden gekopieerd.
 
