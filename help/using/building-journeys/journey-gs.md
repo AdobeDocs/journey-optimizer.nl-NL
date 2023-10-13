@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 523f38743a827db4f8a94430ef02eda78d4151d9
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1685'
 ht-degree: 8%
 
 ---
@@ -45,6 +45,11 @@ Voor het verzenden van berichten met ritten zijn de volgende configuraties verei
 
 ## Toegang tot reizen {#journey-access}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_create"
+>title="Journeys"
+>abstract="Ontwerpen van klantritten om persoonlijke, contextuele ervaringen te bieden. Met Journey Optimizer kunt u in real-time gebruikmaken van het orkestgebruik en contextuele gegevens opslaan in gebeurtenissen of gegevensbronnen. De **Overzicht** wordt een dashboard weergegeven met de belangrijkste maatstaven voor uw reizen. De **Bladeren** wordt de lijst met bestaande reizen weergegeven."
+
 Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]**. Er zijn twee tabbladen beschikbaar:
 
 **Overzicht**: op dit tabblad wordt een dashboard weergegeven met de belangrijkste maatstaven voor uw reizen:
@@ -77,11 +82,6 @@ In de configuratievensters Gebeurtenis, Gegevensbron en Actie, **[!UICONTROL Use
 ![](assets/journey3bis.png)
 
 ## Uw reis maken{#jo-build}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_create"
->title="Uw reis maken"
->abstract="In dit scherm wordt de lijst met bestaande reizen weergegeven. Open een reis of klik op &#39;Een reis maken&#39; en combineer de verschillende gebeurtenis-, organisatie- en actieactiviteiten om uw meerstapsscenario&#39;s voor meerdere kanalen te maken."
 
 Deze stap wordt uitgevoerd door de **zakelijke gebruiker**. Hier maak je je reizen. Combineer de verschillende actie-, orkestratie- en gebeurtenisactiviteiten om uw kanaaloverschrijdende scenario’s met meerdere stappen te maken.
 

@@ -9,14 +9,19 @@ role: Admin
 level: Intermediate
 keywords: transport, integratie, standaard, campagne, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '923'
 ht-degree: 3%
 
 ---
 
 # Adobe Campaign Standard-acties {#using_campaign_action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_custom_acs"
+>title="Aangepaste acties"
+>abstract="Er is integratie beschikbaar als u Adobe Campaign Standard hebt. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging."
 
 Als u Adobe Campaign Standard hebt, zijn de volgende ingebouwde actieactiviteiten beschikbaar: **[!UICONTROL Email]**, **[!UICONTROL Push]** en **[!UICONTROL SMS]**.
 
@@ -28,7 +33,7 @@ Voor elk van deze kanalen selecteert u een Adobe Campaign Standard Transaction M
 
 >[!NOTE]
 >
->Het transactiebericht van Campaign Standard en de bijbehorende gebeurtenis moeten worden gepubliceerd om in Journey Optimizer te kunnen worden gebruikt. Als de gebeurtenis wordt gepubliceerd maar het bericht niet is, is het niet zichtbaar in de interface van Journey Optimizer. Als het bericht wordt gepubliceerd maar zijn bijbehorende gebeurtenis niet, zal het in de interface van Journey Optimizer zichtbaar zijn maar het zal niet bruikbaar zijn.
+>Het transactiebericht van het Campaign Standard en de bijbehorende gebeurtenis moeten worden gepubliceerd om in Journey Optimizer te worden gebruikt. Als de gebeurtenis wordt gepubliceerd maar het bericht niet is, is het niet zichtbaar in de interface van Journey Optimizer. Als het bericht wordt gepubliceerd maar zijn bijbehorende gebeurtenis niet, zal het in de interface van Journey Optimizer zichtbaar zijn maar het zal niet bruikbaar zijn.
 
 ![](assets/journey59.png)
 
@@ -48,13 +53,13 @@ Voor **[!UICONTROL Email]** en **[!UICONTROL SMS]**, zijn de parameters identiek
 
 >[!NOTE]
 >
->Als Adobe Campaign Standard de transactiesjabloon van een profiel gebruikt voor e-mail, wordt het systeem voor het opzeggen van abonnementen automatisch afgehandeld. Om dit uit te voeren, kunt u gemakkelijk omvatten **[!UICONTROL Unsubscription link]** inhoudsblok binnen [de transactiemalplaatje voor e-mail](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl). Nochtans, als u een op gebeurtenis-gebaseerde malplaatje (rtEvent) gebruikt, moet u een verbinding in het bericht opnemen die de e-mail van de ontvanger als parameter URL overgaat, en hen aan een unsubscription het landen pagina leidt. Deze landingspagina moet worden gemaakt en ervoor zorgen dat de beslissing van de ontvanger om af te zien, daadwerkelijk aan Adobe wordt toegezonden.
+>Als Adobe Campaign Standard de transactiesjabloon van een profiel gebruikt voor e-mail, wordt het systeem voor het opzeggen van abonnementen automatisch afgehandeld. Om dit uit te voeren, kunt u gemakkelijk omvatten **[!UICONTROL Unsubscription link]** inhoudsblok binnen [de transactiemalplaatje voor e-mail](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=nl). Nochtans, als u een op gebeurtenis-gebaseerde malplaatje (rtEvent) gebruikt, moet u een verbinding in het bericht opnemen die de e-mail van de ontvanger als parameter URL overgaat, en hen aan een unsubscription het landen pagina leidt. Deze landingspagina moet worden opgesteld en ervoor zorgen dat de beslissing van de ontvanger om af te zien, daadwerkelijk aan de Adobe wordt toegezonden.
 
 Eerst, moet u een transactioneel overseinensjabloon kiezen.
 
 Er zijn twee categorieën beschikbaar: **[!UICONTROL Address]** en **[!UICONTROL Personalization Data]**.
 
-U kunt gemakkelijk bepalen waar te om terug te winnen **[!UICONTROL Address]** of de **[!UICONTROL Personalization Data]** het gebruiken van de interface. U kunt door gebeurtenissen en beschikbare gebieden van de gegevensbron doorbladeren. U kunt de geavanceerde uitdrukkingsredacteur voor geavanceerdere gebruiksgevallen zoals het gebruiken van een gegevensbron ook gebruiken die de overgaan van parameters of het uitvoeren van manipulaties vereist. Zie [deze pagina](expression/expressionadvanced.md).
+U kunt eenvoudig bepalen waar u de **[!UICONTROL Address]** of de **[!UICONTROL Personalization Data]** het gebruiken van de interface. U kunt door gebeurtenissen en beschikbare gebieden van de gegevensbron doorbladeren. U kunt de geavanceerde uitdrukkingsredacteur voor geavanceerdere gebruiksgevallen zoals het gebruiken van een gegevensbron ook gebruiken die de overgaan van parameters of het uitvoeren van manipulaties vereist. Zie [deze pagina](expression/expressionadvanced.md).
 
 **[!UICONTROL Address]**
 
@@ -70,7 +75,7 @@ Dit zijn de gebieden het systeem vereist om te weten waar te om het bericht te v
 
 >[!NOTE]
 >
->U kunt geen inzameling in verpersoonlijkingsgegevens overgaan. Als de transactie-e-mail of SMS inzamelingen verwacht, zal het niet werken. Merk ook op dat de verpersoonlijkingsgegevens een verwacht formaat hebben (voorbeeld: tekenreeks, decimaal, enz.). U moet deze verwachte formaten zorgvuldig respecteren.
+>U kunt geen inzameling in verpersoonlijkingsgegevens overgaan. Als de transactie-e-mail of SMS inzamelingen verwacht, zal het niet werken. Houd er ook rekening mee dat de aanpassingsgegevens een verwachte indeling hebben (bijvoorbeeld tekenreeks, decimaal, enz.). U moet deze verwachte formaten zorgvuldig respecteren.
 
 Dit zijn de velden die worden verwacht door het Adobe Campaign Standard-bericht. Deze velden kunnen worden gebruikt om het bericht aan te passen, voorwaardelijke opmaak toe te passen of een specifieke berichtvariant te kiezen.
 
@@ -78,7 +83,7 @@ Dit zijn de velden die worden verwacht door het Adobe Campaign Standard-bericht.
 
 ## Push {#section_im3_hvf_nhb}
 
-Voordat u de pushactiviteit kunt gebruiken, moet uw mobiele app samen met Campaign Standard worden geconfigureerd om pushmeldingen te verzenden. Gebruik deze [artikel](https://helpx.adobe.com/nl/campaign/kb/integrate-mobile-sdk.html) de nodige stappen voor de implementatie van mobiele apparatuur te ondernemen.
+Voordat u de pushactiviteit kunt gebruiken, moet uw mobiele app samen met het Campaign Standard worden geconfigureerd voor het verzenden van pushberichten. Gebruik deze [artikel](https://helpx.adobe.com/nl/campaign/kb/integrate-mobile-sdk.html) de nodige stappen voor de implementatie van mobiele apparatuur te ondernemen.
 
 Eerst moet u een mobiele app kiezen in de vervolgkeuzelijst en een transactiebericht.
 
@@ -104,6 +109,6 @@ U moet ook de **[!UICONTROL Registration Token]**. De expressie hangt af van de 
 
 >[!NOTE]
 >
->U kunt geen inzameling in verpersoonlijkingsgegevens overgaan. Als de transactioneel duw inzamelingen verwacht, zal het niet werken. Merk ook op dat de verpersoonlijkingsgegevens een verwacht formaat hebben (voorbeeld: tekenreeks, decimaal, enz.). U moet deze verwachte formaten zorgvuldig respecteren.
+>U kunt geen inzameling in verpersoonlijkingsgegevens overgaan. Als de transactioneel duw inzamelingen verwacht, zal het niet werken. Houd er ook rekening mee dat de aanpassingsgegevens een verwachte indeling hebben (bijvoorbeeld tekenreeks, decimaal, enz.). U moet deze verwachte formaten zorgvuldig respecteren.
 
 Dit zijn de velden die worden verwacht door de transactiesjabloon die wordt gebruikt in je Adobe Campaign Standard-bericht. Deze velden kunnen worden gebruikt om uw bericht aan te passen, voorwaardelijke opmaak toe te passen of een specifieke berichtvariant te kiezen.
