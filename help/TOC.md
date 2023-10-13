@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0a97e30f07348922687aa98638f9be4936d2a860
+source-git-commit: f532e7cbafc3dde7a85cf0a89d1bbb01ccdd118e
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1670'
 ht-degree: 35%
 
 ---
@@ -230,14 +230,16 @@ ht-degree: 35%
    + [Direct mail configureren](using/direct-mail/direct-mail-configuration.md)
 + Webkanaal {#web}
    + [Aan de slag met webkanaal](using/web/get-started-web.md)
-   + [Voorwaarden voor webkanalen](using/web/web-prerequisites.md)
+   + Webkanaal configureren {#configure-web-channel}
+      + [Voorwaarden voor webkanalen](using/web/web-prerequisites.md)
+      + [Websubdomeinen configureren](using/web/web-delegated-subdomains.md)
+      + [Toepassingen van één pagina implementeren](using/web/web-spa-implementation.md)
    + [Webervaringen maken](using/web/create-web.md)
    + Webpagina&#39;s van auteurs {#author-web-pages}
       + [Webpagina-inhoud bewerken](using/web/edit-web-content.md)
       + [Wijzigingen beheren](using/web/manage-web-modifications.md)
       + [Uw webcampagnes volgen](using/web/monitor-web-campaigns.md)
       + [Toepassingen van één pagina maken](using/web/web-spa.md)
-   + [Websubdomeinen configureren](using/web/web-delegated-subdomains.md)
 + Ervaring op basis van code {#code-based-experience}
    + [Aan de slag met op code gebaseerd kanaal](using/code-based/get-started-code-based.md)
    + [Voorwaarden die zijn gebaseerd op code](using/code-based/code-based-prerequisites.md)
@@ -528,7 +530,6 @@ ht-degree: 35%
    + [Ondersteuning voor archivering](using/configuration/archiving-support.md)
    + [Uitvoeringadressen wijzigen](using/configuration/primary-email-addresses.md)
    + [Regels voor frequenties configureren](using/configuration/frequency-rules.md)
-   + [Toepassingen van één pagina implementeren](using/web/web-spa-implementation.md)
    + Journey&#39;s configureren {#configure-journeys}
       + [Informatie over gegevensbronnen, gebeurtenissen en handelingen](using/configuration/about-data-sources-events-actions.md)
       + Integreren met externe systemen {#external-systems}
