@@ -1,12 +1,12 @@
 ---
 title: Gegevensverzameling
 description: Meer informatie over het verzamelen van feedback over beslissingsbeheer
-feature: Offers
+feature: Offers, Datasets
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 1%
@@ -49,7 +49,7 @@ Maar **meeste kanalen** impressies en klikgegevens vereisen die als een **Experi
 * Mobiele toepassingen met de [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"} to render offers - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * Kiosks
 * Berichten die via toepassingen van derden worden verzonden
-   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
+  <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->
 
 >[!NOTE]
 >

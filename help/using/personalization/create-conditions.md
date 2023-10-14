@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Voorwaarden maken
 description: Leer hoe u voorwaarden kunt maken
-feature: Personalization
+feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, voorwaardelijk, regels
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Werken met voorwaardelijke regels {#conditions}
 
-Voorwaardelijke regels zijn regels die bepalen welke inhoud in uw berichten moet worden weergegeven, afhankelijk van verschillende criteria zoals de kenmerken van profielen, het lidmaatschap van het publiek of contextuele gebeurtenissen.
+Voorwaardelijke regels zijn sets regels die bepalen welke inhoud in uw berichten moet worden weergegeven, afhankelijk van verschillende criteria zoals de kenmerken van profielen, het lidmaatschap van het publiek of contextuele gebeurtenissen.
 
 Voorwaardelijke regels worden gecreeerd gebruikend de uitdrukkingsredacteur en kunnen worden opgeslagen als u hen over uw inhoud wilt opnieuw gebruiken. [Leer hoe u een voorwaardelijke regel opslaat in de bibliotheek](#save)
 
@@ -50,23 +50,23 @@ Voorwaardelijke regels worden gemaakt op basis van de **[!UICONTROL Conditions]*
 >title="Voorwaarde maken"
 >abstract="Combineer profielkenmerken, contextafhankelijke gebeurtenissen of soorten publiek om regels op te stellen die bepalen welke inhoud in uw berichten moet worden weergegeven."
 
-De stappen voor het maken van een voorwaardelijke regel zijn als volgt:
+U kunt als volgt een voorwaardelijke regel maken:
 
-1. Toegang krijgen tot **[!UICONTROL Conditions]** in de Expressieeditor of de E-mailontwerper en klik vervolgens op **[!UICONTROL Create new]**.
+1. Toegang krijgen tot de **[!UICONTROL Conditions]** in de Expressieeditor of de E-mailontwerper en klik vervolgens op **[!UICONTROL Create new]**.
 
 1. Bouw de voorwaardelijke regel volgens uw behoeften. U doet dit door de gewenste kenmerken vanuit het linkermenu naar het canvas te slepen en neer te zetten.
 
 De stappen om kenmerken in het canvas te combineren zijn gelijkaardig aan de ervaring van het segmentbouwen. Voor meer informatie over hoe te met het canvas van de regelbouwer te werken, verwijs naar [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#rule-builder-canvas).
 
-    ![](assets/conditions-create.png)
+    ![assets/conditions-create.png]
     
     De kenmerken zijn ingedeeld in drie tabbladen:
     
     * **[!UICONTROL Profile]**:
     * **[!UICONTROL Audiences]** bevat alle publiekskenmerken (bijvoorbeeld status, versie, enz.) voor [Adobe Experience Platform Segmentation service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html),
     * **[!UICONTROL XDM Individual profiles]** bevat een lijst met alle profielkenmerken die zijn gekoppeld aan het [XDM-schema (Experience Data Model)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) dat is gedefinieerd in Adobe Experience Platform.
-    * **[!UICONTROL Contextual]**: wanneer uw bericht in een reis wordt gebruikt, zijn de contextuele reisgebieden beschikbaar door dit lusje.
-    * **[!UICONTROL Audiences]**: geeft een overzicht van alle publiek dat wordt gegenereerd op basis van segmentdefinities die zijn gemaakt in [Adobe Experience Platform Segmentation service] (https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+    * **[!UICONTROL Contextual]**: wanneer uw bericht tijdens een reis wordt gebruikt, zijn de contextuele reisgebieden beschikbaar door dit lusje.
+    * **[!UICONTROL Audiences]**: geeft een lijst weer van alle soorten publiek die worden gegenereerd op basis van segmentatiedefinities die zijn gemaakt in [Adobe Experience Platform Segmentation-service](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 1. Zodra uw voorwaardelijke regel klaar is, kunt u deze aan uw bericht toevoegen om dynamische inhoud te maken. [Leer hoe u dynamische inhoud toevoegt](dynamic-content.md)
 

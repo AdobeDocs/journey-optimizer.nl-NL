@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Segmentdefinities samenstellen
-description: Leer hoe u publiek kunt maken met segmentdefinities
-feature: Journeys
+description: Leer hoe u een publiek kunt maken met behulp van segmentdefinities
+feature: Audiences, Profiles
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 4%
@@ -26,11 +26,11 @@ In dit voorbeeld bouwen we een publiek dat gericht is op alle klanten die in Atl
 
 ➡️ [Leer hoe u in deze video een publiek kunt maken](#video-segment)
 
-1. Toegang krijgen tot **[!UICONTROL Audiences]** en klikt u op de knop **[!UICONTROL Create audience]** knop.
+1. Toegang krijgen tot de **[!UICONTROL Audiences]** en klikt u op de knop **[!UICONTROL Create audience]** knop.
 
    ![](assets/create-segment.png)
 
-   In het scherm voor segmentdefinitie kunt u alle vereiste velden configureren om uw publiek te definiëren. Leer hoe te om publiek in te vormen [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
+   In het scherm voor segmentdefinitie kunt u alle vereiste velden configureren om uw publiek te definiëren. Leer hoe te om publiek in te vormen in [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html){target="_blank"}.
 
    ![](assets/segment-builder.png)
 
@@ -48,7 +48,7 @@ In dit voorbeeld bouwen we een publiek dat gericht is op alle klanten die in Atl
 
    In dit voorbeeld moeten we erop vertrouwen **Attributen** en **Gebeurtenissen** velden voor het opbouwen van het publiek:
 
-   * **Attributen**: profielen die leven in Atlanta, San Francisco of Seattle, geboren na 1980
+   * **Attributen** Betreft: Profielen in Atlanta, San Francisco of Seattle geboren na 1980
 
      ![](assets/add-attributes.png)
 

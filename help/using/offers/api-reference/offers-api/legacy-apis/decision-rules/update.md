@@ -1,17 +1,17 @@
 ---
 title: Beslissingsregels bijwerken
 description: Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die op een profiel worden toegepast om te bepalen of het in aanmerking komt voor een aanbieding.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
+exl-id: 33da2c42-0c6c-49d3-bad8-1a85a5172cd8
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 5%
 
 ---
-
 
 # Een beslissingsregel bijwerken {#update-decision-rule}
 

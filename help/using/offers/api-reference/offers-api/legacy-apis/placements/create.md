@@ -1,17 +1,17 @@
 ---
 title: Een plaatsing maken
 description: Plaatsingen zijn containers die worden gebruikt om uw voorstellen te tonen.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+exl-id: 5c7301f6-95d3-4720-81fe-5f2602cd30ec
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 6%
 
 ---
-
 
 # Een plaatsing maken {#create-placement}
 

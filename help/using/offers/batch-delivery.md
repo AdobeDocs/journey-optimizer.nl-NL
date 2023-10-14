@@ -1,8 +1,10 @@
 ---
 title: Batchbeslissing
 description: Leer hoe u beslissingen kunt aanbieden aan alle profielen in een bepaald Adobe Experience Platform-publiek.
+Feature: Offers
+Level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 0%
@@ -37,7 +39,7 @@ Voordat u een taakaanvraag configureert, moet u controleren of u het volgende he
 
 ## Een taakaanvraag maken
 
-Volg onderstaande stappen om een nieuwe taakaanvraag te maken.
+Voer de onderstaande stappen uit om een nieuwe taakaanvraag te maken.
 
 1. In de **[!UICONTROL Offers]** menu, opent u de **[!UICONTROL Batch decisioning]** en klik vervolgens op **[!UICONTROL Create request]**.
 
@@ -49,12 +51,12 @@ Volg onderstaande stappen om een nieuwe taakaanvraag te maken.
 
 1. Selecteer een of meer keuzelijsten voor biedingsbesluiten die u wilt gebruiken om aanbiedingen aan het publiek te leveren:
    1. Selecteer een plaatsing in de lijst.
-   1. De beslissingen die beschikbaar zijn voor de geselecteerde plaatsingsweergave. Selecteer de gewenste beslissing en klik op **[!UICONTROL Add]**.
+   1. De beschikbare beslissingen voor de geselecteerde plaatsingsweergave. Selecteer de gewenste beslissing en klik op **[!UICONTROL Add]**.
    1. Herhaal de bewerking om zoveel beslissingsbereik toe te voegen als u wilt.
 
    ![](assets/batch-decision.png)
 
-1. Standaard wordt één aanbieding van het beslissingsbereik geretourneerd voor elk profiel. U kunt het aantal geretourneerde voorstellen aanpassen met de opdracht **[!UICONTROL Request offer per profile]** optie. Als u bijvoorbeeld 2 selecteert, worden de beste 2 aanbiedingen weergegeven voor het geselecteerde beslissingsbereik.
+1. Standaard wordt één aanbieding van het beslissingsbereik geretourneerd voor elk profiel. U kunt het aantal geretourneerde voorstellen aanpassen met de opdracht **[!UICONTROL Request offer per profile]** -optie. Als u bijvoorbeeld 2 selecteert, worden de beste 2 aanbiedingen weergegeven voor het geselecteerde beslissingsbereik.
 
    >[!NOTE]
    >
@@ -78,9 +80,9 @@ Nadat een taakaanvraag is gemaakt, worden meerdere statussen gebruikt voor de ba
 >
 >Om ervoor te zorgen dat u de recentste informatie over de status van een baanverzoek krijgt, gebruik de ellipsknoop naast de baan om het te verfrissen.
 
-1. **[!UICONTROL Queued]**: Het taakverzoek is gemaakt en is in de verwerkingswachtrij geplaatst. Tot 5 partijbanen kunnen in een tijd per dataset worden in werking gesteld. Om het even welke andere partijverzoeken met de zelfde outputdataset worden toegevoegd aan de rij. Er wordt een taak in de wachtrij opgehaald om te worden verwerkt zodra de vorige taak is voltooid.
+1. **[!UICONTROL Queued]**: De taakaanvraag is gemaakt en is in de verwerkingswachtrij geplaatst. Tot 5 partijbanen kunnen in een tijd per dataset worden in werking gesteld. Om het even welke andere partijverzoeken met de zelfde outputdataset worden toegevoegd aan de rij. Er wordt een taak in de wachtrij opgehaald om te worden verwerkt zodra de vorige taak is voltooid.
 1. **[!UICONTROL Processing]**: Het taakverzoek wordt verwerkt
-1. **[!UICONTROL Ingesting]**: Het baanverzoek is uitgevoerd, resultaatgegevens worden opgenomen in de geselecteerde dataset,
+1. **[!UICONTROL Ingesting]**: Het taakverzoek is uitgevoerd, resultaatgegevens worden in de geselecteerde dataset opgenomen,
 1. **[!UICONTROL Completed]**: Het taakverzoek is uitgevoerd en de resultaatgegevens worden nu opgeslagen in de geselecteerde dataset.
 
    >[!NOTE]

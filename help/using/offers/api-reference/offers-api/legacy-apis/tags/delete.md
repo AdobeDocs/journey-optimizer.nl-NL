@@ -1,17 +1,17 @@
 ---
 title: Verzamelingsaanduidingen verwijderen
 description: Met de verzamelingskwalificatietags kunt u uw voorstellen beter organiseren en sorteren.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
+exl-id: cc67519e-7a80-49c7-8c8b-c777be633026
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 1%
 
 ---
-
 
 # Een verzamelingskwalificatie verwijderen {#delete-tag}
 

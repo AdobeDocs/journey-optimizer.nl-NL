@@ -1,12 +1,12 @@
 ---
 title: Dataset met gepersonaliseerde aanbiedingen
 description: Deze sectie maakt een lijst van alle gebieden die in de uitgevoerde dataset voor aanbiedingen worden gebruikt
-feature: Offers
+feature: Offers, Datasets
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '2009'
 ht-degree: 0%
@@ -117,7 +117,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
      **Veld:** format
      **Titel:** Indeling
-     **Omschrijving:** De fysieke of digitale manifestatie van de bron. Normaal gesproken moet de indeling het mediatype van de bron bevatten. De indeling kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. De aanbevolen werkwijze is het selecteren van een waarde in een gecontroleerde woordenlijst (bijvoorbeeld de lijst met [Internetmediatypen](https://www.iana.org/assignments/media-types/) computermedia-indelingen definiëren).
+     **Omschrijving:** De fysieke of digitale manifestatie van de bron. Normaal gesproken moet de indeling het mediatype van de bron bevatten. De indeling kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. De aanbevolen werkwijze is het selecteren van een waarde in een gecontroleerde woordenlijst (bijvoorbeeld de lijst met [Internet Media Types](https://www.iana.org/assignments/media-types/) computermedia-indelingen definiëren).
      **Type:** string
      **Voorbeeld:** &quot;application/vnd.adobe.photoshop&quot;
 
@@ -238,15 +238,15 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 ++_experience > decisions > profileConstraints > Type profielrestrictie
 
 **Veld:** profileConstraintType
-**Titel:** Type profielbeperking
+**Titel:** Restrictietype profiel
 **Omschrijving:** Hiermee wordt bepaald of er momenteel beperkingen zijn ingesteld en hoe de beperkingen worden uitgedrukt. Het zou door een regel of door één of meerdere publieksleden kunnen zijn.
 **Type:** string
 **Mogelijke waarden:**
 * &quot;none&quot; (standaardwaarde)
-* &quot;toelatingsregel&quot;: &quot;De profielbeperking wordt uitgedrukt als één enkele regel die aan waar moet evalueren alvorens de beperkte actie wordt toegestaan.&quot;
-* &quot;anySegments&quot;: &quot;De profielbeperking wordt uitgedrukt als een of meer soorten publiek en het profiel moet lid zijn van ten minste een van deze groepen voordat de beperkte handeling is toegestaan.&quot;
+* &quot;accessibilityRule&quot;: &quot;De profielbeperking wordt uitgedrukt als één enkele regel die aan waar moet evalueren alvorens de beperkte actie wordt toegestaan.&quot;
+* &quot;anySegments&quot;: &quot;De profielbeperking wordt uitgedrukt als een of meer soorten publiek en het profiel moet lid zijn van ten minste één ervan voordat de beperkte handeling is toegestaan.&quot;
 * &quot;allSegments&quot;: &quot;De profielbeperking wordt uitgedrukt als een of meer soorten publiek en het profiel moet lid zijn van al deze groepen voordat de beperkte handeling is toegestaan.&quot;
-* &quot;regels&quot;: &quot;De profielbeperking wordt uitgedrukt als een aantal verschillende regels, bijvoorbeeld geschiktheid, toepasbaarheid, geschiktheid, die allemaal op true moeten worden beoordeeld voordat de beperkte handeling is toegestaan.&quot;
+* &quot;regels&quot;: &quot;De profielbeperking wordt uitgedrukt als een aantal verschillende regels, bijvoorbeeld geschiktheid, toepasbaarheid, geschiktheid, die allemaal moeten evalueren tot waar voordat de beperkte handeling is toegestaan.&quot;
 
 +++
 
@@ -268,7 +268,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
   **Veld:** namespace
   **Titel:** Naamruimte
-  **Omschrijving:** De naamruimte die is gekoppeld aan de `xid` kenmerk.
+  **Omschrijving:** De naamruimte die aan de `xid` kenmerk.
   **Type:** object
   **Vereist:** &quot;code&quot;
 

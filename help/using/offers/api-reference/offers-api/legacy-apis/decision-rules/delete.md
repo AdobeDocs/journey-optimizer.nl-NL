@@ -1,17 +1,17 @@
 ---
 title: Beslissingsregels verwijderen
 description: Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die op een profiel worden toegepast om te bepalen of het in aanmerking komt voor een aanbieding.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+exl-id: 7c02041c-b022-4027-b932-294b207add80
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 3%
 
 ---
-
 
 # Een beslissingsregel verwijderen {#delete-decision-rule}
 

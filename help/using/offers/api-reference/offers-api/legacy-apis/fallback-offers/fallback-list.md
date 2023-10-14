@@ -1,17 +1,17 @@
 ---
 title: Alternatieve aanbiedingen weergeven
 description: Aan klanten wordt een fallback-aanbieding gestuurd als zij niet in aanmerking komen voor andere aanbiedingen
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
+exl-id: 0eb68312-5567-4728-b184-9d40107676a0
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 3%
 
 ---
-
 
 # Alternatieve aanbiedingen weergeven {#list-fallback-offers}
 

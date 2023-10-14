@@ -1,17 +1,17 @@
 ---
 title: aanbiedingen voor opzoeken
 description: Aan klanten wordt een fallback-aanbieding gestuurd als zij niet in aanmerking komen voor andere aanbiedingen
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
+exl-id: e470d491-b30b-4d26-83a6-e5b34e49fe61
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 1%
 
 ---
-
 
 # Opzoeken van fallback-aanbiedingen {#look-up-fallback-offers}
 

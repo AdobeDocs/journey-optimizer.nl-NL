@@ -1,12 +1,12 @@
 ---
 title: Gegevensset voor alternatieven
-description: Deze sectie maakt een lijst van alle gebieden die in de uitgevoerde dataset voor fallback aanbiedingen worden gebruikt
-feature: Offers
+description: Deze sectie maakt een lijst van alle gebieden die in de uitgevoerde dataset voor reserveaanbiedingen worden gebruikt
+feature: Offers, Datasets
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 0%
@@ -79,84 +79,84 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 * **_experience > decisions > contents > components > Content Component Type**
 
-   **Veld:** _type
-   **Titel:** Type inhoudcomponent
-   **Omschrijving:** Een opsomming van URI&#39;s waarbij elke waarde wordt toegewezen aan een type dat aan de inhoudcomponent wordt gegeven. Sommige consumenten van de inhoudrepresentaties verwachten dat de @type-waarde een verwijzing naar een schema is dat aanvullende eigenschappen van de inhoudcomponent beschrijft.
-   **Type:** string
+  **Veld:** _type
+  **Titel:** Type inhoudcomponent
+  **Omschrijving:** Een opsomming van URI&#39;s waarbij elke waarde wordt toegewezen aan een type dat aan de inhoudcomponent wordt gegeven. Sommige consumenten van de inhoudrepresentaties verwachten dat de @type-waarde een verwijzing naar een schema is dat aanvullende eigenschappen van de inhoudcomponent beschrijft.
+  **Type:** string
 
 * **_experience > decisions > contents > components > _dc**
 
-   **Veld:** _dc
-   **Type:** object
-   **Vereist:** &quot;format&quot;
+  **Veld:** _dc
+  **Type:** object
+  **Vereist:** &quot;format&quot;
 
    * **Indeling**
 
-      **Veld:** format
-      **Titel:** Indeling
-      **Omschrijving:** De fysieke of digitale manifestatie van de bron. Normaal gesproken moet de indeling het mediatype van de bron bevatten. De indeling kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. De aanbevolen werkwijze is het selecteren van een waarde in een gecontroleerde woordenlijst (bijvoorbeeld de lijst met [Internetmediatypen](https://www.iana.org/).
-      **Type:** string
-      **Voorbeeld:** &quot;application/vnd.adobe.photoshop&quot;
+     **Veld:** format
+     **Titel:** Indeling
+     **Omschrijving:** De fysieke of digitale manifestatie van de bron. Normaal gesproken moet de indeling het mediatype van de bron bevatten. De indeling kan worden gebruikt om te bepalen welke software, hardware of andere apparatuur nodig is om de bron weer te geven of te gebruiken. De aanbevolen werkwijze is het selecteren van een waarde in een gecontroleerde woordenlijst (bijvoorbeeld de lijst met [Internet Media Types](https://www.iana.org/).
+     **Type:** string
+     **Voorbeeld:** &quot;application/vnd.adobe.photoshop&quot;
 
    * **Taal**
 
-      **Veld:** taal
-      **Titel:** Taal
-      **Omschrijving:** De taal of talen van de bron. \nTalen worden opgegeven in taalcode zoals gedefinieerd in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), dat deel uitmaakt van BCP 47, dat elders in XDM wordt gebruikt.
-      **Type:** array
-      **Voorbeelden:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
+     **Veld:** taal
+     **Titel:** Taal
+     **Omschrijving:** De taal of talen van de bron. \nTalen worden opgegeven in taalcode zoals gedefinieerd in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), dat deel uitmaakt van BCP 47, dat elders in XDM wordt gebruikt.
+     **Type:** array
+     **Voorbeelden:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
 * **_experience > decisions > contents > components > _repo**
 
-   **Veld:** _repo
-   **Type:** object
+  **Veld:** _repo
+  **Type:** object
 
    * **id**
 
-      **Veld:** id
-      **Omschrijving:** Een optionele unieke id die verwijst naar het element in een inhoudsopslagplaats. Wanneer Platform-API&#39;s worden gebruikt om de representatie op te halen, kan de client een extra eigenschap \&quot;repo:resolveUrl\&quot; verwachten om het element op te halen.
-      **Type:** string
-      **Voorbeeld:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+     **Veld:** id
+     **Omschrijving:** Een optionele unieke id die verwijst naar het element in een inhoudsopslagplaats. Wanneer Platform-API&#39;s worden gebruikt om de representatie op te halen, kan de client een extra eigenschap \&quot;repo:resolveUrl\&quot; verwachten om het element op te halen.
+     **Type:** string
+     **Voorbeeld:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **name**
 
-      **Veld:** name
-      **Omschrijving:** Sommige tips over de locatie van de opslagplaats die het externe element opslaat via de \&quot;repo:id\&quot;.
-      **Type:** string
+     **Veld:** name
+     **Omschrijving:** Sommige tips over de locatie van de opslagplaats die het externe element opslaat via de \&quot;repo:id\&quot;.
+     **Type:** string
 
    * **repositoryID**
 
-      **Veld:** repositoryID
-      **Omschrijving:** Een optionele unieke id die verwijst naar het element in een inhoudsopslagplaats. Wanneer Platform-API&#39;s worden gebruikt om de representatie op te halen, kan de client een extra eigenschap \&quot;repo:resolveUrl\&quot; verwachten om het element op te halen.
-      **Type:** string
-      **Voorbeeld:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
+     **Veld:** repositoryID
+     **Omschrijving:** Een optionele unieke id die verwijst naar het element in een inhoudsopslagplaats. Wanneer Platform-API&#39;s worden gebruikt om de representatie op te halen, kan de client een extra eigenschap \&quot;repo:resolveUrl\&quot; verwachten om het element op te halen.
+     **Type:** string
+     **Voorbeeld:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
    * **resolveURL**
 
-      **Veld:** resolveURL
-      **Omschrijving:** Een optionele unieke resource locator voor het lezen van het middel in een inhoudsopslagplaats. Hierdoor wordt het eenvoudiger om het middel te verkrijgen zonder dat de klant begrijpt waar het middel wordt beheerd en welke API&#39;s moeten worden aangeroepen. Dit is vergelijkbaar met een HAL-link, maar de semantiek is eenvoudiger en doelgerichter.
-      **Type:** string
-      **Voorbeeld:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
+     **Veld:** resolveURL
+     **Omschrijving:** Een optionele unieke resource locator voor het lezen van het middel in een inhoudsopslagplaats. Hierdoor wordt het eenvoudiger om het middel te verkrijgen zonder dat de klant begrijpt waar het middel wordt beheerd en welke API&#39;s moeten worden aangeroepen. Dit is vergelijkbaar met een HAL-link, maar de semantiek is eenvoudiger en doelgerichter.
+     **Type:** string
+     **Voorbeeld:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > decisions > contents > components > content**
 
-   **Veld:** content
-   **Omschrijving:** Een optioneel veld waarin inhoud rechtstreeks kan worden opgeslagen. In plaats van te verwijzen naar inhoud in een opslagplaats voor bedrijfsmiddelen, kan de component eenvoudige inhoud direct bevatten. Dit veld wordt niet gebruikt voor samengestelde, complexe en binaire inhoudselementen.
-   **Type:** string
+  **Veld:** content
+  **Omschrijving:** Een optioneel veld waarin inhoud rechtstreeks kan worden opgeslagen. In plaats van te verwijzen naar inhoud in een opslagplaats voor bedrijfsmiddelen, kan de component eenvoudige inhoud direct bevatten. Dit veld wordt niet gebruikt voor samengestelde, complexe en binaire inhoudselementen.
+  **Type:** string
 
 * **_experience > decisions > contents > components > deliveryURL**
 
-   **Veld:** deliveryURL
-   **Omschrijving:** Een facultatieve unieke middellocator om het middel van een netwerk of de diensteindpunt van de inhoudslevering te verkrijgen. Deze URL wordt gebruikt om tot het middel openlijk door een gebruikersagent toegang te hebben.
-   **Type:** string
-   **Voorbeeld:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Veld:** deliveryURL
+  **Omschrijving:** Een facultatieve unieke middellocator om het middel van een netwerk of de diensteindpunt van de inhoudslevering te verkrijgen. Deze URL wordt gebruikt om tot het middel openlijk door een gebruikersagent toegang te hebben.
+  **Type:** string
+  **Voorbeeld:** &quot;https://cdn.adobe.io/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 * **_experience > decisions > contents > components > linkURL**
 
-   **Veld:** linkURL
-   **Omschrijving:** Een optionele unieke resource locator voor gebruikersinteracties. Deze URL wordt gebruikt om de eindgebruiker naar in een gebruikersagent te verwijzen en kan worden gevolgd.
-   **Type:** string
-   **Voorbeeld:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Veld:** linkURL
+  **Omschrijving:** Een optionele unieke resource locator voor gebruikersinteracties. Deze URL wordt gebruikt om de eindgebruiker naar in een gebruikersagent te verwijzen en kan worden gevolgd.
+  **Type:** string
+  **Voorbeeld:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++
 

@@ -1,11 +1,12 @@
 ---
 title: Alternatieve aanbiedingen maken
-description: Leer hoe u fallback-aanbiedingen kunt maken die kunnen worden weergegeven voor klanten die niet in aanmerking komen voor een aanbieding
+description: Leer hoe u fallback-aanbiedingen kunt maken voor klanten die niet in aanmerking komen voor een aanbieding
+Feature: Offers
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 3%
@@ -42,7 +43,7 @@ Voer de volgende stappen uit om een fallback-aanbieding te maken:
 
    ![](../assets/fallback_content.png)
 
-1. Zodra de vertegenwoordiging van de reserveaanbieding is toegevoegd, een summiere vertoningen. Als alles correct wordt gevormd en uw reserveaanbod klaar is om aan klanten te worden voorgesteld, klik **[!UICONTROL Finish]** selecteert u vervolgens **[!UICONTROL Save and approve]**.
+1. Zodra de vertegenwoordiging van de reserveaanbieding is toegevoegd, een summiere vertoningen. Als alles correct is geconfigureerd en uw fallback-aanbieding klaar is om aan klanten te worden gepresenteerd, klikt u op **[!UICONTROL Finish]** selecteert u vervolgens **[!UICONTROL Save and approve]**.
 
    U kunt de fallback-aanbieding ook opslaan als concept, zodat u deze later kunt bewerken en goedkeuren.
 

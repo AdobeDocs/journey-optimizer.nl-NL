@@ -1,12 +1,12 @@
 ---
 title: Dataset met beslissingen
 description: Deze sectie maakt een lijst van alle gebieden die in de uitgevoerde dataset voor besluiten worden gebruikt
-feature: Offers
+feature: Offers, Datasets
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
-source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 0%
@@ -91,10 +91,10 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
   **Omschrijving:** De verwijzing naar een op &#39;tag&#39; gebaseerde filter dat is gebaseerd op een kwalificatie voor verzamelingen (voorheen &#39;tag&#39; genoemd) die overeenkomt met opties uit een inventaris met behulp van de bijbehorende kwalificatietekens voor verzamelingen. De waarde is URI (@id) van de beslissingsregel waarnaar wordt verwezen. Zie schema https://ns.adobe.com/experience/decisioning/filter.
   **Type:** string
 
-* Type profielbeperking
+* Restrictietype profiel
 
   **Veld:** optionSelectionType
-  **Titel:** Type profielbeperking
+  **Titel:** Restrictietype profiel
   **Omschrijving:** Hiermee wordt bepaald of er momenteel beperkingen zijn ingesteld en hoe de beperkingen worden uitgedrukt. Het zou door een filtervraag of door één of meerdere publiekslidmaatschappen kunnen zijn.
   **Type:** string
   **Mogelijke waarden:** &quot;none&quot; (standaardwaarde), &quot;directList&quot;, &quot;filter&quot;
@@ -155,15 +155,15 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 +++ _experience > decisions > Criteria > profileConstraints > Profielrestrictietype
 
 **Veld:** profileConstraintType
-**Titel:** Type profielbeperking
+**Titel:** Restrictietype profiel
 **Omschrijving:** Hiermee wordt bepaald of er momenteel beperkingen zijn ingesteld en hoe de beperkingen worden uitgedrukt. Het zou door een regel of door één of meerdere publieksleden kunnen zijn.
 **Type:** string
 **Mogelijke waarden:**
 * &quot;none&quot; (standaardwaarde)
-* &quot;toelatingsregel&quot;: &quot;De profielbeperking wordt uitgedrukt als één enkele regel die aan waar moet evalueren alvorens de beperkte actie wordt toegestaan.&quot;
-* &quot;anySegments&quot;: &quot;De profielbeperking wordt uitgedrukt als een of meer soorten publiek en het profiel moet lid zijn van ten minste een van deze groepen voordat de beperkte handeling is toegestaan.&quot;
+* &quot;accessibilityRule&quot;: &quot;De profielbeperking wordt uitgedrukt als één enkele regel die aan waar moet evalueren alvorens de beperkte actie wordt toegestaan.&quot;
+* &quot;anySegments&quot;: &quot;De profielbeperking wordt uitgedrukt als een of meer soorten publiek en het profiel moet lid zijn van ten minste één ervan voordat de beperkte handeling is toegestaan.&quot;
 * &quot;allSegments&quot;: &quot;De profielbeperking wordt uitgedrukt als een of meer soorten publiek en het profiel moet lid zijn van al deze groepen voordat de beperkte handeling is toegestaan.&quot;
-* &quot;regels&quot;: &quot;De profielbeperking wordt uitgedrukt als een aantal verschillende regels, bijvoorbeeld geschiktheid, toepasbaarheid, geschiktheid, die allemaal op true moeten worden beoordeeld voordat de beperkte handeling is toegestaan.&quot;
+* &quot;regels&quot;: &quot;De profielbeperking wordt uitgedrukt als een aantal verschillende regels, bijvoorbeeld geschiktheid, toepasbaarheid, geschiktheid, die allemaal moeten evalueren tot waar voordat de beperkte handeling is toegestaan.&quot;
 
 +++
 
@@ -178,14 +178,14 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
   **Veld:** _id
   **Titel:** Id
-  **Omschrijving:** Identiteit van het publiek in de verwante naamruimte.
+  **Omschrijving:** Identiteit van het publiek in verwante namespace.
   **Type:** string
 
 * namespace
 
   **Veld:** namespace
   **Titel:** Naamruimte
-  **Omschrijving:** De naamruimte die is gekoppeld aan de `xid` kenmerk.
+  **Omschrijving:** De naamruimte die aan de `xid` kenmerk.
   **Type:** object
   **Vereist:** &quot;code&quot;
 
@@ -205,7 +205,7 @@ Hier volgt een lijst met alle velden die kunnen worden gebruikt in het dialoogve
 
 +++
 
-+++_experience > decisions > Criteria > Rangschikking
++++_experience > decisions > criteria > classificatie
 
 **Veld:** rangschikking
 **Titel:** Beoordelingsdetails

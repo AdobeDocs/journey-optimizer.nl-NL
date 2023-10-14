@@ -1,17 +1,17 @@
 ---
 title: Beslissingsregel opzoeken
 description: Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die op een profiel worden toegepast om te bepalen of het in aanmerking komt voor een aanbieding.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+exl-id: 3099736d-7109-4c94-aea6-053a9b885278
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 1%
 
 ---
-
 
 # Beslissingsregel opzoeken {#lookup-decision-rule}
 

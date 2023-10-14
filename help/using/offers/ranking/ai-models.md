@@ -3,11 +3,11 @@ product: experience platform
 solution: Experience Platform
 title: Aan de slag met AI-modellen
 description: Meer informatie over AI-modellen waarmee aanbiedingen kunnen worden beoordeeld
-feature: Ranking Formulas
+feature: Ranking Formulas, Offers
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 4f331eff73991c32682ba2c1ca5f6b7341a561e1
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 3%
@@ -38,7 +38,7 @@ Er zijn twee typen AI-modellen beschikbaar in [!DNL Journey Optimizer]:
 
 U kunt als volgt AI-modellen maken en gebruiken:
 
-1. Maak een gegevensset waarin conversie- en importeergebeurtenissen worden verzameld. [Meer informatie](../data-collection/create-dataset.md)
+1. Maak een gegevensset waarin conversie- en impliciete gebeurtenissen worden verzameld. [Meer informatie](../data-collection/create-dataset.md)
 
 1. Maak een AI-model dat gebeurtenissen van de dataset gebruikt om aanbiedingen te rangschikken. [Meer informatie](create-ranking-strategies.md)
 

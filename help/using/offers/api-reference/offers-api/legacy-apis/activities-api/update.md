@@ -1,11 +1,12 @@
 ---
 title: Besluiten bijwerken
 description: Een beslissing bevat de logica die de selectie van een aanbieding informeert.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+exl-id: 63a6b50b-9e42-43c0-87ee-19fcb6ecdd98
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 4%

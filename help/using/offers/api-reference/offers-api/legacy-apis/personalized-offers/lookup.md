@@ -1,17 +1,17 @@
 ---
 title: Een persoonlijk aanbod opzoeken
 description: Een gepersonaliseerd aanbod is een aanpasbaar marketingbericht op basis van geschiktheidsregels en -beperkingen.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
+exl-id: 679f2229-19c6-47f9-b293-e1c3c8dcb61e
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 1%
 
 ---
-
 
 # Een persoonlijk aanbod opzoeken {#look-up-personalized-offer}
 

@@ -1,17 +1,17 @@
 ---
 title: Een alternatieve aanbieding bijwerken
 description: Aan klanten wordt een fallback-aanbieding gestuurd als zij niet in aanmerking komen voor andere aanbiedingen
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
+exl-id: f153c2ee-e789-4d8e-a03b-e914690ff354
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 7%
 
 ---
-
 
 # Een alternatieve aanbieding bijwerken {#update-fallback-offer}
 

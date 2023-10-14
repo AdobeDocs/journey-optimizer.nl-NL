@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Een campagne wijzigen of stoppen
 description: Leer hoe u live campagnes in Journey Optimizer kunt wijzigen, stoppen of dupliceren
-feature: Overview
+Feature: Campaigns
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 keywords: campagnes, status, planning, toegang, optimaliseren beheren
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1213a65c8a22a326e8294c51db53efb6e23fd6f9
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 1%
@@ -46,13 +46,13 @@ Campagnes kunnen meerdere statussen hebben:
 
 >[!NOTE]
 >
->Het pictogram Conceptversie openen naast een **[!UICONTROL Live]** of **[!UICONTROL Scheduled]** status geeft aan dat een nieuwe versie van de campagne is gemaakt en nog niet is geactiveerd. [Meer informatie](modify-stop-campaign.md#modify).
+>Het pictogram Conceptversie openen naast een **[!UICONTROL Live]** of **[!UICONTROL Scheduled]** status geeft aan dat er een nieuwe versie van de campagne is gemaakt en nog niet is geactiveerd. [Meer informatie](modify-stop-campaign.md#modify).
 
 ## Een terugkerende campagne wijzigen {#modify}
 
 Voer de volgende stappen uit om een terugkerende campagne te wijzigen en een nieuwe versie ervan te maken:
 
-1. Open de campagne en klik op de knop **[!UICONTROL Modify campaign]** knop.
+1. Open de campagne en klik op **[!UICONTROL Modify campaign]** knop.
 
 1. Er wordt een nieuwe versie van de campagne gemaakt. U kunt de live versie controleren door op **[!UICONTROL Open live version]**.
 

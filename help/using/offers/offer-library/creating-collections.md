@@ -1,12 +1,12 @@
 ---
 title: Verzamelingen maken
 description: Leer hoe u aanbiedingen kunt organiseren met gebruik van verzamelingen
-feature: Offers
+feature: Offers, Collections
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 2%
@@ -54,7 +54,7 @@ Ga als volgt te werk om een verzameling te maken:
 
    >[!NOTE]
    >
-   >Statische verzamelingen worden niet automatisch bijgewerkt. Als u aanbiedingen wilt toevoegen aan een statische verzameling, moet u deze bewerken en handmatig toevoegen.
+   >Statische verzamelingen worden niet automatisch bijgewerkt. Om aanbiedingen aan een statische inzameling toe te voegen, moet u het uitgeven en hen manueel toevoegen.
 
 1. Als u aangepaste of basislabels voor gegevensgebruik wilt toewijzen aan een statische verzameling, selecteert u **[!UICONTROL Manage access]**. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../../administration/object-based-access.md)
 

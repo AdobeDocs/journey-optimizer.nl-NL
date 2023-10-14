@@ -1,17 +1,17 @@
 ---
 title: Een alternatieve aanbieding verwijderen
 description: Aan klanten wordt een fallback-aanbieding gestuurd als zij niet in aanmerking komen voor andere aanbiedingen
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+exl-id: 5e97a1fd-7542-4c9a-8234-21c1fa419671
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 6%
 
 ---
-
 
 # Een alternatieve aanbieding verwijderen {#delete-fallback-offer}
 

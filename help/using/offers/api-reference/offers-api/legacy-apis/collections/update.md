@@ -1,17 +1,17 @@
 ---
 title: Verzamelingen bijwerken
 description: Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
-feature: Offers
+feature: Offers, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: f5372ee271851ffb5aa1f5ff281282c8c474dc2a
+exl-id: bf12d22f-e6c0-45fd-a2b2-149d3f4cf882
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 4%
 
 ---
-
 
 # Een verzameling bijwerken {#update-collection}
 

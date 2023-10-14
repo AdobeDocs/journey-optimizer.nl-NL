@@ -1,12 +1,12 @@
 ---
 title: Aanbiedingen leveren met de Edge-API voor besluitvorming
 description: Met de Adobe Experience Platform Web SDK kunt u persoonlijke aanbiedingen ophalen en renderen die u hebt gemaakt met behulp van API's of de aanbiedingsbibliotheek.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ## Aan de slag en voorwaarden {#edge-overview-and-prerequisites}
 
-De [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) is een client-side JavaScript-bibliotheek waarmee Adobe Experience Cloud-klanten via het Edge Network van Experience Platforms kunnen communiceren met de verschillende services in de Experience Cloud.
+De [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview) is een client-side JavaScript-bibliotheek waarmee Adobe Experience Cloud-klanten via het Edge Network van Experience Platforms kunnen communiceren met de verschillende services in het Experience Cloud.
 
 De SDK van het Web van de Experience Platform steunt het vragen van de verpersoonlijkingsoplossingen bij Adobe, met inbegrip van Beslissingsbeheer, die u toestaat om gepersonaliseerde aanbiedingen terug te winnen en terug te geven die u gebruikend APIs of de Bibliotheek van de Aanbieding hebt gecreeerd. Raadpleeg de documentatie bij de [een aanbieding maken](../../get-started/starting-offer-decisioning.md).
 
@@ -27,11 +27,11 @@ Raadpleeg de documentatie bij [beslissingsbeheer](https://experienceleague.adobe
 
 >[!NOTE]
 >
->Het gebruik van Beslissingsbeheer in Adobe Experience Platform Web SDK is alleen beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Als u deze functie wilt gebruiken, neemt u contact op met de Adobe-accountmanager.
+>Het gebruik van Beslissingsbeheer in Adobe Experience Platform Web SDK is alleen beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Als u deze functie wilt gebruiken, neemt u contact op met de accountmanager van de Adobe.
 
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 
-SDK van het Web van het Platform vervangt de volgende SDKs:
+De SDK van het Web van het platform vervangt de volgende SDKs:
 
 * Visitor.js
 * AppMeasurement.js
@@ -46,7 +46,7 @@ De SDK heeft deze bibliotheken niet met elkaar gecombineerd en is een nieuwe imp
 
 1. [Uw gegevensstroom configureren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html) op het tabblad Gegevensverzameling in uw account in de Adobe Experience Cloud.
 
-1. Installeer de SDK. Er zijn meerdere methoden om dit te doen, die op de [De SDK-pagina installeren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html). Deze pagina gaat verder met elke andere implementatiemethode.
+1. De SDK installeren. Er zijn meerdere methoden om dit te doen, die op de [De SDK-pagina installeren](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html). Deze pagina gaat verder met elke andere implementatiemethode.
 
 Als u de SDK wilt gebruiken, hebt u een [schema](../../../data/get-started-schemas.md) en [datastream](../../../data/get-started-datasets.md) gedefinieerd.
 
@@ -72,7 +72,7 @@ Deze optie is gebruiksvriendelijker voor mensen die minder ervaring hebben met c
 
    ![Extensie configureren](../../assets/configure-sdk-extension.png)
 
-1. Maak de noodzakelijke [Gegevenselementen](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html). Bij het absolute minimum, moet u een Identiteitskaart van SDK van het Web van het Platform en een gegevenselement van de Objecten van SDK van het Web van het Platform XDM tot stand brengen.
+1. Maak de noodzakelijke [Gegevenselementen](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html). Bij het absolute minimum, moet u een Identiteitskaart van het Web SDK van het Platform en een het gegevenselement van de Objecten van XDM van het Web van het Web van het Platform tot stand brengen XDM.
 
    ![Identiteitskaart](../../assets/sdk-identity-map.png)
 
@@ -80,9 +80,9 @@ Deze optie is gebruiksvriendelijker voor mensen die minder ervaring hebben met c
 
 1. Maak uw [Regels](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html):
 
-   Voeg een Platform SDK toe verzendt de actie van de Gebeurtenis en voegt relevante decisionsScopes aan de configuratie van die actie toe
+   Voeg een van het Web SDK van het Platform toe verzendt de actie van de Gebeurtenis en voeg relevante decisionsScopes aan de configuratie van die actie toe
 
-   ![Aanbieding renderen](../../assets/rule-render-offer.png)
+   ![Rendervoorstel](../../assets/rule-render-offer.png)
 
    ![Aanvraag](../../assets/rule-request-offer.png)
 
@@ -92,7 +92,7 @@ Deze optie is gebruiksvriendelijker voor mensen die minder ervaring hebben met c
 
 Hier zijn de stappen nodig om besluitvormingsbeheer te gebruiken gebruikend de prebuilt standalone installatie van Web SDK. In deze handleiding wordt ervan uitgegaan dat dit de eerste keer is dat u de SDK implementeert, zodat alle stappen mogelijk niet op u van toepassing zijn. Deze gids veronderstelt ook enige ontwikkelervaring.
 
-Neem het volgende JavaScript-fragment op uit Option 2: De vooraf gebouwde stand-alone versie op [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) in de `<head>` van uw pagina HTML.
+Neem het volgende JavaScript-fragment op uit Option 2: De geïntegreerde zelfstandige versie op [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) in de `<head>` van uw pagina HTML.
 
 ```
 javascript
@@ -109,7 +109,7 @@ U hebt twee id&#39;s nodig vanuit uw Adobe-account om de SDK-configuratie in te 
 
 Ga naar Gegevensverzameling en selecteer uw DataStream om de edgeConfigID/datastream-id te zoeken. Ga naar uw profiel om uw orgId te zoeken.
 
-De SDK in JavaScript configureren volgens de instructies op deze pagina. U zult altijd edgeConfigId en orgId in de configuratiefunctie gebruiken. De documentatie beschrijft ook welke facultatieve parameters voor uw configuratie bestaan. De uiteindelijke configuratie ziet er misschien ongeveer als volgt uit:
+Configureer de SDK in JavaScript aan de hand van de instructies op deze pagina. U zult altijd edgeConfigId en orgId in de configuratiefunctie gebruiken. De documentatie beschrijft ook welke facultatieve parameters voor uw configuratie bestaan. De uiteindelijke configuratie ziet er misschien ongeveer als volgt uit:
 
 ```
 javascript
@@ -127,9 +127,9 @@ javascript
 
 Installeer de extensie Foutopsporing Chrome voor gebruik met foutopsporing. Dat is hier te vinden: <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob>
 
-Meld u vervolgens aan bij uw account in het foutopsporingsprogramma. Ga vervolgens naar Logs en controleer of u bent verbonden met de juiste werkruimte. Kopieer nu de base64 gecodeerde versie van het beslissingsbereik van uw aanbieding.
+Meld u vervolgens aan bij uw account binnen de foutopsporing. Ga vervolgens naar Logs en controleer of u bent verbonden met de juiste werkruimte. Kopieer nu de base64 gecodeerde versie van het beslissingsbereik van uw aanbieding.
 
-Wanneer u uw website bewerkt, neemt u het script op met de configuratie en de `sendEvent` functie om het beslissingsbereik naar Adobe te sturen.
+Wanneer u uw website bewerkt, neemt u het script op met de configuratie en de `sendEvent` de functie om het beslissingsbereik naar de Adobe te sturen.
 
 **Voorbeeld**:
 

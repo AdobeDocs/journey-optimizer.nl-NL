@@ -1,17 +1,17 @@
 ---
 title: Een beslissing opzoeken
 description: Een beslissing bevat de logica die de selectie van een aanbieding informeert.
-feature: Offers
+feature: Offers, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: 6156689d9e5d7abedcd612389c5e332c695601f0
+exl-id: 99159704-fa39-47ff-b445-0cd6b325007d
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 1%
 
 ---
-
 
 # Een beslissing opzoeken {#look-up-decision}
 

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Een campagne maken
 description: Meer informatie over het maken van campagnes in Journey Optimizer
-feature: Overview
+Feature: Campaigns
 topic: Content Management
 role: User
-level: Intermediate
+level: Beginner
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 298562247af79b9dd504a957c197856d702d0f6b
+source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 2%
