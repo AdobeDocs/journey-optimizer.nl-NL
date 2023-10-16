@@ -11,9 +11,9 @@ keywords: IP, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 205f26d3f31b9f003fc1dbaf679021464429d144
+source-git-commit: 4e0d75c677ffa1a5350c83300e4a1b0f0150d7c1
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1629'
 ht-degree: 0%
 
 ---
@@ -63,13 +63,14 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-select-campaign.png)
 
-   Let op het volgende:
+   >[!IMPORTANT]
+   >
+   >    * Alleen de campagnes met de **[!UICONTROL IP warmup plan activation]** optie ingeschakeld <!--and live?--> zijn beschikbaar voor selectie. [Meer informatie](#create-ip-warmup-campaign)
+   >
+   >* U moet een campagne selecteren die de zelfde oppervlakte gebruikt zoals die voor het huidige IP warmup plan wordt geselecteerd.
+   >
+   >* U kunt geen campagne selecteren die reeds in gebruik in een andere IP opwarmingscampagne is.
 
-   * Alleen de campagnes met de **[!UICONTROL IP warmup plan activation]** optie ingeschakeld <!--and live?--> zijn beschikbaar voor selectie. [Meer informatie](#create-ip-warmup-campaign)
-
-   * U moet een campagne selecteren die de zelfde oppervlakte gebruikt zoals die voor het huidige IP warmup plan wordt geselecteerd.
-
-   * U kunt geen campagne selecteren die reeds in gebruik in een andere IP opwarmingscampagne is.
 
 1. In de **[!UICONTROL Profile exclusion]** kunt u zien dat de profielen van de vorige reeksen van die fase altijd worden uitgesloten. Als in Run #1 bijvoorbeeld een profiel in de eerste 4800 doelgroepen is opgenomen, zorgt het systeem er automatisch voor dat hetzelfde profiel de e-mail niet ontvangt in Run #2.
 
