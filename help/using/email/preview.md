@@ -2,21 +2,26 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Berichten voorvertonen en proefdrukken verzenden
-description: Leer hoe u uw e-mail kunt bekijken en testen
+description: Leer hoe u een voorbeeld van uw e-mail kunt bekijken en deze kunt testen
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: voorvertoning, inhoud, e-mail, proefdruk, test, profiel
 exl-id: f2c2a360-a4b2-4416-bbd0-e27dd014e4ac
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '957'
 ht-degree: 1%
 
 ---
 
 # Uw e-mail voorvertonen en testen {#preview-and-proof}
+
+>[!CONTEXTUALHELP]
+>id="ac_preview_testprofiles"
+>title="Berichten voorvertonen en testen"
+>abstract="Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen."
 
 Nadat u de e-mailinhoud hebt gedefinieerd, kunt u testprofielen gebruiken om deze voor te vertonen en te testen. Als u [persoonlijke inhoud](../personalization/personalize.md)kunt u met testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
 
@@ -44,13 +49,6 @@ Bovendien kunt u uw **Litmus** account [!DNL Journey Optimizer] om direct een vo
 ➡️ [Leer hoe u uw e-mail in deze video kunt voorvertonen en controleren](#video-preview)
 
 ## Testprofielen selecteren {#select-test-profiles}
-
->[!CONTEXTUALHELP]
->id="ac_preview_testprofiles"
->title="Berichten voorvertonen en testen"
->abstract="Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html#email-rendering" text="E-mailweergave"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/preview.html#preview-email" text="Voorvertoning"
 
 Gebruiken [Testprofielen](../audience/creating-test-profiles.md) om extra ontvangers te richten die niet de bepaalde het richten criteria aanpassen.
 
@@ -106,7 +104,7 @@ Eenmaal [testprofielen](#select-test-profiles) geselecteerd, kunt u een voorbeel
 
    U kunt de gebieden van de verpersoonlijking voor het huidige bericht aan het eind van de lijst zien. In dit voorbeeld worden stad, voornaam en achternaam van het profiel weergegeven. Selecteer deze velden en zorg ervoor dat deze waarden worden ingevuld in uw testprofielen.
 
-1. In de voorvertoning van het bericht worden gepersonaliseerde elementen vervangen door de geselecteerde gegevens van het testprofiel.
+1. In de berichtvoorvertoning worden gepersonaliseerde elementen vervangen door de geselecteerde gegevens van het testprofiel.
 
    Voor dit bericht zijn bijvoorbeeld zowel de e-mailinhoud als het onderwerp van de e-mail gepersonaliseerd:
 
@@ -116,7 +114,7 @@ Eenmaal [testprofielen](#select-test-profiles) geselecteerd, kunt u een voorbeel
 
 ## Verzend proeven {#send-proofs}
 
-Een proef is een specifiek bericht dat u toestaat om een bericht te testen alvorens het naar het belangrijkste publiek te verzenden. Ontvangers van het bewijs zijn belast met de goedkeuring van het bericht: renderen, inhoud, instellingen voor personalisatie, configuratie.
+Een proef is een specifiek bericht dat u toestaat om een bericht te testen alvorens het naar het belangrijkste publiek te verzenden. Ontvangers van de proefdruk zijn verantwoordelijk voor het goedkeuren van het bericht: rendering, content, personalisatie-instellingen, configuratie.
 
 Eenmaal [testprofielen](#select-test-profiles) zijn geselecteerd, kunt u proefdrukken verzenden.
 
@@ -183,7 +181,7 @@ Voer vervolgens de onderstaande stappen uit:
 
 >[!CAUTION]
 >
->Wanneer u verbinding maakt met uw **Litmus** account met [!DNL Journey Optimizer], gaat u ermee akkoord dat testberichten naar Litmus worden verzonden: nadat deze e-mails zijn verzonden , worden deze niet meer beheerd door Adobe . Dientengevolge, is het beleid van de het bewaare-mail van het Litmus- gegevens van toepassing op deze e-mail, met inbegrip van verpersoonlijkingsgegevens die in deze testberichten kunnen worden omvat.
+>Wanneer u verbinding maakt met **Litmus** account met [!DNL Journey Optimizer], gaat u ermee akkoord dat testberichten naar Litmus worden verzonden: zodra deze e-mails zijn verzonden, worden deze niet meer door de Adobe beheerd. Dientengevolge, is het beleid van de het bewaare-mail van het Litmus- gegevens van toepassing op deze e-mail, met inbegrip van verpersoonlijkingsgegevens die in deze testberichten kunnen worden omvat.
 
 ## Hoe kan ik-video {#video-preview}
 
