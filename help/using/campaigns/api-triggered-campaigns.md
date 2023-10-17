@@ -9,14 +9,19 @@ role: Developer, Admin
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 7064d9e6dce2c2b96a0c0b4df5eff24e91d42260
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
 
 # Campagnes activeren met API&#39;s {#trigger-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_api_profile_creation"
+>title="Type campagne"
+>abstract="Voor beperkte beschikbaarheidseigenschap om berichten te verzenden zonder profielen tot stand te brengen, volg de stappen in de documentatie worden beschreven."
 
 ## Informatie over API-gestuurde campagnes {#about}
 
