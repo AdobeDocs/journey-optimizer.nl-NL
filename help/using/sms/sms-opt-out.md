@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 57163faa177a4e8bc90496f7756d7749a4f7e325
+source-git-commit: 43a1c170882c13c692d73fd78eac9989b1e5006d
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,12 @@ In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS
 
 >[!IMPORTANT]
 >
->Communicatie van tekstberichten kan afhankelijk van zijn aard, de plaats van waar u uw tekstberichten verzendt, en de plaats van uw ontvangers onderworpen zijn aan diverse wettelijke nalevingsvereisten. Hoewel Adobe Journey Optimizer de berichten over lange codes en gratis nummers afhandelt zoals hieronder beschreven, raadpleegt u uw juridische adviseur om ervoor te zorgen dat uw communicatie over tekstberichten voldoet aan alle toepasselijke wettelijke nalevingsvereisten.
+>Communicatie van tekstberichten kan afhankelijk van zijn aard, de plaats van waar u uw tekstberichten verzendt, en de plaats van uw ontvangers onderworpen zijn aan diverse wettelijke nalevingsvereisten. Terwijl Adobe Journey Optimizer de berichten over Korte codes, Lange codes en Gratis nummers afhandelt zoals hieronder beschreven, raadpleegt u uw juridische adviseur om ervoor te zorgen dat uw communicatie met tekstberichten voldoet aan alle toepasselijke wettelijke nalevingsvereisten.
 >
 
 ## Oorspronkelijke binnenkomende trefwoorden {#sms-native-keywords}
 
-Adobe Journey Optimizer verwerkt standaard de volgende standaardantwoordberichten in de Engelse taal voor Toll-Free en Long Code-berichten: STOP, UNSTOP, START, QUIT, CANCEL, END en UNSUBSCRIBE. Merk op dat slechts Sinch en Infobip inheemse sleutelwoorden steunen wanneer gebruikt met Journey Optimizer.
+Adobe Journey Optimizer verwerkt standaard de volgende standaardantwoordberichten in de Engelse taal voor korte codes, Gratis en lange code: STOP, UNSTOP, START, QUIT, CANCEL, END en UNSUBSCRIBE. Merk op dat slechts Sinch en Infobip inheemse sleutelwoorden steunen wanneer gebruikt met Journey Optimizer.
 
 Deze trefwoorden activeren doorgaans een automatische standaardreactie van uw externe provider. U kunt dit rechtstreeks bij uw provider of via de documentatiesite bevestigen.
 
