@@ -3,11 +3,11 @@ product: experience platform
 solution: Experience Platform
 title: Een gegevensset maken om gebeurtenissen te verzamelen
 description: Leer hoe u een gegevensset maakt om gebeurtenissen te verzamelen
-feature: Ranking Formulas, Offers, Datasets
+feature: Ranking, Offers, Datasets
 role: User
 level: Intermediate
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 0ea2ed03a476e0b64a8ebfadde403ff9f9e57bba
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 6%
