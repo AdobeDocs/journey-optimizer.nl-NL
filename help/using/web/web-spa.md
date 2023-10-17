@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: a2d67bbcf9b90c427ea3f755d80e465a3d7b10ec
+source-git-commit: fb05b110fc1bd205810e7d85be4071644f52b191
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '469'
 ht-degree: 3%
 
 ---
@@ -33,9 +33,9 @@ Eenmalige ontwikkelaarsopstelling is nodig om de meningen in de implementatie va
 
 ## Bepaal meningen in de implementatie van SDK van het Web {#define-views}
 
-XDM-weergaven kunnen worden gebruikt in Adobe [!DNL Journey Optimizer] marktpartijen in staat stellen via de visuele editor webpersonalisatie- en experimentatiecampagnes op SPA uit te voeren. [Meer informatie](web-spa-implementation.md)
+XDM-weergaven kunnen worden gebruikt in Adobe [!DNL Journey Optimizer] marktpartijen in staat stellen via de visuele editor webpersonalisatie- en experimentatiecampagnes op SPA uit te voeren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 
-Weergaven openen en schrijven in het dialoogvenster [!DNL Journey Optimizer] gebruikersinterface, zorg ervoor u de stappen volgt die in [deze sectie](web-spa-implementation.md#implement-xdm-views).
+Weergaven openen en schrijven in het dialoogvenster [!DNL Journey Optimizer] gebruikersinterface, zorg ervoor u de stappen volgt die in [deze sectie](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 
 ## Weergaven detecteren in de webontwerper {#discover-views}
 
