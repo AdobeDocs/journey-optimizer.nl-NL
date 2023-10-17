@@ -3,8 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Opmerkingen bij de vorige release (2021)
 description: Opmerkingen bij de release van Journey Optimizer 2021
+feature: Release Notes
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '2065'
 ht-degree: 9%
@@ -27,7 +28,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ondersteunt nu CNAME's. Een CNAME, of Canonical Name verslag, is een verslag dat aan een ander domeinadres eerder dan een IP adres richt. De subdomeindelegatie van CNAME laat u toe om subdomain tot stand te brengen en CNAMEs te gebruiken om aan Adobe-specifieke verslagen te richten. Met behulp van deze configuratie delen u en Adobe de verantwoordelijkheid voor het onderhoud van DNS in de omgeving voor het verzenden, renderen en volgen van e-mails.</p>
+<p>Adobe Journey Optimizer ondersteunt nu CNAME's. Een CNAME, of Canonical Name verslag, is een verslag dat aan een ander domeinadres eerder dan een IP adres richt. De subdomeindelegatie van CNAME laat u toe om subdomain tot stand te brengen en CNAMEs te gebruiken om aan Adobe-specifieke verslagen te richten. Met deze configuratie delen u en de Adobe de verantwoordelijkheid voor het onderhoud van DNS in de omgeving voor het verzenden, renderen en volgen van e-mails.</p>
 <p>Deze methode wordt aanbevolen als het beleid van uw organisatie de methode voor volledige subdomeindelegatie beperkt.</p>
 <p>Meer informatie over subdomeindelegatie van CNAME in het deelvenster <a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation">gedetailleerde documentatie</a>.</p>
 </td>
@@ -108,8 +109,8 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 ### Oplossingen
 
 * Probleem verholpen waardoor de lijst met reizen, de berichtenlijst en de e-mailontwerper niet konden worden weergegeven als de browsertaal niet Engels was.
-* Probleem verholpen met een syntaxisfout die optrad bij het toevoegen van personalisatie met een expressie in de e-mailontwerper: tekens zijn verkeerd beschermd.
-* Probleem verholpen dat tot een fout van 404 leidde bij het navigeren in het dialoogvenster **Beheer** -menu.
+* Probleem verholpen met een syntaxisfout die optrad bij het toevoegen van personalisatie met behulp van een expressie in de e-mailontwerper: tekens zijn ten onrechte beschermd.
+* Probleem verholpen dat tot een fout van 404 leidde bij het navigeren in het dialoogvenster **Administratie** -menu.
 * Probleem verholpen waarbij andere live reizen werden geïnitieerd tijdens het testen van een reis met behulp van een zakelijke gebeurtenis.
 
 
@@ -126,7 +127,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 <tbody>
 <tr>
 <td>
-<p>Nieuwe metriek zijn beschikbaar in rapportering: Gericht en Uitgesloten voor e-mail- en pushberichten zijn zichtbaar in zowel live- als algemene rapporten. </br> Om toegang te hebben tot de recentste metriek, gelieve te merken op dat u de verschillende rapporteringsdashboards voor elk kanaal en rapporttype zult moeten terugstellen. Raadpleeg voor meer informatie over het aanpassen van het dashboard de <a href="../reports/live-report.md">gedetailleerde documentatie.</a></p>
+<p>Er zijn nieuwe meetgegevens beschikbaar in rapportage: Gericht en Uitgesloten voor e-mail- en pushberichten zijn zowel in live als in global-rapporten zichtbaar. </br> Om toegang te hebben tot de recentste metriek, gelieve te merken op dat u de verschillende rapporteringsdashboards voor elk kanaal en rapporttype zult moeten terugstellen. Raadpleeg voor meer informatie over het aanpassen van het dashboard de <a href="../reports/live-report.md">gedetailleerde documentatie.</a></p>
 <p>Een nieuwe kolom in de lijst van de berichtuitvoering toont het aantal gerichte profielen voor elke berichtuitvoering. </p>
 <p>Raadpleeg de <a href="../reports/global-report.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
@@ -180,8 +181,8 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 <tbody>
 <tr>
 <td>
-<p>Verzend automatisch uw pushbericht of e-mail op het beste moment voor elke klant die u met Adobe Journey Optimizer werkt. De Optimalisering van de Send-Time, aangedreven door de diensten AI van Adobe, voorspelt de beste tijd om een e-mail of duw bericht te verzenden om overeenkomst te maximaliseren die op historische open wordt gebaseerd en tarieven uit de doos te klikken.</p>
-<p>Deze functie is momenteel in bètaversie beschikbaar voor bètaklanten. Neem contact op met de klantenservice van Adobe om deel te nemen aan het bètaprogramma.</p>
+<p>Verzend automatisch uw pushbericht of e-mail op het beste moment voor elke klant die u met Adobe Journey Optimizer werkt. De Optimalisering van de Send-Time, aangedreven door de diensten van AI van de Adobe, voorspelt de beste tijd om een e-mail of duw bericht te verzenden om overeenkomst te maximaliseren die op historische open en klikkingspercentages uit de doos wordt gebaseerd.</p>
+<p>Deze functie is momenteel in bètaversie beschikbaar voor bètaklanten. Neem contact op met de klantenservice van de Adobe om deel te nemen aan het bètaprogramma.</p>
 <p>Raadpleeg de <a href="../building-journeys/journeys-message.md#send-time-optimization">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -266,7 +267,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 **Gebruikersinterface**
 
-* **Zoeken** - Op elke pagina, kunt u bedrijfsvoorwerpen en hulpartikelen van het Verenigde Experience Cloud onderzoeksgebied nu direct zoeken. [Meer informatie](../start/user-interface.md#unified-search)
+* **Zoeken** - Op elke pagina, kunt u bedrijfsvoorwerpen en hulpartikelen van het Verenigde Experience Cloud onderzoeksgebied nu zoeken. [Meer informatie](../start/user-interface.md#unified-search)
 * **Recenten** - De weergave van recente elementen van de startpagina van Adobe Journey Optimizer wordt nu uitgebreid naar extra zakelijke objecten. Met deze update, omvatten de kortere weg aan uw onlangs betreden Berichten, Reizen, Soorten, Schema&#39;s, Datasets, Gegevensbronnen, Gebeurtenissen, Acties, Bronnen, en Doelen. [Meer informatie](../action/about-custom-action-configuration.md#passing-collection)
 
 **Inhoud ontwerpen**
@@ -276,7 +277,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 **Personalisatie**
 
-* **Expression-editor** - U kunt nu eenvoudig een terugvalwaarde toevoegen bij het definiëren van een personalisatie: als het verpersoonlijkingsgebied voor een profiel leeg is, zal de reserve waarde tonen. [Meer informatie](../personalization/functions/helpers.md)
+* **Expression-editor** - U kunt nu eenvoudig een terugvalwaarde toevoegen bij het definiëren van personalisatie: als het veld voor personalisatie leeg is voor een profiel, wordt de waarde voor terugvallen weergegeven. [Meer informatie](../personalization/functions/helpers.md)
 
 **E-mailconfiguratie**
 
@@ -348,7 +349,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 * Identiteit en naamruimte zijn nu zichtbaar in het dialoogvenster **[!UICONTROL Preview]** scherm. [Meer informatie](../email/preview.md#preview-your-messages)
 * Het aantal teste-mails voor proefdrukken is nu beperkt tot tien.
-* Toegestane tekens voor de **Voorvoegsel van onderwerpregel** op het gebied van proefdrukken is het aantal . [Meer informatie](../email/preview.md#send-proofs)
+* Toegestane tekens voor de **Voorvoegsel van onderwerpregel** op het gebied van proefdrukken is het aantal proefdrukken nu beperkt . [Meer informatie](../email/preview.md#send-proofs)
 
 **Editor voor persoonlijke expressie**
 

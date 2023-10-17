@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Subdomeindelegatie in [!DNL Journey Optimizer]
 description: Leer hoe u uw subdomeinen kunt delegeren
-feature: Application Settings
+feature: Subdomains
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: subdomein, optimaliseren, delegeren
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 25%
@@ -35,9 +35,9 @@ Neem bijvoorbeeld het domein mybrand.com, dat wordt gebruikt om zowel transactio
 
 Op deze manier kunt u de reputatie van uw domein en andere subdomeinen beter in stand houden. Als de marketing.mybrand.com-subdomeinen bijvoorbeeld door internetproviders aan de lijst van afgewezen domeinen werden toegevoegd vanwege slechte leverbaarheid, zou dit voorkomen dat het hele domein mybrand.com en het subdomein info.mybrand.com aan de lijst van afgewezen domeinen worden toegevoegd.
 
-Bij het implementeren van een oplossing gelden er vereisten voor naar buiten gerichte onderdelen: het gaat hierbij onder andere om het instellen van koppelingen en webpagina&#39;s die moeten worden bijgehouden, het weergeven van spiegelpagina&#39;s, enz.
+Bij het implementeren van een oplossing zijn er vereisten voor naar buiten gerichte componenten: dit zijn onder andere het instellen van koppelingen en webpagina&#39;s die moeten worden bijgehouden, het weergeven van spiegelpagina&#39;s, enz.
 
-Hoewel deze vereisten worden beheerd via componenten die door zowel Adobe als de klant worden gehost, bevatten ze URL&#39;s die door de ontvangers van de e-mails kunnen worden bekeken. Om te voorkomen dat URL&#39;s de onderliggende technische oplossing of hostingprovider aangeven, kunnen subdomeinen worden ingesteld om dit transparant te maken voor de ontvangers van de e-mails.
+Hoewel deze vereisten worden beheerd via componenten die door zowel de Adobe als de klant worden gehost, bevatten ze URL&#39;s die door de ontvangers van de e-mails kunnen worden gezien. Om te voorkomen dat URL&#39;s de onderliggende technische oplossing of hostingprovider aangeven, kunnen subdomeinen worden ingesteld om dit transparant te maken voor de ontvangers van de e-mails.
 
 **Meer informatie**
 
@@ -49,16 +49,15 @@ Hoewel deze vereisten worden beheerd via componenten die door zowel Adobe als de
 
 De configuratie van subdomain staat u toe om een onderafdeling van uw domein (technisch een &quot;DNS streek&quot;) voor gebruik met Adobe Campaign te vormen. Beschikbare instelmethoden zijn:
 
-* **Volledige subdomeindelegatie aan Adobe** (aanbevolen): Het subdomein wordt volledig gedelegeerd aan Adobe. Adobe kan alle aspecten van DNS beheren en handhaven die voor het leveren, het teruggeven en het volgen van berichten worden vereist. [Meer informatie over volledige subdomeindelegatie](delegate-subdomain.md#full-subdomain-delegation)
+* **Volledige subdomeindelegatie aan Adobe** (aanbevolen): Het subdomein wordt volledig gedelegeerd aan Adobe. De Adobe kan alle aspecten van DNS controleren en handhaven die voor het leveren, het teruggeven en het volgen van berichten worden vereist. [Meer informatie over volledige subdomeindelegatie](delegate-subdomain.md#full-subdomain-delegation)
 
-* **Gebruik van CNAME&#39;s**: Creeer subdomain en gebruik CNAMEs om aan Adobe-specifieke verslagen te richten. Gebruikend deze opstelling, zowel delen u als Adobe verantwoordelijkheid voor het handhaven van DNS. [Meer informatie over CNAME-subdomeindelegatie](delegate-subdomain.md#cname-subdomain-delegation)
+* **Gebruik van CNAME&#39;s**: Maak een subdomein en gebruik CNAME&#39;s om te wijzen naar records die specifiek zijn voor een Adobe. Gebruikend deze opstelling, zowel deelt u als Adobe verantwoordelijkheid voor het handhaven van DNS. [Meer informatie over CNAME-subdomeindelegatie](delegate-subdomain.md#cname-subdomain-delegation)
 
 >[!CAUTION]
 >
 >* De volledige subdomeindelegatie heeft de voorkeur.
 >
->* De methode CNAME wordt geadviseerd als het beleid van uw organisatie de volledige subdomain delegatiemethode beperkt. Deze benadering vereist u om DNS verslagen op uw te handhaven en te beheren. Adobe zal niet in het veranderen van, het handhaven van of het beheren van DNS voor subdomain kunnen bijwonen die door de methode CNAME wordt gevormd.
-
+>* De methode CNAME wordt geadviseerd als het beleid van uw organisatie de volledige subdomain delegatiemethode beperkt. Deze benadering vereist u om DNS verslagen op uw te handhaven en te beheren. De Adobe zal niet in het veranderen van, het handhaven van of het beheren van DNS voor subdomain kunnen bijwonen die door de methode CNAME wordt gevormd.
 
 In de onderstaande tabel wordt een overzicht gegeven van de werking van deze methoden en van het betrokken inspanningsniveau:
 
@@ -80,7 +79,7 @@ Alle gedelegeerde subdomeinen worden weergegeven in het dialoogvenster **[!UICON
 De **[!UICONTROL Status]** de kolom verstrekt informatie over het subdomain delegatieproces:
 
 * **[!UICONTROL Draft]**: De subdomeindelegatie is opgeslagen als een concept. Klik op de subdomeinnaam om het delegatieproces te hervatten.
-* **[!UICONTROL Processing]**: Het subdomein gaat door verscheidene configuratiecontroles alvorens het kan worden gebruikt,
+* **[!UICONTROL Processing]**: Subdomain gaat door verscheidene configuratiecontroles alvorens het kan worden gebruikt,
 * **[!UICONTROL Success]**: Het subdomein is door de controles met succes gegaan en kan worden gebruikt om berichten te leveren,
 * **[!UICONTROL Failed]**: Een of meer controles zijn mislukt nadat de subdomeindelegatie is verzonden.
 

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Een Google TXT-record toevoegen aan een subdomein
 description: Leer hoe u een Google TXT-record aan een subdomein kunt toevoegen
-feature: Application Settings
+feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: subdomein, google, txt, record, gmail, leverability
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 10%
@@ -39,4 +39,4 @@ Ga als volgt te werk om een Google TXT-record aan uw subdomein toe te voegen:
 
    ![](assets/subdomain-google-txt.png)
 
-1. Nadat de TXT-record is toegevoegd, moet u deze door Google laten verifiëren. Navigeer om dit te doen naar [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->en start vervolgens de verificatiestap.
+1. Nadat de TXT-record is toegevoegd, moet u deze door Google laten verifiëren. Navigeer naar [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->en start vervolgens de verificatiestap.

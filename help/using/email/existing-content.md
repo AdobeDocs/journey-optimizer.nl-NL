@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Uw e-mailinhoud importeren
 description: Leer hoe u e-mailinhoud importeert
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate
 keywords: email, import, content, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 10%
@@ -41,7 +41,7 @@ Voer de volgende stappen uit om een bestand met HTML-inhoud te importeren:
 
    In deze modus kunt u alleen uw tekst aanpassen, koppelingen toevoegen of elementen aan uw inhoud toevoegen.
 
-1. Als u gebruik wilt maken van de inhoudcomponenten van E-mail Designer, opent u het dialoogvenster **[!UICONTROL HTML converter]** en klik op **[!UICONTROL Convert]**.
+1. Als u de inhoudcomponenten van E-mailontwerper wilt gebruiken, opent u de **[!UICONTROL HTML converter]** en klik op **[!UICONTROL Convert]**.
 
    ![](assets/html-imported.png)
 

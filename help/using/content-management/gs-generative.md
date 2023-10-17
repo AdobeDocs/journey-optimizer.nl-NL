@@ -3,14 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Aan de slag met de inhoudsassistent
 description: Leer toegang te krijgen tot en te werken met de Journey Optimizer Content Assistant
-feature: Overview
+feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: b99d77138f22839b40414979d36e26d7304947b1
+exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
+source-git-commit: b524d0026f32eaf2d7421bb85188d01199cbf843
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%
@@ -48,4 +49,3 @@ Gebruik de Content Assistant om de impact van uw bericht te optimaliseren door t
 >[!AVAILABILITY]
 >
 >De Adobe Journey Optimizer Content Assistant is momenteel beschikbaar als een bètaversie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van de Adobe om deel te nemen aan het bètaprogramma.
-

@@ -1,12 +1,12 @@
 ---
 title: Voorwaarden voor webkanalen
 description: Volg de voorwaarden op deze pagina om webpagina's te kunnen openen en schrijven in de Journey Optimizer-gebruikersinterface
-feature: Web Channel
+feature: Web Channel, Channel Configuration
 topic: Content Management
-role: User
-level: Beginner
-exl-id: 6cb4f8ab-77ad-44a2-b2bf-a97f87b8f1db
-source-git-commit: 59412ecbb8df74c7185b67593131c610d6da4148
+role: Admin
+level: Experienced
+exl-id: 9509fd67-6d12-4440-aad8-59690936be97
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 1%

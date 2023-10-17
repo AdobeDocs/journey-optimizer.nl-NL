@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: IP-pools maken
 description: Leer hoe te om IP pools te beheren
-feature: Application Settings
+feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
-level: Intermediate
+level: Experienced
 keywords: IP, pools, groep, subdomeinen, leverbaarheid
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -28,13 +28,13 @@ ht-degree: 0%
 >title="Een IP-pool instellen"
 >abstract="Met Journey Optimizer kunt u IP-pools maken om de IP-adressen van uw subdomeinen te groeperen. Dit kan uw e-mailleverbaarheid beduidend verbeteren, omdat door dit te doen, kunt u de reputatie van subdomain verhinderen uw andere subdomeinen te beïnvloeden."
 
-## Informatie over IP-pools {#about-ip-pools}
+## IP-pools {#about-ip-pools}
 
 Met [!DNL Journey Optimizer], kunt u IP pools tot stand brengen om de IP adressen van uw subdomeinen samen te groeperen.
 
 Het maken van IP-pools wordt ten zeerste aanbevolen voor e-maillevering. Door dit te doen, kunt u de reputatie van subdomain verhinderen uw andere subdomeinen te beïnvloeden.
 
-Bijvoorbeeld, moet één beste praktijk één IP pool voor uw marketing berichten, en een andere voor uw transactionele berichten hebben. Op deze manier, als een van uw marketingberichten slecht presteert en door een klant als spam wordt gedeclareerd, heeft dit geen invloed op de transactieberichten die naar dezelfde klant worden verzonden, die nog steeds transactionele berichten (aanschafbevestigingen, wachtwoordherstelberichten, enz.) zal ontvangen.
+Bijvoorbeeld, moet één beste praktijk één IP pool voor uw marketing berichten, en een andere voor uw transactionele berichten hebben. Deze manier, als één van uw marketing berichten slecht presteert en als spam door een klant wordt verklaard, zal dit niet de transactionele berichten beïnvloeden die naar deze zelfde klant worden verzonden, die nog transactionele berichten (koopbevestigingen, de berichten van de wachtwoordterugwinning, enz.) zullen ontvangen.
 
 >[!CAUTION]
 >
@@ -44,7 +44,7 @@ Bijvoorbeeld, moet één beste praktijk één IP pool voor uw marketing berichte
 
 Ga als volgt te werk om een IP-pool te maken:
 
-1. Toegang krijgen tot **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL IP pools]** en klik vervolgens op **[!UICONTROL Create IP Pool]**.
+1. Toegang krijgen tot de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL IP pools]** en klik vervolgens op **[!UICONTROL Create IP Pool]**.
 
    ![](assets/ip-pool-create.png)
 
@@ -68,7 +68,7 @@ Wanneer het selecteren van IPs, kunt u van de lijst de PTR verslagen zien verbon
 
 >[!NOTE]
 >
->Als geen PTR verslag voor IP wordt gevormd, kunt u niet dat IP selecteren. Bereik uit aan uw vertegenwoordiger van Adobe voor het vormen van het PTR verslag van dat IP.
+>Als geen PTR verslag voor IP wordt gevormd, kunt u niet dat IP selecteren. Bereik uit aan uw vertegenwoordiger van de Adobe voor het vormen van het PTR verslag van dat IP.
 
 Nadat een IP pool is gecreeerd, is de informatie PTR zichtbaar wanneer het hangen over de IP adressen die onder de IP pool drop-down lijst worden getoond.
 
@@ -109,7 +109,7 @@ De update is onmiddellijk of asynchroon van kracht, afhankelijk van de IP pool d
 >
 >Wanneer [een kanaaloppervlak maken](channel-surfaces.md#create-channel-surface), als u een IP pool selecteert die onder uitgave (**[!UICONTROL Processing]** status) en u bent nooit gekoppeld aan het subdomein dat voor dat oppervlak is geselecteerd, kunt u niet doorgaan met het maken van het oppervlak. [Meer informatie](channel-surfaces.md#subdomains-and-ip-pools)
 
-Als u de updatestatus van de IP-pool wilt controleren, klikt u op de knop **[!UICONTROL More actions]** en selecteert u **[!UICONTROL Recent updates]**.
+Om de IP status van de poolupdate te controleren, klik **[!UICONTROL More actions]** en selecteert u **[!UICONTROL Recent updates]**.
 
 ![](assets/ip-pool-recent-update.png)
 
@@ -118,7 +118,6 @@ Als u de updatestatus van de IP-pool wilt controleren, klikt u op de knop **[!UI
 >Zodra een IP Groep met succes wordt bijgewerkt, kunt u moeten wachten:
 >* een paar minuten voordat het wordt verbruikt door de eenheidspublicaties,
 >* tot de volgende partij voor de IP pool om in partijberichten efficiënt te zijn.
-
 
 U kunt ook de opdracht **[!UICONTROL Delete]** knoop om een IP pool te schrappen. Merk op dat u geen IP pool kunt schrappen die aan een kanaaloppervlakte is geassocieerd.
 

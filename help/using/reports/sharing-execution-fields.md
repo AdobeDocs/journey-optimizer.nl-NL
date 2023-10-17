@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Velden voor het uitvoeren van acties van journeyStep-gebeurtenissen
 description: Velden voor het uitvoeren van acties van journeyStep-gebeurtenissen
-feature: Reporting
+feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 4%
@@ -25,19 +25,19 @@ Als in de stap een actie moet worden verwerkt, worden die velden toegevoegd aan 
 
 Id van de handeling die wordt uitgevoerd.
 
-Type: string
+Type: tekenreeks
 
 ## actionName {#actionname-field}
 
 Naam van de handeling. Als er geen naam is ingesteld, wordt de stepName uitgevoerd.
 
-Type: string
+Type: tekenreeks
 
 ## actionType {#actionType-field}
 
 Type handeling.
 
-Type: string
+Type: tekenreeks
 
 ## actionParameterized {#actionparameterized-field}
 
@@ -55,7 +55,7 @@ Type: lang
 
 Type fout dat optreedt wanneer de handeling wordt aangeroepen.
 
-Type: string
+Type: tekenreeks
 
 Waarden:
 * http
@@ -65,16 +65,16 @@ Waarden:
 
 ## actionExecutionErrorCode {#actionexecutionerrorcode-field}
 
-Code voor uitvoeringsfout van handeling. Wordt weergegeven als de fout een code heeft, zoals een HTTP-code.
+Fout bij uitvoeren van code voor handeling. Wordt weergegeven als de fout een code heeft, zoals een HTTP-code.
 
-Type: string
+Type: tekenreeks
 
 ## actionExecutionOriginError {#actionexecutionoriginerror-field}
 
 Een time-out kan in twee gevallen optreden:
 
-* bij de eerste poging wordt een handeling uitgevoerd. In dit geval is de uitvoering niet voltooid en is er geen onderliggende fout
-* bij een nieuwe poging: in dit geval, beschrijft actionExecOrigError/actionExecOrigErrorCode de fout die op de poging alvorens wordt ontmoet opnieuw.
+* bij de eerste poging wordt een handeling uitgevoerd. In dit geval is de uitvoering niet voltooid, dus is er geen onderliggende fout
+* voor een nieuwe poging: in dit geval beschrijft actionExecOrigError/actionExecOrigErrorCode de fout die bij de poging vóór het opnieuw proberen wordt ontmoet.
 
 Er wordt bijvoorbeeld een e-mail verzonden en er wordt een HTTP 500-fout geretourneerd bij de eerste poging. De fetch wordt opnieuw geprobeerd, maar de duur van de 2 pogingen overschrijdt de onderbreking. Vervolgens wordt de uitvoering van de handeling gecodeerd als een time-out. Het actieonderdeel ziet er als volgt uit:
 
@@ -89,13 +89,13 @@ Er wordt bijvoorbeeld een e-mail verzonden en er wordt een HTTP 500-fout geretou
     "actionExecOrigErrorCode": "500"
 ```
 
-Type: string
+Type: tekenreeks
 
 ## actionExecutionOriginCode {#actionexecutionorigincode-field}
 
 Foutcode van de actionExecOrigError.
 
-Type: string
+Type: tekenreeks
 
 ## actionBusinessType {#actionbusinesstype-field}
 
@@ -111,19 +111,19 @@ Waarden:
 * Epsilon
 * ...
 
-Type: string
+Type: tekenreeks
 
 ## deliveryJobID {#deliveryjobid-field}
 
 Dit beschrijft de identiteitskaart van de leveringstaak voor de partijreis.
 
-Type: string
+Type: tekenreeks
 
 ## batchDeliveryID {#batchdeliveryid-field}
 
 Dit beschrijft leveringsId voor de partijreis.
 
-Type: string
+Type: tekenreeks
 
 ## fromSegmentTrigger {#fromsegmenttrigger-field}
 

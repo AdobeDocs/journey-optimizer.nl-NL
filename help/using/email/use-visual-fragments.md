@@ -3,11 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Visuele fragmenten gebruiken
 description: Leer hoe u visuele fragmenten kunt gebruiken bij het maken van e-mails in Journey Optimizer-campagnes en -reizen
-feature: Overview
+feature: Email Design, Templates
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 2%
@@ -91,4 +92,3 @@ Volg onderstaande stappen om overerving te onderbreken:
    ![](assets/fragment-break-inheritance.png)
 
 1. Dat fragment wordt een zelfstandig element dat niet meer aan het oorspronkelijke fragment is gekoppeld. Bewerk de inhoud als elke andere inhoudscomponent in de inhoud. [Meer informatie](content-components.md)
-

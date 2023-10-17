@@ -1,11 +1,12 @@
 ---
 title: Implementatie van één pagina
 description: Leer hoe u SPA weergaven implementeert in Journey Optimizer
-feature: Web Channel
+feature: Web Channel, Web SDK
 topic: Content Management
-role: User
-level: Intermediate
-source-git-commit: 2c1b53120913580be627b0a26cf4b386f32fcf1b
+role: Admin
+level: Experienced
+exl-id: c36d793d-0aa6-4a7a-94f2-dbfe6b644df8
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 0%

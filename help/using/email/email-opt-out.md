@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: E-mailuitschakelbeheer
 description: Ervaar hoe u de optie om te weigeren beheert met e-mails
-feature: Journeys
+feature: Email Design, Privacy
 topic: Content Management
 role: User
 level: Intermediate
 keywords: opt-out, e-mail, link, abonnement opzeggen
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: f5390bbb3bab435b21ace4d1842de0048132bc8c
+source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 2%
@@ -26,7 +26,7 @@ Hiervoor kunt u:
 
 * Voeg een **one-click opt-out link** in uw e-mailinhoud. Deze verbinding zal uw ontvangers toestaan om van uw mededelingen snel af te zien, zonder aan een landende pagina worden opnieuw gericht waar zij hun keus moeten bevestigen, die het afmeldingsproces versnellen. [Meer informatie over het toevoegen van een koppeling om te weigeren met één klik](#one-click-opt-out)
 
-Als de **[!UICONTROL List-Unsubscribe]** is ingeschakeld op het niveau van het kanaaloppervlak. De bijbehorende e-mails die met Journey Optimizer worden verzonden, bevatten een koppeling voor het afmelden van abonnementen in de e-mailheader. [Meer informatie over opt-out in e-mailkoptekst](#unsubscribe-header)
+Als bovendien de **[!UICONTROL List-Unsubscribe]** is ingeschakeld op het niveau van het kanaaloppervlak. De bijbehorende e-mails die met Journey Optimizer worden verzonden, bevatten een koppeling voor het afmelden van abonnementen in de e-mailheader. [Meer informatie over opt-out in e-mailkoptekst](#unsubscribe-header)
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ Eerst moet u een afmeldingskoppeling toevoegen aan een bericht. Volg de ondersta
 
    ![](assets/opt-out-link-type.png)
 
-1. In de **[!UICONTROL Link]** , plakt u de koppeling naar de bestemmingspagina van derden.
+1. In de **[!UICONTROL Link]** plakken, plakt u de koppeling naar de bestemmingspagina van derden.
 
    ![](assets/opt-out-link-url.png)
 
@@ -68,7 +68,7 @@ Eindpunt: https://platform.adobe.io/journey/imp/consent/preferences
 
 Parameters query:
 
-* **param**: bevat de gecodeerde lading
+* **param**: bevat de gecodeerde payload
 * **pid**: gecodeerde profiel-id
 
 Deze drie parameters worden opgenomen in de URL van de bestemmingspagina van derden die naar de ontvanger wordt verzonden:
@@ -141,13 +141,13 @@ Volg onderstaande stappen om een koppeling om te weigeren toe te voegen in uw e-
 
    U kunt uw koppelingen aanpassen. Meer informatie over gepersonaliseerde URL&#39;s vindt u in [deze sectie](../personalization/personalization-syntax.md).
 
-1. Selecteer hoe u de optie Weigeren wilt toepassen: op het kanaal, de identiteit, of abonnementsniveau.
+1. Selecteer hoe u de optie Weigeren wilt toepassen: op het kanaal, de identiteit of het abonnementsniveau.
 
    ![](assets/message-tracking-opt-out-level.png)
 
-   * **[!UICONTROL Channel]**: De opt-out is van toepassing op toekomstige berichten die naar het doel van het profiel (d.w.z. e-mailadres) voor het huidige kanaal worden verzonden. Als er meerdere doelen aan een profiel zijn gekoppeld, geldt de opt-out voor alle doelen (e-mailadressen) in het profiel voor dat kanaal.
+   * **[!UICONTROL Channel]**: De optie om te weigeren is van toepassing op toekomstige berichten die naar het doel van het profiel (e-mailadres) voor het huidige kanaal worden verzonden. Als er meerdere doelen aan een profiel zijn gekoppeld, geldt de opt-out voor alle doelen (e-mailadressen) in het profiel voor dat kanaal.
    * **[!UICONTROL Identity]**: De opt-out is van toepassing op toekomstige berichten die worden verzonden naar het specifieke doel (d.w.z. e-mailadres) dat voor het huidige bericht wordt gebruikt.
-   * **[!UICONTROL Subscription]**: De opt-out is van toepassing op toekomstige berichten verbonden aan een specifieke abonnementenlijst. Deze optie kan alleen worden geselecteerd als het huidige bericht is gekoppeld aan een abonnementenlijst.
+   * **[!UICONTROL Subscription]**: De optie om te weigeren is van toepassing op toekomstige berichten die aan een specifieke abonnementenlijst zijn gekoppeld. Deze optie kan alleen worden geselecteerd als het huidige bericht is gekoppeld aan een abonnementenlijst.
 
 1. Sla uw wijzigingen op.
 
@@ -181,8 +181,8 @@ Afhankelijk van de e-mailclient kan het klikken op de koppeling voor het opzegge
 
 * De ontvanger wordt verwezen naar de bestemmingspagina URL die u toen het toevoegen van de opt-out verbinding aan uw bericht specificeerde.
 
-   >[!NOTE]
-   >
-   >Als u geen koppeling voor het uitschakelen van een muisklik toevoegt aan uw berichtinhoud, wordt er geen bestemmingspagina weergegeven.
+  >[!NOTE]
+  >
+  >Als u geen koppeling voor het uitschakelen van een muisklik toevoegt aan de inhoud van het bericht, wordt er geen bestemmingspagina weergegeven.
 
 * Het corresponderende profiel wordt direct uitgeschakeld en deze keuze wordt in het Experience Platform bijgewerkt. Meer informatie in het dialoogvenster [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.

@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Aan de slag met bestemmingspagina's
 description: Meer informatie over bestemmingspagina's in Journey Optimizer
-feature: Landing Pages
+feature: Landing Pages, Subscriptions
 topic: Content Management
 role: User
 level: Beginner
 keywords: landen, landingspagina, starten, starten
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 4%
@@ -27,8 +27,8 @@ Een openingspagina is een zelfstandige webpagina waarnaar een gebruiker wordt ve
 * Hefboomwerking [!DNL Journey Optimizer] mogelijkheden voor inhoudsontwerp om eenvoudig samen te stellen **responsieve openingspagina&#39;s**.
 * Instellen **opt-in- en opt-out-stromen** snel en naadloos.
 * Abonnementenlijsten maken om gebruikers in staat te stellen **abonneren op een service**. [Meer informatie](lp-use-cases.md#subscription-to-a-service)
-* Geef uw ontvangers de **mogelijkheid om af te melden** van het ontvangen van uw mededelingen. [Meer informatie](lp-use-cases.md#opt-out)
-* Een **bevestigingsbericht** bij opt-in of opt-out. [Meer informatie](lp-use-cases.md#send-confirmation-email)
+* Geef uw ontvangers de **mogelijkheid om zich af te melden** van het ontvangen van uw mededelingen. [Meer informatie](lp-use-cases.md#opt-out)
+* Een **bevestigingsbericht** bij deelname of opt-out. [Meer informatie](lp-use-cases.md#send-confirmation-email)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

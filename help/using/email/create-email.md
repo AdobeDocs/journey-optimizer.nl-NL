@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Een e-mail maken
 description: Leer hoe u een e-mail maakt in Journey Optimizer
-feature: Overview
+feature: Email
 topic: Content Management
 role: User
 level: Beginner
 keywords: maken, e-mail, starten, reizen, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 3%
@@ -47,7 +47,7 @@ Een **[!UICONTROL Email]** actie ondernemen op een reis of een campagne, en de o
 >
 >Als u een e-mail verzendt van een reis, kunt u de functie van de Optimalisering van de Send-Time van Adobe Journey Optimizer gebruiken om de beste tijd te voorspellen om het bericht te verzenden om betrokkenheid te maximaliseren die op historisch open en klikkarieven wordt gebaseerd. [Leer hoe u met SendTime Optimization werkt](../building-journeys/journeys-message.md#send-time-optimization)
 
-Voor meer informatie over hoe te om een reis te vormen, verwijs naar [deze pagina](../building-journeys/journey-gs.md).
+Voor meer informatie over hoe te om een reis te vormen, raadpleeg [deze pagina](../building-journeys/journey-gs.md).
 
 >[!TAB Een e-mail toevoegen aan een campagne]
 
@@ -69,7 +69,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 ![](assets/email_campaign_tracking.png)
 -->
 
-Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [deze pagina](../campaigns/get-started-with-campaigns.md).
+Voor meer informatie over hoe te om een campagne te vormen, raadpleeg [deze pagina](../campaigns/get-started-with-campaigns.md).
 
 >[!ENDTABS]
 
@@ -120,27 +120,27 @@ Er kunnen twee typen waarschuwingen optreden:
 
 * **Waarschuwingen** verwijzen naar aanbevelingen en beste praktijken, zoals:
 
-   * **[!UICONTROL The opt-out link is not present in the email body]**: u kunt het beste een koppeling zonder abonnement toevoegen aan uw e-mailadres. Leer hoe u deze kunt configureren in [deze sectie](../privacy/opt-out.md#opt-out-management).
+   * **[!UICONTROL The opt-out link is not present in the email body]**: het toevoegen van een koppeling om uw abonnement op te zeggen aan uw e-mailadres is een aanbevolen werkwijze. Leer hoe u deze kunt configureren in [deze sectie](../privacy/opt-out.md#opt-out-management).
 
      >[!NOTE]
      >
      >E-mailberichten van het type Marketing moeten een opt-out-koppeling bevatten, die niet vereist is voor transactiemeldingen. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd op de [kanaaloppervlak](email-settings.md#email-type) niveau en wanneer [het bericht maken](#create-email-journey-campaign) van een reis of een campagne.
 
-   * **[!UICONTROL Text version of HTML is empty]**: vergeet niet een tekstversie van uw e-mailhoofdtekst te definiëren, omdat deze wordt gebruikt wanneer HTML-inhoud niet kan worden weergegeven. Leer hoe u de tekstversie maakt in [deze sectie](text-version-email.md).
+   * **[!UICONTROL Text version of HTML is empty]**: vergeet niet om een tekstversie van uw e-mailhoofdtekst te definiëren, omdat deze wordt gebruikt wanneer HTML-inhoud niet kan worden weergegeven. Leer hoe u de tekstversie maakt in [deze sectie](text-version-email.md).
 
-   * **[!UICONTROL Empty link is present in email body]**: controleer of alle koppelingen in uw e-mail juist zijn. Leer hoe u inhoud en koppelingen kunt beheren in [deze sectie](content-from-scratch.md).
+   * **[!UICONTROL Empty link is present in email body]**: controleer of alle koppelingen in uw e-mail correct zijn. Leer hoe u inhoud en koppelingen kunt beheren in [deze sectie](content-from-scratch.md).
 
-   * **[!UICONTROL Email size has exceeded the limit of 100KB]**: voor een optimale aflevering moet u ervoor zorgen dat de e-mailgrootte niet groter is dan 100 kB. Leer hoe u e-mailinhoud kunt bewerken in [deze sectie](content-from-scratch.md).
+   * **[!UICONTROL Email size has exceeded the limit of 100KB]**: voor optimale aflevering moet u ervoor zorgen dat de e-mailgrootte niet groter is dan 100 kB. Leer hoe u e-mailinhoud kunt bewerken in [deze sectie](content-from-scratch.md).
 
 * **Fouten** voorkomen dat u de reis/campagne test of activeert zolang deze niet is opgelost, zoals:
 
-   * **[!UICONTROL The subject line is missing]**: e-mailonderwerpregel is verplicht. Leer hoe u het kunt definiëren en personaliseren in [deze sectie](create-email.md).
+   * **[!UICONTROL The subject line is missing]**: E-mailonderwerpregel is verplicht. Leer hoe u het kunt definiëren en personaliseren in [deze sectie](create-email.md).
 
   <!--HTML is empty when Amp HTML is present-->
 
    * **[!UICONTROL The email version of the message is empty]**: deze fout wordt weergegeven wanneer de e-mailinhoud niet is geconfigureerd. Leer hoe u e-mailinhoud ontwerpt in [deze sectie](get-started-email-design.md).
 
-   * **[!UICONTROL Surface doesn't exist]**: U kunt uw bericht niet gebruiken als het geselecteerde oppervlak wordt verwijderd na het maken van het bericht. Als deze fout optreedt, selecteert u een ander oppervlak in het bericht **[!UICONTROL Properties]**. Meer informatie over kanaaloppervlakken in [deze sectie](../configuration/channel-surfaces.md).
+   * **[!UICONTROL Surface doesn't exist]**: u kunt uw bericht niet gebruiken als het geselecteerde oppervlak wordt verwijderd na het maken van het bericht. Als deze fout optreedt, selecteert u een ander oppervlak in het bericht **[!UICONTROL Properties]**. Meer informatie over kanaaloppervlakken in [deze sectie](../configuration/channel-surfaces.md).
 
 >[!CAUTION]
 >

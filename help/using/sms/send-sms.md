@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Je SMS-bericht bekijken en testen
 description: Meer weten over het bekijken en testen van je SMS-bericht in Journey Optimizer?
-feature: Overview
+feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 81ab92022329788c1feea24c7a621ef154d33422
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 5%
@@ -23,7 +23,7 @@ Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken o
 
 1. Klik op **[!UICONTROL Simulate content]**.
 
-1. Klikken **[!UICONTROL Manage test profiles]** om een testprofiel toe te voegen.
+1. Klikken **[!UICONTROL Manage test profiles]** een testprofiel toevoegen.
 
 1. Zoek uw testprofiel met de **[!UICONTROL Identity namespace]** en **[!UICONTROL Identity value]** velden. Klik vervolgens op **[!UICONTROL Add profile]**.
 

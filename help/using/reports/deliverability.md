@@ -5,10 +5,10 @@ title: Aan de slag met de prestaties
 description: Richtlijnen voor leverbaarheid leren
 feature: Deliverability
 topic: Content Management
-role: User
-level: Intermediate
+role: Admin
+level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Leverbaarheid is een maatstaf voor het succes van uw leveringen die uw ontvanger
 
 >[!NOTE]
 >
->Voor klanten die een vergunning geven voor het Gezondheidsschild, gebruikt Adobe de Veiligheid van de Laag van het Vervoer (TLS) 1.2 om de gegevensuitwisseling tussen gebruikerssystemen (ontvangers) en Journey Optimizer (afzender) te beveiligen. Als de ontvangende mailserver geen ondersteuning biedt voor TLS 1.2, kunnen klanten problemen ondervinden met de te leveren items, zoals het terugsturen van e-mailberichten naar de oorspronkelijke afzender.
+>Voor klanten die een vergunning geven voor het Gezondheidsschild, gebruikt de Adobe de Veiligheid van de Laag van het Vervoer (TLS) 1.2 om de gegevensuitwisseling tussen gebruikerssystemen (ontvangers) en Journey Optimizer (afzender) te beveiligen. Als de ontvangende mailserver geen ondersteuning biedt voor TLS 1.2, kunnen klanten problemen ondervinden met de te leveren items, zoals het terugsturen van e-mailberichten naar de oorspronkelijke afzender.
 
 **E-maillevering** verwijst naar de reeks eigenschappen die de capaciteit van een bericht bepalen om zijn bestemming, via een persoonlijk e-mailadres, binnen een korte tijd, en met de verwachte kwaliteit in termen van inhoud en formaat te bereiken. Deze kenmerken vallen in vier hoofdcategorieën: gegevenskwaliteit, bericht en inhoud, verzendende infrastructuur, en reputatie. Samen vormen ze de basis voor een succesvol e-mailprogramma.
 
@@ -35,7 +35,7 @@ De **leveringspercentage** is het aantal berichten die de inboxes van de ontvang
 
 Om de leverbaarheid van uw [!DNL Journey Optimizer] We raden u aan de beste praktijken in deze sectie te gebruiken. De problemen van de levering zijn over het algemeen verbonden met bescherming tegen spam die door de dienstverleners van Internet (ISPs) en de beheerders van de postserver wordt uitgevoerd.
 
-Voor een diepgaander inzicht in wat de te leveren prestaties zijn en meer te leren over zeer belangrijke leverbaarheidsvoorwaarden, concepten, en benaderingen, verwijs naar [Adobe Handleiding voor beste praktijken voor aflevering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target="_blank"}.
+Voor een diepgaander inzicht in wat de te leveren prestaties zijn en meer te leren over zeer belangrijke leverbaarheidsvoorwaarden, concepten, en benaderingen, verwijs naar [Handleiding voor beste praktijken bij de levering van Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl){target="_blank"}.
 
 ## Het klachtenpercentage verlagen {#reduce-complaint-rate}
 
@@ -43,13 +43,13 @@ ISPs heeft gewoonlijk een duidelijk middel om een ontvangen bericht als spam te 
 
 Als algemene regel geldt dat u ontvangers die zich willen afmelden, niet in de weg wilt staan door van hen te verlangen dat ze bijvoorbeeld velden invullen zoals hun e-mailadres of naam. De landingspagina voor abonnementen mag slechts één validatieknop hebben.
 
-Extra zorg betalen wanneer om extra bevestiging wordt gevraagd: een gebruiker kan twee e-mailadressen naar hetzelfde vak hebben omgeleid (bijvoorbeeld: firstname.lastname@club.com en firstname.lastname@internet-club.com). Als het profiel alleen het eerste adres kan onthouden en het abonnement wil opzeggen via een bericht dat naar het andere wordt verzonden, wordt dit door het formulier geweigerd omdat de gecodeerde id en het ingevoerde e-mailadres niet overeenkomen.
+Wees voorzichtig met het aanvragen van aanvullende bevestiging: een gebruiker kan twee e-mailadressen hebben die naar hetzelfde vak worden omgeleid (bijvoorbeeld: firstname.lastname@club.com en firstname.lastname@internet-club.com). Als het profiel alleen het eerste adres kan onthouden en het abonnement wil opzeggen via een bericht dat naar het andere wordt verzonden, wordt dit door het formulier geweigerd omdat de gecodeerde id en het ingevoerde e-mailadres niet overeenkomen.
 
-## Overzichtslijsten {#suppression-lists}
+## Overzichtsonderdrukkingslijsten {#suppression-lists}
 
-[!DNL Journey Optimizer] beheert een onderdrukkingslijst die spamklachten, harde stuit, en zachte stuitingen verzamelt die consequent voorkomen.
+[!DNL Journey Optimizer] beheert een onderdrukkingslijst die spamklachten, harde stuitingen, en zachte stuitingen verzamelt die consequent voorkomen.
 
-Om uw leverbaarheid te beschermen, worden de ontvangers waarvan adressen op de suppressielijst zijn uitgesloten door gebrek van alle toekomstige leveringen, omdat het verzenden naar deze contacten uw verzendende reputatie zou kunnen beschadigen.
+Om uw leverbaarheid te beschermen, worden de ontvangers van wie adressen op de suppressielijst zijn uitgesloten door gebrek van alle toekomstige leveringen, omdat het verzenden naar deze contacten uw verzendende reputatie zou kunnen beschadigen.
 
 [Meer informatie over de lijst met onderdrukking](suppression-list.md).
 

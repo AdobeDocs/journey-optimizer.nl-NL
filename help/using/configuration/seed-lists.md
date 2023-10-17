@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Zaadlijsten
 description: Meer informatie over het gebruik van zaadlijsten in Journey Optimizer
-feature: Deliverability
+feature: Channel Configuration, Email
 topic: Content Management
 role: User
 level: Intermediate
 keywords: zaadlijst, zaadlijst, zaad, configuratie
-source-git-commit: f6708555d20fd04beb85574afd46e75be654d4e6
+exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
+source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 3%
@@ -154,4 +155,3 @@ Telkens wanneer een e-mailbericht naar uw klanten wordt verstuurd via die campag
 >[!NOTE]
 >
 >Voor reizen wordt de e-mailbezorging alleen op de eerste uitvoering van de reis naar het zaadadres verzonden.
-

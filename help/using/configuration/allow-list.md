@@ -5,11 +5,11 @@ title: Lijst van gewenste personen
 description: Leer hoe u de lijst van gewenste personen gebruikt
 feature: Deliverability
 topic: Content Management
-role: User
-level: Intermediate
+role: Admin
+level: Experienced
 keywords: lijst van gewenste personen, lijst, veilig, configuratie
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 2%
@@ -32,7 +32,7 @@ Wanneer de lijst van gewenste personen actief maar leeg is, gaat er ook geen e-m
 
 >[!CAUTION]
 >
->Deze functie is alleen van toepassing op het e-mailkanaal.
+>Deze functie geldt alleen voor het e-mailkanaal.
 
 ## Toegang tot de lijst van gewenste personen {#access-allowed-list}
 
@@ -116,7 +116,7 @@ Als u nieuwe e-mailadressen of domeinen wilt toevoegen aan de lijst van gewenste
 >title="Voeg adressen of domeinen aan de lijst van gewenste personen toe"
 >abstract="U kunt handmatig nieuwe e-mailadressen of domeinen aan de lijst van gewenste personen toevoegen door deze een voor een te selecteren."
 
-U kunt de [!DNL Journey Optimizer] lijst van gewenste personen door een e-mailadres of een domein via de gebruikersinterface toe te voegen.
+U kunt het dialoogvenster [!DNL Journey Optimizer] lijst van gewenste personen door een e-mailadres of een domein via de gebruikersinterface toe te voegen.
 
 >[!NOTE]
 >
@@ -134,7 +134,7 @@ Volg de onderstaande stappen om dit te doen.
 
    >[!NOTE]
    >
-   >Zorg ervoor dat u een geldig e-mailadres (zoals abc@company.com) of domein (zoals abc.company.com) opgeeft.
+   >Controleer of u een geldig e-mailadres (zoals abc@company.com) of domein (zoals abc.company.com) invoert.
 
 1. Geef indien nodig een reden op.
 
@@ -201,7 +201,7 @@ Wanneer de lijst van gewenste personen [actief](#enable-allow-list), is de volge
 
 >[!NOTE]
 >
->De profielen met **[!UICONTROL Not allowed]** status worden uitgesloten tijdens het verzenden van berichten. Daarom moet **Reisrapporten** geeft aan dat deze profielen door de reis zijn gegaan ([Publiek lezen](../building-journeys/read-audience.md) en [berichtactiviteiten](../building-journeys/journeys-message.md)), de **E-mailrapporten** worden niet opgenomen in de **[!UICONTROL Sent]** Metrische gegevens worden uitgefilterd voordat e-mail wordt verzonden.
+>De profielen met **[!UICONTROL Not allowed]** status worden uitgesloten tijdens het proces voor het verzenden van berichten. Daarom moet **Reisrapporten** geeft aan dat deze profielen door de reis zijn gegaan ([Publiek lezen](../building-journeys/read-audience.md) en [berichtenactiviteiten](../building-journeys/journeys-message.md)), **E-mailrapporten** worden niet opgenomen in de **[!UICONTROL Sent]** Metrische gegevens worden uitgefilterd voordat e-mail wordt verzonden.
 >
 >Meer informatie over de [Live rapport](../reports/live-report.md) en [Algemeen rapport](../reports/global-report.md).
 
@@ -209,7 +209,7 @@ Wanneer de lijst van gewenste personen [gedeactiveerd](#deactivate-allow-list), 
 
 ## Uitsluitingsrapportage {#reporting}
 
-Wanneer de lijst van gewenste personen actief is, kunt u e-mailadressen of domeinen terugwinnen die van het verzenden werden uitgesloten omdat zij niet op de lijst van gewenste personen waren. Om dit te doen, kunt u gebruiken [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} om de API-aanroepen hieronder uit te voeren.
+Wanneer de lijst van gewenste personen actief is, kunt u e-mailadressen of domeinen terugwinnen die van het verzenden werden uitgesloten omdat zij niet op de lijst van gewenste personen waren. Hiervoor kunt u de opdracht [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} om de API-aanroepen hieronder uit te voeren.
 
 Om de **aantal e-mails** die niet werden verzonden omdat de ontvangers niet op de lijst van gewenste personen waren, gebruik de volgende vraag:
 

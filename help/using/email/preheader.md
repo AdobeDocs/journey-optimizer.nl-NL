@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Een voorheader toevoegen in Journey Optimizer
 description: Leer hoe u e-mailinhoud ontwerpt
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate
 keywords: preheader, editor, overzicht, e-mail
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Voer de volgende stappen uit om de e-mailvoorheader te definiëren:
 
    ![](assets/preheader_body_settings.png)
 
-1. Van de **[!UICONTROL Edit Personalization]** venster, kunt u toevoegen **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** of **[!UICONTROL Personalization fields]**.
+1. Van de **[!UICONTROL Edit Personalization]** venster kunt toevoegen **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** of **[!UICONTROL Personalization fields]**.
 
 1. Klikken **[!UICONTROL Validate]** om uw personalisatiesyntaxis te controleren.
 

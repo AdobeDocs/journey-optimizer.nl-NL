@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Gebruiksgevallen van landingspagina
 description: Ontdek de meest gebruikelijke gebruiksgevallen bij bestemmingspagina's in Journey Optimizer
-feature: Landing Pages
+feature: Landing Pages, Subscriptions
 topic: Content Management
 role: User
 level: Intermediate
 keywords: landen, landingspagina, hoofdletter gebruiken
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 2%
@@ -74,7 +74,7 @@ Bovendien kunt u een bevestigingsbericht verzenden naar de ontvangers die zich h
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. De **[!UICONTROL Events]** categorie en zet een **[!UICONTROL Audience Qualification]** op uw canvas. [Meer informatie](../building-journeys/audience-qualification-events.md)
+1. Ontvouw de **[!UICONTROL Events]** categorie en zet een **[!UICONTROL Audience Qualification]** op uw canvas. [Meer informatie](../building-journeys/audience-qualification-events.md)
 
 1. Klik in het dialoogvenster **[!UICONTROL Audience]** en selecteer de abonnementenlijst die u hebt gemaakt.
 
@@ -88,7 +88,7 @@ Alle gebruikers die zich voor uw gebeurtenis hebben geregistreerd, ontvangen het
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 
-## Afmelden {#opt-out}
+## Weigeren {#opt-out}
 
 Om uw ontvangers in staat te stellen zich af te melden voor uw communicatie, kunt u een koppeling naar een bestemmingspagina opnemen in uw e-mails.
 
@@ -96,7 +96,7 @@ Meer informatie over het beheren van de toestemming van uw ontvangers en waarom 
 
 ### Uitschakelen, beheer {#opt-out-management}
 
-Het is een wettelijke vereiste dat ontvangers de mogelijkheid krijgen om zich af te melden voor het ontvangen van communicatie van een merk. Meer informatie over de toepasselijke wetgeving vindt u in het [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target="_blank"}.
+Het is een wettelijke vereiste dat ontvangers de mogelijkheid krijgen om zich niet meer te abonneren op het ontvangen van communicatie van een merk. Meer informatie over de toepasselijke wetgeving vindt u in het [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target="_blank"}.
 
 Daarom moet u altijd een **afmelden, koppeling** in elke e-mail die naar ontvangers wordt verzonden:
 
@@ -111,7 +111,7 @@ Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zi
 
 1. Definieer de primaire pagina. [Meer informatie](create-lp.md#configure-primary-page)
 
-1. [Ontwerp](design-lp.md) de inhoud van de primaire pagina: de landingspagina-specifiek gebruiken **[!UICONTROL Form]** component, een component definiëren **[!UICONTROL Opt-out]** selectievakje en kies voor bijwerken **[!UICONTROL Channel (email)]**: Het profiel dat het vak Weigeren op de bestemmingspagina controleert, wordt uit al uw communicatie verwijderd.
+1. [Ontwerp](design-lp.md) de inhoud van de primaire pagina: de specifieke landingspagina gebruiken **[!UICONTROL Form]** component, een component definiëren **[!UICONTROL Opt-out]** selectievakje en kies voor bijwerken **[!UICONTROL Channel (email)]**: het profiel dat het selectievakje Weigeren inschakelt op de bestemmingspagina wordt uitgeschakeld voor alle communicatie.
 
    ![](assets/lp_opt-out-primary-lp.png)
 

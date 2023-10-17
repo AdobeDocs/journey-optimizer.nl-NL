@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Een bericht verzenden met Campagne v7/v8
 description: Leer hoe u een bericht verzendt met Campagne v7/v8
-feature: Actions
+feature: Integrations
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: reis, boodschap, campagne, integratie
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
@@ -22,7 +22,7 @@ In dit geval worden alle stappen beschreven die nodig zijn om een e-mail te verz
 
 >[!NOTE]
 >
->Om deze integratie te kunnen gebruiken, moet u Campaign Classic bouwen 9125 of hoger hebben.
+>Om deze integratie te kunnen gebruiken, moet u Campaign Classic 9125 of hoger hebben.
 
 We maken eerst een transactionele e-mailsjabloon in Campagne. In Journey Optimizer maken we dan het evenement, de actie en ontwerpen we de reis.
 
@@ -37,7 +37,7 @@ Voor deze integratie moet uw Campagne-instantie zijn ingericht. De eigenschap va
 
 1. Meld u aan bij de besturingsinstantie Campagne.
 
-1. Onder **Beheer** > **Platform** > **Opsommingen**, selecteert u de **Het type Event** (eventType) opsomming. Maak een nieuw gebeurtenistype (&quot;reis-gebeurtenis&quot;, in ons voorbeeld). U moet de interne naam van het gebeurtenistype gebruiken wanneer u het JSON-bestand later schrijft.
+1. Onder **Administratie** > **Platform** > **Opsommingen**, selecteert u de **Het type Event** (eventType) opsomming. Maak een nieuw gebeurtenistype (&quot;reis-gebeurtenis&quot;, in ons voorbeeld). U moet de interne naam van het gebeurtenistype gebruiken wanneer u het JSON-bestand later schrijft.
 
    ![](assets/accintegration-uc-1.png)
 

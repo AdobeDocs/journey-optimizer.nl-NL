@@ -3,14 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Ga aan de slag met IP-opwarmingsplannen
 description: Leer hoe te om een IP warmup plan uit te voeren
-feature: Application Settings
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, leverbaarheid
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
+source-git-commit: 82c189545ab4f37a2e4b1044c0b8cfeb539aed13
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 2%

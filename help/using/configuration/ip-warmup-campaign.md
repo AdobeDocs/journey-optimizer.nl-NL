@@ -3,14 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: IP-warmtecampagnes maken
 description: Leer hoe te om een IP warmup campagne te creëren
-feature: Application Settings
+feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: IP, pools, leverbaarheid
 hide: true
 hidefromtoc: true
-source-git-commit: b3e5a825b881736516b3bcd1d368843c3a601100
+exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
+source-git-commit: 82c189545ab4f37a2e4b1044c0b8cfeb539aed13
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 2%
@@ -82,4 +83,3 @@ Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
 Zodra levend, is de campagne klaar voor gebruik in een IP warmup plan. [Meer informatie](ip-warmup-plan.md)
 
 <!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
-

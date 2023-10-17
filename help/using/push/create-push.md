@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Een pushmelding configureren
 description: Meer informatie over het maken van een pushmelding in Journey Optimizer
-feature: Overview
+feature: Push
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 4%
@@ -42,7 +42,7 @@ Voer de onderstaande stappen uit om een pushmelding te maken:
    >
    >Als u een pushmelding verzendt van een reis, kunt u de functie voor Send-Time optimalisatie voor Adobe Journey Optimizer gebruiken om de beste tijd te voorspellen voor het verzenden van het bericht om de betrokkenheid te maximaliseren op basis van de historische open en kliksnelheden. [Leer hoe u met SendTime Optimization werkt](../building-journeys/journeys-message.md#send-time-optimization)
 
-   Voor meer informatie over hoe te om een reis te vormen, verwijs naar [deze pagina](../building-journeys/journey-gs.md)
+   Voor meer informatie over hoe te om een reis te vormen, raadpleeg [deze pagina](../building-journeys/journey-gs.md)
 
 1. Van het scherm van de reisconfiguratie, klik **[!UICONTROL Edit content]** om de pushinhoud te configureren. [Een pushmelding ontwerpen](design-push.md)
 
@@ -74,7 +74,7 @@ Voer de onderstaande stappen uit om een pushmelding te maken:
 
 1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe u de **[!UICONTROL Schedule]** van uw campagne in [deze sectie](../campaigns/create-campaign.md#schedule).
 
-1. Van de **[!UICONTROL Action triggers]** kiest u de **[!UICONTROL Frequency]** van uw pushmelding:
+1. Van de **[!UICONTROL Action triggers]** kiest u de optie **[!UICONTROL Frequency]** van uw pushmelding:
 
    * Eenmaal
    * Dagelijks
@@ -120,7 +120,7 @@ Snelle levering overseinen komt met de volgende vereisten:
 
 ### Modus Snelle levering activeren
 
-1. Maak een pushmeldingscampagne en schakel de optie **[!UICONTROL Rapid delivery]** optie.
+1. Maak een pushmeldingscampagne en schakel de optie **[!UICONTROL Rapid delivery]** -optie.
 
 ![](assets/create-campaign-burst.png)
 

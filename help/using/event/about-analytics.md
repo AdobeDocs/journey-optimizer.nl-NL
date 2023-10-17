@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Analytics-integratie
 description: Meer informatie over hoe Adobe Analytics-gegevens in Journey Optimizer kunnen worden gebruikt
-feature: Events
+feature: Reporting, Integrations
 topic: Administration
 role: Admin
 level: Intermediate
 keywords: analyse, integratie, web sdk, platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: 16752d94647b25b4a86c34b77bda0f72fcfaf169
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 6%
@@ -31,6 +31,7 @@ Dit werkt alleen met Adobe Analytics als u:
 >Deze sectie is slechts op regel-gebaseerde gebeurtenissen en klanten van toepassing die Adobe Analytics of de gegevens van SDK van het Web moeten gebruiken.
 > 
 >Als u Adobe Customer Journey Analytics gebruikt, raadpleegt u [deze pagina](../reports/cja-ajo.md).
+>
 
 ## Adobe Analytics- of Web SDK-gegevens configureren {#leverage-analytics-data}
 
@@ -44,7 +45,7 @@ Volg de onderstaande stappen om dit te doen:
 
    ![](assets/ajo-aa_1.png)
 
-1. Selecteer in de lijst met beschikbare Adobe Analytics-rapportsuites de optie **[!UICONTROL Report suite]** om in te schakelen. Klik vervolgens op **[!UICONTROL Next]**.
+1. Selecteer in de lijst met beschikbare Adobe Analytics-rapportsuite de **[!UICONTROL Report suite]** om in te schakelen. Klik vervolgens op **[!UICONTROL Next]**.
 
    ![](assets/ajo-aa_2.png)
 
@@ -66,16 +67,16 @@ Meer informatie over de Adobe Analytics-bronconnector in  [Adobe Experience Plat
 
 Zodra deze configuratie wordt gedaan, contacteer Adobe om uw milieu van Journey Optimizer toe te laten om deze gegevensbron te gebruiken. Deze stap is alleen vereist voor Adobe Analytics-gegevensbronnen. Dit doet u als volgt:
 
-1. Haal de gegevensbron-id op. Deze informatie is beschikbaar in de gebruikersinterface: doorbladeren aan de gegevensbron u van **Gegevensstromen** tabblad van het dialoogvenster **Bronnen** -menu. De eenvoudigste manier om dit te vinden is door te filteren op Adobe Analytics-bronnen.
-1. Neem contact op met de klantenservice van Adobe en geef de volgende informatie:
+1. Haal de gegevensbron-id op. Deze informatie is beschikbaar in de gebruikersinterface: blader naar de gegevensbron u van het **Gegevensstromen** tabblad van het **Bronnen** -menu. De eenvoudigste manier om dit te vinden is door te filteren op Adobe Analytics-bronnen.
+1. Neem contact op met de klantenservice van de Adobe met de volgende gegevens:
 
-   * Betreft: Adobe Analytics-gebeurtenissen inschakelen voor reizen
+   * Betreft: Adobe Analytics-evenementen mogelijk maken voor reizen
 
-   * Inhoud: Laat mijn omgeving alsjeblieft AA-gebeurtenissen gebruiken.
+   * Inhoud: schakel mijn omgeving in om AA-gebeurtenissen te gebruiken.
 
       * Organisatie-id: &quot;XXX@AdobeOrg&quot;
 
-      * Id gegevensbron: &quot;ID: xxxxx&quot;
+      * Gegevensbron-id: &quot;ID: xxxxx&quot;
 
 1. Als u eenmaal hebt bevestigd dat uw omgeving gereed is, kunt u Adobe Analytics-gegevens tijdens uw reis gebruiken.
 
@@ -105,7 +106,7 @@ In het onderstaande voorbeeld leert u hoe u gebruikers die een product aan hun w
    * **[!UICONTROL Fields]**: Selecteer de velden Payload. [Meer informatie](../event/about-creating.md#define-the-payload-fields)
    * **[!UICONTROL Event ID condition]**: Bepaal de voorwaarde om de gebeurtenissen te identificeren die uw reis zullen teweegbrengen.
 
-      Hier wordt de gebeurtenis geactiveerd wanneer klanten een item aan hun winkelwagentjes toevoegen.
+     Hier wordt de gebeurtenis geactiveerd wanneer klanten een item aan hun winkelwagentjes toevoegen.
    * **[!UICONTROL Profile Identifier]**: Kies een veld in uw payload-velden of definieer een formule om de persoon te identificeren die aan de gebeurtenis is gekoppeld.
 
    ![](assets/ajo-aa_6.png)
@@ -126,7 +127,7 @@ Nu de gebeurtenis klaar is, maak een reis om het te gebruiken.
 
    ![](assets/ajo-aa_9.png)
 
-1. Voeg vanaf het time-outpad een **[!UICONTROL Email]** handeling. Dit pad wordt gebruikt om een e-mail te sturen naar klanten die geen bestelling hebben voltooid om hen eraan te herinneren dat hun winkelwagentjes nog steeds beschikbaar zijn.
+1. Voeg vanaf het onderbrekingspad een **[!UICONTROL Email]** handeling. Dit pad wordt gebruikt om een e-mail te sturen naar klanten die geen bestelling hebben voltooid om hen eraan te herinneren dat hun winkelwagentjes nog steeds beschikbaar zijn.
 
 1. Voeg een **[!UICONTROL Wait]** activiteit na uw belangrijkste weg en plaats het aan de gewenste duur.
 

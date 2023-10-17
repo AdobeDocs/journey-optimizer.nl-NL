@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Algemeen rapport landingspagina
 description: Meer informatie over het gebruik van gegevens uit het algemene rapport van uw bestemmingspagina's
-feature: Journeys
+feature: Reporting, Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: e88cf8ad-986a-4e4c-8921-d406c6876031
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%
@@ -38,29 +38,29 @@ De **[!UICONTROL Number of visits]** en **[!UICONTROL Number of visits over time
 
 * **[!UICONTROL Total visits]**: Het totale aantal bezoeken aan uw landingspagina dat afkomstig is van reizen en externe bronnen, inclusief meerdere bezoeken van één ontvanger.
 
-* **[!UICONTROL Unique visitors]**: Aantal personen dat uw landingspagina heeft bezocht, meerdere bezoeken van één ontvanger worden niet in aanmerking genomen.
+* **[!UICONTROL Unique visitors]**: Het aantal personen dat uw landingspagina heeft bezocht en het aantal bezoeken van één ontvanger worden niet in aanmerking genomen.
 
 De **[!UICONTROL Landing page performance]** widget geeft via KPI&#39;s informatie weer over de belangrijkste informatie ten opzichte van uw bericht:
 
-* **[!UICONTROL Conversion rate]**: Aantal personen dat met de aanlandingspagina heeft gecommuniceerd, bv. op een formulier geabonneerd, in verhouding tot het totale aantal bezoeken.
+* **[!UICONTROL Conversion rate]**: Aantal personen dat met de landingspagina heeft gecommuniceerd, bv. op een formulier geabonneerd, in verhouding tot het totale aantal bezoeken.
 
-* **[!UICONTROL Bounce rate]**: Aantal personen dat niet met de landingspagina in wisselwerking stond en de actie van het intekenen niet voltooide, in verhouding tot het totale aantal bezoeken.
+* **[!UICONTROL Bounce rate]**: Het aantal personen dat niet heeft gecommuniceerd met de landingspagina en de actie van het abonneren niet heeft uitgevoerd, in verhouding tot het totale aantal bezoeken.
 
 De **[!UICONTROL Visit sources]** widget geeft aan hoe bezoekers uw landingspagina openen:
 
-* **[!UICONTROL Journey(s)]**: Aantal bezoeken aan uw landingspagina die van een reis komen.
+* **[!UICONTROL Journey(s)]**: Het aantal bezoeken aan uw landingspagina dat van een reis komt.
 
-* **[!UICONTROL Other sources]**: Aantal bezoeken aan uw landingspagina die van een externe bron in plaats van een reis komen.
+* **[!UICONTROL Other sources]**: Het aantal bezoeken aan uw landingspagina dat afkomstig is van een externe bron in plaats van een reis.
 
 De **[!UICONTROL Top clicked links]** identificeert de interactie van de bezoekers met de levering:
 
-* **[!UICONTROL Clicks]**: Aantal keren dat op een inhoud is geklikt op de bestemmingspagina.
+* **[!UICONTROL Clicks]**: Het aantal keren dat op een inhoud is geklikt op de bestemmingspagina.
 
-* **[!UICONTROL Click rate]**: Percentage klikken op de bestemmingspagina.
+* **[!UICONTROL Click rate]**: percentage klikken op de bestemmingspagina.
 
 De **[!UICONTROL Journey(s)]** widget geeft het aantal bezoeken aan uw landingspagina weer van een reis :
 
-* **[!UICONTROL Visits]**: Aantal bezoeken aan uw landingspagina, met inbegrip van veelvoudige bezoeken van één ontvanger.
+* **[!UICONTROL Visits]**: Aantal bezoeken aan uw landingspagina, inclusief meerdere bezoeken van één ontvanger.
 
 De **[!UICONTROL Other sources]** widget geeft het aantal bezoeken aan uw landingspagina aan vanuit een externe bron in plaats van een reis .
 

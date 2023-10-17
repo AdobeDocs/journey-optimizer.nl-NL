@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: De tekstversie van een e-mailbericht maken
 description: Leer hoe u de tekstversie van een e-mailbericht maakt
-feature: Overview
+feature: Email Design
 topic: Content Management
 role: User
 level: Intermediate
 keywords: text, email, version, plain, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
@@ -22,9 +22,9 @@ U wordt aangeraden een tekstversie van de berichttekst te maken die wordt gebrui
 
 Standaard maakt de e-mailontwerper een **[!UICONTROL Plain text]** versie van uw e-mail, inclusief personalisatievelden. Deze versie wordt automatisch gegenereerd en gesynchroniseerd met de HTML-versie van uw inhoud.
 
-Voer de onderstaande stappen uit als u liever een andere inhoud gebruikt voor de versie zonder opmaak:
+Als u liever een andere inhoud gebruikt voor de versie zonder opmaak, voert u de onderstaande stappen uit:
 
-1. Selecteer in uw e-mail de optie **[!UICONTROL Plain text]** pictogram.
+1. Selecteer de optie **[!UICONTROL Plain text]** pictogram.
 
    ![](assets/text_version_3.png)
 
@@ -43,4 +43,3 @@ Voer de onderstaande stappen uit als u liever een andere inhoud gebruikt voor de
 >* Wijzigingen aangebracht in **[!UICONTROL Plain text]** worden niet weerspiegeld in de weergave HTML.
 >
 >* Als u de **[!UICONTROL Sync with HTML]** Nadat u de onbewerkte tekstinhoud hebt bijgewerkt, gaan de wijzigingen verloren en worden deze vervangen door tekstinhoud die is gegenereerd uit de HTML-versie.
-

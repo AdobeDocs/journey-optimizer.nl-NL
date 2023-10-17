@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Uw pushmelding bekijken en testen
 description: Leer hoe u uw pushmelding in Journey Optimizer kunt bekijken en testen
-feature: Overview
+feature: Push
 topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 4%
@@ -23,7 +23,7 @@ Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken o
 
 1. Klik op **[!UICONTROL Simulate content]**.
 
-1. Klikken **[!UICONTROL Manage test profiles]** om een testprofiel toe te voegen.
+1. Klikken **[!UICONTROL Manage test profiles]** een testprofiel toevoegen.
 
 1. Zoek uw testprofiel met de **[!UICONTROL Identity namespace]** en **[!UICONTROL Identity value]** velden. Klik vervolgens op **[!UICONTROL Add profile]**.
 
@@ -48,7 +48,7 @@ U moet alarm in de hogere sectie van de redacteur controleren. Sommige zijn eenv
 
    * **[!UICONTROL The push version of the message is empty]**: deze fout wordt weergegeven wanneer de hoofdtekst of titel van het pushbericht ontbreekt. Leer hoe u inhoud voor pushmeldingen definieert in [deze sectie](create-push.md).
 
-   * **[!UICONTROL Surface doesn't exist]**: U kunt uw bericht niet gebruiken als het geselecteerde oppervlak wordt verwijderd na het maken van het bericht. Als deze fout optreedt, selecteert u een ander oppervlak in het bericht **[!UICONTROL Properties]**. Meer informatie over kanaaloppervlakken in [deze sectie](../configuration/channel-surfaces.md).
+   * **[!UICONTROL Surface doesn't exist]**: u kunt uw bericht niet gebruiken als het geselecteerde oppervlak wordt verwijderd na het maken van het bericht. Als deze fout optreedt, selecteert u een ander oppervlak in het bericht **[!UICONTROL Properties]**. Meer informatie over kanaaloppervlakken in [deze sectie](../configuration/channel-surfaces.md).
 
    * **[!UICONTROL Push iOS/Android payload has exceeded limit of 4KB]**: de grootte van de pushmelding mag niet groter zijn dan 4 kB. U kunt deze limiet in acht nemen door het gebruik van afbeeldingen of emojis te beperken. Leer hoe u de inhoud van uw pushmelding beheert in [deze sectie](../push/create-push.md).
 

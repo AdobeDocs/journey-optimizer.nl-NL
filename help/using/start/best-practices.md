@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Aanbevolen procedures voor Journey Optimizer
 description: Meer informatie over tips en trucs voor Journey Optimizer
-feature: Journeys
-topic: Content Management
+feature: Get Started
 role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 5b69e8d8539e37f42d44383e32b85e651e412937
+exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
+source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
@@ -65,6 +65,3 @@ Er zijn een aantal beste praktijken die u kunt aannemen, die u helpen binnen de 
 * Als dezelfde omstandigheden zich bij meerdere reizen herhalen (toestemmingscontroles, onderdrukking), kunt u overwegen deze als onderdeel van de segmentdefinitie te verplaatsen. Als u bijvoorbeeld een voorwaarde hebt om te controleren of het e-mailadres niet leeg is voor meerdere reizen, moet u die voorwaarde opnemen in de segmentdefinitie.
 * Als uw reis verscheidene voorwaarden heeft die het publiek verdelen om de aantallen bij elke stap te zien, denk na gebruikend Customer Journey Analytics of andere rapporteringsoplossing die voor analyse geschikter zijn.
 * Als u de limiet van knooppunten op het canvas bijna bereikt, kunt u overwegen om acties te consolideren met dynamische parameters of inhoud om de juiste inhoud te leveren in plaats van expliciete knooppunten.
-
-
-

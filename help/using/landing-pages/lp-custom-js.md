@@ -5,11 +5,11 @@ title: Aangepast JavaScript gebruiken in een openingspagina
 description: Leer hoe u de inhoud van een bestemmingspagina in Journey Optimizer ontwerpt
 feature: Landing Pages
 topic: Content Management
-role: User
-level: Beginner
+role: Developer
+level: Experienced
 keywords: landen, bestemmingspagina, javascript, code
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Als u aangepaste JavaScript wilt invoegen in openende pagina-inhoud, kunt u het 
 
 * Ontwerp de openingspagina helemaal zelf of op basis van een opgeslagen sjabloon. Sleep de **[!UICONTROL HTML]** inhoudcomponent op het canvas en toon de broncode om uw JavaSCript in de component toe te voegen. Leer hoe u de component HTML gebruikt in [deze sectie](../email/content-components.md#HTML). <!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
-   ![](assets/lp_designer-html-component.png)
+  ![](assets/lp_designer-html-component.png)
 
 * Typ of plak JavaScript-code rechtstreeks in de inhoudsontwerper. Leer hoe u uw eigen inhoud codeert [in deze sectie](../email/code-content.md).
 
@@ -83,7 +83,7 @@ lpRuntime.hooks.addBeforeSubmitHook(function(){
 
 ## Aangepaste formulierverzending
 
-De hieronder vermelde methoden worden gebruikt om aangepaste formulierverzendingen uit te voeren.
+De hieronder vermelde methoden worden gebruikt voor het verzenden van aangepaste formulieren.
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ lpRuntime.submitFormPartial(formSubmissionData,{   // This will not trigger the 
 
 | Naam | Beschrijving |
 |--- |--- |
-| getFormData | Deze methode kan worden gebruikt om de `formData` in de vorm van een JSON-object. Dit object kan worden doorgegeven aan `submitForm` voor het verzenden van formulieren. |
+| getFormData | Deze methode kan worden gebruikt om de `formData` als een JSON-object. Dit object kan worden doorgegeven aan `submitForm` voor het verzenden van formulieren. |
 
 **Voorbeeld:**
 
@@ -125,7 +125,7 @@ lpRuntime.submitForm(formData);
 
 ## Gebruiksscenario’s
 
-### Hoofdlettergebruik 1: Validatie toevoegen vóór verzending van formulier
+### Hoofdlettergebruik 1: validatie toevoegen vóór verzending van formulier
 
 ```
 <html>
@@ -160,7 +160,7 @@ lpRuntime.submitForm(formData);
 </html>
 ```
 
-### Hoofdlettergebruik 2: Gedeeltelijke verzending van formulieren
+### Hoofdlettergebruik 2: gedeeltelijke verzending van formulier
 
 U hebt bijvoorbeeld een formulier met meerdere selectievakjes op de pagina. Als u een selectievakje inschakelt, wilt u dat deze gegevens op de achtergrond worden opgeslagen zonder dat de gebruiker op de verzendknop hoeft te klikken.
 
@@ -193,7 +193,7 @@ U hebt bijvoorbeeld een formulier met meerdere selectievakjes op de pagina. Als 
 </html>
 ```
 
-### Hoofdlettergebruik 3: Aangepaste analysetags
+### Hoofdlettergebruik 3: aangepaste analysetags
 
 Met JavaScript kunt u listeners van invoervelden toevoegen en een aangepaste trigger voor de analytische aanroep koppelen.
 
@@ -226,7 +226,7 @@ Met JavaScript kunt u listeners van invoervelden toevoegen en een aangepaste tri
 </html>
 ```
 
-### Hoofdlettergebruik 4: Dynamisch formulier
+### Hoofdlettergebruik 4: dynamische vorm
 
 ```
 <html>

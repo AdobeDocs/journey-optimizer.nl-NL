@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Live-verslag over de landingspagina
 description: Leer hoe u gegevens van uw bestemmingspagina's gebruikt live rapport
-feature: Journeys
+feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%
@@ -34,21 +34,21 @@ De openingspagina **[!UICONTROL Live report]** is verdeeld in verschillende widg
 
 De **[!UICONTROL Landing page performance]** widget geeft de belangrijkste informatie met betrekking tot uw bericht over de afgelopen 24 uur door KPIs detail:
 
-* **[!UICONTROL Total visits]**: Het totale aantal bezoeken aan uw landingspagina van een reis of andere bronnen, met inbegrip van veelvoudige bezoeken van één ontvanger.
+* **[!UICONTROL Total visits]**: Totaal aantal bezoeken aan uw landingspagina van een reis of andere bronnen, inclusief meerdere bezoeken van één ontvanger.
 
-* **[!UICONTROL Conversions]**: Aantal personen dat interactie had met de landingspagina, bijvoorbeeld geabonneerd op een formulier.
+* **[!UICONTROL Conversions]**: Aantal personen dat interactie heeft gehad met de landingspagina, bijvoorbeeld geabonneerd op een formulier.
 
-* **[!UICONTROL Bounces]**: Aantal personen die niet met de landingspagina in wisselwerking stonden en de actie van het intekenen niet voltooiden.
+* **[!UICONTROL Bounces]**: Aantal personen dat niet met de landingspagina heeft gecommuniceerd en de actie van het abonneren niet heeft voltooid.
 
 De **[!UICONTROL Visit sources]** widget geeft aan hoe bezoekers uw landingspagina openen:
 
-* **[!UICONTROL Journey(s)]**: Aantal bezoeken aan uw landingspagina die van een reis komen.
+* **[!UICONTROL Journey(s)]**: Het aantal bezoeken aan uw landingspagina dat van een reis komt.
 
-* **[!UICONTROL Other sources]**: Aantal bezoeken aan uw landingspagina die van een externe bron in plaats van een reis komen.
+* **[!UICONTROL Other sources]**: Het aantal bezoeken aan uw landingspagina dat afkomstig is van een externe bron in plaats van een reis.
 
 De **[!UICONTROL Top clicked links]** geeft de interactie tussen bezoekers en de landingspagina aan:
 
-* **[!UICONTROL Clicks]**: Aantal keren dat op een inhoud is geklikt op de bestemmingspagina.
+* **[!UICONTROL Clicks]**: Het aantal keren dat op een inhoud is geklikt op de bestemmingspagina.
 
 De **[!UICONTROL Journey(s)]** widget geeft het aantal bezoeken aan uw landingspagina weer van een reis .
 

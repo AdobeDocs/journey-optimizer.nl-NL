@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Werken met sjablonen voor bestemmingspagina's
 description: Leer hoe u een landingspagina opslaat als een sjabloon en deze opnieuw gebruikt in Journey Optimizer
-feature: Landing Pages
+feature: Landing Pages, Templates
 topic: Content Management
 role: User
 level: Beginner
 keywords: landen, landingspagina, maken, sjablonen
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 4%

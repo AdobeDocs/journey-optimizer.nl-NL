@@ -1,16 +1,16 @@
 ---
 title: Uw In-app-melding testen en verzenden
 description: Leer hoe u een bericht in de app in Journey Optimizer kunt testen en verzenden
-feature: Overview
+feature: In App
 topic: Content Management
 role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '270'
+ht-degree: 4%
 
 ---
 

@@ -4,10 +4,11 @@ product: journey optimizer
 title: Websubdomeinen configureren
 description: Leer hoe u websubdomeinen instelt met Journey Optimizer
 role: Admin
-level: Intermediate
+feature: Web Channel, Subdomains
+level: Experienced
 keywords: web, subdomeinen, configuratie
-exl-id: 6503d9e6-6c6c-4a6d-ad3d-1d81eb3b4698
-source-git-commit: e26f45c1c08e1e5c88daf72cafdcd979753cc692
+exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 0%

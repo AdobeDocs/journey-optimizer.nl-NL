@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Live-rapport voor abonnement
 description: Leer hoe u gegevens van uw abonnementsservices kunt gebruiken met het Live-rapport voor abonnementen
-feature: Journeys
+feature: Reporting, Subscriptions
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 140c858d-9566-403c-a0e7-395437bb4e42
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: 03c714833930511fa734662b637d2416728073c2
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -42,4 +42,4 @@ De **[!UICONTROL Subscription performance]** in de grafiek wordt de ontwikkeling
 
 ![](assets/subscription_report_4.png)
 
-De **Abonnementen - indeling** en **Abonnement opzeggen - Onderverdeling** de grafieken geven het totale aantal personen aan dat zich in de laatste 24 uur heeft geabonneerd of geabonneerd, afhankelijk van de berichten, de aanlandingspagina&#39;s en de kanalen.
+De **Abonnementen - indeling** en **Abonnement opzeggen - Onderverdeling** grafieken geven het totale aantal personen aan dat zich in de laatste 24 uur heeft geabonneerd of geabonneerd, afhankelijk van de berichten, de aanlandingspagina&#39;s en de kanalen.

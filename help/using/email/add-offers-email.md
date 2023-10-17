@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Aangepaste aanbiedingen toevoegen
 description: Leer hoe u persoonlijke aanbiedingen aan uw berichten kunt toevoegen
-feature: Journeys
+feature: Email Design, Offers
 topic: Content Management
 role: User
 level: Intermediate
 keywords: aanbiedingen, beslissingen, e-mails, personalisatie, beslissingen
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
@@ -35,7 +35,7 @@ U kunt bijvoorbeeld een besluit toevoegen dat in uw e-mail een speciale kortings
 
 >[!CAUTION]
 >
->Voordat u begint, moet u [een biedbesluit vaststellen](../offers/offer-activities/create-offer-activities.md).
+>Voordat u begint, moet u [een biedingsbesluit vaststellen](../offers/offer-activities/create-offer-activities.md).
 
 Volg onderstaande stappen om een beslissing in te voegen in een e-mailbericht:
 
@@ -47,13 +47,13 @@ Volg onderstaande stappen om een beslissing in te voegen in een e-mailbericht:
 
    Leer hoe u inhoudscomponenten kunt gebruiken in [deze sectie](content-components.md).
 
-1. De **[!UICONTROL Offer decision]** wordt weergegeven in het rechterpalet. Klik op **[!UICONTROL Select Offer decision]**:
+1. De **[!UICONTROL Offer decision]** in het rechterpalet. Klik op **[!UICONTROL Select Offer decision]**:
 
    1. Selecteer in het venster dat wordt weergegeven de plaatsing die overeenkomt met de aanbiedingen die u wilt weergeven.
 
       [Plaatsen](../offers/offer-library/creating-placements.md) Dit zijn containers die worden gebruikt om je voorstellen onder de aandacht te brengen. In dit voorbeeld gebruiken we de plaatsing &quot;e-mail top image&quot;. Deze plaatsing is in de Bibliotheek van de Aanbieding gecreeerd om beeld-type aanbiedingen te tonen die zich aan de bovenkant van berichten bevinden.
 
-   1. Besluiten die overeenkomen met de geselecteerde plaatsingsweergave. Selecteer de beslissing die u in de inhoudcomponent wilt gebruiken en klik op **[!UICONTROL Add]**.
+   1. Besluiten die overeenkomen met de geselecteerde plaatsingsweergave. Selecteer de beslissing die u wilt gebruiken in de inhoudcomponent en klik op **[!UICONTROL Add]**.
 
       >[!NOTE]
       >
@@ -65,7 +65,7 @@ Het besluit wordt nu toegevoegd aan de component. Nadat u uw wijzigingen hebt op
 
 >[!NOTE]
 >
->Wanneer u een aanbod, een fallback-aanbieding, een verzameling aanbiedingen of een besluit over een aanbieding bijwerkt waarnaar direct of indirect wordt verwezen in het bericht, worden de updates automatisch weergegeven in het bijbehorende bericht.
+>Wanneer u een aanbod, een fallback-aanbieding, een verzameling van aanbiedingen of een besluit over aanbiedingen bijwerkt waarnaar direct of indirect wordt verwezen in het bericht, worden de updates automatisch weerspiegeld in het bijbehorende bericht.
 
 ## Aanbiedingen voorvertonen in een e-mail {#preview-offers-in-email}
 
