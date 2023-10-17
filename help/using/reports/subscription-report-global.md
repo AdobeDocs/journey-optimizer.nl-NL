@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Abonnementsrapport
 description: Leer hoe u gegevens van uw abonnementsservices kunt gebruiken met het Global-rapport Subscription
-feature: Journeys
+feature: Journeys, Subscriptions
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 4509c1e9-02e6-4c00-83ba-0b5512e70c41
-source-git-commit: cd2fcd36d0f742a1bbe726217b884ae1bec26d82
+source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
@@ -34,9 +34,9 @@ Het abonnement **[!UICONTROL Global report]** is verdeeld in verschillende widge
 
 De **[!UICONTROL Subscription performance]** KPI&#39;s en de **[!UICONTROL Subscriptions by journey]**/**[!UICONTROL Unsubscribes by journey]** tabellen bevatten de belangrijkste informatie met betrekking tot de betrokkenheid van uw bezoekers bij uw landingspagina. De tabellen en KPI&#39;s bevatten de beschikbare gegevens met betrekking tot uw bestemmingspagina, zoals:
 
-* **[!UICONTROL Subscribes]**: Totaal aantal abonnementen voor de betrokken periode.
+* **[!UICONTROL Subscribes]** Totaal aantal abonnementen voor de betrokken periode.
 
-* **[!UICONTROL Unsubscribes]**: Het totale aantal aflossingen voor de betrokken periode.
+* **[!UICONTROL Unsubscribes]** Totaal aantal afschrĳvingen voor de betrokken periode.
 
 De **[!UICONTROL Subscription performance]** de grafiek geeft de ontwikkeling van de abonnementen voor de betrokken periode weer.
 

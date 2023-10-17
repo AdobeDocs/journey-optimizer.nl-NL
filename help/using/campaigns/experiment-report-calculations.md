@@ -1,11 +1,11 @@
 ---
 title: Statistische berekeningen in het kader van het experimentatierapport
 description: Meer informatie over statistische berekeningen die worden gebruikt bij het uitvoeren van experimentrapporten
-feature: A/B Testing
-topic: Content Management
+feature: A/B Testing, Experimentation
 role: User
 level: Experienced
-source-git-commit: 64be9c41085dead10ff08711be1f39760a81ff95
+exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
+source-git-commit: c14a9385191cfa4368e0b84ab16a63c4c87e2c69
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Op deze pagina worden de gedetailleerde statistische berekeningen beschreven die
 
 Deze pagina is bedoeld voor technische gebruikers.
 
-## Omzetsnelheid
+## Conversiesnelheid
 
 de omrekeningskoers of **gemiddelde**, μ<sub>ν</sub> voor elke behandeling `ν` in een experiment wordt gedefinieerd als een verhouding tussen de som van de metrische waarden en het aantal profielen dat aan die meting is toegewezen, N<sub>ν</sub>:
 
@@ -42,9 +42,9 @@ De lift tussen een variant  *ν* en de besturingsvariant  *ν<sub>0</sub>* is de
 
 In het deelvenster Journey Experimentation worden &#39;op elk moment geldige&#39; betrouwbaarheidsintervallen (betrouwbaarheidsreeksen) weergegeven voor afzonderlijke behandelingen in een experiment.
 
-De betrouwbaarheidsvolgorde voor een individuele variant `ν` staat centraal in de door Adobe gebruikte statistische methodologie. U kunt de definitie ervan vinden in [deze pagina](https://doi.org/10.48550/arXiv.2103.06476) (gereproduceerd uit [Waudby-Smith et al.]).
+De betrouwbaarheidsvolgorde voor een individuele variant `ν` is van cruciaal belang voor de statistische methodologie die door de Adobe wordt gebruikt. U kunt de definitie ervan vinden in [deze pagina](https://doi.org/10.48550/arXiv.2103.06476) (gereproduceerd uit [Waudby-Smith et al.]).
 
-Als u een doelparameter wilt schatten `ψ` De conversiesnelheid van een variant in een experiment, de tweedeling tussen een sequentie van betrouwbaarheidsintervallen (CI&#39;s) voor &quot;vaste tijd&quot; en een tijduniforme betrouwbaarheidssequentie (CS) kunnen als volgt worden samengevat:
+Als u een doelparameter wilt schatten `ψ` De conversiesnelheid van een variant in een experiment, de tweedeling tussen een sequentie van &#39;fixed-time&#39; Trust Intervals (CI&#39;s) en een tijduniforme vertrouwensreeks (CS) kunnen als volgt worden samengevat:
 
 ![](assets/statistical_4.png){width="500" align="center"}
 
@@ -60,7 +60,7 @@ Adobe maakt gebruik van Asymptotic Betrouwbaarheidssequences, die voor een indiv
 
 ![](assets/statistical_5.png){width="300" align="center"}
 
-Waar:
+Waarbij:
 
 * `N` het aantal eenheden voor die variant.
 * `σ` een steekproefschatting van de standaardafwijking (hierboven gedefinieerd).
@@ -69,17 +69,17 @@ Waar:
 
 ## Vertrouwen {#confidence}
 
-Het vertrouwen dat door Adobe wordt gebruikt is een &quot;op elk moment geldig&quot; vertrouwen, dat wordt verkregen door de betrouwbaarheidsvolgorde voor het gemiddelde behandelingseffect om te keren.
+Het vertrouwen dat door Adobe wordt gebruikt is een &quot;op elk moment geldig&quot; vertrouwen, dat wordt verkregen door de betrouwbaarheidssequentie voor het gemiddelde behandelingseffect om te keren.
 
 Om precies te zijn, in twee monsters *t* de test op het verschil in gemiddelden tussen twee varianten bestaat uit een 1:1-afbeelding tussen de *p*-waarde voor deze test en het betrouwbaarheidsinterval voor het verschil in gemiddelden. Naar analogie geldt een tijdsduur *p*-value kan worden verkregen door de (op elk moment geldige) betrouwbaarheidssequentie voor de gemiddelde schatting van het effect van de behandeling om te keren:
 
 ![](assets/statistical_6.png){width="200" align="center"}
 
-Hier, *E* is een verwachting. De gebruikte schatter is een inverse propensiteit gewogen (IPW) schatter. Overweeg N = N<sub>0</sub> +N<sub>1</sub> eenheden, de varianttoewijzingen voor elke eenheid `i` geëtiketteerd door A<sub>i</sub>=0,1 indien de eenheid is toegewezen aan variant `ν`=0,1. Indien de gebruikers met een vaste waarschijnlijkheid (neiging) worden toegewezen π<sub>0</sub>, (1-π<sub>0</sub>), en de uitkomst is Y<sub>i</sub>De IPW-schatting voor het gemiddelde behandelingseffect is:
+Hier, *E* is een verwachting. De gebruikte schatter is een inverse propensiteit gewogen (IPW) schatter. Overweeg N = N<sub>0</sub> +N<sub>1</sub> eenheden, de varianttoewijzingen voor elke eenheid `i` geëtiketteerd door A<sub>i</sub>=0,1 indien de eenheid is toegewezen aan variant `ν`=0,1. Indien de gebruikers met een vaste waarschijnlijkheid (neiging) worden toegewezen π<sub>0</sub>, (1-π<sub>0</sub>), en de uitkomst is Y<sub>i</sub>Vervolgens is de IPW-schatting voor het gemiddelde behandelingseffect:
 
 ![](assets/statistical_12.png){width="400" align="center"}
 
-Merk op dat *f* Waudby-Smith et al. toonde aan dat de Vertrouwensvolgorde voor deze schatter is:
+Er wordt op gewezen dat *f* Waudby-Smith et al. toonde aan dat de Vertrouwensvolgorde voor deze schatter:
 
 ![](assets/statistical_7.png){width="500" align="center"}
 
@@ -95,7 +95,7 @@ waar `Φ` de cumulatieve verdeling van de normale waarde. Voor altijd geldig `p`
 
 ![](assets/statistical_10.png){width="600" align="center"}
 
-Tot slot **altijd geldig vertrouwen** is:
+Tot slot de **altijd geldig vertrouwen** is:
 
 ![](assets/statistical_11.png){width="200" align="center"}
 
