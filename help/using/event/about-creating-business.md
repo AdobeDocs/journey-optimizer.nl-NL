@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Een bedrijfsgebeurtenis configureren
 description: Leer hoe u een zakelijke gebeurtenis maakt
-feature: Events
+feature: Journeys, Events
 topic: Administration
-role: Admin
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Intermediate, Experienced
 keywords: gebeurtenis, reis, zaken, configuratie
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1119'
 ht-degree: 9%
@@ -62,7 +62,7 @@ In het geval van on-shot bedrijfsgebeurtenissen, voor een bepaalde reis, worden 
 
 Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
 
-1. Selecteer in de sectie van het menu ADMINISTRATIE de optie **[!UICONTROL Configurations]**. In de  **[!UICONTROL Events]** sectie, klikt u op **[!UICONTROL Manage]**. De lijst met gebeurtenissen wordt weergegeven.
+1. Selecteer in de sectie van het menu ADMINISTRATIE de optie **[!UICONTROL Configurations]**. In de  **[!UICONTROL Events]** sectie, klikken **[!UICONTROL Manage]**. De lijst met gebeurtenissen wordt weergegeven.
 
    ![](assets/jo-event1.png)
 
@@ -84,7 +84,7 @@ Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
 
 1. Het aantal journey’s dat deze gebeurtenis gebruikt, wordt in het veld **[!UICONTROL Used in]** weergegeven. U kunt klikken op het pictogram **[!UICONTROL View journeys]** om de lijst weer te geven met journey’s die deze gebeurtenis gebruiken.
 
-1. Definieer het schema en de payload velden: Hier selecteert u de gebeurtenisinformatie (of lading) die de reis verwacht te ontvangen. Deze gegevens gebruikt u later op de reis. Zie [deze sectie](../event/about-creating-business.md#define-the-payload-fields).
+1. Definieer het schema en de payload-velden: hier selecteert u de gebeurtenisgegevens (of de nuttige lading) die u wilt ontvangen. Deze gegevens gebruikt u later op de reis. Zie [deze sectie](../event/about-creating-business.md#define-the-payload-fields).
 
    ![](assets/jo-event5-business.png)
 
@@ -112,7 +112,7 @@ Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
 
 De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. Voor meer informatie over XDM, verwijs naar [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
-1. Selecteer een XDM-schema in de lijst en klik op de knop **[!UICONTROL Fields]** of op **[!UICONTROL Edit]** pictogram.
+1. Selecteer een XDM-schema in de lijst en klik op de knop **[!UICONTROL Fields]** of op het **[!UICONTROL Edit]** pictogram.
 
    ![](assets/journey8-business.png)
 
@@ -136,7 +136,7 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 
 Gebruik de voorvertoning van de lading om de ladingsdefinitie te bevestigen.
 
-1. Klik op de knop **[!UICONTROL View Payload]** pictogram voor een voorvertoning van de lading die door het systeem wordt verwacht.
+1. Klik op de knop **[!UICONTROL View Payload]** pictogram om een voorvertoning weer te geven van de lading die door het systeem wordt verwacht.
 
    ![](assets/journey13-business.png)
 

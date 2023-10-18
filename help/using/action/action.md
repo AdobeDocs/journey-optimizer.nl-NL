@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Acties
 description: Leer hoe u een actie configureert
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Admin,Developer
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Experienced
 keywords: acties, reizen, berichten, verzenden, verbindingen
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 16738786e4ebeef3417fd0f6e5be741b348c2744
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 54%
@@ -41,7 +41,7 @@ Met aangepaste acties kunt u een verbinding met een extern systeem configureren 
 
 De acties zijn beschikbaar in het linkerpalet van uw reis, in **[!UICONTROL Action]** categorie. Zie [deze pagina](../building-journeys/about-journey-activities.md#action-activities).
 
-Selecteer **[!UICONTROL Configurations]** in de sectie van het menu van het BEHEER. In de  **[!UICONTROL Actions]** sectie, klikt u op **[!UICONTROL Manage]**. De lijst met acties wordt weergegeven. Zie [deze pagina](../start/user-interface.md) voor meer informatie over de interface.
+Als u de actielijst wilt weergeven of een nieuwe actie wilt configureren, selecteert u **[!UICONTROL Configurations]** in de sectie van het menu van het Beleid. In de  **[!UICONTROL Actions]** sectie, klikken **[!UICONTROL Manage]**. De lijst met acties wordt weergegeven. Zie [deze pagina](../start/user-interface.md) voor meer informatie over de interface.
 
 ![](assets/custom1.png)
 

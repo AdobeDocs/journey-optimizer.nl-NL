@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Voorbeelden van query's voor gegevensset
 description: Voorbeelden van query's voor gegevensset
-feature: Reporting
+feature: Journeys, Reporting, Use Cases, Datasets, Data Management
 topic: Content Management
-role: User
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Experienced
 keywords: dataset, optimizer, gebruiksgevallen
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Als u de volledige lijst met velden en kenmerken voor elk schema wilt weergeven,
 
 ## Dataset over e-mailvolgervaringen{#email-tracking-experience-event-dataset}
 
-_Naam in de interface: Dataset voor CJM-e-mailtrackingervaring_
+_Naam in de interface: CJM Email Tracking Experience Event Dataset_
 
 Systeemdataset voor het invoeren van e-mailvolgervaringsgebeurtenissen van Journey Optimizer.
 
@@ -72,7 +72,7 @@ limit 100;
 
 ## Gegevensset voor feedbackgebeurtenis{#message-feedback-event-dataset}
 
-_Naam in de interface: Dataset voor CJM-feedbackgebeurtenis_
+_Naam in de interface: Dataset voor feedbackgebeurtenis CJM-bericht_
 
 Dataset voor het invoeren van feedback over e-mail- en pushtoepassingen van Journey Optimizer.
 
@@ -110,7 +110,7 @@ order by
 limit 100;
 ```
 
-Op geaggregeerd niveau wordt het domeinniveaurapport (gesorteerd op topdomeinen): Domeinnaam, Bericht verzonden, Stemmen
+Op geaggregeerd niveau, rapport op domeinniveau (gesorteerd op topdomeinen): Domeinnaam, Bericht verzonden, Stemmen
 
 ```sql
 SELECT split_part(_experience.customerJourneyManagement.emailChannelContext.address, '@', 2) AS recipientDomain, SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END)AS sentCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' THEN 1 ELSE 0 END )AS bounceCount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY recipientDomain ORDER BY sentCount DESC;
@@ -164,13 +164,13 @@ WHERE
 ORDER BY timestamp DESC;
 ```
 
-wanneer de datumnotatie: YYYY-MM-DD HH:MM:SS.
+waarin de datumnotatie is: YYYY-MM-DD HH:MM:SS.
 
 Zodra geïdentificeerd, verwijder die adressen uit de onderdrukkingslijst van Journey Optimizer. [Meer informatie](../configuration/manage-suppression-list.md#remove-from-suppression-list).
 
 ## Dataset met gebeurtenissen voor het bijhouden van pushmeldingen {#push-tracking-experience-event-dataset}
 
-_Naam in de interface: Dataset voor CJM-gebeurtenis voor het bijhouden van push_
+_Naam in de interface: CJM Push Tracking Experience Event Dataset_
 
 Dataset voor het opnemen van gebeurtenissen voor het bijhouden van mobiele gegevens voor push vanuit Journey Optimizer.
 
@@ -192,7 +192,7 @@ _Interne naam: Gebeurtenissen van de Stap van de reis (systeemdataset)_
 
 Dataset voor het opnemen van step gebeurtenissen in de reis.
 
-Het verwante schema is een Dagboekstapgebeurtenisschema voor Journey Orchestration.
+Het verwante schema is het schema Reisstapgebeurtenis voor Journey Orchestration.
 
 Deze vraag toont de indeling van de aantallen van het actiesucces door actielabel voor een bepaalde reis:
 
@@ -291,7 +291,7 @@ select value.marketing.email.val FROM (
 
 ## Gegevensset BCC-feedbackgebeurtenis{#bcc-feedback-event-dataset}
 
-_Naam in de interface: AJO BCC Dataset voor feedbackgebeurtenis (gegevensset systeem)_
+_Naam in de interface: AJO BCC Dataset van de Gebeurtenis van de Terugkoppeling (systeemdataset)_
 
 Dataset om informatie voor BCC Berichten op te slaan.
 
@@ -334,7 +334,7 @@ WHERE
 
 ## Entiteitsgegevens{#entity-dataset}
 
-_Naam in de interface: ajo_entity_dataset (gegevensset systeem)_
+_Naam in de interface: ajo_entiteit_dataset (systeem dataset)_
 
 Dataset om entiteitmeta-gegevens voor berichten op te slaan die naar het eind worden verzonden - gebruiker.
 

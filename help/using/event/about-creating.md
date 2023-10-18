@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Een eenheidsgebeurtenis configureren
 description: Leer hoe u een eenheidsgebeurtenis configureert
-feature: Events
+feature: Journeys, Events
 topic: Administration
-role: Admin
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Intermediate, Experienced
 keywords: evenement, eenheidsprijs, creëren, reis
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 12%
@@ -27,7 +27,7 @@ Eenheidsgebeurtenissen zijn gekoppeld aan een specifiek profiel. Zij kunnen op r
 
 Hier volgen de eerste stappen voor het configureren van een nieuwe gebeurtenis:
 
-1. Selecteer in de sectie van het menu ADMINISTRATIE de optie **[!UICONTROL Configurations]**. In de  **[!UICONTROL Events]** sectie, klikt u op **[!UICONTROL Manage]**. De lijst met gebeurtenissen wordt weergegeven.
+1. Selecteer in de sectie van het menu ADMINISTRATIE de optie **[!UICONTROL Configurations]**. In de  **[!UICONTROL Events]** sectie, klikken **[!UICONTROL Manage]**. De lijst met gebeurtenissen wordt weergegeven.
 
    ![](assets/jo-event1.png)
 
@@ -47,19 +47,19 @@ Hier volgen de eerste stappen voor het configureren van een nieuwe gebeurtenis:
 
    ![](assets/jo-event3bis.png)
 
-1. In de **[!UICONTROL Event ID type]** Selecteer het type gebeurtenis-id dat u wilt gebruiken: **Op regel gebaseerd** of **Door systeem gegenereerd**. Meer informatie over id-typen gebeurtenissen in [deze sectie](../event/about-events.md#event-id-type).
+1. In de **[!UICONTROL Event ID type]** in het veld selecteert u het type gebeurtenis-id dat u wilt gebruiken: **Op regel gebaseerd** of **Door systeem gegenereerd**. Meer informatie over id-typen gebeurtenissen in [deze sectie](../event/about-events.md#event-id-type).
 
    ![](assets/jo-event4.png)
 
 1. Het aantal journey’s dat deze gebeurtenis gebruikt, wordt in het veld **[!UICONTROL Used in]** weergegeven. U kunt klikken op het pictogram **[!UICONTROL View journeys]** om de lijst weer te geven met journey’s die deze gebeurtenis gebruiken.
 
-1. Definieer het schema en de payload velden: Hier selecteert u de gebeurtenisinformatie (gewoonlijk een lading genoemd) die reizen verwacht te ontvangen. U kunt deze informatie vervolgens gebruiken tijdens uw journey. Zie [deze sectie](../event/about-creating.md#define-the-payload-fields).
+1. Definieer het schema en de payload-velden: hier selecteert u de gebeurtenisgegevens (gewoonlijk een payload genoemd) die de reis verwacht te ontvangen. U kunt deze informatie vervolgens gebruiken tijdens uw journey. Zie [deze sectie](../event/about-creating.md#define-the-payload-fields).
 
    ![](assets/jo-event5.png)
 
    >[!NOTE]
    >
-   >Wanneer u **[!UICONTROL System Generated]** type, zijn alleen schema&#39;s beschikbaar die het veld eventID-type hebben. Wanneer u **[!UICONTROL Rule Based]** type, zijn alle schema&#39;s van de Gebeurtenis van de Ervaring beschikbaar.
+   >Wanneer u **[!UICONTROL System Generated]** type, zijn alleen schema&#39;s beschikbaar die het veld eventID-type hebben. Wanneer u **[!UICONTROL Rule Based]** type, zijn alle schema&#39;s voor Experience Event beschikbaar.
 
 1. Voor op regel-gebaseerde gebeurtenissen, klik binnen **[!UICONTROL Event ID condition]** veld. Gebruikend de eenvoudige uitdrukkingsredacteur, bepaal de voorwaarde die door het systeem zal worden gebruikt om de gebeurtenissen te identificeren die uw reis zullen teweegbrengen.
    ![](assets/jo-event6.png)
@@ -70,11 +70,11 @@ Hier volgen de eerste stappen voor het configureren van een nieuwe gebeurtenis:
    >
    >De geavanceerde expressie-editor is niet beschikbaar bij het definiëren van de **[!UICONTROL Event ID condition]**. In de eenvoudige expressie-editor zijn niet alle operatoren beschikbaar, maar zijn ze afhankelijk van het gegevenstype. Voor een tekenreekstype kunt u bijvoorbeeld &quot;contains&quot; of &quot;equal to&quot; gebruiken.
    >
-   >Als u het schema na het maken van de gebeurtenis wijzigt met nieuwe opsomwaarden, moet u de volgende stappen uitvoeren om de wijzigingen toe te passen op de bestaande gebeurtenis: Hef de selectie van het opsommingsveld in de gebeurtenisvelden op, bevestig de selectie en selecteer vervolgens nogmaals het nummeringsveld. De nieuwe opsommingswaarde wordt nu weergegeven.
+   >Als u na het maken van de gebeurtenis uw schema met nieuwe opsomwaarden wijzigt, moet u de volgende stappen volgen om de wijzigingen toe te passen op de bestaande gebeurtenis: schakel het opsomveld uit de gebeurtenisvelden uit, bevestig de selectie en selecteer vervolgens nogmaals het opsomveld. De nieuwe opsommingswaarde wordt nu weergegeven.
 
 1. Voeg een naamruimte toe. Deze stap is optioneel, maar wordt aangeraden, omdat u door het toevoegen van een naamruimte gegevens kunt gebruiken die zijn opgeslagen in de real-timeklantprofielservice. U definieert zo het type sleutel van de gebeurtenis. Zie [deze sectie](../event/about-creating.md#select-the-namespace).
 
-1. Definieer de profiel-id: Kies een veld in uw payload-velden of definieer een formule om de persoon te identificeren die aan de gebeurtenis is gekoppeld. Deze sleutel wordt automatisch ingesteld (maar kan nog steeds worden bewerkt) als u een naamruimte selecteert. Reizen kiezen immers de sleutel die moet overeenkomen met de naamruimte (als u bijvoorbeeld een naamruimte voor e-mail selecteert, wordt de e-mailsleutel geselecteerd). Zie [deze sectie](../event/about-creating.md#define-the-event-key).
+1. Definieer de profiel-id: kies een veld in uw payload-velden of definieer een formule om de persoon te identificeren die aan de gebeurtenis is gekoppeld. Deze sleutel wordt automatisch ingesteld (maar kan nog steeds worden bewerkt) als u een naamruimte selecteert. Reizen kiezen immers de sleutel die moet overeenkomen met de naamruimte (als u bijvoorbeeld een naamruimte voor e-mail selecteert, wordt de e-mailsleutel geselecteerd). Zie [deze sectie](../event/about-creating.md#define-the-event-key).
 
    ![](assets/jo-event7.png)
 
@@ -86,7 +86,7 @@ Hier volgen de eerste stappen voor het configureren van een nieuwe gebeurtenis:
 
 De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de gebeurtenis in uw reis verwacht te ontvangen en de sleutel om te identificeren welke persoon aan de gebeurtenis wordt geassocieerd. De nuttige lading is gebaseerd op de Experience Cloud XDM gebiedsdefinitie. Voor meer informatie over XDM, verwijs naar [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
-1. Selecteer een XDM-schema in de lijst en klik op de knop **[!UICONTROL Fields]** of op **[!UICONTROL Edit]** pictogram.
+1. Selecteer een XDM-schema in de lijst en klik op de knop **[!UICONTROL Fields]** of op het **[!UICONTROL Edit]** pictogram.
 
    ![](assets/journey8.png)
 
@@ -106,7 +106,7 @@ De ladingsdefinitie staat u toe om de informatie te kiezen het systeem van de ge
 
 1. Als u de gewenste velden hebt geselecteerd, klikt u op **[!UICONTROL Ok]** of drukken **[!UICONTROL Enter]**.
 
-   Het aantal geselecteerde velden wordt weergegeven in het dialoogvenster **[!UICONTROL Fields]** veld.
+   Het aantal geselecteerde velden wordt weergegeven in de **[!UICONTROL Fields]** veld.
 
    ![](assets/journey12.png)
 
@@ -139,9 +139,9 @@ Per reis is slechts één naamruimte toegestaan. Als u meerdere gebeurtenissen g
 
 ## De profiel-id definiëren {#define-the-event-key}
 
-De sleutel is het veld, of de combinatie van velden, dat deel uitmaakt van de gegevens voor gebeurtenislading en waarmee het systeem de persoon kan identificeren die aan de gebeurtenis is gekoppeld. De sleutel kan bijvoorbeeld de Experience Cloud-id, een CRM-id of een e-mailadres zijn.
+De sleutel is het veld, of de combinatie van velden, dat deel uitmaakt van de gegevens voor gebeurtenislading en waarmee het systeem de persoon kan identificeren die aan de gebeurtenis is gekoppeld. De sleutel kan, bijvoorbeeld, Experience Cloud identiteitskaart, een identiteitskaart van CRM, of een e-mailadres zijn.
 
-Als u gegevens wilt gebruiken die zijn opgeslagen in de Adobe Real-Time Customer Profile-database, moet de sleutel van de gebeurtenis de informatie zijn die u als profielidentiteit hebt gedefinieerd in het dialoogvenster [Real-time service voor klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}.
+Als u gegevens wilt gebruiken die zijn opgeslagen in de Adobe Real-time Klantprofieldatabase, moet de sleutel van de gebeurtenis de informatie zijn die u als profielidentiteit hebt gedefinieerd in het dialoogvenster [Real-time service voor klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}.
 
 Met de profiel-id kan het systeem de afstemming tussen de gebeurtenis en het profiel van de persoon uitvoeren. Als u een schema met een primaire identiteit selecteert, **[!UICONTROL Profile identifier]** en **[!UICONTROL Namespace]** velden worden vooraf ingevuld. Als er geen identiteit is gedefinieerd, wordt _identityMap > id_ is de primaire sleutel. Vervolgens moet u een naamruimte selecteren en wordt de sleutel automatisch vooraf ingevuld met _identityMap > id_.
 
@@ -170,9 +170,9 @@ Met de voorvertoning van de lading kunt u de definitie van de lading valideren.
 
 >[!NOTE]
 >
->Wanneer u een gebeurtenis maakt die door het systeem wordt gegenereerd, slaat u de gebeurtenis op voordat u deze weergeeft. Deze stap is nodig om een gebeurtenis-id in de lading te produceren.
+>Wanneer u een gebeurtenis maakt die door het systeem wordt gegenereerd, slaat u de gebeurtenis op voordat u deze weergeeft. Deze stap is nodig om een gebeurtenis-id te genereren in de payload.
 
-1. Klik op de knop **[!UICONTROL View Payload]** pictogram voor een voorvertoning van de lading die door het systeem wordt verwacht.
+1. Klik op de knop **[!UICONTROL View Payload]** pictogram om een voorvertoning weer te geven van de lading die door het systeem wordt verwacht.
 
    ![](assets/journey13.png)
 

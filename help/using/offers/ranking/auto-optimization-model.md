@@ -3,11 +3,11 @@ product: experience platform
 solution: Experience Platform
 title: Modellen voor automatische optimalisatie
 description: Meer informatie over modellen voor automatische optimalisatie
-feature: Ranking, Offers
+feature: Ranking, Decision Management
 role: User
-level: Intermediate
+level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 0ea2ed03a476e0b64a8ebfadde403ff9f9e57bba
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Het algoritme dat aan Auto-optimalisering ten grondslag ligt is **Thompson sampl
 
 [Thompson sampling](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}, of Bayesiaanse bandieten, is een Bayesiaanse benadering van het multi-gewapende bandit probleem.  Het basisidee is om de gemiddelde beloning van elk aanbod als een beloning te behandelen? **willekeurige variabele** en gebruik de gegevens die we tot nu toe hebben verzameld om ons &quot; geloof &quot; over de gemiddelde beloning bij te werken . Dit &quot;geloof&quot; wordt wiskundig weergegeven door een **waarschijnlijkheidsverdeling achter de hand** - in wezen een reeks waarden voor de gemiddelde beloning, samen met de plausibiliteit (of waarschijnlijkheid) die de beloning voor elke aanbieding heeft. Dan, voor elk besluit, zullen we **monster een punt van elk van deze beloningsverdelingen achteraf** en selecteer het bod waarvan de in de steekproef opgenomen beloning de hoogste waarde had.
 
-Dit proces wordt geïllustreerd in onderstaande afbeelding, waar we drie verschillende aanbiedingen hebben. Aanvankelijk hebben we geen bewijs van de gegevens en we gaan ervan uit dat alle aanbiedingen een uniforme posterior-beloningspreiding hebben. We nemen een monster van de posterior beloningsdistributie van elk aanbod. Het voorbeeld dat u hebt geselecteerd bij de distributie van Aanbieding 2, heeft de hoogste waarde. Dit voorbeeld **exploratie**. Na het tonen van Aanbieding 2, verzamelen wij om het even welke potentiële beloning (bijvoorbeeld omzetting/geen-omzetting) en werken de posterior distributie van Aanbieding 2 bij gebruikend Bayes Theorem zoals hieronder verklaard.  We zetten dit proces voort en werken de posterior distributies bij telkens wanneer een aanbieding wordt getoond en de beloning wordt geïnd. In het tweede cijfer, wordt Aanbieding 3 geselecteerd - hoewel Aanbieding 1 de hoogste gemiddelde beloning heeft (zijn posterior beloningsdistributie is het verst naar rechts), heeft het proces van bemonstering van elke distributie ertoe geleid dat wij een schijnbaar suboptimale Aanbieding 3 kozen. Zo geven we onszelf de kans om meer te leren over de werkelijke beloningsverdeling van aanbieding 3.
+Dit proces wordt geïllustreerd in onderstaande afbeelding, waar we drie verschillende aanbiedingen hebben. Aanvankelijk hebben we geen bewijs van de gegevens en we gaan ervan uit dat alle aanbiedingen een uniforme posterior-beloningspreiding hebben. We nemen een monster van de posterior beloningsdistributie van elk aanbod. Het voorbeeld dat u hebt geselecteerd bij de distributie van Aanbieding 2, heeft de hoogste waarde. Dit voorbeeld **exploratie**. Na het tonen van Aanbieding 2, verzamelen wij om het even welke potentiële beloning (bijvoorbeeld omzetting/geen-omzetting) en werken de posterior distributie van Aanbieding 2 bij gebruikend Bayes Theorem zoals hieronder verklaard.  We zetten dit proces voort en werken de posterior distributies bij telkens wanneer een aanbieding wordt getoond en de beloning wordt geïnd. In het tweede cijfer, wordt Aanbieding 3 geselecteerd - hoewel Aanbieding 1 de hoogste gemiddelde beloning heeft (zijn posterior beloningsdistributie is het verst naar rechts), heeft het proces van bemonstering van elke distributie ertoe geleid dat wij een schijnbaar suboptimale Aanbieding 3 kozen. Daarmee geven we onszelf de kans om meer te leren over de werkelijke beloningsverdeling van Aanbieding 3.
 
 Aangezien meer monsters worden verzameld, neemt het vertrouwen toe en wordt een nauwkeuriger schatting van de mogelijke beloning verkregen (die overeenkomt met een kleinere beloningsverdeling). Dit proces om onze overtuigingen bij te werken naarmate er meer bewijs beschikbaar komt, wordt bekend als **Bayesiaanse gevolgtrekking**.
 
@@ -101,6 +101,6 @@ Het probleem van de &quot;koude start&quot; doet zich voor wanneer een nieuwe aa
 
 &quot;Lift&quot;is metrisch die wordt gebruikt om de prestaties van om het even welke strategie te meten die in het rangschikken van de dienst, in vergelijking met basislijnstrategie wordt opgesteld (het dienen van aanbiedingen enkel willekeurig).
 
-Als we bijvoorbeeld geïnteresseerd zijn in het meten van de prestaties van een Thompson Sampling-strategie (TS) die wordt gebruikt bij ranking service, en de KPI is de conversiesnelheid (CVR), wordt de &#39;lift&#39; van de TS-strategie ten opzichte van de basislijnstrategie als volgt gedefinieerd:
+Bijvoorbeeld, als wij in het meten van de prestaties van een strategie van de Steekproef van Thompson (TS) die in het rangschikken van de dienst wordt gebruikt geinteresseerd, en KPI is omzettingspercentage (CVR), wordt de &quot;lift&quot;van de TS strategie tegen basislijnstrategie gedefinieerd als:
 
 ![](../assets/ai-ranking-lift.png)

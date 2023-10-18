@@ -1,12 +1,12 @@
 ---
 title: Gepersonaliseerde aanbiedingen maken
 description: Leer hoe u uw aanbiedingen kunt maken, configureren en beheren
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 3%
@@ -61,7 +61,7 @@ Om een **aanbieden** Voer de volgende stappen uit:
 
    ![](../assets/offer_manage-access.png)
 
-1. Voeg afbeeldingen toe om te bepalen waar je voorstel in het bericht wordt weergegeven. [Meer informatie](add-representations.md)
+1. Voeg representaties toe om te bepalen waar je voorstel in het bericht wordt weergegeven. [Meer informatie](add-representations.md)
 
    ![](../assets/channel-placement.png)
 
@@ -69,7 +69,7 @@ Om een **aanbieden** Voer de volgende stappen uit:
 
    >[!NOTE]
    >
-   >Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien. Klikken **[!UICONTROL Refresh]** om gegevens bij te werken.
+   >Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien. Klikken **[!UICONTROL Refresh]** gegevens bijwerken.
    >
    >Let op: profielschattingen zijn niet beschikbaar wanneer regelparameters gegevens bevatten die niet in het profiel staan, zoals contextgegevens. Bijvoorbeeld, een toelatingsregel die het huidige weer om 80 graden vereist te zijn.
 
@@ -83,7 +83,7 @@ Zodra de toelatingsregels en de beperkingen zijn bepaald, toont een samenvatting
 
 1. Zorg ervoor alles behoorlijk wordt gevormd.
 
-1. U kunt informatie weergeven over de geschatte gekwalificeerde profielen. Klikken **[!UICONTROL Refresh]** om gegevens bij te werken.
+1. U kunt informatie weergeven over de geschatte gekwalificeerde profielen. Klikken **[!UICONTROL Refresh]** gegevens bijwerken.
 
    ![](../assets/offer-summary-estimate.png)
 
@@ -103,11 +103,11 @@ Het is nu klaar om aan gebruikers te worden geleverd.
 
 ## Aanbiedingen beheren {#offer-list}
 
-In de lijst met aanbiedingen kunt u de aanbieding selecteren om de eigenschappen ervan weer te geven. U kunt het ook bewerken, de status wijzigen (**Concept**, **Goedgekeurd**, **Gearchiveerd**), dupliceert de aanbieding of verwijdert deze.
+In de lijst met aanbiedingen kunt u de aanbieding selecteren en de eigenschappen ervan weergeven. U kunt het ook bewerken, de status wijzigen (**Concept**, **Goedgekeurd**, **Gearchiveerd**), dupliceert de aanbieding of verwijdert deze.
 
 ![](../assets/offer_created.png)
 
-Selecteer **[!UICONTROL Edit]** om terug te gaan naar de modus Uitgave van aanbieding, waar u de [details](#create-offer), [representaties](#representations)en bewerkt u de [subsidiabiliteitsregels en beperkingen](#eligibility).
+Selecteer de **[!UICONTROL Edit]** om terug te gaan naar de modus Uitgave van aanbieding, waar u de [details](#create-offer), [representaties](#representations)en bewerkt u de [subsidiabiliteitsregels en beperkingen](#eligibility).
 
 Selecteer een goedgekeurd voorstel en klik op **[!UICONTROL Undo approve]** om de status van de aanbieding weer in te stellen op **[!UICONTROL Draft]**.
 
@@ -119,8 +119,8 @@ De **[!UICONTROL More actions]** schakelt u de hieronder beschreven handelingen 
 
 ![](../assets/offer_more-actions.png)
 
-* **[!UICONTROL Duplicate]**: een aanbod doet ontstaan met dezelfde eigenschappen, representaties, subsidiabiliteitsregels en beperkingen. Standaard bevat de nieuwe aanbieding de **[!UICONTROL Draft]** status.
-* **[!UICONTROL Delete]**: Hiermee verwijdert u het voorstel uit de lijst.
+* **[!UICONTROL Duplicate]**: creëert een aanbod met dezelfde eigenschappen, representaties, subsidiabiliteitsregels en beperkingen. Standaard bevat de nieuwe aanbieding de **[!UICONTROL Draft]** status.
+* **[!UICONTROL Delete]**: verwijdert het voorstel uit de lijst.
 
   >[!CAUTION]
   >
@@ -142,7 +142,7 @@ Nadat u een voorstel hebt gemaakt, kunt u in de lijst op de naam ervan klikken.
 
 ![](../assets/offer_click-name.png)
 
-Op deze manier hebt u toegang tot gedetailleerde informatie voor dat aanbod. Selecteer **[!UICONTROL Change log]** tab naar [alle wijzigingen controleren](../get-started/user-interface.md#monitoring-changes) die aan het aanbod zijn gedaan.
+Op deze manier hebt u toegang tot gedetailleerde informatie voor dat aanbod. Selecteer de **[!UICONTROL Change log]** tab naar [alle wijzigingen controleren](../get-started/user-interface.md#monitoring-changes) die aan het aanbod zijn gedaan.
 
 ![](../assets/offer_information.png)
 

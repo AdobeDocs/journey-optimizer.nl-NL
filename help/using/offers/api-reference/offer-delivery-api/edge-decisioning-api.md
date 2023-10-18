@@ -1,12 +1,12 @@
 ---
 title: Aanbiedingen leveren met de Edge-API voor besluitvorming
 description: Met de Adobe Experience Platform Web SDK kunt u persoonlijke aanbiedingen ophalen en renderen die u hebt gemaakt met behulp van API's of de aanbiedingsbibliotheek.
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 1%

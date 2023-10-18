@@ -5,10 +5,10 @@ title: Reiseinde
 description: Leer hoe een reis eindigt in Journey Optimizer
 feature: Journeys
 role: User
-level: Beginner
+level: Intermediate
 keywords: reenter, transport, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 3%
@@ -75,7 +75,7 @@ U kunt ook het volgende doen:
 
 ## Een reis stoppen{#stop-journey}
 
-Als u de voortgang van alle mensen op de reis moet stoppen, kunt u deze stoppen. Als de reis wordt stopgezet, wordt een time-out voor alle personen op de reis vastgesteld. Als we echter een reis stoppen, moeten mensen die al een reis hebben afgelegd, in de loop van hun reis worden gestopt. De reis is eigenlijk uitgeschakeld. Als u een reis wilt beëindigen, raden wij u aan deze te sluiten.
+Als u de voortgang van alle mensen op de reis moet stoppen, kunt u deze stoppen. Als de reis wordt stopgezet, wordt een time-out voor alle personen op de reis vastgesteld. Als we echter een reis stoppen, moeten mensen die al een reis hebben afgelegd, in de loop van hun reis worden gestopt. De reis is in feite uitgeschakeld. Als u een reis wilt beëindigen, raden wij u aan deze te sluiten.
 
 Een voltooide reisversie kan niet opnieuw worden gestart.
 

@@ -3,20 +3,20 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Een bericht verzenden naar abonnees
 description: Leer hoe u een reis bouwt om een bericht naar de abonnees van een lijst te verzenden
-feature: Journeys
+feature: Journeys, Use Cases, Subscriptions
 topic: Content Management
-role: User
-level: Intermediate
+role: User, Data Engineer
+level: Intermediate, Experienced
 keywords: reis, gebruiksgeval, bericht, abonnees, lijst, gelezen
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 3%
 
 ---
 
-# Hoofdlettergebruik: een bericht sturen naar de abonnees van een lijst{#send-a-message-to-the-subscribers-of-a-list}
+# Hoofdlettergebruik: een bericht verzenden naar de abonnees van een lijst{#send-a-message-to-the-subscribers-of-a-list}
 
 Het doel van dit gebruiksgeval is een reis tot stand te brengen om een bericht naar de abonnees van een lijst te verzenden.
 
@@ -55,7 +55,7 @@ Om deze reis te vormen, volg deze stappen:
 
       ![](assets/message-to-subscribers-uc-2.png)
 
-   1. In de **[!UICONTROL Add an expression]** dialoogvenster, klikt u op **[!UICONTROL Ok]**.
+   1. In de **[!UICONTROL Add an expression]** klikt u op **[!UICONTROL Ok]**.
 
 >[!CAUTION]
 >

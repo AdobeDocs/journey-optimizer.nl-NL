@@ -1,14 +1,15 @@
 ---
 title: Aan de slag met Experience Decisition
 description: Ervaar meer over het beslissen van ervaring
-feature: Offers
+feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 14b6ea7d0bf460cdab865f21977ab4bbe789ef7c
+exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 1%

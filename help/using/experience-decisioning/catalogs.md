@@ -1,15 +1,15 @@
 ---
 title: Itemcatalogus
 description: Leer hoe u met de itemcatalogus werkt
-feature: Offers
+feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-exl-id: 613a0a16-2e8f-499d-9db4-5175fefd93cc
-source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 1%

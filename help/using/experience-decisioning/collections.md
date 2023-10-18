@@ -1,14 +1,15 @@
 ---
 title: Verzamelingen
 description: Leer hoe u met verzamelingen werkt
-feature: Offers
+feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 3%

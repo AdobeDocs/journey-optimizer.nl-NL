@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: journaalgebeurtenissen gemeenschappelijke velden
-description: journaalgebeurtenissen gemeenschappelijke velden
-feature: Reporting
+title: journaalgebeurtenissen - gemeenschappelijke velden
+description: journaalgebeurtenissen - gemeenschappelijke velden
+feature: Journeys, Reporting
 topic: Content Management
-role: User
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Experienced
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
 
 ---
 
-# journaalgebeurtenissen gemeenschappelijke velden {#sharing-common-fields}
+# journaalgebeurtenissen - gemeenschappelijke velden {#sharing-common-fields}
 
 Deze veldgroep wordt gedeeld door de tripStepEvent en de tripStepProfileEvent.
 
@@ -49,31 +49,31 @@ Type: boolean
 
 Gebeurtenis-id tijdens de verwerking, voor de stapverwerking. Als de gebeurtenis een externe gebeurtenis is, is de waarde eventId. Als de gebeurtenis een interne gebeurtenis is, is de waarde de interne eventId (zoals scheduledNotificationReceived, executedAction, enz.).
 
-Type: string
+Type: tekenreeks
 
 ## nodeID {#nodeid-field}
 
 Client node id (vanaf het canvas).
 
-Type: string
+Type: tekenreeks
 
 ## stepID {#stepdid-field}
 
 Unieke id van de stap die momenteel wordt verwerkt.
 
-Type: string
+Type: tekenreeks
 
 ## stepName {#stepname-field}
 
 Naam van de stap die momenteel wordt verwerkt.
 
-Type: string
+Type: tekenreeks
 
 ## stepType {#steptype-field}
 
 Type van de stap.
 
-Type: string
+Type: tekenreeks
 
 Mogelijke waarden:
 
@@ -86,28 +86,28 @@ Mogelijke waarden:
 
 Status van de stap die de status van de stap vertegenwoordigt, wanneer de verwerking ervan is uitgevoerd (en de stapgebeurtenis is geactiveerd).
 
-Type: string
+Type: tekenreeks
 
 De status kan zijn:
 
-* beëindigd: de stap heeft geen overgang en de verwerking ervan is voltooid.
+* beëindigd: de stap heeft geen overgang en zijn verwerking is met succes geëindigd.
 * fout: er is een fout opgetreden tijdens de stapverwerking.
-* overgangen: de stap wacht op een gebeurtenis om over te gaan naar een andere stap.
-* beperkt: de stap is mislukt op een begrenzingsfout die tijdens een handeling of verrijking is opgetreden.
-* timedout: de stap is mislukt op een time-outfout die tijdens een handeling of verrijking is opgetreden.
-* instanceTimeout: de stap heeft de verwerking gestopt, omdat de instantie de time-out heeft bereikt.
+* overgangen: de stap wacht op een gebeurtenis om naar een andere stap over te gaan.
+* beperkt: de stap is mislukt op een afkapfout die tijdens een handeling of verrijking is opgetreden.
+* timeout: de stap is mislukt op een time-outfout die tijdens een handeling of verrijking is opgetreden.
+* instanceTimeout: de stap heeft zijn verwerking tegengehouden, omdat de instantie zijn onderbreking heeft bereikt.
 
 ## tripID {#journeyid-field}
 
 ID van de reis.
 
-Type: string
+Type: tekenreeks
 
 ## tripVersionID {#journeyversionid-field}
 
 ID van de reisversie. Deze id vertegenwoordigt de identiteitsverwijzing naar de reis, in het geval van de tripStepEvent.
 
-Type: string
+Type: tekenreeks
 
 >[!NOTE]
 >
@@ -117,7 +117,7 @@ Type: string
 
 Naam van de reisversie.
 
-Type: string
+Type: tekenreeks
 
 >[!NOTE]
 >
@@ -127,43 +127,43 @@ Type: string
 
 Versie van de reisversie.
 
-Type: string
+Type: tekenreeks
 
 ## instanceID {#instanceid-field}
 
 Interne id van het reisexemplaar.
 
-Type: string
+Type: tekenreeks
 
 ## externalKey {#externalkey-field}
 
 Externe sleutel die uit de gebeurtenis is geëxtraheerd om deze te verwerken.
 
-Type: string
+Type: tekenreeks
 
 ## parentStepID {#parenstepid-field}
 
 Stap-id van het bovenliggende element van de huidige verwerkte stap in de instantie.
 
-Type: string
+Type: tekenreeks
 
 ## parentStepName {#parentstepname-field}
 
 De naam van de stap van het bovenliggende element van de huidige stap.
 
-Type: string
+Type: tekenreeks
 
 ## parentTransitionID {#parenttransitionid-field}
 
 Id van de overgang die de instantie naar de verwerkte stap heeft gebracht.
 
-Type: string
+Type: tekenreeks
 
 ## parentTransitionName {#parenttransitionname-field}
 
 Naam van de overgang die de instantie aan de verwerkte stap heeft gebracht.
 
-Type: string
+Type: tekenreeks
 
 ## inTest {#intest-field}
 
@@ -181,9 +181,9 @@ Type: lang
 
 Hiermee wordt het instantietype aangegeven als het een batch of eenheidsinstantie is.
 
-Type: string
+Type: tekenreeks
 
-Waarden: partij/eenheid
+Waarden: batch/eenheidsprijs
 
 ## recienceIndex {#recurrenceindex-field}
 
@@ -201,16 +201,16 @@ Type: boolean
 
 External Key for batch event.
 
-Type: string
+Type: tekenreeks
 
 ## batchInstanceID {#batchinstanceid-field}
 
 this is the batch instance ID.
 
-Type: string
+Type: tekenreeks
 
 ## batchUnitaryBranchID {#batchunitarybranchid-field}
 
 als de instantie is geactiveerd door een batchinstantie, is dit de eenheidvertakkings-id.
 
-Type: string
+Type: tekenreeks

@@ -3,10 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Door de klant beheerde toetsen
 description: Leer hoe u de sleutels van klanten voor Adobe Journey Optimizer kunt instellen en beheren.
-feature: Monitoring
+feature: Privacy, Monitoring
 role: Developer, User, Admin, Leader
 level: Intermediate
-source-git-commit: 53b37fbb0fc799a0757e3ba8da2c42093d460d00
+exl-id: f0985d1f-0bcf-452f-bd46-dfeca0424f01
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->[!DNL Customer Managed Keys] functionaliteit is momenteel alleen beschikbaar voor organisaties die de [Gezondheidsschild of privacy- en beveiligingsschild](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html) invoegtoepassing.
+>[!DNL Customer Managed Keys] de functionaliteit is momenteel alleen beschikbaar voor organisaties die de [Gezondheidsschild of privacy- en beveiligingsschild](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html) invoegtoepassing.
 
 Met Adobe Journey Optimizer [Gezondheidsschild](https://www.adobe.com/trust/compliance/hipaa-ready.html) en Privacy &amp; Security Shield-klanten hebben de mogelijkheid om Azure Customer Managed Keys (CMK) te gebruiken en deze op hun gegevens toe te passen.
 

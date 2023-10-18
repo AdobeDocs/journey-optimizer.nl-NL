@@ -1,14 +1,15 @@
 ---
 title: Voorwaarden voor op code gebaseerde ervaring
 description: Volg de voorwaarden op deze pagina als u toepassingen en webpagina's wilt bewerken met de functie die is gebaseerd op Journey Optimizer-code
-feature: Offers
+feature: Code-based Experiences
 topic: Content Management
-role: User
+role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 3%
@@ -79,5 +80,3 @@ Leer hoe u gegevenssets voor het experimenteren met inhoud toevoegt aan de rappo
 >[!NOTE]
 >
 >De dataset wordt gebruikt read-only door [!DNL Journey Optimizer] rapportagesysteem en heeft geen invloed op gegevensverzameling of gegevensinvoer.
-
-

@@ -1,12 +1,12 @@
 ---
 title: Aangepaste aanbiedingen in een e-mail gebruiken
 description: Ontdek een voorbeeld van begin tot eind dat alle stappen toont nodig om aanbiedingen te vormen en hen in een e-mail te gebruiken.
-feature: Offers
+feature: Decision Management, Email
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 835e4bf227ce330b1426a9a4331fdf533fc757e3
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 3%
@@ -53,7 +53,7 @@ De belangrijkste stappen om aanbiedingen te vormen, hen te omvatten in een beslu
 
    * Selecteer een plaatsing die overeenkomt met de aanbiedingen die u wilt weergeven
    * Selecteer de beslissing uit de items die compatibel zijn met de geselecteerde plaatsing
-   * Je voorstellen bekijken
+   * Voorbeeld van je voorstellen bekijken
 
 Het algemene besluitvormingsproces voor het gebruik van aanbiedingen in een e-mail kan als volgt worden beschreven:
 
@@ -181,7 +181,7 @@ Wanneer het vormen van het besluit, zult u uw gepersonaliseerde aanbiedingen als
 
 1. Om het besluitvormingsproces te versnellen, creeer een dynamische inzameling.
 
-1. Gebruik de *Yoga* de kwalificatiecode van de inzameling om de vier gepersonaliseerde aanbiedingen te selecteren u vroeger creeerde.
+1. Gebruik de *Yoga* vergaarkwalificatie om de vier gepersonaliseerde aanbiedingen te selecteren u vroeger creeerde.
 
    ![](assets/offers-e2e-collection-using-tag.png)
 
@@ -191,13 +191,13 @@ De gedetailleerde stappen voor het maken van een verzameling worden beschreven i
 
 Nu moet u een besluit maken dat plaatsingen zal combineren met de gepersonaliseerde aanbiedingen en het fallback-aanbod dat u net hebt gemaakt.
 
-Deze combinatie wordt door de beslissingsengine gebruikt om de beste aanbieding voor een specifiek profiel te vinden: in dit voorbeeld zal het gebaseerd zijn op de prioriteit en beslissingsregel u aan elk aanbod toewees.
+Deze combinatie wordt door de beslissingsengine gebruikt om de beste aanbieding voor een specifiek profiel te vinden. In dit voorbeeld is de combinatie gebaseerd op de regel voor prioriteit en beslissing die u aan elke aanbieding hebt toegewezen.
 
 Om een aanbiedingsbesluit tot stand te brengen en te vormen, volg de belangrijkste stappen hieronder:
 
 1. Een beslissing nemen. Meer informatie in [deze sectie](../../using/offers/offer-activities/create-offer-activities.md#create-activity).
 
-1. Selecteer *Web - Afbeelding*, *E-mail - Afbeelding* en *Niet-digitaal - tekst* stages.
+1. Selecteer de *Web - Afbeelding*, *E-mail - Afbeelding* en *Niet-digitaal - tekst* plaatsingen.
 
    ![](assets/offers-e2e-decision-placements.png)
 
@@ -207,7 +207,7 @@ Om een aanbiedingsbesluit tot stand te brengen en te vormen, volg de belangrijks
 
 1. Als u een classificatie hebt gedefinieerd wanneer [samenstellen van componenten](#define-components), kunt u deze toewijzen aan een plaatsing in de beslissing. Indien meerdere aanbiedingen in aanmerking komen om in deze plaatsing te worden gepresenteerd, wordt in de beslissing gebruik gemaakt van deze formule om te berekenen welke aanbieding het eerst wordt geleverd.
 
-   De gedetailleerde stappen om een rangschikkingsformule aan een plaatsing toe te wijzen worden beschreven in [deze sectie](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula).
+   De gedetailleerde stappen voor het toewijzen van een waarderingsformule aan een plaatsing worden beschreven in [deze sectie](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula).
 
 1. Selecteer de fallback-aanbieding die u hebt gemaakt. Het wordt weergegeven als een beschikbare fallback-aanbieding voor de drie geselecteerde plaatsingen.
 
@@ -219,7 +219,7 @@ Om een aanbiedingsbesluit tot stand te brengen en te vormen, volg de belangrijks
 
 Uw beslissing is nu klaar om te worden gebruikt voor het aanbieden van geoptimaliseerde en persoonlijke aanbiedingen.
 
-De gedetailleerde stappen om een besluit tot stand te brengen en te vormen worden beschreven in [deze sectie](../../using/offers/offer-activities/create-offer-activities.md).
+De gedetailleerde stappen om een besluit te creëren en te vormen worden beschreven in [deze sectie](../../using/offers/offer-activities/create-offer-activities.md).
 
 ## De beslissing invoegen in een e-mail {#insert-decision-in-email}
 

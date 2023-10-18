@@ -1,12 +1,12 @@
 ---
 title: Selectie van aanbiedingen in beslissingen configureren
 description: Leer hoe u de selectie van aanbiedingen kunt beheren in beslissingen
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: f2174848c70610fc543ea9ddf766f0f7e579053a
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 5%
@@ -32,7 +32,7 @@ De prioritaire scores van aanbiedingen worden toegewezen wanneer het creëren va
 
 ## Willekeurige formule {#assign-ranking-formula}
 
-Met Journey Optimizer kunt u niet alleen prioriteit bieden, maar ook **rangschikkingsformules**. Dit zijn formules die bepalen welke aanbieding eerst voor een bepaalde plaatsing moet worden gepresenteerd, in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen.
+Met Journey Optimizer kunt u niet alleen prioriteit bieden, maar ook **waarderingsformules**. Dit zijn formules die bepalen welke aanbieding eerst voor een bepaalde plaatsing moet worden gepresenteerd, in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen.
 
 U kunt bijvoorbeeld de prioriteit verhogen van alle aanbiedingen met een einddatum van minder dan 24 uur, of aanbiedingen verhogen van de categorie &quot;actief&quot; als het interessepunt van het profiel &quot;actief&quot; is.
 
@@ -76,7 +76,7 @@ Nadat u een AI-model hebt gemaakt, kunt u het toewijzen aan een plaatsing in een
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
-1. Selecteer het AI-model dat u hebt gemaakt. Alle details van het model worden weergegeven.
+1. Selecteer het gemaakte AI-model. Alle details van het model worden weergegeven.
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 

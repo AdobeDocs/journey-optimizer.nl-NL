@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Aan de slag met reizen
 description: Aan de slag met reizen
-feature: Journeys
+feature: Journeys, Get Started, Overview
 role: User
-level: Beginner
+level: Beginner, Intermediate
 keywords: reis, ontdek, begin
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Ontwerp multistep geavanceerde scenario&#39;s aangedreven door de volgende mogel
 
 * Gebruik de **ingebouwde handelingen** om berichten te verzenden die zijn ontworpen in [!DNL Journey Optimizer] of maak **aangepaste handelingen** als u een systeem van derden gebruikt om uw berichten te verzenden.
 
-* Met de **reisontwerper**, maak uw meerstapse gebruiksscenario&#39;s: U kunt eenvoudig een entry-gebeurtenis of een lezen-publieksactiviteit slepen en neerzetten, voorwaarden toevoegen en gepersonaliseerde berichten verzenden.
+* Met de **reisontwerper** bouwt u gebruiksscenario&#39;s voor meerdere stappen samen: sleep en zet eenvoudig een entry-gebeurtenis of een activiteit voor een lezenpubliek neer, voeg voorwaarden toe en verzend gepersonaliseerde berichten.
 
 
 >[!NOTE]
@@ -37,7 +37,7 @@ Ontwerp multistep geavanceerde scenario&#39;s aangedreven door de volgende mogel
 
 ## Stappen om een reis te maken{#steps-journey}
 
-Met Adobe Journey Optimizer kunt u persoonlijke reizen ontwerpen en ordenen vanaf één canvas. De belangrijkste stappen om een reis tot stand te brengen zijn als volgt:
+Met Adobe Journey Optimizer kunt u persoonlijke reizen ontwerpen en ordenen vanaf één canvas. De belangrijkste stappen om een reis tot stand te brengen zijn:
 
 ![](assets/journey-creation-process.png)
 
@@ -60,7 +60,7 @@ Als gegevensingenieur, zijn de stappen om uw reizen te vormen, met inbegrip van 
 
 Leer hoe u reizen kunt maken in de volgende gebruiksgevallen van begin tot eind.
 
-Kwesties voor zakelijk gebruik:
+Zaken voor zakelijk gebruik:
 
 * [Multikanaalberichten verzenden](journeys-uc.md)
 * [Een bericht verzenden met Campagne v7/v8](ajo-ac.md)

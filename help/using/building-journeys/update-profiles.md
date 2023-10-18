@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Profiel bijwerken
 description: Leer hoe u de activiteit van het Profiel van de Update tijdens een reis gebruikt
-feature: Journeys
+feature: Journeys, Profiles, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: profiel, update, reis, activiteit
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -71,7 +71,7 @@ De **Profiel bijwerken** is nu geconfigureerd.
 
 ## De testmodus gebruiken {#using-the-test-mode}
 
-In de testmodus wordt de profielupdate niet gesimuleerd. De update wordt uitgevoerd op het testprofiel.
+In de testmodus wordt het profiel niet bijgewerkt. De update wordt uitgevoerd op het testprofiel.
 
 Alleen testprofielen kunnen een reis maken in de testmodus. U kunt een nieuw testprofiel maken of een bestaand profiel omzetten in een testprofiel. In Adobe Experience Platform kunt u profielkenmerken bijwerken via een CSV-bestand importeren of API-aanroepen. Een eenvoudigere methode is om een **Profiel bijwerken** en wijzig het Booleaanse veld voor het testprofiel van false in true.
 

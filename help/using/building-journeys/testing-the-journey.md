@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Uw reis testen
 description: Leer hoe u uw reis kunt testen
-feature: Journeys
+feature: Journeys, Test Profiles
 topic: Content Management
 role: User
 level: Intermediate
 keywords: test, reis, controle, fout, oplossen
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 7c0b0fe67a5a2665f7cf7bdce4a36207d7bcef56
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 1%

@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen
 description: Een bericht verzenden met Campaign v7/v8
-feature: Journeys
+feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
-role: Developer
+role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 4%
@@ -16,61 +16,61 @@ ht-degree: 4%
 ---
 
 
-# Hoofdlettergebruik: Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen{#passing-collection}
+# Hoofdlettergebruik: verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen{#passing-collection}
 
 U kunt een verzameling doorgeven in aangepaste handelingsparameters die bij uitvoering dynamisch worden gevuld. Er worden twee soorten verzamelingen ondersteund:
 
 * eenvoudige verzamelingen: arrays van eenvoudige gegevenstypen, bijvoorbeeld met een listString:
 
-   ```
-   {
-    "deviceTypes": [
-        "android",
-        "ios"
-    ]
-   }
-   ```
+  ```
+  {
+   "deviceTypes": [
+       "android",
+       "ios"
+   ]
+  }
+  ```
 
 * objectverzamelingen: een array met JSON-objecten, bijvoorbeeld:
 
-   ```
-   {
-   "products":[
-      {
-         "id":"productA",
-         "name":"A",
-         "price":20.1
-      },
-      {
-         "id":"productB",
-         "name":"B",
-         "price":10.0
-      },
-      {
-         "id":"productC",
-         "name":"C",
-         "price":5.99
-      }
-    ]
-   }
-   ```
+  ```
+  {
+  "products":[
+     {
+        "id":"productA",
+        "name":"A",
+        "price":20.1
+     },
+     {
+        "id":"productB",
+        "name":"B",
+        "price":10.0
+     },
+     {
+        "id":"productC",
+        "name":"C",
+        "price":5.99
+     }
+   ]
+  }
+  ```
 
 ## Beperkingen {#limitations}
 
 * Geneste arrays van objecten binnen een objectarray worden momenteel niet ondersteund. Bijvoorbeeld:
 
-   ```
-   {
-   "products":[
-     {
-        "id":"productA",
-        "name":"A",
-        "price":20,
-        "locations": [{"name": "Paris"}, {"name": "London"}]
-     },
-    ]
-   }
-   ```
+  ```
+  {
+  "products":[
+    {
+       "id":"productA",
+       "name":"A",
+       "price":20,
+       "locations": [{"name": "Paris"}, {"name": "London"}]
+    },
+   ]
+  }
+  ```
 
 * Als u verzamelingen wilt testen in de testmodus, moet u de modus Codeweergave gebruiken. De modus Codeweergave wordt momenteel niet ondersteund voor bedrijfsgebeurtenissen. U kunt alleen een verzameling met één element verzenden.
 
@@ -106,7 +106,7 @@ Je kunt zien dat &#39;products&#39; een array van twee objecten is. U moet ten m
 
 1. Maak een aangepaste handeling. Zie [deze pagina](../action/about-custom-action-configuration.md).
 
-1. In de **[!UICONTROL Action parameters]** plakken, plakt u het JSON-voorbeeld. De weergegeven structuur is statisch: bij het plakken van de lading, worden alle gebieden gedefinieerd als constanten.
+1. In de **[!UICONTROL Action parameters]** plakken in het JSON-voorbeeld. De weergegeven structuur is statisch: bij het plakken van de lading worden alle velden gedefinieerd als constanten.
 
    ![](assets/uc-collection-1.png)
 

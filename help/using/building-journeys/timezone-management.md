@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Tijdzonebeheer
 description: Meer informatie over tijdzonebeheer
-feature: Journeys
+feature: Journeys, Profiles
 topic: Content Management
 role: User
 level: Intermediate
 keywords: tijdzone, eigendommen, transport, conditie, tijd, datum, aangepast
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 2%
@@ -24,7 +24,7 @@ Klik op het potloodpictogram rechtsboven in het scherm om de eigenschappen van R
 
 Deze tijdzone wordt gebruikt voor elke activiteit van de reis die een tijdselement bevat, zoals:
 
-* [Tijdvoorwaarde](../building-journeys/condition-activity.md#time_condition)
+* [Tijdconditie](../building-journeys/condition-activity.md#time_condition)
 * [Datumvoorwaarde](../building-journeys/condition-activity.md#date_condition)
 * [Aangepast wachten](../building-journeys/wait-activity.md#custom)
 

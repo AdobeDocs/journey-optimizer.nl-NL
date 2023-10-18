@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Integreren met Adobe Campaign Standard
 description: Leer hoe u Journey Optimizer kunt integreren met Adobe Campaign Standard
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Admin,Developer
+role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campagne, standaard, integratie, plafonnering, actie
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 3%
@@ -22,7 +22,7 @@ U kunt e-mails, pushberichten en SMS verzenden met de mogelijkheden voor Transac
 
 Als u Adobe Campaign Standard hebt, is er een ingebouwde actie beschikbaar waarmee u verbinding kunt maken met Adobe Campaign Standard.
 
-Het transactiebericht van Campaign Standard en de bijbehorende gebeurtenis moeten worden gepubliceerd om in Journey Optimizer te kunnen worden gebruikt. Als de gebeurtenis wordt gepubliceerd maar het bericht niet is, is het niet zichtbaar in de interface van Journey Optimizer. Als het bericht wordt gepubliceerd maar zijn bijbehorende gebeurtenis niet, zal het in de interface van Journey Optimizer zichtbaar zijn maar het zal niet bruikbaar zijn.
+Het transactiebericht van het Campaign Standard en de bijbehorende gebeurtenis moeten worden gepubliceerd om in Journey Optimizer te worden gebruikt. Als de gebeurtenis wordt gepubliceerd maar het bericht niet is, is het niet zichtbaar in de interface van Journey Optimizer. Als het bericht wordt gepubliceerd maar zijn bijbehorende gebeurtenis niet, zal het in de interface van Journey Optimizer zichtbaar zijn maar het zal niet bruikbaar zijn.
 
 ## Belangrijke opmerkingen {#important-notes}
 
@@ -30,15 +30,15 @@ Het transactiebericht van Campaign Standard en de bijbehorende gebeurtenis moete
 
 * Adobe Campaign Standard-integratie wordt ingesteld door middel van een speciale ingebouwde actie in de lijst met acties. Dit moet voor elke zandbak worden gevormd.
 
-* U kunt geen Campaign Standard-actie gebruiken met een Audience-kwalificatie of Lezen-publieksactiviteit.
+* U kunt geen actie van het Campaign Standard met een kwalificatie van het Publiek of Gelezen publieksactiviteit gebruiken.
 
-* Een reis kan niet zowel Berichten als Campaign Standard acties gebruiken.
+* Een reis kan niet zowel Berichten als acties van het Campaign Standard gebruiken.
 
 ## De handeling configureren {#configure-action}
 
 Hier volgen de stappen om het te configureren:
 
-1. Selecteren **[!UICONTROL Configurations]** in de sectie van het menu van het BEHEER. In de  **[!UICONTROL Actions]** sectie, klikt u op **[!UICONTROL Manage]**. De lijst met acties wordt weergegeven.
+1. Selecteren **[!UICONTROL Configurations]** in de sectie van het menu van het Beleid. In de  **[!UICONTROL Actions]** sectie, klikken **[!UICONTROL Manage]**. De lijst met acties wordt weergegeven.
 
 1. De ingebouwde **[!UICONTROL AdobeCampaignStandard]** handeling. Het deelvenster Handelingsconfiguratie wordt aan de rechterkant van het scherm geopend.
 
@@ -62,6 +62,6 @@ Wanneer u uw reis ontwerpt, zijn er drie acties beschikbaar in de **[!UICONTROL 
 
 ![](assets/journey58.png)
 
-U kunt een **Reacties** gebeurtenis die moet reageren op volggegevens met betrekking tot een Campaign Standard-bericht dat binnen dezelfde reis wordt verzonden. Voor pushberichten kunt u reageren op geklikte, verzonden of mislukte berichten. Voor SMS-berichten kunt u reageren op verzonden of mislukte berichten. Voor e-mailberichten kunt u reageren op geklikte, verzonden, geopende of mislukte berichten. Zie [Gebeurtenissen van Reacties](../building-journeys/reaction-events.md).
+U kunt een **Reacties** gebeurtenis die moet reageren op volggegevens met betrekking tot een Campaign Standard dat binnen dezelfde reis wordt verzonden. Voor pushberichten kunt u reageren op geklikte, verzonden of mislukte berichten. Voor SMS-berichten kunt u reageren op verzonden of mislukte berichten. Voor e-mailberichten kunt u reageren op geklikte, verzonden, geopende of mislukte berichten. Zie [Gebeurtenissen van Reacties](../building-journeys/reaction-events.md).
 
 Als u een derdesysteem gebruikt om berichten te verzenden, moet u een douaneactie toevoegen en vormen. Zie [Aangepaste actieconfiguratie](../action/about-custom-action-configuration.md).

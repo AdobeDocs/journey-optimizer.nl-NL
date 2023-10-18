@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Een gegevensbron configureren
 description: Een databron configureren
-feature: Data Sources
+feature: Journeys, Data Sources
 topic: Administration
-role: Admin
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Intermediate, Experienced
 keywords: gegevens, bron, configuratie, veld
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 7%
@@ -25,7 +25,7 @@ ht-degree: 7%
 
 Volg onderstaande stappen om een gegevensbron te configureren:
 
-1. Selecteer in de sectie van het menu ADMINISTRATIE de optie **[!UICONTROL Configurations]**. In de  **[!UICONTROL Data Sources]** sectie, klikt u op **[!UICONTROL Manage]**. De lijst met databronnen wordt weergegeven. Zie [deze pagina](../start/user-interface.md) voor meer informatie over de interface.
+1. Selecteer in de sectie van het menu ADMINISTRATIE de optie **[!UICONTROL Configurations]**. In de  **[!UICONTROL Data Sources]** sectie, klikken **[!UICONTROL Manage]**. De lijst met databronnen wordt weergegeven. Zie [deze pagina](../start/user-interface.md) voor meer informatie over de interface.
 
    ![](assets/journey18.png)
 
@@ -61,7 +61,7 @@ Het aantal ritten dat een veldgroep gebruikt, wordt weergegeven in het dialoogve
 
 U kunt velden toevoegen aan of verwijderen uit een veldgroep die niet wordt gebruikt in concepten of live reizen.
 
-U kunt een veld toevoegen, maar u kunt dit niet verwijderen uit een veldgroep die wordt gebruikt in een of meer concepten of livedagen. Zo voorkomt u dat de reis wordt onderbroken.
+U kunt een veld toevoegen, maar u kunt dit niet verwijderen uit een veldgroep die wordt gebruikt in een of meer concepten of livedagen. Zo voorkomt u dat de reis wordt afgebroken.
 
 Voer de volgende stappen uit om een veld te verwijderen uit een veldgroep die wordt gebruikt voor een of meer reizen. Laten we een voorbeeld gebruiken van een veldgroep met de naam &quot;Veldgroep A&quot;.
 
@@ -70,5 +70,5 @@ Voer de volgende stappen uit om een veld te verwijderen uit een veldgroep die wo
 1. Controleer in &quot;Veldgroep A&quot; waar deze veldgroep wordt gebruikt. Deze informatie wordt weergegeven in het dialoogvenster **[!UICONTROL Used in]** veld.
 1. Open alle reizen die gebruikmaken van &quot;Veldgroep A&quot;.
 1. Maak nieuwe versies van elk van deze reizen. Bewerk alle activiteiten met &quot;Veldgroep A&quot; en selecteer &quot;Veldgroep B&quot;.
-1. Oude versies van ritten met &quot;Veldgroep A&quot; stoppen. U zou dan geen reis moeten hebben gebruikend &quot;Groep A van het Gebied&quot;.
+1. Oude versies van ritten die &quot;Groep A van het Gebied&quot;gebruiken stoppen. U zou dan geen reis moeten hebben gebruikend &quot;Groep A van het Gebied&quot;.
 1. Verwijder &quot;Veldgroep A&quot; zoals deze niet meer wordt gebruikt.

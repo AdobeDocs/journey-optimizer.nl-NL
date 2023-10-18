@@ -1,14 +1,15 @@
 ---
 title: Aan de slag met op code gebaseerde ervaringen
 description: Meer informatie over code-gebaseerde ervaringen in Journey Optimizer
-feature: Offers
+feature: Code-based Experiences
 topic: Content Management
-role: User
+role: User, Developer, Admin
 level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 1%

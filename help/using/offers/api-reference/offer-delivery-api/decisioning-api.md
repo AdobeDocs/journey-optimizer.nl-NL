@@ -1,12 +1,12 @@
 ---
 title: Aanbiedingen leveren
 description: Het Beheer van het besluit is een inzameling van de diensten en programma's UI die marketers toelaat om de gepersonaliseerde aanbiedingservaringen van de eindgebruiker over kanalen en toepassingen tot stand te brengen en te leveren gebruikend bedrijfslogica en besluitvormingsregels.
-feature: Offers, API
+feature: Decision Management, API
 topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 2%
@@ -116,7 +116,7 @@ curl -X POST \
 | `xdm:allowDuplicatePropositions` | Dit heeft betrekking op de controlestructuur van de deduplicatieregels. Het bestaat uit een reeks vlaggen die erop wijzen of de zelfde optie over een bepaalde afmeting kan worden voorgesteld. Een markering die is ingesteld op true betekent dat duplicaten zijn toegestaan en niet mogen worden verwijderd over de categorie die wordt aangegeven door de markering. Een vlag die aan vals wordt geplaatst betekent dat de besluitvormingsmotor niet de zelfde voorstel over de afmeting zou moeten doen en in plaats daarvan de volgende beste optie voor één van de subbesluiten kiezen. |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | Indien ingesteld op true, kunnen meerdere beslissingen dezelfde optie krijgen. | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | Indien ingesteld op true, kunnen meerdere plaatsingen dezelfde optie krijgen. | `"xdm:acrossPlacements": true` |
-| `xdm:mergePolicy.xdm:id` | Hiermee wordt het samenvoegbeleid geïdentificeerd waarmee de gegevens moeten worden beheerd die door de service voor profieltoegang worden geretourneerd. Als er geen waarde is opgegeven in het verzoek, geeft Beslissingsbeheer geen toegang tot de profieltoegangsservice door, anders geeft het de id door die door de aanroeper is opgegeven. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
+| `xdm:mergePolicy.xdm:id` | Hiermee wordt het samenvoegbeleid geïdentificeerd waarmee de gegevens moeten worden beheerd die door de service voor profieltoegang worden geretourneerd. Als men niet in het verzoek wordt gespecificeerd, zal het Beheer van het Besluit niet langs om het even welke dienst van de profieltoegang overgaan, anders zou het identiteitskaart overgaan die door de bezoeker wordt verstrekt. | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | Een reeks markeringen waarmee de inhoud van het antwoord wordt opgemaakt. |
 | `xdm:responseFormat.xdm:includeContent` | Een Booleaanse waarde die, indien ingesteld op `true`bevat inhoud voor de reactie. | `"xdm:includeContent": true` |
 | `xdm:responseFormat.xdm:includeMetadata` | Een object dat wordt gebruikt om op te geven welke aanvullende metagegevens worden geretourneerd. Als deze eigenschap niet is opgenomen, `xdm:id` en `repo:etag` worden standaard geretourneerd. | `name` |

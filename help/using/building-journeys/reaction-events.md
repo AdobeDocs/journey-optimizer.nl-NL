@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Gebeurtenissen van Reacties
 description: Meer informatie over reacties
-feature: Journeys
+feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: reis, gebeurtenissen, reactie, volgen, platform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
-source-git-commit: 417eea2a52d4fb38ae96cf74f90658f87694be5a
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 2%
@@ -40,7 +40,7 @@ Hier volgen de verschillende stappen voor het configureren van reactiegebeurteni
 1. Voeg een **[!UICONTROL Label]** op de reactie. Deze stap is optioneel.
 1. Selecteer in de vervolgkeuzelijst de activiteit waarop u wilt reageren. U kunt alle handelingen selecteren die zich in de vorige stappen van het pad bevinden.
 1. Afhankelijk van de actie die u hebt geselecteerd, kiest u waarop u wilt reageren.
-1. U kunt een time-out voor de gebeurtenis (tussen 40 seconden en 30 dagen) en een time-outpad definiëren. Hierdoor wordt een tweede pad gemaakt voor personen die niet binnen de gedefinieerde tijdsduur hebben gereageerd. Bij het testen van een traject waarbij een reactiegebeurtenis wordt gebruikt, de testmodus **[!UICONTROL Wait time]** standaard en minimumwaarde is 40 seconden. Zie [deze sectie](../building-journeys/testing-the-journey.md).
+1. U kunt een time-out voor de gebeurtenis (tussen 40 seconden en 30 dagen) en een time-outpad definiëren. Hierdoor wordt een tweede pad gemaakt voor personen die niet binnen de gedefinieerde tijdsduur hebben gereageerd. Bij het testen van een traject waarbij een reactiegebeurtenis wordt gebruikt, de testmodus **[!UICONTROL Wait time]** de standaardwaarde en de minimumwaarde zijn 40 seconden. Zie [deze sectie](../building-journeys/testing-the-journey.md).
 
 >[!NOTE]
 >

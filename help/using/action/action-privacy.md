@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Gegevensbeheer
 description: Een governancebeleid definiëren dat gekoppeld is aan een label en een marketingactie
-feature: Privacy
+feature: Journeys, Actions, Custom Actions, Privacy
 topic: Administration
-role: Admin
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Experienced
 keywords: gegevens, bestuur, DULE, labels, labels, platform, beleid
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 59499dec7d15dd4565c7910d7b454d82243ff011
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 0%
@@ -53,33 +53,33 @@ Raadpleeg deze voor meer informatie over het beheren van beleidsregels [document
 Laten we het voorbeeld nemen van het veld voor het bloedtype dat u als gevoelig moet labelen en dat u niet mag exporteren naar een derde. Hier volgen de verschillende stappen:
 
 1. In het linkermenu, onder **Privacy**, klikt u op **Beleid**.
-1. Selecteer **Labels** en klik op **Label maken**.
+1. Selecteer de **Labels** en klik op **Label maken**.
    ![](assets/action-privacy1.png)
 1. Definieer een naam en een vriendelijke naam voor dit label. Bijvoorbeeld: _ePHI1_.
 1. In het linkermenu, onder **Gegevensbeheer**, klikt u op **Schemas** en klik op de knop **Toegangs- en gegevensbeheerlabels toepassen** knop. Selecteer uw schema en veld (bloedtype) en selecteer het label dat u eerder hebt gemaakt. _ePHI1_ in ons voorbeeld.
    ![](assets/action-privacy3.png)
-1. Ga terug naar de **Beleid** selecteert u de **Handeling** en klik op **Marketing-actie maken**. We raden u aan één marketingactie te maken voor elke aangepaste actie van derden die wordt gebruikt tijdens uw reizen. Laten we bijvoorbeeld een _Slack-marketingactie_ die wordt gebruikt voor uw aangepaste Slack-actie.
+1. Ga terug naar de **Beleid** , selecteert u de **Handeling** en klik op **Marketing-actie maken**. We raden u aan één marketingactie te maken voor elke aangepaste actie van derden die wordt gebruikt tijdens uw reizen. Laten we bijvoorbeeld een _Handeling voor het in de handel brengen van Slacks_ die wordt gebruikt voor de aangepaste actie Slack.
    ![](assets/action-privacy4.png)
-1. Selecteer **Bladeren** tabblad, klikt u op **Beleid maken** en selecteert u **Beleid inzake gegevensbeheer**. Selecteer uw label (_ePHI1_) en marketingacties (_Slack-marketingactie_).
+1. Selecteer de **Bladeren** tabblad, klikt u op **Beleid maken** en selecteert u **Beleid inzake gegevensbeheer**. Selecteer uw label (_ePHI1_) en marketingacties (_Handeling voor het in de handel brengen van Slacks_).
    ![](assets/action-privacy5.png)
 
-Wanneer u, in een reis zult gebruiken, uw Slack douaneactie die met wordt gevormd _Slack-marketingactie_, zal het bijbehorende beleid hefboomwerking hebben.
+Wanneer u, in een reis zult gebruiken, uw Slack douaneactie die met wordt gevormd _Handeling voor het in de handel brengen van Slacks_, zal het bijbehorende beleid hefboomwerking hebben.
 
 ## Aangepaste actie configureren {#consent-custom-action}
 
-In het linkermenu, onder **Beheer**, klikt u op **Configuraties** en selecteert u **Handelingen**. Open de aangepaste Slack-actie. Bij het configureren van een aangepaste handeling kunnen twee velden worden gebruikt voor gegevensbeheer.
+In het linkermenu, onder **Administratie**, klikt u op **Configuraties** en selecteert u **Handelingen**. Open de aangepaste Slack. Wanneer u een aangepaste handeling configureert, kunnen twee velden worden gebruikt voor gegevensbeheer.
 
 ![](assets/action-privacy6.png)
 
 * De **Kanaal** in het veld kunt u het kanaal selecteren dat betrekking heeft op deze aangepaste handeling: **E-mail**, **SMS**, of **Pushmelding**. De voorinstelling wordt **Vereiste marketingactie** veld met de standaardmarketingactie voor het geselecteerde kanaal. Als u **overige**, wordt standaard geen marketingactie gedefinieerd. In ons voorbeeld selecteren we het kanaal **overige**.
 
-* De **Vereiste marketingactie** Hiermee kunt u de marketingactie definiëren die betrekking heeft op uw aangepaste handeling. Als u bijvoorbeeld die aangepaste handeling gebruikt om e-mailberichten te verzenden via een derde, kunt u **E-mailadres**. In ons voorbeeld selecteren wij _Slack-marketingactie_. Het bestuursbeleid dat met die marketingactie verband houdt, wordt opgehaald en benut.
+* De **Vereiste marketingactie** Hiermee kunt u de marketingactie definiëren die betrekking heeft op uw aangepaste handeling. Als u bijvoorbeeld die aangepaste handeling gebruikt om e-mailberichten te verzenden via een derde, kunt u **E-mailadres**. In ons voorbeeld selecteren wij _Handeling voor het in de handel brengen van Slacks_. Het bestuursbeleid dat met die marketingactie verband houdt, wordt opgehaald en benut.
 
 De andere stappen voor het configureren van een aangepaste handeling worden beschreven in [deze sectie](../action/about-custom-action-configuration.md#consent-management).
 
 ## De reis maken {#consent-journey}
 
-In het linkermenu, onder **Reisbeheer**, klikt u op **Reizen**. Maak uw reis en voeg uw aangepaste actie toe.  Wanneer u de aangepaste handeling tijdens een reis toevoegt, kunt u met verschillende opties gegevensbeheer beheren. Klik op de knop **Alleen-lezen velden tonen** om alle parameters weer te geven.
+In het linkermenu, onder **Reisbeheer**, klikt u op **Reizen**. Maak uw reis en voeg uw aangepaste actie toe.  Wanneer u de aangepaste handeling tijdens een reis toevoegt, kunt u met verschillende opties gegevensbeheer beheren. Klik op de knop **Alleen-lezen velden tonen** alle parameters weergeven.
 
 De **Kanaal** en **Vereiste marketingactie**, gedefinieerd tijdens het configureren van de aangepaste handeling, wordt boven in het scherm weergegeven. U kunt deze velden niet wijzigen.
 
@@ -87,7 +87,7 @@ De **Kanaal** en **Vereiste marketingactie**, gedefinieerd tijdens het configure
 
 U kunt een **Aanvullende marketingacties** om het type aangepaste handeling in te stellen. Hierdoor kunt u het doel van de aangepaste handeling in deze reis definiëren. Naast de vereiste marketingactie, die doorgaans specifiek is voor een kanaal, kunt u een aanvullende marketingactie definiëren die specifiek is voor de aangepaste actie op deze specifieke reis. Bijvoorbeeld: een workout-communicatie, een nieuwsbrief, een fitness-communicatie, enz. Zowel de vereiste marketingactie als de aanvullende marketingactie zijn van toepassing.
 
-In ons voorbeeld gebruiken we geen aanvullende marketingactie.
+In ons voorbeeld maken we geen gebruik van een extra marketingactie.
 
 Als een van de velden gelabeld is _ePHI1_ (het veld voor het bloedtype in ons voorbeeld) wordt gedetecteerd in de actieparameters, er wordt een fout weergegeven, zodat u de reis niet kunt publiceren.
 

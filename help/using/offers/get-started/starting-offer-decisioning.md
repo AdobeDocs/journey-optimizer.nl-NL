@@ -1,12 +1,12 @@
 ---
 title: Aan de slag met Beslissingsbeheer
 description: Ontdek hoe Adobe Journey Optimizer u kan helpen uw klanten op het juiste moment het juiste aanbod te sturen
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
-level: Beginner
+level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: c530905eacbdf6161f6449d7a0b39c8afaf3a321
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '933'
 ht-degree: 48%
@@ -32,12 +32,12 @@ Voordelen zijn:
 * Verbeterde workflows: in plaats van meerdere verzendingen of campagnes te maken kunnen marketingteams de workflows verbeteren door één verzending te maken en de aanbiedingen in verschillende delen van de sjabloon te variëren,
 * De controle over het aantal keren dat een aanbieding wordt getoond aan campagnes en klanten.
 
-➡️ [Meer informatie over het beheer van beslissingen vindt u in deze video&#39;s](#video)
+➡️ [Meer informatie over beslissingsbeheer in deze video&#39;s](#video)
 
 
 >[!NOTE]
 >
->Als u een [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} gebruiker die de **offer decisioning** alle functies voor Beslissingsbeheer die in deze sectie worden beschreven, zijn ook op u van toepassing.
+>Als u een [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} gebruiker die de **Offer decisioning** alle functies voor Beslissingsbeheer die in deze sectie worden beschreven, zijn ook op u van toepassing.
 
 ## Aanbiedingen en beslissingen {#about-offers-and-decisions}
 

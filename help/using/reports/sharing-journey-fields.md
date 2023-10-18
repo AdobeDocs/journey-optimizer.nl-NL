@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: journeyvelden
 description: journeyvelden
-feature: Reporting
+feature: Journeys, Reporting
 topic: Content Management
-role: User
-level: Intermediate
+role: Data Engineer, Data Architect, Admin
+level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: 63c52f04da9fd1a5fafc36ffb5079380229f885e
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 7%
@@ -23,28 +23,28 @@ Deze veldgroep wordt gebruikt in het reisschema (met betrekking tot tripStepEven
 
 Id van de hoofdreis.
 
-Type: string
+Type: tekenreeks
 
 ## tripVersionID {#journeyversionid-field}
 
-Id van de reisversie. Deze id vertegenwoordigt de identiteit van een reis.
+Id van de reisversie. Deze id staat voor de identiteit van een reis.
 
-Type: string
+Type: tekenreeks
 
 ## name {#name-field}
 
 Naam van de reis.
 
-Type: string
+Type: tekenreeks
 
 ## beschrijving {#description-field}
 
 Beschrijving van de reis.
 
-Type: string
+Type: tekenreeks
 
 ## versie {#version-field}
 
 Versie, weergegeven als `major`.`minor`
 
-Type: string
+Type: tekenreeks

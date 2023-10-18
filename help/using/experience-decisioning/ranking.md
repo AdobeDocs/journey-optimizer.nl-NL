@@ -1,14 +1,15 @@
 ---
 title: Rangschikkingsmethoden
 description: Leer hoe u met waarderingsmethoden werkt
-feature: Offers
+feature: Experience Decisioning, Ranking
 topic: Integrations
 role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 1%

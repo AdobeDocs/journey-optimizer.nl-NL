@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Een reis naar een andere sandox kopiëren
 description: Leer hoe u een reis naar een andere sandox kopieert
-feature: Journeys
+feature: Journeys, Sandoxes
 topic: Content Management
-role: User, Developer
-level: Intermediate
+role: User, Developer, Data Engineer
+level: Experienced
 keywords: zandbak, reis, exemplaar, milieu
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: aaa9dcbfc691eac0fd9d06e905c2e1d7612d854a
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 1%

@@ -1,12 +1,12 @@
 ---
 title: Simulaties maken
 description: Leer hoe u kunt simuleren welke aanbiedingen voor een bepaalde plaatsing worden geleverd om uw beslissingslogica te valideren
-feature: Offers
+feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 4d196e6485b55fe63bd8da2c7cdfc454a26f80f3
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Selecteer nu de aanbiedingsbesluiten die u op uw testprofielen wilt simuleren.
 
 1. De beschikbare beslissingen worden weergegeven.
 
-   * U kunt het zoekveld gebruiken om de selectie te verfijnen.
+   * Met het zoekveld kunt u de selectie verfijnen.
    * U kunt op de knop **[!UICONTROL Open offer decisions]** Hiermee opent u de lijst met alle beslissingen die u hebt gemaakt. Meer informatie over [besluiten](create-offer-activities.md).
 
    Selecteer de gewenste beslissing en klik op **[!UICONTROL Add]**.

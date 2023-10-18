@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Aangepaste handelingen gebruiken
 description: Leer hoe u aangepaste handelingen kunt gebruiken
-feature: Actions
+feature: Journeys, Actions, Custom Actions
 topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: actie, douane, API, reis, configuratie, de dienst
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 24%
@@ -34,7 +34,7 @@ In Journey Optimizer kunt u beleid voor gegevensbeheer en toestemming toepassen 
 
 ## URL-configuratie
 
-Het configuratievenster van het dialoogvenster **Aangepaste actie** De activiteit toont de URL configuratieparameters en de authentificatieparameters die voor de douaneactie worden gevormd. U kunt niet opstelling het statische deel van URL in de reis, maar in de globale configuratie van de douaneactie. [Meer informatie](../action/about-custom-action-configuration.md).
+Het configuratievenster van de **Aangepaste actie** De activiteit toont de URL configuratieparameters en de authentificatieparameters die voor de douaneactie worden gevormd. U kunt niet opstelling het statische deel van URL in de reis, maar in de globale configuratie van de douaneactie. [Meer informatie](../action/about-custom-action-configuration.md).
 
 ### Dynamisch pad
 
@@ -57,7 +57,7 @@ De samengevoegde URL heeft de volgende vorm:
 
 ### Kopteksten en queryparameters {#headers}
 
-De **[!UICONTROL URL Configuration]** in deze sectie worden de velden voor dynamische koptekst- en queryparameters weergegeven, maar niet de velden voor constante waarden. Dynamische kopbal en vraagparametergebieden worden bepaald als variabele in het scherm van de actieconfiguratie. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
+De **[!UICONTROL URL Configuration]** in deze sectie worden de velden voor dynamische koptekst- en queryparameters weergegeven, maar niet de velden voor constante waarden. Dynamische kopbal en de gebieden van de vraagparameter worden bepaald als variabele in het scherm van de actieconfiguratie. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
 
 Als u de waarde van dynamische koptekst- en queryparametervelden wilt opgeven, klikt u in het veld of op het potloodpictogram en selecteert u het gewenste veld.
 
@@ -65,7 +65,7 @@ Als u de waarde van dynamische koptekst- en queryparametervelden wilt opgeven, k
 
 ## Handelingsparameters
 
-In de **[!UICONTROL Action parameters]** sectie, zult u de berichtparameters zien die als worden bepaald _&quot;Variabele&quot;_. Voor deze parameters kunt u definiëren waar deze informatie moet worden opgehaald (voorbeeld: gebeurtenissen, gegevensbronnen), geeft u waarden handmatig door of gebruikt u de geavanceerde expressie-editor voor gevallen van geavanceerd gebruik. Gevallen van geavanceerd gebruik kunnen gegevensmanipulatie en ander functiegebruik zijn. Zie dit [page](expression/expressionadvanced.md).
+In de **[!UICONTROL Action parameters]** sectie, zult u de berichtparameters zien die als worden bepaald _&quot;Variabele&quot;_. Voor deze parameters kunt u bepalen waar u deze informatie wilt ophalen (bijvoorbeeld: gebeurtenissen, gegevensbronnen), waarden handmatig doorgeven of de geavanceerde expressie-editor voor geavanceerde gebruiksgevallen gebruiken. Gevallen van geavanceerd gebruik kunnen gegevensmanipulatie en ander functiegebruik zijn. Zie dit [page](expression/expressionadvanced.md).
 
 **Verwante onderwerpen**
 

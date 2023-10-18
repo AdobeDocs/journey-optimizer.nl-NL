@@ -1,12 +1,12 @@
 ---
 title: Werken met evenementen voor Beslissingsbeheer
 description: Leer hoe u Beslissingsbeheerrapporten maakt in Adobe Experience Platform.
-feature: Offers
+feature: Decision Management, Datasets
 topic: Integrations
-role: User
-level: Beginner
+role: User, Data Engineer
+level: Intermediate
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
-source-git-commit: a6a892ec20dfeb6879bef2f4c2eb4a0f8f54885f
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 48%
@@ -19,7 +19,7 @@ Telkens wanneer het Beslissingsbeheer een besluit neemt voor een bepaald profiel
 
 Hierdoor kunt u meer inzicht krijgen in uw beslissingen, bijvoorbeeld om te weten welk aanbod aan een bepaald profiel is gepresenteerd. U kunt deze gegevens exporteren om ze te analyseren in uw eigen rapportagesysteem, of Adobe Experience Platform gebruiken [Query-service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl) in combinatie met andere instrumenten voor versterkte analyse en rapportage.
 
-## Belangrijke informatie beschikbaar in gegevensreeksen {#key-information}
+## Belangrijkste informatie beschikbaar in gegevensreeksen {#key-information}
 
 Elke gebeurtenis die wordt verzonden wanneer een besluit wordt genomen, bevat vier belangrijke gegevenspunten die u voor analyse en rapportagedoeleinden kunt gebruiken:
 

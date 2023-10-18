@@ -1,15 +1,15 @@
 ---
 title: Op code gebaseerde implementatiemonsters
 description: Op deze pagina staan voorbeelden van de implementatiemethode voor de op code gebaseerde Journey Optimizer-functie
-feature: Offers
+feature: Code-based Experiences
 topic: Content Management
-role: User
+role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-exl-id: 398b5ac6-0bdc-402f-8b13-7edd9b524808
-source-git-commit: d5b283a9c9b0e3e4104dddb3bcb4b47bbd749113
+exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 2%

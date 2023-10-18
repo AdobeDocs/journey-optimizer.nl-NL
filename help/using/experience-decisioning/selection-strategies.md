@@ -1,14 +1,15 @@
 ---
 title: Selectiestrategieën maken
 description: Leer hoe u selectiestrategieën maakt
-feature: Offers
+feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: 69a2ef17b6f5ccd40c08858f7b434029964d544d
+exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 1%
@@ -117,4 +118,3 @@ Nadat u de formule hebt gemaakt, kunt u deze gebruiken in een selectiestrategie.
 U kunt ook een getraind modelsysteem gebruiken dat aanbiedingen voor een bepaald profiel automatisch rangschikt door een AI-model te selecteren. Leer hoe u een AI-model maakt in [deze sectie](ranking.md).
 
 Nadat u een AI-model hebt gemaakt, kunt u het gebruiken in een selectiestrategie. Indien meerdere aanbiedingen in aanmerking komen, bepaalt het opgeleide modelsysteem welke aanbieding eerst voor deze selectiestrategie moet worden ingediend.
-

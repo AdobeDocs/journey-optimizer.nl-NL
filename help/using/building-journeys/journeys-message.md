@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Een bericht toevoegen in een journey
 description: Leer hoe u een bericht tijdens een rit kunt toevoegen
-feature: Journeys
+feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, email, in app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 055b735308cc6f0f942c165541d87dfdb74f557c
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%

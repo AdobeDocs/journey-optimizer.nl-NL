@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Expressiefragmenten gebruiken
 description: Leer hoe u expressiefragmenten kunt gebruiken in het dialoogvenster [!DNL Journey Optimizer] Expressieeditor.
-feature: Personalization, Templates
+feature: Personalization, Fragments
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, bibliotheek, personalisatie
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%

@@ -3,11 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Aan de slag met privacy
 description: Meer weten over privacy in Adobe Journey Optimizer en Adobe Experience Platform?
-feature: Monitoring
+feature: Privacy, Consent Management
 role: User
 level: Intermediate
 exl-id: b1ff5780-d453-46b3-8cf4-abea085782ef
-source-git-commit: 020c4fb18cbd0c10a6eb92865f7f0457e5db8bc0
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 9%
@@ -22,13 +22,13 @@ Bovendien wordt in verordeningen zoals de GDPR bepaald dat u aan specifieke vere
 
 Adobe Experience Platform en Journey Optimizer bieden verschillende tools om u te helpen privacybeheer te garanderen.
 
-* **Gegevensaanvragen beheren**: Adobe Experience Platform Privacy Service gebruiken om verzoeken van klanten om toegang te krijgen tot en persoonlijke gegevens te verwijderen. [Meer informatie](requests.md)
+* **Gegevensaanvragen beheren**: Gebruik Adobe Experience Platform Privacy Service om verzoeken van klanten om toegang tot en verwijdering van persoonlijke gegevens te beheren. [Meer informatie](requests.md)
 
 * **Acties van gebruikers controleren**: De logboeken van de Controle van de hefboomwerking om acties te identificeren die door gebruikers in het systeem worden uitgevoerd, problemen problemen problemen op te lossen, en uw zaken te helpen aan verordeningen en het beleid van het collectieve gegevensbeheer voldoen. [Meer informatie](audit-logs.md)
 
-* **Goedkeuring bijhouden en beheren**: De toestemming van klanten voor mededeling volgen en hun voorkeur en abonnementen beheren. [Meer informatie](opt-out.md)
+* **Goedkeuring bijhouden en beheren**: Houd de toestemming van klanten voor communicatie bij en beheer hun voorkeuren en abonnementen. [Meer informatie](opt-out.md)
 
-* **Goedkeuringsbeleid toepassen**: Bepaal Adobe Experience Platform toestemmingsbeleid en pas hen op uw douaneacties toe om de voorkeur van uw klanten te respecteren. [Meer informatie](../action/consent.md)
+* **Goedkeuringsbeleid toepassen**: Definieer het Adobe Experience Platform-beleid voor toestemming en pas dit toe op uw aangepaste handelingen om de voorkeuren van uw klanten te respecteren. [Meer informatie](../action/consent.md)
 
 * **Regelgevingsbeleid toepassen**: Gebruik Adobe Experience Platform-beheerbeleid om te voorkomen dat gevoelige velden via aangepaste handelingen naar systemen van derden worden geëxporteerd. [Meer informatie](../action/action-privacy.md)
 

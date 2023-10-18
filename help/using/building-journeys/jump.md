@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Van de ene journey naar de andere gaan
 description: Van de ene journey naar de andere gaan
-feature: Journeys
+feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: springen, activiteit, reis, splitsen, splitsen
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 2%
@@ -28,13 +28,13 @@ De **[!UICONTROL Jump]** door actie kunt u individuen van de ene reis naar de an
 * vereenvoudigen het ontwerp van zeer complexe reizen door deze in verschillende te splitsen
 * ritten bouwen op basis van gemeenschappelijke en herbruikbare reispatronen
 
-Voeg eenvoudig een **[!UICONTROL Jump]** en selecteer een doelreis. Wanneer het individu de **[!UICONTROL Jump]** stap, wordt een interne gebeurtenis verzonden naar de eerste gebeurtenis van de doelreis. Als de **[!UICONTROL Jump]** de actie is succesvol , het individu blijft op reis . Het gedrag is vergelijkbaar met andere acties.
+Voeg in de oorspronkelijke reis gewoon een **[!UICONTROL Jump]** en selecteer een doelreis. Wanneer het individu de **[!UICONTROL Jump]** stap, wordt een interne gebeurtenis verzonden naar de eerste gebeurtenis van de doelreis. Als de **[!UICONTROL Jump]** de actie is succesvol , het individu blijft op reis . Het gedrag is vergelijkbaar met andere acties.
 
 Tijdens de doelrit wordt de eerste gebeurtenis intern geactiveerd door de **[!UICONTROL Jump]** de activiteit zal de individuele doorstroming van de reis maken .
 
 ## Levenscyclus
 
-Laten we zeggen dat u een **[!UICONTROL Jump]** activiteit op reis A naar reis B. Reis A is de **oorspronkelijke reis** en reis B **doelreis**.
+Laten we zeggen dat u een **[!UICONTROL Jump]** activiteit op reis A naar reis B. Reis A is **oorspronkelijke reis** en reis B **doelreis**.
 Hier volgen de verschillende stappen van het uitvoeringsproces:
 
 **Reis A** wordt geactiveerd door een externe gebeurtenis:
@@ -62,7 +62,7 @@ Bij reis B wordt het eerste evenement intern geactiveerd, via de **[!UICONTROL J
 * U kunt geen **[!UICONTROL Jump]** en **Poortkwalificatie** gebeurtenis of **Publiek lezen** op dezelfde reis.
 * U kunt maximaal **[!UICONTROL Jump]** activiteiten die u op reis nodig hebt. Na een **[!UICONTROL Jump]**, kunt u elke gewenste activiteit toevoegen.
 * U kunt zo veel sprongniveaus hebben zoals nodig. Reis A springt bijvoorbeeld naar reis B, die naar reis C gaat enzovoort.
-* De doelreis kan ook het aantal **[!UICONTROL Jump]** activiteiten indien nodig.
+* De doelreis kan ook een groot aantal **[!UICONTROL Jump]** activiteiten indien nodig.
 * Luspatronen worden niet ondersteund. Er is geen manier om twee of meer reizen aan elkaar te koppelen, wat een oneindige lus zou creëren. De **[!UICONTROL Jump]** Het scherm van de activiteitenconfiguratie verhindert u dit te doen.
 
 ### Uitvoering
@@ -81,7 +81,7 @@ Bij reis B wordt het eerste evenement intern geactiveerd, via de **[!UICONTROL J
    ![](assets/jump2.png)
 
 1. Klik in het dialoogvenster **Doelreis** veld.
-De lijst toont alle reisversies die ontwerp, levend of in testwijze zijn. Reizen die een andere naamruimte gebruiken of die beginnen met een **Poortkwalificatie** is niet beschikbaar. Doeltrajecten die een luspatroon zouden maken, worden ook uitgefilterd.
+In de lijst worden alle reisversies weergegeven die concept, live of in de testmodus zijn. Reizen die een andere naamruimte gebruiken of die beginnen met een **Poortkwalificatie** is niet beschikbaar. Doeltrajecten die een luspatroon zouden maken, worden ook uitgefilterd.
 
    ![](assets/jump3.png)
 

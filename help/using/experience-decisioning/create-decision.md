@@ -1,14 +1,15 @@
 ---
 title: Beslissingen maken
 description: Leer hoe u beslissingen maakt
-feature: Offers
+feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: f271aa457d2f8b7e66e58692b613d80c6e6b3adb
+exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
+source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1220'
 ht-degree: 2%
