@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '211'
 ht-degree: 3%
 
 ---
@@ -22,8 +22,7 @@ Gebruik Journey Optimizer om meldingen in de app te maken en ervaringsopties te 
 
 >[!AVAILABILITY]
 >
->Momenteel is het In-app-kanaal niet beschikbaar voor organisaties die de invoegtoepassing Adobe Healthcare Shield hebben aangeschaft.
->
+>Het In-app-kanaal is momenteel niet beschikbaar voor organisaties die de Adobe hebben aangeschaft **Gezondheidsschild** en **Privacy- en beveiligingsschild** add-on aanbiedingen.
 
 ## Vereisten{#prerequisites-in-app}
 

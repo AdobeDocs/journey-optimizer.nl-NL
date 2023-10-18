@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1040'
 ht-degree: 1%
 
 ---
@@ -32,8 +32,7 @@ Webpagina&#39;s openen en ontwerpen in het dialoogvenster [!DNL Journey Optimize
 
 >[!AVAILABILITY]
 >
->Het webkanaal is momenteel niet beschikbaar voor organisaties die de add-on Adobe Healthcare Shield hebben aangeschaft.
->
+>Het webkanaal is momenteel niet beschikbaar voor organisaties die de Adobe hebben aangeschaft **Gezondheidsschild** en **Privacy- en beveiligingsschild** add-on aanbiedingen.
 
 ## Voorwaarden voor implementatie {#implementation-prerequisites}
 
