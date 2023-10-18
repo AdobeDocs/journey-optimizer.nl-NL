@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: aa71769719dce607e5392c9d8167f3afe3884d5f
 workflow-type: tm+mt
-source-wordcount: '2201'
+source-wordcount: '2276'
 ht-degree: 1%
 
 ---
@@ -121,7 +121,12 @@ In de **[!UICONTROL Header parameters]** in, voert u de namen en e-mailadressen 
 
 * **[!UICONTROL Reply to (email)]**: Het e-mailadres dat wordt gebruikt wanneer de ontvanger op de knop **Antwoord** in hun e-mailclientsoftware. [Meer informatie](#reply-to-email)
 
-* **[!UICONTROL Error email]**: Alle fouten die door ISPs na een paar dagen van post worden geproduceerd die (asynchrone stuitingen) worden ontvangen op dit adres.
+* **[!UICONTROL Error email]**: Alle fouten die door ISPs na een paar dagen van post worden geproduceerd die (asynchrone stuitingen) worden ontvangen op dit adres. De out-of-office berichten en de uitdagingsreacties worden ook ontvangen op dit adres.
+
+  >[!NOTE]
+  >
+  >Als u de meldingen buiten het kantoor wilt ontvangen en reacties wilt uitdagen op een specifiek e-mailadres dat niet is gedelegeerd aan de Adobe, moet u een [voorwaarts proces](#forward-email). Zorg er in dat geval voor dat u een handmatige of geautomatiseerde oplossing hebt waarmee de e-mailberichten die in deze Postvak IN worden geplaatst, kunnen worden verwerkt.
+
 
 >[!CAUTION]
 >
@@ -137,9 +142,9 @@ In de **[!UICONTROL Header parameters]** in, voert u de namen en e-mailadressen 
 
 Bij het definiëren van de **[!UICONTROL Reply to (email)]** adres, kunt u om het even welk e-mailadres specificeren op voorwaarde dat het een geldig adres, in correct formaat en zonder enige typefout is.
 
-Volg onderstaande aanbevelingen om te zorgen voor een goed antwoordbeheer:
+Het inbox dat voor antwoorden wordt gebruikt, ontvangt alle e-mails met reacties, behalve meldingen buiten het kantoor en antwoorden op de vraag, die worden ontvangen op de **[!UICONTROL Error email]** adres.
 
-* De inbox die voor antwoorden wordt gebruikt, zal alle antwoorde-mails ontvangen, inclusief meldingen buiten het kantoor en antwoorden op uitdagingen. Zorg er dus voor dat u een handmatig of geautomatiseerd proces hebt om de e-mailberichten te verwerken die in deze inbox worden ingevoerd.
+Volg onderstaande aanbevelingen om te zorgen voor een goed antwoordbeheer:
 
 * Zorg ervoor dat de toegewezen Postvak IN voldoende ontvangstcapaciteit heeft om alle e-mails met reacties te ontvangen die via het e-mailoppervlak worden verzonden. Als het postvak &#39;Bounces&#39; retourneert, worden sommige reacties van uw klanten mogelijk niet ontvangen.
 
@@ -157,18 +162,26 @@ Als u een fout bij het voorleggen van de e-mailoppervlakte krijgt, betekent het 
 
 ### E-mail doorsturen {#forward-email}
 
-Als je naar een specifiek e-mailadres wilt doorsturen, alle e-mails ontvangen door [!DNL Journey Optimizer] voor het gedelegeerde subdomein, contacteer de Zorg van de Klant van de Adobe. U moet het volgende opgeven:
+Alle e-mails ontvangen door doorsturen naar een specifiek e-mailadres [!DNL Journey Optimizer] voor het gedelegeerde subdomein, contacteer de Zorg van de Klant van de Adobe.
+
+>[!NOTE]
+>
+>Als het subdomein wordt gebruikt voor de **[!UICONTROL Reply to (email)]** Het adres wordt niet gedelegeerd aan Adobe, door:sturen kan niet voor dit adres werken.
+
+U moet het volgende opgeven:
 
 * Het e-mailadres van uw keuze. Merk op dat het voorwaartse domein van het e-mailadres geen subdomein kan aanpassen dat aan Adobe wordt gedelegeerd.
 * De naam van uw sandbox.
-* De oppervlaknaam waarvoor het voorwaartse e-mailadres zal worden gebruikt.
-* De huidige **[!UICONTROL Reply to (email)]** adres dat op het niveau van de kanaaloppervlakte wordt geplaatst.
+* De oppervlaknaam of subdomein waarvoor het voorwaartse e-mailadres zal worden gebruikt.
+  <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel surface level.-->
 
 >[!NOTE]
 >
 >Per subdomein kan slechts één voorwaarts e-mailadres aanwezig zijn. Als meerdere oppervlakken hetzelfde subdomein gebruiken, moet voor alle oppervlakken hetzelfde e-mailadres worden gebruikt.
 
 Het e-mailadres voor verzending wordt ingesteld door Adobe. Dit kan 3 tot 4 dagen duren.
+
+Zodra gedaan, alle berichten die op worden ontvangen **[!UICONTROL Reply to (email)]** en **[!UICONTROL Error email]** adressen worden doorgestuurd naar het specifieke e-mailadres dat u hebt opgegeven.
 
 ## BCC-e-mail {#bcc-email}
 
