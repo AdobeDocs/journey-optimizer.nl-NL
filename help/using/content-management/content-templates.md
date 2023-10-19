@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: f63f9d6ffd28d276f8a3dadbf8dc6b947b8331e7
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1063'
 ht-degree: 2%
 
 ---
@@ -164,21 +164,17 @@ U kunt deze sjabloon nu gebruiken wanneer u een [email](../email/get-started-ema
 
 U kunt de rendering van elke sjabloon voor e-mailinhoud testen, ongeacht of deze geheel nieuw of via een e-mail is gemaakt. Hiervoor voert u de volgende stappen uit.
 
->[!CAUTION]
->
->Als u inhoud wilt simuleren, moet u beschikken over **[!DNL Manage Simulate Content]** bevoegdheid opgenomen in de **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
-
 1. Open de lijst met inhoudssjablonen via **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** en selecteert u een sjabloon.
 
 1. Klikken **[!UICONTROL Edit content]** van de **[!UICONTROL Template properties]**.
 
-1. Klikken **[!UICONTROL Simulate Content]** en selecteer een testprofiel om de weergave van uw e-mail te controleren. U kunt kiezen voor de weergave Computer of Mobiel. [Meer informatie](../email/preview.md)
+1. Klikken **[!UICONTROL Simulate Content]** en selecteer een testprofiel om de weergave van uw e-mail te controleren. U kunt kiezen voor de weergave Computer of Mobiel. [Meer informatie](../content-management/preview-test.md)
 
    ![](../email/assets/content-template-stimulate.png)
 
 1. U kunt een bewijs verzenden om uw inhoud te testen en het door sommige interne gebruikers te laten goedkeuren alvorens het in een reis of een campagne te gebruiken.
 
-   * Klik hiertoe op de knop **[!UICONTROL Send proof]** en voert u de in [deze sectie](../email/preview.md#send-proofs).
+   * Klik hiertoe op de knop **[!UICONTROL Send proof]** en voert u de in [deze sectie](../content-management/proofs.md).
 
    * Voordat u de proefdruk verzendt, moet u de optie [e-mailoppervlak](../configuration/channel-surfaces.md) die wordt gebruikt om uw inhoud te testen.
 
@@ -186,7 +182,7 @@ U kunt de rendering van elke sjabloon voor e-mailinhoud testen, ongeacht of deze
 
 >[!CAUTION]
 >
->Het bijhouden van wijzigingen wordt momenteel niet ondersteund bij het testen van sjablonen voor e-mailinhoud. Dit houdt in dat volggebeurtenissen, UTM-parameters en landingspagina-koppelingen niet effectief zijn in de proefdrukken die vanuit een sjabloon worden verzonden. Om het volgen te testen, [de inhoudssjabloon gebruiken](../email/use-email-templates.md) in een e-mail en [een bewijs verzenden](../email/preview.md#send-proofs).
+>Het bijhouden van wijzigingen wordt momenteel niet ondersteund bij het testen van sjablonen voor e-mailinhoud. Dit houdt in dat volggebeurtenissen, UTM-parameters en landingspagina-koppelingen niet effectief zijn in de proefdrukken die vanuit een sjabloon worden verzonden. Om het volgen te testen, [de inhoudssjabloon gebruiken](../email/use-email-templates.md) in een e-mail en [een bewijs verzenden](../content-management/preview-test.md#send-proofs).
 
 ## Hoe kan ik-video {#video-templates}
 

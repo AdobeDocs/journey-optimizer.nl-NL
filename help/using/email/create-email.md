@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: maken, e-mail, starten, reizen, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 3%
+source-wordcount: '843'
+ht-degree: 2%
 
 ---
 
@@ -146,11 +146,15 @@ Er kunnen twee typen waarschuwingen optreden:
 >
 >Als u de reis/campagne wilt testen of activeren via e-mail, moet u alle **fout** waarschuwingen.
 
-## Uw e-mail voorvertonen en verzenden
+## Uw e-mail controleren en verzenden
 
-Nadat de inhoud van uw bericht is gedefinieerd, kunt u deze voorvertonen om de weergave van uw e-mail te bepalen en de instellingen voor de personalisatie te controleren met testprofielen. [Meer informatie](preview.md)
+Zodra de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorvertoning ervan weer te geven, proefdrukken te verzenden en de rendering ervan in populaire desktops, mobiele en webclients te beheren. Als u gepersonaliseerde inhoud hebt ingevoegd, kunt u met behulp van testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
+
+Om dit te doen, klik **[!UICONTROL Simulate content]** Voeg vervolgens een testprofiel toe om uw bericht te controleren met behulp van de gegevens van het testprofiel.
 
 ![](assets/email_designer_edit_simulate.png)
+
+Gedetailleerde informatie over het selecteren van testprofielen en het weergeven van een voorvertoning van de inhoud is beschikbaar in het dialoogvenster [Inhoud beheren](../content-management/preview-test.md) sectie.
 
 Wanneer uw e-mail klaar is, voltooi de configuratie van uw [reis](../building-journeys/journey-gs.md) of [campagne](../campaigns/create-campaign.md)en activeer deze om het bericht te verzenden.
 

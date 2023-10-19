@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 0%
@@ -85,8 +85,6 @@ Eerst moet u de testprofielen selecteren die u voor simulatie gaat gebruiken.
    >De geselecteerde profielen blijven als testprofielen vermeld in het dialoogvenster **[!UICONTROL Simulation]** tabblad van sessie tot sessie totdat deze zijn verwijderd via **[!UICONTROL Manage profile]**.
 
 1. U kunt op de knop **[!UICONTROL Profile details]** koppeling gebruiken om de geselecteerde profielgegevens weer te geven.
-
-<!--Learn more on [selecting test profiles](messages/preview.md#select-test-profiles)-->
 
 ## Beslissingsbereik toevoegen {#add-decision-scopes}
 

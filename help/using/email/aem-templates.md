@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: dd463d36550b53faaffca90691550278498c862a
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 1%
@@ -109,7 +109,7 @@ Zodra het malplaatje van de Experience Manager in Journey Optimizer als inhoudsm
 
 1. Als u gepersonaliseerde inhoud aan uw malplaatje van de Experience Manager hebt toegevoegd, klik **[!UICONTROL Simulate Content]** aan voorproef hoe het in het bericht zal verschijnen gebruikend testprofielen.
 
-[Meer informatie over voorvertoningen en testprofielen](../email/preview.md)
+[Meer informatie over voorvertoningen en testprofielen](../content-management/preview-test.md)
 
    ![](assets/aem_ajo_6.png)
 

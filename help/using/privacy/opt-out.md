@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 0%
@@ -97,7 +97,7 @@ Als een gebruiker:
 
 De [Expression-editor](../personalization/personalization-build-expressions.md) zelf voert geen toestemmingscontroles of handhaving uit, aangezien het niet betrokken is bij de levering van berichten.
 
-Nochtans, staat het gebruik van op recht-gebaseerde etiketten van de toegangscontrole toe om te beperken welke gebieden voor verpersoonlijking kunnen worden gebruikt. De [berichtvoorbeeld](../email/preview.md#preview-email) en [e-mailrenderservice](../email/preview.md#email-rendering) de velden die met gevoelige informatie zijn aangeduid, maskeren.
+Nochtans, staat het gebruik van op recht-gebaseerde etiketten van de toegangscontrole toe om te beperken welke gebieden voor verpersoonlijking kunnen worden gebruikt. De [berichtvoorbeeld](../content-management/preview.md) en [e-mailrenderservice](../content-management/rendering.md) de velden die met gevoelige informatie zijn aangeduid, maskeren.
 
 >[!NOTE]
 >

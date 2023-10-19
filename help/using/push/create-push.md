@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '691'
 ht-degree: 4%
 
 ---
@@ -46,7 +46,7 @@ Voer de onderstaande stappen uit om een pushmelding te maken:
 
 1. Van het scherm van de reisconfiguratie, klik **[!UICONTROL Edit content]** om de pushinhoud te configureren. [Een pushmelding ontwerpen](design-push.md)
 
-1. Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen.
+1. Nadat de inhoud van het bericht is gedefinieerd, kunt u testprofielen gebruiken om de inhoud ervan voor te vertonen.
 
 1. Wanneer uw duw klaar is, voltooi de configuratie van uw [reis](../building-journeys/journey-gs.md) om het te verzenden.
 
@@ -83,7 +83,7 @@ Voer de onderstaande stappen uit om een pushmelding te maken:
 
 1. Van het scherm van de campagneconfiguratie, klik **[!UICONTROL Edit content]** om de pushinhoud te configureren. [Een pushmelding ontwerpen](design-push.md)
 
-1. Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen.
+1. Nadat de inhoud van het bericht is gedefinieerd, kunt u testprofielen gebruiken om de inhoud ervan voor te vertonen.
 
 1. Wanneer uw duw klaar is, voltooi de configuratie van uw [campagne](../campaigns/create-campaign.md) om het te verzenden.
 

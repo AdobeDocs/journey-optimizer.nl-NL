@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '2065'
 ht-degree: 9%
@@ -275,7 +275,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 **Inhoud ontwerpen**
 
-* **Achtergrond** - Achtergrondafbeeldingen worden nu ondersteund in live voorvertoning. [Meer informatie](../email/preview.md)
+* **Achtergrond** - Achtergrondafbeeldingen worden nu ondersteund in live voorvertoning. [Meer informatie](../content-management/preview-test.md)
 * **Een-klik-koppeling voor weigeren** - U kunt een nieuw type koppeling invoegen in uw e-mailinhoud: de **Uitschakelen** de verbinding staat gebruikers toe om van het ontvangen van uw mededelingen in slechts één klik af te zien, zonder opnieuw te worden gericht aan een het landen pagina om het uit kiezen te bevestigen. [Meer informatie](../privacy/opt-out.md#one-click-opt-out-link)
 
 **Personalisatie**
@@ -350,9 +350,9 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 **Voorvertonen en testen**
 
-* Identiteit en naamruimte zijn nu zichtbaar in het dialoogvenster **[!UICONTROL Preview]** scherm. [Meer informatie](../email/preview.md#preview-your-messages)
+* Identiteit en naamruimte zijn nu zichtbaar in het dialoogvenster **[!UICONTROL Preview]** scherm. [Meer informatie](../content-management/preview-test.md#preview-your-messages)
 * Het aantal teste-mails voor proefdrukken is nu beperkt tot tien.
-* Toegestane tekens voor de **Voorvoegsel van onderwerpregel** op het gebied van proefdrukken is het aantal proefdrukken nu beperkt . [Meer informatie](../email/preview.md#send-proofs)
+* Toegestane tekens voor de **Voorvoegsel van onderwerpregel** op het gebied van proefdrukken is het aantal proefdrukken nu beperkt . [Meer informatie](../content-management/preview-test.md#send-proofs)
 
 **Editor voor persoonlijke expressie**
 

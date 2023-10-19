@@ -1,44 +1,33 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Uw pushmelding bekijken en testen
-description: Leer hoe u uw pushmelding in Journey Optimizer kunt bekijken en testen
+title: Controleer en verzend uw pushmelding
+description: Meer weten over het controleren en verzenden van pushberichten in Journey Optimizer?
 feature: Push
 topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '331'
 ht-degree: 4%
 
 ---
 
-# Uw pushmelding bekijken en testen {#send-push}
+# Controleer en verzend uw pushmelding {#send-push}
 
 ## Een voorbeeld van uw pushmelding bekijken {#preview-push}
 
-Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u gepersonaliseerde inhoud hebt ingevoegd, kunt u met behulp van testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
+Nadat de inhoud van het bericht is gedefinieerd, kunt u testprofielen gebruiken om de inhoud ervan voor te vertonen. Als u gepersonaliseerde inhoud hebt ingevoegd, kunt u met behulp van testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
 
-1. Klik op **[!UICONTROL Simulate content]**.
+Om dit te doen, klik **[!UICONTROL Simulate content]** Voeg vervolgens een testprofiel toe. Vervolgens kunt u het type apparaat selecteren voor een voorvertoning van de inhoud: **[!UICONTROL iOS]** of **[!UICONTROL Android]**.
 
-1. Klikken **[!UICONTROL Manage test profiles]** een testprofiel toevoegen.
+![](assets/push_preview_3.png)
 
-1. Zoek uw testprofiel met de **[!UICONTROL Identity namespace]** en **[!UICONTROL Identity value]** velden. Klik vervolgens op **[!UICONTROL Add profile]**.
-
-   ![](assets/push_preview_1.png)
-
-1. Nadat u het testprofiel hebt geselecteerd, kunt u het dialoogvenster **[!UICONTROL Add test profile]** venster.
-
-1. Van de **Voorvertonen en testen** worden de gegevens van het testprofiel toegevoegd aan de inhoud van het bericht.
-
-   Selecteer het type apparaat waarvan u een voorvertoning van inhoud wilt weergeven: **[!UICONTROL iOS]** of **[!UICONTROL Android]**.
-
-   ![](assets/push_preview_3.png)
+Gedetailleerde informatie over het selecteren van testprofielen en het weergeven van een voorvertoning van de inhoud is beschikbaar in het dialoogvenster [Inhoud beheren](../content-management/preview-test.md) sectie.
 
 ## Uw pushmelding valideren {#push-validate}
-
 
 U moet alarm in de hogere sectie van de redacteur controleren. Sommige zijn eenvoudige waarschuwingen, maar andere kunnen u verhinderen het bericht te verzenden. Er kunnen twee typen waarschuwingen optreden: waarschuwingen en fouten.
 

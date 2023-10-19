@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 2%
@@ -110,7 +110,7 @@ In de **[!UICONTROL Actions]** , maakt u het bericht dat u wilt verzenden met de
     </tr>
     </table>
 
-1. Wanneer de inhoud is gedefinieerd, gebruikt u de **[!UICONTROL Simulate content]** om de inhoud met testprofielen voor te vertonen en te testen. [Meer informatie](../email/preview.md).
+1. Wanneer de inhoud is gedefinieerd, gebruikt u de **[!UICONTROL Simulate content]** om de inhoud met testprofielen voor te vertonen en te testen. [Meer informatie](../content-management/preview-test.md).
 
 1. Klik op de pijl om terug te gaan naar het scherm Campagne maken.
 

@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 64c255eb6bb4712d79547ae47fd1dc6f8b1e9089
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 35%
+source-wordcount: '1686'
+ht-degree: 34%
 
 ---
 
@@ -195,7 +195,6 @@ ht-degree: 35%
          + [Achtergrondinstellingen bewerken](using/email/backgrounds.md)
          + [Verticale uitlijning en opvulling aanpassen](using/email/alignment-and-padding.md)
          + [Inline-opmaakkenmerken toevoegen](using/email/inline-styling.md)
-   + [Uw e-mail voorvertonen en testen](using/email/preview.md)
    + [Experience Manager-sjablonen gebruiken](using/email/aem-templates.md)
    + [E-mailuitschakelbeheer](using/email/email-opt-out.md)
    + E-mailkanaal configureren {#configure-email}
@@ -206,12 +205,12 @@ ht-degree: 35%
    + [Voorwaarden voor kanalen in de app](using/in-app/inapp-configuration.md)
    + [Een bericht in de app maken](using/in-app/create-in-app.md)
    + [In-app-inhoud ontwerpen](using/in-app/design-in-app.md)
-   + [Uw In-app-melding testen en verzenden](using/in-app/send-in-app.md)
+   + [In-app-meldingen controleren en verzenden](using/in-app/send-in-app.md)
 + Push-meldingskanaal{#push}
    + [Aan de slag met pushmeldingen](using/push/get-started-push.md)
    + [Een pushmelding maken](using/push/create-push.md)
    + [Uw pushmelding ontwerpen](using/push/design-push.md)
-   + [Uw pushmelding verzenden](using/push/send-push.md)
+   + [Controleer en verzend uw pushmelding](using/push/send-push.md)
    + Pushmeldingen configureren{#push-config}
       + [Pushmeldingsstroom](using/push/push-gs.md)
       + [Pushmeldingskanaal configureren](using/push/push-configuration.md)
@@ -219,14 +218,14 @@ ht-degree: 35%
 + Sms-kanaal{#sms}
    + [Aan de slag met sms](using/sms/get-started-sms.md)
    + [Een SMS-bericht maken](using/sms/create-sms.md)
-   + [Je SMS bekijken en testen](using/sms/send-sms.md)
+   + [Controleer en verzend je SMS](using/sms/send-sms.md)
    + [SMS-optie beheren](using/sms/sms-opt-out.md)
    + [Sms-kanaal configureren](using/sms/sms-configuration.md)
    + [SMS-subdomeinen instellen](using/sms/sms-subdomains.md)
 + Direct mail {#direct-mail}
    + [Aan de slag met direct mail](using/direct-mail/get-started-direct-mail.md)
    + [Een directe e-mail maken](using/direct-mail/create-direct-mail.md)
-   + [Een direct mailbericht testen en verzenden](using/direct-mail/test-send-direct-mail.md)
+   + [Een direct-mailbericht controleren en verzenden](using/direct-mail/test-send-direct-mail.md)
    + [Direct mail configureren](using/direct-mail/direct-mail-configuration.md)
 + Webkanaal {#web}
    + [Aan de slag met webkanaal](using/web/get-started-web.md)
@@ -257,15 +256,16 @@ ht-degree: 35%
    + Landingspagina’s configureren {#lp-configuration}
       + [Subdomeinen van bestemmingspagina configureren](using/landing-pages/lp-subdomains.md)
       + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
-+ Contentmanagement {#content-management}
-   + [Werken met Assets Essentials](using/content-management/assets-essentials.md)
-   + [Werken met Adobe Stock](using/content-management/stock.md)
++ Inhoudsbeheer {#content-management}
    + Werken met de Inhoudsassistent{#content-assistant}
       + [Aan de slag met de inhoudsassistent](using/content-management/gs-generative.md)
       + [Inhoud genereren](using/content-management/generative-content.md)
       + [Afbeelding genereren](using/content-management/generative-image.md)
    + Werken met meertalige inhoud{#content-multilingual}
       + [Meertalige inhoud maken](using/content-management/multilingual-manual.md)
+   + Elementen/afbeeldingen {#assets-images}
+      + [Werken met Assets Essentials](using/content-management/assets-essentials.md)
+      + [Werken met Adobe Stock](using/content-management/stock.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
       + [Persoonlijke context](using/personalization/personalization-contexts.md)
@@ -297,6 +297,12 @@ ht-degree: 35%
       + [Aan de slag met dynamische inhoud](using/personalization/get-started-dynamic-content.md)
       + [Voorwaardelijke regels maken](using/personalization/create-conditions.md)
       + [Dynamische inhoud maken](using/personalization/dynamic-content.md)
+   + Inhoud voorvertonen en testen {#preview-test}
+      + [Aan de slag met voorvertoning en testen](using/content-management/preview-test.md)
+      + [Testprofielen selecteren](using/content-management/test-profiles.md)
+      + [Voorbeeld van uw inhoud bekijken](using/content-management/preview.md)
+      + [E-mailproefdrukken verzenden](using/content-management/proofs.md)
+      + [E-mailrendering testen](using/content-management/rendering.md)
 + Soorten publiek, profielen en identiteit{#audiences-profiles-identities}
    + Doelgroepen {#audiences}
       + [Aan de slag met het publiek](using/audience/about-audiences.md)

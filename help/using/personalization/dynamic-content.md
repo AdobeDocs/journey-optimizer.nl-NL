@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor, dynamic, content
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 0%
@@ -30,7 +30,7 @@ U kunt als volgt dynamische inhoud in expressies toevoegen:
 
 1. Navigeer naar het veld waaraan u dynamische inhoud wilt toevoegen en open vervolgens de Expressieeditor.
 
-1. Selecteer **[!UICONTROL Conditions]** om de lijst met beschikbare voorwaardelijke regels weer te geven. Klik op + naast een regel om deze toe te voegen aan de huidige expressie.
+1. Selecteer de **[!UICONTROL Conditions]** om de lijst met beschikbare voorwaardelijke regels weer te geven. Klik op + naast een regel om deze toe te voegen aan de huidige expressie.
 
    U kunt ook een nieuwe regel maken door **[!UICONTROL Create new]**. [Leer hoe u voorwaarden kunt maken](create-conditions.md)
 
@@ -42,7 +42,7 @@ U kunt als volgt dynamische inhoud in expressies toevoegen:
 
    ![](assets/conditions-language-sample.png)
 
-1. Als de inhoud gereed is, kunt u een voorvertoning van de verschillende varianten weergeven met de opdracht **[!UICONTROL Simulate content]** knop. [Leer hoe u berichten kunt testen en bekijken](../email/preview.md)
+1. Als de inhoud gereed is, kunt u een voorvertoning van de verschillende varianten weergeven met de opdracht **[!UICONTROL Simulate content]** knop. [Leer hoe u berichten kunt testen en bekijken](../content-management/preview-test.md)
 
    ![](assets/conditions-preview.png)
 
@@ -70,7 +70,7 @@ U kunt als volgt varianten van een inhoudscomponent maken in E-mailontwerper:
 
    ![](assets/conditions-apply.png)
 
-1. De weergave van de voorwaardenbibliotheek. Selecteer de voorwaardelijke regel die u aan de variant wilt koppelen en klik op **[!UICONTROL Select]**. In dit voorbeeld willen we de componenttekst aanpassen, afhankelijk van de voorkeurstaal van de ontvanger.
+1. De weergave van de voorwaardenbibliotheek. Selecteer de voorwaardelijke regel die u aan de variant wilt koppelen en klik vervolgens op **[!UICONTROL Select]**. In dit voorbeeld willen we de componenttekst aanpassen, afhankelijk van de voorkeurstaal van de ontvanger.
 
    ![](assets/conditions-select.png)
 

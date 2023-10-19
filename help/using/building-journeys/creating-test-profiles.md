@@ -9,7 +9,7 @@ role: User, Data Engineer
 level: Intermediate
 keywords: testprofielen, testen, testen, reizen
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Testprofielen maken {#create-test-profiles}
 
-Testprofielen zijn vereist wanneer u de opdracht [testmodus](../building-journeys/testing-the-journey.md) op een reis en naar [inhoud voorvertonen en testen](../email/preview.md).
+Testprofielen zijn vereist wanneer u de opdracht [testmodus](../building-journeys/testing-the-journey.md) op een reis en naar [inhoud voorvertonen en testen](../content-management/preview-test.md).
 
 U kunt testprofielen op verschillende manieren maken. Op deze pagina vindt u meer informatie over:
 

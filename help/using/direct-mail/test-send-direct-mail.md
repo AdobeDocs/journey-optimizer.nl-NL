@@ -1,40 +1,30 @@
 ---
-title: Een direct mailbericht testen en verzenden
-description: Leer hoe u een direct-mailbericht test en verzendt in Journey Optimizer
+title: Een direct mailbericht controleren en verzenden
+description: Leer hoe u een direct-mailbericht kunt controleren en verzenden in Journey Optimizer
 feature: Direct Mail, Test Profiles, Preview
 topic: Content Management
 role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 1cd5942617fdd29754e71a6fd8e4538d5d86dcd4
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '423'
 ht-degree: 1%
 
 ---
 
-# Een direct mailbericht testen en verzenden {#direct-mail-test-send}
+# Een direct mailbericht controleren en verzenden {#direct-mail-test-send}
 
 ## Een voorbeeld van het extractiebestand bekijken {#preview-dm}
 
 Nadat de inhoud van het extractiebestand is gedefinieerd, kunt u er testprofielen voor gebruiken. Als u gepersonaliseerde inhoud hebt ingevoegd, kunt u met behulp van testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
 
-1. Klik in het configuratiescherm voor de inhoud van het extractiebestand op **[!UICONTROL Simulate content]**.
+Om dit te doen, klik **[!UICONTROL Simulate content]** Voeg vervolgens een testprofiel toe om te controleren hoe het extractiebestand wordt gerenderd met behulp van de testprofielgegevens.
 
-   ![](assets/direct-mail-simulate-button.png){width="800" align="center"}
+![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-1. Klikken **[!UICONTROL Manage test profiles]** een testprofiel toevoegen.
-
-1. Zoek uw testprofiel met de **[!UICONTROL Identity namespace]** en **[!UICONTROL Identity value]** velden. Klik vervolgens op **[!UICONTROL Add profile]**.
-
-   ![](assets/direct-mail-test-profile.png){width="800" align="center"}
-
-1. Nadat u het testprofiel hebt geselecteerd, kunt u het dialoogvenster **[!UICONTROL Add test profile]** venster.
-
-1. Van de **Voorvertonen en testen** -venster, worden de testprofielgegevens toegevoegd aan de inhoud van het extractiebestand, zodat u kunt zien hoe het bestand wordt weergegeven.
-
-   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+Gedetailleerde informatie over het selecteren van testprofielen en het weergeven van een voorvertoning van de inhoud is beschikbaar in het dialoogvenster [Inhoud beheren](../content-management/preview-test.md) sectie.
 
 Als de bestandsinhoud klaar is om te worden verzonden, sluit u het simulatiescherm en klikt u op de knop **[!UICONTROL Review to activate]** knop.
 

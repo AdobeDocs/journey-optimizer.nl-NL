@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: aanbiedingen, beslissingen, e-mails, personalisatie, beslissingen
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -74,10 +74,6 @@ U kunt de verschillende aanbiedingen die deel uitmaken van de beslissing die aan
 ![](assets/deliver-offer-preview.png)
 
 Volg onderstaande stappen om de verschillende aanbiedingen die deel uitmaken van de beslissing, weer te geven met een klantprofiel.
-
->[!NOTE]
->
->U hebt testprofielen nodig om een voorbeeld van uw berichten te kunnen bekijken. Leer hoe u [testprofielen maken](../audience/creating-test-profiles.md).
 
 1. Selecteer de testprofielen die u wilt gebruiken om een voorvertoning van de aanbieding weer te geven:
 

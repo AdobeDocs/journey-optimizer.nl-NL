@@ -1,40 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Je SMS-bericht bekijken en testen
-description: Meer weten over het bekijken en testen van je SMS-bericht in Journey Optimizer?
+title: Je SMS-bericht controleren en testen
+description: Meer weten over het controleren en verzenden van je SMS-bericht in Journey Optimizer?
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '255'
 ht-degree: 5%
 
 ---
 
-# Je SMS-bericht bekijken en testen {#send-sms}
+# Je SMS-bericht controleren en verzenden {#send-sms}
 
 ## Je SMS bekijken {#preview-sms}
 
-Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u gepersonaliseerde inhoud hebt ingevoegd, kunt u met behulp van testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
+Nadat de inhoud van het bericht is gedefinieerd, kunt u testprofielen gebruiken om de inhoud ervan voor te vertonen. Als u gepersonaliseerde inhoud hebt ingevoegd, kunt u met behulp van testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
 
-1. Klik op **[!UICONTROL Simulate content]**.
+Om dit te doen, klik **[!UICONTROL Simulate content]** Voeg vervolgens een testprofiel toe om uw bericht te controleren met behulp van de gegevens van het testprofiel.
 
-1. Klikken **[!UICONTROL Manage test profiles]** een testprofiel toevoegen.
+![](assets/sms_preview_2.png)
 
-1. Zoek uw testprofiel met de **[!UICONTROL Identity namespace]** en **[!UICONTROL Identity value]** velden. Klik vervolgens op **[!UICONTROL Add profile]**.
-
-   ![](assets/sms_preview_3.png)
-
-1. Nadat u het testprofiel hebt geselecteerd, kunt u het dialoogvenster **[!UICONTROL Add test profile]** venster.
-
-1. Van de **Voorvertonen en testen** worden de gegevens van het testprofiel toegevoegd aan de inhoud van het bericht.
-
-   ![](assets/sms_preview_2.png)
-
+Gedetailleerde informatie over het selecteren van testprofielen en het weergeven van een voorvertoning van de inhoud is beschikbaar in het dialoogvenster [Inhoud beheren](../content-management/preview-test.md) sectie.
 
 ## Je SMS valideren{#sms-validate}
 

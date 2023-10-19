@@ -7,9 +7,9 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Raadpleeg de volgende secties voor het instellen van uw eerste reis, het toevoeg
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
-1. **Testen en valideren**. Nadat de inhoud is gedefinieerd, kunt u testprofielen gebruiken om deze voor te vertonen en te testen. Als u [persoonlijke inhoud](../../personalization/personalize.md)kunt u met testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven. Bovendien kunt u uw **Litmus** account [!DNL Journey Optimizer] om direct een voorvertoning van uw **e-mailrendering** in populaire e-mailclients. U kunt er dan voor zorgen dat uw e-mailinhoud er goed uitziet en goed werkt in elk Postvak IN. Leer hoe u uw berichten kunt testen en valideren [in deze sectie](../../email/preview.md).
+1. **Testen en valideren**. Nadat u de inhoud hebt gedefinieerd, kunt u testprofielen gebruiken om een voorvertoning van de inhoud ervan weer te geven. Als u [persoonlijke inhoud](../../personalization/personalize.md)kunt u met testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven. Bovendien kunt u uw **Litmus** account [!DNL Journey Optimizer] om direct een voorvertoning van uw **e-mailrendering** in populaire e-mailclients. U kunt er dan voor zorgen dat uw e-mailinhoud er goed uitziet en goed werkt in elk Postvak IN. Leer hoe u uw berichten kunt testen en valideren [in deze sectie](../../content-management/preview-test.md).
 
 1. **Klantreizen ontwerpen** om persoonlijke, contextafhankelijke ervaringen te bieden. [!DNL Journey Optimizer] kunt u in real time het gebruikscase van het orkestgebruik met contextafhankelijke gegevens bouwen die in gebeurtenissen of gegevensbronnen worden opgeslagen. Ontwerp multistep geavanceerde scenario&#39;s aangedreven door de volgende mogelijkheden:
 

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: lijst van gewenste personen, lijst, veilig, configuratie
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 2%
@@ -74,7 +74,7 @@ De logica lijst van gewenste personen is van toepassing wanneer de functie actie
 
 >[!NOTE]
 >
->Wanneer deze functie wordt geactiveerd, wordt de functie lijst van gewenste personen gerespecteerd bij het uitvoeren van reizen, maar ook bij het testen van berichten met [proefdrukken](../email/preview.md#send-proofs) en het testen van reizen met behulp van de [testmodus](../building-journeys/testing-the-journey.md).
+>Wanneer deze functie wordt geactiveerd, wordt de functie lijst van gewenste personen gerespecteerd bij het uitvoeren van reizen, maar ook bij het testen van berichten met [proefdrukken](../content-management/proofs.md) en het testen van reizen met behulp van de [testmodus](../building-journeys/testing-the-journey.md).
 
 ## De lijst van gewenste personen deactiveren {#deactivate-allow-list}
 

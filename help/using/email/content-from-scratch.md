@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: inhoud, editor, e-mail, starten
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -116,9 +116,8 @@ Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen:
    >
    >U kunt niet terugkeren naar de visuele ontwerper voor deze e-mail na het schakelen naar de coderedacteur.
 
-1. Als de inhoud gereed is, klikt u op de knop **[!UICONTROL Simulate content]** om de rendering te controleren. U kunt kiezen voor de weergave Computer of Mobiel. [Meer informatie over een voorbeeld van uw e-mail](preview.md)
+1. Als de inhoud gereed is, klikt u op de knop **[!UICONTROL Simulate content]** om de rendering te controleren. U kunt kiezen voor de weergave Computer of Mobiel. Gedetailleerde informatie over het selecteren van testprofielen en het weergeven van een voorvertoning van de inhoud is beschikbaar in het dialoogvenster [Inhoud beheren](../content-management/preview-test.md) sectie.
 
    ![](assets/email_designer_simulate_content.png)
 
 1. Wanneer uw inhoud klaar is, klikt u op **[!UICONTROL Save]**.
-

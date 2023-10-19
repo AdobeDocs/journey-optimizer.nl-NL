@@ -9,7 +9,7 @@ role: User
 level: Intermediate, Experienced
 keywords: code, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 5%
@@ -44,7 +44,7 @@ Gebruik de **[!UICONTROL Code your own]** om onbewerkte HTML te importeren en/of
    >
    >Met deze actie opent u de geselecteerde sjabloon in de e-mailontwerper. Van daar, kunt u of het ontwerp van uw e-mail voltooien, of naar de coderedacteur teruggaan gebruikend **[!UICONTROL Switch to code editor]** -optie.
 
-1. Klik op de knop **[!UICONTROL Preview]** om het berichtontwerp en de verpersoonlijking te controleren gebruikend testprofielen. [Meer informatie](preview.md)
+1. Klik op de knop **[!UICONTROL Preview]** om het berichtontwerp en de verpersoonlijking te controleren gebruikend testprofielen. [Meer informatie](../content-management/preview-test.md)
 
    ![](assets/code-editor-preview.png)
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: koppelingen, bijhouden, controleren, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 2%
@@ -135,7 +135,7 @@ Wanneer de e-mail is verzonden en de ontvangers op de koppeling voor de spiegelp
 
 >[!NOTE]
 >
->In de [bewijs](preview.md#send-proofs) die naar de testprofielen worden verzonden, is de koppeling naar de spiegelpagina niet actief. Deze wordt alleen geactiveerd in de laatste berichten.
+>In de [bewijs](../content-management/proofs.md) die naar de testprofielen worden verzonden, is de koppeling naar de spiegelpagina niet actief. Deze wordt alleen geactiveerd in de laatste berichten.
 
 De retentieperiode voor een spiegelpagina is 60 dagen. Na die vertraging is de spiegelpagina niet meer beschikbaar.
 
@@ -186,4 +186,4 @@ Wanneer de e-mail wordt verzonden, wordt deze parameter automatisch toegevoegd a
 
 >[!NOTE]
 >
->U kunt de uiteindelijke URL controleren door [een bewijs verzenden](preview.md#send-proofs) en klik op de koppeling in de inhoud van het e-mailbericht als u de proefdruk hebt ontvangen. De URL moet de parameter tracking weergeven. In het bovenstaande voorbeeld is de laatste URL: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+>U kunt de uiteindelijke URL controleren door [een bewijs verzenden](../content-management/preview-test.md#send-proofs) en klik op de koppeling in de inhoud van het e-mailbericht als u de proefdruk hebt ontvangen. De URL moet de parameter tracking weergeven. In het bovenstaande voorbeeld is de laatste URL: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>

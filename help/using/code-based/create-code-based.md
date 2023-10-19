@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '977'
 ht-degree: 2%
 
 ---
@@ -108,7 +108,7 @@ Zodra de ontwikkelaar een API- of SDK-aanroep uitvoert om inhoud op te halen voo
 >title="Een voorvertoning weergeven van uw op code gebaseerde ervaring"
 >abstract="Krijg een simulatie van wat uw code-gebaseerde ervaring zal kijken als."
 
-Volg de onderstaande stappen om een voorvertoning weer te geven van uw aangepaste ervaring op basis van code.
+Volg de onderstaande stappen om een voorvertoning weer te geven van uw aangepaste ervaring op basis van code. Gedetailleerde informatie over het selecteren van testprofielen en het weergeven van een voorvertoning van de inhoud is beschikbaar in het dialoogvenster  [De inhoudspagina voorvertonen en testen](../content-management/preview-test.md).
 
 >[!CAUTION]
 >

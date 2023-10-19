@@ -7,7 +7,7 @@ feature: Get Started
 role: Data Engineer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 5%
@@ -35,7 +35,7 @@ De stappen om een identiteitsnamespace en een dataset tot stand te brengen die v
 
 1. **Bronconnectors configureren**. De Optimzer van de Reis van de Adobe staat gegevens toe om van externe bronnen worden opgenomen terwijl het voorzien van u van de capaciteit om inkomende gegevens te structureren, te etiketteren en te verbeteren gebruikend de diensten van het Platform. U kunt gegevens uit diverse bronnen invoeren, zoals toepassingen voor Adobe, opslag in de cloud, databases en vele andere. Meer informatie over bronconnectors [op deze pagina](../get-started-sources.md).
 
-1. **Testprofielen maken**. Testprofielen zijn vereist wanneer u de opdracht [testmodus](../../building-journeys/testing-the-journey.md) op een reis en naar [uw berichten bekijken en testen](../../email/preview.md) vóór verzending. De stappen voor het maken van testprofielen zijn gedetailleerd [op deze pagina](../../audience/creating-test-profiles.md).
+1. **Testprofielen maken**. Testprofielen zijn vereist wanneer u de opdracht [testmodus](../../building-journeys/testing-the-journey.md) op een reis en naar [uw berichten bekijken en testen](../../content-management/preview-test.md) vóór verzending. De stappen voor het maken van testprofielen zijn gedetailleerd [op deze pagina](../../audience/creating-test-profiles.md).
 
 
 Daarnaast moet u **[!UICONTROL Data Sources]**, **[!UICONTROL Events]** en **[!UICONTROL Actions]**. Meer informatie [in deze sectie](../../configuration/about-data-sources-events-actions.md).

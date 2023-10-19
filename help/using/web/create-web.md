@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: ec071392cec9933bb73ae9ab20618292b6089061
+source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 3%
+source-wordcount: '800'
+ht-degree: 2%
 
 ---
 
@@ -86,28 +86,19 @@ Voor meer informatie over hoe te om een campagne te vormen, raadpleeg [deze pagi
 >title="Een voorvertoning van uw webbeleving bekijken"
 >abstract="Bekijk een simulatie van hoe uw webervaring eruit zal zien."
 
-Eenmaal [gemaakt voor uw webervaring](edit-web-content.md) met de webontwerper kunt u een voorvertoning van uw gewijzigde webpagina&#39;s weergeven voordat u uw campagne activeert. Hiervoor voert u de volgende stappen uit.
+Eenmaal [gemaakt voor uw webervaring](edit-web-content.md) met de webontwerper kunt u testprofielen gebruiken om een voorvertoning van uw gewijzigde webpagina&#39;s weer te geven. Als u persoonlijke inhoud hebt ingevoegd, kunt u met behulp van de gegevens van het testprofiel controleren hoe deze inhoud wordt weergegeven.
 
->[!CAUTION]
+Om dit te doen, klik **[!UICONTROL Simulate content]** vanuit het webcampagnebewerkingsinhoudscherm of de webontwerper voegt u vervolgens een testprofiel toe om uw webpagina te controleren met behulp van de testprofielgegevens.
+
+![](assets/web-designer-preview.png)
+
+U kunt de URL ook in de standaardbrowser openen of de test-URL kopiëren en in een browser plakken. Op deze manier kunt u de koppeling delen met uw team en belanghebbenden die de nieuwe webervaring in een browser kunnen bekijken voordat de campagne live gaat.
+
+>[!NOTE]
 >
->U moet testprofielen beschikbaar hebben om te simuleren welke aanbiedingen aan hen zullen worden geleverd. Leer hoe u [testprofielen maken](../audience/creating-test-profiles.md).
+>Wanneer het kopiëren van testURL, is de getoonde inhoud die voor het testprofiel wordt gepersonaliseerd dat wordt gebruikt toen de inhoudsimulatie werd geproduceerd in [!DNL Journey Optimizer].
 
-1. Selecteer in het scherm Inhoud voor webcampagne bewerken of in de webontwerper **[!UICONTROL Simulate content]**.
-
-   <!--![](assets/web-designer-simulate.png)-->
-
-   ![](assets/web-campaign-simulate.png)
-
-1. Klikken **[!UICONTROL Manage test profiles]** om een of meer testprofielen te selecteren.
-1. Er wordt een voorvertoning van de gewijzigde webpagina weergegeven.
-
-   ![](assets/web-designer-preview.png)
-
-1. U kunt de URL ook in de standaardbrowser openen of de test-URL kopiëren en in een browser plakken. Op deze manier kunt u de koppeling delen met uw team en belanghebbenden die de nieuwe webervaring in een browser kunnen bekijken voordat de campagne live gaat.
-
-   >[!NOTE]
-   >
-   >Wanneer het kopiëren van testURL, is de getoonde inhoud die voor het testprofiel wordt gepersonaliseerd dat wordt gebruikt toen de inhoudsimulatie werd geproduceerd in [!DNL Journey Optimizer].
+Gedetailleerde informatie over het selecteren van testprofielen en het weergeven van een voorvertoning van de inhoud is beschikbaar in het dialoogvenster [Inhoud beheren](../content-management/preview-test.md) sectie.
 
 ## De webcampagne activeren {#activate-web-campaign}
 
