@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 62f3836494ae40cb4676f3e62ad4c8de2daa3ed9
+source-git-commit: b5d489779b150bdd3b9d7382b5710f7430620233
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 2%
+source-wordcount: '414'
+ht-degree: 4%
 
 ---
 
@@ -30,24 +30,6 @@ Opmerkingen bij de eerste release hieronder kunnen zonder voorafgaande kennisgev
 ### Nieuwe functies{#oct-2023-features}
 
 Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
-
-
-<table>
-<thead>
-<tr>
-<th><strong>MMS (Multimedia Message Service) in SMS (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Met het Kanaal van SMS, kunt u uw mededeling nu verbeteren door de MMS-berichten (Multimedia Message Service) te verzenden, toelatend het delen van beelden, GIFFEN, of video's met uw klanten. Deze functie is momenteel alleen beschikbaar in Beta met Sinch.</p>
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
-
 
 <table>
 <thead>
@@ -66,7 +48,38 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Samengesteld publiek op reizen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt publiek nu gebruiken dat in samenstellingswerkschema's in uw reizen aan doelklanten wordt gecreeerd. Nadat een publiekscompositie is gepubliceerd en het publiek is opgeslagen, gebruikt u een activiteit van het publiek Lezen om dit nieuwe publiek te selecteren op het canvas van uw reis.</p>
+<!--img src="assets/channel-reports.png"/-->
+<p>Raadpleeg de <a href="../audience/get-started-audience-orchestration.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</tr>
+</tbody>
+</table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>MMS (Multimedia Message Service) in SMS (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met het Kanaal van SMS, kunt u uw mededeling nu verbeteren door de MMS-berichten (Multimedia Message Service) te verzenden, toelatend het delen van beelden, GIFFEN, of video's met uw klanten. Deze functie is momenteel alleen beschikbaar in Beta met Sinch.</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 ### Verbeteringen {#oct-2023-improvements}
 
@@ -75,7 +88,6 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 **Doelgroepen**
 
 * U kunt nu doelgroepen kiezen die vanuit een CSV-bestand naar reizen en campagnes zijn geüpload.
-* U kunt nu doelgroepen kiezen die het resultaat zijn van compositieworkflows naar uw reizen.
 
 **Spamscoring voor e-mails**
 
