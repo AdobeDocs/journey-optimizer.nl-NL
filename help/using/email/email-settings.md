@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: aa71769719dce607e5392c9d8167f3afe3884d5f
+source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
 workflow-type: tm+mt
 source-wordcount: '2276'
 ht-degree: 1%
@@ -123,10 +123,7 @@ In de **[!UICONTROL Header parameters]** in, voert u de namen en e-mailadressen 
 
 * **[!UICONTROL Error email]**: Alle fouten die door ISPs na een paar dagen van post worden geproduceerd die (asynchrone stuitingen) worden ontvangen op dit adres. De out-of-office berichten en de uitdagingsreacties worden ook ontvangen op dit adres.
 
-  >[!NOTE]
-  >
-  >Als u de meldingen buiten het kantoor wilt ontvangen en reacties wilt uitdagen op een specifiek e-mailadres dat niet is gedelegeerd aan de Adobe, moet u een [voorwaarts proces](#forward-email). Zorg er in dat geval voor dat u een handmatige of geautomatiseerde oplossing hebt waarmee de e-mailberichten die in deze Postvak IN worden geplaatst, kunnen worden verwerkt.
-
+  Als u de meldingen buiten het kantoor wilt ontvangen en reacties wilt uitdagen op een specifiek e-mailadres dat niet is gedelegeerd aan de Adobe, moet u een [voorwaarts proces](#forward-email). Zorg er in dat geval voor dat u een handmatige of geautomatiseerde oplossing hebt waarmee de e-mailberichten die in deze Postvak IN worden geplaatst, kunnen worden verwerkt.
 
 >[!CAUTION]
 >
