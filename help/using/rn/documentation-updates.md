@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 37fda274025135f0577fd551971583e1b6d5c469
 workflow-type: tm+mt
-source-wordcount: '3827'
+source-wordcount: '3843'
 ht-degree: 14%
 
 ---
@@ -19,13 +19,12 @@ ht-degree: 14%
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
 
-
-
 ## Oktober 2023 {#oct-2023}
 
 * Toegevoegde GIFFEN ter illustratie van enkele belangrijke mogelijkheden, zoals: [Inhoudssjablonen](../content-management/content-templates.md), [Fragmenten](../content-management/fragments.md), [Berekende kenmerken](../audience/computed-attributes.md), [Directe post](../direct-mail/get-started-direct-mail.md), [Tags](../start/search-filter-categorize.md#tags), [Optimalisatiemodellen voor het beheer van beslissingen](../offers/ranking/personalized-optimization-model.md), [API-gestuurde campagnes](../campaigns/api-triggered-campaigns.md), en [Inhoudsexperiment](../campaigns/content-experiment.md).
 * Het proces voor het maken van schema&#39;s is bijgewerkt met de meest recente updates in de gebruikersinterface die worden geleverd bij Adobe Experience Platform-wijzigingen. [Meer informatie](../audience/creating-test-profiles.md)
 * De pagina met instructies voor beslissingsbeheer is toegevoegd aan de pagina met instructies en beperkingen. [Meer informatie](../start/guardrails.md#decision-management)
+* Er is een nieuwe sectie gemaakt voor het voorvertonen en testen van uw inhoud. [Meer informatie](../content-management/preview-test.md)
 
 ## September 2023 {#september-2023}
 
