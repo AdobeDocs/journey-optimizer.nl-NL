@@ -4,14 +4,19 @@ description: Leer hoe u testprofielen selecteert om inhoud voor te vertonen en t
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
 # Testprofielen selecteren {#select-test-profiles}
+
+>[!CONTEXTUALHELP]
+>id="ajo_preview_test_profiles"
+>title="Gebruik testprofielen om uw inhoud te controleren"
+>abstract="Gebruik testprofielen om de inhoud voor te vertonen en te testen. Als u persoonlijke velden hebt toegevoegd, kunt u controleren hoe deze worden weergegeven met behulp van de gegevens van het testprofiel."
 
 Voordat u een voorbeeld van de inhoud bekijkt of de inhoud test, moet u eerst testprofielen selecteren. Dit zijn aanvullende ontvangers die niet voldoen aan de gedefinieerde doelcriteria. [Leer hoe u testprofielen maakt](../audience/creating-test-profiles.md)
 

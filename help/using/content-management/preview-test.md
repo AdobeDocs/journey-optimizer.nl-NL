@@ -4,9 +4,9 @@ description: Leer hoe u uw inhoud kunt voorvertonen en testen.
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 6da7f4c8caa5a0a6cfda1e90d0c6cd4787c6afca
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,13 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
->title="Berichten voorvertonen en testen"
->abstract="Nadat de inhoud van het bericht is gedefinieerd, kunt u testprofielen gebruiken om de inhoud ervan voor te vertonen."
+>title="Controleren hoe uw inhoud wordt gerenderd"
+>abstract="Nadat de inhoud is gedefinieerd, kunt u testprofielen gebruiken om deze voor te vertonen en te controleren of de rendering correct is volgens het kanaal dat u gebruikt."
+
+>[!CONTEXTUALHELP]
+>id="ajo_preview_simulate"
+>title="Controleren hoe uw inhoud wordt gerenderd"
+>abstract="Nadat u de inhoud hebt gedefinieerd, kunt u deze voorvertonen en controleren of de rendering correct is volgens het kanaal dat u gebruikt."
 
 ## Informatie over voorvertonen en testen van inhoud {#about}
 
