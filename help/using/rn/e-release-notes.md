@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1c7c854d9a9a316890380d9ff84de1d6b739b006
+source-git-commit: 70e507337c3eef1718de21c3c0199bda1b92db69
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 5%
+source-wordcount: '343'
+ht-degree: 4%
 
 ---
 
@@ -104,10 +104,6 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 **Journeys**
 
 * De maximumduur die u in de activiteit van de Wacht kunt bepalen is nu 29 dagen in plaats van 30.
-
-**Landingspagina’s**
-
-* Wanneer u de landingspagina van een formuliercomponent gebruikt, kunt u nu een e-mailveld met eigen specifieke opties toevoegen.
 
 **Toestemming in kanaalconfiguratie**
 
