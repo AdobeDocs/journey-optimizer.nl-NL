@@ -9,14 +9,19 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 1%
+source-wordcount: '226'
+ht-degree: 2%
 
 ---
 
 # Rangschikkingsmethoden {#rankings}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_config_formulas"
+>title="Rangschikkingsformules maken"
+>abstract="Met indelingen kunt u regels definiëren die bepalen welk item als eerste moet worden weergegeven, in plaats van rekening te houden met de prioriteitsscores van het item. Zodra een rangschikkingsmethode is gecreeerd, kunt u het aan een besluitvormingsstrategie toewijzen om te bepalen welke punten eerst moeten worden geselecteerd."
 
 >[!BEGINSHADEBOX]
 

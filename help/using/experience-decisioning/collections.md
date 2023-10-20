@@ -9,14 +9,29 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 3%
+source-wordcount: '387'
+ht-degree: 2%
 
 ---
 
 # Verzamelingen {#collections}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_collections"
+>title="Verzamelingen maken"
+>abstract="Met verzamelingen kunt u uw beslissingsitems categoriseren en groeperen op basis van uw voorkeuren. Deze categorieën worden gecreeerd door het ontwerpen van regels die hefboomwerking de attributen van besluitvormingspunten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_collection_rules"
+>title="Bepaal regels voor uw inzameling"
+>abstract="Voeg één of veelvoudige regels toe om de punten te bepalen die in de inzameling moeten worden omvat. Kies een itemkenmerk dat u als criterium wilt gebruiken. Selecteer de gewenste operator en voer de waarde in waarop u wilt filteren. Voeg zoveel regels toe als nodig is."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_strategy_collection"
+>title="Een verzameling kiezen"
+>abstract="Selecteer de verzameling die de aanbiedingen bevat die u wilt overwegen. Deze stap is verplicht bij het maken van een selectiestrategie. Met verzamelingen kunt u uw beslissingsitems categoriseren en groeperen op basis van uw voorkeuren. U kunt bijvoorbeeld een verzameling maken die alle beslissingsitems met de waarde &quot;Yoga&quot; bevat in het aangepaste kenmerk &quot;Categorie&quot;."
 
 >[!BEGINSHADEBOX]
 

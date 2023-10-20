@@ -9,14 +9,20 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '982'
 ht-degree: 1%
 
 ---
 
 # Beslissingsitems {#items}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_items"
+>title="Beslissingsitems beheren"
+>abstract="Met Journey Optimizer kunt u marketingaanbiedingen maken, ook wel &#39;beslissingsitems&#39; genoemd, die u kunt maken en indelen in een gecentraliseerde catalogus en verzamelingen. Momenteel worden alle gemaakte beslissingsitems geconsolideerd in één catalogus met &quot;voorstellen&quot;. Vanuit dit scherm kunt u ook het schema van de catalogus openen met de opdracht **Schema bewerken** en maak aangepaste kenmerken voor uw beslissingsitems."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="De itemcatalogus configureren"
 
 >[!BEGINSHADEBOX]
 
@@ -40,6 +46,24 @@ Met Journey Optimizer kunt u marketingaanbiedingen maken, ook wel &#39;beslissin
 Voordat u een beslissingsonderdeel maakt, moet u controleren of u een **beslissingsregel** als u voorwaarden wilt plaatsen om aan te bepalen aan wie het besluitpunt kan worden getoond. [Leer hoe u beslissingsregels](rules.md) maakt .
 
 ## Je eerste beslissingsobject maken
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_priority"
+>title="De prioriteit van het beslissingsitem definiëren"
+>abstract="Als een profiel voor meerdere items in aanmerking komt, kan dit beslissingsitem met anderen worden vergeleken. Bij een hogere prioriteit krijgt de post voorrang boven andere."
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_custom_attributes"
+>title="De aangepaste kenmerken definiëren"
+>abstract="Aangepaste kenmerken zijn specifieke kenmerken die zijn toegesneden op uw behoeften en die u kunt toewijzen aan een beslissingsitem. Zij worden gecreeerd in het de catalogusschema van besluitvormingspunten. Deze sectie wordt alleen weergegeven als u ten minste één aangepast kenmerk aan het catalogusschema hebt toegevoegd."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="De itemcatalogus configureren"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_constraints"
+>title="Soorten publiek of beslissingsregels toevoegen"
+>abstract="Standaard kunnen alle profielen in aanmerking komen voor het item voor een beslissing, maar u kunt het publiek of de regels gebruiken om het item te beperken tot specifieke profielen."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Soorten publiek gebruiken"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="Beslissingsregels gebruiken"
 
 Voer de volgende stappen uit om een beslissingsitem te maken:
 
