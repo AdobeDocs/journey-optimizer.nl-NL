@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: bf85321377568aae1d28de8cd494d91d9eac601e
+source-git-commit: 1c7c854d9a9a316890380d9ff84de1d6b739b006
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 4%
+source-wordcount: '364'
+ht-degree: 5%
 
 ---
 
@@ -48,21 +48,21 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 </tbody>
 </table>
 
-<table>
+<!-- table>
 <thead>
 <tr>
-<th><strong>Samengesteld publiek op reizen</strong><br/></th>
+<th><strong>Composed audiences in journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt publiek nu gebruiken dat in samenstellingswerkschema's in uw reizen aan doelklanten wordt gecreeerd. Nadat een publiekscompositie is gepubliceerd en het publiek is opgeslagen, gebruikt u een activiteit van het publiek Lezen om dit nieuwe publiek te selecteren op het canvas van uw reis.</p>
+<p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
 <!--img src="assets/channel-reports.png"/-->
 <p>Raadpleeg de <a href="../audience/get-started-audience-orchestration.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </tr>
 </tbody>
-</table>
+&lt;/table --&gt;
 
 
 <table>
