@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6dd8942e4b598ae0c197c73b258e58f082f15f65
+source-git-commit: 59693650e3745471729a2d37998d6622a1a3c521
 workflow-type: tm+mt
-source-wordcount: '1611'
+source-wordcount: '1646'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,11 @@ U kunt uit één van deze twee oplossingen kiezen:
 
 * De inhoud van berichten in de app is beperkt tot 2 MB. Het opnemen van grote afbeeldingen kan het publicatieproces belemmeren.
 
-## Beslissingsbeheer {#decision-management}
+## Audiëntenguardrails {#audience}
+
+* U kunt maximaal 10 publiekscomposities in een bepaalde sandbox publiceren. Als u deze drempel hebt bereikt, moet u een samenstelling schrappen om ruimte vrij te maken en nieuwe te publiceren.
+
+## Garanties voor besluitvormingsbeheer {#decision-management}
 
 ### Prestatiegerichten {#performance-guardrails}
 
