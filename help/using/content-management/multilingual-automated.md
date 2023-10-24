@@ -10,9 +10,9 @@ level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 hide: true
 hidefromtoc: true
-source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
+source-git-commit: 8c95f35049da1b7ced9a5ecd9e267a8847c12481
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1121'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,10 @@ Start uw vertaalproject door de doellandinstelling op te geven en de specifieke 
 
    ![](assets/translation_project_2.png)
 
-1. Kies of uw vertalingen na goedkeuring automatisch worden gepubliceerd en of u de revisieworkflow wilt inschakelen.
+1. Kies of u de volgende opties wilt inschakelen:
+
+   * **[!UICONTROL Automatically publish approved translations]**: Als de vertalingen eenmaal zijn goedgekeurd, worden ze automatisch in de campagne opgenomen zonder dat er handmatige tussenkomst nodig is.
+   * **[!UICONTROL Enable Review workflow]**: Alleen van toepassing op landinstellingen die zijn vertaald in een toepassing voor mensen. Hierdoor kan een interne revisor de vertaalde inhoud op efficiënte wijze evalueren en goedkeuren of afwijzen. [Meer informatie](#review-translation-project)
 
 1. Klikken **[!UICONTROL Add locale]** om het menu te openen en de talen voor uw vertaalproject te definiëren.
 
@@ -87,6 +90,8 @@ Start uw vertaalproject door de doellandinstelling op te geven en de specifieke 
 1. Selecteer in de lijst uw **[!UICONTROL Target locale(s)]** en kies welke **[!UICONTROL Translation provider]** wilt u gebruiken voor elke landinstelling.
 
 1. Klikken **[!UICONTROL Add a locale]** wanneer u klaar bent met het koppelen van uw doellandinstelling aan de juiste vertaalprovider. Klik vervolgens op **[!UICONTROL Save]**.
+
+   Als een provider grijs wordt weergegeven voor een doellandinstelling, geeft dit aan dat de provider die specifieke landinstelling niet ondersteunt.
 
    ![](assets/translation_project_4.png)
 
@@ -192,12 +197,33 @@ Uw campagne is nu geactiveerd. Het bericht dat in de campagne wordt gevormd word
 
 Nadat u de campagne hebt verzonden, kunt u de impact van de campagnes meten in de campagnerapporten.
 
+## Het interne vertaalproject beheren {#manage-ht-project}
+
+Als u tijdens het configureren van uw taalinstellingen de interne vertaling hebt geselecteerd, kunt u uw inhoud rechtstreeks in uw vertaalproject vertalen.
+
+1. Van uw **[!UICONTROL Translation project]**, toegang tot de **[!UICONTROL More actions]** en selecteert u **[!UICONTROL In-house translation]**.
+
+   ![](assets/inhouse-translation-1.png)
+
+1. U kunt uw CSV-bestand voor vertaling exporteren met externe vertaalsoftware. U kunt het CSV-bestand ook weer importeren in uw vertaalproject door op de knop **[!UICONTROL Import CSV]** knop.
+
+   ![](assets/inhouse-translation-3.png)
+
+1. Klikken **[!UICONTROL Edit]** om uw vertaalinhoud toe te voegen.
+
+   ![](assets/inhouse-translation-2.png)
+
+1. Als u de vertaalde tekst wilt publiceren, klikt u op **[!UICONTROL Finalize]**.
+
 ## Uw vertaalproject bekijken {#review-translation-project}
 
 Als u **[!UICONTROL Enable review worflow]** in uw **[!UICONTROL Translation project]**, kunt u de vertaling direct in Journey Optimizer bekijken nadat deze is voltooid door uw geselecteerde vertaalbureau.
-Als deze optie is uitgeschakeld, wordt de status van de vertaaltaak automatisch ingesteld op **[!UICONTROL Reviewed]**, zodat u snel kunt doorgaan door op **[!UICONTROL Send to Product]**.
+
+Als deze optie is uitgeschakeld, wordt de status van de vertaaltaak automatisch ingesteld op **[!UICONTROL Reviewed]**, zodat u snel kunt doorgaan door op **[!UICONTROL Publish]**.
 
 1. Zodra uw vertaling van uw dienstverlener is voltooid, kunt u tot de vertaling voor overzicht toegang hebben **[!UICONTROL Translation project]** of rechtstreeks van uw **[!UICONTROL Campaign]**.
+
+   Van de **[!UICONTROL More actions]** menu, klikt u op **[!UICONTROL Review]**.
 
    ![](assets/translation_review_1.png)
 
@@ -219,7 +245,7 @@ Als deze optie is uitgeschakeld, wordt de status van de vertaaltaak automatisch 
 
 1. Klikken **[!UICONTROL Preview]** om de weergave van uw vertaalde inhoud in elke taal te controleren.
 
-1. Als u tevreden bent met de vertaling, klikt u op **[!UICONTROL Finalize]**.
+1. Als u de vertaalde tekst wilt publiceren, klikt u op **[!UICONTROL Finalize]**.
 
    ![](assets/translation_review_5.png)
 
@@ -229,7 +255,7 @@ Als deze optie is uitgeschakeld, wordt de status van de vertaaltaak automatisch 
 
 1. Eenmaal uw **[!UICONTROL Translation project]** status is ingesteld op Reviewed, kunt u deze naar uw campagne verzenden.
 
-   Klik in het menu Geavanceerd op **[!UICONTROL Publish]**.
+   Van de **[!UICONTROL More actions]** menu, klikt u op **[!UICONTROL Publish]**.
 
    ![](assets/translation_review_7.png)
 
