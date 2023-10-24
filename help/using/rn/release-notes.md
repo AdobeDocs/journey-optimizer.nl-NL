@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1b37da28e6dbb03c8c76dd9a6637dfd95447eb7e
+source-git-commit: 74a4de20ae14923139cf6bf81676819355944ceb
 workflow-type: tm+mt
-source-wordcount: '4605'
+source-wordcount: '4604'
 ht-degree: 8%
 
 ---
@@ -108,13 +108,10 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 * When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
 
-**Waarschuwing**
-
-* Wanneer er een fout optreedt in een van uw campagnes, verschijnt er nu een waarschuwingspictogram in de lijst met campagnes naast de status van de campagne.
-
 **Campagnes**
 
 * U kunt nu een live eenmalige campagne stoppen, wijzigingen aanbrengen en deze hervatten. Deze verbetering is beschikbaar in Beta.
+* Wanneer er een fout optreedt in een van uw campagnes, verschijnt er nu een waarschuwingspictogram in de lijst met campagnes naast de status van de campagne.
 
 **Journeys**
 
