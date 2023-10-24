@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 74a4de20ae14923139cf6bf81676819355944ceb
+source-git-commit: 2776af02e88659a350dfa4126a73106753e079b2
 workflow-type: tm+mt
-source-wordcount: '4604'
+source-wordcount: '4583'
 ht-degree: 8%
 
 ---
@@ -120,10 +120,6 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
    * de **Tijd** in het veld [wachtactiviteiten](../building-journeys/wait-activity.md)
    * de **Wachttijd bij terugkeer** in [reiseigenschappen](../building-journeys/journey-gs.md#entrance)
    * de **Wacht op** veld in de time-outdefinitie van [algemeen](../building-journeys/general-events.md#events-specific-time) en [reactie](../building-journeys/reaction-events.md) gebeurtenissen.
-
-**Landingspagina’s**
-
-* Wanneer u de landingspagina van een formuliercomponent gebruikt, kunt u nu een e-mailveld met eigen specifieke opties toevoegen.
 
 **Toestemming in kanaalconfiguratie**
 
