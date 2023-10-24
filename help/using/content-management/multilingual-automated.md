@@ -3,23 +3,46 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Aan de slag met meertalige inhoud
 description: Meer informatie over meertalige inhoud in Journey Optimizer
-feature: Multilingual
+feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 hide: true
 hidefromtoc: true
-source-git-commit: 3b1acd7ada0637ce22e360e6e1bb35921dde2315
+source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '987'
 ht-degree: 1%
 
 ---
 
-# Meertalige inhoud maken {#multilingual-automated}
+# Meertalige inhoud maken met automatische vertaling {#multilingual-automated}
 
-Met de meertalige functie kunt u moeiteloos inhoud in meerdere talen maken in één campagne. Met deze functie kunt u schakelen tussen talen tijdens het bewerken van uw campagne, het hele bewerkingsproces stroomlijnen en uw mogelijkheden verbeteren om meertalige inhoud efficiënt te beheren.
+>[!BEGINSHADEBOX]
+
+**Inhoudsopgave**
+
+* [Aan de slag met meertalige inhoud](multilingual-gs.md)
+* [Meertalige inhoud maken met handmatige vertaling](multilingual-manual.md)
+* **[Meertalige inhoud maken met automatische vertaling](multilingual-automated.md)**
+* [Meertalig campagnerapport](multilingual-report.md)
+
+>[!ENDSHADEBOX]
+
+Met behulp van de geautomatiseerde stroom kunt u gewoon uw doeltaal en taalprovider selecteren. Uw inhoud wordt vervolgens rechtstreeks naar de vertaling verzonden en klaar voor een definitieve revisie wanneer deze is voltooid.
+
+Ga als volgt te werk om meertalige inhoud te maken met automatische vertaling:
+
+1. [Uw landinstelling maken](#create-locale).
+
+1. [Een taalproject maken](#create-translation-project).
+
+1. [Taalinstellingen maken](#create-language-settings).
+
+1. [Een meertalige campagne maken](#create-a-multilingual-campaign).
+
+1. [Uw vertaaltaak controleren (optioneel)](#review-translation-project).
 
 ## Landinstelling maken {#create-locale}
 
@@ -41,11 +64,17 @@ Wanneer het vormen van uw taalmontages, zoals die in [Taalinstellingen maken](#l
 
 ## Vertaalproject maken {#translation-project}
 
+Start uw vertaalproject door de doellandinstelling op te geven en de specifieke taal of regio voor uw inhoud aan te geven. Vervolgens kunt u uw vertaalprovider kiezen.
+
 1. Van de **[!UICONTROL Translation projects]** menu onder **[!UICONTROL Content management]**, klikt u op **[!UICONTROL Create project]**.
+
+   ![](assets/translation_project_1.png)
 
 1. Type-in a **[!UICONTROL Name]** en **[!UICONTROL Description]**.
 
 1. Selecteer **[!UICONTROL Source locale]**.
+
+   ![](assets/translation_project_2.png)
 
 1. Kies of uw vertalingen na goedkeuring automatisch worden gepubliceerd en of u de revisieworkflow wilt inschakelen.
 
@@ -53,21 +82,27 @@ Wanneer het vormen van uw taalmontages, zoals die in [Taalinstellingen maken](#l
 
    Indien een **[!UICONTROL Locale]** ontbreekt, kunt u het handmatig maken via de **[!UICONTROL Translation]** of door API. Zie [Een nieuwe landinstelling maken](#create-locale).
 
+   ![](assets/translation_project_3.png)
+
 1. Selecteer in de lijst uw **[!UICONTROL Target locale(s)]** en kies welke **[!UICONTROL Translation provider]** wilt u gebruiken voor elke landinstelling.
 
-1. Klikken **[!UICONTROL Add a locale]** wanneer u klaar bent met het koppelen van uw doellandinstelling aan de juiste vertaalprovider.
+1. Klikken **[!UICONTROL Add a locale]** wanneer u klaar bent met het koppelen van uw doellandinstelling aan de juiste vertaalprovider. Klik vervolgens op **[!UICONTROL Save]**.
+
+   ![](assets/translation_project_4.png)
 
 1. Klikken **[!UICONTROL Save]** wanneer uw vertaalproject wordt gevormd.
 
-1. In het menu Geavanceerd van het vertaalproject kunt u kiezen of u het project wilt bewerken, deactiveren of verwijderen.
+Uw vertaalproject is nu gemaakt en kan worden gebruikt in een meertalige campagne.
 
 ## Taalinstellingen maken {#language-settings}
 
-In deze sectie kunt u de primaire taal en de bijbehorende landinstellingen instellen voor het beheer van meertalige inhoud. U kunt ook het kenmerk kiezen dat u wilt gebruiken om informatie met betrekking tot de profieltaal op te zoeken
+In deze sectie kunt u de primaire taal en de bijbehorende landinstellingen instellen voor het beheer van meertalige inhoud. U kunt ook het kenmerk kiezen dat u wilt gebruiken om informatie met betrekking tot de profieltaal op te zoeken.
 
 1. Van de **[!UICONTROL Administration]** menu, toegang **[!UICONTROL Channel]**.
 
 1. In de **[!UICONTROL Language settings]** menu, klikt u op **[!UICONTROL Create language settings]**.
+
+   ![](assets/language_settings_1.png)
 
 1. Typ de naam van uw **[!UICONTROL Language settings]**.
 
@@ -75,11 +110,19 @@ In deze sectie kunt u de primaire taal en de bijbehorende landinstellingen inste
 
 1. Van de **[!UICONTROL Translation project]** veld, klikken **[!UICONTROL Edit]** en kies uw eerder gemaakte **[!UICONTROL Translation project]**.
 
-   Uw eerder geconfigureerde landinstellingen worden automatisch geïmporteerd. Als u uw **[!UICONTROL Translation project]**, klikt u op **[!UICONTROL Refresh]** om deze wijzigingen in uw **[!UICONTROL Language settings]**.
+   Uw eerder geconfigureerde landinstellingen worden automatisch geïmporteerd.
+
+   ![](assets/language_settings_2.png)
 
 1. Van de **[!UICONTROL Sending preference]** selecteert u het kenmerk dat u wilt opzoeken om informatie over profieltalen te zoeken.
 
 1. Klikken **[!UICONTROL Edit]** naast uw **[!UICONTROL Locale]** om het verder aan te passen en toe te voegen **[!UICONTROL Profile preferences]**.
+
+   ![](assets/language_settings_3.png)
+
+1. Als uw **[!UICONTROL Translation project]** wordt bijgewerkt, klikt u op **[!UICONTROL Refresh]** om deze wijzigingen in uw **[!UICONTROL Language settings]**.
+
+   ![](assets/language_settings_4.png)
 
 1. Klikken **[!UICONTROL Submit]** om uw **[!UICONTROL Language settings]**.
 
@@ -93,23 +136,47 @@ In deze sectie kunt u de primaire taal en de bijbehorende landinstellingen inste
 
 ## Een meertalige campagne maken {#create-multilingual-campaign}
 
-1. Begin met het maken en configureren van uw campagne volgens uw vereisten. [Meer informatie](../campaigns/create-campaign.md)
+Als u uw vertaalproject en taalinstellingen hebt ingesteld, kunt u uw campagne maken en de inhoud aanpassen voor de verschillende landinstellingen.
 
-1. Ga naar de **[!UICONTROL Actions]** en selecteert u **[!UICONTROL Edit content]**.
-
-1. Maak of importeer de originele inhoud en pas deze indien nodig aan.
+1. Begin met het maken en configureren van uw campagne voor e-mail-, sms- of pushmeldingen volgens uw vereisten. [Meer informatie](../campaigns/create-campaign.md)
 
 1. Wanneer de primaire inhoud is gemaakt, klikt u op **[!UICONTROL Save]** en ga terug naar het scherm van de campagneconfiguratie.
 
-1. Klikken **[!UICONTROL Add languages]** en selecteer uw eerder gemaakte **[!UICONTROL Language settings]**. [Meer informatie](#create-language-settings)
+1. Klik op **[!UICONTROL Add languages]**.  [Meer informatie](#create-language-settings)
 
-1. Open de geavanceerde instellingen van de **[!UICONTROL Locales]** en selecteert u **[!UICONTROL Copy primary to all locales]**.
+   ![](assets/multilingual-campaign-automated-1.png)
 
-1. Nu de primaire inhoud wordt gedupliceerd door de geselecteerde inhoud  **[!UICONTROL Locales]**, elke landinstelling openen en klikken **[!UICONTROL Edit email body]** om uw inhoud te vertalen.
+1. Selecteer uw eerder gemaakte **[!UICONTROL Language settings]**.
 
-1. U kunt ervoor kiezen om landinstellingen uit te schakelen of in te schakelen met de **[!UICONTROL More action]** van uw geselecteerde landinstelling.
+   ![](assets/multilingual-campaign-automated-2.png)
 
-1. Als u de meertalige configuratie wilt deactiveren, klikt u op **[!UICONTROL Add languages]** en selecteer de taal die u als lokale taal wilt behouden.
+1. Klik op **[!UICONTROL Send to translate]** om uw inhoud door te sturen naar het eerder geselecteerde vertaalbureau.
+
+   ![](assets/multilingual-campaign-automated-3.png)
+
+1. Nadat de inhoud voor vertaling is verzonden, kan deze niet meer worden bewerkt. Klik op het vergrendelingspictogram om de oorspronkelijke inhoud te wijzigen.
+
+   Als u wijzigingen in deze inhoud wilt aanbrengen, moet u een nieuw vertaalproject maken en dit opnieuw verzenden voor vertaling.
+
+   ![](assets/multilingual-campaign-automated-4.png)
+
+1. Klikken **[!UICONTROL Open translation]** om toegang te krijgen tot uw vertaalproject en dit te bekijken.
+
+   ![](assets/multilingual-campaign-automated-5.png)
+
+1. Volg op deze pagina de status van uw vertaalproject:
+
+   * **[!UICONTROL Translation in progress]**: Uw serviceprovider werkt actief aan de vertaling.
+   * **[!UICONTROL Ready for review]**: Het revisieproces kan worden gestart, zodat u toegang hebt tot de vertaling en deze kunt negeren of goedkeuren.
+   * **[!UICONTROL Reviewed]**: Vertaling is goedgekeurd en klaar om naar de campagne te worden verzonden.
+   * **[!UICONTROL Ready to publish]**: De computervertaling is voltooid en kan nu naar uw campagne worden verzonden.
+   * **[!UICONTROL Completed]**: Vertaling is nu beschikbaar in uw campagne.
+
+   ![](assets/multilingual-campaign-automated-6.png)
+
+1. Zodra uw vertaling is voltooid, is uw meertalige inhoud klaar om te worden verzonden.
+
+   ![](assets/translation_review_9.png)
 
 1. Klikken **[!UICONTROL Review to activate]** om een overzicht van de campagne weer te geven.
 
@@ -117,39 +184,58 @@ In deze sectie kunt u de primaire taal en de bijbehorende landinstellingen inste
 
 1. Blader door uw meertalige inhoud om de rendering in elke taal te bekijken.
 
+   ![](assets/multilingual-campaign-automated-7.png)
+
 1. Controleer of uw campagne correct is geconfigureerd en klik vervolgens op **[!UICONTROL Activate]**.
 
 Uw campagne is nu geactiveerd. Het bericht dat in de campagne wordt gevormd wordt verzonden onmiddellijk, of op de gespecificeerde datum. Houd er rekening mee dat uw campagne niet kan worden gewijzigd zodra deze actief is. Als u inhoud opnieuw wilt gebruiken, kunt u uw campagne dupliceren.
 
 Nadat u de campagne hebt verzonden, kunt u de impact van de campagnes meten in de campagnerapporten.
 
-## Meertalig campagnerapport {#multilingual-campaign-report}
+## Uw vertaalproject bekijken {#review-translation-project}
 
-Algemene rapporten, toegankelijk via de **Alle tijd** weergegeven, gebeurtenissen die ten minste twee uur geleden hebben plaatsgevonden en gebeurtenissen gedurende een geselecteerde tijdsperiode bedekken. Het algemene rapport van de campagne kan direct van uw Campagne met worden betreden **[!UICONTROL View report]** knop.
+Als u **[!UICONTROL Enable review worflow]** in uw **[!UICONTROL Translation project]**, kunt u de vertaling direct in Journey Optimizer bekijken nadat deze is voltooid door uw geselecteerde vertaalbureau.
+Als deze optie is uitgeschakeld, wordt de status van de vertaaltaak automatisch ingesteld op **[!UICONTROL Reviewed]**, zodat u snel kunt doorgaan door op **[!UICONTROL Send to Product]**.
 
-Voor meer informatie over gegevens beschikbaar in het rapport Campagne, verwijs naar [deze pagina](../reports/campaign-global-report.md).
+1. Zodra uw vertaling van uw dienstverlener is voltooid, kunt u tot de vertaling voor overzicht toegang hebben **[!UICONTROL Translation project]** of rechtstreeks van uw **[!UICONTROL Campaign]**.
 
-+++ Meer informatie over de verschillende meetgegevens en widgets die beschikbaar zijn voor uw meertalige inhoud.
+   ![](assets/translation_review_1.png)
 
-![](assets/report_multilingual.png)
+1. Blader vanuit het venster Review door de vertaalde inhoud en accepteer of weiger elke vertaaltekenreeks.
 
-De **[!UICONTROL Email sending statistics by languages]** widget geeft aan hoe succesvol uw levering is, afhankelijk van uw **[!UICONTROL Locales]**:
+   ![](assets/translation_review_3.png)
 
-* **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
+1. Klikken **[!UICONTROL Edit]** om de inhoud van uw vertaaltekenreeks te wijzigen.
 
-* **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten.
+   ![](assets/translation_review_2.png)
 
-* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
+1. Voer uw bijgewerkte vertaling in en klik op **[!UICONTROL Confirm]** wanneer gereed.
 
-De **[!UICONTROL Email tracking statistics by languages]** widget bevat de beschikbare gegevens voor de activiteit van de ontvanger voor uw levering afhankelijk van uw **[!UICONTROL Locales]**:
+   ![](assets/translation_review_4.png)
 
-* **[!UICONTROL Unsubscribes]**: Het aantal klikken op de koppeling voor het opzeggen van abonnementen.
+1. U kunt ook **[!UICONTROL Reject all]** of **[!UICONTROL Approve all]** rechtstreeks.
 
-* **[!UICONTROL Opens]**: Het aantal keren dat het bericht is geopend.
+   Als u **[!UICONTROL Reject all]**, voeg een opmerking toe en klik op **[!UICONTROL Reject]**.
 
-* **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt.
-+++
+1. Klikken **[!UICONTROL Preview]** om de weergave van uw vertaalde inhoud in elke taal te controleren.
 
+1. Als u tevreden bent met de vertaling, klikt u op **[!UICONTROL Finalize]**.
+
+   ![](assets/translation_review_5.png)
+
+1. Van uw **[!UICONTROL Translation project]** selecteert u een van uw projecten voor toegang tot meer details. Als u de vertaling hebt afgewezen, kunt u ervoor kiezen deze terug te sturen naar de vertaling.
+
+   ![](assets/translation_review_6.png)
+
+1. Eenmaal uw **[!UICONTROL Translation project]** status is ingesteld op Reviewed, kunt u deze naar uw campagne verzenden.
+
+   Klik in het menu Geavanceerd op **[!UICONTROL Publish]**.
+
+   ![](assets/translation_review_7.png)
+
+1. Controleer in uw campagne of uw vertaalstatus is gewijzigd in **[!UICONTROL Translation complete]**. U kunt nu uw meertalige inhoud verzenden. Raadpleeg stap 10 in [deze sectie](#create-multilingual-campaign).
+
+   ![](assets/translation_review_9.png)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

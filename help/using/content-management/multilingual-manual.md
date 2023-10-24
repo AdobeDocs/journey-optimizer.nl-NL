@@ -10,17 +10,35 @@ level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 hide: true
 hidefromtoc: true
-exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 90aeb777276e1e72c3099272f00e3700e06c83bf
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '595'
 ht-degree: 1%
 
 ---
 
-# Meertalige inhoud maken {#multilingual}
+# Meertalige inhoud maken met handmatige vertaling {#multilingual-manual}
 
-Met de meertalige functie kunt u moeiteloos inhoud in meerdere talen maken in één campagne. Met deze functie kunt u schakelen tussen talen tijdens het bewerken van uw campagne, het hele bewerkingsproces stroomlijnen en uw mogelijkheden verbeteren om meertalige inhoud efficiënt te beheren.
+>[!BEGINSHADEBOX]
+
+**Inhoudsopgave**
+
+* [Aan de slag met meertalige inhoud](multilingual-gs.md)
+* **[Meertalige inhoud maken met handmatige vertaling](multilingual-manual.md)**
+* [Meertalige inhoud maken met automatische vertaling](multilingual-automated.md)
+* [Meertalig campagnerapport](multilingual-report.md)
+
+>[!ENDSHADEBOX]
+
+Met de handmatige stroom kunt u uw inhoud moeiteloos rechtstreeks vertalen in uw campagne voor e-mail, pushmeldingen of SMS, zodat u nauwkeurige controle- en aanpassingsopties hebt voor uw meertalige berichten. Bovendien kunt u met de optie HTML importeren eenvoudig bestaande meertalige inhoud importeren.
+
+Ga als volgt te werk om meertalige inhoud te maken met handmatige vertaling:
+
+1. [Uw landinstelling maken](#create-locale).
+
+1. [Taalinstellingen maken](#create-language-settings).
+
+1. [Een meertalige campagne maken](#create-a-multilingual-campaign).
 
 ## Landinstelling maken {#create-locale}
 
@@ -86,7 +104,9 @@ In deze sectie kunt u de primaire taal en de bijbehorende landinstellingen inste
 
 ## Een meertalige campagne maken {#create-multilingual-campaign}
 
-1. Begin met het maken en configureren van uw campagne volgens uw vereisten. [Meer informatie](../campaigns/create-campaign.md)
+Nadat u meertalige inhoud hebt ingesteld, kunt u uw campagne plannen en de inhoud voor elk van uw geselecteerde landinstellingen aanpassen.
+
+1. Begin met het maken en configureren van uw campagne voor e-mail-, sms- of pushmeldingen volgens uw vereisten. [Meer informatie](../campaigns/create-campaign.md)
 
 1. Ga naar de **[!UICONTROL Actions]** en selecteert u **[!UICONTROL Edit content]**.
 
@@ -132,34 +152,6 @@ Uw campagne is nu geactiveerd. Het bericht dat in de campagne wordt gevormd word
 
 Nadat u de campagne hebt verzonden, kunt u de impact van de campagnes meten in de campagnerapporten.
 
-## Meertalig campagnerapport {#multilingual-campaign-report}
-
-Algemene rapporten, toegankelijk via de **Alle tijd** weergegeven, gebeurtenissen die ten minste twee uur geleden hebben plaatsgevonden en gebeurtenissen gedurende een geselecteerde tijdsperiode bedekken. Het algemene rapport van de campagne kan direct van uw Campagne met worden betreden **[!UICONTROL View report]** knop.
-
-Voor meer informatie over gegevens beschikbaar in het rapport Campagne, verwijs naar [deze pagina](../reports/campaign-global-report.md).
-
-+++ Meer informatie over de verschillende meetgegevens en widgets die beschikbaar zijn voor uw meertalige inhoud.
-
-![](assets/report_multilingual.png)
-
-De **[!UICONTROL Email sending statistics by languages]** widget geeft aan hoe succesvol uw levering is, afhankelijk van uw **[!UICONTROL Locales]**:
-
-* **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
-
-* **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten.
-
-* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
-
-De **[!UICONTROL Email tracking statistics by languages]** widget bevat de beschikbare gegevens voor de activiteit van de ontvanger voor uw levering afhankelijk van uw **[!UICONTROL Locales]**:
-
-* **[!UICONTROL Unsubscribes]**: Het aantal klikken op de koppeling voor het opzeggen van abonnementen.
-
-* **[!UICONTROL Opens]**: Het aantal keren dat het bericht is geopend.
-
-* **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt.
-+++
-
-
 <!--
 # Create a multilingual journey {#create-multilingual-journey}
 
@@ -167,14 +159,4 @@ De **[!UICONTROL Email tracking statistics by languages]** widget bevat de besch
 1. From your delivery action, click Edit content.
 1. Click Add languages.
 
-# Translation project/ Create translation project:
-
-1. From the Translation projects menu, click Create project.
-1. Type-in a Name and Description.
-1. Select the Source locale.
-1. Click Add language to access the menu and define the languages for your translation project.
-1. Select from the list your Target locale(s) and choose which Translation provider you want to use.
-1. Click Add language when you finished linking your Target locale with the correct Translation provider.
-1. Click Save.
-1. From the Advanced menu of your Translation project, you can choose to Edit, deactive or delete it.
 -->
