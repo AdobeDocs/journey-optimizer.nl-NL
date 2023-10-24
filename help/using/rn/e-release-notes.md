@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: be1d0fef5e10073553a7437671820314923e0f25
+source-git-commit: 1b37da28e6dbb03c8c76dd9a6637dfd95447eb7e
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 5%
+source-wordcount: '371'
+ht-degree: 2%
 
 ---
 
@@ -58,11 +58,27 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <tr>
 <td>
 <p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
-<!--img src="assets/channel-reports.png"/-->
-<p>Raadpleeg de <a href="../audience/get-started-audience-orchestration.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<img src="assets/channel-reports.png"/>
+<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
 </tr>
 </tbody>
-&lt;/table --&gt;
+</table -->
+
+<table>
+<thead>
+<tr>
+<th><strong>MMS (Multimedia Message Service) in SMS (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met het Kanaal van SMS, kunt u uw mededeling nu verbeteren door de MMS-berichten (Multimedia Message Service) te verzenden, toelatend het delen van beelden, GIFFEN, of video's met uw klanten. Deze functie is momenteel alleen beschikbaar in Beta met Sinch.</p>
+<!--img src="assets/channel-reports.png"/-->
+<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
 
 ### Verbeteringen {#oct-2023-improvements}
 
@@ -71,14 +87,20 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 **Doelgroepen**
 
 * U kunt nu doelgroepen kiezen die vanuit een CSV-bestand naar reizen en campagnes zijn geüpload.
+* U kunt nu doelgroepen kiezen die zijn gemaakt door de publiekscompositie en de verrijkingskenmerken van de doelgroep in de stappen.
 
-**Spamscoring voor e-mails**
+>[!AVAILABILITY]
+>
+>Deze mogelijkheden zijn momenteel beschikbaar als een persoonlijke bètaversie.
 
-* Wanneer u e-mailinhoud simuleert, kunt u met een nieuwe optie controleren hoe de inhoud presteert tegen spamfiltering in vakken. Deze functie is momenteel alleen beschikbaar voor een set klanten (beperkte beschikbaarheid) en is ook beschikbaar voor het e-mailkanaal.
+<!--
+**Spam scoring for emails**
+
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
 
 **Waarschuwing**
 
-* Nieuwe waarschuwingen met betrekking tot Journey Optimizer-campagnes zijn nu beschikbaar in de **Waarschuwingen** -menu.
+* Wanneer er een fout optreedt in een van uw campagnes, verschijnt er nu een waarschuwingspictogram in de lijst met campagnes naast de status van de campagne.
 
 **Campagnes**
 
@@ -86,8 +108,16 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Journeys**
 
-* De maximumduur die u in de activiteit van de Wacht kunt bepalen is nu 29 dagen in plaats van 30.
+* De maximale tijdsduur die u in een wachttijd kunt definiëren, is nu 29 dagen in plaats van 30. Dit geldt voor:
+
+   * de **Tijd** in het veld [wachtactiviteiten](../building-journeys/wait-activity.md)
+   * de **Wachttijd bij terugkeer** in [reiseigenschappen](../building-journeys/journey-gs.md#entrance)
+   * de **Wacht op** veld in de time-outdefinitie van [algemeen](../building-journeys/general-events.md#events-specific-time) en [reactie](../building-journeys/reaction-events.md) gebeurtenissen.
 
 **Toestemming in kanaalconfiguratie**
 
 * U kunt nu een marketingactie op het niveau van het kanaaloppervlak selecteren. Bij gebruik op een oppervlak worden alle toestemmingsbeleidsregels die aan die marketingactie zijn gekoppeld, benut om de voorkeuren van uw klanten te respecteren.
+
+**Beslissingsbeheer**
+
+* Verschillende etiketten met betrekking tot het aanbieden van plafonnering in de besluitvormingsinterface zijn bijgewerkt.
