@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '408'
 ht-degree: 4%
 
 ---
@@ -25,10 +25,9 @@ U kunt bijvoorbeeld opgeven dat u alleen een &#39;Women&#39;s Winter Clothing Of
 
 Hier volgt een lijst met beperkingen die in acht moeten worden genomen wanneer u werkt met beslissingsregels:
 
-* Wanneer het creëren van een regel, kunt u historische gebeurtenissen gebruiken maar er zijn beperkingen op wanneer deze regels bruikbaar zijn.
 * Bij het bepalen van de rand wordt het randprofiel gebruikt waarin geen gebeurtenissen worden opgeslagen. Elke regel die in een randbesluit wordt gebruikt, is daarom ongeldig.
-* De reizen die de Besluiten van de Aanbieding gebruiken zullen niet naar historische gebeurtenissen kijken, zodat zullen deze regels ongeldig zijn.
-* De verzoeken van het besluit die het hubprofiel gebruiken zullen de laatste 100 ervaringsgebeurtenissen op het profiel bekijken om regels te evalueren die historische ervaringsgebeurtenissen van verwijzingen voorzien.
+* Wanneer het creëren van een besluitvormingsregel, wordt het terugkijken naar een vorige periode niet gesteund. Bijvoorbeeld, als u een ervaringsgebeurtenis specificeert die binnen de laatste maand als component van de regel voorkwam. Elke poging om een terugzoekperiode op te nemen tijdens het maken van regels, veroorzaakt een fout bij het opslaan ervan.
+  <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
 
 ## Een beslissingsregel maken {#create}
 
