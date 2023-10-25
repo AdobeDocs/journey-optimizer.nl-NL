@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 74a4de20ae14923139cf6bf81676819355944ceb
+source-git-commit: 004eb41b084f32993ec437f589e4e3d2cf7500d3
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 2%
+source-wordcount: '350'
+ht-degree: 3%
 
 ---
 
@@ -100,7 +100,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Campagnes**
 
-* U kunt nu een live eenmalige campagne stoppen, wijzigingen aanbrengen en deze hervatten. Deze verbetering is beschikbaar in Beta.
+<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
 * Wanneer er een fout optreedt in een van uw campagnes, verschijnt er nu een waarschuwingspictogram in de lijst met campagnes naast de status van de campagne.
 
 **Journeys**
