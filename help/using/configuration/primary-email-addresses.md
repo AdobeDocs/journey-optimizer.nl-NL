@@ -48,7 +48,7 @@ Voer de onderstaande stappen uit om de uitvoeringsvelden globaal op sandboxnivea
 
 1. Open het menu **[!UICONTROL Channels]** > **[!UICONTROL General]** > **[!UICONTROL Executions fields]**.
 
-1. Klikken **[!UICONTROL Edit]** om de standaardwaarden te wijzigen.
+1. Klikken **[!UICONTROL Edit]** de standaardwaarden wijzigen.
 
    ![](assets/primary-address.png)
 
@@ -56,7 +56,7 @@ Voer de onderstaande stappen uit om de uitvoeringsvelden globaal op sandboxnivea
 
    ![](assets/primary-address-edit.png)
 
-1. De lijst met beschikbare XDM-velden van het e-mailtype wordt weergegeven. Selecteer het veld dat u wilt gebruiken.
+1. De lijst met beschikbare XDM-velden van het e-mailtype wordt weergegeven. Selecteer het te gebruiken veld.
 
    ![](assets/primary-address-select-field.png)
 

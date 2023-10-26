@@ -26,7 +26,7 @@ ht-degree: 2%
 
 Als u de inhoud van de bestemmingspagina wilt ontwerpen, kunt u dezelfde onderdelen gebruiken als voor een e-mail. [Meer informatie](../email/content-components.md#add-content-components)
 
-Om specifieke inhoud te ontwerpen die gebruikers zal toelaten om hun keuzen te selecteren en voor te leggen, [de formuliercomponent gebruiken](#use-form-component) en stelt [paginaspecifieke stijlen plaatsen](#lp-form-styles).
+Om specifieke inhoud te ontwerpen die gebruikers zal toelaten om hun keuzen te selecteren en te verzenden, [de formuliercomponent gebruiken](#use-form-component) en stelt de [paginaspecifieke stijlen plaatsen](#lp-form-styles).
 
 >[!NOTE]
 >
@@ -63,11 +63,11 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 
    >[!NOTE]
    >
-   >Naar de **[!UICONTROL Styles]** kunt u op elk gewenst moment de stijlen van de inhoud van uw formuliercomponent bewerken. [Meer informatie](#define-lp-styles)
+   >Schakel over naar de **[!UICONTROL Styles]** kunt u op elk gewenst moment de stijlen van de inhoud van uw formuliercomponent bewerken. [Meer informatie](#define-lp-styles)
 
 1. Van de **[!UICONTROL Checkbox 1]** kunt u het label bewerken dat overeenkomt met dit selectievakje.
 
-1. Bepaal als dit checkbox gebruikers binnen of uit moet kiezen: gaan zij ermee akkoord om mededelingen te ontvangen of vragen zij geen contact meer op te nemen ?
+1. Definiëren of dit selectievakje gebruikers in- of uitchecken is: stemmen ze in met het ontvangen van communicatie of vragen ze niet meer contact met hen op te nemen?
 
    ![](assets/lp_designer-form-update.png)
 
@@ -75,7 +75,7 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 
    * **[!UICONTROL Opt in if checked]**: gebruikers moeten het selectievakje voor toestemming (opt-in) inschakelen.
    * **[!UICONTROL Opt out if checked]**: gebruikers moeten het selectievakje inschakelen om hun toestemming te verwijderen (opt-out).
-   * **[!UICONTROL Opt in if checked, opt out if unchecked]**: Met deze optie kunt u één selectievakje voor opt-in/opt-out invoegen. Gebruikers moeten het selectievakje voor toestemming (opt-in) inschakelen en het selectievakje uitschakelen om hun toestemming (opt-out) te verwijderen.
+   * **[!UICONTROL Opt in if checked, opt out if unchecked]**: met deze optie kunt u één selectievakje voor opt-in/opt-out invoegen. Gebruikers moeten het selectievakje voor toestemming (opt-in) inschakelen en het selectievakje uitschakelen om hun toestemming (opt-out) te verwijderen.
 
 1. Kies wat tussen de drie volgende opties wordt bijgewerkt:
 
@@ -83,7 +83,7 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 
    * **[!UICONTROL Subscription list]**: U moet de abonnementenlijst selecteren die wordt bijgewerkt als het profiel dit selectievakje selecteert. Meer informatie over [abonnementenlijsten](subscription-list.md).
 
-      <!--![](assets/lp_designer-form-subs-list.png)-->
+     <!--![](assets/lp_designer-form-subs-list.png)-->
 
    * **[!UICONTROL Channel (email)]**: De opt-in of opt-out geldt voor het gehele kanaal. Als een profiel dat opteert bijvoorbeeld twee e-mailadressen heeft, worden beide adressen uitgesloten van al uw communicatie.
 
@@ -105,7 +105,7 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 
    ![](assets/lp_designer-form-text-field.png)
 
-1. Nadat u alle gewenste selectievakjes en/of tekstvelden hebt toegevoegd, klikt u op **[!UICONTROL Call to action]** om de corresponderende sectie uit te vouwen. Hiermee kunt u het gedrag van de knop in het dialoogvenster **[!UICONTROL Form]** component.
+1. Nadat u alle gewenste selectievakjes en/of tekstvelden hebt toegevoegd, klikt u op **[!UICONTROL Call to action]** om de bijbehorende sectie uit te vouwen. Hiermee kunt u het gedrag van de knop in het dialoogvenster **[!UICONTROL Form]** component.
 
    ![](assets/lp_designer-form-call-to-action.png)
 
@@ -113,7 +113,7 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 
    * **[!UICONTROL Redirect URL]**: Voer de URL in van de pagina waarnaar de gebruikers worden omgeleid.
    * **[!UICONTROL Confirmation text]**: Typ de bevestigingstekst die wordt weergegeven.
-   * **[!UICONTROL Link to a subpage]**: Een [subpagina](create-lp.md#configure-subpages) en selecteert u deze in de vervolgkeuzelijst die wordt weergegeven.
+   * **[!UICONTROL Link to a subpage]**: Vorm een [subpagina](create-lp.md#configure-subpages) en selecteert u deze in de vervolgkeuzelijst die wordt weergegeven.
 
    ![](assets/lp_designer-form-confirmation-action.png)
 
@@ -122,7 +122,7 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
    * **[!UICONTROL Redirect URL]**: Voer de URL in van de pagina waarnaar de gebruikers worden omgeleid.
    * **[!UICONTROL Error text]**: Typ de fouttekst die wordt weergegeven. U kunt de fouttekst voorvertonen bij het definiëren van de [formulierstijlen](#define-lp-styles).
 
-   * **[!UICONTROL Link to a subpage]**: Een [subpagina](create-lp.md#configure-subpages) en selecteert u deze in de vervolgkeuzelijst die wordt weergegeven.
+   * **[!UICONTROL Link to a subpage]**: Vorm een [subpagina](create-lp.md#configure-subpages) en selecteert u deze in de vervolgkeuzelijst die wordt weergegeven.
 
    ![](assets/lp_designer-form-error.png)
 

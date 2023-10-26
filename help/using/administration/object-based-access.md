@@ -23,7 +23,7 @@ ht-degree: 2%
 >title="Toegangsbeheer op objectniveau"
 >abstract="Als u labels toepast waartoe u geen toegang hebt, wordt de toegang tot dit object ingetrokken."
 
-Met toegangsbeheer op objectniveau (OLAC) kunt u machtigingen definiëren om gegevenstoegang tot een selectie objecten te beheren:
+Met toegangsbeheer op objectniveau (OLAC) kunt u machtigingen definiëren voor het beheren van gegevenstoegang tot een selectie objecten:
 
 * Reis
 * Campaign
@@ -89,7 +89,7 @@ Aangepaste labels of basislabels voor gegevensgebruik toewijzen aan Journey Opti
 
 1. Klikken **[!UICONTROL Save]** om deze labelbeperking toe te passen.
 
-Als gebruikers toegang tot dit object willen hebben, moeten ze beschikken over de specifieke **[!UICONTROL Label]** opgenomen in hun **[!UICONTROL Roles]**.
+Als gebruikers toegang tot dit object willen hebben, moeten ze beschikken over de specifieke **[!UICONTROL Label]** opgenomen in **[!UICONTROL Roles]**.
 Bijvoorbeeld, zal een gebruiker met het C1 etiket slechts toegang tot C1 geëtiketteerde of unlabel voorwerpen hebben.
 
 Voor meer informatie over hoe u kunt toewijzen **[!UICONTROL Label]** een **[!UICONTROL Role]**, zie [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/permissions.html#manage-labels-for-a-role).

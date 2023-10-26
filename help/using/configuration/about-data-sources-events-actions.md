@@ -35,17 +35,17 @@ De configuratie van de Gegevensbron staat u toe om een verbinding aan een systee
 
 Gebeurtenissen stellen u in staat om uw reizen tijdelijk te activeren en berichten in real-time te verzenden aan de persoon die de reis maakt.
 
-In de gebeurtenisconfiguratie, vormt u de gebeurtenissen die in de reizen worden verwacht. De gegevens van de binnenkomende gebeurtenissen worden genormaliseerd volgens het Adobe Experience Data Model (XDM). Gebeurtenissen zijn afkomstig van de streamingopname-API’s voor geverifieerde en niet-geverifieerde gebeurtenissen (zoals Adobe Mobile SDK-gebeurtenissen). [Meer informatie](../../using/event/about-events.md)
+In de gebeurtenisconfiguratie, vormt u de gebeurtenissen die in de reizen worden verwacht. De gegevens van inkomende gebeurtenissen worden genormaliseerd na het Model van de Gegevens van de Ervaring van de Adobe (XDM). Gebeurtenissen zijn afkomstig van de streamingopname-API’s voor geverifieerde en niet-geverifieerde gebeurtenissen (zoals Adobe Mobile SDK-gebeurtenissen). [Meer informatie](../../using/event/about-events.md)
 
 ## Acties {#actions}
 
-Journey Optimizer-berichtmogelijkheden zijn ingebouwd: u moet slechts een activiteit van de kanaalactie aan uw reis toevoegen. Als u berichten verzendt met een systeem van derden, kunt u een aangepaste handeling maken. [Meer informatie](../../using/action/action.md)
+Journey Optimizer-berichtmogelijkheden zijn ingebouwd: u hoeft alleen een kanaalactie-activiteit aan uw reis toe te voegen. Als u berichten verzendt met een systeem van derden, kunt u een aangepaste handeling maken. [Meer informatie](../../using/action/action.md)
 
 ## Bladeren door Adobe Experience Platform-velden {#friendly-names-display}
 
 Bij het definiëren van een [gebeurtenispayload](../event/about-creating.md#define-the-payload-fields), een [veldengroep-payload](../datasource/configure-data-sources.md#define-field-groups) en het selecteren van velden in de [expressie-editor](../building-journeys/expression/expressionadvanced.md) wordt naast de veldnaam ook de weergavenaam weergegeven. Deze informatie wordt opgehaald uit de schemadefinitie in het Gegevenservaringmodel.
 
-Als er beschrijvingen als xdm:alternateDisplayInfo worden opgegeven tijdens het instellen van schema’s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en algemene velden. U kunt beschrijvers van vriendschappelijke namen via een API vraag vormen. Zie voor meer informatie de [Handleiding voor ontwikkelaars van het schema Register](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html){target="_blank"}.
+Als er beschrijvingen als xdm:alternateDisplayInfo worden opgegeven tijdens het instellen van schema’s, worden de weergavenamen vervangen door de gebruikersvriendelijke namen. Dit is vooral handig wanneer u werkt met &quot;eVars&quot; en algemene velden. U kunt beschrijvers van vriendschappelijke namen via een API vraag vormen. Zie de klasse [Handleiding voor ontwikkelaars van het schema Register](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html){target="_blank"}.
 
 ![](assets/xdm-from-descriptors.png)
 
