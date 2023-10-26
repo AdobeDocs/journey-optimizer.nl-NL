@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor, dynamic, content
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '545'
 ht-degree: 0%
 
 ---
@@ -60,13 +60,13 @@ U kunt als volgt dynamische inhoud in expressies toevoegen:
 
 U kunt als volgt varianten van een inhoudscomponent maken in E-mailontwerper:
 
-1. Selecteer in de e-mailontwerper een inhoudscomponent en klik vervolgens op **[!UICONTROL Enable conditional content]**.
+1. In de [E-mailDesigner](../email/content-from-scratch.md)selecteert u een inhoudscomponent en klikt u vervolgens op **[!UICONTROL Enable conditional content]**.
 
    ![](assets/conditions-enable-conditional.png)
 
 1. De **[!UICONTROL Conditional Content]** wordt aan de linkerkant weergegeven. In dit deelvenster kunt u meerdere varianten van de geselecteerde inhoudscomponent maken aan de hand van voorwaarden.
 
-   Vorm uw eerste variant door te selecteren **[!UICONTROL Apply condition]** knop.
+   Vorm uw eerste variant door te selecteren **[!UICONTROL Select condition]** knop.
 
    ![](assets/conditions-apply.png)
 
@@ -76,9 +76,11 @@ U kunt als volgt varianten van een inhoudscomponent maken in E-mailontwerper:
 
    U kunt ook een nieuwe regel maken door op **[!UICONTROL Create new]**. [Leer hoe u voorwaarden kunt maken](create-conditions.md)
 
-1. De voorwaardelijke regel is gekoppeld aan de variant. Voor betere leesbaarheid raden we u aan de naam van de variant te wijzigen door op het ovaalmenu te klikken.
+1. De voorwaardelijke regel is gekoppeld aan de variant. Voor een betere leesbaarheid kunt u de naam van de variant wijzigen door de optie **[!UICONTROL Rename]** uit het pictogram Meer handelingen.
 
-   Vorm nu hoe de component zou moeten tonen als de regel wordt voldaan aan wanneer het verzenden van het bericht. In dit voorbeeld willen we de tekst in het Frans weergeven als dit de voorkeurstaal van de ontvanger is.
+   ![](assets/conditions-rename.png)
+
+1. Vorm hoe de component zou moeten tonen als de regel wordt ontmoet wanneer het verzenden van het bericht. In dit voorbeeld willen we de tekst in het Frans weergeven als dit de voorkeurstaal van de ontvanger is.
 
    ![](assets/conditions-design.png)
 
@@ -88,3 +90,7 @@ U kunt als volgt varianten van een inhoudscomponent maken in E-mailontwerper:
    >Als aan geen van de regels in de varianten wordt bepaald wanneer het verzenden van het bericht wordt voldaan, zal de inhoudscomponent de inhoud tonen die in wordt bepaald **[!UICONTROL Default variant]**.
    >
    >Voorwaardelijke inhoud wordt geëvalueerd op basis van de bijbehorende regels in de volgorde waarin de varianten worden weergegeven. De standaardvariant wordt altijd weergegeven als aan geen andere voorwaarden wordt voldaan.
+
+1. Als u een variant wilt verwijderen, klikt u op het pictogram Meer handelingen naast de gewenste variant en selecteert u **[!UICONTROL Delete]**.
+
+   ![](assets/conditions-delete.png)

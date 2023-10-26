@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 keywords: terugkeer, reis, profiel, terugkerend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 0%
+source-wordcount: '597'
+ht-degree: 1%
 
 ---
 
@@ -35,6 +35,8 @@ Bij unitaire reizen kunt u het opnieuw betreden in- of uitschakelen:
 
 Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de optie uitschakelen voor &#39;één opname&#39;-reizen, bijvoorbeeld als u een eenmalige gift wilt aanbieden wanneer iemand een winkel bezoekt. In dat geval mag de klant de reis niet opnieuw kunnen betreden en het aanbod opnieuw kunnen ontvangen. Wanneer een reis eindigt, is zijn status **[!UICONTROL Closed]**. Nieuwe individuen kunnen niet langer de reis betreden. Personen die al op reis zijn, maken de reis normaal af. [Meer informatie](journey-gs.md#entrance)
 
+Wanneer de **Hernieuwde toegang toestaan** -optie is geactiveerd, de **Wachttijd bij terugkeer** in het veld kunt u de tijd definiëren die u moet wachten voordat een profiel de reis opnieuw kan betreden. Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. De maximale duur is 29 dagen.
+
 ![](assets/journey-re-entrance.png)
 
 Na de standaardinstelling [algemene time-out](journey-gs.md#global_timeout) van 30 dagen, wordt de reis overgeschakeld op de **Voltooid** status. Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden. Dit gedrag wordt slechts voor 30 dagen ingesteld (d.w.z. de standaardwaarde van de reistijd) aangezien alle informatie over profielen die de reis zijn ingegaan 30 dagen nadat zij zijn ingegaan wordt verwijderd. Na deze periode kunnen profielen de reis opnieuw betreden. Als u dit wilt voorkomen en het opnieuw invoeren van deze profielen volledig wilt uitschakelen, kunt u een voorwaarde toevoegen om te testen of het profiel al dan niet is ingevoerd met behulp van profiel- of publieksgegevens.
@@ -42,9 +44,7 @@ Na de standaardinstelling [algemene time-out](journey-gs.md#global_timeout) van 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
 
-Eenheidstrajecten (te beginnen met een evenement of een kwalificatie van het publiek) bevatten een begeleidend element dat voorkomt dat ritten bij dezelfde gebeurtenis meerdere keren ten onrechte worden gestart. De terugkeer van het profiel wordt tijdelijk geblokkeerd door gebrek gedurende 5 minuten. Als bijvoorbeeld een evenement om 12.01 uur een reis voor een bepaald profiel start en een ander om 12.03 uur aankomt (ongeacht of het dezelfde gebeurtenis is of een andere gebeurtenis die dezelfde reis veroorzaakt), zal die reis niet opnieuw beginnen voor dit profiel.
-
-De sleutel wordt ook gebruikt om te controleren of een persoon op reis is. Een persoon kan namelijk niet op twee verschillende plaatsen op dezelfde reis zijn. Als gevolg hiervan staat het systeem niet toe dat dezelfde sleutel, bijvoorbeeld de sleutel CRMID=3224, zich op verschillende plaatsen op dezelfde reis bevindt.
+De sleutel wordt gebruikt om te controleren dat een persoon op reis is. Een persoon kan namelijk niet op twee verschillende plaatsen op dezelfde reis zijn. Als gevolg hiervan staat het systeem niet toe dat dezelfde sleutel, bijvoorbeeld de sleutel CRMID=3224, zich op verschillende plaatsen op dezelfde reis bevindt.
 
 ## Reizen voor het publiek lezen{#entry-read-segment}
 

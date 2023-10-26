@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '662'
 ht-degree: 5%
 
 ---
@@ -108,7 +108,23 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 
    ![](assets/sms_tracking_2.png)
 
-1. In de `originalUrl` plakken, plakt u de URL die u wilt verkorten.
+1. In de `originalUrl` veld, plak de URL die u wilt verkorten en klik op **[!UICONTROL Save]**.
+
+1. Schakel de optie MMS in om media toe te voegen aan uw SMS-inhoud.
+
+   MMS wordt geleverd met enkele beperkingen die worden vermeld in [deze pagina](../start/guardrails.md#sms-guardrails).
+
+   >[!NOTE]
+   >
+   > De optie MMS is alleen beschikbaar bij Sinch. U moet een specifieke API-referentie maken om MMS te maken. [Meer informatie](sms-configuration.md#create-new-api)
+
+   ![](assets/sms_create_6.png)
+
+1. Voeg een **[!UICONTROL Title]** naar uw media.
+
+1. Voer de URL van uw media in het dialoogvenster **[!UICONTROL Media]** veld.
+
+   ![](assets/sms_create_7.png)
 
 1. Klikken **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning. U kunt **[!UICONTROL Simulate content]** om een voorvertoning weer te geven van uw verkorte URL&#39;s of gepersonaliseerde inhoud.
 

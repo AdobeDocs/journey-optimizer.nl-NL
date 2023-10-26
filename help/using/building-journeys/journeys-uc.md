@@ -9,9 +9,9 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: use case, multi-channel, messages, trip, channel, events, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '735'
 ht-degree: 2%
 
 ---
@@ -24,13 +24,13 @@ In deze sectie wordt een gebruiksscenario beschreven waarin een leespubliek, een
 
 ## Beschrijving van het gebruiksgeval
 
-In dit geval, willen wij een eerste bericht (e-mail en duw) naar alle klanten verzenden die tot een specifiek publiek behoren.
+In dit geval, willen wij een eerste e-mailbericht naar alle klanten verzenden die tot een specifiek publiek behoren.
 
 Op basis van hun reactie op het eerste bericht willen we specifieke berichten verzenden.
 
-Na het eerste bericht wachten we op een dag totdat klanten de push of e-mail kunnen openen. Als er geen reactie is, sturen we ze een vervolgmail.
+Als de klant het e-mailbericht opent, wachten we op een aankoop en sturen we een pushbericht om de klant te bedanken.
 
-Vervolgens wachten we op een aankoop en sturen we een pushbericht om de klant te bedanken.
+Als er geen reactie is, sturen we ze een vervolgmail.
 
 ## Vereisten
 
@@ -93,21 +93,13 @@ De gebeurtenis is nu geconfigureerd en klaar om in uw reis te worden gebruikt. M
 
    ![](assets/jo-uc5.png)
 
-1. Plaats de cursor op de e-mailactiviteit en klik op het plusteken (+) om een nieuw pad te maken.
+1. Voeg een **Reactie** gebeurtenis en selecteer **E-mail geopend**. De gebeurtenis wordt geactiveerd wanneer een persoon die tot het publiek behoort, het e-mailbericht opent.
 
-1. Voeg in het eerste pad een **Reactie** gebeurtenis en selecteer **Push geopend**. De gebeurtenis wordt geactiveerd wanneer een individu dat tot het publiek behoort de pushversie van het eerste bericht opent.
-
-1. Voeg in het tweede pad een **Reactie** gebeurtenis en selecteer **E-mail geopend**. De gebeurtenis wordt geactiveerd wanneer de persoon het e-mailbericht opent.
-
-1. Controleer bij een van de reactieactiviteiten de **De time-out van gebeurtenissen definiëren** een duur definiëren (1 dag in ons voorbeeld) en controleren **Een time-outpad instellen**. Hiermee maakt u een ander pad voor personen die het eerste pushbericht of e-mailbericht niet openen.
-
-   >[!NOTE]
-   >
-   >Wanneer u een time-out configureert voor meerdere gebeurtenissen (de twee reacties in dit geval), hoeft u de time-out alleen te configureren voor een van deze gebeurtenissen.
+1. Controleer de **De time-out van gebeurtenissen definiëren** een duur definiëren (1 dag in ons voorbeeld) en controleren **Een time-outpad instellen**. Hiermee maakt u een ander pad voor personen die het eerste pushbericht of e-mailbericht niet openen.
 
 1. Zet een **E-mail** en definieert de inhoud van het vervolgbericht. Dit bericht wordt verzonden naar de personen die het e-mailbericht of het eerste pushbericht de volgende dag niet openen. Zie dit [sectie](../email/create-email.md) leren hoe u een e-mail kunt configureren en ontwerpen.
 
-1. Sluit de drie paden aan op de eerder gemaakte aankoopgebeurtenis. De gebeurtenis wordt geactiveerd wanneer een individu een aankoop doet.
+1. Voeg in het eerste pad de eerder gemaakte aankoopgebeurtenis toe. De gebeurtenis wordt geactiveerd wanneer een individu een aankoop doet.
 
 1. Na de gebeurtenis, laat vallen a **Push** actie en definieer de inhoud van het &#39;&#39;bedankt&#39;&#39;-bericht. Zie dit [sectie](../push/create-push.md) leren hoe u een push kunt configureren en ontwerpen.
 

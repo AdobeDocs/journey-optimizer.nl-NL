@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 2%
+source-wordcount: '936'
+ht-degree: 3%
 
 ---
 
@@ -124,17 +124,17 @@ In de **[!UICONTROL Actions]** , maakt u het bericht dat u wilt verzenden met de
 
 Klik op de knop **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-doelgroepen weer te geven. [Meer informatie over publiek](../audience/about-audiences.md)
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>Vooralsnog is het gebruik van het publiek [geïmporteerd uit een CSV-bestand](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) in campagnes is beschikbaar als een persoonlijke bètaversie. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 >
 >Voor API-getriggerde campagnes moet het publiek worden ingesteld via API-aanroep. [Meer informatie](api-triggered-campaigns.md)
 
-In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren. [Meer informatie over naamruimten](../event/about-creating.md#select-the-namespace)
+In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren.
+
+Individuen die tot een segment behoren dat niet de geselecteerde identiteit (namespace) onder hun verschillende identiteiten heeft zullen niet door de campagne worden gericht. [Meer informatie over naamruimten](../event/about-creating.md#select-the-namespace)
 
 ![](assets/create-campaign-namespace.png)
-
->[!NOTE]
->
->Individuen die tot een segment behoren dat niet de geselecteerde identiteit (namespace) onder hun verschillende identiteiten heeft zullen niet door de campagne worden gericht.
 
 <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 

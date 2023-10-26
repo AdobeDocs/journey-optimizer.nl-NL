@@ -1,44 +1,52 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Een reis naar een andere sandox kopiëren
-description: Leer hoe u een reis naar een andere sandox kopieert
+title: Een journey naar een andere sandbox kopiëren
+description: Leer hoe u een reis naar een andere sandbox kopieert
 feature: Journeys, Sandboxes
 topic: Content Management
 role: User, Developer, Data Engineer
 level: Experienced
 keywords: zandbak, reis, exemplaar, milieu
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '610'
 ht-degree: 1%
 
 ---
 
 # Een journey naar een andere sandbox kopiëren {#copy-to-sandbox}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_main"
->title="Een journey naar een andere sandbox kopiëren"
->abstract="Met Journey Optimizer kunt u een volledige reis van de ene naar de andere sandbox kopiëren. U kunt bijvoorbeeld een reis kopiëren van de zandbakomgeving van het werkgebied naar uw productiefandbox. Naast de Reis zelf kopieert Journey Optimizer ook de meeste objecten waarvan de reis afhankelijk is."
+>title="Copy a journey to another sandbox"
+>abstract="Journey Optimizer allows you to copy an entire journey from one sandbox to another. For example, you can copy a journey from the Stage sandbox environment to your Production sandbox. In addition to the Journey itself, Journey Optimizer also copies most of the objects the journey depends on."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
->title="Details van sandbox"
->abstract="Selecteer de doelsandbox waarnaar u de reis wilt kopiëren. Alleen sandboxen binnen uw organisatie zijn beschikbaar."
+>title="Sandbox details"
+>abstract="Select the destination sandbox you want to copy the journey to. Only sandboxes within your organization are available."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"
->title="Objectdetails"
->abstract="Dit is de reis die je gaat kopiëren."
+>title="Object details"
+>abstract="This is the journey you are going to copy."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_dependent_objects"
->title="Afhankelijke objecten"
->abstract="Dit is de lijst van bijbehorende voorwerpen die in de reis worden gebruikt. In deze lijst worden de naam, het objecttype en de interne Journey Optimizer-id weergegeven."
+>title="Dependent objects"
+>abstract="This is the list of associated objects used in the journey. This list displays the name, the object type, as well as the internal Journey Optimizer ID."
+-->
 
-Met Journey Optimizer kunt u een volledige reis van de ene naar de andere sandbox kopiëren. U kunt bijvoorbeeld een traject kopiëren van de zandbakomgeving van het werkgebied naar de productiefandbox. Naast de reis zelf kopieert Journey Optimizer ook de meeste objecten die de reis afhangt van: publiek, oppervlakken (d.w.z. voorinstellingen), schema&#39;s, evenementen en acties. Raadpleeg deze voor meer informatie over gekopieerde objecten [sectie](#limitations).
+Met sandboxgereedschappen kunt u objecten kopiëren naar meerdere sandboxen door het exporteren en importeren van pakketten te benutten. Een pakket kan uit één object of uit meerdere objecten bestaan. Alle objecten die in een pakket zijn opgenomen, moeten afkomstig zijn uit dezelfde sandbox.
+
+Op deze pagina wordt het gebruik-hoofdlettergebruik voor Sandbox-gereedschappen in de context van Journey Optimizer beschreven. Raadpleeg voor meer informatie over de functie zelf de [Documentatie Experience Platform](https://experienceleague.corp.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
+
+## Aan de slag met sandboxgereedschappen{#sandbox-gs}
+
+Met Journey Optimizer kunt u een volledige reis van de ene naar de andere sandbox kopiëren. U kunt bijvoorbeeld een traject kopiëren van de zandbakomgeving van het werkgebied naar de productiefandbox. Naast de reis zelf kopieert Journey Optimizer ook de meeste objecten die de reis afhangt van: publiek, schema&#39;s, evenementen en acties. Raadpleeg deze voor meer informatie over gekopieerde objecten [sectie](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
 
 >[!CAUTION]
 >
@@ -46,66 +54,58 @@ Met Journey Optimizer kunt u een volledige reis van de ene naar de andere sandbo
 
 De gekopieerde objecten in de doelsandbox zijn uniek en er bestaat geen risico dat bestaande elementen worden overschreven. Zowel de reis als alle berichten binnen de reis worden in de ontwerpmodus overgenomen. Hierdoor kunt u een grondige validatie uitvoeren voordat deze wordt gepubliceerd in de doelsandbox. Het kopieerproces kopieert alleen de metagegevens over de reis en de objecten in die reis. Er worden geen profiel- of gegevenssetgegevens gekopieerd als onderdeel van dit proces.
 
+## De reis exporteren {#export}
+
 Ga als volgt te werk om een reis naar een andere sandbox te kopiëren:
 
 1. Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]**. De lijst met reizen wordt weergegeven.
 
-2. Zoek naar de reis u wilt kopiëren, klik **Meer handelingen** pictogram (de drie punten naast de naam van de rit) en klik op **Kopiëren naar sandbox**.
+1. Zoek naar de reis u wilt kopiëren, klik **Meer handelingen** pictogram (de drie punten naast de naam van de rit) en klik op **Toevoegen aan pakket**.
 
-   ![](assets/copy-sandbox1.png)
+![](assets/journey-sandbox1.png)
 
-   De **Kopiëren naar sandbox** wordt weergegeven.
+De **Toevoegen aan pakket** wordt weergegeven.
 
-   ![](assets/copy-sandbox2.png)
+![](assets/journey-sandbox2.png)
 
-3. Selecteer de **Doelsandbox** in het vervolgkeuzeveld. Alleen sandboxen binnen uw organisatie zijn beschikbaar.
+1. Kies of u de rit aan een bestaand pakket wilt toevoegen of een nieuw pakket wilt maken:
 
-4. Controleer de **Afhankelijke objecten** sectie. Dit is de lijst van bijbehorende voorwerpen die in de reis worden gebruikt. In deze lijst worden de naam, het objecttype en de interne Journey Optimizer-id weergegeven.
+   * **Bestaand pakket**: selecteer het pakket in het keuzemenu.
+   * **Een nieuw pakket maken**: typ de pakketnaam. U kunt ook een beschrijving toevoegen.
 
-5. Klik op de knop **Kopiëren** in de rechterbovenhoek, om het pad naar de doelsandbox te kopiëren.
+1. Klik in de sectie van het menu ADMINISTRATIE op **[!UICONTROL Sandboxes]**, selecteert u de **Pakketten** en klik op het pakket dat u wilt exporteren.
 
-   ![](assets/copy-sandbox3.png)
+   ![](assets/journey-sandbox3.png)
 
-   Het kopiëren begint en de voortgang van elk afzonderlijk object wordt weergegeven. Het kopiëren is afhankelijk van de complexiteit van de reis en het aantal objecten dat moet worden gekopieerd. Als een fout wordt aangetroffen, wordt een bericht weergegeven voor het verwante object.
+1. Selecteer de objecten die u wilt exporteren en klik op **Publiceren**
 
-   ![](assets/copy-sandbox4.png)
+   ![](assets/journey-sandbox4.png)
 
-6. Als het kopiëren is voltooid, klikt u op **Sluiten**.
+   Als de publicatie is mislukt, kunt u de logboeken controleren om de oorzaak van de fout te achterhalen. Open het pakket en klik op **Zie mislukte taken**, selecteert u de importtaak en klikt u op **Importdetails weergeven**.
 
-7. Open de doelsandbox en voer een grondige controle uit van alle gekopieerde objecten.
+   ![](assets/journey-sandbox9.png)
 
-## Verwerking en beperkingen kopiëren {#limitations}
+## De reis importeren {#export}
 
-Mogelijk worden niet alle gekoppelde elementen gekopieerd naar de doelsandbox. Adobe beveelt ten zeerste aan dat u een grondige controle uitvoert. Identificeer om het even welk potentieel ontbrekend voorwerp en creeer hen manueel alvorens de reis te publiceren.
+1. Klik in de pakketlijst op het pictogram + naast de pakketnaam.
 
-De volgende objecten worden gekopieerd:
+   ![](assets/journey-sandbox5.png)
 
-* Audience
+1. Selecteer de **Doelsandbox** in het vervolgkeuzeveld en klik op **Volgende**. Alleen sandboxen binnen uw organisatie zijn beschikbaar.
 
-  Een publiek kan slechts eenmaal van de ene naar de andere sandbox worden gekopieerd. Wanneer een publiek is gekopieerd, kan het niet worden bewerkt in de doelsandbox.
+   ![](assets/journey-sandbox6.png)
 
-* Schema
+1. Controleer de pakketobjecten en afhankelijkheden. Dit is de lijst van bijbehorende voorwerpen die in de reis worden gebruikt. In deze lijst worden de naam en het objecttype weergegeven. Voor elk object kunt u een nieuw object maken of een bestaand object in de doelsandbox gebruiken.
 
-  De schema&#39;s die in deze reis worden gebruikt worden gekopieerd.
+   ![](assets/journey-sandbox7.png)
 
-* Bericht
+1. Klik op de knop **Voltooien** in de rechterbovenhoek om het pakket naar de doelsandbox te kopiëren. Het kopiëren is afhankelijk van de complexiteit van de reis en het aantal objecten dat moet worden gekopieerd.
 
-  De activiteiten van de kanaalactie die in de reis worden gebruikt. De gebieden die voor verpersoonlijking in het bericht worden gebruikt worden niet gecontroleerd op volledigheid. Inhoudsblokken worden niet gekopieerd.
+1. Klik op de importtaak om het kopieerresultaat te bekijken:
 
-* Reis - canvasdetails
+   * Klikken **Geïmporteerde objecten weergeven** om elk gekopieerd object weer te geven.
+   * Klikken **Importdetails weergeven** om de resultaten van het importeren voor elk object te controleren.
 
-  De representatie van de reis op het canvas, inclusief de objecten op de reis, zoals voorwaarden, handelingen, gebeurtenissen, leespubliek, enz. De sprongactiviteit wordt uitgesloten van het exemplaar.
+   ![](assets/journey-sandbox8.png)
 
-* Gebeurtenis
-
-  De gebeurtenissen en de gebeurtenisdetails die in de reis worden gebruikt worden gekopieerd.
-
-* Actie
-
-  De acties en actiedetails die in de reis worden gebruikt worden gekopieerd.
-
-Oppervlakken (d.w.z. voorinstellingen) worden niet over de oppervlakken gekopieerd. Het systeem selecteert automatisch de dichtstbijzijnde mogelijke overeenkomst op de bestemmingszandbak, die op berichttype en oppervlaknaam wordt gebaseerd. Als er geen oppervlakken worden gevonden in de doelsandbox, mislukt de kopie van het oppervlak. Dit zal betekenen dat het berichtexemplaar ook zal ontbreken omdat een bericht een oppervlakte om voor opstelling vereist te zijn. In dit geval moet ten minste één oppervlak worden gemaakt, zodat het bericht naar rechts kan worden weergegeven.
-
-Voor schema&#39;s, het Beleid van de Fusie en Soorten publiek, de tweede keer deze voorwerpen proberen om worden gekopieerd, zullen zij slechts van verwijzingen worden voorzien. Deze worden behandeld als objecten die al bestaan en worden opnieuw gekopieerd. Dit betekent dat deze objecten slechts eenmaal kunnen worden gekopieerd.
-
-Er is een vertraging van vijf minuten voordat Adobe Journey Optimizer kan verwijzen naar schema&#39;s, beleid en soorten publiek samenvoegen zonder een fout op het canvas te zien. Wacht vijf minuten en deze referenties zijn beschikbaar.
+1. Open de doelsandbox en voer een grondige controle uit van alle gekopieerde objecten.

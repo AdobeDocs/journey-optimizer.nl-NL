@@ -7,10 +7,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-exl-id: a41e82db-1fa4-478d-a5a2-324d1df1f8ee
-source-git-commit: 1539e996105aa242c529acf35883d9dd4146ca7a
+exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '1068'
 ht-degree: 3%
 
 ---
@@ -31,7 +31,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
  <tbody> 
   <tr> 
    <td>Handelingen zijn uitgevoerd<br/> </td> 
-   <td> Het totale aantal acties dat met succes voor een reis wordt uitgevoerd.<br/> </td> 
+   <td> Het totale aantal acties dat is uitgevoerd voor een reis.<br/> </td> 
 </tr> 
   <tr> 
    <td> Ingevoerde profielen<br/> </td> 
@@ -111,7 +111,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
    <td>Percentage geopende aanbiedingen in verhouding tot het aantal verzonden aanbiedingen.<br/> </td> 
 </tr>
    <tr> 
-   <td>Naam voorstel<br/> </td> 
+   <td>Naam van aanbieding<br/> </td> 
    <td> Naam van de aanbieding die in de levering is toegevoegd. Raadpleeg deze voor meer informatie over plaatsing <a href="../offers/offer-library/creating-personalized-offers.md">page</a>.<br/> </td> 
 </tr>
    <tr> 
@@ -127,7 +127,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
    <td> Het totale aantal geopende e-mails in verhouding tot het aantal geleverde e-mails.<br/> </td> 
 </tr>
   <tr> 
-   <td>Plaatsingsnaam<br/> </td> 
+   <td>Plaatsaanduiding<br/> </td> 
    <td> Naam van de plaatsing die u hebt gebruikt om uw voorstel weer te geven. Raadpleeg deze voor meer informatie over plaatsing <a href="../offers/offer-library/creating-placements.md">page</a>. </td> 
 </tr> 
   <tr> 
@@ -152,7 +152,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
 </tr> 
   <tr> 
    <td> Unieke klikken<br/> </td> 
-   <td> Aantal ontvangers dat op een inhoud in een e-mail heeft geklikt.<br/> </td> 
+   <td> Aantal ontvangers dat op een inhoud in een e-mail heeft geklikt.<br> Let op: bij het berekenen van unieke kliks wordt rekening gehouden met de laatste tien dagen. Als een profiel meerdere klikken registreert binnen de periode van 10 dagen, worden deze als unieke klikken geteld. Als een profiel echter twee klikken bevat die langer zijn dan tien dagen van elkaar, worden deze niet beschouwd als een unieke klik.<br/> </td> 
 </tr> 
   <tr> 
    <td>Unieke klikfrequentie<br/> </td> 
@@ -160,7 +160,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
 </tr>
   <tr> 
    <td> Unieke open<br/> </td> 
-   <td>Aantal ontvangers dat de levering heeft geopend.<br/> </td> 
+   <td>Aantal ontvangers dat de levering heeft geopend. <br> Wanneer unieke gegevens worden berekend, wordt rekening gehouden met de laatste tien dagen. Als een profiel meerdere keren wordt geregistreerd en binnen de periode van 10 dagen wordt geopend, worden deze geteld als uniek geopend. Als een profiel echter 2 groter dan 10 dagen uit elkaar staat, worden deze niet beschouwd als een uniek geopend profiel.<br/> </td> 
 </tr> 
   <tr> 
    <td> Uitschrijvingen<br/> </td> 
@@ -389,7 +389,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
 </tr>
 <tr>
    <td>Conversiepercentage<br/> </td> 
-   <td>Aantal personen dat met de aanlandingspagina heeft gecommuniceerd, bv. op een formulier geabonneerd, in verhouding tot het totale aantal bezoeken.<br/> </td> 
+   <td>Aantal personen dat met de aanlandingspagina heeft gecommuniceerd, bv. op een formulier ingeschreven, in verhouding tot het totale aantal bezoeken.<br/> </td> 
 </tr>
  <tr> 
    <td>Reis(en)<br/> </td> 

@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9e7b08db00ab6333bd5a20815e05bca48075dca3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '4476'
-ht-degree: 8%
+source-wordcount: '4557'
+ht-degree: 9%
 
 ---
 
@@ -52,7 +52,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <td>
 <p>Met gereedschappen voor sandboxen kunt u objecten kopiëren naar meerdere sandboxen door gebruik te maken van exporteren en importeren van pakketten. Een pakket kan uit één object of uit meerdere objecten bestaan. Alle objecten die in een pakket zijn opgenomen, moeten afkomstig zijn uit dezelfde sandbox.</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
+<p>Raadpleeg de <a href="../building-journeys/copy-to-sandbox.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -74,18 +74,18 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 </tbody>
 </table -->
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>Multimedia Message Service (MMS) in SMS (Beta)</strong><br/></th>
+<th><strong>MMS (Multimedia Message Service) in SMS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>With the SMS Channel, you can now enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of images, GIFs, or videos with your customers. Note that this feature is currently available in Beta with Sinch only.</p>-->
-<!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>Met het Kanaal van SMS, kunt u uw mededeling nu verbeteren door de MMS-berichten (Multimedia Message Service) te verzenden, toelatend het delen van beelden, GIFFEN, of video's met uw klanten. Deze functie is momenteel alleen beschikbaar voor Sinch.</p>
+<img src="assets/do-not-localize/mms.gif"/>
+<p>Raadpleeg de <a href="../sms/create-sms.md#sms-content">gedetailleerde documentatie</a> voor meer informatie.</p>
 </tr>
 </tbody>
 </table>
@@ -97,7 +97,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 **Doelgroepen**
 
 * U kunt nu doelgroepen kiezen die vanuit een CSV-bestand naar reizen en campagnes zijn geüpload.
-* U kunt nu doelgroepen kiezen die zijn gemaakt door de publiekscompositie en de verrijkingskenmerken van de doelgroep in de stappen.
+* U kunt nu doelgroepen kiezen die zijn gemaakt door de publiekscompositie en de verrijkingskenmerken van de doelgroep in de stappen. [Meer informatie](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
@@ -111,11 +111,11 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 **Campagnes**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* Wanneer er een fout optreedt in een van uw campagnes, verschijnt er nu een waarschuwingspictogram in de lijst met campagnes naast de status van de campagne.
+* Wanneer er een fout optreedt in een van uw campagnes, verschijnt er nu een waarschuwingspictogram in de lijst met campagnes naast de status van de campagne. [Meer informatie](../campaigns/modify-stop-campaign.md#statuses)
 
 **Journeys**
 
-* De maximale tijdsduur die u in een wachttijd kunt definiëren, is nu 29 dagen in plaats van 30. Dit geldt voor:
+* De maximale tijdsduur die u in een wachttijd kunt definiëren, is nu 29 dagen in plaats van 30. Deze verbetering is ingevoerd om te voorkomen dat wachttijden langer duren dan de 30 dagen durende reisduur. Dit geldt voor:
 
    * de **Tijd** in het veld [wachtactiviteiten](../building-journeys/wait-activity.md)
    * de **Wachttijd bij terugkeer** in [reiseigenschappen](../building-journeys/journey-gs.md#entrance)
@@ -128,7 +128,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Beslissingsbeheer**
 
-* Verschillende etiketten met betrekking tot het aanbieden van plafonnering in de besluitvormingsinterface zijn bijgewerkt.
+* Verschillende etiketten met betrekking tot het aanbieden van plafonnering in de besluitvormingsinterface zijn bijgewerkt. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
 
 ## Opmerkingen bij de release september 2023 {#sept-rn-2023}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 37fda274025135f0577fd551971583e1b6d5c469
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '3843'
+source-wordcount: '3952'
 ht-degree: 14%
 
 ---
@@ -21,10 +21,15 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 ## Oktober 2023 {#oct-2023}
 
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 23 oktober is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
 * Toegevoegde GIFFEN ter illustratie van enkele belangrijke mogelijkheden, zoals: [Inhoudssjablonen](../content-management/content-templates.md), [Fragmenten](../content-management/fragments.md), [Berekende kenmerken](../audience/computed-attributes.md), [Directe post](../direct-mail/get-started-direct-mail.md), [Tags](../start/search-filter-categorize.md#tags), [Optimalisatiemodellen voor het beheer van beslissingen](../offers/ranking/personalized-optimization-model.md), [API-gestuurde campagnes](../campaigns/api-triggered-campaigns.md), en [Inhoudsexperiment](../campaigns/content-experiment.md).
 * Het proces voor het maken van schema&#39;s is bijgewerkt met de meest recente updates in de gebruikersinterface die worden geleverd bij Adobe Experience Platform-wijzigingen. [Meer informatie](../audience/creating-test-profiles.md)
 * De pagina met instructies voor beslissingsbeheer is toegevoegd aan de pagina met instructies en beperkingen. [Meer informatie](../start/guardrails.md#decision-management)
+* De sectie van de Parameters van de Kopbal is bijgewerkt om erop te wijzen hoe de uit-van-bureauberichten en uitdagingsreacties worden behandeld (zij worden ontvangen op **[!UICONTROL Error email]**). [Meer informatie](../email/email-settings.md#email-header)
 * Er is een nieuwe sectie gemaakt voor het voorvertonen en testen van uw inhoud. [Meer informatie](../content-management/preview-test.md)
+* De implementeer single-page toepassingenpagina is verplaatst naar de documentatie van het Web SDK van het Palet van de Ervaring van de Adobe. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
+* De sectie van het Afschilderen is bijgewerkt om op de etiketveranderingen met betrekking tot aanbieding het maximum in de interface van het besluitvormingsbeheer te wijzen. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
+* De functie Dynamische inhoud toevoegen aan e-mailberichten is bijgewerkt met informatie over het verwijderen van een variant. [Meer informatie](../personalization/dynamic-content.md#emails)
 
 ## September 2023 {#september-2023}
 
@@ -39,7 +44,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De koppelingen naar de documentatie van toegangsbeheer zijn bijgewerkt. [Meer informatie](../administration/permissions.md)
 * In-app kanaalvereisten zijn bijgewerkt met Adobe Experience Platform-gegevens over gegevensverzameling. [Meer informatie](../in-app/inapp-configuration.md)
 * Sommige expressies die worden weergegeven in voorbeelden van ranking-formules zijn bijgewerkt om validatiefouten te voorkomen. [Meer informatie](../offers/ranking/create-ranking-formulas.md#ranking-formula-examples)
-* Er is een waarschuwing toegevoegd aan de **Bepaal beslissingsbereik** om te specificeren dat, indien AI-model wordt gebruikt in een groep van evaluatiecriteria, alle evaluatiecriteria in die groep de AI-waarderingsmethode moeten gebruiken, met hetzelfde specifieke AI-model. Bovendien kan slechts één groep met evaluatiecriteria het AI-model gebruiken. [Meer informatie](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* Er is een waarschuwing toegevoegd aan de sectie Bepaal beslissingsbereik om te specificeren dat als AI-model wordt gebruikt in een groep evaluatiecriteria, alle evaluatiecriteria in die groep de AI-rangordemethode moeten gebruiken, met hetzelfde specifieke AI-model. Bovendien kan slechts één groep met evaluatiecriteria het AI-model gebruiken. [Meer informatie](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ## Augustus 2023 {#august-2023}
 

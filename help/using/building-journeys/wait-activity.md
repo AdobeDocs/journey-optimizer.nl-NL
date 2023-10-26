@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: wachten, activiteit, reis, volgende, canvas
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '464'
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ Het is aan te raden om geen wachttijden te gebruiken om hertoetreding te blokker
 
 ## Wachten op duur{#duration}
 
-Selecteer de duur van de wachttijd voordat de volgende activiteit wordt uitgevoerd.
+Selecteer de duur van de wachttijd voordat de volgende activiteit wordt uitgevoerd. De maximale duur is 29 dagen.
 
 ![](assets/journey55.png)
 

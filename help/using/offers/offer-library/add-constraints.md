@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2308'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ De **[!UICONTROL Offer eligibility]** kunt u het aanbod beperken tot specifieke 
 
 * Als u een specifieke koppeling wilt maken [beslissingsregel](../offer-library/creating-decision-rules.md) aan de aanbieding, selecteer **[!UICONTROL By defined decision rule]** en sleep de gewenste lijn van het linkerdeelvenster naar het deelvenster **[!UICONTROL Decision rule]** gebied.
 
-  ![](../assets/offer_rule.png)
+  ![](../assets/offer-rule.png)
 
   >[!CAUTION]
   >
@@ -146,7 +146,7 @@ Door het aantal keren dat gebruikers specifieke aanbiedingen krijgen te beperken
 
 Volg de onderstaande hoofdstappen om de uitlijning in te stellen.
 
-1. Zorg ervoor dat de **[!UICONTROL Include capping]** schakelknop is geselecteerd. Standaard wordt bijschriften opgenomen.
+1. Zorg ervoor dat de **[!UICONTROL Enable capping]** schakelknop is geselecteerd. Standaard is het bijsnijden ingeschakeld.
 
    >[!CAUTION]
    >
@@ -160,7 +160,7 @@ Volg de onderstaande hoofdstappen om de uitlijning in te stellen.
 
 1. Stel de **[!UICONTROL Frequency]** om te bepalen hoe vaak de aftaptelling wordt teruggesteld. [Meer informatie](#frequency-capping)
 
-1. Als u meerdere [representaties](add-representations.md) voor je voorstel, geef aan of je de aftopping wilt toepassen **[!UICONTROL Across all placements]** of **[!UICONTROL For each placement]**. [Meer informatie](#placements)
+1. Als u meerdere [representaties](add-representations.md) voor je voorstel, geef aan of je de aftopping wilt toepassen **op alle plaatsen** of **naar elke plaatsing**. [Meer informatie](#placements)
 
 1. Als de aanbieding eenmaal is opgeslagen en goedgekeurd en deze het aantal keren heeft weergegeven dat u in dit veld hebt opgegeven op basis van de criteria en het tijdpad dat u hebt gedefinieerd, wordt de levering gestopt.
 
@@ -179,7 +179,7 @@ Het aantal keren dat een aanbieding wordt voorgesteld, wordt berekend tijdens de
 >title="Impressie"
 >abstract="Het gebruik van indrukkingen als afdekkende gebeurtenissen is alleen beschikbaar voor binnenkomende kanalen."
 
-De **[!UICONTROL Capping event]** in het veld kunt u bepalen welke **[!UICONTROL Capping event]** zal in aanmerking worden genomen om de teller te verhogen:
+De **[!UICONTROL Capping event]** in het veld kunt u definiëren met welke gebeurtenis rekening wordt gehouden om de teller te verhogen:
 
 ![](../assets/offer-capping-event.png)
 
@@ -219,7 +219,7 @@ De **[!UICONTROL Capping event]** in het veld kunt u bepalen welke **[!UICONTROL
 
 ### Afdektelling {#capping-count}
 
-De **[!UICONTROL Capping count]** kunt u het aantal keren opgeven dat de aanbieding kan worden weergegeven.
+De **[!UICONTROL Capping count limit]** kunt u het aantal keren opgeven dat de aanbieding kan worden weergegeven.
 
 ![](../assets/offer-capping-times.png)
 
@@ -227,7 +227,7 @@ De **[!UICONTROL Capping count]** kunt u het aantal keren opgeven dat de aanbied
 >
 >Het getal moet een geheel getal groter dan 0 zijn.
 
-U hebt bijvoorbeeld een aangepaste gebeurtenis voor het toewijzen van plafonds gedefinieerd, waarmee rekening wordt gehouden, zoals het aantal uitcheckgebeurtenissen. Als u 10 in **[!UICONTROL Capping count]** , worden na 10 afboekingen geen voorstellen meer verzonden.
+U hebt bijvoorbeeld een aangepaste gebeurtenis voor het toewijzen van plafonds gedefinieerd, waarmee rekening wordt gehouden, zoals het aantal uitcheckgebeurtenissen. Als u 10 in **[!UICONTROL Capping count limit]** , worden na 10 afboekingen geen voorstellen meer verzonden.
 
 ### Type uitlijnen {#capping-type}
 
@@ -258,7 +258,7 @@ De **[!UICONTROL Frequency]** kunt u definiëren hoe vaak het aantal bijschrifte
 >
 >De reset vindt plaats om 12.00 uur UTC, op de dag die u hebt gedefinieerd of op de eerste dag van de week/maand, indien van toepassing. De startdag van de week is zondag. De duur die u kiest, mag niet langer zijn dan twee jaar (d.w.z. het overeenkomstige aantal maanden, weken of dagen).
 
-Als u bijvoorbeeld wilt dat het aantal bijschriften elke twee weken opnieuw wordt ingesteld, selecteert u **[!UICONTROL Weekly]** van de **[!UICONTROL Repeat]** vervolgkeuzelijst en type **2** in het andere veld. De reset vindt om de zondag plaats om 23.00 uur UTC.
+Als u bijvoorbeeld wilt dat het aantal bijschriften elke twee weken opnieuw wordt ingesteld, selecteert u **[!UICONTROL Weekly]** uit de bijbehorende vervolgkeuzelijst en type **2** in het andere veld. De reset vindt om de zondag plaats om 23.00 uur UTC.
 
 >[!CAUTION]
 >
@@ -268,15 +268,15 @@ Als u bijvoorbeeld wilt dat het aantal bijschriften elke twee weken opnieuw word
 
 ### Plakken en plaatsen {#placements}
 
-Als u meerdere [representaties](add-representations.md) voor je voorstel, geef aan of je de aftopping wilt toepassen **[!UICONTROL Across all placements]** of **[!UICONTROL For each placement]**.
+Als u meerdere [representaties](add-representations.md) Geef voor uw voorstel op of u de aftopping wilt toepassen op alle plaatsen of op elke plaatsing.
 
 ![](../assets/offer-capping-placement.png)
 
-* **[!UICONTROL Across all placements]**: het maximum aantal besluiten zal alle besluiten over de plaatsen verbonden aan de aanbieding in totaal omvatten.
+* **[!UICONTROL Apply capping across all placements]**: het maximum aantal besluiten zal alle besluiten over de plaatsen verbonden aan de aanbieding in totaal omvatten.
 
   Als een aanbieding bijvoorbeeld een **E-mail** plaatsing en **Web** plaatsing, en u plaatst het maximum bij **2 per profiel voor alle plaatsen** Vervolgens kan elk profiel het aanbod in totaal maximaal twee keer ontvangen, ongeacht de plaatsingsmix.
 
-* **[!UICONTROL For each placement]**: de het maximum tellen zal besluittellingen voor elke plaatsing afzonderlijk toepassen.
+* **[!UICONTROL Apply capping to each placement]**: de het maximum tellen zal besluittellingen voor elke plaatsing afzonderlijk toepassen.
 
   Als een aanbieding bijvoorbeeld een **E-mail** plaatsing en **Web** plaatsing, en u plaatst het maximum bij **2 per profiel voor elke plaatsing** Vervolgens kan elk profiel tot twee keer de aanbieding voor e-mailplaatsing ontvangen en nog eens twee keer de plaatsing op het web.
 

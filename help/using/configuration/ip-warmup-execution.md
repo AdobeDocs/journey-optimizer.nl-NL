@@ -11,9 +11,9 @@ keywords: IP, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1644'
 ht-degree: 0%
 
 ---
@@ -152,6 +152,10 @@ At phase level, system ensures that previously targeted + new profiles are picke
 1. Selecteer indien nodig **[!UICONTROL Edit run]** in het pictogram Meer handelingen. Daar kunt u de aantallen adressen in elke kolom bijwerken. U kunt ook de **[!UICONTROL Last engagement]** in het veld alleen te gebruiken voor de gebruikers die bijvoorbeeld de afgelopen 20 dagen met uw merk hebben gewerkt.
 
    ![](assets/ip-warmup-plan-edit-run.png)
+
+   >[!NOTE]
+   >
+   >Als u de opdracht **[!UICONTROL Last engagement]** aan de huidige looppas, plaats het aan 0.
 
 1. Selecteer de **[!UICONTROL Pause for errors]** als de gekwalificeerde profielen kleiner zijn dan de doelprofielen, kunt u een uitvoering annuleren nadat het publiek voor die uitvoering is geëvalueerd.
 

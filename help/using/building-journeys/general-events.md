@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: aangepast, algemeen, evenementen, reizen
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '436'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Voer de volgende stappen uit om een time-out voor een gebeurtenis te configurere
 
 1. Activeer **[!UICONTROL Define the event timeout]** van de eigenschappen van de gebeurtenis.
 
-1. Geef op hoeveel tijd de reis moet wachten op de gebeurtenis.
+1. Geef op hoeveel tijd de reis moet wachten op de gebeurtenis. De maximale duur is 29 dagen.
 
 1. Als u de personen naar een time-outpad wilt sturen wanneer er geen gebeurtenis is ontvangen binnen de opgegeven time-out, schakelt u de optie **[!UICONTROL Set a timeout path]** -optie. Als deze optie niet wordt ingeschakeld, eindigt de reis voor het individu zodra de time-out is bereikt.
 

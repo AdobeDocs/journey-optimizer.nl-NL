@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 0%
+source-wordcount: '313'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ Als u klaar bent, **resulterend publiek** worden samen met het bestaande publiek
 
 >[!IMPORTANT]
 >
->Publiek dat het resultaat is van samenstellingsworkflows, kan alleen worden gericht op Journey Optimizer-campagnes. Zij zijn niet beschikbaar voor gebruik tijdens reizen.
+>Vooralsnog is het gebruik van het publiek als gevolg van samenstellingswerkstromen naar reizen beschikbaar als een persoonlijke bètaversie. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 >
 >Campagnes in Adobe Journey Optimizer zijn nog niet geïntegreerd met de politie. Daarom worden labels voor gegevensgebruik die u toepast op uw publiekskenmerken, niet afgedwongen in Journey Optimizer-campagnes.
 

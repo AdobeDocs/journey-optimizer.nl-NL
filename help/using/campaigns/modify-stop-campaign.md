@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: campagnes, status, planning, toegang, optimaliseren beheren
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '549'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Standaard worden in de lijst alle campagnes met de **[!UICONTROL Draft]**, **[!U
 
 Bovendien kunt u de lijst filteren op basis van het type en het kanaal van de campagne of de tags die aan de campagnes zijn toegewezen tijdens het maken van de campagnes. [Leer hoe u tags kunt toewijzen aan een campagne](create-campaign.md#create)
 
-## Campagnestatus {#statuses}
+## Statistieken en waarschuwingen voor campagnes {#statuses}
 
 Campagnes kunnen meerdere statussen hebben:
 
@@ -47,6 +47,10 @@ Campagnes kunnen meerdere statussen hebben:
 >[!NOTE]
 >
 >Het pictogram Conceptversie openen naast een **[!UICONTROL Live]** of **[!UICONTROL Scheduled]** status geeft aan dat er een nieuwe versie van de campagne is gemaakt en nog niet is geactiveerd. [Meer informatie](modify-stop-campaign.md#modify).
+
+Als er een fout optreedt in een van uw campagnes, verschijnt er een waarschuwingspictogram naast de status van de campagne. Klik erop om informatie over de waarschuwing weer te geven. Deze waarschuwingen kunnen zich in verschillende situaties voordoen, bijvoorbeeld wanneer het campagnebericht niet is gepubliceerd of wanneer het gekozen oppervlak onjuist is.
+
+![](assets/campaign-alerts.png)
 
 ## Een terugkerende campagne wijzigen {#modify}
 

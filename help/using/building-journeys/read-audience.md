@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, publiek, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 3%
+source-wordcount: '1278'
+ht-degree: 4%
 
 ---
 
@@ -29,11 +29,13 @@ Gebruik de **Publiek lezen** activiteit om alle individuen van een publiek de re
 
 Neem bijvoorbeeld het publiek voor het openen en uitchecken van de Luma-app dat is gemaakt in het dialoogvenster [Stimulerend publiek](../audience/about-audiences.md) use case. Met de activiteit van het Leespubliek, kunt u alle individuen die tot dit publiek behoren tot een reis maken en hen tot geïndividualiseerde reizen maken die alle reisfunctionaliteit, voorwaarden, timers, gebeurtenissen, acties zullen hefboomwerking.
 
->[!NOTE]
->
->Voor reizen die gebruikmaken van een activiteit van het leespubliek is er een maximumaantal reizen dat precies op hetzelfde moment kan beginnen. Het systeem zal tests uitvoeren, maar u moet vermijden dat meer dan vijf reizen (met Leespubliek, gepland of &quot;zo snel mogelijk&quot; te starten) op precies hetzelfde tijdstip beginnen door deze over een bepaalde tijd te verspreiden, bijvoorbeeld 5 tot 10 minuten uit elkaar.
->
->U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een leespubliek, een kwalificatie Audience of een activiteit voor een zakelijke gebeurtenis.
+## Lees hier meer {#must-read}
+
+* Voor reizen die gebruikmaken van een activiteit van het leespubliek is er een maximumaantal reizen dat precies op hetzelfde moment kan beginnen. Het systeem zal tests uitvoeren, maar u moet vermijden dat meer dan vijf reizen (met Leespubliek, gepland of &quot;zo snel mogelijk&quot; te starten) op precies hetzelfde tijdstip beginnen door deze over een bepaalde tijd te verspreiden, bijvoorbeeld 5 tot 10 minuten uit elkaar.
+
+* U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een leespubliek, een kwalificatie Audience of een activiteit voor een zakelijke gebeurtenis.
+
+* Vooralsnog is het gebruik van het publiek [geïmporteerd uit een CSV-bestand](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) of die het resultaat zijn van [compositieworkflows](../audience/get-started-audience-orchestration.md) voor reizen beschikbaar is als een persoonlijke bètaversie. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 ### De activiteit configureren {#configuring-segment-trigger-activity}
 

@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '1219'
+source-wordcount: '1227'
 ht-degree: 30%
 
 ---
@@ -41,13 +41,15 @@ Journey-API&#39;s ondersteunen tot 5000 gebeurtenissen per seconde, maar sommige
 
 Telkens wanneer een API-oproep wordt uitgevoerd door journeys, passeert deze de API-engine. Als de limiet die is ingesteld in de API wordt bereikt, wordt de aanroep afgewezen als u de API voor uitsnijden gebruikt, of gedurende maximaal 6 uur in de wachtrij geplaatst en zo snel mogelijk verwerkt in de volgorde waarin deze is ontvangen als u de API voor rotatie gebruikt.
 
-Stel bijvoorbeeld dat u voor uw externe systeem een regel voor afkappen of beperken hebt gedefinieerd van 100 oproepen per seconde. Uw systeem wordt opgeroepen door een aangepaste actie in 10 verschillende journeys. Indien één journey 200 oproepen per seconde ontvangt, gebruikt deze de 100 beschikbare slots en de 100 resterende slots verwijderen of in een wachtrij plaatsen. Aangezien het maximumaantal is overschreden, hebben de andere 9 journeys geen slot meer. Deze granulariteit helpt het externe systeem te beschermen tegen overbelasting en vastlopen.
+Stel bijvoorbeeld dat u voor uw externe systeem een regel voor afkappen of beperken hebt gedefinieerd van 200 oproepen per seconde. Uw systeem wordt opgeroepen door een aangepaste actie in 10 verschillende journeys. Indien één journey 300 oproepen per seconde ontvangt, gebruikt deze de 200 beschikbare slots en de 100 resterende slots verwijderen of in een wachtrij plaatsen. Aangezien het maximumaantal is overschreden, hebben de andere 9 journeys geen slot meer. Deze granulariteit helpt het externe systeem te beschermen tegen overbelasting en vastlopen.
 
 >[!IMPORTANT]
 >
 >**Afkappingsregels** worden op sandboxniveau geconfigureerd voor een specifiek eindpunt (de opgeroepen URL), maar globaal voor alle journeys van deze sandbox. De bedekking is beschikbaar op zowel gegevensbronnen als douaneacties.
 >
 >**Beperkingsregels** worden voor productiesandboxen alleen geconfigureerd voor een specifiek eindpunt, maar globaal voor alle journeys in alle sandboxes. U kunt slechts één beperkingsconfiguratie per organisatie hebben. Throtting is alleen beschikbaar voor aangepaste handelingen.
+>
+>De **maxCallsCount** waarde moet groter zijn dan 1.
 
 Raadpleeg de volgende secties voor meer informatie over het werken met de API&#39;s:
 
@@ -64,7 +66,7 @@ Voor **externe gegevensbronnen** is het maximum aantal oproepen per seconde bepe
 >
 >Als een databron een aangepaste authenticatie gebruikt met een ander eindpunt dan het eindpunt dat voor de databron wordt gebruikt, moet u contact opnemen met Adobe om ook dat eindpunt in de lijst van gewenste personen op te nemen.
 
-Voor **aangepaste acties** moet u de capaciteit van uw externe API evalueren. Als Journey Optimizer bijvoorbeeld 1000 oproepen per seconde verstuurt en uw systeem slechts 100 oproepen per seconde kan ondersteunen, moet u een afkappings- of beperkingsconfiguratie definiëren zodat uw systeem niet verzadigd raakt. [Ontdek hoe u acties kunt configureren](../action/action.md)
+Voor **aangepaste acties** moet u de capaciteit van uw externe API evalueren. Als Journey Optimizer bijvoorbeeld 1000 oproepen per seconde verstuurt en uw systeem slechts 200 oproepen per seconde kan ondersteunen, moet u een afkappings- of beperkingsconfiguratie definiëren zodat uw systeem niet verzadigd raakt. [Ontdek hoe u acties kunt configureren](../action/action.md)
 
 ## Time-out en opnieuw proberen{#timeout}
 

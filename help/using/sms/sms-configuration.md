@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '980'
 ht-degree: 2%
 
 ---
@@ -67,6 +67,12 @@ Voer de volgende stappen uit om uw SMS-leverancier te configureren met Journey O
       * **[!UICONTROL Opt-In Message]**: voer de aangepaste reactie in die automatisch als uw **[!UICONTROL Opt-In Message]**.
 
       * **[!UICONTROL Help Message]**: voer de aangepaste reactie in die automatisch als uw **Help-bericht**.
+
+   * Voor **[!DNL Sinch MMS]**:
+
+      * **[!UICONTROL Name]**: kies een naam voor uw API-referentie.
+
+      * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** en **[!UICONTROL API Token]**: in het menu Conversation API vindt u uw referenties in het menu App.  [Meer informatie](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html)
 
    * Voor **[!DNL Twilio]**:
 
