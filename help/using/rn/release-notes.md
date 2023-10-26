@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f9cb0156020fbf23a21c8840403230df77fad4a7
+source-git-commit: 9e7b08db00ab6333bd5a20815e05bca48075dca3
 workflow-type: tm+mt
-source-wordcount: '4437'
+source-wordcount: '4476'
 ht-degree: 8%
 
 ---
@@ -94,14 +94,14 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 
 Deze release bevat de verbeteringen die hieronder worden vermeld.
 
-<!--**Audiences**
+**Doelgroepen**
 
-* You can now target audiences uploaded from a CSV file into journeys and campaigns.
-* You can now target audiences created through audience composition and leverage enrichment attributes in Journeys. 
+* U kunt nu doelgroepen kiezen die vanuit een CSV-bestand naar reizen en campagnes zijn geüpload.
+* U kunt nu doelgroepen kiezen die zijn gemaakt door de publiekscompositie en de verrijkingskenmerken van de doelgroep in de stappen.
 
 >[!AVAILABILITY]
 >
->These capabilities are currently available as a private beta.-->
+>Deze mogelijkheden zijn momenteel beschikbaar als een persoonlijke bètaversie.
 
 <!--
 **Spam scoring for emails**
