@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ed42c04d8c653226e8512ced761519995ebd72c7
+source-git-commit: c4178c9954e94b64954a8631a49dc0cffccbaaee
 workflow-type: tm+mt
-source-wordcount: '4536'
+source-wordcount: '4476'
 ht-degree: 8%
 
 ---
@@ -110,7 +110,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Campagnes**
 
-* U kunt nu een live eenmalige campagne stoppen, wijzigingen aanbrengen en deze hervatten. Deze verbetering is beschikbaar in Beta.
+<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
 * Wanneer er een fout optreedt in een van uw campagnes, verschijnt er nu een waarschuwingspictogram in de lijst met campagnes naast de status van de campagne.
 
 **Journeys**
@@ -121,9 +121,10 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
    * de **Wachttijd bij terugkeer** in [reiseigenschappen](../building-journeys/journey-gs.md#entrance)
    * de **Wacht op** veld in de time-outdefinitie van [algemeen](../building-journeys/general-events.md#events-specific-time) en [reactie](../building-journeys/reaction-events.md) gebeurtenissen.
 
-**Toestemming in kanaalconfiguratie**
+<!--
+**Consent in channel configuration**
 
-* U kunt nu een marketingactie op het niveau van het kanaaloppervlak selecteren. Bij gebruik op een oppervlak worden alle toestemmingsbeleidsregels die aan die marketingactie zijn gekoppeld, benut om de voorkeuren van uw klanten te respecteren.
+* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
 
 **Beslissingsbeheer**
 
