@@ -11,7 +11,7 @@ keywords: IP, pools, leverbaarheid
 hide: true
 hidefromtoc: true
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 77d8da88b72cada82d30afa8bab5a63ab435f625
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 2%
@@ -50,7 +50,8 @@ Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
 
 1. Een geplande marketing maken [campagne](../campaigns/create-campaign.md) en selecteert u de [E-mail](../email/create-email.md#create-email-journey-campaign) handeling.
 
-   <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.>
+   <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.-->
+
 1. Selecteer de oppervlakte die u voor IP warmte-up creeerde.
 
    ![](assets/ip-warmup-campaign-surface.png)
