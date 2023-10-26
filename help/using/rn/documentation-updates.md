@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: b2a9a118b663c757a026c62b18e00d1f53e26317
 workflow-type: tm+mt
-source-wordcount: '3952'
+source-wordcount: '4007'
 ht-degree: 14%
 
 ---
@@ -30,6 +30,10 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * De implementeer single-page toepassingenpagina is verplaatst naar de documentatie van het Web SDK van het Palet van de Ervaring van de Adobe. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * De sectie van het Afschilderen is bijgewerkt om op de etiketveranderingen met betrekking tot aanbieding het maximum in de interface van het besluitvormingsbeheer te wijzen. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
 * De functie Dynamische inhoud toevoegen aan e-mailberichten is bijgewerkt met informatie over het verwijderen van een variant. [Meer informatie](../personalization/dynamic-content.md#emails)
+* Het voorbeeld voor configuraties met begrenzing en vertraging is bijgewerkt. [Meer informatie](../configuration/external-systems.md)
+* De beperking met betrekking tot scalaire arrays is verwijderd uit de externe gegevensbronsectie. [Meer informatie](../datasource/external-data-sources.md)
+* De meerkanaals reisgebruikscase is bijgewerkt. [Meer informatie](../building-journeys/journeys-uc.md)
+* De Journey Optimizer documentatieset is bijgewerkt om het nieuwe proces van het creëren van het schema van het Experience Platform te weerspiegelen.
 
 ## September 2023 {#september-2023}
 

@@ -9,7 +9,7 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: zandbak, reis, exemplaar, milieu
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: b2a9a118b663c757a026c62b18e00d1f53e26317
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 1%
@@ -85,7 +85,7 @@ De **Toevoegen aan pakket** wordt weergegeven.
 
    ![](assets/journey-sandbox9.png)
 
-## De reis importeren {#export}
+## De reis importeren {#import}
 
 1. Klik in de pakketlijst op het pictogram + naast de pakketnaam.
 
