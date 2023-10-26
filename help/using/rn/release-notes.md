@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 7dc3ddb92a8d47b135535107928e5b812c101d93
 workflow-type: tm+mt
-source-wordcount: '4557'
+source-wordcount: '4555'
 ht-degree: 9%
 
 ---
@@ -119,7 +119,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
    * de **Tijd** in het veld [wachtactiviteiten](../building-journeys/wait-activity.md)
    * de **Wachttijd bij terugkeer** in [reiseigenschappen](../building-journeys/journey-gs.md#entrance)
-   * de **Wacht op** veld in de time-outdefinitie van [algemeen](../building-journeys/general-events.md#events-specific-time) en [reactie](../building-journeys/reaction-events.md) gebeurtenissen.
+   * de **Wacht op** veld in de time-outdefinitie van [gebeurtenisactiviteiten](../building-journeys/general-events.md#events-specific-time).
 
 <!--
 **Consent in channel configuration**
