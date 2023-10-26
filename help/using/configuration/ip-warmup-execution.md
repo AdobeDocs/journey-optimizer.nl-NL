@@ -11,9 +11,9 @@ keywords: IP, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1664'
 ht-degree: 0%
 
 ---
@@ -61,20 +61,21 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 1. Voor elke fase, selecteer de campagne u met deze fase van het IP warmup plan wilt associëren.
 
+   >[!NOTE]
+   >
+   >U kunt geen campagne selecteren die reeds in gebruik in een ander IP warmlopingsplan is. Nochtans, kan de zelfde campagne in één of meerdere fasen van het zelfde IP warmup plan worden gebruikt.
+
    ![](assets/ip-warmup-plan-select-campaign.png)
 
    >[!IMPORTANT]
    >
-   >    * Alleen de campagnes met de **[!UICONTROL IP warmup plan activation]** optie ingeschakeld <!--and live?--> zijn beschikbaar voor selectie. [Meer informatie](#create-ip-warmup-campaign)
+   >* Alleen de campagnes met de **[!UICONTROL IP warmup plan activation]** ingeschakeld zijn beschikbaar voor selectie. [Meer informatie](#create-ip-warmup-campaign)
    >
    >* U moet een campagne selecteren die de zelfde oppervlakte gebruikt zoals die voor het huidige IP warmup plan wordt geselecteerd.
-   >
-   >* U kunt geen campagne selecteren die reeds in gebruik in een ander IP warmlopingsplan is.
-
 
 1. In de **[!UICONTROL Profile exclusion]** kunt u zien dat de profielen van de vorige reeksen van die fase altijd worden uitgesloten. Als in Run #1 bijvoorbeeld een profiel in de eerste 4800 doelgroepen is opgenomen, zorgt het systeem er automatisch voor dat hetzelfde profiel de e-mail niet ontvangt in Run #2.
 
-1. Van de **[!UICONTROL Campaign audiences excluded]** selecteert u het publiek uit andere <!--executed/live?-->campagnes die u van de huidige fase wilt uitsluiten.
+1. Van de **[!UICONTROL Campaign audiences excluded]** selecteert u het campagnepubliek uit andere <!--executed/live?-->campagnes die u van de huidige fase wilt uitsluiten.
 
    ![](assets/ip-warmup-plan-exclude-campaigns.png)
 
@@ -155,7 +156,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >Als u de opdracht **[!UICONTROL Last engagement]** aan de huidige looppas, plaats het aan 0.
+   >Als u geen periode van de overeenkomst op een looppas wilt toepassen, ga 0 in **[!UICONTROL Last engagement]** veld.
 
 1. Selecteer de **[!UICONTROL Pause for errors]** als de gekwalificeerde profielen kleiner zijn dan de doelprofielen, kunt u een uitvoering annuleren nadat het publiek voor die uitvoering is geëvalueerd.
 

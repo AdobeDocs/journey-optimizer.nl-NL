@@ -11,9 +11,9 @@ keywords: IP, pools, leverbaarheid
 hide: true
 hidefromtoc: true
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '395'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Wat u in deze documentatiehandleiding zult vinden:
 
 >[!ENDSHADEBOX]
 
-Alvorens het IP warmup plan zelf in te creëren [!DNL Journey Optimizer], moet u eerst één of meerdere campagnes met de specifieke toegelaten optie tot stand brengen zodat zij in een IP warmup plan kunnen worden gebruikt.
+Alvorens het IP warmup plan zelf in te creëren [!DNL Journey Optimizer], moet u eerst één of meerdere campagnes tot stand brengen specifiek voor gebruik in een IP warmup plan worden ontworpen<!--through a dedicated option-->.
 
 Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
 
@@ -48,8 +48,9 @@ Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
    >
    >Het werk met uw leverbaarheidsadviseur om het domein en IPs te identificeren dat voor uw IP warmup plan moet worden gebruikt.<!--TBC-->
 
-1. Een [campagne](../campaigns/create-campaign.md) en selecteert u de [E-mail](../email/create-email.md#create-email-journey-campaign) handeling.
+1. Een geplande marketing maken [campagne](../campaigns/create-campaign.md) en selecteert u de [E-mail](../email/create-email.md#create-email-journey-campaign) handeling.
 
+   <!--Select the Marketing category. The IP warmup plan activation option is only available for  marketing-type campaigns.>
 1. Selecteer de oppervlakte die u voor IP warmte-up creeerde.
 
    ![](assets/ip-warmup-campaign-surface.png)
@@ -70,7 +71,7 @@ Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
    >
    >Voor meer informatie over hoe te om een campagne te vormen, raadpleeg [deze pagina](../campaigns/get-started-with-campaigns.md).
 
-1. [Activeren](../campaigns/review-activate-campaign.md) de campagne.
+1. [Activeren](../campaigns/review-activate-campaign.md) de campagne. Zijn status verandert in **[!UICONTROL Live]**.
 
    >[!NOTE]
    >
@@ -82,4 +83,9 @@ Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
 
 Zodra levend, is de campagne klaar voor gebruik in een IP warmup plan. [Meer informatie](ip-warmup-plan.md)
 
-<!--Any recommendations when defining an audience? i.e do you have to include all your database or a limited number or according to your Excel file?-->
+Een IP warmup campagne kan slechts in één IP warmup plan worden gebruikt. Nochtans, kan de zelfde campagne in één of meerdere fasen van het zelfde IP warmup plan worden gebruikt. [Meer informatie](ip-warmup-plan.md#define-phases)
+
+>[!NOTE]
+>
+>Wanneer een levende campagne in een IP warmteopwarmingsplan wordt gebruikt, nadat het plan is [gemarkeerd als voltooid](ip-warmup-execution.md#mark-as-completed), verandert de status van die campagne in **[!UICONTROL Stopped]**.
+

@@ -11,9 +11,9 @@ keywords: IP, leverbaarheid
 hide: true
 hidefromtoc: true
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '274'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ Met [!DNL Journey Optimizer], kunt u IP warmteopwerkschema&#39;s op een gestanda
 
 Wanneer e-mails met een nieuw platform worden verzonden, zijn internetproviders (ISP&#39;s) verdacht van IP-adressen die niet worden herkend. Als er plotseling grote hoeveelheden e-mails worden verzonden, markeren de ISP&#39;s deze vaak als spam.
 
-Als u wilt voorkomen dat spam wordt gemarkeerd, kunt u het verzonden volume progressief verhogen met de functie voor het IP-opwarmingsplan. Deze nieuwe optie in het dialoogvenster **[!UICONTROL Administration]** kunt u dit gemakkelijker op geconsolideerde wijze doen in plaats van complexe dagelijkse reizen te maken . Dit zou een vlotte ontwikkeling van de startfase moeten verzekeren en u toelaten om het algemene tarief van ongeldige adressen te verminderen.
+Als u wilt voorkomen dat spam wordt gemarkeerd, kunt u het verzonden volume progressief verhogen met de functie voor het IP-opwarmingsplan. Deze nieuwe optie in het dialoogvenster **[!UICONTROL Administration]** kunt u dit gemakkelijker op geconsolideerde wijze doen in plaats van complexe dagelijkse reizen te maken .
 
 >[!NOTE]
 >
