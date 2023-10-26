@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7dc3ddb92a8d47b135535107928e5b812c101d93
+source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
 workflow-type: tm+mt
-source-wordcount: '4555'
+source-wordcount: '4525'
 ht-degree: 9%
 
 ---
@@ -32,10 +32,6 @@ Opmerkingen bij vorige release zijn beschikbaar in [deze pagina](release-notes-2
 ![Nieuwsbrief](../assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die direct aan uw Postbus worden geleverd elk kwartaal.
 
 ## Opmerkingen bij de vervroegde release oktober 2023 {#oct-rn-2023}
-
-Opmerkingen bij de eerste release hieronder kunnen zonder voorafgaande kennisgeving worden gewijzigd tot de beschikbaarheidsdatum van de release. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd op de releasedatum.
-
-**Releasedatum**: 25-26 oktober 2023
 
 ### Nieuwe functies{#oct-2023-features}
 
