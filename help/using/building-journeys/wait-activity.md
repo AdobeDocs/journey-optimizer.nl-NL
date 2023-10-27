@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: wachten, activiteit, reis, volgende, canvas
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: ce1e43ce2c439b02e5c263f26de5531b26dc0980
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 5%
@@ -35,7 +35,7 @@ Als u wilt wachten voordat u de volgende activiteit in het pad uitvoert, kunt u 
 
 ## Informatie over de activiteit Wachten{#about_wait}
 
-De maximale wachttijd is 30 dagen. In de testmodus **[!UICONTROL Wait time in test]** parameter staat u toe om de tijd te bepalen dat elke wachttijdactiviteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Zie [deze pagina](../building-journeys/testing-the-journey.md).
+De maximale wachttijd is 29 dagen. In de testmodus **[!UICONTROL Wait time in test]** parameter staat u toe om de tijd te bepalen dat elke wachttijdactiviteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Zie [deze pagina](../building-journeys/testing-the-journey.md).
 
 Wees voorzichtig als u meerdere wachtactiviteiten gebruikt op een reis terwijl de wereldwijde time-out van de reis 30 dagen bedraagt, wat betekent dat een profiel altijd maximaal 30 dagen na het vertrek zal verdwijnen. Zie [deze pagina](../building-journeys/journey-gs.md#global_timeout).
 
