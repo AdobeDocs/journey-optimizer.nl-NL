@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 2344d53a331cb883a81a051ce1e06e8c42824cb7
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,9 @@ Ga als volgt te werk om een compositieworkflow te maken:
 >title="Uw publiek publiceren"
 >abstract="Publiceer uw compositie om het resulterende publiek of de doelgroepen op te slaan in Adobe Experience Platform."
 
-Alle gemaakte composities zijn toegankelijk via de **[!UICONTROL Compositions]** tab. Ze kunnen meerdere statussen hebben:
+Alle gemaakte composities zijn toegankelijk via de **[!UICONTROL Compositions]** tab. U kunt een bestaande compositie op elk gewenst moment dupliceren of verwijderen met de knop voor weglatingen in de lijst.
+
+Composities kunnen meerdere statussen hebben:
 
 * **[!UICONTROL Draft]**: de samenstelling is in uitvoering en is niet gepubliceerd.
 * **[!UICONTROL Published]**: de compositie is gepubliceerd, het resulterende publiek is opgeslagen en beschikbaar voor gebruik.
@@ -83,4 +85,4 @@ Alle gemaakte composities zijn toegankelijk via de **[!UICONTROL Compositions]**
 
 >[!NOTE]
 >
->U kunt een bestaande compositie op elk gewenst moment dupliceren of verwijderen met de knop voor weglatingen in de lijst.
+>De compositie van het publiek is momenteel niet geïntegreerd met de functie voor het opnieuw instellen van de sandbox. Voordat u een sandbox-reset start, moet u de composities handmatig verwijderen om ervoor te zorgen dat de bijbehorende publieksgegevens op de juiste wijze worden opgeschoond. Gedetailleerde informatie is beschikbaar in Adobe Experience Platform [Sandbox-documentatie](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions)
