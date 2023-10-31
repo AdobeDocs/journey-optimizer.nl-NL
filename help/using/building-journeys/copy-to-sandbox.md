@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: zandbak, reis, exemplaar, milieu
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: b2a9a118b663c757a026c62b18e00d1f53e26317
+source-git-commit: 25306e8300942d2d4683771a6d66ed6c5e5823fc
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '715'
 ht-degree: 1%
 
 ---
@@ -44,6 +44,10 @@ Met sandboxgereedschappen kunt u objecten kopiëren naar meerdere sandboxen door
 
 Op deze pagina wordt het gebruik-hoofdlettergebruik voor Sandbox-gereedschappen in de context van Journey Optimizer beschreven. Raadpleeg voor meer informatie over de functie zelf de [Documentatie Experience Platform](https://experienceleague.corp.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
+>[!NOTE]
+>
+>Voor deze functie zijn de volgende machtigingen vereist: manage-sandbox (of view-sandbox) en manage-package.
+
 ## Aan de slag met sandboxgereedschappen{#sandbox-gs}
 
 Met Journey Optimizer kunt u een volledige reis van de ene naar de andere sandbox kopiëren. U kunt bijvoorbeeld een traject kopiëren van de zandbakomgeving van het werkgebied naar de productiefandbox. Naast de reis zelf kopieert Journey Optimizer ook de meeste objecten die de reis afhangt van: publiek, schema&#39;s, evenementen en acties. Raadpleeg deze voor meer informatie over gekopieerde objecten [sectie](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects).
@@ -54,19 +58,24 @@ Met Journey Optimizer kunt u een volledige reis van de ene naar de andere sandbo
 
 De gekopieerde objecten in de doelsandbox zijn uniek en er bestaat geen risico dat bestaande elementen worden overschreven. Zowel de reis als alle berichten binnen de reis worden in de ontwerpmodus overgenomen. Hierdoor kunt u een grondige validatie uitvoeren voordat deze wordt gepubliceerd in de doelsandbox. Het kopieerproces kopieert alleen de metagegevens over de reis en de objecten in die reis. Er worden geen profiel- of gegevenssetgegevens gekopieerd als onderdeel van dit proces.
 
-## De reis exporteren {#export}
+Het kopieerproces wordt uitgevoerd via een pakketexport en importeren tussen de bron- en doelsandboxen. Hier volgen de algemene stappen voor het kopiëren van een reis van de ene naar de andere sandbox:
 
-Ga als volgt te werk om een reis naar een andere sandbox te kopiëren:
+1. Voeg de reis als pakket in de bronzandbak toe.
+1. Exporteer het pakket naar de doelsandbox.
+
+## De reis toevoegen als een pakket{#export}
+
+Als u een reis naar een andere sandbox wilt kopiëren, moet u eerst de rit als een pakket in de bronsandbox toevoegen. Voer de volgende stappen uit:
 
 1. Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]**. De lijst met reizen wordt weergegeven.
 
 1. Zoek naar de reis u wilt kopiëren, klik **Meer handelingen** pictogram (de drie punten naast de naam van de rit) en klik op **Toevoegen aan pakket**.
 
-![](assets/journey-sandbox1.png)
+   ![](assets/journey-sandbox1.png)
 
-De **Toevoegen aan pakket** wordt weergegeven.
+   De **Toevoegen aan pakket** wordt weergegeven.
 
-![](assets/journey-sandbox2.png)
+   ![](assets/journey-sandbox2.png)
 
 1. Kies of u de rit aan een bestaand pakket wilt toevoegen of een nieuw pakket wilt maken:
 
@@ -85,9 +94,11 @@ De **Toevoegen aan pakket** wordt weergegeven.
 
    ![](assets/journey-sandbox9.png)
 
-## De reis importeren {#import}
+## Het pakket exporteren naar de doelsandbox {#import}
 
-1. Klik in de pakketlijst op het pictogram + naast de pakketnaam.
+Nadat het pakket is gepubliceerd, moet u het exporteren naar de doelsandbox.
+
+1. Klik in de bronsandbox op de knop **[!UICONTROL Sandboxes]** , selecteert u de **Pakketten** en klikt u op het pictogram + naast het pakket dat u wilt exporteren.
 
    ![](assets/journey-sandbox5.png)
 
