@@ -9,7 +9,7 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: zandbak, reis, exemplaar, milieu
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 25306e8300942d2d4683771a6d66ed6c5e5823fc
+source-git-commit: 40ac0915da75b0011899e336e5b0bacb5d166626
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 1%
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 Met sandboxgereedschappen kunt u objecten kopiëren naar meerdere sandboxen door het exporteren en importeren van pakketten te benutten. Een pakket kan uit één object of uit meerdere objecten bestaan. Alle objecten die in een pakket zijn opgenomen, moeten afkomstig zijn uit dezelfde sandbox.
 
-Op deze pagina wordt het gebruik-hoofdlettergebruik voor Sandbox-gereedschappen in de context van Journey Optimizer beschreven. Raadpleeg voor meer informatie over de functie zelf de [Documentatie Experience Platform](https://experienceleague.corp.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
+Op deze pagina wordt het gebruik-hoofdlettergebruik voor Sandbox-gereedschappen in de context van Journey Optimizer beschreven. Raadpleeg voor meer informatie over de functie zelf de [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html).
 
 >[!NOTE]
 >
