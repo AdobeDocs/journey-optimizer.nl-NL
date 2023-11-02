@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2318'
 ht-degree: 1%
 
 ---
@@ -44,6 +44,10 @@ Met beperkingen kunt u de voorwaarden definiëren waaronder een aanbieding wordt
 1. Definieer de **[!UICONTROL Priority]** van de aanbieding in vergelijking met andere aanbiedingen indien de gebruiker voor meer dan één aanbieding in aanmerking komt. Hoe hoger de prioriteit van een aanbieding is, hoe hoger de prioriteit ervan wordt vergeleken met andere aanbiedingen.
 
    ![](../assets/offer-priority.png)
+
+   >[!NOTE]
+   >
+   >De aanbiedingsprioriteit moet een geheel-getalwaarde zijn (geen decimalen).
 
 1. Geef de aanbiedingen op **[!UICONTROL Capping]**, wat het aantal keren betekent dat het aanbod zal worden ingediend. [Meer informatie](#capping)
 
