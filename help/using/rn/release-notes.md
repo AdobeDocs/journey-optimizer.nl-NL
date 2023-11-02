@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 70c82f625903720e81cb73b226aaea98b2eb94b0
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '4524'
+source-wordcount: '4526'
 ht-degree: 9%
 
 ---
@@ -92,7 +92,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Doelgroepen**
 
-* U kunt nu doelgroepen kiezen die vanuit een CSV-bestand naar reizen en campagnes zijn geüpload.
+* U kunt nu doelgroepen kiezen die vanuit een CSV-bestand naar reizen en campagnes zijn geüpload. [Meer informatie](../audience/about-audiences.md#segments-in-journey-optimizer)
 * U kunt nu doelgroepen kiezen die zijn gemaakt door de publiekscompositie en de verrijkingskenmerken van de doelgroep in de stappen. [Meer informatie](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]

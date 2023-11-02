@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,15 @@ ht-degree: 0%
 >title="Selecteer het campagnepubliek"
 >abstract="In deze lijst worden alle beschikbare Adobe Experience Platform-soorten publiek weergegeven. Selecteer het publiek voor uw campagne. Het bericht dat in de campagne wordt gevormd zal naar alle individuen worden verzonden die tot het geselecteerde publiek behoren. [Meer informatie over publiek](../audience/about-audiences.md)"
 
-[!DNL Journey Optimizer] stelt u in staat om Adobe Experience Platform-publiek rechtstreeks vanuit de **[!UICONTROL Audiences]** en gebruikt u deze in uw reizen of campagnes.
-
-Meer informatie in het dialoogvenster [Adobe Experience Platform Segmentation Service-documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
+[!DNL Journey Optimizer] stelt u in staat om Adobe Experience Platform-publiek rechtstreeks vanuit de **[!UICONTROL Audiences]** en gebruikt u deze in uw reizen of campagnes. Meer informatie in het dialoogvenster [Adobe Experience Platform Segmentation Service-documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html).
 
 ## Gebruik publiek in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+
+U kunt in campagnes en reizen elk Adobe Experience Platform-publiek selecteren dat wordt gegenereerd met [segmentdefinities](../audience/creating-a-segment-definition.md).
+
+>[!NOTE]
+>
+>Bovendien kunt u ook Adobe Experience Platform-doelgroepen gebruiken die zijn gemaakt met [publiekscomposities](../audience/get-started-audience-orchestration.md) of [geüpload vanuit een CSV-bestand](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. Deze mogelijkheden zijn momenteel beschikbaar als een persoonlijke bètaversie.
 
 U kunt het publiek benutten in **[!DNL Journey Optimizer]** op verschillende manieren:
 

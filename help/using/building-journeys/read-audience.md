@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, publiek, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: fd7e32d05b656f61488a53efb15b3bd86c6f99aa
+source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 4%
+source-wordcount: '1327'
+ht-degree: 3%
 
 ---
 
@@ -47,13 +47,13 @@ De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt:
 
 1. Voeg een **[!UICONTROL Label]** aan de activiteit (facultatief).
 
-1. In de **[!UICONTROL Audience]** en kies Adobe Experience Platform-publiek dat de reis zal betreden. Klik vervolgens op **[!UICONTROL Save]**.
-
-   U kunt de kolommen in de lijst aanpassen en sorteren.
+1. In de **[!UICONTROL Audience]** en kies Adobe Experience Platform-publiek dat de reis zal betreden. Klik vervolgens op **[!UICONTROL Save]**. U kunt elk Adobe Experience Platform-publiek selecteren dat u genereert met [segmentdefinities](../audience/creating-a-segment-definition.md).
 
    >[!NOTE]
    >
-   >Alleen de personen met de **Realistisch** en **Bestaande** de status van de publieksparticipatie zal de reis betreden . Raadpleeg voor meer informatie over het evalueren van een publiek de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Bovendien kunt u ook Adobe Experience Platform-doelgroepen gebruiken die zijn gemaakt met [publiekscomposities](../audience/get-started-audience-orchestration.md) of [geüpload vanuit een CSV-bestand](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. Deze mogelijkheden zijn momenteel beschikbaar als een persoonlijke bètaversie.
+
+   U kunt de kolommen in de lijst aanpassen en sorteren.
 
    ![](assets/read-segment-selection.png)
 
@@ -62,6 +62,10 @@ De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt:
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/read-segment-copy.png)
+
+   >[!NOTE]
+   >
+   >Alleen de personen met de **Realistisch** en **Bestaande** de status van de publieksparticipatie zal de reis betreden . Raadpleeg voor meer informatie over het evalueren van een publiek de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. In de **[!UICONTROL Namespace]** gebruiken, kiest u de naamruimte die u wilt gebruiken om de personen te identificeren. Het veld wordt standaard voorgevuld met de laatst gebruikte naamruimte. [Meer informatie over naamruimten](../event/about-creating.md#select-the-namespace).
 
