@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: 4729ceba99d0a1d356e1e44ee601c7b9eb871719
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Beschikbare kanalen voor API-getriggerde campagnes zijn E-mail, SMS en Push beri
 >[!NOTE]
 >
 >Vanaf nu wordt de snelle leveringsmodus niet ondersteund voor door de pushmelding API-geactiveerde campagnes.
+
+➡️ [Ontdek deze functie in video](#video)
 
 ## Een API-gestuurde campagne maken {#create}
 
@@ -132,3 +134,9 @@ Als u het maken van profielen wilt activeren tijdens de uitvoering van de campag
 >[!NOTE]
 >
 >Onbekende profielen worden gemaakt in het dialoogvenster **Gegevensset AJO Interactive Messaging Profile** dataset, in drie standaardnaamruimte (e-mail, telefoon en ECID) respectievelijk voor elke uitgaande kanalen (E-mail, SMS en Push).
+
+## Hoe kan ik-video {#video}
+
+Leer hoe te om een campagne tot stand te brengen en het van een extern systeem teweeg te brengen dat op gebruikersinteractie wordt gebaseerd, gebruikend de Interactieve REST API van de Uitvoering van het Bericht.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
