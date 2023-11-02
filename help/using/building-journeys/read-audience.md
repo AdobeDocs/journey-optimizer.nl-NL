@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, publiek, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: fd7e32d05b656f61488a53efb15b3bd86c6f99aa
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 4%
@@ -37,7 +37,7 @@ Neem bijvoorbeeld het publiek voor het openen en uitchecken van de Luma-app dat 
 
 * Vooralsnog is het gebruik van het publiek [geïmporteerd uit een CSV-bestand](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) of die het resultaat zijn van [compositieworkflows](../audience/get-started-audience-orchestration.md) voor reizen beschikbaar is als een persoonlijke bètaversie. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-### De activiteit configureren {#configuring-segment-trigger-activity}
+## De activiteit configureren {#configuring-segment-trigger-activity}
 
 De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt:
 
@@ -116,7 +116,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >
 >Eenmalig Leespubliek reizen 30 dagen na de uitvoering van de reis over naar de voltooide status. Voor een gepland leespubliek duurt het 30 dagen na de uitvoering van het laatste exemplaar.
 
-### De journey testen en publiceren {#testing-publishing}
+## De journey testen en publiceren {#testing-publishing}
 
 De **[!UICONTROL Read Audience]** met deze activiteit kunt u de reis testen op een uniform profiel.
 
