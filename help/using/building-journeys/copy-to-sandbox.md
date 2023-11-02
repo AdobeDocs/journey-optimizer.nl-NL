@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: zandbak, reis, exemplaar, milieu
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 40ac0915da75b0011899e336e5b0bacb5d166626
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '747'
 ht-degree: 1%
 
 ---
@@ -62,6 +62,8 @@ Het kopieerproces wordt uitgevoerd via een pakketexport en importeren tussen de 
 
 1. Voeg de reis als pakket in de bronzandbak toe.
 1. Exporteer het pakket naar de doelsandbox.
+
+Bovendien kun je Journey Optimizer gebruiken **REST-API voor kopiëren van object** om sandboxobjecten te beheren. [Leer hoe u met de REST API van de Objectkopieerservice werkt](https://developer.adobe.com/journey-optimizer-apis/references/sandbox/)
 
 ## De reis toevoegen als een pakket{#export}
 

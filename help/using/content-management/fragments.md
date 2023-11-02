@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1511'
 ht-degree: 2%
 
 ---
@@ -36,6 +36,8 @@ U kunt zo veel mogelijk gebruikmaken van fragmenten:
 * Maak uw eigen fragmenten. U kunt visuele fragmenten of expressiefragmenten maken. [Meer informatie](#create-fragments)
 
 * Gebruik deze zo vaak als nodig is in de inhoud. Zie [Visuele fragmenten toevoegen](../email/use-visual-fragments.md) en [Expressiefragmenten benutten](../personalization/use-expression-fragments.md)
+
+Bovendien kun je Journey Optimizer gebruiken **Content REST API** om inhoudsfragmenten te beheren. Raadpleeg voor meer informatie de [Journey Optimizer API-documentatie](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
 ## Voordat u begint {#fragment-prerequisites}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '800'
 ht-degree: 2%
 
 ---
@@ -26,6 +26,8 @@ Het verzamelt e-mailadressen en domeinen die over alle post in één enkele cli�
 >[!NOTE]
 >
 >Adobe houdt een bijgewerkte lijst bij van bekende slechte adressen waarvan is aangetoond dat ze de betrokkenheid en de mailingreputatie schaden, en zorgt ervoor dat er geen e-mails aan hen worden bezorgd. Deze lijst wordt beheerd in een globale suppressielijst die over alle klanten van de Adobe gemeenschappelijk is. De adressen en domeinnamen in de globale suppressielijst worden verborgen. Alleen het aantal uitgesloten ontvangers wordt vermeld in de leveringsverslagen.
+
+Bovendien kun je Journey Optimizer gebruiken **REST-API onderdrukken** om uw uitgaande berichten te controleren gebruikend onderdrukking en lijsten van gewenste personen. [Leer hoe u met de REST API voor onderdrukking werkt](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html)
 
 ## Waarom een suppressielijst? {#why-suppression-list}
 

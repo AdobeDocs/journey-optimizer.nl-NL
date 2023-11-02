@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: lijst van gewenste personen, lijst, veilig, configuratie
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1120'
 ht-degree: 2%
 
 ---
@@ -22,17 +22,15 @@ Het is mogelijk om een specifieke verzendende-veilige lijst bij te bepalen [sand
 
 Met deze lijst van gewenste personen kunt u afzonderlijke e-mailadressen of domeinen opgeven die de enige ontvangers of domeinen zijn die geautoriseerd zijn om de e-mails te ontvangen die u vanuit een specifieke sandbox verzendt.
 
->[!NOTE]
+>[!CAUTION]
 >
->Deze functie is beschikbaar voor productie- en niet-productie-sandboxen.
+>Deze functie geldt alleen voor het e-mailkanaal. Het is beschikbaar voor productie- en niet-productie-sandboxen.
 
 Bijvoorbeeld, op een niet-productiegeval, waar de fouten kunnen voorkomen, verzekert de lijst van gewenste personen u geen risico hebt om ongewenste berichten naar echte klantenadressen uit te zenden, en verstrekt daarom een beveiligd milieu voor het testende doel.
 
 Wanneer de lijst van gewenste personen actief maar leeg is, gaat er ook geen e-mail uit. Vandaar als u één of andere belangrijke kwestie ontmoet, kunt u deze eigenschap gebruiken om alle uitgaande mededelingen van tegen te houden [!DNL Journey Optimizer] totdat u het probleem verhelpt. Meer informatie over de [lijst van gewenste personen-logica](#logic).
 
->[!CAUTION]
->
->Deze functie geldt alleen voor het e-mailkanaal.
+Bovendien kun je Journey Optimizer gebruiken **REST-API onderdrukken** om uw uitgaande berichten te controleren gebruikend onderdrukking en lijsten van gewenste personen. [Leer hoe u met de REST API voor onderdrukking werkt](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html)
 
 ## Toegang tot de lijst van gewenste personen {#access-allowed-list}
 
