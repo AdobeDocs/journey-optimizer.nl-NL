@@ -11,7 +11,7 @@ keywords: IP, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -190,7 +190,7 @@ Zorg ervoor dat u voldoende tijd hebt gepland om de [segmentatie](https://experi
 >
 >Elke run moet ten minste 12 uur voor de werkelijke verzendtijd worden geactiveerd. Anders kan de segmentatie niet worden voltooid.
 
-Wanneer u een run activeert, worden automatisch meerdere segmenten gemaakt.
+Wanneer u een run activeert, worden automatisch meerdere soorten publiek gemaakt.
 
 * Indien de eerste uitvoering van een fase wordt geactiveerd:
 
