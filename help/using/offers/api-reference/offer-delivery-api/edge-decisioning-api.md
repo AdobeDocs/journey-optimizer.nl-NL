@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 359846ac00fc8e3ad16eca41b6b3c345cad4aa65
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '960'
 ht-degree: 1%
 
 ---
@@ -24,10 +24,6 @@ De SDK van het Web van de Experience Platform steunt het vragen van de verpersoo
 Er zijn twee manieren om het besluitvormingsbeheer uit te voeren met de [Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html#video-overview). Eén manier is gericht op ontwikkelaars en vereist kennis van websites en programmering. De andere manier is door de Adobe Experience Platform-gebruikersinterface te gebruiken voor het instellen van aanbiedingen waarbij alleen naar een klein script moet worden verwezen in de koptekst van de pagina HTML.
 
 Raadpleeg de documentatie bij [beslissingsbeheer](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html#enabling-offer-decisioning) voor meer informatie over hoe te om gepersonaliseerde aanbiedingen te leveren gebruikend de SDK van het Web van Adobe Experience Platform.
-
->[!NOTE]
->
->Het gebruik van Beslissingsbeheer in Adobe Experience Platform Web SDK is alleen beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Als u deze functie wilt gebruiken, neemt u contact op met de accountmanager van de Adobe.
 
 ## Adobe Experience Platform Web SDK {#aep-web-sdk}
 
