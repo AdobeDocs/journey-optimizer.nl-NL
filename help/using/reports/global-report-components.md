@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1100'
 ht-degree: 3%
 
 ---
@@ -89,6 +89,11 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
   <tr> 
    <td> Foutfrequentie<br/> </td> 
    <td> Percentage fouten die optraden tijdens een levering waardoor deze niet kon worden verzonden, vergeleken met verzonden e-mailberichten.<br/> </td> 
+</tr>
+</tr> 
+  <tr> 
+   <td> Foutreden<br/> </td> 
+   <td> Naam van de specifieke oorspronkelijke oorzaak van de fout. <a href="error-list.md">Meer informatie over oorzaken van fouten</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Uitgesloten<br/> </td> 
@@ -332,7 +337,11 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
   <tr> 
    <td> Foutfrequentie<br/> </td> 
    <td> Percentage fouten die optraden tijdens een levering waardoor deze niet kon worden verzonden, vergeleken met verzonden pushberichten.<br/> </td> 
-</tr> 
+</tr>
+  <tr> 
+   <td> Foutreden<br/> </td> 
+   <td> Naam van de specifieke oorspronkelijke oorzaak van de fout. <a href="error-list.md">Meer informatie over oorzaken van fouten</a>.<br/> </td> 
+</tr>
   <tr> 
    <td> Uitgesloten<br/> </td> 
    <td> Aantal profielen dat door Adobe Journey Optimizer is uitgesloten.<br/> </td> 
@@ -356,7 +365,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
  </tbody> 
 </table>
 
-### Metrische gegevens van bestemmingspagina {#landing-page-metrics}
+## Metrische gegevens van bestemmingspagina {#landing-page-metrics}
 
 <table> 
  <thead> 

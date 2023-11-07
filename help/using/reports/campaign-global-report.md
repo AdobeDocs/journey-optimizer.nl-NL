@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 2e8476636fafcba77cbd25ca13324652178224ed
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '2929'
+source-wordcount: '3069'
 ht-degree: 0%
 
 ---
@@ -173,6 +173,8 @@ Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Email]** bevat d
 
 De **[!UICONTROL Email Sending Statistics]** Grafiek geeft het succes van je e-mail weer:
 
+* **[!UICONTROL Execution time]**: Begintijd voor elke uitvoering van uw terugkerende e-mail. Als u slechts één of meerdere terugkerende e-mails wilt aanwijzen, selecteert u deze in het menu **[!UICONTROL Execution time]** vervolgkeuzelijst.
+
 * **[!UICONTROL Targeted]**: Het totale aantal berichten dat tijdens het verzendingsproces wordt verwerkt.
 
 * **[!UICONTROL Sent]**: Totaal aantal verzendingen voor uw e-mail.
@@ -194,6 +196,8 @@ De **[!UICONTROL Email Sending Statistics]** Grafiek geeft het succes van je e-m
 * **[!UICONTROL Excluded]**: Aantal profielen dat door Adobe Journey Optimizer is uitgesloten.
 
 De **[!UICONTROL Email - Tracking statistics]** widget bevat de beschikbare gegevens voor profielactiviteiten voor uw e-mail:
+
+* **[!UICONTROL Execution time]**: Begintijd voor elke uitvoering van uw terugkerende e-mail. Als u slechts één of meerdere terugkerende e-mails wilt aanwijzen, selecteert u deze in het menu **[!UICONTROL Execution time]** vervolgkeuzelijst.
 
 * **[!UICONTROL Opens]**: Aantal keer dat de e-mail is geopend.
 
@@ -243,7 +247,7 @@ De **[!UICONTROL Email - Top recipient domain]** grafiek en lijstdetails die dom
 >
 > De **[!UICONTROL Email - Top recipient domain]** de widget heeft een nauwkeurigheid van 99 , 95 % .
 
-De **[!UICONTROL Optimized vs non optimized]** de grafiek geeft de belangrijkste informatie met betrekking tot uw bericht of zij of niet worden geoptimaliseerd:
+De **[!UICONTROL Email - Optimized vs Normal]** de grafiek geeft de belangrijkste informatie met betrekking tot uw bericht of zij of niet worden geoptimaliseerd:
 
 * **[!UICONTROL Sent]**: Totaal aantal verzendingen.
 
@@ -251,7 +255,7 @@ De **[!UICONTROL Optimized vs non optimized]** de grafiek geeft de belangrijkste
 
 * **[!UICONTROL Clicks]**: Aantal keer dat er op inhoud is geklikt in een e-mail.
 
-De **[!UICONTROL Send time optimization]** geeft details over het succes van uw e-mail, afhankelijk van de verzendmethode: geoptimaliseerd of normaal.
+De **[!UICONTROL Email - Send time optimization]** geeft details over het succes van uw e-mail, afhankelijk van de verzendmethode: geoptimaliseerd of normaal.
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
@@ -337,7 +341,9 @@ Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Push notificatio
 
 +++Leer meer op de verschillende metriek en widgets beschikbaar voor het Push- rapport.
 
-De **[!UICONTROL Push notification - Sending statistics]** de tabel bevat de belangrijkste informatie met betrekking tot uw pushmeldingen
+De **[!UICONTROL Push notification - Sending statistics]** de tabel bevat de belangrijkste informatie met betrekking tot uw pushmeldingen :
+
+* **[!UICONTROL Execution time]**: Begintijd van elke uitvoering van uw terugkerende pushmelding. Als u slechts één of meerdere terugkerende pushmeldingen wilt activeren, selecteert u deze in het menu **[!UICONTROL Execution time]** vervolgkeuzelijst.
 
 * **[!UICONTROL Targeted]**: Het totale aantal berichten dat tijdens de analyse wordt verwerkt.
 
@@ -358,6 +364,8 @@ De **[!UICONTROL Push notification - Sending statistics]** de tabel bevat de bel
 * **[!UICONTROL Excluded]**: Aantal profielen dat door Adobe Journey Optimizer is uitgesloten.
 
 De **[!UICONTROL Push - Tracking statistics]** bevat de beschikbare gegevens voor profielactiviteit voor uw pushmelding:
+
+* **[!UICONTROL Execution time]**: Begintijd van elke uitvoering van uw terugkerende pushmelding. Als u slechts één of meerdere terugkerende pushmeldingen wilt activeren, selecteert u deze in het menu **[!UICONTROL Execution time]** vervolgkeuzelijst.
 
 * **[!UICONTROL Opens]**: Het aantal keren dat uw pushmelding is geopend.
 
@@ -446,6 +454,8 @@ Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL SMS]** bevat de 
 
 De **[!UICONTROL SMS - Sending statistics]** in de tabel wordt aangegeven hoe succesvol je SMS-bericht is:
 
+* **[!UICONTROL Execution time]**: Begintijd voor elke uitvoering van uw terugkerende SMS-bericht. Als u slechts één of meerdere terugkerende SMS-berichten wilt aanwijzen, selecteert u deze in het menu **[!UICONTROL Execution time]** vervolgkeuzelijst.
+
 * **[!UICONTROL Targeted]**: Aantal gebruikersprofielen dat als doelprofielen wordt gekwalificeerd.
 
 * **[!UICONTROL Excluded]**: Aantal gebruikersprofielen dat is uitgesloten van de doelprofielen en dat het bericht niet heeft ontvangen.
@@ -530,6 +540,8 @@ Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Direct mail]** b
 +++ Meer informatie over de verschillende maatstaven en widgets die beschikbaar zijn voor het Direct-mailrapport.
 
 De **[!UICONTROL Direct Mail - Sending statistics]** in de tabel wordt aangegeven hoe succesvol je e-mail is :
+
+* **[!UICONTROL Execution time]**: Begintijd van elke uitvoering van uw terugkerende Direct-mail. Als u slechts één of meerdere terugkerende Direct-mail als doel wilt instellen, selecteert u deze in het menu **[!UICONTROL Execution time]** vervolgkeuzelijst.
 
 * **[!UICONTROL Targeted]**: Aantal gebruikersprofielen dat als doelprofielen voor deze direct-mail kwalificeert.
 

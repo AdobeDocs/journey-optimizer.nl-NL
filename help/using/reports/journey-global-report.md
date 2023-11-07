@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: '2124'
 ht-degree: 0%
 
 ---
@@ -84,6 +84,8 @@ Vanaf uw reis **[!UICONTROL Global report]** de **[!UICONTROL Email]** bevat de 
 
 De **[!UICONTROL Email Sending Statistics]** grafiek geeft het succes van uw levering aan:
 
+* **[!UICONTROL Execution time]**: Begintijd van elke uitvoering van uw terugkerende e-mail tijdens uw reis. Als u slechts één of meerdere terugkerende e-mails wilt aanwijzen, selecteert u deze in het menu **[!UICONTROL Execution time]** vervolgkeuzelijst.
+
 * **[!UICONTROL Targeted]**: Het aantal profielen dat is bedoeld voor acties zoals het verzenden van e-mail of sms.
 
 * **[!UICONTROL Sent]**: Totaal aantal verzendingen voor de levering.
@@ -101,6 +103,8 @@ De **[!UICONTROL Email Sending Statistics]** grafiek geeft het succes van uw lev
 * **[!UICONTROL Error Rate]**: Percentage fouten die optraden tijdens een levering waardoor deze niet kon worden verzonden, vergeleken met verzonden e-mailberichten.
 
 De **[!UICONTROL Email - Tracking statistics]** bevat de beschikbare gegevens voor ontvankelijke activiteit voor uw levering:
+
+* **[!UICONTROL Execution time]**: Begintijd van elke uitvoering van uw terugkerende e-mail tijdens uw reis. Als u slechts één of meerdere terugkerende e-mails wilt aanwijzen, selecteert u deze in het menu **[!UICONTROL Execution time]** vervolgkeuzelijst.
 
 * **[!UICONTROL Opens]**: Aantal keren dat de levering is geopend in een levering.
 
@@ -194,6 +198,8 @@ Vanaf uw reis **[!UICONTROL Global report]** de **[!UICONTROL Push notification]
 
 De **[!UICONTROL Push notification - Sending statistics]** de tabel bevat de belangrijkste informatie met betrekking tot uw pushberichten met grafiek en PKI&#39;s:
 
+* **[!UICONTROL Execution time]**: Begintijd van elke uitvoering van uw terugkerende pushmelding tijdens uw reis. Als u slechts één of meerdere terugkerende pushmeldingen wilt activeren, selecteert u deze in het menu **[!UICONTROL Execution time]** vervolgkeuzelijst.
+
 * **[!UICONTROL Targeted]**: Het aantal profielen dat is bedoeld voor acties zoals het verzenden van e-mail of sms.
 
 * **[!UICONTROL Sent]**: Totaal aantal verzendingen voor de levering.
@@ -211,6 +217,8 @@ De **[!UICONTROL Push notification - Sending statistics]** de tabel bevat de bel
 * **[!UICONTROL Error Rate]**: Percentage fouten die optraden tijdens een levering waardoor deze niet kon worden verzonden, vergeleken met verzonden pushberichten.
 
 De **[!UICONTROL Push - Tracking statistics]** bevat de beschikbare gegevens voor ontvankelijke activiteit voor uw levering:
+
+* **[!UICONTROL Execution time]**: Begintijd van elke uitvoering van uw terugkerende pushmelding tijdens uw reis. Als u slechts één of meerdere terugkerende pushmeldingen wilt activeren, selecteert u deze in het menu **[!UICONTROL Execution time]** vervolgkeuzelijst.
 
 * **[!UICONTROL Opens]**: Aantal keren dat een bericht is geopend in een levering.
 
@@ -265,6 +273,8 @@ Het SMS **[!UICONTROL Global report]** is verdeeld in verschillende widgets waar
 +++Meer informatie over de verschillende maatstaven en widgets die beschikbaar zijn voor het SMS-rapport.
 
 De **[!UICONTROL SMS - Sending statistics]** de tabel geeft het succes van uw levering aan :
+
+* **[!UICONTROL Execution time]**: Begintijd voor elke uitvoering van uw terugkerende SMS-bericht tijdens uw reis. Als u slechts één of meerdere terugkerende SMS-berichten wilt aanwijzen, selecteert u deze in het menu **[!UICONTROL Execution time]** vervolgkeuzelijst.
 
 * **[!UICONTROL Targeted]**: Aantal gebruikersprofielen dat als doelprofielen voor deze levering in aanmerking komt.
 

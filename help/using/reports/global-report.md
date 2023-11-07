@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 5f099db541c3219749f520d991261ad6fdfef4a7
+source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,12 @@ Elk rapportdashboard kan worden gewijzigd door de tijdsperiode te wijzigen en wi
 1. Van uw Globale rapport, selecteer een tijd van het Begin en van het Eind om specifieke gegevens te richten.
 
    ![](assets/report_modify_1.png)
+
+1. Voor uw rapporten van de Reizen die veelvoudige gevormd impliceren **[!UICONTROL Actions]** kiest u een specifieke **[!UICONTROL Action]** in het keuzemenu.
+
+1. Als u slechts één of veelvoudige terugkomende berichten wilt richten, selecteer het van **[!UICONTROL Execution time]** vervolgkeuzelijst.
+
+   ![](assets/report_modify_12.png)
 
 1. Kies of u testgebeurtenissen wilt uitsluiten van uw rapporten met de schakelbalk. Raadpleeg voor meer informatie over testgebeurtenissen [deze pagina](../building-journeys/testing-the-journey.md).
 
