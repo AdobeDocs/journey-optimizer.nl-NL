@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1704'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in 
 
 ### Aangepaste acties {#custom-actions-g}
 
-* Voor alle aangepaste handelingen wordt een begrenzingslimiet van 150.000 aanroepen over 30 seconden gedefinieerd. Deze grens is geplaatst gebaseerd op klantengebruik, om externe eindpunten te beschermen die door douaneacties worden gericht. U moet hiermee rekening houden bij reizen voor uw publiek door een juiste leessnelheid te definiëren (5000 profielen/s wanneer aangepaste handelingen worden gebruikt). Indien nodig, kunt u deze het plaatsen met voeten treden door een grotere het maximum van het maximum of het vertragen grens door onze Capping/het Draaien APIs te bepalen. Zie [deze pagina](../configuration/external-systems.md).
+* Voor alle aangepaste handelingen, per host en per sandbox wordt een limiet van 300.000 aanroepen per minuut gedefinieerd. Zie [deze pagina](../building-journeys/about-journey-activities.md#action-activities). Deze grens is geplaatst gebaseerd op klantengebruik, om externe eindpunten te beschermen die door douaneacties worden gericht. U moet hiermee rekening houden bij reizen voor uw publiek door een juiste leessnelheid te definiëren (5000 profielen/s wanneer aangepaste handelingen worden gebruikt). Indien nodig, kunt u deze het plaatsen met voeten treden door een grotere het maximum van het maximum of het vertragen grens door onze Capping/het Draaien APIs te bepalen. Zie [deze pagina](../configuration/external-systems.md).
 * De URL van de aangepaste handeling ondersteunt geen dynamische parameters.
 * Methoden voor POST, PUT en GET worden ondersteund
 * De naam van de queryparameter of -header mag niet beginnen met &quot;.&quot; of &quot;$&quot;

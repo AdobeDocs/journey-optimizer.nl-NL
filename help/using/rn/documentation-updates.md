@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d95bd86a731e7d410ca40986ca792956f4e4c596
+source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
 workflow-type: tm+mt
-source-wordcount: '4006'
-ht-degree: 14%
+source-wordcount: '4099'
+ht-degree: 13%
 
 ---
 
 # Documentatie-updates {#latest-updates}
 
 Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
+
+## November 2023 {#nov-2023}
+
+* De guardrail die alle douaneacties beperkt is veranderd van 150.000 vraag over 30 seconden aan 300.000 vraag over één minuut. Bovendien is het gebrek het maximum niet meer op elk eindpunt van toepassing. Het wordt nu uitgevoerd per host en per sandbox. Op een sandbox bijvoorbeeld als u twee eindpunten met dezelfde host hebt (bijvoorbeeld: `https://www.adobe.com/endpoint1` en `https://www.adobe.com/endpoint2`), wordt de aftopping toegepast op alle eindpunten onder de host adobe.com. De &quot;eindpunt1&quot;en &quot;eindpunt2&quot;zullen de zelfde het begrenzen configuratie delen en het hebben van één eindpunt bereikt de grens zal een effect op het andere eindpunt hebben. [Meer informatie](../action/about-custom-action-configuration.md)
 
 ## Oktober 2023 {#oct-2023}
 
