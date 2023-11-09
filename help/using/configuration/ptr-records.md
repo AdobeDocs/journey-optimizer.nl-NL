@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomein, PTR, records, DNS, domein, post
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
 >title="PTR-records van subdomeinen"
->abstract="Zodra een subdomein aan Adobe in Journey Optimizer wordt gedelegeerd, wordt een PTR- verslag automatisch gecreeerd en met dit subdomein geassocieerd."
+>abstract="Zodra het eerste subdomein aan Adobe in Journey Optimizer wordt gedelegeerd, worden PTR- verslagen automatisch gecreeerd."
 
 ## PTR-records {#about-ptr-records}
 
@@ -36,7 +36,7 @@ Met PTR verslagen, kunnen het ontvangen van postservers de authenticiteit van he
 
 ## De PTR-records van uw subdomeinen openen {#access-ptr-records}
 
-Eenmaal [een subdomein wordt gedelegeerd](delegate-subdomain.md) in Adobe Journey Optimizer wordt automatisch een PTR-record gemaakt en gekoppeld aan dit subdomein. U hebt toegang tot dit bestand via het dialoogvenster **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** -menu.
+Eenmaal [gedelegeerde](delegate-subdomain.md) uw eerste subdomein voor Adobe in [!DNL Journey Optimizer], worden PTR verslagen automatisch gecreeerd voor uw IPs. U hebt toegang tot deze **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** -menu.
 
 ![](assets/ptr-records.png)
 

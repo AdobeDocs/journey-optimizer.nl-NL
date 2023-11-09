@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
 source-wordcount: '1566'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Met [!DNL Journey Optimizer]kunt u kanaaloppervlakken instellen (d.w.z. voorinst
 
 >[!CAUTION]
 >
-> * U moet beschikken over de [Kanaaloppervlak beheren](../administration/high-low-permissions.md#manage-channel-surface) toestemming.
+> * U moet beschikken over de [Voorinstellingen voor berichten beheren](../administration/high-low-permissions.md#administration-permissions) toestemming.
 >
 > * U moet de opdracht [E-mailconfiguratie](../email/get-started-email-config.md), [Pushconfiguratie](../push/push-configuration.md) en [SMS-configuratie](../sms/sms-configuration.md) stappen voordat u kanaaloppervlakken maakt.
 
@@ -47,7 +47,7 @@ Zodra de kanaaloppervlakten zijn gevormd, zult u hen kunnen selecteren wanneer h
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
 >title="Instellingen voor kanaaloppervlak"
->abstract="Om acties zoals e-mails van een reis of een campagne te kunnen tot stand brengen, moet u eerst een kanaaloppervlakte creëren die alle technische montages bepaalt die voor uw berichten worden vereist. U moet over de machtiging Kanaaloppervlak beheren beschikken om kanaaloppervlakken te maken, bewerken en verwijderen."
+>abstract="Om acties zoals e-mails van een reis of een campagne te kunnen tot stand brengen, moet u eerst een kanaaloppervlakte creëren die alle technische montages bepaalt die voor uw berichten worden vereist. U moet beschikken over de machtiging Voorinstellingen voor berichten beheren om kanaaloppervlakken te maken, bewerken en verwijderen."
 
 Ga als volgt te werk om een kanaaloppervlak te maken:
 

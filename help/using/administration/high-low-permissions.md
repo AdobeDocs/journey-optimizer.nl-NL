@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: machtiging, hoog niveau, laag niveau, profiel, beheerconsole
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -288,20 +288,6 @@ Bijvoorbeeld de **[!DNL Journey administrator]** de rol wordt toegewezen aan **[
 
 ## Bron voor kanaalconfiguraties {#administration-permissions}
 
-* **[!DNL Manage channel surface]** Met machtiging op hoog niveau kunnen gebruikers kanaaloppervlakken maken, bewerken en verwijderen via kanalen op sandboxniveau.
-
-+++ Dit omvat de volgende laagniveaumachtigingen:
-
-   * specifiek voor Journey Optimizer:
-      * messages_presets.read
-      * messages_presets.write
-      * messages_presets.delete
-      * subdomeinen_delegatie.read
-      * IP_pools.read
-      * mobile_setting.read (vanuit Adobe Experience Platform Launch)
-
-+++
-
 * **[!DNL Manage IP pools]** Met machtiging op hoog niveau kunnen gebruikers de affiniteitsdefinitie maken, bewerken en verwijderen.
 
 +++ Dit omvat de volgende laagniveaumachtigingen:
@@ -341,7 +327,7 @@ Bijvoorbeeld de **[!DNL Journey administrator]** de rol wordt toegewezen aan **[
 
 +++
 
-* **[!DNL Manage messages presets]** Met machtiging op hoog niveau kunnen gebruikers inhoud van een brandmerk lezen, maken, bewerken en verwijderen.
+* **[!DNL Manage messages presets]** Met machtiging op hoog niveau kunnen gebruikers kanaaloppervlakken lezen, maken, bewerken en verwijderen op het niveau van de sandbox.
 
 +++ Dit omvat de volgende laagniveaumachtigingen:
 
@@ -353,7 +339,7 @@ Bijvoorbeeld de **[!DNL Journey administrator]** de rol wordt toegewezen aan **[
       * IP_pools.read
 
    * Specifieke gegevensverzameling:
-      * Mobile_setting.read
+      * Mobile_setting.read <!--(from Adobe Experience Platform Launch)-->
 
 +++
 
@@ -390,7 +376,7 @@ Bijvoorbeeld de **[!DNL Journey administrator]** de rol wordt toegewezen aan **[
 
 +++
 
-* **[!DNL Manage subdomains delegation]** Op hoog niveau kunnen gebruikers subdomeindelegaties (waaronder IP-pool) maken, bewerken en verwijderen.
+* **[!DNL Manage subdomains delegations]** Op hoog niveau kunnen gebruikers subdomeindelegaties (waaronder IP-pool) maken, bewerken en verwijderen.
 
 +++ Dit omvat de volgende laagniveaumachtigingen:
    * specifiek voor Journey Optimizer:
