@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomein, PTR, records, DNS, domein, post
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: d2d9913e41a183ef4a2cd41622ed67b0a559444f
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Eenmaal [gedelegeerde](delegate-subdomain.md) uw eerste subdomein voor Adobe in 
 
 ![](assets/ptr-records.png)
 
-In de lijst worden de PTR-records weergegeven die voor elk gedelegeerd subdomein zijn gegenereerd. Hierbij wordt de volgende syntaxis gebruikt:
+De lijst bevat de PTR-records die zijn gegenereerd met de onderstaande syntaxis:
 
 * &quot;r&quot; voor opnamen,
 * &quot;xx&quot; voor de twee laatste cijfers van het IP-adres,
