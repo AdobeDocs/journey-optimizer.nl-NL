@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: componenten, e-mailontwerper, editor, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 607dd050b4e340bf6ae80fec76be8a64f3962645
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -167,11 +167,17 @@ Gebruik de **[!UICONTROL Image]** om een afbeeldingsbestand van uw computer in t
 
    ![](assets/email_designer_image_content.png)
 
-1. Klikken **[!UICONTROL Browse]** om een afbeeldingsbestand te kiezen uit uw elementen.
+1. Van de **[!UICONTROL Settings]** tabblad, klikt u op **[!UICONTROL Browse]** om een afbeeldingsbestand te kiezen uit uw elementen of **[!UICONTROL Import media]** om een middel aan Assets Essentials te uploaden.
 
    Meer informatie over [!DNL Assets Essentials], zie [Adobe Experience Manager Assets Essentials-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
-1. Klik op de nieuw toegevoegde component en stel de afbeeldingseigenschappen in via het dialoogvenster **[!UICONTROL Settings]** tab:
+   >[!NOTE]
+   >
+   > Om ervoor te zorgen dat uw koppelingen actief blijven en om eventuele vervalproblemen te voorkomen, raden we u aan om Adobe-elementen te gebruiken in plaats van voor uw afbeeldingen een bron-URL te gebruiken.
+
+1. U kunt ook rechtstreeks in Adobe Stock zoeken met de **[!UICONTROL Find Adobe Stock photos]** -optie.
+
+1. Klik op de nieuw toegevoegde component en stel de afbeeldingseigenschappen in:
 
    * **[!UICONTROL Image title]** Hiermee kunt u een titel voor de afbeelding definiëren.
    * **[!UICONTROL Alt text]** Hiermee kunt u het bijschrift definiëren dat aan de afbeelding is gekoppeld. Dit komt overeen met het kenmerk alt HTML.
