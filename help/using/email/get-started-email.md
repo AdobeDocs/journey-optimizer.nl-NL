@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: e-mail, starten, maken, voorvertonen
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 10%
+source-wordcount: '158'
+ht-degree: 11%
 
 ---
 
@@ -27,19 +27,14 @@ Gebruiken [!DNL Journey Optimizer] om e-mailberichten naar uw klanten te verzend
 
 E-mailleveringen kunnen worden gemaakt:
 
-* In een **Reis**: zodra u een **[!UICONTROL Email]** en gedefinieerde basisinstellingen, kunt u de **[!UICONTROL Actions: Email]** in het rechterdeelvenster om de inhoud voor het bericht te maken.
+* In een **Reis**: zodra u een **[!UICONTROL Email]** en gedefinieerde basisinstellingen, kunt u de **[!UICONTROL Actions: Email]** in het rechterdeelvenster om de inhoud voor het bericht te maken. [Leer hoe u een reis maakt](../building-journeys/journey-gs.md)
 
-  Voor meer informatie over hoe te om uw reis te vormen, verwijs naar dit [page](../building-journeys/journey-gs.md).
-
-* In een **Campagne**: nadat u een campagne hebt gemaakt, selecteert u **[!UICONTROL Email]** als uw handeling en basisinstellingen definiëren.
-
-  Raadpleeg voor meer informatie over het configureren van uw campagne [page](../campaigns/create-campaign.md#configure).
+* In een **Campagne**: nadat u een campagne hebt gemaakt, selecteert u **[!UICONTROL Email]** als uw handeling en basisinstellingen definiëren. [Leer hoe u een campagne maakt](../campaigns/create-campaign.md#configure)
 
 
 >[!IMPORTANT]
 >
 >Als u voor het eerst een e-mailbericht maakt, controleert u of het e-mailkanaal is geconfigureerd. [Meer informatie](email-settings.md)
-
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

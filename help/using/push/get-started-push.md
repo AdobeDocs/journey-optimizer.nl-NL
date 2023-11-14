@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 2%
+source-wordcount: '321'
+ht-degree: 4%
 
 ---
 
@@ -27,13 +27,9 @@ Met pushberichten bereikt u op elk gewenst moment gebruikers van uw mobiele app,
 
 U kunt pushmeldingen maken:
 
-* In een **Reis**: Als u een pushactiviteit hebt toegevoegd aan uw reis en basisinstellingen hebt gedefinieerd, kunt u de opdracht **[!UICONTROL Actions: Push]** in het rechterdeelvenster om de inhoud voor pushmeldingen te maken.
+* In een **Reis**: Als u een pushactiviteit hebt toegevoegd aan uw reis en basisinstellingen hebt gedefinieerd, kunt u de opdracht **[!UICONTROL Actions: Push]** in het rechterdeelvenster om de inhoud voor pushmeldingen te maken. [Leer hoe u een reis maakt](../building-journeys/journey-gs.md)
 
-  Voor meer informatie over hoe te om uw reis te vormen, verwijs naar dit [page](../building-journeys/journey-gs.md).
-
-* In een **Campagne**: Nadat u een campagne hebt gemaakt, selecteert u pushmelding als uw handeling en definieert u de basisinstellingen.
-
-  Raadpleeg voor meer informatie over het configureren van uw campagne [page](../campaigns/create-campaign.md#configure).
+* In een **Campagne**: Nadat u een campagne hebt gemaakt, selecteert u pushmelding als uw handeling en definieert u de basisinstellingen. [Leer een campagne maken](../campaigns/create-campaign.md#configure)
 
 Gebruik de specifieke tabbladen om de instellingen voor pushmeldingen te definiëren voor **iOS** en **Android** besturingssystemen.
 

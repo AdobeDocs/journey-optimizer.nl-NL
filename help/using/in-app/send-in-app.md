@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 4%
+source-wordcount: '346'
+ht-degree: 3%
 
 ---
 
@@ -35,6 +35,14 @@ Volg onderstaande stappen om dit te doen:
 1. Scan de QR-code met het apparaat en voer de weergegeven pincode in.
 
 Het bericht in de app kan nu rechtstreeks op het apparaat worden geactiveerd, zodat u een voorbeeld van het bericht kunt bekijken en het op een echt apparaat kunt bekijken.
+
+## Voorvertonen met testprofielen {#simulate}
+
+Nadat u het bericht in de app hebt gedefinieerd, kunt u testprofielen gebruiken om het te bekijken. Als u gepersonaliseerde inhoud hebt ingevoegd, kunt u met behulp van testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
+
+Om dit te doen, klik **[!UICONTROL Simulate content]** Voeg vervolgens een testprofiel toe om uw bericht te controleren met behulp van de gegevens van het testprofiel.
+
+Gedetailleerde informatie over het selecteren van testprofielen en het weergeven van een voorvertoning van de inhoud is beschikbaar in het dialoogvenster [Inhoud beheren](../content-management/preview-test.md) sectie.
 
 ## Uw In-app-melding controleren en activeren{#in-app-review}
 
