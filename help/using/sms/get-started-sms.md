@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: b4f6acb294c7a62f87525f1a1a8500dd57cefd6e
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 16%
+source-wordcount: '157'
+ht-degree: 21%
 
 ---
 
@@ -21,13 +21,9 @@ Gebruiken [!DNL Journey Optimizer] om tekstberichten naar uw klanten op hun mobi
 
 De levering van SMS kan worden gecreeerd:
 
-* In een **Reis**: Als u eenmaal een SMS-activiteit hebt toegevoegd aan uw reis en basisinstellingen hebt gedefinieerd, kunt u de opdracht **[!UICONTROL Actions: SMS]** in het rechterdeelvenster om de inhoud voor het SMS-bericht te maken.
+* In een **Reis**: Als u eenmaal een SMS-activiteit hebt toegevoegd aan uw reis en basisinstellingen hebt gedefinieerd, kunt u de opdracht **[!UICONTROL Actions: SMS]** in het rechterdeelvenster om de inhoud voor het SMS-bericht te maken. [Leer hoe u een reis maakt](../building-journeys/journey-gs.md)
 
-  Voor meer informatie over hoe te om uw reis te vormen, verwijs naar dit [page](../building-journeys/journey-gs.md).
-
-* In een **Campagne**: Nadat u een campagne hebt gemaakt, selecteert u SMS als uw handeling en definieert u de basisinstellingen.
-
-  Raadpleeg voor meer informatie over het configureren van uw campagne [page](../campaigns/create-campaign.md#configure).
+* In een **Campagne**: Nadat u een campagne hebt gemaakt, selecteert u SMS als uw handeling en definieert u de basisinstellingen. [Leer een campagne maken](../campaigns/create-campaign.md#configure)
 
 
 >[!IMPORTANT]
