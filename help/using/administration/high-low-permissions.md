@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: machtiging, hoog niveau, laag niveau, profiel, beheerconsole
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -288,6 +288,17 @@ Bijvoorbeeld de **[!DNL Journey administrator]** de rol wordt toegewezen aan **[
 
 ## Bron voor kanaalconfiguraties {#administration-permissions}
 
+* **[!DNL Manage file routing]** de toestemming op hoog niveau staat gebruikers toe om dossier te creëren uit te geven en te schrappen dat configuraties verplettert.
+
++++ Dit omvat de volgende laagniveaumachtigingen:
+   * specifiek voor Journey Optimizer:
+
+      * file_routing.read
+      * file_routing.write
+      * file_routing.delete
+
++++
+
 * **[!DNL Manage IP pools]** Met machtiging op hoog niveau kunnen gebruikers de affiniteitsdefinitie maken, bewerken en verwijderen.
 
 +++ Dit omvat de volgende laagniveaumachtigingen:
@@ -399,13 +410,12 @@ Bijvoorbeeld de **[!DNL Journey administrator]** de rol wordt toegewezen aan **[
 
 +++
 
-* **[!DNL View PTR records]** De toestemming op hoog niveau staat gebruikers toe om PTR verslagen te bekijken die gebaseerd op subdomain zijn gevormd.
+* **[!DNL View file routing]** de toestemming op hoog niveau staat gebruikers toe om dossier te bekijken dat configuraties verplettert.
 
 +++ Dit omvat de volgende laagniveaumachtigingen:
    * specifiek voor Journey Optimizer:
 
-      * PTR_records.read
-      * subdomeinen_delegatie.read
+      * file_routing.read
 
 +++
 
@@ -434,6 +444,17 @@ Bijvoorbeeld de **[!DNL Journey administrator]** de rol wordt toegewezen aan **[
       * Mobile_setting.read
 
 +++
+
+* **[!DNL View PTR records]** De toestemming op hoog niveau staat gebruikers toe om PTR verslagen te bekijken die gebaseerd op subdomain zijn gevormd.
+
++++ Dit omvat de volgende laagniveaumachtigingen:
+   * specifiek voor Journey Optimizer:
+
+      * PTR_records.read
+      * subdomeinen_delegatie.read
+
++++
+
 <!--
 ### [!DNL View channel surface] permission {#view-channel-surface}
 
