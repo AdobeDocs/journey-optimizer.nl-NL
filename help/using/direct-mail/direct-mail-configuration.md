@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 00bd3a2fb35ef2c634ed631b358a5256f47c7e58
+source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Voordat u dit bestand kunt genereren, moet u het volgende maken:
 
 1. A [bestand dat configuratie verplettert](#file-routing-configuration) om de server op te geven waar het bestand wordt geëxporteerd en het bestand indien nodig te coderen.
 
-1. A [direct-mailoppervlak](#direct-mail-surface) dat het dossier zal van verwijzingen voorzien dat configuratie verplettert.
+   >[!CAUTION]
+   >
+   >Om een dossier te creëren dat configuratie verplettert, moet u hebben **[!DNL Manage file routing]** ingebouwde machtiging. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager).
 
->[!CAUTION]
->
->Als u geen dossier gevormd hebt dat optie verplettert, zult u geen direct-mailoppervlak kunnen tot stand brengen.
+1. A [direct-mailoppervlak](#direct-mail-surface) dat het dossier zal van verwijzingen voorzien dat configuratie verplettert. Als u geen dossier gevormd hebt dat optie verplettert, zult u geen direct-mailoppervlak kunnen tot stand brengen.
 
 ## Bestands-routering configureren {#file-routing-configuration}
 
