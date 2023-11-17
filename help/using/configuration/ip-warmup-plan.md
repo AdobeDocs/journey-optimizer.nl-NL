@@ -11,9 +11,9 @@ keywords: IP, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 2483f53982acc920676190c1bc7fef5abf3c2331
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1211'
 ht-degree: 1%
 
 ---
@@ -33,9 +33,43 @@ Wat u in deze documentatiehandleiding zult vinden:
 
 Nadat u een of meer [IP-opwarmingscampagnes](ip-warmup-campaign.md) met een specifieke toegelaten oppervlakte en de overeenkomstige toegelaten optie, kunt u beginnen tot uw IP warmup plan te leiden.
 
->[!CAUTION]
->
->Om tot IP warmup plannen toegang te hebben, tot stand te brengen, uit te geven en te schrappen, moet u hebben **[!UICONTROL Deliverability Consultant]** toestemming. <!--Learn more on managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+Om tot IP warmup plannen toegang te hebben, tot stand te brengen, uit te geven en te schrappen, moet u hebben **[!UICONTROL Deliverability Consultant]** rol of IP warmup plannen verwante toestemmingen.
+
++++Leer hoe te om de rol van de Adviseur van de Leverbaarheid of IP warmteopwarmingsplannen verwante toestemmingen toe te wijzen
+
+De bijbehorende machtiging toewijzen aan een specifieke **[!UICONTROL Role]**:
+
+1. Van de [!DNL Permissions] product, navigeer naar de **[!UICONTROL Roles]** en selecteert u de rol die u wilt bijwerken met het nieuwe **[!UICONTROL IP Warmup Configurations]** machtigingen.
+
+1. Van uw **[!UICONTROL Role]** dashboard, klik **[!UICONTROL Edit]**.
+
+   ![](assets/ip_permissions_1.png)
+
+1. Sleep de **[!UICONTROL IP Warmup Configurations]** bron om bevoegdheid toe te wijzen.
+
+1. Van de **[!UICONTROL IP Warmup Configurations]** bron drop-down, selecteer welke toestemmingen uw gebruiker wenst.
+
+   ![](assets/ip_permissions_2.png)
+
+1. Klik op **[!UICONTROL Save]**.
+
+De bijbehorende rol toewijzen aan een **[!UICONTROL User]**:
+
+1. Van de [!DNL Permissions] product, navigeer naar de **[!UICONTROL Roles]** en selecteert u de **[!UICONTROL Deliverability Consultant]** ingebouwde rol.
+
+1. Van uw **[!UICONTROL Role]** dashboard, toegang tot **[!UICONTROL Users]** tab.
+
+   ![](assets/ip_permissions_3.png)
+
+1. Klikken **[!UICONTROL Add user]** om de **[!UICONTROL Deliverability Consultant]** ingebouwde rol.
+
+   ![](assets/ip_permissions_4.png)
+
+1. Selecteer uw **[!UICONTROL User]** en klik op **[!UICONTROL Save]**.
+
+   ![](assets/ip_permissions_5.png)
+
++++
 
 ## Bereid het IP dossier van het warmlopingsplan voor {#prepare-file}
 
@@ -264,5 +298,9 @@ Om een IP warmup plan tot stand te brengen, volg de hieronder stappen.
 1. Klik op **[!UICONTROL Create]**. Alle fasen, looppas, kolommen en hun inhoud die in het dossier worden bepaald u uploadde automatisch worden getoond in [!DNL Journey Optimizer] interface.
 
    ![](assets/ip-warmup-plan-uploaded.png)
+
+   >[!NOTE]
+   >
+   >De **[!UICONTROL Targeted]** de kolom toont de som alle profielen die voor elke looppas worden gericht, betekenend alle profielen van elke domeingroepen die u, met inbegrip van de **Overige** kolom, indien aanwezig.
 
 U bent nu klaar om uw IP warmlopingsplan uit te voeren. [Meer informatie](ip-warmup-execution.md)

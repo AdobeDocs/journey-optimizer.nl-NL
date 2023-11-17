@@ -11,9 +11,9 @@ keywords: IP, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 43e13026b739e855ed82603531802e29af1ada18
+source-git-commit: 2483f53982acc920676190c1bc7fef5abf3c2331
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Elke fase bestaat uit verschillende uitvoeringen, waaraan u één campagne toewi
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_campaigns_excluded"
 >title="Campagnepubliek uitsluiten"
->abstract="Selecteer het publiek uit andere campagnes die u van de huidige fase wilt uitsluiten. Dit moet eerder gecontacteerde profielen van andere fasen of andere IP opwarmingsplannen verhinderen opnieuw worden gericht."
+>abstract="Selecteer campagnes om hun publiek uit te sluiten van de huidige fase. Dit moet eerder gecontacteerde profielen van andere fasen of andere IP opwarmingsplannen verhinderen opnieuw worden gericht."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_domains_excluded"
@@ -73,39 +73,59 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >* U moet een campagne selecteren die de zelfde oppervlakte gebruikt zoals die voor het huidige IP warmup plan wordt geselecteerd.
 
-1. In de **[!UICONTROL Profile exclusion]** kunt u zien dat de profielen van de vorige reeksen van die fase altijd worden uitgesloten. Als in Run #1 bijvoorbeeld een profiel in de eerste 4800 doelgroepen is opgenomen, zorgt het systeem er automatisch voor dat hetzelfde profiel de e-mail niet ontvangt in Run #2.
-
-1. Van de **[!UICONTROL Campaign audiences excluded]** selecteert u het campagnepubliek uit andere <!--executed/live?-->campagnes die u van de huidige fase wilt uitsluiten.
-
-   ![](assets/ip-warmup-plan-exclude-campaigns.png)
-
-   Tijdens het uitvoeren van Fase 1 moest u bijvoorbeeld [splitsen](#split-phase) om welke reden dan ook. Daarom kunt u de campagne uitsluiten die in Fase 1 wordt gebruikt, zodat de eerder gecontacteerde profielen van Fase 1 niet inbegrepen in Fase 2 zijn. U kunt campagnes van andere IP warmteopnameplannen ook uitsluiten.
-
-1. Van de **[!UICONTROL Domain groups excluded]** selecteert u de domeinen die u van die fase wilt uitsluiten.
+1. Wanneer een campagne voor de huidige fase is geselecteerd, worden de secties voor het uitsluiten van profielen, campagnepubliek en domeingroepen weergegeven.
 
    >[!NOTE]
    >
-   >Domeinuitsluiting vereist een niet-uitgevoerde fase, zodat u mogelijk [een actieve fase splitsen](#split-phase) uitsluitingen toevoegen.
+   >Nadat een run is geactiveerd, kunnen de uitsluitingen niet meer worden gewijzigd, tenzij u [de uitvoering splitsen](#split-phase) naar een nieuwe fase.
 
-   ![](assets/ip-warmup-plan-exclude-domains.png)
+   1. In de **[!UICONTROL Profile exclusion]** kunt u zien dat de profielen van de vorige reeksen van die fase altijd worden uitgesloten. Als in Run #1 bijvoorbeeld een profiel in de eerste 4800 doelgroepen is opgenomen, zorgt het systeem er automatisch voor dat hetzelfde profiel de e-mail niet ontvangt in Run #2.
 
-   Bijvoorbeeld, na het runnen van IP warmte voor sommige dagen, realiseert u dat uw ISP reputatie met een domein (bijvoorbeeld, Adobe) niet goed is en u wenst om het op te lossen zonder uw IP warmup plan tegen te houden. In dat geval kunt u de Adobe-domeingroep uitsluiten.
+      >[!NOTE]
+      >
+      >Deze sectie kan niet worden bewerkt.
+
+   1. Van de **[!UICONTROL Campaign audiences excluded]** selecteert u de campagnes die u wilt uitsluiten van de huidige fase.
+
+      ![](assets/ip-warmup-plan-exclude-campaigns.png)
+
+      Tijdens het uitvoeren van Fase 1 moest u bijvoorbeeld [splitsen](#split-phase) om welke reden dan ook. Daarom kunt u de campagne uitsluiten die in Fase 1 wordt gebruikt, zodat de eerder gecontacteerde profielen van Fase 1 niet inbegrepen in Fase 2 zijn. U kunt campagnes van andere IP warmteopnameplannen ook uitsluiten.
+
+   1. Van de **[!UICONTROL Domain groups excluded]** selecteert u de domeinen die u van die fase wilt uitsluiten.
+
+      >[!NOTE]
+      >
+      >Domeinuitsluiting vereist een niet-uitgevoerde fase, zodat u mogelijk [een actieve fase splitsen](#split-phase) uitsluitingen toevoegen.
+
+      ![](assets/ip-warmup-plan-exclude-domains.png)
+
+      Bijvoorbeeld, na het runnen van IP warmte voor sommige dagen, realiseert u dat uw ISP reputatie met een domein (bijvoorbeeld, Adobe) niet goed is en u wenst om het op te lossen zonder uw IP warmup plan tegen te houden. In dat geval kunt u de Adobe-domeingroep uitsluiten.
+
+      >[!NOTE]
+      >
+      >U kunt alleen een domeingroep uitsluiten (standaard of aangepast) die is toegevoegd aan het dialoogvenster [Sjabloon voor IP-opwarmingsplan](ip-warmup-plan.md#prepare-file). Als dit niet het geval is, werk het malplaatje met de domeingroep bij u wilt uitsluiten en [uploaden van het abonnement](#re-upload-plan).
+
+1. Indien nodig kunt u de campagne vervangen door **[!UICONTROL Replace campaign]** knop.
+
+   ![](assets/ip-warmup-plan-replace-campaign.png)
 
    >[!NOTE]
    >
-   >Als het domein geen uit-van-de-doos domeingroep is, moet u met uw leverbaarheidsadviseur werken om dit domein aan toe te voegen [IP het dossier van het opwarmingsplan](ip-warmup-plan.md#prepare-file) en [uploaden](#re-upload-plan) om dat domein uit te sluiten.
+   >Deze handeling is alleen mogelijk voordat de eerste uitvoering van de fase wordt geactiveerd. Nadat een run is geactiveerd, kan de campagne niet worden vervangen, tenzij u [de uitvoering splitsen](#split-phase) naar een nieuwe fase.
 
 1. U kunt desgewenst een fase toevoegen. Het zal na de laatste huidige fase worden toegevoegd.
 
    ![](assets/ip-warmup-plan-add-phase.png)
 
-1. Gebruik de **[!UICONTROL Delete phase]** om ongewenste fase te verwijderen.
-
-   ![](assets/ip-warmup-plan-delete-phase.png)
+1. Gebruik de **[!UICONTROL Delete phase]** om ongewenste fase te verwijderen. Deze actie is alleen beschikbaar als er geen uitvoering wordt uitgevoerd in een fase. <!--Once a run is executed, deletion is not allowed.-->
 
    >[!CAUTION]
    >
    >U kunt de opdracht **[!UICONTROL Delete]** handeling.
+
+   ![](assets/ip-warmup-plan-delete-phase.png)
+
+   >[!NOTE]
    >
    >Als u alle fasen van het IP warmlopingsplan schrapt, wordt het geadviseerd om een plan opnieuw te uploaden. [Meer informatie](#re-upload-plan)
 
@@ -136,21 +156,25 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >title="De gekwalificeerde profielen weergeven"
 >abstract="In deze kolom wordt het aantal gekwalificeerde profielen weergegeven. Als het publiek voor een run is geëvalueerd en er meer doelprofielen zijn dan gekwalificeerde profielen, wordt de run nog steeds uitgevoerd, tenzij de **Pauzeren voor fouten** is ingeschakeld. In dit geval wordt de uitvoering geannuleerd."
 
-1. Selecteer een schema voor elke run.
+1. Selecteer een schema voor elke looppas om ervoor te zorgen het op de gespecificeerde tijd wordt uitgevoerd.
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Optioneel, kunt u een tijdvenster bepalen waarin de IP warmup campagne kan worden uitgevoerd voor het geval er om het even welke vertragingen in zijn [segmentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} taak. Als u dit wilt doen, klikt u op het pictogram Eigenschappen linksboven, naast de naam van het plan en gebruikt u de knop **[!UICONTROL Retry run time]** vervolgkeuzelijst voor het selecteren van een duur tot 240 minuten (4 uur).
+1. Naar keuze, kunt u een tijdvenster bepalen waarin de IP warmup campagne kan worden uitgevoerd in het geval dat er om het even welke vertragingen in zijn [publieksevaluatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. Als u dit wilt doen, klikt u op het pictogram Eigenschappen linksboven, naast de naam van het plan en gebruikt u de knop **[!UICONTROL Retry run time]** vervolgkeuzelijst voor het selecteren van een duur tot 240 minuten (4 uur).
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 
-   Als u bijvoorbeeld een verzendtijd instelt op een bepaalde dag om 9.00 uur en 120 minuten selecteert als de runtime voor opnieuw proberen, biedt dit een periode van 2 uur (9.00 - 11.00 uur) voor de segmentatietaak die moet worden uitgevoerd.
+   Als u bijvoorbeeld een verzendtijd instelt op een bepaalde dag om 9.00 uur en 120 minuten selecteert als de runtime voor opnieuw proberen, is het mogelijk dat de runtime wordt uitgevoerd met een periode van 2 uur (9.00 - 11.00 uur) voor onverwachte vertragingen in de publieksevaluatie.
 
    >[!NOTE]
    >
-   >Als geen tijdvenster wordt gespecificeerd, wordt de looppas geprobeerd bij verzendtijd en zal ontbreken als de segmentatietaak niet wordt voltooid.
+   >Als geen tijdvenster wordt gespecificeerd, wordt de looppas geprobeerd bij verzendt tijd en zal ontbreken als de publieksevaluatie niet wordt voltooid.
 
 1. Selecteer indien nodig **[!UICONTROL Edit run]** in het pictogram Meer handelingen. Daar kunt u de aantallen adressen in elke kolom bijwerken. U kunt ook de **[!UICONTROL Last engagement]** in het veld alleen te gebruiken voor de gebruikers die bijvoorbeeld de afgelopen 20 dagen met uw merk hebben gewerkt.
+
+   >[!NOTE]
+   >
+   >U wordt aangeraden deze nummers aan te passen in overleg met uw leverancier.
 
    ![](assets/ip-warmup-plan-edit-run.png)
 
@@ -158,15 +182,19 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Als u geen periode van de overeenkomst op een looppas wilt toepassen, ga 0 in **[!UICONTROL Last engagement]** veld.
 
-1. Selecteer de **[!UICONTROL Pause for errors]** als de gekwalificeerde profielen kleiner zijn dan de doelprofielen, kunt u een uitvoering annuleren nadat het publiek voor die uitvoering is geëvalueerd.
+1. Selecteer de **[!UICONTROL Pause for errors]** als de gekwalificeerde profielen kleiner zijn dan de doelprofielen, kunt u een uitvoering annuleren nadat het publiek voor die uitvoering is geëvalueerd. In dat geval neemt de run de **[!UICONTROL Failed]** status.
 
    ![](assets/ip-warmup-plan-pause.png)
 
 1. **[!UICONTROL Activate]** de run. [Meer informatie](#activate-run)
 
-1. De status van deze uitvoering verandert in **[!UICONTROL Live]**. De verschillende uitvoerstatussen worden vermeld in [deze sectie](#monitor-plan).
+1. De status van deze uitvoering verandert in **[!UICONTROL Live]**, wat betekent dat het systeem het verzoek om de uitvoering te plannen heeft geaccepteerd.
 
-1. Als de uitvoering van de campagne niet is gestart, kunt u een live run stoppen.<!--why?-->
+   >[!NOTE]
+   >
+   >De verschillende uitvoerstatussen worden vermeld in [deze sectie](#monitor-plan).
+
+1. Als de uitvoering van de campagne niet is gestart, kunt u een live run stoppen. Deze handelingsactiviteit annuleert het runtime programma - het stopt niet het verzenden.
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
@@ -178,35 +206,91 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-run-more-actions.png)
 
-## Een uitvoering activeren {#activate-run}
+## Runnen activeren {#activate-run}
 
-Selecteer de optie **[!UICONTROL Activate]** knop.
+Selecteer de optie **[!UICONTROL Activate]** knop. Dan kunt u de volgende looppas op een dagelijkse basis activeren.
 
-Zorg ervoor dat u voldoende tijd hebt gepland om de [segmentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} uit te voeren taak.
+Zorg ervoor dat u voldoende tijd hebt gepland om de [publieksevaluatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} uit te voeren.
 
 ![](assets/ip-warmup-plan-activate.png)
 
 >[!CAUTION]
 >
->Elke run moet ten minste 12 uur voor de werkelijke verzendtijd worden geactiveerd. Anders kan de segmentatie niet worden voltooid.
+>Elke run moet ten minste 12 uur voor de werkelijke verzendtijd worden geactiveerd. Anders is het mogelijk dat de publieksevaluatie niet is voltooid.
 
 Wanneer u een run activeert, worden automatisch meerdere soorten publiek gemaakt.
 
 * Indien de eerste uitvoering van een fase wordt geactiveerd:
 
-   * A [segment](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"} wordt gemaakt voor het (eventuele) uitgesloten campagnepubliek.
-   * Een ander segment wordt gecreeerd voor de (als om het even welk) uitgesloten domeingroepen.
+   * An [publiek](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"} wordt gemaakt voor het (eventuele) uitgesloten campagnepubliek, met de volgende naamgevingsconventie: `<warmupName>_Phase<phaseNo>-Audience Exclusion`.
+
+   * Er wordt een ander publiek gemaakt voor de (eventuele) uitgesloten domeingroepen, met de volgende naamgevingsconventie: `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
+
+  >[!NOTE]
+  >
+  >Het publiek wordt opgeschoond nadat het warmtekrachtplan als voltooid is gemarkeerd.
+  >
+  >Het systeem leidt niet tot een nieuw publiek voor het geval dat er geen verandering in de uitgesloten campagnedoelgroepen of domeingroepen voor verdere fasen is.
 
 * Bij het activeren van een uitvoering:
 
-   * Er wordt een ander segment gemaakt voor het laatste betrokkenheidsfilter.
-   * An [publiekscompositie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html){target="_blank"} wordt gemaakt voor het publiek waarnaar de campagne wordt verzonden.
+   * Er wordt een ander publiek gemaakt voor het laatste betrokkenheidsfilter, met de volgende naamgevingsconventie: `<warmupName>_Phase<phaseNo>_Run<runNo>-Engagement Filter`.
+
+     >[!NOTE]
+     >
+     >Het publiek wordt opgeruimd nadat het opwarmingsplan is voltooid.
+     >
+     >Het systeem maakt geen nieuw publiek voor het geval er geen wijziging optreedt in het laatste betrokkenheidsfilter voor volgende fasen.
+
+   * An [publiekscompositie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html){target="_blank"} wordt gemaakt voor het publiek waarnaar de campagne wordt verzonden, met de volgende naamgevingsconventie: `<warmupName>-Phase<phaseNo>-Run<runNo>`.
+
+     >[!NOTE]
+     >
+     >Voor elke run wordt een nieuwe publiekscompositie gemaakt.
+     >
+     >De publiekssamenstelling (en vandaar het outputpubliek) wordt schoongemaakt wanneer de volgende herhaling wordt geactiveerd.
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
 <!--Sart to execute on every day basis by simply clicking the play button > for each run? do you have to come back every day to activate each run? or can you schedule them one after the other?)-->
 
 <!--Upon activation, when the segment evaluation happens, more segments will be created by the IP warmup service and will be leveraged in an audience composition and a new audience will be created for each run splitted into the different selected domains.-->
+
+## Het abonnement controleren {#monitor-plan}
+
+Om uw IP warmup plan met succes uit te voeren, moet u de rapporten controleren, looppas activeren en hun status op een dagelijkse basis controleren.
+
+### De sectie Hooglichten gebruiken {#highlights}
+
+Als de eerste uitvoering voor een fase is geactiveerd, wordt de **[!UICONTROL Highlights]** wordt weergegeven.
+
+Het biedt een snel overzicht van de huidige runtime en de komende run. Vanuit deze sectie kunt u ook de volgende uitvoering bewerken en activeren.
+
+![](assets/ip-warmup-plan-highlights.png)
+
+### De status van uitvoering controleren {#run-statuses}
+
+Het IP warmup plan zelf dient als geconsolideerd rapport op één enkele plaats. U kunt elementen controleren zoals het aantal **[!UICONTROL Live]** of **[!UICONTROL Completed]** looppas voor elke fase, en mening hoe uw IP warmup plan vordert.
+
+>[!NOTE]
+>
+>Als beste praktijken, wordt het geadviseerd om uw IP opwarmingsplan op een dagelijkse basis te controleren.
+
+Een run kan de volgende statussen hebben:
+
+* **[!UICONTROL Draft]** : telkens wanneer een run wordt gemaakt, wanneer [het opstellen van een nieuw plan](ip-warmup-plan.md) of [toevoegen, run](#define-runs) vanuit de gebruikersinterface **[!UICONTROL Draft]** status.
+* **[!UICONTROL Live]**: wanneer u een run activeert, neemt deze de **[!UICONTROL Live]** status. Het betekent dat het systeem het verzoek om de runtime te plannen heeft aanvaard - niet dat het verzenden is begonnen.
+* **[!UICONTROL Completed]**: de uitvoering van de campagne voor deze run is voltooid. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
+* **[!UICONTROL Cancelled]**: a **[!UICONTROL Live]** uitvoering is geannuleerd met de opdracht **[!UICONTROL Stop]** of u hebt de **[!UICONTROL Pause for errors]** en er is een fout opgetreden. [Meer informatie](#define-runs)
+* **[!UICONTROL Failed]**: er is een fout aangetroffen door het systeem of de campagne die voor de huidige fase is gebruikt, is gestopt. Als een run mislukt, kunt u een andere run plannen voor de volgende dag.
+
+### Rapporten gebruiken {#reports}
+
+Meer in het algemeen, om het effect van uw plan te meten, kunt u de prestaties van uw IP warmup campagnes controleren gebruikend [!DNL Journey Optimizer] campagneverslagen. Om dit te doen, voor elke voltooide looppas kunt u klikken **[!UICONTROL View reports]** knop. Meer informatie over de campagne-e-mail [live-rapport](../reports/campaign-live-report.md#email-live) en [algemeen rapport](../reports/campaign-global-report.md#email-global).
+
+![](assets/ip-warmup-plan-reports.png)
+
+U kunt de rapporten ook openen via het dialoogvenster [Het menu Campagnes](../campaigns/modify-stop-campaign.md#access) omdat uw plan verschillende campagnes zou kunnen gebruiken.
 
 ## Uw abonnement beheren {#manage-plan}
 
@@ -234,18 +318,6 @@ You don't have to decide the campaign upfront. You can do a split later. It's a 
 But need to explain in which case you want to modify campaigns, provide examples
 -->
 
-### Een abonnement markeren als voltooid {#mark-as-completed}
-
-Als uw plan niet goed genoeg presteert of als u het wilt laten vallen om een andere te creëren, kunt u het merken zoals voltooid.
-
-Klik hiertoe op de knop **[!UICONTROL More]** knoop op hoogste recht van het IP warmup plan en selecteer **[!UICONTROL Mark as completed]**.
-
-![](assets/ip-warmup-plan-mark-completed.png)
-
-Deze optie is alleen beschikbaar als alle runnen in het abonnement zijn opgenomen **[!UICONTROL Completed]** of **[!UICONTROL Draft]** status. Als een run **[!UICONTROL Live]**, wordt de optie grijs weergegeven.
-
-De verschillende uitvoerstatussen worden vermeld in [deze sectie](#monitor-plan).
-
 ### Upload een IP warmup plan opnieuw {#re-upload-plan}
 
 Als uw IP warmup plan niet zoals verwacht uitvoert (bijvoorbeeld, als u opmerkt dat sommige ISPs uw berichten als spam) merkt, kunt u uw leverbaarheidsdeskundige vragen om opstelling een ander IP dossier van het warmup plan en herupload het gebruikend de overeenkomstige knoop.
@@ -270,18 +342,15 @@ Laten we een voorbeeld nemen:
 
 * De resterende 5 looppas (die in ontwerpstaat zijn) wordt verplaatst naar een nieuwe fase (Fase 3) die volgens het onlangs geüploade plan verschijnt.
 
-## Het abonnement controleren {#monitor-plan}
+### Een abonnement markeren als voltooid {#mark-as-completed}
 
-Om het effect van uw plan te meten, kunt u de prestaties van uw IP warmup campagnes controleren gebruikend [!DNL Journey Optimizer] campagneverslagen. Om dit te doen, voor elke voltooide looppas kunt u klikken **[!UICONTROL View reports]** knop. Meer informatie over de campagne-e-mail [live-rapport](../reports/campaign-live-report.md#email-live) en [algemeen rapport](../reports/campaign-global-report.md##email-global).
+Als uw plan niet goed genoeg presteert of als u het wilt laten vallen om een andere te creëren, kunt u het merken zoals voltooid.
 
-![](assets/ip-warmup-plan-reports.png)
+Klik hiertoe op de knop **[!UICONTROL More]** knoop op hoogste recht van het IP warmup plan en selecteer **[!UICONTROL Mark as completed]**.
 
-Het opwarmingsplan van het IP zelf dient ook als een geconsolideerd rapport op één enkele plaats. U kunt elementen controleren zoals het aantal **[!UICONTROL Live]** of **[!UICONTROL Completed]** looppas voor elke fase, en mening hoe uw IP warmup plan vordert.
+![](assets/ip-warmup-plan-mark-completed.png)
 
-Een run kan de volgende statussen hebben:
+Deze optie is alleen beschikbaar als alle runnen in het abonnement zijn opgenomen **[!UICONTROL Completed]** of **[!UICONTROL Draft]** status. Als een run **[!UICONTROL Live]**, wordt de optie grijs weergegeven.
 
-* **[!UICONTROL Draft]** : telkens wanneer een run wordt gemaakt, wanneer [het opstellen van een nieuw plan](ip-warmup-plan.md) of [toevoegen, run](#define-runs) vanuit de gebruikersinterface **[!UICONTROL Draft]** status.
-* **[!UICONTROL Live]**: wanneer u een run activeert, neemt deze de **[!UICONTROL Live]** status.
-* **[!UICONTROL Completed]**: de uitvoering van de campagne voor deze run is voltooid. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
-* **[!UICONTROL Cancelled]**: a **[!UICONTROL Live]** uitvoering is geannuleerd met de opdracht **[!UICONTROL Stop]** of u hebt de **[!UICONTROL Pause for errors]** en er is een fout opgetreden. [Meer informatie](#define-runs)
-* **[!UICONTROL Failed]**: er is een fout aangetroffen door het systeem of de campagne die voor de huidige fase is gebruikt, is gestopt. Als een run mislukt, kunt u een andere run plannen voor de volgende dag.
+De verschillende uitvoerstatussen worden vermeld in [deze sectie](#monitor-plan).
+
