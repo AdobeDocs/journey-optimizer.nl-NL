@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: e0f7eca8b3313cb5eb8e201c567622ded20a82d2
+source-git-commit: 1d7e8fde57d0397891aecad4979b1008a3c10a47
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1726'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,11 @@ Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in 
 * Mediabestanden voor MMS kunnen via een ondersteunde URL worden opgenomen. Controleer of het mediabestand afzonderlijk is geüpload.
 * Berichtfeedback synchroniseren is momenteel niet beschikbaar voor MMS.
 * Het beheer van de toestemming werkt op het kanaalniveau van SMS voor MMS.
+
+## Fragmenten, ardraals {#fragments-guardrails}
+
+* Visuele fragmenten zijn alleen beschikbaar voor het e-mailkanaal.
+* Expressiefragmenten zijn niet beschikbaar voor het web en in-app kanalen.
 
 ## Reisgeleiders {#journeys-guardrails}
 
