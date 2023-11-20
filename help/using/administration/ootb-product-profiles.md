@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: machtigingen, schrijven, berichten
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 8db5ae5b3cbef245dfe7cd11a95355c072bc3ef8
+source-git-commit: 1cfe9f6cb6e7c3e9a5d9b808c10ae4dfe77a92a2
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1156'
 ht-degree: 5%
 
 ---
@@ -142,6 +142,6 @@ Deze rol omvat de volgende toestemmingen:
 
 | Capaciteit | Toestemmingen |
 |-|-|
-| Journey Optimizer Library | <ul><li>**[!DNL Manage library items]**: Journey Optimizer-bibliotheekitems lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage simulate content]**: toegang tot de **[!UICONTROL Simulate content]** voor voorvertoning en proefdruk.</li></ul> |
+| Journey Optimizer Library | <ul><li>**[!DNL Manage library items]**: lees, maak, bewerk en verwijder Journey Optimizer Library-items, inclusief inhoudssjablonen en fragmenten.</li><li>**[!DNL Manage simulate content]**: toegang tot de **[!UICONTROL Simulate content]** voor voorvertoning en proefdruk.</li></ul> |
 | Beslissingsbeheer | <ul><li>**[!DNL Manage decisions]**: lees, maak, bewerk en verwijder beslissingsentiteiten.</li><li>**[!DNL Manage ranking strategies]**: lees-, maak-, bewerk- en verwijder aangepaste rapporten en gebruik actiefuncties.</li></ul> |
 | Adobe Experience Platform | <ul><li> **[!DNL Manage segments]**: segmentdefinities lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage profiles]**: profielen lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Read datasets]**: alleen-lezen toegang tot gegevenssets.</li><li>**[!DNL Read schemas]**: alleen-lezen toegang tot schema&#39;s.</li><li>**[!DNL Manage merge policies]**: beleid voor samenvoegen lezen, maken, bewerken en verwijderen.</li></ul> |
