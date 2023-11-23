@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomein, optimaliseren, delegeren
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
+source-git-commit: 636c86d91d349104388849bbfc4e18bbbe2e4093
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '908'
 ht-degree: 25%
 
 ---
@@ -44,6 +44,10 @@ Hoewel deze vereisten worden beheerd via componenten die door zowel de Adobe als
 * Leer hoe u [delegeren van subdomeinen](delegate-subdomain.md) rechtstreeks vanuit de interface
 * Leer hoe u [Google TXT-records toevoegen](google-txt.md) naar uw subdomeinen om ervoor te zorgen dat e-mails naar Gmail-adressen succesvol worden verzonden
 * Leer hoe u [toegang tot de PTR-records](ptr-records.md) gegenereerd voor uw subdomeinen, zodat deze kunnen worden geverifieerd door e-mailservers te verzenden
+
+>[!NOTE]
+>
+>Als u DMARC voor uw subdomeinen wilt implementeren, neemt u contact op met [Klantenservice Adoben](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 ## Methoden voor subdomeinconfiguratie {#subdomain-delegation-methods}
 
