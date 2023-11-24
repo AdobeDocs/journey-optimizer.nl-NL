@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: de7c09fd5dcba80f23d136c067c2527fc4ec5f2e
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Daarom moet u de volgende gebeurtenissen vermijden om de segmentatie optimaal te
 
 * **Bericht verzonden** Feedbackstatus, gebeurtenis
 
-  De **Bericht verzonden** feedbackgebeurtenis wordt vaak gebruikt voor frequentie- of suppressiecontroles voordat een e-mail wordt verzonden. Adobe raadt aan dit indien mogelijk te vermijden, aangezien er ruimte over is in de huidige totale capaciteit van het aantal gebeurtenissen dat per seconde kan worden gestreamd.
+  De **Bericht verzonden** feedbackgebeurtenis wordt vaak gebruikt voor frequentie- of suppressiecontroles voordat een e-mail wordt verzonden. Adobe beveelt aan dit te vermijden omdat dit de prestaties onder druk zet en het systeem kan aantasten.
 
   Daarom voor frequentie of suppression logica, gebruiks bedrijfsregels eerder dan **Bericht verzonden** feedbackgebeurtenissen. Merk op dat de dagelijkse frequentiecijfers voor individuele profielen binnenkort beschikbaar zullen zijn, als aanvulling op de bestaande maandelijkse wachttijden voor bedrijfsregels.
 
