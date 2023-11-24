@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: f64388673b5a3b2a8702026ce09b39e928ac2ab4
+source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '391'
+ht-degree: 4%
 
 ---
 
@@ -55,6 +55,10 @@ In dit voorbeeld bouwen we een publiek dat gericht is op alle klanten die in Atl
    * **Gebeurtenissen**: profielen die de toepassing Luma in de laatste 7 dagen hebben geopend en die vervolgens binnen 2 uur na het openen van de toepassing een aankoop hebben gedaan.
 
      ![](assets/add-events.png)
+
+     >[!NOTE]
+     >
+     >Adobe raadt u aan geen gebeurtenissen met streaming segmentatie te gebruiken en te verzenden. In plaats daarvan, gebruik echte user-activity signalen zoals kliks, aankopen, of baken gegevens. Voor frequentie of suppression logica, gebruik bedrijfsregels eerder dan verzendt gebeurtenissen. [Meer informatie](about-audiences.md#open-and-send-event-guardrails)
 
 1. Terwijl u nieuwe velden toevoegt en configureert in de werkruimte, worden de **[!UICONTROL Audience Properties]** wordt automatisch bijgewerkt met informatie over de geschatte profielen die bij het publiek horen.
 

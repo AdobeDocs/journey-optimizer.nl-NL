@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: kwalificatie, evenementen, publiek, reis, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 0%
+source-wordcount: '968'
+ht-degree: 1%
 
 ---
 
@@ -59,7 +59,7 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
    Als het publiek eenmaal is toegevoegd, wordt de opdracht **[!UICONTROL Copy]** kunt u de naam en de id kopiëren:
 
-   `{"name":"Loyalty membership“,”id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
+   `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/segment-copy.png)
 
@@ -107,7 +107,9 @@ Als het batchpubliek bovendien pas wordt gecreëerd en onmiddellijk wordt gebrui
 
 Wanneer het gebruiken van publiekskwalificatie voor gestroomd publiek, is er minder risico om grote pieken van ingangen/uitgangen te krijgen toe te schrijven aan de ononderbroken evaluatie van het publiek. Toch, als de publieksdefinitie ertoe leidt dat een groot volume van klanten tezelfdertijd kwalificeert, zou er ook een piekperiode kunnen zijn.
 
-Raadpleeg voor meer informatie over streamingsegmentatie [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api)
+Vermijd het gebruik van open en verzend gebeurtenissen met streaming segmentatie. In plaats daarvan, gebruik echte user-activity signalen zoals kliks, aankopen, of baken gegevens. Voor frequentie of suppression logica, gebruik bedrijfsregels eerder dan verzendt gebeurtenissen. [Meer informatie](../audience/about-audiences.md#open-and-send-event-guardrails)
+
+Raadpleeg voor meer informatie over streamingsegmentatie [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api).
 
 ### Overbelasting voorkomen{#overloads-speed-segment-qualification}
 
