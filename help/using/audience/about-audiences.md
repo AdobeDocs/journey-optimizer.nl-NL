@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: de7c09fd5dcba80f23d136c067c2527fc4ec5f2e
+source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 0%
@@ -51,7 +51,7 @@ U kunt het publiek benutten in **[!DNL Journey Optimizer]** op verschillende man
 
 * Gebruik de **Voorwaarde** activiteit op een reis om voorwaarden op te bouwen die op het lidmaatschap van het publiek worden gebaseerd. [Meer informatie over het gebruik van soorten publiek in omstandigheden](../building-journeys/condition-activity.md#using-a-segment).
 
-## Methoden voor de evaluatie van het publiek{#evaluation-method-in-journey-optimizer}
+## Methoden voor de evaluatie van het publiek {#evaluation-method-in-journey-optimizer}
 
 In Adobe Journey Optimizer wordt het publiek gegenereerd op basis van segmentdefinities aan de hand van een van de drie onderstaande evaluatiemethoden.
 
@@ -97,11 +97,11 @@ Nadat u een publiek voor het eerst hebt gedefinieerd, worden profielen toegevoeg
 
 Het ondersteunen van het publiek op basis van eerdere gegevens kan 24 uur in beslag nemen. Nadat het publiek is teruggevuld, wordt het publiek voortdurend bijgewerkt en is altijd klaar om zich te richten.
 
-### Gebeurtenisgebruik met streaming segmentatie {#open-and-send-event-guardrails}
+### Gebeurtenisgebruik met streaming segmentatie {#streaming-segmentation-events-guardrails}
 
 Streaming segmentatie is handig voor realtime personalisatie met gebruik van hoge waarden. Het is echter belangrijk dat u het recht kiest [gebeurtenissen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} als segmenteringscriteria te gebruiken.
 
-Daarom moet u de volgende gebeurtenissen vermijden om de segmentatie optimaal te laten verlopen:
+Voor het streamen van segmentatie zijn optimale prestaties dus beter geen gebruik te maken van de volgende gebeurtenissen:
 
 * **Bericht geopend** Interactietype, gebeurtenis
 

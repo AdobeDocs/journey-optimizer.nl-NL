@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b9630c922ff67b0a402af5f950ee4e5a442bb1b1
+source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
 workflow-type: tm+mt
-source-wordcount: '4116'
+source-wordcount: '4170'
 ht-degree: 13%
 
 ---
@@ -23,6 +23,8 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 * De guardrail die alle douaneacties beperkt is veranderd van 150.000 vraag over 30 seconden aan 300.000 vraag over één minuut. Bovendien is het gebrek het maximum niet meer op elk eindpunt van toepassing. Het wordt nu uitgevoerd per host en per sandbox. Op een sandbox bijvoorbeeld als u twee eindpunten met dezelfde host hebt (bijvoorbeeld: `https://www.adobe.com/endpoint1` en `https://www.adobe.com/endpoint2`), wordt de aftopping toegepast op alle eindpunten onder de host adobe.com. De &quot;eindpunt1&quot;en &quot;eindpunt2&quot;zullen de zelfde het begrenzen configuratie delen en het hebben van één eindpunt bereikt de grens zal een effect op het andere eindpunt hebben. [Meer informatie](../action/about-custom-action-configuration.md)
 * Er is een nieuwe status voor e-mailcampagnes toegevoegd aan de lijst met statussen van campagnes. [Meer informatie](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
+* De sectie Aan de slag met het publiek van Adobe Experience Platform is bijgewerkt met informatie over de beschikbare methoden voor publieksevaluatie en de manier waarop u deze kunt selecteren. [Meer informatie](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
+* Er is een nieuwe subsectie toegevoegd om op te geven welke gebeurtenissen moeten worden vermeden wanneer u een publiek maakt als u de evaluatiemethode voor streamingsegmentatie gebruikt. [Meer informatie](../audience/about-audiences.md#streaming-segmentation-events-guardrails)
 
 ## Oktober 2023 {#oct-2023}
 
