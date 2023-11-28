@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, bibliotheek, personalisatie
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Expressiefragmenten benutten {#use-expression-fragments}
 
-Wanneer u de expressie-editor gebruikt, kunt u alle uitdrukkingsfragmenten benutten die zijn gemaakt of opgeslagen in de huidige sandbox.
+Wanneer u de opdracht **Expression-editor**, kunt u alle expressiefragmenten benutten die zijn gemaakt of opgeslagen in de huidige sandbox.
 
 Leer hoe u fragmenten maakt en beheert in [deze sectie](../content-management/fragments.md).
 
