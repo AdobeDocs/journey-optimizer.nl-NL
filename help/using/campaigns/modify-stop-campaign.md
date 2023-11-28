@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: campagnes, status, planning, toegang, optimaliseren beheren
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: b9630c922ff67b0a402af5f950ee4e5a442bb1b1
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '563'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,7 @@ Campagnes kunnen meerdere statussen hebben:
 
 * **[!UICONTROL Draft]**: De campagne wordt bewerkt en is niet geactiveerd.
 * **[!UICONTROL Activating]**: De campagne wordt geactiveerd.
+* **[!UICONTROL Processing]** *(alleen e-mailcampagnes)*: De doelexport is voltooid, de campagne wordt gepubliceerd.
 * **[!UICONTROL Live]**: De campagne is geactiveerd.
 * **[!UICONTROL Scheduled]**: De campagne is geconfigureerd om te worden geactiveerd op een specifieke startdatum.
 * **[!UICONTROL Stopped]**: De campagne is handmatig gestopt. U kunt het niet meer activeren of opnieuw gebruiken. [Leer hoe u een campagne kunt stoppen](modify-stop-campaign.md#stop)
