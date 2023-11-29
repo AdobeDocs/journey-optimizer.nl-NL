@@ -11,9 +11,9 @@ keywords: IP, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 2483f53982acc920676190c1bc7fef5abf3c2331
+source-git-commit: ccee7f47301bf6ceb832b8586cccb30618e63955
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1488'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,7 @@ Hieronder is een voorbeeld van een dossier dat een IP warmlopingsplan bevat.
 
 ### Het lusje van het Plan van de Warmup {#ip-warmup-plan-tab}
 
-* In dit voorbeeld is een plan voorbereid dat zich over 17 dagen uitstrekt (genoemd &quot;**looppas**&quot;) om een streefvolume van meer dan een miljoen profielen te bereiken.
+* In dit voorbeeld is een plan voorbereid dat zich over 17 dagen uitstrekt (genoemd &quot;**looppas**&quot;) om een doelvolume van meer dan een miljoen profielen te bereiken.
 
 * Dit plan wordt uitgevoerd via zes **fasen**, die elk ten minste één run bevatten.
 
@@ -128,51 +128,48 @@ De uit-van-de-doos belangrijkste domeingroepen u aan uw plan kunt toevoegen zijn
 * La Poste
 * Apple
 
-<!--
-+++ Gmail
-gmail.com;gmail.fr;gmail.de;gmail.co.uk;gmail.it
++++ Gmail gmail.com;google.com;googlemail.com;googlemail.co.uk
 +++
 
 +++ Adobe
-adobe.com;adobe.fr;adobe.es
+
 +++
 
-+++WP
++++WP wp.pl;o2.pl
 +++
 
-+++Comcast
++++comcast.net
 +++
 
-+++Yahoo
++++Yahoo aol.fi;cs.com;yahoo.com.in;games.com;y7mail.com;yahoo.co.uk;yahoo.hu;yahoo.co.hu;yahoo.cn;yahoogroups.com.sg;yahoogroups.com.au;aol.es yahoo.com.au;yahoo.com.vn yahoo.ca;aol.co.nz;aolaolpol.pnoge.no;bahoo;bo;bco;bahoo;ba;yahoo.hr;aol.cz;yahoo.ee;aol.be;aolcom.tr;yahoo.si;aol.it;yahoo.es;yahoo.dk;yahoo.dk;yahoogroups.ca;document;aol.kr;yahoo.ie;ahoo;jp;yahoo o.lt;document;aol.nl;document;yahoo.bg;documen;aol.se;yahoo.de;aanbevelingen;document;yahoo.nl;document;aol.dk;document;aol.cl;document;yahoo.no;document;yahoo;cz;yahoo.sk;documenten;yahoo.de;yahoo.gr;document;yahoo.ro;document;yahoo.at;document;document;docum;aol.fr;yahoo.in;aol.in;yahoo.rs;yahoo.de;de;document;document;;document;yahoo.se;myahoo;se;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s aol.jp;document;yahoo.pt;document;yahoogrupper.dk;yahoo.fr;document;aol.pl;document;docum;aol.ch;yahoo.it;document;aolpolcka.pl;document;document;yagroppi.it;yahoo.cl;document;yahoo;cl;;document;document;document;yahoo.be;document;aol.tw;document;document;document;document;document;document;document;aol.ru;document;document;yahoo.lv;aolpolska.pl;aol.at;yahoo.pl
 +++
 
-+++Bigpond
++++Bigpond bigpond.com;bigpond.com.au;bigpond.net;telstra.com;bigpond.net.au
 +++
 
-+++Orange
++++Orange voila.com;francetelecom.com;orange.com;orange.fr;wanadoo.fr;voila.fr
 +++
 
-+++Softbank
++++++Softbank c.vodafone.ne.jp;jp-h.ne.jp;;jp-d.ne.jp;jp-c.ne.jp;t.vodafone.ne.jp;jp-t.ne.jp;jp-q.ne.jp;r.vodafone.ne.jp;s.vodafone.ne.jp;q.vodafone.ne.jp;jp-s.ne.jp;h.vodafone.ne.jp;b;b;b;k.vodafone.ne.jp;appa;append;appc;appt;appa
 +++
 
-+++Docomo
++++Docomo docomo.ne.jp
 +++
 
-+++United Internet
++++United Internet gmx.de;1and1.com;gmx.fr;mail.com;1und1.de;gmx.com;gmx.net;gmx.at;web.de;gmx.ch
 +++
 
-+++Microsoft
+++ Microsoft hotmail.com.tr;hotmail.chotmail.jp live.ru;live.nl;live.jp;windowslive.com;xbox.com;mail.fr;hotmail.chotmail.jp.cl;live.at;at;hk hotmail.com.au;hotmail.com;live.com.au;hotmail.co.kr;hotmail.co.th;outlook.com.br;hotmail;hotmail;hotmail;jp;live.outoutoutoutoutout.cl;live.htm;lik;hotmail.co.il;hk live.co.kr;live.co.uk;live.com.mx hotmail.co.uk;live.com.sg;msn.com;hotmail.co.jp;live.co.za;live.com.pt;outlook.com;live.com live.com.ar hotmail.com.br live.com.my;hotmail.com.ar;.;;;;;;;;live.cn;sancties;hotmail.es;live.fr;live.no;live.dk;hotmail.it;live.se;.se;olijf;be;live.in;hotmail.ch;fax;hotmail.ch;document;fax;hotmail.gr;live.it;hotmail.ca;support;fax;live.ca;hotmail.de
 +++
 
-+++KDDI
++++KDDI au.com;ezweb.ne.jp;uqmobile.jp
 +++
 
-+++Italia Online
++++Italia Online inwind.it;blu.it;virgilio.it;giallo.it;iol.it;libero.it
 +++
 
-+++La Poste
++++La Poste laposte.net
 +++
--->
 
 ### Tabblad Aangepaste domeingroep {#custom-domain-group-tab}
 
