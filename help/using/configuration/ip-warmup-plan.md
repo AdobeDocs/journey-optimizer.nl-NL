@@ -11,9 +11,9 @@ keywords: IP, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 8eeceb48882ab6198628ce09a5a52aa8d8da4f26
+source-git-commit: 94a3eb47d3b1cd8bafe146f65843acf8393fa69c
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1476'
 ht-degree: 1%
 
 ---
@@ -170,6 +170,9 @@ De uit-van-de-doos belangrijkste domeingroepen u aan uw plan kunt toevoegen zijn
 +++
 
 +++La Poste laposte.net
++++
+
++++Apple mac.com;icloud.com;apple.com;me.com
 +++
 
 ### Tabblad Aangepaste domeingroep {#custom-domain-group-tab}
