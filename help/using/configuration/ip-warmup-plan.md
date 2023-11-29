@@ -11,9 +11,9 @@ keywords: IP, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: ccee7f47301bf6ceb832b8586cccb30618e63955
+source-git-commit: 8eeceb48882ab6198628ce09a5a52aa8d8da4f26
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1471'
 ht-degree: 1%
 
 ---
@@ -112,13 +112,14 @@ Het idee moet het aantal gerichte adressen in elke looppas progressief verhogen,
 
 De uit-van-de-doos belangrijkste domeingroepen u aan uw plan kunt toevoegen zijn hieronder vermeld:
 
+<!--
 * Gmail
 * Adobe
 * WP
 * Comcast
 * Yahoo
-* Bigvijver
-* Oranje
+* Bigpond
+* Orange
 * Softbank
 * Docomo
 * United Internet
@@ -127,12 +128,12 @@ De uit-van-de-doos belangrijkste domeingroepen u aan uw plan kunt toevoegen zijn
 * Italia Online
 * La Poste
 * Apple
+-->
 
 +++ Gmail gmail.com;google.com;googlemail.com;googlemail.co.uk
 +++
 
-+++ Adobe
-
++++ Adobe adobe.com
 +++
 
 +++WP wp.pl;o2.pl
