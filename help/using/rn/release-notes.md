@@ -8,7 +8,7 @@ role: User
 level: Beginner, Intermediate
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '4526'
 ht-degree: 9%
@@ -254,7 +254,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Assets**
 
-* Met een nieuwe optie voor Middelen kunt u de repository voor uw Middelen in Journey Optimizer kiezen. U kunt kiezen voor een opslagplaats voor Assets Essentials of een as a Cloud Service opslagplaats voor middelen, op voorwaarde dat u eigenaar bent van deze oplossing. [Meer informatie](../content-management/assets-essentials.md)
+* Met een nieuwe optie voor Middelen kunt u de repository voor uw Middelen in Journey Optimizer kiezen. U kunt kiezen voor een opslagplaats voor Assets Essentials of een as a Cloud Service opslagplaats voor middelen, op voorwaarde dat u eigenaar bent van deze oplossing. [Meer informatie](../content-management/assets.md)
 
 <!--**Decision management**
 

@@ -7,7 +7,7 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Raadpleeg de volgende secties voor het instellen van uw eerste reis, het toevoeg
 
    ![](../assets/perso_ee2.png)
 
-1. **Elementen maken en beheren**. [!DNL Adobe Experience Manager Assets Essentials] biedt één gecentraliseerde opslagplaats voor elementen die u kunt gebruiken om uw berichten te vullen. Meer informatie [in deze sectie](../../content-management/assets-essentials.md).
+1. **Elementen maken en beheren**. [!DNL Adobe Experience Manager Assets] biedt één gecentraliseerde opslagplaats voor elementen die u kunt gebruiken om uw berichten te vullen. Meer informatie [in deze sectie](../../content-management/assets.md).
 
 1. **Aanbiedingen toevoegen**. Gebruiken [!DNL Journey Optimizer] om uw klanten de beste aanbieding en ervaring op alle aanraakpunten op het juiste moment te bieden. Als u ze eenmaal hebt ontworpen, richt u zich op uw publiek met persoonlijke aanbiedingen. Meer informatie over beslissingsbeheer [in deze sectie](../../offers/get-started/starting-offer-decisioning.md).
 

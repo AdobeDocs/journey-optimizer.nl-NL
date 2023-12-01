@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: voorraad, afbeeldingen, integratie, foto's
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '547'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Met [!DNL Adobe Journey Optimizer]kunt u afbeeldingen rechtstreeks vanaf [!DNL A
 
 De **[!UICONTROL Find Adobe Stock photos]** en **[!UICONTROL Find Similar Image]** -opties zijn beschikbaar voor gebruikers met toegang tot een AEM Assets Essentials Product Profile.
 
-Raadpleeg voor meer informatie hierover [Essentiële documentatie voor middelen](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
+Raadpleeg voor meer informatie hierover [Experience Manager Assets-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
 
 ## Een afbeelding invoegen vanuit [!DNL Adobe Stock] {#add-stock-image}
 
@@ -96,7 +96,7 @@ Voer de onderstaande stappen uit om een licentie te verkrijgen en uw afbeelding 
 
    ![](assets/stock_6.png)
 
-1. Selecteer in welke map u het element wilt opslaan. Voor meer informatie over [!DNL Assets Essentials], verwijzen naar [page](assets-essentials.md#get-started-assets-essentials).
+1. Selecteer in welke map u het element wilt opslaan. Voor meer informatie over [!DNL Experience Manager Assets], verwijzen naar [page](assets.md#get-started-assets).
 
 ## Verwante onderwerpen{#stock-related-topics}
 

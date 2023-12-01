@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 8%
@@ -58,9 +58,9 @@ In de Android-versie kunt u alleen een afbeeldingspictogram en een afbeelding to
 
 Er zijn twee opties beschikbaar. U kunt:
 
-* Gebruik de **[!UICONTROL Add media]** knop om een element te selecteren in **[!DNL Adobe Experience Manager Assets Essentials]**.
+* Gebruik de **[!UICONTROL Add media]** knop om een element te selecteren in **[!DNL Adobe Experience Manager Assets]**.
 
-  Leren gebruiken **[!DNL Adobe Experience Manager Assets Essentials]** in [deze pagina](../content-management/assets-essentials.md).
+  Leren gebruiken **[!DNL Adobe Experience Manager Assets]** in [deze pagina](../content-management/assets.md).
 
 * U kunt ook de URL van het medium invoeren in het dialoogvenster **[!UICONTROL Add media]** veld. In dat geval kunt u personalisatie toevoegen aan de URL.
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 5%
@@ -72,7 +72,7 @@ Maak voorstellen en componenten van deze sectie.
 
 Inhoud van deze sectie maken en beheren.
 
-* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets Essentials] is een gecentraliseerde opslagplaats van activa die u kunt gebruiken om uw berichten te bevolken. [Meer informatie](../content-management/assets-essentials.md)
+* **[!UICONTROL Assets]** - [!DNL Adobe Experience Manager Assets] is een gecentraliseerde opslagplaats van activa die u kunt gebruiken om uw berichten te bevolken. [Meer informatie](../content-management/assets.md)
 
 * **[!UICONTROL Content templates]** - Voor een versneld en verbeterd ontwerpproces maakt u zelfstandige sjablonen om aangepaste inhoud eenvoudig te hergebruiken in Journey Optimizer-campagnes en -reizen. [Meer informatie](../content-management/content-templates.md)
 

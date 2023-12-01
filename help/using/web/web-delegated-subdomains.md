@@ -8,9 +8,9 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, subdomeinen, configuratie
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -25,14 +25,14 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="Een websubdomein delegeren"
->abstract="Als u inhoud van de Adobe Experience Manager Assets Essentials toevoegt aan uw webervaringen, moet u het subdomein instellen dat wordt gebruikt om deze inhoud te publiceren. Selecteer een subdomein dat al is gedelegeerd aan de Adobe of configureer een nieuw subdomein."
+>abstract="Als u inhoud van de Adobe Experience Manager Assets toevoegt aan uw webervaringen, moet u het subdomein instellen dat wordt gebruikt om deze inhoud te publiceren. Selecteer een subdomein dat al is gedelegeerd aan de Adobe of configureer een nieuw subdomein."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
 >title="Een websubdomein instellen"
 >abstract="Selecteer een subdomein in de lijst met subdomeinen die zijn gedelegeerd aan de Adobe. U kunt dit websubdomein instellen als het standaardsubdomein, maar er kan slechts één standaardsubdomein tegelijk worden gebruikt."
 
-Als u tijdens het ontwerpen van een webversie inhoud toevoegt die afkomstig is van de [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) moet u het subdomein instellen dat wordt gebruikt om deze inhoud te publiceren.
+Als u tijdens het ontwerpen van een webversie inhoud toevoegt die afkomstig is van de [Adobe Experience Manager Assets](../content-management/assets.md) moet u het subdomein instellen dat wordt gebruikt om deze inhoud te publiceren.
 
 U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of u kunt een ander subdomein vormen. Meer informatie over het delegeren van subdomeinen naar Adobe in [deze sectie](../configuration/delegate-subdomain.md).
 
@@ -101,7 +101,7 @@ Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aa
 >[!CONTEXTUALHELP]
 >id="ajo_admin_web_subdomain_dns"
 >title="De overeenkomende DNS-record genereren"
->abstract="Om een nieuw Web subdomain te vormen, moet u de Adobe nameserverinformatie kopiëren die in de interface van Journey Optimizer wordt getoond en het kleven in uw domein-ontvangende oplossing om het passende DNS verslag te produceren. Wanneer de controles zijn voltooid, kan het subdomein worden gebruikt om inhoud te publiceren die afkomstig is uit de Experience Manager Assets Essentials-bibliotheek."
+>abstract="Om een nieuw Web subdomain te vormen, moet u de Adobe nameserverinformatie kopiëren die in de interface van Journey Optimizer wordt getoond en het kleven in uw domein-ontvangende oplossing om het passende DNS verslag te produceren. Als de controles zijn voltooid, kan het subdomein worden gebruikt om inhoud te publiceren die afkomstig is uit de Adobe Experience Manager Assets-bibliotheek."
 
 Volg onderstaande stappen om een nieuw subdomein te configureren.
 

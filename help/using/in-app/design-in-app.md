@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, bericht, ontwerp, opmaak
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 6%
@@ -104,7 +104,7 @@ De **[!UICONTROL Media]** kunt u media toevoegen aan uw In-app-bericht om een aa
 
 ![](assets/in_app_content_3.png)
 
-Typ uw media-URL of klik op de knop **[!UICONTROL Select Assets]** om elementen die in uw middelenbibliotheek zijn opgeslagen, rechtstreeks toe te voegen aan uw In-app-bericht. [Meer informatie over middelenbeheer](../content-management/assets-essentials.md).
+Typ uw media-URL of klik op de knop **[!UICONTROL Select Assets]** om elementen die in uw middelenbibliotheek zijn opgeslagen, rechtstreeks toe te voegen aan uw In-app-bericht. [Meer informatie over middelenbeheer](../content-management/assets.md).
 U kunt ook een **[!UICONTROL Alternative text]** voor toepassingen voor schermlezen.
 
 +++Meer opties met geavanceerde opmaak

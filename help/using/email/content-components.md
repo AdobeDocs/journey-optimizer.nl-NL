@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: componenten, e-mailontwerper, editor, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 607dd050b4e340bf6ae80fec76be8a64f3962645
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Gebruik de **[!UICONTROL Text]** om tekst in te voegen in uw e-mail, en de stijl
    * **Fontgrootte**: selecteer de tekengrootte van de tekst in pixels.
    * **[!UICONTROL Change font color]**: kies de kleur van het lettertype.
    * **[!UICONTROL Insert link]**: voeg om het even welk type van verbinding aan uw inhoud toe.
-   * **[!UICONTROL Edit image]**: voeg een afbeelding of een element toe aan uw tekstcomponent. [Meer informatie over middelenbeheer](../content-management/assets-essentials.md)
+   * **[!UICONTROL Edit image]**: voeg een afbeelding of een element toe aan uw tekstcomponent. [Meer informatie over middelenbeheer](../content-management/assets.md)
    * **[!UICONTROL Change font color]**: kies de kleur van het lettertype.
    * **[!UICONTROL Add personalization]**: voeg aanpassingsvelden toe om de inhoud van de profielgegevens aan te passen. [Meer informatie over content personalization](../personalization/personalize.md)
    * **[!UICONTROL Show the source code]**: geef de broncode van de tekst weer. Het kan niet worden gewijzigd.
@@ -167,9 +167,9 @@ Gebruik de **[!UICONTROL Image]** om een afbeeldingsbestand van uw computer in t
 
    ![](assets/email_designer_image_content.png)
 
-1. Van de **[!UICONTROL Settings]** tabblad, klikt u op **[!UICONTROL Browse]** om een afbeeldingsbestand te kiezen uit uw elementen of **[!UICONTROL Import media]** om een middel aan Assets Essentials te uploaden.
+1. Van de **[!UICONTROL Settings]** tabblad, klikt u op **[!UICONTROL Browse]** om een afbeeldingsbestand te kiezen uit uw elementen of **[!UICONTROL Import media]** om middelen te uploaden naar Adobe Experience Manager Assets.
 
-   Meer informatie over [!DNL Assets Essentials], zie [Adobe Experience Manager Assets Essentials-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
+   Meer informatie over [!DNL Adobe Experience Manager Assets], zie [Adobe Experience Manager Assets-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
    >[!NOTE]
    >

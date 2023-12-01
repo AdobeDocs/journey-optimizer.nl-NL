@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, ontwerp, voorraad, middelen
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '471'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ U kunt bestaande inhoud importeren in [!DNL Journey Optimizer] of mogelijkheden 
 
 * Gebruiken [!DNL Journey Optimizer] **e-mailontwerpmogelijkheden** om responsieve e-mails te ontwerpen of te importeren. [Meer informatie](content-from-scratch.md)
 
-* Hefboomwerking **Adobe Experience Manager Assets Essentials** om uw e-mails te verrijken, maakt en beheert u uw eigen database met middelen. [Meer informatie](../content-management/assets-essentials.md)
+* Hefboomwerking **Adobe Experience Manager Assets Essentials** om uw e-mails te verrijken, maakt en beheert u uw eigen database met middelen. [Meer informatie](../content-management/assets.md)
 
 * Zoeken **Adobe Stock-foto&#39;s** om uw inhoud samen te stellen en uw e-mailontwerp te verbeteren. [Meer informatie](../content-management/stock.md)
 
@@ -46,7 +46,7 @@ Als u eenmaal [een e-mail toevoegen](create-email.md) voor een reis of een campa
 
 1. Kies op de introductiepagina van E-mail Designer hoe u uw e-mail wilt ontwerpen uit de volgende opties:
 
-   * **Ontwerp uw e-mail helemaal zelf** via de interface van de e-mailontwerper en met behulp van afbeeldingen van [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md). Leer hoe u uw e-mailinhoud ontwerpt in [deze sectie](content-from-scratch.md).
+   * **Ontwerp uw e-mail helemaal zelf** via de interface van de e-mailontwerper en met behulp van afbeeldingen van [Adobe Experience Manager Assets](../content-management/assets.md). Leer hoe u uw e-mailinhoud ontwerpt in [deze sectie](content-from-scratch.md).
 
    * **Code of paste raw HTML** rechtstreeks in de e-mailontwerper. Leer hoe u uw eigen inhoud codeert in [deze sectie](code-content.md).
 

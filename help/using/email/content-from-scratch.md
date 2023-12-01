@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: inhoud, editor, e-mail, starten
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen:
 
    ![](assets/email_designer_structure_component.png)
 
-1. Van de **[!UICONTROL Asset picker]** kunt u rechtstreeks de elementen selecteren die in het dialoogvenster **[!UICONTROL Assets library]**. [Meer informatie over middelenbeheer](../content-management/assets-essentials.md)
+1. Van de **[!UICONTROL Asset picker]** kunt u rechtstreeks de elementen selecteren die in het dialoogvenster **[!UICONTROL Assets library]**. [Meer informatie over middelenbeheer](../content-management/assets.md)
 
    Dubbelklik op de map met uw elementen. Sleep en zet ze neer in een structuurcomponent.
 

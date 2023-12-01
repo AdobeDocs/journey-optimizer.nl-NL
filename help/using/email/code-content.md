@@ -9,9 +9,9 @@ role: User
 level: Intermediate, Experienced
 keywords: code, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '179'
 ht-degree: 5%
 
 ---
@@ -24,7 +24,7 @@ Gebruik de **[!UICONTROL Code your own]** om onbewerkte HTML te importeren en/of
 
 >[!CAUTION]
 >
-> Afbeeldingen van [Adobe Experience Manager Assets Essentials](../content-management/assets-essentials.md) kan niet worden van verwijzingen voorzien wanneer het gebruiken van deze methode. De afbeeldingen waarnaar in uw HTML-code wordt verwezen, moeten worden opgeslagen op een openbare locatie.
+> Afbeeldingen van [Adobe Experience Manager Assets](../content-management/assets.md) kan niet worden van verwijzingen voorzien wanneer het gebruiken van deze methode. De afbeeldingen waarnaar in uw HTML-code wordt verwezen, moeten worden opgeslagen op een openbare locatie.
 
 1. Selecteer op de introductiepagina E-mail Designer de optie **[!UICONTROL Code your own]**.
 
