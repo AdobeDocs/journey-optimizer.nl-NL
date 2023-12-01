@@ -1,28 +1,28 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Een SMS-bericht maken
-description: Meer informatie over het maken van een SMS-bericht in Journey Optimizer
+title: Een SMS/MMS-bericht maken
+description: Meer informatie over het maken van een SMS/MMS-bericht in Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: db3c2e368812563d12276f8a1ac0e06ccc03e8d4
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 5%
+source-wordcount: '733'
+ht-degree: 4%
 
 ---
 
-# Een SMS-bericht maken {#create-sms}
+# Een SMS-/MMS-bericht maken {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Een SMS-bericht maken"
 >abstract="Voeg uw SMS-bericht toe en pas het aan met de Expressieeditor."
 
-## Een SMS-bericht toevoegen {#create-sms-journey-campaign}
+## SMS/MMS-bericht toevoegen {#create-sms-journey-campaign}
 
 Blader op de onderstaande tabbladen om te leren hoe u een SMS-bericht kunt toevoegen aan een campagne of een reis.
 
@@ -110,13 +110,30 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 
 1. In de `originalUrl` veld, plak de URL die u wilt verkorten en klik op **[!UICONTROL Save]**.
 
+1. Klikken **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning. U kunt **[!UICONTROL Simulate content]** om een voorvertoning weer te geven van uw verkorte URL&#39;s of gepersonaliseerde inhoud.
+
+   ![](assets/sms-content-preview.png)
+
+
+
+## Uw MMS-inhoud definiëren{#mms-content}
+
+Met het SMS-kanaal kunt u uw communicatie verbeteren door MMS-berichten (Multimedia Message Service) te verzenden, zodat u afbeeldingen, GIFFEN of video&#39;s kunt delen met uw klanten.
+
+
+>[!NOTE]
+>
+> Deze functie is momenteel beschikbaar bij **Sinch** alleen.
+>
+> MMS-kanaal heeft enkele beperkingen die zijn vermeld in [deze pagina](../start/guardrails.md#sms-guardrails).
+
+Ga als volgt te werk om MMS-inhoud te maken:
+
+1. Maak een SMS-bericht zoals beschreven in [deze sectie](#create-sms-journey-campaign).
+
+1. Je SMS-inhoud bewerken zoals gedetailleerd in [deze sectie](#sms-content).
+
 1. Schakel de optie MMS in om media toe te voegen aan uw SMS-inhoud.
-
-   MMS wordt geleverd met enkele beperkingen die worden vermeld in [deze pagina](../start/guardrails.md#sms-guardrails).
-
-   >[!NOTE]
-   >
-   > De optie MMS is alleen beschikbaar bij Sinch. U moet een specifieke API-referentie maken om MMS te maken. [Meer informatie](sms-configuration.md#create-new-api)
 
    ![](assets/sms_create_6.png)
 
@@ -128,15 +145,16 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 
 1. Klikken **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning. U kunt **[!UICONTROL Simulate content]** om een voorvertoning weer te geven van uw verkorte URL&#39;s of gepersonaliseerde inhoud.
 
-   ![](assets/sms-content-preview.png)
+## Uw berichten testen en verzenden {#sms-mms-test}
 
 Je kunt nu je SMS-bericht testen en naar je publiek sturen. [Meer informatie](send-sms.md)
+
+
 Zodra verzonden, kunt u het effect van uw SMS binnen de Campagne of rapporten van de Reis meten. Raadpleeg [deze sectie](../reports/campaign-global-report.md#sms-tab) voor meer informatie over rapporten.
 
 >[!NOTE]
 >
 >In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS-marketingberichten een manier bevatten waarop de ontvangers hun abonnement gemakkelijk kunnen opzeggen. Om dit te doen, kunnen de ontvangers van SMS met opt-in en opt-out sleutelwoorden antwoorden. [Meer informatie over het beheren van opt-out](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
-
 **Verwante onderwerpen**
 
 * [Je SMS-bericht bekijken, testen en verzenden](send-sms.md)
