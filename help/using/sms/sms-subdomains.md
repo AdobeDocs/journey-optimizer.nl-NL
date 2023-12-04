@@ -1,56 +1,55 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS-subdomeinen configureren
+title: Subdomeinen configureren voor tekstberichten (SMS/MMS)
 description: Leer hoe u SMS-subdomeinen configureert met Journey Optimizer
 role: Admin
 feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, subdomeinen, configuratie
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
 workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 0%
 
 ---
 
-# SMS-subdomeinen configureren {#lp-subdomains}
+# SMS-subdomeinen configureren {#sms-mms-subdomains}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
->title="Een SMS-subdomein delegeren"
->abstract="U stelt uw subdomein in voor gebruik via SMS. U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd of een ander subdomein vormen."
+>title="Een SMS/MMS-subdomein delegeren"
+>abstract="Stel uw subdomein in voor tekstberichten (SMS/MMS). U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of een nieuw subdomein vormen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
->title="Een SMS-subdomein delegeren"
->abstract="U moet subdomain vormen voor uw berichten van SMS te gebruiken, aangezien u dit subdomain zult nodig hebben om een oppervlakte van SMS tot stand te brengen. U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd of een nieuw subdomein vormen."
+>title="Een SMS/MMS-subdomein delegeren"
+>abstract="U moet een subdomein vormen voor uw tekstberichten te gebruiken, aangezien u dit subdomein nodig hebt om een oppervlakte van SMS tot stand te brengen. U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of een nieuw subdomein vormen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="SMS-oppervlakken maken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
->title="Een SMS-subdomein selecteren"
+>title="Een SMS/MMS-subdomein selecteren"
 >abstract="Om een oppervlakte van SMS te kunnen tot stand brengen, zorg ervoor u eerder minstens één subdomain van SMS om van de Subdomain naamlijst hebt gevormd te plukken."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="SMS-oppervlakken maken"
 
-Als u URL&#39;s die aan uw SMS-berichten zijn toegevoegd, wilt verkorten, moet u het subdomein instellen dat u selecteert wanneer [het creëren van een oppervlakte van SMS](sms-configuration.md#message-preset-sms).
+Als u URL&#39;s die aan uw SMS/MMS-berichten zijn toegevoegd, wilt verkorten, moet u het subdomein instellen dat u selecteert wanneer [het creëren van een oppervlakte van SMS](sms-configuration.md#message-preset-sms).
 
 U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of u kunt een ander subdomein vormen. Meer informatie over het delegeren van subdomeinen naar Adobe in [deze sectie](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
->De subdomeinconfiguratie van SMS is gemeenschappelijk voor alle milieu&#39;s. Daarom geldt het volgende:
+>* De subdomeinconfiguratie van SMS wordt gedeeld tussen alle milieu&#39;s. Daarom heeft elke wijziging van een subdomein van SMS ook invloed op andere productiesandboxen.
 >
->* Om tot subdomeinen van SMS toegang te hebben en uit te geven, moet u hebben **[!UICONTROL Manage SMS Subdomains]** toestemming voor de productiesandbox.
+>* Om tot subdomeinen van SMS toegang te hebben en uit te geven, moet u hebben **[!UICONTROL Manage SMS Subdomains]** toestemming voor de productiesandbox. Meer informatie over machtigingen in [deze sectie](../administration/high-low-permissions.md).
 >
-> * Elke wijziging aan een subdomein van SMS heeft ook invloed op de productiesandboxen.
 
 ## Een bestaand subdomein gebruiken {#sms-use-existing-subdomain}
 
 Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aan Adobe.
 
-1. Toegang krijgen tot de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, selecteert u vervolgens **[!UICONTROL SMS configuration]** > **[!UICONTROL SMS subdomains]**.
+1. Bladeren naar de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteert u **[!UICONTROL SMS configuration]** > **[!UICONTROL SMS subdomains]**.
 
    ![](assets/sms_access-subdomains.png)
 
@@ -103,7 +102,7 @@ Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aa
 
 Volg onderstaande stappen om een nieuw subdomein te configureren.
 
-1. Toegang krijgen tot de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, selecteert u vervolgens **[!UICONTROL SMS configuration]** > **[!UICONTROL SMS subdomains]**.
+1. Bladeren naar de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, selecteert u vervolgens **[!UICONTROL SMS configuration]** > **[!UICONTROL SMS subdomains]**.
 
 1. Klik op **[!UICONTROL Set up subdomain]**.
 
@@ -115,9 +114,9 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
    >[!CAUTION]
    >
-   >U kunt geen bestaand subdomein van SMS gebruiken.
+   >* U kunt geen bestaand subdomein van SMS gebruiken.
    >
-   >Hoofdletters zijn niet toegestaan in subdomeinen.
+   >* Hoofdletters zijn niet toegestaan in subdomeinen.
 
    Het delegeren van een ongeldig subdomein aan Adobe wordt niet toegestaan. Zorg ervoor dat u een geldig subdomein invoert dat eigendom is van uw organisatie, zoals marketing.yourcompany.com.
 
@@ -137,10 +136,6 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
 1. Nadat de subdomeindelegatie is verzonden, wordt het subdomein weergegeven in de lijst met de **[!UICONTROL Processing]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
-   >[!NOTE]
-   >
-   >Voordat u dat subdomein kunt gebruiken om SMS-berichten te verzenden, moet u wachten tot de Adobe de vereiste controles uitvoert. Dit kan maximaal 4 uur in beslag nemen.<!--Learn more in [this section](#subdomain-validation).-->
+Voordat u een subdomein kunt gebruiken om SMS-berichten te verzenden, moet u wachten totdat de Adobe de vereiste controles uitvoert. Dit kan maximaal 4 uur in beslag nemen.<!--Learn more in [this section](#subdomain-validation).--> Wanneer de controles zijn voltooid, haalt het subdomein het subdomein **[!UICONTROL Success]** status. Het is klaar om te worden gebruikt om de kanaaloppervlakten van SMS te creëren.
 
-1. Wanneer de controles zijn voltooid, haalt het subdomein het subdomein **[!UICONTROL Success]** status. Het is klaar om te worden gebruikt om de kanaaloppervlakten van SMS te creëren.
-
-   Het subdomein wordt gemarkeerd als **[!UICONTROL Failed]** als u er niet in slaagt de validatierecord voor uw hostoplossing te maken.
+Het subdomein wordt gemarkeerd als **[!UICONTROL Failed]** als u er niet in slaagt de validatierecord voor uw hostoplossing te maken.

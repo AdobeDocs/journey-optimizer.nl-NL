@@ -11,8 +11,8 @@ keywords: activiteit, reis, lezen, publiek, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: d3aecaefb0b356eb1d25b151e8d210620b51ea5f
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 3%
+source-wordcount: '1318'
+ht-degree: 0%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Activiteit publiek lezen"
->abstract="Met de activiteit &#39;Lezen publiek&#39; kunt u alle personen die tot een Adobe Experience Platform-publiek behoren een reis laten maken. Het starten van een journey kan één keer, of op regelmatige basis plaatsvinden."
+>abstract="Met de activiteit &#39;Lezen publiek&#39; kunt u alle personen die tot een Adobe Experience Platform-publiek behoren een reis laten maken. Het betreden van een reis kan één keer of op regelmatige basis plaatsvinden."
 
-Gebruik de **Publiek lezen** activiteit om alle individuen van een publiek de reis te maken. Het starten van een journey kan één keer, of op regelmatige basis plaatsvinden.
+Gebruik de **Publiek lezen** activiteit om alle individuen van een publiek de reis te maken. Het betreden van een reis kan één keer of op regelmatige basis plaatsvinden.
 
 Neem bijvoorbeeld het publiek voor het openen en uitchecken van de Luma-app dat is gemaakt in het dialoogvenster [Stimulerend publiek](../audience/about-audiences.md) use case. Met de activiteit van het Leespubliek, kunt u alle individuen die tot dit publiek behoren tot een reis maken en hen tot geïndividualiseerde reizen maken die alle reisfunctionaliteit, voorwaarden, timers, gebeurtenissen, acties zullen hefboomwerking.
 
@@ -120,7 +120,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >
 >Eenmalig Leespubliek reizen 30 dagen na de uitvoering van de reis over naar de voltooide status. Voor een gepland leespubliek duurt het 30 dagen na de uitvoering van het laatste exemplaar.
 
-## De journey testen en publiceren {#testing-publishing}
+## De reis testen en publiceren {#testing-publishing}
 
 De **[!UICONTROL Read Audience]** met deze activiteit kunt u de reis testen op een uniform profiel.
 
@@ -130,7 +130,7 @@ Activeer de testmodus om dit te doen.
 
 Vorm en stel de testwijze in werking zoals gebruikelijk. [Leer hoe u een reis test](testing-the-journey.md).
 
-Als de test eenmaal is uitgevoerd, wordt **[!UICONTROL Show logs]** kunt u de testresultaten bekijken. Raadpleeg [deze sectie](testing-the-journey.md#viewing_logs) voor meer informatie
+Als de test eenmaal is uitgevoerd, wordt **[!UICONTROL Show logs]** kunt u de testresultaten bekijken. Raadpleeg voor meer informatie hierover [deze sectie](testing-the-journey.md#viewing_logs)
 
 ![](assets/read-segment-log.png)
 

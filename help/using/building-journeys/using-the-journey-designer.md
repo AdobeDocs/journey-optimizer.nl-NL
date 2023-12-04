@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Uw journey ontwerpen
+title: Uw reis ontwerpen
 description: Leer hoe u uw reis ontwerpt
 feature: Journeys, Activities
 topic: Content Management
@@ -12,15 +12,15 @@ exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
 source-wordcount: '1614'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# Uw journey ontwerpen {#design-your-journey}
+# Uw reis ontwerpen {#design-your-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
->title="Uw journey ontwerpen"
+>title="Uw reis ontwerpen"
 >abstract="Met de interface voor reizen kunt u activiteiten van het palet gemakkelijk naar het canvas slepen. U kunt ook dubbelklikken op een activiteit om deze in het canvas toe te voegen bij de volgende beschikbare stap."
 
 Adobe Journey Optimizer bevat een omnichannel orchestration canvas dat marketers in staat stelt marketingactiviteiten te harmoniseren met een-op-een-klantenservice. Met de gebruikersinterface kunt u activiteiten van het palet naar het canvas slepen om uw reis te maken. U kunt ook op een activiteit dubbelklikken om deze in het canvas toe te voegen, bij de volgende beschikbare stap.
@@ -37,7 +37,7 @@ Bij het starten van een nieuwe rit worden elementen die niet op het canvas kunne
 
 De **[!UICONTROL Filter items]** kunt u de volgende filters weergeven:
 
-* **Alleen beschikbare objecten weergeven**: u kunt niet-beschikbare elementen in het palet verbergen of weergeven, bijvoorbeeld de gebeurtenissen die een andere naamruimte gebruiken dan de gebeurtenissen die tijdens de reis worden gebruikt. Niet-beschikbare items zijn standaard verborgen. Als u deze weergeeft, worden ze grijs weergegeven.
+* **Alleen beschikbare objecten weergeven**: u kunt niet-beschikbare elementen in het palet verbergen of weergeven, bijvoorbeeld de gebeurtenissen die een andere naamruimte gebruiken dan de gebeurtenissen die tijdens de reis worden gebruikt. Niet-beschikbare items worden standaard verborgen. Als u deze weergeeft, worden ze grijs weergegeven.
 
 * **Alleen recente objecten weergeven**: met dit filter kunt u alleen de laatste vijf gebruikte gebeurtenissen en handelingen weergeven, naast de gebeurtenissen en handelingen die buiten de box vallen. Dit geldt specifiek voor elke gebruiker. Standaard worden alle items weergegeven.
 

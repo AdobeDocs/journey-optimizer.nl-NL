@@ -9,7 +9,7 @@ keywords: in-app, bericht, ontwerp, opmaak
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1047'
 ht-degree: 6%
 
 ---
@@ -192,7 +192,7 @@ De **[!UICONTROL App Preview]** kunt u een achtergrond toevoegen achter uw In-ap
 
 * Een achtergrondkleur.
 
-### Lay-out {#layout-options}
+### Layout {#layout-options}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_authoring_layout"

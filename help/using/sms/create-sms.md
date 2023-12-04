@@ -8,27 +8,34 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: db3c2e368812563d12276f8a1ac0e06ccc03e8d4
+source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 4%
+source-wordcount: '902'
+ht-degree: 2%
 
 ---
 
-# Een SMS-/MMS-bericht maken {#create-sms}
+# Een tekstbericht maken (SMS/MMS){#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="Een SMS-bericht maken"
->abstract="Voeg uw SMS-bericht toe en pas het aan met de Expressieeditor."
+>title="Een tekstbericht maken"
+>abstract="Om een tekstbericht (SMS/MMS) tot stand te brengen, voeg een actie van SMS in een reis of een campagne toe en begin het met de redacteur van de Uitdrukking te personaliseren."
 
-## SMS/MMS-bericht toevoegen {#create-sms-journey-campaign}
+U kunt tekst- (SMS) en multimedia-berichten (MMS) ontwerpen en verzenden met Adobe Journey Optimizer. U moet eerst een actie van SMS in een reis of een campagne toevoegen, en dan de inhoud van het tekstbericht bepalen, zoals hieronder beschreven. Adobe Journey Optimizer biedt ook mogelijkheden om uw tekstberichten te testen voordat ze worden verzonden, zodat u de rendering, personalisatiekenmerken en alle andere instellingen kunt controleren.
 
-Blader op de onderstaande tabbladen om te leren hoe u een SMS-bericht kunt toevoegen aan een campagne of een reis.
+>[!NOTE]
+>
+>In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS/MMS-marketingberichten een manier bevatten waarop de ontvangers hun abonnement gemakkelijk kunnen opzeggen. Om dit te doen, kunnen de ontvangers van SMS met opt-in en opt-out sleutelwoorden antwoorden. [Meer informatie over het beheren van opt-out](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+
+
+## Een tekstbericht toevoegen {#create-sms-journey-campaign}
+
+Blader op de onderstaande tabbladen om te leren hoe u een tekstbericht (SMS/MMS) kunt toevoegen aan een campagne of een reis.
 
 >[!BEGINTABS]
 
->[!TAB Een SMS-bericht toevoegen aan een reis]
+>[!TAB Een tekstbericht toevoegen aan een reis]
 
 1. Open uw reis en sleep een activiteit van SMS van **Handelingen** in het palet.
 
@@ -42,11 +49,11 @@ Blader op de onderstaande tabbladen om te leren hoe u een SMS-bericht kunt toevo
 
    De **[!UICONTROL Surface]** wordt standaard voorgevuld met het laatste oppervlak dat de gebruiker voor dat kanaal gebruikt.
 
-U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit content]** knop. [Je SMS-inhoud definiëren](#sms-content)
+U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit content]** zoals hieronder beschreven.
 
->[!TAB Een SMS-bericht toevoegen aan een campagne]
+>[!TAB Een tekstbericht toevoegen aan een campagne]
 
-1. Maak een nieuwe geplande of door API geactiveerde campagne, selecteer **[!UICONTROL SMS]** als uw actie en kies **[!UICONTROL App surface]** te gebruiken. [Meer informatie over de SMS-configuratie](sms-configuration.md).
+1. Maak een nieuwe geplande of door API geactiveerde campagne, selecteer **[!UICONTROL SMS]** als uw actie en kies **[!UICONTROL App surface]** te gebruiken. Meer informatie over de configuratie van SMS in [deze pagina](sms-configuration.md).
 
    ![](assets/sms_create_3.png)
 
@@ -73,9 +80,9 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
    * Eenmaal
    * Dagelijks
    * Wekelijks
-   * Month
+   * Maand
 
-U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit content]** knop. [Ontwerp uw SMS-inhoud](#sms-content)
+U kunt nu de inhoud van uw tekstbericht ontwerpen via het **[!UICONTROL Edit content]** zoals hieronder beschreven.
 
 >[!ENDTABS]
 
@@ -84,23 +91,25 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Je SMS-inhoud definiëren"
->abstract="Pas uw SMS-berichten aan en pas deze aan door de expressieeditor te gebruiken om de inhoud te definiëren en dynamische elementen op te nemen."
+>abstract="Pas en verpersoonlijk uw tekstberichten (SMS/MMS) aan door de redacteur van de Uitdrukking te gebruiken om de inhoud te bepalen en dynamische elementen op te nemen."
 
-1. Van het reis of scherm van de campagneconfiguratie, klik **[!UICONTROL Edit content]** om de inhoud van SMS te vormen.
+Volg onderstaande stappen om uw SMS-inhoud te configureren. Instellingen voor MMS worden nader beschreven in [deze sectie](#mms-content).
+
+1. Van het reis of scherm van de campagneconfiguratie, klik **[!UICONTROL Edit content]** om de inhoud van het tekstbericht te configureren.
 
 1. Klik op de knop **[!UICONTROL Message]** om de Expressieeditor te openen.
 
    ![](assets/sms-content.png)
 
-1. Gebruik de expressie-editor om inhoud te definiëren en dynamische inhoud toe te voegen. U kunt elk kenmerk gebruiken, zoals de profielnaam of plaats. Meer informatie over [personalisatie](../personalization/personalize.md) en [dynamische inhoud](../personalization/get-started-dynamic-content.md) in de Uitdrukking redacteur.
+1. Gebruik de uitdrukkingsredacteur om inhoud te bepalen, verpersoonlijking en dynamische inhoud toe te voegen. U kunt elk kenmerk gebruiken, bijvoorbeeld de profielnaam of plaats. U kunt ook voorwaardelijke regels definiëren. Blader naar de volgende pagina&#39;s voor meer informatie over [personalisatie](../personalization/personalize.md) en [dynamische inhoud](../personalization/get-started-dynamic-content.md) in de Uitdrukking redacteur.
 
-1. Nadat u de inhoud hebt gedefinieerd, kunt u de URL&#39;s van de track toevoegen aan uw bericht. Om dit te doen, open **[!UICONTROL Helper functions]** en selecteert u **[!UICONTROL Helpers]**.
+1. Nadat u de inhoud hebt gedefinieerd, kunt u bijgehouden URL&#39;s aan uw bericht toevoegen. Om dit te doen, open **[!UICONTROL Helper functions]** en selecteert u **[!UICONTROL Helpers]**.
 
    Merk op dat om de functie te gebruiken die URL verkort, u eerst een subdomain moet vormen die dan aan uw oppervlakte zal worden verbonden. [Meer informatie](sms-subdomains.md)
 
    >[!CAUTION]
    >
-   > Om tot subdomeinen van SMS toegang te hebben en uit te geven, moet u hebben **[!UICONTROL Manage SMS Subdomains]** toestemming voor de productiesandbox.
+   > Om tot subdomeinen van SMS toegang te hebben en uit te geven, moet u hebben **[!UICONTROL Manage SMS Subdomains]** toestemming voor de productiesandbox. Meer informatie over machtigingen in [deze sectie](../administration/high-low-permissions.md).
 
    ![](assets/sms_tracking_1.png)
 
@@ -110,22 +119,20 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 
 1. In de `originalUrl` veld, plak de URL die u wilt verkorten en klik op **[!UICONTROL Save]**.
 
-1. Klikken **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning. U kunt **[!UICONTROL Simulate content]** om een voorvertoning weer te geven van uw verkorte URL&#39;s of gepersonaliseerde inhoud.
-
-   ![](assets/sms-content-preview.png)
-
+1. Klikken **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning. U kunt nu de inhoud van uw bericht testen en controleren zoals beschreven in [deze sectie](#sms-mms-test).
 
 
 ## Uw MMS-inhoud definiëren{#mms-content}
 
-Met het SMS-kanaal kunt u uw communicatie verbeteren door MMS-berichten (Multimedia Message Service) te verzenden, zodat u afbeeldingen, GIFFEN of video&#39;s kunt delen met uw klanten.
+U kunt uw communicatie verbeteren door MMS-berichten (Multimedia Message Service) te verzenden, zodat u media kunt delen, zoals video&#39;s, foto&#39;s, audioclips en GIFFEN, enz. Bovendien staat MMS maximaal 1600 tekens tekst in uw bericht toe.
 
 
 >[!NOTE]
 >
-> Deze functie is momenteel beschikbaar bij **Sinch** alleen.
+>* Deze functie is momenteel beschikbaar bij **Sinch** alleen.
 >
-> MMS-kanaal heeft enkele beperkingen die zijn vermeld in [deze pagina](../start/guardrails.md#sms-guardrails).
+>* MMS-kanaal heeft enkele beperkingen die zijn vermeld in [deze pagina](../start/guardrails.md#sms-guardrails).
+>
 
 Ga als volgt te werk om MMS-inhoud te maken:
 
@@ -143,22 +150,22 @@ Ga als volgt te werk om MMS-inhoud te maken:
 
    ![](assets/sms_create_7.png)
 
-1. Klikken **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning. U kunt **[!UICONTROL Simulate content]** om een voorvertoning weer te geven van uw verkorte URL&#39;s of gepersonaliseerde inhoud.
+1. Klikken **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning. U kunt nu de inhoud van uw bericht testen en controleren, zoals hieronder wordt beschreven.
 
 ## Uw berichten testen en verzenden {#sms-mms-test}
 
-Je kunt nu je SMS-bericht testen en naar je publiek sturen. [Meer informatie](send-sms.md)
+Gebruik de **[!UICONTROL Simulate content]** om een voorvertoning weer te geven van de inhoud van uw tekstbericht, verkorte URL&#39;s en gepersonaliseerde inhoud.
 
+![](assets/sms-content-preview.png)
+
+Nadat u de tests hebt uitgevoerd en de inhoud hebt gevalideerd, kunt u uw tekstbericht naar het publiek sturen. Deze stappen worden beschreven in [deze pagina](send-sms.md)
 
 Zodra verzonden, kunt u het effect van uw SMS binnen de Campagne of rapporten van de Reis meten. Raadpleeg [deze sectie](../reports/campaign-global-report.md#sms-tab) voor meer informatie over rapporten.
 
->[!NOTE]
->
->In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS-marketingberichten een manier bevatten waarop de ontvangers hun abonnement gemakkelijk kunnen opzeggen. Om dit te doen, kunnen de ontvangers van SMS met opt-in en opt-out sleutelwoorden antwoorden. [Meer informatie over het beheren van opt-out](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 **Verwante onderwerpen**
 
-* [Je SMS-bericht bekijken, testen en verzenden](send-sms.md)
+* [Een tekstbericht voorvertonen, testen en verzenden](send-sms.md)
 * [Sms-kanaal configureren](sms-configuration.md)
-* [Sms-rapport](../reports/journey-global-report.md#sms-global)
-* [Een bericht toevoegen in een journey](../building-journeys/journeys-message.md)
+* [SMS/MMS-rapporten](../reports/journey-global-report.md#sms-global)
+* [Een bericht toevoegen tijdens een rit](../building-journeys/journeys-message.md)
 * [Een bericht toevoegen aan een campagne](../campaigns/create-campaign.md)

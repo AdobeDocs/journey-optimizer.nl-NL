@@ -1,5 +1,5 @@
 ---
-title: Beslissingsregels
+title: Besluitvormingsregels
 description: Leer hoe u met beslissingsregels werkt
 feature: Experience Decisioning
 topic: Integrations
@@ -12,11 +12,11 @@ exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
-# Beslissingsregels {#rules}
+# Besluitvormingsregels {#rules}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
@@ -59,7 +59,7 @@ De lijst met besluitvormingsregels is toegankelijk in het **[!UICONTROL Configur
 
 Ga als volgt te werk om een regel te maken:
 
-1. Ga naar **[!UICONTROL Configuration]** / **[!UICONTROL Decision rules]**.
+1. Navigeren naar **[!UICONTROL Configuration]** / **[!UICONTROL Decision rules]**.
 1. Journey Optimizer-gebruikersinterface voor beslissingsbeheer wordt in het centrale gebied weergegeven. Voer de stappen uit die in het dialoogvenster [Beslissingsbeheersdocumentatie](../offers/offer-library/creating-decision-rules.md) om uw regel te bouwen die op uw behoeften wordt gebaseerd.
 
 1. Nadat de regel is gemaakt, wordt deze weergegeven in de lijst en kan deze worden gebruikt in besluitvormings- en selectiestrategieën om de presentatie van beslissingsitems in profielen te regelen.

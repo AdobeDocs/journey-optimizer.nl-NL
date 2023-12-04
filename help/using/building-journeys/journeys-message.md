@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Een bericht toevoegen in een journey
+title: Een bericht toevoegen tijdens een rit
 description: Leer hoe u een bericht tijdens een rit kunt toevoegen
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
@@ -9,21 +9,21 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, email, in app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 898ad9dadd2d9e71e6881113730ac469a36257bc
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
 
-# E-mail, In-app, Push, SMS{#add-a-message-in-a-journey}
+# E-mail, In-app, Push, SMS/MMS{#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Berichtactiviteit"
->abstract="Journey Optimizer wordt geleverd met ingebouwde berichtmogelijkheden. U kunt gewoon tijdens uw reis een push-, SMS-, In-app- of e-mailberichtactiviteit toevoegen en instellingen en inhoud definiëren. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis."
+>abstract="Journey Optimizer wordt geleverd met ingebouwde berichtmogelijkheden. U kunt gewoon tijdens uw reis een pushbericht, een tekstbericht (SMS/MMS), een activiteit in de app of een e-mailbericht toevoegen en instellingen en inhoud definiëren. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis."
 
-[!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtmogelijkheden. U kunt gewoon tijdens uw reis een push-, SMS-, In-app- of e-mailberichtactiviteit toevoegen en instellingen en inhoud definiëren. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis.
+[!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtmogelijkheden. U kunt gewoon tijdens uw reis een push-gebeurtenis, een SMS/MMS, een activiteit in de app of een e-mailbericht toevoegen en instellingen en inhoud definiëren. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis.
 
 U kunt ook specifieke acties instellen om u berichten te sturen:
 
@@ -74,7 +74,7 @@ Volg onderstaande stappen om een bericht toe te voegen aan een rit:
    <img alt="Validatie" src="../assets/do-not-localize/sms.jpg">
    </a>
    <div>
-   <a href="../sms/create-sms.md"><strong>SMS-berichten maken</strong></a>
+   <a href="../sms/create-sms.md"><strong>Tekstberichten maken (SMS/MMS)</strong></a>
    </div>
    <p>
    </td>

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey's configureren
+title: Reizen configureren
 description: Leer hoe te om Gegevensbronnen, Gebeurtenissen en Acties te vormen
 feature: Application Settings
 topic: Administration
@@ -11,12 +11,12 @@ keywords: configuratie, reis, dashboard, gegevensbronnen, gebeurtenissen, acties
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: b8065a68ed73102cb2c9da2c2d2675ce8e5fbaad
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 35%
+source-wordcount: '401'
+ht-degree: 30%
 
 ---
 
-# Journey&#39;s configureren {#configure-journeys}
+# Reizen configureren {#configure-journeys}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
@@ -35,7 +35,7 @@ De configuratie van de Gegevensbron staat u toe om een verbinding aan een systee
 
 Gebeurtenissen stellen u in staat om uw reizen tijdelijk te activeren en berichten in real-time te verzenden aan de persoon die de reis maakt.
 
-In de gebeurtenisconfiguratie, vormt u de gebeurtenissen die in de reizen worden verwacht. De gegevens van inkomende gebeurtenissen worden genormaliseerd na het Model van de Gegevens van de Ervaring van de Adobe (XDM). Gebeurtenissen zijn afkomstig van de streamingopname-API’s voor geverifieerde en niet-geverifieerde gebeurtenissen (zoals Adobe Mobile SDK-gebeurtenissen). [Meer informatie](../../using/event/about-events.md)
+In de gebeurtenisconfiguratie, vormt u de gebeurtenissen die in de reizen worden verwacht. De gegevens van inkomende gebeurtenissen worden genormaliseerd na het Model van de Gegevens van de Ervaring van de Adobe (XDM). Gebeurtenissen komen van de Streaming Ingestie-API&#39;s voor geverifieerde en niet-geverifieerde gebeurtenissen (zoals Adobe Mobile SDK-gebeurtenissen). [Meer informatie](../../using/event/about-events.md)
 
 ## Acties {#actions}
 

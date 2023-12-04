@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: 25c63b7bd602446df0ada9a0e7aedb752f10892e
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
->title="Audience"
+>title="Doelgroep"
 >abstract="Met Adobe Experience Platform kunt u eenvoudig segmentdefinities maken door gebruik te maken van realtime klantprofielgegevens. Zo kunt u doelgroepen maken die de unieke gedragingen en voorkeuren van uw klanten vastleggen."
 
 >[!CONTEXTUALHELP]
