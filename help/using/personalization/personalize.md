@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: expressie, editor, start, personalisatie
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 5ac3797db8115180094cc97f06ec330839a7a5ff
+source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 5%
+source-wordcount: '412'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 5%
 >id="ajo_homepage_card5"
 >title="Ervaringen personaliseren"
 >abstract="Gebruiken **Adobe Journey Optimizer** om uw berichten aan elke specifieke ontvanger aan te passen door de gegevens en de informatie leveraging u over hen hebt. Het kan hun voornaam zijn, belangen, waar ze wonen, wat ze hebben gekocht, en meer."
-
 
 Discover [!DNL Adobe Journey Optimizer] personaliseringsmogelijkheden om uw berichten aan elke specifieke ontvanger aan te passen door de gegevens en de informatie te gebruiken u over hen hebt. Het kan hun voornaam zijn, belangen, waar ze wonen, wat ze hebben gekocht, en meer.
 
@@ -57,11 +56,11 @@ Daarnaast kunt u ook gebruikmaken van **berekende kenmerken** om uw inhoud aan t
 
 [!DNL Journey Optimizer] biedt een expressie-editor waarin u alle gegevens kunt selecteren, rangschikken, aanpassen en valideren om een aangepaste personalisatie voor uw inhoud te maken.
 
-Er zijn verschillende gereedschappen beschikbaar waarmee u uw inhoud voor personalisatie (helperfuncties, vooraf gedefinieerde expressies, bibliotheek met kenmerken die u begunstigen...) kunt maken.
+Er zijn verschillende gereedschappen beschikbaar waarmee u uw personalisatie-inhoud kunt maken, zoals: felper-functies, vooraf gedefinieerde expressies-bibliotheek, kenmerken die de voorkeur geven en meer.
 
 Meer informatie over [!DNL Journey Optimizer] expressieeditor in [deze sectie](personalization-build-expressions.md)
 
-## Instructievideo&#39;s{#video-perso}
+## Hoe kan ik-video&#39;s{#video-perso}
 
 Leer hoe u contextuele gebeurtenisinformatie van een journey kunt gebruiken om een bericht te personaliseren.
 

@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 34%
+source-wordcount: '1717'
+ht-degree: 31%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 34%
    + [Vroege aanvullende informatie](using/rn/e-release-notes.md)
    + [Opmerkingen bij de laatste release](using/rn/release-notes.md)
    + Opmerkingen bij vorige release {#previous-rn-new}
+      + [Opmerkingen bij de release van 2023](using/rn/release-notes-2023.md)
       + [Opmerkingen bij de release van 2022](using/rn/release-notes-2022.md)
       + [Opmerkingen bij de release van 2021](using/rn/release-notes-2021.md)
    + [Documentatie-updates](using/rn/documentation-updates.md)
@@ -36,11 +37,11 @@ ht-degree: 34%
    + [Integraties](using/start/ajo-integrations.md)
    + [Guardrails](using/start/guardrails.md)
    + [Best practices](using/start/best-practices.md)
-+ Journeys {#orchestrate-journeys}
++ Reizen {#orchestrate-journeys}
    + [Aan de slag met reizen](using/building-journeys/journey.md)
-   + Een journey maken{#create-journey}
+   + Een reis maken{#create-journey}
       + [Uw eerste journey maken](using/building-journeys/journey-gs.md)
-      + [Uw journey ontwerpen](using/building-journeys/using-the-journey-designer.md)
+      + [Uw reis ontwerpen](using/building-journeys/using-the-journey-designer.md)
       + [Uw reis testen](using/building-journeys/testing-the-journey.md)
       + [Uw reis publiceren](using/building-journeys/publishing-the-journey.md)
    + Uw reizen beheren{#manage-journey}
@@ -173,7 +174,7 @@ ht-degree: 34%
          + [Statistische berekeningen begrijpen](using/campaigns/experiment-calculations.md)
          + [Statistische berekeningen in het Experimentenrapport begrijpen](using/campaigns/experiment-report-calculations.md)
    + [Campagnes activeren met API&#39;s](using/campaigns/api-triggered-campaigns.md)
-+ E-mailkanaal {#email}
++ Email channel {#email}
    + [Aan de slag met e-mails](using/email/get-started-email.md)
    + [Een e-mail maken](using/email/create-email.md)
    + Uw e-mailinhoud ontwerpen {#design-email}
@@ -215,12 +216,12 @@ ht-degree: 34%
       + [Pushmeldingsstroom](using/push/push-gs.md)
       + [Pushmeldingskanaal configureren](using/push/push-configuration.md)
       + [Snelstartworkflow voor mobiele instaptoegang](using/push/mobile-onboarding-wf.md)
-+ Sms-kanaal{#sms}
-   + [Aan de slag met sms](using/sms/get-started-sms.md)
-   + [Een SMS-bericht maken](using/sms/create-sms.md)
++ SMS/MMS-kanaal{#sms}
+   + [Aan de slag met tekstberichten](using/sms/get-started-sms.md)
+   + [Een tekstbericht maken](using/sms/create-sms.md)
    + [Een MMS-bericht maken](using/sms/create-mms.md)
-   + [Controleer en verzend je SMS](using/sms/send-sms.md)
-   + [SMS-optie beheren](using/sms/sms-opt-out.md)
+   + [De tekstberichten controleren en verzenden](using/sms/send-sms.md)
+   + [Weigeren tekstbericht beheren](using/sms/sms-opt-out.md)
    + [Sms-kanaal configureren](using/sms/sms-configuration.md)
    + [SMS-subdomeinen instellen](using/sms/sms-subdomains.md)
 + Direct mail {#direct-mail}
@@ -247,14 +248,14 @@ ht-degree: 34%
 + Landingspagina’s {#landing-pages}
    + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
    + [Een landingspagina maken](using/landing-pages/create-lp.md)
-   + Ontwerpcontent {#landing-pages-design}
+   + Inhoud ontwerpen {#landing-pages-design}
       + [Informatie over het ontwerpen van bestemmingspagina](using/landing-pages/design-lp.md)
       + [De inhoud van de openingspagina maken](using/landing-pages/lp-content.md)
       + [Sjablonen maken](using/landing-pages/lp-templates.md)
       + [Aangepast JavaScript toevoegen](using/landing-pages/lp-custom-js.md)
    + [Een lidmaatschapslijst maken](using/landing-pages/subscription-list.md)
    + [Gebruikskwesties leren](using/landing-pages/lp-use-cases.md)
-   + Landingspagina’s configureren {#lp-configuration}
+   + Landingspagina&#39;s configureren {#lp-configuration}
       + [Subdomeinen van bestemmingspagina configureren](using/landing-pages/lp-subdomains.md)
       + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
 + Inhoudsbeheer {#content-management}
@@ -309,7 +310,7 @@ ht-degree: 34%
       + [E-mailrendering testen](using/content-management/rendering.md)
       + [Spam-rapport gebruiken](using/content-management/spam-report.md)
 + Soorten publiek, profielen en identiteit{#audiences-profiles-identities}
-   + Doelgroepen {#audiences}
+   + Soorten publiek {#audiences}
       + [Aan de slag met het publiek](using/audience/about-audiences.md)
       + [Segmentdefinities samenstellen](using/audience/creating-a-segment-definition.md)
       + Doelgroep samenstellen {#audience-orchestration}
@@ -323,7 +324,7 @@ ht-degree: 34%
       + [Werken met berekende kenmerken](using/audience/computed-attributes.md)
    + [Identiteiten](using/audience/get-started-identity.md)
    + [Licentiegebruik](using/audience/license-usage.md)
-+ Bijhouden en bewaken {#reporting}
++ Track en monitor {#reporting}
    + Live-rapport {#live-report}
       + [Aan de slag met Live-rapport](using/reports/live-report.md)
       + [Lijst met componenten](using/reports/live-report-components.md)
@@ -353,7 +354,7 @@ ht-degree: 34%
          + [Velden voor ophalen van gegevens](using/reports/sharing-fetch-fields.md)
          + [Identiteitsvelden](using/reports/sharing-identity-fields.md)
       + [Voorbeelden van query&#39;s](using/reports/query-examples.md)
-   + Strategie en definitie {#deliverability}
+   + Leverbaarheid {#deliverability}
       + [Aan de slag met de prestaties](using/reports/deliverability.md)
       + [De onderdrukkingslijst begrijpen](using/reports/suppression-list.md)
    + [Foutredenen](using/reports/error-list.md)
@@ -534,7 +535,7 @@ ht-degree: 34%
       + [Voer het IP-opwarmingsplan uit](using/configuration/ip-warmup-execution.md)
    + E-mailadressen controleren {#monitor-reputation}
       + [Onderdrukkingslijst](using/configuration/manage-suppression-list.md)
-      + [Hernieuwde pogingen](using/configuration/retries.md)
+      + [Opnieuw](using/configuration/retries.md)
       + [Lijst van gewenste personen](using/configuration/allow-list.md)
    + [zaadlijsten gebruiken](using/configuration/seed-lists.md)
    + [Ondersteuning voor archivering](using/configuration/archiving-support.md)
@@ -561,7 +562,7 @@ ht-degree: 34%
          + [Externe databronnen](using/datasource/external-data-sources.md)
       + Actieconfiguratie {#action-journeys}
          + [Acties](using/action/action.md)
-         + [Een actie configureren](using/action/about-custom-action-configuration.md)
+         + [Een handeling configureren](using/action/about-custom-action-configuration.md)
          + [Integreren met Adobe Campaign Standard](using/action/acs-action.md)
          + [Integreren met Adobe Campaign v7/v8](using/action/acc-action.md)
          + [API-aanroepreacties gebruiken in aangepaste handelingen](using/action/action-response.md)

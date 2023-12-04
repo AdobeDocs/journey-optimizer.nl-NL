@@ -1,41 +1,43 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aan de slag met sms
-description: Meer informatie over het maken van een SMS in Journey Optimizer
+title: Aan de slag met tekstberichten (SMS/MMS)
+description: Meer informatie over het maken en verzenden van tekstberichten in Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: b4f6acb294c7a62f87525f1a1a8500dd57cefd6e
+source-git-commit: 8d1eb5a2c330575a88967bca8b0244caba358eb0
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 21%
+source-wordcount: '229'
+ht-degree: 7%
 
 ---
 
-# Aan de slag met sms {#get-started-sms}
+# Aan de slag met tekstberichten {#get-started-sms}
 
-Gebruiken [!DNL Journey Optimizer] om tekstberichten naar uw klanten op hun mobiele apparaten te verzenden. U kunt berichten in tekstformaat van de redacteur van SMS tot stand brengen, personaliseren en voorproef.
+Gebruiken [!DNL Journey Optimizer] om tekstberichten (SMS/MMS) naar uw klanten op hun mobiele apparaten te verzenden. U kunt berichten in tekstformaat van de redacteur tot stand brengen, personaliseren en voorproef.
 
-De levering van SMS kan worden gecreeerd:
+Tekstberichten kunnen worden gemaakt en verzonden tijdens een rit of in een campagne. Gebruik voor MMS en SMS de SMS-handeling.
 
-* In een **Reis**: Als u eenmaal een SMS-activiteit hebt toegevoegd aan uw reis en basisinstellingen hebt gedefinieerd, kunt u de opdracht **[!UICONTROL Actions: SMS]** in het rechterdeelvenster om de inhoud voor het SMS-bericht te maken. [Leer hoe u een reis maakt](../building-journeys/journey-gs.md)
+* In een **Reis**. Creeer een reis, voeg een activiteit van SMS toe, en bepaal basismontages, dan doorblader aan **[!UICONTROL Actions: SMS]** in het rechterdeelvenster om de inhoud voor het SMS/MMS-bericht te maken. Leer hoe u een reis maakt in [deze pagina](../building-journeys/journey-gs.md).
 
-* In een **Campagne**: Nadat u een campagne hebt gemaakt, selecteert u SMS als uw handeling en definieert u de basisinstellingen. [Leer een campagne maken](../campaigns/create-campaign.md#configure)
+* In een **Campagne**. Maak een campagne, selecteer SMS als uw actie en definieer basisinstellingen en bewerk vervolgens de inhoud van het bericht om het te verzenden SMS/MMS-bericht te definiëren. Leer hoe u een campagne kunt maken in [deze pagina](../campaigns/create-campaign.md#configure).
 
+Adobe Journey Optimizer verzendt tekstberichten via SMS-serviceproviders (of SMS-gatewayproviders). Voordat u uw SMS-/MMS-bericht maakt, configureert u uw serviceprovider voor tekstberichten met Journey Optimizer. [Meer informatie](sms-configuration.md).
 
 >[!IMPORTANT]
 >
->Als dit uw eerste keer het creëren van SMS is, zorg ervoor het kanaal van SMS is gevormd. [Meer informatie](sms-configuration.md).
+> Het verzenden van MMS (Multimedia Message Service) met Adobe Journey Optimizer wordt slechts gesteund wanneer het integreren met **Sinch**.
+
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
 <img alt="Lood" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
-<div><a href="create-sms.md"><strong>Een SMS-bericht maken</strong>
+<div><a href="create-sms.md"><strong>Uw tekstbericht maken</strong>
 </div>
 <p>
 </td>
@@ -44,7 +46,7 @@ De levering van SMS kan worden gecreeerd:
 <img alt="Onfrequent" src="../assets/do-not-localize/sms-sending.jpg">
 </a>
 <div>
-<a href="send-sms.md"><strong>Een SMS-bericht verzenden</strong></a>
+<a href="send-sms.md"><strong>Een tekstbericht verzenden</strong></a>
 </div>
 <p></td>
 <td>
@@ -52,7 +54,7 @@ De levering van SMS kan worden gecreeerd:
 <img alt="Validatie" src="../assets/do-not-localize/sms-opt-out.jpg">
 </a>
 <div>
-<a href="sms-opt-out.md"><strong>SMS-opt-out-beheer</strong></a>
+<a href="sms-opt-out.md"><strong>Uitschakelen, beheer</strong></a>
 </div>
 <p>
 </td>

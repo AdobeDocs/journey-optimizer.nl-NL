@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS-opt-out-beheer
-description: Meer informatie over het beheren van opt-out met SMS-berichten
+title: Uitschakelen van beheer voor tekstberichten
+description: Meer informatie over het beheren van opt-out met SMS/MMS-berichten
 feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
+source-git-commit: 31c3ed854b38e287850895176f8416bc62739cb0
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
 
-# SMS-opt-out-beheer {#sms-opt-out}
+# Uitschakelen van beheer voor tekstberichten {#sms-opt-out}
 
 In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS-marketingberichten een manier bevatten waarop de ontvangers hun abonnement gemakkelijk kunnen opzeggen. [Meer informatie over privacy- en opt-outbeheer](../privacy/opt-out.md)
 
