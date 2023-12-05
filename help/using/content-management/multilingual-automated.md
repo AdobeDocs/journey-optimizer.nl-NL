@@ -10,9 +10,10 @@ level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 hide: true
 hidefromtoc: true
-source-git-commit: 8c95f35049da1b7ced9a5ecd9e267a8847c12481
+exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
+source-git-commit: 75dd439fc221257a2480ea7bdcb94f56227ce1d3
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1172'
 ht-degree: 1%
 
 ---
@@ -89,6 +90,14 @@ Start uw vertaalproject door de doellandinstelling op te geven en de specifieke 
 
 1. Selecteer in de lijst uw **[!UICONTROL Target locale(s)]** en kies welke **[!UICONTROL Translation provider]** wilt u gebruiken voor elke landinstelling.
 
+   **[!UICONTROL Translation provider]** de instellingen zijn toegankelijk via de **[!UICONTROL Translation]** in het menu **[!UICONTROL Administration]** menusectie.
+
+   >[!NOTE]
+   >
+   >Het contractbeheer met de Vertaalprovider valt buiten het bereik van deze functie. Zorg ervoor dat u een geldig en actief contract hebt met de aangewezen Vertaalpartner.
+   >
+   ></br>De vertaalprovider is eigenaar van de kwaliteit van de vertaalde inhoud.
+
 1. Klikken **[!UICONTROL Add a locale]** wanneer u klaar bent met het koppelen van uw doellandinstelling aan de juiste vertaalprovider. Klik vervolgens op **[!UICONTROL Save]**.
 
    Als een provider grijs wordt weergegeven voor een doellandinstelling, geeft dit aan dat de provider die specifieke landinstelling niet ondersteunt.
@@ -147,7 +156,7 @@ Als u uw vertaalproject en taalinstellingen hebt ingesteld, kunt u uw campagne m
 
 1. Wanneer de primaire inhoud is gemaakt, klikt u op **[!UICONTROL Save]** en ga terug naar het scherm van de campagneconfiguratie.
 
-1. Klik op **[!UICONTROL Add languages]**.  [Meer informatie](#create-language-settings)
+1. Klikken **[!UICONTROL Add languages]**.  [Meer informatie](#create-language-settings)
 
    ![](assets/multilingual-campaign-automated-1.png)
 
