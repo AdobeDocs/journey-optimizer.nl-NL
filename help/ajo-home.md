@@ -5,7 +5,7 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 34bfaf6b161b13e881fbcb88c343c1b424072752
+source-git-commit: 565163872bcd88df50d464a42093f5523daa5eb1
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## Wat is nieuw?
 
-Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en -documentatie! Voor een uitgebreide lijst met functies, verbeteringen en oplossingen raadpleegt u de gedetailleerde [Opmerkingen bij de release](using/rn/release-notes.md).  Blijf up-to-date met de nieuwste wijzigingen in onze documentatie door de [pagina met documentupdates](using/rn/documentation-updates.md).
+Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en -documentatie! Voor een uitgebreide lijst met functies, verbeteringen en oplossingen raadpleegt u de gedetailleerde [Opmerkingen bij de release](using/rn/release-notes.md). Blijf up-to-date met de nieuwste wijzigingen in onze documentatie door de [pagina met documentupdates](using/rn/documentation-updates.md).
 
 >[!BEGINTABS]
 
@@ -84,7 +84,7 @@ Met het Kanaal van SMS, kunt u uw mededeling nu verbeteren door de MMS-berichten
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>Inhoudsbeheer</strong><br/><a href="using/content-management/assets-essentials.md">Middelen/afbeeldingen</a> - <a href="using/personalization/personalize.md">Personalisatie</a> - <a href="using/content-management/content-templates.md">Herbruikbaar</a> &amp; <a href="using/personalization/dynamic-content.md">dynamic</a> inhoud - <a href="using/content-management/preview-test.md">Inhoud testen en voorvertonen</a>
+      <strong>Inhoudsbeheer</strong><br/><a href="using/content-management/assets.md">Middelen/afbeeldingen</a> - <a href="using/personalization/personalize.md">Personalisatie</a> - <a href="using/content-management/content-templates.md">Herbruikbaar</a> &amp; <a href="using/personalization/dynamic-content.md">dynamic</a> inhoud - <a href="using/content-management/preview-test.md">Inhoud testen en voorvertonen</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
