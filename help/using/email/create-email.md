@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: maken, e-mail, starten, reizen, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 18b9a19bbd37927430c50da63f54cbdbbeed5606
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 2%
@@ -21,13 +21,12 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="E-mailontwerp"
->abstract="Definieer uw e-mailparameters in slechts drie eenvoudige stappen."
+>abstract="Definieer de onderwerpregel voor de e-mail en open de e-mailontwerper om de inhoud van de e-mail te maken."
 
-Een e-mail maken in [!DNL Journey Optimizer]volgt u de onderstaande stappen.
 
-## Een e-mailbericht maken voor een reis of campagne {#create-email-journey-campaign}
+## Een e-mailactie toevoegen {#email-action}
 
-Een **[!UICONTROL Email]** actie ondernemen op een reis of een campagne, en de onderstaande stappen volgen op basis van uw zaak.
+Een e-mail maken in [!DNL Journey Optimizer], voegt u een **[!UICONTROL Email]** actie op een reis of een campagne. Volg vervolgens de onderstaande stappen, afhankelijk van uw zaak.
 
 >[!BEGINTABS]
 
@@ -86,13 +85,13 @@ Voor meer informatie over hoe te om een campagne te vormen, raadpleeg [deze pagi
 
    ![](assets/email_campaign_edit_content.png)
 
-1. In de **[!UICONTROL Header]** van de **[!UICONTROL Edit content]** scherm, de **[!UICONTROL From name]**, **[!UICONTROL From email]** en **[!UICONTROL BCC]** Het veld komt van het e-mailoppervlak dat u hebt geselecteerd. [Meer informatie](email-settings.md) <!--check if same for journey-->
+   In de **[!UICONTROL Header]** van de **[!UICONTROL Edit content]** scherm, de **[!UICONTROL From name]**, **[!UICONTROL From email]** en **[!UICONTROL BCC]** worden geconfigureerd in het e-mailoppervlak dat u hebt geselecteerd. [Meer informatie](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. U kunt een onderwerpregel toevoegen. Typ onbewerkte tekst rechtstreeks in het desbetreffende veld of gebruik de optie [Expression-editor](../personalization/personalization-build-expressions.md) om uw onderwerpregel aan uw wensen aan te passen.
+1. Voeg een onderwerpregel voor uw bericht toe. Om de onderwerpregel met de uitdrukkingsredacteur te vormen en te personaliseren, klik **[!UICONTROL Open personalization dialog]** pictogram. [Meer informatie](../personalization/personalization-build-expressions.md)
 
-1. Klik op de knop **[!UICONTROL Edit email body]** om uw inhoud te gaan samenstellen met de [!DNL Journey Optimizer] E-mailontwerper. [Meer informatie](get-started-email-design.md)
+1. Klik op de knop **[!UICONTROL Edit email body]** om toegang te krijgen tot de e-mailontwerper en uw inhoud op te bouwen. [Meer informatie](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
