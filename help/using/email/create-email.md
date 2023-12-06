@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: maken, e-mail, starten, reizen, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 18b9a19bbd37927430c50da63f54cbdbbeed5606
+source-git-commit: f2037f559826d7cca243092de200c97841c49b35
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '832'
 ht-degree: 2%
 
 ---
@@ -44,7 +44,7 @@ Een e-mail maken in [!DNL Journey Optimizer], voegt u een **[!UICONTROL Email]**
 
 >[!NOTE]
 >
->Als u een e-mail verzendt van een reis, kunt u de functie van de Optimalisering van de Send-Time van Adobe Journey Optimizer gebruiken om de beste tijd te voorspellen om het bericht te verzenden om betrokkenheid te maximaliseren die op historisch open en klikkarieven wordt gebaseerd. [Leer hoe u met SendTime Optimization werkt](../building-journeys/journeys-message.md#send-time-optimization)
+>Met de optie Send-Time optimalisatie kunt u het beste tijdstip voorspellen waarop u het bericht wilt verzenden om de betrokkenheid te maximaliseren op basis van de historisch geopende bestanden en klikt u op percentages. [Leer hoe u met SendTime Optimization werkt](../building-journeys/journeys-message.md#send-time-optimization)
 
 Voor meer informatie over hoe te om een reis te vormen, raadpleeg [deze pagina](../building-journeys/journey-gs.md).
 
