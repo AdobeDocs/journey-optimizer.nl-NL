@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -23,18 +23,11 @@ ht-degree: 2%
 >title="Rangschikkingsformules maken"
 >abstract="Met indelingen kunt u regels definiëren die bepalen welk item als eerste moet worden weergegeven, in plaats van rekening te houden met de prioriteitsscores van het item. Zodra een rangschikkingsmethode is gecreeerd, kunt u het aan een besluitvormingsstrategie toewijzen om te bepalen welke punten eerst moeten worden geselecteerd."
 
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatiehandleiding zult vinden:
+>[!BEGINSHADEBOX &quot;Wat u vindt in deze documentatiehandleiding&quot;]
 
 * [Aan de slag met Experience Decisition](gs-experience-decisioning.md)
-* Je beslissingsobjecten beheren
-   * [De itemcatalogus configureren](catalogs.md)
-   * [Beslissingsitems maken](items.md)
-   * [Objectverzamelingen beheren](collections.md)
-* Selectie van items configureren
-   * [Beslissingsregels maken](rules.md)
-   * **[Classificatiemethoden maken](ranking.md)**
+* Je beslissingsobjecten beheren: [De itemcatalogus configureren](catalogs.md) - [Beslissingsitems maken](items.md) - [Objectverzamelingen beheren](collections.md)
+* Selectie van items configureren: [Beslissingsregels maken](rules.md) - **[Classificatiemethoden maken](ranking.md)**
 * [Selectiestrategieën maken](selection-strategies.md)
 * [Beslissingsbeleid maken](create-decision.md)
 

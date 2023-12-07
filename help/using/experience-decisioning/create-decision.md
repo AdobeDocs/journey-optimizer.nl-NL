@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 2%
+source-wordcount: '1268'
+ht-degree: 1%
 
 ---
 
@@ -24,18 +24,11 @@ ht-degree: 2%
 >abstract="Het beslissingsbeleid maakt gebruik van de engine voor het bepalen van ervaringen om de beste inhoud te kiezen die u kunt leveren, afhankelijk van het publiek."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="Over het bepalen van de ervaring"
 
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatiehandleiding zult vinden:
+>[!BEGINSHADEBOX &quot;Wat u vindt in deze documentatiehandleiding&quot;]
 
 * [Aan de slag met Experience Decisition](gs-experience-decisioning.md)
-* Je beslissingsobjecten beheren
-   * [De itemcatalogus configureren](catalogs.md)
-   * [Beslissingsitems maken](items.md)
-   * [Objectverzamelingen beheren](collections.md)
-* Selectie van items configureren
-   * [Beslissingsregels maken](rules.md)
-   * [Classificatiemethoden maken](ranking.md)
+* Je beslissingsobjecten beheren: [De itemcatalogus configureren](catalogs.md) - [Beslissingsitems maken](items.md) - [Objectverzamelingen beheren](collections.md)
+* Selectie van items configureren: [Beslissingsregels maken](rules.md) - [Classificatiemethoden maken](ranking.md)
 * [Selectiestrategieën maken](selection-strategies.md)
 * **[Beslissingsbeleid maken](create-decision.md)**
 
@@ -66,7 +59,7 @@ Beslissingsbeleid zijn containers voor uw aanbiedingen die gebruikmaken van de e
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="Strategieën maken"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="Evaluatievolgorde"
 
-Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op uw website of mobiele app, voegt u een beslissingsbeleid toe aan een op code gebaseerde campagne. Hiervoor voert u de volgende stappen uit.
+Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op uw website of mobiele app, voegt u een beslissingsbeleid toe aan een op code gebaseerde campagne. Volg de onderstaande stappen om dit te doen.
 
 1. Maak een campagne en selecteer de **[!UICONTROL Code-base experience (Beta)]** handeling. [Meer informatie](../code-based/create-code-based.md)
 
@@ -86,7 +79,7 @@ Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op
 
    ![](assets/decision-code-based-details.png)
 
-1. Selecteer het aantal objecten dat je wilt retourneren. Als u bijvoorbeeld 2 selecteert, worden de beste twee in aanmerking komende aanbiedingen voor het huidige oppervlak weergegeven. Klik op **[!UICONTROL Next]**
+1. Selecteer het aantal objecten dat je wilt retourneren. Als u bijvoorbeeld 2 selecteert, worden de beste twee in aanmerking komende aanbiedingen voor het huidige oppervlak weergegeven. Klikken **[!UICONTROL Next]**
 
 1. Gebruik de **[!UICONTROL Add strategy]** om de selectiestrategieën voor uw beslissingsbeleid te definiëren. Elke strategie bestaat uit een aanbod dat gekoppeld is aan een toelatingsbeperking en een rangschikkingsmethode om te bepalen welke aanbiedingen moeten worden getoond. [Meer informatie](selection-strategies.md)
 
@@ -182,7 +175,7 @@ De gerangschikte voorstellen zijn nu als volgt: Voorstel 5, voorstel 3, voorstel
 
 ## Het beslissingsbeleid in de code-editor gebruiken {#use-decision-policy}
 
-Zodra gecreeerd, kan het besluitvormingsbeleid in worden gebruikt [Expression-editor](../code-based/create-code-based.md#edit-code). Hiervoor voert u de volgende stappen uit.
+Zodra gecreeerd, kan het besluitvormingsbeleid in worden gebruikt [Expression-editor](../code-based/create-code-based.md#edit-code). Volg de onderstaande stappen om dit te doen.
 
 >[!NOTE]
 >

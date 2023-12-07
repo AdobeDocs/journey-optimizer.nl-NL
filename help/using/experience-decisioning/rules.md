@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -23,18 +23,11 @@ ht-degree: 2%
 >title="Beslissingsregels maken"
 >abstract="Met beslissingsregels kunt u het publiek voor beslissingsitems definiëren door beperkingen toe te passen, rechtstreeks op het niveau van de beslissingsitems of binnen een specifieke selectiestrategie. Hierdoor kunt u precies bepalen welke items aan wie moeten worden gepresenteerd."
 
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatiehandleiding zult vinden:
+>[!BEGINSHADEBOX &quot;Wat u vindt in deze documentatiehandleiding&quot;]
 
 * [Aan de slag met Experience Decisition](gs-experience-decisioning.md)
-* Je beslissingsobjecten beheren
-   * [De itemcatalogus configureren](catalogs.md)
-   * [Beslissingsitems maken](items.md)
-   * [Objectverzamelingen beheren](collections.md)
-* Selectie van items configureren
-   * **[Beslissingsregels maken](rules.md)**
-   * [Classificatiemethoden maken](ranking.md)
+* Je beslissingsobjecten beheren: [De itemcatalogus configureren](catalogs.md) - [Beslissingsitems maken](items.md) - [Objectverzamelingen beheren](collections.md)
+* Selectie van items configureren: **[Beslissingsregels maken](rules.md)** - [Classificatiemethoden maken](ranking.md)
 * [Selectiestrategieën maken](selection-strategies.md)
 * [Beslissingsbeleid maken](create-decision.md)
 

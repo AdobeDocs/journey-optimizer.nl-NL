@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 1%
+source-wordcount: '975'
+ht-degree: 0%
 
 ---
 
@@ -24,18 +24,11 @@ ht-degree: 1%
 >abstract="Met Journey Optimizer kunt u marketingaanbiedingen maken, ook wel &#39;beslissingsitems&#39; genoemd, die u kunt maken en indelen in een gecentraliseerde catalogus en verzamelingen. Momenteel worden alle gemaakte beslissingsitems geconsolideerd in één catalogus met &quot;voorstellen&quot;. Vanuit dit scherm kunt u ook het schema van de catalogus openen met de opdracht **Schema bewerken** en maak aangepaste kenmerken voor uw beslissingsitems."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="De itemcatalogus configureren"
 
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatiehandleiding zult vinden:
+>[!BEGINSHADEBOX &quot;Wat u vindt in deze documentatiehandleiding&quot;]
 
 * [Aan de slag met Experience Decisition](gs-experience-decisioning.md)
-* Je beslissingsobjecten beheren
-   * [De itemcatalogus configureren](catalogs.md)
-   * **[Beslissingsitems maken](items.md)**
-   * [Objectverzamelingen beheren](collections.md)
-* Selectie van items configureren
-   * [Beslissingsregels maken](rules.md)
-   * [Classificatiemethoden maken](ranking.md)
+* Je beslissingsobjecten beheren: [De itemcatalogus configureren](catalogs.md) - **[Beslissingsitems maken](items.md)** - [Objectverzamelingen beheren](collections.md)
+* Selectie van items configureren: [Beslissingsregels maken](rules.md) - [Classificatiemethoden maken](ranking.md)
 * [Selectiestrategieën maken](selection-strategies.md)
 * [Beslissingsbeleid maken](create-decision.md)
 
@@ -43,7 +36,7 @@ Wat u in deze documentatiehandleiding zult vinden:
 
 Met Journey Optimizer kunt u marketingaanbiedingen maken, ook wel &#39;beslissingsitems&#39; genoemd, die u kunt maken en indelen in een gecentraliseerde catalogus en verzamelingen. Ze bestaan uit standaard- en aangepaste kenmerken die precies op uw behoeften zijn afgestemd. Bovendien, nemen zij profielbeperkingen op die u toestaan om te bepalen aan wie een besluitpunt kan worden getoond.
 
-Voordat u een beslissingsonderdeel maakt, moet u controleren of u een **beslissingsregel** als u voorwaarden wilt plaatsen om aan te bepalen aan wie het besluitpunt kan worden getoond. [Leer hoe u beslissingsregels](rules.md) maakt .
+Voordat u een beslissingsonderdeel maakt, moet u controleren of u een **beslissingsregel** als u voorwaarden wilt plaatsen om aan te bepalen aan wie het besluitpunt kan worden getoond. [Leer hoe u beslissingsregels maakt](rules.md).
 
 ## Je eerste beslissingsobject maken
 

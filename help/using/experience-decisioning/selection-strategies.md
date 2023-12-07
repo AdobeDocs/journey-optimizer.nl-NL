@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 1%
+source-wordcount: '757'
+ht-degree: 0%
 
 ---
 
@@ -31,18 +31,11 @@ ht-degree: 1%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Soorten publiek gebruiken"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="Beslissingsregels gebruiken"
 
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatiehandleiding zult vinden:
+>[!BEGINSHADEBOX &quot;Wat u vindt in deze documentatiehandleiding&quot;]
 
 * [Aan de slag met Experience Decisition](gs-experience-decisioning.md)
-* Je beslissingsobjecten beheren
-   * [De itemcatalogus configureren](catalogs.md)
-   * [Beslissingsitems maken](items.md)
-   * [Objectverzamelingen beheren](collections.md)
-* Selectie van items configureren
-   * [Beslissingsregels maken](rules.md)
-   * [Classificatiemethoden maken](ranking.md)
+* Je beslissingsobjecten beheren: [De itemcatalogus configureren](catalogs.md) - [Beslissingsitems maken](items.md) - [Objectverzamelingen beheren](collections.md)
+* Selectie van items configureren: [Beslissingsregels maken](rules.md) - [Classificatiemethoden maken](ranking.md)
 * **[Selectiestrategieën maken](selection-strategies.md)**
 * [Beslissingsbeleid maken](create-decision.md)
 
@@ -83,6 +76,8 @@ Volg onderstaande stappen om een selectiestrategie te maken.
    ![](assets/strategy-create-screen.png)
 
 1. Selecteer de [collectie](collections.md) dat de aanbiedingen bevat die in overweging moeten worden genomen.
+
+1. Selecteer de aanbieding [collectie](collections.md) dat de aanbiedingen bevat die in overweging moeten worden genomen.
 
 1. Gebruik de **[!UICONTROL Eligibility]** om de selectie van de aanbiedingen voor deze selectiestrategie te beperken.
 

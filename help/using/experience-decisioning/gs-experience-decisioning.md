@@ -9,27 +9,20 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
 # Aan de slag met Experience Decisition {#get-started-experience-decisioning}
 
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatiehandleiding zult vinden:
+>[!BEGINSHADEBOX &quot;Wat u vindt in deze documentatiehandleiding&quot;]
 
 * **[Aan de slag met Experience Decisition](gs-experience-decisioning.md)**
-* Je beslissingsobjecten beheren
-   * [De itemcatalogus configureren](catalogs.md)
-   * [Beslissingsitems maken](items.md)
-   * [Objectverzamelingen beheren](collections.md)
-* Selectie van items configureren
-   * [Beslissingsregels maken](rules.md)
-   * [Classificatiemethoden maken](ranking.md)
+* Je beslissingsobjecten beheren: [De itemcatalogus configureren](catalogs.md) - [Beslissingsitems maken](items.md) - [Objectverzamelingen beheren](collections.md)
+* Selectie van items configureren: [Beslissingsregels maken](rules.md) - [Classificatiemethoden maken](ranking.md)
 * [Selectiestrategieën maken](selection-strategies.md)
 * [Beslissingsbeleid maken](create-decision.md)
 

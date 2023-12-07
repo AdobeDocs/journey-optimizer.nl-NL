@@ -9,27 +9,20 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 1%
+source-wordcount: '306'
+ht-degree: 0%
 
 ---
 
 # Itemcatalogus {#catalog}
 
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatiehandleiding zult vinden:
+>[!BEGINSHADEBOX &quot;Wat u vindt in deze documentatiehandleiding&quot;]
 
 * [Aan de slag met Experience Decisition](gs-experience-decisioning.md)
-* Je beslissingsobjecten beheren
-   * **[De itemcatalogus configureren](catalogs.md)**
-   * [Beslissingsitems maken](items.md)
-   * [Objectverzamelingen beheren](collections.md)
-* Selectie van items configureren
-   * [Beslissingsregels maken](rules.md)
-   * [Classificatiemethoden maken](ranking.md)
+* Je beslissingsobjecten beheren: **[De itemcatalogus configureren](catalogs.md)** - [Beslissingsitems maken](items.md) - [Objectverzamelingen beheren](collections.md)
+* Selectie van items configureren: [Beslissingsregels maken](rules.md) - [Classificatiemethoden maken](ranking.md)
 * [Selectiestrategieën maken](selection-strategies.md)
 * [Beslissingsbeleid maken](create-decision.md)
 
@@ -61,7 +54,7 @@ Ga als volgt te werk om het schema van de catalogus te openen waarin de kenmerke
    >[!CAUTION]
    >
    >Tot nu toe worden bij Ervaring beslissen alleen de hieronder vermelde gegevenstypen ondersteund. Om het even welk gebied dat buiten deze gegevenstypes valt zal niet beschikbaar voor gebruik zijn wanneer het creëren van een besluitpunt.
-   >* Tekenreeks
+   >* String
    >* Boolean
    >* Getal
 

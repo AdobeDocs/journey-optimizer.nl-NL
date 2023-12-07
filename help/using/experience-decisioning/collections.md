@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: f92e3882d3b5e515e672a4af8e787813d4d939ce
+source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -33,18 +33,11 @@ ht-degree: 2%
 >title="Een verzameling kiezen"
 >abstract="Selecteer de verzameling die de aanbiedingen bevat die u wilt overwegen. Deze stap is verplicht bij het maken van een selectiestrategie. Met verzamelingen kunt u uw beslissingsitems categoriseren en groeperen op basis van uw voorkeuren. U kunt bijvoorbeeld een verzameling maken die alle beslissingsitems met de waarde &quot;Yoga&quot; bevat in het aangepaste kenmerk &quot;Categorie&quot;."
 
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatiehandleiding zult vinden:
+>[!BEGINSHADEBOX &quot;Wat u vindt in deze documentatiehandleiding&quot;]
 
 * [Aan de slag met Experience Decisition](gs-experience-decisioning.md)
-* Je beslissingsobjecten beheren
-   * [De itemcatalogus configureren](catalogs.md)
-   * [Beslissingsitems maken](items.md)
-   * **[Objectverzamelingen beheren](collections.md)**
-* Selectie van items configureren
-   * [Beslissingsregels maken](rules.md)
-   * [Classificatiemethoden maken](ranking.md)
+* Je beslissingsobjecten beheren: [De itemcatalogus configureren](catalogs.md) - [Beslissingsitems maken](items.md) - **[Objectverzamelingen beheren](collections.md)**
+* Selectie van items configureren: [Beslissingsregels maken](rules.md) - [Classificatiemethoden maken](ranking.md)
 * [Selectiestrategieën maken](selection-strategies.md)
 * [Beslissingsbeleid maken](create-decision.md)
 
