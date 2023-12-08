@@ -10,10 +10,11 @@ level: Experienced
 keywords: IP, groep, subdomeinen, leverbaarheid
 hide: true
 hidefromtoc: true
+badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 94a3eb47d3b1cd8bafe146f65843acf8393fa69c
+source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1458'
 ht-degree: 1%
 
 ---
@@ -232,7 +233,7 @@ Elk domein wordt nu in een andere kolom op dezelfde rij weergegeven.
 
 ## Toegang en beheer IP-opwarmingsplannen {#manage-ip-warmup-plans}
 
-1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL IP warmup plans]**. Alle IP warmup die plannen tot nu toe worden gecreeerd worden getoond.
+1. Toegang krijgen tot de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL IP warmup plans]** -menu. Alle IP warmup die plannen tot nu toe worden gecreeerd worden getoond.
 
    ![](assets/ip-warmup-filter-list.png)
 

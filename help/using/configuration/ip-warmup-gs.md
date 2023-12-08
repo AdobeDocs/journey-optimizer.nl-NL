@@ -10,22 +10,16 @@ level: Experienced
 keywords: IP, leverbaarheid
 hide: true
 hidefromtoc: true
+badge: label="Beta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: eb4a4929de17f0b57216f69e00da6314f7b59b07
+source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '294'
 ht-degree: 2%
 
 ---
 
 # Ga aan de slag met IP-opwarmingsplannen {#ip-warmup-gs}
-
-<!--
->[!CONTEXTUALHELP]
->id="ajo_admin_ip_warmup_plan"
->title="Define your IP warmup plan"
->abstract="You can perform IP warmup workflows directly from the Journey Optimizer interface in a standardized and efficient way that follows the best practices for optimal deliverability."
--->
 
 >[!BEGINSHADEBOX]
 
@@ -43,6 +37,8 @@ Wat u in deze documentatiehandleiding zult vinden:
 >De IP warmup eigenschap is momenteel beschikbaar als bèta om gebruikers slechts te selecteren. Neem contact op met de klantenservice van de Adobe om deel te nemen aan het bètaprogramma.
 
 Met [!DNL Journey Optimizer], kunt u IP warmteopwerkschema&#39;s op een gestandaardiseerde en efficiënte manier direct van het gebruikersinterface uitvoeren die de beste praktijken voor optimale leverbaarheid volgt.
+
+➡️ [Leer hoe te om een IP warmup plan in deze video te creëren en uit te voeren](#video)
 
 >[!CAUTION]
 >
@@ -75,3 +71,9 @@ De belangrijkste stappen om een IP opwarmingsplan uit te voeren zijn als volgt:
 1. Creeer een IP warmlopingsplan in [!DNL Journey Optimizer] en uploadt u het Excel-werkblad dat u hebt voorbereid met de hulp van uw consultant voor te leveren items. [Meer informatie](ip-warmup-plan.md)
 
 1. Selecteer een campagne voor elke fase van uw plan en activeer de overeenkomstige looppas. [Meer informatie](ip-warmup-execution.md)
+
+## Hoe kan ik-video {#video}
+
+Leer hoe te om een IP warmlopingsplan tot stand te brengen en uit te voeren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)
