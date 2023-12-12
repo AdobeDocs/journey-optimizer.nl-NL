@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: lijst van gewenste personen, lijst, veilig, configuratie
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 2%
+source-wordcount: '1098'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ Bijvoorbeeld, op een niet-productiegeval, waar de fouten kunnen voorkomen, verze
 
 Wanneer de lijst van gewenste personen actief maar leeg is, gaat er ook geen e-mail uit. Vandaar als u één of andere belangrijke kwestie ontmoet, kunt u deze eigenschap gebruiken om alle uitgaande mededelingen van tegen te houden [!DNL Journey Optimizer] totdat u het probleem verhelpt. Meer informatie over de [lijst van gewenste personen-logica](#logic).
 
-Bovendien kun je Journey Optimizer gebruiken **REST-API onderdrukken** om uw uitgaande berichten te controleren gebruikend onderdrukking en lijsten van gewenste personen. [Leer hoe u met de REST API voor onderdrukking werkt](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html)
+Bovendien kun je Journey Optimizer gebruiken **REST-API onderdrukken** om uw uitgaande berichten te controleren gebruikend onderdrukking en lijsten van gewenste personen. [Leer hoe u met de REST API voor onderdrukking werkt](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## Toegang tot de lijst van gewenste personen {#access-allowed-list}
 
@@ -54,7 +54,7 @@ U kunt zoeken op de e-mailadressen of domeinen en filteren op de **[!UICONTROL A
 
 Volg onderstaande stappen om de lijst van gewenste personen te activeren.
 
-1. Open het menu **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]**.
+1. Toegang krijgen tot de  **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** -menu.
 
 1. Selecteer de schakelknop.
 
@@ -78,7 +78,7 @@ De logica lijst van gewenste personen is van toepassing wanneer de functie actie
 
 Volg onderstaande stappen om de lijst van gewenste personen te deactiveren.
 
-1. Open het menu **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]**.
+1. Toegang krijgen tot de  **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** -menu.
 
 1. Selecteer de schakelknop.
 
