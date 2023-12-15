@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Beta" type="Informative"
-source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
+source-git-commit: d8926076d30fb07ea10e06ea8ee025b04ba5bb85
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1222'
 ht-degree: 1%
 
 ---
@@ -182,9 +182,17 @@ Als u uw vertaalproject en taalinstellingen hebt ingesteld, kunt u uw campagne m
 1. Volg op deze pagina de status van uw vertaalproject:
 
    * **[!UICONTROL Translation in progress]**: Uw serviceprovider werkt actief aan de vertaling.
+
+     Als u **Interne vertaling** wanneer u uw **Taalinstellingen** kunt u uw inhoud rechtstreeks in uw vertaalproject vertalen. [Meer informatie](#manage-ht-project)
+
    * **[!UICONTROL Ready for review]**: Het revisieproces kan worden gestart, zodat u toegang hebt tot de vertaling en deze kunt negeren of goedkeuren.
-   * **[!UICONTROL Reviewed]**: Vertaling is goedgekeurd en klaar om naar de campagne te worden verzonden.
+
+     Als u **[!UICONTROL Enable review worflow]** in uw **[!UICONTROL Translation project]**, kunt u de vertaling direct in Journey Optimizer bekijken nadat deze is voltooid door uw geselecteerde vertaalbureau. [Meer informatie](#review-translation-project)
+
+   * **[!UICONTROL Reviewed]**: De vertaling is goedgekeurd en klaar om te worden gepubliceerd en naar de campagne te worden verzonden.
+
    * **[!UICONTROL Ready to publish]**: De computervertaling is voltooid en kan nu naar uw campagne worden verzonden.
+
    * **[!UICONTROL Completed]**: Vertaling is nu beschikbaar in uw campagne.
 
    ![](assets/multilingual-campaign-automated-6.png)
