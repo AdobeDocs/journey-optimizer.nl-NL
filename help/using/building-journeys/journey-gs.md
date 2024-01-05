@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: ba870af16a92ffd5aae2bb4e0abb8f0cdbb8dc80
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '1737'
 ht-degree: 5%
 
 ---
@@ -140,13 +140,9 @@ Als u aangepaste of basislabels voor gegevensgebruik aan de reis wilt toewijzen,
 
 ![](assets/journeys-manage-access.png)
 
-### Tijdzone en profieltijdzone {#timezone}
+### Tijdzones voor reizen en profielen {#timezone}
 
-De tijdzone wordt gedefinieerd op het niveau van de reis.
-
-U kunt een vaste tijdzone invoeren of Adobe Experience Platform-profielen gebruiken om de tijdzone van de reis te definiëren.
-
-Als een tijdzone in Adobe Experience Platform-profiel is gedefinieerd, kan deze tijdens de reis worden opgehaald.
+De tijdzone wordt gedefinieerd op het niveau van de reis. U kunt een vaste tijdzone invoeren of Adobe Experience Platform-profielen gebruiken om de tijdzone van de reis te definiëren. Als een tijdzone in Adobe Experience Platform-profiel is gedefinieerd, kan deze tijdens de reis worden opgehaald.
 
 Zie voor meer informatie over tijdzonebeheer [deze pagina](../building-journeys/timezone-management.md).
 
@@ -154,7 +150,7 @@ Zie voor meer informatie over tijdzonebeheer [deze pagina](../building-journeys/
 
 U kunt een **Begindatum**. Als u er geen hebt opgegeven, wordt deze automatisch gedefinieerd op het moment van publicatie.
 
-U kunt ook een **Einddatum**. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. Als u geen einddatum opgeeft, kunnen profielen blijven tot de standaardreistime-out (doorgaans 30 dagen, 7 dagen met de invoegtoepassing voor het gezondheidsschild). De enige uitzondering is terugkerende publiekstrajecten met **Herkomst forceren bij herhaling** geactiveerd, die eindigt op de begindatum van het volgende exemplaar.
+U kunt ook een **Einddatum**. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. Als er geen einddatum is opgegeven, kunnen profielen blijven tot de [algemene time-out](#global_timeout) (doorgaans 30 dagen, en beperkt tot 7 dagen met de add-on voor het gezondheidsschild en het beveiligingsschild en het privacyschild). De enige uitzondering is terugkerende publiekstrajecten met **Herkomst forceren bij herhaling** geactiveerd, die eindigt op de begindatum van het volgende exemplaar.
 
 ### Tijdslimiet en fout bij reisactiviteiten {#timeout_and_error}
 
@@ -168,7 +164,9 @@ De reizen gebruikt ook een globale onderbreking. Zie de [volgende sectie](#globa
 
 ### Globale time-out voor transport {#global_timeout}
 
-Naast de [timeout](#timeout_and_error) Bij reisactiviteiten wordt ook een wereldwijde reistijd gebruikt die niet in de interface wordt weergegeven en niet kan worden gewijzigd. Deze onderbreking zal de vooruitgang van individuen in de reis 30 dagen na hun binnengaan stoppen. Dit betekent dat de reis van een individu niet langer mag duren dan 30 dagen. Na de periode van 30 dagen worden de gegevens van het individu verwijderd. Personen die aan het einde van de time-outperiode nog onderweg zijn, worden gestopt en er wordt geen rekening mee gehouden bij de rapportage. Je zou dus meer mensen op de reis zien komen dan vertrekken.
+Naast de [timeout](#timeout_and_error) Bij reisactiviteiten wordt ook een wereldwijde reistijd gebruikt die niet in de interface wordt weergegeven en niet kan worden gewijzigd.
+
+Door deze wereldwijde time-out wordt de voortgang van individuen tijdens de reis gestopt **dertig dagen** nadat ze zijn binnengekomen. Deze time-out wordt beperkt tot **7 dagen** met de add-on aanbiedingen Healthcare Shield en Privacy and Security Shield. Dit betekent dat de reis van een individu niet langer mag duren dan 30 dagen (of 7 dagen). Na deze time-outperiode worden de gegevens van de persoon verwijderd. Personen die aan het einde van de time-outperiode nog onderweg zijn, worden gestopt en er wordt geen rekening mee gehouden bij de rapportage. Je zou dus meer mensen op de reis zien komen dan vertrekken.
 
 >[!NOTE]
 >
