@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: ba870af16a92ffd5aae2bb4e0abb8f0cdbb8dc80
+source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1727'
 ht-degree: 5%
 
 ---
@@ -150,7 +150,7 @@ Zie voor meer informatie over tijdzonebeheer [deze pagina](../building-journeys/
 
 U kunt een **Begindatum**. Als u er geen hebt opgegeven, wordt deze automatisch gedefinieerd op het moment van publicatie.
 
-U kunt ook een **Einddatum**. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. Als er geen einddatum is opgegeven, kunnen profielen blijven tot de [algemene time-out](#global_timeout) (doorgaans 30 dagen, en beperkt tot 7 dagen met de add-on voor het gezondheidsschild en het beveiligingsschild en het privacyschild). De enige uitzondering is terugkerende publiekstrajecten met **Herkomst forceren bij herhaling** geactiveerd, die eindigt op de begindatum van het volgende exemplaar.
+U kunt ook een **Einddatum**. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. Als er geen einddatum is opgegeven, kunnen profielen blijven tot de [algemene time-out](#global_timeout) (doorgaans 30 dagen en met de toevoeging aan het gezondheidsschild tot 7 dagen). De enige uitzondering is terugkerende publiekstrajecten met **Herkomst forceren bij herhaling** geactiveerd, die eindigt op de begindatum van het volgende exemplaar.
 
 ### Tijdslimiet en fout bij reisactiviteiten {#timeout_and_error}
 
@@ -166,7 +166,7 @@ De reizen gebruikt ook een globale onderbreking. Zie de [volgende sectie](#globa
 
 Naast de [timeout](#timeout_and_error) Bij reisactiviteiten wordt ook een wereldwijde reistijd gebruikt die niet in de interface wordt weergegeven en niet kan worden gewijzigd.
 
-Door deze wereldwijde time-out wordt de voortgang van individuen tijdens de reis gestopt **dertig dagen** nadat ze zijn binnengekomen. Deze time-out wordt beperkt tot **7 dagen** met de add-on aanbiedingen Healthcare Shield en Privacy and Security Shield. Dit betekent dat de reis van een individu niet langer mag duren dan 30 dagen (of 7 dagen). Na deze time-outperiode worden de gegevens van de persoon verwijderd. Personen die aan het einde van de time-outperiode nog onderweg zijn, worden gestopt en er wordt geen rekening mee gehouden bij de rapportage. Je zou dus meer mensen op de reis zien komen dan vertrekken.
+Door deze wereldwijde time-out wordt de voortgang van individuen tijdens de reis gestopt **dertig dagen** nadat ze zijn binnengekomen. Deze time-out wordt beperkt tot **7 dagen** met de toevoeging aan het gezondheidsschild. Dit betekent dat de reis van een individu niet langer mag duren dan 30 dagen (of 7 dagen). Na deze time-outperiode worden de gegevens van de persoon verwijderd. Personen die aan het einde van de time-outperiode nog onderweg zijn, worden gestopt en er wordt geen rekening mee gehouden bij de rapportage. Je zou dus meer mensen op de reis zien komen dan vertrekken.
 
 >[!NOTE]
 >
