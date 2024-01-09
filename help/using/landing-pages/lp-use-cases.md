@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: landen, landingspagina, hoofdletter gebruiken
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 2%
+source-wordcount: '918'
+ht-degree: 1%
 
 ---
 
@@ -68,7 +68,7 @@ Stel bijvoorbeeld dat u volgende maand een gebeurtenis organiseert en een regist
 
 ### Een bevestigingsbericht verzenden {#send-confirmation-email}
 
-Bovendien kunt u een bevestigingsbericht verzenden naar de ontvangers die zich hebben geregistreerd voor uw gebeurtenis. Hiervoor voert u de volgende stappen uit.
+Bovendien kunt u een bevestigingsbericht verzenden naar de ontvangers die zich hebben geregistreerd voor uw gebeurtenis. Volg de onderstaande stappen om dit te doen.
 
 1. Een andere maken [reis](../building-journeys/journey.md). U kunt dit rechtstreeks vanaf de bestemmingspagina doen door op de knop **[!UICONTROL Create journey]** knop. [Meer informatie](create-lp.md#configure-primary-page)
 
@@ -92,7 +92,9 @@ Alle gebruikers die zich voor uw gebeurtenis hebben geregistreerd, ontvangen het
 
 Om uw ontvangers in staat te stellen zich af te melden voor uw communicatie, kunt u een koppeling naar een bestemmingspagina opnemen in uw e-mails.
 
-Meer informatie over het beheren van de toestemming van uw ontvangers en waarom dit belangrijk is in [deze sectie](../privacy/opt-out.md).
+>[!NOTE]
+>
+>Meer informatie over het beheren van de toestemming van uw ontvangers en waarom dit belangrijk is in [deze sectie](../privacy/opt-out.md).
 
 ### Uitschakelen, beheer {#opt-out-management}
 
@@ -103,7 +105,7 @@ Daarom moet u altijd een **afmelden, koppeling** in elke e-mail die naar ontvang
 * Nadat u op deze koppeling hebt geklikt, worden de ontvangers naar een bestemmingspagina geleid, inclusief een knop om te bevestigen dat ze het programma willen afsluiten.
 * Als u op de knop Weigeren klikt, worden de profielgegevens bijgewerkt met deze informatie.
 
-### Optie om te weigeren configureren {#configure-opt-out}
+### Optie om e-mail te weigeren configureren {#configure-opt-out}
 
 Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zich af te melden voor uw communicatie via een bestemmingspagina.
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: opt-out, e-mail, link, abonnement opzeggen
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 2eb5ac0a9220dfca7110082cd1bbf40afbcb8f40
+source-git-commit: 436507ea3ea76eb7a42cbcb3747ad236685e3f13
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 2%
+source-wordcount: '1008'
+ht-degree: 0%
 
 ---
 
@@ -22,11 +22,15 @@ Als u ontvangers de mogelijkheid wilt bieden zich af te melden voor het ontvange
 
 Hiervoor kunt u:
 
-* Een **koppeling naar een externe bestemmingspagina** in een e-mail om gebruikers in staat te stellen zich af te melden voor het ontvangen van communicatie van uw merk. [Leer hoe u een externe opt-out-koppeling toevoegt](#opt-out-external-lp)
+* Een **koppeling naar een bestemmingspagina** in een e-mail om gebruikers in staat te stellen zich af te melden voor het ontvangen van communicatie van uw merk. Het kan zijn:
+
+   * A **[!DNL Journey Optimizer]landingspagina**. [Meer informatie over het toevoegen van een bestemmingspagina met de optie Weigeren](../landing-pages/lp-use-cases.md#opt-out)
+
+   * A **een externe landingspagina**. [Leer hoe u een externe opt-out-koppeling toevoegt](#opt-out-external-lp)
 
 * Voeg een **one-click opt-out link** in uw e-mailinhoud. Deze verbinding zal uw ontvangers toestaan om van uw mededelingen snel af te zien, zonder aan een landende pagina worden opnieuw gericht waar zij hun keus moeten bevestigen, die het afmeldingsproces versnellen. [Meer informatie over het toevoegen van een koppeling om te weigeren met één klik](#one-click-opt-out)
 
-Als bovendien de **[!UICONTROL List-Unsubscribe]** is ingeschakeld op het niveau van het kanaaloppervlak. De bijbehorende e-mails die met Journey Optimizer worden verzonden, bevatten een koppeling voor het afmelden van abonnementen in de e-mailheader. [Meer informatie over opt-out in e-mailkoptekst](#unsubscribe-header)
+* Voeg een koppeling voor afmelden toe aan de koptekst van de e-mail. Als de **[!UICONTROL List-Unsubscribe]** is ingeschakeld op het niveau van het kanaaloppervlak. De bijbehorende e-mails die met Journey Optimizer worden verzonden, bevatten een koppeling voor het afmelden van abonnementen in de e-mailheader. [Meer informatie over opt-out in e-mailkoptekst](#unsubscribe-header)
 
 >[!NOTE]
 >
@@ -36,7 +40,7 @@ Als bovendien de **[!UICONTROL List-Unsubscribe]** is ingeschakeld op het niveau
 
 ### Koppeling voor annuleren toevoegen {#add-unsubscribe-link}
 
-Eerst moet u een afmeldingskoppeling toevoegen aan een bericht. Volg de onderstaande stappen om dit te doen:
+Eerst moet u een afmeldingskoppeling toevoegen aan een bericht. Hiervoor voert u de volgende stappen uit:
 
 1. Bouw uw eigen bestemmingspagina zonder abonnement.
 
@@ -161,7 +165,7 @@ Zodra uw bericht door [reis](../building-journeys/journey.md)Als een ontvanger o
 >abstract="Schakel List-Unsubscribe in om een koppeling voor afmelden aan de e-mailkoptekst toe te voegen. Als u een URL voor afmelden wilt instellen, voegt u een koppeling om te weigeren in de e-mailinhoud in."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#one-click-opt-out" text="Eén klik op Weigeren"
 
-Als de [List-Unsubscribe, optie](../configuration/channel-surfaces.md#list-unsubscribe) is ingeschakeld op het niveau van het kanaaloppervlak, de bijbehorende e-mails die worden verzonden met [!DNL Journey Optimizer] zal een unsubscribe verbinding in de e-mailkopbal omvatten.
+Als de [List-Unsubscribe, optie](email-settings.md#list-unsubscribe) is ingeschakeld op het niveau van het kanaaloppervlak, de bijbehorende e-mails die worden verzonden met [!DNL Journey Optimizer] zal een unsubscribe verbinding in de e-mailkopbal omvatten.
 
 De koppeling voor afmelden wordt bijvoorbeeld als volgt weergegeven in Gmail:
 
