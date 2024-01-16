@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: kwalificatie, evenementen, publiek, reis, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '975'
 ht-degree: 1%
 
 ---
@@ -40,6 +40,8 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 * U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een leespubliek, een kwalificatie Audience of een activiteit voor een zakelijke gebeurtenis.
 
 * Wanneer u een publiekskwalificatie gebruikt op een reis, kan het tot 10 minuten duren voordat de activiteit van de publiekskwalificatie actief is en naar profielen luistert die het publiek binnenkomen of verlaten.
+
+* We raden u aan alleen streaming publiek te gebruiken voor **kwalificatie publiek** activiteit. Voor gevallen van batchgebruik, gelieve te gebruiken **[Lees publiek](read-audience.md)** activiteit.
 
 ### De activiteit configureren{#cnfigure-segment-qualification}
 
