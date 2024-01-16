@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 93e29ac1d81ef51c7031e9d37bc05cfc21cfce08
+source-git-commit: b692f590e83eed0c07343f2386e04541706945a0
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 1%
@@ -82,9 +82,9 @@ Deze activiteit wordt vaak uitgevoerd met de hulp van een leverbaarheidsdeskundi
 
 Alvorens een IP warmlopingsplan in te kunnen creëren [!DNL Journey Optimizer] interface, moet u een malplaatje van Excel met alle gegevens invullen die uw plan zullen voeren.
 
-* Hier kunt u de lege Excel downloaden [Sjabloon voor IP-opwarmingsplan](assets/ip-warmup-plan-template.zip) in.
+* Hier kunt u de lege Excel downloaden [Sjabloon voor IP-opwarmingsplan](assets/IPWarmupPlan-Template.zip) in.
 
-* U kunt ook een [steekproefIP warmtecontract](assets/ip-warmup-plan-sample.zip) al ingevuld met gegevens die u als voorbeeld kunt gebruiken.
+* U kunt ook een [steekproefIP warmtecontract](assets/IPWarmupPlan-Sample.zip) al ingevuld met gegevens die u als voorbeeld kunt gebruiken.
 
 >[!CAUTION]
 >
@@ -299,7 +299,7 @@ Om een IP warmup plan tot stand te brengen, volg de hieronder stappen.
 
    >[!NOTE]
    >
-   >Als het uploaden mislukt, controleert u of u de juiste opmaak en bestandsindeling (.xls of .xlsx) gebruikt. Gebruik de [template](assets/ip-warmup-plan-template.zip) verstrekt aan u door Adobe.
+   >Als het uploaden mislukt, controleert u of u de juiste opmaak en bestandsindeling (.xls of .xlsx) gebruikt. Gebruik de [template](assets/IPWarmupPlan-Template.zip) verstrekt aan u door Adobe.
 
 1. Klik op **[!UICONTROL Create]**. Alle fasen, looppas, kolommen en hun inhoud die in het dossier worden bepaald u uploadde automatisch worden getoond in [!DNL Journey Optimizer] interface.
 
