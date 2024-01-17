@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
+source-git-commit: bf7f09f644beb869cf30733e57754d8cf0408c9e
 workflow-type: tm+mt
-source-wordcount: '4232'
+source-wordcount: '4243'
 ht-degree: 14%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 
 ## Januari 2024 {#jan-2024}
 
+* Er is een begeleiding toegevoegd over de grootte van de reis. [Meer informatie](../start/guardrails.md#journeys-guardrails-journeys)
 * Tijdlijnbeheer is gedetailleerd [in het volgende gedeelte](../building-journeys/journey-gs.md#global_timeout).
 * Journey Optimizer [documentatiehuis](../../ajo-home.md) pagina is opnieuw ontworpen.
 
