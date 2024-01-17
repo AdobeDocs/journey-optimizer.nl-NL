@@ -7,10 +7,10 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: 78675ca22d8ee9a93d9af128d5708c305523da78
+source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ Met Journey Optimizer kunt u acties identificeren die door gebruikers in het sys
 
 Dit staat u toe om de zichtbaarheid van activiteiten te verhogen die in het systeem worden uitgevoerd, kwesties problemen op te lossen, en uw zaken te helpen aan verordeningen en collectief beleid van het gegevensbeheer voldoen.
 
-Elke actie wordt opgenomen met metagegevens in &quot;auditlogs&quot; die toegankelijk zijn in Adobe Experience Platform. Raadpleeg voor meer informatie over auditlogs, zoals hoe u deze kunt weergeven en beheren in de gebruikersinterface of de API voor meer informatie [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html).
+Elke actie wordt opgenomen met metagegevens in &quot;auditlogs&quot; die toegankelijk zijn in Adobe Experience Platform. Raadpleeg voor meer informatie over auditlogboeken, zoals hoe u deze kunt weergeven en beheren in de gebruikersinterface of de API voor meer informatie [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html).
 
 ![](assets/audit-logs.png)
 
@@ -36,18 +36,17 @@ In de volgende tabel wordt aangegeven op welke acties Journey Optimizer-bronnen 
 
 >[!NOTE]
 >
->De volledige lijst met acties die in de auditlogboeken zijn vastgelegd, is beschikbaar in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html#category).
+>De volledige lijst met acties die in de auditlogboeken zijn vastgelegd, is beschikbaar in [Documentatie over de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html#category).
 
-| Resource | Actie |
+| Bron | Actie |
 |-----------|------------------|
-| AJO-campagne | Maken / Verwijderen / Bijwerken / Activeren / Stoppen |
+| AJO-campagne | Maken/verwijderen/bijwerken/activeren/stoppen |
 | Algemene instelling AJO-kanaal | Maken/verwijderen/bijwerken |
 | AJO IP-pool | Maken/verwijderen/bijwerken |
 | AJO-openingspagina | Maken/Verwijderen/Bijwerken/Publiceren/Publiceren ongedaan maken |
 | HTML-sjabloon AJO-landingspagina | Maken/verwijderen/bijwerken |
 | Voorinstelling voor AJO-openingspagina | Maken/verwijderen/bijwerken |
 | Subdomein van AJO-landingspagina | Maken/verwijderen/bijwerken |
-| AJO-bericht | Maken/verwijderen/bijwerken/publiceren |
 | Voorinstelling voor AJO-bericht | Maken/verwijderen/bijwerken |
 | AJO PTR-record | Maken/verwijderen/bijwerken |
 | AJO-sjabloon voor opgeslagen expressie | Maken/verwijderen/bijwerken |
@@ -55,7 +54,7 @@ In de volgende tabel wordt aangegeven op welke acties Journey Optimizer-bronnen 
 | AJO-subdomein | Maken/verwijderen/bijwerken |
 | AJO-suppressielijst | CSV maken/verwijderen/downloaden |
 | Veldgroep | Maken/verwijderen/bijwerken |
-| Reis | Maken / Verwijderen / Bijwerken / Stoppen / Publiceren |
+| Reis | Maken/verwijderen/bijwerken/stoppen/publiceren |
 | Aangepaste actie voor reizen | Maken/verwijderen/bijwerken |
 | Gegevensbron voor reis | Maken/verwijderen/bijwerken |
 | Journaal | Maken/verwijderen/bijwerken |

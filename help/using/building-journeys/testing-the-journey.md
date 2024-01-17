@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: test, reis, controle, fout, oplossen
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1519'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Voer de volgende stappen uit om de testmodus te gebruiken:
 
 ## Belangrijke opmerkingen {#important_notes}
 
-* In de testmodus kunt u gebeurtenissen starten met de interface.
+* In de testmodus kunt u gebeurtenissen starten met de interface. Gebeurtenissen kunnen niet worden geactiveerd vanaf externe systemen die een API gebruiken.
 * Alleen personen die zijn gemarkeerd als &quot;testprofielen&quot; in de realtime klantenprofielservice mogen de geteste reis betreden. Zie dit [sectie](../audience/creating-test-profiles.md).
 * De testmodus is alleen beschikbaar voor conceptochten waarbij een naamruimte wordt gebruikt. In de testmodus moet worden nagegaan of een persoon die de reis betreedt een testprofiel is en moet hij dus Adobe Experience Platform kunnen bereiken.
 * Het maximumaantal testprofielen dat een reis tijdens een testsessie kan betreden, is 100.
@@ -137,9 +137,9 @@ De **[!UICONTROL Show log]** kunt u de testresultaten bekijken. Op deze pagina w
 
 Het aantal personen (technisch gesproken worden ze instanties genoemd) dat zich momenteel in de reis bevindt, wordt weergegeven. Hier volgt nuttige informatie die voor elk individu wordt weergegeven:
 
-* _Id_: de interne id van de betrokkene tijdens de reis. Dit kan voor het zuiveren doeleinden worden gebruikt.
+* _Id_: de interne id van het individu tijdens de reis. Dit kan voor het zuiveren doeleinden worden gebruikt.
 * _huidige stap_: de stap waar de persoon op reis is. We raden u aan labels aan uw activiteiten toe te voegen om ze gemakkelijker te kunnen identificeren.
-* _huidige stap_ > fase: de status van de individuele reis (loopt, gebeëindigd, fout of getimed uit). Zie hieronder voor meer informatie.
+* _huidige stap_ > fase: de status van de reis van de betrokkene (aflopend, voltooid, fout of time-out). Zie hieronder voor meer informatie.
 * _huidige stap_ > _extraInfo_: beschrijving van de fout en andere contextuele informatie.
 * _huidige stap_ > _fetchErrors_: informatie over fouten met opgehaalde gegevens die tijdens deze stap zijn opgetreden.
 * _externalKeys_: de waarde voor de sleutelformule die in de gebeurtenis wordt gedefinieerd.
