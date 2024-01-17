@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d18b24f6afcd64745fe7bd3b3bc9832342b91c7b
+source-git-commit: a53af66d052ee8041164184755ba80e4ab3cca0a
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '969'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,15 @@ ht-degree: 0%
 >title="Selecteer het campagnepubliek"
 >abstract="In deze lijst worden alle beschikbare Adobe Experience Platform-soorten publiek weergegeven. Selecteer het publiek voor uw campagne. Het bericht dat in de campagne wordt gevormd zal naar alle individuen worden verzonden die tot het geselecteerde publiek behoren. [Meer informatie over publiek](../audience/about-audiences.md)"
 
-Een publiek is een groep personen die vergelijkbare gedragingen en/of kenmerken delen. Ze kunnen door Adobe Experience Platform worden gegenereerd met behulp van segmentdefinities of publiekscompositie, of worden geïmporteerd uit een CSV-bestand. Meer informatie over het publiek in de [Adobe Experience Platform Segmentation Service-documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
+Een publiek is een groep personen die vergelijkbare gedragingen en/of kenmerken delen. Meer informatie over het publiek in de [Adobe Experience Platform Segmentation Service-documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
 
 [!DNL Journey Optimizer] biedt u de mogelijkheid om Adobe Experience Platform-publiek rechtstreeks te maken vanuit de **[!UICONTROL Audiences]** en gebruikt u deze voor reizen of campagnes.
+
+Soorten publiek kan op verschillende manieren worden gegenereerd:
+
+* **Segmentdefinities**: Maak een nieuwe publieksdefinitie met Adobe Experience Platform Segmentation Service. [Leer hoe te om segmentdefinities te bouwen](creating-a-segment-definition.md)
+* **CSV-bestand importeren**: Importeer een publiek met een CSV-bestand. Meer informatie over het importeren van soorten publiek in Adobe Experience Platform [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
+* **Samenstelling publiek**: Maak een compositieworkflow om bestaande Adobe Experience Platform-soorten publiek te combineren tot een visueel canvas en gebruik verschillende activiteiten (splitsen, uitsluiten...) om een nieuw publiek te maken. [Aan de slag met publiekscompositie](get-started-audience-orchestration.md)
 
 ## Gebruik publiek in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
