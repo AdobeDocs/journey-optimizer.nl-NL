@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: a53af66d052ee8041164184755ba80e4ab3cca0a
+source-git-commit: cdcce470481393c821d1c5df95639602510a690a
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 0%
+source-wordcount: '990'
+ht-degree: 1%
 
 ---
 
@@ -37,14 +37,17 @@ Soorten publiek kan op verschillende manieren worden gegenereerd:
 * **CSV-bestand importeren**: Importeer een publiek met een CSV-bestand. Meer informatie over het importeren van soorten publiek in Adobe Experience Platform [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 * **Samenstelling publiek**: Maak een compositieworkflow om bestaande Adobe Experience Platform-soorten publiek te combineren tot een visueel canvas en gebruik verschillende activiteiten (splitsen, uitsluiten...) om een nieuw publiek te maken. [Aan de slag met publiekscompositie](get-started-audience-orchestration.md)
 
-## Gebruik publiek in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+## Doelpubliek in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
 U kunt in campagnes en reizen elk Adobe Experience Platform-publiek selecteren dat wordt gegenereerd met [segmentdefinities](../audience/creating-a-segment-definition.md).
 
 >[!NOTE]
 >
->Bovendien kunt u ook Adobe Experience Platform-doelgroepen gebruiken die zijn gemaakt met [publiekscomposities](../audience/get-started-audience-orchestration.md) of [geüpload vanuit een CSV-bestand](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. Deze mogelijkheden zijn momenteel beschikbaar als een persoonlijke bètaversie.
-
+>Vooralsnog is het publiek het resultaat van [publiekscomposities](../audience/get-started-audience-orchestration.md) alleen in campagnes kunnen worden gericht. Deze mogelijkheid is beschikbaar als een persoonlijke bètaversie voor reizen.
+>
+>Het gebruik van soorten publiek [geüpload vanuit een CSV-bestand](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} in campagnes en reizen is momenteel een persoonlijke bètaversie beschikbaar .
+>
+>Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 U kunt het publiek benutten in **[!DNL Journey Optimizer]** op verschillende manieren:
 
