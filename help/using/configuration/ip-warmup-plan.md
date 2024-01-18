@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: da90e817edac44712f6f137d13574165c834e53a
+source-git-commit: a5b3cd4eba18789d6014a7288ce6b0678a07982e
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 1%
+source-wordcount: '1513'
+ht-degree: 0%
 
 ---
 
@@ -82,9 +82,14 @@ Deze activiteit wordt vaak uitgevoerd met de hulp van een leverbaarheidsdeskundi
 
 Alvorens een IP warmlopingsplan in te kunnen creëren [!DNL Journey Optimizer] interface, moet u een malplaatje van Excel met alle gegevens invullen die uw plan zullen voeren.
 
-* Vanuit de gebruikersinterface kunt u de lege Excel downloaden [Sjabloon voor IP-opwarmingsplan](assets/IPWarmupPlan-Template.xlsx) in.
+<!--
+* From the user interface you can download the blank Excel [IP warmup plan template](assets/IPWarmupPlan-Template.xlsx) to fill in.
 
-* U kunt ook een [steekproefIP warmtecontract](assets/IPWarmupPlan-Sample.xlsx) al ingevuld met gegevens die u als voorbeeld kunt gebruiken.
+* You can also download a [sample IP warmup plan](assets/IPWarmupPlan-Sample.xlsx) already filled in with some data you can use as an example.-->
+
+* Van het gebruikersinterface kunt u het lege malplaatje van het de opwarmingsplan van Excel downloaden IP om in te vullen.
+
+* U kunt een steekproefIP warmteopnameplan ook downloaden dat reeds met sommige gegevens wordt gevuld u als voorbeeld kunt gebruiken.
 
 >[!CAUTION]
 >
@@ -265,7 +270,8 @@ Elk domein wordt nu in een andere kolom op dezelfde rij weergegeven.
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_upload"
 >title="Specificeer uw IP warmtekrachtplan"
->abstract="Download het malplaatje CSV en vul het met gegevens voor IP warmup fasen en doelaantal profielen."
+>abstract="Vul het malplaatje van Excel met alle gegevens in die uw plan, zoals IP warmup fasen en doelaantal profielen zullen voeren, en upload het hier."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/implement-ip-warmup-plan/ip-warmup-plan.html#prepare-file" text="Bereid het IP dossier van het warmlopingsplan voor"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
