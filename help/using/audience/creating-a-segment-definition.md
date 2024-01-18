@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 3de42084d849047f218cf8dca2ad7e510759fb1c
+source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 4%
+source-wordcount: '387'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"
 >title="Een regel maken"
->abstract="Met de methode voor het maken van buildregels kunt u een nieuwe publieksdefinitie maken met Adobe Experience Platform Audienation Service."
+>abstract="Met de methode voor het maken van buildregels kunt u een nieuwe publieksdefinitie maken met Adobe Experience Platform Segmentation Service."
 
 In dit voorbeeld bouwen we een publiek dat gericht is op alle klanten die in Atlanta, San Francisco of Seattle wonen en na 1980 geboren zijn. Al deze klanten hadden de toepassing Luma in de laatste 7 dagen moeten openen en vervolgens binnen 2 uur na het openen van de toepassing een aankoop moeten doen.
 
