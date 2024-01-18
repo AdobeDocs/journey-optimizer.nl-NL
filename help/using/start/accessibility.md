@@ -7,7 +7,7 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 72e192538b6dd2f0cf50e4d6ce8d5b2b789308d4
+source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 2%
@@ -88,8 +88,7 @@ U kunt deze sneltoetsen gebruiken in specifieke gebieden van [!DNL Journey Optim
     <td>SHIFT + PIJL-toetsen</td>
   </tr>  
   <tr>
-
-<td rowspan="3">
+  <td rowspan="3">
   Configuratievenster van deze elementen:
 <ul>
   <li>Activiteit in een reis</li>
@@ -97,8 +96,7 @@ U kunt deze sneltoetsen gebruiken in specifieke gebieden van [!DNL Journey Optim
   <li>Gegevensbron</li>
   <li>Actie</li>
 </ul>
-
-</td>
+  </td>
     <td>Ga naar het volgende veld dat moet worden geconfigureerd</td>
     <td>Tabtoets</td>
   </tr>
@@ -120,11 +118,7 @@ U kunt deze sneltoetsen gebruiken in specifieke gebieden van [!DNL Journey Optim
     <td>E</td>
   </tr>
   <tr>
-    <td>
-
-Een gebeurtenis activeren in een op het publiek gebaseerde reis waarvoor de **[!UICONTROL Single profile at a time]** optie is ingeschakeld
-
-</td>
+    <td>Een gebeurtenis activeren op een publieksreis waarvoor de **[!UICONTROL Single profile at a time]** optie is ingeschakeld</td>
     <td>P</td>
   </tr>
   <tr>
