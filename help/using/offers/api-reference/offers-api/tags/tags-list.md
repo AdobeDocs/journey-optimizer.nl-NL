@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
-source-git-commit: ba7d065523116c12e22eec300df13c29d92a54fb
+source-git-commit: 28c811c330d367c1a99bdd8184a62b1dd45b608d
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 1%
@@ -33,7 +33,7 @@ GET /{ENDPOINT_PATH}/tags?{QUERY_PARAMS}
 | `{ENDPOINT_PATH}` | Het eindpuntpad voor persistentie-API&#39;s. | `https://platform.adobe.io/data/core/dps` |
 | `{QUERY_PARAMS}` | Optionele queryparameters om resultaten te filteren op. | `limit=2` |
 
-### Paginering {#paging}
+## Paginering {#paging}
 
 De gemeenschappelijkste vraagparameters voor het pagineren omvatten:
 
