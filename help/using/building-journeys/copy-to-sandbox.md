@@ -9,9 +9,9 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: zandbak, reis, exemplaar, milieu
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: b4fda6a0bd3e633811c16ef6dc3a3171b3b350c8
+source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '740'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Op deze pagina wordt het gebruik-hoofdlettergebruik voor Sandbox-gereedschappen 
 
 >[!NOTE]
 >
->Voor deze functie zijn de volgende machtigingen vereist: manage-sandbox (of view-sandbox) en manage-package.
+>Voor deze functie zijn de volgende machtigingen vereist van de **Toediening van sandbox** mogelijkheid: sandboxen beheren (of sandboxen weergeven) en pakketten beheren. [Meer informatie](../administration/ootb-permissions.md)
 
 ## Aan de slag met sandboxgereedschappen{#sandbox-gs}
 
