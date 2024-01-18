@@ -7,16 +7,16 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 1f747604a8658a285c5ec67018c70cd58d2fb068
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '529'
 ht-degree: 2%
 
 ---
 
 # Toegankelijkheid in Journey Optimizer{#accessibility}
 
-Toegankelijkheid heeft betrekking op een reeks functies die een softwareproduct zo weinig mogelijk bruikbaar maken voor gebruikers met een visuele, auditieve, cognitieve, motorische of andere handicap. Adobe is marktleider op het gebied van toegankelijkheid en ondersteunt het creëren van uitstekende webervaringen door ontwikkelaars aan te moedigen rijke, aantrekkelijke inhoud te produceren die voor alle gebruikers toegankelijk is. Meer informatie over Adobe voor toegankelijkheid in de [Pagina Toegankelijkheid Adobe](https://www.adobe.com/accessibility.html){target="_blank"}.
+Toegankelijkheid heeft betrekking op een reeks functies die een softwareproduct zo weinig mogelijk bruikbaar maken voor gebruikers met een visuele, auditieve, cognitieve, motorische of andere handicap. Adobe is een toonaangevende sector op het gebied van toegankelijkheid en ondersteunt het creëren van uitstekende webervaringen door ontwikkelaars aan te moedigen rijke, aantrekkelijke inhoud te produceren die voor alle gebruikers toegankelijk is. Meer informatie over de betrokkenheid van de Adobe bij toegankelijkheid vindt u in de [Toegankelijkheidspagina voor Adobe](https://www.adobe.com/accessibility.html){target="_blank"}.
 
 Om het doel van toegankelijkheidsconformiteit te helpen bereiken, [!DNL Journey Optimizer] volgt de internationaal erkende beste praktijken in de Web Content Accessibility Guidelines (WCAG) 2.1 Niveau A en Niveau AA. Meer informatie in de nieuwste [Toegankelijkheidsrapport van Adobe Journey Optimizer](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}.
 
@@ -55,7 +55,7 @@ U kunt deze sneltoetsen gebruiken in specifieke gebieden van [!DNL Journey Optim
     <td>C</td>
   </tr>
   <tr>
-    <td rowspan="3">Reis canvas in conceptstatus</td>
+    <td rowspan="8">Reis canvas in conceptstatus</td>
     <td>Voeg een activiteit van het linkerpalet bij de eerste beschikbare positie toe, van boven tot onder</td>
     <td>Dubbelklik op de activiteit</td>
   </tr>
