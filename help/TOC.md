@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 299b34dec2e864fff5eb874b3fd491da80bc0c16
+source-git-commit: 47598318d2d411d98aa9fa135679442f25b703c7
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1721'
 ht-degree: 31%
 
 ---
@@ -533,6 +533,7 @@ ht-degree: 31%
       + [IP-warmtecampagnes maken](using/configuration/ip-warmup-campaign.md)
       + [Creeer een IP warmlopingsplan](using/configuration/ip-warmup-plan.md)
       + [Voer het IP-opwarmingsplan uit](using/configuration/ip-warmup-execution.md)
+      + [IP-bestanden voor opwarmingsplannen](using/configuration/ip-warmup-plan-files.md)
    + E-mailadressen controleren {#monitor-reputation}
       + [Onderdrukkingslijst](using/configuration/manage-suppression-list.md)
       + [Opnieuw](using/configuration/retries.md)
