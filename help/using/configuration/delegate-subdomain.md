@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomein, delegatie, domein, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
+source-git-commit: ff7494b5f9ece7943aecf2628c6a338e9ee7d4b0
 workflow-type: tm+mt
-source-wordcount: '1788'
+source-wordcount: '1710'
 ht-degree: 5%
 
 ---
@@ -85,8 +85,6 @@ Volg de onderstaande stappen om een nieuw subdomein volledig te delegeren aan Ad
    >
    >U kunt de records maken en de subdomeinconfiguratie later verzenden met de opdracht **[!UICONTROL Save as draft]** knop. Vervolgens kunt u de subdomeindelegatie hervatten door deze te openen vanuit de lijst met subdomeinen.
 
-1. Als het subdomein geen DMARC-records heeft, kunt u deze hier instellen. Als subdomain bestaande DMARC verslagen had, en als zij door werden gehaald [!DNL Journey Optimizer]kunt u dezelfde waarden gebruiken of wijzigen als u wilt. Meer informatie
-
 1. Nadat de volledige subdomeindelegatie is verzonden, wordt het subdomein weergegeven in de lijst met de **[!UICONTROL Processing]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](about-subdomain-delegation.md#access-delegated-subdomains).
 
    ![](assets/subdomain-processing.png)
@@ -156,8 +154,6 @@ Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volge
    >[!NOTE]
    >
    >U kunt de records later maken met de opdracht **[!UICONTROL Save as draft]** knop. Vervolgens kunt u de subdomeindelegatie in dit stadium hervatten door deze vanuit de lijst met subdomeinen te openen.
-
-1. Als het subdomein geen DMARC-records heeft, kunt u deze hier instellen. Als subdomain bestaande DMARC verslagen had, en als zij door werden gehaald [!DNL Journey Optimizer]kunt u dezelfde waarden gebruiken of wijzigen als u wilt. Meer informatie
 
 1. Wacht tot de Adobe controleert of deze verslagen zonder fouten op uw het ontvangen oplossing worden geproduceerd. Dit proces kan tot 2 minuten duren.
 
