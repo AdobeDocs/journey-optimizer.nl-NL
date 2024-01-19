@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomein, domein, mail, dmarc, record
-source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
+source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -61,7 +61,7 @@ DMARC, die staat voor **Op domein-gebaseerde Authentificatie van het Bericht, Ra
 
 Het vestigen van een DMARC- verslag impliceert het toevoegen van een DNS TXT- verslag aan DNS van uw domein montages. Dit verslag specificeert uw beleid DMARC, zoals of aan quarantaine of verwerpt berichten die authentificatie ontbreken. Het uitvoeren van DMARC is een pro-actieve stap om e-mailveiligheid te verbeteren en zowel uw organisatie als uw ontvangers tegen e-mailgebaseerde bedreigingen te beschermen.
 
-[Meer informatie over DMARC vindt u in de gids over best practices voor levering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=nl){target="_blank"} om beter inzicht te krijgen in de impact van DMARC op e-mailleverbaarheid.
+[Meer informatie over DMARC vindt u in de gids over best practices voor levering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} om beter inzicht te krijgen in de impact van DMARC op e-mailleverbaarheid.
 
 Als u geen DMARC toevoegt, zult u (minstens) in quarantaine worden geplaatst.
 

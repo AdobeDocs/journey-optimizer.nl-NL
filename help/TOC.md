@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5565c98e41e0abc9ae93f85cb12679e372e6d36f
+source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
 workflow-type: tm+mt
 source-wordcount: '1724'
 ht-degree: 31%
@@ -357,6 +357,7 @@ ht-degree: 31%
    + Leverbaarheid {#deliverability}
       + [Aan de slag met de prestaties](using/reports/deliverability.md)
       + [De onderdrukkingslijst begrijpen](using/reports/suppression-list.md)
+      + [Verplichte DMARC-update](using/configuration/dmarc-record-update.md)
    + [Foutredenen](using/reports/error-list.md)
    + [Waarschuwingen](using/reports/alerts.md)
    + [Werken met Customer Journey Analytics](using/reports/cja-ajo.md)
@@ -528,7 +529,6 @@ ht-degree: 31%
       + [Een Google TXT-record toevoegen](using/configuration/google-txt.md)
       + [PTR-records openen en bewerken](using/configuration/ptr-records.md)
       + [IP-pools maken](using/configuration/ip-pools.md)
-      + [DMARC-recordupdate](using/configuration/dmarc-record-update.md)
    + Voer een IP warmlopingsplan uit {#implement-ip-warmup-plan}
       + [Ga aan de slag met IP-opwarmingsplannen](using/configuration/ip-warmup-gs.md)
       + [IP-warmtecampagnes maken](using/configuration/ip-warmup-campaign.md)
