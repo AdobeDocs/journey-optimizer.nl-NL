@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomein, domein, mail, dmarc, record
-source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
+source-git-commit: f9d3234a64ad659660c2d2c4ad24ab5c240cb857
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -20,31 +20,44 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="De DMARC-record instellen"
->abstract="Plaats DMARC verslag om leveringskwesties met ISPs te vermijden"
+>abstract="Plaats DMARC verslag om leveringskwesties met ISPs te vermijden. Google en Yahoo vereisen als onderdeel van hun afdwingbare best practices in de branche dat u een DMARC-record hebt voor elk domein dat u gebruikt om e-mail naar hen te verzenden."
 
 >[!CAUTION]
 >
->Na de recente Gmail en Yahoo aankondigingen voor bulkafzenders, steunt Journey Optimizer nu de DMARC authentificatietechnologie. //U moet alle subdomeinen die u al voor uw instantie hebt gemaakt bijwerken om DMARC-ondersteuning op te nemen.//
+>Na de recente Gmail en Yahoo aankondigingen voor bulkafzenders, steunt Journey Optimizer nu de DMARC authentificatietechnologie.
 
-Het is belangrijk om het tegen 1 februari te doen Doc zal spoedig komen
+<!--TO ADD TO AJO HOME PAGE (first tab)
 
-Starten bij
+>[!TAB Mandatory DMARC update]
 
-U hebt twee opties:
+As part of their enforcing industry best practices, Google and Yahoo will both be requiring that you have a DMARC record for any domain you use to send email to them, starting on **February 1st, 2024**. Make sure that you have DMARC record set up for all the subdomains that you have delegated to Adobe in Journey Optimizer.
 
-* Doe het nu op uw eigen manier: stel het in met uw IT-afdeling - wanneer u wilt
+[![image](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
+-->
 
-* Doe het in AJO - maar in dat geval moet je wachten tot 30 jan.
+Google en Yahoo zullen als onderdeel van hun afdwingbare best practices in de branche eisen dat u een **DMARC-record** voor elk domein dat u gebruikt om e-mail naar hen te verzenden. Deze nieuwe eis begint op **1 februari 2024**.
 
-   * Volledige delegatie: u kunt dit doen op 30 januari (AJO-release)
+Meer informatie over Google en Yahoo&#39;s vereisten in [deze sectie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
 
-   * CNAME plant het met uw afdeling van IT zodat is het niet tijdrovend maar u moet het plannen
+>[!CAUTION]
+>
+>Als Gmail en Yahoo niet aan deze nieuwe eis voldoen, zullen e-mails naar de map spam landen of geblokkeerd raken.
 
-Google en Yahoo hebben als onderdeel van hun best practices in de branche hun best practices afgedwongen dat u een DMARC-record hebt voor elk domein dat u gebruikt om e-mail naar hen te verzenden. Deze nieuwe eis begint op **1 februari 2024**.
+Daarom raadt de Adobe u ten zeerste aan ervoor te zorgen dat u een DMARC-record hebt ingesteld voor alle subdomeinen die u hebt gedelegeerd aan Adobe in [!DNL Journey Optimizer]. Voer een van de volgende twee opties uit:
 
-Meer informatie over Google en Yahoo&#39;s vereisten voor DMARC-record vindt u in [deze sectie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+* Stel DMARC in op uw subdomeinen of op het bovenliggende domein van uw subdomeinen. **in uw hostingoplossing**.
 
-Meer informatie over de aangekondigde wijzigingen vindt u op Google en Yahoo [deze pagina](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+* DMARC instellen op uw gedelegeerde subdomeinen **met de nieuwe functie in het dialoogvenster [!DNL Journey Optimizer] beheer-interface** - zonder extra werk voor uw hostingoplossing. [Meer informatie](#implement-dmarc)
+
+  >[!CAUTION]
+  >
+  >Als u hebt ingesteld [CNAME-delegatie](delegate-subdomain.md#cname-subdomain-delegation) voor uw verzendende subdomeinen, zal het ook wat ingang in uw het ontvangen oplossing vereisen. Zorg ervoor dat u coördineert met uw IT-afdeling zodat deze de update kan uitvoeren zodra de [!DNL Journey Optimizer] is beschikbaar (30 januari 2024). <!--and be ready on February 1st, 2024-->
+
+>[!NOTE]
+>
+>Meer informatie over het implementeren van DMARC in het dialoogvenster [Handleiding voor best practices voor levering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} om beter inzicht te krijgen in de gevolgen voor de e-mailleverbaarheid.
+
+## Wat is DMARC?
 
 DMARC, die staat voor **Op domein-gebaseerde Authentificatie van het Bericht, Rapportering, en Conformiteit**, is een e-mailverificatieprotocol dat bescherming biedt tegen spoofing, phishing en andere frauduleuze activiteiten.
 
@@ -61,21 +74,26 @@ DMARC, die staat voor **Op domein-gebaseerde Authentificatie van het Bericht, Ra
 
 Het vestigen van een DMARC- verslag impliceert het toevoegen van een DNS TXT- verslag aan DNS van uw domein montages. Dit verslag specificeert uw beleid DMARC, zoals of aan quarantaine of verwerpt berichten die authentificatie ontbreken. Het uitvoeren van DMARC is een pro-actieve stap om e-mailveiligheid te verbeteren en zowel uw organisatie als uw ontvangers tegen e-mailgebaseerde bedreigingen te beschermen.
 
-[Meer informatie over DMARC vindt u in de gids over best practices voor levering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"} om beter inzicht te krijgen in de impact van DMARC op e-mailleverbaarheid.
+## DMARC implementeren {#implement-dmarc}
 
-Als u geen DMARC toevoegt, zult u (minstens) in quarantaine worden geplaatst.
+* Als u geen DMARC toevoegt, zult u (minstens) in quarantaine worden geplaatst.
 
-zorg ervoor dat u een echte postvak hebt waarin u de gegevens kunt ontvangen - u beheert deze postvak (mag geen Adobe-inbox zijn)
+* Zorg ervoor dat u een echte inbox hebt waar u in uw controle kunt ontvangen - u beheert dit inbox (zou geen Adobe inbox moeten zijn)
 
-De aanbeveling is 24 omdat, als minder, uw capaciteit over het algemeen evalueert/uw > praatje GPT controleert
+De aanbeveling is 24 omdat over het algemeen dit is wat ISPs heeft.
+als minder, evalueer uw capaciteit / controleer uw > praatje GPT
 
-Google en Yahoo, en waarschijnlijk alle andere belangrijkste ISP&#39;s
+Als een DMARC-record wordt gedetecteerd, kunt u dezelfde waarden kopiëren en plakken als in de lijst staan of deze waarden indien nodig wijzigen.
 
-voor CNAME in de editie moet u het CSV-bestand opnieuw downloaden (niet voor volledig gedelegeerde versie)
+Als u niets plaatst, worden standaardwaarden gebruikt.
 
-nieuwe DMARC-record
+### Volledig gedelegeerde subdomeinen
 
-In RN > put it first Alle subdomeinen moeten worden bijgewerkt met DMARC-ondersteuning
+### Subdomeinen die zijn gedelegeerd met CNAME
+
+voor CNAME in de versiestroom moet u het CSV-bestand opnieuw downloaden (niet voor volledig gedelegeerde versie)
+
+
 
 
 
