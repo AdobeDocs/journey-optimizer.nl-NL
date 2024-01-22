@@ -10,7 +10,7 @@ level: Experienced
 keywords: subdomein, domein, mail, dmarc, record
 hide: true
 hidefromtoc: true
-source-git-commit: b67b53b7a3ea6d2daee223a5579696d0e5637c44
+source-git-commit: a93f1c81cceaee4f55cd7555284c4d8016ed4e21
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Daarom raadt de Adobe u ten zeerste aan ervoor te zorgen dat u een DMARC-record 
    * DMARC instellen op uw subdomeinen of op het bovenliggende domein van uw subdomeinen **in uw hostingoplossing**.
    * DMARC instellen op uw gedelegeerde subdomeinen **de volgende functie gebruiken in het dialoogvenster [!DNL Journey Optimizer] beheer-interface**. Nochtans, zal het ook ingang in uw het ontvangen oplossing vereisen. Daarom moet u ervoor zorgen dat u uw IT-afdeling coördineert, zodat deze de update kan uitvoeren zodra de [!DNL Journey Optimizer] is beschikbaar (op 30 januari). <!--and be ready on February 1st, 2024-->
 
-Meer informatie over de [!DNL Journey Optimizer] De aanstaande functie DMARC zal binnenkort verschijnen.
+**Meer informatie over de [!DNL Journey Optimizer] De aanstaande functie DMARC zal binnenkort verschijnen.**
 
 >[!NOTE]
 >
