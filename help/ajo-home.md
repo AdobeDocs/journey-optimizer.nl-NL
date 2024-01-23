@@ -5,7 +5,7 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 8a2c17e7ae61812a52e5653119e269a5d0f6369e
+source-git-commit: 1124de3e38eee72eb545c6d5a40a5a8f5de80181
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 15%
@@ -20,7 +20,7 @@ Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en
 
 >[!BEGINTABS]
 
-[!TAB Verplichte DMARC-update]
+>[!TAB Verplichte DMARC-update]
 
 Google en Yahoo zullen als onderdeel van hun afdwingbare best practices in de branche eisen dat u een **DMARC-record** voor elk domein dat u gebruikt om e-mail naar hen te verzenden, vanaf **1 februari 2024**. Zorg ervoor dat u DMARC- verslag opstelling voor alle subdomeinen hebt die u aan Adobe in Journey Optimizer hebt gedelegeerd.
 
