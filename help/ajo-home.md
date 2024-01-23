@@ -5,10 +5,10 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 4b1de4d1c62c917ce760b3739242671e5c274357
+source-git-commit: 8a2c17e7ae61812a52e5653119e269a5d0f6369e
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 18%
+source-wordcount: '420'
+ht-degree: 15%
 
 ---
 
@@ -20,13 +20,19 @@ Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en
 
 >[!BEGINTABS]
 
+[!TAB Verplichte DMARC-update]
+
+Google en Yahoo zullen als onderdeel van hun afdwingbare best practices in de branche eisen dat u een **DMARC-record** voor elk domein dat u gebruikt om e-mail naar hen te verzenden, vanaf **1 februari 2024**. Zorg ervoor dat u DMARC- verslag opstelling voor alle subdomeinen hebt die u aan Adobe in Journey Optimizer hebt gedelegeerd.
+
+[![afbeelding](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
+
 >[!TAB Gereedschap Sandbox]
 
 Met gereedschappen voor sandboxen kunt u objecten kopiëren naar meerdere sandboxen door gebruik te maken van exporteren en importeren van pakketten. Een pakket kan uit één object of uit meerdere objecten bestaan. Alle objecten die in een pakket zijn opgenomen, moeten afkomstig zijn uit dezelfde sandbox.
 
 [![afbeelding](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
 
->[!TAB MMS (Multimedia Message Service) in SMS]
+>[!TAB MMS in SMS]
 
 Met het Kanaal van SMS, kunt u uw mededeling nu verbeteren door de MMS-berichten (Multimedia Message Service) te verzenden, toelatend het delen van beelden, GIFFEN, of video&#39;s met uw klanten. Deze functie is momenteel alleen beschikbaar voor Sinch.
 
