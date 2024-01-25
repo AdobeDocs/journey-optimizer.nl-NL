@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 5d20a720ddfb2907a1f3ebaff3c67b9f5628f9d7
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 4%
+source-wordcount: '614'
+ht-degree: 1%
 
 ---
 
@@ -109,7 +109,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
    ![](assets/action-response4.png){width="80%" align="left"}
 
-   Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payloadvoorbeeld zijn opgenomen.
+   Telkens wanneer de API wordt aangeroepen, haalt het systeem alle velden op die in het payload-voorbeeld zijn opgenomen.
 
 1. Laten wij ook CustomerID als vraagparameter toevoegen.
 
@@ -200,6 +200,16 @@ Hier volgen enkele voorbeelden:
  @action{<action name>.<path to the field>, defaultValue: <default value expression>}
  @action{ActionLoyalty.points, defaultValue: 0}
  @action{ActionLoyalty.points, defaultValue: @{myEvent.newPoints}}
+```
+
+Tijdens het manipuleren van verzamelingen in een aangepaste actie-reactie kunt u erop vertrouwen dat &quot;currentActionField&quot; toegang heeft tot het huidige item:
+
+```json
+count(
+@action{MyAction.MyCollection.all(
+currentActionField.description == "abc"
+)}
+)
 ```
 
 Zie voor meer informatie over veldverwijzingen [deze sectie](../building-journeys/expression/field-references.md).
