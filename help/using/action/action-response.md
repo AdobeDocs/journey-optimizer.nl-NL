@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 5d20a720ddfb2907a1f3ebaff3c67b9f5628f9d7
+source-git-commit: 410db8a56781c5442122f92fa692a3ce4e03a5f9
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 1%
+source-wordcount: '619'
+ht-degree: 3%
 
 ---
 
@@ -212,4 +212,9 @@ currentActionField.description == "abc"
 )
 ```
 
-Zie voor meer informatie over veldverwijzingen [deze sectie](../building-journeys/expression/field-references.md).
+## Aanvullende bronnen
+
+Raadpleeg deze pagina’s voor meer informatie:
+
+* [Veldverwijzingen](../building-journeys/expression/field-references.md).
+* [Functies voor het beheer van verzamelingen](../building-journeys/expression/collection-management-functions.md)
