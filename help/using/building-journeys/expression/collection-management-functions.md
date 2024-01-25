@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: query, collecties, functies, lading, reis
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2ab738463ebad087c9fe9768b7bc7f634cf46ea6
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 1%
+source-wordcount: '613'
+ht-degree: 0%
 
 ---
 
@@ -69,7 +69,7 @@ De **[!UICONTROL all]** functie laat de definitie van een filter op een bepaalde
 <listExpression>.all(<condition>)
 ```
 
-Zo kunt u onder alle gebruikers van de app de toepassingen ophalen met IOS 13 (Booleaanse expressie &quot;app used == IOS 13&quot;). Het resultaat van deze functie is de gefilterde lijst met items die overeenkomen met de booleaanse expressie (voorbeeld: app-gebruiker 1, app-gebruiker 34, app-gebruiker 432).
+Zo kunt u onder alle gebruikers van de app de toepassingen ophalen met IOS 13 (Booleaanse expressie &quot;app used == IOS 13&quot;). Het resultaat van deze functie is de gefilterde lijst met items die overeenkomen met de booleaanse expressie (bijvoorbeeld: app-gebruiker 1, app-gebruiker 34, app-gebruiker 432).
 
 In een activiteit van de Voorwaarde van de Gegevensbron kunt u controleren of het resultaat van **[!UICONTROL all]** functie is null of niet. U kunt dit ook combineren **[!UICONTROL all]** functies met andere functies, zoals **[!UICONTROL count]**. Zie voor meer informatie [Voorwaarde van gegevensbron, activiteit](../condition-activity.md#data_source_condition).
 
@@ -169,10 +169,11 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** is alleen beschikbaar bij het manipuleren van gebeurtenisverzamelingen en **currentDataPackField**
->bij het manipuleren van gegevensbronverzamelingen. Bij het verwerken van verzamelingen met **[!UICONTROL all]**, **[!UICONTROL first]** en **[!UICONTROL last]**, wij
->loop elk element van de inzameling één voor één. **[!UICONTROL currentEventField]** en **currentDataPackField**
->komt overeen met het element dat wordt herhaald.
+>**[!UICONTROL currentEventField]** alleen beschikbaar is bij het manipuleren van verzamelingen gebeurtenissen; **[!UICONTROL currentDataPackField]**
+bij het manipuleren van gegevensbronverzamelingen en **[!UICONTROL currentActionField]** wanneer het manipuleren van de inzamelingen van de douaneactierespons.
+>
+>Bij het verwerken van verzamelingen met **[!UICONTROL all]**, **[!UICONTROL first]** en **[!UICONTROL last]**, wij
+>loop elk element van de inzameling één voor één. **[!UICONTROL currentEventField]**, **currentDataPackField** en **[!UICONTROL currentActionField]** komt overeen met het element dat wordt herhaald.
 
 **De functies &quot;first(`<condition>`)&quot; en &quot;last(`<condition>`)&quot;**
 
@@ -209,10 +210,9 @@ Het resultaat is &quot;token_2&quot;.
 >* **[!UICONTROL first]** functie retourneert de meest recente gebeurtenis
 >* **[!UICONTROL last]** functie retourneert de oudste functie.
 
-
 **Voorbeeld 3:**
 
-We controleren of de eerste (meest recente) Adobe Analytics-gebeurtenis met een waarde groter dan nul voor DMA-id een waarde heeft die gelijk is aan 602.
+We controleren of de eerste (meest recente) Adobe Analytics-gebeurtenis met een waarde groter dan nul voor DMA-id een waarde gelijk aan 602 heeft.
 
 ```json
 #{ExperiencePlatform.AnalyticsProd_EvarsProps.experienceevent.first(
