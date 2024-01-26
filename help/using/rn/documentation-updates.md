@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
+source-git-commit: 31d9189e8afd732875556b9caaa8e874f53597bb
 workflow-type: tm+mt
-source-wordcount: '4254'
+source-wordcount: '4291'
 ht-degree: 14%
 
 ---
@@ -25,6 +25,7 @@ Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey
 * Tijdlijnbeheer is gedetailleerd [in het volgende gedeelte](../building-journeys/journey-gs.md#global_timeout).
 * Journey Optimizer [documentatiehuis](../../ajo-home.md) pagina is opnieuw ontworpen.
 * Recommendations over de activiteit Profielen bijwerken is toegevoegd. [Meer informatie](../building-journeys/update-profiles.md)
+* Er is informatie toegevoegd over het gedrag van onderbrekingen in de activiteiten van gebeurtenissen tijdens reizen. Wanneer geen gebeurtenis tijdens de gespecificeerde onderbrekingsperiode wordt ontvangen, zullen de individuen de reis voortzetten als geen onderbrekingspad wordt bepaald. [Meer informatie](../building-journeys/general-events.md#events-specific-time)
 
 ## November 2023 {#nov-2023}
 
