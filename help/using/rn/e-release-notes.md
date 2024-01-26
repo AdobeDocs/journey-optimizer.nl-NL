@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 004eb41b084f32993ec437f589e4e3d2cf7500d3
+source-git-commit: 6683bfbb5569d197a2a746620cd7edc10f45b5d1
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 3%
+source-wordcount: '474'
+ht-degree: 4%
 
 ---
 
@@ -23,98 +23,61 @@ ht-degree: 3%
 
 Opmerkingen bij de eerste release hieronder kunnen zonder voorafgaande kennisgeving worden gewijzigd tot de beschikbaarheidsdatum van de release. De verbindingen, de schermen en de bijgewerkte documentatie worden gepubliceerd in [releaseopmerkingen](release-notes.md), op de datum van vrijgave.
 
-## Opmerkingen bij de vervroegde release oktober 2023 {#oct-rn-2023}
+## Opmerkingen bij de vervroegde release januari 2024 {#oct-jan-2024}
 
-**Releasedatum**: 25-26 oktober 2023
+**Releasedatum**: 20-31 januari 2024
 
-### Nieuwe functies{#oct-2023-features}
+### Nieuwe functies{#jan-2024-features}
 
 Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 
-<table>
-<thead>
-<tr>
-<th><strong>Gereedschap Sandbox</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Met gereedschappen voor sandboxen kunt u objecten kopiëren naar meerdere sandboxen door gebruik te maken van exporteren en importeren van pakketten. Een pakket kan uit één object of uit meerdere objecten bestaan. Alle objecten die in een pakket zijn opgenomen, moeten afkomstig zijn uit dezelfde sandbox.</p>
-<!--img src="../data/assets/dataset-export-setup.png"-->
-<!--p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p-->
-</td>
-</tr>
-</tbody>
-</table>
-
-<!-- table>
-<thead>
-<tr>
-<th><strong>Composed audiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use audiences created in composition workflows in your journeys to target customers. Once an audience composition is published, and the audience saved, use a Read Audience activity to select this new audience in your journey canvas.</p>
-<img src="assets/channel-reports.png"/>
-<p>For more information, refer to the <a href="../audience/get-started-audience-orchestration.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table -->
 
 <table>
 <thead>
 <tr>
-<th><strong>MMS (Multimedia Message Service) in SMS (Beta)</strong><br/></th>
+<th><strong>Updates van de leverbaarheid</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Met het Kanaal van SMS, kunt u uw mededeling nu verbeteren door de MMS-berichten (Multimedia Message Service) te verzenden, toelatend het delen van beelden, GIFFEN, of video's met uw klanten. Deze functie is momenteel alleen beschikbaar in Beta met Sinch.</p>
+<p>Journey Optimizer ondersteunt nu de DMARC-verificatietechnologie.</p>
+<p>Vanaf 1 februari 2024, Google en Yahoo! u hebt een DMARC-record nodig voor elk domein dat u gebruikt om e-mail naar hen te verzenden. Zorg ervoor dat u DMARC- verslag opstelling voor alle subdomeinen hebt hebt die u of aan Adobe in Journey Optimizer hebt gedelegeerd.</p>
 <!--img src="assets/channel-reports.png"/-->
-<!--p>For more information, refer to the <a href="../in-app/get-started-in-app.md">detailed documentation</a>.</p-->
+<p>Raadpleeg de <a href="../configuration/dmarc-record-update.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </tr>
 </tbody>
 </table>
 
-### Verbeteringen {#oct-2023-improvements}
+
+
+### Verbeteringen {#jan-2024-improvements}
 
 Deze release bevat de verbeteringen die hieronder worden vermeld.
 
-**Doelgroepen**
+**Rapportage**
 
-* U kunt nu doelgroepen kiezen die vanuit een CSV-bestand naar reizen en campagnes zijn geüpload.
-* U kunt nu doelgroepen kiezen die zijn gemaakt door de publiekscompositie en de verrijkingskenmerken van de doelgroep in de stappen.
+* **Kanaalrapporten per domein** - Er zijn nieuwe widgets toegevoegd om uw campagne- en journalistieke rapporten te verbeteren. De **Bounce Reden per domein**, **Verzonden en geleverd op domeinen**, **Opent en klikt op domein** en **Stuiteren en fouten per domein** widgets bieden een gedetailleerde uitsplitsing op domeinniveau voor belangrijke gegevens voor het verzenden van e-mail en het bijhouden van gegevens. [Meer informatie](../reports/channel-report.md)
 
->[!AVAILABILITY]
->
->Deze mogelijkheden zijn momenteel beschikbaar als een persoonlijke bètaversie.
+**SMS-kanaal**
 
-<!--
-**Spam scoring for emails**
+* **Dubbele plug-in** - De dubbele Opt-In workflow voor SMS garandeert dat gebruikers zich expliciet aanmelden om berichten te ontvangen wanneer het verzoek van hun apparaat wordt geïnitieerd. Gebruikers starten het goedkeuringsproces door een binnenkomend SMS-bericht te verzenden. Na bevestiging van hun toestemming wordt een vervolgbericht verzonden waarin om een definitieve verificatie wordt verzocht. Als een gebruikersprofiel niet bestaat, wordt het gecreeerd na succesvolle bevestiging.
 
-* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
+  Merk op dat dit slechts op de leveranciers van SMS van Sinch en Infobip van toepassing is.
 
-**Campagnes**
+**Reizen**
 
-<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* Wanneer er een fout optreedt in een van uw campagnes, verschijnt er nu een waarschuwingspictogram in de lijst met campagnes naast de status van de campagne.
+* **Duur van reactiegebeurtenissen** - De maximale duur die u kunt definiëren in het dialoogvenster **Gebeurtenissen van Reaction** is nu 29 dagen in plaats van 30. [Meer informatie](../building-journeys/reaction-events.md)
 
-**Journeys**
+* **Datumfilters** - U kunt nu aangepaste datums gebruiken om naast de bestaande vooraf gedefinieerde datumfilters de reisinventaris te filteren. Op deze manier kunt u de lijst verfijnen door ritten weer te geven die op een bepaalde datum zijn gepubliceerd, binnen een bepaalde maand, gedurende een heel jaar, of binnen een bepaald tijdsbereik.
 
-* De maximale tijdsduur die u in een wachttijd kunt definiëren, is nu 29 dagen in plaats van 30. Dit geldt voor:
+* **Lees publiek**  - De activiteit van het Leespubliek baseert zich nu op de dataset van de profielmomentopname voor partijsegmenten, die slechts eenmaal wordt geproduceerd, een dag nadat de geplande dagelijkse partijbaan in werking wordt gesteld.
 
-   * de **Tijd** in het veld [wachtactiviteiten](../building-journeys/wait-activity.md)
-   * de **Wachttijd bij terugkeer** in [reiseigenschappen](../building-journeys/journey-gs.md#entrance)
-   * de **Wacht op** veld in de time-outdefinitie van [algemeen](../building-journeys/general-events.md#events-specific-time) en [reactie](../building-journeys/reaction-events.md) gebeurtenissen.
+**Frequentieregels**
 
-**Toestemming in kanaalconfiguratie**
+* **Wekelijks en dagelijks frequentiegrens** - U kunt nu het maximum aantal berichten opgeven dat naar een klantprofiel wordt verzonden in een week of een dag, in aanvulling op de maand. De maximale frequentie is gebaseerd op de geselecteerde kalenderperiode en wordt opnieuw ingesteld aan het begin van het corresponderende tijdkader.
 
-* U kunt nu een marketingactie op het niveau van het kanaaloppervlak selecteren. Bij gebruik op een oppervlak worden alle toestemmingsbeleidsregels die aan die marketingactie zijn gekoppeld, benut om de voorkeuren van uw klanten te respecteren.
 
 **Beslissingsbeheer**
 
-* Verschillende etiketten met betrekking tot het aanbieden van plafonnering in de besluitvormingsinterface zijn bijgewerkt.
+* **Frequentieondertiteling op rand** - De teller van de frequentiecappend wordt nu bijgewerkt en beschikbaar in een besluit van de Beslissing API van de Rand in minder dan 3 seconden.
