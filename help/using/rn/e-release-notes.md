@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 6683bfbb5569d197a2a746620cd7edc10f45b5d1
+source-git-commit: ad00f6c43e66a221385a83b8e6710fddd64233f2
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 4%
+source-wordcount: '470'
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ Opmerkingen bij de eerste release hieronder kunnen zonder voorafgaande kennisgev
 
 ## Opmerkingen bij de vervroegde release januari 2024 {#oct-jan-2024}
 
-**Releasedatum**: 20-31 januari 2024
+**Releasedatum**: 30-31 januari 2024
 
 ### Nieuwe functies{#jan-2024-features}
 
@@ -57,7 +57,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Rapportage**
 
-* **Kanaalrapporten per domein** - Er zijn nieuwe widgets toegevoegd om uw campagne- en journalistieke rapporten te verbeteren. De **Bounce Reden per domein**, **Verzonden en geleverd op domeinen**, **Opent en klikt op domein** en **Stuiteren en fouten per domein** widgets bieden een gedetailleerde uitsplitsing op domeinniveau voor belangrijke gegevens voor het verzenden van e-mail en het bijhouden van gegevens. [Meer informatie](../reports/channel-report.md)
+* **Kanaalrapporten per domein** - Er zijn nieuwe widgets toegevoegd om uw campagne- en journalistieke rapporten te verbeteren. De **Bounce Reden per domein**, **Verzonden en geleverd op domeinen**, **Opent en klikt op domein** en **Stuiteren en fouten per domein** widgets bieden een gedetailleerde uitsplitsing op domeinniveau voor belangrijke gegevens voor het verzenden van e-mail en het bijhouden van gegevens.
 
 **SMS-kanaal**
 
@@ -67,7 +67,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Reizen**
 
-* **Duur van reactiegebeurtenissen** - De maximale duur die u kunt definiëren in het dialoogvenster **Gebeurtenissen van Reaction** is nu 29 dagen in plaats van 30. [Meer informatie](../building-journeys/reaction-events.md)
+* **Duur van reactiegebeurtenissen** - De maximale duur die u kunt definiëren in het dialoogvenster **Gebeurtenissen van Reaction** is nu 29 dagen in plaats van 30.
 
 * **Datumfilters** - U kunt nu aangepaste datums gebruiken om naast de bestaande vooraf gedefinieerde datumfilters de reisinventaris te filteren. Op deze manier kunt u de lijst verfijnen door ritten weer te geven die op een bepaalde datum zijn gepubliceerd, binnen een bepaalde maand, gedurende een heel jaar, of binnen een bepaald tijdsbereik.
 
