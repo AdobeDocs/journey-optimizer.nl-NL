@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: ad00f6c43e66a221385a83b8e6710fddd64233f2
+source-git-commit: fae367cbbacffbbecde4cdbf7b39b1baeec452d1
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 3%
@@ -71,7 +71,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 * **Datumfilters** - U kunt nu aangepaste datums gebruiken om naast de bestaande vooraf gedefinieerde datumfilters de reisinventaris te filteren. Op deze manier kunt u de lijst verfijnen door ritten weer te geven die op een bepaalde datum zijn gepubliceerd, binnen een bepaalde maand, gedurende een heel jaar, of binnen een bepaald tijdsbereik.
 
-* **Lees publiek**  - De activiteit van het Leespubliek baseert zich nu op de dataset van de profielmomentopname voor partijsegmenten, die slechts eenmaal wordt geproduceerd, een dag nadat de geplande dagelijkse partijbaan in werking wordt gesteld.
+* **Lees publiek**  - De activiteit van het Leespubliek baseert zich nu op de dataset van de profielmomentopname voor partijsegmenten, die slechts eenmaal per dag wordt geproduceerd nadat de geplande dagelijkse partijbaan in werking wordt gesteld.
 
 **Frequentieregels**
 
