@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: fae367cbbacffbbecde4cdbf7b39b1baeec452d1
+source-git-commit: a3591adf88ebd42031006c1e5a537e3247cecce8
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 3%
@@ -80,4 +80,4 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Beslissingsbeheer**
 
-* **Frequentieondertiteling op rand** - De teller van de frequentiecappend wordt nu bijgewerkt en beschikbaar in een besluit van de Beslissing API van de Rand in minder dan 3 seconden.
+* **Frequentiecorrectie op rand** - De teller van de frequentiecappend wordt nu bijgewerkt en beschikbaar in een besluit van de Beslissing API van de Rand in minder dan 3 seconden.
