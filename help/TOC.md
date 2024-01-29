@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 49cb9734d66dc1aa2a3531c71a687aac00834d82
+source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1728'
 ht-degree: 31%
 
 ---
@@ -357,7 +357,7 @@ ht-degree: 31%
    + Leverbaarheid {#deliverability}
       + [Aan de slag met de prestaties](using/reports/deliverability.md)
       + [De onderdrukkingslijst begrijpen](using/reports/suppression-list.md)
-      + [Verplichte DMARC-update](using/configuration/dmarc-record-update.md)
+      + [Nieuwe DMARC-vereiste](using/configuration/dmarc-record-update.md)
    + [Foutredenen](using/reports/error-list.md)
    + [Waarschuwingen](using/reports/alerts.md)
    + [Werken met Customer Journey Analytics](using/reports/cja-ajo.md)
@@ -526,6 +526,7 @@ ht-degree: 31%
    + E-mailsubdomeinen delegeren {#delegate-subdomains}
       + [Aan de slag met subdomeindelegatie](using/configuration/about-subdomain-delegation.md)
       + [Een subdomein delegeren](using/configuration/delegate-subdomain.md)
+      + [DMARC-record instellen](using/configuration/dmarc-record.md)
       + [Een Google TXT-record toevoegen](using/configuration/google-txt.md)
       + [PTR-records openen en bewerken](using/configuration/ptr-records.md)
       + [IP-pools maken](using/configuration/ip-pools.md)

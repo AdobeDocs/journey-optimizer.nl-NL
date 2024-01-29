@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verplichte DMARC-update
+title: Voldoen aan nieuwe DMARC-eis
 description: Leer waarom en wanneer u een DMARC-record moet instellen in Journey Optimizer
 feature: Subdomains, Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomein, domein, mail, dmarc, record
-source-git-commit: 7d5a2a9b80110505688b5bfda2e286c7a6432441
+source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
 
-# Verplichte DMARC-update {#dmarc-record-update}
+# Voldoen aan nieuwe DMARC-eis {#dmarc-record-update}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
 >title="Meer informatie over verplichte DMARC-update"
->abstract="Google en Yahoo zullen als onderdeel van hun afdwingbare best practices in de branche eisen dat u een **DMARC-record** voor elk domein dat u gebruikt om e-mail naar hen te verzenden, vanaf **1 februari 2024**. <br>Daarom moet u ervoor zorgen dat u een DMARC-record hebt ingesteld voor alle subdomeinen die u hebt gedelegeerd aan Adobe in Journey Optimizer."
+>abstract="Google en Yahoo zullen als onderdeel van hun afdwingbare best practices in de branche eisen dat u een **DMARC-record** voor elk domein dat u gebruikt om e-mail naar hen te verzenden, vanaf **1 februari 2024**.<br>Daarom moet u ervoor zorgen dat u een DMARC-record hebt ingesteld voor alle subdomeinen die u hebt gedelegeerd aan Adobe in Journey Optimizer."
 
 Google en Yahoo zullen als onderdeel van hun afdwingbare best practices in de branche eisen dat u een **DMARC-record** voor elk domein dat u gebruikt om e-mail naar hen te verzenden. Deze nieuwe eis begint op **1 februari 2024**.
 
@@ -36,13 +36,15 @@ Daarom raadt de Adobe u ten zeerste aan ervoor te zorgen dat u een DMARC-record 
 
    * DMARC instellen voor het bovenliggende domein van de gedelegeerde subdomeinen **in uw hostingoplossing**.
 
-   * DMARC instellen op uw gedelegeerde subdomeinen **de volgende functie gebruiken in het dialoogvenster [!DNL Journey Optimizer] beheer-interface** - zonder extra werk voor uw hostingoplossing.
+   * DMARC instellen op uw gedelegeerde subdomeinen **in de [!DNL Journey Optimizer] beheer-interface** - zonder extra werk voor uw hostingoplossing. [Meer informatie](dmarc-record.md#implement-dmarc)
 
-* Als u hebt ingesteld [CNAME-delegatie](delegate-subdomain.md#cname-subdomain-delegation) Voor uw verzendende subdomeinen, volg één van beide hieronder opties:
+* Als u de verzendende subdomeinen hebt ingesteld met [CNAME](delegate-subdomain.md#cname-subdomain-delegation)Voer een van de volgende twee opties uit:
    * DMARC instellen op uw subdomeinen of op het bovenliggende domein van uw subdomeinen **in uw hostingoplossing**.
-   * DMARC instellen op uw gedelegeerde subdomeinen **de volgende functie gebruiken in het dialoogvenster [!DNL Journey Optimizer] beheer-interface**. Nochtans, zal het ook ingang in uw het ontvangen oplossing vereisen. Daarom moet u ervoor zorgen dat u uw IT-afdeling coördineert, zodat deze de update kan uitvoeren zodra de [!DNL Journey Optimizer] is beschikbaar (op 30 januari). <!--and be ready on February 1st, 2024-->
+   * DMARC instellen op uw gedelegeerde subdomeinen **in de [!DNL Journey Optimizer] beheer-interface**. [Meer informatie](dmarc-record.md#implement-dmarc)
 
-**Meer informatie over de [!DNL Journey Optimizer] De aanstaande functie DMARC zal binnenkort verschijnen.**
+     Nochtans, met de delegatie van CNAME zal het ook ingang in uw het ontvangen oplossing vereisen. Daarom moet u ervoor zorgen dat u uw IT-afdeling coördineert, zodat deze de update kan uitvoeren zodra de [!DNL Journey Optimizer] is beschikbaar (op 30 januari). [Meer informatie](dmarc-record.md#implement-dmarc)
+
+**Meer informatie over de [!DNL Journey Optimizer] De aanstaande functie DMARC is beschikbaar in [deze sectie](dmarc-record.md).**
 
 >[!NOTE]
 >
