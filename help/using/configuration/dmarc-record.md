@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomein, domein, mail, dmarc, record
-source-git-commit: b077a19b93d27205d0133372357ee48fa9caf527
+source-git-commit: 2a1fccd05c960aca6a2764844f96e161c798d404
 workflow-type: tm+mt
 source-wordcount: '1360'
 ht-degree: 0%
@@ -111,7 +111,7 @@ Om ervoor te zorgen dat u DMARC- verslagopstelling voor alle subdomeinen hebt he
 
 1. Sla uw wijzigingen op.
 
-## DMARC instellen voor nieuwe subdomeinen {#set-up-dmarc}
+### DMARC instellen voor nieuwe subdomeinen {#set-up-dmarc}
 
 Wanneer het delegeren van nieuwe subdomeinen aan Adobe binnen [!DNL Journey Optimizer], wordt een DMARC-record gemaakt in DNS voor uw domein. Voer de onderstaande stappen uit om DMARC te implementeren.
 
