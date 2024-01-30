@@ -3,15 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Een subdomein delegeren
 description: Leer hoe u uw subdomeinen kunt delegeren.
-feature: Subdomains
+feature: Subdomains, Deliverability
 topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomein, delegatie, domein, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: a153960d083cbeab8beca30733832a9df8af9cbc
+source-git-commit: 3b40087aeae2b0da789a90f45f2575beedf2b76d
 workflow-type: tm+mt
-source-wordcount: '1818'
+source-wordcount: '1760'
 ht-degree: 5%
 
 ---
@@ -77,21 +77,21 @@ Volg de onderstaande stappen om een nieuw subdomein volledig te delegeren aan Ad
 
 1. De lijst van records die in uw DNS-serverweergaven moeten worden geplaatst. Kopieer deze records één voor één of download een CSV-bestand en navigeer vervolgens naar uw domeinhostingoplossing om de overeenkomende DNS-records te genereren.
 
-1. Zorg ervoor dat alle DNS verslagen in uw domein het ontvangen oplossing zijn geproduceerd. Als alles behoorlijk wordt gevormd, controleer de doos &quot;ik bevestig...&quot;, dan klik **[!UICONTROL Submit]**.
+1. Zorg ervoor dat alle DNS verslagen in uw domein het ontvangen oplossing zijn geproduceerd. Als alles behoorlijk wordt gevormd, controleer de doos &quot;ik bevestig...&quot;.
 
    ![](assets/subdomain-submit.png)
+
+1. DMARC-record instellen. Als het subdomein een bestaand DMARC-record heeft en als het wordt opgehaald door [!DNL Journey Optimizer]kunt u dezelfde waarden gebruiken of wijzigen als u wilt. Als u geen waarden toevoegt, worden de standaardwaarden gebruikt. [Meer informatie](dmarc-record.md)
+
+   ![](assets/dmarc-record-found.png)
+
+1. Klik op **[!UICONTROL Submit]**.
 
    >[!NOTE]
    >
    >U kunt de records maken en de subdomeinconfiguratie later verzenden met de opdracht **[!UICONTROL Save as draft]** knop. Vervolgens kunt u de subdomeindelegatie hervatten door deze te openen vanuit de lijst met subdomeinen.
 
-1. Als het subdomein geen DMARC-record heeft, kunt u deze hier instellen. Als het subdomein een bestaand DMARC-record heeft en als het wordt opgehaald door [!DNL Journey Optimizer]kunt u dezelfde waarden gebruiken of wijzigen als u wilt. Als u geen waarden toevoegt, worden de standaardwaarden gebruikt. [Meer informatie](dmarc-record.md)
-
-   ![](assets/dmarc-record-found.png)
-
-   <!--update screen when available-->
-
-1. Nadat de volledige subdomeindelegatie is verzonden, wordt het subdomein weergegeven in de lijst met de **[!UICONTROL Processing]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](about-subdomain-delegation.md#access-delegated-subdomains).
+1. Het subdomein wordt in de lijst weergegeven met de **[!UICONTROL Processing]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](about-subdomain-delegation.md#access-delegated-subdomains).
 
    ![](assets/subdomain-processing.png)
 
@@ -113,7 +113,7 @@ Zodra een subdomein aan Adobe binnen wordt gedelegeerd [!DNL Journey Optimizer],
 >
 >Parallelle uitvoering van subdomeinen wordt momenteel niet ondersteund in [!DNL Journey Optimizer]. Als u een subdomein probeert in te dienen voor delegatie wanneer een ander subdomein het **[!UICONTROL Processing]** status, krijgt u een foutbericht.
 
-## CNAME-subdomeindelegatie {#cname-subdomain-delegation}
+## CNAME-subdomeininstelling {#cname-subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
@@ -127,7 +127,7 @@ Zodra een subdomein aan Adobe binnen wordt gedelegeerd [!DNL Journey Optimizer],
 
 Als u domein-specifieke beperkingsbeleid hebt en u Adobe slechts gedeeltelijke controle over DNS wilt hebben, kunt u verkiezen om alle DNS-gerelateerde activiteiten op uw kant uit te voeren.
 
-De subdomeindelegatie van CNAME laat u toe om subdomain tot stand te brengen en CNAMEs te gebruiken om aan Adobe-specifieke verslagen te richten. Met deze configuratie delen u en de Adobe de verantwoordelijkheid voor het onderhoud van DNS in de omgeving voor het verzenden, renderen en volgen van e-mails.
+De subdomeinopstelling van CNAME laat u toe om subdomain tot stand te brengen en CNAMEs te gebruiken om aan Adobe-specifieke verslagen te richten. Met deze configuratie delen u en de Adobe de verantwoordelijkheid voor het onderhoud van DNS in de omgeving voor het verzenden, renderen en volgen van e-mails.
 
 >[!CAUTION]
 >
@@ -135,7 +135,7 @@ De subdomeindelegatie van CNAME laat u toe om subdomain tot stand te brengen en 
 
 ➡️ [Leer hoe te om subdomain tot stand te brengen gebruikend CNAME om aan Adobe-specifieke verslagen in deze video te richten](#video)
 
-Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volgende stappen uit:
+Volg onderstaande stappen om een subdomein in te stellen met gebruik van CNAME&#39;s:
 
 1. Toegang krijgen tot de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** en klik vervolgens op **[!UICONTROL Set up subdomain]**.
 
@@ -157,13 +157,17 @@ Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volge
 
    ![](assets/subdomain-create-dns-confirm.png)
 
+1. Stel het in op DMARC-record. Als het subdomein een bestaand DMARC-record heeft en als het wordt opgehaald door [!DNL Journey Optimizer]kunt u dezelfde waarden gebruiken of wijzigen als u wilt. Als u geen waarden toevoegt, worden de standaardwaarden gebruikt. [Meer informatie](dmarc-record.md)
+
+   ![](assets/dmarc-record-found.png)
+
+1. Klik op **[!UICONTROL Continue]**.
+
    >[!NOTE]
    >
    >U kunt de records later maken met de opdracht **[!UICONTROL Save as draft]** knop. Vervolgens kunt u de subdomeindelegatie in dit stadium hervatten door deze vanuit de lijst met subdomeinen te openen.
 
-1. Als het subdomein geen DMARC-record heeft, kunt u deze hier instellen. Als het subdomein een bestaand DMARC-record heeft en als het wordt opgehaald door [!DNL Journey Optimizer]kunt u dezelfde waarden gebruiken of wijzigen als u wilt. Als u geen waarden toevoegt, worden de standaardwaarden gebruikt. [Meer informatie](dmarc-record.md)
-
-1. Wacht tot de Adobe controleert of deze verslagen zonder fouten op uw het ontvangen oplossing worden geproduceerd. Dit proces kan tot 2 minuten duren.
+1. Wacht tot de Adobe controleert dat de verslagen zonder fouten op uw het ontvangen oplossing worden geproduceerd. Dit proces kan tot 2 minuten duren.
 
    >[!NOTE]
    >
@@ -172,10 +176,6 @@ Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, voert u de volge
 1. Adobe genereert een SSL CDN URL-validatierecord. Kopieer deze validatierecord naar het hostplatform. Als u deze record op de hostingoplossing juist hebt gemaakt, schakelt u het selectievakje &quot;I confirm...&quot; in en klikt u op **[!UICONTROL Submit]**.
 
    <!--![](assets/subdomain-cdn-url-validation.png)-->
-
-   >[!NOTE]
-   >
-   >U kunt ook de validatierecord maken en de subdomeinconfiguratie later verzenden met de opdracht **[!UICONTROL Save as draft]** knop. Vervolgens kunt u de subdomeindelegatie hervatten door deze te openen vanuit de lijst met subdomeinen.
 
 1. Zodra de subdomeindelegatie van CNAME is voorgelegd, toont subdomain in de lijst met **[!UICONTROL Processing]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](about-subdomain-delegation.md#access-delegated-subdomains).
 
