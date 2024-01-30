@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomein, domein, mail, dmarc, record
-source-git-commit: e1fda25bb16f6d1e304d600dfce39df07fc570b0
+source-git-commit: 11d42198436319cebb67446527e9fd8d0f80cfbc
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 De op domein-gebaseerde Authentificatie van het Bericht, het Melden, en de Conformiteit (DMARC) is een methode van de e-mailauthentificatie die domeineigenaars toestaat om hun domein tegen onbevoegd gebruik te beschermen. Door een duidelijk beleid aan e-mailleveranciers/ISPs aan te bieden, helpt het kwaadwillige acteurs verhinderen e-mails te verzenden die beweren van uw domein te zijn. DMARC implementeren verkleint het risico dat legitieme e-mailberichten worden gemarkeerd als spam of afgewezen, en verbetert uw e-mailleverbaarheid.
 
 
-Google en Yahoo zijn een onderdeel van hun best practices in de branche. beide vereisen dat een **DMARC-record** voor elk domein dat u gebruikt om e-mail naar hen te verzenden. Deze nieuwe eis geldt vanaf **1 februari 2024**. [Meer informatie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
+Google en Yahoo zijn een onderdeel van hun best practices in de branche. beide vereisen dat een **DMARC-record** voor elk domein dat u gebruikt om e-mail naar hen te verzenden. Deze nieuwe eis geldt vanaf **1 februari 2024**. [Meer informatie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}
 
 >[!CAUTION]
 >
