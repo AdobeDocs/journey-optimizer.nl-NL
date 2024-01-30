@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2757da51cf2a75855c4136cc42e06a5a00237699
+source-git-commit: bb8afe94e3a2df2b52f5190acd82265c2f780b5e
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 3%
+source-wordcount: '537'
+ht-degree: 2%
 
 ---
 
@@ -47,7 +47,21 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 </tbody>
 </table>
 
-
+<table>
+<thead>
+<tr>
+<th><strong>Hoofdletters gebruiken</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Gebruik een catalogus met branchespecifieke gebruiksscenario's in Real-Time CDP en Journey Optimizer om veelvoorkomende gebruiksgevallen aan te pakken die u kunt uitvoeren met Adobe Experience Platform en Adobe Journey Optimiser.</p><p>Zodra u playbook hebt gekozen die het beste uw behoeften aanpast, kunt u het toelaten om de middelen te produceren nodig om uw gebruiksgeval zoals reizen, berichten, schema's of segmenten te steunen.</p>
+<img src="assets/playbooks-detail.png"/>
+<!--<p>For more information, refer to the <a href="../start/">detailed documentation</a>.</p>-->
+</tr>
+</tbody>
+</table>
 
 ### Verbeteringen {#jan-2024-improvements}
 
