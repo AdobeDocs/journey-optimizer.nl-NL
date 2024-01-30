@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c650efb7a2ded5e78e3b11577a250773cec71fd3
+source-git-commit: 7cb00d2527780f14564890c1123a76aa55c7c088
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 2%
@@ -57,7 +57,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <tr>
 <td>
 <p>Gebruik een catalogus met branchespecifieke gebruiksscenario's in Real-Time CDP en Journey Optimizer om veelvoorkomende gebruiksgevallen aan te pakken die u kunt uitvoeren met Adobe Experience Platform en Adobe Journey Optimiser.</p><p>Zodra u playbook hebt gekozen die het best aan uw behoeften past, kunt u het toelaten om de activa te produceren nodig om uw gebruikscase zoals reizen, berichten, schema's of segmenten te steunen, en hen aan uw schema voor snellere tijd aan waarde aan te passen.</p>
-<img src="assets/playbooks-detail.png"/>
+<img src="assets/do-not-localize/playbooks.gif"/>
 <!--<p>For more information, refer to the <a href="../start/">detailed documentation</a>.</p>-->
 </tr>
 </tbody>
