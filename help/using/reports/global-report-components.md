@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 3%
+source-wordcount: '1110'
+ht-degree: 0%
 
 ---
 
@@ -64,10 +64,10 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
  <tbody>
   <tr> 
    <td> Bounces<br/> </td> 
-   <td> Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.<br/> </td> 
+   <td> Totaal van fouten die tijdens het verzendingsproces zijn gecumuleerd en automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Bouncepercentage<br/> </td> 
+   <td> Stuitsnelheid<br/> </td> 
    <td> Percentage van e-mails dat is teruggestuurd in vergelijking met verzonden e-mails.<br/> </td> 
 </tr>
   <tr> 
@@ -75,7 +75,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
    <td> Aantal keer dat er op een inhoud in een e-mail is geklikt.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Afgeleverd <br/> </td> 
+   <td> Geleverd <br/> </td> 
    <td> Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.<br/></td> 
 </tr> 
   <tr> 
@@ -84,16 +84,16 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
 </tr>
   <tr> 
    <td> Fouten<br/> </td> 
-   <td> Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.<br/> </td> 
+   <td> Het totale aantal fouten dat is opgetreden tijdens het verzendproces waardoor het niet naar profielen kan worden verzonden.<br/> </td> 
 </tr> 
   <tr> 
    <td> Foutfrequentie<br/> </td> 
-   <td> Percentage fouten die optraden tijdens een levering waardoor deze niet kon worden verzonden, vergeleken met verzonden e-mailberichten.<br/> </td> 
+   <td> Percentage fouten dat is opgetreden tijdens het verzendproces waardoor het niet kan worden verzonden, vergeleken met verzonden e-mailberichten.<br/> </td> 
 </tr>
 </tr> 
   <tr> 
    <td> Foutreden<br/> </td> 
-   <td> Naam van de specifieke oorspronkelijke oorzaak van de fout. <a href="error-list.md">Meer informatie over oorzaken van fouten</a>.<br/> </td> 
+   <td> Naam van de specifieke oorspronkelijke oorzaak van de fout. <a href="exclusion-list.md">Meer informatie over oorzaken van fouten</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Uitgesloten<br/> </td> 
@@ -124,7 +124,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
    <td>Het totale aantal verzendingen voor de aanbieding.<br/> </td> 
 </tr> 
   <tr>
-   <td>Geopende items<br/> </td> 
+   <td>Openen<br/> </td> 
    <td> Aantal keren dat het bericht is geopend.<br/> </td> 
 </tr> 
   <tr> 
@@ -136,7 +136,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
    <td> Naam van de plaatsing die u hebt gebruikt om uw voorstel weer te geven. Raadpleeg deze voor meer informatie over plaatsing <a href="../offers/offer-library/creating-placements.md">page</a>. </td> 
 </tr> 
   <tr> 
-   <td> Hernieuwde pogingen<br/> </td> 
+   <td> Opnieuw<br/> </td> 
    <td> Aantal e-mails in de wachtrij voor nieuwe pogingen.<br/> </td> 
 </tr> 
   <tr> 
@@ -168,7 +168,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
    <td>Aantal ontvangers dat de levering heeft geopend. <br> Wanneer unieke gegevens worden berekend, wordt rekening gehouden met de laatste tien dagen. Als een profiel meerdere keren wordt geregistreerd en binnen de periode van 10 dagen wordt geopend, worden deze geteld als uniek geopend. Als een profiel echter 2 groter dan 10 dagen uit elkaar staat, worden deze niet beschouwd als een uniek geopend profiel.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Uitschrijvingen<br/> </td> 
+   <td> Abonnementen<br/> </td> 
    <td> Aantal klikken op de verbinding van het unsubscription.<br/> </td> 
 </tr> 
  </tbody> 
@@ -303,7 +303,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
  </thead> 
  <tbody>
  <tr> 
-   <td>Acties<br/> </td> 
+   <td>Handelingen<br/> </td> 
    <td> Het totale aantal acties op de geleverde pushmelding, bijvoorbeeld klikken op de knop of ontslag.<br/> </td> 
 </tr>
   <tr> 
@@ -311,11 +311,11 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
    <td> Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Bouncepercentage<br/> </td> 
+   <td> Stuitsnelheid<br/> </td> 
    <td> Percentage pushmeldingen dat is teruggestuurd in vergelijking met verzonden pushberichten.<br/> </td>
 </tr>
   <tr> 
-   <td> Afgeleverd<br/> </td> 
+   <td> Geleverd<br/> </td> 
    <td> Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.<br/> </td> 
 </tr> 
   <tr> 
@@ -340,14 +340,14 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
 </tr>
   <tr> 
    <td> Foutreden<br/> </td> 
-   <td> Naam van de specifieke oorspronkelijke oorzaak van de fout. <a href="error-list.md">Meer informatie over oorzaken van fouten</a>.<br/> </td> 
+   <td> Naam van de specifieke oorspronkelijke oorzaak van de fout. <a href="exclusion-list.md">Meer informatie over oorzaken van fouten</a>.<br/> </td> 
 </tr>
   <tr> 
    <td> Uitgesloten<br/> </td> 
    <td> Aantal profielen dat door Adobe Journey Optimizer is uitgesloten.<br/> </td> 
 </tr>
   <tr> 
-   <td> Geopende items<br/> </td> 
+   <td> Openen<br/> </td> 
    <td> Het totale aantal pushberichten dat aan het apparaat is geleverd en waarop gebruikers hebben geklikt om de app te openen. Dit is gelijkaardig aan de Duw klikt behalve zal een Duw Open niet teweeggebracht worden als het bericht werd verworpen.<br/> </td> 
 </tr> 
   <tr> 
@@ -397,7 +397,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
    <td>Aantal personen dat interactie had met de landingspagina, bijvoorbeeld geabonneerd op een formulier.<br/> </td> 
 </tr>
 <tr>
-   <td>Conversiepercentage<br/> </td> 
+   <td>Omrekeningskoers<br/> </td> 
    <td>Aantal personen dat met de aanlandingspagina heeft gecommuniceerd, bv. op een formulier ingeschreven, in verhouding tot het totale aantal bezoeken.<br/> </td> 
 </tr>
  <tr> 

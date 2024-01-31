@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
-source-git-commit: 3f9d85dc77d3c572b1bad751646153874a5584c8
+source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
 workflow-type: tm+mt
-source-wordcount: '2453'
+source-wordcount: '3447'
 ht-degree: 0%
 
 ---
@@ -39,77 +39,24 @@ De rapportpagina wordt getoond met de volgende lusjes:
 * [Web](#web)
 * [Direct mail](#direct-mail)
 
-➡️ [Ontdek deze functie in video](#channel-report-video)
+➡️ [Deze functie in video detecteren](#channel-report-video)
 
 ## Email {#email}
+
+In het menu E-mail van uw Channel-rapporten vindt u de belangrijkste gegevens met betrekking tot de e-mails die in uw campagnes en reizen zijn verzonden. De cijfers worden hieronder beschreven.
+
+### E-mail - Totaal verzendende statistieken {#email-total-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_email_sending_statistics"
 >title="E-mail - Totaal verzendende statistieken"
->abstract="De e-mail - Totaal verzendende statistieken KPIs vat essentiële gegevens over uw dupberichten zoals Gerichte of Geleverde berichten samen."
+>abstract="De e-mail - het totaal verzenden van statistieken KPIs vat essentiële gegevens over uw e-mail zoals Gerichte of Geleverde berichten samen."
 
->[!CONTEXTUALHELP]
->id="ajo_channel_email_tracking_statistics"
->title="E-mail - Totaal aantal volgstatistieken"
->abstract="De KPI&#39;s voor statistieken over het bijhouden van gegevens via e-mail bieden gegevens over profielactiviteiten voor uw e-mails."
+![](assets/channel_email_total_sending.png)
 
->[!CONTEXTUALHELP]
->id="ajo_channel_email_sending_statistics_overtime"
->title="E-mail - Statistieken verzenden in de loop der tijd"
->abstract="De e - mail - Verzendende statistieken in tijdgrafiek geven gegevens over verzonden e-mails weer, uitgesplitst op uur, dag, week, of maandbasis."
+De **[!UICONTROL Email Total Sending Statistics]** widget biedt een uitgebreid overzicht van uw e-mailprestaties, waarin belangrijke prestatie-indicatoren (KPI&#39;s) worden weergegeven waarmee essentiële gegevens over uw e-mailberichten worden samengevat.
 
->[!CONTEXTUALHELP]
->id="ajo_channel_email_tracking_statistics_overtime"
->title="E-mail - Statistieken bijhouden in de loop der tijd"
->abstract="De E-mail - het Volgen statistieken over tijdsgrafiek verstrekt gegevens over profielactiviteit voor uw e-mail, die op een uur, dag, wekelijkse, of maandbasis wordt uitgesplitst."
-
->[!CONTEXTUALHELP]
->id="ajo_channel_email_bounce_categories"
->title="Stuitcategorieën"
->abstract="De categorieën Bounce en de tabel geven gegevens over zowel tijdelijke als permanente fouten."
-
->[!CONTEXTUALHELP]
->id="ajo_channel_email_bounce_reasons"
->title="Stuitingsredenen"
->abstract="De grafieken en de tabel met Bounces Reasons bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd."
-
->[!CONTEXTUALHELP]
->id="ajo_channel_email_error_reasons"
->title="Foutredenen"
->abstract="Met de grafieken en de tabel met oorzaken van fouten kunt u de specifieke fouten identificeren die tijdens het verzendingsproces zijn opgetreden."
-
->[!CONTEXTUALHELP]
->id="ajo_channel_email_excluded_reasons"
->title="Uitgesloten redenen"
->abstract="In de grafieken en de tabel met uitgesloten redenen worden de verschillende factoren weergegeven die hebben geleid tot gebruikersprofielen die zijn uitgesloten van het doelpubliek en die het bericht niet ontvangen."
-
->[!CONTEXTUALHELP]
->id="ajo_channel_email_sending_delivered_domains"
->title="Verzonden en geleverd op domeinen"
->abstract="De grafiek en tabel die worden verzonden en geleverd door domeinen geven een indeling op domeinniveau weer van elke belangrijke e-mail die gegevens verzendt."
-
->[!CONTEXTUALHELP]
->id="ajo_channel_email_bounces_errors_domains"
->title="Stuitingen en fouten per domein"
->abstract="De Bounces &amp; de fouten door domeingrafiek en de lijst vertegenwoordigen domein-vlakke uitsplitsing van specifieke fouten die tijdens het verzendende proces voorkwamen."
-
->[!CONTEXTUALHELP]
->id="ajo_channel_email_open_clicks_domains"
->title="Openen en klikken op domeinen"
->abstract="De grafiek en tabel voor Openen en klikken op domeinen geven een overzicht van de betrokkenheid van uw bezoekers bij uw e-mail op domeinniveau."
-
->[!CONTEXTUALHELP]
->id="ajo_channel_email_bounce_reasons_domains"
->title="Bounce reason by domain"
->abstract="De redenen van de Stuiting door domein door domeingrafiek en lijst vertegenwoordigen domein-vlakke uitsplitsing van gegevens over zowel tijdelijke als permanente fouten."
-
-In het menu E-mail van uw Channel-rapporten vindt u de belangrijkste gegevens met betrekking tot de e-mails die in uw campagnes en reizen zijn verzonden. De cijfers worden hieronder beschreven.
-
-![](assets/email_channel_1.png)
-
-+++ Meer informatie over de verschillende maatstaven en widgets die beschikbaar zijn voor het e-mailrapport.
-
-De **[!UICONTROL Email Total Sending Statistics]** Grafiek geeft het succes van je e-mails weer:
++++ Meer informatie over statistieken over totale verzendstatistieken per e-mail
 
 * **[!UICONTROL Targeted]**: Totaal aantal verwerkte e-mails.
 
@@ -131,7 +78,20 @@ De **[!UICONTROL Email Total Sending Statistics]** Grafiek geeft het succes van 
 
 * **[!UICONTROL Exclude rate]**: Percentage profielen dat door Adobe Journey Optimizer is uitgesloten.
 
-De **[!UICONTROL Email Total Tracking statistics]** widget bevat de beschikbare gegevens voor profielactiviteiten voor uw e-mails:
++++
+
+### E-mail - Totaal aantal volgstatistieken {#email-total-tracking}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_tracking_statistics"
+>title="E-mail - Totaal aantal volgstatistieken"
+>abstract="De KPI&#39;s voor statistieken over het bijhouden van gegevens via e-mail bieden gegevens over profielactiviteiten voor uw e-mails."
+
+![](assets/channel_email_total_tracking.png)
+
+De **[!UICONTROL Email Total Tracking statistics]** widget biedt een gedetailleerde momentopname van profielactiviteiten die aan uw e-mails zijn gekoppeld en die essentiële inzichten bieden in de betrokkenheid en de doeltreffendheid van e-mailberichten.
+
++++ Meer informatie over statistieken over het bijhouden van gegevens per e-mail
 
 * **[!UICONTROL Opens]**: Het aantal keren dat het bericht is geopend.
 
@@ -149,7 +109,20 @@ De **[!UICONTROL Email Total Tracking statistics]** widget bevat de beschikbare 
 
 * **[!UICONTROL Unsubscribe rate]**: Percentage van abonnement vergeleken met het aantal verzonden e-mails.
 
-De **[!UICONTROL Sending Statistics over time]** De grafiek bevat de gegevens die beschikbaar zijn voor verzonden e-mailberichten, zoals:
++++
+
+### E-mail - Statistieken verzenden in de loop der tijd {#email-sending-statistics-overtime}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_sending_statistics_overtime"
+>title="E-mail - Statistieken verzenden in de loop der tijd"
+>abstract="De e - mail - Verzendende statistieken in tijdgrafiek geven gegevens over verzonden e-mails weer, uitgesplitst op uur, dag, week, of maandbasis."
+
+![](assets/channel_email_sending_statistics.png)
+
+De **[!UICONTROL Email - Sending Statistics over time]** grafiek biedt een dynamische vertegenwoordiging aan, die een analyse van uw e-mailactiviteit toont. Deze grafische weergave biedt een uitgebreide uitsplitsing van verzonden e-mailberichten, waarmee u trends en patronen kunt waarnemen op een schaal van uur, dag, week of maand.
+
++++ Meer informatie over e-mail - Statistieken verzenden over tijdsmetingen
 
 * **[!UICONTROL Sent]**: Totaal aantal verzendingen.
 
@@ -159,9 +132,46 @@ De **[!UICONTROL Sending Statistics over time]** De grafiek bevat de gegevens di
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden waardoor deze niet naar profielen kon worden verzonden.
 
-De **[!UICONTROL Email tracking statistics overtime]** grafiek bevat de gegevens die beschikbaar zijn voor openen en klikken.
++++
 
-De **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]** widgets bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd, zoals:
+### E-mail - Statistieken bijhouden in de loop der tijd {#email-tracking-statistics-overtime}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_tracking_statistics_overtime"
+>title="E-mail - Statistieken bijhouden in de loop der tijd"
+>abstract="De E-mail - het Volgen statistieken over tijdsgrafiek verstrekt gegevens over profielactiviteit voor uw e-mail, die op een uur, dag, wekelijkse, of maandbasis wordt uitgesplitst."
+
+![](assets/channel_email_tracking_overtime.png)
+
+De **[!UICONTROL Email - Tracking statistics over time]** grafiek geeft een gedetailleerd overzicht van de profielactiviteiten met betrekking tot uw e-mails. Deze grafische weergave deelt de gegevens op uur-, dag-, week- of maandbasis op, en biedt waardevolle inzichten in hoe de betrokkenheid van de ontvanger zich ontwikkelt over verschillende tijdsintervallen.
+
++++ Meer informatie over e-mail - Statistieken bijhouden over tijdsmetingen
+
+* **[!UICONTROL Opens]**: Het aantal keren dat het bericht is geopend.
+
+* **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt in een bericht.
+
++++
+
+### E-mail - rubrieken en redenen voor stuiteren {#bounce-categories}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_bounce_categories"
+>title="Stuitcategorieën"
+>abstract="De categorieën Bounce en de tabel geven gegevens over zowel tijdelijke als permanente fouten."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_bounce_reasons"
+>title="Stuitingsredenen"
+>abstract="De grafieken en de tabel met Bounces Reasons bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd."
+
+![](assets/channel_email_bounce_categories.png)
+
+De **[!UICONTROL Bounce categories]** en **[!UICONTROL Bounce reasons]** widgets kapselen de gegevens in die aan berichten met teruggang worden geassocieerd, die een uitvoerig overzicht van de diverse categorieën en specifieke redenen achter berichtgrenzen verstrekken
+
+Voor meer informatie over grenzen raadpleegt u de [Onderdrukkingslijst](../reports/suppression-list.md) pagina.
+
++++ Meer informatie over de maatstaven van Bounce-rubrieken
 
 * **[!UICONTROL Hard bounce]**: Het totale aantal permanente fouten, zoals een onjuist e-mailadres. Dit omvat een foutbericht waarin expliciet wordt aangegeven dat het adres ongeldig is, zoals Onbekende gebruiker.
 
@@ -169,64 +179,118 @@ De **[!UICONTROL Bounce Reasons]** en **[!UICONTROL Bounce categories]** widgets
 
 * **[!UICONTROL Ignored]**: Het totale aantal tijdelijke berichten, zoals Buiten-kantoor, of een technische fout, bijvoorbeeld als het type afzender postmaster is.
 
-Voor meer informatie over grenzen raadpleegt u de [Onderdrukkingslijst](../reports/suppression-list.md) pagina.
-
-De **[!UICONTROL Error Reasons]** in de grafiek en de tabel kunt u zien welke fout is opgetreden.
-
-De **[!UICONTROL Excluded reasons]** de grafiek en de lijst tonen de verschillende redenen die gebruikersprofielen, uitgesloten van de gerichte profielen, van het ontvangen van het bericht verhinderden.
-
-De **[!UICONTROL Bounce Reasons by domain]**, **[!UICONTROL Sent & delivered by domains]**, **[!UICONTROL Opens & Clicks by domain]**  en **[!UICONTROL Bounce & errors by domain]** tabellen en grafieken geven een indeling op domeinniveau weer van elke belangrijke e-maillevering en het bijhouden van gegevens.
 +++
 
+### Foutredenen {#error-reasons}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_error_reasons"
+>title="Foutredenen"
+>abstract="Met de grafieken en de tabel met oorzaken van fouten kunt u de specifieke fouten identificeren die tijdens het verzendingsproces zijn opgetreden."
+
+![](assets/channel_email_error.png)
+
+De **[!UICONTROL Error Reasons]** Met grafieken en tabellen kunt u precies aangeven welke fouten tijdens het verzendproces zijn opgetreden. Zo krijgt u een duidelijk inzicht in de ondervonden problemen.
+
+### Uitgesloten redenen {#excluded-reasons}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_excluded_reasons"
+>title="Uitgesloten redenen"
+>abstract="In de grafieken en de tabel met uitgesloten redenen worden de verschillende factoren weergegeven die hebben geleid tot gebruikersprofielen die zijn uitgesloten van het doelpubliek en die het bericht niet ontvangen."
+
+![](assets/channel_email_excluded.png)
+
+De **[!UICONTROL Excluded reasons]** in grafieken en tabellen wordt een uitgebreid overzicht gegeven van de verschillende factoren die ertoe hebben geleid dat gebruikersprofielen van het beoogde publiek zijn uitgesloten, waardoor het bericht niet is ontvangen.
+
+Zie [deze pagina](exclusion-list.md) voor de volledige lijst van uitsluitingsredenen.
+
+### Verzonden en geleverd op domeinen {#sent-delivered-domains}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_sending_delivered_domains"
+>title="Verzonden en geleverd op domeinen"
+>abstract="De grafiek en tabel die worden verzonden en geleverd door domeinen geven een indeling op domeinniveau weer van elke belangrijke e-mail die gegevens verzendt."
+
+![](assets/channel_email_sent_domains.png)
+
+De  **[!UICONTROL Sent & delivered by domains]** tabel en grafiek geven een gedetailleerde uitsplitsing van e-mailleveringen op domeinniveau, zodat u uitgebreide inzichten kunt krijgen in de prestaties van uw e-mails.
+
++++ Meer informatie over Verzonden en geleverde waarden per domein
+
+* **[!UICONTROL Sent]**: Totaal aantal verzendingen voor uw e-mail.
+
+* **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
+
++++
+
+### Stuitingen en fouten per domein {#bounces-errors-domains}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_bounces_errors_domains"
+>title="Stuitingen en fouten per domein"
+>abstract="De Bounces &amp; de fouten door domeingrafiek en de lijst vertegenwoordigen domein-vlakke uitsplitsing van specifieke fouten die tijdens het verzendende proces voorkwamen."
+
+![](assets/channel_email_bounces_domain.png)
+
+De  **[!UICONTROL Bounces & errors by domains]** de grafiek en de lijst verstrekken een domein-vlakke uitsplitsing van specifieke fouten die tijdens het verzendende proces worden ontmoet, die een gedetailleerde analyse van kwesties verstrekken die voorkwamen.
+
++++ Meer informatie over grenzen en fouten per domeinmetriek
+
+* **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens het verzendingsproces en automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.
+
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens het verzendproces waardoor het niet naar profielen kan worden verzonden.
+
++++
+
+### Openen en klikken op domeinen {#open-clicks-domains}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_open_clicks_domains"
+>title="Openen en klikken op domeinen"
+>abstract="De grafiek en tabel voor Openen en klikken op domeinen geven een overzicht van de betrokkenheid van uw bezoekers bij uw e-mail op domeinniveau."
+
+![](assets/channel_email_open_domains.png)
+
+De  **[!UICONTROL Open & clicks by domains]** in grafiek en tabel wordt een overzicht gegeven van de betrokkenheid van uw bezoekers op domeinniveau bij uw e-mail. Zo krijgt u waardevolle inzichten over de interactie tussen de verschillende domeinen en uw inhoud.
+
++++ Meer informatie over Openen en klikken op domeinmetriek
+
+* **[!UICONTROL Opens]**: Aantal keer dat de e-mail is geopend.
+
+* **[!UICONTROL Clicks]**: Aantal keer dat er op inhoud is geklikt in een e-mail.
+
++++
+
+### Bounce reason by domain {#bounce-reasons-domains}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_email_bounce_reasons_domains"
+>title="Bounce reason by domain"
+>abstract="De redenen van de Stuiting door domein door domeingrafiek en lijst vertegenwoordigen domein-vlakke uitsplitsing van gegevens over zowel tijdelijke als permanente fouten."
+
+![](assets/channel_email_bounce_domain.png)
+
+De  **[!UICONTROL Bounce reasons by domain]** grafiek en tabel bieden een uitsplitsing op domeinniveau van gegevens met betrekking tot zowel tijdelijke als permanente fouten, die gedetailleerde inzichten verschaffen in de redenen achter aangekondigde berichten.
+
+Voor meer informatie over grenzen raadpleegt u de [Onderdrukkingslijst](../reports/suppression-list.md) pagina.
+
 ## Pushmelding {#push}
+
+Van uw rapporten van het Kanaal, **Pushmelding** bevat de belangrijkste informatie met betrekking tot pushmeldingen die in uw campagnes en reizen worden verzonden. Metrisch worden hieronder beschreven.
+
+### Pushberichten - Totaal verzendende statistieken {#push-total-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_push_sending_statistics"
 >title="Pushberichten - Totaal verzendende statistieken"
 >abstract="De pushberichten - het totaal verzenden van statistieken KPIs vatten essentiële gegevens over uw dupberichten zoals Gericht of Geleverd samen."
 
->[!CONTEXTUALHELP]
->id="ajo_channel_push_tracking_statistics"
->title="Pushmelding - Totaal aantal volgstatistieken"
->abstract="Het pushbericht - De statistische gegevens voor het bijhouden van gegevens bevatten gegevens over de profielactiviteit voor uw pushberichten."
+![](assets/channel_push_total_sending.png)
 
->[!CONTEXTUALHELP]
->id="ajo_channel_push_sending_statistics_overtime"
->title="Pushmeldingen - Statistieken verzenden in de loop der tijd"
->abstract="De grafiek van het Bericht van de Duw die statistieken over tijdsgrafiek verzendt geeft gegevens betreffende verzonden pushberichten, uitgesplitst op een uur, een dag, een wekelijkse, of maandbasis."
+De **[!UICONTROL Push notifications - Total sending statistics]** KPI&#39;s fungeren als een uitgebreide samenvatting waarin essentiële gegevens met betrekking tot uw pushberichten zijn opgenomen. Deze meetgegevens bevatten gedetailleerde inzichten in het doelpubliek en de werkelijke leveringsstatus, zodat u een goed doordachte weergave krijgt van de effectiviteit en het bereik van uw pushberichten.
 
->[!CONTEXTUALHELP]
->id="ajo_channel_push_tracking_statistics_overtime"
->title="Pushmeldingen - Statistieken bijhouden in de loop der tijd"
->abstract="De pushberichten - Het bijhouden van statistieken in de tijdgrafiek geeft gegevens over de profielactiviteit voor uw pushberichten, uitgesplitst op een uur-, dag-, week- of maandbasis."
-
->[!CONTEXTUALHELP]
->id="ajo_channel_push_excluded_reasons"
->title="Uitgesloten redenen"
->abstract="In de grafieken en de tabel met uitgesloten redenen worden de verschillende factoren weergegeven die hebben geleid tot gebruikersprofielen die zijn uitgesloten van het doelpubliek en die het bericht niet ontvangen."
-
->[!CONTEXTUALHELP]
->id="ajo_channel_push_error_reasons"
->title="Foutredenen"
->abstract="Met de grafieken en de tabel met oorzaken van fouten kunt u de specifieke fouten identificeren die tijdens het verzendingsproces zijn opgetreden."
-
->[!CONTEXTUALHELP]
->id="ajo_channel_push_tracking_statistics_platform"
->title="Statistieken bijhouden per platform"
->abstract="De statistieken van het Volgen door platformgrafiek en lijst verstrekken gegevens over profielactiviteit voor uw dupberichten afhankelijk van het operationele systeem van uw profiel."
-
->[!CONTEXTUALHELP]
->id="ajo_channel_push_sending_statistics_platform"
->title="Statistieken verzenden per platform"
->abstract="De verzendende statistieken per platformgrafiek en tabel bevatten gegevens over verzonden pushberichten."
-
-Uit uw Kanaalrapporten, details het Push berichtmenu de belangrijkste informatie met betrekking tot dupberichten die in uw Campagnes en Reizen worden verzonden. Metrisch worden hieronder beschreven.
-
-![](assets/push_channel_1.png)
-
-+++  Meer informatie over de verschillende maatstaven en widgets die beschikbaar zijn voor het pushrapport.
-
-De **[!UICONTROL Push notifications - Total sending statistics]** de tabel bevat de belangrijkste informatie met betrekking tot uw pushberichten met grafiek en PKI&#39;s:
++++ Meer informatie over pushberichten - statistische gegevens totaal verzenden
 
 * **[!UICONTROL Targeted]**: Totaal aantal verwerkte pushberichten.
 
@@ -248,7 +312,18 @@ De **[!UICONTROL Push notifications - Total sending statistics]** de tabel bevat
 
 * **[!UICONTROL Exclude rate]**: Percentage profielen dat door Adobe Journey Optimizer is uitgesloten.
 
-De **[!UICONTROL Push notification - Total tracking statistics]** bevat de beschikbare gegevens voor profielactiviteit voor uw pushberichten:
++++
+
+### Pushmelding - Totaal aantal volgstatistieken {#push-total-tracking}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_tracking_statistics"
+>title="Pushmelding - Totaal aantal volgstatistieken"
+>abstract="Het pushbericht - De statistische gegevens voor het bijhouden van gegevens bevatten gegevens over de profielactiviteit voor uw pushberichten."
+
+De **[!UICONTROL Push notification - Total tracking statistics]** widget biedt een gedetailleerde momentopname van profielactiviteiten die aan uw pushmeldingen zijn gekoppeld, en biedt essentiële inzichten in de doeltreffendheid van betrokkenheid en pushmeldingen.
+
++++ Meer informatie over pushberichten - statistische gegevens over het bijhouden van gegevens
 
 * **[!UICONTROL Opens]**: Het aantal keren dat een pushmelding is geopend.
 
@@ -258,9 +333,20 @@ De **[!UICONTROL Push notification - Total tracking statistics]** bevat de besch
 
 * **[!UICONTROL Action rate]**: Percentage acties op de geleverde pushmelding in vergelijking met verzonden pushberichten.
 
-* **[!UICONTROL Engagement Rate]**: Percentage van de knoppen en handelingen voor deze pushmelding, bijvoorbeeld als het profiel de pushmelding heeft geopend of als op een knop is geklikt.
++++
 
-De **[!UICONTROL Push notifications - Sending statistics over time]** De grafiek bevat de gegevens die beschikbaar zijn voor verzonden pushberichten, zoals:
+### Pushmeldingen - Statistieken verzenden in de loop der tijd {#push-sending-overtime}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_sending_statistics_overtime"
+>title="Pushmeldingen - Statistieken verzenden in de loop der tijd"
+>abstract="De grafiek van het Bericht van de Duw die statistieken over tijdsgrafiek verzendt geeft gegevens betreffende verzonden pushberichten, uitgesplitst op een uur, een dag, een wekelijkse, of maandbasis."
+
+![](assets/channel_push_sending_statistics.png)
+
+De **[!UICONTROL Push notifications - Sending statistics over time]** de grafiek biedt een dynamische vertegenwoordiging aan, die een analyse van uw activiteit van pushberichten toont. Deze grafische weergave biedt een uitgebreide uitsplitsing van verzonden pushberichten, waarmee u trends en patronen kunt waarnemen op een schaal van uur, dag, week of maand.
+
++++ Meer informatie over pushmeldingen - Statistieken over de tijd verzenden
 
 * **[!UICONTROL Sent]**: Totaal aantal verzonden pushmeldingen.
 
@@ -270,57 +356,85 @@ De **[!UICONTROL Push notifications - Sending statistics over time]** De grafiek
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden waardoor deze niet naar profielen kon worden verzonden.
 
-De **[!UICONTROL Excluded reasons]** de grafiek en de lijst tonen de verschillende redenen die gebruikersprofielen, uitgesloten van de gerichte profielen, van het ontvangen van het bericht verhinderden.
-
-De **[!UICONTROL Error Reasons]** in de grafiek en de tabel kunt u zien welke fout is opgetreden.
-
-De **[!UICONTROL Tracking by platform]** en **[!UICONTROL Sending by platform]** grafieken en tabellen geven het succes van uw pushmelding weer, afhankelijk van het besturingssysteem van uw profiel.
 +++
 
+### Pushmeldingen - Statistieken bijhouden in de loop der tijd {#push-tracking-overtime}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_tracking_statistics_overtime"
+>title="Pushmeldingen - Statistieken bijhouden in de loop der tijd"
+>abstract="De pushberichten - Het bijhouden van statistieken in de tijdgrafiek geeft gegevens over de profielactiviteit voor uw pushberichten, uitgesplitst op een uur-, dag-, week- of maandbasis."
+
+De **[!UICONTROL Push notifications - Tracking statistics over time]** grafiek verstrekt een gedetailleerd overzicht van profielactiviteit met betrekking tot uw dupberichten. Deze grafische weergave deelt de gegevens op uur-, dag-, week- of maandbasis op, en biedt waardevolle inzichten in hoe de betrokkenheid van de ontvanger zich ontwikkelt over verschillende tijdsintervallen.
+
++++ Meer informatie over pushmeldingen - Statistieken bijhouden over tijdwaarden
+
+* **[!UICONTROL Opens]**: Het aantal keren dat uw pushmelding is geopend.
+
+* **[!UICONTROL Actions]**: Totaal aantal acties op de geleverde pushmelding, bijvoorbeeld klikken op de knop of ontslag.
+
++++
+
+### Pushmeldingen - Uitgesloten redenen {#push-excluded-reasons}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_excluded_reasons"
+>title="Uitgesloten redenen"
+>abstract="In de grafieken en de tabel met uitgesloten redenen worden de verschillende factoren weergegeven die hebben geleid tot gebruikersprofielen die zijn uitgesloten van het doelpubliek en die het bericht niet ontvangen."
+
+![](assets/channel_push_excluded.png)
+
+De **[!UICONTROL Excluded reasons]** de grafiek en de lijst tonen de verschillende redenen die gebruikersprofielen, uitgesloten van de gerichte profielen, van het ontvangen van uw dupberichten verhinderden.
+
+Zie [deze pagina](exclusion-list.md) voor de volledige lijst van uitsluitingsredenen.
+
+### Pushmeldingen - Foutredenen {#push-error-reasons}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_error_reasons"
+>title="Foutredenen"
+>abstract="Met de grafieken en de tabel met oorzaken van fouten kunt u de specifieke fouten identificeren die tijdens het verzendingsproces zijn opgetreden."
+
+![](assets/channel_push_error.png)
+
+De **[!UICONTROL Error Reasons]** grafieken en tabel bieden u de mogelijkheid om de specifieke fouten te identificeren die zijn opgetreden tijdens het verzenden van uw pushberichten. Zo krijgt u gedetailleerde informatie over eventuele problemen die zich onderweg hebben voorgedaan.
+
+### Pushmeldingen - Bijhouden per platform {#push-tracking-platform}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_tracking_statistics_platform"
+>title="Statistieken bijhouden per platform"
+>abstract="De statistieken van het Volgen door platformgrafiek en lijst verstrekken gegevens over profielactiviteit voor uw dupberichten afhankelijk van het operationele systeem van uw profiel."
+
+De **[!UICONTROL Push notifications - Tracking by platform]** Grafieken en tabellen geven de activiteit van de ontvangers voor uw pushmelding weer, afhankelijk van het besturingssysteem van uw profiel.
+
+### Pushmeldingen - Verzenden per platform {#push-sending-platform}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_push_sending_statistics_platform"
+>title="Statistieken verzenden per platform"
+>abstract="De verzendende statistieken per platformgrafiek en tabel bevatten gegevens over verzonden pushberichten."
+
+![](assets/channel_push_sending_platform.png)
+
+De **[!UICONTROL Push notifications - Sending by platform]** een grafiek en tabellen geven een uitgebreide uitsplitsing van uw pushmeldingen met betrekking tot de operationele systemen van uw profielen. Deze grondige analyse biedt waardevolle inzichten in de doeltreffendheid van uw pushberichten op verschillende platforms.
+
 ## Sms {#sms}
+
+Van uw **Kanaal** in het menu SMS worden de belangrijkste gegevens weergegeven met betrekking tot SMS die in uw campagnes en reizen is verzonden. De cijfers worden hieronder beschreven.
+
+### SMS - Totaal aantal verzendende statistieken {#sms-sending-statistics}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_sms_sending_statistics"
 >title="SMS - Totaal aantal verzendende statistieken"
 >abstract="SMS - het totaal verzenden van statistieken KPIs vat essentiële gegevens over uw SMS berichten zoals Gericht of Geleverd samen."
 
->[!CONTEXTUALHELP]
->id="ajo_channel_sms_tracking_statistics"
->title="SMS - Totaal aantal volgstatistieken"
->abstract="De statistieken voor het bijhouden van SMS - Totaal bieden gegevens over profielactiviteiten voor je SMS-berichten."
+![](assets/channel_sms_total_sending.png)
 
->[!CONTEXTUALHELP]
->id="ajo_channel_sms_sending_statistics_overtime"
->title="SMS - Statistieken over een tijdsverloop verzenden"
->abstract="De sms - Verzendstatistieken in tijdgrafiek geven gegevens weer betreffende verzonden sms - berichten, uitgesplitst op uur, dag, week, of maandbasis."
+De **[!UICONTROL SMS - Total sending statistics]** KPIs dient als uitvoerige samenvatting, die essentiële gegevens met betrekking tot uw SMS omvat. Deze metriek omvat gedetailleerde inzichten in het gerichte publiek en de daadwerkelijke leveringsstatus, die een goed-afgeronde mening van de doeltreffendheid en het bereik van uw berichten van SMS verstrekken.
 
->[!CONTEXTUALHELP]
->id="ajo_channel_sms_tracking_statistics_overtime"
->title="SMS - Statistieken bijhouden in de loop der tijd"
->abstract="De sms - het Volgen statistieken over tijdsgrafiek verstrekt gegevens over profielactiviteit voor uw sms- berichten, die op een uur, dag, wekelijkse, of maandbasis worden uitgesplitst."
-
->[!CONTEXTUALHELP]
->id="ajo_channel_sms_excluded_reasons"
->title="Uitgesloten redenen"
->abstract="In de grafieken en de tabel met uitgesloten redenen worden de verschillende factoren weergegeven die hebben geleid tot gebruikersprofielen die zijn uitgesloten van het doelpubliek en die het bericht niet ontvangen."
-
->[!CONTEXTUALHELP]
->id="ajo_channel_sms_bounce_reasons"
->title="Stuitingsredenen"
->abstract="De grafieken en de tabel met Bounces Reasons bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd."
-
->[!CONTEXTUALHELP]
->id="ajo_channel_sms_error_reasons"
->title="Foutredenen"
->abstract="Met de grafieken en de tabel met oorzaken van fouten kunt u de specifieke fouten identificeren die tijdens het verzendingsproces zijn opgetreden."
-
-Uit uw Kanaalrapporten, detailleert het menu van SMS de belangrijkste informatie met betrekking tot SMS die in uw Campagnes en Reizen wordt verzonden. De cijfers worden hieronder beschreven.
-
-![](assets/sms_channel_1.png)
-
-+++ Meer informatie over de verschillende meetgegevens en widgets die beschikbaar zijn voor het SMS-rapport.
-
-De **[!UICONTROL SMS - Total sending statistics]** in de tabel wordt aangegeven hoe succesvol je SMS is:
++++ Meer informatie over pushberichten - statistische gegevens totaal verzenden
 
 * **[!UICONTROL Targeted]**: Aantal gebruikersprofielen dat als doelprofielen voor het kanaal van SMS kwalificeert.
 
@@ -342,50 +456,104 @@ De **[!UICONTROL SMS - Total sending statistics]** in de tabel wordt aangegeven 
 
 * **[!UICONTROL Exclude rate]**: Percentage profielen dat door Adobe Journey Optimizer is uitgesloten.
 
-De **[!UICONTROL SMS - Total tracking statistics]** widget geeft een gedetailleerde beschrijving van de belangrijkste informatie met betrekking tot de betrokkenheid van uw bezoekers bij uw URL&#39;s:
++++
+
+### SMS - Totaal aantal volgstatistieken {#sms-tracking-statistics}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_sms_tracking_statistics"
+>title="SMS - Totaal aantal volgstatistieken"
+>abstract="De statistieken voor het bijhouden van SMS - Totaal bieden gegevens over profielactiviteiten voor je SMS-berichten."
+
+![](assets/channel_sms_tracking.png)
+
+De **[!UICONTROL SMS - Total tracking statistics]** widget geeft een gedetailleerd overzicht van belangrijke informatie over de betrokkenheid van uw bezoekers bij uw URL&#39;s en biedt inzichten in de effectiviteit van uw SMS-berichten:
 
 * **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt in het SMS-bericht.
 
-* **[!UICONTROL Click rate]**: Percentage gebruikers dat interactie heeft gehad met het SMS-bericht.
+### SMS - Statistieken over een tijdsverloop verzenden {#sms-sending-statistics-overtime}
 
-De **[!UICONTROL SMS - Sending statistics over time]** widget geeft de belangrijkste informatie met betrekking tot uw bericht met een grafiek:
+>[!CONTEXTUALHELP]
+>id="ajo_channel_sms_sending_statistics_overtime"
+>title="SMS - Statistieken over een tijdsverloop verzenden"
+>abstract="De sms - Verzendstatistieken in tijdgrafiek geven gegevens weer betreffende verzonden sms - berichten, uitgesplitst op uur, dag, week, of maandbasis."
+
+![](assets/channel_sms_sending_overtime.png)
+
+De **[!UICONTROL SMS - Sending statistics over time]** de grafiek biedt een uitvoerige mening van verzonden SMS berichten, die gegevens verstrekken die op een uur, dag, wekelijkse, of maandbasis worden uitgesplitst. Deze grafische vertegenwoordiging staat u toe om tendensen in uw het overseinenactiviteit van SMS over verschillende tijdintervallen te volgen en te analyseren.
+
++++ Meer informatie over SMS - Statistieken verzenden over tijdsmetingen
 
 * **[!UICONTROL Sent]**: Totaal aantal verzonden SMS-berichten.
-
-* **[!UICONTROL Delivered]**: Aantal SMS-berichten dat is verzonden in verhouding tot het totale aantal verzonden SMS-berichten.
 
 * **[!UICONTROL Bounces]**: Totaal aantal gecumuleerde fouten en automatische retourverwerking in verhouding tot het totale aantal verzonden SMS-berichten.
 
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden waardoor deze niet naar profielen kon worden verzonden.
 
-De **[!UICONTROL Exclude Reasons]**, **[!UICONTROL Bounces Reasons]** en **[!UICONTROL Error Reasons]** in grafieken en tabellen kunt u zien welke fout en uitsluitingen zijn opgetreden.
-
 +++
 
+### SMS - Statistieken bijhouden in de loop der tijd {#sms-tracking-statistics-overtime}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_sms_tracking_statistics_overtime"
+>title="SMS - Statistieken bijhouden in de loop der tijd"
+>abstract="De sms - het Volgen statistieken over tijdsgrafiek verstrekt gegevens over profielactiviteit voor uw sms- berichten, die op een uur, dag, wekelijkse, of maandbasis worden uitgesplitst."
+
+![](assets/channel_sms_tracking_overtime.png)
+
+De **[!UICONTROL SMS - Tracking statistics over time]** de grafiek verstrekt gegevens over profielactiviteit met betrekking tot uw berichten van SMS, die een gedetailleerde uitsplitsing op een uur, dag, wekelijkse, of maandbasis aanbieden. Met deze grafische weergave kunt u patronen in de betrokkenheid van gebruikers analyseren en begrijpen in verschillende tijdsintervallen.
+
+* **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt in het SMS-bericht.
+
+### Uitgesloten redenen {#sms-excluded-reasons}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_sms_excluded_reasons"
+>title="Uitgesloten redenen"
+>abstract="In de grafieken en de tabel met uitgesloten redenen worden de verschillende factoren weergegeven die hebben geleid tot gebruikersprofielen die zijn uitgesloten van het doelpubliek en die het bericht niet ontvangen."
+
+![](assets/channel_sms_excluded.png)
+
+De **[!UICONTROL Excludes Reasons]** in grafieken en tabellen worden visueel de verschillende factoren weergegeven die hebben geleid tot de uitsluiting van gebruikersprofielen van het beoogde publiek, zodat gebruikers uw SMS-berichten niet kunnen ontvangen.
+
+Zie [deze pagina](exclusion-list.md) voor de volledige lijst van uitsluitingsredenen.
+
+### Stuitingsredenen {#sms-bounce-reasons}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_sms_bounce_reasons"
+>title="Stuitingsredenen"
+>abstract="De grafieken en de tabel met Bounces Reasons bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd."
+
+![](assets/channel_sms_bounce_reasons.png)
+
+De **[!UICONTROL Bounces Reasons]** grafieken en tabellen bieden een uitgebreid overzicht van de gegevens met betrekking tot verzonden SMS-berichten en bieden waardevolle inzichten in de specifieke redenen achter sms-berichten.
+
+### Foutredenen {#sms-error-reasons}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_sms_error_reasons"
+>title="Foutredenen"
+>abstract="Met de grafieken en de tabel met oorzaken van fouten kunt u de specifieke fouten identificeren die tijdens het verzendingsproces zijn opgetreden."
+
+De **[!UICONTROL Error Reasons]** Met grafieken en tabellen kunt u de specifieke fouten identificeren die zijn opgetreden tijdens het verzenden van uw SMS-berichten. Zo kunt u een grondige analyse van alle ondervonden problemen maken.
+
 ## Direct mail {#direct-mail}
+
+Van uw **Kanaal** de **Directe post** bevat de belangrijkste informatie met betrekking tot de direct-mailberichten die in uw **Campagnes** en **Reizen**. De methodes worden hieronder gedetailleerd.
+
+### Directe post - Totale verzendende statistieken {#direct-mail-total-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_direct_sending_statistics"
 >title="Directe post - Totale verzendende statistieken"
 >abstract="Direct post - het Totaal verzenden van statistieken KPIs vat essentiële gegevens over uw direct-mailberichten zoals Gericht of Geleverd samen."
 
->[!CONTEXTUALHELP]
->id="ajo_channel_direct_excluded_reasons"
->title="Uitgesloten redenen"
->abstract="In de grafieken en de tabel met uitgesloten redenen worden de verschillende factoren weergegeven die hebben geleid tot gebruikersprofielen die zijn uitgesloten van het doelpubliek en die het bericht niet ontvangen."
+![](assets/channel_direct_sending.png)
 
->[!CONTEXTUALHELP]
->id="ajo_channel_direct_error_reasons"
->title="Foutredenen"
->abstract="Met de grafieken en de tabel met oorzaken van fouten kunt u de specifieke fouten identificeren die tijdens het verzendingsproces zijn opgetreden."
+De **[!UICONTROL Direct mail - Total sending statistics]** widget biedt een uitgebreid overzicht van de prestaties van uw direct-mailberichten, die zeer belangrijke prestatiesindicatoren (KPIs) tonen die essentiële gegevens over uw direct-mailberichten samenvatten.
 
-Uit uw rapporten van het Kanaal, details het Directe e-mailmenu de belangrijkste informatie met betrekking tot de Directe die postberichten in uw Campagnes en Reizen worden verzonden. De methodes worden hieronder gedetailleerd.
-
-![](assets/direct_mail_channel_1.png)
-
-+++ Meer informatie over de verschillende maatstaven en widgets die beschikbaar zijn voor het rapport Direct mail.
-
-De **[!UICONTROL Direct mail - Total sending statistics]** de lijst specificeert het succes van uw berichten:
++++ Meer informatie over Direct mail - cijfers over totale verzendstatistieken
 
 * **[!UICONTROL Targeted]**: Aantal gebruikersprofielen dat als doelprofielen voor uw direct-mailberichten wordt gekwalificeerd.
 
@@ -399,70 +567,113 @@ De **[!UICONTROL Direct mail - Total sending statistics]** de lijst specificeert
 
 * **[!UICONTROL Exclude rate]**: Percentage profielen dat door Adobe Journey Optimizer is uitgesloten.
 
-De **[!UICONTROL Exclude Reasons]** en **[!UICONTROL Error Reasons]** in grafieken en tabellen kunt u zien welke fout en uitsluitingen zijn opgetreden.
 +++
 
+### Uitgesloten redenen {#direct-mail-excluded-reasons}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_direct_excluded_reasons"
+>title="Uitgesloten redenen"
+>abstract="In de grafieken en de tabel met uitgesloten redenen worden de verschillende factoren weergegeven die hebben geleid tot gebruikersprofielen die zijn uitgesloten van het doelpubliek en die het bericht niet ontvangen."
+
+![](assets/channel_direct_excluded.png)
+
+De **[!UICONTROL Direct Mail - Excluded reasons]** in grafieken en tabellen worden visueel de verschillende factoren geïllustreerd die ertoe hebben geleid dat gebruikersprofielen zijn uitgesloten van het doelpubliek, zodat deze geen directe-mailberichten kunnen ontvangen.
+
+Zie [deze pagina](exclusion-list.md) voor de volledige lijst van uitsluitingsredenen.
+
+### Foutredenen {#direct-mail-error-reasons}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_direct_error_reasons"
+>title="Foutredenen"
+>abstract="Met de grafieken en de tabel met oorzaken van fouten kunt u de specifieke fouten identificeren die tijdens het verzendingsproces zijn opgetreden."
+
+![](assets/channel_direct_error.png)
+
+De **[!UICONTROL Direct Mail - Error reasons]** voorzien in de middelen om specifieke fouten te identificeren die tijdens het verzendingsproces van uw direct-mailberichten voorkwamen, die voor een gedetailleerde analyse van om het even welke ondervonden kwesties toestaan.
+
 ## In-app {#in-app}
+
+Uit uw Channel-rapporten vindt u in het menu In-app de belangrijkste informatie over berichten in de app die in uw campagnes en reizen worden verzonden. De cijfers worden hieronder beschreven.
+
+### Totale betrokkenheid in de app {#inapp-total-engagement}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_inapp_engagement"
 >title="In-app - totale betrokkenheid"
 >abstract="De in-app - totale betrokkenheid-KPI&#39;s bieden uitgebreide informatie over de betrokkenheid van uw bezoekers bij uw in-app-berichten, waaronder metriek zoals Impressies en Interacties."
 
->[!CONTEXTUALHELP]
->id="ajo_channel_inapp_engagement_overtime"
->title="In-app - Betrokkenheid bij overuren"
->abstract="In de overloopgrafiek in de app - De overloopgrafiek van de betrokkenheid houdt in-app beelden en interacties bij, die uurs, dagelijks, wekelijks, en maandonderbrekingen verstrekken."
+![](assets/channel_inapp_engagement.png)
 
-Uit uw Channel-rapporten vindt u in het menu In-app de belangrijkste informatie over berichten in de app die in uw campagnes en reizen worden verzonden. De cijfers worden hieronder beschreven.
+De **[!UICONTROL In-app total engagement]** KPI&#39;s bieden uitgebreide inzichten in de betrokkenheid van uw bezoekers bij uw In-app-berichten, die belangrijke meetgegevens bevatten, zoals **Impressies** en **Interacties**.
 
-![](assets/inapp_channel_1.png)
-
-+++  Meer informatie over de verschillende maatstaven en widgets die beschikbaar zijn voor het rapport in de app.
-
-De **[!UICONTROL In-app total engagement]** KPI&#39;s geven een gedetailleerde beschrijving van de belangrijkste informatie over de betrokkenheid van uw bezoekers bij uw In-app-berichten, zoals:
++++ Meer informatie over de totale betrokkenheidswaarden in de app
 
 * **[!UICONTROL Impressions]**: Het totale aantal in-app berichten dat aan alle gebruikers wordt geleverd.
 
 * **[!UICONTROL Interactions]**: Totaal aantal contracten met uw In-app-bericht. Dit omvat alle handelingen die de gebruikers hebben uitgevoerd, zoals klikken, ontslag of andere interactie.
 
-* **[!UICONTROL Dismisses]**: Het totale aantal berichten in de app dat profielen zijn verwijderd door op de knop Sluiten of Automatisch sluiten te klikken.
++++
 
-* **[!UICONTROL Dismiss rate]**: percentage in-app-berichten dat profielen zijn verwijderd.
+### Overuren van betrokkenheid binnen de app {#inapp-engagement-overtime}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channel_inapp_engagement_overtime"
+>title="In-app - Betrokkenheid bij overuren"
+>abstract="In de overloopgrafiek in de app - De overloopgrafiek van de betrokkenheid houdt in-app beelden en interacties bij, die uurs, dagelijks, wekelijks, en maandonderbrekingen verstrekken."
+
+![](assets/channel_inapp_engagement_overtime.png)
 
 De **[!UICONTROL In-app engagement overtime]** in de grafiek wordt de ontwikkeling van uw In-app-indrukkingen en -interacties voor de desbetreffende periode weergegeven door elke indruk, afwijzing of interactie te volgen.
+
++++ Meer informatie over metrische gegevens over in-app betrokkenheid bij overwerk
+
+* **[!UICONTROL Impressions]**: Het totale aantal in-app berichten dat aan alle gebruikers wordt geleverd.
+
+* **[!UICONTROL Interactions]**: Totaal aantal contracten met uw In-app-bericht. Dit omvat alle handelingen die de gebruikers hebben uitgevoerd, zoals klikken, ontslag of andere interactie.
 
 +++
 
 ## Web {#web}
+
+Van uw **Kanaal** rapporten, detailleert het menu van het Web de belangrijkste informatie met betrekking tot Web-pagina&#39;s inbegrepen in uw **Campagnes** en **Reizen**. De cijfers worden hieronder beschreven.
+
+### Web - totale betrokkenheid {#web-engagement-total}
 
 >[!CONTEXTUALHELP]
 >id="ajo_channel_web_engagement"
 >title="Web - totale betrokkenheid"
 >abstract="De Web - Totale betrokkenheid KPIs verstrekken uitvoerige informatie over de betrokkenheid van uw bezoekers bij uw Web-pagina&#39;s, met inbegrip van metriek zoals Impressies en Interacties."
 
->[!CONTEXTUALHELP]
->id="ajo_channel_web_engagement_overtime"
->title="Web - Totale betrokkenheid overuren"
->abstract="De Web - de grafiek van de Betrokkenheid overwerk volgt uw Web-pagina&#39;s indrukken en interactie, die uurs, dagelijks, wekelijks, en maanduitsplitsingen verstrekken."
+![](assets/channel_web_engagement.png)
 
-Van uw rapporten van het Kanaal, detailleert het menu van het Web de belangrijkste informatie met betrekking tot Web-pagina&#39;s inbegrepen in uw Campagnes en Reizen. De cijfers worden hieronder beschreven.
+De **[!UICONTROL Web total engagement]** KPI&#39;s bieden uitgebreide inzichten in de betrokkenheid van uw bezoekers bij uw webpagina&#39;s, die belangrijke metriek omvatten, zoals impressies en interacties.
 
-![](assets/web_channel_1.png)
-
-+++ Leer meer over de verschillende metriek en widgets beschikbaar voor het rapport van het Web.
-
-De **[!UICONTROL Web total engagement]** KPI&#39;s geven een gedetailleerde beschrijving van de belangrijkste informatie over de betrokkenheid van uw bezoekers bij uw webervaringen, zoals:
++++ Meer informatie over de totale betrokkenheid op het web
 
 * **[!UICONTROL Impressions]**: Het totale aantal webervaringen dat aan alle gebruikers wordt geleverd.
 
 * **[!UICONTROL Interactions]**: Het totale aantal contracten met uw webpagina. Dit omvat alle handelingen die de gebruikers hebben uitgevoerd, zoals klikken of andere interacties.
 
-* **[!UICONTROL Dismisses]**: Het totale aantal webpagina&#39;s dat profielen hebben genegeerd.
++++
 
-* **[!UICONTROL Dismiss rate]**: Percentage webpagina&#39;s dat profielen zijn genegeerd.
+### Web - Totale betrokkenheid overuren {#web-engagement-total-overtime}
 
-De **[!UICONTROL Web engagement overtime]** een grafiek geeft de belangrijkste informatie weer over de betrokkenheid van uw bezoekers bij uw webpagina&#39;s.
+>[!CONTEXTUALHELP]
+>id="ajo_channel_web_engagement_overtime"
+>title="Web - Totale betrokkenheid overuren"
+>abstract="De Web - de grafiek van de Betrokkenheid overwerk volgt uw Web-pagina&#39;s indrukken en interactie, die uurs, dagelijks, wekelijks, en maanduitsplitsingen verstrekken."
+
+![](assets/channel_web_engagement_overtime.png)
+
+De **[!UICONTROL Web engagement overtime]** de grafiek controleert **Impressies** en **Interacties** van uw webpagina&#39;s, met gedetailleerde uitsplitsingen per uur, dag, week en maand.
+
++++ Meer informatie over de metriek van overwerk bij webbetrokkenheid
+
+* **[!UICONTROL Impressions]**: Het totale aantal webervaringen dat aan alle gebruikers wordt geleverd.
+
+* **[!UICONTROL Interactions]**: Het totale aantal contracten met uw webpagina. Dit omvat alle handelingen die de gebruikers hebben uitgevoerd, zoals klikken of andere interacties.
 
 +++
 
