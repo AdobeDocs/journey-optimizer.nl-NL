@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 84bb42083dc6b6c4e79014ea0b2d4632825350e7
+source-git-commit: 50ca60555c66a0a3f87c46301bb76545427c2780
 workflow-type: tm+mt
-source-wordcount: '4570'
+source-wordcount: '4582'
 ht-degree: 13%
 
 ---
@@ -41,6 +41,7 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 * Werk de **duur** in de `toString` functie. [Meer informatie](../building-journeys/functions/functiontostring.md)
 * Voor sommige externe gegevensbronnen wordt het gebruik van aangepaste handelingen aanbevolen.
 * Syntaxis van gebeurtenisveld is bijgewerkt. De volgende syntaxis is vervangen `@(my_event.myfield}` en vervangen door `@event{my_event.myfield}`. [Meer informatie](../building-journeys/expression/field-references.md)
+* Het Global-rapport en de Live-rapporthulplijnen zijn gereorganiseerd. [Meer informatie](../reports/campaign-global-report.md)
 
 
 ## November 2023 {#nov-2023}
