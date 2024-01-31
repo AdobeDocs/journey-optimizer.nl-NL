@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: 91f52af0c2e42556c4456be9b6b0cb84378c2a23
+source-git-commit: d9d2e763b04ec725cc389b1d535df4df06103018
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -121,6 +121,10 @@ Wanneer contextgegevens worden doorgegeven met een Edge-API-aanvraag voor beslui
 >[!NOTE]
 >
 >Opdat de contextgegevens worden opgeslagen, moet u een specifiek geconfigureerd XDM-schema hebben.
+
+**Bijwerken van de teller voor frequentiecattering**
+
+Als voor sommige van uw aanbiedingen de functie voor het toewijzen van frequenties is ingeschakeld om te bepalen hoe vaak het aantal bijschriften wordt teruggezet, wordt de teller in minder dan 3 seconden bijgewerkt en beschikbaar in een besluit van de Edge Decisioning API. [Leer hoe u beperkingen aan een aanbieding kunt toevoegen](../../offer-library/add-constraints.md)
 
 ## API-mogelijkheden voor besluitvorming {#decisioning}
 

@@ -8,24 +8,40 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 31d9189e8afd732875556b9caaa8e874f53597bb
+source-git-commit: 84bb42083dc6b6c4e79014ea0b2d4632825350e7
 workflow-type: tm+mt
-source-wordcount: '4291'
-ht-degree: 14%
+source-wordcount: '4570'
+ht-degree: 13%
 
 ---
 
 # Documentatie-updates {#latest-updates}
 
-Deze pagina bevat een overzicht van alle documentatie-updates voor [!DNL Journey Optimizer].
+Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 
 ## Januari 2024 {#jan-2024}
 
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 24 januari is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
 * Er is een begeleiding toegevoegd over de grootte van de reis. [Meer informatie](../start/guardrails.md#journeys-guardrails-journeys)
 * Tijdlijnbeheer is gedetailleerd [in het volgende gedeelte](../building-journeys/journey-gs.md#global_timeout).
 * Journey Optimizer [documentatiehuis](../../ajo-home.md) pagina is opnieuw ontworpen.
 * Recommendations over de activiteit Profielen bijwerken is toegevoegd. [Meer informatie](../building-journeys/update-profiles.md)
 * Er is informatie toegevoegd over het gedrag van onderbrekingen in de activiteiten van gebeurtenissen tijdens reizen. Wanneer geen gebeurtenis tijdens de gespecificeerde onderbrekingsperiode wordt ontvangen, zullen de individuen de reis voortzetten als geen onderbrekingspad wordt bepaald. [Meer informatie](../building-journeys/general-events.md#events-specific-time)
+* De vereisten van de in-app kanaalconfiguratie zijn bijgewerkt met een nota over het gebruik van een de voorkeur van de Dataset van de douane samenvoegbeleid. [Meer informatie](../in-app/inapp-configuration.md)
+* Er zijn meer details toegevoegd over het manipuleren van verzamelingen in een aangepaste handelingsreactie. [Meer informatie](../action/action-response.md#exp-syntax).
+* Een koppeling naar de [Schema-woordenboek voor Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) is toegevoegd aan de startpagina.
+* Een verouderde verwijzing naar het middel van het Bericht AJO is verwijderd uit de lijst van middelen beschikbaar in het Logboek van de Controle. Wanneer een update op een bericht in een reis wordt gedaan, **Reis** log wordt gemaakt. [Meer informatie](../privacy/audit-logs.md)
+* Er zijn aanvullende aanbevelingen toegevoegd over het gebruik van de **Publiek lezen** activiteit. [Meer informatie](../building-journeys/read-audience.md#must-read)
+* De pagina Aan de slag met Adobe Experience Platform-soorten publiek is verbeterd met een lijst met methoden voor het genereren van doelgroepen. [Meer informatie](../audience/about-audiences.md)
+* De beste praktijken zijn toegevoegd wanneer het kiezen van een eindpunt aan doel gebruikend een douaneactie. [Meer informatie](../action/about-custom-action-configuration.md)
+* Er is een opmerking toegevoegd om gebruikers te laten weten dat gebeurtenissen niet kunnen worden gestart vanaf externe systemen met een API. [Meer informatie](../building-journeys/testing-the-journey.md#important-notes)
+* Informatie over de **currentActionField** functie is toegevoegd aan de lijst met [beheerfuncties voor verzamelingen](../building-journeys/expression/collection-management-functions.md). Er is een expressiemonster toegevoegd waarin de functie wordt gebruikt [API-aanroepreacties gebruiken in aangepaste handelingen](../action/action-response.md) pagina.
+* Werk het aangepaste verificatiedocument bij met betrekking tot de duur van de cache. [Meer informatie] ../datasource/external-data-sources.md)
+* Steun voor `<listObject>` is gewijzigd in meerdere functies.
+* Werk de **duur** in de `toString` functie. [Meer informatie](../building-journeys/functions/functiontostring.md)
+* Voor sommige externe gegevensbronnen wordt het gebruik van aangepaste handelingen aanbevolen.
+* Syntaxis van gebeurtenisveld is bijgewerkt. De volgende syntaxis is vervangen `@(my_event.myfield}` en vervangen door `@event{my_event.myfield}`. [Meer informatie](../building-journeys/expression/field-references.md)
+
 
 ## November 2023 {#nov-2023}
 

@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: dfd8800f8fb6894e78ffa31d1f93ef5d99df09fc
+source-git-commit: 03e93e6a6652ffbe1cfdea3361e0a0d517cc39d8
 workflow-type: tm+mt
-source-wordcount: '2318'
+source-wordcount: '2346'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,7 @@ In feite is de uitvoer van een publiek een lijst met profielen, terwijl een besl
 
   Meer informatie over publiek in [deze sectie](../../audience/about-audiences.md).
 
-* **Beslissingsregels**
+* **Besluitvormingsregels**
 
   Anderzijds is een beslissingsregel gebaseerd op in Adobe Experience Platform beschikbare gegevens en bepaalt aan wie een aanbieding kan worden getoond. Zodra geselecteerd in een aanbieding of een besluit voor een bepaalde plaatsing, wordt de regel uitgevoerd telkens als een besluit wordt genomen, die ervoor zorgt dat elk profiel de recentste en beste aanbieding krijgt.
 
@@ -258,9 +258,12 @@ De **[!UICONTROL Frequency]** kunt u definiëren hoe vaak het aantal bijschrifte
 
 ![](../assets/offer-capping-frequency.png)
 
+
 >[!NOTE]
 >
 >De reset vindt plaats om 12.00 uur UTC, op de dag die u hebt gedefinieerd of op de eerste dag van de week/maand, indien van toepassing. De startdag van de week is zondag. De duur die u kiest, mag niet langer zijn dan twee jaar (d.w.z. het overeenkomstige aantal maanden, weken of dagen).
+>
+>De teller van de frequentiecapping wordt bijgewerkt en beschikbaar in een besluit van de Beslissing API van de Rand in minder dan 3 seconden.
 
 Als u bijvoorbeeld wilt dat het aantal bijschriften elke twee weken opnieuw wordt ingesteld, selecteert u **[!UICONTROL Weekly]** uit de bijbehorende vervolgkeuzelijst en type **2** in het andere veld. De reset vindt om de zondag plaats om 23.00 uur UTC.
 

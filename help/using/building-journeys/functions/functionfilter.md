@@ -1,15 +1,15 @@
 ---
 product: journey optimizer
 title: filter
-description: Meer informatie over het functiefilter
+description: Meer informatie over het filter function
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
 keywords: filter, functie, expressie, transport
 exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '113'
 ht-degree: 6%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 6%
 # filter{#filter}
 
 Retourneert een listObject met objecten waarvan het kenmerk key overeenkomt met een van de opgegeven sleutelwaarden.
-
->[!NOTE]
->
->Als de doellijst een listObject is, kan deze functie alleen worden gebruikt in aangepaste actiedragers.
 
 ## Categorie
 
@@ -34,7 +30,7 @@ Lijst
 
 | Parameter | Type | Beschrijving |
 |-----------|------------------|------------------|
-| listToFilter | listObject | lijst met objecten die moeten worden gefilterd. Dit moet een veldverwijzing zijn. |
+| listToFilter | listObject | lijst met te filteren objecten. Dit moet een veldverwijzing zijn. |
 | keyAttributeName | string | kenmerknaam in de objecten van de opgegeven lijst, gebruikt als sleutel voor filteren |
 | keyValueList | list | array van sleutelwaarden voor filteren |
 
@@ -82,7 +78,7 @@ U kunt de volgende expressie gebruiken:
 
 ```json
 filter(
- @{myevent.productListItems},
+ @event{myevent.productListItems},
  "id", 
  ["product2", "product3", "product4"]
 )

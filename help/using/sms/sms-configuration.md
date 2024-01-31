@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 1a3a67571ef839bf8e1942e4c9599aa52ea7e2dc
+source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1170'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Voer de volgende stappen uit om uw SMS/MMS-provider te configureren met Journey 
 
    ![](assets/sms_7.png)
 
-   * Voor **[!DNL Sinch]**:
+   * +++ Voor **[!DNL Sinch]**
 
       * **[!UICONTROL Name]**: kies een naam voor uw API-referentie.
 
@@ -77,15 +77,24 @@ Voer de volgende stappen uit om uw SMS/MMS-provider te configureren met Journey 
 
       * **[!UICONTROL Opt-In Message]**: voer de aangepaste reactie in die automatisch als uw **[!UICONTROL Opt-In Message]**.
 
+      * **[!UICONTROL Opt-Out Message]**: voer de aangepaste reactie in die automatisch als uw **[!UICONTROL Opt-Out Message]**.
+
       * **[!UICONTROL Help Message]**: voer de aangepaste reactie in die automatisch als uw **Help-bericht**.
 
-   * Voor **[!DNL Sinch MMS]**:
+      * **[!UICONTROL Double Opt-In Keywords]**: voer de trefwoorden in die het dubbele aanmeldingsproces activeren. Als een gebruikersprofiel niet bestaat, wordt het gecreeerd na succesvolle bevestiging. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden.
+
+      * **[!UICONTROL Double Opt-In Message]**: voer de aangepaste reactie in die automatisch wordt verzonden als reactie op de dubbele aanmeldingsbevestiging.
++++
+
+   * +++ Voor **[!DNL Sinch MMS]**
 
       * **[!UICONTROL Name]**: kies een naam voor uw API-referentie.
 
       * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** en **[!UICONTROL API Token]**: in het menu Conversation API vindt u uw referenties in het menu App. Meer informatie in [Sectorale documentatie](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
 
-   * Voor **[!DNL Twilio]**:
++++
+
+   * +++ Voor **[!DNL Twilio]**
 
       * **[!UICONTROL Name]**: kies een naam voor uw API-referentie.
 
@@ -93,12 +102,26 @@ Voer de volgende stappen uit om uw SMS/MMS-provider te configureren met Journey 
 
       * **[!UICONTROL Message SID]**: voer de unieke id in die aan elk bericht is toegewezen dat door de API van Twilio is gemaakt. Meer informatie in [Twilio-documentatie](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
-   * Voor **[!DNL Infobip]**:
++++
+
+   * +++ Voor **[!DNL Infobip]**
 
       * **[!UICONTROL Name]**: kies een naam voor uw API-referentie.
 
       * **[!UICONTROL API base URL]** en **[!UICONTROL API token]**: ga naar de startpagina van uw webinterface of de API-sleutelbeheerpagina om uw referenties te zoeken. Meer informatie in [Infobip-documentatie](https://www.infobip.com/docs/api){target="_blank"}.
 
+      * **[!UICONTROL Double Opt-In Keywords]**: voer de trefwoorden in die het dubbele aanmeldingsproces activeren. Als een gebruikersprofiel niet bestaat, wordt het gecreeerd na succesvolle bevestiging. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden.
+
+      * **[!UICONTROL Double Opt-In Message]**: voer de aangepaste reactie in die automatisch wordt verzonden als antwoord op de dubbele aanmeldingsbevestiging.
+
+      * **[!UICONTROL Principal Entity ID]**: voer de toegewezen DLT-hoofd-id in.
+
+      * **[!UICONTROL Content Template ID]**: voer uw geregistreerde sjabloon-id voor DLT-inhoud in.
+
+      * **[!UICONTROL Validity Period]**: voer de geldigheidsperiode van het bericht in uren in. Als berichten niet binnen deze termijn kunnen worden geleverd, zal het systeem extra pogingen doen om hen opnieuw te verzenden. De standaardgeldigheidsperiode is ingesteld op 48 uur.
+
+      * **[!UICONTROL Callback Data]**: voer de aanvullende clientgegevens in die worden verzonden via de URL Waarschuwen.
++++
 
 1. Klikken **[!UICONTROL Submit]** wanneer u de configuratie van uw API-referenties hebt voltooid.
 

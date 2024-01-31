@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: fa641124777093914e1d9bc03b28dbf42d9764d6
+source-git-commit: 110fd5f1055455ec040ab8de0b599a343e8de298
 workflow-type: tm+mt
-source-wordcount: '4120'
+source-wordcount: '4397'
 ht-degree: 8%
 
 ---
@@ -18,6 +18,90 @@ ht-degree: 8%
 # Aanvullende informatie 2023 {#release-notes-2023}
 
 Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] vrijgegeven in 2023.
+
+
+## Opmerkingen bij de release oktober 2023 {#oct-rn-2023}
+
+### Nieuwe functies{#oct-2023-features}
+
+Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
+
+<table>
+<thead>
+<tr>
+<th><strong>Gereedschap Sandbox</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met gereedschappen voor sandboxen kunt u objecten kopiëren naar meerdere sandboxen door gebruik te maken van exporteren en importeren van pakketten. Een pakket kan uit één object of uit meerdere objecten bestaan. Alle objecten die in een pakket zijn opgenomen, moeten afkomstig zijn uit dezelfde sandbox.</p>
+<!--img src="../data/assets/dataset-export-setup.png"-->
+<p>Raadpleeg de <a href="../building-journeys/copy-to-sandbox.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>MMS (Multimedia Message Service) in SMS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met het Kanaal van SMS, kunt u uw mededeling nu verbeteren door de MMS-berichten (Multimedia Message Service) te verzenden, toelatend het delen van beelden, GIFFEN, of video's met uw klanten. Deze functie is momenteel alleen beschikbaar voor Sinch.</p>
+<img src="assets/do-not-localize/mms.gif"/>
+<p>Raadpleeg de <a href="../sms/create-sms.md#mms-content">gedetailleerde documentatie</a> voor meer informatie.</p>
+</tr>
+</tbody>
+</table>
+
+### Verbeteringen {#oct-2023-improvements}
+
+Deze release bevat de verbeteringen die hieronder worden vermeld.
+
+**Doelgroepen**
+
+* U kunt nu doelgroepen kiezen die vanuit een CSV-bestand naar reizen en campagnes zijn geüpload. [Meer informatie](../audience/about-audiences.md#segments-in-journey-optimizer)
+* U kunt nu doelgroepen kiezen die zijn gemaakt door de publiekscompositie en de verrijkingskenmerken van de doelgroep in de stappen. [Meer informatie](../building-journeys/read-audience.md)
+
+>[!AVAILABILITY]
+>
+>Deze mogelijkheden zijn momenteel beschikbaar als een persoonlijke bètaversie.
+
+<!--
+**Spam scoring for emails**
+
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
+
+**Campagnes**
+
+<!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
+* Wanneer er een fout optreedt in een van uw campagnes, verschijnt er nu een waarschuwingspictogram in de lijst met campagnes naast de status van de campagne. [Meer informatie](../campaigns/modify-stop-campaign.md#statuses)
+
+**Reizen**
+
+* De maximale tijdsduur die u in een wachttijd kunt definiëren, is nu 29 dagen in plaats van 30. Deze verbetering is ingevoerd om te voorkomen dat wachttijden langer duren dan de 30 dagen durende reisduur. Dit geldt voor:
+
+   * de **Tijd** in het veld [wachtactiviteiten](../building-journeys/wait-activity.md)
+   * de **Wachttijd bij terugkeer** in [reiseigenschappen](../building-journeys/journey-gs.md#entrance)
+   * de **Wacht op** veld in de time-outdefinitie van [gebeurtenisactiviteiten](../building-journeys/general-events.md#events-specific-time).
+
+<!--
+**Consent in channel configuration**
+
+* You can now select a marketing action at the channel surface level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
+
+**Beslissingsbeheer**
+
+* Verschillende etiketten met betrekking tot het aanbieden van plafonnering in de besluitvormingsinterface zijn bijgewerkt. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
+
+
 
 ## Opmerkingen bij de release september 2023 {#sept-rn-2023}
 

@@ -7,16 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: serializeList, function, expression, trip
 exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 18%
+source-wordcount: '88'
+ht-degree: 6%
 
 ---
 
 # serializeList {#serializeList}
 
-Hiermee wordt de lijst (elk type) in de eerste parameter omgezet in een tekenreeks. De tweede parameter vertegenwoordigt het te gebruiken scheidingsteken. De derde parameter is een booleaanse waarde die aangeeft of elk element van de expressie aanhalingstekens moet bevatten.
+Hiermee wordt een bepaalde lijst (elk type behalve listObject) omgezet in een tekenreeks.
 
 ## Categorie
 
@@ -28,19 +28,11 @@ Lijst
 
 ## Parameters
 
-| Parameter | Type |
-|-----------|------------------|
-| Tekenreeks | Tekenreeks |
-| Boolean | Boolean |
-| DateTimeOnly | DateTimeOnly |
-| Lijst | listString |
-| Lijst | listBoolean |
-| Lijst | listPoint |
-| Lijst | listDecimal |
-| Lijst | listDuration |
-| Lijst | listDateTime |
-| Lijst | listDateTimeOnly |
-| Lijst | listDateOnly |
+| Parameter | Type | Beschrijving |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | Lijst die moet worden omgezet in een tekenreeks. |
+| scheidingsteken | string | Scheidingsteken tussen elk lijstelement in de uitvoertekenreeks. |
+| addQuotes | boolean | Deze parameter geeft aan of elk element in de uitvoertekenreeks aanhalingstekens moet bevatten (true) of niet (false). |
 
 ## Handtekening en type geretourneerd
 
@@ -59,8 +51,6 @@ Lijst
 `serializeList(<listDateOnly>,<string>,<boolean>)`
 
 `serializeList(<listDuration>,<string>,<boolean>)`
-
-`serializeList(<listPoint>,<string>,<boolean>)`
 
 Retourneer een tekenreeks.
 

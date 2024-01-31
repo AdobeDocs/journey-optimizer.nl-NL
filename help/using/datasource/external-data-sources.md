@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, bronnen, gegevens, configuratie, verbinding, derde
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 67fbfe9c2ffb40a420cc3f28a775d9c6b3ee5553
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 82%
+source-wordcount: '1450'
+ht-degree: 78%
 
 ---
 
@@ -28,6 +28,10 @@ Met externe databronnen kunt u een verbinding maken met externe systemen, bijvoo
 >[!NOTE]
 >
 >Bij het werken met externe systemen worden de geleidingskanalen vermeld in [deze pagina](../configuration/external-systems.md).
+
+>[!NOTE]
+>
+>Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen.
 
 REST-API’s die gebruikmaken van POST of GET en JSON retourneren, worden ondersteund. API-sleutel, standaard en aangepaste verificatiemodi worden ondersteund.
 
@@ -122,9 +126,12 @@ Bij deze verificatie is de uitvoering van de actie een proces dat uit twee stapp
 1. Roep het eindpunt aan om de toegangstoken te genereren.
 1. Roep de REST-API aan door de toegangstoken op de juiste manier te injecteren.
 
-Deze verificatie bestaat uit twee delen.
 
-De definitie van het eindpunt dat moet worden aangeroepen om de toegangstoken te genereren:
+>[!NOTE]
+>
+>**Deze verificatie bestaat uit twee delen.**
+
+### Definitie van het eindpunt dat moet worden geroepen om het toegangstoken te produceren
 
 * endpoint: URL om het eindpunt te genereren
 * methode van de HTTP-aanvraag bij het eindpunt (GET of POST)
@@ -133,7 +140,7 @@ De definitie van het eindpunt dat moet worden aangeroepen om de toegangstoken te
    * &#39;form&#39;: betekent dat het inhoudstype application/x-www-form-urlencoded (charset UTF-8) is en dat de sleutelwaardeparen serieel worden geordend zoals: key1=value1&amp;key2=value2&amp;..
    * &#39;json&#39;: betekent dat het inhoudstype application/json (charset UTF-8) is en dat de sleutelwaardeparen als een JSON-object worden geserialiseerd: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
-De definitie van de manier waarop de toegangstoken in de HTTP-aanvraag van de actie moet worden geïnjecteerd:
+### Definitie van de manier waarop het toegangstoken in het HTTP- verzoek van de actie moet worden ingespoten
 
 * authorizationType: bepaalt hoe de gegenereerde toegangstoken in de HTTP-aanroep voor de actie moet worden geïnjecteerd. De mogelijke waarden zijn:
 
@@ -150,8 +157,6 @@ De indeling van deze verificatie is:
 ```
 {
     "type": "customAuthorization",
-    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
-    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
     "endpoint": "<URL of the authentication endpoint>",
     "method": "<HTTP method to call the authentication endpoint, in 'GET' or 'POST'>",
     (optional) "headers": {
@@ -163,10 +168,16 @@ De indeling van deze verificatie is:
         "bodyParams": {
             "param1": value1,
             ...
-
         }
     },
-    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'"
+    "tokenInResponse": "<'response' or json selector in format 'json://<field path to access token>'",
+    "cacheDuration": {
+        (optional, mutually exclusive with 'duration') "expiryInResponse": "<json selector in format 'json://<field path to expiry>'",
+        (optional, mutually exclusive with 'expiryInResponse') "duration": <integer value>,
+        "timeUnit": "<unit in 'milliseconds', 'seconds', 'minutes', 'hours', 'days', 'months', 'years'>"
+    },
+    "authorizationType": "<value in 'bearer', 'header' or 'queryParam'>",
+    (optional, mandatory if authorizationType is 'header' or 'queryParam') "tokenTarget": "<name of the header or queryParam if the authorizationType is 'header' or 'queryParam'>",
 }
 ```
 
@@ -228,14 +239,19 @@ Hier ziet u een voorbeeld van het type headerverificatie:
       "username": "any value"
     }
   },
-  "tokenInResponse": "json://token"
-} 
+  "tokenInResponse": "json://token",
+  "cacheDuration": {
+    "expiryInResponse": "json://expiryDuration",
+    "timeUnit": "minutes"
+  }
+}
 ```
 
 Hier is een voorbeeld van de reactie van de login API vraag:
 
 ```
 {
-  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S"
+  "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S",
+  "expiryDuration" : 5
 }
 ```

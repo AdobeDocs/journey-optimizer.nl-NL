@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: toString, function, expression, trip
 exl-id: 06727146-2a44-4b74-aac4-be60e9e0e37c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 5%
+source-wordcount: '128'
+ht-degree: 3%
 
 ---
 
@@ -62,3 +62,7 @@ Retourneert &quot;4&quot;.
 `toString(#{ExperiencePlatform.test_date.person.birthDate}))`
 
 Retourneert de tekenreeksrepresentatie van het opgegeven veld dateOnly (XDM Date-veld), bijvoorbeeld &quot;2016-08-18&quot;.
+
+`toString(toDuration(1520))`
+
+Retourneert &quot;PT1.52S&quot;.

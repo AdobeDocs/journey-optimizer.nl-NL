@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: in-app, bericht, configuratie, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 3%
+source-wordcount: '614'
+ht-degree: 2%
 
 ---
 
@@ -28,6 +28,10 @@ Voor de correcte levering van de berichten in de app moeten de volgende instelli
 * In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}, make sure you have the default merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   Dit samenvoegbeleid wordt gebruikt door [!DNL Journey Optimizer] binnenkomende kanalen om binnenkomende campagnes op de rand correct te activeren en te publiceren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}
+
+  >[!NOTE]
+  >
+  >Wanneer u een aangepaste **[!UICONTROL Dataset preference]** samenvoegbeleid, zorg ervoor dat u het **[!UICONTROL Journey Inbound]** dataset binnen het gespecificeerde samenvoegbeleid.
 
   ![](assets/inapp_config_8.png)
 
@@ -121,7 +125,7 @@ Als u **niet** met behulp van de volgende vooraf gedefinieerde [veldgroepen](htt
 >
 >Het toevoegen van deze veldgroepen heeft geen invloed op de normale gegevensverzameling. Het is alleen additief voor de pagina&#39;s waarop een experiment wordt uitgevoerd, waarbij alle andere tracking ongewijzigd blijft.
 
-## Instructievideo&#39;s{#video}
+## Hoe kan ik-video&#39;s{#video}
 
 * In de onderstaande video ziet u hoe u de **Toepassingsconfiguratie beheren** machtiging om het menu met toepassingsoppervlakken te openen.
 

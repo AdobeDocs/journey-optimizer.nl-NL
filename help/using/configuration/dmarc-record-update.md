@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomein, domein, mail, dmarc, record
-source-git-commit: 11d42198436319cebb67446527e9fd8d0f80cfbc
+source-git-commit: c5da9e9cfd5c03d7c6898e492582e5cc3e466447
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,8 @@ of
 of
    * DMARC instellen op uw gedelegeerde subdomeinen **in de[!DNL Journey Optimizer]** gebruikersinterface voor configuratie. [Meer informatie](dmarc-record.md#implement-dmarc)
 
-     Nochtans, met de delegatie van CNAME zal het ook ingang in uw het ontvangen oplossing vereisen. Daarom moet u ervoor zorgen dat u uw IT-afdeling coördineert, zodat deze de update kan uitvoeren zodra de [!DNL Journey Optimizer] is beschikbaar (op 30 januari). [Meer informatie](dmarc-record.md#implement-dmarc)
+  Nochtans, met de delegatie van CNAME zal het ook ingang in uw het ontvangen oplossing vereisen. Zorg er daarom voor dat u coördineert met uw IT-afdeling, zodat deze de in [deze sectie](dmarc-record.md#implement-dmarc).
 
-**Een zelfbedieningsinterface voor implementatie DMARC zal beschikbaar zijn aan u die Jan, 30 begint. Meer informatie in [deze sectie](dmarc-record.md#implement-dmarc).**
 
 De meest recente tijdlijnen die door Google en Yahoo worden gedeeld, zijn als volgt:
 

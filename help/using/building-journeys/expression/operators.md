@@ -8,37 +8,37 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expressie, syntaxis, operatoren, editor, reis
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 6%
+source-wordcount: '531'
+ht-degree: 5%
 
 ---
 
 # Operatoren {#operators}
 
-Er zijn twee soorten operatoren: unaire operatoren en binaire operatoren. Er zijn linkerhand unaire operatoren en rechterhand unaire operatoren.
+Er zijn twee soorten exploitanten: unaire exploitanten en binaire exploitanten. Er zijn linkerhand unaire operatoren en rechterhand unaire operatoren.
 
 ```json
 // left-hand unary operators
 // <operator> <operand> 
 // operand is an expression
-not (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
+not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
 // right-hand unary operators
 // <operator> <operand> 
 // operand is an expression
-@{LobbyBeacon.endUserIDs._experience.emailid.id} is not null
+@event{LobbyBeacon.endUserIDs._experience.emailid.id} is not null
 
 // binary operators
 // <operand1> <operator> <operand2>
 // operand is an expression
-(@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example1@adobe.com") or (@{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com") 
+(@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example1@adobe.com") or (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example2@adobe.com") 
 ```
 
 ## Belangrijke opmerkingen{#important-notes}
 
-* Bij gebruik van een vermenigvuldiging (`*`), moeten beide bewerkingsvelden hetzelfde type hebben, geheel getal of decimaal. Voorbeeld :
+* Bij gebruik van een vermenigvuldiging (`*`), moeten beide bewerkingsvelden hetzelfde type hebben, geheel getal of decimaal. Voorbeeld:
    * het volgende voorbeeld is correct: `3.0 * 4.0`
    * `3 * 4.0` leidt tot een fout
 
@@ -101,7 +101,7 @@ Null betekent dat de expressie geen geëvalueerde waarde heeft.
 Voorbeeld:
 
 ```json
-@{BarBeacon.location} is null
+@event{BarBeacon.location} is null
 ```
 
 ### is niet null
@@ -117,7 +117,7 @@ Null betekent dat de expressie geen geëvalueerde waarde heeft.
 Voorbeeld:
 
 ```json
-@{BarBeacon.location} is not null
+@event{BarBeacon.location} is not null
 ```
 
 ### heeft null
@@ -172,7 +172,7 @@ Voorbeeld:
 
 >[!NOTE]
 >
->Voor &lt;expression1> en &lt;expression2> er is geen controle van het gegevenstype.
+Voor &lt;expression1> en &lt;expression2> er is geen controle van het gegevenstype.
 
 Het resultaat is booleaans.
 
@@ -368,7 +368,7 @@ Voorbeeld:
 
 Retourneert 1.
 
-## Wiskunde {#math}
+## Math {#math}
 
 ### is numeriek
 
@@ -412,7 +412,7 @@ Voorbeeld:
 @ is decimal
 ```
 
-## Tekenreeks {#string}
+## String {#string}
 
 ### +
 

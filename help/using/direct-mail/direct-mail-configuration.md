@@ -7,9 +7,9 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: c14bcd8c44ef913da588c86263769bdb5b3fb205
+source-git-commit: 3686127299107eb19db8e9290be1b737c1c87ec3
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -155,9 +155,7 @@ U kunt nu [een direct-mailbericht maken](../direct-mail/create-direct-mail.md) i
 
 >[!NOTE]
 >
->Dubbele rijen worden automatisch verwijderd.
->
->Als het maximumaantal records (dat wil zeggen rijen) voor elk bestand met profielgegevens te hoog is, wordt automatisch een ander bestand gemaakt voor de resterende records.
+>Dubbele rijen waarbij alle waarden in de rij gelijk zijn, worden automatisch uit het bestand verwijderd.
 
 <!--
     In the **[!UICONTROL Insertion]** section, you can choose to automatically remove duplicate rows.

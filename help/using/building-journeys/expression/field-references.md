@@ -8,16 +8,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: reis, veld, expressie, gebeurtenis
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # Veldverwijzingen {#field-references}
 
-Een veldverwijzing kan aan een gebeurtenis of een gebiedsgroep worden vastgemaakt. De enige betekenisvolle informatie is de naam van het veld en het pad ervan.
+Een veldverwijzing kan aan een gebeurtenis of een gebiedsgroep worden vastgemaakt. De enige relevante informatie is de naam van het veld en het pad ervan.
 
 Als u speciale tekens in een veld gebruikt, moet u dubbele aanhalingstekens of eenvoudige aanhalingstekens gebruiken. Hier volgen de gevallen waarin noteringen nodig zijn:
 
@@ -29,8 +29,8 @@ Als uw veld bijvoorbeeld _3h_: _#{OpenWeather.weerData.rain.&#39;3h&#39;} > 0_
 
 ```json
 // event field
-@{<event name>.<XDM path to the field>}
-@{LobbyBeacon.endUserIDs._experience.emailid.id}
+@event{<event name>.<XDM path to the field>}
+@event{LobbyBeacon.endUserIDs._experience.emailid.id}
 
 // field group
 #{<data source name>.<field group name>.<path to the field>}
@@ -43,12 +43,12 @@ Een syntaxiskleur wordt gebruikt om (groene) gebeurtenisvelden visueel te onders
 
 ## Standaardwaarden voor veldverwijzingen {#default-value}
 
-Een standaardwaarde kan aan een gebiedsnaam worden geassocieerd. De syntaxis is als volgt:
+Er kan een standaardwaarde aan een veldnaam worden gekoppeld. De syntaxis is als volgt:
 
 ```json
 // event field
-@{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
-@{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
+@event{<event name>.<XDM path to the field>, defaultValue: <default value expression>}
+@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue: "example@adobe.com"}
 // field group
 #{<data source name>.<field group name>.<path to the field>, defaultValue: <default value expression>}
 #{ExperiencePlatform.ProfileFieldGroup.profile.personalEmail.address, defaultValue: "example@adobe.com"}
@@ -56,7 +56,7 @@ Een standaardwaarde kan aan een gebiedsnaam worden geassocieerd. De syntaxis is 
 
 >[!NOTE]
 >
->Het veldtype en de standaardwaarde moeten hetzelfde zijn. Bijvoorbeeld @{LobbyBeacon.endUserIDs._experience.emailId.id, defaultValue : 2} wordt ongeldig omdat de standaardwaarde een geheel getal is, terwijl de verwachte waarde een tekenreeks moet zijn.
+>Het veldtype en de standaardwaarde moeten hetzelfde zijn. Bijvoorbeeld: `@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}` is ongeldig omdat de standaardwaarde een geheel getal is en de verwachte waarde een tekenreeks.
 
 Voorbeelden:
 
@@ -67,9 +67,9 @@ Voorbeelden:
 }
  
 expression example:
-- @{OrderEvent.orderId}                                    -> "12345"
-- @{OrderEvent.producdId, defaultValue : "not specified" } -> "not specified" // default value, productId is not a field present in the payload
-- @{OrderEvent.productId}                                  -> null
+- @event{OrderEvent.orderId}                                    -> "12345"
+- @event{OrderEvent.producdId, defaultValue : "not specified" } -> "not specified" // default value, productId is not a field present in the payload
+- @event{OrderEvent.productId}                                  -> null
  
  
 // for an entity 'Profile' on datasource 'ACP' having fields person/lastName, with fetched data such as:
@@ -101,25 +101,25 @@ U kunt elke gewenste expressie toevoegen als standaardwaarde. De enige beperking
 
 Er wordt verwezen naar de elementen die zijn gedefinieerd in verzamelingen met behulp van de specifieke functies `all`, `first` en `last`. Raadpleeg [deze sectie](../expression/collection-management-functions.md) voor meer informatie.
 
-Voorbeeld :
+Voorbeeld:
 
 ```json
-@{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
+@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all()
 ```
 
 ## Verwijzing naar een veld dat is gedefinieerd in een kaart
 
-### `entry` -functie
+### `entry` function
 
 Om een element in een kaart terug te winnen, gebruiken wij de ingangsfunctie met een bepaalde sleutel. Deze wordt bijvoorbeeld gebruikt wanneer de sleutel van een gebeurtenis wordt gedefinieerd op basis van de geselecteerde naamruimte. Zie voor meer informatie [deze pagina](../../event/about-creating.md#select-the-namespace).
 
 ```json
-@{MyEvent.identityMap.entry('Email').first().id}
+@event{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-In deze expressie krijgen we de vermelding voor de E-mailsleutel van het veld IdentityMap van een gebeurtenis. Het item &quot;Email&quot; is een verzameling, waaruit we de &quot;id&quot; in het eerste element gebruiken met &quot;first()&quot;. Zie voor meer informatie [deze pagina](../expression/collection-management-functions.md).
+In deze expressie krijgen we de vermelding voor de E-mailsleutel van het veld IdentityMap van een gebeurtenis. Het item &#39;Email&#39; is een verzameling, waaruit we de &#39;id&#39; in het eerste element gebruiken met &#39;first()&#39;. Zie voor meer informatie [deze pagina](../expression/collection-management-functions.md).
 
-### `firstEntryKey` -functie
+### `firstEntryKey` function
 
 Als u de eerste entry-sleutel van een kaart wilt ophalen, gebruikt u de optie `firstEntryKey` functie.
 
@@ -131,7 +131,7 @@ In dit voorbeeld wordt getoond hoe u het eerste e-mailadres van de abonnees van 
 
 In dit voorbeeld krijgt de abonnementenlijst de naam `daily-email`. E-mailadressen worden gedefinieerd als sleutels in het dialoogvenster `subscribers` kaart, die aan de kaart van de abonnementenlijst wordt verbonden.
 
-### `keys` -functie
+### `keys` function
 
 Om aan alle sleutels van een kaart terug te winnen, gebruik `keys` functie.
 
@@ -163,6 +163,6 @@ Gebruik de volgende syntaxis:
 Voorbeeld:
 
 ```json
-#{Weather.main.temperature, params: {localisation: @{Profile.address.localisation}}}
-#{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @{Profile.address.city}}}}}
+#{Weather.main.temperature, params: {localisation: @event{Profile.address.localisation}}}
+#{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @event{Profile.address.city}}}}}
 ```

@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: DMARC-record
 description: Leer hoe u DMARC-record instelt in Journey Optimizer
-feature: Subdomains, Channel Configuration
+feature: Subdomains, Channel Configuration, Deliverability
 topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomein, domein, mail, dmarc, record
-source-git-commit: 2a1fccd05c960aca6a2764844f96e161c798d404
+source-git-commit: f1f57e1b7398e0c235e5ecb80b58a8b7761d0e55
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1353'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Wat is DMARC? {#what-is-dmarc}
 
-DMARC, die staat voor **Op domein-gebaseerde Authentificatie van het Bericht, Rapportering, en Conformiteit**, is een methode voor e-mailverificatie waarmee domeineigenaars hun domein kunnen beschermen tegen ongeoorloofd gebruik. Door een duidelijk beleid aan e-mailleveranciers/ISPs aan te bieden, helpt het kwaadwillige acteurs verhinderen e-mails te verzenden die beweren van uw domein te zijn. Dit kan de kans verkleinen dat legitieme e-mailberichten als spam of afgewezen worden gemarkeerd en de e-mailleverbaarheid verbeteren.
+De op domein-gebaseerde Authentificatie van het Bericht, het Melden, en de Conformiteit (DMARC) is een methode van de e-mailauthentificatie die domeineigenaars toestaat om hun domein tegen onbevoegd gebruik te beschermen. Door een duidelijk beleid aan e-mailleveranciers/ISPs aan te bieden, helpt het kwaadwillige acteurs verhinderen e-mails te verzenden die beweren van uw domein te zijn. DMARC implementeren verkleint het risico dat legitieme e-mailberichten worden gemarkeerd als spam of afgewezen, en verbetert uw e-mailleverbaarheid.
 
 DMARC biedt ook rapportering over berichten die authentificatie ontbreken, samen met controle over de behandeling van e-mails die geen bevestiging DMARC overgaan. Afhankelijk van de geïmplementeerde [DMARC-beleid](#dmarc-policies), kunnen deze e-mails worden gecontroleerd, in quarantaine geplaatst of geweigerd. Met deze functies kunt u acties uitvoeren om mogelijke fouten te beperken en aan te pakken.
 
@@ -65,7 +65,7 @@ Als een e-mail DMARC-verificatie mislukt, kunt u beslissen welke actie op dat be
 
 Google en Yahoo zullen als onderdeel van hun afdwingbare best practices in de branche eisen dat u een **DMARC-record** voor elk domein dat u gebruikt om e-mail naar hen te verzenden. Deze nieuwe eis begint op **1 februari 2024**.
 
-Meer informatie over Google en Yahoo&#39;s vereisten in [deze sectie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=en#dmarc%3A){target="_blank"}.
+Meer informatie over Google en Yahoo&#39;s vereisten in [deze sectie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -79,7 +79,7 @@ Daarom beveelt de Adobe u ten zeerste aan de volgende maatregelen te nemen:
 
 ## DMARC implementeren in [!DNL Journey Optimizer] {#implement-dmarc}
 
-Starten bij **30 januari 2024** de [!DNL Journey Optimizer] De beleidsinterface zal u aan opstellingsDMARC verslag voor alle subdomeinen toestaan die u reeds hebt gedelegeerd of aan Adobe delegeert. De gedetailleerde stappen worden hieronder beschreven.
+De [!DNL Journey Optimizer] De beleidsinterface staat u toe aan opstelling DMARC verslag voor alle subdomeinen die u reeds hebt gedelegeerd of aan Adobe delegeert. De gedetailleerde stappen worden hieronder beschreven.
 
 ### Controleer uw bestaande subdomeinen voor DMARC {#check-subdomains-for-dmarc}
 

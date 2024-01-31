@@ -9,9 +9,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: e411810196c591727fb1049826dc761e3807ed03
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -65,3 +65,5 @@ Er zijn een aantal beste praktijken die u kunt aannemen, die u helpen binnen de 
 * Als dezelfde omstandigheden zich bij meerdere reizen herhalen (toestemmingscontroles, onderdrukking), kunt u overwegen deze als onderdeel van de segmentdefinitie te verplaatsen. Als u bijvoorbeeld een voorwaarde hebt om te controleren of het e-mailadres niet leeg is voor meerdere reizen, moet u die voorwaarde opnemen in de segmentdefinitie.
 * Als uw reis verscheidene voorwaarden heeft die het publiek verdelen om de aantallen bij elke stap te zien, denk na gebruikend Customer Journey Analytics of andere rapporteringsoplossing die voor analyse geschikter zijn.
 * Als u de limiet van knooppunten op het canvas bijna bereikt, kunt u overwegen om acties te consolideren met dynamische parameters of inhoud om de juiste inhoud te leveren in plaats van expliciete knooppunten.
+
+* Als u een **Publiek lezen** reis met partijsegment (A) en als u binnen de reis in het de stroomsegment van de Audience (B) gebruikt om uit te sluiten (d.w.z. A-B) uit te voeren, overweeg die logica aan segmenteringslogica en gebruik de uitsluiting als deel van de segmenteringslogica zelf.

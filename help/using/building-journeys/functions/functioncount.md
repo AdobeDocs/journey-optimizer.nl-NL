@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: aantal, functie, expressie, reis
 exl-id: 6980c1ec-3afd-4fc9-ae10-76bcf7364a04
-source-git-commit: ad113c0414b20ac2f758ad06a44315b24a3d3d0c
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 26%
+source-wordcount: '90'
+ht-degree: 6%
 
 ---
 
@@ -26,18 +26,13 @@ Samenvoeging
 
 `count(<listAny>)`
 
+`count(<listObject>)`
+
 ## Parameters
 
-| Parameter | Type |
-|-----------|------------------|
-| Lijst | listString |
-| Lijst | listBoolean |
-| Lijst | listInteger |
-| Lijst | listDecimal |
-| Lijst | listDuration |
-| Lijst | listDateTime |
-| Lijst | listDateTimeOnly |
-| Lijst | listDateOnly |
+| Parameter | Type | Beschrijving |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly of listObject | Te verwerken lijst. Voor listObject moet dit een veldverwijzing zijn. Een listObject kan geen null-object bevatten. |
 
 ## Handtekeningen en type geretourneerd
 
@@ -50,3 +45,7 @@ Retourneert een geheel getal.
 `count([10,2,10,null])`
 
 Retourneert 3.
+
+`count(@event{my_event.productListItems})`
+
+Retourneert het aantal objecten in de opgegeven array met objecten (type listObject). Opmerking: een listObject kan geen null-object bevatten

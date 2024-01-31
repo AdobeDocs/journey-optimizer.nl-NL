@@ -5,9 +5,9 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 1124de3e38eee72eb545c6d5a40a5a8f5de80181
+source-git-commit: dc5655d05a491568ee2a9f4a4a75939cfcc812e7
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '435'
 ht-degree: 15%
 
 ---
@@ -20,23 +20,27 @@ Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en
 
 >[!BEGINTABS]
 
+>[!TAB Release januari is live!]
+
+Ontdek nieuwe functies en verbeteringen die worden geïntroduceerd in de Adobe Journey Optimizer 24.1-release.
+
+[![afbeelding](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
 >[!TAB Verplichte DMARC-update]
 
 Google en Yahoo zullen als onderdeel van hun afdwingbare best practices in de branche eisen dat u een **DMARC-record** voor elk domein dat u gebruikt om e-mail naar hen te verzenden, vanaf **1 februari 2024**. Zorg ervoor dat u DMARC- verslag opstelling voor alle subdomeinen hebt die u aan Adobe in Journey Optimizer hebt gedelegeerd.
 
 [![afbeelding](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
 
->[!TAB Gereedschap Sandbox]
+>[!TAB Hoofdletters gebruiken]
 
-Met gereedschappen voor sandboxen kunt u objecten kopiëren naar meerdere sandboxen door gebruik te maken van exporteren en importeren van pakketten. Een pakket kan uit één object of uit meerdere objecten bestaan. Alle objecten die in een pakket zijn opgenomen, moeten afkomstig zijn uit dezelfde sandbox.
+Gebruik een catalogus met branchespecifieke gebruiksscenario&#39;s in Real-Time CDP en Journey Optimizer om veelvoorkomende gebruiksgevallen aan te pakken die u kunt uitvoeren met Adobe Experience Platform en Adobe Journey Optimiser.
 
-[![afbeelding](using/assets/do-not-localize/learn-more-button.svg)](using/building-journeys/copy-to-sandbox.md)
+Zodra u playbook hebt gekozen die het best aan uw behoeften past, kunt u het toelaten om de activa te produceren nodig om uw gebruikscase zoals reizen, berichten, schema&#39;s of segmenten te steunen, en hen aan uw schema voor snellere tijd aan waarde aan te passen.
 
->[!TAB MMS in SMS]
+![bewegende afbeelding met gebruik van hoofdletters en kleine letters weergeven](using/rn/assets/do-not-localize/playbooks.gif)
 
-Met het Kanaal van SMS, kunt u uw mededeling nu verbeteren door de MMS-berichten (Multimedia Message Service) te verzenden, toelatend het delen van beelden, GIFFEN, of video&#39;s met uw klanten. Deze functie is momenteel alleen beschikbaar voor Sinch.
-
-[![afbeelding](using/assets/do-not-localize/learn-more-button.svg)](using/sms/create-sms.md#mms-content)
+[![afbeelding](using/assets/do-not-localize/learn-more-button.svg)](using/start/playbooks.md)
 
 >[!ENDTABS]
 

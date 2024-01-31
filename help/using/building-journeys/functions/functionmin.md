@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: min, functie, expressie, transport
 exl-id: 1c425d1d-08b4-446b-83ce-db376b2bf39f
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 6%
+source-wordcount: '98'
+ht-degree: 4%
 
 ---
 
@@ -88,7 +88,7 @@ Retourneert een geheel getal.
 
 ## Voorbeelden
 
-`min(@{BarBeacon.inventory},5)`
+`min(@event{BarBeacon.inventory},5)`
 
 `min([10,3,8])`
 

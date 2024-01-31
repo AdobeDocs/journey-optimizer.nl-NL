@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: c4b8a74541a3fb9fea054bd1145592d75c62b165
+source-git-commit: ff25658bd69b83cfd1869490c24710f84d4a4ffc
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 2%
+source-wordcount: '1101'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Voor een merk kan het bijvoorbeeld de regel zijn dat niet meer dan drie marketin
 >
 >De regels van de berichtfrequentie zijn verschillend van opt-out beheer, dat gebruikers toestaat om van het ontvangen van mededelingen van een merk af te zien. [Meer informatie](../privacy/opt-out.md#opt-out-management)
 
-➡️ [Ontdek deze functie in video](#video)
+➡️ [Deze functie in video detecteren](#video)
 
 ## Toegangsregels {#access-rules}
 
@@ -36,7 +36,7 @@ Gebruik het filterpictogram om te filteren op de categorie, status en/of kanaal.
 
 ![](assets/message-rules-filter.png)
 
-### Toestemmingen{#permissions-frequency-rules}
+### Machtigingen{#permissions-frequency-rules}
 
 Als u de regels voor berichtfrequentie wilt openen, maken, bewerken of verwijderen, moet u beschikken over **[!UICONTROL Manage frequency rules]** toestemming.
 
@@ -79,13 +79,27 @@ Volg onderstaande stappen om een nieuwe regel te maken.
    >
    >Momenteel alleen de **[!UICONTROL Marketing]** -categorie is beschikbaar.
 
-1. Plaats het maximum voor uw regel, betekenend het maximumaantal berichten dat naar een individueel gebruikersprofiel elke maand kan worden verzonden.
+1. Selecteer een tijdframe waarop de afdekking moet worden toegepast.
 
-   ![](assets/message-rules-capping.png)
+   ![](assets/message-rules-capping-duration.png)
+
+   De frequentiegrens is gebaseerd op de geselecteerde kalenderperiode. Deze wordt opnieuw ingesteld aan het begin van het corresponderende tijdkader.
+
+   De teller loopt voor elke periode als volgt af:
+
+   * **[!UICONTROL Daily]**: De frequentieklep is geldig tot 23:59:59 UTC en wordt opnieuw ingesteld op 0 aan het begin van de volgende dag.
+
+   * **[!UICONTROL Weekly]**: De frequentiekapitaal is geldig tot zaterdag 23:59:59 UTC van die week als de kalenderweek op zondag begint. De vervaldatum staat los van de instelling van de regel. Bijvoorbeeld, als de regel op Donderdag wordt gecreeerd, is deze regel geldig tot Zaterdag bij 23:59:59.
+
+   * **[!UICONTROL Monthly]** De frequentie-instelling is geldig tot de laatste dag van de maand op 23:59:59 UTC De maandelijkse vervaldatum voor januari is bijvoorbeeld 01-31 23:59:59 UTC
 
    >[!NOTE]
    >
-   >Frequentiegrens is gebaseerd op een maandelijkse kalenderperiode. Deze wordt opnieuw ingesteld aan het begin van elke maand.
+   >Wanneer u werkt met [batchsegmentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} wordt aanbevolen. <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+
+1. Stel de plafonnering voor uw regel in. Dit betekent het maximumaantal berichten dat naar een individueel gebruikersprofiel kan worden verzonden per maand, week of dag - volgens de bovenstaande selectie.
+
+   ![](assets/message-rules-capping.png)
 
 1. Selecteer het kanaal dat u voor deze regel wilt gebruiken: **[!UICONTROL Email]** of **[!UICONTROL Push notification]**.
 
@@ -97,7 +111,7 @@ Volg onderstaande stappen om een nieuwe regel te maken.
 
 1. Selecteer meerdere kanalen als u de afdekking op alle geselecteerde kanalen als een totaal aantal wilt toepassen.
 
-   Stel de aftopping bijvoorbeeld in op 15 en selecteer het e-mailadres en het pushkanaal. Als een profiel al 10 marketingberichten en 5 pushmeldingen voor marketing heeft ontvangen, wordt dit profiel uitgesloten van de eerstvolgende levering van elke marketingmail of pushmelding.
+   Stel de aftopping bijvoorbeeld in op 15 en selecteer het e-mailadres en het pushkanaal. Als een profiel al 10 marketingberichten en 5 marketingpushmeldingen voor de geselecteerde periode heeft ontvangen, wordt dit profiel uitgesloten van de eerstvolgende levering van elke marketingmail of pushmelding.
 
 1. Klikken **[!UICONTROL Save as draft]** om de regel te bevestigen. Uw bericht wordt toegevoegd aan de regellijst, met de **[!UICONTROL Draft]** status.
 
@@ -187,6 +201,6 @@ In dit scenario wordt een individueel profiel:
 
 ## Hoe kan ik-video {#video}
 
-Leer hoe u frequentieregels maakt, activeert, test en rapporteert.
+Leer hoe u regels voor frequenties maakt, activeert, test en rapporteert.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, publiek, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
+source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1373'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,9 @@ Neem bijvoorbeeld het publiek voor het openen en uitchecken van de Luma-app dat 
 
 ## Lees hier meer {#must-read}
 
-* Voor reizen die gebruikmaken van een activiteit van het leespubliek is er een maximumaantal reizen dat precies op hetzelfde moment kan beginnen. Het systeem zal tests uitvoeren, maar u moet vermijden dat meer dan vijf reizen (met Leespubliek, gepland of &quot;zo snel mogelijk&quot; te starten) op precies hetzelfde tijdstip beginnen door deze over een bepaalde tijd te verspreiden, bijvoorbeeld 5 tot 10 minuten uit elkaar.
+* Voor reizen met een **Publiek lezen** activiteit : er is een maximum aantal reizen dat precies op hetzelfde tijdstip kan beginnen . Het systeem voert de controles uit, maar geen meer dan vijf reizen (met **Publiek lezen**, gepland of te beginnen &quot;zo snel mogelijk&quot;) op hetzelfde tijdstip. De beste manier is om ze over een tijdsverloop te verspreiden, bijvoorbeeld 5 tot 10 minuten na elkaar.
 
-* U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een leespubliek, een kwalificatie Audience of een activiteit voor een zakelijke gebeurtenis.
+* U kunt geen veldgroepen met ervaringen gebruiken voor reizen die beginnen met een **Lees publiek** activiteit, **[kwalificatie publiek](audience-qualification-events.md)** activiteit, of een activiteit van de bedrijfsgebeurtenis.
 
 * Als beste praktijken, adviseren wij u slechts partijpubliek in te gebruiken **Lees publiek** activiteit. Dit zal een betrouwbare en consistente telling van de tijdens de reis gebruikte doelgroepen opleveren. Lees het publiek wordt ontworpen voor partijgebruik gevallen. Als u gegevens in real time nodig hebt voor uw gebruiksgeval, gebruikt u **[kwalificatie publiek](audience-qualification-events.md)** activiteit.
 

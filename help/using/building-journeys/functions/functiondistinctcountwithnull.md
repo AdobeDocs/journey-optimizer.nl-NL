@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: differentCountWithNull, function, expression, trip
 exl-id: 2c3f629f-2220-44a4-9b0c-8aa602301098
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 21%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
@@ -18,9 +18,7 @@ ht-degree: 21%
 
 Telt het aantal verschillende waarden inclusief de null-waarden.
 
->[!NOTE]
->
->Als de doellijst een listObject is, kan deze functie alleen worden gebruikt in aangepaste actiedragers.
+De parameter `<listObject>` wordt niet ondersteund in deze functie.
 
 ## Categorie
 
@@ -34,14 +32,7 @@ Samenvoeging
 
 | Parameter | Type |
 |-----------|------------------|
-| Lijst | listString |
-| Lijst | listBoolean |
-| Lijst | listInteger |
-| Lijst | listDecimal |
-| Lijst | listDuration |
-| Lijst | listDateTime |
-| Lijst | listDateTimeOnly |
-| Lijst | listDateOnly |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly |
 
 ## Handtekening en type geretourneerd
 

@@ -7,16 +7,18 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: countWithNull, function, expression, trip
 exl-id: 8d53b6d8-f00f-4d1a-b6df-951f84a15430
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 28%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
 # countWithNull {#countWithNull}
 
 Telt alle elementen van de lijst met inbegrip van ongeldige waarden.
+
+De parameter `<listObject>` wordt niet ondersteund in deze functie.
 
 ## Categorie
 
@@ -30,14 +32,7 @@ Samenvoeging
 
 | Parameter | Type |
 |-----------|------------------|
-| Lijst | listString |
-| Lijst | listBoolean |
-| Lijst | listInteger |
-| Lijst | listDecimal |
-| Lijst | listDuration |
-| Lijst | listDateTime |
-| Lijst | listDateTimeOnly |
-| Lijst | listDateOnly |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly |
 
 ## Handtekening en type geretourneerd
 

@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: differentWithNull, function, expression, trip
 exl-id: 73fa9837-d2e1-4f0a-a423-cf7728882eba
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '123'
 ht-degree: 4%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 4%
 # distinctWithNull {#distinctWithNull}
 
 Geeft als resultaat de verschillende waarden of objecten van een bepaalde lijst. Als de lijst ten minste één null-item heeft, wordt een null-waarde weergegeven in de geretourneerde lijst.
+
+De parameter `<listObject>` wordt niet ondersteund in deze functie.
 
 ## Categorie
 
@@ -30,8 +32,7 @@ Lijst
 
 | Parameter | Type | Beschrijving |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly of listObject | Te verwerken lijst. Voor listObject moet dit een veldverwijzing zijn. |
-| keyAttributeName | string | Deze parameter is optioneel en alleen voor listObject. Wanneer de parameter niet wordt opgegeven, wordt een object als gedupliceerd beschouwd wanneer alle kenmerken dezelfde waarden hebben. Anders wordt een object als gedupliceerd beschouwd wanneer het opgegeven kenmerk dezelfde waarde heeft. |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly | Te verwerken lijst. |
 
 ## Handtekeningen en geretourneerde typen
 
@@ -66,12 +67,6 @@ Retourneert een lijst met laarzen.
 `distinctWithNull(<listDuration>)`
 
 Retourneert een lijst met tijdsduur.
-
-`distinctWithNull(<listObject>)`
-
-`distinctWithNull(<listObject>,<string>)`
-
-Retourneert een lijst met objecten.
 
 ## Voorbeelden
 

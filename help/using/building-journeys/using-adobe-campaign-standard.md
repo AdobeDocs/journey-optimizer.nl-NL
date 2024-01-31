@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: transport, integratie, standaard, campagne, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 3%
+source-wordcount: '905'
+ht-degree: 1%
 
 ---
 
@@ -102,7 +102,7 @@ In deze sectie moet u de opdracht **[!UICONTROL Push platform]**. In de vervolgk
 U moet ook de **[!UICONTROL Registration Token]**. De expressie hangt af van de manier waarop het token is gedefinieerd in de gebeurtenislading of in andere [!DNL Journey Optimizer] informatie. Het kan een eenvoudig veld of een complexere expressie zijn voor het geval het token bijvoorbeeld in een verzameling wordt gedefinieerd:
 
 ```
-@{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
+@event{Event_push._experience.campaign.message.profileSnapshot.pushNotificationTokens.first().token}
 ```
 
 **[!UICONTROL Personalization Data]**

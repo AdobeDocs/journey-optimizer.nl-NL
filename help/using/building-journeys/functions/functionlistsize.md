@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: listSize, function, expression, trip
 exl-id: dd378e4d-f65a-495c-ac10-b4209d6b6b88
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 29%
+source-wordcount: '78'
+ht-degree: 7%
 
 ---
 
@@ -28,16 +28,9 @@ Lijst
 
 ## Parameters
 
-| Parameter | Type |
-|-----------|------------------|
-| Lijst | listString |
-| Lijst | listBoolean |
-| Lijst | listInteger |
-| Lijst | listDecimal |
-| Lijst | listDuration |
-| Lijst | listDateTime |
-| Lijst | listDateTimeOnly |
-| Lijst | listDateOnly |
+| Parameter | Type | Beschrijving |
+|-----------|------------------|------------------|
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly of listObject | Te verwerken lijst. Voor listObject moet dit een veldverwijzing zijn. Een listObject kan geen null-object bevatten. |
 
 ## Handtekeningen en type geretourneerd
 
@@ -57,12 +50,16 @@ Lijst
 
 `listSize(<listDuration>)`
 
-`listSize(<listPoint>)`
-
 Retourneer een geheel getal.
+
+`listSize(<listObject>)`
 
 ## Voorbeeld
 
 `listSize([10,2,3])`
 
 Retourneert 3.
+
+`listSize(@event{my_event.productListItems})`
+
+Retourneert het aantal objecten in de opgegeven array met objecten (type listObject).

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6a2b3c988168d8ff6f5671718cd0defb6ad8c258
+source-git-commit: 0d010bbb46887546d524726606764b564c352064
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1956'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,10 @@ Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in 
 * IP-adressen zijn niet toegestaan
 * Interne adressen van Adoben (`.adobe.*`) zijn niet toegestaan in URL&#39;s en API&#39;s.
 * Ingebouwde aangepaste handelingen kunnen niet worden verwijderd.
+* Wanneer het kiezen van een eindpunt om het gebruiken van een douaneactie te richten, ben zeker dat:
+
+   * Dit eindpunt kan de productie van de reis, gebruikend configuraties van steunen [Throttling API](../configuration/throttling.md) of [API voor uitlijnen](../configuration/capping.md) om het te beperken. Wees voorzichtig dat een snelheidsbegrenzingsconfiguratie niet lager kan zijn dan 200 TPS. Om het even welk gericht eindpunt zal minstens 200 TPS moeten steunen.
+   * Dit eindpunt moet een reactietijd hebben zo laag mogelijk. Afhankelijk van uw verwachte productie, zou het hebben van een hoge reactietijd de daadwerkelijke productie kunnen beïnvloeden.
 
 ### Gebeurtenissen {#events-g}
 
@@ -99,6 +103,10 @@ Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in 
 
 * De externe gegevensbronnen kunnen binnen een klantenreis worden gebruikt om externe gegevens in echt op te zoeken - tijd. Deze bronnen moeten bruikbaar zijn via REST API, JSON ondersteunen en het volume van aanvragen kunnen verwerken.
 * Interne adressen van Adoben (`.adobe.*`) zijn niet toegestaan in URL&#39;s en API&#39;s.
+
+>[!NOTE]
+>
+>Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen.
 
 ### Reizen en profiel maken {#journeys-limitation-profile-creation}
 

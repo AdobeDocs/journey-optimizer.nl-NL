@@ -7,20 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: sort, function, expression, trip
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 5%
+source-wordcount: '144'
+ht-degree: 4%
 
 ---
 
 # sort {#sort}
 
 Hiermee sorteert u een lijst met waarden of objecten in natuurlijke volgorde.
-
->[!NOTE]
->
->Als de doellijst een listObject is, kan deze functie alleen worden gebruikt in aangepaste actiedragers.
 
 ## Categorie
 
@@ -81,4 +77,8 @@ Retourneert `["A","B","C"]`.
 `sort([1, 3, 2], false)`
 
 Retourneert `[3, 2, 1]`.
+
+`sort(@event{my_event.productListItems}, "SKU", true)`
+
+Retourneert het listObject dat is geordend door het SKU-kenmerk (oplopende volgorde)
 
