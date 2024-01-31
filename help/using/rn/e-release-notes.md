@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 570f50a86288378c26f967f4861f19b9da9f96cf
+source-git-commit: 97967e8043df9b75d3120e4a7bfccff700f5d57f
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '558'
 ht-degree: 4%
 
 ---
@@ -88,6 +88,8 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 * **Lees publiek**  - De activiteit van het Leespubliek baseert zich nu op de dataset van de profielmomentopname voor partijsegmenten, die slechts eenmaal per dag wordt geproduceerd nadat de geplande dagelijkse partijbaan in werking wordt gesteld, vandaar zullen de gegevens tot die laatste dagelijkse partijbaan vers zijn.
 
 * **Veldgroepen** - Oplossing voor een probleem waarbij Veldgroepen in bepaalde gevallen werden geblokkeerd.
+
+* **Expressieeditor** - Het gegevenstype listObject wordt nu ondersteund in alle expressies en in extra functies. [Meer informatie](../building-journeys/expression/functions.md)
 
 **Frequentieregels**
 
