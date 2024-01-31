@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f5013f40735d424d49c2642ac824cbc6f68a3cb9
+source-git-commit: a5027f4558526c2f3516816c12803e741c7f8dac
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1748'
 ht-degree: 5%
 
 ---
@@ -50,6 +50,8 @@ Voor het verzenden van berichten met ritten zijn de volgende configuraties verei
 >title="Journeys"
 >abstract="Ontwerpen van klantritten om persoonlijke, contextuele ervaringen te bieden. Met Journey Optimizer kunt u in real-time gebruikmaken van het orkestgebruik en contextuele gegevens opslaan in gebeurtenissen of gegevensbronnen. De **Overzicht** wordt een dashboard weergegeven met de belangrijkste maatstaven voor uw reizen. De **Bladeren** wordt de lijst met bestaande reizen weergegeven."
 
+### Belangrijkste metriek en reislijst {#access-metrics}
+
 Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]**. Er zijn twee tabbladen beschikbaar:
 
 **Overzicht**: op dit tabblad wordt een dashboard weergegeven met de belangrijkste maatstaven voor uw reizen:
@@ -69,15 +71,27 @@ Klik in de menusectie JOURNEY MANAGEMENT op **[!UICONTROL Journeys]**. Er zijn t
 
 ![](assets/journeys-browse.png)
 
-In de lijst met ritten kunt u de ritten filteren op basis van hun status, type en versie van de **[!UICONTROL Status and version filters]**. Het type kan zijn: **[!UICONTROL Unitary event]**, **[!UICONTROL Audience qualification]**, **[!UICONTROL Read audience]**, **[!UICONTROL Business event]** of **[!UICONTROL Burst]**.
+### Reizen filteren {#filter}
 
-U kunt ervoor kiezen alleen reizen weer te geven die een specifieke gebeurtenis, veldgroep of handeling uit de **[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]**. Daarnaast worden de **[!UICONTROL Publication filters]** Hiermee kunt u een publicatiedatum of een gebruiker selecteren. U kunt bijvoorbeeld kiezen of u de nieuwste versies wilt weergeven van live reizen die gisteren zijn gepubliceerd. [Meer informatie](../building-journeys/using-the-journey-designer.md).
+In de lijst met reizen kunt u verschillende filters gebruiken om de lijst met reizen te verfijnen, zodat u deze beter leesbaar kunt maken.
 
 ![](assets/filter-journeys.png)
 
-Gebruik de **[!UICONTROL Last update]** en **[!UICONTROL Last update by]** kolommen om te controleren wanneer de laatste update van uw reizen is gebeurd en wie het heeft gered.
+Hier zijn de diverse het filtreren verrichtingen die u kunt uitvoeren:
 
-In de configuratievensters Gebeurtenis, Gegevensbron en Actie, **[!UICONTROL Used in]** in het veld wordt het aantal ritten weergegeven dat van die specifieke gebeurtenis, veldgroep of handeling gebruikmaakt. U kunt klikken op de knop **[!UICONTROL View journeys]** om de lijst met corresponderende journey’s weer te geven.
+* Reizen filteren op basis van hun status, type, versie en toegewezen tags van de **[!UICONTROL Status and version filters]**.
+
+  Het type kan zijn: **[!UICONTROL Unitary event]**, **[!UICONTROL Audience qualification]**, **[!UICONTROL Read audience]**, **[!UICONTROL Business event]** of **[!UICONTROL Burst]**.
+
+* Gebruik de **[!UICONTROL Creation filters]** om reizen te filteren op basis van de aanmaakdatum of de gebruiker die ze heeft gemaakt.
+
+* Reizen weergeven die gebruikmaken van een specifieke gebeurtenis, veldgroep of handeling van de **[!UICONTROL Activity filters]** en **[!UICONTROL Data filters]**.
+
+* Gebruik de **[!UICONTROL Publication filters]** om een publicatiedatum of een gebruiker te selecteren. U kunt bijvoorbeeld kiezen of u de nieuwste versies wilt weergeven van live reizen die gisteren zijn gepubliceerd.
+
+  <!--To filter journeys based on a specific date range, select **[!UICONTROL Custom]** from the **[!UICONTROL Published]** drop-down list.-->
+
+Daarnaast worden in de configuratievensters Gebeurtenis, Gegevensbron en Handeling de **[!UICONTROL Used in]** in het veld wordt het aantal ritten weergegeven dat van die specifieke gebeurtenis, veldgroep of handeling gebruikmaakt. U kunt klikken op de knop **[!UICONTROL View journeys]** om de lijst met corresponderende journey’s weer te geven.
 
 ![](assets/journey3bis.png)
 
@@ -134,7 +148,7 @@ Wanneer de **Hernieuwde toegang toestaan** -optie is geactiveerd, de **Wachttijd
 
 Meer informatie over toegang tot profielen en beheer van nieuwe toegang, in [deze sectie](entry-management.md).
 
-### Toegang beheren {#access}
+### Toegang beheren {#manage-access}
 
 Als u aangepaste of basislabels voor gegevensgebruik aan de reis wilt toewijzen, klikt u op de knop **[!UICONTROL Manage access]** knop. [Meer informatie over OLA (Object Level Access Control)](../administration/object-based-access.md)
 
