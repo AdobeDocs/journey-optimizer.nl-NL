@@ -7,14 +7,22 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 96367ab7b3d272368b1241321932a5e53c0654d7
+source-git-commit: a16de75b2b0604d7a0d6224d03b7c53715903c07
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
 # Hoofdletters gebruiken {#playbooks}
+
+>[!PREREQUISITES]
+>
+>De volgende configuratiestappen worden vereist alvorens met de Playbooks van het Geval van het Gebruik te werken. Gedetailleerde informatie over elke stap is beschikbaar in de documentatie bij Hoofdletters gebruiken [Aan de slag](https://experienceleague.corp.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html){target="_blank"} pagina.
+>
+>* Een sandbox maken
+>* Gebruikersmachtigingen configureren
+>* Journey Optimizer-kanaaloppervlakken configureren voor e-mail-, push- en SMS-berichten
 
 Afspeelboeken met hoofdletters gebruiken zijn vooraf gedefinieerde workflows die veelvoorkomende gebruiksgevallen aanpakken die u kunt uitvoeren met Adobe Experience Platform en Journey Optimizer.
 
