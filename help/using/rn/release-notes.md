@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 283983d98905b8e36d41823d1fae5d7a3c269ba3
+source-git-commit: b87ebc097c0c1c52ab21a4d098fbc2e5e227c953
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '603'
 ht-degree: 6%
 
 ---
@@ -44,7 +44,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <tr>
 <td>
 <p>Journey Optimizer ondersteunt nu de DMARC-verificatietechnologie.</p>
-<p>Vanaf 1 februari 2024, Google en Yahoo! u hebt een DMARC-record nodig voor elk domein dat u gebruikt om e-mail naar hen te verzenden. Zorg ervoor dat u DMARC- verslag opstelling voor alle subdomeinen hebt hebt die u of aan Adobe in Journey Optimizer hebt gedelegeerd.</p>
+<p>Vanaf 1 februari 2024, Google en Yahoo! vereisen dat u een DMARC-record hebt voor elk domein dat u gebruikt om e-mail naar hen te verzenden. Zorg ervoor dat u DMARC- verslag opstelling voor alle subdomeinen hebt hebt die u of aan Adobe in Journey Optimizer hebt gedelegeerd.</p>
 <p>Raadpleeg de <a href="../configuration/dmarc-record-update.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <br/><img src="assets/do-not-localize/dmarc.gif"/>
 </tr>
