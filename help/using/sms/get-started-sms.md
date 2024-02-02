@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 8d1eb5a2c330575a88967bca8b0244caba358eb0
+source-git-commit: 3fe533c9a1c2cd83d813d26288a2f1f63f84b2ad
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 7%
+source-wordcount: '249'
+ht-degree: 2%
 
 ---
 
@@ -71,6 +71,19 @@ Adobe Journey Optimizer verzendt tekstberichten via SMS-serviceproviders (of SMS
 
 ## Hoe kan ik-video
 
-Leer hoe u sms-berichten configureert, opstelt en opneemt in uw klantjourneys.
+* In de onderstaande video ziet u hoe u SMS-berichten kunt configureren, schrijven en opnemen in uw klantritten.
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
++++
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+
++++
+
+* De onderstaande video helpt u beter te begrijpen welke mobiele mogelijkheden Adobe Journey Optimizer biedt aan marketers.
+
+
+  +++Zie video
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+
++++

@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
+source-git-commit: 3fe533c9a1c2cd83d813d26288a2f1f63f84b2ad
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1177'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Voer de volgende stappen uit om uw SMS/MMS-provider te configureren met Journey 
 
       * **[!UICONTROL Help Message]**: voer de aangepaste reactie in die automatisch als uw **Help-bericht**.
 
-      * **[!UICONTROL Double Opt-In Keywords]**: voer de trefwoorden in die het dubbele aanmeldingsproces activeren. Als een gebruikersprofiel niet bestaat, wordt het gecreeerd na succesvolle bevestiging. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden.
+      * **[!UICONTROL Double Opt-In Keywords]**: voer de trefwoorden in die het dubbele aanmeldingsproces activeren. Als een gebruikersprofiel niet bestaat, wordt het gecreeerd na succesvolle bevestiging. Gebruik voor meerdere trefwoorden door komma&#39;s gescheiden waarden. [Meer informatie over de dubbele aanmelding voor SMS](https://video.tv.adobe.com/v/3427129/?learn=on).
 
       * **[!UICONTROL Double Opt-In Message]**: voer de aangepaste reactie in die automatisch wordt verzonden als reactie op de dubbele aanmeldingsbevestiging.
 +++

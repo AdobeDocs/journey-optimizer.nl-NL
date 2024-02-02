@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 3b659955734c9ac1f29b5ae51c9bfebf1d387b17
+source-git-commit: 3fe533c9a1c2cd83d813d26288a2f1f63f84b2ad
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,18 @@ Alfanumerieke identiteitskaart van de Afzender is slechts voor unidirectioneel o
 
 ## Video {#video-sms}
 
-Raadpleeg de volgende video voor meer informatie over de manier waarop native ondersteuning voor binnenkomende trefwoorden (START, STOP en UNSTOP) werkt voor SMS:
+* In de onderstaande video ziet u hoe native ondersteuning voor inkomende trefwoorden (START, STOP en UNSTOP) werkt voor SMS.
 
->[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
++++ Zie video
+
+  >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
+
++++
+
+* In de onderstaande video leert u hoe u dubbele aanmelding voor SMS kunt configureren.
+
++++ Zie video
+
+  >[!VIDEO](ttps://video.tv.adobe.com/v/3427129/?learn=on)
+
++++
