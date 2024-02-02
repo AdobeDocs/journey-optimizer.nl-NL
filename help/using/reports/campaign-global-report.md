@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
-source-wordcount: '4293'
+source-wordcount: '4451'
 ht-degree: 0%
 
 ---
@@ -270,9 +270,14 @@ Zie [deze pagina](exclusion-list.md) voor de volledige lijst van uitsluitingsred
 
 ### Verzonden en geleverd op domeinen {#sent-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_sent_domains"
+>title="Verzonden en geleverd op domeinen"
+>abstract="De tabel Verzonden en geleverd door domeinen en de grafiek geven een uitsplitsing van e-mails per domein, waarin diepgaande inzichten in de algemene prestaties van uw e-mailcommunicatie worden getoond."
+
 ![](assets/campaign_email_sent_domains.png)
 
-De  **[!UICONTROL Sent & delivered by domains]** tabel en grafiek geven een gedetailleerde uitsplitsing van e-mails op domeinniveau, zodat u uitgebreide inzichten kunt krijgen in de prestaties van uw e-mails.
+De **[!UICONTROL Sent & delivered by domains]** tabel en grafiek geven een gedetailleerde uitsplitsing van e-mails op domeinniveau, zodat u uitgebreide inzichten kunt krijgen in de prestaties van uw e-mails.
 
 +++ Meer informatie over Verzonden en geleverde waarden per domein
 
@@ -284,9 +289,14 @@ De  **[!UICONTROL Sent & delivered by domains]** tabel en grafiek geven een gede
 
 ### Stuitingen en fouten per domein {#bounces-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounces_domains"
+>title="Stuitingen en fouten per domein"
+>abstract="De grafiek en de lijst van Bounces &amp; van Fouten door Domains verstrekken een korrelige uitsplitsing op domeinniveau, die inzicht in specifieke fouten aanbieden die tijdens het e-mailverzendingsproces worden ontmoet."
+
 ![](assets/campaign_email_bounce_domains.png)
 
-De  **[!UICONTROL Bounces & errors by domains]** de grafiek en de lijst verstrekken een domein-vlakke uitsplitsing van specifieke fouten die tijdens het verzendende proces worden ontmoet, die een gedetailleerde analyse van kwesties verstrekken die voorkwamen.
+De **[!UICONTROL Bounces & errors by domains]** de grafiek en de lijst verstrekken een domein-vlakke uitsplitsing van specifieke fouten die tijdens het verzendende proces worden ontmoet, die een gedetailleerde analyse van kwesties verstrekken die voorkwamen.
 
 +++ Meer informatie over grenzen en fouten per domeinmetriek
 
@@ -298,9 +308,14 @@ De  **[!UICONTROL Bounces & errors by domains]** de grafiek en de lijst verstrek
 
 ### Openen en klikken op domeinen {#opens-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_open_domains"
+>title="Openen en klikken op domeinen"
+>abstract="De grafiek en tabel Openen en klikken op domeinen bieden een gedetailleerde uitsplitsing op domeinniveau en bieden een uitgebreide weergave van hoe uw publiek met uw e-mailberichten werkt."
+
 ![](assets/campaign_email_open_domains.png)
 
-De  **[!UICONTROL Open & clicks by domains]** in grafiek en tabel wordt een overzicht gegeven van de betrokkenheid van uw profielen op domeinniveau bij uw e-mail. Zo krijgt u waardevolle inzichten over de interactie tussen de verschillende domeinen en uw inhoud.
+De **[!UICONTROL Open & clicks by domains]** in grafiek en tabel wordt een overzicht gegeven van de betrokkenheid van uw profielen op domeinniveau bij uw e-mail. Zo krijgt u waardevolle inzichten over de interactie tussen de verschillende domeinen en uw inhoud.
 
 +++ Meer informatie over Openen en klikken op domeinmetriek
 
@@ -312,9 +327,14 @@ De  **[!UICONTROL Open & clicks by domains]** in grafiek en tabel wordt een over
 
 ### Bounce reason by domain {#bounce-reasons-domains}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_global_email_bounces_reasons_domains"
+>title="Bounce reason by domain"
+>abstract="De stuitredenen per domeingrafiek en tabel geven een indeling op domeinniveau met uitgebreide inzichten in zowel tijdelijke als permanente fouten. Deze gedetailleerde analyse geeft u waardevolle informatie over de specifieke redenen achter de berichten die worden aangekondigd."
+
 ![](assets/campaign_email_bounce_reasons_domains.png)
 
-De  **[!UICONTROL Bounce reasons by domain]** grafiek en tabel bieden een uitsplitsing op domeinniveau van gegevens met betrekking tot zowel tijdelijke als permanente fouten, die gedetailleerde inzichten verschaffen in de redenen achter aangekondigde berichten.
+De **[!UICONTROL Bounce reasons by domain]** grafiek en tabel bieden een uitsplitsing op domeinniveau van gegevens met betrekking tot zowel tijdelijke als permanente fouten, die gedetailleerde inzichten verschaffen in de redenen achter aangekondigde berichten.
 
 +++ Meer informatie over Bounce-redenen per domein
 
@@ -366,7 +386,7 @@ De **[!UICONTROL Email - Best recipient domain]** de grafiek en de lijst verstre
 
 >[!NOTE]
 >
->De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]**  widgets zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor uw e-mail. Voor meer informatie over Send-Time Optimization, verwijs naar [deze pagina](../building-journeys/journeys-message.md#send-time-optimization).
+>De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]** widgets zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor uw e-mail. Voor meer informatie over Send-Time Optimization, verwijs naar [deze pagina](../building-journeys/journeys-message.md#send-time-optimization).
 
 De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]** widgets bevatten de belangrijkste informatie ten opzichte van uw bericht, ongeacht of deze zijn geoptimaliseerd of niet.
 
@@ -554,7 +574,7 @@ De **[!UICONTROL Push notification - Sending summary]** de grafiek biedt een dyn
 
 >[!NOTE]
 >
->De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]**  widgets zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor uw pushmelding. Voor meer informatie over Send-Time Optimization, verwijs naar [deze pagina](../building-journeys/journeys-message.md#send-time-optimization).
+>De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]** widgets zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor uw pushmelding. Voor meer informatie over Send-Time Optimization, verwijs naar [deze pagina](../building-journeys/journeys-message.md#send-time-optimization).
 
 De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]** widgets bevatten de belangrijkste informatie ten opzichte van uw bericht, ongeacht of deze zijn geoptimaliseerd of niet.
 
@@ -599,7 +619,7 @@ Zie [deze pagina](exclusion-list.md) voor de volledige lijst van uitsluitingsred
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_push_breakdown_platform"
 >title="Pushmelding - Onderverdeling per platform"
->abstract="De grafieken en tabel van de indeling naar platform geven een overzicht van het succes van uw pushberichten op basis van het besturingssysteem van het profiel."
+>abstract="De pushmelding - Uitsplitsing naar platformgrafieken en tabel geeft een overzicht van het succes van uw pushberichten op basis van het besturingssysteem van het profiel."
 
 ![](assets/campaign_push_breakdown.png)
 
@@ -632,7 +652,7 @@ Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL SMS]** bevat de 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_sending_statistics"
 >title="SMS - Statistieken verzenden"
->abstract="De SMS die Statistieken verzendt vat essentiële gegevens over uw SMS- berichten zoals Gerichte of Geleide berichten samen."
+>abstract="De sms - Verzendende lijst van Statistieken vat essentiële gegevens over uw SMS berichten zoals Gerichte of Geleide berichten samen."
 
 ![](assets/campaign_sms_sending.png)
 
@@ -656,6 +676,11 @@ De **[!UICONTROL SMS - Sending statistics]** de lijst verstrekt een beknopte sam
 
 ### SMS - Trackingstatistieken {#sms-tracking-statistics}
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_sms_tracking_statistics"
+>title="SMS - Trackingstatistieken"
+>abstract="De widget statistieken voor sms - bijhouden biedt een uitgebreid overzicht van essentiële informatie over de interactie van uw bezoekers met uw URL."
+
 ![](assets/campaign_sms_tracking.png)
 
 De **[!UICONTROL SMS - Tracking statistics]** widget geeft een gedetailleerd overzicht van belangrijke informatie over de betrokkenheid van uw bezoekers bij uw URL&#39;s en biedt inzichten in de effectiviteit van uw SMS-berichten.
@@ -673,7 +698,7 @@ De **[!UICONTROL SMS - Tracking statistics]** widget geeft een gedetailleerd ove
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_performance"
 >title="SMS - Prestaties op datum"
->abstract="De widget SMS-prestaties op datum biedt via een grafische weergave belangrijke informatie over uw berichten."
+>abstract="De widget - SMS-prestaties op datum biedt belangrijke informatie over uw berichten via een grafische weergave."
 
 ![](assets/campaign_sms_performance.png)
 
@@ -727,7 +752,7 @@ De **[!UICONTROL Bounces Reasons]** grafieken en tabellen bieden een uitgebreid 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_global_sms_clicks_links"
 >title="SMS - Klikken op koppelingen"
->abstract="SMS - De widget klikt op koppelingen biedt essentiële inzichten in de betrokkenheid van uw bezoekers bij de URL&#39;s in uw berichten"
+>abstract="SMS - De widget klikt op koppelingen biedt essentiële inzichten in de betrokkenheid van uw bezoekers bij de URL&#39;s in uw berichten."
 
 ![](assets/campaign_sms_clicks.png)
 

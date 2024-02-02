@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: fa704bd6c82a3068f163bb74542107b34f1815d1
+source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '4061'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Vanaf uw reis **[!UICONTROL Global report]** de **[!UICONTROL Journey]** geeft u
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance"
 >title="Reisprestaties"
->abstract="XX"
+>abstract="Met de widget voor reisprestaties kunt u visueel het pad volgen van uw doelprofielen terwijl deze uw reis doorlopen."
 
 ![](assets/journey_performance.png)
 
@@ -60,7 +60,7 @@ De **[!UICONTROL Journey Performance]** met widget kunt u visueel het traject va
 >[!CONTEXTUALHELP]
 >id="ajo_journey_statistics"
 >title="Reisstatistieken"
->abstract="XX"
+>abstract="De belangrijkste indicatoren van de Prestaties van de Statistieken van de Reis (KPIs) dienen als uitvoerig dashboard, dat een diepgaande analyse van essentiële metriek met betrekking tot uw reis verstrekt."
 
 ![](assets/journey_statistics.png)
 
@@ -81,18 +81,18 @@ De **[!UICONTROL Journey Statistics]** De zeer belangrijke Indicatoren van Prest
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_performance"
 >title="Prestaties van handelingen"
->abstract="XX"
+>abstract="De widget Prestaties van acties illustreert de meest succesvolle acties die hebben plaatsgevonden toen uw acties werden geïnitieerd."
 
 ![](assets/journey_action_performance.png)
 
-De **[!UICONTROL Action Performance]** widget staat voor de meest succesvolle acties die zijn uitgevoerd toen uw **[!UICONTROL Actions]** werden geactiveerd.
+De **[!UICONTROL Action Performance]** widget staat voor de meest succesvolle acties die zijn uitgevoerd toen uw **[!UICONTROL actions]** werden geactiveerd.
 
 ### Bovenste acties {#top-actions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_top_actions"
 >title="Bovenste acties"
->abstract="XX"
+>abstract="De tabel met de belangrijkste acties consolideert essentiële informatie over uw acties en geeft beknopte opmerkingen over zowel de frequentie als de doeltreffendheid van elke actie."
 
 ![](assets/journey_top_actions.png)
 
@@ -111,40 +111,40 @@ De **[!UICONTROL Top Actions]** tabel bevat essentiële gegevens over uw **[!UIC
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_error_reasons"
 >title="Foutredenen voor handelingen"
->abstract="XX"
+>abstract="De tabel met oorzaken van fouten in Handelingen en de grafiek geven een uitgebreid overzicht van de fouten die tijdens de uitvoering van de handelingen zijn aangetroffen. Zo krijgt u een uitgebreid overzicht van de problemen die zich kunnen hebben voorgedaan."
 
 ![](assets/journey_action_error.png)
 
-De **[!UICONTROL Action Error Reasons]**  tabel en grafiek geven een uitgebreid overzicht van de fouten die zijn opgetreden tijdens de uitvoering van uw **[!UICONTROL Actions]**.
+De **[!UICONTROL Action Error Reasons]** tabel en grafiek geven een uitgebreid overzicht van de fouten die zijn opgetreden tijdens de uitvoering van uw **[!UICONTROL Actions]**.
 
 ### Gebeurtenissen naar oorsprong {#events-origin}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin"
 >title="Gebeurtenissen naar oorsprong"
->abstract="XX"
+>abstract="In de tabel Gebeurtenissen op oorsprong en de grafieken ziet u hoe uw gebeurtenissen met succes worden ontvangen. Met deze visuele voorstellingen kunt u nauwkeurig bepalen welke gebeurtenissen daadwerkelijk zijn ontvangen. Zo hebt u waardevolle inzichten in de prestaties en de impact van elke gebeurtenis op uw reis."
 
 ![](assets/journey_events_origin.png)
 
-De **[!UICONTROL Events by origin]** tabel en grafieken bieden een gedetailleerd perspectief op de succesvolle ontvangst van uw **[!UICONTROL Events]**. Aan de hand van deze visuele weergaven kunt u precies zien welke van uw **[!UICONTROL Events]** zijn daadwerkelijk ontvangen, zodat u waardevolle inzichten kunt krijgen in de prestaties en de impact van individuele gebeurtenissen op uw reis.
+De **[!UICONTROL Events by origin]** tabel en grafieken bieden een gedetailleerd perspectief op de succesvolle ontvangst van uw **[!UICONTROL events]**. Aan de hand van deze visuele weergaven kunt u precies zien welke van uw **[!UICONTROL events]** zijn daadwerkelijk ontvangen, zodat u waardevolle inzichten kunt krijgen in de prestaties en de impact van individuele gebeurtenissen op uw reis.
 
 ### Gebeurtenissen ontvangen per gebeurtenis {#events-received}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_received"
 >title="Gebeurtenissen ontvangen per gebeurtenis"
->abstract="XX"
+>abstract="De gebeurtenissen die door de grafiek van de Gebeurtenis worden ontvangen staan u toe om de specifieke gebeurtenissen binnen uw reis te identificeren en te analyseren die effectief werd uitgevoerd, leverend waardevolle inzichten in de prestaties en succespercentages van individuele gebeurtenissen."
 
 ![](assets/journey_event_received.png)
 
-De **[!UICONTROL Events received by event]** in een grafiek kunt u bepalen en analyseren welke specifieke **[!UICONTROL Event]** binnen uw reis werd effectief uitgevoerd, die waardevolle inzichten in de prestaties en succespercentages van individuele gebeurtenissen verstrekken.
+De **[!UICONTROL Events received by event]** in een grafiek kunt u bepalen en analyseren welke specifieke **[!UICONTROL event]** binnen uw reis werd effectief uitgevoerd, die waardevolle inzichten in de prestaties en succespercentages van individuele gebeurtenissen verstrekken.
 
 ### Frequente gebeurtenissen {#top-events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_top_events"
 >title="Frequente gebeurtenissen"
->abstract="XX"
+>abstract="De tabel Top Events consolideert essentiële gegevens over uw gebeurtenissen en geeft beknopte observaties over zowel de frequentie als de prestaties van elke afzonderlijke gebeurtenis."
 
 ![](assets/journey_top_events.png)
 
@@ -155,7 +155,7 @@ De **[!UICONTROL Top events]** tabel bevat essentiële gegevens over uw **[!UICO
 >[!CONTEXTUALHELP]
 >id="ajo_journey_consent_policies"
 >title="Toestemmingsbeleid"
->abstract="XX"
+>abstract="De lijst en de grafiek van het Beleid van de Toestemming tonen de hoeveelheid profielen die van elk beleid binnen uw douaneacties worden uitgesloten. Deze presentatie biedt een duidelijk inzicht in de invloed van elk toestemmingsbeleid op profieluitsluitingen."
 
 ![](assets/journey_consent.png)
 
@@ -174,7 +174,7 @@ Vanaf uw reis **[!UICONTROL Global report]** de **[!UICONTROL Email]** bevat de 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_statistics"
 >title="E-mail - Statistieken verzenden"
->abstract="XX"
+>abstract="De tabel E-mail - Statistieken verzenden bevat een overzicht van de belangrijkste gegevens over uw e-mail, zoals Gericht of bezorgd."
 
 ![](assets/journey_email_statistics.png)
 
@@ -211,7 +211,7 @@ De **[!UICONTROL Email Sending Statistics]** de tabel bevat een uitgebreide same
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_tracking_statistics"
 >title="E-mail - Trackingstatistieken"
->abstract="XX"
+>abstract="De tabel E-mail - Statistische gegevens bijhouden bevat gegevens over profielactiviteiten voor uw e-mail."
 
 ![](assets/journey_email_tracking.png)
 
@@ -244,7 +244,7 @@ De **[!UICONTROL Email - Tracking statistics]** de tabel bevat een gedetailleerd
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_performance"
 >title="E-mail - Prestaties verzenden"
->abstract="XX"
+>abstract="De grafiek van de e-mail - Verzendende prestaties biedt uitvoerige gegevens betreffende verzonden E-mail, die inzicht in zeer belangrijke metriek zoals geleverde en staren, toestaat voor een gedetailleerde analyse van het proces van de e-maillevering."
 
 ![](assets/journey_email_performance.png)
 
@@ -267,7 +267,7 @@ De **[!UICONTROL Email - Sending performance]** in grafiek vindt u een uitgebrei
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces"
 >title="E-mail - rubrieken en redenen voor stuiteren"
->abstract="XX"
+>abstract="De e-mail - de categorieën en de motiegidwidgets verzamelen de gegevens betreffende valse berichten, die diepgaand inzicht in de specifieke redenen en de categorieën aanbieden die tot e-mailstuitingen bijdragen"
 
 ![](assets/journey_email_bounce_categories.png)
 
@@ -290,7 +290,7 @@ Voor meer informatie over grenzen raadpleegt u de [Onderdrukkingslijst](../repor
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_error_reasons"
 >title="E-mail - Foutredenen"
->abstract="XX"
+>abstract="Met de grafieken en de tabel met redenen voor e-mail - Fout kunt u de specifieke fouten identificeren die tijdens het verzendingsproces zijn opgetreden."
 
 ![](assets/journey_email_error.png)
 
@@ -301,7 +301,7 @@ De **[!UICONTROL Error Reasons]** grafieken en tabellen bieden zichtbaarheid in 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_excluded_reasons"
 >title="E-mail - Uitgesloten redenen"
->abstract="XX"
+>abstract="In de grafieken en de tabel met uitgesloten redenen worden de verschillende factoren weergegeven die hebben geleid tot gebruikersprofielen die zijn uitgesloten van het doelpubliek en die het bericht niet ontvangen."
 
 ![](assets/journey_email_excluded.png)
 
@@ -314,11 +314,11 @@ Zie [deze pagina](exclusion-list.md) voor de volledige lijst van uitsluitingsred
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sent_delivered_domains"
 >title="Verzonden en geleverd op domeinen"
->abstract="XX"
+>abstract="De tabel Verzonden en geleverd door domeinen en de grafiek geven een uitsplitsing van e-mails per domein, waarin diepgaande inzichten in de algemene prestaties van uw e-mailcommunicatie worden getoond."
 
 ![](assets/journey_email_sent_domains.png)
 
-De  **[!UICONTROL Sent & delivered by domains]** tabel en grafiek geven een gedetailleerde uitsplitsing van e-mails op domeinniveau, zodat u uitgebreide inzichten kunt krijgen in de prestaties van uw e-mails.
+De **[!UICONTROL Sent & delivered by domains]** tabel en grafiek geven een gedetailleerde uitsplitsing van e-mails op domeinniveau, zodat u uitgebreide inzichten kunt krijgen in de prestaties van uw e-mails.
 
 +++ Meer informatie over Verzonden en geleverde waarden per domein
 
@@ -333,11 +333,11 @@ De  **[!UICONTROL Sent & delivered by domains]** tabel en grafiek geven een gede
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_open_clicks_domains"
 >title="Openen en klikken op domeinen"
->abstract="XX"
+>abstract="De grafiek en tabel Openen en klikken op domeinen bieden een gedetailleerde uitsplitsing op domeinniveau en bieden een uitgebreide weergave van hoe uw publiek met uw e-mailberichten werkt."
 
 ![](assets/journey_email_open_domains.png)
 
-De  **[!UICONTROL Open & clicks by domains]** in grafiek en tabel wordt een overzicht gegeven van de betrokkenheid van uw profielen op domeinniveau bij uw e-mail. Zo krijgt u waardevolle inzichten over de interactie tussen de verschillende domeinen en uw inhoud.
+De **[!UICONTROL Open & clicks by domains]** in grafiek en tabel wordt een overzicht gegeven van de betrokkenheid van uw profielen op domeinniveau bij uw e-mail. Zo krijgt u waardevolle inzichten over de interactie tussen de verschillende domeinen en uw inhoud.
 
 +++ Meer informatie over Openen en klikken op domeinmetriek
 
@@ -352,11 +352,11 @@ De  **[!UICONTROL Open & clicks by domains]** in grafiek en tabel wordt een over
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_errors_domains"
 >title="Stuitingen en fouten per domein"
->abstract="XX"
+>abstract="De grafiek en de lijst van Bounces &amp; van Fouten door Domains verstrekken een korrelige uitsplitsing op domeinniveau, die inzicht in specifieke fouten aanbieden die tijdens het e-mailverzendingsproces worden ontmoet."
 
 ![](assets/journey_email_bounce_domains.png)
 
-De  **[!UICONTROL Bounces & errors by domains]** de grafiek en de lijst verstrekken een domein-vlakke uitsplitsing van specifieke fouten die tijdens het verzendende proces worden ontmoet, die een gedetailleerde analyse van kwesties verstrekken die voorkwamen.
+De **[!UICONTROL Bounces & errors by domains]** de grafiek en de lijst verstrekken een domein-vlakke uitsplitsing van specifieke fouten die tijdens het verzendende proces worden ontmoet, die een gedetailleerde analyse van kwesties verstrekken die voorkwamen.
 
 +++ Meer informatie over grenzen en fouten per domeinmetriek
 
@@ -371,18 +371,18 @@ De  **[!UICONTROL Bounces & errors by domains]** de grafiek en de lijst verstrek
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_bounces_reasons_domains"
 >title="Bounces redenen per domein"
->abstract="XX"
+>abstract="De stuitredenen per domeingrafiek en tabel geven een indeling op domeinniveau met uitgebreide inzichten in zowel tijdelijke als permanente fouten. Deze gedetailleerde analyse geeft u waardevolle informatie over de specifieke redenen achter de berichten die worden aangekondigd."
 
 ![](assets/journey_email_bounce_reasons_domain.png)
 
-De  **[!UICONTROL Bounce reasons by domain]** grafiek en tabel bieden een uitsplitsing op domeinniveau van gegevens met betrekking tot zowel tijdelijke als permanente fouten, die gedetailleerde inzichten verschaffen in de redenen achter aangekondigde berichten.
+De **[!UICONTROL Bounce reasons by domain]** grafiek en tabel bieden een uitsplitsing op domeinniveau van gegevens met betrekking tot zowel tijdelijke als permanente fouten, die gedetailleerde inzichten verschaffen in de redenen achter aangekondigde berichten.
 
 ### E-mail - bovenste URL {#email-top}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_top_url"
 >title="E-mail - bovenste URL"
->abstract="XX"
+>abstract="De grafiek en tabel E-mail - URL bovenaan bieden een uitgebreid overzicht van de URL&#39;s in uw e-mail die het hoogste bezoekersverkeer ontvangen, zodat u de populairste koppelingen kunt identificeren."
 
 ![](assets/journey_email_top.png)
 
@@ -393,7 +393,7 @@ De **[!UICONTROL Email - Top Url]** de grafiek en de lijst verstrekken een uitvo
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization"
 >title="E-mail - Optimalisatie"
->abstract="XX"
+>abstract="De optimalisatie voor de verzendtijd en de geoptimaliseerde en niet-geoptimaliseerde widgets bieden gedetailleerde informatie over uw berichten en geven aan of deze zijn geoptimaliseerd of niet."
 
 ![](assets/journey_email_sto.png)
 
@@ -421,7 +421,7 @@ De **[!UICONTROL Send time optimization]** en **[!UICONTROL Optimized vs non opt
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers"
 >title="E-mail - voorstellen"
->abstract="XX"
+>abstract="De statistische en gedetailleerde statistische widgets van de Aanbiedingen verstrekken uitvoerige inzichten in de prestaties van uw aanbiedingen, die een gedetailleerde analyse van hun effect in tijd aanbieden en gedetailleerde statistieken voor een meer diepgaand begrip presenteren."
 
 >[!NOTE]
 >
@@ -458,7 +458,7 @@ Vanaf uw reis **[!UICONTROL Global report]** de **[!UICONTROL Push notification]
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_sending_statistics"
 >title="Pushmelding - Statistieken verzenden"
->abstract="XX"
+>abstract="De lijst van het Verzenden van de Statistieken van het Bericht van de Duw vat essentiële gegevens over uw dupberichten zoals Gerichte of Geleide berichten samen."
 
 ![](assets/journey_push_sending.png)
 
@@ -493,7 +493,7 @@ De **[!UICONTROL Push notification - Sending statistics]** de tabel bevat een be
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_tracking_statistics"
 >title="Pushmeldingen - Statistieken bijhouden"
->abstract="XX"
+>abstract="De statistieken van het Spoor van de Duw verstrekken gegevens over profielactiviteit voor uw dupmelding."
 
 De **[!UICONTROL Push - Tracking statistics]** widget biedt een gedetailleerde momentopname van profielactiviteiten die aan uw pushmeldingen zijn gekoppeld, en biedt essentiële inzichten in de doeltreffendheid van betrokkenheid en pushmeldingen.
 
@@ -512,7 +512,7 @@ De **[!UICONTROL Push - Tracking statistics]** widget biedt een gedetailleerde m
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_sending_summary"
 >title="Pushmelding - Samenvatting verzenden"
->abstract="XX"
+>abstract="In de grafiek Samenvatting van pushberichten wordt aangegeven welke gegevens beschikbaar zijn voor verzonden pushberichten."
 
 ![](assets/journey_push_summary.png)
 
@@ -537,7 +537,7 @@ De **[!UICONTROL Push notification - Sending summary]** de grafiek biedt een dyn
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_error_reasons"
 >title="Pushmelding - Foutredenen"
->abstract="XX"
+>abstract="Met de grafieken en de tabel met oorzaken van fouten kunt u de specifieke fouten identificeren die tijdens het verzendingsproces zijn opgetreden"
 
 ![](assets/journey_push_error.png)
 
@@ -548,7 +548,7 @@ De **[!UICONTROL Error Reasons]** tabel en grafieken bieden u de mogelijkheid om
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons"
 >title="Pushmelding - Uitgesloten redenen"
->abstract="XX"
+>abstract="In de grafieken en tabel met uitgesloten redenen worden de verschillende factoren weergegeven die hebben verhinderd dat gebruikersprofielen, die zijn uitgesloten van het doelpubliek, het bericht ontvingen."
 
 ![](assets/journey_push_excluded.png)
 
@@ -560,8 +560,8 @@ Zie [deze pagina](exclusion-list.md) voor de volledige lijst van uitsluitingsred
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_breakdown_platform"
->title="Push-melding - Uitsplitsing per platform"
->abstract="XX"
+>title="Pushmelding - Onderverdeling per platform"
+>abstract="De pushmelding - Uitsplitsing naar platformgrafieken en tabel geeft een overzicht van het succes van uw pushberichten op basis van het besturingssysteem van het profiel."
 
 ![](assets/journey_push_breakdown.png)
 
@@ -571,9 +571,9 @@ De **[!UICONTROL Breakdown by platform]** de grafiek en de lijst verstrekken een
 
 >[!NOTE]
 >
->De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]**  widgets zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor uw levering. Voor meer informatie over Send-Time Optimization, verwijs naar [deze pagina](../building-journeys/journeys-message.md#send-time-optimization).
+>De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]** widgets zijn alleen beschikbaar als de optie Send-Time Optimization is geactiveerd voor uw levering. Voor meer informatie over Send-Time Optimization, verwijs naar [deze pagina](../building-journeys/journeys-message.md#send-time-optimization).
 
-De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]**  widgets bevatten gedetailleerde informatie over de belangrijkste informatie ten opzichte van uw bericht, ongeacht of deze zijn geoptimaliseerd of niet.
+De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimization]** widgets bevatten gedetailleerde informatie over de belangrijkste informatie ten opzichte van uw bericht, ongeacht of deze zijn geoptimaliseerd of niet.
 
 +++ Meer informatie over pushmeldingen - Optimalisatiegegevens
 
@@ -596,7 +596,7 @@ De **[!UICONTROL Optimized vs non optimized]** en **[!UICONTROL Send time optimi
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_sending_statistics"
 >title="SMS - Statistieken verzenden"
->abstract="XX"
+>abstract="De sms - Verzendende lijst van Statistieken vat essentiële gegevens over uw SMS berichten zoals Gerichte of Geleide berichten samen."
 
 ![](assets/journey_sms_sending.png)
 
@@ -623,7 +623,7 @@ De **[!UICONTROL SMS - Sending statistics]** de lijst verstrekt een beknopte sam
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_tracking_statistics"
 >title="SMS - Trackingstatistieken"
->abstract="XX"
+>abstract="De widget statistieken voor sms - bijhouden biedt een uitgebreid overzicht van essentiële informatie over de interactie van uw bezoekers met uw URL."
 
 ![](assets/journey_sms_tracking.png)
 
@@ -638,7 +638,7 @@ De **[!UICONTROL SMS - Tracking statistics]** widget geeft een gedetailleerd ove
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_perfomance_date"
 >title="SMS - Prestaties op datum"
->abstract="XX"
+>abstract="De widget SMS - Prestaties op datum biedt via een grafische weergave belangrijke informatie over uw berichten."
 
 ![](assets/journey_sms_performance.png)
 
@@ -659,7 +659,7 @@ De **[!UICONTROL SMS - Performance by date]** widget biedt een gedetailleerd ove
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_bounces_reasons"
 >title="SMS - Bounges redenen"
->abstract="XX"
+>abstract="De grafieken en de tabel met Bounces Reasons bevatten de beschikbare gegevens met betrekking tot berichten die worden teruggestuurd."
 
 ![](assets/journey_sms_bounce_reasons.png)
 
@@ -670,7 +670,7 @@ De **[!UICONTROL Bounces Reasons]** grafieken en tabellen bieden een uitgebreid 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_error_reasons"
 >title="SMS - Redenen voor fouten"
->abstract="XX"
+>abstract="Met SMS - Foutgrafieken en -tabel kunt u de specifieke fouten identificeren die tijdens het verzendingsproces zijn opgetreden."
 
 ![](assets/journey_sms_error.png)
 
@@ -681,7 +681,7 @@ De **[!UICONTROL Error Reasons]** Met grafieken en tabellen kunt u de specifieke
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_reasons"
 >title="SMS - Uitgesloten redenen"
->abstract="XX"
+>abstract="In de grafieken en de tabel met uitgesloten redenen worden de verschillende factoren weergegeven die hebben geleid tot gebruikersprofielen die zijn uitgesloten van het doelpubliek en die het bericht niet ontvangen."
 
 ![](assets/journey_sms_excluded.png)
 
@@ -694,7 +694,7 @@ Zie [deze pagina](exclusion-list.md) voor de volledige lijst van uitsluitingsred
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_clicks"
 >title="SMS - Klikken op koppelingen"
->abstract="XX"
+>abstract="SMS - De widget klikt op koppelingen biedt essentiële inzichten in de betrokkenheid van uw bezoekers bij de URL&#39;s in uw berichten."
 
 ![](assets/journey_sms_clicks.png)
 
@@ -709,11 +709,11 @@ Van je reis **[!UICONTROL Global report]** de **[!UICONTROL In-app]** bevat de b
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance"
 >title="Prestaties in de app"
->abstract="XX"
+>abstract="De prestatie-KPI&#39;s in de app bieden essentiële inzichten in de betrokkenheid van uw bezoekers bij In-app-berichten."
 
 ![](assets/journey_inapp_performance.png)
 
-De **[!UICONTROL In-app performance]**  KPI&#39;s bieden essentiële inzichten in de betrokkenheid van uw profielen bij In-app-berichten. Zo bieden ze essentiële meetgegevens om de effectiviteit en impact van de in-app-berichten die op uw reis worden aangeboden, te beoordelen.
+De **[!UICONTROL In-app performance]** KPI&#39;s bieden essentiële inzichten in de betrokkenheid van uw profielen bij In-app-berichten. Zo bieden ze essentiële meetgegevens om de effectiviteit en impact van de in-app-berichten die op uw reis worden aangeboden, te beoordelen.
 
 +++ Meer informatie over In-app - Prestaties op basis van datum
 
@@ -737,7 +737,7 @@ De **[!UICONTROL In-app performance]**  KPI&#39;s bieden essentiële inzichten i
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_summary"
 >title="Overzicht in de app"
->abstract="XX"
+>abstract="De overzichtsgrafiek in de app illustreert de voortgang van uw impressies en interacties in de app gedurende de opgegeven periode."
 
 ![](assets/journey_inapp_summary.png)
 
@@ -748,7 +748,7 @@ De **[!UICONTROL In-app summary]** De grafiek illustreert de voortgang van uw in
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_interactions"
 >title="Interacties per type"
->abstract="XX"
+>abstract="De interacties per type grafieken en de lijstdetails hoe de gebruikers met uw in-app bericht in wisselwerking stonden door om het even welke klik te volgen, te ontslaan, of interactie."
 
 ![](assets/journey_inapp_interactions.png)
 

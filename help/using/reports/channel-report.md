@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ead9359b-cdab-43ed-a469-d98b0ca19a17
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
 workflow-type: tm+mt
 source-wordcount: '3447'
 ht-degree: 0%
@@ -214,7 +214,7 @@ Zie [deze pagina](exclusion-list.md) voor de volledige lijst van uitsluitingsred
 
 ![](assets/channel_email_sent_domains.png)
 
-De  **[!UICONTROL Sent & delivered by domains]** tabel en grafiek geven een gedetailleerde uitsplitsing van e-mailleveringen op domeinniveau, zodat u uitgebreide inzichten kunt krijgen in de prestaties van uw e-mails.
+De **[!UICONTROL Sent & delivered by domains]** tabel en grafiek geven een gedetailleerde uitsplitsing van e-mailleveringen op domeinniveau, zodat u uitgebreide inzichten kunt krijgen in de prestaties van uw e-mails.
 
 +++ Meer informatie over Verzonden en geleverde waarden per domein
 
@@ -233,7 +233,7 @@ De  **[!UICONTROL Sent & delivered by domains]** tabel en grafiek geven een gede
 
 ![](assets/channel_email_bounces_domain.png)
 
-De  **[!UICONTROL Bounces & errors by domains]** de grafiek en de lijst verstrekken een domein-vlakke uitsplitsing van specifieke fouten die tijdens het verzendende proces worden ontmoet, die een gedetailleerde analyse van kwesties verstrekken die voorkwamen.
+De **[!UICONTROL Bounces & errors by domains]** de grafiek en de lijst verstrekken een domein-vlakke uitsplitsing van specifieke fouten die tijdens het verzendende proces worden ontmoet, die een gedetailleerde analyse van kwesties verstrekken die voorkwamen.
 
 +++ Meer informatie over grenzen en fouten per domeinmetriek
 
@@ -252,7 +252,7 @@ De  **[!UICONTROL Bounces & errors by domains]** de grafiek en de lijst verstrek
 
 ![](assets/channel_email_open_domains.png)
 
-De  **[!UICONTROL Open & clicks by domains]** in grafiek en tabel wordt een overzicht gegeven van de betrokkenheid van uw bezoekers op domeinniveau bij uw e-mail. Zo krijgt u waardevolle inzichten over de interactie tussen de verschillende domeinen en uw inhoud.
+De **[!UICONTROL Open & clicks by domains]** in grafiek en tabel wordt een overzicht gegeven van de betrokkenheid van uw bezoekers op domeinniveau bij uw e-mail. Zo krijgt u waardevolle inzichten over de interactie tussen de verschillende domeinen en uw inhoud.
 
 +++ Meer informatie over Openen en klikken op domeinmetriek
 
@@ -271,7 +271,7 @@ De  **[!UICONTROL Open & clicks by domains]** in grafiek en tabel wordt een over
 
 ![](assets/channel_email_bounce_domain.png)
 
-De  **[!UICONTROL Bounce reasons by domain]** grafiek en tabel bieden een uitsplitsing op domeinniveau van gegevens met betrekking tot zowel tijdelijke als permanente fouten, die gedetailleerde inzichten verschaffen in de redenen achter aangekondigde berichten.
+De **[!UICONTROL Bounce reasons by domain]** grafiek en tabel bieden een uitsplitsing op domeinniveau van gegevens met betrekking tot zowel tijdelijke als permanente fouten, die gedetailleerde inzichten verschaffen in de redenen achter aangekondigde berichten.
 
 Voor meer informatie over grenzen raadpleegt u de [Onderdrukkingslijst](../reports/suppression-list.md) pagina.
 
