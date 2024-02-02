@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: fa704bd6c82a3068f163bb74542107b34f1815d1
+source-git-commit: 045a2f930f27728fd0add6ed8fa77f9b728ebae5
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '3449'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Vanaf uw reis **[!UICONTROL Live report]** de **[!UICONTROL Journey]** geeft u e
 >[!CONTEXTUALHELP]
 >id="ajo_journey_performance_live"
 >title="Reisprestaties"
->abstract="XX"
+>abstract="Met de widget voor reisprestaties kunt u visueel het pad volgen van uw doelprofielen terwijl deze uw reis in de afgelopen 24 uur doorlopen."
 
 ![](assets/journey_live_performance.png)
 
@@ -60,7 +60,7 @@ Vanaf uw reis **[!UICONTROL Live report]** de **[!UICONTROL Journey]** geeft u e
 >[!CONTEXTUALHELP]
 >id="ajo_journey_statistics_live"
 >title="Reisstatistieken"
->abstract="XX"
+>abstract="De belangrijkste indicatoren van de Prestaties van de Statistieken van de Reis (KPIs) dienen als uitvoerig dashboard, dat een diepgaande analyse van essentiële metriek van de laatste 24 uren met betrekking tot uw reis verstrekt."
 
 ![](assets/journey_live_statistics.png)
 
@@ -80,7 +80,7 @@ De **[!UICONTROL Journey Statistics]** De zeer belangrijke Indicatoren van Prest
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed_live"
 >title="Actie uitgevoerd in de afgelopen 24 uur"
->abstract="XX"
+>abstract="De actie die in de afgelopen 24 uur wordt uitgevoerd widget verstrekt een momentopname van recente prestaties, die de doeltreffendheid van uw uitgevoerde acties binnen de afgelopen 24 uren toont."
 
 ![](assets/journey_live_executed_24hours.png)
 
@@ -99,11 +99,11 @@ De **[!UICONTROL Action executed over the last 24 hours]** widget geeft de meest
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_executed__errors_live"
 >title="Handelingen en fouten"
->abstract="XX"
+>abstract="In de widget Handelingen en Fouten worden de meest geslaagde handelingen en eventuele fouten weergegeven die zijn opgetreden tijdens het activeren van handelingen in de afgelopen 24 uur. Deze widget biedt een uitgebreid overzicht van zowel geslaagde als ondervonden fouten, en biedt waardevolle inzichten in de recente prestaties van uw acties."
 
 ![](assets/journey_live_actions_errors.png)
 
-De **[!UICONTROL Actions executed and errors]** widget vertegenwoordigt de meest succesvolle actie en fouten die voorkwamen toen uw acties werden teweeggebracht.
+De **[!UICONTROL Actions executed and errors]** widget vertegenwoordigt de meest succesvolle actie en fouten die voorkwamen toen uw acties in de laatste 24 uur werden teweeggebracht.
 
 +++ Meer informatie over uitgevoerde handelingen en foutenmetriek
 
@@ -118,7 +118,7 @@ De **[!UICONTROL Actions executed and errors]** widget vertegenwoordigt de meest
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_errors_live"
 >title="Foutredenen voor handelingen"
->abstract="XX"
+>abstract="De tabel met oorzaken van fouten in Handelingen en de grafiek geven een uitgebreid overzicht van de fouten die zijn aangetroffen tijdens de uitvoering van de handelingen. Zo krijgt u een uitgebreid overzicht van de problemen die zich mogelijk in de afgelopen 24 uur hebben voorgedaan."
 
 ![](assets/journey_live_error_reasons.png)
 
@@ -129,7 +129,7 @@ De **[!UICONTROL Action error reasons]** tabel en grafiek geven een uitgebreid o
 >[!CONTEXTUALHELP]
 >id="ajo_journey_actions_error_type_live"
 >title="Fouttype per actie"
->abstract="XX"
+>abstract="Het type van Fout door actietabel en de grafiek verstrekken een grondig overzicht van fouten die tijdens elke uitvoering van uw acties binnen de laatste 24 uren voorkwamen."
 
 ![](assets/journey_live_error_type.png)
 
@@ -140,7 +140,7 @@ De **[!UICONTROL Error type by actions]** tabel en grafiek geven een uitgebreid 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_24hours_live"
 >title="Gebeurtenis uitgevoerd in de afgelopen 24 uur"
->abstract="XX"
+>abstract="Met de gebeurtenis die in de afgelopen 24 uur is uitgevoerd, kunt u bepalen welke gebeurtenissen in de afgelopen 24 uur zijn uitgevoerd. "
 
 ![](assets/journey_live_event_24hours.png)
 
@@ -151,7 +151,7 @@ De **[!UICONTROL Event executed over the last 24 hours]** Met widget kunt u bepa
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_live"
 >title="Gebeurtenissen"
->abstract="XX"
+>abstract="De widget Gebeurtenissen geeft een uitgebreide weergave van welke gebeurtenissen zijn uitgevoerd en biedt een overzichtsnummer, grafiek en tabel voor gedetailleerde inzichten van de afgelopen 24 uur."
 
 ![](assets/journey_live_events.png)
 
@@ -162,7 +162,7 @@ De **[!UICONTROL Events]** Met de widget kunt u zien welke van uw gebeurtenissen
 >[!CONTEXTUALHELP]
 >id="ajo_journey_events_origin_live"
 >title="Gebeurtenissen naar oorsprong"
->abstract="XX"
+>abstract="In de tabel Events by Origin en in de grafieken ziet u hoe uw gebeurtenissen in de afgelopen 24 uur zijn ontvangen. Met deze visuele voorstellingen kunt u nauwkeurig bepalen welke gebeurtenissen daadwerkelijk zijn ontvangen. Zo hebt u waardevolle inzichten in de prestaties en de impact van elke gebeurtenis op uw reis."
 
 ![](assets/journey_events_origin.png)
 
@@ -177,7 +177,7 @@ Vanaf uw reis **[!UICONTROL Live report]** de **[!UICONTROL Email]** bevat de be
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_sending_performance_live"
 >title="E-mail - Prestaties verzenden"
->abstract="XX"
+>abstract="De grafiek E-mail - Verzendstatistieken vat essentiële gegevens over uw e-mail, zoals Gericht of Geleverd van de laatste 24 uur samen."
 
 ![](assets/journey_live_email_performance.png)
 
@@ -200,7 +200,7 @@ De **[!UICONTROL Email - Sending performance]** grafiek biedt een uitgebreid ove
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_statistics_live"
 >title="E-mail - Statistieken"
->abstract="XX"
+>abstract="De tabel E-mail - Statistieken bevat gegevens over de profielactiviteiten voor uw e-mail van de laatste 24 uur."
 
 ![](assets/journey_live_email_statistics.png)
 
@@ -237,7 +237,7 @@ De **[!UICONTROL Email - Statistics]** de tabel bevat een uitgebreide samenvatti
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_performance_bydate_live"
 >title="E-mail - Prestaties op datum"
->abstract="XX"
+>abstract="De grafiek E-mail - Prestaties door datum toont uitvoerige gegevens van de laatste 24 uren betreffende verzonden e-mail, die inzicht in zeer belangrijke metriek zoals geleverde en staren, die voor een gedetailleerde analyse van het e-mailverzendingsproces toestaan."
 
 ![](assets/journey_live_email_performance_date.png)
 
@@ -291,7 +291,7 @@ Voor meer informatie over grenzen raadpleegt u de [Onderdrukkingslijst](../repor
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_errors_live"
 >title="E-mail - Foutredenen"
->abstract="XX"
+>abstract="Met de grafieken en de tabel met redenen voor e-mail - Fout kunt u de specifieke fouten identificeren die tijdens het verzendingsproces in de afgelopen 24 uur zijn opgetreden."
 
 ![](assets/journey_live_email_error_reasons.png)
 
@@ -302,7 +302,7 @@ De **[!UICONTROL Error Reasons]** grafieken en tabellen geven inzicht in de spec
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_excluded_live"
 >title="E-mail - Uitgesloten redenen"
->abstract="XX"
+>abstract="De grafieken en tabel met uitgesloten redenen illustreren de verschillende factoren die hebben geleid tot gebruikersprofielen die zijn uitgesloten van het doelpubliek en die het bericht in de afgelopen 24 uur niet hebben ontvangen."
 
 ![](assets/journey_live_email_excluded.png)
 
@@ -315,7 +315,7 @@ Zie [deze pagina](exclusion-list.md) voor de volledige lijst van uitsluitingsred
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_best_recipient_live"
 >title="E-mail - Beste ontvangende domein"
->abstract="XX"
+>abstract="De grafiek en de tabel met het meest begunstigde domein (E-mail - Beste ontvanger) geven een gedetailleerde uitsplitsing van de domeinen die ontvangers het vaakst gebruiken om e-mail te openen. Deze tabel biedt waardevolle inzichten in het gedrag van ontvangers vanaf de laatste 24 uur."
 
 ![](assets/journey_live_email_best_recipient.png)
 
@@ -326,7 +326,7 @@ De **[!UICONTROL Email - Best recipient domain]** de grafiek en de lijst verstre
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_offers_live"
 >title="E-mail - voorstellen"
->abstract="XX"
+>abstract="De statistische en gedetailleerde statistische widgets van de Aanbiedingen verstrekken uitvoerige inzichten in de prestaties van uw aanbiedingen in de afgelopen 24 uren, die een gedetailleerde analyse van hun effect in tijd aanbieden en gedetailleerde statistieken voor een meer diepgaand begrip presenteren."
 
 >[!NOTE]
 >
@@ -349,7 +349,7 @@ De **[!UICONTROL Offers statistic]** en **[!UICONTROL Offers statistics over tim
 >[!CONTEXTUALHELP]
 >id="ajo_journey_email_optimization_live"
 >title="E-mail - Optimalisatie"
->abstract="XX"
+>abstract="De optimalisatie van de verzendtijd en de geoptimaliseerde versus niet-geoptimaliseerde widgets bieden gedetailleerde informatie over uw berichten van de afgelopen 24 uur, waarbij wordt aangegeven of deze zijn geoptimaliseerd of niet."
 
 ![](assets/journey_email_sto.png)
 
@@ -402,7 +402,7 @@ De **[!UICONTROL Push notification sending performance]** grafiek biedt een gron
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_statistics_live"
 >title="Pushmeldingen - Statistieken"
->abstract="XX"
+>abstract="De lijst van de Statistieken van de Duw verstrekt gegevens over ontvankelijke activiteit voor uw dupmelding van de laatste 24 uren."
 
 ![](assets/journey_live_push_statistics.png)
 
@@ -430,7 +430,7 @@ De **[!UICONTROL Push notification sending performance]** grafiek biedt een gron
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_breakdown_live"
 >title="Pushmelding - Onderverdeling per platform"
->abstract="XX"
+>abstract="De grafieken en tabel in de indeling Uitsplitsing naar platform geven een overzicht van het succes van uw pushberichten in de afgelopen 24 uur, afhankelijk van het besturingssysteem van de ontvanger."
 
 ![](assets/journey_push_breakdown.png)
 
@@ -441,7 +441,7 @@ De **[!UICONTROL Push notification - Breakdown by platform]** de grafiek en de l
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_sending_summary_live"
 >title="Pushmelding - Samenvatting verzenden"
->abstract="XX"
+>abstract="In de grafiek Samenvatting van pushmeldingen worden de gegevens weergegeven die beschikbaar zijn voor verzonden pushberichten van de laatste 24 uur."
 
 ![](assets/journey_live_push_sending.png)
 
@@ -468,7 +468,7 @@ De **[!UICONTROL Push notification summary]** grafiek biedt een dynamische verte
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_error_reasons_live"
 >title="Pushmelding - Foutredenen"
->abstract="XX"
+>abstract="Met de grafieken en de tabel met oorzaken van fouten kunt u de specifieke fouten identificeren die zich de laatste 24 uur tijdens het verzendproces hebben voorgedaan."
 
 ![](assets/journey_live_push_error.png)
 
@@ -479,7 +479,7 @@ De **[!UICONTROL Error Reasons]** tabel en grafieken bieden u de mogelijkheid om
 >[!CONTEXTUALHELP]
 >id="ajo_journey_push_excluded_reasons_live"
 >title="Pushmelding - Uitgesloten redenen"
->abstract="XX"
+>abstract="De grafieken en tabel met uitgesloten redenen illustreren de verschillende factoren die hebben geleid tot gebruikersprofielen die zijn uitgesloten van het doelpubliek en die het bericht in de afgelopen 24 uur niet hebben ontvangen."
 
 ![](assets/journey_live_push_excluded.png)
 
@@ -494,7 +494,7 @@ Zie [deze pagina](exclusion-list.md) voor de volledige lijst van uitsluitingsred
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_statistics_live"
 >title="SMS - Statistieken"
->abstract="XX"
+>abstract="De SMS die Statistieken verzendt vat essentiële gegevens over uw SMS berichten zoals Gerichte of Geleide berichten van de laatste 24 uren samen."
 
 ![](assets/journey_live_sms_statistics.png)
 
@@ -523,7 +523,7 @@ De **[!UICONTROL SMS - Statistics]** de lijst verstrekt een beknopt overzicht va
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_performance_live"
 >title="SMS - Prestaties op datum"
->abstract="XX"
+>abstract="De widget Prestaties per datum van SMS biedt via een grafische weergave belangrijke informatie van de laatste 24 uur over uw berichten."
 
 ![](assets/journey_live_sms_performance.png)
 
@@ -544,7 +544,7 @@ De **[!UICONTROL SMS - Performance by date]** widget geeft een gedetailleerd ove
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_bounces_live"
 >title="SMS - Bounges redenen"
->abstract="XX"
+>abstract="De grafieken en de tabel met Bounces Reasons bevatten de gegevens die beschikbaar zijn in de laatste 24 uur met betrekking tot berichten die worden teruggestuurd."
 
 ![](assets/journey_sms_bounce_reasons.png)
 
@@ -555,7 +555,7 @@ De **[!UICONTROL SMS - Bounces reasons]** grafieken en tabellen bieden een uitge
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_error_live"
 >title="SMS - Redenen voor fouten"
->abstract="XX"
+>abstract="Met SMS - de grafieken en tabel met redenen voor fouten kunt u de specifieke fouten identificeren die zich de laatste 24 uur tijdens het verzendproces hebben voorgedaan."
 
 ![](assets/journey_sms_error.png)
 
@@ -566,7 +566,7 @@ De **[!UICONTROL SMS - Error Reasons]** Met grafieken en tabellen kunt u de spec
 >[!CONTEXTUALHELP]
 >id="ajo_journey_sms_excluded_live"
 >title="SMS - Uitgesloten redenen"
->abstract="XX"
+>abstract="De grafieken en tabel met uitgesloten redenen illustreren de verschillende factoren die hebben geleid tot gebruikersprofielen die zijn uitgesloten van het doelpubliek en die het bericht in de afgelopen 24 uur niet hebben ontvangen."
 
 ![](assets/journey_live_sms_excluded.png)
 
@@ -589,7 +589,7 @@ The **[!UICONTROL SMS - Clicks by links]** widget offers essential insights into
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_performance_live"
 >title="Prestaties in de app"
->abstract="XX"
+>abstract="De prestatie-KPI&#39;s in de app bieden essentiële inzichten in de betrokkenheid van uw bezoekers bij In-app-berichten in de afgelopen 24 uur.&#39;"
 
 ![](assets/journey_live_inapp_performance.png)
 
@@ -616,7 +616,7 @@ De **[!UICONTROL In-app performance]** KPI&#39;s bieden essentiële inzichten in
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_summary_live"
 >title="Overzicht in de app"
->abstract="XX"
+>abstract="De overzichtsgrafiek in de app illustreert de voortgang van uw impressies en interacties in de app in de afgelopen 24 uur."
 
 ![](assets/journey_live_inapp_summary.png)
 
@@ -643,7 +643,7 @@ De **[!UICONTROL In-app summary]** De grafiek illustreert de voortgang van uw in
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inapp_interactions_live"
 >title="Interacties per type"
->abstract="XX"
+>abstract="De interacties per type grafieken en de lijstdetails hoe de gebruikers met uw in-app bericht in wisselwerking stonden door om het even welke klik te volgen, te ontslaan, of interactie van de laatste 24 uren."
 
 ![](assets/journey_live_inapp_interactions.png)
 
