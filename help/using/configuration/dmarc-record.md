@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomein, domein, mail, dmarc, record
-source-git-commit: f1f57e1b7398e0c235e5ecb80b58a8b7761d0e55
+source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1347'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="DMARC-record instellen"
->abstract="DMARC is een methode van de e-mailauthentificatie die domeineigenaars toestaat om hun domein tegen onbevoegd gebruik te beschermen en leveringskwesties met brievenbusleveranciers te vermijden.<br>Google en Yahoo vereisen als onderdeel van hun afdwingbare best practices in de branche dat u een DMARC-record hebt voor elk domein dat u gebruikt om e-mail naar hen te verzenden."
+>abstract="DMARC is een methode van de e-mailauthentificatie die domeineigenaars toestaat om hun domein tegen onbevoegd gebruik te beschermen en leveringskwesties met brievenbusleveranciers te vermijden.<br>Google en Yahoo zijn een onderdeel van hun best practices in de branche. U hebt beide een DMARC-record nodig voor elk domein dat u gebruikt om e-mail naar hen te verzenden."
 
 ## Wat is DMARC? {#what-is-dmarc}
 
@@ -30,7 +30,7 @@ DMARC biedt ook rapportering over berichten die authentificatie ontbreken, samen
 
 <!--To help you prevent deliverability issues by allowing ISPs to authenticate your sending domains - while gaining visibility and control over mail that fail this authentication, [!DNL Journey Optimizer] will soon be supporting the DMARC technology directly in its administration interface.-->
 
-Om u te helpen leveringsproblemen verhinderen terwijl het verkrijgen van controle over post die authentificatie ontbreekt, [!DNL Journey Optimizer] De DMARC-technologie zal binnenkort rechtstreeks in de beheerinterface worden ondersteund. [Meer informatie](#implement-dmarc)
+Om u te helpen leveringsproblemen verhinderen terwijl het verkrijgen van controle over post die authentificatie ontbreekt, [!DNL Journey Optimizer] biedt nu rechtstreeks ondersteuning voor de DMARC-technologie in de beheerinterface. [Meer informatie](#implement-dmarc)
 
 ### Hoe werkt DMARC? {#how-dmarc-works}
 
@@ -63,19 +63,19 @@ Als een e-mail DMARC-verificatie mislukt, kunt u beslissen welke actie op dat be
 
 ## DMARC-vereiste bijwerken {#dmarc-update}
 
-Google en Yahoo zullen als onderdeel van hun afdwingbare best practices in de branche eisen dat u een **DMARC-record** voor elk domein dat u gebruikt om e-mail naar hen te verzenden. Deze nieuwe eis begint op **1 februari 2024**.
+Google en Yahoo zijn een onderdeel van hun best practices in de branche. beide vereisen dat u een **DMARC-record** voor elk domein dat u gebruikt om e-mail naar hen te verzenden. Deze nieuwe eis geldt vanaf **1 februari 2024**.
 
-Meer informatie over Google en Yahoo&#39;s vereisten in [deze sectie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
+Meer informatie over Google en Yahoo!&#39;s vereiste in [deze sectie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
 
 >[!CAUTION]
 >
->Als Gmail en Yahoo niet aan deze nieuwe eis voldoen, zullen e-mails naar de map spam landen of geblokkeerd raken. [Meer informatie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
+>Gmail en Yahoo voldoen niet aan deze nieuwe eis! wordt verwacht dat e-mailberichten in de map spam zullen landen of geblokkeerd zullen raken. [Meer informatie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
 
 Daarom beveelt de Adobe u ten zeerste aan de volgende maatregelen te nemen:
 
 * Zorg ervoor dat u **DMARC-record** instellen voor **alle subdomeinen die u al hebt gedelegeerd** naar Adobe in [!DNL Journey Optimizer]. [Meer informatie](#check-subdomains-for-dmarc)
 
-* Wanneer **het delegeren van om het even welk nieuw subdomain** aan Adobe, zult u spoedig kunnen **DMARC instellen** rechtstreeks **in de [!DNL Journey Optimizer] beheerinterface**. [Meer informatie](#implement-dmarc)
+* Wanneer **het delegeren van om het even welk nieuw subdomain** aan Adobe, kunt u **DMARC instellen** rechtstreeks **in de [!DNL Journey Optimizer] beheerinterface**. [Meer informatie](#implement-dmarc)
 
 ## DMARC implementeren in [!DNL Journey Optimizer] {#implement-dmarc}
 
@@ -93,7 +93,7 @@ Om ervoor te zorgen dat u DMARC- verslagopstelling voor alle subdomeinen hebt he
 
    >[!CAUTION]
    >
-   >Om aan het nieuwe vereiste van Gmail en Yahoo te voldoen, en leveringsproblemen met hoogste ISPs te vermijden, wordt het geadviseerd aan opstellingsDMARC verslag voor alle gedelegeerde subdomeinen. [Meer informatie](dmarc-record-update.md)
+   >Om aan het nieuwe vereiste van Gmail en Yahoo! te voldoen, en leveringskwesties met hoogste ISPs te vermijden, wordt het geadviseerd aan opstellingsDMARC verslag voor alle gedelegeerde subdomeinen. [Meer informatie](dmarc-record-update.md)
 
 1. Selecteer een subdomein waaraan geen DMARC-record is gekoppeld en vul het veld in **[!UICONTROL DMARC record]** volgens de behoeften van uw organisatie. De stappen voor het invullen van de DMARC-recordvelden worden beschreven in [deze sectie](#implement-dmarc).
 
@@ -117,9 +117,9 @@ Wanneer het delegeren van nieuwe subdomeinen aan Adobe binnen [!DNL Journey Opti
 
 >[!CAUTION]
 >
->Om aan het nieuwe vereiste van Gmail en Yahoo te voldoen, en leveringsproblemen met hoogste ISPs te vermijden, wordt het geadviseerd aan opstellingsDMARC verslag voor alle gedelegeerde subdomeinen. [Meer informatie](dmarc-record-update.md)
+>Om aan het nieuwe vereiste van Gmail en Yahoo! te voldoen, en leveringskwesties met hoogste ISPs te vermijden, wordt het geadviseerd aan opstellingsDMARC verslag voor alle gedelegeerde subdomeinen. [Meer informatie](dmarc-record-update.md)
 
-<!--If you fail to comply with the new requirement from Gmail and Yahoo to have DMARC record for all sending domains, your emails are expected to land into the spam folder or to get blocked.-->
+<!--If you fail to comply with the new requirement from Gmail and Yahoo! to have DMARC record for all sending domains, your emails are expected to land into the spam folder or to get blocked.-->
 
 1. Stel een nieuw subdomein in. [Meer informatie](delegate-subdomain.md)
 
