@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d4a91dcd032af03504ab7bbf97b2e19338c32397
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 48%
+source-wordcount: '893'
+ht-degree: 49%
 
 ---
 
@@ -105,11 +105,7 @@ U kunt onder de lijst van de belangrijkste concepten vinden u zult werken met wa
 
 * **Weergaven**: een weergave is informatie (bijv. de locatie of taal) die door een kanaal wordt gebruikt om een aanbieding te tonen.
 
-## Instructievideo&#39;s{#video}
-
->[!NOTE]
->
->Deze video&#39;s zijn van toepassing op de Offer Decisioning-toepassingsservice die op Adobe Experience Platform is gebouwd en zijn niet specifiek voor [!DNL Adobe Journey Optimizer]. Zij bieden echter algemene richtsnoeren voor het gebruik van Beslissingsbeheer in de context van [!DNL Journey Optimizer].
+## Hoe kan ik-video&#39;s{#video}
 
 ### Wat is het beheer van besluiten? {#what-is-offer-decisioning}
 
