@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: 97e925529f5b61138474d53f7df404ff6ea44ba9
 workflow-type: tm+mt
-source-wordcount: '1894'
+source-wordcount: '1868'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 1%
 >abstract="U kunt uw triggers efficiënt besturen door de specifieke gebeurtenissen en criteria te selecteren waarmee uw berichten worden geactiveerd. Met de Bouwer van de Regel, kunnen de gebruikers nauwkeurige voorwaarden en waarden bepalen. Wanneer aan deze voorwaarden wordt voldaan, starten zij een reeks acties, waaronder de levering van berichten in de app."
 
 U kunt een bericht in de app toevoegen aan een campagne of een reis. Voer de onderstaande stappen uit om in beide contexten een bericht in de app te maken.
+
+In-app-berichten worden niet beïnvloed door de keuze van de gebruiker om zich aan te melden of zich af te melden voor pushberichten op het besturingssysteem.
 
 >[!BEGINTABS]
 
@@ -77,7 +79,7 @@ Ga als volgt te werk om een bericht in de app toe te voegen:
 
       +++Zie beschikbare Traits.
 
-      | Pakket | Eigenschappen  | Definitie |
+      | Pakket | Treinen | Definitie |
       |---|---|---|
       | Apparaatinfo | Naam vervoerder | Wordt geactiveerd wanneer aan een van de naam van de vervoerder uit de lijst wordt voldaan. |
       | Apparaatinfo | Apparaatnaam | Wordt geactiveerd wanneer aan een van de apparaatnamen wordt voldaan. |
@@ -175,7 +177,7 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
 
       +++Zie beschikbare Traits.
 
-      | Pakket | Eigenschappen  | Definitie |
+      | Pakket | Treinen | Definitie |
       |---|---|---|
       | Apparaatinfo | Naam vervoerder | Wordt geactiveerd wanneer aan een van de naam van de vervoerder uit de lijst wordt voldaan. |
       | Apparaatinfo | Apparaatnaam | Wordt geactiveerd wanneer aan een van de apparaatnamen wordt voldaan. |
@@ -220,7 +222,7 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
 
 >[!ENDTABS]
 
-## Instructievideo&#39;s{#video}
+## Hoe kan ik-video&#39;s{#video}
 
 * In de onderstaande video ziet u hoe u in-app-berichten kunt maken, configureren en publiceren in uw campagnes.
 
