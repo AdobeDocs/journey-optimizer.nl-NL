@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 1%
+source-wordcount: '706'
+ht-degree: 0%
 
 ---
 
@@ -136,3 +136,42 @@ U kunt ook teksttype-inhoud invoegen wanneer u een compatibele plaatsing selecte
    >
    >Alleen de **[!UICONTROL Profile attributes]**, **[!UICONTROL Audiences]** en **[!UICONTROL Helper functions]** bronnen beschikbaar zijn voor het beheer van besluiten.
 
+## Afbeeldingen personaliseren op basis van contextgegevens{#context-data}
+
+Wanneer contextgegevens worden doorgegeven in het dialoogvenster [Randbeslissingen](../api-reference/offer-delivery-api/edge-decisioning-api.md) U kunt deze gegevens gebruiken om weergaven dynamisch te personaliseren. U kunt bijvoorbeeld de weergave van een aanbieding afstemmen op basis van real-time factoren, zoals de huidige weersomstandigheden op het moment dat de beslissing wordt genomen.
+
+Hiervoor neemt u de variabele met contextgegevens rechtstreeks op in de representatie-inhoud met behulp van de `profile.timeSeriesEvents.` naamruimte.
+
+Hier volgt een syntaxisvoorbeeld dat wordt gebruikt om de representatie van een aanbieding aan te passen op basis van de besturingssystemen van de gebruikers:
+
+```
+ {%#if profile.timeSeriesEvents.device.model = "Apple"%}ios{%else%}android{%/if%} 
+```
+
+Het overeenkomstige Edge-beslissingsverzoek, inclusief de contextgegevens, ziet er als volgt uit:
+
+```
+{
+    "body": {
+        "xdm": {
+            "identityMap": {
+                "Email": [
+                    {
+                        "id": "xyz@abc.com"
+                    }
+                ]
+            },
+            "device": {
+                "model": "Apple"
+            }
+        },
+        "extra": {
+            "query": {
+                "decisionScopes": [
+                    "eyJ4ZG06..."
+                ]
+            }
+        }
+    }
+}
+```
