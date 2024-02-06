@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
+source-git-commit: 63a849b50ff7f02da07e6fd74d00f3d9360ad012
 workflow-type: tm+mt
 source-wordcount: '4602'
 ht-degree: 13%
@@ -21,7 +21,7 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 
 ## Februari 2024 (#feb-2024)
 
-* Er is informatie toegevoegd over de manier waarop de representaties van aanbiedingen op basis van contextgegevens kunnen worden aangepast [Meer informatie](../offers/offer-library/add-representations.md#context-data)
+* Er is informatie toegevoegd over hoe u de representaties van aanbiedingen kunt aanpassen op basis van contextgegevens. [Meer informatie](../offers/offer-library/add-representations.md#context-data)
 
 ## Januari 2024 {#jan-2024}
 
