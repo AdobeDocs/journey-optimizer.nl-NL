@@ -7,9 +7,9 @@ feature: Privacy, Monitoring
 role: Developer, User, Admin, Leader
 level: Intermediate
 exl-id: f0985d1f-0bcf-452f-bd46-dfeca0424f01
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: a939d06d26d64a72eaec0ddc7f22b074ad463150
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ Met Adobe Journey Optimizer [Gezondheidsschild](https://www.adobe.com/trust/comp
 Het installatieproces voor Journey Optimizer bestaat uit twee onderdelen, waarbij technologie wordt gebruikt van zowel Adobe Experience Platform als Customer Journey Analytics (CJA):
 
 * Voer de stappen uit die in het dialoogvenster [Door klanten beheerde toetsen in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys.html) documentatie.
-
 * Voer de stappen uit die in het dialoogvenster [Door de klant beheerde toetsen in Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-privacy/cmk.html) documentatie.
 
   Het voltooien van dit installatieproces is noodzakelijk, zelfs als u geen Customer Journey Analytics (CJA) hebt gekocht, aangezien bepaalde componenten van CJA op de achtergrond worden gebruikt.
