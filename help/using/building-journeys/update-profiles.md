@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: profiel, update, reis, activiteit
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: b9d70bf2b3e16638a03b59fd4036771ad959a631
+source-git-commit: 9010b173eb5126fff72d71aa582b265cc05fddf0
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,11 @@ Gebruik de **[!UICONTROL Update Profile]** activiteit om een bestaand profiel va
 * Het updateverzoek dat naar Adobe Experience Platform wordt verzonden, is onmiddellijk of binnen een seconde. Het duurt normaal een paar seconden, maar soms nog meer zonder garantie. Als een handeling bijvoorbeeld &#39;field 1&#39; gebruikt, bijgewerkt door een **Profiel bijwerken** Actie die eerder is geplaatst, mag u niet verwachten dat &quot;veld 1&quot; wordt bijgewerkt in de handeling.
 * De **Profiel bijwerken** activiteit steunt geen gebieden XDM die als opsomming worden bepaald.
 * De **[!UICONTROL Update profile]** activiteit werkt alleen de [Profielopslag](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, niet het Data Lake.
-* Wanneer u een gegevensset selecteert in het dialoogvenster **[!UICONTROL Update profile]** is, wordt aangeraden om één te gebruiken waarvoor geen gegevensinnamestromen zijn bedoeld. **[!UICONTROL Update profile]** updates die alleen worden opgeslagen in het dialoogvenster [Profielopslag](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, bestaat het risico dat een dergelijke wijziging wordt overschreven door een gegevensinvoerstroom.
+* Wanneer u een gegevensset selecteert in het dialoogvenster **[!UICONTROL Update profile]** is, wordt aangeraden om één te gebruiken waarvoor geen gegevensinnamestromen zijn bedoeld. Omdat **Profiel bijwerken** updates worden alleen opgeslagen in de [Profielopslag](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, bestaat het risico dat dergelijke wijzigingen worden overschreven door een gegevensinnamestroom.
+
+  Daarnaast worden de **Profiel bijwerken** Voor de activiteitsconfiguratie is geen naamruimte voor identiteit vereist. Als dusdanig, zorg ervoor dat de geselecteerde dataset de zelfde identiteitskaart gebruikt namespace die door de actie werd gebruikt die de reis lanceerde aangezien het deze namespace is deze updates zullen gebruiken. De identiteitskaart kan ook door de geselecteerde dataset worden gebruikt. Als u geen gegevensset met de juiste naamruimte selecteert of als u geen identiteitskaart gebruikt, wordt de **Profiel bijwerken** activiteit die mislukt.
+
+
 
 ## De profielupdate gebruiken
 
