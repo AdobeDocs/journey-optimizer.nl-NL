@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, publiek, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
+source-git-commit: 5b2db1a07030fe688abfed04680d7b31584a526b
 workflow-type: tm+mt
-source-wordcount: '1373'
-ht-degree: 0%
+source-wordcount: '1409'
+ht-degree: 1%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 0%
 Gebruik de **Publiek lezen** activiteit om alle individuen van een publiek de reis te maken. Het betreden van een reis kan één keer of op regelmatige basis plaatsvinden.
 
 Neem bijvoorbeeld het publiek voor het openen en uitchecken van de Luma-app dat is gemaakt in het dialoogvenster [Stimulerend publiek](../audience/about-audiences.md) use case. Met de activiteit van het Leespubliek, kunt u alle individuen die tot dit publiek behoren tot een reis maken en hen tot geïndividualiseerde reizen maken die alle reisfunctionaliteit, voorwaarden, timers, gebeurtenissen, acties zullen hefboomwerking.
+
+➡️ [Deze functie in video detecteren](#video)
 
 ## Lees hier meer {#must-read}
 
@@ -183,3 +185,9 @@ Zo kunnen VIP en niet-VIP klanten na een andere ervaring gedurende tien dagen op
 Na een vereniging, kunt u het publiek opnieuw verdelen door een segmentatie of een uitsluiting uit te voeren.
 
 ![](assets/read-segment-audience3.png)
+
+## Hoe kan ik-video {#video}
+
+Begrijp de toepasselijke gebruiksgevallen voor een reis die door de gelezen publieksactiviteit wordt teweeggebracht. Leer hoe u op batches gebaseerde journeys kunt bouwen en welke aanbevolen procedures u kunt toepassen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
