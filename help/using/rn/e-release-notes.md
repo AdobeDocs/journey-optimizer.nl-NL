@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9eb0e37b0547a3eb00802711825ecff63ab5f4a6
+source-git-commit: d945e22af664876bf5f5403e7e466a1e383e9501
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '510'
 ht-degree: 3%
 
 ---
@@ -71,7 +71,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Doelgroepen**
 
-* Varianten worden nu ondersteund bij gebruik **zaadlijsten**. Zoals elk profiel van het doelpubliek, ontvangen de zaadadressen een exemplaar van alle varianten van het zelfde bericht (zoals de verschillende behandelingen van een inhoudexperiment).
+* **Zaadlijsten** - Varianten worden nu ondersteund bij gebruik **zaadlijsten**. Zoals elk profiel van het doelpubliek, ontvangen de zaadadressen een exemplaar van alle varianten van het zelfde bericht (zoals de verschillende behandelingen van een inhoudexperiment).
 
 Eerder beschikbaar als Beta, zijn de volgende verbeteringen nu beschikbaar aan alle gebruikers:
 
@@ -80,25 +80,25 @@ Eerder beschikbaar als Beta, zijn de volgende verbeteringen nu beschikbaar aan a
 
 **Reizen**
 
-* U kunt nu **aangepaste datums om de reizen te filteren** voorraad, naast de bestaande vooraf gedefinieerde datumfilters. Op deze manier kunt u de lijst verfijnen door ritten weer te geven die op een bepaalde datum zijn gepubliceerd, binnen een bepaalde maand, gedurende een heel jaar, of binnen een bepaald tijdsbereik.
-* U kunt nu een update uitvoeren naar de header &#39;content-type&#39; in **aangepaste handelingen**.
-* Het attribuut identityMap in stepEvents is nu voorgevuld. De primaire identiteit wordt gedefinieerd als &quot;primary = true&quot;.
-* De bovenste balk, in reisschermen, is gereorganiseerd voor een verbeterde ervaring. Onder de verschillende updates ziet u dat het potlood-pictogram waarmee u de reiseigenschappen kunt openen nu links van de bovenste balk naast de naam van de rit wordt weergegeven.
+* **Uw reizen filteren** - U kunt nu **aangepaste datums om de reizen te filteren** voorraad, naast de bestaande vooraf gedefinieerde datumfilters. Op deze manier kunt u de lijst verfijnen door ritten weer te geven die op een bepaalde datum zijn gepubliceerd, binnen een bepaalde maand, gedurende een heel jaar, of binnen een bepaald tijdsbereik.
+* **Aangepaste acties** - U kunt nu een update uitvoeren naar de header &#39;content-type&#39; in **aangepaste handelingen**.
+* **Configuratie** - Het attribuut identityMap in stepEvents is nu voorgevuld. De primaire identiteit wordt gedefinieerd als &quot;primary = true&quot;.
+* **Gebruikersinterface** - De bovenste balk, in reisschermen, is gereorganiseerd voor een betere ervaring. Onder de verschillende updates ziet u dat het potlood-pictogram waarmee u de reiseigenschappen kunt openen nu links van de bovenste balk naast de naam van de rit wordt weergegeven.
 
 
 **Sms-kanaal**
 
-* Wanneer het vormen van uw kanaal van SMS, kunt u nu aanpassen **Trefwoorden voor Inschakelen en Uitschakelen** volgens uw voorkeuren. Journey Optimizer activeert de reactie op basis van deze opgegeven trefwoorden.
+* **Trefwoorden voor aanmelden/uitschakelen** - Wanneer u uw SMS-kanaal configureert, kunt u nu het **Trefwoorden voor Inschakelen en Uitschakelen** volgens uw voorkeuren. Journey Optimizer activeert de reactie op basis van deze opgegeven trefwoorden.
 
 **Campagnes**
 
-* Informatie is toegevoegd aan de sectie &quot;cURL-verzoek&quot; van **API-gestuurde campagnes** die de status &quot;Concept&quot; hebben, om op te geven dat het voorbeeld-URL-verzoek pas zichtbaar is nadat de campagne is gepubliceerd en uitgevoerd.
+* **API-gestuurde campagnes** - Informatie is toegevoegd aan de **cURL-verzoek** deel van **API-gestuurde campagnes** die zich in **Concept** status, om aan te geven dat het voorbeeld-cURL-verzoek pas zichtbaar is nadat de campagne is gepubliceerd en uitgevoerd.
 
 **Beslissingsbeheer**
 
-* U kunt nu toevoegen **meerdere uitlijningsregels** voor één voorstel. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden.
+* **Afdekregels** - U kunt nu toevoegen **meerdere uitlijningsregels** voor één voorstel. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden.
 
 **Contentsjablonen**
 
-* A **miniatuurweergave** is nu beschikbaar voor inhoudssjablonen en fragmenten voor betere visuele toegang.
-* Inhoudssjablonen zijn nu beschikbaar voor **alle kanalen**, behalve Web.
+* **Miniatuur** - A **miniatuurweergave** is nu beschikbaar voor inhoudssjablonen en fragmenten voor betere visuele toegang.
+* **Kanalen** - Inhoudssjablonen zijn nu beschikbaar voor **alle kanalen**, behalve Web.
