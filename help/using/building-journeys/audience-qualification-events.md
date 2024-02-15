@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: kwalificatie, evenementen, publiek, reis, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: d735f8c92466cb17a7364833950312e338c630cc
+source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 1%
+source-wordcount: '1007'
+ht-degree: 0%
 
 ---
 
@@ -30,6 +30,8 @@ Met deze activiteit kunt u luisteren naar de inzendingen en uitgangen van profie
 Laten we zeggen dat je een &quot;zilveren klant&quot; publiek hebt. Met deze activiteit, kunt u alle nieuwe zilveren klanten een reis maken en hen een reeks gepersonaliseerde berichten verzenden.
 
 Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
+
+➡️ [Deze functie in video detecteren](#video)
 
 ### Belangrijke opmerkingen{#important-notes-segment-qualification}
 
@@ -126,3 +128,9 @@ Plaats een plafondregel voor gegevensbronnen en handelingen die tijdens reizen w
 Voordat u het publiek in een productiereis gaat gebruiken, moet u altijd eerst het aantal personen evalueren dat elke dag voor dit publiek in aanmerking komt. U kunt de opdracht **[!UICONTROL Audience]** menu, opent u het publiek en bekijkt u het **[!UICONTROL Profiles over time]** grafiek.
 
 ![](assets/segment-overload.png)
+
+## Hoe kan ik-video {#video}
+
+Begrijp de toepasselijke gebruiksgevallen voor publiekskwalificatiereizen. Leer hoe u een reis maakt met de kwalificatie van het publiek en welke aanbevolen procedures u toepast.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
