@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d945e22af664876bf5f5403e7e466a1e383e9501
+source-git-commit: 51d07df4c1db10ea2e1ff76dbd29607c32fbd859
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 3%
 
 ---
@@ -85,7 +85,6 @@ Eerder beschikbaar als Beta, zijn de volgende verbeteringen nu beschikbaar aan a
 * **Configuratie** - Het attribuut identityMap in stepEvents is nu voorgevuld. De primaire identiteit wordt gedefinieerd als &quot;primary = true&quot;.
 * **Gebruikersinterface** - De bovenste balk, in reisschermen, is gereorganiseerd voor een betere ervaring. Onder de verschillende updates ziet u dat het potlood-pictogram waarmee u de reiseigenschappen kunt openen nu links van de bovenste balk naast de naam van de rit wordt weergegeven.
 
-
 **Sms-kanaal**
 
 * **Trefwoorden voor aanmelden/uitschakelen** - Wanneer u uw SMS-kanaal configureert, kunt u nu het **Trefwoorden voor Inschakelen en Uitschakelen** volgens uw voorkeuren. Journey Optimizer activeert de reactie op basis van deze opgegeven trefwoorden.
@@ -101,4 +100,4 @@ Eerder beschikbaar als Beta, zijn de volgende verbeteringen nu beschikbaar aan a
 **Contentsjablonen**
 
 * **Miniatuur** - A **miniatuurweergave** is nu beschikbaar voor inhoudssjablonen en fragmenten voor betere visuele toegang.
-* **Kanalen** - Inhoudssjablonen zijn nu beschikbaar voor **alle kanalen**, behalve Web.
+* **Multikanaalsjablonen** - Inhoudssjablonen zijn nu beschikbaar voor **alle kanalen**, behalve Web.
