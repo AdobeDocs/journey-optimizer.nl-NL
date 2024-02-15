@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: uitdrukking, redacteur, gebruiksgeval, verpersoonlijking
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
-source-git-commit: 142fac90b5726f6adbe34bea6d5f176526bce25d
+source-git-commit: f6d56d1d23cca425f01e4c45532d500f3e2d4e2e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
 
 * een bestelgebeurtenis configureren, waaronder het ordernummer, de status en de naam van het item. Zie dit [sectie](../event/about-events.md).
 * een besluit te nemen, verwijs naar [sectie](../offers/offer-activities/create-offer-activities.md).
+
+➡️ [Ontdek een vergelijkbaar gebruiksgeval in video](#video)
 
 ## Stap 1 - Maak de reis {#create-journey}
 
@@ -103,3 +105,10 @@ Voor dit gebruik zijn de volgende voorwaarden nodig:
    ![](assets/perso-uc19.png)
 
 1. Controleer of er geen fout is en publiceer de reis.
+
+## Hoe kan ik-video {#video}
+
+In de onderstaande video ziet u een vergelijkbaar gebruiksscenario waarin gebruik wordt gemaakt van contextafhankelijke gegevens van een reis om een e-mail aan te passen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
+
