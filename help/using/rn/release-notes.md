@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b87ebc097c0c1c52ab21a4d098fbc2e5e227c953
+source-git-commit: 13ee474819aa0b63561946d94111cd76f3d5689d
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 6%
+source-wordcount: '611'
+ht-degree: 7%
 
 ---
 
@@ -54,7 +54,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <table>
 <thead>
 <tr>
-<th><strong>Hoofdletters gebruiken</strong><br/></th>
+<th><strong>Playbooks voor gebruiksscenario</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -90,6 +90,8 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 * **Lees publiek**  - de **Publiek lezen** De activiteit baseert zich nu op de dataset van de profielmomentopname voor partijsegmenten, die slechts eenmaal per dag wordt geproduceerd nadat de geplande dagelijkse partijbaan in werking wordt gesteld, vandaar zullen de gegevens tot die laatste dagelijkse partijbaan vers zijn. [Meer informatie](../building-journeys/read-audience.md)
 
 * **Veldgroepen** - Deze release verhelpt een probleem dat ervoor zorgde dat Veldgroepen in bepaalde gevallen niet konden worden opgeslagen.
+
+* Steun voor `<listObject>` is gewijzigd in meerdere functies.
 
 **Frequentieregels**
 
