@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: acb4c2dce86afb0b85125413a42094f96366a57d
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 16%
+source-wordcount: '197'
+ht-degree: 14%
 
 ---
 
@@ -36,3 +36,9 @@ Als u de kracht van Adobe Journey Optimizer wilt leren kennen en ontdekken met s
 * Ik ben een **Marketer**
 
   Ontwerpberichten, voeg aanbiedingen, middelen toe en bouw klantentreizen. [Meer informatie](path/marketer.md)
+
+## Hoe kan ik-video {#video}
+
+Inzicht in de belangrijkste mogelijkheden en persona&#39;s van Journey Optimizer. Leer hoe u door de gebruikersinterface kunt navigeren afhankelijk van uw rol.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
