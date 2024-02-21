@@ -5,13 +5,13 @@ title: Campagnes activeren met API's
 description: Leer hoe u campagnes kunt activeren met Journey Optimizer API's
 feature: Campaigns, API
 topic: Content Management
-role: Developer, Admin
+role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 4729ceba99d0a1d356e1e44ee601c7b9eb871719
+source-git-commit: a0a4d39519f7f02265c52934db401e036ea12df6
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Beschikbare kanalen voor API-getriggerde campagnes zijn E-mail, SMS en Push beri
 >
 >Vanaf nu wordt de snelle leveringsmodus niet ondersteund voor door de pushmelding API-geactiveerde campagnes.
 
-➡️ [Ontdek deze functie in video](#video)
+➡️ [Deze functie in video detecteren](#video)
 
 ## Een API-gestuurde campagne maken {#create}
 

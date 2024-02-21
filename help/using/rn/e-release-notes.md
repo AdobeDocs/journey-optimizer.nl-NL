@@ -6,9 +6,9 @@ description: Opmerkingen bij de vervroegde release van Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1c65043965d1335297127f6cc6c23ec9a7893463
+source-git-commit: a0a4d39519f7f02265c52934db401e036ea12df6
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '609'
 ht-degree: 2%
 
 ---
@@ -80,8 +80,8 @@ Eerder beschikbaar als Beta, zijn de volgende verbeteringen nu beschikbaar aan a
 
 **Reizen**
 
-* **Uw reizen filteren** - U kunt nu **aangepaste datums om de reizen te filteren** voorraad, naast de bestaande vooraf gedefinieerde datumfilters. Op deze manier kunt u de lijst verfijnen door ritten weer te geven die op een bepaalde datum zijn gepubliceerd, binnen een bepaalde maand, gedurende een heel jaar, of binnen een bepaald tijdsbereik.
-* **Aangepaste acties** - U kunt nu een update uitvoeren naar de header &#39;content-type&#39; in **aangepaste handelingen**.
+* **Uw reizen filteren** - U kunt nu **aangepaste datums om de reizen te filteren** voorraad, naast de bestaande vooraf gedefinieerde datumfilters. Op deze manier kunt u de lijst verfijnen door ritten weer te geven die op een bepaalde datum zijn gemaakt of gepubliceerd, binnen een bepaalde maand, gedurende een heel jaar of binnen een opgegeven tijdbereik.
+* **Aangepaste acties** - U kunt nu het dialoogvenster **inhoudstype** header. Deze nieuwe **inhoudstype** verwijst naar JSON-inhoud.
 * **Configuratie** - Het attribuut identityMap in stepEvents is nu voorgevuld. De primaire identiteit wordt gedefinieerd als &quot;primary = true&quot;.
 * **Gebruikersinterface** - De bovenste balk, in reisschermen, is gereorganiseerd voor een betere ervaring. Onder de verschillende updates ziet u dat het potlood-pictogram waarmee u de reiseigenschappen kunt openen nu links van de bovenste balk naast de naam van de rit wordt weergegeven.
 
@@ -103,6 +103,6 @@ Eerder beschikbaar als Beta, zijn de volgende verbeteringen nu beschikbaar aan a
 
   >[!AVAILABILITY]
   >
-  >Deze mogelijkheid wordt geleidelijk geïmplementeerd in de omgeving van klanten die deze release start.
+  >Dit vermogen wordt vrijgegeven in Beperkte Beschikbaarheid (LA) voor een kleine reeks klanten.
 
 * **Multikanaalsjablonen** - Inhoudssjablonen zijn nu beschikbaar voor **alle kanalen**, behalve Web. Voor E-mail kunt u nu het type (HTML of Inhoud) selecteren.
