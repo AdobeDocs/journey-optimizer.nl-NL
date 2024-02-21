@@ -8,9 +8,9 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, subdomeinen, configuratie
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 227cdb77b0db40c59fa089789c444c2364fd062e
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 >abstract="Om een oppervlakte van SMS te kunnen tot stand brengen, zorg ervoor u eerder minstens één subdomain van SMS om van de Subdomain naamlijst hebt gevormd te plukken."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/sms/sms-configuration.html#message-preset-sms" text="SMS-oppervlakken maken"
 
-Als u URL&#39;s die aan uw SMS/MMS-berichten zijn toegevoegd, wilt verkorten, moet u het subdomein instellen dat u selecteert wanneer [het creëren van een oppervlakte van SMS](sms-configuration.md#message-preset-sms).
+Als u URL&#39;s die aan uw SMS-berichten zijn toegevoegd, wilt verkorten, moet u het subdomein instellen dat u selecteert wanneer [het creëren van een oppervlakte van SMS](sms-configuration.md#message-preset-sms).
 
 U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of u kunt een ander subdomein vormen. Meer informatie over het delegeren van subdomeinen naar Adobe in [deze sectie](../configuration/delegate-subdomain.md).
 

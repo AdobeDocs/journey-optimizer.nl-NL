@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: subdomein, optimaliseren, delegeren
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 636c86d91d349104388849bbfc4e18bbbe2e4093
+source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 25%
+source-wordcount: '883'
+ht-degree: 24%
 
 ---
 
@@ -45,15 +45,11 @@ Hoewel deze vereisten worden beheerd via componenten die door zowel de Adobe als
 * Leer hoe u [Google TXT-records toevoegen](google-txt.md) naar uw subdomeinen om ervoor te zorgen dat e-mails naar Gmail-adressen succesvol worden verzonden
 * Leer hoe u [toegang tot de PTR-records](ptr-records.md) gegenereerd voor uw subdomeinen, zodat deze kunnen worden geverifieerd door e-mailservers te verzenden
 
->[!NOTE]
->
->Als u DMARC voor uw subdomeinen wilt implementeren, neemt u contact op met [Klantenservice Adoben](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
-
 ## Methoden voor subdomeinconfiguratie {#subdomain-delegation-methods}
 
 De configuratie van subdomain staat u toe om een onderafdeling van uw domein (technisch een &quot;DNS streek&quot;) voor gebruik met Adobe Campaign te vormen. Beschikbare instelmethoden zijn:
 
-* **Volledige subdomeindelegatie aan Adobe** (aanbevolen): Het subdomein wordt volledig gedelegeerd aan Adobe. De Adobe kan alle aspecten van DNS controleren en handhaven die voor het leveren, het teruggeven en het volgen van berichten worden vereist. [Meer informatie over volledige subdomeindelegatie](delegate-subdomain.md#full-subdomain-delegation)
+* **Volledige subdomeindelegatie naar Adobe** (aanbevolen): het subdomein wordt volledig gedelegeerd aan de Adobe. De Adobe kan alle aspecten van DNS controleren en handhaven die voor het leveren, het teruggeven en het volgen van berichten worden vereist. [Meer informatie over volledige subdomeindelegatie](delegate-subdomain.md#full-subdomain-delegation)
 
 * **Gebruik van CNAME&#39;s**: Maak een subdomein en gebruik CNAME&#39;s om te wijzen naar records die specifiek zijn voor een Adobe. Gebruikend deze opstelling, zowel deelt u als Adobe verantwoordelijkheid voor het handhaven van DNS. [Meer informatie over CNAME-subdomeindelegatie](delegate-subdomain.md#cname-subdomain-delegation)
 

@@ -5,14 +5,10 @@ title: Aanvullende informatie
 description: Opmerkingen bij de vervroegde release van Journey Optimizer
 feature: Release Notes
 topic: Content Management
-role: User
-level: Beginner, Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2afb293dfa772967417781e9a3ee6840db262594
+source-git-commit: 1c65043965d1335297127f6cc6c23ec9a7893463
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '602'
 ht-degree: 2%
 
 ---
@@ -25,7 +21,7 @@ Opmerkingen bij de eerste release hieronder kunnen zonder voorafgaande kennisgev
 
 ## Opmerkingen bij de vervroegde release februari 2024 {#e-2024}
 
-**Releasedatum**: 20-21 februari 2024
+**Releasedatum**: 21 februari 2024
 
 ### Nieuwe functies{#e-features}
 
@@ -51,19 +47,17 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <table>
 <thead>
 <tr>
-<th><strong>Bedrijfsregels (bèta)</strong><br/></th>
+<th><strong>Frequentieregels voor SMS en Direct Mail</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu regels voor frequentiecontrole maken die van toepassing zijn op SMS- en Direct-mailkanalen. Daarnaast kunt u regels voor het afdekken van frequenties instellen op communicatietype.<br/><br/></p>
-<!--img src="assets/do-not-localize/computed-attributes.gif"-->
+<p>U kunt nu Frequentieregels voor SMS en Direct Mail-kanalen maken. De frequentieregels sluiten over-gevraagde profielen automatisch uit van berichten en acties wanneer de frequentiedrempel wordt bereikt. <br/><br/></p>
+<img src="assets/do-not-localize/sms-dm-rules.gif">
 </tr>
 </tbody>
 </table>
-
-
 
 ### Verbeteringen {#e-improvements}
 
@@ -75,12 +69,14 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 Eerder beschikbaar als Beta, zijn de volgende verbeteringen nu beschikbaar aan alle gebruikers:
 
-* U kunt nu **publiek geüpload uit een CSV-bestand** in reizen en campagnes. [Meer informatie](../audience/about-audiences.md#segments-in-journey-optimizer)
 * U kunt nu **publiek gemaakt via publiekscompositie** en verrijkingskenmerken gebruiken in Reizen. [Meer informatie](../building-journeys/read-audience.md)
 
->[!AVAILABILITY]
->
->Het gebruik van soorten publiek en kenmerken van de compositie van het publiek en aangepaste upload (CSV-bestand) is momenteel niet beschikbaar voor gebruik met het gezondheidsschild of het privacyschild.
+* U kunt nu **publiek geüpload uit een CSV-bestand** in reizen en campagnes. [Meer informatie](../audience/about-audiences.md#segments-in-journey-optimizer)
+
+  >[!AVAILABILITY]
+  >
+  >* Het gebruik van soorten publiek en kenmerken van de compositie van het publiek en aangepaste upload (CSV-bestand) is momenteel niet beschikbaar voor gebruik met het gezondheidsschild of het privacyschild.
+  >* Houd er rekening mee dat het uploaden van het publiek vanaf een CSV-bestandsverbetering geleidelijk wordt uitgevoerd gedurende enkele dagen na de eerste release. Sommige gebruikers hebben direct toegang, maar anderen kunnen een vertraging ervaren voordat deze beschikbaar wordt in hun accounts.
 
 **Reizen**
 
@@ -95,7 +91,7 @@ Eerder beschikbaar als Beta, zijn de volgende verbeteringen nu beschikbaar aan a
 
 **Campagnes**
 
-* **API-gestuurde campagnes** - Informatie is toegevoegd aan de **cURL-verzoek** deel van **API-gestuurde campagnes** die zich in **Concept** status, om aan te geven dat het voorbeeld-cURL-verzoek pas zichtbaar is nadat de campagne is gepubliceerd en uitgevoerd.
+* **API-gestuurde campagnes** - De cURL-code die is gegenereerd na het activeren van een API-geactiveerde campagne is verbeterd. Het omvat nu alle personaliseringsvariabelen (profiel en context) die in het bericht worden gebruikt.
 
 **Beslissingsbeheer**
 
@@ -104,4 +100,9 @@ Eerder beschikbaar als Beta, zijn de volgende verbeteringen nu beschikbaar aan a
 **Contentsjablonen**
 
 * **Miniatuur** - A **miniatuurweergave** is nu beschikbaar voor inhoudssjablonen en fragmenten voor betere visuele toegang.
-* **Multikanaalsjablonen** - Inhoudssjablonen zijn nu beschikbaar voor **alle kanalen**, behalve Web.
+
+  >[!AVAILABILITY]
+  >
+  >Deze mogelijkheid wordt geleidelijk geïmplementeerd in de omgeving van klanten die deze release start.
+
+* **Multikanaalsjablonen** - Inhoudssjablonen zijn nu beschikbaar voor **alle kanalen**, behalve Web. Voor E-mail kunt u nu het type (HTML of Inhoud) selecteren.

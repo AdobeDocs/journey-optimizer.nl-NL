@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: 17ddd9042b6fb4f078bf858c3a855e7fb604b0d2
 workflow-type: tm+mt
-source-wordcount: '2071'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
       >[!NOTE]
       >
-      >U kunt alleen een domeingroep uitsluiten (standaard of aangepast) die is toegevoegd aan het dialoogvenster [Sjabloon voor IP-opwarmingsplan](ip-warmup-plan.md#prepare-file). Als dit niet het geval is, werk het malplaatje met de domeingroep bij u wilt uitsluiten en [uploaden van het abonnement](#re-upload-plan).
+      >U kunt alleen een aangepaste domeingroep uitsluiten die is toegevoegd aan de [Sjabloon voor IP-opwarmingsplan](ip-warmup-plan.md#prepare-file). Als dit niet het geval is, werk het malplaatje met de groep van het douanedomein bij u wilt uitsluiten en [uploaden van het abonnement](#re-upload-plan).
 
 1. Indien nodig kunt u de campagne vervangen door **[!UICONTROL Replace campaign]** knop.
 
@@ -162,6 +162,10 @@ At phase level, system ensures that previously targeted + new profiles are picke
    ![](assets/ip-warmup-plan-send-time.png)
 
 1. Naar keuze, kunt u een tijdvenster bepalen waarin de IP warmup campagne kan worden uitgevoerd in het geval dat er om het even welke vertragingen in zijn [publieksevaluatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. Als u dit wilt doen, klikt u op het pictogram Eigenschappen linksboven, naast de naam van het plan en gebruikt u de knop **[!UICONTROL Retry run time]** vervolgkeuzelijst voor het selecteren van een duur tot 240 minuten (4 uur).
+
+   >[!NOTE]
+   >
+   >De pogingen gebeuren elke 30 minuten tot het eind van het bepaalde tijdvenster.
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 

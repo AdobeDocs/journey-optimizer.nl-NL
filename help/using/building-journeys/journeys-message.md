@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, email, in app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: f2037f559826d7cca243092de200c97841c49b35
+source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="Berichtactiviteit"
->abstract="Journey Optimizer wordt geleverd met ingebouwde berichtmogelijkheden. U kunt gewoon tijdens uw reis een pushbericht, een tekstbericht (SMS/MMS), een activiteit in de app of een e-mailbericht toevoegen en instellingen en inhoud definiëren. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis."
+>abstract="Journey Optimizer wordt geleverd met ingebouwde berichtmogelijkheden. U kunt gewoon tijdens uw reis een push-bericht, een tekstbericht, een In-app- of e-mailberichtactiviteit toevoegen en instellingen en inhoud definiëren. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis."
 
-[!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtmogelijkheden. U kunt gewoon tijdens uw reis een push-gebeurtenis, een SMS/MMS, een activiteit in de app of een e-mailbericht toevoegen en instellingen en inhoud definiëren. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis.
+[!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtmogelijkheden. U kunt gewoon tijdens uw reis een push-, SMS-, In-app- of e-mailberichtactiviteit toevoegen en instellingen en inhoud definiëren. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis.
 
 U kunt ook specifieke acties instellen om u berichten te sturen:
 
@@ -74,7 +74,7 @@ Volg onderstaande stappen om een bericht toe te voegen aan een rit:
    <img alt="Validatie" src="../assets/do-not-localize/sms.jpg">
    </a>
    <div>
-   <a href="../sms/create-sms.md"><strong>Tekstberichten maken (SMS/MMS)</strong></a>
+   <a href="../sms/create-sms.md"><strong>Tekstberichten maken</strong></a>
    </div>
    <p>
    </td>

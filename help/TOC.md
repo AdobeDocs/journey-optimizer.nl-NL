@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d26dbebaf36241d0e91c36c95f83ce6cf712ecee
+source-git-commit: 21ce33b19693830972990c2c8bd5afe62b4c046d
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1730'
 ht-degree: 31%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 31%
    + [Gebruikersinterface](using/start/user-interface.md)
    + [Zoeken, filteren en categoriseren](using/start/search-filter-categorize.md)
    + [Toegankelijkheid](using/start/accessibility.md)
-   + [Hoofdletters gebruiken](using/start/playbooks.md)
+   + [Playbooks voor gebruiksscenario](using/start/playbooks.md)
    + [Integraties](using/start/ajo-integrations.md)
    + [Guardrails](using/start/guardrails.md)
    + [Best practices](using/start/best-practices.md)
@@ -217,7 +217,7 @@ ht-degree: 31%
       + [Pushmeldingsstroom](using/push/push-gs.md)
       + [Pushmeldingskanaal configureren](using/push/push-configuration.md)
       + [Snelstartworkflow voor mobiele instaptoegang](using/push/mobile-onboarding-wf.md)
-+ SMS/MMS-kanaal{#sms}
++ SMS-kanaal{#sms}
    + [Aan de slag met tekstberichten](using/sms/get-started-sms.md)
    + [Een tekstbericht maken](using/sms/create-sms.md)
    + [Een MMS-bericht maken](using/sms/create-mms.md)

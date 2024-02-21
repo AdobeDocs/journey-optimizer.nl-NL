@@ -1,24 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Hoofdletters gebruiken
+title: Playbooks voor gebruiksscenario
 description: Leer hoe u Adobe Experience Platform Use Case Playbooks met Adobe Jourences Optimizer kunt gebruiken.
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a16de75b2b0604d7a0d6224d03b7c53715903c07
+source-git-commit: 21e7d416548dd9220d5535573bc6ff17dd0479ec
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Hoofdletters gebruiken {#playbooks}
+# Playbooks voor gebruiksscenario {#playbooks}
 
 >[!PREREQUISITES]
 >
->De volgende configuratiestappen worden vereist alvorens met de Playbooks van het Geval van het Gebruik te werken. Gedetailleerde informatie over elke stap is beschikbaar in de documentatie bij Hoofdletters gebruiken [Aan de slag](https://experienceleague.corp.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html){target="_blank"} pagina.
+>De volgende configuratiestappen worden vereist alvorens met de Playbooks van het Geval van het Gebruik te werken. Gedetailleerde informatie over elke stap is beschikbaar in de documentatie bij Hoofdletters gebruiken [Aan de slag](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/get-started.html){target="_blank"} pagina.
 >
 >* Een sandbox maken
 >* Gebruikersmachtigingen configureren

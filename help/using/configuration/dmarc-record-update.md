@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomein, domein, mail, dmarc, record
-source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
+source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 De op domein-gebaseerde Authentificatie van het Bericht, het Melden, en de Conformiteit (DMARC) is een methode van de e-mailauthentificatie die domeineigenaars toestaat om hun domein tegen onbevoegd gebruik te beschermen. Door een duidelijk beleid aan e-mailleveranciers/ISPs aan te bieden, helpt het kwaadwillige acteurs verhinderen e-mails te verzenden die beweren van uw domein te zijn. DMARC implementeren verkleint het risico dat legitieme e-mailberichten worden gemarkeerd als spam of afgewezen, en verbetert uw e-mailleverbaarheid.
 
-Google en Yahoo zijn een onderdeel van hun best practices in de branche. beide vereisen dat een **DMARC-record** voor elk domein dat u gebruikt om e-mail naar hen te verzenden. Deze nieuwe eis geldt vanaf **1 februari 2024**. [Meer informatie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}
+Google en Yahoo zijn een onderdeel van hun best practices in de branche. beide een **DMARC-record** voor elk domein dat u gebruikt om e-mail naar hen te verzenden. Deze nieuwe eis geldt vanaf **1 februari 2024**. [Meer informatie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}
 
 >[!CAUTION]
 >
@@ -44,8 +44,9 @@ of
 of
    * DMARC instellen op uw gedelegeerde subdomeinen **in de[!DNL Journey Optimizer]** gebruikersinterface voor configuratie. [Meer informatie](dmarc-record.md#implement-dmarc)
 
-  Nochtans, met de delegatie van CNAME zal het ook ingang in uw het ontvangen oplossing vereisen. Zorg er daarom voor dat u coördineert met uw IT-afdeling, zodat deze de in [deze sectie](dmarc-record.md#implement-dmarc).
-
+  >[!IMPORTANT]
+  >
+  >Nochtans, vereist de opstelling CNAME ook één of andere extra ingang in uw het ontvangen oplossing. Zorg er daarom voor dat u coördineert met uw IT-afdeling, zodat deze de in [deze sectie](dmarc-record.md#implement-dmarc).
 
 De meest recente tijdlijnen die door Google en Yahoo worden gedeeld! zijn als volgt:
 
@@ -67,5 +68,5 @@ De meest recente tijdlijnen die door Google en Yahoo worden gedeeld! zijn als vo
 
 * Meer informatie over DMARC in het dialoogvenster [Handleiding voor best practices voor levering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html#about){target="_blank"}
 * Meer informatie over deze wijzigingen vindt u in het dialoogvenster [Handleiding voor best practices voor levering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html){target="_blank"}
-* Uitlezen [Google Gmail-aankondiging](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
-* Uitlezen [Yahoo! aankondiging](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
+* Lees de [Google Gmail-aankondiging](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
+* Lees de [Yahoo! aankondiging](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
