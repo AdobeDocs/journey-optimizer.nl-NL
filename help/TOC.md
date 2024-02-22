@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 21ce33b19693830972990c2c8bd5afe62b4c046d
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1730'
+source-wordcount: '1736'
 ht-degree: 31%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 31%
       + Functies {#main-functions-journey}
          + [Hoofdfuncties](using/building-journeys/expression/functions.md)
          + Adobe Experience Platform {#adobe-experience-platform}
-            + [inSegment](using/building-journeys/functions/functioninsegment.md)
+            + [inPubliek](using/building-journeys/functions/functioninaudience.md)
          + Samenvoeging {#aggregation}
             + [avg](using/building-journeys/functions/functionavg.md)
             + [count](using/building-journeys/functions/functioncount.md)
@@ -205,7 +205,8 @@ ht-degree: 31%
 + Kanaal in app{#in-app}
    + [Aan de slag met In-app-kanaal](using/in-app/get-started-in-app.md)
    + [Voorwaarden voor kanalen in de app](using/in-app/inapp-configuration.md)
-   + [Een bericht in de app maken](using/in-app/create-in-app.md)
+   + [Een bericht over een mobiele In-app maken](using/in-app/create-in-app.md)
+   + [Een Web In-app-bericht maken](using/in-app/create-in-app-web.md)
    + [In-app-inhoud ontwerpen](using/in-app/design-in-app.md)
    + [In-app-meldingen controleren en verzenden](using/in-app/send-in-app.md)
 + Push-meldingskanaal{#push}

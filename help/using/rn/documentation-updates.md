@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 7ce415308bd516eb51799890c76b4469558087ee
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '4600'
+source-wordcount: '4725'
 ht-degree: 13%
 
 ---
@@ -22,6 +22,13 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 ## Februari 2024 {#feb-2024}
 
 * Er is informatie toegevoegd over hoe u de representaties van aanbiedingen kunt aanpassen op basis van contextgegevens. [Meer informatie](../offers/offer-library/add-representations.md#context-data)
+* De pagina met instructies is bijgewerkt met een opmerking over aangepaste acties die alleen JSON-indeling ondersteunen bij het gebruik van verzoeken of antwoordladingen. [Meer informatie](../start/guardrails.md#custom-actions-g)
+* De extra informatie is toegevoegd over het basisauthentificatietype in externe gegevensbronnen. [Meer informatie](../datasource/external-data-sources.md)
+* Er is een opmerking toegevoegd om een duidelijk onderscheid te maken tussen de [Journaal-expressieeditor](../building-journeys/expression/expressionadvanced.md) van de [Personalisatie-editor](../personalization/functions/functions.md).
+* De lijst met functies die beschikbaar zijn in de geavanceerde expressie-editor is bijgewerkt. [Meer informatie](../building-journeys/expression/functions.md)
+* De pagina in de functie Splitsen is bijgewerkt. [Meer informatie](../building-journeys/functions/functioninaudience.md)
+* Er is informatie toegevoegd over de impact van de opt-in of opt-out van pushberichten op In-app berichten. [Meer informatie](../in-app/create-in-app.md)
+* De pagina met regels voor berichtfrequenties is bijgewerkt met de opties voor Duur die beschikbaar zijn in de gebruikersinterface (wekelijks of maandelijks). [Meer informatie](../configuration/frequency-rules.md)
 
 ## Januari 2024 {#jan-2024}
 
@@ -321,7 +328,7 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 
 ## September 2021 {#september-2021}
 
-* De volgende functiepagina&#39;s zijn bijgewerkt: [sethours](../building-journeys/functions/functionsethours.md), [getListItem](../building-journeys/functions/functiongetlistitem.md), [inSegment](../building-journeys/functions/functioninsegment.md)
+* De volgende functiepagina&#39;s zijn bijgewerkt: [sethours](../building-journeys/functions/functionsethours.md), [getListItem](../building-journeys/functions/functiongetlistitem.md), [inSegment](../building-journeys/functions/functioninaudience.md)
 
 * De volgende functies zijn toegevoegd: [filter](../building-journeys/functions/functionfilter.md), [intersect](../building-journeys/functions/functionintersect.md), [toDateOnly](../building-journeys/functions/functiontodateonly.md)
 

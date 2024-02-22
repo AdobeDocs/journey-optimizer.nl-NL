@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: cdcce470481393c821d1c5df95639602510a690a
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 1%
+source-wordcount: '1086'
+ht-degree: 0%
 
 ---
 
@@ -39,15 +39,11 @@ Soorten publiek kan op verschillende manieren worden gegenereerd:
 
 ## Doelpubliek in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-U kunt in campagnes en reizen elk Adobe Experience Platform-publiek selecteren dat wordt gegenereerd met [segmentdefinities](../audience/creating-a-segment-definition.md).
+U kunt in campagnes selecteren en reizen om het even welk publiek dat gebruikend segmentdefinities, CSV dossier invoert of samenstellingswerkschema&#39;s wordt geproduceerd.
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->Vooralsnog is het publiek het resultaat van [publiekscomposities](../audience/get-started-audience-orchestration.md) alleen in campagnes kunnen worden gericht. Deze mogelijkheid is beschikbaar als een persoonlijke bètaversie voor reizen.
->
->Het gebruik van soorten publiek [geüpload vanuit een CSV-bestand](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} in campagnes en reizen is momenteel een persoonlijke bètaversie beschikbaar .
->
->Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>Het gebruik van soorten publiek en kenmerken van de compositie van het publiek en aangepaste upload (CSV-bestand) is momenteel niet beschikbaar voor gebruik met het gezondheidsschild of het privacyschild. [Meer informatie over het gebruik van verrijkingskenmerken voor doelgroepen in Journey Optimizer](../audience/about-audiences.md#enrichment)
 
 U kunt het publiek benutten in **[!DNL Journey Optimizer]** op verschillende manieren:
 
@@ -62,6 +58,18 @@ U kunt het publiek benutten in **[!DNL Journey Optimizer]** op verschillende man
   U kunt bijvoorbeeld alle nieuwe zilverklanten een reis laten maken en hun berichten sturen. Raadpleeg voor meer informatie over het gebruik van deze activiteit [Leer hoe te om een de kwalificatieactiviteit van het Publiek te vormen](../building-journeys/audience-qualification-events.md).
 
 * Gebruik de **Voorwaarde** activiteit op een reis om voorwaarden op te bouwen die op het lidmaatschap van het publiek worden gebaseerd. [Meer informatie over het gebruik van soorten publiek in omstandigheden](../building-journeys/condition-activity.md#using-a-segment).
+
+## Verrijkingskenmerken van soorten publiek gebruiken in Journey Optimizer {#enrichment}
+
+Wanneer het richten van een publiek dat gebruikend samenstellingswerkschema&#39;s of douane wordt geproduceerd uploadt (Csv- dossier), kunt u hefboomverrijkingsattributen van deze publiek gebruiken om uw reis te bouwen en uw berichten te personaliseren.
+
+* Maak meerdere paden op een reis op basis van regels die de verrijkingskenmerken van het doelpubliek benutten. Als u dit wilt doen, richt u de doelgroep op met een [Lees publiek](../building-journeys/read-audience.md) activiteit creeert dan regels in [Voorwaarde](../building-journeys/condition-activity.md) activiteit op basis van de verrijkingskenmerken van het publiek .
+
+  ![](assets/audience-enrichment-attribute-condition.png){zoomable=&quot;yes&quot;}
+
+* Pas uw berichten tijdens reizen of campagnes aan door verrijkingskenmerken van het beoogde publiek toe te voegen in de Expression Editor. [Leer hoe u met de Expressieeditor werkt](../personalization/personalization-build-expressions.md)
+
+  ![](assets/audience-enrichment-attribute-perso.png){zoomable=&quot;yes&quot;}
 
 ## Methoden voor de evaluatie van het publiek {#evaluation-method-in-journey-optimizer}
 

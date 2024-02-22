@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, publiek, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 5b2db1a07030fe688abfed04680d7b31584a526b
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1398'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Neem bijvoorbeeld het publiek voor het openen en uitchecken van de Luma-app dat 
 
 * Als beste praktijken, adviseren wij u slechts partijpubliek in te gebruiken **Lees publiek** activiteit. Dit zal een betrouwbare en consistente telling van de tijdens de reis gebruikte doelgroepen opleveren. Lees het publiek wordt ontworpen voor partijgebruik gevallen. Als u gegevens in real time nodig hebt voor uw gebruiksgeval, gebruikt u **[kwalificatie publiek](audience-qualification-events.md)** activiteit.
 
-* Vooralsnog is het gebruik van het publiek [geïmporteerd uit een CSV-bestand](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) of die het resultaat zijn van [compositieworkflows](../audience/get-started-audience-orchestration.md) voor reizen beschikbaar is als een persoonlijke bètaversie. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+* Soorten publiek [geïmporteerd uit een CSV-bestand](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) of die het resultaat zijn van [compositieworkflows](../audience/get-started-audience-orchestration.md) kan in **Publiek lezen** activiteit. Deze soorten publiek zijn niet beschikbaar in het dialoogvenster **Poortkwalificatie** activiteit.
 
 ## De activiteit configureren {#configuring-segment-trigger-activity}
 
@@ -55,7 +55,7 @@ De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt:
 
    >[!NOTE]
    >
-   >Bovendien kunt u ook Adobe Experience Platform-doelgroepen gebruiken die zijn gemaakt met [publiekscomposities](../audience/get-started-audience-orchestration.md) of [geüpload vanuit een CSV-bestand](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}. Deze mogelijkheden zijn momenteel beschikbaar als een persoonlijke bètaversie.
+   >Bovendien kunt u ook Adobe Experience Platform-doelgroepen gebruiken die zijn gemaakt met [publiekscomposities](../audience/get-started-audience-orchestration.md) of [geüpload vanuit een CSV-bestand](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
 
    U kunt de kolommen in de lijst aanpassen en sorteren.
 

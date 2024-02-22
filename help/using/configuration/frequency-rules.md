@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 09142fa8d8c48d9ba56ef03e6a97b0be3da45916
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,9 @@ ht-degree: 0%
 
 [!DNL Journey Optimizer] Hiermee kunt u bepalen hoe vaak gebruikers een bericht zullen ontvangen of een reis zullen betreden door kanaalregels in te stellen die automatisch overgevraagde profielen uitsluiten van berichten en acties.
 
-Voor een merk kan het bijvoorbeeld de regel zijn dat niet meer dan drie marketingberichten per maand naar hun klanten worden gestuurd. Hiervoor kunt u een regel voor de frequentie gebruiken die het aantal verzonden berichten beperkt op basis van een of meer kanalen gedurende een maandelijkse kalenderperiode.
+Voor een merk kan het bijvoorbeeld de regel zijn dat niet meer dan 4 marketingberichten per maand naar hun klanten worden gestuurd. Hiervoor kunt u een regel voor de frequentie gebruiken die het aantal verzonden berichten beperkt op basis van een of meer kanalen gedurende een maandelijkse kalenderperiode.
+
+![](assets/do-not-localize/sms-dm-rules.gif)
 
 >[!NOTE]
 >
@@ -69,21 +71,17 @@ Volg onderstaande stappen om een nieuwe regel te maken.
 
    ![](assets/message-rules-create.png)
 
-1. Bepaal de regelnaam.
-
-   <!--![](assets/message-rules-details.png)-->
-   ![](assets/message-rules-details-temp.png)
-
-1. Selecteer de categorie van de berichtregel.
+1. Bepaal de regelnaam en selecteer de categorie van de berichtregel.
 
    >[!NOTE]
    >
    >Momenteel alleen de **[!UICONTROL Marketing]** -categorie is beschikbaar.
 
+   <!--![](assets/message-rules-details.png)-->
+
 1. Van de **[!UICONTROL Duration]** selecteert u een tijdkader voor de bijschriften die u wilt toepassen.
 
-   <!--![](assets/message-rules-capping-duration.png)-->
-   ![](assets/message-rules-capping-duration-temp.png)
+   ![](assets/message-rules-capping-duration.png)
 
    De frequentiegrens is gebaseerd op de geselecteerde kalenderperiode. Deze wordt opnieuw ingesteld aan het begin van het corresponderende tijdkader.
 
@@ -101,7 +99,7 @@ Volg onderstaande stappen om een nieuwe regel te maken.
 
    <!--![](assets/message-rules-capping.png)-->
 
-1. Selecteer het kanaal dat u voor deze regel wilt gebruiken: **[!UICONTROL Email]** of **[!UICONTROL Push notification]**.
+1. Selecteer het kanaal dat u voor deze regel wilt gebruiken: **[!UICONTROL Email]**, **[!UICONTROL Push notification]**, **[!UICONTROL SMS]** of **[!UICONTROL Direct mail]**.
 
    ![](assets/message-rules-channels.png)
 
@@ -173,7 +171,7 @@ U kunt verschillende regels voor berichtfrequentie combineren, zoals in het onde
 
 1. [Een regel maken](#create-new-rule) gebeld *Algemene marketinglimiet*:
 
-   * Selecteer E-mail en Push kanalen.
+   * Selecteer alle kanalen.
    * Afbeelding instellen op 12 per maand.
 
    ![](assets/message-rules-ex-overall-cap.png)
@@ -187,9 +185,26 @@ U kunt verschillende regels voor berichtfrequentie combineren, zoals in het onde
 
 1. Opslaan en [activate](#activate-rule) de regel.
 
-1. Maak een e-mail en selecteer de **[!UICONTROL Marketing]** categorie voor dat bericht. [Meer informatie](../email/create-email.md)
+1. [Een bericht maken](../building-journeys/journeys-message.md) voor elk kanaal wilt u door communiceren en selecteren **[!UICONTROL Marketing]** categorie voor elk bericht. [Leer hoe u een frequentieregel toepast](#apply-frequency-rule)
 
-1. Maak een pushmelding en selecteer de optie **[!UICONTROL Marketing]** categorie voor dat bericht. [Meer informatie](../push/create-push.md)
+   ![](assets/journey-message-category.png)
+
+
+<!--
+Learn how to create a message for the different channels in the following sections:
+* [Create an email](../email/create-email.md)
+* [Create a push notification](../push/create-push.md)
+* [Create an SMS](../sms/create-sms.md)
+* [Create a direct mail](../direct-mail/create-direct-mail.md)
+
+Create an email and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../email/create-email.md)
+
+Create a push notification and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../push/create-push.md)
+
+Create an SMS and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../sms/create-sms.md)
+
+Create a direct mail and select the **[!UICONTROL Marketing]** category for that message. [Learn more](../direct-mail/create-direct-mail.md)
+-->
 
 In dit scenario wordt een individueel profiel:
 * per maand maximaal 12 marketingberichten kunnen ontvangen;

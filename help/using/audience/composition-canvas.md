@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1476'
 ht-degree: 0%
 
 ---
@@ -151,6 +151,7 @@ Houd rekening met de volgende beperkingen wanneer u werkt met de **[!UICONTROL E
 * **Gegevenssets** voor verrijking moet het recordtype zijn (in tegenstelling tot het gebeurtenistype), en zij kunnen geen systeemdataset zijn, noch voor profiel worden gemerkt. Ze moeten kleiner zijn dan 1 GB.
 * **Verrijking ondersteunt een 1:1-verbinding**. Dit betekent dat als de verbindingssleutels meer dan één gelijke op de verrijkingsdataset hebben, het systeem één van de gelijken kiest en gebruikt die voor 1:1 zich aansluit.
 * **Soorten publiek kan worden geactiveerd in RTCDP-doelen**, maar hun eventuele verrijkingskenmerken kunnen dat niet.
+* De attributen van de verrijking zijn nog niet geïntegreerd met de dienst van de beleidshandhaving. Daarom worden labels voor gegevensgebruik die u toepast op uw verrijkingskenmerken, niet afgedwongen in Journey Optimizer-campagnes of -reizen.
 
 Voer de volgende stappen uit om de activiteit te configureren:
 

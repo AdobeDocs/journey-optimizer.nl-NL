@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Hernieuwde pogingen
+title: Opnieuw
 description: Leer hoe opnieuw proberen alvorens een adres naar de onderdrukkingslijst te verzenden
 feature: Deliverability, Channel Configuration
 topic: Administration
@@ -9,16 +9,16 @@ role: Admin
 level: Experienced
 keywords: opnieuw proberen, stuiteren, zacht, optimaliseren, fout
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 1%
+source-wordcount: '570'
+ht-degree: 0%
 
 ---
 
-# Hernieuwde pogingen {#retries}
+# Opnieuw {#retries}
 
-Wanneer een e-mailbericht mislukt als gevolg van een tijdelijke **Zachte stuit** fout. Er worden verschillende keren opnieuw geprobeerd. Elke fout verhoogt een foutenteller. Wanneer deze teller de grensdrempel bereikt, wordt het adres toegevoegd aan de onderdrukkingslijst.
+Wanneer een e-mailbericht mislukt als gevolg van een tijdelijke **Zachte stuit** fout voor een bepaald adres, worden verscheidene pogingen uitgevoerd. Elke fout verhoogt een foutenteller. Wanneer deze teller de grensdrempel bereikt, wordt het e-mailadres toegevoegd aan de onderdrukkingslijst.
 
 >[!NOTE]
 >
@@ -28,9 +28,17 @@ In de standaardconfiguratie is de drempel ingesteld op 5 fouten.
 
 * Bij dezelfde levering is bij de vijfde fout een fout opgetreden in het dialoogvenster [periode voor opnieuw uitproberen](#retry-duration), wordt het adres onderdrukt.
 
-* Als er verschillende leveringen zijn en twee fouten minstens 24 uur uit elkaar voorkomen, wordt de foutenteller verhoogd op elke fout en het adres wordt ook onderdrukt bij de vijfde poging.
+* Als er verschillende leveringen zijn en twee fouten minstens 24 uur uit elkaar voorkomen, wordt de foutenteller verhoogd op elke fout en het adres wordt ook onderdrukt bij de vijfde poging. Fouten zijn cumulatief voor elk adres.
 
 Als de levering succesvol is nadat opnieuw is geprobeerd, wordt de foutenteller van het adres opnieuw geïnitialiseerd.
+
+Bijvoorbeeld:
+
+* U verzendt een e-mail op Maandag met een herbestellingstijd die aan 24 uren wordt geplaatst. Het adres emma.jones@mail.com kan niet worden bezorgd. Het e-mailbericht wordt tot drie keer opnieuw geprobeerd en probeert het niet meer tijdens de periode van 24 uur voor opnieuw proberen.
+
+* U verzendt nog een e-mail op woensdag. De emma.jones@mail.com, die al een aantal van drie fouten bevat, wordt ook als doel genoemd en kan ook niet worden geleverd - twee keer. Er zijn nog twee fouten.
+
+Op voorwaarde dat er geen andere levering is geprobeerd en dat deze twee e-mails zijn gelukt, wordt het adres emma.jones@mail.com toegevoegd aan de onderdrukkingslijst gezien de cumulatieve impact van 3 + 2 fouten.
 
 ## Drempelwaarde voor opnieuw proberen {#edit-retry-threshold}
 

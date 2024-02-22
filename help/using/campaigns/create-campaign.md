@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 3%
+source-wordcount: '938'
+ht-degree: 2%
 
 ---
 
@@ -126,9 +126,9 @@ Klik op de knop **[!UICONTROL Select audience]** om de lijst met beschikbare Ado
 
 >[!IMPORTANT]
 >
->Vooralsnog is het gebruik van het publiek [geïmporteerd uit een CSV-bestand](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) in campagnes is beschikbaar als een persoonlijke bètaversie. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>Het gebruik van soorten publiek en kenmerken van [publiekscompositie](../audience/get-started-audience-orchestration.md) en [aangepaste upload (CSV-bestand)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) is momenteel niet beschikbaar voor gebruik met het Gezondheidsschild of Privacy en het Veiligheidsschild. [Meer informatie over het gebruik van verrijkingskenmerken voor doelgroepen in Journey Optimizer](../audience/about-audiences.md#enrichment)
 >
->Voor API-getriggerde campagnes moet het publiek worden ingesteld via API-aanroep. [Meer informatie](api-triggered-campaigns.md)
+>Voor API-getriggerde campagnes moet het publiek worden ingesteld via API-aanroep.
 
 In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren.
 

@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 4112ac79a1f21fb369119ccd801dcbceac3c1e58
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 1%
+source-wordcount: '445'
+ht-degree: 0%
 
 ---
 
@@ -44,6 +44,10 @@ In het linkergedeelte van het scherm wordt een domeinkiezer weergegeven waarmee 
 Klik + knoop om een attribuut in uw verpersoonlijkingsuitdrukking toe te voegen.
 
 Met het elliptische menu naast het pictogram &quot;+&quot; kunt u meer details voor elke variabele ophalen en de meestgebruikte kenmerken toevoegen aan de favorieten. [Leer hoe u kenmerken aan favorieten kunt toevoegen](personalization-favorites.md)
+
+>[!NOTE]
+>
+>Als u zich richt op een publiek met verrijkingsattributen die gebruikend een samenstellingswerkschema of een douane worden geproduceerd uploadt (Csv- dossier), kunt u deze verrijkingsattributen gebruiken om uw bericht te personaliseren. [Leer hoe u verrijkingskenmerken voor het publiek kunt gebruiken](../audience/about-audiences.md#enrichment)
 
 Daarnaast kunt u standaardfallback-tekst definiëren die wordt weergegeven als een tekenreekstype profielkenmerk leeg is. Om dit te doen, klik de ellipsknoop naast het attribuut en selecteer **[!UICONTROL Insert with fallback text]**. Schrijf de tekst die standaard moet worden weergegeven als de waarde van het kenmerk leeg is voor een profiel en klik vervolgens op **[!UICONTROL Add]**.
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: tijdzone, eigendommen, transport, conditie, tijd, datum, aangepast
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '289'
 ht-degree: 2%
 
 ---
@@ -32,11 +32,7 @@ Deze tijdzone wordt gebruikt voor elke activiteit van de reis die een tijdseleme
 * [Fixed date wait](../building-journeys/wait-activity.md#fixed_date)
 -->
 
-U kunt een tijdzone selecteren of de tijdzone gebruiken die is gedefinieerd in het gebruikersprofiel.
-
->[!NOTE]
->
->De tijdzone van het profiel werkt met **timeZone** in het **Voorkeursdetails** veldgroep.
+U kunt een [vaste tijdzone](#fixed-timezone) of kies een tijdzone [gedefinieerd in het gebruikersprofiel](#timezone-from-profiles).
 
 ## Een vaste tijdzone definiëren {#fixed-timezone}
 
@@ -53,6 +49,10 @@ Als de entry-gebeurtenis van de reis een naamruimte heeft, wat betekent dat de r
 Als een tijdzone voor een profiel is gedefinieerd, zal het door de reis worden teruggewonnen en gebruikt. Als dit niet het geval is, wordt de tijdzone gebruikt die is gedefinieerd in het tijdzone-veld.
 
 ![](assets/journey73.png)
+
+>[!NOTE]
+>
+>De tijdzone van het profiel werkt met **timeZone** in het **Voorkeursdetails** veldgroep.
 
 ## Tijdzones gebruiken in expressies {#timezone-in-expressions}
 

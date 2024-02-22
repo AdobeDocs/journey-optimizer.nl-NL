@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 0d010bbb46887546d524726606764b564c352064
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1402'
 ht-degree: 3%
 
 ---
@@ -34,6 +34,8 @@ Aangepaste acties worden geleverd met enkele beperkingen die worden vermeld in [
 In parameters voor aangepaste handelingen kunt u een eenvoudige verzameling en een verzameling objecten doorgeven. Meer informatie over verzamelingsbeperkingen vindt u in [deze pagina](../building-journeys/collections.md#limitations).
 
 De parameters voor aangepaste handelingen hebben een verwachte indeling (bijvoorbeeld tekenreeks, decimaal, enz.). U moet deze verwachte formaten zorgvuldig respecteren. Meer informatie in deze [use case](../building-journeys/collections.md).
+
+Aangepaste acties ondersteunen alleen de JSON-indeling bij gebruik van [verzoek](../action/about-custom-action-configuration.md#define-the-message-parameters) of [antwoordlading](../action/action-response.md).
 
 ## Best practices{#custom-action-enhancements-best-practices}
 
@@ -117,7 +119,9 @@ Wanneer het vormen van een douaneactie, moet u het volgende bepalen **[!UICONTRO
 
 1. Definieer de headers en queryparameters:
 
-   * In de **[!UICONTROL Headers]** sectie, klikken **[!UICONTROL Add a header field]** om de kopballen van HTTP van het verzoekbericht te bepalen dat naar de externe dienst moet worden verzonden. De **[!UICONTROL Content-Type]** en **[!UICONTROL Charset]** koptekstvelden worden standaard ingesteld. U kunt deze velden niet wijzigen of verwijderen.
+   * In de **[!UICONTROL Headers]** sectie, klikken **[!UICONTROL Add a header field]** om de kopballen van HTTP van het verzoekbericht te bepalen dat naar de externe dienst moet worden verzonden. De **[!UICONTROL Content-Type]** en **[!UICONTROL Charset]** koptekstvelden worden standaard ingesteld. U kunt deze velden niet verwijderen. Alleen de **[!UICONTROL Content-Type]** header kan worden gewijzigd. De waarde ervan moet de JSON-indeling respecteren. Hier is de standaardwaarde:
+
+   ![](assets/content-type-header.png)
 
    * In de **[!UICONTROL Query parameters]** sectie, klikken **[!UICONTROL Add a Query parameter field]** om de parameters te bepalen u in URL wilt toevoegen.
 

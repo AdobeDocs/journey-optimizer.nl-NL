@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: functie, expressies, editor, reis
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 73%
+source-wordcount: '185'
+ht-degree: 39%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 73%
 
 Een functie kan verschillende handtekeningen hebben (een andere set geordende parameters). Een functiehandtekening kan 0-N-expressies hebben als geordende parameters.
 
-`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ... ,`<expression as param N>`)
+`<function name>`(`<expression as param 1>`, `<expression as param 2>`, ...`<expression as param N>`)
 
-Elke functie heeft een specifiek type dat wordt geretourneerd.
+Elke functie heeft een specifiek type geretourneerd.
 
 Hier volgt een lijst met ondersteunde functies.
 
 ## Belangrijkste functies
 
-| Categorie | -functie |
+| Categorie | Functie |
 |-------------|-----------------------|
-| Adobe Experience Platform | [inSegment](../functions/functioninsegment.md) |
+| Adobe Experience Platform | [inPubliek](../functions/functioninaudience.md) |
 | Samenvoeging | [avg](../functions/functionavg.md) |
 | Samenvoeging | [count](../functions/functioncount.md) |
 | Samenvoeging | [countOnlyNull](../functions/functioncountonlynull.md) |
@@ -66,32 +66,33 @@ Hier volgt een lijst met ondersteunde functies.
 | Lijst | [filter](../functions/functionfilter.md) |
 | Lijst | [getListItem](../functions/functiongetlistitem.md) |
 | Lijst | [in](../functions/functionin.md) |
-| Lijst | [intersect](../functions/functionintersect.md) |
-| Lijst | [listSize](../functions/functionlimit.md) |
+| Lijst | [doorsnijden](../functions/functionintersect.md) |
+| Lijst | [limiet](../functions/functionlimit.md) |
 | Lijst | [listSize](../functions/functionlistsize.md) |
 | Lijst | [serializeList](../functions/functionserializelist.md) |
 | Lijst | [sort](../functions/functionsort.md) |
-| Wiskunde | [random](../functions/functionrandom.md) |
-| Wiskunde | [round](../functions/functionround.md) |
-| Tekenreeks | [concat](../functions/functionconcat.md) |
-| Tekenreeks | [contain](../functions/functioncontain.md) |
-| Tekenreeks | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
-| Tekenreeks | [endWith](../functions/functionendwith.md) |
-| Tekenreeks | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-| Tekenreeks | [equalIgnoreCase](../functions/functionequalignorecase.md) |
-| Tekenreeks | [indexOf](../functions/functionindexof.md) |
-| Tekenreeks | [isEmpty](../functions/functionisempty.md) |
-| Tekenreeks | [isNotEmpty](../functions/functionisnotempty.md) |
-| Tekenreeks | [lastIndexOf](../functions/functionlastindexof.md) |
-| Tekenreeks | [lengte](../functions/functionlength.md) |
-| Tekenreeks | [lower](../functions/functionlower.md) |
-| Tekenreeks | [matchRegExp](../functions/functionmatchregexp.md) |
-| Tekenreeks | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
-| Tekenreeks | [replace](../functions/functionreplace.md) |
-| Tekenreeks | [replaceAll](../functions/functionreplaceall.md) |
-| Tekenreeks | [startWith](../functions/functionstartwith.md) |
-| Tekenreeks | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
-| Tekenreeks | [substr](../functions/functionsubstr.md) |
-| Tekenreeks | [trim](../functions/functiontrim.md) |
-| Tekenreeks | [upper](../functions/functionupper.md) |
-| Tekenreeks | [uuid](../functions/functionuuid.md) |
+| Math | [random](../functions/functionrandom.md) |
+| Math | [round](../functions/functionround.md) |
+| String | [concat](../functions/functionconcat.md) |
+| String | [contain](../functions/functioncontain.md) |
+| String | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
+| String | [endWith](../functions/functionendwith.md) |
+| String | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
+| String | [equalIgnoreCase](../functions/functionequalignorecase.md) |
+| String | [indexOf](../functions/functionindexof.md) |
+| String | [isEmpty](../functions/functionisempty.md) |
+| String | [isNotEmpty](../functions/functionisnotempty.md) |
+| String | [lastIndexOf](../functions/functionlastindexof.md) |
+| String | [length](../functions/functionlength.md) |
+| String | [lower](../functions/functionlower.md) |
+| String | [matchRegExp](../functions/functionmatchregexp.md) |
+| String | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
+| String | [replace](../functions/functionreplace.md) |
+| String | [replaceAll](../functions/functionreplaceall.md) |
+| String | [split](../functions/functionsplit.md) |
+| String | [startWith](../functions/functionstartwith.md) |
+| String | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
+| String | [substr](../functions/functionsubstr.md) |
+| String | [trim](../functions/functiontrim.md) |
+| String | [upper](../functions/functionupper.md) |
+| String | [uuid](../functions/functionuuid.md) |

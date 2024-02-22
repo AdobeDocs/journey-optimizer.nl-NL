@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 2444d8fbe3a86feb0497d754b4f57f234fa29e49
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 2%
+source-wordcount: '1854'
+ht-degree: 1%
 
 ---
 
@@ -17,13 +17,19 @@ ht-degree: 2%
 
 Gebruiken [!DNL Journey Optimizer] sjabloontaal voor het uitvoeren van bewerkingen op gegevens, zoals berekeningen, gegevensopmaak of conversies, voorwaarden en het manipuleren ervan in de context van personalisatie. Meer informatie over richtlijnen voor de syntaxisaanpassing vindt u in [deze pagina](../personalization-syntax.md).
 
+
+
 ➡️ [Leer hoe u in deze video hulpfuncties kunt gebruiken](#video)
 
-De taal van het malplaatje wordt leveraged in helperfuncties beschikbaar in verpersoonlijkingsdrop-down lijst van de redacteur van de Uitdrukking, zoals hieronder:
+Templating language wordt gebruikt in helperfuncties beschikbaar in verpersoonlijkingsdrop-down lijst van de redacteur van de Verpersoonlijking, zoals hieronder:
 
 ![](../assets/access-helper-functions.png)
 
-In de [!DNL Journey Optimizer] De redacteur van de uitdrukking, helperfuncties worden gegroepeerd in drie categorieën: [Functies](#functions-helper), [Helpers](#helper-helper) en [Operatoren](#operators-helper).
+>[!NOTE]
+>
+>De functies en mogelijkheden die beschikbaar zijn in de Persoonlijke editor verschillen van die in de [Reis-editor voor geavanceerde expressies](../../building-journeys/expression/expressionadvanced.md).
+
+In de [!DNL Journey Optimizer] De redacteur van de Personalisatie, helperfuncties worden gegroepeerd in drie categorieën: [Functies](#functions-helper), [Helpers](#helper-helper) en [Operatoren](#operators-helper).
 
 Selecteer een categorie voor toegang tot subcategorieën en functies.
 
@@ -61,7 +67,7 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
         <td><a href="arrays-list.md#first-n">Eerste n in array</a></td><td>Deze functie retourneert de eerste 'N'-items in een array, indien gesorteerd in oplopende volgorde op basis van de opgegeven numerieke expressie</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#in">In</a></td><td>Deze functie wordt gebruikt om te bepalen of een punt een lid van een serie of een lijst is</td>
+        <td><a href="arrays-list.md#in">In</a></td><td>Deze functie wordt gebruikt om te bepalen of een item lid is van een array of lijst</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#includes">Inclusief</a></td><td>Deze functie bepaalt of een array of lijst een bepaald item bevat</td>
@@ -76,19 +82,19 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
         <td><a href="aggregation.md#max">Maximum</a></td><td>Deze functie retourneert de grootste van alle geselecteerde waarden binnen een array</td>
     </tr>
     <tr>
-        <td><a href="aggregation.md#min">Minimaal</a></td><td>Deze functie retourneert het kleinste van alle geselecteerde waarden binnen de array</td>
+        <td><a href="aggregation.md#min">Minimaal</a></td><td>Deze functie retourneert de kleinste geselecteerde waarden binnen de array</td>
     </tr>
     <tr>
         <td><a href="arrays-list.md#notin">Niet in</a></td><td>Deze functie bepaalt of een item geen lid is van een array of lijst</td>
     </tr>
     <tr>
-        <td><a href="arrays-list.md#subset">Subset van</a></td><td>Deze functie bepaalt of een specifieke array (array A) een subset is van een andere array (array B), d.w.z. of alle elementen in array A elementen van array B zijn</td>
+        <td><a href="arrays-list.md#subset">Subset van</a></td><td>Deze functie bepaalt of een specifieke array (array A) een subset is van een andere array (array B), dat wil zeggen of alle elementen in array A elementen van array B zijn</td>
     </tr>
     <tr>
         <td><a href="aggregation.md#sum">Som</a></td><td>Deze functie retourneert de som van alle geselecteerde waarden binnen de array</td>
     </tr>
     <tr>
-    <td><a href="arrays-list.md#superset">Superset van</a></td><td>Deze functie bepaalt of een specifieke array (array A) een superset is van een andere array (array B), d.w.z. of die array A alle elementen in array B bevat</td>
+    <td><a href="arrays-list.md#superset">Superset van</a></td><td>Deze functie bepaalt of een specifieke array (array A) een superset is van een andere array (array B), dat wil zeggen of die array A alle elementen in array B bevat</td>
     </tr>
 </table>
 
@@ -108,10 +114,10 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
         <td><a href="dates.md#day-week">Dag van de week</a></td><td>Deze functie haalt de dag van de week op</td>
     </tr>
     <tr>
-        <td><a href="dates.md#day-year">Dag van het jaar</a></td><td>Deze functie haalt de dag van het jaar op</td>
+        <td><a href="dates.md#day-year">Dag van jaar</a></td><td>Deze functie haalt de dag van het jaar op</td>
     </tr>
     <tr>
-        <td><a href="dates.md#format-date">Indelingsdatum</a></td><td>Deze functie formatteert een waarde van de datumtijd</td>
+        <td><a href="dates.md#format-date">Indelingsdatum</a></td><td>Deze functie maakt een datumtijdwaarde op</td>
     </tr>
     <tr>
         <td><a href="dates.md#format-date-locale">Datumnotatie met ondersteuning voor landinstellingen</a></td><td>Deze functie maakt een datumtijdwaarde op in de corresponderende taalgevoelige representatie, d.w.z. in een gewenste landinstelling.</td>
@@ -126,7 +132,7 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
         <td><a href="dates.md#to-utc">Naar UTC</a></td><td>Deze functie converteert een datetime naar UTC</td>
     </tr>
     <tr>
-        <td><a href="dates.md#week-of-year">Week van het jaar</a></td><td>Deze functie retourneert de week van het jaar</td>
+        <td><a href="dates.md#week-of-year">Week van jaar</a></td><td>Deze functie retourneert de week van het jaar</td>
     </tr>
 </table>
 </table>
@@ -155,7 +161,7 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
         <td><a href="math.md#format-number">Indelingsnummer</a></td><td>Deze functie formatteert om het even welk aantal in zijn taal-gevoelige vertegenwoordiging.</td>
     </tr>
     <tr>
-        <td><a href="math.md#random">Random</a></td><td>Deze functie retourneert een willekeurige waarde tussen 0 en 1</td>
+        <td><a href="math.md#random">Willekeurig</a></td><td>Deze functie retourneert een willekeurige waarde tussen 0 en 1</td>
     </tr>
     <tr>
         <td><a href="math.md#round-down">Omlaag afronden</a></td><td>Deze functie rondt een getal af</td>
@@ -188,7 +194,7 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
     </tr>
 </table>
 
-### Tekenreeksfuncties {#string-functions}
+### Reeksfuncties {#string-functions}
 
 <table>
     <tr>
@@ -256,7 +262,7 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
         <td><a href="string.md#leftTrim">Links bijsnijden</a></td><td>Deze functie verwijdert witruimten van het begin van een tekenreeks</td>
     </tr>
     <tr>
-        <td><a href="string.md#length">Length</a></td><td>Deze functie wordt gebruikt om het aantal tekens in een tekenreeks of expressie op te halen</td>
+        <td><a href="string.md#length">Lengte</a></td><td>Deze functie wordt gebruikt om het aantal tekens in een tekenreeks of expressie op te halen</td>
     </tr>
     <tr>
         <td><a href="string.md#like">leuk</a></td><td>Deze functie wordt gebruikt om te bepalen of een tekenreeks overeenkomt met een opgegeven patroon</td>
@@ -277,13 +283,13 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
         <td><a href="string.md#notEqualTo">Niet gelijk aan</a></td><td>Deze functie wordt gebruikt om te bepalen of een tekenreeks niet gelijk is aan de opgegeven tekenreeks</td>
     </tr>
     <tr>
-        <td><a href="string.md#not-equal-with-ignore-case">Niet gelijk aan hoofdletter negeren</a></td><td>Deze functie vergelijkt twee tekenreeksen die hoofdletters en kleine letters negeren.</td>
+        <td><a href="string.md#not-equal-with-ignore-case">Niet gelijk aan hoofdletter negeren</a></td><td>Deze functie vergelijkt twee tekenreeksen die hoofdlettergebruik negeren.</td>
     </tr>
     <tr>
         <td><a href="string.md#regexGroup">Groep met reguliere expressies</a></td><td>Deze functie wordt gebruikt om specifieke informatie te extraheren, gebaseerd op de gegeven reguliere expressie</td>
     </tr>
     <tr>
-        <td><a href="string.md#replace">Replace</a></td><td>Deze functie vervangt een bepaalde subtekenreeks in een tekenreeks door een andere subtekenreeks</td>
+        <td><a href="string.md#replace">Vervangen</a></td><td>Deze functie vervangt een bepaalde subtekenreeks in een tekenreeks door een andere subtekenreeks</td>
     </tr>
     <tr>
         <td><a href="string.md#replaceAll">Alles vervangen</a></td><td>Deze functie vervangt alle subtekenreeksen van een tekst die overeenkomt met "target" door de opgegeven letterlijke tekenreeks "replacement"</td>
@@ -319,7 +325,7 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
         <td><a href="string.md#to-date-time">Tot op heden</a></td><td>Deze functie wordt gebruikt om tekenreeks om te zetten in datum. De epochdatum wordt geretourneerd als uitvoer voor ongeldige invoer.</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time-only">Alleen tijd tot op heden</a></td><td>Deze functie converteert een argumentwaarde naar een waarde die alleen voor de datumtijd geldt. De epochdatum wordt geretourneerd als uitvoer voor ongeldige invoer.</td>
+        <td><a href="string.md#to-date-time-only">Alleen tijd tot op heden</a></td><td>Deze functie converteert een argumentwaarde naar een waarde die alleen voor de datumtijd kan worden gebruikt. De epochdatum wordt geretourneerd als uitvoer voor ongeldige invoer.</td>
     </tr>
     <tr>
         <td><a href="string.md#trim">Verkleinen</a></td><td>Deze functie verwijdert witruimten van het begin en van het einde van een tekenreeks</td>
@@ -373,7 +379,7 @@ Rekenkundige functies worden gebruikt voor het uitvoeren van basisberekeningen o
         <td><a href="arithmetic-functions.md#add">Toevoeging</a></td><td>Deze operator wordt gebruikt om de som van twee argumentexpressies te zoeken</td>
     </tr>
     <tr>
-        <td><a href="arithmetic-functions.md#divide">Verdelen</a></td><td>Deze operator wordt gebruikt om het quotiënt van twee argumentexpressies te vinden</td>
+        <td><a href="arithmetic-functions.md#divide">Splitsen</a></td><td>Deze operator wordt gebruikt om het quotiënt van twee argumentexpressies te vinden</td>
     </tr>
     <tr>
         <td><a href="arithmetic-functions.md#multiply">Vermenigvuldigen</a></td><td>Deze operator wordt gebruikt om het product van twee argumentexpressies te zoeken</td>
@@ -410,7 +416,7 @@ Vergelijkingsfuncties worden gebruikt om verschillende expressies en waarden met
         <td><a href="operators.md#equals">Equals (Is gelijk aan)</a></td><td>Deze bewerking controleert of de waarden gelijk zijn</td>
     </tr>
     <tr>
-        <td><a href="operators.md#greaterthan">Greater than</a></td><td>Deze operator controleert of de eerste waarde groter is dan de tweede waarde</td>
+        <td><a href="operators.md#greaterthan">Groter dan</a></td><td>Deze operator controleert of de eerste waarde groter is dan de tweede waarde</td>
     </tr>
     <tr>
         <td><a href="operators.md#greaterthanorequal">Groter of gelijk aan</a></td><td>Deze operator controleert of de eerste waarde groter dan of gelijk is aan de tweede waarde</td>

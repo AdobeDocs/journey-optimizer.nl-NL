@@ -9,19 +9,14 @@ role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: a0a4d39519f7f02265c52934db401e036ea12df6
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
 
 # Campagnes activeren met API&#39;s {#trigger-campaigns}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_api_profile_creation"
->title="Type campagne"
->abstract="Voor beperkte beschikbaarheidseigenschap om berichten te verzenden zonder profielen tot stand te brengen, volg de stappen in de documentatie worden beschreven."
 
 ## Informatie over API-gestuurde campagnes {#about}
 
@@ -79,7 +74,7 @@ U kunt de campagne nu uitvoeren vanuit de API&#39;s. [Meer informatie](#execute)
 
 Nadat de campagne is geactiveerd, moet u het gegenereerde voorbeeld-cURL-verzoek ophalen en deze in de API gebruiken om de payload te bouwen en de campagne te starten.
 
-1. Open de campagne en kopieer het voorbeeldverzoek vanuit de **[!UICONTROL cURL request]** sectie.
+1. Open de campagne en kopieer vervolgens het laadverzoek van de **[!UICONTROL cURL request]** sectie. Deze nuttige lading omvat alle verpersoonlijkings (profiel en context) variabelen die in het bericht worden gebruikt. Het is beschikbaar zodra de campagne live is.
 
    ![](assets/api-triggered-curl.png)
 

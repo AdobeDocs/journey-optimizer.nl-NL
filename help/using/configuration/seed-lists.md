@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: zaadlijst, zaadlijst, zaad, configuratie
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 3%
+source-wordcount: '915'
+ht-degree: 2%
 
 ---
 
@@ -23,8 +23,6 @@ Zaadlijsten in [!DNL Journey Optimizer] kunt u toestaan om automatisch specifiek
 >[!CAUTION]
 >
 >Deze functie is momenteel alleen van toepassing op het e-mailkanaal.
->
->Varianten worden momenteel niet ondersteund. Als elk profiel van het gerichte publiek, ontvangen de zaadadressen één enkel exemplaar van elk bericht, maar niet alle varianten van het zelfde bericht (zoals de verschillende behandelingen van een [inhoudexperiment](../campaigns/get-started-experiment.md)).
 
 Seed-adressen worden gebruikt om ontvangers die niet aan de gedefinieerde doelcriteria voldoen, doelgericht te benaderen. Op deze manier kunnen ontvangers die buiten het bereik van de levering vallen, de levering ontvangen, net als elke andere doelontvanger.
 
@@ -47,6 +45,10 @@ Zaadadressen zijn geen echte profielen en testprofielen, omdat deze geen profiel
 +++
 
 * Een andere reden voor het gebruik van zaadlijsten is de bescherming van uw mailinglijst. Door zaadadressen in te voegen in uw mailinglijst kunt u zien of het door een derde wordt gebruikt, aangezien de zaadadressen het bevat de leveringen ontvangen die naar uw mailinglijst worden verzonden.
+
+>[!NOTE]
+>
+>Varianten worden ondersteund. De zaadadressen ontvangen één enkel exemplaar van elke variant van het zelfde bericht (zoals de verschillende behandelingen van een [inhoudexperiment](../campaigns/get-started-experiment.md)).
 
 ## De zaadlijsten openen {#access-seed-lists}
 
@@ -120,15 +122,15 @@ Voer de onderstaande stappen uit om een zaadlijst te maken.
    >
    >U kunt beide opties combineren, maar het totale aantal adressen in een zaadlijst mag niet groter zijn dan 50.
 
-1. Klik op **[!UICONTROL Create]** om te bevestigen. De nieuwe zaadlijst wordt weergegeven in het dialoogvenster [Scherm zaadlijst](#access-seed-lists).
+1. Klikken **[!UICONTROL Create]** ter bevestiging. De nieuwe zaadlijst wordt weergegeven in het dialoogvenster [Scherm zaadlijst](#access-seed-lists).
 
 ## Een zaadlijst gebruiken in een campagne of reis {#use-seed-list}
 
-Nu uw zaadlijst wordt gecreeerd, kunt u het in om het even welke campagne of reis gebruiken om de overeenkomstige zaadadressen in uw leveringen te omvatten. Hiervoor voert u de volgende stappen uit.
+Nu uw zaadlijst wordt gecreeerd, kunt u het in om het even welke campagne of reis gebruiken om de overeenkomstige zaadadressen in uw leveringen te omvatten. Volg de onderstaande stappen om dit te doen.
 
 >[!CAUTION]
 >
->De berichten die naar zaadadressen worden verzonden zijn niet inbegrepen in rapporten.
+>Berichten die naar zaadadressen worden verzonden zijn niet inbegrepen in reis of campagnerapporten.
 
 1. Maak een oppervlak en selecteer de optie **[!UICONTROL Email]** kanaal. [Meer informatie](../email/email-settings.md)
 
@@ -154,4 +156,4 @@ Telkens wanneer een e-mailbericht naar uw klanten wordt verstuurd via die campag
 
 >[!NOTE]
 >
->Voor reizen wordt de e-mailbezorging alleen op de eerste uitvoering van de reis naar het zaadadres verzonden.
+>Voor ritten wordt de e-mailbezorging alleen op de eerste uitvoering van de reis naar het zaadadres verzonden.

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 2%
+source-wordcount: '316'
+ht-degree: 0%
 
 ---
 
@@ -30,15 +30,15 @@ Deze documentatie bevat gedetailleerde informatie over het werken met de composi
 
 De samenstelling van het publiek staat u toe om tot stand te brengen **compositieworkflows**, waarin u bestaande Adobe Experience Platform-doelgroepen kunt combineren tot een visueel canvas en verschillende activiteiten (splitsen, uitsluiten...) kunt gebruiken om nieuwe doelgroepen te maken.
 
-Als u klaar bent, **resulterend publiek** worden samen met het bestaande publiek opgeslagen in Adobe Experience Platform en kunnen **gebruikt in campagnes** aan doelklanten. [Leer hoe u met campagnes kunt werken](../campaigns/get-started-with-campaigns.md)
+Als u klaar bent, **resulterend publiek** worden samen met het bestaande publiek opgeslagen in Adobe Experience Platform en kunnen worden gebruikt in Journey Optimizer-campagnes en reizen naar klanten. [Leer hoe u doelgroepen kunt maken in Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]
 >
->Vooralsnog is het gebruik van het publiek als gevolg van samenstellingswerkstromen naar reizen beschikbaar als een persoonlijke bètaversie. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>Het gebruik van soorten publiek en kenmerken van Audience Composition en Custom Upload is momenteel niet beschikbaar voor gebruik met het Healthcare Shield of Privacy and Security Shield. [Meer informatie over het gebruik van verrijkingskenmerken voor doelgroepen in Journey Optimizer](../audience/about-audiences.md#enrichment)
 >
->Campagnes in Adobe Journey Optimizer zijn nog niet geïntegreerd met de politie. Daarom worden labels voor gegevensgebruik die u toepast op uw publiekskenmerken, niet afgedwongen in Journey Optimizer-campagnes.
+>De attributen van de verrijking zijn nog niet geïntegreerd met de dienst van de beleidshandhaving. Daarom worden labels voor gegevensgebruik die u toepast op uw verrijkingskenmerken, niet afgedwongen in Journey Optimizer-campagnes of -reizen.
 
 De compositie van het publiek is toegankelijk vanuit Adobe Journey Optimizer **[!UICONTROL Audiences]** menu:
 

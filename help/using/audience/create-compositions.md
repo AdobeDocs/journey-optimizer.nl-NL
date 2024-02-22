@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
-source-git-commit: 2344d53a331cb883a81a051ce1e06e8c42824cb7
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Ga als volgt te werk om een compositieworkflow te maken:
 
    ![](assets/audiences-alerts.png)
 
-1. De compositie wordt gepubliceerd. Het resulterende publiek wordt opgeslagen in Adobe Experience Platform en is klaar om te worden gebruikt in Journey Optimizer-campagnes. [Leer hoe u met campagnes kunt werken](../campaigns/get-started-with-campaigns.md)
+1. De compositie wordt gepubliceerd. Het resulterende publiek wordt opgeslagen in Adobe Experience Platform en is klaar om op Journey Optimizer te worden gericht. [Leer hoe u doelgroepen kunt maken in Journey Optimizer](../audience/about-audiences.md#segments-in-journey-optimizer)
 
 ## Toegang tot composities {#access}
 

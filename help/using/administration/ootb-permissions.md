@@ -9,9 +9,9 @@ role: Admin, User
 level: Intermediate
 keywords: machtigingen, schrijven, berichten
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: b7c31db7a126eb134c353e26c9e263a9bd1674a6
+source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '754'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Ingebouwde machtigingen vertegenwoordigen de verschillende machtigingen die kunn
 | Identiteitsbeheer | **[!DNL Manage identity namespaces]**: naamruimten lezen, maken en bewerken.</br>**[!DNL View identity namespaces]**: alleen-lezen toegang tot naamruimten.</br>**[!DNL Manage identity settings]**: lees, maak en bewerk identiteitsinstellingen.</br>**[!DNL View identity settings]**: alleen-lezen toegang tot identiteitsinstellingen.</br>**[!DNL View identity graph]**: alleen-lezen toegang voor identiteitsgrafieken. |
 | Journey Optimizer Library | **[!DNL Manage Library Items]**: opgeslagen expressies toevoegen en verwijderen in het dialoogvenster [!DNL Journey Optimizer] Bibliotheek.</br>**[!DNL Simulate content]**: toegang tot de optie Inhoud simuleren voor een voorvertoning en proefdruk. |
 | Journey Optimizer-regels | **[!DNL View frequency rules]**: alleen-lezen toegang tot regels.</br>**[!DNL Manage frequency rules]**: regels voor berichtfrequentie openen, maken, bewerken of verwijderen. |
-| Journeys | **[!DNL Manage journeys]**: reizen lezen, maken, bewerken en verwijderen.</br>**[!DNL View journeys]**: alleen-lezen toegang tot jouneys.</br>**[!DNL Publish journeys]**: publiceer reizen.</br>**[!DNL Manage journeys events, data sources and actions]**: gebeurtenissen, bronnen of handelingen lezen, maken, bewerken en verwijderen.</br>**[!DNL View journeys events, data sources and actions]**: Alleen-lezen toegang tot reisevenementen, aangepaste reisacties en gegevensbronnen voor reizen.</br>**[!DNL View journeys report]**: reisrapport lezen en bewerken.</br> |
+| Journeys | **[!DNL Manage journeys]**: reizen lezen, maken, bewerken en verwijderen. Om tot reizen toegang te hebben en te leiden, combineer deze toestemming met **[!DNL View journeys events, data sources and actions]**.</br>**[!DNL View journeys]**: alleen-lezen toegang tot jouneys.</br>**[!DNL Publish journeys]**: publiceer reizen.</br>**[!DNL Manage journeys events, data sources and actions]**: gebeurtenissen, bronnen of handelingen lezen, maken, bewerken en verwijderen.</br>**[!DNL View journeys events, data sources and actions]**: Alleen-lezen toegang tot reisevenementen, aangepaste reisacties en gegevensbronnen voor reizen.</br>**[!DNL View journeys report]**: reisrapport lezen en bewerken.</br> |
 | Profielbeheer | **[!DNL Manage profiles]**: lees, creeer, geef, en schrap datasets uit die voor klantenprofielen worden gebruikt. Alleen-lezen toegang tot beschikbare profielen.</br>**[!DNL View profiles]**: alleen-lezen toegang tot beschikbare profielen.</br>**[!DNL Export audience segments]**: exporteer een geëvalueerd publiekssegment naar een dataset.</br>**[!DNL View segments]**: alleen-lezen toegang tot het beschikbare publiek.</br>**[!DNL Evaluate a segment to an audience]**: genereer profielen voor een publiek door een segmentdefinitie te evalueren.</br>**[!DNL Manage merge policies]**: beleid voor samenvoegen lezen, maken, bewerken en verwijderen.</br>**[!DNL View merge policies]**: alleen-lezen toegang tot beschikbaar samenvoegbeleid. |
 | Query-service | **[!DNL Manage queries]**: lees, creeer, geef, en schrap gestructureerde SQL vragen voor de gegevens van het Platform uit.</br>**[!DNL Manage query service integration]**: creeer, werk, en schrap niet-vervallende geloofsbrieven voor de toegang van de Dienst van de Vraag bij. |
 | Toediening van sandbox | **[!DNL Manage sandboxes]**: sandboxen lezen, maken, bewerken en verwijderen.</br>**[!DNL View sandboxes]**: alleen-lezen toegang voor sandboxen die tot uw organisatie behoren.</br>**[!DNL Reset sandboxes]**: mogelijkheid om een sandbox opnieuw in te stellen.</br>**[!DNL Export sandboxes]**: mogelijkheid om een sandbox te exporteren.</br>**[!DNL Manage packages]**: pakketten lezen, maken, bewerken en verwijderen. |
