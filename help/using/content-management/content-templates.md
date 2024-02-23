@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
 workflow-type: tm+mt
 source-wordcount: '1280'
 ht-degree: 2%
@@ -41,7 +41,7 @@ U kunt inhoudssjablonen ook maken en beheren met API&#39;s. Raadpleeg voor meer 
 
 Als u de lijst met inhoudssjablonen wilt openen, selecteert u **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** in het linkermenu.
 
-![](../email/assets/content-template-list.png)
+![](assets/content-template-list.png)
 
 Alle sjablonen die op de huidige sandbox zijn gemaakt - van een reis of een campagne met de **[!UICONTROL Save as template]** van de **[!UICONTROL Content Templates]** menu - worden weergegeven. [Leer hoe u sjablonen maakt](#create-content-templates)
 
@@ -67,7 +67,7 @@ When you update a content, you may have to wait a few seconds before the changes
 
 * Als u sjablooninhoud wilt bewerken, klikt u op het gewenste item in de lijst en selecteert u **[!UICONTROL Edit content]**.
 
-  ![](../email/assets/content-template-edit.png)
+  ![](assets/content-template-edit.png)
 
 * Als u een sjabloon wilt verwijderen, selecteert u de **[!UICONTROL More actions]** naast de gewenste sjabloon en selecteer **[!UICONTROL Delete]**.
 
@@ -202,7 +202,7 @@ U kunt de rendering van sommige van uw e-mailsjablonen testen, ongeacht of deze 
 
 1. Klikken **[!UICONTROL Simulate Content]** en selecteer een testprofiel om de rendering te controleren. [Meer informatie](../content-management/preview-test.md)
 
-   ![](../email/assets/content-template-stimulate.png)
+   ![](assets/content-template-stimulate.png)
 
 1. U kunt een bewijs verzenden om uw inhoud te testen en het door sommige interne gebruikers te laten goedkeuren alvorens het in een reis of een campagne te gebruiken.
 
@@ -210,7 +210,7 @@ U kunt de rendering van sommige van uw e-mailsjablonen testen, ongeacht of deze 
 
    * Voordat u de proefdruk verzendt, moet u de optie [e-mailoppervlak](../configuration/channel-surfaces.md) die wordt gebruikt om uw inhoud te testen.
 
-     ![](../email/assets/content-template-stimulate-proof-surface.png)
+     ![](assets/content-template-stimulate-proof-surface.png)
 
 >[!CAUTION]
 >
