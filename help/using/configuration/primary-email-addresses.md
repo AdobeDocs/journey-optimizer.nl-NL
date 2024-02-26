@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: primair, uitvoeren, e-mail, doel, profiel, optimaliseer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 803c9f9f05669fad0a9fdeeceef58652b6dccf70
+source-git-commit: 9cc263d127fdc56f808770d908030b1d14b1f784
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%
@@ -46,7 +46,7 @@ In de meeste gevallen wijzigt u een uitvoeringsveld globaal en definieert u een 
 
 Voer de onderstaande stappen uit om de uitvoeringsvelden globaal op sandboxniveau te wijzigen.
 
-1. Open het menu **[!UICONTROL Channels]** > **[!UICONTROL General]** > **[!UICONTROL Executions fields]**.
+1. Toegang krijgen tot de  **[!UICONTROL Channels]** > **[!UICONTROL General]** > **[!UICONTROL Executions fields]** -menu.
 
 1. Klikken **[!UICONTROL Edit]** de standaardwaarden wijzigen.
 
