@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: eef253f35bf93edbe5b64b47754e16e4c590f862
 workflow-type: tm+mt
-source-wordcount: '4725'
+source-wordcount: '4739'
 ht-degree: 13%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 
 ## Februari 2024 {#feb-2024}
 
+* De integratie met Journey Optimizer en Workfront is toegevoegd aan de integratiepagina. [Meer informatie](../start/ajo-integrations.md)
 * Er is informatie toegevoegd over hoe u de representaties van aanbiedingen kunt aanpassen op basis van contextgegevens. [Meer informatie](../offers/offer-library/add-representations.md#context-data)
 * De pagina met instructies is bijgewerkt met een opmerking over aangepaste acties die alleen JSON-indeling ondersteunen bij het gebruik van verzoeken of antwoordladingen. [Meer informatie](../start/guardrails.md#custom-actions-g)
 * De extra informatie is toegevoegd over het basisauthentificatietype in externe gegevensbronnen. [Meer informatie](../datasource/external-data-sources.md)

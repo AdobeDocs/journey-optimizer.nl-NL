@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: eef253f35bf93edbe5b64b47754e16e4c590f862
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 4%
+source-wordcount: '756'
+ht-degree: 2%
 
 ---
 
@@ -76,6 +76,15 @@ Meer informatie over [Journey Optimizer + Campagne](../building-journeys/ajo-ac.
 U kunt ook een integratie met Adobe Campaign Standard opzetten om berichten tijdens uw reizen te verzenden.
 
 Meer informatie over [JOURNEY OPTIMIZER + CAMPAIGN STANDARD](../building-journeys/using-adobe-campaign-standard.md).
+
+
+## Adobe Workfront {#integration-workfront}
+
+Met de Adobe Journey Optimizer-modules in Adobe Workfront kunt u records maken, lezen, bijwerken of verwijderen, of een aangepaste API-aanroep naar de Adobe Journey Optimizer API uitvoeren.
+
+Een overzicht van de belangrijkste stap van deze integratie is beschikbaar [in dit blogbericht](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
+
+Meer informatie over Journey Optimizer + Adobe Workfront [in Adobe Workfront-documentatie](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html){target="_blank"}.
 
 ## Aangepaste kanalen {#integration-custom}
 
