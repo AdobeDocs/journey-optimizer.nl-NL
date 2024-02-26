@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: eef253f35bf93edbe5b64b47754e16e4c590f862
+source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
 workflow-type: tm+mt
-source-wordcount: '4739'
+source-wordcount: '4774'
 ht-degree: 13%
 
 ---
@@ -30,6 +30,7 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 * De pagina in de functie Splitsen is bijgewerkt. [Meer informatie](../building-journeys/functions/functioninaudience.md)
 * Er is informatie toegevoegd over de impact van de opt-in of opt-out van pushberichten op In-app berichten. [Meer informatie](../in-app/create-in-app.md)
 * De pagina met regels voor berichtfrequenties is bijgewerkt met de opties voor Duur die beschikbaar zijn in de gebruikersinterface (wekelijks of maandelijks). [Meer informatie](../configuration/frequency-rules.md)
+* De sectie Een PTR-record bewerken is bijgewerkt om te verduidelijken dat PTR-records niet handmatig kunnen worden gemaakt en dat u PTR-records moet bewerken om er nieuwe subdomeinen aan toe te wijzen. [Meer informatie](using/configuration/ptr-records.md#edit-ptr-record)
 
 ## Januari 2024 {#jan-2024}
 

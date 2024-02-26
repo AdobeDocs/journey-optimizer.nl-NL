@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: subdomein, PTR, records, DNS, domein, post
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: d2d9913e41a183ef4a2cd41622ed67b0a559444f
+source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,11 @@ U kunt een PTR-record in de lijst openen om de bijbehorende subdomeinnaam en het
 
 ## Een PTR-record bewerken {#edit-ptr-record}
 
-U kunt een PTR-record wijzigen om het subdomein te bewerken dat aan een IP-adres is gekoppeld.
+In [!DNL Journey Optimizer], kunt u niet handmatig PTR-records maken. In plaats daarvan kunt u [gedelegeerde](delegate-subdomain.md) uw eerste subdomein aan Adobe, PTR- verslagen worden automatisch gecreeerd voor uw IPs.
+
+Elk van uw IPs ontvangt één enkel PTR verslag. Alle PTR-records hebben de volgende indeling: &#39;rxx.subdomain&#39;, waarbij &#39;subdomain&#39; het eerste subdomein is dat u hebt gedelegeerd in [!DNL Journey Optimizer].
+
+Wanneer u extra subdomeinen creeert, moet u één of meerdere PTR verslagen wijzigen en die nieuwe subdomeinen aan hen toewijzen. Volg de onderstaande stappen om dit te doen.
 
 >[!CAUTION]
 >
