@@ -5,10 +5,10 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0144a772f67ffa03e39a70de41c54a6cf88cdd69
+source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 15%
+source-wordcount: '385'
+ht-degree: 16%
 
 ---
 
@@ -20,27 +20,27 @@ Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en
 
 >[!BEGINTABS]
 
->[!TAB Release januari is live!]
+>[!TAB Release van februari is live!]
 
-Ontdek nieuwe functies en verbeteringen die worden geïntroduceerd in de Adobe Journey Optimizer 24.1-release.
+Ontdek nieuwe functies en verbeteringen die worden geïntroduceerd in de Adobe Journey Optimizer 24.2-release.
 
-[![afbeelding](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+[![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Verplichte DMARC-update]
+>[!TAB Webberichten in de app]
 
-Google en Yahoo zijn een onderdeel van hun best practices in de branche. vereist beide dat u een **DMARC-record** voor elk domein dat u gebruikt om e-mail naar hen te verzenden, vanaf **1 februari 2024**. Zorg ervoor dat u DMARC- verslag opstelling voor alle subdomeinen hebt die u aan Adobe in Journey Optimizer hebt gedelegeerd.
+U kunt het nieuwe Web in-App overseinenvermogen nu gebruiken om gepersonaliseerde inhoud direct op websites, door modaal-bekledingsberichten te tonen. Met deze functie kunt u effectief contact opnemen met webbezoekers, waardoor de interactie, het behoud en de conversiesnelheden van gebruikers worden verbeterd.
 
-[![afbeelding](using/assets/do-not-localize/learn-more-button.svg)](using/configuration/dmarc-record-update.md)
+![](using/rn/assets/do-not-localize/web_inapp.gif)
 
->[!TAB Hoofdletters gebruiken]
+[![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
 
-Gebruik een catalogus met branchespecifieke gebruiksscenario&#39;s in Real-Time CDP en Journey Optimizer om veelvoorkomende gebruiksgevallen aan te pakken die u kunt uitvoeren met Adobe Experience Platform en Adobe Journey Optimiser.
+>[!TAB Sjablonen voor multikanaalsinhoud]
 
-Zodra u playbook hebt gekozen die het best aan uw behoeften past, kunt u het toelaten om de activa te produceren nodig om uw gebruikscase zoals reizen, berichten, schema&#39;s of segmenten te steunen, en hen aan uw schema voor snellere tijd aan waarde aan te passen.
+Naast E-mail, zijn de inhoudsmalplaatjes nu beschikbaar voor de volgende kanalen: Duw, In-app, SMS en Directe post, elk kanaal dat specifieke malplaatjetypes heeft. Voor E-mail, kunt u het inhoudstype nu selecteren, dat u toestaat om de onderwerpregel als deel van uw e-mailmalplaatje te bewaren.
 
-![bewegende afbeelding met gebruik van hoofdletters en kleine letters weergeven](using/rn/assets/do-not-localize/playbooks.gif)
+![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
 
-[![afbeelding](using/assets/do-not-localize/learn-more-button.svg)](using/start/playbooks.md)
+[![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/content-templates.md)
 
 >[!ENDTABS]
 
