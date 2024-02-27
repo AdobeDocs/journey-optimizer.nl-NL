@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ U kunt in campagnes selecteren en reizen om het even welk publiek dat gebruikend
 
 >[!AVAILABILITY]
 >
->Het gebruik van soorten publiek en kenmerken van de compositie van het publiek en aangepaste upload (CSV-bestand) is momenteel niet beschikbaar voor gebruik met het gezondheidsschild of het privacyschild. [Meer informatie over het gebruik van verrijkingskenmerken voor doelgroepen in Journey Optimizer](../audience/about-audiences.md#enrichment)
+>Het gebruik van soorten publiek en kenmerken van publiek compositie en aangepast uploadpubliek (CSV-bestand) is momenteel niet beschikbaar voor gebruik met Healthcare Shield of Privacy and Security Shield. [Meer informatie over het gebruik van verrijkingskenmerken voor doelgroepen in Journey Optimizer](../audience/about-audiences.md#enrichment)
 
 U kunt het publiek benutten in **[!DNL Journey Optimizer]** op verschillende manieren:
 
@@ -61,7 +61,7 @@ U kunt het publiek benutten in **[!DNL Journey Optimizer]** op verschillende man
 
 ## Verrijkingskenmerken van soorten publiek gebruiken in Journey Optimizer {#enrichment}
 
-Wanneer het richten van een publiek dat gebruikend samenstellingswerkschema&#39;s of douane wordt geproduceerd uploadt (Csv- dossier), kunt u hefboomverrijkingsattributen van deze publiek gebruiken om uw reis te bouwen en uw berichten te personaliseren.
+Wanneer het richten van een publiek dat gebruikend samenstellingswerkschema&#39;s wordt geproduceerd, kunt u verrijkingsattributen van deze publiek gebruiken om uw reis te bouwen en uw berichten te personaliseren.
 
 * Maak meerdere paden op een reis op basis van regels die de verrijkingskenmerken van het doelpubliek benutten. Als u dit wilt doen, richt u de doelgroep op met een [Lees publiek](../building-journeys/read-audience.md) activiteit creeert dan regels in [Voorwaarde](../building-journeys/condition-activity.md) activiteit op basis van de verrijkingskenmerken van het publiek .
 

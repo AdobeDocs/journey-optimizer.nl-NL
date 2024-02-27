@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Met het elliptische menu naast het pictogram &quot;+&quot; kunt u meer details v
 
 >[!NOTE]
 >
->Als u zich richt op een publiek met verrijkingsattributen die gebruikend een samenstellingswerkschema of een douane worden geproduceerd uploadt (Csv- dossier), kunt u deze verrijkingsattributen gebruiken om uw bericht te personaliseren. [Leer hoe u verrijkingskenmerken voor het publiek kunt gebruiken](../audience/about-audiences.md#enrichment)
+>Als u zich richt op een publiek met verrijkingsattributen die gebruikend een samenstellingswerkschema worden geproduceerd, kunt u deze verrijkingsattributen gebruiken om uw bericht te personaliseren. [Leer hoe u verrijkingskenmerken voor het publiek kunt gebruiken](../audience/about-audiences.md#enrichment)
 
 Daarnaast kunt u standaardfallback-tekst definiëren die wordt weergegeven als een tekenreekstype profielkenmerk leeg is. Om dit te doen, klik de ellipsknoop naast het attribuut en selecteer **[!UICONTROL Insert with fallback text]**. Schrijf de tekst die standaard moet worden weergegeven als de waarde van het kenmerk leeg is voor een profiel en klik vervolgens op **[!UICONTROL Add]**.
 

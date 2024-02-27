@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Als u klaar bent, **resulterend publiek** worden samen met het bestaande publiek
 
 >[!IMPORTANT]
 >
->Het gebruik van soorten publiek en kenmerken van Audience Composition en Custom Upload is momenteel niet beschikbaar voor gebruik met het Healthcare Shield of Privacy and Security Shield. [Meer informatie over het gebruik van verrijkingskenmerken voor doelgroepen in Journey Optimizer](../audience/about-audiences.md#enrichment)
+>Het gebruik van soorten publiek en kenmerken van de publiekscompositie en het aangepaste uploadpubliek is momenteel niet beschikbaar voor gebruik met het zorgschild of het privacy- en beveiligingsschild.
 >
 >De attributen van de verrijking zijn nog niet geïntegreerd met de dienst van de beleidshandhaving. Daarom worden labels voor gegevensgebruik die u toepast op uw verrijkingskenmerken, niet afgedwongen in Journey Optimizer-campagnes of -reizen.
 
