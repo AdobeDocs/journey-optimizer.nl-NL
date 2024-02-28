@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: d8d007fb6a67e8716a07df04895684c2c1cfefaa
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Meer informatie over machtigingen in [deze sectie](../administration/high-low-pe
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
 >title="De uitlijning van uw regel instellen"
->abstract="Geef het maximumaantal berichten op dat elke maand naar een klantprofiel wordt verzonden. Frequentiegrens wordt gebaseerd op een maandelijkse kalenderperiode en wordt aan het begin van elke maand opnieuw ingesteld."
+>abstract="Geef het maximumaantal berichten op dat binnen de gekozen tijdsperiode naar een klantprofiel wordt verzonden. De maximale frequentie wordt gebaseerd op de geselecteerde kalenderperiode en wordt opnieuw ingesteld aan het begin van het corresponderende tijdkader."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
