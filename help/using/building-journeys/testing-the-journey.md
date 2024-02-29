@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: test, reis, controle, fout, oplossen
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
+source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 1%
@@ -124,7 +124,7 @@ Wanneer u een bedrijfsgebeurtenis voor het eerst activeert, kunt u de definitie 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_logs"
 >title="Logboeken van testmodi"
->abstract="Met de knop Logbestand tonen worden de testresultaten in JSON-indeling weergegeven. Deze resultaten geven het aantal individuen binnen de reis en hun status weer."
+>abstract="De **Logboek tonen** geeft de testresultaten weer in JSON-indeling. Deze resultaten geven het aantal individuen binnen de reis en hun status weer."
 
 De **[!UICONTROL Show log]** kunt u de testresultaten bekijken. Op deze pagina worden de huidige gegevens van de reis in JSON-indeling weergegeven. Met een knop kunt u hele knooppunten kopiëren. U moet de pagina handmatig vernieuwen om de testresultaten van de reis bij te werken.
 
