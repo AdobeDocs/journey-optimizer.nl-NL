@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 2f2b53fd74a51e96e61ddaf9e489c07bd359294f
 workflow-type: tm+mt
-source-wordcount: '1736'
+source-wordcount: '1738'
 ht-degree: 31%
 
 ---
@@ -553,7 +553,7 @@ ht-degree: 31%
          + [Afkappings-API](using/configuration/capping.md)
          + [API voor beperken](using/configuration/throttling.md)
       + Configuratie van gebeurtenissen {#events-journeys}
-         + [Algemeen principe](using/event/about-events.md)
+         + [Werken met reisgebeurtenissen](using/event/about-events.md)
          + Een eenheidsgebeurtenis configureren {#unitary-events}
             + [Aan de slag met eenheidsgebeurtenissen](using/event/about-creating.md)
             + [ExperienceEvent-schema’s](using/event/experience-event-schema.md)
