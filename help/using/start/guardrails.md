@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '1923'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
@@ -40,14 +40,12 @@ Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in 
 * U kunt geen preheader toevoegen aan een openingspagina.
 * U kunt de **Uw eigen code schrijven** bij het ontwerpen van een primaire landingspagina.
 
-<!--
-## SMS guardrails {#sms-guardrails}
+## SMS-handleidingen {#sms-guardrails}
 
-* MMS Capability is only available for Sinch.
-* Media files for MMS can be included through a supported URL. Please ensure that the media file is uploaded separately.
-* Message feedback syncing is not currently available for MMS.
-* Consent management operates at the SMS channel level for MMS.
--->
+* MMS Capability is slechts beschikbaar voor Sinch.
+* Mediabestanden voor MMS kunnen via een ondersteunde URL worden opgenomen. Controleer of het mediabestand afzonderlijk is geüpload.
+* Berichtfeedback synchroniseren is momenteel niet beschikbaar voor MMS.
+* Het beheer van de toestemming werkt op het kanaalniveau van SMS voor MMS.
 
 ## Fragmenten, ardraals {#fragments-guardrails}
 

@@ -1,37 +1,37 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Een SMS-bericht maken
-description: Meer informatie over het maken van een SMS-bericht in Journey Optimizer
+title: Een SMS/MMS-bericht maken
+description: Meer informatie over het maken van een SMS/MMS-bericht in Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 3%
+source-wordcount: '902'
+ht-degree: 2%
 
 ---
 
-# Een tekstbericht maken {#create-sms}
+# Een tekstbericht maken (SMS/MMS) {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Een tekstbericht maken"
->abstract="Om een tekstbericht te creëren, voeg een actie van SMS in een reis of een campagne toe en begin het met de redacteur van de Uitdrukking te personaliseren."
+>abstract="Om een tekstbericht (SMS/MMS) tot stand te brengen, voeg een actie van SMS in een reis of een campagne toe en begin het met de redacteur van de Uitdrukking te personaliseren."
 
-U kunt tekst (SMS) ontwerpen en verzenden met Adobe Journey Optimizer. U moet eerst een actie van SMS in een reis of een campagne toevoegen, en dan de inhoud van het tekstbericht bepalen, zoals hieronder beschreven. Adobe Journey Optimizer biedt ook mogelijkheden om uw tekstberichten te testen voordat ze worden verzonden, zodat u de rendering, personalisatiekenmerken en alle andere instellingen kunt controleren.
+U kunt tekst- (SMS) en multimedia-berichten (MMS) ontwerpen en verzenden met Adobe Journey Optimizer. U moet eerst een actie van SMS in een reis of een campagne toevoegen, en dan de inhoud van het tekstbericht bepalen, zoals hieronder beschreven. Adobe Journey Optimizer biedt ook mogelijkheden om uw tekstberichten te testen voordat ze worden verzonden, zodat u de rendering, personalisatiekenmerken en alle andere instellingen kunt controleren.
 
 >[!NOTE]
 >
->In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS-marketingberichten een manier bevatten waarop de ontvangers hun abonnement gemakkelijk kunnen opzeggen. Om dit te doen, kunnen de ontvangers van SMS met opt-in en opt-out sleutelwoorden antwoorden. [Meer informatie over het beheren van opt-out](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
+>In overeenstemming met de industriestandaarden en -voorschriften moeten alle SMS/MMS-marketingberichten een manier bevatten waarop de ontvangers hun abonnement gemakkelijk kunnen opzeggen. Om dit te doen, kunnen de ontvangers van SMS met opt-in en opt-out sleutelwoorden antwoorden. [Meer informatie over het beheren van opt-out](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 
 ## Een tekstbericht toevoegen {#create-sms-journey-campaign}
 
-Blader op de onderstaande tabbladen om te leren hoe u een tekstbericht kunt toevoegen aan een campagne of een reis.
+Blader op de onderstaande tabbladen om te leren hoe u een tekstbericht (SMS/MMS) kunt toevoegen aan een campagne of een reis.
 
 >[!BEGINTABS]
 
@@ -91,9 +91,9 @@ U kunt nu de inhoud van uw tekstbericht ontwerpen via het **[!UICONTROL Edit con
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Je SMS-inhoud definiëren"
->abstract="Pas de tekstberichten aan en pas deze aan door de uitdrukkingseditor te gebruiken om de inhoud te definiëren en dynamische elementen op te nemen."
+>abstract="Pas en verpersoonlijk uw tekstberichten (SMS/MMS) aan door de redacteur van de Uitdrukking te gebruiken om de inhoud te bepalen en dynamische elementen op te nemen."
 
-Volg onderstaande stappen om uw SMS-inhoud te configureren.
+Volg onderstaande stappen om uw SMS-inhoud te configureren. Instellingen voor MMS worden nader beschreven in [deze sectie](#mms-content).
 
 1. Van het reis of scherm van de campagneconfiguratie, klik **[!UICONTROL Edit content]** om de inhoud van het tekstbericht te configureren.
 
@@ -121,37 +121,33 @@ Volg onderstaande stappen om uw SMS-inhoud te configureren.
 
 1. Klikken **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning. U kunt nu de inhoud van uw bericht testen en controleren zoals beschreven in [deze sectie](#sms-mms-test).
 
-<!--
-## Define your MMS content{#mms-content}
+## Uw MMS-inhoud definiëren{#mms-content}
 
-You can enhance your communication by sending Multimedia Message Service (MMS) messages, enabling the sharing of media such as videos, pictures, audio clips and GIFs, and more. Additionally, MMS allows for up to 1600 characters of text in your message.
-
+U kunt uw communicatie verbeteren door MMS-berichten (Multimedia Message Service) te verzenden, zodat u media kunt delen, zoals video&#39;s, foto&#39;s, audioclips en GIFFEN, enz. Bovendien staat MMS maximaal 1600 tekens tekst in uw bericht toe.
 
 >[!NOTE]
 >
->* This feature is currently available with **Sinch** only.
+>* Deze functie is momenteel beschikbaar bij **Sinch** alleen.
 >
->* MMS channel comes with a few limitations listed in [this page](../start/guardrails.md#sms-guardrails).
->
+>* MMS-kanaal heeft enkele beperkingen die zijn vermeld in [deze pagina](../start/guardrails.md#sms-guardrails).
 
-To create MMS content, follow these steps:
+Ga als volgt te werk om MMS-inhoud te maken:
 
-1. Create a SMS as described in [this section](#create-sms-journey-campaign).
+1. Maak een SMS-bericht zoals beschreven in [deze sectie](#create-sms-journey-campaign).
 
-1. Edit your SMS content as detailed in [this section](#sms-content).
+1. Je SMS-inhoud bewerken zoals gedetailleerd in [deze sectie](#sms-content).
 
-1. Enable the MMS option to add media to your SMS content.
+1. Schakel de optie MMS in om media toe te voegen aan uw SMS-inhoud.
 
-    ![](assets/sms_create_6.png)
+   ![](assets/sms_create_6.png)
 
-1. Add a **[!UICONTROL Title]** to your media.
+1. Voeg een **[!UICONTROL Title]** naar uw media.
 
-1. Enter the URL of your media in the **[!UICONTROL Media]** field.
+1. Voer de URL van uw media in het dialoogvenster **[!UICONTROL Media]** veld.
 
-    ![](assets/sms_create_7.png)
+   ![](assets/sms_create_7.png)
 
-1. Click **[!UICONTROL Save]** and check your message in the preview. You can now test and check your message content as detailed below.
--->
+1. Klikken **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning. U kunt nu de inhoud van uw bericht testen en controleren, zoals hieronder wordt beschreven.
 
 ## Uw berichten testen en verzenden {#sms-mms-test}
 
@@ -167,6 +163,6 @@ Zodra verzonden, kunt u het effect van uw SMS binnen de Campagne of rapporten va
 
 * [Een tekstbericht voorvertonen, testen en verzenden](send-sms.md)
 * [Sms-kanaal configureren](sms-configuration.md)
-* [SMS-rapporten](../reports/journey-global-report.md#sms-global)
+* [SMS/MMS-rapporten](../reports/journey-global-report.md#sms-global)
 * [Een bericht toevoegen tijdens een rit](../building-journeys/journeys-message.md)
 * [Een bericht toevoegen aan een campagne](../campaigns/create-campaign.md)

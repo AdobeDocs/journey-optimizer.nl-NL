@@ -8,14 +8,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: f275820c3f79bb4c9aca8593c2c761ccd4283795
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 1%
 
 ---
 
-# Uw tekstbericht controleren en verzenden {#send-sms}
+# Controleer en verzend uw tekstbericht (SMS/MMS){#send-sms}
 
 ## Tekstbericht voorvertonen {#preview-sms}
 
@@ -49,6 +49,6 @@ Wanneer uw tekstbericht klaar is, voltooi de configuratie van uw [reis](../build
 **Verwante onderwerpen**
 
 * [Sms-kanaal configureren](sms-configuration.md)
-* [SMSS-rapporten](../reports/journey-global-report.md#sms-global)
+* [SMS/MMS-rapporten](../reports/journey-global-report.md#sms-global)
 * [Een tekstbericht maken](create-sms.md)
 * [Een bericht toevoegen tijdens een rit](../building-journeys/journeys-message.md)

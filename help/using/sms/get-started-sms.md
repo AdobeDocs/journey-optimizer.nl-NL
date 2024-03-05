@@ -1,37 +1,35 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Begin met tekstberichten
+title: Aan de slag met tekstberichten (SMS/MMS)
 description: Meer informatie over het maken en verzenden van tekstberichten in Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 2%
+source-wordcount: '251'
+ht-degree: 1%
 
 ---
 
 # Aan de slag met tekstberichten {#get-started-sms}
 
-Gebruiken [!DNL Journey Optimizer] om tekstberichten naar uw klanten op hun mobiele apparaten te verzenden. U kunt berichten in tekstformaat van de redacteur van SMS tot stand brengen, personaliseren en voorproef.
+Gebruiken [!DNL Journey Optimizer] om tekstberichten (SMS/MMS) naar uw klanten op hun mobiele apparaten te verzenden. U kunt berichten in tekstformaat van de redacteur tot stand brengen, personaliseren en voorproef.
 
-Tekstberichten kunnen worden gemaakt en verzonden tijdens een rit of in een campagne. Gebruik voor SMS de SMS-handeling.
+Tekstberichten kunnen worden gemaakt en verzonden tijdens een rit of in een campagne. Gebruik voor MMS en SMS de SMS-handeling.
 
-* In een **Reis**. Creeer een reis, voeg een activiteit van SMS toe, en bepaal basismontages, dan doorblader aan **[!UICONTROL Actions: SMS]** in het rechterdeelvenster om de inhoud voor het SMS-bericht te maken. Leer hoe u een reis maakt in [deze pagina](../building-journeys/journey-gs.md).
+* In een **Reis**. Creeer een reis, voeg een activiteit van SMS toe, en bepaal basismontages, dan doorblader aan **[!UICONTROL Actions: SMS]** in het rechterdeelvenster om de inhoud voor het SMS/MMS-bericht te maken. Leer hoe u een reis maakt in [deze pagina](../building-journeys/journey-gs.md).
 
-* In een **Campagne**. Maak een campagne, selecteer SMS als uw actie en definieer basisinstellingen en bewerk vervolgens de inhoud van het bericht om het te verzenden SMS-bericht te definiëren. Leer hoe u een campagne kunt maken in [deze pagina](../campaigns/create-campaign.md#configure).
+* In een **Campagne**. Maak een campagne, selecteer SMS als uw actie en definieer basisinstellingen en bewerk vervolgens de inhoud van het bericht om het te verzenden SMS/MMS-bericht te definiëren. Leer hoe u een campagne kunt maken in [deze pagina](../campaigns/create-campaign.md#configure).
 
-Adobe Journey Optimizer verzendt tekstberichten via SMS-serviceproviders (of SMS-gatewayproviders). Voordat u uw SMS-bericht maakt, configureert u uw serviceprovider voor tekstberichten met Journey Optimizer. [Meer informatie](sms-configuration.md).
+Adobe Journey Optimizer verzendt tekstberichten via SMS-serviceproviders (of SMS-gatewayproviders). Voordat u uw SMS-/MMS-bericht maakt, configureert u uw serviceprovider voor tekstberichten met Journey Optimizer. [Meer informatie](sms-configuration.md).
 
-<!--
->[!IMPORTANT] 
+>[!IMPORTANT]
 >
-> Sending Multimedia Message Service (MMS) with Adobe Journey Optimizer is only supported when integrating with **Sinch**.
--->
+> Het verzenden van MMS (Multimedia Message Service) met Adobe Journey Optimizer wordt slechts gesteund wanneer het integreren met **Sinch**.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
