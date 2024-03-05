@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2f2b53fd74a51e96e61ddaf9e489c07bd359294f
+source-git-commit: a06b6853cbf9e9ea9473c032ba28deb917d2c181
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 31%
+source-wordcount: '1739'
+ht-degree: 30%
 
 ---
 
@@ -218,7 +218,7 @@ ht-degree: 31%
       + [Pushmeldingsstroom](using/push/push-gs.md)
       + [Pushmeldingskanaal configureren](using/push/push-configuration.md)
       + [Snelstartworkflow voor mobiele instaptoegang](using/push/mobile-onboarding-wf.md)
-+ SMS-kanaal{#sms}
++ SMS/MMS-kanaal{#sms}
    + [Aan de slag met tekstberichten](using/sms/get-started-sms.md)
    + [Een tekstbericht maken](using/sms/create-sms.md)
    + [Een MMS-bericht maken](using/sms/create-mms.md)
