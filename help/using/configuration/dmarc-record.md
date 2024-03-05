@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomein, domein, mail, dmarc, record
-source-git-commit: cdc3e0ffaddb2ad83ad1703c1858773d09557859
+source-git-commit: 745474d6232f01ee959db8d706110477ed0220e2
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1332'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 0%
 De op domein-gebaseerde Authentificatie van het Bericht, het Melden, en de Conformiteit (DMARC) is een methode van de e-mailauthentificatie die domeineigenaars toestaat om hun domein tegen onbevoegd gebruik te beschermen. Door een duidelijk beleid aan e-mailleveranciers/ISPs aan te bieden, helpt het kwaadwillige acteurs verhinderen e-mails te verzenden die beweren van uw domein te zijn. DMARC implementeren verkleint het risico dat legitieme e-mailberichten worden gemarkeerd als spam of afgewezen, en verbetert uw e-mailleverbaarheid.
 
 DMARC biedt ook rapportering over berichten die authentificatie ontbreken, samen met controle over de behandeling van e-mails die geen bevestiging DMARC overgaan. Afhankelijk van de geïmplementeerde [DMARC-beleid](#dmarc-policies), kunnen deze e-mails worden gecontroleerd, in quarantaine geplaatst of geweigerd. Met deze functies kunt u acties uitvoeren om mogelijke fouten te beperken en aan te pakken.
-
-<!--To help you prevent deliverability issues by allowing ISPs to authenticate your sending domains - while gaining visibility and control over mail that fail this authentication, [!DNL Journey Optimizer] will soon be supporting the DMARC technology directly in its administration interface.-->
 
 Om u te helpen leveringsproblemen verhinderen terwijl het verkrijgen van controle over post die authentificatie ontbreekt, [!DNL Journey Optimizer] biedt nu rechtstreeks ondersteuning voor de DMARC-technologie in de beheerinterface. [Meer informatie](#implement-dmarc)
 
@@ -65,11 +63,9 @@ Als een e-mail DMARC-verificatie mislukt, kunt u beslissen welke actie op dat be
 
 Google en Yahoo zijn een onderdeel van hun best practices in de branche. beide vereisen dat u een **DMARC-record** voor elk domein dat u gebruikt om e-mail naar hen te verzenden. Deze nieuwe eis geldt vanaf **1 februari 2024**.
 
-Meer informatie over Google en Yahoo!&#39;s vereiste in [deze sectie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#dmarc){target="_blank"}.
-
 >[!CAUTION]
 >
->Gmail en Yahoo voldoen niet aan deze nieuwe eis! wordt verwacht dat e-mailberichten in de map spam zullen landen of geblokkeerd zullen raken. [Meer informatie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#how-will-this-impact-me-as-a-marketer%3F){target="_blank"}
+>Gmail en Yahoo voldoen niet aan deze nieuwe eis! wordt verwacht dat e-mailberichten in de map spam zullen landen of geblokkeerd zullen raken.
 
 Daarom beveelt de Adobe u ten zeerste aan de volgende maatregelen te nemen:
 
