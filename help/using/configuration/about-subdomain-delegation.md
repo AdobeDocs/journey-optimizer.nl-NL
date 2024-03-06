@@ -9,16 +9,23 @@ role: Admin
 level: Experienced
 keywords: subdomein, optimaliseren, delegeren
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: f59f6a60aabb793aec0cb813ddd9cee10c0fc097
+source-git-commit: c80fecf1373528c8b46f76ee6a6eaafbcda58892
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 24%
+source-wordcount: '906'
+ht-degree: 23%
 
 ---
 
 # Subdomeindelegatie in [!DNL Journey Optimizer] {#subdomain-delegation}
 
-Het creëren van subdomain voor e-mailcampagnes staat merken toe om verschillende types van verkeer (marketing versus collectief bijvoorbeeld) in specifieke IP groepen en met specifieke domeinen te isoleren, die het IP opwarmingsproces zullen versnellen en leveringscapaciteit over het algemeen zullen verbeteren. Als u een domein deelt en het wordt geblokkeerd of aan de lijst van gewezen personen toegevoegd, zou het uw collectieve postlevering kunnen beïnvloeden. Nochtans, zullen de kwesties van de reputatie of de blokken op een domein specifiek voor uw e-mailmarketing mededelingen enkel die stroom van e-mail beïnvloeden. Het gebruiken van uw hoofddomein als afzender of &quot;van&quot;adres voor veelvoudige poststromen kon e-mailauthentificatie ook breken, veroorzakend uw berichten om worden geblokkeerd of in de spamomslag worden geplaatst.
+>[!CONTEXTUALHELP]
+>id="ajo_admin_delegated_subdomains"
+>title="De gedelegeerde subdomeinen worden hier weergegeven."
+>abstract="Uw eerste subdomein delegeren. Nadat de delegatie is voltooid, worden PTR-records gemaakt en worden e-mailkanalen ingeschakeld."
+
+Het creëren van subdomain voor e-mailcampagnes staat merken toe om verschillende types van verkeer (marketing versus collectief bijvoorbeeld) in specifieke IP groepen en met specifieke domeinen te isoleren, die het IP opwarmingsproces zullen versnellen en leveringscapaciteit over het algemeen zullen verbeteren.
+
+Als u een domein deelt en het wordt geblokkeerd of aan de lijst van gewezen personen toegevoegd, zou het uw collectieve postlevering kunnen beïnvloeden. Nochtans, zullen de kwesties van de reputatie of de blokken op een domein specifiek voor uw e-mailmarketing mededelingen enkel die stroom van e-mail beïnvloeden. Het gebruiken van uw hoofddomein als afzender of &quot;van&quot;adres voor veelvoudige poststromen kon e-mailauthentificatie ook breken, veroorzakend uw berichten om worden geblokkeerd of in de spamomslag worden geplaatst.
 
 >[!NOTE]
 >
