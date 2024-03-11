@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ee33923ff5bfb73974935864c7e241ea4b0353c5
+source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1146'
 ht-degree: 7%
 
 ---
@@ -191,8 +191,11 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Frequentieregels**
 
-* **Wekelijks en dagelijks frequentiegrens** - U kunt nu het maximum aantal berichten opgeven dat naar een klantprofiel wordt verzonden in een week of een dag, in aanvulling op de maand. De maximale frequentie is gebaseerd op de geselecteerde kalenderperiode en wordt opnieuw ingesteld aan het begin van het corresponderende tijdkader. [Meer informatie](../configuration/frequency-rules.md#create-new-rule)
+* **Wekelijkse frequentie** - U kunt nu het maximumaantal berichten dat naar een klantprofiel wordt verzonden per week, plus de maand specificeren. De maximale frequentie is gebaseerd op de geselecteerde kalenderperiode en wordt opnieuw ingesteld aan het begin van het corresponderende tijdkader. [Meer informatie](../configuration/frequency-rules.md#create-new-rule)
 
+  >[!NOTE]
+  >
+  >Dagelijkse frequentiegrens is ook beschikbaar op verzoek. Neem contact op met uw Adobe.
 
 **Beslissingsbeheer**
 

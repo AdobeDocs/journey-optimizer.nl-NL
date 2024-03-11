@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: d8d007fb6a67e8716a07df04895684c2c1cfefaa
+source-git-commit: dd47299b780dfe388632b0bad5d587606ece0b23
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -77,23 +77,9 @@ Volg onderstaande stappen om een nieuwe regel te maken.
    >
    >Momenteel alleen de **[!UICONTROL Marketing]** -categorie is beschikbaar.
 
-   <!--![](assets/message-rules-details.png)-->
+   ![](assets/message-rules-details.png)
 
-1. Van de **[!UICONTROL Duration]** selecteert u een tijdkader voor de bijschriften die u wilt toepassen.
-
-   ![](assets/message-rules-capping-duration.png)
-
-   De frequentiegrens is gebaseerd op de geselecteerde kalenderperiode. Deze wordt opnieuw ingesteld aan het begin van het corresponderende tijdkader.
-
-   De teller loopt voor elke periode als volgt af:
-
-   <!--* **[!UICONTROL Daily]**: The frequency cap is valid for the day until 23:59:59 UTC and resets to 0 at the start of the next day.-->
-
-   * **[!UICONTROL Weekly]**: De frequentiekapitaal is geldig tot zaterdag 23:59:59 UTC van die week als de kalenderweek op zondag begint. De vervaldatum staat los van de instelling van de regel. Bijvoorbeeld, als de regel op Donderdag wordt gecreeerd, is deze regel geldig tot Zaterdag bij 23:59:59.
-
-   * **[!UICONTROL Monthly]** De frequentie-instelling is geldig tot de laatste dag van de maand op 23:59:59 UTC De maandelijkse vervaldatum voor januari is bijvoorbeeld 01-31 23:59:59 UTC
-
-   &lt;!—OPMERKING: wanneer u werkt met [batchsegmentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} wordt aanbevolen. <!--Learn more on audience evaluation methods in [this section](using/audience/about-audiences.md#evaluation-method-in-journey-optimizer).-->
+1. Van de **[!UICONTROL Duration]** selecteert u een tijdkader voor de bijschriften die u wilt toepassen. [Meer informatie](#frequency-cap)
 
 1. Plaats het maximum voor uw regel, betekenend het maximumaantal berichten dat naar een individueel gebruikersprofiel elke maand, of week kan worden verzonden <!--or day--> - volgens de bovenstaande selectie.
 
@@ -114,6 +100,34 @@ Volg onderstaande stappen om een nieuwe regel te maken.
 1. Klikken **[!UICONTROL Save as draft]** om de regel te bevestigen. Uw bericht wordt toegevoegd aan de regellijst, met de **[!UICONTROL Draft]** status.
 
    ![](assets/message-rules-created.png)
+
+### Frequentiegrens {#frequency-cap}
+
+Van de **[!UICONTROL Duration]** Selecteer deze optie in de vervolgkeuzelijst als u de afbeelding maandelijks of wekelijks wilt laten toewijzen.
+
+>[!NOTE]
+>
+>Dagelijkse frequentiegrens is ook beschikbaar op verzoek. [Meer informatie](#daily-frequency-cap)
+
+De frequentiegrens is gebaseerd op de geselecteerde kalenderperiode. Deze wordt opnieuw ingesteld aan het begin van het corresponderende tijdkader.
+
+![](assets/message-rules-capping-duration.png)
+
+De teller loopt voor elke periode als volgt af:
+
+* **[!UICONTROL Monthly]** De frequentie-instelling is geldig tot de laatste dag van de maand op 23:59:59 UTC De maandelijkse vervaldatum voor januari is bijvoorbeeld 01-31 23:59:59 UTC
+
+* **[!UICONTROL Weekly]**: De frequentiekapitaal is geldig tot zaterdag 23:59:59 UTC van die week als de kalenderweek op zondag begint. De vervaldatum staat los van de instelling van de regel. Bijvoorbeeld, als de regel op Donderdag wordt gecreeerd, is deze regel geldig tot Zaterdag bij 23:59:59.
+
+### Dagelijkse frequentie dop {#daily-frequency-cap}
+
+Naast de maanden- en wekelijkse frequentie is ook de dagelijkse frequentie-limiet op aanvraag beschikbaar. Neem voor meer informatie contact op met uw Adobe.
+
+De dagelijkse frequentiedop is geldig tot 23 dagen:59:59 UTC en wordt opnieuw ingesteld op 0 aan het begin van de volgende dag.
+
+>[!NOTE]
+>
+>Wanneer u werkt met [batchsegmentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}, the daily counters may not accurately reflect the current values as the daily counter snapshot is taken at midnight UTC the night before. Consequently, relying on daily counters in this scenario becomes impractical, as the snapshot does not reflect the most up-to-date counter values on the profile. To ensure accuracy for daily frequency capping rules, the use of [streaming segmentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} wordt aanbevolen. Meer informatie over methoden voor publieksevaluatie vindt u in [deze sectie](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
 ## Een regel activeren {#activate-rule}
 
