@@ -9,27 +9,33 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: beleid, bestuur, platform, gezondheidsschild, toestemming
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d549e4fdb7cd71e450cd00e4fa8707ae03ce0aff
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '961'
 ht-degree: 0%
 
 ---
 
 # Werken met toestemmingsbeleid {#consent-management}
 
-Met Adobe Experience Platform kunt u eenvoudig marketingbeleid toepassen en afdwingen om de voorkeuren voor toestemming van uw klanten te respecteren. Beleid voor instemming wordt gedefinieerd in Adobe Experience Platform. Zie [deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy).
+<!--Adobe Experience Platform allows you to easily adopt and enforce marketing policies to respect the consent preferences of your customers. Consent policies are defined in Adobe Experience Platform. Refer to [this documentation](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy).
 
-In Journey Optimizer kunt u dit beleid voor toestemming toepassen op aangepaste handelingen. U kunt bijvoorbeeld regels voor toestemming definiëren om klanten uit te sluiten die niet hebben ingestemd met het ontvangen van e-mail, push- of SMS-berichten.
+In Journey Optimizer, you can apply these consent policies to your custom actions. For example, you can define consent policies to exclude customers who have not consented to receive email, push or SMS communication.-->
 
->[!NOTE]
+Uw gegevens zijn mogelijk onderworpen aan gebruiksbeperkingen die zijn gedefinieerd door uw organisatie of door wettelijke voorschriften. Het is daarom belangrijk ervoor te zorgen dat uw gegevensbewerkingen in Journey Optimizer voldoen aan de [beleid voor gegevensgebruik](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html){target="_blank"}. These policies are Adobe Experience Platform rules defining which [marketing actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#marketing-actions){target="_blank"} u mag gegevens bewerken.
+
+Eén type beleid voor gegevensgebruik is beschikbaar **toestemmingsbeleid**. Met deze services kunt u eenvoudig marketingbeleid toepassen en afdwingen om de voorkeuren voor machtigingen van uw klanten te respecteren. [Meer informatie over beleidshandhaving](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html){target="_blank"}
+
+>[!IMPORTANT]
 >
->Het beleid van de toestemming is momenteel slechts beschikbaar voor organisaties die het Advertentieschildaanbod hebben gekocht.
+>Beleid voor toestemming is momenteel alleen beschikbaar voor organisaties die de Adobe hebben aangeschaft **Gezondheidsschild** of **Privacy- en beveiligingsschild** add-on aanbiedingen.
 
-In Journey Optimizer wordt de toestemming op verschillende niveaus gedefinieerd:
+U kunt bijvoorbeeld [beleid voor instemming maken](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy){target="_blank"} in Experience Platform om klanten uit te sluiten die niet hebben ingestemd met het ontvangen van e-mail-, push- of SMS-berichten.
 
-* wanneer **een aangepaste handeling configureren** kunt u een kanaal- en marketingactie definiëren. Zie dit [sectie](../action/consent.md#consent-custom-action).
-* bij het toevoegen van de **aangepaste actie op reis**, kunt u een extra marketingactie definiëren. Zie dit [sectie](../action/consent.md#consent-journey).
+In Journey Optimizer wordt de toestemming op verschillende niveaus gedefinieerd. U kunt toestemmingsbeleid op uw reis douaneacties toepassen:
+
+* Wanneer **een aangepaste handeling configureren** kunt u een kanaal- en marketingactie definiëren. [Meer informatie](#consent-custom-action)
+* Wanneer u het gereedschap **aangepaste actie op reis**, kunt u een extra marketingactie definiëren. [Meer informatie](#consent-journey)
 
 ## Belangrijke opmerkingen {#important-notes}
 
