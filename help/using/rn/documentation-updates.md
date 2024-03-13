@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: bfe377e6a362b9e9f1ce417a8ddfd7581845d342
+source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
 workflow-type: tm+mt
-source-wordcount: '4774'
+source-wordcount: '4827'
 ht-degree: 13%
 
 ---
@@ -18,6 +18,12 @@ ht-degree: 13%
 # Documentatie-updates {#latest-updates}
 
 Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
+
+## Maart 2024 {#march-2024}
+
+* De pagina met regels voor berichtfrequenties is bijgewerkt met een nieuwe subsectie over de limiet voor dagelijkse frequenties, die naast de wekelijkse of maandelijkse aftopping op aanvraag beschikbaar is. [Meer informatie](../configuration/frequency-rules.md#daily-frequency-cap)
+* De pagina Werken met toestemmingsbeleid is verbeterd en bijgewerkt met nuttige koppelingen naar de documentatie van het Experience Platform. [Meer informatie](../action/consent.md)
+  <!--* The Access and manage templates section has been updated to reflect the fact that you can display content templates as a thumbnails with the Grid view mode. [Read more](../content-management/content-templates.md#template-thumbnails)-->
 
 ## Februari 2024 {#feb-2024}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 56505b6b698568678434510643433fa0ad639cbd
+source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1341'
 ht-degree: 2%
 
 ---
@@ -55,16 +55,6 @@ U kunt er ook voor kiezen om alleen de zelf gemaakte of gewijzigde items weer te
 
 ![](assets/content-template-list-filters.png)
 
-<!--Select the **[!UICONTROL Grid view]** mode to display each template as a thumbnail. 
-
->[!NOTE]
->
->Currently proper thumbnails can only be generated for HTML-type email content templates.
-
-When you update a content, you may have to wait a few seconds before the changes are reflected in the thumbnail.
-
-![](assets/content-template-grid-view.png)-->
-
 * Als u sjablooninhoud wilt bewerken, klikt u op het gewenste item in de lijst en selecteert u **[!UICONTROL Edit content]**.
 
   ![](assets/content-template-edit.png)
@@ -76,6 +66,22 @@ When you update a content, you may have to wait a few seconds before the changes
 >[!NOTE]
 >
 >Wanneer een sjabloon wordt bewerkt of verwijderd, hebben campagnes of reizen met inbegrip van inhoud die met deze sjabloon is gemaakt, geen invloed op deze sjabloon.
+
+### Sjablonen weergeven als miniaturen {#template-thumbnails}
+
+Selecteer de **[!UICONTROL Grid view]** om elke sjabloon als een miniatuur weer te geven.
+
+>[!AVAILABILITY]
+>
+>Dit vermogen wordt vrijgegeven in Beperkte Beschikbaarheid (LA) voor een kleine reeks klanten.
+
+![](assets/content-template-grid-view.png)
+
+>[!NOTE]
+>
+>Er kunnen momenteel alleen juiste miniaturen worden gegenereerd voor sjablonen voor e-mailinhoud van het type HTML.
+
+Wanneer u inhoud bijwerkt, moet u mogelijk een paar seconden wachten voordat de wijzigingen in de miniatuur worden doorgevoerd.
 
 ## Inhoudssjablonen maken {#create-content-templates}
 
