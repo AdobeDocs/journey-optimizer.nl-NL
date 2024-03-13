@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: wachten, activiteit, reis, volgende, canvas
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 5%
@@ -60,13 +60,13 @@ Select the date for the execution of the next activity.
 
 ## Aangepast wachten{#custom}
 
-Met deze optie kunt u een aangepaste datum definiëren, bijvoorbeeld 12 juli 2020 om 17.00 uur, met een geavanceerde expressie die is gebaseerd op een veld dat afkomstig is van een gebeurtenis of gegevensbron. U kunt hiermee geen aangepaste duur definiëren, bijvoorbeeld 7 dagen. De expressie in de expressie-editor moet een dateTimeOnly-indeling hebben. Zie dit [page](expression/expressionadvanced.md). Voor meer informatie over de dateTimeOnly-indeling raadpleegt u deze [page](expression/data-types.md).
+Met deze optie kunt u een aangepaste datum definiëren, bijvoorbeeld 12 juli 2023 om 17.00 uur, met een geavanceerde expressie die is gebaseerd op een veld dat afkomstig is van een gebeurtenis of gegevensbron. U kunt hiermee geen aangepaste duur definiëren, bijvoorbeeld 7 dagen. De expressie in de expressie-editor moet een dateTimeOnly-indeling hebben. Zie dit [page](expression/expressionadvanced.md). Voor meer informatie over de dateTimeOnly-indeling raadpleegt u deze [page](expression/data-types.md).
 
 >[!NOTE]
 >
->U kunt een dateTimeOnly-expressie gebruiken of een functie gebruiken om om te zetten in een dateTimeOnly. Bijvoorbeeld: toDateTimeOnly(@event{Event.biedOpened.activity.endTime}), waarbij het veld in de gebeurtenis van de notatie 2016-08-12T09 is:46:06Z.
+>U kunt een dateTimeOnly-expressie gebruiken of een functie gebruiken om om te zetten in een dateTimeOnly. Bijvoorbeeld: toDateTimeOnly(@event{Event.biedOpened.activity.endTime}), waarbij het veld in de gebeurtenis van de notatie 2023-08-12T09 is:46:06Z.
 >
->De **tijdzone** wordt verwacht in de eigenschappen van uw reis. Dientengevolge, is het vandaag van de interface niet mogelijk om bij volledig ISO-8601 timestamp het mengen tijd en de tijdzonecompensatie zoals 2016-08-12T09 direct te richten:46:06.982-05. Zie [deze pagina](../building-journeys/timezone-management.md).
+>De **tijdzone** wordt verwacht in de eigenschappen van uw reis. Dientengevolge, is het vandaag van de interface niet mogelijk om bij volledig ISO-8601 timestamp het mengen tijd en tijdzonecompensatie zoals 2023-08-12T09 direct te richten:46:06.982-05. Zie [deze pagina](../building-journeys/timezone-management.md).
 
 ![](assets/journey57.png)
 

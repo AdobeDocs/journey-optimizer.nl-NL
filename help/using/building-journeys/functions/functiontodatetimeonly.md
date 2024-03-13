@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: toDateTimeOnly, functie, expressie, transport
 exl-id: db54c119-5080-403a-b254-43645be6b4a8
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 11%
+source-wordcount: '63'
+ht-degree: 7%
 
 ---
 
@@ -45,9 +45,9 @@ Retourneer een datetime zonder rekening te houden met tijdzone.
 
 ## Voorbeelden
 
-`toDateTimeOnly ("2016-08-18")`
+`toDateTimeOnly ("2023-08-18")`
 
-retourneert een dateTime die staat voor 2016-08-18T00:00:00,000
+retourneert een dateTime die 2023-08-18T00 vertegenwoordigt:00:00,000
 
 `toDateTimeOnly(now())`
 

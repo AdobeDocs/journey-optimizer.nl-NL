@@ -8,7 +8,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expressie, syntaxis, operatoren, editor, reis
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 5%
@@ -434,13 +434,13 @@ Voorbeeld:
 "the current time is " + (now())
 ```
 
-Retourneert &quot;de huidige tijd is 2019-09-23T09.:30:06,693Z&quot;
+Retourneert &quot;de huidige tijd is 2023-09-23T09:30:06,693Z&quot;
 
 ```json
 (now()) + " is the current time"
 ```
 
-Retourneert &quot;2019-09-23T09:30:06.693Z is de huidige tijd&quot;
+Retourneert &quot;2023-09-23T09:30:06.693Z is de huidige tijd&quot;
 
 ```json
 "a" + "b" + "c" + 1234
@@ -461,16 +461,16 @@ Voeg een duur aan dateTime, een dateTimeOnly of een duur toe.
 Voorbeeld:
 
 ```json
-(toDateTime("2011-12-03T15:15:30Z")) + (toDuration("PT15M"))  
+(toDateTime("2023-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-Retourneert een _dateTime_ 2011-12-03T15:30:30Z
+Retourneert een _dateTime_ 2023-12-03T15:30:30Z
 
 ```json
-(toDateTimeOnly("2011-12-03T15:15:30")) + (toDuration("PT15M"))
+(toDateTimeOnly("2023-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-Retourneert een _dateTimeOnly_ 2011-12-03T15:30:30
+Retourneert een _dateTimeOnly_ 2023-12-03T15:30:30
 
 ```json
 (now()) + (toDuration("PT1H"))

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: stappen, configuratie, reis, gebeurtenissen, stroom, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 4%
+source-wordcount: '279'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 Om gebeurtenissen te vormen die moeten worden verzonden naar **[!UICONTROL Streaming Ingestion APIs]** en te gebruiken in [!DNL Journey Optimizer], moet u deze stappen volgen:
 
 1. Haal de inlaat-URL op van Adobe Experience Platform API&#39;s. Meer informatie in [Overzicht van API&#39;s voor streaming-insluiting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl){target="_blank"}.
-1. Kopieer de lading van de payload voorproef in **[!UICONTROL Event]** -menu. Meer informatie in [deze pagina](../event/about-creating.md#define-the-payload-fields).
+1. Kopieer de lading van de payload voorproef in **[!UICONTROL Event]** -menu. Meer informatie vindt u [op deze pagina](../event/about-creating.md#define-the-payload-fields).
 
 Vervolgens moet u het gegevenssysteem configureren dat gebeurtenissen naar Streaming Ingestie-API&#39;s stuurt met de door u gekopieerde payload:
 
@@ -75,7 +75,7 @@ Hier volgt een voorbeeld van een gebeurtenis Streaming ingestie-API&#39;s:
                 ]
             },
             "_id": "string",
-            "timestamp": "2018-05-29T00:00:00.000Z",
+            "timestamp": "2023-05-29T00:00:00.000Z",
             "_experience": {
                 "campaign": {
                     "orchestration": {

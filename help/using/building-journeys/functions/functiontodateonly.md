@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: toDateOnly, functie, expressie, reis
 exl-id: 1929644f-8b51-4f95-aea5-627fc1dd115d
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -45,18 +45,18 @@ Conversie
 
 `toDateOnly(<integer>, <integer>, <integer>)`
 
-Retourneert een type dateOnly-waarde.
+Retourneert een waarde van het type dateOnly.
 
 ## Voorbeelden
 
-`toDateOnly("2016-08-18")`
+`toDateOnly("2023-08-18")`
 
-`toDateOnly("2016-08-18T00:00:00.000Z")`
+`toDateOnly("2023-08-18T00:00:00.000Z")`
 
-`toDateOnly("2016-08-18T00:00:00")`
+`toDateOnly("2023-08-18T00:00:00")`
 
-retourneren alle objecten dateOnly die 2016-08-18 vertegenwoordigen.
+retourneren alle objecten dateOnly die 2023-08-18 vertegenwoordigen.
 
 `toDateOnly(#{ExperiencePlatform.ProfileFieldGroup.person.birthDate})`
 
-Retourneert alleen dateOnly.
+Retourneert alleen date.

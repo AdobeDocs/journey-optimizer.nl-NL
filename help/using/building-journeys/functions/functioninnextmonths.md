@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inNextMonths, function, expression, trip
 exl-id: e2e520ec-ae9e-4ed6-b50d-606fc6861d56
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
@@ -41,6 +41,6 @@ Retourneert een Booleaanse waarde.
 
 ## Voorbeelden
 
-`inNextMonths(toDateTime('2020-01-12T01:11:00Z'), 4)`
+`inNextMonths(toDateTime('2023-01-12T01:11:00Z'), 4)`
 
 Retourneert true.

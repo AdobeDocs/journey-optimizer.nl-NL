@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expression, data, data type, trip
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 5%
+source-wordcount: '620'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,7 @@ JSON-indeling: String
 
 Serienummeringsindeling: UTF-8
 
-**Letterlijke representatie**
+**Letterlijke weergave**
 
 ```json
 "<value>"
@@ -57,9 +57,9 @@ Serienummeringsindeling: UTF-8
 
 Gehele waarde van -2^63 tot 2^63-1.
 
-JSON-indeling: Getal
+JSON-indeling: Number
 
-**Letterlijke representatie**
+**Letterlijke weergave**
 
 ```json
 <integer value>
@@ -81,11 +81,11 @@ Decimaal getal. Deze vertegenwoordigt een zwevende waarde:
 * kleinst positieve normale waarde van type double, 2-1022
 * kleinst positieve, niet-nul waarde van type double, 2 p-1074
 
-JSON-indeling: Getal
+JSON-indeling: Number
 
-Serienummeringsindeling: gebruiken &#39;.&#39; als decimaalteken.
+Serienummeringsindeling: gebruiken van &#39;.&#39; als decimaalteken.
 
-**Letterlijke representatie**
+**Letterlijke weergave**
 
 ```json
 <integer value>.<integer value>
@@ -105,7 +105,7 @@ Booleaanse waarde, in kleine letters geschreven: true of false
 
 JSON-indeling: Boolean
 
-**Letterlijke representatie**
+**Letterlijke weergave**
 
 ```json
 true
@@ -129,15 +129,15 @@ Vertegenwoordigt een datum slechts zonder een tijdzone, die als jaar-maand-dag w
 
 Het is een beschrijving van de datum, zoals die voor verjaardagen wordt gebruikt.
 
-JSON-indeling: Tekenreeks.
+JSON-indeling: String.
 
-Indeling is: YYYY-MM-DD (ISO-8601), bijvoorbeeld: &quot;2021-03-11&quot;.
+Formaat is: JJJ-MM-DD (ISO-8601), bijvoorbeeld: &quot;2021-03-11&quot;.
 
 Deze kan worden ingekapseld in een toDateOnly-functie.
 
 Het gebruikt DateTimeFormatter ISO_LOCAL_DATE_TIME om de waarde te deserialiseren en in series te vervaardigen. [Meer informatie](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
 
-**Letterlijke representatie**
+**Letterlijke weergave**
 
 ```json
 date("<dateOnly in ISO-8601 format>")  
@@ -155,19 +155,19 @@ date("2021-02-19")
 
 Vertegenwoordigt een datumtijd zonder een tijdzone, die als jaar-maand-dag-uur-minuut-seconde-milliseconde wordt bekeken.
 
-JSON-indeling: Tekenreeks.
+JSON-indeling: String.
 
 Er wordt geen tijdzone opgeslagen of weergegeven. In plaats daarvan is het een beschrijving van de datum, zoals die voor verjaardagen wordt gebruikt, gecombineerd met de lokale tijd zoals die op een muurklok wordt gezien.
 
-Het kan geen onmiddellijk op tijdlijn zonder extra informatie zoals een compensatie of tijdzone vertegenwoordigen.
+Het kan geen onmiddellijk op de tijd-lijn zonder extra informatie zoals een compensatie of tijdzone vertegenwoordigen.
 
 Het kan in een toDateTimeOnly functie worden ingekapseld.
 
 Serienummeringsindeling: ISO-8601 extended offset date-time format.
 
-Het gebruikt DateTimeFormatter ISO_LOCAL_DATE_TIME om de waarde te deserialiseren en in series te vervaardigen. [Meer informatie](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;)
+Het gebruikt DateTimeFormatter ISO_LOCAL_DATE_TIME om de waarde te deserialiseren en in series te vervaardigen. [Meer informatie](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME&quot;){_blank}.
 
-**Letterlijke representatie**
+**Letterlijke weergave**
 
 ```json
 date("<dateTimeOnly in ISO-8601 format>")  
@@ -176,8 +176,8 @@ date("<dateTimeOnly in ISO-8601 format>")
 **Voorbeelden**
 
 ```json
-date("2021-02-19T00.00.000")
-date("2021-02-19T00.00")
+date("2024-02-19T00.00.000")
+date("2024-02-19T00.00")
 ```
 
 ## dateTime {#date-time}
@@ -188,19 +188,19 @@ Datumtijdconstante die ook rekening houdt met tijdzone. Deze vertegenwoordigt ee
 
 Het kan als onmiddellijk in tijd met de extra informatie van de compensatie worden bekeken. Het is een manier om een specifiek &quot;moment&quot; te vertegenwoordigen op een bepaalde plaats in de wereld.
 
-JSON-indeling: Tekenreeks.
+JSON-indeling: String.
 
 Het kan in een toDateTime functie worden ingekapseld.
 
 Serienummeringsindeling: ISO-8601 extended offset date-time format.
 
-Het gebruikt DateTimeFormatter ISO_OFFSET_DATE_TIME om de waarde te deserialiseren en serialiseren. [Meer informatie](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME)
+Het gebruikt DateTimeFormatter ISO_OFFSET_DATE_TIME om de waarde te deserialiseren en serialiseren. [Meer informatie](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME){_blank}.
 
-U kunt ook een geheel getal doorgeven dat een epochwaarde doorgeeft. [Meer informatie](https://www.epochconverter.com)
+U kunt ook een geheel getal doorgeven dat een epochwaarde doorgeeft. [Meer informatie](https://www.epochconverter.com){_blank}.
 
-De tijdzone kan door een compensatie of een code van de tijdzone worden gespecificeerd (voorbeeld: Europa/Parijs, Z - UTC).
+De tijdzone kan door een compensatie of een tijdzonecode worden gespecificeerd (voorbeeld: Europa/Parijs, Z - betekenend UTC).
 
-**Letterlijke representatie**
+**Letterlijke weergave**
 
 ```json
 toDateTime("<dateTime in ISO-8601 format>")
@@ -217,7 +217,7 @@ toDateTime(<integer value of an epoch in milliseconds>)
 **Voorbeelden**
 
 ```json
-date("2021-02-19T00.00.000Z")
+date("2024-02-19T00.00.000Z")
 ```
 
 ```json
@@ -225,19 +225,19 @@ toDateTime("1977-04-22T06:00:00Z")
 ```
 
 ```json
-toDateTime("2011-12-03T15:15:30Z")
+toDateTime("2023-12-03T15:15:30Z")
 ```
 
 ```json
-toDateTime("2011-12-03T15:15:30.123Z")
+toDateTime("2023-12-03T15:15:30.123Z")
 ```
 
 ```json
-toDateTime("2011-12-03T15:15:30.123+02:00")
+toDateTime("2023-12-03T15:15:30.123+02:00")
 ```
 
 ```json
-toDateTime("2011-12-03T15:15:30.123-00:20")
+toDateTime("2023-12-03T15:15:30.123-00:20")
 ```
 
 ```json
@@ -252,15 +252,15 @@ Het vertegenwoordigt een tijd-gebaseerde hoeveelheid tijd, zoals &quot;34.5 seco
 
 De ondersteunde tijdseenheden zijn: milliseconden, seconden, minuten, uren, dagen waarbij een dag gelijk is aan 24 uur. Jaren en maanden worden niet ondersteund omdat het geen vaste tijd is.
 
-JSON-indeling: Tekenreeks.
+JSON-indeling: String.
 
 Het moet in een toDuration functie worden ingekapseld.
 
-Serienummeringsindeling: Als u een tijdzone-id wilt deserialiseren, wordt de java-functie java.time gebruikt.
+Serienummeringsindeling: als u een tijdzone-id wilt deserialiseren, wordt de java-functie java.time gebruikt.
 
-Duration.parse: de aanvaarde formaten zijn gebaseerd op de ISO-8601-duurnotatie PnDTnHnMn.nS met dagen die precies 24 uur worden geacht. [Meer informatie](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-)
+Duration.parse: de toegestane notaties zijn gebaseerd op de ISO-8601-duurnotatie PnDTnHnMn.nS met dagen die worden beschouwd als precies 24 uur. [Meer informatie](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-){_blank}.
 
-**Letterlijke representatie**
+**Letterlijke weergave**
 
 ```json
 toDuration("<duration in ISO-8601 format>")
@@ -320,7 +320,7 @@ Door komma&#39;s gescheiden lijst met expressies waarbij vierkante haakjes als s
 
 Polymorfisme wordt niet ondersteund en daarom moeten alle uitdrukkingen in de lijst van hetzelfde type zijn.
 
-**Letterlijke representatie**
+**Letterlijke weergave**
 
 ```json
 [<expression>, <expression>, ... ]
