@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: d7b784f10e267878fd0df9360ed0d1be24699a53
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ Adobe Journey Optimizer verwerkt standaard de volgende standaardantwoordberichte
 * **Help**: HELP.
 
 Deze trefwoorden activeren doorgaans een automatische standaardreactie van uw externe provider. U kunt dit rechtstreeks bij uw provider of via de documentatiesite bevestigen.
+
+Wanneer het gebruiken van Infobip, zorg ervoor dat de het Door:sturen actie aan de configuratie van de Trek wordt geplaatst.
 
 Er zijn geen stappen vereist om ervoor te zorgen dat de mogelijkheden voor SMS-opt-out in Adobe Journey Optimizer werken als de trefwoordreacties STOP, UNSTOP, START, QUIT, CANCEL, END en UNSUBSCRIBE automatisch worden herkend. De status van de optie om profielen te weigeren wordt in real time bijgewerkt in Adobe Journey Optimizer.
 
