@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: d34681b9b8392d3971619efcea8cc6c3f0b1e661
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 2%
+source-wordcount: '220'
+ht-degree: 7%
 
 ---
 
@@ -21,42 +21,27 @@ ht-degree: 2%
 
 Opmerkingen bij de eerste release hieronder kunnen zonder voorafgaande kennisgeving worden gewijzigd tot de beschikbaarheidsdatum van de release. De verbindingen, de schermen en de bijgewerkte documentatie worden gepubliceerd in [releaseopmerkingen](release-notes.md), op de datum van vrijgave.
 
-## Opmerkingen bij de vervroegde release februari 2024 {#e-2024}
+## Opmerkingen bij de vervroegde release maart 2024 {#e-2024}
 
-**Releasedatum**: 21 februari 2024
+**Releasedatum**: 19-20 maart 2024
 
 ### Nieuwe functies{#e-features}
 
 Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 
-
 <table>
 <thead>
 <tr>
-<th><strong>Webberichten in de app</strong><br/></th>
+<th><strong>Ervaring op basis van code</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt het nieuwe Web in-App overseinenvermogen nu gebruiken om gepersonaliseerde inhoud direct op websites, door modaal-bekledingsberichten te tonen. Met deze functie kunt u effectief contact opnemen met webbezoekers, waardoor de interactie, het behoud en de conversiesnelheden van gebruikers worden verbeterd.<br/><br/></p>
-<img src="assets/do-not-localize/web_inapp.gif">
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Frequentieregels voor SMS en Direct Mail</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U kunt nu Frequentieregels voor SMS en Direct Mail-kanalen maken. De frequentieregels sluiten over-gevraagde profielen automatisch uit van berichten en acties wanneer de frequentiedrempel wordt bereikt. <br/><br/></p>
-<img src="assets/do-not-localize/sms-dm-rules.gif">
+<p>U kunt nu de ervaringen die u aan uw klanten wilt leveren, personaliseren en testen op al uw aanraakpunten, zoals webapps, mobiele apps, bureaubladapps, bureaubladapps, videoconsoles, apparaten met tv, slimme tv's, kiosken, geldautomaten, spraakassistenten, IoT-apparaten en nog veel meer.</p>
+<p>Met het op code-gebaseerde ervaringsvermogen, kunt u binnenkomende ervaringen bepalen gebruikend een eenvoudige en intuïtieve niet-visuele redacteur. Hiermee kunt u specifieke elementen invoegen en bewerken op afzonderlijke en meer gedetailleerde locaties van uw apps of webpagina's, ongeacht het type toepassing dat u hebt, in plaats van wijzigingen toe te passen op de gehele inhoud.</p><br/><br/></p>
+<p>Raadpleeg de <a href="../code-based/get-started-code-based.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<!--img src="assets/do-not-localize/web_inapp.gif"-->
 </tr>
 </tbody>
 </table>
@@ -65,46 +50,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 
 Deze release bevat de verbeteringen die hieronder worden vermeld.
 
-**Doelgroepen**
-
-* **Zaadlijsten** - Varianten worden nu ondersteund bij gebruik **zaadlijsten**. Zoals elk profiel van het doelpubliek, ontvangen de zaadadressen een exemplaar van alle varianten van het zelfde bericht (zoals de verschillende behandelingen van een inhoudexperiment).
-
-Eerder beschikbaar als Beta, zijn de volgende verbeteringen nu beschikbaar aan alle gebruikers:
-
-* U kunt nu **publiek gemaakt via publiekscompositie** en verrijkingskenmerken gebruiken in Reizen. [Meer informatie](../building-journeys/read-audience.md)
-
-* U kunt nu **publiek geüpload uit een CSV-bestand** in reizen en campagnes. [Meer informatie](../audience/about-audiences.md#segments-in-journey-optimizer)
-
-  >[!AVAILABILITY]
-  >
-  >* Het gebruik van soorten publiek en kenmerken van de compositie van het publiek en aangepaste upload (CSV-bestand) is momenteel niet beschikbaar voor gebruik met het gezondheidsschild of het privacyschild.
-  >* Houd er rekening mee dat het uploaden van het publiek vanaf een CSV-bestandsverbetering geleidelijk wordt uitgevoerd gedurende enkele dagen na de eerste release. Sommige gebruikers hebben direct toegang, maar anderen kunnen een vertraging ervaren voordat deze beschikbaar wordt in hun accounts.
-
-**Reizen**
-
-* **Uw reizen filteren** - U kunt nu **aangepaste datums om de reizen te filteren** voorraad, naast de bestaande vooraf gedefinieerde datumfilters. Op deze manier kunt u de lijst verfijnen door ritten weer te geven die op een bepaalde datum zijn gemaakt of gepubliceerd, binnen een bepaalde maand, gedurende een heel jaar of binnen een opgegeven tijdbereik.
-* **Aangepaste acties** - U kunt nu het dialoogvenster **inhoudstype** header. Deze nieuwe **inhoudstype** verwijst naar JSON-inhoud.
-* **Configuratie** - Het attribuut identityMap in stepEvents is nu voorgevuld. De primaire identiteit wordt gedefinieerd als &quot;primary = true&quot;.
-* **Gebruikersinterface** - De bovenste balk, in reisschermen, is gereorganiseerd voor een betere ervaring. Onder de verschillende updates ziet u dat het potlood-pictogram waarmee u de reiseigenschappen kunt openen nu links van de bovenste balk naast de naam van de rit wordt weergegeven.
-
-**Sms-kanaal**
-
-* **Trefwoorden voor aanmelden/uitschakelen** - Wanneer u uw SMS-kanaal configureert, kunt u nu het **Trefwoorden voor Inschakelen en Uitschakelen** volgens uw voorkeuren. Journey Optimizer activeert de reactie op basis van deze opgegeven trefwoorden.
-
-**Campagnes**
-
-* **API-gestuurde campagnes** - De cURL-code die is gegenereerd na het activeren van een API-geactiveerde campagne is verbeterd. Het omvat nu alle personaliseringsvariabelen (profiel en context) die in het bericht worden gebruikt.
-
-**Beslissingsbeheer**
-
-* **Afdekregels** - U kunt nu toevoegen **meerdere uitlijningsregels** voor één voorstel. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden.
-
 **Contentsjablonen**
 
 * **Miniatuur** - A **miniatuurweergave** is nu beschikbaar voor inhoudssjablonen en fragmenten voor betere visuele toegang.
 
-  >[!AVAILABILITY]
-  >
-  >Dit vermogen wordt vrijgegeven in Beperkte Beschikbaarheid (LA) voor een kleine reeks klanten.
-
-* **Multikanaalsjablonen** - Inhoudssjablonen zijn nu beschikbaar voor **alle kanalen**, behalve Web. Voor E-mail kunt u nu het type (HTML of Inhoud) selecteren.
