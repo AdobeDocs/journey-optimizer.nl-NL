@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 02b5886dc9d32d3b06dd4930da882019e344bab3
+source-git-commit: 4b3ec38154d01eb3f15c30c26b427ee34a324be7
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 6%
@@ -44,7 +44,7 @@ Met deze release wordt de nieuwe functionaliteit hieronder beschreven.
 <li>Precisie voor bewerking in korrels: bewerk specifieke inhoud op afzonderlijke locaties in uw apps of webpagina's</li>
 <li>Veelzijdige implementatie: ondersteuning voor implementatiemethoden die zijn gebaseerd op servers, API's of SDK's, zodat deze naadloos kunnen worden geïntegreerd met uw ontwikkelomgeving.</li></ul></p>
 <p>Raadpleeg de <a href="../code-based/get-started-code-based.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<!--img src="assets/do-not-localize/web_inapp.gif"-->
+<img src="assets/do-not-localize/code-based.gif">
 </tr>
 </tbody>
 </table>
