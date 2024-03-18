@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4b3ec38154d01eb3f15c30c26b427ee34a324be7
+source-git-commit: 4f7a62cdfbd90b2d33341342f6fba769e8bf0132
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '289'
 ht-degree: 6%
 
 ---
@@ -64,3 +64,5 @@ Er zijn nieuwe tussenliggende statussen toegevoegd aan de levenscyclus van de re
 * **Publiceren** tussen de **Concept** en de **Live** status
 * **Stoppen** tussen de **Live** en de **Gestopt** status
 * **Testmodus activeren** of **Deactivering van de testmodus** statussen tussen de **Concept** en de **Concept (test)** status
+
+Wanneer een reis in een tussenstadium is, is het read-only.
