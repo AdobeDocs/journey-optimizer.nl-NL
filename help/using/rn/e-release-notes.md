@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d34681b9b8392d3971619efcea8cc6c3f0b1e661
+source-git-commit: 31e94565037aa8493e8b09c813047a4600549e8d
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 7%
+source-wordcount: '279'
+ht-degree: 6%
 
 ---
 
@@ -32,14 +32,17 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <table>
 <thead>
 <tr>
-<th><strong>Ervaring op basis van code</strong><br/></th>
+<th><strong>Ervaringen op basis van code</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu de ervaringen die u aan uw klanten wilt leveren, personaliseren en testen op al uw aanraakpunten, zoals webapps, mobiele apps, bureaubladapps, bureaubladapps, videoconsoles, apparaten met tv, slimme tv's, kiosken, geldautomaten, spraakassistenten, IoT-apparaten en nog veel meer.</p>
-<p>Met het op code-gebaseerde ervaringsvermogen, kunt u binnenkomende ervaringen bepalen gebruikend een eenvoudige en intuïtieve niet-visuele redacteur. Hiermee kunt u specifieke elementen invoegen en bewerken op afzonderlijke en meer gedetailleerde locaties van uw apps of webpagina's, ongeacht het type toepassing dat u hebt, in plaats van wijzigingen toe te passen op de gehele inhoud.</p><br/><br/></p>
+<p>Met het nieuwe op code-gebaseerde ervaringskanaal, staat Adobe Journey Optimizer u toe om geavanceerde verpersoonlijking en het testen voor om het even welk van uw binnenkomende eigenschappen te doen, toelatend naadloze levering van op maat gemaakte ervaringen over diverse aanraakpunten zoals Web apps, mobiele apps, Desktop apps, videoconsoles, TV aangesloten apparaten, slimme TVs, kiosken, ATMs, IoT apparaten, en meer.</p>
+<P>De belangrijkste mogelijkheden omvatten:</p>
+<ul><li> Universele verpersoonlijking: vergroot persoonlijke ervaringen op alle aanraakpunten, zodat een samenhangende en op maat gesneden gebruikersreis mogelijk is</li>
+<li>&gt;Precisie voor bewerken in korrels: bewerk specifieke inhoud op afzonderlijke locaties in uw apps of webpagina's</li>
+<li>Veelzijdige implementatie: ondersteuning voor implementatiemethoden die zijn gebaseerd op servers, API's of SDK's, zodat deze naadloos kunnen worden geïntegreerd met uw ontwikkelomgeving.</li></ul></p>
 <p>Raadpleeg de <a href="../code-based/get-started-code-based.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <!--img src="assets/do-not-localize/web_inapp.gif"-->
 </tr>
@@ -52,5 +55,12 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Contentsjablonen**
 
-* **Miniatuur** - A **miniatuurweergave** is nu beschikbaar voor inhoudssjablonen en fragmenten voor betere visuele toegang.
+* **Miniatuur** - A **miniatuurweergave** is nu beschikbaar voor inhoudssjablonen en fragmenten voor betere visuele toegang. [Meer informatie](../content-management/content-templates.md#template-thumbnails)
 
+**Reizen**
+
+Er zijn nieuwe tussenliggende statussen toegevoegd aan de levenscyclus van de reisontwerpfase:
+
+* **Publiceren** tussen de **Concept** en de **Live** status
+* **Stoppen** tussen de **Live** en de **Gestopt** status
+* **Testmodus activeren** of **Deactivering van de testmodus** statussen tussen de **Concept** en de **Concept (test)** status
