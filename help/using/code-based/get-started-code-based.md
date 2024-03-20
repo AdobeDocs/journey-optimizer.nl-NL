@@ -6,9 +6,9 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 9d21ea489e62254eb3e4665198149e284b78296e
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1138'
 ht-degree: 1%
 
 ---
@@ -144,37 +144,31 @@ Met andere woorden, een oppervlak kan worden beschouwd als een container op elk 
 * Dit kan ook een jokeroppervlak zijn dat overeenkomt met verschillende definities van het clientoppervlak (zo kan een locatie van een hoofdafbeelding op elke pagina van uw website bijvoorbeeld worden vertaald in een oppervlak-URI, zoals: web://mydomain.com/*#hero_image).
 
 Een oppervlak-URI bestaat in principe uit meerdere secties:
-1. **Type**: web, ios, android, atm, kiosk, tvcd, service, enz.
+1. **Type**: web, mobileapp, atm, kiosk, tvcd, service, enz.
 1. **Eigenschap**: pagina-URL of app-bundel
 1. **Container**: locatie op de pagina/app-activiteit
 
 In de onderstaande tabellen staan enkele voorbeelden van de oppervlakte-URI-definitie voor verschillende apparaten.
 
-**Web en mobiel**
+### Web en mobiel
 
 | Type | URI | Beschrijving |
 | --------- | ----------- | ------- | 
-| Web | web://domain.com/path/page.html | Vertegenwoordigt een afzonderlijk pad en een afzonderlijke pagina van een website. |
-| Web | web://domain.com/path/page.html#element | Vertegenwoordigt een individueel element binnen een specifieke pagina van een specifiek domein. |
-| Web | web://domain.com/*#element | Jokeroppervlak - vertegenwoordigt een afzonderlijk element op elke pagina onder een specifiek domein. |
-| iOS-app | mobileapp://com.vendor.bundle | Vertegenwoordigt een specifieke mobiele toepassing voor één platform - in dit geval iOS-app. |
-| iOS-app | mobileapp://com.vendor.bundle/activity | Vertegenwoordigt een specifieke activiteit (mening) binnen een mobiele toepassing. |
-| iOS-app | mobileapp://com.vendor.bundle/activity#element | Vertegenwoordigt een specifiek element binnen een activiteit, zoals een knoop of ander meningselement. |
-| Android-app | mobileapp://com.vendor.bundle | Vertegenwoordigt een specifieke mobiele toepassing voor één platform - in dit geval Android-app. |
+| Web | web://domain.com/path/page.html#element | Vertegenwoordigt een individueel element binnen een specifieke pagina van een specifiek domein, waar een element een etiket zoals in de volgende voorbeelden kan zijn: hero_banner, top_nav, menu, footer, enz. |
+| iOS-app | mobileapp://com.vendor.bundle/activity#element | Vertegenwoordigt een specifiek element binnen een inheemse toepassingsactiviteit, zoals een knoop of ander meningselement. |
+| Android-app | mobileapp://com.vendor.bundle#element | Vertegenwoordigt een specifiek element binnen een native app. |
 
-**Andere apparaattypen**
+### Andere apparaattypen
 
 | Type | URI | Beschrijving |
 | --------- | ----------- | ------- | 
-| Desktop | desktop://com.vendor.bundle | Vertegenwoordigt een specifieke bureaubladtoepassing. |
 | Desktop | desktop://com.vendor.bundle#element | Vertegenwoordigt een specifiek element binnen een toepassing, zoals een knoop, een menu, een heldenbanner, enz. |
-| tvOS-app | tvos://com.vendor.bundle | Vertegenwoordigt een specifieke tvOS-app. |
-| TV-app | tvcd://com.vendor.bundle | Vertegenwoordigt een specifieke apparaat-app voor Smart TV of met tv verbonden apparaten - bundle ID. |
-| Service | service://servicename | Vertegenwoordigt een server-zijproces of andere handentiteit. |
-| Kiosk | kiosk://location/screen | Voorbeeld van mogelijke extra oppervlaktetypen die gemakkelijk kunnen worden toegevoegd. |
-| ATM | atm://location/screen | Voorbeeld van mogelijke extra oppervlaktetypen die gemakkelijk kunnen worden toegevoegd. |
+| TV-app | tvcd://com.vendor.bundle#element | Vertegenwoordigt een specifiek element binnen een apparaat dat op een slimme tv of tv is aangesloten - bundel-id. |
+| Service | service://servicename#element | Vertegenwoordigt een server-zijproces of andere handentiteit. |
+| Kiosk | kiosk://location/screen#element | Voorbeeld van mogelijke extra oppervlaktetypen die gemakkelijk kunnen worden toegevoegd. |
+| ATM | atm://location/screen#element | Voorbeeld van mogelijke extra oppervlaktetypen die gemakkelijk kunnen worden toegevoegd. |
 
-**Jokeroppervlakken**
+### Jokeroppervlakken
 
 | Type | URI | Beschrijving |
 | --------- | ----------- | ------- | 
