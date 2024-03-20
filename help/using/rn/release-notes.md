@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2dfcbd1631c7fefccaf02782a3218c9a1c1dc7aa
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1392'
 ht-degree: 7%
 
 ---
@@ -25,6 +25,56 @@ ht-degree: 7%
 [!DNL Adobe Journey Optimizer] is native [!DNL Adobe Experience Platform] en erft van de meest recente innovaties en verbeteringen. Meer informatie over deze wijzigingen vindt u in [Opmerkingen bij de release van Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
 
 ![Nieuwsbrief](../assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die direct aan uw Postbus worden geleverd elk kwartaal.
+
+## Opmerkingen bij de release maart 2024 {#mar-2024}
+
+**Releasedatum**: 19-20 maart 2024
+
+### Nieuwe functie {#mar-features}
+
+Met deze release wordt de nieuwe functionaliteit hieronder beschreven.
+
+<table>
+<thead>
+<tr>
+<th><strong>Ervaringen op basis van code</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met het nieuwe op code-gebaseerde ervaringskanaal, staat Adobe Journey Optimizer u toe om geavanceerde verpersoonlijking en het testen voor om het even welk van uw binnenkomende eigenschappen te doen, toelatend naadloze levering van op maat gemaakte ervaringen over diverse aanraakpunten zoals Web apps, mobiele apps, Desktop apps, videoconsoles, TV aangesloten apparaten, slimme TVs, kiosken, ATMs, IoT apparaten, en meer.</p>
+<P>De belangrijkste mogelijkheden omvatten:</p>
+<ul><li> Universele verpersoonlijking: vergroot persoonlijke ervaringen op alle aanraakpunten, zodat een samenhangende en op maat gesneden gebruikersreis mogelijk is</li>
+<li>Precisie voor bewerking in korrels: bewerk specifieke inhoud op afzonderlijke locaties in uw apps of webpagina's</li>
+<li>Veelzijdige implementatie: ondersteuning voor implementatiemethoden die zijn gebaseerd op servers, API's of SDK's, zodat deze naadloos kunnen worden geïntegreerd met uw ontwikkelomgeving.</li></ul></p>
+<p>Raadpleeg de <a href="../code-based/get-started-code-based.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<img src="assets/do-not-localize/code-based.gif">
+</tr>
+</tbody>
+</table>
+
+### Verbeteringen {#mar-improvements}
+
+Deze release bevat de verbeteringen die hieronder worden vermeld.
+
+**Contentsjablonen**
+
+* **Miniaturen** - A **Rasterweergave** De modus is nu beschikbaar voor inhoudssjablonen en geeft miniaturen weer voor verbeterde visuele toegang. Momenteel worden alleen e-mailsjablonen ondersteund. [Meer informatie](../content-management/content-templates.md#template-thumbnails)
+
+  >[!AVAILABILITY]
+  >
+  >Dit vermogen wordt vrijgegeven in Beperkte Beschikbaarheid (LA) voor een kleine reeks klanten.
+
+**Reizen**
+
+Er zijn nieuwe tussenliggende statussen toegevoegd aan de levenscyclus van de reisontwerpfase:
+
+* **Publiceren** tussen de **Concept** en de **Live** status
+* **Stoppen** tussen de **Live** en de **Gestopt** status
+* **Testmodus activeren** of **Deactivering van de testmodus** statussen tussen de **Concept** en de **Concept (test)** status
+
+Wanneer een reis in een tussenstadium is, is het read-only. [Meer informatie](../building-journeys/journey-gs.md#filter)
 
 ## Opmerkingen bij de release februari 2024 {#feb-2024}
 

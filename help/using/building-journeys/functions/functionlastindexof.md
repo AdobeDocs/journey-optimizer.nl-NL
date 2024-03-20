@@ -7,10 +7,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: lastIndexOf, function, expression, trip
 exl-id: f11f164b-51b5-4b01-8057-ff29d80d2e2c
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 12%
+source-wordcount: '67'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ Retourneert de positie (in het eerste argument) van de laatste instantie van de 
 
 ## Categorie
 
-Tekenreeks
+String
 
 ## Functiesyntaxis
 
@@ -30,8 +30,8 @@ Tekenreeks
 
 | Parameter | Type |
 |-----------|------------------|
-| string | Tekenreeks |
-| opgegeven waarde | Tekenreeks |
+| string | String |
+| opgegeven waarde | String |
 
 ## Handtekening en type geretourneerd
 
@@ -41,7 +41,7 @@ Retourneert een geheel getal.
 
 ## Voorbeeld
 
-`lastIndexOf("Hello, "l")`
+`lastIndexOf("Hello", "l")`
 
 Retourneert 3.
 

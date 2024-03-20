@@ -8,9 +8,9 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Voor een diepgaander inzicht in wat de te leveren prestaties zijn en meer te ler
 
 ## Het klachtenpercentage verlagen {#reduce-complaint-rate}
 
-ISPs heeft gewoonlijk een duidelijk middel om een ontvangen bericht als spam te melden. Hierdoor kunnen onbetrouwbare bronnen worden geïdentificeerd. Door opting-out verzoeken snel na te leven en daarom te tonen dat u een betrouwbare afzender bent, kunt u klachtentarieven verminderen. [Meer informatie over beheer van opt-out](../privacy/opt-out.md#opt-out-management).
+ISPs heeft gewoonlijk een duidelijk middel om een ontvangen bericht als spam te melden. Hierdoor kunnen onbetrouwbare bronnen worden geïdentificeerd. Door opting-out verzoeken snel na te leven en daarom te tonen dat u een betrouwbare afzender bent, kunt u klachtentarieven verminderen. [Meer informatie over beheer van opt-out](../privacy/opt-out.md#opt-out-management)
 
 Als algemene regel geldt dat u ontvangers die zich willen afmelden, niet in de weg wilt staan door van hen te verlangen dat ze bijvoorbeeld velden invullen zoals hun e-mailadres of naam. De landingspagina voor abonnementen mag slechts één validatieknop hebben.
 
@@ -51,7 +51,7 @@ Wees voorzichtig met het aanvragen van aanvullende bevestiging: een gebruiker ka
 
 Om uw leverbaarheid te beschermen, worden de ontvangers van wie adressen op de suppressielijst zijn uitgesloten door gebrek van alle toekomstige leveringen, omdat het verzenden naar deze contacten uw verzendende reputatie zou kunnen beschadigen.
 
-[Meer informatie over de lijst met onderdrukking](suppression-list.md).
+[Meer informatie over de lijst met onderdrukking](suppression-list.md)
 
 ## Gereedschappen voor bewaking gebruiken {#monitoring-tools}
 
@@ -71,10 +71,88 @@ Volg onderstaande principes bij het ontwerpen van de inhoud van uw bericht om de
 
 * **Koppeling en bestemmingspagina opzeggen**: De afmeldingslink is essentieel. Het formulier moet zichtbaar en geldig zijn en moet functioneel zijn.
 
-[Meer informatie over het ontwerpen van e-mailinhoud](../email/get-started-email-design.md).
+[Meer informatie over het ontwerpen van e-mailinhoud](../email/get-started-email-design.md)
 
-## Uw reputatie als afzender vaststellen
+## Uw reputatie als afzender vaststellen {#reputation}
 
 Als u onlangs naar een andere e-maildienstverlener, IP adres, of e-maildomein of subdomain bent verplaatst, moet u uw reputatie als afzender vestigen. Anders, zouden uw leveringen kunnen worden geblokkeerd of aan de spamomslag van de brievenbus van ontvangers worden verplaatst.
 
-Om uw IP op te warmen, kunt u geleidelijk het aantal van uw leveringen opvoeren. Zie dit [use case](../building-journeys/ramp-up-deliveries-uc.md).
+Om uw IP op te warmen, kunt u geleidelijk het aantal van uw leveringen opvoeren. Meer informatie in deze [use case](../building-journeys/ramp-up-deliveries-uc.md).
+
+## DMARC implementeren {#dmarc}
+
+Om u te helpen het risico verlichten dat legitieme e-mails als spam of verworpen worden gemarkeerd, en leveringsproblemen te verhinderen, [!DNL Journey Optimizer] staat u aan opstellingsDMARC verslag voor alle subdomeinen toe die u aan Adobe delegeert.
+
+De op domein-gebaseerde Authentificatie van het Bericht, het Melden, en de Conformiteit (DMARC) is een methode van de e-mailauthentificatie die domeineigenaars toestaat om hun domein tegen onbevoegd gebruik door kwaadwillige actoren te beschermen.
+
+[Meer informatie over DMARC-record](../configuration/dmarc-record.md)
+
+## Informatie over feedbackloops {#feedback-loops}
+
+Een terugkoppel lijn (FBL) is de dienst die door sommige ISPs wordt aangeboden die de e-mailafzender toestaat om automatisch op de hoogte te worden gebracht wanneer de gebruiker die een e-mail ontvangt verkiest om het als spam (ook als &quot;klacht&quot;wordt bekend) te merken.
+
+Nadat een eindgebruiker een klacht produceert die naar Adobe door ISP wordt teruggestuurd, wordt het e-mailadres automatisch toegevoegd aan [onderdrukkingslijst](../reports/suppression-list.md) en uitgesloten van toekomstige leveringen. Het verzenden van e-mails naar gebruikers die deze als spam hebben gemarkeerd, heeft een negatieve invloed op de reputatie van de afzender en kan problemen met de leverbaarheid veroorzaken. [Meer informatie over spamklachten](../reports/suppression-list.md#spam-complaints)
+
+>[!IMPORTANT]
+>
+>Niet alle ISPs verstrekt traditionele FBL, zoals Gmail. Gmail biedt geen feedback op individueel niveau en kan niet worden gebruikt om spamklachten bij individuele ontvangers bij te houden, in plaats daarvan de nadruk te leggen op rapportage op geaggregeerd niveau binnen hun Google Postmaster Tools. [Meer informatie](https://support.google.com/a/answer/6254652?hl=en){target="_blank"}
+
+Alle klanten van de Adobe worden automatisch ingeschreven in traditionele FBLs van volgende ISPs:
+
+* 1&amp;1
+
+* AOL
+
+* BlueTie
+
+* Comcast
+
+* Fastmail
+
+* Gandi
+
+* Italia Online
+
+* La Poste
+
+* Liberty Global (Chello, UPC, Unity Media)
+
+* Locaweb
+
+* Mail.RU
+
+* Microsoft
+
+* OpenSRS
+
+* Rackruimte
+
+* SEZNM
+
+* SFR
+
+* SilverSky
+
+* Swisscom
+
+* Synacor
+
+* Telecom Italia
+
+* Telenet
+
+* Telenor
+
+* Telstra
+
+* Terra
+
+* UOL
+
+* Virgin Media
+
+* Yahoo
+
+* Ziggo
+
+De Adobe controleert deze FOL&#39;s regelmatig om ervoor te zorgen dat de recentste beschikbare FOL&#39;s worden toegevoegd.

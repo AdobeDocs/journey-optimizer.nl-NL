@@ -5,33 +5,19 @@ feature: Code-based Experiences
 topic: Content Management
 role: User, Developer, Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1205'
 ht-degree: 1%
 
 ---
 
 # Aan de slag met op code gebaseerd kanaal {#get-sarted-code-based}
 
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatiehandleiding zult vinden:
-
-* **[Aan de slag met op code gebaseerd kanaal](get-started-code-based.md)**
-* [Voorwaarden die zijn gebaseerd op code](code-based-prerequisites.md)
-* [Op code gebaseerde implementatiemonsters](code-based-implementation-samples.md)
-* [Op code gebaseerde ervaringen maken](create-code-based.md)
-
->[!ENDSHADEBOX]
-
 >[!AVAILABILITY]
 >
->Het op code gebaseerde ervaringskanaal is momenteel beschikbaar als bètaversie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van de Adobe om deel te nemen aan het bètaprogramma.
+>Momenteel is het op code gebaseerde ervaringskanaal niet beschikbaar voor organisaties die de Adobe hebben aangeschaft **Gezondheidsschild** en **Privacy- en beveiligingsschild** add-on aanbiedingen.
 
 [!DNL Journey Optimizer] kunt u de ervaringen die u aan uw klanten wilt leveren aanpassen en testen op al uw aanraakpunten, zoals webapps, mobiele apps, bureaubladapps, bureaubladapps, videoconsoles, apparaten met tv-verbinding, intelligente tv&#39;s, kiosken, geldautomaten, spraakassistenten, IoT-apparaten, enz.
 
@@ -39,11 +25,15 @@ Met de **code-gebaseerde ervaring** kunt u ingebouwde ervaringen definiëren met
 
 <!--[!DNL Journey Optimizer] allows you to compose and deliver content on any inbound surface in a developer-focused workflow. You can leverage all the personalization capabilities, and preview what will be published. The content can be static (images, text, JSON, HTML) or dynamic (offers, decisions, recommendations). You can also insert custom content actions in your omni-channel journeys.-->
 
-Wanneer u [een campagne opzetten](../campaigns/create-campaign.md#configure), selecteert u **Code-gebaseerde ervaring (bèta)** als uw handeling en basisinstellingen definiëren.
+>[!CAUTION]
+>
+>Momenteel in [!DNL Journey Optimizer] u kunt alleen op code gebaseerde ervaringen maken met **campagnes**.
+
+Wanneer u [een campagne opzetten](../campaigns/create-campaign.md#configure), selecteert u **Ervaring op basis van code** als uw handeling en basisinstellingen definiëren.
 
 >[!NOTE]
 >
->Als dit de eerste keer is dat u een webervaring maakt, moet u de voorwaarden volgen die worden beschreven in [deze sectie](code-based-prerequisites.md).
+>Als dit de eerste keer is dat u een op code gebaseerde ervaring maakt, moet u ervoor zorgen dat u de in [deze sectie](code-based-prerequisites.md).
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
@@ -52,7 +42,7 @@ Wanneer u [een campagne opzetten](../campaigns/create-campaign.md#configure), se
 <a href="#how-it-works">
 <img alt="Lood" src="../assets/do-not-localize/privacy-audit.jpeg">
 </a>
-<div><a href="#how-it-works"><strong>Werking</strong>
+<div><a href="#how-it-works"><strong>Hoe werkt het</strong>
 </div>
 <p>
 </td>
@@ -74,17 +64,15 @@ Wanneer u [een campagne opzetten](../campaigns/create-campaign.md#configure), se
 </div>
 <p></td>
 <td>
-<a href="create-code-based.md#edit-code">
+<a href="code-based-implementation-samples.md">
 <img alt="Validatie" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="create-code-based.md#edit-code"><strong>Uw code bewerken</strong></a>
+<a href="code-based-implementation-samples.md"><strong>Uitvoeringsvoorbeelden</strong></a>
 </div>
 <p>
 </td>
 </tr></table>
-
-
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
@@ -156,25 +144,42 @@ Met andere woorden, een oppervlak kan worden beschouwd als een container op elk 
 * Dit kan ook een jokeroppervlak zijn dat overeenkomt met verschillende definities van het clientoppervlak (zo kan een locatie van een hoofdafbeelding op elke pagina van uw website bijvoorbeeld worden vertaald in een oppervlak-URI, zoals: web://mydomain.com/*#hero_image).
 
 Een oppervlak-URI bestaat in principe uit meerdere secties:
-1. **Type**: web, mobileapp, service, kiosk, tvcd, enz.
-1. **Eigenschap**: domein- of toepassingsbundel
-1. **Pad**: pagina/app-activiteit ± locatie op de pagina/app-activiteit <!--to clarify-->
+1. **Type**: web, ios, android, atm, kiosk, tvcd, service, enz.
+1. **Eigenschap**: pagina-URL of app-bundel
+1. **Container**: locatie op de pagina/app-activiteit
 
-In de onderstaande tabel staan enkele voorbeelden van de oppervlakte-URI-definitie voor verschillende apparaten.
+In de onderstaande tabellen staan enkele voorbeelden van de oppervlakte-URI-definitie voor verschillende apparaten.
+
+**Web en mobiel**
 
 | Type | URI | Beschrijving |
-| --------- | ----------- | ------- |   
+| --------- | ----------- | ------- | 
 | Web | web://domain.com/path/page.html | Vertegenwoordigt een afzonderlijk pad en een afzonderlijke pagina van een website. |
 | Web | web://domain.com/path/page.html#element | Vertegenwoordigt een individueel element binnen een specifieke pagina van een specifiek domein. |
 | Web | web://domain.com/*#element | Jokeroppervlak - vertegenwoordigt een afzonderlijk element op elke pagina onder een specifiek domein. |
-| Desktop | desktop://com.vendor.bundle | Vertegenwoordigt een specifieke bureaubladtoepassing. |
-| Desktop | desktop://com.vendor.bundle#element | Vertegenwoordigt een specifiek element binnen een toepassing, zoals een knoop, een menu, een heldenbanner, enz. |
 | iOS-app | mobileapp://com.vendor.bundle | Vertegenwoordigt een specifieke mobiele toepassing voor één platform - in dit geval iOS-app. |
 | iOS-app | mobileapp://com.vendor.bundle/activity | Vertegenwoordigt een specifieke activiteit (mening) binnen een mobiele toepassing. |
 | iOS-app | mobileapp://com.vendor.bundle/activity#element | Vertegenwoordigt een specifiek element binnen een activiteit, zoals een knoop of ander meningselement. |
 | Android-app | mobileapp://com.vendor.bundle | Vertegenwoordigt een specifieke mobiele toepassing voor één platform - in dit geval Android-app. |
+
+**Andere apparaattypen**
+
+| Type | URI | Beschrijving |
+| --------- | ----------- | ------- | 
+| Desktop | desktop://com.vendor.bundle | Vertegenwoordigt een specifieke bureaubladtoepassing. |
+| Desktop | desktop://com.vendor.bundle#element | Vertegenwoordigt een specifiek element binnen een toepassing, zoals een knoop, een menu, een heldenbanner, enz. |
 | tvOS-app | tvos://com.vendor.bundle | Vertegenwoordigt een specifieke tvOS-app. |
 | TV-app | tvcd://com.vendor.bundle | Vertegenwoordigt een specifieke apparaat-app voor Smart TV of met tv verbonden apparaten - bundle ID. |
 | Service | service://servicename | Vertegenwoordigt een server-zijproces of andere handentiteit. |
 | Kiosk | kiosk://location/screen | Voorbeeld van mogelijke extra oppervlaktetypen die gemakkelijk kunnen worden toegevoegd. |
 | ATM | atm://location/screen | Voorbeeld van mogelijke extra oppervlaktetypen die gemakkelijk kunnen worden toegevoegd. |
+
+**Jokeroppervlakken**
+
+| Type | URI | Beschrijving |
+| --------- | ----------- | ------- | 
+| Jokertekenweb | jokerteken:web:/domain.com/`*`#element | Jokeroppervlak - vertegenwoordigt een afzonderlijk element op elke pagina onder een specifiek domein. |
+| Jokertekenweb | jokerteken:web://`*`domain.com/`*`#element | Jokeroppervlak - vertegenwoordigt een afzonderlijk element op elke pagina onder alle domeinen die eindigen met &quot;domain.com&quot;. |
+
+
+

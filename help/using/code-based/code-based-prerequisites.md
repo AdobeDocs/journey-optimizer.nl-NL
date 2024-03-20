@@ -5,29 +5,15 @@ feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 3%
+source-wordcount: '424'
+ht-degree: 1%
 
 ---
 
 # Vereisten en geleiders {#web-prerequisites}
-
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatiehandleiding zult vinden:
-
-* [Aan de slag met op code gebaseerd kanaal](get-started-code-based.md)
-* **[Voorwaarden die zijn gebaseerd op code](code-based-prerequisites.md)**
-* [Op code gebaseerde implementatiemonsters](code-based-implementation-samples.md)
-* [Op code gebaseerde ervaringen maken](create-code-based.md)
-
->[!ENDSHADEBOX]
 
 Code-gebaseerde ervaringsacties kunnen gebruiken in [!DNL Journey Optimizer] en leveren van code inhoud lading die door uw toepassingen kan worden gebruikt, volg de hieronder eerste vereisten:
 
@@ -37,9 +23,11 @@ Code-gebaseerde ervaringsacties kunnen gebruiken in [!DNL Journey Optimizer] en 
 
 ## Let op: {#caution-notes-web}
 
-* Het op code gebaseerde ervaringskanaal is momenteel beschikbaar als bètaversie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van de Adobe om deel te nemen aan het bètaprogramma.
-
 * Momenteel in [!DNL Journey Optimizer] u kunt alleen op code gebaseerde ervaringen maken in **campagnes**. [Meer informatie](../campaigns/create-campaign.md#configure)
+
+>[!AVAILABILITY]
+>
+>Momenteel is het op code gebaseerde ervaringskanaal niet beschikbaar voor organisaties die de Adobe hebben aangeschaft **Gezondheidsschild** en **Privacy- en beveiligingsschild** add-on aanbiedingen.
 
 ## Voorwaarden voor implementatie {#implementation-prerequisites}
 

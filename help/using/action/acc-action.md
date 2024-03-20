@@ -9,27 +9,27 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campagne, acc, integratie
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
-# Integreren met Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-classic}
+# Integreren met Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-v7-v8}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"
 >title="Handelingen voor Adobe Campaign v7/v8"
->abstract="Deze integratie is beschikbaar voor Adobe Campaign Classic v7 en v8. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging. De verbinding tussen de Journey Optimizer en de instanties van de Campagne is opstelling door Adobe bij leveringstijd."
+>abstract="Deze integratie is beschikbaar voor Adobe Campaign v7 en v8. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging. De verbinding tussen de Journey Optimizer en de instanties van de Campagne is opstelling door Adobe bij leveringstijd."
 
-Deze integratie is beschikbaar voor Adobe Campaign Classic v7 vanaf versie 7.1 en Adobe Campaign v8. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging.
+Deze integratie is beschikbaar voor Adobe Campaign v7/v8 vanaf versie 7.1 en Adobe Campaign v8. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging.
 
 De verbinding tussen de Journey Optimizer en de instanties van de Campagne is opstelling door Adobe bij leveringstijd.
 
 In dit hoofdstuk wordt een gebruiksgeval van begin tot eind weergegeven [sectie](../building-journeys/ajo-ac.md).
 
-Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de reisontwerper. Zie dit [sectie](../building-journeys/using-adobe-campaign-classic.md).
+Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de reisontwerper. Zie dit [sectie](../building-journeys/using-adobe-campaign-v7-v8.md).
 
 ## Belangrijke opmerkingen {#important-notes}
 

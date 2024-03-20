@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, email, in app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ U kunt ook specifieke acties instellen om u berichten te sturen:
 
 * Raadpleeg de volgende secties als u werkt met Campagne en Journey Optimizer:
 
-   * [[!DNL Journey Optimizer] en Campaign Classic v7/Campagne v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] en Campagne v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] en Campaign Standard](../action/acs-action.md)
 
 Volg onderstaande stappen om een bericht toe te voegen aan een rit:

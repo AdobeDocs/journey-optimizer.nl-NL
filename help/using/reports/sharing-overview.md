@@ -7,9 +7,10 @@ feature: Journeys, Reporting
 topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
-source-git-commit: c82e0a4f44cda4afeb88f7dd8e645e967e4a878f
+exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '521'
 ht-degree: 2%
 
 ---
@@ -25,6 +26,11 @@ Naast [real-time rapporten](live-report.md) en ingebouwde [algemene rapportagemo
 U hebt bijvoorbeeld een reis ingesteld die meerdere e-mails verzendt. Dankzij deze functie kunt u [!DNL Journey Optimizer] gegevens met downstreamgebeurtenisgegevens zoals hoeveel conversies hebben plaatsgevonden, hoeveel betrokkenheid op de website heeft plaatsgevonden of hoeveel transacties in de winkel hebben plaatsgevonden. De informatie over de reis kan worden gecombineerd met gegevens over Adobe Experience Platform, hetzij van andere digitale eigenschappen, hetzij van offline eigenschappen, voor een uitgebreider beeld van de prestaties.
 
 [!DNL Journey Optimizer] leidt automatisch tot de noodzakelijke schema&#39;s en stromen in datasets aan Adobe Experience Platform voor elke stap een individu in een reis neemt. Een step-gebeurtenis komt overeen met een individuele gebeurtenis die zich tijdens een rit van het ene knooppunt naar het andere verplaatst. Bijvoorbeeld, in een reis die een gebeurtenis, een voorwaarde en een actie heeft, worden de drie stapgebeurtenissen verzonden naar Adobe Experience Platform.
+
+Er zijn gevallen waarin meerdere gebeurtenissen voor hetzelfde knooppunt kunnen worden gemaakt. Bijvoorbeeld, in het geval van de Wacht activiteit:
+
+* Er wordt een gebeurtenis gegenereerd wanneer het profiel de wachttijd ingaat (het kenmerk tripNodeProcesses is gelijk aan false).
+* Er wordt een gebeurtenis gegenereerd wanneer het profiel dit verlaat (het kenmerk tripNodeProcess is gelijk aan true)
 
 De lijst met XDM-velden die worden doorgegeven, is uitgebreid. Sommige bevatten door het systeem gegenereerde codes en andere hebben door mensen leesbare vriendelijke namen. Voorbeelden zijn het label van de reisactiviteit of de stapstatus: hoe vaak een actie met een time-out of een fout is beëindigd.
 
@@ -66,4 +72,3 @@ De algemene workflow is:
 * Deze gegevensset gebruiken in [!DNL Customer Journey Analytics], voor de analyse van de kanaalreis, zie [Documentatie Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html){target="_blank"}.
 
 ➡️ [Werken met Customer Journey Analytics](cja-ajo.md){target="_blank"}
-

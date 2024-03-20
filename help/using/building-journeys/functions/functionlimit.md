@@ -7,9 +7,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: limiet, functie, expressie, reis
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
-source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '138'
 ht-degree: 4%
 
 ---
@@ -30,7 +30,7 @@ Lijst
 
 | Parameter | Type | Beschrijving |
 |-----------|------------------|------------------|
-| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly of listObject | Te sorteren lijst. Voor listObject moet dit een veldverwijzing zijn. |
+| listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly of listObject | Te overwegen lijst. Voor listObject moet dit een veldverwijzing zijn. |
 | numberOfItems | integer | Aantal items dat moet worden geretourneerd uit de opgegeven lijst. |
 | firstOrLastItems | boolean | Deze parameter is optioneel (standaard true). true retourneert de eerste items. false retourneert de laatste items. |
 

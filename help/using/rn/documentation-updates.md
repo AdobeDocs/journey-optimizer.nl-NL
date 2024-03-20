@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '4827'
+source-wordcount: '5042'
 ht-degree: 13%
 
 ---
@@ -21,12 +21,24 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 
 ## Maart 2024 {#march-2024}
 
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 24 maart is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
+* De pagina over het beheer van profieltoegang is verbeterd. [Meer informatie](../building-journeys/entry-management.md)
+* Informatie over probleemoplossing is toegevoegd aan de pagina Waarschuwingen. [Meer informatie](../reports/alerts.md#alert-troubleshooting)
+* Informatie over de activiteit van de Wacht is toegevoegd aan de pagina over reisrapporten. [Meer informatie](../reports/sharing-overview.md)
+* Voor reizen in de testmodus zijn de volgende sneltoetsen uitgeschakeld:
+   * T: Sneltoets om de testmodus in of uit te schakelen.
+   * E: Sneltoets die wordt gebruikt om een gebeurtenis te starten tijdens een reis op basis van een gebeurtenis.
+   * P: Sneltoets om een gebeurtenis te starten in een op het publiek gebaseerde reis waarvoor de optie Eén profiel tegelijk is ingeschakeld.
+   * L: Sneltoets die is toegewezen om de testlogs weer te geven.
 * De pagina met regels voor berichtfrequenties is bijgewerkt met een nieuwe subsectie over de limiet voor dagelijkse frequenties, die naast de wekelijkse of maandelijkse aftopping op aanvraag beschikbaar is. [Meer informatie](../configuration/frequency-rules.md#daily-frequency-cap)
 * De pagina Werken met toestemmingsbeleid is verbeterd en bijgewerkt met nuttige koppelingen naar de documentatie van het Experience Platform. [Meer informatie](../action/consent.md)
-  <!--* The Access and manage templates section has been updated to reflect the fact that you can display content templates as a thumbnails with the Grid view mode. [Read more](../content-management/content-templates.md#template-thumbnails)-->
+* Er is een nieuwe sectie toegevoegd om aan te geven dat u sjablonen voor e-mailinhoud van HTML als miniaturen kunt weergeven in de modus Rasterweergave (Beperkte beschikbaarheid). [Meer informatie](../content-management/content-templates.md#template-thumbnails)
+* Er is een nieuwe sectie toegevoegd aan de pagina Leverbaarheid om uit te leggen welke feedbackcycli zijn en hoe u deze kunt gebruiken. [Meer informatie](../reports/deliverability.md#feedback-loops)
+* Er is een opmerking toegevoegd aan de sectie Aangepaste aanbiedingen maken om aan te geven dat de grootte van een aanbieding met alle representaties niet groter mag zijn dan 300 kB. [Meer informatie](../offers/offer-library/creating-personalized-offers.md#create-offer)
 
 ## Februari 2024 {#feb-2024}
 
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van februari &#39;24 is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
 * De integratie met Journey Optimizer en Workfront is toegevoegd aan de integratiepagina. [Meer informatie](../start/ajo-integrations.md)
 * Er is informatie toegevoegd over hoe u de representaties van aanbiedingen kunt aanpassen op basis van contextgegevens. [Meer informatie](../offers/offer-library/add-representations.md#context-data)
 * De pagina met instructies is bijgewerkt met een opmerking over aangepaste acties die alleen JSON-indeling ondersteunen bij het gebruik van verzoeken of antwoordladingen. [Meer informatie](../start/guardrails.md#custom-actions-g)

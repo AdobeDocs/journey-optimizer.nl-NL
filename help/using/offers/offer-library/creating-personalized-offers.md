@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 3%
+source-wordcount: '731'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Voordat u een aanbieding maakt, moet u controleren of u het volgende hebt gemaak
 * Als u een toelatingsvoorwaarde wilt toevoegen: a **beslissingsregel** daarin wordt bepaald onder welke voorwaarden de aanbieding zal worden ingediend . Zie [Beslissingsregels maken](../offer-library/creating-decision-rules.md).
 * Eén of meerdere **verzamelingskwalificaties** (voorheen bekend als &#39;&#39;tags&#39;&#39;) die u aan de aanbieding wilt koppelen. Zie [Verzamelingsaanduidingen maken](../offer-library/creating-tags.md).
 
-➡️ [Ontdek deze functie in video](#video)
+➡️ [Deze functie in video detecteren](#video)
 
 De lijst met gepersonaliseerde aanbiedingen is toegankelijk in het **[!UICONTROL Offers]** -menu.
 
@@ -47,6 +47,10 @@ Om een **aanbieden** Voer de volgende stappen uit:
 
 1. Geef de naam van de aanbieding en de begin- en einddatum en -tijd op. Buiten deze datums wordt de aanbieding niet geselecteerd door de beslissingsengine.
 
+   >[!NOTE]
+   >
+   >Wanneer u tijden selecteert, wordt rekening gehouden met uw huidige tijdzone.
+
    ![](../assets/offer_details.png)
 
    >[!CAUTION]
@@ -64,6 +68,10 @@ Om een **aanbieden** Voer de volgende stappen uit:
 1. Voeg representaties toe om te bepalen waar je voorstel in het bericht wordt weergegeven. [Meer informatie](add-representations.md)
 
    ![](../assets/channel-placement.png)
+
+   >[!CAUTION]
+   >
+   >De omvang van een aanbieding, inclusief alle representaties, mag niet groter zijn dan 300 kB.
 
 1. Voeg beperkingen toe om de voorwaarden te plaatsen voor de aanbieding die moet worden getoond. [Meer informatie](add-constraints.md)
 

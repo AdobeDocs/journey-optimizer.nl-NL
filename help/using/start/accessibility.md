@@ -7,9 +7,9 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: b37ad6fd3eb41f7cdde28c24fefc13c8b676f803
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '470'
 ht-degree: 2%
 
 ---
@@ -49,11 +49,6 @@ U kunt deze sneltoetsen gebruiken in specifieke gebieden van [!DNL Journey Optim
       <th>Sneltoets</th>
     </tr>
   </thead>
-  <tr>
-    <td>Lijst met reizen, handelingen, gegevensbronnen of gebeurtenissen</td>
-    <td>Een reis, handeling, gegevensbron of gebeurtenis maken</td>
-    <td>C</td>
-  </tr>
   <tr>
     <td rowspan="8">Reis canvas in conceptstatus</td>
     <td>Voeg een activiteit van het linkerpalet bij de eerste beschikbare positie toe, van boven tot onder</td>
@@ -107,23 +102,6 @@ U kunt deze sneltoetsen gebruiken in specifieke gebieden van [!DNL Journey Optim
   <tr>
     <td>Wijzigingen negeren en het configuratievenster sluiten</td>
     <td>Esc</td>
-  </tr>
-  <tr>
-    <td rowspan="4">Reizen in testmodus</td>
-    <td>De testmodus in- of uitschakelen</td>
-    <td>T</td>
-  </tr>
-  <tr>
-    <td>Een gebeurtenis activeren tijdens een op een gebeurtenis gebaseerde reis</td>
-    <td>E</td>
-  </tr>
-  <tr>
-    <td>Een gebeurtenis activeren op een publieksreis waarvoor de **[!UICONTROL Single profile at a time]** optie is ingeschakeld</td>
-    <td>P</td>
-  </tr>
-  <tr>
-    <td>De testlogboeken weergeven</td>
-    <td>L</td>
   </tr>
 <!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>

@@ -8,54 +8,83 @@ role: User
 level: Intermediate
 keywords: terugkeer, reis, profiel, terugkerend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '646'
 ht-degree: 1%
 
 ---
 
 
-# Profielbeheer {#entry-management}
+# Profieltoegangsbeheer {#entry-management}
 
-Er zijn twee belangrijke soorten reizen:
+Er zijn vier soorten reizen:
 
-* op gebeurtenissen gebaseerde reizen: om te beginnen met een evenement, zijn deze reizen uniform, ze zijn verbonden met één persoon. Wanneer het evenement wordt ontvangen, komt de persoon de reis binnen. [Meer informatie](#entry-unitary)
-* leest u eens voor wat u moet lezen : om te beginnen met een leestoond , zijn dit batchreizen . Personen die tot het publiek behoren, nemen allemaal dezelfde reis. Deze reizen kunnen terugkeren of eenmalig zijn. [Meer informatie](#entry-read-segment)
+* **Eenmalige gebeurtenis** ritten: deze reizen beginnen met een eenmalig evenement. Wanneer de gebeurtenis wordt ontvangen, gaat het bijbehorende profiel de reis in. [Meer informatie](#entry-unitary)
 
-In beide reistypes kan een profiel niet meerdere keren tegelijk aanwezig zijn in dezelfde reis.
+* **Zakelijke gebeurtenis** ritten: deze reizen beginnen met een Business-evenement, onmiddellijk gevolgd door een Read-publiek. Wanneer de gebeurtenis wordt ontvangen, gaan profielen die tot het doelpubliek behoren de reis in. Voor elk profiel wordt één exemplaar van deze reis gemaakt. [Meer informatie](#entry-business)
 
-## Eenheidstreizen{#entry-unitary}
+* **Lees publiek** ritten: deze reizen beginnen met een Leespubliek. Wanneer de reis wordt uitgevoerd, komen profielen van het doelpubliek de reis binnen. Voor elk profiel wordt één exemplaar van deze reis gemaakt. Deze reizen kunnen terugkeren of eenmalig zijn. [Meer informatie](#entry-read-audience)
 
-Bij unitaire reizen kunt u het opnieuw betreden in- of uitschakelen:
+* **kwalificatie publiek** ritten: deze reizen beginnen met een kwalificatieevenement Publiek. Deze reizen luisteren naar de in- en uitgangen van profielen in het publiek. Wanneer dit gebeurt, gaat het bijbehorende profiel de reis in. [Meer informatie](#entry-unitary)
 
-* Als re-entry wordt toegelaten, kan een profiel een reis verscheidene keren ingaan, maar kan het niet doen tot hij dat vorige geval van de reis volledig verliet.
+In alle reistypes kan een profiel niet meerdere keren tegelijk aanwezig zijn in dezelfde reis. Om te controleren of een persoon op reis is, wordt de profielidentiteit gebruikt als sleutel. Het systeem staat niet toe dat dezelfde sleutel, bijvoorbeeld de sleutel CRMID=3224, zich op verschillende plaatsen op dezelfde reis bevindt.
 
-* Als re-entry gehandicapt is, kan een profiel niet veelvoudige tijden de zelfde reis ingaan.
+## Eenheids- en publiekskwalificatietrajecten{#entry-unitary}
 
-Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de optie uitschakelen voor &#39;één opname&#39;-reizen, bijvoorbeeld als u een eenmalige gift wilt aanbieden wanneer iemand een winkel bezoekt. In dat geval mag de klant de reis niet opnieuw kunnen betreden en het aanbod opnieuw kunnen ontvangen. Wanneer een reis eindigt, is zijn status **[!UICONTROL Closed]**. Nieuwe individuen kunnen niet langer de reis betreden. Personen die al op reis zijn, maken de reis normaal af. [Meer informatie](journey-gs.md#entrance)
+Bij eenheids- en publiekskwalificatietrajecten kunt u re-entry in- of uitschakelen:
 
-Wanneer de **Hernieuwde toegang toestaan** -optie is geactiveerd, de **Wachttijd bij terugkeer** in het veld kunt u de tijd definiëren die u moet wachten voordat een profiel de reis opnieuw kan betreden. Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. De maximale duur is 29 dagen.
+* Als re-entry wordt toegelaten, kan een profiel een reis verscheidene keren ingaan, maar kan het niet doen tot hij het vorige geval van de reis volledig verliet.
+
+* Als re-entry gehandicapt is, kan een profiel niet veelvoudige tijden de zelfde reis, binnen de globale reis timeout ingaan. Zie dit [sectie](../building-journeys/journey-gs.md#global_timeout).
+
+Bij reizen is standaard opnieuw toegang mogelijk. Wanneer de **Hernieuwde toegang toestaan** -optie is geactiveerd, de **Wachttijd bij terugkeer** wordt weergegeven. Hiermee kunt u de tijd definiëren die moet worden gewacht voordat een profiel de reis opnieuw kan betreden. Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. De maximale duur is 29 dagen.
+
+<!--
+When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can no longer enter the journey. Persons already in the journey automatically exit the journey. [Learn more](journey-gs.md#entrance)
+-->
 
 ![](assets/journey-re-entrance.png)
 
-Na de standaardinstelling [algemene time-out](journey-gs.md#global_timeout) van 30 dagen, wordt de reis overgeschakeld op de **Voltooid** status. Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden. Dit gedrag wordt slechts voor 30 dagen ingesteld (d.w.z. de standaardwaarde van de reistijd) aangezien alle informatie over profielen die de reis zijn ingegaan 30 dagen nadat zij zijn ingegaan wordt verwijderd. Na deze periode kunnen profielen de reis opnieuw betreden. Als u dit wilt voorkomen en het opnieuw invoeren van deze profielen volledig wilt uitschakelen, kunt u een voorwaarde toevoegen om te testen of het profiel al dan niet is ingevoerd met behulp van profiel- of publieksgegevens.
+Na de hertoelatingsperiode kunnen profielen de reis opnieuw betreden. Als u dit wilt voorkomen en het opnieuw invoeren van deze profielen volledig wilt uitschakelen, kunt u een voorwaarde toevoegen om te testen of het profiel al dan niet is ingevoerd met behulp van profiel- of publieksgegevens.
 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 30 days. Indeed, as we remove all information about persons who entered the journey 30 days after they enter, we cannot know the person entered previously, more than 30 days ago. -->
 
-De sleutel wordt gebruikt om te controleren dat een persoon op reis is. Een persoon kan namelijk niet op twee verschillende plaatsen op dezelfde reis zijn. Als gevolg hiervan staat het systeem niet toe dat dezelfde sleutel, bijvoorbeeld de sleutel CRMID=3224, zich op verschillende plaatsen op dezelfde reis bevindt.
+## Zakelijke reizen{#entry-business}
 
-## Reizen voor het publiek lezen{#entry-read-segment}
+<!--
+Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
+-->
 
-In een leestoegang:
+Als u meerdere bedrijfsgebeurtenissen wilt uitvoeren, activeert u de bijbehorende optie in het dialoogvenster **[!UICONTROL Execution]** sectie van de reiseigenschappen.
+
+![](assets/business-entry.png)
+
+In het geval van bedrijfsgebeurtenissen, voor een bepaalde reis, worden de publieksgegevens die bij eerste uitvoering worden teruggewonnen opnieuw gebruikt tijdens een tijdvenster van 1 uur.
+
+Een profiel kan meerdere keren aanwezig zijn op dezelfde reis, tegelijkertijd, maar in de context van verschillende bedrijfsgebeurtenissen.
+
+Raadpleeg deze voor meer informatie [sectie](../event/about-creating-business.md)
+
+## Reizen voor het publiek lezen{#entry-read-audience}
+
+Lezen van het publiek kunnen terugkerend of one-shot zijn:
 
 * Voor niet-terugkerende ritten: het profiel komt slechts eenmaal binnen.
 
-* Voor terugkerende reizen: standaard komen alle profielen van de doelgroep op elke terugkerende reis in. Ze moeten de reis afmaken voordat ze in een ander voorval kunnen terugkeren.
+* Voor terugkerende reizen: standaard komen alle profielen van het publiek de reis in bij elke terugkerende reis. Ze moeten de reis afmaken voordat ze in een ander voorval kunnen terugkeren.
 
->[!NOTE]
->
->Er zijn twee opties beschikbaar voor terugkerende publiekstrajecten. De **Herkomst forceren bij herhaling** met deze optie worden alle profielen die nog aanwezig zijn op de reis automatisch afgesloten bij de volgende uitvoering. De **Incrementeel lezen** deze optie is alleen van toepassing op de personen die sinds de laatste uitvoering van de reis in het publiek zijn gekomen . Zie dit [sectie](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+Er zijn twee opties beschikbaar voor terugkerende lezersreizen:
 
-Bij zakelijke gebeurtenissenreizen die beginnen met een **Lees publiek** activiteit: wetende dat deze reis op de ontvangst van een bedrijfsgebeurtenis gebaseerd is, als het profiel in het verwachte publiek wordt gekwalificeerd, zullen zij de reis voor elke ontvangen bedrijfsgebeurtenis ingaan, die betekent dat dit profiel veelvoudige tijden in de zelfde reis, tezelfdertijd, maar in de context van verschillende bedrijfsgebeurtenissen kan zijn.
+* **Incrementeel lezen** optie: wanneer een reis met een terugkerende **Lees publiek** voert voor het eerst uit, alle profielen in het publiek gaan de reis in. Met deze optie kunt u zich na de eerste keer richten op alleen de personen die het publiek zijn binnengekomen sinds de laatste uitvoering van de reis.
+
+* **Herkomst forceren bij herhaling**: met deze optie kunt u alle profielen die zich nog in de reis bevinden, automatisch laten afsluiten bij de volgende uitvoering. Als de levensduur van uw profielen tijdens deze reis langer kan zijn dan de herhalingsfrequentie (bijvoorbeeld als u wachtactiviteiten gebruikt), activeert u deze optie niet om ervoor te zorgen dat profielen hun reis kunnen voltooien.
+
+![](assets/read-audience-options.png)
+
+Raadpleeg deze voor meer informatie [sectie](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+
+<!--
+After 30 days, a Read audience journey switches to the **Finished** status. This behavior is set for 30 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 30 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 
+-->

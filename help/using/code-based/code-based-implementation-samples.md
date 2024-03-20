@@ -5,37 +5,25 @@ feature: Code-based Experiences
 topic: Content Management
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '753'
 ht-degree: 2%
 
 ---
 
 # Voorbeelden van op code gebaseerde implementatiemethoden {#implementation-samples}
 
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatiehandleiding zult vinden:
-
-* [Aan de slag met op code gebaseerd kanaal](get-started-code-based.md)
-* [Voorwaarden die zijn gebaseerd op code](code-based-prerequisites.md)
-* **[Op code gebaseerde implementatiemonsters](code-based-implementation-samples.md)**
-* [Op code gebaseerde ervaringen maken](create-code-based.md)
-
->[!ENDSHADEBOX]
-
 De op code-gebaseerde ervaring steunt om het even welk type van klantenimplementatie. Op deze pagina kunt u steekproeven voor elke implementatiemethode vinden:
 
-* [Clientzijde](#client-side-implementation)
+* [Client-kant](#client-side-implementation)
 * [Server-kant](#server-side-implementation)
 * [Hybride](#hybrid-implementation)
 
-U kunt ook [deze koppeling](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} om steekproefimplementaties voor verschillende verpersoonlijking en experimentatiegebruiksgevallen te vinden. Controleer hen uit en stel hen in werking om beter te begrijpen wat de implementatiestappen nodig zijn en hoe de verpersoonlijkingsstroom van begin tot eind werkt.
+>[!IMPORTANT]
+>
+>Volgen [deze koppeling](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} om steekproefimplementaties voor verschillende verpersoonlijking en experimentatiegebruiksgevallen te vinden. Controleer hen uit en stel hen in werking om beter te begrijpen wat de implementatiestappen nodig zijn en hoe de verpersoonlijkingsstroom van begin tot eind werkt.
 
 ## Implementatie op de client {#client-side-implementation}
 
@@ -77,6 +65,38 @@ function sendDisplayEvent(decision) {
               scopeDetails: scopeDetails,
             },
           ],
+        },
+      },
+    },
+  });
+}
+```
+
+1. Voor op code-gebaseerde ervaringscampagnes, moeten de interactiegebeurtenissen manueel worden verzonden om erop te wijzen wanneer een gebruiker met de inhoud heeft gecommuniceerd. Dit gebeurt via de `sendEvent` gebruiken.
+
+```javascript
+function sendInteractEvent(label, proposition) {
+  const { id, scope, scopeDetails = {} } = proposition;
+
+  alloy("sendEvent", {
+    
+    xdm: {
+      eventType: "decisioning.propositionInteract",
+      _experience: {
+        decisioning: {
+          propositions: [
+            {
+              id: id,
+              scope: scope,
+              scopeDetails: scopeDetails,
+            },
+          ],
+          propositionEventType: {
+            interact: 1
+          },
+          propositionAction: {
+            label: label
+          },
         },
       },
     },

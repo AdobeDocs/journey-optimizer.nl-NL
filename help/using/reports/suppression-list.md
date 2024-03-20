@@ -8,9 +8,9 @@ topic: Content Management
 role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
-source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '826'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,7 @@ Ontvangers van wie de e-mailadressen worden onderdrukt, worden automatisch uitge
 
 De adressen worden toegevoegd aan de onderdrukkingslijst als volgt:
 
-* Alles **harde tegenstellingen** en **spamingklachten** Verzend automatisch de overeenkomstige adressen naar de onderdrukkingslijst na één enkel voorkomen.
+* Alles **harde tegenstellingen** en **spamingklachten** Verzend automatisch de overeenkomstige adressen naar de onderdrukkingslijst na één enkel voorkomen. Meer informatie over spamklachten vindt u in [deze sectie](#spam-complaints).
 
 * **Zachte golven** niet onmiddellijk een adres naar de onderdrukkingslijst verzenden, maar zij verhogen een foutenteller. Meerdere [opnieuw proberen](../configuration/retries.md) worden dan uitgevoerd, en wanneer de foutenteller de drempel bereikt, wordt het adres toegevoegd aan de onderdrukkingslijst.
 
@@ -81,3 +81,5 @@ De suppressielijst verzamelt e-mailadressen die uw bericht als spam merken. Bijv
 Het verzenden aan ontvangers nadat zij een spamklacht indienen kan een enorme invloed op uw verzendende reputatie hebben, omdat het ISPs meedeelt dat u ongewenste e-mails kunt verzenden en niet aan uw ontvangers kunt luisteren.
 
 Dit zou tot uw IP adres of verzendend domein kunnen leiden die worden geblokkeerd, wat met deze adressen kan worden vermeden die op de suppressielijst zijn.
+
+Sommige ISPs biedt een terugkoppelt lijn (FBL) aan die de e-mailafzender toestaat om automatisch op de hoogte te worden gebracht wanneer de gebruiker die een e-mail ontvangt verkiest om het als spam te merken. [Meer informatie](deliverability.md#feedback-loops)

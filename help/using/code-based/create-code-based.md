@@ -5,33 +5,19 @@ feature: Code-based Experiences
 topic: Content Management
 role: User
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 2%
+source-wordcount: '943'
+ht-degree: 1%
 
 ---
 
 # Op code gebaseerde ervaringen maken {#create-code-based}
 
->[!BEGINSHADEBOX]
-
-Wat u in deze documentatiehandleiding zult vinden:
-
-* [Aan de slag met op code gebaseerd kanaal](get-started-code-based.md)
-* [Voorwaarden die zijn gebaseerd op code](code-based-prerequisites.md)
-* [Op code gebaseerde implementatiemonsters](code-based-implementation-samples.md)
-* **[Op code gebaseerde ervaringen maken](create-code-based.md)**
-
->[!ENDSHADEBOX]
-
 >[!AVAILABILITY]
 >
->Het op code gebaseerde ervaringskanaal is momenteel beschikbaar als bètaversie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van de Adobe om deel te nemen aan het bètaprogramma.
+>Momenteel is het op code gebaseerde ervaringskanaal niet beschikbaar voor organisaties die de Adobe hebben aangeschaft **Gezondheidsschild** en **Privacy- en beveiligingsschild** add-on aanbiedingen.
 
 ## Een op code gebaseerde campagne maken {#create-code-based-campaign}
 
@@ -41,9 +27,9 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
 >
 >Momenteel in [!DNL Journey Optimizer] u kunt alleen op code gebaseerde ervaringen maken met **campagnes**.
 
-1. Een campagne maken. [Meer informatie](../campaigns/create-campaign.md)
+1. Maak een campagne. [Meer informatie](../campaigns/create-campaign.md)
 
-1. Selecteer de **[!UICONTROL Code-based experience (Beta)]** handeling.
+1. Selecteer de **[!UICONTROL Code-based experience]** handeling.
 
 1. Voer het op code gebaseerde ervaringsoppervlak in. [Meer informatie](#surface-definition)
 
@@ -81,21 +67,27 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
 
 1. U kunt de ontwerpmodus wijzigen van HTML in JSON en andersom.
 
+   ![](assets/code-based-campaign-code-editor.png)
+
    >[!CAUTION]
    >
    >Als u de ontwerpmodus wijzigt, gaan al uw huidige code verloren. Zorg er dus voor dat u overschakelt naar een andere modus voordat u begint met ontwerpen.
 
 1. Voer de gewenste code in. U kunt de [!DNL Journey Optimizer] De redacteur van de uitdrukking met al zijn verpersoonlijking en auteursmogelijkheden. [Meer informatie](../personalization/personalization-build-expressions.md)
 
-   ![](assets/code-based-campaign-code-editor.png)
+1. U kunt desgewenst HTML- of JSON-uitdrukkingsfragmenten toevoegen. [Meer informatie](../personalization/use-expression-fragments.md)
 
-1. In op code-gebaseerde campagnes, kunt u de ervaring bepalende eigenschap gebruiken. Selecteer de **[!UICONTROL Decisions]** pictogram van de linkerbalk en klik op **[!UICONTROL Create decision]**. [Meer informatie](../experience-decisioning/create-decision.md)
+   U kunt ook een deel van de code-inhoud opslaan als een fragment. [Meer informatie](../content-management/fragments.md#save-as-expression-fragment)
 
-   ![](assets/code-based-campaign-create-decision.png)
+<!--
+1. In code-based campaigns, you can use the experience decisioning feature. Select the **[!UICONTROL Decisions]** icon from the left bar and click **[!UICONTROL Create decision]**. [Learn more](../experience-decisioning/create-decision.md)
 
-   >[!NOTE]
-   >
-   >De ervaringsbeslissingsfunctie is momenteel beschikbaar als een bètafunctie om alleen gebruikers te selecteren.
+    ![](assets/code-based-campaign-create-decision.png)
+
+    >[!NOTE]
+    >
+    >The experience decisioning feature is currently available as a beta to select users only.
+-->
 
 1. Klikken **[!UICONTROL Save and close]** om uw wijzigingen te bevestigen.
 

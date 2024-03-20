@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 353337c7d85ccc6266d9e395fbc2f40b17fd09b2
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '2276'
-ht-degree: 1%
+source-wordcount: '2314'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,11 @@ ht-degree: 1%
 
 Als u een e-mailbericht wilt maken, moet u oppervlakken van e-mailkanalen instellen die alle technische parameters definiëren die vereist zijn voor uw berichten. [Leer hoe u oppervlakken maakt](../configuration/channel-surfaces.md)
 
-Bepaal de e-mailmontages in de specifieke sectie van de configuratie van de kanaaloppervlakte.
+>[!NOTE]
+>
+>Als u uw reputatie wilt behouden en de leverbaarheid wilt verbeteren, stelt u de subdomeinen in die u wilt gebruiken voor het verzenden van e-mails voordat u een e-mailoppervlak maakt. [Meer informatie](../configuration/about-subdomain-delegation.md)
+
+Definieer de e-mailinstellingen in de specifieke sectie van de configuratie van het kanaaloppervlak, zoals hieronder wordt beschreven.
 
 ![](assets/preset-email-settings.png)
 
@@ -51,27 +55,29 @@ Wanneer u een bericht maakt, moet u een geldig kanaaloppervlak kiezen dat overee
 
 ## Subdomein- en IP-pools {#subdomains-and-ip-pools}
 
-In de **Subdomein- en IP-pools** -sectie, moet u:
+In de **Subdomein- en IP-pools** in, vult de vereiste velden in zoals hieronder beschreven.
 
-1. Selecteer het subdomein dat u wilt gebruiken om de e-mails te verzenden. [Meer informatie](../configuration/about-subdomain-delegation.md)
+1. Selecteer het subdomein dat u wilt gebruiken om de e-mails te verzenden.
+
+   Om de reputatie van uw domein te bewaren, versnelt het IP opwarmingsproces en verbetert leverbaarheid, uw verzendende subdomeinen aan Adobe delegeren. [Meer informatie](../configuration/about-subdomain-delegation.md)
 
 1. Selecteer de IP pool om met de oppervlakte te associëren. [Meer informatie](../configuration/ip-pools.md)
 
-![](assets/preset-subdomain-ip-pool.png)
+   ![](assets/preset-subdomain-ip-pool.png)
 
-U kunt niet met oppervlakverwezenlijking te werk gaan terwijl de geselecteerde IP pool onder is [editie](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) en is nooit gekoppeld aan het geselecteerde subdomein. Anders, zal de oudste versie van de IP pool/subdomain vereniging nog worden gebruikt. Als dit het geval is, sparen de oppervlakte als ontwerp en probeer opnieuw zodra de IP pool heeft **[!UICONTROL Success]** status.
+   U kunt niet met oppervlakverwezenlijking te werk gaan terwijl de geselecteerde IP pool onder is [editie](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) en is nooit gekoppeld aan het geselecteerde subdomein. Anders, zal de oudste versie van de IP pool/subdomain vereniging nog worden gebruikt. Als dit het geval is, sparen de oppervlakte als ontwerp en probeer opnieuw zodra de IP pool heeft **[!UICONTROL Success]** status.
 
->[!NOTE]
->
->Voor niet-productiemilieu&#39;s, leidt de Adobe niet uit-van-de-doos testsubdomeinen noch verleent toegang tot een gedeelde verzendende IP pool. U moet [delegeren uw eigen subdomeinen](../configuration/delegate-subdomain.md) en gebruik IPs van de pool die aan uw organisatie wordt toegewezen.
+   >[!NOTE]
+   >
+   >Voor niet-productiemilieu&#39;s, leidt de Adobe niet uit-van-de-doos testsubdomeinen noch verleent toegang tot een gedeelde verzendende IP pool. U moet [delegeren uw eigen subdomeinen](../configuration/delegate-subdomain.md) en gebruik IPs van de pool die aan uw organisatie wordt toegewezen.
 
-Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het hangen over de IP adressen onder de IP pool drop-down lijst wordt getoond. [Meer informatie over PTR-records](../configuration/ptr-records.md)
+1. Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het hangen over de IP adressen onder de IP pool drop-down lijst wordt getoond. [Meer informatie over PTR-records](../configuration/ptr-records.md)
 
-![](assets/email-surface-ptr-record.png)
+   ![](assets/email-surface-ptr-record.png)
 
->[!NOTE]
->
->Als een PTR-record niet is geconfigureerd, neemt u contact op met uw Adobe.
+   >[!NOTE]
+   >
+   >Als een PTR-record niet is geconfigureerd, neemt u contact op met uw Adobe.
 
 ## List-Unsubscribe {#list-unsubscribe}
 

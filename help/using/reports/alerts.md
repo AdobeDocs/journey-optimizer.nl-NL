@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Waarschuwingen over aangepaste handelingen worden opgelost wanneer, gedurende de
 
 De naam van het abonnement voor de I/O-gebeurtenis die overeenkomt met de aangepaste waarschuwing voor een handeling is **Aangepaste actie voor reis mislukt**.
 
-## Trigger voor leessegment is mislukt {#alert-read-audiences}
+## Trigger voor publiek lezen is mislukt {#alert-read-audiences}
 
 Deze waarschuwing geeft een waarschuwing als een **Publiek lezen** geen profiel 10 minuten na de geplande uitvoeringstijd heeft verwerkt. Deze fout kan worden veroorzaakt door technische problemen, of omdat het publiek leeg is.
 
@@ -68,3 +68,24 @@ Waarschuwingen ingeschakeld **Publiek lezen** de activiteiten zijn alleen van to
 Waarschuwingen ingeschakeld **Publiek lezen** worden opgelost wanneer een profiel wordt ingevoerd **Publiek lezen** knooppunt.
 
 De naam van het I/O-gebeurtenisabonnement die overeenkomt met de **Trigger voor leessegment is mislukt** waarschuwing is **Vertragingen, fouten en fouten met betrekking tot het lezen van segmenten voor reizen**.
+
+## Problemen oplossen {#alert-troubleshooting}
+
+Om problemen op te lossen **Publiek lezen** alarm, controleer uw publiekstelling in de interface van het Experience Platform.
+
+![](assets/alert-troubleshooting-0.png)
+
+![](assets/alert-troubleshooting-1.png)
+
+Om problemen op te lossen **Aangepaste actie** waarschuwingen:
+
+* Controleer uw aangepaste actie in de testmodus op een andere reis:
+
+  ![](assets/alert-troubleshooting-2.png)
+
+* Controleer uw reisrapport om foutredenen voor actie te zien.
+
+  ![](assets/alert-troubleshooting-3.png)
+
+* Controleer uw reis stepEvents om naar meer informatie rond &quot;failureReason&quot; te zoeken.
+* Controleer uw configuratie van de douaneactie en bevestig dat de authentificatie nog OK is. Voer bijvoorbeeld een handmatige controle uit met Postman.
