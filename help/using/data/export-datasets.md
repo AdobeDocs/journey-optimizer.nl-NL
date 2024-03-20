@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: f2d4531bd3b0b84dc1b52e818cbbeee36733314f
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 0%
+source-wordcount: '868'
+ht-degree: 1%
 
 ---
 
@@ -37,9 +37,33 @@ Gedetailleerde informatie over elke bestemming is beschikbaar in de documentatie
 * [Google Cloud Storage](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html)
 * [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html)
 
-## Journey Optimizer-gegevenssets beschikbaar voor exporteren {#datasets}
+## Beschikbare gegevenssets voor exporteren {#datasets}
 
-Begrijp van de lijst hieronder welke datasets van Journey Optimizer u afhankelijk van uw productrij kunt uitvoeren (zie [Journey Optimizer-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}) |Gegevensset|Beschrijving|Niveau| | — | — | — | | Dataset voor AJO BCC-feedbackgebeurtenis | Dataset voor AJO BCC-feedbackgebeurtenis | Eerste | | Gegevensset AJO-classificatie | Dataset voor het invoeren van feedback over e-mail- en pushtoepassingen van Journey Optimizer. Gemaakt met SDK. | Eerste | | Dataset AJO-service voor instemming | Hiermee slaat u toestemmingsgegevens van een profiel op. | Eerste | | Dataset voor AJO-e-mailtrackingervaring | Interactielogboeken voor e-mailkanaal die worden gebruikt voor rapportage en het maken van doelgroepen.  | Eerste | | Dataset AJO-entiteit | Dataset om entiteitmeta-gegevens voor berichten op te slaan die naar het eind worden verzonden - gebruiker.  | Eerste | | Dataset voor AJO Inbound Activity Event | Gegevensset voor Journey Optimizer-webkanalen en inApp-kanalen voor levering- en interactiegebeurtenissen. | Eerste | | Gegevensset AJO Interactive Messaging Profile | Hiermee worden profielen opgeslagen die zijn gemaakt voor ondersteuning van door API&#39;s geactiveerde campagnes | Eerste | | Dataset voor AJO-feedbackgebeurtenis | Berichtenleveringslogboeken. Informatie over alle berichtlevering van Journey Optimizer voor rapportage en het creëren van publiek. De terugkoppeling van e-mailISPs op grenzen wordt ook geregistreerd in deze dataset. | Eerste | | Extensie AJO-profieltellers | Bevat een kaart met objecten die counter_value en endDate bevatten en die door counter_id zijn vastgezet | Eerste | | Dataset AJO-pushprofiel | Hiermee worden de pushtokens van een profiel opgeslagen. | Eerste | | Dataset voor AJO-gebeurtenis voor het bijhouden van push | Interactielogboeken voor pushkanaal die worden gebruikt voor rapportage en het maken van doelgroepen.  | Eerste | | Dataset AJO-oppervlakken | Lege dataset met betrekking tot het schema van binnenkomende oppervlakken van Journey Optimizer | Eerste | | AOOutputForUPSDataset | Bevat alle AO-publiekslidmaatschappen die naar UPS moeten worden geschreven | Eerste | | Gegevensset van publiek orchestratieprofiel | Gegenereerd door publiekscompositie voor publiek in compositie. Bevat alle publiek van de Samenstelling van het Publiek, hun attributen en verrijkingsgegevens | Eerste | | Beslissingsobjectopslagplaats - Activiteiten | ook gekend als Besluiten in het gebruikersinterface. Maar dit zijn de objecten die een gebruiker maakt die alle bouwstenen samenbrengt, inclusief de beslissingslogica. Bijvoorbeeld, voor een bepaalde plaatsing (plaats), die zou moeten worden overwogen (de inzameling van de aanbieding), en welke rangschikkingsmethode aan gebruik op die aanbiedingen. | Ultieme | | Beslissingsobjectopslagplaats - Alternatieve aanbiedingen | Dit is de opslagplaats voor het andere type aanbieding dat een gebruiker maakt. Als zij niet in aanmerking komen voor een gepersonaliseerd aanbod en als zij iets moeten zien, zullen zij tenminste het terugvalaanbod zien. Deze dataset bevat de attributen voor dit type aanbieding | Ultieme | | Beslissingsobjectopslagplaats - Aangepaste aanbiedingen | Dit is de opslagplaats voor een type aanbieding dat een gebruiker maakt. Deze dataset bevat dus de kenmerken van dit type aanbieding | Ultieme | | Beslissingsobjectrepository - Plaatsingen | dit is de opslagplaats van voorwerpen die de plaats bepalen van waar een aanbieding moet worden getoond. | Ultieme | | Gebeurtenissen reisstap | Vangt Alle Gebeurtenissen van de Ervaring van de Stap van de Reis die van Journey Optimizer worden geproduceerd om door de diensten zoals het Melden te worden verbruikt. | Eerste | | Reizen | Metagegevensset met informatie over de behuizing van elke stap in een reis | Eerste | | ODE-beslissingsgebeurtenissen - prodbeslissing | Telkens wanneer we een besluit nemen op basis van een verzoek, tellen we dat als een beslissingsgebeurtenis | Ultieme |
+Begrijp van de lijst hieronder welke datasets van Journey Optimizer u kunt uitvoeren.
+
+| Gegevensset | Beschrijving |
+| ------- | ------- | 
+| Dataset voor AJO BCC-feedbackgebeurtenis | Dataset voor AJO BCC-feedbackgebeurtenis |
+| Gegevensset AJO-classificatie | Dataset voor het invoeren van feedback over e-mail- en pushtoepassingen van Journey Optimizer. Gemaakt met SDK. |
+| Dataset AJO-service voor instemming | Hiermee slaat u toestemmingsgegevens van een profiel op. |
+| Dataset voor AJO-e-mailtrackingervaring | Interactielogboeken voor e-mailkanaal die worden gebruikt voor rapportage en het maken van doelgroepen.  |
+| Dataset AJO-entiteit | Dataset om entiteitmeta-gegevens voor berichten op te slaan die naar het eind worden verzonden - gebruiker.  |
+| Dataset voor AJO Inbound Activity Event | Gegevensset voor Journey Optimizer-webkanalen en inApp-kanalen voor levering- en interactiegebeurtenissen. |
+| Gegevensset AJO Interactive Messaging Profile | Hiermee worden profielen opgeslagen die zijn gemaakt voor ondersteuning van door API&#39;s geactiveerde campagnes |
+| Dataset voor AJO-feedbackgebeurtenis | Berichtenleveringslogboeken. Informatie over alle berichtlevering van Journey Optimizer voor rapportage en het creëren van publiek. De terugkoppeling van e-mailISPs op grenzen wordt ook geregistreerd in deze dataset. |
+| Extensie AJO-profieltellers | Bevat een kaart met objecten die counter_value en endDate bevatten en die door counter_id zijn vastgezet |
+| Dataset AJO-pushprofiel | Hiermee worden de pushtokens van een profiel opgeslagen. |
+| Dataset voor AJO-gebeurtenis voor het bijhouden van push | Interactielogboeken voor pushkanaal die worden gebruikt voor rapportage en het maken van doelgroepen.  |
+| Dataset AJO-oppervlakken | Lege dataset met betrekking tot het schema van binnenkomende oppervlakken van Journey Optimizer |
+| AOOutputForUPSDataset | Bevat alle AO-publiekslidmaatschappen die naar UPS moeten worden geschreven |
+| Gegevensset van publiek orchestratieprofiel | Gegenereerd door publiekscompositie voor publiek in compositie. Bevat alle publiek van de Samenstelling van het Publiek, hun attributen en verrijkingsgegevens |
+| Beslissingsobjectopslagplaats - Activiteiten | ook gekend als Besluiten in het gebruikersinterface. Maar dit zijn de objecten die een gebruiker maakt die alle bouwstenen samenbrengt, inclusief de beslissingslogica. Bijvoorbeeld, voor een bepaalde plaatsing (plaats), die zou moeten worden overwogen (de inzameling van de aanbieding), en welke rangschikkingsmethode aan gebruik op die aanbiedingen. |
+| Beslissingsobjectopslagplaats - Alternatieve aanbiedingen | Dit is de opslagplaats voor het andere type aanbieding dat een gebruiker maakt. Als zij niet in aanmerking komen voor een gepersonaliseerd aanbod en als zij iets moeten zien, zullen zij tenminste het terugvalaanbod zien. Deze dataset bevat de attributen voor dit type aanbieding |
+| Beslissingsobjectopslagplaats - Aangepaste aanbiedingen | Dit is de opslagplaats voor een type aanbieding dat een gebruiker maakt. Deze dataset bevat dus de kenmerken van dit type aanbieding | Ultieme |
+| Beslissingsobjectrepository - Plaatsingen | dit is de opslagplaats van voorwerpen die de plaats bepalen van waar een aanbieding moet worden getoond. |
+| Gebeurtenissen reisstap | Vangt Alle Gebeurtenissen van de Ervaring van de Stap van de Reis die van Journey Optimizer worden geproduceerd om door de diensten zoals het Melden te worden verbruikt. |
+| Journeys | Metagegevensset met informatie over de behuizing van elke stap in een reis |
+| ODE-beslissingsgebeurtenissen - prodbeslissing | Telkens wanneer we een besluit nemen op basis van een verzoek, tellen we dat als een beslissingsgebeurtenis |
 
 ## Vereisten {#prerequisites}
 
