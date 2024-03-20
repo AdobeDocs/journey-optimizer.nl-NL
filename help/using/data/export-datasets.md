@@ -8,9 +8,9 @@ role: User
 level: Beginner
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
-source-git-commit: f2d4531bd3b0b84dc1b52e818cbbeee36733314f
+source-git-commit: 83751eae9f703a89a57cb337492377ff2478d4a0
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '860'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Begrijp van de lijst hieronder welke datasets van Journey Optimizer u kunt uitvo
 
 ## Vereisten {#prerequisites}
 
-Om datasets uit te voeren, hebt u nodig [toegangsbeheermachtigingen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions) hieronder weergegeven. Lees de [toegangsbeheeroverzicht](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html) of neem contact op met de productbeheerder om de vereiste machtigingen te verkrijgen.
+Om datasets uit te voeren, hebt u nodig [toegangsbeheermachtigingen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"} listed below. Read the [access control overview](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"} of neem contact op met de productbeheerder om de vereiste machtigingen te verkrijgen.
 
 | Categorie | Machtiging |
 |--|--|
@@ -75,15 +75,15 @@ Om datasets uit te voeren, hebt u nodig [toegangsbeheermachtigingen](https://exp
 | Data management | Gegevensbestanden weergeven |
 | Doelen | Doelen weergeven |
 
-## Belangrijkste stappen om gegevenssets te exporteren {#main-steps}
+## Belangrijke stappen voor het exporteren van gegevenssets {#main-steps}
 
 De belangrijkste stappen om een dataset naar een plaats van de wolkenopslag uit te voeren zijn als volgt:
 
 ![](assets/dataset-export-process.png)
 
-Gedetailleerde informatie over elke stap is beschikbaar in de documentatie van Adobe Experience Platform: [Gegevenssets exporteren naar cloudopslagbestemmingen](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html).
+Gedetailleerde informatie over elke stap is beschikbaar in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}.
 
-1. **De bestemming voor cloudopslag instellen**. Als u dit nog niet hebt gedaan, maakt u verbinding met een bestemming voor cloudopslag vanuit de doelcatalogus. [Leer hoe u een nieuwe doelverbinding maakt](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup)
+1. **De bestemming voor cloudopslag instellen**. Als u dit nog niet hebt gedaan, maakt u verbinding met een bestemming voor cloudopslag vanuit de doelcatalogus. Leer hoe u een nieuwe doelverbinding maakt in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}.
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -93,7 +93,7 @@ Gedetailleerde informatie over elke stap is beschikbaar in de documentatie van A
 
    >[!NOTE]
    >
-   >Als u Adobe Journey Optimizer samen met de profielen van de Klant in real time gebruikt, zullen de bestemmingskaarten een &quot;Activate&quot;knoop tonen, die u toestaat om datasets zowel uit te voeren als publiek voor deze bestemming te activeren, afhankelijk van de toestemmingen u hebt toegelaten.
+   >Als u Adobe Journey Optimizer samen met Real-Time klantprofielen gebruikt, worden op de doelkaarten een **Activeren** knoop, die u toestaat om datasets uit te voeren en publiek voor deze bestemming, afhankelijk van de toestemmingen te activeren u hebt toegelaten.
 
 1. **Selecteer de gegevensset(s)** die u naar het geselecteerde doel wilt exporteren. [Meer informatie over Journey Optimizer-gegevenssets beschikbaar voor exporteren](#datasets)
 
@@ -107,4 +107,4 @@ Gedetailleerde informatie over elke stap is beschikbaar in de documentatie van A
 
    <!--![](assets/dataset-export-review.png)-->
 
-Zodra het exporteren is voltooid, wordt de inhoud van uw gegevensset op de locatie van uw cloudopslag gedeponeerd volgens het schema dat u hebt geconfigureerd. [Leer hoe u succesvolle gegevenssetexport kunt controleren](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify)
+Zodra het exporteren is voltooid, wordt de inhoud van uw gegevensset op de locatie van uw cloudopslag gedeponeerd volgens het schema dat u hebt geconfigureerd. [Leer hoe u succesvolle gegevenssetexport kunt controleren](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}.
