@@ -5,9 +5,9 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: c69411408d472142f733ee9220a40608b0edbab4
+source-git-commit: 55d9b8f0fc7e048c9f9cb506d8153f27595aaa3f
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '389'
 ht-degree: 16%
 
 ---
@@ -20,11 +20,19 @@ Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en
 
 >[!BEGINTABS]
 
->[!TAB Release van februari is live!]
+>[!TAB Maart is live!]
 
-Ontdek nieuwe functies en verbeteringen die worden geïntroduceerd in de Adobe Journey Optimizer 24.2-release.
+Ontdek nieuwe functies en verbeteringen die worden geïntroduceerd in de Adobe Journey Optimizer 24.3-release.
 
 [![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB Ervaringen op basis van code]
+
+Met het nieuwe op code-gebaseerde ervaringskanaal, staat Adobe Journey Optimizer u toe om geavanceerde verpersoonlijking en het testen voor om het even welk van uw binnenkomende eigenschappen te doen, toelatend naadloze levering van op maat gemaakte ervaringen over diverse aanraakpunten zoals Web apps, mobiele apps, Desktop apps, videoconsoles, TV aangesloten apparaten, slimme TVs, kiosken, ATMs, IoT apparaten, en meer.
+
+![](using/rn/assets/do-not-localize/code-based.gif)
+
+[![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/code-based/get-started-code-based.md)
 
 >[!TAB Webberichten in de app]
 
@@ -33,14 +41,6 @@ U kunt het nieuwe Web in-App overseinenvermogen nu gebruiken om gepersonaliseerd
 ![](using/rn/assets/do-not-localize/web_inapp.gif)
 
 [![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
-
->[!TAB Sjablonen voor multikanaalsinhoud]
-
-Naast E-mail, zijn de inhoudsmalplaatjes nu beschikbaar voor de volgende kanalen: Duw, In-app, SMS en Directe post, elk kanaal dat specifieke malplaatjetypes heeft. Voor E-mail, kunt u het inhoudstype nu selecteren, dat u toestaat om de onderwerpregel als deel van uw e-mailmalplaatje te bewaren.
-
-![](using/rn/assets/do-not-localize/multi-chan-templates.gif)
-
-[![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/content-templates.md)
 
 >[!ENDTABS]
 
