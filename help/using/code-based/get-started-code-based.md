@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 9d21ea489e62254eb3e4665198149e284b78296e
+source-git-commit: 3cdef96e383448b462f6e3781e36d3c9a57bd637
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 1%
@@ -174,6 +174,5 @@ In de onderstaande tabellen staan enkele voorbeelden van de oppervlakte-URI-defi
 | --------- | ----------- | ------- | 
 | Jokertekenweb | jokerteken:web:/domain.com/`*`#element | Jokeroppervlak - vertegenwoordigt een afzonderlijk element op elke pagina onder een specifiek domein. |
 | Jokertekenweb | jokerteken:web://`*`domain.com/`*`#element | Jokeroppervlak - vertegenwoordigt een afzonderlijk element op elke pagina onder alle domeinen die eindigen met &quot;domain.com&quot;. |
-
 
 
