@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Afbeelding genereren met de inhoudsassistent
-description: Aan de slag met de inhoudsassistent
+title: Afbeeldingen genereren met de AI-assistent
+description: Aan de slag met de AI Assistant
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -11,32 +11,32 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: b5582601-5804-4413-b548-a0b34cc38090
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '319'
 ht-degree: 1%
 
 ---
 
-# Afbeelding genereren met de inhoudsassistent {#image-content-assistant}
+# Afbeeldingen genereren met de AI-assistent {#image-content-assistant}
 
 >[!BEGINSHADEBOX]
 
 **Inhoudsopgave**
 
-* [Aan de slag met de inhoudsassistent](gs-generative.md)
-* [Tekst genereren met de inhoudsassistent](generative-content.md)
-* **[Afbeeldingen genereren met de Content Assistant](generative-image.md)**
+* [Aan de slag met de AI Assistant](gs-generative.md)
+* [Tekst genereren met de AI Assistant](generative-content.md)
+* **[Afbeeldingen genereren met de AI Assistant](generative-image.md)**
 
 >[!ENDSHADEBOX]
 
-Nadat u uw e-mails of webpagina&#39;s hebt gemaakt en gepersonaliseerd, neemt u uw inhoud naar het volgende niveau met de Inhoudsassistent. Met dit krachtige gereedschap kunt u uw inhoud moeiteloos aanpassen en verbeteren.
+Als je eenmaal je e-mails of webpagina&#39;s hebt gemaakt en aangepast, ga je naar het volgende niveau met Journey Optimizer AI Assistant. Met dit krachtige gereedschap kunt u uw inhoud moeiteloos aanpassen en verbeteren.
 
-In het onderstaande voorbeeld leert u hoe u de Content Assistant kunt gebruiken om uw middelen bij te werken en te verbeteren voor een betere gebruikerservaring. Voer de volgende stappen uit:
+In het onderstaande voorbeeld leert u hoe u de AI Assistant gebruikt om uw middelen bij te werken en te verbeteren voor een betere gebruikerservaring. Voer de volgende stappen uit:
 
 1. Nadat u het bericht hebt gemaakt en geconfigureerd, klikt u op **[!UICONTROL Create content]** en indien nodig aanpassen.
 
-1. Selecteer het element dat u wilt wijzigen met de Content Assistant.
+1. Selecteer het element dat u wilt wijzigen met de AI-assistent.
 
 1. Selecteer in het rechtermenu de optie **[!UICONTROL Experience generation]**.
 
@@ -44,7 +44,7 @@ In het onderstaande voorbeeld leert u hoe u de Content Assistant kunt gebruiken 
 
 1. Voeg een herinnering toe om uw resultaten beter te verfijnen en klik **[!UICONTROL Generate]**.
 
-   De optie **[!UICONTROL Enhance with current content]** optie voor de medewerker van de Inhoud om nieuwe activa te personaliseren die op uw bericht, naam van de campagne, en geselecteerd publiek worden gebaseerd.
+   De optie **[!UICONTROL Enhance with current content]** voor de AI Assistant om nieuwe elementen aan te passen op basis van uw bericht, de naam van de campagne en het geselecteerde publiek.
 
    ![](assets/gen-ai-image-2.png)
 

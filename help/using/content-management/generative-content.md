@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Inhoud genereren met de inhoudsassistent
-description: Aan de slag met de inhoudsassistent
+title: Inhoud genereren met de AI Assistant
+description: Aan de slag met de AI Assistant
 feature: Content Assistant
 topic: Content Management
 role: User
@@ -11,28 +11,28 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 559e17ba15c1b9b56f9badfe82f1de4bf3013a4f
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
 
-# Inhoud genereren met de inhoudsassistent {#title-content-assistant}
+# Inhoud genereren met de AI Assistant {#title-content-assistant}
 
 >[!BEGINSHADEBOX]
 
 **Inhoudsopgave**
 
-* [Aan de slag met de inhoudsassistent](gs-generative.md)
-* **[Inhoud genereren met de inhoudsassistent](generative-content.md)**
-* [Afbeeldingen genereren met de Content Assistant](generative-image.md)
+* [Aan de slag met de AI Assistant](gs-generative.md)
+* **[Inhoud genereren met de AI Assistant](generative-content.md)**
+* [Afbeeldingen genereren met de AI Assistant](generative-image.md)
 
 >[!ENDSHADEBOX]
 
-Zodra u hebt gecreeerd en uw berichten gepersonaliseerd, neem uw inhoud aan het volgende niveau met de medewerker van de Inhoud.
+Wanneer je berichten hebt gemaakt en gepersonaliseerd, ga je naar het volgende niveau met Journey Optimizer AI Assistant.
 
-Door de Inhoudsassistent te benutten, hebt u de mogelijkheid om de impact van uw bericht te optimaliseren door te experimenteren met andere inhoud. Elke variant wordt beschouwd als een unieke behandeling, om te meten en te vergelijken welke inhoud effectief meer kliks produceert.
+Door gebruik te maken van de AI Assistant hebt u de mogelijkheid om de impact van uw bericht te optimaliseren door te experimenteren met andere inhoud. Elke variant wordt beschouwd als een unieke behandeling, om te meten en te vergelijken welke inhoud effectief meer kliks produceert.
 
 In dit voorbeeld leert u hoe u een aansprekende pushmelding verzendt met gebruik van Content Experiment. Voer de volgende stappen uit:
 
@@ -48,7 +48,7 @@ In dit voorbeeld leert u hoe u een aansprekende pushmelding verzendt met gebruik
 
    * **[!UICONTROL Summarize]**: Gebruik deze optie om een tekst in te korten en de essentie te behouden.
 
-   * **[!UICONTROL Elaborate]**: Gebruik deze optie om uw inhoud uit te breiden met extra creatieve varianten van de Content Assistant.
+   * **[!UICONTROL Elaborate]**: Gebruik deze optie om uw inhoud uit te breiden met extra creatieve varianten van de AI Assistant.
 
    ![](assets/gen-ai-title-2.png)
 
@@ -62,7 +62,7 @@ In dit voorbeeld leert u hoe u een aansprekende pushmelding verzendt met gebruik
 
    ![](assets/gen-ai-title-4.png)
 
-1. Na het aanpassen van **[!UICONTROL Body]** van uw pushmelding selecteert u **[!UICONTROL Show Content assistant]**.
+1. Na het aanpassen van **[!UICONTROL Body]** van uw pushmelding selecteert u **[!UICONTROL Show AI Assistant]**.
 
    Hier is al een lijst met variaties beschikbaar die uw oorspronkelijke inhoud gebruikt.
 
@@ -70,7 +70,7 @@ In dit voorbeeld leert u hoe u een aansprekende pushmelding verzendt met gebruik
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren.
 
-   De optie **[!UICONTROL Enhance with current content]** optie voor de medewerker van de Inhoud om nieuwe inhoud te personaliseren die op uw bericht, naam van de campagne, en geselecteerd publiek wordt gebaseerd.
+   De optie **[!UICONTROL Enhance with current content]** in dat geval past de AI Assistant de nieuwe inhoud aan op basis van uw bericht, de naam van de campagne en het geselecteerde publiek.
 
 1. Klikken **[!UICONTROL Replace]** om de inhoud te wijzigen of meerdere **[!UICONTROL Variant]** om **[!UICONTROL Treatments]** voor uw Experimentatie en klik op **X-behandeling(en) toevoegen**.
 
