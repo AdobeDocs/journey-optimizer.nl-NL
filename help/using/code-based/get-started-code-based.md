@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 3cdef96e383448b462f6e3781e36d3c9a57bd637
+source-git-commit: 430af6da50e74c7375be92242ca869d187b63a54
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 1%
@@ -150,7 +150,7 @@ Een oppervlak-URI bestaat in principe uit meerdere secties:
 
 In de onderstaande tabellen staan enkele voorbeelden van de oppervlakte-URI-definitie voor verschillende apparaten.
 
-### Web en mobiel
+**Web en mobiel**
 
 | Type | URI | Beschrijving |
 | --------- | ----------- | ------- | 
@@ -158,7 +158,7 @@ In de onderstaande tabellen staan enkele voorbeelden van de oppervlakte-URI-defi
 | iOS-app | mobileapp://com.vendor.bundle/activity#element | Vertegenwoordigt een specifiek element binnen een inheemse toepassingsactiviteit, zoals een knoop of ander meningselement. |
 | Android-app | mobileapp://com.vendor.bundle#element | Vertegenwoordigt een specifiek element binnen een native app. |
 
-### Andere apparaattypen
+**Andere apparaattypen**
 
 | Type | URI | Beschrijving |
 | --------- | ----------- | ------- | 
@@ -168,7 +168,7 @@ In de onderstaande tabellen staan enkele voorbeelden van de oppervlakte-URI-defi
 | Kiosk | kiosk://location/screen#element | Voorbeeld van mogelijke extra oppervlaktetypen die gemakkelijk kunnen worden toegevoegd. |
 | ATM | atm://location/screen#element | Voorbeeld van mogelijke extra oppervlaktetypen die gemakkelijk kunnen worden toegevoegd. |
 
-### Jokeroppervlakken
+**Jokeroppervlakken**
 
 | Type | URI | Beschrijving |
 | --------- | ----------- | ------- | 

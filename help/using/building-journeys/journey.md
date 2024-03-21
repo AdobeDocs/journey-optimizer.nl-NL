@@ -8,9 +8,9 @@ role: User
 level: Beginner, Intermediate
 keywords: reis, ontdek, begin
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '608'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,6 @@ Ontwerp multistep geavanceerde scenario&#39;s aangedreven door de volgende mogel
 
 * Met de **reisontwerper** bouwt u gebruiksscenario&#39;s voor meerdere stappen samen: sleep en zet eenvoudig een entry-gebeurtenis of een activiteit voor een lezenpubliek neer, voeg voorwaarden toe en verzend gepersonaliseerde berichten.
 
-
 >[!NOTE]
 >
 >Reishandleidingen en -beperkingen worden beschreven in [deze pagina](../start/guardrails.md)
@@ -40,6 +39,8 @@ Ontwerp multistep geavanceerde scenario&#39;s aangedreven door de volgende mogel
 Met Adobe Journey Optimizer kunt u persoonlijke reizen ontwerpen en ordenen vanaf één canvas. De belangrijkste stappen om een reis tot stand te brengen zijn:
 
 ![](assets/journey-creation-process.png)
+
+➡️ [Deze functie in video detecteren](#video)
 
 Adobe Journey Optimizer bevat een omnichannel orchestration canvas dat marketers in staat stelt marketingactiviteiten te harmoniseren met een-op-een-klantenservice. Met de gebruikersinterface kunt u activiteiten van het palet naar het canvas slepen om uw reis te maken.
 
@@ -103,3 +104,9 @@ Vanaf het moment dat de reis wordt gepubliceerd, zullen individuen naar de recen
 Reisversies kunnen afzonderlijk worden gestopt. Alle versies van reizen hebben dezelfde naam.
 
 Wanneer u een nieuwe versie van een reis publiceert, automatisch beëindigt de vorige versie en schakelt naar **Gesloten** status. Er kan geen toegang tot de reis plaatsvinden. Zelfs als u de laatste versie stopt, blijft de vorige versie gesloten.
+
+## Hoe kan ik-video {#video}
+
+Ontdek de onderdelen van een reis en begrijp de grondbeginselen van het maken van een reis op het canvas.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)

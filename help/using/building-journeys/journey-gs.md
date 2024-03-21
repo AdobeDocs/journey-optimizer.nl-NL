@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
 workflow-type: tm+mt
-source-wordcount: '1936'
+source-wordcount: '1942'
 ht-degree: 4%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 4%
 >id="ajo_homepage_card2"
 >title="Reizen maken"
 >abstract="Gebruiken **Adobe Journey Optimizer** gebruiken voor het maken van realtime-formulieren voor het orkestgebruik met gebruik van contextuele gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen."
+
+
 
 ## Vereisten{#start-prerequisites}
 
@@ -111,6 +113,8 @@ Daarnaast worden in de configuratievensters Gebeurtenis, Gegevensbron en Handeli
 ## Uw reis maken{#jo-build}
 
 Deze stap wordt uitgevoerd door de **zakelijke gebruiker**. Hier maak je je reizen. Combineer de verschillende gebeurtenis-, organisatie- en actieactiviteiten om uw meerstapsscenario&#39;s voor meerdere kanalen te maken.
+
+➡️ [Deze functie in video detecteren](journey.md#video)
 
 Hier volgen de belangrijkste stappen voor het verzenden van berichten via reizen:
 
