@@ -1,15 +1,15 @@
 ---
-title: Voorwaarden voor op code gebaseerde ervaring
+title: Garanties en voorwaarden voor ervaring op basis van code
 description: Volg de voorwaarden op deze pagina als u toepassingen en webpagina's wilt bewerken met de functie die is gebaseerd op Journey Optimizer-code
 feature: Code-based Experiences
 topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
+source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 1%
+source-wordcount: '421'
+ht-degree: 0%
 
 ---
 
@@ -21,14 +21,12 @@ Code-gebaseerde ervaringsacties kunnen gebruiken in [!DNL Journey Optimizer] en 
 
 * Zorg ervoor dat u de Adobe Experience Platform-instellingen gedetailleerd definieert voor een correcte weergave van de op code gebaseerde ervaringen [hier](#delivery-prerequisites).
 
-
-## Let op: {#caution-notes-web}
-
-* Momenteel in [!DNL Journey Optimizer] u kunt alleen op code gebaseerde ervaringen maken in **campagnes**. [Meer informatie](../campaigns/create-campaign.md#configure)
-
->[!AVAILABILITY]
+>[!CAUTION]
 >
->Momenteel is het op code gebaseerde ervaringskanaal niet beschikbaar voor organisaties die de Adobe hebben aangeschaft **Gezondheidsschild** en **Privacy- en beveiligingsschild** add-on aanbiedingen.
+>* Het op code gebaseerde ervaringskanaal is niet beschikbaar voor organisaties die de Adobe hebben aangeschaft **Gezondheidsschild** en **Privacy- en beveiligingsschild** add-on aanbiedingen.
+>
+>* U kunt alleen op code gebaseerde ervaringen maken in **campagnes**. [Meer informatie](../campaigns/create-campaign.md#configure
+
 
 ## Voorwaarden voor implementatie {#implementation-prerequisites}
 

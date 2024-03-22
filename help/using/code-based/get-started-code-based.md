@@ -6,9 +6,9 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
+source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1123'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Met de **code-gebaseerde ervaring** kunt u ingebouwde ervaringen definiëren met
 >
 >* Momenteel in [!DNL Journey Optimizer] u kunt alleen op code gebaseerde ervaringen maken met **campagnes**.
 >
->>* Het op code gebaseerde ervaringskanaal is niet beschikbaar voor organisaties die de Adobe hebben aangeschaft **Gezondheidsschild** en **Privacy- en beveiligingsschild** add-on aanbiedingen.
+>* Het op code gebaseerde ervaringskanaal is **niet beschikbaar** voor organisaties die de Adobe hebben aangeschaft **Gezondheidsschild** en **Privacy- en beveiligingsschild** add-on aanbiedingen.
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
@@ -45,7 +45,7 @@ Met de **code-gebaseerde ervaring** kunt u ingebouwde ervaringen definiëren met
 <img alt="Validatie" src="../assets/do-not-localize/web-prerequisites.jpg">
 </a>
 <div>
-<a href="code-based-prerequisites.md"><strong>Vereisten</strong></a>
+<a href="code-based-prerequisites.md"><strong>Guardrails en voorwaarden</strong></a>
 </div>
 <p>
 </td>
