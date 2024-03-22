@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
+source-git-commit: bb9ebf5900f38c3729321330eee176489a86cd8e
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Met de **code-gebaseerde ervaring** kunt u ingebouwde ervaringen definiëren met
 
 >[!IMPORTANT]
 >
-Specifieke instructies en aanbevelingen voor ervaringen op basis van code worden nader beschreven in [deze pagina](code-based-prerequisites.md).
+>Specifieke instructies en aanbevelingen voor ervaringen op basis van code worden nader beschreven in [deze pagina](code-based-prerequisites.md).
 
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
