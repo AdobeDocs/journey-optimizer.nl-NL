@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 17ddd9042b6fb4f078bf858c3a855e7fb604b0d2
+source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2083'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Wat u in deze documentatiehandleiding zult vinden:
 
-* [Ga aan de slag met IP-opwarming](ip-warmup-gs.md)
+* [Ga aan de slag met IP-opwarmingsplannen](ip-warmup-gs.md)
 * [IP-warmtecampagnes maken](ip-warmup-campaign.md)
 * [Creeer een IP warmlopingsplan](ip-warmup-plan.md)
 * **[Voer het IP warmlopingsplan uit](ip-warmup-execution.md)**
