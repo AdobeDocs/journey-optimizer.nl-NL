@@ -6,20 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 1%
 
 ---
 
-# Vereisten en geleiders {#web-prerequisites}
+# Guardrails en voorwaarden {#web-prerequisites}
 
 Code-gebaseerde ervaringsacties kunnen gebruiken in [!DNL Journey Optimizer] en leveren van code inhoud lading die door uw toepassingen kan worden gebruikt, volg de hieronder eerste vereisten:
 
 * Als u wijzigingen wilt toevoegen aan uw toepassingen, moet u een specifieke implementatie hebben. [Meer informatie](#implementation-prerequisites)
 
 * Zorg ervoor dat u de Adobe Experience Platform-instellingen gedetailleerd definieert voor een correcte weergave van de op code gebaseerde ervaringen [hier](#delivery-prerequisites).
+
 
 ## Let op: {#caution-notes-web}
 

@@ -6,14 +6,18 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '951'
 ht-degree: 1%
 
 ---
 
 # Op code gebaseerde ervaringen maken {#create-code-based}
+
+Momenteel in [!DNL Journey Optimizer] u kunt alleen op code gebaseerde ervaringen maken in **campagnes**.
+
+Guardrails en aanbevelingen worden beschreven in [deze pagina](code-based-prerequisites.md).
 
 >[!AVAILABILITY]
 >
@@ -22,10 +26,6 @@ ht-degree: 1%
 ## Een op code gebaseerde campagne maken {#create-code-based-campaign}
 
 Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via een campagne.
-
->[!CAUTION]
->
->Momenteel in [!DNL Journey Optimizer] u kunt alleen op code gebaseerde ervaringen maken met **campagnes**.
 
 1. Maak een campagne. [Meer informatie](../campaigns/create-campaign.md)
 
@@ -41,11 +41,7 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
 
 1. Selecteer **[!UICONTROL Create]**.
 
-1. Voltooi de stappen om een campagne te creëren, zoals de campagneeigenschappen, [publiek](../audience/about-audiences.md), en [schema](../campaigns/create-campaign.md#schedule).
-
-   >[!NOTE]
-   >
-   >Voor meer informatie over hoe te om een campagne te vormen, raadpleeg [deze pagina](../campaigns/get-started-with-campaigns.md).
+1. Voltooi de stappen om een campagne te creëren, zoals de campagneeigenschappen, [publiek](../audience/about-audiences.md), en [schema](../campaigns/create-campaign.md#schedule). Voor meer informatie over hoe te om een campagne te vormen, raadpleeg [deze pagina](../campaigns/get-started-with-campaigns.md).
 
 1. Bewerk de inhoud naar wens met de Expressieeditor. [Meer informatie](#edit-code)
 
@@ -100,7 +96,7 @@ Zodra de ontwikkelaar een API- of SDK-aanroep uitvoert om inhoud op te halen voo
 >title="Een voorvertoning weergeven van uw op code gebaseerde ervaring"
 >abstract="Krijg een simulatie van wat uw code-gebaseerde ervaring zal kijken als."
 
-Volg de onderstaande stappen om een voorvertoning weer te geven van uw aangepaste ervaring op basis van code. Gedetailleerde informatie over het selecteren van testprofielen en het weergeven van een voorvertoning van de inhoud is beschikbaar in het dialoogvenster  [De inhoudspagina voorvertonen en testen](../content-management/preview-test.md).
+Volg de onderstaande stappen om een voorvertoning weer te geven van uw aangepaste ervaring op basis van code. Gedetailleerde informatie over het selecteren van testprofielen en het weergeven van een voorvertoning van de inhoud is beschikbaar in het dialoogvenster [De inhoudspagina voorvertonen en testen](../content-management/preview-test.md).
 
 >[!CAUTION]
 >
