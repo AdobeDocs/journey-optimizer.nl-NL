@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
+source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 0%
+source-wordcount: '419'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ Code-gebaseerde ervaringsacties kunnen gebruiken in [!DNL Journey Optimizer] en 
 >
 >* Het op code gebaseerde ervaringskanaal is niet beschikbaar voor organisaties die de Adobe hebben aangeschaft **Gezondheidsschild** en **Privacy- en beveiligingsschild** add-on aanbiedingen.
 >
->* U kunt alleen op code gebaseerde ervaringen maken in **campagnes**. [Meer informatie](../campaigns/create-campaign.md#configure
+>* U kunt alleen op code gebaseerde ervaringen maken in **campagnes**. [Meer informatie](../campaigns/create-campaign.md#configure).
 
 
 ## Voorwaarden voor implementatie {#implementation-prerequisites}

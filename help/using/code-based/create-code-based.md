@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: d2ac4dfe40559f01db59e314e8838f51b39a8659
+source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '930'
 ht-degree: 1%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 1%
 Momenteel in [!DNL Journey Optimizer] u kunt alleen op code gebaseerde ervaringen maken in **campagnes**.
 
 Specifieke instructies en aanbevelingen voor ervaringen op basis van code worden nader beschreven in [deze pagina](code-based-prerequisites.md).
-
->[!AVAILABILITY]
->
->Momenteel is het op code gebaseerde ervaringskanaal niet beschikbaar voor organisaties die de Adobe hebben aangeschaft **Gezondheidsschild** en **Privacy- en beveiligingsschild** add-on aanbiedingen.
 
 ## Een op code gebaseerde campagne maken {#create-code-based-campaign}
 
