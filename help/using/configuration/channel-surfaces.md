@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1591'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,11 @@ Zodra de kanaaloppervlakten zijn gevormd, zult u hen kunnen selecteren wanneer h
 >title="Instellingen voor kanaaloppervlak"
 >abstract="Om acties zoals e-mails van een reis of een campagne te kunnen tot stand brengen, moet u eerst een kanaaloppervlakte creëren die alle technische montages bepaalt die voor uw berichten worden vereist. U moet beschikken over de machtiging Voorinstellingen voor berichten beheren om kanaaloppervlakken te maken, bewerken en verwijderen."
 
+>[!CONTEXTUALHELP]
+>id="ajo_surface_marketing_action"
+>title="Een marketingactie selecteren"
+>abstract="Kies een marketingactie op het oppervlak om een beleid voor toestemming aan het bericht te koppelen."
+
 Ga als volgt te werk om een kanaaloppervlak te maken:
 
 1. Toegang krijgen tot de **[!UICONTROL Channels]** > **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** en klik vervolgens op **[!UICONTROL Create channel surface]**.
@@ -82,6 +87,19 @@ Ga als volgt te werk om een kanaaloppervlak te maken:
    >[!NOTE]
    >
    >Voor meer over hoe te om uw milieu te vormen om de berichten van SMS te verzenden, verwijs naar [deze sectie](../sms/sms-configuration.md).
+
+<!--
+1. Select a **[!UICONTROL Marketing action]** to associate consent policies to the messages using this surface. All consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers. [Learn more](../action/consent.md#marketing-actions)
+
+    >[!NOTE]
+    >
+    >Consent policies are currently only available for organizations that have purchased the **Healthcare Shield** and **Privacy and Security Shield** add-on offerings. [Learn more](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
+
+    ![](assets/surface-marketing-action.png)
+
+    >[!NOTE]
+    >
+    >You can only select one marketing action.-->
 
 1. Zodra alle parameters zijn gevormd, klik **[!UICONTROL Submit]** ter bevestiging. U kunt het kanaaloppervlak ook opslaan als concept en de configuratie later hervatten.
 
