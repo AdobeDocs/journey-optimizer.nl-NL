@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '5042'
+source-wordcount: '5069'
 ht-degree: 13%
 
 ---
@@ -21,6 +21,7 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 
 ## Maart 2024 {#march-2024}
 
+* Er is een sectie Veelgestelde vragen toegevoegd voor het behandelen van veelgestelde vragen over het gebruik van publiekscompositie en aangepaste uploadmogelijkheden in Journey Optimizer. [Meer informatie](../audience/about-audiences.md#faq)
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 24 maart is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
 * De pagina over het beheer van profieltoegang is verbeterd. [Meer informatie](../building-journeys/entry-management.md)
 * Informatie over probleemoplossing is toegevoegd aan de pagina Waarschuwingen. [Meer informatie](../reports/alerts.md#alert-troubleshooting)

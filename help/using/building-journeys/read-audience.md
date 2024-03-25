@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, publiek, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1434'
 ht-degree: 1%
 
 ---
@@ -99,6 +99,10 @@ De stappen om de Gelezen activiteit van het Publiek te vormen zijn als volgt:
 
    **Incrementeel lezen** optie: wanneer een reis met een terugkerende **Lees publiek** voert voor het eerst uit, alle profielen in het publiek gaan de reis in. Met deze optie kunt u zich na de eerste keer richten op alleen de personen die het publiek zijn binnengekomen sinds de laatste uitvoering van de reis.
 
+       >[!OPMERKING]
+       >
+       >Als u zich richt op een [aangepast uploadpubliek] (../audience/about-audiences.md#segments-in-trip-optimizer) tijdens uw reis, worden de profielen slechts teruggewonnen op de eerste herhaling als deze optie in een terugkomende reis wordt toegelaten, aangezien deze toehoorders worden bevestigd.
+   
    **Herkomst forceren bij herhaling**: met deze optie kunt u alle profielen die zich nog in de reis bevinden, automatisch laten afsluiten bij de volgende uitvoering. Als u bijvoorbeeld een wachttijd van twee dagen hebt op een dagelijkse terugkerende reis door deze optie in te schakelen, worden profielen altijd verplaatst bij de volgende uitvoering van de reis (dus de dag erna), ongeacht of ze zich in het volgende publiek bevinden of niet. Als de levensduur van uw profielen tijdens deze reis langer kan zijn dan de herhalingsfrequentie, activeer deze optie niet om ervoor te zorgen dat profielen hun reis kunnen voltooien.
 
 <!--

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: kwalificatie, evenementen, publiek, reis, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 1deb04490e53cbd5d67abda229bb4f850055510f
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,18 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
 * Onthoud dat het publiek in Adobe Experience Platform één keer per dag wordt berekend (**partij** publiek) of in realtime (**gestreamd** publiek, met gebruik van de optie Frequentie publiek van Adobe Experience Platform).
 
-* Als het geselecteerde publiek wordt gestreamd, zullen de individuen die tot dit publiek behoren de reis in real time kunnen betreden. Als het publiek een batch is, kunnen mensen die net voor dit publiek zijn gekwalificeerd de reis invoeren wanneer de publieksberekening op Adobe Experience Platform wordt uitgevoerd.
+   * Als het geselecteerde publiek wordt gestreamd, zullen de individuen die tot dit publiek behoren de reis in real time kunnen betreden.
+   * Als het publiek een batch is, kunnen mensen die net voor dit publiek zijn gekwalificeerd de reis invoeren wanneer de publieksberekening op Adobe Experience Platform wordt uitgevoerd.
+
+  Daarom raden we u aan alleen streaming publiek te gebruiken in een **kwalificatie publiek** activiteit. Voor gevallen van batchgebruik, gebruik een **[Lees publiek](read-audience.md)** activiteit.
+
+  >[!NOTE]
+  >
+  >Vanwege de batchaard van publiek dat is gemaakt met gebruik van compositieworkflows en aangepaste upload, kunt u deze soorten publiek niet als doelgroep instellen in de activiteit ‘Kwalificatie van publiek’. Alleen publiek dat is gemaakt met behulp van segmentdefinities kan in deze activiteit worden gebruikt.
 
 * U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een leespubliek, een kwalificatie Audience of een activiteit voor een zakelijke gebeurtenis.
 
 * Wanneer u een publiekskwalificatie gebruikt op een reis, kan het tot 10 minuten duren voordat de activiteit van de publiekskwalificatie actief is en naar profielen luistert die het publiek binnenkomen of verlaten.
-
-* We raden u aan alleen streaming publiek te gebruiken voor **kwalificatie publiek** activiteit. Voor gevallen van batchgebruik, gelieve te gebruiken **[Lees publiek](read-audience.md)** activiteit.
 
 ### De activiteit configureren{#cnfigure-segment-qualification}
 

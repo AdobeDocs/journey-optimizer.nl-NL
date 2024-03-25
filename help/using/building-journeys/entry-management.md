@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: terugkeer, reis, profiel, terugkerend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '679'
 ht-degree: 1%
 
 ---
@@ -78,6 +78,10 @@ Lezen van het publiek kunnen terugkerend of one-shot zijn:
 Er zijn twee opties beschikbaar voor terugkerende lezersreizen:
 
 * **Incrementeel lezen** optie: wanneer een reis met een terugkerende **Lees publiek** voert voor het eerst uit, alle profielen in het publiek gaan de reis in. Met deze optie kunt u zich na de eerste keer richten op alleen de personen die het publiek zijn binnengekomen sinds de laatste uitvoering van de reis.
+
+  >[!NOTE]
+  >
+  >Als u zich richt op [aangepast uploadpubliek](../audience/about-audiences.md#segments-in-journey-optimizer) tijdens uw reis worden profielen alleen bij de eerste herhaling opgehaald als deze optie is ingeschakeld tijdens een terugkerende reis , omdat deze doelgroepen vast zijn .
 
 * **Herkomst forceren bij herhaling**: met deze optie kunt u alle profielen die zich nog in de reis bevinden, automatisch laten afsluiten bij de volgende uitvoering. Als de levensduur van uw profielen tijdens deze reis langer kan zijn dan de herhalingsfrequentie (bijvoorbeeld als u wachtactiviteiten gebruikt), activeert u deze optie niet om ervoor te zorgen dat profielen hun reis kunnen voltooien.
 
