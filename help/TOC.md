@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3c9952f2e57c45d5bbd78d70ae7d401bc4555abe
+source-git-commit: 763cb17fe6be7da4107e38b26783df64472477b1
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1743'
 ht-degree: 30%
 
 ---
@@ -44,6 +44,7 @@ ht-degree: 30%
       + [Uw eerste journey maken](using/building-journeys/journey-gs.md)
       + [Uw reis ontwerpen](using/building-journeys/using-the-journey-designer.md)
       + [Uw reis testen](using/building-journeys/testing-the-journey.md)
+      + [Uw reis simuleren](using/building-journeys/journey-simulation.md)
       + [Uw reis publiceren](using/building-journeys/publishing-the-journey.md)
    + Uw reizen beheren{#manage-journey}
       + [Beëindig uw reis](using/building-journeys/end-journey.md)
