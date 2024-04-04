@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 5a80d7c9b12cb9d354b725b7f83f557fc15e6a90
+source-git-commit: 55391594cc7479edf83b2d2193de42756744f70d
 workflow-type: tm+mt
 source-wordcount: '2539'
 ht-degree: 0%
@@ -260,24 +260,22 @@ De **[!UICONTROL Frequency]** kunt u definiëren hoe vaak het aantal bijschrifte
 
 >[!NOTE]
 >
->De teller voor het aftappen van de frequentie wordt opnieuw ingesteld bij **12 uur UTC**, op de door u bepaalde dag of op de eerste dag van de week/maand, indien van toepassing. De startdag van de week is **zondag**.
+>De teller voor het aftappen van de frequentie wordt opnieuw ingesteld bij **12 uur UTC**, op de door u bepaalde dag of op de eerste dag van de week/maand, indien van toepassing. De startdag van de week is **zondag**. De duur die u kiest, mag niet langer zijn dan **2 jaar** (d.w.z. het overeenkomstige aantal maanden, weken of dagen).
 >
->De duur die u kiest, mag niet langer zijn dan **2 jaar** (d.w.z. het overeenkomstige aantal maanden, weken of dagen).
-
-Na publicatie van uw voorstel kunt u de tijdsperiode (maandelijks, wekelijks of dagelijks) die u voor de frequentie hebt geselecteerd, niet meer wijzigen. U kunt de frequentietoewijzing nog steeds bewerken als de aanbieding de **[!UICONTROL Draft]** status en nooit eerder gepubliceerd met ingeschakelde frequentiecapping.
+>Na publicatie van uw voorstel kunt u de tijdsperiode (maandelijks, wekelijks of dagelijks) die u voor de frequentie hebt geselecteerd, niet meer wijzigen. U kunt de frequentietoewijzing nog steeds bewerken als de aanbieding de **[!UICONTROL Draft]** status en nooit eerder gepubliceerd met ingeschakelde frequentiecapping.
 
 +++ **Moet worden gelezen: Frequency capapping en Edge Decisioning API**
 
-* De teller van de frequentiecapping wordt bijgewerkt en beschikbaar in een besluit van de Beslissing API van de Rand in minder dan 3 seconden.
+De teller van de frequentiecapping wordt bijgewerkt en beschikbaar in een besluit van de Beslissing API van de Rand in minder dan 3 seconden.
 
-* Elk hubgebied wordt geassocieerd met één of meerdere randgebieden. Regels voor frequentiecontrole worden gegenereerd en geëxporteerd van elk hubgebied naar de bijbehorende randgebieden. Wanneer een beslissing wordt genomen met de Edge Decisioning API, dwingt het systeem de regels af die beschikbaar zijn in hetzelfde Edge-gebied:
+Elk hubgebied wordt geassocieerd met één of meerdere randgebieden. Regels voor frequentiecontrole worden gegenereerd en geëxporteerd van elk hubgebied naar de bijbehorende randgebieden. Wanneer een beslissing wordt genomen met de Edge Decisioning API, dwingt het systeem de regels af die beschikbaar zijn in hetzelfde Edge-gebied:
 
-   * Als er een passende regel is, wordt de de frequentie die teller van de het aftappen van het profiel stijgt.
-   * Anders wordt er geen teller voor het profiel gemaakt en is de regel voor frequentiecontrole niet van toepassing. Dit betekent dat het profiel persoonlijke aanbiedingen blijft ontvangen, ook als de maximumdrempel wordt overschreden.
+* Als er een passende regel is, wordt de de frequentie die teller van de het aftappen van het profiel stijgt.
+* Anders wordt er geen teller voor het profiel gemaakt en is de regel voor frequentiecontrole niet van toepassing. Dit betekent dat het profiel persoonlijke aanbiedingen blijft ontvangen, ook als de maximumdrempel wordt overschreden.
 
-  Laten we bijvoorbeeld het hubgebied van uw organisatie beschouwen als *NLD2* en u stuurt een verzoek om een beslissing van Europa (*IRL1* randgebied). In dit scenario zal het beslissingsverzoek de teller van het profiel verhogen, aangezien de regels beschikbaar zijn in de (Ierse) *IRL1* regio. Als het verzoek om een beslissing echter afkomstig is uit een regio als Japan (*JPN3*), dat geen aan Nederland gebonden randgebied is *NLD2* hubgebied, geen teller zal worden gecreeerd, en de regels van de frequentiecontrole zullen niet worden afgedwongen.
+Laten we bijvoorbeeld het hubgebied van uw organisatie beschouwen als *NLD2* en u stuurt een verzoek om een beslissing van Europa (*IRL1* randgebied). In dit scenario zal het beslissingsverzoek de teller van het profiel verhogen, aangezien de regels beschikbaar zijn in de (Ierse) *IRL1* regio. Als het verzoek om een beslissing echter afkomstig is uit een regio als Japan (*JPN3*), dat geen aan Nederland gebonden randgebied is *NLD2* hubgebied, geen teller zal worden gecreeerd, en de regels van de frequentiecontrole zullen niet worden afgedwongen.
 
-  Voor meer informatie over welke hub en randgebieden aan uw Organisatie worden geassocieerd, gelieve uw vertegenwoordiger van de Adobe te bereiken.
+Voor meer informatie over welke hub en randgebieden aan uw Organisatie worden geassocieerd, gelieve uw vertegenwoordiger van de Adobe te bereiken.
 
 +++
 
