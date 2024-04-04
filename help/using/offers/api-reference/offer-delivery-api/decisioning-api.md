@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 2ef555bd10d7b8fa32c1324b201d55d2a4b1aec7
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 2%
+source-wordcount: '1025'
+ht-degree: 1%
 
 ---
 
@@ -21,9 +21,9 @@ U kunt voorstellen tot stand brengen en leveren door een verzoek van de POST aan
 
 Deze zelfstudie vereist een goed begrip van API&#39;s, met name wat betreft het beheer van besluiten. Zie de klasse [Handleiding voor ontwikkelaars van API voor beheer van beslissingen](../getting-started.md). Deze zelfstudie vereist ook dat u een unieke plaatsings-id en een unieke keuze-id-waarde hebt. Raadpleeg de zelfstudies voor [een plaatsing maken](../offers-api/placements/create.md) en [tot het nemen van een besluit](../activities-api/activities/create.md).
 
-➡️  [Ontdek deze functie in video](#video)
+➡️  [Deze functie in video detecteren](#video)
 
-## Kopteksten van het type Inhoud accepteren {#accept-and-content-type-headers}
+## Vereiste koppen {#required-headers}
 
 In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudstype* en *Accepteren* velden in de aanvraagkoptekst:
 
@@ -31,25 +31,31 @@ In de volgende tabel worden de geldige waarden weergegeven waaruit de *Inhoudsty
 | ----------- | ----- |
 | Accepteren | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"` |
 | Inhoudstype | `application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"` |
+| Toestemming | `Bearer {ACCESS_TOKEN}` |
+| x-gw-ims-org-id | `{IMS_ORG}` |
+| x-sandbox-name | `{SANDBOX_NAME}` |
+| x-api-key | `{API_KEY}` |
+
+* Alle verzoeken die een nuttige lading (POST, PUT, PATCH) bevatten vereisen de content-type kopbal
 
 ## API-verzoek {#request}
 
 ### API-indeling
 
 ```https
-POST /{ENDPOINT_PATH}/{CONTAINER_ID}/decisions
+POST /{ENDPOINT_PATH}/decisions
 ```
 
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/ode/` |
+| `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/ods` |
 | `{CONTAINER_ID}` | De container waarin de beslissingen zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 ### Verzoek
 
 ```shell
 curl -X POST \
-  'https://platform.adobe.io/data/core/ode/e0bd8463-0913-4ca1-bd84-6309134ca1f6/decisions' \
+  'https://platform.adobe.io/data/core/ods/decisions' \
   -H 'Accept: application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-response;version=1.0"' \
   -H 'Content-Type: application/vnd.adobe.xdm+json; schema="https://ns.adobe.com/experience/offer-management/decision-request;version=1.0"'
   -H 'Authorization: Bearer {ACCESS_TOKEN}' \
@@ -209,15 +215,15 @@ De onderstaande tabel bevat een lijst met alle codes die in het antwoord kunnen 
 | 500 | Interne serverfout. De server heeft een onverwachte voorwaarde aangetroffen waardoor deze de aanvraag niet kan uitvoeren. |
 | 503 | Service niet beschikbaar vanwege overbelasting van de server. De server kan het verzoek momenteel niet verwerken vanwege een tijdelijke overbelasting. |
 
-## Video over zelfstudie {#video}
+<!-- ## Tutorial video {#video}
 
-De volgende video is bedoeld om uw begrip van de componenten van Beslissingsbeheer te steunen.
+The following video is intended to support your understanding of the components of Decision Management.
 
 >[!NOTE]
 >
->Deze video is van toepassing op de Offer decisioning toepassingsservice die op Adobe Experience Platform is gebouwd. Het biedt echter algemene richtlijnen voor het gebruik van Aanbieding in de context van Journey Optimizer.
+>This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## Volgende stappen {#next-steps}
 

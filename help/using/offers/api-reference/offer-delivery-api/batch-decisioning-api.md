@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 2ef555bd10d7b8fa32c1324b201d55d2a4b1aec7
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '742'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,6 @@ Alles [!DNL Batch Decisioning] naast de in de [Handleiding voor ontwikkelaars va
 * `Content-Type`: `application/json`
 * `x-request-id`: Een unieke tekenreeks die de aanvraag identificeert.
 * `x-sandbox-name`: De naam van de sandbox.
-* `x-sandbox-id`: De sandbox-id.
 
 ## Een batchproces starten {#start-a-batch-process}
 
@@ -67,18 +66,17 @@ Als u een werkbelasting wilt starten om beslissingen over batchprocessen te neme
 **API-indeling**
 
 ```https
-POST {ENDPOINT_PATH}/{CONTAINER_ID}/workloads/decisions
+POST {ENDPOINT_PATH}/workloads/decisions
 ```
 
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/ode` |
-| `{CONTAINER_ID}` | De container waarin de beslissingen zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/dwm` |
 
 **Verzoek**
 
 ```shell
-curl -X POST 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909c6b93b5a2/workloads/decisions' \
+curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 -H 'x-request-id: f671a589-eb7b-432f-b6b9-23d5b796b4dc' \
 -H 'Content-Type: application/json' \
 -H 'x-api-key: {API_KEY}' \
@@ -120,7 +118,6 @@ Zie de [Beslissingsbeheerdocumentatie](../../get-started/starting-offer-decision
 {
     "@id": "47efef25-4bcf-404f-96e2-67c4f784a1f5",
     "xdm:imsOrgId": "9GTO98D5F@AdobeOrg",
-    "xdm:containerId": "0948b1c5-fff8-3b76-ba17-909c6b93b5a2",
     "ode:createDate": 1648078924834,
     "ode:status": "QUEUED"
 }
@@ -141,19 +138,19 @@ Om informatie over een specifiek besluit terug te winnen, doe een verzoek van de
 **API-indeling**
 
 ```https
-GET  {ENDPOINT_PATH}/{CONTAINER_ID}/workloads/decisions/{WORKLOAD_ID}
+GET  {ENDPOINT_PATH}/workloads/decisions/{WORKLOAD_ID}
 ```
 
 | Parameter | Beschrijving | Voorbeeld |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/ode` |
+| `{ENDPOINT_PATH}` | Het eindpuntpad voor gegevensopslagruimte-API&#39;s. | `https://platform.adobe.io/data/core/dwm` |
 | `{CONTAINER_ID}` | De container waarin de beslissingen zich bevinden. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{WORKLOAD_ID}` | De UUID die door besluitvormingsbeheer wordt geproduceerd dat één enkele werkbelasting identificeert. | `47efef25-4bcf-404f-96e2-67c4f784a1f5` |
 
 **Verzoek**
 
 ```shell
-curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909c6b93b5a2/workloads/decisions/f395ab1f-dfaf-48d4-84c9-199ad6354591' \
+curl -X GET 'https://platform.adobe.io/data/core/dwm/workloads/decisions/f395ab1f-dfaf-48d4-84c9-199ad6354591' \
 -H 'x-request-id: 7832a42a-d4e5-413b-98e8-e49bef056436' \
 -H 'Content-Type: application/json' \
 -H 'x-api-key: {API_KEY}' \
@@ -167,9 +164,8 @@ curl -X GET 'https://platform.adobe.io/data/core/ode/0948b1c5-fff8-3b76-ba17-909
 
 ```json
 {
-    "@id": "f395ab1f-dfaf-48d4-84c9-199ad6354591",
+   "@id": "f395ab1f-dfaf-48d4-84c9-199ad6354591",
     "xdm:imsOrgId": "{IMS_ORG}",
-    "xdm:containerId": "0948b1c5-fff8-3b76-ba17-909c6b93b5a2",
     "ode:createDate": 1648076994405,
     "ode:status": "COMPLETED"
 }
