@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4342c13d7f2cff4eea3bb3cdddad8f403f0cba90
+source-git-commit: 042c8a08597c800e64751f16f792954007ed0c08
 workflow-type: tm+mt
-source-wordcount: '5097'
+source-wordcount: '5119'
 ht-degree: 13%
 
 ---
@@ -21,7 +21,10 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 
 ## April 2024 {#april-2024}
 
+* De configuratiestappen voor In-app overseinen zijn gedetailleerd geweest. [Meer informatie](../in-app/inapp-configuration.md)
+* Documentatie voor [Offer decisioning-API&#39;s](../offers/api-reference/offer-delivery-api/decisioning-api.md) en [API&#39;s voor batchbesluitvorming](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) zijn bijgewerkt.
 * Er is informatie toegevoegd aan de documentatie van het Beslissingsbeheer met betrekking tot het beheer van Edge- en hubregio&#39;s bij het gebruik van frequentiecapping met de Edge Decisioning API. [Meer informatie](../offers/offer-library/add-constraints.md#frequency-capping)
+
 
 ## Maart 2024 {#march-2024}
 
