@@ -6,20 +6,23 @@ feature: In App
 level: Intermediate
 keywords: in-app, bericht, configuratie, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
+source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '771'
 ht-degree: 1%
 
 ---
 
 # Vereisten en configuratie {#inapp-configuration}
 
-In-app-berichten kunnen verzenden tijdens reizen en campagnes in [!DNL Journey Optimizer], moet u door de volgende configuratiestappen gaan.
+## Configuratiestappen {#inapp-steps}
 
-1. Zorg ervoor dat u de juiste machtigingen hebt voor Journey Optimizer-campagnes voordat u begint, zelfs als u alleen in-app-berichten tijdens reizen wilt gebruiken. Campagnemachtigingen zijn nog steeds vereist. [Meer informatie](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+In-app-berichten verzenden tijdens uw reizen en campagnes met [!DNL Journey Optimizer], moet u door de volgende configuratiestappen gaan.
+
+1. Zorg ervoor dat u de juiste machtigingen hebt voor Journey Optimizer-campagnes voordat u begint, zelfs als u alleen in-app-berichten tijdens reizen wilt gebruiken. Campagnemachtigingen zijn nog steeds vereist. [Meer informatie](../campaigns/get-started-with-campaigns.md#campaign-prerequisites).
+Er moet een specifieke machtiging worden verleend om toegang te krijgen tot **Toepassingsoppervlakken** in Adobe Experience Platform Data Collection. Meer informatie in [deze video](#video).
 1. Adobe Journey Optimizer inschakelen in de gegevensstroom van de Adobe Experience Platform-gegevensverzameling en uw standaardsamenvoegbeleid in Adobe Experience Platform controleren, zoals wordt beschreven in het dialoogvenster [Leveringsvoorwaarden](#delivery-prerequisites) hieronder.
-1. Creeer en vorm een oppervlakte van de App in de Inzameling van Gegevens van Adobe Experience Platform, zoals die in wordt gedetailleerd [deze sectie](#channel-prerequisites). Er moet een specifieke machtiging worden verleend om toegang te krijgen tot **Toepassingsoppervlakken** in Adobe Experience Platform Data Collection. Meer informatie in [deze video](#video).
+1. Creeer en vorm een oppervlakte van de App in de Inzameling van Gegevens van Adobe Experience Platform, zoals die in wordt gedetailleerd [deze sectie](#channel-prerequisites).
 1. Als u inhoud experimenteert, zorg ervoor om de vereisten te volgen die in [deze sectie](#experiment-prerequisite).
 
 Als u klaar bent, kunt u uw eerste In-app-bericht maken, configureren en verzenden. Leer hoe u dit kunt bereiken in [deze sectie](create-in-app.md).
@@ -135,10 +138,9 @@ Als u **niet** met behulp van de volgende vooraf gedefinieerde [veldgroepen](htt
 >
 >Het toevoegen van deze veldgroepen heeft geen invloed op de normale gegevensverzameling. Het is alleen additief voor de pagina&#39;s waarop een experiment wordt uitgevoerd, waarbij alle andere tracking ongewijzigd blijft.
 
-## Hoe kan ik-video&#39;s{#video}
+## Hoe kan ik-video{#video}
 
 In de onderstaande video ziet u hoe u de **Toepassingsconfiguratie beheren** machtiging om het menu met toepassingsoppervlakken te openen.
-
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421607)
 

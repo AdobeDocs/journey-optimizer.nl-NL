@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
+source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Gebruik Journey Optimizer om meldingen in de app te maken en ervaringsopties te 
 <img alt="Validatie" src="../assets/do-not-localize/inapp-config.jpg">
 </a>
 <div>
-<a href="inapp-configuration.md"><strong>In-app-kanaal configureren</strong></a>
+<a href="inapp-configuration.md"><strong>Het kanaal in de app configureren</strong></a>
 </div>
 <p>
 </td>
@@ -39,7 +39,7 @@ Gebruik Journey Optimizer om meldingen in de app te maken en ervaringsopties te 
 <a href="create-in-app.md">
 <img alt="Lood" src="../assets/do-not-localize/inapp-create.jpeg">
 </a>
-<div><a href="create-in-app.md"><strong>In-app-bericht maken</strong>
+<div><a href="create-in-app.md"><strong>Een bericht in de app maken</strong>
 </div>
 <p>
 </td>
@@ -56,7 +56,7 @@ Gebruik Journey Optimizer om meldingen in de app te maken en ervaringsopties te 
 <img alt="Validatie" src="../assets/do-not-localize/inapp-report.jpg">
 </a>
 <div>
-<a href="../reports/campaign-global-report.md#inapp-global"><strong>In-app-rapport openen</strong></a>
+<a href="../reports/campaign-global-report.md#inapp-global"><strong>In-app rapporten openen</strong></a>
 </div>
 <p>
 </td>
