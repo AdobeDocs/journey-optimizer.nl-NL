@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e851646e-4cef-45e8-97c2-a8f4c9d2cc08
-source-git-commit: 5671f510d8be80b53d57b1ff90a101e500773243
+source-git-commit: 90b08388d3b43ad8d8cfc7efec119217f531860f
 workflow-type: tm+mt
-source-wordcount: '4061'
+source-wordcount: '4105'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,8 @@ Vanaf uw reis **[!UICONTROL Global report]** de **[!UICONTROL Journey]** geeft u
 ![](assets/journey_performance.png)
 
 De **[!UICONTROL Journey Performance]** met widget kunt u visueel het traject van uw doelprofielen volgen terwijl u door de reis navigeert.
+
+Let op: het aantal profielen voor een knooppunt wordt alleen bijgewerkt nadat het profiel het knooppunt heeft voltooid, niet wanneer het knooppunt wordt ingevoerd. Bijvoorbeeld een profiel op een **Wachten** node wordt alleen geteld wanneer de opgegeven datum is bereikt en het profiel het knooppunt heeft verlaten.
 
 ### Reisstatistieken {#journey-statistics}
 
