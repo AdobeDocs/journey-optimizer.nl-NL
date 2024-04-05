@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: subdomein, delegatie, domein, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 3b40087aeae2b0da789a90f45f2575beedf2b76d
+source-git-commit: bfb9e797757a96b1e39736f532ee9308f87bb71f
 workflow-type: tm+mt
-source-wordcount: '1760'
-ht-degree: 5%
+source-wordcount: '1779'
+ht-degree: 6%
 
 ---
 
@@ -33,7 +33,7 @@ De domeinnaamdelegatie is een methode die de eigenaar van een domeinnaam (techni
 
 >[!NOTE]
 >
->Standaard, [!DNL Journey Optimizer] Met een licentiecontract kunt u maximaal 10 subdomeinen delegeren. Neem contact op met de Adobe als u deze beperking wilt verhogen.
+>Standaard, [!DNL Journey Optimizer] Hiermee kunt u maximaal 10 subdomeinen delegeren. Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen delegeren. Bereik uit aan uw contact van de Adobe om meer over het aantal subdomeinen te leren u aan recht hebt.
 
 U kunt een subdomein volledig delegeren, of een subdomein tot stand brengen gebruikend CNAMEs om aan Adobe-specifieke verslagen te richten.
 
@@ -95,7 +95,7 @@ Volg de onderstaande stappen om een nieuw subdomein volledig te delegeren aan Ad
 
    ![](assets/subdomain-processing.png)
 
-   Voordat u dat subdomein kunt gebruiken om berichten te verzenden, moet u wachten tot de Adobe de vereiste controles uitvoert. Dit kan maximaal 3 uur in beslag nemen. Meer informatie in [deze sectie](#subdomain-validation).
+   Voordat u dat subdomein kunt gebruiken om berichten te verzenden, moet u wachten tot de Adobe de vereiste controles uitvoert. Dit kan maximaal 3 uur in beslag nemen. Lees meer in [deze sectie](#subdomain-validation).
 
    >[!NOTE]
    >
@@ -181,7 +181,7 @@ Volg onderstaande stappen om een subdomein in te stellen met gebruik van CNAME&#
 
    ![](assets/subdomain-cname-processing.png)
 
-   Voordat u dat subdomein kunt gebruiken om berichten te verzenden, moet u wachten tot de Adobe de vereiste controles uitvoert. Dit duurt meestal 2 tot 3 uur. Meer informatie in [deze sectie](#subdomain-validation).
+   Voordat u dat subdomein kunt gebruiken om berichten te verzenden, moet u wachten tot de Adobe de vereiste controles uitvoert. Dit duurt meestal 2 tot 3 uur. Lees meer in [deze sectie](#subdomain-validation).
 
 1. Zodra de controles succesvol zijn<!--i.e Adobe validates the record you created and installs it-->, wordt het subdomein de **[!UICONTROL Success]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 

@@ -8,9 +8,9 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, subdomeinen, configuratie
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: bfb9e797757a96b1e39736f532ee9308f87bb71f
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -105,6 +105,10 @@ Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aa
 
 Volg onderstaande stappen om een nieuw subdomein te configureren.
 
+>[!NOTE]
+>
+>Standaard, [!DNL Journey Optimizer] Hiermee kunt u maximaal 10 subdomeinen in totaal delegeren (voor zowel e-mail als webkanalen). Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen delegeren. Bereik uit aan uw contact van de Adobe om meer over het aantal subdomeinen te leren u aan recht hebt.
+
 1. Toegang krijgen tot de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, selecteert u vervolgens **[!UICONTROL web configuration]** > **[!UICONTROL web subdomains]**.
 
 1. Klik op **[!UICONTROL Set up subdomain]**.
@@ -152,7 +156,6 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 1. Wanneer de controles zijn voltooid, haalt het subdomein het subdomein **[!UICONTROL Success]** status. U kunt deze functie gebruiken om webkanaaloppervlakken te maken.
 
    Het subdomein wordt gemarkeerd als **[!UICONTROL Failed]** als u er niet in slaagt de validatierecord voor uw hostoplossing te maken.
-
 
 <!--
 Only a subdomain with the **[!UICONTROL Success]** status can be set as default.

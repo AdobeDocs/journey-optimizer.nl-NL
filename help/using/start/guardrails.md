@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: bfb9e797757a96b1e39736f532ee9308f87bb71f
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '2025'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,6 @@ Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in 
 * U kunt geen bijlagen aan een e-mailbericht toevoegen met [!DNL Journey Optimizer].
 * U kunt niet hetzelfde verzendende domein gebruiken om berichten te verzenden van [!DNL Adobe Journey Optimizer] en van een ander product, zoals [!DNL Adobe Campaign] of [!DNL Adobe Marketo Engage] bijvoorbeeld.
 
-
 ## Handleidingen voor landingspagina&#39;s {#lp-guardrails}
 
 * Slechts één **Formulier** kan in één primaire pagina worden gebruikt.
@@ -46,6 +45,12 @@ Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in 
 * Mediabestanden voor MMS kunnen via een ondersteunde URL worden opgenomen. Controleer of het mediabestand afzonderlijk is geüpload.
 * Berichtfeedback synchroniseren is momenteel niet beschikbaar voor MMS.
 * Het beheer van de toestemming werkt op het kanaalniveau van SMS voor MMS.
+
+## Subdomeinen guardraals {#subdomain-guardrails}
+
+Standaard, [!DNL Journey Optimizer] Hiermee kunt u maximaal 10 subdomeinen in totaal delegeren (voor zowel e-mail als webkanalen).
+
+Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen delegeren. Bereik uit aan uw contact van de Adobe om meer over het aantal subdomeinen te leren u aan recht hebt.
 
 ## Fragmenten, ardraals {#fragments-guardrails}
 
