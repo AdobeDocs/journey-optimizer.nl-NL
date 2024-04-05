@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
+source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 3%
+source-wordcount: '145'
+ht-degree: 0%
 
 ---
 
@@ -22,19 +22,19 @@ Gebruik Journey Optimizer om meldingen in de app te maken en ervaringsopties te 
 
 >[!AVAILABILITY]
 >
->Het In-app-kanaal is momenteel niet beschikbaar voor organisaties die de Adobe hebben aangeschaft **Gezondheidsschild** en **Privacy- en beveiligingsschild** add-on aanbiedingen.
+>Het kanaal in de app is niet beschikbaar voor organisaties die de Adobe hebben aangeschaft **Gezondheidsschild** en **Privacy- en beveiligingsschild** add-on aanbiedingen.
 
-## Vereisten{#prerequisites-in-app}
-
-Voordat u berichten in de app verzendt, moet u:
-
-* Configureer het kanaal in de app. [Meer informatie](inapp-configuration.md)
-
-* Zorg ervoor dat u de juiste machtigingen hebt voor Journey Optimizer-campagnes voordat u begint, zelfs als u alleen in-app-berichten tijdens reizen wilt gebruiken. Campagnemachtigingen zijn nog steeds vereist. [Meer informatie](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
-
-Als u klaar bent, kunt u uw eerste In-app-bericht maken, configureren en verzenden. Leer hoe u dit kunt bereiken in [deze sectie](create-in-app.md).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="inapp-configuration.md">
+<img alt="Validatie" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="inapp-configuration.md"><strong>In-app-kanaal configureren</strong></a>
+</div>
+<p>
+</td>
 <td>
 <a href="create-in-app.md">
 <img alt="Lood" src="../assets/do-not-localize/inapp-create.jpeg">
@@ -57,15 +57,6 @@ Als u klaar bent, kunt u uw eerste In-app-bericht maken, configureren en verzend
 </a>
 <div>
 <a href="../reports/campaign-global-report.md#inapp-global"><strong>In-app-rapport openen</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="inapp-configuration.md">
-<img alt="Validatie" src="../assets/do-not-localize/inapp-config.jpg">
-</a>
-<div>
-<a href="inapp-configuration.md"><strong>In-app-kanaal configureren</strong></a>
 </div>
 <p>
 </td>

@@ -1,19 +1,29 @@
 ---
-title: Voorwaarden voor kanalen in de app
+title: In-app kanaalvereisten en configuratie
 description: Leer hoe u uw omgeving configureert voor het verzenden van In-app-berichten met Journey Optimizer
 role: Admin
 feature: In App
 level: Intermediate
 keywords: in-app, bericht, configuratie, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 7e850261f1a82492c5df93c4437b4e3c6859a2d7
+source-git-commit: 21c15e003609a7ed016391bfe499ce245736db0e
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 2%
+source-wordcount: '770'
+ht-degree: 1%
 
 ---
 
-# Voorwaarden voor kanalen in de app {#inapp-configuration}
+# Vereisten en configuratie {#inapp-configuration}
+
+In-app-berichten kunnen verzenden tijdens reizen en campagnes in [!DNL Journey Optimizer], moet u door de volgende configuratiestappen gaan.
+
+1. Zorg ervoor dat u de juiste machtigingen hebt voor Journey Optimizer-campagnes voordat u begint, zelfs als u alleen in-app-berichten tijdens reizen wilt gebruiken. Campagnemachtigingen zijn nog steeds vereist. [Meer informatie](../campaigns/get-started-with-campaigns.md#campaign-prerequisites)
+1. Adobe Journey Optimizer inschakelen in de gegevensstroom van de Adobe Experience Platform-gegevensverzameling en uw standaardsamenvoegbeleid in Adobe Experience Platform controleren, zoals wordt beschreven in het dialoogvenster [Leveringsvoorwaarden](#delivery-prerequisites) hieronder.
+1. Creeer en vorm een oppervlakte van de App in de Inzameling van Gegevens van Adobe Experience Platform, zoals die in wordt gedetailleerd [deze sectie](#channel-prerequisites). Er moet een specifieke machtiging worden verleend om toegang te krijgen tot **Toepassingsoppervlakken** in Adobe Experience Platform Data Collection. Meer informatie in [deze video](#video).
+1. Als u inhoud experimenteert, zorg ervoor om de vereisten te volgen die in [deze sectie](#experiment-prerequisite).
+
+Als u klaar bent, kunt u uw eerste In-app-bericht maken, configureren en verzenden. Leer hoe u dit kunt bereiken in [deze sectie](create-in-app.md).
+
 
 ## Leveringsvoorwaarden {#delivery-prerequisites}
 
@@ -127,13 +137,11 @@ Als u **niet** met behulp van de volgende vooraf gedefinieerde [veldgroepen](htt
 
 ## Hoe kan ik-video&#39;s{#video}
 
-* In de onderstaande video ziet u hoe u de **Toepassingsconfiguratie beheren** machtiging om het menu met toepassingsoppervlakken te openen.
+In de onderstaande video ziet u hoe u de **Toepassingsconfiguratie beheren** machtiging om het menu met toepassingsoppervlakken te openen.
 
-  +++Zie video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3421607)
+>[!VIDEO](https://video.tv.adobe.com/v/3421607)
 
-+++
 
 **Verwante onderwerpen:**
 
