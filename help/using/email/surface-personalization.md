@@ -11,7 +11,8 @@ keywords: instellingen, e-mail, configuratie, subdomein
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: e63823dc2f901b870f11b0478e682e2af61b5b98
+exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
+source-git-commit: 94d39089d94b4fe42eb3fb95603426012b104517
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
@@ -81,7 +82,7 @@ Voer de onderstaande stappen uit om dynamische subdomeinen in een oppervlak van 
 
    ![](assets/surface-email-add-dynamic-subdomain.png)
 
-<!--Select the [IP pool](../configuration/ip-pools.md) to associate with the surface. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
+   <!--Select the [IP pool](../configuration/ip-pools.md) to associate with the surface. [Learn more](email-settings.md#subdomains-and-ip-pools)-->
 
 1. Alle andere definiëren [e-mailinstellingen](email-settings.md) en [indienen](../configuration/channel-surfaces.md#create-channel-surface) uw oppervlak.
 
@@ -163,4 +164,3 @@ Wanneer u een oppervlak gebruikt met gepersonaliseerde instellingen in een campa
 1. Selecteren **[!UICONTROL Expand]** om de details van de dynamische subdomeinen weer te geven.
 
    ![](assets/campaign-delivery-settings-subdomain-expand.png)
-
