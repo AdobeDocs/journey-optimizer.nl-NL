@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: koppelingen, bijhouden, controleren, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 2%
+source-wordcount: '994'
+ht-degree: 1%
 
 ---
 
@@ -162,7 +162,7 @@ De [E-mailDesigner](content-from-scratch.md) Hiermee kunt u de bijgehouden URL&#
 
 Rapportage over openingen en klikken is beschikbaar in de [Live-rapport](../reports/live-report.md) en in de [Algemeen rapport](../reports/global-report.md).
 
-## URL-tracking {#url-tracking}
+## URL-tracking aanpassen {#url-tracking}
 
 Meestal [URL-tracking](email-settings.md#url-tracking) wordt beheerd op oppervlakniveau, maar de profielattributen worden niet gesteund. De enige manier om dit te doen is door [URL&#39;s aanpassen](../personalization/personalization-syntax.md#perso-urls) in de e-mailontwerper.
 
