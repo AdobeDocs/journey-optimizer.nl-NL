@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
+source-git-commit: fa57bee17e5d9df99cc564bfac06bcd3f5090aab
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 4%
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,7 @@ U kunt pushmeldingen maken:
 
 * In een **Reis**: Als u een pushactiviteit hebt toegevoegd aan uw reis en basisinstellingen hebt gedefinieerd, kunt u de opdracht **[!UICONTROL Actions: Push]** in het rechterdeelvenster om de inhoud voor pushmeldingen te maken. [Leer hoe u een reis maakt](../building-journeys/journey-gs.md)
 
-* In een **Campagne**: Nadat u een campagne hebt gemaakt, selecteert u pushmelding als uw handeling en definieert u de basisinstellingen. [Leer een campagne maken](../campaigns/create-campaign.md#configure)
+* In een **Campagne**: Nadat u een campagne hebt gemaakt, selecteert u pushmelding als uw handeling en definieert u de basisinstellingen. [Leer hoe u een campagne maakt](../campaigns/create-campaign.md#configure)
 
 Gebruik de specifieke tabbladen om de instellingen voor pushmeldingen te definiÃ«ren voor **iOS** en **Android** besturingssystemen.
 
@@ -40,7 +40,7 @@ Gebruik de specifieke tabbladen om de instellingen voor pushmeldingen te definiÃ
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-push.md">
-<img alt="Lood" src="../assets/do-not-localize/push-create.jpeg">
+<img alt="Lood" src="../assets/do-not-localize/push-create.jpg">
 </a>
 <div><a href="create-push.md"><strong>Een pushmelding maken</strong>
 </div>
