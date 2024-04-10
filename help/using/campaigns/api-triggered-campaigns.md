@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '951'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Als u het maken van profielen wilt activeren tijdens de uitvoering van de campag
 
 >[!NOTE]
 >
->Onbekende profielen worden gemaakt in het dialoogvenster **Gegevensset AJO Interactive Messaging Profile** dataset, in drie standaardnaamruimte (e-mail, telefoon en ECID) respectievelijk voor elke uitgaande kanalen (E-mail, SMS en Push).
+>Onbekende profielen worden gemaakt in het dialoogvenster **Gegevensset AJO Interactive Messaging Profile** dataset, in drie standaardnaamruimte (e-mail, telefoon en ECID) respectievelijk voor elke uitgaande kanalen (E-mail, SMS en Push). Als u echter een aangepaste naamruimte gebruikt, wordt de identiteit gemaakt met dezelfde aangepaste naamruimte.
 
 ## Hoe kan ik-video {#video}
 
