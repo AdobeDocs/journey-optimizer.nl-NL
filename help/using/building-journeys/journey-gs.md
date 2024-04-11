@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 37be5bd6dc17dc7df12ad51994a854f2d7a20ef1
+source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1964'
 ht-degree: 4%
 
 ---
@@ -146,6 +146,11 @@ Hier volgen de belangrijkste stappen voor het verzenden van berichten via reizen
 >id="ajo_journey_properties"
 >title="Journeyeigenschappen"
 >abstract="In dit gedeelte worden de eigenschappen van de reis weergegeven. Standaard zijn alleen-lezen parameters verborgen. Welke instellingen beschikbaar zijn, is afhankelijk van de status van de rit, van uw machtigingen en de productconfiguratie."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_exit_criterias"
+>title="Criteria voor het verlaten van de reis"
+>abstract="In dit gedeelte worden de opties voor afsluitcriteria weergegeven. U kunt één of veelvoudige regels van de uitgangscriteria voor uw reis tot stand brengen."
 
 Klik op het potloodpictogram naast de naam van de reis om de eigenschappen ervan te openen.
 
