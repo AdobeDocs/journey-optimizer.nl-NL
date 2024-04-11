@@ -10,9 +10,10 @@ level: Intermediate
 keywords: test, reis, controle, fout, oplossen
 hide: true
 hidefromtoc: true
-source-git-commit: 0d1ee9621f1e9f0bef2b1fb5fc835c3b6b89b9fe
+exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
+source-git-commit: 31bc5a42897d19871737b1d07e1337b888f29461
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '108'
 ht-degree: 0%
 
 ---
@@ -24,3 +25,4 @@ ht-degree: 0%
 >title="Uw reis simuleren"
 >abstract="Met Reissimulatie kunt u uw reizen valideren en zien hoe ze presteren voordat ze worden geactiveerd. Het gebruikt gegevens van een opgeleid model om aantallen over de volledige reis te verstrekken om te zien hoe de reis in een echt wereldscenario zal gedragen."
 
+Met Reissimulatie kunt u uw reizen valideren en zien hoe ze presteren voordat ze worden geactiveerd. Het gebruikt gegevens van een opgeleid model om aantallen over de volledige reis te verstrekken om te zien hoe de reis in een echt wereldscenario zal gedragen.
