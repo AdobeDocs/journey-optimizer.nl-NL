@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 75dcd6d4a36b09809cdf4db3a0ae3ba3a1cb35b5
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 2%
+source-wordcount: '783'
+ht-degree: 1%
 
 ---
 
@@ -27,9 +27,17 @@ De op code-gebaseerde ervaring steunt om het even welk type van klantenimplement
 
 ## Implementatie op de client {#client-side-implementation}
 
-Als u een client-side implementatie hebt, kunt u een van de AEP client-SDK&#39;s gebruiken: AEP Web SDK of AEP Mobile SDK. De stappen beschrijven hieronder het proces om de inhoud te halen die op de rand door de op code-gebaseerde ervaringscampagnes in een implementatie van SDK van het steekproefWeb wordt gepubliceerd en de gepersonaliseerde inhoud te tonen.
+Als u een client-side implementatie hebt, kunt u een van de AEP client-SDK&#39;s gebruiken: AEP Web SDK of AEP Mobile SDK.
 
-### Werking
+* De stappen [onder](#client-side-how) beschrijf het proces om de inhoud te halen die op de rand door op code-gebaseerde ervaringscampagnes in een steekproef wordt gepubliceerd **Web SDK** implementatie en weergave van de gepersonaliseerde inhoud.
+
+* De stappen om code-gebaseerd kanaal uit te voeren die **Mobile SDK** worden beschreven in [deze zelfstudie](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+
+  >[!NOTE]
+  >
+  >Voorbeeldimplementaties voor mobiele toepassingen zijn beschikbaar voor [iOS-app](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} and [Android app](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
+
+### Hoe het werkt - Web SDK {#client-side-how}
 
 1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} is opgenomen op de pagina.
 
@@ -48,61 +56,61 @@ Als u een client-side implementatie hebt, kunt u een van de AEP client-SDK&#39;s
 
 1. Voor op code-gebaseerde ervaringscampagnes, moeten de vertoningsgebeurtenissen manueel worden verzonden om erop te wijzen wanneer de inhoud is getoond. Dit gebeurt via de `sendEvent` gebruiken.
 
-```javascript
-function sendDisplayEvent(decision) {
-  const { id, scope, scopeDetails = {} } = decision;
-
-  alloy("sendEvent", {
-
-    xdm: {
-      eventType: "decisioning.propositionDisplay",
-      _experience: {
-        decisioning: {
-          propositions: [
-            {
-              id: id,
-              scope: scope,
-              scopeDetails: scopeDetails,
-            },
-          ],
-        },
-      },
-    },
-  });
-}
-```
+   ```javascript
+   function sendDisplayEvent(decision) {
+     const { id, scope, scopeDetails = {} } = decision;
+   
+     alloy("sendEvent", {
+   
+       xdm: {
+         eventType: "decisioning.propositionDisplay",
+         _experience: {
+           decisioning: {
+             propositions: [
+               {
+                 id: id,
+                 scope: scope,
+                 scopeDetails: scopeDetails,
+               },
+             ],
+           },
+         },
+       },
+     });
+   }
+   ```
 
 1. Voor op code-gebaseerde ervaringscampagnes, moeten de interactiegebeurtenissen manueel worden verzonden om erop te wijzen wanneer een gebruiker met de inhoud heeft gecommuniceerd. Dit gebeurt via de `sendEvent` gebruiken.
 
-```javascript
-function sendInteractEvent(label, proposition) {
-  const { id, scope, scopeDetails = {} } = proposition;
-
-  alloy("sendEvent", {
-    
-    xdm: {
-      eventType: "decisioning.propositionInteract",
-      _experience: {
-        decisioning: {
-          propositions: [
-            {
-              id: id,
-              scope: scope,
-              scopeDetails: scopeDetails,
-            },
-          ],
-          propositionEventType: {
-            interact: 1
-          },
-          propositionAction: {
-            label: label
-          },
-        },
-      },
-    },
-  });
-}
-```
+   ```javascript
+   function sendInteractEvent(label, proposition) {
+     const { id, scope, scopeDetails = {} } = proposition;
+   
+     alloy("sendEvent", {
+   
+       xdm: {
+         eventType: "decisioning.propositionInteract",
+         _experience: {
+           decisioning: {
+             propositions: [
+               {
+                 id: id,
+                 scope: scope,
+                 scopeDetails: scopeDetails,
+               },
+             ],
+             propositionEventType: {
+               interact: 1
+             },
+             propositionAction: {
+               label: label
+             },
+           },
+         },
+       },
+     });
+   }
+   ```
 
 ### Belangrijke opmerkingen
 
@@ -130,7 +138,9 @@ Aanvragen aan de Adobe Experience Platform API zijn vereist om voorstellen te on
 
 ## Implementatie op de server {#server-side-implementation}
 
-Als u een server-zijimplementatie hebt, kunt u één AEP Edge Network API gebruiken. In de onderstaande stappen wordt beschreven hoe u de inhoud die aan de rand is gepubliceerd ophaalt met behulp van de op code gebaseerde ervaringscampagnes in een voorbeeld van een Edge Network API-implementatie voor een webpagina en hoe u de gepersonaliseerde inhoud weergeeft.
+Als u een server-zijimplementatie hebt, kunt u één AEP Edge Network API gebruiken.
+
+In de onderstaande stappen wordt beschreven hoe u de inhoud ophaalt die op de rand van de computer is gepubliceerd door de op code gebaseerde ervaringscampagnes in een voorbeeldimplementatie van de Edge Network-API voor een webpagina en hoe u de gepersonaliseerde inhoud weergeeft.
 
 ### Werking
 
