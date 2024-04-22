@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
+source-git-commit: c7dca8dd0d2761b204636020b427d76b617da26c
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1524'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ De bijbehorende machtiging toewijzen aan een specifieke **[!UICONTROL Role]**:
 
 1. Sleep de **[!UICONTROL IP Warmup Configurations]** bron om bevoegdheid toe te wijzen.
 
-1. Van de **[!UICONTROL IP Warmup Configurations]** bron drop-down, selecteer welke toestemmingen uw gebruiker wenst.
+1. Van de **[!UICONTROL IP Warmup Configurations]** bron drop-down, selecteer welke toestemmingen uw gebruiker nodig heeft: **[!UICONTROL View IP Warmup Plans]**, **[!UICONTROL Manage IP Warmup Plans]**, en/of **[!UICONTROL View IP Warmup Reports]**. U kunt ze allemaal tegelijk selecteren als dat nodig is.
 
    ![](assets/ip_permissions_2.png)
 
