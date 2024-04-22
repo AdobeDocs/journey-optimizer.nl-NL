@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Dynamische e-mailsubdomeinen configureren
-description: Leer hoe te om dynamische subdomeinen op het oppervlakniveau van het e-mailkanaal te vormen
+title: Instellingen van e-mailoppervlak aanpassen
+description: Leer hoe u gepersonaliseerde waarden voor uw instellingen definieert op het oppervlakniveau van het e-mailkanaal
 feature: Surface, Subdomains
 topic: Administration
 role: Admin
@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 94d39089d94b4fe42eb3fb95603426012b104517
+source-git-commit: 513fddf21eaf7958df45d97f028103519c77ec44
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---

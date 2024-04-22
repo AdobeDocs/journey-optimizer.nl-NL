@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c10a5917f5e1d5b1cac39c530af28c341f02206e
+source-git-commit: 513fddf21eaf7958df45d97f028103519c77ec44
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1750'
 ht-degree: 30%
 
 ---
@@ -204,6 +204,7 @@ ht-degree: 30%
    + E-mailkanaal configureren {#configure-email}
       + [Aan de slag met e-mailconfiguratie](using/email/get-started-email-config.md)
       + [Instellingen voor e-mailoppervlak configureren](using/email/email-settings.md)
+      + [Instellingen van e-mailoppervlak aanpassen](using/email/surface-personalization.md)
 + Kanaal in app{#in-app}
    + [Aan de slag met In-app-kanaal](using/in-app/get-started-in-app.md)
    + [Voorwaarden voor kanalen in de app](using/in-app/inapp-configuration.md)
