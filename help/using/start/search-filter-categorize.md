@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: 50d3be8fb8ae04e1cab747f6ba4b1024c5e3ec97
+source-git-commit: aa53f96068e0cfa84c1ac5ddd32d36b3fb4bbd03
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 7%
@@ -67,7 +67,6 @@ De **[!UICONTROL Tags]** kunt u tags voor het object definiëren. Tags zijn besc
 * [Fragmenten](../content-management/fragments.md)
 * [Abonnementenlijsten](../landing-pages/subscription-list.md)
 * [Landingspagina&#39;s](../landing-pages/create-lp.md)
-* 
 
 U kunt een bestaande tag selecteren of een nieuwe tag maken. Volg de onderstaande stappen om dit te doen.
 
