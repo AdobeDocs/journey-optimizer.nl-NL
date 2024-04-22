@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 50d3be8fb8ae04e1cab747f6ba4b1024c5e3ec97
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,7 @@ Voer de volgende stappen uit om een beslissingsitem te maken:
    1. Geef een naam en een beschrijving op.
    1. Begin- en einddatum opgeven. De beslissingsmotor zal het punt pas binnen deze data in overweging nemen.
    1. Stel de **[!UICONTROL Priority]** van de besluitvormingscomponent vergeleken met andere, als een profiel voor meerdere items in aanmerking komt. Bij een hogere prioriteit krijgt de post voorrang boven andere.
+   1. De **Tags** staat u toe om de Verenigde Markeringen van Adobe Experience Platform aan uw besluitvormingspunten toe te wijzen. Op deze manier kunt u ze gemakkelijk classificeren en zoeken verbeteren. [Leer hoe u met tags kunt werken](../start/search-filter-categorize.md#tags)
 
    ![](assets/item-attributes.png)
 
