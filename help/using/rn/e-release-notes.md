@@ -8,10 +8,10 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: f957737aa741cc8b854912414d15154489d1b0b0
+source-git-commit: 94308f93de1552e081c4966fe5436bf7a76418ec
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 5%
+source-wordcount: '521'
+ht-degree: 1%
 
 ---
 
@@ -21,52 +21,176 @@ ht-degree: 5%
 
 Opmerkingen bij de eerste release hieronder kunnen zonder voorafgaande kennisgeving worden gewijzigd tot de beschikbaarheidsdatum van de release. De verbindingen, de schermen en de bijgewerkte documentatie worden gepubliceerd in [releaseopmerkingen](release-notes.md), op de datum van vrijgave.
 
-## Opmerkingen bij de vervroegde release maart 2024 {#e-2024}
+## Opmerkingen bij de vervroegde release april 2024 {#e-2024}
 
-**Releasedatum**: 19-20 maart 2024
+**Releasedatum**: 30 april 2024
 
 ### Nieuwe functie {#e-features}
 
-Met deze release wordt de nieuwe functionaliteit hieronder beschreven.
+Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Ervaringen op basis van code</strong><br/></th>
+<th><strong>Business rules - Private Beta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Met het nieuwe op code-gebaseerde ervaringskanaal, staat Adobe Journey Optimizer u toe om geavanceerde verpersoonlijking en het testen voor om het even welk van uw binnenkomende eigenschappen te doen, toelatend naadloze levering van op maat gemaakte ervaringen over diverse aanraakpunten zoals Web apps, mobiele apps, Desktop apps, videoconsoles, TV aangesloten apparaten, slimme TVs, kiosken, ATMs, IoT apparaten, en meer.</p>
-<P>De belangrijkste mogelijkheden omvatten:</p>
-<ul><li> Universele verpersoonlijking: vergroot persoonlijke ervaringen op alle aanraakpunten, zodat een samenhangende en op maat gesneden gebruikersreis mogelijk is</li>
-<li>Precisie voor bewerking in korrels: bewerk specifieke inhoud op afzonderlijke locaties in uw apps of webpagina's</li>
-<li>Veelzijdige implementatie: ondersteuning voor implementatiemethoden die zijn gebaseerd op servers, API's of SDK's, zodat deze naadloos kunnen worden geïntegreerd met uw ontwikkelomgeving.</li></ul></p>
-<p>Raadpleeg de <a href="../code-based/get-started-code-based.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<img src="assets/do-not-localize/code-based.gif">
+<p>It is now possible to create and apply rule sets to your marketing communications.  </p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Ervaring beslissen - Beperkte beschikbaarheid</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ervaring Beslissen vereenvoudigt personalisatie door een gecentraliseerde catalogus van marketingaanbiedingen aan te bieden, die bekend staan als 'beslissingspunten' en een geavanceerde beslissingsengine. Deze motor hanteert regels en rangschikkingscriteria om de meest relevante beslissingsitems te selecteren en aan elk individu voor te leggen.</p>
+<p>Deze beslissingsitems worden naadloos geïntegreerd in een breed scala aan binnenkomende oppervlakken via het nieuwe op code gebaseerde ervaringskanaal, dat nu toegankelijk is in Journey Optimizer-campagnes.</p>
+<p>Experience Decisioning is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.</p>
+</td>
 </tr>
 </tbody>
 </table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Personalization - Local Lookups - Multi-Entity Support - Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>TBD</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>MMS (Multimedia Message Service) met Infobip</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met het Kanaal van SMS, kunt u uw mededeling nu verbeteren door de MMS-berichten (Multimedia Message Service) te verzenden, toelatend het delen van beelden, GIFFEN, of video's met uw klanten. Deze functie die voorheen alleen beschikbaar was bij Sinch, is nu ook beschikbaar bij Infobip.</p>
+<img src="assets/do-not-localize/mms.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!-- table>
+<thead>
+<tr>
+<th><strong>AI Assistant - Experience Variant Generation - Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Once you have created and personalized your message, take your content to the next level with the AI assistant. You can now use the AI assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>IP Warmup Workflow - LA</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now easily perform IP warmup workflows directly from the Journey Optimizer interface in a standardized and efficient way that follows the best practices for optimal deliverability.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Email Surface Personalization - Private beta </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now define dynamic subdomains and personalized header parameters when creating email channel surfaces, for increased flexibility and control over your email settings.</p>
+</td>
+</tr>
+</tbody>
+</table-->
 
 ### Verbeteringen {#e-improvements}
 
 Deze release bevat de verbeteringen die hieronder worden vermeld.
 
-**Contentsjablonen**
+<!--
+* **ExD reporting in AEP**: TBD
+-->
 
-* **Miniaturen** - A **Rasterweergave** De modus is nu beschikbaar voor inhoudssjablonen en geeft miniaturen weer voor verbeterde visuele toegang. Momenteel worden alleen e-mailsjablonen ondersteund. [Meer informatie](../content-management/content-templates.md#template-thumbnails)
+**Doelgroepen**
 
-  >[!AVAILABILITY]
-  >
-  >Dit vermogen wordt vrijgegeven in Beperkte Beschikbaarheid (LA) voor een kleine reeks klanten.
+* U kunt nu soorten publiek en kenmerken uit de publiekscompositie gebruiken met het Healthcare Shield en het privacyschild.
+* U kunt nu aangepaste upload (CSV-bestand) gebruiken met Healthcare Shield en Privacy &amp; Security Shield.
+
+<!--
+* **Experience Decisioning + Code-based experiences (LA)**: You can now leverage the Experience decisioning feature to use decision items in your code-based campaigns. Note: The Code-based experience channel and Experience decisioning are not available for organizations that have purchased the Adobe Healthcare Shield and Privacy and Security Shield add-on offerings.
+-->
+<!--
+* **Expression Fragments supported for Web and In-App**: Expression fragments are now available for the Web and In-app channels. 
+-->
+
+
+<!--
+* **DULE for AJO Channel Surface**: It is now possible to apply a label on certain profile attributes to restrict their usage inside a channel surface through marketing actions.
+-->
+
+
+<!--
+* **List-Unsubscribe updates**: Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. 
+-->
+
+**Beslissingsbeheer**
+
+* De **Logbestand wijzigen** , zodat u kunt zien welke wijzigingen in een voorstel of een beslissing zijn aangebracht. Wijzigingen met betrekking tot aanbiedingen en besluiten zijn nu te zien in de **Audits** -menu.
+
+**Ervaring beslissen**
+
+Van bèta tot LA zijn de verbeteringen die zijn aangebracht:
+
+* U kunt nu contextgegevens van Adobe Experience Platform in uw beslissingsregels gebruiken met de **Contextgegevens** tab.
+* Er is nu een nieuwe machtiging &quot;Ervaring beheren&quot; beschikbaar voor de Beslissingsbeheerbron. Hiermee kunt u rechten beheren die betrekking hebben op het bepalen van ervaring.
+* U kunt nu meerdere regels voor het afdekken van bedragen toevoegen voor één aanbieding. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden.
+* U kunt nu veelvoudige het begrenzen regels voor een bepaald besluitpunt in het Beslissen van de Ervaring toevoegen. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden.
 
 **Reizen**
 
-Er zijn nieuwe tussenliggende statussen toegevoegd aan de levenscyclus van de reisontwerpfase:
+* **Verbeterde reisontwerper**:
 
-* **Publiceren** tussen de **Concept** en de **Live** status
-* **Stoppen** tussen de **Live** en de **Gestopt** status
-* **Testmodus activeren** of **Deactivering van de testmodus** statussen tussen de **Concept** en de **Concept (test)** status
+   * De verbeterde interface van het canvas biedt een intuïtievere en efficiëntere gebruikerservaring.
+   * De activiteiten zijn duidelijker en geven meer informatie over het reiscanvas met minder kliks.
 
-Wanneer een reis in een tussenstadium is, is het read-only.
+* **Nieuwe actieve rapportage**: De rapportage voor reizen is nu toegankelijk via de aanvraag Live-rapporten. Dit is een toepassing die veel inzicht biedt in de uitvoering van de reis.
+
+**Configuratie**
+
+* U kunt nu een marketingactie op het niveau van het kanaaloppervlak selecteren. Bij gebruik op een oppervlak worden alle toestemmingsbeleidsregels die aan die marketingactie zijn gekoppeld, benut om de voorkeuren van uw klanten te respecteren.
+* Het gebruik van Toegangsbeheer op objectniveau is nu beschikbaar voor kanaaloppervlakken.
+
