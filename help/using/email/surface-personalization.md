@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 513fddf21eaf7958df45d97f028103519c77ec44
+source-git-commit: 56c2708408d15286f008c9f2c16581ce0f0a1c4e
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,7 @@ Voor meer flexibiliteit en controle over uw e-mailinstellingen [!DNL Journey Opt
 >id="ajo_surface_dynamic_subdomain_list"
 >title="Sommige subdomeinen zijn mogelijk niet beschikbaar"
 >abstract="Bepaalde subdomeinen zijn momenteel niet beschikbaar voor selectie vanwege de registratie van de feedbacklus die in behandeling is. Dit proces kan tot 10 werkdagen duren. Na voltooiing kunt u kiezen uit alle beschikbare subdomeinen."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Aan de slag met subdomeindelegatie"
 
 Wanneer u een e-mailoppervlak maakt, kunt u dynamische subdomeinen instellen op basis van specifieke voorwaarden.
 
