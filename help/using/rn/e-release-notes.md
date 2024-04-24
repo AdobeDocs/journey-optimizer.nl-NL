@@ -8,7 +8,7 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 542716f61e5e8d1aa4964fabc98bc4a938f41169
+source-git-commit: f11f935f6c6576af0b7c653a37b3dbf8e061df0d
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 1%
@@ -175,6 +175,9 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 Van bèta tot LA zijn de verbeteringen die zijn aangebracht:
 
+<!-- TO CONFIRM * Experience Decisioning left navigation menus have been renamed:
+    * "Items" is now "Catalogs"
+    * "Configuration" is now "Strategy setup"-->
 * U kunt nu contextgegevens van Adobe Experience Platform in uw beslissingsregels gebruiken met de **Contextgegevens** tab.
 * Er is nu een nieuwe machtiging &quot;Ervaring beheren&quot; beschikbaar voor de Beslissingsbeheerbron. Hiermee kunt u rechten beheren die betrekking hebben op het bepalen van ervaring.
 * U kunt nu meerdere regels voor het afdekken van bedragen toevoegen voor één aanbieding. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden.
