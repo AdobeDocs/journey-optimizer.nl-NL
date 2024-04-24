@@ -8,7 +8,7 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 409aaf7f8458a118e0f8d3aae481c2af047b3251
+source-git-commit: 3c9619c25f3e70e492e3fbb35521e10a66537a6a
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 1%
@@ -141,10 +141,6 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 
 Deze release bevat de verbeteringen die hieronder worden vermeld.
 
-<!--
-* **ExD reporting in AEP**: TBD
--->
-
 **Doelgroepen**
 
 * U kunt nu soorten publiek en kenmerken uit de publiekscompositie gebruiken met het Healthcare Shield en het privacyschild.
@@ -175,9 +171,6 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 Van bèta tot LA zijn de verbeteringen die zijn aangebracht:
 
-<!-- TO CONFIRM * Experience Decisioning left navigation menus have been renamed:
-    * "Items" is now "Catalogs"
-    * "Configuration" is now "Strategy setup"-->
 * U kunt nu contextgegevens van Adobe Experience Platform in uw beslissingsregels gebruiken met de **Contextgegevens** tab.
 * Er is nu een nieuwe machtiging &quot;Ervaring beheren&quot; beschikbaar voor de Beslissingsbeheerbron. Hiermee kunt u rechten beheren die betrekking hebben op het bepalen van ervaring.
 * U kunt nu meerdere regels voor het afdekken van bedragen toevoegen voor één aanbieding. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden.
