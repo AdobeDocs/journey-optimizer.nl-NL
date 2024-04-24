@@ -8,9 +8,9 @@ description: Nieuwe interface voor reizen
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 0b1b1440d43ceadf4d943011d5e30e6ad0a64dbb
+source-git-commit: 17dc12f66a740b1ebea360aa20453d9b750d3e5c
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ We hebben een **vereenvoudigd reismodel** dat beoogt de interne processen te ver
 
 * A **herontworpen reiscanvas** gemaakt voor een gemoderniseerde gebruikersinterface-ervaring
 * A **live rapportage** UI direct beschikbaar in het wegcanvas
+
+>[!AVAILABILITY]
+>
+>Houd er rekening mee dat de rollout voor deze functie progressief zal zijn. De wijzigingen worden misschien niet meteen weergegeven.
 
 ## Updates van het reismodel
 
@@ -74,20 +78,28 @@ Het staat het productteam ook toe om meer informatie op het canvas met minder kl
 
 ## Live rapportering op het canvas van de reis
 
-Naast het verbeterde ontwerp van het reiscanvas introduceren we de mogelijkheid om te zien **meetgegevens voor rapportage van afgelopen 24 uur** (ook wel &quot;live rapportering&quot; genoemd) rechtstreeks op het canvas van de reis.
+Naast het verbeterde ontwerp van het reiscanvas introduceren we de mogelijkheid om te zien, **op elke activiteit**, het aantal profielen dat deze activiteit heeft ingevoerd en het nummer dat is afgesloten vanwege een fout:
+
+<!--
+**last 24 hours reporting metrics** (called "live reporting") directly in the journey canvas.
 
 ![](assets/new-canvas6.png)
 
-Met elke live reis op het nieuwe model, zult u twee types van &quot;laatste 24 uren&quot;rapporteringsinformatie kunnen zien:
+With every live journey on the new model, you will be able to see two types of "last 24 hours" reporting information:
 
-* Op een **nieuwe invoeging**, ziet u:
-   * Het aantal profielen dat is geëxporteerd voor door het publiek geïnitieerde reizen. Het aantal profielen dat beschikbaar is in de laatste exporttaak wordt weergegeven naast de tijd waarop die exportbewerking is uitgevoerd.
-   * Het aantal profielen dat de reis heeft verlaten
-   * Het percentage fouten
-     ![](assets/new-canvas7.png)
-* **Op elke activiteit**, ziet u het aantal profielen dat deze activiteit heeft ingevoerd en het nummer dat is afgesloten als gevolg van een fout:
-  ![](assets/new-canvas8.png)
+* On a **new insert**, you will see:
+    * The number of profiles that have been exported for audience-triggered journeys. You will see the number of profiles available in the last export job alongside the time when that export has been made.
+    * The number of profiles who exited the journey
+    * The percentage of errors
+    ![](assets/new-canvas7.png)
+
+* **On each activity**, you will see the number of profiles who entered that activity and the number who exited because of an error:
+-->
+
+![](assets/new-canvas8.png)
 
 De gebruikersinterface wordt automatisch elke minuut vernieuwd.
 
-Houd er rekening mee dat er verschillen kunnen optreden tussen het aantal geëxporteerde profielen en het aantal profielen dat de reis doorloopt. Het aantal geëxporteerde profielen geeft alleen informatie over de laatste exporttaak die wordt uitgevoerd, terwijl het aantal profielen dat een activiteit activeert alleen profielen bevat die dit in de afgelopen 24 uur hebben gedaan. Dit kan met name zichtbaar zijn op terugkerende dagelijkse reizen, aangezien er gegevens kunnen overlappen tussen twee dagen.
+<!--
+Please note that you may see differences between the number of exported profiles and the number of profiles flowing through the journey. The exported profiles count only provides information about the last export job being made while the number of profiles entering an activity only contains profiles who did it in the last 24 hours. This can especially be visible on recurring daily journeys as there could be a data overlap between two days.
+-->
