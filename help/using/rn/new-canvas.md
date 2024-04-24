@@ -8,7 +8,7 @@ description: Nieuwe interface voor reizen
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: f6b9060ed512d6abff37102fa1316b43736bebd5
+source-git-commit: 0b1b1440d43ceadf4d943011d5e30e6ad0a64dbb
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
@@ -26,7 +26,8 @@ Welkom bij de verbeterde reisontwerper!
 
 We hebben een **vereenvoudigd reismodel** dat beoogt de interne processen te verbeteren . Hoewel dit nieuwe model een back-endverbetering is, heeft ons team de gelegenheid aangegrepen om functies toe te voegen die zichtbaar en gunstig zijn voor Journey Optimizer-gebruikers:
 
-A **herontworpen reiscanvas** gemaakt voor een gemoderniseerde interface-ervaring A **live rapportage** UI direct beschikbaar in het wegcanvas
+* A **herontworpen reiscanvas** gemaakt voor een gemoderniseerde gebruikersinterface-ervaring
+* A **live rapportage** UI direct beschikbaar in het wegcanvas
 
 ## Updates van het reismodel
 
