@@ -8,9 +8,9 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: f11f935f6c6576af0b7c653a37b3dbf8e061df0d
+source-git-commit: 409aaf7f8458a118e0f8d3aae481c2af047b3251
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '546'
 ht-degree: 1%
 
 ---
@@ -182,6 +182,7 @@ Van bèta tot LA zijn de verbeteringen die zijn aangebracht:
 * Er is nu een nieuwe machtiging &quot;Ervaring beheren&quot; beschikbaar voor de Beslissingsbeheerbron. Hiermee kunt u rechten beheren die betrekking hebben op het bepalen van ervaring.
 * U kunt nu meerdere regels voor het afdekken van bedragen toevoegen voor één aanbieding. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden.
 * U kunt nu veelvoudige het begrenzen regels voor een bepaald besluitpunt in het Beslissen van de Ervaring toevoegen. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden.
+* U kunt nu aangepaste rapporteringsdashboards maken van campagnes voor het nemen van beslissingen over ervaringen met [!DNL Customer Journey Analytics].
 
 **Reizen**
 
