@@ -8,7 +8,7 @@ description: Nieuwe interface voor reizen
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 596426f3b75a2e6f2d68e5b9218863c2d8887cca
+source-git-commit: eb964ee9fb0891692adf5b5a9143ef2d6ad450ac
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -29,7 +29,7 @@ We hebben een **vereenvoudigd reismodel** dat beoogt de interne processen te ver
 * A **herontworpen reiscanvas** gemaakt voor een gemoderniseerde gebruikersinterface-ervaring
 * A **live rapportage** UI direct beschikbaar in het wegcanvas
 
->[!AVAILABILITY]
+>[!NOTE]
 >
 >Houd er rekening mee dat de rollout voor deze functie progressief zal zijn. De wijzigingen worden misschien niet meteen weergegeven.
 
