@@ -8,73 +8,85 @@ description: Nieuwe interface voor reizen
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 3944c7b96baf227e4c0c1e7e1a225c1ce1ad0142
+source-git-commit: f6b9060ed512d6abff37102fa1316b43736bebd5
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
 
-# Nieuwe interface voor reizen {#new-canvas}
+# Welkom bij de verbeterde reisontwerper {#new-canvas}
 
 >[!CONTEXTUALHELP]
 >id="ajo_new_canvas"
 >title="Nieuwe functies"
 >abstract="Nieuw canvas"
 
-We hebben gewerkt aan een vereenvoudiging van het reismodel, gericht op het faciliteren van enkele interne processen. Deze modelwijziging is op zich transparant voor u, behalve dat we de gelegenheid hebben aangegrepen om nieuwe capaciteiten in te voeren naast:
+Welkom bij de verbeterde reisontwerper!
 
-* Een nieuw ontwerp voor een reiscanvas
-* Live rapportering in toegankelijke vorm op het canvas Journey
-* Verbeter de leesbaarheid van het reiscanvas en maak het activiteitenontwerp scalable zodat wij meer informatie op het activiteitenniveau voor huidige en toekomstige verhogingen kunnen verstrekken.
+We hebben een **vereenvoudigd reismodel** dat beoogt de interne processen te verbeteren . Hoewel dit nieuwe model een back-endverbetering is, heeft ons team de gelegenheid aangegrepen om functies toe te voegen die zichtbaar en gunstig zijn voor Journey Optimizer-gebruikers:
+
+A **herontworpen reiscanvas** gemaakt voor een gemoderniseerde interface-ervaring A **live rapportage** UI direct beschikbaar in het wegcanvas
 
 ## Updates van het reismodel
 
-Het nieuwe reismodel zal naast het bestaande model blijven bestaan, wat betekent dat er reizen zullen worden gemaakt op basis van twee verschillende modellen:
+Het nieuwe reismodel zal naast het bestaande model leven, wat betekent dat er reizen zullen worden gemaakt met **twee verschillende modellen**:
 
 * De oude, genaamd &quot;v1&quot;
 * En de nieuwe, genaamd &quot;v2&quot;
 
-Alle reizen in v1 blijven in v1. U kunt deze nog steeds bewerken, testen of publiceren. Elke nieuwe versie die van een v1 wordt gemaakt, blijft in v1. Er zijn geen functionele wijzigingen rond v1-reizen.
+Alle reizen in v1 blijven in v1. U kunt deze nog steeds bewerken, testen of publiceren. Elke nieuwe versie die van een v1 wordt gemaakt, blijft ook in v1. Er zijn **geen functionele wijzigingen** rond v1 - reizen.
 
-U kunt zien dat een reis in v1 met zijn canvasontwerp is:
+Zoals u in het onderstaande schermafbeelding ziet, zijn de knooppunten ronde vormen. Dit is de oude interface voor reizen op het v1-model.
 
-[SCREENSHOT]
+![](assets/new-canvas.png)
 
-Als het ronde activiteiten bevat, is het een v1.
+Wanneer u echter **een nieuwe reis maken** of **bestaande dupliceren**, het wordt een v2 - reis .  We zijn van plan om v1-reizen te blijven ondersteunen totdat een meerderheid van de klanten overstappen op v2-reizen.
 
-Wanneer u echter een nieuwe reis maakt of een bestaande reis dupliceert, is het een v2-reis. Daarom verwachten we dat er in de loop der tijd steeds minder v1-reizen zullen plaatsvinden. Verzeker u ervan dat we de bestaande live v1-reizen zullen blijven steunen.
+Er is één beperking op het nieuwe reismodel: **kan geen activiteiten kopiëren en plakken van een v1-reis naar een v2-reis en omgekeerd**. Als u dit wilt doen, raden we u aan uw v1-reis te dupliceren om er een v2 van te maken en vervolgens uw activiteiten te kopiëren.
 
-Zoals we al hebben gezegd, is dit nieuwe model transparant voor de gebruikers, met uitzondering van één beperking: het zal niet mogelijk zijn om activiteiten te kopiëren en te plakken van een v1-reis naar een v2-reis en omgekeerd. We raden u aan uw v1-reis te dupliceren om automatisch een v2-reis te maken.
+In de onderstaande schermafbeelding ziet u de opnieuw ontworpen gebruikersinterface voor het reiscanvas (alleen beschikbaar met het v2-model):
 
-U kunt zien dat een reis in v2 met het nieuwe canvasontwerp (cf hieronder) is:
+![](assets/new-canvas2.png)
 
-[SCREENSHOT]
+**Elke nieuwe functie die aan de reisontwerper wordt toegevoegd (inclusief live rapportering), is alleen beschikbaar voor v2-reizen vanaf dit moment.**
 
-Alle nieuwe functies rond het reiscanvas (inclusief Live Reporting) worden uitsluitend beschikbaar gesteld op v2-reizen.
+## Verbeterd ontwerp van reiscanvas
 
-## Nieuw canvasontwerp voor reis
+Met het nieuwe reismodel introduceren we een nieuw en verbeterd model **interface reiscanvas**, die naadloos past binnen het Adobe Experience Cloud-systeem voor oplossingen en toepassingen, waardoor een intuïtieve en efficiënte gebruikerservaring mogelijk wordt. Elke reis in de v2 stapel zal op dat nieuwe ontwerp zijn.
 
-Met het nieuwe reismodel introduceren we een nieuw ontworpen Journey canvas, dat naadloos past in de Adobe Experience Cloud-oplossingen en het app-ecosysteem, en zorgt voor een intuïtieve en efficiënte gebruikerservaring. Elke reis in de v2 stapel zal op dat nieuwe ontwerp zijn.
+![](assets/new-canvas3.gif)
 
-[SCREENSHOT]
-
-De activiteiten worden nu vertegenwoordigd door vierkante dozen met:
+De activiteiten zullen nu worden vertegenwoordigd door vierkante dozen met de volgende mogelijkheden:
 
 * De eerste regel die het activiteitstype vertegenwoordigt en die vaak wordt overschreven door meer contextuele informatie (bijvoorbeeld: bij Lezen publiek bevat deze de naam van het geselecteerde publiek) of door een aangepast label als u er een definieert.
-* De tweede live vertegenwoordigt altijd het type activiteit.
+* De tweede regel vertegenwoordigt altijd het type activiteit.
 
-[SCREENSHOT]
+![](assets/new-canvas4.png)
 
-Dit nieuwe ontwerp verbetert de leesbaarheid van het reiscanvas door..
+Deze nieuwe interface verbetert de leesbaarheid van het reiscanvas door **duidelijkere activiteitenetiketten en types**.
 
-Het is ook schaalbaarder om ons toe te staan om meer informatie op het activiteitenniveau te verstrekken, zoals wij begonnen met levende rapportering te doen.
+Het staat het productteam ook toe om meer informatie op het canvas met minder kliks toe te voegen. Een voorbeeld van &quot;meer informatie&quot; zou de opname van live rapportering in het reiscanvas zijn, waar u profielen kunt zien die uw activiteiten betreden en verlaten vanwege fouten.
 
-[SCREENSHOT]
+![](assets/new-canvas5.png)
 
-Verwacht dat er in de komende maanden nieuwe veranderingen zullen komen rond dat nieuwe ontwerp!
 
-## Live rapportage
+## Live rapportering op het canvas van de reis
 
-* GIF
-* live rapportage
+Naast het verbeterde ontwerp van het reiscanvas introduceren we de mogelijkheid om te zien **meetgegevens voor rapportage van afgelopen 24 uur** (ook wel &quot;live rapportering&quot; genoemd) rechtstreeks op het canvas van de reis.
+
+![](assets/new-canvas6.png)
+
+Met elke live reis op het nieuwe model, zult u twee types van &quot;laatste 24 uren&quot;rapporteringsinformatie kunnen zien:
+
+* Op een **nieuwe invoeging**, ziet u:
+   * Het aantal profielen dat is geëxporteerd voor door het publiek geïnitieerde reizen. Het aantal profielen dat beschikbaar is in de laatste exporttaak wordt weergegeven naast de tijd waarop die exportbewerking is uitgevoerd.
+   * Het aantal profielen dat de reis heeft verlaten
+   * Het percentage fouten
+     ![](assets/new-canvas7.png)
+* **Op elke activiteit**, ziet u het aantal profielen dat deze activiteit heeft ingevoerd en het nummer dat is afgesloten als gevolg van een fout:
+  ![](assets/new-canvas8.png)
+
+De gebruikersinterface wordt automatisch elke minuut vernieuwd.
+
+Houd er rekening mee dat er verschillen kunnen optreden tussen het aantal geëxporteerde profielen en het aantal profielen dat de reis doorloopt. Het aantal geëxporteerde profielen geeft alleen informatie over de laatste exporttaak die wordt uitgevoerd, terwijl het aantal profielen dat een activiteit activeert alleen profielen bevat die dit in de afgelopen 24 uur hebben gedaan. Dit kan met name zichtbaar zijn op terugkerende dagelijkse reizen, aangezien er gegevens kunnen overlappen tussen twee dagen.
