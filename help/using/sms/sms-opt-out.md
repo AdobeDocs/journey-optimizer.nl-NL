@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: d7b784f10e267878fd0df9360ed0d1be24699a53
+source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Er zijn geen stappen vereist om ervoor te zorgen dat de mogelijkheden voor SMS-o
 
 ## Lijsten van gewezen personen {#sms-blocklists}
 
-Naast het tegenhouden van Adobe Journey Optimizer verzendt op basis van de opt-out status (voor directe integratie met Twilio of Sinch), handhaven de meeste de gatewayleveranciers van SMS ook een lijst van gewezen personen die u verzekert dat een bericht van SMS niet aan een individu wordt geleverd die heeft verkozen om uit te kiezen. Als u een andere provider dan Sinch of Twilio gebruikt en een SMS-bericht verzendt via [aangepast kanaal](../building-journeys/using-custom-actions.md)moet u dit bevestigen met uw provider.
+Naast het tegenhouden van Adobe Journey Optimizer verzendt op basis van de opt-out status (voor directe integratie met Twilio, Infobip, of Sinch), handhaven de meeste gatewayproviders van SMS ook een lijst van gewezen personen die u ervoor zorgt dat geen SMS-bericht wordt geleverd aan een individu dat ervoor heeft gekozen om te weigeren. Als u een andere provider dan Sinch of Twilio gebruikt en een SMS-bericht verzendt via [aangepast kanaal](../building-journeys/using-custom-actions.md)moet u dit bevestigen met uw provider.
 
 
 ## Korte codes {#short-codes}

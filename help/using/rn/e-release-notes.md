@@ -6,9 +6,9 @@ description: Opmerkingen bij de vervroegde release van Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: acd195e669d653b52ba7722e9e01db28a5a7d2b7
+source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '503'
 ht-degree: 1%
 
 ---
@@ -77,13 +77,13 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <table>
 <thead>
 <tr>
-<th><strong>MMS (Multimedia Message Service) met Infobip</strong><br/></th>
+<th><strong>Multimedia Message Service (MMS) - alle providers</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Met het Kanaal van SMS, kunt u uw mededeling nu verbeteren door de MMS-berichten (Multimedia Message Service) te verzenden, toelatend het delen van beelden, GIFFEN, of video's met uw klanten. Deze functie die voorheen alleen beschikbaar was bij Sinch, is nu ook beschikbaar bij Infobip.</p>
+<p>Met het Kanaal van SMS, kunt u uw mededeling nu verbeteren door de MMS-berichten (Multimedia Message Service) te verzenden, toelatend het delen van beelden, GIFFEN, of video's met uw klanten. In eerste instantie alleen beschikbaar bij Sinch, is MMS nu ook beschikbaar bij Infobip en Twilio.</p>
 <img src="assets/do-not-localize/mms.gif"/>
 </td>
 </tr>

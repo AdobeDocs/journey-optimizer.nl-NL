@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: archief, berichten, HIPAA, BCC, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 2%
+source-wordcount: '1084'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ Regels zoals HIPAA schrijven voor dat [!DNL Journey Optimizer] moeten een manier
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] heeft geen eigen ondersteuning voor de archiveringsvereisten voor SMS. Voor specifieke archiefondersteuning werkt u samen met uw SMS-leverancier (Synch of Twilio).
+>[!DNL Journey Optimizer] heeft geen eigen ondersteuning voor de archiveringsvereisten voor SMS. Voor specifieke archiefsteun, werk met uw verkoper van SMS (Synch, Infobip, of Twilio).
 
 ## BCC gebruiken voor e-mailberichten {#bcc-email}
 
