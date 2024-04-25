@@ -8,9 +8,9 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 281387d650dc3a6c67ba365cd804f2b875dcd60b
+source-git-commit: 882af161383a54a1f9b09d2a8d0cab84abbf7dcd
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '502'
 ht-degree: 1%
 
 ---
@@ -164,7 +164,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Ervaring beslissen**
 
-Van bèta tot LA zijn de verbeteringen die zijn aangebracht:
+Van bèta naar LA zijn de volgende verbeteringen toegevoegd:
 
 * U kunt nu contextgegevens van Adobe Experience Platform in uw beslissingsregels gebruiken met de **Contextgegevens** tab.
 * Er is nu een nieuwe machtiging &quot;Ervaring beheren&quot; beschikbaar voor de Beslissingsbeheerbron. Hiermee kunt u rechten beheren die betrekking hebben op het bepalen van ervaring.
@@ -174,12 +174,12 @@ Van bèta tot LA zijn de verbeteringen die zijn aangebracht:
 
 **Reizen**
 
-* **Verbeterde reisontwerper**:
+* **Verbeterde reisontwerper**
 
    * De verbeterde interface van het canvas biedt een intuïtievere en efficiëntere gebruikerservaring.
    * De activiteiten zijn duidelijker en geven meer informatie over het reiscanvas met minder kliks.
 
-* **Nieuwe actieve rapportage**: De rapportage voor reizen is nu toegankelijk via de aanvraag Live-rapporten. Dit is een toepassing die veel inzicht biedt in de uitvoering van de reis.
+* **Nieuwe actieve rapportage**: De laatste 24 uur van de reisrapportage is nu direct toegankelijk op het canvas van de Reis.
 
 **Configuratie**
 
