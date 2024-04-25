@@ -8,9 +8,9 @@ topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 hide: true
 hidefromtoc: true
-source-git-commit: 3c9619c25f3e70e492e3fbb35521e10a66537a6a
+source-git-commit: 281387d650dc3a6c67ba365cd804f2b875dcd60b
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '513'
 ht-degree: 1%
 
 ---
@@ -140,11 +140,6 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 ### Verbeteringen {#e-improvements}
 
 Deze release bevat de verbeteringen die hieronder worden vermeld.
-
-**Doelgroepen**
-
-* U kunt nu soorten publiek en kenmerken uit de publiekscompositie gebruiken met het Healthcare Shield en het privacyschild.
-* U kunt nu aangepaste upload (CSV-bestand) gebruiken met Healthcare Shield en Privacy &amp; Security Shield.
 
 <!--
 * **Experience Decisioning + Code-based experiences (LA)**: You can now leverage the Experience decisioning feature to use decision items in your code-based campaigns. Note: The Code-based experience channel and Experience decisioning are not available for organizations that have purchased the Adobe Healthcare Shield and Privacy and Security Shield add-on offerings.
