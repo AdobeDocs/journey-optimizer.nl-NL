@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3eb9466e-9d88-4470-a22f-5e24a29923ae
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Nadat het publiek is geselecteerd, wordt het geschatte aantal profielen onder aa
 
 ## Activiteiten toevoegen {#action-activities}
 
-Voeg activiteiten toe nadat u het beginpubliek hebt geselecteerd om de selectie te verfijnen.
+Voeg activiteiten toe nadat u het eerste publiek hebt geselecteerd om de selectie te verfijnen.
 
 Om dit te doen, klik + knoop op de samenstellingsweg dan selecteren de gewenste activiteit. Het juiste paneel opent, toestaand u om de onlangs toegevoegde activiteit te vormen.
 

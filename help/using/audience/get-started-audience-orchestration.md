@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
 >title="Een compositie maken"
->abstract="Maak een compositieworkflow om bestaande Adobe Experience Platform-doelgroepen te combineren tot een visueel canvas en gebruik verschillende activiteiten (splitsen, uitsluiten...) om een nieuw publiek te maken."
+>abstract="Een compositieworkflow maken om bestaande Adobe Experience Platform-doelgroepen te combineren tot een visueel canvas en verschillende activiteiten (splitsen, uitsluiten...) gebruiken om nieuwe doelgroepen te maken."
 
 >[!BEGINSHADEBOX]
 
