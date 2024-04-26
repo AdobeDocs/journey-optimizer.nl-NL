@@ -8,9 +8,9 @@ description: Nieuwe interface voor reizen
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 87e3ba96d05d41c87f314773e95eb0fcf0a2cfe3
+source-git-commit: b40ca1f681ebbaf976ab211c96eb2987cc44f5b8
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Met het nieuwe reismodel introduceren we een nieuwe en verbeterde **interface re
 
 De activiteiten zullen nu worden vertegenwoordigd door vierkante dozen met de volgende mogelijkheden:
 
-* De eerste regel die het activiteitstype vertegenwoordigt en die vaak wordt overschreven door meer contextuele informatie (bijvoorbeeld: bij Lezen publiek bevat deze de naam van het geselecteerde publiek) of door een aangepast label als u er een definieert.
+* De eerste regel die het activiteitstype vertegenwoordigt dat vaak wordt overschreven door meer contextuele informatie (bij Lezen publiek bevat deze de naam van het geselecteerde publiek) of door een aangepast label als u er een definieert.
 * De tweede regel vertegenwoordigt altijd het type activiteit.
 
 ![](assets/new-canvas4.png)
