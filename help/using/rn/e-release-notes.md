@@ -6,9 +6,9 @@ description: Opmerkingen bij de vervroegde release van Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1505c21bb66cb08d6f0d864aa92afb3a04ed3fa5
+source-git-commit: b64cb709813c479b2f126ba61a5fddaef61eecdd
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '275'
 ht-degree: 5%
 
 ---
@@ -103,7 +103,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <img src="assets/new-canvas3.gif"/>
 <p>Naast het verbeterde ontwerp van het reiscanvas introduceren we de mogelijkheid om de laatste 24 uur metriek direct in het reiscanvas te zien. </p>
 <img src="assets/new-canvas6bis.png"/>
-<p><strong>Opmerking</strong>:Deze wijziging wordt geleidelijk doorgevoerd. De wijzigingen worden mogelijk niet direct in uw omgeving weergegeven.</p>
+<p><strong>Opmerking</strong>: Deze wijzigingen worden geleidelijk doorgevoerd in alle omgevingen vanaf de release van april.</p>
 <p>Raadpleeg de <a href="new-canvas.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
