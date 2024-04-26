@@ -6,9 +6,9 @@ description: Opmerkingen bij de vervroegde release van Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
+source-git-commit: f133a33237fccacbf800de445c27684de4f42453
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '478'
 ht-degree: 1%
 
 ---
@@ -166,7 +166,6 @@ Van bèta naar LA zijn de volgende verbeteringen toegevoegd:
 
 * U kunt nu contextgegevens van Adobe Experience Platform in uw beslissingsregels gebruiken met de **Contextgegevens** tab.
 * Er is nu een nieuwe machtiging &quot;Ervaring beheren&quot; beschikbaar voor de Beslissingsbeheerbron. Hiermee kunt u rechten beheren die betrekking hebben op het bepalen van ervaring.
-* U kunt nu meerdere regels voor het afdekken van bedragen toevoegen voor één aanbieding. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden.
 * U kunt nu veelvoudige het begrenzen regels voor een bepaald besluitpunt in het Beslissen van de Ervaring toevoegen. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden.
 * U kunt nu aangepaste rapporteringsdashboards maken van campagnes voor het nemen van beslissingen over ervaringen met [!DNL Customer Journey Analytics].
 
