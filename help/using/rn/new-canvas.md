@@ -8,9 +8,9 @@ description: Nieuwe interface voor reizen
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 65b0f091e7dda876d0ab04e53b2cb1b7e753d39b
+source-git-commit: 87e3ba96d05d41c87f314773e95eb0fcf0a2cfe3
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Journey Optimizer biedt nu een **vereenvoudigd reismodel** dat beoogt de interne
 Het nieuwe reismodel zal naast het bestaande model leven, wat betekent dat er reizen zullen worden gemaakt met **twee verschillende modellen**:
 
 * Het oudere model
-* En het nieuwe model
+* Het nieuwe model
 
 Alle reizen in het oude model blijven erin. U kunt deze nog steeds bewerken, testen of publiceren. Elke nieuwe versie die is gemaakt op basis van een reis op het oude model, blijft erin staan. Er zijn **geen functionele wijzigingen** rond die reizen.
 
@@ -39,9 +39,9 @@ Zoals u in het hieronder schermschot ziet, zijn de knopen rond-vormig, die oude 
 
 ![](assets/new-canvas.png)
 
-Wanneer u echter **een nieuwe reis maken** of **bestaande dupliceren** Het wordt een nieuwe modelreis. De reizen op het erfenismodel zullen nog worden gesteund tot een meerderheid van klanten aan nieuwe worden overgezet.
+Wanneer u echter **een nieuwe reis maken** of **bestaande dupliceren**, zal het op het nieuwe model staan. De reizen op het erfenismodel zullen nog worden gesteund tot een meerderheid van klanten aan nieuwe worden overgezet.
 
-Er is één beperking op het nieuwe reismodel: **kan geen activiteiten kopiëren en plakken van het oudere model naar het nieuwe model en vice versa**. Als u dit wilt doen, adviseren wij u om de reis op het erfenismodel te dupliceren om het aan het nieuwe model te maken, en dan uw activiteiten te kopiëren.
+Er is één beperking op het nieuwe reismodel: **kan geen activiteiten kopiëren en plakken van het oudere model naar het nieuwe model en vice versa**. Als u dit wilt doen, adviseren wij u om uw erfenisreis te dupliceren om het op het nieuwe model over te schakelen, en dan uw activiteiten te kopiëren.
 
 In de onderstaande schermafbeelding ziet u de opnieuw ontworpen interface voor het reiscanvas (alleen beschikbaar bij het nieuwe model):
 
@@ -51,7 +51,7 @@ In de onderstaande schermafbeelding ziet u de opnieuw ontworpen interface voor h
 
 ## Verbeterd ontwerp van reiscanvas
 
-Met het nieuwe reismodel introduceren we een nieuw en verbeterd model **interface reiscanvas**, die naadloos past binnen het Adobe Experience Cloud-systeem voor oplossingen en toepassingen, waardoor een intuïtieve en efficiënte gebruikerservaring mogelijk wordt. Elke reis in het nieuwe model zal op dat nieuwe ontwerp zijn.
+Met het nieuwe reismodel introduceren we een nieuwe en verbeterde **interface reiscanvas**, die naadloos past binnen het Adobe Experience Cloud-systeem voor oplossingen en toepassingen, waardoor een intuïtieve en efficiënte gebruikerservaring mogelijk wordt. Elke reis in het nieuwe model zal op dat nieuwe ontwerp zijn.
 
 ![](assets/new-canvas3.gif)
 
