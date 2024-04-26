@@ -8,16 +8,16 @@ description: Nieuwe interface voor reizen
 hide: true
 hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 55e002b00d0b605a868088fa3f5e1a15be64800c
+source-git-commit: 65b0f091e7dda876d0ab04e53b2cb1b7e753d39b
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
 
 # Welkom bij de verbeterde reisontwerper {#new-canvas}
 
-We hebben een **vereenvoudigd reismodel** dat beoogt de interne processen te verbeteren . Hoewel dit nieuwe model een back-endverbetering is, heeft ons team de gelegenheid aangegrepen om functies toe te voegen die zichtbaar en gunstig zijn voor Journey Optimizer-gebruikers:
+Journey Optimizer biedt nu een **vereenvoudigd reismodel** dat beoogt de interne processen te verbeteren . Hoewel dit nieuwe model een back-endverbetering is, heeft ons team de gelegenheid aangegrepen om functies toe te voegen die zichtbaar en gunstig zijn voor Journey Optimizer-gebruikers:
 
 * A **herontworpen reiscanvas** gemaakt voor een gemoderniseerde gebruikersinterface-ervaring
 * A **live rapportage** UI direct beschikbaar in het wegcanvas
@@ -30,28 +30,28 @@ We hebben een **vereenvoudigd reismodel** dat beoogt de interne processen te ver
 
 Het nieuwe reismodel zal naast het bestaande model leven, wat betekent dat er reizen zullen worden gemaakt met **twee verschillende modellen**:
 
-* De oude, genaamd &quot;v1&quot;
-* En de nieuwe, genaamd &quot;v2&quot;
+* Het oudere model
+* En het nieuwe model
 
-Alle reizen in v1 blijven in v1. U kunt deze nog steeds bewerken, testen of publiceren. Elke nieuwe versie die van een v1 wordt gemaakt, blijft ook in v1. Er zijn **geen functionele wijzigingen** rond v1 - reizen.
+Alle reizen in het oude model blijven erin. U kunt deze nog steeds bewerken, testen of publiceren. Elke nieuwe versie die is gemaakt op basis van een reis op het oude model, blijft erin staan. Er zijn **geen functionele wijzigingen** rond die reizen.
 
-Zoals u in het onderstaande schermafbeelding ziet, zijn de knooppunten ronde vormen. Dit is de oude interface voor reizen op het v1-model.
+Zoals u in het hieronder schermschot ziet, zijn de knopen rond-vormig, die oude UI voor reizen op het erfenismodel is.
 
 ![](assets/new-canvas.png)
 
-Wanneer u echter **een nieuwe reis maken** of **bestaande dupliceren**, het wordt een v2 - reis .  We zijn van plan om v1-reizen te blijven ondersteunen totdat een meerderheid van de klanten overstappen op v2-reizen.
+Wanneer u echter **een nieuwe reis maken** of **bestaande dupliceren** Het wordt een nieuwe modelreis. De reizen op het erfenismodel zullen nog worden gesteund tot een meerderheid van klanten aan nieuwe worden overgezet.
 
-Er is één beperking op het nieuwe reismodel: **kan geen activiteiten kopiëren en plakken van een v1-reis naar een v2-reis en omgekeerd**. Als u dit wilt doen, raden we u aan uw v1-reis te dupliceren om er een v2 van te maken en vervolgens uw activiteiten te kopiëren.
+Er is één beperking op het nieuwe reismodel: **kan geen activiteiten kopiëren en plakken van het oudere model naar het nieuwe model en vice versa**. Als u dit wilt doen, adviseren wij u om de reis op het erfenismodel te dupliceren om het aan het nieuwe model te maken, en dan uw activiteiten te kopiëren.
 
-In de onderstaande schermafbeelding ziet u de opnieuw ontworpen gebruikersinterface voor het reiscanvas (alleen beschikbaar met het v2-model):
+In de onderstaande schermafbeelding ziet u de opnieuw ontworpen interface voor het reiscanvas (alleen beschikbaar bij het nieuwe model):
 
 ![](assets/new-canvas2.png)
 
-**Elke nieuwe functie die aan de reisontwerper wordt toegevoegd (inclusief live rapportering), is alleen beschikbaar voor v2-reizen vanaf dit moment.**
+**Elke nieuwe functie die aan de reisontwerper wordt toegevoegd (inclusief live rapportering), is alleen beschikbaar voor reizen op het nieuwe model vanaf dit moment.**
 
 ## Verbeterd ontwerp van reiscanvas
 
-Met het nieuwe reismodel introduceren we een nieuw en verbeterd model **interface reiscanvas**, die naadloos past binnen het Adobe Experience Cloud-systeem voor oplossingen en toepassingen, waardoor een intuïtieve en efficiënte gebruikerservaring mogelijk wordt. Elke reis in de v2 stapel zal op dat nieuwe ontwerp zijn.
+Met het nieuwe reismodel introduceren we een nieuw en verbeterd model **interface reiscanvas**, die naadloos past binnen het Adobe Experience Cloud-systeem voor oplossingen en toepassingen, waardoor een intuïtieve en efficiënte gebruikerservaring mogelijk wordt. Elke reis in het nieuwe model zal op dat nieuwe ontwerp zijn.
 
 ![](assets/new-canvas3.gif)
 
