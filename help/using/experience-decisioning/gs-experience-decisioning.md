@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,12 @@ ht-degree: 0%
 >[!AVAILABILITY]
 >
 >De ervaringsbeslissingsfunctie is momenteel beschikbaar als een bètafunctie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van de Adobe om deel te nemen aan het bètaprogramma.
+>
+>Beslissingsbeleid is alleen beschikbaar voor gebruik in op code gebaseerde ervaringscampagnes.
 
 Ervaring Beslissen vereenvoudigt personalisatie door een gecentraliseerde catalogus van marketingaanbiedingen aan te bieden, die bekend staan als &#39;beslissingspunten&#39; en een geavanceerde beslissingsengine. Deze motor hanteert regels en rangschikkingscriteria om de meest relevante beslissingsitems te selecteren en aan elk individu voor te leggen.
 
 Deze beslissingsitems worden naadloos geïntegreerd in een breed scala aan binnenkomende oppervlakken via het nieuwe op code gebaseerde ervaringskanaal, dat nu toegankelijk is in Journey Optimizer-campagnes.
-
-**Beperkingen:**
-
-* Beslissingsbeleid is alleen beschikbaar voor gebruik in op code gebaseerde ervaringscampagnes.
-* Vooralsnog is geen functie voor het aftoppen van frequenties beschikbaar in Experience Decisioning.
 
 ## Belangrijkste stappen bij het nemen van beslissingen {#steps}
 
