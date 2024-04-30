@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: campagne, hoe, begin, optimaliseer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 3%
+source-wordcount: '432'
+ht-degree: 1%
 
 ---
 
@@ -40,35 +40,25 @@ De belangrijkste stappen voor het opzetten van een campagne zijn:
 
 ![](assets/create-campaign-process.png)
 
-➡️ [Ontdek deze functie in video](#video)
+➡️ [Deze functie in video detecteren](#video)
 
 ## Voordat u begint {#campaign-prerequisites}
 
 Controleer de volgende voorwaarden voordat u begint met het maken van uw eerste campagne in Journey Optimizer:
 
-1. **U hebt de juiste machtigingen nodig**. Campagnes zijn alleen beschikbaar voor gebruikers die toegang hebben tot een campagne **[!UICONTROL Product profile]** zoals Campagnebeheerder, campagnefiatteur, campagnebeheerder en/of campagneviewer.
+1. **U hebt de juiste machtigingen nodig**. Campagnes zijn alleen beschikbaar voor gebruikers die toegang hebben tot een campagne **[!UICONTROL Product profile]** zoals Campagnebeheerder, Campagneontwikkelaar, Campagnemanager en/of Campagneviewer. Als u geen toegang kunt krijgen tot campagnes, moeten uw machtigingen worden uitgebreid.
 
-   Als u geen toegang hebt tot campagnes, moeten uw toestemmingen worden uitgebreid. Als u toegang hebt tot [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"} voor uw organisatie voert u de onderstaande stappen uit. Als dat niet het geval is, neemt u contact op met uw Journey Optimizer-beheerder.
+   +++Meer informatie over het toewijzen van een aan een campagne gerelateerde rol
 
-   +++Leer hoe u campagnemachtigingen toewijst
+   1. Om een rol aan een gebruiker in toe te wijzen [!DNL Permissions] product, navigeer naar de **[!UICONTROL Roles]** en selecteert u een van de ingebouwde campagnes **[!UICONTROL Roles]**: Campagnebeheerder, campagnefiatteur, campagnebeheerder of campagneviewer.
 
-   Om de overeenkomstige **[!UICONTROL Product profile]** aan uw gebruikers:
+   1. Klik op het tabblad **[!UICONTROL Users]** op **[!UICONTROL Add user]**.
 
-   1. Van [Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}, selecteert u de [!DNL Adobe Experience Platform] product.
+   1. Typ de naam of het e-mailadres van uw gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]**.
 
-   1. Bladeren naar de **[!UICONTROL Product profile]** selecteert u een van de ingebouwde campagneonderdelen **[!UICONTROL Product profile]**: Campagnebeheerder, campagnefiatteur, campagnebeheerder of campagneviewer.
+      Als de gebruiker niet eerder is gemaakt, raadpleegt u de [Gebruikersdocumentatie toevoegen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
-      Meer informatie over de Journey Optimizer-campagne **[!UICONTROL Product profiles]** en **[!UICONTROL Permissions]**, [verwijzen naar deze pagina](../administration/ootb-product-profiles.md).
-
-      ![](assets/do-not-localize/admin_1.png)
-
-   1. Klikken **[!UICONTROL Add user]** om de geselecteerde **[!UICONTROL Product profile]**.
-
-      ![](assets/do-not-localize/admin_2.png)
-
-   1. Typ de naam, de groep of het e-mailadres van uw gebruiker en klik op **[!UICONTROL Save]**.
-
-   Uw gebruiker heeft nu toegang tot **[!UICONTROL Campaigns]**.
+   Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
 
 +++
 

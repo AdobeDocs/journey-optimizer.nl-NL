@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 98e3e770530facac6f9c69a72e77fc663ef5ed0c
+source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,28 @@ Deze beslissingsitems worden naadloos geïntegreerd in een breed scala aan binne
 ## Belangrijkste stappen bij het nemen van beslissingen {#steps}
 
 De belangrijkste stappen om met de Beslissing van de Ervaring te werken zijn als volgt:
+
+1. **De juiste machtigingen toewijzen**. Besluiten zijn alleen beschikbaar voor gebruikers die toegang hebben tot een Ervaring Beslissingen in verband hiermee **[!UICONTROL role]** zoals besluitvormingsmanagers. Als u geen toegang hebt tot beslissingen, moeten uw machtigingen worden uitgebreid.
+
+   +++Leer hoe u de rol van beslissingsmanagers toewijst
+
+   1. Om een rol aan een gebruiker in toe te wijzen [!DNL Permissions] product, navigeer naar de **[!UICONTROL Roles]** en selecteer Beslissingsmanagers.
+
+      ![](assets/decision_permission_1.png)
+
+   1. Klik op het tabblad **[!UICONTROL Users]** op **[!UICONTROL Add user]**.
+
+      ![](assets/decision_permission_2.png)
+
+   1. Typ de naam of het e-mailadres van uw gebruiker of selecteer de gebruiker in de lijst en klik op **[!UICONTROL Save]**.
+
+      Als de gebruiker niet eerder is gemaakt, raadpleegt u de [Gebruikersdocumentatie toevoegen](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
+
+      ![](assets/decision_permission_3.png)
+
+   Uw gebruiker moet dan een e-mail ontvangen die aan uw instantie opnieuw richt.
+
++++
 
 1. **Aangepaste kenmerken configureren**: U kunt de catalogus met beslissingsitems afstemmen op uw specifieke vereisten door aangepaste kenmerken in te stellen in het schema van de catalogus.
 
