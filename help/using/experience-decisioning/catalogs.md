@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 In het Besluit van de Ervaring, dienen de catalogi als centrale containers voor het organiseren van beslissingspunten. Elke catalogus is gekoppeld aan een Adobe Experience Platform-schema, dat alle kenmerken omvat die aan een beslissingsitem kunnen worden toegewezen.
 
-Vooralsnog worden alle gemaakte beslissingsitems geconsolideerd in één &quot;Aanbiedingscatalogus&quot;, die toegankelijk is via de **[!UICONTROL Items]** -menu.
+Vooralsnog worden alle gemaakte beslissingsitems geconsolideerd in één &quot;Aanbiedingscatalogus&quot;, die toegankelijk is via de **[!UICONTROL  Catalogs]** -menu.
 
 ![](assets/catalogs-list.png)
 

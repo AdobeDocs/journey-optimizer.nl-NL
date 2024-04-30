@@ -8,7 +8,7 @@ level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
 badge: label="Beta"
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 4%
@@ -33,7 +33,7 @@ In dit geval definieert u twee leveringsbehandelingen die elk een ander beslissi
 
 U moet eerst punten tot stand brengen, hen groeperen samen in inzamelingen, opstellingsregels en het rangschikken methodes. Met deze elementen kunt u selectiestrategieën maken.
 
-1. Navigeren naar **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Items]** en maak meerdere aanbiedingen. Stel beperkingen in met gebruik van soorten publiek of regels om elk item te beperken tot specifieke profielen. [Meer informatie](items.md)
+1. Navigeren naar **[!UICONTROL Experience Decisioning]** > **[!UICONTROL  Catalogs]** en maak meerdere aanbiedingen. Stel beperkingen in met gebruik van soorten publiek of regels om elk item te beperken tot specifieke profielen. [Meer informatie](items.md)
 
    <!--
    1. From the items list, click the **[!UICONTROL Edit schema]** button  and edit the custom attributes if needed. [Learn how to work with catalogs](catalogs.md)-->

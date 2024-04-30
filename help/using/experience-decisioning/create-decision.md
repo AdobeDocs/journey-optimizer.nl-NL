@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: d26b35ea680eae0e71eb3164b4225a49610e1563
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 1%
@@ -89,7 +89,7 @@ Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op
    >
    >Er is ten minste één strategie nodig. U kunt niet meer dan tien strategieën toevoegen.
 
-1. Van de **[!UICONTROL Add strategy]** kunt u ook een strategie maken. De **[!UICONTROL Create selection strategy]** knop leidt u om naar de **[!UICONTROL Experience decisioning]** > **[!UICONTROL Configurations]** -menu. [Meer informatie](selection-strategies.md)
+1. Van de **[!UICONTROL Add strategy]** kunt u ook een strategie maken. De **[!UICONTROL Create selection strategy]** knop leidt u om naar de **[!UICONTROL Experience decisioning]** > **[!UICONTROL Strategy setup]** -menu. [Meer informatie](selection-strategies.md)
 
    ![](assets/decision-code-based-add-strategy.png)
 

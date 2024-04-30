@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 1%
@@ -47,11 +47,11 @@ Met verzamelingen kunt u uw beslissingsitems categoriseren en groeperen op basis
 
 Bijvoorbeeld, laten wij zeggen u een &quot;Categorie&quot;douanekenmerk aan het catalogusschema van uw besluitvormingspunten hebt toegevoegd. Dit staat u toe om een inzameling tot stand te brengen die alle besluitpunten met de waarde &quot;Yoga&quot;in het &quot;attribuut van de Categorie&quot;omvat.
 
-De lijst met verzamelingen kan worden geraadpleegd via de **[!UICONTROL Items]** -menu.
+De lijst met verzamelingen kan worden geraadpleegd via de **[!UICONTROL  Catalogs]** -menu.
 
 Ga als volgt te werk om een verzameling te maken:
 
-1. Navigeren naar **[!UICONTROL Items]** > **[!UICONTROL Collections]** en klik op **[!UICONTROL Create collection]**.
+1. Navigeren naar **[!UICONTROL  Catalogs]** > **[!UICONTROL Collections]** en klik op **[!UICONTROL Create collection]**.
 1. Geef een naam en een beschrijving voor de verzameling op.
 1. Voeg één of veelvoudige regels toe om de punten te bepalen die in de inzameling moeten worden omvat. Dit doet u als volgt:
 
