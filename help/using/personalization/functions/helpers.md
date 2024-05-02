@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 3b9822121390548546ab6628504ea9dd1101fb48
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 3%
+source-wordcount: '365'
+ht-degree: 1%
 
 ---
 
@@ -94,7 +94,7 @@ De `elseif` De instructie geeft een nieuwe voorwaarde op die moet worden getest 
    {%/if%}
    ```
 
-1. **Voorwaardelijke inhoud op basis van publiekslidmaatschap**
+1. **Voorwaardelijke inhoud op basis van het lidmaatschap van het publiek**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -205,5 +205,11 @@ De `let` De functie staat een uitdrukking toe om als variabele worden opgeslagen
 In het volgende voorbeeld worden alle sommen met producttotalen bij de transactie in USD weergegeven als de som groter is dan $100 en kleiner dan $1000.
 
 ```sql
-{% let variable = expression %} {{variable}}
+{% let sum = 0%}
+    {{#each profile.productsInCart as |p|}}
+        {%#if p.price>100 and p.price<1000%}
+            {%let sum = sum + p.price %}
+        {%/if%}
+    {{/each}}
+{{sum}}
 ```
