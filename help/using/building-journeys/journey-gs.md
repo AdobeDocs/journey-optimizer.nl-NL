@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: b424670bf4fb05b8b188a500d156755ac7b088e6
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '1964'
 ht-degree: 4%
@@ -83,7 +83,7 @@ Hier zijn de diverse het filtreren verrichtingen die u kunt uitvoeren:
 
 Reizen filteren op basis van hun status, type, versie en toegewezen tags van de **[!UICONTROL Status and version filters]**.
 
-Het type kan zijn: **[!UICONTROL Unitary event]**, **[!UICONTROL Audience qualification]**, **[!UICONTROL Read audience]**, **[!UICONTROL Business event]** of **[!UICONTROL Burst]**.
+Het type kan zijn: **[!UICONTROL Unitary event]**, **[!UICONTROL Audience qualification]**, **[!UICONTROL Read audience]** of **[!UICONTROL Business event]**.
 
 De status kan zijn:
 

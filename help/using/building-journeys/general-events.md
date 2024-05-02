@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: aangepast, algemeen, evenementen, reizen
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 31d9189e8afd732875556b9caaa8e874f53597bb
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '537'
 ht-degree: 1%
 
 ---
@@ -45,17 +45,20 @@ Voer de volgende stappen uit om een time-out voor een gebeurtenis te configurere
 
 1. Geef op hoeveel tijd de reis moet wachten op de gebeurtenis. De maximale duur is 29 dagen.
 
-1. Als u de personen naar een time-outpad wilt sturen wanneer er geen gebeurtenis is ontvangen binnen de opgegeven time-out, schakelt u de optie **[!UICONTROL Set a timeout path]** -optie. Als deze optie niet wordt ingeschakeld, wordt de reis voor de persoon voortgezet zodra de time-out is bereikt.
+1. Als u de personen naar een time-outpad wilt sturen wanneer er geen gebeurtenis is ontvangen binnen de opgegeven time-out, schakelt u de optie **[!UICONTROL Set a timeout path]** -optie. Als deze optie niet wordt ingeschakeld, wordt de reis voor de persoon voortgezet zodra de time-out is bereikt. We raden u aan om de **Een time-outpad instellen** -optie.
 
    ![](assets/event-timeout.png)
 
-In dit voorbeeld, verzendt de reis een eerste welkome duw naar een klant. Het verzendt dan een duw van de maaltijdkorting slechts als de klant het restaurant binnen de volgende dag ingaat. Daarom hebben we de restaurant-gebeurtenis geconfigureerd met een time-out van 1 dag:
+In dit voorbeeld stuurt de reis een eerste welkomstmail naar een klant nadat hij/zij de lobby is binnengekomen. Het verzendt dan een e-mail van de maaltijdkorting slechts als de klant het restaurant binnen de volgende dag ingaat. Daarom hebben we de restaurant-gebeurtenis geconfigureerd met een time-out van 1 dag:
 
-* Als de restaurantgebeurtenis minder dan 1 dag na de welkomstpush wordt ontvangen, wordt de pushactiviteit voor de maaltijdkorting verzonden.
+* Als de restaurantgebeurtenis minder dan 1 dag na de welkomstmail wordt ontvangen, wordt de e-mail met maaltijdkorting verzonden.
 * Als er de volgende dag geen restaurantgebeurtenis wordt ontvangen, loopt de persoon door het time-outpad.
 
 Merk op dat als u een onderbreking op veelvoudige gebeurtenissen wilt vormen die na een **[!UICONTROL Wait]** activiteit, moet u de onderbreking op één van deze gebeurtenissen slechts vormen.
 
-De time-out wordt toegepast op alle gebeurtenissen na de gebeurtenis **[!UICONTROL Wait]** activiteit. Als geen gebeurtenis vóór de gespecificeerde onderbreking wordt ontvangen, zullen de individuen in één enkel onderbreking weg stromen of zullen die reis door de tak voortzetten die de activiteit verlaten waar die onderbrekingsmontages zijn bepaald.
+De gedefinieerde time-out is van toepassing op alle gebeurtenissen na de **[!UICONTROL Wait]** activiteit:
+
+* Als één gebeurtenis binnen de time-outduur wordt weergegeven, loopt de afzonderlijke gebeurtenis door naar het pad van de ontvangen gebeurtenis.
+* Als er geen gebeurtenis wordt ontvangen binnen de tijdsduur van de time-out, loopt de afzonderlijke gebeurtenis door naar de time-outvertakking van de gebeurtenis waar de time-out is gedefinieerd.
 
 ![](assets/event-timeout-group.png)

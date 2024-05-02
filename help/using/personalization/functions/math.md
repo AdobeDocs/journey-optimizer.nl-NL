@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: c823d1a02ca9d24fc13eaeaba2b688249e61f767
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 6%
+source-wordcount: '243'
+ht-degree: 4%
 
 ---
 
@@ -49,9 +49,9 @@ Deze query retourneert een opgemaakte tekenreeks in het Arabisch die overeenkomt
 {%= formatNumber(123456.789, "ar_EG") %}
 ```
 
-## Random {#random}
+## Willekeurig {#random}
 
-De `random` Deze functie wordt gebruikt om een willekeurige waarde tussen 0 en 1 te retourneren.
+De `random` wordt gebruikt om een willekeurige waarde tussen 0 en 1 te retourneren.
 
 **Syntaxis**
 
@@ -71,7 +71,7 @@ De `roundDown` Deze functie wordt gebruikt om een getal omlaag te afronden.
 
 ## Omhoog afronden {#round-up}
 
-De `Count only null` Deze functie wordt een getal naar boven afgerond.
+De `Count only null` functie wordt gebruikt rond naar boven een aantal.
 
 **Syntaxis**
 
@@ -95,6 +95,24 @@ Deze query retourneert de hexadecimale waarde 158 i.e 9e.
 
 ```sql
 {%= toHexString(158) %}
+```
+
+## Naar int {#to-int}
+
+De `toInt` wordt gebruikt om een van deze typen (getal, dubbel, int, long, float, short, byte, boolean, string) om te zetten in een geheel getal.
+
+**Syntaxis**
+
+```sql
+{%= toInt(<valueToConvert>) %}: integer
+```
+
+**Voorbeeld**
+
+Deze query retourneert de gehele waarde 42,6, d.w.z. 42.
+
+```sql
+{%= toInt(42.6) %}: integer
 ```
 
 ## Naar percentage {#to-percentage}

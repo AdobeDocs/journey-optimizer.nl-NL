@@ -8,7 +8,7 @@ role: User
 level: Beginner, Intermediate
 keywords: reis, ontdek, begin
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: d741a34a0418dc88db730d0b953cb5c7db8dc103
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 1%
@@ -96,8 +96,6 @@ Als u zich aan een levende reis moet aanpassen, creeer een nieuwe versie van uw 
    >U kunt alleen een nieuwe versie maken van de meest recente versie van een reis.
 
 1. Breng de gewenste wijzigingen aan en klik op **[!UICONTROL Publish]** en bevestigen.
-
-   ![](assets/journeyversions3.png)
 
 Vanaf het moment dat de reis wordt gepubliceerd, zullen individuen naar de recentste versie van de reis gaan. Mensen die al een vorige versie hebben ingevoerd, blijven er totdat ze klaar zijn met de reis. Als ze later weer dezelfde reis maken, gaan ze naar de meest recente versie.
 

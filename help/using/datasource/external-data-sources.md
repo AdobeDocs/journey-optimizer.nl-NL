@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, bronnen, gegevens, configuratie, verbinding, derde
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 75%
+source-wordcount: '1492'
+ht-degree: 73%
 
 ---
 
@@ -58,7 +58,7 @@ Hier volgen de belangrijkste stappen voor het maken en configureren van een nieu
 
    >[!NOTE]
    >
-   >Gebruik geen spaties of speciale tekens. Gebruik niet meer dan 30 tekens.
+   >Alleen alfanumerieke tekens en onderstrepingstekens zijn toegestaan. De maximumlengte is 30 tekens.
 
 1. Voeg een beschrijving aan de databron toe. Deze stap is optioneel.
 1. Voeg de URL van de externe service toe. In ons voorbeeld: _https://api.adobeweather.org/weather_.
@@ -86,7 +86,7 @@ Hier volgen de belangrijkste stappen voor het maken en configureren van een nieu
 
    ![](assets/journey28.png)
 
-1. Voeg een nieuwe veldengroep toe voor elke API-parameterreeks door te klikken op **[!UICONTROL Add a New Field Group]**. Gebruik geen spaties of speciale tekens in de naam van de veldengroep. In ons voorbeeld moeten we twee veldengroepen maken, één voor elke parameterreeks (city en long/lat).
+1. Voeg een nieuwe veldengroep toe voor elke API-parameterreeks door te klikken op **[!UICONTROL Add a New Field Group]**. Alleen alfanumerieke tekens en onderstrepingstekens zijn toegestaan in de naam van de veldgroep. De maximumlengte is 30 tekens. In ons voorbeeld moeten we twee veldengroepen maken, één voor elke parameterreeks (city en long/lat).
 
 Voor de parameterreeks ‘long/lat’ maken we een veldengroep met de volgende informatie:
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
-source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -59,14 +59,6 @@ Journey Optimizer biedt echter wel ondersteuning voor wereldwijde opt-outs op ba
 Alfanumerieke identiteitskaart van de Afzender is slechts voor unidirectioneel overseinen, en kan binnenkomende berichten niet ontvangen. Dientengevolge, START van het SMS van Adobe Journey Optimizer, de sleutelwoorden van HELP zijn niet van toepassing voor de Afzender IDs van de Alpha. U moet andere instructies verstrekken, zoals het schrijven aan het team van de Steun, het roepen van een de telefoonlijn van de Steun, of het sms&#39;en van een ander telefoonaantal of code om gebruikers toe te staan om van berichten te kiezen die via Alphanumeric identiteitskaart van de Afzender worden verzonden.
 
 ## Video {#video-sms}
-
-* In de onderstaande video ziet u hoe native ondersteuning voor inkomende trefwoorden (START, STOP en UNSTOP) werkt voor SMS.
-
-+++ Zie video
-
-  >[!VIDEO](https://video.tv.adobe.com/v/344026?quality=12)
-
-+++
 
 * In de onderstaande video leert u hoe u dubbele aanmelding voor SMS kunt configureren.
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: ontwerp, canvas, reis, interface, slepen, neerzetten
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '1614'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Velden met het kenmerk Alleen-lezen zijn standaard verborgen. Als u alleen-lezen
 
 ![](assets/journey59bis.png)
 
-Afhankelijk van de status van de reis kunt u verschillende handelingen op uw reis uitvoeren met behulp van de knoppen in de rechterbovenhoek: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Journey properties]**, **[!UICONTROL Test]**. Deze knoppen worden weergegeven wanneer er geen activiteit is geselecteerd. Sommige knoppen worden contextueel weergegeven. De knop Logbestand van de testmodus verschijnt wanneer de testmodus wordt geactiveerd.
+Afhankelijk van de status van de reis kunt u verschillende handelingen op uw reis uitvoeren met behulp van de knoppen in de rechterbovenhoek: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Test mode]**, **[!UICONTROL Manage access]**, **[!UICONTROL Alerts]**. Deze knoppen worden weergegeven wanneer er geen activiteit is geselecteerd. Sommige knoppen worden contextueel weergegeven. De knop Logbestand van de testmodus verschijnt wanneer de testmodus wordt geactiveerd.
 
 ![](assets/journey41.png)
 

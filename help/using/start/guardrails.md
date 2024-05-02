@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2018'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,6 @@ Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in 
 
 ## SMS-handleidingen {#sms-guardrails}
 
-* MMS Capability is slechts beschikbaar voor Sinch.
 * Mediabestanden voor MMS kunnen via een ondersteunde URL worden opgenomen. Controleer of het mediabestand afzonderlijk is geüpload.
 * Berichtfeedback synchroniseren is momenteel niet beschikbaar voor MMS.
 * Het beheer van de toestemming werkt op het kanaalniveau van SMS voor MMS.

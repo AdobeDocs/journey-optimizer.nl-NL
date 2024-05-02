@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '5136'
+source-wordcount: '5226'
 ht-degree: 13%
 
 ---
@@ -19,12 +19,21 @@ ht-degree: 13%
 
 Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 
+## Mei 2024 {#may-2024}
+
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 24 april is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
+
+
 ## April 2024 {#april-2024}
 
 * De configuratiestappen voor In-app overseinen zijn gedetailleerd geweest. [Meer informatie](../in-app/inapp-configuration.md)
 * Documentatie voor [Offer decisioning-API&#39;s](../offers/api-reference/offer-delivery-api/decisioning-api.md) en [API&#39;s voor batchbesluitvorming](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) zijn bijgewerkt.
 * Er is informatie toegevoegd aan de documentatie van het Beslissingsbeheer met betrekking tot het beheer van Edge- en hubregio&#39;s bij het gebruik van frequentiecapping met de Edge Decisioning API. [Meer informatie](../offers/offer-library/add-constraints.md#frequency-capping)
 * Er is informatie toegevoegd over het maken van identiteiten met aangepaste naamruimten wanneer er wordt gewerkt met API-gestuurde campagnes. [Meer informatie](../campaigns/api-triggered-campaigns.md)
+* Screeshots zijn bijgewerkt met de verbeterde Journey canvas.
+* Naamgevingsbeperkingen zijn bijgewerkt op de volgende pagina: [Een eenheidsgebeurtenis configureren](../event/about-creating.md), [Een bedrijfsgebeurtenis configureren](../event/about-creating-business.md#gs-business-events), [Een aangepaste handeling configureren](../action/about-custom-action-configuration.md#configuration-steps), [Externe gegevensbronnen](../datasource/external-data-sources.md)
+* Er is een opmerking toegevoegd bij de beschikbaarheid van de functie Tijd optimaliseren verzenden. [Meer informatie](../building-journeys/journeys-message.md#send-time-optimization)
+* Er is een nieuw geval voor technisch gebruik toegevoegd voor het maken van een aangepaste handeling voor het verzenden van gegevens naar het Experience Platform. [Meer informatie](../building-journeys/custom-action-aep.md)
 
 ## Maart 2024 {#march-2024}
 
@@ -82,6 +91,7 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 * Syntaxis van gebeurtenisveld is bijgewerkt. De volgende syntaxis is vervangen `@(my_event.myfield}` en vervangen door `@event{my_event.myfield}`. [Meer informatie](../building-journeys/expression/field-references.md)
 * Het Global-rapport en de Live-rapporthulplijnen zijn gereorganiseerd. [Meer informatie](../reports/campaign-global-report.md)
 
++++ 2023
 
 ## November 2023 {#nov-2023}
 
@@ -206,6 +216,8 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 * Er is een opmerking toegevoegd over de beperking bij het opzoeken met een array van objecten. [Meer informatie](../event/experience-event-schema.md#relationships_limitations)
 * Een nieuwe pagina over gegevensbeheer toegevoegd in [!DNL Journey Optimizer]. [Meer informatie](../data/gs-data.md)
 * Er is een tabel toegevoegd met alle codes die in de reactie kunnen worden geretourneerd wanneer aanbiedingen worden geleverd met de API voor besluitvorming. [Meer informatie](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+
++++
 
 +++ 2022
 

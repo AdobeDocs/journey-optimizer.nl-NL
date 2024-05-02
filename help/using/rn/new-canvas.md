@@ -5,10 +5,8 @@ title: Nieuwe interface voor reizen
 feature: Release Notes
 topic: Content Management
 description: Nieuwe interface voor reizen
-hide: true
-hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: b6b3f710d08fb7f0949e75521ce126fa43d6cdc5
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 0%
@@ -68,12 +66,12 @@ Het staat het productteam ook toe om meer informatie op het canvas met minder kl
 
 ![](assets/new-canvas5.png)
 
-
 ## Live rapportering op het canvas van de reis
 
 Naast de verbeterde lay-out van het reiscanvas, wordt een nieuwe eigenschap geïntroduceerd om gebruikers toe te staan om rapportmetriek in real time van te bekijken **de laatste 24 uur**, ook wel live rapportering genoemd, direct binnen het reiscanvas.
 
 Voor elke activiteit binnen elke levende reis die het nieuwe model gebruikt, hebt u toegang tot:
+
 
 * Het aantal profielen dat deze activiteit betreedt.
 * Het aantal profielen dat deze activiteit verlaat vanwege een fout.

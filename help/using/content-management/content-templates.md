@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 3f844f65609f271e834ebf42749253fd64446a9a
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1329'
 ht-degree: 2%
 
 ---
@@ -197,10 +197,6 @@ U kunt deze sjabloon nu gebruiken wanneer u inhoud maakt binnen [!DNL Journey Op
 ## Sjablonen voor e-mailinhoud testen {#test-template}
 
 U kunt de rendering van sommige van uw e-mailsjablonen testen, ongeacht of deze zijn gemaakt op basis van een blanco sjabloon of op basis van een bestaande inhoud. Volg de onderstaande stappen om dit te doen.
-
->[!CAUTION]
->
->Momenteel zijn inhoudssjablonen alleen beschikbaar voor **[!UICONTROL Email]** sjablonen met de **[!UICONTROL HTML]** type.
 
 1. Open de lijst met inhoudssjablonen via **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** en selecteer een e-mailsjabloon.
 

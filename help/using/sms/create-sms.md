@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 75638e9b463278efab16b2b85ed2707640f088f2
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '894'
 ht-degree: 2%
 
 ---
@@ -126,8 +126,6 @@ Volg onderstaande stappen om uw SMS-inhoud te configureren. Instellingen voor MM
 U kunt uw communicatie verbeteren door MMS-berichten (Multimedia Message Service) te verzenden, zodat u media kunt delen, zoals video&#39;s, foto&#39;s, audioclips en GIFFEN, enz. Bovendien staat MMS maximaal 1600 tekens tekst in uw bericht toe.
 
 >[!NOTE]
->
->* Deze functie is momenteel beschikbaar bij **Sinch** alleen.
 >
 >* MMS-kanaal heeft enkele beperkingen die zijn vermeld in [deze pagina](../start/guardrails.md#sms-guardrails).
 

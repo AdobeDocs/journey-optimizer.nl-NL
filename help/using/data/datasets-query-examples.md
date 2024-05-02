@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: dataset, optimizer, gebruiksgevallen
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 0%
@@ -32,11 +32,11 @@ Als u de volledige lijst met velden en kenmerken voor elk schema wilt weergeven,
 
 ## Dataset over e-mailvolgervaringen{#email-tracking-experience-event-dataset}
 
-_Naam in de interface: CJM Email Tracking Experience Event Dataset_
+_Naam in de interface: AJO Email Tracking Experience Event Dataset_
 
 Systeemdataset voor het invoeren van e-mailvolgervaringsgebeurtenissen van Journey Optimizer.
 
-Het verwante schema is CJM Email Tracking Experience Event-schema.
+Het verwante schema is AJO Email Tracking Experience Event-schema.
 
 Deze vraag toont de tellingen van verschillende e-mailinteractie (opent, klikt) voor een bepaald bericht:
 
@@ -44,7 +44,7 @@ Deze vraag toont de tellingen van verschillende e-mailinteractie (opent, klikt) 
 select
     _experience.customerJourneyManagement.messageInteraction.interactionType AS interactionType,
     count(1) eventCount
-from cjm_email_tracking_experience_event_dataset
+from ajo_email_tracking_experience_event_dataset
 where
      _experience.customerJourneyManagement.messageExecution.messageExecutionID IN ('UMA-30647505')
 group by
@@ -58,7 +58,7 @@ select
     _experience.customerJourneyManagement.messageExecution.messageExecutionID AS messageExecutionID,
     _experience.customerJourneyManagement.messageInteraction.interactionType AS interactionType,
     count(1) eventCount
-from cjm_email_tracking_experience_event_dataset
+from ajo_email_tracking_experience_event_dataset
 where
      _experience.customerJourneyManagement.messageExecution.journeyVersionID IN ('0e86ac62-c315-48cc-ab4f-3f8b741ae667')
 group by
@@ -72,11 +72,11 @@ limit 100;
 
 ## Gegevensset voor feedbackgebeurtenis{#message-feedback-event-dataset}
 
-_Naam in de interface: Dataset voor feedbackgebeurtenis CJM-bericht_
+_Naam in de interface: Dataset voor feedbackgebeurtenis voor AJO-berichten_
 
 Dataset voor het invoeren van feedback over e-mail- en pushtoepassingen van Journey Optimizer.
 
-Het verwante schema is CJM Message Feedback Event-schema.
+Het verwante schema is een AJO Message Feedback Event-schema.
 
 Deze vraag toont de tellingen van verschillende e-mail terugkoppelt status (verzonden, stuit, enz.) voor een bepaald bericht:
 
@@ -84,7 +84,7 @@ Deze vraag toont de tellingen van verschillende e-mail terugkoppelt status (verz
 select
     _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus AS feedbackStatus,
     count(1) eventCount
-from cjm_message_feedback_event_dataset
+from ajo_message_feedback_event_dataset
 where
      _experience.customerJourneyManagement.messageExecution.messageExecutionID IN ('UMA-30647505')
 group by
@@ -98,7 +98,7 @@ select
     _experience.customerJourneyManagement.messageExecution.messageExecutionID AS messageExecutionID,
     _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus AS feedbackStatus,
     count(1) eventCount
-from cjm_message_feedback_event_dataset
+from ajo_message_feedback_event_dataset
 where
      _experience.customerJourneyManagement.messageExecution.journeyVersionID IN ('0e86ac62-c315-48cc-ab4f-3f8b741ae667')
 group by
@@ -113,37 +113,37 @@ limit 100;
 Op geaggregeerd niveau, rapport op domeinniveau (gesorteerd op topdomeinen): Domeinnaam, Bericht verzonden, Stemmen
 
 ```sql
-SELECT split_part(_experience.customerJourneyManagement.emailChannelContext.address, '@', 2) AS recipientDomain, SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END)AS sentCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' THEN 1 ELSE 0 END )AS bounceCount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY recipientDomain ORDER BY sentCount DESC;
+SELECT split_part(_experience.customerJourneyManagement.emailChannelContext.address, '@', 2) AS recipientDomain, SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END)AS sentCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' THEN 1 ELSE 0 END )AS bounceCount FROM ajo_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY recipientDomain ORDER BY sentCount DESC;
 ```
 
 E-mail verzendt dagelijks:
 
 ```sql
-SELECT date_trunc('day', TIMESTAMP) AS rolluptimestamp, SUM( CASE WHEN _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'sent' THEN 1 ELSE 0 END) AS deliveredcount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY date_trunc('day', TIMESTAMP) ORDER BY rolluptimestamp ASC;
+SELECT date_trunc('day', TIMESTAMP) AS rolluptimestamp, SUM( CASE WHEN _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'sent' THEN 1 ELSE 0 END) AS deliveredcount FROM ajo_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY date_trunc('day', TIMESTAMP) ORDER BY rolluptimestamp ASC;
 ```
 
 Zoeken of een bepaalde e-mailid een e-mail heeft ontvangen of niet en zo niet, wat was de fout, de stuiterende categorie, de code:
 
 ```sql
-SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.emailchannelcontext.address = 'user@domain.com' AND TIMESTAMP >= now() - INTERVAL '7' DAY ORDER BY status ASC
+SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM ajo_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.emailchannelcontext.address = 'user@domain.com' AND TIMESTAMP >= now() - INTERVAL '7' DAY ORDER BY status ASC
 ```
 
 Zoek de lijst met alle afzonderlijke e-mailbiedingen met een bepaalde fout, stuiterende categorie of code in de laatste x uur/dagen of gekoppeld aan een bepaalde berichtlevering:
 
 ```sql
-SELECT _experience.customerjourneymanagement.emailchannelcontext.address AS emailid, _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus != 'sent' AND TIMESTAMP >= now() - INTERVAL '10' HOUR AND _experience.customerjourneymanagement.messageexecution.messageexecutionid = 'BMA-45237824' ORDER BY emailid
+SELECT _experience.customerjourneymanagement.emailchannelcontext.address AS emailid, _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS status, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type AS bouncetype FROM ajo_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' AND _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus != 'sent' AND TIMESTAMP >= now() - INTERVAL '10' HOUR AND _experience.customerjourneymanagement.messageexecution.messageexecutionid = 'BMA-45237824' ORDER BY emailid
 ```
 
 Harde stuitsnelheid op geaggregeerd niveau:
 
 ```sql
-select hardBounceCount, case when sentCount > 0 then(hardBounceCount/sentCount)*100.0 else 0 end as hardBounceRate from ( select SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' AND _experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.type = 'Hard' THEN 1 ELSE 0 END)AS hardBounceCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END )AS sentCount from cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' )
+select hardBounceCount, case when sentCount > 0 then(hardBounceCount/sentCount)*100.0 else 0 end as hardBounceRate from ( select SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'bounce' AND _experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.type = 'Hard' THEN 1 ELSE 0 END)AS hardBounceCount , SUM( CASE WHEN _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' THEN 1 ELSE 0 END )AS sentCount from ajo_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' )
 ```
 
 Permanente fouten gegroepeerd op stuitercode:
 
 ```sql
-SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM cjm_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
+SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM ajo_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
 
 ### Identificeer quarantined adressen na een ISP stroomonderbreking{#isp-outage-query}
@@ -155,7 +155,7 @@ SELECT
     _experience.customerJourneyManagement.emailChannelContext.address AS RecipientAddress,
     timestamp AS EventTime,
     _experience.customerJourneyManagement.messageDeliveryfeedback.messageFailure.reason AS "Invalid Recipient"
-FROM cjm_message_feedback_event_dataset
+FROM ajo_message_feedback_event_dataset
 WHERE
     eventtype = 'message.feedback' AND
     DATE(timestamp) BETWEEN '<start-date-time>' AND '<end-date-time>' AND
@@ -170,19 +170,19 @@ Zodra geïdentificeerd, verwijder die adressen uit de onderdrukkingslijst van Jo
 
 ## Dataset met gebeurtenissen voor het bijhouden van pushmeldingen {#push-tracking-experience-event-dataset}
 
-_Naam in de interface: CJM Push Tracking Experience Event Dataset_
+_Naam in de interface: AJO Push Tracking Experience Event Dataset_
 
 Dataset voor het opnemen van gebeurtenissen voor het bijhouden van mobiele gegevens voor push vanuit Journey Optimizer.
 
-Het verwante schema is CJM Push Tracking Experience Event-schema.
+Het verwante schema is het AJO Push Tracking Experience Event-schema.
 
 Voorbeeld van query:
 
 ```sql
-select _experience.customerJourneyManagement.pushChannelContext.platform, sum(pushNotificationTracking.customAction.value)  from cjm_push_tracking_experience_event_dataset
+select _experience.customerJourneyManagement.pushChannelContext.platform, sum(pushNotificationTracking.customAction.value)  from ajo_push_tracking_experience_event_dataset
 group by _experience.customerJourneyManagement.pushChannelContext.platform
 
-select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (_experience.customerJourneyManagement.messageInteraction.offers.offerCount) from cjm_email_tracking_experience_event_dataset
+select  _experience.customerJourneyManagement.pushChannelContext.platform, SUM (_experience.customerJourneyManagement.messageInteraction.offers.offerCount) from ajo_email_tracking_experience_event_dataset
   group by _experience.customerJourneyManagement.pushChannelContext.platform
 ```
 
@@ -316,7 +316,7 @@ WHERE
     ( 
             bcc._experience.customerJourneyManagement.secondaryRecipientDetail.originalRecipientAddress NOT IN ( 
         SELECT distinct mfe._experience.customerJourneyManagement.emailChannelContext.address
-        FROM cjm_message_feedback_event_dataset AS mfe 
+        FROM ajo_message_feedback_event_dataset AS mfe 
         WHERE 
             mfe.timestamp > now() - INTERVAL '2' DAY AND 
             mfe._experience.customerJourneyManagement.messageExecution.messageExecutionID  = '<message-execution-id>' AND
@@ -324,7 +324,7 @@ WHERE
         )  
     OR     bcc._experience.customerJourneyManagement.secondaryRecipientDetail.originalRecipientAddress IN ( 
         SELECT distinct mfe._experience.customerJourneyManagement.emailChannelContext.address
-        FROM cjm_message_feedback_event_dataset AS mfe 
+        FROM ajo_message_feedback_event_dataset AS mfe 
         WHERE 
         mfe.timestamp > now() - INTERVAL '2' DAY AND 
             mfe._experience.customerJourneyManagement.messageExecution.messageExecutionID  = '<message-execution-id>' AND 
@@ -374,7 +374,7 @@ SELECT
   AE._experience.customerJourneyManagement.entities.channelDetails.email.subject 
 from 
   ajo_entity_dataset AE 
-  INNER JOIN cjm_message_feedback_event_dataset MF ON AE._experience.customerJourneyManagement.entities.channelDetails.messageID = MF._experience.customerJourneyManagement.messageExecution.messageID 
+  INNER JOIN ajo_message_feedback_event_dataset MF ON AE._experience.customerJourneyManagement.entities.channelDetails.messageID = MF._experience.customerJourneyManagement.messageExecution.messageID 
 WHERE 
   AE._experience.customerJourneyManagement.entities.channelDetails.channel._id = 'https://ns.adobe.com/xdm/channels/email' 
   AND MF._experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus = 'sent' 
@@ -393,7 +393,7 @@ SELECT
     JE._EXPERIENCE.JOURNEYORCHESTRATION.STEPEVENTS.NODENAME
 from 
   ajo_entity_dataset AE 
-  INNER JOIN cjm_message_feedback_event_dataset MF 
+  INNER JOIN ajo_message_feedback_event_dataset MF 
     ON AE._experience.customerJourneyManagement.entities.channelDetails.messageID = MF._experience.customerJourneyManagement.messageExecution.messageID 
     INNER JOIN journey_step_events JE
     ON AE._experience.customerJourneyManagement.entities.journey.journeyActionID = JE._experience.journeyOrchestration.stepEvents.actionID

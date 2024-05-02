@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: beleid, bestuur, platform, gezondheidsschild, toestemming
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 334527cbad3363b77d14dd447e06d4e8da79daec
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '1318'
 ht-degree: 0%
 
 ---
@@ -28,66 +28,64 @@ Eén type beleid voor gegevensgebruik is beschikbaar **toestemmingsbeleid**. Met
 
 U kunt bijvoorbeeld [beleid voor instemming maken](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy){target="_blank"} in Experience Platform om klanten uit te sluiten die niet hebben ingestemd met het ontvangen van e-mail-, push- of SMS-berichten.
 
-<!--* For the native outbound channels (Email, Push, SMS, Direct mail), the logic is as follows:
+* Voor de inheemse uitgaande kanalen (E-mail, Duw, SMS, Directe post), is de logica als volgt:
 
-    * By default, if a profile has opted out from receiving communications from you, the corresponding profile is excluded from subsequent deliveries.
+   * Als een profiel ervoor heeft gekozen geen communicatie van u te ontvangen, wordt het corresponderende profiel standaard uitgesloten van volgende leveringen.
 
-    * If you have the Adobe **Healthcare Shield** or **Privacy and Security Shield**, you can create a custom consent policy that overrides the default logic. For example, you can define a policy to only send email messages to all individuals who have opted in. In the absence of a custom policy, the default policy applies.
-    
-    To apply a custom policy, you need to define a marketing action in that policy and associate it to a channel surface. [Learn more](#marketing-actions)-->
+   * Als u over de Adobe beschikt **Gezondheidsschild** of **Privacy- en beveiligingsschild**, kunt u een beleid van de douanetoestemming tot stand brengen dat de standaardlogica met voeten treedt. U kunt bijvoorbeeld een beleid definiëren waarmee alleen e-mailberichten worden verzonden naar alle personen die zich hebben aangemeld. Bij gebrek aan een douanebeleid, is het standaardbeleid van toepassing.
+
+  Om een douanebeleid toe te passen, moet u een marketing actie in dat beleid bepalen en het associëren aan een kanaaloppervlakte. [Meer informatie](#surface-marketing-actions)
 
 Op het niveau van de reis, kunt u toestemmingsbeleid op uw douaneacties toepassen:
 
 * Wanneer **een aangepaste handeling configureren** kunt u een kanaal- en marketingactie definiëren. [Meer informatie](#consent-custom-action)
 * Wanneer u het gereedschap **aangepaste actie op reis**, kunt u een extra marketingactie definiëren. [Meer informatie](#consent-journey)
 
-<!--
+## Gebruik bevestigingsbeleid via kanaaloppervlakken {#surface-marketing-actions}
 
-## Leverage consent policies through channel surfaces {#marketing-actions}
+In [!DNL Journey Optimizer], wordt de toestemming door het Experience Platform afgehandeld [Goedkeuringsschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}.
 
-In [!DNL Journey Optimizer], consent is handled by the Experience Platform [Consent schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}.
+Om de waarde van het toestemmingsgebied te wijzigen, kunt u een beleid van de douanetoestemming tot stand brengen waarin u een marketing actie en de voorwaarden bepaalt waaronder die actie wordt uitgevoerd. [Meer informatie over marketingacties](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#marketing-actions){target="_blank"}
 
-To modify the consent field value, you can create a custom consent policy in which you define a marketing action and the conditions under which that action is performed. [Learn more on marketing actions](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#marketing-actions){target="_blank"}
+Als u bijvoorbeeld een toestemmingsbeleid wilt maken om alleen profielen te kiezen die hebben ingestemd met het ontvangen van e-mailberichten, volgt u de onderstaande stappen.
 
-For example, if you want to create a consent policy to target only profiles who have consented to receive email communications, follow the steps below.
+1. Zorg ervoor dat uw organisatie de Adobe heeft aangeschaft **Gezondheidsschild** of **Privacy- en beveiligingsschild** add-on aanbiedingen. [Meer informatie](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
 
-1. Make sure your organization has purchased the Adobe **Healthcare Shield** or **Privacy and Security Shield** add-on offerings. [Learn more](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
+1. In Adobe Experience Platform maakt u een aangepast beleid (op basis van de **[!UICONTROL Privacy]** > **[!UICONTROL Policies]** ). [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-policy){target="_blank"}
 
-1. In Adobe Experience Platform, create a custom policy (from the **[!UICONTROL Privacy]** > **[!UICONTROL Policies]** menu). [Learn how](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-policy){target="_blank"}
+   <!--![](assets/consent-policy-create.png)-->
 
-    ![](assets/consent-policy-create.png)
+1. Kies de optie **[!UICONTROL Consent policy]** type en vorm als volgt een voorwaarde. [Leer hoe te om toestemmingsbeleid te vormen](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy){target="_blank"}
 
-1. Choose the **[!UICONTROL Consent policy]** type and configure a condition as follows. [Learn how to configure consent policies](https://experienceleague-review.corp.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy){target="_blank"}
+   1. Onder de **[!UICONTROL If]** selecteert u de **[!UICONTROL Email Targeting]** standaard marketing actie.
 
-    1. Under the **[!UICONTROL If]** section, select the **[!UICONTROL Email Targeting]** default marketing action.
+      <!--![](assets/consent-policy-marketing-action.png)-->
 
-        ![](assets/consent-policy-marketing-action.png)
+      >[!NOTE]
+      >
+      >De belangrijkste marketingacties die door Adobe buiten de box worden geleverd, worden vermeld in [deze tabel](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions){target="_blank"}. The steps to create a custom marketing action are listed in [this section](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-marketing-action){target="_blank"}.
 
-        >[!NOTE]
-        >
-        >The core marketing actions provided out-of-the-box by Adobe are listed in [this table](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=en#core-actions){target="_blank"}. The steps to create a custom marketing action are listed in [this section](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#create-marketing-action){target="_blank"}.
+   1. Selecteer wat er gebeurt wanneer de marketingactie van toepassing is. In dit voorbeeld selecteert u **[!UICONTROL Email Marketing Consent]**.
 
-    1. Select what happens when the marketing action applies. In this example, select **[!UICONTROL Email Marketing Consent]**.
+   ![](assets/consent-policy-then.png)
 
-    ![](assets/consent-policy-then.png)
+1. Opslaan en [enable](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#enable){target="_blank"} dit beleid.
 
-1. Save and [enable](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#enable){target="_blank"} this policy.
+1. Maak in Journey Optimizer een e-mailoppervlak. [Meer informatie](../configuration/channel-surfaces.md#create-channel-surface)
 
-1. In Journey Optimizer, create an email surface. [Learn how](../configuration/channel-surfaces.md#create-channel-surface)
+1. Selecteer in de details van het e-mailoppervlak de optie **[!UICONTROL Email Targeting]** marketingactie.
 
-1. In the email surface details, select the **[!UICONTROL Email Targeting]** marketing action.
+   ![](assets/surface-marketing-action.png)
 
-    ![](assets/surface-marketing-action.png)
+Alle toestemmingsbeleid verbonden aan die marketing actie wordt automatisch leveraged om de voorkeur van uw klanten te respecteren.
 
-All consent policies associated with that marketing action are automatically leveraged in order to respect the preferences of your customers.
-
-Therefore, in this example, any [email](../email/create-email.md) using that surface in a campaign or a journey is only sent to the profiles who have consented to receive emails from you. Profiles who have not consented to receive email communications are excluded.-->
+Daarom in dit voorbeeld: [email](../email/create-email.md) als u dat oppervlak gebruikt in een campagne of een reis, wordt alleen naar de profielen gestuurd die ermee hebben ingestemd e-mails van u te ontvangen. Profielen die geen toestemming hebben gegeven om e-mailberichten te ontvangen, worden uitgesloten.
 
 ## Gebruikmaken van beleid voor toestemming via aangepaste handelingen {#journey-custom-actions}
 
 ### Belangrijke opmerkingen {#important-notes}
 
-In Journey Optimizer kan toestemming <!--also -->worden gebruikt in aangepaste handelingen. Als u het met de ingebouwde berichtmogelijkheden wilt gebruiken, moet u een voorwaardenactiviteit gebruiken om klanten in uw reis te filtreren.
+In Journey Optimizer kan toestemming ook worden gebruikt voor aangepaste acties. Als u het met de ingebouwde berichtmogelijkheden wilt gebruiken, moet u een voorwaardenactiviteit gebruiken om klanten in uw reis te filtreren.
 
 Met toestemmingsbeheer worden twee reisactiviteiten geanalyseerd:
 

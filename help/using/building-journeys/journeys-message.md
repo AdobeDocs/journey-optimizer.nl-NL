@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, email, in app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -104,6 +104,10 @@ Voor de activiteit in de app kunnen wijzigingen in de inhoud worden aangebracht 
 >title="Optimalisatie van verzonden tijd"
 >abstract="De functie voor Send-Time optimalisatie van Adobe Journey Optimizer, aangedreven door de AI-services van de Adobe, kan de beste tijd voorspellen om een e-mail- of pushbericht te verzenden om de betrokkenheid te maximaliseren op basis van een open historie en klikfrequentie."
 
+>[!NOTE]
+>
+>Deze functie is niet standaard ingeschakeld. U kunt contact opnemen met uw Adobe om de pen te activeren.
+
 ### Over Send-Time optimalisatie {#about-send-time}
 
 De functie voor Send-Time optimalisatie van Adobe Journey Optimizer, aangedreven door de AI-services van de Adobe, kan de beste tijd voorspellen om een e-mail- of pushbericht te verzenden om de betrokkenheid te maximaliseren op basis van een open historie en klikfrequentie. Gebruik ons machine-leert model om gepersonaliseerde verzendtijden voor elke gebruiker te plannen om open te groeien en tarieven van uw berichten te klikken.
@@ -120,10 +124,6 @@ Het model varieert, of u over score of opleiding spreekt. De training wordt aanv
 * Scores - de toepassing van een score op individuele profielen die op het getrainde model worden gebaseerd
 
 Deze informatie wordt opgeslagen met het profiel van de gebruiker en wordt bij de uitvoering van de reis gebruikt om Adobe Journey Optimizer te laten weten wanneer je bericht moet worden verzonden.
-
->[!CAUTION]
->
->Deze functie is niet compatibel met de burst-modus.
 
 ### Veelgestelde vragen {#faq-send-time}
 

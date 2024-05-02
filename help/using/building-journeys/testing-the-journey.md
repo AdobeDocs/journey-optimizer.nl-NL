@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: test, reis, controle, fout, oplossen
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 36e73778f88bcf55a36a25f6b1cd237bf8fe5e9a
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Alleen testprofielen kunnen een reis maken in de testmodus. U kunt nieuwe testpr
 
 Voer de volgende stappen uit om de testmodus te gebruiken:
 
-1. Als u de testmodus wilt activeren, activeert u de **[!UICONTROL Test]** in de rechterbovenhoek.
+1. Als u de testmodus wilt activeren, klikt u op de knop **[!UICONTROL Test mode]** in de rechterbovenhoek.
 
    ![](assets/journeytest1.png)
 

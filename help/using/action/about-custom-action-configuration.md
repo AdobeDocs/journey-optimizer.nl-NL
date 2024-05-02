@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 3%
+source-wordcount: '1401'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 Als u een derdesysteem gebruikt om berichten te verzenden of als u reizen API vraag naar een derdesysteem wilt verzenden, gebruik douaneacties om zijn verbinding aan uw reis te vormen. U kunt bijvoorbeeld met aangepaste handelingen verbinding maken met de volgende systemen: Epsilon, Slack, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, enz.
 
-Aangepaste acties zijn aanvullende acties die door technische gebruikers worden gedefinieerd en beschikbaar worden gesteld aan verkopers. Zodra gevormd, verschijnen zij in het linkerpalet van uw reis, in **[!UICONTROL Action]** categorie. Meer informatie in [deze pagina](../building-journeys/about-journey-activities.md#action-activities).
+Aangepaste acties zijn aanvullende acties die door technische gebruikers worden gedefinieerd en beschikbaar worden gesteld aan verkopers. Zodra gevormd, verschijnen zij in het linkerpalet van uw reis, in **[!UICONTROL Action]** categorie. Meer informatie vindt u [op deze pagina](../building-journeys/about-journey-activities.md#action-activities).
 
 ## Beperkingen{#custom-actions-limitations}
 
@@ -74,7 +74,7 @@ Hier zijn de belangrijkste stappen die worden vereist om een douaneactie te vorm
 
    >[!NOTE]
    >
-   >Gebruik geen spaties of speciale tekens. Gebruik niet meer dan 30 tekens.
+   >Alleen alfanumerieke tekens en onderstrepingstekens zijn toegestaan. De maximumlengte is 30 tekens.
 
 1. Voeg een beschrijving aan uw actie toe. Deze stap is optioneel.
 1. Het aantal ritten dat deze handeling gebruikt, wordt weergegeven in het dialoogvenster **[!UICONTROL Used in]** veld. U kunt op de knop **[!UICONTROL View journeys]** om de lijst met reizen weer te geven die deze handeling gebruiken.

@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: reenter, transport, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 1%
@@ -93,5 +93,7 @@ U kunt ook het volgende doen:
 
 1. In de **[!UICONTROL Journeys]** klikt u op de reis die u wilt stoppen.
 1. Klik rechtsboven op de pijl omlaag.
-   ![](assets/finish_drop_down_list.png)
+
+   ![](assets/finish_drop_down_list2.png)
+
 1. Klikken **[!UICONTROL Stop]** en bevestigen in het dialoogvenster.

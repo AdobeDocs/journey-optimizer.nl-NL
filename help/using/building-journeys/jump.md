@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: springen, activiteit, reis, splitsen, splitsen
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '817'
 ht-degree: 2%
 
 ---
@@ -65,7 +65,7 @@ Bij reis B wordt het eerste evenement intern geactiveerd, via de **[!UICONTROL J
 * De doelreis kan ook een groot aantal **[!UICONTROL Jump]** activiteiten indien nodig.
 * Luspatronen worden niet ondersteund. Er is geen manier om twee of meer reizen aan elkaar te koppelen, wat een oneindige lus zou creëren. De **[!UICONTROL Jump]** Het scherm van de activiteitenconfiguratie verhindert u dit te doen.
 
-### Uitvoering
+### Execution
 
 * Wanneer de **[!UICONTROL Jump]** de activiteit wordt uitgevoerd, wordt de recentste versie van de doelreis teweeggebracht.
 * Zoals gebruikelijk kan een uniek individu slechts eenmaal op dezelfde reis aanwezig zijn. Als het individu dat van de oorspronkelijke reis werd geduwd al op de doelreis zit, zal het individu dus niet de doelreis betreden. Er wordt geen fout gerapporteerd in de **[!UICONTROL Jump]** activiteit omdat dit een normaal gedrag is.
@@ -112,7 +112,7 @@ Wanneer een **[!UICONTROL Jump]** activiteit wordt gevormd in een reis, a **[!UI
 
 ## Problemen oplossen
 
-Bij publicatie van de reis of in testmodus treden fouten op als:
+Er treden fouten op als:
 * de beoogde reis is niet langer mogelijk
 * de doelreis is een concept, een gesloten of een stilstand
 * als de eerste gebeurtenis van de doelreis is gewijzigd en de mapping is verbroken

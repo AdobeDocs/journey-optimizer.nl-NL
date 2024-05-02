@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 99c509a00a3e8a4dbf9ae8a5b16aa799b0af2e13
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1674'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,8 @@ Ga als volgt te werk om een kanaaloppervlak te maken:
    >
    > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook het onderstrepingsteken gebruiken `_`, punt`.` en afbreekstreepje `-` tekens.
 
+1. Als u aangepaste labels of basislabels voor gegevensgebruik wilt toewijzen aan het oppervlak, kunt u **[!UICONTROL Manage access]**. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md).
+
 1. Als u **[!UICONTROL Email]** kanaal, configureert u uw instellingen zoals beschreven in [deze sectie](../email/email-settings.md).
 
    ![](assets/preset-email.png)
@@ -80,7 +82,7 @@ Ga als volgt te werk om een kanaaloppervlak te maken:
    >
    >Raadpleeg voor meer informatie over het configureren van uw omgeving voor het verzenden van pushberichten de [deze sectie](../push/push-gs.md).
 
-1. Voor de **[!UICONTROL SMS]** kanaal, uw montages bepalen zoals gedetailleerd in [deze sectie](../sms/sms-configuration.md#message-preset-sms).
+1. Voor de **[!UICONTROL SMS]** kanaal, uw montages bepalen zoals gedetailleerd in [deze sectie](../sms/sms-configuration.md).
 
    ![](assets/preset-sms.png)
 
@@ -88,18 +90,17 @@ Ga als volgt te werk om een kanaaloppervlak te maken:
    >
    >Voor meer over hoe te om uw milieu te vormen om de berichten van SMS te verzenden, verwijs naar [deze sectie](../sms/sms-configuration.md).
 
-<!--
-1. Select a **[!UICONTROL Marketing action]** to associate consent policies to the messages using this surface. All consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers. [Learn more](../action/consent.md#marketing-actions)
+1. Selecteer een **[!UICONTROL Marketing action]** om toestemmingsbeleid aan de berichten te associëren die deze oppervlakte gebruiken. Alle toestemmingsbeleid verbonden aan die marketing actie wordt gebruikt om de voorkeur van uw klanten te respecteren. [Meer informatie](../action/consent.md#surface-marketing-actions)
 
-    >[!NOTE]
-    >
-    >Consent policies are currently only available for organizations that have purchased the **Healthcare Shield** and **Privacy and Security Shield** add-on offerings. [Learn more](https://experienceleague.adobe.com/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield.html){target="_blank"}
+   >[!NOTE]
+   >
+   >Het beleid voor toestemming is momenteel alleen beschikbaar voor organisaties die de **Gezondheidsschild** en **Privacy- en beveiligingsschild** add-on aanbiedingen.
 
-    ![](assets/surface-marketing-action.png)
+   ![](assets/surface-marketing-action.png)
 
-    >[!NOTE]
-    >
-    >You can only select one marketing action.-->
+   >[!NOTE]
+   >
+   >U kunt slechts één marketingactie selecteren.
 
 1. Zodra alle parameters zijn gevormd, klik **[!UICONTROL Submit]** ter bevestiging. U kunt het kanaaloppervlak ook opslaan als concept en de configuratie later hervatten.
 

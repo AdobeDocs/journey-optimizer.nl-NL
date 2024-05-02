@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: activiteit, toestand, canvas, reis
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 5%
@@ -154,11 +154,10 @@ In deze sectie wordt uitgelegd hoe u een publiek kunt gebruiken in een reiscondi
 Voer de volgende stappen uit om een publiek in een reisvoorwaarde te gebruiken:
 
 1. Een reis openen en een **[!UICONTROL Condition]** en kiest u de **Voorwaarde gegevensbron**.
-   ![](assets/journey47.png)
-
-1. Klikken **[!UICONTROL Add a path]** voor elk extra pad nodig. Klik voor elk pad op de knop **[!UICONTROL Expression]** veld.
 
    ![](assets/segment3.png)
+
+1. Klikken **[!UICONTROL Add a path]** voor elk extra pad nodig. Klik voor elk pad op de knop **[!UICONTROL Expression]** veld.
 
 1. Links vouwen **[!UICONTROL Audiences]** knooppunt. Sleep het publiek dat u voor de voorwaarde wilt gebruiken en zet het neer. Standaard is de voorwaarde voor het publiek waar.
 

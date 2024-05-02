@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c14ed9196d003cee893eb809a0edbdeebe36555f
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1786'
 ht-degree: 30%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 30%
    + [Vroege aanvullende informatie](using/rn/early-release-notes.md)
    + [Opmerkingen bij de laatste release](using/rn/release-notes.md)
    + Opmerkingen bij vorige release {#previous-rn-new}
+      + [Opmerkingen bij de release van 2024](using/rn/release-notes-2024.md)
       + [Opmerkingen bij de release van 2023](using/rn/release-notes-2023.md)
       + [Opmerkingen bij de release van 2022](using/rn/release-notes-2022.md)
       + [Opmerkingen bij de release van 2021](using/rn/release-notes-2021.md)
@@ -165,6 +166,7 @@ ht-degree: 30%
          + [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](using/building-journeys/collections.md)
          + [Leveringen opwaarderen](using/building-journeys/ramp-up-deliveries-uc.md)
          + [Productie beperken met externe gegevensbronnen en aangepaste handelingen](using/building-journeys/limit-throughput.md)
+         + [Aangepaste handelingen gebruiken om gebeurtenissen Journey in Experience Platform te schrijven](using/building-journeys/custom-action-aep.md)
 + Campagnes{#campaigns}
    + [Aan de slag met campagnes](using/campaigns/get-started-with-campaigns.md)
    + [Een campagne maken](using/campaigns/create-campaign.md)
@@ -224,12 +226,16 @@ ht-degree: 30%
       + [Snelstartworkflow voor mobiele instaptoegang](using/push/mobile-onboarding-wf.md)
 + SMS/MMS-kanaal{#sms}
    + [Aan de slag met tekstberichten](using/sms/get-started-sms.md)
-   + [Een tekstbericht maken](using/sms/create-sms.md)
-   + [Een MMS-bericht maken](using/sms/create-mms.md)
+   + [Een tekstbericht maken (SMS/MMS)](using/sms/create-sms.md)
    + [De tekstberichten controleren en verzenden](using/sms/send-sms.md)
    + [Weigeren tekstbericht beheren](using/sms/sms-opt-out.md)
-   + [Sms-kanaal configureren](using/sms/sms-configuration.md)
    + [SMS-subdomeinen instellen](using/sms/sms-subdomains.md)
+   + SMS/MMS-kanaal configureren{#configure-sms}
+      + [Ga aan de slag met de configuratie van SMS](using/sms/sms-configuration.md)
+      + [Sinch-provider configureren](using/sms/sms-configuration-sinch.md)
+      + [Infobip-provider configureren](using/sms/sms-configuration-infobip.md)
+      + [Twilio-provider configureren](using/sms/sms-configuration-twilio.md)
+      + [Een SMS-oppervlak maken](using/sms/sms-configuration-surface.md)
 + Direct mail {#direct-mail}
    + [Aan de slag met direct mail](using/direct-mail/get-started-direct-mail.md)
    + [Een directe e-mail maken](using/direct-mail/create-direct-mail.md)

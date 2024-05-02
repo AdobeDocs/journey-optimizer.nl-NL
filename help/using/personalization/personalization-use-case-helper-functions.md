@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: voor persoonlijke voorkeur; e-mail over verlaten van winkelwagen
+title: Hoofdlettergebruik&dubbelepunt; e-mail met afstand van winkelwagentje
 description: Leer hoe u de hoofdtekst van een e-mailbericht kunt aanpassen met een kwestie van het type use.
 feature: Personalization
 topic: Personalization
@@ -9,23 +9,22 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, redacteur, helpers, gebruiksgeval, verpersoonlijking
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 02fc8825f61bd365b02788bbcd3e0647f5842bfa
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 2%
+source-wordcount: '968'
+ht-degree: 1%
 
 ---
 
-# Gebruiksscenario voor personalisatie: e-mail over verlaten van winkelwagen {#personalization-use-case-helper-functions}
+# Gebruiksscenario voor persoonlijke voorkeur: e-mail met afstand van winkelwagentje {#personalization-use-case-helper-functions}
 
-In dit voorbeeld past u de hoofdtekst van een e-mailbericht aan. Dit bericht is bedoeld voor klanten die objecten in hun winkelwagentje hebben verlaten maar hun aankoop niet hebben voltooid.
+In dit voorbeeld past u de hoofdtekst van een e-mailbericht aan. Dit bericht is bedoeld voor klanten die objecten in hun winkelwagentje hebben verlaten, maar hun aankoop niet hebben voltooid.
 
 U gebruikt de volgende typen hulpfuncties:
 
 * De `upperCase` tekenreeksfunctie, om de voornaam van de klant in hoofdletters in te voegen. [Meer informatie](functions/string.md#upper).
-* De `each` helper, om de punten te vermelden die in het karretje zijn. [Meer informatie](functions/helpers.md#each).
+* De `each` helper, om de punten te vermelden die in de kar zijn. [Meer informatie](functions/helpers.md#each).
 * De `if` helper, om een productspecifieke nota in te voegen als het verwante product in de kar is. [Meer informatie](functions/helpers.md#if-function).
-
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 ➡️ [Leer hoe u in deze video hulpfuncties kunt gebruiken](#video)
@@ -44,23 +43,23 @@ Voer de volgende stappen uit:
 1. [De voornaam van de klant in hoofdletters invoegen](#uppercase-function).
 1. [De inhoud van het winkelwagentje toevoegen aan de e-mail](#each-helper).
 1. [Een productspecifieke notitie invoegen](#if-helper).
-1. [De journey testen en publiceren](#test-and-publish).
+1. [De reis testen en publiceren](#test-and-publish).
 
-## Stap 1: De eerste gebeurtenis en de bijbehorende reis maken {#create-context}
+## Stap 1: Maak de eerste gebeurtenis en de bijbehorende reis {#create-context}
 
 De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom moet u een eerste gebeurtenis en de e-mail aan een reis toevoegen alvorens u kartspecifieke informatie aan e-mail kunt toevoegen.
 
 1. Maak een gebeurtenis waarvan het schema de `productListItems` array.
 1. Definieer alle velden in deze array als payload-velden voor deze gebeurtenis.
 
-   Meer informatie over het type itemgegevens in de productlijst vindt u in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
+   Meer informatie over het gegevenstype van de productlijst vindt u in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"}.
 
 1. Maak een reis die met deze gebeurtenis begint.
 1. Een **E-mail** activiteit van de reis.
 
    ![](assets/personalization-uc-helpers-8.png)
 
-## Stap 2: E-mail maken{#configure-email}
+## Stap 2: Maak de e-mail{#configure-email}
 
 1. In de **E-mail** activiteit, klik **[!UICONTROL Edit content]** en klik vervolgens op **[!UICONTROL Email Designer]**.
 
@@ -72,14 +71,14 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 
    ![](assets/personalization-uc-helpers-2.png)
 
-## Stap 3: De voornaam van de klant in hoofdletters invoegen {#uppercase-function}
+## Stap 3: De voornaam van de klant invoegen in hoofdletters {#uppercase-function}
 
 1. Klik op de introductiepagina van E-mail Designer op de HTML-component waar u de voornaam van de klant wilt toevoegen.
-1. Klik op de contextafhankelijke werkbalk op **[!UICONTROL Show the source code]**.
+1. Klik op de contextwerkbalk op **[!UICONTROL Show the source code]**.
 
    ![](assets/personalization-uc-helpers-3.png)
 
-1. In de **[!UICONTROL Edit HTML]** venster toevoegen `upperCase` tekenreeksfunctie:
+1. In de **[!UICONTROL Edit HTML]** venster, voegt de `upperCase` string functie:
    1. Selecteer in het linkermenu de optie **[!UICONTROL Helper functions]**.
    1. Gebruik het zoekveld om naar hoofdletters en kleine letters te zoeken.
    1. Voeg in de zoekresultaten de `upperCase` functie. Klik hiertoe op het plusteken (+) naast `{%= upperCase(string) %}: string`.
@@ -93,9 +92,9 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
       ![](assets/personalization-uc-helpers-4.png)
 
 1. Verwijder de tijdelijke aanduiding &quot;tekenreeks&quot; uit de expressie.
-1. Voeg het voornaamtoken toe:
+1. Voeg de token voor de voornaam toe:
    1. Selecteer in het linkermenu de optie **[!UICONTROL Profile attributes]**.
-   1. Selecteer **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
+   1. Selecteren **[!UICONTROL Person]** > **[!UICONTROL Full name]**.
    1. Voeg de **[!UICONTROL First name]** gebruiken voor de expressie.
 
       De redacteur van de Uitdrukking toont deze uitdrukking:
@@ -106,7 +105,7 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      Meer informatie over het gegevenstype Personen in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
+      Meer informatie over het gegevenstype Personen in [Documentatie over de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html){target="_blank"}.
 
 1. Klikken **[!UICONTROL Validate]** en klik vervolgens op **[!UICONTROL Save]**.
 
@@ -114,16 +113,16 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 
 1. Sla het bericht op.
 
-## Stap 4: Lijst met artikelen uit het winkelwagentje invoegen {#each-helper}
+## Stap 4: De lijst met artikelen uit het winkelwagentje invoegen {#each-helper}
 
 1. Open de inhoud van het bericht opnieuw.
 
 1. Klik op de introductiepagina van E-mail Designer op de HTML-component waar u de inhoud van het winkelwagentje wilt weergeven.
-1. Klik op de contextafhankelijke werkbalk op **[!UICONTROL Show the source code]**.
+1. Klik op de contextwerkbalk op **[!UICONTROL Show the source code]**.
 
    ![](assets/personalization-uc-helpers-3.png)
 
-1. In de **[!UICONTROL Edit HTML]** venster toevoegen `each` helper:
+1. In de **[!UICONTROL Edit HTML]** venster, voegt de `each` helper:
    1. Selecteer in het linkermenu de optie **[!UICONTROL Helper functions]**.
    1. Gebruik het zoekveld om &quot;elk&quot; te zoeken.
    1. Voeg in de zoekresultaten de `each` helper.
@@ -168,7 +167,6 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
       ```handlebars
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
-
 
 1. Deze code plakken tussen het openen `{{#each}}` en het sluiten `{/each}}` tag:
 
@@ -217,13 +215,13 @@ De inhoud van het winkelwagentje is contextuele informatie van de reis. Daarom m
 ## Stap 5: Een productspecifieke notitie invoegen {#if-helper}
 
 1. Klik op de startpagina van E-mailontwerper op de HTML-component waar u de notitie wilt invoegen.
-1. Klik op de contextafhankelijke werkbalk op **[!UICONTROL Show the source code]**.
+1. Klik op de contextwerkbalk op **[!UICONTROL Show the source code]**.
 
    ![](assets/personalization-uc-helpers-3.png)
 
-1. In de **[!UICONTROL Edit HTML]** venster toevoegen `if` helper:
+1. In de **[!UICONTROL Edit HTML]** venster, voegt de `if` helper:
    1. Selecteer in het linkermenu de optie **[!UICONTROL Helper functions]**.
-   1. Gebruik het zoekveld om &quot;if&quot; te zoeken.
+   1. Gebruik het zoekveld om te zoeken naar &quot;if&quot;.
    1. Voeg in de zoekresultaten de `if` helper.
 
       De redacteur van de Uitdrukking toont deze uitdrukking:

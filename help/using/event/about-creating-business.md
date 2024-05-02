@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: gebeurtenis, reis, zaken, configuratie
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 9%
+source-wordcount: '1104'
+ht-degree: 7%
 
 ---
 
@@ -76,7 +76,7 @@ Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
 
    >[!NOTE]
    >
-   >Gebruik geen spaties of speciale tekens. Gebruik niet meer dan 30 tekens.
+   >Alleen alfanumerieke tekens en onderstrepingstekens zijn toegestaan. De maximumlengte is 30 tekens.
 
 1. In de **[!UICONTROL Type]** veld, kies **Zakelijk**.
 
@@ -106,7 +106,7 @@ Hier zijn de eerste stappen om een bedrijfsgebeurtenis te vormen:
 
    ![](assets/journey7-business.png)
 
-   De gebeurtenis is nu geconfigureerd en klaar om in een journey worden gezet. Er zijn aanvullende configuratiestappen nodig om gebeurtenissen te ontvangen. Meer informatie in [deze pagina](../event/additional-steps-to-send-events-to-journey.md).
+   De gebeurtenis is nu geconfigureerd en klaar om in een journey worden gezet. Er zijn aanvullende configuratiestappen nodig om gebeurtenissen te ontvangen. Meer informatie vindt u [op deze pagina](../event/additional-steps-to-send-events-to-journey.md).
 
 ## De laadvelden definiëren {#define-the-payload-fields}
 

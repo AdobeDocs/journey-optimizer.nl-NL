@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate
 keywords: actie, douane, API, reis, configuratie, de dienst
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 24%
+source-wordcount: '393'
+ht-degree: 23%
 
 ---
 
@@ -47,11 +47,11 @@ In deze tabel ziet u een voorbeeld van configuratie:
 | Veld | Waarde |
 | --- | --- |
 | URL | `https://xxx.yyy.com:8080/somethingstatic/` |
-| Pad | `The id of marketingCampaign + '/messages'` |
+| Pad | `The _id + '/messages'` |
 
 De samengevoegde URL heeft de volgende vorm:
 
-`https://xxx.yyy.com:8080/somethingstatic/`\&lt;campaign id=&quot;&quot;>`/messages`
+`https://xxx.yyy.com:8080/somethingstatic/`\&lt;id>`/messages`
 
 ![](assets/journey-custom-action-url.png)
 
@@ -69,4 +69,4 @@ In de **[!UICONTROL Action parameters]** sectie, zult u de berichtparameters zie
 
 **Verwante onderwerpen**
 
-[Een actie configureren](../action/about-custom-action-configuration.md)
+[Een handeling configureren](../action/about-custom-action-configuration.md)

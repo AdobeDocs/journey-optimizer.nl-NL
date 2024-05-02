@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: machtiging, hoog niveau, laag niveau, profiel, beheerconsole
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: b4998f62d5cc5fa134271ec5ce8c177150472a30
+source-git-commit: 5d214812b1d7e189fe8a964f445545916d00c0a4
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -287,6 +287,28 @@ Bijvoorbeeld de **[!DNL Journey administrator]** de rol wordt toegewezen aan **[
 +++
 
 ## Bron voor kanaalconfiguraties {#administration-permissions}
+
+<!--
+* **[!DNL Manage Experience decisions]** high-level permission allows users to read, create, edit, and delete Experience decisioning entities.
+
+  +++ It includes the following low-level permissions:  
+
+  * Experience decisions specific:
+    * ranking_strategy.read
+    * offeritem.read
+    * offeritem.write
+    * offeritem.delete
+    * itemCollection.read
+    * itemCollection.write
+    * itemCollection.delete
+    * SelectionStrategy.read
+    * SelectionStrategy.write
+    * SelectionStrategy.delete
+    * Decisionpolicy.read
+    * Decisionpolicy.write
+    * Decisionpolicy.delete
+  +++
+-->
 
 * **[!DNL Manage file routing]** de toestemming op hoog niveau staat gebruikers toe om dossier te creëren uit te geven en te schrappen dat configuraties verplettert.
 

@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evenement, eenheidsprijs, creëren, reis
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 12%
+source-wordcount: '1560'
+ht-degree: 10%
 
 ---
 
@@ -41,7 +41,7 @@ Hier volgen de eerste stappen voor het configureren van een nieuwe gebeurtenis:
 
    >[!NOTE]
    >
-   >Gebruik geen spaties of speciale tekens. Gebruik niet meer dan 30 tekens.
+   >Alleen alfanumerieke tekens en onderstrepingstekens zijn toegestaan. De maximumlengte is 30 tekens.
 
 1. In de **[!UICONTROL Type]** veld, kies **Unitair**.
 

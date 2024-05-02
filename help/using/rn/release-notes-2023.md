@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '4397'
 ht-degree: 8%
@@ -213,9 +213,9 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Sms-kanaal**
 
-* Twee nieuwe velden, **Bericht bij aanmelden** en **Help-bericht**, zijn toegevoegd aan het API-configuratiescherm, zodat gebruikers reacties voor binnenkomende trefwoorden kunnen aanpassen. Merk op dat dit slechts voor de leverancier van SMS van Sinch beschikbaar is. [Meer informatie](../sms/sms-configuration.md#create-api)
+* Twee nieuwe velden, **Bericht bij aanmelden** en **Help-bericht**, zijn toegevoegd aan het API-configuratiescherm, zodat gebruikers reacties voor binnenkomende trefwoorden kunnen aanpassen. Merk op dat dit slechts voor de leverancier van SMS van Sinch beschikbaar is. [Meer informatie](../sms/sms-configuration.md)
 
-* De opt-out van SMS wordt niet meer beheerd op kanaalniveau. Het is nu numeriek-specifiek, wat betekent dat als sommige profielen van een bepaald aantal of korte code opteren, u hen nog berichten van andere aantallen kunt verzenden u kunt gebruiken om SMS berichten te verzenden. Met een nieuwe optie kunt u de optie **Uitschakelen-nummer** u wilt gebruiken voor een bepaald oppervlak. [Meer informatie](../sms/sms-configuration.md#message-preset-sms)
+* De opt-out van SMS wordt niet meer beheerd op kanaalniveau. Het is nu numeriek-specifiek, wat betekent dat als sommige profielen van een bepaald aantal of korte code opteren, u hen nog berichten van andere aantallen kunt verzenden u kunt gebruiken om SMS berichten te verzenden. Met een nieuwe optie kunt u de optie **Uitschakelen-nummer** u wilt gebruiken voor een bepaald oppervlak. [Meer informatie](../sms/sms-configuration.md)
 
 **Direct mailkanaal**
 

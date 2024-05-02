@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: profiel, update, reis, activiteit
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 9010b173eb5126fff72d71aa582b265cc05fddf0
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Gebruik de **[!UICONTROL Update Profile]** activiteit om een bestaand profiel va
 
 ## Aanbevelingen
 
-* De **Profiel bijwerken** Actie kan alleen worden gebruikt tijdens reizen die beginnen met een gebeurtenis met een naamruimte.
+* De **Profiel bijwerken** Actie kan alleen worden gebruikt bij reizen met een naamruimte.
 * Met de handeling worden alleen bestaande velden bijgewerkt. Er worden geen nieuwe profielvelden gemaakt.
 * U kunt de **Profiel bijwerken** actie om ervaringsgebeurtenissen te genereren, bijvoorbeeld een aankoop.
 * Net als bij andere acties kunt u een alternatief pad definiëren in het geval van een fout of time-out. U kunt geen twee acties parallel plaatsen.

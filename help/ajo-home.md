@@ -5,9 +5,9 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 55d9b8f0fc7e048c9f9cb506d8153f27595aaa3f
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '377'
 ht-degree: 16%
 
 ---
@@ -20,27 +20,27 @@ Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en
 
 >[!BEGINTABS]
 
->[!TAB Maart is live!]
+>[!TAB April release is live!]
 
 Ontdek nieuwe functies en verbeteringen die worden geïntroduceerd in de Adobe Journey Optimizer 24.3-release.
 
 [![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Ervaringen op basis van code]
+>[!TAB Nieuwe ervaring op reis]
 
-Met het nieuwe op code-gebaseerde ervaringskanaal, staat Adobe Journey Optimizer u toe om geavanceerde verpersoonlijking en het testen voor om het even welk van uw binnenkomende eigenschappen te doen, toelatend naadloze levering van op maat gemaakte ervaringen over diverse aanraakpunten zoals Web apps, mobiele apps, Desktop apps, videoconsoles, TV aangesloten apparaten, slimme TVs, kiosken, ATMs, IoT apparaten, en meer.
+Deze release wordt geleverd met een verbeterde gebruikersinterface voor het canvas voor reizen en biedt een intuïtievere en efficiëntere gebruikerservaring. De activiteiten zijn duidelijker en geven meer informatie over het reiscanvas met minder kliks.
 
-![](using/rn/assets/do-not-localize/code-based.gif)
+![](using/rn/assets/new-canvas3.gif)
 
-[![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/code-based/get-started-code-based.md)
+[![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/rn/new-canvas.md)
 
->[!TAB Webberichten in de app]
+>[!TAB MMS voor alle aanbieders]
 
-U kunt het nieuwe Web in-App overseinenvermogen nu gebruiken om gepersonaliseerde inhoud direct op websites, door modaal-bekledingsberichten te tonen. Met deze functie kunt u effectief contact opnemen met webbezoekers, waardoor de interactie, het behoud en de conversiesnelheden van gebruikers worden verbeterd.
+Met het Kanaal van SMS, kunt u uw mededeling nu verbeteren door de MMS-berichten (Multimedia Message Service) te verzenden, toelatend het delen van beelden, GIFFEN, of video&#39;s met uw klanten. In eerste instantie alleen beschikbaar bij Sinch, is MMS nu ook beschikbaar bij Infobip en Twilio.
 
-![](using/rn/assets/do-not-localize/web_inapp.gif)
+![](using/rn/assets/do-not-localize/mms.gif)
 
-[![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/in-app/create-in-app-web.md)
+[![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/sms/get-started-sms.md)
 
 >[!ENDTABS]
 

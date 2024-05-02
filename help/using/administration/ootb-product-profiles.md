@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: machtigingen, schrijven, berichten
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: 1cfe9f6cb6e7c3e9a5d9b808c10ae4dfe77a92a2
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 5%
@@ -26,7 +26,7 @@ De **[!DNL Campaign Administrator]** Met deze rol kunnen de bestuursmenu&#39;s c
 
 Deze rol omvat de volgende toestemmingen:
 
-| Bronnen | Toestemmingen |
+| Bronnen | Machtigingen |
 |-|-|
 | Campagnes | <ul><li> **[!DNL Manage campaigns]**: campagnes lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Publish campaigns]**: publicatiecampagnes.</li><li>**[!DNL View campaigns report]**: lees en bewerk het campagnerapport.</li></ul> |
 | Kanaalconfiguraties | <ul><li>**[!DNL Manage subdomains delegation]**: subdomeindelegatie lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage IP pools]**: lees, creeer, geef, en schrap ip pool uit.</li><li>**[!DNL Manage PTR records]**: lees PTR-records en bewerk deze.</li><li>**[!DNL View PTR records]**: alleen-lezen toegang tot PTR-records.</li><li> **[!DNL Manage messages general settings]**: algemene instellingen van berichten lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage messages presets]**: inhoud lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage suppression rules]**: toegang tot suppressieregels lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Export suppression list]**: toegang tot lijst met exportonderdrukking als een CSV-bestand.</li><li>**[!DNL View suppression list]**: lees en exporteer de lokale suppressielijst.</li><li>**[!DNL Manage alerts]**: waarschuwingen voor campagnes, berichten en aanspraken in- en uitschakelen.</li><li>**[!DNL Manage landing page settings]**: lees, maak, bewerk en verwijder de landingspagina-instellingen.</li><li>**[!DNL Manage SMS settings]**: lees-, maak-, bewerk- en verwijderinstellingen voor SMS.</li></ul> |
@@ -37,7 +37,7 @@ Deze rol omvat de volgende toestemmingen:
 
 De **[!DNL Campaign Approver]** Met de rol kunnen gebruikers leveringen goedkeuren en publiceren. Zij kunnen later het succes van hun leveringen controleren met de **[!DNL Campaigns]** rapporten.
 
-| Bronnen | Toestemmingen |
+| Bronnen | Machtigingen |
 |-|-|
 | Campagnes | <ul><li>**[!DNL Manage campaigns]**: campagnes lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Publish campaigns]**: publicatiecampagnes.</li><li>**[!DNL View Campaigns report]**: lezen, reisrapporten bewerken.</li></ul> |
 | Beslissingsbeheer | <ul><li>**[!DNL Manage decisions]**: lees, maak, bewerk en verwijder beslissingsentiteiten.</li><li>**[!DNL Manage ranking strategies]**: lees-, maak-, bewerk- en verwijder aangepaste berichtrapporten en gebruik actiefuncties.</li></ul> |
@@ -50,7 +50,7 @@ De **[!DNL Campaign Manager]** rol staat gebruikers toe om tot stand te brengen 
 
 Deze rol omvat de volgende toestemmingen:
 
-| Bronnen | Toestemmingen |
+| Bronnen | Machtigingen |
 |-|-|
 | Campagnes | <ul><li>**[!DNL Manage campaigns]**: campagnes lezen, maken, bewerken en verwijderen.</li><li>**[!DNL View campaigns report]**: lezen, reisrapport bewerken.</li></ul> |
 | Beslissingsbeheer | <ul><li>**[!DNL Manage decisions]**: lees, maak, bewerk en verwijder beslissingsentiteiten.</li><li>**[!DNL Manage ranking strategies]**: lees-, maak-, bewerk- en verwijder aangepaste berichtrapporten en gebruik actiefuncties.</li></ul> |
@@ -65,7 +65,7 @@ Gebruikers die aan deze rol zijn toegewezen, kunnen deze niet bewerken of public
 
 Deze rol omvat de volgende toestemmingen:
 
-| Bronnen | Toestemmingen |
+| Bronnen | Machtigingen |
 |-|-|
 | Campagnes | <ul><li>**[!DNL View campaigns]**: alleen-lezen toegang tot campagnes.</li><li>**[!DNL View campaigns report]**: alleen-lezen toegang tot campagnes.</li></ul> |
 | Beslissingsbeheer | <ul><li>**[!DNL View decisions]**: alleen-lezen toegang tot besluitvormingsentiteiten.</li></ul> |
@@ -76,7 +76,7 @@ De **[!DNL Journey Administrator]** Met deze rol kunnen de administratiemenu&#39
 
 Deze rol omvat de volgende toestemmingen:
 
-| Bronnen | Toestemmingen |
+| Bronnen | Machtigingen |
 |-|-|
 | Journeys | <ul><li> **[!DNL Manage journeys]**: reizen lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Publish journeys]**: publiceer reizen.</li><li>**[!DNL Manage journeys events, data sources and actions]**: gebeurtenissen, bronnen of handelingen lezen, maken, bewerken en verwijderen.</li><li>**[!DNL View journeys report]**: reisrapport lezen en bewerken.</li></ul> |
 | Kanaalconfiguraties | <ul><li>**[!DNL Manage subdomains delegation]**: subdomeindelegatie lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage IP pools]**: lees, creeer, geef, en schrap ip pool uit.</li><li>**[!DNL Manage PTR records]**: lees PTR-records en bewerk deze.</li><li>**[!DNL View PTR records]**: alleen-lezen toegang tot PTR-records.</li><li>**[!DNL Manage messages presets]**: inhoud lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage Landing page settings]**: maak, bewerk en verwijder subdomeinen van de bestemmingspagina en voorinstellingen van de bestemmingspagina.</li><li> **[!DNL Manage messages general settings]**: algemene instellingen van berichten lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Manage SMS settings]**: maak, bewerk en verwijder API-referenties en SMS-kanaaloppervlakken die vereist zijn om SMS-kanaal in te schakelen.</li><li>**[!DNL Manage suppression rules]**: toegang tot suppressieregels lezen, maken, bewerken en verwijderen.</li><li>**[!DNL View suppression list]**: lees en exporteer de lokale suppressielijst.</li><li>**[!DNL Manage alerts]**: signaleringen voor reizen en aanspraken in- en uitschakelen.</li></ul> |
@@ -91,7 +91,7 @@ De **[!DNL Journey Approver]** Met de rol kunnen gebruikers leveringen goedkeure
 
 Deze rol omvat de volgende toestemmingen:
 
-| Bronnen | Toestemmingen |
+| Bronnen | Machtigingen |
 |-|-|
 | Journeys | <ul><li>**[!DNL Manage journeys]**: reizen lezen, maken, bewerken en verwijderen.</li><li>**[!DNL Publish journey]**: publiceer reizen.</li><li>**[!DNL View journeys events, data sources and actions]**: alleen-lezen toegang tot reisevenementen, aangepaste reisacties en bronnen van reisgegevens.</li><li>**[!DNL View journeys report]**: lezen, reisrapporten bewerken.</li></ul> |
 | Beslissingsbeheer | <ul><li>**[!DNL Manage decisions]**: lees, maak, bewerk en verwijder beslissingsentiteiten.</li><li>**[!DNL Manage ranking strategies]**: lees-, maak-, bewerk- en verwijder aangepaste rapporten en gebruik actiefuncties.</li></ul> |
@@ -104,7 +104,7 @@ De **[!DNL Journey Manager]** rol staat gebruikers toe om tot stand te brengen e
 
 Deze rol omvat de volgende toestemmingen:
 
-| Bronnen | Toestemmingen |
+| Bronnen | Machtigingen |
 |-|-|
 | Journeys | <ul><li>**[!DNL Manage journeys]**: reizen lezen, maken, bewerken en verwijderen.</li><li>**[!DNL View journeys events]**: alleen-lezen toegang tot reisevenementen, aangepaste reisacties en bronnen van reisgegevens.</li><li>**[!DNL View journeys report]**: lezen, reisrapport bewerken.</li></ul> |
 | Beslissingsbeheer | <ul><li>**[!DNL Manage decisions]**: lees, maak, bewerk en verwijder beslissingsentiteiten.</li><li>**[!DNL Manage ranking strategies]**: lees-, maak-, bewerk- en verwijder aangepaste rapporten en gebruik actiefuncties.</li></ul> |
@@ -119,7 +119,7 @@ Gebruikers die aan deze rol zijn toegewezen, kunnen deze niet bewerken of public
 
 Deze rol omvat de volgende toestemmingen:
 
-| Bronnen | Toestemmingen |
+| Bronnen | Machtigingen |
 |-|-|
 | Journeys | <ul><li>**[!DNL View journeys]**: alleen-lezen toegang tot reizen.</li><li>**[!DNL View journeys event, data sources, actions]**: alleen-lezen toegang tot reizen en gegevensbronnen.</li><li>**[!DNL View journeys report]**: alleen-lezen toegang tot reisrapporten.</li></ul> |
 | Beslissingsbeheer | <ul><li>**[!DNL View decisions]**: alleen-lezen toegang tot besluitvormingsentiteiten.</li></ul> |
@@ -130,9 +130,9 @@ De **[!DNL Decisioning manager]** rol verleent slechts toegang tot **[!UICONTROL
 
 Deze rol omvat de volgende toestemmingen:
 
-| Capaciteit | Toestemmingen |
+| Capaciteit | Machtigingen |
 |-|-|
-| Beslissingsbeheer | <ul><li>**[!DNL Manage decisions]**: lees, maak, bewerk en verwijder beslissingsentiteiten.</li><li>**[!DNL View decisions]**: alleen-lezen toegang tot beslissingsentiteiten.</li><li>**[!DNL Manage ranking strategies]**: lees-, maak-, bewerk- en verwijder aangepaste rapporten en gebruik actiefuncties.</li><li>**[!DNL Publish decisions]**: beslissingsactiviteiten activeren of deactiveren.</li></ul> |
+| Beslissingsbeheer | <ul><li>**[!DNL Manage decisions]**: lees, maak, bewerk en verwijder beslissingsentiteiten.</li><li>**[!DNL View decisions]**: alleen-lezen toegang tot beslissingsentiteiten.</li><li>**[!DNL Manage ranking strategies]**: lees-, maak-, bewerk- en verwijder aangepaste rapporten en gebruik actiefuncties.</li><li>**[!DNL Publish decisions]**: beslissingsactiviteiten activeren of deactiveren.</li><!--li>**[!DNL Manage Experience decisions]**: read, create, edit, and delete Experience decisioning entities.</li--></ul> |
 
 ## [!DNL Content Library Manager] {#content-library-manager}
 
@@ -140,7 +140,7 @@ De **[!DNL Content Library Manager]** rol verleent slechts toegang tot **[!UICON
 
 Deze rol omvat de volgende toestemmingen:
 
-| Capaciteit | Toestemmingen |
+| Capaciteit | Machtigingen |
 |-|-|
 | Journey Optimizer Library | <ul><li>**[!DNL Manage library items]**: lees, maak, bewerk en verwijder Journey Optimizer Library-items, inclusief inhoudssjablonen en fragmenten.</li><li>**[!DNL Manage simulate content]**: toegang tot de **[!UICONTROL Simulate content]** voor voorvertoning en proefdruk.</li></ul> |
 | Beslissingsbeheer | <ul><li>**[!DNL Manage decisions]**: lees, maak, bewerk en verwijder beslissingsentiteiten.</li><li>**[!DNL Manage ranking strategies]**: lees-, maak-, bewerk- en verwijder aangepaste rapporten en gebruik actiefuncties.</li></ul> |

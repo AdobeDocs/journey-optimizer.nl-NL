@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1872'
 ht-degree: 1%
 
 ---
@@ -171,6 +171,9 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
     </tr>
     <tr>
     <td><a href="math.md#to-hex-string">Naar hexadecimale tekenreeks</a></td><td>converteert een willekeurig getal naar de hexadecimale tekenreeks.</td>
+    </tr>
+    <tr>
+    <td><a href="math.md#to-int">ToInt</a></td><td>Zet om het even welk van deze types (aantal, dubbel, int, lang, vlotter, kort, byte, boolean, koord) in een geheel om.</td>
     </tr>
     <tr>
         <td><a href="math.md#to-percentage">Naar percentage</a></td><td>Deze functie zet een getal om in een percentage</td>

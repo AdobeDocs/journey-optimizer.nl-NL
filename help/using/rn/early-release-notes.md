@@ -3,7 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Aanvullende informatie
 description: Opmerkingen bij de vervroegde release van Journey Optimizer
-source-git-commit: c14ed9196d003cee893eb809a0edbdeebe36555f
+hide: true
+hidefromtoc: true
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 4%
@@ -195,4 +197,3 @@ From beta to LA, the following improvements that have been added:
 
 * U kunt nu een marketingactie op het niveau van het kanaaloppervlak selecteren. Bij gebruik op een oppervlak worden alle toestemmingsbeleidsregels die aan die marketingactie zijn gekoppeld, benut om de voorkeuren van uw klanten te respecteren.
 * Het gebruik van Toegangsbeheer op objectniveau is nu beschikbaar voor kanaaloppervlakken.
-
