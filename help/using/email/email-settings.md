@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: e63823dc2f901b870f11b0478e682e2af61b5b98
+source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
 workflow-type: tm+mt
-source-wordcount: '2309'
+source-wordcount: '2351'
 ht-degree: 0%
 
 ---
@@ -42,58 +42,56 @@ De configuratie van de e-mailoppervlakte wordt opgepikt voor het verzenden van m
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
->title="De e-mailcategorie definiëren"
+>title="Het e-mailtype definiëren"
 >abstract="Selecteer het type e-mailberichten dat wordt verzonden wanneer u dit oppervlak gebruikt: marketing voor speciale e-mails waarvoor toestemming van de gebruiker vereist is of Transactie voor niet-commerciële e-mails die ook in specifieke contexten naar profielen zonder abonnement kunnen worden verzonden."
 
-In de **E-MAILTYPE** selecteert u het type bericht dat met het oppervlak wordt verzonden: **[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**.
+In de **Type e-mail** selecteert u het type bericht voor het oppervlak: **[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**.
 
-* Kies **Marketing** voor speciale e-mails, zoals wekelijkse promoties voor een winkel. Voor deze berichten is toestemming van de gebruiker vereist.
+* Selecteren **Marketing** voor speciale e-mails, zoals wekelijkse promoties voor een winkel. Voor deze berichten is toestemming van de gebruiker vereist.
 
-* Kies **Transactioneel** voor niet-commerciële e-mail, zoals bevestiging van de bestelling, wachtwoordherstelmeldingen of leveringsgegevens. Deze e-mails kunnen worden verzonden naar profielen die **geabonneerd** van marketingberichten. Deze berichten kunnen alleen in specifieke contexten worden verzonden.
+* Selecteren **Transactioneel** voor niet-commerciële e-mail, zoals bevestiging van de bestelling, wachtwoordherstelmeldingen of leveringsgegevens. Deze e-mails kunnen worden verzonden naar profielen die **geabonneerd** van marketingberichten. Deze berichten kunnen alleen in specifieke contexten worden verzonden.
 
 Wanneer u een bericht maakt, moet u een geldig kanaaloppervlak kiezen dat overeenkomt met de categorie die u voor uw e-mail hebt geselecteerd.
 
-## Subdomein- en IP-pools {#subdomains-and-ip-pools}
+## Subdomein {#subdomains}
 
-In de **Subdomein- en IP-pools** in, vult de vereiste velden in zoals hieronder beschreven.
+Selecteer het subdomein dat u wilt gebruiken om de e-mails te verzenden.
 
-1. Selecteer het subdomein dat u wilt gebruiken om de e-mails te verzenden.
-
-   Om de reputatie van uw domein te bewaren, versnelt het IP opwarmingsproces en verbetert leverbaarheid, uw verzendende subdomeinen aan Adobe delegeren. [Meer informatie](../configuration/about-subdomain-delegation.md)
+Om de reputatie van uw domein te bewaren, versnelt het IP opwarmingsproces en verbetert leverbaarheid, uw verzendende subdomeinen aan Adobe delegeren. [Meer informatie](../configuration/about-subdomain-delegation.md)
 
 <!--If needed, you can define dynamic subdomains. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
 
-1. Selecteer de IP pool om met de oppervlakte te associëren. [Meer informatie](../configuration/ip-pools.md)
 
-   ![](assets/preset-subdomain-ip-pool.png)
+## Details van IP-pool {#ip-pools}
 
-   U kunt niet met oppervlakverwezenlijking te werk gaan terwijl de geselecteerde IP pool onder is [editie](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) en is nooit gekoppeld aan het geselecteerde subdomein. Anders, zal de oudste versie van de IP pool/subdomain vereniging nog worden gebruikt. Als dit het geval is, sparen de oppervlakte als ontwerp en probeer opnieuw zodra de IP pool heeft **[!UICONTROL Success]** status.
 
-   >[!NOTE]
-   >
-   >Voor niet-productiemilieu&#39;s, leidt de Adobe niet uit-van-de-doos testsubdomeinen noch verleent toegang tot een gedeelde verzendende IP pool. U moet [delegeren uw eigen subdomeinen](../configuration/delegate-subdomain.md) en gebruik IPs van de pool die aan uw organisatie wordt toegewezen.
+Selecteer de IP pool om met de oppervlakte te associëren. [Meer informatie](../configuration/ip-pools.md)
 
-1. Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het hangen over de IP adressen onder de IP pool drop-down lijst wordt getoond. [Meer informatie over PTR-records](../configuration/ptr-records.md)
+![](assets/preset-subdomain-ip-pool.png){width="50%" align="left"}
 
-   ![](assets/email-surface-ptr-record.png)
+U kunt niet met oppervlakverwezenlijking te werk gaan terwijl de geselecteerde IP pool onder is [editie](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) en is nooit gekoppeld aan het geselecteerde subdomein. Anders, zal de oudste versie van de IP pool/subdomain vereniging nog worden gebruikt. Als dit het geval is, sparen de oppervlakte als ontwerp en probeer opnieuw zodra de IP pool heeft **[!UICONTROL Success]** status.
 
-   >[!NOTE]
-   >
-   >Als een PTR-record niet is geconfigureerd, neemt u contact op met uw Adobe.
+>[!NOTE]
+>
+>Voor niet-productiemilieu&#39;s, leidt de Adobe niet uit-van-de-doos testsubdomeinen noch verleent toegang tot een gedeelde verzendende IP pool. U moet [delegeren uw eigen subdomeinen](../configuration/delegate-subdomain.md) en gebruik IPs van de pool die aan uw organisatie wordt toegewezen.
 
-## List-Unsubscribe {#list-unsubscribe}
+Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het hangen over de IP adressen onder de IP pool drop-down lijst wordt getoond. [Meer informatie over PTR-records](../configuration/ptr-records.md)
+
+>[!NOTE]
+>
+>Als een PTR-record niet is geconfigureerd, neemt u contact op met uw Adobe.
+
+## Abonnement opzeggen {#list-unsubscribe}
 
 Aan [selecteren, subdomein](#subdomains-and-ip-pools) in de lijst **[!UICONTROL Enable List-Unsubscribe]** weergegeven.
 
-![](assets/preset-list-unsubscribe.png)
-
-Deze optie is standaard ingeschakeld.
-
-Als u deze optie ingeschakeld laat, wordt automatisch een afmeldingskoppeling opgenomen in de e-mailkoptekst, zoals:
+Deze optie is standaard ingeschakeld. Als u deze optie ingeschakeld laat, wordt automatisch een afmeldingskoppeling opgenomen in de e-mailkoptekst, zoals:
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Als u deze optie uitschakelt, wordt er geen koppeling voor afmelden weergegeven in de e-mailkoptekst.
+Als u deze optie uitschakelt, wordt er geen koppeling voor het afmelden van abonnementen weergegeven in de e-mailkoptekst.
+
+U kunt het toestemmingsniveau van selecteren in **Goedkeuringsniveau** vervolgkeuzelijst. Dit kan specifiek zijn voor het kanaal of de profielidentiteit. Op basis van deze instelling wordt de toestemming in Adobe Journey Optimizer bijgewerkt op kanaalniveau of op ID-niveau wanneer een gebruiker zich afmeldt via de headerkoppeling van een e-mail met abonnement op de lijst.
 
 De unsubscribe-koppeling bestaat uit twee elementen:
 
@@ -101,7 +99,7 @@ De unsubscribe-koppeling bestaat uit twee elementen:
 
   In [!DNL Journey Optimizer], is het e-mailadres voor opzeggen het standaardadres **[!UICONTROL Mailto (unsubscribe)]** adres dat in de kanaaloppervlakte wordt getoond, die op [geselecteerd subdomein](#subdomains-and-ip-pools).
 
-  ![](assets/preset-list-unsubscribe-mailto.png)
+  ![](assets/preset-list-unsubscribe-mailto.png){width="50%" align="left"}
 
 * De **abonnement-URL opzeggen**, dit is de URL van de bestemmingspagina waarop de gebruiker wordt omgeleid wanneer deze het abonnement opzegt.
 
@@ -124,13 +122,9 @@ Meer informatie over het toevoegen van een link voor opzeggen van koptekst aan j
 In de **[!UICONTROL Header parameters]** in, voert u de namen en e-mailadressen van de afzender in die zijn gekoppeld aan het type e-mail dat met dat oppervlak is verzonden.
 
 * **[!UICONTROL Sender name]**: De naam van de afzender, zoals de naam van uw merk.
-
 * **[!UICONTROL Sender email]**: Het e-mailadres dat u voor uw communicatie wilt gebruiken.
-
 * **[!UICONTROL Reply to (name)]**: De naam die wordt gebruikt wanneer de ontvanger op de knop **Antwoord** in hun e-mailclientsoftware.
-
 * **[!UICONTROL Reply to (email)]**: Het e-mailadres dat wordt gebruikt wanneer de ontvanger op de knop **Antwoord** in hun e-mailclientsoftware. [Meer informatie](#reply-to-email)
-
 * **[!UICONTROL Error email]**: Alle fouten die door ISPs na een paar dagen van post worden geproduceerd die (asynchrone stuitingen) worden ontvangen op dit adres. De out-of-office berichten en de uitdagingsreacties worden ook ontvangen op dit adres.
 
   Als u de meldingen buiten het kantoor wilt ontvangen en reacties wilt uitdagen op een specifiek e-mailadres dat niet is gedelegeerd aan de Adobe, moet u een [voorwaarts proces](#forward-email). Zorg er in dat geval voor dat u een handmatige of geautomatiseerde oplossing hebt waarmee de e-mailberichten die in deze Postvak IN worden geplaatst, kunnen worden verwerkt.
