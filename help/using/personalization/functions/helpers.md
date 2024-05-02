@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 3b9822121390548546ab6628504ea9dd1101fb48
+source-git-commit: 7e7ff2f6451947d4d52efb2963d940ba3f50819f
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '362'
 ht-degree: 1%
 
 ---
@@ -202,7 +202,7 @@ De `let` De functie staat een uitdrukking toe om als variabele worden opgeslagen
 
 **Voorbeeld**
 
-In het volgende voorbeeld worden alle sommen met producttotalen bij de transactie in USD weergegeven als de som groter is dan $100 en kleiner dan $1000.
+In het volgende voorbeeld kunt u de totale som van prijzen voor producten in de winkelwagen berekenen met prijzen tussen 100 en 1000.
 
 ```sql
 {% let sum = 0%}
