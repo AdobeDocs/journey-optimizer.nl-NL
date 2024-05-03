@@ -10,9 +10,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 45332e96477f83cd1ae9833472a97d2c45bb6ac4
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '893'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 1%
 >
 >Lees de verwante bestanden voordat u deze functie gaat gebruiken [Afvoerkanalen en beperkingen](gs-generative.md#generative-guardrails).
 
-Als je je berichten hebt gemaakt en gepersonaliseerd, ga je naar het volgende niveau met Journey Optimizer AI Assistant.
+Wanneer u uw berichten hebt gemaakt en gepersonaliseerd, neemt u de inhoud van uw pushmelding naar het volgende niveau met de AI Assistant in Adobe Journey Optimizer.
 
 Bekijk de onderstaande tabbladen voor meer informatie over het gebruik van de AI Assistant in Journey Optimizer.
 

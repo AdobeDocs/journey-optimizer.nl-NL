@@ -10,9 +10,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: fc6d1caacae3574cc7400ed9c9c634e3ff3cae5a
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1226'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-Als u eenmaal uw e-mails hebt gemaakt en gepersonaliseerd, gebruikt u Journey Optimizer AI Assistant in Campagne, aangedreven door generatieve AI, om uw inhoud naar het volgende niveau te brengen.
+Zodra u uw e-mails hebt gemaakt en gepersonaliseerd, gebruikt u de AI Assistant in Adobe Journey Optimizer, aangedreven door generatieve AI, om uw inhoud naar het volgende niveau te brengen.
 
 De AI-assistent kan u helpen de impact van uw leveringen te optimaliseren door verschillende inhoud voor te stellen die waarschijnlijk beter op uw publiek zal reageren.
 

@@ -10,9 +10,9 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: fd58a52a652243a411e61c5b83a329f988348265
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '237'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
-Nadat u uw berichten hebt gemaakt en gepersonaliseerd, kunt u de inhoud optillen met de Journey Optimizer AI Assistant, die de functie Experiment met inhoud bevat. Met dit gereedschap kunt u meerdere leveringsbehandelingen definiëren, variërende inhoud, om de prestaties voor het doelpubliek te meten.
+Nadat u uw berichten hebt gemaakt en gepersonaliseerd, kunt u de inhoud optillen met de AI Assistant in Adobe Journey Optimizer, die de functie Experiment met inhoud bevat. Met dit gereedschap kunt u meerdere leveringsbehandelingen definiëren, variërende inhoud, om de prestaties voor het doelpubliek te meten.
 
 1. Maak uw campagne en gebruik de AI-assistent om uw varianten te genereren.
 

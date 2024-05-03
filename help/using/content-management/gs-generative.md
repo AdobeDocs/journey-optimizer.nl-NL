@@ -11,9 +11,9 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 98ce21578d30ac50665561438715d19d1723f4a7
+source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_content_generation"
 >title="E-mailinhoud maken"
->abstract="Adobe Journey Optimizer AI Assistant biedt proactieve suggesties voor inhoudvariatie voor tekst en afbeeldingen. Het is beschikbaar voor e-mail, Duw, SMS, en de kanalen van het Web. Deze nieuwe functie biedt een snelle, op tekst en afbeeldingen gebaseerde productie."
+>abstract="De AI-assistent in Adobe Journey Optimizer biedt proactieve suggesties voor inhoudvariatie voor tekst en afbeeldingen. Het is beschikbaar voor e-mail, Duw, SMS, en de kanalen van het Web. Deze nieuwe functie biedt een snelle, op tekst en afbeeldingen gebaseerde productie."
 
 >[!BEGINSHADEBOX]
 
@@ -39,9 +39,9 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Adobe Journey Optimizer AI Assistant is momenteel beschikbaar als een bètaversie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van de Adobe om deel te nemen aan het bètaprogramma.
+>De AI-assistent in Adobe Journey Optimizer is momenteel beschikbaar als een bètaversie om alleen gebruikers te selecteren.
 
-Adobe Journey Optimizer AI Assistant biedt proactieve suggesties voor inhoudvariatie voor tekst en afbeeldingen. Het is beschikbaar voor e-mail, Push en SMS kanalen. Deze nieuwe functie biedt een snelle, op tekst en afbeeldingen gebaseerde productie. Afbeeldingen genereren wordt beheerd met Adobe Firefly.
+De AI-assistent in Adobe Journey Optimizer biedt proactieve suggesties voor inhoudvariatie voor tekst en afbeeldingen. Het is beschikbaar voor e-mail, Push en SMS kanalen. Deze nieuwe functie biedt een snelle, op tekst en afbeeldingen gebaseerde productie. Afbeeldingen genereren wordt beheerd met Adobe Firefly.
 
 Gebruik de AI-assistent in Journey Optimizer om de impact van uw bericht te optimaliseren door te experimenteren met verschillende hoofdtitels en -afbeeldingen. Genereer meerdere varianten en maak een experiment om ze te vergelijken. Als u gebruikmaakt van Journey Optimizer Content Experiment, kunt u meerdere berichtbehandelingen definiëren om te meten welke het beste presteert voor uw doelgroep. U kunt kiezen om de leveringsinhoud, of onderwerp te variëren. Het berichtpubliek wordt willekeurig toegewezen aan elke behandeling om te bepalen welke één het beste in termen van gespecificeerde metrisch werkt. Meer informatie over Inhoud experimenteren in [deze sectie](../campaigns/content-experiment.md).
 
