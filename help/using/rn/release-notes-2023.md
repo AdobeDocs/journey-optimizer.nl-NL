@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 2b9d8cd80664abc2743c985ee1cd858ffa0344ee
 workflow-type: tm+mt
-source-wordcount: '4397'
+source-wordcount: '4395'
 ht-degree: 8%
 
 ---
@@ -70,7 +70,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 >[!AVAILABILITY]
 >
->Deze mogelijkheden zijn momenteel beschikbaar als een persoonlijke bètaversie.
+>Deze mogelijkheden zijn momenteel beschikbaar als bètaversie.
 
 <!--
 **Spam scoring for emails**
@@ -309,7 +309,7 @@ A new option is available in the email surface settings to include email address
 
 **Reizen**
 
-* U kunt nu API vraagreacties in douaneacties gebruiken en uw reis structureren die op deze reacties wordt gebaseerd. Deze functie is momenteel beschikbaar als een persoonlijke bètaversie. [Meer informatie](../action/action-response.md).
+* U kunt nu API vraagreacties in douaneacties gebruiken en uw reis structureren die op deze reacties wordt gebaseerd. Deze functie is momenteel beschikbaar als een bètaversie. [Meer informatie](../action/action-response.md).
 * Er is een nieuw type systeemwaarschuwing geïntroduceerd. U kunt nu een melding krijgen wanneer een aangepaste handeling mislukt. [Meer informatie](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
