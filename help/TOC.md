@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 39b2f9efcf84bba5e40ce999950346221a6eb699
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1794'
 ht-degree: 30%
 
 ---
@@ -271,10 +271,12 @@ ht-degree: 30%
       + [Subdomeinen van bestemmingspagina configureren](using/landing-pages/lp-subdomains.md)
       + [Voorinstellingen voor openingspagina definiëren](using/landing-pages/lp-presets.md)
 + Inhoudsbeheer {#content-management}
-   + Werken met de Inhoudsassistent{#content-assistant}
-      + [Aan de slag met de inhoudsassistent](using/content-management/gs-generative.md)
-      + [Inhoud genereren](using/content-management/generative-content.md)
-      + [Afbeelding genereren](using/content-management/generative-image.md)
+   + Werken met de AI-assistent{#ai-assistant}
+      + [Aan de slag met de AI Assistant](using/content-management/gs-generative.md)
+      + [E-mailgeneratie](using/content-management/generative-email.md)
+      + [Push generation](using/content-management/generative-push.md)
+      + [SMS-generatie](using/content-management/generative-sms.md)
+      + [Inhoud experimenteren met de AI Assistant](using/content-management/generative-experimentation.md)
    + Werken met meertalige inhoud{#content-multilingual}
       + [Aan de slag met meertalige inhoud](using/content-management/multilingual-gs.md)
       + [Meertalige inhoud maken met handmatige vertaling](using/content-management/multilingual-manual.md)
