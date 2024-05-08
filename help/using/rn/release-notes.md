@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '675'
 ht-degree: 7%
 
 ---
@@ -26,6 +26,37 @@ ht-degree: 7%
 
 ![Nieuwsbrief](../assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die direct aan uw Postbus worden geleverd elk kwartaal.
 
+## Updates mei {#may-updates}
+
+**Beschikbaarheidsdatum**: 7 mei 2024
+
+<table>
+<thead>
+<tr>
+<th><strong>Ervaring beslissen - Beperkte beschikbaarheid</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ervaring Beslissen vereenvoudigt personalisatie door een gecentraliseerde catalogus van marketingaanbiedingen aan te bieden, die bekend staan als 'beslissingspunten' en een geavanceerde beslissingsengine. Deze motor hanteert regels en rangschikkingscriteria om de meest relevante beslissingsitems te selecteren en aan elk individu voor te leggen.</p>
+<p>Deze beslissingsitems worden naadloos geïntegreerd in een breed scala aan binnenkomende oppervlakken via het nieuwe op code gebaseerde ervaringskanaal, dat nu toegankelijk is in Journey Optimizer-campagnes. Het beleid van de Beslissing van de ervaring is beschikbaar voor gebruik in code-gebaseerde ervaringscampagnes slechts.</p>
+<p>Experience Decisioning is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.</p>
+<img src="assets/do-not-localize/gif-exd.gif"/>
+<p>Raadpleeg de <a href="../experience-decisioning/gs-experience-decisioning.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+Van bèta naar LA zijn de volgende verbeteringen toegevoegd:
+
+* **Ervaring beslissen + op code gebaseerde ervaringen (LA)**: U kunt nu de functie Ervaring beslissen gebruiken om beslissingsitems te gebruiken in uw op code gebaseerde campagnes. Opmerking: het op code gebaseerde ervaringskanaal en de ervaringsbeslissingen zijn niet beschikbaar voor organisaties die de add-on Adobe van het gezondheidsschild en privacy- en beveiligingsschild hebben aangeschaft. [Meer informatie](../code-based/get-started-code-based.md)
+* Je kunt nu contextgegevens van Adobe Experience Platform gebruiken in je beslissingsregels en rangschikkingsformules. [Meer informatie](../experience-decisioning/context-data.md)
+* Er is nu een nieuwe machtiging &quot;Ervaring beheren&quot; beschikbaar voor de Beslissingsbeheerbron. Hiermee kunt u rechten beheren die betrekking hebben op het bepalen van ervaring. [Meer informatie](../experience-decisioning/gs-experience-decisioning.md)
+* U kunt nu veelvoudige het begrenzen regels voor een bepaald besluitpunt in het Beslissen van de Ervaring toevoegen. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden. [Meer informatie](../experience-decisioning/items.md#capping)
+* U kunt nu aangepaste rapporteringsdashboards maken van campagnes voor het nemen van beslissingen over ervaringen met [!DNL Customer Journey Analytics]. [Meer informatie](../experience-decisioning/cja-reporting.md)
+
 ## Opmerkingen bij de release van april 2024 {#apr-2024}
 
 **Releasedatum** 2 mei 2024
@@ -42,23 +73,6 @@ ht-degree: 7%
 <tr>
 <td>
 <p>It is now possible to create and apply rule sets to your marketing communications.  </p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Experience Decisioning - Limited Availability</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Experience Decisioning simplifies personalization by offering a centralized catalog of marketing offers known as 'decision items' and a sophisticated decision engine. This engine leverages rules and ranking criteria to select and present the most relevant decision items to each individual.</p>
-<p>These decision items are seamlessly integrated into a wide range of inbound surfaces through the new code-based experience channel, now accessible within Journey Optimizer campaigns. Experience Decisioning decision policies are available for use in code-based experience campaigns only.</p>
-<p>Experience Decisioning is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
@@ -167,9 +181,6 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 <!--
-* **Experience Decisioning + Code-based experiences (LA)**: You can now leverage the Experience decisioning feature to use decision items in your code-based campaigns. Note: The Code-based experience channel and Experience decisioning are not available for organizations that have purchased the Adobe Healthcare Shield and Privacy and Security Shield add-on offerings.
--->
-<!--
 * **Expression Fragments supported for Web and In-App**: Expression fragments are now available for the Web and In-app channels. 
 -->
 
@@ -182,23 +193,6 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 <!--
 * **List-Unsubscribe updates**: Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. 
 -->
-
-<!--
-
-
-**Experience decisionning**
-
-From beta to LA, the following improvements that have been added:
-
-* You can now leverage context data from Adobe Experience Platform in your decision rules using the **Context data** tab.  
-* A new "Manage Experience decisions" permission is now available for the Decision Management resource. It allows you to manage rights related to Experience Decisioning.   
-* You can now add multiple capping rules for a given decision item in Experience Decisioning. This allows you to increase the level of control over the way offers are sent.
-* You can now create custom reporting dashboards of Experience Decisioning campaigns using [!DNL Customer Journey Analytics].
--->
-
-<!--**Decision management** 
-
-* The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu.-->
 
 **Configuratie**
 

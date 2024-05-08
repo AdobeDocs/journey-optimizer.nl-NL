@@ -5,27 +5,15 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate, Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+badge: label="Beperkte beschikbaarheid"
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 4%
+source-wordcount: '314'
+ht-degree: 6%
 
 ---
 
 # Gebruiksscenario bij beslissingen van ervaring {#experience-decisioning-uc}
-
->[!BEGINSHADEBOX &quot;Wat u vindt in deze documentatiehandleiding&quot;]
-
-* [Aan de slag met Experience Decisition](gs-experience-decisioning.md)
-* Je beslissingsobjecten beheren: [De itemcatalogus configureren](catalogs.md) -[Beslissingsitems maken](items.md) - [Objectverzamelingen beheren](collections.md)
-* Selectie van items configureren: [Beslissingsregels maken](rules.md) - [Classificatiemethoden maken](ranking.md)
-* [Selectiestrategieën maken](selection-strategies.md)
-* [Beslissingsbeleid maken](create-decision.md)
-
->[!ENDSHADEBOX]
 
 In dit geval definieert u twee leveringsbehandelingen die elk een ander beslissingsbeleid bevatten om te meten welke het beste voor uw doelpubliek presteert.
 
@@ -52,11 +40,7 @@ Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op
 
 Definieer twee leveringsbehandelingen die elk een ander beslissingsbeleid bevatten.
 
-1. Maak een campagne en selecteer de **[!UICONTROL Code-base experience (Beta)]** handeling. [Meer informatie](../code-based/create-code-based.md)
-
-   >[!NOTE]
-   >
-   >De op code gebaseerde ervaringsfunctie is momenteel beschikbaar als een bètafunctie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van de Adobe om deel te nemen aan het bètaprogramma.
+1. Maak een campagne en selecteer de **[!UICONTROL Code-base experience]** handeling. [Meer informatie](../code-based/create-code-based.md)
 
 1. Klik op de pagina met het overzicht van de campagne **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren. [Meer informatie](../campaigns/content-experiment.md)
 

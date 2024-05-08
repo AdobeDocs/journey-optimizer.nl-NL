@@ -5,13 +5,11 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1684'
 ht-degree: 0%
 
 ---
@@ -23,16 +21,6 @@ ht-degree: 0%
 >title="Beslissingsitems beheren"
 >abstract="Met Journey Optimizer kunt u marketingaanbiedingen maken, ook wel &#39;beslissingsitems&#39; genoemd, die u kunt maken en indelen in een gecentraliseerde catalogus en verzamelingen. Momenteel worden alle gemaakte beslissingsitems geconsolideerd in één catalogus met &quot;voorstellen&quot;. Vanuit dit scherm kunt u ook het schema van de catalogus openen met de opdracht **Schema bewerken** en maak aangepaste kenmerken voor uw beslissingsitems."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/decision-items/catalogs.html" text="De itemcatalogus configureren"
-
->[!BEGINSHADEBOX &quot;Wat u vindt in deze documentatiehandleiding&quot;]
-
-* [Aan de slag met Experience Decisition](gs-experience-decisioning.md)
-* Je beslissingsobjecten beheren: [De itemcatalogus configureren](catalogs.md) - **[Beslissingsitems maken](items.md)** - [Objectverzamelingen beheren](collections.md)
-* Selectie van items configureren: [Beslissingsregels maken](rules.md) - [Classificatiemethoden maken](ranking.md)
-* [Selectiestrategieën maken](selection-strategies.md)
-* [Beslissingsbeleid maken](create-decision.md)
-
->[!ENDSHADEBOX]
 
 Met Journey Optimizer kunt u marketingaanbiedingen maken, ook wel &#39;beslissingsitems&#39; genoemd, die u kunt maken en indelen in een gecentraliseerde catalogus en verzamelingen. Ze bestaan uit standaard- en aangepaste kenmerken die precies op uw behoeften zijn afgestemd. Bovendien, nemen zij profielbeperkingen op die u toestaan om te bepalen aan wie een besluitpunt kan worden getoond.
 

@@ -5,28 +5,16 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
 # Itemcatalogus {#catalog}
-
->[!BEGINSHADEBOX &quot;Wat u vindt in deze documentatiehandleiding&quot;]
-
-* [Aan de slag met Experience Decisition](gs-experience-decisioning.md)
-* Je beslissingsobjecten beheren: **[De itemcatalogus configureren](catalogs.md)** - [Beslissingsitems maken](items.md) - [Objectverzamelingen beheren](collections.md)
-* Selectie van items configureren: [Beslissingsregels maken](rules.md) - [Classificatiemethoden maken](ranking.md)
-* [Selectiestrategieën maken](selection-strategies.md)
-* [Beslissingsbeleid maken](create-decision.md)
-
->[!ENDSHADEBOX]
 
 In het Besluit van de Ervaring, dienen de catalogi als centrale containers voor het organiseren van beslissingspunten. Elke catalogus is gekoppeld aan een Adobe Experience Platform-schema, dat alle kenmerken omvat die aan een beslissingsitem kunnen worden toegewezen.
 
@@ -53,10 +41,9 @@ Ga als volgt te werk om het schema van de catalogus te openen waarin de kenmerke
 
    >[!CAUTION]
    >
-   >Tot nu toe worden bij Ervaring beslissen alleen de hieronder vermelde gegevenstypen ondersteund. Om het even welk gebied dat buiten deze gegevenstypes valt zal niet beschikbaar voor gebruik zijn wanneer het creëren van een besluitpunt.
-   >* String
-   >* Boolean
-   >* Getal
+   >Momenteel worden bij Ervaring beslissen alleen de volgende gegevenstypen ondersteund: String, Integer, Boolean, Date, DateTime en Decisioning Asset. Een veld dat buiten deze gegevenstypen valt, is niet beschikbaar voor gebruik bij het ontwerpen van een beslissingsitem of een catalogus.
+
+   De waarde die op een attribuut met het besluit activaattribuut wordt ingevoerd is een openbare url. Meestal wijst dit naar een afbeelding.
 
    Gedetailleerde informatie over het werken met Adobe Experience Platform-schema&#39;s is beschikbaar in het dialoogvenster [XDM System-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html).
 

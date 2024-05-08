@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: c4444b67313cda81fda9ad16b7ee59226fd7c88a
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '965'
 ht-degree: 1%
 
 ---
@@ -71,15 +71,14 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
 
    U kunt ook een deel van de code-inhoud opslaan als een fragment. [Meer informatie](../content-management/fragments.md#save-as-expression-fragment)
 
-<!--
-1. In code-based campaigns, you can use the experience decisioning feature. Select the **[!UICONTROL Decisions]** icon from the left bar and click **[!UICONTROL Create decision]**. [Learn more](../experience-decisioning/create-decision.md)
+1. In op code-gebaseerde campagnes, kunt u de ervaring bepalende eigenschap gebruiken. Selecteer de **[!UICONTROL Decisions]** pictogram van de linkerbalk en klik op **[!UICONTROL Create decision]**. [Meer informatie](../experience-decisioning/create-decision.md)
 
-    ![](assets/code-based-campaign-create-decision.png)
+   ![](assets/code-based-campaign-create-decision.png)
 
-    >[!NOTE]
-    >
-    >The experience decisioning feature is currently available as a beta to select users only.
--->
+   >[!NOTE]
+   >
+   >De ervaringsbeslissingsfunctie is momenteel beschikbaar als een bètafunctie om alleen gebruikers te selecteren.
+
 
 1. Klikken **[!UICONTROL Save and close]** om uw wijzigingen te bevestigen.
 

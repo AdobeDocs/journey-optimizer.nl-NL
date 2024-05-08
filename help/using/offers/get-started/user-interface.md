@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 2%
+source-wordcount: '614'
+ht-degree: 3%
 
 ---
 
@@ -88,8 +88,4 @@ U kunt ook een bestaande aanbieding of een bestaande beslissing dupliceren om ee
 
 ## Aanbiedingen en besluiten veranderen logboeken {#changes-logs}
 
-In de bibliotheek met aanbiedingen kunt u alle wijzigingen visualiseren die in een voorstel of een beslissing zijn aangebracht. Als u dit wilt doen, opent u het voorstel of de beslissing door op de naam ervan in de lijst te klikken en selecteert u vervolgens het **[!UICONTROL Change log]** tab.
-
-Alle wijzigingen die zijn aangebracht, worden in dit scherm weergegeven, evenals de naam van de gebruiker die de wijzigingen heeft uitgevoerd.
-
-![](../assets/change-logs.png)
+[!DNL Journey Optimizer] kunt u alle wijzigingen visualiseren die in een voorstel of een beslissing zijn aangebracht. Om dit te doen, open **[!UICONTROL Audits]** in het linkermenu. [Leer hoe u acties op bronnen kunt controleren](../../privacy/audit-logs.md)

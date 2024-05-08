@@ -1,17 +1,15 @@
 ---
-title: Beslissingen maken
-description: Leer hoe u beslissingen maakt
+title: Beleid voor beslissingen maken
+description: Leer hoe u beleidsbeslissingen maakt
 feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Experienced
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1456'
 ht-degree: 1%
 
 ---
@@ -21,20 +19,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
 >title="Wat is een beslissing?"
->abstract="Het beslissingsbeleid maakt gebruik van de engine voor het bepalen van ervaringen om de beste inhoud te kiezen die u kunt leveren, afhankelijk van het publiek."
+>abstract="Het beslissingsbeleid bevat alle selectielogica waarmee de beslissingsengine de beste inhoud kan kiezen. Het besluitvormingsbeleid is specifiek voor de campagne. Hun doel is de beste aanbiedingen voor elk profiel te selecteren terwijl het campagneontwerp u toestaat om erop te wijzen hoe de geselecteerde besluitvormingspunten zouden moeten worden voorgesteld, met inbegrip van welke puntattributen om in het bericht worden omvat."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html" text="Over het bepalen van de ervaring"
 
->[!BEGINSHADEBOX &quot;Wat u vindt in deze documentatiehandleiding&quot;]
-
-* [Aan de slag met Experience Decisition](gs-experience-decisioning.md)
-* Je beslissingsobjecten beheren: [De itemcatalogus configureren](catalogs.md) - [Beslissingsitems maken](items.md) - [Objectverzamelingen beheren](collections.md)
-* Selectie van items configureren: [Beslissingsregels maken](rules.md) - [Classificatiemethoden maken](ranking.md)
-* [Selectiestrategieën maken](selection-strategies.md)
-* **[Beslissingsbeleid maken](create-decision.md)**
-
->[!ENDSHADEBOX]
-
 Beslissingsbeleid zijn containers voor uw aanbiedingen die gebruikmaken van de ervaringsbeslissingsengine om de beste inhoud te kiezen die u kunt leveren, afhankelijk van het publiek.
+
+Het beslissingsbeleid bevat alle selectielogica waarmee de beslissingsengine de beste inhoud kan kiezen. Het besluitvormingsbeleid is specifiek voor de campagne. Hun doel is de beste aanbiedingen voor elk profiel te selecteren terwijl het campagneontwerp u toestaat om erop te wijzen hoe de geselecteerde besluitvormingspunten zouden moeten worden voorgesteld, met inbegrip van welke puntattributen om in het bericht worden omvat.
 
 >[!NOTE]
 >
@@ -61,13 +51,9 @@ Beslissingsbeleid zijn containers voor uw aanbiedingen die gebruikmaken van de e
 
 Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op uw website of mobiele app, voegt u een beslissingsbeleid toe aan een op code gebaseerde campagne. Volg de onderstaande stappen om dit te doen.
 
-1. Maak een campagne en selecteer de **[!UICONTROL Code-base experience (Beta)]** handeling. [Meer informatie](../code-based/create-code-based.md)
+1. Maak een campagne en selecteer de **[!UICONTROL Code-base experience]** handeling. [Meer informatie](../code-based/create-code-based.md)
 
-   >[!NOTE]
-   >
-   >De op code gebaseerde ervaringsfunctie is momenteel beschikbaar als een bètafunctie om alleen gebruikers te selecteren.
-
-1. Van de [code-editor](../code-based/create-code-based.md#edit-code), selecteert u de **[!UICONTROL Decisions]** pictogram en klik **[!UICONTROL Create a decision]**.
+1. Van de [code-editor](../code-based/create-code-based.md#edit-code), selecteert u de **[!UICONTROL Decision policy]** pictogram en klik **[!UICONTROL Add decision policy]**.
 
    ![](assets/decision-code-based-create.png)
 
@@ -81,7 +67,7 @@ Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op
 
 1. Selecteer het aantal objecten dat je wilt retourneren. Als u bijvoorbeeld 2 selecteert, worden de beste twee in aanmerking komende aanbiedingen voor het huidige oppervlak weergegeven. Klikken **[!UICONTROL Next]**
 
-1. Gebruik de **[!UICONTROL Add strategy]** om de selectiestrategieën voor uw beslissingsbeleid te definiëren. Elke strategie bestaat uit een aanbod dat gekoppeld is aan een toelatingsbeperking en een rangschikkingsmethode om te bepalen welke aanbiedingen moeten worden getoond. [Meer informatie](selection-strategies.md)
+1. Gebruik de **[!UICONTROL Add strategy]** om de selectiestrategieën voor uw beslissingsbeleid te definiëren. Elke strategie bestaat uit een verzameling aanbiedingen die gekoppeld is aan een toelatingsbeperking en een rangschikkingsmethode om te bepalen welke aanbiedingen moeten worden getoond. [Meer informatie](selection-strategies.md)
 
    ![](assets/decision-code-based-strategies.png)
 
@@ -109,11 +95,9 @@ Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op
    >
    >Een fallback is optioneel. Als er geen fallback is geselecteerd en geen strategie is gekwalificeerd, wordt er niets weergegeven door [!DNL Journey Optimizer].
 
-1. Uw selectie opslaan en klikken **[!UICONTROL Create]**. Het nieuwe besluitvormingsbeleid wordt toegevoegd onder **[!UICONTROL Decisions]**.
+1. Uw selectie opslaan en klikken **[!UICONTROL Create]**. Nu het besluitvormingsbeleid wordt gecreeerd, kunt u de besluitvormingsattributen binnen uw code-gebaseerde ervaringsinhoud gebruiken. [Meer informatie](#use-decision-policy)
 
    ![](assets/decision-code-based-decision-added.png)
-
-Nu het besluitvormingsbeleid wordt gecreeerd, kunt u de besluitvormingsattributen binnen uw code-gebaseerde ervaringsinhoud gebruiken. [Meer informatie](#use-decision-policy)
 
 ## Evaluatievolgorde {#evaluation-order}
 
@@ -181,7 +165,7 @@ Zodra gecreeerd, kan het besluitvormingsbeleid in worden gebruikt [Expression-ed
 >
 >De op code gebaseerde ervaring gebruikt de [!DNL Journey Optimizer] De redacteur van de uitdrukking met al zijn verpersoonlijking en auteursmogelijkheden. [Meer informatie](../personalization/personalization-build-expressions.md)
 
-1. Klik op het pictogram +. De code die overeenkomt met het beslissingsbeleid wordt toegevoegd. Nu kunt u alle beslissingskenmerken toevoegen die u in die code wilt.
+1. Klik op de knop **[!UICONTROL Insert policy]**. De code die overeenkomt met het beslissingsbeleid wordt toegevoegd.
 
    ![](assets/decision-code-based-add-decision.png)
 
@@ -189,19 +173,18 @@ Zodra gecreeerd, kan het besluitvormingsbeleid in worden gebruikt [Expression-ed
    >
    >Deze opeenvolging zal het aantal tijden worden herhaald u het besluitvormingsbeleid wilt zijn teruggekeerd. Als u bijvoorbeeld 2 items wilt retourneren wanneer [het besluit](#add-decision)dezelfde volgorde wordt twee keer herhaald.
 
-1. Klik op het beslissingsbeleid. De beslissingskenmerken worden weergegeven.
-
-   Deze kenmerken worden opgeslagen in het dialoogvenster **[!UICONTROL Offers]** catalogusschema. Aangepaste kenmerken worden opgeslagen in het dialoogvenster **`_<imsOrg`>** map en standaardkenmerken in het dialoogvenster **`_experience`** map. [Meer informatie over het schema van de catalogus met aanbiedingen](catalogs.md)
+1. Nu kunt u alle beslissingskenmerken toevoegen die u in die code wilt. De beschikbare kenmerken worden opgeslagen in de **[!UICONTROL Offers]** catalogusschema. Aangepaste kenmerken worden opgeslagen in het dialoogvenster **`_<imsOrg`>** map en standaardkenmerken in het dialoogvenster **`_experience`** map. [Meer informatie over het schema van de catalogus met aanbiedingen](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
+
+   >[!NOTE]
+   >
+   >Voor het volgen van beleidsposten voor beslissingen, `trackingToken`attribuut moet als volgt voor de inhoud van het besluitvormingsbeleid worden toegevoegd:
+   >`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Klik op elke map om deze uit te vouwen. Plaats de cursor van de muis op de gewenste locatie en klik op het pictogram + naast het kenmerk dat u wilt toevoegen. U kunt zoveel kenmerken aan de code toevoegen als u wilt.
 
    ![](assets/decision-code-based-add-decision-attributes.png)
-
-1. Klik op het mappictogram om terug te navigeren naar de hoofdmap van het beslissingsbeleid.
-
-   ![](assets/decision-code-based-decision-folder.png)
 
 1. U kunt ook alle andere kenmerken toevoegen die beschikbaar zijn in de expressie-editor, zoals profielkenmerken.
 

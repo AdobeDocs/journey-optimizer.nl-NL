@@ -7,9 +7,9 @@ feature: Monitoring
 role: User
 level: Intermediate
 exl-id: 759b014a-c834-4331-bffd-5bc159ec555d
-source-git-commit: ac83b44ca24b26edfbf70a2781e1ed7dede318d4
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
@@ -32,11 +32,11 @@ Elke actie wordt opgenomen met metagegevens in &quot;auditlogs&quot; die toegank
 
 ## Gebeurtenistypen die zijn vastgelegd in auditlogboeken {#events}
 
-In de volgende tabel wordt aangegeven op welke acties Journey Optimizer-bronnen worden opgenomen in auditlogboeken.
+In de volgende tabel wordt aangegeven op welke acties Journey Optimizer-bronnen worden opgenomen in auditlogboeken. De volledige lijst met acties die in de auditlogboeken zijn vastgelegd, is beschikbaar in [Documentatie over de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html#category).
 
 >[!NOTE]
 >
->De volledige lijst met acties die in de auditlogboeken zijn vastgelegd, is beschikbaar in [Documentatie over de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/audit-logs/overview.html#category).
+>Auditlogboeken met betrekking tot **beslissingsbeheer** zijn alleen zichtbaar vanuit het CSV-bestand dat kan worden gedownload met de **[!UICONTROL Download log]** knop.
 
 | Bron | Actie |
 |-----------|------------------|

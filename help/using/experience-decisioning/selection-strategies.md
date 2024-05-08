@@ -5,14 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: c13cd73229b2fab80722663afae9fe24b660c0f9
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 0%
+source-wordcount: '705'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +19,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_strategies"
 >title="Uw selectiestrategieën definiëren"
->abstract="Een selectiestrategie is een herbruikbaar item, dat bestaat uit een verzameling die gekoppeld is aan een geschiktheidsbeperking en een rangschikkingsmethode om te bepalen welke aanbiedingen moeten worden getoond wanneer zij in een besluitvormingsbeleid worden geselecteerd."
+>abstract="Een selectiestrategie is herbruikbaar en bestaat uit een verzameling die gekoppeld is aan een toelatingsbeperking en een rangschikkingsmethode om te bepalen welke aanbiedingen moeten worden getoond wanneer zij in een besluitvormingsbeleid worden geselecteerd."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/create-decision.html" text="Beslissingsbeleid maken"
 
 >[!CONTEXTUALHELP]
@@ -31,21 +29,11 @@ ht-degree: 0%
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Soorten publiek gebruiken"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/experience-decisioning/selection/rules.html" text="Beslissingsregels gebruiken"
 
->[!BEGINSHADEBOX &quot;Wat u vindt in deze documentatiehandleiding&quot;]
-
-* [Aan de slag met Experience Decisition](gs-experience-decisioning.md)
-* Je beslissingsobjecten beheren: [De itemcatalogus configureren](catalogs.md) - [Beslissingsitems maken](items.md) - [Objectverzamelingen beheren](collections.md)
-* Selectie van items configureren: [Beslissingsregels maken](rules.md) - [Classificatiemethoden maken](ranking.md)
-* **[Selectiestrategieën maken](selection-strategies.md)**
-* [Beslissingsbeleid maken](create-decision.md)
-
->[!ENDSHADEBOX]
-
-Een selectiestrategie is een herbruikbaar item, dat bestaat uit een verzameling die gekoppeld is aan een geschiktheidsbeperking en een rangschikkingsmethode om de aanbiedingen te bepalen die moeten worden getoond wanneer ze worden geselecteerd in een [beslissingsbeleid](create-decision.md).
+Een selectiestrategie is herbruikbaar en bestaat uit een verzameling die gekoppeld is aan een geschiktheidsbeperking en een rangschikkingsmethode om de aanbiedingen te bepalen die moeten worden getoond wanneer ze worden geselecteerd in een [beslissingsbeleid](create-decision.md).
 
 ## Selectiestrategieën openen en beheren
 
-1. Ga naar **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Configuration]** > **[!UICONTROL Selection strategies]**.
+1. Ga naar **[!UICONTROL Experience Decisioning]** > **[!UICONTROL Strategy setup]** > **[!UICONTROL Selection strategies]**.
 
 1. Alle selectiestrategieën die tot nu toe zijn ontwikkeld, worden vermeld. Er zijn filters beschikbaar waarmee u volgens de waarderingsmethode strategieën kunt ophalen.
 
@@ -77,8 +65,6 @@ Volg onderstaande stappen om een selectiestrategie te maken.
 
 1. Selecteer de [collectie](collections.md) dat de aanbiedingen bevat die in overweging moeten worden genomen.
 
-1. Selecteer de aanbieding [collectie](collections.md) dat de aanbiedingen bevat die in overweging moeten worden genomen.
-
 1. Gebruik de **[!UICONTROL Eligibility]** om de selectie van de aanbiedingen voor deze selectiestrategie te beperken.
 
    ![](assets/strategy-create-eligibility.png)
@@ -95,7 +81,7 @@ Volg onderstaande stappen om een selectiestrategie te maken.
 
    * Als u een specifieke berekende score wilt gebruiken om te kiezen welke aanbieding in aanmerking komt, selecteert u [Formule](#ranking-formula) of [AI-model](#ai-ranking).
 
-1. Klik op **[!UICONTROL Create]**. Het is nu klaar om in een [beslissing](create-decision.md)
+1. Klik op **[!UICONTROL Create]**. Het is nu klaar om in een [beslissingsbeleid](create-decision.md)
 
 ## Een waarderingsmethode selecteren {#select-ranking-method}
 
@@ -113,7 +99,7 @@ Als meerdere aanbiedingen in aanmerking komen voor een bepaalde selectiestrategi
 
 ### Voorstelprioriteit {#offer-priority}
 
-Wanneer meerdere aanbiedingen in aanmerking komen voor een bepaalde plaatsing in een beslissing, worden standaard de items met de hoogste **prioriteit** wordt eerst aan de klanten geleverd.
+Wanneer meerdere aanbiedingen in aanmerking komen voor een bepaalde plaatsing in een beslissingsbeleid, worden standaard de items met de hoogste **prioriteit** wordt eerst aan de klanten geleverd.
 
 ![](assets/item-priority.png)
 

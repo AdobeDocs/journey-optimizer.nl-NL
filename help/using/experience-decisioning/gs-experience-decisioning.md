@@ -5,46 +5,34 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: f71795c99157ce43f5250aaf10eb0b97f235b454
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 0%
+source-wordcount: '413'
+ht-degree: 1%
 
 ---
 
 # Aan de slag met Experience Decisition {#get-started-experience-decisioning}
 
->[!BEGINSHADEBOX &quot;Wat u vindt in deze documentatiehandleiding&quot;]
-
-* **[Aan de slag met Experience Decisition](gs-experience-decisioning.md)**
-* Je beslissingsobjecten beheren: [De itemcatalogus configureren](catalogs.md) - [Beslissingsitems maken](items.md) - [Objectverzamelingen beheren](collections.md)
-* Selectie van items configureren: [Beslissingsregels maken](rules.md) - [Classificatiemethoden maken](ranking.md)
-* [Selectiestrategieën maken](selection-strategies.md)
-* [Beslissingsbeleid maken](create-decision.md)
-
->[!ENDSHADEBOX]
+>[!AVAILABILITY]
+>
+>Experience Decisioning is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
+>
+>De functie is momenteel niet beschikbaar voor klanten die de Adobe hebben aangeschaft **Gezondheidsschild** en **Privacy- en beveiligingsschild** add-on aanbiedingen.
 
 ## Wat is Experience Decisition {#about}
 
->[!AVAILABILITY]
->
->De ervaringsbeslissingsfunctie is momenteel beschikbaar als een bètafunctie om alleen gebruikers te selecteren. Neem contact op met de klantenservice van de Adobe om deel te nemen aan het bètaprogramma.
->
->Beslissingsbeleid is alleen beschikbaar voor gebruik in op code gebaseerde ervaringscampagnes.
-
 Ervaring Beslissen vereenvoudigt personalisatie door een gecentraliseerde catalogus van marketingaanbiedingen aan te bieden, die bekend staan als &#39;beslissingspunten&#39; en een geavanceerde beslissingsengine. Deze motor hanteert regels en rangschikkingscriteria om de meest relevante beslissingsitems te selecteren en aan elk individu voor te leggen.
 
-Deze beslissingsitems worden naadloos geïntegreerd in een breed scala aan binnenkomende oppervlakken via het nieuwe op code gebaseerde ervaringskanaal, dat nu toegankelijk is in Journey Optimizer-campagnes.
+Deze beslissingsitems worden naadloos geïntegreerd in een breed scala aan binnenkomende oppervlakken via het nieuwe op code gebaseerde ervaringskanaal, dat nu toegankelijk is in Journey Optimizer-campagnes. Het beleid van de Beslissing van de ervaring is beschikbaar voor gebruik in code-gebaseerde ervaringscampagnes slechts.
 
 ## Belangrijkste stappen bij het nemen van beslissingen {#steps}
 
 De belangrijkste stappen om met de Beslissing van de Ervaring te werken zijn als volgt:
 
-1. **De juiste machtigingen toewijzen**. Besluiten zijn alleen beschikbaar voor gebruikers die toegang hebben tot een Ervaring Beslissingen in verband hiermee **[!UICONTROL role]** zoals besluitvormingsmanagers. Als u geen toegang hebt tot beslissingen, moeten uw machtigingen worden uitgebreid.
+1. **De juiste machtigingen toewijzen**. Ervaring beslissen is alleen beschikbaar voor gebruikers die toegang hebben tot een Ervaring met betrekking tot beslissingen **[!UICONTROL role]** zoals besluitvormingsmanagers. Als u geen tot Beslissing van de Ervaring toegang hebt, moeten uw toestemmingen worden uitgebreid.
 
    +++Leer hoe u de rol van beslissingsmanagers toewijst
 
@@ -66,7 +54,7 @@ De belangrijkste stappen om met de Beslissing van de Ervaring te werken zijn als
 
 +++
 
-1. **Aangepaste kenmerken configureren**: U kunt de catalogus met beslissingsitems afstemmen op uw specifieke vereisten door aangepaste kenmerken in te stellen in het schema van de catalogus.
+1. **Aangepaste kenmerken configureren**: Pas de itemcatalogus aan uw specifieke vereisten aan door aangepaste kenmerken in te stellen in het schema van de catalogus.
 
 1. **Beslissingsitems maken** om aan uw doelpubliek te tonen.
 

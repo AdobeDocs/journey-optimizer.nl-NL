@@ -5,14 +5,12 @@ feature: Experience Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 099d1439-34f7-47fe-9181-0e9ce2032a01
-source-git-commit: 2b9261ff0f225a429b9be04db214452736163766
+source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 1%
+source-wordcount: '362'
+ht-degree: 2%
 
 ---
 
@@ -33,16 +31,6 @@ ht-degree: 1%
 >title="Een verzameling kiezen"
 >abstract="Selecteer de verzameling die de aanbiedingen bevat die u wilt overwegen. Deze stap is verplicht bij het maken van een selectiestrategie. Met verzamelingen kunt u uw beslissingsitems categoriseren en groeperen op basis van uw voorkeuren. U kunt bijvoorbeeld een verzameling maken die alle beslissingsitems met de waarde &quot;Yoga&quot; bevat in het aangepaste kenmerk &quot;Categorie&quot;."
 
->[!BEGINSHADEBOX &quot;Wat u vindt in deze documentatiehandleiding&quot;]
-
-* [Aan de slag met Experience Decisition](gs-experience-decisioning.md)
-* Je beslissingsobjecten beheren: [De itemcatalogus configureren](catalogs.md) - [Beslissingsitems maken](items.md) - **[Objectverzamelingen beheren](collections.md)**
-* Selectie van items configureren: [Beslissingsregels maken](rules.md) - [Classificatiemethoden maken](ranking.md)
-* [Selectiestrategieën maken](selection-strategies.md)
-* [Beslissingsbeleid maken](create-decision.md)
-
->[!ENDSHADEBOX]
-
 Met verzamelingen kunt u uw beslissingsitems categoriseren en groeperen op basis van uw voorkeuren. Deze categorieën worden gecreeerd door het ontwerpen van regels die hefboomwerking de attributen van besluitvormingspunten.
 
 Bijvoorbeeld, laten wij zeggen u een &quot;Categorie&quot;douanekenmerk aan het catalogusschema van uw besluitvormingspunten hebt toegevoegd. Dit staat u toe om een inzameling tot stand te brengen die alle besluitpunten met de waarde &quot;Yoga&quot;in het &quot;attribuut van de Categorie&quot;omvat.
@@ -58,6 +46,7 @@ Ga als volgt te werk om een verzameling te maken:
    1. Kies een itemkenmerk dat u als criterium wilt gebruiken. De lijst met kenmerken bevat alle standaard- en aangepaste kenmerken die zijn gedefinieerd in het catalogusschema. [Meer informatie over de objectcatalogus](catalogs.md)
    1. Selecteer de gewenste operator en voer de waarde in waarop u wilt filteren.
    1. Herhaal deze stappen om zoveel regels toe te voegen als nodig is. Wanneer u meerdere regels toevoegt, kunt u kiezen tussen de **en** en **of** exploitanten om ze te combineren. Klik hiertoe op het bedieningspaneel om te schakelen tussen de twee keuzen.
+   1. Klik op de knop **[!UICONTROL Preview collection]** om de items weer te geven die voldoen aan de regels die u hebt gedefinieerd.
 
    ![](assets/collection-create.png)
 
