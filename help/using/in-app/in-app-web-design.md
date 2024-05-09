@@ -8,7 +8,7 @@ level: Beginner
 keywords: in-app, bericht, maken, starten
 hide: true
 hidefromtoc: true
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 10%
@@ -23,7 +23,7 @@ ht-degree: 10%
 
 * [Het webkanaal in de app configureren](configure-in-app-web.md)
 * [Maak uw Web In-app berichtcampagne](create-in-app-web.md)
-* **[Uw Web in-app-inhoud ontwerpen](#in-app-web-design)**
+* Uw Web in-app-inhoud ontwerpen
 
 >[!ENDSHADEBOX]
 
@@ -33,7 +33,7 @@ Als u de inhoud van het bericht in de app wilt bewerken, klikt u op de knop **[!
 
 De **[!UICONTROL Advanced formatting]** als u schakelt, worden aanvullende opties geactiveerd om de ervaring aan te passen.
 
-Nadat u het bericht in de app hebt gemaakt en de inhoud ervan hebt gedefinieerd en gepersonaliseerd, kunt u het bericht controleren en activeren. Vervolgens worden de meldingen verzonden volgens het campagneprogramma. Meer informatie in [deze pagina](send-in-app.md).
+Nadat u het bericht in de app hebt gemaakt en de inhoud ervan hebt gedefinieerd en gepersonaliseerd, kunt u het bericht controleren en activeren. Vervolgens worden de meldingen verzonden volgens het campagneprogramma. Meer informatie vindt u [op deze pagina](send-in-app.md).
 
 ## Berichtlay-out {#message-layout}
 

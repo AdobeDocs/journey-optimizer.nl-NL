@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Aan de slag met meertalige inhoud
-description: Meer informatie over meertalige inhoud in Journey Optimizer
+title: Meertalige inhoud maken met handmatige vertaling
+description: Leer hoe u meertalige content maakt met handmatige vertaling in Journey Optimizer
 feature: Multilingual Content
 topic: Content Management
 role: User
@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="Beta" type="Informative"
-source-git-commit: feee761f9893633f88b0109b810ac55ae82dd9e0
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '602'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 **Inhoudsopgave**
 
 * [Aan de slag met meertalige inhoud](multilingual-gs.md)
-* **[Meertalige inhoud maken met handmatige vertaling](multilingual-manual.md)**
+* Meertalige inhoud maken met handmatige vertaling
 * [Meertalige inhoud maken met automatische vertaling](multilingual-automated.md)
 * [Meertalig campagnerapport](multilingual-report.md)
 

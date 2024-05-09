@@ -10,14 +10,14 @@ level: Beginner
 badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: ff7f2b42d63e8a3d02f5dbebd926eda26c646752
+source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1227'
 ht-degree: 0%
 
 ---
 
-# Web genereren met de AI Assistant {#generative-web}
+# Webpagina&#39;s genereren met de AI Assistant {#generative-web}
 
 >[!BEGINSHADEBOX]
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 * [E-mailgeneratie met AI Assistant](generative-email.md)
 * [SMS genereren met de AI Assistant](generative-SMS.md)
 * [Push generation met de AI Assistant](generative-push.md)
-* **[Webpagina&#39;s genereren met de AI Assistant](generative-web.md)**
+* Webpagina&#39;s genereren met de AI Assistant
 * [Inhoud experimenteren met de AI Assistant](generative-experimentation.md)
 
 >[!ENDSHADEBOX]
