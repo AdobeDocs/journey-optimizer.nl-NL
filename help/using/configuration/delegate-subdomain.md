@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdomein, delegatie, domein, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
+source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
 workflow-type: tm+mt
 source-wordcount: '1779'
 ht-degree: 6%
@@ -49,7 +49,7 @@ U kunt een subdomein volledig delegeren, of een subdomein tot stand brengen gebr
 >id="ajo_admin_subdomain_dns"
 >title="De overeenkomende DNS-records genereren"
 >abstract="Om een nieuw subdomein volledig aan Adobe te delegeren, moet u kopiëren-kleven de Adobe nameserverinformatie die in de interface van Journey Optimizer in uw domein-ontvangende oplossing wordt getoond om de passende DNS verslagen te produceren. Als u een subdomein wilt delegeren met gebruik van CNAME&#39;s, moet u ook de SSL CDN URL-validatierecord kopiëren en plakken. Zodra de controles succesvol zijn, is subdomain klaar om worden gebruikt om berichten te leveren."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain.html#cname-subdomain-delegation" text="CNAME-subdomeindelegatie"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/delegate-subdomain#cname-subdomain-delegation" text="CNAME-subdomeindelegatie"
 
 [!DNL Journey Optimizer] staat u toe om uw subdomeinen aan Adobe direct van de productinterface volledig te delegeren. Door dit, zal de Adobe berichten als beheerde dienst kunnen leveren door alle aspecten van DNS te controleren en te handhaven die voor het leveren, het teruggeven en het volgen van e-mailcampagnes worden vereist.
 
