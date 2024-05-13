@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: dbe8ea3a8655f180576dafc5d1a65feb58fb57df
+source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1494'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ In deze versie gelden de volgende beperkingen:
 
 * Visuele fragmenten zijn alleen beschikbaar voor het e-mailkanaal
 
-* Expressiefragmenten zijn niet beschikbaar voor het web en in-app kanalen
+* Expressiefragmenten zijn niet beschikbaar voor het kanaal in de app
 
 ## Fragmenten openen en beheren {#access-manage-fragments}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
 workflow-type: tm+mt
-source-wordcount: '2018'
+source-wordcount: '2016'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen deleg
 ## Fragmenten, ardraals {#fragments-guardrails}
 
 * Visuele fragmenten zijn alleen beschikbaar voor het e-mailkanaal.
-* Expressiefragmenten zijn niet beschikbaar voor het web en in-app kanalen.
+* Expressiefragmenten zijn niet beschikbaar voor het kanaal in de app.
 
 ## Reisgeleiders {#journeys-guardrails}
 
