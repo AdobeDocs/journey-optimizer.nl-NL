@@ -11,9 +11,9 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 644e0959ee0d0ec8ee0c4ec54c3bcd1cc3c4dda9
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,22 @@ ht-degree: 0%
 # Aan de slag met de AI Assistant {#gs-content-assistant}
 
 >[!CONTEXTUALHELP]
->id="ajo_content_generation"
->title="E-mailinhoud maken"
->abstract="De AI-assistent in Adobe Journey Optimizer biedt proactieve suggesties voor inhoudvariatie voor tekst en afbeeldingen. Het is beschikbaar voor e-mail, Duw, SMS, en de kanalen van het Web. Deze nieuwe functie biedt een snelle, op tekst en afbeeldingen gebaseerde productie."
+>id="ajo_ai_generation_settings"
+>title="AI-assistent"
+>abstract="Nadat u de levering hebt gemaakt en gepersonaliseerd, kunt u de AI Assistant gebruiken om de inhoud te verbeteren. Deze functie vereenvoudigt het proces van personalisatie en inhoudverbetering door u toe te staan om de inhoud te verfijnen door te beschrijven wat u wilt produceren."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_generation_context"
+>title="Context definiëren met AI Assistant"
+>abstract="Als u de geselecteerde inhoud wilt gebruiken als invoer voor het genereren van inhoud, activeert u de optie **Originele inhoud gebruiken** schakelen. U kunt ook uw merkmiddelen uploaden om deze als bron te gebruiken. Als u de geselecteerde inhoud niet gebruikt, zijn het uploaden en selecteren van merkelementen verplicht."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_generation_start"
+>title="Algemene AI-termen voor Adobe"
+>abstract="Voor toegang tot deze functie moet u akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen. Alle aanwijzingen, contextgegevens of aanvullende informatie of andere gegevens die u aan deze functie verstrekt, moeten zijn gekoppeld aan een specifieke context, die uw brandingmaterialen, website-inhoud, gegevens, schema&#39;s voor dergelijke gegevens, sjablonen of andere vertrouwde documenten kan bevatten en geen persoonlijke gegevens mag bevatten (persoonlijke gegevens omvatten alles wat u terug kunt koppelen naar een specifiek individu). U moet de nauwkeurigheid van de uitvoer van deze functie controleren en controleren of deze geschikt is voor uw gebruiksgeval"
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generation AI-gebruikersrichtlijnen"
 
 >[!BEGINSHADEBOX]
 
