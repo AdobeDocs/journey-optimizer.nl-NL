@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b5e073ef1d0c579f430913d60442d7d4cfa620a3
+source-git-commit: 628d49ee45ce161fc5e213bda60cb44d41223369
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '844'
 ht-degree: 5%
 
 ---
@@ -76,7 +76,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tr>
 <td>
 <p>U kunt korrelige frequentiecappende regels nu tot stand brengen, en hen toepassen op verschillende types van marketing mededelingen door regelreeksen. Met deze nieuwe functie kunt u bepalen hoe vaak uw publiek een bericht ontvangt door kanaalregels in te stellen die automatisch overgevraagde profielen uitsluiten van berichten en acties.</p>
-<p>De mogelijkheden van de bedrijfsregels zijn momenteel slechts beschikbaar als openbare bèta.</p>
+<p>De mogelijkheden van de bedrijfsregels zijn momenteel beschikbaar als openbare bèta.</p>
 <p>Raadpleeg de <a href="../configuration/business-rules.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -94,6 +94,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tr>
 <td>
 <p>U kunt nu gegevenswaarden opzoeken en ophalen in Adobe Experience Platform-gegevenssets en deze waarden gebruiken om voorwaarden te maken in Adobe Journey Optimizer. U kunt hefboomwerkings gegevens van een raadplegingsdataset wanneer een verhouding gebruikend een attribuut binnen van een serie van voorwerpen is bepaald. U kunt niet-profiel toegelaten datasets voor raadpleging specificeren. Zodra toegelaten, kunt u een profielattribuut als verbindingssleutel aan de gespecificeerde dataset gebruiken om verdere gegevens voor verpersoonlijking terug te winnen.</p>
+<p>Deze mogelijkheid is momenteel beschikbaar als een openbare bètaversie.</p>
 </td>
 </tr>
 </tbody>
