@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4b779d297769bd7a0b6913a0142ee7be7775ba04
+source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '699'
 ht-degree: 5%
 
 ---
@@ -134,9 +134,11 @@ Van bèta naar LA zijn de volgende verbeteringen toegevoegd:
 * **Audits** - de **Logbestand wijzigen** , zodat u kunt zien welke wijzigingen in een voorstel of een beslissing zijn aangebracht. Wijzigingen met betrekking tot aanbiedingen en besluiten zijn nu te zien in de **Audits** -menu.
 
 
-**List-unsubscribe**
+**E-mailkanaal**
 
-* Na de recente Gmail- en Yahoo-aankondigingen voor bulkafzenders biedt Journey Optimizer ondersteuning voor de optie &quot;Na/1-klik&quot; List-Unsubscribe.
+* **List-unsubscribe** - Na de recente Gmail- en Yahoo-aankondigingen voor bulkafzenders biedt Journey Optimizer ondersteuning voor de optie &quot;Na/1-klik&quot; List-Unsubscribe.
+* **Spamscoring** - U kunt nu uw scoring in de inhoudspam controleren in een speciaal spamrapport. Met SpamAssassin kan Adobe Journey Optimizer nu uw e-mailinhoud testen en deze een score geven om aan te geven of ISP-providers het als spam zullen beschouwen of niet. [Meer informatie](../content-management/spam-report.md)
+
 
 **Doelgroepen**
 
