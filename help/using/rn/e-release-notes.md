@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 628d49ee45ce161fc5e213bda60cb44d41223369
+source-git-commit: c667d04e22ad3addb35b1508366295a89751d8f0
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 5%
@@ -137,6 +137,6 @@ Van bèta tot deze release zijn de volgende verbeteringen toegevoegd:
 
 **Reizen**
 
-* **Beleid samenvoegen** (Beperkte beschikbaarheid) - Het samenvoegingsbeleid dat door een reis wordt gebruikt, is nu zichtbaar en consistent gedurende de hele reis.
+* **Beleid samenvoegen** (Beperkte beschikbaarheid) - Het samenvoegingsbeleid dat door een reis wordt gebruikt is nu zichtbaar en consistent gedurende de reis.
 * **mTLS-ondersteuning** - Het mTLS-protocol wordt nu ondersteund in Journey Optimizer API&#39;s en aangepaste handelingen.
 * **Tabellen opzoeken in gebeurtenissen** - U kunt nu hefboomwerkings gegevens van een raadplegingsdataset wanneer een verhouding gebruikend een attribuut binnen van een serie van voorwerpen is bepaald. De opzoekwaarden zijn beschikbaar voor reizen (voorwaarden, aangepaste handelingen, enz.) en berichtpersonalisatie.
