@@ -8,7 +8,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 8dacf28f4c3217a57e648b3c80e1724d9794c9ea
+source-git-commit: 4c1dca7815594bbbf5a2d84682338e8b2d743965
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%
@@ -30,8 +30,7 @@ Dit staat u toe om te bepalen of een bericht het risico loopt om als spam door d
 >
 >* Momenteel kan de analyse van spamrapporten alleen worden uitgevoerd voor inhoud in het Engels.
 >
->* >
->Het Spam-rapport is informatief en verhindert niet dat berichten met een slechte score worden verzonden.
+>* Het Spam-rapport is informatief en verhindert niet dat berichten met een slechte score worden verzonden.
 
 Als u toegang wilt krijgen tot **[!UICONTROL Spam report]** volgt u de onderstaande stappen.
 
