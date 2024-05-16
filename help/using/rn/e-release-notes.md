@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2eb1ffff7101362b52ae91f1a7277188664b2954
+source-git-commit: b5e073ef1d0c579f430913d60442d7d4cfa620a3
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '836'
 ht-degree: 5%
 
 ---
@@ -75,7 +75,9 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tbody>
 <tr>
 <td>
-<p>U kunt korrelige frequentiecappende regels nu tot stand brengen en hen op verschillende soorten marketing mededelingen door regelreeksen toepassen. </p>
+<p>U kunt korrelige frequentiecappende regels nu tot stand brengen, en hen toepassen op verschillende types van marketing mededelingen door regelreeksen. Met deze nieuwe functie kunt u bepalen hoe vaak uw publiek een bericht ontvangt door kanaalregels in te stellen die automatisch overgevraagde profielen uitsluiten van berichten en acties.</p>
+<p>De mogelijkheden van de bedrijfsregels zijn momenteel slechts beschikbaar als openbare bèta.</p>
+<p>Raadpleeg de <a href="../configuration/business-rules.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -103,16 +105,16 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Ervaar beslissingsvermogen**
 
-Van bèta naar LA zijn de volgende verbeteringen toegevoegd:
+Van bèta tot deze release zijn de volgende verbeteringen toegevoegd:
 
-* **Ervaring beslissen + op code gebaseerde ervaringen (LA)**: U kunt nu de functie Ervaring beslissen gebruiken om beslissingsitems te gebruiken in uw op code gebaseerde campagnes. Opmerking: het op code gebaseerde ervaringskanaal en de ervaringsbeslissingen zijn niet beschikbaar voor organisaties die de add-on Adobe van het gezondheidsschild en privacy- en beveiligingsschild hebben aangeschaft. [Meer informatie](../code-based/get-started-code-based.md)
-* Je kunt nu contextgegevens van Adobe Experience Platform gebruiken in je beslissingsregels en rangschikkingsformules. [Meer informatie](../experience-decisioning/context-data.md)
-* Er is nu een nieuwe machtiging &quot;Ervaring beheren&quot; beschikbaar voor de Beslissingsbeheerbron. Hiermee kunt u rechten beheren die betrekking hebben op het bepalen van ervaring. [Meer informatie](../experience-decisioning/gs-experience-decisioning.md)
-* U kunt nu veelvoudige het begrenzen regels voor een bepaald besluitpunt in het Beslissen van de Ervaring toevoegen. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden. [Meer informatie](../experience-decisioning/items.md#capping)
-* U kunt nu aangepaste rapporteringsdashboards maken van campagnes voor het nemen van beslissingen over ervaringen met [!DNL Customer Journey Analytics]. [Meer informatie](../experience-decisioning/cja-reporting.md)
+* **Ervaring beslissen + op code gebaseerde ervaringen (LA)** - U kunt nu de functie Ervaring beslissen gebruiken om beslissingen te nemen in uw op code gebaseerde campagnes. Opmerking: het op code gebaseerde ervaringskanaal en de ervaringsbeslissingen zijn niet beschikbaar voor organisaties die de add-on Adobe van het gezondheidsschild en privacy- en beveiligingsschild hebben aangeschaft. [Meer informatie](../code-based/get-started-code-based.md)
+* **Contextgegevens** - Je kunt nu contextgegevens van Adobe Experience Platform gebruiken in je besluitvormingsregels en rangschikkingsformules. [Meer informatie](../experience-decisioning/context-data.md)
+* **Nieuwe machtiging** - Er is nu een nieuwe machtiging &#39;Ervaring beheren&#39; beschikbaar voor de beslissingsbeheerbron. Hiermee kunt u rechten beheren die betrekking hebben op het bepalen van ervaring. [Meer informatie](../experience-decisioning/gs-experience-decisioning.md)
+* **Afdekregels** - U kunt nu meerdere begrenzingsregels toevoegen voor een bepaald beslissingselement in het Ervaring-besluit. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden. [Meer informatie](../experience-decisioning/items.md#capping)
+* **Rapportage** - U kunt nu aangepaste rapporteringsdashboards maken van campagnes voor het nemen van beslissingen over ervaringen met [!DNL Customer Journey Analytics]. [Meer informatie](../experience-decisioning/cja-reporting.md)
 
 
-**Offer decisioning**
+**Beslissingsbeheer**
 
 * **Ondersteuning voor meerdere regels** - U kunt nu maximaal 10 afkapregels toevoegen voor een bepaald aanbod in Beslissingsbeheer. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden.
 * **Audits** - de **Logbestand wijzigen** , zodat u kunt zien welke wijzigingen in een voorstel of een beslissing zijn aangebracht. Wijzigingen met betrekking tot aanbiedingen en besluiten zijn nu te zien in de **Audits** -menu.
@@ -134,6 +136,6 @@ Van bèta naar LA zijn de volgende verbeteringen toegevoegd:
 
 **Reizen**
 
-* **Beleid samenvoegen** - Het beleid voor samenvoegen kan nu worden geconfigureerd en gebruikt voor uw reizen.
+* **Beleid samenvoegen** (Beperkte beschikbaarheid) - Het samenvoegingsbeleid dat door een reis wordt gebruikt, is nu zichtbaar en consistent gedurende de hele reis.
 * **mTLS-ondersteuning** - Het mTLS-protocol wordt nu ondersteund in Journey Optimizer API&#39;s en aangepaste handelingen.
 * **Tabellen opzoeken in gebeurtenissen** - U kunt nu hefboomwerkings gegevens van een raadplegingsdataset wanneer een verhouding gebruikend een attribuut binnen van een serie van voorwerpen is bepaald. De opzoekwaarden zijn beschikbaar voor reizen (voorwaarden, aangepaste handelingen, enz.) en berichtpersonalisatie.
