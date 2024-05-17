@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b5e66c18590a452e582bd8727d957e6c721abe4a
+source-git-commit: 21b4c3dbdb4b26caa64104319d9f79e489bb5925
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '735'
 ht-degree: 3%
 
 ---
@@ -84,21 +84,21 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Uitgebreide personalisatiegegevens - bèta</strong><br/></th>
+<th><strong>Extended personalization data - Beta</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu gegevenswaarden opzoeken en ophalen in Adobe Experience Platform-gegevenssets en deze waarden gebruiken om voorwaarden te maken in Adobe Journey Optimizer. U kunt hefboomwerkings gegevens van een raadplegingsdataset wanneer een verhouding gebruikend een attribuut binnen van een serie van voorwerpen is bepaald. U kunt niet-profiel toegelaten datasets voor raadpleging specificeren. Zodra toegelaten, kunt u een profielattribuut als verbindingssleutel aan de gespecificeerde dataset gebruiken om verdere gegevens voor verpersoonlijking terug te winnen.</p>
-<p>Deze mogelijkheid is momenteel beschikbaar als een openbare bètaversie.</p>
+<p>You can now lookup and fetch data values within Adobe Experience Platform datasets, and use these values to build conditions in Adobe Journey Optimizer. You can leverage data from a lookup dataset when a relationship has been defined using an attribute inside of an array of objects. You can specify non-profile enabled datasets for lookup. Once enabled, you can use a profile attribute as a join key to the specified dataset to retrive further data for personalization.</p>
+<p>This capability is currently available as a public beta.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 ### Verbeteringen {#e-improvements}
 
