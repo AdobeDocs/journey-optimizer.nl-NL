@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 badge: label="Beperkte beschikbaarheid"
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
+source-git-commit: b6c5bb09d7a1cb7f61a532cd5ffd262436e09039
 workflow-type: tm+mt
 source-wordcount: '1684'
 ht-degree: 0%
@@ -121,7 +121,7 @@ Als u uitlijningsregels wilt instellen voor het beslissingsitem, klikt u op de k
 
    * Selecteren **[!UICONTROL In total]** om te bepalen hoe vaak het punt over het gecombineerde doelpubliek kan worden voorgesteld, betekenend over alle gebruikers. Als u bijvoorbeeld een elektronicawinkel bent met een &#39;tv-huis-deal&#39;, wilt u dat het aanbod slechts 200 keer wordt geretourneerd voor alle profielen.
 
-* Selecteren **[!UICONTROL Per profile]** om te bepalen hoe vaak de aanbieding aan dezelfde gebruiker kan worden voorgesteld. Als je bijvoorbeeld een bank bent met een &#39;Platinum credit card&#39;-aanbieding, wil je niet dat dit voorstel meer dan vijf keer per profiel wordt weergegeven. U bent namelijk van mening dat als de gebruiker het aanbod vijf keer heeft gezien en er niet op heeft gereageerd, hij een grotere kans heeft om op het volgende beste aanbod in te gaan.
+   * Selecteren **[!UICONTROL Per profile]** om te bepalen hoe vaak de aanbieding aan dezelfde gebruiker kan worden voorgesteld. Als je bijvoorbeeld een bank bent met een &#39;Platinum credit card&#39;-aanbieding, wil je niet dat dit voorstel meer dan vijf keer per profiel wordt weergegeven. U bent namelijk van mening dat als de gebruiker het aanbod vijf keer heeft gezien en er niet op heeft gereageerd, hij een grotere kans heeft om op het volgende beste aanbod in te gaan.
 
 1. In de **[!UICONTROL Capping count limit]** in het veld het aantal keren opgeven dat de aanbieding aan alle gebruikers of per profiel kan worden weergegeven, afhankelijk van het geselecteerde type aftopping. Het getal moet een geheel getal groter dan 0 zijn.
 
