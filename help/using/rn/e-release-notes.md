@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c667d04e22ad3addb35b1508366295a89751d8f0
+source-git-commit: b5e66c18590a452e582bd8727d957e6c721abe4a
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 5%
+source-wordcount: '825'
+ht-degree: 3%
 
 ---
 
@@ -60,7 +60,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tr>
 <td>
 <p>Als u e-mail op een gloednieuw IP adres verzendt, kunt u IP opwarmingswerkschema's nu gemakkelijk direct van het gebruikersinterface uitvoeren. Adobe Journey Optimizer biedt een gestandaardiseerde en efficiënte manier om uw IP adressen op te warmen die de beste praktijken voor optimale leverbaarheid volgen.</p>
-<p>Raadpleeg de <a href="../configuration/ip-warmup-gs.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -77,7 +77,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <td>
 <p>U kunt korrelige frequentiecappende regels nu tot stand brengen, en hen toepassen op verschillende types van marketing mededelingen door regelreeksen. Met deze nieuwe functie kunt u bepalen hoe vaak uw publiek een bericht ontvangt door kanaalregels in te stellen die automatisch overgevraagde profielen uitsluiten van berichten en acties.</p>
 <p>De mogelijkheden van de bedrijfsregels zijn momenteel beschikbaar als openbare bèta.</p>
-<p>Raadpleeg de <a href="../configuration/business-rules.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -124,7 +124,8 @@ Van bèta tot deze release zijn de volgende verbeteringen toegevoegd:
 **E-mailkanaal**
 
 * **List-unsubscribe** - Na de recente Gmail- en Yahoo-aankondigingen voor bulkafzenders biedt Journey Optimizer ondersteuning voor de optie &quot;Na/1-klik&quot; List-Unsubscribe.
-* **Spamscoring** (Beta) - U kunt nu de scoring van de inhoudspam controleren in een speciaal Spam-rapport. Met SpamAssassin kan Adobe Journey Optimizer nu uw e-mailinhoud testen en deze een score geven om aan te geven of ISP-providers het als spam zullen beschouwen of niet. [Meer informatie](../content-management/spam-report.md)
+* **Spamscoring** (Beta) - U kunt nu de scoring van de inhoudspam controleren in een speciaal Spam-rapport. Met SpamAssassin kan Adobe Journey Optimizer nu uw e-mailinhoud testen en deze een score geven om aan te geven of ISP-providers het als spam zullen beschouwen of niet.
+  <!--[Read more](../content-management/spam-report.md)-->
 
 
 **Doelgroepen**
@@ -133,10 +134,11 @@ Van bèta tot deze release zijn de volgende verbeteringen toegevoegd:
 
 **Personalisatie**
 
-* **Expressiefragment** - Expressiefragmenten zijn nu beschikbaar voor de **Kanaal in app**. [Meer informatie](../personalization/use-expression-fragments.md)
+* **Expressiefragment** - Expressiefragmenten zijn nu beschikbaar voor de **Kanaal in app**.
+  <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 **Reizen**
 
-* **Beleid samenvoegen** (Beperkte beschikbaarheid) - Het samenvoegingsbeleid dat door een reis wordt gebruikt is nu zichtbaar en consistent gedurende de reis.
-* **mTLS-ondersteuning** - Het mTLS-protocol wordt nu ondersteund in Journey Optimizer API&#39;s en aangepaste handelingen.
+<!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
+* **mTLS-ondersteuning** - mTLS-verificatie wordt nu ondersteund in aangepaste handelingen. Er is geen extra configuratie vereist in de douaneactie of de reis om mTLS te activeren; het komt automatisch voor wanneer een mTLS-Toegelaten eindpunt wordt ontdekt.
 * **Tabellen opzoeken in gebeurtenissen** - U kunt nu hefboomwerkings gegevens van een raadplegingsdataset wanneer een verhouding gebruikend een attribuut binnen van een serie van voorwerpen is bepaald. De opzoekwaarden zijn beschikbaar voor reizen (voorwaarden, aangepaste handelingen, enz.) en berichtpersonalisatie.
