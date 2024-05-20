@@ -6,9 +6,9 @@ description: Opmerkingen bij de vervroegde release van Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: bf098c2b8c1eeb48b4c2a2857db9946c32533ffe
+source-git-commit: 949d1e021cf46aebf7bf564797d717205e4cf4b8
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '738'
 ht-degree: 3%
 
 ---
@@ -140,6 +140,7 @@ Van bèta tot deze release zijn de volgende verbeteringen toegevoegd:
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
 * **mTLS-ondersteuning** - mTLS-verificatie wordt nu ondersteund in aangepaste handelingen. Er is geen extra configuratie vereist in de douaneactie of de reis om mTLS te activeren; het komt automatisch voor wanneer een mTLS-Toegelaten eindpunt wordt ontdekt.
 * **Tabellen opzoeken in gebeurtenissen** - U kunt nu hefboomwerkings gegevens van een raadplegingsdataset wanneer een verhouding gebruikend een attribuut binnen van een serie van voorwerpen is bepaald. De opzoekwaarden zijn beschikbaar voor reizen (voorwaarden, aangepaste handelingen, enz.) en berichtpersonalisatie.
+* **Geavanceerde expressie-editor in gebeurtenisconfiguratie** - U kunt nu de geavanceerde expressie-editor benutten tijdens het configureren van een gebeurtenis, zodat u complexere expressies kunt definiëren of functies kunt gebruiken in de voorwaarde voor de gebeurtenis-id.
 
 **Globalisatie**
 
