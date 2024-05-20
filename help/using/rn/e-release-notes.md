@@ -6,9 +6,9 @@ description: Opmerkingen bij de vervroegde release van Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 949d1e021cf46aebf7bf564797d717205e4cf4b8
+source-git-commit: de9aba41b6351bc7bad18f3d774612a03673f185
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '762'
 ht-degree: 3%
 
 ---
@@ -122,8 +122,10 @@ Van bèta tot deze release zijn de volgende verbeteringen toegevoegd:
 **E-mailkanaal**
 
 * **List-unsubscribe** - Na de recente Gmail- en Yahoo-aankondigingen voor bulkafzenders biedt Journey Optimizer ondersteuning voor de optie &quot;Na/1-klik&quot; List-Unsubscribe.
-* **Spamscoring** (Beta) - U kunt nu de scoring van de inhoudspam controleren in een speciaal Spam-rapport. Met SpamAssassin kan Adobe Journey Optimizer nu uw e-mailinhoud testen en deze een score geven om aan te geven of ISP-providers het als spam zullen beschouwen of niet.
-  <!--[Read more](../content-management/spam-report.md)-->
+* **Spamscoring** (Beta) - U kunt nu de scoring van de inhoudspam controleren in een speciaal Spam-rapport. Gebruikend SpamAssassin, kan Adobe Journey Optimizer uw e-mailinhoud nu testen en het een score geven om erop te wijzen als ISPs of de leveranciers van de Brievenbus het als spam of niet zullen beschouwen. Deze mogelijkheid is momenteel beschikbaar in bètaversie en alleen voor bètaklanten. Neem contact op met de klantenservice van de Adobe om deel te nemen aan het bètaprogramma.
+
+
+<!--[Read more](../content-management/spam-report.md)-->
 
 <!--
 **Audiences**
