@@ -5,10 +5,10 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 0ba1e007ebdb3f7d68df270c4a7332bf37eec2b2
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 16%
+source-wordcount: '354'
+ht-degree: 17%
 
 ---
 
@@ -20,11 +20,19 @@ Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en
 
 >[!BEGINTABS]
 
->[!TAB April release is live!]
+>[!TAB Kan live worden uitgebracht!]
 
-Ontdek nieuwe functies en verbeteringen die worden geïntroduceerd in de Adobe Journey Optimizer 24.3-release.
+Ontdek nieuwe functies en verbeteringen die worden geïntroduceerd met de release van Adobe Journey Optimizer May.
 
 [![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB Ervaar beslissingen]
+
+Ervaring Beslissen vereenvoudigt personalisatie door een gecentraliseerde catalogus van marketingaanbiedingen aan te bieden, die bekend staan als &#39;beslissingspunten&#39; en een geavanceerde beslissingsengine.
+
+![](using/rn/assets/do-not-localize/gif-exd.gif)
+
+[![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/experience-decisioning/gs-experience-decisioning.md)
 
 >[!TAB Nieuwe ervaring op reis]
 
@@ -33,14 +41,6 @@ Deze release wordt geleverd met een verbeterde gebruikersinterface voor het canv
 ![](using/rn/assets/new-canvas3.gif)
 
 [![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/rn/new-canvas.md)
-
->[!TAB MMS voor alle aanbieders]
-
-Met het Kanaal van SMS, kunt u uw mededeling nu verbeteren door de MMS-berichten (Multimedia Message Service) te verzenden, toelatend het delen van beelden, GIFFEN, of video&#39;s met uw klanten. In eerste instantie alleen beschikbaar bij Sinch, is MMS nu ook beschikbaar bij Infobip en Twilio.
-
-![](using/rn/assets/do-not-localize/mms.gif)
-
-[![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/sms/get-started-sms.md)
 
 >[!ENDTABS]
 
