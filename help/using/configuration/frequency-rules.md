@@ -9,14 +9,24 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 12f6c41252809bcc85bc076902f9a831a6c6e7d9
+source-git-commit: e80148e9678e71329f8711dd201c7531b4f9aeae
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
 
 # Regels voor berichtfrequentie {#frequency-rules}
+
+>[!CONTEXTUALHELP]
+>id="ajo_business_rules_message_frequency_rules"
+>title="Zakelijke regels"
+>abstract="Beschrijving van bedrijfsregels"
+
+>[!CONTEXTUALHELP]
+>id="ajo_business_rules_rule_sets"
+>title="Regelsets"
+>abstract="Beschrijving van regelsets"
 
 [!DNL Journey Optimizer] Hiermee kunt u bepalen hoe vaak gebruikers een bericht zullen ontvangen of een reis zullen betreden door kanaalregels in te stellen die automatisch overgevraagde profielen uitsluiten van berichten en acties.
 
