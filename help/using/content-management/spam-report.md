@@ -1,6 +1,6 @@
 ---
-title: Spamrapport gebruiken
-description: Leer hoe u spamrapport kunt gebruiken.
+title: E-mailspamrapport gebruiken
+description: Leer hoe u het e-mailspamrapport kunt gebruiken.
 feature: Preview
 role: User
 level: Beginner
@@ -8,29 +8,29 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: 4c1dca7815594bbbf5a2d84682338e8b2d743965
+source-git-commit: d0973e623de8f26b4e9dc5809251f9705333adb9
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
 # E-mailspamrapport {#spam-report}
 
-[!DNL Journey Optimizer] laat u toe om te controleren hoe uw inhoud tegen spam het filtreren zal presteren en ervoor te zorgen uw berichten in de dozen van uw klanten - niet in spam landen.
+>[!CONTEXTUALHELP]
+>id="ajo_simulate_spam_report"
+>title="E-mailspamrapport"
+>abstract="Met het Spam-rapport kunt u uw spamscoring in e-mailinhoud controleren. Deze score wijst erop als ISPs of de leveranciers van de Brievenbus uw bericht als spam of niet zullen beschouwen. Hoe lager de score, hoe beter. Als de score voor uw e-mailinhoud hoger is dan 2, kunt u problemen verhelpen die ertoe leiden dat tests mislukken."
 
-Als u uw e-mailinhoud bewerkt of een voorvertoning weergeeft, wordt **[!UICONTROL Spam report]** biedt een score en advies om de scores voor elk afzonderlijk aangeboden item te verbeteren.
+U kunt de spamscoring in uw e-mailinhoud controleren in een speciaal Spam-rapport. Gebruiken [SpamAssassin](https://spamassassin.apache.org/){target="_blank"}, kan Adobe Journey Optimizer uw e-mailinhoud testen en het een score geven om erop te wijzen of ISPs of de leveranciers van de Brievenbus het als spam of niet zullen beschouwen.
 
-Dit staat u toe om te bepalen of een bericht het risico loopt om als spam door de anti-anti-spamhulpmiddelen worden beschouwd die op ontvangstbewijs worden gebruikt, en om acties te nemen als dit niet het geval is. Veel e-mailproviders gebruiken gereedschappen als onderdeel van hun spamfilterproces. Het verzenden van e-mails met een slechte score kan van grote invloed zijn op je leesbaarheid.
-
-
->[!CAUTION]
+>[!AVAILABILITY]
 >
->* Deze functie is momenteel alleen beschikbaar als een persoonlijke bètaversie.
->
->* Momenteel kan de analyse van spamrapporten alleen worden uitgevoerd voor inhoud in het Engels.
->
->* Het Spam-rapport is informatief en verhindert niet dat berichten met een slechte score worden verzonden.
+>Deze mogelijkheid is momenteel beschikbaar in bètaversie en alleen voor bètaklanten. Neem contact op met de klantenservice van de Adobe om deel te nemen aan het bètaprogramma.
+
+Als u uw e-mailinhoud bewerkt of een voorvertoning weergeeft, wordt **[!UICONTROL Spam report]** bevat een score en advies om de scores voor elk afzonderlijk aangeboden item te verbeteren.
+
+Dit vermogen staat u toe om te bepalen of een bericht als spam door de anti-anti-spamhulpmiddelen kon worden beschouwd die bij ontvangstbewijs worden gebruikt, en om acties te nemen als dit het geval is. Veel e-mailproviders gebruiken gereedschappen als onderdeel van hun spamfilterproces. Het verzenden van e-mails met een slechte score kan van grote invloed zijn op je leesbaarheid.
 
 Als u toegang wilt krijgen tot **[!UICONTROL Spam report]** volgt u de onderstaande stappen.
 
@@ -50,7 +50,7 @@ Als u toegang wilt krijgen tot **[!UICONTROL Spam report]** volgt u de onderstaa
 
 1. Controleer de scores en beschrijvingen voor elk item.
 
-   Hoe lager de score, hoe beter. Als de score hoger is dan 5, wordt een waarschuwing getoond: het wijst erop dat sommige berichten kunnen worden geblokkeerd of als spam wanneer ontvangen worden gemerkt.
+   Hoe lager de score, hoe beter. Als de score hoger is dan 5, wordt een waarschuwing getoond: het wijst erop dat sommige berichten kunnen worden geblokkeerd of als spam wanneer ontvangen worden gemerkt. De beste manier is om een score lager dan 2 te hebben.
 
 1. Als u van mening bent dat bepaalde elementen voor verbetering vatbaar zijn, kunt u op basis van die scoring de inhoud van de [E-mailDesigner](../email/content-from-scratch.md) en brengt de nodige wijzigingen aan.
 
