@@ -10,9 +10,9 @@ level: Intermediate
 keywords: expression, editor
 hidefromtoc: true
 hide: true
-source-git-commit: ae26dfdf77433882dc57e5518a2ff5e0f7e3a3ce
+source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Met Journey Optimizer kunt u gegevens van Adobe Experience Platform in de expres
 
 1. Open de uitdrukkingsredacteur, die in elke context beschikbaar is waar u verpersoonlijking zoals berichten kunt bepalen. [Leer hoe u met de expressieeditor werkt](../personalization/personalization-build-expressions.md)
 
-1. Ga naar de lijst met hulpfuncties en voeg de **MultiEntiteit** hulpfunctie aan de coderuit.
+1. Ga naar de lijst met hulpfuncties en voeg de **datasetLookup** hulpfunctie aan de coderuit.
 
    ![](assets/aep-data-helper.png)
 
@@ -41,6 +41,11 @@ Met Journey Optimizer kunt u gegevens van Adobe Experience Platform in de expres
 
    * **entiteit.datasetId** is identiteitskaart van de dataset u met werkt;
    * **id** het veld dat als primaire identiteit in de gegevensset wordt gebruikt;
+
+     >[!NOTE]
+     >
+     >De ingevoerde waarde voor dit veld kan de veld-id (*profile.couponValue*), een veld dat wordt doorgegeven tijdens een reisgebeurtenis (*context.trip.events.event_ID.couponValue*), of een statische waarde (*couponAbcd*). In elk geval, zal het systeem de waarde en raadpleging in de dataset gebruiken om te controleren of het een sleutel aanpast).
+
    * **resultaat** is een willekeurige naam die u moet opgeven om naar alle veldwaarden te verwijzen die u van de dataset gaat ophalen. Deze waarde wordt in de code gebruikt om elk veld aan te roepen.
 
    +++Waar om een dataset ID terug te winnen?
