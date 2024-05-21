@@ -12,9 +12,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b69c75e0a8a35635a67065412e443a2af0d3b09f
+source-git-commit: 60b29231a097bde3e451549eac9c2aead9452cf4
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1563'
 ht-degree: 0%
 
 ---
@@ -157,8 +157,6 @@ Wanneer deze regel wordt gemaakt, heeft deze de **[!UICONTROL Draft]** status en
 U moet ook de regel activeren die is ingesteld om deze in campagnes/reizen te kunnen openen en toe te passen op uw berichten.
 
 ![](assets/rule-set-activate-set.png)
-
-Het activeren van een regelreeks zal om het even welke berichten beïnvloeden het op hun volgende uitvoering van toepassing is. Leer hoe u [een regel toepassen die op een bericht is ingesteld](#apply-rule-set).
 
 >[!NOTE]
 >
