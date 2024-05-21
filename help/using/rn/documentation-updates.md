@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
 workflow-type: tm+mt
-source-wordcount: '5226'
+source-wordcount: '5286'
 ht-degree: 13%
 
 ---
@@ -22,7 +22,10 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 ## Mei 2024 {#may-2024}
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 24 april is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
-
+* De paragraaf over zaadlijsten is bijgewerkt met betrekking tot terugkerende reizen. [Meer informatie](../configuration/seed-lists.md#use-seed-list)
+* De sectie over externe gegevensbronnen is bijgewerkt. [Meer informatie](../datasource/external-data-sources.md#custom-authentication-access-token)
+* De algemene reistijd van 30 dagen is toegevoegd aan de pagina van Guardrail en van de beperking. [Meer informatie](../start/guardrails.md#journeys-guardrails-journeys)
+* Het gedeelte over de integratie met Adobe Campaign v7/v8 is bijgewerkt met informatie over provisioning. [Meer informatie](../action/acc-action.md#access)
 
 ## April 2024 {#april-2024}
 

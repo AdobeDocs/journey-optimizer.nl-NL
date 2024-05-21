@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: cef6970e611a33b71b803fdb247f566cb8a8a708
+source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1590'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ Nadat u een of meer [IP-opwarmingscampagnes](ip-warmup-campaign.md) met een spec
 Om tot IP warmup plannen toegang te hebben, tot stand te brengen, uit te geven en te schrappen, moet u hebben **[!UICONTROL Deliverability Consultant]** rol of IP warmup plannen verwante toestemmingen.
 
 +++Leer hoe te om de rol van de Adviseur van de Leverbaarheid of IP warmteopwarmingsplannen verwante toestemmingen toe te wijzen
+
+Met toegangsbeheer op objectniveau kunt u gegevens beschermen en specifieke toegang verlenen om uw plannen te bekijken en te beheren. Als geen etiket aan uw IP warmlopingsplan wordt toegewezen, zal het voor het bekijken en het uitgeven door alle gebruikers open zijn.
+
+De **[!UICONTROL View IP warmup plans]** machtiging beperkt alleen toegang tot weergeven en publiceren, terwijl u **[!UICONTROL Manage IP warmup plans]** Met deze machtiging kunnen gebruikers het abonnement bekijken en bewerken.
 
 De bijbehorende machtiging toewijzen aan een specifieke **[!UICONTROL Role]**:
 
@@ -76,7 +80,7 @@ De bijbehorende rol toewijzen aan een **[!UICONTROL User]**:
 
 IP de warmte-up is een activiteit die in het geleidelijk verhogen van het volume van e-mails bestaat die van uw IPs en domein aan de belangrijkste dienstverleners van Internet (ISPs) gaan - om uw reputatie als wettige afzender te vestigen.
 
-Deze activiteit wordt vaak uitgevoerd met de hulp van een leverbaarheidsdeskundige die helpt om een weloverwogen plan voor te bereiden dat op de industrieterreinen, gebruiksgevallen, gebieden, ISPs en diverse andere factoren wordt gebaseerd.
+Deze activiteit wordt typisch uitgevoerd met de hulp van een leverbaarheidsdeskundige die helpt om een weloverwogen plan voor te bereiden dat op de industrieterreinen, gebruiksgevallen, gebieden, ISPs en diverse andere factoren wordt gebaseerd.
 
 <!--When working with the [!DNL Journey Optimizer] IP warmup feature, this plan takes the form of an Excel file that must contain a number of predefined columns.-->
 
@@ -102,10 +106,6 @@ Hieronder is een voorbeeld van een dossier dat een IP warmlopingsplan bevat.
 
 ![](assets/ip-warmup-sample-file.png)
 
->[!NOTE]
->
->Voor nu moet u de **Eigenschappen** en **Waarde** cellen onaangeroerd.
-
 ### Het lusje van het Plan van de Warmup {#ip-warmup-plan-tab}
 
 * In dit voorbeeld is een plan voorbereid dat zich over 17 dagen uitstrekt (genoemd &quot;**looppas**&quot;) om een doelvolume van meer dan een miljoen profielen te bereiken.
@@ -117,7 +117,6 @@ Hieronder is een voorbeeld van een dossier dat een IP warmlopingsplan bevat.
    * Vier ervan komen overeen met **uit-van-de-doos domeingroepen** voor gebruik in uw abonnement (Gmail, Microsoft, Yahoo en Orange).
    * Eén komt overeen met een aangepaste domeingroep (die u moet toevoegen met de opdracht [Aangepaste domeingroep](#custom-domain-group-tab) ).
    * de zesde kolom, **Overige**, bevat alle resterende adressen van andere domeinen die niet uitdrukkelijk in het plan worden behandeld. Deze kolom is optioneel: als deze wordt weggelaten, gaan e-mails alleen naar de opgegeven domeinen.
-* De **Betrokkenheidsdagen** uit de kolom blijkt dat alleen de profielen die tijdens de laatste ingevoerde periode met uw merk zijn verbonden, als doelprofiel worden gebruikt.
 
 Het idee moet het aantal gerichte adressen in elke looppas progressief verhogen, terwijl het verminderen van het aantal looppas voor elke fase.
 
@@ -188,6 +187,8 @@ De uit-van-de-doos belangrijkste domeingroepen u aan uw plan kunt toevoegen zijn
 U kunt meer kolommen aan uw plan ook toevoegen door de groepen van het douanedomein te omvatten.
 
 Gebruik de **[!UICONTROL Custom Domain Group]** om een nieuwe domeingroep te definiëren. Voor elk domein kunt u alle subdomeinen toevoegen waarop het betrekking heeft.<!--TBC-->
+
+Zorg ervoor dat elk domein aan zijn domeingroep uniek is en niet met andere domeingroepen overlapt. Aangezien algemene domeingroepen automatisch worden gedefinieerd, moeten gebruikers hiermee rekening houden bij het maken van aangepaste domeingroepen.
 
 Als u bijvoorbeeld het aangepaste domein Luma toevoegt, wilt u de volgende subdomeinen opnemen: luma.com, luma.co.uk, luma.it, luma.fr, luma.de, enzovoort.
 

@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: schema's, XDM, platform, streaming, opname, reis
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 7c55cc25fe1286d466f2de719aa42dcb76154881
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
@@ -87,11 +87,11 @@ U kunt een schemaverhouding op een serie van koorden, bijvoorbeeld, een lijst va
 
 ![](assets/schema15.png)
 
-U kunt echter geen schema-relatie definiëren met een kenmerk binnen een array van objecten, bijvoorbeeld een lijst met aankoopgegevens (product-id, productnaam, prijs, korting). De opzoekwaarden zijn niet beschikbaar voor reizen (voorwaarden, aangepaste handelingen, enz.) en berichtpersonalisatie.
+U kunt ook een schema-relatie definiëren met een kenmerk binnen een array van objecten, bijvoorbeeld een lijst met aankoopgegevens (product-id, productnaam, prijs, korting). De opzoekwaarden zijn beschikbaar voor reizen (voorwaarden, aangepaste handelingen, enz.) en berichtpersonalisatie.
 
 ![](assets/schema16.png)
 
-### Configuratie van gebeurtenissen{#unitary_event_configuration}
+### Gebeurtenisconfiguratie{#unitary_event_configuration}
 
 De gekoppelde schemavelden zijn beschikbaar in de configuratie van een eenheidsgebeurtenis en bedrijfsgebeurtenis:
 

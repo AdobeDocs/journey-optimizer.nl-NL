@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
+source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '439'
 ht-degree: 2%
 
 ---
@@ -69,11 +69,15 @@ Om een IP warmup campagne tot stand te brengen, volg de hieronder stappen.
 
 1. Voer de stappen uit om een e-mailcampagne te maken, zoals het definiëren van de campagne-eigenschappen. [publiek](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?-->, en [content](../email/get-started-email-design.md#key-steps).
 
+   Merk op dat u een op regel-gebaseerd publiek voor uw IP warmup campagne moet selecteren. [Meer informatie](../audience/creating-a-segment-definition.md)
+
    >[!NOTE]
    >
    >Voor meer informatie over hoe te om een campagne te vormen, raadpleeg [deze pagina](../campaigns/get-started-with-campaigns.md).
 
 1. [Activeren](../campaigns/review-activate-campaign.md) de campagne. Zijn status verandert in **[!UICONTROL Live]**.
+
+   Merk op dat de bedrijfsregels niet op IP warmup plan zouden moeten worden gebruikt. De toepassing van deze regels kan het bereiken van het gewenste aantal doelprofielen voor campagnes belemmeren.
 
    >[!NOTE]
    >

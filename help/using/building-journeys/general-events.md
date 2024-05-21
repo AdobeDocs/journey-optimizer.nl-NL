@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: aangepast, algemeen, evenementen, reizen
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '595'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,11 @@ ht-degree: 1%
 >id="ajo_journey_event_custom"
 >title="Unitaire gebeurtenissen"
 >abstract="Gebeurtenissen stellen u in staat om uw reizen tijdelijk te activeren en berichten in real-time te verzenden aan de persoon die de reis maakt. Voor dit type gebeurtenis kunt u alleen een label en een beschrijving toevoegen. De gebeurtenisconfiguratie wordt uitgevoerd door een gegevensingenieur en kan niet worden uitgegeven."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_business_canvas"
+>title="Zakelijke gebeurtenissen"
+>abstract="Met deze gebeurtenissen kunt u een reis starten met een niet-profielgerelateerde gebeurtenis. Wanneer die gebeurtenis wordt geactiveerd, kunt u berichten verzenden naar een publiek met profielen. Voor dit type gebeurtenis kunt u alleen een label en een beschrijving toevoegen. De gebeurtenisconfiguratie wordt uitgevoerd door een technische gebruiker en kan niet worden uitgegeven."
 
 Gebeurtenissen stellen u in staat om uw reizen tijdelijk te activeren en berichten in real-time te verzenden aan de persoon die de reis maakt.
 

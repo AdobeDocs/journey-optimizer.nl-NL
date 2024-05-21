@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: voorwerp, niveau, toegang, controle, etiketten, olc, vergunning
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '388'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,7 @@ Met toegangsbeheer op objectniveau (OLAC) kunt u machtigingen definiëren voor h
 * Statische aanbiedingenverzameling
 * Offertebeslissing
 * Kanaaloppervlak
+* IP-opwarmingsplan
 
 Het doel is gevoelige digitale activa te beschermen tegen ongeoorloofde gebruikers, zodat persoonsgegevens verder kunnen worden beschermd.
 

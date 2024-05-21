@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: c68e72d170792fc0ea3b6eb09b3acf818ec2cfd5
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '2046'
 ht-degree: 4%
 
 ---
@@ -211,6 +211,21 @@ Door deze wereldwijde time-out wordt de voortgang van individuen tijdens de reis
 Vanwege de 30 dagen durende reistijd, wanneer het niet is toegestaan om de reis opnieuw te betreden, kunnen we er niet voor zorgen dat de heringstop meer dan 30 dagen werkt. Aangezien we alle informatie over personen die 30 dagen na hun binnenkomst de reis hebben betreden, verwijderen, kunnen we niet weten dat de persoon eerder, meer dan 30 dagen geleden, is binnengekomen.
 
 Een individu kan alleen een wachtdienst doen als hij of zij genoeg tijd in de reis heeft om de wachttijd voor de 30 dagen reisonderbreking te voltooien. Zie [deze pagina](../building-journeys/wait-activity.md).
+
+### Beleid samenvoegen {#merge-policies}
+
+Reis gebruikt samenvoegbeleid terwijl het terugwinnen van profielgegevens van Adobe Experience Platform. Afhankelijk van het type van reis, worden de verschillende samenvoegingsbeleidsvormen gebruikt:
+
+* In kwalificatiereizen voor het publiek of het publiek lezen: het samenvoegbeleid van het publiek wordt gebruikt
+* Bij door gebeurtenis geïnitieerde reizen: het standaardsamenvoegbeleid wordt gebruikt
+
+De reis zal het fusieprincipe respecteren dat door de volledige reis wordt gebruikt.
+
+>[!NOTE]
+>
+>Dit vermogen is slechts beschikbaar in Beperkte Beschikbaarheid (LA) voor geselecteerde klanten.
+
+Raadpleeg deze voor meer informatie over samenvoegbeleid [page](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
 
 ## Een reis dupliceren {#duplicate-a-journey}
 

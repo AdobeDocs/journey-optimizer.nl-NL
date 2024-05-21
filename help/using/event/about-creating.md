@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: evenement, eenheidsprijs, creëren, reis
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 0f1c4b96e930e8e473463002c1d8ef66341a07c4
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 10%
+source-wordcount: '1567'
+ht-degree: 9%
 
 ---
 
@@ -61,14 +61,18 @@ Hier volgen de eerste stappen voor het configureren van een nieuwe gebeurtenis:
    >
    >Wanneer u **[!UICONTROL System Generated]** type, zijn alleen schema&#39;s beschikbaar die het veld eventID-type hebben. Wanneer u **[!UICONTROL Rule Based]** type, zijn alle schema&#39;s voor Experience Event beschikbaar.
 
-1. Voor op regel-gebaseerde gebeurtenissen, klik binnen **[!UICONTROL Event ID condition]** veld. Gebruikend de eenvoudige uitdrukkingsredacteur, bepaal de voorwaarde die door het systeem zal worden gebruikt om de gebeurtenissen te identificeren die uw reis zullen teweegbrengen.
+1. Voor op regel-gebaseerde gebeurtenissen, klik binnen **[!UICONTROL Event ID condition]** veld. Gebruikend de eenvoudige of geavanceerde uitdrukkingsredacteur, bepaal de voorwaarde die door het systeem zal worden gebruikt om de gebeurtenissen te identificeren die uw reis zullen teweegbrengen.
    ![](assets/jo-event6.png)
+
+   >[!NOTE]
+   >
+   >De geavanceerde uitdrukkingsredacteur in de configuratie van de Gebeurtenis is beschikbaar in Beperkte Beschikbaarheid aan geselecteerde klanten.
 
    In ons voorbeeld schreven we een voorwaarde op basis van de stad van het profiel. Dit betekent dat wanneer het systeem een gebeurtenis ontvangt die overeenkomt met deze voorwaarde (**[!UICONTROL City]** veld en **[!UICONTROL Paris]** waarde), zal het aan reizen doorgeven.
 
    >[!NOTE]
    >
-   >De geavanceerde expressie-editor is niet beschikbaar bij het definiëren van de **[!UICONTROL Event ID condition]**. In de eenvoudige expressie-editor zijn niet alle operatoren beschikbaar, maar zijn ze afhankelijk van het gegevenstype. Voor een tekenreekstype kunt u bijvoorbeeld &quot;contains&quot; of &quot;equal to&quot; gebruiken.
+   >In de eenvoudige expressie-editor zijn niet alle operatoren beschikbaar, maar zijn ze afhankelijk van het gegevenstype. Voor een tekenreekstype kunt u bijvoorbeeld &quot;contains&quot; of &quot;equal to&quot; gebruiken.
    >
    >Als u na het maken van de gebeurtenis uw schema met nieuwe opsomwaarden wijzigt, moet u de volgende stappen volgen om de wijzigingen toe te passen op de bestaande gebeurtenis: schakel het opsomveld uit de gebeurtenisvelden uit, bevestig de selectie en selecteer vervolgens nogmaals het opsomveld. De nieuwe opsommingswaarde wordt nu weergegeven.
 

@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 737b7f59819d235b1f637d4a6b996e97cfddb9fe
+source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
 workflow-type: tm+mt
-source-wordcount: '2083'
+source-wordcount: '2392'
 ht-degree: 0%
 
 ---
@@ -80,18 +80,6 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Nadat een run is geactiveerd, kunnen de uitsluitingen niet meer worden gewijzigd, tenzij u [de uitvoering splitsen](#split-phase) naar een nieuwe fase.
 
-   1. In de **[!UICONTROL Profile exclusion]** kunt u zien dat de profielen van de vorige reeksen van die fase altijd worden uitgesloten. Als in Run #1 bijvoorbeeld een profiel in de eerste 4800 doelgroepen is opgenomen, zorgt het systeem er automatisch voor dat hetzelfde profiel de e-mail niet ontvangt in Run #2.
-
-      >[!NOTE]
-      >
-      >Deze sectie kan niet worden bewerkt.
-
-   1. Van de **[!UICONTROL Campaign audiences excluded]** selecteert u de campagnes die u wilt uitsluiten van de huidige fase.
-
-      ![](assets/ip-warmup-plan-exclude-campaigns.png)
-
-      Tijdens het uitvoeren van Fase 1 moest u bijvoorbeeld [splitsen](#split-phase) om welke reden dan ook. Daarom kunt u de campagne uitsluiten die in Fase 1 wordt gebruikt, zodat de eerder gecontacteerde profielen van Fase 1 niet inbegrepen in Fase 2 zijn. U kunt campagnes van andere IP warmteopnameplannen ook uitsluiten.
-
    1. Van de **[!UICONTROL Domain groups excluded]** selecteert u de domeinen die u van die fase wilt uitsluiten.
 
       >[!NOTE]
@@ -106,7 +94,30 @@ At phase level, system ensures that previously targeted + new profiles are picke
       >
       >U kunt alleen een aangepaste domeingroep uitsluiten die is toegevoegd aan de [Sjabloon voor IP-opwarmingsplan](ip-warmup-plan.md#prepare-file). Als dit niet het geval is, werk het malplaatje met de groep van het douanedomein bij u wilt uitsluiten en [uploaden van het abonnement](#re-upload-plan).
 
-1. Indien nodig kunt u de campagne vervangen door **[!UICONTROL Replace campaign]** knop.
+   1. Van de **[!UICONTROL Campaign for exclusion of profiles]** selecteert u de campagnes die u wilt uitsluiten van de huidige fase.
+
+      ![](assets/ip-warmup-plan-exclude-campaigns.png)
+
+      Tijdens het uitvoeren van Fase 1 moest u bijvoorbeeld [splitsen](#split-phase) om welke reden dan ook. Daarom kunt u de campagne uitsluiten die in Fase 1 wordt gebruikt, zodat de eerder gecontacteerde profielen van Fase 1 niet inbegrepen in Fase 2 zijn. U kunt campagnes van andere IP warmteopnameplannen ook uitsluiten.
+
+   1. Van de **[!UICONTROL Journeys for exclusion of profiles]** selecteert u de ritten met het publiek dat u wilt uitsluiten van de huidige fase.
+
++++ Als u de optie Transparanten voor uitsluiting van profielen wilt gebruiken, moet u een relatie tot stand brengen tussen de schema&#39;s Feedbackgebeurtenis voor AJO-berichten en Record voor AJO-entiteiten.
+
+      1. Een aangepaste **Naamruimte** Dit wordt gebruikt als het type identiteit voor de onderstaande stappen.
+
+      1. Toegang tot Adobe Experience Platform, vanaf de **Schemas** , selecteert u de **Recordschema AJO-entiteit** en stelt de **_id** veld als primaire identiteit en selecteer de eerder gemaakte naamruimte als de **Naamruimte identiteit**.
+
+      1. Van de **Schemas** , selecteert u de **AJO Message Feedback Event-schema** en navigeer naar de **_messageID** veld. Selecteren **Relatie toevoegen** en kiest u **Recordschema AJO-entiteit** als de **Referentieschema** en de eerder gemaakte naamruimte als **Naamruimte voor verwijzingen**.
++++
+
+   1. In de **[!UICONTROL Profiles targeted in previous runs]** kunt u zien dat de profielen van de vorige reeksen van die fase altijd worden uitgesloten. Als in Run #1 bijvoorbeeld een profiel in de eerste 4800 doelgroepen is opgenomen, zorgt het systeem er automatisch voor dat hetzelfde profiel de e-mail niet ontvangt in Run #2.
+
+      >[!NOTE]
+      >
+      >Deze sectie kan niet worden bewerkt.
+
+1. Indien nodig kunt u de campagne vervangen door **[!UICONTROL Replace]** knop. U kunt de geselecteerde campagne ook wissen met de opdracht **[!UICONTROL Clear]** knop. Vervolgens kunt u direct of later een nieuwe campagne kiezen.
 
    ![](assets/ip-warmup-plan-replace-campaign.png)
 
@@ -122,7 +133,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!CAUTION]
    >
-   >U kunt de opdracht **[!UICONTROL Delete]** handeling.
+   >U kunt de opdracht **[!UICONTROL Delete phase]** handeling.
 
    ![](assets/ip-warmup-plan-delete-phase.png)
 
@@ -155,7 +166,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_qualified"
 >title="De gekwalificeerde profielen weergeven"
->abstract="In deze kolom wordt het aantal gekwalificeerde profielen weergegeven. Als het publiek voor een run is geëvalueerd en er meer doelprofielen zijn dan gekwalificeerde profielen, wordt de run nog steeds uitgevoerd, tenzij de **Pauzeren voor fouten** is ingeschakeld. In dit geval wordt de uitvoering geannuleerd."
+>abstract="In deze kolom wordt het aantal gekwalificeerde profielen weergegeven. Als het publiek voor een run is geëvalueerd en er meer doelprofielen zijn dan gekwalificeerde profielen, wordt de run nog steeds uitgevoerd, tenzij de **Activering annuleren in geval van fouten** is ingeschakeld. In dit geval wordt de uitvoering geannuleerd."
 
 1. Selecteer een schema voor elke looppas om ervoor te zorgen het op de gespecificeerde tijd wordt uitgevoerd.
 
@@ -175,7 +186,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >Als geen tijdvenster wordt gespecificeerd, wordt de looppas geprobeerd bij verzendt tijd en zal ontbreken als de publieksevaluatie niet wordt voltooid.
 
-1. Selecteer indien nodig **[!UICONTROL Edit run]** in het pictogram Meer handelingen. Daar kunt u de aantallen adressen in elke kolom bijwerken. U kunt ook de **[!UICONTROL Last engagement]** in het veld alleen te gebruiken voor de gebruikers die bijvoorbeeld de afgelopen 20 dagen met uw merk hebben gewerkt.
+1. Selecteer indien nodig **[!UICONTROL Edit run]** in het pictogram Meer handelingen. Daar kunt u de aantallen adressen in elke kolom bijwerken. U kunt ook de **[!UICONTROL Last engaged]** in het veld alleen te gebruiken voor de gebruikers die bijvoorbeeld de afgelopen 20 dagen met uw merk hebben gewerkt.
 
    >[!NOTE]
    >
@@ -185,9 +196,9 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >Als u geen periode van de overeenkomst op een looppas wilt toepassen, ga 0 in **[!UICONTROL Last engagement]** veld.
+   >Als u geen periode van de overeenkomst op een looppas wilt toepassen, ga 0 in **[!UICONTROL Last engaged]** veld.
 
-1. Selecteer de **[!UICONTROL Pause for errors]** als de gekwalificeerde profielen kleiner zijn dan de doelprofielen, kunt u een uitvoering annuleren nadat het publiek voor die uitvoering is geëvalueerd. In dat geval neemt de run de **[!UICONTROL Failed]** status.
+1. Selecteer de **[!UICONTROL Cancel activated runs in case of errors]** als de gekwalificeerde profielen kleiner zijn dan de doelprofielen, kunt u een uitvoering annuleren nadat het publiek voor die uitvoering is geëvalueerd. In dat geval neemt de run de **[!UICONTROL Failed]** status.
 
    ![](assets/ip-warmup-plan-pause.png)
 
@@ -199,21 +210,19 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >De verschillende uitvoerstatussen worden vermeld in [deze sectie](#monitor-plan).
 
-1. Als de uitvoering van de campagne niet is gestart, kunt u een live run stoppen. Deze handelingsactiviteit annuleert het runtime programma - het stopt niet het verzenden.
+1. Als de uitvoering van de campagne niet is gestart, kunt u een live uitvoering annuleren. Deze actie annuleert eigenlijk het runtime programma - het stopt niet het verzenden.
 
    ![](assets/ip-warmup-plan-stop-run.png)
 
-   >[!NOTE]
-   >
-   >Nadat de uitvoering van de campagne is gestart, **[!UICONTROL Stop]** wordt niet meer beschikbaar.
+1. Als u concepten, live of voltooide uitvoering wilt dupliceren, selecteert u **[!UICONTROL Duplicate run]**. Tijdens duplicatie wordt het menu Bewerken weergegeven, zodat gebruikers de opties **[!UICONTROL Total target profiles]** en de **[!UICONTROL Send time]** indien nodig.
 
-1. Als u een uitvoering wilt toevoegen, selecteert u **[!UICONTROL Add a run below]** in het pictogram Meer handelingen.
-
-   ![](assets/ip-warmup-plan-run-more-actions.png)
+   ![](assets/ip-warmup-duplicate.png)
 
 ## Runnen activeren {#activate-run}
 
 Selecteer de optie **[!UICONTROL Activate]** knop. Dan kunt u de volgende looppas op een dagelijkse basis activeren.
+
+Wanneer het runnen van veelvoudige IP warmup plannen gelijktijdig, allen gericht de zelfde IP pool en domeinen, is het cruciaal om de potentiële gevolgen te voorzien. Bijvoorbeeld, als ISP een dagelijkse grens van 100 e-mail afdwingt, zou het runnen van verscheidene plannen die op de zelfde domeinen richten deze drempel kunnen overschrijden.
 
 Zorg ervoor dat u voldoende tijd hebt gepland om de [publieksevaluatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"} uit te voeren.
 
@@ -251,7 +260,7 @@ Wanneer u een run activeert, worden automatisch meerdere soorten publiek gemaakt
 
      >[!NOTE]
      >
-     >Voor elke run wordt een nieuwe publiekscompositie gemaakt.
+     >Voor elke run wordt een nieuwe publiekscompositie gemaakt. Met een grens van 10, moeten de gebruikers die veelvoudige campagnes, reizen, en IP warmup plannen gelijktijdig gebruiken gepubliceerde publiekssamenstellingen van plan zijn om binnen deze grens voor parallelle verrichtingen te blijven.
      >
      >De publiekssamenstelling (en vandaar het outputpubliek) wordt schoongemaakt wanneer de volgende herhaling wordt geactiveerd.
 
@@ -284,9 +293,9 @@ Het IP warmup plan zelf dient als geconsolideerd rapport op één enkele plaats.
 Een run kan de volgende statussen hebben:
 
 * **[!UICONTROL Draft]** : telkens wanneer een run wordt gemaakt, wanneer [het opstellen van een nieuw plan](ip-warmup-plan.md) of [toevoegen, run](#define-runs) vanuit de gebruikersinterface **[!UICONTROL Draft]** status.
-* **[!UICONTROL Live]**: wanneer u een run activeert, neemt deze de **[!UICONTROL Live]** status. Het betekent dat het systeem het verzoek om de runtime te plannen heeft aanvaard - niet dat het verzenden is begonnen.
-* **[!UICONTROL Completed]**: de uitvoering van de campagne voor deze run is voltooid. <!--i.e. campaign execution has started, no error happened and emails have reached users? to check with Sid-->
-* **[!UICONTROL Cancelled]**: a **[!UICONTROL Live]** uitvoering is geannuleerd met de opdracht **[!UICONTROL Stop]** of u hebt de **[!UICONTROL Pause for errors]** en er is een fout opgetreden. [Meer informatie](#define-runs)
+* **[!UICONTROL Live]**: wanneer u een run activeert, neemt deze de **[!UICONTROL Live]** status. Het betekent dat het systeem het verzoek om de runtime te plannen heeft aanvaard - niet dat het verzenden is begonnen. Op dit moment kunt u de status van de live run bekijken door op de knop **[!UICONTROL View status]** in de tabel. Zo kunt u bijhouden hoeveel doelprofielen daadwerkelijk zijn gekwalificeerd.
+* **[!UICONTROL Completed]**: de uitvoering van de campagne voor deze run is voltooid. U kunt tot een gedetailleerd looplooprapport toegang hebben door te klikken op **[!UICONTROL View report]** in de tabel. Met deze optie kunt u de status van de e-maillevering van de uitvoering bijhouden, inclusief de specifieke onderverdelingen voor domeingroepen voor uitgebreide controle. [Meer informatie](#reports)
+* **[!UICONTROL Cancelled]**: a **[!UICONTROL Live]** uitvoering is geannuleerd met de opdracht **[!UICONTROL Stop]** of u hebt de **[!UICONTROL Cancel activated runs in case of errors]** en er is een fout opgetreden. [Meer informatie](#define-runs)
 * **[!UICONTROL Failed]**: er is een fout aangetroffen door het systeem of de campagne die voor de huidige fase is gebruikt, is gestopt. Als een run mislukt, kunt u een andere run plannen voor de volgende dag.
 
 ### Rapporten gebruiken {#reports}
@@ -297,13 +306,14 @@ Meer in het algemeen, om het effect van uw plan te meten, kunt u de prestaties v
 
 U kunt de rapporten ook openen via het dialoogvenster [Het menu Campagnes](../campaigns/modify-stop-campaign.md#access) omdat uw plan verschillende campagnes zou kunnen gebruiken.
 
+
 ## Uw abonnement beheren {#manage-plan}
 
 Op om het even welk punt, als uw IP warmup plan niet zoals verwacht presteert, kunt u de hieronder acties nemen.
 
 ### Een fase splitsen {#split-phase}
 
-Als u een nieuwe fase wilt toevoegen die van een specifieke looppas begint, selecteer **[!UICONTROL Split to a new phase option]** in het pictogram Meer handelingen.
+Als u een nieuwe fase wilt toevoegen die van een specifieke looppas begint, selecteer **[!UICONTROL Split runs to a new phase]** van het pictogram Meer handelingen.
 
 ![](assets/ip-warmup-plan-run-split-run.png)
 
@@ -313,7 +323,7 @@ Als u deze optie bijvoorbeeld selecteert voor Run #4, worden Runs #4 tot en met 
 
 Voer de stappen uit [boven](#define-phases) de nieuwe fase te definiëren.
 
-* U kunt de **[!UICONTROL Replace campaign]** voor die nieuwe fase.
+* U kunt de **[!UICONTROL Replace]** of **[!UICONTROL Clear]** opties voor die nieuwe fase.
 
 * U kunt ook de vorige campagne uitsluiten, of een domein dat niet goed presteert. Meer informatie over [deze sectie](#define-phases).
 

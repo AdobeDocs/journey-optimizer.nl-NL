@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: campagne, acc, integratie
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,24 @@ ht-degree: 0%
 
 Deze integratie is beschikbaar voor Adobe Campaign v7/v8 vanaf versie 7.1 en Adobe Campaign v8. Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van Adobe Campaign Transaction Messaging.
 
-De verbinding tussen de Journey Optimizer en de instanties van de Campagne is opstelling door Adobe bij leveringstijd.
-
 In dit hoofdstuk wordt een gebruiksgeval van begin tot eind weergegeven [sectie](../building-journeys/ajo-ac.md).
 
 Voor elke gevormde actie, is een actieactiviteit beschikbaar in het palet van de reisontwerper. Zie dit [sectie](../building-journeys/using-adobe-campaign-v7-v8.md).
+
+## Toegang {#access}
+
+De verbinding tussen de instanties van Journey Optimizer en van de Campagne is opstelling door Adobe bij leveringstijd indien gevraagd. Als u op het moment van levering geen verbinding hebt aangevraagd, neemt u contact op met de ondersteuning van Adobe Journey Optimizer. Geef de volgende gegevens op om de activering aan te vragen:
+
+Uit Adobe Journey Optimizer:
+
+* Organisatie-id (Adobe-OrgID)
+* Sandbox
+
+Uit Adobe Campaign:
+
+* Campagne-URL
+* RT-URL
+* Campaign-versie
 
 ## Belangrijke opmerkingen {#important-notes}
 

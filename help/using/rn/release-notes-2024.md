@@ -7,9 +7,10 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
+source-git-commit: d0fa6d9f3a5d61310e8d072513b199e513a66138
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1582'
 ht-degree: 7%
 
 ---
@@ -17,6 +18,115 @@ ht-degree: 7%
 # Aanvullende informatie 2024 {#release-notes-2024}
 
 Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] vrijgegeven in 2024.
+
+
+## Opmerkingen bij de release van april 2024 {#apr-2024}
+
+**Releasedatum** 2 mei 2024
+
+### Nieuwe functies {#apr-features}
+
+Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
+
+<table>
+<thead>
+<tr>
+<th><strong>Multimedia Message Service (MMS) - alle providers</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met het Kanaal van SMS, kunt u uw mededeling nu verbeteren door de MMS-berichten (Multimedia Message Service) te verzenden, toelatend het delen van beelden, GIFFEN, of video's met uw klanten. In eerste instantie alleen beschikbaar bij Sinch, is MMS nu ook beschikbaar bij Infobip en Twilio.</p>
+<img src="assets/do-not-localize/mms.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Verbeterde Journey Designer en live rapportering</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Deze release wordt geleverd met een verbeterde gebruikersinterface voor het canvas voor reizen en biedt een intuïtievere en efficiëntere gebruikerservaring. De activiteiten zijn duidelijker en geven meer informatie over het reiscanvas met minder kliks.</p>
+<img src="assets/new-canvas3.gif"/>
+<p>Naast het verbeterde ontwerp van het reiscanvas introduceren we de mogelijkheid om de laatste 24 uur metriek direct in het reiscanvas te zien. </p>
+<img src="assets/new-canvas6bis.png"/>
+<p><strong>Opmerking</strong>: Deze wijzigingen worden geleidelijk doorgevoerd in alle omgevingen vanaf de release van april.</p>
+<p>Raadpleeg de <a href="new-canvas.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!-- table>
+<thead>
+<tr>
+<th><strong>AI Assistant - Experience Variant Generation - Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Once you have created and personalized your message, take your content to the next level with the AI assistant. You can now use the AI assistant to optimize your message's impact by experimenting with different main titles, and images. Each variant is managed as a unique Treatment, to measure and compare which title effectively generates more clicks.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Email Surface Personalization - Private beta </strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now define dynamic subdomains and personalized header parameters when creating email channel surfaces, for increased flexibility and control over your email settings.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+### Verbeteringen {#apr-improvements}
+
+Deze release bevat de verbeteringen die hieronder worden vermeld.
+
+<!--
+* **Expression Fragments supported for Web and In-App**: Expression fragments are now available for the Web and In-app channels. 
+-->
+
+
+<!--
+* **DULE for AJO Channel Surface**: It is now possible to apply a label on certain profile attributes to restrict their usage inside a channel surface through marketing actions.
+-->
+
+
+<!--
+* **List-Unsubscribe updates**: Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. 
+-->
+
+**Configuratie**
+
+* U kunt nu een marketingactie op het niveau van het kanaaloppervlak selecteren. Bij gebruik op een oppervlak worden alle toestemmingsbeleidsregels die aan die marketingactie zijn gekoppeld, benut om de voorkeuren van uw klanten te respecteren. [Meer informatie](../action/consent.md#surface-marketing-actions)
+* Het gebruik van Toegangsbeheer op objectniveau is nu beschikbaar voor kanaaloppervlakken. [Meer informatie](../configuration/channel-surfaces.md#create-channel-surface)
+* Terwijl het toelaten van lijst unsubscribe in een kanaaloppervlakte, kunt u het toestemmingsniveau nu bepalen om zich aan te sluiten bij hoe u toestemming van alle andere bronnen beheert. [Meer informatie](../email/email-settings.md#list-unsubscribe)
+
+**Inhoudsbeheer**
+
+* U kunt nu inhoudssjablonen voor alle kanalen simuleren. [Meer informatie](../content-management/content-templates.md#test-templates)
+
+**Personalisatie**
+
+* De nieuwe **toInt** hulpfunctie is beschikbaar in de Redacteur van de Uitdrukking. U kunt elk van deze typen (getal, dubbel, int, lang, zwevend, kort, byte, boolean, tekenreeks) omzetten in een geheel getal. [Meer informatie](../personalization/functions/math.md#to-int)
+
 
 
 ## Opmerkingen bij de release maart 2024 {#mar-2024}
