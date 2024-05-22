@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: 666af4bbc3731f16ce1d5c11ceb7e704996f5a68
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2418'
 ht-degree: 0%
 
 ---
@@ -238,7 +238,9 @@ Wanneer u een run activeert, worden automatisch meerdere soorten publiek gemaakt
 
    * An [publiek](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html){target="_blank"} wordt gemaakt voor het (eventuele) uitgesloten campagnepubliek, met de volgende naamgevingsconventie: `<warmupName>_Phase<phaseNo>-Audience Exclusion`.
 
-   * Er wordt een ander publiek gemaakt voor de (eventuele) uitgesloten domeingroepen, met de volgende naamgevingsconventie: `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
+   * Er wordt een publiek gemaakt voor de (eventuele) uitgesloten domeingroepen, met de volgende naamgevingsconventie: `<warmupName>_Phase<phaseNo>-Domain Exclusion`.
+
+   * Er wordt een ander publiek gecreëerd voor het (eventuele) uitgesloten reispubliek, met de volgende naamgevingsconventie: `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
 
   >[!NOTE]
   >
@@ -263,6 +265,8 @@ Wanneer u een run activeert, worden automatisch meerdere soorten publiek gemaakt
      >Voor elke run wordt een nieuwe publiekscompositie gemaakt. Met een grens van 10, moeten de gebruikers die veelvoudige campagnes, reizen, en IP warmup plannen gelijktijdig gebruiken gepubliceerde publiekssamenstellingen van plan zijn om binnen deze grens voor parallelle verrichtingen te blijven.
      >
      >De publiekssamenstelling (en vandaar het outputpubliek) wordt schoongemaakt wanneer de volgende herhaling wordt geactiveerd.
+
+   * Er wordt een uitvoerpubliek gemaakt met de volgende naamgevingsconventie: `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`.
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 
