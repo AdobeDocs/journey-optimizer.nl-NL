@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Een landingspagina maken
+title: Een openingspagina maken
 description: Leer hoe u een bestemmingspagina in Journey Optimizer configureert en publiceert
 feature: Landing Pages
 topic: Content Management
@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: landen, pagina landen, maken, publiceren
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 7122dff12aea6c5954087e2667b28bbc9f7695de
 workflow-type: tm+mt
-source-wordcount: '1734'
-ht-degree: 1%
+source-wordcount: '1664'
+ht-degree: 0%
 
 ---
 
@@ -54,7 +54,7 @@ Klik op de drie stippen naast een openingspagina om de gewenste actie te selecte
 >
 >U kunt een [gepubliceerd](#publish-landing-page) openingspagina. Als u het wilt verwijderen, moet u de publicatie eerst ongedaan maken.
 
-## Een landingspagina maken {#create-landing-page}
+## Een openingspagina maken {#create-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_create"
@@ -89,7 +89,7 @@ De belangrijkste stappen voor het maken van bestemmingspagina&#39;s zijn als vol
 
    ![](assets/lp_create-lp-presets.png)
 
-1. Klik op **[!UICONTROL Create]**.
+1. Klikken **[!UICONTROL Create]**.
 
 1. De primaire pagina en de bijbehorende eigenschappen worden weergegeven. Leer hoe u de instellingen voor de primaire pagina configureert [hier](#configure-primary-page).
 
@@ -178,7 +178,7 @@ Voer de onderstaande stappen uit om de instellingen voor de primaire pagina te d
 >id="ajo_lp_subpage"
 >title="De subpagina-instellingen definiëren"
 >abstract="U kunt maximaal twee subpagina&#39;s toevoegen. U kunt bijvoorbeeld een pagina &#39;Bedankt&#39; maken die wordt weergegeven wanneer de gebruikers het formulier verzenden en u kunt een foutpagina definiëren die wordt aangeroepen wanneer zich een probleem voordoet met de landingspagina."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="De inhoud van de bestemmingspagina ontwerpen"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp" text="De inhoud van de bestemmingspagina ontwerpen"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings-subpage"
