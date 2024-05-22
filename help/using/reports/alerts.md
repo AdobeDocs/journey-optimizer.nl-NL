@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: ddf9465fb940706fb38dc05038336ac22abecbc0
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Van de **Waarschuwingen** kunt u de beschikbare waarschuwingen weergeven en hier
 
 Meer informatie over berichten in Adobe Experience Platform in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html){target="_blank"}.
 
-In het linkermenu, onder **Administratie**, klikt u op **Waarschuwingen**. Er zijn twee vooraf geconfigureerde waarschuwingen voor Journey Optimizer beschikbaar: de [Aangepaste actie voor reis mislukt](#alert-custom-actions) en de [Trigger voor leessegment is mislukt](#alert-read-audiences) waarschuwing. Deze waarschuwingen worden hieronder beschreven.
+In het linkermenu, onder **Administratie**, klikt u op **Waarschuwingen**. Er zijn twee vooraf geconfigureerde waarschuwingen voor Journey Optimizer beschikbaar: de [Aangepaste actie voor reis mislukt](#alert-custom-actions) en de [Trigger voor publiek lezen is mislukt](#alert-read-audiences) waarschuwing. Deze waarschuwingen worden hieronder beschreven.
 
 U kunt zich op elke waarschuwing afzonderlijk abonneren vanuit de gebruikersinterface door de optie **Abonneren** van de **Waarschuwingen** dashboard. Gebruik dezelfde methode om uw abonnement op te zeggen.
 
@@ -67,7 +67,7 @@ Waarschuwingen ingeschakeld **Publiek lezen** de activiteiten zijn alleen van to
 
 Waarschuwingen ingeschakeld **Publiek lezen** worden opgelost wanneer een profiel wordt ingevoerd **Publiek lezen** knooppunt.
 
-De naam van het I/O-gebeurtenisabonnement die overeenkomt met de **Trigger voor leessegment is mislukt** waarschuwing is **Vertragingen, fouten en fouten met betrekking tot het lezen van segmenten voor reizen**.
+De naam van het I/O-gebeurtenisabonnement die overeenkomt met de **Trigger voor publiek lezen is mislukt** waarschuwing is **Vertraging, fouten en fouten bij het lezen van het publiek op reis**.
 
 ## Problemen oplossen {#alert-troubleshooting}
 
