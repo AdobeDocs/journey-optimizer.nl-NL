@@ -2,13 +2,13 @@
 product: Journey Optimizer
 audience: end-user
 user-guide-title: Handleiding voor Journey Optimizer
-user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
+user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
+source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
 workflow-type: tm+mt
 source-wordcount: '1811'
-ht-degree: 29%
+ht-degree: 20%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 29%
 
 + [Journey Optimizer-documentatie](ajo-home.md)
 + Nieuwe functies {#whats-new}
-   + [Vroege aanvullende informatie](using/rn/e-release-notes.md)
-   + [Vroege aanvullende informatie](using/rn/early-release-notes.md)
+   + [Opmerkingen bij de eerste release](using/rn/e-release-notes.md)
+   + [Opmerkingen bij de eerste release](using/rn/early-release-notes.md)
    + [Opmerkingen bij de laatste release](using/rn/release-notes.md)
    + Opmerkingen bij vorige release {#previous-rn-new}
       + [Opmerkingen bij de release van 2024](using/rn/release-notes-2024.md)
@@ -40,7 +40,7 @@ ht-degree: 29%
    + [Playbooks voor gebruiksscenario](using/start/playbooks.md)
    + [Integraties](using/start/ajo-integrations.md)
    + [Guardrails](using/start/guardrails.md)
-   + [Best practices](using/start/best-practices.md)
+   + [Aanbevolen procedures](using/start/best-practices.md)
 + Reizen {#orchestrate-journeys}
    + [Aan de slag met reizen](using/building-journeys/journey.md)
    + Een reis maken{#create-journey}
@@ -63,7 +63,7 @@ ht-degree: 29%
       + [kwalificatie publiek](using/building-journeys/audience-qualification-events.md)
       + [Voorwaarde](using/building-journeys/condition-activity.md)
       + [Wachten](using/building-journeys/wait-activity.md)
-      + [Doelgroep lezen](using/building-journeys/read-audience.md)
+      + [Lees publiek](using/building-journeys/read-audience.md)
       + [E-mail, In-app, Push, SMS](using/building-journeys/journeys-message.md)
       + [Aangepaste acties](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard-acties](using/building-journeys/using-adobe-campaign-standard.md)
@@ -75,11 +75,11 @@ ht-degree: 29%
       + Syntaxis {#syntax}
          + [Algemeen](using/building-journeys/expression/generalities.md)
          + [Voorwaardelijke instructie](using/building-journeys/expression/conditional-instruction.md)
-         + [Datatypen](using/building-journeys/expression/data-types.md)
+         + [Gegevenstypen](using/building-journeys/expression/data-types.md)
          + [Veldverwijzingen](using/building-journeys/expression/field-references.md)
-         + [Functies voor het beheer van verzamelingen](using/building-journeys/expression/collection-management-functions.md)
+         + [Verzamelbeheerfuncties](using/building-journeys/expression/collection-management-functions.md)
          + [Operatoren](using/building-journeys/expression/operators.md)
-         + [Journeyeigenschappen](using/building-journeys/expression/journey-properties.md)
+         + [Reiseigenschappen](using/building-journeys/expression/journey-properties.md)
          + [Voorbeelden](using/building-journeys/expression/advanced-editor-use-cases.md)
       + Functies {#main-functions-journey}
          + [Hoofdfuncties](using/building-journeys/expression/functions.md)
@@ -87,14 +87,14 @@ ht-degree: 29%
             + [inPubliek](using/building-journeys/functions/functioninaudience.md)
          + Samenvoeging {#aggregation}
             + [avg](using/building-journeys/functions/functionavg.md)
-            + [count](using/building-journeys/functions/functioncount.md)
+            + [aantal](using/building-journeys/functions/functioncount.md)
             + [countOnlyNull](using/building-journeys/functions/functioncountonlynull.md)
             + [countWithNull](using/building-journeys/functions/functioncountwithnull.md)
-            + [distinctCount](using/building-journeys/functions/functiondistinctcount.md)
-            + [distinctCountWithNull](using/building-journeys/functions/functiondistinctcountwithnull.md)
+            + [differentCount](using/building-journeys/functions/functiondistinctcount.md)
+            + [differentCountWithNull](using/building-journeys/functions/functiondistinctcountwithnull.md)
             + [max](using/building-journeys/functions/functionmax.md)
             + [min](using/building-journeys/functions/functionmin.md)
-            + [sum](using/building-journeys/functions/functionsum.md)
+            + [som](using/building-journeys/functions/functionsum.md)
          + Conversie {#conversion}
             + [toBool](using/building-journeys/functions/functiontobool.md)
             + [toDateOnly](using/building-journeys/functions/functiontodateonly.md)
@@ -105,23 +105,23 @@ ht-degree: 29%
             + [toInteger](using/building-journeys/functions/functiontointeger.md)
             + [toString](using/building-journeys/functions/functiontostring.md)
          + Datum {#date}
-            + [currentTimeInMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
+            + [currentTime &#x200B; InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
             + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
             + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
             + [inLastMonths](using/building-journeys/functions/functioninlastmonths.md)
-            + [inLastYears](using/building-journeys/functions/functioninlastyears.md)
+            + [inLastYear](using/building-journeys/functions/functioninlastyears.md)
             + [inNextDays](using/building-journeys/functions/functioninnextdays.md)
             + [inNextHours](using/building-journeys/functions/functioninnexthours.md)
             + [inNextMonths](using/building-journeys/functions/functioninnextmonths.md)
-            + [inNextYears](using/building-journeys/functions/functioninnextyears.md)
+            + [inNextYear](using/building-journeys/functions/functioninnextyears.md)
             + [now](using/building-journeys/functions/functionnow.md)
             + [nowWithDelta](using/building-journeys/functions/functionnowwithdelta.md)
             + [setHours](using/building-journeys/functions/functionsethours.md)
             + [setDays](using/building-journeys/functions/functionsetdays.md)
             + [updateTimeZone](using/building-journeys/functions/functionupdatetimezone.md)
          + Lijst {#list}
-            + [distinct](using/building-journeys/functions/functiondistinct.md)
-            + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
+            + [onderscheiden](using/building-journeys/functions/functiondistinct.md)
+            + [differentWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
             + [filter](using/building-journeys/functions/functionfilter.md)
             + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
             + [in](using/building-journeys/functions/functionin.md)
@@ -129,13 +129,13 @@ ht-degree: 29%
             + [limiet](using/building-journeys/functions/functionlimit.md)
             + [listSize](using/building-journeys/functions/functionlistsize.md)
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
-            + [sort](using/building-journeys/functions/functionsort.md)
-         + Wiskunde {#math}
-            + [random](using/building-journeys/functions/functionrandom.md)
-            + [round](using/building-journeys/functions/functionround.md)
-         + Tekenreeks {#string}
+            + [sorteren](using/building-journeys/functions/functionsort.md)
+         + Math {#math}
+            + [willekeurig](using/building-journeys/functions/functionrandom.md)
+            + [rond](using/building-journeys/functions/functionround.md)
+         + String {#string}
             + [concat](using/building-journeys/functions/functionconcat.md)
-            + [contain](using/building-journeys/functions/functioncontain.md)
+            + [bevatten](using/building-journeys/functions/functioncontain.md)
             + [containIgnoreCase](using/building-journeys/functions/functioncontainwithignorecase.md)
             + [endWith](using/building-journeys/functions/functionendwith.md)
             + [endWithIgnorecase](using/building-journeys/functions/functionendwithignorecase.md)
@@ -145,19 +145,19 @@ ht-degree: 29%
             + [isNotEmpty](using/building-journeys/functions/functionisnotempty.md)
             + [lastIndexOf](using/building-journeys/functions/functionlastindexof.md)
             + [lengte](using/building-journeys/functions/functionlength.md)
-            + [lower](using/building-journeys/functions/functionlower.md)
+            + [lager](using/building-journeys/functions/functionlower.md)
             + [matchRegExp](using/building-journeys/functions/functionmatchregexp.md)
             + [notequalIgnoreCase](using/building-journeys/functions/functionnotequalignorecase.md)
-            + [replace](using/building-journeys/functions/functionreplace.md)
+            + [vervangen](using/building-journeys/functions/functionreplace.md)
             + [replaceAll](using/building-journeys/functions/functionreplaceall.md)
-            + [split](using/building-journeys/functions/functionsplit.md)
+            + [splitsen](using/building-journeys/functions/functionsplit.md)
             + [startWith](using/building-journeys/functions/functionstartwith.md)
             + [startWithIgnoreCase](using/building-journeys/functions/functionstartwithignorecase.md)
             + [substr](using/building-journeys/functions/functionsubstr.md)
-            + [trim](using/building-journeys/functions/functiontrim.md)
-            + [upper](using/building-journeys/functions/functionupper.md)
+            + [bijsnijden](using/building-journeys/functions/functiontrim.md)
+            + [bovenste](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
-   + Gebruiksscenario’s {#journey-use-cases}
+   + Gebruik hoofdletters {#journey-use-cases}
       + Kwesties voor zakelijk gebruik {#business-use-cases}
          + [Multikanaalberichten verzenden](using/building-journeys/journeys-uc.md)
          + [Een bericht verzenden met Campagne v7/v8](using/building-journeys/ajo-ac.md)
@@ -176,7 +176,7 @@ ht-degree: 29%
       + [Aan de slag met het experimenteren met inhoud](using/campaigns/get-started-experiment.md)
       + [Een inhoudexperiment maken](using/campaigns/content-experiment.md)
       + [Evaluatierapporten configureren](using/campaigns/reporting-configuration.md)
-      + Technische opmerkingen {#technotes}
+      + TechNote {#technotes}
          + [Statistische berekeningen begrijpen](using/campaigns/experiment-calculations.md)
          + [Statistische berekeningen in het Experimentenrapport begrijpen](using/campaigns/experiment-report-calculations.md)
    + [Campagnes activeren met API&#39;s](using/campaigns/api-triggered-campaigns.md)
@@ -236,7 +236,7 @@ ht-degree: 29%
       + [Infobip-provider configureren](using/sms/sms-configuration-infobip.md)
       + [Twilio-provider configureren](using/sms/sms-configuration-twilio.md)
       + [Een SMS-oppervlak maken](using/sms/sms-configuration-surface.md)
-+ Direct mail {#direct-mail}
++ Directe post {#direct-mail}
    + [Aan de slag met direct mail](using/direct-mail/get-started-direct-mail.md)
    + [Een directe e-mail maken](using/direct-mail/create-direct-mail.md)
    + [Een direct-mailbericht controleren en verzenden](using/direct-mail/test-send-direct-mail.md)
@@ -257,9 +257,9 @@ ht-degree: 29%
    + [Guardrails en voorwaarden](using/code-based/code-based-prerequisites.md)
    + [Voorbeelden van implementatiemethoden](using/code-based/code-based-implementation-samples.md)
    + [Op code gebaseerde ervaringen maken](using/code-based/create-code-based.md)
-+ Landingspagina’s {#landing-pages}
++ Openingspagina&#39;s {#landing-pages}
    + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
-   + [Een landingspagina maken](using/landing-pages/create-lp.md)
+   + [Een openingspagina maken](using/landing-pages/create-lp.md)
    + Inhoud ontwerpen {#landing-pages-design}
       + [Informatie over het ontwerpen van bestemmingspagina](using/landing-pages/design-lp.md)
       + [De inhoud van de openingspagina maken](using/landing-pages/lp-content.md)
@@ -424,8 +424,8 @@ ht-degree: 29%
          + [Dataset met alternatieven](using/offers/export-catalog/export-fallback.md)
       + API-referentie {#api-reference}
          + [Aan de slag](using/offers/api-reference/getting-started.md)
-         + Aanbiedingen maken en beheren met behulp van API’s {#offers-api}
-            + Plaatsingen {#placements}
+         + Aanbiedingen maken en beheren met behulp van API&#39;s {#offers-api}
+            + Plaatsen {#placements}
                + [Plaatsingen weergeven](using/offers/api-reference/offers-api/placements/placements-list.md)
                + [Een plaatsing opzoeken](using/offers/api-reference/offers-api/placements/lookup.md)
                + [Een plaatsing maken](using/offers/api-reference/offers-api/placements/create.md)
@@ -469,7 +469,7 @@ ht-degree: 29%
                + [Een beslissing verwijderen](using/offers/api-reference/activities-api/activities/delete.md)
             + Verouderde API&#39;s {#legacy-api}
                + [Oudere API&#39;s](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
-               + Plaatsingen {#placements}
+               + Plaatsen {#placements}
                   + [Plaatsingen weergeven](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
                   + [Een plaatsing opzoeken](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)
                   + [Een plaatsing maken](using/offers/api-reference/offers-api/legacy-apis/placements/create.md)
@@ -529,7 +529,7 @@ ht-degree: 29%
       + [Selectiestrategieën maken](using/experience-decisioning/selection-strategies.md)
       + [Beslissingsbeleid maken](using/experience-decisioning/create-decision.md)
       + [Rapportage in Customer Journey Analytics](using/experience-decisioning/cja-reporting.md)
-+ Data management {#data-management}
++ Gegevensbeheer {#data-management}
    + [Aan de slag met gegevensbeheer](using/data/gs-data.md)
    + [Werken met schema&#39;s](using/data/get-started-schemas.md)
    + Journey Optimizer-gegevenssets {#datasets}
@@ -561,7 +561,7 @@ ht-degree: 29%
    + [zaadlijsten gebruiken](using/configuration/seed-lists.md)
    + [Ondersteuning voor archivering](using/configuration/archiving-support.md)
    + [Uitvoeringadressen wijzigen](using/configuration/primary-email-addresses.md)
-   + [Regels voor frequenties configureren](using/configuration/frequency-rules.md)
+   + [Bedrijfsregels configureren](using/configuration/frequency-rules.md)
    + [Werken met regelsets](using/configuration/rule-sets.md)
    + Journey&#39;s configureren {#configure-journeys}
       + [Informatie over gegevensbronnen, gebeurtenissen en handelingen](using/configuration/about-data-sources-events-actions.md)
@@ -569,21 +569,21 @@ ht-degree: 29%
          + [Reisintegratie met externe systemen](using/configuration/external-systems.md)
          + [Afkappings-API](using/configuration/capping.md)
          + [API voor beperken](using/configuration/throttling.md)
-      + Configuratie van gebeurtenissen {#events-journeys}
+      + Gebeurtenisconfiguratie {#events-journeys}
          + [Werken met reisgebeurtenissen](using/event/about-events.md)
          + Een eenheidsgebeurtenis configureren {#unitary-events}
             + [Aan de slag met eenheidsgebeurtenissen](using/event/about-creating.md)
-            + [ExperienceEvent-schema’s](using/event/experience-event-schema.md)
+            + [Over ExperienceEvent-schema&#39;s](using/event/experience-event-schema.md)
             + [Werken met Adobe Analytics](using/event/about-analytics.md)
          + [Een bedrijfsgebeurtenis configureren](using/event/about-creating-business.md)
          + [Aanvullende stappen om gebeurtenissen te verzenden](using/event/additional-steps-to-send-events-to-journey.md)
       + Gegevensbronconfiguratie{#data-source-journeys}
-         + [Databronnen](using/datasource/about-data-sources.md)
+         + [Gegevensbronnen](using/datasource/about-data-sources.md)
          + [Een gegevensbron configureren](using/datasource/configure-data-sources.md)
-         + [Adobe Experience Platform-databron](using/datasource/adobe-experience-platform-data-source.md)
-         + [Externe databronnen](using/datasource/external-data-sources.md)
+         + [Adobe Experience Platform-gegevensbron](using/datasource/adobe-experience-platform-data-source.md)
+         + [Externe gegevensbronnen](using/datasource/external-data-sources.md)
       + Actieconfiguratie {#action-journeys}
-         + [Acties](using/action/action.md)
+         + [Handelingen](using/action/action.md)
          + [Een handeling configureren](using/action/about-custom-action-configuration.md)
          + [Integreren met Adobe Campaign Standard](using/action/acs-action.md)
          + [Integreren met Adobe Campaign v7/v8](using/action/acc-action.md)

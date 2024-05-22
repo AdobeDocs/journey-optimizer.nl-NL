@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Frequentieregels
+title: Bedrijfsvoorschriften
 description: Leer hoe u frequentieregels definieert
 feature: Rules
 topic: Content Management
@@ -9,14 +9,19 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 2e6d55b5e26ca8486289b4b5c5df0b2e898a9992
+source-git-commit: 970fef96b6fa04f2b5ce1a8d10f89802f513b373
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
 
-# Regels voor berichtfrequentie {#frequency-rules}
+# Bedrijfsvoorschriften {#frequency-rules}
+
+>[!CONTEXTUALHELP]
+>id="ajo_business_rules_message_frequency_rules"
+>title="Zakelijke regels"
+>abstract="De bedrijfsregels van het gebruik om te controleren hoe vaak de gebruikers een bericht zullen ontvangen of een reis zullen ingaan door kanaalregels te plaatsen die automatisch overgevraagde profielen van berichten en acties zullen uitsluiten."
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
@@ -25,27 +30,25 @@ ht-degree: 0%
 
 [!DNL Journey Optimizer] Hiermee kunt u bepalen hoe vaak gebruikers een bericht zullen ontvangen of een reis zullen betreden door kanaalregels in te stellen die automatisch overgevraagde profielen uitsluiten van berichten en acties.
 
-Voor een merk kan het bijvoorbeeld de regel zijn dat niet meer dan 4 marketingberichten per maand naar hun klanten worden gestuurd. Hiervoor kunt u een regel voor de frequentie gebruiken die het aantal verzonden berichten beperkt op basis van een of meer kanalen gedurende een maandelijkse kalenderperiode.
+Voor een merk kan het bijvoorbeeld de regel zijn dat niet meer dan 4 marketingberichten per maand naar hun klanten worden gestuurd. Hiervoor kunt u een bedrijfsregel gebruiken die het aantal verzonden berichten beperkt op basis van een of meer kanalen gedurende een maandelijkse kalenderperiode.
 
 ![](assets/do-not-localize/sms-dm-rules.gif)
 
 >[!NOTE]
 >
->De regels van de berichtfrequentie zijn verschillend van opt-out beheer, dat gebruikers toestaat om van het ontvangen van mededelingen van een merk af te zien. [Meer informatie](../privacy/opt-out.md#opt-out-management)
+>De bedrijfsregels zijn verschillend van opt-out beheer, dat gebruikers toestaat om van het ontvangen van mededelingen van een merk af te zien. [Meer informatie](../privacy/opt-out.md#opt-out-management)
 
 ➡️ [Deze functie in video detecteren](#video)
 
-## Toegangsregels {#access-rules}
+## Toegang tot bedrijfsregels {#access-rules}
 
-De regels zijn beschikbaar op **[!UICONTROL Administration]** > **[!UICONTROL Rules]** -menu. Alle regels worden weergegeven, gesorteerd op wijzigingsdatum.
-
-Gebruik het filterpictogram om te filteren op de categorie, status en/of kanaal. U kunt ook op het berichtlabel zoeken.
+De bedrijfsregels zijn beschikbaar bij de **[!UICONTROL Administration]** > **[!UICONTROL Business rules]** -menu. Alle regels worden weergegeven, gesorteerd op wijzigingsdatum. Gebruik het filterpictogram om te filteren op de categorie, status en/of kanaal. U kunt ook op het berichtlabel zoeken.
 
 ![](assets/message-rules-filter.png)
 
 ### Machtigingen{#permissions-frequency-rules}
 
-Als u de regels voor berichtfrequentie wilt openen, maken, bewerken of verwijderen, moet u beschikken over **[!UICONTROL Manage frequency rules]** toestemming.
+Om tot bedrijfsregels toegang te hebben, te creëren, uit te geven of te schrappen, moet u hebben **[!UICONTROL Manage frequency rules]** toestemming.
 
 Gebruikers met de **[!UICONTROL View frequency rules]** de toestemming kan regels bekijken, maar niet om hen te wijzigen of te schrappen.
 
@@ -53,26 +56,26 @@ Gebruikers met de **[!UICONTROL View frequency rules]** de toestemming kan regel
 
 Meer informatie over machtigingen in [deze sectie](../administration/high-low-permissions.md).
 
-## Een regel maken {#create-new-rule}
+## Een bedrijfsregel maken {#create-new-rule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_category"
 >title="Selecteer de categorie voor berichtregels"
->abstract="Wanneer deze optie wordt geactiveerd en toegepast op een bericht, worden alle frequentieregels die overeenkomen met de geselecteerde categorie automatisch toegepast op dit bericht. Momenteel is alleen de marketingcategorie beschikbaar."
+>abstract="Als u een bericht activeert en erop toepast, worden alle bedrijfsregels die overeenkomen met de geselecteerde categorie, automatisch toegepast op dit bericht. Momenteel is alleen de marketingcategorie beschikbaar."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_capping"
->title="De uitlijning van uw regel instellen"
+>title="De plafonnering voor uw bedrijfsregel instellen"
 >abstract="Geef het maximumaantal berichten op dat binnen de gekozen tijdsperiode naar een klantprofiel wordt verzonden. De maximale frequentie wordt gebaseerd op de geselecteerde kalenderperiode en wordt opnieuw ingesteld aan het begin van het corresponderende tijdkader."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rules_channel"
->title="Bepaal de kanalen waarop de regel van toepassing is"
+>title="Bepaal de kanalen de bedrijfsregel op van toepassing is"
 >abstract="Selecteer ten minste één kanaal. De bedekking wordt toegepast over kanalen als totale telling."
 
-Volg onderstaande stappen om een nieuwe regel te maken.
+Volg onderstaande stappen om een nieuwe bedrijfsregel te maken.
 
-1. Toegang krijgen tot de **[!UICONTROL Message frequency rules]** lijst en klik vervolgens op **[!UICONTROL Create rule]**.
+1. Toegang krijgen tot de **[!UICONTROL Business rules]** lijst en klik vervolgens op **[!UICONTROL Create rule]**.
 
    ![](assets/message-rules-create.png)
 
@@ -134,19 +137,19 @@ De dagelijkse frequentiedop is geldig tot 23 dagen:59:59 UTC en wordt opnieuw in
 >
 >Om ervoor te zorgen dat de dagelijkse regels voor frequentiecontrole correct zijn, moet het gebruik van [streamingsegmentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} wordt aanbevolen. Meer informatie over methoden voor publieksevaluatie vindt u in [deze sectie](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
-## Een regel activeren {#activate-rule}
+## Een bedrijfsregel activeren {#activate-rule}
 
-Wanneer gecreeerd, heeft een regel van de berichtfrequentie **[!UICONTROL Draft]** status en heeft nog geen invloed op een bericht. Als u deze wilt inschakelen, klikt u op de ellips naast de regel en selecteert u **[!UICONTROL Activate]**.
+Wanneer gecreeerd, heeft een bedrijfsregel **[!UICONTROL Draft]** status en heeft nog geen invloed op een bericht. Als u deze wilt inschakelen, klikt u op de ellips naast de regel en selecteert u **[!UICONTROL Activate]**.
 
 ![](assets/message-rules-activate.png)
 
-Het activeren van een regel heeft invloed op berichten waarop deze van toepassing is bij de volgende uitvoering. Leer hoe u [past een frequentieregel op een bericht toe](#apply-frequency-rule).
+Het activeren van een regel heeft invloed op berichten waarop deze van toepassing is bij de volgende uitvoering. Leer hoe u [pas een bedrijfsregel op een bericht toe](#apply-frequency-rule).
 
 >[!NOTE]
 >
 >Het kan tot 10 minuten duren voordat een regel volledig geactiveerd is. U hoeft geen berichten te wijzigen of ritten opnieuw te publiceren voordat een regel van kracht wordt.
 
-Als u een berichtfrequentieregel wilt deactiveren, klikt u op de ellips naast de regel en selecteert u **[!UICONTROL Deactivate]**.
+Als u een bedrijfsregel wilt deactiveren, klikt u op de ellips naast de regel en selecteert u **[!UICONTROL Deactivate]**.
 
 ![](assets/message-rules-deactivate.png)
 
@@ -156,9 +159,9 @@ De status van de regel verandert in **[!UICONTROL Inactive]** en de regel zal ni
 >
 >Het deactiveren van een regel heeft geen invloed op tellingen van afzonderlijke profielen en stelt deze niet opnieuw in.
 
-## Pas een frequentieregel toe op een bericht {#apply-frequency-rule}
+## Pas een bedrijfsregel op een bericht toe {#apply-frequency-rule}
 
-Volg onderstaande stappen om een frequentieregel toe te passen op een bericht.
+Volg onderstaande stappen om een bedrijfsregel toe te passen op een bericht.
 
 1. Wanneer u een [reis](../building-journeys/journey-gs.md), voeg een bericht toe door één van de kanalen te selecteren u voor uw regel bepaalde.
 
@@ -168,17 +171,17 @@ Volg onderstaande stappen om een frequentieregel toe te passen op een bericht.
 
    >[!NOTE]
    >
-   >Momenteel alleen de **[!UICONTROL Marketing]** de categorie is beschikbaar voor berichtfrequentieregels.
+   >Momenteel alleen de **[!UICONTROL Marketing]** rubriek is beschikbaar voor bedrijfsregels.
 
 1. U kunt op de knop **[!UICONTROL Frequency rule]** koppeling om het scherm met frequentieregels weer te geven in een nieuw tabblad. [Meer informatie](#access-rules)
 
-   Alle frequentieregels die overeenkomen met de geselecteerde categorie en kanalen worden automatisch toegepast op dit bericht.
+   Alle regels die overeenkomen met de geselecteerde categorie en kanalen worden automatisch toegepast op dit bericht.
 
    >[!NOTE]
    >
    >Berichten waarbij de geselecteerde categorie is **[!UICONTROL Transactional]** niet worden getoetst aan de frequentievoorschriften.
 
-1. U kunt het aantal profielen dat is uitgesloten van levering bekijken in het dialoogvenster [Algemeen rapport](../reports/global-report.md)en in de [Live-rapport](../reports/live-report.md), waarbij de frequentievoorschriften worden vermeld als mogelijke reden voor gebruikers die van levering zijn uitgesloten.
+1. U kunt het aantal profielen dat is uitgesloten van levering bekijken in het dialoogvenster [Algemeen rapport](../reports/global-report.md)en in de [Live-rapport](../reports/live-report.md), waar de bedrijfsregels worden vermeld als mogelijke reden voor gebruikers die van levering worden uitgesloten.
 
 >[!NOTE]
 >
@@ -186,9 +189,9 @@ Volg onderstaande stappen om een frequentieregel toe te passen op een bericht.
 
 ## Voorbeeld: meerdere regels combineren {#frequency-rule-example}
 
-U kunt verschillende regels voor berichtfrequentie combineren, zoals in het onderstaande voorbeeld wordt beschreven.
+U kunt verschillende bedrijfsregels combineren, zoals in het onderstaande voorbeeld wordt beschreven.
 
-1. [Een regel maken](#create-new-rule) gebeld *Algemene marketinglimiet*:
+1. [Een bedrijfsregel maken](#create-new-rule) gebeld *Algemene marketinglimiet*:
 
    * Selecteer alle kanalen.
    * Afbeelding instellen op 12 per maand.
@@ -204,7 +207,7 @@ U kunt verschillende regels voor berichtfrequentie combineren, zoals in het onde
 
 1. Opslaan en [activate](#activate-rule) de regel.
 
-1. [Een bericht maken](../building-journeys/journeys-message.md) voor elk kanaal wilt u door communiceren en selecteren **[!UICONTROL Marketing]** categorie voor elk bericht. [Leer hoe u een frequentieregel toepast](#apply-frequency-rule)
+1. [Een bericht maken](../building-journeys/journeys-message.md) voor elk kanaal wilt u door communiceren en selecteren **[!UICONTROL Marketing]** categorie voor elk bericht. [Leer hoe u een bedrijfsregel toepast](#apply-frequency-rule)
 
    ![](assets/journey-message-category.png)
 
@@ -231,10 +234,10 @@ In dit scenario wordt een individueel profiel:
 
 >[!NOTE]
 >
->Bij het testen van de frequentieregels wordt aanbevolen een nieuw [testprofiel](../audience/creating-test-profiles.md)Omdat er geen manier is om de teller opnieuw in te stellen tot de volgende maand wanneer de frequentie-instelling van een profiel is bereikt. Als u een regel deactiveert, kunnen beperkte profielen berichten ontvangen, maar worden er geen tellerverhogingen verwijderd of verwijderd.
+>Bij het testen van bedrijfsregels wordt aanbevolen een nieuw gemaakt product te gebruiken [testprofiel](../audience/creating-test-profiles.md)Omdat er geen manier is om de teller opnieuw in te stellen tot de volgende maand wanneer de frequentie-instelling van een profiel is bereikt. Als u een regel deactiveert, kunnen beperkte profielen berichten ontvangen, maar worden er geen tellerverhogingen verwijderd of verwijderd.
 
 ## Hoe kan ik-video {#video}
 
-Leer hoe u regels voor frequenties maakt, activeert, test en rapporteert.
+Leer hoe u bedrijfsregels maakt, activeert, test en rapporteert.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344451?quality=12)
