@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: reis, ontdek, begin
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 1%
+source-wordcount: '605'
+ht-degree: 0%
 
 ---
 
@@ -57,7 +57,7 @@ Meer informatie in [deze sectie](using-the-journey-designer.md).
 Als gegevensingenieur, zijn de stappen om uw reizen te vormen, met inbegrip van Gegevensbronnen, Gebeurtenissen en Acties gedetailleerd in [deze sectie](../configuration/about-data-sources-events-actions.md).
 
 
-## Gebruiksscenario’s{#uc-journey}
+## Gebruik hoofdletters{#uc-journey}
 
 Leer hoe u reizen kunt maken in de volgende gebruiksgevallen van begin tot eind.
 
@@ -70,10 +70,9 @@ Zaken voor zakelijk gebruik:
 Gevallen van technisch gebruik:
 
 * [Verzamelingen dynamisch doorgeven met behulp van aangepaste handelingen](collections.md)
-* [Leveringen opwaarderen](ramp-up-deliveries-uc.md)
 * [Productie beperken met externe gegevensbronnen en aangepaste handelingen](limit-throughput.md)
 
-## Journeyversies{#journey-versions}
+## Reisversies{#journey-versions}
 
 In de reislijst, worden alle reisversies getoond met het versieaantal. Zie [deze pagina](../building-journeys/using-the-journey-designer.md).
 

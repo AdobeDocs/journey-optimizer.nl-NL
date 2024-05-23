@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Voorwaardeactiviteit
+title: Condition-activiteit
 description: Meer informatie over voorwaardenactiviteiten
 feature: Journeys, Activities
 topic: Content Management
@@ -9,18 +9,18 @@ role: User
 level: Intermediate
 keywords: activiteit, toestand, canvas, reis
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 5%
+source-wordcount: '1435'
+ht-degree: 0%
 
 ---
 
-# Voorwaardeactiviteit{#condition-activity}
+# Condition-activiteit{#condition-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_condition"
->title="Voorwaardeactiviteit"
+>title="Condition-activiteit"
 >abstract="Deze activiteit staat u toe om te bepalen hoe het individu in de reis zal stromen. Er worden verschillende paden gemaakt op basis van verschillende criteria. U kunt ook een alternatief pad maken voor een time-out of een fout."
 
 Deze voorwaarden zijn beschikbaar:
@@ -54,7 +54,7 @@ Laten we bijvoorbeeld het voorbeeld nemen van de voorwaarde &#39;De persoon is e
 
 U kunt een ander pad maken voor publiek dat niet in aanmerking komt voor de gedefinieerde voorwaarden door te controleren **[!UICONTROL Show path for other cases than the one(s) above]**. Deze optie is niet beschikbaar in gesplitste omstandigheden. Zie [Percentage splitsing](#percentage_split).
 
-In de eenvoudige modus kunt u eenvoudige query&#39;s uitvoeren op basis van een combinatie van velden. Alle beschikbare velden worden links op het scherm weergegeven. Sleep velden naar de hoofdzone. Als u de verschillende elementen wilt combineren, koppelt u ze aan elkaar om verschillende groepen en/of groepsniveaus te maken. Vervolgens kiest u een logische operator om elementen op hetzelfde niveau te combineren:
+In de eenvoudige modus kunt u eenvoudige query&#39;s uitvoeren op basis van een combinatie van velden. Alle beschikbare velden worden links op het scherm weergegeven. Sleep velden naar de hoofdzone. Als u de verschillende elementen wilt combineren, koppelt u ze aan elkaar om verschillende groepen en/of groepsniveaus te maken. Vervolgens kunt u een logische operator selecteren om elementen op hetzelfde niveau te combineren:
 
 * EN: een doorsnede van twee criteria. Alleen de elementen die aan alle criteria voldoen, worden in aanmerking genomen.
 * OF: een combinatie van twee criteria. Elementen die ten minste aan een van de twee criteria voldoen, worden in aanmerking genomen.
@@ -68,7 +68,7 @@ Als u de [Adobe Experience Platform Segmentation Service](https://experienceleag
 >
 >U kunt geen vragen op tijdreeksen (bijvoorbeeld een lijst van aankopen, voorbij klikken op berichten) met de eenvoudige redacteur uitvoeren. Hiervoor moet u de geavanceerde editor gebruiken. Zie [deze pagina](expression/expressionadvanced.md).
 
-Wanneer er een fout in een actie of een voorwaarde optreedt, eindigt de journey van een individu. De enige manier om door te gaan is het selectievakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in te schakelen. Zie [deze sectie](../building-journeys/using-the-journey-designer.md#paths).
+Wanneer een fout in een actie of een voorwaarde voorkomt, de reis van een individuele einden. De enige manier om door te gaan is door het selectievakje in te schakelen **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Zie [deze sectie](../building-journeys/using-the-journey-designer.md#paths).
 
 In de eenvoudige redacteur, zult u ook de categorie van de Eigenschappen van de Reis, onder de gebeurtenis en gegevensbroncategorieën vinden. Deze categorie bevat technische velden die verband houden met de reis voor een bepaald profiel. Dit is de informatie die door het systeem wordt opgehaald uit rechtstreekse reizen, zoals de reis-id of de specifieke fouten die zijn aangetroffen. [Meer informatie](expression/journey-properties.md)
 
@@ -128,7 +128,7 @@ Gebruik dit voorwaardetype om een maximumaantal profielen voor een wegweg te pla
 >
 >We raden u aan een hoogwaardig profielbovengrens te definiëren. De precisie en de waarschijnlijkheid dat een populatie het exacte maximumaantal zal bereiken neemt alleen toe naarmate de limiet toeneemt. Bij kleine getallen (bijvoorbeeld een bovengrens van 50) komen de getallen niet altijd overeen, omdat de limiet mogelijk niet wordt bereikt voordat de profielen een ander pad kiezen.
 
-U kunt dit voorwaardetype gebruiken om het volume van uw leveringen te verhogen. Zie dit [use case](ramp-up-deliveries-uc.md).
+<!--You can use this condition type to ramp up the volume of your deliveries. See this [use case](ramp-up-deliveries-uc.md).-->
 
 De standaard-uiteinde is 1000.
 

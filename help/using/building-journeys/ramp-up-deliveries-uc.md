@@ -7,12 +7,14 @@ feature: Journeys, Use Cases, IP Warmup Plans
 topic: Content Management
 role: User, Data Engineer
 level: Intermediate, Experienced
+hide: true
+hidefromtoc: true
 keywords: leverbaarheid, transport, gebruiksscenario, e-mail, reputatie
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: e34c39c02f71361277f28b1a116a54390875f93d
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 3%
+source-wordcount: '255'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +26,7 @@ Om uw IP op te warmen, kunt u geleidelijk het aantal van uw leveringen opvoeren.
 
 Het doel van deze gebruikszaak is een reis te maken om uw e-mailleveringen op te voeren. Om deze reis te vormen, volg deze stappen:
 
-1. Een journey maken. [Meer informatie](journey-gs.md).
+1. Maak een reis. [Meer informatie](journey-gs.md).
 
 1. Voeg een **[!UICONTROL Condition]** activiteit van de reis. [Meer informatie](condition-activity.md).
 
