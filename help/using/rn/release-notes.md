@@ -4,11 +4,11 @@ product: journey optimizer
 title: Aanvullende informatie
 feature: Release Notes
 topic: Content Management
-description: Aanvullende informatie voor Journey Optimizer
+description: Journey Optimizer Release-aantekeningen
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ec3d49dbd8587c788b67a9172205a8688088837e
+source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '768'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
->title="Nieuwe functies"
+>title="Wat is nieuw?"
 >abstract="**Adobe Journey Optimizer** biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en oplossingen voor problemen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
 [!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en oplossingen voor problemen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen.
@@ -50,6 +50,24 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <p>Experience Decisioning is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
 <p>Raadpleeg de <a href="../experience-decisioning/gs-experience-decisioning.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Aanpassing van e-mailoppervlak - Beperkte beschikbaarheid</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt dynamische subdomeinen en gepersonaliseerde kopbalparameters nu bepalen wanneer het creëren van e-mailkanaaloppervlakten, voor verhoogde flexibiliteit en controle over uw e-mailmontages.</p>
+<p>De aanpassing van het oppervlak van e-mail is momenteel slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.</p>
+<p>Raadpleeg de <a href="../email/surface-personalization.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -127,7 +145,7 @@ Van bèta tot deze release zijn de volgende verbeteringen toegevoegd:
 * **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
 
-**E-mailkanaal**
+**Email channel**
 
 <!--
 * **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)
@@ -137,7 +155,7 @@ Van bèta tot deze release zijn de volgende verbeteringen toegevoegd:
 
   >[!AVAILABILITY]
   >
-  >Deze mogelijkheid is momenteel beschikbaar in bètaversie en alleen voor bètaklanten. Neem contact op met de klantenservice van de Adobe om deel te nemen aan het bètaprogramma.
+  >Deze mogelijkheid is momenteel beschikbaar in bètaversie en alleen voor bètaklanten. Neem contact op met uw Adobe als u wilt deelnemen aan het bètaprogramma.
 
 <!--
 **Audiences**
