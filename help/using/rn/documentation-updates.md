@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
+source-git-commit: 2b31a75595e076bfac2023f8e58ddfbcc14bace1
 workflow-type: tm+mt
-source-wordcount: '5286'
-ht-degree: 13%
+source-wordcount: '5331'
+ht-degree: 12%
 
 ---
 
@@ -21,14 +21,16 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 
 ## Mei 2024 {#may-2024}
 
-* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 24 april is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van mei &#39;24 is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
 * De paragraaf over zaadlijsten is bijgewerkt met betrekking tot terugkerende reizen. [Meer informatie](../configuration/seed-lists.md#use-seed-list)
 * De sectie over externe gegevensbronnen is bijgewerkt. [Meer informatie](../datasource/external-data-sources.md#custom-authentication-access-token)
 * De algemene reistijd van 30 dagen is toegevoegd aan de pagina van Guardrail en van de beperking. [Meer informatie](../start/guardrails.md#journeys-guardrails-journeys)
 * Het gedeelte over de integratie met Adobe Campaign v7/v8 is bijgewerkt met informatie over provisioning. [Meer informatie](../action/acc-action.md#access)
+* De uitdrukkingsredacteur die wordt gebruikt om inhoud te personaliseren is anders genoemd in de documentatie aan &quot;verpersoonlijkingsredacteur&quot;om het van te onderscheiden [Journaal-expressieeditor](../building-journeys/expression/expressionadvanced.md). [Meer informatie](../personalization/personalization-build-expressions.md)
 
 ## April 2024 {#april-2024}
 
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 24 april is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md#apr-2024)
 * De configuratiestappen voor In-app overseinen zijn gedetailleerd geweest. [Meer informatie](../in-app/inapp-configuration.md)
 * Documentatie voor [Offer decisioning-API&#39;s](../offers/api-reference/offer-delivery-api/decisioning-api.md) en [API&#39;s voor batchbesluitvorming](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md) zijn bijgewerkt.
 * Er is informatie toegevoegd aan de documentatie van het Beslissingsbeheer met betrekking tot het beheer van Edge- en hubregio&#39;s bij het gebruik van frequentiecapping met de Edge Decisioning API. [Meer informatie](../offers/offer-library/add-constraints.md#frequency-capping)
@@ -41,7 +43,7 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 ## Maart 2024 {#march-2024}
 
 * Er is een sectie Veelgestelde vragen toegevoegd voor het behandelen van veelgestelde vragen over het gebruik van publiekscompositie en aangepaste uploadmogelijkheden in Journey Optimizer. [Meer informatie](../audience/about-audiences.md#faq)
-* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 24 maart is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 24 maart is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md#mar-2024)
 * De pagina over het beheer van profieltoegang is verbeterd. [Meer informatie](../building-journeys/entry-management.md)
 * Informatie over probleemoplossing is toegevoegd aan de pagina Waarschuwingen. [Meer informatie](../reports/alerts.md#alert-troubleshooting)
 * Informatie over de activiteit van de Wacht is toegevoegd aan de pagina over reisrapporten. [Meer informatie](../reports/sharing-overview.md)
@@ -58,12 +60,12 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 
 ## Februari 2024 {#feb-2024}
 
-* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van februari &#39;24 is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van februari &#39;24 is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md#feb-2024)
 * De integratie met Journey Optimizer en Workfront is toegevoegd aan de integratiepagina. [Meer informatie](../start/ajo-integrations.md)
 * Er is informatie toegevoegd over hoe u de representaties van aanbiedingen kunt aanpassen op basis van contextgegevens. [Meer informatie](../offers/offer-library/add-representations.md#context-data)
 * De pagina met instructies is bijgewerkt met een opmerking over aangepaste acties die alleen JSON-indeling ondersteunen bij het gebruik van verzoeken of antwoordladingen. [Meer informatie](../start/guardrails.md#custom-actions-g)
 * De extra informatie is toegevoegd over het basisauthentificatietype in externe gegevensbronnen. [Meer informatie](../datasource/external-data-sources.md)
-* Er is een opmerking toegevoegd om een duidelijk onderscheid te maken tussen de [Journaal-expressieeditor](../building-journeys/expression/expressionadvanced.md) van de [Personalisatie-editor](../personalization/functions/functions.md).
+* Er is een opmerking toegevoegd om een duidelijk onderscheid te maken tussen de [Journaal-expressieeditor](../building-journeys/expression/expressionadvanced.md) van de [personalisatie-editor](../personalization/functions/functions.md).
 * De lijst met functies die beschikbaar zijn in de geavanceerde expressie-editor is bijgewerkt. [Meer informatie](../building-journeys/expression/functions.md)
 * De pagina in de functie Splitsen is bijgewerkt. [Meer informatie](../building-journeys/functions/functioninaudience.md)
 * Er is informatie toegevoegd over de impact van de opt-in of opt-out van pushberichten op In-app berichten. [Meer informatie](../in-app/create-in-app.md)
@@ -96,7 +98,7 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 
 +++ 2023
 
-## November 2023 {#nov-2023}
+## november 2023 {#nov-2023}
 
 * De guardrail die alle douaneacties beperkt is veranderd van 150.000 vraag over 30 seconden aan 300.000 vraag over één minuut. Bovendien is het gebrek het maximum niet meer op elk eindpunt van toepassing. Het wordt nu uitgevoerd per host en per sandbox. Op een sandbox bijvoorbeeld als u twee eindpunten met dezelfde host hebt (bijvoorbeeld: `https://www.adobe.com/endpoint1` en `https://www.adobe.com/endpoint2`), wordt de aftopping toegepast op alle eindpunten onder de host adobe.com. De &quot;eindpunt1&quot;en &quot;eindpunt2&quot;zullen de zelfde het begrenzen configuratie delen en het hebben van één eindpunt bereikt de grens zal een effect op het andere eindpunt hebben. [Meer informatie](../action/about-custom-action-configuration.md)
 * Er is een nieuwe status voor e-mailcampagnes toegevoegd aan de lijst met statussen van campagnes. [Meer informatie](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
@@ -234,7 +236,7 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 
 * De configuratiegids is gereorganiseerd voor betere leesbaarheid. [Meer informatie](../configuration/get-started-configuration.md)
 
-## November 2022 {#november-2022}
+## november 2022 {#november-2022}
 
 * Er is een nieuwe pagina toegevoegd over Journey Optimizer-integratie. [Meer informatie](../start/ajo-integrations.md)
 * Er is een aanbeveling toegevoegd over de lengte van URL&#39;s van spiegelpagina&#39;s. [Meer informatie](../email/message-tracking.md)
@@ -351,7 +353,7 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 
 +++ 2021
 
-## November 2021 {#november-2021}
+## november 2021 {#november-2021}
 
 * Een volledige beschrijving van de **geavanceerde expressie-editor** gebruikt voor reizen is nu beschikbaar . [Meer informatie](../building-journeys/expression/expressionadvanced.md)
 * Een nieuwe sectie over **Methode voor subdomeindelegatie van CNAME** is toegevoegd. [Meer informatie](../configuration/delegate-subdomain.md#cname-subdomain-delegation)
