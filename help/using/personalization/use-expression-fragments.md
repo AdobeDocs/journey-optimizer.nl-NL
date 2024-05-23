@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Expressiefragmenten gebruiken
-description: Leer hoe u expressiefragmenten kunt gebruiken in het dialoogvenster [!DNL Journey Optimizer] Expressieeditor.
+description: Leer hoe u expressiefragmenten kunt gebruiken in het dialoogvenster [!DNL Journey Optimizer] personalisatie-editor.
 feature: Personalization, Fragments
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, bibliotheek, personalisatie
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 08f3fc1837a4daa1ecaa7afcd53c80381177efb0
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
 
 # Expressiefragmenten benutten {#use-expression-fragments}
 
-Wanneer u de opdracht **Expression-editor**, kunt u alle expressiefragmenten benutten die zijn gemaakt of opgeslagen in de huidige sandbox.
+Wanneer u de opdracht **personalisatie-editor**, kunt u alle expressiefragmenten benutten die zijn gemaakt of opgeslagen in de huidige sandbox.
 
 Leer hoe u fragmenten maakt en beheert in [deze sectie](../content-management/fragments.md).
 
@@ -28,7 +28,7 @@ Leer hoe u fragmenten maakt en beheert in [deze sectie](../content-management/fr
 
 Volg onderstaande stappen om expressiefragmenten aan uw inhoud toe te voegen.
 
-1. Open de [Expression-editor](personalization-build-expressions.md) en selecteert u de **[!UICONTROL Fragments]** in het linkerdeelvenster.
+1. Open de [personalisatie-editor](personalization-build-expressions.md) en selecteert u de **[!UICONTROL Fragments]** in het linkerdeelvenster.
 
    ![](assets/expression-fragments-pane.png)
 
@@ -64,7 +64,7 @@ Volg onderstaande stappen om expressiefragmenten aan uw inhoud toe te voegen.
 
    ![](assets/expression-fragment-open.png)
 
-1. Vervolgens kunt u de inhoud op de gebruikelijke manier aanpassen en valideren met alle personalisatie- en ontwerpmogelijkheden van de [Expression-editor](personalization-build-expressions.md).
+1. Vervolgens kunt u de inhoud op de gebruikelijke manier aanpassen en valideren met alle personalisatie- en ontwerpmogelijkheden van de [personalisatie-editor](personalization-build-expressions.md).
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Volg onderstaande stappen om expressiefragmenten aan uw inhoud toe te voegen.
 
 ## Overerving onderbreken {#break-inheritance}
 
-Wanneer u een fragment-id toevoegt aan de expressie-editor, worden de wijzigingen die in het oorspronkelijke expressiefragment zijn aangebracht, gesynchroniseerd.
+Wanneer u een fragment-id toevoegt aan de personalisatie-editor, worden de wijzigingen in het oorspronkelijke expressiefragment gesynchroniseerd.
 
 U kunt echter ook de inhoud van een expressiefragment in de editor plakken. Selecteer in het contextmenu de optie **[!UICONTROL Paste fragment]** om die inhoud in te voegen.
 

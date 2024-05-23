@@ -10,7 +10,8 @@ level: Intermediate
 keywords: expression, editor
 hidefromtoc: true
 hide: true
-source-git-commit: 4d4ce1e892d51393972973950e8e03259e16c204
+exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
@@ -25,9 +26,9 @@ ht-degree: 0%
 >
 >Momenteel is deze alleen beschikbaar voor testdoeleinden in de niet-productiesandbox die u aan de Adobe hebt geleverd en voor de gegevenssets die voor de bètaversie zijn aangevraagd.
 
-Met Journey Optimizer kunt u gegevens van Adobe Experience Platform in de expressieeditor benutten voor [uw inhoud personaliseren](../personalization/personalize.md). De stappen zijn als volgt:
+Met Journey Optimizer kunt u gegevens van Adobe Experience Platform in de personalisatie-editor gebruiken voor [uw inhoud personaliseren](../personalization/personalize.md). De stappen zijn als volgt:
 
-1. Open de uitdrukkingsredacteur, die in elke context beschikbaar is waar u verpersoonlijking zoals berichten kunt bepalen. [Leer hoe u met de expressieeditor werkt](../personalization/personalization-build-expressions.md)
+1. Open de verpersoonlijkingsredacteur, die in elke context beschikbaar is waar u verpersoonlijking zoals berichten kunt bepalen. [Leer hoe u met de verpersoonlijkingseditor werkt](../personalization/personalization-build-expressions.md)
 
 1. Ga naar de lijst met hulpfuncties en voeg de **datasetLookup** hulpfunctie aan de coderuit.
 

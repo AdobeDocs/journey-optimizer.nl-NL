@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="Een tekstbericht maken"
->abstract="Om een tekstbericht (SMS/MMS) tot stand te brengen, voeg een actie van SMS in een reis of een campagne toe en begin het met de redacteur van de Uitdrukking te personaliseren."
+>abstract="Om een tekstbericht (SMS/MMS) te creëren, voeg een actie van SMS in een reis of een campagne toe en begin het met de verpersoonlijkingsredacteur te personaliseren."
 
 U kunt tekst- (SMS) en multimedia-berichten (MMS) ontwerpen en verzenden met Adobe Journey Optimizer. U moet eerst een actie van SMS in een reis of een campagne toevoegen, en dan de inhoud van het tekstbericht bepalen, zoals hieronder beschreven. Adobe Journey Optimizer biedt ook mogelijkheden om uw tekstberichten te testen voordat ze worden verzonden, zodat u de rendering, personalisatiekenmerken en alle andere instellingen kunt controleren.
 
@@ -57,7 +57,7 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 
    ![](assets/sms_create_3.png)
 
-1. Klik op **[!UICONTROL Create]**.
+1. Klikken **[!UICONTROL Create]**.
 
 1. Van de **[!UICONTROL Properties]** sectie, uw campagne bewerken **[!UICONTROL Title]** en **[!UICONTROL Description]**.
 
@@ -91,17 +91,17 @@ U kunt nu de inhoud van uw tekstbericht ontwerpen via het **[!UICONTROL Edit con
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Je SMS-inhoud definiëren"
->abstract="Pas en verpersoonlijk uw tekstberichten (SMS/MMS) aan door de redacteur van de Uitdrukking te gebruiken om de inhoud te bepalen en dynamische elementen op te nemen."
+>abstract="Pas en verpersoonlijk uw tekstberichten (SMS/MMS) aan door de verpersoonlijkingsredacteur te gebruiken om de inhoud te bepalen en dynamische elementen op te nemen."
 
 Volg onderstaande stappen om uw SMS-inhoud te configureren. Instellingen voor MMS worden nader beschreven in [deze sectie](#mms-content).
 
 1. Van het reis of scherm van de campagneconfiguratie, klik **[!UICONTROL Edit content]** om de inhoud van het tekstbericht te configureren.
 
-1. Klik op de knop **[!UICONTROL Message]** om de Expressieeditor te openen.
+1. Klik op de knop **[!UICONTROL Message]** veld om de personalisatie-editor te openen.
 
    ![](assets/sms-content.png)
 
-1. Gebruik de uitdrukkingsredacteur om inhoud te bepalen, verpersoonlijking en dynamische inhoud toe te voegen. U kunt elk kenmerk gebruiken, bijvoorbeeld de profielnaam of plaats. U kunt ook voorwaardelijke regels definiëren. Blader naar de volgende pagina&#39;s voor meer informatie over [personalisatie](../personalization/personalize.md) en [dynamische inhoud](../personalization/get-started-dynamic-content.md) in de Uitdrukking redacteur.
+1. Gebruik de verpersoonlijkingsredacteur om inhoud te bepalen, verpersoonlijking en dynamische inhoud toe te voegen. U kunt elk kenmerk gebruiken, bijvoorbeeld de profielnaam of plaats. U kunt ook voorwaardelijke regels definiëren. Blader naar de volgende pagina&#39;s voor meer informatie over [personalisatie](../personalization/personalize.md) en [dynamische inhoud](../personalization/get-started-dynamic-content.md) in de verpersoonlijkingsredacteur.
 
 1. Nadat u de inhoud hebt gedefinieerd, kunt u bijgehouden URL&#39;s aan uw bericht toevoegen. Om dit te doen, open **[!UICONTROL Helper functions]** en selecteert u **[!UICONTROL Helpers]**.
 
@@ -155,12 +155,12 @@ Gebruik de **[!UICONTROL Simulate content]** om een voorvertoning weer te geven 
 
 Nadat u de tests hebt uitgevoerd en de inhoud hebt gevalideerd, kunt u uw tekstbericht naar het publiek sturen. Deze stappen worden beschreven in [deze pagina](send-sms.md)
 
-Zodra verzonden, kunt u het effect van uw SMS binnen de Campagne of rapporten van de Reis meten. Raadpleeg [deze sectie](../reports/campaign-global-report.md#sms-tab) voor meer informatie over rapporten.
+Zodra verzonden, kunt u het effect van uw SMS binnen de Campagne of rapporten van de Reis meten. Voor meer informatie over rapportage raadpleegt u [deze sectie](../reports/campaign-global-report.md#sms-tab).
 
 **Verwante onderwerpen**
 
 * [Een tekstbericht voorvertonen, testen en verzenden](send-sms.md)
-* [Sms-kanaal configureren](sms-configuration.md)
+* [SMS-kanaal configureren](sms-configuration.md)
 * [SMS/MMS-rapporten](../reports/journey-global-report.md#sms-global)
 * [Een bericht toevoegen tijdens een rit](../building-journeys/journeys-message.md)
 * [Een bericht toevoegen aan een campagne](../campaigns/create-campaign.md)

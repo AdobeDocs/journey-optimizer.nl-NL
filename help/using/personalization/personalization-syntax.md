@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, syntaxis, personalisatie
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 3%
+source-wordcount: '719'
+ht-degree: 0%
 
 ---
 
@@ -44,9 +44,9 @@ De syntaxis is hoofdlettergevoelig.
 
 De woorden **true**, **false**, **null** en **ongedefinieerd** zijn alleen toegestaan in het eerste deel van een padexpressie.
 
-In Handlebars, zijn de waarden teruggekeerd door {{expression}} zijn **HTML-ontsnapt**. Als de expressie `&`, dan wordt de teruggekeerde HTML-beschermde output geproduceerd zoals `&amp;`. Als u niet wilt dat Handgrepen aan een waarde ontsnappen, gebruikt u de &#39;&#39;drievoudig-streepje&#39;&#39;.
+In Handlebars, zijn de waarden teruggekeerd door {{expression}} zijn **HTML-ontsnapt**. Als de expressie `&`, dan wordt de teruggekeerde HTML-beschermde output geproduceerd zoals `&amp;`. Als u niet wilt dat Handgrepen aan een waarde ontsnappen, gebruikt u de &#39;&#39;drievoudige streepje&#39;&#39;.
 
-Wat argumenten voor letterlijke functies betreft, ondersteunt de parser voor sjabloontaal geen enkele backslash zonder escape-teken (`\`). Dit teken moet met een extra backslash (`\`). Voorbeeld :
+Wat argumenten voor letterlijke functies betreft, ondersteunt de parser voor sjabloontaal geen enkele backslash zonder escape-teken (`\`). Dit teken moet met een extra backslash (`\`). Voorbeeld:
 
 `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
@@ -54,13 +54,13 @@ Wat argumenten voor letterlijke functies betreft, ondersteunt de parser voor sja
 
 Met deze naamruimte kunt u verwijzen naar alle kenmerken die zijn gedefinieerd in het profielschema dat wordt beschreven in [Adobe Experience Platform Data Model (XDM)-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
 
-De attributen moeten in het schema worden bepaald alvorens in a wordt van verwijzingen voorzien [!DNL Journey Optimizer] verpersoonlijkingsblok.
+De kenmerken moeten in het schema worden gedefinieerd voordat er in een [!DNL Journey Optimizer] verpersoonlijkingsblok.
 
 >[!NOTE]
 >
 >Leer hoe u onder de volgende omstandigheden profielkenmerken kunt gebruiken [deze sectie](functions/helpers.md#if-function).
 
-**Voorbeeldreferenties:**
+**Voorbeeldenreferenties:**
 
 `{{profile.person.name.fullName}}`
 
@@ -76,7 +76,7 @@ De attributen moeten in het schema worden bepaald alvorens in a wordt van verwij
 
 `{{profile.faxPhone.number}}`
 
-## Doelgroepen{#perso-segments}
+## Soorten publiek{#perso-segments}
 
 Leer hoe u onder de volgende omstandigheden profielkenmerken kunt gebruiken [deze sectie](functions/helpers.md#if-function).
 
@@ -99,11 +99,11 @@ waarbij:
 * `Placement Id` en `Activity Id` zijn plaatsing- en activiteitsidentificatoren
 * `Attributes` specifieke kenmerken aanbieden die afhankelijk zijn van het soort aanbieding. Voorbeeld: `deliveryUrl` voor afbeeldingen
 
-Voor meer informatie over Besluiten API en over de Vertegenwoordiging van Aanbiedingen, verwijs naar [deze pagina](../offers/api-reference/offer-delivery-api/decisioning-api.md)
+Voor meer informatie over Besluiten API en over de Vertegenwoordiging van Aanbiedingen, zie [deze pagina](../offers/api-reference/offer-delivery-api/decisioning-api.md)
 
 Alle verwijzingen worden bevestigd tegen het Schema van Aanbiedingen met een bevestigingsmechanisme dat in wordt beschreven [deze pagina](personalization-validation.md)
 
-**Voorbeeldreferenties:**
+**Voorbeeldenreferenties:**
 
 * Locatie waar de afbeelding wordt gehost:
 
@@ -142,7 +142,7 @@ Blokken zijn expressies met een blokopening ({{# }}) and closing ({{/}}).
 
 | Letterlijk | Definitie |
 | ------- | ---------- |
-| Tekenreeks | Een gegevenstype dat bestaat uit tekens die tussen dubbele aanhalingstekens staan. <br>Voorbeelden: `"prospect"`, `"jobs"`, `"articles"` |
+| String | Een gegevenstype dat bestaat uit tekens die worden omringd door dubbele aanhalingstekens. <br>Voorbeelden: `"prospect"`, `"jobs"`, `"articles"` |
 | Boolean | Een gegevenstype dat waar of onwaar is. |
 | Geheel | Een gegevenstype dat een geheel getal vertegenwoordigt. Het kan positief, negatief, of nul zijn. <br>Voorbeelden: `-201`, `0`, `412` |
 | Array | Een gegevenstype dat is samengesteld als een groep andere letterlijke waarden. Er worden vierkante haakjes gebruikt om te groeperen en komma&#39;s om te scheiden tussen verschillende waarden. <br> **Opmerking:** U hebt niet rechtstreeks toegang tot eigenschappen van items binnen een array. <br> Voorbeelden: `[1, 4, 7]`, `["US", "FR"]` |
@@ -151,20 +151,20 @@ Blokken zijn expressies met een blokopening ({{# }}) and closing ({{/}}).
 >
 >Het gebruik van **xEvent** variable is not available in personalization expressions. Elke verwijzing naar xEvent resulteert in validatiefouten.
 
-## URL-personalisatie{#perso-urls}
+## URL aanpassen{#perso-urls}
 
 Persoonlijke URL&#39;s sturen ontvangers naar specifieke pagina&#39;s van een website of naar een gepersonaliseerde microsite, afhankelijk van de profielkenmerken. In Adobe Journey Optimizer kunt u personalisatie toevoegen aan URL&#39;s in de inhoud van uw bericht. U kunt URL-aanpassing toepassen op tekst en afbeeldingen en profielgegevens of contextafhankelijke gegevens gebruiken.
 
 Met Journey Optimizer kunt u een of meer URL&#39;s in uw bericht aanpassen door er personalisatievelden aan toe te voegen. Volg onderstaande stappen om een URL aan te passen:
 
 1. Maak een koppeling in de inhoud van het bericht. [Meer informatie](../email/message-tracking.md#insert-links)
-1. Selecteer de kenmerken in het verpersoonlijkingspictogram. Het verpersoonlijkingspictogram is alleen beschikbaar voor deze typen koppelingen: **Externe koppeling**, **Koppeling met abonnement opheffen** en **Uitschakelen**.
+1. Selecteer de kenmerken in het pictogram voor aanpassen. Het verpersoonlijkingspictogram is alleen beschikbaar voor deze typen koppelingen: **Externe koppeling**, **Koppeling met abonnement opheffen** en **Uitschakelen**.
 
    ![](assets/perso-url.png)
 
 >[!NOTE]
 >
->Wanneer u in de expressieeditor een gepersonaliseerde URL bewerkt, zijn hulpfuncties en het lidmaatschap van het publiek uit veiligheidsoverwegingen uitgeschakeld.
+>In de verpersoonlijkingsredacteur, wanneer u een gepersonaliseerde URL uitgeeft, zijn de hulpfuncties en het publiek lidmaatschap gehandicapt om veiligheidsredenen.
 >
 
 **Voorbeeld van gepersonaliseerde URL&#39;s**

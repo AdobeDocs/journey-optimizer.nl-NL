@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 352ffebda7eda2ceb54b0f5c3f6d3b577522191f
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 0%
@@ -97,7 +97,7 @@ Neem dit voorbeeld, waar de klanten hun wachtwoord willen terugstellen, en u hen
 >
 >In tegenstelling tot voor profielen geschikte gebeurtenissen, worden de contextuele gegevens die in de REST API worden doorgegeven, gebruikt voor eenmalige communicatie en niet opgeslagen tegen profiel. Als er geen naamruimte is gevonden, wordt er maximaal een profiel gemaakt met de naamruimtedetails.
 
-Als u deze gegevens in uw campagnes wilt gebruiken, moet u ze doorgeven aan de API-payload en ze in uw bericht toevoegen met de Expressieeditor. Om dit te doen, gebruik `{{context.<contextualAttribute>}}` syntaxis, waarbij `<contextualAttribute>` moet overeenkomen met de naam van de variabele in de API-lading die de gegevens bevat die u wilt doorgeven.
+Om deze gegevens in uw campagnes te gebruiken, moet u hen in de API lading overgaan, en hen toevoegen in uw bericht gebruikend de verpersoonlijkingsredacteur. Om dit te doen, gebruik `{{context.<contextualAttribute>}}` syntaxis, waarbij `<contextualAttribute>` moet overeenkomen met de naam van de variabele in de API-lading die de gegevens bevat die u wilt doorgeven.
 
 De `{{context.<contextualAttribute>}}` syntaxis wordt alleen toegewezen aan een gegevenstype String.
 

@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, validatie, fouten, personalisatie
 exl-id: 7abeec5e-743f-48fb-a4a6-056665e8bfda
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,19 @@ ht-degree: 0%
 
 ## Validatiemechanismen {#validation-mechanisms}
 
-In de **Expression-editor** scherm, gebruik **Valideren** om uw personalisatiesyntaxis te controleren.
+In de **personalisatie-editor** scherm, gebruik **Valideren** om uw personalisatiesyntaxis te controleren.
 
 >[!NOTE]
 > De validatie wordt automatisch uitgevoerd wanneer u op de knop **Toevoegen** om het editorvenster te sluiten.
+>
 
 ![](assets/perso_validation1.png)
 
 >[!IMPORTANT]
-> Als de verpersoonlijkingssyntaxis ongeldig is, kunt u niet het venster van de uitdrukkingsredacteur sluiten.
+> Als de verpersoonlijkingssyntaxis ongeldig is, kunt u niet het venster van de verpersoonlijkingsredacteur sluiten.
+>
 
-## Veelvoorkomende fouten {#common-errors}
+## Algemene fouten {#common-errors}
 
 * **Pad &quot;XYZ&quot; niet gevonden**
 
@@ -78,7 +80,7 @@ De fouten met betrekking tot aanbiedingen integratie in een E-mail of Duw berich
 Offer.<offerType>.[PlacementID].[ActivityID].<offer-attribute>
 ```
 
-De bevestiging wordt uitgevoerd tijdens de bevestiging van de verpersoonlijkingsinhoud in de redacteur van de Uitdrukking.
+De bevestiging wordt uitgevoerd tijdens de bevestiging van de verpersoonlijkingsinhoud in de verpersoonlijkingsredacteur.
 
 <table> 
  <thead> 
@@ -113,8 +115,8 @@ Bron met id activityID en type OfferActivity niet gevonden<br/></td>
    <td>Het aanbiedingskenmerk van kenmerk is ongeldig.</td> 
    <td>Controleer of het aanbiedingskenmerk waarnaar wordt verwezen in het aanbiedingsconcept geldig is. Hier volgen de geldige kenmerken: <br/>
 Afbeelding: deliveryURL, linkURL<br/>
-Tekst: content<br/>
-HTML: content<br/></td> 
+Tekst: inhoud<br/>
+HTML: inhoud<br/></td> 
   </tr> 
  </tbody> 
 </table>

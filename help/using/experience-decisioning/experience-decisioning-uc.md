@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate, Experienced
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -48,9 +48,9 @@ Definieer twee leveringsbehandelingen die elk een ander beslissingsbeleid bevatt
 
    ![](assets/decision-code-based-create.png)
 
-1. Geef de selectiestrategieën voor uw beslissing op. Klik op **[!UICONTROL Add strategy]**.
+1. Geef de selectiestrategieën voor uw beslissing op. Klikken **[!UICONTROL Add strategy]**.
 
-1. Klik op **[!UICONTROL Create]**. Het nieuwe besluit wordt toegevoegd onder **[!UICONTROL Decisions]**.
+1. Klikken **[!UICONTROL Create]**. Het nieuwe besluit wordt toegevoegd onder **[!UICONTROL Decisions]**.
 
    ![](assets/decision-code-based-decision-added.png)
 
@@ -58,7 +58,7 @@ Definieer twee leveringsbehandelingen die elk een ander beslissingsbeleid bevatt
 
    ![](assets/decision-code-based-add-decision.png)
 
-1. U kunt ook alle andere kenmerken toevoegen die beschikbaar zijn in de expressie-editor, zoals profielkenmerken.
+1. U kunt ook alle andere kenmerken toevoegen die beschikbaar zijn in de verpersoonlijkingseditor, zoals profielkenmerken.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 

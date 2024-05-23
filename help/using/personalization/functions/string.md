@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 118eddf540d1dfb3a30edb0b877189ca908944b1
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '1857'
-ht-degree: 5%
+source-wordcount: '1846'
+ht-degree: 0%
 
 ---
 
-# Tekenreeksfuncties {#string}
+# Reeksfuncties {#string}
 
-Leer hoe te om de functies van het Koord in de redacteur van de Uitdrukking te gebruiken.
+Leer hoe te om de functies van het Koord in de verpersoonlijkingsredacteur te gebruiken.
 
 ## Camel Case {#camelCase}
 
@@ -91,15 +91,15 @@ De `contains` wordt gebruikt om te bepalen of een tekenreeks een opgegeven subte
 
 * De volgende functie controleert of de voornaam van het profiel de letter A bevat (in hoofdletters of kleine letters). Als dit het geval is, zal het &quot;waar&quot; terugkeren, anders zal het &quot;onwaar&quot; terugkeren.
 
-   ```sql
-   {%= contains(profile.person.name.firstName, "A", false) %}
-   ```
+  ```sql
+  {%= contains(profile.person.name.firstName, "A", false) %}
+  ```
 
 * De volgende query bepaalt, met hoofdlettergevoeligheid, of het e-mailadres van de persoon de tekenreeks &quot;2010@gm&quot; bevat.
 
-   ```sql
-   {%= contains(profile.person.emailAddress,"2010@gm") %}
-   ```
+  ```sql
+  {%= contains(profile.person.emailAddress,"2010@gm") %}
+  ```
 
 ## Bevat niet{#doesNotContain}
 
@@ -184,7 +184,7 @@ De `encode64` Deze functie wordt gebruikt om een tekenreeks te coderen zodat Per
 {%= encode64(string) %}
 ```
 
-## Ends with (Eindigt met){#endsWith}
+## Eindigt met{#endsWith}
 
 De `endsWith` wordt gebruikt om te bepalen of een tekenreeks eindigt met een opgegeven subtekenreeks.
 
@@ -209,7 +209,7 @@ De volgende query bepaalt, met hoofdlettergevoeligheid, of het e-mailadres van d
 ```
 
 
-## Equals (Is gelijk aan){#equals}
+## Gelijk{#equals}
 
 De `equals` wordt gebruikt om te bepalen of een tekenreeks gelijk is aan de opgegeven tekenreeks, met hoofdlettergevoeligheid.
 
@@ -368,7 +368,7 @@ De `indexOf` wordt gebruikt om de positie (in het eerste argument) van de eerste
 
 Retourneert 6.
 
-## Is empty {#isEmpty}
+## Is leeg {#isEmpty}
 
 De `isEmpty` wordt gebruikt om te bepalen of een tekenreeks leeg is.
 
@@ -437,7 +437,7 @@ De `leftTrim` wordt gebruikt om witruimten te verwijderen uit het begin van een 
 {%= leftTrim(string) %}
 ```
 
-## Length {#length}
+## Lengte {#length}
 
 De `length` wordt gebruikt om het aantal tekens in een tekenreeks of expressie op te halen.
 
@@ -516,7 +516,7 @@ De volgende vraag bepaalt, zonder case gevoeligheid, als de naam van de persoon 
 
 ## Masker {#mask}
 
-De `Mask` wordt gebruikt om een deel van een tekenreeks te vervangen door &#39;X&#39;-tekens.
+De `Mask` Deze functie wordt gebruikt om een deel van een tekenreeks te vervangen door &#39;X&#39;-tekens.
 
 **Syntaxis**
 
@@ -622,7 +622,7 @@ De volgende query wordt gebruikt om de domeinnaam uit een e-mailadres te extrahe
 {%= regexGroup(emailAddress,"@(\\w+)", 1) %}
 ```
 
-## Replace {#replace}
+## Vervangen {#replace}
 
 De `replace` Deze functie wordt gebruikt om een bepaalde subtekenreeks in een tekenreeks te vervangen door een andere subtekenreeks.
 
@@ -635,7 +635,7 @@ De `replace` Deze functie wordt gebruikt om een bepaalde subtekenreeks in een te
 | Argument | Beschrijving |
 | --------- | ----------- |
 | `{STRING_1}` | De tekenreeks waar de subtekenreeks moet worden vervangen. |
-| `{STRING_2}` | De subtekenreeks die moet worden vervangen. |
+| `{STRING_2}` | The substring to replace. |
 | `{STRING_3}` | De vervangende subtekenreeks. |
 
 **Voorbeeld**
@@ -658,9 +658,10 @@ De `replaceAll` Deze functie wordt gebruikt om alle subtekenreeksen van een teks
 
 >[!NOTE]
 >
-> Wanneer de expressie die als tweede argument wordt gebruikt, een speciaal regex-teken is, gebruikt u dubbele backslash (`//`).  Speciale regex-tekens zijn: [, +, *, ?, ^, $, (, ), [, ], {, }, |, \.]
+> Wanneer de expressie die als tweede argument wordt gebruikt, een speciaal regex-teken is, gebruikt u dubbele backslash (`//`).  Speciale regex-tekens zijn: [., +, *, ?, ^, $, (, ), [,], {, }, |, \.]
 > 
 > Meer informatie in [Documentatie oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
+>
 
 ## Rechts bijsnijden {#rightTrim}
 
@@ -682,7 +683,7 @@ De `split` functie wordt gebruikt om een tekenreeks te splitsen op een bepaald t
 {%= split(string,string) %}
 ```
 
-## Starts with (Begint met){#startsWith}
+## Begint met{#startsWith}
 
 De `startsWith` wordt gebruikt om te bepalen of een tekenreeks begint met een opgegeven subtekenreeks.
 
@@ -708,7 +709,7 @@ De volgende vraag bepaalt, met gevalsgevoeligheid, als de naam van de persoon me
 
 ## Tekenreeks naar datum {#string-to-date}
 
-De `stringToDate` functie converteert een tekenreekswaarde naar een datum-tijdwaarde. Er zijn twee argumenten: tekenreeksrepresentatie van een datum- en tekenreeksrepresentatie van de formatter.
+De `stringToDate` functie converteert een tekenreekswaarde naar een datum-tijdwaarde. Er zijn twee argumenten voor: tekenreeksrepresentatie van een datum-tijd en tekenreeksrepresentatie van de formatter.
 
 **Syntaxis**
 
@@ -789,7 +790,7 @@ De `toDateTime` functie wordt gebruikt om tekenreeks om te zetten in datum. De e
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## Alleen tot op heden {#to-date-time-only}
+## Alleen tot op heden tijd {#to-date-time-only}
 
 De `toDateTimeOnly` function wordt gebruikt om een argumentwaarde om te zetten in een waarde die alleen voor de datumtijd geldt. De epochdatum wordt geretourneerd als uitvoer voor ongeldige invoer. Deze functie accepteert veldtypen tekenreeks, datum, lang en int.
 
@@ -829,7 +830,7 @@ Deze functie converteert de achternaam van het profiel naar hoofdletters.
 
 ## URL-decodering {#url-decode}
 
-De `urlDecode` Deze functie wordt gebruikt om een URL-gecodeerde tekenreeks te decoderen.
+De `urlDecode` wordt gebruikt om een URL-gecodeerde tekenreeks te decoderen.
 
 **Syntaxis**
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 46a97787e184aeda20efecd9052328daf3ec5f23
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1494'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -39,7 +39,7 @@ U kunt zo veel mogelijk gebruikmaken van fragmenten:
 
 >[!NOTE]
 >
->**Visuele fragmenten** kan worden gebruikt in de [E-mailDesigner](../email/get-started-email-design.md)overwegende **expressiefragmenten** toegankelijk zijn via [Expression-editor](../personalization/personalization-build-expressions.md).
+>**Visuele fragmenten** kan worden gebruikt in de [E-mailDesigner](../email/get-started-email-design.md)overwegende **expressiefragmenten** toegankelijk zijn via [personalisatie-editor](../personalization/personalization-build-expressions.md).
 
 Bovendien kun je Journey Optimizer gebruiken **Content REST API** om inhoudsfragmenten te beheren. Raadpleeg voor meer informatie de [Journey Optimizer API-documentatie](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
 
@@ -150,7 +150,7 @@ Voer de onderstaande stappen uit om een geheel nieuw fragment te maken.
 
 1. [De fragmentlijst openen](#access-manage-fragments) via de **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** links.
 
-1. Selecteer **[!UICONTROL Create fragment]**.
+1. Selecteren **[!UICONTROL Create fragment]**.
 
 1. Vul de fragmentdetails in, d.w.z. naam en beschrijving (indien nodig).
 
@@ -162,7 +162,7 @@ Voer de onderstaande stappen uit om een geheel nieuw fragment te maken.
 
 1. Adobe Experience Platform-tags selecteren of maken vanuit het menu **[!UICONTROL Tags]** veld om het fragment te categoriseren voor een betere zoekopdracht. [Meer informatie](../start/search-filter-categorize.md#tags)
 
-1. Klik op **[!UICONTROL Create]**.
+1. Klikken **[!UICONTROL Create]**.
 
 ### Een visueel fragment maken {#create-visual-fragment}
 
@@ -199,7 +199,7 @@ Dit fragment kan nu worden gebruikt bij het maken van [email](../email/get-start
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
 >title="Expressietype selecteren"
->abstract="Maak een zelfstandig expressiefragment om uw inhoud te hergebruiken voor meerdere reizen en campagnes. Wanneer u de expressie-editor gebruikt, kunt u alle uitdrukkingsfragmenten benutten die in de huidige sandbox zijn gemaakt."
+>abstract="Maak een zelfstandig expressiefragment om uw inhoud te hergebruiken voor meerdere reizen en campagnes. Wanneer u de verpersoonlijkingseditor gebruikt, kunt u alle uitdrukkingsfragmenten benutten die in de huidige sandbox zijn gemaakt."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/use-expression-fragments.html" text="Expressiefragmenten benutten"
 
 1. [Een fragment maken](#create-from-scratch) van de **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** en selecteert u de **[!UICONTROL Expression fragment]** type.
@@ -210,9 +210,9 @@ Dit fragment kan nu worden gebruikt bij het maken van [email](../email/get-start
 
    <!--Expression fragments can be used in any channel.-->
 
-1. Klik op **[!UICONTROL Create]**. De expressie-editor wordt geopend.
+1. Klikken **[!UICONTROL Create]**. De verpersoonlijkingsredacteur opent.
 
-1. U kunt de [!DNL Journey Optimizer] De redacteur van de uitdrukking met al zijn verpersoonlijking en auteursmogelijkheden. [Meer informatie](../personalization/personalization-build-expressions.md)
+1. U kunt de [!DNL Journey Optimizer] verpersoonlijkingsredacteur met al zijn verpersoonlijking en auteursmogelijkheden. [Meer informatie](../personalization/personalization-build-expressions.md)
 
    ![](assets/fragment-expression-editor.png)
 
@@ -220,7 +220,7 @@ Dit fragment kan nu worden gebruikt bij het maken van [email](../email/get-start
 
 1. Klik zo nodig op de pijl naast de fragmentnaam om terug te gaan naar de map **[!UICONTROL Details]** en bewerken.
 
-Dit fragment kan nu worden gebruikt bij het maken van inhoud in het dialoogvenster [!DNL Journey Optimizer] Expressieeditor. [Meer informatie](../personalization/use-expression-fragments.md)
+Dit fragment kan nu worden gebruikt bij het maken van inhoud in het dialoogvenster [!DNL Journey Optimizer] personalisatie-editor. [Meer informatie](../personalization/use-expression-fragments.md)
 
 ## Opslaan als fragment {#save-as-fragment}
 
@@ -244,7 +244,7 @@ Wanneer u een [inhoudssjabloon](content-templates.md) of een [email](../email/ge
 
    ![](assets/fragment-save-as-screen.png)
 
-1. Klik op **[!UICONTROL Create]**. Vul de fragmentdetails in, d.w.z. naam en beschrijving (indien nodig).
+1. Klikken **[!UICONTROL Create]**. Vul de fragmentdetails in, d.w.z. naam en beschrijving (indien nodig).
 
 1. Als u aangepaste of basislabels voor gegevensgebruik aan het fragment wilt toewijzen, selecteert u **[!UICONTROL Manage access]**. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md).
 
@@ -265,19 +265,19 @@ U kunt dit fragment nu gebruiken wanneer u een [email](../email/get-started-emai
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
 >title="Opslaan als expressiefragment"
->abstract="De [!DNL Journey Optimizer] Met de expressieeditor kunt u inhoud opslaan als expressiefragmenten. Deze expressies zijn vervolgens beschikbaar voor het samenstellen van gepersonaliseerde inhoud."
+>abstract="De [!DNL Journey Optimizer] met de personalisatie-editor kunt u inhoud opslaan als expressiefragmenten. Deze expressies zijn vervolgens beschikbaar voor het samenstellen van gepersonaliseerde inhoud."
 
-De [!DNL Journey Optimizer] Met de expressieeditor kunt u inhoud opslaan als expressiefragmenten. Deze expressies zijn vervolgens beschikbaar voor het samenstellen van gepersonaliseerde inhoud.
+De [!DNL Journey Optimizer] met de personalisatie-editor kunt u inhoud opslaan als expressiefragmenten. Deze expressies zijn vervolgens beschikbaar voor het samenstellen van gepersonaliseerde inhoud.
 
 Voer de onderstaande stappen uit om inhoud op te slaan als een expressiefragment.
 
-1. In de [Expression-editor](../personalization/personalization-build-expressions.md) interface, bouwt een uitdrukking, dan klikt **[!UICONTROL Save as fragment]**.
+1. In de [personalisatie-editor](../personalization/personalization-build-expressions.md) interface, bouwt een uitdrukking, dan klikt **[!UICONTROL Save as fragment]**.
 
 1. Voer in het rechterdeelvenster een naam en een beschrijving in voor de expressie, zodat gebruikers deze gemakkelijker kunnen vinden.
 
    ![](assets/expression-fragment-save-as.png)
 
-1. Klik op **[!UICONTROL Save fragment]**.
+1. Klikken **[!UICONTROL Save fragment]**.
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 

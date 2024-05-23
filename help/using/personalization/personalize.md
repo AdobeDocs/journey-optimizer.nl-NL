@@ -9,9 +9,9 @@ role: Data Engineer
 level: Beginner
 keywords: expressie, editor, start, personalisatie
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 9ac8a3ddad165f728c09baacb9d380d4611fd58a
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '387'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Discover [!DNL Adobe Journey Optimizer] personaliseringsmogelijkheden om uw beri
 
 ## Verpersoonlijkingsexpressies maken met een speciale syntaxis {#syntax}
 
-[!DNL Journey Optimizer] gebruikt een **inline** eenvoudige verpersoonlijkingssyntaxis die op Handlebars wordt gebaseerd die u toestaat om uitdrukkingen tot stand te brengen met inhoud die door dubbele krullende steunen wordt ingesloten **{{}}**. U kunt meerdere expressies zonder beperkingen toevoegen in dezelfde inhoud of hetzelfde veld. Meer informatie in [Personalisatiesyntaxis](personalization-syntax.md).
+[!DNL Journey Optimizer] gebruikt een **inline** eenvoudige verpersoonlijkingssyntaxis die op Handlebars wordt gebaseerd die u toestaat om uitdrukkingen tot stand te brengen met inhoud die door dubbele krullende steunen wordt ingesloten **{{}}**. U kunt meerdere expressies zonder beperkingen toevoegen in dezelfde inhoud of hetzelfde veld. [Meer informatie over de personalisatiesyntaxis](personalization-syntax.md).
 
 **Voorbeelden:**
 
@@ -48,17 +48,12 @@ De personalisatie is gebaseerd op de profielgegevens die door **Afzonderlijk XDM
 
 Daarnaast kunt u ook gebruikmaken van **berekende kenmerken** om uw inhoud aan te passen. De berekende attributen zijn gebaseerd op profiel-Toegelaten Gegevensreeksen van de Gebeurtenis van de Ervaring die in Adobe Experience Platform worden opgenomen en dienen als samengevoegde gegevenspunten die binnen klantenprofielen worden opgeslagen die individuele gedragsgebeurtenissen samenvatten [Leer hoe u met berekende kenmerken werkt](../audience/computed-attributes.md)
 
-## Verpersoonlijking toevoegen in verschillende contexten {#contexts}
+## Werken met de verpersoonlijkingseditor {#editor}
 
-[!DNL Journey Optimizer] Hiermee kunt u de inhoud en de weergave van berichten op verschillende manieren aanpassen. Meer informatie over de context waarin u personalisatie kunt uitvoeren in [deze sectie](personalization-contexts.md).
+[!DNL Journey Optimizer] biedt een verpersoonlijkingseditor waarin u alle gegevens kunt selecteren, rangschikken, aanpassen en valideren om een aangepaste verpersoonlijking voor uw inhoud te maken. Er zijn verschillende gereedschappen beschikbaar waarmee u uw personalisatie-inhoud kunt maken, zoals: felper-functies, vooraf gedefinieerde expressies-bibliotheek, kenmerken die de voorkeur geven en meer.
 
-## Werken met de expressie-editor {#editor}
-
-[!DNL Journey Optimizer] biedt een expressie-editor waarin u alle gegevens kunt selecteren, rangschikken, aanpassen en valideren om een aangepaste personalisatie voor uw inhoud te maken.
-
-Er zijn verschillende gereedschappen beschikbaar waarmee u uw personalisatie-inhoud kunt maken, zoals: felper-functies, vooraf gedefinieerde expressies-bibliotheek, kenmerken die de voorkeur geven en meer.
-
-Meer informatie over [!DNL Journey Optimizer] expressieeditor in [deze sectie](personalization-build-expressions.md)
+* [Leer hoe u met de verpersoonlijkingseditor werkt](personalization-build-expressions.md)
+* [Leer waar u personalisatie kunt uitvoeren](personalization-contexts.md).
 
 ## Hoe kan ik-video&#39;s{#video-perso}
 

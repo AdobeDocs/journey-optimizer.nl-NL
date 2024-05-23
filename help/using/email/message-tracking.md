@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: koppelingen, bijhouden, controleren, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c082d9329949fd8dc68929e3934daf2d9dfdbd46
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -174,7 +174,7 @@ Volg onderstaande stappen om aangepaste URL-volgparameters toe te voegen aan uw 
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. Voeg de URL-volgparameter toe en selecteer het profielkenmerk van uw keuze in de expressieeditor.
+1. Voeg de URL volgende parameter toe en selecteer het profielattribuut van uw keus van de verpersoonlijkingsredacteur.
 
    ![](assets/message-tracking-perso-parameter.png)
 

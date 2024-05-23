@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: landing, landing page, creation, page, form, component
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: cda4c1d88fedc75c7fded9971e45fdc9740346c4
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 2%
+source-wordcount: '1219'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ Met de landende pagina-inhoudontwerper kunt u ook contextuele gegevens gebruiken
 >title="Wat gebeurt er als u op de knop klikt"
 >abstract="Bepaal wat er gebeurt wanneer gebruikers het formulier voor de landingspagina indienen."
 
-Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de bestemmingspagina kunnen selecteren en verzenden, gebruikt u de optie **[!UICONTROL Form]** component. Hiervoor voert u de volgende stappen uit.
+Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de bestemmingspagina kunnen selecteren en verzenden, gebruikt u de optie **[!UICONTROL Form]** component. Volg de onderstaande stappen om dit te doen.
 
 1. De landingspagina-specifiek slepen en neerzetten **[!UICONTROL Form]** van het linkerpalet naar de hoofdwerkruimte.
 
@@ -101,7 +101,7 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 
    * Voer een **[!UICONTROL Placeholder]** tekst. Het wordt in het veld weergegeven voordat de gebruiker het veld invult.
 
-   * Schakel indien nodig de optie **[!UICONTROL Make form field mandatory]** in. In dat geval kan de landingspagina alleen worden verzonden als de gebruiker dit veld heeft ingevuld. Als een verplicht veld niet is ingevuld, wordt een foutbericht weergegeven wanneer de gebruiker de pagina verzendt.
+   * Controleer de **[!UICONTROL Make form field mandatory]** indien nodig. In dat geval kan de landingspagina alleen worden verzonden als de gebruiker dit veld heeft ingevuld. Als een verplicht veld niet is ingevuld, wordt een foutbericht weergegeven wanneer de gebruiker de pagina verzendt.
 
    ![](assets/lp_designer-form-text-field.png)
 
@@ -188,7 +188,7 @@ Hiervoor voert u de volgende stappen uit:
 
    ![](assets/lp_designer-form-add-subscription.png)
 
-1. Voeg de relevante voorwaarden toe met behulp van de hulpfuncties van de Expressieeditor. [Meer informatie](../personalization/functions/functions.md)
+1. Voeg de relevante voorwaarden toe gebruikend de hulpfuncties van de verpersoonlijkingsredacteur. [Meer informatie](../personalization/functions/functions.md)
 
    ![](assets/lp_designer-form-add-subscription-condition.png)
 
@@ -221,7 +221,7 @@ When [configuring the primary page](create-lp.md#configure-primary-page), you ca
 >
 >This data may not be visible to users who visit the page.
 
-If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [Expression editor](../personalization/personalization-build-expressions.md).
+If you defined one or more keys with their corresponding values when [configuring the primary page](create-lp.md#configure-primary-page), you can leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md).
 
 ///When you reuse the same text on a page, this enables you to dynamically change that text if needed, without going through each occurrence.
 

@@ -7,9 +7,9 @@ feature: Audiences, Profiles
 role: User
 level: Intermediate
 exl-id: 5402a179-263f-46a7-bddf-5b7017cf0f82
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,6 @@ Gedetailleerde informatie over het toevoegen van veldgroepen aan de Adobe Experi
 
 Berekende kenmerken bieden een veelzijdige set mogelijkheden binnen de functie Reisoptimalisatie. U kunt ze voor verschillende doeleinden gebruiken, zoals het personaliseren van berichtinhoud, het maken van nieuwe soorten publiek of het splitsen van reizen op basis van een specifiek berekend kenmerk. U kunt bijvoorbeeld het pad van een rit splitsen op basis van de totale aankopen van een profiel in de laatste drie weken door één berekend kenmerk toe te voegen aan een Condition-activiteit. U kunt een e-mailbericht ook personaliseren door het laatst bekeken item voor elk profiel weer te geven.
 
-Aangezien berekende kenmerken profielkenmerkvelden zijn die in het schema van de profielunie zijn gemaakt, kunt u ze openen via de Expressieeditor in het dialoogvenster **SystemComputedAttributes** veldgroep. Vanaf dat punt kunt u het berekende kenmerk aan uw expressies toevoegen en deze als elk ander profielkenmerk behandelen om de gewenste bewerkingen uit te voeren.
+Aangezien de gegevens verwerkte attributen profielkenmerkgebieden zijn die op uw profiel worden gecreeerd verenigen schema, kunt u tot hen van de verpersoonlijkingsredacteur binnen toegang hebben **SystemComputedAttributes** veldgroep. Vanaf dat punt kunt u het berekende kenmerk aan uw expressies toevoegen en deze als elk ander profielkenmerk behandelen om de gewenste bewerkingen uit te voeren.
 
 ![](assets/computed-attributes-ajo.png)

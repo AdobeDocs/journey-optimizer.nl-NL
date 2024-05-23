@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1872'
 ht-degree: 1%
@@ -21,15 +21,15 @@ Gebruiken [!DNL Journey Optimizer] sjabloontaal voor het uitvoeren van bewerking
 
 ➡️ [Leer hoe u in deze video hulpfuncties kunt gebruiken](#video)
 
-Templating language wordt gebruikt in helperfuncties beschikbaar in verpersoonlijkingsdrop-down lijst van de redacteur van de Verpersoonlijking, zoals hieronder:
+De taal van het malplaatje wordt leveraged in helperfuncties beschikbaar in verpersoonlijkingsdrop-down lijst van de verpersoonlijkingsredacteur, zoals hieronder:
 
 ![](../assets/access-helper-functions.png)
 
 >[!NOTE]
 >
->De functies en mogelijkheden die beschikbaar zijn in de Persoonlijke editor verschillen van die in de [Reis-editor voor geavanceerde expressies](../../building-journeys/expression/expressionadvanced.md).
+>De functies en mogelijkheden die beschikbaar zijn in de verpersoonlijkingseditor verschillen van die in de [Reis-editor voor geavanceerde expressies](../../building-journeys/expression/expressionadvanced.md).
 
-In de [!DNL Journey Optimizer] De redacteur van de Personalisatie, helperfuncties worden gegroepeerd in drie categorieën: [Functies](#functions-helper), [Helpers](#helper-helper) en [Operatoren](#operators-helper).
+In de [!DNL Journey Optimizer] de redacteur van de verpersoonlijking, helperfuncties worden gegroepeerd in drie categorieën: [Functies](#functions-helper), [Helpers](#helper-helper) en [Operatoren](#operators-helper).
 
 Selecteer een categorie voor toegang tot subcategorieën en functies.
 
@@ -225,11 +225,11 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
         <td><a href="string.md#encode64">Coderen 64</a></td><td>Deze functie wordt gebruikt om een tekenreeks te coderen of decoderen</td>
     </tr>
     <tr>
-        <td><a href="string.md#endsWith">Ends with (Eindigt met)</a></td><td>Deze functie wordt gebruikt om te bepalen of een tekenreeks eindigt met een opgegeven subtekenreeks</td>
+        <td><a href="string.md#endsWith">Eindigt met</a></td><td>Deze functie wordt gebruikt om te bepalen of een tekenreeks eindigt met een opgegeven subtekenreeks</td>
     </tr>
         </tr>
     <tr>
-        <td><a href="string.md#equals">Equals (Is gelijk aan)</a></td><td>Deze functie wordt gebruikt om te bepalen of een tekenreeks niet begint met een opgegeven subtekenreeks, met hoofdlettergevoeligheid</td>
+        <td><a href="string.md#equals">Gelijk</a></td><td>Deze functie wordt gebruikt om te bepalen of een tekenreeks niet begint met een opgegeven subtekenreeks, met hoofdlettergevoeligheid</td>
     </tr>
     <tr>
         <td><a href="string.md#equalsIgnoreCase">Gelijk aan hoofdletter negeren</a></td><td>Deze functie wordt gebruikt om te bepalen als een tekenreeks niet begint met een opgegeven subtekenreeks, zonder hoofdlettergevoeligheid</td>
@@ -304,7 +304,7 @@ Klik op de knop `...` om de beschrijving van de functie weer te geven en deze aa
         <td><a href="string.md#split">Splitsen</a></td><td>Deze functie wordt gebruikt om een tekenreeks te splitsen op een bepaald teken</td>
     </tr>
     <tr>
-        <td><a href="string.md#startsWith">Starts with (Begint met)</a></td><td>Deze functie wordt gebruikt om te bepalen of een tekenreeks begint met een opgegeven subtekenreeks</td>
+        <td><a href="string.md#startsWith">Begint met</a></td><td>Deze functie wordt gebruikt om te bepalen of een tekenreeks begint met een opgegeven subtekenreeks</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-date">Tekenreeks naar datum</a></td><td>Deze functie converteert een tekenreekswaarde naar een datum-tijdwaarde</td>
@@ -416,7 +416,7 @@ Vergelijkingsfuncties worden gebruikt om verschillende expressies en waarden met
 
 <table>
     <tr>
-        <td><a href="operators.md#equals">Equals (Is gelijk aan)</a></td><td>Deze bewerking controleert of de waarden gelijk zijn</td>
+        <td><a href="operators.md#equals">Gelijk</a></td><td>Deze bewerking controleert of de waarden gelijk zijn</td>
     </tr>
     <tr>
         <td><a href="operators.md#greaterthan">Groter dan</a></td><td>Deze operator controleert of de eerste waarde groter is dan de tweede waarde</td>

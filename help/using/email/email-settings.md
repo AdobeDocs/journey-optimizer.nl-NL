@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5b7faccbf563c6877a1077b0f6012418848c0ccb
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '2351'
 ht-degree: 0%
@@ -296,11 +296,11 @@ U kunt maximaal 10 volgparameters toevoegen met de functie **[!UICONTROL Add new
 
 Als u een URL-volgparameter wilt configureren, kunt u rechtstreeks de gewenste waarden invoeren in het dialoogvenster **[!UICONTROL Name]** en **[!UICONTROL Value]** velden.
 
-U kunt ook elke **[!UICONTROL Value]** veld met de [Expressieeditor](../personalization/personalization-build-expressions.md). Klik op het pictogram van de editie om de editor te openen. Vervolgens kunt u de beschikbare contextafhankelijke kenmerken selecteren en/of de tekst rechtstreeks bewerken.
+U kunt ook elke **[!UICONTROL Value]** veld met de [personalisatie-editor](../personalization/personalization-build-expressions.md). Klik op het pictogram van de editie om de editor te openen. Vervolgens kunt u de beschikbare contextafhankelijke kenmerken selecteren en/of de tekst rechtstreeks bewerken.
 
 ![](assets/preset-url-tracking-editor.png)
 
-De volgende vooraf gedefinieerde waarden zijn beschikbaar via de Expressieeditor:
+De volgende vooraf gedefinieerde waarden zijn beschikbaar via de verpersoonlijkingseditor:
 
 * **Id van handeling Bron**: ID van de e-mailactie die aan de reis of campagne is toegevoegd.
 
@@ -316,7 +316,7 @@ De volgende vooraf gedefinieerde waarden zijn beschikbaar via de Expressieeditor
 
 >[!NOTE]
 >
->U kunt tekstwaarden typen en contextafhankelijke kenmerken gebruiken in de Expressieeditor. Elk **[!UICONTROL Value]** mag een aantal tekens bevatten tot maximaal 5 kB.
+>U kunt het typen van tekstwaarden en het gebruiken van contextafhankelijke attributen van de verpersoonlijkingsredacteur combineren. Elk **[!UICONTROL Value]** mag een aantal tekens bevatten tot maximaal 5 kB.
 
 <!--You can drag and drop the parameters to reorder them.-->
 

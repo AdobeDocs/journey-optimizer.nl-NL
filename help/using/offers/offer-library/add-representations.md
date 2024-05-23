@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 7ef96642d28bce0e062e543b46a23ceeeded66fd
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -72,17 +72,17 @@ Als de geselecteerde plaatsing van het afbeeldingstype is, kunt u inhoud toevoeg
 
 >[!NOTE]
 >
-> Werken met [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, you need to deploy [!DNL Assets Essentials] for your organization and make sure that users are a part of the **Assets Essentials Consumer Users** or/and **Assets Essentials Users** Product profiles. Learn more on [this page](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
+> Werken met [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, moet u [!DNL Assets Essentials] voor uw organisatie en zorg ervoor dat de gebruikers een deel van zijn **Assets Essentials Consumentengebruikers** of/en **Gebruikers Assets Essentials** Productprofielen. Meer informatie over [deze pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
 
-1. Kies de optie **[!UICONTROL Asset library]**.
+1. Kies de optie **[!UICONTROL Asset library]** -optie.
 
-1. Selecteer **[!UICONTROL Browse]**.
+1. Selecteren **[!UICONTROL Browse]**.
 
    ![](../assets/offer-browse-asset-library.png)
 
 1. Blader door de elementen om de gewenste afbeelding te selecteren
 
-1. Klik op **[!UICONTROL Select]**.
+1. Klikken **[!UICONTROL Select]**.
 
    ![](../assets/offer-select-asset.png)
 
@@ -100,13 +100,13 @@ Als u de inhoud opnieuw wilt gebruiken in een weergave, bladert u naar de **Elem
 
 Als u inhoud van een externe openbare locatie wilt toevoegen, selecteert u **[!UICONTROL URL]** Voer vervolgens het URL-adres in van de inhoud die u wilt toevoegen.
 
-U kunt URL&#39;s personaliseren met de Expressieeditor. Meer informatie over [personalisatie](../../personalization/personalize.md#use-expression-editor).
+U kunt URLs personaliseren gebruikend de verpersoonlijkingsredacteur. Meer informatie over [personalisatie](../../personalization/personalize.md#use-expression-editor).
 
 ![](../assets/offer-content-url.png)
 
 U wilt bijvoorbeeld de afbeelding aanpassen die als een aanbieding wordt weergegeven. Je wilt dat gebruikers die de voorkeur geven aan vakanties in de stad de skyline NYC zien en gebruikers die de voorkeur geven aan strandvakanties om de noordkust van Hawaii te zien.
 
-Gebruik de Redacteur van de Uitdrukking om de attributen van het Profiel terug te winnen die in Adobe Experience Platform worden opgeslagen gebruikend unieschema&#39;s. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
+Gebruik de verpersoonlijkingsredacteur om de attributen van het Profiel terug te winnen die in Adobe Experience Platform worden opgeslagen gebruikend verenigingsschema&#39;s. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
 
 ![](../assets/offer-content-url-personalization.png)
 
@@ -128,7 +128,7 @@ U kunt ook teksttype-inhoud invoegen wanneer u een compatibele plaatsing selecte
 
    ![](../assets/offer-text-content.png)
 
-   U kunt de inhoud personaliseren met de uitdrukkingseditor. Meer informatie over [personalisatie](../../personalization/personalize.md#use-expression-editor).
+   U kunt uw inhoud personaliseren gebruikend de verpersoonlijkingsredacteur. Meer informatie over [personalisatie](../../personalization/personalize.md#use-expression-editor).
 
    ![](../assets/offer-personalization.png)
 

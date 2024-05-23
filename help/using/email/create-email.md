@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: maken, e-mail, starten, reizen, campagne
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: f2037f559826d7cca243092de200c97841c49b35
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '832'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -56,7 +56,7 @@ Voor meer informatie over hoe te om een reis te vormen, raadpleeg [deze pagina](
 
    ![](assets/email_campaign.png)
 
-1. Klik op **[!UICONTROL Create]**.
+1. Klikken **[!UICONTROL Create]**.
 
 1. Voer de stappen uit om een e-mailcampagne te maken, zoals de eigenschappen van de campagne, [publiek](../audience/about-audiences.md), en [schema](../campaigns/create-campaign.md#schedule).
 
@@ -89,7 +89,7 @@ Voor meer informatie over hoe te om een campagne te vormen, raadpleeg [deze pagi
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. Voeg een onderwerpregel voor uw bericht toe. Om de onderwerpregel met de uitdrukkingsredacteur te vormen en te personaliseren, klik **[!UICONTROL Open personalization dialog]** pictogram. [Meer informatie](../personalization/personalization-build-expressions.md)
+1. Voeg een onderwerpregel voor uw bericht toe. Om de onderwerpregel met de verpersoonlijkingsredacteur te vormen en te personaliseren, klik **[!UICONTROL Open personalization dialog]** pictogram. [Meer informatie](../personalization/personalization-build-expressions.md)
 
 1. Klik op de knop **[!UICONTROL Edit email body]** om toegang te krijgen tot de e-mailontwerper en uw inhoud op te bouwen. [Meer informatie](get-started-email-design.md)
 
@@ -169,7 +169,7 @@ Use [!DNL Journey Optimizer] Email Designer to [design your email from scratch](
 
 [!DNL Journey Optimizer] comes with a set of [built-in templates](email-templates.md) to help you start. Any email can also be saved as a template.
 
-Use [!DNL Journey Optimizer] Expression editor to personalize your messages with profiles' data. For more on personalization, refer to [this section](../personalization/personalize.md).
+Use [!DNL Journey Optimizer] personalization editor to personalize your messages with profiles' data. For more on personalization, refer to [this section](../personalization/personalize.md).
 
 Adapt the content of your messages to the targeted profiles by using [!DNL Journey Optimizer] dynamic content capabilities. [Get started with dynamic content](../personalization/get-started-dynamic-content.md)
 

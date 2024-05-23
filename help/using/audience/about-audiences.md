@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1854'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
->title="Doelgroep"
+>title="Publiek"
 >abstract="Met Adobe Experience Platform kunt u eenvoudig segmentdefinities maken door gebruik te maken van realtime klantprofielgegevens. Zo kunt u doelgroepen maken die de unieke gedragingen en voorkeuren van uw klanten vastleggen."
 
 >[!CONTEXTUALHELP]
@@ -86,7 +86,7 @@ Nadat verrijkingskenmerken aan een veldgroep zijn toegevoegd, kunt u deze op ver
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 
-* **Je berichten personaliseren** tijdens reizen of campagnes door verrijkingskenmerken toe te voegen van het doelpubliek in de Expressie-editor. [Leer hoe u met de Expressieeditor werkt](../personalization/personalization-build-expressions.md)
+* **Je berichten personaliseren** bij reizen of campagnes door verrijkingskenmerken van het doelpubliek toe te voegen in de personalisatie-editor. [Leer hoe u met de verpersoonlijkingseditor werkt](../personalization/personalization-build-expressions.md)
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
@@ -120,7 +120,7 @@ De segmentatie van de partij is een alternatief aan het stromen segmentatie die 
 
 +++ Randsegmentatie
 
-Randsegmentatie is de mogelijkheid om segmenten in Adobe Experience Platform ogenblikkelijk te evalueren [op de rand](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}, enabling same-page and next-page personalization use cases. Currently only select query types can be evaluated with edge segmentation. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
+Randsegmentatie is de mogelijkheid om segmenten in Adobe Experience Platform ogenblikkelijk te evalueren [op de rand](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}en maakt het gebruik van hoofdletters en kleine letters mogelijk voor het aanpassen van pagina&#39;s. Momenteel kunnen alleen bepaalde querytypen worden geëvalueerd met randsegmentatie. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
 
 +++
 
@@ -175,7 +175,7 @@ De doelgroepen van de samenstelling van de doelgroep en de aangepaste upload kun
   >
   >Als &#39;Incrementeel lezen&#39; tijdens een terugkerende rit is ingeschakeld voor een aangepast uploadpubliek, worden profielen alleen bij de eerste terugkerende actie opgehaald, omdat deze doelgroepen vast zijn.
 
-Bovendien, zijn deze publiek beschikbaar voor gebruik in de redacteur van de Uitdrukking om uw berichten in reizen en campagnes te personaliseren. [Leer hoe u met de Expressieeditor werkt](../personalization/personalization-build-expressions.md)
+Bovendien, zijn deze publiek beschikbaar voor gebruik in de verpersoonlijkingsredacteur om uw berichten in reizen en campagnes te personaliseren. [Leer hoe u met de verpersoonlijkingseditor werkt](../personalization/personalization-build-expressions.md)
 
 +++
 

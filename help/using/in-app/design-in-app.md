@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, bericht, ontwerp, opmaak
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
@@ -46,15 +46,15 @@ Van de **[!UICONTROL Message Layout]** , selecteert u een van de vier verschille
 
 ![](assets/in_app_web_design_1.png)
 
-* **[!UICONTROL Fullscreen]**: Dit type lay-out bedekt het volledige scherm van de apparaten van uw doelgroep.
+* **[!UICONTROL Fullscreen]**: Dit type lay-out bedekt het volledige scherm van uw publieksapparaten.
 
-  Media- (afbeeldingen, video), tekst- en knopcomponenten worden ondersteund.
+  De klasse ondersteunt media (afbeeldingen, video), tekst en knopcomponenten.
 
-* **[!UICONTROL Modal]**: Deze lay-out wordt weergegeven in een groot waarschuwingsvenster. Uw applicatie is op de achtergrond nog steeds zichtbaar.
+* **[!UICONTROL Modal]**: Deze lay-out wordt weergegeven in een groot waarschuwingsvenster en de toepassing is nog steeds zichtbaar op de achtergrond.
 
-  Media- (afbeeldingen, video), tekst- en knopcomponenten worden ondersteund.
+  De klasse ondersteunt media (afbeeldingen, video), tekst en knopcomponenten.
 
-* **[!UICONTROL Banner]**: Dit type lay-out wordt weergegeven als een waarschuwingsbericht van het besturingssysteem.
+* **[!UICONTROL Banner]**: Dit type lay-out wordt weergegeven als een waarschuwingsbericht voor het native besturingssysteem.
 
   U kunt alleen een **[!UICONTROL Header]** en **[!UICONTROL Body]** aan uw bericht.
 
@@ -62,7 +62,7 @@ Van de **[!UICONTROL Message Layout]** , selecteert u een van de vier verschille
 
    * Selecteren **[!UICONTROL Compose]** om de onbewerkte HTML-code in te voeren of te plakken.
 
-     Gebruik het linkerdeelvenster om de personalisatiemogelijkheden van Journey Optimizer te benutten. Raadpleeg [deze sectie](../personalization/personalize.md) voor meer informatie.
+     Gebruik het linkerdeelvenster om de personalisatiemogelijkheden van Journey Optimizer te benutten. Raadpleeg voor meer informatie hierover [deze sectie](../personalization/personalize.md).
 
    * Selecteren **[!UICONTROL Import]** om het HTML- of ZIP-bestand met uw HTML-inhoud te importeren.
 
@@ -124,7 +124,7 @@ Als u uw bericht wilt samenstellen, voert u de inhoud in het dialoogvenster **[!
 
 ![](assets/in_app_web_design_4.png)
 
-Gebruik de **[!UICONTROL Personalization]** pictogram om personalisatie toe te voegen. Meer informatie over personalisatie in de Adobe Journey Optimizer Expression Editor [in deze sectie](../personalization/personalize.md).
+Gebruik de **[!UICONTROL Personalization]** pictogram om personalisatie toe te voegen. Meer informatie over personalisatie in de Adobe Journey Optimizer personalization editor [in deze sectie](../personalization/personalize.md).
 
 +++Meer opties met geavanceerde opmaak
 

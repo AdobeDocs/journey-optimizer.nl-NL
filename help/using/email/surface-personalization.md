@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 56c2708408d15286f008c9f2c16581ce0f0a1c4e
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Voor meer flexibiliteit en controle over uw e-mailinstellingen [!DNL Journey Opt
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain"
 >title="Dynamische subdomeinen inschakelen"
->abstract="Wanneer u een e-mailoppervlak maakt, kunt u dynamische subdomeinen instellen op basis van voorwaarden die u definieert met de Expressieeditor. U kunt maximaal 50 dynamische subdomeinen toevoegen."
+>abstract="Wanneer u een e-mailoppervlak maakt, kunt u dynamische subdomeinen instellen op basis van voorwaarden die u met de verpersoonlijkingseditor definieert. U kunt maximaal 50 dynamische subdomeinen toevoegen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_subdomain_list"
@@ -65,7 +65,7 @@ Voer de onderstaande stappen uit om dynamische subdomeinen in een oppervlak van 
 
 1. Selecteer het pictogram Bewerken naast de eerste **[!UICONTROL Condition]** veld.
 
-1. De [Expressieeditor](../personalization/personalization-build-expressions.md) wordt geopend. In dit voorbeeld stelt u een voorwaarde in, zoals `Country` equals `US`.
+1. De [personalisatie-editor](../personalization/personalization-build-expressions.md) wordt geopend. In dit voorbeeld stelt u een voorwaarde in, zoals `Country` equals `US`.
 
    ![](assets/surface-email-edit-condition.png)
 
@@ -118,7 +118,7 @@ Volg onderstaande stappen om gepersonaliseerde variabelen voor de parameters van
 
    ![](assets/surface-email-personalize-header.png)
 
-1. De [Expressieeditor](../personalization/personalization-build-expressions.md) wordt geopend. Bepaal uw voorwaarde zoals gewenst en sla uw wijzigingen op.
+1. De [personalisatie-editor](../personalization/personalization-build-expressions.md) wordt geopend. Bepaal uw voorwaarde zoals gewenst en sla uw wijzigingen op.
 
    Stel bijvoorbeeld een voorwaarde in, zodat elke ontvanger een e-mail ontvangt van zijn eigen merkvertegenwoordiger.
 
@@ -137,7 +137,7 @@ Volg onderstaande stappen om gepersonaliseerde variabelen voor de parameters van
 
 To use personalized URL tracking prameters, follow the steps below.
 
-1. Select the profile attribute of your choice from the expression editor.
+1. Select the profile attribute of your choice from the personalization editor.
 
 1. Repeat the steps above for each tracking parameter you want to personalize.
 
@@ -150,9 +150,9 @@ Wanneer u een oppervlak gebruikt met gepersonaliseerde instellingen in een campa
 
 1. Een e-mail maken [campagne](../campaigns/create-campaign.md) of [reis](../building-journeys/journey-gs.md).
 
-1. Selecteer de knop **[!UICONTROL Edit content]**.
+1. Selecteer de **[!UICONTROL Edit content]** knop.
 
-1. Klik op de knop **[!UICONTROL View surface details]**.
+1. Klik op de knop **[!UICONTROL View surface details]** knop.
 
    ![](assets/campaign-view-surface-details.png)
 

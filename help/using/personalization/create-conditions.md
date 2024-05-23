@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, voorwaardelijk, regels
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 3f96cc0037b5bcdb2ce94e2721b02ba13b3cff36
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Voorwaardelijke regels zijn sets regels die bepalen welke inhoud in uw berichten moet worden weergegeven, afhankelijk van verschillende criteria zoals de kenmerken van profielen, het lidmaatschap van het publiek of contextuele gebeurtenissen.
 
-Voorwaardelijke regels worden gecreeerd gebruikend de uitdrukkingsredacteur en kunnen worden opgeslagen als u hen over uw inhoud wilt opnieuw gebruiken. [Leer hoe u een voorwaardelijke regel opslaat in de bibliotheek](#save)
+Voorwaardelijke regels worden gecreeerd gebruikend de verpersoonlijkingsredacteur en kunnen worden opgeslagen als u hen over uw inhoud wilt opnieuw gebruiken. [Leer hoe u een voorwaardelijke regel opslaat in de bibliotheek](#save)
 
 >[!NOTE]
 >
@@ -28,13 +28,13 @@ Voorwaardelijke regels worden gecreeerd gebruikend de uitdrukkingsredacteur en k
 
 ## Toegang krijgen tot de constructor voor voorwaardelijke regels {#access}
 
-Voorwaardelijke regels worden gemaakt op basis van de **[!UICONTROL Conditions]** menu in de expressieeditor, die toegankelijk is:
+Voorwaardelijke regels worden gemaakt op basis van de **[!UICONTROL Conditions]** menu in de verpersoonlijkingseditor, die toegankelijk is:
 
 * Vanuit de e-mailontwerper, bij het inschakelen van dynamische inhoud voor een component in de hoofdtekst van de e-mail. [Leer hoe u dynamische inhoud toevoegt aan e-mails](dynamic-content.md#emails)
 
   ![](assets/conditions-access-email.png)
 
-* Op elk gebied waar u verpersoonlijking kunt toevoegen gebruikend [Expressieeditor](personalization-build-expressions.md).
+* Op elk gebied waar u verpersoonlijking kunt toevoegen gebruikend [personalisatie-editor](personalization-build-expressions.md).
 
   ![](assets/conditions-access-editor.png)
 
@@ -52,7 +52,7 @@ Voorwaardelijke regels worden gemaakt op basis van de **[!UICONTROL Conditions]*
 
 U kunt als volgt een voorwaardelijke regel maken:
 
-1. Toegang krijgen tot de **[!UICONTROL Conditions]** in de Expressieeditor of de E-mailontwerper en klik vervolgens op **[!UICONTROL Create new]**.
+1. Toegang krijgen tot de **[!UICONTROL Conditions]** in de verpersoonlijkingseditor of de e-mailontwerper en klik vervolgens op **[!UICONTROL Create new]**.
 
 1. Bouw de voorwaardelijke regel volgens uw behoeften. U doet dit door de gewenste kenmerken vanuit het linkermenu naar het canvas te slepen en neer te zetten.
 

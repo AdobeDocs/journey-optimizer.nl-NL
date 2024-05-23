@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 4%
+source-wordcount: '688'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_message_push"
 >title="Push message creation"
->abstract="Voeg uw pushbericht toe en pas het aan met de Expressieeditor."
+>abstract="Voeg uw pushbericht toe en begin het aan te passen met de verpersoonlijkingseditor."
 
 ## Maak de pushmelding tijdens een reis of campagne {#create}
 
@@ -58,7 +58,7 @@ Voer de onderstaande stappen uit om een pushmelding te maken:
 
    ![](assets/push_create_3.png)
 
-1. Klik op **[!UICONTROL Create]**.
+1. Klikken **[!UICONTROL Create]**.
 
 1. Van de **[!UICONTROL Properties]** sectie, uw campagne bewerken **[!UICONTROL Title]** en **[!UICONTROL Description]**.
 
@@ -94,7 +94,7 @@ Voer de onderstaande stappen uit om een pushmelding te maken:
 **Verwante onderwerpen**
 
 * [Pushkanaal configureren](push-gs.md)
-* [Een bericht toevoegen in een journey](../building-journeys/journeys-message.md)
+* [Een bericht toevoegen tijdens een rit](../building-journeys/journeys-message.md)
 
 ## Snelle leveringsmodus {#rapid-delivery}
 
@@ -124,7 +124,7 @@ Snelle levering overseinen komt met de volgende vereisten:
 
 ![](assets/create-campaign-burst.png)
 
-1. Vorm de berichtinhoud en selecteer het publiek om te richten. [Leer een campagne maken](#create)
+1. Vorm de berichtinhoud en selecteer het publiek om te richten. [Leer hoe u een campagne maakt](#create)
 
    >[!IMPORTANT]
    >

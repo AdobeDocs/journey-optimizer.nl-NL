@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 30018b08da7c02d9d9aac431db2fa39f91163cfd
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ In de volgende secties vindt u informatie over het beheren van opt-out in Journe
 
 >[!NOTE]
 >
->In [!DNL Journey Optimizer], wordt de toestemming door het Experience Platform afgehandeld [Goedkeuringsschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. By default, the value for the consent field is empty and treated as consent to receive your communications. You can modify this default value while onboarding to one of the possible values listed [here](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}.
+>In [!DNL Journey Optimizer], wordt de toestemming door het Experience Platform afgehandeld [Goedkeuringsschema](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"}. Standaard is de waarde voor het veld voor toestemming leeg en wordt deze behandeld als toestemming voor het ontvangen van uw communicatie. U kunt deze standaardwaarde wijzigen terwijl u aan boord gaat tot een van de mogelijke vermelde waarden [hier](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"}.
 
 ## Persoonlijkheidsgoedkeuring implementeren {#opt-out-personalization}
 
@@ -98,9 +98,9 @@ Als een gebruiker:
 >
 >Toestemming voor het gebruik van profielgegevens in [gegevensmodellering](../offers/ranking/ai-models.md) wordt nog niet ondersteund in [!DNL Journey Optimizer].
 
-### In de expressie-editor {#opt-out-expression-editor}
+### In de verpersoonlijkingsredacteur {#opt-out-expression-editor}
 
-De [Expression-editor](../personalization/personalization-build-expressions.md) zelf voert geen toestemmingscontroles of handhaving uit, aangezien het niet betrokken is bij de levering van berichten.
+De [personalisatie-editor](../personalization/personalization-build-expressions.md) zelf voert geen toestemmingscontroles of handhaving uit, aangezien het niet betrokken is bij de levering van berichten.
 
 Nochtans, staat het gebruik van op recht-gebaseerde etiketten van de toegangscontrole toe om te beperken welke gebieden voor verpersoonlijking kunnen worden gebruikt. De [berichtvoorbeeld](../content-management/preview.md) en [e-mailrenderservice](../content-management/rendering.md) de velden die met gevoelige informatie zijn aangeduid, maskeren.
 
@@ -132,7 +132,7 @@ U kunt de bouwer van de segmentregel gebruiken om een publiek tot stand te breng
 
    ![](assets/perso-consent-audience-no.png)
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klikken **[!UICONTROL Save]**.
 
 U kunt dit publiek nu gebruiken om profielen die geen toestemming voor personalisatie hebben gegeven, uit uw campagnes te filteren.
 

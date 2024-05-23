@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: expression, editor, dynamic, content
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Met Adobe Journey Optimizer kunt u voorwaardelijke regels die in de bibliotheek zijn gemaakt, gebruiken om dynamische inhoud aan uw berichten toe te voegen.
 
-Dynamische inhoud kan worden gemaakt in elk veld waarin u personalisatie kunt toevoegen met de Expressieeditor. Dit zijn onder andere onderwerpregel, koppelingen, inhoud van pushberichten of representaties van teksttypeaanbiedingen. [Meer informatie over verpersoonlijkingscontexten](personalization-contexts.md)
+Dynamische inhoud kan in elk veld worden gemaakt waarin u personalisatie kunt toevoegen met de verpersoonlijkingseditor. Dit zijn onder andere onderwerpregel, koppelingen, inhoud van pushberichten of representaties van teksttypeaanbiedingen. [Meer informatie over verpersoonlijkingscontexten](personalization-contexts.md)
 
 Bovendien kunt u voorwaardelijke regels gebruiken in de e-mailontwerper om meerdere varianten van een inhoudscomponent te maken.
 
@@ -28,7 +28,7 @@ Bovendien kunt u voorwaardelijke regels gebruiken in de e-mailontwerper om meerd
 
 U kunt als volgt dynamische inhoud in expressies toevoegen:
 
-1. Navigeer naar het veld waaraan u dynamische inhoud wilt toevoegen en open vervolgens de Expressieeditor.
+1. Navigeer naar het veld waaraan u dynamische inhoud wilt toevoegen en open vervolgens de verpersoonlijkingseditor.
 
 1. Selecteer de **[!UICONTROL Conditions]** om de lijst met beschikbare voorwaardelijke regels weer te geven. Klik op + naast een regel om deze toe te voegen aan de huidige expressie.
 
@@ -50,12 +50,12 @@ U kunt als volgt dynamische inhoud in expressies toevoegen:
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content"
->title="Voorwaardelijke content"
+>title="Voorwaardelijke inhoud"
 >abstract="Gebruik voorwaardelijke regels om meerdere varianten van een inhoudscomponent te maken. Als aan geen van de voorwaarden wanneer het verzenden van het bericht wordt voldaan, zal de inhoud van de Standaardvariant tonen."
 
 >[!CONTEXTUALHELP]
 >id="ac_conditional_content_select"
->title="Voorwaardelijke content"
+>title="Voorwaardelijke inhoud"
 >abstract="Gebruik een voorwaardelijke regel die u in de bibliotheek hebt opgeslagen of maak een nieuwe regel."
 
 U kunt als volgt varianten van een inhoudscomponent maken in E-mailontwerper:

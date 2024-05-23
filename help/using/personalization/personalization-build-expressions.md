@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: De expressie-editor
-description: Leer hoe u met de Expressieeditor werkt.
+title: Informatie over de verpersoonlijkingseditor
+description: Leer hoe u met de verpersoonlijkingseditor werkt.
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: expression, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
 
 ---
 
-# Aan de slag met de Expressieeditor {#build-personalization-expressions}
+# Aan de slag met de personalisatie-editor {#build-personalization-expressions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"
->title="De expressie-editor"
->abstract="Met de Expressieeditor kunt u alle gegevens selecteren, rangschikken, aanpassen en valideren om een aangepaste personalisatie voor uw inhoud te maken."
+>title="Informatie over de verpersoonlijkingseditor"
+>abstract="Met de verpersoonlijkingseditor kunt u alle gegevens selecteren, rangschikken, aanpassen en valideren om een aangepaste verpersoonlijking voor uw inhoud te maken."
 
-De redacteur van de Uitdrukking is het middelstuk van de verpersoonlijking in [!DNL Journey Optimizer]. Het is beschikbaar in elke context waarin u personalisatie als e-mail, push en aanbiedingen moet definiëren.
+De verpersoonlijkingsredacteur is het belangrijkste stuk van de verpersoonlijking in [!DNL Journey Optimizer]. Het is beschikbaar in elke context waarin u personalisatie als e-mail, push en aanbiedingen moet definiëren.
 
-In de interface van de uitdrukkingsredacteur, zult u, alle gegevens selecteren schikken aanpassen en bevestigen om een aangepaste verpersoonlijking voor uw inhoud tot stand te brengen.
+In de interface van de verpersoonlijkingsredacteur, zult u, alle gegevens selecteren schikken aanpassen en bevestigen om een aangepaste verpersoonlijking voor uw inhoud tot stand te brengen.
 
 ![](assets/perso_ee1.png)
 
@@ -53,8 +53,8 @@ Daarnaast kunt u standaardfallback-tekst definiëren die wordt weergegeven als e
 
 ![](assets/attribute-details.png)
 
-In het volgende voorbeeld, laat de uitdrukkingsredacteur u de profielen selecteren die hun verjaardag vandaag hebben dan de aanpassing voltooien door een specifieke aanbieding op te nemen die aan deze dag beantwoordt.
+In het volgende voorbeeld, laat de verpersoonlijkingsredacteur u de profielen selecteren die hun verjaardag vandaag dan voltooien de aanpassing door een specifieke aanbieding op te nemen die aan deze dag beantwoordt.
 
 ![](assets/perso_ee2.png)
 
-Zodra uw verpersoonlijkingsuitdrukking klaar is, moet u het hebben door de redacteur van de Uitdrukking worden bevestigd. Meer informatie in [deze sectie](personalization-validation.md).
+Zodra uw verpersoonlijkingsuitdrukking klaar is, moet u het hebben door de verpersoonlijkingsredacteur worden bevestigd. Meer informatie in [deze sectie](personalization-validation.md).

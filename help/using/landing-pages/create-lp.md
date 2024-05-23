@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landen, pagina landen, maken, publiceren
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 7122dff12aea6c5954087e2667b28bbc9f7695de
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -158,7 +158,7 @@ Voer de onderstaande stappen uit om de instellingen voor de primaire pagina te d
 
    ![](assets/lp_expiry-date.png)
 
-1. In de **[!UICONTROL Additional data]** , definieert u een of meer sleutels en de bijbehorende parameterwaarden. U kunt deze toetsen gebruiken in de inhoud van uw primaire pagina en subpagina&#39;s met de opdracht [Expression-editor](../personalization/personalization-build-expressions.md). Meer informatie in [deze sectie](lp-content.md#use-form-component#use-additional-data).
+1. In de **[!UICONTROL Additional data]** , definieert u een of meer sleutels en de bijbehorende parameterwaarden. U kunt deze toetsen gebruiken in de inhoud van uw primaire pagina en subpagina&#39;s met de opdracht [personalisatie-editor](../personalization/personalization-build-expressions.md). Meer informatie in [deze sectie](lp-content.md#use-form-component#use-additional-data).
 
    ![](assets/lp_create-lp-additional-data.png)
 

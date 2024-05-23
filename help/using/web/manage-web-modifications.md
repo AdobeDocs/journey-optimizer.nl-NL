@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 1%
+source-wordcount: '896'
+ht-degree: 0%
 
 ---
 
@@ -60,7 +60,7 @@ Wanneer u een pagina bewerkt met de webontwerper, kunt u nieuwe wijzigingen rech
 
 1. Van de **[!UICONTROL Modifications]** klikt u op het deelvenster **[!UICONTROL More actions]** knop.
 
-1. Selecteer **[!UICONTROL Add a modification]**.
+1. Selecteren **[!UICONTROL Add a modification]**.
 
    ![](assets/web-designer-add-modification.png)
 
@@ -118,11 +118,11 @@ Als u een **Pagina`<head>`** als u tekst wilt wijzigen, volgt u de onderstaande 
    >
    >U kunt alleen toevoegen `<script>` en `<style>` aan de `<head>` sectie. Toevoegen `<div>` tags en andere elementen kunnen de resterende `<head>` elementen die in de `<body>`.
 
-1. Klik op de knop **[!UICONTROL Advanced editing options]**. De expressie-editor wordt geopend.
+1. Klik op de knop **[!UICONTROL Advanced editing options]** knop. De verpersoonlijkingsredacteur opent.
 
    ![](assets/web-designer-add-modification-head-advanced.png)
 
-   U kunt de [!DNL Journey Optimizer] De redacteur van de uitdrukking met al zijn verpersoonlijking en auteursmogelijkheden. [Meer informatie](../personalization/personalization-build-expressions.md)
+   U kunt de [!DNL Journey Optimizer] verpersoonlijkingsredacteur met al zijn verpersoonlijking en auteursmogelijkheden. [Meer informatie](../personalization/personalization-build-expressions.md)
 
 #### Aangepaste codevoorbeelden {#custom-code-examples}
 

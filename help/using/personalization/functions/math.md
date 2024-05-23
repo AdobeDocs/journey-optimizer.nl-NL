@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
 # Wiskundige functies {#math}
 
-Leer hoe te om functies Math in de redacteur van de Uitdrukking te gebruiken.
+Leer hoe te om functies Math in de verpersoonlijkingsredacteur te gebruiken.
 
 ## Absoluut {#absolute}
 

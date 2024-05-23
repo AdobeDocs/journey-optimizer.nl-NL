@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 1%
@@ -35,11 +35,11 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
    >
    >Zorg ervoor dat het oppervlak-URI dat in uw op code gebaseerde campagne wordt gebruikt, overeenkomt met het oppervlak dat in uw eigen implementatie wordt gebruikt. Anders worden de wijzigingen niet doorgevoerd.
 
-1. Selecteer **[!UICONTROL Create]**.
+1. Selecteren **[!UICONTROL Create]**.
 
 1. Voltooi de stappen om een campagne te creëren, zoals de campagneeigenschappen, [publiek](../audience/about-audiences.md), en [schema](../campaigns/create-campaign.md#schedule). Voor meer informatie over hoe te om een campagne te vormen, raadpleeg [deze pagina](../campaigns/get-started-with-campaigns.md).
 
-1. Bewerk de inhoud naar wens met de Expressieeditor. [Meer informatie](#edit-code)
+1. Bewerk de inhoud naar wens met behulp van de verpersoonlijkingseditor. [Meer informatie](#edit-code)
 
    ![](assets/code-based-campaign-edit-content.png)
 
@@ -47,15 +47,15 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_experience"
->title="De expressie-editor gebruiken"
+>title="De personalisatie-editor gebruiken"
 >abstract="Voeg de code die u wilt leveren in en bewerk deze als onderdeel van deze op code gebaseerde ervaringsactie."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="Aan de slag met de Expressieeditor"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="Aan de slag met de personalisatie-editor"
 
 1. Selecteer in het scherm Campagne **[!UICONTROL Edit code]**.
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. De [Expression-editor](../personalization/personalization-build-expressions.md) wordt geopend. Het is een niet-visuele interface van de ervaringsverwezenlijking die u toestaat om uw code te ontwerpen.
+1. De [personalisatie-editor](../personalization/personalization-build-expressions.md) wordt geopend. Het is een niet-visuele interface van de ervaringsverwezenlijking die u toestaat om uw code te ontwerpen.
 
 1. U kunt de ontwerpmodus wijzigen van HTML in JSON en andersom.
 
@@ -65,7 +65,7 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
    >
    >Als u de ontwerpmodus wijzigt, gaan al uw huidige code verloren. Zorg er dus voor dat u overschakelt naar een andere modus voordat u begint met ontwerpen.
 
-1. Voer de gewenste code in. U kunt de [!DNL Journey Optimizer] De redacteur van de uitdrukking met al zijn verpersoonlijking en auteursmogelijkheden. [Meer informatie](../personalization/personalization-build-expressions.md)
+1. Voer de gewenste code in. U kunt de [!DNL Journey Optimizer] verpersoonlijkingsredacteur met al zijn verpersoonlijking en auteursmogelijkheden. [Meer informatie](../personalization/personalization-build-expressions.md)
 
 1. U kunt desgewenst HTML- of JSON-uitdrukkingsfragmenten toevoegen. [Meer informatie](../personalization/use-expression-fragments.md)
 
@@ -97,7 +97,7 @@ Volg de onderstaande stappen om een voorvertoning weer te geven van uw aangepast
 >
 >U moet testprofielen beschikbaar hebben om te simuleren welke aanbiedingen aan hen zullen worden geleverd. Leer hoe u [testprofielen maken](../audience/creating-test-profiles.md).
 
-1. Selecteer in de expressieeditor of in het inhoudsscherm de optie **[!UICONTROL Simulate content]**.
+1. Van of de verpersoonlijkings redacteur of geef inhoudsscherm uit, uitgezocht **[!UICONTROL Simulate content]**.
 
    ![](assets/code-based-campaign-simulate.png)
 
@@ -126,7 +126,7 @@ Nadat u de campagne op basis van code hebt gedefinieerd en de inhoud naar wens h
 
 1. Controleer en bewerk indien nodig de inhoud, eigenschappen, oppervlak, publiek en planning.
 
-1. Selecteer **[!UICONTROL Activate]**.
+1. Selecteren **[!UICONTROL Activate]**.
 
    ![](assets/code-based-campaign-activate.png)
 

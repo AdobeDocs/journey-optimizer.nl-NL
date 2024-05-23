@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="Beperkte beschikbaarheid"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 5b36d082e054b7b75b09bd0392f9a58527a9c0a3
+source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '1456'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -159,13 +159,13 @@ De gerangschikte voorstellen zijn nu als volgt: Voorstel 5, voorstel 3, voorstel
 
 ## Het beslissingsbeleid in de code-editor gebruiken {#use-decision-policy}
 
-Zodra gecreeerd, kan het besluitvormingsbeleid in worden gebruikt [Expression-editor](../code-based/create-code-based.md#edit-code). Volg de onderstaande stappen om dit te doen.
+Zodra gecreeerd, kan het besluitvormingsbeleid in worden gebruikt [personalisatie-editor](../code-based/create-code-based.md#edit-code). Volg de onderstaande stappen om dit te doen.
 
 >[!NOTE]
 >
->De op code gebaseerde ervaring gebruikt de [!DNL Journey Optimizer] De redacteur van de uitdrukking met al zijn verpersoonlijking en auteursmogelijkheden. [Meer informatie](../personalization/personalization-build-expressions.md)
+>De op code gebaseerde ervaring gebruikt de [!DNL Journey Optimizer] verpersoonlijkingsredacteur met al zijn verpersoonlijking en auteursmogelijkheden. [Meer informatie](../personalization/personalization-build-expressions.md)
 
-1. Klik op de knop **[!UICONTROL Insert policy]**. De code die overeenkomt met het beslissingsbeleid wordt toegevoegd.
+1. Klik op de knop **[!UICONTROL Insert policy]** knop. De code die overeenkomt met het beslissingsbeleid wordt toegevoegd.
 
    ![](assets/decision-code-based-add-decision.png)
 
@@ -186,7 +186,7 @@ Zodra gecreeerd, kan het besluitvormingsbeleid in worden gebruikt [Expression-ed
 
    ![](assets/decision-code-based-add-decision-attributes.png)
 
-1. U kunt ook alle andere kenmerken toevoegen die beschikbaar zijn in de expressie-editor, zoals profielkenmerken.
+1. U kunt ook alle andere kenmerken toevoegen die beschikbaar zijn in de verpersoonlijkingseditor, zoals profielkenmerken.
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
 
