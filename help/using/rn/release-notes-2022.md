@@ -7,15 +7,16 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
+hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 4461100b19bd84a75f036e300e88c47b9b20db9b
 workflow-type: tm+mt
 source-wordcount: '3603'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
-# Aanvullende informatie 2022 {#release-notes-2022}
+# Opmerkingen bij de release 2022 {#release-notes-2022}
 
 Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] vrijgegeven in 2022.
 
@@ -51,7 +52,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 
 * De **Herkomst forceren bij herhaling** Deze optie is toegevoegd aan parameters voor terugkerende publieksprogramma&#39;s. Met deze optie kunt u alle profielen die zich nog in de reis bevinden, automatisch laten afsluiten bij de volgende uitvoering. Wanneer de optie is gedeactiveerd, moeten profielen de reis beëindigen alvorens zij in een ander voorkomen kunnen opnieuw ingaan. [Meer informatie](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
-**Beheer**
+**Administratie**
 
 * Er is een bericht toegevoegd aan de gebruikersinterface om te waarschuwen dat subdomein, landende paginasubdomain, PTR-record en IP-poolconfiguraties algemeen gelden voor alle sandboxen en dat elke wijziging aan een van deze configuraties dus ook van invloed is op de productiesandboxen.
 * De stappen voor het uploaden van de suppressielijst als een CSV-bestand vanuit de gebruikersinterface zijn gewijzigd. [Meer informatie](../configuration/manage-suppression-list.md#download-suppression-list)
@@ -213,7 +214,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 * De **Entiteitsgegevens** is nu beschikbaar als out-of-the-box dataset in Adobe Journey Optimizer. Deze raadplegingsdataset omvat meta- gegevens om het volgen te verrijken en datasetinformatie terug te koppelen. Dit zal u helpen uw rapporten en vragen met begrijpelijkere gegevens verbeteren. [Meer informatie](../data/datasets-query-examples.md#entity-dataset)
 * Er is een nieuwe guardrail toegevoegd aan de unitaire reizen (te beginnen met een evenement of een kwalificatie van het publiek) om te voorkomen dat ritten meerdere keren ten onrechte worden gestart voor hetzelfde evenement. De terugkeer van het profiel wordt nu tijdelijk geblokkeerd door gebrek voor 5 minuten. [Meer informatie](../start/guardrails.md#events-g)
 
-**Beheer**
+**Administratie**
 
 * Wanneer u de lijst van gewenste personen activeert of deactiveert, wordt nu een nieuwe waarschuwing weergegeven waarin de effecten van elke actie worden beschreven. [Meer informatie](../configuration/allow-list.md#enable-allow-list)
 * De gebruikersinterface voor het creëren van kanaaloppervlakten, het creëren van IP pools, het beheren van de suppressielijst en de lijst van gewenste personen, en het vormen van het kanaal van SMS is bijgewerkt.
@@ -222,7 +223,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 
 **Controles van audits**
 
-* Met Journey Optimizer kunt u acties identificeren die door gebruikers in het systeem worden uitgevoerd op verschillende services en mogelijkheden, zoals campagnes, reizen, berichten, landingspagina&#39;s, enz. De middelen van het logboek van de controle omvatten nu veranderingen op diverse andere acties, en worden automatisch geregistreerd aangezien de activiteit voorkomt. Meer informatie vindt u [op deze pagina](../privacy/audit-logs.md).
+* Met Journey Optimizer kunt u acties identificeren die door gebruikers in het systeem worden uitgevoerd op verschillende services en mogelijkheden, zoals campagnes, reizen, berichten, landingspagina&#39;s, enz. De middelen van het logboek van de controle omvatten nu veranderingen op diverse andere acties, en worden automatisch geregistreerd aangezien de activiteit voorkomt. Meer informatie [op deze pagina](../privacy/audit-logs.md).
 
 **Ondersteuning voor archivering**
 
@@ -236,7 +237,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 
 <!--* You can now use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.-->
 
-### Andere wijzigingen{#sept-2022-other}
+### Overige wijzigingen{#sept-2022-other}
 
 * Modus Reisexplosie is vervangen door Modus Snelle levering campagne. [Meer informatie](../push/create-push.md#rapid-delivery)
 * Om de prestaties te verbeteren, kunnen de groepen van het de gebeurtenisgebied van de Ervaring niet meer worden gebruikt in reizen die met een Gelezen publiek, een kwalificatie van het Publiek of een bedrijfsgebeurtenisactiviteit beginnen. Deze wijziging geldt alleen voor nieuwe reizen. De bestaande zullen het huidige gedrag houden. [Meer informatie](../start/guardrails.md#expression-editor)
@@ -309,7 +310,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 
   Als u toegang wilt hebben tot de meest recente widgets, moet u de verschillende rapportdashboards opnieuw instellen. Raadpleeg voor meer informatie over het aanpassen van het dashboard [de gedetailleerde documentatie](../reports/global-report.md).
 
-**Beheer**
+**Administratie**
 
 * Het is nu mogelijk om het primaire telefoonnummer bij te werken dat voor het SMS-kanaal moet worden gebruikt. [Meer informatie](../configuration/primary-email-addresses.md)
 
@@ -400,7 +401,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 
 * Voorinstellingen voor berichten zijn nu **kanaaloppervlakken**. [Meer informatie](../configuration/channel-surfaces.md)
 
-**Beheer**
+**Administratie**
 
 * **PTR-recordeditie** - Wanneer u nu een PTR-record bijwerkt, duurt de verwerkingstijd maximaal 3 uur. [Meer informatie](../configuration/ptr-records.md#processing)
 
@@ -430,7 +431,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 <td>
 <p>U kunt nu SMS in Journey Optimizer maken, personaliseren en verzenden via integratie met <b>Sinch</b> of <b>Twilio</b>.</p>
 <!--img src="assets/do-not-localize/SMS.gif"/-->
-<p>Het SMS-kanaal is momenteel alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.</p>
+<p>Het SMS-kanaal is momenteel alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe.</p>
 <p>Leer hoe u in dit venster een SMS maakt en verzendt <a href="../sms/create-sms.md">gedetailleerde documentatie</a>.</p>
 </td>
 </tr>
@@ -521,7 +522,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 * **Opslaan als sjabloon** - U kunt nu e-mailinhoud opslaan als een sjabloon en deze opnieuw gebruiken wanneer u andere berichten maakt. [Meer informatie](../content-management/content-templates.md#save-as-template)
 
 
-**Beheer**
+**Administratie**
 
 * **Voorvertoning van URL-parameters bijhouden** - Als u een berichtvoorinstelling configureert en URL-trackingparameters definieert, wordt nu een dynamische voorvertoning van de resulterende URL weergegeven. [Meer informatie](../email/email-settings.md#url-tracking)
 
@@ -622,7 +623,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 * **Lees publiek** - Eenmalig Leespubliek wordt nu 30 dagen na de uitvoering van de reis de status Voltooid. Voor een gepland leespubliek duurt het 30 dagen na de uitvoering van het laatste exemplaar. [Meer informatie](../building-journeys/read-audience.md)
 * **Expression-editor** - de [limiet](../building-journeys/functions/functionlimit.md) Er is een functie toegevoegd waarmee u het aantal items in een lijst kunt beperken. De [sorteren](../building-journeys/functions/functionsort.md) Met deze functie kunt u nu een lijstobject sorteren. De ondersteuning van listObject is ook toegevoegd aan de [onenigheid](../building-journeys/functions/functiondistinct.md) en [differentWithNull](../building-journeys/functions/functiondistinctwithnull.md) functies.
 
-**Beheer**
+**Administratie**
 
 * **Update van het gebruiksdashboard voor licenties** - Het gebruiksdashboard voor licenties is beschikbaar in het dialoogvenster [!DNL Adobe Journey Optimizer] de gebruikersinterface weerspiegelt nu de juiste waarde voor de **Gelicentieerd** Gemiddelde profielrijkheid. Deze metrische weergave wordt verlaagd, wat betekent dat de licentielimiet nu correct wordt gerapporteerd. [Meer informatie](../audience/license-usage.md)
 
@@ -641,7 +642,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 
 * **API voor besluitvorming op Edge** - Edge Decisioning API kan persoonlijke aanbiedingen leveren en weergeven die worden beheerd in besluitvormingsbeheer. U kunt uw aanbiedingen en andere gerelateerde objecten maken met behulp van de gebruikersinterface (UI) of API&#39;s voor besluitvormingsbeheer. [Meer informatie](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
 
-**Beheer**
+**Administratie**
 
 * **PTR-verzendduur** - De effectieve duur van PTR-bewerkingen is nu een paar uur. [Meer informatie](../configuration/ptr-records.md#processing)
 
@@ -679,7 +680,7 @@ Als Adobe Campaign Standard-klant kunt u nu e-mails, pushberichten en SMS verzen
 * U kunt nu opgeven of het aanbieden van een maximum wordt toegepast op alle gebruikers of op één specifiek profiel, en op alle plaatsen of per plaatsing. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
 * Met de Batch-API kunnen organisaties de functionaliteit voor besluitvormingsbeheer gebruiken voor alle profielen in een bepaald publiek in één aanroep. De aanbiedingsinhoud voor elke profielen in het publiek wordt geplaatst in een AEP dataset waar het voor de werkschema&#39;s van de douanepartij beschikbaar is. [Meer informatie](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
-**Beheer**
+**Administratie**
 
 * U kunt nu de koppeling voor het afmelden van abonnementen in- of uitschakelen in de e-mailheader op het niveau van de berichtvoorinstelling en een aangepaste URL voor het afmelden van abonnementen instellen op berichtniveau. [Meer informatie](../configuration/channel-surfaces.md#list-unsubscribe)
 * De lijst van gewenste personen kan nu worden in- en uitgeschakeld via de [!DNL Journey Optimizer] interface over productie- en niet-productie-sandboxen. [Meer informatie](../configuration/allow-list.md#enable-allow-list)
@@ -829,7 +830,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 * Wanneer het simuleren welke aanbiedingen voor een bepaald testprofiel zullen worden geleverd, kunt u de standaardsimulatie montages nu wijzigen, en de code bekijken die aan uw simulaties beantwoordt die voor het oplossen van problemendoel kunnen worden gebruikt. [Meer informatie](../offers/offer-activities/simulation.md#define-simulation-settings)
 
-**Beheer**
+**Administratie**
 
 * Beheerders kunnen nu PTR-records bewerken met een CNAME-setsubdomein. [Meer informatie](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 

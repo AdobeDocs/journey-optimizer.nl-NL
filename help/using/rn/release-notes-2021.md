@@ -7,15 +7,16 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
+hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+source-git-commit: 4461100b19bd84a75f036e300e88c47b9b20db9b
 workflow-type: tm+mt
-source-wordcount: '2065'
-ht-degree: 9%
+source-wordcount: '2075'
+ht-degree: 7%
 
 ---
 
-# Aanvullende informatie 2021 {#release-notes-2021}
+# Opmerkingen bij de release 2021 {#release-notes-2021}
 
 Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] vrijgegeven in 2021.
 
@@ -81,7 +82,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 ### Verbeteringen
 
-**Journeys**
+**Reizen**
 
 * **Expression-editor** - Als energiegebruiker kunt u nu functies gebruiken om met kaarten te werken. Deze mogelijkheid kan worden benut met de abonnementenlijsten. Als voorbeeld kunt u vanuit een publiek nu een e-mailadres ophalen uit een abonnementenlijst. [Meer informatie in dit voorbeeld](../building-journeys/message-to-subscribers-uc.md)
 
@@ -95,7 +96,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 * **Gegevensindeling in algemene weergave** - U kunt nu schakelen tussen getallen en percentages in het dialoogvenster **Globale weergave** van de **Uitvoering** tab.
 
 
-**Beheer**
+**Administratie**
 
 * **Voorinstellingen voor berichten bewerken** - U kunt nu voorinstellingen voor berichten bewerken en de status van de berichten controleren. [Meer informatie](../configuration/channel-surfaces.md#edit-channel-surface)
 * **PTR-records bewerken** - U kunt nu PTR-records bewerken en de updatestatus ervan controleren. [Meer informatie](../configuration/ptr-records.md#edit-ptr-record)
@@ -159,7 +160,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 ### Verbeteringen
 
-**Journeys**
+**Reizen**
 
 * Systeem produceerde schema&#39;s en datasets die tijdens levering voor stapgebeurtenissen zijn gecreeerd zijn nu op read-only wijze, beschermend tegen om het even welke onbedoelde wijzigingen in kritieke schema&#39;s. [Meer informatie](../reports/sharing-overview.md)
 * De **Wachten** activiteit met een label dat op het canvas wordt weergegeven. Het etiket wordt ook gebruikt in rapportering en testwijzelogboeken om duidelijk te identificeren wat u doet. [Meer informatie](../building-journeys/about-journey-activities.md#best-practices)
@@ -262,7 +263,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 ### Verbeteringen
 
-**Journeys**
+**Reizen**
 
 * **Dynamische koppen** - U kunt nu dynamische gegevens doorgeven in HTTP-headerparameters. Deze parameters kunnen door de integratiesystemen worden gebruikt die de vraag van HTTP van de reisactie, bijvoorbeeld timestamp of het volgen identiteitskaart ontvangen. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
 * **Dynamische URL-paden** - U kunt nu dynamische URL-paden instellen voor aangepaste handelingen. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
@@ -289,7 +290,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 **Beslissingsbeheer**
 
-* De manier waarop u weergaven toevoegt en configureert wanneer u een aanbod maakt, is bijgewerkt voor een betere gebruikerservaring. In het bijzonder wordt de bibliotheek met assets nu alleen weergegeven wanneer u content van het afbeeldingstype voor een weergave definieert. [Meer informatie](../offers/offer-library/creating-personalized-offers.md#representations)
+* De manier waarop u weergaven toevoegt en configureert wanneer u een aanbod maakt, is bijgewerkt voor een betere gebruikerservaring. Met name wordt de bibliotheek met middelen nu alleen weergegeven wanneer u inhoud van het afbeeldingstype definieert voor een representatie. [Meer informatie](../offers/offer-library/creating-personalized-offers.md#representations)
 
 ### Oplossingen
 
@@ -339,7 +340,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 ### Verbeteringen
 
-**Journeys**
+**Reizen**
 
 * De algemene snelheid waarmee alle leessoorten die tegelijkertijd in dezelfde sandbox worden uitgevoerd, worden vertraagd, is beperkt tot 17.000 berichten per seconde. [Meer informatie](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * De **Cacheduur** Het veld is verwijderd uit het configuratievenster van de gegevensbron. [Meer informatie](../datasource/about-data-sources.md)
