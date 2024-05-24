@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: bericht, frequentie, regels, druk
 exl-id: 49248fb6-5a91-45b2-9de8-2f078d59c0fc
-source-git-commit: 8253b4f3fdc177f5e5f19ab19de748b78456137b
+source-git-commit: f47f4e783dd66d9031c7f7c447c1b20418a583c0
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1225'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_message_frequency_rules"
 >title="Zakelijke regels"
->abstract="De bedrijfsregels van het gebruik om te controleren hoe vaak de gebruikers een bericht zullen ontvangen of een reis zullen ingaan door kanaalregels te plaatsen die automatisch overgevraagde profielen van berichten en acties zullen uitsluiten."
+>abstract="De de frequentieregels van het bericht zijn een type van bedrijfsregel die het aantal tijden beperken de gebruikers berichten ontvangen of reizen over één of veelvoudige kanalen ingaan. Deze regels voor meerdere kanalen sluiten te vaak gevraagde profielen automatisch uit van berichten en handelingen."
 
-[!DNL Journey Optimizer] Hiermee kunt u bepalen hoe vaak gebruikers een bericht zullen ontvangen of een reis zullen betreden door kanaalregels in te stellen die automatisch overgevraagde profielen uitsluiten van berichten en acties.
+[!DNL Journey Optimizer] staat u toe om te controleren hoe vaak de gebruikers een bericht zullen ontvangen of in een reis over één of veelvoudige kanaal zullen ingaan. Regels voor berichtfrequentie waarmee automatisch overgevraagde profielen worden uitgesloten van berichten en handelingen.
 
 Voor een merk kan het bijvoorbeeld de regel zijn dat niet meer dan 4 marketingberichten per maand naar hun klanten worden gestuurd. Hiervoor kunt u een bedrijfsregel gebruiken die het aantal verzonden berichten beperkt op basis van een of meer kanalen gedurende een maandelijkse kalenderperiode.
 
