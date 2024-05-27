@@ -9,10 +9,10 @@ role: Admin, User
 level: Intermediate
 keywords: machtigingen, schrijven, berichten
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: aba2d6a1b55f5948da5ded3ae2cab721651caa94
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 1%
+source-wordcount: '754'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,6 @@ Ingebouwde machtigingen vertegenwoordigen de verschillende machtigingen die kunn
 | Beslissingsbeheer | **[!DNL Manage decisions]**: lees, maak, bewerk en verwijder beslissingsentiteiten.</br>**[!DNL Manage offers]**: alle aanbiedingen, componenten, leesbeslissingen en verzamelingen lezen, maken, bewerken en verwijderen.</br>**[!DNL Manage ranking strategies]**: lees-, maak-, bewerk- en verwijder aangepaste rapporten en gebruik actiefuncties.</br>**[!DNL View decisions]**: alleen-lezen toegang tot aanbiedingsentiteiten.<!--**[!DNL Manage Experience decisions]**: read, create, edit, and delete Experience decisioning entities.</br>--> |
 | Doelen | **[!DNL Activate destinations]**: geeft gebruikers de mogelijkheid om het publiek naar bestaande doelen te activeren.</br>**[!DNL Activate segment without mapping]**: geeft gebruikers de capaciteit om publiek aan bestaande bestemmingen te activeren, zonder de toewijzingsstap te tonen. Gebruikers kunnen doelgroepen toevoegen aan en verwijderen uit activeringsworkflows, maar kunnen toegewezen kenmerken of identiteiten niet toevoegen of verwijderen.</br>**[!DNL Destination authoring]**: schrijverbestemmingen met Adobe Experience Platform Destination SDK.</br>**[!DNL Manage and activate dataset destination]**: lees, creeer, geef, en maak de stromen van de datasetuitvoer uit. Mogelijkheid om gegevens ook te activeren naar actieve datasets die zijn gemaakt.</br>**[!DNL Manage destinations]**: lees, creeer, en schrap de stromen van de bestemmingsactivering en bestemmingsrekeningen.</br>**[!DNL View destinations]**: alleen-lezen toegang tot beschikbare doelen op het tabblad Catalogus en geverifieerde doelen op het tabblad Bladeren. |
 | Identiteitsbeheer | **[!DNL Manage identity namespaces]**: naamruimten lezen, maken en bewerken.</br>**[!DNL Manage identity settings]**: lees, maak en bewerk identiteitsinstellingen.</br>**[!DNL View identity namespaces]**: alleen-lezen toegang tot naamruimten.</br>**[!DNL View identity settings]**: alleen-lezen toegang tot identiteitsinstellingen.</br>**[!DNL View identity graph]**: alleen-lezen toegang voor identiteitsgrafieken. |
-| IP warmteconfiguraties | **[!DNL Manage IP warmup plans]**: lees, creeer, en geef IP warmup plannen uit.</br>**[!DNL View IP warmup plans]**: read-only toegang tot IP warmup plannen.</br>**[!DNL View IP warmup reports]**: lees en geef IP rapporten van de Warmup uit. |
 | Journey Optimizer Library | **[!DNL Manage Library Items]**: opgeslagen expressies toevoegen en verwijderen in het dialoogvenster [!DNL Journey Optimizer] Bibliotheek.</br>**[!DNL Simulate content]**: toegang tot de optie Inhoud simuleren voor een voorvertoning en proefdruk. |
 | Journey Optimizer-regels | **[!DNL Manage frequency rules]**: regels voor berichtfrequentie openen, maken, bewerken of verwijderen.</br>**[!DNL View frequency rules]**: alleen-lezen toegang tot regels. |
 | Journeys | **[!DNL Manage journeys]**: reizen lezen, maken, bewerken en verwijderen. Om tot reizen toegang te hebben en te leiden, combineer deze toestemming met **[!DNL View journeys events, data sources and actions]**.</br>**[!DNL Manage journeys events, data sources and actions]**: gebeurtenissen, bronnen of handelingen lezen, maken, bewerken en verwijderen.</br>**[!DNL Publish journeys]**: publiceer reizen.</br>**[!DNL View journeys]**: alleen-lezen toegang tot jouneys.</br>**[!DNL View journeys events, data sources and actions]**: Alleen-lezen toegang tot reisevenementen, aangepaste reisacties en gegevensbronnen voor reizen.</br>**[!DNL View journeys report]**: reisrapport lezen en bewerken.</br> |
@@ -44,3 +43,5 @@ Ingebouwde machtigingen vertegenwoordigen de verschillende machtigingen die kunn
 | Toediening van sandbox | **[!DNL Export sandboxes]**: mogelijkheid om een sandbox te exporteren.</br>**[!DNL Manage packages]**: pakketten lezen, maken, bewerken en verwijderen.</br>**[!DNL Manage sandboxes]**: sandboxen lezen, maken, bewerken en verwijderen.</br>**[!DNL View sandboxes]**: alleen-lezen toegang voor sandboxen die tot uw organisatie behoren.</br>**[!DNL Reset sandboxes]**: mogelijkheid om een sandbox opnieuw in te stellen. |
 
 {style="table-layout:fixed"}
+
+<!--|IP warmup configurations|**[!DNL Manage IP warmup plans]**: read, create, and edit IP warmup plans.</br>**[!DNL View IP warmup plans]**: read-only access to IP warmup plans.</br>**[!DNL View IP warmup reports]**: read and edit IP Warmup reports. |-->
