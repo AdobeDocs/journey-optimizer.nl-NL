@@ -6,10 +6,11 @@ description: Leer hoe u uw omgeving configureert voor het verzenden van tekstber
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
+source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 2%
+source-wordcount: '479'
+ht-degree: 0%
 
 ---
 
@@ -25,11 +26,11 @@ Wanneer u de Sinch-provider gebruikt met Journey Optimizer, kunt u twee verschil
 
 Voer de volgende stappen uit om uw Sinch-provider te configureren voor het verzenden van SMS-berichten en MMS met Journey Optimizer:
 
-1. Blader in de linkertrack naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteert u de **[!UICONTROL API Credentials]** -menu. Klik op de knop **[!UICONTROL Create new API credentials]**.
-
-   ![](assets/sms_6.png)
+1. Blader in de linkertrack naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteert u de **[!UICONTROL API Credentials]** -menu. Klik op de knop **[!UICONTROL Create new API credentials]** knop.
 
 1. Configureer uw SMS API-referenties, zoals hieronder wordt beschreven:
+
+   * **[!UICONTROL SMS vendor]**: Sinch.
 
    * **[!UICONTROL Name]**: kies een naam voor uw API-referentie.
 
@@ -63,17 +64,20 @@ Nadat u de API-referentie hebt gemaakt en geconfigureerd, moet u nu een kanaalop
 
 Voer de volgende stappen uit om Sinch MMS te configureren voor het verzenden van MMS met Journey Optimizer:
 
-1. Blader in de linkertrack naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteert u de **[!UICONTROL API Credentials]** -menu. Klik op de knop **[!UICONTROL Create new API credentials]**.
+1. Blader in de linkertrack naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteert u de **[!UICONTROL API Credentials]** -menu. Klik op de knop **[!UICONTROL Create new API credentials]** knop.
 
-   ![](assets/sms_6.png)
+1. Configureer uw MMS API-referenties, zoals hieronder wordt beschreven:
 
-1. Configureer uw SMS API-referenties, zoals hieronder wordt beschreven:
+   * **[!UICONTROL SMS vendor]**: Sinch MMS.
 
    * **[!UICONTROL Name]**: kies een naam voor uw API-referentie.
 
-   * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** en **[!UICONTROL API Token]**: in het menu Conversation API vindt u uw referenties in het menu App. Meer informatie in [Sectorale documentatie](https://docs.cc.sinch.com/cloud/service-configuration/en/oxy_ex-1/common/wln1620131604643.html){target="_blank"}.
+   * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** en **[!UICONTROL API Token]**: voer de onderstaande stappen uit om uw MMS API-referenties te verzamelen.
 
-   * **[!UICONTROL Service Plan ID]** en **[!UICONTROL SMS API Token]**: Uw **[!UICONTROL Service Plan ID]** en **[!UICONTROL SMS API Token]** bevinden zich op het tabblad SMS van de pagina met API&#39;s.
+      * Voor **[!UICONTROL Project ID]** en **[!UICONTROL App ID]**: Toegang tot de **Overzicht van API voor gesprek** pagina van uw project van Sinch op uw dashboard van Sinch.
+      * Voor **[!UICONTROL API Token]**: Verkrijg de **Toegangstoetsen** voor uw Sinch-project en een **Base64-API-token** uit uw Sinch-project **Toegangstoetsen**.
+
+   * **[!UICONTROL Service Plan ID]** en **[!UICONTROL SMS API Token]**: uw **[!UICONTROL Service Plan ID]** en **[!UICONTROL SMS API Token]** bevinden zich op het tabblad SMS van de pagina met API&#39;s.
 
 1. Klikken **[!UICONTROL Submit]** wanneer u de configuratie van uw API-referenties hebt voltooid.
 
