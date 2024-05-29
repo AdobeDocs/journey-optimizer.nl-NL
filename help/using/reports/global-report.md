@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: ec15e700-7659-4dbf-8446-6534ea48c5c8
-source-git-commit: 82b8c9032d6c377cb76acce4d5cc45afb0ddd6ba
+source-git-commit: 46d69dd422090a67c377acd6c8f44c4468e27f69
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Uw dashboard wordt nu opgeslagen. Uw verschillende wijzigingen worden opnieuw to
 
 U kunt uw verschillende rapporten eenvoudig exporteren naar de indelingen PDF of CSV, zodat u deze kunt delen of afdrukken. De stappen voor het exporteren van rapporten worden in de onderstaande tabbladen beschreven.
 
-➡️ [Ontdek deze functie in video](#video-csv)
+➡️ [Deze functie in video detecteren](#video-csv)
 
 
 >[!BEGINTABS]
@@ -127,3 +127,220 @@ Leer hoe u een CSV-rapport voor een rapport en voor één widget downloadt in de
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424603?quality=12)
 
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_CTR"
+>title="CTR"
+>abstract="CTR-widget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_clicks"
+>title="Klikken"
+>abstract="Widget klikken"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_delivered"
+>title="Afgeleverd"
+>abstract="Widget geleverd"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_overview"
+>title="Overzicht van campagnes"
+>abstract="Widget Campagneoverzicht"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_funnel"
+>title="Resultaten van Campagnescheitrechter"
+>abstract="De widget voor camerastructuurresultaten"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_tracking_link"
+>title="Labels voor bijgehouden koppelingen"
+>abstract="Widget met bijgehouden koppelingslabels"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_displays"
+>title="Weergaven"
+>abstract="Widget weergeven"
+
+<!--campaign email-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_delivered_click"
+>title="Bezorgde &amp; klik trend"
+>abstract="Geleverde &amp; klik trendwidget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_delivery_status"
+>title="Leveringsstatus"
+>abstract="Widget voor leveringsstatus"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_sending_statistics"
+>title="Statistieken verzenden"
+>abstract="Widget Statistieken verzenden"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_tracking_statistics"
+>title="Trackingstatistieken"
+>abstract="Widget statistieken bijhouden"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_domains"
+>title="E-maildomeinen"
+>abstract="Widget E-maildomeinen"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_tracked_link"
+>title="Labels voor bijgehouden koppelingen"
+>abstract="Widget trackkoppelingslabels"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_tracked_link_urls"
+>title="URL&#39;s van bijgehouden koppeling"
+>abstract="Widget URL&#39;s van beheerde koppelingen"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_subjects"
+>title="E-mailonderwerpen"
+>abstract="Widget E-mailonderwerpen"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_bounce_reasons"
+>title="Stuitingsredenen"
+>abstract="Widget Stuitredenen"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_exclude"
+>title="Redenen uitsluiten"
+>abstract="Widget Redenen uitsluiten"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_email_error"
+>title="Foutredenen"
+>abstract="Widget Foutredenen"
+
+
+<!--campaign push-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_sending_statistics"
+>title="Statistieken verzenden"
+>abstract="Widget Statistieken verzenden"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_tracking_statistics"
+>title="Trackingstatistieken"
+>abstract="Widget statistieken bijhouden"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_tracked_link"
+>title="Labels voor bijgehouden koppelingen"
+>abstract="Widget trackkoppelingslabels"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_tracked_link_urls"
+>title="URL&#39;s van bijgehouden koppeling"
+>abstract="Widget URL&#39;s van beheerde koppelingen"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_bounce_reasons"
+>title="Stuitingsredenen"
+>abstract="Widget Stuitredenen"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_exclude"
+>title="Uitgesloten redenen"
+>abstract="Widget Uitgesloten redenen"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_push_email_error"
+>title="Foutredenen"
+>abstract="Widget Foutredenen"
+
+<!--campaign inapp-->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_impression"
+>title="Impressie en klik op trend"
+>abstract="Impressie en klik op trendwidget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_clicks"
+>title="Klikken"
+>abstract="Widget klikken"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_displays"
+>title="Weergaven"
+>abstract="Widget weergeven"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_tracking_data"
+>title="Gegevens bijhouden"
+>abstract="Widget Gegevens bijhouden"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_tracked_link"
+>title="Labels voor bijgehouden koppelingen"
+>abstract="Widget met bijgehouden koppelingslabels"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_inapp_tracked_link_urls"
+>title="URL&#39;s van bijgehouden koppeling"
+>abstract="Widget URL&#39;s van beheerde koppelingen"
+
+<!--campaign sms-->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_delivered_click"
+>title="Bezorgde &amp; klik trend"
+>abstract="Geleverde &amp; klik trendwidget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_delivery_status"
+>title="Leveringsstatus"
+>abstract="Widget voor leveringsstatus"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_tracked_link"
+>title="Labels voor bijgehouden koppelingen"
+>abstract="Widget trackkoppelingslabels"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_tracked_link_urls"
+>title="URL&#39;s van bijgehouden koppeling"
+>abstract="Widget URL&#39;s van beheerde koppelingen"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_inbound"
+>title="Binnenkomend SMS-bericht"
+>abstract="Binnenkomende SMS-berichtenwidget"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_message_type"
+>title="Soort SMS-bericht"
+>abstract="Widget voor SMS-berichttype"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_providers"
+>title="SMS-providers"
+>abstract="Widget SMS-providers"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_bounce"
+>title="Stuitingsredenen"
+>abstract="Widget Stuitredenen"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_exclude"
+>title="Redenen uitsluiten"
+>abstract="Widget Redenen uitsluiten"
+
+>[!CONTEXTUALHELP]
+>id="ajo_report_campaign_sms_error"
+>title="Foutredenen"
+>abstract="Widget Foutredenen"
