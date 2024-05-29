@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: landing, landing page, creation, page, form, component
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 050253e0f74f506649540ae3656a3a1f050331cb
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Met de landende pagina-inhoudontwerper kunt u ook contextuele gegevens gebruiken
 >id="ac_lp_formfield"
 >title="De velden voor formuliercomponenten instellen"
 >abstract="Bepaal hoe de ontvangers hun keuzes vanaf de bestemmingspagina zien en verzenden."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content.html#lp-form-styles" text="Landingspagina-formulierstijlen definiëren"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="Landingspagina-formulierstijlen definiëren"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
