@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 8f045e1b709c0059ce21cda68c21e8732f58e51e
+source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -74,8 +74,8 @@ Voer de volgende stappen uit om Sinch MMS te configureren voor het verzenden van
 
    * **[!UICONTROL Project ID]**, **[!UICONTROL App ID]** en **[!UICONTROL API Token]**: voer de onderstaande stappen uit om uw MMS API-referenties te verzamelen.
 
-      * Voor **[!UICONTROL Project ID]** en **[!UICONTROL App ID]**: Toegang tot de **Overzicht van API voor gesprek** pagina van uw project van Sinch op uw dashboard van Sinch.
-      * Voor **[!UICONTROL API Token]**: Verkrijg de **Toegangstoetsen** voor uw Sinch-project en een **Base64-API-token** uit uw Sinch-project **Toegangstoetsen**.
+      * Voor **[!UICONTROL Project ID]** en **[!UICONTROL App ID]**: Toegang tot de [Overzicht van API voor gesprek](https://dashboard.sinch.com/convapi/overview) pagina van uw project van Sinch op uw dashboard van Sinch.
+      * Voor **[!UICONTROL API Token]**: Verkrijg de [Toegangstoetsen](https://community.sinch.com/t5/Customer-Dashboard/Sinch-Access-Keys/ta-p/12638) voor uw Sinch-project en een **Base64-API-token** uit uw Sinch-project **Toegangstoetsen**.
 
    * **[!UICONTROL Service Plan ID]** en **[!UICONTROL SMS API Token]**: uw **[!UICONTROL Service Plan ID]** en **[!UICONTROL SMS API Token]** bevinden zich op het tabblad SMS van de pagina met API&#39;s.
 

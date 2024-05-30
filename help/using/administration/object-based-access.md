@@ -9,10 +9,10 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: voorwerp, niveau, toegang, controle, etiketten, olc, vergunning
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: 342b9210f79266cb11628dcdc411f90844a84e37
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 2%
+source-wordcount: '381'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"
 >title="Toegangsbeheer op objectniveau"
->abstract="Als u labels toepast waartoe u geen toegang hebt, wordt de toegang tot dit object ingetrokken."
+>abstract="Als u toegang tot dit object wilt behouden, past u alleen labels toe waarvoor u machtigingen hebt."
 
 Met toegangsbeheer op objectniveau (OLAC) kunt u machtigingen definiëren voor het beheren van gegevenstoegang tot een selectie objecten:
 
@@ -48,7 +48,7 @@ In Adobe Journey Optimizer, staat OLAC u toe om gegevens te beschermen en specif
 
 **[!UICONTROL Labels]** staat u toe om datasets en gebieden volgens gebruiksbeleid te categoriseren die op die gegevens van toepassing zijn. **[!UICONTROL Labels]** kan op elk moment worden toegepast, zodat u op flexibele wijze gegevens kunt beheren.
 
-U kunt labels maken in het dialoogvenster [!DNL Permissions] product. Raadpleeg [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html) voor meer informatie.
+U kunt labels maken in het dialoogvenster [!DNL Permissions] product. Raadpleeg voor meer informatie hierover [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/labels.html).
 
 **[!UICONTROL Labels]** kan ook rechtstreeks in Journey Optimizer worden gemaakt:
 
