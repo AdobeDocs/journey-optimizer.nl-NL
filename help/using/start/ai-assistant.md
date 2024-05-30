@@ -1,22 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Werken met de AI Assistant in Adobe Journey Optimizer
-description: Leer hoe u de Adobe Experience Platform AI Assistant kunt gebruiken in Adobe Services Optimizer.
+title: Werken met de AI Assistant
+description: Leer hoe u de AI Assistant gebruikt
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 8cd9374130725a89208acadc3a02574408f98599
+exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
+source-git-commit: ddb8c02a309c6e016e95cb8b9fcde24f0f751078
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
-# Werken met de AI Assistant in Adobe Journey Optimizer {#ai-assistant}
+# Werken met de AI Assistant {#ai-assistant}
 
 De AI Medewerker is een gebruikersinterfaceeigenschap die u kunt gebruiken om te navigeren en Adobe concepten te begrijpen en operationele inzichten voor uw specifieke milieu te krijgen. Het is verkrijgbaar in verschillende producten in Adobe Experience Cloud, waaronder Adobe Journey Optimizer.
 
@@ -26,7 +27,7 @@ Klik op het pictogram op de bovenste balk om de AI-assistent te openen. De AI-as
 
 In Adobe Journey Optimizer hebt u toegang tot de volgende gebruiksgevallen:
 
-* Concept vragen (Algemene Beschikbaarheid) Concept vragen gaan over Adobe concepten met betrekking tot aspecten van Adobe Journey Optimizer. Voorbeelden van vragen over concepten zijn:
+* Productkennis (algemene beschikbaarheid) Productkennisvragen hebben betrekking op Adobe-concepten met betrekking tot aspecten van Adobe Journey Optimizer. Enkele voorbeelden van productkennisvragen zijn:
 
    * Hoeveel levende activiteiten kan ik in één zandbak van Adobe Journey Optimizer hebben?
    * Hoe kan ik een campagne opzetten in Adobe Journey Optimizer?
@@ -54,4 +55,4 @@ Controleer het antwoord en gebruik de **Bronnen weergeven** voor directe koppeli
 
 Gebruik de duim omhoog of duim neer om het antwoord te schatten.
 
-Als u wilt leren hoe u AI Assistant gebruikt, raadpleegt u de voorbeelddoelstellingen die u kunt bereiken met de AI-assistent en leert u hoe de AI-assistent werkt, raadpleegt u [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
+Als u wilt leren hoe u AI Assistant gebruikt, raadpleegt u de voorbeelddoelstellingen die u kunt bereiken met de AI-assistent en leert u hoe de AI-assistent werkt. Raadpleeg hiervoor [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
