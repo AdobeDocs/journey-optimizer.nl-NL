@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: e-mail, sjablonen, ontwerpen
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 08f12adf384b98dfa1d69cbc2d684c3bf58d31fa
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '239'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 >id="ajo_use_template"
 >title="Inhoud maken op basis van een sjabloon"
 >abstract="Als u uw e-mailinhoud wilt gaan maken, selecteert u een sjabloon die buiten de box valt of een aangepaste bestaande sjabloon die helemaal opnieuw is gemaakt of als sjabloon is opgeslagen in een vorige e-mail."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/reusable-content/content-templates.html#create-content-templates" text="Inhoudssjablonen maken"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates#create-content-templates" text="Inhoudssjablonen maken"
 
 Van de **[!UICONTROL Create your email]** scherm, gebruik **[!UICONTROL Select design template]** om uw inhoud op te bouwen van een sjabloon.
 
