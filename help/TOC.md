@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Journey Optimizer gebruiken om verbonden, contextafhankelijke en persoonlijke ervaringen te maken en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 43adfef7632e7c9ad4c79544286b210abe5a964f
+source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
 workflow-type: tm+mt
-source-wordcount: '1808'
+source-wordcount: '1817'
 ht-degree: 20%
 
 ---
@@ -311,9 +311,12 @@ ht-degree: 20%
       + Gebruikszaken aanpassen{#personalization-use-cases}
          + [Statusmelding van bestelling](using/personalization/personalization-use-case.md)
          + [E-mailadres voor afmelden van winkelwagentje](using/personalization/personalization-use-case-helper-functions.md)
-   + Herbruikbare inhoud beheren {#reusable-content}
-      + [Werken met inhoudssjablonen](using/content-management/content-templates.md)
-      + [Werken met fragmenten](using/content-management/fragments.md)
+   + [Inhoudssjablonen](using/content-management/content-templates.md)
+   + Herbruikbare inhoudsfragmenten {#fragments}
+      + [Aan de slag met fragmenten](using/content-management/fragments.md)
+      + [Een fragment maken](using/content-management/create-fragments.md)
+      + [Bestaande inhoud opslaan als fragment](using/content-management/save-fragments.md)
+      + [Fragmenten beheren](using/content-management/manage-fragments.md)
    + Dynamische inhoud {#dynamic}
       + [Aan de slag met dynamische inhoud](using/personalization/get-started-dynamic-content.md)
       + [Voorwaardelijke regels maken](using/personalization/create-conditions.md)
