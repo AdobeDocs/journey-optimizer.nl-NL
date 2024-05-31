@@ -9,7 +9,7 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: e-mail, configuratie, oppervlak, subdomeinen
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
+source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 7%
@@ -29,7 +29,6 @@ E-mails verzenden via reizen en campagnes in [!DNL Journey Optimizer], moet u do
    ![](../configuration/assets/ip-pool-create.png)
 
 1. Kanaaloppervlakken maken en de optie **[!UICONTROL Email]** kanaal. [Meer informatie](../configuration/channel-surfaces.md)
-
 
    ![](../configuration/assets/preset-general.png)
 
