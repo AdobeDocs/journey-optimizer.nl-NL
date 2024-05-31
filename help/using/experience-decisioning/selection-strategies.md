@@ -10,7 +10,7 @@ exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 source-git-commit: f586d2de34939c1cd105c26dc64c656c1f0fb990
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -81,7 +81,7 @@ Volg onderstaande stappen om een selectiestrategie te maken.
 
    * Als u een specifieke berekende score wilt gebruiken om te kiezen welke aanbieding in aanmerking komt, selecteert u [Formule](#ranking-formula) of [AI-model](#ai-ranking).
 
-1. Klik op **[!UICONTROL Create]**. Het is nu klaar om in een [beslissingsbeleid](create-decision.md)
+1. Klikken **[!UICONTROL Create]**. Het is nu klaar om in een [beslissingsbeleid](create-decision.md)
 
 ## Een waarderingsmethode selecteren {#select-ranking-method}
 
