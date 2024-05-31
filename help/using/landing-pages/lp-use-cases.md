@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: landen, landingspagina, hoofdletter gebruiken
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '947'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Hieronder ziet u enkele voorbeelden van het gebruik van [!DNL Journey Optimizer] het landen van pagina&#39;s om uw klanten te hebben binnen of uit van het ontvangen van wat of elk van uw mededelingen kiezen.
 
-## Abonnement op een service {#subscription-to-a-service}
+## Abonneren op een service {#subscription-to-a-service}
 
 Een van de meest gebruikelijke gebruiksgevallen is het uitnodigen van uw klanten om [abonneren op een service](subscription-list.md) (zoals een nieuwsbrief of een gebeurtenis) door een landingspagina. De belangrijkste stappen worden weergegeven in de onderstaande grafiek:
 
@@ -88,7 +88,7 @@ Alle gebruikers die zich voor uw gebeurtenis hebben geregistreerd, ontvangen het
 
 <!--The event registration's subscription list tracks the profiles who registered and you can send them targeted event updates.-->
 
-## Weigeren {#opt-out}
+## Openingspagina voor landen {#opt-out}
 
 Om uw ontvangers in staat te stellen zich af te melden voor uw communicatie, kunt u een koppeling naar een bestemmingspagina opnemen in uw e-mails.
 
@@ -107,7 +107,7 @@ Daarom moet u altijd een **afmelden, koppeling** in elke e-mail die naar ontvang
 
 ### Optie om e-mail te weigeren configureren {#configure-opt-out}
 
-Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zich af te melden voor uw communicatie via een bestemmingspagina.
+Volg onderstaande stappen om de ontvangers van een e-mail in staat te stellen zich af te melden voor uw communicatie via een bestemmingspagina:
 
 1. Maak uw openingspagina. [Meer informatie](create-lp.md)
 
@@ -167,6 +167,12 @@ De gegevens over de opt-out worden opgeslagen in de **Dataset voor goedgekeurde 
 >
 >Zelfs als er geen batches aan deze gegevensset zijn toegevoegd, zal deze nog steeds de informatie over opt-in/opt-out bevatten.
 
+
+
+**Zie ook:**
+
+* [Eén klik op Weigeren](../email/email-opt-out.md#one-click-opt-out-link)
+* [Koppeling Weigeren in koptekst van e-mail](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
 

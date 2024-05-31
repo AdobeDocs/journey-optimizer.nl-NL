@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 9c095df4c8cab4cae8f5f3a5e000dfc5872b1a8b
 workflow-type: tm+mt
-source-wordcount: '2351'
+source-wordcount: '2471'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Als u een e-mailbericht wilt maken, moet u oppervlakken van e-mailkanalen instel
 
 Definieer de e-mailinstellingen in de specifieke sectie van de configuratie van het kanaaloppervlak, zoals hieronder wordt beschreven.
 
-![](assets/preset-email-settings.png)
+![](assets/surface-email-settings.png){width="50%" align="left"}
 
 De configuratie van de e-mailoppervlakte wordt opgepikt voor het verzenden van mededelingen die de logica hieronder volgen:
 
@@ -67,7 +67,7 @@ Om de reputatie van uw domein te bewaren, versnelt het IP opwarmingsproces en ve
 
 Selecteer de IP pool om met de oppervlakte te associëren. [Meer informatie](../configuration/ip-pools.md)
 
-![](assets/preset-subdomain-ip-pool.png){width="50%" align="left"}
+![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
 U kunt niet met oppervlakverwezenlijking te werk gaan terwijl de geselecteerde IP pool onder is [editie](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) en is nooit gekoppeld aan het geselecteerde subdomein. Anders, zal de oudste versie van de IP pool/subdomain vereniging nog worden gebruikt. Als dit het geval is, sparen de oppervlakte als ontwerp en probeer opnieuw zodra de IP pool heeft **[!UICONTROL Success]** status.
 
@@ -81,41 +81,47 @@ Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het ha
 >
 >Als een PTR-record niet is geconfigureerd, neemt u contact op met uw Adobe.
 
-## Abonnement opzeggen {#list-unsubscribe}
+## List Unsubscribe Header{#list-unsubscribe}
+
+<!--Do not modify - Legal Review Done -->
+
 
 Aan [selecteren, subdomein](#subdomains-and-ip-pools) in de lijst **[!UICONTROL Enable List-Unsubscribe]** weergegeven.
 
-Deze optie is standaard ingeschakeld. Als u deze optie ingeschakeld laat, wordt automatisch een afmeldingskoppeling opgenomen in de e-mailkoptekst, zoals:
+Deze optie is standaard ingeschakeld om een éénklik-URL voor annuleren op te nemen in de e-mailkoptekst, zoals:
 
 ![](assets/preset-list-unsubscribe-header.png)
 
-Als u deze optie uitschakelt, wordt er geen koppeling voor het afmelden van abonnementen weergegeven in de e-mailkoptekst.
+Als u deze optie uitschakelt, wordt er geen één-klik-URL voor annuleren weergegeven in de e-mailkoptekst.
 
-U kunt het toestemmingsniveau van selecteren in **Goedkeuringsniveau** vervolgkeuzelijst. Dit kan specifiek zijn voor het kanaal of de profielidentiteit. Op basis van deze instelling wordt de toestemming in Adobe Journey Optimizer bijgewerkt op kanaalniveau of op ID-niveau wanneer een gebruiker zich afmeldt via de headerkoppeling van een e-mail met abonnement op de lijst.
+U kunt het toestemmingsniveau van selecteren in **[!UICONTROL Consent level]** vervolgkeuzelijst. Dit kan specifiek zijn voor het kanaal of de profielidentiteit. Op basis van deze instelling wordt de toestemming in Adobe Journey Optimizer bijgewerkt op kanaalniveau of op ID-niveau wanneer een gebruiker zich afmeldt met de lijst die de URL in de koptekst van een e-mail afmeldt.
 
-De unsubscribe-koppeling bestaat uit twee elementen:
+De List Unsubscribe Header biedt twee functies (Mailto en One-click unsubscribe URL, zoals hieronder wordt uitgelegd) die standaard zijn ingeschakeld, tenzij u een of beide functies uitschakelt:
 
-* An **e-mailadres opzeggen**, waarnaar alle afmeldingsverzoeken worden verzonden.
+* A **Mailto (afmelden)** adres, dat het bestemmingsadres is waar unsubscribe verzoeken aan voor auto-verwerking worden verpletterd.
 
-  In [!DNL Journey Optimizer], is het e-mailadres voor opzeggen het standaardadres **[!UICONTROL Mailto (unsubscribe)]** adres dat in de kanaaloppervlakte wordt getoond, die op [geselecteerd subdomein](#subdomains-and-ip-pools).
+  In Journey Optimizer is het e-mailadres voor opzeggen het standaardadres **Mailto (afmelden)** adres dat in de kanaaloppervlakte wordt getoond, die op uw wordt gebaseerd [geselecteerd subdomein](#subdomains-and-ip-pools).
 
-  ![](assets/preset-list-unsubscribe-mailto.png){width="50%" align="left"}
+  ![](assets/surface-list-unsubscribe-mailto.png){width="50%" align="left"}
 
-* De **abonnement-URL opzeggen**, dit is de URL van de bestemmingspagina waarop de gebruiker wordt omgeleid wanneer deze het abonnement opzegt.
 
-  Als u een [one-click opt-out link](../privacy/opt-out.md#one-click-opt-out) voor een bericht dat is gemaakt met dit oppervlak, is de URL voor het afmelden van een abonnement de URL die is gedefinieerd voor de koppeling om één muisklik uit te schakelen.
+* De **Eén klik op URL voor annuleren**, die standaard de één-klik kiezen onze URL geproduceerde Lijst Unsubscribe Kopbal, die op subdomein wordt gebaseerd u plaatst en in de Montages van de Oppervlakte van het Kanaal vormde.
 
-  ![](assets/preset-list-unsubscribe-opt-out-url.png)
-
-  >[!NOTE]
+  >[!AVAILABILITY]
   >
-  >Als u geen koppeling om te weigeren met één klik toevoegt aan uw berichtinhoud, wordt er geen bestemmingspagina weergegeven voor de gebruiker.
+  >De één-klik de Kopbal van Unsubscribe URL zal van Adobe Journey Optimizer vanaf 3 Juni 2024 beschikbaar zijn.
+  >
 
-Meer informatie over het toevoegen van een link voor opzeggen van koptekst aan je berichten in [deze sectie](../privacy/opt-out.md#unsubscribe-header).
 
-<!--If you have added one or more dynamic subdomains, URLs will be populated based on the resolved dynamic subdomain. [Learn more](../email/surface-personalization.md#dynamic-subdomains)-->
+De **[!UICONTROL Mailto (unsubscribe)]** en de **[!UICONTROL One-click Unsubscribe URL]** is optioneel. Als u niet de standaard gegenereerde één-klik wilt gebruiken unsubscribe URL, kunt u de eigenschap uncheck. In het scenario waarin **[!UICONTROL Opt-out configuration]** is ingeschakeld en **[!UICONTROL One-click Unsubscribe URL]** is uitgeschakeld als u een [one-click opt-out link](../privacy/opt-out.md#one-click-opt-out) als u een bericht wilt verzenden dat is gemaakt met dit oppervlak, kiest de lijst voor het afmelden van een abonnement de koppeling voor één muisklik die u in de tekst van de e-mail hebt ingevoegd en gebruikt u deze koppeling als de één-klik-URL-waarde voor afmelden.
 
-<!--Select the **[!UICONTROL Custom List-Unsubscribe]** option to enter your own Unsubscribe URL and/or your own Unsubscribe email address.(to add later)-->
+![](assets/preset-list-unsubscribe-opt-out-url.png)
+
+>[!NOTE]
+>
+>Als u geen opt-out-koppeling met één klik toevoegt aan uw berichtinhoud en de standaard-URL voor één klik voor annuleren is uitgeschakeld in de instellingen voor kanaaloppervlak, wordt er geen URL doorgegeven aan de e-mailkoptekst als onderdeel van de koptekst voor opzeggen van lijst.
+
+Meer informatie over het beheren van afmeldingsmogelijkheden in uw berichten in [deze sectie](../email/email-opt-out.md#unsubscribe-header).
 
 ## Parameters koptekst {#email-header}
 
