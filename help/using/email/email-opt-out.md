@@ -9,120 +9,60 @@ role: User
 level: Intermediate
 keywords: opt-out, e-mail, link, abonnement opzeggen
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
-source-wordcount: '1324'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
 
 # E-mailuitschakelbeheer {#email-opt-out}
 
-Wanneer het verzenden van berichten van reizen of campagnes, moet u altijd ervoor zorgen dat de klanten van toekomstige mededelingen kunnen opzeggen. Als u het abonnement opzegt, worden de profielen automatisch verwijderd uit het publiek van toekomstige marketingberichten.  [Meer informatie over privacy- en opt-outbeheer](../privacy/opt-out.md)
+Als u ontvangers de mogelijkheid wilt bieden zich af te melden voor het ontvangen van e-mailberichten, moet u altijd een **afmelden, koppeling** in elke e-mail die naar ontvangers wordt verzonden. [Meer informatie over privacy- en opt-outbeheer](../privacy/opt-out.md)
+
+Hiervoor kunt u:
+
+* Een **koppeling naar een bestemmingspagina** in een e-mail om gebruikers in staat te stellen zich af te melden voor het ontvangen van communicatie van uw merk. Het kan zijn:
+
+   * A **[!DNL Journey Optimizer]landingspagina**. [Meer informatie over het toevoegen van een bestemmingspagina met de optie Weigeren](../landing-pages/lp-use-cases.md#opt-out)
+
+   * A **een externe landingspagina**. [Leer hoe u een externe opt-out-koppeling toevoegt](#opt-out-external-lp)
+
+* Voeg een **one-click opt-out link** in uw e-mailinhoud. Deze verbinding zal uw ontvangers toestaan om van uw mededelingen snel af te zien, zonder aan een landende pagina worden opnieuw gericht waar zij hun keus moeten bevestigen, die het afmeldingsproces versnellen. [Meer informatie over het toevoegen van een koppeling om te weigeren met één klik](#one-click-opt-out)
+
+* Voeg een koppeling voor afmelden toe aan de koptekst van de e-mail. Als de **[!UICONTROL List-Unsubscribe]** is ingeschakeld op het niveau van het kanaaloppervlak. De bijbehorende e-mails die met Journey Optimizer worden verzonden, bevatten een koppeling voor het afmelden van abonnementen in de e-mailheader. [Meer informatie over opt-out in e-mailkoptekst](#unsubscribe-header)
 
 >[!NOTE]
 >
->In al uw marketingberichten moet een koppeling naar de optie Weigeren zijn opgenomen. Dit is niet vereist voor transactieberichten. De berichtcategorie - **[!UICONTROL Marketing]** of **[!UICONTROL Transactional]** - wordt gedefinieerd op de [kanaaloppervlak](../configuration/channel-surfaces.md#email-type) niveau en bij het maken van het bericht.
+>E-mailberichten van het type Marketing moeten een opt-out-koppeling bevatten, die niet vereist is voor transactiemeldingen. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd op de [kanaaloppervlak](../configuration/channel-surfaces.md#email-type) niveau en bij het maken van het bericht).
 
-Als u een koppeling zonder abonnement wilt invoegen in uw e-mailinhoud, kunt u:
+## Externe opt-out {#opt-out-external-lp}
 
-* Voeg één klik toe unsubscribe URL in de e-mailkopbal. Het inschakelen van de **[!UICONTROL List-Unsubscribe Header]** Hiermee voegt u een uitschakelkoppeling toe aan de koptekst van de e-mail. [Meer informatie over opt-out in e-mailkoptekst](#unsubscribe-header)
+### Koppeling voor annuleren toevoegen {#add-unsubscribe-link}
 
-* De optie **one-click opt-out link** voor uw e-mail.  [Meer informatie over het toevoegen van een koppeling om te weigeren met één klik](#one-click-opt-out)
+Eerst moet u een afmeldingskoppeling toevoegen aan een bericht. Hiervoor voert u de volgende stappen uit:
 
-* Een **koppeling naar een bestemmingspagina**. [Meer informatie over het toevoegen van een bestemmingspagina met de optie Weigeren](#opt-out-external-lp)
+1. Bouw uw eigen bestemmingspagina zonder abonnement.
 
+1. De gastheer het op het derdesysteem van uw keus.
 
-## Eén stap voor opt-out {#opt-out-one-step}
+1. Maak een bericht op een reis.
 
-### Klik eenmaal op URL voor abonnement opheffen in de e-mailheader {#unsubscribe-header}
+1. Selecteer tekst in uw inhoud en [een koppeling invoegen](../email/message-tracking.md#insert-links) gebruiken van de contextafhankelijke werkbalk.
 
-<!--Do not modify - Legal Review Done -->
+   ![](assets/opt-out-insert-link.png)
 
->[!CONTEXTUALHELP]
->id="ajo_admin_preset_unsubscribe"
->title="Afmelde URL toevoegen in de koptekst van de e-mail"
->abstract="Schakel List-Unsubscribe Header in om een niet-geabonneerde URL toe te voegen in de e-mailkoptekst. Als u een URL voor afmelden wilt instellen, voegt u een koppeling om te weigeren in de e-mailinhoud in."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#one-click-opt-out" text="Eén klik op Weigeren"
+1. Selecteren **[!UICONTROL External Opt-out/Unsubscription]** van de **[!UICONTROL Link type]** vervolgkeuzelijst.
 
-Een-klik lijst voor annuleren URL is een afmeldingskoppeling of knop die wordt weergegeven naast de e-mailverzendgegevens en biedt ontvangers de mogelijkheid om met één klik direct te weigeren in uw mailinglijsten. In Adobe Journey Optimizer, wanneer **List-Unsubscribe inschakelen** Als deze optie is ingeschakeld, bevat de koptekst van de e-mail standaard zowel een mailto als een URL waarmee ontvangers zich van uw mailinglijst kunnen afmelden.
+   ![](assets/opt-out-link-type.png)
 
-De [List-Unsubscribe inschakelen](email-settings.md#list-unsubscribe) De schakeloptie moet op het niveau van de kanaaloppervlakte worden geactiveerd zodat e-mails die dit oppervlak gebruiken de éénklikige niet-abonneeURL in de e-mailkoptekst bevatten.
+1. In de **[!UICONTROL Link]** plakken, plakt u de koppeling naar de bestemmingspagina van derden.
 
->[!NOTE]
->
->Als u één klik wilt weergeven, klikt u op de URL voor afmelden in de e-mailheader, moet de e-mailclient van de ontvangers deze functie ondersteunen.
+   ![](assets/opt-out-link-url.png)
 
+1. Klikken **[!UICONTROL Save]**.
 
-Met de URL voor het afmelden van abonnementen met één klik wordt bijvoorbeeld een koppeling voor het afmelden van abonnementen als deze weergegeven in Gmail:
-
-![](assets/unsubscribe-header.png)
-
-
-Met Adobe Journey Optimizer kunt u de instellingen van uw e-mailoppervlak configureren met een automatisch gegenereerde klik op URL en mailto-adres opzeggen in de koptekst van de e-mail. U kunt ook een één-klik-URL opnemen in de hoofdtekst van de e-mail: wanneer een ontvanger op de één-klik-optie-out klikt, wordt de aanvraag voor het opzeggen van het abonnement van de ontvanger dienovereenkomstig verwerkt.
-
->[!AVAILABILITY]
->
->De één-klik de Kopbal van Unsubscribe URL zal van Adobe Journey Optimizer vanaf 3 Juni 2024 beschikbaar zijn.
->
-
-Afhankelijk van de e-mailclient en de [Abonnementsinstellingen voor e-mailoppervlak](email-settings.md#list-unsubscribe)Als u klikt op de koppeling voor het afmelden van uw abonnement in de e-mailheader, heeft dit mogelijk de volgende gevolgen:
-
-* Wanneer de **Mailto (afmelden)** -functie wordt door u ingeschakeld, wordt de aanvraag voor afmelden verzonden naar het standaardadres voor afmelden op basis van het subdomein dat door u is gemaakt.
-* Wanneer de **Eén klik op URL voor abonnement opzeggen** -functie wordt ingeschakeld door u - of als u een niet-abonnements-URL hebt ingevoegd in de inhoud van de e-mail -, wordt de ontvanger direct uitgepakt, op kanaalniveau of op id-niveau (afhankelijk van hoe de toestemming is ingesteld), wanneer de ontvanger klikt op de éénklikige niet-abonneeURL, die is gebaseerd op het subdomein dat door u is gemaakt.
-
-In beide gevallen wordt het corresponderende profiel voor de ontvanger onmiddellijk uitgeschakeld en wordt deze keuze in het Experience Platform bijgewerkt. Meer informatie in het dialoogvenster [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.
-
-Als u toe:laten-binnen met betrekking tot de Lijst hebt van een knevel voorzien Unsubscribe kopbal, adviseren wij dat u zowel eigenschappen toelaat - Brievenbus als Één-Klik &amp; Unsubscribe URL. Niet alle e-mailclients ondersteunen de HTTP-methode. Met de lijst-unsubscribe van de Brievenbus eigenschap die als functionaliteit beschikbaar wordt gemaakt voor u om alternatief te selecteren, kan uw afzenderreputatie beter worden beschermd en al uw ontvangers kunnen waarschijnlijk toegang hebben om de unsubscribe functionaliteit te gebruiken. [Meer informatie](email-settings.md#list-unsubscribe)
-
-
-### Eén klik op Weigeren in de e-mailinhoud {#one-click-opt-out}
-
-Als u een gepersonaliseerde URL voor annuleren wilt instellen, voegt u een koppeling voor een eenmalige aanmelding in de inhoud van het e-mailbericht in en voert u de URL van uw keuze in, zoals hieronder wordt beschreven:
-
-1. Toegang tot uw e-mailinhoud en [een koppeling invoegen](../email/message-tracking.md#insert-links).
-1. Selecteren **[!UICONTROL One click Opt-out]** als het type koppeling.
-
-   ![](assets/message-tracking-opt-out.png)
-
-1. Voer de URL in van de bestemmingspagina waarop de gebruiker wordt omgeleid zodra het abonnement is opgezegd. Deze pagina is hier om te bevestigen dat het afmelden is gelukt.
-
-   >[!NOTE]
-   >
-   >Als u de optie **[!UICONTROL List-Unsubscribe]** in de [kanaaloppervlak](email-settings.md#list-unsubscribe) en als de standaard URL voor weigeren met één klik is uitgeschakeld, wordt deze URL gebruikt wanneer gebruikers op de koppeling voor het afmelden van abonnementen in de e-mailheader klikken. [Meer informatie](#unsubscribe-header)
-
-   ![](assets/message-tracking-opt-out-confirmation.png)
-
-   U kunt uw koppelingen aanpassen. Meer informatie over gepersonaliseerde URL&#39;s vindt u in [deze sectie](../personalization/personalization-syntax.md).
-
-1. Selecteer hoe u de optie Weigeren wilt toepassen: op het kanaal, de identiteit of het abonnementsniveau.
-
-   ![](assets/message-tracking-opt-out-level.png)
-
-   * **[!UICONTROL Channel]**: De optie om te weigeren is van toepassing op toekomstige berichten die naar het doel van het profiel (e-mailadres) voor het huidige kanaal worden verzonden. Als er meerdere doelen aan een profiel zijn gekoppeld, geldt de opt-out voor alle doelen (e-mailadressen) in het profiel voor dat kanaal.
-   * **[!UICONTROL Identity]**: De opt-out is van toepassing op toekomstige berichten die worden verzonden naar het specifieke doel (d.w.z. e-mailadres) dat voor het huidige bericht wordt gebruikt.
-   * **[!UICONTROL Subscription]**: De optie om te weigeren is van toepassing op toekomstige berichten die aan een specifieke abonnementenlijst zijn gekoppeld. Deze optie kan alleen worden geselecteerd als het huidige bericht is gekoppeld aan een abonnementenlijst.
-
-1. Sla uw wijzigingen op.
-
-
-
-## Optie in twee stappen {#opt-out-external-lp}
-
-Het standaardmechanisme voor opt-out is gebaseerd op twee stappen: de abonnee klikt in een e-mail op de koppeling om te weigeren en vervolgens wordt hij omgeleid naar een bestemmingspagina om zijn abonnement te bevestigen.
-
-Als u deze uitstapmodus wilt implementeren, moet u een bestemmingspagina voor een opt-out maken en publiceren en een koppeling voor een abonnement toevoegen in uw e-mailberichten met een koppeling naar de bestemmingspagina. Deze stappen worden hieronder beschreven.
-
-
-### Vereisten {#prereq-lp}
-
-Als u een systeem met twee stappen wilt instellen voor het weigeren van toegang, moet u uw eigen bestemmingspagina&#39;s voor abonnementen maken. De eerste het landen pagina zal van uw bericht worden verbonden en moet een vraag-aan-actie knoop bevatten. Er moet een bevestigingsbericht worden weergegeven wanneer de gebruiker op de knop klikt.
-
-Leer hoe u een bestemmingspagina maakt in Adobe Journey Optimizer om abonnementen te beheren in [deze pagina](../landing-pages/lp-use-cases.md#opt-out).
-
-U kunt ook een externe bestemmingspagina gebruiken. In dat geval configureert u de API zodanig dat de informatie naar Adobe Journey Optimizer wordt verzonden wanneer een ontvanger zich niet meer abonneert.
-
-+++ Leer hoe u een opt-out API-aanroep implementeert
+### Een API-aanroep voor opt-out implementeren {#opt-out-api}
 
 Als u wilt dat de ontvangers de optie Weigeren kiezen wanneer ze hun keuze op de bestemmingspagina indienen, moet u een **API-oproep voor abonnement** doorheen [Adobe Developer](https://developer.adobe.com){target="_blank"} om de voorkeuren van de overeenkomstige profielen bij te werken.
 
@@ -161,43 +101,19 @@ Instantie van aanvraag:
 }
 ```
 
-[!DNL Journey Optimizer] gebruikt deze parameters om de keuze van het corresponderende profiel bij te werken via de [Adobe Developer](https://developer.adobe.com){target="_blank"} API-aanroep.
-
-+++
-
-
-### Koppeling voor annuleren toevoegen {#add-unsubscribe-link}
-
-Eerst moet u een afmeldingskoppeling toevoegen aan een bericht. Hiervoor voert u de volgende stappen uit:
-
-1. Maak een bericht en [een koppeling invoegen](../email/message-tracking.md#insert-links) gebruiken van de contextafhankelijke werkbalk.
-
-   ![](assets/opt-out-insert-link.png)
-
-1. Selecteer de **[!UICONTROL Landing page]** van de **[!UICONTROL Type]** vervolgkeuzelijst en selecteer de bestemmingspagina van de optie Weigeren in de **[!UICONTROL Landing page]** veld.
-
-   Als u een externe bestemmingspagina gebruikt, selecteert u **[!UICONTROL External Opt-out/Unsubscription]** van de **[!UICONTROL Type]** vervolgkeuzelijst.
-
-   ![](assets/opt-out-link-type.png)
-
-   In de **[!UICONTROL Link]** plakken, plakt u de koppeling naar de bestemmingspagina van derden.
-
-   ![](assets/opt-out-link-url.png)
-
-1. Klikken **[!UICONTROL Save]**.
-
+[!DNL Journey Optimizer] gebruikt u deze parameters om de keuze van het corresponderende profiel bij te werken via de [Adobe Developer](https://developer.adobe.com){target="_blank"} API-aanroep.
 
 ### Bericht verzenden met afmeldingskoppeling {#send-message-unsubscribe-link}
 
-Zodra u de unsubscribe verbinding aan uw landende pagina vormde, kunt u uw bericht creëren en verzenden.
+Zodra u de unsubscribe verbinding aan uw landende pagina vormde en de API vraag uitvoerde, is uw bericht klaar om te worden verzonden.
 
-1. Vorm uw bericht met een unsubscription verbinding en verzend het naar uw abonnees.
+1. Verzend het bericht inclusief de koppeling via een [reis](../building-journeys/journey.md).
 
 1. Zodra het bericht wordt ontvangen, als de ontvanger de unsubscribe verbinding klikt, wordt uw landende pagina getoond.
 
    ![](assets/opt-out-lp-example.png)
 
-1. Indien de ontvanger het formulier indient - hier, door op de **[!UICONTROL Unsubscribe]** op uw landingspagina - de profielgegevens worden bijgewerkt via de API-aanroep.
+1. Indien de ontvanger het formulier indient (hier door op de **Abonnement opzeggen** (in uw bestemmingspagina), worden de profielgegevens bijgewerkt via [API-aanroep](#opt-out-api).
 
 1. De ontvanger van de optie-uit wordt dan opnieuw gericht aan een bevestigingsberichtscherm erop wijzend dat het kiezen uit succesvol was.
 
@@ -211,3 +127,66 @@ Zodra u de unsubscribe verbinding aan uw landende pagina vormde, kunt u uw beric
 
    In de **[!UICONTROL Attributes]** tab, kunt u de waarde zien voor **[!UICONTROL choice]** is gewijzigd in **[!UICONTROL no]**.
 
+## Eén klik op Weigeren {#one-click-opt-out}
+
+Volg onderstaande stappen om een koppeling om te weigeren toe te voegen in uw e-mail.
+
+1. [Een koppeling invoegen](../email/message-tracking.md#insert-links) en selecteert u **[!UICONTROL One click Opt-out]** als het type koppeling.
+
+   ![](assets/message-tracking-opt-out.png)
+
+1. Voer de URL in van de bestemmingspagina waarop de gebruiker wordt omgeleid wanneer het abonnement wordt opgezegd. Deze pagina is alleen hier om te bevestigen dat de optie Weigeren is gelukt.
+
+   >[!NOTE]
+   >
+   >Als u de optie **List-Unsubscribe** Deze URL wordt ook gebruikt wanneer gebruikers op de koppeling Abonneren in de e-mailheader klikken. [Meer informatie](#unsubscribe-header)
+
+   ![](assets/message-tracking-opt-out-confirmation.png)
+
+   U kunt uw koppelingen aanpassen. Meer informatie over gepersonaliseerde URL&#39;s vindt u in [deze sectie](../personalization/personalization-syntax.md).
+
+1. Selecteer hoe u de optie Weigeren wilt toepassen: op het kanaal, de identiteit of het abonnementsniveau.
+
+   ![](assets/message-tracking-opt-out-level.png)
+
+   * **[!UICONTROL Channel]**: De optie om te weigeren is van toepassing op toekomstige berichten die naar het doel van het profiel (e-mailadres) voor het huidige kanaal worden verzonden. Als er meerdere doelen aan een profiel zijn gekoppeld, geldt de opt-out voor alle doelen (e-mailadressen) in het profiel voor dat kanaal.
+   * **[!UICONTROL Identity]**: De opt-out is van toepassing op toekomstige berichten die worden verzonden naar het specifieke doel (d.w.z. e-mailadres) dat voor het huidige bericht wordt gebruikt.
+   * **[!UICONTROL Subscription]**: De optie om te weigeren is van toepassing op toekomstige berichten die aan een specifieke abonnementenlijst zijn gekoppeld. Deze optie kan alleen worden geselecteerd als het huidige bericht is gekoppeld aan een abonnementenlijst.
+
+1. Sla uw wijzigingen op.
+
+Zodra uw bericht door [reis](../building-journeys/journey.md)Als een ontvanger op de koppeling om te weigeren klikt, wordt zijn profiel onmiddellijk uitgeschakeld.
+
+## Koppeling in e-mailkoptekst opzeggen {#unsubscribe-header}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_unsubscribe"
+>title="Koppeling voor abonnement toevoegen aan e-mailkoptekst"
+>abstract="Schakel List-Unsubscribe in om een koppeling voor afmelden aan de e-mailkoptekst toe te voegen. Als u een URL voor afmelden wilt instellen, voegt u een koppeling om te weigeren in de e-mailinhoud in."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#one-click-opt-out" text="Eén klik op Weigeren"
+
+Als de [List-Unsubscribe, optie](email-settings.md#list-unsubscribe) is ingeschakeld op het niveau van het kanaaloppervlak, de bijbehorende e-mails die worden verzonden met [!DNL Journey Optimizer] zal een unsubscribe verbinding in de e-mailkopbal omvatten.
+
+De koppeling voor afmelden wordt bijvoorbeeld als volgt weergegeven in Gmail:
+
+![](assets/unsubscribe-header.png)
+
+>[!NOTE]
+>
+>Als u de koppeling voor afmelden in de e-mailheader wilt weergeven, moet de e-mailclient van de ontvangers deze functie ondersteunen.
+
+Het afmeldingsadres is het standaardadres **[!UICONTROL Mailto (unsubscribe)]** adres dat in de overeenkomstige kanaaloppervlakte wordt getoond. [Meer informatie](email-settings.md#list-unsubscribe)
+
+Als u een gepersonaliseerde URL voor afmelden wilt instellen, voegt u een koppeling voor een eenmalige aanmelding in de inhoud van het e-mailbericht in en voert u de gewenste URL in. [Meer informatie](#one-click-opt-out)
+
+Afhankelijk van de e-mailclient kan het klikken op de koppeling voor het opzeggen van abonnementen in de koptekst de volgende effecten hebben:
+
+* Het afmeldingsverzoek wordt verzonden naar het standaardadres voor afmelden.
+
+* De ontvanger wordt verwezen naar de bestemmingspagina URL die u toen het toevoegen van de opt-out verbinding aan uw bericht specificeerde.
+
+  >[!NOTE]
+  >
+  >Als u geen koppeling voor het uitschakelen van een muisklik toevoegt aan de inhoud van het bericht, wordt er geen bestemmingspagina weergegeven.
+
+* Het corresponderende profiel wordt direct uitgeschakeld en deze keuze wordt in het Experience Platform bijgewerkt. Meer informatie in het dialoogvenster [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}.

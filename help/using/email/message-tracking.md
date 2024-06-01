@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: koppelingen, bijhouden, controleren, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
+source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 0%
@@ -158,7 +158,7 @@ De [E-mailDesigner](content-from-scratch.md) Hiermee kunt u de bijgehouden URL&#
    * **[!UICONTROL Tracked]**: activeert tracering op deze URL.
    * **[!UICONTROL Opt out]**: beschouwt deze URL als een opt-out- of niet-abonnements-URL.
    * **[!UICONTROL Mirror page]**: beschouwt deze URL als een URL van een spiegelpagina.
-   * **[!UICONTROL Never]**: activeert het bijhouden van deze URL nooit.
+   * **[!UICONTROL Never]**: activeert het bijhouden van deze URL nooit. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 Rapportage over openingen en klikken is beschikbaar in de [Live-rapport](../reports/live-report.md) en in de [Algemeen rapport](../reports/global-report.md).
 
