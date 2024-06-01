@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: koppelingen, bijhouden, controleren, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
+source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 0%
@@ -187,4 +187,3 @@ Wanneer de e-mail wordt verzonden, wordt deze parameter automatisch toegevoegd a
 >[!NOTE]
 >
 >U kunt de uiteindelijke URL controleren door [een bewijs verzenden](../content-management/preview-test.md#send-proofs) en klik op de koppeling in de inhoud van het e-mailbericht als u de proefdruk hebt ontvangen. De URL moet de parameter tracking weergeven. In het bovenstaande voorbeeld is de laatste URL: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
-

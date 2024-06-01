@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
+source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 0%
@@ -30,6 +30,7 @@ while **[!DNL Journey Optimizer]** biedt manieren om de optie om te weigeren in 
 >[!NOTE]
 >
 >Bovendien kun je Journey Optimizer gebruiken **REST-API onderdrukken** om uw uitgaande berichten te controleren gebruikend onderdrukking en lijsten van gewenste personen. [Leer hoe u met de REST API voor onderdrukking werkt](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+
 
 In de volgende secties vindt u informatie over het beheren van opt-out in Journey Optimizer-berichten voor e-mail en SMS:
 

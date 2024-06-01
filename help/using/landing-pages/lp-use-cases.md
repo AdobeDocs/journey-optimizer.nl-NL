@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: landen, landingspagina, hoofdletter gebruiken
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
+source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 1%
@@ -166,6 +166,8 @@ De gegevens over de opt-out worden opgeslagen in de **Dataset voor goedgekeurde 
 >Als de samenvoegmethode voor uw standaard [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"} **[!UICONTROL Profiles]** samenvoegbeleid is **[!UICONTROL Dataset Precedence]**, zorgt u ervoor dat de **[!UICONTROL AJO Consent Service Dataset]** en om aan het in het fusiebeleid voorrang te geven. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >Zelfs als er geen batches aan deze gegevensset zijn toegevoegd, zal deze nog steeds de informatie over opt-in/opt-out bevatten.
+
+
 
 **Zie ook:**
 

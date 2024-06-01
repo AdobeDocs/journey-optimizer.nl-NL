@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: opt-out, e-mail, link, abonnement opzeggen
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: fb6a2e29f92e4b7e65eb495a654960e3249f9508
+source-git-commit: f915ab3430f3051772484708a7a1eca030dc3b0c
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 0%
@@ -31,6 +31,7 @@ Als u een koppeling zonder abonnement wilt invoegen in uw e-mailinhoud, kunt u:
 * De optie **one-click opt-out link** voor uw e-mail.  [Meer informatie over het toevoegen van een koppeling om te weigeren met één klik](#one-click-opt-out)
 
 * Een **koppeling naar een bestemmingspagina**. [Meer informatie over het toevoegen van een bestemmingspagina met de optie Weigeren](#opt-out-external-lp)
+
 
 ## Eén stap voor opt-out {#opt-out-one-step}
 
