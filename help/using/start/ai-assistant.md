@@ -10,7 +10,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: a6b7dce05dbcc9c12595646eac47295f4db3aea3
+source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -52,11 +52,11 @@ In Adobe Journey Optimizer hebt u toegang tot de volgende gebruiksgevallen:
 
 Als u een vraag wilt stellen, voert u deze in in het veld onder aan het scherm en drukt u op Enter.
 
-![](assets/do-not-localize/ai-assistant-ask.png){width="40%" align="left"}
+![](assets/do-not-localize/ai-assistant-ask.png){width="20%" align="left"}
 
 Controleer het antwoord en gebruik de **Bronnen weergeven** voor directe koppelingen naar de productdocumentatie en meer informatie.
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="40%" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="20%" align="left"}
 
 Gebruik de duim omhoog of duim neer om het antwoord te schatten.
 

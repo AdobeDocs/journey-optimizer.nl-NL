@@ -9,20 +9,20 @@ role: User
 level: Beginner, Intermediate
 keywords: reis, activiteiten, aan de slag, gebeurtenissen, actie
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 28a4f04ebcda27213d3bac763fb9bea8ea4a0146
+source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 13%
+source-wordcount: '515'
+ht-degree: 0%
 
 ---
 
 # Aan de slag met reisactiviteiten {#about-journey-activities}
 
-Combineer de verschillende actie-, orkestratie- en gebeurtenisactiviteiten om uw kanaaloverschrijdende scenario’s met meerdere stappen te maken.
+Combineer de verschillende gebeurtenis-, organisatie- en actieactiviteiten om uw meerstapsscenario&#39;s voor meerdere kanalen te maken.
 
 ## Gebeurtenisactiviteiten {#event-activities}
 
-Gebeurtenissen zijn de aanleiding voor een persoonlijke reis, zoals een online aankoop. Wanneer iemand een reis binnengaat, beweegt hij als individu en bewegen geen twee individuen zich met dezelfde snelheid of langs dezelfde weg. Wanneer u uw reis met een gebeurtenis begint, wordt de reis teweeggebracht wanneer de gebeurtenis wordt ontvangen. Elke persoon op de reis volgt dan, individueel, de volgende stappen die in uw reis worden bepaald.
+Persoonlijke reizen worden veroorzaakt door gebeurtenissen, zoals een online aankoop. Als een profiel eenmaal een reis binnengaat, bewegen ze als individu door en bewegen geen twee individuen zich met dezelfde snelheid of langs hetzelfde pad. Wanneer u uw reis met een gebeurtenis begint, wordt de reis teweeggebracht wanneer de gebeurtenis wordt ontvangen. Elke persoon op de reis volgt dan, individueel, de volgende stappen die in uw reis worden bepaald.
 
 Gebeurtenissen geconfigureerd door de technische gebruiker (zie [deze pagina](../event/about-events.md)) worden allemaal weergegeven in de eerste categorie van het palet, links op het scherm. De volgende activiteiten zijn beschikbaar:
 
@@ -36,7 +36,7 @@ Begin de reis door een gebeurtenisactiviteit te slepen en neer te zetten. U kunt
 
 ![](assets/journey44.png)
 
-## Orkestratieactiviteiten {#orchestration-activities}
+## Orchestratie {#orchestration-activities}
 
 Orchestratieactiviteiten zijn verschillende omstandigheden die helpen de volgende stap in de reis te bepalen. Het kan zijn dat de persoon een open steungeval heeft of niet, het weer dat op zijn huidige locatie wordt voorspeld, als hij een aankoop heeft voltooid of niet, of 10 000 loyaliteitspunten bereikt.
 
@@ -48,7 +48,7 @@ In het palet zijn aan de linkerkant van het scherm de volgende orkestactiviteite
 
 ![](assets/journey49.png)
 
-## Actieactiviteiten {#action-activities}
+## Acties {#action-activities}
 
 Handelingen zijn wat u wilt doen als gevolg van een of andere trigger, zoals het verzenden van een bericht. Het is het traject dat de klant ervaart.
 
@@ -60,11 +60,11 @@ Vanuit het palet, links van het scherm, onder **[!UICONTROL Events]** en **[!UIC
 
 ![](assets/journey58.png)
 
-Deze activiteiten staan voor de verschillende beschikbare communicatiekanalen. U kunt ze combineren om een scenario voor meerdere kanalen te maken.
+Deze activiteiten vertegenwoordigen de verschillende beschikbare communicatiekanalen. U kunt ze combineren om een scenario voor meerdere kanalen te maken.
 
 Als u aangepaste handelingen hebt geconfigureerd, worden deze ook hier weergegeven. [Meer informatie](../building-journeys/using-custom-actions.md)).
 
-## Best practices {#best-practices}
+## Aanbevolen procedures {#best-practices}
 
 ### Een label toevoegen
 
@@ -92,6 +92,6 @@ In bepaalde situaties kunt u de waarden van deze parameters voor specifiek gebru
 
 ### Een alternatief pad toevoegen
 
-Wanneer er een fout in een actie of een voorwaarde optreedt, eindigt de journey van een individu. De enige manier om door te gaan is het selectievakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in te schakelen. Zie [deze sectie](../building-journeys/using-the-journey-designer.md#paths).
+Wanneer een fout in een actie of een voorwaarde voorkomt, de reis van een individuele einden. De enige manier om door te gaan is door het selectievakje in te schakelen **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Zie [deze sectie](../building-journeys/using-the-journey-designer.md#paths).
 
 ![](assets/journey42.png)
