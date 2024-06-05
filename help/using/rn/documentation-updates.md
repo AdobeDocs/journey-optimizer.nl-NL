@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
 workflow-type: tm+mt
-source-wordcount: '5331'
+source-wordcount: '5330'
 ht-degree: 12%
 
 ---
@@ -391,7 +391,7 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 
 * Verbeterde **Snel starten** pagina met stappen voor verschillende personen. [Meer informatie](../start/quick-start.md)
 
-* Nu zijn alle functies voor Beslissingsbeheer die in de desbetreffende sectie worden beschreven ook van toepassing op Adobe Experience Platform-gebruikers die gebruikmaken van de toepassingsservice van de Offer decisioning. [Meer informatie](../offers/get-started/starting-offer-decisioning.md)
+* Nu zijn alle functies voor Beslissingsbeheer die in de desbetreffende sectie worden beschreven ook van toepassing op Adobe Experience Platform-gebruikers die gebruikmaken van de toepassing Offer decisioning. [Meer informatie](../offers/get-started/starting-offer-decisioning.md)
 
 * Een subsectie toegevoegd om de verschillen tussen het gebruik van regels voor publiek en beslissing bij het toepassen van een beperking om de selectie van aanbiedingen voor een bepaalde plaatsing te beperken, te verduidelijken. [Meer informatie](../offers/offer-activities/create-offer-activities.md#segments-vs-decision-rules)
 

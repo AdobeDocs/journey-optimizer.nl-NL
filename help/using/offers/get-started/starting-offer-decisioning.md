@@ -1,15 +1,15 @@
 ---
 title: Aan de slag met Beslissingsbeheer
-description: Ontdek hoe Adobe Journey Optimizer u kan helpen uw klanten op het juiste moment het juiste aanbod te sturen
+description: Ontdek hoe Adobe Journey Optimizer u kan helpen uw klanten het juiste aanbod op het juiste moment te sturen
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: d4a91dcd032af03504ab7bbf97b2e19338c32397
+source-git-commit: fcd8c4077bead912d709b726c6ff15464357a8be
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 49%
+source-wordcount: '892'
+ht-degree: 21%
 
 ---
 
@@ -79,31 +79,31 @@ De machtigingen die specifiek zijn voor Beslissingsbeheer worden vermeld in [dez
 
 U kunt onder de lijst van de belangrijkste concepten vinden u zult werken met wanneer het gebruiken van Beslissingsbeheer.
 
-* **Limitering** of **Frequentiebeperking**: limitering (ofwel beperking) wordt gebruikt om een limiet in te stellen voor het aantal keren dat een aanbieding wordt ingezet. Er zijn twee soorten limieten: een limiet voor het aantal keren dat een aanbieding aan de gecombineerde doelgroep kan worden aangeboden, ook wel ‘totaallimiet’ genoemd, en een limiet voor het aantal keren dat een aanbieding aan dezelfde eindgebruiker kan worden aangeboden, ook wel ‘profiellimiet’ genoemd.
+* **Afbeelding** of **Frequentiecorrectie**: Afdekkingen worden gebruikt als een beperking om te bepalen hoe vaak een aanbieding wordt gepresenteerd. Er zijn twee soorten plafonds, hoeveel keer een aanbod kan worden voorgesteld over het gecombineerde doelpubliek, ook bekend als &quot;Total caps&quot; en hoeveel keer een aanbod kan worden voorgesteld aan dezelfde eindgebruiker, ook bekend als &quot;Profile Cap&quot;.
 
-* **Verzamelingen**: verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketeer zijn gedefinieerd, zoals de categorie van de aanbieding.
+* **Verzamelingen**: Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketeter zijn gedefinieerd, zoals de categorie van de aanbieding.
 
 * **Besluit**: Een beslissing bevat de logica die de selectie van een aanbieding informeert.
 
-* **Beslissingsregel**: beslissingsregels zijn restricties die aan een persoonlijke aanbieding worden toegevoegd en op een profiel worden toegepast om te bepalen of dat profiel in aanmerking komt voor een aanbieding.
+* **Beslissingsregel**: Beslissingsregels zijn beperkingen die aan een gepersonaliseerd aanbod worden toegevoegd en die worden toegepast op een profiel om te bepalen of het in aanmerking komt voor steun.
 
-* **Geschikte aanbieding**: een geschikte aanbieding voldoet aan de restricties die op een hoger niveau zijn ingesteld zodat de aanbieding consistent aan een profiel kan worden aangeboden.
+* **In aanmerking komende aanbieding**: Een in aanmerking komende aanbieding voldoet aan de vooraf gedefinieerde beperkingen die consistent aan een profiel kunnen worden aangeboden.
 
 * **Beslissingsbeheer**: Staat u toe om eindgebruiker gepersonaliseerde aanbiedingservaringen over kanalen en toepassingen tot stand te brengen en te leveren gebruikend bedrijfslogica en besluitvormingsregels.
 
-* **Alternatieve aanbiedingen**: een alternatieve aanbieding is de standaardaanbieding die wordt weergegeven wanneer een eindgebruiker niet in aanmerking komt voor een van de persoonlijke aanbiedingen in de verzameling.
+* **Terugvalvoorstellen**: Een fallback-aanbieding is de standaardaanbieding die wordt weergegeven wanneer een eindgebruiker niet in aanmerking komt voor een van de gepersonaliseerde aanbiedingen in de collectie.
 
-* **Aanbieding**: een aanbieding is een marketingbericht waaraan regels gekoppeld kunnen zijn die bepalen wie in aanmerking komt om de aanbieding te zien.
+* **Voorstel**: Een aanbieding is een marketingbericht waaraan regels kunnen zijn gekoppeld die bepalen wie in aanmerking komt om de aanbieding te zien.
 
 * **Bibliotheek van aanbieding**: De aanbiedingsbibliotheek is een centrale bibliotheek die wordt gebruikt om gepersonaliseerde en terugvalaanbiedingen, besluitvormingsregels en besluiten te beheren.
 
-* **Persoonlijke aanbiedingen**: een persoonlijke aanbieding is een aanpasbaar marketingbericht op basis van geschiktheidsregels en restricties.
+* **Persoonlijke aanbiedingen**: Een gepersonaliseerde aanbieding is een aanpasbaar marketingbericht dat is gebaseerd op toelatingsregels en -beperkingen.
 
-* **Plaatsingen**: een plaatsing is de locatie en/of de context waarin een aanbieding voor een eindgebruiker wordt weergegeven.
+* **Plaatsen**: Een plaatsing is de locatie en/of context waarin een aanbieding voor een eindgebruiker verschijnt.
 
-* **Prioriteit**: prioriteiten worden gebruikt om aanbiedingen te rangschikken die voldoen aan alle restricties, zoals geschiktheid, kalender en beperking.
+* **Prioriteit**: De prioriteit wordt gebruikt om aanbiedingen te rangschikken die aan alle beperkingen, zoals geschiktheid, kalender, en maximum voldoen.
 
-* **Weergaven**: een weergave is informatie (bijv. de locatie of taal) die door een kanaal wordt gebruikt om een aanbieding te tonen.
+* **Vertegenwoordigingen**: Een vertegenwoordiging is informatie die door een kanaal, zoals plaats of taal wordt gebruikt om een aanbieding te tonen.
 
 ## Hoe kan ik-video&#39;s{#video}
 
