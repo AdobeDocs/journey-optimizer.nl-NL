@@ -10,9 +10,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: ddb8c02a309c6e016e95cb8b9fcde24f0f751078
+source-git-commit: a6b7dce05dbcc9c12595646eac47295f4db3aea3
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,11 @@ De AI Medewerker is een gebruikersinterfaceeigenschap die u kunt gebruiken om te
 Klik op het pictogram op de bovenste balk om de AI-assistent te openen. De AI-assistent wordt rechts in het scherm weergegeven.
 
 ![](assets/do-not-localize/ai-assistant-open.png)
+
+
+>[!CAUTION]
+>
+>U moet akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen voordat u de AI Assistant kunt gebruiken. Meer informatie over de overeenkomst vindt u in [deze pagina](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
 
 In Adobe Journey Optimizer hebt u toegang tot de volgende gebruiksgevallen:
 
