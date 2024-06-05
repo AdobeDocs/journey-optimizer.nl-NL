@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: wachten, activiteit, reis, volgende, canvas
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 505a418819b7a8ac9883d78a4f3d05a78cf5aa31
+source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ ht-degree: 0%
 >title="Wacht op activiteit"
 >abstract="Als u wilt wachten alvorens de volgende activiteit in de weg uit te voeren, kunt u een Wacht activiteit gebruiken. Hiermee kunt u bepalen wanneer de volgende activiteit wordt uitgevoerd. Er zijn twee opties beschikbaar: duur en aangepast."
 
-U kunt een **[!UICONTROL Wait]** activiteit om een duur te bepalen alvorens de volgende activiteit uit te voeren. De volgende opties zijn beschikbaar:
+U kunt een **[!UICONTROL Wait]** activiteit om een duur te bepalen alvorens de volgende activiteit uit te voeren.  De maximale wachttijd is **29 dagen**.
+
+De volgende typen zijn beschikbaar:
 
 * [Duur](#duration)
 * [Aangepast](#custom)
@@ -33,19 +35,26 @@ U kunt een **[!UICONTROL Wait]** activiteit om een duur te bepalen alvorens de v
 * [Fixed date](#fixed_date) 
 -->
 
-## Informatie over de activiteit Wachten {#about_wait}
+## Recommendations {#wait-recommendations}
 
-De maximale wachttijd is 29 dagen. In de testmodus **[!UICONTROL Wait time in test]** parameter staat u toe om de tijd te bepalen dat elke wachttijdactiviteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Meer informatie in [deze pagina](../building-journeys/testing-the-journey.md).
+### Meerdere wachtactiviteiten {#multiple-wait-activities}
 
-Wees voorzichtig bij het gebruik van meerdere **Wachten** activiteiten op een reis, aangezien de totale reistijd 30 dagen bedraagt, wat betekent dat een profiel altijd buiten de reis zal vallen, maximaal 30 dagen nadat hij of zij de reis is binnengekomen. Meer informatie in [deze pagina](../building-journeys/journey-gs.md#global_timeout).
+Bij het gebruik van meerdere **Wachten** de activiteiten op een reis, zich ervan bewust zijn dat de mondiale reis onderbreking 30 dagen is, die betekent dat profielen altijd uit de reis vallen binnen 30 dagen nadat zij het binnenkwamen. Meer informatie in [deze pagina](../building-journeys/journey-gs.md#global_timeout).
 
 Een individu kan een **Wachten** alleen als zij voldoende tijd hebben om de wachttijd voor de 30 dagen durende reistijd af te ronden. Als u bijvoorbeeld twee **Wachten** het systeem detecteert dat de tweede **Wachten** activiteit eindigt na de periode van 30 dagen. De tweede **Wachten** deze activiteit zal derhalve worden genegeerd en de betrokkene zal de reis verlaten voordat hij of zij begint . In dat voorbeeld zal de klant in totaal 20 dagen op de reis blijven.
 
+### Wachten en opnieuw betreden {#wait-re-entrance}
+
 Een beste werkwijze om niet te gebruiken **Wachten** activiteiten om hertoetreding te blokkeren. Gebruik in plaats daarvan de opdracht **Hernieuwde toegang toestaan** optie op het niveau van de reiseigenschappen. Meer informatie in [deze pagina](../building-journeys/journey-gs.md#entrance).
+
+### Wachten en testmodus {#wait-test-modd}
+
+In de testmodus **[!UICONTROL Wait time in test]** parameter staat u toe om de tijd te bepalen die elk **Wachten** de activiteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Meer informatie in [deze pagina](../building-journeys/testing-the-journey.md).
+
 
 ## Wachten op duur {#duration}
 
-Selecteer de duur van de wachttijd voordat de volgende activiteit wordt uitgevoerd. De maximale duur is 29 dagen.
+Selecteer de **Duur** type om de duur van de wachttijd vóór de uitvoering van de volgende activiteit in te stellen. De maximale duur is **29 dagen**.
 
 ![De wachttijd definiëren](assets/journey55.png)
 
@@ -60,7 +69,7 @@ Select the date for the execution of the next activity.
 
 ## Aangepast wachten {#custom}
 
-Gebruik de **Aangepast** type om een douanedatum te bepalen, gebruikend een geavanceerde uitdrukking die op een gebied wordt gebaseerd dat van een gebeurtenis of een reactie van de douaneactie komt. U kunt een relatieve duur niet rechtstreeks definiëren, bijvoorbeeld 7 dagen, maar u kunt functies gebruiken om de duur te berekenen als dat nodig is (bijvoorbeeld 2 dagen na aankoop).
+Selecteer de **Aangepast** type om een douanedatum te bepalen, gebruikend een geavanceerde uitdrukking die op een gebied wordt gebaseerd dat van een gebeurtenis of een reactie van de douaneactie komt. U kunt een relatieve duur niet rechtstreeks definiëren, bijvoorbeeld 7 dagen, maar u kunt functies gebruiken om de duur te berekenen als dat nodig is (bijvoorbeeld 2 dagen na aankoop).
 
 ![Een aangepaste wachttijd definiëren met een expressie](assets/journey57.png)
 
