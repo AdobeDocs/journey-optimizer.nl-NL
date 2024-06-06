@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 02a3ed25c7047ce709271a386d9ab4c2e976e42f
+source-git-commit: f64cf166d5fa732ae0353414b5638c97d43099a1
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -30,14 +30,18 @@ Klik op het pictogram op de bovenste balk om de AI-assistent te openen. De AI-as
 
 In Adobe Journey Optimizer hebt u toegang tot de volgende gebruiksgevallen:
 
-* Productkennis (algemene beschikbaarheid) Productkennisvragen hebben betrekking op Adobe-concepten met betrekking tot aspecten van Adobe Journey Optimizer. Enkele voorbeelden van productkennisvragen zijn:
+* **Productkennis** (Algemene beschikbaarheid)
+
+  Productkennisvragen gaan over Adobe-concepten met betrekking tot aspecten van Adobe Journey Optimizer. Enkele voorbeelden van productkennisvragen zijn:
 
    * Hoeveel levende activiteiten kan ik in één zandbak van Adobe Journey Optimizer hebben?
    * Hoe kan ik een campagne opzetten in Adobe Journey Optimizer?
    * Hoe maak ik een aangepaste handeling voor Adobe Journey Optimizer-reizen?
 
 
-* Operationele inzichten in reizen (bèta) Operationele vragen over inzicht hebben betrekking op de reisobjecten in de sandbox van uw organisatie. Enkele voorbeelden van vragen of vragen over operationeel inzicht zijn:
+* **Operationele inzichten** tijdens reizen (bèta)
+
+  Operationele vragen over inzicht hebben betrekking op de reisobjecten in de sandbox van uw organisatie. Enkele voorbeelden van vragen of vragen over operationeel inzicht zijn:
 
    * Hoeveel reizen heb ik in Adobe Journey Optimizer?
    * Geef me een lijst van alle geplande reizen
@@ -50,11 +54,11 @@ In Adobe Journey Optimizer hebt u toegang tot de volgende gebruiksgevallen:
 
 Als u een vraag wilt stellen, voert u deze in in het veld onder aan het scherm en drukt u op Enter.
 
-![](assets/do-not-localize/ai-assistant-ask.png){width="300" align="left"}
+![](assets/do-not-localize/ai-assistant-ask.png){width="50%" align="left"}
 
 Controleer het antwoord en gebruik de **Bronnen weergeven** voor directe koppelingen naar de productdocumentatie en meer informatie.
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="300" align="left"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="left"}
 
 Gebruik de duim omhoog of duim neer om het antwoord te schatten.
 
