@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
-source-git-commit: 2e0c8dbe40e953ceb59df43c91bcd12a07e048e9
+source-git-commit: 02a3ed25c7047ce709271a386d9ab4c2e976e42f
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Klik op het pictogram op de bovenste balk om de AI-assistent te openen. De AI-as
 
 >[!CAUTION]
 >
->U moet akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen voordat u de AI Assistant kunt gebruiken. Meer informatie over de overeenkomst vindt u in [deze pagina](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
+>U moet akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen voordat u de AI Assistant kunt gebruiken. Meer informatie over de overeenkomst vindt u in [deze pagina](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 In Adobe Journey Optimizer hebt u toegang tot de volgende gebruiksgevallen:
 
@@ -58,4 +58,4 @@ Controleer het antwoord en gebruik de **Bronnen weergeven** voor directe koppeli
 
 Gebruik de duim omhoog of duim neer om het antwoord te schatten.
 
-Als u wilt leren hoe u AI Assistant gebruikt, raadpleegt u de voorbeelddoelstellingen die u kunt bereiken met de AI-assistent en leert u hoe de AI-assistent werkt. Raadpleeg hiervoor [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-ui/ai-assistant){target="_blank"}.
+Als u wilt leren hoe u AI Assistant gebruikt, raadpleegt u de voorbeelddoelstellingen die u kunt bereiken met de AI-assistent en leert u hoe de AI-assistent werkt. Raadpleeg hiervoor [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target="_blank"}.
