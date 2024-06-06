@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 72bd00dedb943604b2fa85f7173cd967c3cbe5c4
+source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 7%
+source-wordcount: '214'
+ht-degree: 0%
 
 ---
 
@@ -28,9 +28,9 @@ Leren hoe u toegang krijgt tot en werkt met de **Profieldashboard** en gedetaill
 
 U kunt gegevensfragmenten samenbrengen uit meerdere bronnen en deze combineren om een volledige weergave van elk van uw individuele klanten te zien. Wanneer het brengen van deze gegevens samen, zijn het fusiebeleid de regels die worden gebruikt om te bepalen hoe de gegevens voorrang zullen krijgen en welke gegevens zullen worden gecombineerd om de verenigde mening tot stand te brengen.
 
-Meer informatie over **Beleid samenvoegen** in [documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}.
+Meer informatie over **Beleid samenvoegen** in dit [documentatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}.
 
-**Zie ook**
-
-* [Documentatie bij real-timeklantprofiel](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl){target="_blank"}
-* [Video over het realtime-overzicht van het klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}
+>[!MORELIKETHIS]
+>
+>* [Documentatie van het profiel van de klant in realtime](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=nl){target="_blank"}
+>* [Video overzicht van het realtime klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}

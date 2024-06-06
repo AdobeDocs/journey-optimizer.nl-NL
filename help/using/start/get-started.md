@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer
-description: Belangrijke Adobe Journey Optimizer-functies en gebruiksscenario's ontdekken
+description: Belangrijke Adobe Journey Optimizer-functies en gebruiksgevallen ontdekken
 feature: Get Started
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 4%
+source-wordcount: '660'
+ht-degree: 0%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 4%
 
 ## Wat is [!DNL Adobe Journey Optimizer]?{#about-cjm}
 
-[!DNL Adobe Journey Optimizer] helpt bedrijven hun klanten verbonden, contextafhankelijke en persoonlijke ervaringen te bieden. De reis van de klant is het volledige proces van interactie van een klant met het merk, van het eerste ogenblik van contact tot de klant vertrekt. Het begint met de bewustmakingsfase, waarin de klant leert over het merk en begint met het engageren. De klant zal dan verder met het merk communiceren, online en fysieke sites bezoeken, aankopen doen, berichten verzenden of revisies verzenden.
+[!DNL Adobe Journey Optimizer] helpt bedrijven om verbonden, contextafhankelijke en gepersonaliseerde ervaringen aan hun klanten te leveren. De reis van de klant is het volledige proces van interactie van een klant met het merk, van het eerste ogenblik van contact tot de klant vertrekt. Het begint met de bewustmakingsfase, waarin de klant leert over het merk en begint met het engageren. De klant zal dan verder met het merk communiceren, online en fysieke sites bezoeken, aankopen doen, berichten verzenden of revisies verzenden.
 
 [!DNL Adobe Journey Optimizer] is native [!DNL Adobe Experience Platform] en combineert een verenigd, real-time klantprofiel, een API-eerste open kader, gecentraliseerde offer decisioning, en kunstmatige intelligentie (AI) en machine het leren (ML) voor verpersoonlijking en optimalisering. Met Journey Optimizer kunnen merken op intelligente wijze bepalen wat de volgende beste interactie is met schaal, snelheid en flexibiliteit voor de hele reis van de klant. Met [!DNL Adobe Journey Optimizer]kunnen bedrijven zowel geplande marketingcampagnes (zoals wekelijkse promoties voor een detailhandel) als afzonderlijke communicatie op maat maken en leveren (zoals een pushmelding voor een item dat een klant van een loyauteit-app mogelijk heeft bekeken en dat voorheen niet in voorraad was) binnen dezelfde toepassing.
 
 ➡️ [Discover Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target="_blank"} (video)
 
 
-## Gebruiksscenario’s {#use-cases}
+## Gebruik hoofdletters {#use-cases}
 
 * Marketers kunnen [!DNL Adobe Journey Optimizer] om zowel geïndividualiseerde mededelingen als op publiek-gebaseerde partijmededelingen te verzenden. Een kledingwinkel verzendt bijvoorbeeld doorgaans enquêtes na aankoop naar alle klanten die de afgelopen week producten hebben aangeschaft. Als gevolg van het noodweer traden enkele transporten op. Aangezien de klanten niet hun zendingen hebben ontvangen, kan de kledingopslag hen van de geplande klantentevredenheid uitsluiten verzendt en in plaats daarvan een gepersonaliseerde e-mail die voor de vertraging verontschuldigt en een kortingscode met productaanbevelingen aanbiedt die op de vroegere aankopen van de klant worden gebaseerd.
 
@@ -61,9 +61,9 @@ De basisarchitectuur van [!DNL Adobe Journey Optimizer], de integratiepunten en 
 > U moet zich ook bewust zijn van [Gardrails voor gegevens in realtime klantprofiel voordat u begint](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html).
 
 
-**Zie ook**
-
-* [Belangrijkste stappen om te beginnen](quick-start.md)
-* [Trajecten ontwerpen en berichten verzenden](../building-journeys/journey-gs.md)
-* [Live rapporten](../reports/live-report.md)
-* [Journey Optimizer Security - Overzicht](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
+>[!MORELIKETHIS]
+>
+>* [Belangrijkste stappen om te beginnen](quick-start.md)
+>* [Trajecten ontwerpen en berichten verzenden](../building-journeys/journey-gs.md)
+>* [Live rapporten](../reports/live-report.md)
+>* [Journey Optimizer Security - Overzicht](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)

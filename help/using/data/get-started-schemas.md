@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: schema's, platform, gegevens, structuur
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 6%
+source-wordcount: '286'
+ht-degree: 5%
 
 ---
 
@@ -42,10 +42,10 @@ Leer hoe u een schema maakt, veldgroepen toevoegt en aangepaste veldgroepen maak
 
 >[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
-**Zie ook**
-
-* [Creeer een schema, een dataset en ga gegevens in om de profielen van de Test in Journey Optimizer toe te voegen](../audience/creating-test-profiles.md)
-* [XDM System, overzicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}
-* [Aanbevolen procedures voor gegevensmodellering](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html){target="_blank"}
-* [Een schema maken met de API voor schemaregistratie](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html){target="_blank"}
-* [Bepaal een verhouding tussen twee schema&#39;s gebruikend de Redacteur van het Schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html){target="_blank"}
+>[!MORELIKETHIS]
+>
+>* [Creeer een schema, een dataset en ga gegevens in om de profielen van de Test in Journey Optimizer toe te voegen](../audience/creating-test-profiles.md)
+>* [XDM System, overzicht](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}
+>* [Aanbevolen procedures voor gegevensmodellering](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html){target="_blank"}
+>* [Een schema maken met de API voor schemaregistratie](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html){target="_blank"}
+>* [Bepaal een verhouding tussen twee schema&#39;s gebruikend de Redacteur van het Schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html){target="_blank"}
