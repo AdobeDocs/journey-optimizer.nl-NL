@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: wachten, activiteit, reis, volgende, canvas
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
+source-git-commit: ab6292e93bf848671d39037bdfe0de8bdd7191b6
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,10 @@ ht-degree: 0%
 
 U kunt een **[!UICONTROL Wait]** activiteit om een duur te bepalen alvorens de volgende activiteit uit te voeren.  De maximale wachttijd is **29 dagen**.
 
-De volgende typen zijn beschikbaar:
+U kunt twee typen instellen **Wachten** activiteit:
 
-* [Duur](#duration)
-* [Aangepast](#custom)
+* Een wachttijd op basis van een herstelduur. [Meer informatie](#duration)
+* Een aangepaste wachttijd, waarbij functies worden gebruikt om de wachttijd te berekenen. [Meer informatie](#custom)
 
 <!--
 * [Email send time optimization](#email_send_time_optimization)
@@ -51,8 +51,9 @@ Een beste werkwijze om niet te gebruiken **Wachten** activiteiten om hertoetredi
 
 In de testmodus **[!UICONTROL Wait time in test]** parameter staat u toe om de tijd te bepalen die elk **Wachten** de activiteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Meer informatie in [deze pagina](../building-journeys/testing-the-journey.md).
 
+## Configuratie {#wait-configuration}
 
-## Wachten op duur {#duration}
+### Wachten op duur {#duration}
 
 Selecteer de **Duur** type om de duur van de wachttijd vóór de uitvoering van de volgende activiteit in te stellen. De maximale duur is **29 dagen**.
 
@@ -67,9 +68,9 @@ Select the date for the execution of the next activity.
 
 -->
 
-## Aangepast wachten {#custom}
+### Aangepast wachten {#custom}
 
-Selecteer de **Aangepast** type om een douanedatum te bepalen, gebruikend een geavanceerde uitdrukking die op een gebied wordt gebaseerd dat van een gebeurtenis of een reactie van de douaneactie komt. U kunt een relatieve duur niet rechtstreeks definiëren, bijvoorbeeld 7 dagen, maar u kunt functies gebruiken om de duur te berekenen als dat nodig is (bijvoorbeeld 2 dagen na aankoop).
+Selecteer de **Aangepast** type om een aangepaste duur te definiëren met een geavanceerde expressie op basis van een veld dat afkomstig is van een gebeurtenis of een aangepaste actie. U kunt een relatieve duur niet rechtstreeks definiëren, bijvoorbeeld 7 dagen, maar u kunt functies gebruiken om de duur te berekenen als dat nodig is (bijvoorbeeld 2 dagen na aankoop).
 
 ![Een aangepaste wachttijd definiëren met een expressie](assets/journey57.png)
 
