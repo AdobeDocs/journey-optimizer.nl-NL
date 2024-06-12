@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: in-app, bericht, configuratie, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: f759c88ed46d8c13e2844c48a71a2634d9507fd8
+source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 1%
+source-wordcount: '900'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ Voor de correcte levering van de berichten in de app moeten de volgende instelli
 
   ![](assets/inapp_config_6.png)
 
-* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}, make sure you have the default merge policy with the **[!UICONTROL Active-On-Edge Merge Policy]** option enabled. To do this, select a policy under the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Experience Platform menu. [Learn more](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}, zorg ervoor u het standaardfusiebeleid met hebt **[!UICONTROL Active-On-Edge Merge Policy]** optie ingeschakeld. Selecteer hiertoe een beleid in het dialoogvenster **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Menu Experience Platform. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   Dit samenvoegbeleid wordt gebruikt door [!DNL Journey Optimizer] binnenkomende kanalen om binnenkomende campagnes op de rand correct te activeren en te publiceren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}
 
@@ -47,6 +47,12 @@ Voor de correcte levering van de berichten in de app moeten de volgende instelli
   >Wanneer u een aangepaste **[!UICONTROL Dataset preference]** samenvoegbeleid, zorg ervoor dat u het **[!UICONTROL Journey Inbound]** dataset binnen het gespecificeerde samenvoegbeleid.
 
   ![](assets/inapp_config_8.png)
+
+* Als u problemen wilt oplossen met de levering van mobiele Journey Optimizer-ervaringen, kunt u de opdracht **Edge Delivery** bekijken binnen **Adobe Experience Platform Assurance**. Deze plugin laat u toe om verzoekvraag in detail te inspecteren, te verifiëren of de verwachte randvraag zoals voorzien voorkomt, en profielgegevens, met inbegrip van identiteitskaarten, segmentlidmaatschap, en toestemmingsmontages te onderzoeken. Daarnaast kunt u de activiteiten bekijken waarvoor het verzoek is gekwalificeerd en vaststellen voor welke activiteiten het niet heeft uitgevoerd.
+
+  Met de **Edge Delivery** Met insteekmodule krijgt u de inzichten die u nodig hebt om uw binnenkomende implementaties effectief te begrijpen en problemen op te lossen.
+
+  [Meer informatie over de Edge Delivery-weergave](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
 ## Voorwaarden voor kanaalconfiguratie {#channel-prerequisites}
 
@@ -132,7 +138,7 @@ Leer hoe u gegevenssets voor het experimenteren met inhoud toevoegt aan de rappo
 >
 >De dataset wordt gebruikt read-only door [!DNL Journey Optimizer] rapportagesysteem en heeft geen invloed op gegevensverzameling of gegevensinvoer.
 
-Als u **niet** met behulp van de volgende vooraf gedefinieerde [veldgroepen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"} for your dataset schema: `AEP Web SDK ExperienceEvent` and `Consumer Experience Event` (as defined in [this page](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), moet u de volgende veldgroepen toevoegen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, en `Web Details`. Deze zijn nodig voor de [!DNL Journey Optimizer] de inhoud experimenteert rapportering terwijl zij volgen welke experimenten en behandelingen elk profiel aan deelnemen.
+Als u **niet** met behulp van de volgende vooraf gedefinieerde [veldgroepen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"} voor uw datasetschema: `AEP Web SDK ExperienceEvent` en `Consumer Experience Event` (zoals gedefinieerd in [deze pagina](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), moet u de volgende veldgroepen toevoegen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, en `Web Details`. Deze zijn nodig voor de [!DNL Journey Optimizer] de inhoud experimenteert rapportering terwijl zij volgen welke experimenten en behandelingen elk profiel aan deelnemen.
 
 >[!NOTE]
 >
