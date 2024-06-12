@@ -6,7 +6,7 @@ feature: In App
 level: Intermediate
 keywords: in-app, bericht, configuratie, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 83e93b18a3f5a8e688ad519d3e1c0d70d91dfc9f
+source-git-commit: 07c453366280b21f5546322430a90752fd996099
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 0%
@@ -26,7 +26,6 @@ Er moet een specifieke machtiging worden verleend om toegang te krijgen tot **To
 1. Als u inhoud experimenteert, zorg ervoor om de vereisten te volgen die in [deze sectie](#experiment-prerequisite).
 
 Als u klaar bent, kunt u uw eerste In-app-bericht maken, configureren en verzenden. Leer hoe u dit kunt bereiken in [deze sectie](create-in-app.md).
-
 
 ## Leveringsvoorwaarden {#delivery-prerequisites}
 
