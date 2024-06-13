@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c6daa2aef557943374a3eff005eda34dad214a5d
+source-git-commit: 553743d6d041cd719eb3c8bf7f02288595d8c2a5
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -169,6 +169,9 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 * De wereldwijde time-out van de reis is verhoogd van 30 naar 91 dagen.
 * Adobe Journey Optimizer biedt nu ondersteuning voor aanvragen voor privacyverwijdering/toegang.
 * U kunt nu de grootte van de kolommen in de reisinventaris wijzigen.
+* **Geavanceerde expressie-editor in gebeurtenisconfiguratie** is nu GA - U kunt nu de geavanceerde expressie-editor gebruiken tijdens het configureren van een gebeurtenis, zodat u complexere expressies kunt definiëren of functies kunt gebruiken in de toestand van de gebeurtenis-id. Deze mogelijkheid wordt vrijgegeven in Beperkte Beschikbaarheid voor geselecteerde klanten. [Meer informatie](../event/about-creating.md)
+* **Beleid samenvoegen** zijn nu GA - Het samenvoegingsbeleid dat door een reis wordt gebruikt, is nu zichtbaar en consistent gedurende de hele reis. Deze mogelijkheid wordt vrijgegeven in Beperkte Beschikbaarheid voor geselecteerde klanten. [Meer informatie](../building-journeys/journey-gs.md#merge-policies)
+
 
 
 **Campagnes**
@@ -183,7 +186,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 **SMS-kanaal**
 
 * U kunt nu unieke korte codes toevoegen voor elke sandbox met één API-configuratie, waardoor het proces efficiënter en gestroomlijnder wordt.
-* U kunt bestaande configuraties van SMS nu wijzigen.
+  <!--* You can now modify existing SMS configurations.-->
 
 **Kanaal in app**
 
