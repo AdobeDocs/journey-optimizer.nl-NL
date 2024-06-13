@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 16812ed5a3f4a4626387d7f21be91c31530eb7cc
+source-git-commit: c6daa2aef557943374a3eff005eda34dad214a5d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '568'
+ht-degree: 4%
 
 ---
 
@@ -49,7 +49,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <table>
 <thead>
 <tr>
-<th><strong>Aanpassing van inhoudsfragmenten en levenscyclus</strong><br/></th>
+<th><strong>Aanpassing van inhoudsfragmenten</strong><br/></th>
 </tr>
 </thead>
 <tbody>
