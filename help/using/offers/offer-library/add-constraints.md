@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 260b9ec0a70526ac37da444e183fc1d01b97b22b
+source-git-commit: 0362cb5af7845333d5657829b073881e1ee3c542
 workflow-type: tm+mt
-source-wordcount: '2539'
+source-wordcount: '2555'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Als u bijvoorbeeld de volgende beperkingen instelt:
 >id="od_offer_eligibility"
 >title="Geschiktheid voor aanbieding"
 >abstract="In deze sectie kunt u besluitvormingsregels gebruiken om te bepalen welke gebruikers in aanmerking komen voor de aanbieding."
->additional-url="https://video.tv.adobe.com/v/329373" text="Demovideo bekijken"
+>additional-url="https://video.tv.adobe.com/v/329373" text="Video over demo bekijken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -119,7 +119,7 @@ Als u een beperking wilt toepassen, kunt u de selectie van aanbiedingen beperken
 
 In feite is de uitvoer van een publiek een lijst met profielen, terwijl een beslissingsregel een functie is die op aanvraag tegen één profiel wordt uitgevoerd tijdens het besluitvormingsproces. Het verschil tussen deze twee toepassingen wordt hieronder nader toegelicht.
 
-* **Doelgroepen**
+* **Soorten publiek**
 
   Enerzijds is het publiek een groep Adobe Experience Platform-profielen die overeenkomen met een bepaalde logica op basis van profielkenmerken en gebeurtenissen beleven. Aanbiedingsbeheer berekent het publiek echter niet opnieuw, wat mogelijk niet up-to-date is wanneer het voorstel wordt gepresenteerd.
 
@@ -141,26 +141,22 @@ In feite is de uitvoer van een publiek een lijst met profielen, terwijl een besl
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="Afbeelding gebruiken"
->abstract="Als u wilt voorkomen dat uw klanten te veel vragen, gebruikt u de optie Afdekken om het maximumaantal keren te bepalen dat een aanbieding kan worden gepresenteerd."
+>abstract="Als u wilt voorkomen dat uw klanten te veel vragen, gebruikt u de optie Afdekken om het maximumaantal keren te bepalen dat een aanbieding kan worden gepresenteerd. U kunt maximaal 10 plafondregels voor een bepaalde aanbieding maken."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="Het wijzigen van datums kan invloed hebben op de plafondfunctie"
 
-Afkappen wordt gebruikt als beperking om het maximumaantal keren te bepalen dat een aanbieding kan worden voorgesteld.
+Afkappen wordt gebruikt als beperking om het maximumaantal keren te bepalen dat een aanbieding kan worden voorgesteld. Door het aantal keren dat gebruikers specifieke aanbiedingen krijgen te beperken, kunt u voorkomen dat uw klanten te veel vragen en zo elk aanraakpunt optimaliseren met de beste aanbieding.
 
-Door het aantal keren dat gebruikers specifieke aanbiedingen krijgen te beperken, kunt u voorkomen dat uw klanten te veel vragen en zo elk aanraakpunt optimaliseren met de beste aanbieding.
+Voor een aanbieding kunt u maximaal 10 regels voor aftopping toevoegen. Klik op de knop **[!UICONTROL Create capping]** dan volgt u de onderstaande stappen:
 
-Volg de onderstaande hoofdstappen om de uitlijning in te stellen.
-
-1. Zorg ervoor dat de **[!UICONTROL Enable capping]** schakelknop is geselecteerd. Standaard is het bijsnijden ingeschakeld.
-
-   >[!CAUTION]
-   >
-   >Het is niet mogelijk om frequentie het in- en uitschakelen voor eerder gemaakte aanbiedingen in of uit te schakelen. Hiervoor moet u een nieuw voorstel maken.
+>[!CAUTION]
+>
+>Het is niet mogelijk om frequentie het in- en uitschakelen voor eerder gemaakte aanbiedingen in of uit te schakelen. Hiervoor moet u een nieuw voorstel maken.
 
 1. Definiëren welke **[!UICONTROL Capping event]** zal in aanmerking worden genomen om de teller te verhogen. [Meer informatie](#capping-event)
 
-1. Stel het aantal keren in dat de aanbieding kan worden weergegeven. [Meer informatie](#capping-count)
-
 1. Kies deze optie als u de afbeelding op alle gebruikers of slechts op één profiel wilt toepassen. [Meer informatie](#capping-type)
+
+1. Stel het aantal keren in dat de aanbieding kan worden weergegeven. [Meer informatie](#capping-count)
 
 1. Stel de **[!UICONTROL Frequency]** om te bepalen hoe vaak de aftaptelling wordt teruggesteld. [Meer informatie](#frequency-capping)
 
@@ -183,18 +179,18 @@ Het aantal keren dat een aanbieding wordt voorgesteld, wordt berekend tijdens de
 >title="Impressie"
 >abstract="Het gebruik van indrukkingen als afdekkende gebeurtenissen is alleen beschikbaar voor binnenkomende kanalen."
 
-De **[!UICONTROL Capping event]** in het veld kunt u definiëren met welke gebeurtenis rekening wordt gehouden om de teller te verhogen:
+De **[!UICONTROL Choose capping event]** in het veld kunt u definiëren met welke gebeurtenis rekening wordt gehouden om de teller te verhogen:
 
 ![](../assets/offer-capping-event.png)
 
 * **[!UICONTROL Decision event]** (standaardwaarde): een aanbieding kan maximaal worden weergegeven.
+* **[!UICONTROL Clicks]**: Maximumaantal keren dat een gebruiker op de aanbieding kan klikken.
 * **[!UICONTROL Impression]**: Maximumaantal keren dat de aanbieding aan een gebruiker kan worden weergegeven.
 
   >[!NOTE]
   >
   >Het gebruik van indrukkingen als afdekkende gebeurtenissen is beschikbaar voor **binnenkomende kanalen** alleen.
 
-* **[!UICONTROL Clicks]**: Maximumaantal keren dat een gebruiker op de aanbieding kan klikken.
 * **[!UICONTROL Custom event]**: U kunt een aangepaste gebeurtenis definiëren die wordt gebruikt om het aantal verzonden aanbiedingen te beperken. U kunt bijvoorbeeld het aantal aflossingen beperken tot ze gelijk zijn aan 10000 of tot een bepaald profiel één keer is afgelost. Gebruik hiervoor [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} schema&#39;s om een regel van de douanegebeurtenis te bouwen.
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
@@ -202,8 +198,6 @@ De **[!UICONTROL Capping event]** in het veld kunt u definiëren met welke gebeu
   In het onderstaande voorbeeld wilt u het aantal kassa&#39;s beperken.
 
    1. Selecteren **[!UICONTROL Custom event]** in de lijst en **[!UICONTROL Add custom event]** knop.
-
-      ![](../assets/offer-capping-custom-event-add.png)
 
    1. Gebruik de **[!UICONTROL Create custom event rules]** bouwer om de relevante gebeurtenis te selecteren. U kunt elke actie van de gebruiker kiezen waarop u de aanbiedingen wilt uitlijnen.
 
@@ -221,6 +215,20 @@ De **[!UICONTROL Capping event]** in het veld kunt u definiëren met welke gebeu
 >
 >Om ervoor te zorgen dat elke begrenzingsgebeurtenis wordt bijgehouden en in de afluisterteller wordt rekenschap gegeven, zorg ervoor dat het schema dat wordt gebruikt om ervaringsgebeurtenissen te verzamelen de correcte gebiedsgroep voor die gebeurtenis omvat. [Meer informatie](../data-collection/schema-requirement.md)
 
+### Type uitlijnen {#capping-type}
+
+U kunt opgeven of u de aftopping wilt toepassen op alle gebruikers of op één specifiek profiel:
+
+![](../assets/offer-capping-total.png)
+
+* Selecteren **[!UICONTROL In total]** om te bepalen hoe vaak een aanbieding over het gecombineerde doelpubliek kan worden voorgesteld, betekenend over alle gebruikers.
+
+  Als u bijvoorbeeld een elektronicawinkel bent met een &#39;tv-huis-deal&#39;, wilt u dat het aanbod slechts 200 keer wordt geretourneerd voor alle profielen.
+
+* Selecteren **[!UICONTROL Per profile]** om te bepalen hoe vaak een aanbieding aan dezelfde gebruiker kan worden voorgesteld.
+
+  Als je bijvoorbeeld een bank bent met een &#39;Platinum credit card&#39;-aanbieding, wil je niet dat dit voorstel meer dan vijf keer per profiel wordt weergegeven. U bent namelijk van mening dat als de gebruiker het aanbod vijf keer heeft gezien en er niet op heeft gereageerd, hij een grotere kans heeft om op het volgende beste aanbod in te gaan.
+
 ### Afdektelling {#capping-count}
 
 De **[!UICONTROL Capping count limit]** kunt u het aantal keren opgeven dat de aanbieding kan worden weergegeven.
@@ -233,20 +241,6 @@ De **[!UICONTROL Capping count limit]** kunt u het aantal keren opgeven dat de a
 
 U hebt bijvoorbeeld een aangepaste gebeurtenis voor het toewijzen van plafonds gedefinieerd, waarmee rekening wordt gehouden, zoals het aantal uitcheckgebeurtenissen. Als u 10 in **[!UICONTROL Capping count limit]** , worden na 10 afboekingen geen voorstellen meer verzonden.
 
-### Type uitlijnen {#capping-type}
-
-U kunt ook opgeven of u de aftopping wilt toepassen op alle gebruikers of op één specifiek profiel:
-
-![](../assets/offer-capping-total.png)
-
-* Selecteren **[!UICONTROL In total]** om te bepalen hoe vaak een aanbieding over het gecombineerde doelpubliek kan worden voorgesteld, betekenend over alle gebruikers.
-
-  Als u bijvoorbeeld een elektronicawinkel bent met een &#39;tv-huis-deal&#39;, wilt u dat het aanbod slechts 200 keer wordt geretourneerd voor alle profielen.
-
-* Selecteren **[!UICONTROL Per profile]** om te bepalen hoe vaak een aanbieding aan dezelfde gebruiker kan worden voorgesteld.
-
-  Als je bijvoorbeeld een bank bent met een &#39;Platinum credit card&#39;-aanbieding, wil je niet dat dit voorstel meer dan vijf keer per profiel wordt weergegeven. U bent namelijk van mening dat als de gebruiker het aanbod vijf keer heeft gezien en er niet op heeft gereageerd, hij een grotere kans heeft om op het volgende beste aanbod in te gaan.
-
 ### Frequentiecorrectie {#frequency-capping}
 
 >[!CONTEXTUALHELP]
@@ -254,7 +248,7 @@ U kunt ook opgeven of u de aftopping wilt toepassen op alle gebruikers of op é�
 >title="De frequentie voor uitlijnen instellen"
 >abstract="U kunt ervoor kiezen om de teller van de aanbiedingstafbeelding dagelijks, wekelijks of maandelijks opnieuw in te stellen. Nadat u de aanbieding hebt gepubliceerd met de functie voor het toewijzen van frequenties ingeschakeld, kunt u de gedefinieerde frequentie niet meer wijzigen."
 
-De **[!UICONTROL Frequency]** kunt u definiëren hoe vaak het aantal bijschriften wordt teruggezet. Hiertoe definieert u de tijdsperiode voor het tellen (dagelijks, wekelijks of maandelijks) en voert u het aantal dagen/weken/maanden van uw keuze in. Als u bijvoorbeeld wilt dat het aantal bijschriften elke twee weken opnieuw wordt ingesteld, selecteert u **[!UICONTROL Weekly]** uit de bijbehorende vervolgkeuzelijst en type **2** in het andere veld.
+De **[!UICONTROL Reset capping frequency]** in het veld kunt u bepalen hoe vaak het aantal bijschriften wordt hersteld. Hiertoe definieert u de tijdsperiode voor het tellen (dagelijks, wekelijks of maandelijks) en voert u het aantal dagen/weken/maanden van uw keuze in. Als u bijvoorbeeld wilt dat het aantal bijschriften elke twee weken opnieuw wordt ingesteld, selecteert u **[!UICONTROL Weekly]** uit de bijbehorende vervolgkeuzelijst en type **2** in het andere veld.
 
 ![](../assets/offer-capping-frequency.png)
 
