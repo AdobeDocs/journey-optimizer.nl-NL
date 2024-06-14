@@ -6,10 +6,10 @@ description: Opmerkingen bij de vervroegde release van Journey Optimizer
 feature: Release Notes
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: cf4437dd9018466aea9b03b0decab76abb696952
+source-git-commit: f34e7e246339371be8c19c54b9fff921177f5ace
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 3%
+source-wordcount: '454'
+ht-degree: 2%
 
 ---
 
@@ -167,7 +167,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 * De wereldwijde time-out van de reis is verhoogd van 30 naar 91 dagen.
 * Adobe Journey Optimizer ondersteunt nu verzoeken om privacyverwijdering/toegang en verzoeken om gegevenslevenscyclusbeheer.
 * U kunt nu de grootte van de kolommen in de reisinventaris wijzigen.
-* **Geavanceerde expressie-editor in gebeurtenisconfiguratie** is nu GA - U kunt nu de geavanceerde expressie-editor gebruiken tijdens het configureren van een gebeurtenis, zodat u complexere expressies kunt definiëren of functies kunt gebruiken in de toestand van de gebeurtenis-id. Deze mogelijkheid wordt vrijgegeven in Beperkte Beschikbaarheid voor geselecteerde klanten. [Meer informatie](../event/about-creating.md)
+* **Geavanceerde expressie-editor in gebeurtenisconfiguratie** is nu GA - U kunt nu de geavanceerde expressie-editor gebruiken tijdens het configureren van een gebeurtenis, zodat u complexere expressies kunt definiëren of functies kunt gebruiken in de toestand van de gebeurtenis-id. Deze mogelijkheid wordt vrijgegeven in Beperkte Beschikbaarheid voor geselecteerde klanten. <!--[Read more](../event/about-creating.md)-->
 * **Beleid samenvoegen** zijn nu GA - Het samenvoegingsbeleid dat door een reis wordt gebruikt, is nu zichtbaar en consistent gedurende de hele reis. Deze mogelijkheid wordt vrijgegeven in Beperkte Beschikbaarheid voor geselecteerde klanten. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
@@ -188,7 +188,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Kanaal in app**
 
-* **Expressiefragment** - Expressiefragmenten zijn nu beschikbaar voor de **Kanaal in app**. [Meer informatie](../personalization/use-expression-fragments.md)
+* **Expressiefragment** - Expressiefragmenten zijn nu beschikbaar voor de **Kanaal in app**. <!--[Read more](../personalization/use-expression-fragments.md)-->
 
 
 * U kunt nu de Edge Delivery-plug-in gebruiken om informatie op te halen die nodig is om uw binnenkomende implementaties te begrijpen en problemen op te lossen.
