@@ -4,14 +4,12 @@ product: journey optimizer
 title: Aanvullende informatie
 description: Opmerkingen bij de vervroegde release van Journey Optimizer
 feature: Release Notes
-hide: true
-hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d27689b2b89374859a045a09bbfc41bdf70f750e
+source-git-commit: cf4437dd9018466aea9b03b0decab76abb696952
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 5%
+source-wordcount: '458'
+ht-degree: 3%
 
 ---
 
@@ -39,7 +37,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tr>
 <td>
 <p>Als u e-mail op een gloednieuw IP adres verzendt, kunt u IP opwarmingswerkschema's nu gemakkelijk direct van het gebruikersinterface uitvoeren. Adobe Journey Optimizer biedt een gestandaardiseerde en efficiënte manier om uw IP adressen op te warmen die de beste praktijken voor optimale leverbaarheid volgen.</p>
-<p>Raadpleeg de <a href="../configuration/ip-warmup-gs.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -152,7 +150,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Beslissingsbeheer**
 
-* **Ondersteuning van meerdere regels in het besluitvormingsbeheer** - U kunt nu maximaal 10 afkapregels toevoegen voor een bepaald aanbod in Beslissingsbeheer. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
+* **Ondersteuning van meerdere regels in het besluitvormingsbeheer** - U kunt nu maximaal 10 afkapregels toevoegen voor een bepaald aanbod in Beslissingsbeheer. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden. <!--[Learn more](../offers/offer-library/add-constraints.md#capping)-->
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
@@ -170,7 +168,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 * Adobe Journey Optimizer ondersteunt nu verzoeken om privacyverwijdering/toegang en verzoeken om gegevenslevenscyclusbeheer.
 * U kunt nu de grootte van de kolommen in de reisinventaris wijzigen.
 * **Geavanceerde expressie-editor in gebeurtenisconfiguratie** is nu GA - U kunt nu de geavanceerde expressie-editor gebruiken tijdens het configureren van een gebeurtenis, zodat u complexere expressies kunt definiëren of functies kunt gebruiken in de toestand van de gebeurtenis-id. Deze mogelijkheid wordt vrijgegeven in Beperkte Beschikbaarheid voor geselecteerde klanten. [Meer informatie](../event/about-creating.md)
-* **Beleid samenvoegen** zijn nu GA - Het samenvoegingsbeleid dat door een reis wordt gebruikt, is nu zichtbaar en consistent gedurende de hele reis. Deze mogelijkheid wordt vrijgegeven in Beperkte Beschikbaarheid voor geselecteerde klanten. [Meer informatie](../building-journeys/journey-gs.md#merge-policies)
+* **Beleid samenvoegen** zijn nu GA - Het samenvoegingsbeleid dat door een reis wordt gebruikt, is nu zichtbaar en consistent gedurende de hele reis. Deze mogelijkheid wordt vrijgegeven in Beperkte Beschikbaarheid voor geselecteerde klanten. <!--[Read more](../building-journeys/journey-gs.md#merge-policies)-->
 
 
 
