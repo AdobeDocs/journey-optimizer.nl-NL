@@ -7,13 +7,13 @@ feature: Journeys, Use Cases, Custom Actions
 topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
+source-git-commit: 778ef71a531346774c5e10e296dbf1112fed891d
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
-
 
 # Gebruik hoofdletters/kleine letters: gebruik Aangepaste handelingen om gebeurtenissen Journey in Experience Platform te schrijven{#custom-action-aep}
 
@@ -36,6 +36,10 @@ Dit gebruiksgeval verklaart hoe te om douanegebeurtenissen in Adobe Experience P
 ```
 curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: application/x-www-form-urlencoded' -d 'grant_type=client_credentials&client_id=1234&client_secret=5678&scope=openid,AdobeID,read_organizations,additional_info.projectedProductContext,session'
 ```
+
+>[!CAUTION]
+>
+>Nadat u uw project in de Adobe Developer-console hebt gemaakt, moet u ontwikkelaars en API-toegangsbeheer de juiste machtigingen geven. Meer informatie in het dialoogvenster [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
 ## De bron configureren met HTTP API Inlet
 
@@ -172,5 +176,3 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 1. Vul de Versie-id van de reis, Node-id, Node-naam en andere kenmerken volgens uw gebruikscase.
 
    ![](assets/custom-action-aep-9.png)
-
-
