@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: baf76d3c571c62105c1f0a59e07ca70e61a83cc6
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Voer de volgende stappen uit om een rangschikkingsformule te maken:
    >
    >Bij het maken van een rangschikkingsformule wordt het terugzoeken naar een vorige periode niet ondersteund. Bijvoorbeeld, als u een ervaringsgebeurtenis specificeert die binnen de laatste maand als component van de formule voorkwam. Elke poging om een terugzoekperiode op te nemen tijdens het maken van een formule, veroorzaakt een fout bij het opslaan ervan.
 
-1. Klik op **[!UICONTROL Save]**. Uw rangschikkingsformule wordt gecreeerd, kunt u het van de lijst selecteren om details te krijgen en het uit te geven of te schrappen.
+1. Klikken **[!UICONTROL Save]**. Uw rangschikkingsformule wordt gecreeerd, kunt u het van de lijst selecteren om details te krijgen en het uit te geven of te schrappen.
 
    Het is nu klaar om te worden gebruikt in een besluit om in aanmerking komende aanbiedingen voor plaatsing in aanmerking te nemen (zie [Aanbiedingen selecteren in beslissingen configureren](../offer-activities/configure-offer-selection.md)).
 
@@ -112,8 +112,8 @@ Verhoog bepaalde aanbiedingen die op de contextgegevens worden gebaseerd die in 
 **Willekeurige formule:**
 
 ```
-if (@event{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
-and offer.characteristics.get("weather")=@event{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
+if (@{_xdm.context.additionalParameters;version=1}.weather.isNotNull()
+and offer.characteristics.get("weather")=@{_xdm.context.additionalParameters;version=1}.weather, offer.rank.priority + 5, offer.rank.priority)
 ```
 
 Wanneer u de API voor besluitvorming gebruikt, worden de contextgegevens toegevoegd aan het profielelement in de aanvraaginstantie, zoals in het onderstaande voorbeeld.
