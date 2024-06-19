@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: reenter, transport, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '642'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Een reis kan om de volgende redenen worden gesloten:
 
 Als u een reis handmatig sluit, weet u zeker dat klanten die de reis al hebben betreden, hun pad kunnen voltooien, maar dat nieuwe gebruikers de reis niet kunnen betreden. Wanneer een reis wordt gesloten (om een van de bovenstaande redenen), heeft deze de status **[!UICONTROL Closed]**. De reis houdt in dat nieuwe individuen de reis kunnen betreden. Personen die al onderweg zijn, kunnen de reis normaal afmaken.
 
-Na 30 dagen schakelt een Reader-publiek over naar de **Voltooid** status. Dit gedrag wordt slechts voor 30 dagen ingesteld (d.w.z. de standaardwaarde van de reistijd) aangezien alle informatie over profielen die de reis zijn ingegaan 30 dagen nadat zij zijn ingegaan wordt verwijderd. Personen die nog onderweg zijn, worden automatisch getroffen. Ze verlaten de reis na de periode van 30 dagen.
+Na 91 dagen [standaardtime](journey-gs.md#global_timeout), een leest publiek schakelt over naar de **Voltooid** status. Dit gedrag is alleen voor 91 dagen ingesteld (d.w.z. [time-outstandaardwaarde voor transport](journey-gs.md#global_timeout)), aangezien alle informatie over profielen die de reis hebben betreden, 91 dagen na het binnenkomen wordt verwijderd. Personen die nog onderweg zijn, worden automatisch getroffen. Ze verlaten de reis na de 91-dagen onderbreking.
 
 Zie dit [sectie](../building-journeys/journey-gs.md#global_timeout).
 

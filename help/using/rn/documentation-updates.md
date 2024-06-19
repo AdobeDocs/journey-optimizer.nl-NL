@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: db48c85e3707fcd5fbee61994d488cf640e9afa7
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '5351'
-ht-degree: 12%
+source-wordcount: '5385'
+ht-degree: 13%
 
 ---
 
@@ -21,6 +21,8 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 
 ## Juni 2024 {#june-2024}
 
+* Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 24 juni is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
+* Er is een opmerking toegevoegd over het gebruik van samenvoegingsbeleid voor reizen. [deze pagina](../building-journeys/journey-gs.md#merge-policies).
 * De pagina over hoe te om een **Wachten** de activiteiten op een reis zijn gereorganiseerd en verbeterd . [Meer informatie](../building-journeys/wait-activity.md)
 
 ## Mei 2024 {#may-2024}
@@ -102,7 +104,7 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 
 +++ 2023
 
-## november 2023 {#nov-2023}
+## November 2023 {#nov-2023}
 
 * De guardrail die alle douaneacties beperkt is veranderd van 150.000 vraag over 30 seconden aan 300.000 vraag over één minuut. Bovendien is het gebrek het maximum niet meer op elk eindpunt van toepassing. Het wordt nu uitgevoerd per host en per sandbox. Op een sandbox bijvoorbeeld als u twee eindpunten met dezelfde host hebt (bijvoorbeeld: `https://www.adobe.com/endpoint1` en `https://www.adobe.com/endpoint2`), wordt de aftopping toegepast op alle eindpunten onder de host adobe.com. De &quot;eindpunt1&quot;en &quot;eindpunt2&quot;zullen de zelfde het begrenzen configuratie delen en het hebben van één eindpunt bereikt de grens zal een effect op het andere eindpunt hebben. [Meer informatie](../action/about-custom-action-configuration.md)
 * Er is een nieuwe status voor e-mailcampagnes toegevoegd aan de lijst met statussen van campagnes. [Meer informatie](../campaigns/modify-stop-campaign.md#campaign-statuses-and-alerts-statuses)
@@ -240,7 +242,7 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 
 * De configuratiegids is gereorganiseerd voor betere leesbaarheid. [Meer informatie](../configuration/get-started-configuration.md)
 
-## november 2022 {#november-2022}
+## November 2022 {#november-2022}
 
 * Er is een nieuwe pagina toegevoegd over Journey Optimizer-integratie. [Meer informatie](../start/ajo-integrations.md)
 * Er is een aanbeveling toegevoegd over de lengte van URL&#39;s van spiegelpagina&#39;s. [Meer informatie](../email/message-tracking.md)
@@ -357,7 +359,7 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 
 +++ 2021
 
-## november 2021 {#november-2021}
+## November 2021 {#november-2021}
 
 * Een volledige beschrijving van de **geavanceerde expressie-editor** gebruikt voor reizen is nu beschikbaar . [Meer informatie](../building-journeys/expression/expressionadvanced.md)
 * Een nieuwe sectie over **Methode voor subdomeindelegatie van CNAME** is toegevoegd. [Meer informatie](../configuration/delegate-subdomain.md#cname-subdomain-delegation)

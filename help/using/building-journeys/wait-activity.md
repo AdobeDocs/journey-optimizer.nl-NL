@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Wacht op activiteit
+title: Wachtactiviteit
 description: Leer hoe te om de wachttijdactiviteit te vormen
 feature: Journeys, Activities
 topic: Content Management
@@ -9,18 +9,18 @@ role: User
 level: Intermediate
 keywords: wachten, activiteit, reis, volgende, canvas
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 846c601c02a28119dddb3029e5273cfccf141a2c
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
 source-wordcount: '562'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Wacht op activiteit {#wait-activity}
+# Wachtactiviteit {#wait-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
->title="Wacht op activiteit"
+>title="Wachtactiviteit"
 >abstract="Als u wilt wachten alvorens de volgende activiteit in de weg uit te voeren, kunt u een Wacht activiteit gebruiken. Hiermee kunt u bepalen wanneer de volgende activiteit wordt uitgevoerd. Er zijn twee opties beschikbaar: duur en aangepast."
 
 U kunt een **[!UICONTROL Wait]** activiteit om een duur te bepalen alvorens de volgende activiteit uit te voeren.  De maximale wachttijd is **29 dagen**.
@@ -35,21 +35,21 @@ U kunt twee typen instellen **Wachten** activiteit:
 * [Fixed date](#fixed_date) 
 -->
 
-## Recommendations {#wait-recommendations}
+## Aanbevelingen {#wait-recommendations}
 
 ### Meerdere wachtactiviteiten {#multiple-wait-activities}
 
-Bij het gebruik van meerdere **Wachten** de activiteiten op een reis, zich ervan bewust zijn dat de mondiale reis onderbreking 30 dagen is, die betekent dat profielen altijd uit de reis vallen binnen 30 dagen nadat zij het binnenkwamen. Meer informatie in [deze pagina](../building-journeys/journey-gs.md#global_timeout).
+Bij het gebruik van meerdere **Wachten** tijdens een reis, dient u zich ervan bewust te zijn dat de [algemene time-out](journey-gs.md#global_timeout) is 91 dagen, wat betekent dat profielen altijd buiten de reis vallen, maximaal 91 dagen nadat zij het binnenkwamen. Meer informatie vindt u [op deze pagina](../building-journeys/journey-gs.md#global_timeout).
 
-Een individu kan een **Wachten** alleen als zij voldoende tijd hebben om de wachttijd voor de 30 dagen durende reistijd af te ronden. Als u bijvoorbeeld twee **Wachten** het systeem detecteert dat de tweede **Wachten** activiteit eindigt na de periode van 30 dagen. De tweede **Wachten** deze activiteit zal derhalve worden genegeerd en de betrokkene zal de reis verlaten voordat hij of zij begint . In dat voorbeeld zal de klant in totaal 20 dagen op de reis blijven.
+Een individu kan een **Wachten** alleen als zij voldoende tijd hebben om de wachttijd voor de reistijd van 91 dagen af te ronden. Als u bijvoorbeeld twee **Wachten** het systeem detecteert dat de tweede **Wachten** activiteit eindigt na de time-out van 91 dagen. De tweede **Wachten** deze activiteit zal derhalve worden genegeerd en de betrokkene zal de reis verlaten voordat hij of zij begint . In dat voorbeeld zal de klant in totaal 20 dagen op de reis blijven.
 
 ### Wachten en opnieuw betreden {#wait-re-entrance}
 
-Een beste werkwijze om niet te gebruiken **Wachten** activiteiten om hertoetreding te blokkeren. Gebruik in plaats daarvan de opdracht **Hernieuwde toegang toestaan** optie op het niveau van de reiseigenschappen. Meer informatie in [deze pagina](../building-journeys/journey-gs.md#entrance).
+Een beste werkwijze om niet te gebruiken **Wachten** activiteiten om hertoetreding te blokkeren. Gebruik in plaats daarvan de opdracht **Hernieuwde toegang toestaan** optie op het niveau van de reiseigenschappen. Meer informatie vindt u [op deze pagina](../building-journeys/journey-gs.md#entrance).
 
 ### Wachten en testmodus {#wait-test-modd}
 
-In de testmodus **[!UICONTROL Wait time in test]** parameter staat u toe om de tijd te bepalen die elk **Wachten** de activiteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Meer informatie in [deze pagina](../building-journeys/testing-the-journey.md).
+In de testmodus **[!UICONTROL Wait time in test]** parameter staat u toe om de tijd te bepalen die elk **Wachten** de activiteit zal duren. De standaardtijd is 10 seconden. Zo krijgt u de testresultaten snel. Meer informatie vindt u [op deze pagina](../building-journeys/testing-the-journey.md).
 
 ## Configuratie {#wait-configuration}
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, publiek, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1436'
 ht-degree: 1%
 
 ---
@@ -126,7 +126,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->Eenmalig Leespubliek reizen 30 dagen na de uitvoering van de reis over naar de voltooide status. Voor een gepland leespubliek duurt het 30 dagen na de uitvoering van het laatste exemplaar.
+>Eenmalig lezen, publiekstrajecten gaan naar de **Voltooid** status 91 dagen ([standaardtime](journey-gs.md#global_timeout)) na de uitvoering van de reis. Voor een gepland publiek van Lees, is het 91 dagen na de uitvoering van het laatste voorkomen.
 
 ## De reis testen en publiceren {#testing-publishing}
 
@@ -156,7 +156,7 @@ Het publiek dat bij het publiek hoort, wordt één keer of op regelmatige basis 
 
 Na het betreden van de reis, kunt u publiek tot stand brengen orkestgebruik gevallen, die individuen van het aanvankelijke publiek in verschillende takken van de reis leiden.
 
-**Segmentering**
+**Segmentatie**
 
 U kunt voorwaarden gebruiken om segmentatie uit te voeren gebruikend **Voorwaarde** activiteit. U kunt VIP personen bijvoorbeeld een bepaald pad laten maken en niet-VIP laten doorlopen in een ander pad.
 

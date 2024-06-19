@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: e7ff784d51da48c1970841e416c655c02cfafb7c
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,7 @@ U kunt zo veel mogelijk gebruikmaken van fragmenten:
 
 ## Voordat u begint {#fragment-prerequisites}
 
->[!NOTE]
->
->U moet beschikken over de **[!DNL Manage library items]** bevoegdheid opgenomen in de **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
+U moet beschikken over de **[!DNL Manage library items]** bevoegdheid opgenomen in de **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
 
 In deze versie gelden de volgende beperkingen:
 
@@ -62,17 +60,16 @@ Er zijn twee typen fragmenten beschikbaar:
 * **Visuele fragmenten** Dit zijn vooraf gedefinieerde visuele blokken die u kunt hergebruiken in meerdere e-mailleveringen met de [E-mailDesigner](../email/get-started-email-design.md), of in [inhoudssjablonen](../email/use-email-templates.md).
 * **Expressiefragmenten** zijn vooraf gedefinieerde expressies die beschikbaar zijn via een toegewezen item in het dialoogvenster [personalisatie-editor](../personalization/personalization-build-expressions.md).
 
-
-Alle fragmenten zijn toegankelijk vanuit de **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]**  links.
+Alle gemaakte fragmenten zijn toegankelijk vanuit de **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]**  links. [Leer hoe u fragmenten beheert](../content-management/manage-fragments.md)
 
 ![](assets/fragment-list.png)
 
 ## Hoe kan ik-video {#video-fragments}
 
-Leer hoe u visuele fragmenten beheert, ontwerpt en gebruikt in [!DNL Journey Optimizer].
+Leer hoe u beheert, ontwerpt en gebruikt **visuele fragmenten** in [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
 
-Leer hoe u expressiefragmenten beheert, ontwerpt en gebruikt in [!DNL Journey Optimizer].
+Leer hoe u beheert, ontwerpt en gebruikt **expressiefragmenten** in [!DNL Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

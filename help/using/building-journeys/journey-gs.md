@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: c68e72d170792fc0ea3b6eb09b3acf818ec2cfd5
+source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
 workflow-type: tm+mt
-source-wordcount: '2046'
-ht-degree: 4%
+source-wordcount: '2583'
+ht-degree: 3%
 
 ---
 
@@ -90,13 +90,13 @@ De status kan zijn:
 * **Gesloten**: de reis is afgesloten met de **Dicht bij nieuwe ingangen** knop. De reis houdt in dat nieuwe individuen de reis kunnen betreden. Personen die al onderweg zijn, kunnen de reis normaal afmaken.
 * **Concept**: de reis bevindt zich in de eerste fase. Het is nog niet gepubliceerd.
 * **Concept (testen)**: de testmodus is geactiveerd met behulp van de **Testmodus** knop.
-* **Voltooid**: de reis schakelt automatisch over naar deze status na de standaard globale onderbreking van 30 dagen. Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden.
+* **Voltooid**: de reis schakelt na 91 dagen automatisch over naar deze status [standaardtime](journey-gs.md#global_timeout). Profielen die al op reis zijn, worden normaal afgehandeld. Nieuwe profielen kunnen niet langer de reis betreden.
 * **Live**: de reis is gepubliceerd met behulp van de **Publiceren** knop.
 * **Gestopt**: de reis is uitgeschakeld met behulp van de **Stoppen** knop. Alle individuen sluiten onmiddellijk de reis.
 
 >[!NOTE]
 >
->De publicatiefase van de Journey bevat ook een reeks tussenliggende statussen die niet beschikbaar zijn voor filtering: &quot;Publishing&quot; (tussen &quot;Draft&quot; en &quot;Live&quot;), &quot;Activating test mode&quot; of &quot;Deactivating test mode&quot; (tussen &quot;Draft&quot; en &quot;Draft (test)&quot;) en &quot;Stopping&quot; tussen &quot;Live&quot; en &quot;Gestopt&quot;). Wanneer een reis in een tussenstadium is, is het read-only.
+>De publicatielevenscyclus van de Reis omvat ook een reeks tussenliggende statussen die niet beschikbaar zijn voor filtering: &quot;Publishing&quot; (tussen &quot;Draft&quot; en &quot;Live&quot;), &quot;Activating test mode&quot; of &quot;Deactivating test mode&quot; (tussen &quot;Draft&quot; en &quot;Draft (test)&quot;) en &quot;Stopping&quot; (tussen &quot;Live&quot; en &quot;Gestopt&quot;). Wanneer een reis in een tussenstadium is, is het read-only.
 
 Gebruik de **[!UICONTROL Creation filters]** om reizen te filteren op basis van de aanmaakdatum of de gebruiker die ze heeft gemaakt.
 
@@ -186,7 +186,7 @@ Zie voor meer informatie over tijdzonebeheer [deze pagina](../building-journeys/
 
 U kunt een **Begindatum**. Als u er geen hebt opgegeven, wordt deze automatisch gedefinieerd op het moment van publicatie.
 
-U kunt ook een **Einddatum**. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. Als er geen einddatum is opgegeven, kunnen profielen blijven tot de [algemene time-out](#global_timeout) (doorgaans 30 dagen en met de toevoeging aan het gezondheidsschild tot 7 dagen). De enige uitzondering is terugkerende publiekstrajecten met **Herkomst forceren bij herhaling** geactiveerd, die eindigt op de begindatum van het volgende exemplaar.
+U kunt ook een **Einddatum**. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. Als er geen einddatum is opgegeven, kunnen profielen blijven tot de [algemene time-out](#global_timeout) (over het algemeen 91 dagen, en met de toevoeging aan het gezondheidsschild tot 7 dagen teruggebracht). De enige uitzondering is terugkerende publiekstrajecten met **Herkomst forceren bij herhaling** geactiveerd, die eindigt op de begindatum van het volgende exemplaar.
 
 ### Tijdslimiet en fout bij reisactiviteiten {#timeout_and_error}
 
@@ -202,15 +202,123 @@ De reizen gebruikt ook een globale onderbreking. Zie de [volgende sectie](#globa
 
 Naast de [timeout](#timeout_and_error) Bij reisactiviteiten wordt ook een wereldwijde reistijd gebruikt die niet in de interface wordt weergegeven en niet kan worden gewijzigd.
 
-Door deze wereldwijde time-out wordt de voortgang van individuen tijdens de reis gestopt **dertig dagen** nadat ze zijn binnengekomen. Deze time-out wordt beperkt tot **7 dagen** met de toevoeging aan het gezondheidsschild. Dit betekent dat de reis van een individu niet langer mag duren dan 30 dagen (of 7 dagen). Na deze time-outperiode worden de gegevens van de persoon verwijderd. Personen die aan het einde van de time-outperiode nog onderweg zijn, worden gestopt en er wordt geen rekening mee gehouden bij de rapportage. Je zou dus meer mensen op de reis zien komen dan vertrekken.
+Door deze wereldwijde time-out wordt de voortgang van individuen tijdens de reis gestopt **91 dagen** nadat ze zijn binnengekomen. Deze time-out wordt beperkt tot **7 dagen** met de toevoeging aan het gezondheidsschild. Dit betekent dat de reis van een individu niet langer mag duren dan 91 dagen (of 7 dagen). Na deze time-outperiode worden de gegevens van de persoon verwijderd. Personen die aan het einde van de time-outperiode nog onderweg zijn, worden gestopt en er wordt geen rekening mee gehouden bij de rapportage. Je zou dus meer mensen op de reis zien komen dan vertrekken.
 
 >[!NOTE]
 >
->De reizen reageren niet direct op privacy opt-out, toegang of schrappingsverzoeken. De wereldwijde time-out zorgt er echter voor dat individuen nooit langer dan 30 dagen op een reis blijven.
+>De reizen reageren niet direct op privacy opt-out, toegang of schrappingsverzoeken. De wereldwijde time-out zorgt er echter voor dat individuen nooit langer dan 91 dagen op een reis blijven.
 
-Vanwege de 30 dagen durende reistijd, wanneer het niet is toegestaan om de reis opnieuw te betreden, kunnen we er niet voor zorgen dat de heringstop meer dan 30 dagen werkt. Aangezien we alle informatie over personen die 30 dagen na hun binnenkomst de reis hebben betreden, verwijderen, kunnen we niet weten dat de persoon eerder, meer dan 30 dagen geleden, is binnengekomen.
+Vanwege de reistijd van 91 dagen, wanneer het niet is toegestaan om de reis opnieuw te betreden, kunnen we er niet voor zorgen dat het blokkeren van de terugkeer meer dan 91 dagen zal duren. Aangezien we alle informatie over personen die 91 dagen na hun binnenkomst de reis hebben betreden, verwijderen, kunnen we niet weten dat de persoon eerder, meer dan 91 dagen geleden, is binnengekomen.
 
-Een individu kan alleen een wachtdienst doen als hij of zij genoeg tijd in de reis heeft om de wachttijd voor de 30 dagen reisonderbreking te voltooien. Zie [deze pagina](../building-journeys/wait-activity.md).
+Een individu kan alleen een wachtdienst doen als hij of zij genoeg tijd in de reis heeft om de wachttijd vóór de reisonderbreking van 91 dagen te voltooien. Zie [deze pagina](../building-journeys/wait-activity.md).
+
+
+#### Time-to-live (TTL) en veelgestelde vragen over gegevensinvoer {#timeout-faq}
+
+**Voor eenheidsreizen**
+<table style="table-layout:auto">
+  <tr style="border: 1;">
+    <td>
+      <p>Wat gebeurt er met de reis die wordt gepubliceerd na de introductie van de TTL-uitbreiding?</p>
+    </td>
+    <td>
+      <p>Profielen die de nieuwe reis ingaan, hebben automatisch een TTL van 91 dagen.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Wat gebeurt er met een profiel dat een reis ingaat die vóór de lancering van de uitbreiding van TTL werd gepubliceerd?</p>
+    </td>
+    <td>
+      <p>Het profiel zal een TTL van 91 dagen (7 dagen voor HIPAA) hebben, in overeenstemming met de tijd dat de reis oorspronkelijk werd gepubliceerd.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Wat gebeurt er met een profiel dat al een reis is begonnen toen de uitbreiding van de TTL wordt gestart?</p>
+    </td>
+    <td>
+      <p>Het profiel behoudt een TTL van 91 dagen (7 dagen voor HIPAA), volgens de oorspronkelijke publicatietijd van de reis.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Wat gebeurt er met een profiel in een vorige reisversie dat opnieuw wordt gepubliceerd na de lancering van de uitbreiding van TTL?</p>
+    </td>
+    <td>
+      <p>Het profiel zal een TTL van 91 dagen (7 dagen voor HIPAA) handhaven, die met de de publicatietijd van de originele reisversie wordt gericht.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Wat gebeurt er met een nieuw profiel dat een opnieuw gepubliceerde reisversie invoert na de introductie van de uitbreiding van TTL?</p>
+    </td>
+    <td>
+      <p>Het profiel zal een TTL van 91 dagen hebben, die TTL van de onlangs opnieuw gepubliceerde reisversie aanpassen.</p>
+    </td>
+  </tr>
+</table>
+
+**Voor segmenttriggerreizen**
+
+<table style="table-layout:auto">
+  <tr style="border: 1;">
+    <td>
+      <p>Wat gebeurt er met nieuwe eenmalige reizen die na de uitbreiding van de TTL worden gepubliceerd?</p>
+    </td>
+    <td>
+      <p>Profielen die de nieuwe reis ingaan zullen een TTL van 91 dagen automatisch hebben.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Wat gebeurt er met nieuwe terugkerende reizen zonder gedwongen terugkeer die na de uitbreiding van de GVTO worden gepubliceerd?</p>
+    </td>
+    <td>
+      <p>Profielen die de nieuwe reis ingaan zullen een TTL van 91 dagen automatisch hebben.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Wat gebeurt er met nieuwe terugkerende reizen met gedwongen terugkeer die na de uitbreiding van de GVTO worden gepubliceerd?</p>
+    </td>
+    <td>
+      <p>De profielen die de nieuwe reis ingaan zullen een TTL gelijk aan de herhalingsperiode hebben. Bijvoorbeeld, als de reis dagelijks loopt, zal TTL 1 dag zijn.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Wat gebeurt er met een profiel dat een reis ingaat die vóór de lancering van de uitbreiding van TTL werd gepubliceerd?</p>
+    </td>
+    <td>
+      <p>Het profiel zal een TTL van 91 dagen (7 dagen voor HIPAA) hebben, verenigbaar met de originele publicatietijd. Voor terugkerende ritten met gedwongen terugkeer zal de TTL overeenkomen met de herhalingsperiode.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Wat gebeurt er met een profiel dat door een reis loopt wanneer de uitbreiding van TTL wordt gelanceerd?</p>
+    </td>
+    <td>
+      <p>Het profiel behoudt een TTL van 91 dagen (7 dagen voor HIPAA), volgens de oorspronkelijke publicatietijd van de reis. Voor terugkerende ritten met gedwongen terugkeer zal de TTL overeenkomen met de herhalingsperiode.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Wat gebeurt er met een lopend profiel in een vorige reisversie die opnieuw wordt gepubliceerd na de lancering van de uitbreiding van TTL?</p>
+    </td>
+    <td>
+      <p>Het profiel zal een TTL van 91 dagen (7 dagen voor HIPPA) handhaven, die aan de originele de publicatietijd van de reisversie wordt aangepast. Voor terugkerende ritten met gedwongen terugkeer zal de TTL overeenkomen met de herhalingsperiode.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Wat gebeurt er met een nieuw profiel dat een opnieuw gepubliceerde reisversie invoert na de introductie van de uitbreiding van TTL?</p>
+    </td>
+    <td>
+      <p>Het profiel zal een TTL van 91 dagen hebben, die TTL van de onlangs opnieuw gepubliceerde reisversie aanpassen. Voor terugkerende ritten met gedwongen terugkeer zal de TTL overeenkomen met de herhalingsperiode.</p>
+    </td>
+  </tr>
+</table>
 
 ### Beleid samenvoegen {#merge-policies}
 
@@ -219,13 +327,9 @@ Reis gebruikt samenvoegbeleid terwijl het terugwinnen van profielgegevens van Ad
 * In kwalificatiereizen voor het publiek of het publiek lezen: het samenvoegbeleid van het publiek wordt gebruikt
 * Bij door gebeurtenis geïnitieerde reizen: het standaardsamenvoegbeleid wordt gebruikt
 
-De reis zal het fusieprincipe respecteren dat door de volledige reis wordt gebruikt.
+De reis zal het fusieprincipe respecteren dat door de volledige reis wordt gebruikt. Als er daarom meerdere soorten publiek worden gebruikt op een reis (bijvoorbeeld in &quot;inAudience&quot;-functies), waardoor inconsistenties ontstaan met het fusiebeleid dat door de reis wordt gebruikt, wordt een fout opgeworpen en wordt de publicatie geblokkeerd. Nochtans, als een inconsistent publiek in berichtverpersoonlijking wordt gebruikt, wordt een alarm niet opgeheven, ondanks de inconsistentie. Om deze reden, wordt het hoogst geadviseerd om het samenvoegbeleid te controleren verbonden aan uw publiek, wanneer dit publiek in berichtverpersoonlijking wordt gebruikt.
 
->[!NOTE]
->
->Dit vermogen is slechts beschikbaar in Beperkte Beschikbaarheid (LA) voor geselecteerde klanten.
-
-Raadpleeg deze voor meer informatie over samenvoegbeleid [page](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview)
+Raadpleeg voor meer informatie over samenvoegingsbeleid [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 ## Een reis dupliceren {#duplicate-a-journey}
 

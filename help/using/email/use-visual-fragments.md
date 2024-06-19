@@ -8,24 +8,27 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 2%
+source-wordcount: '608'
+ht-degree: 1%
 
 ---
 
 # Visuele fragmenten toevoegen aan uw e-mails {#use-visual-fragments}
 
-U kunt een visueel fragment gebruiken in een [email](get-started-email-design.md) tijdens een reis, een campagne of [inhoudssjabloon](../content-management/content-templates.md).
-
->[!NOTE]
->
->Leer hoe u fragmenten maakt en beheert in [deze sectie](../content-management/fragments.md).
+Een fragment is een herbruikbare component waarnaar in een of meer e-mails kan worden verwezen via Journey Optimizer-campagnes, -reizen of inhoudssjablonen. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud vooraf samenstellen. Deze blokken kunnen door marketinggebruikers worden gebruikt om snel e-mailinhoud samen te stellen in een verbeterd ontwerpproces. [Leer hoe u fragmenten maakt en beheert](../content-management/fragments.md).
 
 ➡️ [Leer hoe u fragmenten beheert, ontwerpt en gebruikt in deze video](../content-management/fragments.md#video-fragments)
 
 ## Een fragment gebruiken {#use-fragment}
+
+Voer de onderstaande stappen uit om een fragment te gebruiken in een e-mailbericht.
+
+>[!NOTE]
+>
+>U kunt maximaal 30 fragmenten in een bepaalde levering toevoegen. Fragmenten kunnen maximaal 1 niveau worden genest.
+
 
 1. Open e-mail- of sjablooninhoud met de [E-mailDesigner](get-started-email-design.md).
 
@@ -33,17 +36,12 @@ U kunt een visueel fragment gebruiken in een [email](get-started-email-design.md
 
    ![](assets/fragments-in-designer.png)
 
-1. De lijst met alle visuele fragmenten die in de huidige sandbox zijn gemaakt, wordt weergegeven. U kunt:
+1. De lijst met alle visuele fragmenten die in de huidige sandbox zijn gemaakt, wordt weergegeven. Deze worden gesorteerd op aanmaakdatum: recent toegevoegde visuele fragmenten worden als eerste weergegeven in de lijst. U kunt:
 
    * Zoek naar een specifiek fragment door zijn etiket te beginnen typen.
    * Sorteer fragmenten in oplopende of aflopende volgorde.
    * De manier wijzigen waarop de fragmenten worden weergegeven (kaarten of lijstweergave).
-
-   >[!NOTE]
-   >
-   >Fragmenten worden gesorteerd op aanmaakdatum: recent toegevoegde visuele fragmenten worden als eerste weergegeven in de lijst.
-
-1. U kunt de lijst doorzoeken en vernieuwen.
+   * Vernieuw de lijst.
 
    >[!NOTE]
    >
@@ -52,6 +50,12 @@ U kunt een visueel fragment gebruiken in een [email](get-started-email-design.md
 1. Sleep een fragment uit de lijst naar het gebied waar u het wilt invoegen.
 
    ![](assets/fragment-insert.png)
+
+   >[!CAUTION]
+   >
+   >U kunt elke **Concept** of **Live** fragment naar uw inhoud. U kunt uw reis of campagne echter niet activeren als er een fragment met de status Concept in wordt gebruikt. Tijdens de reis- of campagnepublicatie wordt een fout weergegeven in ontwerpfragmenten die u moet goedkeuren om te kunnen publiceren.
+   >
+   > Let op: de fragmentatiestatus wordt geleidelijk ingevoerd gedurende enkele dagen na de release van Journey Optimizer in juni. Terwijl sommige gebruikers directe toegang zullen hebben, kunnen anderen een vertraging ervaren alvorens het in hun milieu&#39;s beschikbaar wordt. Als deze verbetering nog niet beschikbaar is in uw omgeving, hoeft het fragment niet **Live** voor uw reizen en campagnes.
 
 1. Net als bij andere componenten kunt u het fragment in de inhoud verplaatsen.
 
@@ -73,15 +77,9 @@ U kunt een visueel fragment gebruiken in een [email](get-started-email-design.md
 
 ## Overerving onderbreken {#break-inheritance}
 
-Wanneer u een visueel fragment bewerkt, worden de wijzigingen gesynchroniseerd. Ze worden automatisch doorgegeven aan iedereen **[!UICONTROL Draft]** ritten/campagnes en inhoudssjablonen met dat fragment.
+Wanneer u een visueel fragment bewerkt, worden de wijzigingen gesynchroniseerd. Ze worden automatisch doorgegeven aan alle concepten of live reizen/campagnes en inhoudssjablonen die dat fragment bevatten.
 
->[!NOTE]
->
->De wijzigingen worden niet doorgegeven aan e-mails die worden gebruikt in **[!UICONTROL Live]** reizen of campagnes.
-
-Wanneer fragmenten aan een e-mail- of inhoudssjabloon worden toegevoegd, worden ze standaard gesynchroniseerd.
-
-U kunt de overerving echter wel verbreken van het oorspronkelijke fragment. In dat geval wordt de inhoud van het fragment naar het huidige ontwerp gekopieerd en worden de wijzigingen niet meer gesynchroniseerd.
+Wanneer fragmenten aan een e-mail- of inhoudssjabloon worden toegevoegd, worden ze standaard gesynchroniseerd. U kunt de overerving echter wel verbreken van het oorspronkelijke fragment. In dat geval wordt de inhoud van het fragment naar het huidige ontwerp gekopieerd en worden de wijzigingen niet meer gesynchroniseerd.
 
 Volg onderstaande stappen om overerving te onderbreken:
 

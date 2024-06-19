@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 3686127299107eb19db8e9290be1b737c1c87ec3
+source-git-commit: c7d8dd94bde49e8d02fe553fbac3942f55bf73fe
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 0%
+source-wordcount: '1194'
+ht-degree: 1%
 
 ---
 
@@ -58,11 +58,19 @@ Voordat u dit bestand kunt genereren, moet u het volgende maken:
 >title="Kies het AWS-gebied"
 >abstract="Selecteer het geografische gebied van de AWS-server waarop u uw bestanden voor directe e-mail wilt exporteren. In het algemeen verdient het de voorkeur het gebied te kiezen dat het dichtst bij de locatie van uw directe-mailprovider ligt."
 
+>[!NOTE]
+>
+>Amazon S3, SFTP en Azure worden momenteel ondersteund in [!DNL Journey Optimizer].
+
 Een direct-mailbericht verzenden [!DNL Journey Optimizer] Hiermee genereert en exporteert u het bestand met de doelgegevens naar een server.
 
 U moet die serverdetails specificeren zodat uw direct-mailleverancier tot dat dossier voor het leveren van post kan toegang hebben en gebruiken.
 
 Om het dossier te vormen dat, volg de stappen hieronder verplettert.
+
+>[!BEGINTABS]
+
+>[!TAB Amazon S3]
 
 1. Toegang krijgen tot de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL File routing configuration]** > **[!UICONTROL File Routing]** en klik vervolgens op **[!UICONTROL Create routing configuration]**.
 
@@ -70,33 +78,89 @@ Om het dossier te vormen dat, volg de stappen hieronder verplettert.
 
 1. Plaats een naam voor uw configuratie.
 
-1. Selecteer de **[!UICONTROL Server type]** die u wilt gebruiken voor het exporteren van de direct-mailbestanden.
+1. Selecteren **Amazon S3** als de **[!UICONTROL Server type]** gebruiken voor het exporteren van de direct-mailbestanden.
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
-   >[!NOTE]
-   >
-   >Amazon S3, SFTP en Azure worden momenteel ondersteund in [!DNL Journey Optimizer].
+1. Voer de gegevens en referenties voor de server in
 
-1. Vul de gegevens en referenties voor uw server in, zoals het serveradres, de toegangstoets, enzovoort.
+   * **AWS bucket name**:Als u wilt weten waar u de naam van uw AWS-emmertje vindt, raadpleegt u [deze pagina](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html).
 
-   ![](assets/file-routing-config-sftp-details.png)
+   * **AWS-toegangstoets**: Als u wilt weten waar u de AWS-toegangstoets-id vindt, raadpleegt u [deze pagina](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys).
 
-1. Als u **[!UICONTROL Amazon S3]**, kiest u de **[!UICONTROL AWS region]** waar de serverinfrastructuur zal worden gevestigd.
+   * **AWS geheime sleutel**: Als je wilt weten waar je de geheime sleutel van AWS vindt, raadpleegt u [deze pagina](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+
+   * **AWS**: kies de optie **[!UICONTROL AWS region]** waar de serverinfrastructuur zal worden gevestigd. AWS-regio&#39;s zijn geografische gebieden die AWS gebruikt om haar cloudinfrastructuur te hosten. In het algemeen verdient het de voorkeur het gebied te kiezen dat het dichtst bij de locatie van uw directe-mailprovider ligt.
 
    ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
-
-   >[!NOTE]
-   >
-   >AWS-regio&#39;s zijn geografische gebieden die AWS gebruikt om haar cloudinfrastructuur te hosten. In het algemeen verdient het de voorkeur het gebied te kiezen dat het dichtst bij de locatie van uw directe-mailprovider ligt.
 
 1. Als u het bestand wilt versleutelen, kopieert en plakt u de coderingssleutel in de **[!UICONTROL PGP/GPG encryption key]** veld.
 
 1. Selecteer **[!UICONTROL Submit]**. Het dossier dat configuratie verplettert wordt gecreeerd met **[!UICONTROL Active]** status. Het is nu klaar om in een [direct-mailoppervlak](#direct-mail-surface).
 
-   >[!NOTE]
-   >
-   >U kunt ook **[!UICONTROL Save as draft]** om het dossier tot stand te brengen dat configuratie verplettert, maar u zult niet het in een oppervlakte kunnen selecteren tot het is **[!UICONTROL Active]**.
+   U kunt ook **[!UICONTROL Save as draft]** om het dossier tot stand te brengen dat configuratie verplettert, maar u zult niet het in een oppervlakte kunnen selecteren tot het is **[!UICONTROL Active]**.
+
+>[!TAB SFTP]
+
+1. Toegang krijgen tot de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL File routing configuration]** > **[!UICONTROL File Routing]** en klik vervolgens op **[!UICONTROL Create routing configuration]**.
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. Plaats een naam voor uw configuratie.
+
+1. SFTP selecteren als **[!UICONTROL Server type]** gebruiken voor het exporteren van de direct-mailbestanden.
+
+   ![](assets/file-routing-config-type-sftp.png){width="800" align="center"}
+
+1. Voer de gegevens en referenties voor uw server in:
+
+   * **Account**: Accountnaam gebruikt om verbinding te maken met de SFTP-server.
+
+   * **Serveradres**: &#x200B; URL van de SFTP-server.
+
+   * **Poort**: FTP-poortnummer.
+
+   * **Wachtwoord**: &#x200B; Wachtwoord gebruikt om verbinding te maken met de SFTP-server.
+
+   ![](assets/file-routing-config-sftp-detail.png)
+
+1. Als u het bestand wilt versleutelen, kopieert en plakt u de coderingssleutel in de **[!UICONTROL PGP/GPG encryption key]** veld.
+
+1. Selecteer **[!UICONTROL Submit]**. Het dossier dat configuratie verplettert wordt gecreeerd met **[!UICONTROL Active]** status. Het is nu klaar om in een [direct-mailoppervlak](#direct-mail-surface).
+
+   U kunt ook **[!UICONTROL Save as draft]** om het dossier tot stand te brengen dat configuratie verplettert, maar u zult niet het in een oppervlakte kunnen selecteren tot het is **[!UICONTROL Active]**.
+
+>[!TAB Azure]
+
+1. Toegang krijgen tot de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL File routing configuration]** > **[!UICONTROL File Routing]** en klik vervolgens op **[!UICONTROL Create routing configuration]**.
+
+   ![](assets/file-routing-config-button.png){width="800" align="center"}
+
+1. Plaats een naam voor uw configuratie.
+
+1. Azure selecteren **[!UICONTROL Server type]** gebruiken voor het exporteren van de direct-mailbestanden.
+
+   ![](assets/file-routing-config-type-azure.png){width="800" align="center"}
+
+1. Voer de gegevens en referenties voor uw server in:
+
+   * **Azure Connection String**: Als u uw **Azure Connection String**, zie [deze pagina](https://learn.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string#configure-a-connection-string-for-an-azure-storage-account).
+
+     De **Azure Connection String** moet de volgende notatie volgen:
+
+     `DefaultEndpointsProtocol=[http|https];AccountName=myAccountName;AccountKey=myAccountKey`
+
+   * **Containernaam**: Als u uw **Containernaam**, zie [deze pagina](https://learn.microsoft.com/en-us/azure/storage/blobs/blob-containers-portal).
+
+     De **Containernaam** moet alleen de naam van de container zonder slashes bevatten. Als u een pad in de container voor het opslaan van het bestand wilt opgeven, werkt u de bestandsnaam van de Direct Mail Campaign bij en voegt u het gewenste pad in.
+
+1. Als u het bestand wilt versleutelen, kopieert en plakt u de coderingssleutel in de **[!UICONTROL PGP/GPG encryption key]** veld.
+
+1. Selecteer **[!UICONTROL Submit]**. Het dossier dat configuratie verplettert wordt gecreeerd met **[!UICONTROL Active]** status. Het is nu klaar om in een [direct-mailoppervlak](#direct-mail-surface).
+
+   U kunt ook **[!UICONTROL Save as draft]** om het dossier tot stand te brengen dat configuratie verplettert, maar u zult niet het in een oppervlakte kunnen selecteren tot het is **[!UICONTROL Active]**.
+
+>[!ENDTABS]
 
 ## Een direct-mailoppervlak maken {#direct-mail-surface}
 

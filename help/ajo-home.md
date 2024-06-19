@@ -5,9 +5,9 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0ba1e007ebdb3f7d68df270c4a7332bf37eec2b2
+source-git-commit: 6b9044117dcdd7554dea0c5f791a6dcfb0218010
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '375'
 ht-degree: 17%
 
 ---
@@ -20,27 +20,29 @@ Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en
 
 >[!BEGINTABS]
 
->[!TAB Kan live worden uitgebracht!]
+>[!TAB Juni-release is live.]
 
 Ontdek nieuwe functies en verbeteringen die worden geïntroduceerd met de release van Adobe Journey Optimizer May.
 
 [![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Ervaar beslissingen]
+>[!TAB Rapportage met Customer Journey Analytics (bèta)]
 
-Ervaring Beslissen vereenvoudigt personalisatie door een gecentraliseerde catalogus van marketingaanbiedingen aan te bieden, die bekend staan als &#39;beslissingspunten&#39; en een geavanceerde beslissingsengine.
+De Journey Optimizer-rapportage is nu volledig geïntegreerd met de mogelijkheden van de Customer Journey Analytics, waardoor de rapportage op beide platforms wordt gestandaardiseerd en de consistentie en betrouwbaarheid van de gegevens worden verbeterd.
 
-![](using/rn/assets/do-not-localize/gif-exd.gif)
+[![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
 
-[![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/experience-decisioning/gs-experience-decisioning.md)
+>[!TAB AI-assistent]
 
->[!TAB Nieuwe ervaring op reis]
+De AI Medewerker is een gebruikersinterfaceeigenschap die u kunt gebruiken om te navigeren en Adobe concepten te begrijpen en operationele inzichten voor uw specifieke milieu te krijgen.
 
-Deze release wordt geleverd met een verbeterde gebruikersinterface voor het canvas voor reizen en biedt een intuïtievere en efficiëntere gebruikerservaring. De activiteiten zijn duidelijker en geven meer informatie over het reiscanvas met minder kliks.
+[![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](/help/using/start/ai-assistant.md)
 
-![](using/rn/assets/new-canvas3.gif)
+>[!TAB Contentfragmenten]
 
-[![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/rn/new-canvas.md)
+Fragmenten kunnen nu worden bewerkt en wijzigingen kunnen worden doorgevoerd in alle live reizen en campagnes waar ze worden gebruikt.
+
+[![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/fragments.md)
 
 >[!ENDTABS]
 

@@ -7,28 +7,31 @@ role: User
 level: Beginner
 keywords: direct mail, bericht, campagne
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: a20e01e66138ea5bb7be4d36c0d55b24ab9426db
+source-git-commit: 6d11c78f78a4af13b8886e5d06a7b8de466714dd
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met direct mail {#create-direct}
 
->[!IMPORTANT]
->
->Direct mail is momenteel niet beschikbaar voor organisaties die de Adobe hebben aangeschaft **Gezondheidsschild** en **Privacy- en beveiligingsschild** add-on aanbiedingen.
+Directe post is een off-line kanaal dat u toestaat om de extractiedossiers te personaliseren en te produceren die door derde directe postleveranciers worden vereist om post naar uw klanten te verzenden.
 
-Directe post is een off-line kanaal dat u toestaat om de extractiedossiers te personaliseren en te produceren die door directe postleveranciers worden vereist om post naar uw klanten te verzenden.
+Bij het maken van een campagne voor direct mail genereert Journey Optimizer automatisch een bestand met alle doelprofielen en geselecteerde gegevens, zoals postadressen en profielkenmerken. Dit bestand wordt naar de server van uw keuze verzonden, zodat het toegankelijk is voor de door u gekozen externe provider, die het eigenlijke mailingproces voor u afhandelt.
 
-Bij het maken van een campagne voor direct mail genereert Journey Optimizer automatisch een bestand met alle doelprofielen en geselecteerde gegevens, zoals postadressen en profielkenmerken. Dit bestand wordt naar de server van uw keuze verzonden, zodat het toegankelijk is voor uw gekozen directe-mailprovider, die het eigenlijke mailingproces voor u afhandelt.
+U zult met uw gekozen derde direct-mailleverancier moeten werken om het even welke vereiste toestemmingen van uw klanten te verkrijgen, als toepasselijk, zodat uw klanten post van u kunnen ontvangen.
 
-![](../rn/assets/do-not-localize/gif-dm.gif)
-
+Voor het gebruik van mailingservices gelden aanvullende voorwaarden van de betreffende externe provider.  Adobe heeft geen controle over en is niet verantwoordelijk voor uw gebruik van producten van derden. Neem contact op met de door u gekozen externe provider voor informatie over problemen of verzoeken om hulp die te maken hebben met het verzenden van uw campagne voor e-mail.
 
 De belangrijkste stappen voor het verzenden van direct-mailberichten zijn als volgt:
 
 ![](assets/dm-creation-process.png)
 
-Directe-mailberichten kunnen alleen worden gemaakt in het kader van geplande campagnes. Ze zijn niet beschikbaar voor gebruik in API-getriggerde campagnes of reizen.
+>[!AVAILABILITY]
+>
+>Directe-mailberichten kunnen alleen worden gemaakt in het kader van geplande campagnes. Ze zijn niet beschikbaar voor gebruik in API-getriggerde campagnes of reizen.
+
+![](../rn/assets/do-not-localize/gif-dm.gif)
+
+

@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, bibliotheek, personalisatie
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Wanneer u de opdracht **personalisatie-editor**, kunt u alle expressiefragmenten benutten die zijn gemaakt of opgeslagen in de huidige sandbox.
 
-Leer hoe u fragmenten maakt en beheert in [deze sectie](../content-management/fragments.md).
+Een fragment is een herbruikbare component waarnaar kan worden verwezen [!DNL Journey Optimizer] campagnes en reizen. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud vooraf samenstellen. Deze blokken kunnen door marketinggebruikers worden gebruikt om inhoud snel samen te stellen in een verbeterd ontwerpproces. [Leer hoe u fragmenten maakt en beheert](../content-management/fragments.md).
 
 ➡️ [Leer hoe u fragmenten beheert, ontwerpt en gebruikt in deze video](../content-management/fragments.md#video-fragments)
 
@@ -28,17 +28,17 @@ Leer hoe u fragmenten maakt en beheert in [deze sectie](../content-management/fr
 
 Volg onderstaande stappen om expressiefragmenten aan uw inhoud toe te voegen.
 
+>[!NOTE]
+>
+>U kunt maximaal 30 fragmenten in een bepaalde levering toevoegen. Fragmenten kunnen maximaal 1 niveau worden genest.
+
 1. Open de [personalisatie-editor](personalization-build-expressions.md) en selecteert u de **[!UICONTROL Fragments]** in het linkerdeelvenster.
+
+   In de lijst worden alle uitdrukkingsfragmenten weergegeven die als fragmenten in de huidige sandbox zijn gemaakt of opgeslagen. Ze worden gesorteerd op aanmaakdatum: recent toegevoegde expressiefragmenten worden als eerste weergegeven in de lijst. [Meer informatie](../content-management/fragments.md#create-expression-fragment)
 
    ![](assets/expression-fragments-pane.png)
 
-   In de lijst worden alle uitdrukkingsfragmenten weergegeven die als fragmenten in de huidige sandbox zijn gemaakt of opgeslagen. [Meer informatie](../content-management/fragments.md#create-expression-fragment)
-
-   >[!NOTE]
-   >
-   >Fragmenten worden gesorteerd op aanmaakdatum: recent toegevoegde uitdrukkingsfragmenten worden eerst weergegeven in de lijst.
-
-1. U kunt de lijst ook vernieuwen.
+   U kunt deze lijst ook vernieuwen.
 
    >[!NOTE]
    >
@@ -48,15 +48,15 @@ Volg onderstaande stappen om expressiefragmenten aan uw inhoud toe te voegen.
 
    ![](assets/expression-fragment-add.png)
 
-   Nadat de fragment-id is toegevoegd, opent u het bijbehorende expressiefragment en [bewerken](../content-management/fragments.md#edit-fragments) vanuit de interface worden de wijzigingen gesynchroniseerd. Ze worden automatisch doorgegeven aan iedereen **[!UICONTROL Draft]** ritten/campagnes met die fragment-id.
-
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >De wijzigingen worden niet doorgegeven aan inhoud die wordt gebruikt in **[!UICONTROL Live]** reizen of campagnes.
+   >U kunt elke **Concept** of **Live** fragment naar uw inhoud. U kunt uw reis of campagne echter niet activeren als er een fragment met de status Concept in wordt gebruikt. Tijdens de reis- of campagnepublicatie wordt een fout weergegeven in ontwerpfragmenten die u moet goedkeuren om te kunnen publiceren.
+   >
+   > Let op: de fragmentatiestatus wordt geleidelijk ingevoerd gedurende enkele dagen na de release van Journey Optimizer in juni. Terwijl sommige gebruikers directe toegang zullen hebben, kunnen anderen een vertraging ervaren alvorens het in hun milieu&#39;s beschikbaar wordt. Als deze verbetering nog niet beschikbaar is in uw omgeving, hoeft het fragment niet **Live** voor uw reizen en campagnes.
 
-1. Klik op de knop **[!UICONTROL More actions]** naast een fragment.
+1. Nadat de fragment-id is toegevoegd, opent u het bijbehorende expressiefragment en [bewerken](../content-management/fragments.md#edit-fragments) vanuit de interface worden de wijzigingen gesynchroniseerd. Ze worden automatisch doorgegeven aan alle concepten of live reizen/campagnes die die fragment-id bevatten.
 
-1. Selecteer in het contextmenu dat wordt geopend de optie **[!UICONTROL View fragment]** voor meer informatie over dat fragment. De **[!UICONTROL Fragment ID]** wordt ook weergegeven en kan hier worden gekopieerd.
+1. Klik op de knop **[!UICONTROL More actions]** naast een fragment. Selecteer in het contextmenu dat wordt geopend de optie **[!UICONTROL View fragment]** voor meer informatie over dat fragment. De **[!UICONTROL Fragment ID]** wordt ook weergegeven en kan hier worden gekopieerd.
 
    ![](assets/expression-fragment-view.png)
 
