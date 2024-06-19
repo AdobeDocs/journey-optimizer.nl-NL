@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: campagnes, API-geactiveerd, REST, optimizer, berichten
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: ef32423dafa33406244e09f6dddd760e44e4edbf
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,10 @@ Voer de onderstaande stappen uit om een API-gestuurde campagne te maken. Gedetai
 1. In de **[!UICONTROL Audience]** in, geeft u de naamruimte op die moet worden gebruikt om de personen te identificeren.
 
    * Als u een **transactie**-type campagne, moeten de gerichte profielen in de API vraag worden bepaald. De **[!UICONTROL Create new profiles]** kunt u automatisch profielen maken die niet in de database voorkomen. [Meer informatie over het maken van profielen tijdens de uitvoering van de campagne](#profile-creation)
+
+     >[!NOTE]
+     >
+     >Eén API-aanroep ondersteunt maximaal 20 unieke ontvangers. Elke ontvanger moet een unieke gebruikersnaam hebben. Dubbele gebruikers-id&#39;s zijn niet toegestaan. Meer informatie in het dialoogvenster [Interactieve API-documentatie voor berichtuitvoering](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}
 
    * Voor **marketing**-type campagnes, klik **[!UICONTROL Audience]** om het publiek te kiezen waarop u zich wilt richten.
 
