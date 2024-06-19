@@ -7,20 +7,21 @@ feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: 83997271d16e15fb0d7ccdd21aa8ac8b8221a0d5
+exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
+source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
 
 # Inhoud opslaan als fragment {#save-as-fragment}
 
-Bij het bewerken van inhoud in [!DNL Journey Optimizer], kunt u de inhoud geheel of gedeeltelijk opslaan als fragment voor toekomstig hergebruik.
+Bij het bewerken van inhoud in [!DNL Journey Optimizer], kunt u de inhoud geheel of gedeeltelijk opslaan als fragment voor toekomstig hergebruik. U kunt inhoud opslaan als een fragment [van de e-mailontwerper](#save-as-visual-fragment), of [uit de expressieeditor](#save-as-expression-fragment).
 
-## Inhoud opslaan als visueel fragment {#save-as-visual-fragment}
+## Opslaan als visueel fragment {#save-as-visual-fragment}
 
-Wanneer u een [inhoudssjabloon](content-templates.md) of een [email](../email/get-started-email-design.md) in een campagne of een reis, kunt u een gedeelte van uw inhoud als visueel fragment bewaren. Volg de onderstaande stappen om dit te doen.
+Voer de volgende stappen uit om inhoud van het e-mailDesigner-fragment op te slaan:
 
 1. In de [E-mailDesigner](../email/get-started-email-design.md)Klik op de ellips rechtsboven in het scherm.
 
@@ -30,29 +31,31 @@ Wanneer u een [inhoudssjabloon](content-templates.md) of een [email](../email/ge
 
 1. De **[!UICONTROL Save as fragment]** schermweergaven. Hier selecteert u de elementen die u in het fragment wilt opnemen, inclusief personalisatievelden en dynamische inhoud. Contextuele kenmerken worden niet ondersteund in fragmenten.
 
+   ![](assets/fragment-save-as-screen.png)
+
    >[!CAUTION]
    >
    >U kunt alleen secties selecteren die aan elkaar grenzen. U kunt geen lege structuur of een ander fragment selecteren.
 
-   ![](assets/fragment-save-as-screen.png)
+1. Klikken **[!UICONTROL Create]** en vul de fragmentnaam en -beschrijving in (indien nodig).
 
-1. Klikken **[!UICONTROL Create]**. Vul de fragmentdetails in, d.w.z. naam en beschrijving (indien nodig).
-
-1. Als u aangepaste of basislabels voor gegevensgebruik aan het fragment wilt toewijzen, selecteert u **[!UICONTROL Manage access]**. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md).
+1. Als u aangepaste of basislabels voor gegevensgebruik aan het fragment wilt toewijzen, klikt u op de knop **[!UICONTROL Manage access]** in de bovenste sectie van het scherm. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md).
 
 1. Adobe Experience Platform-tags selecteren of maken vanuit het menu **Tags** veld om de sjabloon te categoriseren voor een betere zoekopdracht. [Meer informatie](../start/search-filter-categorize.md#tags)
 
-1. Klikken **[!UICONTROL Create]** opnieuw. Het fragment wordt opgeslagen in toegevoegd aan de [fragmentlijst](#access-manage-fragments), toegankelijk via de [!DNL Journey Optimizer] speciaal menu.
+1. Klik op **[!UICONTROL Create]**. Het fragment wordt toegevoegd aan de [fragmentlijst](#access-manage-fragments) met de **Concept** status. Het wordt een zelfstandig fragment dat kan worden gebruikt als elk ander visueel fragment uit die lijst.
 
-   Het wordt een zelfstandig fragment dat [benaderd](#access-manage-fragments), [bewerkt](#edit-fragments) en [gearchiveerd](#archive-fragments) zoals elk ander item op die lijst.
+   >[!NOTE]
+   >
+   >Wijzigingen in dat nieuwe fragment worden niet doorgegeven aan het e-mailbericht of de sjabloon waaruit het fragment afkomstig is. Op dezelfde manier wordt het nieuwe fragment niet gewijzigd wanneer de oorspronkelijke inhoud wordt bewerkt in het e-mailbericht of de sjabloon.
 
-U kunt dit fragment nu gebruiken wanneer u een [email](../email/get-started-email-design.md) of [inhoudssjabloon](content-templates.md) binnen [!DNL Journey Optimizer]. [Meer informatie](../email/use-visual-fragments.md)
+1. Als u het fragment wilt kunnen gebruiken tijdens reizen en campagnes, moet u het live maken. [Leer hoe u een fragment voorvertoont en publiceert](../content-management/create-fragments.md#publish)
 
 >[!NOTE]
 >
->Wijzigingen in dat nieuwe fragment worden niet doorgegeven aan het e-mailbericht of de sjabloon waaruit het fragment afkomstig is. Op dezelfde manier wordt het nieuwe fragment niet gewijzigd wanneer de oorspronkelijke inhoud wordt bewerkt in het e-mailbericht of de sjabloon.
+>De publicatie van fragmenten wordt geleidelijk uitgevoerd in de loop van enkele dagen na de release van Journey Optimizer in juni. Terwijl sommige gebruikers directe toegang zullen hebben, kunnen anderen een vertraging ervaren alvorens het in hun milieu&#39;s beschikbaar wordt. Als deze verbetering nog niet in uw milieu beschikbaar is, gelieve te merken dat het publiceren van fragment niet wordt vereist om fragmenten in uw reizen en campagnes te gebruiken.
 
-## Inhoud opslaan als expressiefragment {#save-as-expression-fragment}
+## Opslaan als expressiefragment {#save-as-expression-fragment}
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_library"
@@ -65,16 +68,22 @@ Voer de onderstaande stappen uit om inhoud op te slaan als een expressiefragment
 
 1. In de [personalisatie-editor](../personalization/personalization-build-expressions.md) interface, bouwt een uitdrukking, dan klikt **[!UICONTROL Save as fragment]**.
 
+   >[!NOTE]
+   >
+   >Expressies mogen niet groter zijn dan 200 kB.
+
 1. Voer in het rechterdeelvenster een naam en een beschrijving in voor de expressie, zodat gebruikers deze gemakkelijker kunnen vinden.
 
    ![](assets/expression-fragment-save-as.png)
 
-1. Klikken **[!UICONTROL Save fragment]**.
+1. Klik op **[!UICONTROL Save fragment]**.
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. Het uitdrukkingsfragment wordt toegevoegd aan [fragmentlijst](#access-manage-fragments). U kunt het nu gebruiken om gepersonaliseerde inhoud te bouwen.
+1. Het fragment wordt toegevoegd aan de [fragmentlijst](#access-manage-fragments) met de **Concept** status. Het wordt een zelfstandig fragment dat kan worden gebruikt als elk ander expressiefragment uit die lijst.
+
+1. Als u het fragment wilt kunnen gebruiken tijdens reizen en campagnes, moet u het live maken. [Leer hoe u een fragment voorvertoont en publiceert](../content-management/create-fragments.md#publish)
 
 >[!NOTE]
 >
->Expressies mogen niet groter zijn dan 200 kB.
+>De publicatie van fragmenten wordt geleidelijk uitgevoerd in de loop van enkele dagen na de release van Journey Optimizer in juni. Terwijl sommige gebruikers directe toegang zullen hebben, kunnen anderen een vertraging ervaren alvorens het in hun milieu&#39;s beschikbaar wordt. Als deze verbetering nog niet in uw milieu beschikbaar is, gelieve te merken dat het publiceren van fragment niet wordt vereist om fragmenten in uw reizen en campagnes te gebruiken.

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 2edff0123084fa1736fb8198c3b4e8ff4e40341d
+source-git-commit: c58fda6a59daae7a404058609bce01623064f9fb
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 2%
+source-wordcount: '893'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 Als u een nieuwe campagne wilt maken, opent u de **[!UICONTROL Campaigns]** en klik vervolgens op **[!UICONTROL Create campaign]**. U kunt ook een bestaande live campagne dupliceren om een nieuwe te maken. [Meer informatie](modify-stop-campaign.md#duplicate)
 
-## Het type campagne en het kanaal kiezen {#campaigntype}
+## Het type campagne kiezen {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
@@ -39,25 +39,13 @@ Als u een nieuwe campagne wilt maken, opent u de **[!UICONTROL Campaigns]** en k
 >title="Campagne, categorie"
 >abstract="Als u een geplande campagne maakt, kunt u **marketing** tekst wordt automatisch geselecteerd. Voor API-getriggerde campagnes kiest u of u een **marketing** bericht (promotiebericht waarvoor toestemming van de gebruiker vereist is) of **transactie** bericht (niet-commercieel bericht, dat ook naar niet-geabonneerde profielen in specifieke contexten kan worden verzonden)."
 
-1. In de **[!UICONTROL Properties]** , geeft u op hoe u de campagne wilt uitvoeren. Er zijn twee soorten campagnes beschikbaar:
+1. Selecteer het type campagne dat u wilt uitvoeren
 
-   * **[!UICONTROL Scheduled]**: voer de campagne onmiddellijk of op een bepaalde datum uit. Geplande campagnes zijn gericht op het verzenden van **marketing** berichten. Zij worden gevormd en uitgevoerd van het gebruikersinterface.
+   * **[!UICONTROL Scheduled - Marketing]**: voer de campagne onmiddellijk of op een bepaalde datum uit. Geplande campagnes zijn gericht op het verzenden van **marketing** berichten. Zij worden gevormd en uitgevoerd van het gebruikersinterface.
 
-   * **[!UICONTROL API-triggered]**: voer de campagne uit met een API-aanroep. API-gestuurde campagnes zijn gericht op het verzenden van **marketing**, of **transactie** berichten, d.w.z. berichten die worden verzonden na een actie uitgevoerd door een individu: wachtwoordinstelling, winkelwagentje enz. [Leer hoe u een campagne activeert met API&#39;s](api-triggered-campaigns.md)
+   * **[!UICONTROL API-triggered - Marketing/Transactional]**: voer de campagne uit met een API-aanroep. API-gestuurde campagnes zijn gericht op het verzenden van **marketing**, of **transactie** berichten, d.w.z. berichten die worden verzonden na een actie uitgevoerd door een individu: wachtwoordinstelling, winkelwagentje enz. [Leer hoe u een campagne activeert met API&#39;s](api-triggered-campaigns.md)
 
-1. Als u een geplande campagne maakt, kunt u **marketing** tekst wordt automatisch geselecteerd. Voor API-getriggerde campagnes kiest u of u een **marketing** of **transactie** bericht.&quot;
-
-1. In de **[!UICONTROL Actions]** kiest u het kanaal en het kanaaloppervlak dat u wilt gebruiken om uw bericht te verzenden.
-
-   Een oppervlak is een configuratie die door een [Systeembeheerder](../start/path/administrator.md). Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enzovoort. [Meer informatie](../configuration/channel-surfaces.md).
-
-   Alleen kanaaloppervlakken die compatibel zijn met het type marketingcampagne worden weergegeven in de vervolgkeuzelijst.
-
-   ![](assets/create-campaign-action.png)
-
-   >[!NOTE]
-   >
-   >Als u een pushmeldingscampagne maakt, kunt u de optie **[!UICONTROL Rapid delivery mode]**, een Journey Optimizer-invoegtoepassing die het mogelijk maakt om zeer snelle pushberichten in grote hoeveelheden te verzenden. [Meer informatie](../push/create-push.md#rapid-delivery)
+   ![](assets/create-campaign-modal.png)
 
 1. Klikken **[!UICONTROL Create]** om de campagne op te zetten.
 
@@ -71,13 +59,41 @@ Als u een nieuwe campagne wilt maken, opent u de **[!UICONTROL Campaigns]** en k
 
 1. Als u aangepaste of basislabels voor gegevensgebruik aan de campagne wilt toewijzen, klikt u op de knop **[!UICONTROL Manage access]** knop. [Meer informatie over OLA (Object Level Access Control)](../administration/object-based-access.md)
 
+## Het campagnepubliek definiëren {#audience}
+
+Definieer de doelgroep voor de campagne en voer de volgende stappen uit:
+
+>[!IMPORTANT]
+>
+>Het gebruik van soorten publiek en kenmerken van [publiekscompositie](../audience/get-started-audience-orchestration.md) en [publiek voor aangepaste upload (CSV-bestand)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) is momenteel niet beschikbaar voor gebruik met het Gezondheidsschild of Privacy en het Veiligheidsschild.
+>
+>Voor API-getriggerde campagnes moet het publiek worden ingesteld via API-aanroep.
+
+1. In de **Publiek** klikt u op de **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-doelgroepen weer te geven. [Meer informatie over publiek](../audience/about-audiences.md)
+
+1. In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren.
+
+   Individuen die tot een segment behoren dat niet de geselecteerde identiteit (namespace) onder hun verschillende identiteiten heeft zullen niet door de campagne worden gericht. [Meer informatie over naamruimten](../event/about-creating.md#select-the-namespace)
+
+   ![](assets/create-campaign-namespace.png)
+
+   <!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
+
 ## Creeer het bericht en vorm het volgen {#content}
 
-In de **[!UICONTROL Actions]** , maakt u het bericht dat u wilt verzenden met de campagne.
+1. In de **[!UICONTROL Actions]** kiest u het kanaal en het oppervlak dat u wilt gebruiken om uw bericht te verzenden.
 
-1. Klik op de knop **[!UICONTROL Edit content]** en maak vervolgens uw berichtinhoud.
+   Een oppervlak is een configuratie die door een [Systeembeheerder](../start/path/administrator.md). Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enzovoort. [Meer informatie](../configuration/channel-surfaces.md).
 
-   Leer gedetailleerde stappen om uw berichtinhoud op de volgende pagina&#39;s tot stand te brengen:
+   Alleen kanaaloppervlakken die compatibel zijn met het type marketingcampagne worden weergegeven in de vervolgkeuzelijst.
+
+   ![](assets/create-campaign-action.png)
+
+   >[!NOTE]
+   >
+   >Als u een pushmeldingscampagne maakt, kunt u de optie **[!UICONTROL Rapid delivery mode]**, een Journey Optimizer-invoegtoepassing die het mogelijk maakt om zeer snelle pushberichten in grote hoeveelheden te verzenden. [Meer informatie](../push/create-push.md#rapid-delivery)
+
+1. Klik op de knop **[!UICONTROL Edit content]** om uw bericht te maken en te ontwerpen. Leer gedetailleerde stappen om uw berichtinhoud op de volgende pagina&#39;s tot stand te brengen:
 
    <table style="table-layout:fixed">
     <tr style="border: 0;">
@@ -119,24 +135,6 @@ In de **[!UICONTROL Actions]** , maakt u het bericht dat u wilt verzenden met de
 1. In de **[!UICONTROL Actions tracking]** , geeft u op of u wilt bijhouden hoe de ontvangers op uw levering reageren: u kunt klikken en/of openen bijhouden.
 
    De resultaten van het bijhouden van de campagne zijn toegankelijk via het campagnerapport nadat de campagne is uitgevoerd. [Meer informatie over campagnerapporten](../reports/campaign-global-report.md)
-
-## De doelgroep definiëren {#audience}
-
-Klik op de knop **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-doelgroepen weer te geven. [Meer informatie over publiek](../audience/about-audiences.md)
-
->[!IMPORTANT]
->
->Het gebruik van soorten publiek en kenmerken van [publiekscompositie](../audience/get-started-audience-orchestration.md) en [publiek voor aangepaste upload (CSV-bestand)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) is momenteel niet beschikbaar voor gebruik met het Gezondheidsschild of Privacy en het Veiligheidsschild.
->
->Voor API-getriggerde campagnes moet het publiek worden ingesteld via API-aanroep.
-
-In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren.
-
-Individuen die tot een segment behoren dat niet de geselecteerde identiteit (namespace) onder hun verschillende identiteiten heeft zullen niet door de campagne worden gericht. [Meer informatie over naamruimten](../event/about-creating.md#select-the-namespace)
-
-![](assets/create-campaign-namespace.png)
-
-<!--If you are are creating an API-triggered campaign, the **[!UICONTROL cURL request]** section allows you to retrieve the **[!UICONTROL Campaign ID]** to use in the API call. [Learn more](api-triggered-campaigns.md)-->
 
 ## De campagne plannen {#schedule}
 
