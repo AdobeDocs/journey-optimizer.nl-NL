@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: 9d48213d8367fdc6c0fae62b73d1706bc4983d9d
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,10 +31,6 @@ Wat u in deze documentatiehandleiding zult vinden:
 * [Voer het IP warmlopingsplan uit](ip-warmup-execution.md)
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->De IP warmup eigenschap is momenteel beschikbaar als bèta om gebruikers slechts te selecteren. Neem contact op met de klantenservice van de Adobe om deel te nemen aan het bètaprogramma.
 
 Met [!DNL Journey Optimizer], kunt u IP warmteopwerkschema&#39;s op een gestandaardiseerde en efficiënte manier direct van het gebruikersinterface uitvoeren die de beste praktijken voor optimale leverbaarheid volgt.
 

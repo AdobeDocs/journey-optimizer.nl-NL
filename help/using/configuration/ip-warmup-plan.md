@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: c400104c86e1a9a2de819db7743b3f77153ad90b
+source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1584'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Hieronder is een voorbeeld van een dossier dat een IP warmlopingsplan bevat.
 
 * Dit plan wordt uitgevoerd via zes **fasen**, die elk ten minste één run bevatten.
 
-* U kunt zoveel kolommen hebben als u wilt voor de domeinen u aan wilt leveren. In dit voorbeeld bestaat het plan uit zes kolommen:
+* U kunt maximaal zes kolommen (5 kolommen voor domeingroepen en 1 voor de **Overige** kolom). In dit voorbeeld bestaat het plan uit zes kolommen:
 
    * Vier ervan komen overeen met **uit-van-de-doos domeingroepen** voor gebruik in uw abonnement (Gmail, Microsoft, Yahoo en Orange).
    * Eén komt overeen met een aangepaste domeingroep (die u moet toevoegen met de opdracht [Aangepaste domeingroep](#custom-domain-group-tab) ).
@@ -188,7 +188,7 @@ U kunt meer kolommen aan uw plan ook toevoegen door de groepen van het douanedom
 
 Gebruik de **[!UICONTROL Custom Domain Group]** om een nieuwe domeingroep te definiëren. Voor elk domein kunt u alle subdomeinen toevoegen waarop het betrekking heeft.<!--TBC-->
 
-Zorg ervoor dat elk domein aan zijn domeingroep uniek is en niet met andere domeingroepen overlapt. Aangezien algemene domeingroepen automatisch worden gedefinieerd, moeten gebruikers hiermee rekening houden bij het maken van aangepaste domeingroepen.
+Voor domeingroepen die in genoemd plan worden gebruikt, zorg ervoor dat elk domein aan zijn domeingroep uniek is en niet met andere domeingroepen overlapt. Aangezien algemene domeingroepen automatisch worden gedefinieerd, moeten gebruikers hiermee rekening houden bij het maken van aangepaste domeingroepen.
 
 Als u bijvoorbeeld het aangepaste domein Luma toevoegt, wilt u de volgende subdomeinen opnemen: luma.com, luma.co.uk, luma.it, luma.fr, luma.de, enzovoort.
 
@@ -201,7 +201,7 @@ Stel dat u twee aangepaste domeingroepen wilt hebben:
 * Eén voor alleen Hotmail-domeinen.
 * Eén voor alle andere domeinen van de domeingroep Microsoft (dus exclusief alle Hotmail-domeinen).
 
-Merk op dat alle andere domeinen in zullen worden verzameld **[!UICONTROL Others]** kolom.
+Domeinen buiten Hotmail en van de domeingroep Microsoft worden verzameld in de **[!UICONTROL Others]** kolom.
 
 1. In de **[!UICONTROL Custom Domain Group]** tabblad, maakt u de **Hotmail** domeingroep.
 
@@ -220,10 +220,6 @@ Merk op dat alle andere domeinen in zullen worden verzameld **[!UICONTROL Others
 1. Drie kolommen maken: één voor **Hotmail**, één voor **Microsoft_X** en één voor **Overige**.
 
 1. Vul de kolommen naar wens in.
-
->[!NOTE]
->
->Zodra het IP warmup plan wordt geupload in [!DNL Journey Optimizer], hoeft u de Microsoft-domeingroepen niet uit te sluiten.
 
 <!--Only the domain groups listed in the **[!UICONTROL IP Warmup Plan]** tab will be taken into account.-->
 
