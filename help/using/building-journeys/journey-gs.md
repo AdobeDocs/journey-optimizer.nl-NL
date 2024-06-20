@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: db841b1378a6b897c68809fe19f1f0b90d7fd9c5
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2602'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 3%
 >id="ajo_homepage_card2"
 >title="Reizen maken"
 >abstract="Gebruiken **Adobe Journey Optimizer** gebruiken voor het maken van realtime-formulieren voor het orkestgebruik met gebruik van contextuele gegevens die zijn opgeslagen in gebeurtenissen of gegevensbronnen."
-
 
 
 ## Vereisten{#start-prerequisites}
@@ -326,6 +325,7 @@ Reis gebruikt samenvoegbeleid terwijl het terugwinnen van profielgegevens van Ad
 
 * In kwalificatiereizen voor het publiek of het publiek lezen: het samenvoegbeleid van het publiek wordt gebruikt
 * Bij door gebeurtenis geïnitieerde reizen: het standaardsamenvoegbeleid wordt gebruikt
+* Bij zakenreizen: het samenvoegbeleid van het doelpubliek in de volgende Lees-publieksactiviteit wordt gebruikt
 
 De reis zal het fusieprincipe respecteren dat door de volledige reis wordt gebruikt. Als er daarom meerdere soorten publiek worden gebruikt op een reis (bijvoorbeeld in &quot;inAudience&quot;-functies), waardoor inconsistenties ontstaan met het fusiebeleid dat door de reis wordt gebruikt, wordt een fout opgeworpen en wordt de publicatie geblokkeerd. Nochtans, als een inconsistent publiek in berichtverpersoonlijking wordt gebruikt, wordt een alarm niet opgeheven, ondanks de inconsistentie. Om deze reden, wordt het hoogst geadviseerd om het samenvoegbeleid te controleren verbonden aan uw publiek, wanneer dit publiek in berichtverpersoonlijking wordt gebruikt.
 
