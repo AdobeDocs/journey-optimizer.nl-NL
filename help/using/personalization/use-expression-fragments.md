@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, bibliotheek, personalisatie
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,22 @@ Volg onderstaande stappen om expressiefragmenten aan uw inhoud toe te voegen.
 >[!NOTE]
 >
 >Als u een expressiefragment maakt dat meerdere regeleinden bevat en het gebruikt in [SMS](../sms/create-sms.md#sms-content) of [duwen](../push/design-push.md) inhoud, blijven de regeleinden behouden. Zorg er dus voor dat u uw [SMS](../sms/send-sms.md) of [duwen](../push/send-push.md) bericht voordat het wordt verzonden.
+
+## Bewerkbare velden aanpassen {#customize-fields}
+
+Als bepaalde delen van een expressiefragment bewerkbaar zijn gemaakt met variabelen, kunt u de standaardwaarden ervan overschrijven met een specifieke syntaxis. [Leer hoe u uw fragmenten aanpasbaar kunt maken](../content-management/customizable-fragments.md)
+
+Voer de volgende stappen uit om de velden aan te passen:
+
+1. Het fragment invoegen in uw code vanuit het dialoogvenster **Fragmenten** -menu.
+
+1. Gebruik de `<fieldId>="<value>"` code aan het einde van de syntaxis om de standaardwaarde van de variabele te overschrijven.
+
+   In het onderstaande voorbeeld overschrijven we de waarde van een variabele waarvan de id &#39;sport&#39; is met de waarde &#39;yoga&#39;. Hiermee wordt &quot;yoga&quot; in uw fragmentinhoud weergegeven, overal waar naar de variabele &quot;sport&quot; wordt verwezen.
+
+   ![](../content-management/assets/fragment-expression-use.png)
+
+Een voorbeeld waarin wordt getoond hoe u bewerkbare velden kunt toevoegen aan een expressiefragmenten en de waarden ervan kunt overschrijven wanneer u een e-mailbericht maakt, is beschikbaar in [deze sectie](../content-management/customizable-fragments.md#example).
 
 ## Overerving onderbreken {#break-inheritance}
 

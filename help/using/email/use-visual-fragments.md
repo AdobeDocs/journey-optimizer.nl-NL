@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '733'
 ht-degree: 1%
 
 ---
@@ -74,6 +74,22 @@ Voer de onderstaande stappen uit om een fragment te gebruiken in een e-mailberic
 1. Indien nodig, kunt u de overerving met het oorspronkelijke fragment verbreken. [Meer informatie](#break-inheritance)
 
 1. Voeg zoveel fragmenten toe als u wilt en **[!UICONTROL Save]** uw wijzigingen.
+
+## Bewerkbare velden aanpassen {#customize-fields}
+
+Als bepaalde delen van het geselecteerde fragment bewerkbaar zijn gemaakt, kunt u de standaardwaarde ervan overschrijven nadat u het fragment aan de inhoud hebt toegevoegd. [Leer hoe u uw fragmenten aanpasbaar kunt maken](../content-management/customizable-fragments.md)
+
+Voer de volgende stappen uit om bewerkbare velden in een fragment aan te passen:
+
+1. Voeg het fragment toe aan de inhoud en selecteer het om het eigenschappenvenster aan de rechterkant te openen.
+
+1. Alle bewerkbare velden in het fragment worden weergegeven in het dialoogvenster **Instellingen** onder de **Fragment** sectie.
+
+   Bewerkbare velden worden groen gemarkeerd in het voorvertoningsvenster als deze zijn geselecteerd in het rechterdeelvenster. Zo kunt u de locatie van de velden in de inhoud gemakkelijk herkennen.
+
+   In het onderstaande voorbeeld wordt de afbeelding **bron** en **alt-tekst** kan worden bewerkt, evenals de knop &quot;Klik hier&quot; **URL**.
+
+   ![](assets/fragment-editable.png)
 
 ## Overerving onderbreken {#break-inheritance}
 
