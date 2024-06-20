@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: 5ce388e5d86950e5cc6b173aab48225825f1c648
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 7%
@@ -64,7 +64,7 @@ De **[!UICONTROL Tags]** kunt u tags voor het object definiëren. Tags zijn besc
 * [Campagnes](../campaigns/create-campaign.md#create)
 * [Beslissingsitems](../experience-decisioning/items.md)
 * [Fragmenten](../content-management/fragments.md)
-* [Journeys](../building-journeys/journey-gs.md#change-properties)
+* [Journeys](../building-journeys/journey-properties.md)
 * [Landingspagina&#39;s](../landing-pages/create-lp.md)
 * [Abonnementenlijsten](../landing-pages/subscription-list.md)
 * [Sjablonen](../content-management/content-templates.md)

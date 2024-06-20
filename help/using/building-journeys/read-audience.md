@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, publiek, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1437'
 ht-degree: 1%
 
 ---
@@ -126,7 +126,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 >[!NOTE]
 >
->Eenmalig lezen, publiekstrajecten gaan naar de **Voltooid** status 91 dagen ([standaardtime](journey-gs.md#global_timeout)) na de uitvoering van de reis. Voor een gepland publiek van Lees, is het 91 dagen na de uitvoering van het laatste voorkomen.
+>Eenmalig lezen, publiekstrajecten gaan naar de **Voltooid** status 91 dagen ([wereldwijde time-out](journey-properties.md#global_timeout)) na de uitvoering van de reis. Voor een gepland publiek van Lees, is het 91 dagen na de uitvoering van het laatste voorkomen.
 
 ## De reis testen en publiceren {#testing-publishing}
 

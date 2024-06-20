@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: ontwerp, canvas, reis, interface, slepen, neerzetten
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '1614'
 ht-degree: 0%
@@ -47,7 +47,7 @@ De **canvas** is de centrale zone in de reisontwerper. Het is in deze streek dat
 
 ![](assets/journey39.png)
 
-De **werkbalk**, in de rechterbovenhoek van het canvas, kunt u het raster tonen/verbergen, in-/uitzoomen en een schermafbeelding van het canvas downloaden. Zie dit [sectie](../building-journeys/journey-gs.md#timeout_and_error).
+De **werkbalk**, in de rechterbovenhoek van het canvas, kunt u het raster tonen/verbergen, in-/uitzoomen en een schermafbeelding van het canvas downloaden. Zie dit [sectie](../building-journeys/journey-properties.md#timeout_and_error).
 
 <!--and show/hide timeout and error paths-->
 
@@ -107,7 +107,7 @@ Gebruik aangepaste handelingen vanuit de actieactiviteiten om berichten te verze
 
 U kunt een fallback-actie definiëren in het geval van een fout of time-out voor de volgende reisactiviteiten: **[!UICONTROL Condition]** en **[!UICONTROL Action]**.
 
-Als u een fallback-actie voor een activiteit wilt toevoegen, selecteert u de optie **[!UICONTROL Add an alternative path in case of a timeout or an error]** in de eigenschappen van de activiteit: er wordt een ander pad toegevoegd na de activiteit. De time-outduur wordt gedefinieerd door Admin-gebruikers in het dialoogvenster [reiseigenschappen](../building-journeys/journey-gs.md#change-properties). Als het bijvoorbeeld te lang duurt om een e-mail te verzenden of als er een fout optreedt, kunt u een pushmelding verzenden.
+Als u een fallback-actie voor een activiteit wilt toevoegen, selecteert u de optie **[!UICONTROL Add an alternative path in case of a timeout or an error]** in de eigenschappen van de activiteit: er wordt een ander pad toegevoegd na de activiteit. De time-outduur wordt gedefinieerd door Admin-gebruikers in het dialoogvenster [reiseigenschappen](../building-journeys/journey-properties.md). Als het bijvoorbeeld te lang duurt om een e-mail te verzenden of als er een fout optreedt, kunt u een pushmelding verzenden.
 
 ![](assets/journey42.png)
 

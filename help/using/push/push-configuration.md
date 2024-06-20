@@ -7,10 +7,10 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 03c714833930511fa734662b637d2416728073c2
+source-git-commit: c1dc3f3805bc0677a24466687026fac0d4990a5b
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 3%
+source-wordcount: '1414'
+ht-degree: 2%
 
 ---
 
@@ -332,7 +332,7 @@ Uw gebeurtenis wordt nu gemaakt en kan nu op een reis worden gebruikt.
 
 1. Klikken **[!UICONTROL Create Journey]** om een nieuwe reis te maken.
 
-1. Bewerk de eigenschappen van de journey in het configuratievenster dat aan de rechterkant wordt weergegeven. Meer informatie in deze [sectie](../building-journeys/journey-gs.md#change-properties).
+1. Bewerk de eigenschappen van de journey in het configuratievenster dat aan de rechterkant wordt weergegeven. Meer informatie in deze [sectie](../building-journeys/journey-properties.md).
 
 1. Begin door de gebeurtenis te slepen die in de vorige stappen van de **[!UICONTROL Events]** vervolgkeuzelijst.
 

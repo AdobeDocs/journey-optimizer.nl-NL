@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: wachten, activiteit, reis, volgende, canvas
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '563'
 ht-degree: 6%
 
 ---
@@ -39,13 +39,13 @@ U kunt twee typen instellen **Wachten** activiteit:
 
 ### Meerdere wachtactiviteiten {#multiple-wait-activities}
 
-Bij het gebruik van meerdere **Wachten** tijdens een reis, dient u zich ervan bewust te zijn dat de [algemene time-out](journey-gs.md#global_timeout) is 91 dagen, wat betekent dat profielen altijd buiten de reis vallen, maximaal 91 dagen nadat zij het binnenkwamen. Meer informatie vindt u [op deze pagina](../building-journeys/journey-gs.md#global_timeout).
+Bij het gebruik van meerdere **Wachten** tijdens een reis, dient u zich ervan bewust te zijn dat de [algemene time-out](journey-properties.md#global_timeout) voor reizen is dit 91 dagen , wat betekent dat profielen altijd buiten de reis vallen , en wel ten hoogste 91 dagen nadat zij de reis hebben betreden . Meer informatie vindt u [op deze pagina](journey-properties.md#global_timeout).
 
 Een individu kan een **Wachten** alleen als zij voldoende tijd hebben om de wachttijd voor de reistijd van 91 dagen af te ronden. Als u bijvoorbeeld twee **Wachten** het systeem detecteert dat de tweede **Wachten** activiteit eindigt na de time-out van 91 dagen. De tweede **Wachten** deze activiteit zal derhalve worden genegeerd en de betrokkene zal de reis verlaten voordat hij of zij begint . In dat voorbeeld zal de klant in totaal 20 dagen op de reis blijven.
 
 ### Wachten en opnieuw betreden {#wait-re-entrance}
 
-Een beste werkwijze om niet te gebruiken **Wachten** activiteiten om hertoetreding te blokkeren. Gebruik in plaats daarvan de opdracht **Hernieuwde toegang toestaan** optie op het niveau van de reiseigenschappen. Meer informatie vindt u [op deze pagina](../building-journeys/journey-gs.md#entrance).
+Een beste werkwijze om niet te gebruiken **Wachten** activiteiten om hertoetreding te blokkeren. Gebruik in plaats daarvan de opdracht **Hernieuwde toegang toestaan** optie op het niveau van de reiseigenschappen. Meer informatie vindt u [op deze pagina](../building-journeys/journey-properties.md#entrance).
 
 ### Wachten en testmodus {#wait-test-modd}
 

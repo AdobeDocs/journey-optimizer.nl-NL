@@ -7,9 +7,9 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
+source-git-commit: b960757113a1620ac4d2f251e66c35c4943f6a9d
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Raadpleeg de volgende secties voor het instellen van uw eerste reis, het toevoeg
 
    * Hefboomwerking **contextafhankelijke gegevens** uit gebeurtenissen, informatie van Adobe Experience Platform of gegevens van externe API-services.
 
-   * Gebruik de **ingebouwde kanaalhandelingen** (E-mail, SMS, Push) voor het verzenden van berichten die zijn ontworpen in [!DNL Journey Optimizer] of maak **aangepaste handelingen** als u een systeem van derden gebruikt om uw berichten te verzenden.
+   * Gebruik de **ingebouwde kanaalhandelingen** (E-mail, SMS, Push, InApp) voor het verzenden van berichten die zijn ontworpen in [!DNL Journey Optimizer] of maak **aangepaste handelingen** als u een systeem van derden gebruikt om uw berichten te verzenden.
 
    * Met de **reisontwerper** bouwt u gebruiksscenario&#39;s voor meerdere stappen samen: sleep en zet eenvoudig een entry-gebeurtenis of een activiteit voor een lezenpubliek neer, voeg voorwaarden toe en verzend gepersonaliseerde berichten.
 

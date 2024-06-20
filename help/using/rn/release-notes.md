@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7964aed332bf37170e94c8b1215208f1d09d43a2
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 6%
@@ -183,15 +183,15 @@ Lees meer in de [inhoudsfragment](../content-management/fragments.md) documentat
 
 **Reizen**
 
-* De wereldwijde time-out van reizen is verlengd tot 91 dagen. [Meer informatie](../building-journeys/journey-gs.md#global_timeout)
+* De wereldwijde time-out van reizen is verlengd tot 91 dagen. [Meer informatie](../building-journeys/journey-properties.md#global_timeout)
 
-  Bij nieuwe reizen wordt deze nieuwe time-out weerspiegeld. Zie deze [Sectie Veelgestelde vragen](../building-journeys/journey-gs.md#timeout-faq) voor meer informatie. Deze wijzigingen zullen in de loop van de maand juni geleidelijk worden doorgevoerd.
+  Bij nieuwe reizen wordt deze nieuwe time-out weerspiegeld. Zie deze [Sectie Veelgestelde vragen](../building-journeys/journey-properties.md#timeout-faq) voor meer informatie. Deze wijzigingen zullen in de loop van de maand juni geleidelijk worden doorgevoerd.
 
 
 * Adobe Journey Optimizer ondersteunt nu verzoeken om privacyverwijdering/toegang en verzoeken om gegevenslevenscyclusbeheer. [Meer informatie](../privacy/requests.md)
 * U kunt nu de grootte van de kolommen in de reisinventaris wijzigen.
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
-* **Beleid samenvoegen** zijn nu GA - Het samenvoegingsbeleid dat door een reis wordt gebruikt, is nu zichtbaar en consistent gedurende de hele reis. [Meer informatie](../building-journeys/journey-gs.md#merge-policies)
+* **Beleid samenvoegen** zijn nu GA - Het samenvoegingsbeleid dat door een reis wordt gebruikt, is nu zichtbaar en consistent gedurende de hele reis. [Meer informatie](../building-journeys/journey-properties.md#merge-policies)
 
 
 

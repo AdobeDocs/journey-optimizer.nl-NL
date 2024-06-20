@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 2b9d8cd80664abc2743c985ee1cd858ffa0344ee
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
-source-wordcount: '4395'
+source-wordcount: '4393'
 ht-degree: 8%
 
 ---
@@ -87,7 +87,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 * De maximale tijdsduur die u in een wachttijd kunt definiëren, is nu 29 dagen in plaats van 30. Deze verbetering is ingevoerd om te voorkomen dat wachttijden langer duren dan de 30 dagen durende reisduur. Dit geldt voor:
 
    * de **Tijd** in het veld [wachtactiviteiten](../building-journeys/wait-activity.md)
-   * de **Wachttijd bij terugkeer** in [reiseigenschappen](../building-journeys/journey-gs.md#entrance)
+   * de **Wachttijd bij terugkeer** in [reiseigenschappen](../building-journeys/journey-properties.md#entrance)
    * de **Wacht op** veld in de time-outdefinitie van [gebeurtenisactiviteiten](../building-journeys/general-events.md#events-specific-time).
 
 <!--
@@ -200,7 +200,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Reizen**
 
-* Wanneer u een reis dupliceert, kunt u nu de naam van de reiskopie definiëren. [Meer informatie](../building-journeys/journey-gs.md#uplicate-a-trip)
+* Wanneer u een reis dupliceert, kunt u nu de naam van de reiskopie definiëren. [Meer informatie](../building-journeys/journey-gs.md#duplicate-a-journey)
 
 * Ondersteuning voor aangepaste acties is nu GA. Met deze mogelijkheid kunt u API-oproepreacties gebruiken in aangepaste acties en uw reis ordenen op basis van deze reacties. Bovendien [nieuwe uitlijningshulplijn](../start/guardrails.md#custom-actions-g) is toegevoegd om automatisch de vraag van de douaneactie te beperken. [Meer informatie](../action/action-response.md)
 <!--
@@ -922,7 +922,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Reizen**
 
-* De **Wachttijd bij terugkeer** het veld is toegevoegd aan de eigenschappen van de reis . In dit veld kunt u de tijd definiëren die u moet wachten voordat u een profiel toestaat om de reis opnieuw te betreden tijdens een enkele reis (te beginnen met een evenement of een publiekskwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. [Meer informatie](../building-journeys/journey-gs.md#entrance)
+* De **Wachttijd bij terugkeer** het veld is toegevoegd aan de eigenschappen van de reis . In dit veld kunt u de tijd definiëren die u moet wachten voordat u een profiel toestaat om de reis opnieuw te betreden tijdens een enkele reis (te beginnen met een evenement of een publiekskwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. [Meer informatie](../building-journeys/journey-properties.md#entrance)
 
 * Er zijn verbeteringen doorgevoerd voor **begin- en einddatum van de reis**. Als u geen begindatum hebt opgegeven, wordt deze nu automatisch toegevoegd op het moment van publicatie. Voor **Lees publiek** voor reizen kunt u nu een einddatum toevoegen. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. [Meer informatie](../building-journeys/journey-gs.md#dates)
 

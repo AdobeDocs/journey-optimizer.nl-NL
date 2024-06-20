@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1ed007d5921573dce30df6faa625bb0bce5d6616
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
 source-wordcount: '2061'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen deleg
 * Tijdens het publiceren van reizen worden de schaal en de stabiliteit automatisch aangepast om een maximale doorvoer en stabiliteit te garanderen. Aangezien u dichtbij de mijlpaal van 100 levende reizen in één keer, zult u een bericht over deze verwezenlijking zien verschijnen in UI. Als u deze melding ziet en uw reizen moet verlengen tot meer dan 100 rechtstreekse reizen tegelijk, maak dan een ticket voor de klantenservice en wij helpen u uw doelstellingen te bereiken.
 * Wanneer u een publiekskwalificatie gebruikt op een reis, kan het tot 10 minuten duren voordat de activiteit van de publiekskwalificatie actief is en naar profielen luistert die het publiek binnenkomen of verlaten.
 * Een reisinstantie voor een profiel heeft een maximumgrootte van 1 MB. Alle gegevens die als onderdeel van de uitvoering van de reis worden verzameld, worden opgeslagen in die reisinstantie. Daarom gegevens van een binnenkomende gebeurtenis, profielgegevens die zijn opgehaald uit Adobe Experience Platform, aangepaste reacties op acties, enzovoort. worden opgeslagen in die reisinstantie en beïnvloeden de reisgrootte. Wanneer een reis met een evenement begint, wordt het aanbevolen de maximale omvang van die lading (bv. minder dan 800 kB) te beperken om te voorkomen dat die limiet na een paar activiteiten wordt bereikt, in de uitvoering van de reis. Wanneer deze limiet is bereikt, heeft het profiel een foutstatus en wordt het van de reis uitgesloten.
-* Naast de time-out die wordt gebruikt bij reisactiviteiten, is er ook een wereldwijde reistime-out die niet in de interface wordt weergegeven en niet kan worden gewijzigd. Deze wereldwijde time-out houdt de voortgang van individuen op de reis 91 dagen na hun binnenkomst tegen. [Meer informatie](../building-journeys/journey-gs.md#global_timeout)
+* Naast de time-out die wordt gebruikt bij reisactiviteiten, is er ook een wereldwijde reistime-out die niet in de interface wordt weergegeven en niet kan worden gewijzigd. Deze wereldwijde time-out houdt de voortgang van individuen op de reis 91 dagen na hun binnenkomst tegen. [Meer informatie](../building-journeys/journey-properties.md#global_timeout)
 
 
 ### Algemene acties {#general-actions-g}

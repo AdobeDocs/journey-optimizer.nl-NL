@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
 workflow-type: tm+mt
 source-wordcount: '5385'
 ht-degree: 13%
@@ -22,7 +22,7 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 ## Juni 2024 {#june-2024}
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 24 juni is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
-* Er is een opmerking toegevoegd over het gebruik van samenvoegingsbeleid voor reizen. [deze pagina](../building-journeys/journey-gs.md#merge-policies).
+* Er is een opmerking toegevoegd over het gebruik van samenvoegingsbeleid voor reizen. [deze pagina](../building-journeys/journey-properties.md#merge-policies).
 * De pagina over hoe te om een **Wachten** de activiteiten op een reis zijn gereorganiseerd en verbeterd . [Meer informatie](../building-journeys/wait-activity.md)
 
 ## Mei 2024 {#may-2024}
@@ -82,7 +82,7 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 24 januari is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
 * Er is een begeleiding toegevoegd over de grootte van de reis. [Meer informatie](../start/guardrails.md#journeys-guardrails-journeys)
-* Tijdlijnbeheer is gedetailleerd [in het volgende gedeelte](../building-journeys/journey-gs.md#global_timeout).
+* Tijdlijnbeheer is gedetailleerd [in het volgende gedeelte](../building-journeys/journey-properties.md#global_timeout).
 * Journey Optimizer [documentatiehuis](../../ajo-home.md) pagina is opnieuw ontworpen.
 * Recommendations over de activiteit Profielen bijwerken is toegevoegd. [Meer informatie](../building-journeys/update-profiles.md)
 * Er is informatie toegevoegd over het gedrag van onderbrekingen in de activiteiten van gebeurtenissen tijdens reizen. Wanneer geen gebeurtenis tijdens de gespecificeerde onderbrekingsperiode wordt ontvangen, zullen de individuen de reis voortzetten als geen onderbrekingspad wordt bepaald. [Meer informatie](../building-journeys/general-events.md#events-specific-time)

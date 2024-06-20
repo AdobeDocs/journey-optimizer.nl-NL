@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: a6b2c1585867719a48f9abc4bf0eb81558855d85
+source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 30%
+source-wordcount: '1250'
+ht-degree: 26%
 
 ---
 
@@ -41,13 +41,13 @@ Journey-API&#39;s ondersteunen tot 5000 gebeurtenissen per seconde, maar sommige
 
 Telkens wanneer een API-oproep wordt uitgevoerd door journeys, passeert deze de API-engine. Als de limiet die is ingesteld in de API wordt bereikt, wordt de aanroep afgewezen als u de API voor uitsnijden gebruikt, of gedurende maximaal 6 uur in de wachtrij geplaatst en zo snel mogelijk verwerkt in de volgorde waarin deze is ontvangen als u de API voor rotatie gebruikt.
 
-Stel bijvoorbeeld dat u voor uw externe systeem een regel voor afkappen of beperken hebt gedefinieerd van 200 oproepen per seconde. Uw systeem wordt opgeroepen door een aangepaste actie in 10 verschillende journeys. Indien één journey 300 oproepen per seconde ontvangt, gebruikt deze de 200 beschikbare slots en de 100 resterende slots verwijderen of in een wachtrij plaatsen. Aangezien het maximumaantal is overschreden, hebben de andere 9 journeys geen slot meer. Deze granulariteit helpt het externe systeem te beschermen tegen overbelasting en vastlopen.
+Bijvoorbeeld, laten wij zeggen dat u een het begrenzen of vertragen regel van 200 vraag per seconde voor uw extern systeem hebt bepaald. Uw systeem wordt opgeroepen door een aangepaste actie in 10 verschillende journeys. Indien één journey 300 oproepen per seconde ontvangt, gebruikt deze de 200 beschikbare slots en de 100 resterende slots verwijderen of in een wachtrij plaatsen. Aangezien het maximumaantal is overschreden, hebben de andere 9 journeys geen slot meer. Deze granulariteit helpt het externe systeem te beschermen tegen overbelasting en vastlopen.
 
 >[!IMPORTANT]
 >
->**Afkappingsregels** worden op sandboxniveau geconfigureerd voor een specifiek eindpunt (de opgeroepen URL), maar globaal voor alle journeys van deze sandbox. De bedekking is beschikbaar op zowel gegevensbronnen als douaneacties.
+>**Afdekregels** worden geconfigureerd op sandboxniveau voor een specifiek eindpunt (de URL wordt aangeroepen), maar globaal voor alle reizen van die sandbox. De bedekking is beschikbaar op zowel gegevensbronnen als douaneacties.
 >
->**Beperkingsregels** worden voor productiesandboxen alleen geconfigureerd voor een specifiek eindpunt, maar globaal voor alle journeys in alle sandboxes. U kunt slechts één beperkingsconfiguratie per organisatie hebben. Throtting is alleen beschikbaar voor aangepaste handelingen.
+>**Beperkingsregels** worden voor productiesandboxen alleen geconfigureerd voor een specifiek eindpunt, maar globaal voor alle journeys in alle sandboxes. U kunt slechts één throttling configuratie per organisatie hebben. Throtting is alleen beschikbaar voor aangepaste handelingen.
 >
 >De **maxCallsCount** waarde moet groter zijn dan 1.
 
@@ -72,7 +72,7 @@ Voor **aangepaste acties** moet u de capaciteit van uw externe API evalueren. Al
 
 Als de het maximum afschilderen of vertragen regel wordt vervuld, dan wordt de onderbrekingsregel toegepast.
 
-In elke reis, kunt u een onderbrekingsduur bepalen. Dit staat u toe om een maximumduur te plaatsen wanneer het roepen van een extern systeem. De duur van de onderbreking wordt gevormd in de eigenschappen van een reis. Zie [deze pagina](../building-journeys/journey-gs.md#timeout_and_error).
+In elke reis, kunt u een onderbrekingsduur bepalen. Dit staat u toe om een maximumduur te plaatsen wanneer het roepen van een extern systeem. De duur van de onderbreking wordt gevormd in de eigenschappen van een reis. Zie [deze pagina](../building-journeys/journey-properties.md#timeout_and_error).
 
 Deze onderbreking is globaal aan alle externe vraag (externe API vraag in douaneacties en douanegegevensbronnen). De standaardwaarde is 30 seconden.
 
@@ -102,4 +102,4 @@ Voor een bepaalde vraag, kan een maximum van drie pogingen na de eerste vraag wo
 
 **Waar kan ik de onderbreking vormen? Is er een maximumwaarde?**
 
-In elke reis, kunt u een onderbrekingsduur bepalen. De duur van de onderbreking wordt gevormd in de eigenschappen van een reis. De duur van de onderbreking moet tussen 1 seconde en 30 seconden zijn. Zie [deze sectie](../configuration/external-systems.md#timeout) en [deze pagina](../building-journeys/journey-gs.md#timeout_and_error).
+In elke reis, kunt u een onderbrekingsduur bepalen. De duur van de onderbreking wordt gevormd in de eigenschappen van een reis. De duur van de onderbreking moet tussen 1 seconde en 30 seconden zijn. Zie [deze sectie](../configuration/external-systems.md#timeout) en [deze pagina](../building-journeys/journey-properties.md#timeout_and_error).

@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 keywords: reenter, transport, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 6ff54583c729175c74b3a7ea4ab9188505fde897
+source-git-commit: d66596f7416f040c99fe8a9b4ea1b887e4ad4fa0
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Een reis kan voor een individu in twee specifieke contexten eindigen:
 * De persoon komt bij de laatste activiteit van een weg aan.
 * De persoon komt aan bij een **Voorwaarde** activiteit (of **Wachten** activiteit met een voorwaarde) en voldoet aan geen van de voorwaarden.
 
-De persoon kan dan opnieuw de reis betreden als herbinnenkomst is toegestaan. Zie [deze pagina](../building-journeys/journey-gs.md#change-properties)
+De persoon kan dan opnieuw de reis betreden als herbinnenkomst is toegestaan. Zie [deze pagina](../building-journeys/journey-properties.md#entrance)
 
 Om een live reis te beëindigen, adviseren wij dat u het sluit. De komst van nieuwe klanten op de reis zal dan worden geblokkeerd. Klanten die al op reis zijn gegaan, kunnen het tot het einde ervaren. Zie [deze sectie](../building-journeys/journey.md#close-journey)
 
@@ -58,9 +58,9 @@ Een reis kan om de volgende redenen worden gesloten:
 
 Als u een reis handmatig sluit, weet u zeker dat klanten die de reis al hebben betreden, hun pad kunnen voltooien, maar dat nieuwe gebruikers de reis niet kunnen betreden. Wanneer een reis wordt gesloten (om een van de bovenstaande redenen), heeft deze de status **[!UICONTROL Closed]**. De reis houdt in dat nieuwe individuen de reis kunnen betreden. Personen die al onderweg zijn, kunnen de reis normaal afmaken.
 
-Na 91 dagen [standaardtime](journey-gs.md#global_timeout), een leest publiek schakelt over naar de **Voltooid** status. Dit gedrag is alleen voor 91 dagen ingesteld (d.w.z. [time-outstandaardwaarde voor transport](journey-gs.md#global_timeout)), aangezien alle informatie over profielen die de reis hebben betreden, 91 dagen na het binnenkomen wordt verwijderd. Personen die nog onderweg zijn, worden automatisch getroffen. Ze verlaten de reis na de 91-dagen onderbreking.
+Na 91 dagen [algemene time-out](journey-properties.md#timeout), een leest publiek schakelt over naar de **Voltooid** status. Dit gedrag is alleen voor 91 dagen ingesteld (d.w.z. [totale time-outwaarde reis](journey-properties.md#global_timeout)), aangezien alle informatie over profielen die de reis hebben betreden, 91 dagen na het binnenkomen wordt verwijderd. Personen die nog onderweg zijn, worden automatisch getroffen. Ze verlaten de reis na de 91-dagen onderbreking.
 
-Zie dit [sectie](../building-journeys/journey-gs.md#global_timeout).
+Zie dit [sectie](../building-journeys/journey-properties.md#global_timeout).
 
 Een gesloten reisversie kan niet opnieuw worden gestart of verwijderd. U kunt er een nieuwe versie van maken of deze dupliceren. Alleen voltooide reizen kunnen worden verwijderd.
 
