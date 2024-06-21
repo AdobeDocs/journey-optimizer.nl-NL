@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: 522f1815ae6de33f9e0a7ea598d52c8e88d2ff0d
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '760'
 ht-degree: 6%
 
 ---
@@ -222,4 +222,4 @@ Lees meer in de [inhoudsfragment](../content-management/fragments.md) documentat
 
 **Direct mailkanaal**
 
-* Direct mail kanaal is nu beschikbaar voor organisaties die de Adobe hebben aangeschaft **Gezondheidsschild** en **Privacy- en beveiligingsschild** add-on aanbiedingen.
+* Direct mail kanaal is nu beschikbaar voor alle klanten. [Meer informatie](../direct-mail/get-started-direct-mail.md)
