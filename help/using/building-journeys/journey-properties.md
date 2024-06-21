@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, configuratie, eigenschappen
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
+source-git-commit: 87fa5875dfdbae091b36129812948362324f2516
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1714'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ De **Technische details kopiëren** staat u toe om technische informatie over de
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Hernieuwde toegang toestaan"
->abstract="Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de controle van **Hernieuwde toegang toestaan** optie voor &quot;één enkele schot&quot;reizen, bijvoorbeeld als u een eenmalig geschenk wilt aanbieden wanneer een persoon een winkel ingaat."
+>abstract="Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de controle van **Hernieuwde toegang toestaan** bijvoorbeeld als u een eenmalig geschenk wilt aanbieden wanneer een persoon een winkel betreedt."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profieltoegangsbeheer"
 
 Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de controle van **Hernieuwde toegang toestaan** optie voor &quot;één enkele schot&quot;reizen, bijvoorbeeld als u een eenmalig geschenk wilt aanbieden wanneer een persoon een winkel ingaat.
@@ -107,7 +107,7 @@ U kunt ook een **Einddatum**. Hiermee kunnen profielen automatisch worden afgesl
 ### Time-out of fout bij reisactiviteiten {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_timout"
+>id="ajo_journey_properties_timeout"
 >title="Time-out"
 >abstract="Bepaal hoeveel tijd de reis zal proberen om een actie uit te voeren of een voorwaarde te verifiëren alvorens het als onderbreking te beschouwen."
 
