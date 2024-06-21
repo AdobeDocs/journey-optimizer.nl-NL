@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: eedefbe48e209d6b5aa3ec60527d9e34ced54644
+source-git-commit: b19bc2774a55df656a0652e6a148873787051c93
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 6%
+source-wordcount: '964'
+ht-degree: 5%
 
 ---
 
@@ -106,38 +106,38 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </tbody>
 </table>
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Multilingual messages in journeys and campaigns (Limited Availability)</strong><br/></th>
+<th><strong>Meertalige berichten tijdens reizen en campagnes (beperkte beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now effortlessly create content in multiple languages within a single campaign or journey. With this feature, you can switch between languages when editing your campaign or your journey, streamlining the entire editing process and improving your capability to efficiently manage multilingual content.</p>
-<p>Multilingual content is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>U kunt nu moeiteloos inhoud in meerdere talen maken in één campagne of reis. Met deze functie kunt u schakelen tussen talen wanneer u uw campagne of reis bewerkt, het hele bewerkingsproces stroomlijnt en uw mogelijkheden voor efficiënt beheer van meertalige inhoud verbetert.</p>
+<p>Meertalige inhoud is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Experimentation in journeys (Limited Availability)</strong><br/></th>
+<th><strong>Experimentatie bij reizen (beperkte beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Already available in campaigns, Adobe Journey Optimizer now supports experiments in journeys. Experiments are randomized trials, which in the context of online testing, means that you expose some randomly selected users to a given variation of a message, and another randomly selected set of users to some other variation or treatment. After exposure, you can then measure the outcome metrics you are interested in, such as opens of emails, subscriptions, or purchases.</p>
-<p>Experimentation in journeys is currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>Adobe Journey Optimizer is al beschikbaar in campagnes en ondersteunt nu experimenten op reizen. Experimenten zijn gerandomiseerde onderzoeken, die in de context van online tests betekenen dat u sommige willekeurig geselecteerde gebruikers aan een bepaalde variatie van een bericht blootstelt, en een andere willekeurig geselecteerde reeks gebruikers aan één of andere andere variatie of behandeling. Na blootstelling, kunt u de resultaatmetriek meten u in geinteresseerd bent, zoals opent van e-mail, abonnementen, of aankopen.</p>
+<p>Experimentatie op het gebied van reizen is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
 
