@@ -9,14 +9,14 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
 workflow-type: tm+mt
-source-wordcount: '2075'
-ht-degree: 7%
+source-wordcount: '2032'
+ht-degree: 8%
 
 ---
 
-# Opmerkingen bij de release 2021 {#release-notes-2021}
+# Aanvullende informatie 2021 {#release-notes-2021}
 
 Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] vrijgegeven in 2021.
 
@@ -95,7 +95,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 * **Gegevensindeling in algemene weergave** - U kunt nu schakelen tussen getallen en percentages in het dialoogvenster **Globale weergave** van de **Uitvoering** tab.
 
 
-**Administratie**
+**Beheer**
 
 * **Voorinstellingen voor berichten bewerken** - U kunt nu voorinstellingen voor berichten bewerken en de status van de berichten controleren. [Meer informatie](../configuration/channel-surfaces.md#edit-channel-surface)
 * **PTR-records bewerken** - U kunt nu PTR-records bewerken en de updatestatus ervan controleren. [Meer informatie](../configuration/ptr-records.md#edit-ptr-record)
@@ -276,7 +276,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 **Inhoud ontwerpen**
 
 * **Achtergrond** - Achtergrondafbeeldingen worden nu ondersteund in live voorvertoning. [Meer informatie](../content-management/preview-test.md)
-* **Een-klik-koppeling voor weigeren** - U kunt een nieuw type koppeling invoegen in uw e-mailinhoud: de **Uitschakelen** de verbinding staat gebruikers toe om van het ontvangen van uw mededelingen in slechts één klik af te zien, zonder opnieuw te worden gericht aan een het landen pagina om het uit kiezen te bevestigen. [Meer informatie](../privacy/opt-out.md#one-click-opt-out-link)
+  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)-->
 
 **Personalisatie**
 

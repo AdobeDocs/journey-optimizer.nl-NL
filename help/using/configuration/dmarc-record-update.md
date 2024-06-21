@@ -8,9 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: subdomein, domein, mail, dmarc, record
-source-git-commit: 745474d6232f01ee959db8d706110477ed0220e2
+exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
+source-git-commit: da5b8d6c95e76af98b27ffcff11e75c26b90200a
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -44,21 +45,20 @@ of
 of
    * DMARC instellen op uw gedelegeerde subdomeinen **in de[!DNL Journey Optimizer]** gebruikersinterface voor configuratie. [Meer informatie](dmarc-record.md#implement-dmarc)
 
-  >[!IMPORTANT]
-  >
-  >Nochtans, vereist de opstelling CNAME ook één of andere extra ingang in uw het ontvangen oplossing. Zorg er daarom voor dat u coördineert met uw IT-afdeling, zodat deze de in [deze sectie](dmarc-record.md#implement-dmarc).
+  Nochtans, vereist de opstelling CNAME ook één of andere extra ingang in uw het ontvangen oplossing. Zorg er daarom voor dat u coördineert met uw IT-afdeling, zodat deze de in [deze sectie](dmarc-record.md#implement-dmarc).
 
-De meest recente tijdlijnen die door Google en Yahoo worden gedeeld! zijn als volgt:
+<!--The most recent timelines shared by Google and Yahoo! are as follows:
 
 * Google:
 
-   * **februari 2024** - Er zullen tijdelijke boetes worden ingesteld om te waarschuwen voor niet-naleving. E-mails worden nog steeds als normaal bezorgd na een korte vertraging als je nog niet aan de voorwaarden voldoet. Als u zich volledig aan de voorschriften houdt, zullen er geen tijdelijke steunbedragen zijn en zult u niet worden beïnvloed.
+    * **February 2024** – Temporary bounces designed to provide warning of non-compliance will begin. Emails will still be delivered as normal after a short delay if you are not yet in compliance. If you are fully in compliance there will be no temporary bounces and you will not be affected.
 
-   * **april 2024** - Blokken beginnen voor afzenders die niet voldoen aan de DMARC-vereisten. Slechts een gedeelte van niet-compatibele e-mail wordt eerst geblokkeerd, waarbij het percentage geblokkeerde e-mail na verloop van tijd toeneemt.
+    * **April 2024** – Blocks will begin for senders who are not in compliance with DMARC requirement. Only a portion of non-compliant email will be blocked at first, with the percentage blocked increasing over time.
 
-   * **1 juni 2024** - Elke afzender die niet volledig aan de voorschriften voldoet, zal last krijgen van blokkering.
+    * **June 1st, 2024** – Any sender not in full compliance will experience blocking.
 
-* Yahoo! heeft geen precieze data verstrekt, maar heeft gezegd: &quot;de tenuitvoerlegging begint in februari 2024. De tenuitvoerlegging zal geleidelijk worden uitgevoerd.&quot;
+* Yahoo! has not provided exact dates, but has said "the rollout of enforcement will begin in February 2024. Enforcement will be gradually rolled out".
+-->
 
 >[!NOTE]
 >

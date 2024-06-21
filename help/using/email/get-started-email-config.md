@@ -9,7 +9,7 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: e-mail, configuratie, oppervlak, subdomeinen
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: daba85693c4733333d6a62ebb5c1f290dbcb1511
+source-git-commit: bd5e5e501d557e11fb0c1c71a0f9289f39601348
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 7%
@@ -37,7 +37,7 @@ E-mails verzenden via reizen en campagnes in [!DNL Journey Optimizer], moet u do
 
    * Hier selecteert u het subdomein dat u wilt gebruiken om de e-mails en de IP-pools te verzenden die u aan het oppervlak wilt koppelen. [Meer informatie](email-settings.md#subdomains-and-ip-pools)
 
-   ![](assets/preset-subdomain-ip-pool.png)
+   ![](assets/surface-subdomain-ip-pool.png)
 
    * De **[!UICONTROL Sender email]** en **[!UICONTROL Error email]** adressen moeten het huidige geselecteerde gedelegeerde subdomein gebruiken. [Meer informatie](email-settings.md#email-header)
 
