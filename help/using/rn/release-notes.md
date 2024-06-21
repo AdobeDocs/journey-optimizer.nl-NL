@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 522f1815ae6de33f9e0a7ea598d52c8e88d2ff0d
+source-git-commit: eedefbe48e209d6b5aa3ec60527d9e34ced54644
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '794'
 ht-degree: 6%
 
 ---
@@ -200,9 +200,9 @@ Lees meer in de [inhoudsfragment](../content-management/fragments.md) documentat
 
 * Wanneer u een campagne maakt in Adobe Journey Optimizer, kunt u nu het type campagne (gepland of geactiveerd) kiezen in een nieuw modaal. [Meer informatie](../campaigns/create-campaign.md)
 
-<!--**Email channel**
+**E-mailkanaal**
 
-* **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)-->
+* **List-unsubscribe** - Na de recente Gmail- en Yahoo-aankondigingen voor bulkafzenders biedt Journey Optimizer ondersteuning voor de optie &quot;Na/1-klik&quot; List-Unsubscribe. Raadpleeg de volgende pagina&#39;s: [E-mailuitschakelbeheer](../email/email-opt-out.md#unsubscribe-header) en [E-mailinstellingen configureren](../email/email-settings.md#list-unsubscribe).
 
 
 **Sms-kanaal**
