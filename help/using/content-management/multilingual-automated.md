@@ -8,29 +8,20 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
-hide: true
-hidefromtoc: true
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-badge: label="Beta" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+badge: label="Beperkte beschikbaarheid" type="Informative"
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1182'
 ht-degree: 1%
 
 ---
 
 # Meertalige inhoud maken met automatische vertaling {#multilingual-automated}
 
->[!BEGINSHADEBOX]
-
-**Inhoudsopgave**
-
-* [Aan de slag met meertalige inhoud](multilingual-gs.md)
-* [Meertalige inhoud maken met handmatige vertaling](multilingual-manual.md)
-* Meertalige inhoud maken met automatische vertaling
-* [Meertalig campagnerapport](multilingual-report.md)
-
->[!ENDSHADEBOX]
+>[!AVAILABILITY]
+>
+>Meertalige inhoud is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
 
 Met behulp van de geautomatiseerde stroom kunt u gewoon uw doeltaal en taalprovider selecteren. Uw inhoud wordt vervolgens rechtstreeks naar de vertaling verzonden en klaar voor een definitieve revisie wanneer deze is voltooid.
 
@@ -42,7 +33,7 @@ Ga als volgt te werk om meertalige inhoud te maken met automatische vertaling:
 
 1. [Taalinstellingen maken](#create-language-settings).
 
-1. [Een meertalige campagne maken](#create-a-multilingual-campaign).
+1. [Meertalige inhoud maken](#create-a-multilingual-campaign).
 
 1. [Uw vertaaltaak controleren (optioneel)](#review-translation-project).
 
@@ -50,9 +41,7 @@ Ga als volgt te werk om meertalige inhoud te maken met automatische vertaling:
 
 Wanneer het vormen van uw taalmontages, zoals die in [Taalinstellingen maken](#language-settings) als een specifieke landinstelling niet beschikbaar is voor meertalige inhoud, hebt u de flexibiliteit om zoveel nieuwe landinstellingen te maken als nodig is met de **[!UICONTROL Translation]** -menu.
 
-1. Van de **[!UICONTROL Administration]** menu, toegang **[!UICONTROL Channel]**.
-
-   Via het menu voor vertalingen hebt u toegang tot de lijst met geactiveerde landinstellingen.
+1. Van de **[!UICONTROL Content management]** menu, toegang **[!UICONTROL Translation]**.
 
 1. Klik op het tabblad **[!UICONTROL Locale dictionary]** op **[!UICONTROL Add locale]**.
 
@@ -68,7 +57,7 @@ Wanneer het vormen van uw taalmontages, zoals die in [Taalinstellingen maken](#l
 
 Start uw vertaalproject door de doellandinstelling op te geven en de specifieke taal of regio voor uw inhoud aan te geven. Vervolgens kunt u uw vertaalprovider kiezen.
 
-1. Van de **[!UICONTROL Translation projects]** menu onder **[!UICONTROL Content management]**, klikt u op **[!UICONTROL Create project]**.
+1. Van de **[!UICONTROL Translation]** menu onder **[!UICONTROL Content management]**, klikt u op **[!UICONTROL Create project]** in de **[!UICONTROL Projects]** tab.
 
    ![](assets/translation_project_1.png)
 
@@ -149,11 +138,11 @@ In deze sectie kunt u de primaire taal en de bijbehorende landinstellingen inste
 1. Select your **[!UICONTROL Locales dictionary]** and add as many as needed.
 -->
 
-## Een meertalige campagne maken {#create-multilingual-campaign}
+## Meertalige inhoud maken {#create-multilingual-campaign}
 
-Als u uw vertaalproject en taalinstellingen hebt ingesteld, kunt u uw campagne maken en de inhoud aanpassen voor de verschillende landinstellingen.
+Als u uw vertaalproject en taalinstellingen hebt ingesteld, kunt u uw campagne of reis maken en uw inhoud aanpassen voor de verschillende landinstellingen.
 
-1. Begin met het maken en configureren van uw campagne voor e-mail-, sms- of pushmeldingen volgens uw vereisten. [Meer informatie](../campaigns/create-campaign.md)
+1. Begin met het maken en configureren van uw e-mail-, sms- of pushmelding [campagne](../campaigns/create-campaign.md) of [reis](../building-journeys/journeys-message.md) volgens uw vereisten.
 
 1. Wanneer de primaire inhoud is gemaakt, klikt u op **[!UICONTROL Save]** en ga terug naar het scherm van de campagneconfiguratie.
 
@@ -211,9 +200,7 @@ Als u uw vertaalproject en taalinstellingen hebt ingesteld, kunt u uw campagne m
 
 1. Controleer of uw campagne correct is geconfigureerd en klik vervolgens op **[!UICONTROL Activate]**.
 
-Uw campagne is nu geactiveerd. Het bericht dat in de campagne wordt gevormd wordt verzonden onmiddellijk, of op de gespecificeerde datum. Houd er rekening mee dat uw campagne niet kan worden gewijzigd zodra deze actief is. Als u inhoud opnieuw wilt gebruiken, kunt u uw campagne dupliceren.
-
-Nadat u de campagne hebt verzonden, kunt u de impact van de campagnes meten in de campagnerapporten.
+U kunt nu uw campagne of reis activeren. Als u eenmaal bent verzonden, kunt u de impact van uw meertalige reis of campagne in rapporten meten.
 
 ## Het interne vertaalproject beheren {#manage-ht-project}
 

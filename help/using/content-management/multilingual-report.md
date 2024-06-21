@@ -8,29 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
-hide: true
-hidefromtoc: true
 exl-id: 662681ad-5044-4025-aff1-204626fee052
-badge: label="Beta" type="Informative"
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 89c03a4be653b39838ef8a7c77deb6a1781004a1
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
 
 # Meertalig campagnerapport {#multilingual-campaign-report}
-
->[!BEGINSHADEBOX]
-
-**Inhoudsopgave**
-
-* [Aan de slag met meertalige inhoud](multilingual-gs.md)
-* [Meertalige inhoud maken met handmatige vertaling](multilingual-manual.md)
-* [Meertalige inhoud maken met automatische vertaling](multilingual-automated.md)
-* Meertalig campagnerapport
-
->[!ENDSHADEBOX]
 
 Algemene rapporten, toegankelijk via de **Alle tijd** weergegeven, gebeurtenissen die ten minste twee uur geleden hebben plaatsgevonden en gebeurtenissen gedurende een geselecteerde tijdsperiode bedekken. Het algemene rapport van de campagne kan direct van uw Campagne met worden betreden **[!UICONTROL View report]** knop.
 
