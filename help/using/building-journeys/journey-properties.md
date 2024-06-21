@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: reis, configuratie, eigenschappen
-source-git-commit: 67032a4bcbfd56552d783f3ef78593375bfcc378
+exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
+source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1718'
 ht-degree: 0%
 
 ---
@@ -50,7 +51,23 @@ De **Technische details kopiëren** staat u toe om technische informatie over de
 
 ## Entrance en re-entry {#entrance}
 
+### Hernieuwde toegang toestaan  {#allow-re-entrance}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_entrance"
+>title="Hernieuwde toegang toestaan"
+>abstract="Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de controle van **Hernieuwde toegang toestaan** optie voor &quot;één enkele schot&quot;reizen, bijvoorbeeld als u een eenmalig geschenk wilt aanbieden wanneer een persoon een winkel ingaat."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profieltoegangsbeheer"
+
 Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de controle van **Hernieuwde toegang toestaan** optie voor &quot;één enkele schot&quot;reizen, bijvoorbeeld als u een eenmalig geschenk wilt aanbieden wanneer een persoon een winkel ingaat.
+
+### Wachttijd bij terugkeer  {#re-entrance-wait}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_re-entrance_wait"
+>title="Wachttijd bij terugkeer"
+>abstract=" Stel de tijd in om te wachten voordat een profiel de reis weer kan betreden tijdens een enkele reis. Hierdoor kunnen gebruikers de reis niet opnieuw betreden voor een bepaalde duur. Maximale duur: 29 dagen."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profieltoegangsbeheer"
 
 Wanneer de **Hernieuwde toegang toestaan** -optie is geactiveerd, de **Wachttijd bij terugkeer** wordt weergegeven. In dit veld kunt u de tijd definiëren die u moet wachten voordat u een profiel toestaat om de reis opnieuw te betreden tijdens een enkele reis (te beginnen met een evenement of een publiekskwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. De maximale duur is 29 dagen.
 
@@ -70,6 +87,17 @@ Zie voor meer informatie over tijdzonebeheer [deze pagina](../building-journeys/
 
 ## Begin- en einddatum {#dates}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_start_date"
+>title="Begindatum"
+>abstract="Kies de datum waarop de reis kan beginnen. Als er geen begindatum is opgegeven, wordt deze automatisch ingesteld op het moment van publicatie."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_end_date"
+>title="Einddatum"
+>abstract="Kies de einddatum van uw reis. Wanneer die datum is bereikt, kunnen profielen op die reis deze automatisch verlaten en kunnen nieuwe niet meer het ingaan."
+
 U kunt een **Begindatum**. Als u er geen hebt opgegeven, wordt deze automatisch gedefinieerd op het moment van publicatie.
 
 U kunt ook een **Einddatum**. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. Als er geen einddatum is opgegeven, kunnen profielen blijven tot de [algemene time-out](#global_timeout) (over het algemeen 91 dagen, en met de toevoeging aan het gezondheidsschild tot 7 dagen teruggebracht). De enige uitzondering is terugkerende publiekstrajecten met **Herkomst forceren bij herhaling** geactiveerd, die eindigt op de begindatum van het volgende exemplaar.
@@ -77,6 +105,12 @@ U kunt ook een **Einddatum**. Hiermee kunnen profielen automatisch worden afgesl
 ## Time-out {#timeout}
 
 ### Time-out of fout bij reisactiviteiten {#timeout_and_error}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_timout"
+>title="Time-out"
+>abstract="Bepaal hoeveel tijd de reis zal proberen om een actie uit te voeren of een voorwaarde te verifiëren alvorens het als onderbreking te beschouwen."
+
 
 Wanneer u een actie of voorwaardenactiviteit bewerkt, kunt u een alternatief pad definiëren in het geval van een fout of time-out. Als de verwerking van de activiteit die een derdensysteem ondervraagt de tijdsduur overschrijdt die in **[!UICONTROL Timeout or error]** op het terrein van de eigenschappen van de reis zal het tweede pad worden gekozen om een mogelijke terugvalactie uit te voeren .
 
@@ -221,4 +255,3 @@ Reis gebruikt samenvoegbeleid terwijl het terugwinnen van profielgegevens van Ad
 De reis zal het fusieprincipe respecteren dat door de volledige reis wordt gebruikt. Als er daarom meerdere soorten publiek worden gebruikt op een reis (bijvoorbeeld in &quot;inAudience&quot;-functies), waardoor inconsistenties ontstaan met het fusiebeleid dat door de reis wordt gebruikt, wordt een fout opgeworpen en wordt de publicatie geblokkeerd. Nochtans, als een inconsistent publiek in berichtverpersoonlijking wordt gebruikt, wordt een alarm niet opgeheven, ondanks de inconsistentie. Om deze reden, wordt het hoogst geadviseerd om het samenvoegbeleid te controleren verbonden aan uw publiek, wanneer dit publiek in berichtverpersoonlijking wordt gebruikt.
 
 Raadpleeg voor meer informatie over samenvoegingsbeleid [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
-

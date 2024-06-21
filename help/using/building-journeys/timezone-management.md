@@ -9,18 +9,24 @@ role: User
 level: Intermediate
 keywords: tijdzone, eigendommen, transport, conditie, tijd, datum, aangepast
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 21b53c72976d1a65651bc142e23ba847dc40a305
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 2%
+source-wordcount: '359'
+ht-degree: 1%
 
 ---
 
 # Tijdzonebeheer {#timezone_management}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_time_zone"
+>title="Tijdzone"
+>abstract="Selecteer de tijdzone van de reis. Wanneer een vaste tijdzone wordt gebruikt, is dit hetzelfde voor alle personen die de reis betreden."
+
+
 U kunt een tijdzone definiëren in het dialoogvenster [eigenschappen](../building-journeys/journey-properties.md#timezone) van je reis.
 
-Klik op het potloodpictogram rechtsboven in het scherm om de eigenschappen van Reis te openen.
+Klik op het potloodpictogram in de rechterbovenhoek van het scherm om de eigenschappen van het pad te openen.
 
 Deze tijdzone wordt gebruikt voor elke activiteit van de reis die een tijdselement bevat, zoals:
 
@@ -36,13 +42,18 @@ U kunt een [vaste tijdzone](#fixed-timezone) of kies een tijdzone [gedefinieerd 
 
 ## Een vaste tijdzone definiëren {#fixed-timezone}
 
-De tijdzone kan ook worden vastgesteld. Wis de vooraf gedefinieerde tijdzone en kies een tijdzone in de vervolgkeuzelijst. Als je een vaste tijdzone gebruikt, zal dat hetzelfde zijn voor iedereen die de reis binnenkomt.
+De tijdzone kan worden vastgesteld. Wis de vooraf gedefinieerde tijdzone en kies een tijdzone in de vervolgkeuzelijst. Als je een vaste tijdzone gebruikt, zal dat hetzelfde zijn voor iedereen die de reis binnenkomt.
 
 Daartoe, in **[!UICONTROL Journey Properties]** selecteert u een tijdzone.
 
 ![](assets/journey72.png)
 
-## Profielen gebruiken om de tijdzone van het transport te definiëren {#timezone-from-profiles}
+## Tijdzone profielen gebruiken {#timezone-from-profiles}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_profile_time_zone"
+>title="Tijdzone profiel gebruiken"
+>abstract="Schakel het selectievakje in als u de tijdzone van het real-time profiel wilt gebruiken die wacht- en voorwaardenactiviteiten. Als een tijdzone voor een profiel is gedefinieerd, zal het door de reis worden teruggewonnen en gebruikt. Als dat niet het geval is, wordt de tijdzone gedefinieerd in het bovenstaande tijdzone-veld."
 
 Als de entry-gebeurtenis van de reis een naamruimte heeft, wat betekent dat de reis de Real-time service van het Profiel van de Klant van Adobe Experience Platform kan bereiken, kunt u de tijdzone willen gebruiken die op het profielniveau wordt bepaald. Daartoe, in **Eigenschappen**, controle **Tijdzone profiel gebruiken in wachtwoorden en omstandigheden**. Deze optie is niet standaard ingeschakeld.
 
