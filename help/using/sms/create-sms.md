@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -57,7 +57,7 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 
    ![](assets/sms_create_3.png)
 
-1. Klikken **[!UICONTROL Create]**.
+1. Klik op **[!UICONTROL Create]**.
 
 1. Van de **[!UICONTROL Properties]** sectie, uw campagne bewerken **[!UICONTROL Title]** en **[!UICONTROL Description]**.
 
@@ -69,7 +69,7 @@ U kunt nu de inhoud van uw SMS-bericht ontwerpen via het **[!UICONTROL Edit cont
 
    ![](assets/sms_create_5.png)
 
-1. Klikken **[!UICONTROL Create experiment]** om uw inhoud te configureren experimenteert u en maakt u behandelingen om de prestaties te meten en de beste optie voor uw doelgroep te identificeren. [Meer informatie](../campaigns/content-experiment.md)
+1. Klikken **[!UICONTROL Create experiment]** om uw inhoud te configureren experimenteert u en maakt u behandelingen om de prestaties te meten en de beste optie voor uw doelgroep te identificeren. [Meer informatie](../content-management/content-experiment.md)
 
 1. In de **[!UICONTROL Actions tracking]** in, geeft u op of u wilt bijhouden of er op koppelingen in uw SMS-bericht wordt geklikt.
 
@@ -155,12 +155,12 @@ Gebruik de **[!UICONTROL Simulate content]** om een voorvertoning weer te geven 
 
 Nadat u de tests hebt uitgevoerd en de inhoud hebt gevalideerd, kunt u uw tekstbericht naar het publiek sturen. Deze stappen worden beschreven in [deze pagina](send-sms.md)
 
-Zodra verzonden, kunt u het effect van uw SMS binnen de Campagne of rapporten van de Reis meten. Voor meer informatie over rapportage raadpleegt u [deze sectie](../reports/campaign-global-report.md#sms-tab).
+Zodra verzonden, kunt u het effect van uw SMS binnen de Campagne of rapporten van de Reis meten. Raadpleeg [deze sectie](../reports/campaign-global-report.md#sms-tab) voor meer informatie over rapporten.
 
 **Verwante onderwerpen**
 
 * [Een tekstbericht voorvertonen, testen en verzenden](send-sms.md)
-* [SMS-kanaal configureren](sms-configuration.md)
+* [Sms-kanaal configureren](sms-configuration.md)
 * [SMS/MMS-rapporten](../reports/journey-global-report.md#sms-global)
 * [Een bericht toevoegen tijdens een rit](../building-journeys/journeys-message.md)
 * [Een bericht toevoegen aan een campagne](../campaigns/create-campaign.md)

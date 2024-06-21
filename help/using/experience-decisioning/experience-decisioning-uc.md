@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate, Experienced
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -42,15 +42,15 @@ Definieer twee leveringsbehandelingen die elk een ander beslissingsbeleid bevatt
 
 1. Maak een campagne en selecteer de **[!UICONTROL Code-base experience]** handeling. [Meer informatie](../code-based/create-code-based.md)
 
-1. Klik op de pagina met het overzicht van de campagne **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren. [Meer informatie](../campaigns/content-experiment.md)
+1. Klik op de pagina met het overzicht van de campagne **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren. [Meer informatie](../content-management/content-experiment.md)
 
 1. Selecteer de **[!UICONTROL Decisions]** pictogram, klikken **[!UICONTROL Create a decision]** en vult de beslissingsdetails in. [Meer informatie](create-decision.md)
 
    ![](assets/decision-code-based-create.png)
 
-1. Geef de selectiestrategieën voor uw beslissing op. Klikken **[!UICONTROL Add strategy]**.
+1. Geef de selectiestrategieën voor uw beslissing op. Klik op **[!UICONTROL Add strategy]**.
 
-1. Klikken **[!UICONTROL Create]**. Het nieuwe besluit wordt toegevoegd onder **[!UICONTROL Decisions]**.
+1. Klik op **[!UICONTROL Create]**. Het nieuwe besluit wordt toegevoegd onder **[!UICONTROL Decisions]**.
 
    ![](assets/decision-code-based-decision-added.png)
 

@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1848'
 ht-degree: 29%
 
 ---
@@ -174,13 +174,6 @@ ht-degree: 29%
    + [Een campagne maken](using/campaigns/create-campaign.md)
    + [Een campagne bekijken en activeren](using/campaigns/review-activate-campaign.md)
    + [Campagnes beheren](using/campaigns/modify-stop-campaign.md)
-   + Inhoudsexperiment {#content-experiment}
-      + [Aan de slag met het experimenteren met inhoud](using/campaigns/get-started-experiment.md)
-      + [Een inhoudexperiment maken](using/campaigns/content-experiment.md)
-      + [Evaluatierapporten configureren](using/campaigns/reporting-configuration.md)
-      + Technische opmerkingen {#technotes}
-         + [Statistische berekeningen begrijpen](using/campaigns/experiment-calculations.md)
-         + [Statistische berekeningen in het Experimentenrapport begrijpen](using/campaigns/experiment-report-calculations.md)
    + [Campagnes activeren met API&#39;s](using/campaigns/api-triggered-campaigns.md)
 + Email channel {#email}
    + [Aan de slag met e-mails](using/email/get-started-email.md)
@@ -283,7 +276,13 @@ ht-degree: 29%
       + [Aan de slag met meertalige inhoud](using/content-management/multilingual-gs.md)
       + [Meertalige inhoud maken met handmatige vertaling](using/content-management/multilingual-manual.md)
       + [Meertalige inhoud maken met automatische vertaling](using/content-management/multilingual-automated.md)
-      + [Meertalig campagnerapport](using/content-management/multilingual-report.md)
+   + Werken met het experimenteren met inhoud {#content-experiment}
+      + [Aan de slag met het experimenteren met inhoud](using/content-management/get-started-experiment.md)
+      + [Een inhoudexperiment maken](using/content-management/content-experiment.md)
+      + [Evaluatierapporten configureren](using/content-management/reporting-configuration.md)
+      + Technische opmerkingen {#technotes}
+         + [Statistische berekeningen begrijpen](using/content-management/experiment-calculations.md)
+         + [Statistische berekeningen in het Experimentenrapport begrijpen](using/content-management/experiment-report-calculations.md)
    + Elementen/afbeeldingen {#assets-images}
       + [Werken met Experience Manager Assets](using/content-management/assets.md)
       + [Werken met Adobe Stock](using/content-management/stock.md)

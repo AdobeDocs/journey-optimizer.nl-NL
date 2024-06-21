@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '5367'
 ht-degree: 13%
@@ -114,7 +114,7 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 ## Oktober 2023 {#oct-2023}
 
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 23 oktober is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
-* Toegevoegde GIFFEN ter illustratie van enkele belangrijke mogelijkheden, zoals: [Inhoudssjablonen](../content-management/content-templates.md), [Fragmenten](../content-management/fragments.md), [Berekende kenmerken](../audience/computed-attributes.md), [Directe post](../direct-mail/get-started-direct-mail.md), [Tags](../start/search-filter-categorize.md#tags), [Optimalisatiemodellen voor het beheer van beslissingen](../offers/ranking/personalized-optimization-model.md), [API-gestuurde campagnes](../campaigns/api-triggered-campaigns.md), en [Inhoudsexperiment](../campaigns/content-experiment.md).
+* Toegevoegde GIFFEN ter illustratie van enkele belangrijke mogelijkheden, zoals: [Inhoudssjablonen](../content-management/content-templates.md), [Fragmenten](../content-management/fragments.md), [Berekende kenmerken](../audience/computed-attributes.md), [Directe post](../direct-mail/get-started-direct-mail.md), [Tags](../start/search-filter-categorize.md#tags), [Optimalisatiemodellen voor het beheer van beslissingen](../offers/ranking/personalized-optimization-model.md), [API-gestuurde campagnes](../campaigns/api-triggered-campaigns.md), en [Inhoudsexperiment](../content-management/content-experiment.md).
 * Het proces voor het maken van schema&#39;s is bijgewerkt met de meest recente updates in de gebruikersinterface die worden geleverd bij Adobe Experience Platform-wijzigingen. [Meer informatie](../audience/creating-test-profiles.md)
 * De pagina met instructies voor beslissingsbeheer is toegevoegd aan de pagina met instructies en beperkingen. [Meer informatie](../start/guardrails.md#decision-management)
 * De sectie van de Parameters van de Kopbal is bijgewerkt om erop te wijzen hoe de uit-van-bureauberichten en uitdagingsreacties worden behandeld (zij worden ontvangen op **[!UICONTROL Error email]**). [Meer informatie](../email/email-settings.md#email-header)

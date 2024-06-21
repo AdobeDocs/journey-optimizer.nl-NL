@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: cc68e45e0da3cd65df74c7a484934af6da64b255
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '1297'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -126,7 +126,7 @@ Beheer uw privacybeheer en verzoeken vanuit deze sectie.
 
 * **[!UICONTROL Configurations]** - Gebruik dit menu om te configureren [Gebeurtenissen](../event/about-events.md), [Gegevensbronnen](../datasource/about-data-sources.md), en [Handelingen](../action/action.md) om te gebruiken voor uw reizen.
 
-  U hebt ook toegang tot de **Rapportage** sectie om rapportering voor campagneexperimentatie te vormen. [Meer informatie](../campaigns/reporting-configuration.md)
+  U hebt ook toegang tot de **Rapportage** sectie om rapportering voor campagneexperimentatie te vormen. [Meer informatie](../content-management/reporting-configuration.md)
 
 * **[!UICONTROL Business rules]** - Gebruik deze sectie om dwars-kanaal bedrijfsregels tot stand te brengen om te controleren hoe vaak de gebruikers een bericht ontvangen, of in een reis ingaan. [Meer informatie](../configuration/frequency-rules.md)
 

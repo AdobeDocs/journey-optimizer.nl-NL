@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '3896'
 ht-degree: 0%
@@ -134,7 +135,7 @@ De **[!UICONTROL Experimentation]** De zeer belangrijke Indicatoren van Prestati
 
 * **[!UICONTROL Lift]**: Meting van de procentuele verbetering van de conversiesnelheid van een bepaalde behandeling ten opzichte van de uitgangswaarde.
 
-* **[!UICONTROL Confidence]**: Bewijs dat een bepaalde behandeling gelijk is aan de basisbehandeling. [Meer informatie](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Confidence]**: Bewijs dat een bepaalde behandeling gelijk is aan de basisbehandeling. [Meer informatie](../content-management/experiment-calculations.md#understand-confidence)
 
 +++
 
@@ -143,7 +144,7 @@ De **[!UICONTROL Experimentation]** De zeer belangrijke Indicatoren van Prestati
 ![](assets/cja-experimentation-variants.png)
 
 De **[!UICONTROL Variant by Inbound clicks]** widget geeft de prestaties van elke variant weer.
-Raadpleeg voor een diepgaande analyse van deze resultaten en de manier waarop u deze kunt interpreteren de volgende bronnen: [deze pagina](../campaigns/get-started-experiment.md#interpret-results).
+Raadpleeg voor een diepgaande analyse van deze resultaten en de manier waarop u deze kunt interpreteren de volgende bronnen: [deze pagina](../content-management/get-started-experiment.md#interpret-results).
 
 +++ Leer meer op Variant door Binnenkomende klikmetriek
 
@@ -155,7 +156,7 @@ Raadpleeg voor een diepgaande analyse van deze resultaten en de manier waarop u 
 
 * **[!UICONTROL Lift]**: Meting van de procentuele verbetering van de conversiesnelheid van een bepaalde behandeling ten opzichte van de uitgangswaarde.
 
-* **[!UICONTROL Confidence]**: Bewijs dat een bepaalde behandeling gelijk is aan de basisbehandeling. [Meer informatie](../campaigns/experiment-calculations.md#understand-confidence)
+* **[!UICONTROL Confidence]**: Bewijs dat een bepaalde behandeling gelijk is aan de basisbehandeling. [Meer informatie](../content-management/experiment-calculations.md#understand-confidence)
 
 <!--
 * **[!UICONTROL Confidence Upper bound]**:
@@ -167,7 +168,7 @@ Raadpleeg voor een diepgaande analyse van deze resultaten en de manier waarop u 
 
 ![](assets/cja-experimentation-conversion.png)
 
-De **[!UICONTROL Confidence interval]** in grafiek wordt de onzekerheid over de verbetering gemeten . Het geeft het procentuele verschil in prestaties weer tussen de basislijn en de best presterende behandeling. [Meer informatie](../campaigns/experiment-calculations.md#confidence-intervals).
+De **[!UICONTROL Confidence interval]** in grafiek wordt de onzekerheid over de verbetering gemeten . Het geeft het procentuele verschil in prestaties weer tussen de basislijn en de best presterende behandeling. [Meer informatie](../content-management/experiment-calculations.md#confidence-intervals).
 
 ## Email {#email-global}
 
@@ -784,4 +785,3 @@ De **[!UICONTROL Tracked link URLs]** de lijst verstrekt een uitvoerig overzicht
 * **[!UICONTROL Unique displays]**: Het aantal keren dat het bericht is geopend, wordt geen rekening gehouden met meerdere interacties van één profiel.
 
 +++
-

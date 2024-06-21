@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 97e925529f5b61138474d53f7df404ff6ea44ba9
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '1868'
 ht-degree: 1%
@@ -93,7 +93,7 @@ Ga als volgt te werk om een bericht in de app toe te voegen:
       | Levenscyclus toepassing | Dag sinds laatste gebruik | Wordt geactiveerd wanneer het opgegeven aantal dagen sinds laatste gebruik is bereikt. |
       | Levenscyclus toepassing | Dag sinds upgrade | Wordt geactiveerd wanneer het opgegeven aantal dagen sinds de laatste upgrade is bereikt. |
       | Levenscyclus toepassing | Datum van installatie | Wordt geactiveerd wanneer de opgegeven installatiedatum is bereikt. |
-      | Levenscyclus toepassing | Lanceringen | Wordt geactiveerd wanneer aan het opgegeven aantal Launches wordt voldaan. |
+      | Levenscyclus toepassing | Starten | Wordt geactiveerd wanneer aan het opgegeven aantal Launches wordt voldaan. |
       | Levenscyclus toepassing | Tijd van dag | Wordt geactiveerd wanneer de opgegeven tijd van de dag is bereikt. |
       | Plaatsen | Huidige POI | Wordt geactiveerd door de SDK Plaatsen wanneer uw klant het opgegeven Point of Interest (POI) invoert. |
       | Plaatsen | Laatste ingevoerde POI | Wordt geactiveerd door de SDK van Plaatsen, afhankelijk van uw klant die het laatst Point of Interest (POI) heeft ingevoerd. |
@@ -143,7 +143,7 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
 
 1. In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde publiek te identificeren. [Meer informatie](../event/about-creating.md#select-the-namespace).
 
-1. Klikken **[!UICONTROL Create experiment]** om uw inhoud te configureren experimenteert u en maakt u behandelingen om de prestaties te meten en de beste optie voor uw doelgroep te identificeren. [Meer informatie](../campaigns/content-experiment.md)
+1. Klikken **[!UICONTROL Create experiment]** om uw inhoud te configureren experimenteert u en maakt u behandelingen om de prestaties te meten en de beste optie voor uw doelgroep te identificeren. [Meer informatie](../content-management/content-experiment.md)
 
 1. Klikken **[!UICONTROL Edit triggers]** om de gebeurtenis(sen) en criteria te kiezen die uw bericht activeren. Met regelbuilders kunnen gebruikers criteria en waarden opgeven die, wanneer ze voldoen, een set handelingen activeren, zoals het verzenden van een bericht in de app.
 
@@ -191,7 +191,7 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
       | Levenscyclus toepassing | Dag sinds laatste gebruik | Wordt geactiveerd wanneer het opgegeven aantal dagen sinds laatste gebruik is bereikt. |
       | Levenscyclus toepassing | Dag sinds upgrade | Wordt geactiveerd wanneer het opgegeven aantal dagen sinds de laatste upgrade is bereikt. |
       | Levenscyclus toepassing | Datum van installatie | Wordt geactiveerd wanneer de opgegeven installatiedatum is bereikt. |
-      | Levenscyclus toepassing | Lanceringen | Wordt geactiveerd wanneer aan het opgegeven aantal Launches wordt voldaan. |
+      | Levenscyclus toepassing | Starten | Wordt geactiveerd wanneer aan het opgegeven aantal Launches wordt voldaan. |
       | Levenscyclus toepassing | Tijd van dag | Wordt geactiveerd wanneer de opgegeven tijd van de dag is bereikt. |
       | Plaatsen | Huidige POI | Wordt geactiveerd door de SDK Plaatsen wanneer uw klant het opgegeven Point of Interest (POI) invoert. |
       | Plaatsen | Laatste ingevoerde POI | Wordt geactiveerd door de SDK van Plaatsen, afhankelijk van uw klant die het laatst Point of Interest (POI) heeft ingevoerd. |

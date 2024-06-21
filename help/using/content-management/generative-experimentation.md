@@ -11,7 +11,7 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 1%
@@ -52,11 +52,11 @@ Nadat u uw berichten hebt gemaakt en gepersonaliseerd, kunt u de inhoud optillen
 
    ![](assets/experiment-genai-3.png)
 
-1. Open vanuit het venster van de Content Experiment de **[!UICONTROL Experiment settings]** om uw experiment te vormen. [Meer informatie over het experimenteren met inhoud](../campaigns/content-experiment.md)
+1. Open vanuit het venster van de Content Experiment de **[!UICONTROL Experiment settings]** om uw experiment te vormen. [Meer informatie over het experimenteren met inhoud](../content-management/content-experiment.md)
 
    ![](assets/experiment-genai-4.png)
 
-1. Wanneer uw Content-experiment gereed is, kunt u vanuit de overzichtspagina van de campagne op **[!UICONTROL Review to activate]** om een overzicht van de campagne weer te geven. Waarschuwt de weergave als een parameter onjuist is of ontbreekt. [Meer informatie](../campaigns/content-experiment.md#treatment-experiment)
+1. Wanneer uw Content-experiment gereed is, kunt u vanuit de overzichtspagina van de campagne op **[!UICONTROL Review to activate]** om een overzicht van de campagne weer te geven. Waarschuwt de weergave als een parameter onjuist is of ontbreekt. [Meer informatie](../content-management/content-experiment.md#treatment-experiment)
 
 1. Controleer voordat u de campagne start of alle configuraties correct zijn en klik op **[!UICONTROL Activate]**.
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: zaadlijst, zaadlijst, zaad, configuratie
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 815595f907ed3ea05b7772a1df96187509351bf9
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '924'
 ht-degree: 2%
@@ -48,7 +48,7 @@ Zaadadressen zijn geen echte profielen en testprofielen, omdat deze geen profiel
 
 >[!NOTE]
 >
->Varianten worden ondersteund. De zaadadressen ontvangen één enkel exemplaar van elke variant van het zelfde bericht (zoals de verschillende behandelingen van een [inhoudexperiment](../campaigns/get-started-experiment.md)).
+>Varianten worden ondersteund. De zaadadressen ontvangen één enkel exemplaar van elke variant van het zelfde bericht (zoals de verschillende behandelingen van een [inhoudexperiment](../content-management/get-started-experiment.md)).
 
 ## De zaadlijsten openen {#access-seed-lists}
 

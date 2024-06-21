@@ -6,7 +6,8 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
+source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 2%
@@ -75,7 +76,7 @@ Volg onderstaande stappen om uw Web in-app kanaal in te stellen:
 
 1. In de **[!UICONTROL Action]** menu, kunt u de montages vinden die eerder zoals **[!UICONTROL App surface]**. U kunt hier indien nodig wijzigingen aanbrengen of uw regel bijwerken door op **[!UICONTROL Edit Rule]**.
 
-1. Klikken **[!UICONTROL Create experiment]** om uw inhoud te configureren experimenteert u en maakt u behandelingen om de prestaties te meten en de beste optie voor uw doelgroep te identificeren. [Meer informatie](../campaigns/content-experiment.md)
+1. Klikken **[!UICONTROL Create experiment]** om uw inhoud te configureren experimenteert u en maakt u behandelingen om de prestaties te meten en de beste optie voor uw doelgroep te identificeren. [Meer informatie](../content-management/content-experiment.md)
 
 1. Klikken **[!UICONTROL Edit triggers]** om de gebeurtenis(sen) en criteria te kiezen die uw bericht activeren. Met regelbuilders kunnen gebruikers criteria en waarden opgeven die, wanneer ze voldoen, een set handelingen activeren, zoals het verzenden van een bericht in de app.
 
