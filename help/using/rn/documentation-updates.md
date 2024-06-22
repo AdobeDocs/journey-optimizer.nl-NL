@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '5367'
+source-wordcount: '5379'
 ht-degree: 13%
 
 ---
@@ -24,6 +24,7 @@ Deze pagina bevat alle laatste updates in [!DNL Journey Optimizer] documentatie.
 * Alle nieuwe functies en verbeteringen die worden geleverd bij [!DNL Journey Optimizer] De release van 24 juni is gedetailleerd weergegeven in de documentatie. [Meer informatie](release-notes.md)
 * Er is een opmerking toegevoegd over het gebruik van samenvoegingsbeleid voor reizen. [deze pagina](../building-journeys/journey-properties.md#merge-policies).
 * De pagina over hoe te om een **Wachten** de activiteiten op een reis zijn gereorganiseerd en verbeterd . [Meer informatie](../building-journeys/wait-activity.md)
+* Er is een nieuwe pagina gemaakt om de eigenschappen van de rit in detail te beschrijven. [Meer informatie](../building-journeys/journey-properties.md)
 
 ## Mei 2024 {#may-2024}
 

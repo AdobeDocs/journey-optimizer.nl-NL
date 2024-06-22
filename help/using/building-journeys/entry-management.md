@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: terugkeer, reis, profiel, terugkerend
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '700'
 ht-degree: 1%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 1%
 
 # Profieltoegangsbeheer {#entry-management}
 
-Er zijn vier soorten reizen:
+Profielbeheer is afhankelijk van het type reis. In Adobe Journey Optimizer zijn de volgende soorten reizen beschikbaar:
 
 * **Eenmalige gebeurtenis** ritten: deze reizen beginnen met een eenmalig evenement. Wanneer de gebeurtenis wordt ontvangen, gaat het bijbehorende profiel de reis in. [Meer informatie](#entry-unitary)
 
-* **Zakelijke gebeurtenis** ritten: deze reizen beginnen met een Business-evenement, onmiddellijk gevolgd door een Read-publiek. Wanneer de gebeurtenis wordt ontvangen, gaan profielen die tot het doelpubliek behoren de reis in. Voor elk profiel wordt één exemplaar van deze reis gemaakt. [Meer informatie](#entry-business)
+* **Zakelijke gebeurtenis** reizen: deze reizen beginnen met een Business-evenement, onmiddellijk gevolgd door een **Lees publiek** activiteit. Wanneer de gebeurtenis wordt ontvangen, gaan profielen die tot het doelpubliek behoren de reis in. Voor elk profiel wordt één exemplaar van deze reis gemaakt. [Meer informatie](#entry-business)
 
-* **Lees publiek** ritten: deze reizen beginnen met een Leespubliek. Wanneer de reis wordt uitgevoerd, komen profielen van het doelpubliek de reis binnen. Voor elk profiel wordt één exemplaar van deze reis gemaakt. Deze reizen kunnen terugkeren of eenmalig zijn. [Meer informatie](#entry-read-audience)
+* **Lees publiek** reizen: deze reizen beginnen met een **Audio lezen** activiteit. Wanneer de reis wordt uitgevoerd, komen profielen van het doelpubliek de reis binnen. Voor elk profiel wordt één exemplaar van deze reis gemaakt. Deze reizen kunnen terugkeren of &quot;one-shot&quot; zijn. [Meer informatie](#entry-read-audience)
 
 * **kwalificatie publiek** ritten: deze reizen beginnen met een kwalificatieevenement Publiek. Deze reizen luisteren naar de in- en uitgangen van profielen in het publiek. Wanneer dit gebeurt, gaat het bijbehorende profiel de reis in. [Meer informatie](#entry-unitary)
 
@@ -32,7 +32,7 @@ In alle reistypes kan een profiel niet meerdere keren tegelijk aanwezig zijn in 
 
 ## Eenheids- en publiekskwalificatietrajecten{#entry-unitary}
 
-Bij eenheids- en publiekskwalificatietrajecten kunt u re-entry in- of uitschakelen:
+In **Eenmalige gebeurtenis** en **kwalificatie publiek** ritten, kunt u re-entry toelaten of onbruikbaar maken:
 
 * Als re-entry wordt toegelaten, kan een profiel een reis verscheidene keren ingaan, maar kan het niet doen tot hij het vorige geval van de reis volledig verliet.
 
@@ -51,13 +51,13 @@ Na de hertoelatingsperiode kunnen profielen de reis opnieuw betreden. Als u dit 
 <!--
 Due to the 30-day journey timeout, when journey re-entrance is not allowed, we cannot make sure the re-entrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
 
-## Zakelijke reizen{#entry-business}
+## Zakelijke reizen {#entry-business}
 
 <!--
 Business events follow re-entrance rules in the same way as for unitary events. If a journey allows re-entrance, the next business event will be processed.
 -->
 
-Als u meerdere bedrijfsgebeurtenissen wilt uitvoeren, activeert u de bijbehorende optie in het dialoogvenster **[!UICONTROL Execution]** sectie van de reiseigenschappen.
+In **Zakelijke reizen** Als u meerdere bedrijfsgebeurtenissen wilt uitvoeren, activeert u de bijbehorende optie in het dialoogvenster **[!UICONTROL Execution]** sectie van de reiseigenschappen.
 
 ![](assets/business-entry.png)
 
@@ -67,11 +67,11 @@ Een profiel kan meerdere keren aanwezig zijn op dezelfde reis, tegelijkertijd, m
 
 Raadpleeg deze voor meer informatie [sectie](../event/about-creating-business.md)
 
-## Reizen voor het publiek lezen{#entry-read-audience}
+## Reizen voor het publiek lezen {#entry-read-audience}
 
-Lezen van het publiek kunnen terugkerend of one-shot zijn:
+**Lees publiek** reizen kunnen terugkeren of &quot;one-shot&quot; zijn:
 
-* Voor niet-terugkerende ritten: het profiel komt slechts eenmaal binnen.
+* Voor eenmalige of eenmalige ritten: het profiel komt één keer en slechts één keer op de reis binnen.
 
 * Voor terugkerende reizen: standaard komen alle profielen van het publiek de reis in bij elke terugkerende reis. Ze moeten de reis afmaken voordat ze in een ander voorval kunnen terugkeren.
 

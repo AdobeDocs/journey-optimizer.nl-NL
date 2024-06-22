@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, configuratie, eigenschappen
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 87fa5875dfdbae091b36129812948362324f2516
+source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
 workflow-type: tm+mt
-source-wordcount: '1714'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,12 @@ ht-degree: 0%
 >title="Criteria voor het verlaten van de reis"
 >abstract="In dit gedeelte worden de opties voor afsluitcriteria weergegeven. U kunt één of veelvoudige regels van de uitgangscriteria voor uw reis tot stand brengen."
 
-Reiseigenschappen zijn gecentraliseerd in de rechtertrein van de reis. Deze sectie wordt standaard weergegeven wanneer u een nieuwe reis maakt. Voor bestaande reizen klikt u op het potloodpictogram naast de naam van de reis om de eigenschappen ervan te openen.
 
+## Toegang tot de eigenschappen van een reis {#access-properties}
 
-Gebruik deze sectie om de naam van de reis in te stellen, een beschrijving toe te voegen en:
+De eigenschappen van een reis zijn gecentraliseerd in het rechterspoor. Deze sectie wordt standaard weergegeven wanneer u een nieuwe reis maakt. Voor bestaande reizen klikt u op het potloodpictogram naast de naam van de reis om deze te openen.
+
+In deze sectie kunt u de naam van de rit definiëren, een beschrijving toevoegen en:
 
 * beheren [binnenkomst en wedertoetreding](#entrance),
 * begin en einde kiezen [datums](#dates),
@@ -50,6 +52,10 @@ De **Technische details kopiëren** staat u toe om technische informatie over de
 
 
 ## Entrance en re-entry {#entrance}
+
+De modus voor profielinvoer wordt gedefinieerd op het niveau van het transport, in het configuratievenster rechts. De instellingen worden hieronder beschreven.
+
+Profielbeheer is afhankelijk van het soort reis. Meer informatie over toegang tot profielen en beheer van nieuwe toegang, in [deze pagina](entry-management.md).
 
 ### Hernieuwde toegang toestaan  {#allow-re-entrance}
 
@@ -71,7 +77,6 @@ Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt de controle va
 
 Wanneer de **Hernieuwde toegang toestaan** -optie is geactiveerd, de **Wachttijd bij terugkeer** wordt weergegeven. In dit veld kunt u de tijd definiëren die u moet wachten voordat u een profiel toestaat om de reis opnieuw te betreden tijdens een enkele reis (te beginnen met een evenement of een publiekskwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. De maximale duur is 29 dagen.
 
-Meer informatie over toegang tot profielen en beheer van nieuwe toegang, in [deze sectie](entry-management.md).
 
 ## Toegang beheren {#manage-access}
 
