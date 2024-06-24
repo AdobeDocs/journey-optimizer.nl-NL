@@ -8,9 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta" type="Informative"
-source-git-commit: 2a5c04477b38e2fccdde86af56714261c6638160
+exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
+source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 >
 > Als u wilt terugkeren naar de traditionele rapportage van Journey Optimizer, schakelt u gewoon de **[!UICONTROL Use new Experience]** -optie.
 
-De Journey Optimizer-rapportage is nu volledig geïntegreerd met de mogelijkheden van de Customer Journey Analytics, waardoor de rapportage op beide platforms wordt gestandaardiseerd en de consistentie en betrouwbaarheid van de gegevens worden verbeterd. Deze naadloze integratie tussen Journey Optimizer en Customer Journey Analytics biedt een duidelijker beeld van prestatiesmetriek, toelatend gebruikers om geïnformeerde besluiten te nemen.
+Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabiliteit met de mogelijkheden van de Customer Journey Analytics, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van de gegevens. Deze naadloze integratie tussen Journey Optimizer en Customer Journey Analytics biedt een duidelijker beeld van prestatiesmetriek, toelatend gebruikers om geïnformeerde besluiten te nemen.
 
 * Als u een reis of leveringen in het kader van een reis wilt richten, vanaf **[!UICONTROL Journeys]** en klik op de knop **[!UICONTROL View report]** knop.
 
@@ -47,4 +48,3 @@ De Journey Optimizer-rapportage is nu volledig geïntegreerd met de mogelijkhede
 * Als u toegang wilt tot het dashboard voor Customers Journey Analytics in Journey Optimizer, schakelt u het **[!UICONTROL Use new Experience]** knevel in uw rapport.
 
   ![](assets/cja-option.png)
-

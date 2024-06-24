@@ -7,14 +7,15 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 topic: Content Management
-source-git-commit: 68c09769a32aeb1132f09e0f9082c7ccb6d17a8b
+exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
+source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# Opmerkingen bij de eerste release {#e-release-notes}
+# Vroege aanvullende informatie {#e-release-notes}
 
 [!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en oplossingen voor problemen. Alle wijzigingen worden geconsolideerd aan het einde van elke maand in de [releaseopmerkingen](release-notes.md).
 
@@ -79,20 +80,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </table>
 
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Reporting with Customer Journey Analytics (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer reporting is now fully integrated with Customer Journey Analytics capabilities, standardizing reporting across both platforms and improving data consistency and reliability. This seamless integration between Journey Optimizer and Customer Journey Analytics provides a clearer view of performance metrics, enabling users to make more informed decisions.</p>
-</td>
-</tr>
-</tbody>
-</table-->
+
 
 
 <!--table>
@@ -182,7 +170,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 * **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)-->
 
 
-**SMS-kanaal**
+**Sms-kanaal**
 
 * U kunt nu unieke korte codes toevoegen voor elke sandbox met één API-configuratie, waardoor het proces efficiënter en gestroomlijnder wordt.
   <!--* You can now modify existing SMS configurations.-->
@@ -193,5 +181,3 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 
 * U kunt nu de Edge Delivery-plug-in gebruiken om informatie op te halen die nodig is om uw binnenkomende implementaties te begrijpen en problemen op te lossen.
-
-

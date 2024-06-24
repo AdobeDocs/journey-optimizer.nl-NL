@@ -5,9 +5,9 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 6b9044117dcdd7554dea0c5f791a6dcfb0218010
+source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '376'
 ht-degree: 17%
 
 ---
@@ -28,7 +28,7 @@ Ontdek nieuwe functies en verbeteringen die worden geïntroduceerd met de releas
 
 >[!TAB Rapportage met Customer Journey Analytics (bèta)]
 
-De Journey Optimizer-rapportage is nu volledig geïntegreerd met de mogelijkheden van de Customer Journey Analytics, waardoor de rapportage op beide platforms wordt gestandaardiseerd en de consistentie en betrouwbaarheid van de gegevens worden verbeterd.
+Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabiliteit met de mogelijkheden van de Customer Journey Analytics, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van de gegevens.
 
 [![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
 
