@@ -8,20 +8,26 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
 
 # journaalgebeurtenissen - gemeenschappelijke velden {#sharing-common-fields}
 
-Deze veldgroep wordt gedeeld door de tripStepEvent en de tripStepProfileEvent.
+Deze veldgroep wordt gedeeld door de volgende gebeurtenissen: **tripStepEvent** en **tripStepProfileEvent**.
 
 Dit zijn de gemeenschappelijke gebieden XDM die [!DNL Journey Optimizer] naar Adobe Experience Platform. Voor elke stap die op reis wordt verwerkt, worden gemeenschappelijke velden verzonden. Voor aangepaste handelingen en verbeteringen worden specifiekere velden gebruikt.
 
 Sommige van deze velden zijn alleen beschikbaar in specifieke verwerkingspatronen (uitvoering van handelingen, ophalen van gegevens, enz.) om de omvang van gebeurtenissen te beperken.
+
+
+>[!NOTE]
+>
+>Meer informatie over kenmerken van reiseigenschappen [in deze sectie](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+
 
 ## ingang {#entrance-field}
 

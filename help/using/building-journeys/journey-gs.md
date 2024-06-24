@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reis, eerste, begin, snel-begin, publiek, gebeurtenis, actie
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
 workflow-type: tm+mt
 source-wordcount: '1215'
 ht-degree: 7%
@@ -123,7 +123,7 @@ Ontwerpreizen om persoonlijke contextafhankelijke ervaringen te bieden. [!DNL Jo
 
 ➡️ [Deze functie in video detecteren](journey.md#video)
 
-De stappen om berichten door reizen te verzenden zijn hieronder vermeld.
+De stappen om berichten door reizen te verzenden zijn hieronder vermeld:
 
 1. Van de **Bladeren** tabblad, klikt u op **[!UICONTROL Create Journey]** om een nieuwe reis te maken.
 
