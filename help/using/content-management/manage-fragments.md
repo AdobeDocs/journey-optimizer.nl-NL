@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: d9942f578db6ef42a801c0e62a4c3e6a4a72ce71
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '1008'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,16 @@ Fragmenten kunnen meerdere statussen hebben:
 >Sinds **Concept** en **Live** De status &#39;Concept&#39; is ingevoerd met de release van Journey Optimizer June. Alle fragmenten die vóór deze release zijn gemaakt, hebben de status &#39;Concept&#39;, zelfs als ze op reis of tijdens een campagne worden gebruikt. Als u wijzigingen aanbrengt in deze fragmenten, moet u deze publiceren om ze &quot;live&quot; te maken en de wijzigingen aan de bijbehorende campagnes en reizen door te geven. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. Voor publiceren is een gebruikersmachtiging vereist.
 
 ## Fragmenten bewerken {#edit-fragments}
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_update_campaigns"
+>title="Fragmenten bijwerken in campagnes"
+>abstract="Deze campagne wordt niet bijgewerkt als u wijzigingen in het fragment publiceert. Er moet een nieuwe versie worden gepubliceerd zodat de functionaliteit voor fragmentupdate kan worden ondersteund."
+
+>[!CONTEXTUALHELP]
+>id="ajo_fragments_update_journeys"
+>title="Fragmenten worden bijgewerkt tijdens reizen"
+>abstract="Deze reis zal niet worden bijgewerkt als u veranderingen in het fragment publiceert. Er moet een nieuwe versie worden gepubliceerd zodat de functionaliteit voor fragmentupdate kan worden ondersteund."
 
 Voer de onderstaande stappen uit om een fragment te bewerken.
 
