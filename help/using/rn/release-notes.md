@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 024e43468cade1f2ac4ca6f8e21bcbc71f6c771b
+source-git-commit: 3d3714675833f685c0775be68a403f4e9de3ce27
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1031'
 ht-degree: 5%
 
 ---
@@ -51,7 +51,6 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </tbody>
 </table-->
 
-#### Aanpassing van inhoudsfragmenten
 
 <table>
 <thead>
@@ -71,7 +70,6 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </table>
 
 
-#### Rapportage met Customer Journey Analytics
 
 <table>
 <thead>
@@ -90,7 +88,6 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </tbody>
 </table>
 
-#### AI-assistent
 
 <table>
 <thead>
@@ -108,7 +105,6 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </tbody>
 </table>
 
-#### Meertalige berichten tijdens reizen en campagnes
 
 <table>
 <thead>
@@ -126,7 +122,6 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </tbody>
 </table>
 
-#### Experimentatie op reizen
 
 <table>
 <thead>
