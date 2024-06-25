@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: gegevens, bron, reis, platform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 65%
+source-wordcount: '339'
+ht-degree: 64%
 
 ---
 
@@ -41,7 +41,7 @@ Er zijn twee soorten databronnen:
 
 >[!NOTE]
 >
->Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen.
+>Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Zie deze voor meer informatie over reacties [sectie](../action/action-response.md)
 
 Voor elke databron definieert u de informatie die u wilt ophalen met behulp van veldengroepen. Veldengroepen zijn reeksen velden die uit een databron kunnen worden opgehaald. Zie [deze pagina](../datasource/configure-data-sources.md#define-field-groups).
 

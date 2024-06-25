@@ -8,9 +8,9 @@ role: Developer, Data Engineer
 level: Experienced
 keywords: reis, gegevensbronnen, grens, productie, douane, acties
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: bf937d9c7198c3a9d31fe93d0cfec6f41df70e28
+source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,10 @@ Dit kan gebeuren met:
 * **Gegevensbronnen**: informatie verzamelen van externe systemen en deze gebruiken in de reiscontext, bijvoorbeeld om weerinformatie over de profielstad te krijgen en een specifieke reisroute te hebben die op die informatie is gebaseerd.
 
 * **Aangepaste handelingen**: informatie naar externe systemen sturen, bijvoorbeeld om e-mails via een externe oplossing te verzenden met behulp van Journey Optimizer-mogelijkheden voor orkestvorming, naast profielinformatie, publieksgegevens en reiscontext.
+
+>[!NOTE]
+>
+>Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Zie deze voor meer informatie over reacties [sectie](../action/action-response.md)
 
 Als u met externe gegevensbronnen of douaneacties werkt, kunt u uw externe systemen willen beschermen door reisproductie te beperken: tot 5000 instanties/seconde voor unitaire reizen en tot 20000 instanties/seconde voor publiek-teweeggebrachte degenen.
 
