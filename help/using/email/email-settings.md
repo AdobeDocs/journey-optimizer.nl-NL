@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: 975bb9d37a69fe8df02bc39ce2ccdf2da9953ebb
 workflow-type: tm+mt
 source-wordcount: '2458'
 ht-degree: 0%
@@ -102,7 +102,7 @@ De List Unsubscribe Header biedt twee functies (Mailto en One-click unsubscribe 
 
   In Journey Optimizer is het e-mailadres voor opzeggen het standaardadres **Mailto (afmelden)** adres dat in de kanaaloppervlakte wordt getoond, die op uw wordt gebaseerd [geselecteerd subdomein](#subdomains-and-ip-pools).
 
-  ![](assets/surface-list-unsubscribe-mailto.png){width="50%" align="left"}
+  ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
 
 
 * De **Eén klik op URL voor annuleren**, die standaard de één-klik kiezen onze URL geproduceerde Lijst Unsubscribe Kopbal, die op subdomein wordt gebaseerd u plaatst en in de Montages van de Oppervlakte van het Kanaal vormde.
