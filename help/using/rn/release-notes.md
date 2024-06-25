@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 25cedf0f900d6625e766f90d95393d704b5e156d
+source-git-commit: 024e43468cade1f2ac4ca6f8e21bcbc71f6c771b
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '1050'
 ht-degree: 5%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 5%
 
 
 ## Opmerkingen bij de release van juni 2024 {#24-6-2024}
-
-**Opmerkingen bij de eerste release hieronder kunnen zonder voorafgaande kennisgeving worden gewijzigd tot de beschikbaarheidsdatum van de release**.
 
 **Releasedatum**: 18-19 juni 2024
 
@@ -53,6 +51,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </tbody>
 </table-->
 
+#### Aanpassing van inhoudsfragmenten
 
 <table>
 <thead>
@@ -72,7 +71,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </table>
 
 
-
+#### Rapportage met Customer Journey Analytics
 
 <table>
 <thead>
@@ -91,6 +90,8 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </tbody>
 </table>
 
+#### AI-assistent
+
 <table>
 <thead>
 <tr>
@@ -106,6 +107,8 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </tr>
 </tbody>
 </table>
+
+#### Meertalige berichten tijdens reizen en campagnes
 
 <table>
 <thead>
@@ -123,6 +126,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </tbody>
 </table>
 
+#### Experimentatie op reizen
 
 <table>
 <thead>
@@ -160,13 +164,13 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 
 Deze release bevat de verbeteringen die hieronder worden vermeld.
 
-**Beslissingsbeheer**
+#### Beslissingsbeheer
 
 * **Ondersteuning van meerdere regels in het besluitvormingsbeheer** - U kunt nu maximaal 10 afkapregels toevoegen voor een bepaald aanbod in Beslissingsbeheer. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
-**Contentfragmenten**
+#### Inhoudsfragmenten
 
 >[!AVAILABILITY]
 >
@@ -180,7 +184,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 Lees meer in de [inhoudsfragment](../content-management/fragments.md) documentatie.
 
-**Reizen**
+#### Journeys
 
 * De wereldwijde time-out van reizen is verlengd tot 91 dagen. [Meer informatie](../building-journeys/journey-properties.md#global_timeout)
 
@@ -194,16 +198,17 @@ Lees meer in de [inhoudsfragment](../content-management/fragments.md) documentat
 
 
 
-**Campagnes**
+#### Campagnes
 
 * Wanneer u een campagne maakt in Adobe Journey Optimizer, kunt u nu het type campagne (gepland of geactiveerd) kiezen in een nieuw modaal. [Meer informatie](../campaigns/create-campaign.md)
 
-**E-mailkanaal**
+#### Email channel
 
 * **List-unsubscribe** - Na de recente Gmail- en Yahoo-aankondigingen voor bulkafzenders biedt Journey Optimizer ondersteuning voor de optie &quot;Na/1-klik&quot; List-Unsubscribe. Raadpleeg de volgende pagina&#39;s: [E-mailuitschakelbeheer](../email/email-opt-out.md#unsubscribe-header) en [E-mailinstellingen configureren](../email/email-settings.md#list-unsubscribe).
 
+  **OPMERKING** - Voor elk nieuw kanaaloppervlak wordt standaard de optie voor het opzeggen van de lijst geactiveerd. Voor bestaande oppervlakken is de optie Een-klik-abonnement voor URL opheffen in de instellingen van het kanaaloppervlak standaard uitgeschakeld. Als u een URL voor uitschakelen met één klik eerder in de e-mail gebruikte, blijft deze instelling geldig. Als de één-klik unsubscribe URL in de montages van de kanaaloppervlakte wordt gecontroleerd, zal Adobe Journey Optimizer eerder het gebrek geproduceerde Één-klik gebruiken unsubscribe URL in de montages van de kanaaloppervlakte.
 
-**Sms-kanaal**
+#### SMS-kanaal
 
 * U kunt nu unieke korte codes toevoegen voor elke sandbox met één API-configuratie, waardoor het proces efficiënter en gestroomlijnder wordt. [Meer informatie](../sms/sms-configuration.md)
 
@@ -211,13 +216,13 @@ Lees meer in de [inhoudsfragment](../content-management/fragments.md) documentat
 
 <!--* You can now modify existing SMS configurations.-->
 
-**Kanaal in app**
+#### Kanaal in app
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
 * U kunt nu de Edge Delivery-plug-in gebruiken om informatie op te halen die nodig is om uw binnenkomende implementaties te begrijpen en problemen op te lossen. [Meer informatie over de Edge Delivery-weergave](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
-**Direct mailkanaal**
+#### Direct mailkanaal
 
 * Direct mail kanaal is nu beschikbaar voor alle klanten. [Meer informatie](../direct-mail/get-started-direct-mail.md)
