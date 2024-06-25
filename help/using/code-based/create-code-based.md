@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 3f7d71eecf282b21eb09423378008c3b9ccd7edc
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '971'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
    >
    >Zorg ervoor dat het oppervlak-URI dat in uw op code gebaseerde campagne wordt gebruikt, overeenkomt met het oppervlak dat in uw eigen implementatie wordt gebruikt. Anders worden de wijzigingen niet doorgevoerd.
 
-1. Selecteren **[!UICONTROL Create]**.
+1. Selecteer **[!UICONTROL Create]**.
 
 1. Voltooi de stappen om een campagne te creëren, zoals de campagneeigenschappen, [publiek](../audience/about-audiences.md), en [schema](../campaigns/create-campaign.md#schedule). Voor meer informatie over hoe te om een campagne te vormen, raadpleeg [deze pagina](../campaigns/get-started-with-campaigns.md).
 
@@ -77,7 +77,7 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
 
    >[!NOTE]
    >
-   >De ervaringsbeslissingsfunctie is momenteel beschikbaar als een bètafunctie om alleen gebruikers te selecteren.
+   >Experience Decisioning is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
 
 
 1. Klikken **[!UICONTROL Save and close]** om uw wijzigingen te bevestigen.
@@ -126,7 +126,7 @@ Nadat u de campagne op basis van code hebt gedefinieerd en de inhoud naar wens h
 
 1. Controleer en bewerk indien nodig de inhoud, eigenschappen, oppervlak, publiek en planning.
 
-1. Selecteren **[!UICONTROL Activate]**.
+1. Selecteer **[!UICONTROL Activate]**.
 
    ![](assets/code-based-campaign-activate.png)
 
