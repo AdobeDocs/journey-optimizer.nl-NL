@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: wachten, activiteit, reis, volgende, canvas
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
+source-git-commit: cae6d394ad1c2356e55bd5f1cb4ad7494c9623dd
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 7%
@@ -23,7 +23,7 @@ ht-degree: 7%
 >title="Wachtactiviteit"
 >abstract="Als u wilt wachten alvorens de volgende activiteit in de weg uit te voeren, kunt u een Wacht activiteit gebruiken. Hiermee kunt u bepalen wanneer de volgende activiteit wordt uitgevoerd. Er zijn twee opties beschikbaar: duur en aangepast."
 
-U kunt een **[!UICONTROL Wait]** activiteit om een duur te bepalen alvorens de volgende activiteit uit te voeren.  De maximale wachttijd is **29 dagen**.
+U kunt een **[!UICONTROL Wait]** activiteit om een duur te bepalen alvorens de volgende activiteit uit te voeren.  De maximale wachttijd is **90 dagen**.
 
 U kunt twee typen instellen **Wachten** activiteit:
 
@@ -55,7 +55,7 @@ In de testmodus **[!UICONTROL Wait time in test]** parameter staat u toe om de t
 
 ### Wachten op duur {#duration}
 
-Selecteer de **Duur** type om de relatieve duur van de wachttijd vóór de uitvoering van de volgende activiteit in te stellen. De maximale duur is **29 dagen**.
+Selecteer de **Duur** type om de relatieve duur van de wachttijd vóór de uitvoering van de volgende activiteit in te stellen. De maximale duur is **90 dagen**.
 
 ![De wachttijd definiëren](assets/journey55.png)
 
