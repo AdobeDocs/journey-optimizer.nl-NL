@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: wachten, activiteit, reis, volgende, canvas
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
+source-git-commit: e5b32629dac368855df09313edaad55e3bc143dc
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 7%
@@ -39,9 +39,9 @@ U kunt twee typen instellen **Wachten** activiteit:
 
 ### Meerdere wachtactiviteiten {#multiple-wait-activities}
 
-Bij het gebruik van meerdere **Wachten** tijdens een reis, dient u zich ervan bewust te zijn dat de [algemene time-out](journey-properties.md#global_timeout) voor reizen is 90 dagen nodig , wat betekent dat profielen altijd buiten de reis vallen , tot maximaal 90 dagen nadat zij de reis zijn binnengekomen . Meer informatie vindt u [op deze pagina](journey-properties.md#global_timeout).
+Bij het gebruik van meerdere **Wachten** tijdens een reis, dient u zich ervan bewust te zijn dat de [algemene time-out](journey-properties.md#global_timeout) voor reizen is dit 91 dagen , wat betekent dat profielen altijd buiten de reis vallen , en wel ten hoogste 91 dagen nadat zij de reis hebben betreden . Meer informatie vindt u [op deze pagina](journey-properties.md#global_timeout).
 
-Een individu kan een **Wachten** alleen als zij voldoende tijd hebben om de wachttijd voor de reistijd van 90 dagen af te ronden.
+Een individu kan een **Wachten** alleen als zij voldoende tijd hebben om de wachttijd voor de reistijd van 91 dagen af te ronden.
 
 ### Wachten en opnieuw betreden {#wait-re-entrance}
 
