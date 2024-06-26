@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
 workflow-type: tm+mt
-source-wordcount: '1848'
+source-wordcount: '1865'
 ht-degree: 29%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 29%
       + [Uw reis ontwerpen](using/building-journeys/using-the-journey-designer.md)
       + [Uw reis testen](using/building-journeys/testing-the-journey.md)
       + [Uw reis simuleren](using/building-journeys/journey-simulation.md)
-      + [Uw reis publiceren](using/building-journeys/publishing-the-journey.md)
+      + [Publish je reis](using/building-journeys/publishing-the-journey.md)
    + Uw reizen beheren{#manage-journey}
       + [Beëindig uw reis](using/building-journeys/end-journey.md)
       + [Tijdzonebeheer](using/building-journeys/timezone-management.md)
@@ -259,7 +259,7 @@ ht-degree: 29%
       + [Informatie over het ontwerpen van bestemmingspagina](using/landing-pages/design-lp.md)
       + [De inhoud van de openingspagina maken](using/landing-pages/lp-content.md)
       + [Sjablonen maken](using/landing-pages/lp-templates.md)
-      + [Aangepast JavaScript toevoegen](using/landing-pages/lp-custom-js.md)
+      + [Aangepaste JavaScript toevoegen](using/landing-pages/lp-custom-js.md)
    + [Een lidmaatschapslijst maken](using/landing-pages/subscription-list.md)
    + [Gebruikskwesties leren](using/landing-pages/lp-use-cases.md)
    + Landingspagina&#39;s configureren {#lp-configuration}
@@ -283,19 +283,19 @@ ht-degree: 29%
       + Technische opmerkingen {#technotes}
          + [Statistische berekeningen begrijpen](using/content-management/experiment-calculations.md)
          + [Statistische berekeningen in het Experimentenrapport begrijpen](using/content-management/experiment-report-calculations.md)
-   + Elementen/afbeeldingen {#assets-images}
+   + Assets/Images {#assets-images}
       + [Werken met Experience Manager Assets](using/content-management/assets.md)
       + [Werken met Adobe Stock](using/content-management/stock.md)
    + Personalisatie {#personalization}
       + [Aan de slag met personalisatie](using/personalization/personalize.md)
-      + [Persoonlijke context](using/personalization/personalization-contexts.md)
-      + [Personalisatiesyntaxis](using/personalization/personalization-syntax.md)
+      + [Personalization-context](using/personalization/personalization-contexts.md)
+      + [Personalization-syntaxis](using/personalization/personalization-syntax.md)
       + [Adobe Experience Platform-gegevens gebruiken voor personalisatie](using/personalization/lookup-aep-data.md)
       + Werken met de verpersoonlijkingseditor {#expression-editor}
          + [Informatie over de verpersoonlijkingseditor](using/personalization/personalization-build-expressions.md)
          + [Kenmerken toevoegen aan Favorieten](using/personalization/personalization-favorites.md)
          + [Expressiefragmenten gebruiken](using/personalization/use-expression-fragments.md)
-         + [Validatie van personalisatie](using/personalization/personalization-validation.md)
+         + [Personalization-validatie](using/personalization/personalization-validation.md)
       + Helpfuncties{#functions}
          + [Aan de slag met hulpfuncties](using/personalization/functions/functions.md)
          + [Samenvoegingsfuncties](using/personalization/functions/aggregation.md)
@@ -308,10 +308,15 @@ ht-degree: 29%
          + [Math-functies](using/personalization/functions/math.md)
          + [Objectfuncties](using/personalization/functions/objects.md)
          + [Reeksfuncties](using/personalization/functions/string.md)
-      + Gebruikszaken aanpassen{#personalization-use-cases}
+      + Personalization-gebruikskwesties{#personalization-use-cases}
          + [Statusmelding van bestelling](using/personalization/personalization-use-case.md)
          + [E-mailadres voor afmelden van winkelwagentje](using/personalization/personalization-use-case-helper-functions.md)
-   + [Contentsjablonen](using/content-management/content-templates.md)
+   + Inhoudssjablonen {#content-templates}
+      + [Aan de slag met inhoudssjablonen](using/content-management/content-templates.md)
+      + [Sjablonen openen en beheren](using/content-management/access-content-templates.md)
+      + [Inhoudssjablonen maken](using/content-management/create-content-templates.md)
+      + [Inhoudssjablonen testen](using/content-management/test-content-templates.md)
+      + [Inhoudssjablonen gebruiken](using/content-management/use-content-templates.md)
    + Herbruikbare inhoudsfragmenten {#fragments}
       + [Aan de slag met fragmenten](using/content-management/fragments.md)
       + [Een fragment maken](using/content-management/create-fragments.md)
