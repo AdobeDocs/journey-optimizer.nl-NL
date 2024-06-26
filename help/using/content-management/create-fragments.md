@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: c843ca5bda10aa5f3ee8a676630d78c5ec092b14
+source-git-commit: ffeaa49cde2871b28c85598469e62f4d9acbf060
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 >id="ajo_create_visual_fragment"
 >title="Selecteer het visuele type"
 >abstract="Maak een zelfstandig visueel fragment om uw inhoud te hergebruiken in een e-mail binnen een reis, een campagne of een inhoudssjabloon."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments.html" text="Visuele fragmenten toevoegen aan uw e-mails"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/email/design-email/add-content/use-visual-fragments" text="Visuele fragmenten toevoegen aan uw e-mails"
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
@@ -61,7 +61,7 @@ Voer de onderstaande stappen uit om een fragment te maken.
 
 ## De fragmentinhoud ontwerpen {#content}
 
-Nadat u de eigenschappen van het fragment hebt geconfigureerd, wordt de e-mailontwerper of de personalisatie-editor geopend, afhankelijk van het type fragment dat u maakt.
+Nadat u de eigenschappen van het fragment hebt geconfigureerd, wordt de e-mail-Designer of de personalisatie-editor geopend, afhankelijk van het type fragment dat u maakt.
 
 * Voor visuele fragmenten kunt u de inhoud naar wens bewerken, net zoals u dat zou doen voor elke e-mail in een rit of campagne. [Meer informatie](../email/get-started-email-design.md)
 
@@ -81,17 +81,17 @@ Wanneer uw inhoud klaar is, klikt u op de knop **Opslaan** knop. Het fragment wo
 
 >[!NOTE]
 >
->Als u een fragment wilt publiceren, moet u beschikken over **Fragment publiceren** verwante machtigingen. [Meer informatie over machtigingen](../administration/ootb-permissions.md)
+>Als u een fragment wilt publiceren, moet u beschikken over **Publish-fragment** verwante machtigingen. [Meer informatie over machtigingen](../administration/ootb-permissions.md)
 
 Als uw fragment klaar is om live te gaan, kunt u het voorbeeld bekijken en publiceren en het beschikbaar maken tijdens uw reizen en campagnes. Voer hiertoe de volgende stappen uit:
 
 1. Ga terug naar het scherm voor het maken van fragmenten nadat u de inhoud hebt ontworpen, of open het vanuit de lijst met fragmenten.
 
-1. Er is een voorvertoning van het fragment beschikbaar onder de **Tags** veld, zodat de rendering ervan kan worden gecontroleerd. Als u wijzigingen wilt aanbrengen, klikt u op de knop **Bewerken** in de bovenste sectie van het scherm om de e-mailontwerper of de verpersoonlijkingseditor te openen, afhankelijk van het fragmenttype.
+1. Er is een voorvertoning van het fragment beschikbaar onder de **Tags** veld, zodat de rendering ervan kan worden gecontroleerd. Als u wijzigingen wilt aanbrengen, klikt u op de knop **Bewerken** in de bovenste sectie van het scherm om de E-mail-Designer of de personalisatie-editor te openen, afhankelijk van het fragmenttype.
 
    ![](assets/fragment-preview.png)
 
-1. Klik op de knop **Publiceren** in de rechterbovenhoek om het fragment te publiceren.
+1. Klik op de knop **Publish** in de rechterbovenhoek om het fragment te publiceren.
 
    Als het fragment tijdens een live reis of campagne wordt gebruikt, verschijnt er een bericht om u hiervan op de hoogte te stellen. Klik op de knop **Meer weergeven** link naar toegang tot de lijst van reizen en/of campagnes waar ernaar wordt verwezen. [Meer informatie over verwijzingen naar een fragment](../content-management/manage-fragments.md#explore-references)
 
@@ -99,7 +99,7 @@ Als uw fragment klaar is om live te gaan, kunt u het voorbeeld bekijken en publi
 
    ![](assets/fragment-publish.png){width="70%" align="center"}
 
-Het fragment is nu **Live** en wordt beschikbaar wanneer u inhoud binnen de [!DNL Journey Optimizer] E-mailontwerper of personalisatie-editor:
+Het fragment is nu **Live** en wordt beschikbaar wanneer u inhoud binnen de [!DNL Journey Optimizer] Designer-mailadres of personalisatie-editor:
 
 * [Leer hoe u visuele fragmenten kunt gebruiken](../email/use-visual-fragments.md)
 * [Leer hoe u expressiefragmenten kunt gebruiken](../personalization/use-expression-fragments.md)
