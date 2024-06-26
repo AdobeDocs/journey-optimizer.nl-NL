@@ -11,7 +11,7 @@ keywords: inhoud, editor, e-mail, starten
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -42,29 +42,29 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="E-mailkolommen definiëren"
->abstract="Met de E-mailontwerper kunt u de indeling van uw e-mail eenvoudig definiëren door de kolomstructuur te selecteren."
+>abstract="Met E-mail Designer kunt u de indeling van uw e-mail eenvoudig definiëren door de kolomstructuur te selecteren."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
 >title="Startpaginakolommen definiëren"
->abstract="Met Designer kunt u de lay-out van de bestemmingspagina eenvoudig definiëren door de kolomstructuur te selecteren."
+>abstract="Met de Designer kunt u de lay-out van de bestemmingspagina eenvoudig definiëren door de kolomstructuur te selecteren."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="Fragmentkolommen definiëren"
->abstract="In Designer kunt u de indeling van een fragment eenvoudig definiëren door de kolomstructuur te selecteren."
+>abstract="Met de Designer kunt u de lay-out van het fragment eenvoudig definiëren door de kolomstructuur te selecteren."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
 >title="Sjabloonkolommen definiëren"
->abstract="Met Designer kunt u de indeling van uw sjabloon eenvoudig definiëren door de kolomstructuur te selecteren."
+>abstract="Met de Designer kunt u de lay-out van uw sjabloon eenvoudig definiëren door de kolomstructuur te selecteren."
 
 
-Met Adobe Journey Optimizer Designer kunt u eenvoudig de structuur van uw inhoud definiëren. Door structuurelementen toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van uw inhoud binnen seconden ontwerpen.
+Met Adobe Journey Optimizer Designer kunt u eenvoudig de structuur van de inhoud definiëren. Door structuurelementen toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van uw inhoud binnen seconden ontwerpen.
 
 Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen:
 
-1. Selecteer op de introductiepagina van Designer de **[!UICONTROL Design from scratch]** -optie.
+1. Selecteer op de homepage van Designer de optie **[!UICONTROL Design from scratch]** -optie.
 
    ![](assets/email_designer.png)
 

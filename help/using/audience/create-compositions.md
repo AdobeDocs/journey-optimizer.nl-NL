@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 8b978900-fcef-46f2-bc19-70776e4f3d43
 source-git-commit: 01c14590fe55d8f11c1ff2b18141933b0b3dd5ca
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -71,8 +71,8 @@ Ga als volgt te werk om een compositieworkflow te maken:
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_publish"
->title="Uw publiek publiceren"
->abstract="Publiceer uw compositie om het resulterende publiek of de doelgroepen op te slaan in Adobe Experience Platform."
+>title="Publish je publiek"
+>abstract="Publish uw compositie om de resulterende groep(en) op te slaan in Adobe Experience Platform."
 
 Alle gemaakte composities zijn toegankelijk via de **[!UICONTROL Compositions]** tab. U kunt een bestaande compositie op elk gewenst moment dupliceren of verwijderen met de knop voor weglatingen in de lijst.
 

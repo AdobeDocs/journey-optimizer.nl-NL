@@ -12,7 +12,7 @@ badge: label="Beperkte beschikbaarheid"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: 2cd62c97bef156d0c1e7dda8a962be789f8131de
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Voor meer flexibiliteit en controle over uw e-mailinstellingen [!DNL Journey Opt
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_perso_not_available"
->title="Personalisatie niet beschikbaar"
+>title="Personalization niet beschikbaar"
 >abstract="Dit oppervlak is gemaakt zonder personalisatiekenmerken. Raadpleeg de documentatie voor stappen die u kunt oplossen als personalisatie vereist is."
 
 >[!CONTEXTUALHELP]
@@ -148,9 +148,9 @@ Wanneer u een oppervlak gebruikt met gepersonaliseerde instellingen in een campa
 
 1. Een e-mail maken [campagne](../campaigns/create-campaign.md) of [reis](../building-journeys/journey-gs.md).
 
-1. Selecteer de **[!UICONTROL Edit content]** knop.
+1. Selecteer de knop **[!UICONTROL Edit content]**.
 
-1. Klik op de knop **[!UICONTROL View surface details]** knop.
+1. Klik op de knop **[!UICONTROL View surface details]**.
 
    ![](assets/campaign-view-surface-details.png)
 

@@ -12,7 +12,7 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
 source-wordcount: '832'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="E-mailontwerp"
->abstract="Definieer de onderwerpregel voor de e-mail en open de e-mailontwerper om de inhoud van de e-mail te maken."
+>abstract="Definieer de onderwerpregel van uw e-mail en open de e-mailtoepassing Designer om de inhoud van de e-mail te maken."
 
 
 ## Een e-mailactie toevoegen {#email-action}
@@ -56,7 +56,7 @@ Voor meer informatie over hoe te om een reis te vormen, raadpleeg [deze pagina](
 
    ![](assets/email_campaign.png)
 
-1. Klikken **[!UICONTROL Create]**.
+1. Klik op **[!UICONTROL Create]**.
 
 1. Voer de stappen uit om een e-mailcampagne te maken, zoals de eigenschappen van de campagne, [publiek](../audience/about-audiences.md), en [schema](../campaigns/create-campaign.md#schedule).
 
@@ -79,7 +79,7 @@ Voor meer informatie over hoe te om een campagne te vormen, raadpleeg [deze pagi
 >[!CONTEXTUALHELP]
 >id="test_id"
 >title="E-mailinhoud configureren"
->abstract="Maak de inhoud van uw e-mail. Definieer het onderwerp en gebruik vervolgens de e-mailontwerper om de hoofdtekst van de e-mail te maken en aan te passen."
+>abstract="Maak de inhoud van uw e-mail. Definieer het onderwerp en gebruik vervolgens de e-mailtoepassing van de Designer om de tekst van de e-mail te maken en aan te passen."
 
 1. Van het reis of scherm van de campagneconfiguratie, klik **[!UICONTROL Edit content]** om de e-mailinhoud te configureren. [Meer informatie](get-started-email-design.md)
 
@@ -91,7 +91,7 @@ Voor meer informatie over hoe te om een campagne te vormen, raadpleeg [deze pagi
 
 1. Voeg een onderwerpregel voor uw bericht toe. Om de onderwerpregel met de verpersoonlijkingsredacteur te vormen en te personaliseren, klik **[!UICONTROL Open personalization dialog]** pictogram. [Meer informatie](../personalization/personalization-build-expressions.md)
 
-1. Klik op de knop **[!UICONTROL Edit email body]** om toegang te krijgen tot de e-mailontwerper en uw inhoud op te bouwen. [Meer informatie](get-started-email-design.md)
+1. Klik op de knop **[!UICONTROL Edit email body]** om toegang te krijgen tot e-mail Designer en uw inhoud te gaan samenstellen. [Meer informatie](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
@@ -101,7 +101,7 @@ Voor meer informatie over hoe te om een campagne te vormen, raadpleeg [deze pagi
 
    >[!NOTE]
    >
-   >Als u al inhoud hebt gemaakt of geïmporteerd via de e-mailontwerper, wordt deze inhoud weergegeven in HTML.
+   >Als u al inhoud hebt gemaakt of geïmporteerd via de e-mail-Designer, wordt deze inhoud weergegeven in HTML.
 
 ## Waarschuwingen controleren {#check-email-alerts}
 

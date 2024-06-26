@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Een openingspagina maken
+title: Een landingspagina maken
 description: Leer hoe u een bestemmingspagina in Journey Optimizer configureert en publiceert
 feature: Landing Pages
 topic: Content Management
@@ -11,7 +11,7 @@ keywords: landen, pagina landen, maken, publiceren
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -54,14 +54,14 @@ Klik op de drie stippen naast een openingspagina om de gewenste actie te selecte
 >
 >U kunt een [gepubliceerd](#publish-landing-page) openingspagina. Als u het wilt verwijderen, moet u de publicatie eerst ongedaan maken.
 
-## Een openingspagina maken {#create-landing-page}
+## Een landingspagina maken {#create-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_create"
 >title="De bestemmingspagina definiëren en configureren"
 >abstract="Als u een openingspagina wilt maken, moet u een voorinstelling selecteren, vervolgens de primaire pagina en subpagina&#39;s configureren en ten slotte de pagina testen voordat u deze publiceert."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="De openingspagina publiceren"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/create-lp.html#publish-landing-page" text="Publish de openingspagina"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_management_labels"
@@ -89,7 +89,7 @@ De belangrijkste stappen voor het maken van bestemmingspagina&#39;s zijn als vol
 
    ![](assets/lp_create-lp-presets.png)
 
-1. Klikken **[!UICONTROL Create]**.
+1. Klik op **[!UICONTROL Create]**.
 
 1. De primaire pagina en de bijbehorende eigenschappen worden weergegeven. Leer hoe u de instellingen voor de primaire pagina configureert [hier](#configure-primary-page).
 
@@ -158,7 +158,7 @@ Voer de onderstaande stappen uit om de instellingen voor de primaire pagina te d
 
    ![](assets/lp_expiry-date.png)
 
-1. In de **[!UICONTROL Additional data]** , definieert u een of meer sleutels en de bijbehorende parameterwaarden. U kunt deze toetsen gebruiken in de inhoud van uw primaire pagina en subpagina&#39;s met de opdracht [personalisatie-editor](../personalization/personalization-build-expressions.md). Meer informatie in [deze sectie](lp-content.md#use-form-component#use-additional-data).
+1. In de **[!UICONTROL Additional data]** , definieert u een of meer sleutels en de bijbehorende parameterwaarden. U kunt deze toetsen gebruiken in de inhoud van uw primaire pagina en subpagina&#39;s met de opdracht [personalisatie-editor](../personalization/personalization-build-expressions.md). Lees meer in [deze sectie](lp-content.md#use-form-component#use-additional-data).
 
    ![](assets/lp_create-lp-additional-data.png)
 
@@ -288,7 +288,7 @@ Er kunnen twee typen waarschuwingen optreden:
 > To be able to publish your message, you must resolve all **error** alerts.
 -->
 
-## De openingspagina publiceren {#publish-landing-page}
+## Publish de openingspagina {#publish-landing-page}
 
 >[!CAUTION]
 >

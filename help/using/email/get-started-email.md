@@ -11,8 +11,8 @@ keywords: e-mail, starten, maken, voorvertonen
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card4"
 >title="E-mails ontwerpen"
->abstract="Gebruiken **Adobe Journey Optimizer** om e-mailberichten naar uw klanten te verzenden. U kunt berichten maken, personaliseren en voorvertonen in de e-mailontwerper."
+>abstract="Gebruiken **Adobe Journey Optimizer** om e-mailberichten naar uw klanten te verzenden. U kunt berichten maken, personaliseren en voorvertonen in de e-mailtoepassing van Designer."
 
-Gebruiken [!DNL Journey Optimizer] om e-mailberichten naar uw klanten te verzenden. U kunt berichten maken, personaliseren en voorvertonen in de e-mailontwerper.
+Gebruiken [!DNL Journey Optimizer] om e-mailberichten naar uw klanten te verzenden. U kunt berichten maken, personaliseren en voorvertonen in de e-mailtoepassing van Designer.
 
 E-mailleveringen kunnen worden gemaakt:
 

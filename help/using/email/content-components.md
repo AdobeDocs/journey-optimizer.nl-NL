@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Onderdelen voor content van e-mailontwerpers gebruiken
+title: Componenten voor inhoud van e-mailontwerpers gebruiken
 description: Leer hoe u inhoudcomponenten in uw e-mails kunt gebruiken
 feature: Email Design
 topic: Content Management
@@ -11,12 +11,12 @@ keywords: componenten, e-mailontwerper, editor, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# De inhoudcomponenten van E-mailDesigner gebruiken {#content-components}
+# De Designer-inhoudsonderdelen voor e-mail gebruiken {#content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
@@ -46,9 +46,9 @@ U kunt zoveel inhoudscomponenten toevoegen als u nodig hebt binnen een of meer s
 
 Voer de onderstaande stappen uit om inhoudcomponenten aan uw e-mail toe te voegen en deze aan uw wensen aan te passen.
 
-1. Gebruik in de e-mailontwerper een bestaande inhoud of sleep en zet **[!UICONTROL Structure components]** in uw lege inhoud om de lay-out van uw e-mail te bepalen. [Meer informatie](content-from-scratch.md)
+1. Gebruik in de Designer-e-mail een bestaande inhoud of sleep en zet **[!UICONTROL Structure components]** in uw lege inhoud om de lay-out van uw e-mail te bepalen. [Meer informatie](content-from-scratch.md)
 
-1. Als u toegang wilt krijgen tot **[!UICONTROL Content components]** selecteert u de bijbehorende knop in het linkerdeelvenster van E-mailontwerper.
+1. Als u toegang wilt krijgen tot **[!UICONTROL Content components]** selecteert u de bijbehorende knop in het linkerdeelvenster E-mail van Designer.
 
    ![](assets/email_designer_content_components.png)
 
@@ -82,7 +82,7 @@ Gebruik de **[!UICONTROL Button]** om een of meerdere knoppen in te voegen in uw
 
 1. Van **[!UICONTROL Content components]**, slepen en neerzetten **[!UICONTROL Button]** in een **[!UICONTROL Structure component]**.
 
-1. Klik op de knop die u net hebt toegevoegd om de tekst aan te passen en toegang te krijgen tot de knop **[!UICONTROL Settings]** en **[!UICONTROL Styles]** tabbladen in het rechterdeelvenster van E-mailontwerper.
+1. Klik op de knop die u net hebt toegevoegd om de tekst aan te passen en toegang te krijgen tot de knop **[!UICONTROL Settings]** en **[!UICONTROL Styles]** tabbladen in het rechterdeelvenster van Designer e-mailen.
 
    ![](assets/email_designer_button_component.png)
 
@@ -108,7 +108,7 @@ Gebruik de **[!UICONTROL Text]** om tekst in te voegen in uw e-mail, en de stijl
 
 1. Van **[!UICONTROL Content components]**, slepen en neerzetten **[!UICONTROL Text]** in een **[!UICONTROL Structure component]**.
 
-1. Klik op de nieuwe component om de tekst aan te passen en toegang te krijgen tot de component **[!UICONTROL Settings]** en **[!UICONTROL Styles]** in het rechterdeelvenster van de e-mailontwerper.
+1. Klik op de nieuwe component om de tekst aan te passen en toegang te krijgen tot de component **[!UICONTROL Settings]** en **[!UICONTROL Styles]** tabbladen in het rechterdeelvenster van de e-mailtoepassing Designer.
 
 1. Wijzig de tekst met de volgende opties beschikbaar op de werkbalk:
 
@@ -157,7 +157,7 @@ Gebruik de **[!UICONTROL HTML]** om de verschillende onderdelen van uw bestaande
 
 >[!NOTE]
 >
->Om een externe inhoud eenvoudig compatibel te maken met de e-mailontwerper, raadt de Adobe u aan een geheel nieuw bericht te maken en de inhoud van uw bestaande e-mail naar onderdelen te kopiëren.
+>Om een externe inhoud eenvoudig compatibel te maken met de e-mail-Designer, raadt de Adobe u aan een geheel nieuw bericht te maken en de inhoud van uw bestaande e-mail te kopiëren naar onderdelen.
 
 ## Afbeelding {#image}
 
@@ -173,7 +173,7 @@ Gebruik de **[!UICONTROL Image]** om een afbeeldingsbestand van uw computer in t
 
    >[!NOTE]
    >
-   > Om ervoor te zorgen dat uw koppelingen actief blijven en om eventuele vervalproblemen te voorkomen, raden we u aan om Adobe-elementen te gebruiken in plaats van voor uw afbeeldingen een bron-URL te gebruiken.
+   > Om ervoor te zorgen dat uw koppelingen actief blijven en om eventuele vervalproblemen te voorkomen, raden we u aan Adobe Assets te gebruiken in plaats van voor uw afbeeldingen een bron-URL te gebruiken.
 
 1. U kunt ook rechtstreeks in Adobe Stock zoeken met de **[!UICONTROL Find Adobe Stock photos]** -optie.
 
@@ -206,7 +206,7 @@ Gebruik de **[!UICONTROL Social]** om koppelingen naar pagina&#39;s met sociale 
 
    ![](assets/email_designer_21.png)
 
-1. U kunt de pictogrammen van elk van uw sociale media desgewenst ook wijzigen in uw Middelen.
+1. U kunt de pictogrammen van elk van uw sociale media desgewenst ook wijzigen vanuit uw Assets.
 
 1. Pas de andere opmaakkenmerken aan, zoals stijl, marge, rand, enzovoort. van de **[!UICONTROL Styles]** tab.
 

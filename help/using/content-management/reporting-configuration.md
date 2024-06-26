@@ -26,7 +26,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
 >title="Een gegevensset selecteren"
->abstract="U kunt een gebeurtenis-type dataset slechts selecteren, die minstens één van de gesteunde gebiedsgroepen moet bevatten: de Details van de Toepassing, de Details van de Handel, de Details van het Web,."
+>abstract="U kunt slechts een gebeurtenis-type dataset selecteren, die minstens één van de gesteunde gebiedsgroepen moet bevatten: de Details van de Toepassing, de Details van Commerce, de Details van het Web."
 
 De rapporterende gegevensbronconfiguratie staat u toe om een verbinding aan een systeem te bepalen om extra informatie terug te winnen die in uw rapporten zal worden gebruikt.
 
