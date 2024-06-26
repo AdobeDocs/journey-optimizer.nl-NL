@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reis, configuratie, eigenschappen
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: cb6a3b279158eb065c3dca5436bd992efb79fcff
+source-git-commit: a43179e67a7d5387e67bd3f6bb3ac3f24dd6325a
 workflow-type: tm+mt
 source-wordcount: '1716'
 ht-degree: 0%
@@ -157,7 +157,7 @@ Vanaf de release van Adobe Journey Optimizer juni 2024 is de wereldwijde time-ou
       <p>Wat gebeurt er met een profiel dat een reis ingaat die vóór de lancering van de uitbreiding van TTL werd gepubliceerd?</p>
     </td>
     <td>
-      <p>Het profiel zal een TTL van 91 dagen (7 dagen voor HIPAA) hebben, in overeenstemming met de tijd dat de reis oorspronkelijk werd gepubliceerd.</p>
+      <p>Het profiel zal een TTL van 30 dagen (7 dagen voor HIPAA) hebben, in overeenstemming met de tijd dat de reis oorspronkelijk werd gepubliceerd.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -165,7 +165,7 @@ Vanaf de release van Adobe Journey Optimizer juni 2024 is de wereldwijde time-ou
       <p>Wat gebeurt er met een profiel dat al een reis is begonnen toen de uitbreiding van de TTL wordt gestart?</p>
     </td>
     <td>
-      <p>Het profiel behoudt een TTL van 91 dagen (7 dagen voor HIPAA), volgens de oorspronkelijke publicatietijd van de reis.</p>
+      <p>Het profiel behoudt een TTL van 30 dagen (7 dagen voor HIPAA) volgens de oorspronkelijke publicatietijd van de reis.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -173,7 +173,7 @@ Vanaf de release van Adobe Journey Optimizer juni 2024 is de wereldwijde time-ou
       <p>Wat gebeurt er met een profiel in een vorige reisversie dat opnieuw wordt gepubliceerd na de lancering van de uitbreiding van TTL?</p>
     </td>
     <td>
-      <p>Het profiel zal een TTL van 91 dagen (7 dagen voor HIPAA) handhaven, die met de de publicatietijd van de originele reisversie wordt gericht.</p>
+      <p>Het profiel zal een TTL van 30 dagen (7 dagen voor HIPAA) handhaven, die met de de publicatietijd van de originele reisversie wordt gericht.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -218,7 +218,7 @@ Vanaf de release van Adobe Journey Optimizer juni 2024 is de wereldwijde time-ou
       <p>Wat gebeurt er met een profiel dat een reis ingaat die vóór de lancering van de uitbreiding van TTL werd gepubliceerd?</p>
     </td>
     <td>
-      <p>Het profiel zal een TTL van 91 dagen (7 dagen voor HIPAA) hebben, verenigbaar met de originele publicatietijd. Voor terugkerende ritten met gedwongen terugkeer zal de TTL overeenkomen met de herhalingsperiode.</p>
+      <p>Het profiel zal een TTL van 30 dagen (7 dagen voor HIPAA) hebben, verenigbaar met de originele publicatietijd. Voor terugkerende ritten met gedwongen terugkeer zal de TTL overeenkomen met de herhalingsperiode.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -226,7 +226,7 @@ Vanaf de release van Adobe Journey Optimizer juni 2024 is de wereldwijde time-ou
       <p>Wat gebeurt er met een profiel dat door een reis loopt wanneer de uitbreiding van TTL wordt gelanceerd?</p>
     </td>
     <td>
-      <p>Het profiel behoudt een TTL van 91 dagen (7 dagen voor HIPAA), volgens de oorspronkelijke publicatietijd van de reis. Voor terugkerende ritten met gedwongen terugkeer zal de TTL overeenkomen met de herhalingsperiode.</p>
+      <p>Het profiel behoudt een TTL van 30 dagen (7 dagen voor HIPAA) volgens de oorspronkelijke publicatietijd van de reis. Voor terugkerende ritten met gedwongen terugkeer zal de TTL overeenkomen met de herhalingsperiode.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -234,7 +234,7 @@ Vanaf de release van Adobe Journey Optimizer juni 2024 is de wereldwijde time-ou
       <p>Wat gebeurt er met een lopend profiel in een vorige reisversie die opnieuw wordt gepubliceerd na de lancering van de uitbreiding van TTL?</p>
     </td>
     <td>
-      <p>Het profiel zal een TTL van 91 dagen (7 dagen voor HIPPA) handhaven, die aan de originele de publicatietijd van de reisversie wordt aangepast. Voor terugkerende ritten met gedwongen terugkeer zal de TTL overeenkomen met de herhalingsperiode.</p>
+      <p>Het profiel zal een TTL van 30 dagen (7 dagen voor HIPPA) handhaven, die aan de originele de publicatietijd van de reisversie wordt gericht. Voor terugkerende ritten met gedwongen terugkeer zal de TTL overeenkomen met de herhalingsperiode.</p>
     </td>
   </tr>
   <tr style="border: 1;">
