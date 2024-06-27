@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: e-mail, sjablonen, ontwerpen
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 08f12adf384b98dfa1d69cbc2d684c3bf58d31fa
+source-git-commit: 5be9ac1f77d7a09089dd8115fd7c9cfa0a3ab0d2
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '235'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 1%
 >id="ajo_use_template"
 >title="Inhoud maken op basis van een sjabloon"
 >abstract="Als u uw e-mailinhoud wilt gaan maken, selecteert u een sjabloon die buiten de box valt of een aangepaste bestaande sjabloon die helemaal opnieuw is gemaakt of als sjabloon is opgeslagen in een vorige e-mail."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-templates#create-content-templates" text="Inhoudssjablonen maken"
 
 Van de **[!UICONTROL Create your email]** scherm, gebruik **[!UICONTROL Select design template]** om uw inhoud op te bouwen van een sjabloon.
 
@@ -40,7 +39,7 @@ U kunt kiezen uit:
 
 Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen met een van de voorbeeldsjablonen of opgeslagen sjablonen.
 
-1. [Toegang tot de e-mailontwerper](get-started-email-design.md) uit de e-mail **[!UICONTROL Edit content]** scherm.
+1. [Toegang krijgen tot de e-mail-Designer](get-started-email-design.md) uit de e-mail **[!UICONTROL Edit content]** scherm.
 
 1. Op de **[!UICONTROL Create your email]** scherm, de **[!UICONTROL Sample templates]** is standaard geselecteerd.
 
@@ -60,4 +59,4 @@ Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen met een van d
 
 1. Klikken **[!UICONTROL Use this template]** rechtsboven op het scherm.
 
-1. Bewerk de inhoud naar wens met de e-mailontwerper.
+1. Bewerk de inhoud naar wens met de e-mail Designer.
