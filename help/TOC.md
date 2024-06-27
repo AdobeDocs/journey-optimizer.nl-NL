@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 2de94e8ce3fe77399c8dc1d515ae73d58cb8f43d
 workflow-type: tm+mt
-source-wordcount: '1865'
-ht-degree: 29%
+source-wordcount: '1873'
+ht-degree: 28%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 29%
       + [Uw reis simuleren](using/building-journeys/journey-simulation.md)
       + [Publish je reis](using/building-journeys/publishing-the-journey.md)
    + Uw reizen beheren{#manage-journey}
-      + [Beëindig uw reis](using/building-journeys/end-journey.md)
-      + [Tijdzonebeheer](using/building-journeys/timezone-management.md)
       + [Profieltoegangsbeheer](using/building-journeys/entry-management.md)
+      + [Tijdzonebeheer](using/building-journeys/timezone-management.md)
+      + [Beëindig uw reis](using/building-journeys/end-journey.md)
       + [Een journey naar een andere sandbox kopiëren](using/building-journeys/copy-to-sandbox.md)
       + [Uw reis oplossen](using/building-journeys/troubleshooting.md)
       + [Integreren met intelligente services](using/building-journeys/ai-services-overview.md)
@@ -73,9 +73,9 @@ ht-degree: 29%
       + [Springen](using/building-journeys/jump.md)
       + [Profiel bijwerken](using/building-journeys/update-profiles.md)
    + Expressies samenstellen {#building-advanced-conditions-journeys}
-      + [Overzicht](using/building-journeys/expression/expressionadvanced.md)
+      + [Werken met de geavanceerde expressie-editor](using/building-journeys/expression/expressionadvanced.md)
       + Syntaxis {#syntax}
-         + [Algemeen](using/building-journeys/expression/generalities.md)
+         + [Syntaxis van geavanceerde expressie-editor](using/building-journeys/expression/generalities.md)
          + [Voorwaardelijke instructie](using/building-journeys/expression/conditional-instruction.md)
          + [Datatypen](using/building-journeys/expression/data-types.md)
          + [Veldverwijzingen](using/building-journeys/expression/field-references.md)
