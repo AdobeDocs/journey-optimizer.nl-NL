@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Wanneer uw inhoud klaar is, klikt u op de knop **Opslaan** knop. Het fragment wo
 
 >[!NOTE]
 >
->Als u een fragment wilt publiceren, moet u beschikken over **Publish-fragment** verwante machtigingen. [Meer informatie over machtigingen](../administration/ootb-permissions.md)
+>Als u een fragment wilt publiceren, moet u beschikken over [Publish-fragment](../administration/ootb-product-profiles.md#content-library-manager) gebruikerstoestemming.
 
 Als uw fragment klaar is om live te gaan, kunt u het voorbeeld bekijken en publiceren en het beschikbaar maken tijdens uw reizen en campagnes. Voer hiertoe de volgende stappen uit:
 

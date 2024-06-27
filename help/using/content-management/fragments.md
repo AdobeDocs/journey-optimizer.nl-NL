@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: 0ee93c3f3e922d0640b2867dcf5ebb83d67aa826
+source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ U kunt zo veel mogelijk gebruikmaken van fragmenten:
 
 ## Voordat u begint {#fragment-prerequisites}
 
-U moet beschikken over de **[!DNL Manage library items]** bevoegdheid opgenomen in de **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
+Voor het maken, bewerken, archiveren en publiceren van fragmenten hebt u de opdracht **[!DNL Manage library items]** en **[Publish-fragment]** machtigingen die zijn opgenomen in de **[!DNL Content Library Manager]** productprofiel. [Meer informatie](../administration/ootb-product-profiles.md#content-library-manager)
 
 In deze versie gelden de volgende beperkingen:
 
@@ -47,7 +47,7 @@ In deze versie gelden de volgende beperkingen:
 
 Er zijn twee typen fragmenten beschikbaar:
 
-* **Visuele fragmenten** Dit zijn vooraf gedefinieerde visuele blokken die u kunt hergebruiken in meerdere e-mailleveringen met de [E-mailDesigner](../email/get-started-email-design.md), of in [inhoudssjablonen](../email/use-email-templates.md).
+* **Visuele fragmenten** Dit zijn vooraf gedefinieerde visuele blokken die u kunt hergebruiken in meerdere e-mailleveringen met de [Designer e-mailen](../email/get-started-email-design.md), of in [inhoudssjablonen](../email/use-email-templates.md).
 * **Expressiefragmenten** zijn vooraf gedefinieerde expressies die beschikbaar zijn via een toegewezen item in het dialoogvenster [personalisatie-editor](../personalization/personalization-build-expressions.md).
 
 Alle gemaakte fragmenten zijn toegankelijk vanuit de **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]**  links. [Leer hoe u fragmenten beheert](../content-management/manage-fragments.md)

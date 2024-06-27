@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Van de **[!UICONTROL More actions]** naast elk fragment kunt u:
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Nieuwe fragmentstatussen"
->abstract="Sinds **Concept** en **Live** De status &#39;Concept&#39; is ingevoerd met de release van Journey Optimizer June. Alle fragmenten die vóór deze release zijn gemaakt, hebben de status &#39;Concept&#39;, zelfs als ze op reis of tijdens een campagne worden gebruikt. Als u wijzigingen aanbrengt in deze fragmenten, moet u deze publiceren om ze &quot;live&quot; te maken en de wijzigingen aan de bijbehorende campagnes en reizen door te geven. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. Voor publiceren is toestemming van de Publish-fragmentgebruiker vereist."
+>abstract="Sinds **Concept** en **Live** De status &#39;Concept&#39; is ingevoerd met de release van Journey Optimizer June. Alle fragmenten die vóór deze release zijn gemaakt, hebben de status &#39;Concept&#39;, zelfs als ze op reis of tijdens een campagne worden gebruikt. Als u wijzigingen aanbrengt in deze fragmenten, moet u deze publiceren om ze &quot;live&quot; te maken en de wijzigingen aan de bijbehorende campagnes en reizen door te geven. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. <br/>Voor publicatie is de opdracht <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Publish-fragment</a> gebruikerstoestemming."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Meer informatie over machtigingen voor inhoudsfragmenten"
 
 Fragmenten kunnen meerdere statussen hebben:
@@ -63,7 +63,7 @@ Fragmenten kunnen meerdere statussen hebben:
 
 >[!CAUTION]
 >
->Sinds **Concept** en **Live** De status &#39;Concept&#39; is ingevoerd met de release van Journey Optimizer June. Alle fragmenten die vóór deze release zijn gemaakt, hebben de status &#39;Concept&#39;, zelfs als ze op reis of tijdens een campagne worden gebruikt. Als u wijzigingen aanbrengt in deze fragmenten, moet u deze publiceren om ze &quot;live&quot; te maken en de wijzigingen aan de bijbehorende campagnes en reizen door te geven. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. Voor publicatie is de opdracht [Publish-fragment](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager) gebruikerstoestemming.
+>Sinds **Concept** en **Live** De status &#39;Concept&#39; is ingevoerd met de release van Journey Optimizer June. Alle fragmenten die vóór deze release zijn gemaakt, hebben de status &#39;Concept&#39;, zelfs als ze op reis of tijdens een campagne worden gebruikt. Als u wijzigingen aanbrengt in deze fragmenten, moet u deze publiceren om ze &quot;live&quot; te maken en de wijzigingen aan de bijbehorende campagnes en reizen door te geven. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. Voor publicatie is de opdracht [Publish-fragment](../administration/ootb-product-profiles.md#content-library-manager) gebruikerstoestemming.
 
 ## Fragmenten bewerken {#edit-fragments}
 
