@@ -9,9 +9,9 @@ role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, bibliotheek, personalisatie
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -51,8 +51,6 @@ Volg onderstaande stappen om expressiefragmenten aan uw inhoud toe te voegen.
    >[!CAUTION]
    >
    >U kunt elke **Concept** of **Live** fragment naar uw inhoud. U kunt uw reis of campagne echter niet activeren als er een fragment met de status Concept in wordt gebruikt. Tijdens de reis- of campagnepublicatie wordt een fout weergegeven in ontwerpfragmenten die u moet goedkeuren om te kunnen publiceren.
-   >
-   > Let op: de fragmentatiestatus wordt geleidelijk ingevoerd gedurende enkele dagen na de release van Journey Optimizer in juni. Terwijl sommige gebruikers directe toegang zullen hebben, kunnen anderen een vertraging ervaren alvorens het in hun milieu&#39;s beschikbaar wordt. Als deze verbetering nog niet beschikbaar is in uw omgeving, hoeft het fragment niet **Live** voor uw reizen en campagnes.
 
 1. Nadat de fragment-id is toegevoegd, opent u het bijbehorende expressiefragment en [bewerken](../content-management/fragments.md#edit-fragments) vanuit de interface worden de wijzigingen gesynchroniseerd. Ze worden automatisch doorgegeven aan alle concepten of live reizen/campagnes die die fragment-id bevatten.
 

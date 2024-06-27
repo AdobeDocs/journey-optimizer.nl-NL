@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: ca743774017e8f6cf5f385119d9c71de6020bb19
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '665'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Voer de onderstaande stappen uit om een fragment te gebruiken in een e-mailberic
 >U kunt maximaal 30 fragmenten in een bepaalde levering toevoegen. Fragmenten kunnen maximaal 1 niveau worden genest.
 
 
-1. Open e-mail- of sjablooninhoud met de [E-mailDesigner](get-started-email-design.md).
+1. Open e-mail- of sjablooninhoud met de [Designer e-mailen](get-started-email-design.md).
 
 1. Selecteer de **[!UICONTROL Fragments]** pictogram van de linkerrails.
 
@@ -54,8 +54,6 @@ Voer de onderstaande stappen uit om een fragment te gebruiken in een e-mailberic
    >[!CAUTION]
    >
    >U kunt elke **Concept** of **Live** fragment naar uw inhoud. U kunt uw reis of campagne echter niet activeren als er een fragment met de status Concept in wordt gebruikt. Tijdens de reis- of campagnepublicatie wordt een fout weergegeven in ontwerpfragmenten die u moet goedkeuren om te kunnen publiceren.
-   >
-   > Let op: de fragmentatiestatus wordt geleidelijk ingevoerd gedurende enkele dagen na de release van Journey Optimizer in juni. Terwijl sommige gebruikers directe toegang zullen hebben, kunnen anderen een vertraging ervaren alvorens het in hun milieu&#39;s beschikbaar wordt. Als deze verbetering nog niet beschikbaar is in uw omgeving, hoeft het fragment niet **Live** voor uw reizen en campagnes.
 
 1. Net als bij andere componenten kunt u het fragment in de inhoud verplaatsen.
 

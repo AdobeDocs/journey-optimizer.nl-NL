@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: ffeaa49cde2871b28c85598469e62f4d9acbf060
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -72,10 +72,6 @@ Nadat u de eigenschappen van het fragment hebt geconfigureerd, wordt de e-mail-D
   ![](assets/fragment-expression-editor.png)
 
 Wanneer uw inhoud klaar is, klikt u op de knop **Opslaan** knop. Het fragment wordt gemaakt en aan de fragmentlijst toegevoegd met de opdracht **Concept** status. U kunt een voorvertoning weergeven en deze publiceren om deze beschikbaar te maken tijdens reizen en campagnes.
-
->[!NOTE]
->
->De publicatie van fragmenten wordt geleidelijk uitgevoerd in de loop van enkele dagen na de release van Journey Optimizer in juni. Terwijl sommige gebruikers directe toegang zullen hebben, kunnen anderen een vertraging ervaren alvorens het in hun milieu&#39;s beschikbaar wordt. Als deze verbetering nog niet in uw milieu beschikbaar is, gelieve te merken dat het publiceren van fragment niet wordt vereist om fragmenten in uw reizen en campagnes te gebruiken.
 
 ## Het fragment voorvertonen en publiceren {#publish}
 

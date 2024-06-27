@@ -8,22 +8,22 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: 893f7146b358da48153b1e6bc74b8f622028df76
+source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
 # Inhoud opslaan als fragment {#save-as-fragment}
 
-Bij het bewerken van inhoud in [!DNL Journey Optimizer], kunt u de inhoud geheel of gedeeltelijk opslaan als fragment voor toekomstig hergebruik. U kunt inhoud opslaan als een fragment [van de e-mailontwerper](#save-as-visual-fragment), of [uit de expressieeditor](#save-as-expression-fragment).
+Bij het bewerken van inhoud in [!DNL Journey Optimizer], kunt u de inhoud geheel of gedeeltelijk opslaan als fragment voor toekomstig hergebruik. U kunt inhoud opslaan als een fragment [van de e-mailDesigner](#save-as-visual-fragment), of [uit de expressieeditor](#save-as-expression-fragment).
 
 ## Opslaan als visueel fragment {#save-as-visual-fragment}
 
-Voer de volgende stappen uit om inhoud van het e-mailDesigner-fragment op te slaan:
+Voer de volgende stappen uit om inhoud van de e-mailtoepassing als fragment op te slaan:
 
-1. In de [E-mailDesigner](../email/get-started-email-design.md)Klik op de ellips rechtsboven in het scherm.
+1. In de [Designer e-mailen](../email/get-started-email-design.md)Klik op de ellips rechtsboven in het scherm.
 
 1. Selecteren **[!UICONTROL Save as fragment]** in het keuzemenu.
 
@@ -50,10 +50,6 @@ Voer de volgende stappen uit om inhoud van het e-mailDesigner-fragment op te sla
    >Wijzigingen in dat nieuwe fragment worden niet doorgegeven aan het e-mailbericht of de sjabloon waaruit het fragment afkomstig is. Op dezelfde manier wordt het nieuwe fragment niet gewijzigd wanneer de oorspronkelijke inhoud wordt bewerkt in het e-mailbericht of de sjabloon.
 
 1. Als u het fragment wilt kunnen gebruiken tijdens reizen en campagnes, moet u het live maken. [Leer hoe u een fragment voorvertoont en publiceert](../content-management/create-fragments.md#publish)
-
->[!NOTE]
->
->De publicatie van fragmenten wordt geleidelijk uitgevoerd in de loop van enkele dagen na de release van Journey Optimizer in juni. Terwijl sommige gebruikers directe toegang zullen hebben, kunnen anderen een vertraging ervaren alvorens het in hun milieu&#39;s beschikbaar wordt. Als deze verbetering nog niet in uw milieu beschikbaar is, gelieve te merken dat het publiceren van fragment niet wordt vereist om fragmenten in uw reizen en campagnes te gebruiken.
 
 ## Opslaan als expressiefragment {#save-as-expression-fragment}
 
@@ -83,7 +79,3 @@ Voer de onderstaande stappen uit om inhoud op te slaan als een expressiefragment
 1. Het fragment wordt toegevoegd aan de [fragmentlijst](#access-manage-fragments) met de **Concept** status. Het wordt een zelfstandig fragment dat kan worden gebruikt als elk ander expressiefragment uit die lijst.
 
 1. Als u het fragment wilt kunnen gebruiken tijdens reizen en campagnes, moet u het live maken. [Leer hoe u een fragment voorvertoont en publiceert](../content-management/create-fragments.md#publish)
-
->[!NOTE]
->
->De publicatie van fragmenten wordt geleidelijk uitgevoerd in de loop van enkele dagen na de release van Journey Optimizer in juni. Terwijl sommige gebruikers directe toegang zullen hebben, kunnen anderen een vertraging ervaren alvorens het in hun milieu&#39;s beschikbaar wordt. Als deze verbetering nog niet in uw milieu beschikbaar is, gelieve te merken dat het publiceren van fragment niet wordt vereist om fragmenten in uw reizen en campagnes te gebruiken.
