@@ -7,10 +7,11 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+badge: label="Beperkte beschikbaarheid" type="Informative"
+exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '3820'
+source-wordcount: '3821'
 ht-degree: 0%
 
 ---
@@ -33,7 +34,7 @@ De **[!UICONTROL Journey report]** De pagina wordt weergegeven met de volgende t
 * [Web](#web-cja)
 * [Direct mail](#direct-mail-cja)
 
-Voor meer informatie over de werkruimte van de Customer Journey Analytics en over het filteren en analyseren van gegevens raadpleegt u [deze pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Voor meer informatie over Customer Journey Analytics Workspace en over het filteren en analyseren van gegevens raadpleegt u [deze pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Reisoverzicht {#journey-global}
 

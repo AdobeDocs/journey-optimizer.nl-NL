@@ -7,11 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
+badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '3896'
+source-wordcount: '3897'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ De **Campagnerapport** De pagina wordt weergegeven met de volgende tabbladen, af
 * [Direct mail](#direct-mail)
 * [Web](#web)
 
-Voor meer informatie over de werkruimte van de Customer Journey Analytics en over het filteren en analyseren van gegevens raadpleegt u [deze pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Voor meer informatie over Customer Journey Analytics Workspace en over het filteren en analyseren van gegevens raadpleegt u [deze pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Campaign {#campaign-global}
 
@@ -160,6 +160,7 @@ Raadpleeg voor een diepgaande analyse van deze resultaten en de manier waarop u 
 
 <!--
 * **[!UICONTROL Confidence Upper bound]**:
+
 * **[!UICONTROL Confidence Lower bound]**:
 -->
 +++

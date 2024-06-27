@@ -7,10 +7,11 @@ feature: Reporting, Landing Pages
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+badge: label="Beperkte beschikbaarheid" type="Informative"
+exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -114,10 +115,3 @@ De **[!UICONTROL Channel]** in de tabel wordt het aantal bezoeken aan de landing
 De **[!UICONTROL Top Clicked Links]** de tabel biedt inzicht in de manier waarop bezoekers met de levering omgaan en geeft aan welke koppelingen de meeste betrokkenheid en aandacht van uw publiek krijgen .
 
 * **[!UICONTROL Landing page Clicks]**: Het aantal keren dat op een inhoud is geklikt op de bestemmingspagina.
-
-
-
-
-
-
-

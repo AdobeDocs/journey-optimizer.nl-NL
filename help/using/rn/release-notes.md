@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3d3714675833f685c0775be68a403f4e9de3ce27
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1032'
 ht-degree: 5%
 
 ---
@@ -74,7 +74,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <table>
 <thead>
 <tr>
-<th><strong>Rapportage met Customer Journey Analytics (bèta)</strong><br/></th>
+<th><strong>Rapportage met Customer Journey Analytics (beperkte beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -215,7 +215,7 @@ Lees meer in de [inhoudsfragment](../content-management/fragments.md) documentat
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* U kunt nu de Edge Delivery-plug-in gebruiken om informatie op te halen die nodig is om uw binnenkomende implementaties te begrijpen en problemen op te lossen. [Meer informatie over de Edge Delivery-weergave](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+* U kunt nu de Edge Delivery-insteekmodule gebruiken om informatie op te halen die nodig is voor het begrijpen van en het oplossen van problemen met uw binnenkomende implementaties. [Meer informatie over de weergave Edge Delivery](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
 
 #### Direct mailkanaal

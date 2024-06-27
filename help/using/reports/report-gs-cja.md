@@ -7,11 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
+badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: c2fda001969867aebcc4e5c6854183c30240fddb
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,6 @@ Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabilit
 
 ## Hoe kan ik-video{#video}
 
-In de onderstaande video ziet u hoe u de **Toepassingsconfiguratie beheren** machtiging om het menu met toepassingsoppervlakken te openen.
+In de onderstaande video ziet u hoe u de verbeterde Journey Optimizer-rapportage met Customer Journey Analytics kunt gebruiken.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430413)

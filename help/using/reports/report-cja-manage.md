@@ -7,10 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
-source-git-commit: 854f593710a28bde605aa995d747d4e084a6c4b4
+badge: label="Beperkte beschikbaarheid" type="Informative"
+exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -70,5 +71,3 @@ U kunt uw verschillende rapporten eenvoudig exporteren naar de indelingen PDF of
 Uw rapport is nu beschikbaar voor weergave, downloaden of delen in een PDF-bestand.
 
 >[!ENDTABS]
-
-

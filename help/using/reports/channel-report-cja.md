@@ -7,10 +7,11 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta" type="Informative"
-source-git-commit: 2a5c04477b38e2fccdde86af56714261c6638160
+badge: label="Beperkte beschikbaarheid" type="Informative"
+exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
+source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ De rapportpagina wordt getoond met de volgende lusjes:
 * [Campagnes](#campaign)
 * [Kanalen](#channel)
 
-Voor meer informatie over de werkruimte van de Customer Journey Analytics en over het filteren en analyseren van gegevens raadpleegt u [deze pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Voor meer informatie over Customer Journey Analytics Workspace en over het filteren en analyseren van gegevens raadpleegt u [deze pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Hooglichten {#highlights}
 
