@@ -5,28 +5,28 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 6c4e0418776622467e7f5b7bb3d9332d965becf1
+source-git-commit: 695296b6aa6f2da0390648be13efb8a83fe287ec
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
 # Adobe [!DNL Journey Optimizer] Documentatie {#cjm-documentation}
 
-## Wat is nieuw?
+## Nieuwe functies
 
 Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en -documentatie! Bekijk voor een uitgebreide lijst met functies, verbeteringen en oplossingen de gedetailleerde [Aanvullende informatie](using/rn/release-notes.md). Blijf op de hoogte van de nieuwste wijzigingen in onze documentatie door de [pagina met documentupdates](using/rn/documentation-updates.md) te bekijken.
 
 >[!BEGINTABS]
 
->[!TAB Juni-release is live.]
+>[!TAB Release van juni is live!]
 
 Ontdek nieuwe functies en verbeteringen die worden geïntroduceerd met de release van Adobe Journey Optimizer May.
 
 [![Meer informatie](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Rapportage met Customer Journey Analytics (bèta)]
+>[!TAB Rapportage met Customer Journey Analytics (Beta)]
 
 Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabiliteit met de mogelijkheden van de Customer Journey Analytics, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van de gegevens.
 
@@ -96,7 +96,7 @@ Fragmenten kunnen nu worden bewerkt en wijzigingen kunnen worden doorgevoerd in 
   <tr style="border: 0;">
     <td>
       <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>Inhoudsbeheer</strong><br/><a href="using/content-management/assets.md">Middelen/afbeeldingen</a> - <a href="using/personalization/personalize.md">Personalisatie</a> - <a href="using/content-management/content-templates.md">Herbruikbaar</a> &amp; <a href="using/personalization/dynamic-content.md">dynamic</a> inhoud - <a href="using/content-management/preview-test.md">Inhoud testen en voorvertonen</a>
+      <strong>Inhoudsbeheer</strong><br/><a href="using/content-management/assets.md">Assets/images</a> - <a href="using/personalization/personalize.md">Personalization</a> - <a href="using/content-management/content-templates.md">Herbruikbaar</a> &amp; <a href="using/personalization/dynamic-content.md">dynamic</a> inhoud - <a href="using/content-management/preview-test.md">Inhoud testen en voorvertonen</a>
     </td>
     <td>
       <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
