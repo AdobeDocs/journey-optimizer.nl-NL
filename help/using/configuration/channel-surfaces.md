@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 9af49f0a47ad5bc1d2cea3e822ec20e2930140d3
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1694'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,36 @@ ht-degree: 0%
 >id="ajo_admin_channel_surfaces"
 >title="Kanaaloppervlak"
 >abstract="Een kanaaloppervlakte is een configuratie die door een Beheerder van het Systeem is bepaald. Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enzovoort."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_marketing_action"
+>title="Handeling"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_app_id"
+>title="Toepassings-id"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_location"
+>title="Locatie op pagina"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_page_rule"
+>title="Overeenkomende regel voor pagina&#39;s"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_url"
+>title="Standaard-URL"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_surface_uri"
+>title="OppervlakteURI"
+>abstract="TBC"
 
 Met [!DNL Journey Optimizer]kunt u kanaaloppervlakken instellen (d.w.z. voorinstellingen voor berichten) die alle technische parameters definiëren die vereist zijn voor uw berichten: e-mailtype, e-mail en naam van de afzender, mobiele apps, SMS-configuratie en meer.
 
