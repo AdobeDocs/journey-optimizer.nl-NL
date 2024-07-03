@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 0454008d81a5aebccbbf75b0ef723fa869589597
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 5%
+source-wordcount: '1062'
+ht-degree: 4%
 
 ---
 
@@ -175,7 +175,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 * Er zijn nieuwe statussen voor inhoudsfragmenten geïntroduceerd: **Concept**, **Live**, **Publiceren**, en **Gearchiveerd**.
 * Als u een fragment wilt gebruiken in een reis of campagne, moet het nu in de **Live** status. Er is een nieuwe stap toegevoegd aan het proces voor het maken van fragmenten, zodat het fragment kan worden gepubliceerd en beschikbaar kan worden gesteld voor gebruik tijdens reizen en campagnes. Voor het publiceren van fragmenten is een nieuwe machtiging vereist.
 
-  **VOORZIENING** - Sinds **Concept** en **Live** de status is geïntroduceerd met de release van Journey Optimizer June, alle fragmenten die vóór deze release zijn gemaakt, beschikken over de **Concept** status, zelfs als zij op reis of campagne worden gebruikt. Leer hoe u uw bestaande fragmenten in deze sectie kunt bijwerken.
+  **VOORZIENING** - Sinds **Concept** en **Live** de status is geïntroduceerd met de release van Journey Optimizer June, alle fragmenten die vóór deze release zijn gemaakt, beschikken over de **Concept** status, zelfs als zij op reis of campagne worden gebruikt. Als u deze fragmenten wijzigt, moet u [publiceren](../content-management/create-fragments.md#publish) om ze &quot;live&quot; te maken en de wijzigingen in de bijbehorende campagnes en reizen door te geven. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren.
 
 Lees meer in de [inhoudsfragment](../content-management/fragments.md) documentatie.
 
