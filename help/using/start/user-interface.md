@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 0ccc6453594aaf501f15e5342331b1649346bfa3
 workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 5%
@@ -132,9 +132,9 @@ Beheer uw privacybeheer en verzoeken vanuit deze sectie.
 
 * **[!UICONTROL Alerts]** - Met de gebruikersinterface kunt u een geschiedenis bekijken van ontvangen waarschuwingen op basis van meetgegevens die zijn onthuld door Adobe Experience Platform Observability Insights. UI staat u ook toe om, beschikbare waakzame regels te bekijken toe te laten en onbruikbaar te maken. [Meer informatie](../reports/alerts.md)
 
-* **[!UICONTROL Sandboxes]** - Adobe Experience Platform biedt sandboxen die één instantie in afzonderlijke virtuele omgevingen verdelen om toepassingen voor digitale ervaringen te ontwikkelen en te ontwikkelen. Blader in deze sectie om uw sandbaoxen te beheren. [Meer informatie](../administration/sandboxes.md)
+* **[!UICONTROL Sandboxes]** - Adobe Experience Platform biedt sandboxen die één instantie in afzonderlijke virtuele omgevingen verdelen om toepassingen voor digitale ervaringen te ontwikkelen en te ontwikkelen. Blader in deze sectie om uw sandboxen te beheren. [Meer informatie](../administration/sandboxes.md)
 
-* **[!UICONTROL Channels]** - Gebruik deze sectie om uw kanalen, met inbegrip van onderstations, oppervlakten, en leveringsmontages te vormen. [Meer informatie](../configuration/get-started-configuration.md)
+* **[!UICONTROL Channels]** - Gebruik deze sectie om uw kanalen, met inbegrip van subdomeinen, oppervlakten, en leveringsmontages te vormen. [Meer informatie](../configuration/get-started-configuration.md)
 
 * **[!UICONTROL Tags]** - Met Verenigde Markeringen, kunt u uw reizen en campagnes gemakkelijk classificeren om onderzoek van de lijsten te verbeteren. [Meer informatie](../start/search-filter-categorize.md#work-with-unified-tags)
 

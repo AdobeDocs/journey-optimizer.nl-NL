@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: e-mail, starten, maken, voorvertonen
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
+source-git-commit: 0ccc6453594aaf501f15e5342331b1649346bfa3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '158'
+ht-degree: 11%
 
 ---
 
