@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 794ac45177e467be4bd5b8f7288e07c85e4d806a
+source-git-commit: 080928d14a9d6ec116286386748b77a6a25e76f8
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 >abstract="Selecteer het type tekstberichten die dit oppervlak gebruiken: Marketing voor promotieberichten waarvoor toestemming van de gebruiker vereist is, of Transactie voor niet-commerciële berichten, zoals het opnieuw instellen van wachtwoorden."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html#sms-opt-out-management" text="Afmelden bij marketingberichten"
 
-Zodra uw SMS/MMS kanaal is gevormd, moet u een kanaaloppervlakte tot stand brengen om SMS en MMS berichten van te kunnen verzenden **[!DNL Journey Optimizer]**.
+Zodra uw SMS/MMS-kanaal is geconfigureerd, moet u een kanaaloppervlak maken om SMS- en MMS-berichten van **[!DNL Journey Optimizer]** te kunnen verzenden.
 
 Ga als volgt te werk om een kanaaloppervlak te maken:
 
-1. Blader in de linkertrack naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteert u **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]**. Klik op de knop **[!UICONTROL Create channel surface]**.
+1. Blader in de linkertrack naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteer **[!UICONTROL Branding]** > **[!UICONTROL Channel surfaces]** . Klik op de knop **[!UICONTROL Create channel surface]**.
 
    ![](assets/preset-create.png)
 
@@ -36,54 +36,48 @@ Ga als volgt te werk om een kanaaloppervlak te maken:
 
    >[!NOTE]
    >
-   > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook het onderstrepingsteken gebruiken `_`, punt`.` en afbreekstreepje `-` tekens.
+   > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook onderstrepingsteken `_` -, punt `.` - en afbreekstreepjes `-` gebruiken.
 
-1. Definieer de **SMS-instellingen**.
+1. Bepaal de **montages van SMS**.
 
    ![](assets/sms-surface-settings.png)
 
-   Begin door te selecteren **[!UICONTROL SMS Type]** die samen met het oppervlak worden verzonden: **[!UICONTROL Transactional]** of **[!UICONTROL Marketing]**.
+   Selecteer eerst de **[!UICONTROL SMS Type]** die met het oppervlak wordt verzonden: **[!UICONTROL Transactional]** of **[!UICONTROL Marketing]** .
 
-   * Kies **Marketing** voor promotietekstberichten : voor deze berichten is toestemming van de gebruiker vereist .
-   * Kies **Transactioneel** voor niet-commerciële berichten, zoals bevestiging van de bestelling, wachtwoordherstelmeldingen of leveringsgegevens.
+   * Kies **Marketing** voor promotietekstberichten: deze berichten vereisen gebruikerstoestemming.
+   * Kies **Transactie** voor niet-commerciële berichten zoals ordesbevestiging, wachtwoord terugstellende berichten, of leveringsinformatie bijvoorbeeld.
 
    Wanneer u een SMS/MMS maakt, moet u een geldig kanaaloppervlak kiezen dat overeenkomt met de categorie die u voor uw bericht hebt geselecteerd.
 
    >[!CAUTION]
    >
-   >**Transactioneel** berichten kunnen worden verzonden naar profielen die zich niet meer hebben geabonneerd op marketingberichten. Deze berichten kunnen alleen in specifieke contexten worden verzonden.
+   >**Transactionele** berichten kunnen naar profielen worden verzonden die van marketing mededelingen afmelden. Deze berichten kunnen alleen in specifieke contexten worden verzonden.
 
-1. Selecteer de **[!UICONTROL SMS configuration]** aan het oppervlak te koppelen.
+1. Selecteer de **[!UICONTROL SMS configuration]** die u aan het oppervlak wilt koppelen.
 
-   Voor meer over hoe te om uw milieu te vormen om de berichten van SMS te verzenden, verwijs naar [deze sectie](#create-api).
+   Voor meer op hoe te om uw milieu te vormen om de berichten van SMS te verzenden, verwijs naar [ deze sectie ](#create-api).
 
-1. Voer de **[!UICONTROL Sender number]** &#x200B; u voor uw mededelingen wilt gebruiken.
+1. Ga **[!UICONTROL Sender number]** in &#x200B; u voor uw mededelingen wilt gebruiken.
 
-1. Selecteer uw **[!UICONTROL SMS Execution Field]** om de **[!UICONTROL Profile attribute]** aan de telefoonaantallen van de profielen worden geassocieerd.
+1. Selecteer de **[!UICONTROL SMS Execution Field]** om de **[!UICONTROL Profile attribute]** te selecteren die aan de telefoonnummers van de profielen is gekoppeld.
 
-1. Als u de functie URL-verkorting wilt gebruiken in uw SMS-berichten, selecteert u een item in het menu **[!UICONTROL Subdomain]** lijst.
-
-   >[!NOTE]
-   >
-   >Om een subdomein te kunnen selecteren, zorg ervoor u eerder minstens één subdomain SMS/MMS hebt gevormd. [Meer informatie](sms-subdomains.md)
-
-1. Voer de **[!UICONTROL Opt-out number]** U wilt dit oppervlak gebruiken. Wanneer profielen weigeren van dit nummer, kunt u de profielen nog steeds berichten verzenden vanuit andere nummers die u kunt gebruiken om tekstberichten te verzenden met [!DNL Journey Optimizer].
+1. Als u de functie voor het verkorten van URL&#39;s wilt gebruiken in uw SMS-berichten, selecteert u een item in de lijst **[!UICONTROL Subdomain]** .
 
    >[!NOTE]
    >
-   >In [!DNL Journey Optimizer]De optie om te weigeren voor tekstberichten wordt niet meer op kanaalniveau beheerd. Het is nu specifiek voor een getal.
+   >Om een subdomein te kunnen selecteren, zorg ervoor u eerder minstens één subdomain SMS/MMS hebt gevormd. [ leer hoe ](sms-subdomains.md)
 
-1. Zodra alle parameters zijn gevormd, klik **[!UICONTROL Submit]** ter bevestiging. U kunt het kanaaloppervlak ook opslaan als concept en de configuratie later hervatten.
+1. Nadat alle parameters zijn geconfigureerd, klikt u op **[!UICONTROL Submit]** om te bevestigen. U kunt het kanaaloppervlak ook opslaan als concept en de configuratie later hervatten.
 
    ![](assets/sms-submit-surface.png)
 
-1. Nadat het kanaaloppervlak is gemaakt, wordt het in de lijst weergegeven met de **[!UICONTROL Processing]** status.
+1. Nadat het kanaaloppervlak is gemaakt, wordt het in de lijst weergegeven met de status **[!UICONTROL Processing]** .
 
    >[!NOTE]
    >
-   >Als de controles niet succesvol zijn, leer meer over de mogelijke mislukkingsredenen in [deze sectie](#monitor-channel-surfaces).
+   >Als de controles niet succesvol zijn, leer meer over de mogelijke mislukkingsredenen in [ deze sectie ](#monitor-channel-surfaces).
 
-1. Als de controles zijn voltooid, krijgt het kanaaloppervlak de **[!UICONTROL Active]** status. Het is klaar om te worden gebruikt om berichten te leveren.
+1. Wanneer de controles succesvol zijn, krijgt het kanaaloppervlak de **[!UICONTROL Active]** status. Het is klaar om te worden gebruikt om berichten te leveren.
 
    ![](assets/preset-active.png)
 
