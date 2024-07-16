@@ -22,42 +22,42 @@ ht-degree: 1%
 >
 >Voordat u een nieuwe campagne maakt, moet u ervoor zorgen dat u een oppervlaktekanaal (d.w.z. een berichtvoorinstelling) en een Adobe Experience Platform-publiek hebt die u kunt gebruiken. Meer informatie vindt u in de volgende secties:
 >
->* [Kanaaloppervlakken maken](../configuration/channel-surfaces.md)
->* [Aan de slag met het publiek](../audience/about-audiences.md)
+>* [ creeer kanaaloppervlakten ](../configuration/channel-surfaces.md)
+>* [ krijgen begonnen met publiek ](../audience/about-audiences.md)
 
-Als u een nieuwe campagne wilt maken, opent u de **[!UICONTROL Campaigns]** en klik vervolgens op **[!UICONTROL Create campaign]**. U kunt ook een bestaande live campagne dupliceren om een nieuwe te maken. [Meer informatie](modify-stop-campaign.md#duplicate)
+Als u een nieuwe campagne wilt maken, opent u het menu **[!UICONTROL Campaigns]** en klikt u op **[!UICONTROL Create campaign]** . U kunt ook een bestaande live campagne dupliceren om een nieuwe te maken. [Meer informatie](modify-stop-campaign.md#duplicate)
 
 ## Het type campagne kiezen {#campaigntype}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Type campagne"
->abstract="**Geplande campagnes** onmiddellijk of op een bepaalde datum worden uitgevoerd en bedoeld zijn om marketingberichten te verzenden. **API geactiveerd** campagnes worden uitgevoerd gebruikend een API vraag. Zij zijn gericht op het verzenden van ofwel marketingberichten (promotieberichten waarvoor toestemming van de gebruiker vereist is) ofwel transactieberichten (niet-commerciële berichten die ook in specifieke omstandigheden naar niet-geabonneerde profielen kunnen worden verzonden)."
+>abstract="**Geplande campagnes** worden uitgevoerd onmiddellijk of op een gespecificeerde datum en zijn bedoeld om berichten van het marketingtype te verzenden. **API-teweeggebrachte** campagnes worden uitgevoerd gebruikend een API vraag. Zij zijn gericht op het verzenden van ofwel marketingberichten (promotieberichten waarvoor toestemming van de gebruiker vereist is) ofwel transactieberichten (niet-commerciële berichten die ook in specifieke omstandigheden naar niet-geabonneerde profielen kunnen worden verzonden)."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_category"
 >title="Campagne, categorie"
->abstract="Als u een geplande campagne maakt, kunt u **marketing** tekst wordt automatisch geselecteerd. Voor API-getriggerde campagnes kiest u of u een **marketing** bericht (promotiebericht waarvoor toestemming van de gebruiker vereist is) of **transactie** bericht (niet-commercieel bericht, dat ook naar niet-geabonneerde profielen in specifieke contexten kan worden verzonden)."
+>abstract="Als u een geplande campagne creeert, wordt het **marketing** type automatisch geselecteerd. Voor API-teweeggebrachte campagnes, verkies als u a **marketing** bericht (promotiebericht wilt verzenden dat gebruikersgoedkeuring vereist) of **transactie** bericht (niet-commercieel bericht, dat ook naar geabonneerde profielen in specifieke contexten kan worden verzonden)."
 
 1. Selecteer het type campagne dat u wilt uitvoeren
 
-   * **[!UICONTROL Scheduled - Marketing]**: voer de campagne onmiddellijk of op een bepaalde datum uit. Geplande campagnes zijn gericht op het verzenden van **marketing** berichten. Zij worden gevormd en uitgevoerd van het gebruikersinterface.
+   * **[!UICONTROL Scheduled - Marketing]** : voer de campagne onmiddellijk uit of op een opgegeven datum. De geplande campagnes zijn gericht op het verzenden van **marketing** berichten. Zij worden gevormd en uitgevoerd van het gebruikersinterface.
 
-   * **[!UICONTROL API-triggered - Marketing/Transactional]**: voer de campagne uit met een API-aanroep. API-gestuurde campagnes zijn gericht op het verzenden van **marketing**, of **transactie** berichten, d.w.z. berichten die worden verzonden na een actie uitgevoerd door een individu: wachtwoordinstelling, winkelwagentje enz. [Leer hoe u een campagne activeert met API&#39;s](api-triggered-campaigns.md)
+   * **[!UICONTROL API-triggered - Marketing/Transactional]** : voer de campagne uit met behulp van een API-aanroep. API-teweeggebrachte campagnes zijn gericht op het verzenden van of **marketing**, of **transactie** berichten, d.w.z. berichten die na een actie worden verzonden die door een individu wordt uitgevoerd: het terugstellen van het wachtwoord, het kartelaankoop enz. [ Leer hoe te om een campagne teweeg te brengen gebruikend APIs ](api-triggered-campaigns.md)
 
    ![](assets/create-campaign-modal.png)
 
-1. Klikken **[!UICONTROL Create]** om de campagne op te zetten.
+1. Klik op **[!UICONTROL Create]** om de campagne te maken.
 
 ## De eigenschappen van de campagne definiëren {#create}
 
-1. In de **[!UICONTROL Properties]** een naam en een beschrijving voor de campagne opgeven.
+1. Geef in de sectie **[!UICONTROL Properties]** een naam en een beschrijving voor de campagne op.
 
    <!--To test the content of your message, toggle the **[!UICONTROL Content experiment]** option on. This allows you to test multiple variables of a delivery on populations samples, in order to define which treatment has the biggest impact on the targeted population.[Learn more about content experiment](../content-management/content-experiment.md).-->
 
-1. De **Tags** kunt u Adobe Experience Platform Unified Tags aan uw campagne toewijzen. Op deze manier kunt u ze gemakkelijk classificeren en de zoekopdracht in de lijst met campagnes verbeteren. [Leer hoe u met tags kunt werken](../start/search-filter-categorize.md#tags)
+1. Het **gebied van Markeringen** staat u toe om Adobe Experience Platform Verenigde Markeringen aan uw campagne toe te wijzen. Op deze manier kunt u ze gemakkelijk classificeren en de zoekopdracht in de lijst met campagnes verbeteren. [ leer hoe te met markeringen ](../start/search-filter-categorize.md#tags) werken
 
-1. Als u aangepaste of basislabels voor gegevensgebruik aan de campagne wilt toewijzen, klikt u op de knop **[!UICONTROL Manage access]** knop. [Meer informatie over OLA (Object Level Access Control)](../administration/object-based-access.md)
+1. Klik op de knop **[!UICONTROL Manage access]** als u aangepaste of basislabels voor gegevensgebruik aan de campagne wilt toewijzen. [ leer meer op het Toegangsbeheer van het Niveau van Objecten (OLA) ](../administration/object-based-access.md)
 
 ## Het campagnepubliek definiëren {#audience}
 
@@ -65,15 +65,15 @@ Definieer de doelgroep voor de campagne en voer de volgende stappen uit:
 
 >[!IMPORTANT]
 >
->Het gebruik van soorten publiek en kenmerken van [publiekscompositie](../audience/get-started-audience-orchestration.md) en [publiek voor aangepaste upload (CSV-bestand)](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) is momenteel niet beschikbaar voor gebruik met het Gezondheidsschild of Privacy en het Veiligheidsschild.
+>Het gebruik van publiek en attributen van [ publiekssamenstelling ](../audience/get-started-audience-orchestration.md) en [ douane uploadt (Csv- dossier) publiek ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) is momenteel niet beschikbaar voor gebruik met het Schild van de Gezondheidszorg of Privacy en het Schild van de Veiligheid.
 >
 >Voor API-getriggerde campagnes moet het publiek worden ingesteld via API-aanroep.
 
-1. In de **Publiek** klikt u op de **[!UICONTROL Select audience]** om de lijst met beschikbare Adobe Experience Platform-doelgroepen weer te geven. [Meer informatie over publiek](../audience/about-audiences.md)
+1. In de **sectie van het publiek**, klik de **[!UICONTROL Select audience]** knoop om de lijst van beschikbare publiek van Adobe Experience Platform te tonen. [ leer meer op publiek ](../audience/about-audiences.md)
 
-1. In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren.
+1. Kies in het veld **[!UICONTROL Identity namespace]** de naamruimte die u wilt gebruiken om de personen van het geselecteerde segment te identificeren.
 
-   Individuen die tot een segment behoren dat niet de geselecteerde identiteit (namespace) onder hun verschillende identiteiten heeft zullen niet door de campagne worden gericht. [Meer informatie over naamruimten](../event/about-creating.md#select-the-namespace)
+   Individuen die tot een segment behoren dat niet de geselecteerde identiteit (namespace) onder hun verschillende identiteiten heeft zullen niet door de campagne worden gericht. [ Leer meer op namespaces ](../event/about-creating.md#select-the-namespace)
 
    ![](assets/create-campaign-namespace.png)
 
@@ -81,9 +81,9 @@ Definieer de doelgroep voor de campagne en voer de volgende stappen uit:
 
 ## Creeer het bericht en vorm het volgen {#content}
 
-1. In de **[!UICONTROL Actions]** kiest u het kanaal en het oppervlak dat u wilt gebruiken om uw bericht te verzenden.
+1. Kies in de sectie **[!UICONTROL Actions]** het kanaal en het oppervlak dat u wilt gebruiken om uw bericht te verzenden.
 
-   Een oppervlak is een configuratie die door een [Systeembeheerder](../start/path/administrator.md). Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enzovoort. [Meer informatie](../configuration/channel-surfaces.md).
+   Een oppervlakte is een configuratie die door de Beheerder van het a [ Systeem ](../start/path/administrator.md) is bepaald. Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enzovoort. [Meer informatie](../configuration/channel-surfaces.md).
 
    Alleen kanaaloppervlakken die compatibel zijn met het type marketingcampagne worden weergegeven in de vervolgkeuzelijst.
 
@@ -91,7 +91,7 @@ Definieer de doelgroep voor de campagne en voer de volgende stappen uit:
 
    >[!NOTE]
    >
-   >Als u een pushmeldingscampagne maakt, kunt u de optie **[!UICONTROL Rapid delivery mode]**, een Journey Optimizer-invoegtoepassing die het mogelijk maakt om zeer snelle pushberichten in grote hoeveelheden te verzenden. [Meer informatie](../push/create-push.md#rapid-delivery)
+   >Als u een pushmeldingscampagne maakt, kunt u **[!UICONTROL Rapid delivery mode]** inschakelen. Dit is een Journey Optimizer-invoegtoepassing waarmee zeer snelle pushberichten in grote volumes kunnen worden verzonden. [Meer informatie](../push/create-push.md#rapid-delivery)
 
 1. Klik op de knop **[!UICONTROL Edit content]** om uw bericht te maken en te ontwerpen. Leer gedetailleerde stappen om uw berichtinhoud op de volgende pagina&#39;s tot stand te brengen:
 
@@ -101,7 +101,7 @@ Definieer de doelgroep voor de campagne en voer de volgende stappen uit:
     <a href="../email/create-email.md">
     <img alt="Lood" src="../assets/do-not-localize/email.jpg">
     </a>
-    <div><a href="../email/create-email.md"><strong>E-mails maken</strong>
+    <div><a href="../email/create-email.md"><strong> creeer e-mails </strong>
     </div>
     <p>
     </td>
@@ -110,7 +110,7 @@ Definieer de doelgroep voor de campagne en voer de volgende stappen uit:
       <img alt="Onfrequent" src="../assets/do-not-localize/push.jpg">
     </a>
     <div>
-    <a href="../push/create-push.md"><strong>Pushberichten maken</strong></a>
+    <a href="../push/create-push.md"><strong> creeer dupberichten </strong></a>
     </div>
     <p>
     </td>
@@ -119,22 +119,22 @@ Definieer de doelgroep voor de campagne en voer de volgende stappen uit:
       <img alt="Validatie" src="../assets/do-not-localize/sms.jpg">
     </a>
     <div>
-    <a href="../sms/create-sms.md"><strong>SMS-berichten maken</strong></a>
+    <a href="../sms/create-sms.md"><strong> creeer SMS berichten </strong></a>
     </div>
     <p>
     </td>
     </tr>
     </table>
 
-1. Wanneer de inhoud is gedefinieerd, gebruikt u de **[!UICONTROL Simulate content]** om de inhoud met testprofielen voor te vertonen en te testen. [Meer informatie](../content-management/preview-test.md).
+1. Wanneer de inhoud is gedefinieerd, gebruikt u de knop **[!UICONTROL Simulate content]** om een voorvertoning van de inhoud weer te geven en de inhoud met testprofielen te testen. [Meer informatie](../content-management/preview-test.md).
 
 1. Klik op de pijl om terug te gaan naar het scherm Campagne maken.
 
    ![](assets/create-campaign-design.png)
 
-1. In de **[!UICONTROL Actions tracking]** , geeft u op of u wilt bijhouden hoe de ontvangers op uw levering reageren: u kunt klikken en/of openen bijhouden.
+1. Geef in de sectie **[!UICONTROL Actions tracking]** op of u wilt bijhouden hoe de ontvangers op de levering reageren: u kunt klikken en/of openen bijhouden.
 
-   De resultaten van het bijhouden van de campagne zijn toegankelijk via het campagnerapport nadat de campagne is uitgevoerd. [Meer informatie over campagnerapporten](../reports/campaign-global-report.md)
+   De resultaten van het bijhouden van de campagne zijn toegankelijk via het campagnerapport nadat de campagne is uitgevoerd. [ leer meer over campagnerapporten ](../reports/campaign-global-report.md)
 
 ## De campagne plannen {#schedule}
 
@@ -160,9 +160,9 @@ Definieer de doelgroep voor de campagne en voer de volgende stappen uit:
 
 Standaard worden campagnes gestart zodra ze handmatig zijn geactiveerd en eindigen zodra het bericht eenmaal is verzonden.
 
-U kunt een frequentie bepalen waarmee het bericht van de campagne zou moeten worden verzonden. Om dit te doen, gebruik **[!UICONTROL Action triggers]** in het scherm Campagne creëren om te specificeren of de campagne dagelijks, wekelijks, of maandelijks zou moeten worden uitgevoerd.
+U kunt een frequentie bepalen waarmee het bericht van de campagne zou moeten worden verzonden. Hiervoor gebruikt u de **[!UICONTROL Action triggers]** -opties in het scherm voor het maken van campagnes om op te geven of de campagne dagelijks, wekelijks of maandelijks moet worden uitgevoerd.
 
-Als u uw campagne niet meteen na activering wilt uitvoeren, kunt u een datum en tijd opgeven waarop het bericht moet worden verzonden met de opdracht **[!UICONTROL Campaign start]** -optie. De **[!UICONTROL Campaign end]** kunt u opgeven wanneer een terugkerende campagne niet meer wordt uitgevoerd.
+Als u de campagne niet meteen na activering wilt uitvoeren, kunt u met de optie **[!UICONTROL Campaign start]** een datum en tijd opgeven waarop het bericht moet worden verzonden. Met de optie **[!UICONTROL Campaign end]** kunt u opgeven wanneer een terugkerende campagne niet meer wordt uitgevoerd.
 
 ![](assets/create-campaign-schedule.png)
 

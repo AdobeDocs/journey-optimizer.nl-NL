@@ -21,15 +21,15 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card4"
 >title="E-mails ontwerpen"
->abstract="Gebruiken **Adobe Journey Optimizer** om e-mailberichten naar uw klanten te verzenden. U kunt berichten maken, personaliseren en voorvertonen in de e-mailtoepassing van Designer."
+>abstract="Gebruik **Adobe Journey Optimizer** om e-mailberichten naar uw klanten te verzenden. U kunt berichten maken, personaliseren en voorvertonen in de e-mailtoepassing van Designer."
 
-Gebruiken [!DNL Journey Optimizer] om e-mailberichten naar uw klanten te verzenden. U kunt berichten maken, personaliseren en voorvertonen in de e-mailtoepassing van Designer.
+Gebruik [!DNL Journey Optimizer] om e-mailberichten naar uw klanten te verzenden. U kunt berichten maken, personaliseren en voorvertonen in de e-mailtoepassing van Designer.
 
 E-mailleveringen kunnen worden gemaakt:
 
-* In een **Reis**: zodra u een **[!UICONTROL Email]** en gedefinieerde basisinstellingen, kunt u de **[!UICONTROL Actions: Email]** in het rechterdeelvenster om de inhoud voor het bericht te maken. [Leer hoe u een reis maakt](../building-journeys/journey-gs.md)
+* In a **Weg**: zodra u een **[!UICONTROL Email]** activiteit aan uw reis toevoegde, en bepaalde basismontages, gebruik de **[!UICONTROL Actions: Email]** juiste ruit om de inhoud voor het bericht tot stand te brengen. [ leer hoe te om een reis ](../building-journeys/journey-gs.md) tot stand te brengen
 
-* In een **Campagne**: nadat u een campagne hebt gemaakt, selecteert u **[!UICONTROL Email]** als uw handeling en basisinstellingen definiëren. [Leer hoe u een campagne maakt](../campaigns/create-campaign.md#configure)
+* In a **Campagne**: Zodra u een campagne creeerde, selecteer **[!UICONTROL Email]** als uw actie en bepaal basismontages. [ Leer hoe te om een campagne ](../campaigns/create-campaign.md#configure) tot stand te brengen
 
 
 >[!IMPORTANT]
@@ -58,7 +58,7 @@ E-mailleveringen kunnen worden gemaakt:
 <img alt="Uitschakelen" src="../assets/do-not-localize/email-opt-out.jpg">
 </a>
 <div>
-<a href="email-opt-out.md"><strong>E-mailuitschakelbeheer</strong></a>
+<a href="email-opt-out.md"><strong> e-mail opt-out beheer </strong></a>
 </div>
 <p>
 </td>
@@ -67,7 +67,7 @@ E-mailleveringen kunnen worden gemaakt:
 <img alt="Configureren" src="../assets/do-not-localize/email-config.jpg">
 </a>
 <div>
-<a href="email-settings.md"><strong>E-mailkanaal configureren</strong></a>
+<a href="email-settings.md"><strong> vorm e-mailkanaal </strong></a>
 </div>
 <p>
 </td>

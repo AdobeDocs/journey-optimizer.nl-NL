@@ -21,39 +21,39 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
 >title="Ervaringen personaliseren"
->abstract="Gebruiken **Adobe Journey Optimizer** om uw berichten aan elke specifieke ontvanger aan te passen door de gegevens en de informatie leveraging u over hen hebt. Het kan hun voornaam zijn, belangen, waar ze wonen, wat ze hebben gekocht, en meer."
+>abstract="Het gebruik **Adobe Journey Optimizer** om uw berichten aan elke specifieke ontvanger aan te passen door de gegevens en de informatie leveraging u over hen hebt. Het kan hun voornaam zijn, belangen, waar ze wonen, wat ze hebben gekocht, en meer."
 
-Discover [!DNL Adobe Journey Optimizer] personaliseringsmogelijkheden om uw berichten aan elke specifieke ontvanger aan te passen door de gegevens en de informatie te gebruiken u over hen hebt. Het kan hun voornaam zijn, belangen, waar ze wonen, wat ze hebben gekocht, en meer.
+Ontdek [!DNL Adobe Journey Optimizer] verpersoonlijkingsmogelijkheden om uw berichten aan elke specifieke ontvanger aan te passen door de gegevens en de informatie te gebruiken u over hen hebt. Het kan hun voornaam zijn, belangen, waar ze wonen, wat ze hebben gekocht, en meer.
 
-➡️ [Leer hoe u een bericht in deze video&#39;s kunt aanpassen](#video-perso)
-➡️ [Gebruiksscenario&#39;s detecteren door personalisatie te gebruiken](personalization-use-case.md)
+➡️ [ leren hoe te om een bericht in deze video&#39;s te personaliseren ](#video-perso)
+➡️ [ ontdekt gebruiksgevallen leveraging verpersoonlijking ](personalization-use-case.md)
 
 ## Verpersoonlijkingsexpressies maken met een speciale syntaxis {#syntax}
 
-[!DNL Journey Optimizer] gebruikt een **inline** eenvoudige verpersoonlijkingssyntaxis die op Handlebars wordt gebaseerd die u toestaat om uitdrukkingen tot stand te brengen met inhoud die door dubbele krullende steunen wordt ingesloten **{{}}**. U kunt meerdere expressies zonder beperkingen toevoegen in dezelfde inhoud of hetzelfde veld. [Meer informatie over de personalisatiesyntaxis](personalization-syntax.md).
+[!DNL Journey Optimizer] gebruikt een **gealigneerde** eenvoudige verpersoonlijkingssyntaxis die op Handlebars wordt gebaseerd die u toestaat om uitdrukkingen met inhoud tot stand te brengen die door dubbele krullende steunen **{{}}** wordt ingesloten. U kunt meerdere expressies zonder beperkingen toevoegen in dezelfde inhoud of hetzelfde veld. [ leer meer op de verpersoonlijkingssyntaxis ](personalization-syntax.md).
 
 **Voorbeelden:**
 
 * `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`
 * `Hello {{profile.person.name.fullName}}`
 
-Bij het verwerken van het bericht (e-mail en push) vervangt Journey Optimizer de expressie door de gegevens in de database van het Experience Platform:  `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` wordt &quot;Hello John Doe&quot;.
+Bij het verwerken van het bericht (e-mail en push) vervangt Journey Optimizer de expressie door de gegevens in de database Experience Platform: `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` wordt &quot;Hello John Doe&quot;.
 
 ## Gebruik profielgegevens om uw berichten aan te passen {#data}
 
-De personalisatie is gebaseerd op de profielgegevens die door **Afzonderlijk XDM-profiel** schema gedefinieerd in Adobe Experience Platform. Meer informatie in [Adobe Experience Platform Data Model (XDM)-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"}.
+De verpersoonlijking is gebaseerd op de profielgegevens die door het **schema van het Profiel 1} worden beheerd 0} XDM Individual dat in Adobe Experience Platform wordt bepaald.** Leer meer in [ het Model van Gegevens van Adobe Experience Platform (XDM) documentatie ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) {target="_blank"}.
 
 >[!CAUTION]
->De **Afzonderlijk XDM-profiel** schema is het enige schema dat u kunt gebruiken om inhoud in te personaliseren [!DNL Journey Optimizer].
+>Het **schema van het Profiel van 0} XDM Individuele is het enige schema u kunt gebruiken om inhoud in [!DNL Journey Optimizer] te personaliseren.**
 
-Daarnaast kunt u ook gebruikmaken van **berekende kenmerken** om uw inhoud aan te passen. De berekende attributen zijn gebaseerd op profiel-Toegelaten Gegevensreeksen van de Gebeurtenis van de Ervaring die in Adobe Experience Platform worden opgenomen en dienen als samengevoegde gegevenspunten die binnen klantenprofielen worden opgeslagen die individuele gedragsgebeurtenissen samenvatten [Leer hoe u met berekende kenmerken werkt](../audience/computed-attributes.md)
+Bovendien kunt u hefboomwerking **gegevens verwerkte attributen** ook gebruiken om uw inhoud te personaliseren. De gegevens verwerkte attributen zijn gebaseerd op profiel-Toegelaten datasets van de Gebeurtenis van de Ervaring die in Adobe Experience Platform worden opgenomen en dienen als samengevoegde gegevenspunten die binnen klantenprofielen worden opgeslagen die individuele gedragsgebeurtenissen [ samenvatten leren hoe te met gegevens verwerkte attributen ](../audience/computed-attributes.md) werken
 
 ## Werken met de verpersoonlijkingseditor {#editor}
 
 [!DNL Journey Optimizer] biedt een verpersoonlijkingseditor waarin u alle gegevens kunt selecteren, rangschikken, aanpassen en valideren om een aangepaste verpersoonlijking voor uw inhoud te maken. Er zijn verschillende gereedschappen beschikbaar waarmee u uw personalisatie-inhoud kunt maken, zoals: felper-functies, vooraf gedefinieerde expressies-bibliotheek, kenmerken die de voorkeur geven en meer.
 
 * [Leer hoe u met de verpersoonlijkingseditor werkt](personalization-build-expressions.md)
-* [Leer waar u personalisatie kunt uitvoeren](personalization-contexts.md).
+* [ leer waar u verpersoonlijking ](personalization-contexts.md) kunt uitvoeren.
 
 ## Hoe kan ik-video&#39;s{#video-perso}
 

@@ -24,31 +24,31 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Regelsets"
->abstract="Regelsets gebruiken om frequentietoewijzing toe te passen op verschillende typen marketingcommunicatie. U kunt bijvoorbeeld een regelset maken om het aantal **promotionele communicatie** verzonden naar uw klanten, en creeer een andere die regel wordt geplaatst om het aantal te beperken **nieuwsbrieven** naar hen verzonden."
+>abstract="Regelsets gebruiken om frequentietoewijzing toe te passen op verschillende typen marketingcommunicatie. Bijvoorbeeld, kunt u een regel tot stand brengen die wordt geplaatst om het aantal **promotionele mededelingen** te beperken naar uw klanten wordt verzonden, en een andere regel tot stand te brengen die wordt geplaatst om het aantal **nieuwsbrieven** te beperken die naar hen worden verzonden."
 
 >[!AVAILABILITY]
 >
->Regelsets zijn momenteel alleen beschikbaar als een bètaversie voor geselecteerde gebruikers. Neem contact op met uw Adobe die u wilt opnemen in de bètaversie.
+>Regelsets zijn momenteel alleen beschikbaar als een bètaversie voor geselecteerde gebruikers. Neem contact op met uw Adobe om deel te nemen aan de Beta.
 
 ## Wat zijn regelsets? {#what}
 
-Naast globale bedrijfsregels die het aantal tijden beperken de gebruikers berichten over één of veelvoudige kanalen ontvangen, staan de regelreeksen u toe om **groeperen veelvoudige regels in regelreeksen** en past deze toe op de campagnes van uw keuze. Dit verstrekt betere granulariteit om te controleren hoe vaak de gebruikers een bericht afhankelijk van het type van mededeling zullen ontvangen.
+Naast globale bedrijfsregels die het aantal tijden beperken ontvangen de gebruikers berichten over één of veelvoudige kanalen, staan de regelreeksen u toe om **samen veelvoudige regels in regelreeksen** te groeperen en hen op de campagnes van uw keus toe te passen. Dit verstrekt betere granulariteit om te controleren hoe vaak de gebruikers een bericht afhankelijk van het type van mededeling zullen ontvangen.
 
-U kunt bijvoorbeeld een regelset maken om het aantal **promotionele communicatie** verzonden naar uw klanten en een andere regel ingesteld om het aantal **nieuwsbrieven** naar hen verzonden. Afhankelijk van het type campagne dat u creeert, kunt u dan verkiezen om of de promotionele mededeling of de nieuwsbrieven regelreeks toe te passen.
+Bijvoorbeeld, kunt u een regel tot stand brengen die wordt geplaatst om het aantal **promotionele mededelingen** te beperken naar uw klanten en een andere die regel wordt verzonden om het aantal **nieuwsbrieven** te beperken naar hen wordt verzonden. Afhankelijk van het type campagne dat u creeert, kunt u dan verkiezen om of de promotionele mededeling of de nieuwsbrieven regelreeks toe te passen.
 
 ## Algemene en aangepaste regelsets {#global-custom}
 
-Wanneer het toegang tot van regelreeksen voor het eerst van **[!UICONTROL Administration]** > **[!UICONTROL Business rules (Beta)]** een standaardregelset wordt vooraf gemaakt en geactiveerd: **Algemene standaardregelset**.
+Wanneer de toegang tot van regelreeksen voor het eerst van **[!UICONTROL Administration]** > **[!UICONTROL Business rules (Beta)]** menu, wordt een standaardregelreeks vooraf gecreeerd en actief: **Globale Reeks Standaard van de Regel**.
 
-Deze regelreeks bevat globale regels die u kunt toepassen om te controleren hoe vaak de gebruikers bericht over één of veelvoudige kanalen ontvangen, gelijkend op hoe de huidige bedrijfsregels werken. Alle regels die in deze regel worden bepaald zijn op alle geselecteerde kanalen van toepassing, of de mededelingen van een reis of een campagne worden verzonden. [Leer hoe u met bedrijfsregels werkt](frequency-rules.md)
+Deze regelreeks bevat globale regels die u kunt toepassen om te controleren hoe vaak de gebruikers bericht over één of veelvoudige kanalen ontvangen, gelijkend op hoe de huidige bedrijfsregels werken. Alle regels die in deze regel worden bepaald zijn op alle geselecteerde kanalen van toepassing, of de mededelingen van een reis of een campagne worden verzonden. [ Leer hoe te met bedrijfsregels te werken ](frequency-rules.md)
 
-Naast deze &quot;Globale Vastgestelde de regel van de Standaard van de Regel&quot;, kunt u tot stand brengen **aangepaste regel** sets die u kunt toepassen op elke campagne om het aantal berichten te beperken dat binnen die campagne wordt verzonden. [Leer hoe u aangepaste regelsets maakt](#create)
+Naast deze &quot;Globale Vastgestelde de regel van de Regel van het Standaard&quot;, kunt u **reeksen van de douaneregel** tot stand brengen die u op om het even welke campagne kunt toepassen om het aantal berichten te beperken die binnen die campagne worden verzonden. [ Leer hoe te om de reeksen van de douaneregel tot stand te brengen ](#create)
 
 ![](assets/rule-sets-default.png)
 
 >[!IMPORTANT]
 >
->Op dit moment kunnen aangepaste regelsets worden toegepast op **campagnes** alleen. Alleen de regels die zijn gedefinieerd in de regel Globale standaardregel die is ingesteld, gelden voor zowel de reis- als de campagnecommunicatie.
+>Voor nu, kunnen de reeksen van de douaneregel op **campagnes** slechts worden toegepast. Alleen de regels die zijn gedefinieerd in de regel Globale standaardregel die is ingesteld, gelden voor zowel de reis- als de campagnecommunicatie.
 
 ## Uw eerste aangepaste regelset maken {#create-rule-set}
 
@@ -60,11 +60,11 @@ Volg onderstaande stappen om een regelset te maken.
 >
 >U kunt maximaal drie aangepaste regelsets maken.
 
-1. Toegang krijgen tot de **[!UICONTROL Rules sets]** lijst en klik vervolgens op **[!UICONTROL Create rule set]**.
+1. Open de lijst **[!UICONTROL Rules sets]** en klik vervolgens op **[!UICONTROL Create rule set]** .
 
    ![](assets/rule-sets-create-button.png)
 
-1. Bepaal de naam van de regelreeks, voeg indien gewenst een beschrijving toe en klik **[!UICONTROL Save]**.
+1. Bepaal de naam van de regelset, voeg desgewenst een beschrijving toe en klik op **[!UICONTROL Save]** .
 
    ![](assets/rule-sets-create.png)
 
@@ -72,7 +72,7 @@ Volg onderstaande stappen om een regelset te maken.
    >
    >De naam van de regelset moet uniek zijn.
 
-1. Nu kunt u [de regels](#create-new-rule) u wilt aan deze regelreeks toevoegen.
+1. Nu kunt u [ de regels ](#create-new-rule) bepalen u aan deze regelreeks wilt toevoegen.
 
 ### Regels toevoegen aan de regelset {#create-new-rule}
 
@@ -98,29 +98,29 @@ Volg onderstaande stappen om een regelset te maken.
 
 Volg onderstaande stappen om een regel aan een regelset toe te voegen.
 
-1. Van de regelreeks u enkel creeerde, klik **[!UICONTROL Add rule]**.
+1. Klik op **[!UICONTROL Add rule]** in de regelset die u zojuist hebt gemaakt.
 
    ![](assets/rule-sets-create-rule-button.png)
 
-1. Een uniek item definiëren **Naam van regel**.
+1. Bepaal een unieke **naam van de Regel**.
 
-1. De **Categorie** in het veld wordt de categorie van berichten aangegeven waarop de regel van toepassing is. Momenteel is dit veld alleen-lezen als het **[!UICONTROL Marketing]** -categorie is beschikbaar.
+1. Het **gebied van de Categorie** specificeert de categorie van bericht de regel op van toepassing is. Momenteel is dit veld alleen-lezen, aangezien alleen de categorie **[!UICONTROL Marketing]** beschikbaar is.
 
-1. Van de **[!UICONTROL Duration]** vervolgkeuzelijst, selecteert u of u de plafonnering maandelijks, wekelijks of dagelijks wilt toepassen. De frequentiegrens is gebaseerd op de geselecteerde kalenderperiode. Deze wordt opnieuw ingesteld aan het begin van het corresponderende tijdkader.
+1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Duration]** of u de uitlijning maandelijks, wekelijks of dagelijks wilt toepassen. De frequentiegrens is gebaseerd op de geselecteerde kalenderperiode. Deze wordt opnieuw ingesteld aan het begin van het corresponderende tijdkader.
 
    ![](assets/rule-set-capping-duration.png)
 
    De teller loopt voor elke periode als volgt af:
 
-   * **[!UICONTROL Monthly]** De frequentie-instelling is geldig tot de laatste dag van de maand op 23:59:59 UTC De maandelijkse vervaldatum voor januari is bijvoorbeeld 01-31 23:59:59 UTC
+   * **[!UICONTROL Monthly]**: Het frequentiekapitaal is geldig tot de laatste dag van de maand bij 23 :59: 59 UTC. Bijvoorbeeld, is de maandelijkse vervaldatum voor Januari 01-31 23 :59: 59 UTC.
 
-   * **[!UICONTROL Weekly]**: De frequentiekapitaal is geldig tot zaterdag 23:59:59 UTC van die week als de kalenderweek op zondag begint. De vervaldatum staat los van de instelling van de regel. Bijvoorbeeld, als de regel op Donderdag wordt gecreeerd, is deze regel geldig tot Zaterdag bij 23:59:59.
+   * **[!UICONTROL Weekly]**: Het frequentiekapitaal is geldig tot Zaterdag 23 :59: 59 UTC van die week aangezien de kalenderweek op zondag begint. De vervaldatum staat los van de instelling van de regel. Bijvoorbeeld, als de regel op Donderdag wordt gecreeerd, is deze regel geldig tot Zaterdag bij 23 :59: 59.
 
-   * **[!UICONTROL Daily]** De dagelijkse frequentie dop is geldig tot 23:59:59 UTC en wordt opnieuw ingesteld op 0 aan het begin van de volgende dag.
+   * **[!UICONTROL Daily]**: Het dagelijkse frequentiekapitaal is geldig voor de dag tot 23 :59: 59 UTC en stelt aan 0 bij het begin van de volgende dag terug.
 
      >[!CAUTION]
      >
-     >Om ervoor te zorgen dat de dagelijkse regels voor frequentiecontrole correct zijn, moet het gebruik van [streamingsegmentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"} is verplicht. Meer informatie over methoden voor publieksevaluatie vindt u in [deze sectie](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
+     >Om nauwkeurigheid voor dagelijkse frequentie die regels begrenzen te verzekeren, is het gebruik van [ het stromen segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html) {target="_blank"} verplicht. Leer meer op de methodes van de publieksevaluatie in [ deze sectie ](../audience/about-audiences.md#evaluation-method-in-journey-optimizer).
 
    Houd er rekening mee dat de waarde van de profielteller wordt bijgewerkt wanneer de communicatie wordt geleverd. Begrijpt u dit wanneer u grote hoeveelheden communicatie verzendt aangezien de productie in de ontvanger zou kunnen resulteren die de e-mailnotulen of zelfs uren na de inleiding van de mededeling (in het geval dat u miljoenen mededelingen gelijktijdig verzendt) krijgen.
 
@@ -128,7 +128,7 @@ Volg onderstaande stappen om een regel aan een regelset toe te voegen.
 
 1. Stel de plafonnering voor uw regel in. Dit betekent het maximumaantal berichten dat naar een individueel gebruikersprofiel kan worden verzonden per maand, week of dag - volgens de bovenstaande selectie.
 
-1. Selecteer het kanaal dat u voor deze regel wilt gebruiken: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification]** of **[!UICONTROL Direct mail]**.
+1. Selecteer het kanaal dat u voor deze regel wilt gebruiken: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification]** of **[!UICONTROL Direct mail]** .
 
    ![](assets/rule-set-channels.png)
 
@@ -140,7 +140,7 @@ Volg onderstaande stappen om een regel aan een regelset toe te voegen.
 
    Stel de aftopping bijvoorbeeld in op 5 en selecteer zowel het e-mailadres als het sms-kanaal. Als een profiel al 3 marketingberichten en 2 marketingberichten voor de geselecteerde periode heeft ontvangen, wordt dit profiel uitgesloten van de eerstvolgende levering van een marketingbericht of -bericht.
 
-1. Klikken **[!UICONTROL Save]** om de regel te bevestigen. Uw bericht wordt toegevoegd aan de regelreeks, met **[!UICONTROL Draft]** status.
+1. Klik op **[!UICONTROL Save]** om het maken van de regel te bevestigen. Uw bericht wordt toegevoegd aan de regelset, met de status **[!UICONTROL Draft]** .
 
    ![](assets/rule-set-rule-created.png)
 
@@ -150,7 +150,7 @@ Nu moet u elke regel activeren alvorens het op om het even welke berichten kan w
 
 ### De regels en regelset activeren {#activate-rule}
 
-Wanneer deze regel wordt gemaakt, heeft deze de **[!UICONTROL Draft]** status en heeft nog geen invloed op een bericht. Als u deze wilt inschakelen, klikt u op de knop **[!UICONTROL More actions]** naast de regel en selecteer **[!UICONTROL Activate]**.
+Wanneer een regel wordt gemaakt, heeft deze de status **[!UICONTROL Draft]** en heeft deze nog geen invloed op een bericht. Klik op de knop **[!UICONTROL More actions]** naast de regel en selecteer **[!UICONTROL Activate]** om deze in te schakelen.
 
 ![](assets/rule-set-activate-rule.png)
 
@@ -164,11 +164,11 @@ U moet ook de regel activeren die is ingesteld om deze in campagnes/reizen te ku
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
-Als u een regel of een regelset wilt deactiveren, klikt u op de knop **[!UICONTROL More actions]** naast het gewenste item en selecteer **[!UICONTROL Deactivate]**.
+Als u een regel of een regelset wilt deactiveren, klikt u op de knop **[!UICONTROL More actions]** naast het gewenste item en selecteert u **[!UICONTROL Deactivate]** .
 
 ![](assets/rule-set-inactive-rule.png)
 
-De status verandert in **[!UICONTROL Inactive]** en de regel zal niet op toekomstige berichtuitvoeringen van toepassing zijn. Berichten die momenteel worden uitgevoerd, worden niet beïnvloed.
+De status verandert in **[!UICONTROL Inactive]** en de regel geldt niet voor toekomstige berichtuitvoeringen. Berichten die momenteel worden uitgevoerd, worden niet beïnvloed.
 
 >[!NOTE]
 >
@@ -176,22 +176,22 @@ De status verandert in **[!UICONTROL Inactive]** en de regel zal niet op toekoms
 
 ## Regelsets openen en beheren {#access-rule-sets}
 
-Alle gemaakte regelsets worden weergegeven in het dialoogvenster **[!UICONTROL Administration]** > **[!UICONTROL Business rules (Beta)]** -menu. Ze worden gesorteerd op de laatste wijzigingsdatum.
+Alle gemaakte regelsets worden weergegeven in het menu **[!UICONTROL Administration]** > **[!UICONTROL Business rules (Beta)]** . Ze worden gesorteerd op de laatste wijzigingsdatum.
 
 ![](assets/rule-sets-list.png)
 
 Klik op de naam van een regelset om de inhoud ervan weer te geven en te bewerken. Alle regels inbegrepen in die regelreeks zijn vermeld. Met het contextmenu rechtsboven kunt u:
 
 * De naam en beschrijving van de regelset bewerken
-* De regelset activeren - [Meer informatie](#activate-rule)
+* Activeer de regelreeks - [ leer meer ](#activate-rule)
 * De regelset verwijderen
 
 ![](assets/rule-set-example.png)
 
-Voor elke regel in de regelset wordt de **[!UICONTROL More actions]** Met de knop kunt u:
+Voor elke regel in de regelset kunt u met de knop **[!UICONTROL More actions]** het volgende doen:
 
 * De regel bewerken
-* De regel activeren [Meer informatie](#activate-rule)
+* Activeer de regel [ meer ](#activate-rule) leert
 * De regel verwijderen
 
 ![](assets/rule-set-example-rules.png)
@@ -210,17 +210,17 @@ Learn more about permissions in [this section](../administration/high-low-permis
 
 Volg onderstaande stappen om een bedrijfsregel toe te passen op een bericht.
 
-1. Wanneer u een [campagne](../campaigns/create-campaign.md)selecteert u een van de kanalen die u voor de regelset hebt gedefinieerd en bewerkt u de inhoud van het bericht.
+1. Wanneer het creëren van a [ campagne ](../campaigns/create-campaign.md), selecteer één van de kanalen u voor uw regelreeks en geef de inhoud van uw bericht uit.
 
-1. Klik in het scherm voor de inhoudseditie op de knop **[!UICONTROL Add Business Rule]** knop.
+1. Klik op de knop **[!UICONTROL Add Business Rule]** in het scherm voor de inhoudseditie.
 
-1. Selecteer de [regelset gemaakt](#create-rule-set).
+1. Selecteer de [ regelreeks u ](#create-rule-set) creeerde.
 
    ![](assets/rule-set-campaign-add-rule-button.png)
 
    >[!NOTE]
    >
-   >Alleen [geactiveerd](#activate-rule) regelsets worden weergegeven in de lijst.
+   >Slechts [ geactiveerde ](#activate-rule) regelreeksen tonen in de lijst.
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
@@ -230,7 +230,7 @@ Volg onderstaande stappen om een bedrijfsregel toe te passen op een bericht.
 
    ![](assets/rule-set-schedule-campaign.png)
 
-1. U kunt het aantal profielen dat is uitgesloten van levering bekijken in het dialoogvenster [Algemeen rapport](../reports/global-report.md)en in de [Live-rapport](../reports/live-report.md), waarbij de frequentievoorschriften worden vermeld als mogelijke reden voor gebruikers die van levering zijn uitgesloten.
+1. U kunt het aantal profielen bekijken die van levering in het [ Globale rapport ](../reports/global-report.md) worden uitgesloten, en in het [ Levende rapport ](../reports/live-report.md), waar de frequentieregels als mogelijke reden voor gebruikers zullen worden vermeld die van levering worden uitgesloten.
 
 >[!NOTE]
 >
@@ -265,4 +265,4 @@ In this scenario, an individual profile:
 * can receive up to 12 marketing messages per month;
 * but will be excluded from marketing push notifications after they have received 4 push notifications.-->
 
-Bij het testen van de frequentieregels wordt aanbevolen een nieuw [testprofiel](../audience/creating-test-profiles.md)Omdat er geen manier is om de teller opnieuw in te stellen tot de volgende periode, wanneer de frequentiegrens van een profiel eenmaal is bereikt. Als u een regel deactiveert, kunnen beperkte profielen berichten ontvangen, maar worden er geen tellerverhogingen verwijderd of verwijderd.
+Wanneer het testen van frequentieregels, wordt het geadviseerd om een pas gecreeerd [ testprofiel ](../audience/creating-test-profiles.md) te gebruiken, omdat zodra de de frequentiedrempel van een profiel wordt bereikt, er geen manier is om de teller tot de volgende periode terug te stellen. Als u een regel deactiveert, kunnen beperkte profielen berichten ontvangen, maar worden er geen tellerverhogingen verwijderd of verwijderd.

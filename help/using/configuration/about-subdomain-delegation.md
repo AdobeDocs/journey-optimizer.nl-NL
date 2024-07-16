@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Subdomeindelegatie in [!DNL Journey Optimizer]
+title: Subdomain Delegation in  [!DNL Journey Optimizer]
 description: Leer hoe u uw subdomeinen kunt delegeren
 feature: Subdomains
 topic: Administration
@@ -16,7 +16,7 @@ ht-degree: 23%
 
 ---
 
-# Subdomeindelegatie in [!DNL Journey Optimizer] {#subdomain-delegation}
+# Subdomein delegeren in [!DNL Journey Optimizer] {#subdomain-delegation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_delegated_subdomains"
@@ -29,7 +29,7 @@ Als u een domein deelt en het wordt geblokkeerd of aan de lijst van gewezen pers
 
 >[!NOTE]
 >
->U kunt niet hetzelfde verzendende domein gebruiken om berichten te verzenden van [!DNL Adobe Journey Optimizer] en van een ander product, zoals [!DNL Adobe Campaign] of [!DNL Adobe Marketo Engage].
+>U kunt niet hetzelfde verzendende domein gebruiken om berichten van [!DNL Adobe Journey Optimizer] en van een ander product, zoals [!DNL Adobe Campaign] of [!DNL Adobe Marketo Engage] , te verzenden.
 
 ## Waarom instellen van subdomeinen? {#why-set-up-subdomains}
 
@@ -48,17 +48,17 @@ Hoewel deze vereisten worden beheerd via componenten die door zowel de Adobe als
 
 **Meer informatie**
 
-* Leer hoe u [delegeren van subdomeinen](delegate-subdomain.md) rechtstreeks vanuit de interface
-* Leer hoe u [Google TXT-records toevoegen](google-txt.md) naar uw subdomeinen om ervoor te zorgen dat e-mails naar Gmail-adressen succesvol worden verzonden
-* Leer hoe u [toegang tot de PTR-records](ptr-records.md) gegenereerd voor uw subdomeinen, zodat deze kunnen worden geverifieerd door e-mailservers te verzenden
+* Leer hoe te [ uw subdomeinen ](delegate-subdomain.md) direct van de interface afvaardigen
+* Leer hoe te [ om de verslagen van Google TXT ](google-txt.md) aan uw subdomeinen toe te voegen om de succesvolle levering van e-mails aan de adressen van Gmail te verzekeren
+* Leer hoe te [ tot de PTR- verslagen ](ptr-records.md) toegang te hebben die voor uw subdomeinen worden geproduceerd, hen toestaat om door postservers te verzenden
 
 ## Methoden voor subdomeinconfiguratie {#subdomain-delegation-methods}
 
 De configuratie van subdomain staat u toe om een onderafdeling van uw domein (technisch een &quot;DNS streek&quot;) voor gebruik met Adobe Campaign te vormen. Beschikbare instelmethoden zijn:
 
-* **Volledige subdomeindelegatie naar Adobe** (aanbevolen): het subdomein wordt volledig gedelegeerd aan de Adobe. De Adobe kan alle aspecten van DNS controleren en handhaven die voor het leveren, het teruggeven en het volgen van berichten worden vereist. [Meer informatie over volledige subdomeindelegatie](delegate-subdomain.md#full-subdomain-delegation)
+* **Volledige subdomain delegatie aan Adobe** (geadviseerd): Subdomain wordt volledig gedelegeerd aan Adobe. De Adobe kan alle aspecten van DNS controleren en handhaven die voor het leveren, het teruggeven en het volgen van berichten worden vereist. [ leer meer op volledige subdomain delegatie ](delegate-subdomain.md#full-subdomain-delegation)
 
-* **Gebruik van CNAME&#39;s**: Maak een subdomein en gebruik CNAME&#39;s om te wijzen naar records die specifiek zijn voor een Adobe. Gebruikend deze opstelling, zowel deelt u als Adobe verantwoordelijkheid voor het handhaven van DNS. [Meer informatie over CNAME-subdomeindelegatie](delegate-subdomain.md#cname-subdomain-delegation)
+* **Gebruik van CNAMEs**: Creeer subdomain en gebruik CNAMEs om aan Adobe-specifieke verslagen te richten. Gebruikend deze opstelling, zowel deelt u als Adobe verantwoordelijkheid voor het handhaven van DNS. [ Leer meer op subdomain van CNAME delegatie ](delegate-subdomain.md#cname-subdomain-delegation)
 
 >[!CAUTION]
 >
@@ -73,24 +73,24 @@ In de onderstaande tabel wordt een overzicht gegeven van de werking van deze met
 | **Volledige delegatie** | Maak het subdomein en de naamruimterecord. Adobe configureert vervolgens alle DNS-records die voor Adobe Campaign nodig zijn.<br/><br/>In deze setup is Adobe volledig verantwoordelijk voor het beheer van het subdomein en alle DNS-records. | Laag |
 | **CNAME, aangepaste methode** | Maak het subdomein en de naamruimterecord. Adobe verstrekt dan de records die in uw DNS servers moeten worden geplaatst en configureert de overeenkomstige waarden in de DNS-servers van Adobe Campaign.<br/><br/>In deze configuratie delen u en Adobe de verantwoordelijkheid voor het onderhoud van DNS. | Hoog |
 
-Aanvullende informatie over domeinconfiguratie is beschikbaar in [deze documentatie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
+De extra informatie over domeinconfiguratie is beschikbaar in [ deze documentatie ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
 
 Als u om het even welke vraag betreffende de methodes van de subdomeinconfiguratie hebt, bereik uit aan Adobe, of uiteindelijk contacteer de Zorg van de Klant om het raadplegen van de Leverbaarheid te verzoeken.
 
 ## Gedelegeerde subdomeinen benaderen {#access-delegated-subdomains}
 
-Alle gedelegeerde subdomeinen worden weergegeven in het dialoogvenster **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** -menu. Er zijn filters beschikbaar waarmee u de lijst (datum van delegatie, gebruiker of status) kunt verfijnen.
+Alle gedelegeerde subdomeinen worden weergegeven in het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** . Er zijn filters beschikbaar waarmee u de lijst (datum van delegatie, gebruiker of status) kunt verfijnen.
 
 ![](assets/subdomain-list.png)
 
-De **[!UICONTROL Status]** de kolom verstrekt informatie over het subdomain delegatieproces:
+De kolom **[!UICONTROL Status]** bevat informatie over het delegatieproces van subdomeinen:
 
-* **[!UICONTROL Draft]**: De subdomeindelegatie is opgeslagen als een concept. Klik op de subdomeinnaam om het delegatieproces te hervatten.
-* **[!UICONTROL Processing]**: Subdomain gaat door verscheidene configuratiecontroles alvorens het kan worden gebruikt,
-* **[!UICONTROL Success]**: Het subdomein is door de controles met succes gegaan en kan worden gebruikt om berichten te leveren,
-* **[!UICONTROL Failed]**: Een of meer controles zijn mislukt nadat de subdomeindelegatie is verzonden.
+* **[!UICONTROL Draft]**: de subdomeindelegatie is opgeslagen als concept. Klik op de subdomeinnaam om het delegatieproces te hervatten.
+* **[!UICONTROL Processing]**: het subdomein controleert verschillende configuraties voordat het kan worden gebruikt,
+* **[!UICONTROL Success]**: het subdomein heeft de controles met succes doorlopen en kan worden gebruikt om berichten te leveren,
+* **[!UICONTROL Failed]**: een of meer controles zijn mislukt nadat de subdomeindelegatie is verzonden.
 
-Als u toegang wilt krijgen tot gedetailleerde informatie over een subdomein met de **[!UICONTROL Success]** status, opent u deze vanuit de lijst.
+Als u toegang wilt tot gedetailleerde informatie over een subdomein met de status **[!UICONTROL Success]** , opent u het subdomein in de lijst.
 
 ![](assets/subdomain-delegated.png)
 
@@ -98,7 +98,7 @@ U kunt:
 
 * Haal de subdomeinnaam (read-only) op die tijdens het delegatieproces wordt gevormd, evenals geproduceerde URLs (middelen, spiegelpagina&#39;s, het volgen URLs),
 
-* Voeg een TXT-record voor verificatie van de Google-site toe aan uw subdomein om te controleren of deze is geverifieerd (zie [Een Google TXT-record toevoegen aan een subdomein](google-txt.md)).
+* Voeg een van de plaatsverificatie TXT- verslag van Google aan uw subdomain toe om ervoor te zorgen dat het wordt geverifieerd (zie [ een van Google TXT- verslag aan subdomain ](google-txt.md) toevoegen).
 
 
 >[!CAUTION]

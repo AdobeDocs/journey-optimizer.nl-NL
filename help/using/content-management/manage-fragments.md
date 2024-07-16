@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Fragmenten beheren {#manage-fragments}
 
-Als u uw fragmenten wilt beheren, opent u de fragmentlijst via de **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** links.
+Als u uw fragmenten wilt beheren, opent u de fragmentlijst via **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** links menu.
 
-Alle fragmenten die op de huidige sandbox zijn gemaakt - ofwel [van de **[!UICONTROL Fragments]** menu](#create-fragments), waarbij de [Opslaan als fragment](#save-as-fragment) -optie - worden weergegeven.
+Alle fragmenten die op de huidige zandbak - of [ van het **[!UICONTROL Fragments]** menu ](#create-fragments) werden gecreeerd, of gebruikend [ sparen als fragmentoptie ](#save-as-fragment) - worden getoond.
 
 ![](assets/fragment-list-filters.png)
 
@@ -33,12 +33,12 @@ U kunt fragmenten filteren op hun:
 
 U kunt er ook voor kiezen om alle fragmenten weer te geven, of alleen de items die de huidige gebruiker heeft gemaakt of gewijzigd.
 
-Van de **[!UICONTROL More actions]** naast elk fragment kunt u:
+Via de knop **[!UICONTROL More actions]** naast elk fragment kunt u:
 
 * Dupliceer een fragment.
-* Gebruik de **[!UICONTROL Explore references]** de reis, de campagnes of de sjablonen waar deze worden gebruikt. [Meer informatie](#explore-references)
+* Gebruik de optie **[!UICONTROL Explore references]** om de reizen, campagnes of sjablonen te zien waar deze worden gebruikt. [Meer informatie](#explore-references)
 * Archiveer een fragment. [Meer informatie](#archive-fragments)
-* De tags van een fragment bewerken [Leer hoe te met Verenigde markeringen werken](../start/search-filter-categorize.md#tags).
+* Bewerk de markeringen van een fragment [ leren hoe te met Verenigde markeringen ](../start/search-filter-categorize.md#tags) te werken.
 
 ![](assets/fragment-list-more-actions.png)
 
@@ -47,23 +47,23 @@ Van de **[!UICONTROL More actions]** naast elk fragment kunt u:
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="Nieuwe fragmentstatussen"
->abstract="Sinds **Concept** en **Live** De status &#39;Concept&#39; is ingevoerd met de release van Journey Optimizer June. Alle fragmenten die vóór deze release zijn gemaakt, hebben de status &#39;Concept&#39;, zelfs als ze op reis of tijdens een campagne worden gebruikt. Als u wijzigingen aanbrengt in deze fragmenten, moet u deze publiceren om ze &quot;live&quot; te maken en de wijzigingen aan de bijbehorende campagnes en reizen door te geven. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. <br/>Voor publicatie is de opdracht <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage">Publish-fragment</a> gebruikerstoestemming."
+>abstract="Aangezien **Ontwerp** en **Levende** statussen met de versie van Journey Optimizer Juni zijn geïntroduceerd, hebben alle fragmenten die vóór deze versie worden gecreeerd de status &quot;van het Ontwerp&quot;, zelfs als zij in een reis of een campagne worden gebruikt. Als u wijzigingen aanbrengt in deze fragmenten, moet u deze publiceren om ze &quot;live&quot; te maken en de wijzigingen aan de bijbehorende campagnes en reizen door te geven. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. <br/> het Publiceren vereist de <a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manage"> 2} gebruikerstoestemming van het Fragment van Publish {.</a>"
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/privacy/ootb-product-profiles#content-library-manager" text="Meer informatie over machtigingen voor inhoudsfragmenten"
 
 Fragmenten kunnen meerdere statussen hebben:
 
-* **[!UICONTROL Draft]**: Het fragment wordt bewerkt en is niet goedgekeurd.
+* **[!UICONTROL Draft]**: het fragment wordt bewerkt en is niet goedgekeurd.
 
-* **[!UICONTROL Live]**: Het fragment is goedgekeurd en is actief. [Leer hoe u een fragment publiceert](../content-management/create-fragments.md#publish)
+* **[!UICONTROL Live]**: het fragment is goedgekeurd en is actief. [ leer hoe te om een fragment ](../content-management/create-fragments.md#publish) te publiceren
 
   Wanneer een actief fragment wordt bewerkt, wordt een specifiek pictogram naast de status weergegeven. Klik op dit pictogram om de conceptversie van het fragment te openen.
 
 * **[!UICONTROL Publishing]**: Het fragment is goedgekeurd en wordt gepubliceerd.
-* **[!UICONTROL Archived]**: Het fragment is gearchiveerd. [Leer hoe u fragmenten kunt archiveren](#archive-fragments)
+* **[!UICONTROL Archived]**: het fragment is gearchiveerd. [ Leer hoe te om fragmenten ](#archive-fragments) te archiveren
 
 >[!CAUTION]
 >
->Sinds **Concept** en **Live** De status &#39;Concept&#39; is ingevoerd met de release van Journey Optimizer June. Alle fragmenten die vóór deze release zijn gemaakt, hebben de status &#39;Concept&#39;, zelfs als ze op reis of tijdens een campagne worden gebruikt. Als u wijzigingen aanbrengt in deze fragmenten, moet u deze publiceren om ze &quot;live&quot; te maken en de wijzigingen aan de bijbehorende campagnes en reizen door te geven. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. Voor publicatie is de opdracht [Publish-fragment](../administration/ootb-product-profiles.md#content-library-manager) gebruikerstoestemming.
+>Aangezien **Ontwerp** en **Levende** statussen met de versie van Journey Optimizer Juni zijn geïntroduceerd, hebben alle fragmenten die vóór deze versie worden gecreeerd de status &quot;van het Ontwerp&quot;, zelfs als zij in een reis of een campagne worden gebruikt. Als u wijzigingen aanbrengt in deze fragmenten, moet u deze publiceren om ze &quot;live&quot; te maken en de wijzigingen aan de bijbehorende campagnes en reizen door te geven. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren. Het publiceren vereist de ](../administration/ootb-product-profiles.md#content-library-manager) gebruikerstoestemming van het Fragment van 0} Publish.[
 
 ## Fragmenten bewerken {#edit-fragments}
 
@@ -79,29 +79,29 @@ Fragmenten kunnen meerdere statussen hebben:
 
 Voer de onderstaande stappen uit om een fragment te bewerken.
 
-1. Klik op het gewenste fragment in het menu **[!UICONTROL Fragments]** lijst.
+1. Klik op het gewenste fragment in de lijst **[!UICONTROL Fragments]** .
 
 1. De fragmenteigenschappen worden geopend met een voorvertoning van de inhoud ervan.
 
-1. Als het fragment dat wordt bewerkt het **Live** status, klik op de knop **Wijzigen** om een conceptversie van het fragment te maken. De huidige versie van het fragment blijft actief totdat u de conceptversie publiceert.
+1. Als het fragment dat wordt uitgegeven de **Levende** status heeft, klik **wijzigt** knoop om een ontwerp versie van het fragment tot stand te brengen. De huidige versie van het fragment blijft actief totdat u de conceptversie publiceert.
 
-1. Breng de gewenste wijzigingen aan in het fragment. Als u de inhoud wilt bewerken, klikt u op de knop **Bewerken** bewerk vervolgens de inhoud zoals u zou doen bij het maken van een geheel nieuw fragment. [Leer hoe u een fragment maakt](#create-from-scratch)
+1. Breng de gewenste wijzigingen aan in het fragment. Om zijn inhoud uit te geven, klik **uitgeven** knoop dan uw inhoud zoals u wanneer het creëren van een fragment van kras zou doen. [ Leer hoe te om een fragment ](#create-from-scratch) tot stand te brengen
 
    >[!NOTE]
    >
    >Wanneer u een expressiefragment bewerkt, kunt u elk willekeurig aanpassingsveld verwijderen, maar u kunt geen nieuwe velden toevoegen aan de fragmentinhoud. Als u aanpassingsvelden wilt toevoegen, dupliceert u het fragment om een nieuw fragment te maken.
 
-   U kunt ook de lijst controleren van de reizen, campagnes en inhoudssjablonen waar het fragment momenteel wordt gebruikt door de optie **Verwijzingen naar Verkenner** -optie. [Meer informatie](#explore-references)
+   U kunt de lijst van de reizen, campagnes en inhoudsmalplaatjes ook controleren waar het fragment momenteel door de **verwijzingen van de Ontdekkingsreiziger** optie te selecteren wordt gebruikt. [Meer informatie](#explore-references)
 
    ![](assets/fragment-edit.png)
 
-1. Als uw wijzigingen gereed zijn, klikt u op de knop **Publish** om uw wijzigingen live te zetten.
+1. Zodra uw veranderingen klaar zijn, klik de **knoop van Publish** om uw veranderingen levend te maken.
 
-Wanneer u een fragment bewerkt, worden de wijzigingen automatisch doorgegeven aan alle inhoud met dat fragment, inclusief live reizen en campagnes, behalve voor inhoud waarin u de overerving van het oorspronkelijke fragment hebt verbroken. Leer hoe u overerving kunt onderbreken in de [Visuele fragmenten toevoegen aan uw e-mails](../email/use-visual-fragments.md#break-inheritance) en [Expressiefragmenten benutten](../personalization/use-expression-fragments.md#break-inheritance) secties.
+Wanneer u een fragment bewerkt, worden de wijzigingen automatisch doorgegeven aan alle inhoud met dat fragment, inclusief live reizen en campagnes, behalve voor inhoud waarin u de overerving van het oorspronkelijke fragment hebt verbroken. Leer hoe te om overerving in [ te breken voeg visuele fragmenten aan uw e-mails ](../email/use-visual-fragments.md#break-inheritance) en [ de uitdrukkingsfragmenten van de Leverage ](../personalization/use-expression-fragments.md#break-inheritance) secties toe.
 
 ## Verwijzingen verkennen {#explore-references}
 
-U kunt een lijst weergeven met de reizen, campagnes en inhoudssjablonen die momenteel een fragment gebruiken. Selecteer **[!UICONTROL Explore references]** hetzij van de **[!UICONTROL More actions]** in de fragmentlijst of vanuit het scherm met fragmenteigenschappen.
+U kunt een lijst weergeven met de reizen, campagnes en inhoudssjablonen die momenteel een fragment gebruiken. Selecteer hiervoor **[!UICONTROL Explore references]** in het menu **[!UICONTROL More actions]** in de fragmentlijst of in het scherm met fragmenteigenschappen.
 
 ![](assets/fragment-explore-references.png)
 
@@ -111,20 +111,20 @@ Selecteer een tabblad om te schakelen tussen reizen, campagnes, sjablonen en fra
 
 >[!NOTE]
 >
->Als het fragment wordt gebruikt in een reis, campagne of sjabloon met een label dat u ervan weerhoudt het te openen, wordt boven op het geselecteerde tabblad een waarschuwingsbericht weergegeven. [Leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC)](../administration/object-based-access.md)
+>Als het fragment wordt gebruikt in een reis, campagne of sjabloon met een label dat u ervan weerhoudt het te openen, wordt boven op het geselecteerde tabblad een waarschuwingsbericht weergegeven. [ leer meer op het Toegangsbeheer van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md)
 
 ## Fragmenten archiveren {#archive-fragments}
 
 U kunt de fragmentlijst opruimen van de items die niet meer van belang zijn voor uw merk.
 
-Klik hiertoe op de knop **[!UICONTROL More actions]** naast het gewenste fragment en selecteer **[!UICONTROL Archive]**. Deze verdwijnt uit de fragmentlijst, zodat gebruikers deze niet meer kunnen gebruiken in toekomstige e-mails of sjablonen.
+Klik hiertoe op de knop **[!UICONTROL More actions]** naast het gewenste fragment en selecteer **[!UICONTROL Archive]** . Deze verdwijnt uit de fragmentlijst, zodat gebruikers deze niet meer kunnen gebruiken in toekomstige e-mails of sjablonen.
 
 ![](assets/fragment-list-archive.png)
 
 >[!NOTE]
 >
->Als u een fragment archiveert dat in een inhoud wordt gebruikt, <!--it will remain in the email or template, but you won't be able to select it from the fragment list to edit it-->de inhoud wordt niet beïnvloed.
+>Als u een fragment archiveert dat in een inhoud wordt gebruikt, <!--it will remain in the email or template, but you won't be able to select it from the fragment list to edit it--> dat de inhoud niet zal worden beïnvloed.
 
-Als u een fragment ongedaan wilt maken, filtert u op het tabblad **[!UICONTROL Archived]** items en selecteer **[!UICONTROL Unarchive]** van de **[!UICONTROL More actions]** -menu. Het is nu weer toegankelijk vanuit de fragmentlijst en kan in elke e-mail of sjabloon worden gebruikt.
+Als u het archiveren van een fragment ongedaan wilt maken, filtert u op de **[!UICONTROL Archived]** -items en selecteert u **[!UICONTROL Unarchive]** in het menu **[!UICONTROL More actions]** . Het is nu weer toegankelijk vanuit de fragmentlijst en kan in elke e-mail of sjabloon worden gebruikt.
 
 ![](assets/fragment-list-unarchive.png)

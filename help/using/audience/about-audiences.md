@@ -20,23 +20,23 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_experiment_segment"
->title="Publiek"
+>title="Doelgroep"
 >abstract="Met Adobe Experience Platform kunt u eenvoudig segmentdefinities maken door gebruik te maken van realtime klantprofielgegevens. Zo kunt u doelgroepen maken die de unieke gedragingen en voorkeuren van uw klanten vastleggen."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_audience"
 >title="Selecteer het campagnepubliek"
->abstract="In deze lijst worden alle beschikbare Adobe Experience Platform-soorten publiek weergegeven. Selecteer het publiek voor uw campagne. Het bericht dat in de campagne wordt gevormd zal naar alle individuen worden verzonden die tot het geselecteerde publiek behoren. [Meer informatie over publiek](../audience/about-audiences.md)"
+>abstract="In deze lijst worden alle beschikbare Adobe Experience Platform-soorten publiek weergegeven. Selecteer het publiek voor uw campagne. Het bericht dat in de campagne wordt gevormd zal naar alle individuen worden verzonden die tot het geselecteerde publiek behoren. [ leer meer op publiek ](../audience/about-audiences.md)"
 
-Een publiek is een groep personen die vergelijkbare gedragingen en/of kenmerken delen. Meer informatie over het publiek in de [Adobe Experience Platform Segmentation Service-documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}.
+Een publiek is een groep personen die vergelijkbare gedragingen en/of kenmerken delen. Leer meer over publiek in de [ documentatie van de Dienst van de Segmentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html) {target="_blank"}.
 
-[!DNL Journey Optimizer] biedt u de mogelijkheid om Adobe Experience Platform-publiek rechtstreeks te maken vanuit de **[!UICONTROL Audiences]** en gebruikt u deze voor reizen of campagnes.
+Met [!DNL Journey Optimizer] kunt u rechtstreeks vanuit het menu **[!UICONTROL Audiences]** een Adobe Experience Platform-publiek maken en dit gebruiken voor reizen of campagnes.
 
 Soorten publiek kan op verschillende manieren worden gegenereerd:
 
-* **Segmentdefinities**: Maak een nieuwe publieksdefinitie met Adobe Experience Platform Segmentation Service. [Leer hoe te om segmentdefinities te bouwen](creating-a-segment-definition.md)
-* **Aangepaste upload**: Importeer een publiek met een CSV-bestand. Meer informatie over het importeren van soorten publiek in Adobe Experience Platform [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
-* **Samenstelling publiek**: Maak een compositieworkflow om bestaande Adobe Experience Platform-soorten publiek te combineren tot een visueel canvas en gebruik verschillende activiteiten (splitsen, uitsluiten...) om een nieuw publiek te maken. [Aan de slag met publiekscompositie](get-started-audience-orchestration.md)
+* **de definities van het Segment**: Creeer een nieuwe publieksdefinitie gebruikend de Dienst van de Segmentatie van Adobe Experience Platform. [ leer hoe te om segmentdefinities te bouwen ](creating-a-segment-definition.md)
+* **Douane uploadt**: Invoer een publiek gebruikend een Csv- dossier. Leer hoe te om publiek in de documentatie van de Dienst van de Segmentatie van Adobe Experience Platform [ in te voeren ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) {target="_blank"}.
+* **samenstelling van het publiek**: Creeer een samenstellingswerkschema om bestaand publiek van Adobe Experience Platform in een visueel canvas te combineren en hefboomwerking diverse activiteiten (spleet, sluit uit...) om nieuw publiek tot stand te brengen. [ worden begonnen met publiekssamenstelling ](get-started-audience-orchestration.md)
 
 ## Doelpubliek in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
@@ -44,17 +44,17 @@ U kunt in campagnes selecteren en reizen om het even welk publiek dat gebruikend
 
 >[!AVAILABILITY]
 >
->Het gebruik van soorten publiek en kenmerken van publiek compositie en aangepast uploadpubliek (CSV-bestand) is momenteel niet beschikbaar voor gebruik met Healthcare Shield of Privacy and Security Shield. [Meer informatie over het gebruik van verrijkingskenmerken voor doelgroepen in Journey Optimizer](../audience/about-audiences.md#enrichment)
+>Het gebruik van soorten publiek en kenmerken van publiek compositie en aangepast uploadpubliek (CSV-bestand) is momenteel niet beschikbaar voor gebruik met Healthcare Shield of Privacy and Security Shield. [ Leer hoe te om de attributen van de kijkverrijking in Journey Optimizer te gebruiken ](../audience/about-audiences.md#enrichment)
 
-U kunt het publiek benutten in **[!DNL Journey Optimizer]** op verschillende manieren:
+U kunt het publiek op verschillende manieren gebruiken in **[!DNL Journey Optimizer]** :
 
-* Kies een publiek voor een **campagne**, waarbij het bericht wordt verzonden naar alle personen die tot het geselecteerde publiek behoren. [Leer hoe u het publiek van een campagne definieert](../campaigns/create-campaign.md#define-the-audience-audience).
+* Kies een publiek voor a **campagne**, waar het bericht wordt verzonden naar alle individuen die tot het geselecteerde publiek behoren. [ Leer hoe te om het publiek van een campagne ](../campaigns/create-campaign.md#define-the-audience-audience) te bepalen.
 
-* Een **Lees publiek** Orchestratie-activiteit op een reis om ervoor te zorgen dat alle individuen in het publiek de reis betreden en de berichten ontvangen inbegrepen in uw reis. Laten we zeggen dat je een &quot;zilveren klant&quot; publiek hebt. Met deze activiteit, kunt u alle zilveren klanten een reis maken en hen een reeks gepersonaliseerde berichten verzenden. [Leer hoe te om een Gelezen publieksactiviteit te vormen](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
+* Gebruik a **Gelezen publiek** orkestactiviteit in een reis om alle individuen in het publiek te maken de reis ingaan en de berichten ontvangen inbegrepen in uw reis. Laten we zeggen dat je een &quot;zilveren klant&quot; publiek hebt. Met deze activiteit, kunt u alle zilveren klanten een reis maken en hen een reeks gepersonaliseerde berichten verzenden. [ Leer hoe te om Gelezen publieksactiviteit ](../building-journeys/read-audience.md#configuring-segment-trigger-activity) te vormen.
 
-* Gebruik de **Voorwaarde** activiteit op een reis om voorwaarden op te bouwen die op het lidmaatschap van het publiek worden gebaseerd. [Meer informatie over het gebruik van soorten publiek in omstandigheden](../building-journeys/condition-activity.md#using-a-segment).
+* Gebruik de **activiteit van de Voorwaarde** in een reis om voorwaarden te bouwen die op publiekslidmaatschap worden gebaseerd. [ leer hoe te om publiek in voorwaarden ](../building-journeys/condition-activity.md#using-a-segment) te gebruiken.
 
-* Gebruik de **kwalificatie publiek** gebeurtenisactiviteit op een reis om ervoor te zorgen dat individuen de reis betreden of vooruit gaan op basis van de toegang tot en het vertrek van Adobe Experience Platform-gebruikers. U kunt bijvoorbeeld alle nieuwe zilverklanten een reis laten maken en hun berichten sturen. Raadpleeg voor meer informatie over het gebruik van deze activiteit [Leer hoe te om een de kwalificatieactiviteit van het Publiek te vormen](../building-journeys/audience-qualification-events.md).
+* Gebruik de **gebeurtenisactiviteit van de kwalificatie van het publiek 0} {in een reis om individuen te maken ingaan of zich voorwaarts in de reis die op de kijkposten van Adobe Experience Platform en uitgang wordt gebaseerd.** U kunt bijvoorbeeld alle nieuwe zilverklanten een reis laten maken en hun berichten sturen. Voor meer op hoe te om deze activiteit te gebruiken, verwijs naar [ hoe te om een de kwalificatieactiviteit van het Publiek te vormen ](../building-journeys/audience-qualification-events.md).
 
   >[!NOTE]
   >
@@ -64,7 +64,7 @@ U kunt het publiek benutten in **[!DNL Journey Optimizer]** op verschillende man
 
 Wanneer het richten van een publiek dat gebruikend samenstellingswerkschema&#39;s wordt geproduceerd, kunt u verrijkingsattributen van deze publiek gebruiken om uw reis te bouwen en uw berichten te personaliseren.
 
-Als u verrijkingskenmerken wilt gebruiken in een reis, moet u ervoor zorgen dat deze worden toegevoegd aan een veldgroep binnen de gegevensbron &quot;ExperiencePlatform&quot;.
+Als u verrijkingskenmerken wilt gebruiken in een reis, moet u ervoor zorgen dat deze worden toegevoegd aan een veldgroep in de Data Source &quot;ExperiencePlatform&quot;.
 
 +++ Leer hoe u verrijkingskenmerken aan een veldgroep kunt toevoegen
 
@@ -82,11 +82,11 @@ Gedetailleerde informatie over gegevensbronnen is beschikbaar in deze secties:
 
 Nadat verrijkingskenmerken aan een veldgroep zijn toegevoegd, kunt u deze op verschillende locaties in Journey Optimizer benutten:
 
-* **Meerdere paden maken voor een rit** gebaseerd op regels die de verrijkingskenmerken van het doelpubliek benutten. Als u dit wilt doen, richt u de doelgroep op met een [Lees publiek](../building-journeys/read-audience.md) activiteit creeert dan regels in [Voorwaarde](../building-journeys/condition-activity.md) activiteit op basis van de verrijkingskenmerken van het publiek .
+* **creeer veelvoudige weg in een reis** die op regels wordt gebaseerd die hefboomwerking de de verrijkingsattributen van het doelpubliek. Om dit te doen, richt het publiek dat a [ gebruikt gelezen publiek ](../building-journeys/read-audience.md) activiteit dan tot regels in de activiteit van de Voorwaarde van a [ ](../building-journeys/condition-activity.md) leidt die op de verrijkingsattributen van het publiek wordt gebaseerd.
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 
-* **Je berichten personaliseren** bij reizen of campagnes door verrijkingskenmerken van het doelpubliek toe te voegen in de personalisatie-editor. [Leer hoe u met de verpersoonlijkingseditor werkt](../personalization/personalization-build-expressions.md)
+* **personaliseer uw berichten** in reizen of campagnes door verrijkingsattributen van het gerichte publiek in de verpersoonlijkingsredacteur toe te voegen. [ Leer hoe te met de verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md) te werken
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
@@ -102,7 +102,7 @@ In Adobe Journey Optimizer wordt het publiek gegenereerd op basis van segmentdef
 
 De profiellijst voor het publiek wordt bijgewerkt in real time aangezien de nieuwe gegevens in het systeem stromen.
 
-Streaming segmentatie is een doorlopend proces voor gegevensselectie dat uw publiek bijwerkt als reactie op gebruikersactiviteit. Zodra een segmentdefinitie is gebouwd en het resulterende publiek is bewaard, wordt de segmentdefinitie toegepast op inkomende gegevens aan Journey Optimizer. Dit betekent dat individuen worden toegevoegd of uit het publiek verwijderd aangezien hun profielgegevens veranderen, ervoor zorgen dat uw doelpubliek altijd relevant is. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html){target="_blank"}
+Streaming segmentatie is een doorlopend proces voor gegevensselectie dat uw publiek bijwerkt als reactie op gebruikersactiviteit. Zodra een segmentdefinitie is gebouwd en het resulterende publiek is bewaard, wordt de segmentdefinitie toegepast op inkomende gegevens aan Journey Optimizer. Dit betekent dat individuen worden toegevoegd of uit het publiek verwijderd aangezien hun profielgegevens veranderen, ervoor zorgen dat uw doelpubliek altijd relevant is. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html) {target="_blank"}
 
 >[!NOTE]
 >
@@ -114,17 +114,17 @@ Streaming segmentatie is een doorlopend proces voor gegevensselectie dat uw publ
 
 De profiellijst voor het publiek wordt om de 24 uur geëvalueerd.
 
-De segmentatie van de partij is een alternatief aan het stromen segmentatie die alle profielgegevens in één keer door segmentdefinities verwerkt. Zo maakt u een momentopname van het publiek die u kunt opslaan en exporteren voor gebruik. Nochtans, in tegenstelling tot het stromen segmentatie, werkt de partijsegmentatie niet onophoudelijk de publiekslijst in real time bij, en de nieuwe gegevens die binnen na het partijproces komen zullen niet in het publiek tot het volgende partijproces worden weerspiegeld. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch){target="_blank"}
+De segmentatie van de partij is een alternatief aan het stromen segmentatie die alle profielgegevens in één keer door segmentdefinities verwerkt. Zo maakt u een momentopname van het publiek die u kunt opslaan en exporteren voor gebruik. Nochtans, in tegenstelling tot het stromen segmentatie, werkt de partijsegmentatie niet onophoudelijk de publiekslijst in real time bij, en de nieuwe gegevens die binnen na het partijproces komen zullen niet in het publiek tot het volgende partijproces worden weerspiegeld. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#batch) {target="_blank"}
 
 +++
 
-+++ Randsegmentatie
++++ Edge-segmentatie
 
-Randsegmentatie is de mogelijkheid om segmenten in Adobe Experience Platform ogenblikkelijk te evalueren [op de rand](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}en maakt het gebruik van hoofdletters en kleine letters mogelijk voor het aanpassen van pagina&#39;s. Momenteel kunnen alleen bepaalde querytypen worden geëvalueerd met randsegmentatie. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types){target="_blank"}
+De segmentatie van Edge is de capaciteit om segmenten in Adobe Experience Platform onmiddellijk [ op de rand ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) {target="_blank"} te evalueren, toelatend zelfde-pagina en volgende-pagina verpersoonlijkingsgebruiksgevallen. Momenteel kunnen alleen bepaalde querytypen worden geëvalueerd met randsegmentatie. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html#query-types) {target="_blank"}
 
 +++
 
-Als u weet welke evaluatiemethode u wilt gebruiken, selecteer het gebruikend de drop-down lijst. U kunt ook op het pictogram van de bladerpictogrammap met een vergrootglas klikken om een lijst met de beschikbare evaluatiemethoden voor segmentdefinitie weer te geven. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#segment-properties){target="_blank"}
+Als u weet welke evaluatiemethode u wilt gebruiken, selecteer het gebruikend de drop-down lijst. U kunt ook op het pictogram van de bladerpictogrammap met een vergrootglas klikken om een lijst met de beschikbare evaluatiemethoden voor segmentdefinitie weer te geven. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#segment-properties) {target="_blank"}
 
 ![](assets/evaluation-methods.png)
 
@@ -142,21 +142,21 @@ Het ondersteunen van het publiek op basis van eerdere gegevens kan 24 uur in bes
 
 ### Gebeurtenisgebruik met streaming segmentatie {#streaming-segmentation-events-guardrails}
 
-Streaming segmentatie is handig voor realtime personalisatie met gebruik van hoge waarden. Het is echter belangrijk dat u het recht kiest [gebeurtenissen](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"} als segmenteringscriteria te gebruiken.
+Streaming segmentatie is handig voor realtime personalisatie met gebruik van hoge waarden. Nochtans, is het belangrijk om de juiste [ gebeurtenissen ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events) te kiezen {target="_blank"} om als segmenteringscriteria te gebruiken.
 
 Voor het streamen van segmentatie zijn optimale prestaties dus beter geen gebruik te maken van de volgende gebeurtenissen:
 
-* **Bericht geopend** Interactietype, gebeurtenis
+* **Geopend Bericht** gebeurtenis van het Type van Interactie
 
-  Wanneer het opbouwen van uw publiek, gebruik van **Bericht geopend** interactiegebeurtenissen werden onbetrouwbaar omdat ze geen werkelijke indicatoren van gebruikersactiviteit zijn en de segmentatieprestaties negatief kunnen beïnvloeden. Meer weten waarom in dit [Blogbericht Adobe](https://blog.adobe.com/en/publish/2021/06/24/what-apples-mail-privacy-protection-means-for-email-marketers){target="_blank"}. Daarom beveelt de Adobe aan geen gebruik te maken van **Bericht geopend** interactiegebeurtenissen met streaming segmentatie. In plaats daarvan, gebruik echte user-activity signalen zoals kliks, aankopen, of baken gegevens.
+  Wanneer het bouwen van uw publiek, werd het gebruik van **Geopende** interactiegebeurtenissen van het Bericht onbetrouwbaar, omdat zij geen daadwerkelijke indicatoren van gebruikersactiviteit zijn en segmentatieprestaties negatief kunnen beïnvloeden. Leer waarom in deze [ post van Blog van de Adobe ](https://blog.adobe.com/en/publish/2021/06/24/what-apples-mail-privacy-protection-means-for-email-marketers) {target="_blank"}. Vandaar, adviseert de Adobe niet het gebruiken van **Geopend Bericht** interactiegebeurtenissen met het stromen segmentatie. In plaats daarvan, gebruik echte user-activity signalen zoals kliks, aankopen, of baken gegevens.
 
-* **Bericht verzonden** Feedbackstatus, gebeurtenis
+* **Bericht verzonden** gebeurtenis van de Status van de Terugkoppeling
 
-  De **Bericht verzonden** feedbackgebeurtenis wordt vaak gebruikt voor frequentie- of suppressiecontroles voordat een e-mail wordt verzonden. Adobe beveelt aan dit te vermijden omdat dit de prestaties onder druk zet en het systeem kan aantasten. Daarom voor frequentie of suppression logica, gebruiks bedrijfsregels eerder dan **Bericht verzonden** feedbackgebeurtenissen. Merk op dat de dagelijkse frequentiecijfers voor individuele profielen binnenkort beschikbaar zullen zijn, als aanvulling op de bestaande maandelijkse wachttijden voor bedrijfsregels.
+  Het **verzonden Bericht** terugkoppelt gebeurtenis wordt vaak gebruikt voor frequentie of onderdrukking die voorafgaand aan het verzenden van een e-mail controleert. Adobe beveelt aan dit te vermijden omdat dit de prestaties onder druk zet en het systeem kan aantasten. Daarom voor frequentie of suppressielogica, gebruiks bedrijfsregels eerder dan **verzonden Bericht** terugkoppelt gebeurtenissen. Merk op dat de dagelijkse frequentiecijfers voor individuele profielen binnenkort beschikbaar zullen zijn, als aanvulling op de bestaande maandelijkse wachttijden voor bedrijfsregels.
 
 >[!NOTE]
 >
->U kunt **Bericht geopend** en **Bericht verzonden** gebeurtenissen in batchsegmentatie zonder prestatieproblemen.
+>U kunt **Geopend Bericht gebruiken** en **Bericht Verzonden** gebeurtenissen in partijsegmentatie zonder enige prestatieszorgen.
 
 
 ## Samenstelling publiek en Veelgestelde vragen over aangepaste upload {#faq}
@@ -165,17 +165,17 @@ In de volgende sectie worden vaak gestelde vragen weergegeven over het gebruik i
 
 +++ Waar kan ik publiek van publiekssamenstelling en douane uploaden binnen Journey Optimizer gebruiken?
 
-De doelgroepen van de samenstelling van de doelgroep en de aangepaste upload kunnen worden gericht of van campagnes en reizen. [Leer hoe u doelgroepen kunt maken in [!DNL Journey Optimizer]](#segments-in-journey-optimizer)
+De doelgroepen van de samenstelling van de doelgroep en de aangepaste upload kunnen worden gericht of van campagnes en reizen. [ leer hoe te om publiek in  [!DNL Journey Optimizer]](#segments-in-journey-optimizer) te richten
 
-* In **Campagnes**, worden deze soorten publiek weergegeven in de publiekskiezer nadat u op de knop voor het selecteren van het publiek hebt geklikt.
+* In **Campagnes**, verschijnen deze publiek in de publieksplukker na het klikken van de &quot;Uitgezochte publieksknoop&quot;.
 
-* In **Reizen** kunt u deze doelgroepen gebruiken in een activiteit &#39;Publiek lezen&#39; tijdens de selectie van het publiek en in een activiteit &#39;Voorwaarde&#39; voor de controles van het publiekslidmaatschap. Wegens hun partijdige aard komen deze soorten publiek echter niet voor in de activiteit &quot;Audience Qualification&quot;.
+* In **Weizen**, kunt u deze toehoorders in een &quot;Gelezen activiteit van het Publiek&quot;tijdens publieksselectie, en in een &quot;Voorwaarde&quot;activiteit voor de controles van het publiekslidmaatschap gebruiken. Wegens hun partijdige aard komen deze soorten publiek echter niet voor in de activiteit &quot;Audience Qualification&quot;.
 
   >[!NOTE]
   >
   >Als &#39;Incrementeel lezen&#39; tijdens een terugkerende rit is ingeschakeld voor een aangepast uploadpubliek, worden profielen alleen bij de eerste terugkerende actie opgehaald, omdat deze doelgroepen vast zijn.
 
-Bovendien, zijn deze publiek beschikbaar voor gebruik in de verpersoonlijkingsredacteur om uw berichten in reizen en campagnes te personaliseren. [Leer hoe u met de verpersoonlijkingseditor werkt](../personalization/personalization-build-expressions.md)
+Bovendien, zijn deze publiek beschikbaar voor gebruik in de verpersoonlijkingsredacteur om uw berichten in reizen en campagnes te personaliseren. [ Leer hoe te met de verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md) te werken
 
 +++
 
@@ -183,13 +183,13 @@ Bovendien, zijn deze publiek beschikbaar voor gebruik in de verpersoonlijkingsre
 
 Verrijkingskenmerken zijn aanvullende kenmerken die contextueel zijn en specifiek zijn voor een publiek. Ze zijn niet gekoppeld aan het profiel en worden doorgaans gebruikt voor personalisatiedoeleinden.
 
-Verrijkingskenmerken zijn gekoppeld aan een publiek via een [Verrijken](composition-canvas.md#enrich) activiteit in publiekssamenstelling of door het douane uploadproces.
+De attributen van de verrijking zijn verbonden met een publiek via [ verrijken ](composition-canvas.md#enrich) activiteit in publiekssamenstelling of door het douane uploadt proces.
 
 +++
 
 +++ Waar kan ik verrijkingskenmerken gebruiken in Journey Optimizer?
 
-De attributen van de verrijking van publiekssamenstelling kunnen in de volgende gebieden worden gebruikt. [Leer hoe u verrijkingskenmerken voor het publiek kunt gebruiken](#enrichment)
+De attributen van de verrijking van publiekssamenstelling kunnen in de volgende gebieden worden gebruikt. [ Leer hoe te om de attributen van de kijkverrijking ](#enrichment) te gebruiken
 
 * Condition activity (Reizen)
 * Aangepaste actiekenmerken (reizen)
@@ -203,14 +203,14 @@ De attributen van de verrijking van publiekssamenstelling kunnen in de volgende 
 
 +++ Hoe laat ik verrijkingskenmerken toe in Reizen?
 
-Als u verrijkingskenmerken wilt gebruiken in een reis, moet u ervoor zorgen dat deze worden toegevoegd aan een veldgroep binnen de gegevensbron &quot;ExperiencePlatform&quot;. Informatie over het toevoegen van verrijkingskenmerken aan een veldgroep vindt u in [deze sectie](#enrichment)
+Als u verrijkingskenmerken wilt gebruiken in een reis, moet u ervoor zorgen dat deze worden toegevoegd aan een veldgroep in de Data Source &quot;ExperiencePlatform&quot;. De informatie over hoe te om verrijkingsattributen aan een Groep van het Gebied toe te voegen is beschikbaar in [ deze sectie ](#enrichment)
 
 +++
 
 +++ Hoe snel kan ik het in Journey Optimizer gebruiken nadat ik een publiek heb gepubliceerd vanuit de compositie van het publiek of aangepaste upload?
 
-* Soorten publiek van **publiekscompositie** worden dagelijks uitgevoerd, dus u moet mogelijk tot 24 uur wachten om ze in Journey Optimizer te gebruiken.
-* Soorten publiek van **aangepaste upload** ongeveer 2 uur na publicatie beschikbaar worden in Journey Optimizer.
+* Het publiek van **publiekssamenstelling** wordt dagelijks uitgevoerd, zodat kunt u tot 24 uren moeten wachten om hen in Journey Optimizer te gebruiken.
+* Het publiek van **douane uploadt** wordt beschikbaar in Journey Optimizer ongeveer 2 uur na publicatie.
 
 +++
 
@@ -224,7 +224,7 @@ Neen. Zelfs na wachttijden of gebeurtenisknopen, blijven de waarden van de verri
 
 Tijdens het aangepaste uploadproces geeft u het CSV-kenmerk op dat u wilt gebruiken als de identiteit en de profielidentiteit waarnaar het verwijst. Hiermee wordt een koppeling tot stand gebracht tussen de publieksgegevens en het profiel. Als het CSV-bestand een identiteitswaarde bevat die niet wordt gevonden in het profiel, wordt een nieuw profiel met die identiteitswaarde gemaakt.
 
-In Adobe Experience Platform is gedetailleerde informatie beschikbaar over het aangepaste uploadproces [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
+De gedetailleerde informatie over het douane uploadt proces is beschikbaar in de documentatie van de Dienst van de Segmentatie van Adobe Experience Platform [ ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) {target="_blank"}.
 
 +++
 
@@ -232,8 +232,8 @@ In Adobe Experience Platform is gedetailleerde informatie beschikbaar over het a
 
 De gegevens in publiek van publiekssamenstelling en douane uploadt worden bevolkt door de Dienst van de Uitvoer van het Publiek (AES). AES leest profielattributen en publiekslidmaatschap, die het aan deze publiek met de volgende chronologie ter beschikking stelt:
 
-* **Samenstelling publiek**: Dagelijkse export (~24 uur)
-* **Aangepaste upload**: Specifieke exporttaak (~2 uur)
+* **de samenstelling van het publiek**: Dagelijkse uitvoer (~24 uren)
+* **Aangepaste upload**: Specifieke de uitvoerbaan (~2 uren)
 
 Elke reis die een publiek van publiekssamenstelling of douane uploadt in de activiteit van het &quot;Gelezen publiek&quot;gebruikt zal profielattributen zo vers zoals de laatste partijevaluatie hebben. Dit omvat toestemming/onderdrukking tijdens de reis.
 

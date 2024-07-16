@@ -18,24 +18,24 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
 >title="Nieuwe functies"
->abstract="**Adobe Journey Optimizer** biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en oplossingen voor problemen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
+>abstract="**Adobe Journey Optimizer** levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen."
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en oplossingen voor problemen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen.
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle wijzigingen worden geconsolideerd in de laatste week van elke maand in deze releaseopmerkingen.
 
-[!DNL Adobe Journey Optimizer] is native [!DNL Adobe Experience Platform] en erft van de meest recente innovaties en verbeteringen. Meer informatie over deze wijzigingen vindt u in [Opmerkingen bij de release van Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html){target="_blank"}.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html) {target="_blank"}.
 
-![Nieuwsbrief](../assets/do-not-localize/nl-icon.png) Meld u aan voor de [Adobe Journey Optimizer driemaandelijkse nieuwsbrief](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html){target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die direct aan uw Postbus worden geleverd elk kwartaal.
+![ Nieuwsbrief ](../assets/do-not-localize/nl-icon.png) Teken omhoog voor het [ driemaandelijkse bulsletter van Adobe Journey Optimizer ](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html) {target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die rechtstreeks aan uw inbox elk kwart worden geleverd.
 
 ## Updates van juli 2024 {#24-7-2024}
 
-**Laatste update**: 8 juli 2024
+**Laatste update**: 8 juli, 2024
 
-**Geavanceerde expressie-editor in configuratie van reisgebeurtenissen** - U kunt nu de geavanceerde expressie-editor benutten tijdens het configureren van een gebeurtenis, zodat u complexere expressies kunt definiëren of functies kunt gebruiken in de voorwaarde voor de gebeurtenis-id. [Meer informatie](../event/about-creating.md#adv-exp-editor)
+**Geavanceerde uitdrukkingsredacteur in de configuratie van de reisgebeurtenis** - u kunt hefboomwerking de geavanceerde uitdrukkingsredacteur terwijl het vormen van een gebeurtenis nu, toestaand u om complexere uitdrukkingen of gebruiksfuncties in de voorwaarde van identiteitskaart van de Gebeurtenis te bepalen. [Meer informatie](../event/about-creating.md#adv-exp-editor)
 
 
 ## Opmerkingen bij de release van juni 2024 {#24-6-2024}
 
-**Releasedatum**: 18-19 juni 2024
+**de datum van de Versie**: 18-19 juni, 2024
 
 ### Nieuwe functies {#june-24-features}
 
@@ -167,7 +167,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 #### Beslissingsbeheer
 
-* **Ondersteuning van meerdere regels in het besluitvormingsbeheer** - U kunt nu maximaal 10 afkapregels toevoegen voor een bepaald aanbod in Beslissingsbeheer. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
+* **steun van de multi-regel in Beslissingsbeheer** - u kunt tot 10 het begrenzen regels voor een bepaalde aanbieding in Beslissingsbeheer nu toevoegen. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
@@ -178,24 +178,24 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 >Deze verbeteringen zullen geleidelijk worden doorgevoerd in de loop van enkele dagen na de eerste release. Terwijl sommige gebruikers directe toegang zullen hebben, kunnen anderen een vertraging ervaren alvorens het in hun milieu&#39;s beschikbaar wordt.
 
 * Fragmenten kunnen nu worden bewerkt en wijzigingen kunnen worden doorgevoerd in alle live reizen en campagnes waar ze worden gebruikt.
-* Er zijn nieuwe statussen voor inhoudsfragmenten geïntroduceerd: **Concept**, **Live**, **Publiceren**, en **Gearchiveerd**.
-* Als u een fragment wilt gebruiken in een reis of campagne, moet het nu in de **Live** status. Er is een nieuwe stap toegevoegd aan het proces voor het maken van fragmenten, zodat het fragment kan worden gepubliceerd en beschikbaar kan worden gesteld voor gebruik tijdens reizen en campagnes. Voor het publiceren van fragmenten is een nieuwe machtiging vereist.
+* De nieuwe statussen voor inhoudsfragmenten zijn geïntroduceerd: **Ontwerp**, **Levend**, **het Publiceren**, en **Gearchiveerd**.
+* Om een fragment in een reis of een campagne te gebruiken, moet het nu in **Levende** status zijn. Er is een nieuwe stap toegevoegd aan het proces voor het maken van fragmenten, zodat het fragment kan worden gepubliceerd en beschikbaar kan worden gesteld voor gebruik tijdens reizen en campagnes. Voor het publiceren van fragmenten is een nieuwe machtiging vereist.
 
-  **VOORZIENING** - Sinds **Concept** en **Live** de status is geïntroduceerd met de release van Journey Optimizer June, alle fragmenten die vóór deze release zijn gemaakt, beschikken over de **Concept** status, zelfs als zij op reis of campagne worden gebruikt. Als u deze fragmenten wijzigt, moet u [publiceren](../content-management/create-fragments.md#publish) om ze &quot;live&quot; te maken en de wijzigingen in de bijbehorende campagnes en reizen door te geven. U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren.
+  **VOORZIENING** - aangezien **het Ontwerp** en **Levende** statussen met de versie van Journey Optimizer Juni zijn geïntroduceerd, hebben alle fragmenten die vóór deze versie worden gecreeerd de **7} status van het Ontwerp {, zelfs als zij in een reis of een campagne worden gebruikt.** Als u om het even welke verandering in deze fragmenten aanbrengt, moet u hen ](../content-management/create-fragments.md#publish) publiceren om hen &quot;Levend&quot;te maken en de veranderingen in de bijbehorende campagnes en de reizen te verspreiden. [ U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren.
 
-Lees meer in de [inhoudsfragment](../content-management/fragments.md) documentatie.
+Lees meer in de [ documentatie van het inhoudsfragment ](../content-management/fragments.md).
 
 #### Journeys
 
 * De wereldwijde time-out van reizen is verlengd tot 91 dagen. [Meer informatie](../building-journeys/journey-properties.md#global_timeout)
 
-  Bij nieuwe reizen wordt deze nieuwe time-out weerspiegeld. Zie deze [Sectie Veelgestelde vragen](../building-journeys/journey-properties.md#timeout-faq) voor meer informatie. Deze wijzigingen zullen in de loop van de maand juni geleidelijk worden doorgevoerd.
+  Bij nieuwe reizen wordt deze nieuwe time-out weerspiegeld. Gelieve te verwijzen naar deze [ sectie van Veelgestelde vragen ](../building-journeys/journey-properties.md#timeout-faq) om meer te leren. Deze wijzigingen zullen in de loop van de maand juni geleidelijk worden doorgevoerd.
 
 
 * Adobe Journey Optimizer ondersteunt nu verzoeken om privacyverwijdering/toegang en verzoeken om gegevenslevenscyclusbeheer. [Meer informatie](../privacy/requests.md)
 * U kunt nu de grootte van de kolommen in de reisinventaris wijzigen.
   <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
-* **Beleid samenvoegen** zijn nu GA - Het samenvoegingsbeleid dat door een reis wordt gebruikt, is nu zichtbaar en consistent gedurende de hele reis. [Meer informatie](../building-journeys/journey-properties.md#merge-policies)
+* **beleid van de Fusie** is nu GA - het beleid van de Fusie dat door een Reizen wordt gebruikt is nu zichtbaar en verenigbaar door de reis. [Meer informatie](../building-journeys/journey-properties.md#merge-policies)
 
 
 
@@ -205,15 +205,15 @@ Lees meer in de [inhoudsfragment](../content-management/fragments.md) documentat
 
 #### Email channel
 
-* **List-unsubscribe** - Na de recente Gmail- en Yahoo-aankondigingen voor bulkafzenders biedt Journey Optimizer ondersteuning voor de optie &quot;Na/1-klik&quot; List-Unsubscribe. Raadpleeg de volgende pagina&#39;s: [E-mailuitschakelbeheer](../email/email-opt-out.md#unsubscribe-header) en [E-mailinstellingen configureren](../email/email-settings.md#list-unsubscribe).
+* **lijst-unsubscribe** - na de recente Gmail en aankondigingen Yahoo voor bulkafzenders, steunt Journey Optimizer de &quot;post/1-klik&quot;lijst-Unsubscribe optie. Verwijs naar de volgende pagina&#39;s: [ e-mail opt-out beheer ](../email/email-opt-out.md#unsubscribe-header) en [ vorm e-mailmontages ](../email/email-settings.md#list-unsubscribe).
 
-  **OPMERKING** - Voor elk nieuw kanaaloppervlak wordt standaard de optie voor het opzeggen van de lijst geactiveerd. Voor bestaande oppervlakken is de optie Een-klik-abonnement voor URL opheffen in de instellingen van het kanaaloppervlak standaard uitgeschakeld. Als u een URL voor uitschakelen met één klik eerder in de e-mail gebruikte, blijft deze instelling geldig. Als de één-klik unsubscribe URL in de montages van de kanaaloppervlakte wordt gecontroleerd, zal Adobe Journey Optimizer eerder het gebrek geproduceerde Één-klik gebruiken unsubscribe URL in de montages van de kanaaloppervlakte.
+  **NOTA** - voor om het even welke nieuwe kanaaloppervlakte, door gebrek wordt de lijst unsubscribe kopbaloptie geactiveerd. Voor bestaande oppervlakken is de optie Een-klik-abonnement voor URL opheffen in de instellingen van het kanaaloppervlak standaard uitgeschakeld. Als u een URL voor uitschakelen met één klik eerder in de e-mail gebruikte, blijft deze instelling geldig. Als de één-klik unsubscribe URL in de montages van de kanaaloppervlakte wordt gecontroleerd, zal Adobe Journey Optimizer eerder het gebrek geproduceerde Één-klik gebruiken unsubscribe URL in de montages van de kanaaloppervlakte.
 
 #### SMS-kanaal
 
 * U kunt nu unieke korte codes toevoegen voor elke sandbox met één API-configuratie, waardoor het proces efficiënter en gestroomlijnder wordt. [Meer informatie](../sms/sms-configuration.md)
 
-* Na het maken **API-token** veld op **API-referenties** pagina is nu gemaskeerd.
+* Na verwezenlijking, wordt het **Symbolische** gebied van API op de **API credentiedetails** pagina nu gemaskeerd.
 
 <!--* You can now modify existing SMS configurations.-->
 
@@ -221,7 +221,7 @@ Lees meer in de [inhoudsfragment](../content-management/fragments.md) documentat
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* U kunt nu de Edge Delivery-insteekmodule gebruiken om informatie op te halen die nodig is voor het begrijpen van en het oplossen van problemen met uw binnenkomende implementaties. [Meer informatie over de weergave Edge Delivery](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+* U kunt nu de Edge Delivery-insteekmodule gebruiken om informatie op te halen die nodig is voor het begrijpen van en het oplossen van problemen met uw binnenkomende implementaties. [ leer meer op de mening van Edge Delivery ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery) {target="_blank"}.
 
 
 #### Direct mailkanaal

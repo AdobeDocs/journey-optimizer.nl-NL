@@ -16,11 +16,11 @@ ht-degree: 3%
 
 # Aan de slag met AI-modellen {#ai-models}
 
-[!DNL Journey Optimizer] kunt u een getraind modelsysteem gebruiken dat aanbiedingen aan vertoning voor een bepaald profiel rangschikt.
+Met [!DNL Journey Optimizer] kunt u een getraind modelsysteem gebruiken dat voor een bepaald profiel wordt weergegeven.
 
-Met deze functie kunt u verschillende **AI-modellen** gebaseerd op uw bedrijfsdoelstellingen. Gebruikend deze verschillende op doel-gebaseerde strategieën in een besluit, zal het opgeleide modelsysteem u helpen begrijpen hoe de verschillende AI modellen uw doelstellingen beïnvloeden.
+Deze eigenschap laat u toe om verschillende **modellen van AI** tot stand te brengen die op uw bedrijfsdoelstellingen worden gebaseerd. Gebruikend deze verschillende op doel-gebaseerde strategieën in een besluit, zal het opgeleide modelsysteem u helpen begrijpen hoe de verschillende AI modellen uw doelstellingen beïnvloeden.
 
-U kunt bijvoorbeeld een AI-model selecteren voor het e-mailkanaal en een ander model voor het pushkanaal. Voor elk kanaal zal het opgeleide modelsysteem veelvoudige gegevenspunten gebruiken om te bepalen welk aanbod eerst voor een bepaalde plaatsing zou moeten worden voorgesteld eerder dan rekening houdend met de prioritaire scores van de aanbiedingen of a [waarderingsformule](create-ranking-formulas.md).
+U kunt bijvoorbeeld een AI-model selecteren voor het e-mailkanaal en een ander model voor het pushkanaal. Voor elk kanaal, zal het opgeleide modelsysteem veelvoudige gegevenspunten hefboomwerking bepalen welke aanbieding eerst voor een bepaalde plaatsing zou moeten worden voorgesteld, eerder dan rekening houdend met de de prioritaire scores van aanbiedingen of a [ rangschikkende formule ](create-ranking-formulas.md).
 
 >[!IMPORTANT]
 >
@@ -31,14 +31,14 @@ U kunt bijvoorbeeld een AI-model selecteren voor het e-mailkanaal en een ander m
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_ai_model_type"
 >title="Het modeltype kiezen"
->abstract="Selecteer het type AI-model dat u wilt maken: **Automatische optimalisatie** optimaliseert aanbiedingen op basis van de prestaties van de vorige aanbieding, terwijl **Persoonlijke optimalisatie** optimaliseert en personaliseert aanbiedingen op basis van publiek en biedt prestaties."
+>abstract="Selecteer het type van AI model u wilt tot stand brengen: **auto-optimalisering** optimaliseert aanbiedingen die op het verleden aanbiedingsprestaties worden gebaseerd, terwijl **Gepersonaliseerde optimalisering** optimaliseert en verpersoonlijkt aanbiedingen die op publiek worden gebaseerd en prestaties aanbieden."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="Een AI-model maken"
 
-Er zijn twee typen AI-modellen beschikbaar in [!DNL Journey Optimizer]:
+Er zijn twee typen AI-modellen beschikbaar in [!DNL Journey Optimizer] :
 
-* **Modellen voor automatische optimalisatie** ernaar streven aanbiedingen te leveren die het rendement (KPI&#39;s) maximaliseren dat door zakelijke klanten wordt vastgesteld. Deze KPI’s kunnen de vorm aannemen van omrekeningskoersen, inkomsten, enz. Op dit punt, richt de auto-optimalisering zich op optimaliserend aanbiedingskliks met aanbiedingsomzetting als ons doel. Automatisch optimaliseren is niet-gepersonaliseerd en optimaliseert op basis van &#39;algemene&#39; prestaties van de aanbiedingen. [Meer informatie](auto-optimization-model.md)
+* **auto-optimalisatiemodellen** streven om aanbiedingen te dienen die het rendement (KPIs) maximaliseren dat door bedrijfscliënten wordt geplaatst. Deze KPI’s kunnen de vorm aannemen van omrekeningskoersen, inkomsten, enz. Op dit punt, richt de auto-optimalisering zich op optimaliserend aanbiedingskliks met aanbiedingsomzetting als ons doel. Automatisch optimaliseren is niet-gepersonaliseerd en optimaliseert op basis van &#39;algemene&#39; prestaties van de aanbiedingen. [Meer informatie](auto-optimization-model.md)
 
-* **Aangepaste optimalisatiemodellen** staat u toe om bedrijfsdoelstellingen te bepalen en klantengegevens te gebruiken om zaken-georiënteerde modellen op te leiden om gepersonaliseerde aanbiedingen te dienen en KPIs te maximaliseren. [Meer informatie](personalized-optimization-model.md)
+* **Gepersonaliseerde optimalisatiemodellen** staan u toe om bedrijfsdoelstellingen te bepalen en klantengegevens te gebruiken om zaken-georiënteerde modellen op te leiden om gepersonaliseerde aanbiedingen te dienen en KPIs te maximaliseren. [Meer informatie](personalized-optimization-model.md)
 
 ## Een AI-model maken {#create-ai-model}
 
@@ -52,6 +52,6 @@ U kunt als volgt AI-modellen maken en gebruiken:
 
    >[!IMPORTANT]
    >
-   >Het rangschikken modellen vereisen terugkoppelt gebeurtenissen die binnen als ervaringsgebeurtenissen worden verzonden om worden verzameld. [Meer informatie over het verzamelen van gegevens over het beheer van beslissingen](../data-collection/data-collection.md)
+   >Het rangschikken modellen vereisen terugkoppelt gebeurtenissen die binnen als ervaringsgebeurtenissen worden verzonden om worden verzameld. [ leer meer over de inzameling van de gegevens van het Beheer van het Besluit ](../data-collection/data-collection.md)
 
 1. Wijs het AI-model toe aan een plaatsing in een besluit om in aanmerking komende aanbiedingen te classificeren. [Meer informatie](../offer-activities/configure-offer-selection.md)

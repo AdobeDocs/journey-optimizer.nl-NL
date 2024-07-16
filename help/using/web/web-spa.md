@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 source-git-commit: 45f19563c79d298eeec6cb757636a9ce47e54adf
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 3%
+source-wordcount: '449'
+ht-degree: 1%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications_views"
 >title="Wijzigingen toepassen op geselecteerde weergaven"
->abstract="De wijzigingen worden alleen toegepast op geselecteerde weergaven. Weergaven kunnen worden gedetecteerd met de **Bladeren** en navigeer naar deze. Kan de weergave waarnaar u zoekt niet vinden?"
+>abstract="De wijzigingen worden alleen toegepast op geselecteerde weergaven. De meningen kunnen worden ontdekt gebruikend **doorbladeren** wijze en aan hen navigeren. Kan de weergave waarnaar u zoekt niet vinden?"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Meer informatie"
 
-**Toepassingen met één pagina** (SPA) kan nu worden gemaakt in de visuele editor van de webontwerper. Op deze manier kunt u selecteren welke specifieke **views** waarop u de wijzigingen van uw webpagina wilt toepassen.
+**Enige-paginatoepassingen** (SPA) kunnen nu in de visuele redacteur van de Webontwerper worden ontworpen. Dit staat u toe om te selecteren welke specifieke **meningen** u uw Webpagina wijzigingen op wilt toepassen.
 
 [In deze video leert u hoe u toepassingen van één pagina ontwerpt](#video)
 
@@ -33,21 +33,21 @@ Eenmalige ontwikkelaarsopstelling is nodig om de meningen in de implementatie va
 
 ## Bepaal meningen in de implementatie van SDK van het Web {#define-views}
 
-XDM-weergaven kunnen worden gebruikt in Adobe [!DNL Journey Optimizer] marktpartijen in staat stellen via de visuele editor webpersonalisatie- en experimentatiecampagnes op SPA uit te voeren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
+XDM-weergaven kunnen worden gebruikt in Adobe [!DNL Journey Optimizer] om marketers in staat te stellen webpersonalisatie- en experimentatiecampagnes uit te voeren op SPA via de visuele webeditor. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html) {target="_blank"}
 
-Weergaven openen en schrijven in het dialoogvenster [!DNL Journey Optimizer] gebruikersinterface, zorg ervoor u de stappen volgt die in [deze sectie](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
+Om tot meningen in het [!DNL Journey Optimizer] gebruikersinterface toegang te hebben en te schrijven, zorg ervoor u de stappen volgt die in [ worden vermeld deze sectie ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views) {target="_blank"}.
 
 ## Weergaven detecteren in de webontwerper {#discover-views}
 
 Zodra SPA opstelling in de implementatie van SDK van het Web van Adobe Experience Platform wordt gedaan, moet u door alle meningen van uw website navigeren die u wijzigingen op wilt toepassen. Voer de onderstaande stappen uit.
 
-1. [Een webcampagne maken](create-web.md) en toegang tot de [webontwerper](edit-web-content.md).
+1. [ creeer een Webcampagne ](create-web.md) en heb toegang tot [ Webontwerper ](edit-web-content.md).
 
    De weergave waarin u zich momenteel bevindt, wordt linksboven weergegeven.
 
    ![](assets/web-designer-view-home.png)
 
-1. Wisselen naar **[!UICONTROL Browse]** -modus. [Meer informatie](../web/edit-web-content.md#browse-mode)
+1. Wisselen naar modus **[!UICONTROL Browse]** . [Meer informatie](../web/edit-web-content.md#browse-mode)
 
    ![](assets/web-designer-view-browse.png)
 
@@ -61,13 +61,13 @@ Nadat u een wijziging hebt toegevoegd terwijl u zich in een bepaalde weergave be
 
 >[!CAUTION]
 >
->Als u geen weergaven hebt ontdekt met de **[!UICONTROL Browse]** kunt u deze niet selecteren voor het toepassen van uw wijzigingen. [Meer informatie](#discover-views)
+>Als u geen weergaven hebt gevonden in de modus **[!UICONTROL Browse]** , kunt u deze niet selecteren voor het toepassen van uw wijzigingen. [Meer informatie](#discover-views)
 
-1. Selecteer de **[!UICONTROL Modifications]** pictogram om het corresponderende venster links weer te geven.
+1. Selecteer het pictogram **[!UICONTROL Modifications]** om het corresponderende venster links weer te geven.
 
    ![](assets/web-designer-view-modifications-pane.png)
 
-1. Selecteer een wijziging en klik op de knop **[!UICONTROL More actions]** naast de knop. Selecteer **[!UICONTROL Apply to more views]**.
+1. Selecteer een wijziging en klik op de knop **[!UICONTROL More actions]** naast de wijziging. Selecteer **[!UICONTROL Apply to more views]**.
 
    ![](assets/web-designer-modifications-more-actions.png)
 
@@ -77,7 +77,7 @@ Nadat u een wijziging hebt toegevoegd terwijl u zich in een bepaalde weergave be
 
 1. Klik op **[!UICONTROL Apply]**.
 
-1. Wisselen naar **[!UICONTROL Browse]** om te controleren of de wijzigingen zijn toegepast op de gewenste pagina&#39;s.
+1. Wisselen naar de modus **[!UICONTROL Browse]** om te controleren of de wijzigingen zijn toegepast op de gewenste pagina&#39;s.
 
    ![](assets/web-designer-modifications-applied-view.png)
 
@@ -85,7 +85,7 @@ Nadat u een wijziging hebt toegevoegd terwijl u zich in een bepaalde weergave be
 
 In deze video wordt uitgelegd hoe u:
 
-* SPA bekijken met **[!UICONTROL Browse]** mode
+* SPA weergaven detecteren met de modus **[!UICONTROL Browse]**
 * Ontwerpbewerkingen uitvoeren op de huidige weergave
 * websitewijzigingen toepassen op meerdere weergaven of op alle weergaven die zijn ontdekt
 * Handelingen bulksgewijs uitvoeren op wijzigingen

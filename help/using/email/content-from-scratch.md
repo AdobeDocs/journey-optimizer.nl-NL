@@ -11,7 +11,7 @@ keywords: inhoud, editor, e-mail, starten
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 4899dbe71243184b6283a32a4fe7eb2edb82f872
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -21,22 +21,22 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
 >title="Structuurcomponenten toevoegen"
->abstract="Structuurelementen definiëren de indeling van de e-mail. Sleep een **Structuur** op het canvas om uw e-mailinhoud te ontwerpen."
+>abstract="Structuurelementen definiëren de indeling van de e-mail. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen uw e-mailinhoud te ontwerpen."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_landing_page"
 >title="Structuurcomponenten toevoegen"
->abstract="Structuurcomponenten definiëren de indeling van de bestemmingspagina. Sleep een **Structuur** op het canvas om de inhoud van de bestemmingspagina te ontwerpen."
+>abstract="Structuurcomponenten definiëren de indeling van de bestemmingspagina. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen de inhoud van uw het landen pagina te ontwerpen."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="Structuurcomponenten toevoegen"
->abstract="Structuurcomponenten definiëren de indeling van het fragment. Sleep een **Structuur** op het canvas om de inhoud van het fragment te ontwerpen."
+>abstract="Structuurcomponenten definiëren de indeling van het fragment. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen de inhoud van uw fragment te ontwerpen."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
 >title="Structuurcomponenten toevoegen"
->abstract="Structuurelementen definiëren de lay-out van de sjabloon. Sleep een **Structuur** op het canvas om de inhoud van de sjabloon te ontwerpen."
+>abstract="Structuurelementen definiëren de lay-out van de sjabloon. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen de inhoud van uw malplaatje te ontwerpen."
 
 
 >[!CONTEXTUALHELP]
@@ -64,11 +64,11 @@ Met Adobe Journey Optimizer Designer kunt u eenvoudig de structuur van de inhoud
 
 Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen:
 
-1. Selecteer op de homepage van Designer de optie **[!UICONTROL Design from scratch]** -optie.
+1. Selecteer de optie **[!UICONTROL Design from scratch]** op de startpagina van Designer.
 
    ![](assets/email_designer.png)
 
-1. Beginnen met het ontwerpen van uw inhoud door slepen en neerzetten **[!UICONTROL Structures]** in het canvas om de lay-out van uw e-mail te definiëren.
+1. Begin met het ontwerpen van uw inhoud door **[!UICONTROL Structures]** naar het canvas te slepen en neer te zetten om de lay-out van uw e-mail te definiëren.
 
    >[!NOTE]
    >
@@ -76,48 +76,48 @@ Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen:
 
    <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
-1. Zoveel toevoegen **[!UICONTROL Structures]** en bewerk de instellingen in het daarvoor bestemde venster aan de rechterkant.
+1. Voeg zo veel **[!UICONTROL Structures]** toe als nodig is en bewerk de instellingen in het daarvoor bestemde venster aan de rechterkant.
 
    ![](assets/email_designer_structure_components.png)
 
-   Selecteer de **[!UICONTROL n:n column]** om het aantal kolommen van uw keus (tussen 3 en 10) te bepalen. U kunt de breedte van elke kolom ook bepalen door de pijlen bij de bodem van elke kolom te bewegen.
+   Selecteer de component **[!UICONTROL n:n column]** om het aantal kolommen van uw keuze (tussen 3 en 10) te definiëren. U kunt de breedte van elke kolom ook bepalen door de pijlen bij de bodem van elke kolom te bewegen.
 
    >[!NOTE]
    >
    >Elke kolomgrootte mag niet kleiner zijn dan 10% van de totale breedte van de structuurcomponent. U kunt geen kolom verwijderen die niet leeg is.
 
-1. Breid uit **[!UICONTROL Contents]** en voegt zo veel elementen toe als u nodig hebt in een of meer structuurcomponenten. [Meer informatie over inhoudscomponenten](content-components.md)
+1. Vouw de sectie **[!UICONTROL Contents]** uit en voeg zoveel elementen toe als u nodig hebt in een of meer structuurcomponenten. [ leer meer over inhoudscomponenten ](content-components.md)
 
-1. Elke component kan verder worden aangepast met de **[!UICONTROL Settings]** of **[!UICONTROL Style]** in het rechtermenu. U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen. [Meer informatie over uitlijning en opvulling](alignment-and-padding.md)
+1. Elke component kan verder worden aangepast met de tabbladen **[!UICONTROL Settings]** of **[!UICONTROL Style]** in het rechtermenu. U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen. [ leer meer over groepering en het opvullen ](alignment-and-padding.md)
 
    ![](assets/email_designer_structure_component.png)
 
-1. Van de **[!UICONTROL Asset picker]** kunt u rechtstreeks de elementen selecteren die in het dialoogvenster **[!UICONTROL Assets library]**. [Meer informatie over middelenbeheer](../content-management/assets.md)
+1. Vanuit **[!UICONTROL Asset picker]** kunt u rechtstreeks elementen selecteren die zijn opgeslagen in de **[!UICONTROL Assets library]** . [ Leer meer over middelenbeheer ](../content-management/assets.md)
 
    Dubbelklik op de map met uw elementen. Sleep en zet ze neer in een structuurcomponent.
 
    ![](assets/email_designer_asset_picker.png)
 
-1. Voeg verpersoonlijkingsgebieden in om uw inhoud van profielattributen, publiekslidmaatschappen, Contextuele attributen, en meer aan te passen. [Meer informatie over content personalization](../personalization/personalize.md)
+1. Voeg verpersoonlijkingsgebieden in om uw inhoud van profielattributen, publiekslidmaatschappen, Contextuele attributen, en meer aan te passen. [ Leer meer over inhoudstijdpersonalisatie ](../personalization/personalize.md)
 
    ![](assets/email_designer_personalization.png)
 
-1. Klikken **[!UICONTROL Enable condition content]** dynamische inhoud toevoegen en de inhoud aanpassen aan de doelprofielen op basis van voorwaardelijke regels. [Aan de slag met dynamische inhoud](../personalization/get-started-dynamic-content.md)
+1. Klik op **[!UICONTROL Enable condition content]** om dynamische inhoud toe te voegen en de inhoud aan te passen aan de doelprofielen op basis van voorwaardelijke regels. [ worden begonnen met dynamische inhoud ](../personalization/get-started-dynamic-content.md)
 
    ![](assets/email_designer_dynamic-content.png)
 
-1. Klik op de knop **[!UICONTROL Links]** in het linkerdeelvenster om alle URL&#39;s weer te geven van de inhoud die wordt bijgehouden. U kunt de **[!UICONTROL Tracking Type]** of **[!UICONTROL Label]** en toevoegen **[!UICONTROL Tags]** indien nodig. [Meer informatie over koppelingen en bijhouden](message-tracking.md)
+1. Klik op de tab **[!UICONTROL Links]** in het linkerdeelvenster om alle URL&#39;s weer te geven van de inhoud die wordt bijgehouden. U kunt hun **[!UICONTROL Tracking Type]** of **[!UICONTROL Label]** wijzigen en **[!UICONTROL Tags]** toevoegen als dat nodig is. [ leer meer over verbindingen en het volgen ](message-tracking.md)
 
    ![](assets/email_designer_links.png)
 
-1. Indien nodig kunt u uw e-mail verder aanpassen door op **[!UICONTROL Switch to code editor]** in het geavanceerde menu. Op deze manier kunt u de broncode van de e-mail bewerken, bijvoorbeeld door tags voor bijhouden of aangepaste HTML toe te voegen. [Meer informatie over de code-editor](code-content.md)
+1. Indien nodig kunt u uw e-mail verder aanpassen door in het geavanceerde menu op **[!UICONTROL Switch to code editor]** te klikken. Op deze manier kunt u de broncode van de e-mail bewerken, bijvoorbeeld door tags voor bijhouden of aangepaste HTML toe te voegen. [ leer meer over de coderedacteur ](code-content.md)
 
    >[!CAUTION]
    >
    >U kunt niet terugkeren naar de visuele ontwerper voor deze e-mail na het schakelen naar de coderedacteur.
 
-1. Als de inhoud gereed is, klikt u op de knop **[!UICONTROL Simulate content]** om de rendering te controleren. U kunt kiezen voor de weergave Computer of Mobiel. Gedetailleerde informatie over het selecteren van testprofielen en het weergeven van een voorvertoning van de inhoud is beschikbaar in het dialoogvenster [Inhoud beheren](../content-management/preview-test.md) sectie.
+1. Wanneer de inhoud gereed is, klikt u op de knop **[!UICONTROL Simulate content]** om de rendering te controleren. U kunt kiezen voor de weergave Computer of Mobiel. De gedetailleerde informatie over hoe te om testprofielen en voorproef uw inhoud te selecteren is beschikbaar in de [ sectie van het Beheer van de Inhoud ](../content-management/preview-test.md).
 
    ![](assets/email_designer_simulate_content.png)
 
-1. Wanneer uw inhoud klaar is, klikt u op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** wanneer de inhoud gereed is.

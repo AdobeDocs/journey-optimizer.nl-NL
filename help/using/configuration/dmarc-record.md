@@ -21,15 +21,15 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"
 >title="DMARC-record instellen"
->abstract="DMARC is een methode van de e-mailauthentificatie die domeineigenaars toestaat om hun domein tegen onbevoegd gebruik te beschermen en leveringskwesties met brievenbusleveranciers te vermijden.<br>Google en Yahoo zijn een onderdeel van hun best practices in de branche. U hebt beide een DMARC-record nodig voor elk domein dat u gebruikt om e-mail naar hen te verzenden."
+>abstract="DMARC is een methode van de e-mailauthentificatie die domeineigenaars toestaat om hun domein tegen onbevoegd gebruik te beschermen en leveringskwesties met brievenbusleveranciers te vermijden.<br> als deel van hun het handhaven van industrie beste praktijken, Google en Yahoo! U hebt beide een DMARC-record nodig voor elk domein dat u gebruikt om e-mail naar hen te verzenden."
 
 ## Wat is DMARC? {#what-is-dmarc}
 
 De op domein-gebaseerde Authentificatie van het Bericht, het Melden, en de Conformiteit (DMARC) is een methode van de e-mailauthentificatie die domeineigenaars toestaat om hun domein tegen onbevoegd gebruik te beschermen. Door een duidelijk beleid aan e-mailleveranciers en dienstverleners van Internet (ISPs) aan te bieden, helpt het kwaadwillige acteurs verhinderen e-mails te verzenden die beweren van uw domein te zijn. DMARC implementeren verkleint het risico dat legitieme e-mailberichten worden gemarkeerd als spam of afgewezen, en verbetert uw e-mailleverbaarheid.
 
-DMARC biedt ook rapportering over berichten die authentificatie ontbreken, samen met controle over de behandeling van e-mails die geen bevestiging DMARC overgaan. Afhankelijk van de geïmplementeerde [DMARC-beleid](#dmarc-policies), kunnen deze e-mails worden gecontroleerd, in quarantaine geplaatst of geweigerd. Met deze functies kunt u acties uitvoeren om mogelijke fouten te beperken en aan te pakken.
+DMARC biedt ook rapportering over berichten die authentificatie ontbreken, samen met controle over de behandeling van e-mails die geen bevestiging DMARC overgaan. Afhankelijk van het uitgevoerde [ beleid DMARC ](#dmarc-policies), kunnen deze e-mails worden gecontroleerd, in quarantaine worden geplaatst, of worden verworpen. Met deze functies kunt u acties uitvoeren om mogelijke fouten te beperken en aan te pakken.
 
-Om u te helpen leveringsproblemen verhinderen terwijl het verkrijgen van controle over post die authentificatie ontbreekt, [!DNL Journey Optimizer] biedt nu rechtstreeks ondersteuning voor de DMARC-technologie in de beheerinterface. [Meer informatie](#implement-dmarc)
+Om u te helpen leveringsproblemen verhinderen terwijl het verkrijgen van controle over post die authentificatie ontbreekt, steunt [!DNL Journey Optimizer] nu direct de technologie DMARC in zijn beleidsinterface. [Meer informatie](#implement-dmarc)
 
 ### Hoe werkt DMARC? {#how-dmarc-works}
 
@@ -58,11 +58,11 @@ Als een e-mail DMARC-verificatie mislukt, kunt u beslissen welke actie op dat be
 
 >[!NOTE]
 >
->Leer hoe u het DMARC-beleid instelt met [!DNL Journey Optimizer] in [deze sectie](#set-up-dmarc).
+>Leer hoe te om het beleid DMARC met [!DNL Journey Optimizer] in [ te plaatsen deze sectie ](#set-up-dmarc).
 
 ## DMARC-vereiste bijwerken {#dmarc-update}
 
-Google en Yahoo zijn een onderdeel van hun best practices in de branche. beide vereisen dat u een **DMARC-record** voor elk domein dat u gebruikt om e-mail naar hen te verzenden. Deze nieuwe eis geldt vanaf **1 februari 2024**.
+Google en Yahoo zijn een onderdeel van hun best practices in de branche. allebei vereisen dat u het verslag van a **DMARC** voor om het even welk domein hebt u gebruikt om e-mail naar hen te verzenden. Dit nieuwe vereiste is beginnend **Februari 1st, 2024** van toepassing.
 
 >[!CAUTION]
 >
@@ -70,21 +70,21 @@ Google en Yahoo zijn een onderdeel van hun best practices in de branche. beide v
 
 Daarom beveelt de Adobe u ten zeerste aan de volgende maatregelen te nemen:
 
-* Zorg ervoor dat u **DMARC-record** instellen voor **alle subdomeinen die u al hebt gedelegeerd** naar Adobe in [!DNL Journey Optimizer]. [Meer informatie](#check-subdomains-for-dmarc)
+* Zorg ervoor om **DMARC verslag** opstelling voor **alle subdomeinen te hebben die u** aan Adobe in [!DNL Journey Optimizer] reeds hebt gedelegeerd. [ leer hoe ](#check-subdomains-for-dmarc)
 
-* Wanneer **het delegeren van om het even welk nieuw subdomain** aan Adobe, kunt u **DMARC instellen** rechtstreeks **in de [!DNL Journey Optimizer] beheerinterface**. [Meer informatie](#implement-dmarc)
+* Wanneer **het delegeren van om het even welk nieuw subdomain** aan Adobe, kunt u **opstelling DMARC** direct **in de [!DNL Journey Optimizer] beleidsinterface**. [ leer hoe ](#implement-dmarc)
 
 ## DMARC implementeren in [!DNL Journey Optimizer] {#implement-dmarc}
 
-De [!DNL Journey Optimizer] De beleidsinterface staat u toe aan opstelling DMARC verslag voor alle subdomeinen die u reeds hebt gedelegeerd of aan Adobe delegeert. De gedetailleerde stappen worden hieronder beschreven.
+Met de beheerinterface van [!DNL Journey Optimizer] kunt u een DMARC-record instellen voor alle subdomeinen die u al hebt gedelegeerd of aan Adobe delegeert. De gedetailleerde stappen worden hieronder beschreven.
 
 ### Controleer uw bestaande subdomeinen voor DMARC {#check-subdomains-for-dmarc}
 
-Om ervoor te zorgen dat u DMARC- verslagopstelling voor alle subdomeinen hebt hebt die u binnen hebt gedelegeerd [!DNL Journey Optimizer]volgt u de onderstaande stappen.
+Volg onderstaande stappen om ervoor te zorgen dat u DMARC-record hebt ingesteld voor alle subdomeinen die u in [!DNL Journey Optimizer] hebt gedelegeerd.
 
-1. Toegang krijgen tot de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** en klik vervolgens op **[!UICONTROL Set up subdomain]**.
+1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** en klik op **[!UICONTROL Set up subdomain]** .
 
-1. Controleer voor elk gedelegeerd subdomein het **[!UICONTROL DMARC Record]** kolom. Als er geen record is gevonden voor een bepaald subdomein, wordt een waarschuwing weergegeven.
+1. Controleer de kolom **[!UICONTROL DMARC Record]** voor elk gedelegeerd subdomein. Als er geen record is gevonden voor een bepaald subdomein, wordt een waarschuwing weergegeven.
 
    ![](assets/dmarc-record-alert.png)
 
@@ -92,17 +92,17 @@ Om ervoor te zorgen dat u DMARC- verslagopstelling voor alle subdomeinen hebt he
    >
    >Om aan het nieuwe vereiste van Gmail en Yahoo! te voldoen, en leveringskwesties met hoogste ISPs te vermijden, wordt het geadviseerd aan opstellingsDMARC verslag voor alle gedelegeerde subdomeinen. [Meer informatie](dmarc-record-update.md)
 
-1. Selecteer een subdomein waaraan geen DMARC-record is gekoppeld en vul het veld in **[!UICONTROL DMARC record]** volgens de behoeften van uw organisatie. De stappen voor het invullen van de DMARC-recordvelden worden beschreven in [deze sectie](#implement-dmarc).
+1. Selecteer een subdomein waaraan geen DMARC-record is gekoppeld en vul de sectie **[!UICONTROL DMARC record]** in op basis van de behoeften van uw organisatie. De stappen om de DMARC- verslaggebieden te bevolken zijn gedetailleerd in [ deze sectie ](#implement-dmarc).
 
 1. Houd rekening met de volgende twee opties:
 
-   * Als u een subdomeinset bewerkt met [CNAME](delegate-subdomain.md#cname-subdomain-delegation), moet u het DNS verslag voor DMARC in uw het ontvangen oplossing kopiëren om de passende DNS verslagen te produceren.
+   * Als u een subdomeinopstelling met [ CNAME ](delegate-subdomain.md#cname-subdomain-delegation) uitgeeft, moet u het DNS verslag voor DMARC in uw het ontvangen oplossing kopiëren om de passende DNS verslagen te produceren.
 
      ![](assets/dmarc-record-edit-cname.png)
 
      Controleer of het DNS-record is gegenereerd in uw domeinhostingoplossing en schakel het selectievakje &quot;I confirm...&quot; in.
 
-   * Als u een subdomein bewerkt [volledig gedelegeerd](delegate-subdomain.md#full-subdomain-delegation) aan Adobe, eenvoudig invullen **[!UICONTROL DMARC record]** velden gedetailleerd in [deze sectie](#implement-dmarc). Er is geen verdere actie nodig.
+   * Als u een subdomain [ uitgeeft volledig ](delegate-subdomain.md#full-subdomain-delegation) aan Adobe wordt afgevaardigd, vul eenvoudig de **[!UICONTROL DMARC record]** gebieden in die in [ worden gedetailleerd deze sectie ](#implement-dmarc). Er is geen verdere actie nodig.
 
      ![](assets/dmarc-record-edit-full.png)
 
@@ -110,7 +110,7 @@ Om ervoor te zorgen dat u DMARC- verslagopstelling voor alle subdomeinen hebt he
 
 ### DMARC instellen voor nieuwe subdomeinen {#set-up-dmarc}
 
-Wanneer het delegeren van nieuwe subdomeinen aan Adobe binnen [!DNL Journey Optimizer], wordt een DMARC-record gemaakt in DNS voor uw domein. Voer de onderstaande stappen uit om DMARC te implementeren.
+Wanneer het delegeren van nieuwe subdomeinen aan Adobe in [!DNL Journey Optimizer], zal een verslag DMARC in DNS voor uw domein worden gecreeerd. Voer de onderstaande stappen uit om DMARC te implementeren.
 
 >[!CAUTION]
 >
@@ -118,11 +118,11 @@ Wanneer het delegeren van nieuwe subdomeinen aan Adobe binnen [!DNL Journey Opti
 
 <!--If you fail to comply with the new requirement from Gmail and Yahoo! to have DMARC record for all sending domains, your emails are expected to land into the spam folder or to get blocked.-->
 
-1. Stel een nieuw subdomein in. [Meer informatie](delegate-subdomain.md)
+1. Stel een nieuw subdomein in. [ leer hoe ](delegate-subdomain.md)
 
-1. Ga naar de **[!UICONTROL DMARC record]** sectie.
+1. Ga naar de sectie **[!UICONTROL DMARC record]** .
 
-   Als het subdomein een bestaand DMARC-record heeft en als het wordt opgehaald door [!DNL Journey Optimizer]kunt u dezelfde waarden gebruiken als in de interface zijn gemarkeerd, of deze naar wens wijzigen.
+   Als het subdomein een bestaande DMARC-record heeft en door [!DNL Journey Optimizer] wordt opgehaald, kunt u dezelfde waarden gebruiken als in de interface zijn gemarkeerd, of deze naar wens wijzigen.
 
    ![](assets/dmarc-record-found.png)
 
@@ -130,17 +130,17 @@ Wanneer het delegeren van nieuwe subdomeinen aan Adobe binnen [!DNL Journey Opti
    >
    >Als u geen waarden toevoegt, worden de vooraf ingevulde standaardwaarden gebruikt.
 
-1. Bepaal de actie die de ontvankelijke server zal uitvoeren als DMARC ontbreekt. Afhankelijk van de [DMARC-beleid](#dmarc-policies) Selecteer een van de drie opties die u wilt toepassen:
+1. Bepaal de actie die de ontvankelijke server zal uitvoeren als DMARC ontbreekt. Afhankelijk van het [ beleid DMARC ](#dmarc-policies) u wilt toepassen, selecteer één van de drie opties:
 
-   * **[!UICONTROL None]** (standaardwaarde): Vertelt de ontvanger om geen acties tegen berichten uit te voeren die authentificatie DMARC ontbreken, maar nog e-mailrapporten naar de afzender verzenden.
-   * **[!UICONTROL Quarantine]**: Vertelt de ontvangende e-mailserver aan quarantaine-mail die authentificatie DMARC ontbreekt - dit betekent over het algemeen het plaatsen van die berichten in de spam of junk omslag van de ontvanger.
-   * **[!UICONTROL Reject]**: Vertelt de ontvanger om (stuit) volledig om het even welke e-mail voor het domein te ontkennen dat authentificatie ontbreekt. Als dit beleid is ingeschakeld, heeft alleen e-mail die is geverifieerd als 100% en die voor uw domein is geverifieerd, een kans bij plaatsing in het postvak.
+   * **[!UICONTROL None]** (standaardwaarde): geeft aan dat de ontvanger geen acties mag uitvoeren tegen berichten die geen DMARC-verificatie hebben, maar wel e-mailrapporten moet verzenden naar de afzender.
+   * **[!UICONTROL Quarantine]**: hiermee wordt aan de ontvangende e-mailserver doorgegeven dat DMARC-verificatie mislukt. Dit betekent doorgaans dat de berichten in de spam- of junkmap van de ontvanger worden geplaatst.
+   * **[!UICONTROL Reject]**: geeft aan dat de ontvanger alle e-mails voor het domein waarvoor de verificatie mislukt, volledig moet weigeren (stuiteren). Als dit beleid is ingeschakeld, heeft alleen e-mail die is geverifieerd als 100% en die voor uw domein is geverifieerd, een kans bij plaatsing in het postvak.
 
    >[!NOTE]
    >
-   >Als beste praktijken, wordt het geadviseerd om implementatie DMARC langzaam uit te voeren door uw beleid DMARC van te escaleren **Geen**, naar **Quarantine**, naar **Afwijzen** aangezien u inzicht in de potentiële impact van DMARC krijgt.
+   >Als beste praktijken, wordt het geadviseerd om implementatie DMARC langzaam uit te voeren door uw beleid DMARC van **te escaleren niets**, aan **Quarantine**, aan **Weigeren** aangezien u inzicht in het potentiële effect van DMARC krijgt.
 
-1. Voeg desgewenst een of meer e-mailadressen van uw keuze toe om aan te geven waar **DMARC-rapporten** over e-mailberichten die [verificatie mislukken](#how-dmarc-works) moet binnen uw organisatie gaan. U kunt maximaal vijf adressen voor elk rapport toevoegen.
+1. Naar keuze, voeg één of meerdere e-mailadressen van uw keus toe om erop te wijzen waar **DMARC** op e-mail meldt dat [ authentificatie ](#how-dmarc-works) binnen uw organisatie zou ontbreken. U kunt maximaal vijf adressen voor elk rapport toevoegen.
 
    >[!NOTE]
    >
@@ -148,16 +148,16 @@ Wanneer het delegeren van nieuwe subdomeinen aan Adobe binnen [!DNL Journey Opti
 
    Er zijn twee verschillende rapporten die door ISPs worden geproduceerd die de afzenders door de markeringen RUA/RUF in hun beleid kunnen ontvangen DMARC:
 
-   * **Samengevoegde rapporten** (RUA): Zij bevatten geen PII (Persoonlijk Identificeerbare Informatie) die GDPR-gevoelig zou kunnen zijn.
-   * **Rapporten over forensische fouten** (RUF): Deze bevatten GDPR-gevoelige e-mailadressen. Voordat u gaat gebruiken, controleert u intern hoe u omgaat met informatie die compatibel moet zijn met GDPR.
+   * **samengevoegde rapporten** (RUA): Zij bevatten geen PII (Persoonlijk Identificeerbare Informatie) die GDPR-gevoelig zou kunnen zijn.
+   * **Forensische mislukkingsrapporten** (RUF): Zij bevatten GDPR-Gevoelige e-mailadressen. Voordat u gaat gebruiken, controleert u intern hoe u omgaat met informatie die compatibel moet zijn met GDPR.
 
    >[!NOTE]
    >
    >Deze hoogst technische rapporten verstrekken een overzicht van e-mails die voor de gek houden worden geprobeerd. U kunt ze het beste verteren met een hulpprogramma van derden.
 
-1. Selecteer de **toepasselijk percentage** van e-mails voor DMARC.
+1. Selecteer het **toepasselijke percentage** van e-mails voor DMARC.
 
-   Dit percentage is afhankelijk van uw vertrouwen in uw e-mailinfrastructuur en de tolerantie voor valse positieven (legitieme e-mails die als frauduleus worden gemarkeerd). Het is gebruikelijk dat organisaties beginnen met het DMARC-beleid ingesteld op **Geen**, het DMARC-beleidspercentage geleidelijk te verhogen en nauwlettend toe te zien op de impact op legitieme e-mailbezorging.
+   Dit percentage is afhankelijk van uw vertrouwen in uw e-mailinfrastructuur en de tolerantie voor valse positieven (legitieme e-mails die als frauduleus worden gemarkeerd). Het is gemeenschappelijk voor organisaties om met beleid te beginnen DMARC dat aan **wordt geplaatst niets**, verhoogt geleidelijk het DMARC beleidspercentage, en controleert dicht het effect op wettige e-maillevering.
 
    >[!NOTE]
    >
@@ -165,7 +165,7 @@ Wanneer het delegeren van nieuwe subdomeinen aan Adobe binnen [!DNL Journey Opti
 
    Als beste praktijk, streven naar een hoog DMARC nalevingspercentage, idealiter dicht bij 100%, om de veiligheidsvoordelen te maximaliseren terwijl het risico van valse positieven minimaliseert.
 
-1. Selecteer een **rapporteringsinterval** tussen 24 en 168 uur. Hiermee kunnen eigenaars van domeinen regelmatig updates ontvangen over de resultaten van e-mailverificatie en de nodige maatregelen nemen om de e-mailbeveiliging te verbeteren.
+1. Selecteer a **rapporterend interval** tussen 24 en 168 uren. Hiermee kunnen eigenaars van domeinen regelmatig updates ontvangen over de resultaten van e-mailverificatie en de nodige maatregelen nemen om de e-mailbeveiliging te verbeteren.
 
    <!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
 
