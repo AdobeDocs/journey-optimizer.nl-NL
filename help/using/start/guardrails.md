@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: dcf1edb654639d41472d1e1ca263020df9fb63ec
 workflow-type: tm+mt
 source-wordcount: '2061'
 ht-degree: 0%
@@ -17,27 +17,27 @@ ht-degree: 0%
 
 # Afvoerkanalen en beperkingen {#limitations}
 
-De rechten, de productbeperkingen en de prestatiegaranties worden vermeld in [Adobe Journey Optimizer-productbeschrijvingspagina](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
+De rechten, de productbeperkingen en de prestatiesbegeleiding worden vermeld in [ Adobe Journey Optimizer pagina van de productbeschrijving ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) {target="_blank"}.
 
-U moet zich ook bewust zijn van [Gardrails voor gegevens in realtime klantprofiel voordat u begint](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html){target="_blank"}.
+U moet zich ook bewust zijn van [ Gidsen voor de gegevens van het Profiel van de Klant in real time alvorens ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html) {target="_blank"} te beginnen.
 
-Hieronder vindt u aanvullende instructies en beperkingen bij het gebruik [!DNL Adobe Journey Optimizer].
+Hieronder vindt u aanvullende instructies en beperkingen wanneer u [!DNL Adobe Journey Optimizer] gebruikt.
 
 ## Ondersteunde browsers {#browsers}
 
-Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in de nieuwste versie van Google Chrome. Mogelijk kunt u problemen ondervinden bij het gebruik van bepaalde functies in oudere versies of andere browsers.
+Adobe [!DNL Journey Optimizer] interface is ontworpen om optimaal te werken in de nieuwste versie van Google Chrome. Mogelijk kunt u problemen ondervinden bij het gebruik van bepaalde functies in oudere versies of andere browsers.
 
 ## Berichtgidsen {#message-guardrails}
 
-* U kunt geen bijlagen aan een e-mailbericht toevoegen met [!DNL Journey Optimizer].
-* U kunt niet hetzelfde verzendende domein gebruiken om berichten te verzenden van [!DNL Adobe Journey Optimizer] en van een ander product, zoals [!DNL Adobe Campaign] of [!DNL Adobe Marketo Engage] bijvoorbeeld.
+* U kunt geen bijlagen aan een e-mailbericht toevoegen met [!DNL Journey Optimizer] .
+* U kunt niet hetzelfde verzendende domein gebruiken om berichten van [!DNL Adobe Journey Optimizer] en van een ander product, zoals [!DNL Adobe Campaign] of [!DNL Adobe Marketo Engage] , te verzenden.
 
 ## Handleidingen voor landingspagina&#39;s {#lp-guardrails}
 
-* Slechts één **Formulier** kan in één primaire pagina worden gebruikt.
-* De **Formulier** kan niet worden gebruikt in subpagina&#39;s.
+* Slechts één **component van de Vorm** kan in één enkele primaire pagina worden gebruikt.
+* De **component van de Vorm** kan niet in subpages worden gebruikt.
 * U kunt geen preheader toevoegen aan een openingspagina.
-* U kunt de **Uw eigen code schrijven** bij het ontwerpen van een primaire landingspagina.
+* U kunt niet de **Code uw eigen** optie selecteren wanneer het ontwerpen van een het landen primaire pagina.
 
 ## SMS-handleidingen {#sms-guardrails}
 
@@ -47,7 +47,7 @@ Adobe [!DNL Journey Optimizer] -interface is ontworpen om optimaal te werken in 
 
 ## Subdomeinen guardraals {#subdomain-guardrails}
 
-Standaard, [!DNL Journey Optimizer] Hiermee kunt u maximaal 10 subdomeinen in totaal delegeren (voor zowel e-mail als webkanalen).
+In [!DNL Journey Optimizer] kunt u standaard maximaal 10 subdomeinen delegeren (voor zowel e-mail- als webkanalen).
 
 Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen delegeren. Bereik uit aan uw contact van de Adobe om meer over het aantal subdomeinen te leren u aan recht hebt.
 
@@ -70,32 +70,32 @@ Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen deleg
 ### Algemene acties {#general-actions-g}
 
 * In het geval van een fout worden drie pogingen systematisch opnieuw uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht. Retries wordt uitgevoerd voor alle HTTP-fouten, behalve voor HTTP 401, 403 en 404.
-* De ingebouwde **Reactie** kunt u reageren op acties die buiten de box vallen. Meer informatie in [deze pagina](../building-journeys/reaction-events.md). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen.
+* De ingebouwde **gebeurtenis van de Reactie** staat u toe om op uit-van-de-doos acties te reageren. Leer meer in [ deze pagina ](../building-journeys/reaction-events.md). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen.
 * U kunt geen twee acties parallel plaatsen, u moet hen één na andere toevoegen.
 * Een profiel kan niet meerdere keren op dezelfde reis tegelijk aanwezig zijn. Als de terugkeer wordt toegelaten, kan een profiel een reis opnieuw ingaan, maar kan het niet doen tot hij dat vorige geval van de reis volledig verliet. [Meer informatie](../building-journeys/end-journey.md)
 
 ### Journeyversies {#journey-versions-g}
 
-* Een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis beginnen met een **Poortkwalificatie** gebeurtenis.
-* Een reis die begint met een **Poortkwalificatie** activiteit in v1 moet altijd beginnen met een **Poortkwalificatie** in verdere versies.
-* Het publiek en de naamruimte die zijn gekozen in **Poortkwalificatie** (eerste knooppunt) kan niet worden gewijzigd in nieuwe versies.
+* Een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis met de gebeurtenis van de Kwalificatie van het a **publiek beginnen**.
+* Een reis die met a **activiteit begint van de Kwalificatie van het Publiek** in v1 moet altijd met de Kwalificatie van het Publiek **in verdere versies beginnen.**
+* Het publiek en namespace die in **de Kwalificatie van het Publiek** (eerste knoop) worden gekozen kunnen niet in nieuwe versies worden veranderd.
 * De re-entry regel moet het zelfde in alle reisversies zijn.
-* Een reis die begint met een **Publiek lezen** kan niet met een andere gebeurtenis in volgende versies beginnen.
+* Een reis die met a **begint Gelezen Publiek** kan niet met een andere gebeurtenis in volgende versies beginnen.
 * U kunt geen nieuwe versie maken van een leestoegang met incrementeel lezen. Je moet de reis dupliceren.
 
 ### Aangepaste acties {#custom-actions-g}
 
-* Voor alle aangepaste handelingen, per host en per sandbox wordt een limiet van 300.000 aanroepen per minuut gedefinieerd. Zie [deze pagina](../action/about-custom-action-configuration.md). Deze grens is geplaatst gebaseerd op klantengebruik, om externe eindpunten te beschermen die door douaneacties worden gericht. U moet hiermee rekening houden bij reizen voor uw publiek door een juiste leessnelheid te definiëren (5000 profielen/s wanneer aangepaste handelingen worden gebruikt). Indien nodig, kunt u deze het plaatsen met voeten treden door een grotere het maximum van het maximum of het vertragen grens door onze Capping/het Draaien APIs te bepalen. Zie [deze pagina](../configuration/external-systems.md).
+* Voor alle aangepaste handelingen, per host en per sandbox wordt een limiet van 300.000 aanroepen per minuut gedefinieerd. Verwijs naar [ deze pagina ](../action/about-custom-action-configuration.md). Deze grens is geplaatst gebaseerd op klantengebruik, om externe eindpunten te beschermen die door douaneacties worden gericht. U moet hiermee rekening houden bij reizen voor uw publiek door een juiste leessnelheid te definiëren (5000 profielen/s wanneer aangepaste handelingen worden gebruikt). Indien nodig, kunt u deze het plaatsen met voeten treden door een grotere het maximum van het maximum of het vertragen grens door onze Capping/het Draaien APIs te bepalen. Zie [deze pagina](../configuration/external-systems.md).
 * De URL van de aangepaste handeling ondersteunt geen dynamische parameters.
 * Methoden voor POST, PUT en GET worden ondersteund
 * De naam van de queryparameter of -header mag niet beginnen met &quot;.&quot; of &quot;$&quot;
 * IP-adressen zijn niet toegestaan
-* Interne adressen van Adoben (`.adobe.*`) zijn niet toegestaan in URL&#39;s en API&#39;s.
+* Interne adressen van de Adobe (`.adobe.*`) worden niet toegestaan in URLs en APIs.
 * Ingebouwde aangepaste handelingen kunnen niet worden verwijderd.
 * Aangepaste acties bieden alleen ondersteuning voor de JSON-indeling als u een aanvraag- of antwoordlading gebruikt. Zie [deze pagina](../action/about-custom-action-configuration.md#custom-actions-limitations).
 * Wanneer het kiezen van een eindpunt om het gebruiken van een douaneactie te richten, ben zeker dat:
 
-   * Dit eindpunt kan de productie van de reis, gebruikend configuraties van steunen [Throttling API](../configuration/throttling.md) of [API voor uitlijnen](../configuration/capping.md) om het te beperken. Wees voorzichtig dat een snelheidsbegrenzingsconfiguratie niet lager kan zijn dan 200 TPS. Om het even welk gericht eindpunt zal minstens 200 TPS moeten steunen.
+   * Dit eindpunt kan de productie van de reis steunen, gebruikend configuraties van [ het Throttling API ](../configuration/throttling.md) of [ Capping API ](../configuration/capping.md) om het te beperken. Wees voorzichtig dat een snelheidsbegrenzingsconfiguratie niet lager kan zijn dan 200 TPS. Om het even welk gericht eindpunt zal minstens 200 TPS moeten steunen.
    * Dit eindpunt moet een reactietijd hebben zo laag mogelijk. Afhankelijk van uw verwachte productie, zou het hebben van een hoge reactietijd de daadwerkelijke productie kunnen beïnvloeden.
 
 ### Gebeurtenissen {#events-g}
@@ -103,12 +103,12 @@ Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen deleg
 * Voor door het systeem gegenereerde gebeurtenissen moeten streaminggegevens die worden gebruikt om een klantentraject te starten, eerst binnen Journey Optimizer worden geconfigureerd om een unieke orchestratie-id te verkrijgen. Deze orkest-id moet worden toegevoegd aan de streaminglading die naar Adobe Experience Platform komt. Deze beperking geldt niet voor op regels gebaseerde gebeurtenissen.
 * Zakelijke evenementen kunnen niet worden gebruikt in combinatie met monitaire evenementen of kwalificatieactiviteiten voor het publiek.
 * Eenheidstrajecten (te beginnen met een evenement of een kwalificatie van het publiek) bevatten een begeleidend element dat voorkomt dat ritten bij dezelfde gebeurtenis meerdere keren ten onrechte worden gestart. De terugkeer van het profiel wordt tijdelijk geblokkeerd door gebrek gedurende 5 minuten. Als bijvoorbeeld een evenement om 12.01 uur een reis voor een bepaald profiel start en een ander om 12.03 uur aankomt (ongeacht of het dezelfde gebeurtenis is of een andere gebeurtenis die dezelfde reis veroorzaakt), zal die reis niet opnieuw beginnen voor dit profiel.
-* Journey Optimizer vereist dat gebeurtenissen worden gestreamd naar Data Collection Core Service (DCCS) om een reis te kunnen activeren. Gebeurtenissen in batch of gebeurtenissen uit interne Journey Optimizer-gegevenssets (Berichtfeedback, E-mailtracking, enz.) kan niet worden gebruikt om een reis te starten. Als u gestreamde gebeurtenissen niet kunt ophalen, maakt u een publiek op basis van deze gebeurtenissen en gebruikt u de optie **Publiek lezen** in plaats daarvan. De kwalificatie van het publiek kan technisch worden gebruikt, maar kan stroomafwaartse uitdagingen veroorzaken die op de gebruikte acties worden gebaseerd.
+* Journey Optimizer vereist dat gebeurtenissen worden gestreamd naar Data Collection Core Service (DCCS) om een reis te kunnen activeren. Gebeurtenissen in batch of gebeurtenissen uit interne Journey Optimizer-gegevenssets (Berichtfeedback, E-mailtracking, enz.) kan niet worden gebruikt om een reis te starten. Voor gebruiksgevallen waar u gestreamde gebeurtenissen niet kunt krijgen, gelieve een publiek te bouwen dat op die gebeurtenissen wordt gebaseerd en de **Gelezen activiteit van het Publiek** in plaats daarvan te gebruiken. De kwalificatie van het publiek kan technisch worden gebruikt, maar kan stroomafwaartse uitdagingen veroorzaken die op de gebruikte acties worden gebaseerd.
 
 ### Gegevensbronnen {#data-sources-g}
 
 * De externe gegevensbronnen kunnen binnen een klantenreis worden gebruikt om externe gegevens in echt op te zoeken - tijd. Deze bronnen moeten bruikbaar zijn via REST API, JSON ondersteunen en het volume van aanvragen kunnen verwerken.
-* Interne adressen van Adoben (`.adobe.*`) zijn niet toegestaan in URL&#39;s en API&#39;s.
+* Interne adressen van de Adobe (`.adobe.*`) worden niet toegestaan in URLs en APIs.
 
 >[!NOTE]
 >
@@ -140,13 +140,13 @@ U kunt uit één van deze twee oplossingen kiezen:
 
 * Deze functie is momenteel niet beschikbaar voor klanten in de gezondheidszorg.
 
-* Personalisatie kan alleen profielkenmerken bevatten.
+* Personalization kan alleen profielkenmerken bevatten.
 
 * De weergave in de app is gekoppeld aan de duur van de rit. Dit houdt in dat wanneer de reis voor een profiel afloopt, alle in-app-berichten binnen die reis niet meer worden weergegeven voor dat profiel.  Het is daarom niet mogelijk om een bericht in de app rechtstreeks te stoppen van een reisactiviteit. In plaats daarvan moet u de volledige reis beëindigen om te voorkomen dat de berichten in de app naar het profiel worden weergegeven.
 
-* In de testmodus is de weergave in de app afhankelijk van de levensduur van de rit. Om te voorkomen dat de reis te vroeg eindigt tijdens de test, past u de **[!UICONTROL Wait time]** waarde voor uw **[!UICONTROL Wait]** activiteiten.
+* In de testmodus is de weergave in de app afhankelijk van de levensduur van de rit. Als u wilt voorkomen dat de reis te vroeg eindigt tijdens het testen, past u de **[!UICONTROL Wait time]** -waarde voor uw **[!UICONTROL Wait]** -activiteiten aan.
 
-* **[!UICONTROL Reaction]** activiteiten kunnen niet worden gebruikt om te reageren op een geopende In-app of klik.
+* **[!UICONTROL Reaction]** -activiteiten kunnen niet worden gebruikt om te reageren op een geopende of geklikte In-app.
 
 * Er kan een activeringsvertraging optreden tussen het moment dat een gebruikersprofiel een in-app-activiteit op het canvas bereikt en het moment waarop het bericht in de app wordt weergegeven.
 
@@ -171,16 +171,16 @@ De leveringstijd komt overeen met het aantal beslissingsreacties dat binnen een 
 
 De beperkingen van het besluitvormingsbeheer worden hieronder vermeld.
 
-* **Goedgekeurde persoonlijke aanbiedingen + alternatieven** - Tot 10.000 gecombineerde goedgekeurde persoonlijke aanbiedingen en goedgekeurde alternatieven.
-* **Besluiten** - Tot 10.000 besluiten.
-* **Live beslissingen** - Offer decisioning App Service ondersteunt maximaal 1.000 Live-beslissingen.
-* **Per reactie geretourneerde voorstellen** - Offer decisioning ondersteunt maximaal 100 aanbiedingen die per aanvraag worden teruggestuurd over alle besluitvormingsgebieden in aanvraag.
-* **Verzamelingen** - Tot 10.000 verzamelingen.
-* **Verzamelingen per beslissing** - Tot 30 verzamelingen per beslissing.
-* **Beslissingsregels + rangschikkingsfuncties** Tot 10.000 gecombineerde besluitvormingsregels en rangordefuncties.
-* **Plaatsen** - Tot 1.000 Plaatsen.
-* **Plaatsingen per besluit** - Tot 30 plaatsen per besluit.
-* **Beoordelingsmethode per besluit** - Offer decisioning App Service ondersteunt maximaal 30 ranking-functies per besluit.
-* **AI-beoordelingsmodel** - Offer decisioning App Service ondersteunt maximaal vijf AI-waarderingsmodellen.
-* **Verzamelingskwalificatie per aanbieding of verzameling** - Offer decisioning App Service biedt ondersteuning voor maximaal 20 verzamelingskwalificatie in één persoonlijke aanbieding of enkele verzameling.
-* **Totaal aantal verzamelingskwalificaties** - Offer decisioning App Service ondersteunt maximaal 1.000 Collectieve Kwalificatoren.
+* **goedgekeurde Persoonlijke Aanbiedingen + de Aanbiedingen van de Fallback** - tot 10.000 gecombineerde goedgekeurde Persoonlijke Aanbiedingen en goedgekeurde Aanbiedingen van de Fallback.
+* **Besluiten** - tot 10.000 Besluiten.
+* **Levende Besluiten** - de Dienst van de App van de Offer decisioning steunt tot 1.000 Levende Besluiten.
+* **Aanbiedingen die per reactie** zijn teruggekeerd - de steunen van de Offer decisioning tot 100 aanbiedingen die per verzoek over alle besluitvormingswerkingsgebied in verzoek zijn teruggekeerd.
+* **Inzamelingen** - tot 10.000 Inzamelingen.
+* **inzamelingen per Besluit** - tot 30 Inzamelingen per Besluit.
+* **Regels van het Besluit + het Rangschikken Functies** tot 10.000 gecombineerde de Regels van het Besluit en het Rangschikken Functies.
+* **Plaatsingen** - tot 1.000 Plaatsen.
+* **Plaatsingen per Besluit** - tot 30 Plaatsen per Besluit.
+* **Rangschikkende Methode per Besluit** - de Dienst van de App van de Offer decisioning steunt tot 30 Rangschikkende Functies per Besluit.
+* **AI het Rangschikken model** - de Dienst van de App van de Offer decisioning steunt tot 5 AI rangschikkende modellen.
+* **Kwalificator van de Inzameling per Aanbieding of Inzameling** - de Dienst van de Toepassing van de Offer decisioning steunt tot 20 Kwalificatoren van de Inzameling in om het even welk enkel Gepersonaliseerd Aanbod of enige Inzameling.
+* **Totale Kwalificaties van de Inzameling** - de Dienst van de Toepassing van de Offer decisioning steunt tot 1.000 Kwalificatoren van de Inzameling.
