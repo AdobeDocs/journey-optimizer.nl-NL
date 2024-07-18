@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4dc269b0671b99eaddeebf358ebe4e45f5c4c721
+source-git-commit: f0b08b9cb9c12f7920e5a26a565b34b4bec8c84a
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '446'
 ht-degree: 2%
 
 ---
@@ -128,7 +128,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 * (Beschikbaarheid: 8 juli) U kunt nu de geavanceerde expressie-editor gebruiken tijdens het configureren van een gebeurtenis, zodat u complexere expressies kunt definiëren of functies kunt gebruiken in de voorwaarde voor de gebeurtenis-id. [Meer informatie](../event/about-creating.md#adv-exp-editor)
 
-* De voorwaarde `event-id` wordt nu automatisch gevuld tijdens de testmodus.
+<!--* The `event-id` condition is now automatically filled during test mode. -->
 
 **Sms-kanaal**
 
