@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9a00387d0f44fd989dd9019cef33e3223b1701de
+source-git-commit: c64d0dbc41089fa50f0fbc4829ba60818dd25a37
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '281'
 ht-degree: 3%
 
 ---
@@ -138,10 +138,10 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 * Expressiefragmenten zijn nu beschikbaar voor het kanaal in de app.
 
-**het kanaal van de duw**
-
-* U kunt nu uw pushgegevens voor mobiele toepassingen toevoegen in de configuratie-instellingen voor Adobe Journey Optimizer-kanalen. Het maken van een App-oppervlak in Adobe Experience Platform Data Collection is niet langer vereist.
-
 **Doelgroepen**
 
 * Het gebruik van soorten publiek via aangepaste upload (CSV-bestand) is nu beschikbaar voor gebruik met Privacy en beveiligingsschild.
+<!--
+**Push channel**
+
+* You can now add your mobile application push credentials inside Adobe Journey Optimizer channel configuration settings. Creating an App surface in Adobe Experience Platform Data Collection is no longer required.-->
