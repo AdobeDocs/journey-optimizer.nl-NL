@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2387b9912b1c4c2272643a85de6f5dcc9477b2cd
+source-git-commit: 9a00387d0f44fd989dd9019cef33e3223b1701de
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '313'
 ht-degree: 3%
 
 ---
@@ -144,4 +144,4 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Doelgroepen**
 
-* Het gebruik van soorten publiek en kenmerken van de compositie van het publiek en aangepaste upload (CSV-bestand) is nu beschikbaar voor gebruik met invoegtoepassingen voor het gezondheidsschild en het privacyschild.
+* Het gebruik van soorten publiek via aangepaste upload (CSV-bestand) is nu beschikbaar voor gebruik met Privacy en beveiligingsschild.
