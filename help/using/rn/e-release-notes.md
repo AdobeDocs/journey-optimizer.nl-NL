@@ -8,10 +8,10 @@ hide: true
 hidefromtoc: true
 topic: Content Management
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1cbc5512fe23db22eca4fe1a2cb512a154b01844
+source-git-commit: 2387b9912b1c4c2272643a85de6f5dcc9477b2cd
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 2%
+source-wordcount: '321'
+ht-degree: 3%
 
 ---
 
@@ -81,27 +81,27 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </table>
 
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Verbeterde kanaalconfiguraties</strong><br/></th>
+<th><strong>Improved channel configurations</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>De huidige mogelijkheden van het kanaaloppervlak zijn verbeterd voor een consistente aanpak op alle kanalen. U kunt deze configuraties nu definiëren, beheren en opnieuw gebruiken voor elk van uw kanalen.</p>
+<p>The current channel surface capabilities have been enhanced for a consistent approach across all channels. You can now define, manage, and reuse these configurations for any of your channels.</p>
 <p><ul>
-<li>De oppervlakten van het kanaal worden nu anders genoemd aan <strong> configuraties van het Kanaal </strong></li>
-<li>Van de de configuratieinventaris van het Kanaal kunt u herbruikbare kanaalconfiguraties voor alle kanalen, met inbegrip van nu Web, In-app overseinen, of op code-gebaseerde ervaring tot stand brengen</li>
-<li>Het toegangsbeheer van het niveau van objecten (OLAC) is nu beschikbaar voor elke kanaalconfiguratie, toestaand u om te beslissen welke van uw gebruikers specifieke configuraties mogen tot stand brengen of gebruiken</li>
-<li>Voor sommige kanalen kunt u kanaalconfiguraties maken die op meerdere platforms zijn gericht. Een voorbeeld hiervan is een in-app berichtkanaalconfiguratie die zich kan richten op een webpagina, een iOS-app en een Android-app.</li>
+<li>Channel surfaces are now renamed to <strong>Channel configurations</strong></li>
+<li>From the Channel configurations inventory you can now create reusable channel configurations for all channels, including now Web, In-app messaging, or Code-based experience</li>
+<li>Object level access control (OLAC) is now available for each channel configuration, allowing you to decide which of your users are allowed to create or use specific configurations</li>
+<li>For some channels, you can create channel configurations that target multiple platforms. An example here would be an In-app messaging channel configuration that can target a web page, an iOS app and an Android app.</li>
 </ul></p>
-<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 
 <!--table>
@@ -144,4 +144,4 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Doelgroepen**
 
-* Het gebruik van soorten publiek en kenmerken van de compositie van het publiek en aangepaste upload (CSV-bestand) is nu beschikbaar voor gebruik met Healthcare Shield of Privacy and Security Shield.
+* Het gebruik van soorten publiek en kenmerken van de compositie van het publiek en aangepaste upload (CSV-bestand) is nu beschikbaar voor gebruik met invoegtoepassingen voor het gezondheidsschild en het privacyschild.
