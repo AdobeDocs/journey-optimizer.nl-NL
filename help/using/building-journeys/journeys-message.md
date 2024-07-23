@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, email, in app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 2c4c9064b11bce44331b6604c91221ba9829eff7
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 U kunt ook specifieke acties instellen om u berichten te sturen:
 
-* Als u berichten verzendt met een systeem van derden, kunt u een aangepaste handeling maken. Meer informatie in deze [sectie](../action/action.md).
+* Als u berichten verzendt met een systeem van derden, kunt u een aangepaste handeling maken. Leer meer in deze [ sectie ](../action/action.md).
 
 * Raadpleeg de volgende secties als u werkt met Campagne en Journey Optimizer:
 
@@ -36,9 +36,9 @@ U kunt ook specifieke acties instellen om u berichten te sturen:
 
 Volg onderstaande stappen om een bericht toe te voegen aan een rit:
 
-1. Begin uw reis met een [Gebeurtenis](general-events.md) of [Publiek lezen](read-audience.md) activiteit.
+1. Begin uw reis met een [ Gebeurtenis ](general-events.md) of a [ gelezen activiteit van het publiek ](read-audience.md).
 
-1. Van de **Handelingen** van het palet, slepen en neerzetten en **email**, en **In-app**, en **SMS** of **Push** op het canvas.
+1. Van de **sectie van Acties** van het palet, sleep en laat vallen een **e-mail**, een **In-app**, een **SMS** of a **duw** activiteit in het canvas.
 
 1. Configureer uw activiteit. Leer gedetailleerde stappen om uw berichtinhoud op de volgende pagina&#39;s tot stand te brengen:
 
@@ -48,7 +48,7 @@ Volg onderstaande stappen om een bericht toe te voegen aan een rit:
    <a href="../email/create-email.md">
    <img alt="Lood" src="../assets/do-not-localize/email.jpg">
    </a>
-   <div><a href="../email/create-email.md"><strong>E-mails maken</strong>
+   <div><a href="../email/create-email.md"><strong> creeer e-mails </strong>
    </div>
    <p>
    </td>
@@ -56,7 +56,7 @@ Volg onderstaande stappen om een bericht toe te voegen aan een rit:
    <a href="../in-app/create-in-app.md">
    <img alt="Lood" src="../assets/do-not-localize/in-app.jpg">
    </a>
-   <div><a href="../in-app/create-in-app.md"><strong>In-app-berichten maken</strong>
+   <div><a href="../in-app/create-in-app.md"><strong> creeer in-app berichten </strong>
    </div>
    <p>
    </td>
@@ -65,7 +65,7 @@ Volg onderstaande stappen om een bericht toe te voegen aan een rit:
    <img alt="Onfrequent" src="../assets/do-not-localize/push.jpg">
    </a>
    <div>
-   <a href="../push/create-push.md"><strong>Pushberichten maken<strong></a>
+   <a href="../push/create-push.md"><strong> creeer dupberichten <strong></a>
    </div>
    <p>
    </td>
@@ -74,7 +74,7 @@ Volg onderstaande stappen om een bericht toe te voegen aan een rit:
    <img alt="Validatie" src="../assets/do-not-localize/sms.jpg">
    </a>
    <div>
-   <a href="../sms/create-sms.md"><strong>Tekstberichten maken (SMS/MMS)</strong></a>
+   <a href="../sms/create-sms.md"><strong> creeer tekstberichten (SMS/MMS) </strong></a>
    </div>
    <p>
    </td>
@@ -85,7 +85,7 @@ Volg onderstaande stappen om een bericht toe te voegen aan een rit:
 
 U kunt de inhoud van een bericht (e-mail, In-app, Push, SMS) tijdens een live reis bijwerken.
 
-Om dit te doen, open uw levende reis, selecteer de berichtactiviteit en klik **Inhoud bewerken**.
+Om dit te doen, open uw levende reis, selecteer de berichtactiviteit en klik **geef inhoud** uit.
 
 ![](assets/add-a-message2.png)
 
@@ -127,21 +127,30 @@ Deze informatie wordt opgeslagen met het profiel van de gebruiker en wordt bij d
 
 ### Veelgestelde vragen {#faq-send-time}
 
-Wat kan de Optimalisering van de Verzendtijd doen? Hoe worden nieuwe profielen verwerkt? Spreidt het over een periode van 6/12/24 uur?
++++ Wat kan de Optimalisering van de Verzendtijd doen? Hoe worden nieuwe profielen verwerkt? Spreidt het over een periode van 6/12/24 uur?
 
-Optimalisatie van verzendtijd probeert de beste tijd te voorspellen om met klanten in contact te komen en open-/kliksnelheden voor e-mails te optimaliseren. De score heeft een indeling van `3*7*24` kenmerken voor elk profiel. De `7*24` kenmerken beschrijven de volgorde van de te verwachten beste tijd voor het verzenden van e-mails naar de ontvanger en 3 is voor het optimaliseren van de e-mailopeningsfrequentie, het klikken op snelheid via e-mail en het open tarief via push.
+Optimalisatie van verzendtijd probeert de beste tijd te voorspellen om met klanten in contact te komen en open-/kliksnelheden voor e-mails te optimaliseren. De score heeft een indeling van `3*7*24` -kenmerken voor elk profiel. De `7*24` -kenmerken beschrijven de volgorde van de voorspelde beste tijd voor het verzenden van e-mails naar de ontvanger en 3 is bedoeld voor het optimaliseren van de openingsfrequentie van e-mail, het klikken op snelheid per e-mail en het uitvoeren van een push-snelheid.
 
-Waar kan ik de verwachte verzendtijd voor elk profiel zien?
++++
 
-U kunt de algemene score zien in het dialoogvenster **Profielen** interface. Voor elk van de drie sets van 168 scores lopen de ranks van -83 tot 84. Hoe hoger de rangorde, hoe beter de tijd is om met de ontvanger te communiceren. Aangezien u het begin en de duur van een reis kunt bepalen, kan de beste rang (84) niet in dat tijdvenster vallen. In dit geval raden we u aan een uur met de hoogste rangorde te kiezen.
++++Waar kan ik de verwachte verzendtijd voor elk profiel zien?
 
-Welke rapportage is beschikbaar?
+U kunt de algemene score in de **Profielen** interface zien. Voor elk van de drie sets van 168 scores lopen de ranks van -83 tot 84. Hoe hoger de rangorde, hoe beter de tijd is om met de ontvanger te communiceren. Aangezien u het begin en de duur van een reis kunt bepalen, kan de beste rang (84) niet in dat tijdvenster vallen. In dit geval raden we u aan een uur met de hoogste rangorde te kiezen.
 
-Open uw reis, klik **Rapport weergeven** in de rechterbovenhoek en selecteert u de **Reis** links. [Meer informatie](../reports/journey-global-report.md)
++++
 
-Hoe beïnvloeden de gegevens van de Optimalisering van de Send-Time profielrijkdom?
+
++++Welke rapportering is beschikbaar?
+
+Heb toegang tot uw reis, klik het **rapport van de Mening** knoop in het hoogste recht en selecteer het **** lusje van de Reis op de linkerzijde. [Meer informatie](../reports/journey-global-report.md)
+
++++
+
++++Hoe beïnvloeden de gegevens van de Optimalisatie van de Send-Time profielrijkdom?
 
 De optimalisering van de Send-Tijd voegt de score/de attributen aan elk profiel toe maar geen nieuw profiel wordt gecreeerd.
+
++++
 
 ### Send-Time optimaliseren activeren{#activate-send-time-optimization}
 
@@ -155,15 +164,15 @@ De optimalisering van de Send-Tijd voegt de score/de attributen aan elk profiel 
 >title="Send-Time optimaliseren activeren"
 >abstract="Pushberichten worden standaard ingesteld op de optie Openen, omdat klikken niet van toepassing zijn op pushberichten. U kunt er ook voor kiezen om de verzendtijden die door het systeem worden gebruikt te accentueren door een waarde voor Verzenden in te voeren binnen de volgende optie."
 
-Schakel SendTime Optimization in op een e-mail- of pushbericht door de optie **Send-Time optimalisatie** Schakel over van de activiteitsparameters.
+Laat Send-Time Optimalisering op een e-mail of duw bericht toe door de **schakelaar van de Optimalisering van de Send-Time** van de activiteitenparameters te selecteren.
 
 ![](../building-journeys/assets/jo-message5.png)
 
 Kies bij e-mailberichten of u wilt optimaliseren bij het openen van een e-mail of door op het juiste keuzerondje te klikken. Pushberichten worden standaard ingesteld op de optie Openen, omdat klikken niet van toepassing zijn op pushberichten.
 
-U kunt er ook voor kiezen om de verzendtijden die door het systeem worden gebruikt, te accentueren door een waarde in te voeren voor de **Verzenden binnen de volgende** -optie. Als u &quot;zes uur&quot;als waarde kiest, [!DNL Journey Optimizer] zal elk gebruikersprofiel controleren en de optimale verzendtijd kiezen binnen zes uur na de uitvoeringstijd van de reis.
+U kunt ook verkiezen om de verzendtijden te steunen die door het systeem worden gebruikt door een waarde voor **in te gaan verzendt binnen de volgende** optie. Als u &quot;zes uur&quot; als waarde kiest, controleert [!DNL Journey Optimizer] elk gebruikersprofiel en kiest u de optimale verzendtijd binnen zes uur na de uitvoeringstijd van de reis.
 
-**Wat gebeurt er als de optimale tijd zich buiten het venster bevindt?**
+**wat gebeurt als de optimale tijd buiten het venster is?**
 
 Neem een voorbeeld met de volgende opstelling:
 
