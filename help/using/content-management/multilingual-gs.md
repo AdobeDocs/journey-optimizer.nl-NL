@@ -10,10 +10,10 @@ level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: b5dbfbd6d1bb4f1451f1ccab7387af3c37d6d060
+source-git-commit: e2ebb540fe9380497b42d331d1ea259538d72f00
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 2%
+source-wordcount: '252'
+ht-degree: 1%
 
 ---
 
@@ -27,14 +27,23 @@ Met de meertalige functie kunt u moeiteloos inhoud in meerdere talen maken in é
 
 Met Journey Optimizer hebt u de mogelijkheid om meertalige inhoud te maken met behulp van twee verschillende methoden:
 
-* **Handmatige omzetting**: Vertaal uw inhoud rechtstreeks in de e-mail-Designer of importeer bestaande meertalige inhoud. [Meer informatie](multilingual-manual.md)
+* **Handmatige vertaling**: Vertaal uw inhoud direct in E-mail Designer of voer bestaande meertalige inhoud in. [Meer informatie](multilingual-manual.md)
 
-* **Geautomatiseerde omzetting**: Verzend inhoud naar de voorkeurstaal voor automatische vertaling. [Meer informatie](multilingual-automated.md)
-
+* **Geautomatiseerde vertaling**: verzend inhoud naar uw aangewezen taalleverancier voor geautomatiseerde vertaling. [Meer informatie](multilingual-automated.md)
 
 </br>
 
 ![](assets/translation_schema.png)
+
+## Vereisten {#prerequisites}
+
+Adobe Journey Optimizer is momenteel geïntegreerd met vertalers, die externe vertaalservices (automatische vertaling of menselijke vertaling) aanbieden die onafhankelijk zijn van Adobe Journey Optimizer.
+
+Voordat u de geselecteerde vertaalprovider gaat toevoegen, moet u een account maken bij die provider.
+
+Voor het gebruik van de vertaalservices van een vertaalbureau gelden aanvullende voorwaarden en bepalingen van de betreffende provider.  Als oplossingen van derden zijn vertaalservices via integratie beschikbaar voor Adobe Journey Optimizer-gebruikers.  Adobe heeft geen betrekking op producten van derden en is niet verantwoordelijk voor deze producten.
+
+Neem contact op met de betreffende vertaler voor alle problemen of verzoeken om assistentie met betrekking tot uw vertalingen.
 
 ## Hoe kan ik-video {#video}
 
