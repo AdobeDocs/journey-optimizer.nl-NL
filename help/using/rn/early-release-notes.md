@@ -5,7 +5,8 @@ title: Aanvullende informatie
 description: Opmerkingen bij de vervroegde release van Journey Optimizer
 hide: true
 hidefromtoc: true
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+exl-id: 841122b9-04f6-4250-b0a5-e61f470787f7
+source-git-commit: 5ccf9e08a24f840de7adbf04dc545904eaa32b8c
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 4%
@@ -14,13 +15,13 @@ ht-degree: 4%
 
 # Vroege aanvullende informatie {#early-release-notes}
 
-[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en oplossingen voor problemen. Alle wijzigingen worden geconsolideerd aan het einde van elke maand in de [releaseopmerkingen](release-notes.md).
+[!DNL Adobe Journey Optimizer] biedt voortdurend nieuwe functies, verbeteringen aan bestaande functies en foutoplossingen. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
 
-Opmerkingen bij de eerste release hieronder kunnen zonder voorafgaande kennisgeving worden gewijzigd tot de beschikbaarheidsdatum van de release. De verbindingen, de schermen en de bijgewerkte documentatie worden gepubliceerd in [releaseopmerkingen](release-notes.md), op de datum van vrijgave.
+Opmerkingen bij de eerste release hieronder kunnen zonder voorafgaande kennisgeving worden gewijzigd tot de beschikbaarheidsdatum van de release. De verbindingen, de schermen en de bijgewerkte documentatie worden gepubliceerd in de [ versienota&#39;s ](release-notes.md), bij de versiedatum.
 
 ## Opmerkingen bij de vervroegde release april 2024 {#early-2024}
 
-**Releasedatum** 2 mei 2024
+**de datum van de Versie**: 2 mei, 2024
 
 ### Nieuwe functies {#early-features}
 
@@ -102,7 +103,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <img src="assets/new-canvas3.gif"/>
 <p>Naast het verbeterde ontwerp van het reiscanvas introduceren we de mogelijkheid om de laatste 24 uur metriek direct in het reiscanvas te zien. </p>
 <img src="assets/new-canvas6bis.png"/>
-<p><strong>Opmerking</strong>: Deze wijzigingen worden geleidelijk doorgevoerd in alle omgevingen vanaf de release van april.</p>
+<p><strong> Nota </strong>: Deze veranderingen zullen geleidelijk aan alle milieu's worden opgerold die de versie van April beginnen.</p>
 <p>Raadpleeg de <a href="new-canvas.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -188,12 +189,13 @@ From beta to LA, the following improvements that have been added:
 * You can now create custom reporting dashboards of Experience Decisioning campaigns using [!DNL Customer Journey Analytics].
 -->
 
-**Beslissingsbeheer**
+**het beheer van het Besluit**
 
-* De **Logbestand wijzigen** , zodat u kunt zien welke wijzigingen in een voorstel of een beslissing zijn aangebracht. Wijzigingen met betrekking tot aanbiedingen en besluiten zijn nu te zien in de **Audits** -menu.
+* Het **logboek van de Verandering** lusje dat u toestaat om alle veranderingen te zien die aan een aanbieding of een besluit zijn aangebracht is verwijderd. De veranderingen met betrekking tot aanbiedingen en besluiten kunnen nu in het **Audits** menu worden gezien.
 
 
 **Configuratie**
 
 * U kunt nu een marketingactie op het niveau van het kanaaloppervlak selecteren. Bij gebruik op een oppervlak worden alle toestemmingsbeleidsregels die aan die marketingactie zijn gekoppeld, benut om de voorkeuren van uw klanten te respecteren.
 * Het gebruik van Toegangsbeheer op objectniveau is nu beschikbaar voor kanaaloppervlakken.
+
