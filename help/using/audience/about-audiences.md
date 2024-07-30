@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 8b92f0c2bc5dd44e9059154e4a9b40872ad802f8
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1909'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,11 @@ Soorten publiek kan op verschillende manieren worden gegenereerd:
 * **de definities van het Segment**: Creeer een nieuwe publieksdefinitie gebruikend de Dienst van de Segmentatie van Adobe Experience Platform. [ leer hoe te om segmentdefinities te bouwen ](creating-a-segment-definition.md)
 * **Douane uploadt**: Invoer een publiek gebruikend een Csv- dossier. Leer hoe te om publiek in de documentatie van de Dienst van de Segmentatie van Adobe Experience Platform [ in te voeren ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) {target="_blank"}.
 * **samenstelling van het publiek**: Creeer een samenstellingswerkschema om bestaand publiek van Adobe Experience Platform in een visueel canvas te combineren en hefboomwerking diverse activiteiten (spleet, sluit uit...) om nieuw publiek tot stand te brengen. [ worden begonnen met publiekssamenstelling ](get-started-audience-orchestration.md)
+* **Federated Audience Composition**: De datasets van de federatie direct van uw bestaand gegevenspakhuis om het publiek en de attributen van Adobe Experience Platform allen in één systeem te bouwen en te verrijken. Gelieve te lezen de gids op [ Federated de Samenstelling van het Publiek ](https://experienceleague.adobe.com/en/docs/federated-audience-composition/using/home).
+
+  >[!AVAILABILITY]
+  >
+  >Federated Audience Composition is momenteel alleen beschikbaar voor een set organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 ## Doelpubliek in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
