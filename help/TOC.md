@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8b92f0c2bc5dd44e9059154e4a9b40872ad802f8
+source-git-commit: af03ad62c2c7b29d695670f083e0dfb6d0c71b93
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1888'
 ht-degree: 28%
 
 ---
@@ -230,6 +230,7 @@ ht-degree: 28%
       + [Sinch-provider configureren](using/sms/sms-configuration-sinch.md)
       + [Infobip-provider configureren](using/sms/sms-configuration-infobip.md)
       + [Twilio-provider configureren](using/sms/sms-configuration-twilio.md)
+      + [Een aangepaste provider configureren (Beta)](using/sms/sms-configuration-custom.md)
       + [Een SMS-oppervlak maken](using/sms/sms-configuration-surface.md)
 + Direct mail {#direct-mail}
    + [Aan de slag met direct mail](using/direct-mail/get-started-direct-mail.md)
