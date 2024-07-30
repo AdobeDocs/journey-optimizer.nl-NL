@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0fc693054ad7931545e0053249f310aed031c8c4
+source-git-commit: b2459757d1f1964c7d0b59de814bed29b0a394bb
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1244'
 ht-degree: 5%
 
 ---
@@ -26,10 +26,7 @@ ht-degree: 5%
 
 ![ Nieuwsbrief ](../assets/do-not-localize/nl-icon.png) Teken omhoog voor het [ driemaandelijkse bulsletter van Adobe Journey Optimizer ](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html) {target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die rechtstreeks aan uw inbox elk kwart worden geleverd.
 
-
-## Opmerkingen bij de vervroegde release juli 2024 {#27-4-2024}
-
-**de vroege versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. Koppelingen, schermen en bijgewerkte documentatie worden op de releasedatum op deze pagina gepubliceerd.
+## Opmerkingen bij de release juli 2024 {#27-4-2024}
 
 **de datum van de Versie**: 30-31 juli, 2024
 
@@ -94,9 +91,9 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 * (De datum van de Beschikbaarheid: 8 juli) **Geavanceerde uitdrukkingsredacteur in de configuratie van de reisgebeurtenis** - u kunt hefboomwerking de geavanceerde uitdrukkingsredacteur nu terwijl het vormen van een gebeurtenis, die u toestaan om complexere uitdrukkingen of gebruiksfuncties in de voorwaarde van identiteitskaart van de Gebeurtenis te bepalen. [Meer informatie](../event/about-creating.md#adv-exp-editor)
 
-**Doelgroepen**
+<!--**Audiences**
 
-* Het gebruik van soorten publiek via aangepaste upload (CSV-bestand) is nu beschikbaar voor gebruik met Privacy en beveiligingsschild.
+* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield.-->
 
 ## Opmerkingen bij de release van juni 2024 {#24-6-2024}
 
