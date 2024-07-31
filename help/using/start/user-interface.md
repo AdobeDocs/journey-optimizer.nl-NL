@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 452aecc02f265b8bcbe89f221bd7b1a50ffa0976
+source-git-commit: 6574f5d46125b90634b21ec62a43ca50d1321479
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 4%
@@ -301,4 +301,4 @@ De taal wijzigen:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Prioriteit"
->abstract="&quot;Wijs een prioritaire score aan de reis toe, die zich van 0 tot 100 uitstrekken. Een hoger getal geeft een hogere prioriteit aan. Wanneer twee reizen hetzelfde oppervlak gebruiken, kiest Journey Optimizer de reis met de hoogste prioriteitsscore. Als de reizen dezelfde score hebben, wordt gekozen voor de reis die het laatst is gewijzigd."
+>abstract="Wijs een prioritaire score aan de reis toe, die zich van 0 tot 100 uitstrekken. Een hoger getal geeft een hogere prioriteit aan. Wanneer twee reizen hetzelfde oppervlak gebruiken, kiest Journey Optimizer de reis met de hoogste prioriteitsscore. Als de reizen dezelfde score hebben, wordt gekozen voor de reis die het laatst is gewijzigd."
