@@ -11,7 +11,7 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 267d1850cbe30b1078f3b5b5bd228364bb63edd6
+source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 0%
@@ -28,8 +28,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
->title="Context definiëren met AI Assistant"
->abstract="Om de geselecteerde inhoud als input voor inhoudsgeneratie te gebruiken, activeer de **originele inhoud van het Gebruik** knevel. U kunt ook uw merkmiddelen uploaden om deze als bron te gebruiken. Als u de geselecteerde inhoud niet gebruikt, zijn het uploaden en selecteren van merkelementen verplicht."
+>title="Brontent uploaden"
+>abstract="Met het menu Brontent uploaden kunt u elk merkelement toevoegen dat inhoud bevat die extra context voor de AI-assistent kan bieden, of een eerder geüpload element selecteren. Deze optie zorgt ervoor dat de AI Assistant toegang heeft tot alle noodzakelijke materialen om de functionaliteit en relevantie ervan te verbeteren."
 
 
 >[!CONTEXTUALHELP]
