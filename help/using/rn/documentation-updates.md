@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: f1d6c293fb8b22085911ab45c18f944a63b9655b
+source-git-commit: 0d93e2a3a5707c6229894459348378a0ae538db1
 workflow-type: tm+mt
-source-wordcount: '5403'
+source-wordcount: '5443'
 ht-degree: 13%
 
 ---
@@ -19,8 +19,13 @@ ht-degree: 13%
 
 Deze pagina bevat een overzicht van alle meest recente updates in de documentatie van [!DNL Journey Optimizer] .
 
+## Augustus 2024 {#aug-2024}
+
+* De prestatiegaranties voor Beslissingsbeheer zijn bijgewerkt om Beslissende APIs te vermelden leverings productie met/zonder de Segmentatie van Edge. [Meer informatie](../start/guardrails.md#decision-management)
+
 ## Juli 2024 {#july-2024}
 
+* Alle nieuwe functies en verbeteringen die zijn geïntroduceerd in de release van [!DNL Journey Optimizer] juli 24 zijn beschreven in de documentatie. [Meer informatie](release-notes.md)
 * Er is een gebruiksscenario voor personalisatie toegevoegd voor het aanpassen van een e-mail met informatie over gezondheidsplannen en -recepten. [Meer informatie](../personalization/perso-uc-plan-prescriptions.md)
 
 ## Juni 2024 {#june-2024}
