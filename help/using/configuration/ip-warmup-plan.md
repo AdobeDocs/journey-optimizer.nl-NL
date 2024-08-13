@@ -8,69 +8,55 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, groep, subdomeinen, leverbaarheid
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1581'
 ht-degree: 0%
 
 ---
 
 # Creeer een IP warmlopingsplan {#ip-warmup}
 
->[!BEGINSHADEBOX]
+Zodra u één of meerdere [ IP warmup campagnes ](ip-warmup-campaign.md) met een specifieke toegelaten oppervlakte en de overeenkomstige toegelaten optie creeerde, kunt u beginnen uw IP warmup plan te creëren.
 
-Wat u in deze documentatiehandleiding zult vinden:
-
-* [Ga aan de slag met IP-opwarmingsplannen](ip-warmup-gs.md)
-* [IP-warmtecampagnes maken](ip-warmup-campaign.md)
-* **[Creeer een IP warmlopingsplan](ip-warmup-plan.md)**
-* [Voer het IP warmlopingsplan uit](ip-warmup-execution.md)
-
->[!ENDSHADEBOX]
-
-Nadat u een of meer [IP-opwarmingscampagnes](ip-warmup-campaign.md) met een specifieke toegelaten oppervlakte en de overeenkomstige toegelaten optie, kunt u beginnen tot uw IP warmup plan te leiden.
-
-Om tot IP warmup plannen toegang te hebben, tot stand te brengen, uit te geven en te schrappen, moet u hebben **[!UICONTROL Deliverability Consultant]** rol of IP warmup plannen verwante toestemmingen.
+Om tot de IP opwarmingsplannen toegang te hebben, te creëren, uit te geven en te schrappen, moet u de **[!UICONTROL Deliverability Consultant]** rol of IP opwarmingsplannen verwante toestemmingen hebben.
 
 +++Leer hoe te om de rol van de Adviseur van de Leverbaarheid of IP warmteopwarmingsplannen verwante toestemmingen toe te wijzen
 
 Met toegangsbeheer op objectniveau kunt u gegevens beschermen en specifieke toegang verlenen om uw plannen te bekijken en te beheren. Als geen etiket aan uw IP warmlopingsplan wordt toegewezen, zal het voor het bekijken en het uitgeven door alle gebruikers open zijn.
 
-De **[!UICONTROL View IP warmup plans]** machtiging beperkt alleen toegang tot weergeven en publiceren, terwijl u **[!UICONTROL Manage IP warmup plans]** Met deze machtiging kunnen gebruikers het abonnement bekijken en bewerken.
+Als u de machtiging **[!UICONTROL View IP warmup plans]** verleent, beperkt u alleen toegang tot weergeven en publiceren. Als u de machtiging **[!UICONTROL Manage IP warmup plans]** toewijst, kunnen gebruikers het abonnement zowel weergeven als bewerken.
 
-De bijbehorende machtiging toewijzen aan een specifieke **[!UICONTROL Role]**:
+U kunt als volgt de corresponderende machtiging toewijzen aan een specifieke **[!UICONTROL Role]** :
 
-1. Van de [!DNL Permissions] product, navigeer naar de **[!UICONTROL Roles]** en selecteert u de rol die u wilt bijwerken met het nieuwe **[!UICONTROL IP Warmup Configurations]** machtigingen.
+1. Navigeer in het product [!DNL Permissions] naar het menu **[!UICONTROL Roles]** en selecteer de rol die u wilt bijwerken met de nieuwe **[!UICONTROL IP Warmup Configurations]** -machtigingen.
 
-1. Van uw **[!UICONTROL Role]** dashboard, klik **[!UICONTROL Edit]**.
+1. Klik op het dashboard van **[!UICONTROL Role]** **[!UICONTROL Edit]** .
 
    ![](assets/ip_permissions_1.png)
 
-1. Sleep de **[!UICONTROL IP Warmup Configurations]** bron om bevoegdheid toe te wijzen.
+1. Sleep de **[!UICONTROL IP Warmup Configurations]** -bron om deze toe te wijzen.
 
-1. Van de **[!UICONTROL IP Warmup Configurations]** bron drop-down, selecteer welke toestemmingen uw gebruiker nodig heeft: **[!UICONTROL View IP Warmup Plans]**, **[!UICONTROL Manage IP Warmup Plans]**, en/of **[!UICONTROL View IP Warmup Reports]**. U kunt ze allemaal tegelijk selecteren als dat nodig is.
+1. Selecteer in de vervolgkeuzelijst met **[!UICONTROL IP Warmup Configurations]** bronnen de machtigingen die uw gebruiker nodig heeft: **[!UICONTROL View IP Warmup Plans]** , **[!UICONTROL Manage IP Warmup Plans]** en/of **[!UICONTROL View IP Warmup Reports]** . U kunt ze allemaal tegelijk selecteren als dat nodig is.
 
    ![](assets/ip_permissions_2.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
-De bijbehorende rol toewijzen aan een **[!UICONTROL User]**:
+U kunt als volgt de corresponderende rol toewijzen aan een **[!UICONTROL User]** :
 
-1. Van de [!DNL Permissions] product, navigeer naar de **[!UICONTROL Roles]** en selecteert u de **[!UICONTROL Deliverability Consultant]** ingebouwde rol.
+1. Navigeer in het product [!DNL Permissions] naar het menu **[!UICONTROL Roles]** en selecteer de ingebouwde rol **[!UICONTROL Deliverability Consultant]** .
 
-1. Van uw **[!UICONTROL Role]** dashboard, toegang tot **[!UICONTROL Users]** tab.
+1. Open het tabblad **[!UICONTROL Users]** via het **[!UICONTROL Role]** -dashboard.
 
    ![](assets/ip_permissions_3.png)
 
-1. Klikken **[!UICONTROL Add user]** om de **[!UICONTROL Deliverability Consultant]** ingebouwde rol.
+1. Klik op **[!UICONTROL Add user]** om de ingebouwde **[!UICONTROL Deliverability Consultant]** rol toe te wijzen.
 
    ![](assets/ip_permissions_4.png)
 
-1. Selecteer uw **[!UICONTROL User]** en klik op **[!UICONTROL Save]**.
+1. Selecteer uw **[!UICONTROL User]** en klik **[!UICONTROL Save]**.
 
    ![](assets/ip_permissions_5.png)
 
@@ -84,11 +70,11 @@ Deze activiteit wordt typisch uitgevoerd met de hulp van een leverbaarheidsdesku
 
 <!--When working with the [!DNL Journey Optimizer] IP warmup feature, this plan takes the form of an Excel file that must contain a number of predefined columns.-->
 
-Alvorens een IP warmlopingsplan in te kunnen creëren [!DNL Journey Optimizer] interface, moet u een malplaatje van Excel met alle gegevens invullen die uw plan zullen voeren.
+Alvorens een IP warmup plan in de [!DNL Journey Optimizer] interface te kunnen tot stand brengen, moet u een malplaatje van Excel met alle gegevens invullen die uw plan zullen voeren.
 
-* Vanuit de gebruikersinterface kunt u de lege Excel downloaden [Sjabloon voor IP-opwarmingsplan](assets/IPWarmupPlan-Template.xlsx) in.
+* Van het gebruikersinterface kunt u het lege malplaatje van het de opwarmingsplan van Excel [ IP ](assets/IPWarmupPlan-Template.xlsx) downloaden om in te vullen.
 
-* U kunt ook een [steekproefIP warmtecontract](assets/IPWarmupPlan-Sample.xlsx) al ingevuld met gegevens die u als voorbeeld kunt gebruiken.
+* U kunt a [ steekproefIP warmteopwarmingsplan ](assets/IPWarmupPlan-Sample.xlsx) ook downloaden reeds die met sommige gegevens wordt gevuld die u als voorbeeld kunt gebruiken.
 
 <!--
 * From the user interface you can download the blank Excel IP warmup plan template to fill in.
@@ -108,15 +94,16 @@ Hieronder is een voorbeeld van een dossier dat een IP warmlopingsplan bevat.
 
 ### Het lusje van het Plan van de Warmup {#ip-warmup-plan-tab}
 
-* In dit voorbeeld is een plan voorbereid dat zich over 17 dagen uitstrekt (genoemd &quot;**looppas**&quot;) om een doelvolume van meer dan een miljoen profielen te bereiken.
+* In dit voorbeeld, is een plan voorbereid dat over 17 dagen (genoemd &quot;**looppas**&quot;) overspannen om een doelvolume van meer dan één miljoen profielen te bereiken.
 
-* Dit plan wordt uitgevoerd via zes **fasen**, die elk ten minste één run bevatten.
+* Dit gepland wordt uitgevoerd door zes **fasen**, elk van hen die minstens één looppas bevatten.
 
-* U kunt maximaal zes kolommen (5 kolommen voor domeingroepen en 1 voor de **Overige** kolom). In dit voorbeeld bestaat het plan uit zes kolommen:
+* U kunt tot 6 kolommen (4 kolommen voor domeingroepen, voor **hebben anderen** kolom en voor **Dagen van de Betrokkenheid** kolom). In dit voorbeeld bestaat het plan uit zes kolommen:
 
-   * Vier ervan komen overeen met **uit-van-de-doos domeingroepen** voor gebruik in uw abonnement (Gmail, Microsoft, Yahoo en Orange).
-   * Eén komt overeen met een aangepaste domeingroep (die u moet toevoegen met de opdracht [Aangepaste domeingroep](#custom-domain-group-tab) ).
-   * de zesde kolom, **Overige**, bevat alle resterende adressen van andere domeinen die niet uitdrukkelijk in het plan worden behandeld. Deze kolom is optioneel: als deze wordt weggelaten, gaan e-mails alleen naar de opgegeven domeinen.
+   * Drie waarvan aan **uit-van-de-doos domeingroepen** aan gebruik in uw plan (Gmail, Microsoft, en Oranje) beantwoorden.
+   * Één beantwoordt aan een groep van het douanedomein (die u moet toevoegen gebruikend de ](#custom-domain-group-tab) tabel van de Groep van het Domein van 0} Douane).[
+   * De vijfde kolom, **anderen**, bevat alle resterende adressen van andere domeinen die niet uitdrukkelijk in het plan worden behandeld. Deze kolom is optioneel: als deze wordt weggelaten, gaan e-mails alleen naar de opgegeven domeinen.
+   * De laatste kolom, **Dagen van de Betrokkenheid**, staat u toe om het aantal dagen te specificeren waarover de overeenkomst zou moeten worden gevolgd of worden beoordeeld.
 
 Het idee moet het aantal gerichte adressen in elke looppas progressief verhogen, terwijl het verminderen van het aantal looppas voor elke fase.
 
@@ -140,53 +127,67 @@ De uit-van-de-doos belangrijkste domeingroepen u aan uw plan kunt toevoegen zijn
 * Apple
 -->
 
-+++ Gmail gmail.com;google.com;googlemail.com;googlemail.co.uk
++++ Gmail
+gmail.com;google.com;googlemail.com;googlemail.co.uk
 +++
 
-+++WP wp.pl;o2.pl
++++WP
+wp.pl;o2.pl
 +++
 
-+++comcast.net
++++Comcast
+comcast.net
 +++
 
-+++Yahoo aol.fi;cs.com;yahoo.com.in;games.com;y7mail.com;yahoo.co.uk;yahoo.hu;yahoo.co.hu;yahoo.cn;yahoogroups.com.sg;yahoogroups.com.au;aol.es yahoo.com.au;yahoo.com.vn yahoo.ca;aol.co.nz;aolaolpol.pnoge.no;bahoo;bo;bco;bahoo;ba;yahoo.hr;aol.cz;yahoo.ee;aol.be;aolcom.tr;yahoo.si;aol.it;yahoo.es;yahoo.dk;yahoo.dk;yahoogroups.ca;document;aol.kr;yahoo.ie;ahoo;jp;yahoo o.lt;document;aol.nl;document;yahoo.bg;documen;aol.se;yahoo.de;aanbevelingen;document;yahoo.nl;document;aol.dk;document;aol.cl;document;yahoo.no;document;yahoo;cz;yahoo.sk;documenten;yahoo.de;yahoo.gr;document;yahoo.ro;document;yahoo.at;document;document;docum;aol.fr;yahoo.in;aol.in;yahoo.rs;yahoo.de;de;document;document;;document;yahoo.se;myahoo;se;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s;s aol.jp;document;yahoo.pt;document;yahoogrupper.dk;yahoo.fr;document;aol.pl;document;docum;aol.ch;yahoo.it;document;aolpolcka.pl;document;document;yagroppi.it;yahoo.cl;document;yahoo;cl;;document;document;document;yahoo.be;document;aol.tw;document;document;document;document;document;document;document;aol.ru;document;document;yahoo.lv;aolpolska.pl;aol.at;yahoo.pl
++++Yahoo
+aol.fi;games.com;yahoo.com.in y7mail.com;yahoo.hu;yahoo.co.hu ahoo.cn;yahoogroups.com.sg;yahoogroups.com.au aol.es;yahoo.com.au;yahoo.com.vn;yahoo.co.uk;aahoo.ca;ca;aolahoo;aolahoo;aolahoo;aolahoo;aolahoo.hu;aolaolahoo.hu;aolaolahooahoo;ahoo;ahoo;ahoo;ahoo;ahoo;ahoo;ahoo;ahoo;ahoo;ahoo;ahoo;aolahoo;ahoo;ahoo;ahoo;ahoo;ahoo;aolaolahoo;ahoo;ahoo;ahoo;ahoo;aaol.cz;yahoo.ee;aol.be;aolcom.tr;yahoo.si;aol.it;yahoo.es;yahoo.dk;yahoo.dk;yahogroups.ca;document;aol.kr;yahoo.ie;aol.jp;yahoo.lt;aol.nl;document;yahoo.bg;document;aol.se;document;yahoo.de;document;document;document;yahoo.nl;document;aol.dk;document;aol.cl;document;yahoo.no;document;yahoo.cz;yahoo.cz;yayayo;sk;hoogroups.de;yahoo.gr;document;yahoo.ro;document;yahoo.at;document;document;aol.fr;yahoo.gr;aol.in;document;yahoo.rs;aol.de;aol.de;document;document;document;yahoo.se;myaol.jp;jp;;yahoo.pt;document;document;yahoogrupper.dk;yahoo.fr;document;aol.pl;document;aol.ch;yahoo.it;document;aolpolcka.pl;document;documen;yagroppi.it;yahoo.cl;alsmede;documenten;document;document;document;yahoo;yahoo;; ahoo.be;document;document;aol.tw;document;document;document;document;document;document;document;document;aol.ru;document;document;yahoo.lv;aolpolska.pl;aol.at;yahoo.pl
 +++
 
-+++Bigpond bigpond.com;bigpond.com.au;bigpond.net;telstra.com;bigpond.net.au
++++Groeperen
+bigpond.com;bigpond.com.au;bigpond.net;telstra.com;bigpond.net.au
 +++
 
-+++Orange voila.com;francetelecom.com;orange.com;orange.fr;wanadoo.fr;voila.fr
++++oranje
+voila.com;francetelecom.com;orange.com;orange.fr;wanadoo.fr;voila.fr
 +++
 
-+++++Softbank c.vodafone.ne.jp;jp-h.ne.jp;;jp-d.ne.jp;jp-c.ne.jp;t.vodafone.ne.jp;jp-t.ne.jp;jp-q.ne.jp;r.vodafone.ne.jp;s.vodafone.ne.jp;q.vodafone.ne.jp;jp-s.ne.jp;h.vodafone.ne.jp;b;b;b;k.vodafone.ne.jp;appa;append;appc;appt;appa
++++Softbank
+c.vodafone.ne.jp;jp-h.ne.jp;k.vodafone.ne.jp;jp-d.ne.jp;jp-c.ne.jp;t.vodafone.ne.jp h.vodafone.ne.jp;r.vodafone.ne.jp;jp-t.ne.jp;jp-q.ne.jp;q.vodafone.ne.jp;s.vodafone.ne.jp;gevangen;jp-s.ne.jp;geba;geborgerd;geremd;gem;aangetand;aangetast;aangetast;aangetast;aangetast;b
 +++
 
-+++Docomo docomo.ne.jp
++++Docomo
+docomo.ne.jp
 +++
 
-+++United Internet gmx.de;1and1.com;gmx.fr;mail.com;1und1.de;gmx.com;gmx.net;gmx.at;web.de;gmx.ch
++++Verenigd Internet
+gmx.de;1and1.com;gmx.fr;mail.com;1und1.de;gmx.com;gmx.net;gmx.at;web.de;gmx.ch
 +++
 
-++ Microsoft hotmail.com.tr;hotmail.chotmail.jp live.ru;live.nl;live.jp;windowslive.com;xbox.com;mail.fr;hotmail.chotmail.jp.cl;live.at;at;hk hotmail.com.au;hotmail.com;live.com.au;hotmail.co.kr;hotmail.co.th;outlook.com.br;hotmail;hotmail;hotmail;jp;live.outoutoutoutoutout.cl;live.htm;lik;hotmail.co.il;hk live.co.kr;live.co.uk;live.com.mx hotmail.co.uk;live.com.sg;msn.com;hotmail.co.jp;live.co.za;live.com.pt;outlook.com;live.com live.com.ar hotmail.com.br live.com.my;hotmail.com.ar;.;;;;;;;;live.cn;sancties;hotmail.es;live.fr;live.no;live.dk;hotmail.it;live.se;.se;olijf;be;live.in;hotmail.ch;fax;hotmail.ch;document;fax;hotmail.gr;live.it;hotmail.ca;support;fax;live.ca;hotmail.de
++++Microsoft
+hotmail.com.tr;live.de live.ru live.nl;live.jp;mts.net xbox.com;hotmail.fr;hotmail.cl;hotmail.jp;live.cl live.live.nl live.at;live.hk;hotmail.com.au;hotmail.com hotmail.co.th live.fr;hotmail;hotmail;hotmail.dl;hotmail;outlook.cl;live.cl;live.com.au.cl;restpost;live;hotmail.no;live.no;live.dk;hotmail.it;live.se;live.be;com live.hotmail.se;com;hotmail.ch;hotmail.ch;hotmail.get;hotmail.gr;live.it;hotmail.ca;hotmail.ca;de
 +++
 
-+++KDDI au.com;ezweb.ne.jp;uqmobile.jp
++++KDDI
+au.com;ezweb.ne.jp;uqmobile.jp
 +++
 
-+++Italia Online inwind.it;blu.it;virgilio.it;giallo.it;iol.it;libero.it
++++Italia Online
+inwind.it;blu.it;virgilio.it;giallo.it;iol.it;libero.it
 +++
 
-+++La Poste laposte.net
++++La Poste
+laposte.net
 +++
 
-+++Apple mac.com;icloud.com;apple.com;me.com
++++Apple
+mac.com;icloud.com;apple.com;me.com
 +++
 
 ### Tabblad Aangepaste domeingroep {#custom-domain-group-tab}
 
 U kunt meer kolommen aan uw plan ook toevoegen door de groepen van het douanedomein te omvatten.
 
-Gebruik de **[!UICONTROL Custom Domain Group]** om een nieuwe domeingroep te definiëren. Voor elk domein kunt u alle subdomeinen toevoegen waarop het betrekking heeft.<!--TBC-->
+Gebruik het tabblad **[!UICONTROL Custom Domain Group]** om een nieuwe domeingroep te definiëren. Voor elk domein, kunt u alle subdomeinen toevoegen het behandelt.<!--TBC-->
 
 Voor domeingroepen die in genoemd plan worden gebruikt, zorg ervoor dat elk domein aan zijn domeingroep uniek is en niet met andere domeingroepen overlapt. Aangezien algemene domeingroepen automatisch worden gedefinieerd, moeten gebruikers hiermee rekening houden bij het maken van aangepaste domeingroepen.
 
@@ -201,23 +202,23 @@ Stel dat u twee aangepaste domeingroepen wilt hebben:
 * Eén voor alleen Hotmail-domeinen.
 * Eén voor alle andere domeinen van de domeingroep Microsoft (dus exclusief alle Hotmail-domeinen).
 
-Domeinen buiten Hotmail en van de domeingroep Microsoft worden verzameld in de **[!UICONTROL Others]** kolom.
+Domeinen buiten Hotmail en van de domeingroep Microsoft worden verzameld in de kolom **[!UICONTROL Others]** .
 
-1. In de **[!UICONTROL Custom Domain Group]** tabblad, maakt u de **Hotmail** domeingroep.
+1. In het **[!UICONTROL Custom Domain Group]** lusje, creeer de **Hotmail** domeingroep.
 
 1. Voeg alle Hotmail-domeinen op dezelfde rij toe.
 
-   U kunt [kopiëren en plakken](#copy-paste) alle Hotmail-domeinen die in het dialoogvenster [Het lusje van het Plan van de Warmup](#ip-warmup-plan-tab) sectie.
+   U kunt ](#copy-paste) kopiëren en kleven alle Hotmail domeinen die in het [ IP lusje van het Plan van de WarmUp ](#ip-warmup-plan-tab) sectie worden vermeld.[
 
 1. Voeg nog een rij toe.
 
-1. Maak de **Microsoft_X** domeingroep.
+1. Creeer **Microsoft_X** domeingroep.
 
 1. Voeg alle Microsoft-domeinen die geen Hotmail zijn toe aan dezelfde rij. Op dezelfde manier kunt u deze uit de bovenstaande lijst kopiëren en plakken. [Meer informatie](#copy-paste)
 
-1. Ga terug naar de **[!UICONTROL IP Warmup Plan]** tab.
+1. Ga terug naar de tab **[!UICONTROL IP Warmup Plan]** .
 
-1. Drie kolommen maken: één voor **Hotmail**, één voor **Microsoft_X** en één voor **Overige**.
+1. Creeer drie kolommen: voor **Hotmail**, voor **Microsoft_X** en voor **anderen**.
 
 1. Vul de kolommen naar wens in.
 
@@ -225,34 +226,34 @@ Domeinen buiten Hotmail en van de domeingroep Microsoft worden verzameld in de *
 
 ### Standaarddomeinen kopiëren en plakken {#copy-paste}
 
-Als u een aangepaste domeingroep wilt maken die bijvoorbeeld alle Hotmail-domeinen bevat, kunt u de domeinen kopiëren en plakken vanuit de standaardlijst die u opgeeft [boven](#ip-warmup-plan-tab).
+Als u een groep van het douanedomein wilt tot stand brengen die alle Hotmail domeinen bevat bijvoorbeeld, kunt u de domeinen van de standaardlijst kopiëren en kleven die [ hierboven ](#ip-warmup-plan-tab) wordt verstrekt.
 
 Gebruik vervolgens het gereedschap voor Excel-omzetting om tekst om te zetten in kolommen:
 
-1. Selecteren **[!UICONTROL Data]** > **[!UICONTROL Text to columns...]**, kiest u **[!UICONTROL Delimited]** en selecteert u **[!UICONTROL Next]**.
+1. Selecteer **[!UICONTROL Data]** > **[!UICONTROL Text to columns...]** , kies **[!UICONTROL Delimited]** en selecteer **[!UICONTROL Next]** .
 
-1. Selecteren **[!UICONTROL Semicolon]**, klikt u op **[!UICONTROL Next]** en **[!UICONTROL Finish]**.
+1. Selecteer **[!UICONTROL Semicolon]** , klik op **[!UICONTROL Next]** en **[!UICONTROL Finish]** .
 
 Elk domein wordt nu in een andere kolom op dezelfde rij weergegeven.
 
 ## Toegang en beheer IP-opwarmingsplannen {#manage-ip-warmup-plans}
 
-1. Toegang krijgen tot de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL IP warmup plans]** -menu. Alle IP warmup die plannen tot nu toe worden gecreeerd worden getoond.
+1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL IP warmup plans]** . Alle IP warmup die plannen tot nu toe worden gecreeerd worden getoond.
 
    ![](assets/ip-warmup-filter-list.png)
 
 1. U kunt filteren op de status. De verschillende statussen zijn:
 
-   * **Niet gestart**: er is nog geen uitvoering geactiveerd. [Meer informatie](ip-warmup-execution.md#define-runs)
-   * **Live**: het plan verandert in deze status zodra de eerste run in de eerste fase met succes is geactiveerd. [Meer informatie](ip-warmup-execution.md#define-runs)
-   * **Voltooid**: het plan is gemarkeerd als voltooid. <!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> [Meer informatie](ip-warmup-execution.md#mark-as-completed)
+   * **niet begonnen**: Geen looppas is nog geactiveerd. [Meer informatie](ip-warmup-execution.md#define-runs)
+   * **Levend**: het plan verandert in deze status zodra de eerste looppas in de eerste fase met succes is geactiveerd. [Meer informatie](ip-warmup-execution.md#define-runs)
+   * **Voltooid**: het plan is duidelijk zoals voltooid. <!--This option is only available if all the runs in the plan are in **[!UICONTROL Completed]** or **[!UICONTROL Draft]** status (no run can be **[!UICONTROL Live]**).--> [Meer informatie](ip-warmup-execution.md#mark-as-completed)
      <!--* **Paused**: to check (user action)-->
 
-1. Om een IP warmup plan te schrappen, selecteer **[!UICONTROL Delete]** naast de naam van een abonnement en het verwijderen bevestigen.
+1. Om een IP warmlopingsplan te schrappen, selecteer het **[!UICONTROL Delete]** pictogram naast de naam van een plan en bevestig schrapping.
 
    >[!NOTE]
    >
-   >Alleen plannen met de **Niet gestart** status kan worden verwijderd.
+   >Slechts kunnen de plannen met **niet begonnen** status worden geschrapt.
 
    ![](assets/ip-warmup-delete-plan.png)
 
@@ -277,7 +278,7 @@ Elk domein wordt nu in een andere kolom op dezelfde rij weergegeven.
 
 Om een IP warmup plan tot stand te brengen, volg de hieronder stappen.
 
-1. Toegang krijgen tot de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL IP warmup plans]** en klik vervolgens op **[!UICONTROL Create IP warmup plan]**.
+1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL IP warmup plans]** en klik op **[!UICONTROL Create IP warmup plan]** .
 
    ![](assets/ip-warmup-create-plan.png)
 
@@ -285,11 +286,11 @@ Om een IP warmup plan tot stand te brengen, volg de hieronder stappen.
 
    ![](assets/ip-warmup-plan-details.png)
 
-1. Selecteer de [oppervlak](channel-surfaces.md) die je wilt opwarmen. Alleen marketingoppervlakken zijn beschikbaar voor selectie. [Meer informatie over e-mailtypen](../email/email-settings.md#email-type)
+1. Selecteer de [ oppervlakte ](channel-surfaces.md) die u omhoog wilt opwarmen. Alleen marketingoppervlakken zijn beschikbaar voor selectie. [ Leer meer op e-mailtype ](../email/email-settings.md#email-type)
 
    >[!NOTE]
    >
-   >De campagnes u met uw IP warmlopingsplan wilt associëren moeten de zelfde oppervlakte gebruiken. [Leer hoe te om een IP warmup campagne te creëren](ip-warmup-campaign.md)
+   >De campagnes u met uw IP warmlopingsplan wilt associëren moeten de zelfde oppervlakte gebruiken. [ Leer hoe te om een IP warmup campagne tot stand te brengen ](ip-warmup-campaign.md)
 
 1. Upload het dossier van Excel dat uw IP warmup plan bevat. [Meer informatie](#prepare-file)
 
@@ -300,14 +301,14 @@ Om een IP warmup plan tot stand te brengen, volg de hieronder stappen.
 
    >[!NOTE]
    >
-   >Als het uploaden mislukt, controleert u of u de juiste opmaak en bestandsindeling (.xls of .xlsx) gebruikt. Gebruik de [template](assets/IPWarmupPlan-Template.xlsx) verstrekt aan u door Adobe.
+   >Als het uploaden mislukt, controleert u of u de juiste opmaak en bestandsindeling (.xls of .xlsx) gebruikt. Gebruik het [ malplaatje ](assets/IPWarmupPlan-Template.xlsx) dat aan u door Adobe wordt verstrekt.
 
-1. Klik op **[!UICONTROL Create]**. Alle fasen, looppas, kolommen en hun inhoud die in het dossier worden bepaald u uploadde automatisch worden getoond in [!DNL Journey Optimizer] interface.
+1. Klik op **[!UICONTROL Create]**. Alle fasen, looppas, kolommen en hun inhoud die in het dossier worden bepaald u uploadde worden automatisch getoond in de [!DNL Journey Optimizer] interface.
 
    ![](assets/ip-warmup-plan-uploaded.png)
 
    >[!NOTE]
    >
-   >De **[!UICONTROL Targeted]** de kolom toont de som alle profielen die voor elke looppas worden gericht, betekenend alle profielen van elke domeingroepen die u, met inbegrip van de **Overige** kolom, indien aanwezig.
+   >De **[!UICONTROL Targeted]** kolom toont de som van alle profielen die voor elke looppas worden gericht, betekenend alle profielen van elke domeingroepen die u, met inbegrip van **anderen** kolom als om het even welk bepaalde.
 
 U bent nu klaar om uw IP warmlopingsplan uit te voeren. [Meer informatie](ip-warmup-execution.md)

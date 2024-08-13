@@ -8,45 +8,29 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, leverbaarheid
-hide: true
-hidefromtoc: true
-badge: label="Beta"
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: cd95614329e6efdc7ac4b6e0a5c683757a14b379
+source-git-commit: 34c1180e3ba5b6b39287e70651c45351fa71e6b1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '239'
+ht-degree: 2%
 
 ---
 
 # Ga aan de slag met IP-opwarmingsplannen {#ip-warmup-gs}
 
->[!BEGINSHADEBOX]
+Met [!DNL Journey Optimizer] kunt u gemakkelijk IP warmteopwerkschema&#39;s direct van het gebruikersinterface op een gestandaardiseerde en efficiënte manier uitvoeren die de beste praktijken voor optimale leverbaarheid volgt. Wanneer e-mails met een nieuw platform worden verzonden, zijn internetproviders (ISP&#39;s) verdacht van IP-adressen die niet worden herkend. Als er plotseling grote hoeveelheden e-mails worden verzonden, markeren de ISP&#39;s deze vaak als spam.
 
-Wat u in deze documentatiehandleiding zult vinden:
+Als u wilt voorkomen dat spam wordt gemarkeerd, kunt u het verzonden volume progressief verhogen met de functie voor het IP-opwarmingsplan. Met deze nieuwe optie in het menu **[!UICONTROL Administration]** kunt u het eenvoudiger op geconsolideerde wijze doen in plaats van complexe dagelijkse reizen te maken.
 
-* **[Ga aan de slag met IP-opwarming](ip-warmup-gs.md)**
-* [IP-warmtecampagnes maken](ip-warmup-campaign.md)
-* [Creeer een IP warmlopingsplan](ip-warmup-plan.md)
-* [Voer het IP warmlopingsplan uit](ip-warmup-execution.md)
+<!--➡️ [Learn how to create and execute an IP warmup plan in this video](#video)-->
 
->[!ENDSHADEBOX]
-
-Met [!DNL Journey Optimizer], kunt u IP warmteopwerkschema&#39;s op een gestandaardiseerde en efficiënte manier direct van het gebruikersinterface uitvoeren die de beste praktijken voor optimale leverbaarheid volgt.
-
-➡️ [Leer hoe te om een IP warmup plan in deze video te creëren en uit te voeren](#video)
-
->[!CAUTION]
+>[!AVAILABILITY]
 >
->Deze functie geldt alleen voor het e-mailkanaal.
-
-Wanneer e-mails met een nieuw platform worden verzonden, zijn internetproviders (ISP&#39;s) verdacht van IP-adressen die niet worden herkend. Als er plotseling grote hoeveelheden e-mails worden verzonden, markeren de ISP&#39;s deze vaak als spam.
-
-Als u wilt voorkomen dat spam wordt gemarkeerd, kunt u het verzonden volume progressief verhogen met de functie voor het IP-opwarmingsplan. Deze nieuwe optie in het dialoogvenster **[!UICONTROL Administration]** kunt u dit gemakkelijker op geconsolideerde wijze doen in plaats van complexe dagelijkse reizen te maken .
-
->[!NOTE]
+>Deze mogelijkheid kan alleen worden ingeschakeld voor sandboxen van het productietype.
 >
->Meer weten over het verbeteren van je e-mailreputatie dankzij de opwarming van de IP in [Handleiding voor best practices voor levering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html).
+>Het is niet beschikbaar voor organisaties die de Adobe **het Schild van de Gezondheidszorg** of **Privacy en het 3} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.**
+
+
 
 <!--
 Benefits
@@ -64,12 +48,19 @@ De belangrijkste stappen om een IP opwarmingsplan uit te voeren zijn als volgt:
 
 1. U moet eerst één of meerdere campagnes met IP toegelaten warmup optie creëren. [Meer informatie](ip-warmup-campaign.md)
 
-1. Creeer een IP warmlopingsplan in [!DNL Journey Optimizer] en uploadt u het Excel-werkblad dat u hebt voorbereid met de hulp van uw consultant voor te leveren items. [Meer informatie](ip-warmup-plan.md)
+1. Maak een opwarmingsplan voor IP in [!DNL Journey Optimizer] en upload het Excel-werkblad dat u met de hulp van uw consultant voor de leveringsmethode hebt voorbereid. [Meer informatie](ip-warmup-plan.md)
 
 1. Selecteer een campagne voor elke fase van uw plan en activeer de overeenkomstige looppas. [Meer informatie](ip-warmup-execution.md)
 
-## Hoe kan ik-video {#video}
+<!--Old UI
+## How-to video {#video}
 
-Leer hoe te om een IP warmlopingsplan tot stand te brengen en uit te voeren.
+Learn how to create and execute an IP warmup plan.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425965/?quality=12&learn=on)
+-->
+
+
+>[!NOTE]
+>
+>Leer meer over het verhogen van uw e-mailreputatie met IP opwarmen in de [ Gids van de Beste praktijken van de Levering ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html).

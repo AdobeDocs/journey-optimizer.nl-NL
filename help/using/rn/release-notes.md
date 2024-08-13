@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b2459757d1f1964c7d0b59de814bed29b0a394bb
+source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 5%
+source-wordcount: '1316'
+ht-degree: 6%
 
 ---
 
@@ -26,15 +26,11 @@ ht-degree: 5%
 
 ![ Nieuwsbrief ](../assets/do-not-localize/nl-icon.png) Teken omhoog voor het [ driemaandelijkse bulsletter van Adobe Journey Optimizer ](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html) {target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die rechtstreeks aan uw inbox elk kwart worden geleverd.
 
-## Opmerkingen bij de release juli 2024 {#27-4-2024}
+## Updates augustus {#24-8-2024}
 
-**de datum van de Versie**: 30-31 juli, 2024
+De volgende wijzigingen zijn in augustus gepubliceerd:
 
-### Nieuwe functies {#27-4-features}
-
-Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
-
-<!--table>
+<table>
 <thead>
 <tr>
 <th><strong>IP Warmup Workflow</strong><br/></th>
@@ -43,12 +39,21 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tbody>
 <tr>
 <td>
-<p>If you are sending email on a brand new IP address, you can now easily perform IP warmup workflows directly from the user interface. Adobe Journey Optimizer offers a standardized and efficient way to warm up your IP adresses that follows the best practices for optimal deliverability.</p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
+<p>Beschikbaarheidsdatum: aug, 13</p>
+<p>Als u e-mail op een gloednieuw IP adres verzendt, kunt u IP opwarmingswerkschema's nu gemakkelijk direct van het gebruikersinterface uitvoeren. Adobe Journey Optimizer biedt een gestandaardiseerde en efficiënte manier om uw IP adressen op te warmen die de beste praktijken voor optimale leverbaarheid volgen.</p>
+<p>Raadpleeg de <a href="../configuration/ip-warmup-gs.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
+
+## Opmerkingen bij de release juli 2024 {#24-7-2024}
+
+**de datum van de Versie**: 30-31 juli, 2024
+
+### Nieuwe functies {#27-4-features}
+
+Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 
 <table>
 <thead>
