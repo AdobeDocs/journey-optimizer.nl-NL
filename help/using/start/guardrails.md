@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: dcf1edb654639d41472d1e1ca263020df9fb63ec
+source-git-commit: 202e4e9bf99bc8d4423153431a7e86c9ac4be903
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2074'
 ht-degree: 0%
 
 ---
@@ -165,7 +165,8 @@ De leveringstijd komt overeen met het aantal beslissingsreacties dat binnen een 
 | API | Besluiten per seconde |
 |---------|----------|
 | API-aanvragen voor besluitvorming | 500 per seconde |
-| Aanvragen voor Edge-API voor besluitvorming | 1500 per seconde |
+| Edge-API-aanvragen voor besluitvorming met Edge Segmentation | 1500 per seconde |
+| Edge-API-aanvragen voor besluitvorming zonder Edge-segmentatie | 5000 per seconde |
 
 ### Beperkingen {#offers-limitations}
 
