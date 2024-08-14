@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 202e4e9bf99bc8d4423153431a7e86c9ac4be903
+source-git-commit: aa69046bde7ea5862fb507695d12584939fae9f8
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2223'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen deleg
 * Het publiek en namespace die in **de Kwalificatie van het Publiek** (eerste knoop) worden gekozen kunnen niet in nieuwe versies worden veranderd.
 * De re-entry regel moet het zelfde in alle reisversies zijn.
 * Een reis die met a **begint Gelezen Publiek** kan niet met een andere gebeurtenis in volgende versies beginnen.
-* U kunt geen nieuwe versie maken van een leestoegang met incrementeel lezen. Je moet de reis dupliceren.
+* U kunt geen nieuwe versie maken van een leestoegang met incrementeel lezen. U moet de reis dupliceren.
 
 ### Aangepaste acties {#custom-actions-g}
 
@@ -95,7 +95,7 @@ Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen deleg
 * Aangepaste acties bieden alleen ondersteuning voor de JSON-indeling als u een aanvraag- of antwoordlading gebruikt. Zie [deze pagina](../action/about-custom-action-configuration.md#custom-actions-limitations).
 * Wanneer het kiezen van een eindpunt om het gebruiken van een douaneactie te richten, ben zeker dat:
 
-   * Dit eindpunt kan de productie van de reis steunen, gebruikend configuraties van [ het Throttling API ](../configuration/throttling.md) of [ Capping API ](../configuration/capping.md) om het te beperken. Wees voorzichtig dat een snelheidsbegrenzingsconfiguratie niet lager kan zijn dan 200 TPS. Om het even welk gericht eindpunt zal minstens 200 TPS moeten steunen.
+   * Dit eindpunt kan de productie van de reis steunen, gebruikend configuraties van [ het Throttling API ](../configuration/throttling.md) of [ Capping API ](../configuration/capping.md) om het te beperken. Wees voorzichtig dat een snelheidsbegrenzingsconfiguratie niet lager kan zijn dan 200 TPS. Om het even welk gericht eindpunt moet minstens 200 TPS steunen.
    * Dit eindpunt moet een reactietijd hebben zo laag mogelijk. Afhankelijk van uw verwachte productie, zou het hebben van een hoge reactietijd de daadwerkelijke productie kunnen beïnvloeden.
 
 ### Gebeurtenissen {#events-g}
@@ -103,7 +103,8 @@ Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen deleg
 * Voor door het systeem gegenereerde gebeurtenissen moeten streaminggegevens die worden gebruikt om een klantentraject te starten, eerst binnen Journey Optimizer worden geconfigureerd om een unieke orchestratie-id te verkrijgen. Deze orkest-id moet worden toegevoegd aan de streaminglading die naar Adobe Experience Platform komt. Deze beperking geldt niet voor op regels gebaseerde gebeurtenissen.
 * Zakelijke evenementen kunnen niet worden gebruikt in combinatie met monitaire evenementen of kwalificatieactiviteiten voor het publiek.
 * Eenheidstrajecten (te beginnen met een evenement of een kwalificatie van het publiek) bevatten een begeleidend element dat voorkomt dat ritten bij dezelfde gebeurtenis meerdere keren ten onrechte worden gestart. De terugkeer van het profiel wordt tijdelijk geblokkeerd door gebrek gedurende 5 minuten. Als bijvoorbeeld een evenement om 12.01 uur een reis voor een bepaald profiel start en een ander om 12.03 uur aankomt (ongeacht of het dezelfde gebeurtenis is of een andere gebeurtenis die dezelfde reis veroorzaakt), zal die reis niet opnieuw beginnen voor dit profiel.
-* Journey Optimizer vereist dat gebeurtenissen worden gestreamd naar Data Collection Core Service (DCCS) om een reis te kunnen activeren. Gebeurtenissen in batch of gebeurtenissen uit interne Journey Optimizer-gegevenssets (Berichtfeedback, E-mailtracking, enz.) kan niet worden gebruikt om een reis te starten. Voor gebruiksgevallen waar u gestreamde gebeurtenissen niet kunt krijgen, gelieve een publiek te bouwen dat op die gebeurtenissen wordt gebaseerd en de **Gelezen activiteit van het Publiek** in plaats daarvan te gebruiken. De kwalificatie van het publiek kan technisch worden gebruikt, maar kan stroomafwaartse uitdagingen veroorzaken die op de gebruikte acties worden gebaseerd.
+* Journey Optimizer vereist dat gebeurtenissen worden gestreamd naar Data Collection Core Service (DCCS) om een reis te kunnen activeren. Gebeurtenissen in batch of gebeurtenissen uit interne Journey Optimizer-gegevenssets (Berichtfeedback, E-mailtracking, enz.) kan niet worden gebruikt om een reis te starten. Voor gebruiksgevallen waar u gestreamde gebeurtenissen niet kunt krijgen, moet u een publiek bouwen dat op die gebeurtenissen wordt gebaseerd en in plaats daarvan de **Gelezen activiteit van het Publiek** gebruiken. De kwalificatie van het publiek kan technisch worden gebruikt, maar wordt niet geadviseerd omdat het stroomafwaartse uitdagingen kan veroorzaken die op de gebruikte acties worden gebaseerd.
+
 
 ### Gegevensbronnen {#data-sources-g}
 
@@ -126,23 +127,44 @@ U kunt uit één van deze twee oplossingen kiezen:
 
 * Stel een reis in die niet onmiddellijk gebruikmaakt van het profiel. Als de reis bijvoorbeeld is ontworpen om het aanmaken van een account te bevestigen, kan de ervaringsgebeurtenis informatie bevatten die nodig is om het eerste bevestigingsbericht te verzenden (voornaam, achternaam, e-mailadres, enz.).
 
+### Profiel bijwerken {#update-profile-g}
+
+Specifieke instructies zijn van toepassing op de **[!UICONTROL Update profile]** -activiteit. Zij zijn vermeld in [ deze pagina ](../building-journeys/update-profiles.md).
+
+
 ### Doelgroep lezen {#read-segment-g}
+
+De volgende instructies zijn van toepassing op de **[!UICONTROL Read Audience]** -activiteit:
 
 * Gestroomlijnde doelgroepen zijn altijd up-to-date, maar batchdoelgroepen worden niet berekend tijdens het ophalen. Ze worden alleen elke dag geëvalueerd op het tijdstip van de dagelijkse batchevaluatie.
 * Voor reizen die gebruikmaken van een activiteit van het leespubliek is er een maximumaantal reizen dat precies op hetzelfde moment kan beginnen. Het systeem zal tests uitvoeren, maar u moet vermijden dat meer dan vijf reizen (met Leespubliek, gepland of &quot;zo snel mogelijk&quot; te starten) op precies hetzelfde tijdstip beginnen door deze over een bepaalde tijd te verspreiden, bijvoorbeeld 5 tot 10 minuten uit elkaar.
+* De activiteit van het Leespubliek kan niet met Adobe Campaign activiteiten worden gebruikt.
+* De Lees publieksactiviteit kan slechts als eerste activiteit in een reis, van na een bedrijfsgebeurtenisactiviteit worden gebruikt.
+* Een reis kan slechts één activiteit van het Leespubliek hebben.
+* Zie ook aanbevelingen over hoe te om de Gelezen publieksactiviteit in [ te gebruiken deze pagina ](../building-journeys/read-audience.md).
+
+
+### kwalificatie publiek {#audience-qualif-g}
+
+De volgende hulplijn is van toepassing op de **[!UICONTROL Audience Qualification]** -activiteit:
+
+* De kwalificatie-activiteit Publiek kan niet worden gebruikt met Adobe Campaign-activiteiten.
+
 
 ### Expression-editor {#expression-editor}
 
-* U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een leespubliek, een kwalificatie Audience of een activiteit voor een zakelijke gebeurtenis. Je moet een nieuw publiek maken en een onpublieksvoorwaarde in de reis gebruiken.
+* U kunt gebeurtenisveldgroepen niet gebruiken voor reizen die beginnen met een leespubliek, een kwalificatie Audience of een activiteit voor een zakelijke gebeurtenis. U moet een nieuw publiek creëren en een onpublieksvoorwaarde in de reis gebruiken.
 
 
-### Beperkingen van activiteiten in de app {#in-app-activity-limitations}
+### Activiteiten in de app {#in-app-activity-limitations}
 
 * Deze functie is momenteel niet beschikbaar voor klanten in de gezondheidszorg.
 
 * Personalization kan alleen profielkenmerken bevatten.
 
-* De weergave in de app is gekoppeld aan de duur van de rit. Dit houdt in dat wanneer de reis voor een profiel afloopt, alle in-app-berichten binnen die reis niet meer worden weergegeven voor dat profiel.  Het is daarom niet mogelijk om een bericht in de app rechtstreeks te stoppen van een reisactiviteit. In plaats daarvan moet u de volledige reis beëindigen om te voorkomen dat de berichten in de app naar het profiel worden weergegeven.
+* De activiteiten in de app kunnen niet worden gebruikt met Adobe Campaign-activiteiten.
+
+* De weergave in de app is gekoppeld aan de duur van de rit. Dit houdt in dat wanneer de reis voor een profiel afloopt, alle in-app-berichten binnen die reis niet meer worden weergegeven voor dat profiel.  Het is daarom niet mogelijk om een bericht in de app rechtstreeks te stoppen van een reisactiviteit. In plaats daarvan moet u de hele reis beëindigen om te voorkomen dat de berichten in de app naar het profiel worden weergegeven.
 
 * In de testmodus is de weergave in de app afhankelijk van de levensduur van de rit. Als u wilt voorkomen dat de reis te vroeg eindigt tijdens het testen, past u de **[!UICONTROL Wait time]** -waarde voor uw **[!UICONTROL Wait]** -activiteiten aan.
 
@@ -155,6 +177,17 @@ U kunt uit één van deze twee oplossingen kiezen:
 ## Audiëntenguardrails {#audience}
 
 * U kunt maximaal 10 publiekscomposities in een bepaalde sandbox publiceren. Als u deze drempel hebt bereikt, moet u een samenstelling schrappen om ruimte vrij te maken en nieuwe te publiceren.
+
+### Snelheid {#jump-g}
+
+Specifieke instructies zijn van toepassing op de **[!UICONTROL Jump]** -activiteit. Zij zijn vermeld in [ deze pagina ](../building-journeys/jump.md#jump-limitations).
+
+### Campagne {#ac-g}
+
+De volgende instructies zijn van toepassing op de activiteiten **[!UICONTROL Campaign v7/v8]** en **[!UICONTROL Campaign Standard]** :
+
+* Adobe Campaign-activiteiten kunnen niet worden gebruikt met een Read-publiek of met een Audience-kwalificatieactiviteit.
+* Deze activiteiten kunnen niet worden gebruikt met In-app-activiteiten.
 
 ## Garanties voor besluitvormingsbeheer {#decision-management}
 

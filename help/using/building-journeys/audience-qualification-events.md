@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: kwalificatie, evenementen, publiek, reis, platform
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: e45ec5f0e1bbcc73892f9cde5923627886f44ef6
+source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -25,22 +25,22 @@ ht-degree: 0%
 >title="kwalificatiegebeurtenissen voor het publiek"
 >abstract="Met deze activiteit kunt u luisteren naar de inzendingen en uitgangen van profielen in Adobe Experience Platform-kijkers om ervoor te zorgen dat individuen op reis gaan of vooruit gaan."
 
-Met deze activiteit kunt u luisteren naar de inzendingen en uitgangen van profielen in Adobe Experience Platform-kijkers om ervoor te zorgen dat individuen op reis gaan of vooruit gaan. Raadpleeg de volgende secties voor meer informatie over het maken van doelgroepen [sectie](../audience/about-audiences.md).
+Met deze activiteit kunt u luisteren naar de inzendingen en uitgangen van profielen in Adobe Experience Platform-kijkers om ervoor te zorgen dat individuen op reis gaan of vooruit gaan. Voor meer informatie over publieksverwezenlijking, verwijs naar deze [ sectie ](../audience/about-audiences.md).
 
 Laten we zeggen dat je een &quot;zilveren klant&quot; publiek hebt. Met deze activiteit, kunt u alle nieuwe zilveren klanten een reis maken en hen een reeks gepersonaliseerde berichten verzenden.
 
 Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
-➡️ [Deze functie in video detecteren](#video)
+➡️ [ ontdekt deze eigenschap in video ](#video)
 
 ### Belangrijke opmerkingen{#important-notes-segment-qualification}
 
-* Onthoud dat het publiek in Adobe Experience Platform één keer per dag wordt berekend (**partij** publiek) of in realtime (**gestreamd** publiek, met gebruik van de optie Frequentie publiek van Adobe Experience Platform).
+* Onthoud dat het publiek van Adobe Experience Platform of eens per dag (**partij** publiek) of in real time (voor **gestroomd** publiek wordt berekend, gebruikend de Hoge optie van het Publiek van de Frequentie van Adobe Experience Platform).
 
    * Als het geselecteerde publiek wordt gestreamd, zullen de individuen die tot dit publiek behoren de reis in real time kunnen betreden.
    * Als het publiek een batch is, kunnen mensen die net voor dit publiek zijn gekwalificeerd de reis invoeren wanneer de publieksberekening op Adobe Experience Platform wordt uitgevoerd.
 
-  Daarom raden we u aan alleen streaming publiek te gebruiken in een **kwalificatie publiek** activiteit. Voor gevallen van batchgebruik, gebruik een **[Lees publiek](read-audience.md)** activiteit.
+  Als beste praktijken, adviseren wij daarom slechts het stromen publiek in de kwalificatie **activiteit van het a** publiek te gebruiken. Voor de gevallen van het partijgebruik, gelieve te gebruiken a **[gelezen publiek](read-audience.md)** activiteit.
 
   >[!NOTE]
   >
@@ -52,13 +52,15 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
 ### De activiteit configureren{#cnfigure-segment-qualification}
 
-1. Ontvouw de **[!UICONTROL Events]** categorie en zet een **[!UICONTROL Audience Qualification]** op uw canvas.
+Voer de volgende stappen uit om de **[!UICONTROL Audience Qualification]** -activiteit te configureren:
+
+1. Ontvouw de categorie **[!UICONTROL Events]** en zet een **[!UICONTROL Audience Qualification]** -activiteit neer op uw canvas.
 
    ![](assets/segment5.png)
 
-1. Voeg een **[!UICONTROL Label]** aan de activiteit. Deze stap is optioneel.
+1. Voeg een **[!UICONTROL Label]** toe aan de activiteit. Deze stap is optioneel.
 
-1. Klik in het dialoogvenster **[!UICONTROL Audience]** en selecteer het publiek dat u wilt gebruiken.
+1. Klik in het veld **[!UICONTROL Audience]** en selecteer het publiek dat u wilt gebruiken.
 
    >[!NOTE]
    >
@@ -66,23 +68,23 @@ Dit type gebeurtenis kan als eerste stap of later in de reis worden geplaatst.
 
    ![](assets/segment6.png)
 
-   Als het publiek eenmaal is toegevoegd, wordt de opdracht **[!UICONTROL Copy]** kunt u de naam en de id kopiëren:
+   Nadat het publiek is toegevoegd, kunt u met de knop **[!UICONTROL Copy]** de naam en de id van het publiek kopiëren:
 
    `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
    ![](assets/segment-copy.png)
 
-1. In de **[!UICONTROL Behaviour]** , kiest u of u wilt luisteren naar de publieksinvoer, de uitgang of beide.
+1. Kies in het veld **[!UICONTROL Behaviour]** of u wilt luisteren naar de publieksinvoer, het afsluit of beide.
 
    >[!NOTE]
    >
-   >Let op: **[!UICONTROL Enter]** en **[!UICONTROL Exit]** komt overeen met de **Realistisch** en **Verlaat** statistieken over de participatie van het publiek in Adobe Experience Platform. Raadpleeg voor meer informatie over het evalueren van een publiek de [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >Merk op dat **[!UICONTROL Enter]** en **[!UICONTROL Exit]** aan de **Realized** beantwoorden en **Uitgegeven** status van de publieksparticipatie van Adobe Experience Platform. Voor meer op hoe te om een publiek te evalueren, verwijs naar de [ documentatie van de Dienst van de Segmentatie ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results) {target="_blank"}.
 
 1. Selecteer een naamruimte. Dit is alleen nodig als de gebeurtenis als eerste stap van de reis wordt geplaatst. Het veld wordt standaard voorgevuld met de laatst gebruikte naamruimte.
 
    >[!NOTE]
    >
-   >U kunt alleen een naamruimte selecteren die is gebaseerd op personen. Als u een naamruimte voor een opzoektabel hebt gedefinieerd (bijvoorbeeld: ProductID-naamruimte voor een productzoekopdracht), is deze niet beschikbaar in het dialoogvenster **Naamruimte** vervolgkeuzelijst.
+   >U kunt alleen een naamruimte selecteren die is gebaseerd op personen. Als u een namespace voor een raadplegingslijst (bijvoorbeeld: ProductID namespace voor een raadpleging van het Product) hebt bepaald, zal het niet in **Namespace** dropdown lijst beschikbaar zijn.
 
    ![](assets/segment7.png)
 
@@ -92,9 +94,9 @@ De nuttige lading bevat de volgende contextinformatie, die u in voorwaarden en a
 * het tijdstempel van de kwalificatie
 * de publieks-id
 
-Wanneer u de expressieeditor gebruikt in een voorwaarde of handeling die volgt op een **[!UICONTROL Audience Qualification]** activiteit, hebt u toegang tot **[!UICONTROL AudienceQualification]** knooppunt. U kunt kiezen tussen **[!UICONTROL Last qualification time]** en de **[!UICONTROL status]** (Enter of exit).
+Wanneer u de expressie-editor gebruikt in een voorwaarde of handeling die volgt op een **[!UICONTROL Audience Qualification]** -activiteit, hebt u toegang tot het **[!UICONTROL AudienceQualification]** -knooppunt. U kunt kiezen tussen **[!UICONTROL Last qualification time]** en **[!UICONTROL status]** (Enter of exit).
 
-Zie [Condition-activiteit](../building-journeys/condition-activity.md#about_condition).
+Zie [ de activiteit van de Voorwaarde ](../building-journeys/condition-activity.md#about_condition).
 
 ![](assets/segment8.png)
 
@@ -102,7 +104,7 @@ Een nieuwe reis die een publiekskwalificatiegebeurtenis omvat is operationeel ti
 
 ## Best practices {#best-practices-segments}
 
-De **[!UICONTROL Audience Qualification]** door deze activiteit kunnen personen die gekwalificeerd of gediskwalificeerd zijn voor een Adobe Experience Platform-publiek onmiddellijk worden toegelaten tot de reis.
+De **[!UICONTROL Audience Qualification]** -activiteit maakt het mogelijk dat personen die gekwalificeerd of gediskwalificeerd zijn voor een Adobe Experience Platform-publiek, direct toegang krijgen tot de reis.
 
 De ontvangstsnelheid van deze informatie is hoog. Uit de uitgevoerde metingen blijkt een snelheid van 10.000 ontvangen gebeurtenissen per seconde. Als gevolg hiervan moet u er zeker van zijn dat u begrijpt hoe pieken in de toegang kunnen optreden, hoe u ze kunt vermijden en hoe u uw reis voor hen gereed kunt maken.
 
@@ -118,19 +120,19 @@ Wanneer het gebruiken van publiekskwalificatie voor gestroomd publiek, is er min
 
 Vermijd het gebruik van open en verzend gebeurtenissen met streaming segmentatie. In plaats daarvan, gebruik echte user-activity signalen zoals kliks, aankopen, of baken gegevens. Voor frequentie of suppression logica, gebruik bedrijfsregels eerder dan verzendt gebeurtenissen. [Meer informatie](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-Raadpleeg voor meer informatie over streamingsegmentatie [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api).
+Voor meer informatie bij het stromen segmentatie, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html#api).
 
 ### Overbelasting voorkomen{#overloads-speed-segment-qualification}
 
 Hier volgen een paar voorbeelden van beste praktijken die zullen helpen om overladende systemen te vermijden leveraged in reizen (gegevensbronnen, douaneacties, kanaalactiviteiten).
 
-Niet gebruiken in een **[!UICONTROL Audience Qualification]** , een batchgroep die direct na de creatie ervan aanwezig is. Hiermee wordt de eerste rekenpiek vermeden. Merk op dat er een gele waarschuwing in het reiscanvas zal zijn als u op het punt staat om een publiek te gebruiken dat nooit is berekend.
+Gebruik in een **[!UICONTROL Audience Qualification]** -activiteit niet meteen na het maken een publiek in een batch. Hiermee wordt de eerste rekenpiek vermeden. Merk op dat er een gele waarschuwing in het reiscanvas zal zijn als u op het punt staat om een publiek te gebruiken dat nooit is berekend.
 
 ![](assets/segment-error.png)
 
-Plaats een plafondregel voor gegevensbronnen en handelingen die tijdens reizen worden gebruikt om overbelasting te voorkomen. Meer informatie in [Documentatie Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. De bijschilderregel hoeft niet opnieuw te worden uitgevoerd. Als u het opnieuw moet proberen, moet u een alternatief pad in de reis gebruiken door de doos te controleren **[!UICONTROL Add an alternative path in case of a timeout or an error]** in omstandigheden of acties.
+Plaats een plafondregel voor gegevensbronnen en handelingen die tijdens reizen worden gebruikt om overbelasting te voorkomen. Leer meer in [ documentatie van het Journey Orchestration ](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html) {target="_blank"}. De bijschilderregel hoeft niet opnieuw te worden uitgevoerd. Als u het opnieuw moet proberen, moet u een alternatief pad in de reis gebruiken door het vakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in voorwaarden of acties te controleren.
 
-Voordat u het publiek in een productiereis gaat gebruiken, moet u altijd eerst het aantal personen evalueren dat elke dag voor dit publiek in aanmerking komt. U kunt de opdracht **[!UICONTROL Audience]** menu, opent u het publiek en bekijkt u het **[!UICONTROL Profiles over time]** grafiek.
+Voordat u het publiek in een productiereis gaat gebruiken, moet u altijd eerst het aantal personen evalueren dat elke dag voor dit publiek in aanmerking komt. U kunt dit doen door het menu **[!UICONTROL Audience]** te selecteren, het publiek te openen en vervolgens naar de **[!UICONTROL Profiles over time]** -grafiek te kijken.
 
 ![](assets/segment-overload.png)
 
