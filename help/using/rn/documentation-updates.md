@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0d93e2a3a5707c6229894459348378a0ae538db1
+source-git-commit: 30144c26a03d145c9dc98c7a4db007d5c454a639
 workflow-type: tm+mt
-source-wordcount: '5443'
+source-wordcount: '5450'
 ht-degree: 13%
 
 ---
@@ -22,6 +22,8 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 ## Augustus 2024 {#aug-2024}
 
 * De prestatiegaranties voor Beslissingsbeheer zijn bijgewerkt om Beslissende APIs te vermelden leverings productie met/zonder de Segmentatie van Edge. [Meer informatie](../start/guardrails.md#decision-management)
+* Reishandleidingen zijn bijgewerkt. [Meer informatie](../start/guardrails.md#journeys-guardrails-journeys)
+
 
 ## Juli 2024 {#july-2024}
 
