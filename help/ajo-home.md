@@ -5,7 +5,7 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: d66ea00d62a0c1355ef509d6e33714b791a8d3d7
+source-git-commit: 10f11728653c8bed8a768f6d7d106ccfa47eb7e1
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 17%
@@ -24,7 +24,7 @@ Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en
 
 Ontdek nieuwe functies en verbeteringen die in de release van Adobe Journey Optimizer juli beschikbaar zijn.
 
-[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md#24-7-2024)
 
 >[!TAB  Meldend met Customer Journey Analytics (Beta) ]
 
