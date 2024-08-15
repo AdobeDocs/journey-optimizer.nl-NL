@@ -8,22 +8,197 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 51924e403741829f068675eaa94ccbd63cc2b206
 workflow-type: tm+mt
-source-wordcount: '2229'
+source-wordcount: '3170'
 ht-degree: 6%
 
 ---
 
 # Aanvullende informatie 2024 {#release-notes-2024}
 
-Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] vrijgegeven in 2024.
+Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Journey Optimizer] in 2024 heeft uitgebracht.
+
+## Opmerkingen bij de release van juni 2024 {#24-6-2024}
+
+**de datum van de Versie**: 18-19 juni, 2024
+
+### Nieuwe functies {#june-24-features}
+
+Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
+
+<table>
+<thead>
+<tr>
+<th><strong>Aanpassing van inhoudsfragmenten</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu specifieke velden in een fragment definiëren die kunnen worden bewerkt wanneer het fragment wordt toegevoegd aan een campagne of reis. Op deze manier kunt u inhoudsdelen aanpassen op het moment dat u ze gebruikt, zodat u de standaardwaarden kunt overschrijven met contextspecifieke details.</p>
+<img src="../content-management/assets/do-not-localize/gif-fragments.gif"/>
+<p>Raadpleeg de <a href="../content-management/customizable-fragments.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Rapportage met Customer Journey Analytics (beperkte beschikbaarheid)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabiliteit met de mogelijkheden van de Customer Journey Analytics, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van de gegevens. Deze naadloze integratie tussen Journey Optimizer en Customer Journey Analytics biedt een duidelijker beeld van prestatiesmetriek, toelatend gebruikers om geïnformeerde besluiten te nemen.</p>
+<img src="assets/do-not-localize/ajo-cja.gif"/>
+<p>Raadpleeg de <a href="../reports/report-gs-cja.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>AI Assistant in Adobe Journey Optimizer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De AI Medewerker is een gebruikersinterfaceeigenschap die u kunt gebruiken om te navigeren en Adobe concepten te begrijpen en operationele inzichten voor uw specifieke milieu te krijgen. Het is verkrijgbaar in verschillende producten in Adobe Experience Cloud, waaronder Adobe Journey Optimizer.</p>
+<p>Raadpleeg de <a href="../start/ai-assistant.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Meertalige berichten tijdens reizen en campagnes (beperkte beschikbaarheid)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu moeiteloos inhoud in meerdere talen maken in één campagne of reis. Met deze functie kunt u schakelen tussen talen wanneer u uw campagne of reis bewerkt, het hele bewerkingsproces stroomlijnt en uw mogelijkheden voor efficiënt beheer van meertalige inhoud verbetert.</p>
+<p>Meertalige inhoud is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Experimentatie bij reizen (beperkte beschikbaarheid)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer is al beschikbaar in campagnes en ondersteunt nu experimenten op reizen. Experimenten zijn gerandomiseerde onderzoeken, die in de context van online tests betekenen dat u sommige willekeurig geselecteerde gebruikers aan een bepaalde variatie van een bericht blootstelt, en een andere willekeurig geselecteerde reeks gebruikers aan één of andere andere variatie of behandeling. Na blootstelling, kunt u de resultaatmetriek meten u in geinteresseerd bent, zoals opent van e-mail, abonnementen, of aankopen.</p>
+<p>Experimentatie op het gebied van reizen is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Extended personalization data - Beta</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now lookup and fetch data values within Adobe Experience Platform datasets, and use these values to build conditions in Adobe Journey Optimizer. You can leverage data from a lookup dataset when a relationship has been defined using an attribute inside of an array of objects. You can specify non-profile enabled datasets for lookup. Once enabled, you can use a profile attribute as a join key to the specified dataset to retrive further data for personalization.</p>
+<p>This capability is currently available as a public beta.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+### Verbeteringen {#june24-improvements}
+
+Deze release bevat de verbeteringen die hieronder worden vermeld.
+
+#### Beslissingsbeheer
+
+* **steun van de multi-regel in Beslissingsbeheer** - u kunt tot 10 het begrenzen regels voor een bepaalde aanbieding in Beslissingsbeheer nu toevoegen. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden. [Meer informatie](../offers/offer-library/add-constraints.md#capping)
+
+<!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
+
+#### Inhoudsfragmenten
+
+>[!AVAILABILITY]
+>
+>Deze verbeteringen zullen geleidelijk worden doorgevoerd in de loop van enkele dagen na de eerste release. Terwijl sommige gebruikers directe toegang zullen hebben, kunnen anderen een vertraging ervaren alvorens het in hun milieu&#39;s beschikbaar wordt.
+
+* Fragmenten kunnen nu worden bewerkt en wijzigingen kunnen worden doorgevoerd in alle live reizen en campagnes waar ze worden gebruikt.
+* De nieuwe statussen voor inhoudsfragmenten zijn geïntroduceerd: **Ontwerp**, **Levend**, **het Publiceren**, en **Gearchiveerd**.
+* Om een fragment in een reis of een campagne te gebruiken, moet het nu in **Levende** status zijn. Er is een nieuwe stap toegevoegd aan het proces voor het maken van fragmenten, zodat het fragment kan worden gepubliceerd en beschikbaar kan worden gesteld voor gebruik tijdens reizen en campagnes. Voor het publiceren van fragmenten is een nieuwe machtiging vereist.
+
+  **VOORZIENING** - aangezien **het Ontwerp** en **Levende** statussen met de versie van Journey Optimizer Juni zijn geïntroduceerd, hebben alle fragmenten die vóór deze versie worden gecreeerd de **7} status van het Ontwerp {, zelfs als zij in een reis of een campagne worden gebruikt.** Als u om het even welke verandering in deze fragmenten aanbrengt, moet u hen ](../content-management/create-fragments.md#publish) publiceren om hen &quot;Levend&quot;te maken en de veranderingen in de bijbehorende campagnes en de reizen te verspreiden. [ U moet ook een nieuwe reis/campagneversie tot stand brengen en het publiceren.
+
+Lees meer in de [ documentatie van het inhoudsfragment ](../content-management/fragments.md).
+
+#### Journeys
+
+* De wereldwijde time-out van reizen is verlengd tot 91 dagen. [Meer informatie](../building-journeys/journey-properties.md#global_timeout)
+
+  Bij nieuwe reizen wordt deze nieuwe time-out weerspiegeld. Gelieve te verwijzen naar deze [ sectie van Veelgestelde vragen ](../building-journeys/journey-properties.md#timeout-faq) om meer te leren. Deze wijzigingen zullen in de loop van de maand juni geleidelijk worden doorgevoerd.
+
+
+* Adobe Journey Optimizer ondersteunt nu verzoeken om privacyverwijdering/toegang en verzoeken om gegevenslevenscyclusbeheer. [Meer informatie](../privacy/requests.md)
+* U kunt nu de grootte van de kolommen in de reisinventaris wijzigen.
+  <!--* **Advanced expression editor in Event configuration** is now GA - You can now leverage the advanced expression editor while configuring an event, allowing you to define more complex expressions or use functions in the event id condition. This capability is released in Limited Availability for selected customers. [Read more](../event/about-creating.md)-->
+* **beleid van de Fusie** is nu GA - het beleid van de Fusie dat door een Reizen wordt gebruikt is nu zichtbaar en verenigbaar door de reis. [Meer informatie](../building-journeys/journey-properties.md#merge-policies)
+
+
+
+#### Campagnes
+
+* Wanneer u een campagne maakt in Adobe Journey Optimizer, kunt u nu het type campagne (gepland of geactiveerd) kiezen in een nieuw modaal. [Meer informatie](../campaigns/create-campaign.md)
+
+#### Email channel
+
+* **lijst-unsubscribe** - na de recente Gmail en aankondigingen Yahoo voor bulkafzenders, steunt Journey Optimizer de &quot;post/1-klik&quot;lijst-Unsubscribe optie. Verwijs naar de volgende pagina&#39;s: [ e-mail opt-out beheer ](../email/email-opt-out.md#unsubscribe-header) en [ vorm e-mailmontages ](../email/email-settings.md#list-unsubscribe).
+
+  **NOTA** - voor om het even welke nieuwe kanaaloppervlakte, door gebrek wordt de lijst unsubscribe kopbaloptie geactiveerd. Voor bestaande oppervlakken is de optie Een-klik-abonnement voor URL opheffen in de instellingen van het kanaaloppervlak standaard uitgeschakeld. Als u een URL voor uitschakelen met één klik eerder in de e-mail gebruikte, blijft deze instelling geldig. Als de één-klik unsubscribe URL in de montages van de kanaaloppervlakte wordt gecontroleerd, zal Adobe Journey Optimizer eerder het gebrek geproduceerde Één-klik gebruiken unsubscribe URL in de montages van de kanaaloppervlakte.
+
+#### SMS-kanaal
+
+* U kunt nu unieke korte codes toevoegen voor elke sandbox met één API-configuratie, waardoor het proces efficiënter en gestroomlijnder wordt. [Meer informatie](../sms/sms-configuration.md)
+
+* Na verwezenlijking, wordt het **Symbolische** gebied van API op de **API credentiedetails** pagina nu gemaskeerd.
+
+<!--* You can now modify existing SMS configurations.-->
+
+#### Kanaal in app
+
+<!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
+
+* U kunt nu de Edge Delivery-insteekmodule gebruiken om informatie op te halen die nodig is voor het begrijpen van en het oplossen van problemen met uw binnenkomende implementaties. [ leer meer op de mening van Edge Delivery ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery) {target="_blank"}.
+
+
+#### Direct mailkanaal
+
+* Direct mail kanaal is nu beschikbaar voor alle klanten. [Meer informatie](../direct-mail/get-started-direct-mail.md)
 
 
 
 ## Opmerkingen bij de release mei 2024 {#may-2024}
 
-**Releasedatum**: 21 mei 2024
+**de datum van de Versie**: Mei 21-22, 2024
 
 ### Nieuwe functies {#e-features}
 
@@ -119,15 +294,15 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 
 Deze release bevat de verbeteringen die hieronder worden vermeld.
 
-**Ervaar beslissingsvermogen** (Beperkte beschikbaarheid)
+**Ervaring Beslissing** (Beperkte Beschikbaarheid)
 
 Van bèta tot deze release zijn de volgende verbeteringen toegevoegd:
 
-* **Ervaring kiezen + op code gebaseerde ervaringen** - U kunt nu de functie Ervaring beslissen gebruiken om beslissingen te nemen in uw op code gebaseerde campagnes. Opmerking: het op code gebaseerde ervaringskanaal en de ervaringsbeslissingen zijn niet beschikbaar voor organisaties die de add-on Adobe van het gezondheidsschild en privacy- en beveiligingsschild hebben aangeschaft. [Meer informatie](../code-based/get-started-code-based.md)
-* **Contextgegevens** - Je kunt nu contextgegevens van Adobe Experience Platform gebruiken in je besluitvormingsregels en rangschikkingsformules. [Meer informatie](../experience-decisioning/context-data.md)
-* **Nieuwe machtiging** - Er is nu een nieuwe machtiging &#39;Ervaring beheren&#39; beschikbaar voor de beslissingsbeheerbron. Hiermee kunt u rechten beheren die betrekking hebben op het bepalen van ervaring. [Meer informatie](../experience-decisioning/gs-experience-decisioning.md)
-* **Afdekregels** - U kunt nu meerdere begrenzingsregels toevoegen voor een bepaald beslissingselement in het Ervaring-besluit. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden. [Meer informatie](../experience-decisioning/items.md#capping)
-* **Rapportage** - U kunt nu aangepaste rapporteringsdashboards maken van campagnes voor het nemen van beslissingen over ervaringen met [!DNL Customer Journey Analytics]. [Meer informatie](../experience-decisioning/cja-reporting.md)
+* **Beslissing van de Ervaring + Op code-gebaseerde ervaringen** - u kunt hefboomwerking de het besluiten van de Ervaring eigenschap nu om besluitvormingspunten in uw op code-gebaseerde campagnes te gebruiken. Opmerking: het op code gebaseerde ervaringskanaal en de ervaringsbeslissingen zijn niet beschikbaar voor organisaties die de add-on Adobe van het gezondheidsschild en privacy- en beveiligingsschild hebben aangeschaft. [Meer informatie](../code-based/get-started-code-based.md)
+* **de gegevens van de Context** - u kunt hefboomwerkingscontextgegevens van Adobe Experience Platform in uw besluitvormingsregels en rangschikkingsformules nu. [Meer informatie](../experience-decisioning/context-data.md)
+* **Nieuwe toestemming** - een nieuwe &quot;beheert de besluiten van de Ervaring&quot;toestemming is nu beschikbaar voor het middel van het Beheer van het Besluit. Hiermee kunt u rechten beheren die betrekking hebben op het bepalen van ervaring. [Meer informatie](../experience-decisioning/gs-experience-decisioning.md)
+* **Afschilderende regels** - u kunt veelvoudige het afschilderen regels voor een bepaald besluitpunt in Ervaring nu toevoegen Beslissing. Dit staat u toe om het niveau van controle over de manier te verhogen de aanbiedingen worden verzonden. [Meer informatie](../experience-decisioning/items.md#capping)
+* **Meldend** - u kunt douane nu creëren rapporterend dashboards van de campagnes van het Beslissen van de Ervaring gebruikend [!DNL Customer Journey Analytics]. [Meer informatie](../experience-decisioning/cja-reporting.md)
 
 
 <!--**Decision Management**
@@ -142,7 +317,7 @@ Van bèta tot deze release zijn de volgende verbeteringen toegevoegd:
 * **List-unsubscribe** - Following on the recent Gmail and Yahoo announcements for bulk senders, Journey Optimizer supports the "post/1-click" List-Unsubscribe option. Refer to the following pages: [Email opt-out management](../email/email-opt-out.md#unsubscribe-header) and [Configure email settings](../email/email-settings.md#list-unsubscribe)
 -->
 
-* **Spamscoring** (Beta) - U kunt nu de scoring van de inhoudspam controleren in een speciaal Spam-rapport. Gebruikend SpamAssassin, kan Adobe Journey Optimizer uw e-mailinhoud nu testen en het een score geven om erop te wijzen als ISPs of de leveranciers van de Brievenbus het als spam of niet zullen beschouwen. [Meer informatie](../content-management/spam-report.md)
+* **Spam het scoren** (Beta) - u kunt uw inhoud nu controleren spam het scoren in een specifiek Spam- rapport. Gebruikend SpamAssassin, kan Adobe Journey Optimizer uw e-mailinhoud nu testen en het een score geven om erop te wijzen als ISPs of de leveranciers van de Brievenbus het als spam of niet zullen beschouwen. [Meer informatie](../content-management/spam-report.md)
 
   >[!AVAILABILITY]
   >
@@ -160,12 +335,12 @@ Van bèta tot deze release zijn de volgende verbeteringen toegevoegd:
 **Reizen**
 
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
-* **mTLS-ondersteuning** - mTLS-verificatie wordt nu ondersteund in aangepaste handelingen. Er is geen extra configuratie vereist in de douaneactie of de reis om mTLS te activeren; het komt automatisch voor wanneer een mTLS-Toegelaten eindpunt wordt ontdekt. [Meer informatie](../action/about-custom-action-configuration.md#mtls-protocol-support)
-* **Tabellen opzoeken in gebeurtenissen** - U kunt nu hefboomwerkings gegevens van een raadplegingsdataset wanneer een verhouding gebruikend een attribuut binnen van een serie van voorwerpen is bepaald. De opzoekwaarden zijn beschikbaar voor reizen (voorwaarden, aangepaste handelingen, enz.) en berichtpersonalisatie. [Meer informatie](../event/experience-event-schema.md#relationships_limitations)
-* **Geavanceerde expressie-editor in gebeurtenisconfiguratie** (LA) - U kunt nu de geavanceerde expressie-editor gebruiken tijdens het configureren van een gebeurtenis, zodat u complexere expressies kunt definiëren of functies kunt gebruiken in de voorwaarde voor de gebeurtenis-id. Deze mogelijkheid wordt vrijgegeven in Beperkte Beschikbaarheid voor geselecteerde klanten. [Meer informatie](../event/about-creating.md#adv-exp-editor)
-* **Beleid samenvoegen** (LA) - Het samenvoegingsbeleid dat door een reis wordt gebruikt, is nu zichtbaar en consistent gedurende de hele reis. Deze mogelijkheid wordt vrijgegeven in Beperkte Beschikbaarheid voor geselecteerde klanten. [Meer informatie](../building-journeys/journey-properties.md#merge-policies)
+* **mTLS steun** - de authentificatie mTLS wordt nu gesteund in douaneacties. Er is geen extra configuratie vereist in de douaneactie of de reis om mTLS te activeren; het komt automatisch voor wanneer een mTLS-Toegelaten eindpunt wordt ontdekt. [Meer informatie](../action/about-custom-action-configuration.md#mtls-protocol-support)
+* **de lijsten van de Raadpleging in gebeurtenissen** - u kunt hefboomwerkingsgegevens van een raadplegingsdataset nu gebruiken wanneer een verhouding gebruikend een attribuut binnen van een serie van voorwerpen is bepaald. De opzoekwaarden zijn beschikbaar voor reizen (voorwaarden, aangepaste handelingen, enz.) en berichtpersonalisatie. [Meer informatie](../event/experience-event-schema.md#relationships_limitations)
+* **Geavanceerde uitdrukkingsredacteur in de configuratie van de Gebeurtenis** (LA) - u kunt hefboomwerking de geavanceerde uitdrukkingsredacteur nu terwijl het vormen van een gebeurtenis, toestaand u om complexere uitdrukkingen of gebruiksfuncties in de voorwaarde van gebeurtenisidentiteitskaart te bepalen. Deze mogelijkheid wordt vrijgegeven in Beperkte Beschikbaarheid voor geselecteerde klanten. [Meer informatie](../event/about-creating.md#adv-exp-editor)
+* **beleid van de Fusie** (LA) - het beleid van de Fusie dat door een Reis wordt gebruikt is nu zichtbaar en verenigbaar door de reis. Deze mogelijkheid wordt vrijgegeven in Beperkte Beschikbaarheid voor geselecteerde klanten. [Meer informatie](../building-journeys/journey-properties.md#merge-policies)
 
-**Globalisatie**
+**Globalization**
 
 Als onderdeel van onze voortdurende inspanningen om een uniforme gebruikerservaring te bieden, harmoniseren we de terminologie die wordt gebruikt in de Adobe Experience Cloud-producten en -toepassingen. Dit is van invloed op de Duitse term &quot;Titel&quot;, die wordt gewijzigd in &quot;Label&quot; wanneer deze betrekking heeft op de naam van een object. De wijzigingen worden geleidelijk doorgevoerd in de gebruikersinterface en de documentatie.
 
@@ -174,7 +349,7 @@ Als onderdeel van onze voortdurende inspanningen om een uniforme gebruikerservar
 
 ## Opmerkingen bij de release van april 2024 {#apr-2024}
 
-**Releasedatum** 2 mei 2024
+**de datum van de Versie**: 2 mei, 2024
 
 ### Nieuwe functies {#apr-features}
 
@@ -209,7 +384,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <img src="assets/new-canvas3.gif"/>
 <p>Naast het verbeterde ontwerp van het reiscanvas introduceren we de mogelijkheid om de laatste 24 uur metriek direct in het reiscanvas te zien. </p>
 <img src="assets/new-canvas6bis.png"/>
-<p><strong>Opmerking</strong>: Deze wijzigingen worden geleidelijk doorgevoerd in alle omgevingen vanaf de release van april.</p>
+<p><strong> Nota </strong>: Deze veranderingen zullen geleidelijk aan alle milieu's worden opgerold die de versie van April beginnen.</p>
 <p>Raadpleeg de <a href="new-canvas.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -275,7 +450,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 * U kunt nu inhoudssjablonen voor alle kanalen simuleren. [Meer informatie](../content-management/content-templates.md#test-templates)
 
-**Personalisatie**
+**Personalization**
 
 * De nieuwe **toInt** hulpfunctie is beschikbaar in de Redacteur van de Uitdrukking. U kunt elk van deze typen (getal, dubbel, int, lang, zwevend, kort, byte, boolean, tekenreeks) omzetten in een geheel getal. [Meer informatie](../personalization/functions/math.md#to-int)
 
@@ -283,7 +458,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 ## Opmerkingen bij de release maart 2024 {#mar-2024}
 
-**Releasedatum**: 19-20 maart 2024
+**de datum van de Versie**: Maart 19-20, 2024
 
 ### Nieuwe functie {#mar-features}
 
@@ -315,7 +490,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Contentsjablonen**
 
-* **Miniaturen** - A **Rasterweergave** De modus is nu beschikbaar voor inhoudssjablonen en geeft miniaturen weer voor verbeterde visuele toegang. Momenteel worden alleen e-mailsjablonen ondersteund. [Meer informatie](../content-management/content-templates.md#template-thumbnails)
+* **Duimnagels** - de 3} wijze van de mening van A **Net is nu beschikbaar voor inhoudsmalplaatjes, tonend duimnagels voor betere visuele toegang.** Momenteel worden alleen e-mailsjablonen ondersteund. [Meer informatie](../content-management/content-templates.md#template-thumbnails)
 
   >[!AVAILABILITY]
   >
@@ -325,15 +500,15 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 Er zijn nieuwe tussenliggende statussen toegevoegd aan de levenscyclus van de reisontwerpfase:
 
-* **Publiceren** tussen de **Concept** en de **Live** status
-* **Stoppen** tussen de **Live** en de **Gestopt** status
-* **Testmodus activeren** of **Deactivering van de testmodus** statussen tussen de **Concept** en de **Concept (test)** status
+* **het Publiceren** status tussen de **3} status van het Ontwerp {en** Levende **status**
+* **het Stoppen** status tussen **Levende** status en **beëindigde** status
+* **het activeren van testwijze** of **het Deactiveren van testwijze** statussen tussen de **Ontwerp** status en de **(test)** status
 
 Wanneer een reis in een tussenstadium is, is het read-only. [Meer informatie](../building-journeys/journey-gs.md#filter)
 
 ## Opmerkingen bij de release februari 2024 {#feb-2024}
 
-**Releasedatum**: 21 februari 2024
+**de datum van de Versie**: 21-22 feb, 2024
 
 ### Nieuwe functies{#feb-features}
 
@@ -380,35 +555,35 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Doelgroepen**
 
-* **Zaadlijsten** - Varianten worden nu ondersteund bij gebruik **zaadlijsten**. De zaadadressen ontvangen een exemplaar van alle varianten van het zelfde bericht (zoals de verschillende behandelingen van een inhoudexperiment). [Meer informatie](../configuration/seed-lists.md)
+* **zaadlijsten** - de Varianten worden nu gesteund wanneer het gebruiken van **zaadlijsten**. De zaadadressen ontvangen een exemplaar van alle varianten van het zelfde bericht (zoals de verschillende behandelingen van een inhoudexperiment). [Meer informatie](../configuration/seed-lists.md)
 
-Eerder beschikbaar als Beta, zijn de volgende verbeteringen nu beschikbaar aan alle gebruikers:
+Eerder beschikbaar als Beta, zijn de volgende verbeteringen nu beschikbaar voor alle gebruikers:
 
-* U kunt nu **publiek gemaakt via publiekscompositie** en verrijkingskenmerken gebruiken in Reizen. [Meer informatie](../building-journeys/read-audience.md)
+* U kunt **publiek nu richten dat door publiekssamenstelling** en hefboomverrijkingsattributen in Reizen wordt gecreeerd. [Meer informatie](../building-journeys/read-audience.md)
 
-* U kunt nu **publiek geüpload uit een CSV-bestand** in reizen en campagnes. [Meer informatie](../audience/about-audiences.md#segments-in-journey-optimizer)
+* U kunt **publiek nu richten dat van een Csv- dossier** in reizen en campagnes wordt geupload. [Meer informatie](../audience/about-audiences.md#segments-in-journey-optimizer)
 
   >[!AVAILABILITY]
   >
   >* Het gebruik van soorten publiek en kenmerken van de compositie van het publiek en aangepaste upload (CSV-bestand) is momenteel niet beschikbaar voor gebruik met het gezondheidsschild of het privacyschild.
-  >* De **publiek uploaden uit een CSV-bestand** de verbetering wordt geleidelijk doorgevoerd in de loop van enkele dagen na de eerste introductie . Terwijl sommige gebruikers directe toegang hebben, kunnen anderen een vertraging ervaren alvorens het in hun milieu beschikbaar wordt.
+  >* Het **publiek uploadt van een Csv- dossier** verbetering wordt uit geleidelijk opgerold over de loop van verscheidene dagen na de aanvankelijke versie. Terwijl sommige gebruikers directe toegang hebben, kunnen anderen een vertraging ervaren alvorens het in hun milieu beschikbaar wordt.
 
 **Reizen**
 
-* **Uw reizen filteren** - U kunt nu **aangepaste datums om de reizen te filteren** voorraad, naast de bestaande vooraf gedefinieerde datumfilters. Op deze manier kunt u de lijst verfijnen door ritten weer te geven die op een bepaalde datum zijn gemaakt of gepubliceerd, binnen een bepaalde maand, gedurende een heel jaar of binnen een opgegeven tijdbereik. [Meer informatie](../building-journeys/journey-gs.md#filter)
-* **Aangepaste acties** - U kunt nu het dialoogvenster **inhoudstype** header. Deze nieuwe **inhoudstype** verwijst naar JSON-inhoud. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
-* **Configuratie** - Het attribuut identityMap in stepEvents is nu voorgevuld. De primaire identiteit wordt gedefinieerd als &quot;primary = true&quot;. [Meer informatie](../reports/sharing-field-list.md)
-* **Gebruikersinterface** - De bovenste balk, in reisschermen, is gereorganiseerd voor een betere ervaring. Onder de verschillende updates ziet u dat het potlood-pictogram waarmee u de reiseigenschappen kunt openen nu links van de bovenste balk naast de naam van de rit wordt weergegeven. [Meer informatie](../building-journeys/journey-properties.md)
+* **filter uw reizen** - u kunt **douanedata nu gebruiken om de reis** inventaris, naast de bestaande vooraf bepaalde datumfilters te filtreren. Op deze manier kunt u de lijst verfijnen door ritten weer te geven die op een bepaalde datum zijn gemaakt of gepubliceerd, binnen een bepaalde maand, gedurende een heel jaar of binnen een opgegeven tijdbereik. [Meer informatie](../building-journeys/journey-gs.md#filter)
+* **de acties van de Douane** - u kunt **inhoud-type** kopbal nu bijwerken. Dit nieuwe **inhoud-type** zou inhoud JSON moeten van verwijzingen voorzien. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
+* **Configuratie** - het attribuut identityMap in stepEvents is nu voorgevuld. De primaire identiteit wordt gedefinieerd als &quot;primary = true&quot;. [Meer informatie](../reports/sharing-field-list.md)
+* **Gebruikersinterface** - de hoogste bar, in de transmissieschermen, is gereorganiseerd voor een betere ervaring. Onder de verschillende updates ziet u dat het potlood-pictogram waarmee u de reiseigenschappen kunt openen nu links van de bovenste balk naast de naam van de rit wordt weergegeven. [Meer informatie](../building-journeys/journey-properties.md)
 
 **Sms-kanaal**
 
-* **Trefwoorden voor aanmelden/uitschakelen** - Wanneer u uw SMS-kanaal configureert, kunt u nu het **Trefwoorden voor Inschakelen en Uitschakelen** volgens uw voorkeuren. Journey Optimizer activeert de reactie op basis van deze opgegeven trefwoorden. [Meer informatie](../sms/sms-configuration.md)
+* **Opt-binnen/opt-out sleutelwoorden** - wanneer het vormen van uw kanaal van SMS, kunt u **Opt-binnen en Opt-out sleutelwoorden** zoals op uw voorkeur nu aanpassen. Journey Optimizer activeert de reactie op basis van deze opgegeven trefwoorden. [Meer informatie](../sms/sms-configuration.md)
 
 **Campagnes**
 
-* **API-gestuurde campagnes** - De cURL-code die is gegenereerd na het activeren van een API-geactiveerde campagne is verbeterd. Het omvat nu alle personaliseringsvariabelen (profiel en context) die in het bericht worden gebruikt. [Meer informatie](../campaigns/api-triggered-campaigns.md#execute)
+* **API-teweeggebrachte campagnes** - de cURL code na het activeren van een API-teweeggebrachte campagne is verbeterd. Het omvat nu alle personaliseringsvariabelen (profiel en context) die in het bericht worden gebruikt. [Meer informatie](../campaigns/api-triggered-campaigns.md#execute)
 
-**Frequentieregels**
+**Regels van de Frequentie**
 
 * Naast E-mail en Duw, kunt u de regels van de Frequentie voor SMS en Directe kanalen van de Post nu tot stand brengen. De frequentieregels sluiten over-gevraagde profielen automatisch uit van berichten en acties wanneer de frequentiedrempel wordt bereikt. [Meer informatie](../configuration/frequency-rules.md)
 
@@ -419,7 +594,7 @@ Eerder beschikbaar als Beta, zijn de volgende verbeteringen nu beschikbaar aan a
 
 ## Opmerkingen bij de release januari 2024 {#jan-2024}
 
-**Releasedatum**: 30-31 januari 2024
+**de datum van de Versie**: Jan 30-31, 2024
 
 ### Nieuwe functies{#jan24-features}
 
@@ -462,36 +637,36 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 
 Deze release bevat de verbeteringen die hieronder worden vermeld.
 
-**Rapportage**
+**Meldend**
 
-* **Nieuwe op domein gebaseerde widgets voor indeling** - Er zijn nieuwe widgets toegevoegd om uw campagne- en journalistieke rapporten te verbeteren. De **Bounce Reden per domein**, **Verzonden en geleverd op domeinen**, **Opent en klikt op domein** en **Stuiteren en fouten per domein** widgets bieden een gedetailleerde uitsplitsing op domeinniveau voor belangrijke gegevens voor het verzenden van e-mail en het bijhouden van gegevens. [Meer informatie](../reports/channel-report.md)
+* **Nieuwe op domein gebaseerde indeling widgets** - Nieuwe widgets zijn toegevoegd om uw rapporten van de Campagne en van de Reis te verbeteren. De **Bounce Redenen door domein**, **Verzonden en geleverd door domeinen**, **opent &amp; klikt door domein** en **Stuiteren &amp; fouten door domein** widgets verstrekken een gedetailleerde uitsplitsing op het domeinniveau voor zeer belangrijke e-maillevering en het volgen metriek. [Meer informatie](../reports/channel-report.md)
 
-**SMS-kanaal**
+**Kanaal van SMS**
 
-* **Dubbele plug-in** - De dubbele Opt-In workflow voor SMS garandeert dat gebruikers zich expliciet aanmelden om berichten te ontvangen wanneer het verzoek van hun apparaat wordt geïnitieerd. Gebruikers starten het goedkeuringsproces door een binnenkomend SMS-bericht te verzenden. Na bevestiging van hun toestemming wordt een vervolgbericht verzonden waarin om een definitieve verificatie wordt verzocht. Als een gebruikersprofiel niet bestaat, wordt het gecreeerd na succesvolle bevestiging. [Meer informatie](../sms/sms-configuration.md)
+* **dubbel Opt-binnen** - het dubbel kiezen-binnen werkschema voor SMS garandeert dat de gebruikers uitdrukkelijk opt-in om berichten te ontvangen wanneer het verzoek van hun apparaat in werking wordt gesteld. Gebruikers starten het goedkeuringsproces door een binnenkomend SMS-bericht te verzenden. Na bevestiging van hun toestemming wordt een vervolgbericht verzonden waarin om een definitieve verificatie wordt verzocht. Als een gebruikersprofiel niet bestaat, wordt het gecreeerd na succesvolle bevestiging. [Meer informatie](../sms/sms-configuration.md)
 
   Merk op dat dit vermogen met de leveranciers van SMS van Sinch en Infobip beschikbaar is.
 
 **Reizen**
 
-* **Duur van reactiegebeurtenissen** - De maximale duur die u kunt definiëren in het dialoogvenster **Gebeurtenissen van Reaction** is nu 29 dagen in plaats van 30. [Meer informatie](../building-journeys/reaction-events.md)
+* **de gebeurtenisduur van de Reactie** - de maximumduur die u in de **gebeurtenissen van de Reactie** kunt bepalen is nu 29 dagen in plaats van 30. [Meer informatie](../building-journeys/reaction-events.md)
 
 <!--* **Date filters** - You can now use custom dates to filter the journeys inventory, in addition to the existing predefined date filters. This allows you to refine the list by displaying journeys published on a specific date, within a particular month, throughout an entire year, or within specified time ranges. [Learn more](../building-journeys/journey-gs.md#filter)-->
 
-* **Lees publiek**  - de **Publiek lezen** De activiteit baseert zich nu op de dataset van de profielmomentopname voor partijsegmenten, die slechts eenmaal per dag wordt geproduceerd nadat de geplande dagelijkse partijbaan in werking wordt gesteld, vandaar zullen de gegevens tot die laatste dagelijkse partijbaan vers zijn. [Meer informatie](../building-journeys/read-audience.md)
+* **leest publiek** - de **Gelezen activiteit van het publiek** baseert zich nu op de dataset van de profielmomentopname voor partijsegmenten, die slechts eenmaal per dag wordt geproduceerd nadat de geplande dagelijkse partijbaan in werking wordt gesteld, vandaar de gegevens tot die laatste dagelijkse partijbaan vers zullen zijn. [Meer informatie](../building-journeys/read-audience.md)
 
-* **Veldgroepen** - Deze release verhelpt een probleem dat ervoor zorgde dat Veldgroepen in bepaalde gevallen niet konden worden opgeslagen.
+* **Groepen van het Gebied** - Deze versie lost een kwestie op die de Groepen van het Gebied in bepaalde gevallen blokkeerde worden bewaard.
 
-* Steun voor `<listObject>` is gewijzigd in meerdere functies.
+* Ondersteuning van `<listObject>` is gewijzigd in meerdere functies.
 
-**Frequentieregels**
+**Regels van de Frequentie**
 
-* **Wekelijkse frequentie** - U kunt nu het maximumaantal berichten dat naar een klantprofiel wordt verzonden per week, plus de maand specificeren. De maximale frequentie is gebaseerd op de geselecteerde kalenderperiode en wordt opnieuw ingesteld aan het begin van het corresponderende tijdkader. [Meer informatie](../configuration/frequency-rules.md#create-new-rule)
+* **Wekelijks frequentiemaximum** - u kunt nu het maximumaantal berichten specificeren die naar een klantenprofiel per week, naast maand worden verzonden. De maximale frequentie is gebaseerd op de geselecteerde kalenderperiode en wordt opnieuw ingesteld aan het begin van het corresponderende tijdkader. [Meer informatie](../configuration/frequency-rules.md#create-new-rule)
 
   >[!NOTE]
   >
   >Dagelijkse frequentiegrens is ook beschikbaar op verzoek. Neem contact op met uw Adobe.
 
-**Beslissingsbeheer**
+**het beheer van het Besluit**
 
-* **Frequentiecorrectie op rand** - De teller van de frequentiecappend wordt nu bijgewerkt en beschikbaar in een besluit van de Beslissing API van de Rand in minder dan 3 seconden. [Meer informatie](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
+* **het Afbakenen van de Frequentie op Edge** - de frequentie die teller aftappen wordt nu bijgewerkt en beschikbaar in een besluit van Edge die API in minder dan 3 seconden beslist. [Meer informatie](../offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
