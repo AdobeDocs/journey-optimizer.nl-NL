@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
+source-git-commit: 128a56b543f470bf967fd195fde73ff7b32b2a17
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 3%
+source-wordcount: '633'
+ht-degree: 4%
 
 ---
 
@@ -28,21 +28,6 @@ ht-degree: 3%
 ### Nieuwe functies {#e-features}
 
 Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
-
-<table>
-<thead>
-<tr>
-<th><strong>Aangepaste actie Marketo Engage</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U kunt nu Adobe Journey Optimizer integreren met Adobe Marketo Engage om uw B2B-gebruiksscenario's te maken. Vanaf een reis, staat een nieuwe douaneactie u toe om gegevens in Marketo in te voeren.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 
 <table>
@@ -102,6 +87,22 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <table>
 <thead>
 <tr>
+<th><strong>Aangepaste actie Marketo Engage</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu Adobe Journey Optimizer integreren met Adobe Marketo Engage om uw B2B-gebruiksscenario's te maken. Vanaf een reis, staat een nieuwe douaneactie u toe om gegevens in Marketo in te voeren.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
 <th><strong>Variabelen in inhoudsfragmenten</strong><br/></th>
 </tr>
 </thead>
@@ -115,6 +116,22 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>IP Warmup Workflow</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Beschikbaarheidsdatum: aug, 13</p>
+<p>Als u e-mail op een gloednieuw IP adres verzendt, kunt u IP opwarmingswerkschema's nu gemakkelijk direct van het gebruikersinterface uitvoeren. Adobe Journey Optimizer biedt een gestandaardiseerde en efficiënte manier om uw IP adressen op te warmen die de beste praktijken voor optimale leverbaarheid volgen.</p>
+<p>Raadpleeg de <a href="../configuration/ip-warmup-gs.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <!--table>
 <thead>

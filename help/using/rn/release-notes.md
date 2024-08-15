@@ -4,12 +4,12 @@ product: journey optimizer
 title: Aanvullende informatie
 feature: Release Notes
 topic: Content Management
-description: Aanvullende informatie voor Journey Optimizer
+description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2a4d4511cd3ba2986b8356edd734f85f84037e02
+source-git-commit: 128a56b543f470bf967fd195fde73ff7b32b2a17
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 6%
+source-wordcount: '1830'
+ht-degree: 4%
 
 ---
 
@@ -26,9 +26,104 @@ ht-degree: 6%
 
 ![ Nieuwsbrief ](../assets/do-not-localize/nl-icon.png) Teken omhoog voor het [ driemaandelijkse bulsletter van Adobe Journey Optimizer ](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html) {target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die rechtstreeks aan uw inbox elk kwart worden geleverd.
 
-## Updates augustus {#24-8-2024}
+## Opmerkingen bij de vervroegde release augustus 2024 {#e-2024}
 
-De volgende wijzigingen zijn in augustus gepubliceerd:
+**de datum van de Versie**: Augustus 20-21, 2024
+
+>[!CAUTION]
+>
+>**de vroege versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de versiedatum**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd op de releasedatum.
+>
+
+### Nieuwe functies {#e-features}
+
+Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
+
+<table>
+<thead>
+<tr>
+<th><strong>Kanaal instellen met instructies</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met de functie Kanaalinstellingen met instructies kunt u de stappen voor het instellen van mobiele kanalen in één keer automatiseren, zodat u sneller aan de slag kunt met Journey Optimizer. Deze instelling vergemakkelijkt de snelle configuratie van marketingkanalen, waarbij alle vereiste middelen binnen Experience Platform, Journey Optimizer en gegevensverzameling gemakkelijk beschikbaar zijn. Hierdoor kan uw marketingteam direct beginnen met campagne en het creëren van reizen.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Inhoudskaarten</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Content card is een nieuwe functie voor digitale berichten in Adobe Journey Optimizer die persoonlijke en aantrekkelijke inhoud direct levert in mobiele apps en websites. In tegenstelling tot traditionele pushmeldingen worden inhoudskaarten naadloos geïntegreerd in de gebruikersinterface en bieden ze permanente, niet-indringende updates die de interactie en gebruikerservaring verbeteren.</p>
+<p>Met deze functie kunnen marketers relevante, rijke media-inhoud presenteren aan gebruikers, waardoor hun betrokkenheid toeneemt en belangrijke berichten zichtbaar zijn zonder de reis van de gebruiker te verstoren.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Verbeterde kanaalconfiguraties</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De huidige mogelijkheden van het kanaaloppervlak zijn verbeterd voor een consistente aanpak op alle kanalen. U kunt deze configuraties nu definiëren, beheren en opnieuw gebruiken voor elk van uw kanalen.</p>
+<p><ul>
+<li>De oppervlakten van het kanaal worden nu anders genoemd aan <strong> configuraties van het Kanaal </strong></li>
+<li>Van de de configuratieinventaris van het Kanaal kunt u herbruikbare kanaalconfiguraties voor alle kanalen, met inbegrip van nu Web, In-app overseinen, of op code-gebaseerde ervaring tot stand brengen</li>
+<li>Het toegangsbeheer van het niveau van objecten (OLAC) is nu beschikbaar voor elke kanaalconfiguratie, toestaand u om te beslissen welke van uw gebruikers specifieke configuraties mogen tot stand brengen of gebruiken</li>
+<li>Voor sommige kanalen kunt u kanaalconfiguraties maken die op meerdere platforms zijn gericht. Een voorbeeld hiervan is een in-app berichtkanaalconfiguratie die zich kan richten op een webpagina, een iOS-app en een Android-app.</li>
+</ul></p>
+<!--p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Aangepaste actie Marketo Engage</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu Adobe Journey Optimizer integreren met Adobe Marketo Engage om uw B2B-gebruiksscenario's te maken. Vanaf een reis, staat een nieuwe douaneactie u toe om gegevens in Marketo in te voeren.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Variabelen in inhoudsfragmenten</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De fragmenten kunnen nu inputvariabelen, zowel in <a href="../personalization/use-expression-fragments.md"> uitdrukkingsfragmenten </a> als <a href="../email/use-visual-fragments.md"> visuele fragmenten </a> verbruiken. U kunt deze variabelen gebruiken om uw berichtinhoud en parameters, in uw campagnes en reizen te personaliseren.</p>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -46,6 +141,22 @@ De volgende wijzigingen zijn in augustus gepubliceerd:
 </tr>
 </tbody>
 </table>
+
+
+### Verbeteringen {#e-improvements}
+
+Deze release brengt de hieronder vermelde verbeteringen aan.
+
+**Reizen**
+
+* In de **voorwaarde** activiteit, door gebrek, wordt de voorwaarde van de Tijd nu geplaatst door uur, van 00:00 tot 12:00. [Meer informatie](../building-journeys/condition-activity.md#time_condition)
+* Wanneer u uw reizen maakt, worden waarschuwingen nu weergegeven in een vervolgkeuzelijst, zodat deze kunnen worden afgestemd op campagnewaarschuwingen en een consistente gebruikerservaring mogelijk maken. [Meer informatie](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* De zoomopties op de werkbalk voor reizen zijn verbeterd. Het zoompercentage is nu zichtbaar en u kunt de zoomwaarde nu gemakkelijk terugzetten op 100%.
+
+**Doelgroepen**
+
+* Het gebruik van soorten publiek via aangepaste upload (CSV-bestand) is nu beschikbaar voor gebruik met de invoegtoepassing Privacy en beveiligingsschild.
+* Wanneer u een aangepast upload-publiek (CSV-bestand) als doel instelt, kunt u nu kenmerken uit het bestand gebruiken in uw campagnes en reizen. Deze attributen zijn beschikbaar in de verpersoonlijkingsredacteur, om uw berichten, en de reis geavanceerde uitdrukkingsredacteur te personaliseren.
 
 ## Opmerkingen bij de release juli 2024 {#24-7-2024}
 
@@ -96,8 +207,6 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 * (De datum van de Beschikbaarheid: 8 juli) **Geavanceerde uitdrukkingsredacteur in de configuratie van de reisgebeurtenis** - u kunt hefboomwerking de geavanceerde uitdrukkingsredacteur nu terwijl het vormen van een gebeurtenis, die u toestaan om complexere uitdrukkingen of gebruiksfuncties in de voorwaarde van identiteitskaart van de Gebeurtenis te bepalen. [Meer informatie](../event/about-creating.md#adv-exp-editor)
 
-
-
 ## Opmerkingen bij de release van juni 2024 {#24-6-2024}
 
 **de datum van de Versie**: 18-19 juni, 2024
@@ -105,23 +214,6 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 ### Nieuwe functies {#june-24-features}
 
 Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
-
-<!--table>
-<thead>
-<tr>
-<th><strong>IP Warmup Workflow</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>If you are sending email on a brand new IP address, you can now easily perform IP warmup workflows directly from the user interface. Adobe Journey Optimizer offers a standardized and efficient way to warm up your IP adresses that follows the best practices for optimal deliverability.</p>
-<p>For more information, refer to the <a href="../configuration/ip-warmup-gs.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
 
 <table>
 <thead>
@@ -158,7 +250,6 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -174,7 +265,6 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
