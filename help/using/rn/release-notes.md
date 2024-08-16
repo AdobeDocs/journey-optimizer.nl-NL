@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dc6a91e4999bd8dfb51372f6b4aca47b14fe4029
+source-git-commit: a326d0869f5d195c4a2b4be930e981c11a15afd9
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 4%
@@ -48,7 +48,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tbody>
 <tr>
 <td>
-<p>Met de functie Kanaalinstellingen met instructies kunt u de stappen voor het instellen van mobiele kanalen in één keer automatiseren, zodat u sneller aan de slag kunt met Journey Optimizer. Deze instelling vergemakkelijkt de snelle configuratie van marketingkanalen, waarbij alle vereiste middelen binnen Experience Platform, Journey Optimizer en gegevensverzameling gemakkelijk beschikbaar zijn. Hierdoor kan uw marketingteam direct beginnen met campagne en het creëren van reizen.</p>
+<p>Met de functie Kanaalinstellingen met instructies kunt u kanaalinstellingen in één ervaring automatiseren, waardoor u sneller aan de slag kunt met Journey Optimizer. Deze nieuwe geleide opstelling stroomlijnt snelle kanaalconfiguratie, die ervoor zorgt alle noodzakelijke middelen binnen Experience Platform, Journey Optimizer, en de Inzameling van Gegevens gemakkelijk beschikbaar zijn. Hierdoor kunnen marketing-, product- en gegevensontwikkelingsteams snel beginnen met het maken van campagnes en reizen.</p>
 </td>
 </tr>
 </tbody>
