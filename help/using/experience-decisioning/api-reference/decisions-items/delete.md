@@ -5,9 +5,9 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Een beslissingsitem verwijderen {#delete-decision-item}
 
-Het kan soms nodig zijn een beslissing te verwijderen (DELETE). Dit wordt gedaan door een verzoek van DELETE aan de Bibliotheek API van de Aanbieding uit te voeren gebruikend identiteitskaart van het besluitvormingspunt u wenst om te schrappen.
+Om een besluitpunt te verwijderen, voer een verzoek van DELETE aan de Bibliotheek API van de Aanbieding met identiteitskaart van het besluitpunt uit u wenst om te schrappen.
 
 **API formaat**
 

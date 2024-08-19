@@ -5,9 +5,9 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '80'
 ht-degree: 1%
 
 ---
@@ -16,14 +16,6 @@ ht-degree: 1%
 # Een itemverzameling maken {#create-decision-items}
 
 U kunt een puntinzameling tot stand brengen door een verzoek van de POST aan de Bibliotheek API van de Aanbieding te doen.
-
-**Accepteer en inhoud-Type kopballen**
-
-In de volgende tabel worden de geldige waarden weergegeven die bestaan uit de velden Inhoudstype in de aanvraagkoptekst:
-
-| Naam koptekst | Waarde |
-| ----------- | ----- |
-| Inhoudstype | `application/json` |
 
 **API formaat**
 

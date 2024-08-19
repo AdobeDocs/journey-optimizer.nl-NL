@@ -1,12 +1,14 @@
 ---
 title: Een itemverzameling bijwerken
+description: Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
+feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 2%
+source-wordcount: '132'
+ht-degree: 1%
 
 ---
 
@@ -16,14 +18,6 @@ ht-degree: 2%
 U kunt een puntinzameling wijzigen of bijwerken door een verzoek van de PATCH aan de Bibliotheek API van de Aanbieding te doen.
 
 Voor meer informatie over Reparatie JSON, met inbegrip van beschikbare verrichtingen, zie de officiële [ documentatie van het Reparatie JSON ](http://jsonpatch.com/).
-
-**Accepteer en inhoud-Type kopballen**
-
-In de volgende tabel worden de geldige waarden weergegeven die bestaan uit de velden Inhoudstype in de aanvraagkoptekst:
-
-| Naam koptekst | Waarde |
-| ----------- | ----- |
-| Inhoudstype | `application/json` |
 
 **API formaat**
 

@@ -5,9 +5,9 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '137'
 ht-degree: 1%
 
 ---
@@ -18,14 +18,6 @@ ht-degree: 1%
 U kunt een besluitvormingspunt wijzigen of bijwerken door een verzoek van de PATCH aan de Bibliotheek API van de Aanbieding te doen.
 
 Voor meer informatie over Reparatie JSON, met inbegrip van beschikbare verrichtingen, zie de officiële [ documentatie van het Reparatie JSON ](http://jsonpatch.com/).
-
-**Accepteer en inhoud-Type kopballen**
-
-In de volgende tabel worden de geldige waarden weergegeven die bestaan uit de velden Inhoudstype in de aanvraagkoptekst:
-
-| Naam koptekst | Waarde |
-| ----------- | ----- |
-| Inhoudstype | `application/json` |
 
 **API formaat**
 
@@ -66,11 +58,11 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-items/offerItem1234
 | --------- | ----------- |
 | `value` | De nieuwe waarde waarmee u de parameter wilt bijwerken. |
 | `path` | Het pad van de parameter die moet worden bijgewerkt. |
-| `op` | De verrichtingsvraag die wordt gebruikt om de actie te bepalen nodig om de verbinding bij te werken. Bewerkingen zijn: `add` , `replace` , `remove` , `copy` en `test` . |
+| `op` | Het type bewerking dat moet worden uitgevoerd. Bewerkingen zijn: `add` , `replace` , `remove` , `copy` en `test` . |
 
 **Reactie**
 
-Een geslaagde reactie retourneert de details van het nieuwe besluitvormingspunt, inclusief de id. U kunt de id in latere stappen gebruiken om uw beslissingsitem bij te werken of te verwijderen.
+Een geslaagde reactie retourneert de details van het bijgewerkte item, inclusief de id. U kunt de id in latere stappen gebruiken om uw beslissingsitem bij te werken of te verwijderen.
 
 ```json
 {

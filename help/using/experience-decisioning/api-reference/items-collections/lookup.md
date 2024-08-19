@@ -1,11 +1,13 @@
 ---
 title: Een itemverzameling opzoeken
+description: Verzamelingen zijn subsets van aanbiedingen die zijn gebaseerd op vooraf gedefinieerde voorwaarden die door een marketmaker zijn gedefinieerd, zoals de categorie van de aanbieding.
+feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dc47e2835379fbb2afb768beea6e4a1596f70ee9
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '85'
 ht-degree: 1%
 
 ---

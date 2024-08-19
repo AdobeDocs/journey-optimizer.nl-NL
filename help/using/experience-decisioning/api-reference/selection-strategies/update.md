@@ -1,12 +1,14 @@
 ---
 title: Selectiestrategieën bijwerken
+description: De strategieën van de selectie bestaan uit inzamelingen verbonden aan beperkingen en rangschikkende methodes om aanbiedingen te bepalen.
+feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: c555e6a6d88f43d7c29e27060d464b8fd21aed96
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 2%
+source-wordcount: '127'
+ht-degree: 1%
 
 ---
 
@@ -16,14 +18,6 @@ ht-degree: 2%
 U kunt een selectiestrategie wijzigen of bijwerken door een PATCH-aanvraag in te dienen bij de bibliotheek-API van de aanbieding.
 
 Voor meer informatie over Reparatie JSON, met inbegrip van beschikbare verrichtingen, zie de officiële [ documentatie van het Reparatie JSON ](http://jsonpatch.com/).
-
-**Accepteer en inhoud-Type kopballen**
-
-In de volgende tabel worden de geldige waarden weergegeven die bestaan uit de velden Inhoudstype in de aanvraagkoptekst:
-
-| Naam koptekst | Waarde |
-| ----------- | ----- |
-| Inhoudstype | `application/json` |
 
 **API formaat**
 

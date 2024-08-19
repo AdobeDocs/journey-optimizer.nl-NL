@@ -5,9 +5,9 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '80'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Een beslissingsitem opzoeken {#lookup-decision-items}
 
-U kunt specifiek besluitpunt omhoog kijken door een verzoek van de GET aan de Bibliotheek API van de Aanbieding te doen die identiteitskaart in de verzoekweg omvat.
+Om specifieke besluitpunten op te zoeken door een verzoek van de GET aan de Bibliotheek API van de Aanbieding te doen die identiteitskaart in de verzoekweg omvat.
 
 **API formaat**
 

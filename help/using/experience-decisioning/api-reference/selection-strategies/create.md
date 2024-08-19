@@ -5,9 +5,9 @@ feature: Decision Management, API, Collections
 topic: Integrations
 role: Data Engineer
 level: Experienced
-source-git-commit: dcff8803404228bbed40e998d802bb6c0f4ac67e
+source-git-commit: eb89bc5205d98a67cd0bb42bebbd9429786e33e7
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '81'
 ht-degree: 1%
 
 ---
@@ -16,14 +16,6 @@ ht-degree: 1%
 # Een selectiestrategie maken {#create-selection-strategy}
 
 U kunt een selectiestrategie maken door een POST aan te vragen bij de API voor de bibliotheek van het aanbod.
-
-**Accepteer en inhoud-Type kopballen**
-
-In de volgende tabel worden de geldige waarden weergegeven die bestaan uit de velden Inhoudstype in de aanvraagkoptekst:
-
-| Naam koptekst | Waarde |
-| ----------- | ----- |
-| Inhoudstype | `application/json` |
 
 **API formaat**
 
