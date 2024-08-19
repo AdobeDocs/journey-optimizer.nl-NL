@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: markt, markt om integratie te bevorderen
-source-git-commit: 6a49f4b2e0220b1c875b42f70dcb44f3405c6ad2
+source-git-commit: 8a8741281edafb812f92ebb8da6dd68d3535f3e1
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -37,17 +37,17 @@ Sluit een naadloze gegevensintegratie met Marketo Engage aan. Deze specifieke aa
 * Klik in de lijst Handelingen op Handeling maken. Meer informatie over het maken van aangepaste handelingen vindt u hier (+link)
 * Typ naam, beschrijving en selecteer Adobe Marketo Engage als type handeling
 
-![](assets/engage-customaction-creation.png)
+![](assets/engage-customaction-creation.png){width="40%" align="left"}
 
 * Klik uitgeven nuttige lading voor uw **Verzoek** en **nuttige ladingen van de Reactie**.
 * Voor beide, stel uw lading samen en plak het in specifieke popup.
 
-![](assets/engage-customaction-payload.png)
+![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
 * Inspect en payloadwaarden configureren
 Nota: Om waarden dynamisch over te gaan, voor elke gebiedsverandering **Constante** aan **Variabele**.
 
-![](assets/engage-customaction-payload-fields.png)
+![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
 * Klik **sparen** in het de configuratievenster van het Gebied toen **sparen** voor uw douaneactie.
 
@@ -114,5 +114,5 @@ U kunt nu uw aangepaste handeling op uw toegewijde canvas gebruiken.
 * Sleep de aangepaste handeling naar het canvas van de reis. (Zie hoe u een aangepaste handeling / koppeling kunt gebruiken)
 * In de parameters van het Verzoek, geeft de klik voor elk van de parameters met dynamische waarden uit die u in de lading hebt gevormd.
 
-![](assets/engage-use-canvas.png)
+![](assets/engage-use-canvas.png){width="70%" align="left"}
 
