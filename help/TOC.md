@@ -5,7 +5,7 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f0a131313eb96ef50b5a27011d67e59eb730b108
+source-git-commit: 3f6d1026d78584e21e03d3ef5c1bc37b59168176
 workflow-type: tm+mt
 source-wordcount: '1942'
 ht-degree: 27%
@@ -538,20 +538,20 @@ ht-degree: 27%
             + [Batchbeslissing-API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
    + Experience Decisioning (LA) {#experience-decisioning}
       + [Aan de slag met Experience Decisition](using/experience-decisioning/gs-experience-decisioning.md)
-      + [ API verwijzing ]{#api-reference}
-         + [ punten van het Besluit ]{#decision-items}
+      + API-referentie {#api-reference}
+         + Items kiezen {#decision-items}
             + [Beslissingsitems maken](using/experience-decisioning/api-reference/decisions-items/create.md)
             + [Lijst met beslissingsitems](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
             + [Beslissingsitems verwijderen](/help/using/experience-decisioning/api-reference/decisions-items/delete.md)
             + [Opzoeken, beslissingsitems](/help/using/experience-decisioning/api-reference/decisions-items/lookup.md)
             + [Beslissingsitems bijwerken](/help/using/experience-decisioning/api-reference/decisions-items/update.md)
-         + [ de inzamelingen van Punten ]{#items-collections}
+         + Items verzamelen {#items-collections}
             + [Items verzamelen](/help/using/experience-decisioning/api-reference/items-collections/create.md)
             + [Itemverzamelingen verwijderen](/help/using/experience-decisioning/api-reference/items-collections/delete.md)
             + [Lijst met verzamelingen items](/help/using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
             + [Opzoekitemverzamelingen](/help/using/experience-decisioning/api-reference/items-collections/lookup.md)
             + [Items verzamelen bijwerken](/help/using/experience-decisioning/api-reference/items-collections/update.md)
-         + [ de strategieën van de Selectie ]{#selection-strategies}
+         + Selectiestrategieën {#selection-strategies}
             + [Selectiestrategieën maken](/help/using/experience-decisioning/api-reference/selection-strategies/create.md)
             + [Selectiestrategieën verwijderen](/help/using/experience-decisioning/api-reference/selection-strategies/delete.md)
             + [Selectiestrategieën opzoeken](/help/using/experience-decisioning/api-reference/selection-strategies/lookup.md)
