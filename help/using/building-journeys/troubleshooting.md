@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: problemen oplossen, problemen oplossen, reis, controle, fouten
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 135dd7528e87a6fde7e148745ef2f49104809bc1
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 69%
+source-wordcount: '940'
+ht-degree: 54%
 
 ---
 
@@ -24,25 +24,37 @@ Leer in deze sectie hoe u problemen met reizen kunt oplossen voordat u gaat test
 
 Controleer voordat u uw journey gaat testen en publiceren of alle activiteiten correct zijn geconfigureerd. U kunt geen tests of publicaties uitvoeren als het systeem nog steeds fouten detecteert.
 
-Fouten worden weergegeven met een waarschuwingssymbool dat wordt weergegeven op de activiteiten zelf op het canvas. Plaats de cursor op het uitroepteken om het foutbericht weer te geven. Als u op de activiteit klikt, ziet u de regel waarin de fout voorkomt en een waarschuwing. Als een verplicht veld bijvoorbeeld leeg is, wordt een fout weergegeven.
 
-![](assets/journey63.png)
+### Fouten in activiteiten {#activity-errors}
 
-Als op het canvas bijvoorbeeld twee activiteiten zijn losgekoppeld, wordt een waarschuwing weergegeven.
+Fouten worden weergegeven met een waarschuwingssymbool dat wordt weergegeven op de activiteiten zelf op het canvas. Plaats de cursor op het uitroepteken om het foutbericht weer te geven. Als u op de activiteit klikt, ziet u de regel waarin de fout voorkomt en een waarschuwing. Bijvoorbeeld:
 
-![](assets/canvas-disconnected.png)
+* als een verplicht veld leeg is, wordt een fout weergegeven
 
-Naast de schakeloptie **[!UICONTROL Test]** en de knop **[!UICONTROL Publish]** kan een waarschuwingsteken worden weergegeven. Dit waarschuwingsteken duidt op fouten die door het systeem zijn gedetecteerd en voorkomt activering van de testmodus of publicatie van de journey. Meestal zijn fouten die door het systeem worden gedetecteerd, gekoppeld aan fouten die zichtbaar zijn in de activiteiten, maar soms zijn ze gekoppeld aan andere problemen. In dit geval kunt u de fout weergeven en proberen het probleem te identificeren aan de hand van de foutbeschrijving. Als u de kwestie niet kunt identificeren, kunt u de details kopiëren en hen verzenden naar de beheerder of aan steun. Fouten die tests blokkeren en fouten die publicatie blokkeren, lijken op elkaar.
+  ![](assets/journey63.png)
 
-Het systeem detecteert twee soorten problemen: fouten en waarschuwingen. Fouten blokkeren publicatie en testactivering. Waarschuwingen geven mogelijke problemen aan die testactivering of publicatie niet blokkeren. U ziet een beschrijving van het probleem en een probleemlog-id van het type ERR_XXX_XXX. Dit helpt de technische ondersteuning om het probleem te identificeren.
+* op het canvas, wanneer twee activiteiten worden losgekoppeld, wordt een waarschuwing weergegeven
 
-Er kunnen twee verschillende kleuren worden weergegeven op het teken naast de schakeloptie **[!UICONTROL Test]** en de knop **[!UICONTROL Publish]**. Het teken is rood in geval van fouten. En het is oranje in geval van waarschuwingen.
+  ![](assets/canvas-disconnected.png)
 
-![](assets/journey75.png)
+### Fouten in de reis {#canvas-errors}
 
-Fouten en waarschuwingen die globaal zijn voor de journey, worden als eerste in de lijst weergegeven. Fouten en waarschuwingen met betrekking tot specifieke activiteiten worden daarna vermeld, op volgorde van activiteit of weergave in de journey van links naar rechts. Met de knop **[!UICONTROL Copy details]** wordt technische informatie over de journey gekopieerd waarmee het ondersteuningsteam problemen kan oplossen.
+Fouten zijn ook zichtbaar vanaf de knop **[!UICONTROL Alerts]** boven het canvas. Met deze knop kunt u fouten zien die door het systeem zijn gedetecteerd en die de activering van de testmodus of de publicatie van de reis verhinderen.
 
-Wanneer er een fout in een actie of een voorwaarde optreedt, eindigt de journey van een individu. De enige manier om door te gaan is het selectievakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in te schakelen. Zie [deze sectie](../building-journeys/using-the-journey-designer.md#paths).
+Het systeem ontdekt twee soorten kwesties: **fouten** en **waarschuwingen**. Fouten blokkeren publicatie en testactivering. Waarschuwingen geven mogelijke problemen aan die testactivering of publicatie niet blokkeren. U ziet een beschrijving van het probleem en een probleemlog-id van het type ERR_XXX_XXX. Dit kan helpen de kwestie identificeren.
+
+![](assets/journey-error-and-warning.png)
+
+<!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
+
+Fouten en waarschuwingen die globaal zijn voor de journey, worden als eerste in de lijst weergegeven. Fouten en waarschuwingen met betrekking tot specifieke activiteiten worden daarna vermeld, op volgorde van activiteit of weergave in de journey van links naar rechts. Onder aan de lijst met waarschuwingen kunt u met de knop **[!UICONTROL Copy details]** technische informatie over de reis kopiëren. Deze informatie is handig voor het oplossen van problemen.
+
+### Een alternatief pad toevoegen {#canvas-add-path}
+
+U kunt een fallback-actie definiëren in het geval van een fout voor de volgende reisactiviteiten: **[!UICONTROL Condition]** en **[!UICONTROL Action]** .
+
+Wanneer er een fout in een actie of een voorwaarde optreedt, eindigt de journey van een individu. De enige manier om dit voort te zetten is het oplossen van de kwestie. U kunt voorkomen dat de rit wordt onderbroken door ook de optie **[!UICONTROL Add an alternative path in case of a timeout or an error]** in de eigenschappen van de activiteit in te schakelen. Lees meer in [deze sectie](../building-journeys/using-the-journey-designer.md#paths).
+
 
 ## Controleren of gebeurtenissen correct zijn verzonden {#checking-that-events-are-properly-sent}
 
@@ -50,7 +62,7 @@ Het startpunt van een journey is altijd een gebeurtenis. U kunt tests uitvoeren 
 
 U kunt controleren of de API-aanroep die u via deze tools verzendt, correct is verzonden of niet. Als een fout wordt geretourneerd, betekent dit dat er een probleem is met uw aanroep. Controleer opnieuw de payload, de koptekst (vooral de organisatie-id) en de bestemmings-URL. U kunt de beheerder vragen wat de juiste URL is.
 
-Gebeurtenissen worden niet rechtstreeks van de bron naar de ritten verplaatst. Reizen vertrouwen inderdaad op Adobe Experience Platform-API&#39;s voor streaming-opname. Als u problemen hebt met gebeurtenissen, kunt u dus verwijzen naar [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} voor het oplossen van problemen met opname-API&#39;s voor streaming.
+Gebeurtenissen worden niet rechtstreeks van de bron naar de ritten verplaatst. Reizen vertrouwen inderdaad op Adobe Experience Platform-API&#39;s voor streaming-opname. Dientengevolge, in het geval van gebeurtenis verwante kwesties, kunt u naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html) {target="_blank"} voor het Streamen van opname APIs het oplossen van problemen verwijzen.
 
 ## Controleren of mensen de reis betreden {#checking-if-people-enter-the-journey}
 
@@ -85,7 +97,7 @@ Controleer bijvoorbeeld het volgende:
 
 Als personen de juiste stroom in de journey volgen, maar geen berichten ontvangen die ze wel zouden moeten ontvangen, kunt u het volgende controleren:
 
-* [!DNL Journey Optimizer] heeft correct rekening gehouden met het verzoek om het bericht te verzenden. Zakelijke gebruikers hebben toegang tot het bericht dat ze geacht worden te zijn verzonden en controleren of de tijd van de meest recente uitvoering overeenkomt met de uitvoeringstijd van uw reis. Ze kunnen ook de meest recente ontvangen API-oproepen/gebeurtenissen controleren.
+* [!DNL Journey Optimizer] heeft correct rekening gehouden met de aanvraag om het bericht te verzenden. Zakelijke gebruikers hebben toegang tot het bericht dat ze geacht worden te zijn verzonden en controleren of de tijd van de meest recente uitvoering overeenkomt met de uitvoeringstijd van uw reis. Ze kunnen ook de meest recente ontvangen API-oproepen/gebeurtenissen controleren.
 * [!DNL Journey Optimizer] heeft het bericht verzonden. Controleer de reisrapportering om ervoor te zorgen dat er geen fouten zijn.
 
 In het geval van een bericht dat via een douaneactie wordt verzonden, is het enige wat tijdens reistest kan worden gecontroleerd het feit dat de vraag van het systeem van de douaneactie tot een fout of niet leidt. Als de oproep aan het externe systeem dat aan de douaneactie is gekoppeld niet tot een fout leidt maar niet tot het verzenden van een bericht leidt, zouden sommige onderzoeken aan de kant van het externe systeem moeten worden gedaan.

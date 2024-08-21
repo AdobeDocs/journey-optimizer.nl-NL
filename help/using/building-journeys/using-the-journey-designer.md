@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: ontwerp, canvas, reis, interface, slepen, neerzetten
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: fec6b15db9f8e6b2a07b55bc9e8fc4d9cb0d73d7
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
 source-wordcount: '1614'
 ht-degree: 0%
@@ -29,37 +29,37 @@ Gebeurtenissen, organisatie en activiteiten hebben een specifieke rol en plaats 
 
 ## Aan de slag met het ontwerpen van de reis {#gs-journey-design}
 
-De **palet** bevindt zich links op het scherm. Alle beschikbare activiteiten worden ingedeeld in verschillende categorieën: [Gebeurtenissen](#jo-event), [Orchestratie](#jo-orch) en [Handelingen](#jo-actions). U kunt de verschillende categorieën uit- of samenvouwen door op de naam ervan te klikken. Als u een activiteit wilt gebruiken tijdens uw reis, sleept u deze van het palet naar het canvas.
+Het **palet** is op de linkerkant van het scherm. Alle beschikbare activiteiten worden gesorteerd in verscheidene categorieën: [ Gebeurtenissen ](#jo-event), [ Orchestration ](#jo-orch) en [ Acties ](#jo-actions). U kunt de verschillende categorieën uit- of samenvouwen door op de naam ervan te klikken. Als u een activiteit wilt gebruiken tijdens uw reis, sleept u deze van het palet naar het canvas.
 
 Bij het starten van een nieuwe rit worden elementen die niet op het canvas kunnen worden neergezet als de eerste stap, verborgen. Dit heeft betrekking op alle handelingen, de activiteit van de aandoening, de wachttijd en de reactie.
 
 ![](assets/journey38.png)
 
-De **[!UICONTROL Filter items]** kunt u de volgende filters weergeven:
+Met het pictogram **[!UICONTROL Filter items]** in de linkerbovenhoek kunt u de volgende filters weergeven:
 
-* **Alleen beschikbare objecten weergeven**: u kunt niet-beschikbare elementen in het palet verbergen of weergeven, bijvoorbeeld de gebeurtenissen die een andere naamruimte gebruiken dan de gebeurtenissen die tijdens de reis worden gebruikt. Niet-beschikbare items worden standaard verborgen. Als u deze weergeeft, worden ze grijs weergegeven.
+* **toon slechts beschikbare punten**: verberg of toon niet beschikbare elementen in het palet, bijvoorbeeld de gebeurtenissen die een verschillende namespace dan degenen gebruiken die in uw reis worden gebruikt. Niet-beschikbare items worden standaard verborgen. Als u deze weergeeft, worden ze grijs weergegeven.
 
-* **Alleen recente objecten weergeven**: met dit filter kunt u alleen de laatste vijf gebruikte gebeurtenissen en handelingen weergeven, naast de gebeurtenissen en handelingen die buiten de box vallen. Dit geldt specifiek voor elke gebruiker. Standaard worden alle items weergegeven.
+* **toon slechts recente punten**: dit filter staat u toe om de laatste vijf gebruikte gebeurtenissen en acties slechts te tonen, naast uit-van-de-doos degenen. Dit geldt specifiek voor elke gebruiker. Standaard worden alle items weergegeven.
 
-U kunt ook de opdracht **[!UICONTROL Search]** veld. Alleen gebeurtenissen en handelingen worden gefilterd.
+U kunt ook het veld **[!UICONTROL Search]** gebruiken. Alleen gebeurtenissen en handelingen worden gefilterd.
 
-De **canvas** is de centrale zone in de reisontwerper. Het is in deze streek dat u uw activiteiten kunt laten vallen en hen vormen. Klik op een activiteit op het canvas om deze te configureren. Dit opent de ruit van de activiteitenconfiguratie op de rechterkant.
+Het **canvas** is de centrale streek in de reisontwerper. Het is in deze streek dat u uw activiteiten kunt laten vallen en hen vormen. Klik op een activiteit op het canvas om deze te configureren. Dit opent de ruit van de activiteitenconfiguratie op de rechterkant.
 
 ![](assets/journey39.png)
 
-De **werkbalk**, in de rechterbovenhoek van het canvas, kunt u het raster tonen/verbergen, in-/uitzoomen en een schermafbeelding van het canvas downloaden. Zie dit [sectie](../building-journeys/journey-properties.md#timeout_and_error).
+De **toolbar**, die in de hoogste juiste hoek van het canvas wordt gevestigd, staat u toe om het net te tonen/te verbergen, binnen te zoemen/uit en een het schermschot van het canvas te downloaden. Zie deze [ sectie ](../building-journeys/journey-properties.md#timeout_and_error).
 
 <!--and show/hide timeout and error paths-->
 
 ![](assets/toolbar.png){width="70%" align="left"}
 
-De **activiteitenconfiguratievenster** wordt weergegeven wanneer u op een activiteit in het palet klikt. Vul de vereiste velden in. Klik op de knop **[!UICONTROL Delete]** pictogram om de activiteit te verwijderen. Klikken **[!UICONTROL Cancel]** om de wijzigingen of **[!UICONTROL Ok]** ter bevestiging. Als u activiteiten wilt verwijderen, kunt u ook één activiteit (of meerdere activiteiten) selecteren en op de backspace-toets drukken. Als u op de escape-toets drukt, wordt het deelvenster voor activiteitenconfiguratie gesloten.
+De **ruit van de activiteitenconfiguratie** verschijnt wanneer u op een activiteit in het palet klikt. Vul de vereiste velden in. Klik op het pictogram **[!UICONTROL Delete]** om de activiteit te verwijderen. Klik op **[!UICONTROL Cancel]** om de wijzigingen te annuleren of op **[!UICONTROL Ok]** om te bevestigen. Als u activiteiten wilt verwijderen, kunt u ook één activiteit (of meerdere activiteiten) selecteren en op de backspace-toets drukken. Als u op de escape-toets drukt, wordt het deelvenster voor activiteitenconfiguratie gesloten.
 
-Velden met het kenmerk Alleen-lezen zijn standaard verborgen. Als u alleen-lezen velden wilt weergeven, klikt u op de knop **Alleen-lezen velden tonen** pictogram linksboven in het deelvenster voor activiteitenconfiguratie. Deze instelling geldt voor alle activiteiten op alle reizen.
+Velden met het kenmerk Alleen-lezen zijn standaard verborgen. Om read-only gebieden te tonen, klik **read-only gebieden** pictogram bij de bovenkant verlaten van de ruit van de activiteitenconfiguratie tonen. Deze instelling geldt voor alle activiteiten op alle reizen.
 
 ![](assets/journey59bis.png)
 
-Afhankelijk van de status van de reis kunt u verschillende handelingen op uw reis uitvoeren met behulp van de knoppen in de rechterbovenhoek: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Test mode]**, **[!UICONTROL Manage access]**, **[!UICONTROL Alerts]**. Deze knoppen worden weergegeven wanneer er geen activiteit is geselecteerd. Sommige knoppen worden contextueel weergegeven. De knop Logbestand van de testmodus verschijnt wanneer de testmodus wordt geactiveerd.
+Afhankelijk van de reisstatus kunt u verschillende handelingen op uw reis uitvoeren met behulp van de knoppen in de rechterbovenhoek: **[!UICONTROL Publish]**, **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]**, **[!UICONTROL Test mode]**, **[!UICONTROL Manage access]**, **[!UICONTROL Alerts]** . Deze knoppen worden weergegeven wanneer er geen activiteit is geselecteerd. Sommige knoppen worden contextueel weergegeven. De knop Logbestand van de testmodus verschijnt wanneer de testmodus wordt geactiveerd.
 
 ![](assets/journey41.png)
 
@@ -67,9 +67,9 @@ Afhankelijk van de status van de reis kunt u verschillende handelingen op uw rei
 
 Wanneer je je reis ontwerpt, wil je je eerst afvragen hoe profielen de reis zullen betreden. Er zijn twee mogelijkheden:
 
-1. **Starten met een gebeurtenis**: wanneer een reis is ingesteld om naar gebeurtenissen te luisteren, nemen individuen de reis in **eenzijdig** in real-time. Berichten die in uw reis zijn opgenomen, worden verzonden naar de persoon die momenteel op reis gaat. [Meer informatie over gebeurtenissen](../event/about-events.md)
+1. **Begin met een gebeurtenis**: wanneer een reis wordt geplaatst om aan gebeurtenissen te luisteren, gaan de individuen de reis **unitatically** in real time in. Berichten die in uw reis zijn opgenomen, worden verzonden naar de persoon die momenteel op reis gaat. [ Leer meer over gebeurtenissen ](../event/about-events.md)
 
-1. **Beginnen met een leespubliek**: je kunt je reis instellen om naar Adobe Experience Platform te luisteren. In dit geval betreden alle personen die tot het opgegeven publiek behoren de reis. Berichten die deel uitmaken van uw reis worden verzonden naar de personen die tot het publiek behoren. Meer informatie over [leest publiek](read-audience.md).
+1. **Begin met Gelezen Publiek**: u kunt uw reis plaatsen om aan het publiek van Adobe Experience Platform te luisteren. In dit geval betreden alle personen die tot het opgegeven publiek behoren de reis. Berichten die deel uitmaken van uw reis worden verzonden naar de personen die tot het publiek behoren. Leer meer over [ leest publiek ](read-audience.md).
 
 ## De volgende stappen definiëren{#define-next-steps}
 
@@ -81,33 +81,33 @@ Gebeurtenissen zijn de aanleiding voor een persoonlijke reis, zoals een online a
 
 Wanneer u uw reis met een gebeurtenis begint, wordt de reis teweeggebracht wanneer de gebeurtenis wordt ontvangen. Elke persoon op de reis volgt dan, individueel, de volgende stappen die in uw reis worden bepaald.
 
-U kunt **meerdere gebeurtenissen** in uw reis, zolang zij zelfde namespace gebruiken. Gebeurtenissen worden vooraf geconfigureerd. [Meer informatie over evenementen tijdens reizen](about-journey-activities.md#event-activities)
+U kunt **verscheidene gebeurtenissen** in uw reis toevoegen, zolang zij zelfde namespace gebruiken. Gebeurtenissen worden vooraf geconfigureerd. [ leer meer over reisgebeurtenissen ](about-journey-activities.md#event-activities)
 
-U kunt ook een **Reactie** gebeurtenis na een bericht om te reageren op volggegevens met betrekking tot het bericht. Op deze manier kunt u bijvoorbeeld een ander bericht verzenden als de persoon het vorige bericht heeft geopend of erin heeft geklikt. [Meer informatie over gebeurtenissen over reacties](reaction-events.md).
+U kunt de gebeurtenis van de Reactie van de a **** na een bericht ook toevoegen om op het volgen van gegevens met betrekking tot het bericht te reageren. Op deze manier kunt u bijvoorbeeld een ander bericht verzenden als de persoon het vorige bericht heeft geopend of erin heeft geklikt. [ Leer meer over reactiegebeurtenissen ](reaction-events.md).
 
-Gebruiken **Poortkwalificatie** gebeurtenisactiviteiten om ervoor te zorgen dat individuen op reis gaan of vooruit gaan op basis van de toegang en het vertrek van het Adobe Experience Platform-publiek. U kunt alle nieuwe zilverklanten een reis maken en gepersonaliseerde berichten verzenden. Meer informatie in deze [sectie](audience-qualification-events.md).
+De gebeurtenisactiviteit van de Kwalificatie van het publiek van het gebruik **om individuen te maken ingaan of zich voorwaarts in een reis die op de publieksingangen en de uitgang van Adobe Experience Platform wordt gebaseerd.** U kunt alle nieuwe zilverklanten een reis maken en gepersonaliseerde berichten verzenden. Leer meer in deze [ sectie ](audience-qualification-events.md).
 
 ### Orchestratie{#jo-orch}
 
 Orchestratieactiviteiten zijn verschillende omstandigheden die helpen de volgende stap in de reis te bepalen.
 
-Gebruik vanuit de orkestwerkzaamheden de **Publiek lezen** om je reis te maken om naar een Adobe Experience Platform-publiek te luisteren. [Meer informatie over de activiteit van het leespubliek](read-audience.md).
+Van de orkestactiviteiten, gebruik de **Gelezen activiteit van het Publiek** om uw reis te plaatsen om aan een publiek van Adobe Experience Platform te luisteren. [ leer meer over de Gelezen activiteit van het Publiek ](read-audience.md).
 
-Met de andere activiteiten kunt u voorwaarden aan uw reis toevoegen om meerdere paden te definiëren, een wachttijd in te stellen voordat u de volgende activiteit uitvoert of uw reis beëindigen. [Meer informatie over orkestwerkzaamheden](about-journey-activities.md#orchestration-activities).
+Met de andere activiteiten kunt u voorwaarden aan uw reis toevoegen om meerdere paden te definiëren, een wachttijd in te stellen voordat u de volgende activiteit uitvoert of uw reis beëindigen. [ Leer meer over orkestactiviteiten ](about-journey-activities.md#orchestration-activities).
 
 ### Acties{#jo-actions}
 
 Handelingen zijn wat u wilt doen als gevolg van een of andere trigger, zoals het verzenden van een bericht. Het is het traject dat de klant ervaart. Dit kan een e-mail-, sms- of pushbericht zijn of een actie van een derde, zoals een Slack-bericht.
 
-Met de activiteiten van de kanaalactie kunt u een bericht opnemen dat is ontworpen in [!DNL Journey Optimizer]. [Meer informatie over kanaalactiviteiten](journeys-message.md)
+Met de activiteiten van de kanaalhandeling kunt u een bericht opnemen dat is ontworpen in [!DNL Journey Optimizer] . [ leer meer over de activiteiten van de kanaalactie ](journeys-message.md)
 
-Gebruik aangepaste handelingen vanuit de actieactiviteiten om berichten te verzenden met systemen van derden. [Meer informatie over aangepaste handelingen](about-journey-activities.md#action-activities).
+Gebruik aangepaste handelingen vanuit de actieactiviteiten om berichten te verzenden met systemen van derden. [ Leer meer over douaneacties ](about-journey-activities.md#action-activities).
 
-## Alternatieve paden toevoegen{#paths}
+## Alternatieve paden toevoegen {#paths}
 
-U kunt een fallback-actie definiëren in het geval van een fout of time-out voor de volgende reisactiviteiten: **[!UICONTROL Condition]** en **[!UICONTROL Action]**.
+U kunt een fallback-actie definiëren in het geval van een fout of time-out voor de volgende reisactiviteiten: **[!UICONTROL Condition]** en **[!UICONTROL Action]** .
 
-Als u een fallback-actie voor een activiteit wilt toevoegen, selecteert u de optie **[!UICONTROL Add an alternative path in case of a timeout or an error]** in de eigenschappen van de activiteit: er wordt een ander pad toegevoegd na de activiteit. De time-outduur wordt gedefinieerd door Admin-gebruikers in het dialoogvenster [reiseigenschappen](../building-journeys/journey-properties.md). Als het bijvoorbeeld te lang duurt om een e-mail te verzenden of als er een fout optreedt, kunt u een pushmelding verzenden.
+Als u een fallback-actie voor een activiteit wilt toevoegen, schakelt u het vakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in de eigenschappen activity in: na de activiteit wordt een ander pad toegevoegd. De onderbrekingsduur wordt bepaald door Admin gebruikers in de [ reiseigenschappen ](../building-journeys/journey-properties.md). Als het bijvoorbeeld te lang duurt om een e-mail te verzenden of als er een fout optreedt, kunt u een pushmelding verzenden.
 
 ![](assets/journey42.png)
 
@@ -115,7 +115,7 @@ Met verschillende activiteiten (gebeurtenis, handeling, wachten) kunt u verschil
 
 Wanneer u naar een gebeurtenis luistert, raden we u aan niet oneindig op de gebeurtenis te wachten. Het is niet verplicht, maar slechts een goede praktijk. Als u slechts gedurende een bepaalde tijd naar een of meerdere gebeurtenissen wilt luisteren, plaatst u een of meerdere gebeurtenissen en een wachtbewerking parallel. Zie [deze sectie](../building-journeys/general-events.md#events-specific-time).
 
-Als u het pad wilt verwijderen, plaatst u de cursor erop en klikt u op de knop **[!UICONTROL Delete path]** pictogram.
+Als u het pad wilt verwijderen, plaatst u de cursor op het pad en klikt u op het pictogram **[!UICONTROL Delete path]** .
 
 ![](assets/journey42ter.png)
 
@@ -127,7 +127,7 @@ Wanneer twee activiteiten op het canvas worden losgekoppeld, wordt een waarschuw
 
 U kunt een of meer activiteiten van een reis kopiëren en deze in dezelfde of een andere reis plakken. Dit staat u toe om tijd te besparen als u talrijke activiteiten wilt hergebruiken die reeds in een vorige reis zijn gevormd.
 
-**Belangrijke opmerkingen**
+**Belangrijke nota&#39;s**
 
 * U kunt kopiëren/plakken over verschillende tabbladen en browsers. U kunt alleen activiteiten kopiëren/plakken binnen dezelfde instantie.
 * U kunt een gebeurtenis niet kopiëren/plakken als de doelreis een gebeurtenis heeft die een andere naamruimte gebruikt.
@@ -139,10 +139,10 @@ U kunt een of meer activiteiten van een reis kopiëren en deze in dezelfde of ee
 Hier volgen de stappen voor het kopiëren/plakken van activiteiten:
 
 1. Open een reis.
-1. Selecteer de activiteiten die u wilt kopiëren door de muis te verplaatsen terwijl u klikt. U kunt ook op elke activiteit klikken terwijl u op de knop **Ctrl/Command** toets. Gebruiken **Ctrl/Command + A** als u alle activiteiten wilt selecteren.
+1. Selecteer de activiteiten die u wilt kopiëren door de muis te verplaatsen terwijl u klikt. U kunt op elke activiteit ook klikken terwijl het drukken van de **CTRL/sleutel van het Bevel**. Het gebruik **CTRL/Bevel + A** als u alle activiteiten wilt selecteren.
    ![](assets/copy-paste1.png)
-1. Druk **Ctrl/Command + C**.
-Als u slechts één activiteit wilt kopiëren, kunt u op het klikken en gebruiken **Kopiëren** in de linkerbovenhoek van het deelvenster voor activiteitenconfiguratie.
+1. Pers **CTRL/Bevel + C**.
+Als u één activiteit wilt slechts kopiëren, kunt u op het klikken en het **pictogram van het Exemplaar** in de bovenkant verlaten van de ruit van de activiteitenconfiguratie gebruiken.
    ![](assets/copy-paste2.png)
-1. Druk op **Ctrl/Command + V** om de activiteiten te plakken zonder ze aan een bestaand knooppunt te koppelen. Geplakte activiteiten worden in dezelfde volgorde geplaatst. Na het plakken blijven de activiteiten geselecteerd zodat u ze gemakkelijk kunt verplaatsen. U kunt de cursor ook op een lege plaatsaanduiding plaatsen en op **Ctrl/Command + V**. Geplakte activiteiten worden gekoppeld aan het knooppunt.
+1. In om het even welke reis, druk **CTRL/Bevel + V** om de activiteiten te kleven zonder hen aan een bestaand knooppunt te verbinden. Geplakte activiteiten worden in dezelfde volgorde geplaatst. Na het plakken blijven de activiteiten geselecteerd zodat u ze gemakkelijk kunt verplaatsen. U kunt de curseur op een lege plaatshouder ook plaatsen en **CTRL/Bevel + V** raken. Geplakte activiteiten worden gekoppeld aan het knooppunt.
    ![](assets/copy-paste3.png)

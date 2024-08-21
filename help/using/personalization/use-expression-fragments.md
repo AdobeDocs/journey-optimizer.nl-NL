@@ -2,27 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Expressiefragmenten gebruiken
-description: Leer hoe u expressiefragmenten kunt gebruiken in het dialoogvenster [!DNL Journey Optimizer] personalisatie-editor.
+description: Leer hoe te om uitdrukkingsfragmenten in de  [!DNL Journey Optimizer]  verpersoonlijkingsredacteur te gebruiken.
 feature: Personalization, Fragments
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: expressie, editor, bibliotheek, personalisatie
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: e6924928e03d494817a2368b33997029ca2eca1c
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
 
 # Expressiefragmenten benutten {#use-expression-fragments}
 
-Wanneer u de opdracht **personalisatie-editor**, kunt u alle expressiefragmenten benutten die zijn gemaakt of opgeslagen in de huidige sandbox.
+Wanneer het gebruiken van de **verpersoonlijkingsredacteur**, kunt u hefboomwerking alle uitdrukkingsfragmenten die zijn gecreeerd of aan de huidige zandbak bewaard.
 
-Een fragment is een herbruikbare component waarnaar kan worden verwezen [!DNL Journey Optimizer] campagnes en reizen. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud vooraf samenstellen. Deze blokken kunnen door marketinggebruikers worden gebruikt om inhoud snel samen te stellen in een verbeterd ontwerpproces. [Leer hoe u fragmenten maakt en beheert](../content-management/fragments.md).
+Een fragment is een herbruikbare component waarnaar in [!DNL Journey Optimizer] -campagnes en -reizen kan worden verwezen. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud vooraf samenstellen. Deze blokken kunnen door marketinggebruikers worden gebruikt om inhoud snel samen te stellen in een verbeterd ontwerpproces. [ leer hoe te om fragmenten ](../content-management/fragments.md) tot stand te brengen en te beheren.
 
-➡️ [Leer hoe u fragmenten beheert, ontwerpt en gebruikt in deze video](../content-management/fragments.md#video-fragments)
+➡️ [ leren hoe te om, auteur en gebruiks fragmenten in deze video te beheren ](../content-management/fragments.md#video-fragments)
 
 ## Expressiefragment gebruiken {#use-expression-fragment}
 
@@ -32,7 +32,7 @@ Volg onderstaande stappen om expressiefragmenten aan uw inhoud toe te voegen.
 >
 >U kunt maximaal 30 fragmenten in een bepaalde levering toevoegen. Fragmenten kunnen maximaal 1 niveau worden genest.
 
-1. Open de [personalisatie-editor](personalization-build-expressions.md) en selecteert u de **[!UICONTROL Fragments]** in het linkerdeelvenster.
+1. Open de [ verpersoonlijkingsredacteur ](personalization-build-expressions.md) en selecteer de **[!UICONTROL Fragments]** knoop op de linkerruit.
 
    In de lijst worden alle uitdrukkingsfragmenten weergegeven die als fragmenten in de huidige sandbox zijn gemaakt of opgeslagen. Ze worden gesorteerd op aanmaakdatum: recent toegevoegde expressiefragmenten worden als eerste weergegeven in de lijst. [Meer informatie](../content-management/fragments.md#create-expression-fragment)
 
@@ -50,39 +50,72 @@ Volg onderstaande stappen om expressiefragmenten aan uw inhoud toe te voegen.
 
    >[!CAUTION]
    >
-   >U kunt elke **Concept** of **Live** fragment naar uw inhoud. U kunt uw reis of campagne echter niet activeren als er een fragment met de status Concept in wordt gebruikt. Tijdens de reis- of campagnepublicatie wordt een fout weergegeven in ontwerpfragmenten die u moet goedkeuren om te kunnen publiceren.
+   >U kunt om het even welk **Ontwerp** toevoegen of **Levend** fragment aan uw inhoud. U kunt uw reis of campagne echter niet activeren als er een fragment met de status Concept in wordt gebruikt. Tijdens de reis- of campagnepublicatie wordt een fout weergegeven in ontwerpfragmenten die u moet goedkeuren om te kunnen publiceren.
 
-1. Nadat de fragment-id is toegevoegd, opent u het bijbehorende expressiefragment en [bewerken](../content-management/fragments.md#edit-fragments) vanuit de interface worden de wijzigingen gesynchroniseerd. Ze worden automatisch doorgegeven aan alle concepten of live reizen/campagnes die die fragment-id bevatten.
+1. Zodra fragment ID is toegevoegd, als u het overeenkomstige uitdrukkingsfragment opent en [ het ](../content-management/fragments.md#edit-fragments) van de interface uitgeeft, worden de veranderingen gesynchroniseerd. Ze worden automatisch doorgegeven aan alle concepten of live reizen/campagnes die die fragment-id bevatten.
 
-1. Klik op de knop **[!UICONTROL More actions]** naast een fragment. Selecteer in het contextmenu dat wordt geopend de optie **[!UICONTROL View fragment]** voor meer informatie over dat fragment. De **[!UICONTROL Fragment ID]** wordt ook weergegeven en kan hier worden gekopieerd.
+1. Klik op de knop **[!UICONTROL More actions]** naast een fragment. Selecteer **[!UICONTROL View fragment]** in het contextmenu dat wordt geopend voor meer informatie over dat fragment. **[!UICONTROL Fragment ID]** wordt ook weergegeven en kan hier worden gekopieerd.
 
    ![](assets/expression-fragment-view.png)
 
-1. U kunt het uitdrukkingsfragment in een ander venster openen om zijn inhoud en eigenschappen uit te geven - of gebruikend **[!UICONTROL Open fragment]** in het contextmenu of vanuit het **[!UICONTROL Fragment info]** venster. [Leer hoe u een fragment bewerkt](../content-management/fragments.md#edit-fragments)
+1. U kunt het expressiefragment openen in een ander venster om de inhoud en eigenschappen ervan te bewerken. U kunt de optie **[!UICONTROL Open fragment]** in het contextmenu of vanuit het deelvenster **[!UICONTROL Fragment info]** gebruiken. [ Leer hoe te om een fragment uit te geven ](../content-management/fragments.md#edit-fragments)
 
    ![](assets/expression-fragment-open.png)
 
-1. Vervolgens kunt u de inhoud op de gebruikelijke manier aanpassen en valideren met alle personalisatie- en ontwerpmogelijkheden van de [personalisatie-editor](personalization-build-expressions.md).
+1. U kunt uw inhoud dan aanpassen en bevestigen zoals gewoonlijk gebruikend alle verpersoonlijking en auteursmogelijkheden van de [ verpersoonlijkingsredacteur ](personalization-build-expressions.md).
 
 >[!NOTE]
 >
->Als u een expressiefragment maakt dat meerdere regeleinden bevat en het gebruikt in [SMS](../sms/create-sms.md#sms-content) of [duwen](../push/design-push.md) inhoud, blijven de regeleinden behouden. Zorg er dus voor dat u uw [SMS](../sms/send-sms.md) of [duwen](../push/send-push.md) bericht voordat het wordt verzonden.
+>Als u een uitdrukkingsfragment creeert dat veelvoudige lijnonderbrekingen bevat en het in [ SMS ](../sms/create-sms.md#sms-content) of [ duw ](../push/design-push.md) inhoud gebruikt, worden de lijnonderbrekingen bewaard. Aldus zorg ervoor om uw [ SMS ](../sms/send-sms.md) of [ duw ](../push/send-push.md) bericht te testen alvorens het te verzenden.
+
+## Gebruik impliciete variabelen {#implicit-variables}
+
+De impliciete variabelen verbeteren de bestaande fragmentfunctionaliteit om de efficiëntie voor hergebruik van inhoud en het gebruik van scripts te verbeteren. Fragmenten kunnen invoervariabelen gebruiken en uitvoervariabelen maken die kunnen worden gebruikt in campagne- en reisinhoud.
+
+Dit vermogen kan bijvoorbeeld worden gebruikt om het volgen parameters van uw e-mail te initialiseren, die op de huidige campagne of de reis worden gebaseerd, en deze parameters in de gepersonaliseerde verbindingen te gebruiken die aan de e-mailinhoud worden toegevoegd.
+
+De volgende gebruiksgevallen zijn mogelijk:
+
+1. Invoervariabelen in een fragment gebruiken
+
+   Wanneer een fragment wordt gebruikt in inhoud van een campagne-/reisactie, kan het variabelen gebruiken die buiten het fragment zijn gedeclareerd. Hieronder ziet u een voorbeeld:
+
+   ![](../personalization/assets/variable-in-a-fragment.png)
+
+   Hierboven ziet u dat de variabele `utm_content` is gedeclareerd in de inhoud van de campagne. Wanneer het fragment **Hero blok** wordt gebruikt, zal het een verbinding tonen waaraan de `utm_content` parameterwaarde zal worden toegevoegd. Het uiteindelijke resultaat is: `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping` .
+
+1. Uitvoervariabelen uit een fragment gebruiken
+
+   Variabelen die in een fragment worden berekend of gedefinieerd, zijn beschikbaar voor gebruik in de inhoud. In het volgende voorbeeld, verklaart een fragment **F1** een reeks variabelen:
+
+   ![](../personalization/assets/personalize-with-variables.png)
+
+   In e-mailinhoud kunnen wij de volgende personalisatie hebben:
+
+   ![](../personalization/assets/use-fragment-variable.png)
+
+   Het fragment F1 initialiseert de volgende variabelen: `utm_campaign` en `utm_content` . Vervolgens worden deze parameters toegevoegd aan de koppeling in de berichtinhoud. Het uiteindelijke resultaat is: `https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping` .
+
+>[!NOTE]
+>
+>Tijdens runtime breidt het systeem uit wat zich in fragmenten bevindt en interpreteert het de verpersoonlijkingscode van boven naar beneden. Met dit in gedachten kunnen complexere gebruiksgevallen worden bereikt. U kunt bijvoorbeeld een fragment F1 hebben dat variabelen doorgeeft aan een ander fragment F2 hieronder. U kunt ook een visueel fragment F1 hebben dat variabelen tot een genest uitdrukkingsfragment F2 overgaat.
+
 
 ## Bewerkbare velden aanpassen {#customize-fields}
 
-Als bepaalde delen van een expressiefragment bewerkbaar zijn gemaakt met variabelen, kunt u de standaardwaarden ervan overschrijven met een specifieke syntaxis. [Leer hoe u uw fragmenten aanpasbaar kunt maken](../content-management/customizable-fragments.md)
+Als bepaalde delen van een expressiefragment bewerkbaar zijn gemaakt met variabelen, kunt u de standaardwaarden ervan overschrijven met een specifieke syntaxis. [ Leer hoe te om uw fragmenten klantgericht te maken ](../content-management/customizable-fragments.md)
 
 Voer de volgende stappen uit om de velden aan te passen:
 
-1. Het fragment invoegen in uw code vanuit het dialoogvenster **Fragmenten** -menu.
+1. Neem het fragment in uw code van het **Fragmenten** menu op.
 
-1. Gebruik de `<fieldId>="<value>"` code aan het einde van de syntaxis om de standaardwaarde van de variabele te overschrijven.
+1. Gebruik de code `<fieldId>="<value>"` aan het einde van de syntaxis om de standaardwaarde van de variabele te overschrijven.
 
    In het onderstaande voorbeeld overschrijven we de waarde van een variabele waarvan de id &#39;sport&#39; is met de waarde &#39;yoga&#39;. Hiermee wordt &quot;yoga&quot; in uw fragmentinhoud weergegeven, overal waar naar de variabele &quot;sport&quot; wordt verwezen.
 
    ![](../content-management/assets/fragment-expression-use.png)
 
-Een voorbeeld waarin wordt getoond hoe u bewerkbare velden kunt toevoegen aan een expressiefragmenten en de waarden ervan kunt overschrijven wanneer u een e-mailbericht maakt, is beschikbaar in [deze sectie](../content-management/customizable-fragments.md#example).
+Een voorbeeld dat toont hoe te om editable gebieden in een uitdrukkingsfragmenten toe te voegen en hun waarden met voeten te treden wanneer het creëren van een e-mail is beschikbaar in [ deze sectie ](../content-management/customizable-fragments.md#example).
 
 ## Overerving onderbreken {#break-inheritance}
 

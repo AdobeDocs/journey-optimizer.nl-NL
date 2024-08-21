@@ -6,44 +6,44 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
 
 # Vereisten en geleiders {#web-prerequisites}
 
-Webpagina&#39;s openen en ontwerpen in het dialoogvenster [!DNL Journey Optimizer] gebruikersinterface, volg de volgende voorwaarden:
+Als u webpagina&#39;s wilt openen en schrijven in de gebruikersinterface van [!DNL Journey Optimizer] , moet u aan de volgende voorwaarden voldoen:
 
 * Als u wijzigingen aan uw website wilt toevoegen, moet u over een specifieke implementatie beschikken. [Meer informatie](#implementation-prerequisites)
 
-* Als u toegang wilt krijgen tot [!DNL Journey Optimizer] webontwerper heeft een specifieke Google Chrome-browserextensie geïnstalleerd. [Meer informatie](#visual-authoring-prerequesites)
+* Als u toegang wilt tot de [!DNL Journey Optimizer] -webontwerper, moet een specifieke Google Chrome-browserextensie zijn geïnstalleerd. [Meer informatie](#visual-authoring-prerequesites)
 
-* Zorg ervoor dat u de gedetailleerde Adobe Experience Platform-instellingen definieert voor een correcte webervaring [hier](#delivery-prerequisites).
+* Voor de Webervaring die correct moet worden geleverd, zorg ervoor u de hier gedetailleerde montages van Adobe Experience Platform [ ](#delivery-prerequisites) bepaalt.
 
 ## Let op: {#caution-notes-web}
 
-* Momenteel in [!DNL Journey Optimizer] u kunt alleen webervaringen maken in **campagnes**. [Meer informatie](../campaigns/create-campaign.md#configure)
+* Momenteel in [!DNL Journey Optimizer] kunt u Webervaringen in **campagnes** slechts tot stand brengen. [Meer informatie](../campaigns/create-campaign.md#configure)
 
-* [!DNL Journey Optimizer] webcampagnes zijn gericht op nieuwe profielen die nog niet eerder zijn ingeschakeld op andere kanalen. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden. De licentiemetriek voor elk pakket wordt vermeld op het tabblad [Journey Optimizer-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} pagina.
+* [!DNL Journey Optimizer] webcampagnes zijn gericht op nieuwe profielen die nog niet eerder zijn ingeschakeld op andere kanalen. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden. De metriek van de vergunning voor elk pakket is vermeld op de [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) {target="_blank"} pagina.
 
 >[!AVAILABILITY]
 >
->Het webkanaal is momenteel niet beschikbaar voor organisaties die de Adobe hebben aangeschaft **Gezondheidsschild** en **Privacy- en beveiligingsschild** add-on aanbiedingen.
+>Voor nu, is het kanaal van het Web niet beschikbaar voor organisaties die het Adobe **het Schild van de Gezondheidszorg** en **Privacy en het 3} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.**
 
 ## Voorwaarden voor implementatie {#implementation-prerequisites}
 
-Momenteel worden twee typen implementaties ondersteund om het ontwerpen en leveren van webkanaalcampagnes op uw wegeigenschappen mogelijk te maken:
+Er worden twee typen implementaties ondersteund waarmee u webkanaalcampagnes kunt ontwerpen en leveren op uw westeigenschappen:
 
-* Alleen client - Als u wijzigingen aan uw website wilt toevoegen, moet u het [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"} op uw website.
+* Cliënt-kant slechts - om wijzigingen aan uw website toe te voegen, moet u [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) uitvoeren {target="_blank"} op uw website.
 
   >[!NOTE]
   >
-  >Zorg ervoor dat de AEP Web SDK-versie 2.16 of hoger is.
+  >Zorg ervoor uw [ versie van SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/release-notes) {target="_blank"} 2.16 of hierboven is.
 
-* Hybride modus - U kunt de opdracht [AEP Edge Network Server-API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"} om voor verpersoonlijkingsserver-kant te verzoeken; de reactie wordt verstrekt aan het Web SDK van Adobe Experience Platform om de wijzigingen cliënt-kant terug te geven. Meer informatie in de Adobe Experience Platform [API-documentatie voor Edge Network](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html){target="_blank"}. U kunt meer informatie vinden over de hybride modus en een aantal implementatiemonsters controleren in [dit blogbericht](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}.
+* Hybride wijze - u kunt de [ API van de Server van de Edge Network AEP ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) gebruiken {target="_blank"} om voor verpersoonlijkings server-kant te verzoeken; de reactie wordt verstrekt aan het Web SDK van Adobe Experience Platform om de wijzigingen cliënt-kant terug te geven. Leer meer in de documentatie van de Server API van de Edge Network van Adobe Experience Platform [ ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html) {target="_blank"}. U kunt meer over de hybride wijze te weten komen en sommige implementatiemonsters in [ controleren dit blogpost ](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41) {target="_blank"}.
 
 >[!NOTE]
 >
@@ -55,11 +55,11 @@ Momenteel worden twee typen implementaties ondersteund om het ontwerpen en lever
 
 <!--In order to rapidly author and preview your web experiences, the Adobe Experience Cloud Visual Editing Helper browser extension for Google Chrome lets you load websites reliably within the Adobe [!DNL Journey Optimizer] web designer.-->
 
-Als u uw webpagina&#39;s op betrouwbare wijze wilt openen, ontwerpen en voorvertonen in het dialoogvenster [!DNL Journey Optimizer] webontwerper moet de [Helper voor Adobe Experience Cloud Visual Editing](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extensie van de browser geïnstalleerd op uw webbrowser.
+Om uw Web-pagina&#39;s betrouwbaar in de [!DNL Journey Optimizer] Webontwerper te kunnen openen, auteur en voorproef, moet u de [ Adobe Experience Cloud Visual Editing Helper ](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca) {target="_blank"} browser uitbreiding hebben die op uw Webbrowser wordt geïnstalleerd.
 
 >[!CAUTION]
 >
->Google Chrome en Microsoft Edge zijn momenteel de enige browsers die ontwerpwebpagina&#39;s ondersteunen in [!DNL Journey Optimizer].
+>Google Chrome en Microsoft Edge zijn momenteel de enige browsers die ontwerpwebpagina&#39;s in [!DNL Journey Optimizer] ondersteunen.
 
 ### De extensie Visuele bewerkingshulp installeren {#install-visual-editing-helper}
 
@@ -67,29 +67,29 @@ Voer de onderstaande stappen uit om de extensie van de browser van de Visual Edi
 
 1. Open een nieuw tabblad in uw browser (Google Chrome of Microsoft Edge).
 
-1. Ga naar de [Google Chrome Web Store](https://chrome.google.com/webstore/category/extensions){target="_blank"}.
+1. Ga naar de [ Opslag van het Web van Google Chrome ](https://chrome.google.com/webstore/category/extensions) {target="_blank"}.
 
-1. Als u Microsoft Edge gebruikt, selecteert u **[!UICONTROL Allow extensions from other stores]** op de bovenste banner. Zo kunt u extensies van de Chrome Web Store toevoegen aan Microsoft Edge.
+1. Als u Microsoft Edge gebruikt, selecteert u **[!UICONTROL Allow extensions from other stores]** op de bovenste banner. Zo kunt u extensies van de Chrome-webwinkel toevoegen aan Microsoft Edge.
 
-1. Zoeken en naar de [Helper voor Adobe Experience Cloud Visual Editing](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} browserextensie.
+1. Onderzoek en navigeer aan [ Adobe Experience Cloud Visuele het Uitgeven Helper ](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca) {target="_blank"} browser uitbreiding.
 
-1. Klikken **[!UICONTROL Add to Chrome]** > **[!UICONTROL Add Extension]**.
+1. Klik op **[!UICONTROL Add to Chrome]** > **[!UICONTROL Add Extension]** .
 
    >[!NOTE]
    >
-   >Als u Microsoft Edge gebruikt, wordt de extensie toegevoegd aan Edge, ook al is het label van de knop **[!UICONTROL Add to Chrome]**.
+   >Als u Microsoft Edge gebruikt, wordt de extensie toegevoegd aan Edge, ook al is het label voor de knop **[!UICONTROL Add to Chrome]** .
 
 1. Zorg ervoor de Visuele het Uitgeven Helper browser uitbreiding correct in de toolbar van uw browser wordt toegelaten.
 
    ![](assets/web-visual-editing-extension-edge.png)
 
-De Adobe Experience Cloud Visual Editing Helper wordt nu automatisch ingeschakeld wanneer een website wordt geopend in het dialoogvenster [!DNL Journey Optimizer] [webontwerper](edit-web-content.md#work-with-web-designer) aan macht authoring.
+De visuele het Uitgeven van Adobe Experience Cloud Helper wordt nu automatisch toegelaten wanneer een website in [!DNL Journey Optimizer] [ Webontwerper ](edit-web-content.md#work-with-web-designer) aan macht authoring wordt geopend.
 
 De extensie heeft geen voorwaardelijke instellingen en verwerkt alle instellingen automatisch, inclusief de instellingen voor Cookies van SameSite.
 
 >[!NOTE]
 >
->Sommige websites kunnen niet betrouwbaar worden geopend in de [!DNL Journey Optimizer] webontwerper heeft een van de volgende redenen:
+>Sommige websites kunnen om een van de volgende redenen mogelijk niet betrouwbaar worden geopend in de [!DNL Journey Optimizer] -webontwerper:
 >
 > * De website heeft een strikt beveiligingsbeleid.
 > * De website bevindt zich in een iframe.
@@ -97,53 +97,53 @@ De extensie heeft geen voorwaardelijke instellingen en verwerkt alle instellinge
 
 ### Problemen met laden van website oplossen {#troubleshooting}
 
-Bij gebruik van de Adobe [!DNL Journey Optimizer] webontwerper, als u probeert een website te laden die niet kan worden geladen, wordt een bericht weergegeven waarin wordt gesuggereerd dat u de [Visuele bewerkingshulpprogramma voor browsers](#install-visual-editing-helper).
+Wanneer het gebruiken van de Adobe [!DNL Journey Optimizer] Webontwerper, als u probeert om een website te laden die er niet in slaagt te laden, een berichtvertoningen die erop wijzen dat u de [ Visuele het Uitgeven Browser van de Helper browser uitbreiding ](#install-visual-editing-helper) installeert.
 
 1. Zorg ervoor de Visuele het Uitgeven Helper browser uitbreiding correct geïnstalleerd is.
 
-1. Als de website zich nog steeds onverwacht gedraagt, moet u ervoor zorgen dat cookies van andere leveranciers zijn toegestaan in uw browser. Als dit niet het geval is, kan de webpagina niet worden geladen in het dialoogvenster [!DNL Journey Optimizer] webontwerper.
+1. Als de website zich nog steeds onverwacht gedraagt, moet u ervoor zorgen dat cookies van andere leveranciers zijn toegestaan in uw browser. Als dit niet het geval is, kan de webpagina niet worden geladen in de webontwerper van [!DNL Journey Optimizer] .
 
 Voor pagina&#39;s onder verificatie, als de aanmeldingspagina niet kan worden geladen of als u na het aanmelden nog steeds niet bent aangemeld:
 
-1. Probeer u eerst aan te melden op een nieuw browsertabblad en navigeer naar de gewenste pagina. Kopieer vervolgens de URL en open deze in het dialoogvenster [!DNL Journey Optimizer] webontwerper.
+1. Meld u eerst aan op een nieuw browsertabblad en navigeer naar de gewenste pagina. Kopieer vervolgens de URL en open deze in de webontwerper van [!DNL Journey Optimizer] .
 
-2. Als u uw website nog steeds niet kunt laden in het dialoogvenster [!DNL Journey Optimizer] Webontwerper, contacteer de Zorg van de Klant van de Adobe om het probleem te melden, ervoor zorgt u het falende URL specificeert.
+2. Als u uw website nog steeds niet kunt laden in de [!DNL Journey Optimizer] webontwerper, neemt u contact op met de klantenservice van de Adobe om het probleem te melden. Controleer of u de falende URL opgeeft.
 
 ## Leveringsvoorwaarden {#delivery-prerequisites}
 
 De webervaring kan alleen correct worden geleverd als de volgende instellingen zijn gedefinieerd:
 
-* In de [Adobe Experience Platform-gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target="_blank"}moet u ervoor zorgen dat er een gegevensstroom is gedefinieerd, zoals onder de **[!UICONTROL Adobe Experience Platform]** de dienst u hebt **[!UICONTROL Adobe Journey Optimizer]** optie ingeschakeld.
+* In de [ Gegevensverzameling van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html) {target="_blank"}, zorg ervoor u een gegevensstroom hebt die zoals onder de **[!UICONTROL Adobe Experience Platform]** dienst wordt bepaald u de **[!UICONTROL Adobe Journey Optimizer]** toegelaten optie hebt.
 
-  Dit zorgt ervoor dat de inkomende Journey Optimizer-gebeurtenissen correct worden afgehandeld door de Adobe Experience Platform Edge. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
+  Dit zorgt ervoor dat de binnenkomende gebeurtenissen van Journey Optimizer correct worden afgehandeld door de Adobe Experience Platform Edge. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html) {target="_blank"}
 
   ![](assets/web-aep-datastream-ajo.png)
 
-* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}, zorg ervoor dat u één samenvoegbeleid hebt met de **[!UICONTROL Active-On-Edge Merge Policy]** optie ingeschakeld. Selecteer hiertoe een beleid in het dialoogvenster **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Menu Experience Platform. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+* In [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl) {target="_blank"}, zorg ervoor u één toegelaten fusiebeleid met de **[!UICONTROL Active-On-Edge Merge Policy]** optie hebt. Selecteer hiertoe een beleid in het menu Experience Platform **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** . [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure) {target="_blank"}
 
-  Dit samenvoegbeleid wordt gebruikt door [!DNL Journey Optimizer] binnenkomende kanalen om binnenkomende campagnes op de rand correct te activeren en te publiceren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}
+  Dit samenvoegbeleid wordt door [!DNL Journey Optimizer] binnenkomende kanalen gebruikt om binnenkomende campagnes op de rand correct te activeren en te publiceren. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html) {target="_blank"}
 
   ![](assets/web-aep-merge-policy.png)
 
-* Als u de levering van Journey Optimizer Web-ervaringen wilt oplossen, kunt u de **Edge Delivery** bekijken binnen **Adobe Experience Platform Assurance**. Deze plugin laat u toe om verzoekvraag in detail te inspecteren, te verifiëren of de verwachte randvraag zoals voorzien voorkomt, en profielgegevens, met inbegrip van identiteitskaarten, segmentlidmaatschap, en toestemmingsmontages te onderzoeken. Daarnaast kunt u de activiteiten bekijken waarvoor het verzoek is gekwalificeerd en vaststellen voor welke activiteiten het niet heeft uitgevoerd.
+* Om de levering van de ervaringen van het Web van Journey Optimizer problemen op te lossen, kunt u de **Edge Delivery** mening binnen **de Verzekering van Adobe Experience Platform** gebruiken. Deze plugin laat u toe om verzoekvraag in detail te inspecteren, te verifiëren of de verwachte randvraag zoals voorzien voorkomt, en profielgegevens, met inbegrip van identiteitskaarten, segmentlidmaatschap, en toestemmingsmontages te onderzoeken. Daarnaast kunt u de activiteiten bekijken waarvoor het verzoek is gekwalificeerd en vaststellen voor welke activiteiten het niet heeft uitgevoerd.
 
-  Met de **Edge Delivery** Met insteekmodule krijgt u de inzichten die u nodig hebt om uw binnenkomende implementaties effectief te begrijpen en problemen op te lossen.
+  Het gebruiken van de **insteekmodule van Edge Delivery** helpt u de inzichten verkrijgen nodig om uw binnenkomende implementaties effectief te begrijpen en problemen op te lossen.
 
-  [Meer informatie over de Edge Delivery-weergave](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
+  [ Leer meer op de mening van Edge Delivery ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
 ## Voorwaarden voor het testen van inhoud {#experiment-prerequisites}
 
-Als u inhoudstests voor het webkanaal wilt inschakelen, moet u ervoor zorgen dat de [gegevensset](../data/get-started-datasets.md) gebruikt in uw webimplementatie [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} is ook inbegrepen in uw rapporteringsconfiguratie.
+Om inhoudsexperimenten voor het Webkanaal toe te laten, moet u ervoor zorgen de [ dataset ](../data/get-started-datasets.md) wordt gebruikt in uw Webimplementatie [ datastream ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html) {target="_blank"} is ook inbegrepen in uw rapporteringsconfiguratie die.
 
 Met andere woorden, wanneer het vormen experimenteert rapportering, als u een dataset toevoegt die niet in uw Webgegevensstroom aanwezig is, zullen de Webgegevens niet in de rapporten van het inhoudexperiment tonen.
 
-Leer hoe u gegevenssets voor het experimenteren met inhoud toevoegt aan de rapportering in [deze sectie](../content-management/reporting-configuration.md#add-datasets).
+Leer hoe te om datasets voor inhoudexperiment toe te voegen dat in [ meldt deze sectie ](../content-management/reporting-configuration.md#add-datasets).
 
 >[!NOTE]
 >
->De dataset wordt gebruikt read-only door [!DNL Journey Optimizer] rapportagesysteem en heeft geen invloed op gegevensverzameling of gegevensinvoer.
+>De dataset wordt gebruikt read-only door het [!DNL Journey Optimizer] rapporteringssysteem en beïnvloedt gegevensinzameling of gegevensopname niet.
 
-Als u **niet** met behulp van de volgende vooraf gedefinieerde [veldgroepen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"} voor uw datasetschema: `AEP Web SDK ExperienceEvent` en `Consumer Experience Event` (zoals gedefinieerd in [deze pagina](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), moet u de volgende veldgroepen toevoegen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, en `Web Details`. Deze zijn nodig voor de [!DNL Journey Optimizer] de inhoud experimenteert rapportering terwijl zij volgen welke experimenten en behandelingen elk profiel aan deelnemen.
+Als u **niet** gebruikend de volgende vooraf bepaalde [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group) {target="_blank"} voor uw datasetschema bent: `AEP Web SDK ExperienceEvent` en `Consumer Experience Event` (zoals bepaald in [ deze pagina ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups) {target="_blank"}), zorg ervoor om de volgende gebiedsgroepen toe te voegen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, en `Web Details`. Deze zijn nodig voor het [!DNL Journey Optimizer] -inhoudexperiment. Tijdens het bijhouden van de experimenten en behandelingen waaraan elk profiel deelneemt.
 
 >[!NOTE]
 >
@@ -151,4 +151,4 @@ Als u **niet** met behulp van de volgende vooraf gedefinieerde [veldgroepen](htt
 
 ## Gemarkeerde domeinen voor elementen {#branded-domains-for-assets}
 
-Als u tijdens het ontwerpen van een webversie inhoud toevoegt die afkomstig is van de [Adobe Experience Manager Assets](../content-management/assets.md) moet u het subdomein instellen dat wordt gebruikt om deze inhoud te publiceren. [Meer informatie](web-delegated-subdomains.md)
+Wanneer het ontwerpen van Webervaringen, als u inhoud toevoegt die uit de [ Adobe Experience Manager Assets ](../content-management/assets.md) bibliotheek komt, moet u opstelling subdomain die zal worden gebruikt om deze inhoud te publiceren. [Meer informatie](web-delegated-subdomains.md)

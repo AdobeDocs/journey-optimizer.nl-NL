@@ -8,48 +8,52 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 0b4af69bcd410d467f7b6a26aa407b1df23a965e
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met Channel-rapporten {#channel-report-gs}
 
+>[!AVAILABILITY]
+>
+>De huidige ervaring met rapportage wordt vanaf de release van oktober opgeheven. Na deze datum wordt de nieuwe ervaring met rapportage de norm. We raden u aan bekend te maken met de nieuwe functies en functies om een soepele overgang te garanderen. [ worden begonnen met Journey Optimizer nieuwe het Melden interface.](report-gs-cja.md)
+
 De rapporten van het Kanaal dienen als krachtig hulpmiddel dat een uitvoerig overzicht van verkeer en betrokkenheidsmetriek in een verenigd rapport voor elk kanaal verstrekt, dat alle Acties van alle Campagnes en Reizen omvat. Het is verdeeld in verschillende widgets, die elk een specifiek beeld van uw campagne of reisprestaties verstrekken.
 
 De Kanaalrapporten zijn volledig aanpasbaar, zodat kunt u resize of widgets verwijderen om een dashboard tot stand te brengen dat aan uw specifieke behoeften voldoet. U kunt de rapportgegevens ook exporteren naar een PDF- of CSV-bestand voor verdere analyse.
 
-Meer informatie over de verschillende maatstaven en widgets die beschikbaar zijn voor de Channel-rapporten vindt u in dit [page](channel-report.md).
+Leer meer op de verschillende metriek en widgets beschikbaar voor de rapporten van het Kanaal in deze [ pagina ](channel-report.md).
 
 ## Voordat u begint {#manage-reports-prereq}
 
-Controleer voordat u begint of u toegang hebt tot de **[!UICONTROL Reports]** -menu.
+Controleer voordat u begint of u toegang hebt tot het menu **[!UICONTROL Reports]** .
 
-Als u de **[!UICONTROL Reports]** -menu, moeten uw toegangsrechten worden uitgebreid tot **[!UICONTROL View Channel Reports]** toestemming. U kunt uw eigen machtigingen uitbreiden als u toegang hebt tot de Adobe Experience Platform [Machtigingen](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html){target="_blank"} voor uw organisatie. Als dat niet het geval is, neemt u contact op met uw Adobe Journey Optimizer-beheerder.
+Als u het menu **[!UICONTROL Reports]** niet kunt zien, moeten uw toegangsrechten worden uitgebreid om de machtiging **[!UICONTROL View Channel Reports]** op te nemen. U kunt uw eigen toestemmingen uitbreiden, als u toegang tot Adobe Experience Platform [ Toestemmingen ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html) {target="_blank"} voor uw organisatie hebt. Als dat niet het geval is, neemt u contact op met uw Adobe Journey Optimizer-beheerder.
 
 +++Leer hoe te om rapporttoestemming toe te wijzen
 
-Deze machtiging is opgenomen in de volgende ingebouwde **[!UICONTROL Roles]**: Campagne Manager, Campagne Approver, Campagne Viewer en Campagne Administrator.
+Deze machtiging is opgenomen in de volgende ingebouwde **[!UICONTROL Roles]** : Campagne Manager, Campagne Approver, Campagne Viewer en Campagne Administrator.
 
-Om de overeenkomstige toestemming aan uw toe te wijzen **[!UICONTROL Role]**:
+U kunt als volgt de corresponderende machtiging aan uw **[!UICONTROL Role]** toewijzen:
 
-1. Van de [!DNL Permissions] product, navigeer naar de **[!UICONTROL Roles]** en selecteert u de rol die u wilt bijwerken met het nieuwe **[!UICONTROL View Channel Reports]** toestemming.
+1. Navigeer in het product [!DNL Permissions] naar het menu **[!UICONTROL Roles]** en selecteer de rol die u wilt bijwerken met de nieuwe machtiging **[!UICONTROL View Channel Reports]** .
 
-1. Van uw **[!UICONTROL Role]** dashboard, klik **[!UICONTROL Edit]**.
+1. Klik op het dashboard van **[!UICONTROL Role]** **[!UICONTROL Edit]** .
 
    ![](assets/channel_permission_1.png)
 
-1. Sleep de **[!UICONTROL Reports]** bron om bevoegdheid toe te wijzen.
+1. Sleep de **[!UICONTROL Reports]** -bron om deze toe te wijzen.
 
-   Van de **[!UICONTROL Report]** bron drop-down, selecteer **[!UICONTROL View Channel Reports]** toestemming.
+   Selecteer in de vervolgkeuzelijst **[!UICONTROL Report]** resource de machtiging **[!UICONTROL View Channel Reports]** .
 
    ![](assets/channel_permission_2.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
-Gebruikers die aan deze **[!UICONTROL Role]** hebben nu toegang tot **[!UICONTROL Reports]** -menu.
+Gebruikers die zijn toegewezen aan dit **[!UICONTROL Role]** , hebben nu toegang tot het menu **[!UICONTROL Reports]** .
 
 +++
 
@@ -57,21 +61,21 @@ Gebruikers die aan deze **[!UICONTROL Role]** hebben nu toegang tot **[!UICONTRO
 
 Ga als volgt te werk om uw kanaalrapporten te openen en te beheren:
 
-1. Ga naar de **[!UICONTROL Reports]** in het menu **[!UICONTROL Journey Management]** sectie.
+1. Navigeer naar het menu **[!UICONTROL Reports]** in de sectie **[!UICONTROL Journey Management]** .
 
    ![](assets/channel_report_1.png)
 
-1. Kies een **Start** en **[!UICONTROL End time]** specifieke gegevens als doel in te stellen.
+1. Van uw dashboard, kies a **Begin** en **[!UICONTROL End time]** om specifieke gegevens te richten.
 
-1. Van de **[!UICONTROL Action from]** Schakel deze optie in als u campagnes, reizen of beide wilt activeren.
+1. Selecteer in de vervolgkeuzelijst **[!UICONTROL Action from]** of u campagnes, reizen of beide wilt aanwijzen.
 
    ![](assets/channel_report_2.png)
 
-1. Klikken **[!UICONTROL Modify]** om widgets te vergroten of te verkleinen of te verwijderen om een dashboard te maken dat aan uw specifieke behoeften voldoet.
+1. Klik op **[!UICONTROL Modify]** om widgets groter of kleiner te maken of te verwijderen en een dashboard te maken dat aan uw specifieke behoeften voldoet.
 
    ![](assets/channel_report_3.png)
 
-1. Als u tevreden bent met de weergavevolgorde en de grootte van de widgets, klikt u op **[!UICONTROL Save]**.
+1. Als u tevreden bent met de weergavevolgorde en de grootte van de widgets, klikt u op **[!UICONTROL Save]** .
 
 1. Afhankelijk van de widget kunt u schakelen tussen een tabel, staafdiagram of donut.
 
@@ -85,9 +89,9 @@ U kunt uw verschillende rapporten gemakkelijk naar PDF of formaten CSV uitvoeren
 
 >[!BEGINTABS]
 
->[!TAB Uw rapport exporteren als een PDF-bestand]
+>[!TAB  Uitvoer uw rapport als dossier van PDF ]
 
-1. Klik in uw rapport op **[!UICONTROL Export]** en selecteert u **[!UICONTROL PDF file]**.
+1. Klik in uw rapport op **[!UICONTROL Export]** en selecteer **[!UICONTROL PDF file]** .
 
 1. Configureer het document in het venster Afdrukken naar wens. Welke opties beschikbaar zijn, is afhankelijk van de browser.
 
@@ -97,11 +101,11 @@ U kunt uw verschillende rapporten gemakkelijk naar PDF of formaten CSV uitvoeren
 
 Uw rapport is nu beschikbaar voor weergave of delen in een PDF-bestand.
 
->[!TAB Uw rapport exporteren als een CSV-bestand]
+>[!TAB  Uitvoer uw rapport als Csv- dossier ]
 
-1. Klik in uw rapport op **[!UICONTROL Export]** en selecteert u **[!UICONTROL CSV file]** om een CSV-bestand op algemeen rapportniveau te genereren.
+1. Klik in uw rapport op **[!UICONTROL Export]** en selecteer **[!UICONTROL CSV file]** om een CSV-bestand op algemeen rapportniveau te genereren.
 
-1. U kunt er ook voor kiezen om gegevens uit een specifieke widget te exporteren. Klikken **[!UICONTROL Export widget data to CSV]** naast de geselecteerde widget.
+1. U kunt er ook voor kiezen om gegevens uit een specifieke widget te exporteren. Klik op **[!UICONTROL Export widget data to CSV]** naast de geselecteerde widget.
 
 1. Het bestand wordt automatisch gedownload en kan zich in uw lokale bestanden bevinden.
 

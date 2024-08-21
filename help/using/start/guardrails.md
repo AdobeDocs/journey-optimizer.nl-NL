@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: aa69046bde7ea5862fb507695d12584939fae9f8
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2279'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,11 @@ Adobe [!DNL Journey Optimizer] interface is ontworpen om optimaal te werken in d
 * Mediabestanden voor MMS kunnen via een ondersteunde URL worden opgenomen. Controleer of het mediabestand afzonderlijk is geüpload.
 * Berichtfeedback synchroniseren is momenteel niet beschikbaar voor MMS.
 * Het beheer van de toestemming werkt op het kanaalniveau van SMS voor MMS.
+
+### Webkanaalhulplijnen {#web-guardrails}
+
+[!DNL Journey Optimizer] webcampagnes zijn gericht op nieuwe profielen die nog niet eerder zijn ingeschakeld op andere kanalen. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden. De metriek van de vergunning voor elk pakket is vermeld op de [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) {target="_blank"} pagina.
+
 
 ## Subdomeinen guardraals {#subdomain-guardrails}
 
@@ -174,9 +179,7 @@ De volgende hulplijn is van toepassing op de **[!UICONTROL Audience Qualificatio
 
 * De inhoud van berichten in de app is beperkt tot 2 MB. Het opnemen van grote afbeeldingen kan het publicatieproces belemmeren.
 
-## Audiëntenguardrails {#audience}
 
-* U kunt maximaal 10 publiekscomposities in een bepaalde sandbox publiceren. Als u deze drempel hebt bereikt, moet u een samenstelling schrappen om ruimte vrij te maken en nieuwe te publiceren.
 
 ### Snelheid {#jump-g}
 
@@ -188,6 +191,10 @@ De volgende instructies zijn van toepassing op de activiteiten **[!UICONTROL Cam
 
 * Adobe Campaign-activiteiten kunnen niet worden gebruikt met een Read-publiek of met een Audience-kwalificatieactiviteit.
 * Deze activiteiten kunnen niet worden gebruikt met In-app-activiteiten.
+
+## Audiëntenguardrails {#audience}
+
+U kunt maximaal 10 publiekscomposities in een bepaalde sandbox publiceren. Als u deze drempel hebt bereikt, moet u een samenstelling schrappen om ruimte vrij te maken en nieuwe te publiceren.
 
 ## Garanties voor besluitvormingsbeheer {#decision-management}
 

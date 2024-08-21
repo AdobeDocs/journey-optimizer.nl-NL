@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: extern, bronnen, gegevens, configuratie, verbinding, derde
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 72%
+source-wordcount: '1496'
+ht-degree: 61%
 
 ---
 
@@ -27,11 +27,11 @@ Met externe databronnen kunt u een verbinding maken met externe systemen, bijvoo
 
 >[!NOTE]
 >
->Bij het werken met externe systemen worden de geleidingskanalen vermeld in [deze pagina](../configuration/external-systems.md).
+>De begeleiding wanneer het werken met externe systemen is vermeld in [ deze pagina ](../configuration/external-systems.md).
 
 >[!NOTE]
 >
->Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Zie deze voor meer informatie over reacties [sectie](../action/action-response.md)
+>Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [ sectie ](../action/action-response.md)
 
 REST-API’s die gebruikmaken van POST of GET en JSON retourneren, worden ondersteund. API-sleutel, standaard en aangepaste verificatiemodi worden ondersteund.
 
@@ -69,15 +69,15 @@ Hier volgen de belangrijkste stappen voor het maken en configureren van een nieu
 
    ![](assets/journey27.png)
 
-1. Vorm de authentificatie afhankelijk van de externe de dienstconfiguratie: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]**, **[!UICONTROL Custom]** of **[!UICONTROL API key]**.
+1. Configureer de verificatie afhankelijk van de externe serviceconfiguratie: **[!UICONTROL No authentication]**, **[!UICONTROL Basic]** , **[!UICONTROL Custom]** of **[!UICONTROL API key]** .
 
    Voor de basisauthentificatiemodus, moet u een gebruikersbenaming en een wachtwoord invullen.
 
    >[!NOTE]
    >
-   >Wanneer de authentificatievraag wordt uitgevoerd, `<username>:<password>` string, gecodeerd in base64, wordt toegevoegd in de header Authentication.
+   >Wanneer de verificatieaanroep wordt uitgevoerd, wordt de `<username>:<password>` -tekenreeks, gecodeerd in base64, toegevoegd aan de verificatieheader.
 
-   Voor meer informatie over de wijze van de douaneauthentificatie, zie [deze sectie](../datasource/external-data-sources.md#custom-authentication-mode). In ons voorbeeld kiezen we de API-sleutelverificatiemodus:
+   Voor meer informatie over de wijze van de douaneauthentificatie, zie [ deze sectie ](../datasource/external-data-sources.md#custom-authentication-mode). In ons voorbeeld kiezen we de API-sleutelverificatiemodus:
 
    * **[!UICONTROL Type]**: ‘API-sleutel’
    * **[!UICONTROL Name]**: ‘appid’ (dit is de parameternaam van de API-sleutel)
@@ -99,10 +99,10 @@ Voor de parameterreeks ‘long/lat’ maken we een veldengroep met de volgende i
 
 Bij een GET-aanroep die parameter(s) vereist, voert u de parameter(s) in het veld **[!UICONTROL Dynamic Values]** in en worden deze automatisch toegevoegd aan het eind van de aanroep. Bij een POST-aanroep doet u het volgende:
 
-* lijst van de parameters die bij vraagtijd in **[!UICONTROL Dynamic Values]** veld (in het onderstaande voorbeeld: &quot;identifier&quot;).
+* geeft een lijst weer van de parameters die tijdens de aanroep moeten worden doorgegeven in het veld **[!UICONTROL Dynamic Values]** (in het onderstaande voorbeeld: &quot;identifier&quot;).
 * geef ze ook volgens precies dezelfde syntaxis op in de hoofdtekst van de verzonden payload. Hiervoor moet u het volgende toevoegen: &quot;param&quot;: &quot;name of your parameter&quot; (in het onderstaande voorbeeld: &quot;identifier&quot;). Volg de onderstaande syntaxis:
 
-  ```
+  ```json
   {"id":{"param":"identifier"}}
   ```
 
@@ -137,32 +137,32 @@ Bij deze verificatie is de uitvoering van de actie een proces dat uit twee stapp
 
 >[!NOTE]
 >
->**Deze verificatie bestaat uit twee delen.**
+>**Deze authentificatie heeft twee delen.**
 
 ### Definitie van het eindpunt dat moet worden geroepen om het toegangstoken te produceren{#custom-authentication-endpoint}
 
-* endpoint: URL om het eindpunt te genereren
-* methode van de HTTP-aanvraag bij het eindpunt (GET of POST)
-* kopballen: sleutel-waarde paren die als kopballen in deze vraag moeten worden ingespoten indien vereist
-* body: beschrijft de hoofdtekst van de aanroep als de methode POST is. Wij steunen een beperkte lichaamsstructuur, die in bodyParams (zeer belangrijke-waardeparen) wordt bepaald. Het bodyType beschrijft de indeling en versleuteling van de hoofdtekst in de aanroep:
-   * &#39;form&#39;: betekent dat het inhoudstype application/x-www-form-urlencoded (charset UTF-8) is en dat de sleutelwaardeparen serieel worden geordend zoals: key1=value1&amp;key2=value2&amp;..
-   * &#39;json&#39;: betekent dat het inhoudstype application/json (charset UTF-8) is en dat de sleutelwaardeparen als een JSON-object worden geserialiseerd: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+* `endpoint`: URL om het eindpunt te genereren
+* methode van het HTTP- verzoek op het eindpunt (`GET` of `POST`)
+* `headers`: sleutel-waarde paren die als kopballen in deze vraag moeten worden geïnjecteerd indien vereist
+* `body`: beschrijft de hoofdtekst van de aanroep als de methode POST is. Wij steunen een beperkte lichaamsstructuur, die in bodyParams (zeer belangrijke-waardeparen) wordt bepaald. Het bodyType beschrijft de indeling en versleuteling van de hoofdtekst in de aanroep:
+   * `form`: betekent dat het inhoudstype application/x-www-form-urlencoded (charset UTF-8) zal zijn en de sleutel-waardeparen zullen in series worden vervaardigd zoals is: key1=value1&amp;key2=value2&amp;..
+   * `json`: betekent dat het inhoudstype application/json (charset UTF-8) zal zijn en de sleutel-waardeparen als json voorwerp zullen in series worden vervaardigd zoals is: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 ### Definitie van de manier waarop het toegangstoken in het HTTP- verzoek van de actie moet worden ingespoten{#custom-authentication-access-token}
 
-* authorizationType: bepaalt hoe de gegenereerde toegangstoken in de HTTP-aanroep voor de actie moet worden geïnjecteerd. De mogelijke waarden zijn:
+* **authenticationType**: bepaalt hoe het geproduceerde toegangstoken in de vraag van HTTP voor de actie moet worden ingespoten. De mogelijke waarden zijn:
 
-   * bearer: geeft aan dat de toegangstoken moet worden geïnjecteerd in de Authorization-koptekst, bijvoorbeeld: _Authorization: Bearer &lt;toegangstoken>_
-   * header: geeft aan dat de toegangstoken moet worden geïnjecteerd als een koptekst, de header-naam gedefinieerd door de eigenschap tokenTarget. Als de tokenTarget bijvoorbeeld myHeader is, wordt de toegangstoken geïnjecteerd als koptekst als: _myHeader: &lt;toegangstoken>_
-   * queryParam: geeft aan dat de toegangstoken moet worden geïnjecteerd als een queryParam, de queryparam-naam gedefinieerd door de eigenschap tokenTarget. Als de tokenTarget bijvoorbeeld myQueryParam is, is de URL van de actieaanroep: _&lt;url>?myQueryParam=&lt;access token>_
+   * `bearer`: wijst erop dat het toegangstoken in de kopbal van de Vergunning moet worden ingespoten, zoals: _Vergunning: Drager &lt;access token>_
+   * `header`: geeft aan dat het toegangstoken moet worden geïnjecteerd als een header, de headernaam gedefinieerd door de eigenschap `tokenTarget` . Bijvoorbeeld, als `tokenTarget` `myHeader` is, zal het toegangstoken als kopbal als worden ingespoten: _myHeader: &lt;access token>_
+   * `queryParam`: wijst erop dat het toegangstoken als queryParam moet worden ingespoten, de naam van het vraagparam die door het bezit tokenTarget wordt bepaald. Als de tokenTarget bijvoorbeeld myQueryParam is, is de URL van de actieaanroep: _&lt;url>?myQueryParam=&lt;access token>_
 
-* tokenInResponse: geeft aan hoe de toegangstoken uit de verificatieaanroep moet worden gehaald. Deze eigenschap kan zijn:
-   * response: geeft aan dat de HTTP-reactie de toegangstoken is
-   * een selectietool in een json (ervan uitgaande dat de reactie een json is, we ondersteunen geen andere indelingen zoals XML). De indeling van deze selector is _json://&lt;pad naar de toegangstoken-eigenschap>_. Als de reactie van de aanroep bijvoorbeeld _{ “access_token”: “theToken”, “timestamp”: 12323445656 }_ is, is de tokenInResponse: _json: //access_token_
+* **tokenInResponse**: wijst erop hoe te om het toegangstoken uit de authentificatievraag te halen. Deze eigenschap kan zijn:
+   * `response`: geeft aan dat het HTTP-antwoord het toegangstoken is
+   * een kiezer in een json (ervan uitgaande dat de reactie een json is, ondersteunen we geen andere indelingen, zoals XML). De indeling van deze selector is _json://&lt;pad naar de toegangstoken-eigenschap>_. Als de reactie van de aanroep bijvoorbeeld _{ “access_token”: “theToken”, “timestamp”: 12323445656 }_ is, is de tokenInResponse: _json: //access_token_
 
 De indeling van deze verificatie is:
 
-```
+```json
 {
     "type": "customAuthorization",
     "endpoint": "<URL of the authentication endpoint>",
@@ -193,15 +193,13 @@ De indeling van deze verificatie is:
 >
 >Encode64 is de enige functie beschikbaar in de authentificatielading.
 
-U kunt de cachetermijn van de token wijzigen voor een databron met aangepaste verificatie. Hieronder ziet u een voorbeeld van een payload met aangepaste verificatie. De cachetermijn wordt gedefinieerd in de parameter cacheDuration. Hiermee wordt de retentieduur van de gegenereerde token in de cache opgegeven. De eenheid kan milliseconden, seconden, minuten, uren, dagen, maanden of jaren zijn.
+U kunt de cachetermijn van de token wijzigen voor een databron met aangepaste verificatie. Hieronder ziet u een voorbeeld van een payload met aangepaste verificatie. De duur van de cache wordt gedefinieerd in de parameter `cacheDuration` . Hiermee wordt de retentieduur van de gegenereerde token in de cache opgegeven. De eenheid kan milliseconden, seconden, minuten, uren, dagen, maanden of jaren zijn.
 
 Hier is een voorbeeld voor het dragerauthentificatietype:
 
-```
+```json
 {
-  "authentication": {
     "type": "customAuthorization",
-    "authorizationType": "Bearer",
     "endpoint": "https://<your_auth_endpoint>/epsilon/oauth2/access_token",
     "method": "POST",
     "headers": {
@@ -220,9 +218,8 @@ Hier is een voorbeeld voor het dragerauthentificatietype:
     "cacheDuration": {
       "duration": 5,
       "timeUnit": "minutes"
-    }
-  }
-}
+    },
+  },
 ```
 
 >[!NOTE]
@@ -234,11 +231,9 @@ Hier is een voorbeeld voor het dragerauthentificatietype:
 
 Hier ziet u een voorbeeld van het type headerverificatie:
 
-```
+```json
 {
   "type": "customAuthorization",
-  "authorizationType": "header",
-  "tokenTarget": "x-auth-token",
   "endpoint": "https://myapidomain.com/v2/user/login",
   "method": "POST",
   "headers": {
@@ -255,13 +250,15 @@ Hier ziet u een voorbeeld van het type headerverificatie:
   "cacheDuration": {
     "expiryInResponse": "json://expiryDuration",
     "timeUnit": "minutes"
-  }
-}
+  },
+  "authorizationType": "header",
+  "tokenTarget": "x-auth-token"
+} 
 ```
 
 Hier is een voorbeeld van de reactie van de login API vraag:
 
-```
+```json
 {
   "token": "xDIUssuYE9beucIE_TFOmpdheTqwzzISNKeysjeODSHUibdzN87S",
   "expiryDuration" : 5

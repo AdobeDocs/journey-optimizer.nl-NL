@@ -8,14 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c487bb38-49ce-4238-8e94-8364f994cedd
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
 
 # Lijst met componenten {#list-of-components-global}
+
+>[!AVAILABILITY]
+>
+>De huidige ervaring met rapportage wordt vanaf de release van oktober opgeheven. Na deze datum wordt de nieuwe ervaring met rapportage de norm. We raden u aan bekend te maken met de nieuwe functies en functies om een soepele overgang te garanderen. [ worden begonnen met Journey Optimizer nieuwe het Melden interface.](report-gs-cja.md)
 
 De lijsten hieronder geven u de lijst van metriek die in rapporten en hun definities afhankelijk van het leveringstype wordt gebruikt.
 
@@ -24,30 +28,30 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
 <table> 
  <thead> 
   <tr> 
-   <th> Metrisch<br/> </th> 
-   <th> Definitie<br/> </th> 
+   <th> Metrisch <br/> </th> 
+   <th> Definition<br/> </th> 
 </tr>
  </thead> 
  <tbody> 
   <tr> 
-   <td>Handelingen zijn uitgevoerd<br/> </td> 
-   <td> Het totale aantal acties dat is uitgevoerd voor een reis.<br/> </td> 
+   <td>Handelingen zijn uitgevoerd <br/> </td> 
+   <td> Het totale aantal Acties met succes uitgevoerd voor een reis.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Ingevoerde profielen<br/> </td> 
-   <td> Het totale aantal personen dat de inreisgebeurtenis van de reis heeft bereikt.<br/> </td> 
+   <td> Ingevoerde profielen <br/> </td> 
+   <td> Het totale aantal personen dat de gebeurtenis entry van de reis heeft bereikt.<br/> </td> 
 </tr>
   <tr> 
-   <td> Fout in handeling<br/> </td> 
-   <td>Het totale aantal fouten dat is opgetreden voor handelingen.<br/> </td> 
+   <td> Fout in handeling <br/> </td> 
+   <td>Het totale aantal fouten dat voor Acties voorkwam.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Beëindigde profielen<br/> </td> 
+   <td> Beëindigde profielen <br/> </td> 
    <td> Het totale aantal personen dat de reis heeft verlaten.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Afgebroken individuele reis<br/> </td> 
-   <td> Het totale aantal individuele reizen dat niet succesvol is uitgevoerd.<br/> </td> 
+   <td> Afgebroken individuele reis <br/> </td> 
+   <td> Het totale aantal individuele reizen dat niet met succes werd uitgevoerd.<br/> </td> 
 </tr> 
  </tbody> 
 </table>
@@ -57,86 +61,86 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
 <table> 
  <thead> 
   <tr> 
-   <th> Metrisch<br/> </th> 
-   <th> Definitie<br/> </th> 
+   <th> Metrisch <br/> </th> 
+   <th> Definition<br/> </th> 
 </tr>
  </thead> 
  <tbody>
   <tr> 
-   <td> Bounces<br/> </td> 
-   <td> Totaal van fouten die tijdens het verzendingsproces zijn gecumuleerd en automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.<br/> </td> 
+   <td> Bounces <br/> </td> 
+   <td> Totaal van fouten die tijdens het verzendende proces en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Stuitsnelheid<br/> </td> 
-   <td> Percentage van e-mails dat is teruggestuurd in vergelijking met verzonden e-mails.<br/> </td> 
+   <td> Stuitsnelheid <br/> </td> 
+   <td> Percentage van e-mailberichten dat is teruggestuurd in vergelijking met verzonden e-mailberichten.<br/> </td> 
 </tr>
   <tr> 
-   <td> Klikken<br/> </td> 
-   <td> Aantal keer dat er op een inhoud in een e-mail is geklikt.<br/> </td> 
+   <td> Klikken <br/> </td> 
+   <td> Aantal keren dat op een inhoud is geklikt in een e-mail.<br/> </td> 
 </tr> 
   <tr> 
    <td> Geleverd <br/> </td> 
    <td> Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.<br/></td> 
 </tr> 
   <tr> 
-   <td> Leveringssnelheid<br/> </td> 
-   <td> Percentage berichten verzonden.<br/> </td> 
+   <td> Leveringsfrequentie <br/> </td> 
+   <td> Percentage van met succes verzonden berichten.<br/> </td> 
 </tr>
   <tr> 
-   <td> Fouten<br/> </td> 
-   <td> Het totale aantal fouten dat is opgetreden tijdens het verzendproces waardoor het niet naar profielen kan worden verzonden.<br/> </td> 
+   <td> Fouten <br/> </td> 
+   <td> Het totale aantal fouten dat tijdens het verzendende proces voorkwam verhinderend het worden verzonden naar profielen.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Foutfrequentie<br/> </td> 
-   <td> Percentage fouten dat is opgetreden tijdens het verzendproces waardoor het niet kan worden verzonden, vergeleken met verzonden e-mailberichten.<br/> </td> 
+   <td> Foutfrequentie <br/> </td> 
+   <td> Percentage fouten die tijdens het verzendingsproces voorkwamen waardoor het niet werd verzonden vergeleken met verzonden e-mails.<br/> </td> 
 </tr>
 </tr> 
   <tr> 
-   <td> Foutreden<br/> </td> 
-   <td> Naam van de specifieke oorspronkelijke oorzaak van de fout. <a href="exclusion-list.md">Meer informatie over oorzaken van fouten</a>.<br/> </td> 
+   <td> Foutreden <br/> </td> 
+   <td> Naam van de specifieke oorspronkelijke oorzaak van de fout. <a href="exclusion-list.md"> leer meer op foutenredenen </a>.<br/> </td> 
 </tr>
   <tr> 
-   <td> Uitgesloten<br/> </td> 
+   <td> Uitgesloten <br/> </td> 
    <td> Aantal profielen dat door Adobe Journey Optimizer is uitgesloten.<br/> </td> 
 </tr>
   <tr> 
-   <td> Hard stuiteren<br/> </td> 
-   <td> Het totale aantal permanente fouten, zoals een onjuist e-mailadres. Dit omvat een foutbericht waarin expliciet wordt aangegeven dat het adres ongeldig is, zoals Onbekende gebruiker.<br/> </td>
+   <td> Hard stuiteren <br/> </td> 
+   <td> Het totale aantal permanente fouten, zoals een onjuist e-mailadres. Dit impliceert een foutenmelding die uitdrukkelijk verklaart dat het adres, zoals Onbekende gebruiker ongeldig is.<br/> </td>
 </tr>
   <tr> 
-   <td> Genegeerd<br/> </td> 
-   <td> Het totale aantal tijdelijke gegevens, zoals Buiten-kantoor, of een technische fout, bijvoorbeeld als het type afzender postmaster is.<br/> </td> 
+   <td> Genegeerd <br/> </td> 
+   <td> Het totale aantal tijdelijk, zoals uit bureau, of een technische fout, bijvoorbeeld als het afzendertype postmaster is.<br/> </td> 
 </tr>
    <tr> 
-   <td>Aanbiedingskliktarief<br/> </td> 
-   <td>Percentage gebruikers dat interactie had met het aanbod.<br/> </td> 
+   <td>Aanbieding met klikfrequentie <br/> </td> 
+   <td>Percentage gebruikers die met de aanbieding interactie hadden gehad.<br/> </td> 
 </tr>
    <tr> 
-   <td>Afbeeldingsfrequentie voorstel<br/> </td> 
-   <td>Percentage geopende aanbiedingen in verhouding tot het aantal verzonden aanbiedingen.<br/> </td> 
+   <td>Weergavesnelheid voorstel <br/> </td> 
+   <td>Percentage geopende aanbiedingen vergeleken met het aantal verzonden aanbiedingen.<br/> </td> 
 </tr>
    <tr> 
-   <td>Naam van aanbieding<br/> </td> 
-   <td> Naam van de aanbieding die in de levering is toegevoegd. Raadpleeg deze voor meer informatie over plaatsing <a href="../offers/offer-library/creating-personalized-offers.md">page</a>.<br/> </td> 
+   <td>Naam van aanbieding <br/> </td> 
+   <td> Naam van de aanbieding die in de levering is toegevoegd. Voor meer informatie bij plaatsing, verwijs naar deze <a href="../offers/offer-library/creating-personalized-offers.md"> pagina </a>.<br/> </td> 
 </tr>
    <tr> 
-   <td>Voorstel verzonden<br/> </td> 
-   <td>Het totale aantal verzendingen voor de aanbieding.<br/> </td> 
+   <td>Voorstel verzonden <br/> </td> 
+   <td>Het totale aantal verzendt voor de aanbieding.<br/> </td> 
 </tr> 
   <tr>
-   <td>Openen<br/> </td> 
-   <td> Aantal keren dat het bericht is geopend.<br/> </td> 
+   <td>Opens <br/> </td> 
+   <td> Aantal tijden het bericht werd geopend.<br/> </td> 
 </tr> 
   <tr> 
-   <td> OpenRate<br/> </td> 
+   <td> Open Rate <br/> </td> 
    <td> Het totale aantal geopende e-mails in verhouding tot het aantal geleverde e-mails.<br/> </td> 
 </tr>
   <tr> 
-   <td>Plaatsaanduiding<br/> </td> 
-   <td> Naam van de plaatsing die u hebt gebruikt om uw voorstel weer te geven. Raadpleeg deze voor meer informatie over plaatsing <a href="../offers/offer-library/creating-placements.md">page</a>. </td> 
+   <td>Plaatsingsnaam <br/> </td> 
+   <td> Naam van de plaatsing die u hebt gebruikt om uw voorstel weer te geven. Voor meer informatie over plaatsing, verwijs naar deze <a href="../offers/offer-library/creating-placements.md"> pagina </a>. </td> 
 </tr> 
   <tr> 
-   <td> Opnieuw<br/> </td> 
+   <td> Opnieuw proberen <br/> </td> 
    <td> Aantal e-mails in de wachtrij voor nieuwe pogingen.<br/> </td> 
 </tr> 
   <tr> 
@@ -144,32 +148,32 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
    <td> Het totale aantal verzendt voor de levering.<br/> </td> 
 </tr>
   <tr> 
-   <td> Zachte stuit<br/> </td> 
-   <td> Het totale aantal tijdelijke fouten, zoals een volledig postvak.<br/> </td> 
+   <td> Zacht stuiteren <br/> </td> 
+   <td> Het totale aantal tijdelijke fouten, zoals volledig inbox.<br/> </td> 
 </tr>
   <tr> 
-   <td> Spam-klachten<br/> </td> 
-   <td> Aantal keren dat een bericht als spam of junk werd verklaard.<br/> </td> 
+   <td> Spam-klachten <br/> </td> 
+   <td> Aantal tijden een bericht werd verklaard als spam of junk.<br/> </td> 
 </tr>
   <tr> 
-   <td> Gericht<br/> </td> 
-   <td> Het totale aantal berichten dat tijdens de leveringsanalyse wordt verwerkt.<br/> </td> 
+   <td> Gericht <br/> </td> 
+   <td> Het totale aantal berichten die tijdens de leveringsanalyse worden verwerkt.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Unieke klikken<br/> </td> 
-   <td> Aantal ontvangers dat op een inhoud in een e-mail heeft geklikt.<br> Let op: bij het berekenen van unieke kliks wordt rekening gehouden met de laatste tien dagen. Als een profiel meerdere klikken registreert binnen de periode van 10 dagen, worden deze als unieke klikken geteld. Als een profiel echter twee klikken bevat die langer zijn dan tien dagen van elkaar, worden deze niet beschouwd als een unieke klik.<br/> </td> 
+   <td> Unieke klikken <br/> </td> 
+   <td> Aantal ontvangers dat op een inhoud in een e-mail heeft geklikt.<br> Opmerking: bij het berekenen van unieke kliks wordt rekening gehouden met de laatste 10 dagen. Als een profiel meerdere klikken registreert binnen de periode van 10 dagen, worden deze als unieke klikken geteld. Nochtans, als een profiel 2 klikken meer dan 10 dagen uit elkaar heeft, zullen zij niet als unieke kliks worden beschouwd.<br/> </td> 
 </tr> 
   <tr> 
-   <td>Unieke klikfrequentie<br/> </td> 
-   <td> Percentage gebruikers dat interactie had met de levering.<br/> </td> 
+   <td>Unieke kliksnelheid <br/> </td> 
+   <td> Percentage gebruikers die met de levering interactie hadden gehad.<br/> </td> 
 </tr>
   <tr> 
-   <td> Unieke open<br/> </td> 
-   <td>Aantal ontvangers dat de levering heeft geopend. <br> Wanneer unieke gegevens worden berekend, wordt rekening gehouden met de laatste tien dagen. Als een profiel meerdere keren wordt geregistreerd en binnen de periode van 10 dagen wordt geopend, worden deze geteld als uniek geopend. Als een profiel echter 2 groter dan 10 dagen uit elkaar staat, worden deze niet beschouwd als een uniek geopend profiel.<br/> </td> 
+   <td> Unieke opens <br/> </td> 
+   <td>Aantal ontvangers dat de levering heeft geopend. <br> Let op: bij het berekenen van het unieke venster wordt rekening gehouden met de laatste 10 dagen. Als een profiel meerdere keren wordt geregistreerd en binnen de periode van 10 dagen wordt geopend, worden deze geteld als uniek geopend. Nochtans, als een profiel 2 meer dan 10 dagen uit elkaar opent, zullen zij niet als uniek worden beschouwd opent.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Abonnementen<br/> </td> 
-   <td> Aantal klikken op de verbinding van het unsubscription.<br/> </td> 
+   <td> Abonnementen opzeggen <br/> </td> 
+   <td> Aantal klikken op de unsubscription verbinding.<br/> </td> 
 </tr> 
  </tbody> 
 </table>
@@ -264,30 +268,30 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
 <table> 
  <thead> 
   <tr> 
-   <th> Metrisch<br/> </th> 
-   <th> Definitie<br/> </th> 
+   <th> Metrisch <br/> </th> 
+   <th> Definition<br/> </th> 
 </tr>
  </thead> 
  <tbody>
  <tr> 
-   <td>Klikken<br/> </td> 
-   <td>Het totale aantal ontvangers dat interactie heeft gehad met de knoppen die in het bericht in de app zijn opgenomen.<br/> </td> 
+   <td>Klikken <br/> </td> 
+   <td>Het totale aantal ontvangers dat interactie heeft gehad met de knoppen die zijn opgenomen in het bericht in de app.<br/> </td> 
 </tr>
   <tr> 
-   <td>Klikfrequentie<br/> </td> 
-   <td>Percentage gebruikers dat interactie had met de knoppen in het In-app-bericht vergeleken met gebruikers die het bericht zagen.<br/> </td> 
+   <td>Klikfrequentie <br/> </td> 
+   <td>Percentage gebruikers die met de knopen inbegrepen in het In-app bericht in interactie kwamen vergeleken met gebruikers die het bericht zagen.<br/> </td> 
 </tr> 
   <tr> 
-   <td>Verzendfrequentie<br/> </td> 
+   <td>Mate van negeren <br/> </td> 
    <td> Percentage in-app-berichten dat ontvangers hebben genegeerd.<br/> </td> 
 </tr> 
   <tr> 
-   <td>Impressies<br/> </td> 
-   <td> Het totale aantal in-app berichten dat aan alle gebruikers wordt geleverd.<br/> </td>
+   <td>Impressies <br/> </td> 
+   <td> Het totale aantal berichten in de app dat aan alle gebruikers wordt geleverd.<br/> </td>
 </tr>
   <tr> 
-   <td>Unieke afbeeldingen<br/> </td> 
-   <td>Aantal unieke gebruikers aan wie het In-app-bericht is bezorgd.<br/> </td>
+   <td>Unieke afbeeldingen <br/> </td> 
+   <td>Aantal unieke gebruikers aan wie het in-app bericht werd geleverd.<br/> </td>
 </tr>
  </tbody> 
 </table>
@@ -297,70 +301,70 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
 <table> 
  <thead> 
   <tr> 
-   <th> Metrisch<br/> </th> 
-   <th> Definitie<br/> </th> 
+   <th> Metrisch <br/> </th> 
+   <th> Definition<br/> </th> 
 </tr>
  </thead> 
  <tbody>
  <tr> 
-   <td>Handelingen<br/> </td> 
+   <td>Handelingen <br/> </td> 
    <td> Het totale aantal acties op de geleverde pushmelding, bijvoorbeeld klikken op de knop of ontslag.<br/> </td> 
 </tr>
   <tr> 
-   <td>Bounces<br/> </td> 
+   <td>Bounces <br/> </td> 
    <td> Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Stuitsnelheid<br/> </td> 
+   <td> Stuitsnelheid <br/> </td> 
    <td> Percentage pushmeldingen dat is teruggestuurd in vergelijking met verzonden pushberichten.<br/> </td>
 </tr>
   <tr> 
-   <td> Geleverd<br/> </td> 
-   <td> Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.<br/> </td> 
+   <td> Geleverd <br/> </td> 
+   <td> Aantal met succes verzonden berichten, met betrekking tot het totale aantal verzonden berichten.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Leveringsgraad<br/> </td> 
-   <td> Percentage pushberichten verzonden.<br/> </td> 
+   <td> Leveringsfrequentie <br/> </td> 
+   <td> Percentage pushmeldingen verzonden.<br/> </td> 
 </tr>
   <tr> 
-   <td>Engages<br/> </td> 
-   <td> Het totale aantal keren dat wordt geopend en de acties voor deze pushmelding, bijvoorbeeld als het profiel de pushmelding heeft geopend of als op een knop is geklikt.<br/> </td> 
+   <td>Engagement <br/> </td> 
+   <td> Het totale aantal keren dat wordt geopend en acties voor deze pushmelding, bijvoorbeeld als het profiel de pushmelding heeft geopend of als op een knop is geklikt.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Betrokkenheid<br/> </td> 
-   <td> Percentage van het aantal keren dat wordt geopend en handelingen voor deze pushmelding, bijvoorbeeld als het profiel de pushmelding heeft geopend of als op een knop is geklikt.<br/> </td> 
+   <td> Betrokkenheid Tarief <br/> </td> 
+   <td> Percentage van open en acties voor dit pushbericht, d.w.z. als het profiel de drukknop opende of als op een knop werd geklikt.<br/> </td> 
 </tr>
   <tr> 
-   <td> Fouten<br/> </td> 
-   <td> Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.<br/> </td> 
+   <td> Fouten <br/> </td> 
+   <td> Het totale aantal fouten dat tijdens een levering voorkwam verhindert het worden verzonden naar profielen.<br/> </td> 
 </tr>
   <tr> 
-   <td> Foutfrequentie<br/> </td> 
+   <td> Foutfrequentie <br/> </td> 
    <td> Percentage fouten die optraden tijdens een levering waardoor deze niet kon worden verzonden, vergeleken met verzonden pushberichten.<br/> </td> 
 </tr>
   <tr> 
-   <td> Foutreden<br/> </td> 
-   <td> Naam van de specifieke oorspronkelijke oorzaak van de fout. <a href="exclusion-list.md">Meer informatie over oorzaken van fouten</a>.<br/> </td> 
+   <td> Foutreden <br/> </td> 
+   <td> Naam van de specifieke oorspronkelijke oorzaak van de fout. <a href="exclusion-list.md"> leer meer op foutenredenen </a>.<br/> </td> 
 </tr>
   <tr> 
-   <td> Uitgesloten<br/> </td> 
+   <td> Uitgesloten <br/> </td> 
    <td> Aantal profielen dat door Adobe Journey Optimizer is uitgesloten.<br/> </td> 
 </tr>
   <tr> 
-   <td> Openen<br/> </td> 
+   <td> Opens <br/> </td> 
    <td> Het totale aantal pushberichten dat aan het apparaat is geleverd en waarop gebruikers hebben geklikt om de app te openen. Dit is gelijkaardig aan de Duw klikt behalve zal een Duw Open niet teweeggebracht worden als het bericht werd verworpen.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Open rate<br/> </td> 
-   <td> Percentage geopende pushmeldingen.<br/> </td> 
+   <td> Open rate <br/> </td> 
+   <td> Percentage van geopende pushmeldingen.<br/> </td> 
 </tr> 
   <tr> 
    <td> Verzonden<br/> </td> 
    <td> Het totale aantal verzendt voor de levering.<br/> </td> 
 </tr> 
   <tr> 
-   <td> Gericht<br/> </td> 
-   <td> Het totale aantal pushberichten dat tijdens de leveringsanalyse is verwerkt.<br/> </td> 
+   <td> Gericht <br/> </td> 
+   <td> Het totale aantal duwberichten die tijdens de leveringsanalyse worden verwerkt.<br/> </td> 
 </tr>  
  </tbody> 
 </table>
@@ -370,55 +374,55 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
 <table> 
  <thead> 
   <tr> 
-   <th> Metrisch<br/> </th> 
-   <th> Definitie<br/> </th> 
+   <th> Metrisch <br/> </th> 
+   <th> Definition<br/> </th> 
 </tr>
  </thead> 
  <tbody>
  <tr> 
-  <td>Bounces<br/> </td> 
-   <td>Aantal personen die niet met de landingspagina in wisselwerking stonden en de actie van het intekenen niet voltooiden.<br/> </td> 
+  <td>Bounces <br/> </td> 
+   <td>Aantal personen die niet met de het landen pagina in wisselwerking stonden en niet de actie van het intekenen voltooiden.<br/> </td> 
 </tr>
  <tr> 
-   <td>Stuitpercentage<br/> </td> 
-   <td>Aantal personen dat niet met de landingspagina in wisselwerking stond en de actie van het intekenen niet voltooide, in verhouding tot het totale aantal bezoeken.<br/> </td> 
+   <td>Stuitsnelheid <br/> </td> 
+   <td>Aantal personen die niet met de landingspagina in wisselwerking stonden en de actie van het intekenen niet voltooiden, met betrekking tot het totale aantal bezoeken.<br/> </td> 
 </tr>
  <tr>
   <tr> 
-   <td>Klikken<br/> </td> 
+   <td>Klikken <br/> </td> 
    <td>Aantal keren dat op een inhoud is geklikt op de bestemmingspagina.<br/> </td> 
 </tr>
  <tr> 
-   <td>Klikfrequentie<br/> </td> 
-   <td>Percentage klikken op de bestemmingspagina.<br/> </td>
+   <td>Klikfrequentie <br/> </td> 
+   <td>Percentage van kliks in de het landen pagina.<br/> </td>
 </tr>
 <tr>
-<td>Conversie<br/> </td> 
+<td>Conversie <br/> </td> 
    <td>Aantal personen dat interactie had met de landingspagina, bijvoorbeeld geabonneerd op een formulier.<br/> </td> 
 </tr>
 <tr>
-   <td>Omrekeningskoers<br/> </td> 
-   <td>Aantal personen dat met de aanlandingspagina heeft gecommuniceerd, bv. op een formulier ingeschreven, in verhouding tot het totale aantal bezoeken.<br/> </td> 
+   <td>Conversiesnelheid <br/> </td> 
+   <td>Aantal personen dat interactie had met de landingspagina, bijvoorbeeld geabonneerd op een formulier, in verhouding tot het totale aantal bezoeken.<br/> </td> 
 </tr>
  <tr> 
-   <td>Reis(en)<br/> </td> 
+   <td>Reis(en) <br/> </td> 
    <td>Aantal bezoeken aan uw landingspagina die van een reis komen.<br/> </td> 
 </tr>
  <tr> 
-   <td>Andere bronnen<br/> </td> 
-   <td>Aantal bezoeken aan uw landingspagina die van een externe bron in plaats van een reis komen.<br/> </td> 
+   <td>Andere bronnen <br/> </td> 
+   <td>Aantal bezoeken aan uw landende pagina die uit een externe bron in plaats van een reis komen.<br/> </td> 
 </tr>
  <tr> 
-   <td>Totaal aantal bezoeken<br/> </td> 
-   <td> Het totale aantal bezoeken aan uw landingspagina dat afkomstig is van reizen en externe bronnen, inclusief meerdere bezoeken van één ontvanger.<br/> </td> 
+   <td>Totaal aantal bezoeken <br/> </td> 
+   <td> Het totale aantal bezoeken aan uw landingspagina die uit reizen en externe bronnen, met inbegrip van veelvoudige bezoeken van één ontvanger komen.<br/> </td> 
 </tr>
  <tr> 
-   <td>Unieke bezoekers<br/> </td> 
-   <td>Aantal personen dat uw landingspagina heeft bezocht, meerdere bezoeken van één ontvanger worden niet in aanmerking genomen.<br/> </td> 
+   <td>Unieke bezoekers <br/> </td> 
+   <td>Aantal personen dat uw landingspagina heeft bezocht, er wordt geen rekening gehouden met meerdere bezoeken van één ontvanger.<br/> </td> 
 </tr>
  <tr> 
-   <td>Bezoeken<br/> </td> 
-   <td>Aantal bezoeken aan uw landingspagina, met inbegrip van veelvoudige bezoeken van één ontvanger.<br/> </td> 
+   <td>Bezoekingen <br/> </td> 
+   <td>Aantal bezoeken aan uw landende pagina, met inbegrip van veelvoudige bezoeken van één ontvanger.<br/> </td> 
 </tr>
  </tbody> 
 </table>
