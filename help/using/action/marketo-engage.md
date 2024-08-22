@@ -7,12 +7,10 @@ feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 keywords: markt, markt om integratie te bevorderen
-source-git-commit: 8a8741281edafb812f92ebb8da6dd68d3535f3e1
+source-git-commit: 92591457d2189e3c43ea38c4a09d7cf565bb5d57
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -28,13 +26,13 @@ Sluit een naadloze gegevensintegratie met Marketo Engage aan. Deze specifieke aa
 ## Vereisten {#prerequisites}
 
 * De klanteninstantie van Marketo Engage moet IMS-Toegelaten zijn.
-* Marketo Engage-instantie en AEP/AJO-instantie moeten zich in dezelfde IMS Org bevinden. +link
-* De klant moet zijn voorzien van MktoSync: Toegang tot Ingestieservice (NOTA AAN ADD HIER + verbinding)
+* Marketo Engage-instantie en AEP/AJO-instantie moeten zich in dezelfde IMS Org bevinden.
+* De klant moet met **MktoSync worden voorzien: De toegang van de Dienst van de Opname**
 
 ## De handeling configureren {#configure-marketo-action}
 
 * Ga naar Beheer > Configuraties > Handelingen en klik op Beheren
-* Klik in de lijst Handelingen op Handeling maken. Meer informatie over het maken van aangepaste handelingen vindt u hier (+link)
+* Klik in de lijst Handelingen op Handeling maken. Lees meer op [ de acties van de Douane ](../building-journeys/using-custom-actions.md){target="_blank"}.
 * Typ naam, beschrijving en selecteer Adobe Marketo Engage als type handeling
 
 ![](assets/engage-customaction-creation.png){width="40%" align="left"}
@@ -111,8 +109,8 @@ U kunt nu uw aangepaste handeling op uw toegewijde canvas gebruiken.
 
 ## De handeling gebruiken {#engage-using}
 
-* Sleep de aangepaste handeling naar het canvas van de reis. (Zie hoe u een aangepaste handeling / koppeling kunt gebruiken)
-* In de parameters van het Verzoek, geeft de klik voor elk van de parameters met dynamische waarden uit die u in de lading hebt gevormd.
+* Sleep de aangepaste handeling naar het canvas van de reis.
+* In de **sectie van het Verzoek** parameters, geeft de klik voor elk van de parameters met dynamische waarden uit die u in de nuttige lading hebt gevormd.
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}
 
