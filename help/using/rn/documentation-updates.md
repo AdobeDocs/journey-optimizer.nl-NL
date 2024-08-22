@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 30144c26a03d145c9dc98c7a4db007d5c454a639
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '5450'
 ht-degree: 13%
@@ -205,7 +205,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * Er is een notitie toegevoegd om aan te geven dat als er wijzigingen worden aangebracht in een besluit over een aanbod dat wordt gebruikt in een reisbericht, u de reis ongedaan moet maken en opnieuw moet publiceren. [Meer informatie](../building-journeys/publishing-the-journey.md)
 * De verklaring op hoe te om ervoor te zorgen zijn de gebeurtenissen correct vermeld in de afluisterteller is verduidelijkt in de de gebeurtenissectie van de Beslissingsbeheer **Afdekkende gebeurtenis**. [Meer informatie](../offers/offer-library/add-constraints.md#capping-event)
 * Een nieuwe sectie is toegevoegd aan de **de uitvoeringsadressen van de Verandering** pagina. Het specificeert dat het mogelijk is om het uitvoeringsgebied met voeten te treden globaal in de reis geavanceerde parameters wordt geplaatst, maar de e-mailadresopheffing zou slechts voor specifieke gebruiksgevallen moeten worden gebruikt. Het grootste deel van de tijd, is de waarde die als primair adres in de **gebieden van de Uitvoering** wordt bepaald die zou moeten worden gebruikt. [Meer informatie](../configuration/primary-email-addresses.md#journey-parameters)
-* Het **URL volgen** sectie verstrekt nu de lijst en de beschrijving van alle contextafhankelijke attributen die voor URL het volgen in een oppervlakte van het e-mailkanaal kunnen worden geplaatst. [Meer informatie](../email/email-settings.md#url-tracking)
+* Het **URL volgen** sectie verstrekt nu de lijst en beschrijving van alle contextafhankelijke attributen die voor URL het volgen in een configuratie van het e-mailkanaal kunnen worden geplaatst. [Meer informatie](../email/email-settings.md#url-tracking)
 
 ## Maart 2023 {#march-2023}
 
@@ -296,7 +296,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 ## Juli 2022 {#july-2022}
 
 * Alle nieuwe functies en verbeteringen die zijn geïntroduceerd in de release van [!DNL Journey Optimizer] juli 2012 zijn beschreven in de documentatie. [Meer informatie](release-notes.md)
-* De **sectie van het het kanaaloppervlakte van de Opstelling** is duidelijk en bijgewerkt met verbindingen aan de pagina beschrijvend hoe te om het kanaal van SMS te vormen. [Meer informatie](../configuration/channel-surfaces.md#create-channel-surface)
+* De **sectie van het het kanaalconfiguraties van de Opstelling** is verduidelijkt en met verbindingen aan de pagina bijgewerkt beschrijvend hoe te om het kanaal van SMS te vormen. [Meer informatie](../configuration/channel-surfaces.md#create-channel-surface)
 * In de reiseigenschappen, wordt de **optie van de Tijdzone van het 0} Profiel {nu onbruikbaar gemaakt door gebrek.** [Meer informatie](../building-journeys/timezone-management.md#timezone-from-profiles)
 * In **wacht** activiteit, is de **Vaste datum** optie niet meer beschikbaar. [Meer informatie](../building-journeys/wait-activity.md)
 * Toegevoegde meer informatie over de **Incrementele gelezen** optie in de **Gelezen publiek** activiteit. [Meer informatie](../building-journeys/read-audience.md#configuring-segment-trigger-activity)

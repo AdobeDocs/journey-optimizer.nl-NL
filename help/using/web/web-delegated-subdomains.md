@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, subdomeinen, configuratie
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: c7c72a74b451759bf99f909bc146897c783f78ed
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 0%
@@ -32,31 +32,31 @@ ht-degree: 0%
 >title="Een websubdomein instellen"
 >abstract="Selecteer een subdomein in de lijst met subdomeinen die zijn gedelegeerd aan de Adobe. U kunt dit websubdomein instellen als het standaardsubdomein, maar er kan slechts één standaardsubdomein tegelijk worden gebruikt."
 
-Als u tijdens het ontwerpen van een webversie inhoud toevoegt die afkomstig is van de [Adobe Experience Manager Assets](../content-management/assets.md) moet u het subdomein instellen dat wordt gebruikt om deze inhoud te publiceren.
+Wanneer het ontwerpen van Webervaringen, als u inhoud toevoegt die uit de [ Adobe Experience Manager Assets ](../content-management/assets.md) bibliotheek komt, moet u opstelling subdomain die zal worden gebruikt om deze inhoud te publiceren.
 
-U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of u kunt een ander subdomein vormen. Meer informatie over het delegeren van subdomeinen naar Adobe in [deze sectie](../configuration/delegate-subdomain.md).
+U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of u kunt een ander subdomein vormen. Leer meer bij het delegeren van subdomeinen aan Adobe in [ deze sectie ](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
 >De subdomeinconfiguratie van het Web is gemeenschappelijk voor alle milieu&#39;s. Daarom geldt het volgende:
 >
->* Als u websubdomeinen wilt openen en bewerken, moet u beschikken over **[!UICONTROL Manage Web Subdomains]** toestemming voor de productiesandbox.
+>* Als u websubdomeinen wilt openen en bewerken, moet u beschikken over de machtiging **[!UICONTROL Manage Web Subdomains]** in de productiesandbox.
 >
 > * Elke wijziging aan een websubdomein heeft ook invloed op de productiesandboxen.
 
-U kunt meerdere subdomeinen voor het web maken, maar alleen de subdomeinen **default** subdomein wordt gebruikt. U kunt het standaardwebsubdomein wijzigen, maar u kunt slechts één subdomein tegelijk gebruiken.
+U kunt verscheidene Websubdomeinen tot stand brengen, maar slechts zal het **gebrek** subdomain worden gebruikt. U kunt het standaardwebsubdomein wijzigen, maar u kunt slechts één subdomein tegelijk gebruiken.
 
 ## Websubdomeinen openen en beheren {#access-web-subdomains}
 
-1. Ga naar de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, selecteert u vervolgens **[!UICONTROL Web configuration]** > **[!UICONTROL Web subdomains]**. Alle subdomeinen die zijn ingesteld met de huidige sandbox worden weergegeven.
+1. Ga naar het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteer vervolgens **[!UICONTROL Web settings]** > **[!UICONTROL Web subdomains]** . Alle subdomeinen die zijn ingesteld met de huidige sandbox worden weergegeven.
 
    ![](assets/web-access-subdomains.png)
 
-1. U kunt filteren op de gebruiker die elk subdomein of één van de delegatiestatus (**[!UICONTROL Draft]**, **[!UICONTROL Processing]**, **[!UICONTROL Success]** of **[!UICONTROL Failed]**).
+1. U kunt filteren op de gebruiker die elk subdomein of een van de delegatiestatus (**[!UICONTROL Draft]**, **[!UICONTROL Processing]**, **[!UICONTROL Success]** of **[!UICONTROL Failed]**) heeft gedelegeerd.
 
    ![](assets/web-filter-subdomains.png)
 
-1. De **[!UICONTROL Default]** badge wordt weergegeven naast het subdomein dat momenteel als standaard wordt gebruikt. Als u het standaardsubdomein wilt wijzigen, selecteert u **[!UICONTROL Set as default]** van de **[!UICONTROL More actions]** naast het gewenste subdomein.
+1. Het symbool **[!UICONTROL Default]** wordt weergegeven naast het subdomein dat momenteel als standaard wordt gebruikt. Als u het standaardsubdomein wilt wijzigen, selecteert u **[!UICONTROL Set as default]** in de knop **[!UICONTROL More actions]** naast het gewenste subdomein.
 
    ![](assets/web-subdomain-default.png)
 
@@ -68,11 +68,11 @@ U kunt meerdere subdomeinen voor het web maken, maar alleen de subdomeinen **def
 
 Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aan Adobe.
 
-1. Toegang krijgen tot de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, selecteert u vervolgens **[!UICONTROL Web configuration]** > **[!UICONTROL Web subdomains]**.
+1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteer vervolgens **[!UICONTROL Web settings]** > **[!UICONTROL Web subdomains]** .
 
 1. Klik op **[!UICONTROL Set up subdomain]**.
 
-1. Selecteer de **[!UICONTROL Use delegated subdomain]** van de **[!UICONTROL Configuration type]** en kiest u een gedelegeerd subdomein in de lijst.
+1. Selecteer de optie **[!UICONTROL Use delegated subdomain]** in de sectie **[!UICONTROL Configuration type]** en kies een gedelegeerd subdomein in de lijst.
 
    ![](assets/web-subdomain-details.png)
 
@@ -88,13 +88,13 @@ Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aa
 
    >[!NOTE]
    >
-   >Alleen de **default** subdomein wordt gebruikt.
+   >Slechts zal het **gebrek** subdomain worden gebruikt.
 
 1. Klik op **[!UICONTROL Submit]**. Het subdomein krijgt de **[!UICONTROL Success]** status. Het is klaar om te worden gebruikt voor uw webervaringen.
 
    >[!NOTE]
    >
-   >In zeer zeldzame gevallen, kon een subdomain opstelling ontbreken. In dit geval kunt u de opdracht **[!UICONTROL Failed]** subdomein om de lijst op te schonen met de opdracht **[!UICONTROL Delete]** van de knop **[!UICONTROL More actions]** pictogram.
+   >In zeer zeldzame gevallen, kon een subdomain opstelling ontbreken. In dit geval kunt u het subdomein **[!UICONTROL Failed]** verwijderen om de lijst op te schonen met de knop **[!UICONTROL Delete]** van het pictogram **[!UICONTROL More actions]** .
 
 ## Een nieuw subdomein configureren {#web-configure-new-subdomain}
 
@@ -107,13 +107,13 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
 >[!NOTE]
 >
->Standaard, [!DNL Journey Optimizer] Hiermee kunt u maximaal 10 subdomeinen in totaal delegeren (voor zowel e-mail als webkanalen). Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen delegeren. Bereik uit aan uw contact van de Adobe om meer over het aantal subdomeinen te leren u aan recht hebt.
+>In [!DNL Journey Optimizer] kunt u standaard maximaal 10 subdomeinen delegeren (voor zowel e-mail- als webkanalen). Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen delegeren. Bereik uit aan uw contact van de Adobe om meer over het aantal subdomeinen te leren u aan recht hebt.
 
-1. Toegang krijgen tot de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, selecteert u vervolgens **[!UICONTROL web configuration]** > **[!UICONTROL web subdomains]**.
+1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteer vervolgens **[!UICONTROL Web settings]** > **[!UICONTROL Web subdomains]** .
 
 1. Klik op **[!UICONTROL Set up subdomain]**.
 
-1. Selecteren **[!UICONTROL Add your own domain]** van de **[!UICONTROL Configuration type]** sectie.
+1. Selecteer **[!UICONTROL Add your own domain]** in de sectie **[!UICONTROL Configuration type]** .
 
 1. Geef het subdomein op dat u wilt delegeren.
 
@@ -135,11 +135,11 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
    >[!NOTE]
    >
-   >Alleen de **default** subdomein wordt gebruikt.
+   >Slechts zal het **gebrek** subdomain worden gebruikt.
 
 1. Het verslag dat in uw DNS serververtoningen moet worden geplaatst. Kopieer deze record of download een CSV-bestand en navigeer vervolgens naar de oplossing voor domeinhosting om de overeenkomende DNS-record te genereren.
 
-1. Zorg ervoor dat DNS het verslag in uw domein-ontvangende oplossing is geproduceerd. Als alles behoorlijk wordt gevormd, controleer de doos &quot;ik bevestig...&quot;, dan klik **[!UICONTROL Submit]**.
+1. Zorg ervoor dat DNS het verslag in uw domein-ontvangende oplossing is geproduceerd. Als alles correct is geconfigureerd, schakelt u het selectievakje &quot;I confirm...&quot; in en klikt u op **[!UICONTROL Submit]** .
 
    ![](assets/web-add-your-own-domain-confirm.png)
 
@@ -147,15 +147,15 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
    >
    >Wanneer u een nieuw Web subdomain vormt, zal het altijd aan een verslag van de NAAM richten.
 
-1. Nadat de subdomeindelegatie is verzonden, wordt het subdomein weergegeven in de lijst met de **[!UICONTROL Processing]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Nadat de subdomeindelegatie is verzonden, wordt het subdomein in de lijst weergegeven met de status **[!UICONTROL Processing]** . Voor meer op de statussen van subdomeinen, verwijs naar [ deze sectie ](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
    >[!NOTE]
    >
    >Voordat u dat subdomein kunt gebruiken om webberichten te verzenden, moet u wachten tot de Adobe de vereiste controles uitvoert. Dit kan maximaal 4 uur in beslag nemen.
 
-1. Wanneer de controles zijn voltooid, haalt het subdomein het subdomein **[!UICONTROL Success]** status. U kunt deze functie gebruiken om webkanaaloppervlakken te maken.
+1. Zodra de controles succesvol zijn, krijgt subdomain de **[!UICONTROL Success]** status. U kunt deze functie gebruiken om webkanaalconfiguraties te maken.
 
-   Het subdomein wordt gemarkeerd als **[!UICONTROL Failed]** als u er niet in slaagt de validatierecord voor uw hostoplossing te maken.
+   Het subdomein wordt gemarkeerd als **[!UICONTROL Failed]** als u geen validatierecord maakt voor de hostoplossing.
 
 <!--
 Only a subdomain with the **[!UICONTROL Success]** status can be set as default.

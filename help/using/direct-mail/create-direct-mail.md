@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: direct mail, bericht, campagne
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 3%
+source-wordcount: '753'
+ht-degree: 2%
 
 ---
 
@@ -28,18 +28,20 @@ Als u direct-mailberichten wilt maken, maakt u een geplande campagne en configur
 >Voordat u een direct-mailbericht maakt, moet u controleren of u het volgende hebt geconfigureerd:
 >
 >1. A [ dossier dat configuratie ](../direct-mail/direct-mail-configuration.md#file-routing-configuration) verplettert die de server specificeert waar het extractiedossier zou moeten worden geupload en worden opgeslagen,
->1. A [ direct-mailberichtoppervlakte ](../direct-mail/direct-mail-configuration.md#direct-mail-surface) die het dossier zal van verwijzingen voorzien dat configuratie verplettert.
+>1. A [ direct-mailberichtconfiguratie ](../direct-mail/direct-mail-configuration.md#direct-mail-surface) die het dossier zal van verwijzingen voorzien dat configuratie verplettert.
 
 
 ## Een campagne voor direct mail maken{#create-dm-campaign}
 
 Voer de volgende stappen uit om een campagne voor directe e-mail te maken:
 
-1. Maak een nieuwe geplande campagne en kies **[!UICONTROL Direct mail]** als de actie.
+1. Open het menu **[!UICONTROL Campaigns]** en klik op **[!UICONTROL Create campaign]** .
 
-1. Selecteer de **[!UICONTROL Direct mail surface]** die u wilt gebruiken en klik op **[!UICONTROL Create]** . [ Leer hoe te om een direct-mailoppervlakte ](direct-mail-configuration.md#direct-mail-surface) tot stand te brengen.
+1. Selecteer het type campagne dat u wilt uitvoeren
 
-   ![](assets/direct-mail-campaign.png){width="800" align="center"}
+   * **Gepland - Op de markt brengend**: voer onmiddellijk de campagne of op een gespecificeerde datum uit. Geplande campagnes zijn gericht op het verzenden van marketingberichten. Zij worden gevormd en uitgevoerd van het gebruikersinterface.
+
+   * **API-teweeggebracht - Marketing/Transactioneel**: voer de campagne uit gebruikend een API vraag. API-getriggerde campagnes zijn gericht op het verzenden van marketingberichten of transactiemeldingen, d.w.z. berichten die worden verzonden na een actie van een individu: wachtwoordinstelling, winkelwagentje enz.
 
 1. Bewerk in de sectie **[!UICONTROL Properties]** de items **[!UICONTROL Title]** en **[!UICONTROL Description]** van uw campagne.
 
@@ -51,7 +53,11 @@ Voer de volgende stappen uit om een campagne voor directe e-mail te maken:
 
 1. Selecteer in het veld **[!UICONTROL Identity namespace]** de juiste naamruimte om personen in het gekozen publiek te identificeren. [Meer informatie](../event/about-creating.md#select-the-namespace).
 
-   ![](assets/direct-mail-campaign-properties.png){width="800" align="center"}
+1. Kies in de sectie **[!UICONTROL Actions]** de optie **[!UICONTROL Direct mail]** .
+
+1. Selecteer of creeer nieuwe configuratie a **[!UICONTROL Direct mail configuration]** aan gebruik. [ Leer hoe te om een direct-mailconfiguratie ](direct-mail-configuration.md#direct-mail-surface) tot stand te brengen.
+
+   ![](assets/direct-mail-campaign.png){width="800" align="center"}
 
 1. De campagnes kunnen voor een specifieke datum worden gepland of worden geplaatst om met regelmatige intervallen opnieuw te komen. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [ te vormen deze sectie ](../campaigns/create-campaign.md#schedule).
 
@@ -78,12 +84,6 @@ U kunt nu het extractiebestand configureren en verzenden naar uw directe-mailpro
    1. Op het **[!UICONTROL Data]** gebied, selecteer de profielattributen om te tonen gebruikend de [ verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md).
 
    1. Als u het extractiebestand wilt sorteren met een kolom, selecteert u de kolom en schakelt u de optie **[!UICONTROL Sort by]** in. Het pictogram **[!UICONTROL Sort By]** wordt weergegeven naast het label van de kolom in de sectie **[!UICONTROL Data Fields]** .
-
-
-
-
-
-
 
 Het extractiebestand wordt vereist door directe-mailproviders om e-mail naar uw klanten te sturen. Voer de volgende stappen uit om de configuratie van het extractiebestand te definiëren:
 

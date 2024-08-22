@@ -10,7 +10,7 @@ level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 8484c39cf610fc4044e656243eba88deb8c50867
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 1%
@@ -102,7 +102,7 @@ Uw vertaalproject is nu gemaakt en kan worden gebruikt in een meertalige campagn
 
 In deze sectie kunt u de primaire taal en de bijbehorende landinstellingen instellen voor het beheer van meertalige inhoud. U kunt ook het kenmerk kiezen dat u wilt gebruiken om informatie met betrekking tot de profieltaal op te zoeken.
 
-1. Open **[!UICONTROL Channel]** via het menu **[!UICONTROL Administration]** .
+1. Open **[!UICONTROL Channel]** > **[!UICONTROL General settings]** in het menu **[!UICONTROL Administration]** .
 
 1. Klik in het menu **[!UICONTROL Language settings]** op **[!UICONTROL Create language settings]** .
 
@@ -131,7 +131,7 @@ In deze sectie kunt u de primaire taal en de bijbehorende landinstellingen inste
 1. Klik op **[!UICONTROL Submit]** om een **[!UICONTROL Language settings]** -bestand te maken.
 
 <!--
-1. Access the **[!UICONTROL Channel surfaces]** menu and create a new channel surface or select an existing one.
+1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.
 
 1. In the **[!UICONTROL Header parameters]** section, select the **[!UICONTROL Enable multilingual]** option.
 

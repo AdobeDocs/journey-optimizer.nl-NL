@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer
-description: Belangrijke Adobe Journey Optimizer-functies en gebruiksgevallen ontdekken
+description: Belangrijke Adobe Journey Optimizer-functies en gebruiksscenario's ontdekken
 feature: Get Started
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -19,20 +19,20 @@ ht-degree: 0%
 
 ## Wat is [!DNL Adobe Journey Optimizer]?{#about-cjm}
 
-[!DNL Adobe Journey Optimizer] helpt bedrijven om verbonden, contextafhankelijke en gepersonaliseerde ervaringen aan hun klanten te leveren. De reis van de klant is het volledige proces van interactie van een klant met het merk, van het eerste ogenblik van contact tot de klant vertrekt. Het begint met de bewustmakingsfase, waarin de klant leert over het merk en begint met het engageren. De klant zal dan verder met het merk communiceren, online en fysieke sites bezoeken, aankopen doen, berichten verzenden of revisies verzenden.
+[!DNL Adobe Journey Optimizer] helpt bedrijven om verbonden, contextafhankelijke en persoonlijke ervaringen aan hun klanten te bieden. De reis van de klant is het volledige proces van interactie van een klant met het merk, van het eerste ogenblik van contact tot de klant vertrekt. Het begint met de bewustmakingsfase, waarin de klant leert over het merk en begint met het engageren. De klant zal dan verder met het merk communiceren, online en fysieke sites bezoeken, aankopen doen, berichten verzenden of revisies verzenden.
 
-[!DNL Adobe Journey Optimizer] is native [!DNL Adobe Experience Platform] en combineert een verenigd, real-time klantprofiel, een API-eerste open kader, gecentraliseerde offer decisioning, en kunstmatige intelligentie (AI) en machine het leren (ML) voor verpersoonlijking en optimalisering. Met Journey Optimizer kunnen merken op intelligente wijze bepalen wat de volgende beste interactie is met schaal, snelheid en flexibiliteit voor de hele reis van de klant. Met [!DNL Adobe Journey Optimizer]kunnen bedrijven zowel geplande marketingcampagnes (zoals wekelijkse promoties voor een detailhandel) als afzonderlijke communicatie op maat maken en leveren (zoals een pushmelding voor een item dat een klant van een loyauteit-app mogelijk heeft bekeken en dat voorheen niet in voorraad was) binnen dezelfde toepassing.
+[!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en combineert een uniform, realtime klantprofiel, een API-eerste open framework, gecentraliseerde offer decisioning en artificieel intelligentie (AI) en computerleren (ML) voor personalisatie en optimalisatie. Met Journey Optimizer kunnen merken op intelligente wijze bepalen wat de volgende beste interactie is met schaal, snelheid en flexibiliteit voor de hele reis van de klant. Met [!DNL Adobe Journey Optimizer] kunnen bedrijven zowel geplande marketingcampagnes (zoals wekelijkse promoties voor een detailhandel) als op maat gesneden individuele communicatie (zoals een pushmelding voor een item dat een klant van een loyauteit-app eerder heeft bekeken) binnen dezelfde toepassing maken en leveren.
 
-➡️ [Discover Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html){target="_blank"} (video)
+➡️ [ ontdekt Journey Optimizer ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html) {target="_blank"} (video)
 
 
-## Gebruik hoofdletters {#use-cases}
+## Gebruiksscenario’s {#use-cases}
 
-* Marketers kunnen [!DNL Adobe Journey Optimizer] om zowel geïndividualiseerde mededelingen als op publiek-gebaseerde partijmededelingen te verzenden. Een kledingwinkel verzendt bijvoorbeeld doorgaans enquêtes na aankoop naar alle klanten die de afgelopen week producten hebben aangeschaft. Als gevolg van het noodweer traden enkele transporten op. Aangezien de klanten niet hun zendingen hebben ontvangen, kan de kledingopslag hen van de geplande klantentevredenheid uitsluiten verzendt en in plaats daarvan een gepersonaliseerde e-mail die voor de vertraging verontschuldigt en een kortingscode met productaanbevelingen aanbiedt die op de vroegere aankopen van de klant worden gebaseerd.
+* Marketers kunnen [!DNL Adobe Journey Optimizer] gebruiken om zowel individuele communicatie als op het publiek gebaseerde batchcommunicatie te verzenden. Een kledingwinkel verzendt bijvoorbeeld doorgaans enquêtes na aankoop naar alle klanten die de afgelopen week producten hebben aangeschaft. Als gevolg van het noodweer traden enkele transporten op. Aangezien de klanten niet hun zendingen hebben ontvangen, kan de kledingopslag hen van de geplande klantentevredenheid uitsluiten verzendt en in plaats daarvan een gepersonaliseerde e-mail die voor de vertraging verontschuldigt en een kortingscode met productaanbevelingen aanbiedt die op de vroegere aankopen van de klant worden gebaseerd.
 
   Marketers kunnen de toepassing ook gebruiken om op gedrag gebaseerde communicatie in real time te verzenden. Bijvoorbeeld, zou de zelfde detailhandelaar een loyale klant kunnen in dienst nemen die de parkeerplaats van de opslag in real time door hen een duw bericht over een trui trekt die terug in voorraad in de grootte van de klant is.
 
-* De niet-marketeers zoals verrichtingenteams en klantensteun die in de klantenervaring betrokken zijn kunnen gebruiken [!DNL Adobe Journey Optimizer] diverse taken te beheren, zoals operationele kennisgevingen of zelfs om het instapproces te controleren. Neem bijvoorbeeld een pretpark waar bezoekers van het park een mobiele app downloaden als onderdeel van hun parkervaring. Onderhoudspersoneel kan [!DNL Adobe Journey Optimizer] de bezoekers van het park op de hoogte te stellen van de ritten die momenteel wegens onderhoud gesloten zijn.
+* Niet-marketeers, zoals operatieteams en klantenondersteuning die zich bezighouden met de klantervaring, kunnen [!DNL Adobe Journey Optimizer] gebruiken om diverse taken te beheren, zoals operationele meldingen of zelfs om het instapproces te volgen. Neem bijvoorbeeld een pretpark waar bezoekers van het park een mobiele app downloaden als onderdeel van hun parkervaring. Onderhoudspersoneel kan [!DNL Adobe Journey Optimizer] gebruiken om parkbezoekers op de hoogte te stellen van ritten die momenteel wegens onderhoud zijn gesloten.
 
 ## Belangrijkste mogelijkheden {#key-capabilities}
 
@@ -42,28 +42,28 @@ ht-degree: 0%
 
 De belangrijkste mogelijkheden omvatten:
 
-* **Klantvisie en betrokkenheid in realtime** - Met een geïntegreerd profiel worden live-gegevens uit alle bronnen in de aanraakpunten van de klant, inclusief gedragsgegevens, transactie-, financiële en operationele gegevens, gepauzeerd om de persoonlijke en contextafhankelijke ervaringen van klanten in hun tijd te optimaliseren.
+* **Echte Inzichten &amp; Betrokkenheid van de Klant in real time** - een geïntegreerd profiel gebruikt levende gegevens van alle bronnen over klantenaanraakpunten, met inbegrip van gedrag, transactie, financiële, en operationele gegevens om persoonlijke en contextuele ervaringen voor klanten in hun tijd te optimaliseren.
 
-* **Moderne Omnichannel Orchestration &amp; Execution** - Een enkel canvas waarop de reis van de klant voor 1:1 klantenovereenkomst en marketing-outreach wordt geharmoniseerd en geoptimaliseerd—om merken te helpen meer waarde in de gehele levenscyclus van de klant te leveren. Klantenreizen die zijn ontworpen in [!DNL Adobe Journey Optimizer] kan dynamisch zijn en gebeurtenis die wordt gebaseerd om brands te helpen op signalen in real time reageren evenals die interactie met geplande campagnes verbinden zodat kunnen de juiste besluiten over welke mededelingen worden gemaakt om een klant te verzenden, wanneer en door welke kanalen.
+* **Modern Omnichannel Orchestration &amp; Execution** - één enkel canvas waarop om de klantenreis voor 1:1 klantenovereenkomst en marketing te harmoniseren en te optimaliseren klant outach-om brands te helpen meer waarde over de klantenlevenscyclus leveren. De reizen van de klant die in [!DNL Adobe Journey Optimizer] worden ontworpen kunnen dynamisch zijn en gebeurtenis gebaseerd om brands te helpen op signalen in real time reageren evenals die interactie met geplande campagnes te verbinden zodat kunnen de juiste besluiten over welke mededelingen worden gemaakt om een klant te verzenden, wanneer en door welke kanalen.
 
-* **Intelligente besluitvorming en persoonlijke voorkeur** - Merken kunnen gecentraliseerde besluitvorming toepassen en kunstmatige intelligentie en machinaal leren opnemen om voorspellende inzichten in de hele klantervaring aan het licht te brengen, waardoor beslissingen gemakkelijker kunnen worden geautomatiseerd en de ervaring op schaal kan worden geoptimaliseerd. Beslissingsbevoegdheden gecentraliseerde aanbiedingen via kanalen op schaal [!DNL Adobe Journey Optimizer].
+* **Intelligente Beslissing &amp; Personalization** - de merknamen kunnen gecentraliseerd besluit toepassen en kunstmatige intelligentie en machine het leren opnemen aan configuratieterugzicht door de klantenervaring, makend het gemakkelijker om besluiten te automatiseren en de ervaring op schaal te optimaliseren. Met beslissingsbevoegdheden worden gecentraliseerde aanbiedingen via kanalen op schaal [!DNL Adobe Journey Optimizer] mogelijk gemaakt.
 
 ## Architectuur {#architecture}
 
-De basisarchitectuur van [!DNL Adobe Journey Optimizer], de integratiepunten en de relatie tussen [!DNL Journey Optimizer] en [!DNL Experience Platform], in het onderstaande diagram.
+In het onderstaande diagram leert u de basisarchitectuur van [!DNL Adobe Journey Optimizer] , de integratiepunten en de relatie tussen [!DNL Journey Optimizer] en [!DNL Experience Platform] .
 
 ![](assets/ajo-architecture.png)
 
 
 >[!NOTE]
 >
-> Algemene privacyrichtlijnen en -procedures van Adobe Experience Cloud gelden voor [!DNL Journey Optimizer]. [Meer informatie over Adobe Experience Cloud-privacy](https://www.adobe.com/privacy/experience-cloud.html).
-> U moet zich ook bewust zijn van [Gardrails voor gegevens in realtime klantprofiel voordat u begint](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html).
+> Algemene richtlijnen en procedures voor privacy in Adobe Experience Cloud zijn van toepassing op [!DNL Journey Optimizer] . [ Leer meer over de privacy van Adobe Experience Cloud ](https://www.adobe.com/privacy/experience-cloud.html).
+> U moet zich ook bewust zijn van [ Gidsen voor de gegevens van het Profiel van de Klant in real time alvorens ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html) te beginnen.
 
 
 >[!MORELIKETHIS]
 >
->* [Belangrijkste stappen om te beginnen](quick-start.md)
->* [Trajecten ontwerpen en berichten verzenden](../building-journeys/journey-gs.md)
->* [Live rapporten](../reports/live-report.md)
->* [Journey Optimizer Security - Overzicht](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)
+>* [ Belangrijkste stappen ](quick-start.md) te beginnen
+>* [ reizen van het Ontwerp en verzend berichten ](../building-journeys/journey-gs.md)
+>* [ Levende rapporten ](../reports/live-report.md)
+>* [ het Overzicht van de Veiligheid van Journey Optimizer ](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF)

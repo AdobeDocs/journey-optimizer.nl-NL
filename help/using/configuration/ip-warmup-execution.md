@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, groep, subdomeinen, leverbaarheid
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '2434'
 ht-degree: 0%
@@ -58,7 +58,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
    >
    >* Alleen de campagnes waarvoor de optie **[!UICONTROL IP warmup plan activation]** is ingeschakeld, zijn beschikbaar voor selectie. [Meer informatie](#create-ip-warmup-campaign)
    >
-   >* Slechts zijn de campagnes die de zelfde oppervlakte gebruiken zoals het geselecteerde IP warmup plan beschikbaar voor selectie.
+   >* Slechts zijn de campagnes die de zelfde configuratie zoals het geselecteerde IP warmup plan gebruiken beschikbaar voor selectie.
 
 1. Wanneer een campagne voor de huidige fase is geselecteerd, worden de secties voor het uitsluiten van profielen, campagnepubliek en domeingroepen weergegeven.
 

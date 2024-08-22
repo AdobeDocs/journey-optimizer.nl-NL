@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '882'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Voordat u een nieuwe campagne maakt, moet u ervoor zorgen dat u een oppervlaktekanaal (d.w.z. een berichtvoorinstelling) en een Adobe Experience Platform-publiek hebt die u kunt gebruiken. Meer informatie vindt u in de volgende secties:
+>Voordat u een nieuwe campagne maakt, moet u ervoor zorgen dat u een kanaalconfiguratie (d.w.z. een berichtoppervlak) hebt en een Adobe Experience Platform-publiek klaar voor gebruik. Meer informatie vindt u in de volgende secties:
 >
->* [ creeer kanaaloppervlakten ](../configuration/channel-surfaces.md)
+>* [ creeer kanaalconfiguraties ](../configuration/channel-surfaces.md)
 >* [ krijgen begonnen met publiek ](../audience/about-audiences.md)
 
 Als u een nieuwe campagne wilt maken, opent u het menu **[!UICONTROL Campaigns]** en klikt u op **[!UICONTROL Create campaign]** . U kunt ook een bestaande live campagne dupliceren om een nieuwe te maken. [Meer informatie](modify-stop-campaign.md#duplicate)
@@ -81,11 +81,11 @@ Definieer de doelgroep voor de campagne en voer de volgende stappen uit:
 
 ## Creeer het bericht en vorm het volgen {#content}
 
-1. Kies in de sectie **[!UICONTROL Actions]** het kanaal en het oppervlak dat u wilt gebruiken om uw bericht te verzenden.
+1. Selecteer of maak een nieuwe configuratie in de sectie **[!UICONTROL Actions]** .
 
-   Een oppervlakte is een configuratie die door de Beheerder van het a [ Systeem ](../start/path/administrator.md) is bepaald. Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enzovoort. [Meer informatie](../configuration/channel-surfaces.md).
+   Een configuratie wordt bepaald door de Beheerder van het a [ Systeem ](../start/path/administrator.md). Het bevat alle technische parameters voor het verzenden van het bericht, zoals headerparameters, subdomein, mobiele apps, enzovoort. [Meer informatie](../configuration/channel-surfaces.md).
 
-   Alleen kanaaloppervlakken die compatibel zijn met het type marketingcampagne worden weergegeven in de vervolgkeuzelijst.
+   Alleen kanaalconfiguraties die compatibel zijn met het type marketingcampagne worden vermeld in de vervolgkeuzelijst.
 
    ![](assets/create-campaign-action.png)
 

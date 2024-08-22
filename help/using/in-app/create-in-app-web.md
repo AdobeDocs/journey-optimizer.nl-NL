@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
-source-git-commit: 85aee5c5ff9ceee10b2dc01ef9e31947cef9daae
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 2%
+source-wordcount: '574'
+ht-degree: 3%
 
 ---
 
@@ -24,43 +24,19 @@ Volg onderstaande stappen om uw Web in-app kanaal in te stellen:
 
 * Pas de triggers aan. Het Berichten van het Web in-app steunt twee types van trekkers: Verzonden gegevens naar platform en Hand trekkers. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html)
 
+* Maak uw Web in-app configuratie. [Meer informatie](inapp-configuration.md)
+
 ## Maak uw Web In-app berichtcampagne {#create-inapp-web-campaign}
 
 1. Open het menu **[!UICONTROL Campaigns]** en klik op **[!UICONTROL Create campaign]** .
 
-1. Selecteer in de sectie **[!UICONTROL Properties]** wanneer het uitvoeringstype van de campagne: Gepland of API-geactiveerd. Leer meer over campagneretypen in [ deze pagina ](../campaigns/create-campaign.md#campaigntype).
+1. Kies het uitvoeringstype van de campagne: Gepland of API-geactiveerd. Leer meer over campagneretypen in [ deze pagina ](../campaigns/create-campaign.md#campaigntype).
 
-1. Kies in de sectie **[!UICONTROL Actions]** de optie **[!UICONTROL In-app message]** . Selecteer Web in het vervolgkeuzemenu **[!UICONTROL Send to]** .
+1. Kies in de vervolgkeuzelijst **[!UICONTROL Actions]** de optie **[!UICONTROL In-app message]** .
 
    ![](assets/in_app_web_surface_1.png)
 
-1. Definieer een App-oppervlak. U hebt twee opties om wijzigingen aan te brengen:
-
-   * U kunt een **[!UICONTROL Page URL]** invoeren om wijzigingen toe te passen op een specifieke pagina.
-
-   * U kunt een regel maken om meerdere URL&#39;s met hetzelfde patroon als doel in te stellen.
-
-+++ Hoe te om een de passende regel van Pagina&#39;s te bouwen.
-
-      1. Selecteer **[!UICONTROL Pages matching rule]** als toepassingsoppervlak.
-      1. Klik op **[!UICONTROL Create rule]**.
-
-         ![](assets/in_app_web_surface_3.png)
-
-      1. Definieer in het venster **[!UICONTROL Edit surface rule]** de criteria voor de velden **[!UICONTROL Domain]** en **[!UICONTROL Page]** .
-      1. Verbeter uw criteria vanuit de voorwaarde-dropdowns.
-
-         Als u bijvoorbeeld elementen wilt bewerken die op alle pagina&#39;s met verkoopproducten van uw Luma-website worden weergegeven, selecteert u Domein > Begint met > Lumma en Pagina > Bevat > Verkoop.
-
-         ![](assets/in_app_web_surface_4.png)
-
-      1. Sla uw wijzigingen op. De regel wordt weergegeven in het **[!UICONTROL Create campaign]** -scherm.
-
-+++
-
-   ![](assets/in_app_web_surface_2.png)
-
-1. Klik op **[!UICONTROL Create]** als het oppervlak van de app is geselecteerd en geconfigureerd.
+1. Kies of maak uw toepassingsconfiguratie. [Meer informatie](inapp-configuration.md#channel-prerequisites)
 
 ## Uw webberichtcampagne in de app definiëren {#configure-inapp}
 
@@ -74,7 +50,7 @@ Volg onderstaande stappen om uw Web in-app kanaal in te stellen:
 
 1. Kies in het veld **[!UICONTROL Identity namespace]** de naamruimte die u wilt gebruiken om de personen van het geselecteerde publiek te identificeren. [Meer informatie](../event/about-creating.md#select-the-namespace).
 
-1. In het menu **[!UICONTROL Action]** vindt u de eerder geconfigureerde instellingen als **[!UICONTROL App surface]** . U kunt hier indien nodig wijzigingen aanbrengen of uw regel bijwerken door op **[!UICONTROL Edit Rule]** te klikken.
+1. In het menu **[!UICONTROL Action]** vindt u de eerder geconfigureerde instellingen als **[!UICONTROL App configuration]** . U kunt hier indien nodig wijzigingen aanbrengen of uw regel bijwerken door op **[!UICONTROL Edit Rule]** te klikken.
 
 1. Klik op **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren en behandelingen te maken om de prestaties te meten en de beste optie voor uw doelgroep te identificeren. [Meer informatie](../content-management/content-experiment.md)
 

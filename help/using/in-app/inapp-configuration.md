@@ -6,9 +6,9 @@ feature: In App
 level: Intermediate
 keywords: in-app, bericht, configuratie, platform
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '815'
 ht-degree: 1%
 
 ---
@@ -17,138 +17,115 @@ ht-degree: 1%
 
 ## Configuratiestappen {#inapp-steps}
 
-In-app-berichten verzenden tijdens uw reizen en campagnes met [!DNL Journey Optimizer], moet u door de volgende configuratiestappen gaan.
+Als u in-app-berichten wilt verzenden tijdens reizen en campagnes met [!DNL Journey Optimizer] , moet u de volgende configuratiestappen doorlopen.
 
 1. Zorg ervoor dat u de juiste machtigingen hebt voor Journey Optimizer-campagnes voordat u begint, zelfs als u alleen in-app-berichten tijdens reizen wilt gebruiken. Campagnemachtigingen zijn nog steeds vereist. [Meer informatie](../campaigns/get-started-with-campaigns.md#campaign-prerequisites).
-Er moet een specifieke machtiging worden verleend om toegang te krijgen tot **Toepassingsoppervlakken** in Adobe Experience Platform Data Collection. Meer informatie in [deze video](#video).
-1. Adobe Journey Optimizer inschakelen in de gegevensstroom van de Adobe Experience Platform-gegevensverzameling en uw standaardsamenvoegbeleid in Adobe Experience Platform controleren, zoals wordt beschreven in het dialoogvenster [Leveringsvoorwaarden](#delivery-prerequisites) hieronder.
-1. Creeer en vorm een oppervlakte van de App in de Inzameling van Gegevens van Adobe Experience Platform, zoals die in wordt gedetailleerd [deze sectie](#channel-prerequisites).
-1. Als u inhoud experimenteert, zorg ervoor om de vereisten te volgen die in [deze sectie](#experiment-prerequisite).
+1. Laat Adobe Journey Optimizer in uw de gegevensstroom van de Inzameling van Gegevens van Adobe Experience Platform toe, en controleer uw standaardsamenvoegbeleid in Adobe Experience Platform, zoals die in de [ eerste vereisten van de Levering ](#delivery-prerequisites) hieronder worden gedetailleerd.
+1. Creeer een configuratie van het in-app berichtkanaal in Beleid > Kanalen > de configuraties van het Kanaal, zoals die in [ wordt gedetailleerd deze sectie ](#channel-prerequisites).
+1. Als u inhoudsexperimenten gebruikt, zorg ervoor om de vereisten te volgen die in [ worden vermeld deze sectie ](#experiment-prerequisite).
 
-Als u klaar bent, kunt u uw eerste In-app-bericht maken, configureren en verzenden. Leer hoe u dit kunt bereiken in [deze sectie](create-in-app.md).
+Als u klaar bent, kunt u uw eerste In-app-bericht maken, configureren en verzenden. Leer hoe te om dit in [ te bereiken deze sectie ](create-in-app.md).
 
 ## Leveringsvoorwaarden {#delivery-prerequisites}
 
 Voor de correcte levering van de berichten in de app moeten de volgende instellingen worden gedefinieerd:
 
-* In de [Adobe Experience Platform-gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html){target="_blank"}moet u ervoor zorgen dat er een gegevensstroom is gedefinieerd, zoals onder de **[!UICONTROL Adobe Experience Platform]** de Adobe Experience Platform Edge en **[!UICONTROL Adobe Journey Optimizer]** optie ingeschakeld.
+* In de [ Gegevensverzameling van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html) {target="_blank"}, zorg ervoor u een gegevensstroom hebt die zoals onder de **[!UICONTROL Adobe Experience Platform]** dienst wordt bepaald u toegelaten Adobe Experience Platform Edge en **[!UICONTROL Adobe Journey Optimizer]** optie hebt.
 
-  Dit zorgt ervoor dat de inkomende Journey Optimizer-gebeurtenissen correct worden afgehandeld door de Adobe Experience Platform Edge. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html){target="_blank"}
+  Dit zorgt ervoor dat de binnenkomende gebeurtenissen van Journey Optimizer correct worden afgehandeld door de Adobe Experience Platform Edge. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html) {target="_blank"}
 
   ![](assets/inapp_config_6.png)
 
-* In [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl){target="_blank"}, zorg ervoor u het standaardfusiebeleid met hebt **[!UICONTROL Active-On-Edge Merge Policy]** optie ingeschakeld. Selecteer hiertoe een beleid in het dialoogvenster **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** Menu Experience Platform. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
+* In [ Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl) {target="_blank"}, zorg ervoor u het standaard toegelaten samenvoegbeleid met de **[!UICONTROL Active-On-Edge Merge Policy]** optie hebt. Selecteer hiertoe een beleid in het menu Experience Platform **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** > **[!UICONTROL Merge Policies]** . [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure) {target="_blank"}
 
-  Dit samenvoegbeleid wordt gebruikt door [!DNL Journey Optimizer] binnenkomende kanalen om binnenkomende campagnes op de rand correct te activeren en te publiceren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html){target="_blank"}
+  Dit samenvoegbeleid wordt door [!DNL Journey Optimizer] binnenkomende kanalen gebruikt om binnenkomende campagnes op de rand correct te activeren en te publiceren. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html) {target="_blank"}
 
   >[!NOTE]
   >
-  >Wanneer u een aangepaste **[!UICONTROL Dataset preference]** samenvoegbeleid, zorg ervoor dat u het **[!UICONTROL Journey Inbound]** dataset binnen het gespecificeerde samenvoegbeleid.
+  >Wanneer u een aangepast **[!UICONTROL Dataset preference]** samenvoegbeleid gebruikt, moet u de **[!UICONTROL Journey Inbound]** -gegevensset toevoegen binnen het opgegeven samenvoegbeleid.
 
   ![](assets/inapp_config_8.png)
 
-* Als u problemen wilt oplossen met de levering van mobiele Journey Optimizer-ervaringen, kunt u de opdracht **Edge Delivery** bekijken binnen **Adobe Experience Platform Assurance**. Deze plugin laat u toe om verzoekvraag in detail te inspecteren, te verifiëren of de verwachte randvraag zoals voorzien voorkomt, en profielgegevens, met inbegrip van identiteitskaarten, segmentlidmaatschap, en toestemmingsmontages te onderzoeken. Daarnaast kunt u de activiteiten bekijken waarvoor het verzoek is gekwalificeerd en vaststellen voor welke activiteiten het niet heeft uitgevoerd.
+* Om de levering van de mobiele ervaringen van Journey Optimizer problemen op te lossen, kunt u de **Edge Delivery** mening binnen **de Verzekering van Adobe Experience Platform** gebruiken. Deze plugin laat u toe om verzoekvraag in detail te inspecteren, te verifiëren of de verwachte randvraag zoals voorzien voorkomt, en profielgegevens, met inbegrip van identiteitskaarten, segmentlidmaatschap, en toestemmingsmontages te onderzoeken. Daarnaast kunt u de activiteiten bekijken waarvoor het verzoek is gekwalificeerd en vaststellen voor welke activiteiten het niet heeft uitgevoerd.
 
-  Met de **Edge Delivery** Met insteekmodule krijgt u de inzichten die u nodig hebt om uw binnenkomende implementaties effectief te begrijpen en problemen op te lossen.
+  Het gebruiken van de **insteekmodule van Edge Delivery** helpt u de inzichten verkrijgen nodig om uw binnenkomende implementaties effectief te begrijpen en problemen op te lossen.
 
-  [Meer informatie over de Edge Delivery-weergave](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
+  [ Leer meer op de mening van Edge Delivery ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
-## Voorwaarden voor kanaalconfiguratie {#channel-prerequisites}
+## Een configuratie in de app maken {#channel-prerequisites}
 
-1. Toegang krijgen tot de **[!UICONTROL App surfaces]** menu en klik op **[!UICONTROL Create App surface]**.
+1. Open het menu **[!UICONTROL Channels]** > **[!UICONTROL General settings]** > **[!UICONTROL Channel configurations]** en klik op **[!UICONTROL Create channel configuration]** .
 
-1. Voeg een naam toe aan uw **[!UICONTROL App surface]**.
+   ![](assets/inapp_config_1.png)
 
-   ![](assets/inapp_config_2b.png)
+1. Voer een naam en beschrijving (optioneel) voor de configuratie in en selecteer vervolgens het kanaal dat u wilt configureren.
 
-1. Van de **[!UICONTROL Apple iOS]** , configureert u uw mobiele toepassing voor Apple iOS.
+   >[!NOTE]
+   >
+   > Namen moeten beginnen met een letter (A-Z). Het mag alleen alfanumerieke tekens bevatten. U kunt ook onderstrepingsteken `_` -, punt `.` - en afbreekstreepjes `-` gebruiken.
 
-+++ Meer informatie
+1. Als u aangepaste of basislabels voor gegevensgebruik aan de configuratie wilt toewijzen, kunt u **[!UICONTROL Manage access]** selecteren. [ leer meer op de Controle van de Toegang van het Niveau van Objecten (OLAC) ](../administration/object-based-access.md).
 
-   1. Typ uw **[!UICONTROL iOS Bundle ID]**. Zie [Apple-documentatie](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) voor meer informatie over **Bundel-id**.
+1. Selecteer **[!UICONTROL Marketing action]**(s) om het toestemmingsbeleid aan de berichten te associëren gebruikend deze configuratie. Alle toestemmingsbeleid verbonden aan de marketing actie wordt gebruikt om de voorkeur van uw klanten te respecteren. [Meer informatie](../action/consent.md#surface-marketing-actions)
 
-   1. (optioneel) Kies de optie **[!UICONTROL Sandbox]** waar u pushmeldingen wilt verzenden. Merk op dat het kiezen van een specifieke zandbak de noodzakelijke toegangstoestemmingen vereist.
+1. Selecteer **In-app overseinen** kanaal.
 
-      Raadpleeg voor meer informatie over sandboxbeheer [deze pagina](../administration/sandboxes.md#assign-sandboxes).
+   ![](assets/inapp_config_9.png)
 
-   1. De optie **[!UICONTROL Push credentials]** om het .p8-bestand met de aautoets indien nodig te slepen en neer te zetten.
+1. Selecteer het platform waarop het bericht in de app wordt toegepast.
 
-      U kunt ook de opdracht **[!UICONTROL Manually enter push credentials]** om de APNs AUth-toets rechtstreeks te kopiëren en plakken.
+   ![](assets/inapp_config_10.png)
 
-   1. Voer uw **[!UICONTROL Key ID]** en **[!UICONTROL Team ID]**.
+1. Voor web:
 
-      ![](assets/inapp_config_2.png)
+   * U kunt een **[!UICONTROL Page URL]** invoeren om wijzigingen toe te passen op een specifieke pagina.
+
+   * U kunt een regel maken om meerdere URL&#39;s met hetzelfde patroon als doel in te stellen.
+
++++ Hoe te om een de passende regel van Pagina&#39;s te bouwen.
+
+      1. Selecteer **[!UICONTROL Pages matching rule]** als toepassingsconfiguratie en voer uw **[!UICONTROL Page URL]** in.
+
+      1. Definieer in het venster **[!UICONTROL Edit configuration rule]** de criteria voor de velden **[!UICONTROL Domain]** en **[!UICONTROL Page]** .
+      1. Verbeter uw criteria vanuit de voorwaarde-dropdowns.
+
+         Als u bijvoorbeeld elementen wilt bewerken die op alle pagina&#39;s met verkoopproducten van uw Luma-website worden weergegeven, selecteert u Domein > Begint met > Lumma en Pagina > Bevat > Verkoop.
+
+         ![](assets/in_app_web_surface_4.png)
+
+      1. Klik indien nodig op **[!UICONTROL Add another page rule]** om een andere regel te maken.
+
+      1. Selecteer **[!UICONTROL Default authoring and preview URL]**.
+
+      1. Sla uw wijzigingen op. De regel wordt weergegeven in het **[!UICONTROL Create campaign]** -scherm.
 
 +++
 
-1. Van de **[!UICONTROL Android]** , configureert u uw mobiele toepassing voor Android.
+1. Voor iOS en Android:
 
-+++ Meer informatie
+   * Voer uw **[!UICONTROL App id]** in.
 
-   1. Typ uw **[!UICONTROL Android package name]**. Zie [Android-documentatie](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) voor meer informatie over **Pakketnaam**.
+1. Verzend uw wijzigingen.
 
-   1. (optioneel) Kies de optie **[!UICONTROL Sandbox]** waar u pushmeldingen wilt verzenden. Merk op dat het kiezen van een specifieke zandbak de noodzakelijke toegangstoestemmingen vereist.
-
-      Raadpleeg voor meer informatie over sandboxbeheer [deze pagina](../administration/sandboxes.md#assign-sandboxes).
-
-   1. De optie **[!UICONTROL Push credentials]** optie om uw .json dossier van de privé sleutel te slepen en te laten vallen indien nodig.
-
-      U kunt ook de opdracht **[!UICONTROL Manually enter push credentials]** om de persoonlijke sleutel van FCM rechtstreeks te kopiëren en te plakken.
-
-      ![](assets/inapp_config_7.png)
-
-1. Klikken **[!UICONTROL Save]** wanneer u de configuratie van uw voltooide **[!UICONTROL App surface]**.
-
-   ![](assets/inapp_config_3.png)
-
-   Uw **[!UICONTROL App surface]** is nu beschikbaar wanneer u een nieuwe campagne maakt met een bericht in de app. [Meer informatie](create-in-app.md)
-
-1. Nadat u het oppervlak van uw app hebt gemaakt, moet u nu een mobiele eigenschap maken.
-
-   Zie [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/companies-and-properties.html#for-mobile) voor de nadere regeling.
-
-   ![](assets/inapp_config_4.png)
-
-1. Installeer de volgende extensies in het menu Extensies van de nieuwe eigenschap:
-
-   * Adobe Experience Platform Edge Network
-   * Adobe Journey Optimizer
-   * AEP-betrouwbaarheid
-   * Toestemming
-   * Identiteit
-   * Mobiele kern
-   * Profiel
-
-   Zie [deze pagina](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html#add-a-new-extension) voor de nadere regeling.
-
-   ![](assets/inapp_config_5.png)
-
-Het kanaal in de app is nu geconfigureerd. U kunt in-app-berichten naar uw gebruikers verzenden.
+U kunt nu uw configuratie selecteren wanneer u uw In-app-bericht maakt.
 
 ## Voorwaarden voor het testen van inhoud {#experiment-prerequisites}
 
-Als u inhoudsexperimenten wilt inschakelen voor In-app-kanalen, moet u ervoor zorgen dat de [gegevensset](../data/get-started-datasets.md) gebruikt in uw In-app-implementatie [datastream](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html){target="_blank"} is ook inbegrepen in uw rapporteringsconfiguratie.
+Om inhoudsexperimenten voor in-app kanaal toe te laten, moet u ervoor zorgen de [ dataset ](../data/get-started-datasets.md) wordt gebruikt in uw in-app implementatie [ datastream ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html) {target="_blank"} ook inbegrepen in uw rapporteringsconfiguratie die.
 
 Met andere woorden, wanneer het vormen experimenteert rapportering, als u een dataset toevoegt die niet in uw Webgegevensstroom aanwezig is, zullen de Webgegevens niet in de rapporten van het inhoudexperiment tonen.
 
-Leer hoe u gegevenssets voor het experimenteren met inhoud toevoegt aan de rapportering in [deze sectie](../content-management/reporting-configuration.md#add-datasets).
+Leer hoe te om datasets voor inhoudexperiment toe te voegen dat in [ meldt deze sectie ](../content-management/reporting-configuration.md#add-datasets).
 
 >[!NOTE]
 >
->De dataset wordt gebruikt read-only door [!DNL Journey Optimizer] rapportagesysteem en heeft geen invloed op gegevensverzameling of gegevensinvoer.
+>De dataset wordt gebruikt read-only door het [!DNL Journey Optimizer] rapporteringssysteem en beïnvloedt gegevensinzameling of gegevensopname niet.
 
-Als u **niet** met behulp van de volgende vooraf gedefinieerde [veldgroepen](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group){target="_blank"} voor uw datasetschema: `AEP Web SDK ExperienceEvent` en `Consumer Experience Event` (zoals gedefinieerd in [deze pagina](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups){target="_blank"}), moet u de volgende veldgroepen toevoegen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, en `Web Details`. Deze zijn nodig voor de [!DNL Journey Optimizer] de inhoud experimenteert rapportering terwijl zij volgen welke experimenten en behandelingen elk profiel aan deelnemen.
+Als u **niet** gebruikend de volgende vooraf bepaalde [ gebiedsgroepen ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html#field-group) {target="_blank"} voor uw datasetschema bent: `AEP Web SDK ExperienceEvent` en `Consumer Experience Event` (zoals bepaald in [ deze pagina ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html#add-field-groups) {target="_blank"}), zorg ervoor om de volgende gebiedsgroepen toe te voegen: `Experience Event - Proposition Interactions`, `Application Details`, `Commerce Details`, en `Web Details`. Deze zijn nodig voor het [!DNL Journey Optimizer] -inhoudexperiment. Tijdens het bijhouden van de experimenten en behandelingen waaraan elk profiel deelneemt.
 
 >[!NOTE]
 >
 >Het toevoegen van deze veldgroepen heeft geen invloed op de normale gegevensverzameling. Het is alleen additief voor de pagina&#39;s waarop een experiment wordt uitgevoerd, waarbij alle andere tracking ongewijzigd blijft.
-
-## Hoe kan ik-video{#video}
-
-In de onderstaande video ziet u hoe u de **Toepassingsconfiguratie beheren** machtiging om het menu met toepassingsoppervlakken te openen.
-
->[!VIDEO](https://video.tv.adobe.com/v/3421607)
-
 
 **Verwante onderwerpen:**
 

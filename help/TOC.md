@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3c41154f54fb7d93fc6eb2f4c84957db517686c8
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1950'
 ht-degree: 27%
 
 ---
@@ -241,6 +241,7 @@ ht-degree: 27%
    + Webkanaal configureren {#configure-web-channel}
       + [Voorwaarden voor webkanalen](using/web/web-prerequisites.md)
       + [Websubdomeinen configureren](using/web/web-delegated-subdomains.md)
+      + [Webkanaalconfiguratie maken](using/web/web-configuration.md)
    + [Webervaringen maken](using/web/create-web.md)
    + Webpagina&#39;s van auteurs {#author-web-pages}
       + [Webpagina-inhoud bewerken](using/web/edit-web-content.md)
@@ -250,6 +251,7 @@ ht-degree: 27%
 + Ervaring op basis van code {#code-based-experience}
    + [Aan de slag met op code gebaseerd kanaal](using/code-based/get-started-code-based.md)
    + [Guardrails en voorwaarden](using/code-based/code-based-prerequisites.md)
+   + [Op code gebaseerde ervaringsconfiguratie maken](using/code-based/code-based-configuration.md)
    + [Voorbeelden van implementatiemethoden](using/code-based/code-based-implementation-samples.md)
    + [Op code gebaseerde ervaringen maken](using/code-based/create-code-based.md)
 + Landingspagina’s {#landing-pages}

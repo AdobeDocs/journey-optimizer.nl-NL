@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdomein, PTR, records, DNS, domein, post
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b2118310bcd84a11aa9b19f1606e4ba0ef39bde4
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Met PTR verslagen, kunnen het ontvangen van postservers de authenticiteit van he
 
 ## De PTR-records van uw subdomeinen openen {#access-ptr-records}
 
-Eenmaal [gedelegeerde](delegate-subdomain.md) uw eerste subdomein voor Adobe in [!DNL Journey Optimizer], worden PTR verslagen automatisch gecreeerd voor uw IPs. U hebt toegang tot deze **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL PTR records]** -menu.
+Zodra u [ afgevaardigde ](delegate-subdomain.md) uw eerste subdomain aan Adobe in [!DNL Journey Optimizer], PTR- verslagen automatisch voor uw IPs wordt gecreeerd. U kunt ze openen via het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** > **[!UICONTROL PTR records]** .
 
 ![](assets/ptr-records.png)
 
@@ -50,9 +50,9 @@ U kunt een PTR-record in de lijst openen om de bijbehorende subdomeinnaam en het
 
 ## Een PTR-record bewerken {#edit-ptr-record}
 
-In [!DNL Journey Optimizer], kunt u niet handmatig PTR-records maken. In plaats daarvan kunt u [gedelegeerde](delegate-subdomain.md) uw eerste subdomein aan Adobe, PTR- verslagen worden automatisch gecreeerd voor uw IPs.
+In [!DNL Journey Optimizer] kunt u niet handmatig PTR-records maken. In plaats daarvan, zodra u [ afgevaardigde ](delegate-subdomain.md) uw eerste subdomain aan Adobe, PTR- verslagen automatisch voor uw IPs wordt gecreeerd.
 
-Elk van uw IPs ontvangt één enkel PTR verslag. Alle PTR-records hebben de volgende indeling: &#39;rxx.subdomain&#39;, waarbij &#39;subdomain&#39; het eerste subdomein is dat u hebt gedelegeerd in [!DNL Journey Optimizer].
+Elk van uw IPs ontvangt één enkel PTR verslag. Alle PTR-records hebben de volgende indeling: &#39;rxx.subdomain&#39;, waarbij &#39;subdomain&#39; het eerste subdomein is dat u hebt gedelegeerd in [!DNL Journey Optimizer] .
 
 Wanneer u extra subdomeinen creeert, moet u één of meerdere PTR verslagen wijzigen en die nieuwe subdomeinen aan hen toewijzen. Volg de onderstaande stappen om dit te doen.
 
@@ -64,31 +64,31 @@ Wanneer u extra subdomeinen creeert, moet u één of meerdere PTR verslagen wijz
 
 ### Volledig gedelegeerde subdomeinen {#fully-delegated-subdomains}
 
-Een PTR-record bewerken met een subdomein dat [volledig gedelegeerd](delegate-subdomain.md#full-subdomain-delegation) Volg onderstaande stappen om de Adobe uit te voeren.
+Om een PTR- verslag met subdomain uit te geven dat [ volledig ](delegate-subdomain.md#full-subdomain-delegation) aan Adobe wordt gedelegeerd, volg de hieronder stappen.
 
 1. Klik in de lijst op de naam van een PTR-record om deze te openen.
 
    ![](assets/ptr-record-select.png)
 
-1. Een subdomein selecteren [volledig gedelegeerd](delegate-subdomain.md#full-subdomain-delegation) naar Adobe in de lijst.
+1. Selecteer volledig subdomain [ ](delegate-subdomain.md#full-subdomain-delegation) aan Adobe van de lijst wordt gedelegeerd.
 
    ![](assets/ptr-record-subdomain.png)
 
-1. Klikken **[!UICONTROL Save]** om uw wijzigingen te bevestigen.
+1. Klik op **[!UICONTROL Save]** om uw wijzigingen te bevestigen.
 
 >[!NOTE]
 >
->U kunt de **[!UICONTROL IP]** en **[!UICONTROL PTR record]** velden.
+>U kunt de velden **[!UICONTROL IP]** en **[!UICONTROL PTR record]** niet wijzigen.
 
 ### Gedelegeerde subdomeinen die de methode CNAME gebruiken {#edit-ptr-subdomains-cname}
 
-Als u een PTR-record wilt bewerken met een subdomein dat aan de Adobe is gedelegeerd, gebruikt u de opdracht [CNAME, methode](delegate-subdomain.md#cname-subdomain-delegation)volgt u de onderstaande stappen.
+Om een PTR- verslag met subdomain uit te geven dat aan Adobe gebruikend de [ methode van de NAAM ](delegate-subdomain.md#cname-subdomain-delegation) wordt afgevaardigd, volg hieronder de stappen.
 
 1. Klik in de lijst op de naam van een PTR-record om deze te openen.
 
-   ![](assets/ptr-record-select-cname.png)
+   ![](assets/ptr-record-select.png)
 
-1. Selecteer een subdomein dat is gedelegeerd aan de Adobe met de opdracht [CNAME, methode](delegate-subdomain.md#cname-subdomain-delegation) in de lijst.
+1. Selecteer subdomain die aan Adobe wordt gedelegeerd gebruikend de [ methode van de NAAM ](delegate-subdomain.md#cname-subdomain-delegation) van de lijst.
 
    ![](assets/ptr-record-subdomain-cname.png)
 
@@ -102,23 +102,23 @@ Als u een PTR-record wilt bewerken met een subdomein dat aan de Adobe is gedeleg
    >   * Controleer de DNS leverancier als het voorwaartse DNS verslag met succes werd gecreeerd.
    >   * Records in de DNS worden mogelijk niet meteen gesynchroniseerd. Wacht een paar minuten en probeer het opnieuw.
 
-1. Klikken **[!UICONTROL Save]** om uw wijzigingen te bevestigen.
+1. Klik op **[!UICONTROL Save]** om uw wijzigingen te bevestigen.
 
 >[!NOTE]
 >
->U kunt de **[!UICONTROL IP]** en **[!UICONTROL PTR record]** velden.
+>U kunt de velden **[!UICONTROL IP]** en **[!UICONTROL PTR record]** niet wijzigen.
 
 ## Details van PTR-recordupdate controleren {#check-ptr-record-update}
 
-Nadat u de PTR-recordbewerking hebt bevestigd, **[!UICONTROL Processing]** wordt weergegeven naast de naam van de PTR-record in de lijst.
+Nadat u de PTR-recordbewerking hebt bevestigd, wordt het pictogram **[!UICONTROL Processing]** weergegeven naast de naam van de PTR-record in de lijst.
 
 ![](assets/ptr-record-updating.png)
 
 >[!NOTE]
 >
->De [updateverwerking](#processing) kan tot 3 uur duren.
+>De [ updateverwerking ](#processing) kan tot 3 uren vergen.
 
-Als u de details van de PTR-recordupdate wilt controleren, klikt u op het pictogram ernaast. Meer informatie over de statussen van de verschillende pictogrammen vindt u in [deze sectie](#ptr-record-update-statuses).
+Als u de details van de PTR-recordupdate wilt controleren, klikt u op het pictogram ernaast. Leer meer op de statussen verbonden aan de verschillende pictogrammen in [ deze sectie ](#ptr-record-update-statuses).
 
 ![](assets/ptr-record-recent-update.png)
 
@@ -130,9 +130,9 @@ U kunt informatie zoals de updatestatus, en de gevraagde veranderingen zien.
 
 Een PTR-recordupdate kan de volgende statussen hebben:
 
-* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**: De PTR-recordupdate is verzonden en wordt gecontroleerd.
-* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: De bijgewerkte PTR-record is geverifieerd en het nieuwe subdomein is nu gekoppeld aan het IP-adres.
-* ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: Een of meer controles zijn mislukt tijdens de verificatie van de PTR-recordupdate.
+* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**: De PTR-recordupdate is verzonden en wordt door een verificatieproces uitgevoerd.
+* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]** : De bijgewerkte PTR-record is geverifieerd en het nieuwe subdomein is nu gekoppeld aan het IP-adres.
+* ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Failed]**: een of meer controles zijn mislukt tijdens de verificatie van de PTR-recordupdate.
 
 ### Verwerking {#processing}
 
@@ -140,7 +140,7 @@ Verscheidene leveringscontroles zullen worden uitgevoerd om te verifiëren dat n
 
 >[!NOTE]
 >
->U kunt een PTR-record niet wijzigen terwijl er een update wordt uitgevoerd. U kunt nog steeds op de naam klikken, maar wel op de knop **[!UICONTROL Subdomain]** veld wordt grijs weergegeven. De wijzigingen worden pas doorgevoerd als de update is gelukt.
+>U kunt een PTR-record niet wijzigen terwijl er een update wordt uitgevoerd. U kunt nog steeds op de naam ervan klikken, maar het veld **[!UICONTROL Subdomain]** wordt grijs weergegeven. De wijzigingen worden pas doorgevoerd als de update is gelukt.
 
 Tijdens het validatieproces wordt het oude subdomein nog steeds gekoppeld aan het IP-adres.
 

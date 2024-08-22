@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: opnieuw proberen, stuiteren, zacht, optimaliseren, fout
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -18,15 +18,15 @@ ht-degree: 0%
 
 # Opnieuw {#retries}
 
-Wanneer een e-mailbericht mislukt als gevolg van een tijdelijke **Zachte stuit** fout voor een bepaald adres, worden verscheidene pogingen uitgevoerd. Elke fout verhoogt een foutenteller. Wanneer deze teller de grensdrempel bereikt, wordt het e-mailadres toegevoegd aan de onderdrukkingslijst.
+Wanneer een e-mailbericht wegens een tijdelijke **Zachte stuitfout** voor een bepaald adres ontbreekt, worden verscheidene pogingen uitgevoerd. Elke fout verhoogt een foutenteller. Wanneer deze teller de grensdrempel bereikt, wordt het e-mailadres toegevoegd aan de onderdrukkingslijst.
 
 >[!NOTE]
 >
->Meer informatie over de fouttypen vindt u in het dialoogvenster [Typen leveringsfouten](../reports/suppression-list.md#delivery-failures) sectie.
+>Leer meer op de types van fouten in de [ types van mislukkingen van de Levering ](../reports/suppression-list.md#delivery-failures) sectie.
 
 In de standaardconfiguratie is de drempel ingesteld op 5 fouten.
 
-* Bij dezelfde levering is bij de vijfde fout een fout opgetreden in het dialoogvenster [periode voor opnieuw uitproberen](#retry-duration), wordt het adres onderdrukt.
+* Voor de zelfde levering, bij de vijfde ondervond fout binnen de [ periode van de herprobeert tijd ](#retry-duration), wordt het adres onderdrukt.
 
 * Als er verschillende leveringen zijn en twee fouten minstens 24 uur uit elkaar voorkomen, wordt de foutenteller verhoogd op elke fout en het adres wordt ook onderdrukt bij de vijfde poging. Fouten zijn cumulatief voor elk adres.
 
@@ -50,7 +50,7 @@ Op voorwaarde dat er geen andere levering is geprobeerd en dat deze twee e-mails
 
 Als de standaardwaarde 5 niet aan uw wensen voldoet, kunt u de foutdrempel wijzigen volgens de onderstaande stappen.
 
-1. Ga naar **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Suppression list]**.
+1. Ga naar **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** > **[!UICONTROL Suppression list]** .
 
 1. Selecteer de knop **[!UICONTROL Edit suppression rules]**.
 
@@ -64,15 +64,15 @@ Als de standaardwaarde 5 niet aan uw wensen voldoet, kunt u de foutdrempel wijzi
 
    >[!CAUTION]
    >
-   >Om het even welke waarde hoger dan 10 kan de kwesties van de leveringsreputatie, evenals IP het vertragen of het voegend op lijst van gewenste personen door ISPs veroorzaken. [Meer informatie over te leveren items](../reports/deliverability.md)
+   >Om het even welke waarde hoger dan 10 kan de kwesties van de leveringsreputatie, evenals IP het vertragen of het voegend op lijst van gewenste personen door ISPs veroorzaken. [ Leer meer op leverability ](../reports/deliverability.md)
 
 ## Periode voor opnieuw proberen {#retry-duration}
 
-De **periode voor opnieuw uitproberen** Dit is het tijdsbestek waarin elk e-mailbericht van de levering waarbij een tijdelijke fout of een zachte stuit is opgetreden, opnieuw wordt geprobeerd.
+De **periode van de herprobeer tijd** is timeframe waarin om het even welk e-mailbericht van de levering die een tijdelijke fout of zachte stuit ondervond opnieuw zal worden geprobeerd.
 
-Standaard worden nieuwe pogingen uitgevoerd voor **3,5 dagen** (of **84 uur**) vanaf het moment dat het bericht aan de e-mailwachtrij is toegevoegd.
+Door gebrek, zal het opnieuw proberen voor **3.5 dagen** (of **84 uren**) van de tijd worden uitgevoerd het bericht aan de e-mailrij werd toegevoegd.
 
-Als u er echter voor wilt zorgen dat pogingen om opnieuw te proberen niet meer worden uitgevoerd wanneer ze niet meer nodig zijn, kunt u deze instelling naar wens wijzigen wanneer u een [kanaaloppervlak](channel-surfaces.md) (d.w.z. voorinstelling voor berichten) die wordt toegepast op het e-mailkanaal.
+Nochtans, om ervoor te zorgen dat de pogingen van het opnieuw proberen niet meer wanneer niet meer nodig worden uitgevoerd, kunt u dit het plaatsen volgens uw behoeften veranderen wanneer het creëren van of het uitgeven van a [ kanaalconfiguratie ](channel-surfaces.md) (d.w.z. vooraf ingesteld bericht) die op het e-mailkanaal van toepassing is.
 
 U kunt bijvoorbeeld de periode voor het opnieuw proberen instellen op 24 uur voor een transactie-e-mail die betrekking heeft op het opnieuw instellen van wachtwoorden en die een koppeling bevat die slechts een dag geldig is. Op dezelfde manier kunt u voor een uitverkoop in middernacht een uitzetperiode van 6 uur definiëren.
 
@@ -80,5 +80,5 @@ U kunt bijvoorbeeld de periode voor het opnieuw proberen instellen op 24 uur voo
 >
 >De periode van opnieuw proberen mag niet langer zijn dan 84 uur. De minimumperiode voor het opnieuw proberen is 6 uur voor marketing e-mails en 10 minuten voor transactie e-mails.
 
-Leer hoe u de parameters voor het opnieuw proberen van e-mail aanpast bij het maken van een kanaaloppervlak in [deze sectie](../email/email-settings.md#email-retry).
+Leer hoe te om e-mail aan te passen herprobeert parameters wanneer het creëren van een kanaalconfiguratie in [ deze sectie ](../email/email-settings.md#email-retry).
 

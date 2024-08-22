@@ -6,38 +6,38 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 3f7d71eecf282b21eb09423378008c3b9ccd7edc
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '1028'
 ht-degree: 1%
 
 ---
 
 # Op code gebaseerde ervaringen maken {#create-code-based}
 
-Momenteel in [!DNL Journey Optimizer] u kunt alleen op code gebaseerde ervaringen maken in **campagnes**.
+Momenteel in [!DNL Journey Optimizer] kunt u code-gebaseerde ervaringen in **campagnes** slechts tot stand brengen.
 
-Specifieke instructies en aanbevelingen voor ervaringen op basis van code worden nader beschreven in [deze pagina](code-based-prerequisites.md).
+De specifieke begeleiding en de aanbevelingen voor code-gebaseerde ervaringen zijn gedetailleerd in [ deze pagina ](code-based-prerequisites.md).
 
 ## Een op code gebaseerde campagne maken {#create-code-based-campaign}
 
 Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via een campagne.
 
-1. Maak een campagne. [Meer informatie](../campaigns/create-campaign.md)
+1. Open het menu **[!UICONTROL Campaigns]** en klik op **[!UICONTROL Create campaign]** . [Meer informatie](../campaigns/create-campaign.md)
 
-1. Selecteer de **[!UICONTROL Code-based experience]** handeling.
+1. Selecteer het type campagne dat u wilt uitvoeren
 
-1. Voer het op code gebaseerde ervaringsoppervlak in. [Meer informatie](#surface-definition)
+   * **Gepland - Op de markt brengend**: voer onmiddellijk de campagne of op een gespecificeerde datum uit. Geplande campagnes zijn gericht op het verzenden van marketingberichten. Zij worden gevormd en uitgevoerd van het gebruikersinterface.
+
+   * **API-teweeggebracht - Marketing/Transactioneel**: voer de campagne uit gebruikend een API vraag. API-getriggerde campagnes zijn gericht op het verzenden van marketingberichten of transactiemeldingen, d.w.z. berichten die worden verzonden na een actie van een individu: wachtwoordinstelling, winkelwagentje enz.
+
+1. Voltooi de stappen om een campagne, zoals de campagneeigenschappen, [ publiek ](../audience/about-audiences.md), en [ programma ](../campaigns/create-campaign.md#schedule) tot stand te brengen. Voor meer informatie over hoe te om een campagne te vormen, verwijs naar [ deze pagina ](../campaigns/get-started-with-campaigns.md).
+
+1. Selecteer de handeling **[!UICONTROL Code-based experience]** .
+
+1. Selecteer of creeer de op code-gebaseerde ervaringsconfiguratie. [Meer informatie](code-based-configuration.md)
 
    ![](assets/code-based-campaign-surface.png)
-
-   >[!CAUTION]
-   >
-   >Zorg ervoor dat het oppervlak-URI dat in uw op code gebaseerde campagne wordt gebruikt, overeenkomt met het oppervlak dat in uw eigen implementatie wordt gebruikt. Anders worden de wijzigingen niet doorgevoerd.
-
-1. Selecteer **[!UICONTROL Create]**.
-
-1. Voltooi de stappen om een campagne te creëren, zoals de campagneeigenschappen, [publiek](../audience/about-audiences.md), en [schema](../campaigns/create-campaign.md#schedule). Voor meer informatie over hoe te om een campagne te vormen, raadpleeg [deze pagina](../campaigns/get-started-with-campaigns.md).
 
 1. Bewerk de inhoud naar wens met behulp van de verpersoonlijkingseditor. [Meer informatie](#edit-code)
 
@@ -51,11 +51,11 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
 >abstract="Voeg de code die u wilt leveren in en bewerk deze als onderdeel van deze op code gebaseerde ervaringsactie."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions.html" text="Aan de slag met de personalisatie-editor"
 
-1. Selecteer in het scherm Campagne **[!UICONTROL Edit code]**.
+1. Selecteer **[!UICONTROL Edit code]** in het scherm van de campagneeditie.
 
    ![](assets/code-based-campaign-edit-code.png)
 
-1. De [personalisatie-editor](../personalization/personalization-build-expressions.md) wordt geopend. Het is een niet-visuele interface van de ervaringsverwezenlijking die u toestaat om uw code te ontwerpen.
+1. De [ verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md) opent. Het is een niet-visuele interface van de ervaringsverwezenlijking die u toestaat om uw code te ontwerpen.
 
 1. U kunt de ontwerpmodus wijzigen van HTML in JSON en andersom.
 
@@ -65,13 +65,13 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
    >
    >Als u de ontwerpmodus wijzigt, gaan al uw huidige code verloren. Zorg er dus voor dat u overschakelt naar een andere modus voordat u begint met ontwerpen.
 
-1. Voer de gewenste code in. U kunt de [!DNL Journey Optimizer] verpersoonlijkingsredacteur met al zijn verpersoonlijking en auteursmogelijkheden. [Meer informatie](../personalization/personalization-build-expressions.md)
+1. Voer de gewenste code in. U kunt de personalisatie-editor van [!DNL Journey Optimizer] gebruiken met al zijn personalisatie- en ontwerpmogelijkheden. [Meer informatie](../personalization/personalization-build-expressions.md)
 
-1. U kunt desgewenst HTML- of JSON-uitdrukkingsfragmenten toevoegen. [Meer informatie](../personalization/use-expression-fragments.md)
+1. U kunt desgewenst HTML- of JSON-uitdrukkingsfragmenten toevoegen. [ leer hoe ](../personalization/use-expression-fragments.md)
 
-   U kunt ook een deel van de code-inhoud opslaan als een fragment. [Meer informatie](../content-management/fragments.md#save-as-expression-fragment)
+   U kunt ook een deel van de code-inhoud opslaan als een fragment. [ leer hoe ](../content-management/fragments.md#save-as-expression-fragment)
 
-1. In op code-gebaseerde campagnes, kunt u de ervaring bepalende eigenschap gebruiken. Selecteer de **[!UICONTROL Decisions]** pictogram van de linkerbalk en klik op **[!UICONTROL Create decision]**. [Meer informatie](../experience-decisioning/create-decision.md)
+1. In op code-gebaseerde campagnes, kunt u de ervaring bepalende eigenschap gebruiken. Selecteer het pictogram **[!UICONTROL Decisions]** op de linkerbalk en klik op **[!UICONTROL Create decision]** . [Meer informatie](../experience-decisioning/create-decision.md)
 
    ![](assets/code-based-campaign-create-decision.png)
 
@@ -80,9 +80,9 @@ Volg de onderstaande stappen om uw op code gebaseerde ervaring op te bouwen via 
    >Experience Decisioning is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
 
 
-1. Klikken **[!UICONTROL Save and close]** om uw wijzigingen te bevestigen.
+1. Klik op **[!UICONTROL Save and close]** om uw wijzigingen te bevestigen.
 
-Zodra de ontwikkelaar een API- of SDK-aanroep uitvoert om inhoud op te halen voor het geselecteerde oppervlak, worden de wijzigingen toegepast op uw webpagina of app.
+Zodra uw ontwikkelaar een API- of SDK-aanroep uitvoert om inhoud op te halen voor het oppervlak dat is gedefinieerd in uw kanaalconfiguratie, worden de wijzigingen toegepast op uw webpagina of app.
 
 ## Test de op code gebaseerde campagne {#test-code-based-campaign}
 
@@ -91,17 +91,17 @@ Zodra de ontwikkelaar een API- of SDK-aanroep uitvoert om inhoud op te halen voo
 >title="Een voorvertoning weergeven van uw op code gebaseerde ervaring"
 >abstract="Krijg een simulatie van wat uw code-gebaseerde ervaring zal kijken als."
 
-Volg de onderstaande stappen om een voorvertoning weer te geven van uw aangepaste ervaring op basis van code. Gedetailleerde informatie over het selecteren van testprofielen en het weergeven van een voorvertoning van de inhoud is beschikbaar in het dialoogvenster [De inhoudspagina voorvertonen en testen](../content-management/preview-test.md).
+Volg de onderstaande stappen om een voorvertoning weer te geven van uw aangepaste ervaring op basis van code. De gedetailleerde informatie over hoe te om testprofielen te selecteren en uw inhoud voor te vertonen is beschikbaar in [ Voorproef en test uw inhoudspagina ](../content-management/preview-test.md).
 
 >[!CAUTION]
 >
->U moet testprofielen beschikbaar hebben om te simuleren welke aanbiedingen aan hen zullen worden geleverd. Leer hoe u [testprofielen maken](../audience/creating-test-profiles.md).
+>U moet testprofielen beschikbaar hebben om te simuleren welke aanbiedingen aan hen zullen worden geleverd. Leer hoe te om [ testprofielen ](../audience/creating-test-profiles.md) tot stand te brengen.
 
-1. Van of de verpersoonlijkings redacteur of geef inhoudsscherm uit, uitgezocht **[!UICONTROL Simulate content]**.
+1. Selecteer **[!UICONTROL Simulate content]** in de verpersoonlijkingseditor of in het inhoudsscherm.
 
    ![](assets/code-based-campaign-simulate.png)
 
-1. Klikken **[!UICONTROL Manage test profiles]** om een of meer testprofielen te selecteren.
+1. Klik op **[!UICONTROL Manage test profiles]** om een of meer testprofielen te selecteren.
 
 1. Er wordt een voorvertoning van uw aangepaste ervaring op basis van code weergegeven.
 
@@ -114,17 +114,17 @@ Volg de onderstaande stappen om een voorvertoning weer te geven van uw aangepast
 
 ## De op code gebaseerde campagne activeren {#activate-code-based-campaign}
 
-Nadat u de campagne op basis van code hebt gedefinieerd en de inhoud naar wens hebt bewerkt met de [op code gebaseerde editor](#edit-code), kunt u deze controleren en activeren. Voer de onderstaande stappen uit.
+Zodra u uw op code-gebaseerde campagne bepaalde en uw inhoud zoals gewenst gebruikend de [ code-gebaseerde redacteur ](#edit-code), kunt u het herzien en activeren. Voer de onderstaande stappen uit.
 
 >[!NOTE]
 >
 >U kunt ook een voorvertoning van de inhoud van uw campagne weergeven voordat u deze activeert. [Meer informatie](#test-code-based-campaign)
 
-1. Selecteer in uw op code gebaseerde campagne de optie **[!UICONTROL Review to activate]**.
+1. Selecteer **[!UICONTROL Review to activate]** in uw op code gebaseerde campagne.
 
    ![](assets/code-based-campaign-review.png)
 
-1. Controleer en bewerk indien nodig de inhoud, eigenschappen, oppervlak, publiek en planning.
+1. Controleer en bewerk indien nodig de inhoud, eigenschappen, configuratie, publiek en planning.
 
 1. Selecteer **[!UICONTROL Activate]**.
 
@@ -132,17 +132,17 @@ Nadat u de campagne op basis van code hebt gedefinieerd en de inhoud naar wens h
 
    >[!NOTE]
    >
-   >Nadat u op **[!UICONTROL Activate]** Het kan tot 1 minuut duren voordat wijzigingen in op code gebaseerde campagnes live beschikbaar zijn op uw locatie.
+   >Nadat u op **[!UICONTROL Activate]** hebt geklikt, kan het maximaal 1 minuut duren voordat wijzigingen in op code gebaseerde campagnes live beschikbaar zijn op uw locatie.
 
-Uw op code gebaseerde campagne neemt de **[!UICONTROL Live]** en is nu zichtbaar voor het geselecteerde publiek. Elke ontvanger van uw campagne kan uw wijzigingen zien.
+Uw op code gebaseerde campagne neemt de **[!UICONTROL Live]** status en is nu zichtbaar voor het geselecteerde publiek. Elke ontvanger van uw campagne kan uw wijzigingen zien.
 
 >[!NOTE]
 >
->Als u een programma voor uw op code-gebaseerde campagne hebt bepaald, heeft het **[!UICONTROL Scheduled]** status tot de begindatum en -tijd zijn bereikt.
+>Als u een schema voor uw op code-gebaseerde campagne bepaalde, heeft het de **[!UICONTROL Scheduled]** status tot de begindatum en de tijd worden bereikt.
 >
 >Als u een op code gebaseerde campagne activeert die invloed heeft op dezelfde locaties als een andere campagne die al actief is, worden alle wijzigingen toegepast op uw locaties.
 
-Meer informatie over het activeren van campagnes in [deze sectie](../campaigns/review-activate-campaign.md).
+Leer meer bij het activeren van campagnes in [ deze sectie ](../campaigns/review-activate-campaign.md).
 
 ## Een op code gebaseerde campagne stoppen {#stop-code-based-campaign}
 
@@ -150,7 +150,7 @@ Wanneer een code-gebaseerde campagne levend is, kunt u het tegenhouden om uw pub
 
 1. Selecteer een live campagne in de lijst.
 
-1. Selecteer in het bovenste menu de optie **[!UICONTROL Stop campaign]**.
+1. Selecteer **[!UICONTROL Stop campaign]** in het bovenste menu.
 
    ![](assets/code-based-campaign-stop.png)
 
@@ -168,26 +168,26 @@ Globale rapporten geven gebeurtenissen weer die zich minstens twee uur geleden h
 
 ### Live-rapport op basis van code {#live-report-code-based}
 
-Van uw campagne **[!UICONTROL Live report]** de **[!UICONTROL Code-based experience]** bevat de belangrijkste gegevens voor uw apps of webpagina&#39;s. [Meer informatie over live rapporten](../reports/campaign-live-report.md)
+Vanuit uw campagne **[!UICONTROL Live report]** geeft het tabblad **[!UICONTROL Code-based experience]** de belangrijkste informatie met betrekking tot uw apps of webpagina&#39;s weer. [ Leer meer op levend rapport ](../reports/campaign-live-report.md)
 
 +++Leer meer over de verschillende metriek en widgets beschikbaar voor het op code-gebaseerde ervaringsrapport.
 
-De **[!UICONTROL Code-based experience performance]** KPIs detailleert de belangrijkste informatie met betrekking tot de betrokkenheid van uw bezoekers met uw code-gebaseerde ervaringen, zoals:
+De KPI&#39;s van **[!UICONTROL Code-based experience performance]** bevatten gedetailleerde informatie over de betrokkenheid van uw bezoekers bij uw op code gebaseerde ervaringen, zoals:
 
 * **[!UICONTROL Impressions]**: totaal aantal ervaringen dat aan alle gebruikers wordt geleverd.
 
 * **[!UICONTROL Interactions]**: totaal aantal contracten met uw app/pagina. Dit omvat alle handelingen die de gebruikers hebben uitgevoerd, zoals klikken of andere interacties.
 
-De **[!UICONTROL Code-based experience summary]** in de grafiek wordt de evolutie van uw ervaringen (indrukken, unieke indrukken en interacties) gedurende de laatste 24 uur getoond.
+In de grafiek van **[!UICONTROL Code-based experience summary]** ziet u de evolutie van uw ervaringen (indrukken, unieke indrukken en interacties) gedurende de laatste 24 uur.
 
 <!--The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your app/pages.-->
 +++
 
 ### Globaal rapport op basis van code {#global-report-code-based}
 
-Globaal rapport voor campagnes op basis van code is rechtstreeks toegankelijk vanuit uw campagne via de **[!UICONTROL View report]** knop. [Meer informatie over een globaal rapport](../reports/campaign-global-report.md)
+Globaal rapport voor campagnes op basis van code is rechtstreeks vanuit uw campagne toegankelijk via de knop **[!UICONTROL View report]** . [ leer meer over globaal rapport ](../reports/campaign-global-report.md)
 
-Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Code-based experience]** bevat de belangrijkste gegevens voor uw apps of webpagina&#39;s.
+Vanuit uw campagne **[!UICONTROL Global report]** bevat het tabblad **[!UICONTROL Code-based experience]** de belangrijkste informatie met betrekking tot uw apps of webpagina&#39;s.
 
 ![](assets/code-based-campaign-global-report.png)
 
@@ -195,15 +195,15 @@ Van uw campagne **[!UICONTROL Global report]** de **[!UICONTROL Code-based exper
 
 +++Leer meer over de verschillende metriek en widgets beschikbaar voor het op code-gebaseerde ervaringsrapport.
 
-De **[!UICONTROL Code-based experience performance]** KPI&#39;s geven een gedetailleerde beschrijving van de belangrijkste informatie over de betrokkenheid van uw bezoekers bij uw ervaringen, zoals:
+De KPI&#39;s van **[!UICONTROL Code-based experience performance]** bevatten gedetailleerde informatie over de belangrijkste informatie met betrekking tot de betrokkenheid van uw bezoekers bij uw ervaringen, zoals:
 
 * **[!UICONTROL Unique impressions]**: aantal unieke gebruikers aan wie de ervaring is opgeleverd.
 
 * **[!UICONTROL Impressions]**: totaal aantal ervaringen dat aan alle gebruikers wordt geleverd.
 
-* **[!UICONTROL Interactions]**: percentage contracten met uw app/pagina. Dit omvat alle handelingen die de gebruikers hebben uitgevoerd, zoals klikken of andere interacties.
+* **[!UICONTROL Interactions]**: percentage van de contracten met uw app/pagina. Dit omvat alle handelingen die de gebruikers hebben uitgevoerd, zoals klikken of andere interacties.
 
-De **[!UICONTROL Code-based experience summary]** in de grafiek wordt de ontwikkeling van uw ervaringen (unieke indrukken, indrukken en interacties) voor de desbetreffende periode weergegeven.
+De grafiek van **[!UICONTROL Code-based experience summary]** toont de evolutie van uw ervaringen (unieke beelden, indrukkingen en interacties) voor de betrokken periode.
 
 <!--The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your apps/pages.-->
 +++

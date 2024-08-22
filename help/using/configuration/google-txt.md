@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: subdomein, google, txt, record, gmail, leverability
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 10%
+source-wordcount: '201'
+ht-degree: 7%
 
 ---
 
@@ -25,18 +25,18 @@ ht-degree: 10%
 
 TXT-records zijn een type DNS-record dat wordt gebruikt om tekstinformatie over een domein te verstrekken en dat kan worden gelezen door externe bronnen.
 
-Om ervoor te zorgen dat de e-mailadressen optimaal kunnen worden bezorgd en succesvol kunnen worden bezorgd, [!DNL Journey Optimizer] Hiermee kunt u speciale TXT-records voor verificatie van de Google-site toevoegen aan uw subdomein om te controleren of dit is geverifieerd.
+Met [!DNL Journey Optimizer] kunt u speciale TXT-records voor de verificatie van de Google-site toevoegen aan uw subdomein om ervoor te zorgen dat deze worden geverifieerd, zodat u verzekerd bent van optimale leverbaarheid en een geslaagde verzending van e-mailberichten naar Gmail-adressen.
 
 >[!CAUTION]
 >
-> Deze bewerking kan alleen worden uitgevoerd als een subdomein het **[!UICONTROL Success]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](about-subdomain-delegation.md#access-delegated-subdomains).
+> Deze bewerking kan alleen worden uitgevoerd als een subdomein de status **[!UICONTROL Success]** heeft. Voor meer op de statussen van subdomeinen, verwijs naar [ deze sectie ](about-subdomain-delegation.md#access-delegated-subdomains).
 
 Ga als volgt te werk om een Google TXT-record aan uw subdomein toe te voegen:
 
-1. Het subdomein openen vanuit het dialoogvenster **[!UICONTROL Channels]** / **[!UICONTROL Subdomains]** -menu.
+1. Open het subdomein via het menu **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** > **[!UICONTROL Subdomains]** .
 
-1. In de **[!UICONTROL Google txt record]** de verificatiecode invoeren die is gegenereerd op basis van [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->en klik vervolgens op **[!UICONTROL Save]**.
+1. In de **[!UICONTROL Google txt record]** sectie, ga de verificatiecode in die van [ Google Workspace ](https://support.google.com/a/answer/183895) {target="_blank"}<!--G Suite Admin tools--> wordt geproduceerd, dan klik **[!UICONTROL Save]**.
 
    ![](assets/subdomain-google-txt.png)
 
-1. Nadat de TXT-record is toegevoegd, moet u deze door Google laten verifiëren. Navigeer naar [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools-->en start vervolgens de verificatiestap.
+1. Nadat de TXT-record is toegevoegd, moet u deze door Google laten verifiëren. Om dit te doen, navigeer aan [ Google Workspace ](https://support.google.com/a/answer/183895) {target="_blank"}<!--G Suite Admin tools-->, dan lanceer de verificatiestap.

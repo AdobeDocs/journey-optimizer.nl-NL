@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6574f5d46125b90634b21ec62a43ca50d1321479
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 4%
@@ -134,7 +134,7 @@ Beheer uw privacybeheer en verzoeken vanuit deze sectie.
 
 * **[!UICONTROL Sandboxes]** - Adobe Experience Platform biedt sandboxen die één instantie in afzonderlijke virtuele omgevingen verdelen om toepassingen voor digitale ervaringen te ontwikkelen en te ontwikkelen. Blader in deze sectie om uw sandboxen te beheren. [Meer informatie](../administration/sandboxes.md)
 
-* **[!UICONTROL Channels]** - Gebruik deze sectie om uw kanalen, met inbegrip van subdomeinen, oppervlakten, en leveringsmontages te vormen. [Meer informatie](../configuration/get-started-configuration.md)
+* **[!UICONTROL Channels]** - Gebruik deze sectie om uw kanalen, met inbegrip van subdomeinen, configuraties, en leveringsmontages te vormen. [Meer informatie](../configuration/get-started-configuration.md)
 
 * **[!UICONTROL Tags]** - Met Verenigde Markeringen, kunt u uw reizen en campagnes gemakkelijk classificeren om onderzoek van de lijsten te verbeteren. [Meer informatie](../start/search-filter-categorize.md#work-with-unified-tags)
 

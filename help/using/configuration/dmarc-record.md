@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: subdomein, domein, mail, dmarc, record
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Met de beheerinterface van [!DNL Journey Optimizer] kunt u een DMARC-record inst
 
 Volg onderstaande stappen om ervoor te zorgen dat u DMARC-record hebt ingesteld voor alle subdomeinen die u in [!DNL Journey Optimizer] hebt gedelegeerd.
 
-1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Subdomains]** en klik op **[!UICONTROL Set up subdomain]** .
+1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** > **[!UICONTROL Subdomains]** en klik op **[!UICONTROL Set up subdomain]** .
 
 1. Controleer de kolom **[!UICONTROL DMARC Record]** voor elk gedelegeerd subdomein. Als er geen record is gevonden voor een bepaald subdomein, wordt een waarschuwing weergegeven.
 

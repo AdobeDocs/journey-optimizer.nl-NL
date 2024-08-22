@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: archief, berichten, HIPAA, BCC, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: be758a577dbff2ae400d0642f9e898b423353f90
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 1%
@@ -20,11 +20,11 @@ ht-degree: 1%
 
 ## Berichten archiveren {#about-archiving}
 
-Regels zoals HIPAA schrijven voor dat [!DNL Journey Optimizer] moeten een manier bieden om berichten die aan individuen worden verzonden, te archiveren. Als uw klanten een claim indienen, moeten zij een kopie van het verzonden bericht kunnen krijgen voor controledoeleinden.
+Regels zoals HIPAA schrijven voor dat [!DNL Journey Optimizer] een manier moet bieden om berichten te archiveren die naar individuen zijn verzonden. Als uw klanten een claim indienen, moeten zij een kopie van het verzonden bericht kunnen krijgen voor controledoeleinden.
 
-* Voor het e-mailkanaal: [!DNL Journey Optimizer] biedt een ingebouwde BCC e-mailmogelijkheid. [Meer informatie](#bcc-email)
+* Voor het e-mailkanaal biedt [!DNL Journey Optimizer] een ingebouwde BCC-e-mailfunctie. [Meer informatie](#bcc-email)
 
-* Daarnaast kunt u voor alle kanalen het veld Sjabloon gebruiken in het dialoogvenster **Entiteitsgegevens**, die de details van de niet-gepersonaliseerde berichtmalplaatjes bevat. Exporteer de dataset met dit veld om metagegevens op te slaan, zoals: wie het bericht heeft verzonden, naar wie en wanneer. Persoonlijke gegevens worden niet geëxporteerd. Alleen de sjabloon (indeling en structuur van het bericht) wordt in aanmerking genomen. [Meer informatie](../data/datasets-query-examples.md#entity-dataset)
+* Bovendien, voor alle kanalen, kunt u het gebied van het &quot;Malplaatje&quot;in de **Dataset van de Entiteit** gebruiken, die de details van de niet-gepersonaliseerde berichtmalplaatjes bevat. Exporteer de dataset met dit veld om metagegevens op te slaan, zoals: wie het bericht heeft verzonden, naar wie en wanneer. Persoonlijke gegevens worden niet geëxporteerd. Alleen de sjabloon (indeling en structuur van het bericht) wordt in aanmerking genomen. [Meer informatie](../data/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
@@ -37,17 +37,17 @@ Regels zoals HIPAA schrijven voor dat [!DNL Journey Optimizer] moeten een manier
 >title="Een BCC-e-mailadres definiëren"
 >abstract="U kunt een kopie van verzonden e-mailberichten bewaren door deze naar een BCC-postvak te verzenden. Voer het e-mailadres van uw keuze in, zodat elke verzonden e-mail blind wordt gekopieerd naar dit BCC-adres. Merk op dat het BCC adresdomein van om het even welk subdomein moet verschillend zijn dat aan Adobe wordt gedelegeerd. Deze functie is optioneel."
 
-U kunt BCC (blind carbon copy) van een e-mail verzenden die is verzonden door [!DNL Journey Optimizer] naar een toegewezen BCC-adres. Met deze optionele functie kunt u kopieën behouden van e-mailberichten die u naar uw gebruikers verzendt voor compatibiliteits- en/of archiefdoeleinden. Het BCC-adres is niet zichtbaar voor andere ontvangers van het bericht.
+U kunt BCC (blind carbon copy) van een e-mail die door [!DNL Journey Optimizer] wordt verzonden naar een speciaal BCC-adres verzenden. Met deze optionele functie kunt u kopieën behouden van e-mailberichten die u naar uw gebruikers verzendt voor compatibiliteits- en/of archiefdoeleinden. Het BCC-adres is niet zichtbaar voor andere ontvangers van het bericht.
 
 ### BCC-e-mail inschakelen {#enable-bcc}
 
-Om het **[!UICONTROL BCC email]** voert u het e-mailadres van uw keuze in in het desbetreffende veld van het dialoogvenster [kanaaloppervlak](channel-surfaces.md) (d.w.z. voorinstelling bericht). U kunt elk extern adres opgeven in de juiste indeling, behalve een e-mailadres dat is gedefinieerd voor een subdomein dat is gedelegeerd aan de Adobe. Als u bijvoorbeeld de opdracht *marketing.luma.com* subdomein voor Adobe, elk adres zoals *abc@marketing.luma.com* is verboden.
+Om de **[!UICONTROL BCC email]** optie toe te laten, ga het e-mailadres van uw keus op het specifieke gebied van de [ kanaalconfiguratie ](channel-surfaces.md) (d.w.z. vooraf ingesteld bericht) in. U kunt elk extern adres opgeven in de juiste indeling, behalve een e-mailadres dat is gedefinieerd voor een subdomein dat is gedelegeerd aan de Adobe. Bijvoorbeeld, als u *marketing.luma.com* subdomain aan Adobe delegeerde, wordt om het even welk adres als *abc@marketing.luma.com* verboden.
 
 >[!CAUTION]
 >
->U kunt slechts één BCC-e-mailadres definiëren. Zorg ervoor dat het BCC-adres voldoende ontvangstcapaciteit heeft om alle e-mails op te slaan die via het huidige kanaaloppervlak worden verzonden.
+>U kunt slechts één BCC-e-mailadres definiëren. Zorg ervoor dat het BCC-adres voldoende ontvangstcapaciteit heeft om alle e-mails op te slaan die met de huidige kanaalconfiguratie worden verzonden.
 >
->Meer aanbevelingen worden weergegeven in [deze sectie](#bcc-recommendations-limitations).
+>Meer aanbevelingen worden vermeld in [ deze sectie ](#bcc-recommendations-limitations).
 
 >[!NOTE]
 >
@@ -55,17 +55,17 @@ Om het **[!UICONTROL BCC email]** voert u het e-mailadres van uw keuze in in het
 
 ![](assets/preset-bcc.png)
 
-Zodra configuratie wordt gedaan, worden alle e-mailberichten die op dit oppervlak worden gebaseerd blind-gekopieerd aan het BCC e-mailadres u inging. Van daar, kunnen de berichten worden verwerkt en worden gearchiveerd gebruikend een extern systeem.
+Zodra configuratie wordt gedaan, worden alle e-mailberichten die op deze configuratie worden gebaseerd blind-gekopieerd aan het BCC e-mailadres u inging. Van daar, kunnen de berichten worden verwerkt en worden gearchiveerd gebruikend een extern systeem.
 
 >[!CAUTION]
 >
->Het gebruik van uw BCC-functie wordt afgeteld bij het aantal berichten waarvoor u een licentie hebt. Vandaar, laat slechts het in de oppervlakken toe die voor kritieke mededelingen worden gebruikt die u wenst te archiveren. Controleer uw contract op volumes met licentie.
+>Het gebruik van uw BCC-functie wordt afgeteld bij het aantal berichten waarvoor u een licentie hebt. Vandaar, laat slechts het in de configuraties toe die voor kritieke mededelingen worden gebruikt die u wenst te archiveren. Controleer uw contract op volumes met licentie.
 
-De instelling voor het BCC-e-mailadres wordt direct opgeslagen en verwerkt op oppervlakteneniveau. Wanneer u een nieuw bericht gebruikend dit oppervlak creeert, wordt het e-mailadres BCC automatisch getoond.
+De instelling voor het e-mailadres van de BCC wordt direct opgeslagen en verwerkt op configuratieniveau. Als u een nieuw bericht maakt met deze configuratie, wordt het BCC-e-mailadres automatisch weergegeven.
 
 ![](assets/preset-bcc-in-msg.png)
 
-Nochtans, wordt het adres BCC opgepikt voor het verzenden van mededelingen na de beschreven logica [hier](../email/email-settings.md).
+Nochtans, wordt het adres BCC opgepikt voor het verzenden van mededelingen na de hier beschreven logica [ ](../email/email-settings.md).
 
 ### Recommendations en beperkingen {#bcc-recommendations-limitations}
 
@@ -75,11 +75,11 @@ Nochtans, wordt het adres BCC opgepikt voor het verzenden van mededelingen na de
 
 * De inbox die voor BCC wordt gebruikt, moet correct worden beheerd voor ruimte en levering. Als het postvak inbox bellen retourneert, worden sommige e-mails mogelijk niet ontvangen en worden deze daarom niet gearchiveerd.
 
-* De berichten kunnen aan het BCC e-mailadres vóór de doelontvangers worden geleverd. BCC-berichten kunnen ook worden verzonden, ook al hebben de oorspronkelijke berichten mogelijk [afgezet](../reports/suppression-list.md#delivery-failures).
+* De berichten kunnen aan het BCC e-mailadres vóór de doelontvangers worden geleverd. BCC de berichten kunnen ook worden verzonden alhoewel de originele berichten [ ](../reports/suppression-list.md#delivery-failures) kunnen hebben teruggestuurd.
 
   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
-* Open of klik niet door de e-mails die naar het BCC-adres worden verzonden, aangezien hiermee rekening wordt gehouden bij het openen van het totaal en klikken op de verzendanalyse, wat tot onjuiste berekeningen kan leiden bij: [rapporten](../reports/global-report.md).
+* Open of klik niet door de e-mail die naar het adres BCC wordt verzonden aangezien het in het totaal wordt overwogen opent en klikt van verzendt analyse, die sommige misberekeningen in [ rapporten ](../reports/global-report.md) kon veroorzaken.
 
 * Markeer geen berichten als spam in de BCC-postvak, omdat dit invloed heeft op alle andere e-mails die naar dit adres worden verzonden.
 
@@ -89,19 +89,19 @@ Nochtans, wordt het adres BCC opgepikt voor het verzenden van mededelingen na de
 
 ### GDPR-conformiteit {#gdpr-compliance}
 
-In verordeningen zoals de GDPR is bepaald dat betrokkenen hun toestemming te allen tijde kunnen wijzigen. Omdat de BCC-e-mails die u met Journey Optimizer verzendt, veilig herkenbare gegevens (PII&#39;s) bevatten, moet u de **[!UICONTROL CJM Email BCC Feedback Event Schema]** deze PII te kunnen beheren in overeenstemming met de GDPR en soortgelijke voorschriften.
+In verordeningen zoals de GDPR is bepaald dat betrokkenen hun toestemming te allen tijde kunnen wijzigen. Omdat de BCC-e-mails die u met Journey Optimizer verzendt, veilig herkenbare gegevens (PII&#39;s) bevatten, moet u de **[!UICONTROL CJM Email BCC Feedback Event Schema]** bewerken om deze PII te kunnen beheren in overeenstemming met GDPR en soortgelijke regels.
 
 Volg de onderstaande stappen om dit te doen.
 
-1. Ga naar **[!UICONTROL Data management]** > **[!UICONTROL Schemas]** > **[!UICONTROL Browse]** en selecteert u **[!UICONTROL CJM Email BCC Feedback Event Schema]**.
+1. Ga naar **[!UICONTROL Data management]** > **[!UICONTROL Schemas]** > **[!UICONTROL Browse]** en selecteer **[!UICONTROL CJM Email BCC Feedback Event Schema]** .
 
    ![](assets/preset-bcc-schema.png)
 
-1. Klik om uit te vouwen **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagment]** dan **[!UICONTROL secondaryRecipientDetail]**.
+1. Klik om **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagment]** then **[!UICONTROL secondaryRecipientDetail]** uit te vouwen.
 
 1. Selecteer **[!UICONTROL originalRecipientAddress]**.
 
-1. In de **[!UICONTROL Field properties]** rechts, omlaag schuiven naar de **[!UICONTROL Identity]** selectievakje.
+1. Schuif in de **[!UICONTROL Field properties]** aan de rechterkant omlaag naar het selectievakje **[!UICONTROL Identity]** .
 
 1. Selecteer het en selecteer ook **[!UICONTROL Primary identity]**.
 
@@ -113,17 +113,17 @@ Volg de onderstaande stappen om dit te doen.
 
 >[!NOTE]
 >
->Meer informatie over het beheren van privacy en de toepasselijke regels in het dialoogvenster [Documentatie Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl){target="_blank"}.
+>Leer meer bij het beheren van Privacy en de toepasselijke verordeningen in de [ documentatie van het Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl) {target="_blank"}.
 
 ### BCC-rapportagegegevens {#bcc-reporting}
 
-Rapportage als zodanig over BCC is niet beschikbaar in de reis- en berichtrapporten. Nochtans, wordt de informatie opgeslagen op een systeemdataset genoemd **[!UICONTROL AJO BCC Feedback Event Dataset]**. U kunt vragen tegen deze dataset in werking stellen om nuttige informatie voor het zuiveren doel bijvoorbeeld te vinden.
+Rapportage als zodanig over BCC is niet beschikbaar in de reis- en berichtrapporten. De informatie wordt echter opgeslagen in een systeemgegevensset met de naam **[!UICONTROL AJO BCC Feedback Event Dataset]** . U kunt vragen tegen deze dataset in werking stellen om nuttige informatie voor het zuiveren doel bijvoorbeeld te vinden.
 
-U kunt tot deze dataset door het gebruikersinterface toegang hebben. Selecteren **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** en de **[!UICONTROL Show system datasets]** knevel van de filter om de systeem-geproduceerde datasets te tonen. Leer meer over hoe te om tot datasets in toegang te hebben [deze sectie](../data/get-started-datasets.md#access-datasets).
+U kunt tot deze dataset door het gebruikersinterface toegang hebben. Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** en schakel de schakeloptie **[!UICONTROL Show system datasets]** van het filter in om de door het systeem gegenereerde gegevenssets weer te geven. Leer meer op hoe te om tot datasets in [ toegang te hebben deze sectie ](../data/get-started-datasets.md#access-datasets).
 
 ![](assets/preset-bcc-dataset.png)
 
-Om vragen tegen deze dataset in werking te stellen, kunt u de Redacteur van de Vraag gebruiken die door wordt verstrekt [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Queries]** en klik op **[!UICONTROL Create query]**. [Meer informatie](../data/get-started-queries.md)
+Om vragen tegen deze dataset in werking te stellen, kunt u de Redacteur van de Vraag gebruiken die door de [ wordt verstrekt de Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) {target="_blank"}. Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Queries]** en klik op **[!UICONTROL Create query]** om het bestand te openen. [Meer informatie](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -148,7 +148,7 @@ Afhankelijk van welke informatie u zoekt, kunt u de volgende vragen in werking s
 
    >[!NOTE]
    >
-   >Om de `<journey version id>`parameter, selecteer de overeenkomstige [reisversie](../building-journeys/journey.md#journey-versions) van de **[!UICONTROL Journey management]** > **[!UICONTROL Journeys]** -menu. De reisversie-id wordt weergegeven aan het einde van de URL die in uw webbrowser wordt weergegeven.
+   >Om de `<journey version id>` parameter te krijgen, selecteer de overeenkomstige [ reisversie ](../building-journeys/journey.md#journey-versions) van **[!UICONTROL Journey management]** > **[!UICONTROL Journeys]** menu. De reisversie-id wordt weergegeven aan het einde van de URL die in uw webbrowser wordt weergegeven.
    >
    >![](assets/preset-bcc-action-id.png)
 
@@ -178,7 +178,7 @@ Afhankelijk van welke informatie u zoekt, kunt u de volgende vragen in werking s
 
    >[!NOTE]
    >
-   >Om de `<journey action id>` parameter, stel de eerste hierboven beschreven vraag in werking gebruikend identiteitskaart van de reisversie. De `<recipient email address>` parameter is het beoogde of werkelijke e-mailadres van de ontvanger.
+   >Als u de parameter `<journey action id>` wilt ophalen, voert u de eerste hierboven beschreven query uit met de id van de reisversie. De parameter `<recipient email address>` is het beoogde of feitelijke e-mailadres van de ontvanger.
 
 1. Voer deze query uit om alle BCC-bericht-feedbackgebeurtenissen op te halen die zijn gegenereerd voor een bepaald bericht dat is gericht op een specifieke gebruiker in de laatste 2 dagen:
 

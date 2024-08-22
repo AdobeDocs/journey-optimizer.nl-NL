@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: zaadlijst, zaadlijst, zaad, configuratie
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 534c40c824962a983fe503c67bdc1bec2f9d9ae5
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # zaadlijsten gebruiken {#seed-lists}
 
-Zaadlijsten in [!DNL Journey Optimizer] kunt u toestaan om automatisch specifieke zaadadressen in uw leveringen te omvatten.
+Met zaadlijsten in [!DNL Journey Optimizer] kunt u automatisch specifieke zaadadressen opnemen in uw leveringen.
 
 >[!CAUTION]
 >
@@ -48,11 +48,11 @@ Zaadadressen zijn geen echte profielen en testprofielen, omdat deze geen profiel
 
 >[!NOTE]
 >
->Varianten worden ondersteund, inclusief meertalige en experimenteringsvarianten. Elk zaadadres ontvangt één enkel exemplaar van elke variant van het zelfde bericht, b.v. verschillende versies van een [inhoudexperiment](../content-management/get-started-experiment.md). Voor voorwaardelijke inhoud worden geen afzonderlijke e-mails met zaad verzonden.
+>Varianten worden ondersteund, inclusief meertalige en experimenteringsvarianten. Elk zaadadres ontvangt één enkel exemplaar van elke variant van het zelfde bericht, b.v. verschillende versies van a [ inhoudsexperiment ](../content-management/get-started-experiment.md). Voor voorwaardelijke inhoud worden geen afzonderlijke e-mails met zaad verzonden.
 
 ## De zaadlijsten openen {#access-seed-lists}
 
-Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** en selecteert u **[!UICONTROL Seed list]**.
+Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** en selecteer **[!UICONTROL Seed list]** om de reeds gemaakte zaadlijsten te openen.
 
 <!--
 >[!CAUTION]
@@ -61,7 +61,7 @@ Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONT
 
 >[!CAUTION]
 >
->Om zaadlijsten te kunnen bekijken, uitgeven en beheren, moet u hebben **[!UICONTROL Manage Seedlist]** toestemming.
+>U moet de machtiging **[!UICONTROL Manage Seedlist]** hebben om zaadlijsten te kunnen weergeven, bewerken en beheren.
 
 ![](assets/seed-list-access.png)
 
@@ -69,11 +69,11 @@ U kunt zaadlijsten zoeken op naam en/of filteren op de gebruiker die de lijst he
 
 ![](assets/seed-list-filtering.png)
 
-Gebruik de **[!UICONTROL Delete]** om een item permanent te verwijderen.
+Gebruik de knop **[!UICONTROL Delete]** om een item permanent te verwijderen.
 
 >[!CAUTION]
 >
->Het is niet mogelijk een zaadlijst te verwijderen die in een actieve [campagne](../campaigns/review-activate-campaign.md) of [reis](../building-journeys/publishing-the-journey.md). U moet de campagne/reis deactiveren, of het uitgeven om een andere oppervlakte te gebruiken die niet de geselecteerde zaadlijst heeft. [Meer informatie over het gebruik van een lijst met zaden](#use-seed-list)
+>Het is niet mogelijk om een zaadlijst te schrappen die in een actieve [ campagne ](../campaigns/review-activate-campaign.md) of [ reis ](../building-journeys/publishing-the-journey.md) wordt gebruikt. U moet de campagne/reis deactiveren, of het uitgeven om een andere configuratie te gebruiken die niet de geselecteerde zaadlijst heeft. [ leer meer bij het gebruiken van een zaadlijst ](#use-seed-list)
 
 U kunt op de naam van een zaadlijst klikken om deze te bewerken. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -92,7 +92,7 @@ U kunt op de naam van een zaadlijst klikken om deze te bewerken. <!--Use the **[
 
 Voer de onderstaande stappen uit om een zaadlijst te maken.
 
-1. Toegang krijgen tot de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Seed list]** -menu.
+1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** > **[!UICONTROL Seed list]** .
 
 1. Selecteer de knop **[!UICONTROL Create seed list]**.
 
@@ -122,7 +122,7 @@ Voer de onderstaande stappen uit om een zaadlijst te maken.
    >
    >U kunt beide opties combineren, maar het totale aantal adressen in een zaadlijst mag niet groter zijn dan 50.
 
-1. Klikken **[!UICONTROL Create]** ter bevestiging. De nieuwe zaadlijst wordt weergegeven in het dialoogvenster [Scherm zaadlijst](#access-seed-lists).
+1. Klik op **[!UICONTROL Create]** om te bevestigen. De nieuw gecreëerde zaadlijst toont in het [ scherm van de zaadlijst ](#access-seed-lists).
 
 ## Een zaadlijst gebruiken in een campagne of reis {#use-seed-list}
 
@@ -132,9 +132,9 @@ Nu uw zaadlijst wordt gecreeerd, kunt u het in om het even welke campagne of rei
 >
 >Berichten die naar zaadadressen worden verzonden zijn niet inbegrepen in reis of campagnerapporten.
 
-1. Maak een oppervlak en selecteer de optie **[!UICONTROL Email]** kanaal. [Meer informatie](../email/email-settings.md)
+1. Maak een configuratie en selecteer het kanaal **[!UICONTROL Email]** . [Meer informatie](../email/email-settings.md)
 
-1. Selecteer de zaadlijst van uw keus in [corresponderende sectie](../email/email-settings.md#seed-list).
+1. Selecteer de zaadlijst van uw keus in de [ overeenkomstige sectie ](../email/email-settings.md#seed-list).
 
    >[!NOTE]
    >
@@ -142,15 +142,15 @@ Nu uw zaadlijst wordt gecreeerd, kunt u het in om het even welke campagne of rei
 
    ![](assets/seed-list-surface.png)
 
-1. Plaats het oppervlak.
+1. Verzend de configuratie.
 
-1. Een [campagne](../campaigns/create-campaign.md) of [reis](../building-journeys/journey-gs.md).
+1. Creeer a [ campagne ](../campaigns/create-campaign.md) of a [ reis ](../building-journeys/journey-gs.md).
 
-1. Selecteer de **[!UICONTROL Email]** en selecteert u de [oppervlak](channel-surfaces.md) inclusief de zaadlijst die voor u relevant is.
+1. Selecteer de **[!UICONTROL Email]** actie en selecteer de [ configuratie ](channel-surfaces.md) met inbegrip van de zaadlijst die voor u relevant is.
 
    ![](assets/seed-list-campaign-email.png)
 
-1. Activeer uw [campagne](../campaigns/review-activate-campaign.md) of publiceer uw [reis](../building-journeys/publishing-the-journey.md).
+1. Activeer uw [ campagne ](../campaigns/review-activate-campaign.md) of publiceer uw [ reis ](../building-journeys/publishing-the-journey.md).
 
 Telkens wanneer een e-mailbericht naar uw klanten wordt verstuurd via die campagne of die reis, zullen de e-mailadressen op de geselecteerde zaadlijst het ook in de zelfde voorwaarden, tezelfdertijd en met de zelfde inhoud ontvangen zoals de beoogde ontvangers.
 

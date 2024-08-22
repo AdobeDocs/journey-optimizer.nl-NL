@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: landen, landingspagina, subdomeinen, configuratie
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -34,15 +34,15 @@ ht-degree: 0%
 >abstract="Als u een voorinstelling voor een bestemmingspagina wilt maken, moet u ervoor zorgen dat u eerder ten minste één subdomein van de bestemmingspagina hebt geconfigureerd om te kiezen uit de lijst met subdomeinnamen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Voorinstellingen voor openingspagina&#39;s maken"
 
-Om in staat te zijn [voorinstellingen voor openingspagina&#39;s maken](lp-presets.md), moet u de subdomeinen instellen die u voor de bestemmingspagina&#39;s wilt gebruiken.
+Om het landen van pagina te kunnen [ tot stand brengen stelt ](lp-presets.md) vooraf in, moet u opstelling subdomeinen u voor uw het landen pagina&#39;s zult gebruiken.
 
-U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of u kunt een ander subdomein vormen. Meer informatie over het delegeren van subdomeinen naar Adobe in [deze sectie](../configuration/delegate-subdomain.md).
+U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of u kunt een ander subdomein vormen. Leer meer bij het delegeren van subdomeinen aan Adobe in [ deze sectie ](../configuration/delegate-subdomain.md).
 
 >[!CAUTION]
 >
 >Subdomeinconfiguratie van de bestemmingspagina is gemeenschappelijk voor alle milieu&#39;s. Daarom geldt het volgende:
 >
->* Als u landende subdomeinen van pagina&#39;s wilt openen en bewerken, moet u beschikken over **[!UICONTROL Manage Landing Page Subdomains]** toestemming voor de productiesandbox.
+>* Als u landende subdomeinen van pagina&#39;s wilt openen en bewerken, moet u over de bevoegdheid **[!UICONTROL Manage Landing Page Subdomains]** beschikken in de productiesandbox.
 >
 > * Elke wijziging in een subdomein van een bestemmingspagina heeft ook invloed op de productiesandboxen.
 
@@ -50,15 +50,13 @@ U kunt een subdomein gebruiken dat reeds aan Adobe wordt gedelegeerd, of u kunt 
 
 Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aan Adobe.
 
-1. Toegang krijgen tot de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, selecteert u vervolgens **[!UICONTROL Email configuration]** > **[!UICONTROL Landing page subdomains]**.
-
-   ![](assets/lp_access-subdomains.png)
+1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteer vervolgens **[!UICONTROL Landing page settings]** > **[!UICONTROL Landing page subdomains]** .
 
 1. Klik op **[!UICONTROL Set up subdomain]**.
 
    ![](assets/lp_set-up-subdomain.png)
 
-1. Selecteren **[!UICONTROL Use delegated domain]** van de **[!UICONTROL Configuration type]** sectie.
+1. Selecteer **[!UICONTROL Use delegated domain]** in de sectie **[!UICONTROL Configuration type]** .
 
    ![](assets/lp_use-delegated-subdomain.png)
 
@@ -82,19 +80,19 @@ Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aa
 
    >[!CAUTION]
    >
-   >Als u een domein selecteert dat aan Adobe werd gedelegeerd gebruikend [CNAME, methode](../configuration/delegate-subdomain.md#cname-subdomain-delegation), moet u het DNS-record op uw hostingplatform maken. Om het DNS verslag te produceren, is het proces het zelfde als wanneer u een nieuw landend paginasubdomain vormt. Meer informatie over [deze sectie](#lp-configure-new-subdomain).
+   >Als u een domein selecteert dat aan Adobe gebruikend de [ methode van de NAAM ](../configuration/delegate-subdomain.md#cname-subdomain-delegation) werd afgevaardigd, moet u het DNS verslag op uw het ontvangen platform tot stand brengen. Om het DNS verslag te produceren, is het proces het zelfde als wanneer u een nieuw landend paginasubdomain vormt. Leer hoe in [ deze sectie ](#lp-configure-new-subdomain).
 
 1. Klik op **[!UICONTROL Submit]**.
 
-1. Na verzending wordt het subdomein in de lijst weergegeven met de **[!UICONTROL Processing]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Na verzending wordt het subdomein in de lijst weergegeven met de status **[!UICONTROL Processing]** . Voor meer op de statussen van subdomeinen, verwijs naar [ deze sectie ](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
    ![](assets/lp_subdomain-processing.png)
 
    >[!NOTE]
    >
-   >Voordat u dat subdomein kunt gebruiken om berichten te verzenden, moet u wachten tot de Adobe de vereiste controles uitvoert. Dit kan maximaal 4 uur in beslag nemen.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   >Alvorens dat subdomain te kunnen gebruiken om berichten te verzenden, moet u wachten tot de Adobe de vereiste controles uitvoert, die tot 4 uren kan vergen.<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
-1. Wanneer de controles zijn voltooid, haalt het subdomein het subdomein **[!UICONTROL Success]** status. Deze kan worden gebruikt om voorinstellingen voor openingspagina&#39;s te maken.
+1. Zodra de controles succesvol zijn, krijgt subdomain de **[!UICONTROL Success]** status. Deze kan worden gebruikt om voorinstellingen voor openingspagina&#39;s te maken.
 
 ## Een nieuw subdomein configureren {#lp-configure-new-subdomain}
 
@@ -105,11 +103,11 @@ Volg onderstaande stappen om een subdomein te gebruiken dat al is gedelegeerd aa
 
 Volg onderstaande stappen om een nieuw subdomein te configureren.
 
-1. Toegang krijgen tot de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu, selecteert u vervolgens **[!UICONTROL Email configuration]** > **[!UICONTROL Landing page subdomains]**.
+1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** en selecteer vervolgens **[!UICONTROL Landing page settings]** > **[!UICONTROL Landing page subdomains]** .
 
 1. Klik op **[!UICONTROL Set up subdomain]**.
 
-1. Selecteren **[!UICONTROL Add your own domain]** van de **[!UICONTROL Configuration type]** sectie.
+1. Selecteer **[!UICONTROL Add your own domain]** in de sectie **[!UICONTROL Configuration type]** .
 
    ![](assets/lp_add-your-own-subdomain.png)
 
@@ -129,7 +127,7 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
 
 1. Het verslag dat in uw DNS serververtoningen moet worden geplaatst. Kopieer deze record of download een CSV-bestand en navigeer vervolgens naar de oplossing voor domeinhosting om de overeenkomende DNS-record te genereren.
 
-1. Zorg ervoor dat DNS het verslag in uw domein-ontvangende oplossing is geproduceerd. Als alles behoorlijk wordt gevormd, controleer de doos &quot;ik bevestig...&quot;, dan klik **[!UICONTROL Submit]**.
+1. Zorg ervoor dat DNS het verslag in uw domein-ontvangende oplossing is geproduceerd. Als alles correct is geconfigureerd, schakelt u het selectievakje &quot;I confirm...&quot; in en klikt u op **[!UICONTROL Submit]** .
 
    ![](assets/lp_add-your-own-subdomain-confirm.png)
 
@@ -137,12 +135,12 @@ Volg onderstaande stappen om een nieuw subdomein te configureren.
    >
    >Wanneer u een nieuw het landen paginasubdomain vormt, zal het altijd aan een verslag van de NAAM richten.
 
-1. Nadat de subdomeindelegatie is verzonden, wordt het subdomein weergegeven in de lijst met de **[!UICONTROL Processing]** status. Raadpleeg voor meer informatie over de status van subdomeinen [deze sectie](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
+1. Nadat de subdomeindelegatie is verzonden, wordt het subdomein in de lijst weergegeven met de status **[!UICONTROL Processing]** . Voor meer op de statussen van subdomeinen, verwijs naar [ deze sectie ](../configuration/about-subdomain-delegation.md#access-delegated-subdomains).<!--Same statuses?-->
 
    >[!NOTE]
    >
-   >Voordat u dat subdomein kunt gebruiken voor uw bestemmingspagina&#39;s, moet u wachten tot de Adobe de vereiste controles uitvoert, die tot 4 uur kunnen duren.<!--Learn more in [this section](#subdomain-validation).-->
+   >Alvorens dat subdomain voor uw het landen pagina&#39;s te kunnen gebruiken, moet u wachten tot de Adobe de vereiste controles uitvoert, die tot 4 uren kan vergen.<!--Learn more in [this section](#subdomain-validation).-->
 
-1. Wanneer de controles zijn voltooid, haalt het subdomein het subdomein **[!UICONTROL Success]** status. Deze kan worden gebruikt om voorinstellingen voor openingspagina&#39;s te maken.
+1. Zodra de controles succesvol zijn, krijgt subdomain de **[!UICONTROL Success]** status. Deze kan worden gebruikt om voorinstellingen voor openingspagina&#39;s te maken.
 
-   Het subdomein wordt gemarkeerd als **[!UICONTROL Failed]** als u er niet in slaagt de validatierecord voor uw hostoplossing te maken.
+   Het subdomein wordt gemarkeerd als **[!UICONTROL Failed]** als u geen validatierecord maakt voor de hostoplossing.

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1920'
 ht-degree: 1%
 
 ---
@@ -27,25 +27,25 @@ In-app-berichten worden niet beïnvloed door de keuze van de gebruiker om zich a
 
 >[!BEGINTABS]
 
->[!TAB Een bericht in de app toevoegen aan een reis]
+>[!TAB  voeg een In-app bericht aan een reis toe ]
 
 Ga als volgt te werk om een bericht in de app toe te voegen:
 
-1. Open uw reis en sleep vervolgens een **[!UICONTROL In-app]** van de **[!UICONTROL Actions]** in het palet.
+1. Open uw reis en sleep vervolgens een **[!UICONTROL In-app]** -activiteit vanuit de **[!UICONTROL Actions]** -sectie van het palet.
 
    Wanneer een profiel het einde van de rit bereikt, verlopen alle berichten in de app die aan hen worden weergegeven, automatisch. Daarom wordt er automatisch een wachtbewerking toegevoegd na uw activiteiten in de app om de juiste timing te garanderen.
 
    ![](assets/in_app_journey_1.png)
 
-1. Voer een **[!UICONTROL Label]** en **[!UICONTROL Description]** voor uw bericht.
+1. Voer een **[!UICONTROL Label]** en **[!UICONTROL Description]** in voor uw bericht.
 
-1. Kies de optie [In-app oppervlak](inapp-configuration.md) te gebruiken.
+1. Kies uw [ in-app configuratie ](inapp-configuration.md#channel-prerequisites) aan gebruik.
 
    ![](assets/in_app_journey_2.png)
 
-1. U kunt nu beginnen met het ontwerpen van uw inhoud met de **[!UICONTROL Edit content]** knop. [Meer informatie](design-in-app.md)
+1. U kunt nu beginnen met het ontwerpen van uw inhoud met de knop **[!UICONTROL Edit content]** . [Meer informatie](design-in-app.md)
 
-1. Klikken **[!UICONTROL Edit triggers]** om de gebeurtenis(sen) en criteria te kiezen die uw bericht activeren. Met regelbuilders kunnen gebruikers criteria en waarden opgeven die, wanneer ze voldoen, een set handelingen activeren, zoals het verzenden van een bericht in de app.
+1. Klik op **[!UICONTROL Edit triggers]** om de gebeurtenis(sen) en criteria te kiezen die het bericht activeren. Met regelbuilders kunnen gebruikers criteria en waarden opgeven die, wanneer ze voldoen, een set handelingen activeren, zoals het verzenden van een bericht in de app.
 
    ![](assets/in_app_journey_4.png)
 
@@ -55,10 +55,10 @@ Ga als volgt te werk om een bericht in de app toe te voegen:
 
       | Pakket | Trigger | Definitie |
       |---|---|---|
-      | Gegevens verzenden naar platform | Gegevens verzonden naar platform | Wordt geactiveerd wanneer de mobiele app een Edge Experience-gebeurtenis uitgeeft om gegevens naar Adobe Experience Platform te verzenden. Meestal de API-aanroep [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) uit de extensie AEP Edge. |
-      | Core tracking | Handeling track | Wordt geactiveerd wanneer de verouderde functionaliteit wordt aangeboden in de API voor mobiele code [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) wordt aangeroepen. |
-      | Core tracking | Status track | Wordt geactiveerd wanneer de verouderde functionaliteit wordt aangeboden in de API voor mobiele code [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) wordt aangeroepen. |
-      | Core tracking | PII verzamelen | Wordt geactiveerd wanneer de verouderde functionaliteit wordt aangeboden in de API voor mobiele code [collectionPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) wordt aangeroepen. |
+      | Gegevens verzenden naar platform | Gegevens verzonden naar platform | Wordt geactiveerd wanneer de mobiele app een Edge Experience-gebeurtenis uitgeeft om gegevens naar Adobe Experience Platform te verzenden. Gewoonlijk de API vraag [ sendEvent ](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) van de uitbreiding van AEP Edge. |
+      | Core tracking | Handeling track | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [ wordt aangeboden trackAction ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) wordt geroepen. |
+      | Core tracking | Status track | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [ wordt aangeboden trackState ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) wordt geroepen. |
+      | Core tracking | PII verzamelen | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [ wordt aangeboden collectPII ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) wordt geroepen. |
       | Levenscyclus toepassing | Toepassing starten | Teweeggebracht bij elke looppas, met inbegrip van neerstortingen en installaties. Wordt ook geactiveerd op een hervat vanaf de achtergrond wanneer de time-out van de levenscyclussessie is overschreden. |
       | Levenscyclus toepassing | Toepassing installeren | Wordt geactiveerd bij de eerste run na installatie of herinstallatie. |
       | Levenscyclus toepassing | Toepassingsupdate | Teweeggebracht bij de eerste looppas na een verbetering of wanneer het versieaantal verandert. |
@@ -69,13 +69,13 @@ Ga als volgt te werk om een bericht in de app toe te voegen:
 
 +++
 
-   1. Klikken **[!UICONTROL Add condition]** als u wilt dat de trigger rekening houdt met meerdere gebeurtenissen of criteria.
+   1. Klik op **[!UICONTROL Add condition]** als u wilt dat de trigger rekening houdt met meerdere gebeurtenissen of criteria.
 
-   1. Kies de optie **[!UICONTROL Or]** voorwaarde als u meer wilt toevoegen **[!UICONTROL Triggers]** om uw regel verder uit te breiden.
+   1. Kies de voorwaarde **[!UICONTROL Or]** als u meer **[!UICONTROL Triggers]** wilt toevoegen om de lijn verder uit te breiden.
 
       ![](assets/in_app_create_3.png)
 
-   1. Kies de optie **[!UICONTROL And]** voorwaarde als u wilt toevoegen **[!UICONTROL Traits]** en perfectioneer uw regel beter.
+   1. Kies de voorwaarde **[!UICONTROL And]** als u **[!UICONTROL Traits]** wilt toevoegen en uw regel beter wilt perfectioneren.
 
       +++Zie beschikbare Traits.
 
@@ -103,49 +103,53 @@ Ga als volgt te werk om een bericht in de app toe te voegen:
 
       ![](assets/in_app_create_8.png)
 
-   1. Klikken **[!UICONTROL Make group]** om triggers samen te groeperen.
+   1. Klik op **[!UICONTROL Make group]** om triggers samen te groeperen.
 
       ![](assets/in_app_journey_3.png)
 
    1. Kies de frequentie van de trigger wanneer het bericht in de app actief is:
 
-      * **[!UICONTROL Show every time]**: Toon altijd het bericht wanneer de gebeurtenissen die in **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
-      * **[!UICONTROL Show once]**: Alleen dit bericht weergeven als de in het dialoogvenster **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
-      * **[!UICONTROL Show until click through]**: Dit bericht weergeven wanneer de gebeurtenissen zijn geselecteerd in het dialoogvenster **[!UICONTROL Mobile app trigger]** drop-down komt voor tot een interactie gebeurtenis door SDK met een actie van &quot;geklikt&quot;wordt verzonden.
+      * **[!UICONTROL Show every time]**: altijd het bericht weergeven wanneer de gebeurtenissen plaatsvinden die in de vervolgkeuzelijst **[!UICONTROL Mobile app trigger]** zijn geselecteerd.
+      * **[!UICONTROL Show once]**: Alleen dit bericht weergeven wanneer de gebeurtenissen die in de vervolgkeuzelijst **[!UICONTROL Mobile app trigger]** zijn geselecteerd, voor het eerst optreden.
+      * **[!UICONTROL Show until click through]**: dit bericht weergeven wanneer de gebeurtenissen die in de vervolgkeuzelijst **[!UICONTROL Mobile app trigger]** zijn geselecteerd, plaatsvinden totdat de SDK een interactieve gebeurtenis heeft verzonden met de actie &quot;geklikt&quot;.
 
 1. Indien nodig voltooit u de reisflow door extra handelingen of gebeurtenissen te slepen en neer te zetten. [Meer informatie](../building-journeys/about-journey-activities.md)
 
 1. Zodra uw bericht in de app klaar is, voltooit u de configuratie en publiceert u uw reis om het te activeren.
 
-Voor meer informatie over hoe te om een reis te vormen, raadpleeg [deze pagina](../building-journeys/journey-gs.md).
+Voor meer informatie over hoe te om een reis te vormen, verwijs naar [ deze pagina ](../building-journeys/journey-gs.md).
 
->[!TAB Een bericht in de app toevoegen aan een campagne]
+>[!TAB  voeg een In-app bericht aan een campagne toe ]
 
 Voer de volgende stappen uit om een bericht in de app toe te voegen aan een campagne:
 
-1. Toegang krijgen tot de **[!UICONTROL Campaigns]** en klik vervolgens op **[!UICONTROL Create campaign]**.
+1. Open het menu **[!UICONTROL Campaigns]** en klik op **[!UICONTROL Create campaign]** .
 
-1. In de **[!UICONTROL Properties]** , selecteert u wanneer het type uitvoering van de campagne: Gepland of API-geactiveerd. Meer informatie over campagneretypen in [deze pagina](../campaigns/create-campaign.md#campaigntype).
+1. Selecteer het type campagne dat u wilt uitvoeren
 
-1. In de **[!UICONTROL Actions]** in, kiest u **[!UICONTROL In-app message]** en de **[!UICONTROL App surface]** eerder geconfigureerd voor uw bericht in de app. Klik vervolgens op **[!UICONTROL Create]**.
+   * **Gepland - Op de markt brengend**: voer onmiddellijk de campagne of op een gespecificeerde datum uit. Geplande campagnes zijn gericht op het verzenden van marketingberichten. Zij worden gevormd en uitgevoerd van het gebruikersinterface.
 
-   Meer informatie over configuratie in de app in [deze pagina](inapp-configuration.md).
+   * **API-teweeggebracht - Marketing/Transactioneel**: voer de campagne uit gebruikend een API vraag. API-getriggerde campagnes zijn gericht op het verzenden van marketingberichten of transactiemeldingen, d.w.z. berichten die worden verzonden na een actie van een individu: wachtwoordinstelling, winkelwagentje enz.
 
-   ![](assets/in_app_create_1.png)
+1. Voer in de sectie **[!UICONTROL Properties]** de beschrijving **[!UICONTROL Title]** en **[!UICONTROL Description]** in.
 
-1. Van de **[!UICONTROL Properties]** in, voert u de **[!UICONTROL Title]** en de **[!UICONTROL Description]** beschrijving.
+1. Selecteer **[!UICONTROL Manage access]** als u aangepaste labels of basislabels voor gegevensgebruik wilt toewijzen aan het bericht in de app. [Meer informatie](../administration/object-based-access.md).
 
-1. Als u aangepaste of basislabels voor gegevensgebruik wilt toewijzen aan het bericht in de app, selecteert u **[!UICONTROL Manage access]**. [Meer informatie](../administration/object-based-access.md).
-
-1. Klik op de knop **[!UICONTROL Select audience]** om het publiek te bepalen om van de lijst van beschikbare publiek van Adobe Experience Platform te richten. [Meer informatie](../audience/about-audiences.md).
+1. Klik op de knop **[!UICONTROL Select audience]** om het doelpubliek in de lijst met beschikbare Adobe Experience Platform-soorten publiek te definiëren. [Meer informatie](../audience/about-audiences.md).
 
    ![](assets/in_app_create_2.png)
 
-1. In de **[!UICONTROL Identity namespace]** , kiest u de naamruimte die u wilt gebruiken om de personen van het geselecteerde publiek te identificeren. [Meer informatie](../event/about-creating.md#select-the-namespace).
+1. Kies in het veld **[!UICONTROL Identity namespace]** de naamruimte die u wilt gebruiken om de personen van het geselecteerde publiek te identificeren. [Meer informatie](../event/about-creating.md#select-the-namespace).
 
-1. Klikken **[!UICONTROL Create experiment]** om uw inhoud te configureren experimenteert u en maakt u behandelingen om de prestaties te meten en de beste optie voor uw doelgroep te identificeren. [Meer informatie](../content-management/content-experiment.md)
+1. Kies in de sectie **[!UICONTROL Actions]** de **[!UICONTROL In-app message]** en selecteer of maak een nieuwe configuratie.
 
-1. Klikken **[!UICONTROL Edit triggers]** om de gebeurtenis(sen) en criteria te kiezen die uw bericht activeren. Met regelbuilders kunnen gebruikers criteria en waarden opgeven die, wanneer ze voldoen, een set handelingen activeren, zoals het verzenden van een bericht in de app.
+   Leer meer over configuratie in-app in [ deze pagina ](inapp-configuration.md).
+
+   ![](assets/in_app_create_1.png)
+
+1. Klik op **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren en behandelingen te maken om de prestaties te meten en de beste optie voor uw doelgroep te identificeren. [Meer informatie](../content-management/content-experiment.md)
+
+1. Klik op **[!UICONTROL Edit triggers]** om de gebeurtenis(sen) en criteria te kiezen die het bericht activeren. Met regelbuilders kunnen gebruikers criteria en waarden opgeven die, wanneer ze voldoen, een set handelingen activeren, zoals het verzenden van een bericht in de app.
 
    1. Klik op de vervolgkeuzelijst Gebeurtenis om de trigger zo nodig te wijzigen.
 
@@ -153,10 +157,10 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
 
       | Pakket | Trigger | Definitie |
       |---|---|---|
-      | Gegevens verzenden naar platform | Gegevens verzonden naar platform | Wordt geactiveerd wanneer de mobiele app een Edge Experience-gebeurtenis uitgeeft om gegevens naar Adobe Experience Platform te verzenden. Meestal de API-aanroep [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) uit de extensie AEP Edge. |
-      | Core tracking | Handeling track | Wordt geactiveerd wanneer de verouderde functionaliteit wordt aangeboden in de API voor mobiele code [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) wordt aangeroepen. |
-      | Core tracking | Status track | Wordt geactiveerd wanneer de verouderde functionaliteit wordt aangeboden in de API voor mobiele code [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) wordt aangeroepen. |
-      | Core tracking | PII verzamelen | Wordt geactiveerd wanneer de verouderde functionaliteit wordt aangeboden in de API voor mobiele code [collectionPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) wordt aangeroepen. |
+      | Gegevens verzenden naar platform | Gegevens verzonden naar platform | Wordt geactiveerd wanneer de mobiele app een Edge Experience-gebeurtenis uitgeeft om gegevens naar Adobe Experience Platform te verzenden. Gewoonlijk de API vraag [ sendEvent ](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) van de uitbreiding van AEP Edge. |
+      | Core tracking | Handeling track | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [ wordt aangeboden trackAction ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) wordt geroepen. |
+      | Core tracking | Status track | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [ wordt aangeboden trackState ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) wordt geroepen. |
+      | Core tracking | PII verzamelen | Teweeggebracht wanneer de erfenisfunctionaliteit die in mobiele code API [ wordt aangeboden collectPII ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) wordt geroepen. |
       | Levenscyclus toepassing | Toepassing starten | Teweeggebracht bij elke looppas, met inbegrip van neerstortingen en installaties. Wordt ook geactiveerd op een hervat vanaf de achtergrond wanneer de time-out van de levenscyclussessie is overschreden. |
       | Levenscyclus toepassing | Toepassing installeren | Wordt geactiveerd bij de eerste run na installatie of herinstallatie. |
       | Levenscyclus toepassing | Toepassingsupdate | Teweeggebracht bij de eerste looppas na een verbetering of wanneer het versieaantal verandert. |
@@ -167,13 +171,13 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
 
 +++
 
-   1. Klikken **[!UICONTROL Add condition]** als u wilt dat de trigger rekening houdt met meerdere gebeurtenissen of criteria.
+   1. Klik op **[!UICONTROL Add condition]** als u wilt dat de trigger rekening houdt met meerdere gebeurtenissen of criteria.
 
-   1. Kies de optie **[!UICONTROL Or]** voorwaarde als u meer wilt toevoegen **[!UICONTROL Triggers]** om uw regel verder uit te breiden.
+   1. Kies de voorwaarde **[!UICONTROL Or]** als u meer **[!UICONTROL Triggers]** wilt toevoegen om de lijn verder uit te breiden.
 
       ![](assets/in_app_create_3.png)
 
-   1. Kies de optie **[!UICONTROL And]** voorwaarde als u wilt toevoegen **[!UICONTROL Traits]** en perfectioneer uw regel beter.
+   1. Kies de voorwaarde **[!UICONTROL And]** als u **[!UICONTROL Traits]** wilt toevoegen en uw regel beter wilt perfectioneren.
 
       +++Zie beschikbare Traits.
 
@@ -201,22 +205,22 @@ Voer de volgende stappen uit om een bericht in de app toe te voegen aan een camp
 
       ![](assets/in_app_create_8.png)
 
-   1. Klikken **[!UICONTROL Make group]** om triggers samen te groeperen.
+   1. Klik op **[!UICONTROL Make group]** om triggers samen te groeperen.
 
 1. Kies de frequentie van de trigger wanneer het bericht in de app actief is. De volgende opties zijn beschikbaar:
 
-   * **[!UICONTROL Everytime]**: Toon altijd het bericht wanneer de gebeurtenissen die in **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
-   * **[!UICONTROL Once]**: Alleen dit bericht weergeven als de in het dialoogvenster **[!UICONTROL Mobile app trigger]** vervolgkeuzelijst.
-   * **[!UICONTROL Until click through]**: Dit bericht weergeven wanneer de gebeurtenissen zijn geselecteerd in het dialoogvenster **[!UICONTROL Mobile app trigger]** drop-down komt voor tot een interactie gebeurtenis door SDK met een actie van &quot;geklikt&quot;wordt verzonden.
-   * **[!UICONTROL X number of times]**: Dit bericht wordt X-tijd weergegeven.
+   * **[!UICONTROL Everytime]**: altijd het bericht weergeven wanneer de gebeurtenissen plaatsvinden die in de vervolgkeuzelijst **[!UICONTROL Mobile app trigger]** zijn geselecteerd.
+   * **[!UICONTROL Once]**: Alleen dit bericht weergeven wanneer de gebeurtenissen die in de vervolgkeuzelijst **[!UICONTROL Mobile app trigger]** zijn geselecteerd, voor het eerst optreden.
+   * **[!UICONTROL Until click through]**: dit bericht weergeven wanneer de gebeurtenissen die in de vervolgkeuzelijst **[!UICONTROL Mobile app trigger]** zijn geselecteerd, plaatsvinden totdat de SDK een interactieve gebeurtenis heeft verzonden met de actie &quot;geklikt&quot;.
+   * **[!UICONTROL X number of times]**: toon dit bericht X tijd.
 
-1. Kies zo nodig welke **[!UICONTROL Day of the week]** of **[!UICONTROL Time of day]** Het bericht in de app wordt weergegeven.
+1. Kies zo nodig welke **[!UICONTROL Day of the week]** of **[!UICONTROL Time of day]** het bericht in de app wordt weergegeven.
 
-1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe u de **[!UICONTROL Schedule]** van uw campagne in [deze sectie](../campaigns/create-campaign.md#schedule).
+1. Campagnes worden ontworpen om op een specifieke datum of op een terugkomende frequentie worden uitgevoerd. Leer hoe te om **[!UICONTROL Schedule]** van uw campagne in [ te vormen deze sectie ](../campaigns/create-campaign.md#schedule).
 
    ![](assets/in-app-schedule.png)
 
-1. U kunt nu beginnen met het ontwerpen van uw inhoud met de **[!UICONTROL Edit content]** knop. [Meer informatie](design-in-app.md)
+1. U kunt nu beginnen met het ontwerpen van uw inhoud met de knop **[!UICONTROL Edit content]** . [Meer informatie](design-in-app.md)
 
    ![](assets/in_app_create_4.png)
 

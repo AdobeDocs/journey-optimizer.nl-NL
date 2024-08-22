@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 4de37520b3ea7842d7f385f38c07cdf4984a5939
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '2032'
 ht-degree: 8%
@@ -18,7 +18,7 @@ ht-degree: 8%
 
 # Aanvullende informatie 2021 {#release-notes-2021}
 
-Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] vrijgegeven in 2021.
+Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Journey Optimizer] in 2021 heeft uitgebracht.
 
 ## Release november 2021 {#november-2021-release}
 
@@ -33,7 +33,7 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 <td>
 <p>Adobe Journey Optimizer ondersteunt nu CNAME's. Een CNAME, of Canonical Name verslag, is een verslag dat aan een ander domeinadres eerder dan een IP adres richt. De subdomeindelegatie van CNAME laat u toe om subdomain tot stand te brengen en CNAMEs te gebruiken om aan Adobe-specifieke verslagen te richten. Met deze configuratie delen u en de Adobe de verantwoordelijkheid voor het onderhoud van DNS in de omgeving voor het verzenden, renderen en volgen van e-mails.</p>
 <p>Deze methode wordt aanbevolen als het beleid van uw organisatie de methode voor volledige subdomeindelegatie beperkt.</p>
-<p>Meer informatie over subdomeindelegatie van CNAME in het deelvenster <a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation">gedetailleerde documentatie</a>.</p>
+<p>Leer meer op subdomain van CNAME delegatie in de <a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation"> gedetailleerde documentatie </a>.</p>
 </td>
 </tr>
 </tbody>
@@ -77,43 +77,43 @@ Deze pagina bevat alle functies en verbeteringen voor [!DNL Journey Optimizer] v
 </table>
 
 
-Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html){target="_blank"} voor meer wijzigingen.
+Zie ook [ de Nota&#39;s van de Versie van Adobe Experience Platform Oktober ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html) {target="_blank"} voor meer veranderingen.
 
 ### Verbeteringen
 
 **Reizen**
 
-* **Expression-editor** - Als energiegebruiker kunt u nu functies gebruiken om met kaarten te werken. Deze mogelijkheid kan worden benut met de abonnementenlijsten. Als voorbeeld kunt u vanuit een publiek nu een e-mailadres ophalen uit een abonnementenlijst. [Meer informatie in dit voorbeeld](../building-journeys/message-to-subscribers-uc.md)
+* **de redacteur van de Uitdrukking** - als machtsgebruiker, kunt u functies nu gebruiken om met kaarten te werken. Deze mogelijkheid kan worden benut met de abonnementenlijsten. Als voorbeeld kunt u vanuit een publiek nu een e-mailadres ophalen uit een abonnementenlijst. [ leer meer in deze steekproef ](../building-journeys/message-to-subscribers-uc.md)
 
-* **Toezicht** - De stapgebeurtenissen voor de live ritten en de testmodus zijn verbeterd. [Nieuwe velden](../reports/sharing-field-list.md#serviceevents) zijn toegevoegd met betrekking tot exporttaken voor profielen. Voor een betere gebruikerservaring zijn de velden voor stapgebeurtenissen nu ingedeeld in verschillende categorieën. Alle gebeurtenisvelden van vorige stappen zijn nog steeds beschikbaar in het dialoogvenster [stepEvents](../reports/sharing-legacy-fields.md) categorie.
-* **Toegankelijkheid** - Er zijn verbeteringen aangebracht in de toegankelijkheid van reizen.
-* **Verzamelingen** - Arrays met objecten die subobjecten bevatten, worden nu ondersteund. [Meer informatie](../building-journeys/collections.md)
-* **Lijsten** - Lijstschermen zijn verbeterd voor reizen, gebeurtenissen, handelingen, gegevensbronnen.
+* **Controle** - De gebeurtenissen van de Stap voor levende reizen en testwijze zijn verbeterd. [ de Nieuwe gebieden ](../reports/sharing-field-list.md#serviceevents) zijn toegevoegd met betrekking tot de banen van de profieluitvoer. Voor een betere gebruikerservaring zijn de velden voor stapgebeurtenissen nu ingedeeld in verschillende categorieën. Alle vorige gebieden van stapgebeurtenissen zijn nog beschikbaar in de [ stepEvents ](../reports/sharing-legacy-fields.md) categorie.
+* **Toegankelijkheid** - de verhogingen van de Toegankelijkheid zijn uitgevoerd in reizen.
+* **Inzamelingen** - de series van voorwerpen die subvoorwerpen bevatten worden nu gesteund. [Meer informatie](../building-journeys/collections.md)
+* **Lijsten** - de schermen van lijsten zijn verbeterd voor reizen, gebeurtenissen, acties, gegevensbronnen.
 
-**Rapportage**
+**Meldend**
 
-* **Gegevensindeling in algemene weergave** - U kunt nu schakelen tussen getallen en percentages in het dialoogvenster **Globale weergave** van de **Uitvoering** tab.
+* **formaat van Gegevens in Globale mening** - u kunt nu tussen aantallen en percentages in de **Globale mening** van de **Uitvoering** tabel van een knevel voorzien.
 
 
 **Beheer**
 
-* **Voorinstellingen voor berichten bewerken** - U kunt nu voorinstellingen voor berichten bewerken en de status van de berichten controleren. [Meer informatie](../configuration/channel-surfaces.md#edit-channel-surface)
-* **PTR-records bewerken** - U kunt nu PTR-records bewerken en de updatestatus ervan controleren. [Meer informatie](../configuration/ptr-records.md#edit-ptr-record)
+* **geeft berichtvoorinstellingen** uit - u kunt berichtvoorinstellingen nu uitgeven en hun updatestatus controleren. [Meer informatie](../configuration/channel-surfaces.md#edit-channel-surface)
+* **geeft PTR verslagen** uit - u kunt PTR verslagen nu uitgeven en hun updatestatus controleren. [Meer informatie](../configuration/ptr-records.md#edit-ptr-record)
 
-**Personalisatie**
+**Personalization**
 
-* **Nieuwe hulpfunctie voor datumnotatie** - U kunt nu opgeven hoe een datumtekenreeks moet worden weergegeven. [Meer informatie](../personalization/functions/dates.md#format-date)
+* **Nieuwe hulpfunctie voor datum het formatteren** - u kunt nu specificeren hoe een datumkoord zou moeten worden vertegenwoordigd. [Meer informatie](../personalization/functions/dates.md#format-date)
 
 
-**Beslissingsbeheer**
+**Beheer van het Besluit**
 
-* **Evaluatiereeks** - Met de nieuwe en verbeterde workflow voor het maken van beslissingen kunt u niet alleen naadloos tussen beslissingsobjecten navigeren, maar hebt u ook de volledige controle over de manier waarop de verzameling van aanbiedingen door de beslissingsengine wordt geëvalueerd. Dit omvat welke verzamelingen samen of afzonderlijk worden geëvalueerd en in welke volgorde de verzamelingen moeten worden geëvalueerd. [Meer informatie](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+* **het rangschikken van de Evaluatie** - de nieuwe en betere stroom van de besluitvormingsverwezenlijking laat u toe om niet alleen tussen besluitvormingsvoorwerpen foutloos te navigeren, maar geeft u ook een volledige controle van hoe de aanbiedingsinzamelingen door de besluitvormingsmotor worden geëvalueerd. Dit omvat welke verzamelingen samen of afzonderlijk worden geëvalueerd en in welke volgorde de verzamelingen moeten worden geëvalueerd. [Meer informatie](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
 ### Oplossingen
 
 * Probleem verholpen waardoor de lijst met reizen, de berichtenlijst en de e-mailontwerper niet konden worden weergegeven als de browsertaal niet Engels was.
 * Probleem verholpen met een syntaxisfout die optrad bij het toevoegen van personalisatie met behulp van een expressie in de e-mailontwerper: tekens zijn ten onrechte beschermd.
-* Probleem verholpen dat tot een fout van 404 leidde bij het navigeren in het dialoogvenster **Administratie** -menu.
+* Vaste een kwestie die tot een fout 404 leidde toen het navigeren in het **1} menu van het Beleid.**
 * Probleem verholpen waarbij andere live reizen werden geïnitieerd tijdens het testen van een reis met behulp van een zakelijke gebeurtenis.
 
 
@@ -130,7 +130,7 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 <tbody>
 <tr>
 <td>
-<p>Er zijn nieuwe meetgegevens beschikbaar in rapportage: Gericht en Uitgesloten voor e-mail- en pushberichten zijn zowel in live als in global-rapporten zichtbaar. </br> Om toegang te hebben tot de recentste metriek, gelieve te merken op dat u de verschillende rapporteringsdashboards voor elk kanaal en rapporttype zult moeten terugstellen. Raadpleeg voor meer informatie over het aanpassen van het dashboard de <a href="../reports/live-report.md">gedetailleerde documentatie.</a></p>
+<p>Er zijn nieuwe meetgegevens beschikbaar in rapportage: Gericht en Uitgesloten voor e-mail- en pushberichten zijn zowel in live als in global-rapporten zichtbaar. </br> Als u toegang wilt hebben tot de meest recente metriek, moet u de verschillende rapportdashboards voor elk kanaal en rapporttype opnieuw instellen. Voor meer informatie over dashboardaanpassing, verwijs naar de <a href="../reports/live-report.md"> gedetailleerde documentatie.</a></p>
 <p>Een nieuwe kolom in de lijst van de berichtuitvoering toont het aantal gerichte profielen voor elke berichtuitvoering. </p>
 <p>Raadpleeg de <a href="../reports/global-report.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
@@ -149,9 +149,9 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 <tr>
 <td>
 <p>U kunt nu verzamelingen of een lijst met gegevens in de aangepaste handelingsparameters doorgeven die tijdens runtime dynamisch worden gevuld. Er worden twee soorten verzamelingen ondersteund: eenvoudige verzamelingen en objectverzamelingen. Eerder gemaakte aangepaste handelingen blijven werken. </p>
-<p>Raadpleeg voor meer informatie over verzamelingen de <a href="../building-journeys/collections.md">gedetailleerde documentatie</a>. </p>
+<p>Voor meer informatie over inzamelingen, verwijs naar de <a href="../building-journeys/collections.md"> gedetailleerde documentatie </a>. </p>
 <p>Het filter en de kruisfuncties zijn toegevoegd aan de lijst met functies die beschikbaar zijn in de geavanceerde expressie-editor. Dit biedt meer mogelijkheden voor het filteren en vergelijken van verzamelingen.</p>
-<p>Raadpleeg de documentatie bij de <a href="../building-journeys/functions/functionfilter.md">filter</a> en <a href="../building-journeys/functions/functionintersect.md">doorsnijden</a> functies.</p>
+<p>Raadpleeg de documentatie over de <a href="../building-journeys/functions/functionfilter.md"> filter </a> en <a href="../building-journeys/functions/functionintersect.md"> snijdt </a> functies.</p>
 </td>
 </tr>
 </tbody>
@@ -162,8 +162,8 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 **Reizen**
 
 * Systeem produceerde schema&#39;s en datasets die tijdens levering voor stapgebeurtenissen zijn gecreeerd zijn nu op read-only wijze, beschermend tegen om het even welke onbedoelde wijzigingen in kritieke schema&#39;s. [Meer informatie](../reports/sharing-overview.md)
-* De **Wachten** activiteit met een label dat op het canvas wordt weergegeven. Het etiket wordt ook gebruikt in rapportering en testwijzelogboeken om duidelijk te identificeren wat u doet. [Meer informatie](../building-journeys/about-journey-activities.md#best-practices)
-* Vind uw gebeurtenissen en acties sneller door elementen in te filteren **Gebeurtenissen** en **Handeling** rubrieken die zoekactie gebruiken. Orchestratie-activiteiten worden niet meer gefilterd. [Meer informatie](../building-journeys/using-the-journey-designer.md)
+* Cleanly etiketteer **** activiteit met een etiket wachten dat in het canvas zal worden getoond. Het etiket wordt ook gebruikt in rapportering en testwijzelogboeken om duidelijk te identificeren wat u doet. [Meer informatie](../building-journeys/about-journey-activities.md#best-practices)
+* Vind uw gebeurtenissen en acties sneller door elementen in de **Gebeurtenissen** en **categorieën van de Actie** te filtreren gebruikend onderzoek. Orchestratie-activiteiten worden niet meer gefilterd. [Meer informatie](../building-journeys/using-the-journey-designer.md)
 * Wanneer u een gebeurtenis-id-voorwaarde definieert in een op regels gebaseerde of zakelijke gebeurtenis, is de operator &quot;contains&quot; nu beschikbaar voor tekenreekstypen velden. [Meer informatie](../event/about-creating.md)
 
 **E-mailconfiguratie**
@@ -264,30 +264,30 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 
 **Reizen**
 
-* **Dynamische koppen** - U kunt nu dynamische gegevens doorgeven in HTTP-headerparameters. Deze parameters kunnen door de integratiesystemen worden gebruikt die de vraag van HTTP van de reisactie, bijvoorbeeld timestamp of het volgen identiteitskaart ontvangen. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
-* **Dynamische URL-paden** - U kunt nu dynamische URL-paden instellen voor aangepaste handelingen. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
+* **Dynamische kopballen** - u kunt dynamische gegevens in HTTP- kopbalparameters nu overgaan. Deze parameters kunnen door de integratiesystemen worden gebruikt die de vraag van HTTP van de reisactie, bijvoorbeeld timestamp of het volgen identiteitskaart ontvangen. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
+* **Dynamische wegen URL** - u kunt de wegen van opstellings dynamische URL voor douaneacties nu. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
 * De totale snelheid voor leessoorten is gewijzigd van 17.000 naar 20.000 berichten per seconde. [Meer informatie](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
 **Gebruikersinterface**
 
-* **Zoeken** - Op elke pagina, kunt u bedrijfsvoorwerpen en hulpartikelen van het Verenigde Experience Cloud onderzoeksgebied nu zoeken. [Meer informatie](../start/user-interface.md#unified-search)
-* **Recenten** - De weergave van recente elementen van de startpagina van Adobe Journey Optimizer wordt nu uitgebreid naar extra zakelijke objecten. Met deze update, omvatten de kortere weg aan uw onlangs betreden Berichten, Reizen, Soorten, Schema&#39;s, Datasets, Gegevensbronnen, Gebeurtenissen, Acties, Bronnen, en Doelen. [Meer informatie](../action/about-custom-action-configuration.md#passing-collection)
+* **Onderzoek** - op elke pagina, kunt u bedrijfsvoorwerpen en hulpartikelen van het Verenigde het onderzoeksgebied van het Experience Cloud nu direct zoeken. [Meer informatie](../start/user-interface.md#unified-search)
+* **Recenten** - de vertoning van recente elementen van de homepage van Adobe Journey Optimizer wordt nu uitgebreid tot extra bedrijfsvoorwerpen. Met deze update, omvatten de kortere weg aan uw onlangs betreden Berichten, Reizen, Soorten, Schema&#39;s, Datasets, Gegevensbronnen, Gebeurtenissen, Acties, Bronnen, en Doelen. [Meer informatie](../action/about-custom-action-configuration.md#passing-collection)
 
-**Inhoud ontwerpen**
+**Ontwerp van de Inhoud**
 
-* **Achtergrond** - Achtergrondafbeeldingen worden nu ondersteund in live voorvertoning. [Meer informatie](../content-management/preview-test.md)
+* **Achtergrond** - de beelden van de Achtergrond worden nu gesteund in levende voorproef. [Meer informatie](../content-management/preview-test.md)
   <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)-->
 
-**Personalisatie**
+**Personalization**
 
-* **Expression-editor** - U kunt nu eenvoudig een terugvalwaarde toevoegen bij het definiëren van personalisatie: als het veld voor personalisatie leeg is voor een profiel, wordt de waarde voor terugvallen weergegeven. [Meer informatie](../personalization/functions/helpers.md)
+* **de redacteur van de Uitdrukking** - u kunt nu gemakkelijk een daling-achterwaarde toevoegen wanneer het bepalen van verpersoonlijking: wanneer het verpersoonlijkingsgebied voor een profiel leeg is, zal de daling-achterwaarde tonen. [Meer informatie](../personalization/functions/helpers.md)
 
 **E-mailconfiguratie**
 
-* **Lijst van gewenste personen** - De lijst van gewenste personen kan nu worden in- en uitgeschakeld op een niet-productiesandbox via een API-aanroep. [Meer informatie](../configuration/allow-list.md#enable-allow-list)
-* **Navigatie** - De onderdrukkingslijst, die toegankelijk was onder de **Beheer > Kanalen > E-mailconfiguratie > Algemeen** is verplaatst naar het nieuwe **Onderdrukkingslijst** submenu, dat alle verwante mogelijkheden voor gemakkelijkere toegang verzamelt. [Meer informatie](../configuration/manage-suppression-list.md#access-suppression-list)
+* **Lijst van gewenste personen** - de lijst van gewenste personen kan nu worden toegelaten en op een niet productiesandbox door een API vraag worden onbruikbaar gemaakt. [Meer informatie](../configuration/allow-list.md#enable-allow-list)
+* **Navigatie** - de suppressielijst, die onder het **Beleid > Kanalen > E-mail montages > Algemeen** menu toegankelijk was, is verplaatst naar het nieuwe **lijst van de Onderdrukking** submenu, dat alle verwante mogelijkheden voor gemakkelijkere toegang verzamelt. [Meer informatie](../configuration/manage-suppression-list.md#access-suppression-list)
 
-**Beslissingsbeheer**
+**het beheer van het Besluit**
 
 * De manier waarop u weergaven toevoegt en configureert wanneer u een aanbod maakt, is bijgewerkt voor een betere gebruikerservaring. Met name wordt de bibliotheek met middelen nu alleen weergegeven wanneer u inhoud van het afbeeldingstype definieert voor een representatie. [Meer informatie](../offers/offer-library/creating-personalized-offers.md#representations)
 
@@ -342,19 +342,19 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 **Reizen**
 
 * De algemene snelheid waarmee alle leessoorten die tegelijkertijd in dezelfde sandbox worden uitgevoerd, worden vertraagd, is beperkt tot 17.000 berichten per seconde. [Meer informatie](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
-* De **Cacheduur** Het veld is verwijderd uit het configuratievenster van de gegevensbron. [Meer informatie](../datasource/about-data-sources.md)
+* Het **gebied van de duur van het Geheime voorgeheugen** is verwijderd uit de ruit van de gegevensbronconfiguratie. [Meer informatie](../datasource/about-data-sources.md)
 * Voor externe gegevensbronnen, wordt een het maximum van 15 vraag per seconde nu automatisch bepaald. [Meer informatie](../configuration/external-systems.md#capping)
 * Voor live reizen worden in het scherm met de reiseigenschappen nu de publicatiedatum en de naam van de gebruiker weergegeven die de reis heeft gepubliceerd. [Meer informatie](../building-journeys/journey-gs.md#change-properties)
 * In het scherm van de reislijst, is het filter van het reistype toegevoegd. [Meer informatie](../start/user-interface.md#filter-lists)
-* De **[!UICONTROL Throttling rate]** parameter is toegevoegd aan de activiteit voor het lezen-publiek. [Meer informatie](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* De parameter **[!UICONTROL Throttling rate]** is toegevoegd aan de publieksactiviteit Lezen. [Meer informatie](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 
-**Voorvertonen en testen**
+**Voorproef en test**
 
-* Identiteit en naamruimte zijn nu zichtbaar in het dialoogvenster **[!UICONTROL Preview]** scherm. [Meer informatie](../content-management/preview-test.md#preview-your-messages)
+* Identiteit en naamruimte zijn nu zichtbaar in het **[!UICONTROL Preview]** -scherm. [Meer informatie](../content-management/preview-test.md#preview-your-messages)
 * Het aantal teste-mails voor proefdrukken is nu beperkt tot tien.
-* Toegestane tekens voor de **Voorvoegsel van onderwerpregel** op het gebied van proefdrukken is het aantal proefdrukken nu beperkt . [Meer informatie](../content-management/preview-test.md#send-proofs)
+* De karakters die voor het **worden toegestaan de lijnprefix van het Onderwerp** in proeven zijn nu beperkt. [Meer informatie](../content-management/preview-test.md#send-proofs)
 
-**Editor voor persoonlijke expressie**
+**de uitdrukkingsredacteur van Personalization**
 
 * De naam van de vervolgkeuzelijst met hulplijnen is gewijzigd en de volgorde ervan is gewijzigd.
 
@@ -365,4 +365,4 @@ Zie ook [Opmerkingen bij de release Adobe Experience Platform oktober](https://e
 * Oplossing voor een probleem waarbij IP-informatie ontbrak in het scherm PTR-records.
 * De lokalisatie in het aanbod van het spoor in de Expression Editor is nu geïmplementeerd.
 * Onjuiste spatiëring in pop-ups met gegevens gecorrigeerd.
-* Probleem verholpen in de e-mailontwerper bij het uploaden van een HTML-bestand met een intern stijlblad met `background-image` eigenschap wordt niet ondersteund.
+* Probleem verholpen met een probleem in de e-mailontwerper tijdens het uploaden van een HTML-bestand waarbij het interne stijlblad met de eigenschap `background-image` niet werd ondersteund.

@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: primair, uitvoeren, e-mail, doel, profiel, optimaliseer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 9cc263d127fdc56f808770d908030b1d14b1f784
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%
@@ -30,9 +30,9 @@ ht-degree: 0%
 
 Wanneer u een profiel als doel instelt, zijn mogelijk verschillende e-mailadressen of telefoonnummers beschikbaar in de database (professioneel e-mailadres, persoonlijk telefoonnummer, enz.).
 
-In dat geval [!DNL Journey Optimizer] gebruik **[!UICONTROL Execution fields]** om te bepalen welk e-mailadres of telefoonnummer bij voorrang van de profielservice moet worden gebruikt.
+In dat geval gebruikt [!DNL Journey Optimizer] **[!UICONTROL Execution fields]** om te bepalen welk e-mailadres of telefoonnummer bij voorrang van de profielservice moet worden gebruikt.
 
-Als u de velden wilt controleren die standaard worden gebruikt, gaat u naar de **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL General]** > **[!UICONTROL Executions fields]** -menu.
+Als u de velden wilt controleren die standaard worden gebruikt, opent u het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL General settings]** > **[!UICONTROL Executions fields]** .
 
 ![](assets/primary-address-execution-fields.png)
 
@@ -46,9 +46,9 @@ In de meeste gevallen wijzigt u een uitvoeringsveld globaal en definieert u een 
 
 Voer de onderstaande stappen uit om de uitvoeringsvelden globaal op sandboxniveau te wijzigen.
 
-1. Toegang krijgen tot de  **[!UICONTROL Channels]** > **[!UICONTROL General]** > **[!UICONTROL Executions fields]** -menu.
+1. Open het menu **[!UICONTROL Channels]** > **[!UICONTROL General settings]** > **[!UICONTROL Executions fields]** .
 
-1. Klikken **[!UICONTROL Edit]** de standaardwaarden wijzigen.
+1. Klik op **[!UICONTROL Edit]** om de standaardwaarden te wijzigen.
 
    ![](assets/primary-address.png)
 
@@ -60,7 +60,7 @@ Voer de onderstaande stappen uit om de uitvoeringsvelden globaal op sandboxnivea
 
    ![](assets/primary-address-select-field.png)
 
-1. Klikken **[!UICONTROL Save]** om uw keuze te bevestigen.
+1. Klik op **[!UICONTROL Save]** om uw keuze te bevestigen.
 
 Het uitvoeringsveld wordt bijgewerkt en wordt nu gebruikt als primair adres.
 
@@ -70,17 +70,17 @@ Het uitvoeringsveld wordt bijgewerkt en wordt nu gebruikt als primair adres.
 
 Alleen voor specifieke gebruiksgevallen kunt u het uitvoeringsveld dat globaal is ingesteld negeren en een andere waarde definiëren op het niveau van de reis, met name voor het e-mailkanaal.
 
-Wanneer u een **[!UICONTROL Email]** een handeling [reis](../email/create-email.md#create-email-journey-campaign), wordt het primaire e-mailadres weergegeven onder de geavanceerde parameters voor de reis.
+Wanneer het toevoegen van een **[!UICONTROL Email]** actie aan a [ reis ](../email/create-email.md#create-email-journey-campaign), wordt het primaire e-mailadres getoond onder de reis geavanceerde parameters.
 
-In bepaalde specifieke contexten kunt u deze waarde overschrijven met de opdracht **[!UICONTROL Enable parameter override]** pictogram rechts van **[!UICONTROL address]** veld.
+In bepaalde specifieke contexten kunt u deze waarde overschrijven met het pictogram **[!UICONTROL Enable parameter override]** rechts van het veld **[!UICONTROL address]** .
 
 ![](assets/journey-enable-parameter-override.png)
 
 >[!CAUTION]
 >
->Overschrijven van e-mailadressen mag alleen worden gebruikt voor specifieke gebruiksgevallen. Meestal hoeft u het e-mailadres niet te wijzigen omdat de waarde die in het dialoogvenster **[!UICONTROL Execution fields]** Dat is de methode die moet worden gebruikt.
+>Overschrijven van e-mailadressen mag alleen worden gebruikt voor specifieke gebruiksgevallen. Meestal hoeft u het e-mailadres niet te wijzigen, omdat de waarde die wordt gedefinieerd als het primaire adres in de **[!UICONTROL Execution fields]** het adres is dat moet worden gebruikt.
 
 Het overschrijven van deze waarde kan bijvoorbeeld nuttig zijn om:
 
 * Test een e-mailbericht. U kunt uw eigen e-mailadres toevoegen: nadat u de reis hebt gepubliceerd, wordt het e-mailbericht naar u verzonden.
-* Stuur een e-mail naar de abonnees van een lijst. Meer informatie in [dit geval gebruiken](../building-journeys/message-to-subscribers-uc.md).
+* Stuur een e-mail naar de abonnees van een lijst. Leer meer in [ dit gebruiksgeval ](../building-journeys/message-to-subscribers-uc.md).
