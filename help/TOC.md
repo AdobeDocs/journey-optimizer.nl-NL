@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 6a2c594d427501dee3f979a2c88355fe63bff514
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1949'
 ht-degree: 27%
 
 ---
@@ -200,8 +200,8 @@ ht-degree: 27%
    + [ beheer e-mailopt-out ](using/email/email-opt-out.md)
    + E-mailkanaal configureren {#configure-email}
       + [Aan de slag met e-mailconfiguratie](using/email/get-started-email-config.md)
-      + [Instellingen voor e-mailoppervlak configureren](using/email/email-settings.md)
-      + [Instellingen van e-mailoppervlak aanpassen](using/email/surface-personalization.md)
+      + [Instellingen voor e-mailconfiguratie configureren](using/email/email-settings.md)
+      + [E-mailconfiguratie aanpassen](using/email/surface-personalization.md)
 + In-app kanaal {#in-app}
    + [Aan de slag met In-app-kanaal](using/in-app/get-started-in-app.md)
    + [Voorwaarden voor kanalen in de app](using/in-app/inapp-configuration.md)
@@ -230,7 +230,7 @@ ht-degree: 27%
       + [Infobip-provider configureren](using/sms/sms-configuration-infobip.md)
       + [Twilio-provider configureren](using/sms/sms-configuration-twilio.md)
       + [Een aangepaste provider configureren (Beta)](using/sms/sms-configuration-custom.md)
-      + [Een SMS-oppervlak maken](using/sms/sms-configuration-surface.md)
+      + [Een SMS-configuratie maken](using/sms/sms-configuration-surface.md)
 + Direct mail {#direct-mail}
    + [Aan de slag met direct mail](using/direct-mail/get-started-direct-mail.md)
    + [Een directe e-mail maken](using/direct-mail/create-direct-mail.md)
@@ -581,7 +581,7 @@ ht-degree: 27%
    + [Zoekopdrachten](using/data/get-started-queries.md)
 + Configuratie {#configuration}
    + [Aan de slag met de Journey Optimizer-configuratie](using/configuration/get-started-configuration.md)
-   + [Kanaaloppervlakken instellen](using/configuration/channel-surfaces.md)
+   + [Kanaalconfiguraties instellen](using/configuration/channel-surfaces.md)
    + E-mailsubdomeinen delegeren {#delegate-subdomains}
       + [Aan de slag met subdomeindelegatie](using/configuration/about-subdomain-delegation.md)
       + [Een subdomein delegeren](using/configuration/delegate-subdomain.md)
