@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: campagne, hoe, begin, optimaliseer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 50473c401e05b483387f8ff3c5c480020e8d5c14
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="campaigns_list"
 >title="Campagnes"
->abstract="Maak campagnes om eenmalige inhoud aan een specifiek publiek op verschillende kanalen te leveren. Voordat u uw campagne maakt, moet u ervoor zorgen dat u een kanaaloppervlak en een Adobe Experience Platform-publiek hebt die u kunt gebruiken."
+>abstract="Maak campagnes om eenmalige inhoud aan een specifiek publiek op verschillende kanalen te leveren. Voordat u uw campagne maakt, moet u ervoor zorgen dat u een kanaalconfiguratie hebt en een Adobe Experience Platform-publiek klaar voor gebruik."
 
 Gebruik Journey Optimizer-campagnes om via verschillende kanalen eenmalige inhoud aan een specifiek publiek te leveren. Wanneer u reizen gebruikt, worden handelingen op volgorde uitgevoerd. Met campagnes, worden de acties uitgevoerd gelijktijdig, of onmiddellijk, of gebaseerd op een gespecificeerd programma.
 
@@ -63,7 +63,7 @@ Controleer de volgende voorwaarden voordat u begint met het maken van uw eerste 
 +++
 
 1. **u hebt een publiek** nodig. De doelgroepen moeten beschikbaar zijn voordat ze de campagne kunnen opzetten. Leer meer over publiek [ in deze pagina ](../audience/about-audiences.md).
-1. **u hebt een kanaaloppervlakte** nodig. Als u een kanaal wilt selecteren, moet het bijbehorende kanaaloppervlak (dus de voorinstelling) zijn gemaakt en beschikbaar. Leer meer over kanaaloppervlakten [ in deze pagina ](../configuration/channel-surfaces.md).
+1. **u hebt een kanaalconfiguratie** nodig. Als u een kanaal wilt kunnen selecteren, moet de corresponderende kanaalconfiguratie (d.w.z. vooraf ingesteld) zijn gemaakt en beschikbaar. Leer meer over kanaalconfiguraties [ in deze pagina ](../configuration/channel-surfaces.md).
 
 ## Hoe kan ik-video {#video}
 

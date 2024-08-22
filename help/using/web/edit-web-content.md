@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 11cae07d061b67136f50201e89c0e349e919620d
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 1%
@@ -15,15 +15,15 @@ ht-degree: 1%
 
 # Webinhoud bewerken {#edit-web-content}
 
-Eenmaal [een webactie toevoegen](create-web.md#create-web-campaign) voor uw campagne kunt u de inhoud van uw site bewerken met de webontwerper.
+Zodra u [ een Webactie ](create-web.md#create-web-campaign) aan uw campagne toevoegde, kunt u de inhoud van uw plaats uitgeven gebruikend de Webontwerper.
 
 [Leer hoe u een webcampagne maakt in deze video](#video)
 
-In [!DNL Journey Optimizer], webauthoring wordt aangedreven door de **Adobe Experience Cloud Visual Helper** chrome browserextensie. [Meer informatie](web-prerequisites.md#visual-authoring-prerequisites)
+In [!DNL Journey Optimizer], wordt het Web authoring aangedreven door **Adobe Experience Cloud Visual Helper** de browser van het chrome browser uitbreiding. [Meer informatie](web-prerequisites.md#visual-authoring-prerequisites)
 
 >[!CAUTION]
 >
->Webpagina&#39;s openen en ontwerpen in het dialoogvenster [!DNL Journey Optimizer] gebruikersinterface, zorg ervoor u de eerste vereisten volgt die in [deze sectie](web-prerequisites.md).
+>Om tot Web-pagina&#39;s in het [!DNL Journey Optimizer] gebruikersinterface toegang te hebben en te schrijven, zorg ervoor u de eerste vereisten volgt die in [ worden vermeld deze sectie ](web-prerequisites.md).
 
 Heb toegang tot de volgende secties om meer over elk onderwerp te leren:
 
@@ -36,7 +36,7 @@ Heb toegang tot de volgende secties om meer over elk onderwerp te leren:
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="Bevestig de URL die u wilt bewerken"
->abstract="Bevestig de URL van de specifieke webpagina die u wilt gebruiken voor het bewerken van de inhoud die wordt toegepast op het hierboven gedefinieerde weboppervlak. De webpagina moet worden geïmplementeerd met de Adobe Experience Platform Web SDK."
+>abstract="Bevestig de URL van de specifieke webpagina die u wilt gebruiken voor het bewerken van de inhoud die wordt toegepast op de hierboven gedefinieerde webconfiguratie. De webpagina moet worden geïmplementeerd met de Adobe Experience Platform Web SDK."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Meer informatie"
 
 >[!CONTEXTUALHELP]
@@ -47,7 +47,7 @@ Heb toegang tot de volgende secties om meer over elk onderwerp te leren:
 
 Volg onderstaande stappen om uw webcampagne te ontwerpen.
 
-1. Van de **[!UICONTROL Action]** tabblad van het [campagne](create-web.md#create-web-campaign), selecteert u **[!UICONTROL Edit content]**.<!--change screen with rule-->
+1. Van het **[!UICONTROL Action]** lusje van de [ campagne ](create-web.md#create-web-campaign), selecteer **[!UICONTROL Edit content]**.<!--change screen with rule-->
 
    ![](assets/web-campaign-edit-content.png)
 
@@ -55,21 +55,21 @@ Volg onderstaande stappen om uw webcampagne te ontwerpen.
 
    >[!NOTE]
    >
-   >Als u één URL hebt ingevoerd als het weboppervlak, wordt de aan te passen URL al ingevuld.
+   >Als u één URL hebt ingevoerd als de webconfiguratie, wordt de aan te passen URL al ingevuld.
 
    ![](assets/web-edit-enter-url.png)
 
    >[!CAUTION]
    >
-   >De webpagina moet de [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}. [Meer informatie](web-prerequisites.md#implementation-prerequisites)
+   >De Web-pagina moet [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html) {target="_blank"} omvatten. [Meer informatie](web-prerequisites.md#implementation-prerequisites)
 
-1. Klikken **[!UICONTROL Edit web page]** om te beginnen met ontwerpen. De webontwerper wordt weergegeven.
+1. Klik op **[!UICONTROL Edit web page]** om te beginnen met ontwerpen. De webontwerper wordt weergegeven.
 
    ![](assets/web-designer.png)
 
    >[!NOTE]
    >
-   >Als u probeert een website te laden die niet kan worden geladen, wordt een bericht weergegeven waarin u wordt gesuggereerd dat u de [Visuele bewerkingshulpprogramma voor browsers](#install-visual-editing-helper). Zie enkele tips voor het oplossen van problemen in [deze sectie](web-prerequisites.md#troubleshooting).
+   >Als u probeert om een website te laden die er niet in slaagt te laden, een berichtvertoningen die erop wijzen dat u de [ Visuele het Uitgeven Browser van de Helper browser uitbreiding ](#install-visual-editing-helper) installeert. Zie sommige uiteinden voor het oplossen van problemen in [ deze sectie ](web-prerequisites.md#troubleshooting).
 
 1. Selecteer een element op het canvas, zoals een afbeelding, knop, alinea, tekst, container, kop, koppeling, enzovoort. [Meer informatie](#content-components)
 
@@ -89,7 +89,7 @@ Volg onderstaande stappen om uw webcampagne te ontwerpen.
 
 >[!NOTE]
 >
->De webinhoudontwerper is meestal vergelijkbaar met de e-mailontwerper. Meer informatie over [inhoud ontwerpen met [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>De webinhoudontwerper is meestal vergelijkbaar met de e-mailontwerper. Leer meer op [ het ontwerpen van inhoud met  [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
 ## Componenten gebruiken {#content-components}
 
@@ -98,18 +98,18 @@ Volg onderstaande stappen om uw webcampagne te ontwerpen.
 >title="Componenten aan uw webpagina toevoegen"
 >abstract="U kunt een aantal componenten aan uw webpagina toevoegen en deze naar wens bewerken."
 
-1. Van de **[!UICONTROL Components]** Selecteer een item aan de linkerkant. U kunt de volgende componenten aan uw webpagina toevoegen en deze naar wens bewerken:
+1. Selecteer een item in het deelvenster **[!UICONTROL Components]** aan de linkerkant. U kunt de volgende componenten aan uw webpagina toevoegen en deze naar wens bewerken:
 
    * [Scheidingslijn](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [Afbeelding](../email/content-components.md#image)
-   * Kop - Het gebruik van deze component lijkt op het gebruik van de **[!UICONTROL Text]** in de e-mailontwerper. [Meer informatie](../email/content-components.md#text)
-   * Alinea - Het gebruik van deze component lijkt op het gebruik van de component **[!UICONTROL Text]** in de e-mailontwerper. [Meer informatie](../email/content-components.md#text)
+   * Kop - Het gebruik van deze component is vergelijkbaar met het gebruik van de component **[!UICONTROL Text]** in de e-mailontwerper. [Meer informatie](../email/content-components.md#text)
+   * Alinea - Het gebruik van deze component is vergelijkbaar met het gebruik van de component **[!UICONTROL Text]** in de e-mailontwerper. [Meer informatie](../email/content-components.md#text)
    * Koppeling
 
    ![](assets/web-designer-components.png)
 
-1. Houd de muisaanwijzer boven de pagina en klik op de knop **[!UICONTROL Insert before]** of **[!UICONTROL Insert after]** om de component toe te voegen aan een bestaand element op de pagina.
+1. Houd de muisaanwijzer boven de pagina en klik op de knop **[!UICONTROL Insert before]** of **[!UICONTROL Insert after]** om de component aan een bestaand element op de pagina toe te voegen.
 
    ![](assets/web-designer-insert-components.png)
 
@@ -133,13 +133,13 @@ Als u verpersoonlijking wilt toevoegen, selecteert u een container en selecteert
 
 ## Navigeren door de webontwerper {#navigate-web-designer}
 
-In deze sectie worden de verschillende manieren beschreven waarop u door de webontwerper kunt navigeren. Als u de wijzigingen wilt weergeven en beheren die aan uw webervaring zijn toegevoegd, raadpleegt u [deze sectie](manage-web-modifications.md).
+In deze sectie worden de verschillende manieren beschreven waarop u door de webontwerper kunt navigeren. Om de wijzigingen te bekijken en te beheren die aan uw Webervaring worden toegevoegd, zie [ deze sectie ](manage-web-modifications.md).
 
 ### Breedkruimels gebruiken {#breadcrumbs}
 
 1. Selecteer een willekeurig element op het canvas.
 
-1. Klik op de knop **[!UICONTROL Expand/Collapse Breadcrumbs]** aan de linkerbenedenzijde van het scherm om snel informatie over het geselecteerde element weer te geven.
+1. Klik op de knop **[!UICONTROL Expand/Collapse Breadcrumbs]** linksonder in het scherm om snel informatie over het geselecteerde element weer te geven.
 
    ![](assets/web-designer-breadcrumbs.png)
 
@@ -152,21 +152,21 @@ In deze sectie worden de verschillende manieren beschreven waarop u door de webo
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_browse"
 >title="De modus Bladeren gebruiken"
->abstract="In deze modus kunt u naar de exacte pagina navigeren vanuit het geselecteerde oppervlak dat u wilt aanpassen."
+>abstract="In deze modus kunt u naar de exacte pagina navigeren vanuit de geselecteerde configuratie die u wilt aanpassen."
 
-U kunt de standaardinstelling wijzigen **[!UICONTROL Design]** aan de **[!UICONTROL Browse]** met de toegewezen knop.
+U kunt de standaardmodus **[!UICONTROL Design]** omzetten in de **[!UICONTROL Browse]** -modus met behulp van de toegewezen knop.
 
 ![](assets/web-designer-browse-mode.png)
 
-Van de **[!UICONTROL Browse]** kunt u vanuit het geselecteerde oppervlak dat u wilt aanpassen naar de exacte pagina navigeren.
+In de modus **[!UICONTROL Browse]** kunt u naar de exacte pagina navigeren vanuit de geselecteerde configuratie die u wilt aanpassen.
 
-Dit is vooral handig wanneer u werkt met pagina&#39;s die zich achter verificatie bevinden of die niet vanaf het begin bij een bepaalde URL beschikbaar zijn. U kunt bijvoorbeeld verifiëren, naar uw accountpagina of naar uw winkelwagenpagina gaan en vervolgens teruggaan naar **[!UICONTROL Design]** om de wijzigingen op de gewenste pagina uit te voeren.
+Dit is vooral handig wanneer u werkt met pagina&#39;s die zich achter verificatie bevinden of die niet vanaf het begin bij een bepaalde URL beschikbaar zijn. U kunt bijvoorbeeld de verificatie uitvoeren, naar de accountpagina of naar de winkelpagina gaan en terugschakelen naar de modus **[!UICONTROL Design]** om de wijzigingen op de gewenste pagina uit te voeren.
 
-Gebruiken **[!UICONTROL Browse]** kunt u ook door alle weergaven van uw website navigeren wanneer u toepassingen van één pagina ontwerpt. [Meer informatie](web-spa.md)
+Met de modus **[!UICONTROL Browse]** kunt u ook door alle weergaven van uw website navigeren wanneer u toepassingen van één pagina ontwerpt. [Meer informatie](web-spa.md)
 
 ### De apparaatgrootte wijzigen {#change-device-size}
 
-U kunt de apparaatgrootte van de webontwerpweergave wijzigen in een vooraf gedefinieerde grootte, zoals **[!UICONTROL Tablet]** of **[!UICONTROL Mobile landscape]** of definieer een aangepaste grootte door het gewenste aantal pixels in te voeren.
+U kunt de apparaatgrootte van de webontwerpweergave wijzigen in een vooraf gedefinieerde grootte, zoals **[!UICONTROL Tablet]** of **[!UICONTROL Mobile landscape]** , of een aangepaste grootte definiëren door het gewenste aantal pixels in te voeren.
 
 U kunt de zoomfocus ook wijzigen van 25% in 400%.
 
@@ -178,10 +178,10 @@ De mogelijkheid om de apparaatgrootte te wijzigen is ontworpen voor responsieve 
 >
 >U kunt een webervaring bewerken met een specifieke apparaatgrootte. Nochtans, zolang de selecteurs het zelfde zijn, zijn deze veranderingen op alle grootte en apparaten, niet alleen de apparatengrootte van toepassing dat u binnen werkt. Op dezelfde manier worden de wijzigingen toegepast op alle schermgrootten, en niet alleen op de desktopweergave wanneer u een ervaring bewerkt in de normale weergave.
 >
->Momenteel [!DNL Journey Optimizer] ondersteunt geen paginawijzigingen die specifiek zijn voor het apparaatformaat. Dit betekent dat als u bijvoorbeeld een aparte mobiele website met een aparte sitestructuur hebt, u de wijzigingen specifiek voor uw mobiele site in een andere campagne moet doorvoeren.
+>[!DNL Journey Optimizer] biedt momenteel geen ondersteuning voor paginawijzigingen die specifiek zijn voor de apparaatgrootte. Dit betekent dat als u bijvoorbeeld een aparte mobiele website met een aparte sitestructuur hebt, u de wijzigingen specifiek voor uw mobiele site in een andere campagne moet doorvoeren.
 
 ## Hoe kan ik-video{#video}
 
-In de onderstaande video ziet u hoe u een webervaring kunt ontwerpen met de webontwerper in [!DNL Journey Optimizer] campagnes.
+In de onderstaande video ziet u hoe u een webervaring kunt ontwerpen met de webontwerper in [!DNL Journey Optimizer] -campagnes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

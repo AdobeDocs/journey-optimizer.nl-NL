@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, groep, subdomeinen, leverbaarheid
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: bdd3b951e44adaf3ff362b8af69f5ab74d13f484
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1581'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Creeer een IP warmlopingsplan {#ip-warmup}
 
-Zodra u één of meerdere [ IP warmup campagnes ](ip-warmup-campaign.md) met een specifieke toegelaten oppervlakte en de overeenkomstige toegelaten optie creeerde, kunt u beginnen uw IP warmup plan te creëren.
+Zodra u één of meerdere [ IP warmup campagnes ](ip-warmup-campaign.md) met een specifieke configuratie en de overeenkomstige toegelaten optie creeerde, kunt u beginnen uw IP warmup plan te creëren.
 
 Om tot de IP opwarmingsplannen toegang te hebben, te creëren, uit te geven en te schrappen, moet u de **[!UICONTROL Deliverability Consultant]** rol of IP opwarmingsplannen verwante toestemmingen hebben.
 
@@ -238,7 +238,7 @@ Elk domein wordt nu in een andere kolom op dezelfde rij weergegeven.
 
 ## Toegang en beheer IP-opwarmingsplannen {#manage-ip-warmup-plans}
 
-1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL IP warmup plans]** . Alle IP warmup die plannen tot nu toe worden gecreeerd worden getoond.
+1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** > **[!UICONTROL IP warmup plans]** . Alle IP warmup die plannen tot nu toe worden gecreeerd worden getoond.
 
    ![](assets/ip-warmup-filter-list.png)
 
@@ -271,14 +271,14 @@ Elk domein wordt nu in een andere kolom op dezelfde rij weergegeven.
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_warmup_surface"
->title="Een marketingoppervlak selecteren"
->abstract="U moet de zelfde oppervlakte selecteren zoals die in de campagne wordt geselecteerd u met uw IP warmup plan wilt associëren."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="Kanaaloppervlakken instellen"
+>title="Een marketingconfiguratie selecteren"
+>abstract="U moet de zelfde configuratie selecteren zoals die in de campagne wordt geselecteerd u met uw IP warmup plan wilt associëren."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="Kanaalconfiguraties instellen"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/channel-surfaces.html" text="IP-warmtecampagnes maken"
 
 Om een IP warmup plan tot stand te brengen, volg de hieronder stappen.
 
-1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL IP warmup plans]** en klik op **[!UICONTROL Create IP warmup plan]** .
+1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** > **[!UICONTROL IP warmup plans]** en klik op **[!UICONTROL Create IP warmup plan]** .
 
    ![](assets/ip-warmup-create-plan.png)
 
@@ -286,11 +286,11 @@ Om een IP warmup plan tot stand te brengen, volg de hieronder stappen.
 
    ![](assets/ip-warmup-plan-details.png)
 
-1. Selecteer de [ oppervlakte ](channel-surfaces.md) die u omhoog wilt opwarmen. Alleen marketingoppervlakken zijn beschikbaar voor selectie. [ Leer meer op e-mailtype ](../email/email-settings.md#email-type)
+1. Selecteer de [ configuratie ](channel-surfaces.md) die u omhoog wilt opwarmen. Alleen marketingconfiguraties zijn beschikbaar voor selectie. [ Leer meer op e-mailtype ](../email/email-settings.md#email-type)
 
    >[!NOTE]
    >
-   >De campagnes u met uw IP warmlopingsplan wilt associëren moeten de zelfde oppervlakte gebruiken. [ Leer hoe te om een IP warmup campagne tot stand te brengen ](ip-warmup-campaign.md)
+   >De campagnes u met uw IP warmup plan wilt associëren moeten de zelfde configuratie gebruiken. [ Leer hoe te om een IP warmup campagne tot stand te brengen ](ip-warmup-campaign.md)
 
 1. Upload het dossier van Excel dat uw IP warmup plan bevat. [Meer informatie](#prepare-file)
 

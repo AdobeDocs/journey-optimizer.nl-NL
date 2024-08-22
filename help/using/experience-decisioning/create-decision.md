@@ -7,10 +7,10 @@ role: User
 level: Experienced
 badge: label="Beperkte beschikbaarheid"
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
 source-wordcount: '1456'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -28,14 +28,14 @@ Het beslissingsbeleid bevat alle selectielogica waarmee de beslissingsengine de 
 
 >[!NOTE]
 >
->In de [!DNL Journey Optimizer] gebruikersinterface, beslissingsbeleid wordt aangeduid als beslissingen<!--but they are decision policies. TBC if this note is needed-->.
+>In het [!DNL Journey Optimizer] gebruikersinterface, wordt het besluitvormingsbeleid geëtiketteerd als besluiten <!--but they are decision policies. TBC if this note is needed-->.
 
 ## Voeg een besluitvormingsbeleid aan een code-gebaseerde campagne toe {#add-decision}
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
 >title="Het aantal items definiëren dat moet worden geretourneerd"
->abstract="Selecteer het aantal beslissingsitems dat u wilt retourneren. Als u bijvoorbeeld 2 selecteert, worden de beste twee in aanmerking komende aanbiedingen voor het huidige oppervlak weergegeven."
+>abstract="Selecteer het aantal beslissingsitems dat u wilt retourneren. Als u bijvoorbeeld 2 selecteert, worden de beste twee in aanmerking komende aanbiedingen voor de huidige configuratie weergegeven."
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_fallback"
@@ -51,9 +51,9 @@ Het beslissingsbeleid bevat alle selectielogica waarmee de beslissingsengine de 
 
 Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op uw website of mobiele app, voegt u een beslissingsbeleid toe aan een op code gebaseerde campagne. Volg de onderstaande stappen om dit te doen.
 
-1. Maak een campagne en selecteer de **[!UICONTROL Code-base experience]** handeling. [Meer informatie](../code-based/create-code-based.md)
+1. Maak een campagne en selecteer de handeling **[!UICONTROL Code-base experience]** . [Meer informatie](../code-based/create-code-based.md)
 
-1. Van de [code-editor](../code-based/create-code-based.md#edit-code), selecteert u de **[!UICONTROL Decision policy]** pictogram en klik **[!UICONTROL Add decision policy]**.
+1. Van de [ coderedacteur ](../code-based/create-code-based.md#edit-code), selecteer het **[!UICONTROL Decision policy]** pictogram en klik **[!UICONTROL Add decision policy]**.
 
    ![](assets/decision-code-based-create.png)
 
@@ -61,13 +61,13 @@ Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op
 
    >[!NOTE]
    >
-   >Momenteel alleen de standaardwaarde **[!UICONTROL Offers]** catalogus is beschikbaar.
+   >Momenteel is alleen de standaardcatalogus **[!UICONTROL Offers]** beschikbaar.
 
    ![](assets/decision-code-based-details.png)
 
-1. Selecteer het aantal objecten dat je wilt retourneren. Als u bijvoorbeeld 2 selecteert, worden de beste twee in aanmerking komende aanbiedingen voor het huidige oppervlak weergegeven. Klikken **[!UICONTROL Next]**
+1. Selecteer het aantal objecten dat je wilt retourneren. Als u bijvoorbeeld 2 selecteert, worden de beste twee in aanmerking komende aanbiedingen voor de huidige configuratie weergegeven. Klikken **[!UICONTROL Next]**
 
-1. Gebruik de **[!UICONTROL Add strategy]** om de selectiestrategieën voor uw beslissingsbeleid te definiëren. Elke strategie bestaat uit een verzameling aanbiedingen die gekoppeld is aan een toelatingsbeperking en een rangschikkingsmethode om te bepalen welke aanbiedingen moeten worden getoond. [Meer informatie](selection-strategies.md)
+1. Gebruik de knop **[!UICONTROL Add strategy]** om de selectiestrategieën voor uw beslissingsbeleid te definiëren. Elke strategie bestaat uit een verzameling aanbiedingen die gekoppeld is aan een toelatingsbeperking en een rangschikkingsmethode om te bepalen welke aanbiedingen moeten worden getoond. [Meer informatie](selection-strategies.md)
 
    ![](assets/decision-code-based-strategies.png)
 
@@ -75,7 +75,7 @@ Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op
    >
    >Er is ten minste één strategie nodig. U kunt niet meer dan tien strategieën toevoegen.
 
-1. Van de **[!UICONTROL Add strategy]** kunt u ook een strategie maken. De **[!UICONTROL Create selection strategy]** knop leidt u om naar de **[!UICONTROL Experience decisioning]** > **[!UICONTROL Strategy setup]** -menu. [Meer informatie](selection-strategies.md)
+1. Vanuit het **[!UICONTROL Add strategy]** -scherm kunt u ook een strategie maken. De knop **[!UICONTROL Create selection strategy]** leidt u om naar het menu **[!UICONTROL Experience decisioning]** > **[!UICONTROL Strategy setup]** . [Meer informatie](selection-strategies.md)
 
    ![](assets/decision-code-based-add-strategy.png)
 
@@ -89,13 +89,13 @@ Als u uw bezoekers de beste dynamische aanbieding en ervaring wilt laten zien op
 
    ![](assets/decision-code-based-strategy-fallback.png)
 
-   U kunt elk item in de lijst selecteren, waarin alle beslissingsitems worden weergegeven die in de huidige sandbox zijn gemaakt. Als er geen selectiestrategie is gekwalificeerd, wordt de fallback aan de gebruiker weergegeven, ongeacht de datums en geschiktheidsbeperking die op het geselecteerde item zijn toegepast<!--nor frequency capping when available - TO CLARIFY-->.
+   U kunt elk item in de lijst selecteren, waarin alle beslissingsitems worden weergegeven die in de huidige sandbox zijn gemaakt. Als geen selectiestrategie wordt gekwalificeerd, wordt fallback getoond aan de gebruiker ongeacht de data en de geschiktheidsbeperking die op het geselecteerde punt <!--nor frequency capping when available - TO CLARIFY--> wordt toegepast.
 
    >[!NOTE]
    >
-   >Een fallback is optioneel. Als er geen fallback is geselecteerd en geen strategie is gekwalificeerd, wordt er niets weergegeven door [!DNL Journey Optimizer].
+   >Een fallback is optioneel. Als er geen fallback is geselecteerd en geen strategie is gekwalificeerd, wordt er niets weergegeven door [!DNL Journey Optimizer] .
 
-1. Uw selectie opslaan en klikken **[!UICONTROL Create]**. Nu het besluitvormingsbeleid wordt gecreeerd, kunt u de besluitvormingsattributen binnen uw code-gebaseerde ervaringsinhoud gebruiken. [Meer informatie](#use-decision-policy)
+1. Sla de selectie op en klik op **[!UICONTROL Create]** . Nu het besluitvormingsbeleid wordt gecreeerd, kunt u de besluitvormingsattributen binnen uw code-gebaseerde ervaringsinhoud gebruiken. [Meer informatie](#use-decision-policy)
 
    ![](assets/decision-code-based-decision-added.png)
 
@@ -112,15 +112,15 @@ Meerdere strategieën en de groepering daarvan bepalen de prioriteit van de stra
 
 U hebt bijvoorbeeld twee verzamelingen, één in strategie A en één in strategie B. Het verzoek is om terugzending van twee besluitvormingselementen. Laten we zeggen dat er twee in aanmerking komende aanbiedingen zijn van strategie A en drie in aanmerking komende aanbiedingen van strategie B.
 
-* Als de twee strategieën **niet gecombineerd** of in sequentiële volgorde (1 en 2) worden de twee belangrijkste in aanmerking komende aanbiedingen uit de eerste strategie in de eerste rij geretourneerd. Als er niet twee in aanmerking komende aanbiedingen voor de eerste strategie zijn, zal de beslissingsmotor op één na de volgende strategie volgen om te vinden hoeveel aanbiedingen nog nodig zijn, en zal uiteindelijk een terugslag teruggeven indien nodig.
+* Als de twee strategie **niet wordt gecombineerd** of in opeenvolgende orde (1 en 2), zullen de hoogste twee in aanmerking komende aanbiedingen van de eerste strategie in de eerste rij zijn teruggekeerd. Als er niet twee in aanmerking komende aanbiedingen voor de eerste strategie zijn, zal de beslissingsmotor op één na de volgende strategie volgen om te vinden hoeveel aanbiedingen nog nodig zijn, en zal uiteindelijk een terugslag teruggeven indien nodig.
 
   ![](assets/decision-code-based-consecutive-strategies.png)
 
-* Als de twee verzamelingen **tegelijk geëvalueerd** Aangezien er twee in aanmerking komende aanbiedingen van strategie A en drie in aanmerking komende aanbiedingen van strategie B zijn, worden de vijf offertes in hun geheel samengevoegd op basis van de waarde die door de respectieve rangordemethoden wordt bepaald. Er wordt om twee aanbiedingen verzocht, zodat de twee belangrijkste in aanmerking komende aanbiedingen van deze vijf aanbiedingen worden teruggegeven.
+* Als de twee inzamelingen **tezelfdertijd** worden geëvalueerd, aangezien er twee in aanmerking komende aanbiedingen van strategie A en drie in aanmerking komende aanbiedingen van strategie B zijn, zullen de vijf aanbiedingen allen worden stapel samen gebaseerd op de waarde die door de respectieve rangschikkingsmethodes wordt bepaald. Er wordt om twee aanbiedingen verzocht, zodat de twee belangrijkste in aanmerking komende aanbiedingen van deze vijf aanbiedingen worden teruggegeven.
 
   ![](assets/decision-code-based-combined-strategies.png)
 
-+++ **Voorbeeld met meerdere strategieën**
++++ **Voorbeeld met veelvoudige strategieën**
 
 Laten we nu een voorbeeld bekijken waarbij meerdere strategieën verdeeld zijn in verschillende groepen.
 
@@ -141,8 +141,11 @@ De belangrijkste prioritaire strategische aanbiedingen worden eerst geëvalueerd
 
 Aanbiedingen voor strategie 1 en strategie 2 worden samen geëvalueerd (Aanbieding 1, Aanbieding 2, Aanbieding 3, Aanbieding 4, Aanbieding 5). Laten we zeggen dat het resultaat:
 
-Aanbieding 1 - 10 Aanbieding 2 - 20 Aanbieding 3 - 30 uit strategie 1, 45 uit strategie 2. Het hoogste van beide wordt in overweging genomen, dus er wordt rekening gehouden met 45.
-Voorstel 4 - 40 voorstel 5 - 50
+Aanbieding 1 - 10
+Voorstel 2 - 20
+Aanbieding 3 - 30 van strategie 1, 45 van strategie 2. Het hoogste van beide wordt in overweging genomen, dus er wordt rekening gehouden met 45.
+Voorstel 4 - 40
+Voorstel 5 - 50
 
 De gerangschikte voorstellen zijn nu als volgt: Voorstel 5, voorstel 3, voorstel 4, voorstel 2, voorstel 1.
 
@@ -159,27 +162,27 @@ De gerangschikte voorstellen zijn nu als volgt: Voorstel 5, voorstel 3, voorstel
 
 ## Het beslissingsbeleid in de code-editor gebruiken {#use-decision-policy}
 
-Zodra gecreeerd, kan het besluitvormingsbeleid in worden gebruikt [personalisatie-editor](../code-based/create-code-based.md#edit-code). Volg de onderstaande stappen om dit te doen.
+Zodra gecreeerd, kan het besluitvormingsbeleid in de [ verpersoonlijkingsredacteur ](../code-based/create-code-based.md#edit-code) worden gebruikt. Volg de onderstaande stappen om dit te doen.
 
 >[!NOTE]
 >
->De op code gebaseerde ervaring gebruikt de [!DNL Journey Optimizer] verpersoonlijkingsredacteur met al zijn verpersoonlijking en auteursmogelijkheden. [Meer informatie](../personalization/personalization-build-expressions.md)
+>De op code-gebaseerde ervaring gebruikt de [!DNL Journey Optimizer] verpersoonlijkingsredacteur met al zijn verpersoonlijking en auteursmogelijkheden. [Meer informatie](../personalization/personalization-build-expressions.md)
 
-1. Klik op de knop **[!UICONTROL Insert policy]** knop. De code die overeenkomt met het beslissingsbeleid wordt toegevoegd.
+1. Klik op de knop **[!UICONTROL Insert policy]**. De code die overeenkomt met het beslissingsbeleid wordt toegevoegd.
 
    ![](assets/decision-code-based-add-decision.png)
 
    >[!NOTE]
    >
-   >Deze opeenvolging zal het aantal tijden worden herhaald u het besluitvormingsbeleid wilt zijn teruggekeerd. Als u bijvoorbeeld 2 items wilt retourneren wanneer [het besluit](#add-decision)dezelfde volgorde wordt twee keer herhaald.
+   >Deze opeenvolging zal het aantal tijden worden herhaald u het besluitvormingsbeleid wilt zijn teruggekeerd. Bijvoorbeeld, als u verkoos om terug 2 punten terug te keren wanneer [ creërend het besluit ](#add-decision), zal de zelfde opeenvolging tweemaal worden herhaald.
 
-1. Nu kunt u alle beslissingskenmerken toevoegen die u in die code wilt. De beschikbare kenmerken worden opgeslagen in de **[!UICONTROL Offers]** catalogusschema. Aangepaste kenmerken worden opgeslagen in het dialoogvenster **`_<imsOrg`>** map en standaardkenmerken in het dialoogvenster **`_experience`** map. [Meer informatie over het schema van de catalogus met aanbiedingen](catalogs.md)
+1. Nu kunt u alle beslissingskenmerken toevoegen die u in die code wilt. De beschikbare kenmerken worden opgeslagen in het schema van de catalogus van **[!UICONTROL Offers]** . De attributen van de douane worden opgeslagen in **`_<imsOrg`>** omslag en standaardattributen in de **`_experience`** omslag. [ Leer meer op het schema van de catalogus van Aanbiedingen ](catalogs.md)
 
    ![](assets/decision-code-based-decision-attributes.png)
 
    >[!NOTE]
    >
-   >Voor het volgen van beleidsposten voor beslissingen, `trackingToken`attribuut moet als volgt voor de inhoud van het besluitvormingsbeleid worden toegevoegd:
+   >Voor het volgen van het Punt van het besluitvormingsbeleid, moet de `trackingToken` attributen als volgt voor de inhoud van het besluitvormingsbeleid worden toegevoegd:
    >`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. Klik op elke map om deze uit te vouwen. Plaats de cursor van de muis op de gewenste locatie en klik op het pictogram + naast het kenmerk dat u wilt toevoegen. U kunt zoveel kenmerken aan de code toevoegen als u wilt.
@@ -194,10 +197,10 @@ Zodra gecreeerd, kan het besluitvormingsbeleid in worden gebruikt [personalisati
 
 Als u met Customer Journey Analytics werkt, kunt u aangepaste rapporteringsdashboards voor uw code-gebaseerde campagnes creëren leveraging Experience Decisioning.
 
-De belangrijkste stappen worden hieronder weergegeven. Gedetailleerde informatie over het werken met Customer Journey Analytics is beschikbaar in het dialoogvenster [Documentatie Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing){target="_blank"}.
+De belangrijkste stappen worden hieronder weergegeven. De gedetailleerde informatie over hoe te met Customer Journey Analytics te werken is beschikbaar in de [ documentatie van de Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing) {target="_blank"}.
 
-1. Een **verbinding** in de Customer Journey Analytics. Dit staat u toe om met de dataset te verbinden u rapporten voor wilt. [Leer hoe u een verbinding maakt](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection){target="_blank"}
+1. Creeer en vorm a **verbinding** in Customer Journey Analytics. Dit staat u toe om met de dataset te verbinden u rapporten voor wilt. [ leer hoe te om een verbinding ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection) tot stand te brengen {target="_blank"}
 
-1. Een **gegevensweergave** en koppelt u deze aan de eerder gemaakte verbinding. In de **[!UICONTROL Components]** kiest u de relevante schemavelden die u wilt weergeven in de rapportage. Voor Ervaring Beslissen dient u de **propositioneren** en **propositiondisplay** velden. [Leer hoe u gegevensweergaven maakt en configureert](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target="_blank"}
+1. Creeer a **gegevensmening** en associeer het aan de eerder gemaakte verbinding. Kies op het tabblad **[!UICONTROL Components]** de relevante schemavelden die u wilt weergeven in de rapportage. Voor Ervaring die besluit, zorg ervoor u **propositioninteract** en **propositiondisplay** gebieden omvat. [ leer hoe te om gegevensmeningen ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview) tot stand te brengen en te vormen {target="_blank"}
 
-1. Gegevenscomponenten, tabellen en visualisaties combineren in **werkruimteprojecten** om rapporten voor uw op code-gebaseerde campagne te creëren en te delen.[Leer hoe u werkruimteprojecten maakt](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects){target="_blank"}
+1. Combineer gegevenscomponenten, lijsten en visualisaties in **werkruimteprojecten** om rapporten voor uw op code-gebaseerde campagne tot stand te brengen en te delen.[ leer hoe te om werkruimteprojecten ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/build-workspace-project/create-projects) {target="_blank"} tot stand te brengen

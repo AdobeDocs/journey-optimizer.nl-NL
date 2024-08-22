@@ -2,33 +2,33 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: E-mailinstellingen configureren
-description: Leer hoe u e-mailinstellingen op het niveau van het kanaaloppervlak configureert
+description: Leer hoe te om e-mailmontages op het niveau van de kanaalconfiguratie te vormen
 feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
 keywords: instellingen, e-mail, configuratie
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 975bb9d37a69fe8df02bc39ce2ccdf2da9953ebb
+source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2456'
 ht-degree: 0%
 
 ---
 
 # E-mailinstellingen configureren {#email-settings}
 
-Als u een e-mailbericht wilt maken, moet u oppervlakken van e-mailkanalen instellen die alle technische parameters definiëren die vereist zijn voor uw berichten. [Leer hoe u oppervlakken maakt](../configuration/channel-surfaces.md)
+Als u een e-mailbericht wilt maken, moet u e-mailkanaalconfiguraties instellen die alle technische parameters definiëren die vereist zijn voor uw berichten. [ leer hoe te om configuraties ](../configuration/channel-surfaces.md) tot stand te brengen
 
 >[!NOTE]
 >
->Als u uw reputatie wilt behouden en de leverbaarheid wilt verbeteren, stelt u de subdomeinen in die u wilt gebruiken voor het verzenden van e-mails voordat u een e-mailoppervlak maakt. [Meer informatie](../configuration/about-subdomain-delegation.md)
+>Als u uw reputatie wilt behouden en de leverbaarheid wilt verbeteren, stelt u de subdomeinen in die u wilt gebruiken voor het verzenden van e-mails voordat u een e-mailconfiguratie maakt. [Meer informatie](../configuration/about-subdomain-delegation.md)
 
-Definieer de e-mailinstellingen in de specifieke sectie van de configuratie van het kanaaloppervlak, zoals hieronder wordt beschreven.
+Definieer de e-mailinstellingen in de specifieke sectie van de kanaalconfiguratie, zoals hieronder wordt beschreven.
 
 ![](assets/surface-email-settings.png){width="50%" align="left"}
 
-De configuratie van de e-mailoppervlakte wordt opgepikt voor het verzenden van mededelingen die de logica hieronder volgen:
+De e-mailconfiguratie wordt opgepikt voor het verzenden van mededelingen volgens de logica hieronder:
 
 * Voor batchritten is deze code niet van toepassing op batchuitvoering die al was gestart voordat de configuratie van het e-mailoppervlak is gemaakt. De wijzigingen worden opgepikt bij de volgende herhaling of nieuwe uitvoering.
 
@@ -36,22 +36,22 @@ De configuratie van de e-mailoppervlakte wordt opgepikt voor het verzenden van m
 
 >[!NOTE]
 >
->De bijgewerkte instellingen van het e-mailoppervlak worden automatisch opgehaald tijdens de reis(en) of campagne(s) waar het oppervlak wordt gebruikt.
+>De bijgewerkte configuratie-instellingen voor e-mail worden automatisch opgehaald tijdens de rit(s) of campagne(s) waar de configuratie wordt gebruikt.
 
 ## Type e-mail {#email-type}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_presets_emailtype"
 >title="Het e-mailtype definiëren"
->abstract="Selecteer het type e-mailberichten dat wordt verzonden wanneer u dit oppervlak gebruikt: marketing voor speciale e-mails waarvoor toestemming van de gebruiker vereist is of Transactie voor niet-commerciële e-mails die ook in specifieke contexten naar profielen zonder abonnement kunnen worden verzonden."
+>abstract="Selecteer het type e-mailberichten dat wordt verzonden wanneer u deze configuratie gebruikt: Marketing voor speciale e-mails waarvoor toestemming van de gebruiker vereist is, of Transactie voor niet-commerciële e-mailberichten die ook in specifieke contexten naar profielen zonder abonnement kunnen worden verzonden."
 
-In de **Type e-mail** selecteert u het type bericht voor het oppervlak: **[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**.
+In de **sectie van het Type E-mail**, selecteer het type van bericht voor de configuratie: **[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**.
 
-* Selecteren **Marketing** voor speciale e-mails, zoals wekelijkse promoties voor een winkel. Voor deze berichten is toestemming van de gebruiker vereist.
+* Selecteer **Marketing** voor promotionele e-mail, zoals wekelijkse promoties voor een detailhandel. Voor deze berichten is toestemming van de gebruiker vereist.
 
-* Selecteren **Transactioneel** voor niet-commerciële e-mail, zoals bevestiging van de bestelling, wachtwoordherstelmeldingen of leveringsgegevens. Deze e-mails kunnen worden verzonden naar profielen die **geabonneerd** van marketingberichten. Deze berichten kunnen alleen in specifieke contexten worden verzonden.
+* Selecteer **Transactioneel** voor niet-commerciële e-mail, zoals orderbevestiging, wachtwoord terugstellende berichten, of leveringsinformatie bijvoorbeeld. Deze e-mails kunnen naar profielen worden verzonden die **** van marketing mededelingen afsloot. Deze berichten kunnen alleen in specifieke contexten worden verzonden.
 
-Wanneer u een bericht maakt, moet u een geldig kanaaloppervlak kiezen dat overeenkomt met de categorie die u voor uw e-mail hebt geselecteerd.
+Wanneer u een bericht maakt, moet u een geldige kanaalconfiguratie kiezen die overeenkomt met de categorie die u voor uw e-mail hebt geselecteerd.
 
 ## Subdomein {#subdomains}
 
@@ -65,17 +65,17 @@ Om de reputatie van uw domein te bewaren, versnelt het IP opwarmingsproces en ve
 ## Details van IP-pool {#ip-pools}
 
 
-Selecteer de IP pool om met de oppervlakte te associëren. [Meer informatie](../configuration/ip-pools.md)
+Selecteer de IP pool aan vennoot met de configuratie. [Meer informatie](../configuration/ip-pools.md)
 
 ![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
 
-U kunt niet met oppervlakverwezenlijking te werk gaan terwijl de geselecteerde IP pool onder is [editie](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) en is nooit gekoppeld aan het geselecteerde subdomein. Anders, zal de oudste versie van de IP pool/subdomain vereniging nog worden gebruikt. Als dit het geval is, sparen de oppervlakte als ontwerp en probeer opnieuw zodra de IP pool heeft **[!UICONTROL Success]** status.
+U kunt niet met configuratieverwezenlijking te werk gaan terwijl de geselecteerde IP pool onder [ uitgave ](../configuration/ip-pools.md#edit-ip-pool) (**[!UICONTROL Processing]** status) is en nooit met geselecteerde subdomain is geassocieerd. Anders, zal de oudste versie van de IP pool/subdomain vereniging nog worden gebruikt. Als dit het geval is, sparen de configuratie als ontwerp en probeer opnieuw zodra de IP pool de **[!UICONTROL Success]** status heeft.
 
 >[!NOTE]
 >
->Voor niet-productiemilieu&#39;s, leidt de Adobe niet uit-van-de-doos testsubdomeinen noch verleent toegang tot een gedeelde verzendende IP pool. U moet [delegeren uw eigen subdomeinen](../configuration/delegate-subdomain.md) en gebruik IPs van de pool die aan uw organisatie wordt toegewezen.
+>Voor niet-productiemilieu&#39;s, leidt de Adobe niet uit-van-de-doos testsubdomeinen noch verleent toegang tot een gedeelde verzendende IP pool. U moet [ uw eigen subdomeinen ](../configuration/delegate-subdomain.md) afvaardigen en IPs van de pool gebruiken die aan uw organisatie wordt toegewezen.
 
-Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het hangen over de IP adressen onder de IP pool drop-down lijst wordt getoond. [Meer informatie over PTR-records](../configuration/ptr-records.md)
+Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het hangen over de IP adressen onder de IP pool drop-down lijst wordt getoond. [ leer meer op PTR verslagen ](../configuration/ptr-records.md)
 
 >[!NOTE]
 >
@@ -86,7 +86,7 @@ Nadat een IP pool is geselecteerd, is de informatie PTR zichtbaar wanneer het ha
 <!--Do not modify - Legal Review Done -->
 
 
-Aan [selecteren, subdomein](#subdomains-and-ip-pools) in de lijst **[!UICONTROL Enable List-Unsubscribe]** weergegeven.
+Op [ selecterend subdomain ](#subdomains-and-ip-pools) van de lijst, toont de **[!UICONTROL Enable List-Unsubscribe]** optiesvertoningen.
 
 Deze optie is standaard ingeschakeld om een éénklik-URL voor annuleren op te nemen in de e-mailkoptekst, zoals:
 
@@ -94,18 +94,18 @@ Deze optie is standaard ingeschakeld om een éénklik-URL voor annuleren op te n
 
 Als u deze optie uitschakelt, wordt er geen één-klik-URL voor annuleren weergegeven in de e-mailkoptekst.
 
-U kunt het toestemmingsniveau van selecteren in **[!UICONTROL Consent level]** vervolgkeuzelijst. Dit kan specifiek zijn voor het kanaal of de profielidentiteit. Op basis van deze instelling wordt de toestemming in Adobe Journey Optimizer bijgewerkt op kanaalniveau of op ID-niveau wanneer een gebruiker zich afmeldt met de lijst die de URL in de koptekst van een e-mail afmeldt.
+U kunt het toestemmingsniveau van de **[!UICONTROL Consent level]** drop-down lijst selecteren. Dit kan specifiek zijn voor het kanaal of de profielidentiteit. Op basis van deze instelling wordt de toestemming in Adobe Journey Optimizer bijgewerkt op kanaalniveau of op ID-niveau wanneer een gebruiker zich afmeldt met de lijst die de URL in de koptekst van een e-mail afmeldt.
 
 De List Unsubscribe Header biedt twee functies (Mailto en One-click unsubscribe URL, zoals hieronder wordt uitgelegd) die standaard zijn ingeschakeld, tenzij u een of beide functies uitschakelt:
 
-* A **Mailto (afmelden)** adres, dat het bestemmingsadres is waar unsubscribe verzoeken aan voor auto-verwerking worden verpletterd.
+* A **Brievenbus (unsubscribe)** adres, dat het bestemmingsadres is waar unsubscribe verzoeken aan voor auto-verwerking worden verpletterd.
 
-  In Journey Optimizer is het e-mailadres voor opzeggen het standaardadres **Mailto (afmelden)** adres dat in de kanaaloppervlakte wordt getoond, die op uw wordt gebaseerd [geselecteerd subdomein](#subdomains-and-ip-pools).
+  In Journey Optimizer, is het unsubscribe e-mailadres de standaard **Brievenbus (unsubscribe)** adres dat in de kanaalconfiguratie wordt getoond, die op uw [ wordt gebaseerd geselecteerde subdomain ](#subdomains-and-ip-pools).
 
   ![](assets/surface-list-unsubscribe-mailto.png){width="80%" align="left"}
 
 
-* De **Eén klik op URL voor annuleren**, die standaard de één-klik kiezen onze URL geproduceerde Lijst Unsubscribe Kopbal, die op subdomein wordt gebaseerd u plaatst en in de Montages van de Oppervlakte van het Kanaal vormde.
+* **één-klik unsubscribe URL**, die door gebrek is één-klik kiest onze URL geproduceerde Lijst Unsubscribe Kopbal, die op subdomein wordt gebaseerd u plaatst en in de de configuratiemontages van het Kanaal gevormd.
 
 <!--
     >[!AVAILABILITY]
@@ -114,94 +114,94 @@ De List Unsubscribe Header biedt twee functies (Mailto en One-click unsubscribe 
     >
 -->
 
-De **[!UICONTROL Mailto (unsubscribe)]** en de **[!UICONTROL One-click Unsubscribe URL]** is optioneel. Als u niet de standaard gegenereerde één-klik wilt gebruiken unsubscribe URL, kunt u de eigenschap uncheck. In het scenario waarin **[!UICONTROL Opt-out configuration]** is ingeschakeld en **[!UICONTROL One-click Unsubscribe URL]** is uitgeschakeld als u een [one-click opt-out link](../privacy/opt-out.md#one-click-opt-out) als u een bericht wilt verzenden dat is gemaakt met dit oppervlak, kiest de lijst voor het afmelden van een abonnement de koppeling voor één muisklik die u in de tekst van de e-mail hebt ingevoegd en gebruikt u deze koppeling als de één-klik-URL-waarde voor afmelden.
+De functies **[!UICONTROL Mailto (unsubscribe)]** en **[!UICONTROL One-click Unsubscribe URL]** zijn optioneel. Als u niet de standaard gegenereerde één-klik wilt gebruiken unsubscribe URL, kunt u de eigenschap uncheck. In het scenario waar de **[!UICONTROL Opt-out configuration]** optie wordt van een knevel voorzien en de **[!UICONTROL One-click Unsubscribe URL]** eigenschap is ongecontroleerd, als u a [ toe:voegen één-klik opt-out verbinding ](../privacy/opt-out.md#one-click-opt-out) aan een bericht dat gebruikend deze configuratie wordt gecreeerd, zal de lijst unsubscribe kopbal de één-klik opt-out verbinding opnemen u in het lichaam van e-mail hebt opgenomen en gebruikt die als één-klik unsubscribe URL waarde.
 
 ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
 >[!NOTE]
 >
->Als u geen opt-out-koppeling met één klik toevoegt aan uw berichtinhoud en de standaard-URL voor één klik voor annuleren is uitgeschakeld in de instellingen voor kanaaloppervlak, wordt er geen URL doorgegeven aan de e-mailkoptekst als onderdeel van de koptekst voor opzeggen van lijst.
+>Als u geen opt-out-koppeling met één klik toevoegt aan uw berichtinhoud en de standaard-URL voor één klik voor annuleren is uitgeschakeld in de Kanaalconfiguratie-instellingen, wordt er geen URL doorgegeven aan de e-mailkoptekst als onderdeel van de List Unsubscribe-koptekst.
 
-Meer informatie over het beheren van afmeldingsmogelijkheden in uw berichten in [deze sectie](../email/email-opt-out.md#unsubscribe-header).
+Leer meer bij het beheren van unsubscribe mogelijkheden in uw berichten in [ deze sectie ](../email/email-opt-out.md#unsubscribe-header).
 
 ## Parameters koptekst {#email-header}
 
-In de **[!UICONTROL Header parameters]** in, voert u de namen en e-mailadressen van de afzender in die zijn gekoppeld aan het type e-mail dat met dat oppervlak is verzonden.
+Voer in de sectie **[!UICONTROL Header parameters]** de namen en e-mailadressen van de afzender in die zijn gekoppeld aan het type e-mails dat met die configuratie is verzonden.
 
 * **[!UICONTROL Sender name]**: De naam van de afzender, zoals de naam van uw merk.
 * **[!UICONTROL Sender email]**: Het e-mailadres dat u voor uw communicatie wilt gebruiken.
-* **[!UICONTROL Reply to (name)]**: De naam die wordt gebruikt wanneer de ontvanger op de knop **Antwoord** in hun e-mailclientsoftware.
-* **[!UICONTROL Reply to (email)]**: Het e-mailadres dat wordt gebruikt wanneer de ontvanger op de knop **Antwoord** in hun e-mailclientsoftware. [Meer informatie](#reply-to-email)
+* **[!UICONTROL Reply to (name)]**: De naam die zal worden gebruikt wanneer de ontvanger de **antwoordknoop** in hun e-mailcliëntsoftware klikt.
+* **[!UICONTROL Reply to (email)]**: Het e-mailadres dat zal worden gebruikt wanneer de ontvanger de **antwoordknoop** in hun e-mailcliëntsoftware klikt. [Meer informatie](#reply-to-email)
 * **[!UICONTROL Error email]**: Alle fouten die door ISPs na een paar dagen van post worden geproduceerd die (asynchrone stuitingen) worden ontvangen op dit adres. De out-of-office berichten en de uitdagingsreacties worden ook ontvangen op dit adres.
 
-  Als u de meldingen buiten het kantoor wilt ontvangen en reacties wilt uitdagen op een specifiek e-mailadres dat niet is gedelegeerd aan de Adobe, moet u een [voorwaarts proces](#forward-email). Zorg er in dat geval voor dat u een handmatige of geautomatiseerde oplossing hebt waarmee de e-mailberichten die in deze Postvak IN worden geplaatst, kunnen worden verwerkt.
+  Als u de uit-van-bureauberichten en uitdagingsreacties op een specifiek e-mailadres wilt ontvangen dat niet aan Adobe wordt gedelegeerd, moet u a [ door:sturen proces ](#forward-email) opstelling. Zorg er in dat geval voor dat u een handmatige of geautomatiseerde oplossing hebt waarmee de e-mailberichten die in deze Postvak IN worden geplaatst, kunnen worden verwerkt.
 
 >[!CAUTION]
 >
->De **[!UICONTROL Sender email]** en **[!UICONTROL Error email]** adressen moeten de huidige geselecteerde gebruiken [gedelegeerd subdomein](../configuration/about-subdomain-delegation.md). Als het gedelegeerde subdomein bijvoorbeeld *marketing.luma.com* kunt u *contact@marketing.luma.com* en *error@marketing.luma.com*.
+>De **[!UICONTROL Sender email]** en **[!UICONTROL Error email]** adressen moeten huidige geselecteerde [ gedelegeerde subdomain ](../configuration/about-subdomain-delegation.md) gebruiken. Bijvoorbeeld, als gedelegeerde subdomain *marketing.luma.com* is, kunt u *contact@marketing.luma.com* en *error@marketing.luma.com* gebruiken.
 
 ![](assets/preset-header.png)
 
 >[!NOTE]
 >
->Adressen moeten beginnen met een letter (A-Z) en mogen alleen alfanumerieke tekens bevatten. U kunt ook het onderstrepingsteken gebruiken `_`, punt`.` en afbreekstreepje `-` tekens.
+>Adressen moeten beginnen met een letter (A-Z) en mogen alleen alfanumerieke tekens bevatten. U kunt ook onderstrepingsteken `_` -, punt `.` - en afbreekstreepjes `-` gebruiken.
 
 ### E-mail beantwoorden {#reply-to-email}
 
-Bij het definiëren van de **[!UICONTROL Reply to (email)]** adres, kunt u om het even welk e-mailadres specificeren op voorwaarde dat het een geldig adres, in correct formaat en zonder enige typefout is.
+Wanneer u het **[!UICONTROL Reply to (email)]** -adres definieert, kunt u elk e-mailadres opgeven, op voorwaarde dat het een geldig adres is, in de juiste notatie en zonder enige typefout.
 
-Het inbox dat voor antwoorden wordt gebruikt, ontvangt alle e-mails met reacties, behalve meldingen buiten het kantoor en antwoorden op de vraag, die worden ontvangen op de **[!UICONTROL Error email]** adres.
+Het Postvak IN dat wordt gebruikt voor antwoorden, ontvangt alle e-mails met reacties, met uitzondering van meldingen buiten het kantoor en antwoorden op problemen, die worden ontvangen op het **[!UICONTROL Error email]** -adres.
 
 Volg onderstaande aanbevelingen om te zorgen voor een goed antwoordbeheer:
 
-* Zorg ervoor dat de toegewezen Postvak IN voldoende ontvangstcapaciteit heeft om alle e-mails met reacties te ontvangen die via het e-mailoppervlak worden verzonden. Als het postvak &#39;Bounces&#39; retourneert, worden sommige reacties van uw klanten mogelijk niet ontvangen.
+* Zorg ervoor dat de toegewezen Postvak IN voldoende ontvangstcapaciteit heeft om alle e-mailberichten te ontvangen die via de e-mailconfiguratie worden verzonden. Als het postvak &#39;Bounces&#39; retourneert, worden sommige reacties van uw klanten mogelijk niet ontvangen.
 
 * De reacties moeten worden verwerkt met inachtneming van de verplichtingen inzake privacy en naleving, aangezien zij persoonlijk identificeerbare informatie (PII) kunnen bevatten.
 
 * Merk geen berichten als spam in antwoordinbox, aangezien het alle andere reacties zal beïnvloeden die naar dit adres worden verzonden.
 
-Bovendien, wanneer het bepalen van **[!UICONTROL Reply to (email)]** adres, zorg ervoor om subdomain te gebruiken die een geldige MX verslagconfiguratie heeft, anders zal de verwerking van de e-mailoppervlakte ontbreken.
+Wanneer u bovendien het **[!UICONTROL Reply to (email)]** -adres definieert, moet u ervoor zorgen dat u een subdomein gebruikt dat een geldige MX-recordconfiguratie heeft, anders mislukt de verwerking van de e-mailconfiguratie.
 
-Als u een fout bij het voorleggen van de e-mailoppervlakte krijgt, betekent het dat het MX- verslag niet voor subdomain van het adres wordt gevormd u inging. Contacteer uw beheerder voor het vormen van het overeenkomstige MX verslag of gebruik een ander adres met een geldige MX verslagconfiguratie.
+Als u een fout bij het voorleggen van de e-mailconfiguratie krijgt, betekent het dat het MX- verslag niet voor subdomain van het adres wordt gevormd u inging. Contacteer uw beheerder voor het vormen van het overeenkomstige MX verslag of gebruik een ander adres met een geldige MX verslagconfiguratie.
 
 >[!NOTE]
 >
->Als het subdomein van het adres u inging een domein is dat [volledig gedelegeerd](../configuration/delegate-subdomain.md#full-subdomain-delegation) als u Adobe wilt, neemt u contact op met de accountmanager van uw Adobe.
+>Als subdomain van het adres u inging een domein is dat [ volledig ](../configuration/delegate-subdomain.md#full-subdomain-delegation) aan Adobe werd gedelegeerd, contacteer uw Adobe rekeningsmanager.
 
 ### E-mail doorsturen {#forward-email}
 
-Alle e-mails ontvangen door doorsturen naar een specifiek e-mailadres [!DNL Journey Optimizer] voor het gedelegeerde subdomein, contacteer de Zorg van de Klant van de Adobe.
+Neem contact op met de klantenservice van de Adobe als u alle e-mailberichten die [!DNL Journey Optimizer] voor het gedelegeerde subdomein heeft ontvangen, wilt doorsturen naar een specifiek e-mailadres.
 
 >[!NOTE]
 >
->Als het subdomein wordt gebruikt voor de **[!UICONTROL Reply to (email)]** Het adres wordt niet gedelegeerd aan Adobe, door:sturen kan niet voor dit adres werken.
+>Als subdomain die voor het **[!UICONTROL Reply to (email)]** adres wordt gebruikt niet aan Adobe wordt afgevaardigd, door:sturen kan niet voor dit adres werken.
 
 U moet het volgende opgeven:
 
 * Het e-mailadres van uw keuze. Merk op dat het voorwaartse domein van het e-mailadres geen subdomein kan aanpassen dat aan Adobe wordt gedelegeerd.
 * De naam van uw sandbox.
-* De oppervlaknaam of subdomein waarvoor het voorwaartse e-mailadres zal worden gebruikt.
-  <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel surface level.-->
+* De configuratienaam of het subdomein waarvoor het voorwaartse e-mailadres zal worden gebruikt.
+  <!--* The current **[!UICONTROL Reply to (email)]** address or **[!UICONTROL Error email]** address set at the channel configuration level.-->
 
 >[!NOTE]
 >
->Per subdomein kan slechts één voorwaarts e-mailadres aanwezig zijn. Als meerdere oppervlakken hetzelfde subdomein gebruiken, moet voor alle oppervlakken hetzelfde e-mailadres worden gebruikt.
+>Per subdomein kan slechts één voorwaarts e-mailadres aanwezig zijn. Daarom als de veelvoudige configuraties zelfde subdomain gebruiken, moet het zelfde voorwaartse e-mailadres voor elk van hen worden gebruikt.
 
 Het e-mailadres voor verzending wordt ingesteld door Adobe. Dit kan 3 tot 4 dagen duren.
 
-Zodra gedaan, alle berichten die op worden ontvangen **[!UICONTROL Reply to (email)]** en **[!UICONTROL Error email]** adressen worden doorgestuurd naar het specifieke e-mailadres dat u hebt opgegeven.
+Zodra u klaar bent, worden alle berichten die op de **[!UICONTROL Reply to (email)]** - en **[!UICONTROL Error email]** -adressen worden ontvangen doorgestuurd naar het specifieke e-mailadres dat u hebt opgegeven.
 
 ## BCC-e-mail {#bcc-email}
 
-U kunt een identieke kopie (of blinde koolstofkopie) van e-mails verzenden die zijn verzonden door [!DNL Journey Optimizer] naar een BCC-postvak waar ze worden opgeslagen voor compatibiliteits- of archiefdoeleinden.
+U kunt een identieke kopie (of blinde koolstofkopie) van e-mails die door [!DNL Journey Optimizer] zijn verzonden naar een BCC-postvak verzenden waar deze worden opgeslagen voor compatibiliteits- of archiefdoeleinden.
 
-Om dit te doen, laat toe **[!UICONTROL BCC email]** optionele functie op het niveau van het kanaaloppervlak. [Meer informatie](../configuration/archiving-support.md#bcc-email)
+Hiervoor schakelt u de optionele functie **[!UICONTROL BCC email]** in op het niveau van de kanaalconfiguratie. [Meer informatie](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
 
-Bovendien, wanneer het bepalen van **[!UICONTROL Bcc email]** adres, zorg ervoor om subdomain te gebruiken die een geldige MX verslagconfiguratie heeft, anders zal de verwerking van de e-mailoppervlakte ontbreken.
+Wanneer u bovendien het **[!UICONTROL Bcc email]** -adres definieert, moet u ervoor zorgen dat u een subdomein gebruikt dat een geldige MX-recordconfiguratie heeft, anders mislukt de verwerking van de e-mailconfiguratie.
 
-Als u een fout bij het voorleggen van de e-mailoppervlakte krijgt, betekent het dat het MX- verslag niet voor subdomain van het adres wordt gevormd u inging. Contacteer uw beheerder voor het vormen van het overeenkomstige MX verslag of gebruik een ander adres met een geldige MX verslagconfiguratie.
+Als u een fout bij het voorleggen van de e-mailconfiguratie krijgt, betekent het dat het MX- verslag niet voor subdomain van het adres wordt gevormd u inging. Contacteer uw beheerder voor het vormen van het overeenkomstige MX verslag of gebruik een ander adres met een geldige MX verslagconfiguratie.
 
 ## Verzenden naar onderdrukt e-mailadressen {#send-to-suppressed-email-addresses}
 
@@ -213,15 +213,15 @@ Als u een fout bij het voorleggen van de e-mailoppervlakte krijgt, betekent het 
 
 >[!IMPORTANT]
 >
->Deze optie is alleen beschikbaar als u **[!UICONTROL Transactional]** e-mailtype. [Meer informatie](#email-type)
+>Deze optie is alleen beschikbaar als u het e-mailtype **[!UICONTROL Transactional]** hebt geselecteerd. [Meer informatie](#email-type)
 
-In [!DNL Journey Optimizer], worden alle e-mailadressen die zijn gemarkeerd als harde stuiteringen, zachte stuiteringen en spamklachten, automatisch verzameld in de [onderdrukkingslijst](../configuration/manage-suppression-list.md) en van een reis of een campagne zijn uitgesloten.
+In [!DNL Journey Optimizer], worden alle e-mailadressen die als harde grenzen, zachte grenzen, en spamklachten duidelijk zijn automatisch verzameld in de [ suppressielijst ](../configuration/manage-suppression-list.md) en uitgesloten van het verzenden in een reis of een campagne.
 
-U kunt echter besluiten door te gaan met het verzenden van berichten van de **transactie** typen naar profielen, zelfs als hun e-mailadressen op de suppressielijst staan vanwege een spamklacht van de gebruiker.
+Nochtans, kunt u besluiten om op het verzenden van berichten van het **transactie** type naar profielen te gaan zelfs als hun e-mailadressen op de suppressielijst toe te schrijven aan spamklacht door de gebruiker zijn.
 
 Transactieberichten bevatten over het algemeen nuttige en verwachte informatie, zoals een orderbevestiging of een wachtwoordherstelmelding. Daarom zelfs als zij één van uw marketing berichten als spam hebben gemeld, het grootste deel van de tijd wilt u uw klanten dit type van niet-commerciële e-mail ontvangen.
 
-Als u e-mailadressen wilt opnemen die zijn onderdrukt als gevolg van een spamklacht in het publiek van het transactiebericht, selecteert u de desbetreffende optie in het menu **[!UICONTROL Send to suppressed email addresses]** sectie.
+Als u e-mailadressen wilt opnemen die zijn onderdrukt als gevolg van een spamklacht in het publiek van het transactiebericht, selecteert u de desbetreffende optie in de sectie **[!UICONTROL Send to suppressed email addresses]** .
 
 ![](assets/preset-suppressed-email-addresses.png)
 
@@ -231,7 +231,7 @@ Als u e-mailadressen wilt opnemen die zijn onderdrukt als gevolg van een spamkla
 
 Deze optie is standaard uitgeschakeld als best practice voor de te leveren items. Zo weet u zeker dat er geen contact wordt opgenomen met uw klanten die ervoor hebben gekozen dit niet te doen. Nochtans, kunt u deze standaardoptie veranderen, die u dan toestaat om transactieberichten naar uw klanten te verzenden.
 
-Zodra deze optie wordt toegelaten, hoewel een klant uw marketing e-mail als spam merkte, zal die klant uw transactiemeldingen kunnen ontvangen gebruikend de huidige oppervlakte. Zorg er altijd voor dat de voorkeuren voor weigeren worden beheerd in overeenstemming met de best practices voor prestaties.
+Zodra deze optie wordt toegelaten, hoewel een klant uw marketing e-mail als spam merkte, zal die klant uw transactiemeldingen kunnen ontvangen gebruikend de huidige configuratie. Zorg er altijd voor dat de voorkeuren voor weigeren worden beheerd in overeenstemming met de best practices voor prestaties.
 
 ## Zaadlijst {#seed-list}
 
@@ -241,13 +241,13 @@ Zodra deze optie wordt toegelaten, hoewel een klant uw marketing e-mail als spam
 >abstract="Selecteer de zaadlijst van uw keus om specifieke interne adressen aan uw publiek automatisch toe te voegen. Deze zaadadressen zullen op de tijd van de leveringsuitvoering worden omvat en zullen een nauwkeurige kopie van het bericht voor betrouwbaarheidsdoeleinden ontvangen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="Wat zijn zaadlijsten?"
 
-Een zaadlijst in [!DNL Journey Optimizer] kunt u automatisch specifieke e-mailadressen toevoegen aan uw leveringen. [Meer informatie](../configuration/seed-lists.md)
+Met een zaadlijst in [!DNL Journey Optimizer] kunt u automatisch specifieke e-mailadressen opnemen in uw leveringen. [Meer informatie](../configuration/seed-lists.md)
 
 >[!CAUTION]
 >
 >Deze functie is momenteel alleen van toepassing op het e-mailkanaal.
 
-Selecteer de lijst die voor u relevant is in het dialoogvenster **[!UICONTROL Seed list]** sectie. Leer hoe u een zaadlijst maakt in [deze sectie](../configuration/seed-lists.md#create-seed-list).
+Selecteer in de sectie **[!UICONTROL Seed list]** de lijst die voor u van belang is. Leer hoe te om een zaadlijst in [ tot stand te brengen deze sectie ](../configuration/seed-lists.md#create-seed-list).
 
 ![](../configuration/assets/seed-list-surface.png)
 
@@ -255,9 +255,9 @@ Selecteer de lijst die voor u relevant is in het dialoogvenster **[!UICONTROL Se
 >
 >Er kan slechts één zaadlijst tegelijk worden geselecteerd.
 
-Wanneer de huidige oppervlakte in een campagne of reis wordt gebruikt, zijn de e-mailadressen op de geselecteerde zaadlijst inbegrepen bij de leveringstijd, die zij een exemplaar van de levering voor verzekeringsdoeleinden zullen ontvangen.
+Wanneer de huidige configuratie in een campagne of reis wordt gebruikt, zijn de e-mailadressen op de geselecteerde zaadlijst inbegrepen in de tijd van de leveringsuitvoering, die zij een exemplaar van de levering voor verzekeringsdoeleinden zullen ontvangen.
 
-Leer hoe u de lijst met voorvertoningen gebruikt in een campagne of een reis in [deze sectie](../configuration/seed-lists.md#use-seed-list).
+Leer hoe te om zaadlijst in een campagne of een reis in [ te gebruiken deze sectie ](../configuration/seed-lists.md#use-seed-list).
 
 ## Parameters opnieuw proberen {#email-retry}
 
@@ -267,11 +267,11 @@ Leer hoe u de lijst met voorvertoningen gebruikt in een campagne of een reis in 
 >abstract="Retries worden 3,5 dagen (84 uur) uitgevoerd wanneer een e-maillevering mislukt als gevolg van een tijdelijke soft bounce-fout. U kunt deze standaardperiode voor opnieuw proberen aanpassen aan uw wensen."
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/retries.html" text="Opnieuw proberen"
 
-U kunt de **Parameters opnieuw proberen**.
+U kunt **e-mail vormen opnieuw probeert parameters**.
 
 ![](assets/preset-retry-parameters.png)
 
-Standaard worden de [periode voor opnieuw uitproberen](../configuration/retries.md#retry-duration) is ingesteld op 84 uur, maar u kunt deze instelling aanpassen aan uw wensen.
+Door gebrek, wordt de [ periode van de opnieuw probeert tijd ](../configuration/retries.md#retry-duration) geplaatst aan 84 uren, maar u kunt dit het plaatsen aanpassen om uw behoeften beter aan te passen.
 
 U moet een geheel-getalwaarde (in uren of notulen) binnen de volgende waaier ingaan:
 
@@ -279,7 +279,7 @@ U moet een geheel-getalwaarde (in uren of notulen) binnen de volgende waaier ing
 * Voor transactie-e-mailberichten is de minimale herroepingstermijn 10 minuten.
 * Voor beide e-mailtypen is de maximale hergebruiksperiode 84 uur (of 5040 minuten).
 
-Meer informatie over nieuwe pogingen in [deze sectie](../configuration/retries.md).
+Leer meer op herpogingen in [ deze sectie ](../configuration/retries.md).
 
 ## URL-tracking {#url-tracking}
 
@@ -293,43 +293,43 @@ Meer informatie over nieuwe pogingen in [deze sectie](../configuration/retries.m
 >title="Voorvertoning van parameters voor URL bijhouden"
 >abstract="Bekijk hoe u parameters voor bijhouden toevoegt aan de URL&#39;s in uw e-mailinhoud."
 
-U kunt **[!UICONTROL URL tracking parameters]** om de doeltreffendheid van uw marketing inspanningen over kanalen te meten. Deze functie is optioneel.
+Met **[!UICONTROL URL tracking parameters]** kunt u de doeltreffendheid van uw marketingactiviteiten op verschillende kanalen meten. Deze functie is optioneel.
 
 De parameters die in deze sectie worden gedefinieerd, worden toegevoegd aan het einde van de URL&#39;s die in de inhoud van uw e-mailbericht zijn opgenomen. Vervolgens kunt u deze parameters vastleggen in hulpprogramma&#39;s voor webanalyse, zoals Adobe Analytics of Googles Analytics, en verschillende prestatierapporten maken.
 
-U kunt maximaal 10 volgparameters toevoegen met de functie **[!UICONTROL Add new parameter]** knop.
+Met de knop **[!UICONTROL Add new parameter]** kunt u maximaal 10 volgparameters toevoegen.
 
 ![](assets/preset-url-tracking.png)
 
-Als u een URL-volgparameter wilt configureren, kunt u rechtstreeks de gewenste waarden invoeren in het dialoogvenster **[!UICONTROL Name]** en **[!UICONTROL Value]** velden.
+Als u een URL-volgparameter wilt configureren, kunt u de gewenste waarden rechtstreeks invoeren in de velden **[!UICONTROL Name]** en **[!UICONTROL Value]** .
 
-U kunt ook elke **[!UICONTROL Value]** veld met de [personalisatie-editor](../personalization/personalization-build-expressions.md). Klik op het pictogram van de editie om de editor te openen. Vervolgens kunt u de beschikbare contextafhankelijke kenmerken selecteren en/of de tekst rechtstreeks bewerken.
+U kunt elk **[!UICONTROL Value]** gebied ook uitgeven gebruikend de [ verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md). Klik op het pictogram van de editie om de editor te openen. Vervolgens kunt u de beschikbare contextafhankelijke kenmerken selecteren en/of de tekst rechtstreeks bewerken.
 
 ![](assets/preset-url-tracking-editor.png)
 
 De volgende vooraf gedefinieerde waarden zijn beschikbaar via de verpersoonlijkingseditor:
 
-* **Id van handeling Bron**: ID van de e-mailactie die aan de reis of campagne is toegevoegd.
+* **handelings identiteitskaart van Source**: identiteitskaart van de E-mailactie die aan de reis of de campagne wordt toegevoegd.
 
-* **Naam van bronhandeling**: naam van de e-mailactie die aan de reis of campagne is toegevoegd.
+* **de actienaam van Source**: naam van de E-mailactie die aan de reis of de campagne wordt toegevoegd.
 
-* **Bron-id**: ID van de reis of campagne waarnaar de e-mail is verzonden.
+* **identiteitskaart van Source**: identiteitskaart van de reis of de campagne e-mail werd verzonden met.
 
-* **Bronnaam**: naam van de reis of campagne waarnaar de e-mail is verzonden.
+* **naam van Source**: naam van de reis of de campagne e-mail werd verzonden met.
 
-* **Id van bronversie**: ID van de reis- of campagneversie waarmee de e-mail is verzonden.
+* **versie identiteitskaart van Source**: identiteitskaart van de reis of campagneversie e-mail werd verzonden met.
 
-* **Offerte-id**: ID van het voorstel dat in de e-mail wordt gebruikt.
+* **identiteitskaart van de Aanbieding**: identiteitskaart van de aanbieding die in e-mail wordt gebruikt.
 
 >[!NOTE]
 >
->U kunt het typen van tekstwaarden en het gebruiken van contextafhankelijke attributen van de verpersoonlijkingsredacteur combineren. Elk **[!UICONTROL Value]** mag een aantal tekens bevatten tot maximaal 5 kB.
+>U kunt het typen van tekstwaarden en het gebruiken van contextafhankelijke attributen van de verpersoonlijkingsredacteur combineren. Elk **[!UICONTROL Value]** -veld kan een aantal tekens tot maximaal 5 kB bevatten.
 
 <!--You can drag and drop the parameters to reorder them.-->
 
 Hieronder staan voorbeelden van URL&#39;s die compatibel zijn met Adobe Analytics en Googles Analytics.
 
-* URL die compatibel is met Adobe Analytics: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
+* Met Adobe Analytics compatibele URL: `www.YourLandingURL.com?cid=email_AJO_{{context.system.source.id}}_image_{{context.system.source.name}}`
 
 * Compatibele URL voor Googles Analytics: `www.YourLandingURL.com?utm_medium=email&utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content=image`
 
@@ -339,4 +339,4 @@ U kunt de resulterende URL voor bijhouden dynamisch voorvertonen. Elke keer dat 
 
 >[!NOTE]
 >
->U kunt ook dynamische parameters voor gepersonaliseerde reeksspatiëring toevoegen aan de koppelingen in uw e-mailinhoud, maar dit is niet mogelijk op oppervlakteneniveau. Dit moet u doen wanneer u uw bericht ontwerpt met de e-mailontwerper. [Meer informatie](message-tracking.md#url-tracking)
+>U kunt ook dynamische parameters voor gepersonaliseerde bijhouden toevoegen aan de koppelingen in uw e-mailinhoud, maar dit is niet mogelijk op configuratieniveau. Dit moet u doen wanneer u uw bericht ontwerpt met de e-mailontwerper. [Meer informatie](message-tracking.md#url-tracking)
