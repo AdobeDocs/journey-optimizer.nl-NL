@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1660'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ Met [!DNL Journey Optimizer] kunt u kanaalconfiguraties instellen (d.w.z. voorin
 > * U moet de [ E-mailconfiguratie ](../email/get-started-email-config.md), [ Push configuratie ](../push/push-configuration.md), [ configuratie van SMS ](../sms/sms-configuration.md), [ in-app configuratie ](../in-app/inapp-configuration.md), [ op code-Gebaseerde configuratie ](../code-based/code-based-configuration.md), [ configuratie van het Web ](../web/web-configuration.md) en [ Directe postconfiguratie ](../direct-mail/direct-mail-configuration.md) stappen alvorens kanaalconfiguraties tot stand te brengen.
 
 Zodra de kanaalconfiguraties zijn gevormd, zult u hen kunnen selecteren wanneer het creëren van berichten van een reis of een campagne.
+
+U kunt de instelling van het geleide kanaal ook gebruiken om kanaalinstallatie in één keer te automatiseren en te valideren, waardoor het proces om aan de slag te gaan met Journey Optimizer sneller verloopt. [Meer informatie](set-mobile-config.md)
 
 <!--
 ➡️ [Learn how to create and use email configurations in this video](#video-presets)

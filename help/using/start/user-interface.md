@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 4%
+source-wordcount: '1215'
+ht-degree: 5%
 
 ---
 
@@ -194,111 +194,3 @@ De taal wijzigen:
 * Selecteer uw aangewezen taal en klik **sparen**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
   ![](assets/select-language.png)
 
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_name"
->title="Naam van mobiele en webconfiguratie"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_add"
->title="Afhankelijkheden toevoegen"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_initialization_code"
->title="Initialisatiecode toevoegen"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_validate_assurance"
->title="Valideren met betrouwbaarheid"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_javascript_code"
->title="Javascript-code"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_javascript_site"
->title="Site starten en valideren"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_token"
->title="De apparaattoken ophalen"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_xcode"
->title="De toepassing starten vanuit Xcode"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_certificate"
->title="Een pushcertificaat opgeven"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_key_id"
->title="Sleutel-id"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_team_id"
->title="Team-id"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_inapp_tag_property"
->title="De eigenschap tag kiezen"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_push_certificate_fcm"
->title="Een pushcertificaat opgeven"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_dependencies_add"
->title="Afhankelijkheden toevoegen"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_import"
->title="Afhankelijkheden importeren"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_dependencies_import"
->title="Afhankelijkheden importeren"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_android_initialization_code"
->title="Initialisatiecode toevoegen"
->abstract="TBC"
-
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_token_android"
->title="De apparaattoken ophalen"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_push_android_studio"
->title="De toepassing starten vanuit Android Studio"
->abstract="TBC"
-
-<!-- priority scores-->
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_priority"
->title="Prioriteit"
->abstract="Wijs een prioriteitsscore toe aan de campagne, variërend van 0 tot 100. Een hoger getal geeft een hogere prioriteit aan. Wanneer twee campagnes hetzelfde oppervlak gebruiken, selecteert Journey Optimizer de campagne met de hoogste prioriteitsscore. Als de campagnes dezelfde score hebben, wordt de campagne gekozen die het laatst is gewijzigd."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_priority"
->title="Prioriteit"
->abstract="Wijs een prioritaire score aan de reis toe, die zich van 0 tot 100 uitstrekken. Een hoger getal geeft een hogere prioriteit aan. Wanneer twee reizen hetzelfde oppervlak gebruiken, kiest Journey Optimizer de reis met de hoogste prioriteitsscore. Als de reizen dezelfde score hebben, wordt gekozen voor de reis die het laatst is gewijzigd."
