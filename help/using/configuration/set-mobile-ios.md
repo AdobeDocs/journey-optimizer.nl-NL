@@ -10,9 +10,9 @@ level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '1004'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Deze iOS-instelling vereenvoudigt de snelle configuratie van marketingkanalen, z
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_initialization_code"
 >title="Initialisatiecode toevoegen"
->abstract="TBC"
+>abstract="Om uw app behoorlijk te initialiseren, neem de verstrekte initialisatiecode in **didFinishLaunchingWithOptions** methode van uw dossier AppDelegate op. Hierdoor wordt ervoor gezorgd dat de toepassing op het juiste moment tijdens het opstartproces van de app wordt uitgevoerd."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_swift_dependencies_import"

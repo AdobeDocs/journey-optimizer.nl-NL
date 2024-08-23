@@ -10,9 +10,9 @@ level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '486'
 ht-degree: 1%
 
 ---
@@ -22,12 +22,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="Javascript-code"
->abstract="TBC"
+>abstract="De tag `<head>` bevat essentiële metagegevens en bronnen die vóór de hoofdinhoud van uw webpagina worden geladen. Door code in deze sectie te plaatsen, zorgt u ervoor dat deze op de juiste manier vroeg wordt geïnitialiseerd en uitgevoerd, zodat uw webpagina efficiënt kan worden geladen en uitgevoerd. Door code toe te voegen aan de sectie `<head>` kunt u de structuur, de prestaties en de algehele gebruikerservaring van uw site verbeteren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_site"
 >title="Site starten en valideren"
->abstract="TBC"
+>abstract="Wanneer de code correct is geïmplementeerd en live is op uw website, geeft u de basis-URL op. Indien nodig kunt u later terugkeren naar deze pagina om opnieuw te valideren en te bevestigen dat de installatie naar behoren functioneert."
 
 Deze instelling vergemakkelijkt de snelle configuratie van marketingkanalen, waarbij alle vereiste middelen binnen Experience Platform, Journey Optimizer en gegevensverzameling gemakkelijk beschikbaar zijn. Hierdoor kan uw marketingteam direct beginnen met campagne en het creëren van reizen.
 

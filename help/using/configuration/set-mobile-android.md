@@ -10,9 +10,9 @@ level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '988'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Deze Android-instelling stroomlijnt de snelle configuratie van marketingkanalen 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_initialization_code"
 >title="Initialisatiecode toevoegen"
->abstract="TBC"
+>abstract="Integreer de initialisatiecode in **onCreate ()** methode van uw toepassing. Deze methode wordt uitgevoerd wanneer de toepassing voor het eerst wordt gemaakt, waarbij ervoor wordt gezorgd dat de code tijdens de eerste instellingsfase wordt uitgevoerd. De correcte plaatsing van de code is hier essentieel om ervoor te zorgen dat de toepassing correct wordt gevormd en geïnitialiseerd alvorens om het even welke verdere verrichtingen worden uitgevoerd."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_android_dependencies_add"
@@ -206,10 +206,12 @@ Nadat u de configuratie hebt gemaakt, kunt u deze op elk gewenst moment eenvoudi
 
 ## In-app-kanaal instellen {#inapp-channel}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_inapp_tag_property"
->title="De eigenschap tag kiezen"
+>title="Choose your tag property"
 >abstract="TBC"
+-->
 
 Voor het kanaal in de app is geen extra installatie vereist. Om te verifiëren dat uw configuratie nauwkeurig is, kunt u gemakkelijk een testbericht verzenden gebruikend de eigenschap van de Verzekering. Hierdoor wordt direct feedback gegeven over de bereidheid van het systeem om effectief in-app berichten te leveren.
 
@@ -229,7 +231,7 @@ U kunt nu in-app berichten verzenden met de eerder geconfigureerde **[!UICONTROL
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_xcode"
 >title="De toepassing starten vanuit Xcode"
->abstract="TBC"
+>abstract="Start eerst de toepassing met Xcode om uw pushtoken te verkrijgen. Nadat de toepassing is gestart, start u deze opnieuw om te controleren of het validatieproces is voltooid. De Adobe zal dan uw duptoken als deel van de bevestigingsresultaten verstrekken. Dit token is essentieel voor het inschakelen van pushmeldingen en wordt weergegeven zodra de installatie is gevalideerd."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_push_certificate_fcm"
