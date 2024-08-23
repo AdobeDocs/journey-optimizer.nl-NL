@@ -26,37 +26,37 @@ Een aanbieding kan op verschillende plaatsen in een bericht worden weergegeven: 
 
 Volg onderstaande stappen om een of meerdere vertegenwoordigingen aan uw aanbieding toe te voegen en deze te configureren.
 
-1. Voor de eerste weergave selecteert u eerst de optie **[!UICONTROL Channel]** dat zal worden gebruikt.
+1. Voor de eerste representatie selecteert u eerst de **[!UICONTROL Channel]** die u wilt gebruiken.
 
    ![](../assets/channel-placement.png)
 
    >[!NOTE]
    >
-   >Alleen de beschikbare plaatsen voor het geselecteerde kanaal worden weergegeven in het dialoogvenster **[!UICONTROL Placement]** vervolgkeuzelijst.
+   >Alleen de beschikbare plaatsen voor het geselecteerde kanaal worden weergegeven in de vervolgkeuzelijst **[!UICONTROL Placement]** .
 
 1. Selecteer een plaatsing in de lijst.
 
-   U kunt ook de knop naast de **[!UICONTROL Placement]** vervolgkeuzelijst om door alle plaatsen te bladeren.
+   U kunt ook de knop naast de vervolgkeuzelijst **[!UICONTROL Placement]** gebruiken om door alle plaatsen te bladeren.
 
    ![](../assets/browse-button-placements.png)
 
-   Daar kunt u de plaatsingen volgens hun kanaal en/of inhoudstype nog filtreren. Kies een plaatsing en klik op **[!UICONTROL Select]**.
+   Daar kunt u de plaatsingen volgens hun kanaal en/of inhoudstype nog filtreren. Kies een plaatsing en klik op **[!UICONTROL Select]** .
 
    ![](../assets/browse-placements.png)
 
-1. Voeg inhoud toe aan uw representatie. Meer informatie over [deze sectie](#content).
+1. Voeg inhoud toe aan uw representatie. Leer hoe in [ deze sectie ](#content).
 
-1. Wanneer u inhoud zoals een afbeelding of URL toevoegt, kunt u een **[!UICONTROL Destination link]**: de gebruikers die op de aanbieding klikken, worden naar de bijbehorende pagina geleid.
+1. Wanneer u inhoud zoals een afbeelding of URL toevoegt, kunt u een **[!UICONTROL Destination link]** opgeven: de gebruikers die op de aanbieding klikken, worden naar de bijbehorende pagina geleid.
 
    ![](../assets/offer-destination-link.png)
 
 1. Tot slot selecteer de taal van uw keus helpen identificeren en beheren wat aan vertoning aan de gebruikers te beheren.
 
-1. Als u een andere representatie wilt toevoegen, gebruikt u de optie **[!UICONTROL Add representation]** en voeg zo veel vertegenwoordigingen toe als nodig is.
+1. Als u een andere representatie wilt toevoegen, gebruikt u de knop **[!UICONTROL Add representation]** en voegt u zoveel representaties toe als u nodig hebt.
 
    ![](../assets/offer-add-representation.png)
 
-1. Nadat u al uw representaties hebt toegevoegd, selecteert u **[!UICONTROL Next]**.
+1. Nadat u al uw representaties hebt toegevoegd, selecteert u **[!UICONTROL Next]** .
 
 ## Inhoud definiëren voor uw weergaven {#content}
 
@@ -68,55 +68,55 @@ U kunt verschillende typen inhoud aan een representatie toevoegen.
 
 ### Afbeeldingen toevoegen {#images}
 
-Als de geselecteerde plaatsing van het afbeeldingstype is, kunt u inhoud toevoegen die afkomstig is van het **Adobe Experience Cloud Asset** bibliotheek, een gecentraliseerde opslagplaats voor door [!DNL Adobe Experience Manager Assets].
+Als de geselecteerde plaatsing beeld-type is, kunt u inhoud toevoegen die uit de **bibliotheek komt van de Activa van Adobe Experience Cloud**, een gecentraliseerde bewaarplaats van activa die door [!DNL Adobe Experience Manager Assets] worden verstrekt.
 
 >[!NOTE]
 >
-> Werken met [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, moet u [!DNL Assets Essentials] voor uw organisatie en zorg ervoor dat de gebruikers een deel van zijn **Assets Essentials Consumentengebruikers** of/en **Gebruikers Assets Essentials** Productprofielen. Meer informatie over [deze pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
+> Om met [ Adobe Experience Manager Assets Essentials ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html) {target="_blank"} te werken, moet u [!DNL Assets Essentials] voor uw organisatie opstellen en ervoor zorgen dat de gebruikers een deel van de **Gebruikers van de Assets Essentials Consumenten** of **Assets Essentials** profielen van het Product zijn. Leer meer op [ deze pagina ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html) {target="_blank"}.
 
-1. Kies de optie **[!UICONTROL Asset library]** -optie.
+1. Kies de optie **[!UICONTROL Asset library]**.
 
-1. Selecteren **[!UICONTROL Browse]**.
+1. Selecteer **[!UICONTROL Browse]**.
 
    ![](../assets/offer-browse-asset-library.png)
 
 1. Blader door de elementen om de gewenste afbeelding te selecteren
 
-1. Klikken **[!UICONTROL Select]**.
+1. Klik op **[!UICONTROL Select]**.
 
    ![](../assets/offer-select-asset.png)
 
 ### HTML- of JSON-bestanden toevoegen {#html-json}
 
-Als de geselecteerde plaatsing van het type HTML is, kunt u ook HTML- of JSON-inhoud toevoegen die afkomstig is van de [Adobe Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}).
+Als de geselecteerde plaatsing HTML-type is, kunt u HTML of inhoud ook toevoegen JSON die uit de [ bibliotheek van de Activa van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html) {target="_blank"} komt.
 
-U hebt bijvoorbeeld een e-mailsjabloon voor HTML gemaakt in [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} en u wilt dat bestand gebruiken voor de inhoud van uw voorstel. In plaats van een nieuw bestand te maken, kunt u de sjabloon gewoon uploaden naar de **Elementenbibliotheek** om het in de vertegenwoordigingen van je voorstel opnieuw te kunnen gebruiken.
+Bijvoorbeeld, creeerde u een HTML e-mailmalplaatje in [ Adobe Experience Manager ](https://experienceleague.adobe.com/docs/experience-manager.html) {target="_blank"} en u wilt dat dossier voor uw aanbiedingsinhoud gebruiken. In plaats van het creëren van een nieuw dossier, kunt u het malplaatje in de **Bibliotheek van Activa** eenvoudig uploaden om het in de vertegenwoordiging van uw aanbieding te kunnen opnieuw gebruiken.
 
-Als u de inhoud opnieuw wilt gebruiken in een weergave, bladert u naar de **Elementenbibliotheek** zoals beschreven in [deze sectie](#images) en selecteer het gewenste HTML- of JSON-bestand.
+Om uw inhoud in een vertegenwoordiging opnieuw te gebruiken, doorblader de **Bibliotheek van Activa** zoals die in [ wordt beschreven deze sectie ](#images) en selecteer het HTML of JSON dossier van uw keus.
 
 ![](../assets/offer-browse-asset-library-json.png)
 
 ### URL&#39;s toevoegen {#urls}
 
-Als u inhoud van een externe openbare locatie wilt toevoegen, selecteert u **[!UICONTROL URL]** Voer vervolgens het URL-adres in van de inhoud die u wilt toevoegen.
+Als u inhoud wilt toevoegen vanaf een externe openbare locatie, selecteert u **[!UICONTROL URL]** en voert u het URL-adres in van de inhoud die u wilt toevoegen.
 
-U kunt URLs personaliseren gebruikend de verpersoonlijkingsredacteur. Meer informatie over [personalisatie](../../personalization/personalize.md#use-expression-editor).
+U kunt URLs personaliseren gebruikend de verpersoonlijkingsredacteur. Leer meer op [ verpersoonlijking ](../../personalization/personalize.md#use-expression-editor).
 
 ![](../assets/offer-content-url.png)
 
 U wilt bijvoorbeeld de afbeelding aanpassen die als een aanbieding wordt weergegeven. Je wilt dat gebruikers die de voorkeur geven aan vakanties in de stad de skyline NYC zien en gebruikers die de voorkeur geven aan strandvakanties om de noordkust van Hawaii te zien.
 
-Gebruik de verpersoonlijkingsredacteur om de attributen van het Profiel terug te winnen die in Adobe Experience Platform worden opgeslagen gebruikend verenigingsschema&#39;s. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"}
+Gebruik de verpersoonlijkingsredacteur om de attributen van het Profiel terug te winnen die in Adobe Experience Platform worden opgeslagen gebruikend verenigingsschema&#39;s. [ leer meer ](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html) {target="_blank"}
 
 ![](../assets/offer-content-url-personalization.png)
 
-Als u een **[!UICONTROL Destination link]** kunt u ook de URL aanpassen waarnaar de gebruikers die op de aanbieding klikken, worden geleid.
+Als u een **[!UICONTROL Destination link]** opgeeft, kunt u ook de URL aanpassen waarnaar de gebruikers die op de aanbieding klikken, worden geleid.
 
 ### Aangepaste tekst toevoegen {#custom-text}
 
 U kunt ook teksttype-inhoud invoegen wanneer u een compatibele plaatsing selecteert.
 
-1. Selecteer de **[!UICONTROL Custom]** en klik op **[!UICONTROL Add content]**.
+1. Selecteer de optie **[!UICONTROL Custom]** en klik op **[!UICONTROL Add content]** .
 
    ![](../assets/offer-add-content.png)
 
@@ -128,19 +128,19 @@ U kunt ook teksttype-inhoud invoegen wanneer u een compatibele plaatsing selecte
 
    ![](../assets/offer-text-content.png)
 
-   U kunt uw inhoud personaliseren gebruikend de verpersoonlijkingsredacteur. Meer informatie over [personalisatie](../../personalization/personalize.md#use-expression-editor).
+   U kunt uw inhoud personaliseren gebruikend de verpersoonlijkingsredacteur. Leer meer op [ verpersoonlijking ](../../personalization/personalize.md#use-expression-editor).
 
    ![](../assets/offer-personalization.png)
 
    >[!NOTE]
    >
-   >Alleen de **[!UICONTROL Profile attributes]**, **[!UICONTROL Audiences]** en **[!UICONTROL Helper functions]** bronnen beschikbaar zijn voor het beheer van besluiten.
+   >Alleen de bronnen **[!UICONTROL Profile attributes]** , **[!UICONTROL Audiences]** en **[!UICONTROL Helper functions]** zijn beschikbaar voor Beslissingsbeheer.
 
 ## Afbeeldingen personaliseren op basis van contextgegevens{#context-data}
 
-Wanneer contextgegevens worden doorgegeven in het dialoogvenster [Randbeslissingen](../api-reference/offer-delivery-api/edge-decisioning-api.md) U kunt deze gegevens gebruiken om weergaven dynamisch te personaliseren. U kunt bijvoorbeeld de weergave van een aanbieding afstemmen op basis van real-time factoren, zoals de huidige weersomstandigheden op het moment dat de beslissing wordt genomen.
+Wanneer de contextgegevens in de [ Edge beslissings ](../api-reference/offer-delivery-api/edge-decisioning-api.md) vraag worden overgegaan, kunt u hefboomwerking deze gegevens om vertegenwoordiging dynamisch te personaliseren. U kunt bijvoorbeeld de weergave van een aanbieding afstemmen op basis van real-time factoren, zoals de huidige weersomstandigheden op het moment dat de beslissing wordt genomen.
 
-Hiervoor neemt u de variabele met contextgegevens rechtstreeks op in de representatie-inhoud met behulp van de `profile.timeSeriesEvents.` naamruimte.
+Hiervoor neemt u de variabele met contextgegevens rechtstreeks op in de representatie-inhoud met behulp van de naamruimte `profile.timeSeriesEvents.` .
 
 Hier volgt een syntaxisvoorbeeld dat wordt gebruikt om de representatie van een aanbieding aan te passen op basis van de besturingssystemen van de gebruikers:
 

@@ -37,11 +37,11 @@ ht-degree: 0%
 
 Met beperkingen kunt u de voorwaarden definiëren waaronder een aanbieding wordt weergegeven.
 
-1. Vorm **[!UICONTROL Offer eligibility]**. [Meer informatie](#eligibility)
+1. Configureer de **[!UICONTROL Offer eligibility]** . [Meer informatie](#eligibility)
 
    ![](../assets/offer-eligibility.png)
 
-1. Definieer de **[!UICONTROL Priority]** van de aanbieding in vergelijking met andere aanbiedingen indien de gebruiker voor meer dan één aanbieding in aanmerking komt. Hoe hoger de prioriteit van een aanbieding is, hoe hoger de prioriteit ervan wordt vergeleken met andere aanbiedingen.
+1. Definieer de **[!UICONTROL Priority]** van de aanbieding in vergelijking met andere als de gebruiker voor meer dan één aanbieding in aanmerking komt. Hoe hoger de prioriteit van een aanbieding is, hoe hoger de prioriteit ervan wordt vergeleken met andere aanbiedingen.
 
    ![](../assets/offer-priority.png)
 
@@ -49,11 +49,11 @@ Met beperkingen kunt u de voorwaarden definiëren waaronder een aanbieding wordt
    >
    >De aanbiedingsprioriteit moet een geheel-getalwaarde zijn (geen decimalen).
 
-1. Geef de aanbiedingen op **[!UICONTROL Capping]**, wat het aantal keren betekent dat het aanbod zal worden ingediend. [Meer informatie](#capping)
+1. Geef de **[!UICONTROL Capping]** van de aanbieding op. Dit houdt in hoe vaak de aanbieding wordt weergegeven. [Meer informatie](#capping)
 
    ![](../assets/offer-capping.png)
 
-1. Klikken **[!UICONTROL Next]** om alle beperkingen te bevestigen u bepaalde.
+1. Klik op **[!UICONTROL Next]** om alle beperkingen te bevestigen die u hebt gedefinieerd.
 
 Als u bijvoorbeeld de volgende beperkingen instelt:
 
@@ -74,38 +74,38 @@ Als u bijvoorbeeld de volgende beperkingen instelt:
 >id="od_offer_eligibility"
 >title="Geschiktheid voor aanbieding"
 >abstract="In deze sectie kunt u besluitvormingsregels gebruiken om te bepalen welke gebruikers in aanmerking komen voor de aanbieding."
->additional-url="https://video.tv.adobe.com/v/329373" text="Video over demo bekijken"
+>additional-url="https://video.tv.adobe.com/v/329373" text="Demovideo bekijken"
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
 >title="Totale profielschatting"
 >abstract="Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien."
 
-De **[!UICONTROL Offer eligibility]** kunt u het aanbod beperken tot specifieke profielen die u definieert met behulp van publiek- of beslissingsregels.
+In de sectie **[!UICONTROL Offer eligibility]** kunt u het aanbod beperken tot specifieke profielen die u definieert aan de hand van doelgroepen of beslissingsregels.
 
 >[!NOTE]
 >
->Meer informatie over het gebruik van **publiek** versus **beslissingsregels** in [deze sectie](#segments-vs-decision-rules).
+>Leer meer bij het gebruiken van **publiek** tegenover **besluitvormingsregels** in [ deze sectie ](#segments-vs-decision-rules).
 
-* Standaard worden de **[!UICONTROL All visitors]** geselecteerd is, wat betekent dat elk profiel in aanmerking komt voor de presentatie van de aanbieding.
+* Standaard is de optie **[!UICONTROL All visitors]** geselecteerd. Dit houdt in dat elk profiel in aanmerking komt voor presentatie van de aanbieding.
 
   ![](../assets/offer-eligibility-default.png)
 
-* U kunt ook de presentatie van het voorstel beperken tot de leden van een of meerdere [Adobe Experience Platform-publiek](../../audience/about-audiences.md).
+* U kunt de presentatie van de aanbieding aan de leden van één of verscheidene [ publiek van Adobe Experience Platform ](../../audience/about-audiences.md) ook beperken.
 
-  Activeer de **[!UICONTROL Visitors who fall into one or multiple audiences]** voegt u vervolgens een of meer soorten publiek toe vanuit het linkervenster en combineert u deze via het **[!UICONTROL And]** / **[!UICONTROL Or]** logische operatoren.
+  Hiervoor activeert u de optie **[!UICONTROL Visitors who fall into one or multiple audiences]** en voegt u een of meer soorten publiek toe vanuit het linkervenster en combineert u deze met de logische operatoren **[!UICONTROL And]** / **[!UICONTROL Or]** .
 
   ![](../assets/offer-eligibility-segment.png)
 
-* Als u een specifieke koppeling wilt maken [beslissingsregel](../offer-library/creating-decision-rules.md) aan de aanbieding, selecteer **[!UICONTROL By defined decision rule]** en sleep de gewenste lijn van het linkerdeelvenster naar het deelvenster **[!UICONTROL Decision rule]** gebied.
+* Als u een specifieke [ besluitvormingsregel ](../offer-library/creating-decision-rules.md) aan de aanbieding wilt associëren, selecteer **[!UICONTROL By defined decision rule]**, dan sleep de gewenste regel van de linkerruit in het **[!UICONTROL Decision rule]** gebied.
 
   ![](../assets/offer-rule.png)
 
   >[!CAUTION]
   >
-  >Aanbiedingen op basis van gebeurtenissen worden momenteel niet ondersteund in [!DNL Journey Optimizer]. Als u een beslissingsregel maakt op basis van een [event](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, je kunt dit object niet gebruiken in een voorstel.
+  >Aanbiedingen op basis van gebeurtenissen worden momenteel niet ondersteund in [!DNL Journey Optimizer] . Als u een besluitvormingsregel creeert die op een [ wordt gebaseerd gebeurtenis ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events) {target="_blank"}, zult u niet het in een aanbieding kunnen hefboomwerking geven.
 
-Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien. Klikken **[!UICONTROL Refresh]** gegevens bijwerken.
+Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de geschatte gekwalificeerde profielen zien. Klik op **[!UICONTROL Refresh]** om gegevens bij te werken.
 
 ![](../assets/offer-eligibility-segment-estimate.png)
 
@@ -115,21 +115,21 @@ Wanneer u publiek of beslissingsregels selecteert, kunt u informatie over de ges
 
 ### Het gebruiken van publiek versus besluitvormingsregels {#segments-vs-decision-rules}
 
-Als u een beperking wilt toepassen, kunt u de selectie van aanbiedingen beperken tot de leden van een of meerdere **Adobe Experience Platform-publiek** of u kunt een **beslissingsregel**, beide oplossingen die overeenkomen met verschillende toepassingen.
+Om een beperking toe te passen, kunt u de selectie van aanbiedingen aan de leden van één of verscheidene **publiek van Adobe Experience Platform** beperken, of u kunt a **besluitvormingsregel** gebruiken, beide oplossingen die aan verschillende toepassingen beantwoorden.
 
 In feite is de uitvoer van een publiek een lijst met profielen, terwijl een beslissingsregel een functie is die op aanvraag tegen één profiel wordt uitgevoerd tijdens het besluitvormingsproces. Het verschil tussen deze twee toepassingen wordt hieronder nader toegelicht.
 
-* **Soorten publiek**
+* **Doelgroepen**
 
   Enerzijds is het publiek een groep Adobe Experience Platform-profielen die overeenkomen met een bepaalde logica op basis van profielkenmerken en gebeurtenissen beleven. Aanbiedingsbeheer berekent het publiek echter niet opnieuw, wat mogelijk niet up-to-date is wanneer het voorstel wordt gepresenteerd.
 
-  Meer informatie over publiek in [deze sectie](../../audience/about-audiences.md).
+  Leer meer op publiek in [ deze sectie ](../../audience/about-audiences.md).
 
-* **Besluitvormingsregels**
+* **de regels van het Besluit**
 
   Anderzijds is een beslissingsregel gebaseerd op in Adobe Experience Platform beschikbare gegevens en bepaalt aan wie een aanbieding kan worden getoond. Zodra geselecteerd in een aanbieding of een besluit voor een bepaalde plaatsing, wordt de regel uitgevoerd telkens als een besluit wordt genomen, die ervoor zorgt dat elk profiel de recentste en beste aanbieding krijgt.
 
-  Meer informatie over beslissingsregels vindt u in [deze sectie](creating-decision-rules.md).
+  Leer meer op besluitvormingsregels in [ deze sectie ](creating-decision-rules.md).
 
 ## Afbeelding {#capping}
 
@@ -146,21 +146,21 @@ In feite is de uitvoer van een publiek een lijst met profielen, terwijl een besl
 
 Afkappen wordt gebruikt als beperking om het maximumaantal keren te bepalen dat een aanbieding kan worden voorgesteld. Door het aantal keren dat gebruikers specifieke aanbiedingen krijgen te beperken, kunt u voorkomen dat uw klanten te veel vragen en zo elk aanraakpunt optimaliseren met de beste aanbieding.
 
-Voor een aanbieding kunt u maximaal 10 regels voor aftopping toevoegen. Klik op de knop **[!UICONTROL Create capping]** dan volgt u de onderstaande stappen:
+Voor een aanbieding kunt u maximaal 10 regels voor aftopping toevoegen. Klik op de knop **[!UICONTROL Create capping]** en voer de onderstaande stappen uit om een toewijzingsregel in te stellen:
 
 >[!CAUTION]
 >
 >Het is niet mogelijk om frequentie het in- en uitschakelen voor eerder gemaakte aanbiedingen in of uit te schakelen. Hiervoor moet u een nieuw voorstel maken.
 
-1. Definiëren welke **[!UICONTROL Capping event]** zal in aanmerking worden genomen om de teller te verhogen. [Meer informatie](#capping-event)
+1. Definieer met welke **[!UICONTROL Capping event]** rekening wordt gehouden om de teller te verhogen. [Meer informatie](#capping-event)
 
 1. Kies deze optie als u de afbeelding op alle gebruikers of slechts op één profiel wilt toepassen. [Meer informatie](#capping-type)
 
 1. Stel het aantal keren in dat de aanbieding kan worden weergegeven. [Meer informatie](#capping-count)
 
-1. Stel de **[!UICONTROL Frequency]** om te bepalen hoe vaak de aftaptelling wordt teruggesteld. [Meer informatie](#frequency-capping)
+1. Stel de **[!UICONTROL Frequency]** in om te bepalen hoe vaak het aantal bijschriften wordt teruggezet. [Meer informatie](#frequency-capping)
 
-1. Als u meerdere [representaties](add-representations.md) voor je voorstel, geef aan of je de aftopping wilt toepassen **op alle plaatsen** of **naar elke plaatsing**. [Meer informatie](#placements)
+1. Als u verscheidene [ vertegenwoordiging ](add-representations.md) voor uw aanbieding hebt bepaald, specificeer of u het in kaart brengen **over alle plaatsen** of **op elke plaatsing** wilt toepassen. [Meer informatie](#placements)
 
 1. Als de aanbieding eenmaal is opgeslagen en goedgekeurd en deze het aantal keren heeft weergegeven dat u in dit veld hebt opgegeven op basis van de criteria en het tijdpad dat u hebt gedefinieerd, wordt de levering gestopt.
 
@@ -170,7 +170,7 @@ Het aantal keren dat een aanbieding wordt voorgesteld, wordt berekend tijdens de
 
 >[!NOTE]
 >
->Afdekkingstellers worden opnieuw ingesteld wanneer de aanbieding vervalt of twee jaar na de startdatum van de aanbieding, afhankelijk van welke datum het eerst valt. Meer informatie over het definiëren van de datum van een aanbieding in [deze sectie](creating-personalized-offers.md#create-offer).
+>Afdekkingstellers worden opnieuw ingesteld wanneer de aanbieding vervalt of twee jaar na de startdatum van de aanbieding, afhankelijk van welke datum het eerst valt. Leer hoe te om de datum van een aanbieding in [ te bepalen deze sectie ](creating-personalized-offers.md#create-offer).
 
 ### gebeurtenis Capping {#capping-event}
 
@@ -179,33 +179,33 @@ Het aantal keren dat een aanbieding wordt voorgesteld, wordt berekend tijdens de
 >title="Impressie"
 >abstract="Het gebruik van indrukkingen als afdekkende gebeurtenissen is alleen beschikbaar voor binnenkomende kanalen."
 
-De **[!UICONTROL Choose capping event]** in het veld kunt u definiëren met welke gebeurtenis rekening wordt gehouden om de teller te verhogen:
+In het veld **[!UICONTROL Choose capping event]** kunt u definiëren met welke gebeurtenis rekening wordt gehouden om de teller te verhogen:
 
 ![](../assets/offer-capping-event.png)
 
-* **[!UICONTROL Decision event]** (standaardwaarde): een aanbieding kan maximaal worden weergegeven.
-* **[!UICONTROL Clicks]**: Maximumaantal keren dat een gebruiker op de aanbieding kan klikken.
-* **[!UICONTROL Impression]**: Maximumaantal keren dat de aanbieding aan een gebruiker kan worden weergegeven.
+* **[!UICONTROL Decision event]** (standaardwaarde): het maximale aantal keer dat een aanbieding kan worden gepresenteerd.
+* **[!UICONTROL Clicks]**: een gebruiker kan maximaal aantal keer op de aanbieding klikken.
+* **[!UICONTROL Impression]**: Het maximale aantal keer dat de aanbieding aan een gebruiker kan worden weergegeven.
 
   >[!NOTE]
   >
-  >Het gebruik van indrukkingen als afdekkende gebeurtenissen is beschikbaar voor **binnenkomende kanalen** alleen.
+  >Het gebruik van indrukkingen als het begrenzen van gebeurtenissen is beschikbaar voor **binnenkomende kanalen** slechts.
 
-* **[!UICONTROL Custom event]**: U kunt een aangepaste gebeurtenis definiëren die wordt gebruikt om het aantal verzonden aanbiedingen te beperken. U kunt bijvoorbeeld het aantal aflossingen beperken tot ze gelijk zijn aan 10000 of tot een bepaald profiel één keer is afgelost. Gebruik hiervoor [Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl){target="_blank"} schema&#39;s om een regel van de douanegebeurtenis te bouwen.
+* **[!UICONTROL Custom event]**: U kunt een aangepaste gebeurtenis definiëren die wordt gebruikt om het aantal verzonden aanbiedingen te beperken. U kunt bijvoorbeeld het aantal aflossingen beperken tot ze gelijk zijn aan 10000 of tot een bepaald profiel één keer is afgelost. Om dit te doen, gebruik [ Adobe Experience Platform XDM ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl) {target="_blank"} schema&#39;s om een regel van de douanegebeurtenis te bouwen.
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10000. You can only select XDM ExperienceEvents. -->
 
   In het onderstaande voorbeeld wilt u het aantal kassa&#39;s beperken.
 
-   1. Selecteren **[!UICONTROL Custom event]** in de lijst en **[!UICONTROL Add custom event]** knop.
+   1. Selecteer **[!UICONTROL Custom event]** in de lijst en gebruik de knop **[!UICONTROL Add custom event]** .
 
-   1. Gebruik de **[!UICONTROL Create custom event rules]** bouwer om de relevante gebeurtenis te selecteren. U kunt elke actie van de gebruiker kiezen waarop u de aanbiedingen wilt uitlijnen.
+   1. Gebruik de builder van **[!UICONTROL Create custom event rules]** om de relevante gebeurtenis te selecteren. U kunt elke actie van de gebruiker kiezen waarop u de aanbiedingen wilt uitlijnen.
 
-      Kies hier **[!UICONTROL Commerce]** > **[!UICONTROL Checkouts]** > **[!UICONTROL Value]** en selecteert u **[!UICONTROL exists]** in de vervolgkeuzelijst.
+      Kies **[!UICONTROL Commerce]** > **[!UICONTROL Checkouts]** > **[!UICONTROL Value]** en selecteer **[!UICONTROL exists]** in de vervolgkeuzelijst.
 
       ![](../assets/offer-capping-custom-event.png)
 
-   1. Zodra de regel wordt gecreeerd, toont het in **[!UICONTROL Custom event query]** veld.
+   1. Nadat de regel is gemaakt, wordt deze weergegeven in het veld **[!UICONTROL Custom event query]** .
 
       ![](../assets/offer-capping-custom-event-query.png)
 
@@ -221,17 +221,17 @@ U kunt opgeven of u de aftopping wilt toepassen op alle gebruikers of op één s
 
 ![](../assets/offer-capping-total.png)
 
-* Selecteren **[!UICONTROL In total]** om te bepalen hoe vaak een aanbieding over het gecombineerde doelpubliek kan worden voorgesteld, betekenend over alle gebruikers.
+* Selecteer **[!UICONTROL In total]** om te bepalen hoe vaak een aanbieding over het gecombineerde doelpubliek kan worden voorgesteld, betekenend over alle gebruikers.
 
   Als u bijvoorbeeld een elektronicawinkel bent met een &#39;tv-huis-deal&#39;, wilt u dat het aanbod slechts 200 keer wordt geretourneerd voor alle profielen.
 
-* Selecteren **[!UICONTROL Per profile]** om te bepalen hoe vaak een aanbieding aan dezelfde gebruiker kan worden voorgesteld.
+* Selecteer **[!UICONTROL Per profile]** om te bepalen hoe vaak een aanbieding aan de zelfde gebruiker kan worden voorgesteld.
 
   Als je bijvoorbeeld een bank bent met een &#39;Platinum credit card&#39;-aanbieding, wil je niet dat dit voorstel meer dan vijf keer per profiel wordt weergegeven. U bent namelijk van mening dat als de gebruiker het aanbod vijf keer heeft gezien en er niet op heeft gereageerd, hij een grotere kans heeft om op het volgende beste aanbod in te gaan.
 
 ### Afdektelling {#capping-count}
 
-De **[!UICONTROL Capping count limit]** kunt u het aantal keren opgeven dat de aanbieding kan worden weergegeven.
+In het veld **[!UICONTROL Capping count limit]** kunt u opgeven hoe vaak de aanbieding kan worden weergegeven.
 
 ![](../assets/offer-capping-times.png)
 
@@ -239,7 +239,7 @@ De **[!UICONTROL Capping count limit]** kunt u het aantal keren opgeven dat de a
 >
 >Het getal moet een geheel getal groter dan 0 zijn.
 
-U hebt bijvoorbeeld een aangepaste gebeurtenis voor het toewijzen van plafonds gedefinieerd, waarmee rekening wordt gehouden, zoals het aantal uitcheckgebeurtenissen. Als u 10 in **[!UICONTROL Capping count limit]** , worden na 10 afboekingen geen voorstellen meer verzonden.
+U hebt bijvoorbeeld een aangepaste gebeurtenis voor het toewijzen van plafonds gedefinieerd, waarmee rekening wordt gehouden, zoals het aantal uitcheckgebeurtenissen. Als u 10 invoert in het veld **[!UICONTROL Capping count limit]** , worden er na 10 controles geen voorstellen meer verzonden.
 
 ### Frequentiecorrectie {#frequency-capping}
 
@@ -248,26 +248,26 @@ U hebt bijvoorbeeld een aangepaste gebeurtenis voor het toewijzen van plafonds g
 >title="De frequentie voor uitlijnen instellen"
 >abstract="U kunt ervoor kiezen om de teller van de aanbiedingstafbeelding dagelijks, wekelijks of maandelijks opnieuw in te stellen. Nadat u de aanbieding hebt gepubliceerd met de functie voor het toewijzen van frequenties ingeschakeld, kunt u de gedefinieerde frequentie niet meer wijzigen."
 
-De **[!UICONTROL Reset capping frequency]** in het veld kunt u bepalen hoe vaak het aantal bijschriften wordt hersteld. Hiertoe definieert u de tijdsperiode voor het tellen (dagelijks, wekelijks of maandelijks) en voert u het aantal dagen/weken/maanden van uw keuze in. Als u bijvoorbeeld wilt dat het aantal bijschriften elke twee weken opnieuw wordt ingesteld, selecteert u **[!UICONTROL Weekly]** uit de bijbehorende vervolgkeuzelijst en type **2** in het andere veld.
+In het veld **[!UICONTROL Reset capping frequency]** kunt u bepalen hoe vaak het aantal bijschriften wordt hersteld. Hiertoe definieert u de tijdsperiode voor het tellen (dagelijks, wekelijks of maandelijks) en voert u het aantal dagen/weken/maanden van uw keuze in. Bijvoorbeeld, als u de het in kaart brengen telling om de twee weken wilt terugstellen, selecteer **[!UICONTROL Weekly]** van de overeenkomstige drop-down lijst en type **2** op het andere gebied.
 
 ![](../assets/offer-capping-frequency.png)
 
 >[!NOTE]
 >
->De teller voor het aftappen van de frequentie wordt opnieuw ingesteld bij **12 uur UTC**, op de door u bepaalde dag of op de eerste dag van de week/maand, indien van toepassing. De startdag van de week is **zondag**. De duur die u kiest, mag niet langer zijn dan **2 jaar** (d.w.z. het overeenkomstige aantal maanden, weken of dagen).
+>De frequentie die teletstelletterugstellen gebeurt bij **12am UTC**, op de dag dat u of op de eerste dag van de week/maand bepaalde waar toepasselijk. De dag van het wekbegin is **Zondag**. Om het even welke duur u kiest kan **2 jaar** (d.w.z. het overeenkomstige aantal maanden, weken of dagen) niet overschrijden.
 >
->Na publicatie van uw voorstel kunt u de tijdsperiode (maandelijks, wekelijks of dagelijks) die u voor de frequentie hebt geselecteerd, niet meer wijzigen. U kunt de frequentietoewijzing nog steeds bewerken als de aanbieding de **[!UICONTROL Draft]** status en nooit eerder gepubliceerd met ingeschakelde frequentiecapping.
+>Na publicatie van uw voorstel kunt u de tijdsperiode (maandelijks, wekelijks of dagelijks) die u voor de frequentie hebt geselecteerd, niet meer wijzigen. U kunt de frequentietoewijzing nog steeds bewerken als de aanbieding de **[!UICONTROL Draft]** -status heeft en nog nooit eerder is gepubliceerd met de functie voor frequentietoewijzing ingeschakeld.
 
-+++ **Moet worden gelezen: Frequency capapping en Edge Decisioning API**
++++ **moet-lezen: Het in kaart brengen van de frequentie &amp; Edge beslist API**
 
-De teller van de frequentiecapping wordt bijgewerkt en beschikbaar in een besluit van de Beslissing API van de Rand in minder dan 3 seconden.
+De telfunctie voor frequentiecappelen wordt binnen 3 seconden bijgewerkt en beschikbaar in een Edge-beslissing voor beslissings-API.
 
-Elk hubgebied wordt geassocieerd met één of meerdere randgebieden. Regels voor frequentiecontrole worden gegenereerd en geëxporteerd van elk hubgebied naar de bijbehorende randgebieden. Wanneer een beslissing wordt genomen met de Edge Decisioning API, dwingt het systeem de regels af die beschikbaar zijn in hetzelfde Edge-gebied:
+Elk hubgebied wordt geassocieerd met één of meerdere randgebieden. Regels voor frequentiecontrole worden gegenereerd en geëxporteerd van elk hubgebied naar de bijbehorende randgebieden. Telkens wanneer een beslissing wordt genomen met de Edge-API voor besluitvorming, dwingt het systeem de regels af die beschikbaar zijn in hetzelfde Edge-gebied:
 
 * Als er een passende regel is, wordt de de frequentie die teller van de het aftappen van het profiel stijgt.
 * Anders wordt er geen teller voor het profiel gemaakt en is de regel voor frequentiecontrole niet van toepassing. Dit betekent dat het profiel persoonlijke aanbiedingen blijft ontvangen, ook als de maximumdrempel wordt overschreden.
 
-Laten we bijvoorbeeld het hubgebied van uw organisatie beschouwen als *NLD2* en u stuurt een verzoek om een beslissing van Europa (*IRL1* randgebied). In dit scenario zal het beslissingsverzoek de teller van het profiel verhogen, aangezien de regels beschikbaar zijn in de (Ierse) *IRL1* regio. Als het verzoek om een beslissing echter afkomstig is uit een regio als Japan (*JPN3*), dat geen aan Nederland gebonden randgebied is *NLD2* hubgebied, geen teller zal worden gecreeerd, en de regels van de frequentiecontrole zullen niet worden afgedwongen.
+Bijvoorbeeld, overwegen wij het hubgebied van uw Organisatie als *NLD2*, en u verzendt een beslissingsverzoek van Europa (*IRL1* randgebied). In dit scenario, zal het beslissingsverzoek de teller van het profiel verhogen, aangezien de regels in het (Ierland) *IRL1* gebied beschikbaar zijn. Nochtans, als het beslissingsverzoek uit een gebied zoals Japan (*JPN3*) voortkomt, dat geen randgebied verbonden aan (Nederland) *NLD2* hubgebied is, zal geen teller worden gecreeerd, en de regels van het frequentieafschilderen zullen niet worden afgedwongen.
 
 Voor meer informatie over welke hub en randgebieden aan uw Organisatie worden geassocieerd, gelieve uw vertegenwoordiger van de Adobe te bereiken.
 
@@ -275,17 +275,17 @@ Voor meer informatie over welke hub en randgebieden aan uw Organisatie worden ge
 
 ### Plakken en plaatsen {#placements}
 
-Als u meerdere [representaties](add-representations.md) Geef voor uw voorstel op of u de aftopping wilt toepassen op alle plaatsen of op elke plaatsing.
+Als u verscheidene [ vertegenwoordigingen ](add-representations.md) voor uw aanbieding hebt bepaald, specificeer of u het begrenzen over alle plaatsen of op elke plaatsing wilt toepassen.
 
 ![](../assets/offer-capping-placement.png)
 
-* **[!UICONTROL Apply capping across all placements]**: het maximum aantal besluiten zal alle besluiten over de plaatsen verbonden aan de aanbieding in totaal omvatten.
+* **[!UICONTROL Apply capping across all placements]**: als u het aantal punten beperkt, worden alle beslissingen over de aan de aanbieding gekoppelde plaatsen in totaal genomen.
 
-  Als een aanbieding bijvoorbeeld een **E-mail** plaatsing en **Web** plaatsing, en u plaatst het maximum bij **2 per profiel voor alle plaatsen** Vervolgens kan elk profiel het aanbod in totaal maximaal twee keer ontvangen, ongeacht de plaatsingsmix.
+  Bijvoorbeeld, als een aanbieding een **E-mail** plaatsing en a **plaatsing van het Web** heeft, en u het afschilderen bij **2 per profiel over alle plaatsen** plaatst, dan kon elk profiel de aanbieding tot 2 keer in totaal, ongeacht de plaatsingsmengeling ontvangen.
 
-* **[!UICONTROL Apply capping to each placement]**: de het maximum tellen zal besluittellingen voor elke plaatsing afzonderlijk toepassen.
+* **[!UICONTROL Apply capping to each placement]**: als u een limiet instelt, wordt het aantal besluiten voor elke plaatsing afzonderlijk toegepast.
 
-  Als een aanbieding bijvoorbeeld een **E-mail** plaatsing en **Web** plaatsing, en u plaatst het maximum bij **2 per profiel voor elke plaatsing** Vervolgens kan elk profiel tot twee keer de aanbieding voor e-mailplaatsing ontvangen en nog eens twee keer de plaatsing op het web.
+  Bijvoorbeeld, als een aanbieding een **E-mail** plaatsing en de plaatsing van het a **Web** heeft, en u plaatste het in kaart brengen bij **2 per profiel voor elke plaatsing**, dan kon elk profiel de aanbieding tot 2 keer voor de e-mailplaatsing, en extra 2 keer voor de Webplaatsing ontvangen.
 
 ### Gevolgen van het wijzigen van datums voor plafonnering {#capping-change-date}
 
@@ -296,42 +296,42 @@ Als u meerdere [representaties](add-representations.md) Geef voor uw voorstel op
 
 U moet voorzichtig te werk gaan wanneer u de datum van een aanbieding wijzigt, omdat dit van invloed kan zijn op de aftopping als aan de volgende voorwaarden wordt voldaan:
 
-* De aanbieding is [goedgekeurd](#review).
-* [Afbeelding](#capping) wordt al toegepast op het voorstel.
+* De aanbieding wordt goedgekeurd [ ](#review).
+* [ Aftappen ](#capping) wordt reeds toegepast op de aanbieding.
 * Afdekkingen worden gedefinieerd per profiel.
 
 >[!NOTE]
 >
->Meer informatie over het definiëren van de datum van een aanbieding in [deze sectie](creating-personalized-offers.md#create-offer).
+>Leer hoe te om de datum van een aanbieding in [ te bepalen deze sectie ](creating-personalized-offers.md#create-offer).
 
 Als u per profiel vastlegt, worden de geknipte aantallen op elk profiel opgeslagen. Wanneer u de begin- en einddatum van een goedgekeurd aanbod wijzigt, kan het aantal aftopping voor sommige profielen worden aangepast aan de verschillende hieronder beschreven scenario&#39;s.
 
 ![](../assets/offer-capping-change-date.png)
 
-Hier zijn de mogelijke scenario&#39;s wanneer **de begindatum van een aanbieding wijzigen**:
+Hier zijn de mogelijke scenario&#39;s wanneer **veranderend een datum van het aanbiedingsbegin**:
 
-| Scenario:<br>Indien... | Wat gebeurt er?<br>dan... | Mogelijke invloed op het maximumaantal |
+| Scenario:<br> als.. | Wat gebeurt:<br> toen.. | Mogelijke invloed op het maximumaantal |
 |--- |--- |--- |
 | ... de begindatum van de aanbieding wordt bijgewerkt voordat de begindatum van de oorspronkelijke aanbieding is ingegaan, | ... het aantal aftopping begint op de nieuwe startdatum. | Nee |
 | ... de nieuwe begindatum valt vóór de huidige einddatum; | ... de aftopping wordt voortgezet met een nieuwe begindatum en het vorige aantal aftopping voor elk profiel wordt voortgezet. | Nee |
 | ... de nieuwe begindatum valt na de huidige einddatum; | ... het huidige maximum zal verlopen en het nieuwe maximum aantal zal opnieuw van 0 voor alle profielen op de nieuwe begindatum beginnen. | Ja |
 
-Hier zijn de mogelijke scenario&#39;s wanneer **verlenging van de uiterste datum voor de aanbieding**:
+Hier zijn de mogelijke scenario&#39;s wanneer **het uitbreiden van een aanbieding einddatum**:
 
-| Scenario:<br>Indien... | Wat gebeurt er?<br>dan... | Mogelijke invloed op het maximumaantal |
+| Scenario:<br> als.. | Wat gebeurt:<br> toen.. | Mogelijke invloed op het maximumaantal |
 |--- |--- |--- |
 | ... een verzoek om een beslissing wordt ingediend vóór de einddatum van de oorspronkelijke aanbieding; | ... het aantal aftopping wordt bijgewerkt en het vorige aantal aftopping voor elk profiel wordt voortgezet. | Nee |
 | ... er geen verzoek tot een besluit komt vóór de oorspronkelijke einddatum; | ... wordt het aantal bijschriften opnieuw ingesteld op de oorspronkelijke einddatum voor elk profiel. Het nieuwe maximum aantal zal dan opnieuw van 0 voor om het even welke nieuwe beslissingsverzoeken beginnen die na de originele einddatum zullen voorkomen. | Ja |
 
 **Voorbeeld**
 
-Stel dat je een voorstel hebt waarvan de oorspronkelijke begindatum is ingesteld op **1 januari**, verloopt op **31 januari**.
+Laten wij zeggen u een aanbieding met een originele begindatum hebt die aan **wordt geplaatst Januari, 1**, die op **Januari, 31** verloopt.
 
 1. De profielen X, Y en Z worden voorgesteld.
-1. Aan **10 januari**, wordt de einddatum van de aanbieding gewijzigd in **15 februari**.
-1. **Van 11 januari tot en met 31 januari** alleen profiel Z wordt aangeboden.
+1. Op **Januari, 10**, wordt de einddatum van de aanbieding veranderd in **Februari, 15**.
+1. **van 11 Januari tot 31 Januari**, slechts wordt het profiel Z voorgesteld de aanbieding.
 
-   * Omdat een beslissingsverzoek vóór de oorspronkelijke einddatum is ingediend **voor profiel Z** kan de uiterste datum van de aanbieding worden verlengd tot **15 februari**.
-   * Aangezien er echter geen activiteit heeft plaatsgevonden vóór de oorspronkelijke einddatum voor **profielen X en Y**, zullen hun tellers verlopen en hun het maximum tellen zal aan 0 op worden teruggesteld **31 januari**.
+   * Omdat een beslissingsverzoek vóór de originele einddatum **voor profiel Z** voorkwam, kan de einddatum van de aanbieding tot **Februari, 15** worden uitgebreid.
+   * Nochtans, aangezien geen activiteit vóór de originele einddatum voor **profielen X en Y** voorkwam, zullen hun tellers verlopen en hun afdekkende tellingen zullen op **Januari, 31** worden teruggesteld aan 0.
 
 ![](../assets/offer-capping-change-date-ex.png)

@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '513'
 ht-degree: 1%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 1%
 
 Een plaatsing helpt ervoor te zorgen dat de juiste aanbiedingsinhoud op de juiste plaats binnen uw bericht verschijnt. Wanneer u inhoud aan een aanbieding toevoegt, wordt u gevraagd een plaatsing te selecteren waarin die inhoud kan worden weergegeven.
 
-➡️ [Leer hoe u plaatsingen in deze video kunt maken](#video)
+➡️ [ leren hoe te plaatsen in deze video ](#video) tot stand te brengen
 
 In het onderstaande voorbeeld zijn er drie plaatsen die overeenkomen met verschillende typen inhoud (afbeelding, tekst, HTML).
 
 ![](../assets/offers_placement_schema.png)
 
-De lijst met stages is toegankelijk in het **[!UICONTROL Components]** -menu. Er zijn filters beschikbaar waarmee u plaatsingen kunt ophalen op basis van een specifiek kanaal of specifieke inhoud.
+De lijst met plaatsen is toegankelijk in het menu **[!UICONTROL Components]** . Er zijn filters beschikbaar waarmee u plaatsingen kunt ophalen op basis van een specifiek kanaal of specifieke inhoud.
 
 ![](../assets/placements_filter.png)
 
@@ -48,23 +48,23 @@ Voer de volgende stappen uit om een plaatsing te maken:
    ![](../assets/offers_placement_creation_properties.png)
 
 
-1. De **[!UICONTROL Request settings]** en **[!UICONTROL Response format]** de secties verstrekken extra parameters:
+1. De secties **[!UICONTROL Request settings]** en **[!UICONTROL Response format]** bevatten aanvullende parameters:
 
-   * **[!UICONTROL Allow Duplicates across placements]**: Bepaal of dezelfde aanbieding meerdere keren kan worden voorgesteld voor verschillende plaatsen. Als deze optie is ingeschakeld, overweegt het systeem dezelfde aanbieding voor meerdere plaatsingen. Standaard is de parameter ingesteld op false.
+   * **[!UICONTROL Allow Duplicates across placements]**: Bepaal of hetzelfde aanbod meerdere keren op verschillende plaatsen kan worden voorgesteld. Als deze optie is ingeschakeld, overweegt het systeem dezelfde aanbieding voor meerdere plaatsingen. Standaard is de parameter ingesteld op false.
 
      Als deze optie voor om het even welke plaatsing in een beslissingsverzoek aan vals wordt geplaatst, zullen alle plaatsen in het verzoek het &quot;vals&quot;plaatsen erven.
 
    * **[!UICONTROL Request offer]**: Standaard wordt één aanbieding van het beslissingsbereik geretourneerd voor elk profiel. Met deze optie kunt u het aantal geretourneerde voorstellen aanpassen. Als u bijvoorbeeld 2 selecteert, worden de beste 2 aanbiedingen weergegeven voor het geselecteerde beslissingsbereik.
 
-   * **[!UICONTROL Include content]** / **[!UICONTROL Include metadata]**: specificeer als de inhoud en de meta-gegevens van de aanbieding in de API reactie zouden moeten zijn teruggekeerd. U kunt alleen alle metagegevens of specifieke velden opnemen. De waarde voor Inclusief metagegevens is standaard ingesteld op true.
+   * **[!UICONTROL Include content]** / **[!UICONTROL Include metadata]** : geef op of de inhoud en metagegevens van de aanbieding moeten worden geretourneerd in de API-reactie. U kunt alleen alle metagegevens of specifieke velden opnemen. De waarde voor Inclusief metagegevens is standaard ingesteld op true.
 
-   Deze parameters kunnen ook rechtstreeks in uw API-verzoek worden ingesteld als u met de [API voor besluitvorming](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html). Als u deze echter configureert in de gebruikersinterface, kunt u tijd besparen omdat u deze niet in elke API-aanvraag hoeft door te geven. Merk op dat als u de parameters zowel in gebruikersinterface als het API verzoek vormt, de waarden van het API verzoek over degenen van de interface zullen prevaleren.
+   Deze parameters kunnen ook direct in uw API verzoek worden geplaatst als u met [ Beslissing API ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/decisioning-api.html) werkt. Als u deze echter configureert in de gebruikersinterface, kunt u tijd besparen omdat u deze niet in elke API-aanvraag hoeft door te geven. Merk op dat als u de parameters zowel in gebruikersinterface als het API verzoek vormt, de waarden van het API verzoek over degenen van de interface zullen prevaleren.
 
    >[!NOTE]
    >
-   >Als u met de [Edge-API voor besluitvorming](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?), kunt u deze parameters niet in uw verzoek plaatsen. U moet ze in dit scherm definiëren.
+   >Als u met [ Edge beslist API ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api.html?) werkt, kunt u niet deze parameters in uw verzoek plaatsen. U moet ze in dit scherm definiëren.
    >
-   >Als u met de [Batchbeslissing-API](../api-reference/offer-delivery-api/batch-decisioning-api.md)kunt u deze parameters instellen in dit scherm of in uw API-verzoek. Als parameterwaarden niet overeenkomen tussen het scherm en het APi-verzoek, worden de aanvraagwaarden gebruikt.
+   >Als u met de [ Bevestiging API van de Partij ](../api-reference/offer-delivery-api/batch-decisioning-api.md) werkt, kunt u deze parameters of in dit scherm of in uw API verzoek plaatsen. Als parameterwaarden niet overeenkomen tussen het scherm en het APi-verzoek, worden de aanvraagwaarden gebruikt.
 
 1. Klik op **[!UICONTROL Save]** om te bevestigen.
 
