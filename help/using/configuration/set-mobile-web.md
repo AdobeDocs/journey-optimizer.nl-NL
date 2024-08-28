@@ -10,9 +10,9 @@ level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 hide: true
 hidefromtoc: true
-source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '442'
 ht-degree: 1%
 
 ---
@@ -22,12 +22,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="Javascript-code"
->abstract="De tag `<head>` bevat essentiële metagegevens en bronnen die vóór de hoofdinhoud van uw webpagina worden geladen. Door code in deze sectie te plaatsen, zorgt u ervoor dat deze op de juiste manier vroeg wordt geïnitialiseerd en uitgevoerd, zodat uw webpagina efficiënt kan worden geladen en uitgevoerd. Door code toe te voegen aan de sectie `<head>` kunt u de structuur, de prestaties en de algehele gebruikerservaring van uw site verbeteren."
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_javascript_site"
->title="Site starten en valideren"
->abstract="Wanneer de code correct is geïmplementeerd en live is op uw website, geeft u de basis-URL op. Indien nodig kunt u later terugkeren naar deze pagina om opnieuw te valideren en te bevestigen dat de installatie naar behoren functioneert."
+>abstract="De <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> -tag bevat essentiële metagegevens en bronnen die vóór de hoofdinhoud van uw webpagina worden geladen. Door code in deze sectie te plaatsen, zorgt u ervoor dat deze op de juiste manier vroeg wordt geïnitialiseerd en uitgevoerd, zodat uw webpagina efficiënt kan worden geladen en uitgevoerd. Door code toe te voegen aan <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> kunt u de structuur, de prestaties en de algehele gebruikerservaring van uw site verbeteren."
 
 Deze instelling vergemakkelijkt de snelle configuratie van marketingkanalen, waarbij alle vereiste middelen binnen Experience Platform, Journey Optimizer en gegevensverzameling gemakkelijk beschikbaar zijn. Hierdoor kan uw marketingteam direct beginnen met campagne en het creëren van reizen.
 

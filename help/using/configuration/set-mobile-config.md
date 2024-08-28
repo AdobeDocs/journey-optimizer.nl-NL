@@ -10,9 +10,9 @@ level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 hide: true
 hidefromtoc: true
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -27,8 +27,8 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
 >title="Valideren met betrouwbaarheid"
->abstract="De kwaliteit van de gegevensverzameling en gebruikerservaring van uw mobiele app garanderen met Betrouwbaarheid. Dit hulpmiddel biedt grondige analyse, bevestiging, en optimalisering aan. Bovendien kunt u rechtstreeks verbinding maken met uw app om de nauwkeurige integratie van de SDK te controleren."
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance" text="Zie Betrouwbaarheidsdocumentatie"
+>abstract="Adobe Experience Platform Assurance is ingesloten in deze workflow om u te helpen uw SDK-implementatie te controleren en toepassingsgebeurtenissen te simuleren en te valideren."
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home" text="Overzicht van Adobe Experience Platform Assurance"
 
 
 Deze instelling vergemakkelijkt de snelle configuratie van marketingkanalen, waarbij alle vereiste middelen binnen Experience Platform, Journey Optimizer en gegevensverzameling gemakkelijk beschikbaar zijn. Hierdoor kan uw marketingteam direct beginnen met campagne en het creëren van reizen.

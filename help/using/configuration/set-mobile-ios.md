@@ -10,9 +10,9 @@ level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 hide: true
 hidefromtoc: true
-source-git-commit: f0273d24a85488d406b836bee8c2300d189d83e9
+source-git-commit: 4a089308cfc2fa90cc4c0a6baa15a89598e8edd6
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '904'
 ht-degree: 1%
 
 ---
@@ -29,23 +29,6 @@ ht-degree: 1%
 Deze iOS-instelling vereenvoudigt de snelle configuratie van marketingkanalen, zodat alle essentiële bronnen gemakkelijk beschikbaar zijn in de Experience Platform-, Journey Optimizer- en Data Collection-apps. Hierdoor kan uw marketingteam snel beginnen met het maken van campagnes en reizen.
 
 ## Nieuwe iOS-instelling maken {#new-setup-ios}
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_add"
->title="Afhankelijkheden toevoegen"
->abstract="Voeg in Xcode het pakket Verzekering toe voor het inspecteren, controleren, simuleren en valideren van gegevensverzameling en ervaringen in uw app. Voeg ook AEP-berichten toe om pushberichttokens te verzenden en klik-via feedback naar Adobe Experience Platform."
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks#swift-package-manager" text="Zie Documentatie voor gegevensverzameling"
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_initialization_code"
->title="Initialisatiecode toevoegen"
->abstract="Om uw app behoorlijk te initialiseren, neem de verstrekte initialisatiecode in **didFinishLaunchingWithOptions** methode van uw dossier AppDelegate op. Hierdoor wordt ervoor gezorgd dat de toepassing op het juiste moment tijdens het opstartproces van de app wordt uitgevoerd."
-
->[!CONTEXTUALHELP]
->id="ajo_mobile_web_setup_swift_dependencies_import"
->title="Afhankelijkheden importeren"
->abstract="In de klasse van AppDelegate van uw toepassing ****, voer de volgende gebiedsdelen in: AEPCore, AEPAssurance, AEPEdge, AEPEdgeIdentity, en AEPMessaging."
->additional-url="https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks#import-extensions" text="Zie Documentatie voor gegevensverzameling"
 
 1. Klik op de **[!UICONTROL Set up mobile and web channels]** -kaart op de Journey Optimizer-startpagina **[!UICONTROL Begin]** .
 
