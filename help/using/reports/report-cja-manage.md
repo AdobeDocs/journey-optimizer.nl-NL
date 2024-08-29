@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 3098b63ef643da63a205f539ac48f902e823bbd1
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 ![](assets/cja-analyze.png)
 
-Verbeter uw gegevensanalysefunctie met uw **[!DNL Customer Journey Analytics]** licentie door de **[!UICONTROL Analyze in CJA]** beschikbaar in alle rapporten.
+Verbeter uw gegevensanalysefunctie met uw **[!DNL Customer Journey Analytics]** -licentie door gebruik te maken van de **[!UICONTROL Analyze in CJA]** -functie die in alle rapporten beschikbaar is.
 
-Deze krachtige optie leidt u naadloos aan uw **[!DNL Customer Journey Analytics]** omgeving, zodat u uw rapporten uitgebreid kunt aanpassen. U kunt uw widgets verrijken met speciale maatstaven voor Customers Journey Analytics, zodat u uw inzichten op een geheel nieuw niveau kunt brengen.
+Met deze krachtige optie wordt u naadloos omgeleid naar uw **[!DNL Customer Journey Analytics]** -omgeving, zodat u uw rapporten uitgebreid kunt personaliseren. U kunt uw widgets verrijken met speciale maatstaven voor Customers Journey Analytics, zodat u uw inzichten op een geheel nieuw niveau kunt brengen.
 
-[Leer meer op de interface van de Customer Journey Analytics.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
+[ leer meer op de interface van de Customer Journey Analytics.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
 ## De rapportperiode definiëren {#report-period}
 
@@ -46,9 +46,9 @@ U kunt uw verschillende rapporten eenvoudig exporteren naar de indelingen PDF of
 
 >[!BEGINTABS]
 
->[!TAB Uw rapport exporteren als een CSV-bestand]
+>[!TAB  Uitvoer uw rapport als Csv- dossier ]
 
-1. Klik in uw rapport op **[!UICONTROL Export]** en selecteert u **[!UICONTROL CSV file]** om een CSV-bestand op algemeen rapportniveau te genereren.
+1. Klik in uw rapport op **[!UICONTROL Export]** en selecteer **[!UICONTROL CSV file]** om een CSV-bestand op algemeen rapportniveau te genereren.
 
    ![](assets/export_cja_csv.png)
 
@@ -56,13 +56,13 @@ U kunt uw verschillende rapporten eenvoudig exporteren naar de indelingen PDF of
 
    Als u het bestand op rapportniveau hebt gegenereerd, bevat het gedetailleerde informatie voor elke widget, inclusief de titel en gegevens.
 
->[!TAB Uw rapport exporteren als een PDF-bestand]
+>[!TAB  Uitvoer uw rapport als dossier van PDF ]
 
-1. Klik in uw rapport op **[!UICONTROL Export]** en selecteert u **[!UICONTROL PDF file]**.
+1. Klik in uw rapport op **[!UICONTROL Export]** en selecteer **[!UICONTROL PDF file]** .
 
    ![](assets/export_cja_pdf.png)
 
-1. Nadat downloaden is aangevraagd, klikt u op **[!UICONTROL Download]**.
+1. Klik op **[!UICONTROL Download]** nadat het downloaden is aangevraagd.
 
    ![](assets/export_cja_pdf_2.png)
 
@@ -71,3 +71,93 @@ U kunt uw verschillende rapporten eenvoudig exporteren naar de indelingen PDF of
 Uw rapport is nu beschikbaar voor weergave, downloaden of delen in een PDF-bestand.
 
 >[!ENDTABS]
+
+## Een eenvoudige metrische methode maken {#create-simple-metric}
+
+U kunt aangepaste berekende metriek rechtstreeks in uw rapporten maken. U kunt meer op maat gesneden inzichten produceren en beter uw gegevens analyseren door twee bestaande metriek op manieren te combineren die uw specifieke rapporteringsbehoeften aanpassen.
+
+1. Begin door tot het rapport toegang te hebben waar u nieuwe metrisch wilt toevoegen.
+
+1. Selecteer in de tabel in uw rapport de gewenste maateenheden door de toetsen `Shift` of `CTRL/CMD` ingedrukt te houden terwijl u erop klikt. Klik vervolgens met de rechtermuisknop en selecteer **[!UICONTROL Create metric from selection]** .
+
+   Als u meer dan twee metriek selecteert, slechts zullen eerste twee in metrische bouwer worden gebruikt.
+
+   ![](assets/cja-create-metric_2.png)
+
+1. Typ in het veld Berekende metrische constructor een naam voor de nieuwe metrische waarde door in het veld **[!UICONTROL Title]** te typen. U kunt ook een **[!UICONTROL Description]** toevoegen.
+
+   >[!NOTE]
+   >
+   >Als u Customer Journey Analytics hebt, kunt u uw metriek verder personaliseren met extra opties. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
+
+1. Kies de juiste **[!UICONTROL Decimal Places]** en selecteer een **[!UICONTROL Format]** (Decimaal, Tijd, Percentage of Valuta) op basis van de manier waarop u de metrische waarde wilt weergeven.
+
+1. Selecteer de operator, zoals optellen, aftrekken, vermenigvuldigen of delen, die bepaalt hoe de metrische waarde wordt berekend.
+
+   ![](assets/cja-create-metric.png)
+
+1. U kunt de componenten desgewenst opnieuw rangschikken.
+
+1. Als u tevreden bent met de instellingen, klikt u op **[!UICONTROL Apply]** om de nieuwe meting te voltooien.
+
+1. Uw nieuwe metrisch zal naast de originele metriek in uw rapport verschijnen.
+
+   ![](assets/cja-create-metric_3.png)
+
+Uw nieuwe metrisch zal worden omvat wanneer u het rapport als PDF of CSV uitvoert. Deze wordt echter uit het rapport verwijderd wanneer u het rapport afsluit.
+
+## Gegevens verkennen met de verkennende analyse {#exploratory}
+
+Met het gereedschap Verkennende analyse kunt u eenvoudig tabellen en visualisaties maken op basis van de geselecteerde **[!UICONTROL Dimensions]** en **[!UICONTROL Metrics]** . Met dit gereedschap stroomlijnt u de gegevensverkenning, zodat u de gegevens eenvoudig kunt aanpassen en analyseren. Leer meer in [ deze documentatie ](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
+
+1. Begin door tot het rapport toegang te hebben waar u de Verkennende Analyse wilt gebruiken.
+
+1. Selecteer het menu Verkennende analyse in het menu Linkerspoor.
+
+   ![](assets/exploratory_analysis_1.png)
+
+1. Bouw een vraag door **[!UICONTROL Dimension]** en **[!UICONTROL Metric]** te kiezen gebruikend de drop-down menu&#39;s. U kunt ook een **[!UICONTROL Segment]** selecteren, indien nodig.
+
+   ![](assets/exploratory_analysis_2.png)
+
+1. Definieer het datumbereik voor de analyse om de periode op te geven waarop u wilt scherpstellen. Standaard wordt het datumbereik ingesteld op het bereik dat wordt gebruikt in het rapportvenster.
+
+1. Gebruik de opties **[!UICONTROL Add breakdown]** of **[!UICONTROL Add metric]** om extra afmetingen op te nemen, zodat u gedetailleerdere gegevens kunt uitsplitsen.
+
+   U kunt maximaal drie **[!UICONTROL Dimensions]** , **[!UICONTROL Metrics]** en **[!UICONTROL Segments]** toevoegen.
+
+U kunt uw gegevens nu analyseren met de aangepaste gereedschappen voor tabel en visualisatie.
+
+<!--## Create a down-funnel metric {#down-funnel}
+
+1. Create a new journey or open an existing one. [Learn more on journey creation](../building-journeys/journey-gs.md)
+
+1. On the canvas editor, select the option to "add a metric".
+
+c. In the metric selector, choose whichever conversion metric seems appropriate and publish your journey
+
+d. Open the report for the journey that you added the metric to and ensure that the metric has been added to the table alongside all the other pre-configured metrics.
+-->
+
+## Een publiek maken van de rapportgegevens {#create-audience}
+
+U kunt nu specifieke gegevens in de tabel selecteren en rechtstreeks een publiek maken op basis van deze selecties, zodat het proces voor het maken van een publiek wordt gestroomlijnd en vereenvoudigd.
+
+1. Begin door aan de rapportlijst te navigeren die de gegevens bevat u in een publiek wilt omzetten.
+
+1. Klik met de rechtermuisknop op de gewenste cel en selecteer **[!UICONTROL Create audience]** .
+
+   U kunt ook het maken van een publiek starten vanuit de **[!UICONTROL Journey canvas]** -widget door een knooppunt te selecteren en er met de rechtermuisknop op te klikken.
+
+1. Voer in het venster **[!UICONTROL Create audience]** een **[!UICONTROL Name]** in en stel een **[!UICONTROL One-time date range]** in voor het publiek dat u wilt publiceren.
+
+   >[!NOTE]
+   >
+   >Als u Customer Journey Analytics hebt, kunt u uw metriek verder personaliseren met extra opties. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
+
+   ![](assets/audience_1.png)
+
+1. Klik op de knop **[!UICONTROL Create]** om het publiek te maken. Dit proces kan enige tijd duren.
+
+U kunt nu doorgaan en het nieuwe publiek gebruiken met een reis of campagne.
+
