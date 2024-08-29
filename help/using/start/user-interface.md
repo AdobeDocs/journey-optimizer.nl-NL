@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 1c34c916843600d8602c5c1fe7164aebc83becd9
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1325'
 ht-degree: 5%
 
 ---
@@ -194,3 +194,14 @@ De taal wijzigen:
 * Selecteer uw aangewezen taal en klik **sparen**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
   ![](assets/select-language.png)
 
+<!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_priority"
+>title="Prioriteit"
+>abstract="Wijs een prioritaire score aan de reis toe, die zich van 0 tot 100 uitstrekken. Een hoger getal geeft een hogere prioriteit aan. Wanneer twee reizen hetzelfde oppervlak gebruiken, kiest Journey Optimizer de reis met de hoogste prioriteitsscore. Als de reizen dezelfde score hebben, wordt gekozen voor de reis die het laatst is gewijzigd."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_priority"
+>title="Prioriteit"
+>abstract="Wijs een prioriteitsscore toe aan de campagne, variërend van 0 tot 100. Een hoger getal geeft een hogere prioriteit aan. Wanneer twee campagnes hetzelfde oppervlak gebruiken, selecteert Journey Optimizer de campagne met de hoogste prioriteitsscore. Als de campagnes dezelfde score hebben, wordt de campagne gekozen die het laatst is gewijzigd."
