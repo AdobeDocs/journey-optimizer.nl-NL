@@ -5,9 +5,9 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '1096'
 ht-degree: 1%
 
 ---
@@ -33,6 +33,16 @@ ht-degree: 1%
 >id="ajo_admin_default_mobile_url"
 >title="Standaard URL voor ontwerpen en voorvertonen"
 >abstract="Met dit veld zorgt u ervoor dat de pagina&#39;s die door de regel worden gegenereerd of waaraan de regel is gekoppeld, een opgegeven URL hebben die essentieel is voor een effectieve weergave van inhoud en voor een voorvertoning."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_default_web_url"
+>title="Standaard URL voor ontwerpen en voorvertonen"
+>abstract="Met dit veld zorgt u ervoor dat de pagina&#39;s die door de regel worden gegenereerd of waaraan de regel is gekoppeld, een opgegeven URL hebben die essentieel is voor een effectieve weergave van inhoud en voor een voorvertoning."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_mobile_url_preview"
+>title="Voorbeeld-URL"
+>abstract="Dit veld is essentieel voor het inschakelen van de simulatie en voorvertoning van uw inhoud rechtstreeks op uw apparaat in de toepassing."
 
 ## Een kanaalconfiguratie maken {#reatte-code-based-configuration}
 
@@ -68,6 +78,8 @@ Ga als volgt te werk om een kanaalconfiguratie te maken:
 
    * Voer de **[!UICONTROL App id]** en **[!UICONTROL Location or path inside the app]** in.
 
+     ![](assets/code_config_3.png)
+
 1. Selecteer Overige als platform als uw implementatie niet voor Web, iOS of Android is of als u specifieke URI&#39;s moet opgeven. Wanneer u meerdere platforms kiest of meerdere URI&#39;s toevoegt, wordt de inhoud geleverd aan alle geselecteerde pagina&#39;s of toepassingen.
 
    * Voer de **[!UICONTROL Surface URI]** in.
@@ -75,6 +87,35 @@ Ga als volgt te werk om een kanaalconfiguratie te maken:
    >[!CAUTION]
    >
    >Zorg ervoor dat het oppervlak-URI dat in uw op code gebaseerde campagne wordt gebruikt, overeenkomt met het oppervlak dat in uw eigen implementatie wordt gebruikt. Anders worden de wijzigingen niet doorgevoerd.
+
+1. Vul het veld **[!UICONTROL Preview URL]** in om voorvertoningen op het apparaat in te schakelen. Deze URL informeert de voorbeeldservice over de specifieke URL die moet worden gebruikt bij het activeren van een voorvertoning.
+
+   * Voor web:
+
+      * Als er één pagina-URL wordt ingevoerd, wordt die URL gebruikt voor de voorvertoning.
+      * Als u een regel voor overeenkomende pagina selecteert, moet u een standaard URL voor de voorvertoning invoeren die wordt gebruikt voor een voorvertoning van de ervaring in de browser.
+
+   * Voor mobiele platforms (iOS/Android):
+
+      * Voorbeeld-URL is een koppeling die door de ontwikkelaar van de app in uw app is geconfigureerd. Zo zorgt u ervoor dat alle URL&#39;s die overeenkomen met het verwijderingsschema, in de app worden geopend in plaats van in een mobiele webbrowser. Neem contact op met de ontwikkelaar van de app om het ontwikkelschema te verkrijgen dat voor uw app is geconfigureerd.
+
++++  De volgende bronnen kunnen u helpen bij het configureren van diepe koppelingen voor uw app-implementatie
+
+      * Voor Android:
+
+         * [ creeer Diepe Verbindingen aan de Context van de Toepassing ](https://developer.android.com/training/app-links/deep-linking)
+
+      * Voor iOS:
+
+         * [ het bepalen van een Regeling van Douane URL voor Uw app ](https://developer.apple.com/documentation/xcode/defining-a-custom-url-scheme-for-your-app)
+
+         * [ ondersteunend Universele Verbindingen in Uw app ](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app)
+
++++
+
+   >[!NOTE]
+   >
+   >Als u kwesties terwijl het previewing van de ervaring ontmoet, gelieve te verwijzen naar [ deze documentatie ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 1. Kies de indeling die de toepassing op die specifieke locatie verwacht. Dit wordt gebruikt wanneer het ontwerpen van de code-gebaseerde ervaring in campagnes en reizen.
 

@@ -11,7 +11,7 @@ badge: label="Beta" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 930070843c2c1ce022beb5dc6e8a61c8d4f70365
+source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
 workflow-type: tm+mt
 source-wordcount: '602'
 ht-degree: 0%
@@ -67,7 +67,7 @@ De algemene richtlijnen voor het gebruik van de AI Assistant in Journey Optimize
 * De maximale grootte voor geüploade brandmiddelen is 50 MB. Grotere bestanden of veel afbeeldingen kunnen werken, maar de verwerkingstijd neemt toe.
 * Gebruik een Adobe Campaign authored e-mailmalplaatjes, bij voorkeur [ ingebouwde e-mailmalplaatjes ](../email/use-email-templates.md), een merkspecifiek malplaatje of douanemalplaatje om uw e-mailinhoud tot stand te brengen. E-mailsjabloon met maximaal 8-10 afbeeldingen wordt aanbevolen.
 * Zorg ervoor dat u eventuele problematische uitvoerbestanden meldt met het blokje omhoog, omlaag of de vlagpictogrammen bij het selecteren van varianten.
-* Op het gebruik van de AI-assistent zijn de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen van toepassing. [Meer informatie](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
+* Op het gebruik van de AI-assistent zijn de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen van toepassing. [Meer informatie](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 
 De volgende beperkingen gelden voor AI Assistant in Journey Optimizer:
 
