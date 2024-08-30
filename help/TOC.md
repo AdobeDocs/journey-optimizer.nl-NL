@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
 workflow-type: tm+mt
-source-wordcount: '1972'
+source-wordcount: '1963'
 ht-degree: 27%
 
 ---
@@ -584,9 +584,7 @@ ht-degree: 27%
    + [Kanaalconfiguraties instellen](using/configuration/channel-surfaces.md)
    + Kanaalinstellingen met instructies {#guided-setup}
       + [Aan de slag met de instelling van het kanaal met instructies](using/configuration/set-mobile-config.md)
-      + [Android mobiel kanaal instellen](using/configuration/set-mobile-android.md)
-      + [IOS mobiel kanaal instellen](using/configuration/set-mobile-ios.md)
-      + [Webkanaal instellen](using/configuration/set-mobile-web.md)
+      + [Een kanaalinstelling maken](using/configuration/create-channel-set-up.md)
    + E-mailsubdomeinen delegeren {#delegate-subdomains}
       + [Aan de slag met subdomeindelegatie](using/configuration/about-subdomain-delegation.md)
       + [Een subdomein delegeren](using/configuration/delegate-subdomain.md)
