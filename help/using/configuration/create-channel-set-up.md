@@ -10,9 +10,9 @@ level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 hide: true
 hidefromtoc: true
-source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
+source-git-commit: d7a1384ee83f81060333ca02c97b1db67427fbe5
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"
 >title="Javascript-code"
->abstract="De <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> -tag bevat essentiële metagegevens en bronnen die vóór de hoofdinhoud van uw webpagina worden geladen. Door code in deze sectie te plaatsen, zorgt u ervoor dat deze op de juiste manier vroeg wordt geïnitialiseerd en uitgevoerd, zodat uw webpagina efficiënt kan worden geladen en uitgevoerd. Door code toe te voegen aan <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-16"> kunt u de structuur, de prestaties en de algehele gebruikerservaring van uw site verbeteren."
+>abstract="De tag head bevat essentiële metagegevens en bronnen die worden geladen vóór de hoofdinhoud van uw webpagina. Door code in deze sectie te plaatsen, zorgt u ervoor dat deze op de juiste manier vroeg wordt geïnitialiseerd en uitgevoerd, zodat uw webpagina efficiënt kan worden geladen en uitgevoerd. Door code aan de kopsectie toe te voegen, helpt u de structuur, de prestaties en de algemene gebruikerservaring van uw site te verbeteren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_push_token"
