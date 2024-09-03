@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 377f75a67f3a392957cefb7b2ba9347c364c11a1
+source-git-commit: 549efb9e12dccedb27335553194e09deab09a35f
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 8%
+source-wordcount: '836'
+ht-degree: 7%
 
 ---
 
@@ -26,6 +26,26 @@ ht-degree: 8%
 
 ![ Nieuwsbrief ](../assets/do-not-localize/nl-icon.png) Teken omhoog voor het [ driemaandelijkse bulsletter van Adobe Journey Optimizer ](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html) {target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die rechtstreeks aan uw inbox elk kwart worden geleverd.
 
+## Updates september {#9-2024}
+
+<table>
+<thead>
+<tr>
+<th><strong>Kanaal instellen met instructies</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met de functie Kanaalinstellingen met instructies kunt u kanaalinstellingen in één ervaring automatiseren en valideren, zodat u sneller aan de slag kunt met Journey Optimizer. Deze nieuwe, geleide opstelling stroomlijnt snelle kanaalconfiguratie, die ervoor zorgt dat alle noodzakelijke middelen gemakkelijk worden geïnstalleerd en binnen Experience Platform, Journey Optimizer, en de Inzameling van Gegevens werken. Hierdoor kunnen marketing-, product- en gegevensontwikkelingsteams snel beginnen met het maken van campagnes en reizen.</p>
+<p>Raadpleeg de <a href="../configuration/set-mobile-config.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</br>
+<img src="assets/do-not-localize/guided-setup.gif"/>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## Opmerkingen bij de release augustus 2024 {#8-2024}
 
 **de datum van de Versie**: Augustus 20-21, 2024
@@ -41,37 +61,19 @@ ht-degree: 8%
 
 Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Guided Channel Setup</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Guided Channel Setup enables you to automate and validate channel setup in a unified experience, speeding up the process of getting started with Journey Optimizer. This new guided setup streamlines rapid channel configuration, ensuring all necessary resources are readily installed and working within Experience Platform, Journey Optimizer, and Data Collection. This enables marketing, product and data engineering teams to quickly begin with campaign and journey creation.</p>
-<p>For more information, refer to the <a href="../configuration/set-mobile-config.md">detailed documentation</a>.</p>
-</br>
-<img src="assets/do-not-localize/guided-setup.gif"/>
-</td>
-</tr>
-</tbody>
-</table>
-
 <table>
 <thead>
 <tr>
-<th><strong>Content Cards (Limited Availability)</strong><br/></th>
+<th><strong>Inhoudskaarten (beperkte beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
-<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
+<p>Inhoudskaarten zijn een nieuwe functie voor digitale berichten in Adobe Journey Optimizer die persoonlijke en aantrekkelijke inhoud direct levert in mobiele apps en websites. In tegenstelling tot traditionele pushmeldingen worden inhoudskaarten naadloos geïntegreerd in de gebruikersinterface en bieden ze permanente, niet-indringende updates die de interactie en gebruikerservaring verbeteren.</p>
+<p>Met deze functie kunnen marketers relevante, rijke media-inhoud presenteren aan gebruikers, waardoor hun betrokkenheid toeneemt en belangrijke berichten zichtbaar zijn zonder de reis van de gebruiker te verstoren.</p>
 </br>
-<p>Content card are currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>De inhoudskaart is momenteel slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.</p>
 </td>
 </tr>
 </tbody>
