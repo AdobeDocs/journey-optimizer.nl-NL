@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
-source-git-commit: 0144809646e9e3b57089820290723ed7f9ed0acc
+source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -51,6 +51,7 @@ ht-degree: 0%
 >id="ajo_mobile_web_setup_push_team_id"
 >title="Team-id"
 >abstract="Identiteitskaart van het Team, een koordwaarde wordt gebruikt om uw team te identificeren, kan onder het **Lidmaatschap** lusje in uw ontwikkelaarsrekening worden gevestigd die."
+
 
 Deze instelling vereenvoudigt de snelle configuratie van marketingkanalen, waardoor alle essentiële bronnen gemakkelijk beschikbaar zijn in de apps voor Experience Platform, Journey Optimizer en gegevensverzameling. Hierdoor kan uw marketingteam snel beginnen met het maken van campagnes en reizen.
 

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 0144809646e9e3b57089820290723ed7f9ed0acc
+source-git-commit: 77e2892dc188ebdd79031792434b4f55913ee811
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 3%
@@ -48,6 +48,7 @@ De instelling van het kanaal met instructies ondersteunt de volgende platforms e
    * Mobiel pushbericht
 
    * Web Basic
+
 
 Merk op dat voor elk platform dat u zou willen opstelling, het wordt vereist om een afzonderlijke configuratie tot stand te brengen. Dit komt omdat elke toepassing een unieke kanaalconfiguratie vereist, en dit verstrekt de flexibiliteit om te bepalen welke kanalen u voor elk platform zou willen.
 
