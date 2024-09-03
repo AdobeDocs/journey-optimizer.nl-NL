@@ -5,7 +5,8 @@ feature: Code-based Experiences, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 392fe9d87e1061a2ba40fbcae042cd1a0891a829
+exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
+source-git-commit: a025a269353d7451ff0426895688f62211768383
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 1%
@@ -78,7 +79,7 @@ Ga als volgt te werk om een kanaalconfiguratie te maken:
 
    * Voer de **[!UICONTROL App id]** en **[!UICONTROL Location or path inside the app]** in.
 
-     ![](assets/code_config_3.png)
+     ![](assets/code_config_3.png){width="500"}
 
 1. Selecteer Overige als platform als uw implementatie niet voor Web, iOS of Android is of als u specifieke URI&#39;s moet opgeven. Wanneer u meerdere platforms kiest of meerdere URI&#39;s toevoegt, wordt de inhoud geleverd aan alle geselecteerde pagina&#39;s of toepassingen.
 
@@ -174,4 +175,3 @@ In de onderstaande tabellen staan enkele voorbeelden van de oppervlakte-URI-defi
 | --------- | ----------- | ------- | 
 | Jokertekenweb | `wildcard:web://domain.com/*#element` | Jokeroppervlak - vertegenwoordigt een afzonderlijk element op elke pagina onder een specifiek domein. |
 | Jokertekenweb | `wildcard:web://*domain.com/*#element` | Jokeroppervlak - vertegenwoordigt een afzonderlijk element op elke pagina onder alle domeinen die eindigen met &quot;domain.com&quot;. |
-
