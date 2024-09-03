@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1c34c916843600d8602c5c1fe7164aebc83becd9
+source-git-commit: 762fa346d9303865f1509bfc9c2e9cb3528227e4
 workflow-type: tm+mt
-source-wordcount: '1325'
-ht-degree: 5%
+source-wordcount: '1361'
+ht-degree: 4%
 
 ---
 
@@ -196,6 +196,8 @@ De taal wijzigen:
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
+<!--PRIORITIZATION & CONFLICT MANAGEMENT-->
+
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Prioriteit"
@@ -205,3 +207,33 @@ De taal wijzigen:
 >id="ajo_campaigns_campaign_priority"
 >title="Prioriteit"
 >abstract="Wijs een prioriteitsscore toe aan de campagne, variërend van 0 tot 100. Een hoger getal geeft een hogere prioriteit aan. Wanneer twee campagnes hetzelfde oppervlak gebruiken, selecteert Journey Optimizer de campagne met de hoogste prioriteitsscore. Als de campagnes dezelfde score hebben, wordt de campagne gekozen die het laatst is gewijzigd."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_campaign_conflict"
+>title="Conflicterende viewer in campagnes"
+>abstract="Conflicterende viewer in campagnes"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_conflict"
+>title="Conflicterende kijker op reis"
+>abstract="Conflicterende kijker op reis"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_object_type"
+>title="Objecttype"
+>abstract="Objecttype"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_rule_set"
+>title="Regel toepassen op reizen"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_rule_set"
+>title="Regels toepassen die zijn ingesteld op campagnes"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_set_prioritization"
+>title="Factor in prioritering"
+>abstract="TBD"
