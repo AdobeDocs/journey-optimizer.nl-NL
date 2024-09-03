@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 549efb9e12dccedb27335553194e09deab09a35f
+source-git-commit: 6fc3e27f11fa95d9ee705c8a3aff8649f66dc44d
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 7%
+source-wordcount: '740'
+ht-degree: 8%
 
 ---
 
@@ -61,19 +61,20 @@ ht-degree: 7%
 
 Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Inhoudskaarten (beperkte beschikbaarheid)</strong><br/></th>
+<th><strong>Content Cards (Limited Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Inhoudskaarten zijn een nieuwe functie voor digitale berichten in Adobe Journey Optimizer die persoonlijke en aantrekkelijke inhoud direct levert in mobiele apps en websites. In tegenstelling tot traditionele pushmeldingen worden inhoudskaarten naadloos geïntegreerd in de gebruikersinterface en bieden ze permanente, niet-indringende updates die de interactie en gebruikerservaring verbeteren.</p>
-<p>Met deze functie kunnen marketers relevante, rijke media-inhoud presenteren aan gebruikers, waardoor hun betrokkenheid toeneemt en belangrijke berichten zichtbaar zijn zonder de reis van de gebruiker te verstoren.</p>
+<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
 </br>
-<p>De inhoudskaart is momenteel slechts beschikbaar voor een reeks organisaties (Beperkte Beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.</p>
+<p>Content card are currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
