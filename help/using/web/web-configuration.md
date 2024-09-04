@@ -5,7 +5,8 @@ feature: Web Channel, Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
+source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 0%
@@ -81,15 +82,46 @@ Beschikbare operatoren voor het samenstellen van regels voor paginaovereenkomste
 
 * **Weg**
 
-  | | | |
-  |-|-|-|
-  | Operator  | Beschrijving  | Voorbeelden  |
-  | Gelijk  | Exacte overeenkomst van het pad.  |    |
-  | Begint met  | Komt overeen met alle paden (inclusief subpaden) die beginnen met de ingevoerde tekenreeks.  |    |
-  | Eindigt met  | Komt overeen met alle paden (inclusief subpaden) die eindigen met de ingevoerde tekenreeks.  |    |
-  | Alle  | Hiermee worden alle paden met elkaar vergeleken. Dit is handig wanneer u alle paden in een of meerdere domeinen aanwijst.  |    |
-  | Overeenkomende jokertekens  | Met de operator &quot;Jokertekoppeling&quot; kan de gebruiker een interne jokerteken binnen het pad definiëren, zoals &quot;/products/*/detail&quot;.  Het jokerteken * in de component Path ** komt overeen met een willekeurige reeks tekens totdat het eerste / teken wordt aangetroffen.  /*/ komt overeen met een willekeurige reeks tekens (inclusief subpaden)  | Voorbeeld: &quot;Jokertekoppeling: /products/*/detail&quot;, komt overeen met alle paden zoals:  example.com/products/yoga/detail  example.com/products/surf/detail  example.com/products/tennis/detail  example.com/products/yoga/pants/detail   Bijvoorbeeld: &quot;Gelijke: /prod*/detail, past alle wegen als aan:  example.com/products/detail  example.com/production/detail   komt niet overeen met paden als:  example.com/products/yoga/detail  |
-  | Bevat  | &quot;contains&quot; wordt omgezet in een jokerteken zoals &quot;mystring&quot; en komt overeen met alle paden die deze reeks tekens bevatten.  | Voorbeeld: &quot;Bevat: product&quot;, komt overeen met alle paden die het tekenreeksproduct bevatten, zoals: example.com/products, example.com/yoga/perfproduct, example.com/surf/productdescription, example.com/home/product/page  |
-
+<table>
+    <thead>
+    <tr>
+        <th><strong>Operator</th>
+        <th><strong>Beschrijving</th>
+        <th><strong>Voorbeelden</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Gelijk</td>
+        <td>Exacte overeenkomst van het pad. </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Begint met</td>
+        <td>Komt overeen met alle paden (inclusief subpaden) die beginnen met de ingevoerde tekenreeks.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Eindigt met</td>
+        <td>Komt overeen met alle paden (inclusief subpaden) die eindigen met de ingevoerde tekenreeks.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Alle</td>
+        <td>Hiermee worden alle paden met elkaar vergeleken. Dit is handig wanneer u alle paden in een of meerdere domeinen aanwijst.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Overeenkomende jokertekens</td>
+        <td>Met de operator voor jokertekens kan de gebruiker een interne jokerteken in het pad definiëren, zoals "/products/*/detail".  Het jokerteken * in de component Path ** komt overeen met een willekeurige reeks tekens totdat het eerste / teken wordt aangetroffen.  /*/ komt overeen met een willekeurige reeks tekens (inclusief subpaden)</td>
+        <td>Voorbeeld: "Jokertekentekoppeling: /products/*/detail" komt overeen met alle paden zoals: <ul>example.com/products/yoga/detail</ul><ul>example.com/products/surf/detail</ul><ul>example.com/products/tennis/detail</ul><ul>example.com/products/yoga/pants/detail</ul>Voorbeeld: "Overeenkomsten: /prod*/detail, komt overeen met alle paden als:  <ul>example.com/products/detail</ul><ul>example.com/production/detail</ul>  komt niet overeen met paden als: <ul>example.com/products/yoga/detail</ul></td>
+    </tr>
+    <tr>
+        <td>Bevat</td>
+        <td>"contains" wordt omgezet in een jokerteken zoals "mystring" en komt overeen met alle paden die deze reeks tekens bevatten.</td>
+        <td>Ex: "Bevat: product", komt overeen met alle paden die het tekenreeksproduct bevatten, zoals: <ul>example.com/products</ul><ul>example.com/yoga/perfproduct</ul><ul>example.com/surf/productdescription</ul><ul>example.com/home/product/page</ul></td>
+    </tr>
+    </tbody>
+</table>
 
 Als uw gebruikscase niet met één regel kan worden gemodelleerd, kunt u meerdere paginaregels toevoegen en kunt u de operatoren &#39;&#39;Of&#39;&#39; of &#39;&#39;Uitsluiten&#39;&#39; gebruiken. &#39;Uitsluiten&#39; is handig wanneer een pagina die overeenkomt met de gedefinieerde regel niet als doelpagina moet worden opgegeven: bijvoorbeeld alle pagina&#39;s &#39;example.com&#39; die &#39;product&#39; bevatten, met uitzondering van de volgende pagina: `https://example.com/blogs/productinfo` .

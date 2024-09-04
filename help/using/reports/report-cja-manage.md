@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 3098b63ef643da63a205f539ac48f902e823bbd1
+source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -140,6 +140,10 @@ d. Open the report for the journey that you added the metric to and ensure that 
 -->
 
 ## Een publiek maken van de rapportgegevens {#create-audience}
+
+>[!IMPORTANT]
+>
+>Elke organisatie is beperkt tot het publiceren van 25 soorten publiek. Bovendien kunnen gebruikers maximaal 5 soorten publiek per uur en 20 personen per dag publiceren
 
 U kunt nu specifieke gegevens in de tabel selecteren en rechtstreeks een publiek maken op basis van deze selecties, zodat het proces voor het maken van een publiek wordt gestroomlijnd en vereenvoudigd.
 
