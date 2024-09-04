@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: 9be8b3864a41b37f3a61f24b6e6b54ec184d41aa
+source-git-commit: 37e60e5d7c0ad164cde67015b72341e1f4eda6a9
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 0%
@@ -114,12 +114,12 @@ Beschikbare operatoren voor het samenstellen van regels voor paginaovereenkomste
     <tr>
         <td>Overeenkomende jokertekens</td>
         <td>Met de operator voor jokertekens kan de gebruiker een interne jokerteken in het pad definiëren, zoals "/products/*/detail".  Het jokerteken * in de component Path ** komt overeen met een willekeurige reeks tekens totdat het eerste / teken wordt aangetroffen.  /*/ komt overeen met een willekeurige reeks tekens (inclusief subpaden)</td>
-        <td>Voorbeeld: "Jokertekentekoppeling: /products/*/detail" komt overeen met alle paden zoals: <ul>example.com/products/yoga/detail</ul><ul>example.com/products/surf/detail</ul><ul>example.com/products/tennis/detail</ul><ul>example.com/products/yoga/pants/detail</ul>Voorbeeld: "Overeenkomsten: /prod*/detail, komt overeen met alle paden als:  <ul>example.com/products/detail</ul><ul>example.com/production/detail</ul>  komt niet overeen met paden als: <ul>example.com/products/yoga/detail</ul></td>
+        <td>Voorbeeld: "Jokertekentekoppeling: /products/*/detail" komt overeen met alle paden zoals: <ul><li>example.com/products/yoga/detail</li><li>example.com/products/surf/detail</li><li>example.com/products/tennis/detail</li><li>example.com/products/yoga/pants/detail</li></ul>Voorbeeld: "Overeenkomsten: /prod*/detail, komt overeen met alle paden als: <ul><li>example.com/products/detail</li><li>example.com/production/detail</li></ul>komt niet overeen met paden als: <ul><li>example.com/products/yoga/detail</li></ul></td>
     </tr>
     <tr>
         <td>Bevat</td>
         <td>"contains" wordt omgezet in een jokerteken zoals "mystring" en komt overeen met alle paden die deze reeks tekens bevatten.</td>
-        <td>Ex: "Bevat: product", komt overeen met alle paden die het tekenreeksproduct bevatten, zoals: <ul>example.com/products</ul><ul>example.com/yoga/perfproduct</ul><ul>example.com/surf/productdescription</ul><ul>example.com/home/product/page</ul></td>
+        <td>Ex: "Bevat: product", komt overeen met alle paden die het tekenreeksproduct bevatten, zoals: <ul><li>example.com/products</li><li>example.com/yoga/perfproduct</li><li>example.com/surf/productdescription</li><li>example.com/home/product/page</li></ul></td>
     </tr>
     </tbody>
 </table>
