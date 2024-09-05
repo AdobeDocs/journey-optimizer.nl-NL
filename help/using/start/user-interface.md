@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 762fa346d9303865f1509bfc9c2e9cb3528227e4
+source-git-commit: 6c2e974cb690866e9c34e80ba9e48b5375185024
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1420'
 ht-degree: 4%
 
 ---
@@ -237,3 +237,45 @@ De taal wijzigen:
 >id="ajo_rule_set_prioritization"
 >title="Factor in prioritering"
 >abstract="TBD"
+
+<!--CONTENT LOCKING-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_governance"
+>title="Bestuur"
+>abstract="Bestuur"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_mode"
+>title="Modus"
+>abstract="Modus"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_content_addition"
+>title="Inhoud toevoegen inschakelen"
+>abstract="Inhoud toevoegen inschakelen"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_structure"
+>title="Inhoud vergrendelen in structuur"
+>abstract="Inhoud vergrendelen in structuur"
+
+>[!CONTEXTUALHELP]
+>id="ajo_locking_component"
+>title="Specifieke vergrendeling in onderdeel gebruiken"
+>abstract="Specifieke vergrendeling in onderdeel gebruiken"
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_editable_areas"
+>title="Bewerkbare gebieden markeren"
+>abstract="Bewerkbare gebieden markeren"
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_locking_activated"
+>title="Bestuur ingeschakeld"
+>abstract="De inhoudvergrendeling wordt geactiveerd en kan voorkomen dat u wijzigingen aanbrengt."
+
+>[!CONTEXTUALHELP]
+>id="ajo_email_locking_read_only"
+>title="Alleen-lezen"
+>abstract="Deze inhoud is alleen-lezen en kan niet worden gewijzigd."
