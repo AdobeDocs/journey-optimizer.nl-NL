@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: kanaal, oppervlak, technisch, parameters, optimalisator
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 8fb87d2e2085d98dd8b014df6aa4d734bab4e997
+source-git-commit: 4cd7e193079f0e9d141d28ca80dd0cf7a899fbea
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1676'
 ht-degree: 0%
 
 ---
@@ -271,10 +271,9 @@ U kunt een gedeactiveerde kanaalconfiguratie niet rechtstreeks bewerken. U kunt 
 
 ![](assets/preset-activate.png)
 
-<!--
-## How-to video{#video-presets}
 
-Learn how to create channel configurations, how to use them and how to delegate a subdomain and create an IP pool.
+## Hoe kan ik-video{#video-presets}
 
->[!VIDEO](https://video.tv.adobe.com/v/334343?quality=12)
--->
+Leer welke kanaalconfiguraties zijn en hoe deze in Adobe Journey Optimizer worden gebruikt.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
