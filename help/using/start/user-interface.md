@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6c2e974cb690866e9c34e80ba9e48b5375185024
+source-git-commit: 9f67f0395a789de066f527b43a25cd0d8501c205
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1428'
 ht-degree: 4%
 
 ---
@@ -279,3 +279,10 @@ De taal wijzigen:
 >id="ajo_email_locking_read_only"
 >title="Alleen-lezen"
 >abstract="Deze inhoud is alleen-lezen en kan niet worden gewijzigd."
+
+<!--GOVERNANCE POLICIES-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_data_governance_policy_violation"
+>title="Overtreding van beleid voor gegevensbeheer"
+>abstract="Overtreding van beleid voor gegevensbeheer"
