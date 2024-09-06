@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: aangepast, algemeen, evenementen, reizen
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
-source-git-commit: cc4ea97f858a212b82ac3b77328e61f59e3bfc27
+source-git-commit: 343e7bbebf35711259d2f3392f1ce5658865599a
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '589'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Voor dit type gebeurtenis kunt u alleen een label en een beschrijving toevoegen.
 
 ![](assets/general-events.png)
 
-Wanneer u een bedrijfsgebeurtenis neerzet, wordt automatisch een **Publiek lezen** activiteit. Raadpleeg voor meer informatie over bedrijfsgebeurtenissen [deze sectie](../event/about-events.md)
+Wanneer u een bedrijfsgebeurtenis laat vallen, voegt het automatisch a **Gelezen activiteit van het publiek** toe. Voor meer informatie over bedrijfsgebeurtenissen, verwijs naar [ deze sectie ](../event/about-events.md)
 
 ## Luisteren naar gebeurtenissen tijdens een bepaald tijdstip {#events-specific-time}
 
@@ -46,11 +46,11 @@ Als er geen time-outpad is gedefinieerd, fungeert de time-outinstelling als een 
 
 Voer de volgende stappen uit om een time-out voor een gebeurtenis te configureren:
 
-1. Activeer **[!UICONTROL Define the event timeout]** van de eigenschappen van de gebeurtenis.
+1. Activeer de optie **[!UICONTROL Define the event timeout]** vanuit de eigenschappen van de gebeurtenis.
 
-1. Geef op hoeveel tijd de reis moet wachten op de gebeurtenis. De maximale duur is 29 dagen.
+1. Geef op hoeveel tijd de reis moet wachten op de gebeurtenis. De maximumduur is **90 dagen**.
 
-1. Als u de personen naar een time-outpad wilt sturen wanneer er geen gebeurtenis is ontvangen binnen de opgegeven time-out, schakelt u de optie **[!UICONTROL Set a timeout path]** -optie. Als deze optie niet wordt ingeschakeld, wordt de reis voor de persoon voortgezet zodra de time-out is bereikt. Wij adviseren u altijd toelaat **Een time-outpad instellen** -optie.
+1. Als er geen gebeurtenis wordt ontvangen binnen de opgegeven time-out, kunt u het beste de personen naar een time-outpad sturen. Schakel hiervoor de optie **[!UICONTROL Set a timeout path]** in. In dat geval gaat de reis door voor het individu zodra de time-out is bereikt. We raden u aan de optie **[!UICONTROL Set a timeout path]** altijd in te schakelen.
 
    ![](assets/event-timeout.png)
 
@@ -59,9 +59,9 @@ In dit voorbeeld stuurt de reis een eerste welkomstmail naar een klant nadat hij
 * Als de restaurantgebeurtenis minder dan 1 dag na de welkomstmail wordt ontvangen, wordt de e-mail met maaltijdkorting verzonden.
 * Als er de volgende dag geen restaurantgebeurtenis wordt ontvangen, loopt de persoon door het time-outpad.
 
-Merk op dat als u een onderbreking op veelvoudige gebeurtenissen wilt vormen die na een **[!UICONTROL Wait]** activiteit, moet u de onderbreking op één van deze gebeurtenissen slechts vormen.
+Als u een time-out wilt configureren voor meerdere gebeurtenissen die zich na een **[!UICONTROL Wait]** -activiteit bevinden, moet u de time-out alleen configureren voor een van deze gebeurtenissen.
 
-De gedefinieerde time-out is van toepassing op alle gebeurtenissen na de **[!UICONTROL Wait]** activiteit:
+De gedefinieerde time-out is van toepassing op alle gebeurtenissen na de **[!UICONTROL Wait]** -activiteit:
 
 * Als één gebeurtenis binnen de time-outduur wordt ontvangen, loopt de afzonderlijke gebeurtenis door naar het pad van de ontvangen gebeurtenis.
 * Als er geen gebeurtenis wordt ontvangen binnen de tijdsduur van de time-out, loopt de afzonderlijke gebeurtenis door naar de time-outvertakking van de gebeurtenis waar de time-out is gedefinieerd.
