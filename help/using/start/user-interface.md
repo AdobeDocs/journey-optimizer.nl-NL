@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9f67f0395a789de066f527b43a25cd0d8501c205
+source-git-commit: a99d47c1f64b1cb3174fcc8f89d201bf66a36bb5
 workflow-type: tm+mt
-source-wordcount: '1428'
+source-wordcount: '1469'
 ht-degree: 4%
 
 ---
@@ -286,3 +286,45 @@ De taal wijzigen:
 >id="ajo_data_governance_policy_violation"
 >title="Overtreding van beleid voor gegevensbeheer"
 >abstract="Overtreding van beleid voor gegevensbeheer"
+
+<!--APPROVAL POLICIES-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_permissions_approval_policy"
+>title="Goedkeuringsbeleid"
+>abstract="Goedkeuringsbeleid"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_approval"
+>title="Goedkeuring aanvragen"
+>abstract="Goedkeuring aanvragen (twee aparte id&#39;s?)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_request_change"
+>title="Verzoek wijzigen"
+>abstract="Wijziging aanvragen (twee aparte id&#39;s?)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_edit_disabled
+>title="Bewerken uitgeschakeld"
+>abstract="Bewerken uitgeschakeld (campagnes)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_edit_disabled
+>title="Bewerken uitgeschakeld"
+>abstract="Uitgeschakeld bewerken (reizen)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_approval_policy_approval_status"
+>title="Goedkeuringsstatus"
+>abstract="Goedkeuringsstatus (twee aparte id&#39;s?)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_approve"
+>title="Goedkeuren"
+>abstract="Goedkeuren (campagnes)"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_approve"
+>title="Goedkeuren"
+>abstract="Goedkeuren (ritten)"
