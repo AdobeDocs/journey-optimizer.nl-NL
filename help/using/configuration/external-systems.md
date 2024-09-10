@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: extern, API, optimaliseren, aftopping
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0738443c024499079d8527fe2cc1c80f42f4f476
+source-git-commit: ae92a1e950822d4a0dbac1aa535078fe535113c0
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 25%
+source-wordcount: '1343'
+ht-degree: 24%
 
 ---
 
@@ -37,7 +37,7 @@ Wanneer Journey Optimizer een aanroep naar een externe API uitvoert, worden de t
 
 Wanneer u een databron of een actie configureert, maakt u een verbinding met een systeem om extra informatie op te halen voor gebruik in uw journeys of om berichten of API-oproepen te versturen.
 
-Journey-API&#39;s ondersteunen tot 5000 gebeurtenissen per seconde, maar sommige externe systemen of API&#39;s hebben mogelijk geen equivalente verwerkingscapaciteit. Om overbelasting van deze systemen te voorkomen, kunt u de **Afbeelding** en **Throttling** API&#39;s om het aantal verzonden gebeurtenissen per seconde te beperken.
+Journey-API&#39;s ondersteunen tot 5000 gebeurtenissen per seconde, maar sommige externe systemen of API&#39;s hebben mogelijk geen equivalente verwerkingscapaciteit. Om het overbelasten van deze systemen te verhinderen, kunt u het **Aftappen** en **Throttling** APIs gebruiken om het aantal gebeurtenissen te beperken die per seconde worden verzonden.
 
 Telkens wanneer een API-oproep wordt uitgevoerd door journeys, passeert deze de API-engine. Als de limiet die is ingesteld in de API wordt bereikt, wordt de aanroep afgewezen als u de API voor uitsnijden gebruikt, of gedurende maximaal 6 uur in de wachtrij geplaatst en zo snel mogelijk verwerkt in de volgorde waarin deze is ontvangen als u de API voor rotatie gebruikt.
 
@@ -45,7 +45,7 @@ Bijvoorbeeld, laten wij zeggen dat u een het begrenzen of vertragen regel van 20
 
 >[!IMPORTANT]
 >
->**Afdekregels** worden geconfigureerd op sandboxniveau voor een specifiek eindpunt (de URL wordt aangeroepen), maar globaal voor alle reizen van die sandbox. De bedekking is beschikbaar op zowel gegevensbronnen als douaneacties.
+>**het Bedekken van regels** wordt gevormd op zandbakniveau, voor een specifiek eindpunt (geroepen URL) maar globaal aan alle reizen van die zandbak. De bedekking is beschikbaar op zowel gegevensbronnen als douaneacties.
 >
 >**Beperkingsregels** worden voor productiesandboxen alleen geconfigureerd voor een specifiek eindpunt, maar globaal voor alle journeys in alle sandboxes. U kunt slechts één throttling configuratie per organisatie hebben. Throtting is alleen beschikbaar voor aangepaste handelingen.
 >
@@ -56,7 +56,7 @@ Raadpleeg de volgende secties voor meer informatie over het werken met de API&#3
 * [Afkappings-API](capping.md)
 * [API voor beperken](throttling.md)
 
-Een gedetailleerde beschrijving van de API&#39;s is beschikbaar in [Adobe Journey Optimizer API-documentatie](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
+Een gedetailleerde beschrijving van APIs is beschikbaar in [ documentatie van Adobe Journey Optimizer APIs ](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)
 
 ### Capaciteit gegevensbronnen en aangepaste acties {#capacity}
 
@@ -70,7 +70,7 @@ Voor **aangepaste acties** moet u de capaciteit van uw externe API evalueren. Al
 
 >[!NOTE]
 >
->Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Zie deze voor meer informatie over reacties [sectie](../action/action-response.md)
+>Aangezien de reacties nu worden gesteund, zou u douaneacties in plaats van gegevensbronnen voor externe gegevensbronnen moeten gebruiken-gevallen. Voor meer informatie over reacties, zie deze [ sectie ](../action/action-response.md)
 
 ## Time-out en opnieuw proberen{#timeout}
 
@@ -98,12 +98,12 @@ Laten we een voorbeeld nemen voor een time-out van 5 seconden.
 
 **Hoe kan ik een het in kaart brengen of throttling regel vormen? Is er een standaardregel?**
 
-Standaard is er geen regel voor het aftappen of vertragen. De regels worden bepaald op zandbakniveau voor een specifiek eindpunt (geroepen URL), gebruikend het Kappen of het Draaien API. Zie [deze sectie](../configuration/external-systems.md#capping).
+Om het in kaart brengen of het vertragen regels tot stand te brengen, gelieve te verwijzen naar [ deze sectie ](../configuration/external-systems.md#capping). Door gebrek, is er geen throttling regel maar een maximum van 300.000 vraag over één minuut die voor alle douaneacties, per gastheer en per zandbak wordt bepaald. Deze grens is geplaatst gebaseerd op klantengebruik, om externe eindpunten te beschermen die door douaneacties worden gericht. U moet hiermee rekening houden bij reizen voor uw publiek door een juiste leessnelheid te definiëren (5000 profielen/s wanneer aangepaste handelingen worden gebruikt). Indien nodig, kunt u deze het plaatsen met voeten treden door een grotere het maximum van het maximum of het vertragen grens door onze Capping/het Draaien APIs te bepalen.
 
-**Hoeveel pogingen worden uitgevoerd? Kan ik het aantal pogingen veranderen of een minimumwachttijd tussen pogingen bepalen?**
+**hoeveel pogingen worden uitgevoerd? Kan ik het aantal pogingen veranderen of een minimumwachttijdperiode tussen pogingen bepalen?**
 
 Voor een bepaalde vraag, kan een maximum van drie pogingen na de eerste vraag worden uitgevoerd, tot het eind van onderbrekingsduur wordt bereikt. Het aantal pogingen en de tijd tussen elke keer opnieuw proberen kunnen niet worden gewijzigd. Zie [deze sectie](../configuration/external-systems.md#timeout).
 
-**Waar kan ik de onderbreking vormen? Is er een maximumwaarde?**
+**waar kan ik onderbreking vormen? Is er een maximumwaarde?**
 
-In elke reis, kunt u een onderbrekingsduur bepalen. De duur van de onderbreking wordt gevormd in de eigenschappen van een reis. De duur van de onderbreking moet tussen 1 seconde en 30 seconden zijn. Zie [deze sectie](../configuration/external-systems.md#timeout) en [deze pagina](../building-journeys/journey-properties.md#timeout_and_error).
+In elke reis, kunt u een onderbrekingsduur bepalen. De duur van de onderbreking wordt gevormd in de eigenschappen van een reis. De duur van de onderbreking moet tussen 1 seconde en 30 seconden zijn. Verwijs naar [ deze sectie ](../configuration/external-systems.md#timeout) en [ deze pagina ](../building-journeys/journey-properties.md#timeout_and_error).
