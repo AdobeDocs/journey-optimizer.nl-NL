@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2345'
 ht-degree: 0%
 
 ---
@@ -142,11 +142,12 @@ Specifieke instructies zijn van toepassing op de **[!UICONTROL Update profile]**
 De volgende instructies zijn van toepassing op de **[!UICONTROL Read Audience]** -activiteit:
 
 * Gestroomlijnde doelgroepen zijn altijd up-to-date, maar batchdoelgroepen worden niet berekend tijdens het ophalen. Ze worden alleen elke dag geëvalueerd op het tijdstip van de dagelijkse batchevaluatie.
-* Voor reizen die gebruikmaken van een activiteit van het leespubliek is er een maximumaantal reizen dat precies op hetzelfde moment kan beginnen. Het systeem zal tests uitvoeren, maar u moet vermijden dat meer dan vijf reizen (met Leespubliek, gepland of &quot;zo snel mogelijk&quot; te starten) op precies hetzelfde tijdstip beginnen door deze over een bepaalde tijd te verspreiden, bijvoorbeeld 5 tot 10 minuten uit elkaar.
-* De activiteit van het Leespubliek kan niet met Adobe Campaign activiteiten worden gebruikt.
-* De Lees publieksactiviteit kan slechts als eerste activiteit in een reis, van na een bedrijfsgebeurtenisactiviteit worden gebruikt.
-* Een reis kan slechts één activiteit van het Leespubliek hebben.
-* Zie ook aanbevelingen over hoe te om de Gelezen publieksactiviteit in [ te gebruiken deze pagina ](../building-journeys/read-audience.md).
+* Voor reizen die a **gebruiken Gelezen de activiteit van het publiek**, is er een maximumaantal reizen dat precies tezelfdertijd kan beginnen. De pogingen zullen door het systeem worden uitgevoerd maar gelieve te vermijden hebbend meer dan vijf reizen (met **Gelezen Publiek**, gepland of die &quot;zo spoedig mogelijk&quot;beginnen) op het nauwkeurige zelfde ogenblik door hen over tijd, bijvoorbeeld 5 tot 10 minuten uit elkaar te spreiden.
+* De **Gelezen activiteit van het publiek** kan niet met de activiteiten van Adobe Campaign worden gebruikt.
+* De **Gelezen activiteit van het Publiek** kan slechts als eerste activiteit in een reis, van na een bedrijfsgebeurtenisactiviteit worden gebruikt.
+* Een reis kan slechts één **Gelezen activiteit van het Publiek** hebben.
+* Zie ook aanbevelingen over hoe te om **te gebruiken las de activiteit van het publiek** in [ deze pagina ](../building-journeys/read-audience.md).
+* De pogingen worden toegepast door gebrek op publiek-getriggerde reizen (die met a **Gelezen Publiek** of a **BedrijfsGebeurtenis** beginnen) terwijl het terugwinnen van de uitvoerbaan. Als er een fout optreedt tijdens het maken van de exporttaak, worden de pogingen om de 10mn opnieuw uitgevoerd, tot maximaal 1 uur. Daarna zullen we het als een mislukking beschouwen. Deze soorten reizen kunnen daarom tot 1 uur na de geplande tijd worden uitgevoerd.
 
 
 ### kwalificatie publiek {#audience-qualif-g}

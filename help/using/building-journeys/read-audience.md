@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: activiteit, reis, lezen, publiek, platform
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 817f9c16ae48b1127e5092add6fbcefa8dd3ba9f
+source-git-commit: 75b7d7402363709a0790ffaae051cf836bed6c81
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1606'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Neem als voorbeeld het &quot;toepassings het openen en controle van de Luma&quot
 
 ➡️ [ ontdekt deze eigenschap in video ](#video)
 
-## Lees hier meer {#must-read}
+## Guardrails en best practices {#must-read}
 
 * Voor reizen die a **gebruiken Gelezen de activiteit van het publiek**, is er een maximumaantal reizen dat precies tezelfdertijd kan beginnen. De pogingen zullen door het systeem worden uitgevoerd maar vermijden hebbend meer dan vijf reizen (met **Gelezen Publiek**, gepland of die &quot;zo spoedig mogelijk&quot;beginnen) tezelfdertijd. De beste manier is om ze over een tijdsverloop te verspreiden, bijvoorbeeld 5 tot 10 minuten na elkaar.
 
@@ -40,6 +40,7 @@ Neem als voorbeeld het &quot;toepassings het openen en controle van de Luma&quot
 * Als beste praktijken, adviseren wij u slechts partijpubliek in a **Gelezen publiek** activiteit. Dit zal een betrouwbare en consistente telling van de tijdens de reis gebruikte doelgroepen opleveren. Lees het publiek wordt ontworpen voor partijgebruik gevallen. Als uw gebruiksgeval gegevens in real time gelieve vereist te gebruiken {de kwalificatieactiviteit van 0} Audience ](audience-qualification-events.md)**.**[
 
 * Het publiek [ werd ingevoerd uit een Csv- dossier ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) of resulterend uit [ samenstellingswerkschema&#39;s ](../audience/get-started-audience-orchestration.md) kan in de **Gelezen activiteit van het Publiek** worden geselecteerd. Deze doelgroepen zijn niet beschikbaar in de **activiteit van de Kwalificatie van het publiek 0}.**
+
 
 De begeleiding met betrekking tot **Gelezen de activiteit van het publiek** wordt vermeld in [ deze pagina ](../start/guardrails.md#read-segment-g).
 
@@ -192,6 +193,13 @@ Zo kunnen VIP en niet-VIP klanten na een andere ervaring gedurende tien dagen op
 Na een vereniging, kunt u het publiek opnieuw verdelen door een segmentatie of een uitsluiting uit te voeren.
 
 ![](assets/read-segment-audience3.png)
+
+
+## Opnieuw {#read-audience-retry}
+
+De pogingen worden toegepast door gebrek op publiek-getriggerde reizen (die met a **Gelezen Publiek** of a **BedrijfsGebeurtenis** beginnen) terwijl het terugwinnen van de uitvoerbaan. Als er een fout optreedt tijdens het maken van de exporttaak, worden de pogingen om de 10mn opnieuw uitgevoerd, tot maximaal 1 uur. Daarna zullen we het als een mislukking beschouwen. Deze soorten reizen kunnen daarom tot 1 uur na de geplande tijd worden uitgevoerd.
+
+De onsuccesvolle **Gelezen trekkers van het publiek** worden gevangen en getoond in **Alarm**. Het **Gelezen alarm van het Publiek** waarschuwt u als de a **gelezen activiteit van het Publiek** geen profiel 10 min na geplande tijd van uitvoering heeft verwerkt. Deze fout kan worden veroorzaakt door technische problemen, of omdat het publiek leeg is. Als deze fout door technische problemen wordt veroorzaakt, moet u er rekening mee houden dat er nog steeds pogingen kunnen worden gedaan, afhankelijk van het type probleem (bijvoorbeeld: als het aanmaken van exportarbeidsplaatsen is mislukt, proberen we elke 10 miljoen opnieuw gedurende maximaal 1 uur). [Meer informatie](../reports/alerts.md#alert-read-audiences)
 
 ## Hoe kan ik-video {#video}
 
