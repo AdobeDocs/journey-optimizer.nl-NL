@@ -10,14 +10,24 @@ level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: a190b5547c2d8e13563391bd9d784add75c55fd4
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1467'
 ht-degree: 1%
 
 ---
 
 # Meertalige inhoud maken met automatische vertaling {#multilingual-automated}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_add_provider"
+>title="Provider toevoegen"
+>abstract="Voeg desgewenst vertaalproviders en landinstellingen toe. Hierdoor kunt u beheren welke providers en landinstellingen actief zijn voor uw project, zodat u over de flexibiliteit beschikt om bronnen en doelgroepen aan te passen op basis van uw huidige vereisten en projectbereik."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_edit_provider"
+>title="Provider bewerken"
+>abstract="Wijzig de bestaande vertaalproviders en voeg zo nodig landinstellingen toe. Met deze functionaliteit kunt u bepalen welke providers en landinstellingen actief zijn voor uw project. Zo kunt u op flexibele wijze bronnen aanpassen en specifieke doelgroepen afstemmen op uw huidige behoeften en projectdoelstellingen."
 
 >[!AVAILABILITY]
 >
@@ -39,6 +49,11 @@ Ga als volgt te werk om meertalige inhoud te maken met automatische vertaling:
 
 ## Landinstelling maken {#create-locale}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_add_locale"
+>title="Landinstelling toevoegen"
+>abstract="Als u uw taalvoorkeuren configureert, kunt u extra landinstellingen maken als de gewenste taal niet beschikbaar is voor meertalige inhoud."
+
 Wanneer het vormen van uw taalmontages, zoals die in [ worden beschreven creeer uw taalmontages ](#language-settings) sectie, als een specifieke scène niet beschikbaar voor uw meertalige inhoud is, hebt u de flexibiliteit om zo vele nieuwe scènes tot stand te brengen zoals vereist gebruikend het **[!UICONTROL Translation]** menu.
 
 1. Open **[!UICONTROL Translation]** via het menu **[!UICONTROL Content management]** .
@@ -54,6 +69,16 @@ Wanneer het vormen van uw taalmontages, zoals die in [ worden beschreven creeer 
    ![](assets/locale_2.png)
 
 ## Vertaalproject maken {#translation-project}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_create_project"
+>title="Project maken"
+>abstract="Als u meertalige inhoud wilt gaan maken, start u uw vertaalproject door de doellandinstelling te identificeren en de juiste taal of het juiste regionale dialect voor uw publiek te selecteren. Kies vervolgens een vertaalprovider die aansluit bij de behoeften van uw project."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_edit_project"
+>title="Project bewerken"
+>abstract="Werk uw vertaalproject bij en voeg extra landinstellingen toe, zodat u uw inhoud kunt uitbreiden en een groter publiek kunt bereiken."
 
 Start uw vertaalproject door de doellandinstelling op te geven en de specifieke taal of regio voor uw inhoud aan te geven. Vervolgens kunt u uw vertaalprovider kiezen.
 
@@ -205,6 +230,11 @@ U kunt nu uw campagne of reis activeren. Als u eenmaal bent verzonden, kunt u de
 
 ## Insourcingvertaalproject beheren {#manage-ht-project}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_insourcing_project"
+>title="Omzetten van vertaalproject"
+>abstract="Met het vertaalproject voor insourcing kunt u vertalingen direct binnen uw vertaalproject beheren en uitvoeren, het proces stroomlijnen en meer controle houden over de kwaliteit en consistentie van de vertaling."
+
 Als u tijdens het configureren van uw taalinstellingen de optie Insourcing hebt geselecteerd, kunt u uw inhoud rechtstreeks in uw vertaalproject vertalen.
 
 1. Open vanuit de **[!UICONTROL Translation project]** het menu **[!UICONTROL More actions]** en selecteer **[!UICONTROL Insourcing]** .
@@ -222,6 +252,16 @@ Als u tijdens het configureren van uw taalinstellingen de optie Insourcing hebt 
 1. Klik op **[!UICONTROL Finalize]** als u de vertaalde tekst wilt publiceren.
 
 ## Uw vertaalproject bekijken {#review-translation-project}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_review_project"
+>title="Uw vertaalproject bekijken"
+>abstract="Nadat de vertaling door uw gekozen vertaalbureau is voltooid, kunt u de resultaten rechtstreeks in Journey Optimizer bekijken. Op deze manier kunt u de nauwkeurigheid en kwaliteit van de vertaling beoordelen en ervoor zorgen dat de vertaling aansluit bij uw verwachtingen en projectvereisten voordat u de vertaling voltooit."
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_preview_project"
+>title="Een voorbeeld van uw vertaalproject bekijken"
+>abstract="In het voorvertoningsvenster kunt u zien hoe de vertaalde inhoud in elke taal wordt weergegeven. Met deze functie kunt u de rendering controleren en controleren of de inhoud correct en effectief wordt weergegeven in alle geselecteerde talen."
 
 Als u de optie **[!UICONTROL Enable review worflow]** hebt geselecteerd in uw **[!UICONTROL Translation project]** , kunt u de vertaling direct in Journey Optimizer bekijken nadat deze is voltooid door het geselecteerde vertaalbureau.
 
