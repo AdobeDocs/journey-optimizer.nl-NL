@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 06f79b7af3fe3c5ca556e2226d7e241a9c5b56d3
+source-git-commit: ca28d323a2ef310ec82c732484c8aed1e2641135
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '1965'
 ht-degree: 27%
 
 ---
@@ -174,6 +174,14 @@ ht-degree: 27%
    + [Een campagne bekijken en activeren](using/campaigns/review-activate-campaign.md)
    + [Campagnes beheren](using/campaigns/modify-stop-campaign.md)
    + [Campagnes activeren met API&#39;s](using/campaigns/api-triggered-campaigns.md)
++ Uw leveringen testen {#test}
+   + Inhoud voorvertonen en testen {#preview-test}
+      + [Aan de slag met voorvertoning en testen](using/content-management/preview-test.md)
+      + [Testprofielen selecteren](using/content-management/test-profiles.md)
+      + [Voorbeeld van uw inhoud bekijken](using/content-management/preview.md)
+      + [E-mailproefdrukken verzenden](using/content-management/proofs.md)
+      + [E-mailrendering testen](using/content-management/rendering.md)
+      + [E-mailspamrapport](using/content-management/spam-report.md)
 + E-mailkanaal {#email}
    + [Aan de slag met e-mails](using/email/get-started-email.md)
    + [Een e-mail maken](using/email/create-email.md)
@@ -330,13 +338,6 @@ ht-degree: 27%
       + [Aan de slag met dynamische inhoud](using/personalization/get-started-dynamic-content.md)
       + [Voorwaardelijke regels maken](using/personalization/create-conditions.md)
       + [Dynamische inhoud maken](using/personalization/dynamic-content.md)
-   + Inhoud voorvertonen en testen {#preview-test}
-      + [Aan de slag met voorvertoning en testen](using/content-management/preview-test.md)
-      + [Testprofielen selecteren](using/content-management/test-profiles.md)
-      + [Voorbeeld van uw inhoud bekijken](using/content-management/preview.md)
-      + [E-mailproefdrukken verzenden](using/content-management/proofs.md)
-      + [E-mailrendering testen](using/content-management/rendering.md)
-      + [E-mailspamrapport](using/content-management/spam-report.md)
 + Soorten publiek, profielen en identiteit {#audiences-profiles-identities}
    + Soorten publiek {#audiences}
       + [Aan de slag met het publiek](using/audience/about-audiences.md)
