@@ -10,7 +10,7 @@ level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 27c0be31ffc4ce7c43975a4db431713cd68f0461
+source-git-commit: 34156eb7f801586154506fbb18546d705e542f25
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 1%
@@ -58,7 +58,9 @@ Als u de pagina Vertaling niet kunt openen, moet u de functie Vertaling inschake
 
    ![](assets/multi-troubleshoot.png)
 
-1. Uw beheerder moet naar het menu **[!UICONTROL Translation]** in de linkerzijbalk navigeren. Het systeem schakelt automatisch de functie Vertaling in.
+1. Uw beheerder moet naar het menu **[!UICONTROL Translation]** in de linkerzijbalk navigeren.
+
+   Het systeem schakelt automatisch de functie Vertaling in.
 
 1. Zodra de functie is ingeschakeld, hebt u toegang tot de pagina **[!UICONTROL Translation]** , samen met de tabbladen **[!UICONTROL Projects]** , **[!UICONTROL Providers]** en **[!UICONTROL Locale]** .
 
