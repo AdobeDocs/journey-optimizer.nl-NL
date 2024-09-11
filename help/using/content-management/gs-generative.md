@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 448568ff9ee96d4fa6dbaaa43ce2d45e38d6b920
+source-git-commit: 616a9c30da4558d1e8b71733732dd4fd1f531ef8
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 1%
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 >[!INFO]
 >
->Ga in een hands-on ervaring met [ binnen onze interactieve demo ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator), die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
+>Ga in een hands-on ervaring met [ binnen onze interactieve demo ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator) {target="_blank"}, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
 
 
 De AI Assistant in Adobe Journey Optimizer for Content Acceleration, aangedreven door Microsoft Azure OpenAI en Adobe Firefly, biedt proactieve suggesties voor het wijzigen van inhoud voor tekst en afbeeldingen. Het is beschikbaar voor e-mail, Push en SMS kanalen. Deze nieuwe functie biedt een snelle, op tekst en afbeeldingen gebaseerde productie. Afbeeldingen genereren wordt beheerd met Adobe Firefly.
@@ -47,7 +47,7 @@ Met de AI-assistent in Adobe Journey Optimizer for Content Acceleration kunt u d
 >* Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](#generative-guardrails).
 >
 >
->* U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de Medewerker AI in Adobe Journey Optimizer voor de Versnelling van de Inhoud kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>* U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) {target="_blank"} akkoord gaan alvorens u de Medewerker AI in Adobe Journey Optimizer voor de Versnelling van de Inhoud kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 ## De AI Assistant-versnelling voor inhoud openen {#generative-access}
 
