@@ -2,219 +2,143 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Webpagina's genereren met de AI Assistant
-description: Beginnen met het genereren van webpagina-inhoud en -elementen met de AI Assistant
+description: Beginnen met het genereren van webpagina-inhoud en -elementen met de AI Assistant in Journey Optimizer for Content Acceleration.
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beta" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: b62f8954e09f50896ad5e70784c5a93943617e85
+source-git-commit: f188566fb68ba369085ed03649899648858b894b
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 0%
+source-wordcount: '926'
+ht-degree: 1%
 
 ---
 
-# Webpagina&#39;s genereren met de AI Assistant {#generative-web}
+# Webpagina&#39;s genereren met de AI Assistant in Journey Optimizer - Content Accelerator {#generative-web}
 
->[!BEGINSHADEBOX]
-
-**Inhoudsopgave**
-
-* [Aan de slag met de AI Assistant](gs-generative.md)
-* [E-mailgeneratie met AI Assistant](generative-email.md)
-* [SMS genereren met de AI Assistant](generative-SMS.md)
-* [Push generation met de AI Assistant](generative-push.md)
-* Webpagina&#39;s genereren met de AI Assistant
-* [Inhoud experimenteren met de AI Assistant](generative-experimentation.md)
-
->[!ENDSHADEBOX]
-
-Zodra u uw e-mails hebt gemaakt en gepersonaliseerd, gebruikt u de AI Assistant in Adobe Journey Optimizer, aangedreven door generatieve AI, om uw inhoud naar het volgende niveau te brengen.
-
-De AI-assistent kan u helpen de impact van uw leveringen te optimaliseren door verschillende inhoud voor te stellen die waarschijnlijk beter op uw publiek zal reageren.
-
->[!NOTE]
+>[!IMPORTANT]
 >
->Lees de verwante bestanden voordat u deze functie gaat gebruiken [Afvoerkanalen en beperkingen](generative-gs.md#guardrails-and-limitations).
+>Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
+></br>
+>
+>U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de Medewerker AI in Journey Optimizer voor de Versnelling van de Inhoud kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+
+Als u eenmaal uw webpagina&#39;s hebt gemaakt en gepersonaliseerd, gebruikt u de AI Assistant in Journey Optimizer for Content Acceleration, aangedreven door generatieve AI, om uw inhoud naar het volgende niveau te tillen.
+
+De AI-assistent in Journey Optimizer for Content Acceleration kan u helpen de impact van uw leveringen te optimaliseren door verschillende inhoud voor te stellen die waarschijnlijk beter op uw publiek zal reageren.
 
 >[!BEGINTABS]
 
->[!TAB Volledige webpagina&#39;s]
+>[!TAB  Web-pagina tekstgeneratie ]
 
-In het volgende voorbeeld gebruiken we de AI-assistent om een bestaande e-mail te verfijnen en deze aan te passen voor een speciale gebeurtenis.
+1. Klik op **[!UICONTROL Edit web page]** nadat u de webpagina hebt gemaakt en geconfigureerd.
 
-1. Nadat u de e-maillevering hebt gemaakt en geconfigureerd, klikt u op **[!UICONTROL Edit content]**.
+   Voor meer informatie over hoe te om uw Web-pagina te vormen, verwijs naar [ deze pagina ](../web/create-web.md).
 
-   Voor meer informatie over hoe te om uw e-maillevering te vormen, verwijs naar [deze pagina](../email/create-email-content.md).
+1. Selecteer een **[!UICONTROL Text component]** als u alleen een specifieke inhoud als doel wilt instellen. en opent u het menu **[!UICONTROL Show AI Assistant]** .
 
-1. Pas uw e-mail naar wens aan en open de **[!UICONTROL AI Assistant]** -menu.
+   ![](assets/web-gen-full-1.png){zoomable="yes"}
 
-   ![](assets/full-email-1.png){zoomable=&quot;yes&quot;}
+1. Schakel de optie **[!UICONTROL Use original content]** voor de AI-assistent voor versnelling van inhoud in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
-1. De optie **[!UICONTROL Use original content]** in dat geval past de AI Assistant de nieuwe inhoud aan op basis van uw levering, de naam van de levering en het geselecteerde publiek.
+1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
-   Uw vraag moet altijd aan een specifieke context worden gebonden.
+   Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren.
 
-1. Perfectioneer de inhoud door te beschrijven wat u in wilt produceren **[!UICONTROL Prompt]** veld.
+   ![](assets/web-gen-full-2.png){zoomable="yes"}
 
-   Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang tot **[!UICONTROL Prompt Library]** Dit biedt diverse snelle ideeën om uw leveringen te verbeteren.
-
-   ![](assets/full-email-2.png){zoomable=&quot;yes&quot;}
-
-1. U kunt schakelen tussen **[!UICONTROL Subject line]** of **[!UICONTROL Preheader]** om ze op te nemen in de ontwikkeling van de variant.
-
-1. Klikken **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die extra context kunnen bieden, gebruikt u de AI Assistant of selecteert u een eerder geüpload element.
-
-   ![](assets/full-email-3.png){zoomable=&quot;yes&quot;}
-
-1. Volg uw vraag met de verschillende opties:
+1. Volg uw vraag met de optie **[!UICONTROL Text settings]** :
 
    * **[!UICONTROL Communication strategy]**: Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
-   * **[!UICONTROL Language]**: Selecteer de taal waarin u de inhoud wilt genereren.
-   * **[!UICONTROL Tone]**: De toon van uw e-mailbericht moet met uw publiek overeenkomen. Of u informatief wilt klinken, playful, of overtuigend, de Medewerker van AI kan het bericht dienovereenkomstig aanpassen.
-   * **[!UICONTROL Length]**: Kies de gewenste lengte van de inhoud met de schuifregelaar voor het bereik.
+   * **[!UICONTROL Tone]**: De tint van uw webpagina moet reageren op uw publiek. Of u informatief wilt klinken, playful, of overtuigend, de Medewerker van AI kan het bericht dienovereenkomstig aanpassen.
+   * **Lengte van de Tekst**: Gebruik de schuif om de gewenste lengte van uw tekst te selecteren.
 
-   ![](assets/full-email-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/web-gen-full-3.png){zoomable="yes"}
 
-1. Zodra uw herinnering klaar is, klik **[!UICONTROL Generate]**.
+1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die aanvullende context voor de AI-assistent kan bieden of selecteer een eerder geüpload element.
 
-1. Door de gegenereerde **[!UICONTROL Variations]** en klik op **[!UICONTROL Preview]** om een versie van de geselecteerde variatie op het volledige scherm weer te geven.
+   Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 
-1. Ga naar de **[!UICONTROL Refine]** in de **[!UICONTROL Preview]** venster voor toegang tot extra aanpassingsfuncties:
+1. Klik op **[!UICONTROL Generate]** als de vraag gereed is.
 
-   * **[!UICONTROL Rephrase]**: De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
+1. Blader door de gegenereerde **[!UICONTROL Variations]** tekst en klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven.
 
-   * **[!UICONTROL Use simple Language]**: Gebruik de AI-assistent om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
+1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties:
 
-   ![](assets/full-email-5.png){zoomable=&quot;yes&quot;}
+   * **[!UICONTROL Use as reference content]**: De gekozen variant zal als verwijzingsinhoud voor het produceren van andere resultaten dienen.
 
-1. Klikken **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
+   * **[!UICONTROL Elaborate]**: De AI-assistent kan u helpen bij het uitvouwen van specifieke onderwerpen en biedt extra informatie voor een beter begrip en betrokkenheid.
 
-1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud aan te passen die op profielgegevens wordt gebaseerd. Klik vervolgens op de knop **[!UICONTROL Simulate content]** om de rendering te beheren en personalisatie-instellingen te controleren met testprofielen. [Meer informatie](../preview-test/preview-content.md)
+   * **[!UICONTROL Summarize]**: langdurige informatie kan ontvangers overladen. Gebruik de AI-assistent om belangrijke punten samen te voegen tot heldere, beknopte samenvattingen die aandacht trekken en hen aanmoedigen om verder te lezen.
 
-   ![](assets/full-email-6.png){zoomable=&quot;yes&quot;}
+   * **[!UICONTROL Rephrase]**:De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
 
-Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-maillevering voorbereiden. [Meer informatie](../monitor/prepare-send.md)
+   * **[!UICONTROL Use simpler language]**: Gebruik de AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
 
->[!TAB Webpaginatekst genereren]
+   U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
-In het volgende voorbeeld gebruiken we de AI-assistent om de inhoud van onze e-mailuitnodiging voor onze aanstaande gebeurtenis te verbeteren.
+   ![](assets/web-gen-full-4.png){zoomable="yes"}
 
-1. Nadat u de e-maillevering hebt gemaakt en geconfigureerd, klikt u op **[!UICONTROL Edit content]**.
+1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
-   Voor meer informatie over hoe te om uw e-maillevering te vormen, verwijs naar [deze pagina](../email/create-email-content.md).
+   U kunt ook experimenteren met uw inhoud inschakelen. [Meer informatie](generative-experimentation.md)
 
-1. Selecteer een **[!UICONTROL Text component]** als u alleen een specifieke inhoud als doel wilt instellen. en toegang tot de **[!UICONTROL AI Assistant]** -menu.
+Nadat u de instellingen voor uw webcampagne hebt gedefinieerd en uw inhoud naar wens hebt bewerkt met de webontwerper, kunt u uw webcampagne reviseren en activeren. [Meer informatie](../web/create-web.md#activate-web-campaign)
 
-   ![](assets/text-genai-1.png){zoomable=&quot;yes&quot;}
+>[!TAB  Web-pagina beeldgeneratie ]
 
-1. De optie **[!UICONTROL Use original content]** in dat geval past de AI Assistant de nieuwe inhoud aan op basis van uw levering, de naam van de levering en het geselecteerde publiek.
+In het onderstaande voorbeeld leert u hoe u de AI Assistant in Journey Optimizer for Content Acceleration kunt gebruiken om uw middelen te optimaliseren en te verbeteren, zodat u een gebruiksvriendelijker ervaring hebt.
 
-   Uw vraag moet altijd aan een specifieke context worden gebonden.
+1. Klik op **[!UICONTROL Edit web page]** nadat u de webpagina hebt gemaakt en geconfigureerd.
 
-1. Perfectioneer de inhoud door te beschrijven wat u in wilt produceren **[!UICONTROL Prompt]** veld.
+   Voor meer informatie over hoe te om uw Web-pagina te vormen, verwijs naar [ deze pagina ](../web/create-web.md).
 
-   Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang tot **[!UICONTROL Prompt Library]** Dit biedt diverse snelle ideeën om uw leveringen te verbeteren.
+1. Selecteer het element dat u wilt wijzigen met de AI-assistent voor versnelling van inhoud.
 
-   ![](assets/text-genai-2.png){zoomable=&quot;yes&quot;}
+1. Selecteer **[!UICONTROL Show AI Assistant]** in het rechtermenu.
 
-1. Klikken **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die extra context kan bieden, gebruikt de AI Assistant.
+   ![](assets/web-gen-img-1.png){zoomable="yes"}
 
-   ![](assets/text-genai-3.png){zoomable=&quot;yes&quot;}
+1. Schakel de optie **[!UICONTROL Reference style]** voor de AI-assistent voor versnelling van inhoud in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
 
-1. Volg uw vraag met de verschillende opties:
+1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
-   * **[!UICONTROL Communication strategy]**: Selecteer de gewenste communicatieaanpak voor de gegenereerde tekst.
-   * **[!UICONTROL Language]**: Kies de taal voor de inhoud van de variant.
-   * **[!UICONTROL Tone]**: Zorg ervoor dat de tekst geschikt is voor uw publiek en doel.
-   * **[!UICONTROL Length]**: Selecteer de lengte van de inhoud met de schuifregelaar voor het bereik.
+   Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang **[!UICONTROL Prompt Library]** die een diverse waaier van snelle ideeën verstrekt om uw campagnes te verbeteren.
 
-   ![](assets/text-genai-4.png){zoomable=&quot;yes&quot;}
+   ![](assets/web-gen-img-2.png){zoomable="yes"}
 
-1. Zodra uw herinnering klaar is, klik **[!UICONTROL Generate]**.
+1. Volg uw vraag met de optie **[!UICONTROL Image settings]** :
 
-1. Door de gegenereerde **[!UICONTROL Variations]** en klik op **[!UICONTROL Preview]** om een versie van de geselecteerde variatie op het volledige scherm weer te geven.
-
-1. Ga naar de **[!UICONTROL Refine]** in de **[!UICONTROL Preview]** venster voor toegang tot extra aanpassingsfuncties:
-
-   * **Gebruiken als referentie-inhoud**: De gekozen variant dient als referentie-inhoud voor het genereren van andere resultaten.
-
-   * **Uitwerken**: De AI-assistent kan u helpen bij het uitvouwen van specifieke onderwerpen en biedt extra informatie voor een beter begrip en betrokkenheid.
-
-   * **Samenvatten**: Met langdurige gegevens kunnen e-mailontvangers worden overbelast. Gebruik de AI-assistent om belangrijke punten samen te voegen tot heldere, beknopte samenvattingen die aandacht trekken en hen aanmoedigen om verder te lezen.
-
-   * **Herhalen**:De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
-
-   * **Eenvoudige taal gebruiken**: Gebruik de AI-assistent om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
-
-   ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
-
-1. Klikken **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
-
-1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud aan te passen die op profielgegevens wordt gebaseerd. Klik vervolgens op de knop **[!UICONTROL Simulate content]** om de rendering te beheren en personalisatie-instellingen te controleren met testprofielen. [Meer informatie](../preview-test/preview-content.md)
-
-   ![](assets/text-genai-7.png){zoomable=&quot;yes&quot;}
-
-Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-maillevering voorbereiden. [Meer informatie](../monitor/prepare-send.md)
-
->[!TAB Webpagina&#39;s genereren van afbeeldingen]
-
-In het onderstaande voorbeeld leert u hoe u de AI Assistant kunt gebruiken om uw middelen te optimaliseren en te verbeteren, zodat u een gebruiksvriendelijker ervaring hebt.
-
-1. Nadat u de e-maillevering hebt gemaakt en geconfigureerd, klikt u op **[!UICONTROL Edit content]**.
-
-   Voor meer informatie over hoe te om uw e-maillevering te vormen, verwijs naar [deze pagina](../email/create-email-content.md).
-
-1. Vul de **[!UICONTROL Basic details]** voor levering. Klik op **[!UICONTROL Edit email content]**.
-
-1. Selecteer het element dat u wilt wijzigen met de AI-assistent.
-
-1. Selecteer in het rechtermenu de optie **[!UICONTROL AI Assistant]**.
-
-   ![](assets/image-genai-1.png){zoomable=&quot;yes&quot;}
-
-1. Perfectioneer de inhoud door te beschrijven wat u in wilt produceren **[!UICONTROL Prompt]** veld.
-
-   Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang tot **[!UICONTROL Prompt Library]** Dit biedt diverse snelle ideeën om uw leveringen te verbeteren.
-
-   ![](assets/image-genai-2.png){zoomable=&quot;yes&quot;}
-
-1. Klikken **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die extra context kan bieden, gebruikt de AI Assistant.
-
-   Uw vraag moet altijd aan een specifieke context worden gebonden.
-
-1. Volg uw vraag met de verschillende opties:
-
-   * **[!UICONTROL Aspect ratio]**: Hiermee bepaalt u de breedte en hoogte van het element. U kunt kiezen uit veelgebruikte verhoudingen, zoals 16:9, 4:3, 3:2 of 1:1, of u kunt een aangepaste grootte invoeren.
+   * **[!UICONTROL Aspect ratio]**: hiermee bepaalt u de breedte en hoogte van het element. U kunt kiezen uit veelgebruikte verhoudingen, zoals 16:9, 4:3, 3:2 of 1:1, of u kunt een aangepaste grootte invoeren.
+   * **[!UICONTROL Content type]**: hiermee wordt de aard van het visuele element gecategoriseerd, waarbij onderscheid wordt gemaakt tussen verschillende vormen van visuele representatie, zoals foto&#39;s, afbeeldingen of illustraties.
+   * **[!UICONTROL Visual intensity]**: U kunt de invloed van de afbeelding bepalen door de intensiteit ervan aan te passen. Bij een lagere instelling (2) wordt het uiterlijk zachter en minder sterk, terwijl bij een hogere instelling (10) de afbeelding levendiger en visueel krachtiger wordt.
    * **[!UICONTROL Color & tone]**: De algemene weergave van de kleuren in een afbeelding en de sfeer die of de sfeer die door de afbeelding wordt overgebracht.
-   * **[!UICONTROL Content type]**: Hiermee categoriseert u de aard van het visuele element, waarbij onderscheid wordt gemaakt tussen verschillende vormen van visuele representatie, zoals foto&#39;s, afbeeldingen of illustraties.
-   * **[!UICONTROL Lighting]**: Dit verwijst naar de bliksemschicht in een afbeelding, die de atmosfeer bepaalt en specifieke elementen markeert.
-   * **[!UICONTROL Composition]**: Dit verwijst naar de rangschikking van elementen binnen het kader van een afbeelding
+   * **[!UICONTROL Lighting]**: hiermee wordt de bliksemschicht in een afbeelding bedoeld, die de atmosfeer van de afbeelding bepaalt en specifieke elementen markeert.
+   * **[!UICONTROL Composition]**: dit heeft betrekking op de rangschikking van elementen binnen het kader van een afbeelding
 
-   ![](assets/image-genai-3.png){zoomable=&quot;yes&quot;}
+   ![](assets/web-gen-img-3.png){zoomable="yes"}
 
-1. Zodra u met uw snelle configuratie tevreden bent, klik **[!UICONTROL Generate]**.
+1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die aanvullende context voor de AI-assistent kan bieden of selecteer een eerder geüpload element.
 
-1. Bladeren in het dialoogvenster **[!UICONTROL Variation suggestions]** om het gewenste element te zoeken.
+   Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel eenvoudig de elementen in die u wilt opnemen in uw generatie.
 
-   Klikken **[!UICONTROL Preview]** om een versie van de geselecteerde variatie op het volledige scherm weer te geven.
+1. Als u tevreden bent met de snelle configuratie, klikt u op **[!UICONTROL Generate]** .
 
-   ![](assets/image-genai-5.png){zoomable=&quot;yes&quot;}
+1. Blader in **[!UICONTROL Variation suggestions]** om het gewenste element te zoeken.
 
-1. Kies **[!UICONTROL Show Similar]** als u verwante afbeeldingen van deze variant wilt bekijken.
+   Klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven.
 
-1. Klikken **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
+   ![](assets/web-gen-img-4.png){zoomable="yes"}
 
-   ![](assets/image-genai-6.png){zoomable=&quot;yes&quot;}
+1. Kies **[!UICONTROL Generate Similar]** als u verwante afbeeldingen met deze variant wilt weergeven.
 
-1. Nadat u de inhoud van uw bericht hebt gedefinieerd, klikt u op de knop **[!UICONTROL Simulate content]** om de rendering te beheren en personalisatie-instellingen te controleren met testprofielen.  [Meer informatie](../preview-test/preview-content.md)
+   ![](assets/web-gen-img-5.png){zoomable="yes"}
 
-   ![](assets/image-genai-7.png){zoomable=&quot;yes&quot;}
+1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
-1. Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-maillevering voorbereiden. [Meer informatie](../monitor/prepare-send.md)
+   U kunt ook experimenteren met uw inhoud inschakelen. [Meer informatie](generative-experimentation.md)
+
+Nadat u de instellingen voor uw webcampagne hebt gedefinieerd en uw inhoud naar wens hebt bewerkt met de webontwerper, kunt u uw webcampagne reviseren en activeren. [Meer informatie](../web/create-web.md#activate-web-campaign)
 
 >[!ENDTABS]
 

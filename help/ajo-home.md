@@ -5,10 +5,10 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 0bf1b65787eaf4d66964430bf89488fe4f930bfc
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 17%
+source-wordcount: '362'
+ht-degree: 18%
 
 ---
 
@@ -20,23 +20,16 @@ Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en
 
 >[!BEGINTABS]
 
->[!TAB  de versie van Augustus is levend!]
+>[!TAB  AI Medewerker in Reis optimizer - de Versneller van de Inhoud ]
 
-Ontdek nieuwe functies en verbeteringen die worden geïntroduceerd met de release van Adobe Journey Optimizer August.
-
-[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+Ga in de praktijk om met onze live voorvertoning van de functie, die u in staat stelt de functies van de functie te verkennen en de mogelijkheden ervan volledig te begrijpen.
+[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg) ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)
 
 >[!TAB  Meldend met Customer Journey Analytics (Beta) ]
 
 Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabiliteit met de mogelijkheden van de Customer Journey Analytics, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van de gegevens.
 
 [![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/reports/cja-ajo.md)
-
->[!TAB  AI Medewerker ]
-
-De AI Medewerker is een gebruikersinterfaceeigenschap die u kunt gebruiken om te navigeren en Adobe concepten te begrijpen en operationele inzichten voor uw specifieke milieu te krijgen.
-
-[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](/help/using/start/ai-assistant.md)
 
 >[!TAB Contentfragmenten]
 
