@@ -10,7 +10,7 @@ level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: e3685815dfed23c9fefa148e0025181258537135
+source-git-commit: 27c0be31ffc4ce7c43975a4db431713cd68f0461
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Met Journey Optimizer hebt u de mogelijkheid om meertalige inhoud te maken met b
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_error"
->title="Vertaalfout
+>title="Vertaalfout"
 >abstract="Als u geen toegang hebt tot de pagina Vertaling, is dit mogelijk omdat de functie Vertaling niet is ingeschakeld. Om dit probleem op te lossen, dient u ervoor te zorgen dat de vertaalfunctie wordt geactiveerd door uw organisatie en Sandbox-beheerder."
 
 Adobe Journey Optimizer is momenteel geïntegreerd met vertalers, die externe vertaalservices (automatische vertaling of menselijke vertaling) aanbieden die onafhankelijk zijn van Adobe Journey Optimizer.
