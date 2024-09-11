@@ -10,9 +10,9 @@ level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: e2ebb540fe9380497b42d331d1ea259538d72f00
+source-git-commit: e3685815dfed23c9fefa148e0025181258537135
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '408'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,11 @@ Met Journey Optimizer hebt u de mogelijkheid om meertalige inhoud te maken met b
 
 ## Vereisten {#prerequisites}
 
+>[!CONTEXTUALHELP]
+>id="ajo_multi_translation_error"
+>title="Vertaalfout
+>abstract="Als u geen toegang hebt tot de pagina Vertaling, is dit mogelijk omdat de functie Vertaling niet is ingeschakeld. Om dit probleem op te lossen, dient u ervoor te zorgen dat de vertaalfunctie wordt geactiveerd door uw organisatie en Sandbox-beheerder."
+
 Adobe Journey Optimizer is momenteel geïntegreerd met vertalers, die externe vertaalservices (automatische vertaling of menselijke vertaling) aanbieden die onafhankelijk zijn van Adobe Journey Optimizer.
 
 Voordat u de geselecteerde vertaalprovider gaat toevoegen, moet u een account maken bij die provider.
@@ -44,6 +49,22 @@ Voordat u de geselecteerde vertaalprovider gaat toevoegen, moet u een account ma
 Voor het gebruik van de vertaalservices van een vertaalbureau gelden aanvullende voorwaarden en bepalingen van de betreffende provider.  Als oplossingen van derden zijn vertaalservices via integratie beschikbaar voor Adobe Journey Optimizer-gebruikers.  Adobe heeft geen betrekking op producten van derden en is niet verantwoordelijk voor deze producten.
 
 Neem contact op met de betreffende vertaler voor alle problemen of verzoeken om assistentie met betrekking tot uw vertalingen.
+
+Als u de pagina Vertaling niet kunt openen, moet u de functie Vertaling inschakelen.
+
++++ Leer hoe u de functie Vertalen kunt inschakelen
+
+1. Als u de volgende foutpagina ziet, geeft deze aan dat de functie **[!UICONTROL Translation]** nog niet is ingeschakeld. Neem contact op met de beheerder van uw organisatie en sandbox. om toegang aan te vragen.
+
+   ![](assets/multi-troubleshoot.png)
+
+1. Uw beheerder moet naar het menu **[!UICONTROL Translation]** in de linkerzijbalk navigeren. Het systeem schakelt automatisch de functie Vertaling in.
+
+1. Zodra de functie is ingeschakeld, hebt u toegang tot de pagina **[!UICONTROL Translation]** , samen met de tabbladen **[!UICONTROL Projects]** , **[!UICONTROL Providers]** en **[!UICONTROL Locale]** .
+
+1. Als deze procedure is mislukt, wordt dezelfde foutpagina weergegeven. Neem in dat geval contact op met uw Adobe voor verdere hulp.
+
++++
 
 ## Hoe kan ik-video {#video}
 
