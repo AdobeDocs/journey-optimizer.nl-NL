@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 33dd0568ff55750d0f067e51442b5187820ec36a
+source-git-commit: 17b05590d1518b5cc6aa33a45619c96d6bd4a78e
 workflow-type: tm+mt
-source-wordcount: '1973'
+source-wordcount: '1979'
 ht-degree: 27%
 
 ---
@@ -278,11 +278,11 @@ ht-degree: 27%
 + Inhoudsbeheer {#content-management}
    + Werken met de AI-assistent {#ai-assistant}
       + [Aan de slag met de AI Assistant - Content Accelerator](using/content-management/gs-generative.md)
-      + [E-mailgeneratie](using/content-management/generative-email.md)
-      + [Push generation](using/content-management/generative-push.md)
-      + [SMS-generatie](using/content-management/generative-sms.md)
-      + [Webgeneratie](using/content-management/generative-web.md)
-      + [Inhoud experimenteren met de AI Assistant](using/content-management/generative-experimentation.md)
+      + [E-mailgeneratie met AI](using/content-management/generative-email.md)
+      + [Push generation met AI](using/content-management/generative-push.md)
+      + [SMS genereren met AI](using/content-management/generative-sms.md)
+      + [Web genereren met AI](using/content-management/generative-web.md)
+      + [Experimenteer met inhoud met AI](using/content-management/generative-experimentation.md)
       + [ AI Hulp gebruikt gevallen ](using/content-management/generative-uc.md)
    + Werken met meertalige inhoud {#content-multilingual}
       + [Aan de slag met meertalige inhoud](using/content-management/multilingual-gs.md)
