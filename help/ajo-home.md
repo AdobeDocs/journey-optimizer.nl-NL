@@ -5,9 +5,9 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 616a9c30da4558d1e8b71733732dd4fd1f531ef8
+source-git-commit: 5adb5fc5f7601d57c18bd3619aff84705d0dd229
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '364'
 ht-degree: 18%
 
 ---
@@ -22,7 +22,7 @@ Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en
 
 >[!TAB  AI Medewerker - de Versneller van de Inhoud ]
 
-Ga in een hands-on ervaring met onze [ Medewerker van AI - de Actieve eigenschapvoorproef van de Versneller van de Inhoud ](../help/using/content-management/gs-generative.md), die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
+✨ onderdompelen zich in een hands-on ervaring met onze [ Medewerker AI - de Actieve eigenschapvoorproef van de Versneller van de Inhoud ](../help/using/content-management/gs-generative.md), die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
 
 [![ leer meer ](using/assets/do-not-localize/learn-more-button.svg) ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator) {target="_blank"}
 
