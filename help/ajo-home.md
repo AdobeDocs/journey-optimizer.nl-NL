@@ -5,9 +5,9 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 0bf1b65787eaf4d66964430bf89488fe4f930bfc
+source-git-commit: 616a9c30da4558d1e8b71733732dd4fd1f531ef8
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '363'
 ht-degree: 18%
 
 ---
@@ -20,10 +20,11 @@ Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en
 
 >[!BEGINTABS]
 
->[!TAB  AI Medewerker in Reis optimizer - de Versneller van de Inhoud ]
+>[!TAB  AI Medewerker - de Versneller van de Inhoud ]
 
-Ga in de praktijk om met onze live voorvertoning van de functie, die u in staat stelt de functies van de functie te verkennen en de mogelijkheden ervan volledig te begrijpen.
-[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg) ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)
+Ga in een hands-on ervaring met onze [ Medewerker van AI - de Actieve eigenschapvoorproef van de Versneller van de Inhoud ](../help/using/content-management/gs-generative.md), die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
+
+[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg) ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator) {target="_blank"}
 
 >[!TAB  Meldend met Customer Journey Analytics (Beta) ]
 
