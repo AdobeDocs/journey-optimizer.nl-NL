@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, email, in app
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 2c4c9064b11bce44331b6604c91221ba9829eff7
+source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,9 @@ Volg onderstaande stappen om een bericht toe te voegen aan een rit:
 
 1. Van de **sectie van Acties** van het palet, sleep en laat vallen een **e-mail**, een **In-app**, een **SMS** of a **duw** activiteit in het canvas.
 
-1. Configureer uw activiteit. Leer gedetailleerde stappen om uw berichtinhoud op de volgende pagina&#39;s tot stand te brengen:
+1. Configureer uw activiteit.
+
+   Leer gedetailleerde stappen om uw berichtinhoud op de volgende pagina&#39;s tot stand te brengen:
 
    <table style="table-layout:fixed">
    <tr style="border: 0;">
@@ -80,6 +82,11 @@ Volg onderstaande stappen om een bericht toe te voegen aan een rit:
    </td>
    </tr>
    </table>
+
+>[!NOTE]
+>
+>Elke binnenkomende berichtactiviteit (In-app bericht, op code-gebaseerde ervaring, of Kaart) komt met een 3 dagen **wachten** activiteit. [Meer informatie](../building-journeys/wait-activity.md#auto-wait-node)
+>
 
 ## Actieve inhoud bijwerken{#update-live-content}
 
