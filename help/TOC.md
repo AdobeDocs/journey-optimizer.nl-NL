@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
 workflow-type: tm+mt
-source-wordcount: '1979'
-ht-degree: 27%
+source-wordcount: '2010'
+ht-degree: 26%
 
 ---
 
@@ -262,6 +262,14 @@ ht-degree: 27%
    + [Op code gebaseerde ervaringsconfiguratie maken](using/code-based/code-based-configuration.md)
    + [Voorbeelden van implementatiemethoden](using/code-based/code-based-implementation-samples.md)
    + [Op code gebaseerde ervaringen maken](using/code-based/create-code-based.md)
++ Inhoudskaarten (LA) {#content-card}
+   + [Aan de slag met inhoudskaarten](using/content-card/get-started-content-card.md)
+   + Kanaal voor inhoudskaart configureren {#configure}
+      + [Voorwaarden voor inhoudskaarten](using/content-card/content-card-configuration-prereq.md)
+      + [Het kanaal voor inhoudskaarten in Journey Optimizer configureren](using/content-card/content-card-configuration.md)
+   + [Inhoudskaarten maken](using/content-card/create-content-card.md)
+   + [Inhoudskaarten ontwerpen](using/content-card/design-content-card.md)
+   + [Rapport voor inhoudskaarten](using/content-card/content-card-report.md)
 + Landingspagina’s {#landing-pages}
    + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
    + [Een landingspagina maken](using/landing-pages/create-lp.md)
