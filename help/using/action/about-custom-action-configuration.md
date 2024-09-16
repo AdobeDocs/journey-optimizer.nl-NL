@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 3d79eca67dbfe5011a4bbc4955bbbfb5d6c17b38
+source-git-commit: b86a459681cda66596e0658b9f703185821aceea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1503'
+ht-degree: 2%
 
 ---
 
@@ -141,11 +141,13 @@ Wanneer u een aangepaste handeling configureert, moet u de volgende **[!UICONTRO
 
 ## mTLS-protocolondersteuning {#mtls-protocol-support}
 
-U kunt de Wederzijdse Veiligheid van de Laag van het Vervoer (mTLS) nu gebruiken om verbeterde veiligheid in uitgaande verbindingen aan de douaneacties van Adobe Journey Optimizer te verzekeren. mTLS is een end-to-end veiligheidsmethode voor wederzijdse authentificatie die ervoor zorgt dat beide partijen die informatie delen wie zij beweren te zijn alvorens de gegevens worden gedeeld. mTLS bevat een extra stap in vergelijking met TLS, waarin de server ook om het certificaat van de client vraagt en dit aan het einde verifieert.
+U kunt Wederzijdse Veiligheid van de Laag van het Vervoer (mTLS) gebruiken om verbeterde veiligheid in uitgaande verbindingen aan de douaneacties van Adobe Journey Optimizer te verzekeren. mTLS is een end-to-end veiligheidsmethode voor wederzijdse authentificatie die ervoor zorgt dat beide partijen die informatie delen wie zij beweren te zijn alvorens de gegevens worden gedeeld. mTLS bevat een extra stap in vergelijking met TLS, waarin de server ook om het certificaat van de client vraagt en dit aan het einde verifieert.
 
 Wederzijdse TLS-verificatie (mTLS) wordt ondersteund in aangepaste handelingen. Er is geen extra configuratie vereist in de douaneactie of de reis om mTLS te activeren; het komt automatisch voor wanneer een mTLS-Toegelaten eindpunt wordt ontdekt. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 ## De parameters voor de nuttige lading definiëren {#define-the-message-parameters}
+
+U kunt de parameter payload als volgt definiëren:
 
 1. Plak in de sectie **[!UICONTROL Request]** een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden. Dit gebied is facultatief en slechts beschikbaar voor POST en PUT die methodes roepen.
 
@@ -157,11 +159,15 @@ Wederzijdse TLS-verificatie (mTLS) wordt ondersteund in aangepaste handelingen. 
 >
 >Het voorbeeld voor de laadbewerking mag geen null-waarden bevatten. Veldnamen in de payload mogen geen &quot;.&quot; bevatten teken. Ze kunnen niet beginnen met het teken ‘$’.
 
-U kunt het parametertype definiëren (bijvoorbeeld: tekenreeks, geheel getal, enz.).
-
-U kunt ook opgeven of een parameter een constante of een variabele is.
-
-* **Constante** betekent dat de waarde van de parameter in de ruit van de actieconfiguratie door een technische persoonlijkheid wordt bepaald. De waarde zal altijd het zelfde over reizen zijn. Het zal niet variëren en de marktleider zal het niet zien wanneer het gebruiken van de douaneactie in de reis. Het kan bijvoorbeeld een id zijn die het externe systeem verwacht. In dat geval is het veld rechts van de schakelconstante/variabele de doorgegeven waarde.
-* **Variabele** betekent de waarde van de parameter zal variëren. Marktdeelnemers die deze aangepaste handeling tijdens een reis gebruiken, kunnen de gewenste waarde doorgeven of opgeven waar de waarde voor deze parameter moet worden opgehaald (bijvoorbeeld vanaf het evenement, vanuit Adobe Experience Platform, enz.). In dat geval, is het gebied op het recht van de knevelconstante/variabele de etiketmarketers in de reis zullen zien om deze parameter te noemen.
-
 ![](assets/customactionpayloadmessage2.png)
+
+In de gebiedsconfiguratie, moet u:
+
+* Selecteer het parametertype, bijvoorbeeld: tekenreeks, geheel getal, enz.
+
+* Definieer een constante of variabele parameter:
+
+   * **Constante** betekent dat de waarde van de parameter in de ruit van de actieconfiguratie door een technische persoonlijkheid wordt bepaald. De waarde zal altijd het zelfde over reizen zijn. Het varieert niet en de marketeter ziet het niet wanneer het gebruiken van de douaneactie in de reis. Het kan bijvoorbeeld een id zijn die het externe systeem verwacht. In dat geval wordt de constante waarde ingesteld op het veld rechts van de schakelconstante/variabele.
+
+   * **Variabele** betekent de waarde van de parameter zal variëren. Marktdeelnemers die deze aangepaste handeling tijdens een rit gebruiken, kunnen de gewenste waarde doorgeven of opgeven waar de waarde voor deze parameter moet worden opgehaald (bijvoorbeeld van het evenement, van Adobe Experience Platform, enz.). In dat geval, is het gebied op het recht van de knevelconstante/variabele de etiketmarketers in de reis zullen zien om deze parameter te noemen.
+
