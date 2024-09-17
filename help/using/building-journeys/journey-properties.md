@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reis, configuratie, eigenschappen
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: c15894e0d474fbf3a8aa789632719b2c4c8d9612
+source-git-commit: fbe8d14ba81e168ecfb141d54bf3009a2565751c
 workflow-type: tm+mt
 source-wordcount: '1716'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 >abstract="In dit gedeelte worden de eigenschappen van de reis weergegeven. Standaard zijn alleen-lezen parameters verborgen. Welke instellingen beschikbaar zijn, is afhankelijk van de status van de rit, van uw machtigingen en de productconfiguratie."
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_exit_criteria"
+>id="ajo_journey_exit_criterias"
 >title="Criteria voor het verlaten van de reis"
 >abstract="In dit gedeelte worden de opties voor afsluitcriteria weergegeven. U kunt één of veelvoudige regels van de uitgangscriteria voor uw reis tot stand brengen."
 
