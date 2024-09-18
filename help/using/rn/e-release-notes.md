@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d998a66421c277b7a46e5f15585a9768bc360a7a
+source-git-commit: 9fdfc729346bc15f5781a7bca39c76055af71eb2
 workflow-type: tm+mt
 source-wordcount: '1264'
 ht-degree: 3%
@@ -189,7 +189,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 * De [ documentatie van Adobe Journey Optimizer API ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/) {target="_blank"} is nu interactief. Verken de API eindpunten rechtstreeks van de documentatiepagina&#39;s om directe feedback te krijgen en uw technische implementatie te versnellen.
 
-  Alle API verwijzingspagina&#39;s hebben nu a **probeert het** functionaliteit die u kunt gebruiken om API vraag direct op de pagina van de documentwebsite te testen. [ krijgt de vereiste authentificatiegeloofsbrieven ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication) {target="_blank"} en begint de functionaliteit te gebruiken om de API eindpunten te onderzoeken.
+  Alle API verwijzingspagina&#39;s hebben nu a **probeert het** functionaliteit die u kunt gebruiken om API vraag direct op de pagina van de documentwebsite te testen. [ krijgt de vereiste authentificatiegeloofsbrieven ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) {target="_blank"} en begint de functionaliteit te gebruiken om de API eindpunten te onderzoeken.
 
   Gebruik deze nieuwe functionaliteit om de verzoeken aan en de reacties van API eindpunten te onderzoeken, om directe feedback te krijgen en uw technische implementatie te versnellen.
 
