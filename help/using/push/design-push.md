@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 3dd2db31a239ec5a81bfd677355aca862602e030
 workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 4%
@@ -120,7 +120,7 @@ U kunt **[!UICONTROL Advanced options]** voor uw pushmelding configureren. De be
 
 | Parameter | Beschrijving |
 |---------|---------|
-| **[!UICONTROL Collapsible]** (iOS / Android) | Een inklapbaar bericht is een bericht dat door een nieuw bericht kan worden vervangen als het verouderd is geworden. Een veelvoorkomend gebruik van samenvouwbare berichten is berichten die worden gebruikt om een mobiele toepassing te vertellen gegevens van de server te synchroniseren. Een voorbeeld hiervan is een sport-app waarmee gebruikers de laatste score krijgen. Alleen het meest recente bericht is relevant. Aan de andere kant is met niet-inklapbaar bericht zeer belangrijk voor de client-app en moet het worden afgeleverd. |
+| **[!UICONTROL Collapsible]** (iOS / Android) | Een inklapbaar bericht is een bericht dat door een nieuw bericht kan worden vervangen als het verouderd is geworden. Een veelvoorkomend gebruik van samenvouwbare berichten is berichten die worden gebruikt om een mobiele toepassing te vertellen gegevens van de server te synchroniseren. Een voorbeeld hiervan is een sport-app waarmee gebruikers de laatste score krijgen. Alleen het meest recente bericht is relevant. Aan de andere kant is elk bericht met een niet-inklapbaar bericht belangrijk voor de client-app en moet het worden bezorgd. |
 | **[!UICONTROL Custom sound]** (iOS / Android) | Het geluid dat door de mobiele terminal moet worden afgespeeld wanneer het bericht wordt ontvangen. Het geluid moet in de app worden gebundeld. |
 | **[!UICONTROL Badges]** (iOS / Android) | Een badge wordt gebruikt om het aantal nieuwe ongelezen meldingen direct op het applicatiepictogram te tonen. <br/> de merkwaarde zal verdwijnen zodra de gebruiker opent of de nieuwe inhoud van de toepassing leest. Wanneer een melding op een apparaat wordt ontvangen, kan het een merkwaarde voor de verwante app vernieuwen of toevoegen.<br/> Bijvoorbeeld, als u het aantal ongelezen artikelen van uw klanten opslaat, kunt u hefboomwerking verpersoonlijking om de unieke ongelezen waarde van de artikelbadge voor elke klant te verzenden. Voor meer verpersoonlijking, verwijs naar [ deze sectie ](../personalization/personalize.md). |
 | **[!UICONTROL Notification group]** (alleen iOS) | Koppel een berichtgroep aan de pushmelding.<br/> Beginnend met iOS 12, staan de berichtgroepen u toe om berichtdraden en berichtonderwerpen in draad IDs te consolideren. Een merk kan bijvoorbeeld marketingmeldingen verzenden onder één groep-id, terwijl meer meldingen over operationele typen onder een of meer verschillende id&#39;s worden bewaard.<br/> om dit te illustreren, kunt u groupID hebben: 123 &quot;controleer de nieuwe lenteinzameling van sweaters&quot;en groupID: 456 &quot;uw pakket werd geleverd&quot;berichtgroepen. In dit voorbeeld worden alle leveringsmeldingen gebundeld onder groep ID: 456. |
