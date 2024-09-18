@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d2d4667d9d2297004905d77f2a8f03fd6758f90f
+source-git-commit: d998a66421c277b7a46e5f15585a9768bc360a7a
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1264'
 ht-degree: 3%
 
 ---
@@ -187,9 +187,9 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **APIs**
 
-* De [ documentatie van Adobe Journey Optimizer API ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/) is nu interactief. Verken de API eindpunten rechtstreeks van de documentatiepagina&#39;s om directe feedback te krijgen en uw technische implementatie te versnellen.
+* De [ documentatie van Adobe Journey Optimizer API ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/) {target="_blank"} is nu interactief. Verken de API eindpunten rechtstreeks van de documentatiepagina&#39;s om directe feedback te krijgen en uw technische implementatie te versnellen.
 
-  Alle API verwijzingspagina&#39;s hebben nu a **probeert het** functionaliteit die u kunt gebruiken om API vraag direct op de pagina van de documentwebsite te testen. [ krijgt de vereiste authentificatiegeloofsbrieven ](/help/landing/api-authentication.md) en begint de functionaliteit te gebruiken om de API eindpunten te onderzoeken.
+  Alle API verwijzingspagina&#39;s hebben nu a **probeert het** functionaliteit die u kunt gebruiken om API vraag direct op de pagina van de documentwebsite te testen. [ krijgt de vereiste authentificatiegeloofsbrieven ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication) {target="_blank"} en begint de functionaliteit te gebruiken om de API eindpunten te onderzoeken.
 
   Gebruik deze nieuwe functionaliteit om de verzoeken aan en de reacties van API eindpunten te onderzoeken, om directe feedback te krijgen en uw technische implementatie te versnellen.
 
@@ -198,5 +198,5 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
   >Houd er rekening mee dat u met de interactieve API-functionaliteit op de documentatiepagina&#39;s echte API-aanroepen uitvoert naar de eindpunten. Houd dit in gedachten wanneer u experimenteert met productiesandboxen.
 
 
-* **de Simulatie API van de Campagne** - gebruik dit API om proefbaan van een Campagne teweeg te brengen. Het verzenden van de campagneproef is een asynchroon proces, zal API een proofJobId terugkeren die kan worden gebruikt om de status van de proef te controleren. [Meer informatie](https://developer.adobe.com/journey-optimizer-apis/references/simulations/)
+* **de Simulatie API van de Campagne** - gebruik dit API om proefbaan van een Campagne teweeg te brengen. Het verzenden van de campagneproef is een asynchroon proces, zal API een proofJobId terugkeren die kan worden gebruikt om de status van de proef te controleren. [ leer meer ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/) {target="_blank"}
 
