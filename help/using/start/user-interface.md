@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1c2505ba3dcd86834aa9961fa4e53cee9320724d
+source-git-commit: 9833f24479891bbf19b99674036856f585c53b3d
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1540'
 ht-degree: 4%
 
 ---
@@ -299,7 +299,7 @@ De taal wijzigen:
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
 >title="Overtreding van beleid voor gegevensbeheer"
->abstract="Overtreding van beleid voor gegevensbeheer"
+>abstract="Als het systeem een beperkt veld in een reis/campagne of een aangepaste handeling identificeert, wordt een fout weergegeven die voorkomt dat u deze publiceert. Gebruik het diagram van de gegevenslijn in deze dialoog om te begrijpen welke andere configuratieveranderingen moeten worden aangebracht alvorens u uw reis of campagne kunt activeren."
 
 <!--APPROVAL POLICIES-->
 
