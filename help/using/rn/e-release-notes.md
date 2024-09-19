@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9fdfc729346bc15f5781a7bca39c76055af71eb2
+source-git-commit: fc65a5d12af2b295cfb4bcac6f05a1f6ad4896d3
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '907'
 ht-degree: 3%
 
 ---
@@ -29,23 +29,21 @@ ht-degree: 3%
 
 Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>Inhoudskaarten voor mobiele apps en websites</strong><br/></th>
+<th><strong>Content Cards for mobile apps and websites</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Inhoudskaarten zijn een nieuwe functie voor digitale berichten in Adobe Journey Optimizer die persoonlijke en aantrekkelijke inhoud direct levert in mobiele apps en websites. In tegenstelling tot traditionele pushmeldingen worden inhoudskaarten naadloos geïntegreerd in de gebruikersinterface en bieden ze permanente, niet-indringende updates die de interactie en gebruikerservaring verbeteren.</p>
-<p>Met deze functie kunnen marketers relevante, rijke media-inhoud presenteren aan gebruikers, waardoor hun betrokkenheid toeneemt en belangrijke berichten zichtbaar zijn zonder de reis van de gebruiker te verstoren.</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
+<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -82,22 +80,37 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </tbody>
 </table>
 
-
-
 <table>
 <thead>
 <tr>
-<th><strong>Ervaringen op basis van code bij reizen</strong><br/></th>
+<th><strong>Algemene criteria voor uitreis tijdens reizen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Met het op code-gebaseerde ervaringskanaal, staat Adobe Journey Optimizer u toe om geavanceerde verpersoonlijking en het testen voor om het even welk van uw binnenkomende eigenschappen te doen, toelatend naadloze levering van op maat gemaakte ervaringen over diverse aanraakpunten zoals Web apps, mobiele apps, Desktop apps, videoconsoles, TV aangesloten apparaten, slimme TVs, kiosks, ATMs, IoT apparaten, en meer. Het op code-gebaseerde ervaringskanaal is nu beschikbaar in het reiscanvas.</p>
-<p>Raadpleeg de <a href="../code-based/get-started-code-based.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>U kunt nu regels voor exit-criteria definiëren en combineren voor uw reizen.</p>
+<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/ai-content.gif"/-->
+</td>
 </tr>
 </tbody>
 </table>
+
+<!--table>
+<thead>
+<tr>
+<th><strong>Code-based experiences in journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
+<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
+</tr>
+</tbody>
+</table-->
 
 
 <table>
@@ -151,25 +164,25 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 **Doelgroepen**
 
 * Het gebruik van soorten publiek via aangepaste upload (CSV-bestand) is nu beschikbaar voor gebruik met de invoegtoepassing Privacy en beveiligingsschild.
-* Wanneer u een aangepast upload-publiek (CSV-bestand) als doel instelt, kunt u nu kenmerken uit het bestand gebruiken in uw campagnes en reizen. Deze attributen zijn beschikbaar in de verpersoonlijkingsredacteur, om uw berichten, en de reis geavanceerde uitdrukkingsredacteur te personaliseren.
+  <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
 * (De datum van de Beschikbaarheid: Sept 17) **gebruik van de Vergunning** - het het gebruiksdashboard van de Vergunning toont nu de Engageable Profielen, in plaats van Engageable Publiek. [Meer informatie](../audience/license-usage.md)
 
 **Beheer van Gegevens**
 
 * U kunt nu een beleid voor gegevensbeheer toepassen op Journey Optimizer-kanalen, naast aangepaste acties binnen reizen. Deze verbetering helpt het gebruik van gevoelige gebieden in mededelingen verhinderen door marketing acties direct binnen uw kanaalconfiguraties toe te passen.
 
+<!--
+**Frequency and priority management**
 
-**Frequentie en prioritair beheer**
+* **Frequency capping by campaign or journey** - You can now create frequency rules to apply to your journeys, allowing you to limit the number of journeys per day, week, or month, as well as control the number of concurrent journeys running simultaneously.
 
-* **het maximum van de Frequentie door campagne of reis** - u kunt frequentieregels nu tot stand brengen om op uw reizen van toepassing te zijn, toestaand u om het aantal reizen per dag, week, of maand te beperken, evenals het aantal gezamenlijke reizen te controleren die gelijktijdig lopen gelijktijdig.
+* **Priority score** - You can now assign a priority score to a campaign or a journey, ranging from 0 to 100. A higher number indicates a higher priority. When two campaigns or journeys use the same surface, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was most recently modified will be chosen. Priority score is available for all inbound channels in campaigns, and for the in-app channel in journeys.    
 
-* **Prioriteitsscore** - u kunt een prioritaire score aan een campagne of een reis nu toewijzen, die zich van 0 tot 100 uitstrekken. Een hoger getal geeft een hogere prioriteit aan. Wanneer twee campagnes of reizen hetzelfde oppervlak gebruiken, selecteert Journey Optimizer de catalogus met de hoogste prioriteitsscore. Als de campagnes dezelfde score hebben, wordt de campagne gekozen die het laatst is gewijzigd. Prioriteitsscore is beschikbaar voor alle inkomende kanalen in campagnes en voor het kanaal in de app tijdens reizen.
+* **View conflicts** - A new **View conflicts** button in journeys and campaigns now allows you to check whenever there's a possibility of overlap with other journeys or campaigns such as the start date, the targeted audience, or the selected channel configuration.
+-->
 
-* **conflicten van de Mening** - een nieuwe **knoop van de Conflicten van de Mening** in reizen en campagnes staat u nu toe om te controleren wanneer er een mogelijkheid van overlapping met andere reizen of campagnes zoals de begindatum, het gerichte publiek, of de geselecteerde kanaalconfiguratie is.
 
 **Reizen**
-
-* **Globale uitgangscriteria** - u kunt de regels van de uitgangscriteria voor uw reizen nu bepalen en combineren.
 
 * **Max aantal Levende reizen** - Journey Optimizer heeft nu een graslaag van 500 levende reizen op productiesanddozen, in plaats van 100. Het aantal rechtstreekse reizen is zichtbaar in het canvas van de reis.
 
