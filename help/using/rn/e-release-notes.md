@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: fc65a5d12af2b295cfb4bcac6f05a1f6ad4896d3
+source-git-commit: 777286e2c3e0fa6458f1f503756b0494cbcc9020
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '956'
 ht-degree: 3%
 
 ---
@@ -193,6 +193,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 **E-mailkanaal**
 
 * **BCC berichtkopbal** - een nieuwe kopbal is toegevoegd aan alle e-mailberichten. De waarde van deze koptekst is uniek voor elke verzonden e-mail en de bijbehorende BCC-e-mailkopie. Deze kopbal wordt ook opgeslagen in het bericht en BCC terugkoppelt datasets, die toestaat om het exemplaar BCC en de overeenkomstige verzonden e-mailinformatie met elkaar in overeenstemming te brengen.
+* **Spam het scoren** (GA) - U kunt uw inhoud nu controleren spam het scoren in een specifiek Spam- rapport. Gebruikend SpamAssassin, kan Adobe Journey Optimizer uw e-mailinhoud nu testen en het een score geven om erop te wijzen als ISPs of de leveranciers van de Brievenbus het als spam of niet zullen beschouwen. [Meer informatie](../content-management/spam-report.md)
 
 **Sms-kanaal**
 
