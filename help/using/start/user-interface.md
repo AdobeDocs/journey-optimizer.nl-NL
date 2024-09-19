@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9833f24479891bbf19b99674036856f585c53b3d
+source-git-commit: f5bcafb0963c5adf4a0ab307f611fd9cc0b34005
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 4%
+source-wordcount: '1746'
+ht-degree: 3%
 
 ---
 
@@ -201,22 +201,22 @@ De taal wijzigen:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_priority"
 >title="Prioriteit"
->abstract="Wijs een prioritaire score aan de reis toe, die zich van 0 tot 100 uitstrekken. Een hoger getal geeft een hogere prioriteit aan. Wanneer twee reizen hetzelfde oppervlak gebruiken, kiest Journey Optimizer de reis met de hoogste prioriteitsscore. Als de reizen dezelfde score hebben, wordt gekozen voor de reis die het laatst is gewijzigd."
+>abstract="Wijs een prioritaire score aan de reis toe, die zich van 0 tot 100 uitstrekken. Een hoger getal geeft een hogere prioriteit aan. De hier ingevoegde prioriteitswaarde wordt overgeërfd door binnenkomende acties (zoals In-App) die zich in deze reis bevinden. Voor situaties waarin dit zelfde binnenkomende oppervlak in andere campagnes of reizen wordt gebruikt, wordt de binnenkomende actie met de hoogste prioritaire score getoond aan de ontvanger. Als meerdere reizen of campagnes dezelfde score hebben, wordt het element gekozen dat het laatst is gewijzigd."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_priority"
 >title="Prioriteit"
->abstract="Wijs een prioriteitsscore toe aan de campagne, variërend van 0 tot 100. Een hoger getal geeft een hogere prioriteit aan. Wanneer twee campagnes hetzelfde oppervlak gebruiken, selecteert Journey Optimizer de campagne met de hoogste prioriteitsscore. Als de campagnes dezelfde score hebben, wordt de campagne gekozen die het laatst is gewijzigd."
+>abstract="Wijs een prioriteitsscore toe aan de campagne, variërend van 0 tot 100. Een hoger getal geeft een hogere prioriteit aan. Voor situaties waarin dit zelfde binnenkomende oppervlak (zoals in-app) in andere campagnes of reizen wordt gebruikt, wordt de binnenkomende actie met de hoogste prioritaire score getoond aan de ontvanger. Als meerdere reizen of campagnes dezelfde score hebben, wordt het element gekozen dat het laatst is gewijzigd."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_conflict"
 >title="Conflicterende viewer in campagnes"
->abstract="Conflicterende viewer in campagnes"
+>abstract="Dit hulpmiddel kan u helpen overlappingen met andere reizen, campagnes, of oppervlakten bepalen. Als u overlappingen op publiek wilt identificeren, begin en einddatum, kanaalconfiguratie, kanaal, of regelreeks kunt u potentiële conflicten hier bekijken. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conflict"
 >title="Conflicterende kijker op reis"
->abstract="Conflicterende kijker op reis"
+>abstract="Dit hulpmiddel kan u helpen overlappingen met andere reizen, campagnes, of oppervlakten bepalen. Als u overlappingen op publiek wilt identificeren, begin en einddatum, kanaalconfiguratie, kanaal, of regelreeks kunt u potentiële conflicten hier bekijken. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
@@ -226,7 +226,7 @@ De taal wijzigen:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_capping_rule"
 >title="Regel toepassen op reizen"
->abstract="TBD"
+>abstract="Pas een Regelreeks toe om deze reis aan een deel van uw publiek uit te sluiten die op frequentie het begrenzen regels wordt gebaseerd."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_rule_type"
@@ -236,7 +236,7 @@ De taal wijzigen:
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_concurrency_prioritization"
 >title="Prioritaire toekomst"
->abstract="Prioritaire toekomst"
+>abstract=" Als een reis met een hogere prioriteit binnen de hier gespecificeerde periode wordt gepland, dan zal de klant van het ingaan van deze reis worden onderdrukt. Voor situaties waarin u op de eerste dag reizen wilt maken, stellen wij voor om eerst de Daily-periode te kiezen en ervoor te zorgen dat de prioriteitsscore van andere reizen op die dag lager is dan de prioriteitsscore voor de reis. Een prioriteitsscore van 100 voor een reis zou er ook voor zorgen dat het wordt ingevoerd."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_capping_rule"
