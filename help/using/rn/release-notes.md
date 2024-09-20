@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
+source-git-commit: 88e85f79cc55899f8b803c37f660971751353e30
 workflow-type: tm+mt
 source-wordcount: '1584'
 ht-degree: 5%
@@ -174,8 +174,8 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Doelgroepen**
 
-* Het gebruik van soorten publiek via aangepaste upload (CSV-bestand) is nu beschikbaar voor gebruik met de invoegtoepassing Privacy en beveiligingsschild.
-  <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
+<!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.
+* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
 * (De datum van de Beschikbaarheid: Sept 17) **gebruik van de Vergunning** - het het gebruiksdashboard van de Vergunning toont nu de Engageable Profielen, in plaats van Engageable Publiek. [Meer informatie](../audience/license-usage.md)
 
 **Beheer van Gegevens**
@@ -210,9 +210,12 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Sms-kanaal**
 
-* U kunt nu bestaande SMS-configuraties wijzigen
+* **geef API geloofsbrieven uit** - u kunt montages in de Geloofsbrieven van SMS API, met inbegrip van updates aan opt-in/uit sleutelwoorden en antwoorden nu uitgeven.
+* U kunt bestaande configuraties van SMS nu wijzigen.
 
 **APIs**
+
+* **de Simulatie API van de Campagne** - gebruik dit API om proefbaan van een Campagne teweeg te brengen. Het verzenden van de campagneproef is een asynchroon proces, zal API een proofJobId terugkeren die kan worden gebruikt om de status van de proef te controleren. [ leer meer ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/) {target="_blank"}
 
 * De [ documentatie van Adobe Journey Optimizer API ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/) {target="_blank"} is nu interactief. Verken de API eindpunten rechtstreeks van de documentatiepagina&#39;s om directe feedback te krijgen en uw technische implementatie te versnellen.
 
@@ -223,9 +226,6 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
   >[!CAUTION]
   >
   >Houd er rekening mee dat u met de interactieve API-functionaliteit op de documentatiepagina&#39;s echte API-aanroepen uitvoert naar de eindpunten. Houd dit in gedachten wanneer u experimenteert met productiesandboxen.
-
-
-* **de Simulatie API van de Campagne** - gebruik dit API om proefbaan van een Campagne teweeg te brengen. Het verzenden van de campagneproef is een asynchroon proces, zal API een proofJobId terugkeren die kan worden gebruikt om de status van de proef te controleren. [ leer meer ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/) {target="_blank"}
 
 
 ## Opmerkingen bij de release augustus 2024 {#8-2024}
