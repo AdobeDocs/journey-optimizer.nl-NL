@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6229f295b961b0535139b64928216e40c3759947
+source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 3%
+source-wordcount: '1507'
+ht-degree: 4%
 
 ---
 
@@ -197,26 +197,6 @@ De taal wijzigen:
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
 <!--PRIORITIZATION & CONFLICT MANAGEMENT-->
-
->[!CONTEXTUALHELP]
->id="ajo_journey_priority"
->title="Prioriteit"
->abstract="Wijs een prioritaire score aan de reis toe, die zich van 0 tot 100 uitstrekken. Een hoger getal geeft een hogere prioriteit aan. De hier ingevoegde prioriteitswaarde wordt overgeërfd door binnenkomende acties (zoals In-App) die zich in deze reis bevinden. Voor situaties waarin dit zelfde binnenkomende oppervlak in andere campagnes of reizen wordt gebruikt, wordt de binnenkomende actie met de hoogste prioritaire score getoond aan de ontvanger. Als meerdere reizen of campagnes dezelfde score hebben, wordt het element gekozen dat het laatst is gewijzigd."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_priority"
->title="Prioriteit"
->abstract="Wijs een prioriteitsscore toe aan de campagne, variërend van 0 tot 100. Een hoger getal geeft een hogere prioriteit aan. Voor situaties waarin dit zelfde binnenkomende oppervlak (zoals in-app) in andere campagnes of reizen wordt gebruikt, wordt de binnenkomende actie met de hoogste prioritaire score getoond aan de ontvanger. Als meerdere reizen of campagnes dezelfde score hebben, wordt het element gekozen dat het laatst is gewijzigd."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_conflict"
->title="Conflicterende viewer in campagnes"
->abstract="Dit hulpmiddel kan u helpen overlappingen met andere reizen, campagnes, of oppervlakten bepalen. Als u overlappingen op publiek wilt identificeren, begin en einddatum, kanaalconfiguratie, kanaal, of regelreeks kunt u potentiële conflicten hier bekijken. "
-
->[!CONTEXTUALHELP]
->id="ajo_journey_conflict"
->title="Conflicterende kijker op reis"
->abstract="Dit hulpmiddel kan u helpen overlappingen met andere reizen, campagnes, of oppervlakten bepalen. Als u overlappingen op publiek wilt identificeren, begin en einddatum, kanaalconfiguratie, kanaal, of regelreeks kunt u potentiële conflicten hier bekijken. "
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_set_domain"
