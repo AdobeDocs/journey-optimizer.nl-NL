@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: query, collecties, functies, lading, reis
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: b58d6bbcf2311be3f841f7eef0c0bf10692f1704
+source-git-commit: 1ba767ba8d2ecaabc17b717a983e7ad285dd52bb
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 De uitdrukkingstaal introduceert ook een reeks functies aan vraaginzamelingen.
 
-Deze functies worden hieronder uitgelegd. In de volgende voorbeelden gebruiken we de gebeurtenislading die een verzameling bevat:
+Deze functies worden hieronder uitgelegd. In de volgende voorbeelden, gebruiken de gebeurtenislading die een inzameling bevat:
 
 ```json
                 { 
@@ -61,9 +61,9 @@ Deze functies worden hieronder uitgelegd. In de volgende voorbeelden gebruiken w
 }
 ```
 
-**De functie &quot;all(`<condition>`)&quot;**
+**de functie &quot;allen (`<condition>`)&quot;**
 
-De **[!UICONTROL all]** functie laat de definitie van een filter op een bepaalde inzameling toe door een booleaanse uitdrukking te gebruiken.
+De functie **[!UICONTROL all]** laat de definitie van een filter op een bepaalde inzameling toe door een booleaanse uitdrukking te gebruiken.
 
 ```json
 <listExpression>.all(<condition>)
@@ -71,11 +71,11 @@ De **[!UICONTROL all]** functie laat de definitie van een filter op een bepaalde
 
 Zo kunt u onder alle gebruikers van de app de toepassingen ophalen met IOS 13 (Booleaanse expressie &quot;app used == IOS 13&quot;). Het resultaat van deze functie is de gefilterde lijst met items die overeenkomen met de booleaanse expressie (bijvoorbeeld: app-gebruiker 1, app-gebruiker 34, app-gebruiker 432).
 
-In een activiteit van de Voorwaarde van de Gegevensbron kunt u controleren of het resultaat van **[!UICONTROL all]** functie is null of niet. U kunt dit ook combineren **[!UICONTROL all]** functies met andere functies, zoals **[!UICONTROL count]**. Zie voor meer informatie [Voorwaarde van gegevensbron, activiteit](../condition-activity.md#data_source_condition).
+Bij een Source Condition-activiteit van Data kunt u controleren of het resultaat van de functie **[!UICONTROL all]** null is of niet. U kunt deze **[!UICONTROL all]** functie ook combineren met andere functies, zoals **[!UICONTROL count]** . Voor meer informatie, zie [ de activiteit van de Voorwaarde van Source van Gegevens ](../condition-activity.md#data_source_condition).
 
 **Voorbeeld 1:**
 
-We willen controleren of een gebruiker een specifieke versie van een toepassing heeft geïnstalleerd. Hiervoor krijgen we alle pushberichttokens die zijn gekoppeld aan mobiele toepassingen waarvoor de versie 1.0 is. Vervolgens voeren we een voorwaarde uit met de **[!UICONTROL count]** functie om te controleren of de geretourneerde lijst met tokens ten minste één element bevat.
+We willen controleren of een gebruiker een specifieke versie van een toepassing heeft geïnstalleerd. Hiervoor krijgen we alle pushberichttokens die zijn gekoppeld aan mobiele toepassingen waarvoor de versie 1.0 is. Vervolgens voeren we een voorwaarde uit met de functie **[!UICONTROL count]** om te controleren of de geretourneerde lijst met tokens ten minste één element bevat.
 
 ```json
 count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -85,7 +85,7 @@ Het resultaat is waar.
 
 **Voorbeeld 2:**
 
-Hier gebruiken we de **[!UICONTROL count]** functie om te controleren of er pushberichttokens in de verzameling zijn.
+Hier gebruiken we de functie **[!UICONTROL count]** om te controleren of er pushberichttokens in de verzameling aanwezig zijn.
 
 ```json
 count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
@@ -118,18 +118,18 @@ earlier timestamp) in order to only consider prior events.-->
 
 >[!NOTE]
 >
->Wanneer de filtervoorwaarde in de **all()** Als de functie leeg is, retourneert het filter alle elementen in de lijst. **Als u echter het aantal elementen van een verzameling wilt tellen, is de functie all niet vereist.**
+>Wanneer de het filtreren voorwaarde in **allen ()** functie leeg is, zal de filter alle elementen in de lijst terugkeren. **Nochtans, om het aantal elementen van een inzameling te tellen, wordt de alle functie niet vereist.**
 
 
 ```json
 count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.token})
 ```
 
-Het resultaat van de expressie is **3**.
+Het resultaat van de uitdrukking is **3**.
 
 **Voorbeeld 3:**
 
-Hier controleren we of een individu in de afgelopen 24 uur geen communicatie heeft ontvangen. Wij filtreren de inzameling van ervaringsgebeurtenissen die uit de datasource ExperiencePlatform worden teruggewonnen, gebruikend twee uitdrukkingen die op twee elementen van de inzameling worden gebaseerd. Met name wordt de tijdstempel van de gebeurtenis vergeleken met de dateTime die door de **[!UICONTROL nowWithDelta]** functie.
+Hier controleren we of een individu in de afgelopen 24 uur geen communicatie heeft ontvangen. Wij filtreren de inzameling van ervaringsgebeurtenissen die uit de datasource ExperiencePlatform worden teruggewonnen, gebruikend twee uitdrukkingen die op twee elementen van de inzameling worden gebaseerd. Met name wordt de tijdstempel van de gebeurtenis vergeleken met de dateTime die door de functie **[!UICONTROL nowWithDelta]** wordt geretourneerd.
 
 ```json
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -169,13 +169,13 @@ The result will be:
 
 >[!NOTE]
 >
->**[!UICONTROL currentEventField]** alleen beschikbaar is bij het manipuleren van verzamelingen gebeurtenissen; **[!UICONTROL currentDataPackField]** bij het manipuleren van gegevensbronverzamelingen en **[!UICONTROL currentActionField]** wanneer het manipuleren van de inzamelingen van de douaneactierespons.
+>**[!UICONTROL currentEventField]** is alleen beschikbaar wanneer u gebeurtenisverzamelingen manipuleert, **[!UICONTROL currentDataPackField]** wanneer u gegevensbronverzamelingen manipuleert en **[!UICONTROL currentActionField]** wanneer u aangepaste actieverzamelingen bewerkt.
 >
->Bij het verwerken van verzamelingen met **[!UICONTROL all]**, **[!UICONTROL first]** en **[!UICONTROL last]** We herhalen elk element van de collectie een voor een. **[!UICONTROL currentEventField]**, **currentDataPackField** en **[!UICONTROL currentActionField]** komt overeen met het element dat wordt herhaald.
+>Wanneer u verzamelingen verwerkt met **[!UICONTROL all]** , **[!UICONTROL first]** en **[!UICONTROL last]** , wordt elk element van de verzameling een voor een herhaald. **[!UICONTROL currentEventField]**, **currentDataPackField** en **[!UICONTROL currentActionField]** beantwoorden aan het element dat wordt herhaald.
 
-**De functies &quot;first(`<condition>`)&quot; en &quot;last(`<condition>`)&quot;**
+**de functies &quot;eerst (`<condition>`)&quot;en &quot;laatste (`<condition>`)&quot;**
 
-De **[!UICONTROL first]** en **[!UICONTROL last]** Met functies kunt u ook een filter op de verzameling definiëren en tegelijkertijd het eerste/laatste element van de lijst retourneren dat aan het filter voldoet.
+De functies **[!UICONTROL first]** en **[!UICONTROL last]** laten ook de definitie van een filter op de inzameling toe terwijl het terugkeren van het eerste/laatste element van de lijst die de filter ontmoet.
 
 _`<listExpression>.first(<condition>)`_
 
@@ -205,7 +205,7 @@ Het resultaat is &quot;token_2&quot;.
 >
 >De ervaringsgebeurtenissen worden uit Adobe Experience Platform opgehaald als een verzameling in omgekeerde chronologische volgorde, vandaar:
 >
->* **[!UICONTROL first]** functie retourneert de meest recente gebeurtenis
+>* De functie **[!UICONTROL first]** retourneert de meest recente gebeurtenis
 >* **[!UICONTROL last]** functie retourneert de oudste functie.
 
 **Voorbeeld 3:**
@@ -217,9 +217,9 @@ We controleren of de eerste (meest recente) Adobe Analytics-gebeurtenis met een 
 currentDataPackField.placeContext.geo.dmaID > 0).placeContext.geo.dmaID} == 602
 ```
 
-**De functie &quot;at(`<index>`)&quot;**
+**de functie &quot;bij (`<index>`)&quot;**
 
-De **[!UICONTROL at]** kunt u verwijzen naar een specifiek element in een verzameling op basis van een index.
+Met de functie **[!UICONTROL at]** kunt u naar een specifiek element in een verzameling verwijzen op basis van een index.
 Index 0 is de eerste index van de verzameling.
 
 _`<listExpression>`.at(`<index>`)_
@@ -236,10 +236,14 @@ Het resultaat is &quot;token_2&quot;.
 
 **Andere voorbeelden**
 
+Deze uitdrukking keert de productnamen terug die op de waarde SKU worden gebaseerd. De lijst met deze producten is opgenomen in de lijst met gebeurtenissen, met als voorwaarde de gebeurtenis-id.
+
 ```json
-#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent. all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 
-_aepgdcdevenablement2.purchase_event.productListItems. all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
+#{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 
+_aepgdcdevenablement2.purchase_event.productListItems.all(currentDataPackField.SKU == "AB17 1234 1775 19DT B4DR 8HDK 762").name}
 ```
+
+Deze expressie haalt de naam op van het laatste product in de productlijst van een handelsgebeurtenis waarbij het gebeurtenistype &#39;productListAdds&#39; is en de totale prijs groter dan of gelijk is aan 150.
 
 ```json
  #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
