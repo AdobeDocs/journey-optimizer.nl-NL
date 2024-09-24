@@ -10,14 +10,19 @@ level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: b57683b4-6dcc-4f6c-a8b2-4ba371d78d21
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 34156eb7f801586154506fbb18546d705e542f25
+source-git-commit: 7a324f3ece4d30085e3e447526cd0a2ff7fa72dd
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
 
 # Aan de slag met meertalige inhoud {#multilingual-gs}
+
+>[!CONTEXTUALHELP]
+>id="ajo_multi_translation_homepage"
+>title="Vertalingen"
+>abstract="Met de meertalige functie kunt u eenvoudig inhoud in meerdere talen maken in één campagne of reis. Via de pagina Vertalingen kunt u projecten instellen, vertaalbureaus selecteren of taalspecifieke woordenboeken beheren"
 
 >[!AVAILABILITY]
 >
