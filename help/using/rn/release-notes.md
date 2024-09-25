@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a33b1f0323efd0a482781d21fded66c9c8dd6360
+source-git-commit: 2efff12350ffeada28728ef32cf59bfb0f5d5c49
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 5%
+source-wordcount: '1596'
+ht-degree: 7%
 
 ---
 
@@ -178,6 +178,10 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 * When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
 * (De datum van de Beschikbaarheid: Sept 17) **gebruik van de Vergunning** - het het gebruiksdashboard van de Vergunning toont nu de Engageable Profielen, in plaats van Engageable Publiek. [Meer informatie](../audience/license-usage.md)
 
+**Inhoudsbeheer**
+
+* U kunt nu inhoudssjablonen en fragmenten exporteren tussen sandboxen.
+
 **Beheer van Gegevens**
 
 * U kunt nu een beleid voor gegevensbeheer toepassen op Journey Optimizer-kanalen, naast aangepaste acties binnen reizen. Deze verbetering helpt het gebruik van gevoelige gebieden in mededelingen verhinderen door marketing acties direct binnen uw kanaalconfiguraties toe te passen.
@@ -225,7 +229,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
   >[!CAUTION]
   >
-  >Houd er rekening mee dat u met de interactieve API-functionaliteit op de documentatiepagina&#39;s echte API-aanroepen uitvoert naar de eindpunten. Houd dit in gedachten wanneer u experimenteert met productiesandboxen.
+  >Houd er rekening mee dat u met de interactieve API-functionaliteit op de documentatiepagina&#39;s echte API-aanroepen naar de eindpunten uitvoert. Houd dit in gedachten wanneer u experimenteert met productiesandboxes.
 
 
 ## Opmerkingen bij de release augustus 2024 {#8-2024}
