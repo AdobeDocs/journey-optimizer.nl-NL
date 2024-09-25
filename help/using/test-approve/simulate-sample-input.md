@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 854a1398e1619f75c201b79e957088a1b6fef0d2
+source-git-commit: 13221645a22524deadc5576624bf6c31633c55c5
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="Simuleren met behulp van voorbeeldinvoer"
->abstract="In dit scherm kunt u verschillende varianten van uw e-mailinhoud testen door waarden op te geven voor verpersoonlijkingsvelden via een CSV-sjabloon (download CSV) of door de waarden handmatig in te voeren.
+>abstract="In dit scherm kunt u verschillende varianten van uw e-mailinhoud testen door waarden op te geven voor verpersoonlijkingsvelden via een CSV-sjabloon (download CSV) of door de waarden handmatig in te voeren."
 
 >[!AVAILABILITY]
 >
