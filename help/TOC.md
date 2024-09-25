@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: 131cacc88670a965ed2e233984ffa941b37e8a08
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2020'
 ht-degree: 26%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 26%
    + [Gebruikersinterface](using/start/user-interface.md)
    + [Zoeken, filteren en categoriseren](using/start/search-filter-categorize.md)
    + [Toegankelijkheid](using/start/accessibility.md)
-   + [Playbooks voor gebruiksscenario](using/start/playbooks.md)
+   + [Playbooks voor gebruiksscenario&#39;s](using/start/playbooks.md)
    + [Werken met de AI Assistant](using/start/ai-assistant.md)
    + [Integraties](using/start/ajo-integrations.md)
    + [Guardrails](using/start/guardrails.md)
@@ -177,7 +177,7 @@ ht-degree: 26%
 + Uw leveringen testen {#test}
    + [Conflictbeheer en prioritering](using/test-approve/conflict-prioritization.md)
    + Inhoud voorvertonen en testen {#preview-test}
-      + [Inhoud testen met aangepaste profielen](using/test-approve/test-custom-profiles.md)
+      + [Inhoud testen met behulp van voorbeeldinvoergegevens](using/test-approve/simulate-sample-input.md)
       + [Aan de slag met voorvertoning en testen](using/content-management/preview-test.md)
       + [Testprofielen selecteren](using/content-management/test-profiles.md)
       + [Voorbeeld van uw inhoud bekijken](using/content-management/preview.md)
@@ -665,5 +665,5 @@ ht-degree: 26%
    + Toestemming beheren {#consent}
       + [Weigeren beheren](using/privacy/opt-out.md)
       + [Werken met toestemmingsbeleid](using/action/consent.md)
-   + [Gegevensbeheer](using/action/action-privacy.md)
+   + [Datagovernance](using/action/action-privacy.md)
    + [Door de klant beheerde sleutels instellen en beheren](using/privacy/cmk.md)
