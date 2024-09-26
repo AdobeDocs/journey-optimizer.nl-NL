@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: e19cd0c301b1f2a8f47ca4c9f9882d36fd560dbe
+source-git-commit: bd5b32049e9cfbbccaf6b12c98a8f4dfcc8d14ac
 workflow-type: tm+mt
 source-wordcount: '2345'
 ht-degree: 0%
@@ -66,8 +66,7 @@ Afhankelijk van uw licentiecontract kunt u echter maximaal 100 subdomeinen deleg
 ### Algemene reisgeleiders {#journeys-guardrails-journeys}
 
 * Het aantal activiteiten op een reis is beperkt tot 50. Het aantal activiteiten wordt weergegeven in de linkerbovensectie van het reiscanvas. Dit zal helpen in leesbaarheid, QA en het oplossen van problemen.
-* Tijdens het publiceren van reizen worden de schaal en de stabiliteit automatisch aangepast om een maximale doorvoer en stabiliteit te garanderen. Aangezien u dichtbij de mijlpaal van 100 levende reizen in één keer, zult u een bericht over deze verwezenlijking zien verschijnen in UI. Als u deze melding ziet en uw reizen moet verlengen tot meer dan 100 rechtstreekse reizen tegelijk, maak dan een ticket voor de klantenservice en wij helpen u uw doelstellingen te bereiken.
-  <!-- DOCAC-10977 * As you publish journeys, we automatically scale and adjust to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time, you will see a notification appear in the UI on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
+* Tijdens het publiceren van reizen worden de schaal en de stabiliteit automatisch aangepast om een maximale doorvoer en stabiliteit te garanderen. Aangezien u dichtbij de mijlpaal van 500 levende reizen in één keer, zult u een bericht over deze verwezenlijking zien verschijnen in UI. Als u deze kennisgeving ziet en uw reizen moet verlengen tot meer dan 500 rechtstreekse reizen per keer, maak dan een ticket voor de klantenservice en wij helpen u bij het bereiken van uw doelstellingen.
 * Wanneer u een publiekskwalificatie gebruikt op een reis, kan het tot 10 minuten duren voordat de activiteit van de publiekskwalificatie actief is en naar profielen luistert die het publiek binnenkomen of verlaten.
 * Een reisinstantie voor een profiel heeft een maximumgrootte van 1 MB. Alle gegevens die als onderdeel van de uitvoering van de reis worden verzameld, worden opgeslagen in die reisinstantie. Daarom gegevens van een binnenkomende gebeurtenis, profielgegevens die zijn opgehaald uit Adobe Experience Platform, aangepaste reacties op acties, enzovoort. worden opgeslagen in die reisinstantie en beïnvloeden de reisgrootte. Wanneer een reis met een evenement begint, wordt het aanbevolen de maximale omvang van die lading (bv. minder dan 800 kB) te beperken om te voorkomen dat die limiet na een paar activiteiten wordt bereikt, in de uitvoering van de reis. Wanneer deze limiet is bereikt, heeft het profiel een foutstatus en wordt het van de reis uitgesloten.
 * Naast de time-out die wordt gebruikt bij reisactiviteiten, is er ook een wereldwijde reistime-out die niet in de interface wordt weergegeven en niet kan worden gewijzigd. Deze wereldwijde time-out houdt de voortgang van individuen op de reis 91 dagen na hun binnenkomst tegen. [Meer informatie](../building-journeys/journey-properties.md#global_timeout)
