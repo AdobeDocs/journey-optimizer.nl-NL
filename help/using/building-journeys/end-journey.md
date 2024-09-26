@@ -6,9 +6,9 @@ description: Leer hoe een reis eindigt in Journey Optimizer
 feature: Journeys
 role: User
 level: Intermediate
-keywords: reenter, transport, end, live, stop
+keywords: reenter, trip, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 1%
@@ -22,7 +22,7 @@ Een reis kan voor een individu in twee specifieke contexten eindigen:
 * De persoon komt bij de laatste activiteit van een weg aan.
 * De persoon komt bij a **Voorwaarde** activiteit (of a **wacht** activiteit met een voorwaarde) aan en past geen van de voorwaarden aan.
 
-De persoon kan dan de reis opnieuw betreden als zijn binnenkomst is toegestaan. Zie [ deze pagina ](../building-journeys/journey-properties.md#entrance)
+De persoon kan dan de reis opnieuw betreden als de toegang is toegestaan. Zie [ deze pagina ](../building-journeys/journey-properties.md#entrance)
 
 Om een live reis te beëindigen, adviseren wij dat u het sluit. De komst van nieuwe klanten op de reis zal dan worden geblokkeerd. Klanten die al op reis zijn gegaan, kunnen het tot het einde ervaren. Zie [ deze sectie ](../building-journeys/journey.md#close-journey)
 
