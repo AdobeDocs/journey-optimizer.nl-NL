@@ -8,9 +8,9 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: expressie, syntaxis, operatoren, editor, reis
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 20dfd2a0c5e660601e6a0acea661eadfd42423d7
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '551'
 ht-degree: 5%
 
 ---
@@ -38,9 +38,13 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
 ## Belangrijke opmerkingen{#important-notes}
 
-* Bij gebruik van een vermenigvuldiging (`*`), moeten beide bewerkingsvelden hetzelfde type hebben, geheel getal of decimaal. Voorbeeld:
+* Wanneer het gebruiken van een vermenigvuldiging (`*`), moeten beide verrichtingsgebieden het zelfde type, of geheel of decimaal hebben. Voorbeeld:
    * het volgende voorbeeld is correct: `3.0 * 4.0`
    * `3 * 4.0` leidt tot een fout
+
+* Wanneer u de operator `+` gebruikt, moet de expressie worden ingekapseld tussen haakjes. Voorbeeld:
+   * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))` is correct
+   * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))` leidt tot een fout
 
 ## Logisch  {#logical}
 
@@ -50,7 +54,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 <expression1> and <expression2>
 ```
 
-Beide &lt;expression1> en &lt;expression2> moet Booleaans zijn. Het resultaat is booleaans.
+Zowel &lt;expression1> als &lt;expression2> moeten booleaans zijn. Het resultaat is booleaans.
 
 Voorbeeld:
 
@@ -64,7 +68,7 @@ Voorbeeld:
 <expression1> or <expression2>
 ```
 
-Beide &lt;expression1> en &lt;expression2> moet Booleaans zijn. Het resultaat is booleaans.
+Zowel &lt;expression1> als &lt;expression2> moeten booleaans zijn. Het resultaat is booleaans.
 
 Voorbeeld:
 
@@ -78,7 +82,7 @@ Voorbeeld:
 not <expression>
 ```
 
-&lt;expression> moet Booleaans zijn. Het resultaat is booleaans.
+&lt;expression> moet Boolean zijn. Het resultaat is booleaans.
 
 Voorbeeld:
 
@@ -152,7 +156,7 @@ Retourneert false omdat &quot;&quot; niet als null wordt beschouwd.
 
 >[!NOTE]
 >
->Voor &lt;expression1> en &lt;expression2> er is geen controle van het gegevenstype.
+>Voor &lt;expression1> en &lt;expression2> is er geen gegevenstypecontrole.
 
 Voorbeeld:
 
@@ -172,7 +176,7 @@ Voorbeeld:
 
 >[!NOTE]
 >
-Voor &lt;expression1> en &lt;expression2> er is geen controle van het gegevenstype.
+Voor &lt;expression1> en &lt;expression2> is er geen gegevenstypecontrole.
 
 Het resultaat is booleaans.
 
@@ -434,13 +438,13 @@ Voorbeeld:
 "the current time is " + (now())
 ```
 
-Retourneert &quot;de huidige tijd is 2023-09-23T09:30:06,693Z&quot;
+Keert &quot;de huidige tijd is 2023-09-23T09 :30: 06.693Z&quot; terug
 
 ```json
 (now()) + " is the current time"
 ```
 
-Retourneert &quot;2023-09-23T09:30:06.693Z is de huidige tijd&quot;
+Keert &quot;2023-09-23T09 :30: 06.693Z terug is de huidige tijd&quot;
 
 ```json
 "a" + "b" + "c" + 1234
@@ -464,22 +468,22 @@ Voorbeeld:
 (toDateTime("2023-12-03T15:15:30Z")) + (toDuration("PT15M"))  
 ```
 
-Retourneert een _dateTime_ 2023-12-03T15:30:30Z
+Keert a _dateTime_ 2023-12-03T15 :30: 30Z terug
 
 ```json
 (toDateTimeOnly("2023-12-03T15:15:30")) + (toDuration("PT15M"))
 ```
 
-Retourneert een _dateTimeOnly_ 2023-12-03T15:30:30
+Keert a _dateTimeOnly_ 2023-12-03T15 :30: 30 terug
 
 ```json
 (now()) + (toDuration("PT1H"))
 ```
 
-Retourneert een _dateTime_ (met UTC-tijdzone) één uur later vanaf de huidige tijd
+Keert a _dateTime_ (met UTC tijdzone) één uur later van huidige tijd terug
 
 ```json
 (toDuration("PT1H")) + (toDuration("PT1H"))
 ```
 
-Retourneert een _duur_ PT2H
+Keert a _duur_ PT2H terug
