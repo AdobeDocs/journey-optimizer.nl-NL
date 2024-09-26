@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer
-description: Belangrijke Adobe Journey Optimizer-functies en gebruiksscenario's ontdekken
+description: Ontdek de belangrijkste functies en gebruiksscenario's van Adobe Journey Optimizer
 feature: Get Started
 topic: Content Management
 role: User
