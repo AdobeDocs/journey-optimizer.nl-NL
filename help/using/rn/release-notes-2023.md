@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
 workflow-type: tm+mt
 source-wordcount: '4393'
 ht-degree: 8%
@@ -87,7 +87,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 * De maximale tijdsduur die u in een wachttijd kunt definiëren, is nu 29 dagen in plaats van 30. Deze verbetering is ingevoerd om te voorkomen dat wachttijden langer duren dan de 30 dagen durende reisduur. Dit geldt voor:
 
    * het **Hoeveelheid van Tijd** gebied in [ wacht activiteit ](../building-journeys/wait-activity.md)
-   * de **ingang wacht periode** in [ reiseigenschappen ](../building-journeys/journey-properties.md#entrance)
+   * de **Ingang wacht periode** in [ reiseigenschappen ](../building-journeys/journey-properties.md#entrance)
    * **wacht op** gebied in de onderbrekingsdefinitie van [ gebeurtenisactiviteiten ](../building-journeys/general-events.md#events-specific-time).
 
 <!--
@@ -922,7 +922,7 @@ Note that each widget can be resized and deleted as needed.
 
 **Reizen**
 
-* Het **terugkeer wacht periode** gebied is toegevoegd aan de reiseigenschappen. In dit veld kunt u de tijd definiëren die u moet wachten voordat u een profiel toestaat om de reis opnieuw te betreden tijdens een enkele reis (te beginnen met een evenement of een publiekskwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. [Meer informatie](../building-journeys/journey-properties.md#entrance)
+* Het **Reentrance wacht periode** gebied is toegevoegd aan de reiseigenschappen. In dit veld kunt u de tijd definiëren die u moet wachten voordat u een profiel toestaat om de reis opnieuw te betreden tijdens een enkele reis (te beginnen met een evenement of een publiekskwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. [Meer informatie](../building-journeys/journey-properties.md#entrance)
 
 * De verbeteringen zijn aangebracht voor **begin en einddata van de reis**. Als u geen begindatum hebt opgegeven, wordt deze nu automatisch toegevoegd op het moment van publicatie. Voor **gelezen publiek** reizen, kunt u een einddatum nu toevoegen. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. [Meer informatie](../building-journeys/journey-gs.md#dates)
 
