@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
+source-git-commit: 1e4bff3e69cd70fd1f6e13cb582de4700bddd6d1
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 9%
@@ -223,7 +223,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 * **kopbal van het Bericht in verzonden e-mail en exemplaar BCC** - een nieuwe kopbal is toegevoegd aan alle e-mailberichten. De waarde van deze koptekst is uniek voor elke verzonden e-mail en de bijbehorende BCC-e-mailkopie. Deze kopbal wordt ook opgeslagen in het bericht en BCC terugkoppelt datasets, die toestaat om het exemplaar BCC en de overeenkomstige verzonden e-mailinformatie met elkaar in overeenstemming te brengen. [Meer informatie](../configuration/archiving-support.md#bcc-header)
 
-* **Spam het scoren** (GA) - U kunt uw inhoud nu controleren spam het scoren in een specifiek Spam- rapport. Gebruikend SpamAssassin, kan Adobe Journey Optimizer uw e-mailinhoud nu testen en het een score geven om erop te wijzen als ISPs of de leveranciers van de Brievenbus het als spam of niet zullen beschouwen. [Meer informatie](../content-management/spam-report.md)
+* **Spam het scoren** (GA) - u kunt uw inhoud nu controleren spam het scoren in een specifiek **Spam- rapport**. Gebruikend SpamAssassin, kan Adobe Journey Optimizer uw e-mailinhoud nu testen en het een score geven om erop te wijzen als ISPs of de leveranciers van de Brievenbus het als spam of niet zullen beschouwen. [Meer informatie](../content-management/spam-report.md)
 
 **Sms-kanaal**
 
