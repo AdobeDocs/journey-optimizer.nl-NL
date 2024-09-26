@@ -10,9 +10,9 @@ level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: a190b5547c2d8e13563391bd9d784add75c55fd4
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1511'
 ht-degree: 1%
 
 ---
@@ -225,6 +225,10 @@ Als u uw vertaalproject en taalinstellingen hebt ingesteld, kunt u uw campagne o
    ![](assets/multilingual-campaign-automated-7.png)
 
 1. Controleer of uw campagne correct is geconfigureerd en klik op **[!UICONTROL Activate]** .
+
+   >[!IMPORTANT]
+   >
+   >Vanaf de release van september kunt u met een nieuwe ervaring op het gebied van campagne en trajectactivering het hele goedkeuringsproces beheren. Zo kunt u ervoor zorgen dat campagnes en reizen grondig worden doorgelicht en goedgekeurd door de belanghebbenden voordat u live gaat. Deze functie is beschikbaar in Beperkte Beschikbaarheid. [Meer informatie](../test-approve/gs-approval.md)
 
 U kunt nu uw campagne of reis activeren. Als u eenmaal bent verzonden, kunt u de impact van uw meertalige reis of campagne in rapporten meten.
 

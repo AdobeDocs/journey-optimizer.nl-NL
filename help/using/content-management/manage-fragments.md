@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: c42fc1069e11b8e34b7477fc26ed8a6b4ef95ac7
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -128,3 +128,9 @@ Klik hiertoe op de knop **[!UICONTROL More actions]** naast het gewenste fragmen
 Als u het archiveren van een fragment ongedaan wilt maken, filtert u op de **[!UICONTROL Archived]** -items en selecteert u **[!UICONTROL Unarchive]** in het menu **[!UICONTROL More actions]** . Het is nu weer toegankelijk vanuit de fragmentlijst en kan in elke e-mail of sjabloon worden gebruikt.
 
 ![](assets/fragment-list-unarchive.png)
+
+## Fragmenten exporteren naar een andere sandbox {#export}
+
+Met Journey Optimizer kunt u een fragment van de ene naar de andere sandbox kopiëren. U kunt bijvoorbeeld een fragment uit de sandboxomgeving van het werkgebied kopiëren naar uw productiefandbox.
+
+Het exemplaarproces wordt gedragen via de uitvoer en de invoer van het a **pakket** tussen de bron en doelzandbakken. De gedetailleerde informatie over hoe te om voorwerpen uit te voeren en hen in een doelzandbak in deze sectie in te voeren is beschikbaar: [ de voorwerpen van het Exemplaar aan een andere zandbak ](../configuration/copy-objects-to-sandbox.md)

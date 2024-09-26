@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reizen, beperking
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ Hier zijn beperkingen met betrekking tot het gebruik van reizen.
 
 * Er is geen verzendvertraging. 
 * In het geval van een fout worden drie pogingen systematisch opnieuw uitgevoerd. U kunt het aantal pogingen niet aanpassen volgens het ontvangen foutbericht. 
-* De ingebouwde **Reactie** -gebeurtenis kunt u reageren op acties die buiten de box vallen (zie deze [page](../building-journeys/reaction-events.md)). Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen. 
+* De ingebouwde **gebeurtenis van de Reactie** staat u toe om op uit-van-de-doos acties (zie deze [ pagina ](../building-journeys/reaction-events.md)) te reageren. Als u op een bericht wilt reageren dat via een douaneactie wordt verzonden, moet u een specifieke gebeurtenis vormen. 
 * U kunt geen twee acties parallel plaatsen, u moet hen één na andere toevoegen.
 
 ## Beperkingen van reisversies {#journey-versions-limitations}
 
-* Een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis beginnen met een **Poortkwalificatie** gebeurtenis.
-* Een reis die begint met een **Poortkwalificatie** activiteit in v1 moet altijd beginnen met een **Poortkwalificatie** in verdere versies.
-* Het publiek en de naamruimte die zijn gekozen in **Poortkwalificatie** (eerste knooppunt) kan niet worden gewijzigd in nieuwe versies.
-* De re-entry regel moet het zelfde in alle reisversies zijn.
-* Een reis die begint met een **Publiek lezen** kan niet met een andere gebeurtenis in volgende versies beginnen.
+* Een reis die begint met een gebeurtenisactiviteit in v1 kan niet met iets anders beginnen dan een gebeurtenis in verdere versies. U kunt geen reis met een **gebeurtenis beginnen van de Kwalificatie van het publiek 0}.**
+* Een reis die met een **activiteit begint van de Kwalificatie van het Publiek** in v1 moet altijd met een **Kwalificatie van het Publiek** in verdere versies beginnen.
+* Het publiek en namespace die in **de Kwalificatie van het Publiek** (eerste knoop) worden gekozen kunnen niet in nieuwe versies worden veranderd.
+* De regel van de terugkeer moet het zelfde in alle reisversies zijn.
+* Een reis die met a **begint Gelezen Publiek** kan niet met een andere gebeurtenis in volgende versies beginnen.
 
 ## Beperkingen voor aangepaste handelingen {#custom-actions-limitations}
 

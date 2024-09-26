@@ -8,26 +8,26 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: 778ef71a531346774c5e10e296dbf1112fed891d
+source-git-commit: f00b157ec843eacdee480dcfe00a8724ab4a3495
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
 
-# Gebruik hoofdletters/kleine letters: gebruik Aangepaste handelingen om gebeurtenissen Journey in Experience Platform te schrijven{#custom-action-aep}
+# Gebruik hoofdletters/kleine letters: gebruik Aangepaste handelingen om gebeurtenissen Journey in Experience Platform te schrijven {#custom-action-aep}
 
 Dit gebruiksgeval verklaart hoe te om douanegebeurtenissen in Adobe Experience Platform van Reizen te schrijven gebruikend de Acties van de Douane en Voor authentiek verklaarde vraag.
 
-## Een IO-project configureren
+## Een IO-project configureren {#custom-action-aep-IO}
 
-1. Klik in de Adobe Developer-console op **Project** en opent u uw IO-project.
+1. Van Adobe Developer Console, klik **Project** en open uw IO project.
 
-1. In de **Credentials** sectie, klikken **OAuth Server-to-Server**.
+1. In de **sectie van Referenties**, klik **Server-aan-Server**.
 
    ![](assets/custom-action-aep-1.png)
 
-1. Klikken **CURL weergeven, opdracht**.
+1. Klik {het bevel van cURL van de Mening 0} **.**
 
    ![](assets/custom-action-aep-2.png)
 
@@ -39,21 +39,21 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Nadat u uw project in de Adobe Developer-console hebt gemaakt, moet u ontwikkelaars en API-toegangsbeheer de juiste machtigingen geven. Meer informatie in het dialoogvenster [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
+>Nadat u uw project op de Adobe Developer Console hebt gemaakt, moet u ontwikkelaars en API-toegangsbeheer de juiste machtigingen geven. Leer meer in de [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control) {target="_blank"}
 
-## De bron configureren met HTTP API Inlet
+## Source configureren met HTTP API Inlet
 
 1. Maak een eindpunt in Adobe Experience Platform om de gegevens van reizen te schrijven.
 
-1. Klik in Adobe Experience Platform op **Bronnen**, onder **Verbindingen** in het linkermenu. Onder **HTTP-API**, klikt u op **Gegevens toevoegen**.
+1. In Adobe Experience Platform, klik **Bronnen**, onder **Verbindingen** in het linkermenu. Onder **HTTP API**, klik **gegevens** toevoegen.
 
    ![](assets/custom-action-aep-3.png)
 
-1. Selecteren **Nieuwe account** en inschakelen van verificatie. Klikken op **Verbinden met bron**.
+1. Selecteer **Nieuwe rekening** en laat authentificatie toe. Klik op **verbinden met Source**.
 
    ![](assets/custom-action-aep-4.png)
 
-1. Klikken op **Volgende** en selecteer de Dataset waar u de gegevens wilt schrijven. Klikken **Volgende** en **Voltooien**.
+1. Klik op **daarna** en selecteer de Dataset waar u de gegevens wilt schrijven. Klik **daarna** en **Afwerking**.
 
    ![](assets/custom-action-aep-5.png)
 
@@ -94,9 +94,13 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 }
 ```
 
-## Aangepaste actie configureren
+## Aangepaste actie configureren {#custom-action-config}
 
-1. Open Adobe Journey Optimizer en klik op **Configuraties**, onder **Administratie** in het linkermenu. Onder **Handelingen**, klikt u op **Beheren** en klik op **Handeling maken**.
+De actieconfiguratie van de douane wordt gedetailleerd in [ deze pagina ](../action/about-custom-action-configuration.md).
+
+Voer voor dit voorbeeld de volgende stappen uit:
+
+1. Open Adobe Journey Optimizer, en klik **Configuraties**, onder **Beleid** in het linkermenu. Onder **Acties**, klik **leiden** en klik **tot Actie**.
 
 1. Stel de URL in en selecteer de methode Post.
 
@@ -106,9 +110,9 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-7bis.png)
 
-### De verificatie instellen
+### De verificatie instellen {#custom-action-aep-authentication}
 
-1. Selecteer de **Type** als **Aangepast** met de volgende Payload.
+1. Selecteer het **Type** als **Douane** met de volgende nuttige lading.
 
 1. Plak client_gehec, client_id, scope en Grant_type (van de IO projectlading die vroeger wordt gebruikt).
 
@@ -136,13 +140,13 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. Gebruik de **Klik om de verificatie te testen** om de verbinding te testen.
+1. Gebruik **klik om de authentificatie** knoop te testen om de verbinding te testen.
 
    ![](assets/custom-action-aep-8.png)
 
-### De Payload instellen
+### De Payload instellen {#custom-action-aep-payload}
 
-1. In de **Verzoek** en **Antwoord** velden, plakt u de lading van de eerder gebruikte bronverbinding.
+1. In de **gebieden van het Verzoek** en **Reactie**, kleef de nuttige lading van de bronverbinding die vóór werd gebruikt.
 
    ```
    {
@@ -167,7 +171,9 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
    }
    ```
 
-1. De configuratie van het veld wijzigen vanuit **Constante** tot **Variabele** voor velden die dynamisch worden ingevuld. Sla de aangepaste handeling op.
+1. Verander de Configuratie van het Gebied van **Constante** aan **Variabele** voor gebieden die dynamisch zullen worden bevolkt.
+
+1. Sla de aangepaste handeling op.
 
 ## Reis
 

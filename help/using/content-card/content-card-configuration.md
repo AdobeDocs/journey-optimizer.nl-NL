@@ -5,30 +5,14 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-badge: label="Beperkte beschikbaarheid" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '567'
 ht-degree: 1%
 
 ---
 
 # Inhoudskaarten configureren {#content-card-configuration}
-
->[!BEGINSHADEBOX]
-
-**Lijst van inhoud**
-
-* [Aan de slag met inhoudskaarten](get-started-content-card.md)
-* [Voorwaarden voor inhoudskaarten](content-card-configuration-prereq.md)
-* **vorm inhoudskaartenkanaal**
-* [Inhoudskaarten maken](create-content-card.md)
-* [Inhoudskaarten ontwerpen](design-content-card.md)
-* [Rapport voor inhoudskaarten](content-card-report.md)
-
->[!ENDSHADEBOX]
 
 ## Wat is een configuratie? {#surface-definition}
 

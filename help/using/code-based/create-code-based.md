@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1072'
 ht-degree: 1%
 
 ---
@@ -113,6 +113,10 @@ Volg de onderstaande stappen om een voorvertoning weer te geven van uw aangepast
     When copying the test URI, the content displayed is the one personalized for the test profile used when the content simulation was generated in [!DNL Journey Optimizer].-->
 
 ## De op code gebaseerde campagne activeren {#activate-code-based-campaign}
+
+>[!IMPORTANT]
+>
+>Vanaf de release van september kunt u met een nieuwe ervaring op het gebied van campagne en trajectactivering het hele goedkeuringsproces beheren. Zo kunt u ervoor zorgen dat campagnes en reizen grondig worden doorgelicht en goedgekeurd door de belanghebbenden voordat u live gaat. Deze functie is beschikbaar in Beperkte Beschikbaarheid. [Meer informatie](../test-approve/gs-approval.md)
 
 Zodra u uw op code-gebaseerde campagne bepaalde en uw inhoud zoals gewenst gebruikend de [ code-gebaseerde redacteur ](#edit-code), kunt u het herzien en activeren. Voer de onderstaande stappen uit.
 

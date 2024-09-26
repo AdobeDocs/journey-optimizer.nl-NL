@@ -10,9 +10,9 @@ level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '599'
 ht-degree: 1%
 
 ---
@@ -139,6 +139,10 @@ Nadat u meertalige inhoud hebt ingesteld, kunt u uw campagne of reis plannen en 
    ![](assets/multilingual-campaign-8.png)
 
 U kunt nu uw campagne of reis activeren. Als u eenmaal bent verzonden, kunt u de impact van uw meertalige reis of campagne in rapporten meten.
+
+>[!IMPORTANT]
+>
+>Vanaf de release van september kunt u met een nieuwe ervaring op het gebied van campagne en trajectactivering het hele goedkeuringsproces beheren. Zo kunt u ervoor zorgen dat campagnes en reizen grondig worden doorgelicht en goedgekeurd door de belanghebbenden voordat u live gaat. Deze functie is beschikbaar in Beperkte Beschikbaarheid. [Meer informatie](../test-approve/gs-approval.md)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

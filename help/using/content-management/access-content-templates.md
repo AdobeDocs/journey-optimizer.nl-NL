@@ -6,13 +6,13 @@ description: Leer inhoudssjablonen te openen en te beheren
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 59c675dd2ac94b6967cfb3a93f74b2016a090190
+exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
-
 
 # Inhoudssjablonen openen en beheren {#access-manage-templates}
 
@@ -22,13 +22,13 @@ Als u de lijst met inhoudssjablonen wilt openen, selecteert u **[!UICONTROL Cont
 
 ![](assets/content-template-list.png)
 
-Alle sjablonen die op de huidige sandbox zijn gemaakt - van een reis of een campagne met de **[!UICONTROL Save as template]** van de **[!UICONTROL Content Templates]** menu - worden weergegeven. [Leer hoe u sjablonen maakt](#create-content-templates)
+Alle sjablonen die in de huidige sandbox zijn gemaakt (van een rit of een campagne met de optie **[!UICONTROL Save as template]** in het menu **[!UICONTROL Content Templates]** ), worden weergegeven. [ Leer hoe te om malplaatjes ](#create-content-templates) tot stand te brengen
 
 U kunt inhoudssjablonen sorteren op:
 * Type
 * Kanaal
 * Aanmaakdatum of wijzigingsdatum
-* Tags - [Meer informatie over tags](../start/search-filter-categorize.md#tags)
+* De markeringen - [ leren meer op markeringen ](../start/search-filter-categorize.md#tags)
 
 U kunt er ook voor kiezen om alleen de zelf gemaakte of gewijzigde items weer te geven.
 
@@ -40,7 +40,7 @@ U kunt er ook voor kiezen om alleen de zelf gemaakte of gewijzigde items weer te
 
   ![](assets/content-template-edit.png)
 
-* Als u een sjabloon wilt verwijderen, selecteert u de **[!UICONTROL More actions]** naast de gewenste sjabloon en selecteer **[!UICONTROL Delete]**.
+* Als u een sjabloon wilt verwijderen, selecteert u de knop **[!UICONTROL More actions]** naast de gewenste sjabloon en selecteert u **[!UICONTROL Delete]** .
 
   ![](assets/content-template-list-delete.png)
 
@@ -50,7 +50,7 @@ U kunt er ook voor kiezen om alleen de zelf gemaakte of gewijzigde items weer te
 
 ## Sjablonen weergeven als miniaturen {#template-thumbnails}
 
-Selecteer de **[!UICONTROL Grid view]** om elke sjabloon als een miniatuur weer te geven.
+Selecteer de modus **[!UICONTROL Grid view]** om elke sjabloon als een miniatuur weer te geven.
 
 >[!AVAILABILITY]
 >
@@ -63,3 +63,9 @@ Selecteer de **[!UICONTROL Grid view]** om elke sjabloon als een miniatuur weer 
 >Er kunnen momenteel alleen juiste miniaturen worden gegenereerd voor sjablonen voor e-mailinhoud van het type HTML.
 
 Wanneer u inhoud bijwerkt, moet u mogelijk een paar seconden wachten voordat de wijzigingen in de miniatuur worden doorgevoerd.
+
+## Inhoudssjablonen exporteren naar een andere sandbox {#export}
+
+Met Journey Optimizer kunt u een inhoudssjabloon van de ene naar de andere sandbox kopiëren. U kunt bijvoorbeeld een sjabloon van de zandbakomgeving van het werkgebied kopiëren naar de productiefasen.
+
+Het exemplaarproces wordt gedragen via de uitvoer en de invoer van het a **pakket** tussen de bron en doelzandbakken. De gedetailleerde informatie over hoe te om voorwerpen uit te voeren en hen in een doelzandbak in deze sectie in te voeren is beschikbaar: [ de voorwerpen van het Exemplaar aan een andere zandbak ](../configuration/copy-objects-to-sandbox.md)

@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 131cacc88670a965ed2e233984ffa941b37e8a08
+source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
 workflow-type: tm+mt
-source-wordcount: '2020'
+source-wordcount: '2042'
 ht-degree: 26%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 26%
       + [Uw reis testen](using/building-journeys/testing-the-journey.md)
       + [Uw reis simuleren](using/building-journeys/journey-simulation.md)
       + [Publish je reis](using/building-journeys/publishing-the-journey.md)
+      + [Live melding op reis](using/building-journeys/report-journey.md)
    + Uw reizen beheren {#manage-journey}
       + [Profieltoegangsbeheer](using/building-journeys/entry-management.md)
       + [Tijdzonebeheer](using/building-journeys/timezone-management.md)
@@ -174,7 +175,7 @@ ht-degree: 26%
    + [Een campagne bekijken en activeren](using/campaigns/review-activate-campaign.md)
    + [Campagnes beheren](using/campaigns/modify-stop-campaign.md)
    + [Campagnes activeren met API&#39;s](using/campaigns/api-triggered-campaigns.md)
-+ Uw leveringen testen {#test}
++ Testen en goedkeuren {#test}
    + [Conflictbeheer en prioritering](using/test-approve/conflict-prioritization.md)
    + Inhoud voorvertonen en testen {#preview-test}
       + [Inhoud testen met behulp van voorbeeldinvoergegevens](using/test-approve/simulate-sample-input.md)
@@ -184,6 +185,11 @@ ht-degree: 26%
       + [E-mailproefdrukken verzenden](using/content-management/proofs.md)
       + [E-mailrendering testen](using/content-management/rendering.md)
       + [E-mailspamrapport](using/content-management/spam-report.md)
+   + Reizen en campagnes goedkeuren {#approve}
+      + [Aan de slag met goedkeuringen](using/test-approve/gs-approval.md)
+      + [Goedkeuringsbeleid maken en beheren](using/test-approve/approval-policies.md)
+      + [Goedkeuring aanvragen](using/test-approve/request-approval.md)
+      + [Een verzoek goedkeuren](using/test-approve/review-approve-request.md)
 + E-mailkanaal {#email}
    + [Aan de slag met e-mails](using/email/get-started-email.md)
    + [Een e-mail maken](using/email/create-email.md)
@@ -264,14 +270,13 @@ ht-degree: 26%
    + [Op code gebaseerde ervaringsconfiguratie maken](using/code-based/code-based-configuration.md)
    + [Voorbeelden van implementatiemethoden](using/code-based/code-based-implementation-samples.md)
    + [Op code gebaseerde ervaringen maken](using/code-based/create-code-based.md)
-+ Inhoudskaarten (LA) {#content-card}
++ Inhoudskaarten {#content-card}
    + [Aan de slag met inhoudskaarten](using/content-card/get-started-content-card.md)
    + Kanaal voor inhoudskaart configureren {#configure}
       + [Voorwaarden voor inhoudskaarten](using/content-card/content-card-configuration-prereq.md)
       + [Het kanaal voor inhoudskaarten in Journey Optimizer configureren](using/content-card/content-card-configuration.md)
    + [Inhoudskaarten maken](using/content-card/create-content-card.md)
    + [Inhoudskaarten ontwerpen](using/content-card/design-content-card.md)
-   + [Rapport voor inhoudskaarten](using/content-card/content-card-report.md)
 + Landingspagina’s {#landing-pages}
    + [Aan de slag met bestemmingspagina&#39;s](using/landing-pages/get-started-lp.md)
    + [Een landingspagina maken](using/landing-pages/create-lp.md)
@@ -647,6 +652,7 @@ ht-degree: 26%
          + [API-aanroepreacties gebruiken in aangepaste handelingen](using/action/action-response.md)
          + [Integreren met Marketo Engage](using/action/marketo-engage.md)
    + [Bronnen](using/start/get-started-sources.md)
+   + [Objecten exporteren naar een andere sandbox](using/configuration/copy-objects-to-sandbox.md)
 + Toegangsbeheer {#access-control}
    + Overzicht van toegangsbeheer {#privacy}
       + [Aan de slag met gebruikersbeheer](using/administration/permissions-overview.md)

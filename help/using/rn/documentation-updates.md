@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '5450'
 ht-degree: 13%
@@ -169,7 +169,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 ## Juli 2023 {#july-2023}
 
 * Alle nieuwe functies en verbeteringen die worden geïntroduceerd in de release van [!DNL Journey Optimizer] juli 23 zijn beschreven in de documentatie. [Meer informatie](release-notes.md)
-* De pagina met documentatie over wachtactiviteiten is verbeterd met aanvullende informatie en aanbevolen procedures met betrekking tot de algemene time-out en het herbetreden van bestanden. [Meer informatie](../building-journeys/wait-activity.md)
+* De pagina met documentatie over wachtactiviteiten is verbeterd met aanvullende informatie en aanbevolen procedures met betrekking tot de algemene time-out en het gebruik van toegang. [Meer informatie](../building-journeys/wait-activity.md)
 * De pagina over toegangsbeheer is verbeterd. [Meer informatie](../building-journeys/entry-management.md)
 * Er is aanvullende informatie toegevoegd over de vertragingsfactor in de documentatie over de activiteit van het publiek lezen. [Meer informatie](../building-journeys/read-audience.md)
 * Er is aanvullende informatie toegevoegd over nieuwe pogingen. [Meer informatie](../start/guardrails.md#general-actions-g)

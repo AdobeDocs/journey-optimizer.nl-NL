@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 keywords: campagne, revisie, validatie, activering, activering, optimaliseren
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '288'
 ht-degree: 3%
 
 ---
 
 # Een campagne bekijken en activeren {#review-activate}
+
+>[!IMPORTANT]
+>
+>Vanaf de release van september kunt u met een nieuwe ervaring op het gebied van campagne en trajectactivering het hele goedkeuringsproces beheren. Zo kunt u ervoor zorgen dat campagnes en reizen grondig worden doorgelicht en goedgekeurd door de belanghebbenden voordat u live gaat. Deze functie is beschikbaar in Beperkte Beschikbaarheid. [Meer informatie](../test-approve/gs-approval.md)
 
 Zodra uw campagne is gevormd, moet u zijn parameter en inhoud herzien alvorens het te activeren. Ga als volgt te werk om dit te doen:
 
@@ -30,20 +34,20 @@ Zodra uw campagne is gevormd, moet u zijn parameter en inhoud herzien alvorens h
 
    ![](assets/create-campaign-alerts.png)
 
-1. Controleer of uw campagne correct is geconfigureerd en klik vervolgens op **[!UICONTROL Activate]**.
+1. Controleer of uw campagne correct is geconfigureerd en klik op **[!UICONTROL Activate]** .
 
-1. De campagne is nu geactiveerd. Zijn status is **[!UICONTROL Live]**, of **[!UICONTROL Scheduled]** als u een begindatum hebt ingevoerd. [Meer informatie over de status van campagnes](get-started-with-campaigns.md#statuses).
+1. De campagne is nu geactiveerd. De status is **[!UICONTROL Live]** of **[!UICONTROL Scheduled]** als u een begindatum hebt ingevoerd. [ leer meer op campagnestatussen ](get-started-with-campaigns.md#statuses).
 
    Het bericht dat in de campagne wordt gevormd wordt verzonden onmiddellijk of op de gespecificeerde datum.
 
    >[!NOTE]
    >
-   >De **[!UICONTROL Completed]** de status wordt automatisch toegewezen aan een campagne drie dagen nadat deze is geactiveerd of op de einddatum van de campagne als deze een terugkerende uitvoering heeft.
+   >De **[!UICONTROL Completed]** -status wordt automatisch toegewezen aan een campagne drie dagen nadat deze is geactiveerd of op de einddatum van de campagne als deze een terugkerende uitvoering heeft.
    >
-   >Als er geen einddatum is opgegeven, blijft de campagne **[!UICONTROL Live]** status. Als u deze wilt wijzigen, moet u de campagne handmatig stoppen. [Leer hoe u een campagne kunt stoppen](modify-stop-campaign.md)
+   >Als er geen einddatum is opgegeven, behoudt de campagne de status **[!UICONTROL Live]** . Als u deze wilt wijzigen, moet u de campagne handmatig stoppen. [ Leer hoe te om een campagne ](modify-stop-campaign.md) tegen te houden
 
 1. Nadat een campagne is geactiveerd, kunt u op elk gewenst moment de informatie controleren door deze te openen. Met dit overzicht kunt u statistieken opvragen over het aantal doelprofielen en geleverde en mislukte acties.
 
-   U kunt extra statistieken in specifieke rapporten ook krijgen door te klikken op **[!UICONTROL Reports]** knop. [Meer informatie](../reports/campaign-global-report.md)
+   U kunt ook aanvullende statistieken in speciale rapporten weergeven door op de knop **[!UICONTROL Reports]** te klikken. [Meer informatie](../reports/campaign-global-report.md)
 
    ![](assets/create-campaign-summary.png)

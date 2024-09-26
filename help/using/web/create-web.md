@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -82,6 +82,10 @@ U kunt de URL ook in de standaardbrowser openen of de test-URL kopiëren en in e
 De gedetailleerde informatie over hoe te om testprofielen en voorproef uw inhoud te selecteren is beschikbaar in de [ sectie van het Beheer van de Inhoud ](../content-management/preview-test.md).
 
 ## De webcampagne activeren {#activate-web-campaign}
+
+>[!IMPORTANT]
+>
+>Vanaf de release van september kunt u met een nieuwe ervaring op het gebied van campagne en trajectactivering het hele goedkeuringsproces beheren. Zo kunt u ervoor zorgen dat campagnes en reizen grondig worden doorgelicht en goedgekeurd door de belanghebbenden voordat u live gaat. Deze functie is beschikbaar in Beperkte Beschikbaarheid. [Meer informatie](../test-approve/gs-approval.md)
 
 Zodra u uw [ montages van de Webcampagne ](#configure-web-campaign) bepaalde en u uw inhoud zoals gewenst het gebruiken van [ Webontwerper ](edit-web-content.md#work-with-web-designer), kunt u uw Webcampagne herzien en activeren. Voer de onderstaande stappen uit.
 

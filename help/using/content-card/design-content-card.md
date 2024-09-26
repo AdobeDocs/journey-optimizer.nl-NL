@@ -4,34 +4,14 @@ description: Leer hoe u inhoud voor inhoudskaarten ontwerpt
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beperkte beschikbaarheid" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '453'
 ht-degree: 1%
 
 ---
 
 # Inhoud van inhoudskaarten ontwerpen {#design-content-card}
-
->[!BEGINSHADEBOX]
-
-**Lijst van inhoud**
-
-* [Aan de slag met inhoudskaarten](get-started-content-card.md)
-* [Voorwaarden voor inhoudskaarten](content-card-configuration-prereq.md)
-* [Het kanaal voor inhoudskaarten in Journey Optimizer configureren](content-card-configuration.md)
-* [Inhoudskaarten maken](create-content-card.md)
-* **de inhoudskaarten van het Ontwerp**
-* [Rapport voor inhoudskaarten](content-card-report.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Inhoudskaarten zijn momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
 
 Het ontwerpconcept voor kaarten biedt een op formulieren gebaseerde ontwerpervaring die marketers basisinvoer biedt die kan worden gebruikt om door de ontwikkelaar te worden gerenderd.
 

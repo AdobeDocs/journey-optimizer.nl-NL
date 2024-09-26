@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, configuratie, eigenschappen
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: fbe8d14ba81e168ecfb141d54bf3009a2565751c
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
@@ -23,19 +23,13 @@ ht-degree: 0%
 >title="Journeyeigenschappen"
 >abstract="In dit gedeelte worden de eigenschappen van de reis weergegeven. Standaard zijn alleen-lezen parameters verborgen. Welke instellingen beschikbaar zijn, is afhankelijk van de status van de rit, van uw machtigingen en de productconfiguratie."
 
->[!CONTEXTUALHELP]
->id="ajo_journey_exit_criterias"
->title="Criteria voor het verlaten van de reis"
->abstract="In dit gedeelte worden de opties voor afsluitcriteria weergegeven. U kunt één of veelvoudige regels van de uitgangscriteria voor uw reis tot stand brengen."
-
-
 ## Toegang tot de eigenschappen van een reis {#access-properties}
 
 De eigenschappen van een reis zijn gecentraliseerd in het rechterspoor. Deze sectie wordt standaard weergegeven wanneer u een nieuwe reis maakt. Voor bestaande reizen klikt u op het potloodpictogram naast de naam van de reis om deze te openen.
 
 In deze sectie kunt u de naam van de rit definiëren, een beschrijving toevoegen en:
 
-* beheer [ ingang en re-ingang ](#entrance),
+* beheer [ ingang en ingang ](#entrance),
 * kies begin en eind [ data ](#dates),
 * beheer [ toegang tot gegevens ](#manage-access),
 * bepaal a [ onderbrekingsduur ](#timeout) in reisactiviteiten (voor slechts gebruikers Admin),
@@ -53,31 +47,31 @@ De **technische details van het Exemplaar** staat u toe om technische informatie
 Leer meer over technische gebieden met betrekking tot een reis voor een bepaald profiel, en hoe te om hen [ in deze pagina ](expression/journey-properties.md) te gebruiken.
 
 
-## Entrance en re-entry {#entrance}
+## Entrance en reentrance {#entrance}
 
 De modus voor profielinvoer wordt gedefinieerd op het niveau van het transport, in het configuratievenster rechts. De instellingen worden hieronder beschreven.
 
-Profielbeheer is afhankelijk van het soort reis. Leer meer over profielingang en re-entry beheer, in [ deze pagina ](entry-management.md).
+Profielbeheer is afhankelijk van het soort reis. Leer meer over profielingang en terugkeerbeheer, in [ deze pagina ](entry-management.md).
 
-### Hernieuwde toegang toestaan  {#allow-re-entrance}
+### Ingang toestaan  {#allow-reentrance}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
->title="Hernieuwde toegang toestaan"
->abstract="Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt uncheck **toestaan re-entry** optie bijvoorbeeld als u een eenmalig geschenk wilt aanbieden wanneer een persoon een winkel ingaat."
+>title="Ingang toestaan"
+>abstract="Nieuwe reizen maken standaard terugkeer mogelijk. U kunt uncheck **toestaan ingang** optie bijvoorbeeld als u een eenmalig geschenk wilt aanbieden wanneer een persoon een winkel ingaat."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profieltoegangsbeheer"
 
-Nieuwe reizen zijn standaard geschikt voor herbinnenkomst. U kunt uncheck **toestaan re-entry** optie voor &quot;één schot&quot;reizen, bijvoorbeeld als u een eenmalig geschenk wilt aanbieden wanneer een persoon een winkel ingaat.
+Nieuwe reizen maken standaard terugkeer mogelijk. U kunt uncheck **toestaan terugkeer** optie voor &quot;één schot&quot;reizen, bijvoorbeeld als u een eenmalig geschenk wilt aanbieden wanneer een persoon een winkel ingaat.
 
-### Wachttijd bij terugkeer  {#re-entrance-wait}
+### wachttijd voor terugkeer  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_re-entrance_wait"
->title="Wachttijd bij terugkeer"
+>id="ajo_journey_properties_reentrance_wait"
+>title="wachttijd voor terugkeer"
 >abstract=" Stel de tijd in om te wachten voordat een profiel de reis weer kan betreden tijdens een enkele reis. Hierdoor kunnen gebruikers de reis niet opnieuw betreden voor een bepaalde duur. Maximale duur: 90 dagen."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profieltoegangsbeheer"
 
-Wanneer **re-entry** optie toestaat wordt geactiveerd, **re-entry wacht periode** gebied wordt getoond. In dit veld kunt u de tijd definiëren die u moet wachten voordat u een profiel toestaat om de reis opnieuw te betreden tijdens een enkele reis (te beginnen met een evenement of een publiekskwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. De maximale duur is 90 dagen.
+Wanneer **toe staat terugkeer** optie wordt geactiveerd, **de ingang wacht periode** gebied wordt getoond. In dit veld kunt u de tijd definiëren die u moet wachten voordat u een profiel toestaat om de reis opnieuw te betreden tijdens een enkele reis (te beginnen met een evenement of een publiekskwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. De maximale duur is 90 dagen.
 
 
 ## Toegang beheren {#manage-access}
@@ -107,7 +101,7 @@ Voor meer informatie over timezone beheer, zie [ deze pagina ](../building-journ
 
 U kunt de datum van het a **Begin** bepalen. Als u er geen hebt opgegeven, wordt deze automatisch gedefinieerd op het moment van publicatie.
 
-U kunt ook een **datum van het Eind** toevoegen. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. Als geen einddatum wordt gespecificeerd, kunnen de profielen blijven tot de [ globale reisonderbreking ](#global_timeout) (die over het algemeen 91 dagen is). De enige uitzondering is terugkerende lees publiekstrajecten met **de re-ingang van de Kracht op terugkomende** geactiveerd, die op de begindatum van het volgende voorkomen beëindigen.
+U kunt ook een **datum van het Eind** toevoegen. Hiermee kunnen profielen automatisch worden afgesloten wanneer de datum wordt bereikt. Als geen einddatum wordt gespecificeerd, kunnen de profielen blijven tot de [ globale reisonderbreking ](#global_timeout) (die over het algemeen 91 dagen is). De enige uitzondering is terugkerende lees publiekstrajecten met **geactiveerde ingang van de Kracht op herhaling**, die op de begindatum van het volgende voorkomen beëindigen.
 
 ## Time-out {#timeout}
 
@@ -133,7 +127,7 @@ Naast [ timeout ](#timeout_and_error) gebruikt in reisactiviteiten, wordt een gl
 
 Deze globale onderbreking houdt de vooruitgang van individuen in de reis **91 dagen** nadat zij ingaan. Dit betekent dat de reis van een individu niet langer mag duren dan 91 dagen. Na deze time-outperiode worden de gegevens van de persoon verwijderd. Personen die aan het einde van de time-outperiode nog onderweg zijn, worden gestopt en er wordt geen rekening mee gehouden bij de rapportage. Je zou dus meer mensen op de reis zien komen dan vertrekken.
 
-Vanwege de reistijd van 91 dagen, wanneer het niet is toegestaan om de reis opnieuw te betreden, kunnen we er niet voor zorgen dat het blokkeren van de terugkeer meer dan 91 dagen zal duren. Aangezien we alle informatie over personen die 91 dagen na hun binnenkomst de reis hebben betreden, verwijderen, kunnen we niet weten dat de persoon eerder, meer dan 91 dagen geleden, is binnengekomen.
+Vanwege de reistijd van 91 dagen, wanneer het niet is toegestaan om de reis opnieuw te betreden, kunnen we er niet voor zorgen dat de toegangsblokkering langer dan 91 dagen werkt. Aangezien we alle informatie over personen die 91 dagen na hun binnenkomst de reis hebben betreden, verwijderen, kunnen we niet weten dat de persoon eerder, meer dan 91 dagen geleden, is binnengekomen.
 
 Een individu kan alleen een wachtdienst doen als hij of zij genoeg tijd in de reis heeft om de wachttijd vóór de reisonderbreking van 91 dagen te voltooien. Zie [deze pagina](../building-journeys/wait-activity.md).
 
@@ -258,3 +252,55 @@ Reis gebruikt samenvoegbeleid terwijl het terugwinnen van profielgegevens van Ad
 De reis zal het fusieprincipe respecteren dat door de volledige reis wordt gebruikt. Als er daarom meerdere soorten publiek worden gebruikt op een reis (bijvoorbeeld in &quot;inAudience&quot;-functies), waardoor inconsistenties ontstaan met het fusiebeleid dat door de reis wordt gebruikt, wordt een fout opgeworpen en wordt de publicatie geblokkeerd. Nochtans, als een inconsistent publiek in berichtverpersoonlijking wordt gebruikt, wordt een alarm niet opgeheven, ondanks de inconsistentie. Om deze reden, wordt het hoogst geadviseerd om het samenvoegbeleid te controleren verbonden aan uw publiek, wanneer dit publiek in berichtverpersoonlijking wordt gebruikt.
 
 Meer leren op fusiebeleid, verwijs naar [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview) {target="_blank"}.
+
+
+## Afsluitingscriteria {#exit-criteria}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_exit_criterias"
+>title="Criteria voor het verlaten van de reis"
+>abstract="In dit gedeelte worden de opties voor afsluitcriteria weergegeven. U kunt één of veelvoudige regels van de uitgangscriteria voor uw reis tot stand brengen."
+
+### Beschrijving
+
+Vaak willen marketeers profielen van een reis verwijderen als ze niet meer voldoen aan het doel van de reis. Dit zal door **globale uitgangscriteria** worden bereikt, die nauw met doelbeheer worden geassocieerd.
+
+**het gebruiksgeval van de Steekproef:**
+
+Een marketeer heeft een promotietraject met een reeks communicatie. Elk van deze mededelingen is bedoeld om de klant ertoe aan te zetten een aankoop te doen. Zodra de aankoop wordt gemaakt, zou de klant geen rest berichten in de reeks moeten ontvangen. Door een exit-criterium te definiëren, worden profielen die een aankoop hebben gedaan, van de reis verwijderd.
+
+### Configuratie en gebruik
+
+Afsluitingscriteria worden vastgesteld op het niveau van de reis. Eén reis kan meerdere exit-criteria hebben. Wanneer u veelvoudige uitgangscriteria hebt geplaatst, gebeurt de evaluatie van boven aan onder met OF logica. Zo als u Criteria n°1 van de Uitgang en Criteria n°2 hebt, zal het als n°1 **of** n°2 worden geëvalueerd. De criteria worden bij elke etappe van de reis geëvalueerd.
+
+**creeer** een uitgangscriteria:
+
+* Klik op het volgende pictogram ![](assets/exitcriteria_icon.png){width="40%" align="left"} in de rechterrail.
+* Klik op **toevoegen uitgangscriteria** knoop.
+
+![](assets/exitcriteria.png){width="40%" align="left"}
+
+* U kunt meerdere afsluitcriteria toevoegen.
+* Ga a **Etiket** in en selecteer als uw uitgangscriteria op een gebeurtenis of een publiek gebaseerd zijn.
+
+### Afsluitingscriteria op basis van een gebeurtenis
+
+Kies alleen een eenheidsgebeurtenis.
+
+![](assets/exitcriteria_event.png){width="40%" align="left"}
+
+### Criteria voor afsluiten op basis van een doelgroep
+
+Kies een publiek.
+
+![](assets/exitcriteria_audience.png){width="40%" align="left"}
+
+Opmerking: het kan 10 minuten duren voordat de criteria voor het afsluiten met een publiek operationeel zijn.
+
+### Beperkingen en beperkingen
+
+* Afsluitingscriteria worden gedefinieerd in conceptstatus
+* Reis namespace coherentie tussen gebeurtenissen en op gebeurtenis-gebaseerde uitgangscriteria
+
+
+

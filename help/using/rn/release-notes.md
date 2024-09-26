@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2efff12350ffeada28728ef32cf59bfb0f5d5c49
+source-git-commit: 53b33a97a8361d1d9579ccd2111e02a263a0aa37
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 7%
+source-wordcount: '1567'
+ht-degree: 9%
 
 ---
 
@@ -26,13 +26,14 @@ ht-degree: 7%
 
 ![ Nieuwsbrief ](../assets/do-not-localize/nl-icon.png) Teken omhoog voor het [ driemaandelijkse bulsletter van Adobe Journey Optimizer ](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html) {target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die rechtstreeks aan uw inbox elk kwart worden geleverd.
 
-## Opmerkingen bij de vervroegde release september 2024 {#24-9-rn}
+## Opmerkingen bij de release september 2024 {#24-9-rn}
 
-
+<!--
 >[!CAUTION]
 >
->**de vroege versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de versiedatum**. Koppelingen, schermen en bijgewerkte documentatie worden gepubliceerd op de releasedatum.
+>**Early release notes below are subject to change without prior notice until the release date**. Links, screens and updated documentation are published at the release date.
 >
+-->
 
 **de datum van de Versie**: 24-26 september, 2024
 
@@ -40,56 +41,57 @@ ht-degree: 7%
 
 Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 
-<!--table>
+<table>
 <thead>
 <tr>
-<th><strong>Content Cards for mobile apps and websites</strong><br/></th>
+<th><strong>Inhoudskaarten voor mobiele apps en websites</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
-<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
+<p>Inhoudskaarten zijn een nieuwe functie voor digitale berichten in Adobe Journey Optimizer die persoonlijke en aantrekkelijke inhoud direct levert in mobiele apps en websites. In tegenstelling tot traditionele pushmeldingen worden inhoudskaarten naadloos geïntegreerd in de gebruikersinterface en bieden ze permanente, niet-indringende updates die de interactie en gebruikerservaring verbeteren.</p>
+<p>Met deze functie kunnen marketers relevante, rijke media-inhoud presenteren aan gebruikers, waardoor hun betrokkenheid toeneemt en belangrijke berichten zichtbaar zijn zonder de reis van de gebruiker te verstoren.</p>
+<p>Raadpleeg de <a href="../content-card/get-started-content-card.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<img src="assets/do-not-localize/content-card.gif"/>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 <table>
 <thead>
 <tr>
-<th><strong>Goedkeuringen tijdens reizen en campagnes</strong><br/></th>
+<th><strong>Goedkeuringen tijdens reizen en campagnes (LA)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Met het goedkeuringsbeleid kunt u nu een goedkeuringsproces in Journey Optimizer instellen dat marketingteams in staat stelt ervoor te zorgen dat campagnes en reizen worden gecontroleerd en ondertekend door de relevante belanghebbenden voordat ze live gaan.</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
+<p>Het goedkeuringsbeleid is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.</p>
+<p>Raadpleeg de <a href="../test-approve/gs-approval.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>E-mailinhoud vergrendelen</strong><br/></th>
+<th><strong>Email Content Locking</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Met Journey Optimizer kunt u nu inhoud in e-mailsjablonen vergrendelen door de volledige sjabloon of specifieke structuren en onderdelen te vergrendelen. Hierdoor kunt u onbedoelde bewerkingen of verwijderingen voorkomen, waardoor u meer controle hebt over de aanpassing van de sjabloon en de efficiëntie en betrouwbaarheid van uw e-mailcampagnes verbetert.</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
+<p>Journey Optimizer now allows you to lock content in email templates, either by locking the entire template or specific structures and component. This allows you to prevent unintentional edits or deletions, giving you greater control over template customization, and improving the efficiency and reliability of your email campaigns.</p>
+<p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
+<img src="assets/do-not-localize/gif-content-locking.gif">
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 <table>
 <thead>
@@ -101,8 +103,8 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tr>
 <td>
 <p>Nu definieert u exit criteria op een niveau van transport. Door afsluitcriteria toe te voegen, sluiten de profielen de reis af zodra een gebeurtenis (bijvoorbeeld: Aankoop) plaatsvindt of komen zij in aanmerking voor een publiek. Dit zal de gebruiker verhinderen om het even welke verdere mededelingen van de reis te krijgen.</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
+<p>Raadpleeg de <a href="../building-journeys/journey-properties.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<img src="assets/do-not-localize/ai-content.gif" /-->
 </td>
 </tr>
 </tbody>
@@ -123,6 +125,20 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </tbody>
 </table-->
 
+<!--table>
+<thead>
+<tr>
+<th><strong>Web experiences in journeys</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>With the Web channel, Adobe Journey Optimizer allows you to personalize the web experience you deliver to your customers through inbound web journeys. The Web channel is now available in the journey canvas.</p>
+<p>For more information, refer to the <a href="../web/get-started-web.md">detailed documentation</a>.</p>
+</tr>
+</tbody>
+</table-->
 
 <table>
 <thead>
@@ -165,7 +181,8 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 >[!IMPORTANT]
 >
 >De huidige ervaring met rapportage wordt vanaf de release van oktober opgeheven. Na deze datum wordt de nieuwe ervaring met rapportage de norm. We raden u aan bekend te maken met de nieuwe functies en functies om een soepele overgang te garanderen.
-> [Ga aan de slag met Journey Optimizer new Reporting interface ](../reports/report-gs-cja.md)
+>
+> [ Leer hoe te om met Journey Optimizer te worden begonnen de nieuwe Rapporterende interface ](../reports/report-gs-cja.md)
 
 
 ### Verbeteringen {#24-9-improvements}
@@ -174,54 +191,51 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Doelgroepen**
 
-<!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.
-* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
+<!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
 * (De datum van de Beschikbaarheid: Sept 17) **gebruik van de Vergunning** - het het gebruiksdashboard van de Vergunning toont nu de Engageable Profielen, in plaats van Engageable Publiek. [Meer informatie](../audience/license-usage.md)
 
 **Inhoudsbeheer**
 
-* U kunt nu inhoudssjablonen en fragmenten exporteren tussen sandboxen.
+* U kunt nu inhoudssjablonen en fragmenten exporteren tussen sandboxen. [Meer informatie](../configuration/copy-objects-to-sandbox.md)
 
-**Beheer van Gegevens**
+<!--**Data Governance**
 
-* U kunt nu een beleid voor gegevensbeheer toepassen op Journey Optimizer-kanalen, naast aangepaste acties binnen reizen. Deze verbetering helpt het gebruik van gevoelige gebieden in mededelingen verhinderen door marketing acties direct binnen uw kanaalconfiguraties toe te passen.
+* You can now apply data governance policies to Journey Optimizer channels, in addition to custom actions within journeys. This enhancement helps prevent the use of sensitive fields in communications by applying marketing actions directly within your channel configurations.    -->
 
 <!--
-**Frequency and priority management**
-
-* **Frequency capping by campaign or journey** - You can now create frequency rules to apply to your journeys, allowing you to limit the number of journeys per day, week, or month, as well as control the number of concurrent journeys running simultaneously.
+**Conflict and priority management**
 
 * **Priority score** - You can now assign a priority score to a campaign or a journey, ranging from 0 to 100. A higher number indicates a higher priority. When two campaigns or journeys use the same surface, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was most recently modified will be chosen. Priority score is available for all inbound channels in campaigns, and for the in-app channel in journeys.    
 
 * **View conflicts** - A new **View conflicts** button in journeys and campaigns now allows you to check whenever there's a possibility of overlap with other journeys or campaigns such as the start date, the targeted audience, or the selected channel configuration.
 -->
 
-
 **Reizen**
 
-* **Max aantal Levende reizen** - Journey Optimizer heeft nu een graslaag van 500 levende reizen op productiesanddozen, in plaats van 100. Het aantal rechtstreekse reizen is zichtbaar in het canvas van de reis.
+<!-- DOCAC-10977 * **Max number of Live journeys** - Journey Optimizer now has a guardrail of 500 live journeys on production sandboxes, instead of 100. The number of live journeys is visible in the journey canvas.-->
 
-* **Levende rapporteringsverhogingen** - Levende Rapportering verstrekt inzicht in de prestaties van uw reizen in de afgelopen 24 uren. Wij hebben het verbeterd door nieuwe metriek (ingegaan, weggegaan, verworpen profielen en profielen in fout) toe te voegen die u toestaan om een diepgaander inzicht in gebruikersgedrag en prestaties direct van het canvas van de Reis te krijgen.
+* **Levende rapporteringsverhogingen** - Levende Rapportering verstrekt inzicht in de prestaties van uw reizen in de afgelopen 24 uren. Wij hebben het verbeterd door nieuwe metriek (ingegaan, weggegaan, verworpen profielen en profielen in fout) toe te voegen die u toestaan om een diepgaander inzicht in gebruikersgedrag en prestaties direct van het canvas van de Reis te krijgen. [Meer informatie](../building-journeys/report-journey.md)
 
-* **Parameters in douaneacties** - ONGELDIGE en facultatieve parameters worden nu gesteund in douaneacties.
+<!-- DOCAC-10562* **Parameters in custom actions** - NULL and optional parameters are now supported in custom actions. [Learn more](../action/about-custom-action-configuration.md#define-the-message-parameters)-->
 
 * (De datum van de Beschikbaarheid: Sept 10) **Automatische herpogingen op Gelezen Volmacht** - is nu toegepast door gebrek op publiek-getriggerde reizen (die met a **Gelezen Volgorde** of a **BedrijfsGebeurtenis** beginnen) terwijl het terugwinnen van de uitvoerbaan. Als er een fout optreedt tijdens het maken van de exporttaak, worden de pogingen om de 10mn opnieuw uitgevoerd, tot maximaal 1 uur. Daarna zullen we het als een mislukking beschouwen. Deze soorten reizen kunnen daarom tot 1 uur na de geplande tijd worden uitgevoerd. [Meer informatie](../building-journeys/read-audience.md#retries)
 
 **E-mailkanaal**
 
-* **BCC berichtkopbal** - een nieuwe kopbal is toegevoegd aan alle e-mailberichten. De waarde van deze koptekst is uniek voor elke verzonden e-mail en de bijbehorende BCC-e-mailkopie. Deze kopbal wordt ook opgeslagen in het bericht en BCC terugkoppelt datasets, die toestaat om het exemplaar BCC en de overeenkomstige verzonden e-mailinformatie met elkaar in overeenstemming te brengen.
+* **kopbal van het Bericht in verzonden e-mail en exemplaar BCC** - een nieuwe kopbal is toegevoegd aan alle e-mailberichten. De waarde van deze koptekst is uniek voor elke verzonden e-mail en de bijbehorende BCC-e-mailkopie. Deze kopbal wordt ook opgeslagen in het bericht en BCC terugkoppelt datasets, die toestaat om het exemplaar BCC en de overeenkomstige verzonden e-mailinformatie met elkaar in overeenstemming te brengen. [Meer informatie](../configuration/archiving-support.md#bcc-header)
+
 * **Spam het scoren** (GA) - U kunt uw inhoud nu controleren spam het scoren in een specifiek Spam- rapport. Gebruikend SpamAssassin, kan Adobe Journey Optimizer uw e-mailinhoud nu testen en het een score geven om erop te wijzen als ISPs of de leveranciers van de Brievenbus het als spam of niet zullen beschouwen. [Meer informatie](../content-management/spam-report.md)
 
 **Sms-kanaal**
 
 * **geef API geloofsbrieven uit** - u kunt montages in de Geloofsbrieven van SMS API, met inbegrip van updates aan opt-in/uit sleutelwoorden en antwoorden nu uitgeven.
-* U kunt bestaande configuraties van SMS nu wijzigen.
 
 **APIs**
 
 * **de Simulatie API van de Campagne** - gebruik dit API om proefbaan van een Campagne teweeg te brengen. Het verzenden van de campagneproef is een asynchroon proces, zal API een proofJobId terugkeren die kan worden gebruikt om de status van de proef te controleren. [ leer meer ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/) {target="_blank"}
 
-* De [ documentatie van Adobe Journey Optimizer API ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/) {target="_blank"} is nu interactief. Verken de API eindpunten rechtstreeks van de documentatiepagina&#39;s om directe feedback te krijgen en uw technische implementatie te versnellen.
+* (De datum van de Beschikbaarheid: Sept 10) de [ documentatie van Adobe Journey Optimizer API ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/) {target="_blank"} is nu interactief. Verken de API eindpunten rechtstreeks van de documentatiepagina&#39;s om directe feedback te krijgen en uw technische implementatie te versnellen.
+
 
   Alle API verwijzingspagina&#39;s hebben nu a **probeert het** functionaliteit die u kunt gebruiken om API vraag direct op de pagina van de documentwebsite te testen. [ krijgt de vereiste authentificatiegeloofsbrieven ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) {target="_blank"} en begint de functionaliteit te gebruiken om de API eindpunten te onderzoeken.
 

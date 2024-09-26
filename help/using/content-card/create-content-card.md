@@ -4,34 +4,14 @@ description: Leer hoe u inhoudskaarten ontwerpt en de inhoud ervan bewerkt in Jo
 topic: Content Management
 role: User
 level: Beginner
-badge: label="Beperkte beschikbaarheid" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '877'
 ht-degree: 1%
 
 ---
 
 # Inhoudskaarten maken {#create-content-card}
-
->[!BEGINSHADEBOX]
-
-**Lijst van inhoud**
-
-* [Aan de slag met inhoudskaarten](get-started-content-card.md)
-* [Voorwaarden voor inhoudskaarten](content-card-configuration-prereq.md)
-* [Het kanaal voor inhoudskaarten in Journey Optimizer configureren](content-card-configuration.md)
-* **creeer inhoudskaarten**
-* [Inhoudskaarten ontwerpen](design-content-card.md)
-* [Rapport voor inhoudskaarten](content-card-report.md)
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Inhoudskaarten zijn momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
 
 >[!BEGINTABS]
 

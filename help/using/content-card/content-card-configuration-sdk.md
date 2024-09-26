@@ -5,21 +5,14 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-badge: label="Beperkte beschikbaarheid" type="Informative"
-hide: true
-hidefromtoc: true
-source-git-commit: 8a902298bbbac5689b4f84266dd9c9027e45fad5
+source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # Ondersteuning voor inhoudskaarten configureren in Web SDK {#content-card-configuration-sdk}
-
->[!AVAILABILITY]
->
->Inhoudskaarten zijn momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
 
 In dit voorbeeld ziet u hoe u inhoudskaarten kunt ophalen van Adobe Journey Optimizer (AJO) met Adobe Experience Platform. Door [ SDK van het Web van Adobe Experience Platform ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) leveraging, wordt de verpersoonlijkingsinhoud opgehaald en volledig op de cliëntkant teruggegeven.
 

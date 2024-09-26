@@ -8,25 +8,25 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: 0bf1636f527aeefe8ce54ee97389fe8658e716f0
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
 
 # journaalgebeurtenissen - gemeenschappelijke velden {#sharing-common-fields}
 
-Deze veldgroep wordt gedeeld door de volgende gebeurtenissen: **tripStepEvent** en **tripStepProfileEvent**.
+Deze gebiedsgroep zal door de volgende gebeurtenissen worden gedeeld: **tripStepEvent** en **tripStepProfileEvent**.
 
-Dit zijn de gemeenschappelijke gebieden XDM die [!DNL Journey Optimizer] naar Adobe Experience Platform. Voor elke stap die op reis wordt verwerkt, worden gemeenschappelijke velden verzonden. Voor aangepaste handelingen en verbeteringen worden specifiekere velden gebruikt.
+Dit zijn de algemene XDM-velden die [!DNL Journey Optimizer] naar Adobe Experience Platform verzendt. Voor elke stap die op reis wordt verwerkt, worden gemeenschappelijke velden verzonden. Voor aangepaste handelingen en verbeteringen worden specifiekere velden gebruikt.
 
 Sommige van deze velden zijn alleen beschikbaar in specifieke verwerkingspatronen (uitvoering van handelingen, ophalen van gegevens, enz.) om de omvang van gebeurtenissen te beperken.
 
 
 >[!NOTE]
 >
->Meer informatie over kenmerken van reiseigenschappen [in deze sectie](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>Leer meer over de attributen van de reiseigenschappen [ in deze sectie ](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
 
 
 ## ingang {#entrance-field}
@@ -218,5 +218,17 @@ Type: tekenreeks
 ## batchUnitaryBranchID {#batchunitarybranchid-field}
 
 als de instantie is geactiveerd door een batchinstantie, is dit de eenheidvertakkings-id.
+
+Type: tekenreeks
+
+## exitCriteriaID
+
+Id van de exitCriteria
+
+Type: tekenreeks
+
+## exitCriteriaName
+
+Naam van de exitCriteria
 
 Type: tekenreeks

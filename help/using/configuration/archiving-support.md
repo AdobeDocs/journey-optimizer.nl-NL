@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: archief, berichten, HIPAA, BCC, e-mails
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 794724670c41e5d36ff063072a2e29c37dd5fadd
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1283'
 ht-degree: 1%
 
 ---
@@ -119,9 +119,9 @@ Volg de onderstaande stappen om dit te doen.
 
 Rapportage als zodanig over BCC is niet beschikbaar in de reis- en berichtrapporten. De informatie wordt echter opgeslagen in een systeemgegevensset met de naam **[!UICONTROL AJO BCC Feedback Event Dataset]** . U kunt vragen tegen deze dataset in werking stellen om nuttige informatie voor het zuiveren doel bijvoorbeeld te vinden.
 
-U kunt tot deze dataset door het gebruikersinterface toegang hebben. Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** en schakel de schakeloptie **[!UICONTROL Show system datasets]** van het filter in om de door het systeem gegenereerde gegevenssets weer te geven. Leer meer op hoe te om tot datasets in [ toegang te hebben deze sectie ](../data/get-started-datasets.md#access-datasets).
+Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** om via de gebruikersinterface toegang te krijgen tot deze gegevensset. Leer meer op hoe te om tot datasets in [ toegang te hebben deze sectie ](../data/get-started-datasets.md#access-datasets).
 
-![](assets/preset-bcc-dataset.png)
+<!--![](assets/preset-bcc-dataset.png)-->
 
 Om vragen tegen deze dataset in werking te stellen, kunt u de Redacteur van de Vraag gebruiken die door de [ wordt verstrekt de Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) {target="_blank"}. Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Queries]** en klik op **[!UICONTROL Create query]** om het bestand te openen. [Meer informatie](../data/get-started-queries.md)
 
@@ -223,3 +223,65 @@ Afhankelijk van welke informatie u zoekt, kunt u de volgende vragen in werking s
    mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus IN ('bounce', 'out_of_band') 
     WHERE bcc.timestamp > now() - INTERVAL '30' DAY;
    ```
+
+### Koptekst van bericht gebruiken om BCC-kopie en verzonden e-mailgegevens te combineren {#bcc-header}
+
+Wanneer uw BCC-e-mailkopieën worden gearchiveerd op een extern systeem, kunt u de gegevens over de bijbehorende verzonden e-mails ophalen met een header die in het bericht staat.
+
+Elk e-mailbericht bevat nu een koptekst met de naam `x-message-profile-id` . De waarde van deze koptekst verschilt per profiel: deze is uniek voor elke verzonden e-mail en voor de bijbehorende BCC-e-mailkopie.
+
+De `x-message-profile-id` kopbal wordt ook opgeslagen in de volgende systeemdatasets: [ Dataset van de Gebeurtenis van de Feedback van het Bericht van AJO ](../data/datasets-query-examples.md#message-feedback-event-dataset) (verzonden e-mails) en [ Dataset van de Gebeurtenis van de BCC van AJO BCC ](#bcc-reporting) (exemplaren BCC). U kunt deze datasets vragen om het exemplaar BCC en overeenkomstige daadwerkelijke e-mail met elkaar in overeenstemming te brengen.
+
+* Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Datasets]** > **[!UICONTROL Browse]** om deze gegevenssets te openen via de gebruikersinterface. Leer meer op hoe te om tot datasets in [ toegang te hebben deze sectie ](../data/get-started-datasets.md#access-datasets).
+
+* Gebruik de Redacteur van de Vraag die door de [ Dienst van de Vraag van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html) wordt verstrekt {target="_blank"}. Selecteer **[!UICONTROL Data management]** > **[!UICONTROL Queries]** en klik op **[!UICONTROL Create query]** om het bestand te openen. [Meer informatie](../data/get-started-queries.md)
+
+Hieronder volgen enkele voorbeeldquery&#39;s die u kunt uitvoeren om informatie op te halen die overeenkomt met uw BCC-kopieën.
+
+**Vraag 1**
+
+U kunt als volgt de BCC-gebeurtenis gekoppeld krijgen aan de corresponderende feedbackgebeurtenis voor de werkelijke e-mail met de campagneactiedetails:
+
+```
+SELECT
+  mfe.timestamp as OriginalRecipientFeedbackEventTime,
+  mfe._experience.customerJourneyManagement.emailChannelContext.address AS OriginalRecipientEmailAddress,
+  mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS OriginalRecipientMessageFeedbackStatus,
+  mfe._experience.customerJourneyManagement.messageExecution.campaignID AS CampaignID,
+  mfe._experience.customerJourneyManagement.messageExecution.campaignActionID AS CampaignActionID,
+  mfe._experience.customerJourneyManagement.messageExecution.batchInstanceID AS BatchInstanceID,
+  mfe._experience.customerJourneyManagement.messageExecution.messageID AS MessageID AS MessageID
+FROM ajo_bcc_feedback_event_dataset bcc
+LEFT JOIN cjm_message_feedback_event_dataset mfe
+ON bcc._experience.customerJourneyManagement.messageProfile.messageProfileID =
+    mfe._experience.customerJourneyManagement.messageProfile.messageProfileID AND 
+    mfe.timestamp > now() - INTERVAL '30' day
+WHERE 
+  bcc.timestamp > now() - INTERVAL '30' DAY AND 
+  bcc._experience.customerJourneyManagement.messageProfile.messageProfileID = 'x-message-profile-id'
+ORDER BY timestamp DESC;
+```
+
+**Vraag 2**
+
+U kunt als volgt de BCC-gebeurtenis gekoppeld krijgen aan de corresponderende feedbackgebeurtenis voor de werkelijke e-mail met de details van de reisactie:
+
+```
+SELECT
+  mfe.timestamp as OriginalRecipientFeedbackEventTime,
+  mfe._experience.customerJourneyManagement.emailChannelContext.address AS OriginalRecipientEmailAddress,
+  mfe._experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus AS OriginalRecipientMessageFeedbackStatus,
+  mfe._experience.customerJourneyManagement.messageExecution.journeyVersionID AS JourneyVersionID,
+  mfe._experience.customerJourneyManagement.messageExecution.journeyVersionInstanceID AS JourneyVersionInstanceID,
+  mfe._experience.customerJourneyManagement.messageExecution.batchInstanceID AS BatchInstanceID,
+  mfe._experience.customerJourneyManagement.messageExecution.messageID AS MessageID AS MessageID
+FROM ajo_bcc_feedback_event_dataset bcc
+LEFT JOIN cjm_message_feedback_event_dataset mfe
+ON bcc._experience.customerJourneyManagement.messageProfile.messageProfileID =
+    mfe._experience.customerJourneyManagement.messageProfile.messageProfileID AND 
+    mfe.timestamp > now() - INTERVAL '30' day
+WHERE 
+  bcc.timestamp > now() - INTERVAL '30' DAY AND 
+  bcc._experience.customerJourneyManagement.messageProfile.messageProfileID = 'x-message-profile-id'
+ORDER BY timestamp DESC;
+```

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: 364e78e0ef3a9e8bcd54c4983c0503863bce1e34
+source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '390'
 ht-degree: 3%
 
 ---
@@ -26,9 +26,9 @@ Volg onderstaande stappen om dit te doen:
 
    ![](assets/in_app_create_6.png)
 
-1. Van de **[!UICONTROL Connect to device]** venster, klikt u op **[!UICONTROL Start]**.
+1. Klik in het **[!UICONTROL Connect to device]** -venster op **[!UICONTROL Start]** .
 
-1. Voer de **[!UICONTROL Base URL]** van uw toepassing en klik op **[!UICONTROL Next]**.
+1. Voer de **[!UICONTROL Base URL]** van de toepassing in en klik op **[!UICONTROL Next]** .
 
    ![](assets/in_app_create_7.png)
 
@@ -40,23 +40,27 @@ Het bericht in de app kan nu rechtstreeks op het apparaat worden geactiveerd, zo
 
 Nadat u het bericht in de app hebt gedefinieerd, kunt u testprofielen gebruiken om het te bekijken. Als u gepersonaliseerde inhoud hebt ingevoegd, kunt u met behulp van testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
 
-Om dit te doen, klik **[!UICONTROL Simulate content]** Voeg vervolgens een testprofiel toe om uw bericht te controleren met behulp van de gegevens van het testprofiel.
+Klik hiertoe op **[!UICONTROL Simulate content]** en voeg vervolgens een testprofiel toe om uw bericht te controleren aan de hand van de gegevens van het testprofiel.
 
-Gedetailleerde informatie over het selecteren van testprofielen en het weergeven van een voorvertoning van de inhoud is beschikbaar in het dialoogvenster [Inhoud beheren](../content-management/preview-test.md) sectie.
+De gedetailleerde informatie over hoe te om testprofielen en voorproef uw inhoud te selecteren is beschikbaar in de [ sectie van het Beheer van de Inhoud ](../content-management/preview-test.md).
 
 ## Uw In-app-melding controleren en activeren{#in-app-review}
+
+>[!IMPORTANT]
+>
+>Vanaf de release van september kunt u met een nieuwe ervaring op het gebied van campagne en trajectactivering het hele goedkeuringsproces beheren. Zo kunt u ervoor zorgen dat campagnes en reizen grondig worden doorgelicht en goedgekeurd door de belanghebbenden voordat u live gaat. Deze functie is beschikbaar in Beperkte Beschikbaarheid. [Meer informatie](../test-approve/gs-approval.md)
 
 Nadat u het bericht in de app hebt gemaakt en de inhoud ervan hebt gedefinieerd en gepersonaliseerd, kunt u het bericht controleren en activeren.
 
 Volg onderstaande stappen om dit te doen:
 
-1. Gebruik de **[!UICONTROL Review to activate]** om een overzicht van uw bericht weer te geven.
+1. Gebruik de knop **[!UICONTROL Review to activate]** om een overzicht van uw bericht weer te geven.
 
    In het overzicht kunt u uw campagne desgewenst wijzigen en controleren of een parameter onjuist is of ontbreekt.
 
    ![](assets/in_app_create_5.png)
 
-1. Controleer of uw campagne correct is geconfigureerd en klik vervolgens op **[!UICONTROL Activate]**.
+1. Controleer of uw campagne correct is geconfigureerd en klik op **[!UICONTROL Activate]** .
 
 Uw campagne is nu geactiveerd. Het bericht In-App dat in de campagne wordt gevormd wordt verzonden onmiddellijk, of op de gespecificeerde datum.
 

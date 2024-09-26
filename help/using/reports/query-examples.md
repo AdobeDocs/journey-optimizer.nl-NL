@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 619bcbc16b4117c29c482c85323603a4281298e0
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Deze sectie maakt een lijst van verscheidene algemeen gebruikte voorbeelden om d
 
 Zorg ervoor dat de gebieden die in uw vragen worden gebruikt waarden in het overeenkomstige schema hebben geassocieerd.
 
-**Wat is het verschil tussen id, instanceid en profileid**
+**wat is het verschil tussen identiteitskaart, instanceid en profileid**
 
 * id: uniek voor alle items van de step-gebeurtenis. Twee verschillende step-gebeurtenissen kunnen niet dezelfde id hebben.
 * instanceId: instanceID is het zelfde voor alle stapgebeurtenissen verbonden aan een profiel binnen een reis uitvoering. Als een profiel de reis opnieuw ingaat, zal een verschillend instanceId worden gebruikt. Deze nieuwe instanceId zal voor alle step gebeurtenissen van de opnieuw ingegaan instantie (van begin tot eind) hetzelfde zijn.
@@ -29,15 +29,15 @@ Zorg ervoor dat de gebieden die in uw vragen worden gebruikt waarden in het over
 
 >[!NOTE]
 >
->Voor het oplossen van problemendoeleinden, adviseren wij gebruikend tripVersionID in plaats van tripVersionName wanneer het vragen van reizen. Meer informatie over kenmerken van reiseigenschappen [in deze sectie](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
+>Voor het oplossen van problemendoeleinden, adviseren wij gebruikend tripVersionID in plaats van tripVersionName wanneer het vragen van reizen. Leer meer over de attributen van de reiseigenschappen [ in deze sectie ](../building-journeys/expression/journey-properties.md#journey-propertoes-fields).
 
 ## Basis gebruiksgevallen/gemeenschappelijke vragen {#common-queries}
 
-**Hoeveel profielen een reis in een bepaald tijdkader inging**
+**hoeveel profielen ingegaan een reis in een bepaald tijdkader**
 
 Deze vraag geeft het aantal verschillende profielen die de bepaalde reis in het bepaalde tijdkader inging.
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID)
@@ -47,9 +47,9 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**Hoeveel fouten voorkwamen op elke knoop van een specifieke reis voor een bepaalde hoeveelheid tijd**
+**hoeveel fouten voorkwamen op elke knoop van een specifieke reis voor een bepaalde hoeveelheid tijd**
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT
@@ -69,9 +69,9 @@ AND
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 ```
 
-**Hoeveel gebeurtenissen van een specifieke reis in een bepaald tijdkader werden verworpen**
+**hoeveel gebeurtenissen van een specifieke reis in een bepaald tijdkader werden verworpen**
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT
@@ -81,9 +81,9 @@ WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVers
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**Wat gebeurt er met een specifiek profiel in een specifieke reis in een specifieke tijdspanne**
+**wat aan een specifiek profiel in een specifieke reis in een specifiek tijdkader** gebeurt
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 Deze vraag keert alle step gebeurtenissen en de dienstgebeurtenissen voor het bepaalde profiel en reis voor de gespecificeerde tijd in chronologische orde terug.
 
@@ -108,11 +108,11 @@ AND
 ORDER BY timestamp;
 ```
 
-**Hoeveel tijd is verstreken tussen twee knopen**
+**hoeveel tijd tussen twee knopen** is verstreken
 
 Deze vragen kunnen, bijvoorbeeld, worden gebruikt om de tijd te schatten die in een wachttijdactiviteit wordt doorgebracht. Dit staat u toe om ervoor te zorgen dat de wachttijdactiviteit correct wordt gevormd.
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 WITH
@@ -174,7 +174,7 @@ WHERE
     T1.INSTANCE_ID = T2.INSTANCE_ID
 ```
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 WITH
@@ -235,13 +235,13 @@ WHERE
     T1.INSTANCE_ID = T2.INSTANCE_ID
 ```
 
-**De details van een serviceEvent controleren**
+**hoe te om de details van a serviceEvent** te controleren
 
 De dataset van de Gebeurtenissen van de Stap van de Reis bevat alle stepEvents en serviceEvents. stepEvents worden gebruikt in de rapportage, aangezien ze betrekking hebben op activiteiten (gebeurtenis, acties, enz.) van profielen tijdens een reis. serviceEvents worden opgeslagen in de zelfde dataset, en zij wijzen op extra informatie voor het zuiveren doeleinden, bijvoorbeeld de reden voor een gebeurtenis van de ervaringsgebeurtenis verwerpen.
 
 Hier is een voorbeeld van vraag om de details van een serviceEvent te controleren:
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT
@@ -257,11 +257,11 @@ WHERE _experience.journeyOrchestration.serviceType is not null;
 
 ## Bericht-/handelingsfouten {#message-action-errors}
 
-**Lijst van fouten tijdens reizen**
+**Lijst van elke fout die in reizen** wordt ontmoet
 
 Met deze query kunt u elke fout die tijdens reizen is aangetroffen, weergeven tijdens het uitvoeren van een bericht/handeling.
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
@@ -285,9 +285,9 @@ Deze vraag keert alle verschillende fouten terug die terwijl het uitvoeren van e
 
 ## Op profielen gebaseerde query&#39;s {#profile-based-queries}
 
-**Zoeken of een profiel een specifieke reis heeft ingevoerd**
+**vind als een profiel een specifieke Reis** inging
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT count(distinct _id) FROM journey_step_events
@@ -307,11 +307,11 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 Het resultaat moet groter zijn dan 0. Deze vraag keert het nauwkeurige aantal tijden terug een profiel een reis is ingegaan.
 
-**Zoeken of een profiel een specifiek bericht is verzonden**
+**vind als een profiel een specifiek bericht** werd verzonden
 
 Methode 1: als de naam van uw bericht niet uniek is in de reis (het wordt gebruikt op veelvoudige plaatsen).
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
@@ -335,7 +335,7 @@ Het resultaat moet groter zijn dan 0. Deze vraag vertelt ons slechts of de beric
 
 Methode 2: als de naam van uw bericht uniek is in de reis.
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT count(distinct _id) FROM journey_step_events WHERE
@@ -357,9 +357,9 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 De vraag keert de lijst van alle berichten samen met hun telling terug die voor het geselecteerde profiel wordt aangehaald.
 
-**Zoeken naar alle berichten die een profiel in de afgelopen 30 dagen heeft ontvangen**
+**vind alle berichten een profiel in de laatste 30 dagen heeft ontvangen**
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
@@ -383,9 +383,9 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 De vraag keert de lijst van alle berichten samen met hun telling terug die voor het geselecteerde profiel wordt aangehaald.
 
-**Zoeken naar alle ritten die een profiel in de afgelopen 30 dagen heeft ingevoerd**
+**vind alle reizen een profiel in de laatste 30 dagen** is ingegaan
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
@@ -407,9 +407,9 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 De vraag keert de lijst van alle reisnamen samen met het aantal tijden terug het gevraagde profiel de reis inging.
 
-**Aantal profielen dat in aanmerking kwam voor een dagelijkse reis**
+**Aantal profielen die voor een reis dagelijks** kwalificeren
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
@@ -429,13 +429,13 @@ GROUP BY DATE(timestamp)
 ORDER BY DATE(timestamp) desc
 ```
 
-De vraag keert, voor de bepaalde periode, het aantal profielen terug dat de reis elke dag inging. Als een profiel wordt ingevoerd via meerdere identiteiten, wordt het twee keer geteld. Als re-entry wordt toegelaten, zou het profielaantal over verschillende dagen kunnen worden gedupliceerd als het de reis op verschillende dag opnieuw inging.
+De vraag keert, voor de bepaalde periode, het aantal profielen terug dat de reis elke dag inging. Als een profiel wordt ingevoerd via meerdere identiteiten, wordt het twee keer geteld. Als de terugkeer wordt toegelaten, zou het profielaantal over verschillende dagen kunnen worden gedupliceerd als het de reis op verschillende dag opnieuw inging.
 
 ## Vragen met betrekking tot het leespubliek {#read-segment-queries}
 
-**Tijd die nodig is om een doelexporttaak te voltooien**
+**Tijd die wordt genomen om een baan van de publieksuitvoer te beëindigen**
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 select DATEDIFF (minute,
@@ -465,9 +465,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 De vraag keert het tijdverschil, in notulen, tussen terug wanneer de publiek uitvoerbaan een rij werd gevormd en wanneer het definitief eindigde.
 
-**Aantal profielen dat tijdens de rit is verwijderd omdat het dubbele profielen waren**
+**Aantal profielen die door de reis werden verworpen omdat zij duplicaten** waren
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
@@ -487,9 +487,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 De vraag keert alle profielID terug die door de reis werden verworpen omdat zij duplicaten waren.
 
-**Aantal profielen dat door de reis wegens ongeldige namespace is verworpen**
+**Aantal profielen die door de reis wegens ongeldige namespace** werden verworpen
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT count(*) FROM journey_step_events
@@ -509,9 +509,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 De query retourneert alle profiel-id&#39;s die door de rit zijn verwijderd omdat ze een ongeldige naamruimte of geen identiteit voor die naamruimte hadden.
 
-**Aantal profielen dat door de reis wegens geen identiteitskaart werd verworpen**
+**Aantal profielen die door de reis wegens geen identiteitskaart werden verworpen**
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT count(*) FROM journey_step_events
@@ -531,9 +531,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 De vraag keert alle profielID terug die door de reis werden verworpen omdat de identiteitskaart ontbrak.
 
-**Aantal profielen dat tijdens de rit is weggegooid omdat de rit zich in het testknooppunt bevond en het profiel geen testprofiel was**
+**Aantal profielen die door de reis werden verworpen omdat de reis in testknoop was en het profiel geen testprofiel** was
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
@@ -553,9 +553,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 De vraag keert alle profielID terug die door de reis werden verworpen omdat de uitvoerbaan op testwijze werd in werking gesteld maar het profiel had niet de testProfile attributen geplaatst aan waar.
 
-**Aantal profielen dat door de reis wegens een interne fout werd verworpen**
+**Aantal profielen die door de reis wegens een interne fout werden verworpen**
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
@@ -575,9 +575,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 De vraag keert alle profielID terug die door de reis wegens één of andere interne fout werden verworpen.
 
-**Overzicht van het leespubliek voor een bepaalde reisversie**
+**Overzicht van het Gelezen publiek voor een bepaalde reisversie**
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT
@@ -613,9 +613,9 @@ BELANGRIJK: als er geen gebeurtenis is die door deze vraag wordt geretourneerd, 
 * de reisversie heeft het schema niet bereikt
 * als de reisversie de uitvoerbaan zou moeten teweegbrengen door de organisator te roepen, ging iets fout op de upstram stroom: kwestie op reisplaatsing, bedrijfsgebeurtenis of kwestie met planner.
 
-**Ontvang leesfouten voor een bepaalde reisversie**
+**krijgt Gelezen de fouten van het Publiek voor een bepaalde reisversie**
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT
@@ -639,9 +639,9 @@ WHERE
     )
 ```
 
-**Status exporttaak ophalen**
+**krijgt de status van de de uitvoerbaanverwerking**
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT
@@ -668,9 +668,9 @@ Als er geen record wordt geretourneerd, betekent dit dat:
 * er is een fout opgetreden tijdens het maken van een onderwerp of taak exporteren
 * de exporttaak is nog actief
 
-**Metrische gegevens over geëxporteerde profielen ophalen, inclusief gegevens over verwijderde taken en exporttaken voor elke exporttaak**
+**krijgt metriek op uitgevoerde profielen, met inbegrip van verwerping en de metriek van de de uitvoerbaan voor elke de uitvoerbanen**
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 WITH
@@ -728,9 +728,9 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**Hiermee krijgt u geaggregeerde metriek (doelgroepen, exporttaken en verwijderde bestanden) voor alle exporttaken**
+**krijgt bijeengevoegde metriek (de banen en de verwervingen van de publieksuitvoer) op alle de uitvoerbanen**
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 WITH
@@ -793,9 +793,9 @@ Het keert de algemene metriek voor een bepaalde reisversie terug, ongeacht de ba
 
 ## Vragen in verband met de kwalificatie van het publiek {#segment-qualification-queries}
 
-**Profiel dat is verwijderd vanwege een ander publiek dan geconfigureerd**
+**Profiel verworpen wegens een verschillende publieksrealisatie dan gevormde**
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID
@@ -817,9 +817,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEG
 
 Deze vraag keert alle profielID terug die door de reisversie wegens verkeerde publieksrealisatie werden verworpen.
 
-**De gebeurtenissen van de Kwalificatie van het publiek die door een andere reden voor een specifiek profiel worden verworpen**
+**gebeurtenissen van de Kwalificatie van het publiek die door een andere reden voor een specifiek profiel worden verworpen**
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT DATE(timestamp),  _experience.journeyOrchestration.profile.ID, _experience.journeyOrchestration.serviceEvents.dispatcher.projectionID
@@ -845,9 +845,9 @@ Deze query retourneert alle gebeurtenissen (externe gebeurtenissen/kwalificatieg
 
 ## Op gebeurtenissen gebaseerde query&#39;s {#event-based-queries}
 
-**Controleren of een zakelijke gebeurtenis is ontvangen voor een reis**
+**Controle als een bedrijfsgebeurtenis voor een reis** werd ontvangen
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT DATE(timestamp), count(distinct _id)
@@ -871,9 +871,9 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
-**Controleren of een externe gebeurtenis van een profiel is verwijderd omdat er geen gerelateerde reis is gevonden**
+**Controle als een externe gebeurtenis van een profiel werd verworpen omdat geen verwante reis werd gevonden**
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
@@ -895,9 +895,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-**Controleren of een externe gebeurtenis van een profiel om een andere reden is verwijderd**
+**Controle als een externe gebeurtenis van een profiel werd verworpen wegens een andere reden**
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
@@ -921,9 +921,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-**Controleer de telling van alle gebeurtenissen die door stateMachine door errorCode worden verworpen**
+**Controle de telling van alle gebeurtenissen die door stateMachine door errorCode** worden verworpen
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
@@ -939,9 +939,9 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-**Alle verwijderde gebeurtenissen controleren omdat toegang niet is toegestaan**
+**Controle alle verworpen gebeurtenissen omdat de ingang niet werd toegestaan**
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
@@ -967,7 +967,7 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 **Aantal dagelijkse actieve reizen**
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
@@ -989,9 +989,9 @@ De vraag keert, voor de bepaalde periode, de telling van unieke reizen terug die
 
 ## Vragen over reistijden {#journey-instances-queries}
 
-**Aantal profielen in een specifieke status op een specifieke tijd**
+**Aantal profielen in een specifieke staat een specifieke tijd**
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 WITH
@@ -1137,9 +1137,9 @@ ORDER BY
     DATETIME DESC
 ```
 
-**Hoeveel profielen zijn de reis in de specifieke periode verlaten**
+**hoeveel profielen de reis in de specifieke periode** verlieten
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT
@@ -1175,9 +1175,9 @@ ORDER BY
     DATETIME DESC
 ```
 
-**Hoeveel profielen verlaat de reis in de specifieke periode met knoop/status**
+**hoeveel profielen de reis in de specifieke periode met knoop/status** verlieten
 
-_Query in Data Lake_
+_de vraag van het meer van Gegevens_
 
 ```sql
 SELECT

@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 8%
@@ -212,7 +212,7 @@ Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Jou
 **Reizen**
 
 * De **Dataset van de Entiteit** is nu beschikbaar als out-of-the-box dataset in Adobe Journey Optimizer. Deze raadplegingsdataset omvat meta- gegevens om het volgen te verrijken en datasetinformatie terug te koppelen. Dit zal u helpen uw rapporten en vragen met begrijpelijkere gegevens verbeteren. [Meer informatie](../data/datasets-query-examples.md#entity-dataset)
-* Er is een nieuwe guardrail toegevoegd aan de unitaire reizen (te beginnen met een evenement of een kwalificatie van het publiek) om te voorkomen dat ritten meerdere keren ten onrechte worden gestart voor hetzelfde evenement. De terugkeer van het profiel wordt nu tijdelijk geblokkeerd door gebrek voor 5 minuten. [Meer informatie](../start/guardrails.md#events-g)
+* Er is een nieuwe guardrail toegevoegd aan de unitaire reizen (te beginnen met een evenement of een kwalificatie van het publiek) om te voorkomen dat ritten meerdere keren ten onrechte worden gestart voor hetzelfde evenement. De ingang van het profiel wordt nu tijdelijk geblokkeerd door gebrek gedurende 5 minuten. [Meer informatie](../start/guardrails.md#events-g)
 
 **Beheer**
 

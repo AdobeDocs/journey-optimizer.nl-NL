@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: e411810196c591727fb1049826dc761e3807ed03
+source-git-commit: e19cd0c301b1f2a8f47ca4c9f9882d36fd560dbe
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Adobe Journey Optimizer gebruikt de Identity Service om profielen samen te voege
    * Dit kan 30 min - 4 uur duren.
    * Gewoonlijk genereert deze aanmeldingsgebeurtenis een identiteitsgrafiek die een koppeling vormt tussen CRMID en ECID.
 
-1. Na de eerste stitching, zullen om het even welke gegevens die met één van beide identiteiten worden verzonden worden geassocieerd aan het samengevoegde profiel en beschikbaar voor verpersoonlijking in Journey Optimizer in real time. Het bijwerken van het profiel met de meest recente gedragsgegevens kan 1 minuut duren. Zie dit [page](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl).
+1. Na de eerste stitching, zullen om het even welke gegevens die met één van beide identiteiten worden verzonden worden geassocieerd aan het samengevoegde profiel en beschikbaar voor verpersoonlijking in Journey Optimizer in real time. Het bijwerken van het profiel met de meest recente gedragsgegevens kan 1 minuut duren. Verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl).
 
 Houd rekening met het volgende wanneer u gebruikszaken maakt:
 
@@ -50,20 +50,25 @@ In deze sectie wordt uitgelegd hoe u kunt schalen met de volgende twee beperking
 
 * Tijdens het publiceren van reizen wordt Journey Optimizer automatisch geschaald en aangepast om een maximale doorvoer en stabiliteit te garanderen. Zoals u bij de mijlpaal van 100 live reizen in één keer in een sandbox, ziet u een oranje overlay en een waarschuwingsteken in de interface over deze prestatie. Als u deze melding ziet en uw reizen moet verlengen tot meer dan 100 rechtstreekse reizen tegelijk, maak dan een ticket voor de klantenservice en wij helpen u uw doelstellingen te bereiken.
 
+<!--DOCAC-10977
+
+* As you publish journeys, Journey Optimizer automatically scales and adjusts to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time in a sandbox, you will see an orange overlay and warning sign appear in the interface on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
+
+
 Er zijn een aantal beste praktijken die u kunt aannemen, die u helpen binnen de grenzen blijven en het systeem efficiënt gebruiken.
 
-* Als je je grens van de live ritten nadert, kun je eerst naar de **Overzicht** tab onder **Reizen** om te zien hoeveel reizen de afgelopen 24 uur actief waren (reizen met een actief profiel). U kunt het aantal profielen controleren dat de reis in deze sectie binnengaat en weggaat om dat te bepalen.
+* Als u uw grens van levende reizen nadert, is de eerste stap die u kunt nemen naar het **Overzicht** lusje onder **Reizen** gaan om te zien hoeveel reizen binnen de laatste 24 uren reizen actief waren die actieve profielen hadden. U kunt het aantal profielen controleren dat de reis in deze sectie binnengaat en weggaat om dat te bepalen.
 
   ![](assets/journey-guardrails2.png)
 
-* Vervolgens kunt u in het gedeelte Reisinventarisatie alle reizen filteren op Status = &quot;Live&quot; en Type = &quot;Leespubliek&quot;. Sorteer vervolgens op publicatiedatum (oudste naar nieuwste). Klik op de reis en ga naar het schema. Alle live reizen met een planning stoppen **Eenmaal** of **Zo snel mogelijk** die ouder zijn dan een dag en slechts één actie hebben.
+* Vervolgens kunt u in het gedeelte Reisinventarisatie alle reizen filteren op Status = &quot;Live&quot; en Type = &quot;Leespubliek&quot;. Sorteer vervolgens op publicatiedatum (oudste naar nieuwste). Klik op de reis en ga naar het schema. Stop alle levende reizen die een programma hadden om **te lopen** of **{zo spoedig mogelijk** die ouder zijn dan een dag en slechts één actie hebben.
 
   ![](assets/journey-guardrails1.png)
 
-* Als uw **Lees publiek** De reis heeft slechts één actie, geen wachten/besluiten, of verzendt tijdoptimalisering, denk na bewegend hen naar de Campagnes van Journey Optimizer. Campagnes zijn beter geschikt voor eenstapsbetrokkenheid. Een van de belangrijkste verschillen tussen Campagne en Journaal is of u het belangrijk vindt om actief naar de betrokkenheid van de gebruiker te luisteren om de volgende stap te bepalen en met een andere actie in gesprek te gaan.
+* Als uw **leest publiek** reis enkel één actie heeft, wacht geen/besluiten, of verzendt tijdoptimalisering, denk na bewegend hen aan de Campagnes van Journey Optimizer. Campagnes zijn beter geschikt voor eenstapsbetrokkenheid. Een van de belangrijkste verschillen tussen Campagne en Journaal is of u het belangrijk vindt om actief naar de betrokkenheid van de gebruiker te luisteren om de volgende stap te bepalen en met een andere actie in gesprek te gaan.
 * Om het aantal activiteiten binnen een reis te verminderen, controleer de voorwaardenstappen. Er zullen vele gevallen zijn waar u de voorwaarden in segmentdefinitie of publiekssamenstelling kunt bewegen.
 * Als dezelfde omstandigheden zich bij meerdere reizen herhalen (toestemmingscontroles, onderdrukking), kunt u overwegen deze als onderdeel van de segmentdefinitie te verplaatsen. Als u bijvoorbeeld een voorwaarde hebt om te controleren of het e-mailadres niet leeg is voor meerdere reizen, moet u die voorwaarde opnemen in de segmentdefinitie.
 * Als uw reis verscheidene voorwaarden heeft die het publiek verdelen om de aantallen bij elke stap te zien, denk na gebruikend Customer Journey Analytics of andere rapporteringsoplossing die voor analyse geschikter zijn.
 * Als u de limiet van knooppunten op het canvas bijna bereikt, kunt u overwegen om acties te consolideren met dynamische parameters of inhoud om de juiste inhoud te leveren in plaats van expliciete knooppunten.
 
-* Als u een **Publiek lezen** reis met partijsegment (A) en als u binnen de reis in het de stroomsegment van de Audience (B) gebruikt om uit te sluiten (d.w.z. A-B) uit te voeren, overweeg die logica aan segmenteringslogica en gebruik de uitsluiting als deel van de segmenteringslogica zelf.
+* Als u de reis van het publiek van het a **Gelezen** met partijsegment (A) bent en als u binnen de reis in het stroomsgewijze segment van het Audience (B) gebruikt om uit te sluiten (d.w.z. A-B) uitvoeren, denk na bewegend die logica aan segmenteringslogica en gebruik de uitsluiting als deel van de segmenteringslogica zelf.

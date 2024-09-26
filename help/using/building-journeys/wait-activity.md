@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: wachten, activiteit, reis, volgende, canvas
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
-source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
+source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 6%
@@ -43,9 +43,9 @@ Wanneer het gebruiken van veelvoudige **wacht** activiteiten in een reis, me erv
 
 Een individu kan a **ingaan wacht** activiteit slechts als zij genoeg tijd in de reis verlaten hebben om de wachttijdduur vóór de 91 dagen reisonderbreking te voltooien.
 
-### Wachten en opnieuw betreden {#wait-re-entrance}
+### Wacht en ingang {#wait-reentrance}
 
-Een beste praktijk om **niet te gebruiken wacht** activiteiten aan blokterugkeer. In plaats daarvan, gebruik **re-entry** optie op het niveau van de vervoerseigenschappen toestaat. Meer informatie vindt u [op deze pagina](../building-journeys/journey-properties.md#entrance).
+Een beste praktijk om **niet te gebruiken wacht** activiteiten om ingang te blokkeren. In plaats daarvan, gebruik **terugkeer** optie op het niveau van de reiseigenschappen toestaan. Meer informatie vindt u [op deze pagina](../building-journeys/journey-properties.md#entrance).
 
 ### Wachten en testmodus {#wait-test-modd}
 
