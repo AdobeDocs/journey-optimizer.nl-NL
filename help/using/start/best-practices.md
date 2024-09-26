@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: bd5b32049e9cfbbccaf6b12c98a8f4dfcc8d14ac
+source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 0%
@@ -48,7 +48,12 @@ In deze sectie wordt uitgelegd hoe u kunt schalen met de volgende twee beperking
 
 * Journey Optimizer heeft een grip op 50 activiteiten op een reiscanvas. Deze handleiding is ontworpen om te helpen bij leesbaarheid, kwaliteitscontrole en probleemoplossing. Het aantal activiteiten in een reis zal in de hogere linkersectie van het reiscanvas verschijnen wanneer u binnen 10 activiteiten van deze grens komt.
 
-* Tijdens het publiceren van reizen wordt Journey Optimizer automatisch geschaald en aangepast om een maximale doorvoer en stabiliteit te garanderen. Zoals u bij de mijlpaal van 500 live reizen in één keer in een sandbox, ziet u een oranje overlay en een waarschuwingsteken in de interface over deze prestatie. Als u deze kennisgeving ziet en uw reizen moet verlengen tot meer dan 500 rechtstreekse reizen per keer, maak dan een ticket voor de klantenservice en wij helpen u bij het bereiken van uw doelstellingen.
+* Tijdens het publiceren van reizen wordt Journey Optimizer automatisch geschaald en aangepast om een maximale doorvoer en stabiliteit te garanderen. Zoals u bij de mijlpaal van 100 live reizen in één keer in een sandbox, ziet u een oranje overlay en een waarschuwingsteken in de interface over deze prestatie. Als u deze melding ziet en uw reizen moet verlengen tot meer dan 100 rechtstreekse reizen tegelijk, maak dan een ticket voor de klantenservice en wij helpen u uw doelstellingen te bereiken.
+
+<!--DOCAC-10977
+
+* As you publish journeys, Journey Optimizer automatically scales and adjusts to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time in a sandbox, you will see an orange overlay and warning sign appear in the interface on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
+
 
 Er zijn een aantal beste praktijken die u kunt aannemen, die u helpen binnen de grenzen blijven en het systeem efficiënt gebruiken.
 

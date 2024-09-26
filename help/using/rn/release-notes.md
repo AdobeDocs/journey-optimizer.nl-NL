@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bd5b32049e9cfbbccaf6b12c98a8f4dfcc8d14ac
+source-git-commit: a8b49bf278b26a31b0da9532fb07f211f397119e
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1567'
 ht-degree: 9%
 
 ---
@@ -211,7 +211,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Reizen**
 
-* **Max aantal Levende reizen** - Journey Optimizer heeft nu een graslaag van 500 levende reizen op productiesanddozen, in plaats van 100. Het aantal rechtstreekse reizen is zichtbaar in het canvas van de reis. Leer meer over reisgidsen in [ deze pagina ](../start/guardrails.md#journeys-guardrails)
+<!-- DOCAC-10977 * **Max number of Live journeys** - Journey Optimizer now has a guardrail of 500 live journeys on production sandboxes, instead of 100. The number of live journeys is visible in the journey canvas.-->
 
 * **Levende rapporteringsverhogingen** - Levende Rapportering verstrekt inzicht in de prestaties van uw reizen in de afgelopen 24 uren. Wij hebben het verbeterd door nieuwe metriek (ingegaan, weggegaan, verworpen profielen en profielen in fout) toe te voegen die u toestaan om een diepgaander inzicht in gebruikersgedrag en prestaties direct van het canvas van de Reis te krijgen. [Meer informatie](../building-journeys/report-journey.md)
 
