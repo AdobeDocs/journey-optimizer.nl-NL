@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: publiceren, reizen, live, geldigheid, controle
-source-git-commit: 0cdf61bc97baaa8df08822d62a5b9f658c44c117
+source-git-commit: 59a597a563074fa4daa74c64e97f6bb5c0f6834d
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Voor uw live reis hebt u toegang tot:
 * **[!UICONTROL Discarded profiles]**: Het totale aantal personen dat om een van de volgende redenen van de reis is verwijderd:
 
    * Voor **de Kwalificatie van het publiek** activiteiten, kan een ontkenning gebeuren als het verwachte werkwoord voor publiekskwalificatie niet aanpast welke reis heeft ontvangen (b.v. &quot;verlaten&quot;in plaats van &quot;gerealiseerd&quot;).
-   * Voor **gebeurtenis-teweeggebrachte** reizen, kan een teruggooi gebeuren als het individu probeerde om de reis terug te komen te vroeg of wanneer het re-entry niet werd toegestaan.
+   * Voor **gebeurtenis-teweeggebrachte** reizen, kan een teruggooi gebeuren als het individu probeerde om de reis te spoedig opnieuw binnen te gaan of wanneer de terugkeer niet werd toegestaan.
    * Op **terugkomende** reizen, wordt een teruggooi geteld op elke herhaling als het individu reeds in de reis is en het terugkeerbeleid niet aan &quot;forceer terugkeer&quot;wordt geplaatst.
    * Op **Gelezen de activiteiten van het Publiek**, komt een verwerpen voor als geen identiteit voor het uitgevoerde individu wordt geplaatst, of als ontvangen identiteitsnaamruimte niet verwachte voor de reis aanpast.
 
