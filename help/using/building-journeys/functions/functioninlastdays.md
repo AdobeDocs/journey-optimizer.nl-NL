@@ -7,16 +7,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: inLastDays, function, expression, trip
 exl-id: 1b150568-17c2-454d-847e-17bac3d0b35d
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: e0a942f4dc84b41882b3c12dd47f5931a8a34a2b
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 12%
+source-wordcount: '46'
+ht-degree: 10%
 
 ---
 
 # inLastDays {#inLastDays}
 
-Retourneert true als een bepaalde datum of dateTime zich tussen nu en nu bevindt - delta dagen.
+Geeft als resultaat waar als een bepaalde dateTime tussen nu en nu is - delta dagen.
 
 ## Categorie
 
