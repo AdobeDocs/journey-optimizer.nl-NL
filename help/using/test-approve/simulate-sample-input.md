@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Inhoud testen met behulp van voorbeeldinvoergegevens
-description: Leer hoe u een voorbeeld van e-mailinhoud bekijkt en proefdrukken verzendt met behulp van voorbeeldinvoer.
+description: Leer hoe u een voorbeeld van e-mailinhoud bekijkt en proefdrukken verzendt met behulp van voorbeeldinvoergegevens.
 feature: Overview, Get Started
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 13221645a22524deadc5576624bf6c31633c55c5
+source-git-commit: 100c9ca994199a3b90650ebfbabbf0b7ac8726c2
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,6 @@ Overweeg de volgende instructies en voorwaarden voordat u begint met het testen 
 * De volgende functies zijn niet beschikbaar in de huidige ervaring: Inbox rendering, spamrapporten, meertalige content en content experiment. Als u deze functies wilt gebruiken, selecteert u de knop **[!UICONTROL Simulate content]** in de inhoud om toegang te krijgen tot de vorige gebruikersinterface.
 * Momenteel worden alleen profielkenmerken ondersteund. Als contextafhankelijke kenmerken in uw inhoud worden gebruikt voor personalisatie, kunt u de inhoud niet testen met deze kenmerken.
 * Alleen de volgende gegevenstypen worden ondersteund bij het invoeren van gegevens voor de varianten: getal (geheel getal en decimaal), tekenreeks, boolean en datumtype. Voor elk ander gegevenstype wordt een fout weergegeven.
-
-
-niet van acrite
 
 ## Varianten toevoegen {#profiles}
 
