@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reis, configuratie, eigenschappen
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
+source-git-commit: a0c7dad29aabe6c377468a64b9638d7363f0b6f6
 workflow-type: tm+mt
 source-wordcount: '1975'
 ht-degree: 0%
@@ -63,12 +63,12 @@ Profielbeheer is afhankelijk van het soort reis. Leer meer over profielingang en
 
 Nieuwe reizen maken standaard terugkeer mogelijk. U kunt uncheck **toestaan terugkeer** optie voor &quot;één schot&quot;reizen, bijvoorbeeld als u een eenmalig geschenk wilt aanbieden wanneer een persoon een winkel ingaat.
 
-### wachttijd voor terugkeer  {#reentrance-wait}
+### Reentrale wachttijd  {#reentrance-wait}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_reentrance_wait"
->title="wachttijd voor terugkeer"
->abstract=" Stel de tijd in om te wachten voordat een profiel de reis weer kan betreden tijdens een enkele reis. Hierdoor kunnen gebruikers de reis niet opnieuw betreden voor een bepaalde duur. Maximale duur: 90 dagen."
+>id="ajo_journey_properties_re-entrance_wait"
+>title="Reentrale wachttijd"
+>abstract="Stel de tijd in om te wachten voordat een profiel de reis weer kan betreden tijdens een enkele reis. Hierdoor kunnen gebruikers de reis niet opnieuw betreden voor een bepaalde duur. Maximale duur: 90 dagen."
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Profieltoegangsbeheer"
 
 Wanneer **toe staat terugkeer** optie wordt geactiveerd, **de ingang wacht periode** gebied wordt getoond. In dit veld kunt u de tijd definiëren die u moet wachten voordat u een profiel toestaat om de reis opnieuw te betreden tijdens een enkele reis (te beginnen met een evenement of een publiekskwalificatie). Hierdoor wordt voorkomen dat ritten meerdere keren ten onrechte worden geactiveerd voor dezelfde gebeurtenis. Het veld wordt standaard ingesteld op 5 minuten. De maximale duur is 90 dagen.
