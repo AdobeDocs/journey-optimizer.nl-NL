@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 6adad3dfc9a0ec23c26be2027b0e1b3e2b757f6a
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,10 +28,6 @@ Als u webpagina&#39;s wilt openen en schrijven in de gebruikersinterface van [!D
 * Momenteel in [!DNL Journey Optimizer] kunt u Webervaringen in **campagnes** slechts tot stand brengen. [Meer informatie](../campaigns/create-campaign.md#configure)
 
 * [!DNL Journey Optimizer] webcampagnes zijn gericht op nieuwe profielen die nog niet eerder zijn ingeschakeld op andere kanalen. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden. De metriek van de vergunning voor elk pakket is vermeld op de [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) {target="_blank"} pagina.
-
->[!AVAILABILITY]
->
->Voor nu, is het kanaal van het Web niet beschikbaar voor organisaties die het Adobe **het Schild van de Gezondheidszorg** en **Privacy en het 3} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.**
 
 ## Voorwaarden voor implementatie {#implementation-prerequisites}
 
