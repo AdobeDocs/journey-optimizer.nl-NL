@@ -11,7 +11,7 @@ keywords: gegevens, bestuur, DULE, labels, labels, platform, beleid
 hide: true
 hidefromtoc: true
 badgePrivateBeta: label="Private Beta" type="Informative"
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 7384bcbba3e9793018628a66bb683c381d00e87a
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Voordat het systeem de reis of de campagne activeert, controleert het of de mark
 
 Als het systeem een beperkt veld identificeert, wordt een fout weergegeven waardoor u de reis of de campagne niet kunt publiceren. [ Leer hoe te om de schending van het governance beleid te ontdekken ](#violation)
 
-![](../privacy/assets/governance-policy-schema.png){zoomable="yes"}
+![](assets/governance-policy-schema.png){zoomable="yes"}
 
 *de analysestappen van de schending van het Beleid voor reizen en campagnes*
 
@@ -126,7 +126,7 @@ Neem het voorbeeld van het bloedtypeveld dat u wilt beperken van het exporteren 
 
 Als één van de gebieden geëtiketteerd _ePHI1_ (het bloedtypegebied in ons voorbeeld) in de actieparameters wordt ontdekt, wordt een fout getoond, verhinderend u de reis te publiceren. [ Leer hoe te om de schending van het governance beleid te ontdekken ](#violation)
 
-![](../privacy/assets/governance-policy-custom-action-schema.png){zoomable="yes"}
+![](assets/governance-policy-custom-action-schema.png){zoomable="yes"}
 
 *de analysestappen van de schending van het Beleid voor reizen douaneacties*
 
