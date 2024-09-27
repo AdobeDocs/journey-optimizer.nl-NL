@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
 workflow-type: tm+mt
-source-wordcount: '3352'
+source-wordcount: '3846'
 ht-degree: 6%
 
 ---
@@ -18,6 +18,134 @@ ht-degree: 6%
 # Aanvullende informatie 2024 {#release-notes-2024}
 
 Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Journey Optimizer] in 2024 heeft uitgebracht.
+
+
+## Opmerkingen bij de release augustus 2024 {#8-2024}
+
+**de datum van de Versie**: Augustus 20-21, 2024
+
+### Nieuwe functies {#8-features}
+
+Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Content Cards (Limited Availability)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
+<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
+</br>
+<p>Content card are currently only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>Verbeterde kanaalconfiguraties</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De huidige mogelijkheden van het kanaaloppervlak zijn verbeterd voor een consistente aanpak op alle kanalen. U kunt deze configuraties nu definiëren, beheren en opnieuw gebruiken voor al uw kanalen, zoals Web, In-app-berichten of Code-gebaseerde ervaring.</p>
+<p><ul>
+<li>De oppervlakten van het kanaal worden nu anders genoemd aan <strong> configuraties van het Kanaal </strong></li>
+<li>U kunt één of meerdere marketing acties verbinden om toestemmings en gegeven beheersbeleid te handhaven</li>
+<li>Het toegangsbeheer van het niveau van objecten (OLAC) is nu beschikbaar voor elke kanaalconfiguratie, toestaand u om te beslissen welke van uw gebruikers specifieke configuraties mogen tot stand brengen of gebruiken</li>
+<li>Voor sommige kanalen kunt u kanaalconfiguraties maken die op meerdere platforms zijn gericht. Een voorbeeld hiervan is een in-app berichtkanaalconfiguratie die zich kan richten op een webpagina, een iOS-app en een Android-app.</li>
+</ul></p>
+<p>Raadpleeg de <a href="../configuration/channel-surfaces.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Aangepaste actie Marketo Engage</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu Adobe Journey Optimizer integreren met Adobe Marketo Engage om uw B2B-gebruiksscenario's te maken. Vanaf een reis, staat een nieuwe douaneactie u toe om gegevens in Marketo in te voeren.</p>
+<p>Raadpleeg de <a href="../action/marketo-engage.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Variabelen in inhoudsfragmenten</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Globale fragmentvariabelen verbeteren de bestaande fragmentfunctionaliteit om de herbruikbaarheid van inhoud en het gebruik van scripts te verbeteren. Fragmenten kunnen nu invoervariabelen gebruiken en uitvoervariabelen maken die bruikbaar zijn in campagne- en reisinhoud. De fragmenten kunnen inputvariabelen verbruiken, zowel in <a href="../personalization/use-expression-fragments.md"> uitdrukkingsfragmenten </a> als <a href="../email/use-visual-fragments.md"> visuele fragmenten </a>. U kunt deze variabelen gebruiken om uw berichtinhoud en parameters, in uw campagnes en reizen te personaliseren.</p>
+<p>Raadpleeg de <a href="../personalization/use-expression-fragments.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>IP Warmup Workflow</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Beschikbaarheidsdatum: aug, 13</p>
+<p>Als u e-mail op een gloednieuw IP adres verzendt, kunt u IP opwarmingswerkschema's nu gemakkelijk direct van het gebruikersinterface uitvoeren. Adobe Journey Optimizer biedt een gestandaardiseerde en efficiënte manier om uw IP adressen op te warmen die de beste praktijken voor optimale leverbaarheid volgen.</p>
+<p>Raadpleeg de <a href="../configuration/ip-warmup-gs.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbeteringen {#8-improvements}
+
+Deze release brengt de hieronder vermelde verbeteringen aan.
+
+**Reizen**
+
+* In de **activiteit van de Voorwaarde**, door gebrek, wordt **[!UICONTROL Time condition]** nu geplaatst door uur, van 00:00 tot 12:00. [Meer informatie](../building-journeys/condition-activity.md#time_condition)
+* Wanneer het bouwen van uw reizen, worden het alarm nu getoond van de **Alarm** knoop, om met andere alarm te richten en een verenigbare gebruikerservaring te brengen. [Meer informatie](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* De zoomopties op de werkbalk voor reizen zijn verbeterd. Het zoompercentage is nu zichtbaar en u kunt de zoomwaarde nu eenvoudiger herstellen.
+
+**het kanaal van de duw**
+
+* U kunt nu uw pushgegevens voor mobiele toepassingen toevoegen in de configuratie-instellingen voor Adobe Journey Optimizer-kanalen. Het maken van een App-oppervlak in Adobe Experience Platform Data Collection is niet langer vereist.
+
+### Andere wijzigingen {#changes}
+
+**Meldend**
+
+* Nieuwe gebruiksgevallen zijn toegevoegd aan de nieuwe ervaring met rapportage:
+
+   * U kunt aangepaste berekende metriek rechtstreeks in uw rapporten maken.
+   * Creeer een Publiek van het melden van gegevens.
+   * Met het gereedschap Verkennende analyse kunt u eenvoudig tabellen en visualisaties maken op basis van de geselecteerde **[!UICONTROL Dimensions]** en **[!UICONTROL Metrics]** .
+
+  Raadpleeg de [gedetailleerde documentatie](../reports/report-cja-manage.md) voor meer informatie.
+
 
 
 ## Opmerkingen bij de release juli 2024 {#24-7-2024}
@@ -672,7 +800,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden vermeld.
 <table>
 <thead>
 <tr>
-<th><strong>Playbooks voor gebruiksscenario</strong><br/></th>
+<th><strong>Playbooks voor gebruiksscenario's</strong><br/></th>
 </tr>
 </thead>
 <tbody>

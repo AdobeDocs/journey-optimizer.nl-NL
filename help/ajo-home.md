@@ -5,10 +5,10 @@ description: Leer hoe je Adobe Journey Optimizer gebruikt.
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 68cf533bb459f33d2ebf951624b9a05910003fbb
+source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 18%
+source-wordcount: '392'
+ht-degree: 17%
 
 ---
 
@@ -20,13 +20,19 @@ Bekijk een glimp van de nieuwste verbeteringen in Journey Optimizer-producten en
 
 >[!BEGINTABS]
 
->] de Versneller van de Inhoud van 0} AI Hulp {[!TAB 
+>[!TAB  de versie van September ]
+
+De release van september is nu live, inclusief Content cards voor mobiele apps en websites, beleid voor goedkeuringen tijdens reizen en campagnes (LA), wereldwijde exit criteria tijdens reizen en meer/
+
+[![ leer meer ](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+
+>[!TAB  AI Medewerker ]
 
 ✨ onderdompelen zich in een hands-on ervaring met onze ](../help/using/content-management/gs-generative.md) levende eigenschapvoorproef van de Versneller van de Inhoud 1} van AI Hulp, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.[
 
 [![ leer meer ](using/assets/do-not-localize/try-it-button.svg) ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator) {target="_blank"}
 
->[!TAB  Meldend met Customer Journey Analytics (Beta) ]
+>[!TAB  Meldend met Customer Journey Analytics ]
 
 Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabiliteit met de mogelijkheden van de Customer Journey Analytics, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van de gegevens.
 
