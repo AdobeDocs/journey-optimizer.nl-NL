@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 6999f52a3426aa252f31440189ba9d1a7118dd0a
+source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
 # Aan de slag met webkanaal {#get-sarted-web}
 
-[!DNL Journey Optimizer] kunt u uw klanten visueel ontwerpen en persoonlijke webervaringen aanbieden.
+Met [!DNL Journey Optimizer] kunt u visueel ontwerpen en persoonlijke webervaringen aan uw klanten aanbieden.
 
 Via een intuïtieve visuele interface kunt u met deze functie eenvoudig uw wegeigenschappen wijzigen om uw campagnes voor eindgebruikers te experimenteren, te optimaliseren en aan te passen.
 
@@ -24,13 +24,13 @@ Via een intuïtieve visuele interface kunt u met deze functie eenvoudig uw wegei
 
 Als u al uitgaande kanalen gebruikt, zoals e-mail, SMS of pushberichten, kunt u nu het binnenkomende webkanaal gebruiken om een echt gepersonaliseerde ervaring te bieden die zich over alle kanalen uitstrekt.
 
-Als u een campagne hebt gemaakt, selecteert u **Web** als uw handeling en basisinstellingen definiëren. Raadpleeg voor meer informatie over het configureren van uw campagne [page](../campaigns/create-campaign.md#configure).
+Zodra u een campagne creeerde, selecteer **Web** als uw actie en bepaal basismontages. Voor meer informatie over hoe te om uw campagne te vormen, verwijs naar deze [ pagina ](../campaigns/create-campaign.md#configure).
 
 >[!NOTE]
 >
->Als dit de eerste keer is dat u een webervaring maakt, moet u de voorwaarden volgen die worden beschreven in [deze sectie](web-prerequisites.md).
+>Als dit uw eerste keer is creërend een Webervaring, zorg ervoor u de eerste vereisten volgt die in [ worden beschreven deze sectie ](web-prerequisites.md).
 
-Ontdek de gedetailleerde stappen voor het maken van een webcampagne in [deze video](create-web.md#video).
+Ontdek de gedetailleerde stappen om een Webcampagne in [ tot stand te brengen deze video ](create-web.md#video).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -46,7 +46,7 @@ Ontdek de gedetailleerde stappen voor het maken van een webcampagne in [deze vid
 <img alt="Onfrequent" src="../assets/do-not-localize/web-create.jpg">
 </a>
 <div>
-<a href="create-web.md"><strong>Een webervaring maken</strong></a>
+<a href="create-web.md"><strong> creeer een Webervaring </strong></a>
 </div>
 <p></td>
 <td>
@@ -54,7 +54,7 @@ Ontdek de gedetailleerde stappen voor het maken van een webcampagne in [deze vid
 <img alt="Validatie" src="../assets/do-not-localize/web-design.jpg">
 </a>
 <div>
-<a href="edit-web-content.md"><strong>Webpagina's van auteurs</strong></a>
+<a href="edit-web-content.md"><strong> Web-pagina's van de Auteur </strong></a>
 </div>
 <p>
 </td>
@@ -63,7 +63,7 @@ Ontdek de gedetailleerde stappen voor het maken van een webcampagne in [deze vid
 <img alt="Validatie" src="../assets/do-not-localize/web-reporting.jpg">
 </a>
 <div>
-<a href="monitor-web-campaigns.md"><strong>Rapportage</strong></a>
+<a href="monitor-web-campaigns.md"><strong> Meldend </strong></a>
 </div>
 <p>
 </td>
