@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: 02c4b61f22591a99824eb727aaccfd0cbe1facfc
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,10 @@ Als de pagina voor het eerst wordt geladen, wordt de standaardstatus van de pagi
 
 ## Het voorbeeld uitvoeren {#run-sample}
 
-Vereiste: u moet knooppunt en npm installeren. [ verwijs naar deze documentatie ](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+>[!PREREQUISITES]
+>
+>U moet knooppunt en npm installeren. [ verwijs naar deze documentatie ](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
 
 1. Stel lokale SSL-certificaten in voor HTTPS. Voor deze voorbeelden zijn lokaal ondertekende SSL-certificaten vereist om inhoud via HTTPS te kunnen leveren:
 
