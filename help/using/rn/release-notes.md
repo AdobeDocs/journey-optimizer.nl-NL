@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
+source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
 workflow-type: tm+mt
-source-wordcount: '1073'
+source-wordcount: '1103'
 ht-degree: 9%
 
 ---
@@ -243,3 +243,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
   >[!CAUTION]
   >
   >Houd er rekening mee dat u met de interactieve API-functionaliteit op de documentatiepagina&#39;s echte API-aanroepen naar de eindpunten uitvoert. Houd dit in gedachten wanneer u experimenteert met productiesandboxes.
+
+**Configuratie**
+
+* IP warmup plannen - Dit vermogen is nu beschikbaar aan alle klanten, met inbegrip van organisaties die het Adobe **het Schild van de Gezondheidszorg** of **Privacy en het 3} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.** [Meer informatie](../configuration/ip-warmup-gs.md)

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, leverbaarheid
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: d880d38784c2687f9710e6733c1489601e6760ba
+source-git-commit: 5e0d683bf52df4992773c6147b9e418241777e5d
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '245'
 ht-degree: 2%
 
 ---
@@ -22,15 +22,11 @@ Met [!DNL Journey Optimizer] kunt u gemakkelijk IP warmteopwerkschema&#39;s dire
 
 Als u wilt voorkomen dat spam wordt gemarkeerd, kunt u het verzonden volume progressief verhogen met de functie voor het IP-opwarmingsplan. Met deze nieuwe optie in het menu **[!UICONTROL Administration]** kunt u het eenvoudiger op geconsolideerde wijze doen in plaats van complexe dagelijkse reizen te maken.
 
-<!--➡️ [Learn how to create and execute an IP warmup plan in this video](#video)-->
+➡️ [ leren om een IP warmup plan in deze video tot stand te brengen en uit te voeren ](#video)
 
 >[!AVAILABILITY]
 >
 >Deze mogelijkheid kan alleen worden ingeschakeld voor sandboxen van het productietype.
->
->Het is niet beschikbaar voor organisaties die de Adobe **het Schild van de Gezondheidszorg** of **Privacy en het 3} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.**
-
-
 
 <!--
 Benefits
