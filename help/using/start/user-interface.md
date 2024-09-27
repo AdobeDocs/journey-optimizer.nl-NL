@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1453'
 ht-degree: 4%
 
 ---
@@ -273,13 +273,6 @@ De taal wijzigen:
 >id="ajo_email_locking_read_only"
 >title="Alleen-lezen"
 >abstract="Deze inhoud is alleen-lezen en kan niet worden gewijzigd."
-
-<!--GOVERNANCE POLICIES-->
-
->[!CONTEXTUALHELP]
->id="ajo_data_governance_policy_violation"
->title="Overtreding van beleid voor gegevensbeheer"
->abstract="Als het systeem een beperkt veld in een reis/campagne of een aangepaste handeling identificeert, wordt een fout weergegeven die voorkomt dat u deze publiceert. Gebruik het diagram van de gegevenslijn in deze dialoog om te begrijpen welke andere configuratieveranderingen moeten worden aangebracht alvorens u uw reis of campagne kunt activeren."
 
 <!--APPROVAL POLICIES-->
 
