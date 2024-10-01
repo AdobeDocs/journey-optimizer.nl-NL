@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 40fde856e76d7e2d609ba90f93d4e07fe90f858f
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 0%
+source-wordcount: '340'
+ht-degree: 2%
 
 ---
 
@@ -20,32 +20,41 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> Als u wilt terugkeren naar de traditionele rapportage van Journey Optimizer, schakelt u gewoon de **[!UICONTROL Use new Experience]** -optie.
+> Als u wilt terugkeren naar de traditionele Journey Optimizer-rapportage, schakelt u de optie **[!UICONTROL Use new Experience]** in of uit.
 
 Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabiliteit met de mogelijkheden van de Customer Journey Analytics, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van de gegevens. Deze naadloze integratie tussen Journey Optimizer en Customer Journey Analytics biedt een duidelijker beeld van prestatiesmetriek, toelatend gebruikers om geïnformeerde besluiten te nemen.
 
-* Als u een reis of leveringen in het kader van een reis wilt richten, vanaf **[!UICONTROL Journeys]** en klik op de knop **[!UICONTROL View report]** knop.
+* Als u een reis of leveringen in de context van een reis, van het **[!UICONTROL Journeys]** menu wilt richten, toegang uw reis en klik de **[!UICONTROL View report]** knoop.
 
-  In de lijst met bestaande reizen kunt u ook **[!UICONTROL Report]** in het geavanceerde menu van de geselecteerde reis. [Meer informatie over het rapport Journey](journey-global-report-cja.md)
+  In de lijst met bestaande reizen kunt u ook **[!UICONTROL Report]** selecteren in het menu Geavanceerd van de geselecteerde reis. [ leer meer op het rapport van de Reis ](journey-global-report-cja.md)
 
   ![](assets/gs-cja-report-3.png)
 
-* Als u een campagne wilt richten, van **[!UICONTROL Campaigns]** , opent u uw campagne en klikt u op **[!UICONTROL Reports]** knop.
+* Als u een campagne als doel wilt instellen, opent u de campagne vanuit het menu **[!UICONTROL Campaigns]** en klikt u op de knop **[!UICONTROL Reports]** .
 
-  In de lijst met bestaande campagnes kunt u ook **[!UICONTROL Report]** in het geavanceerde menu van de geselecteerde campagne. [Meer informatie over het campagnerapport](campaign-global-report-cja.md)
+  In de lijst met bestaande campagnes kunt u ook **[!UICONTROL Report]** selecteren in het menu Geavanceerd van de geselecteerde campagne. [ leer meer over het rapport van de Campagne ](campaign-global-report-cja.md)
 
   ![](assets/gs-cja-report-2.png)
 
-* Als u metriek voor alle campagnes en reizen binnen uw milieu wilt richten, toegang tot **Overzicht** rapport door naar de **[!UICONTROL Reports]** in het menu **[!UICONTROL Journey Management]** sectie. [Meer informatie over het overzichtsrapport](channel-report-cja.md)
+* Als u metriek voor alle campagnes en reizen binnen uw milieu wilt richten, heb toegang tot het **Overzicht** rapport door aan het **[!UICONTROL Reports]** menu binnen de **[!UICONTROL Journey Management]** sectie te navigeren. [ leer meer over het rapport van het Overzicht ](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
 
 ## Vereisten {#prerequisites}
 
-* Als u **niet** eigen Customer Journey Analytics, of als u er eigenaar van bent, maar wel **niet** toegang hebben tot elk productprofiel van een Customer Journey Analytics. De machtigingen worden beheerd in Journey Optimizer. In dit geval hebt u alleen de opdracht **[!UICONTROL View channel reports]** machtiging of verwante rollen. [Meer informatie over Journey Optimizer-machtigingen](../administration/permissions.md)
-* Als u Customer Journey Analytics bezit en toegang tot een het productprofiel van de Customer Journey Analytics hebt, dan zijn de standaardtoestemmingen van de Customer Journey Analytics van toepassing. De beheerder van de Customer Journey Analytics is verantwoordelijk voor het handhaven van juiste gebruikerstoegang. [Meer informatie over machtigingen voor Customers Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
-* Uw gegevensmeningen van de Customer Journey Analytics moeten met het volgende plaatsen worden gevormd: **Instellen als standaardgegevensweergave in Adobe Journey Optimizer**. [Meer informatie over gegevensweergaven](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
-* Als u toegang wilt tot het dashboard voor Customers Journey Analytics in Journey Optimizer, schakelt u het **[!UICONTROL Use new Experience]** knevel in uw rapport.
+* Als u **niet** eigen Customer Journey Analytics, of als u het bezit maar **niet** toegang tot om het even welk profiel van het Customer Journey Analytics heeft, worden de toestemmingen beheerd in Journey Optimizer. In dit geval hebt u het volgende nodig:
+
+   * **[!UICONTROL View channel reports]** machtiging of gerelateerde rollen. [Meer informatie](../administration/permissions.md)
+
+* Als u **** Customer Journey Analytics bezit en toegang tot een het productprofiel van de Customer Journey Analytics hebt, zult u nodig hebben:
+
+   * **[!UICONTROL Audience Creation]** - en **[!UICONTROL Audience View]** -machtigingen voor Customer Journey Analytics. [Meer informatie](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control)
+
+   * **[!UICONTROL Manage profiles]** machtiging voor Adobe Journey Optimizer. [Meer informatie](../administration/permissions.md)
+
+* Uw gegevensmeningen van de Customer Journey Analytics moeten met het volgende plaatsen worden gevormd: **Reeks als standaardgegevensmening in Adobe Journey Optimizer**. [ leer meer over gegevensmeningen ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
+
+* Als u het dashboard voor Customers Journey Analytics in Journey Optimizer wilt openen, schakelt u alleen de **[!UICONTROL Use new Experience]** -schakeloptie in uw rapport in.
 
   ![](assets/cja-option.png)
 
