@@ -7,9 +7,9 @@ level: Beginner
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: c609694693f11c77bc61ab31f0e7851262aadcce
+source-git-commit: 0322a13304875c4ba9ae8a9e7710fa2e71e459b3
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Met Journey Optimizer kunt u controleren of er overlappingen zijn met andere rei
 
    >[!NOTE]
    >
-   >De knop **[!UICONTROL View potential conflicts]** wordt beschikbaar om te selecteren zodra u een van de volgende instellingen hebt toegewezen: **[!UICONTROL Start / end date]**, **[!UICONTROL Audience]**, **[!UICONTROL Channel]**, **[!UICONTROL Channel configuration]** en **[!UICONTROL Rule set]** .
+   >De knop **[!UICONTROL View potential conflicts]** wordt beschikbaar om te selecteren zodra u een van de volgende instellingen hebt toegewezen: **[!UICONTROL Start / end date]**, **[!UICONTROL Audience]**, **[!UICONTROL Channel]**, **[!UICONTROL Channel configuration]** en **[!UICONTROL Rule set]** . Zorg ervoor dat u **[!UICONTROL Save]** selecteert nadat u deze instellingen hebt toegewezen, aangezien de knop pas kan worden geselecteerd nadat de wijzigingen zijn opgeslagen.
 
 1. Het venster **[!UICONTROL Potential conflicts]** wordt geopend, zodat u alle elementen kunt visualiseren die de huidige reis/campagne overlappen.
 
@@ -91,7 +91,7 @@ Met Journey Optimizer kunt u een prioriteitsscore toekennen aan een reis of camp
 
 >[!NOTE]
 >
->Prioriteitsscore is beschikbaar voor binnenkomende kanalen: web, in-app en op code gebaseerde kanalen. In reis, is de prioritaire score beschikbaar voor het **in-app** slechts kanaal.
+>Prioriteitsscore is beschikbaar voor binnenkomende kanalen: web, in-app en op code gebaseerde kanalen. In reis, is de prioritaire score beschikbaar voor **in-app** en **code-gebaseerde** kanalen slechts.
 
 Het toewijzen van een prioritaire score is essentieel voor binnenkomende communicatie zoals Web, Mobiel, &amp; in-App. Als u meerdere campagnes hebt met dezelfde kanaalconfiguratie (bijvoorbeeld een banner boven op uw webpagina), kan dit problematisch zijn omdat slechts inhoud van één campagne gemakkelijk kan worden weergegeven. Bij de prioriteitsscore voegt u uw voorkeur in waarvoor de campagne moet worden weergegeven wanneer de ontvanger in aanmerking komt voor meer dan één campagne.
 
@@ -99,4 +99,4 @@ Als u een prioriteitsscore wilt toewijzen aan een reis of campagne, voert u een 
 
 ![](assets/priority-score.png)
 
-Voor situaties waarin twee campagnes dezelfde prioriteitsscore hebben, wordt de laatst geactiveerde campagne getoond.
+Voor situaties waarin twee campagnes dezelfde prioriteitsscore hebben, wordt de minst recent geactiveerde campagne getoond.
