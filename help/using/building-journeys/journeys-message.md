@@ -1,98 +1,137 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Een bericht toevoegen tijdens een rit
-description: Leer hoe u een bericht tijdens een rit kunt toevoegen
+title: Voeg een ingebouwde kanaalactie aan een reis toe
+description: Leer hoe u een ingebouwde kanaalactie aan een reis toevoegt
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
-keywords: reis, bericht, push, sms, email, in app
+keywords: reis, bericht, push, sms, e-mail, in-app, web, inhoudskaart, op code gebaseerde ervaring
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: f81fde0076fc8689c689fae7a0ee8c7aa9fdbeed
+source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1268'
 ht-degree: 0%
 
 ---
 
-# E-mail-, In-app-, Push- en tekstberichten verzenden {#add-a-message-in-a-journey}
+# Ingebouwde kanaalhandelingen gebruiken {#add-a-message-in-a-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
->title="Berichtactiviteit"
->abstract="Journey Optimizer wordt geleverd met ingebouwde berichtmogelijkheden. U kunt gewoon tijdens uw reis een pushbericht, een tekstbericht (SMS/MMS), een activiteit in de app of een e-mailbericht toevoegen en instellingen en inhoud definiëren. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis."
+>title="Ingebouwde kanaalactie"
+>abstract="Journey Optimizer wordt geleverd met ingebouwde kanaalactiemogelijkheden. U kunt aan uw reis eenvoudig een uitgaande (e-mail, tekstbericht (SMS/MMS), duw) of binnenkomende (in-app, Web, code-gebaseerde ervaring, inhoudskaart) activiteit toevoegen, en montages en inhoud bepalen. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis."
 
-[!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtmogelijkheden. U kunt gewoon tijdens uw reis een push-gebeurtenis, een SMS/MMS, een activiteit in de app of een e-mailbericht toevoegen en instellingen en inhoud definiëren. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis.
+[!DNL Journey Optimizer] wordt geleverd met ingebouwde kanaalactiemogelijkheden. U kunt aan uw reis eenvoudig een uitgaande (e-mail, tekstbericht (SMS/MMS), duw) of binnenkomende (in-app, Web, code-gebaseerde ervaring, inhoudskaart) activiteit toevoegen, en montages en inhoud bepalen. Het wordt vervolgens uitgevoerd en verzonden in het kader van de reis.
 
-U kunt ook specifieke acties instellen om u berichten te sturen:
+>[!NOTE]
+>
+>U kunt ook specifieke acties instellen om u berichten te sturen. [Meer informatie](#recommendation)
 
-* Als u berichten verzendt met een systeem van derden, kunt u een aangepaste handeling maken. Leer meer in deze [ sectie ](../action/action.md).
+Volg onderstaande stappen om een ingebouwde kanaalactie aan een reis toe te voegen.
+
+1. Begin uw reis met een [ Gebeurtenis ](general-events.md) of a [ gelezen activiteit van het publiek ](read-audience.md).
+
+1. Van de **Acties** sectie van het palet, sleep en laat vallen uitgaand (**e-mail**, **duw**, **SMS**) of binnenkomend (**In-app**, **Web**, **code-gebaseerde ervaring**, **inhoudskaart**) op het canvas.
+
+   ![](assets/journey-web-activity.png)
+
+1. Configureer uw activiteit.
+
+   * Leer de gedetailleerde stappen om uw berichtinhoud tot stand te brengen als volgt:
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../email/create-email.md">
+      <img alt="Lood" src="../assets/do-not-localize/email.jpg">
+      </a>
+      <div><a href="../email/create-email.md"><strong> creeer e-mails </strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../push/create-push.md">
+      <img alt="Onfrequent" src="../assets/do-not-localize/push.jpg">
+      </a>
+      <div>
+      <a href="../push/create-push.md"><strong> creeer dupberichten <strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../sms/create-sms.md">
+      <img alt="Validatie" src="../assets/do-not-localize/sms.jpg">
+      </a>
+      <div>
+      <a href="../sms/create-sms.md"><strong> creeer tekstberichten (SMS/MMS) </strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   * Leer de gedetailleerde stappen om uw binnenkomende actie tot stand te brengen als volgt:
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../in-app/create-in-app.md">
+      <img alt="Lood" src="../assets/do-not-localize/in-app.jpg">
+      </a>
+      <div><a href="../in-app/create-in-app.md"><strong> creeer in-app berichten </strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../web/create-web.md">
+      <img alt="Lood" src="../assets/do-not-localize/web-create.jpg">
+      </a>
+      <div><a href="../web/create-web.md"><strong> creeer Webervaringen </strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../content-card/create-content-card.md">
+      <img alt="Lood" src="../assets/do-not-localize/sms-config.jpg">
+      </a>
+      <div><a href="../content-card/create-content-card.md"><strong> creeer inhoudskaarten </strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../code-based/create-code-based.md">
+      <img alt="Onfrequent" src="../assets/do-not-localize/web-design.jpg">
+      </a>
+      <div>
+      <a href="../code-based/create-code-based.md"><strong> creeer op code-gebaseerde ervaringen <strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+     >[!NOTE]
+     >
+     >Elke binnenkomende berichtactiviteit komt met een 3 dagen **wachten** activiteit. [Meer informatie](../building-journeys/wait-activity.md#auto-wait-node)
+
+## Aanbeveling {#recommendation}
+
+[!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtmogelijkheid. Met aangepaste handelingen kunt u echter de verbinding van een systeem van derden configureren om berichten of API-aanroepen te verzenden.
+
+* Als u berichten verzendt met een systeem van derden, kunt u een aangepaste handeling maken. [Meer informatie](../action/action.md)
 
 * Raadpleeg de volgende secties als u werkt met Campagne en Journey Optimizer:
 
    * [[!DNL Journey Optimizer] en Campagne v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] en Campaign Standard](../action/acs-action.md)
 
-Volg onderstaande stappen om een bericht toe te voegen aan een rit:
-
-1. Begin uw reis met een [ Gebeurtenis ](general-events.md) of a [ gelezen activiteit van het publiek ](read-audience.md).
-
-1. Van de **sectie van Acties** van het palet, sleep en laat vallen een **e-mail**, een **In-app**, een **SMS** of a **duw** activiteit in het canvas.
-
-1. Configureer uw activiteit.
-
-   Leer gedetailleerde stappen om uw berichtinhoud op de volgende pagina&#39;s tot stand te brengen:
-
-   <table style="table-layout:fixed">
-   <tr style="border: 0;">
-   <td>
-   <a href="../email/create-email.md">
-   <img alt="Lood" src="../assets/do-not-localize/email.jpg">
-   </a>
-   <div><a href="../email/create-email.md"><strong> creeer e-mails </strong>
-   </div>
-   <p>
-   </td>
-   <td>
-   <a href="../in-app/create-in-app.md">
-   <img alt="Lood" src="../assets/do-not-localize/in-app.jpg">
-   </a>
-   <div><a href="../in-app/create-in-app.md"><strong> creeer in-app berichten </strong>
-   </div>
-   <p>
-   </td>
-   <td>
-   <a href="../push/create-push.md">
-   <img alt="Onfrequent" src="../assets/do-not-localize/push.jpg">
-   </a>
-   <div>
-   <a href="../push/create-push.md"><strong> creeer dupberichten <strong></a>
-   </div>
-   <p>
-   </td>
-   <td>
-   <a href="../sms/create-sms.md">
-   <img alt="Validatie" src="../assets/do-not-localize/sms.jpg">
-   </a>
-   <div>
-   <a href="../sms/create-sms.md"><strong> creeer tekstberichten (SMS/MMS) </strong></a>
-   </div>
-   <p>
-   </td>
-   </tr>
-   </table>
-
->[!NOTE]
->
->Elke binnenkomende berichtactiviteit (In-app bericht, op code-gebaseerde ervaring, of Kaart) komt met een 3 dagen **wachten** activiteit. [Meer informatie](../building-journeys/wait-activity.md#auto-wait-node)
->
-
 ## Actieve inhoud bijwerken{#update-live-content}
 
-U kunt de inhoud van een bericht (e-mail, In-app, Push, SMS) tijdens een live reis bijwerken.
+U kunt de inhoud van een ingebouwde kanaalactie tijdens een live reis bijwerken.
 
-Om dit te doen, open uw levende reis, selecteer de berichtactiviteit en klik **geef inhoud** uit.
+Om dit te doen, open uw levende reis, selecteer de kanaalactiviteit en klik **geef inhoud** uit.
 
 ![](assets/add-a-message2.png)
 
@@ -114,10 +153,12 @@ Voor de activiteit in de app kunnen wijzigingen in de inhoud worden aangebracht 
 >[!NOTE]
 >
 >Deze functie is niet standaard ingeschakeld. U kunt contact opnemen met uw Adobe om de pen te activeren.
+>
+>De functie Send-Time optimalisatie is alleen van toepassing op e-mail- en pushkanalen.
 
 ### Over Send-Time optimalisatie {#about-send-time}
 
-De functie voor Send-Time optimalisatie van Adobe Journey Optimizer, aangedreven door de AI-services van de Adobe, kan de beste tijd voorspellen om een e-mail- of pushbericht te verzenden om de betrokkenheid te maximaliseren op basis van een open historie en klikfrequentie. Gebruik ons machine-leert model om gepersonaliseerde verzendtijden voor elke gebruiker te plannen om open te groeien en tarieven van uw berichten te klikken.
+De functie van de Optimalisatie van de Send-Time van Adobe Journey Optimizer, die door de diensten van AI van de Adobe wordt aangedreven, kan de beste tijd voorspellen om een **e-mail** of **duw bericht** te verzenden om overeenkomst te maximaliseren die op historisch open wordt gebaseerd en tarieven klikt. Gebruik ons machine-leert model om gepersonaliseerde verzendtijden voor elke gebruiker te plannen om open te groeien en tarieven van uw berichten te klikken.
 
 Het model van de Optimalisering van de Send-Time neemt uw gegevens van Adobe Journey Optimizer op en kijkt open (voor e-mail en duw) op gebruikersniveau en klikt (voor e-mail) tarieven om te bepalen wanneer uw klanten het meest waarschijnlijk met uw overseinen in dienst zullen nemen. De optimalisering van de Send-Tijd vereist een minimum van één maand van bericht-volgende gegevens om geïnformeerde aanbevelingen te doen. Voor elke gebruiker kiest het systeem automatisch de beste tijd met behulp van de volgende scores:
 
