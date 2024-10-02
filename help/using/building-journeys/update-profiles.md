@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: profiel, update, reis, activiteit
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 0571a11eabffeb5e318bebe341a8df18da7db598
+source-git-commit: 3639a1b23ce259d0a8af5f4e801f8c54eb6b3b3c
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -23,34 +23,35 @@ ht-degree: 0%
 >title="Profielactiviteit bijwerken"
 >abstract="Met de actie Profiel bijwerken kunt u een bestaand Adobe Experience Platform-profiel bijwerken met informatie die afkomstig is van de gebeurtenis, een gegevensbron of een specifieke waarde gebruiken."
 
-Gebruik de **[!UICONTROL Update Profile]** activiteit om een bestaand profiel van Adobe Experience Platform met informatie bij te werken die uit een gebeurtenis, een gegevensbron of met een specifieke waarde komt.
+Met de **[!UICONTROL Update Profile]** -actieactiviteit kunt u een bestaand Adobe Experience Platform-profiel bijwerken met informatie die afkomstig is van een gebeurtenis, gegevensbron of met een specifieke waarde.
 
-## Aanbevelingen
+## Belangrijkste concepten {#key-concepts}
 
-* De **Profiel bijwerken** Actie kan alleen worden gebruikt bij reizen met een naamruimte.
+* De **actie van het Profiel van de Update** kan slechts in reizen worden gebruikt die een namespace hebben.
 * Met de handeling worden alleen bestaande velden bijgewerkt. Er worden geen nieuwe profielvelden gemaakt.
-* U kunt de **Profiel bijwerken** actie om ervaringsgebeurtenissen te genereren, bijvoorbeeld een aankoop.
+* U kunt niet de **actie van het Profiel van de Update gebruiken** om ervaringsgebeurtenissen, bijvoorbeeld een aankoop te produceren.
 * Net als bij andere acties kunt u een alternatief pad definiëren in het geval van een fout of time-out. U kunt geen twee acties parallel plaatsen.
-* Het updateverzoek dat naar Adobe Experience Platform wordt verzonden, is onmiddellijk of binnen een seconde. Het duurt normaal een paar seconden, maar soms nog meer zonder garantie. Als een handeling bijvoorbeeld &#39;field 1&#39; gebruikt, bijgewerkt door een **Profiel bijwerken** Actie die eerder is geplaatst, mag u niet verwachten dat &quot;veld 1&quot; wordt bijgewerkt in de handeling.
-* De **Profiel bijwerken** activiteit steunt geen gebieden XDM die als opsomming worden bepaald.
-* De **[!UICONTROL Update profile]** activiteit werkt alleen de [Profielopslag](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, niet het Data Lake.
-* Wanneer u een gegevensset selecteert in het dialoogvenster **[!UICONTROL Update profile]** is, wordt aangeraden om één te gebruiken waarvoor geen gegevensinnamestromen zijn bedoeld. Omdat **Profiel bijwerken** updates worden alleen opgeslagen in de [Profielopslag](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, bestaat het risico dat dergelijke wijzigingen worden overschreven door een gegevensinnamestroom.
+* Het updateverzoek dat naar Adobe Experience Platform wordt verzonden, is onmiddellijk of binnen een seconde. Het duurt normaal een paar seconden, maar soms nog meer zonder garantie. Dientengevolge, bijvoorbeeld, als een actie &quot;gebied 1&quot;gebruikt dat door een **wordt bijgewerkt actie van het Profiel van de Update** wordt geplaatst juist vóór, zou u niet moeten verwachten dat &quot;gebied 1&quot;in de actie zal worden bijgewerkt.
+* De **het profiel van de Update** activiteit steunt geen gebieden XDM die als opsomming worden bepaald.
+* De **[!UICONTROL Update profile]** activiteit werkt slechts de [ Opslag van het Profiel ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store) {target="_blank"} bij, niet het meer van Gegevens.
 
-  Daarnaast worden de **Profiel bijwerken** Voor de activiteitsconfiguratie is geen naamruimte voor identiteit vereist. Als dusdanig, zorg ervoor dat de geselecteerde dataset de zelfde identiteitskaart gebruikt namespace die door de actie werd gebruikt die de reis lanceerde aangezien het deze namespace is deze updates zullen gebruiken. De identiteitskaart kan ook door de geselecteerde dataset worden gebruikt. Als u geen gegevensset met de juiste naamruimte selecteert of als u geen identiteitskaart gebruikt, wordt de **Profiel bijwerken** activiteit die mislukt.
+## Selectie gegevensset {#dataset-selection}
 
+De **activiteit van het Profiel van de Update** vereist een specifieke dataset om updates op te slaan. Aangezien deze activiteit slechts de opslag van het Profiel (niet Datalake) bijwerkt, zouden alle updates in een profiel-toegelaten dataset specifiek moeten worden bewaard die voor **wordt aangewezen de acties van het Profiel van de Update**. Het gebruiken van een dataset die voor partij of het stromen ingeslikt wordt gebruikt zal in onlangs onberen gegevens resulteren die de veranderingen beschrijven die door de **actie van het Profiel van de Update** worden aangebracht.
 
+Bovendien, vereist de **activiteitenconfiguratie van het Profiel van de 0} Update {geen identiteit namespace.** Als dusdanig, zorg ervoor dat de geselecteerde dataset het zelfde **Gebruik van de Identiteit namespace** dat door de actie werd gebruikt die de reis lanceerde aangezien het dit namespace is deze updates zullen gebruiken. De identiteitskaart kan ook door de geselecteerde dataset worden gebruikt. Als u geen gegevensset selecteert met de juiste naamruimte of met een identiteitskaart, mislukt de activiteit Profiel bijwerken.
 
 ## De profielupdate gebruiken
 
-1. Ontwerp uw reis door met een gebeurtenis te beginnen. Zie dit [sectie](../building-journeys/journey.md).
+1. Ontwerp uw reis door met een gebeurtenis te beginnen. Zie deze [ sectie ](../building-journeys/journey.md).
 
-1. In de **Handeling** van het palet, zet de **Profiel bijwerken** op het canvas.
+1. In de **sectie van de Actie** van het palet, laat vallen de **activiteit van het Profiel van de Update** in het canvas.
 
    ![](assets/profileupdate0.png)
 
 1. Selecteer een schema in de lijst.
 
-1. Klikken op **Veld** om het veld te selecteren dat u wilt bijwerken. Er kan slechts één veld worden geselecteerd.
+1. Klik op **Gebied** om het gebied te selecteren u wilt bijwerken. Er kan slechts één veld worden geselecteerd.
 
    ![](assets/profileupdate2.png)
 
@@ -58,19 +59,19 @@ Gebruik de **[!UICONTROL Update Profile]** activiteit om een bestaand profiel va
 
    >[!NOTE]
    >
-   >De **Profiel bijwerken** De actie werkt de profielgegevens in realtime bij, maar werkt datasets niet bij. De datasetselectie is nodig aangezien het profiel een verslag met betrekking tot een dataset is.
+   >De **actie van het Profiel van de Update** werkt de profielgegevens in real time bij, maar het werkt geen datasets bij. De datasetselectie is nodig aangezien het profiel een verslag met betrekking tot een dataset is.
 
-1. Klik op de knop **Waarde** veld voor het definiëren van de waarde die u wilt gebruiken:
+1. Klik op het **gebied van de Waarde** om de waarde te bepalen u wilt gebruiken:
 
    * Met de eenvoudige expressieeditor kunt u een veld uit een gegevensbron of uit de binnenkomende gebeurtenis selecteren.
 
      ![](assets/profileupdate4.png)
 
-   * Als u een specifieke waarde wilt definiëren of geavanceerde functies wilt gebruiken, klikt u op **Geavanceerde modus**.
+   * Als u een specifieke waarde of hefboomwerking geavanceerde functies wilt bepalen, klik op **Geavanceerde wijze**.
 
      ![](assets/profileupdate3.png)
 
-De **Profiel bijwerken** is nu geconfigureerd.
+Het **Profiel van de Update** wordt nu gevormd.
 
 ![](assets/profileupdate1.png)
 
@@ -79,6 +80,6 @@ De **Profiel bijwerken** is nu geconfigureerd.
 
 In de testmodus wordt het profiel niet bijgewerkt. De update wordt uitgevoerd op het testprofiel.
 
-Alleen testprofielen kunnen een reis maken in de testmodus. U kunt een nieuw testprofiel maken of een bestaand profiel omzetten in een testprofiel. In Adobe Experience Platform kunt u profielkenmerken bijwerken via een CSV-bestand importeren of API-aanroepen. Een eenvoudigere methode is om een **Profiel bijwerken** en wijzig het Booleaanse veld voor het testprofiel van false in true.
+Alleen testprofielen kunnen een reis maken in de testmodus. U kunt een nieuw testprofiel maken of een bestaand profiel omzetten in een testprofiel. In Adobe Experience Platform kunt u profielkenmerken bijwerken via een CSV-bestand importeren of API-aanroepen. Een eenvoudigere methode moet een **actie van het Profiel van de Update** gebruiken en het de actiesector veranderen van het de profielbooleaanse gebied van de test van vals in waar.
 
-Raadpleeg voor meer informatie over de manier waarop u een bestaand profiel in een testprofiel kunt omzetten [sectie](../audience/creating-test-profiles.md#create-test-profiles-csv).
+Voor meer informatie over hoe te om een bestaand profiel in een testprofiel te veranderen, verwijs naar deze [ sectie ](../audience/creating-test-profiles.md#create-test-profiles-csv).
