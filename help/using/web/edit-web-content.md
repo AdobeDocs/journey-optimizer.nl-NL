@@ -6,16 +6,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1043'
 ht-degree: 1%
 
 ---
 
 # Webinhoud bewerken {#edit-web-content}
 
-Zodra u [ een Webactie ](create-web.md#create-web-campaign) aan uw campagne toevoegde, kunt u de inhoud van uw plaats uitgeven gebruikend de Webontwerper.
+Zodra u [ een Webervaring ](create-web.md#create-web-experience) aan een reis of een campagne toevoegde, kunt u de inhoud van uw plaats uitgeven gebruikend de Webontwerper.
 
 [Leer hoe u een webcampagne maakt in deze video](#video)
 
@@ -29,7 +29,7 @@ Heb toegang tot de volgende secties om meer over elk onderwerp te leren:
 
 * [Wijzigingen beheren](manage-web-modifications.md)
 
-* [Uw webcampagnes volgen](monitor-web-campaigns.md)
+* [Uw webcampagnes volgen](monitor-web-experiences.md)
 
 ## Werken met de webontwerper {#work-with-web-designer}
 
@@ -45,9 +45,9 @@ Heb toegang tot de volgende secties om meer over elk onderwerp te leren:
 >abstract="Voer de URL in van een specifieke webpagina die u wilt gebruiken voor het bewerken van de inhoud die wordt toegepast op alle pagina&#39;s die aan de regel voldoen. De webpagina moet worden geïmplementeerd met Adobe Experience Platform Web SDK."
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Meer informatie"
 
-Volg onderstaande stappen om uw webcampagne te ontwerpen.
+Volg onderstaande stappen om uw webervaring te ontwerpen.
 
-1. Van het **[!UICONTROL Action]** lusje van de [ campagne ](create-web.md#create-web-campaign), selecteer **[!UICONTROL Edit content]**.<!--change screen with rule-->
+1. Van het **[!UICONTROL Action]** lusje van de campagne of de Web ervaringsactiviteit in de reis, uitgezochte **[!UICONTROL Edit content]**.<!--change screen with rule-->
 
    ![](assets/web-campaign-edit-content.png)
 

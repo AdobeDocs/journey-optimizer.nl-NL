@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: reis, activiteiten, aan de slag, gebeurtenissen, actie
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 9562a194244e2a3323680d98cc8aa5ed65d93a67
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 0%
+source-wordcount: '554'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ Combineer de verschillende gebeurtenis-, organisatie- en actieactiviteiten om uw
 
 Persoonlijke reizen worden veroorzaakt door gebeurtenissen, zoals een online aankoop. Als een profiel eenmaal een reis binnengaat, bewegen ze als individu door en bewegen geen twee individuen zich met dezelfde snelheid of langs hetzelfde pad. Wanneer u uw reis met een gebeurtenis begint, wordt de reis teweeggebracht wanneer de gebeurtenis wordt ontvangen. Elke persoon op de reis volgt dan, individueel, de volgende stappen die in uw reis worden bepaald.
 
-Gebeurtenissen geconfigureerd door de technische gebruiker (zie [deze pagina](../event/about-events.md)) worden allemaal weergegeven in de eerste categorie van het palet, links op het scherm. De volgende activiteiten zijn beschikbaar:
+De gebeurtenissen die door de technische gebruiker worden gevormd (zie [ deze pagina ](../event/about-events.md)) worden allen getoond in de eerste categorie van het palet, op de linkerkant van het scherm. De volgende activiteiten zijn beschikbaar:
 
 * [Algemene gebeurtenissen](../building-journeys/general-events.md)
 * [Reactie](../building-journeys/reaction-events.md)
@@ -52,23 +52,32 @@ In het palet zijn aan de linkerkant van het scherm de volgende orkestactiviteite
 
 Handelingen zijn wat u wilt doen als gevolg van een of andere trigger, zoals het verzenden van een bericht. Het is het traject dat de klant ervaart.
 
-Vanuit het palet, links van het scherm, onder **[!UICONTROL Events]** en **[!UICONTROL Orchestration]**, kunt u de **[!UICONTROL Actions]** categorie. De volgende activiteiten zijn beschikbaar:
+In het palet, links op het scherm, onder **[!UICONTROL Events]** en **[!UICONTROL Orchestration]** , kunt u de categorie **[!UICONTROL Actions]** vinden. De volgende activiteiten zijn beschikbaar:
 
-* [E-mail, SMS, Push](../building-journeys/journeys-message.md)
+* [Ingebouwde kanaalhandelingen](../building-journeys/journeys-message.md)
 * [Aangepaste acties](../building-journeys/using-custom-actions.md)
 * [Springen](../building-journeys/jump.md)
 
 ![](assets/journey58.png)
 
-Deze activiteiten vertegenwoordigen de verschillende beschikbare communicatiekanalen. U kunt ze combineren om een scenario voor meerdere kanalen te maken.
+Deze activiteiten staan voor de verschillende beschikbare communicatiekanalen. U kunt ze combineren om een scenario voor meerdere kanalen te maken.
 
-Als u aangepaste handelingen hebt geconfigureerd, worden deze ook hier weergegeven. [Meer informatie](../building-journeys/using-custom-actions.md)).
+<!--If you have configured custom actions, they also appear here. [Learn more](../building-journeys/using-custom-actions.md)-->
 
-## Aanbevolen procedures {#best-practices}
+U kunt ook specifieke acties instellen om u berichten te sturen:
+
+* Als u berichten verzendt met een systeem van derden, kunt u een specifieke aangepaste handeling maken. [Meer informatie](../action/action.md)
+
+* Raadpleeg de volgende secties als u werkt met Campagne en Journey Optimizer:
+
+   * [[!DNL Journey Optimizer] en Campagne v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] en Campaign Standard](../action/acs-action.md)
+
+## Best practices {#best-practices}
 
 ### Een label toevoegen
 
-Met de meeste activiteiten kunt u een **[!UICONTROL Label]**. Hiermee voegt u een achtervoegsel toe aan de naam die onder uw activiteit op het canvas wordt weergegeven. Dit is handig als u dezelfde activiteit meerdere keren gebruikt en u deze gemakkelijker wilt identificeren. Het zal ook het zuiveren in het geval van fouten gemakkelijker maken en het zal rapporten gemakkelijker te lezen maken. U kunt ook een optionele **[!UICONTROL Description]**.
+Met de meeste activiteiten kunt u een **[!UICONTROL Label]** definiëren. Hiermee voegt u een achtervoegsel toe aan de naam die onder uw activiteit op het canvas wordt weergegeven. Dit is handig als u dezelfde activiteit meerdere keren gebruikt en u deze gemakkelijker wilt identificeren. Het zal ook het zuiveren in het geval van fouten gemakkelijker maken en het zal rapporten gemakkelijker te lezen maken. U kunt ook een optionele **[!UICONTROL Description]** toevoegen.
 
 ![](assets/journey-action-label.png)
 
@@ -82,16 +91,16 @@ De meeste activiteiten geven een aantal geavanceerde en/of technische parameters
 
 ![](assets/journey-advanced-parameters.png)
 
-Voor een betere leesbaarheid kunt u deze parameters verbergen met de opdracht **[!UICONTROL Hide read-only fields]** knop.
+Voor een betere leesbaarheid kunt u deze parameters verbergen met de knop **[!UICONTROL Hide read-only fields]** .
 
 ![](assets/journey-hide-read-only-fields.png)
 
-In bepaalde situaties kunt u de waarden van deze parameters voor specifiek gebruik overschrijven. Als u een waarde wilt afdwingen, klikt u op de knop **[!UICONTROL Enable parameter override]** rechts van het veld. [Meer informatie](../configuration/primary-email-addresses.md#journey-parameters)
+In bepaalde situaties kunt u de waarden van deze parameters voor specifiek gebruik overschrijven. Als u een waarde wilt afdwingen, klikt u op het pictogram **[!UICONTROL Enable parameter override]** rechts van het veld. [Meer informatie](../configuration/primary-email-addresses.md#journey-parameters)
 
 ![](assets/journey-enable-parameter-override.png)
 
 ### Een alternatief pad toevoegen
 
-Wanneer een fout in een actie of een voorwaarde voorkomt, de reis van een individuele einden. De enige manier om door te gaan is door het selectievakje in te schakelen **[!UICONTROL Add an alternative path in case of a timeout or an error]**. Zie [deze sectie](../building-journeys/using-the-journey-designer.md#paths).
+Wanneer er een fout in een actie of een voorwaarde optreedt, eindigt de journey van een individu. De enige manier om door te gaan is het selectievakje **[!UICONTROL Add an alternative path in case of a timeout or an error]** in te schakelen. Zie [deze sectie](../building-journeys/using-the-journey-designer.md#paths).
 
 ![](assets/journey42.png)

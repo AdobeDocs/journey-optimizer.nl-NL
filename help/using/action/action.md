@@ -1,47 +1,47 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Handelingen
-description: Leer hoe u een handeling configureert
+title: Acties
+description: Leer hoe u een actie configureert
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: acties, reizen, berichten, verzenden, verbindingen
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 6277d3aff540d2ce19a13f9a3174c0aef10f7180
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 0%
+ht-degree: 40%
 
 ---
 
-# Handelingen {#about_actions}
+# Acties {#about_actions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"
->title="Handelingen"
->abstract="Hier definieert u de verbinding met het systeem dat berichten verzendt. De hier gedefinieerde acties zijn dan beschikbaar in het linkerpalet van uw reis, in de categorie Handelingen."
+>title="Acties"
+>abstract="Hier definieert u de verbinding met het systeem dat berichten verzendt. De hier gedefinieerde acties zijn dan beschikbaar in het linkerpalet van uw journey, in de categorie Acties."
 
 Handelingen zijn verbindingen waarmee u persoonlijke, real-time ervaringen kunt bieden aan klanten, zoals pushberichten, e-mail of andere digitale mogelijkheden die u in uw bedrijf gebruikt.
 
-➡️ [Deze functie in video detecteren](#video)
+➡️ [ ontdekt deze eigenschap in video ](#video)
 
-[!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtcapaciteit.
+[!DNL Journey Optimizer] wordt geleverd met ingebouwde berichtmogelijkheid.
 
-Als u Adobe Campaign v7 of v8 hebt, is een integratie op verzoek beschikbaar. Zie [deze pagina](../action/acc-action.md).
+Met aangepaste acties kunt u een verbinding met een extern systeem configureren voor het verzenden van berichten of API-aanroepen. Een actie kan worden geconfigureerd met elke service van elke provider die door een REST-API met een payload in JSON-indeling kan worden aangeroepen.
 
-Als u een systeem van derden gebruikt om berichten te verzenden zoals Epsilon, Facebook, [Adobe Developer](https://developer.adobe.com){target="_blank"}, Firebase, enzovoort, moet u een aangepaste handeling toevoegen en configureren. Zie [deze pagina](../action/about-custom-action-configuration.md).
+* Als u Adobe Campaign v7 of v8 hebt, is een integratie op verzoek beschikbaar. Zie [deze pagina](../action/acc-action.md).
 
-Met aangepaste acties kunt u de verbinding van een systeem van derden configureren voor het verzenden van berichten of API-aanroepen. Een actie kan met om het even welke dienst van om het even welke leverancier worden gevormd die door REST API met een JSON-Geformatteerde lading kan worden geroepen.
+* Als u een derdesysteem gebruikt om berichten zoals Epsilon, Facebook, [ Adobe Developer ](https://developer.adobe.com) te verzenden {target="_blank"}, Vuurbasis, enz., moet u een douaneactie toevoegen en vormen. Zie [deze pagina](../action/about-custom-action-configuration.md).
 
 >[!CAUTION]
 >
->De configuratie van aangepaste handelingen moet worden uitgevoerd door een **technisch gebruiker**.
+>De configuratie van douaneacties moet door a **technische gebruiker** worden uitgevoerd.
 
-De acties zijn beschikbaar in het linkerpalet van uw reis, in **[!UICONTROL Action]** categorie. Zie [deze pagina](../building-journeys/about-journey-activities.md#action-activities).
+U vindt aangepaste handelingen in de categorie **[!UICONTROL Action]** in het linkerpalet van uw reis. Zie [deze pagina](../building-journeys/about-journey-activities.md#action-activities).
 
-Als u de actielijst wilt weergeven of een nieuwe actie wilt configureren, selecteert u **[!UICONTROL Configurations]** in de sectie van het menu van het Beleid. In de  **[!UICONTROL Actions]** sectie, klikken **[!UICONTROL Manage]**. De lijst met handelingen wordt weergegeven. Zie [deze pagina](../start/user-interface.md) voor meer informatie over de interface.
+Selecteer **[!UICONTROL Configurations]** in de sectie van het menu BEHEER om de actielijst weer te geven of een nieuwe actie te configureren. Klik in de sectie **[!UICONTROL Actions]** op **[!UICONTROL Manage]** . De lijst met acties wordt weergegeven. Zie [ deze pagina ](../start/user-interface.md) voor meer informatie over de interface.
 
 ![](assets/custom1.png)
 

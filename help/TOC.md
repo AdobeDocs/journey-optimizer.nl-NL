@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
 workflow-type: tm+mt
-source-wordcount: '2055'
+source-wordcount: '2054'
 ht-degree: 26%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 26%
       + [Voorwaarde](using/building-journeys/condition-activity.md)
       + [Wachten](using/building-journeys/wait-activity.md)
       + [Doelgroep lezen](using/building-journeys/read-audience.md)
-      + [E-mail, In-app, Push, SMS](using/building-journeys/journeys-message.md)
+      + [Ingebouwde kanaalhandelingen](using/building-journeys/journeys-message.md)
       + [Aangepaste acties](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard-acties](using/building-journeys/using-adobe-campaign-standard.md)
       + [Handelingen voor Adobe Campaign v7/v8](using/building-journeys/using-adobe-campaign-v7-v8.md)
@@ -262,7 +262,7 @@ ht-degree: 26%
    + Webpagina&#39;s van auteurs {#author-web-pages}
       + [Webpagina-inhoud bewerken](using/web/edit-web-content.md)
       + [Wijzigingen beheren](using/web/manage-web-modifications.md)
-      + [Uw webcampagnes volgen](using/web/monitor-web-campaigns.md)
+      + [Uw webervaringen bewaken](using/web/monitor-web-experiences.md)
       + [Toepassingen van één pagina maken](using/web/web-spa.md)
 + Ervaring op basis van code {#code-based-experience}
    + [Aan de slag met op code gebaseerd kanaal](using/code-based/get-started-code-based.md)
