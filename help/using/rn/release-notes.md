@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 86625e5c88a5f4667782964e4dc9d7a77a50af31
+source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1239'
 ht-degree: 9%
 
 ---
@@ -25,6 +25,46 @@ ht-degree: 9%
 [!DNL Adobe Journey Optimizer] is native gebaseerd op [!DNL Adobe Experience Platform] en neemt de nieuwste innovaties en verbeteringen over. Leer meer over deze veranderingen in [ de Nota&#39;s van de Versie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html) {target="_blank"}.
 
 ![ Nieuwsbrief ](../assets/do-not-localize/nl-icon.png) Teken omhoog voor het [ driemaandelijkse bulsletter van Adobe Journey Optimizer ](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html) {target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die rechtstreeks aan uw inbox elk kwart worden geleverd.
+
+## Updates van oktober 2024 {#24-10-rn}
+
+**de datum van de Versie**: 1 Oktober, 2024
+
+### Nieuwe functies {#24-10-features}
+
+Met deze update worden de nieuwe mogelijkheden hieronder beschreven.
+
+<table>
+<thead>
+<tr>
+<th><strong>Ervaringen op basis van code bij reizen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met het op code-gebaseerde ervaringskanaal, staat Adobe Journey Optimizer u toe om geavanceerde verpersoonlijking en het testen voor om het even welk van uw binnenkomende eigenschappen te doen, toelatend naadloze levering van op maat gemaakte ervaringen over diverse aanraakpunten zoals Web apps, mobiele apps, Desktop apps, videoconsoles, TV aangesloten apparaten, slimme TVs, kiosks, ATMs, IoT apparaten, en meer. Het op code-gebaseerde ervaringskanaal is nu beschikbaar in het reiscanvas.</p>
+<p>Raadpleeg de <a href="../code-based/create-code-based.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<img src="../assets/do-not-localize/code-based-journey.gif"/>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Webervaringen tijdens reizen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met het kanaal van het Web, staat Adobe Journey Optimizer u toe om de Webervaring te personaliseren u aan uw klanten door binnenkomende Webreizen levert. Het webkanaal is nu beschikbaar op het reiscanvas.</p>
+<p>Raadpleeg de <a href="../web/create-web.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<img src="../assets/do-not-localize/web-journey.gif"/>
+</tr>
+</tbody>
+</table>
 
 ## Opmerkingen bij de release september 2024 {#24-9-rn}
 
