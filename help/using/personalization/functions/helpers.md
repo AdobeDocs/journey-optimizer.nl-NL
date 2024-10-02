@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 7e7ff2f6451947d4d52efb2963d940ba3f50819f
+source-git-commit: 110c4895ac7f0b683a695e9705a8f8ac54d09637
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 1%
@@ -25,11 +25,11 @@ De `Default Fallback Value` helper wordt gebruikt om een standaardreservewaarde 
 Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 ```
 
-In dit voorbeeld wordt de waarde `there` wordt weergegeven als de `firstName` Het kenmerk van dit profiel is leeg of null.
+In dit voorbeeld wordt de waarde `there` weergegeven als het `firstName` -kenmerk van dit profiel leeg of null is.
 
 ## Voorwaarden{#if-function}
 
-De `if` helper wordt gebruikt om een voorwaardelijk blok te bepalen.
+De hulpfunctie `if` wordt gebruikt om een voorwaardelijk blok te definiëren.
 Als de uitdrukkingsevaluatie waar terugkeert, wordt het blok teruggegeven anders wordt het overgeslagen.
 
 **Syntaxis**
@@ -39,11 +39,11 @@ Als de uitdrukkingsevaluatie waar terugkeert, wordt het blok teruggegeven anders
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-Na de `if` helper, u kunt een `else` om een codeblok op te geven dat moet worden uitgevoerd als dezelfde voorwaarde onwaar is.
-De `elseif` De instructie geeft een nieuwe voorwaarde op die moet worden getest als de eerste instructie false retourneert.
+Na de hulpfunctie `if` kunt u een instructie `else` invoeren om een codeblok op te geven dat moet worden uitgevoerd als dezelfde voorwaarde false is.
+De instructie `elseif` geeft een nieuwe voorwaarde op die moet worden getest als de eerste instructie false retourneert.
 
 
-**Indeling**
+**Formaat**
 
 ```sql
 {
@@ -58,7 +58,7 @@ De `elseif` De instructie geeft een nieuwe voorwaarde op die moet worden getest 
 
 **Voorbeelden**
 
-1. **Verschillende opslagkoppelingen renderen op basis van voorwaardelijke expressies**
+1. **geeft verschillende opslagverbindingen terug die op voorwaardelijke uitdrukkingen** worden gebaseerd
 
    ```sql
    {%#if profile.homeAddress.countryCode = "FR"%}
@@ -68,7 +68,7 @@ De `elseif` De instructie geeft een nieuwe voorwaarde op die moet worden getest 
    {%/if%}
    ```
 
-1. **E-mailadresextensie bepalen**
+1. **bepaal de uitbreiding van het e-mailadres**
 
    ```sql
    {%#if contains(profile.personalEmail.address, ".edu")%}
@@ -80,7 +80,7 @@ De `elseif` De instructie geeft een nieuwe voorwaarde op die moet worden getest 
    {%/if%}
    ```
 
-1. **Een voorwaardelijke koppeling toevoegen**
+1. **voeg een voorwaardelijke verbinding** toe
 
    Met de volgende bewerking voegt u een koppeling toe naar de website &#39;www.adobe.com/academia&#39; voor profielen met alleen de e-mailadressen &#39;.edu&#39;, naar de website &#39;www.adobe.com/org&#39; voor profielen met de e-mailadressen &#39;.org&#39; en de standaard-URL &#39;www.adobe.com/users&#39; voor alle andere profielen:
 
@@ -94,7 +94,7 @@ De `elseif` De instructie geeft een nieuwe voorwaarde op die moet worden getest 
    {%/if%}
    ```
 
-1. **Voorwaardelijke inhoud op basis van het lidmaatschap van het publiek**
+1. **Voorwaardelijke inhoud die op publiekslidmaatschap wordt gebaseerd**
 
    ```sql
    {%#if profile.segmentMembership.get("ups").get("5fd513d7-d6cf-4ea2-856a-585150041a8b").status = "existing"%}
@@ -106,12 +106,12 @@ De `elseif` De instructie geeft een nieuwe voorwaarde op die moet worden getest 
 
 >[!NOTE]
 >
->Meer over publiek en de segmentatieservice leren, verwijs naar dit [sectie](../../audience/about-audiences.md).
+>Meer over publiek en de segmentatieservice leren, verwijs naar deze [ sectie ](../../audience/about-audiences.md).
 
 
 ## Tenzij{#unless}
 
-De `unless` helper wordt gebruikt om een voorwaardelijk blok te bepalen. Door bezwaar aan te tekenen tegen de `if`  helper, als de uitdrukkingsevaluatie vals terugkeert, wordt het blok teruggegeven.
+De hulpfunctie `unless` wordt gebruikt om een voorwaardelijk blok te definiëren. Als de evaluatie van de expressie false retourneert, wordt het blok gerenderd als dit tegengesteld is aan de functie `if` .
 
 **Syntaxis**
 
@@ -133,16 +133,15 @@ Some edu specific content Content
 
 ## Elk{#each}
 
-De `each` helper wordt gebruikt om over een serie te herhalen.
+De hulpfunctie `each` wordt gebruikt om een array te doorlopen.
 De syntaxis van de hulplijn is ```{{#each ArrayName}}``` YourContent {{/each}}
-We kunnen naar de afzonderlijke arrayitems verwijzen met het trefwoord **dit** in het blok. De index van het element van de array kan worden gerenderd met {{@index}}.
+Wij kunnen naar de individuele seriepunten verwijzen door het sleutelwoord **dit** binnen het blok te gebruiken. De index van het element van de array kan worden gerenderd met {{@index}} .
 
 **Syntaxis**
 
 ```sql
 {{#each profile.productsInCart}}
     <li>{{this.name}}</li>
-    </br>
 {{/each}}
 ```
 
@@ -161,7 +160,6 @@ Een lijst met producten weergeven die deze gebruiker in zijn winkelwagentje heef
 ```sql
 {{#each profile.products as |product|}}
     <li>{{product.productName}} {{product.productRating}}</li>
-   </br>
 {{/each}}
 ```
 
@@ -177,7 +175,7 @@ De `with` helper wordt gebruikt om het evaluatietoken van malplaatje-deel te ver
 {{/with}}
 ```
 
-De `with` helper is nuttig om een kortere wegvariabele ook te bepalen.
+De hulpfunctie `with` is nuttig om ook een sneltoetsvariabele te definiëren.
 
 **Voorbeeld**
 
@@ -192,7 +190,7 @@ Wordt gebruikt met voor het aliasing van lange variabelenamen naar kortere namen
 
 ## Laat{#let}
 
-De `let` De functie staat een uitdrukking toe om als variabele worden opgeslagen die later in een vraag moet worden gebruikt.
+Met de functie `let` kan een expressie worden opgeslagen als een variabele die later in een query moet worden gebruikt.
 
 **Syntaxis**
 
