@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 9f990d2b311237e49c3b93201cd7e9c2b02facef
+source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1617'
 ht-degree: 2%
 
 ---
@@ -149,7 +149,9 @@ Wederzijdse TLS-verificatie (mTLS) wordt ondersteund in aangepaste handelingen. 
 
 U kunt de parameter payload als volgt definiëren:
 
-1. Plak in de sectie **[!UICONTROL Request]** een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden. Dit gebied is facultatief en slechts beschikbaar voor POST en PUT die methodes roepen. <!--DOCAC-10562 - Enable the **[!UICONTROL Allow NULL values]** option to keep Null values in the external call. Note that sending arrays of int, string, etc. with Null values within is not fully supported. For example the following array of integers [1, null, 2, 3] is sent as [1, 2, 3] even if this option is checked.-->
+1. Plak in de sectie **[!UICONTROL Request]** een voorbeeld van de JSON-payload die u naar de externe service wilt verzenden. Dit gebied is facultatief en slechts beschikbaar voor POST en PUT die methodes roepen.
+
+   Schakel de optie **[!UICONTROL Allow NULL values]** in om Null-waarden in de externe aanroep te behouden. Let op: het verzenden van arrays van int, string, etc. met Null-waarden binnen wordt niet volledig ondersteund. De volgende array met gehele getallen `[1, null, 2, 3]` wordt bijvoorbeeld verzonden als `[1, 2, 3]` , zelfs als deze optie is ingeschakeld. Als een dergelijke array null is, wordt deze als een lege array verzonden.
 
 1. Plak in de sectie **[!UICONTROL Response]** een voorbeeld van de lading die door de aanroep wordt geretourneerd. Dit veld is optioneel en beschikbaar voor alle aanroepmethoden. Voor gedetailleerde informatie over hoe te hefboomwerking API vraagreacties in douaneacties, verwijs naar [ deze pagina ](../action/action-response.md).
 
@@ -170,9 +172,9 @@ In de gebiedsconfiguratie, moet u:
 
    * **Constante** betekent dat de waarde van de parameter in de ruit van de actieconfiguratie door een technische persoonlijkheid wordt bepaald. De waarde zal altijd het zelfde over reizen zijn. Het varieert niet en de marketeter ziet het niet wanneer het gebruiken van de douaneactie in de reis. Het kan bijvoorbeeld een id zijn die het externe systeem verwacht. In dat geval wordt de constante waarde ingesteld op het veld rechts van de schakelconstante/variabele.
 
-   * **Variabele** betekent de waarde van de parameter zal variëren. Marktdeelnemers die deze aangepaste handeling tijdens een rit gebruiken, kunnen de gewenste waarde doorgeven of opgeven waar de waarde voor deze parameter moet worden opgehaald (bijvoorbeeld van het evenement, van Adobe Experience Platform, enz.). In dat geval, is het gebied op het recht van de knevelconstante/variabele de etiketmarketers in de reis zullen zien om deze parameter te noemen.
+   * **Variabele** betekent de waarde van de parameter kan variëren. Marktdeelnemers die deze aangepaste handeling tijdens een rit gebruiken, kunnen de gewenste waarde doorgeven of opgeven waar de waarde voor deze parameter moet worden opgehaald (bijvoorbeeld van het evenement, van Adobe Experience Platform, enz.). In dat geval, is het gebied op het recht van de knevelconstante/variabele de etiketmarketers in de reis zullen zien om deze parameter te noemen.
 
-<!--DOCAC-10562 - For optional parameters, enable the **[!UICONTROL Is optional]** option at the end of the line. By checking this option, you mark the parameter as non-mandatory, and let the journey practitioners choose to fill it or not when authoring that custom action in a journey.-->
+  Schakel voor optionele parameters de optie **[!UICONTROL Is optional]** aan het einde van de regel in. Door deze optie in te schakelen, markeert u de parameter als niet-verplicht en laat u de reisartsen kiezen deze al dan niet in te vullen wanneer u die aangepaste handeling op een reis ontwerpt.
 
 >[!NOTE]
 >

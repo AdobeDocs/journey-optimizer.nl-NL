@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
+source-git-commit: 7dda0468c91a6e5e74426179bd363bb4dede7b33
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1269'
 ht-degree: 9%
 
 ---
@@ -46,6 +46,7 @@ Met deze update worden de nieuwe mogelijkheden hieronder beschreven.
 <p>Met het op code-gebaseerde ervaringskanaal, staat Adobe Journey Optimizer u toe om geavanceerde verpersoonlijking en het testen voor om het even welk van uw binnenkomende eigenschappen te doen, toelatend naadloze levering van op maat gemaakte ervaringen over diverse aanraakpunten zoals Web apps, mobiele apps, Desktop apps, videoconsoles, TV aangesloten apparaten, slimme TVs, kiosks, ATMs, IoT apparaten, en meer. Het op code-gebaseerde ervaringskanaal is nu beschikbaar in het reiscanvas.</p>
 <p>Raadpleeg de <a href="../code-based/create-code-based.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
+<p>Beschikbaarheidsdatum: 1 okt.</p>
 </tr>
 </tbody>
 </table>
@@ -62,9 +63,17 @@ Met deze update worden de nieuwe mogelijkheden hieronder beschreven.
 <p>Met het kanaal van het Web, staat Adobe Journey Optimizer u toe om de Webervaring te personaliseren u aan uw klanten door binnenkomende Webreizen levert. Het webkanaal is nu beschikbaar op het reiscanvas.</p>
 <p>Raadpleeg de <a href="../web/create-web.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
+<p>Beschikbaarheidsdatum: 1 okt.</p>
 </tr>
 </tbody>
 </table>
+
+
+**de verbeteringen van de Reis**
+
+* (De datum van de Beschikbaarheid: Okt 3) **Parameters in douaneacties** - ONGELDIGE en facultatieve parameters worden nu gesteund in douaneacties. [Meer informatie](../action/about-custom-action-configuration.md#define-the-message-parameters)
+
+
 
 ## Opmerkingen bij de release september 2024 {#24-9-rn}
 
@@ -256,7 +265,6 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 * **Levende rapporteringsverhogingen** - Levende Rapportering verstrekt inzicht in de prestaties van uw reizen in de afgelopen 24 uren. Wij hebben het verbeterd door nieuwe metriek (ingegaan, weggegaan, verworpen profielen en profielen in fout) toe te voegen die u toestaan om een diepgaander inzicht in gebruikersgedrag en prestaties direct van het canvas van de Reis te krijgen. [Meer informatie](../building-journeys/report-journey.md)
 
-<!-- DOCAC-10562* **Parameters in custom actions** - NULL and optional parameters are now supported in custom actions. [Learn more](../action/about-custom-action-configuration.md#define-the-message-parameters)-->
 
 * (De datum van de Beschikbaarheid: Sept 10) **Automatische herpogingen op Gelezen Volmacht** - is nu toegepast door gebrek op publiek-getriggerde reizen (die met a **Gelezen Volgorde** of a **BedrijfsGebeurtenis** beginnen) terwijl het terugwinnen van de uitvoerbaan. Als er een fout optreedt tijdens het maken van de exporttaak, worden de pogingen om de 10mn opnieuw uitgevoerd, tot maximaal 1 uur. Daarna zullen we het als een mislukking beschouwen. Deze soorten reizen kunnen daarom tot 1 uur na de geplande tijd worden uitgevoerd. [Meer informatie](../building-journeys/read-audience.md#retries)
 
