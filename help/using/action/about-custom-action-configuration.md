@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: b429082f44090033e0fdef64f05ab1e9964297b6
+source-git-commit: 9059e3192170681293816a78703e39a60127a112
 workflow-type: tm+mt
 source-wordcount: '1616'
 ht-degree: 2%
@@ -153,7 +153,7 @@ U kunt de parameter payload als volgt definiëren:
 
    Schakel de optie **[!UICONTROL Allow NULL values]** in om Null-waarden in de externe aanroep te behouden. Let op: het verzenden van arrays van int, string, etc. met Null-waarden binnen wordt niet volledig ondersteund. De volgende array met gehele getallen `[1, null, 2, 3]` wordt bijvoorbeeld verzonden als `[1, 2, 3]` , zelfs als deze optie is ingeschakeld. Als een dergelijke array null is, wordt deze als een lege array verzonden.
 
-   ![](assets/null-values.png)
+   ![](assets/null-values.png){width="70%" align="left"}
 
 1. Plak in de sectie **[!UICONTROL Response]** een voorbeeld van de lading die door de aanroep wordt geretourneerd. Dit veld is optioneel en beschikbaar voor alle aanroepmethoden. Voor gedetailleerde informatie over hoe te hefboomwerking API vraagreacties in douaneacties, verwijs naar [ deze pagina ](../action/action-response.md).
 
