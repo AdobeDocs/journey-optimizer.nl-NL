@@ -9,18 +9,18 @@ role: User
 level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 40fde856e76d7e2d609ba90f93d4e07fe90f858f
+source-git-commit: bccbf4af4610486dd2d4141b902737c6328b1034
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 2%
+source-wordcount: '364'
+ht-degree: 1%
 
 ---
 
 # Ga aan de slag met de nieuwe rapportinterface {#channel-report-gs-cja}
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> Als u wilt terugkeren naar de traditionele Journey Optimizer-rapportage, schakelt u de optie **[!UICONTROL Use new Experience]** in of uit.
+>De rapportage in Adobe Journey Optimizer is momenteel gestandaardiseerd voor UTC. De mogelijkheid om de rapporttijdzone aan te passen zal in een toekomstige versie worden geïntroduceerd.
 
 Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabiliteit met de mogelijkheden van de Customer Journey Analytics, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van de gegevens. Deze naadloze integratie tussen Journey Optimizer en Customer Journey Analytics biedt een duidelijker beeld van prestatiesmetriek, toelatend gebruikers om geïnformeerde besluiten te nemen.
 
@@ -39,6 +39,10 @@ Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabilit
 * Als u metriek voor alle campagnes en reizen binnen uw milieu wilt richten, heb toegang tot het **Overzicht** rapport door aan het **[!UICONTROL Reports]** menu binnen de **[!UICONTROL Journey Management]** sectie te navigeren. [ leer meer over het rapport van het Overzicht ](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
+
+>[!NOTE]
+>
+> Als u wilt terugkeren naar de traditionele Journey Optimizer-rapportage, schakelt u de optie **[!UICONTROL Use new Experience]** in of uit.
 
 ## Vereisten {#prerequisites}
 
