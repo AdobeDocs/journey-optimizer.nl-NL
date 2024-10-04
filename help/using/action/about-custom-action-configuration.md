@@ -9,14 +9,14 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: handeling, extern, aangepast, reizen, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 9059e3192170681293816a78703e39a60127a112
+source-git-commit: f706a7b2511d6d0314e3b6df4cd08d44abf29a5e
 workflow-type: tm+mt
 source-wordcount: '1616'
 ht-degree: 2%
 
 ---
 
-# Een aangepaste handeling configureren {#configure-an-action}
+# Een aangepaste handeling configureren {#configure-a-custom-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"
