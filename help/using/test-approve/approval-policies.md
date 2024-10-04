@@ -3,8 +3,9 @@ title: Goedkeuringsbeleid maken en beheren
 description: Leer hoe u goedkeuringsbeleid maakt en beheert.
 role: User
 level: Beginner
+feature: Approval
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 1%
