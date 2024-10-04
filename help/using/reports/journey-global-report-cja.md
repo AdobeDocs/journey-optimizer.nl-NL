@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
-source-git-commit: 66504f7affb767d5b102cd1a91934147638c68e5
+source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
 workflow-type: tm+mt
-source-wordcount: '3829'
+source-wordcount: '4387'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ De pagina **[!UICONTROL Journey report]** wordt weergegeven met de volgende tabb
 * [In-app](#in-app-global)
 * [Web](#web-cja)
 * [Direct mail](#direct-mail-cja)
+* [Gebaseerd op code](#code-based)
+* [Inhoudskaart](#content-card)
 
 Meer leren op Customer Journey Analytics Workspace en hoe te om gegevens te filtreren en te analyseren, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
@@ -641,16 +643,15 @@ De grafiek van **[!UICONTROL Clicks]** toont Web-pagina klikmetriek, die zowel h
 
 ![](assets/cja-web-displays.png)
 
-De grafiek van **[!UICONTROL Displays]** helpt u zowel het algemene bereik van het bericht als het aantal unieke profielen begrijpen die met het verbinden.
+De grafiek van **[!UICONTROL Displays]** helpt u zowel het algemene bereik van de op code-gebaseerde ervaring begrijpen werd geopend als het aantal unieke profielen die met het in dienst nemen.
 
 +++ Meer informatie over weergavemeetgegevens
 
-* **[!UICONTROL Displays]**: Het aantal keren dat het bericht is geopend.
+* **[!UICONTROL Displays]**: Het aantal keren dat de op code gebaseerde ervaring is geopend.
 
-* **[!UICONTROL Unique displays]**: Het aantal keren dat het bericht is geopend, wordt er geen rekening gehouden met meerdere interacties van één profiel.
+* **[!UICONTROL Unique displays]**: Het aantal keren dat de op code gebaseerde ervaring is geopend, wordt geen rekening gehouden met meerdere interacties van één profiel.
 
 +++
-
 
 ### Gegevens bijhouden {#track-data-web}
 
@@ -761,3 +762,119 @@ In de tabel **[!UICONTROL Error Reasons]** kunt u de specifieke fouten identific
 In de tabel **[!UICONTROL Exclude Reasons]** worden visueel de verschillende factoren weergegeven die hebben geleid tot de uitsluiting van gebruikersprofielen van het doelpubliek, zodat deze geen direct-mailberichten kunnen ontvangen.
 
 Verwijs naar [ deze pagina ](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
+
+## Ervaring op basis van code
+
+### Weergeven en klikken {#impressions-code}
+
+![](assets/code-based-display.png)
+
+In de **[!UICONTROL Display & Click]** -grafieken wordt een gedetailleerde analyse gegeven van de betrokkenheid van uw profielen bij uw op code gebaseerde ervaringen. Deze grafieken bieden waardevolle inzichten in de interactie tussen profielen en uw inhoud.
+
++++ Meer informatie over indrukken en klikken op metriek
+
+* **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw ervaringen heeft geklikt.
+
+* **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt in uw ervaringen.
+
+* **[!UICONTROL Displays]**: Het aantal keren dat de ervaring is geopend.
+
+* **[!UICONTROL Unique displays]**: Het aantal keren dat de ervaring is geopend, wordt geen rekening gehouden met meerdere interacties van één profiel.
+
++++
+
+### Gegevens bijhouden {#track-data-code}
+
+![](assets/code-based-tracking-data.png)
+
+De tabel **[!UICONTROL Tracking data]** biedt een gedetailleerde momentopname van profielactiviteiten die zijn gekoppeld aan uw ervaringen op basis van code en biedt essentiële inzichten in de effectiviteit van betrokkenheid en ervaringen.
+
++++ Meer informatie over het bijhouden van gegevens
+
+* **[!UICONTROL People]**: Aantal gebruikersprofielen dat voor uw ervaringen in aanmerking komt als doelprofielen.
+
+* **[!UICONTROL Click through rate (CTR)]**: percentage gebruikers dat interactie heeft gehad met uw ervaringen.
+
+* **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt in uw ervaringen.
+
+* **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw ervaringen heeft geklikt.
+
+* **[!UICONTROL Displays]**: Het aantal keren dat uw ervaring is geopend.
+
+* **[!UICONTROL Unique displays]**: Het aantal keren dat uw ervaring is geopend, wordt er geen rekening gehouden met meerdere interacties van één profiel.
+
++++
+
+### Labels voor bijgehouden koppelingen {#track-link-code}
+
+De tabel **[!UICONTROL Tracked link labels]** bevat een uitgebreid overzicht van de koppelingslabels in uw op code gebaseerde ervaringen, waarbij de labels worden gemarkeerd die het hoogste bezoekersverkeer genereren. Met deze functie kunt u de populairste koppelingen identificeren en er prioriteiten aan stellen.
+
++++ Meer informatie over metriek van tracklabels
+
+* **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw op code gebaseerde ervaringen klikte.
+
+* **[!UICONTROL Clicks]**: Het aantal keren dat er op een inhoud is geklikt in een op code gebaseerde ervaring.
+
+* **[!UICONTROL Displays]**: Het aantal keren dat de ervaring is geopend.
+
+* **[!UICONTROL Unique displays]**: Het aantal keren dat de ervaring is geopend, wordt geen rekening gehouden met meerdere interacties van één profiel.
+
++++
+
+## Inhoudskaart {#content-card}
+
+### Weergeven en klikken {#displays-content-card}
+
+![](assets/content-card-jo-display.png)
+
+In de **[!UICONTROL Display & Click]** -grafieken wordt een gedetailleerde analyse gegeven van de betrokkenheid van uw profielen bij uw inhoudskaarten. Deze grafieken bieden waardevolle inzichten in de interactie tussen profielen en uw inhoud.
+
++++ Meer informatie over beeldschermen en klikken op metriek
+
+* **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw inhoudskaarten heeft geklikt.
+
+* **[!UICONTROL Clicks]**: Het aantal keer dat er op de inhoudskaarten is geklikt op de inhoud.
+
+* **[!UICONTROL Displays]**: Het aantal keren dat de inhoudskaart is geopend.
+
+* **[!UICONTROL Unique displays]**: Het aantal keren dat de inhoudskaart is geopend, wordt geen rekening gehouden met meerdere interacties van één profiel.
+
++++
+
+### Gegevens bijhouden {#track-data-content}
+
+![](assets/code-based-tracking-data.png)
+
+De tabel **[!UICONTROL Tracking data]** biedt een gedetailleerde momentopname van profielactiviteiten die zijn gekoppeld aan uw inhoudskaarten en biedt essentiële inzichten in de effectiviteit van de betrokkenheid en ervaringen.
+
++++ Meer informatie over het bijhouden van gegevens
+
+* **[!UICONTROL People]**: Aantal gebruikersprofielen dat als doelprofielen voor uw inhoudskaarten wordt gekwalificeerd.
+
+* **[!UICONTROL Click through rate (CTR)]**: percentage gebruikers dat interactie heeft gehad met uw inhoudskaarten.
+
+* **[!UICONTROL Clicks]**: Het aantal keer dat er op de inhoudskaarten is geklikt op de inhoud.
+
+* **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw inhoudskaarten heeft geklikt.
+
+* **[!UICONTROL Displays]**: Het aantal keren dat de inhoudskaart is geopend.
+
+* **[!UICONTROL Unique displays]**: Het aantal keren dat de inhoudskaart is geopend, wordt geen rekening gehouden met meerdere interacties van één profiel.
+
++++
+
+### Labels voor bijgehouden koppelingen {#track-link-content}
+
+De tabel **[!UICONTROL Tracked link labels]** bevat een uitgebreid overzicht van de koppelingslabels in uw inhoudskaarten, waarin de labels worden gemarkeerd die het hoogste bezoekersverkeer genereren. Met deze functie kunt u de populairste koppelingen identificeren en er prioriteiten aan stellen.
+
++++ Meer informatie over metriek van tracklabels
+
+* **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw inhoudskaarten heeft geklikt.
+
+* **[!UICONTROL Clicks]**: Het aantal keer dat er op de inhoudskaarten is geklikt op de inhoud.
+
+* **[!UICONTROL Displays]**: Het aantal keren dat de inhoudskaart is geopend.
+
+* **[!UICONTROL Unique displays]**: Het aantal keren dat de inhoudskaart is geopend, wordt geen rekening gehouden met meerdere interacties van één profiel.
+
++++

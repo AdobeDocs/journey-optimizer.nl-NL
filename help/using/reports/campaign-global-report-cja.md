@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
 workflow-type: tm+mt
-source-wordcount: '4234'
+source-wordcount: '4157'
 ht-degree: 0%
 
 ---
@@ -844,14 +844,3 @@ De tabel **[!UICONTROL Tracked labels]** bevat een uitgebreid overzicht van de k
 
 +++
 
-### URL&#39;s van bijgehouden koppeling {#tracked-link-url}
-
-De tabel **[!UICONTROL Tracked link URLs]** biedt een uitgebreid overzicht van de URL&#39;s in de inhoudskaarten die het hoogste bezoekersverkeer aantrekken. Hierdoor kunt u de populairste koppelingen identificeren en er prioriteiten aan stellen, zodat u meer inzicht krijgt in de betrokkenheid bij profielen met specifieke inhoud in uw inhoudskaarten.
-
-+++ Meer informatie over URL&#39;s met gekoppelde koppelingen
-
-* **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw inhoudskaarten heeft geklikt.
-
-* **[!UICONTROL Clicks]**: Het aantal keer dat er op de inhoudskaarten is geklikt op de inhoud.
-
-+++
