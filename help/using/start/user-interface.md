@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: aeafadeac819d25518de879747866a71d032b4b0
+source-git-commit: 7403058fac2e88a27b2e4dfc2f56bb4e3c2b1528
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 4%
@@ -60,7 +60,7 @@ Bouw campagnes en reizen van deze sectie.
 * **[!UICONTROL Landing pages]** - bestemmingspagina&#39;s maken, ontwerpen, testen en publiceren: verzend uw gebruikers koppelingen naar onlineformulieren waar zij zich kunnen aanmelden of zich kunnen afmelden bij het ontvangen van uw communicatie, of abonneer op specifieke services. [Meer informatie](../landing-pages/get-started-lp.md)
 
 
-### [!UICONTROL DECISION MANAGEMENT] {#left-nav-offers}
+### [!UICONTROL DECISION MANAGEMENT] {#left-nav-decision}
 
 Maak voorstellen en componenten van deze sectie.
 
