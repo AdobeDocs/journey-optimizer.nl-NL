@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: d43ae701-6e3b-4dcf-8da1-11c07be10fcf
-source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
+source-git-commit: 67f1b70d4f55a0bfb289720c43b1ac8b336ab380
 workflow-type: tm+mt
 source-wordcount: '4387'
 ht-degree: 0%
@@ -763,7 +763,7 @@ In de tabel **[!UICONTROL Exclude Reasons]** worden visueel de verschillende fac
 
 Verwijs naar [ deze pagina ](exclusion-list.md) voor de uitvoerige lijst van uitsluitingsredenen.
 
-## Ervaring op basis van code
+## Ervaringen op basis van code {#code-based}
 
 ### Weergeven en klikken {#impressions-code}
 

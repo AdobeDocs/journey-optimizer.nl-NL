@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: 51cbe27f-3f3f-471e-a5d9-e3a88fcfdd68
-source-git-commit: d816b12ea88631d6682cf444e176622f8fc36d85
+source-git-commit: 67f1b70d4f55a0bfb289720c43b1ac8b336ab380
 workflow-type: tm+mt
-source-wordcount: '4157'
+source-wordcount: '4427'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,7 @@ Het **rapport van de Campagne** pagina zal met de volgende lusjes afhankelijk va
 * [Direct mail](#direct-mail)
 * [Web](#web)
 * [Inhoudskaart](#content-card)
+* [Ervaringen op basis van code](#code-based)
 
 Meer leren op Customer Journey Analytics Workspace en hoe te om gegevens te filtreren en te analyseren, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
@@ -844,3 +845,60 @@ De tabel **[!UICONTROL Tracked labels]** bevat een uitgebreid overzicht van de k
 
 +++
 
+## Ervaringen op basis van code {#code-based}
+
+### Weergeven en klikken {#impressions-code}
+
+![](assets/code-based-display-campaign.png)
+
+In de **[!UICONTROL Display & Click]** -grafieken wordt een gedetailleerde analyse gegeven van de betrokkenheid van uw profielen bij uw op code gebaseerde ervaringen. Deze grafieken bieden waardevolle inzichten in de interactie tussen profielen en uw inhoud.
+
++++ Meer informatie over indrukken en klikken op metriek
+
+* **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw ervaringen heeft geklikt.
+
+* **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt in uw ervaringen.
+
+* **[!UICONTROL Displays]**: Het aantal keren dat de ervaring is geopend.
+
+* **[!UICONTROL Unique displays]**: Het aantal keren dat de ervaring is geopend, wordt geen rekening gehouden met meerdere interacties van één profiel.
+
++++
+
+### Gegevens bijhouden {#track-data-code}
+
+![](assets/code-based-tracking-data-campaign.png)
+
+De tabel **[!UICONTROL Tracking data]** biedt een gedetailleerde momentopname van profielactiviteiten die zijn gekoppeld aan uw ervaringen op basis van code en biedt essentiële inzichten in de effectiviteit van betrokkenheid en ervaringen.
+
++++ Meer informatie over het bijhouden van gegevens
+
+* **[!UICONTROL People]**: Aantal gebruikersprofielen dat voor uw ervaringen in aanmerking komt als doelprofielen.
+
+* **[!UICONTROL Click through rate (CTR)]**: percentage gebruikers dat interactie heeft gehad met uw ervaringen.
+
+* **[!UICONTROL Clicks]**: Het aantal keren dat er op de inhoud is geklikt in uw ervaringen.
+
+* **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw ervaringen heeft geklikt.
+
+* **[!UICONTROL Displays]**: Het aantal keren dat uw ervaring is geopend.
+
+* **[!UICONTROL Unique displays]**: Het aantal keren dat uw ervaring is geopend, wordt er geen rekening gehouden met meerdere interacties van één profiel.
+
++++
+
+### Labels voor bijgehouden koppelingen {#track-link-code}
+
+De tabel **[!UICONTROL Tracked link labels]** bevat een uitgebreid overzicht van de koppelingslabels in uw op code gebaseerde ervaringen, waarbij de labels worden gemarkeerd die het hoogste bezoekersverkeer genereren. Met deze functie kunt u de populairste koppelingen identificeren en er prioriteiten aan stellen.
+
++++ Meer informatie over metriek van tracklabels
+
+* **[!UICONTROL Unique Clicks]**: Aantal profielen dat op een inhoud in uw op code gebaseerde ervaringen klikte.
+
+* **[!UICONTROL Clicks]**: Het aantal keren dat er op een inhoud is geklikt in een op code gebaseerde ervaring.
+
+* **[!UICONTROL Displays]**: Het aantal keren dat de ervaring is geopend.
+
+* **[!UICONTROL Unique displays]**: Het aantal keren dat de ervaring is geopend, wordt geen rekening gehouden met meerdere interacties van één profiel.
+
++++
