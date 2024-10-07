@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e6d6fe4ef068f806126de1c9a417fa0155bdc25d
+source-git-commit: 02df00b74dd07ff422f26f16120233b17a342c21
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1277'
 ht-degree: 9%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 9%
 
 ## Updates van oktober 2024 {#24-10-rn}
 
+### Nieuwe functies {#24-10-features}
+
 De nieuwste mogelijkheden die beschikbaar zijn in Adobe Journey Optimizer worden hieronder weergegeven.
 
 <table>
@@ -39,6 +41,7 @@ De nieuwste mogelijkheden die beschikbaar zijn in Adobe Journey Optimizer worden
 <tbody>
 <tr>
 <td>
+<p>Beschikbaarheidsdatum: 1 okt.</p>
 <p>Met het op code-gebaseerde ervaringskanaal, staat Adobe Journey Optimizer u toe om geavanceerde verpersoonlijking en het testen voor om het even welk van uw binnenkomende eigenschappen te doen, toelatend naadloze levering van op maat gemaakte ervaringen over diverse aanraakpunten zoals Web apps, mobiele apps, Desktop apps, videoconsoles, TV aangesloten apparaten, slimme TVs, kiosks, ATMs, IoT apparaten, en meer. Het op code-gebaseerde ervaringskanaal is nu beschikbaar in het reiscanvas.</p>
 <p>Raadpleeg de <a href="../code-based/create-code-based.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
@@ -56,6 +59,7 @@ De nieuwste mogelijkheden die beschikbaar zijn in Adobe Journey Optimizer worden
 <tbody>
 <tr>
 <td>
+<p>Beschikbaarheidsdatum: 1 okt.</p>
 <p>Met het kanaal van het Web, staat Adobe Journey Optimizer u toe om de Webervaring te personaliseren u aan uw klanten door binnenkomende Webreizen levert. Het webkanaal is nu beschikbaar op het reiscanvas.</p>
 <p>Raadpleeg de <a href="../web/create-web.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
@@ -64,8 +68,9 @@ De nieuwste mogelijkheden die beschikbaar zijn in Adobe Journey Optimizer worden
 </tbody>
 </table>
 
+### Verbeteringen {#24-10-improvements}
 
-**de verbeteringen van de Reis**
+**Reizen**
 
 * (De datum van de Beschikbaarheid: Okt 3) **Parameters in douaneacties** - ONGELDIGE en facultatieve parameters worden nu gesteund in douaneacties. [Meer informatie](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
