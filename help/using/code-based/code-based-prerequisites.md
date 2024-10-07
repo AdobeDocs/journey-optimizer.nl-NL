@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '567'
 ht-degree: 1%
 
 ---
@@ -59,13 +59,13 @@ De op code gebaseerde ervaringen kunnen alleen correct worden geleverd als de vo
 
   [ Leer meer op de mening van Edge Delivery ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/edge-delivery)
 
-## Voorwaarden voor het testen van inhoud {#experiment-prerequisites}
+## Voorwaarden voor rapportage {#experiment-prerequisites}
 
-Om inhoudsexperimenten voor het op code-gebaseerde kanaal toe te laten, moet u ervoor zorgen de [ dataset ](../data/get-started-datasets.md) wordt gebruikt in uw app implementatie [ datastream ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html) {target="_blank"} ook inbegrepen in uw rapporteringsconfiguratie.
+Om rapportering voor het op code-gebaseerde kanaal toe te laten, moet u ervoor zorgen de [ dataset ](../data/get-started-datasets.md) in uw app implementatie [ wordt gebruikt datastream ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html) {target="_blank"} is ook inbegrepen in uw rapporteringsconfiguratie die.
 
-Met andere woorden, als u experimentele rapportage configureert en u een gegevensset toevoegt die niet aanwezig is in uw toepassingsgegevensstroom, worden toepassingsgegevens niet weergegeven in de rapporten over het experimenteren met inhoud.
+Met andere woorden, als u bij het configureren van rapporten een gegevensset toevoegt die niet aanwezig is in uw toepassingsgegevensstroom, worden toepassingsgegevens niet weergegeven in uw rapporten.
 
-Leer hoe te om datasets voor inhoudexperiment toe te voegen dat in [ meldt deze sectie ](../content-management/reporting-configuration.md#add-datasets).
+Leer hoe te om datasets voor het melden in [ toe te voegen deze sectie ](../reports/reporting-configuration.md#add-datasets).
 
 >[!NOTE]
 >

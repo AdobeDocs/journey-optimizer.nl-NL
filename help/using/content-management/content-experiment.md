@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 59ecb9a5376e697061ddac4cc68f09dee68570c0
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 1%
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Alvorens met de Experimenteer van de Inhoud te beginnen, zorg ervoor dat uw rapporteringsconfiguratie voor uw douanedatasets wordt geplaatst. Lees meer in [deze sectie](reporting-configuration.md).
+>Alvorens met de Experimenteer van de Inhoud te beginnen, zorg ervoor dat uw rapporteringsconfiguratie voor uw douanedatasets wordt geplaatst. Lees meer in [deze sectie](../reports/reporting-configuration.md).
 
 Met het Journey Optimizer Content Experiment kunt u meerdere leveringsbehandelingen definiëren om te meten welke het beste presteert voor uw doelgroep. U kunt kiezen om de leveringsinhoud, het onderwerp, of de afzender te variëren. Het betrokken publiek wordt willekeurig toegewezen aan elke behandeling om te bepalen welke het beste in termen van gespecificeerde metrisch werkt.
 
@@ -38,19 +38,19 @@ Elke persoon in het doelpubliek ontvangt één versie van een e-mail, met een on
 * een rechtstreekse bevordering van een aanbod van 10 % voor de nieuwe collectie en een afbeelding .
 * de andere reclame maakt alleen reclame voor een speciale aanbieding zonder dat de 10 % korting zonder afbeelding wordt opgegeven .
 
-Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het ontvangen experiment interactie aangaan. Daarom zullen wij kiezen **[!UICONTROL Email Opens]** als het primaire doel metrisch in deze Content Experiment.
+Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het ontvangen experiment interactie aangaan. Daarom kiezen we **[!UICONTROL Email Opens]** als primaire doel-metrische waarde in dit Content Experiment.
 
 ![](assets/content_experiment.png)
 
 ## Uw inhoud maken {#campaign-experiment}
 
-1. Begin met het maken en configureren van uw e-mail-, sms- of pushmelding [campagne](../campaigns/create-campaign.md) of [reis](../building-journeys/journeys-message.md) volgens uw vereisten.
+1. Begin door uw E-mail, SMS of Push bericht [ campagne ](../campaigns/create-campaign.md) te creëren en te vormen of [ reis ](../building-journeys/journeys-message.md) volgens uw vereisten.
 
    >[!AVAILABILITY]
    >
    >Experimentatie op reis is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
 
-1. Van de **[!UICONTROL Edit content]** begin de behandeling A aan te passen.
+1. Start vanuit het venster **[!UICONTROL Edit content]** de aanpassing A.
 
    Voor deze behandeling zullen wij het speciale aanbod rechtstreeks in de onderwerpregel specificeren en personalisatie toevoegen.
 
@@ -70,27 +70,27 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 >title="Metrisch met succes"
 >abstract="Succesvolle maatstaf wordt gebruikt om de best presterende behandeling in een experiment bij te houden en te evalueren. Ben zeker aan opstelling uw dataset voor bepaalde metriek alvorens het te gebruiken."
 
-1. Wanneer uw bericht wordt gepersonaliseerd, van de pagina van het campagneresamenvatting, klik **[!UICONTROL Create experiment]** om uw inhoudexperiment te configureren.
+1. Wanneer uw bericht wordt gepersonaliseerd, van de pagina van het campagneresamenvatting, klik **[!UICONTROL Create experiment]** beginnen uw inhoudexperiment te vormen.
 
    ![](assets/content_experiment_3.png)
 
-1. Selecteer de **[!UICONTROL Success metric]** u wilt instellen voor uw experiment.
+1. Selecteer de **[!UICONTROL Success metric]** die u voor het experiment wilt instellen.
 
    In dit voorbeeld selecteert u **[!UICONTROL Email open]** om te testen of profielen hun e-mails openen als de promotiecode zich op de onderwerpregel bevindt.
 
    ![](assets/content_experiment_11.png)
 
-1. Wanneer u een experiment instelt met de In-app of het webkanaal en de optie **[!UICONTROL Inbound Clicks]**, **[!UICONTROL Unique Inbound Clicks]** , **[!UICONTROL Page Views]** , of **[!UICONTROL Unique Page Views metrics]** de **[!UICONTROL Click Action]**  kunt u klikken en weergaven op specifieke pagina&#39;s nauwkeurig bijhouden en controleren.
+1. Wanneer u een experiment instelt met de functie In-app of Web en de opties **[!UICONTROL Inbound Clicks]** , **[!UICONTROL Unique Inbound Clicks]** , **[!UICONTROL Page Views]** of **[!UICONTROL Unique Page Views metrics]** kiest, kunt u in de vervolgkeuzelijst **[!UICONTROL Click Action]** klikken en weergaven op specifieke pagina&#39;s nauwkeurig bijhouden en controleren.
 
    ![](assets/content_experiment_20.png)
 
-1. Klikken **[!UICONTROL Add treatment]** zoveel nieuwe behandelingen te creëren als nodig is.
+1. Klik op **[!UICONTROL Add treatment]** om zoveel nieuwe verwerkingen te maken als nodig is.
 
    ![](assets/content_experiment_8.png)
 
-1. Wijzig de **[!UICONTROL Title]** van uw behandeling om ze beter te onderscheiden.
+1. Wijzig de **[!UICONTROL Title]** van uw behandeling om deze beter te kunnen onderscheiden.
 
-1. Kies of u een **[!UICONTROL Holdout]** groeperen voor levering. Deze groep zal geen inhoud van deze campagne ontvangen.
+1. Kies of u een **[!UICONTROL Holdout]** -groep wilt toevoegen aan uw levering. Deze groep zal geen inhoud van deze campagne ontvangen.
 
    Als u de schakelbalk inschakelt, neemt dit automatisch 10% van uw bevolking in beslag. Indien nodig kunt u dit percentage aanpassen.
 
@@ -100,32 +100,32 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
    ![](assets/content_experiment_12.png)
 
-1. Vervolgens kunt u een exact percentage toewijzen aan elk **[!UICONTROL Treatment]** of schakelt u gewoon de **[!UICONTROL Distribute evenly]** schakelbalk.
+1. Vervolgens kunt u een exact percentage toewijzen aan elke **[!UICONTROL Treatment]** of gewoon de schakelbalk van **[!UICONTROL Distribute evenly]** inschakelen.
 
    ![](assets/content_experiment_13.png)
 
-1. Klikken **[!UICONTROL Create]** wanneer uw configuratie wordt geplaatst.
+1. Klik op **[!UICONTROL Create]** wanneer de configuratie is ingesteld.
 
 ## Uw behandelingen ontwerpen {#treatment-experiment}
 
-1. Van de **[!UICONTROL Edit content]** Selecteer uw behandeling B om de inhoud te wijzigen.
+1. Selecteer in het venster **[!UICONTROL Edit content]** de gewenste B-methode om de inhoud te wijzigen.
 
-   Hier kiezen we ervoor het aanbod niet op te geven in het **[!UICONTROL Subject line]**.
+   Hier kiezen we ervoor om de aanbieding niet op te geven in de **[!UICONTROL Subject line]** .
 
    ![](assets/content_experiment_18.png)
 
-1. Klikken **[!UICONTROL Edit email body]** om uw behandeling verder aan te passen B.
+1. Klik op **[!UICONTROL Edit email body]** om uw behandeling B verder aan te passen.
 
    ![](assets/content_experiment_9.png)
 
-1. Na het ontwerpen van uw behandelingen klikt u op **[!UICONTROL More actions]** voor toegang tot opties met betrekking tot uw behandelingen: **[!UICONTROL Rename]**, **[!UICONTROL Duplicate]** en **[!UICONTROL Delete]**.
+1. Na het ontwerpen van uw behandelingen klikt u op **[!UICONTROL More actions]** voor toegang tot de opties die betrekking hebben op uw behandelingen: **[!UICONTROL Rename]** , **[!UICONTROL Duplicate]** en **[!UICONTROL Delete]** .
 
    ![](assets/content_experiment_7.png)
 
-1. Indien nodig, toegang tot **[!UICONTROL Experiment settings]** om de configuratie van uw behandelingen te wijzigen.
+1. Ga zo nodig naar het menu **[!UICONTROL Experiment settings]** om de configuratie van de behandelingen te wijzigen.
 
    ![](assets/content_experiment_19.png)
 
-1. Als de inhoud van het bericht is gedefinieerd, klikt u op de knop **[!UICONTROL Simulate content]** om de rendering van uw levering te beheren en personalisatie-instellingen te controleren met testprofielen. [Meer informatie](../content-management/preview-test.md)
+1. Nadat de inhoud van uw bericht is gedefinieerd, klikt u op de knop **[!UICONTROL Simulate content]** om de weergave van uw levering te bepalen en controleert u instellingen voor de personalisatie met testprofielen. [Meer informatie](../content-management/preview-test.md)
 
 Na het vormen van uw experimenteren, kunt u het succes van uw levering met uw rapport volgen. [Meer informatie](../reports/campaign-global-report.md#experimentation-report)

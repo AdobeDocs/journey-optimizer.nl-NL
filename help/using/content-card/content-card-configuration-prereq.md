@@ -5,7 +5,7 @@ feature: Channel Configuration
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -45,4 +45,4 @@ Voeg de **Gebeurtenis van de Ervaring toe - de 1} gebiedsgroep van de Interactie
 
   Verzeker de dataset die in uw app [ wordt gebruikt datastream ](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview#_blank) ook in uw inhoudexperiment meldend configuratie is. Toepassingsgegevens worden niet weergegeven in rapporten als de gegevenssets niet overeenkomen.
 
-  Leer hoe te om datasets voor inhoudexperiment toe te voegen dat in [ meldt deze sectie ](../content-management/reporting-configuration.md).
+  Leer hoe te om datasets voor inhoudexperiment toe te voegen dat in [ meldt deze sectie ](../reports/reporting-configuration.md).

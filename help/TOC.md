@@ -5,9 +5,9 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2055'
 ht-degree: 26%
 
 ---
@@ -307,7 +307,6 @@ ht-degree: 26%
    + Werken met het experimenteren met inhoud {#content-experiment}
       + [Aan de slag met het experimenteren met inhoud](using/content-management/get-started-experiment.md)
       + [Een inhoudexperiment maken](using/content-management/content-experiment.md)
-      + [Evaluatierapporten configureren](using/content-management/reporting-configuration.md)
       + Technische opmerkingen {#technotes}
          + [Statistische berekeningen begrijpen](using/content-management/experiment-calculations.md)
          + [Statistische berekeningen in het Experimentenrapport begrijpen](using/content-management/experiment-report-calculations.md)
@@ -411,6 +410,7 @@ ht-degree: 26%
    + [Uitsluitingsredenen](using/reports/exclusion-list.md)
 + Nieuwe rapporteringsinterface (LA) {#channel-report}
    + [Aan de slag met de nieuwe rapportinterface](using/reports/report-gs-cja.md)
+   + [Voorwaarden voor rapportage en experimenten](using/reports/reporting-configuration.md)
    + [Uw rapporten beheren](using/reports/report-cja-manage.md)
    + [Reisrapport](using/reports/journey-global-report-cja.md)
    + [Campagnerapport](using/reports/campaign-global-report-cja.md)
