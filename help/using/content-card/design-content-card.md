@@ -4,9 +4,9 @@ description: Leer hoe u inhoud voor inhoudskaarten ontwerpt
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 12cf3f9ed82350dd55b74de4596e10be9d5654ef
+source-git-commit: 96a218d54851cc9b309e08e120e9a4bca5c4e74f
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '390'
 ht-degree: 1%
 
 ---
@@ -39,17 +39,19 @@ Als u uw bericht wilt samenstellen, voert u de tekst in de velden **[!UICONTROL 
 
 ![](assets/content-card-design-2.png)
 
-+++Meer opties met geavanceerde opmaak
+Als u uw bericht verder wilt aanpassen, gebruikt u het pictogram **[!UICONTROL Personalization]** om gepersonaliseerde elementen toe te voegen. Voor gedetailleerde instructies op hoe te om de verpersoonlijkingseigenschappen te gebruiken, verwijs naar [ deze sectie ](../personalization/personalize.md).
 
-Als **[!UICONTROL Advanced formatting mode]** is ingeschakeld, kunt u kiezen voor de opties **[!UICONTROL Header]** en **[!UICONTROL Body]** :
+<!--
++++More options with advanced formatting
+
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Header]** and **[!UICONTROL Body]**:
 
 * the **[!UICONTROL Font]**
 * the **[!UICONTROL Pt size]**
 * the **[!UICONTROL Font Color]**
 * the **[!UICONTROL Alignment]**
 +++
-
-Als u uw bericht verder wilt aanpassen, gebruikt u het pictogram **[!UICONTROL Personalization]** om gepersonaliseerde elementen toe te voegen. Voor gedetailleerde instructies op hoe te om de verpersoonlijkingseigenschappen te gebruiken, verwijs naar [ deze sectie ](../personalization/personalize.md).
+-->
 
 ### Media {#add-media}
 
@@ -59,11 +61,13 @@ Met het veld **[!UICONTROL Media]** kunt u uw inhoudskaarten verbeteren door med
 
 Als u media wilt opnemen, typt u de gewenste media in de URL of klikt u op het pictogram **[!UICONTROL Select Assets]** om te kiezen uit de elementen die zijn opgeslagen in de Assets-bibliotheek. [ Leer meer over activabeheer ](../content-management/assets.md).
 
-+++Meer opties met geavanceerde opmaak
+<!--
++++More options with advanced formatting
 
-Als de **[!UICONTROL Advanced formatting mode]** is ingeschakeld, kunt u een **[!UICONTROL Alternative text]** voor schermlezingstoepassing en een ander element in het **[!UICONTROL Dark Mode Media URL]** -veld toevoegen.
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can add an **[!UICONTROL Alternative text]** for screen reading applications and another asset in the **[!UICONTROL Dark Mode Media URL]** field.
 
 +++
+-->
 
 ### Knoppen {#add-buttons}
 
@@ -79,9 +83,10 @@ Voeg knoppen toe waarmee gebruikers kunnen communiceren met uw inhoudskaarten.
 
 1. Voer in het veld **[!UICONTROL Target]** de URL of de koppeling in waarnaar gebruikers worden geleid na interactie met de knop.
 
-+++Meer opties met geavanceerde opmaak
+<!--
++++More options with advanced formatting
 
-Als de **[!UICONTROL Advanced formatting mode]** is ingeschakeld, kunt u kiezen voor de **[!UICONTROL Buttons]** :
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Buttons]**:
 
 * the **[!UICONTROL Font]**
 * the **[!UICONTROL Pt size]**
@@ -89,6 +94,7 @@ Als de **[!UICONTROL Advanced formatting mode]** is ingeschakeld, kunt u kiezen 
 * the **[!UICONTROL Alignment]**
 
 +++
+-->
 
 ### Bij klikken, gedrag
 
