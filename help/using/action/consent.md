@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: beleid, bestuur, platform, gezondheidsschild, toestemming
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: f61bd7d8d03ba2fd4e92c277f0cbfb730b3703c1
+source-git-commit: 21b30d75bac657acb28500b143b7b1f9018a13ff
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1389'
 ht-degree: 0%
 
 ---
@@ -172,3 +172,9 @@ The following data is taken into account for consent:
 -->
 
 De andere stappen voor het vormen van een douaneactie in een reis zijn gedetailleerd in [ deze sectie ](../building-journeys/using-custom-actions.md).
+
+## Hoe kan ik-video {#video}
+
+Leer hoe labels voor gegevensgebruik worden afgedwongen in Journey Optimizer-kanalen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3434901/?learn=on)
