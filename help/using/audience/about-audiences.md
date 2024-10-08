@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 8b92f0c2bc5dd44e9059154e4a9b40872ad802f8
+source-git-commit: 9b1153b321a0e73412eac45c66d469bbe4b81d38
 workflow-type: tm+mt
-source-wordcount: '1909'
+source-wordcount: '2271'
 ht-degree: 0%
 
 ---
@@ -67,25 +67,15 @@ U kunt het publiek op verschillende manieren gebruiken in **[!DNL Journey Optimi
 
 ## Verrijkingskenmerken van soorten publiek gebruiken {#enrichment}
 
-Wanneer het richten van een publiek dat gebruikend samenstellingswerkschema&#39;s wordt geproduceerd, kunt u verrijkingsattributen van deze publiek gebruiken om uw reis te bouwen en uw berichten te personaliseren.
+Wanneer het richten van een publiek dat gebruikend samenstellingswerkschema&#39;s of een douane (Csv- dossier) publiek wordt geproduceerd, kunt u hefboomwerkingsattributen van deze publiek gebruiken om uw reis te bouwen en uw berichten te personaliseren.
 
-Als u verrijkingskenmerken wilt gebruiken in een reis, moet u ervoor zorgen dat deze worden toegevoegd aan een veldgroep in de Data Source &quot;ExperiencePlatform&quot;.
+>[!NOTE]
+>
+>Soorten publiek dat vóór 1 oktober 2024 via aangepaste upload naar CSV-bestanden is gemaakt, komen niet in aanmerking voor personalisatie. Als u kenmerken van deze doelgroepen wilt gebruiken en ten volle wilt profiteren van deze functie, maakt u een extern CSV-publiek dat u vóór deze datum hebt geïmporteerd, opnieuw en uploadt u het opnieuw.
+>
+>Het beleid van de toestemming steunt geen verrijkingsattributen. Daarom moeten regels voor het toestemmingsbeleid alleen gebaseerd zijn op kenmerken in het profiel.
 
-+++ Leer hoe u verrijkingskenmerken aan een veldgroep kunt toevoegen
-
-1. Navigeer naar &quot;Beheer&quot; > &quot;Configuratie&quot; > &quot;Gegevensbronnen&quot;.
-1. Selecteer Experience Platform en maak of bewerk een veldgroep.
-1. Open de veldkiezer, zoek de verrijkingskenmerken die u wilt toevoegen en selecteer het selectievakje naast deze kenmerken.
-1. Sla uw wijzigingen op.
-
-Gedetailleerde informatie over gegevensbronnen is beschikbaar in deze secties:
-
-* [Werken met de Adobe Experience Platform-gegevensbron](../datasource/adobe-experience-platform-data-source.md)
-* [Een gegevensbron configureren](../datasource/configure-data-sources.md)
-
-+++
-
-Nadat verrijkingskenmerken aan een veldgroep zijn toegevoegd, kunt u deze op verschillende locaties in Journey Optimizer benutten:
+Hier volgen de acties die u kunt uitvoeren met de verrijkingskenmerken van het publiek:
 
 * **creeer veelvoudige weg in een reis** die op regels wordt gebaseerd die hefboomwerking de de verrijkingsattributen van het doelpubliek. Om dit te doen, richt het publiek dat a [ gebruikt gelezen publiek ](../building-journeys/read-audience.md) activiteit dan tot regels in de activiteit van de Voorwaarde van a [ ](../building-journeys/condition-activity.md) leidt die op de verrijkingsattributen van het publiek wordt gebaseerd.
 
@@ -95,9 +85,41 @@ Nadat verrijkingskenmerken aan een veldgroep zijn toegevoegd, kunt u deze op ver
 
   ![](assets/audience-enrichment-attribute-perso.png){width="70%" zoomable="yes"}
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Aangepaste verrijkingskenmerken voor uploaden zijn nog niet beschikbaar voor gebruik in Journey Optimizer.
+>Om verrijkingsattributen van publiek te gebruiken creeerde het gebruiken van samenstellingswerkschema&#39;s, zorg ervoor dat zij aan een Groep van het Gebied binnen &quot;ExperiencePlatform&quot;Gegevens Source worden toegevoegd.
+>
++++ Leer hoe u verrijkingskenmerken aan een veldgroep kunt toevoegen>
+>
+1. Navigeer naar &quot;Beheer&quot; > &quot;Configuratie&quot; > &quot;Gegevensbronnen&quot;.
+1. Selecteer Experience Platform en maak of bewerk een veldgroep.
+2. Selecteer het gewenste schema in de schemaselector. De naam van het schema heeft de volgende indeling: &#39;Schema voor publiek-id:&#39; + de id van het publiek. U kunt de id van het publiek vinden op het scherm met publieksdetails in de publieksinventaris.
+1. Open de veldkiezer, zoek de verrijkingskenmerken die u wilt toevoegen en selecteer het selectievakje naast deze kenmerken.
+1. Sla uw wijzigingen op.
+1. Nadat verrijkingskenmerken aan een veldgroep zijn toegevoegd, kunt u deze op de hierboven vermelde locaties benutten in Journey Optimizer.
+>
+Gedetailleerde informatie over gegevensbronnen is beschikbaar in deze secties:
+>
+* [ Werk met de gegevensbron van Adobe Experience Platform ](../datasource/adobe-experience-platform-data-source.md)
+* [ vorm een gegevensbron ](../datasource/configure-data-sources.md)
+>
++++
+
+## Aangepast uploadpubliek (CSV-bestand) {#csv}
+
+Deze sectie bevat belangrijke informatie waarmee u rekening kunt houden wanneer u werkt met publiek voor Aangepaste upload (CSV-bestanden):
+
+* **Voorproef en proefdruksteun voor SCSV Soorten publiek:** momenteel, wordt de voorproef en de proef niet gesteund voor publiek dat gebruikend Csv wordt gecreeerd uploadt. Houd dit in gedachten wanneer u uw campagnes plant.
+
+* **Snelle activering en identiteitsstitching vertragingen:** de architectuur van Adobe Experience Platform vertraagt het identiteit stitching om het uploadend publiek van de Douane onmiddellijk beschikbaar voor activering in Journey Optimizer, met de volgende gevolgen te maken:
+
+   * Soorten publiek zijn direct na inname klaar voor gebruik in Journey Optimizer. Hoewel dit meestal binnen een uur ligt, is het afhankelijk van enige variabiliteit.
+   * Het aantal geactiveerde records kan afwijken van het aantal profielen na identiteitsstitching.
+   * Elke record in het CSV-bestand wordt geactiveerd, inclusief eventuele duplicaten. Tijdens de volgende UPS-profielexport worden deze records aan identiteitsstitching onderworpen.
+
+* **richtend nieuwe profielen van CSV uploadt:** wanneer een gelijke niet tussen een Csv- verslag en een profiel van UPS wordt gevonden, wordt een nieuw leeg profiel gecreeerd. Dit profiel is gekoppeld aan de verrijkingskenmerken die zijn opgeslagen in het datumpeer. Omdat dit nieuwe profiel leeg is, zijn velden die doorgaans worden gebruikt in Journey Optimizer (bijvoorbeeld PersonalEmail.address, mobilePhone.number) leeg en kunnen deze daarom niet worden gebruikt voor het opgeven van doelen.
+
+  Om dit op te lossen, kunt u het &quot;uitvoeringsgebied&quot;(of &quot;uitvoeringsadres&quot;afhankelijk van het kanaal) in de kanaalconfiguratie als &quot;identityMap&quot;specificeren. Zo weet u zeker dat het kenmerk dat tijdens de CSV-upload als identiteit is gekozen, het kenmerk is dat wordt gebruikt voor Journey Optimizer.
 
 ## Methoden voor de evaluatie van het publiek {#evaluation-method-in-journey-optimizer}
 
@@ -111,7 +133,7 @@ Streaming segmentatie is een doorlopend proces voor gegevensselectie dat uw publ
 
 >[!NOTE]
 >
->Zorg ervoor dat u de juiste gebeurtenissen gebruikt als criteria voor streamingsegmentatie. [Meer informatie](#streaming-segmentation-events-guardrails)
+Zorg ervoor dat u de juiste gebeurtenissen gebruikt als criteria voor streamingsegmentatie. [Meer informatie](#streaming-segmentation-events-guardrails)
 
 +++
 
@@ -161,7 +183,7 @@ Voor het streamen van segmentatie zijn optimale prestaties dus beter geen gebrui
 
 >[!NOTE]
 >
->U kunt **Geopend Bericht gebruiken** en **Bericht Verzonden** gebeurtenissen in partijsegmentatie zonder enige prestatieszorgen.
+U kunt **Geopend Bericht gebruiken** en **Bericht Verzonden** gebeurtenissen in partijsegmentatie zonder enige prestatieszorgen.
 
 
 ## Samenstelling publiek en Veelgestelde vragen over aangepaste upload {#faq}
@@ -178,7 +200,7 @@ De doelgroepen van de samenstelling van de doelgroep en de aangepaste upload kun
 
   >[!NOTE]
   >
-  >Als &#39;Incrementeel lezen&#39; tijdens een terugkerende rit is ingeschakeld voor een aangepast uploadpubliek, worden profielen alleen bij de eerste terugkerende actie opgehaald, omdat deze doelgroepen vast zijn.
+  Als &#39;Incrementeel lezen&#39; tijdens een terugkerende rit is ingeschakeld voor een aangepast uploadpubliek, worden profielen alleen bij de eerste terugkerende actie opgehaald, omdat deze doelgroepen vast zijn.
 
 Bovendien, zijn deze publiek beschikbaar voor gebruik in de verpersoonlijkingsredacteur om uw berichten in reizen en campagnes te personaliseren. [ Leer hoe te met de verpersoonlijkingsredacteur ](../personalization/personalization-build-expressions.md) te werken
 
@@ -200,15 +222,11 @@ De attributen van de verrijking van publiekssamenstelling kunnen in de volgende 
 * Aangepaste actiekenmerken (reizen)
 * Berichten personaliseren (reizen en campagnes)
 
->[!AVAILABILITY]
->
->Aangepaste verrijkingskenmerken voor uploaden zijn nog niet beschikbaar voor gebruik in Journey Optimizer.
-
 +++
 
 +++ Hoe laat ik verrijkingskenmerken toe in Reizen?
 
-Als u verrijkingskenmerken wilt gebruiken in een reis, moet u ervoor zorgen dat deze worden toegevoegd aan een veldgroep in de Data Source &quot;ExperiencePlatform&quot;. De informatie over hoe te om verrijkingsattributen aan een Groep van het Gebied toe te voegen is beschikbaar in [ deze sectie ](#enrichment)
+Om verrijkingsattributen van publiek te gebruiken creeerde het gebruiken van samenstellingswerkschema&#39;s, zorg ervoor zij aan een Groep van het Gebied binnen &quot;ExperiencePlatform&quot;Gegevens Source worden toegevoegd. De informatie over hoe te om verrijkingsattributen aan een Groep van het Gebied toe te voegen is beschikbaar in [ deze sectie ](#enrichment)
 
 +++
 
