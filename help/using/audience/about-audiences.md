@@ -9,7 +9,7 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 9b1153b321a0e73412eac45c66d469bbe4b81d38
+source-git-commit: 64eb253efbe73d151dd1c94f4e4cb51a35e9d1a4
 workflow-type: tm+mt
 source-wordcount: '2271'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Hier volgen de acties die u kunt uitvoeren met de verrijkingskenmerken van het p
 >
 1. Navigeer naar &quot;Beheer&quot; > &quot;Configuratie&quot; > &quot;Gegevensbronnen&quot;.
 1. Selecteer Experience Platform en maak of bewerk een veldgroep.
-2. Selecteer het gewenste schema in de schemaselector. De naam van het schema heeft de volgende indeling: &#39;Schema voor publiek-id:&#39; + de id van het publiek. U kunt de id van het publiek vinden op het scherm met publieksdetails in de publieksinventaris.
+1. Selecteer het gewenste schema in de schemaselector. De naam van het schema heeft de volgende indeling: &#39;Schema voor publiek-id:&#39; + de id van het publiek. U kunt de id van het publiek vinden op het scherm met publieksdetails in de publieksinventaris.
 1. Open de veldkiezer, zoek de verrijkingskenmerken die u wilt toevoegen en selecteer het selectievakje naast deze kenmerken.
 1. Sla uw wijzigingen op.
 1. Nadat verrijkingskenmerken aan een veldgroep zijn toegevoegd, kunt u deze op de hierboven vermelde locaties benutten in Journey Optimizer.
