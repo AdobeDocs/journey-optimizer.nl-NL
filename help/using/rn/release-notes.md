@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
+source-git-commit: 5c9802eaa3fa35a43f53ef5dd86495b502149a04
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1333'
 ht-degree: 9%
 
 ---
@@ -74,7 +74,7 @@ De nieuwste mogelijkheden die beschikbaar zijn in Adobe Journey Optimizer worden
 
 * (De datum van de Beschikbaarheid: Okt 3) **Parameters in douaneacties** - ONGELDIGE en facultatieve parameters worden nu gesteund in douaneacties. [Meer informatie](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
-**Doelgroepen**
+**Soorten publiek** - de datum van de Beschikbaarheid: okt 8
 
 * Wanneer het richten van een Csv- dossierpubliek, kunt u attributen van het dossier in de verpersoonlijkingsredacteur en in reizen en campagneregelbouwer nu gebruiken. [Meer informatie](../audience/about-audiences.md)
 
