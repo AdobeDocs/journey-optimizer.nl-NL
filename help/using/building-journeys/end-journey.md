@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: reenter, trip, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
-source-git-commit: 7f21098d5ae157f1c0d3de3aa584564c6f73310a
+source-git-commit: 20d99c082ef8d1f2442900dc6a6e6db6b0aaa46f
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '669'
 ht-degree: 1%
 
 ---
@@ -53,10 +53,10 @@ The **[!UICONTROL End]** activity allows you to mark the end of each path of the
 Een reis kan om de volgende redenen worden gesloten:
 
 * De reis wordt manueel gesloten via de **[!UICONTROL Close to new entrances]** knoop.
-* Een reis op basis van een segment met één opname die klaar is met de uitvoering.
+* Een reis op basis van een segment met één opname die klaar is met de uitvoering en de wereldwijde time-out van 91 dagen heeft bereikt.
 * Na het laatste optreden van een terugkerende, op het publiek gebaseerde reis.
 
-Als u een reis handmatig sluit, weet u zeker dat klanten die de reis al hebben betreden, hun pad kunnen voltooien, maar dat nieuwe gebruikers de reis niet kunnen betreden. Wanneer een reis wordt gesloten (om een van de bovenstaande redenen), heeft deze de status **[!UICONTROL Closed]** . De reis houdt in dat nieuwe individuen de reis kunnen betreden. Personen die al onderweg zijn, kunnen de reis normaal afmaken.
+Als u een reis handmatig sluit, weet u zeker dat klanten die de reis al hebben betreden, hun pad kunnen voltooien, maar dat nieuwe gebruikers de reis niet kunnen betreden. Wanneer een reis wordt gesloten (om een van de bovenstaande redenen), heeft deze de status **[!UICONTROL Closed]** . De reis houdt in dat nieuwe individuen de reis kunnen betreden. Personen die al onderweg zijn, kunnen de reis normaal afmaken. Na de standaard wereldwijde time-out van 91 dagen zal de reis overschakelen op de status Voltooid. Zie [deze sectie](journey-properties.md#timeout).
 
 Na de globale onderbreking van 91 dagen [ ](journey-properties.md#timeout), leest de schakelaars van de publiekstraject aan de **voltooide** status. Dit gedrag wordt geplaatst voor 91 dagen slechts (d.w.z. [ reis globale onderbrekingswaarde ](journey-properties.md#global_timeout)) aangezien al informatie over profielen die de reis inging 91 dagen wordt verwijderd nadat zij ingegaan. Personen die nog onderweg zijn, worden automatisch getroffen. Ze verlaten de reis na de 91-dagen onderbreking.
 
