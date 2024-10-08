@@ -8,9 +8,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
+source-git-commit: 979cb8270a4be4c7ad08db8f0a2e072d590906de
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -21,89 +21,98 @@ Alle gegevens die in Adobe Experience Platform worden opgenomen, blijven in het 
 
 ## Gegevensbestanden voor toegang{#access-datasets}
 
-De **Gegevenssets** werkruimte in [!DNL Adobe Journey Optimizer] de gebruikersinterface staat u toe om gegevens te onderzoeken en datasets tot stand te brengen.
+De **werkruimte van Datasets** in [!DNL Adobe Journey Optimizer] gebruikersinterface staat u toe om gegevens te onderzoeken en datasets tot stand te brengen.
 
-Selecteren **Gegevenssets** in de linkernavigatie om het dashboard van Datasets te openen.
+Selecteer **Datasets** in de linkernavigatie om het dashboard van Datasets te openen.
 
 ![](assets/datasets-home.png)
 
-Gegevens toevoegen aan [!DNL Adobe Experience Platform] is de basis voor het bouwen van een Profiel. Vervolgens kunt u profielen gebruiken in [!DNL Adobe Journey Optimizer]. Bepaal eerst schema&#39;s, gebruik hulpmiddelen ETL om uw gegevens voor te bereiden en te standaardiseren, dan datasets tot stand te brengen die op uw schema&#39;s worden gebaseerd.
+Het toevoegen van gegevens aan [!DNL Adobe Experience Platform] is de basis voor het bouwen van een Profiel. Vervolgens kunt u profielen gebruiken in [!DNL Adobe Journey Optimizer] . Bepaal eerst schema&#39;s, gebruik hulpmiddelen ETL om uw gegevens voor te bereiden en te standaardiseren, dan datasets tot stand te brengen die op uw schema&#39;s worden gebaseerd.
 
-Selecteer de **Bladeren** tabblad om de lijst weer te geven met alle beschikbare gegevenssets voor uw organisatie. De details worden getoond voor elke vermelde dataset, met inbegrip van zijn naam, het schema de dataset zich aan, en status van de meest recente versiereeks houdt.
+Selecteer **doorbladeren** lusje om de lijst van alle beschikbare datasets voor uw organisatie te tonen. De details worden getoond voor elke vermelde dataset, met inbegrip van zijn naam, het schema de dataset zich aan, en status van de meest recente versiereeks houdt.
 
-Door gebrek, slechts worden de datasets die u hebt ingebed in getoond. Als u de systeem-geproduceerde datasets wilt zien, laat toe **Systeemgegevenssets tonen** van het filter af te wisselen.
+Door gebrek, slechts worden de datasets die u hebt ingebed in getoond. Als u de systeem-geproduceerde datasets wilt zien, laat **systeemdatasets** knevel van de filter toe tonen.
 
 ![](assets/ajo-system-datasets.png)
+
+>[!NOTE]
+>
+>Vanaf 1 november 2024 wordt een time-to-live (TTL)-hulplijn als volgt afgedwongen op door het Journey Optimizer-systeem gegenereerde gegevenssets:
+>
+>* 90 dagen voor gegevens in de profielopslag
+>* 13 maanden voor gegevens in het data Lake
+>
+>Bovendien, op dat ogenblik, zal het stromen segmentatie niet meer het gebruik van verzenden en open gebeurtenissen van het volgen en terugkoppelen datasets steunen.
+
+
 
 Selecteer de naam van een dataset om tot zijn de activiteitenscherm van de Dataset toegang te hebben en details van de dataset te zien u selecteerde. Het activiteitenlusje omvat een grafiek die het tarief visualiseert van berichten die worden verbruikt evenals een lijst van succesvolle en ontbroken partijen.
 
 Systeemgegevenssets voor Adobe Journey Optimizer worden hieronder weergegeven.
 
-
 >[!CAUTION]
 >
-> Systeemgegevenssets **mag niet worden gewijzigd**. Elke wijziging wordt automatisch teruggezet bij elke productupdate.
->
+> De datasets van het systeem **moeten niet worden gewijzigd**. Elke wijziging wordt automatisch teruggezet bij elke productupdate.
 
-**Rapportage**
+**Meldend**
 
-* _Rapportage - Gegevensset voor feedbackgebeurtenis_: Berichtenleveringslogboeken. Informatie over alle berichtlevering van Journey Optimizer voor rapportage en het creëren van publiek. De terugkoppeling van e-mailISPs op grenzen wordt ook geregistreerd in deze dataset.
-* _Rapportage - Gegevensset over gebeurtenissen voor het bijhouden van e-mail_: Interactielogboeken voor e-mailkanaal die worden gebruikt voor rapportage en het maken van doelgroepen. Gegevens die zijn opgeslagen, bevatten informatie over acties die de eindgebruiker via e-mail heeft uitgevoerd (openen, klikken, enz.).
-* _Rapportage - Gegevensset van gebeurtenissen voor het bijhouden van push_: Interactielogbestanden voor pushkanaal die worden gebruikt voor rapportage en het maken van doelgroepen. Opgeslagen informatie over acties die door de eindgebruiker op dupberichten worden uitgevoerd.
-* _Rapportage - trapsgewijze gebeurtenis_: legt Alle gebeurtenissen van de Ervaring van de Stap van de Reis die van Journey Optimizer worden geproduceerd om door de diensten zoals het Melden worden verbruikt. Ook kritiek voor de bouw rapporten in Customer Journey Analytics voor analyse YoY. Bleed aan een Metagegevens van de Reis.
-* _Verslaggeving - Reizen_: Metagegevensset met informatie over de behuizing van elke stap op een reis.
-* _Rapportage - BCC_: Gegevensset feedbackgebeurtenis waarin de leveringslogbestanden voor BCC-e-mails worden opgeslagen. Te gebruiken voor rapportagedoeleinden.
+* _Meldend - de Dataset van de Gebeurtenis van de Terugkoppeling van het Bericht_: De leveringslogboeken van het bericht. Informatie over alle berichtlevering van Journey Optimizer voor rapportage en het creëren van publiek. De terugkoppeling van e-mailISPs op grenzen wordt ook geregistreerd in deze dataset.
+* _het Melden - E-mail die de Dataset van de Gebeurtenis van de Ervaring volgen_: De logboeken van de interactie voor E-mail kanaal dat voor het melden en de doeleinden van de publieksverwezenlijking wordt gebruikt. Gegevens die zijn opgeslagen, bevatten informatie over acties die de eindgebruiker via e-mail heeft uitgevoerd (openen, klikken, enz.).
+* _het Melden - de Dataset van de Gebeurtenis van de Ervaring van de Duw_: De logboeken van de interactie voor het Duw kanaal dat voor het melden en de doeleinden van de publieksverwezenlijking wordt gebruikt. Opgeslagen informatie over acties die door de eindgebruiker op dupberichten worden uitgevoerd.
+* _het Melden - de Gebeurtenis van de Stap van de Reis_: Vangt Alle Gebeurtenissen van de Ervaring van de Stap van de Reis die van Journey Optimizer worden geproduceerd om door de diensten zoals het Melden worden verbruikt. Ook kritiek voor de bouw rapporten in Customer Journey Analytics voor analyse YoY. Bleed aan een Metagegevens van de Reis.
+* _het Melden - Reizen_: De informatie van de de huisvesting van de gegevensreeks van meta-gegevens van elke stap in een reis.
+* _Meldend - BCC_: Dataset van de Gebeurtenis van de terugkoppeling die de leveringslogboeken voor BCC e-mails opslaat. Te gebruiken voor rapportagedoeleinden.
 
 **Toestemming**
 
-* _Dataset voor goedgekeurde service_: slaat toestemmingsinformatie van een profiel op.
+* _de Dataset van de Dienst van de Goedkeuring_: slaat toestemmingsinformatie van een profiel op.
 
-**Intelligente services**
+**Intelligente Diensten**
 
-* _Scores voor optimalisatie van de Send-Time/Engagement_: Uitvoerscores van Journey AI.
+* _Send-Time de Scores van de Optimalisering / de Scores van de Betrokkenheid_: De scores van de Output van Reis AI.
 
-Als u de volledige lijst met velden en kenmerken voor elk schema wilt weergeven, raadpleegt u de [Journey Optimizer-schemawoordenboek](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html){target="_blank"}.
+Om de volledige lijst van gebieden en attributen voor elk schema te bekijken, raadpleeg het [ het schemawoordenboek van Journey Optimizer ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) {target="_blank"}.
 
 ## Gegevensbestanden voorvertonen{#preview-datasets}
 
-Selecteer in het activiteitenscherm Gegevensset de optie **Gegevensset voorvertoning** in de rechterbovenhoek van het scherm om een voorvertoning weer te geven van de meest recente succesvolle batch in deze dataset. Wanneer een dataset leeg is, wordt de voorproefverbinding gedeactiveerd.
+Van het de activiteitenscherm van de Dataset, uitgezochte **dataset van de Voorproef** dichtbij de hoogste juiste hoek van uw scherm om de meest recente succesvolle partij in deze dataset voor te vertonen. Wanneer een dataset leeg is, wordt de voorproefverbinding gedeactiveerd.
 
 ![](assets/dataset-preview.png)
 
 ## Gegevenssets maken{#create-datasets}
 
-Als u een nieuwe gegevensset wilt maken, selecteert u **Gegevensset maken** in het dashboard Datasets.
+Om een nieuwe dataset tot stand te brengen, begin door **te selecteren leidt dataset** in het dashboard van Datasets.
 
 U kunt:
 
-* Gegevensset maken van schema. [Meer informatie in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#schema){target="_blank"}
-* Gegevensset maken van CSV-bestand. [Meer informatie in deze documentatie](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html){target="_blank"}
+* Gegevensset maken van schema. [ leer meer in deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html#schema) {target="_blank"}
+* Gegevensset maken van CSV-bestand. [ leer meer in deze documentatie ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html) {target="_blank"}
 
 Bekijk deze video om te leren hoe te om een dataset tot stand te brengen, het in kaart te brengen aan een schema, gegevens aan het toe te voegen, en te bevestigen dat de gegevens zijn opgenomen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
-## Gegevensbeheer
+## Datagovernance
 
-Blader in een gegevensset door de **Gegevensbeheer** tabblad om labels op gegevensset- en veldniveau te controleren. Gegevensbeheer categoriseert gegevens op basis van het soort beleid dat van toepassing is.
+In een dataset, doorblader het **lusje van het Beleid van 0} Gegevens {om etiketten op de dataset en het gebiedsniveau te controleren.** Gegevensbeheer categoriseert gegevens op basis van het soort beleid dat van toepassing is.
 
-Een van de kernmogelijkheden van [!DNL Adobe Experience Platform] is gegevens van meerdere bedrijfssystemen samen te brengen om marketers beter in staat te stellen klanten te identificeren, te begrijpen en in dienst te nemen. Deze gegevens zijn mogelijk onderworpen aan gebruiksbeperkingen die zijn gedefinieerd door uw organisatie of wettelijke voorschriften. Daarom is het belangrijk om ervoor te zorgen dat uw gegevensbewerkingen in overeenstemming zijn met het beleid voor gegevensgebruik.
+Een van de kernmogelijkheden van [!DNL Adobe Experience Platform] is om gegevens van meerdere bedrijfssystemen samen te brengen, zodat marketers hun klanten beter kunnen identificeren, begrijpen en betrekken. Deze gegevens zijn mogelijk onderworpen aan gebruiksbeperkingen die zijn gedefinieerd door uw organisatie of wettelijke voorschriften. Daarom is het belangrijk om ervoor te zorgen dat uw gegevensbewerkingen in overeenstemming zijn met het beleid voor gegevensgebruik.
 
-[!DNL Adobe Experience Platform Data Governance] staat u toe om klantengegevens te beheren en naleving van verordeningen, beperkingen, en beleid te verzekeren van toepassing op gegevensgebruik. Het speelt een sleutelrol binnen Experience Platform op diverse niveaus, met inbegrip van catalogisering, gegevenslijn, het etiketteren van het gegevensgebruik, het beleid van het gegevensgebruik, en het controleren van het gebruik van gegevens voor marketing acties.
+Met [!DNL Adobe Experience Platform Data Governance] kunt u klantgegevens beheren en ervoor zorgen dat de regels, beperkingen en beleidsregels die van toepassing zijn op het gebruik van gegevens worden nageleefd. Het speelt een sleutelrol binnen Experience Platform op diverse niveaus, met inbegrip van catalogisering, gegevenslijn, het etiketteren van het gegevensgebruik, het beleid van het gegevensgebruik, en het controleren van het gebruik van gegevens voor marketing acties.
 
-Meer informatie over labels voor gegevensbeheer en gegevensgebruik vindt u in de [Documentatie over gegevensbeheer](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html){target="_blank"}
+Leer meer over de etiketten van het gegevensbeheer en van het gegevensgebruik in de [ documentatie van het Beleid van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html) {target="_blank"}
 
 ## Monsters en gebruiksgevallen{#uc-datasets}
 
-Leer hoe u een schema, een gegevensset en nieuwe gegevens maakt om testprofielen toe te voegen in Adobe Journey Optimizer in [deze volledige steekproef](../audience/creating-test-profiles.md)
+Leer hoe te om een schema, een dataset tot stand te brengen en gegevens in te voeren om de profielen van de Test in Adobe Journey Optimizer in [ toe te voegen deze steekproef van begin tot eind ](../audience/creating-test-profiles.md)
 
-Meer informatie over het maken van gegevenssets in [Adobe Experience Platform-documentatie](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}.
+Leer meer over datasetverwezenlijking in [ documentatie van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html) {target="_blank"}.
 
-Leer hoe u de interface Gegevensbestanden in het dialoogvenster [Documentatie over gegevensinsluiting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html){target="_blank"}.
+Leer hoe te om Datasets UI in de [ het overzichtsdocumentatie van de Ingestie van Gegevens te gebruiken ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) {target="_blank"}.
 
-Er is een lijst met gebruiksgevallen met queryvoorbeelden beschikbaar [hier](../data/datasets-query-examples.md).
+Een lijst van gebruiksgevallen met vraagvoorbeelden is beschikbaar [ hier ](../data/datasets-query-examples.md).
 
 >[!MORELIKETHIS]
 >
->* [Overzicht van het opnemen van streaming](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl){target="_blank"}
->* [Gegevens opnemen in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html){target="_blank"}
+>* [ het stromen ingegaan overzicht ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=nl) {target="_blank"}
+>* [ Ingest gegevens in Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html) {target="_blank"}
