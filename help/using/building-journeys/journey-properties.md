@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, configuratie, eigenschappen
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: a0c7dad29aabe6c377468a64b9638d7363f0b6f6
+source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '2035'
 ht-degree: 0%
 
 ---
@@ -261,45 +261,45 @@ Meer leren op fusiebeleid, verwijs naar [ documentatie van Adobe Experience Plat
 >title="Criteria voor het verlaten van de reis"
 >abstract="In dit gedeelte worden de opties voor afsluitcriteria weergegeven. U kunt één of veelvoudige regels van de uitgangscriteria voor uw reis tot stand brengen."
 
-### Beschrijving
+### Beschrijving {#exit-criteria-desc}
 
-Vaak willen marketeers profielen van een reis verwijderen als ze niet meer voldoen aan het doel van de reis. Dit zal door **globale uitgangscriteria** worden bereikt, die nauw met doelbeheer worden geassocieerd.
+Door afsluitcriteria toe te voegen, sluiten de profielen de reis af zodra een gebeurtenis (bijvoorbeeld: Aankoop) plaatsvindt of komen zij in aanmerking voor een publiek. Dit zal de gebruiker verhinderen om het even welke verdere mededelingen van de reis te krijgen.
 
-**het gebruiksgeval van de Steekproef:**
+U wilt misschien profielen van een reis verwijderen als zij niet meer aan het doel van de reis voldoen. Dit kan door **globale uitgangscriteria** worden bereikt, die nauw met doelbeheer worden geassocieerd.
 
-Een marketeer heeft een promotietraject met een reeks communicatie. Elk van deze mededelingen is bedoeld om de klant ertoe aan te zetten een aankoop te doen. Zodra de aankoop wordt gemaakt, zou de klant geen rest berichten in de reeks moeten ontvangen. Door een exit-criterium te definiëren, worden profielen die een aankoop hebben gedaan, van de reis verwijderd.
+**het gebruiksgeval van de Steekproef**
 
-### Configuratie en gebruik
+Een marketeer heeft een promotietraject met een reeks communicatie. Elk van deze mededelingen is bedoeld om de klant ertoe aan te zetten een aankoop te doen. Zodra de aankoop wordt gemaakt, mag de klant de rest van de berichten in de reeks niet meer ontvangen. Door een exit-criterium te definiëren, worden profielen die een aankoop hebben gedaan, van de reis verwijderd.
 
-Afsluitingscriteria worden vastgesteld op het niveau van de reis. Eén reis kan meerdere exit-criteria hebben. Wanneer u veelvoudige uitgangscriteria hebt geplaatst, gebeurt de evaluatie van boven aan onder met OF logica. Zo als u Criteria n°1 van de Uitgang en Criteria n°2 hebt, zal het als n°1 **of** n°2 worden geëvalueerd. De criteria worden bij elke etappe van de reis geëvalueerd.
+### Configuratie en gebruik {#exit-criteria-config}
 
-**creeer** een uitgangscriteria:
+Afsluitingscriteria worden vastgesteld op het niveau van de reis. Eén reis kan meerdere exit-criteria hebben. Wanneer u meerdere afsluitcriteria hebt ingesteld, vindt de evaluatie van boven naar beneden plaats met een `OR` -logica. Zo als u Criteria A van de Uitgang en Criteria B hebt, zal het als A **OF** B worden geëvalueerd. De criteria worden bij elke etappe van de reis geëvalueerd.
 
-* Klik op het volgende pictogram ![](assets/exitcriteria_icon.png){width="40%" align="left"} in de rechterrail.
-* Klik op **toevoegen uitgangscriteria** knoop.
+Om **te creëren** een uitgangscriteria, volg deze stappen:
+
+1. Open op je reis.
+1. Klik op het pictogram **[!UICONTROL Show Exit Criteria]** in de rechterbovensectie van het reiscanvas.
+
+![](assets/exitcriteria_icon.png){width="40%" align="left"}
+
+1. Klik op de knop **[!UICONTROL Add exit criteria]** .
 
 ![](assets/exitcriteria.png){width="40%" align="left"}
 
-* U kunt meerdere afsluitcriteria toevoegen.
-* Ga a **Etiket** in en selecteer als uw uitgangscriteria op een gebeurtenis of een publiek gebaseerd zijn.
+1. Ga a **Etiket** in en selecteer als uw uitgangscriteria op een gebeurtenis of een publiek gebaseerd zijn.
 
-### Afsluitingscriteria op basis van een gebeurtenis
+* Kies voor Afsluiten-criteria die zijn gebaseerd op een gebeurtenis alleen een eenheidsgebeurtenis.
+* Selecteer een publiek voor Afsluiten op basis van criteria voor een publiek. Opmerking: het kan 10 minuten duren voordat de criteria voor het afsluiten met een publiek operationeel zijn.
 
-Kies alleen een eenheidsgebeurtenis.
+U kunt meerdere afsluitcriteria toevoegen.
 
-![](assets/exitcriteria_event.png){width="40%" align="left"}
+![](assets/exitcriteria-sample.png){width="40%" align="left"}
 
-### Criteria voor afsluiten op basis van een doelgroep
+### Afvoerkanalen en beperkingen {#exit-criteria-guardrails}
 
-Kies een publiek.
+De volgende instructies en beperkingen zijn van toepassing op de mogelijkheid om de reis te verlaten:
 
-![](assets/exitcriteria_audience.png){width="40%" align="left"}
-
-Opmerking: het kan 10 minuten duren voordat de criteria voor het afsluiten met een publiek operationeel zijn.
-
-### Beperkingen en beperkingen
-
-* Afsluitingscriteria worden gedefinieerd in conceptstatus
+* Afsluitingscriteria worden alleen in de ontwerpstatus gedefinieerd
 * Reis namespace coherentie tussen gebeurtenissen en op gebeurtenis-gebaseerde uitgangscriteria
 
 

@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Approval
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 0%
@@ -85,6 +85,6 @@ Het algemene goedkeuringsproces is als volgt:
 
 ## Goedkeuringsaanvragen controleren {#monitor}
 
-U kunt alle goedkeurings- en wijzigingsverzoeken controleren die voor een bepaalde reis of campagne zijn ingediend. Klik hiertoe op de knop **[!UICONTROL Show Audit Trail]** in de rechterbovensectie van het canvas of het scherm voor het reviseren van de campagne.
+U kunt alle goedkeurings- en wijzigingsverzoeken controleren die voor een bepaalde reis of campagne zijn ingediend. Klik hiertoe op het pictogram **[!UICONTROL Show Audit Trail]** in de rechterbovensectie van het canvas of het scherm voor het reviseren van de campagne.
 
 ![](assets/monitor-requests.png)

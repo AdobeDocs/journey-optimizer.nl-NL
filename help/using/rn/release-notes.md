@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 02df00b74dd07ff422f26f16120233b17a342c21
+source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 9%
@@ -154,7 +154,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tr>
 <td>
 <p>Nu definieert u exit criteria op een niveau van transport. Door afsluitcriteria toe te voegen, sluiten de profielen de reis af zodra een gebeurtenis (bijvoorbeeld: Aankoop) plaatsvindt of komen zij in aanmerking voor een publiek. Dit zal de gebruiker verhinderen om het even welke verdere mededelingen van de reis te krijgen.</p>
-<p>Raadpleeg de <a href="../building-journeys/journey-properties.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="../building-journeys/journey-properties.md#exit-criteria">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
