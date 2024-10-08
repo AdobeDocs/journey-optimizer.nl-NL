@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 64eb253efbe73d151dd1c94f4e4cb51a35e9d1a4
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2265'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ U kunt in campagnes selecteren en reizen om het even welk publiek dat gebruikend
 
 >[!AVAILABILITY]
 >
->Het gebruik van soorten publiek en kenmerken van publiek compositie en aangepast uploadpubliek (CSV-bestand) is momenteel niet beschikbaar voor gebruik met Healthcare Shield of Privacy and Security Shield. [ Leer hoe te om de attributen van de kijkverrijking in Journey Optimizer te gebruiken ](../audience/about-audiences.md#enrichment)
+>Het gebruik van soorten publiek en kenmerken van de samenstelling van het publiek is momenteel niet beschikbaar voor gebruik met het gezondheidsschild of het privacyschild. [ Leer hoe te om de attributen van de kijkverrijking in Journey Optimizer te gebruiken ](../audience/about-audiences.md#enrichment)
 
 U kunt het publiek op verschillende manieren gebruiken in **[!DNL Journey Optimizer]** :
 

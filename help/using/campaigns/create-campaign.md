@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '875'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Definieer de doelgroep voor de campagne en voer de volgende stappen uit:
 
 >[!IMPORTANT]
 >
->Het gebruik van publiek en attributen van [ publiekssamenstelling ](../audience/get-started-audience-orchestration.md) en [ douane uploadt (Csv- dossier) publiek ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) is momenteel niet beschikbaar voor gebruik met het Schild van de Gezondheidszorg of Privacy en het Schild van de Veiligheid.
+>Het gebruik van publiek en attributen van [ publiekssamenstelling ](../audience/get-started-audience-orchestration.md) is momenteel niet beschikbaar voor gebruik met het Schild van de Gezondheidszorg of Privacy en het Schild van de Veiligheid.
 >
 >Voor API-getriggerde campagnes moet het publiek worden ingesteld via API-aanroep.
 
