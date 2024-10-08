@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: reis, configuratie, eigenschappen
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
+source-git-commit: e6da92e2459c83019a9bb72b79809fdf7cf68c98
 workflow-type: tm+mt
-source-wordcount: '2035'
+source-wordcount: '2034'
 ht-degree: 0%
 
 ---
@@ -277,19 +277,16 @@ Afsluitingscriteria worden vastgesteld op het niveau van de reis. Eén reis kan 
 
 Om **te creëren** een uitgangscriteria, volg deze stappen:
 
-1. Open op je reis.
+1. Open je reis.
+
 1. Klik op het pictogram **[!UICONTROL Show Exit Criteria]** in de rechterbovensectie van het reiscanvas.
-
-![](assets/exitcriteria_icon.png){width="40%" align="left"}
-
+   ![](assets/exitcriteria_icon.png){width="40%" align="left"}
 1. Klik op de knop **[!UICONTROL Add exit criteria]** .
-
-![](assets/exitcriteria.png){width="40%" align="left"}
-
-1. Ga a **Etiket** in en selecteer als uw uitgangscriteria op een gebeurtenis of een publiek gebaseerd zijn.
+   ![](assets/exitcriteria.png){width="40%" align="left"}
+1. Ga a **Etiket** in en selecteer als uw uitgangscriteria op een **Gebeurtenis** of een **Publiek** gebaseerd zijn.
 
 * Kies voor Afsluiten-criteria die zijn gebaseerd op een gebeurtenis alleen een eenheidsgebeurtenis.
-* Selecteer een publiek voor Afsluiten op basis van criteria voor een publiek. Opmerking: het kan 10 minuten duren voordat de criteria voor het afsluiten met een publiek operationeel zijn.
+* Selecteer een publiek voor Afsluiten op basis van criteria voor een publiek. Opmerking: het kan 10 minuten duren voordat de criteria voor het afsluiten met een publiek effectief zijn.
 
 U kunt meerdere afsluitcriteria toevoegen.
 
