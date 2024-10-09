@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: profiel, update, reis, activiteit
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
-source-git-commit: 3639a1b23ce259d0a8af5f4e801f8c54eb6b3b3c
+source-git-commit: dc226803d2df198bde9c525f82431161734f53f8
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Met de **[!UICONTROL Update Profile]** -actieactiviteit kunt u een bestaand Adob
 * U kunt niet de **actie van het Profiel van de Update gebruiken** om ervaringsgebeurtenissen, bijvoorbeeld een aankoop te produceren.
 * Net als bij andere acties kunt u een alternatief pad definiëren in het geval van een fout of time-out. U kunt geen twee acties parallel plaatsen.
 * Het updateverzoek dat naar Adobe Experience Platform wordt verzonden, is onmiddellijk of binnen een seconde. Het duurt normaal een paar seconden, maar soms nog meer zonder garantie. Dientengevolge, bijvoorbeeld, als een actie &quot;gebied 1&quot;gebruikt dat door een **wordt bijgewerkt actie van het Profiel van de Update** wordt geplaatst juist vóór, zou u niet moeten verwachten dat &quot;gebied 1&quot;in de actie zal worden bijgewerkt.
-* De **het profiel van de Update** activiteit steunt geen gebieden XDM die als opsomming worden bepaald.
+* De **het profiel van de Update** activiteit steunt geen gebieden XDM die als opsommingen of voorgestelde waarden worden bepaald.
 * De **[!UICONTROL Update profile]** activiteit werkt slechts de [ Opslag van het Profiel ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store) {target="_blank"} bij, niet het meer van Gegevens.
 
 ## Selectie gegevensset {#dataset-selection}
