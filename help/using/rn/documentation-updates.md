@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
 workflow-type: tm+mt
-source-wordcount: '5450'
+source-wordcount: '5551'
 ht-degree: 13%
 
 ---
@@ -19,8 +19,18 @@ ht-degree: 13%
 
 Deze pagina bevat een overzicht van alle meest recente updates in de documentatie van [!DNL Journey Optimizer] .
 
+## September 2024 {#sept-2024}
+
+* Alle nieuwe functies en verbeteringen die worden geïntroduceerd in de release [!DNL Journey Optimizer] Sept &#39;24 zijn beschreven in de documentatie. [Meer informatie](release-notes.md)
+* Er is een gedeelte toegevoegd over het beheer van de reistijd. [Meer informatie](../building-journeys/read-audience.md#read-audience-retry)
+* Veelgestelde vragen over het Afbakenen/vertragen van regel voor douaneacties zijn bijgewerkt om de standaard het afschilderen regel te vermelden. [Meer informatie](../configuration/external-systems.md#faq)
+* Het gedeelte Toegang tot besturingselement is bijgewerkt met machtigingen voor de AI Assistant Content Generator. [Meer informatie](../administration/high-low-permissions.md#ai-permission)
+* Er is een video toegevoegd over het genereren van e-mailberichten door de AI Assistant Content Generator. [Meer informatie](../content-management/generative-email.md#video)
+
+
 ## Augustus 2024 {#aug-2024}
 
+* Alle nieuwe functies en verbeteringen die worden geïntroduceerd in de release van [!DNL Journey Optimizer] augustus &#39;24 zijn beschreven in de documentatie. [Meer informatie](release-notes.md)
 * De prestatiegaranties voor Beslissingsbeheer zijn bijgewerkt om Beslissende APIs te vermelden leverings productie met/zonder de Segmentatie van Edge. [Meer informatie](../start/guardrails.md#decision-management)
 * Reishandleidingen zijn bijgewerkt. [Meer informatie](../start/guardrails.md#journeys-guardrails-journeys)
 
