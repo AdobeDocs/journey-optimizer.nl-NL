@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5c9802eaa3fa35a43f53ef5dd86495b502149a04
+source-git-commit: ff2ad535b0919c3c9d8cf098dfcedf3f9ea8bba6
 workflow-type: tm+mt
-source-wordcount: '1333'
+source-wordcount: '1331'
 ht-degree: 9%
 
 ---
@@ -26,11 +26,11 @@ ht-degree: 9%
 
 ![ Nieuwsbrief ](../assets/do-not-localize/nl-icon.png) Teken omhoog voor het [ driemaandelijkse bulsletter van Adobe Journey Optimizer ](https://www.adobe.com/subscription/Adobe_Journey_Optimizer_NL.html) {target="_blank"} vandaag, en ontvang de recentste productupdates, opwindende verhalen, gebruiksgevallen, uiteinden en meer die rechtstreeks aan uw inbox elk kwart worden geleverd.
 
-## Updates van oktober 2024 {#24-10-rn}
+## Updates van oktober 1924 {#24-10-rn}
 
 ### Nieuwe functies {#24-10-features}
 
-De nieuwste mogelijkheden die beschikbaar zijn in Adobe Journey Optimizer worden hieronder weergegeven.
+De nieuwe mogelijkheden die beschikbaar zijn in Adobe Journey Optimizer worden hieronder weergegeven.
 
 <table>
 <thead>
@@ -41,11 +41,10 @@ De nieuwste mogelijkheden die beschikbaar zijn in Adobe Journey Optimizer worden
 <tbody>
 <tr>
 <td>
-<p>Beschikbaarheidsdatum: 1 okt.</p>
 <p>Met het op code-gebaseerde ervaringskanaal, staat Adobe Journey Optimizer u toe om geavanceerde verpersoonlijking en het testen voor om het even welk van uw binnenkomende eigenschappen te doen, toelatend naadloze levering van op maat gemaakte ervaringen over diverse aanraakpunten zoals Web apps, mobiele apps, Desktop apps, videoconsoles, TV aangesloten apparaten, slimme TVs, kiosks, ATMs, IoT apparaten, en meer. Het op code-gebaseerde ervaringskanaal is nu beschikbaar in het reiscanvas.</p>
 <p>Raadpleeg de <a href="../code-based/create-code-based.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
-<p>Beschikbaarheidsdatum: 1 okt.</p>
+<p>Beschikbaarheidsdatum: 1 oktober 2024</p>
 </tr>
 </tbody>
 </table>
@@ -59,28 +58,27 @@ De nieuwste mogelijkheden die beschikbaar zijn in Adobe Journey Optimizer worden
 <tbody>
 <tr>
 <td>
-<p>Beschikbaarheidsdatum: 1 okt.</p>
 <p>Met het kanaal van het Web, staat Adobe Journey Optimizer u toe om de Webervaring te personaliseren u aan uw klanten door binnenkomende Webreizen levert. Het webkanaal is nu beschikbaar op het reiscanvas.</p>
 <p>Raadpleeg de <a href="../web/create-web.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
-<p>Beschikbaarheidsdatum: 1 okt.</p>
+<p>Beschikbaarheidsdatum: 1 oktober 2024</p>
 </tr>
 </tbody>
 </table>
 
 ### Verbeteringen {#24-10-improvements}
 
-**Reizen**
+**Reizen** - de datum van de Beschikbaarheid: 3 okt, 2024
 
-* (De datum van de Beschikbaarheid: Okt 3) **Parameters in douaneacties** - ONGELDIGE en facultatieve parameters worden nu gesteund in douaneacties. [Meer informatie](../action/about-custom-action-configuration.md#define-the-message-parameters)
+* **Parameters in douaneacties** - ONGELDIGE en facultatieve parameters worden nu gesteund in douaneacties. [Meer informatie](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
-**Soorten publiek** - de datum van de Beschikbaarheid: okt 8
+**Soorten publiek** - Beschikbaarheidsdatum: 8 okt, 2024
 
 * Wanneer het richten van een Csv- dossierpubliek, kunt u attributen van het dossier in de verpersoonlijkingsredacteur en in reizen en campagneregelbouwer nu gebruiken. [Meer informatie](../audience/about-audiences.md)
 
 * Het gebruik van soorten publiek en kenmerken van aangepaste upload (CSV-bestand) is nu beschikbaar voor gebruik met het Healthcare Shield of Privacy and Security Shield.
 
-## Opmerkingen bij de release september 2024 {#24-9-rn}
+## Release september 1924 {#24-9-rn}
 
 <!--
 >[!CAUTION]
@@ -164,36 +162,6 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Code-based experiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
-<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Web experiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the Web channel, Adobe Journey Optimizer allows you to personalize the web experience you deliver to your customers through inbound web journeys. The Web channel is now available in the journey canvas.</p>
-<p>For more information, refer to the <a href="../web/get-started-web.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table-->
-
 <table>
 <thead>
 <tr>
@@ -207,7 +175,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <p>Ga zelf in een hands-on ervaring met <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator"> binnen onze levende eigenschapvoorproef </a>, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.</a></p>
 <p>Raadpleeg de <a href="../content-management/gs-generative.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
-<p>Beschikbaarheidsdatum: september 12</p>
+<p>Beschikbaarheidsdatum: 12 september 2024</p>
 </td>
 </tr>
 </tbody>
@@ -225,7 +193,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <p>Met de functie Kanaalinstellingen met instructies kunt u kanaalinstellingen in één ervaring automatiseren en valideren, zodat u sneller aan de slag kunt met Journey Optimizer. Deze nieuwe, geleide opstelling stroomlijnt snelle kanaalconfiguratie, die ervoor zorgt dat alle noodzakelijke middelen gemakkelijk worden geïnstalleerd en binnen Experience Platform, Journey Optimizer, en de Inzameling van Gegevens werken. Hierdoor kunnen marketing-, product- en gegevensontwikkelingsteams snel beginnen met het maken van campagnes en reizen.</p>
 <p>Raadpleeg de <a href="../configuration/set-mobile-config.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
-<p>Beschikbaarheidsdatum: september 3</p>
+<p>Beschikbaarheidsdatum: 3 september 2024</p>
 </br>
 </td>
 </tr>
@@ -243,10 +211,10 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 
 Deze release bevat de verbeteringen die hieronder worden vermeld.
 
-**Doelgroepen**
+**Soorten publiek** - de datum van de Beschikbaarheid: 17, 2024
 
 <!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
-* (De datum van de Beschikbaarheid: Sept 17) **gebruik van de Vergunning** - het het gebruiksdashboard van de Vergunning toont nu de Engageable Profielen, in plaats van Engageable Publiek. [Meer informatie](../audience/license-usage.md)
+* **het gebruik van de Vergunning** - het het gebruiksdashboard van de Vergunning toont nu de Engageable Profielen, in plaats van het Engageable publiek. [Meer informatie](../audience/license-usage.md)
 
 **Inhoudsbeheer**
 
