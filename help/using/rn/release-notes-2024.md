@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 12c3c1e2d6dabdc5c9b741742fd36c35c8b0992c
+source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
 workflow-type: tm+mt
-source-wordcount: '3846'
+source-wordcount: '3838'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Journey Optimizer] in 2024 heeft uitgebracht.
 
 
-## Opmerkingen bij de release augustus 2024 {#8-2024}
+## Release van augustus 1924 {#8-2024}
 
 **de datum van de Versie**: Augustus 20-21, 2024
 
@@ -148,7 +148,7 @@ Deze release brengt de hieronder vermelde verbeteringen aan.
 
 
 
-## Opmerkingen bij de release juli 2024 {#24-7-2024}
+## Release juli 1924 {#24-7-2024}
 
 **de datum van de Versie**: 30-31 juli, 2024
 
@@ -199,7 +199,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 
 
-## Opmerkingen bij de release van juni 2024 {#24-6-2024}
+## Release van juni 1924 {#24-6-2024}
 
 **de datum van de Versie**: 18-19 juni, 2024
 
@@ -344,7 +344,6 @@ Lees meer in de [ documentatie van het inhoudsfragment ](../content-management/f
 * **beleid van de Fusie** is nu GA - het beleid van de Fusie dat door een Reizen wordt gebruikt is nu zichtbaar en verenigbaar door de reis. [Meer informatie](../building-journeys/journey-properties.md#merge-policies)
 
 
-
 #### Campagnes
 
 * Wanneer u een campagne maakt in Adobe Journey Optimizer, kunt u nu het type campagne (gepland of geactiveerd) kiezen in een nieuw modaal. [Meer informatie](../campaigns/create-campaign.md)
@@ -376,7 +375,7 @@ Lees meer in de [ documentatie van het inhoudsfragment ](../content-management/f
 
 
 
-## Opmerkingen bij de release mei 2024 {#may-2024}
+## Release mei &#39;24 {#may-2024}
 
 **de datum van de Versie**: Mei 21-22, 2024
 
@@ -525,9 +524,7 @@ Van bèta tot deze release zijn de volgende verbeteringen toegevoegd:
 Als onderdeel van onze voortdurende inspanningen om een uniforme gebruikerservaring te bieden, harmoniseren we de terminologie die wordt gebruikt in de Adobe Experience Cloud-producten en -toepassingen. Dit is van invloed op de Duitse term &quot;Titel&quot;, die wordt gewijzigd in &quot;Label&quot; wanneer deze betrekking heeft op de naam van een object. De wijzigingen worden geleidelijk doorgevoerd in de gebruikersinterface en de documentatie.
 
 
-
-
-## Opmerkingen bij de release van april 2024 {#apr-2024}
+## Release van april 1924 {#apr-2024}
 
 **de datum van de Versie**: 2 mei, 2024
 
@@ -636,7 +633,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 
 
-## Opmerkingen bij de release maart 2024 {#mar-2024}
+## Release van maart 1924 {#mar-2024}
 
 **de datum van de Versie**: Maart 19-20, 2024
 
@@ -686,7 +683,7 @@ Er zijn nieuwe tussenliggende statussen toegevoegd aan de levenscyclus van de re
 
 Wanneer een reis in een tussenstadium is, is het read-only. [Meer informatie](../building-journeys/journey-gs.md#filter)
 
-## Opmerkingen bij de release februari 2024 {#feb-2024}
+## Release van februari &#39;24 {#feb-2024}
 
 **de datum van de Versie**: 21-22 feb, 2024
 
@@ -772,7 +769,7 @@ Eerder beschikbaar als Beta, zijn de volgende verbeteringen nu beschikbaar voor 
 * **Capping rules** - You can now add **multiple capping rules** for one offer. This allows you to increase the level of control over the way offers are sent.-->
 
 
-## Opmerkingen bij de release januari 2024 {#jan-2024}
+## Release januari 1924 {#jan-2024}
 
 **de datum van de Versie**: Jan 30-31, 2024
 

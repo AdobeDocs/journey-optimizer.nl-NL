@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: e5c1ae1b3ec50dd28736412cde738f3152325c79
+source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
 workflow-type: tm+mt
-source-wordcount: '4393'
+source-wordcount: '4383'
 ht-degree: 8%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 8%
 Deze pagina bevat een overzicht van alle functies en verbeteringen die [!DNL Journey Optimizer] in 2023 heeft uitgebracht.
 
 
-## Opmerkingen bij de release oktober 2023 {#oct-rn-2023}
+## Release oktober 1923 {#oct-rn-2023}
 
 ### Nieuwe functies{#oct-2023-features}
 
@@ -101,7 +101,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 
 
-## Opmerkingen bij de release september 2023 {#sept-rn-2023}
+## Release september 1923 {#sept-rn-2023}
 
 ### Nieuwe functies{#sept-2023-features}
 
@@ -233,7 +233,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
 
-## Opmerkingen bij de release augustus 2023 {#aug-rn-2023}
+## Release van augustus 1923 {#aug-rn-2023}
 
 ### Nieuwe functies{#aug-2023-features}
 
@@ -322,7 +322,7 @@ A new option is available in the email surface settings to include email address
 
 
 
-## Opmerkingen bij de release juli 2023 {#july-rn-2023}
+## Release van juli 1923 {#july-rn-2023}
 
 ### Nieuwe functies{#july-2023-features}
 
@@ -446,7 +446,7 @@ Journey Optimizer-gegevenssets die naar Cloud Storage-doelen worden geëxporteer
 
 
 
-## Opmerkingen bij de release van juni 2023 {#june-rn-2023}
+## Release van juni 1923 {#june-rn-2023}
 
 <table>
 <thead>
@@ -496,7 +496,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * A new type of system alert has been introduced. You can now get notified when a custom action fails.
 -->
 
-## Opmerkingen bij de release van mei 2023 {#may-rn-2023}
+## Release mei &#39;23 {#may-rn-2023}
 
 ### Nieuwe functies{#may-2023-features}
 
@@ -649,7 +649,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * In-app Berichten - Probleem verholpen waarbij het plannen van de campagne conflicteerde met de instellingen voor berichtfrequentie.
 
 
-## Opmerkingen bij de release van april 2023 {#apr-rn-2023}
+## Release van april 1923 {#apr-rn-2023}
 
 <!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added in this page.
 
@@ -730,7 +730,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 
 
-## Opmerkingen bij de release maart 2023 {#mar-2023}
+## Release van maart 1923 {#mar-2023}
 
 ### Nieuwe functies{#mar-2023-features}
 
@@ -826,7 +826,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
   Als u toegang wilt hebben tot de meest recente widgets, moet u de verschillende rapportdashboards opnieuw instellen. Voor meer informatie over dashboardaanpassing, verwijs naar de [ gedetailleerde documentatie ](../reports/global-report.md#modify-dashboard).
 
-## Opmerkingen bij de release van februari 2023 {#feb-2023}
+## Release van februari &#39;23 {#feb-2023}
 
 ### Nieuwe functies{#feb-2023-features}
 
@@ -954,7 +954,7 @@ Note that each widget can be resized and deleted as needed.
 
 * **verpersoonlijking URL** - wanneer het toevoegen van URLs als inhoud aan de vertegenwoordiging van uw aanbiedingen, kunt u deze URLs nu verpersoonlijken gebruikend de Redacteur van de Uitdrukking. [Meer informatie](../offers/offer-library/add-representations.md)
 
-## Opmerkingen bij de release januari 2023{#jan-2023-release}
+## Release januari 1923 {#jan-2023-release}
 
 ### Nieuwe functies{#jan-2023-features}
 
