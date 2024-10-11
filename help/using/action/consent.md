@@ -8,38 +8,35 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: beleid, bestuur, platform, gezondheidsschild, toestemming
-exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 21b30d75bac657acb28500b143b7b1f9018a13ff
+source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
 
 # Werken met toestemmingsbeleid {#consent-management}
 
-Uw gegevens zijn mogelijk onderworpen aan gebruiksbeperkingen die zijn gedefinieerd door uw organisatie of door wettelijke voorschriften. Het is daarom belangrijk om ervoor te zorgen dat uw gegevensverrichtingen binnen Journey Optimizer met [ beleid van het gegevensgebruik ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html) {target="_blank"} volgzaam zijn. Dit beleid is de regels die van Adobe Experience Platform bepalen welke [ marketing acties ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#marketing-actions) {target="_blank"} u op gegevens mag uitvoeren.
+Uw gegevens zijn mogelijk onderworpen aan gebruiksbeperkingen die zijn gedefinieerd door uw organisatie of door wettelijke voorschriften. Het is daarom belangrijk om ervoor te zorgen dat uw gegevensverrichtingen binnen Journey Optimizer met [ beleid van het gegevensgebruik ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html) {target="_blank"} volgzaam zijn. Dit beleid is Adobe Experience Platform-regels die bepalen welke marketingacties u mag uitvoeren op gegevens.
 
-Één type van beschikbaar beleid van het gegevensgebruik is **toestemmingsbeleid**. Met deze services kunt u eenvoudig marketingbeleid toepassen en afdwingen om de voorkeuren voor machtigingen van uw klanten te respecteren. [ leer meer over beleidshandhaving ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/enforcement/auto-enforcement.html) {target="_blank"}
+Als een profiel ervoor heeft gekozen geen communicatie van u te ontvangen, wordt het corresponderende profiel standaard uitgesloten van volgende leveringen. U kunt a **toestemmingsbeleid** tot stand brengen dat deze standaardlogica met voeten treedt. U kunt bijvoorbeeld toestemmingsbeleid in Experience Platform maken om klanten uit te sluiten die niet hebben ingestemd met het ontvangen van communicatie voor een bepaald kanaal. Bij gebrek aan een douanebeleid, is het standaardbeleid van toepassing.
 
 >[!IMPORTANT]
 >
 >Het toestemmingsbeleid is momenteel slechts beschikbaar voor organisaties die het Adobe **het Schild van de Gezondheidszorg** of **Privacy en het 3} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.**
 
-Bijvoorbeeld, kunt u [ toestemmingsbeleid ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy) {target="_blank"} in Experience Platform tot stand brengen om klanten uit te sluiten die niet hebben goedgekeurd om e-mail, duw of SMS mededelingen te ontvangen.
+De belangrijkste stappen voor de toepassing van het toestemmingsbeleid zijn:
 
-* Voor de inheemse uitgaande kanalen (E-mail, Duw, SMS, Directe post), is de logica als volgt:
+1. In Adobe Experience Platform een toestemmingsbeleid maken met een bijbehorende marketingactie. [ leer hoe te om een toestemmingsbeleid ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy) tot stand te brengen {target="_blank"}
 
-   * Als een profiel ervoor heeft gekozen geen communicatie van u te ontvangen, wordt het corresponderende profiel standaard uitgesloten van volgende leveringen.
+2. Pas toestemmingsbeleid in Adobe Journey Optimizer toe gebruikend kanaalconfiguraties of reizen douaneacties.
 
-   * Als u het Schild van de Gezondheidszorg van de Adobe **of** Privacy en het Schild van de Veiligheid **hebt, kunt u een beleid van de douanetoestemming tot stand brengen dat de standaardlogica met voeten treedt.** U kunt bijvoorbeeld een beleid definiëren waarmee alleen e-mailberichten worden verzonden naar alle personen die zich hebben aangemeld. Bij gebrek aan een douanebeleid, is het standaardbeleid van toepassing.
+   * Creeer een kanaalconfiguratie met een bijbehorende marketing actie. Wanneer het creëren van een mededeling gebruikend de kanaalconfiguratie, zal het de marketing actie erven die is geassocieerd en het overeenkomstige toestemmingsbeleid toepassen dat in Adobe Experience Platform wordt bepaald. [ leer hoe te hefboomwerking toestemmingsbeleid door kanaalconfiguraties ](#surface-marketing-actions)
 
-  Om een douanebeleid toe te passen, moet u een marketing actie in dat beleid bepalen en het associëren aan een kanaalconfiguratie. [Meer informatie](#surface-marketing-actions)
+   * Op reisniveau kunt u:
 
-Op het niveau van de reis, kunt u toestemmingsbeleid op uw douaneacties toepassen:
-
-* Wanneer **vormend een douaneactie**, kunt u een kanaal en een marketing actie bepalen. [Meer informatie](#consent-custom-action)
-* Wanneer het toevoegen van de **douaneactie in een reis**, kunt u een extra marketing actie bepalen. [Meer informatie](#consent-journey)
+      * Koppel een kanaal en een marketingactie aan een aangepaste handeling wanneer u deze configureert. [ Leer hoe te hefboomwerking toestemmingsbeleid wanneer het vormen van een douaneactie ](#consent-custom-action)
+      * Definieer een extra marketingactie wanneer u een aangepaste actie voor een rit toevoegt. [ Leer hoe te hefboomwerking toestemmingsbeleid wanneer het toevoegen van een douaneactie in een reis ](#consent-journey)
 
 ## Gebruikt toestemmingsbeleid door kanaalconfiguraties {#surface-marketing-actions}
 
@@ -107,16 +104,11 @@ There are two types of latency regarding the use of consent policies:
 * **Consent policy latency**: the delay from the time a consent policy is created or updated to the moment it is applied. This can take up to 6 hours
 -->
 
-### De aangepaste handeling configureren {#consent-custom-action}
-
->[!CONTEXTUALHELP]
->id="ajo_consent_required_marketing_action"
->title="Een vereiste marketingactie definiëren"
->abstract="Met de marketingactie Vereist kunt u de marketingactie definiëren die betrekking heeft op uw aangepaste actie. Als u bijvoorbeeld die aangepaste handeling gebruikt om e-mailberichten te verzenden, kunt u de optie E-mailadres selecteren. Bij gebruik tijdens een reis worden alle toestemmingsbeleid dat met die marketingactie verband houdt, opgehaald en benut. Dit kan niet worden gewijzigd op het canvas."
+### Gebruikt toestemmingsbeleid wanneer het vormen van een douaneactie{#consent-custom-action}
 
 Wanneer het vormen van een douaneactie, kunnen twee gebieden voor toestemmingsbeheer worden gebruikt.
 
-Het **gebied van het Kanaal** staat u toe om het kanaal met betrekking tot deze douaneactie te selecteren: **E-mail**, **SMS**, of **Druk bericht**. Het vult het **Vereiste marketing actieveld** met de standaard marketing actie voor het geselecteerde kanaal vooraf in. Als u **andere** selecteert, wordt geen marketing actie bepaald door gebrek.
+Het **gebied van het Kanaal** staat u toe om het kanaal met betrekking tot deze douaneactie te selecteren. Het vult het **Vereiste marketing actieveld** met de standaard marketing actie voor het geselecteerde kanaal vooraf in. Als u **andere** selecteert, wordt geen marketing actie bepaald door gebrek.
 
 ![](assets/consent1.png)
 
@@ -128,22 +120,7 @@ Voor bepaalde soorten belangrijke mededelingen, bijvoorbeeld een transactieberic
 
 De andere stappen voor het vormen van een douaneactie zijn gedetailleerd in [ deze sectie ](../action/about-custom-action-configuration.md#consent-management).
 
-### Journey samenstellen {#consent-journey}
-
->[!CONTEXTUALHELP]
->id="ajo_consent_required_marketing_action_canvas"
->title="Vereiste marketingactie"
->abstract="Een vereiste marketingactie wordt gedefinieerd tijdens het maken van een aangepaste handeling. Deze vereiste marketingactie kan niet uit de actie worden verwijderd of gewijzigd."
-
->[!CONTEXTUALHELP]
->id="ajo_consent_additional_marketing_action_canvas"
->title="Aanvullende marketingacties"
->abstract="Voeg nog een marketingactie toe naast de vereiste actie. Het beleid van de toestemming met betrekking tot beide marketing acties zal worden afgedwongen."
-
->[!CONTEXTUALHELP]
->id="ajo_consent_refresh_policies_canvas"
->title="Beleid voor visualisatie van toestemmingen dat tijdens runtime wordt toegepast"
->abstract="Handelingen voor het in de handel brengen zorgen voor een toestemmingsbeleid waarin handelingsparameters en afzonderlijke waarden voor profieltoestemming worden gecombineerd om gebruikers uit te filteren. Haal de nieuwste definitie van dit beleid op door op de knop voor vernieuwen te klikken."
+### Gebruikt toestemmingsbeleid wanneer het toevoegen van een douaneactie in een reis {#consent-journey}
 
 Wanneer u de aangepaste handeling tijdens een reis toevoegt, kunt u de toestemming op verschillende manieren beheren. Klik **tonen read-only gebieden** om alle parameters te tonen.
 
@@ -172,9 +149,3 @@ The following data is taken into account for consent:
 -->
 
 De andere stappen voor het vormen van een douaneactie in een reis zijn gedetailleerd in [ deze sectie ](../building-journeys/using-custom-actions.md).
-
-## Hoe kan ik-video {#video}
-
-Leer hoe labels voor gegevensgebruik worden afgedwongen in Journey Optimizer-kanalen.
-
->[!VIDEO](https://video.tv.adobe.com/v/3434901/?learn=on)

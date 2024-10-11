@@ -8,89 +8,129 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: gegevens, bestuur, DULE, labels, labels, platform, beleid
-exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: f61bd7d8d03ba2fd4e92c277f0cbfb730b3703c1
+source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 0%
+source-wordcount: '1285'
+ht-degree: 1%
 
 ---
 
 # Datagovernance {#restrict-fields}
 
+>[!CONTEXTUALHELP]
+>id="ajo_data_governance_policy_violation"
+>title="Overtreding van beleid voor gegevensbeheer"
+>abstract="Als het systeem een beperkt veld in een reis/campagne of een aangepaste handeling identificeert, wordt een fout weergegeven die voorkomt dat u deze publiceert. Gebruik het diagram van de gegevenslijn in deze dialoog om te begrijpen welke andere configuratieveranderingen moeten worden aangebracht alvorens u uw reis of campagne kunt activeren."
 
->[!IMPORTANT]
->
->Het gebruik van de Etikettering en de Handhaving van het Gebruik van Gegevens (DULE) is momenteel beperkt tot geselecteerde klanten, en zal aan alle milieu&#39;s in een toekomstige versie worden opgesteld.
+## Aan de slag met beleid voor gegevensbeheer {#gs}
 
-Met zijn beheerskader voor etikettering en handhaving van gegevensgebruik (DULE) kan Journey Optimizer nu het Adobe Experience Platform-beleid voor governance gebruiken om te voorkomen dat gevoelige velden via aangepaste acties naar systemen van derden worden geëxporteerd. Als het systeem een beperkt veld identificeert in de parameters voor aangepaste handelingen, wordt een fout weergegeven waardoor u de reis niet kunt publiceren.
+Met zijn ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html) {_blank} kader van de Etikettering en van het Gebruik van Gegevens van 0} (DULE), staat Adobe Experience Platform u toe om het beleid van het gegevensbeheer over uw kanalen te beheren en af te dwingen door **uw gebieden** te etiketteren en **marketing acties** voor elk kanaal te creëren.[
 
-Met Adobe Experience Platform kunt u labels toewijzen aan uw velden en marketingacties maken voor elk kanaal. Vervolgens definieert u een governancebeleid dat gekoppeld is aan een label en een marketingactie.
+Zodra de etiketten en de marketing acties worden bepaald, kunt u **beleid van het gegevensbeheer** tot stand brengen dat deze twee elementen verbindt. U kunt bijvoorbeeld een beleid instellen dat een ePHI-label koppelt aan een marketingactie &quot;e-mailadressering&quot;, zodat velden met de naam &quot;ePHI&quot; niet worden gebruikt voor het personaliseren van e-mailberichten. [ Leer hoe te om het beleid van het gegevensbeheer te creëren ](#governance-policies)
 
-In Journey Optimizer kunt u dit beleid toepassen op aangepaste acties om te voorkomen dat bepaalde velden worden geëxporteerd naar systemen van derden.
+Nadat u het governancebeleid hebt gemaakt, kunt u de marketingacties toepassen op uw reizen/campagnes en reizen aangepaste acties.
+[ Leer hoe te om marketing acties in Journey Optimizer toe te passen ](#apply-marketing-actions)
 
-Raadpleeg de documentatie van Adobe Experience Platform voor meer informatie over het gegevensbeheerkader en over het werken met labels en beleid:
+Wanneer het bouwen van een reis of een campagne, na het selecteren van een kanaalconfiguratie of het toevoegen van een douaneactie, verifieert het systeem of de marketing actie in de configuratie van het berichtkanaal of de douaneactie deel van een beleid van het gegevensbeheer uitmaakt. Als zo, controleren de systemen of om het even welke gebieden van het gerichte publiek of berichtverpersoonlijking door het beleid worden geëtiketteerd en beperkt. Als een dergelijk etiket wordt ontdekt, wordt het publiceren van de reis of de campagne geblokkeerd. [ Leer hoe te om het beleidsschending van het gegevensbeheer te ontdekken ](#violation)
 
-* [ Overzicht van de dienst van het Beheer van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html)
-* [ overzicht van de gebruiksetiketten van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html)
-* [ het gebruiksbeleid van Gegevens ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html)
+## Labels en marketingacties maken {#labels-marketing-actions}
 
-## Belangrijke opmerkingen {#important-notes}
-
-* Gegevensbeheer is alleen van toepassing op aangepaste handelingen tijdens reizen. Campagne v7/v8 en acties voor Campaigns Standard worden niet ondersteund.
-* Het beleid van goed bestuur is slechts van toepassing wanneer een (vereiste of extra) marketing actie op het niveau van de douaneactie wordt geplaatst.
-
-## Beleid inzake governance definiëren {#governance-policies}
-
-U kunt bestaande labels, marketingacties en beleid gebruiken. Hier zijn de belangrijkste configuratiestappen om nieuwe te creëren:
-
-* Voeg een label toe en pas het toe op specifieke velden die u niet wilt exporteren naar systemen van derden, zoals het bloedtype van een persoon.
-* Definieer een marketingactie voor elke aangepaste actie van derden die wordt gebruikt tijdens uw reizen.
-* Maak een governancebeleid en koppel dit aan de label- en marketingactie.
-
-Voor meer informatie over hoe te om beleid te beheren, verwijs naar deze [ documentatie ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html#consent-policy)
-
-Laten we het voorbeeld nemen van het veld voor het bloedtype dat u als gevoelig moet labelen en dat u niet mag exporteren naar een derde. Hier volgen de verschillende stappen:
+De eerste stap om het beleid van het gegevensbeheer af te dwingen is etiket te creëren en hen te verbinden aan gebieden waarvoor u gebruik, en marketing acties voor elk van uw kanalen wilt beperken.
 
 1. In het linkermenu, onder **Privacy**, klik **Beleid**.
+
 1. Selecteer het **lusje van Etiketten** en klik **creeer etiket**.
-   ![](assets/action-privacy1.png)
-1. Definieer een naam en een vriendelijke naam voor dit label. Bijvoorbeeld, _ePHI1_.
-1. In het linkermenu, onder **het beheer van Gegevens**, klik **Schema&#39;s**, en klik **toepassen toegang en gegevens governance etiketten** knoop. Selecteer uw schema en gebied (bloedtype) en selecteer het eerder gecreeerde etiket, _ePHI1_ in ons voorbeeld.
+
+1. Geef een naam en een vriendelijke naam voor het label op. Bijvoorbeeld, _ePHI1_.
+
+1. In het linkermenu, onder **het beheer van Gegevens**, klik **Schema&#39;s**, en klik **toepassen toegang en gegevens governance etiketten** knoop. Selecteer uw schema en gebied (bijvoorbeeld &quot;bloedtype&quot;) en selecteer het eerder gecreeerde etiket, _ePHI1_ in ons voorbeeld.
+
    ![](assets/action-privacy3.png)
-1. Ga terug naar het **menu van Beleid**, selecteer de **Handeling van de Marketing** tabel en klik **creeer marketing actie**. We raden u aan één marketingactie te maken voor elke aangepaste actie van derden die wordt gebruikt tijdens uw reizen. Bijvoorbeeld, creeer a _Slack marketing actie_ die voor uw Slack douaneactie zal worden gebruikt.
+
+1. Ga terug naar het **menu van Beleid**, selecteer de **Handeling van de Marketing** tabel en klik **creeer marketing actie**. Wij adviseren dat u één marketing actie voor elk kanaal en elke derde douaneactie creeert die in uw reizen wordt gebruikt. Bijvoorbeeld, creeer a _Slack marketing actie_ die voor uw Slack douaneactie zal worden gebruikt.
+
    ![](assets/action-privacy4.png)
-1. Selecteer **doorbladeren** lusje, **creeer beleid** en selecteer **het beleid van het Beheer van Gegevens**. Selecteer uw etiket (_ePHI1_) en marketing actie (_Slack marketing actie_).
-   ![](assets/action-privacy5.png)
+
+## Een beleid voor gegevensbeheer maken {#policy}
+
+Nu labels en marketingacties zijn gemaakt, kunt u deze koppelen aan het beleid voor gegevensbeheer. Om dit te doen, selecteer **doorbladeren** lusje, **creeer beleid** en selecteer **het beleid van het Beheer van Gegevens**. Selecteer uw etiket (_ePHI1_) en marketing actie (_Slack marketing actie_).
+
+![](assets/action-privacy5.png)
 
 Wanneer u, in een reis zult gebruiken, zal uw Slack douaneactie die met de _Slack marketing actie_ wordt gevormd, zal het bijbehorende beleid leveraged zijn.
 
-## Aangepaste actie configureren {#consent-custom-action}
+## Marketing-acties toepassen in Journey Optimizer {#apply-marketing-actions}
 
-In het linkermenu, onder **Beleid**, klik **Configuraties** en selecteer **Acties**. Open de aangepaste Slack. Wanneer u een aangepaste handeling configureert, kunnen twee velden worden gebruikt voor gegevensbeheer.
+Als u het beleid voor gegevensbeheer wilt afdwingen in Journey Optimizer, moet u marketingacties toepassen op uw reizen, campagnes of aangepaste acties.
 
-![](assets/action-privacy6.png)
+### marketingacties toepassen op reizen en campagnes {#journeys-campaigns}
 
-* Het **gebied van het Kanaal** staat u toe om het kanaal met betrekking tot deze douaneactie te selecteren: **E-mail**, **SMS**, of **Druk bericht**. Het zal het **Vereiste marketing actieterrein** met de standaard marketing actie voor het geselecteerde kanaal voorafgaan. Als u **andere** selecteert, zal geen marketing actie door gebrek worden bepaald. In ons voorbeeld, selecteren wij het kanaal **andere**.
+Nadat u beleid hebt gecreeerd, moet u de relevante marketing acties binnen uw Journey Optimizer **kanaalconfiguraties** toepassen. Ga als volgt te werk om dit te doen:
 
-* De **Vereiste marketing actie** staat u toe om de marketing actie met betrekking tot uw douaneactie te bepalen. Bijvoorbeeld, als u die douaneactie gebruikt om e-mails te verzenden gebruikend een derde, kunt u **e-mail selecteren richtend**. In ons voorbeeld, selecteren wij de _Slack marketing actie_. Het bestuursbeleid dat met die marketingactie verband houdt, wordt opgehaald en benut.
+1. Open het menu **[!UICONTROL Channels]** > **[!UICONTROL General settings]** > **[!UICONTROL Channel configurations]**.
 
-De andere stappen voor het vormen van een douaneactie zijn gedetailleerd in [ deze sectie ](../action/about-custom-action-configuration.md#consent-management).
+1. Open een bestaande kanaalconfiguratie of maak een nieuwe.
 
-## De reis maken {#consent-journey}
+1. Selecteer in het veld **[!UICONTROL Marketing action]** de marketingactie(s) die u aan de reizen/campagnes wilt koppelen met behulp van deze configuratie. Alle beleidsregels voor toestemming en gegevensbeheer in verband met de marketingactie worden benut om de voorkeuren van uw klanten en de beperkingen die zijn ingesteld voor gevoelige gebieden te respecteren. [Meer informatie](../action/consent.md#surface-marketing-actions)
 
-In het linkermenu, onder **beheer van de Reis**, klik **Reizen**. Maak uw reis en voeg uw aangepaste actie toe.  Wanneer u de aangepaste handeling tijdens een reis toevoegt, kunt u met verschillende opties gegevensbeheer beheren. Klik **tonen read-only gebieden** om alle parameters te tonen.
+   ![](../privacy/assets/governance-channel-configuration.png)
 
-Het **Kanaal** en **Vereiste marketing actie**, die wanneer het vormen van de douaneactie wordt bepaald, wordt getoond bij de bovenkant van het scherm. U kunt deze velden niet wijzigen.
+1. Voltooi de instelling van de kanaalconfiguratie en sla deze op. [ leer hoe te de configuratie van het opstellingskanaal ](../configuration/channel-surfaces.md).
 
-![](assets/action-privacy7.png)
+1. Wanneer het creëren van een bericht in uw reis of campagne, selecteer de relevante kanaalconfiguratie. Voltooi de configuratie van uw reis of campagne en sla deze op.
 
-U kunt een **Extra marketing actie** bepalen om het type van douaneactie te plaatsen. Hierdoor kunt u het doel van de aangepaste handeling in deze reis definiëren. Naast de vereiste marketingactie, die doorgaans specifiek is voor een kanaal, kunt u een aanvullende marketingactie definiëren die specifiek is voor de aangepaste actie op deze specifieke reis. Bijvoorbeeld: een workout-communicatie, een nieuwsbrief, een fitness-communicatie, enz. Zowel de vereiste marketingactie als de aanvullende marketingactie zijn van toepassing.
+Voordat het systeem de reis of de campagne activeert, controleert het of de marketingactie in de geselecteerde kanaalconfiguratie deel uitmaakt van een beleid voor gegevensbeheer. Als zo, controleren de systemen of om het even welke gebieden van het gerichte publiek of berichtverpersoonlijking door het beleid worden geëtiketteerd en beperkt.
 
-In ons voorbeeld maken we geen gebruik van een extra marketingactie.
+Als het systeem een beperkt veld identificeert, wordt een fout weergegeven waardoor u de reis of de campagne niet kunt publiceren. [ Leer hoe te om de schending van het governance beleid te ontdekken ](#violation)
 
-Als één van de gebieden geëtiketteerd _ePHI1_ (het bloedtypegebied in ons voorbeeld) in de actieparameters wordt ontdekt, wordt een fout getoond, verhinderend u de reis te publiceren.
+![](assets/governance-policy-schema.png){zoomable="yes"}
+
+*de analysestappen van de schending van het Beleid voor reizen en campagnes*
+
+### Marketing toepassen op aangepaste acties {#custom-actions}
+
+>[!NOTE]
+>
+>Campagne v7/v8 en Campaigns Standard reizen worden niet ondersteund.
+
+Neem het voorbeeld van het bloedtypeveld dat u wilt beperken van het exporteren naar een derde via aangepaste handelingen. Hiervoor moet u de marketingactie toepassen op uw aangepaste actie en vervolgens uw reis maken en er aangepaste actie aan toevoegen.
+
+1. In het linkermenu, onder **Beleid**, klik **Configuraties** en selecteer **Acties**.
+
+1. Open de aangepaste Slack. Wanneer u een aangepaste handeling configureert, kunnen twee velden worden gebruikt voor gegevensbeheer.
+
+   ![](assets/action-privacy6.png)
+
+   * Het **gebied van het Kanaal** staat u toe om het kanaal met betrekking tot deze douaneactie te selecteren. Het vult het **Vereiste marketing actieveld** met de standaard marketing actie voor het geselecteerde kanaal vooraf in. Als u **andere** selecteert, zal geen marketing actie door gebrek worden bepaald. In ons voorbeeld, selecteren wij het kanaal **andere**.
+
+   * De **Vereiste marketing actie** staat u toe om de marketing actie met betrekking tot uw douaneactie te bepalen. Bijvoorbeeld, als u die douaneactie gebruikt om e-mails te verzenden gebruikend een derde, kunt u **e-mail selecteren richtend**. In ons voorbeeld, selecteren wij de _Slack marketing actie_. Het bestuursbeleid dat met die marketingactie verband houdt, wordt opgehaald en benut.
+
+   De andere stappen voor het vormen van een douaneactie zijn gedetailleerd in [ deze sectie ](../action/about-custom-action-configuration.md#consent-management).
+
+1. In het linkermenu, onder **beheer van de Reis**, klik **Reizen**.
+
+1. Maak uw reis en voeg uw aangepaste actie toe. Wanneer u de aangepaste handeling tijdens een reis toevoegt, kunt u met verschillende opties gegevensbeheer beheren. Klik **tonen read-only gebieden** om alle parameters te tonen.
+
+   ![](assets/action-privacy7.png)
+
+   * Het **Kanaal** en **Vereiste marketing actie**, die wanneer het vormen van de douaneactie wordt bepaald, wordt getoond bij de bovenkant van het scherm. U kunt deze velden niet wijzigen.
+
+   * U kunt een **Extra marketing actie** bepalen om het type van douaneactie te plaatsen. Hierdoor kunt u het doel van de aangepaste handeling in deze reis definiëren. Naast de vereiste marketingactie, die doorgaans specifiek is voor een kanaal, kunt u een aanvullende marketingactie definiëren die specifiek is voor de aangepaste actie op deze specifieke reis. Bijvoorbeeld: een workout-communicatie, een nieuwsbrief, een fitness-communicatie, enz. Zowel de vereiste marketingactie als de aanvullende marketingactie zijn van toepassing. In ons voorbeeld maken we geen gebruik van een extra marketingactie.
+
+Als één van de gebieden geëtiketteerd _ePHI1_ (het bloedtypegebied in ons voorbeeld) in de actieparameters wordt ontdekt, wordt een fout getoond, verhinderend u de reis te publiceren. [ Leer hoe te om de schending van het governance beleid te ontdekken ](#violation)
+
+![](assets/governance-policy-custom-action-schema.png){zoomable="yes"}
+
+*de analysestappen van de schending van het Beleid voor reizen douaneacties*
+
+## Beleidsovertreding detecteren {#violation}
+
+Als het systeem een beperkt veld in een reis/campagne of een aangepaste handeling identificeert, wordt een fout weergegeven die voorkomt dat u deze publiceert.
+
+Fouten zijn zichtbaar via de knop **[!UICONTROL Alerts]** . Klik op de fout om gedetailleerde informatie weer te geven over de schending van het gegevensbeheerbeleid.
 
 ![](assets/action-privacy8.png)
 
-De andere stappen voor het vormen van een douaneactie in een reis zijn gedetailleerd in [ deze sectie ](../building-journeys/using-custom-actions.md).
+Deze dialoog wijst erop dat de huidige reis/campagneconfiguratie een bestaand beleid van het gegevensbeheer schendt. Gebruik het diagram van de gegevenslijn om te begrijpen welke andere configuratieveranderingen moeten worden aangebracht alvorens u uw reis of campagne kunt activeren.
+
+De gedetailleerde informatie is beschikbaar in de [ documentatie van de de schending van het gegevensgebruiksbeleid ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation) {_blank}.
