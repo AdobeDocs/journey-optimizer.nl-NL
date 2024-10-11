@@ -8,7 +8,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, data Lake, create, Lake, datasets, profile
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: 979cb8270a4be4c7ad08db8f0a2e072d590906de
+source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 0%
@@ -43,8 +43,6 @@ Door gebrek, slechts worden de datasets die u hebt ingebed in getoond. Als u de 
 >* 13 maanden voor gegevens in het data Lake
 >
 >Bovendien, op dat ogenblik, zal het stromen segmentatie niet meer het gebruik van verzenden en open gebeurtenissen van het volgen en terugkoppelen datasets steunen.
-
-
 
 Selecteer de naam van een dataset om tot zijn de activiteitenscherm van de Dataset toegang te hebben en details van de dataset te zien u selecteerde. Het activiteitenlusje omvat een grafiek die het tarief visualiseert van berichten die worden verbruikt evenals een lijst van succesvolle en ontbroken partijen.
 

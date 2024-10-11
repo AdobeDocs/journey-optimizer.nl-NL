@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: maken, optimaliseren, campagne, oppervlak, berichten
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: e96aefefd8391d1a59a5a4f9d50c6ac819bf60f8
+source-git-commit: 72bda999c9e866398375422d8419516e5fea97b5
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '826'
 ht-degree: 1%
 
 ---
@@ -33,11 +33,6 @@ Als u een nieuwe campagne wilt maken, opent u het menu **[!UICONTROL Campaigns]*
 >id="ajo_campaigns_campaign_type"
 >title="Type campagne"
 >abstract="**Geplande campagnes** worden uitgevoerd onmiddellijk of op een gespecificeerde datum en zijn bedoeld om berichten van het marketingtype te verzenden. **API-teweeggebrachte** campagnes worden uitgevoerd gebruikend een API vraag. Zij zijn gericht op het verzenden van ofwel marketingberichten (promotieberichten waarvoor toestemming van de gebruiker vereist is) ofwel transactieberichten (niet-commerciële berichten die ook in specifieke omstandigheden naar niet-geabonneerde profielen kunnen worden verzonden)."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_category"
->title="Campagne, categorie"
->abstract="Als u een geplande campagne creeert, wordt het **marketing** type automatisch geselecteerd. Voor API-teweeggebrachte campagnes, verkies als u a **marketing** bericht (promotiebericht wilt verzenden dat gebruikersgoedkeuring vereist) of **transactie** bericht (niet-commercieel bericht, dat ook naar geabonneerde profielen in specifieke contexten kan worden verzonden)."
 
 1. Selecteer het type campagne dat u wilt uitvoeren
 
