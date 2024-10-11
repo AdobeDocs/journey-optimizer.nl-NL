@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: cd46b3346e284958e6f3f9fa641b548f68672000
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '388'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Met het goedkeuringsbeleid kunnen beheerders een validatieproces voor reizen en 
 
 ## Goedkeuringsbeleid maken {#create-policies}
 
-1. Open **[!UICONTROL Permissions]** then **[!UICONTROL Policies]** via het menu **[!UICONTROL Administration]** .
+1. Open in het menu **[!UICONTROL Administration]** in Journey Optimizer **[!UICONTROL Permissions]** then **[!UICONTROL Policies]** .
 
    ![](assets/policy_create_1.png)
 
