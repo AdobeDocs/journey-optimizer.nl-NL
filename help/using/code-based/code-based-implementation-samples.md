@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 75dcd6d4a36b09809cdf4db3a0ae3ba3a1cb35b5
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '786'
 ht-degree: 1%
 
 ---
@@ -23,25 +23,25 @@ De op code-gebaseerde ervaring steunt om het even welk type van klantenimplement
 
 >[!IMPORTANT]
 >
->Volgen [deze koppeling](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} om steekproefimplementaties voor verschillende verpersoonlijking en experimentatiegebruiksgevallen te vinden. Controleer hen uit en stel hen in werking om beter te begrijpen wat de implementatiestappen nodig zijn en hoe de verpersoonlijkingsstroom van begin tot eind werkt.
+>Volg [ deze verbinding ](https://github.com/adobe/alloy-samples/tree/main/ajo) {target="_blank"} om steekproefimplementaties voor verschillende verpersoonlijking en het experimenteren gebruiksgevallen te vinden. Controleer hen uit en stel hen in werking om beter te begrijpen wat de implementatiestappen nodig zijn en hoe de verpersoonlijkingsstroom van begin tot eind werkt.
 
 ## Implementatie op de client {#client-side-implementation}
 
 Als u een client-side implementatie hebt, kunt u een van de AEP client-SDK&#39;s gebruiken: AEP Web SDK of AEP Mobile SDK.
 
-* De stappen [onder](#client-side-how) beschrijf het proces om de inhoud te halen die op de rand door op code-gebaseerde ervaringscampagnes in een steekproef wordt gepubliceerd **Web SDK** implementatie en weergave van de gepersonaliseerde inhoud.
+* De stappen [ beschrijven hieronder ](#client-side-how) het proces om de inhoud te halen die op de rand door de op code-gebaseerde ervaringscampagnes in een steekproef **3} implementatie van SDK van het Web {wordt gepubliceerd en de gepersonaliseerde inhoud toont.**
 
-* De stappen om code-gebaseerd kanaal uit te voeren die **Mobile SDK** worden beschreven in [deze zelfstudie](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+* De stappen om code-gebaseerd kanaal uit te voeren gebruikend **Mobiele SDK** worden beschreven in [ dit leerprogramma ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/) {target="_blank"}.
 
   >[!NOTE]
   >
-  >Voorbeeldimplementaties voor mobiele toepassingen zijn beschikbaar voor [iOS-app](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} and [Android app](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}.
+  >De implementaties van de steekproef voor mobiele gebruiksgevallen zijn beschikbaar voor [ app van iOS ](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI) {target="_blank"} en [ app van Android ](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp) {target="_blank"}.
 
 ### Hoe het werkt - Web SDK {#client-side-how}
 
-1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} is opgenomen op de pagina.
+1. [ SDK van het Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) {target="_blank"} is inbegrepen op de pagina.
 
-1. U moet de opdracht `sendEvent` en geef de oppervlakte-URI op om personalisatie-inhoud op te halen.
+1. U moet het `sendEvent` bevel gebruiken en de [ oppervlakte URI ](code-based-configuration.md#surface-definition)<!--( or location/path)--> specificeren om verpersoonlijkingsinhoud te halen.
 
    ```javascript
    alloy("sendEvent", {
@@ -52,9 +52,9 @@ Als u een client-side implementatie hebt, kunt u een van de AEP client-SDK&#39;s
    }).then(applyPersonalization("#sample-json-content"));
    ```
 
-1. Code-gebaseerde ervaringsitems moeten handmatig worden toegepast door de implementatiecode (met behulp van de [`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"} methode) om het DOM bij te werken op basis van de beslissing.
+1. Op code-gebaseerde ervaringspunten zouden manueel door de implementatiecode (gebruikend de [`applyPersonalization` ](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js) {target="_blank"} methode) moeten worden toegepast om DOM bij te werken die op het besluit wordt gebaseerd.
 
-1. Voor op code-gebaseerde ervaringscampagnes, moeten de vertoningsgebeurtenissen manueel worden verzonden om erop te wijzen wanneer de inhoud is getoond. Dit gebeurt via de `sendEvent` gebruiken.
+1. Voor op code-gebaseerde ervaringscampagnes, moeten de vertoningsgebeurtenissen manueel worden verzonden om erop te wijzen wanneer de inhoud is getoond. Dit gebeurt via de opdracht `sendEvent` .
 
    ```javascript
    function sendDisplayEvent(decision) {
@@ -80,7 +80,7 @@ Als u een client-side implementatie hebt, kunt u een van de AEP client-SDK&#39;s
    }
    ```
 
-1. Voor op code-gebaseerde ervaringscampagnes, moeten de interactiegebeurtenissen manueel worden verzonden om erop te wijzen wanneer een gebruiker met de inhoud heeft gecommuniceerd. Dit gebeurt via de `sendEvent` gebruiken.
+1. Voor op code-gebaseerde ervaringscampagnes, moeten de interactiegebeurtenissen manueel worden verzonden om erop te wijzen wanneer een gebruiker met de inhoud heeft gecommuniceerd. Dit gebeurt via de opdracht `sendEvent` .
 
    ```javascript
    function sendInteractEvent(label, proposition) {
@@ -123,16 +123,16 @@ Cookies worden gebruikt om de gebruikersidentiteit en clusterinformatie voort te
 | kCtr_AdobeOrg_identity | Bevat identiteitsgegevens van gebruiker | Web SDK | Web SDK |
 | kndctr_AdobeOrg_cluster | Geeft aan met welke Edge-cluster aanvragen kunnen worden afgehandeld | Web SDK | Web SDK |
 
-**Verzoek om plaatsing**
+**plaatsing van het Verzoek**
 
-Aanvragen aan de Adobe Experience Platform API zijn vereist om voorstellen te ontvangen en een weergavemelding te verzenden. Wanneer het gebruiken van een cliënt-zijimplementatie, doet SDK van het Web deze verzoeken wanneer `sendEvent` wordt gebruikt.
+Aanvragen aan de Adobe Experience Platform API zijn vereist om voorstellen te ontvangen en een weergavemelding te verzenden. Wanneer het gebruiken van een cliënt-zijimplementatie, doet het Web SDK deze verzoeken wanneer het `sendEvent` bevel wordt gebruikt.
 
 | Verzoek | Door |
 | ---------------------------------------------- | ----------------------------------- |
 | interactief verzoek om voorstellen te krijgen | Web SDK met de opdracht sendEvent |
 | interactief verzoek om weergavemeldingen te verzenden | Web SDK met de opdracht sendEvent |
 
-**Stroomdiagram**
+**Diagram van de Stroom**
 
 ![](assets/code-based-client-side-implementation.png)
 
@@ -144,8 +144,8 @@ In de onderstaande stappen wordt beschreven hoe u de inhoud ophaalt die op de ra
 
 ### Werking
 
-1. De webpagina wordt opgevraagd en eventuele cookies die eerder door de browser zijn opgeslagen, worden vooraf opgeslagen `kndctr_` worden opgenomen.
-1. Wanneer de pagina bij de toepassingsserver wordt aangevraagd, wordt een gebeurtenis verzonden naar [interactief eindpunt van gegevensverzameling](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) om personalisatie-inhoud op te halen. In deze voorbeeldtoepassing worden enkele hulpmethoden gebruikt om het samenstellen en verzenden van aanvragen naar de API te vereenvoudigen (zie [aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}). Maar het verzoek is gewoon een `POST` met een payload die een gebeurtenis en query bevat. De cookies (indien beschikbaar) uit de vorige stap worden in de `meta>state>entries` array.
+1. De webpagina wordt opgevraagd en cookies die eerder zijn opgeslagen door de browser die vooraf is ingesteld op `kndctr_` , worden opgenomen.
+1. Wanneer de pagina van de toepassingsserver wordt gevraagd, wordt een gebeurtenis verzonden naar het [ interactieve eindpunt van de gegevensinzameling ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html) om verpersoonlijkingsinhoud te halen. Deze steekproef app maakt gebruik van sommige helpermethodes om het bouwen en het verzenden van verzoeken naar API (zie [ aepEdgeClient.js ](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js) te vereenvoudigen {target="_blank"}). Maar de aanvraag is gewoon een `POST` met een payload die een gebeurtenis en query bevat. De cookies (indien beschikbaar) uit de voorgaande stap worden opgenomen in de aanvraag in de array `meta>state>entries` .
 
    ```javascript
    fetch(
@@ -287,16 +287,16 @@ Cookies worden gebruikt om de gebruikersidentiteit en clusterinformatie voort te
 | kCtr_AdobeOrg_identity | Bevat identiteitsgegevens van gebruiker | toepassingsserver | toepassingsserver |
 | kndctr_AdobeOrg_cluster | Geeft aan met welke Edge-cluster aanvragen kunnen worden afgehandeld | toepassingsserver | toepassingsserver |
 
-**Verzoek om plaatsing**
+**plaatsing van het Verzoek**
 
-Aanvragen aan de Adobe Experience Platform API zijn vereist om voorstellen te ontvangen en een weergavemelding te verzenden. Wanneer het gebruiken van een cliënt-zijimplementatie, doet SDK van het Web deze verzoeken wanneer `sendEvent` wordt gebruikt.
+Aanvragen aan de Adobe Experience Platform API zijn vereist om voorstellen te ontvangen en een weergavemelding te verzenden. Wanneer het gebruiken van een cliënt-zijimplementatie, doet het Web SDK deze verzoeken wanneer het `sendEvent` bevel wordt gebruikt.
 
 | Verzoek | Door |
 | ---------------------------------------------- | ------------------------------------------------------------ |
 | interactief verzoek om voorstellen te krijgen | toepassingsserver die de Adobe Experience Platform API aanroept |
 | interactief verzoek om weergavemeldingen te verzenden | toepassingsserver die de Adobe Experience Platform API aanroept |
 
-**Stroomdiagram**
+**Diagram van de Stroom**
 
 ![](assets/code-based-server-side-implementation.png)
 
@@ -304,5 +304,5 @@ Aanvragen aan de Adobe Experience Platform API zijn vereist om voorstellen te on
 
 Als u een hybride implementatie hebt, checkt u de onderstaande koppelingen uit.
 
-* Tech-blog Adobe: [Hybride personalisatie in de SDK van het Web van Adobe Experience Platform](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK-documentatie: [Hybride verpersoonlijking die Web SDK en de Server API van het Netwerk van Edge gebruikt](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+* Tech Blog van de Adobe: [ Hybride Personalization in het Web SDK van Adobe Experience Platform ](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41) {target="_blank"}
+* De Documentatie van SDK: [ Hybride verpersoonlijking die Web SDK en de Server API van de Edge Network gebruiken ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html) {target="_blank"}

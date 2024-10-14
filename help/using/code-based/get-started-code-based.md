@@ -6,9 +6,9 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: b8a71c43ad5b456bfc9ec9b9d3fba06049e604ed
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '720'
 ht-degree: 1%
 
 ---
@@ -79,7 +79,7 @@ Wanneer moet u het op code gebaseerde kanaal gebruiken in plaats van de andere [
 
 * U kunt het op code gebaseerde kanaal ook gebruiken als alternatief voor het [!DNL Journey Optimizer] web of in-app kanalen voor het geval u een API-gebaseerde, headless of server-side implementatie hebt.
 
-### Codegebaseerd versus webkanaal
+### Codegebaseerd versus webkanaal {#code-based-vs-web}
 
 Als u zaken voor webgebruik wilt uitvoeren, kunt u het webkanaal of de ervaring op basis van code gebruiken, maar afhankelijk van uw context is een van beide geschikter. De belangrijkste verschillen worden hieronder vermeld zodat kunt u een weloverwogen besluit nemen over wat te gebruiken wanneer.
 
@@ -103,18 +103,20 @@ Als u zaken voor webgebruik wilt uitvoeren, kunt u het webkanaal of de ervaring 
 
 >[!CAUTION]
 >
->Deze functie is bedoeld voor ontwikkelaars en/of ervaren gebruikers. Het kan door marketers met sommige code-schrijvende vaardigheden worden gebruikt, zolang de oppervlakimplementaties en aanvankelijke opstelling door uw ontwikkelingsteam worden behandeld.
+>Deze functie is bedoeld voor ontwikkelaars en/of ervaren gebruikers. Het kan door marketers met sommige code-schrijvende vaardigheden worden gebruikt, zolang de kanaalconfiguraties en aanvankelijke opstelling door uw ontwikkelingsteam worden behandeld.
 
-Als u de inhoud wilt bewerken met de ervaringsfunctie van [!DNL Journey Optimizer] op code gebaseerde, pagina&#39;s of apps moeten van instrumenten worden voorzien. Om dit te doen, moet u vóór de specifieke individuele plaatsen (genoemd &quot;[ oppervlakten ](code-based-configuration.md#surface-definition)&quot;verklaren waar u inhoud <!--HOW??--> wilt opnemen of vervangen.
+Als u de inhoud wilt bewerken met de ervaringsfunctie van [!DNL Journey Optimizer] op code gebaseerde, pagina&#39;s of apps moeten van instrumenten worden voorzien. Om dit te doen, moet u vóór de specifieke individuele plaatsen (genoemd &quot;[ oppervlakten ](code-based-configuration.md#surface-definition)&quot;verklaren waar u inhoud wilt opnemen of vervangen.
 
 >[!NOTE]
 >
->De inhoud die momenteel aan een configuratie is gekoppeld, kan alleen HTML of JSON zijn. <!--WILL COME LATER: text, image or another format depending on the application-->
+>De inhoud die momenteel aan een configuratie is gekoppeld, kan alleen HTML of JSON zijn.
 
 De belangrijkste stappen om een op code-gebaseerde campagne uit te voeren zijn als volgt.
 
-1. Bepaal a [ oppervlakte ](code-based-configuration.md#surface-definition) in uw toepassingsimplementatie, die fundamenteel de plaats is waar u uw op code-gebaseerde ervaring wilt toevoegen, dan een code-gebaseerde configuratie van het ervaringskanaal creëren die verwijzingen die plaats, en dan een campagne in [!DNL Journey Optimizer] creëren gebruikend deze configuratie. [ leer hoe ](create-code-based.md#create-code-based-campaign)
+1. Bepaal a [ oppervlakte ](code-based-configuration.md#surface-definition) in uw toepassingsimplementatie, die fundamenteel de plaats is waar u uw op code-gebaseerde ervaring wilt toevoegen, en een code-gebaseerde configuratie van het ervaringskanaal creëren die verwijzingen die plaats. [ leer hoe ](code-based-configuration.md#create-code-based-configuration)
+
+1. Maak een reis of campagne in [!DNL Journey Optimizer] met deze configuratie. [ leer hoe ](create-code-based.md#create-code-based-campaign)
 
 1. Stel een ervaring samen door inhoud voor de geselecteerde configuratie te specificeren gebruikend de [!DNL Journey Optimizer] verpersoonlijkingsredacteur. [ leer hoe ](create-code-based.md#edit-code)
 
-1. Uw app-implementatieteam doet expliciete API- of SDK-aanroepen om inhoud op te halen voor de benoemde oppervlakken, zoals &quot;Banner Text&quot; of &quot;Recommendations Tray 1&quot; of niet-UI gerelateerde beslissingspunten in een toepassing, zoals &quot;zoekalgoritmeparameters&quot;. In dit geval, is het implementatieteam verantwoordelijk voor het teruggeven of anders het interpreteren en het handelen op de teruggekeerde inhoud.<!--TBC with Robert - should link to a new section with API/SDK call samples-->
+1. Uw app-implementatieteam doet expliciete API- of SDK-aanroepen om inhoud op te halen voor de benoemde oppervlakken, zoals &quot;Banner Text&quot; of &quot;Recommendations Tray 1&quot; of niet-UI gerelateerde beslissingspunten in een toepassing, zoals &quot;zoekalgoritmeparameters&quot;. In dit geval is het implementatieteam verantwoordelijk voor het renderen of anderszins interpreteren en reageren op de geretourneerde inhoud. [Meer informatie](code-based-implementation-samples.md)

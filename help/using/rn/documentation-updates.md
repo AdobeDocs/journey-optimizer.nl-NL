@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1b8442a13e046855bd3670e0ebdee60518f09bd4
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '5551'
+source-wordcount: '5606'
 ht-degree: 13%
 
 ---
@@ -18,6 +18,12 @@ ht-degree: 13%
 # Documentatie-updates {#latest-updates}
 
 Deze pagina bevat een overzicht van alle meest recente updates in de documentatie van [!DNL Journey Optimizer] .
+
+## Oktober 2024 {#oct-2024}
+
+* Vorm uw code-gebaseerde ervaringspagina is verbeterd om het proces helderder te maken, met inbegrip van de sectie die verklaart wat een oppervlakte URI is. [Meer informatie](../code-based/code-based-configuration.md)
+
+* De configuratiepagina Webkanaal maken is bijgewerkt om de stappen te verduidelijken wanneer het creëren van een pagina die regel aanpassen, die ook op code-gebaseerde ervaringsconfiguratie van toepassing is. [Meer informatie](../web/web-configuration.md#web-page-matching-rule)
 
 ## September 2024 {#sept-2024}
 

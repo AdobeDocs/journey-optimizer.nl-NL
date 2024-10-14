@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 2%
+source-wordcount: '1172'
+ht-degree: 1%
 
 ---
 
@@ -167,6 +167,8 @@ U kunt ook een voorvertoning van uw code-gebaseerde ervaringsinhoud weergeven vo
 >Als u een op code gebaseerde reis/campagne activeert die dezelfde pagina&#39;s beïnvloedt als een andere reis of campagne die al actief is, worden alle wijzigingen toegepast op uw inhoud.
 >
 >Als meerdere op code gebaseerde reizen of campagnes hetzelfde element of dezelfde elementen van uw inhoud bijwerken, heeft de hoogste prioriteit prioriteit voor de reis/campagne.
+
+Zodra uw op code-gebaseerde reis of campagne levend is, uw team van de app implementatie voor verantwoordelijk het maken van expliciete API of vraag SDK om inhoud voor de oppervlakken te halen die in de geselecteerde [ op code-gebaseerde ervaringsconfiguratie ](code-based-configuration.md) worden bepaald. Leer meer op de verschillende klantenimplementaties in [ deze sectie ](code-based-implementation-samples.md).
 
 ### Publish een op code gebaseerde reis {#publish-code-based-journey}
 

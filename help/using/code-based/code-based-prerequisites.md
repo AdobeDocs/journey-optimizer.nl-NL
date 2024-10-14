@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 1%
+source-wordcount: '557'
+ht-degree: 0%
 
 ---
 
@@ -20,10 +20,6 @@ Als u code-gebaseerde ervaringsacties in [!DNL Journey Optimizer] wilt kunnen ge
 * Als u wijzigingen wilt toevoegen aan uw toepassingen, moet u een specifieke implementatie hebben. [Meer informatie](#implementation-prerequisites)
 
 * Voor de op code-gebaseerde ervaringen die correct moeten worden geleverd, zorg ervoor u de montages van Adobe Experience Platform bepaalt die [ hier ](#delivery-prerequisites) worden gedetailleerd.
-
->[!CAUTION]
->
->U kunt code-gebaseerde ervaringen in **campagnes** slechts tot stand brengen. [Meer informatie](../campaigns/create-campaign.md#configure).
 
 ## Voorwaarden voor implementatie {#implementation-prerequisites}
 

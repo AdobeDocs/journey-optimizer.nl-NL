@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -24,8 +24,6 @@ Als u webpagina&#39;s wilt openen en schrijven in de gebruikersinterface van [!D
 * Voor de Webervaring die correct moet worden geleverd, zorg ervoor u de hier gedetailleerde montages van Adobe Experience Platform [ ](#delivery-prerequisites) bepaalt.
 
 ## Let op: {#caution-notes-web}
-
-* Momenteel in [!DNL Journey Optimizer] kunt u Webervaringen in **campagnes** slechts tot stand brengen. [Meer informatie](../campaigns/create-campaign.md#configure)
 
 * [!DNL Journey Optimizer] webcampagnes zijn gericht op nieuwe profielen die nog niet eerder zijn ingeschakeld op andere kanalen. Hierdoor wordt het totale aantal aanspreekbare profielen verhoogd. Dit kan kosten met zich meebrengen als het contractuele aantal aanschafbare profielen dat u hebt aangeschaft, wordt overschreden. De metriek van de vergunning voor elk pakket is vermeld op de [ de Beschrijving van het Product van Journey Optimizer ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.html) {target="_blank"} pagina.
 
@@ -43,7 +41,7 @@ Er worden twee typen implementaties ondersteund waarmee u webkanaalcampagnes kun
 
 >[!NOTE]
 >
->De implementatie van alleen de server wordt momenteel niet ondersteund.
+>De server-kant slechts implementatie wordt momenteel niet gesteund met het kanaal van het Web. Als u een server-zij slechts implementatie voor uw Web-pagina&#39;s hebt, kunt u het [ op code-gebaseerde ervaringskanaal ](../code-based/get-started-code-based.md) in plaats daarvan gebruiken.
 
 <!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 
