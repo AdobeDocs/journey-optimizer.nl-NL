@@ -1,7 +1,6 @@
 ---
-title: Conflictbeheer en prioritering
-description: Leer hoe u uw inhoud kunt voorvertonen en testen.
-feature: Preview, Proofs
+title: Mogelijke conflicten tijdens reizen en campagnes identificeren
+description: Leer hoe u mogelijke conflicten tijdens reizen en campagnes kunt identificeren.
 role: User
 level: Beginner
 badge: label="Beperkte beschikbaarheid"
@@ -9,31 +8,28 @@ hide: true
 hidefromtoc: true
 source-git-commit: e1121d998711ea4751da5293efdd7c1578ee44a2
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 0%
+source-wordcount: '673'
+ht-degree: 1%
 
 ---
 
 
-# Conflictbeheer en prioritering {#conflict-prioritization}
+# Mogelijke conflicten tijdens reizen en campagnes detecteren {#conflict}
+
+>[!BEGINSHADEBOX]
+
+Wat u in deze documentatiehandleiding zult vinden:
+
+* [Aan de slag met conflictbeheer en -prioriteiten](gs-conflict-prioritization.md)
+* **[ontdek potentiële conflicten in reizen &amp; campagnes](conflicts.md)**
+* [Prioritaire scores toewijzen aan reizen en campagnes](priority-scores.md)
+* [Afbakening van reizen en arbitrage](journey-capping.md)
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->De hulpmiddelen voor Conflictbeheer en prioritering zijn momenteel alleen beschikbaar als bètaversie voor geselecteerde gebruikers.
-
-In Journey Optimizer is het beheren van het volume en de timing van campagnes en reizen van essentieel belang om te voorkomen dat klanten met te veel interacties worden overspoeld. De volgende twee secties introduceren zeer belangrijke hulpmiddelen om u te helpen evenwicht handhaven en mededelingen effectief voorrang geven
-
-## Mogelijke conflicten tijdens reizen en campagnes identificeren {#conflict}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_conflict"
->title="Conflicterende viewer in campagnes"
->abstract="Dit hulpmiddel kan u helpen overlappingen met andere reizen, campagnes, of kanaalconfiguraties bepalen. Als u overlappingen op publiek wilt identificeren, begin en einddatum, kanaalconfiguratie, kanaal, of regelreeks kunt u potentiële conflicten hier bekijken."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_conflict"
->title="Conflicterende kijker op reis"
->abstract="Dit hulpmiddel kan u helpen overlappingen met andere reizen, campagnes, of kanaalconfiguraties bepalen. Als u overlappingen op publiek wilt identificeren, begin en einddatum, kanaalconfiguratie, kanaal, of regelreeks kunt u potentiële conflicten hier bekijken."
+>De hulpmiddelen voor Conflictbeheer en prioritering zijn momenteel alleen beschikbaar als Beperkte beschikbaarheid voor geselecteerde gebruikers.
 
 Naarmate de markt het aantal campagnes en reizen in Journey Optimizer verhoogt, wordt het steeds moeilijker voor een marketeer om te weten of zij hun klanten met te veel marketinginteracties bombarderen. daarom is het van essentieel belang dat bij overlappende campagnes en reizen gemakkelijk kan worden vastgesteld dat zij het juiste evenwicht van de marketingcommunicatie bereiken en tegelijkertijd het risico van vermoeidheid van de klant verminderen .
 
@@ -45,7 +41,7 @@ De belangrijkste gebieden om voor potentiële overlapping te controleren zijn:
 * **het Bedekken van Reeks van de Regel**: Welke types van reizen ben ik bedekken en is er overlapping binnen die?
 * **Configuratie van het Kanaal**: Zijn er andere reizen of campagnes gebruikend om het even welke kanaalconfiguratie die in de zelfde reis of de campagne wordt gebruikt die de reis of de campagne zou kunnen verhinderen aan het eind - gebruiker worden getoond?
 
-### Hoe Journey Optimizer conflicten detecteert {#detection}
+## Hoe Journey Optimizer conflicten detecteert {#detection}
 
 Hieronder volgt een overzicht van de manier waarop Journey Optimizer mogelijke conflicten voor reizen en campagnes identificeert:
 
@@ -55,7 +51,7 @@ Hieronder volgt een overzicht van de manier waarop Journey Optimizer mogelijke c
 * **Campagnes**: Aangezien alle campagnes doelpubliek richten en er geen concept gebeurtenissen is, veroorzaken alle campagnes potentieel conflict met segment-teweeggebrachte reizen (die met een Gelezen publieksactiviteit beginnen).
 * **Levende/Geplande campagnes**: Levende en geplande campagnes kunnen met elkaar in conflict brengen toe te schrijven aan potentiële publieksoverlap. Voor elke campagne worden alle live- of geplande campagnes vermeld in de conflictviewer.
 
-### Geselecteerde conflicten voor een bepaalde reis of campagne weergeven {#view}
+## Geselecteerde conflicten voor een bepaalde reis of campagne weergeven {#view}
 
 Wanneer u een reis of campagne maakt, kunt u met Journey Optimizer controleren of er een mogelijkheid is om overlappingen te maken met andere reizen of campagnes. Ga als volgt te werk om dit te doen:
 
@@ -79,7 +75,7 @@ Wanneer u een reis of campagne maakt, kunt u met Journey Optimizer controleren o
 
 Als u uw zoekopdracht naar mogelijke overlappingen verder wilt verfijnen, kunt u uw lijst met campagnes en reizen filteren op basis van de velden die u relevant vindt. Selecteer hiertoe het filterpictogram in de overzichtsweergave. [ leer hoe te met filters ](../start/search-filter-categorize.md#filter-lists) werken
 
-### Conflicten oplossen {#resolve}
+## Conflicten oplossen {#resolve}
 
 Hier volgen enkele tips voor het verminderen van mogelijke conflicten nadat deze zijn geïdentificeerd:
 
@@ -90,29 +86,3 @@ Hier volgen enkele tips voor het verminderen van mogelijke conflicten nadat deze
 * Plaats **prioriteiten** op binnenkomende acties om de belangrijkste actie te verzekeren wordt getoond aan klanten.
 
 Door deze mogelijkheden leveraging, kunt u ervoor zorgen dat uw marketing inspanningen worden gericht en dat u het juiste evenwicht in uw communicatie strategie handhaaft.
-
-## Prioritaire scores toewijzen aan reizen en campagnes {#priority}
-
->[!CONTEXTUALHELP]
->id="ajo_journey_priority"
->title="Prioriteit"
->abstract="Wijs een prioritaire score aan de reis toe, die zich van 0 tot 100 uitstrekken. Een hoger getal geeft een hogere prioriteit aan. De hier ingevoegde prioriteitswaarde wordt overgeërfd door binnenkomende acties (zoals In-App) die zich in deze reis bevinden. Voor situaties waar deze zelfde binnenkomende kanaalconfiguratie in andere campagnes of reizen wordt gebruikt, wordt de binnenkomende actie met de hoogste prioritaire score getoond aan de ontvanger. Als meerdere reizen of campagnes dezelfde score hebben, wordt het element gekozen dat het laatst is gewijzigd."
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_campaign_priority"
->title="Prioriteit"
->abstract="Wijs een prioriteitsscore toe aan de campagne, variërend van 0 tot 100. Een hoger getal geeft een hogere prioriteit aan. Voor situaties waarin deze zelfde binnenkomende kanaalconfiguratie (zoals in-App) in andere campagnes of reizen wordt gebruikt, wordt de binnenkomende actie met de hoogste prioritaire score getoond aan de ontvanger. Als meerdere reizen of campagnes dezelfde score hebben, wordt het element gekozen dat het laatst is gewijzigd."
-
-Met Journey Optimizer kunt u een prioriteitsscore toekennen aan een reis of campagne. Prioriteit is essentieel om prioriteit te geven aan een reis, campagne of actie wanneer er een opgelegde beperking is (zoals een frequentiegrens). In situaties waar een klant voor vele reizen, campagnes, of mededelingen kwalificeert en u selectief wilt zijn wat zij zouden moeten ingaan en ontvangen, zou u dit gebied moeten gebruiken.
-
->[!NOTE]
->
->Prioriteitsscore is beschikbaar voor binnenkomende kanalen: web, in-app en op code gebaseerde kanalen. In reis, is de prioritaire score beschikbaar voor **in-app** en **code-gebaseerde** kanalen slechts.
-
-Het toewijzen van een prioritaire score is essentieel voor binnenkomende communicatie zoals Web, Mobiel, &amp; in-App. Als u meerdere campagnes hebt met dezelfde kanaalconfiguratie (bijvoorbeeld een banner boven op uw webpagina), kan dit problematisch zijn omdat slechts inhoud van één campagne gemakkelijk kan worden weergegeven. Bij de prioriteitsscore voegt u uw voorkeur in waarvoor de campagne moet worden weergegeven wanneer de ontvanger in aanmerking komt voor meer dan één campagne.
-
-Als u een prioriteitsscore wilt toewijzen aan een reis of campagne, voert u een numerieke waarde (van 0 tot 100) in het veld **[!UICONTROL Priority score]** in in de eigenschappen van de reis of campagne. Let op: hoe hoger het getal, hoe hoger de prioriteit. Als u deze campagne zou ontwerpen en ervoor wilde zorgen dat deze inhoud van de campagne wordt getoond, zou u het een score van 100 geven.
-
-![](assets/priority-score.png)
-
-Voor situaties waarin twee campagnes dezelfde prioriteitsscore hebben, wordt de campagne weergegeven die als eerste werd geactiveerd.
