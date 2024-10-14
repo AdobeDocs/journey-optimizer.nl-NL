@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1477'
 ht-degree: 1%
 
 ---
@@ -160,7 +160,7 @@ Volg de onderstaande stappen om de op code gebaseerde instellingen voor ervaring
 
 1. Selecteer **[!UICONTROL Other]** als het platform als uw implementatie niet voor Web, iOS of Android is, of als u specifieke URI&#39;s moet instellen.
 
-1. Voer de **[!UICONTROL Surface URI]** in. [Meer informatie](#surface-definition)
+1. Voer de **[!UICONTROL Surface URI]** in. Een oppervlakte-URI is een unieke identificatie die correspondeert met de entiteit waar u uw ervaring wilt leveren. [Meer informatie](#surface-definition)
 
    ![](assets/code_config_5.png)
 
@@ -174,7 +174,7 @@ Volg de onderstaande stappen om de op code gebaseerde instellingen voor ervaring
    >
    >Wanneer u meerdere URI&#39;s toevoegt, wordt de inhoud aan alle vermelde componenten geleverd.
 
-## Wat is een oppervlakte-URI? {#surface-definition}
+## Wat is een oppervlak? {#surface-definition}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
