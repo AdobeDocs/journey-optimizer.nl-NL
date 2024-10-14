@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 943969584b917d3172b0677118e8407eb3e153fd
 workflow-type: tm+mt
-source-wordcount: '5606'
+source-wordcount: '5622'
 ht-degree: 13%
 
 ---
@@ -21,9 +21,10 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 
 ## Oktober 2024 {#oct-2024}
 
-* Vorm uw code-gebaseerde ervaringspagina is verbeterd om het proces helderder te maken, met inbegrip van de sectie die verklaart wat een oppervlakte URI is. [Meer informatie](../code-based/code-based-configuration.md)
+* **vorm uw code-gebaseerde ervaring** pagina is verbeterd om het proces helderder te maken, met inbegrip van de sectie die verklaart wat een oppervlakte URI is. [Meer informatie](../code-based/code-based-configuration.md)
+* **creeer de configuratie van het Webkanaal** pagina is bijgewerkt om de stappen te verduidelijken wanneer het creëren van een pagina passende regel, die ook op code-gebaseerde ervaringsconfiguratie van toepassing is. [Meer informatie](../web/web-configuration.md#web-page-matching-rule)
+* Er is een notitie toegevoegd over de aanstaande time-to-live (TTL) guardrail voor door het systeem gegenereerde gegevenssets. [Meer informatie](../data/get-started-datasets.md)
 
-* De configuratiepagina Webkanaal maken is bijgewerkt om de stappen te verduidelijken wanneer het creëren van een pagina die regel aanpassen, die ook op code-gebaseerde ervaringsconfiguratie van toepassing is. [Meer informatie](../web/web-configuration.md#web-page-matching-rule)
 
 ## September 2024 {#sept-2024}
 
@@ -31,7 +32,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * Er is een gedeelte toegevoegd over het beheer van de reistijd. [Meer informatie](../building-journeys/read-audience.md#read-audience-retry)
 * Veelgestelde vragen over het Afbakenen/vertragen van regel voor douaneacties zijn bijgewerkt om de standaard het afschilderen regel te vermelden. [Meer informatie](../configuration/external-systems.md#faq)
 * Het gedeelte Toegang tot besturingselement is bijgewerkt met machtigingen voor de AI Assistant Content Generator. [Meer informatie](../administration/high-low-permissions.md#ai-permission)
-* Er is een video toegevoegd over het genereren van e-mailberichten door de AI Assistant Content Generator. [Meer informatie](../content-management/generative-email.md#video)
+* Er is een video toegevoegd over de AI Assistant Content Generator voor het genereren van e-mail. [Meer informatie](../content-management/generative-email.md#video)
 
 
 ## Augustus 2024 {#aug-2024}
