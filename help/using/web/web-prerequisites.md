@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: 573d6e8611e90df2390576912929d5f85e386537
 workflow-type: tm+mt
 source-wordcount: '1119'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Als u webpagina&#39;s wilt openen en schrijven in de gebruikersinterface van [!D
 
 * Als u wijzigingen aan uw website wilt toevoegen, moet u over een specifieke implementatie beschikken. [Meer informatie](#implementation-prerequisites)
 
-* Als u toegang wilt tot de [!DNL Journey Optimizer] -webontwerper, moet een specifieke Google Chrome-browserextensie zijn geïnstalleerd. [Meer informatie](#visual-authoring-prerequesites)
+* Als u toegang wilt tot de [!DNL Journey Optimizer] -webontwerper, moet een specifieke Google Chrome-browserextensie zijn geïnstalleerd. [Meer informatie](#visual-authoring-prerequisites)
 
 * Voor de Webervaring die correct moet worden geleverd, zorg ervoor u de hier gedetailleerde montages van Adobe Experience Platform [ ](#delivery-prerequisites) bepaalt.
 
