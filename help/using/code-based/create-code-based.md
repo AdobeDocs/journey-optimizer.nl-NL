@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 3c4aef3e062eb6a8b106ce00b86cd0594e94d7b0
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1669'
 ht-degree: 1%
 
 ---
@@ -213,7 +213,7 @@ Wanneer u code-gebaseerde ervaringen voor Web-pagina&#39;s of mobiele apps bouwt
 
    <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-   Wanneer u een ander testprofiel of andere behandeling selecteert, verandert de voorbeeldkoppeling zodat u een koppeling voor elk testprofiel en/of behandeling kunt hebben en de ervaringen kunt vergelijken.
+   Wanneer u de inhoud bijwerkt of een ander testprofiel of andere behandeling selecteert, wordt de voorbeeldkoppeling automatisch vernieuwd. U kunt de koppeling naar verschillende tabbladen voor browsers kopiëren en de ervaringen vergelijken.
 
 ## Uw op code gebaseerde ervaring live maken {#code-based-experience-live}
 
