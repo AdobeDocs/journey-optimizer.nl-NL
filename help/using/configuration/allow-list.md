@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: lijst van gewenste personen, lijst, veilig, configuratie
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 6c35809af2aaf4803eef7a8e5b3d8b0f351c8ba0
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 2%
@@ -140,7 +140,7 @@ Volg de onderstaande stappen om dit te doen.
 
    >[!NOTE]
    >
-   >Alle ASCII-tekens tussen 32 en 126 zijn toegestaan in het veld **[!UICONTROL Reason]** . De volledige lijst kan op [ worden gevonden deze pagina ](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters) {target="_blank"} bijvoorbeeld.
+   >Alle ASCII-tekens tussen 32 en 126 zijn toegestaan in het veld **[!UICONTROL Reason]** . De volledige lijst kan op [ worden gevonden deze pagina ](https://en.wikipedia.org/wiki/ASCII#Printable_characters) {target="_blank"} bijvoorbeeld.
 
 1. Klik op **[!UICONTROL Submit]**.
 
