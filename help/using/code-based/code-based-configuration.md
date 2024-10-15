@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 83c8417d4aee278eba33e4adf6ccd033bcc6be1a
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1483'
 ht-degree: 1%
 
 ---
@@ -104,7 +104,7 @@ Volg onderstaande stappen om de op code gebaseerde instellingen voor ervaringsco
 1. Het volgende is van toepassing op de voorbeeld-URL:
 
    * Als er één pagina-URL wordt ingevoerd, wordt die URL gebruikt voor de voorvertoning. U hoeft geen andere URL in te voeren.
-   * Als a [ pagina&#39;s passende regel ](../web/web-configuration.md#web-page-matching-rule) wordt geselecteerd, moet u a **[!UICONTROL Default authoring and preview URL]** ingaan die aan voorproef de ervaring in browser zal worden gebruikt.
+   * Als a [ pagina&#39;s passende regel ](../web/web-configuration.md#web-page-matching-rule) wordt geselecteerd, moet u a **[!UICONTROL Default authoring and preview URL]** ingaan die aan voorproef de ervaring in browser zal worden gebruikt. [Meer informatie](../code-based/create-code-based.md#preview-on-device)
 
      ![](assets/code_config_matching_rules_preview.png)
 
@@ -132,9 +132,9 @@ Volg onderstaande stappen om de op code gebaseerde instellingen voor ervaringsco
 
    ![](assets/code_config_3.png){width="500"}
 
-1. Vul het veld **[!UICONTROL Preview URL]** in om voorvertoningen op het apparaat in te schakelen. Deze URL informeert de voorproefdienst van specifieke URL te gebruiken wanneer het teweegbrengen van een voorproef <!--on device. Learn more-->.
+1. Vul het veld **[!UICONTROL Preview URL]** in om voorvertoningen op het apparaat in te schakelen. Deze URL informeert de voorbeeldservice over de specifieke URL die moet worden gebruikt wanneer voorvertoning op apparaat wordt geactiveerd. [Meer informatie](../code-based/create-code-based.md#preview-on-device)
 
-   Voorbeeld-URL is een diepe koppeling die door de ontwikkelaar van de app in uw app is geconfigureerd. Zo zorgt u ervoor dat alle URL&#39;s die overeenkomen met het deep link-schema, in de app worden geopend in plaats van in een mobiele webbrowser. Neem contact op met de ontwikkelaar van de app om het deep link-schema voor uw app te verkrijgen.
+   De URL van de voorvertoning is een diepe koppeling die door de ontwikkelaar van de app in uw app is geconfigureerd. Zo zorgt u ervoor dat alle URL&#39;s die overeenkomen met het deep link-schema, in de app worden geopend in plaats van in een mobiele webbrowser. Neem contact op met de ontwikkelaar van de app om het deep link-schema voor uw app te verkrijgen.
 
 +++  De volgende bronnen kunnen u helpen bij het configureren van diepe koppelingen voor uw app-implementatie
 

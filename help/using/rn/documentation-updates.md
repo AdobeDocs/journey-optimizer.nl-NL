@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 943969584b917d3172b0677118e8407eb3e153fd
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '5622'
+source-wordcount: '5663'
 ht-degree: 13%
 
 ---
@@ -25,6 +25,8 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * **creeer de configuratie van het Webkanaal** pagina is bijgewerkt om de stappen te verduidelijken wanneer het creëren van een pagina passende regel, die ook op code-gebaseerde ervaringsconfiguratie van toepassing is. [Meer informatie](../web/web-configuration.md#web-page-matching-rule)
 * Er is een notitie toegevoegd over de aanstaande time-to-live (TTL) guardrail voor door het systeem gegenereerde gegevenssets. [Meer informatie](../data/get-started-datasets.md)
 
+
+* Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u direct op uw browser of mobiele apparaten op basis van code aangepaste ervaringen kunt bekijken met de optie Voorvertonen op apparaat wanneer u inhoud op een reis of een campagne simuleert. [Meer informatie](../code-based/create-code-based.md#preview-on-device)
 
 ## September 2024 {#sept-2024}
 

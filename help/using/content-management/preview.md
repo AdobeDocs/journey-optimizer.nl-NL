@@ -4,18 +4,21 @@ description: Leer hoe u een voorvertoning van uw inhoud kunt weergeven.
 feature: Preview, Proofs
 role: User
 level: Beginner
-source-git-commit: 27447578dad6bd2612989d79cd0dc8ddbe78d629
+exl-id: 6477270c-0309-411a-8254-c7ffc4419492
+source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 3%
+source-wordcount: '189'
+ht-degree: 4%
 
 ---
 
-# Voorbeeld van uw inhoud bekijken {#preview}
+# Uw inhoud controleren {#preview}
 
-Eenmaal [testprofielen](test-profiles.md) geselecteerd, kunt u een voorvertoning van uw inhoud weergeven. Voer de onderstaande stappen uit:
+<!--## Preview your content {#preview-content}-->
 
-1. Klik in het scherm Inhoud bewerken van uw bericht of in de e-mailontwerper op de knop **[!UICONTROL Simulate content]** knop.
+Zodra [ testprofielen ](test-profiles.md) worden geselecteerd, kunt u voorproef uw inhoud. Volg de onderstaande stappen:
+
+1. Klik op de knop **[!UICONTROL Simulate content]** in het scherm Inhoud bewerken van uw bericht of in de Designer-e-mail.
 
 1. Selecteer een testprofiel. U kunt de waarden controleren die beschikbaar zijn in de kolommen. Gebruik de pijl-rechts/pijl-links om door gegevens te bladeren.
 
@@ -23,9 +26,9 @@ Eenmaal [testprofielen](test-profiles.md) geselecteerd, kunt u een voorvertoning
 
    >[!NOTE]
    >
-   >Als u meer testprofielen wilt toevoegen, selecteert u **[!UICONTROL Manage test profiles]**. [Meer informatie](test-profiles.md)
+   >Selecteer **[!UICONTROL Manage test profiles]** als u meer testprofielen wilt toevoegen. [Meer informatie](test-profiles.md)
 
-1. Klik op de knop **[!UICONTROL Select data]** boven de lijst om kolommen toe te voegen of te verwijderen.
+1. Klik op het pictogram **[!UICONTROL Select data]** boven de lijst om kolommen toe te voegen of te verwijderen.
 
    U kunt de gebieden van de verpersoonlijking voor het huidige bericht aan het eind van de lijst zien. In dit voorbeeld worden stad, voornaam en achternaam van het profiel weergegeven. Selecteer deze velden en zorg ervoor dat deze waarden worden ingevuld in uw testprofielen.
 
@@ -36,3 +39,8 @@ Eenmaal [testprofielen](test-profiles.md) geselecteerd, kunt u een voorvertoning
    ![](../email/assets/preview-test-profile.png)
 
 1. Selecteer andere testprofielen om een voorbeeld van uw e-mail te bekijken voor elke variant van uw bericht.
+
+>[!NOTE]
+>
+>Wanneer u code-gebaseerde ervaringen maakt, kunt u een voorvertoning van uw gepersonaliseerde inhoud direct op uw browser of op uw mobiele apparaten bekijken voor een echte simulatie. [Meer informatie](../code-based/create-code-based.md#preview-on-device)
+
