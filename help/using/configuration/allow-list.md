@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: lijst van gewenste personen, lijst, veilig, configuratie
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 6c35809af2aaf4803eef7a8e5b3d8b0f351c8ba0
+source-git-commit: a7347c57bb82de5181df87e8ab816de392ef97a3
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1100'
 ht-degree: 2%
 
 ---
@@ -201,7 +201,7 @@ Wanneer de lijst van gewenste personen [ actief ](#enable-allow-list) is, is de 
 >
 >De profielen met de status **[!UICONTROL Not allowed]** worden tijdens het verzenden van berichten uitgesloten. Daarom terwijl de **rapporten van de Reis** deze profielen zullen tonen zoals die door de reis ([ gelezen Publiek ](../building-journeys/read-audience.md) en [ berichtactiviteiten ](../building-journeys/journeys-message.md)) zijn bewogen, zullen de **E-mail rapporten** niet hen in de **[!UICONTROL Sent]** metriek omvatten aangezien zij voorafgaand aan e-mail het verzenden worden uitgefilterd.
 >
->Leer meer op het [ Levende Rapport ](../reports/live-report.md) en [ Globale Rapport ](../reports/global-report.md).
+>Leer meer op het [ Levende Rapport ](../reports/live-report.md) en [ rapport van de Customer Journey Analytics ](../reports/report-gs-cja.md).
 
 Wanneer de lijst van gewenste personen [ ](#deactivate-allow-list) wordt gedeactiveerd, worden alle e-mails die u van de huidige zandbak verzendt verzonden naar alle ontvangers (mits zij niet op de suppressielijst), met inbegrip van echte klantenadressen zijn.
 

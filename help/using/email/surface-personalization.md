@@ -10,9 +10,9 @@ level: Experienced
 keywords: instellingen, e-mail, configuratie, subdomein
 badge: label="Beperkte beschikbaarheid"
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: f8a6c2a3b27d5dca422dfdc868f802c6a10b001d
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -36,12 +36,6 @@ Voor meer flexibiliteit en controle over uw e-mailmontages, [!DNL Journey Optimi
 >id="ajo_surface_dynamic_subdomain"
 >title="Dynamische subdomeinen inschakelen"
 >abstract="Wanneer u een e-mailconfiguratie maakt, kunt u dynamische subdomeinen instellen op basis van voorwaarden die u met de verpersoonlijkingseditor definieert. U kunt maximaal 50 dynamische subdomeinen toevoegen."
-
->[!CONTEXTUALHELP]
->id="ajo_surface_dynamic_subdomain_list"
->title="Sommige subdomeinen zijn mogelijk niet beschikbaar"
->abstract="Bepaalde subdomeinen zijn momenteel niet beschikbaar voor selectie vanwege de registratie van de feedbacklus die in behandeling is. Dit proces kan tot 10 werkdagen duren. Na voltooiing kunt u kiezen uit alle beschikbare subdomeinen."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation" text="Aan de slag met subdomeindelegatie"
 
 Wanneer u een e-mailconfiguratie maakt, kunt u dynamische subdomeinen instellen op basis van specifieke voorwaarden.
 
