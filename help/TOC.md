@@ -5,10 +5,10 @@ user-guide-title: Handleiding voor Journey Optimizer
 user-guide-description: Gebruik Journey Optimizer om verbonden, contextuele en gepersonaliseerde ervaringen op te bouwen en te leveren aan uw klanten
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+source-git-commit: 9e810d5dcc9099411e7a81d18e22e9915c170bc2
 workflow-type: tm+mt
-source-wordcount: '2073'
-ht-degree: 26%
+source-wordcount: '2136'
+ht-degree: 25%
 
 ---
 
@@ -384,17 +384,47 @@ ht-degree: 26%
       + [Campagne Live-rapport](using/reports/campaign-live-report.md)
       + [Openingspagina Live-rapport](using/reports/lp-report-live.md)
       + [Abonnementenlijst Live-rapport](using/reports/subscription-report-live.md)
-   + Algemeen rapport {#global-report}
-      + [Aan de slag met Global-rapport](using/reports/global-report.md)
-      + [Lijst met componenten](using/reports/global-report-components.md)
-      + [Journey Global-rapport](using/reports/journey-global-report.md)
-      + [Campagne Global-rapport](using/reports/campaign-global-report.md)
-      + [Doelstelling](using/reports/objective-report.md)
-      + [Openingspagina Global-rapport](using/reports/lp-report-global.md)
-      + [Abonnementenlijst Global-rapport](using/reports/subscription-report-global.md)
-   + Kanaalrapporten {#channel-report}
-      + [Aan de slag met Channel-rapporten](using/reports/channel-report-gs.md)
-      + [Kanaalrapporten](using/reports/channel-report.md)
+   + Rapporten van de Customer Journey Analytics {#channel-report}
+      + [Aan de slag met rapporten over Customers Journey Analytics](using/reports/report-gs-cja.md)
+      + [Customer Journey Analytics handmatig configureren](using/reports/cja-ajo.md)
+      + [Uw rapporten beheren](using/reports/report-cja-manage.md)
+      + [Voorwaarden voor rapportage en experimenten](using/reports/reporting-configuration.md)
+      + Campagnerapporten {#reporting}
+         + [Campagnerapport](using/reports/campaign-global-report-cja.md)
+         + [Op code gebaseerd campagnerapport](using/reports/campaign-global-report-cja-code.md)
+         + [Campagnerapport voor inhoudskaart](using/reports/campaign-global-report-cja-content.md)
+         + [Campagnerapport voor e-mail](using/reports/campaign-global-report-cja-direct.md)
+         + [E-mailcampagnerapport](using/reports/campaign-global-report-cja-email.md)
+         + [campagnerapport voor experimenten](using/reports/campaign-global-report-cja-experimentation.md)
+         + [Campagnerapport in app](using/reports/campaign-global-report-cja-inapp.md)
+         + [Campagnerapport voor pushmeldingen](using/reports/campaign-global-report-cja-push.md)
+         + [Rapport voor SMS-campagne](using/reports/campaign-global-report-cja-sms.md)
+         + [Rapport webcampagne](using/reports/campaign-global-report-cja-web.md)
+      + Reisrapporten {#reporting}
+         + [Reisrapport](using/reports/journey-global-report-cja.md)
+         + [Op code gebaseerd reisrapport](using/reports/journey-global-report-cja-code.md)
+         + [Reisrapport voor inhoudskaart](using/reports/journey-global-report-cja-content.md)
+         + [Directe-mailreisrapport](using/reports/journey-global-report-cja-direct.md)
+         + [E-mailreisrapport](using/reports/journey-global-report-cja-email.md)
+         + [Reisrapport in de app](using/reports/journey-global-report-cja-inapp.md)
+         + [Push-reisrapport](using/reports/journey-global-report-cja-push.md)
+         + [Vervoersrapport voor SMS](using/reports/journey-global-report-cja-sms.md)
+         + [Webreisrapport](using/reports/journey-global-report-cja-web.md)
+      + [Overzichtsrapport](using/reports/channel-report-cja.md)
+      + [Rapport van bestemmingspagina](using/reports/lp-report-global-cja.md)
+      + [Abonnementenlijstrapport](using/reports/subscription-report-global-cja.md)
+   + Voormalig rapportdashboard {#reports}
+      + Algemeen rapport {#global-report}
+         + [Aan de slag met Global-rapport](using/reports/global-report.md)
+         + [Lijst met componenten](using/reports/global-report-components.md)
+         + [Journey Global-rapport](using/reports/journey-global-report.md)
+         + [Campagne Global-rapport](using/reports/campaign-global-report.md)
+         + [Doelstelling](using/reports/objective-report.md)
+         + [Openingspagina Global-rapport](using/reports/lp-report-global.md)
+         + [Abonnementenlijst Global-rapport](using/reports/subscription-report-global.md)
+      + Kanaalrapporten {#channel-report}
+         + [Aan de slag met Channel-rapporten](using/reports/channel-report-gs.md)
+         + [Kanaalrapporten](using/reports/channel-report.md)
    + Reisrapporten {#reports}
       + [Trainingsrapporten maken](using/reports/sharing-overview.md)
       + [Lijst met gebeurtenisvelden voor stappen](using/reports/sharing-field-list.md)
@@ -411,17 +441,7 @@ ht-degree: 26%
       + [De onderdrukkingslijst begrijpen](using/reports/suppression-list.md)
       + [Nieuwe DMARC-vereiste](using/configuration/dmarc-record-update.md)
    + [Waarschuwingen](using/reports/alerts.md)
-   + [Werken met Customer Journey Analytics](using/reports/cja-ajo.md)
    + [Uitsluitingsredenen](using/reports/exclusion-list.md)
-+ Nieuwe rapporteringsinterface (LA) {#channel-report}
-   + [Aan de slag met de nieuwe rapportinterface](using/reports/report-gs-cja.md)
-   + [Voorwaarden voor rapportage en experimenten](using/reports/reporting-configuration.md)
-   + [Uw rapporten beheren](using/reports/report-cja-manage.md)
-   + [Reisrapport](using/reports/journey-global-report-cja.md)
-   + [Campagnerapport](using/reports/campaign-global-report-cja.md)
-   + [Overzichtsrapport](using/reports/channel-report-cja.md)
-   + [Rapport van bestemmingspagina](using/reports/lp-report-global-cja.md)
-   + [Abonnementenlijstrapport](using/reports/subscription-report-global-cja.md)
 + Decisioning {#decisioning}
    + Beslissingsbeheer {#offer-decisioning}
       + Aan de slag met beslissingsbeheer {#get-started-decision}
