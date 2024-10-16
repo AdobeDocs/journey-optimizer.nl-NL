@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: 1948bc304da8af9a83a2f0f81854a701d0d65e2b
 workflow-type: tm+mt
-source-wordcount: '5663'
+source-wordcount: '5668'
 ht-degree: 13%
 
 ---
@@ -24,9 +24,8 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * **vorm uw code-gebaseerde ervaring** pagina is verbeterd om het proces helderder te maken, met inbegrip van de sectie die verklaart wat een oppervlakte URI is. [Meer informatie](../code-based/code-based-configuration.md)
 * **creeer de configuratie van het Webkanaal** pagina is bijgewerkt om de stappen te verduidelijken wanneer het creëren van een pagina passende regel, die ook op code-gebaseerde ervaringsconfiguratie van toepassing is. [Meer informatie](../web/web-configuration.md#web-page-matching-rule)
 * Er is een notitie toegevoegd over de aanstaande time-to-live (TTL) guardrail voor door het systeem gegenereerde gegevenssets. [Meer informatie](../data/get-started-datasets.md)
-
-
 * Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u direct op uw browser of mobiele apparaten op basis van code aangepaste ervaringen kunt bekijken met de optie Voorvertonen op apparaat wanneer u inhoud op een reis of een campagne simuleert. [Meer informatie](../code-based/create-code-based.md#preview-on-device)
+* Er is een nieuwe pagina toegevoegd over het gebruik van Aangepast uploadpubliek voor besluitvorming. [Meer informatie](../offers/custom-upload-decisioning.md)
 
 ## September 2024 {#sept-2024}
 
@@ -131,7 +130,6 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * Werk de **duur** parameter in de `toString` functie bij. [Meer informatie](../building-journeys/functions/functiontostring.md)
 * Voor sommige externe gegevensbronnen wordt het gebruik van aangepaste handelingen aanbevolen.
 * Syntaxis van gebeurtenisveld is bijgewerkt. De volgende syntaxis is afgekeurd `@(my_event.myfield}` en vervangen door `@event{my_event.myfield}` . [Meer informatie](../building-journeys/expression/field-references.md)
-* Het Global-rapport en de Live-rapporthulplijnen zijn gereorganiseerd. [Meer informatie](../reports/campaign-global-report.md)
 
 +++ 2023
 
@@ -179,7 +177,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * De nota over **beheer van het authentificatiecache** in reis is bijgewerkt om te specificeren dat het teken niet tussen verschillende reizen wordt gedeeld. [Meer informatie](../datasource/external-data-sources.md#custom-authentication-mode)
 * De pagina over reis **ingangsbeheer** is bijgewerkt om gedrag te verduidelijken. [Meer informatie](../building-journeys/entry-management.md)
 * Offer decisioning **de uitvoerdatasets** worden nu toegelaten door gebrek. De opmerking over het vorige gedrag is verwijderd.  [Meer informatie](../offers/export-catalog/get-started-export.md)
-* Diverse **metriek van het campagnerapport** zijn anders genoemd, in zowel Levende als Globale rapporten. [Meer informatie](../reports/campaign-global-report.md)
+* Diverse **metriek van het campagnerapport** zijn anders genoemd, in zowel Levende als Globale rapporten. [Meer informatie](../reports/campaign-live-report.md)
 * Er is een nieuwe sectie toegevoegd over de voorwaarden voor het testen van inhoud voor het webkanaal. [Meer informatie](../web/web-prerequisites.md#experiment-prerequisites)
 * Een waarschuwing is toegevoegd op het **Werk met inhoudsmalplaatjes** pagina om erop te wijzen dat momenteel het volgen niet wanneer het testen van e-mailinhoudsmalplaatjes wordt gesteund. Voor het testen van het bijhouden moet u de inhoudssjabloon in een e-mail gebruiken en een proefdruk verzenden. [Meer informatie](../content-management/content-templates.md#test-template)
 * Verscheidene waarschuwingen zijn toegevoegd in **creeer en publiceer het landen pagina&#39;s** sectie om te specificeren dat u niet tot uw het landen pagina door eenvoudig te kopiëren-kleeft in Webbrowser URL kunt toegang hebben die wanneer het creëren van de pagina wordt bepaald, zelfs als gepubliceerd. In plaats daarvan kunt u het testen met behulp van de voorvertoningsfunctie. [Meer informatie](../landing-pages/create-lp.md)
@@ -297,9 +295,9 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * Bijgewerkt de pagina&#39;s met betrekking tot [ toDateOnly ](../building-journeys/functions/functiontodateonly.md) en [ toString ](../building-journeys/functions/functiontostring.md) functies.
 * Meer informatie over de parameters voor de tijdvoorwaarde. [Meer informatie](../building-journeys/condition-activity.md#time_condition)
 * Toegevoegde informatie over ingebouwde datasets. [Meer informatie](../data/get-started-datasets.md#access-datasets)
-* De secties Global Report en Live zijn verbeterd en gereorganiseerd. [Meer informatie](../reports/global-report.md)
+* De secties Global Report en Live zijn verbeterd en gereorganiseerd. [Meer informatie](../reports/report-gs-cja.md)
 * Er is een lijst toegevoegd met alle in Adobe Journey Optimizer beschikbare rapporteringsmetrische gegevens.
-  [Meer informatie](../reports/global-report.md#email-and-sms-metrics)
+  [Meer informatie](../reports/report-gs-cja.md#email-and-sms-metrics)
 * Het e-mailgedeelte BCC is verplaatst naar de nieuwe pagina Ondersteuning voor archivering. [Meer informatie](../configuration/archiving-support.md)
 
 ## Augustus 2022 {#august-2022}
@@ -444,7 +442,7 @@ Deze pagina bevat een overzicht van alle meest recente updates in de documentati
 * De configuratieprocedure voor aangepaste handelingen met dynamische URL-paden en dynamische koppen is bijgewerkt. [Meer informatie](../action/about-custom-action-configuration.md#url-configuration)
 * Een sectie over toegankelijkheidsfuncties en sneltoetsen toegevoegd. [Meer informatie](../start/user-interface.md#accessibility)
 * Een sectie toegevoegd over de evaluatiemethoden voor het publiek. [Meer informatie](../audience/about-audiences.md#evaluation-method-in-journey-optimizer)
-* Toegevoegde notities bij de lijst Onderdrukking, de secties Lijst van gewenste personen en E-mail global/live om aan te geven dat profielen met de status Onderdrukt en Niet toegestaan zijn uitgesloten van het e-mailrapport Metriek verzonden. [Meer informatie](../reports/global-report.md)
+* Toegevoegde notities bij de lijst Onderdrukking, de secties Lijst van gewenste personen en E-mail global/live om aan te geven dat profielen met de status Onderdrukt en Niet toegestaan zijn uitgesloten van het e-mailrapport Metriek verzonden. [Meer informatie](../reports/report-gs-cja.md)
 * Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe e-mailadressen of domeinen kunnen worden opgehaald die zijn uitgesloten van een verzendende server omdat deze zich niet op de lijst van gewenste personen bevonden. [Meer informatie](../configuration/allow-list.md#reporting)
 * De sectie lijst van gewenste personen inschakelen is bijgewerkt. [Meer informatie](../configuration/allow-list.md#enable-allow-list)
 * De sectie met voorinstellingen voor monitorberichten is bijgewerkt met de mogelijke oorzaken van een eventuele fout bij het maken van de voorinstelling en details over dergelijke fouten. [Meer informatie](../configuration/channel-surfaces.md#monitor-channel-surfaces)
