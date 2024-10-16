@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: a04f60d946845725e09855b4aa19bc6ef4b4db99
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -72,51 +72,51 @@ Uw rapport is nu beschikbaar voor weergave, downloaden of delen in een PDF-besta
 
 >[!ENDTABS]
 
-<!--
-## Schedule exports {#schedule-export}
 
-The **Schedule export** lets you automate the delivery of up to 10 reports at weekly, monthly or yearly intervals. You can also easily manage your scheduled reports, with options to update, edit, cancel, or delete any of your scheduled exports.
+## Uitvoer plannen {#schedule-export}
 
-1. From your report, click **[!UICONTROL Share]** and select **[!UICONTROL Schedule export]**.
+De **uitvoer van het Programma** laat u de levering van tot 10 rapporten met wekelijkse, maandelijkse of jaarlijkse intervallen automatiseren. U kunt uw geplande rapporten ook eenvoudig beheren met opties om uw geplande exportbewerkingen bij te werken, te bewerken, te annuleren of te verwijderen.
+
+1. Klik in uw rapport op **[!UICONTROL Share]** en selecteer **[!UICONTROL Schedule export]** .
 
    ![](assets/export-schedule-1.png)
 
-1. Choose your **[!UICONTROL File type]** between CSV and PDF.
+1. Kies de **[!UICONTROL File type]** tussen CSV en PDF.
 
-1. If needed, you can add a **[!UICONTROL Description]** to your export.
+1. Indien nodig kunt u een **[!UICONTROL Description]** toevoegen aan de exportbewerking.
 
-1. Enter the name of the recipients who will receive this automated delivery.
+1. Voer de naam in van de ontvangers die deze automatische levering zullen ontvangen.
 
    ![](assets/export-schedule-2.png)
 
-1. Choose the **[!UICONTROL Frequency]**.
+1. Kies de **[!UICONTROL Frequency]** .
 
-1. Based on the selected frequency, provide the relevant scheduling details, such as:
+1. Verstrek op basis van de geselecteerde frequentie de relevante planningsdetails, zoals:
 
-   * Start and end dates
-   
-   * Interval (e.g., every few weeks)
+   * Begin- en einddatum
 
-   * Specific day of the week
-   
-   * Week within the month
+   * Interval (bv. elke paar weken)
 
-   * Day within the month
-   
-   * Month of the year
+   * Specifieke dag van de week
 
-1. Click **[!UICONTROL Send on schedule]**.
+   * Week binnen de maand
 
-1. To edit previously created scheduled export, click **[!UICONTROL Share]** and select **[!UICONTROL Manage schedules]**.
+   * Dag binnen de maand
+
+   * Maand van het jaar
+
+1. Klik op **[!UICONTROL Send on schedule]**.
+
+1. Als u eerder gemaakte geplande export wilt bewerken, klikt u op **[!UICONTROL Share]** en selecteert u **[!UICONTROL Manage schedules]** .
 
    ![](assets/export-schedule-3.png)
 
-1. From the list of scheduled exports, choose the one you want to update and make the necessary changes.
+1. Kies in de lijst met geplande exportbewerkingen de exportcode die u wilt bijwerken en breng de gewenste wijzigingen aan.
 
-1. To delete a scheduled report, select one from the managed schedules list and click **[!UICONTROL Delete]**.
+1. Als u een gepland rapport wilt verwijderen, selecteert u een rapport in de lijst met beheerde programma&#39;s en klikt u op **[!UICONTROL Delete]** .
 
    ![](assets/export-schedule-4.png)
--->
+
 
 ## Een eenvoudige metrische methode maken {#create-simple-metric}
 
