@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: koppelingen, bijhouden, controleren, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '996'
 ht-degree: 1%
 
 ---
@@ -160,7 +160,7 @@ De retentieperiode voor een spiegelpagina is 60 dagen. Na die vertraging is de s
    * **[!UICONTROL Mirror page]**: beschouwt deze URL als een URL van een spiegelpagina.
    * **[!UICONTROL Never]**: activeert het bijhouden van deze URL nooit.
 
-Het melden van openingen en klikken is beschikbaar in het [ Levende rapport ](../reports/live-report.md) en in het [ Globale rapport ](../reports/global-report.md).
+Het melden van openingen en klikken is beschikbaar in het [ Levende rapport ](../reports/live-report.md) en in het [ rapport van de Customer Journey Analytics ](../reports/report-gs-cja.md).
 
 ## URL-tracking aanpassen {#url-tracking}
 

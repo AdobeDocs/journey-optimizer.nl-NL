@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 1%
@@ -59,7 +59,7 @@ Wanneer uw duw bericht klaar is, voltooi de configuratie van uw [ reis ](../buil
 **Verwante onderwerpen**
 
 * [Pushkanaal configureren](push-configuration.md)
-* [Pushmeldingenrapport](../reports/journey-global-report.md#push-global)
+* [Pushmeldingenrapport](../reports/journey-global-report-cja-push.md)
 * [Een pushmelding maken](create-push.md)
 * [Een bericht toevoegen tijdens een rit](../building-journeys/journeys-message.md)
 * [Een bericht toevoegen aan een campagne](../campaigns/create-campaign.md)

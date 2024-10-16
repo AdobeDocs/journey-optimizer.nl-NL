@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Algemeen rapport landingspagina
+title: Rapport van bestemmingspagina
 description: Leer hoe u gegevens uit uw rapport met bestemmingspagina's kunt gebruiken
 feature: Reporting, Landing Pages
 topic: Content Management
@@ -9,52 +9,52 @@ role: User
 level: Intermediate
 badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
-source-git-commit: b80d794f3782056a10310c65144a8eecbddaaf3e
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
 
 # Rapport van bestemmingspagina {#lp-report-global-cja}
 
-De **Openingspagina** -rapport biedt waardevolle inzichten in gebruikersgedrag, betrokkenheidspatronen, conversiesnelheden en andere belangrijke gegevens, zodat u geïnformeerde beslissingen kunt nemen en de prestaties van uw bestemmingspagina effectief kunt optimaliseren.
+Het **LandingPagina** rapport biedt waardevolle inzichten in gebruikersgedrag, betrokkenheidspatronen, omzettingspercentages, en andere zeer belangrijke metriek aan, die u machtigen om geïnformeerde besluiten te nemen en uw het landen paginaprestaties effectief te optimaliseren.
 
-Als u uw rapporten wilt openen, selecteert u **[!UICONTROL Report]** in het geavanceerde menu van de geselecteerde bestemmingspagina.
+Als u rapporten wilt openen, selecteert u **[!UICONTROL Report]** in het menu Geavanceerd van de geselecteerde bestemmingspagina.
 
 ![](assets/cja-lp.png)
 
-Voor meer informatie over de werkruimte van de Customer Journey Analytics en over het filteren en analyseren van gegevens raadpleegt u [deze pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Meer leren op de werkruimte van de Customer Journey Analytics en hoe te om gegevens te filtreren en te analyseren, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Conversiesnelheid landingspagina {#lp-conversion}
 
 ![](assets/cja-lp-conversion-rate.png)
 
-De **[!UICONTROL Landing page Conversion rate]** Met KPI kunt u de effectiviteit van uw landingspagina beoordelen op basis van het aantal bezoeken en interacties.
+Met de KPI van **[!UICONTROL Landing page Conversion rate]** kunt u de effectiviteit van de bestemmingspagina beoordelen op basis van het aantal bezoeken en interacties.
 
-* **[!UICONTROL Landing page Conversion rate]**: Aantal personen dat met de landingspagina heeft gecommuniceerd, bv. op een formulier geabonneerd, in verhouding tot het totale aantal bezoeken.
+* **[!UICONTROL Landing page Conversion rate]**: Aantal personen dat interactie had met de landingspagina, bv. geabonneerd op een formulier, in verhouding tot het totale aantal bezoeken.
 
 ## Stuitsnelheid landingspagina {#lp-bounce-rate}
 
 ![](assets/cja-lp-bounce-rate.png)
 
-De **[!UICONTROL Landing page Bounce rate]** KPI biedt informatie over profielen die de landingspagina hebben weergegeven zonder interactie of klik op elementen.
+De PKI van **[!UICONTROL Landing page Bounce rate]** verstrekt informatie over profielen die uw landende pagina bekeken zonder interactie of klikkend op om het even welke elementen.
 
-* **[!UICONTROL Landing page Bounce rate]**: Aantal personen dat niet heeft gecommuniceerd met de aanlandingspagina en de actie van het inschrijven niet heeft voltooid, in verhouding tot het totale aantal bezoeken.
+* **[!UICONTROL Landing page Bounce rate]**: Aantal personen dat niet heeft gecommuniceerd met de landingspagina en de actie van het inschrijven niet heeft voltooid, in verhouding tot het totale aantal bezoeken.
 
 ## Weergaven van bestemmingspagina {#lp-views}
 
 ![](assets/cja-lp-views.png)
 
-De **[!UICONTROL Landing page Views]** Met KPI kunt u de impact van uw landingspagina zien.
+Met de KPI van **[!UICONTROL Landing page Views]** kunt u het effect van de landingspagina zien.
 
-* **[!UICONTROL Landing page Views]**: Het totale aantal bezoeken aan uw landingspagina dat afkomstig is van reizen en externe bronnen, inclusief meerdere bezoeken van één profiel.
+* **[!UICONTROL Landing page Views]**: Het totale aantal bezoeken aan de landingspagina dat afkomstig is van reizen en externe bronnen, inclusief meerdere bezoeken van één profiel.
 
 ## Weergaven unieke bestemmingspagina {#lp-unique-views}
 
 ![](assets/cja-lp-unique-views.png)
 
-De **[!UICONTROL Unique Landing page Views]** Met KPI kunt u de impact van de landingspagina meten door meerdere weergaven van hetzelfde profiel uit te sluiten.
+Met de KPI van **[!UICONTROL Unique Landing page Views]** kunt u het effect van de landingspagina meten door meerdere weergaven van hetzelfde profiel uit te sluiten.
 
 * **[!UICONTROL Unique Landing page Views]**: Het aantal personen dat uw landingspagina heeft bezocht en het aantal bezoeken van één profiel worden niet meegerekend.
 
@@ -62,56 +62,56 @@ De **[!UICONTROL Unique Landing page Views]** Met KPI kunt u de impact van de la
 
 ![](assets/cja-lp-performance-overtime.png)
 
-De **[!UICONTROL Landing page performance over time]** in de grafiek wordt het succes van uw landingspagina&#39;s en de impact op uw doelgroep gemeten.
+De grafiek van **[!UICONTROL Landing page performance over time]** meet het succes van uw landingspagina&#39;s en de invloed op uw doelgroep.
 
-* **[!UICONTROL Landing page Views]**: Het totale aantal bezoeken aan uw landingspagina dat afkomstig is van reizen en externe bronnen, inclusief meerdere bezoeken van één profiel.
+* **[!UICONTROL Landing page Views]**: Het totale aantal bezoeken aan de landingspagina dat afkomstig is van reizen en externe bronnen, inclusief meerdere bezoeken van één profiel.
 
-* **[!UICONTROL Landing page Conversion rate]**: Aantal personen dat met de landingspagina heeft gecommuniceerd, bv. op een formulier geabonneerd, in verhouding tot het totale aantal bezoeken.
+* **[!UICONTROL Landing page Conversion rate]**: Aantal personen dat interactie had met de landingspagina, bv. geabonneerd op een formulier, in verhouding tot het totale aantal bezoeken.
 
 ## Prestaties van bestemmingspagina {#lp-performance}
 
 ![](assets/cja-lp-performance.png)
 
-De **[!UICONTROL Landing page performance]** de tabel fungeert als een uitgebreid dashboard met een gedetailleerde uitsplitsing van de belangrijkste meetgegevens voor uw landingspagina.
+De tabel **[!UICONTROL Landing page performance]** fungeert als een uitgebreid dashboard met een gedetailleerde uitsplitsing van de belangrijkste metriek voor de landingspagina.
 
-* **[!UICONTROL Landing page Conversion rate]**: Aantal personen dat met de landingspagina heeft gecommuniceerd, bv. op een formulier geabonneerd, in verhouding tot het totale aantal bezoeken.
+* **[!UICONTROL Landing page Conversion rate]**: Aantal personen dat interactie had met de landingspagina, bv. geabonneerd op een formulier, in verhouding tot het totale aantal bezoeken.
 
-* **[!UICONTROL Landing page Bounce rate]**: Aantal personen dat niet heeft gecommuniceerd met de aanlandingspagina en de actie van het inschrijven niet heeft voltooid, in verhouding tot het totale aantal bezoeken.
+* **[!UICONTROL Landing page Bounce rate]**: Aantal personen dat niet heeft gecommuniceerd met de landingspagina en de actie van het inschrijven niet heeft voltooid, in verhouding tot het totale aantal bezoeken.
 
 * **[!UICONTROL Unique Landing page Views]**: Het aantal personen dat uw landingspagina heeft bezocht en het aantal bezoeken van één profiel worden niet meegerekend.
 
-* **[!UICONTROL Unique Landing page Conversion rate]**: Het aantal personen dat interactie heeft gehad met de landingspagina, de meervoudige interacties van één profiel worden niet in aanmerking genomen.
+* **[!UICONTROL Unique Landing page Conversion rate]**: Er wordt geen rekening gehouden met het aantal personen dat interactie heeft gehad met de landingspagina en met meerdere interacties van één profiel.
 
-* **[!UICONTROL Landing page Views]**: Het totale aantal bezoeken aan uw landingspagina dat afkomstig is van reizen en externe bronnen, inclusief meerdere bezoeken van één profiel.
+* **[!UICONTROL Landing page Views]**: Het totale aantal bezoeken aan de landingspagina dat afkomstig is van reizen en externe bronnen, inclusief meerdere bezoeken van één profiel.
 
 * **[!UICONTROL Landing page Conversion]**: Aantal personen dat interactie heeft gehad met de landingspagina, bijvoorbeeld geabonneerd op een formulier.
 
 ## Journeys {#lp-journeys}
 
-De **[!UICONTROL Journey]** de tabel biedt een uitgebreid overzicht van de frequentie van bezoeken aan uw landingspagina in het kader van de reis van een gebruiker. Deze inzichtelijke weergave biedt waardevolle gegevens over gebruikersinteracties, waarmee u kunt begrijpen hoe bezoekers door uw site navigeren en met uw inhoud werken.
+De tabel **[!UICONTROL Journey]** biedt een uitgebreid overzicht met de frequentie van bezoeken aan de landingspagina in de context van de reis van een gebruiker. Deze inzichtelijke weergave biedt waardevolle gegevens over gebruikersinteracties, waarmee u kunt begrijpen hoe bezoekers door uw site navigeren en met uw inhoud werken.
 
-* **[!UICONTROL Landing page Views]**: Het totale aantal bezoeken aan uw landingspagina dat afkomstig is van reizen en externe bronnen, inclusief meerdere bezoeken van één profiel.
+* **[!UICONTROL Landing page Views]**: Het totale aantal bezoeken aan de landingspagina dat afkomstig is van reizen en externe bronnen, inclusief meerdere bezoeken van één profiel.
 
 * **[!UICONTROL Landing page Conversion]**: Aantal personen dat interactie heeft gehad met de landingspagina, bijvoorbeeld geabonneerd op een formulier.
 
 ## Campagnes {#lp-campaigns}
 
-De **[!UICONTROL Campaigns]** de tabel biedt inzicht in het aantal bezoeken dat naar uw landingspagina is gericht als gevolg van specifieke campagnes en biedt een uitgebreid overzicht van de doeltreffendheid van de campagne en de betrokkenheid bij uw landingspagina-inhoud.
+De tabel van **[!UICONTROL Campaigns]** biedt inzicht in het aantal bezoeken dat naar uw landingspagina is gericht als gevolg van specifieke campagnes en biedt een uitgebreid overzicht van de doeltreffendheid van de campagne en de betrokkenheid bij uw landingspagina-inhoud.
 
-* **[!UICONTROL Landing page Views]**: Het totale aantal bezoeken aan uw landingspagina dat afkomstig is van reizen en externe bronnen, inclusief meerdere bezoeken van één profiel.
+* **[!UICONTROL Landing page Views]**: Het totale aantal bezoeken aan de landingspagina dat afkomstig is van reizen en externe bronnen, inclusief meerdere bezoeken van één profiel.
 
 * **[!UICONTROL Landing page Conversion]**: Aantal personen dat interactie heeft gehad met de landingspagina, bijvoorbeeld geabonneerd op een formulier.
 
 ## Kanaal {#lp-channels}
 
-De **[!UICONTROL Channel]** in de tabel wordt het aantal bezoeken aan de landingspagina weergegeven dat per kanaal is gecategoriseerd.
+In de tabel **[!UICONTROL Channel]** wordt het aantal bezoeken aan de bestemmingspagina weergegeven dat per kanaal is gecategoriseerd.
 
-* **[!UICONTROL Landing page Views]**: Het totale aantal bezoeken aan uw landingspagina dat afkomstig is van reizen en externe bronnen, inclusief meerdere bezoeken van één profiel.
+* **[!UICONTROL Landing page Views]**: Het totale aantal bezoeken aan de landingspagina dat afkomstig is van reizen en externe bronnen, inclusief meerdere bezoeken van één profiel.
 
 * **[!UICONTROL Landing page Conversion]**: Aantal personen dat interactie heeft gehad met de landingspagina, bijvoorbeeld geabonneerd op een formulier.
 
 ## Bovenste geklikte koppelingen {#lp-top-clicked}
 
-De **[!UICONTROL Top Clicked Links]** de tabel biedt inzicht in de manier waarop bezoekers met de levering omgaan en geeft aan welke koppelingen de meeste betrokkenheid en aandacht van uw publiek krijgen .
+De tabel **[!UICONTROL Top Clicked Links]** biedt inzicht in de manier waarop bezoekers met de levering communiceren en geeft aan welke koppelingen de meeste betrokkenheid en aandacht van uw publiek krijgen.
 
-* **[!UICONTROL Landing page Clicks]**: Het aantal keren dat op een inhoud is geklikt op de bestemmingspagina.
+* **[!UICONTROL Landing page Clicks]**: Het aantal keren dat op de bestemmingspagina op de inhoud is geklikt.

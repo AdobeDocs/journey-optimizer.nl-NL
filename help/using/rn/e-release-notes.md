@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 27f7c60380dc408a486651e77dab58a25e23db2a
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 3%
+source-wordcount: '963'
+ht-degree: 6%
 
 ---
 
@@ -151,12 +151,6 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </tbody>
 </table>
 
->[!IMPORTANT]
->
->De huidige ervaring met rapportage wordt vanaf de release van oktober opgeheven. Na deze datum wordt de nieuwe ervaring met rapportage de norm. We raden u aan bekend te maken met de nieuwe functies en functies om een soepele overgang te garanderen.
-> [Ga aan de slag met Journey Optimizer new Reporting interface ](../reports/report-gs-cja.md)
-
-
 ### Verbeteringen {#e-improvements}
 
 Deze release bevat de verbeteringen die hieronder worden vermeld.
@@ -211,7 +205,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
   >[!CAUTION]
   >
-  >Houd er rekening mee dat u met de interactieve API-functionaliteit op de documentatiepagina&#39;s echte API-aanroepen uitvoert naar de eindpunten. Houd dit in gedachten wanneer u experimenteert met productiesandboxen.
+  >Houd er rekening mee dat u met de interactieve API-functionaliteit op de documentatiepagina&#39;s echte API-aanroepen naar de eindpunten uitvoert. Houd dit in gedachten wanneer u experimenteert met productiesandboxes.
 
 
 * **de Simulatie API van de Campagne** - gebruik dit API om proefbaan van een Campagne teweeg te brengen. Het verzenden van de campagneproef is een asynchroon proces, zal API een proofJobId terugkeren die kan worden gebruikt om de status van de proef te controleren. [ leer meer ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/) {target="_blank"}

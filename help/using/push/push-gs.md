@@ -8,9 +8,9 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '731'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ De volgende afbeelding toont de systemen en services die bij de bijbehorende geg
 1. Persoonlijke pushladingen worden doorgestuurd naar een interne service voor pushberichten
 1. Deze interne service controleert vervolgens de referenties van de toepassing die aan het bericht is gekoppeld, en
 1. Verstuurt het bericht naar Apple en Google messaging services voor de uiteindelijke levering
-1. Feedback van berichtenservices wordt vermeld, fouten en successen worden geregistreerd voor rapportage in Live en Global-rapporten van Journey
+1. De terugkoppeling van berichtendiensten wordt genoteerd, de fouten en de successen worden geregistreerd voor het melden in de Levende &amp; het rapport van de Customer Journey Analytics van de Reis
 1. Pushmeldingen worden aan eindgebruikersapparaten geleverd
 1. Pushmeldingsinteracties voor eindgebruikers worden als Experience Events verzonden vanuit de eindgebruikerclient via SDK-integratie
 
@@ -75,7 +75,7 @@ In de volgende afbeelding ziet u de verschillende stappen van begin tot eind die
 **Verwante onderwerpen**
 
 * [Pushkanaal configureren](push-configuration.md)
-* [Pushmeldingenrapport](../reports/journey-global-report.md#push-global)
+* [Pushmeldingenrapport](../reports/journey-global-report-cja-push.md)
 * [Een pushmelding maken](create-push.md)
 * [Een bericht toevoegen tijdens een rit](../building-journeys/journeys-message.md)
 * [Een bericht toevoegen aan een campagne](../campaigns/create-campaign.md)

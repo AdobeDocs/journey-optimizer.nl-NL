@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '4383'
+source-wordcount: '4376'
 ht-degree: 8%
 
 ---
@@ -136,7 +136,7 @@ Bovendien vereenvoudigt de berekende attributen segmentatie en reisworkflows om 
 <p>De functie Kanaalrapport biedt analisten en marketers een uitgebreid overzicht van verkeers- en betrokkenheidsgegevens op kanaalniveau.</p>
 <p>Om tot het <b> menu van het Rapport </b> toegang te hebben, moet u de <b> toestemming hebben van de Rapporten van het Kanaal van de Mening </b>.</p>
 <img src="assets/channel-reports.png"/>
-<p>Voor meer informatie, verwijs naar de <a href="../reports/channel-report.md"> gedetailleerde documentatie </a>, en <a href="../reports/channel-report.md#channel-report-video"> hoe te video </a>.</p>
+<p>Raadpleeg de <a href="../reports/channel-report-cja.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </tr>
 </tbody>
 </table>
@@ -223,7 +223,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Meldend**
 
-* U kunt nu Journey Optimizer-rapporten exporteren als CSV-bestand. Leer meer in de [ gedetailleerde documentatie ](../reports/global-report.md#export-reports) en [ hoe te video ](../reports/global-report.md#video-csv).
+* U kunt nu Journey Optimizer-rapporten exporteren als CSV-bestand. Leer meer in de [ gedetailleerde documentatie ](../reports/report-gs-cja.md).
 
 **Assets**
 
@@ -531,7 +531,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>You can now measure the performance of your campaigns across inbound and outbound through dedicated reports. Adobe Journey Optimizer reports can retrieve additional metrics to use in the Objectives tab of your campaign reports.</p>
 <img src="assets/do-not-localize/performance_report.gif"/>
-<p>For more information, refer to the <a href="../reports/campaign-global-report.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../reports/campaign-global-report-cja.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -722,7 +722,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Meldend**
 
-* U kunt nu Journey Optimizer-rapporten exporteren als PDF. [Meer informatie](../reports/global-report.md#export-reports)
+* U kunt nu Journey Optimizer-rapporten exporteren als PDF. [Meer informatie](../reports/report-gs-cja.md)
 
 **Inhoud Designer**
 
@@ -824,7 +824,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * De functionaliteit van de widget voor rapportage is verbeterd en het is nu mogelijk om aan te passen hoe gebruikers hun gegevens bekijken. Met deze verbetering kunnen gebruikers nu kiezen tussen meerdere visualisatieopties, zoals grafiek, tabel en donutgrafieken.
 
-  Als u toegang wilt hebben tot de meest recente widgets, moet u de verschillende rapportdashboards opnieuw instellen. Voor meer informatie over dashboardaanpassing, verwijs naar de [ gedetailleerde documentatie ](../reports/global-report.md#modify-dashboard).
+  Als u toegang wilt hebben tot de meest recente widgets, moet u de verschillende rapportdashboards opnieuw instellen. Voor meer informatie over dashboardaanpassing, verwijs naar de [ gedetailleerde documentatie ](../reports/report-gs-cja.md).
 
 ## Release van februari &#39;23 {#feb-2023}
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 9bd4f854292f4928216c9ad4602098930743c1bd
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '3838'
 ht-degree: 6%
@@ -816,7 +816,7 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Meldend**
 
-* **Nieuwe op domein gebaseerde indeling widgets** - Nieuwe widgets zijn toegevoegd om uw rapporten van de Campagne en van de Reis te verbeteren. De **Bounce Redenen door domein**, **Verzonden en geleverd door domeinen**, **opent &amp; klikt door domein** en **Stuiteren &amp; fouten door domein** widgets verstrekken een gedetailleerde uitsplitsing op het domeinniveau voor zeer belangrijke e-maillevering en het volgen metriek. [Meer informatie](../reports/channel-report.md)
+* **Nieuwe op domein gebaseerde indeling widgets** - Nieuwe widgets zijn toegevoegd om uw rapporten van de Campagne en van de Reis te verbeteren. De **Bounce Redenen door domein**, **Verzonden en geleverd door domeinen**, **opent &amp; klikt door domein** en **Stuiteren &amp; fouten door domein** widgets verstrekken een gedetailleerde uitsplitsing op het domeinniveau voor zeer belangrijke e-maillevering en het volgen metriek. [Meer informatie](../reports/channel-report-cja.md)
 
 **Kanaal van SMS**
 

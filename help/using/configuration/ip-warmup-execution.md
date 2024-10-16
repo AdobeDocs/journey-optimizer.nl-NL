@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: IP, groep, subdomeinen, leverbaarheid
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2436'
 ht-degree: 0%
 
 ---
@@ -290,7 +290,7 @@ Een run kan de volgende statussen hebben:
 
 ### Rapporten gebruiken {#reports}
 
-Meer in het algemeen, om het effect van uw plan te meten, kunt u de prestaties van uw IP warmup campagnes controleren gebruikend de [!DNL Journey Optimizer] campagnerapporten. U doet dit voor elke voltooide uitvoering door op de knop **[!UICONTROL View reports]** te klikken. Leer meer op het campagne-e-mail [ levende rapport ](../reports/campaign-live-report.md#email-live) en [ globaal rapport ](../reports/campaign-global-report.md#email-global).
+Meer in het algemeen, om het effect van uw plan te meten, kunt u de prestaties van uw IP warmup campagnes controleren gebruikend de [!DNL Journey Optimizer] campagnerapporten. U doet dit voor elke voltooide uitvoering door op de knop **[!UICONTROL View reports]** te klikken. Leer meer op het campagne-e-mail [ levende rapport ](../reports/campaign-live-report.md#email-live) en [ rapport van de Customer Journey Analytics ](../reports/campaign-global-report-cja-email.md).
 
 ![](assets/ip-warmup-plan-reports.png)
 

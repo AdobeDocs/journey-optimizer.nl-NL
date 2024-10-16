@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b9208544b08b474db386cce3d4fab0a4429a5f54
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '2032'
 ht-degree: 8%
@@ -132,7 +132,7 @@ Zie ook [ de Nota&#39;s van de Versie van Adobe Experience Platform Oktober ](ht
 <td>
 <p>Er zijn nieuwe meetgegevens beschikbaar in rapportage: Gericht en Uitgesloten voor e-mail- en pushberichten zijn zowel in live als in global-rapporten zichtbaar. </br> Als u toegang wilt hebben tot de meest recente metriek, moet u de verschillende rapportdashboards voor elk kanaal en rapporttype opnieuw instellen. Voor meer informatie over dashboardaanpassing, verwijs naar de <a href="../reports/live-report.md"> gedetailleerde documentatie.</a></p>
 <p>Een nieuwe kolom in de lijst van de berichtuitvoering toont het aantal gerichte profielen voor elke berichtuitvoering. </p>
-<p>Raadpleeg de <a href="../reports/global-report.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="../reports/report-gs-cja.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: inhoud, experiment, meerdere, publiek, behandeling
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: d4dce7b31d898d86c330048e6d0a1587e87a617c
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '687'
 ht-degree: 1%
 
 ---
@@ -45,10 +45,6 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 ## Uw inhoud maken {#campaign-experiment}
 
 1. Begin door uw E-mail, SMS of Push bericht [ campagne ](../campaigns/create-campaign.md) te creëren en te vormen of [ reis ](../building-journeys/journeys-message.md) volgens uw vereisten.
-
-   >[!AVAILABILITY]
-   >
-   >Experimentatie op reis is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
 
 1. Start vanuit het venster **[!UICONTROL Edit content]** de aanpassing A.
 
@@ -128,4 +124,4 @@ Het doel is hier te zien of zullen de ontvangers met e-mail afhankelijk van het 
 
 1. Nadat de inhoud van uw bericht is gedefinieerd, klikt u op de knop **[!UICONTROL Simulate content]** om de weergave van uw levering te bepalen en controleert u instellingen voor de personalisatie met testprofielen. [Meer informatie](../content-management/preview-test.md)
 
-Na het vormen van uw experimenteren, kunt u het succes van uw levering met uw rapport volgen. [Meer informatie](../reports/campaign-global-report.md#experimentation-report)
+Na het vormen van uw experimenteren, kunt u het succes van uw levering met uw rapport volgen. [Meer informatie](../reports/campaign-global-report-cja-experimentation.md)

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: campagne, revisie, validatie, activering, activering, optimaliseren
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 3%
@@ -48,6 +48,6 @@ Zodra uw campagne is gevormd, moet u zijn parameter en inhoud herzien alvorens h
 
 1. Nadat een campagne is geactiveerd, kunt u op elk gewenst moment de informatie controleren door deze te openen. Met dit overzicht kunt u statistieken opvragen over het aantal doelprofielen en geleverde en mislukte acties.
 
-   U kunt ook aanvullende statistieken in speciale rapporten weergeven door op de knop **[!UICONTROL Reports]** te klikken. [Meer informatie](../reports/campaign-global-report.md)
+   U kunt ook aanvullende statistieken in speciale rapporten weergeven door op de knop **[!UICONTROL Reports]** te klikken. [Meer informatie](../reports/campaign-global-report-cja.md)
 
    ![](assets/create-campaign-summary.png)

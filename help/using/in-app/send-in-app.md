@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, bericht, maken, starten
 exl-id: 9e9c235a-b78c-4669-af82-822b6f1e6fca
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 3%
@@ -64,11 +64,11 @@ Volg onderstaande stappen om dit te doen:
 
 Uw campagne is nu geactiveerd. Het bericht In-App dat in de campagne wordt gevormd wordt verzonden onmiddellijk, of op de gespecificeerde datum.
 
-Zodra verzonden, kunt u het effect van uw in-app berichten binnen de Campagne of de rapporten van de Reis meten. Raadpleeg [deze sectie](../reports/campaign-global-report.md#inapp-report) voor meer informatie over rapporten.
+Zodra verzonden, kunt u het effect van uw in-app berichten binnen de Campagne of de rapporten van de Reis meten. Raadpleeg [deze sectie](../reports/campaign-global-report-cja-inapp.md) voor meer informatie over rapporten.
 
 **Verwante onderwerpen:**
 
 * [Een bericht in de app maken](create-in-app.md)
 * [In-app-bericht ontwerpen](design-in-app.md)
-* [Rapport in app](../reports/campaign-global-report.md#inapp-report)
+* [Rapport in app](../reports/campaign-global-report-cja-inapp.md)
 * [Configuratie in de app](inapp-configuration.md)

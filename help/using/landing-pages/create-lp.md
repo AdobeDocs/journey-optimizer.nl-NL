@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: landen, pagina landen, maken, publiceren
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: ab4219c7045f9c4ba77fceb2cbb46fbbe6f536ac
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1663'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ In de lijst **[!UICONTROL Landing Pages]** worden alle gemaakte items weergegeve
 
 ![](assets/lp_access-list-filter.png)
 
-Van deze lijst, kunt u tot [ toegang hebben die pagina Levend rapport ](../reports/lp-report-live.md) of [ het Globale rapport van de landingspagina ](../reports/lp-report-global.md) voor gepubliceerde punten aanlanden.
+Van deze lijst, kunt u tot [ toegang hebben die pagina Levend rapport ](../reports/lp-report-live.md) of [ landend paginarapport ](../reports/lp-report-global-cja.md) voor gepubliceerde punten.
 
 U kunt ook een openingspagina verwijderen, dupliceren en de publicatie ervan ongedaan maken.
 

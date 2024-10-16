@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 ## Webrapporten controleren {#check-web-reports}
 
-Zodra uw Webervaring levend is, kunt u het **[!UICONTROL Web]** lusje van het [ rapport van de Reis ](../reports/journey-global-report-cja.md#web-cja) controleren en [ rapport van de Campagne ](../reports/campaign-global-report-cja.md#web) om elementen zoals het aantal indrukkingen te vergelijken, tarief en aantal overeenkomsten met uw Web-pagina te klikken.
+Zodra uw Webervaring levend is, kunt u het **[!UICONTROL Web]** lusje van het [ rapport van de Reis ](../reports/journey-global-report-cja-web.md) controleren en [ rapport van de Campagne ](../reports/campaign-global-report-cja-web.md) om elementen zoals het aantal indrukkingen te vergelijken, tarief en aantal overeenkomsten met uw Web-pagina te klikken.
 
-<!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more on the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report.md#web-tab).-->
+<!--You can check the **[!UICONTROL Web]** tab of the campaign reports. Learn more on the campaign web [live report](../reports/campaign-live-report.md#web-tab) and [global report](../reports/campaign-global-report-cja.md#web).-->
 
 Als u de webervaringscontrole verder wilt verbeteren, kunt u ook de klikken op een specifiek element van uw website bijhouden. Hierdoor kunt u het aantal klikken op dat element weergeven in de webrapporten. [ leer hoe ](#use-click-tracing)
 
@@ -27,7 +27,7 @@ Als u de webervaringscontrole verder wilt verbeteren, kunt u ook de klikken op e
 
 Met de webontwerper kunt u elk element van uw website selecteren en de muisklikken op dat element bijhouden.
 
-Deze informatie kan nuttig zijn om de ervaring van gebruikers van uw website te verbeteren. Bijvoorbeeld, als het [ Web meldt ](../reports/campaign-global-report.md#web-tab) toont dat vele gebruikers een element klikken dat niet eigenlijk klikbaar is, kunt u een verbinding aan dat element willen toevoegen.
+Deze informatie kan nuttig zijn om de ervaring van gebruikers van uw website te verbeteren. Bijvoorbeeld, als het [ Web meldt ](../reports/campaign-global-report-cja-web.md) toont dat vele gebruikers een element klikken dat niet eigenlijk klikbaar is, kunt u een verbinding aan dat element willen toevoegen.
 
 1. Selecteer een element op de pagina en kies **[!UICONTROL Click track element]** in het contextmenu.
 
@@ -49,4 +49,4 @@ Deze informatie kan nuttig zijn om de ervaring van gebruikers van uw website te 
 
 1. Als u klikt op bijhouden op een element wilt verwijderen, selecteert u het bijbehorende verwijderingspictogram.
 
-Zodra uw campagne levend is, kunt u het aantal klikken voor elk element in het van het campagneweb [ levende rapport ](../reports/campaign-live-report.md#web-tab) en [ globaal rapport ](../reports/campaign-global-report.md#web-tab) controleren.
+Zodra uw campagne levend is, kunt u het aantal klikken voor elk element in het van het campagneweb [ levende rapport ](../reports/campaign-live-report.md#web-tab) controleren en [ rapport van de Customer Journey Analytics ](../reports/campaign-global-report-cja-web.md).

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 4%
@@ -52,4 +52,4 @@ Zodra u uw berichten hebt gemaakt en gepersonaliseerd, hef uw inhoud met de Mede
 
 1. Controleer voordat u de campagne start of alle configuraties correct zijn en klik op **[!UICONTROL Activate]** .
 
-Nadat u uw campagne met succes hebt geconfigureerd en gepersonaliseerd, kunt u uw campagne bijhouden in het campagnerapport. [Meer informatie](../reports/campaign-global-report.md)
+Nadat u uw campagne met succes hebt geconfigureerd en gepersonaliseerd, kunt u uw campagne bijhouden in het campagnerapport. [Meer informatie](../reports/campaign-global-report-cja.md)

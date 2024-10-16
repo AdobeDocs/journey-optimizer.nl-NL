@@ -8,54 +8,55 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: c2f2dde40385f56ea86be15a5857fa9e5e2e2fed
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
 
-# Werken met [!DNL Customer Journey Analytics] {#cja-ajo}
-
+# [!DNL Customer Journey Analytics] handmatig configureren {#cja-ajo}
 
 [!DNL Journey Optimizer] integratie met [!DNL Customer Journey Analytics] biedt een holistische weergave van al uw reizen met geautomatiseerde rapportdistributie en aangepaste visualisaties van de gegevens.
 
+In de volgende sectie wordt beschreven hoe u door Journey Optimizer gegenereerde gegevens handmatig kunt gebruiken voor een diepgaande analyse binnen de Customer Journey Analytics. Deze integratie kan automatisch worden ingesteld. [Meer informatie](report-gs-cja.md)
+
 ![](assets/cja.png)
 
-Na het maken van uw reis in [!DNL Journey Optimizer]kunt u uw klantgegevens importeren naar [!DNL Customer Journey Analytics] om rapporten te beginnen en het effect van elke interactie te begrijpen een klant met uw reizen heeft.
+Nadat u uw reis in [!DNL Journey Optimizer] hebt gemaakt, kunt u uw klantgegevens importeren naar [!DNL Customer Journey Analytics] om rapporten te starten en inzicht te krijgen in de impact van elke interactie die een klant onderhoudt met uw reizen.
 
-➡️ [Customer Journey Analytics detecteren](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html){target="_blank"}
+➡️ [ ontdekt Customer Journey Analytics ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer) {target="_blank"}
 
 >[!NOTE]
 >
->Naast deze integratie kunt u ook de inhoud van Adobe Journey Optimizer-gegevenssets exporteren naar opslaglocaties in de cloud en deze informatie gebruiken voor rapportage- of analysedoeleinden. [Leer hoe u gegevenssets exporteert naar opslaglocaties in de cloud](../data/export-datasets.md)
+>Naast deze integratie kunt u ook de inhoud van Adobe Journey Optimizer-gegevenssets exporteren naar opslaglocaties in de cloud en deze informatie gebruiken voor rapportage- of analysedoeleinden. [ Leer hoe te om datasets naar de plaatsen van de wolkenopslag uit te voeren ](../data/export-datasets.md)
 >
 >Merk op dat de de uitvoereigenschap van datasets momenteel in bèta en beschikbaar aan alle gebruikers van Adobe Journey Optimizer is. Werk samen met uw Adobe als u nog geen toegang hebt tot Doelen.
 
-Voor gebruik [!DNL Customer Journey Analytics] voor uw reizen, moet u deze integratie eerst vormen:
+Voordat u [!DNL Customer Journey Analytics] gebruikt voor uw reizen, moet u deze integratie eerst configureren:
 
-1. [Verbinding maken](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) in [!DNL Customer Journey Analytics] met de **[!UICONTROL Dataset]** je wilt naar Adobe Experience Platform sturen.
+1. [ creeer een verbinding ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html) in [!DNL Customer Journey Analytics] met **[!UICONTROL Dataset]** u naar Adobe Experience Platform wilt verzenden.
 
-   Het volgende [!DNL Journey Optimizer] kan worden geconfigureerd:
-   * [Reisstapgebeurtenis](../data/datasets-query-examples.md#journey-step-event): Hiermee kunt u zien wie uw reizen binnenkomt en hoe ver ze komen.
-   * [Gegevensbestanden voor feedback/reeksspatiëring](../data/datasets-query-examples.md#message-feedback-event-dataset): hiermee kunt u leveringsinformatie weergeven over de berichten die via [!DNL Journey Optimizer].
-   * [Gegevensbestanden voor entiteiten en reizen](../data/datasets-query-examples.md#entity-dataset): hiermee kunt u zoeken in familienamen en deze gebruiken in uw rapportage.
+   De volgende [!DNL Journey Optimizer] kan worden geconfigureerd:
+   * [ Gebeurtenis van de Stap van de Reis ](../data/datasets-query-examples.md#journey-step-event): staat u toe om te bekijken wie uw reizen ingaat en hoe ver zij krijgen.
+   * [ de Terugkoppeling/het Volgen datasets van het Bericht ](../data/datasets-query-examples.md#message-feedback-event-dataset): staat u toe om leveringsinformatie over uw berichten te bekijken die door [!DNL Journey Optimizer] worden verzonden.
+   * [ de datasets van de Entiteit en van de Reis ](../data/datasets-query-examples.md#entity-dataset): staat u toe om vriendschappelijke namen te zoeken en hen in uw rapportering te gebruiken.
 
-1. [Een gegevensweergave maken](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) om de afmetingen en metriek te vormen u voor uw rapport wilt gebruiken.
+1. [ creeer een gegevensmening ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html) om de afmetingen en metriek te vormen u voor uw rapport wilt gebruiken.
 
    U kunt Journey Optimizer-specifieke metriek maken om de gegevens van uw reizen beter weer te geven. [Meer informatie](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
 
-Gebruiken [!DNL Journey Optimizer] with [!DNL Customer Journey Analytics] kan leiden tot enige discrepantie in de rapportage van gegevens die wordt veroorzaakt door:
+Het gebruik van [!DNL Journey Optimizer] met [!DNL Customer Journey Analytics] kan leiden tot enige discrepantie bij het rapporteren van gegevens die worden veroorzaakt door:
 
-* **Beide [!DNL Journey Optimizer] en [!DNL Customer Journey Analytics] synchroniseer gegevens van Azure Data Lake Storage (ADLS) voor rapportage.**
+* **zowel [!DNL Journey Optimizer] als [!DNL Customer Journey Analytics] synchronisatiegegevens van Azure Data Lake Storage (ADLS) voor het melden.**
 
   De verwerkingstijd voor binnenkomende gegevens kan enigszins verschillen tussen producten. Daarom komen gegevens mogelijk niet overeen bij het weergeven van rapporten van een bepaalde datum tot en met de huidige dag. Om discrepantie te verminderen, gebruik datumwaaiers exclusief de huidige dag.
 
-* **In [!DNL Journey Optimizer] rapporten, Verzonden metrisch omvat ook metrisch opnieuw proberen.**
+* **in [!DNL Journey Optimizer] rapporten, Verzonden metrisch omvat ook opnieuw metrisch.**
 
-  **[!UICONTROL Retries]** wordt niet opgenomen in **[!UICONTROL Sent]** metrisch in [!DNL Customer Journey Analytics]. Dit leidt tot [!DNL Customer Journey Analytics] **[!UICONTROL Sent]** maatstaven voor het weergeven van lagere waarden dan [!DNL Journey Optimizer]. Gegevens voor opnieuw proberen worden echter geconverteerd naar de **[!UICONTROL Messages successfully sent]** of **[!UICONTROL Bounces]** metrisch.
+  **[!UICONTROL Retries]** wordt niet opgenomen in **[!UICONTROL Sent]** metrisch in [!DNL Customer Journey Analytics] . Hierdoor geven [!DNL Customer Journey Analytics] **[!UICONTROL Sent]** -meetwaarden weer die lager zijn dan [!DNL Journey Optimizer] . Gegevens voor opnieuw proberen worden echter geconverteerd naar de metrische waarde **[!UICONTROL Messages successfully sent]** of **[!UICONTROL Bounces]** .
 Om discrepantie te verminderen, waaier van de gebruiksdatum van een week geleden of zelfs later.
 
-* **De rapporten worden gediend van een verschillende gegevensbron.**
+* **de Rapporten worden gediend van een verschillende gegevensbron.**
 
   Dit kan leiden tot verschillen in gegevens tussen de 1-2% van de producten.

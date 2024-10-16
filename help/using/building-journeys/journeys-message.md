@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: reis, bericht, push, sms, e-mail, in-app, web, inhoudskaart, op code gebaseerde ervaring
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 4d6890c8e0e8673ca5d793b9bf9a6cbb7add8ee5
+source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 0%
@@ -190,7 +190,7 @@ U kunt de algemene score in de **Profielen** interface zien. Voor elk van de dri
 
 +++Welke rapportering is beschikbaar?
 
-Heb toegang tot uw reis, klik het **rapport van de Mening** knoop in het hoogste recht en selecteer het **** lusje van de Reis op de linkerzijde. [Meer informatie](../reports/journey-global-report.md)
+Heb toegang tot uw reis, klik het **rapport van de Mening** knoop in het hoogste recht en selecteer het **** lusje van de Reis op de linkerzijde. [Meer informatie](../reports/journey-global-report-cja.md)
 
 +++
 
