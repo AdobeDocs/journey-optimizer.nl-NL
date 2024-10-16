@@ -8,33 +8,25 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8dd48bb2-a805-4c46-a16c-c68173a9ac08
-source-git-commit: 428e08ca712724cb0b3453681bee1c7e86ce49dc
+source-git-commit: 903378c3bc28c4b4c5773238e422d0a3a448246a
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met Live-rapport {#live-report}
 
->[!AVAILABILITY]
->
->De huidige ervaring met rapportage wordt vanaf de release van oktober opgeheven. Na deze datum wordt de nieuwe ervaring met rapportage de norm. We raden u aan bekend te maken met de nieuwe functies en functies om een soepele overgang te garanderen. [ worden begonnen met Journey Optimizer nieuwe het Melden interface.](report-gs-cja.md)
-
 Met de **[!UICONTROL Live report]** kunt u de impact en prestaties van uw reizen en uw berichten in een ingebouwd dashboard in real-time meten en visualiseren.
 Gegevens zijn beschikbaar in de **[!UICONTROL Live report]** zodra uw levering is verzonden of uw reis wordt uitgevoerd via het tabblad **[!UICONTROL Last 24hrs]** .
 
-* Als u een reis in de context van een reis wilt richten, van het **[!UICONTROL Journeys]** menu, toegang uw reis en klik de **[!UICONTROL View report]** knoop.
+* Als u een reis in de context van een reis wilt richten, van het **[!UICONTROL Journeys]** menu, toegang uw reis **[!UICONTROL More actions]** menu en klik de **[!UICONTROL View last 24hrs report]** knoop.
 
   ![](assets/report_journey.png)
 
-* Als u een campagne als doel wilt instellen, opent u de campagne vanuit het menu **[!UICONTROL Campaigns]** en klikt u op de knop **[!UICONTROL Reports]** .
+* Als u een campagne als doel wilt instellen, opent u uw campagne vanuit het menu **[!UICONTROL Campaigns]** en klikt u op de knop **[!UICONTROL Reports]** then **[!UICONTROL View last 24hrs report]** .
 
   ![](assets/report_campaign.png)
-
-* Als u van **[!UICONTROL Global report]** aan **[!UICONTROL Live report]** voor uw levering wilt overschakelen, klik **[!UICONTROL Last 24hrs]** van de lusjeschakelaar.
-
-  ![](assets/report_3.png)
 
 Voor een gedetailleerde lijst van elke metrisch beschikbaar in Adobe Journey Optimizer, verwijs naar [ deze pagina ](#list-of-components-live).
 
@@ -96,7 +88,7 @@ Uw rapport is nu beschikbaar voor weergave of delen in een PDF-bestand.
 
    ![](assets/export_4.png)
 
-1. U kunt er ook voor kiezen om gegevens uit een specifieke widget te exporteren. Klik op **[!UICONTROL Export widget data to CSV]** naast de geselecteerde widget.
+1. U kunt er ook voor kiezen om gegevens uit een specifieke widget te exporteren. Klik op **[!UICONTROL Download CSV file]** naast de geselecteerde widget.
 
    ![](assets/export_5.png)
 

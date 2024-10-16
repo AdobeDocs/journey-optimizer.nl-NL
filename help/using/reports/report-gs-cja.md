@@ -2,17 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Nieuwe interface melden
-description: Beginnen met het melden van nieuwe interface
+description: Aan de slag met CJA-rapport
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beperkte beschikbaarheid" type="Informative"
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: bccbf4af4610486dd2d4141b902737c6328b1034
+source-git-commit: 903378c3bc28c4b4c5773238e422d0a3a448246a
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 1%
+source-wordcount: '334'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +29,7 @@ Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabilit
 
   ![](assets/gs-cja-report-3.png)
 
-* Als u een campagne als doel wilt instellen, opent u de campagne vanuit het menu **[!UICONTROL Campaigns]** en klikt u op de knop **[!UICONTROL Reports]** .
+* Als u een campagne als doel wilt instellen, opent u uw campagne vanuit het menu **[!UICONTROL Campaigns]** en klikt u op de knop **[!UICONTROL Reports]** then **[!UICONTROL View all time report]** .
 
   In de lijst met bestaande campagnes kunt u ook **[!UICONTROL Report]** selecteren in het menu Geavanceerd van de geselecteerde campagne. [ leer meer over het rapport van de Campagne ](campaign-global-report-cja.md)
 
@@ -39,10 +38,6 @@ Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabilit
 * Als u metriek voor alle campagnes en reizen binnen uw milieu wilt richten, heb toegang tot het **Overzicht** rapport door aan het **[!UICONTROL Reports]** menu binnen de **[!UICONTROL Journey Management]** sectie te navigeren. [ leer meer over het rapport van het Overzicht ](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
-
->[!NOTE]
->
-> Als u wilt terugkeren naar de traditionele Journey Optimizer-rapportage, schakelt u de optie **[!UICONTROL Use new Experience]** in of uit.
 
 ## Vereisten {#prerequisites}
 
@@ -57,10 +52,6 @@ Journey Optimizer-rapportering wordt geleverd met een verbeterde interoperabilit
    * **[!UICONTROL Manage profiles]** machtiging voor Adobe Journey Optimizer. [Meer informatie](../administration/permissions.md)
 
 * Uw gegevensmeningen van de Customer Journey Analytics moeten met het volgende plaatsen worden gevormd: **Reeks als standaardgegevensmening in Adobe Journey Optimizer**. [ leer meer over gegevensmeningen ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview)
-
-* Als u het dashboard voor Customers Journey Analytics in Journey Optimizer wilt openen, schakelt u alleen de **[!UICONTROL Use new Experience]** -schakeloptie in uw rapport in.
-
-  ![](assets/cja-option.png)
 
 ## Hoe kan ik-video{#video}
 
