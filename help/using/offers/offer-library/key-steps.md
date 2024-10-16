@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6a416ccbf658d128feb417ac2ab9ac79a0951a5a
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 10%
+source-wordcount: '326'
+ht-degree: 3%
 
 ---
 
@@ -19,116 +19,122 @@ De belangrijkste stappen om aanbiedingen te creëren, te vormen en te beheren, e
 
 ![](../assets/offer-create-manage-process.png)
 
-Voor een volledig end-to-end voorbeeld dat toont hoe te om aanbiedingen te vormen, gebruik hen in een besluit en hefboomwerking dit besluit in een e-mail, controleer uit [deze pagina](../offers-e2e.md).
+Voor een volledig voorbeeld dat van begin tot eind toont hoe te om aanbiedingen te vormen, gebruik hen in een besluit en hefboomwerking dit besluit in e-mail, controleer [ deze pagina ](../offers-e2e.md).
 
 ## Componenten maken {#create-components}
 
 Voordat u aanbiedingen gaat maken, moet u verschillende componenten definiëren die u in uw aanbiedingen wilt gebruiken.
 
-1. **Plaatsen maken**, dit zijn containers die worden gebruikt om uw voorstellen te tonen. U kunt bijvoorbeeld een plaatsing maken die alleen in afbeeldingsindeling aan aanbiedingen wordt toegewezen en boven aan uw berichten wordt geplaatst.
+1. [ creeer plaatsingen ](creating-placements.md), die containers zijn die zullen worden gebruikt om uw aanbiedingen te tonen. U kunt bijvoorbeeld een plaatsing maken die alleen in afbeeldingsindeling aan aanbiedingen wordt toegewezen en boven aan uw berichten wordt geplaatst.
 
-1. **Beslissingsregels maken** daarin worden de voorwaarden voor de indiening van de offertes gespecificeerd .
+1. [ creeer besluitvormingsregels ](creating-decision-rules.md) die de voorwaarden zullen specificeren waaronder de aanbiedingen zullen worden voorgesteld.
 
-1. **Verzamelingsaanduidingen maken** (voorheen bekend als &#39;&#39;tags&#39;&#39;) die u aan de aanbiedingen wilt koppelen, zodat u deze eenvoudig kunt organiseren en doorzoeken in de bibliotheek.
+1. [ creeer inzamelingsbepalers ](creating-tags.md) (eerder genoemd als &quot;markeringen&quot;) die u aan de aanbiedingen zult associëren, toestaand u om hen gemakkelijk te organiseren en te zoeken in de bibliotheek.
 
-1. Als u regels wilt definiëren die bepalen welke aanbieding als eerste voor een bepaalde plaatsing moet worden gepresenteerd (in plaats van rekening te houden met de prioriteitsscores van de aanbiedingen), kunt u **een waarderingsformule maken**.
+1. Als u regels wilt bepalen die zullen bepalen welke aanbieding eerst voor een bepaalde plaatsing (eerder dan het rekening houden met de prioritaire scores van aanbiedingen) zou moeten worden voorgesteld, kunt u [ tot een rangschikkende formule ](../ranking/create-ranking-formulas.md) leiden.
 
+<!--
 <table style="table-layout:fixed">
 <tr style="border: 0;">
 <td>
 <img src="../../assets/do-not-localize/icon-placement.svg" width="60px">
 <div>
-<a href="../offer-library/creating-placements.md">Plaatsingen maken</a>
+<a href="../offer-library/creating-placements.md">Create placements</a>
 </div>
 <p>
 </td>
 <td>
 <img src="../../assets/do-not-localize/icon-rules.svg" width="60px">
 <div>
-<a href="../offer-library/creating-decision-rules.md">Beslissingsregels maken</a>
+<a href="../offer-library/creating-decision-rules.md">Create decision rules</a>
 </div>
 <p>
 <td>
 <img src="../../assets/do-not-localize/icon-tags.svg" width="60px">
 <div>
-<a href="../offer-library/creating-tags.md">Tags maken</a>
+<a href="../offer-library/creating-tags.md">Create collection qualifiers</a>
 </div>
 <p>
 </td>
 <td>
 <img src="../../assets/do-not-localize/icon-ranking.svg" width="60px">
 <div>
-<a href="../ranking/create-ranking-formulas.md">Rangschikkingsformules maken</a>
+<a href="../ranking/create-ranking-formulas.md">Create ranking formulas</a>
 </div>
 <p>
 </td>
 </tr>
 </table>
+-->
 
 ## Aanbiedingen maken en beheren {#create-and-manage-offers}
 
-1. **Aanbiedingen maken** en configureren van de inhoud en eigenschappen ervan.
+1. [ creeer aanbiedingen ](creating-personalized-offers.md), en vorm hun inhoud en eigenschappen.
 
-1. **Terugvalvoorstellen maken**, die het laatste redmiddel zijn dat wordt weergegeven als klanten niet in aanmerking komen voor een van de geselecteerde aanbiedingen.
+1. [ creeer fallback aanbiedingen ](creating-fallback-offers.md), die de laatste resort aanbiedingen aan vertoning zijn als de klanten niet verkiesbaar voor om het even welke geselecteerde aanbiedingen zijn.
 
-1. **Een verzameling maken** om de persoonlijke aanbiedingen die u hebt gemaakt, op te nemen en te gebruiken in een beslissing.
+1. [ creeer een inzameling ](creating-collections.md) om de gepersonaliseerde aanbiedingen te omvatten u creeerde en hen in een besluit gebruikt.
 
+<!--
 <table style="table-layout:fixed">
 <tr style="border: 0;">
 <td>
 <img src="../../assets/do-not-localize/icon-offer.svg" width="60px">
 <div>
-<a href="../offer-library/creating-personalized-offers.md">Aanbiedingen maken</a>
+<a href="../offer-library/creating-personalized-offers.md">Create offers</a>
 </div>
 <p>
 </td>
 <td>
 <img src="../../assets/do-not-localize/icon-fallback.svg" width="60px">
 <div>
-<a href="../offer-library/creating-fallback-offers.md">Alternatieve aanbiedingen maken</a>
+<a href="../offer-library/creating-fallback-offers.md">Create fallback offers</a>
 </div>
 <p>
 </td>
 <td>
 <img src="../../assets/do-not-localize/icon-collection.svg" width="60px">
 <div>
-<a href="../offer-library/creating-collections.md">Verzamelingen maken</a>
+<a href="../offer-library/creating-collections.md">Create collections</a>
 </div>
 <p>
 </td>
 </tr>
 </table>
+-->
 
 ## Besluiten maken en configureren {#create-and-configure-decisions}
 
-1. **Een beslissing maken** dat zal plaatsingen combineren met de gepersonaliseerde aanbiedingen en de terugvalaanbiedingen . Deze combinatie wordt door de beslissingsengine gebruikt om de beste aanbieding voor een specifiek profiel te vinden.
+1. [ creeer een besluit ](../offer-activities/create-offer-activities.md) dat plaatsingen met de gepersonaliseerde aanbiedingen en de reserveaanbiedingen zal combineren. Deze combinatie wordt door de beslissingsengine gebruikt om de beste aanbieding voor een specifiek profiel te vinden.
 
-1. **De beslissing configureren**. U doet dit door de plaatsen te selecteren en voor elke plaatsing een verzameling en een fallback te selecteren.
+1. [ vorm het besluit ](../offer-activities/create-offer-activities.md#add-decision-scopes). U doet dit door de plaatsen te selecteren en voor elke plaatsing een verzameling en een fallback te selecteren.
 
-1. Indien nodig kunt u **een rangschikkingsformule toewijzen** aan een plaatsing wanneer het vormen van het besluit.
+1. Indien nodig, kunt u [ een het rangschikken formule ](../offer-activities/configure-offer-selection.md#assign-ranking-formula) of [ AI rangschikken ](../offer-activities/configure-offer-selection.md#use-ranking-strategy) aan een plaatsing toewijzen wanneer het vormen van het besluit.
 
+<!--
 <table style="table-layout:fixed">
 <tr style="border: 0;">
 <td>
 <img src="../../assets/do-not-localize/icon-decision.svg" width="60px">
 <div>
-<a href="../offer-activities/create-offer-activities.md">Beslissingen maken</a>
+<a href="../offer-activities/create-offer-activities.md">Create decisions</a>
 </div>
 <p>
 </td>
 <td>
 <img src="../../assets/do-not-localize/icon-configure-decision.svg" width="60px">
 <div>
-<a href="../offer-activities/create-offer-activities.md#add-offers">Besluiten configureren</a>
+<a href="../offer-activities/create-offer-activities.md#add-offers">Configure decisions</a>
 </div>
 <p>
 </td>
 <td>
 <img src="../../assets/do-not-localize/icon-assign-ranking.svg" width="60px">
 <div>
-<a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">Classificatie toewijzen</a>
+<a href="../offer-activities/configure-offer-selection.md#assign-ranking-formula">Assign ranking</a>
 </div>
 <p>
 </td>
 </tr>
 </table>
+-->
