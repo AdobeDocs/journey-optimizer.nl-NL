@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Nieuwe interface melden
+title: Rapporten Customer Journey Analytics
 description: Aan de slag met CJA-rapport
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 903378c3bc28c4b4c5773238e422d0a3a448246a
+source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '336'
 ht-degree: 2%
 
 ---
 
-# Ga aan de slag met de nieuwe rapportinterface {#channel-report-gs-cja}
+# Aan de slag met rapporten over Customers Journey Analytics {#channel-report-gs-cja}
 
 >[!IMPORTANT]
 >

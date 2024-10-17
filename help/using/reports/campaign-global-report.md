@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: fa64f5b8-75f2-40e6-8566-5766fafe6cd6
-source-git-commit: 94d6ebe6e0ad5fa48eaad9d8cfa8cff584f2b819
+source-git-commit: c9505b482d2dedc10c4025574cccb662fe149510
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '4218'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,10 @@ De campagne **[!UICONTROL Global report]** is verdeeld in verschillende widgets 
 Voor een gedetailleerde lijst van elke metrisch beschikbaar in Adobe Journey Optimizer, verwijs naar [ deze pagina ](global-report.md#list-of-components-global.md)
 
 ## Tabblad Campagne {#campaign-global}
+
+>[!NOTE]
+>
+>Het deskundigenrapport is uitsluitend toegankelijk in verslagen van Customers Journey Analytics. [Meer informatie](campaign-global-report-cja-experimentation.md)
 
 ### Levering {#delivery-global}
 
