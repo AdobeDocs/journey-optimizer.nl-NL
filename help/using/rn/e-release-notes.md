@@ -8,7 +8,7 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c54ad4cddeb7115f9a069102c67c41f0850a11ed
+source-git-commit: 5714e0aab20bce91ecf588c6b170a975be1f7d89
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 3%
@@ -176,7 +176,7 @@ Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies kunt ins
 <table>
 <thead>
 <tr>
-<th><strong>Bijgewerkte rapportage-ervaring (algemene beschikbaarheid)</strong><br/></th>
+<th><strong> bijgewerkte rapporteringservaring (Algemene beschikbaarheid) </strong><br/> Beschikbaar sinds 16 okt. 2024<br/></th>
 </tr>
 </thead>
 <tbody>
@@ -186,7 +186,6 @@ Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies kunt ins
 <p>Met algemene beschikbaarheid, worden vier nieuwe eigenschappen geïntroduceerd: de capaciteit om eenvoudige metriek tot stand te brengen, te creëren en publiek te publiceren, ad-hocvragen te stellen gebruikend de Bouwer van het Inzicht, en planningsrapporten om automatisch aan zeer belangrijke ontvangers worden gemaild.</p>
 <p>Raadpleeg de <a href="../reports/report-cja-manage.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
-<p>Beschikbaarheidsdatum: 16 oktober 2024</p>
 </tr>
 </tbody>
 </table>
