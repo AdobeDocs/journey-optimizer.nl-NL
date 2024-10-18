@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 1%
@@ -130,7 +130,7 @@ Volg onderstaande stappen om de op code gebaseerde instellingen voor ervaringsco
 
 1. Geef de **[!UICONTROL Location or path inside the app]** op. In dit veld wordt de exacte bestemming aangegeven in de app waartoe gebruikers toegang moeten krijgen. Het kan een bepaalde sectie of pagina diep binnen de navigatiestructuur van de app zijn, zoals &#39;hero-banner&#39; of &#39;product-rail&#39;.
 
-   ![](assets/code_config_3.png){width="500"}
+   ![](assets/code_config_3.png)
 
 1. Vul het veld **[!UICONTROL Preview URL]** in om voorvertoningen op het apparaat in te schakelen. Deze URL informeert de voorbeeldservice over de specifieke URL die moet worden gebruikt wanneer voorvertoning op apparaat wordt geactiveerd. [Meer informatie](../code-based/create-code-based.md#preview-on-device)
 

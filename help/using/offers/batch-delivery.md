@@ -5,10 +5,10 @@ feature: Decision Management
 role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
-source-git-commit: d4ecfecdc74c26890658d68d352c36b75f7c9039
+source-git-commit: b057d198d3c5b12121ee50d7a97ff4b33b8209b4
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 0%
+source-wordcount: '820'
+ht-degree: 1%
 
 ---
 
@@ -20,21 +20,21 @@ Met Journey Optimizer kunt u besluiten aanbieden aan alle profielen in een bepaa
 
 Hiervoor moet u in Journey Optimizer een aanvraag voor een taak maken die informatie bevat over het doelpubliek en het besluit om een aanbieding te gebruiken. De aanbiedingsinhoud voor elk profiel in het publiek wordt dan geplaatst in een dataset van Adobe Experience Platform waar het voor de werkschema&#39;s van de douanepartij beschikbaar is.
 
-Batchlevering kan ook worden uitgevoerd met behulp van API&#39;s. Raadpleeg voor meer informatie de [Batchbeslissings-API-documentatie](api-reference/offer-delivery-api/batch-decisioning-api.md).
+Batchlevering kan ook worden uitgevoerd met behulp van API&#39;s. Voor meer op dit, verwijs naar de [ Bevestiging API documentatie van de Partij ](api-reference/offer-delivery-api/batch-decisioning-api.md).
 
 ## Vereisten {#prerequisites}
 
 Voordat u een taakaanvraag configureert, moet u controleren of u het volgende hebt gemaakt:
 
-* **Een gegevensset** in Adobe Experience Platform. Deze dataset zal worden gebruikt om het beslissingsresultaat op te slaan gebruikend het schema &quot;ODE DecisionEvents&quot;. Meer informatie in het dialoogvenster [Documentatie over gegevenssets](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html).
+* **dataset van A** in Adobe Experience Platform. Deze dataset zal worden gebruikt om het beslissingsresultaat op te slaan gebruikend het schema &quot;ODE DecisionEvents&quot;. Leer meer in de [ documentatie van Datasets ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html).
 
-* **Een publiek** in Adobe Experience Platform. Het publiek moet worden geëvalueerd en vervolgens worden bijgewerkt. Leer hoe u de evaluatie van het publiekslidmaatschap kunt bijwerken in het dialoogvenster [Documentatie voor segmentatieservice](http://www.adobe.com/go/segmentation-overview-en)
+* **een publiek** in Adobe Experience Platform. Het publiek moet worden geëvalueerd en vervolgens worden bijgewerkt. Leer hoe te om de evaluatie van het publiekslidmaatschap in de [ documentatie van de Dienst van de Segmentatie ](https://www.adobe.com/go/segmentation-overview-en) bij te werken
 
   >[!NOTE]
   >
   >Een batchtaak loopt van de profielmomentopname die één keer per dag plaatsvindt. Met de optie Batch-beslissingen wordt de frequentie vastgelegd en worden profielen altijd geladen vanaf de meest recente momentopname. Wacht 24 uur nadat u een publiek hebt gemaakt voordat u de batch-beslissings-API uitprobeert.
 
-* **Een besluit** in Adobe Journey Optimizer. [Leer hoe u een beslissing maakt](offer-activities/create-offer-activities.md)
+* **een besluit van A** in Adobe Journey Optimizer. [ Leer hoe te om een besluit ](offer-activities/create-offer-activities.md) tot stand te brengen
 
 <!-- in API doc, remove these info and add ref here-->
 
@@ -42,7 +42,7 @@ Voordat u een taakaanvraag configureert, moet u controleren of u het volgende he
 
 Voer de onderstaande stappen uit om een nieuwe taakaanvraag te maken.
 
-1. In de **[!UICONTROL Offers]** menu, opent u de **[!UICONTROL Batch decisioning]** en klik vervolgens op **[!UICONTROL Create request]**.
+1. Open in het menu **[!UICONTROL Offers]** de tab **[!UICONTROL Batch decisioning]** en klik vervolgens op **[!UICONTROL Create request]** .
 
    ![](assets/batch-create.png)
 
@@ -52,24 +52,24 @@ Voer de onderstaande stappen uit om een nieuwe taakaanvraag te maken.
 
 1. Selecteer een of meer keuzelijsten voor biedingsbesluiten die u wilt gebruiken om aanbiedingen aan het publiek te leveren:
    1. Selecteer een plaatsing in de lijst.
-   1. De beschikbare beslissingen voor de geselecteerde plaatsingsweergave. Selecteer de gewenste beslissing en klik op **[!UICONTROL Add]**.
+   1. De beschikbare beslissingen voor de geselecteerde plaatsingsweergave. Selecteer de gewenste beslissing en klik op **[!UICONTROL Add]** .
    1. Herhaal de bewerking om zoveel beslissingsbereik toe te voegen als u wilt.
 
    ![](assets/batch-decision.png)
 
-1. Standaard wordt één aanbieding van het beslissingsbereik geretourneerd voor elk profiel. U kunt het aantal geretourneerde voorstellen aanpassen met de opdracht **[!UICONTROL Request offer per profile]** -optie. Als u bijvoorbeeld 2 selecteert, worden de beste 2 aanbiedingen weergegeven voor het geselecteerde beslissingsbereik.
+1. Standaard wordt één aanbieding van het beslissingsbereik geretourneerd voor elk profiel. U kunt het aantal geretourneerde voorstellen aanpassen met de optie **[!UICONTROL Request offer per profile]** . Als u bijvoorbeeld 2 selecteert, worden de beste 2 aanbiedingen weergegeven voor het geselecteerde beslissingsbereik.
 
    >[!NOTE]
    >
    >U kunt maximaal 30 voorstellen aanvragen per beslissingsbereik.
 
-1. Als u de aanbiedingsinhoud in de dataset wilt omvatten, knevel van **[!UICONTROL Include content]** optie ingeschakeld. Deze optie is standaard uitgeschakeld.
+1. Schakel de optie **[!UICONTROL Include content]** in als u de aanbiedingsinhoud wilt opnemen in de gegevensset. Deze optie is standaard uitgeschakeld.
 
-1. Klikken **[!UICONTROL Create]** om de taakaanvraag uit te voeren.
+1. Klik op **[!UICONTROL Create]** om de taakaanvraag uit te voeren.
 
 ## Batchtaken controleren
 
-Alle aangevraagde batchtaken zijn toegankelijk vanuit de **[!UICONTROL Batch decisioning]** tab. Bovendien, zijn de onderzoek en het filtreren hulpmiddelen beschikbaar om u te helpen de lijst verfijnen.
+Alle aangevraagde batchtaken zijn toegankelijk via het tabblad **[!UICONTROL Batch decisioning]** . Bovendien, zijn de onderzoek en het filtreren hulpmiddelen beschikbaar om u te helpen de lijst verfijnen.
 
 ![](assets/batch-list.png)
 
@@ -82,15 +82,15 @@ Nadat een taakaanvraag is gemaakt, worden meerdere statussen gebruikt voor de ba
 >Om ervoor te zorgen dat u de recentste informatie over de status van een baanverzoek krijgt, gebruik de ellipsknoop naast de baan om het te verfrissen.
 
 1. **[!UICONTROL Queued]**: De taakaanvraag is gemaakt en is in de verwerkingswachtrij geplaatst. Tot 5 partijbanen kunnen in een tijd per dataset worden in werking gesteld. Om het even welke andere partijverzoeken met de zelfde outputdataset worden toegevoegd aan de rij. Er wordt een taak in de wachtrij opgehaald om te worden verwerkt zodra de vorige taak is voltooid.
-1. **[!UICONTROL Processing]**: Het taakverzoek wordt verwerkt
-1. **[!UICONTROL Ingesting]**: Het taakverzoek is uitgevoerd, resultaatgegevens worden in de geselecteerde dataset opgenomen,
+1. **[!UICONTROL Processing]**: De taakaanvraag wordt verwerkt
+1. **[!UICONTROL Ingesting]**: De taakaanvraag is uitgevoerd, resultaatgegevens worden in de geselecteerde dataset opgenomen,
 1. **[!UICONTROL Completed]**: Het taakverzoek is uitgevoerd en de resultaatgegevens worden nu opgeslagen in de geselecteerde dataset.
 
    >[!NOTE]
    >
    >U kunt tot de dataset toegang hebben waar de resultaten van een baan door zijn naam in baanlijst te klikken worden opgeslagen.
 
-Als er een fout optreedt terwijl de taakaanvraag wordt uitgevoerd, krijgt deze de opdracht **[!UICONTROL Error]** status. Probeer de batchtaak te dupliceren om een nieuwe aanvraag te maken. [Leer hoe u een batchtaak dupliceert](#duplicate)
+Als een fout optreedt terwijl de taakaanvraag wordt uitgevoerd, krijgt deze de status **[!UICONTROL Error]** . Probeer de batchtaak te dupliceren om een nieuwe aanvraag te maken. [ leren hoe te om een partijbaan ](#duplicate) te dupliceren
 
 ### Procestijd batchtaak
 
