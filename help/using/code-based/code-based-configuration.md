@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: c53fc226be1b6ab858c5cd75bcae363769fefa74
+source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1504'
 ht-degree: 1%
 
 ---
@@ -28,8 +28,8 @@ Een op code-gebaseerde ervaringsconfiguratie moet naar de oppervlakte verwijzen,
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="Voer de specifieke locatie in"
->abstract="In dit veld wordt de exacte bestemming aangegeven op de pagina of in de app waartoe gebruikers toegang moeten krijgen. Dit kan een bepaalde sectie of pagina diep zijn binnen de navigatiestructuur."
+>title="Geef de specifieke locatie op uw pagina of app aan"
+>abstract="In dit veld wordt de exacte bestemming aangegeven binnen een pagina of in de app waartoe gebruikers toegang moeten hebben. Het kan een bepaalde sectie binnen een webpagina zijn, of een pagina diep binnen de navigatiestructuur van de app."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
@@ -108,7 +108,7 @@ Volg onderstaande stappen om de op code gebaseerde instellingen voor ervaringsco
 
      ![](assets/code_config_matching_rules_preview.png)
 
-1. In het veld **[!UICONTROL Location on page]** wordt de exacte bestemming opgegeven van de website waartoe gebruikers toegang moeten krijgen. Dit kan een bepaalde sectie of pagina diep in de navigatiestructuur van de site zijn.
+1. In het veld **[!UICONTROL Location on page]** wordt de exacte bestemming opgegeven binnen de pagina waartoe gebruikers toegang moeten krijgen. Het kan een bepaalde sectie op een pagina binnen de navigatie-structuur van de plaats, zoals &quot;held-banner&quot; of &quot;product-rail&quot; zijn.
 
    ![](assets/code_config_location_on_page.png)
 
@@ -128,7 +128,7 @@ Volg onderstaande stappen om de op code gebaseerde instellingen voor ervaringsco
 
 1. Voer uw **[!UICONTROL App id]** in. Dit zorgt voor een nauwkeurige identificatie en configuratie binnen de operationele omgeving van de app en voor naadloze integratie en functionaliteit.
 
-1. Geef de **[!UICONTROL Location or path inside the app]** op. In dit veld wordt de exacte bestemming aangegeven in de app waartoe gebruikers toegang moeten krijgen. Dit kan een bepaalde sectie of pagina diep zijn binnen de navigatiestructuur van de app.
+1. Geef de **[!UICONTROL Location or path inside the app]** op. In dit veld wordt de exacte bestemming aangegeven in de app waartoe gebruikers toegang moeten krijgen. Het kan een bepaalde sectie of pagina diep binnen de navigatiestructuur van de app zijn, zoals &#39;hero-banner&#39; of &#39;product-rail&#39;.
 
    ![](assets/code_config_3.png){width="500"}
 

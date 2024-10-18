@@ -6,9 +6,9 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: e3c597f66436e8e0e22d06f1905fc7ca9a9dd570
+source-git-commit: c3300b240bd0dc0563ed6d4e6de40bd9fa36a92e
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '799'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ De op code-gebaseerde ervaring steunt om het even welk type van klantenimplement
 
 Als u een client-side implementatie hebt, kunt u een van de AEP client-SDK&#39;s gebruiken: AEP Web SDK of AEP Mobile SDK.
 
-* De stappen [ beschrijven hieronder ](#client-side-how) het proces om de inhoud te halen die op de rand door de op code-gebaseerde ervaringscampagnes in een steekproef **3} implementatie van SDK van het Web {wordt gepubliceerd en de gepersonaliseerde inhoud toont.**
+* De stappen [ beschrijven hieronder ](#client-side-how) het proces om de inhoud te halen die op de rand door de op code-gebaseerde ervaringstransporten en campagnes in een 3} implementatie wordt gepubliceerd van het steekproef **Web SDK {en het tonen van de gepersonaliseerde inhoud.**
 
 * De stappen om code-gebaseerd kanaal uit te voeren gebruikend **Mobiele SDK** worden beschreven in [ dit leerprogramma ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/) {target="_blank"}.
 
@@ -54,7 +54,7 @@ Als u een client-side implementatie hebt, kunt u een van de AEP client-SDK&#39;s
 
 1. Op code-gebaseerde ervaringspunten zouden manueel door de implementatiecode (gebruikend de [`applyPersonalization` ](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js) {target="_blank"} methode) moeten worden toegepast om DOM bij te werken die op het besluit wordt gebaseerd.
 
-1. Voor op code-gebaseerde ervaringscampagnes, moeten de vertoningsgebeurtenissen manueel worden verzonden om erop te wijzen wanneer de inhoud is getoond. Dit gebeurt via de opdracht `sendEvent` .
+1. Voor op code-gebaseerde ervaringsreizen en campagnes, moeten de vertoningsgebeurtenissen manueel worden verzonden om erop te wijzen wanneer de inhoud is getoond. Dit gebeurt via de opdracht `sendEvent` .
 
    ```javascript
    function sendDisplayEvent(decision) {
@@ -80,7 +80,7 @@ Als u een client-side implementatie hebt, kunt u een van de AEP client-SDK&#39;s
    }
    ```
 
-1. Voor op code-gebaseerde ervaringscampagnes, moeten de interactiegebeurtenissen manueel worden verzonden om erop te wijzen wanneer een gebruiker met de inhoud heeft gecommuniceerd. Dit gebeurt via de opdracht `sendEvent` .
+1. Voor op code-gebaseerde ervaringsreizen en campagnes, moeten de interactiegebeurtenissen manueel worden verzonden om erop te wijzen wanneer een gebruiker met de inhoud heeft gecommuniceerd. Dit gebeurt via de opdracht `sendEvent` .
 
    ```javascript
    function sendInteractEvent(label, proposition) {
@@ -140,7 +140,7 @@ Aanvragen aan de Adobe Experience Platform API zijn vereist om voorstellen te on
 
 Als u een server-zijimplementatie hebt, kunt u één AEP Edge Network API gebruiken.
 
-In de onderstaande stappen wordt beschreven hoe u de inhoud ophaalt die op de rand van de computer is gepubliceerd door de op code gebaseerde ervaringscampagnes in een voorbeeldimplementatie van de Edge Network-API voor een webpagina en hoe u de gepersonaliseerde inhoud weergeeft.
+In de onderstaande stappen wordt beschreven hoe u de inhoud die op de rand van de code is gepubliceerd, ophaalt via een op code gebaseerde ervaringsreis en -campagne in een voorbeeldimplementatie van de Edge Network-API voor een webpagina en hoe u de gepersonaliseerde inhoud weergeeft.
 
 ### Werking
 
@@ -226,8 +226,9 @@ In de onderstaande stappen wordt beschreven hoe u de inhoud ophaalt die op de ra
    ).then((res) => res.json());
    ```
 
-1. De JSON-ervaring van de op code gebaseerde ervaringscampagne wordt gelezen uit de reactie en gebruikt bij het produceren van de HTML-respons.
-1. Voor op code-gebaseerde ervaringscampagnes, moeten de vertoningsgebeurtenissen in de implementatie manueel worden verzonden om erop te wijzen wanneer de campagneinhoud is getoond. In dit voorbeeld wordt het bericht tijdens de levenscyclus van de aanvraag naar de server verzonden.
+1. De JSON-ervaring van de op code gebaseerde ervaringstransporten en -campagne wordt gelezen uit de reactie en gebruikt bij het produceren van de HTML-respons.
+
+1. Voor op code-gebaseerde ervaringsreizen en campagnes, moeten de vertoningsgebeurtenissen in de implementatie manueel worden verzonden om erop te wijzen wanneer de reis of campagneinhoud is getoond. In dit voorbeeld wordt het bericht tijdens de levenscyclus van de aanvraag naar de server verzonden.
 
    ```javascript
    function sendDisplayEvent(aepEdgeClient, req, propositions, cookieEntries) {
