@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: c54ad4cddeb7115f9a069102c67c41f0850a11ed
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 6%
+source-wordcount: '1671'
+ht-degree: 3%
 
 ---
 
@@ -21,47 +21,13 @@ ht-degree: 6%
 
 **de vroege versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. De verbindingen, de schermen en de bijgewerkte documentatie worden gepubliceerd in de [ versienota&#39;s ](release-notes.md), bij de versiedatum.
 
-## Opmerkingen bij de vervroegde release september 2024 {#e-2024}
+## Opmerkingen bij de vervroegde release oktober 2024 {#e-2024}
 
-**de datum van de Versie**: 24-25 september, 2024
+**de datum van de Versie**: Oktober 29-30, 2024
 
 ### Nieuwe functies {#e-features}
 
 Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Content Cards for mobile apps and websites</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Content cards are a new digital messaging feature in Adobe Journey Optimizer that delivers personalized and engaging content directly within mobile apps and websites. Unlike traditional push notifications, Content Cards integrate seamlessly into the user interface, offering persistent, non-intrusive updates that enhance user interaction and experience.</p>
-<p>This feature enables marketers to present relevant, rich media content to users, driving higher engagement and ensuring important messages are seen without disrupting the user journey.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<table>
-<thead>
-<tr>
-<th><strong>Goedkeuringen tijdens reizen en campagnes</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Met het goedkeuringsbeleid kunt u nu een goedkeuringsproces in Journey Optimizer instellen dat marketingteams in staat stelt ervoor te zorgen dat campagnes en reizen worden gecontroleerd en ondertekend door de relevante belanghebbenden voordat ze live gaan.</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <table>
 <thead>
@@ -80,53 +46,38 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>Algemene criteria voor uitreis tijdens reizen</strong><br/></th>
+<th><strong>Goedkeuringen tijdens reizen en campagnes (algemene beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nu definieert u exit criteria op een niveau van transport. Door afsluitcriteria toe te voegen, sluiten de profielen de reis af zodra een gebeurtenis (bijvoorbeeld: Aankoop) plaatsvindt of komen zij in aanmerking voor een publiek. Dit zal de gebruiker verhinderen om het even welke verdere mededelingen van de reis te krijgen.</p>
-<!--p>For more information, refer to the <a href="../content-management/gs-generative.md">detailed documentation</a>.</p>
-<img src="assets/do-not-localize/ai-content.gif"/-->
+<p>Met het goedkeuringsbeleid kunt u nu een goedkeuringsproces in Journey Optimizer instellen dat marketingteams in staat stelt ervoor te zorgen dat campagnes en reizen worden gecontroleerd en ondertekend door de relevante belanghebbenden voordat ze live gaan.</p>
+<p>Eerder beschikbaar voor een reeks organisaties (LA), is het goedkeuringsbeleid nu beschikbaar aan alle gebruikers (GA).</p>
+<p>Raadpleeg de <a href="../test-approve/gs-approval.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<img src="assets/do-not-localize/approval.gif"/>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Code-based experiences in journeys</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the Code-based experience channel, Adobe Journey Optimizer allows you to do advanced personalization and testing for any of your inbound properties, enabling seamless delivery of tailored experiences across diverse touchpoints such as web apps, mobile apps, desktop apps, video consoles, TV connected devices, smart TVs, kiosks, ATMs, IoT devices, and more. The Code-based experience channel is now available in the journey canvas.</p>
-<p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p>
-</tr>
-</tbody>
-</table-->
-
 
 <table>
 <thead>
 <tr>
-<th><strong>AI Assistant-versnelling voor inhoud </strong><br/></th>
+<th><strong>Aanpassing e-mailconfiguratie (algemene beschikbaarheid)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Als u eenmaal een bericht hebt gemaakt en gepersonaliseerd, gaat u naar het volgende niveau met de AI Assistant Content Accelerator in Journey Optimizer. U kunt de AI Assistant nu gebruiken om de impact van uw bericht te optimaliseren door te experimenteren met verschillende hoofdtitels en afbeeldingen. Elke variant wordt beheerd als een unieke behandeling, om te meten en te vergelijken welke titel effectief meer kliks produceert.</p>
-<p>Ga zelf in een hands-on ervaring met <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator"> binnen onze levende eigenschapvoorproef </a>, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.</a></p>
-<p>Raadpleeg de <a href="../content-management/gs-generative.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<img src="assets/do-not-localize/ai-content.gif"/>
-<p>Beschikbaarheidsdatum: september 12</p>
+<p>U kunt dynamische subdomeinen en gepersonaliseerde kopbalparameters nu bepalen wanneer het creëren van configuraties van het e-mailkanaal, voor verhoogde flexibiliteit en controle over uw e-mailmontages.</p>
+<p>Eerder beschikbaar voor een reeks organisaties (LA), is de aanpassing van de e-mailconfiguratie nu beschikbaar aan alle gebruikers (GA).</p>
+<p>Raadpleeg de <a href="../email/surface-personalization.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -135,78 +86,214 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <table>
 <thead>
 <tr>
-<th><strong>Kanaal instellen met instructies</strong><br/></th>
+<th><strong>Niet-visuele bewerkingsmodus voor de webontwerper</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Met de functie Kanaalinstellingen met instructies kunt u kanaalinstellingen in één ervaring automatiseren en valideren, zodat u sneller aan de slag kunt met Journey Optimizer. Deze nieuwe, geleide opstelling stroomlijnt snelle kanaalconfiguratie, die ervoor zorgt dat alle noodzakelijke middelen gemakkelijk worden geïnstalleerd en binnen Experience Platform, Journey Optimizer, en de Inzameling van Gegevens werken. Hierdoor kunnen marketing-, product- en gegevensontwikkelingsteams snel beginnen met het maken van campagnes en reizen.</p>
-<p>Raadpleeg de <a href="../configuration/set-mobile-config.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<img src="assets/do-not-localize/guided-setup.gif"/>
-<p>Beschikbaarheidsdatum: september 3</p>
-</br>
+<p>Als alternatief voor de Journey Optimizer-webontwerper kunt u nu wijzigingen aan uw website toevoegen met een niet-visuele editor. U kunt de wijzigingen handmatig invoeren zonder de pagina's in de visuele editor te openen.
+Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies kunt installeren, zoals de Adobe Experience Cloud Visual Helper, die nodig is om uw pagina's in de webontwerper te laden.</p>
+<!--p>For more information, refer to the <a href="../email/surface-personalization.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
+
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Integratie van Movable Ink en Adobe Journey Optimizer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu Movable Ink Da Vinci en Adobe Journey Optimizer integreren. Met deze nieuwe integratie kunt u: </p>
+<p><ul><li>Gebruik krachtige mogelijkheden in het Da Vinci-product van Movable Ink om e-mailvariaties voor batchcampagnes samen te stellen en aan te passen</li>
+<li>Snellere workflows voor praktijkgebruikers voor Journey Optimizer-klanten die Da Vinci gebruiken voor ontwerpen en AJO voor optimalisatie en levering</li>
+<li>Optimaliseer Da Vinci modellen met Adobe gegevens.</li></ul></p>
+<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Experimentatie op het gebied van reizen (algemene beschikbaarheid)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer is al beschikbaar in campagnes en ondersteunt nu experimenten op reizen. Experimenten zijn gerandomiseerde onderzoeken, die in de context van online tests betekenen dat u sommige willekeurig geselecteerde gebruikers aan een bepaalde variatie van een bericht blootstelt, en een andere willekeurig geselecteerde reeks gebruikers aan één of andere andere variatie of behandeling. Na blootstelling, kunt u de resultaatmetriek meten u in geinteresseerd bent, zoals opent van e-mail, abonnementen, of aankopen.</p>
+<p>Eerder beschikbaar voor een reeks organisaties (LA) zijn experimenten op reizen nu beschikbaar voor alle gebruikers (GA).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Bedrijfsvoorschriften (algemene beschikbaarheid)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt korrelige frequentiecappende regels nu tot stand brengen, en hen toepassen op verschillende types van marketing mededelingen door regelreeksen. Met deze nieuwe functie kunt u bepalen hoe vaak uw publiek een bericht ontvangt door kanaalregels in te stellen die automatisch overgevraagde profielen uitsluiten van berichten en acties.</p>
+<p>Eerder beschikbaar voor een reeks organisaties (LA), zijn de regelreeksen nu beschikbaar aan alle gebruikers (GA).</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Meertalige berichten tijdens reizen en campagnes (algemene beschikbaarheid)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu moeiteloos inhoud in meerdere talen maken in één campagne of reis. Met deze functie kunt u schakelen tussen talen wanneer u uw campagne of reis bewerkt, het hele bewerkingsproces stroomlijnt en uw mogelijkheden voor efficiënt beheer van meertalige inhoud verbetert.</p>
+<p>Eerder beschikbaar voor een reeks organisaties (LA), zijn de meertalige berichten nu beschikbaar aan alle gebruikers (GA).</p>
+<!--p>For more information, refer to the <a href="../configuration/business-rules.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Bijgewerkte rapportage-ervaring (algemene beschikbaarheid)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De Journey Optimizer-rapportage is nu algemeen beschikbaar (GA) en wordt geleverd met een verbeterde interoperabiliteit met de mogelijkheden van de Customer Journey Analytics, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van de gegevens. Deze naadloze integratie tussen Journey Optimizer en Customer Journey Analytics biedt een duidelijker beeld van prestatiesmetriek, toelatend gebruikers om geïnformeerde besluiten te nemen.</p>
+<p>Met algemene beschikbaarheid, worden vier nieuwe eigenschappen geïntroduceerd: de capaciteit om eenvoudige metriek tot stand te brengen, te creëren en publiek te publiceren, ad-hocvragen te stellen gebruikend de Bouwer van het Inzicht, en planningsrapporten om automatisch aan zeer belangrijke ontvangers worden gemaild.</p>
+<p>Raadpleeg de <a href="../reports/report-cja-manage.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<img src="assets/do-not-localize/ajo-cja.gif">
+<p>Beschikbaarheidsdatum: 16 oktober 2024</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Ervaringen op basis van code bij reizen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met het op code-gebaseerde ervaringskanaal, staat Adobe Journey Optimizer u toe om geavanceerde verpersoonlijking en het testen voor om het even welk van uw binnenkomende eigenschappen te doen, toelatend naadloze levering van op maat gemaakte ervaringen over diverse aanraakpunten zoals Web apps, mobiele apps, Desktop apps, videoconsoles, TV aangesloten apparaten, slimme TVs, kiosks, ATMs, IoT apparaten, en meer. Het op code-gebaseerde ervaringskanaal is nu beschikbaar in het reiscanvas.</p>
+<p>Raadpleeg de <a href="../code-based/create-code-based.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<img src="../assets/do-not-localize/code-based-journey.gif"/>
+<p>Beschikbaarheidsdatum: 1 oktober 2024</p>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Webervaringen tijdens reizen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met het kanaal van het Web, staat Adobe Journey Optimizer u toe om de Webervaring te personaliseren u aan uw klanten door binnenkomende Webreizen levert. Het webkanaal is nu beschikbaar op het reiscanvas.</p>
+<p>Raadpleeg de <a href="../web/create-web.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<img src="../assets/do-not-localize/web-journey.gif"/>
+<p>Beschikbaarheidsdatum: 1 oktober 2024</p>
+</tr>
+</tbody>
+</table>
+
+>[!IMPORTANT]
+>
+>De huidige ervaring met rapportage wordt met ingang van januari 2025 opgeheven. Na deze datum wordt de nieuwe ervaring met rapportage de norm. We raden u aan bekend te maken met de nieuwe functies en functies om een soepele overgang te garanderen.
+>
+> [ Leer hoe te om met Journey Optimizer te worden begonnen de nieuwe Rapporterende interface ](../reports/report-gs-cja.md)
+
 
 ### Verbeteringen {#e-improvements}
 
 Deze release bevat de verbeteringen die hieronder worden vermeld.
 
-**Doelgroepen**
+**Sms-kanaal**
 
-* Het gebruik van soorten publiek via aangepaste upload (CSV-bestand) is nu beschikbaar voor gebruik met de invoegtoepassing Privacy en beveiligingsschild.
-  <!--* When targeting a custom upload (CSV file) audience, you can now use attributes from the file in your campaigns and journeys. These attributes are available in the personalization editor, to personalize your messages, and the journey advanced expression editor.-->
-* (De datum van de Beschikbaarheid: Sept 17) **gebruik van de Vergunning** - het het gebruiksdashboard van de Vergunning toont nu de Engageable Profielen, in plaats van Engageable Publiek. [Meer informatie](../audience/license-usage.md)
+De verbeteringen van SMS zijn geïntroduceerd om uw berichtmogelijkheden te verbeteren:
 
-**Beheer van Gegevens**
+* U kunt unieke trefwoorden voor uw SMS-campagnes en -reizen definiëren en beheren, zodat u meer gepersonaliseerde en efficiënte communicatie mogelijk maakt.
+* U kunt een standaard SMS-bericht maken en leveren wanneer een trefwoord niet wordt herkend.
 
-* U kunt nu een beleid voor gegevensbeheer toepassen op Journey Optimizer-kanalen, naast aangepaste acties binnen reizen. Deze verbetering helpt het gebruik van gevoelige gebieden in mededelingen verhinderen door marketing acties direct binnen uw kanaalconfiguraties toe te passen.
+**Frequentie en prioritair beheer**
 
-<!--
-**Frequency and priority management**
+* **het maximum van de Frequentie door campagne of reis** - u kunt frequentieregels nu tot stand brengen om op uw reizen van toepassing te zijn, toestaand u om het aantal reizen per dag, week, of maand te beperken, evenals het aantal gezamenlijke reizen te controleren die gelijktijdig lopen gelijktijdig.
 
-* **Frequency capping by campaign or journey** - You can now create frequency rules to apply to your journeys, allowing you to limit the number of journeys per day, week, or month, as well as control the number of concurrent journeys running simultaneously.
+* **Prioriteitsscore** - u kunt een prioritaire score aan een campagne of een reis nu toewijzen, die zich van 0 tot 100 uitstrekken. Een hoger getal geeft een hogere prioriteit aan. Wanneer twee campagnes of reizen hetzelfde oppervlak gebruiken, selecteert Journey Optimizer de catalogus met de hoogste prioriteitsscore. Als de campagnes dezelfde score hebben, wordt de campagne gekozen die het laatst is gewijzigd. Prioriteitsscore is beschikbaar voor alle inkomende kanalen in campagnes en voor het kanaal in de app tijdens reizen.
 
-* **Priority score** - You can now assign a priority score to a campaign or a journey, ranging from 0 to 100. A higher number indicates a higher priority. When two campaigns or journeys use the same surface, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was most recently modified will be chosen. Priority score is available for all inbound channels in campaigns, and for the in-app channel in journeys.    
+* **conflicten van de Mening** - een nieuwe **knoop van de Conflicten van de Mening** in reizen en campagnes staat u nu toe om te controleren wanneer er een mogelijkheid van overlapping met andere reizen of campagnes zoals de begindatum, het gerichte publiek, of de geselecteerde kanaalconfiguratie is.
 
-* **View conflicts** - A new **View conflicts** button in journeys and campaigns now allows you to check whenever there's a possibility of overlap with other journeys or campaigns such as the start date, the targeted audience, or the selected channel configuration.
--->
+**het beheer van het Besluit**
 
+* **Controles** - het **logboek van de Verandering** lusje dat u toestaat om alle veranderingen te zien die aan een aanbieding of een besluit zijn aangebracht is verwijderd. De veranderingen met betrekking tot aanbiedingen en besluiten kunnen nu in het **Audits** menu worden gezien.
+
+
+**Configuratie**
+
+* **de verpersoonlijking van het Oppervlak** - wanneer het gebruiken van een gepersonaliseerde configuratie in een campagne of een reis, kunt u uw e-mailinhoud nu voorproef om potentiële fouten met de dynamische montages te controleren u bepaalde.
 
 **Reizen**
 
-* **Max aantal Levende reizen** - Journey Optimizer heeft nu een graslaag van 500 levende reizen op productiesanddozen, in plaats van 100. Het aantal rechtstreekse reizen is zichtbaar in het canvas van de reis.
+* **experiment van de Weg in reizen** - met het experiment van de wegweg, kunt u zeer belangrijke metriek voor uw reiswegen nu bepalen en volgen, toestaand u om het effect van uw activiteiten te meten en duidelijkere inzichten in uw prestaties te verstrekken.
 
-* **Levende rapporteringsverhogingen** - Levende Rapportering verstrekt inzicht in de prestaties van uw reizen in de afgelopen 24 uren. Wij hebben het verbeterd door nieuwe metriek (ingegaan, weggegaan, verworpen profielen en profielen in fout) toe te voegen die u toestaan om een diepgaander inzicht in gebruikersgedrag en prestaties direct van het canvas van de Reis te krijgen.
+* **Max aantal Levende reizen** - Journey Optimizer heeft nu een graslaag van 500 levende reizen op productiesanddozen, in plaats van 100. Het aantal rechtstreekse reizen is zichtbaar in het canvas van de reis. <!-- DOCAC-10977-->
 
-* **Parameters in douaneacties** - ONGELDIGE en facultatieve parameters worden nu gesteund in douaneacties.
+* **tijd-aan-levende guardrail** - Beginnend November 1, 2024, zal een tijd-aan-levende (TTL) guardrail op systeem-geproduceerde datasets van Journey Optimizer als volgt worden afgedwongen:
 
-* (De datum van de Beschikbaarheid: Sept 10) **Automatische herpogingen op Gelezen Volmacht** - is nu toegepast door gebrek op publiek-getriggerde reizen (die met a **Gelezen Volgorde** of a **BedrijfsGebeurtenis** beginnen) terwijl het terugwinnen van de uitvoerbaan. Als er een fout optreedt tijdens het maken van de exporttaak, worden de pogingen om de 10mn opnieuw uitgevoerd, tot maximaal 1 uur. Daarna zullen we het als een mislukking beschouwen. Deze soorten reizen kunnen daarom tot 1 uur na de geplande tijd worden uitgevoerd. [Meer informatie](../building-journeys/read-audience.md#retries)
+   * 90 dagen voor gegevens in profielopslag
+   * 13 maanden voor data in data Lake
 
-**E-mailkanaal**
+Bovendien, op dat ogenblik, zal het stromen segmentatie niet meer het gebruik van verzenden en terugkoppelen gebeurtenissen van het volgen en terugkoppelen datasets steunen. We raden u aan deze gebeurtenissen een tijdje niet te gebruiken voor het streamen van segmentatie en nu zullen we ze volledig uitschakelen.
 
-* **BCC berichtkopbal** - een nieuwe kopbal is toegevoegd aan alle e-mailberichten. De waarde van deze koptekst is uniek voor elke verzonden e-mail en de bijbehorende BCC-e-mailkopie. Deze kopbal wordt ook opgeslagen in het bericht en BCC terugkoppelt datasets, die toestaat om het exemplaar BCC en de overeenkomstige verzonden e-mailinformatie met elkaar in overeenstemming te brengen.
-* **Spam het scoren** (GA) - U kunt uw inhoud nu controleren spam het scoren in een specifiek Spam- rapport. Gebruikend SpamAssassin, kan Adobe Journey Optimizer uw e-mailinhoud nu testen en het een score geven om erop te wijzen als ISPs of de leveranciers van de Brievenbus het als spam of niet zullen beschouwen. [Meer informatie](../content-management/spam-report.md)
+* Deze wijziging beperkt alleen het gebruik van send/open-gebeurtenissen in streamingsegmentatie; click-gebeurtenissen kunnen nog steeds worden gebruikt in een streamingsegment. Bovendien kunnen open/verzend-gebeurtenissen nog steeds worden gebruikt in een batchsegment.
+* Trackinggegevens worden nog steeds verzameld. Deze wijziging heeft geen invloed op reeksspatiëring. U kunt nog steeds bijhouden naar wie een e-mail is verzonden en wie op een e-mail heeft geklikt.
+* Reactievoorvallen in de Reizen worden niet beïnvloed door deze wijziging.
 
-**Sms-kanaal**
+* **Parameters in douaneacties** (de datum van Beschikbaarheid: Okt 3, 2024) - ONGELDIGE en facultatieve parameters worden nu gesteund in douaneacties. [Meer informatie](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
-* U kunt nu bestaande SMS-configuraties wijzigen
+**het bestuur van Gegevens &amp; het beleid van de Toestemming** - de datum van Beschikbaarheid: 7 okt, 2024
 
-**APIs**
+* **de handhaving van het beleid van het beheer van 0} Gegevens {vindt nu over alle kanalen in Journey Optimizer plaats.** Voor klanten die beleid in Adobe Experience Platform hebben gecreeerd, worden deze toegepast op marketing acties als deel van de opstelling van kanaalconfiguraties. Als u inhoud maakt met een configuratie, controleert het systeem alle personalisatievelden op overtredingen van het gegevensbeheer. Als er een overtreding wordt gevonden, is het niet mogelijk een reis of campagne te publiceren. [Meer informatie](../action/action-privacy.md)
 
-* De [ documentatie van Adobe Journey Optimizer API ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/) {target="_blank"} is nu interactief. Verken de API eindpunten rechtstreeks van de documentatiepagina&#39;s om directe feedback te krijgen en uw technische implementatie te versnellen.
+* **het toestemmingsbeleid van de Douane** is nu op alle kanalen van Journey Optimizer van toepassing. Bij handhaving voordat een bericht wordt verzonden of een binnenkomende ervaring wordt opgeleverd, controleert het systeem of de gebruiker toestemming heeft gegeven om verpersoonlijkingsvelden te gebruiken in de inhoud die hij of zij zal ontvangen. Als er geen toestemming wordt gegeven, wordt de ervaring niet weergegeven. [Meer informatie](../action/consent.md)
 
-  Alle API verwijzingspagina&#39;s hebben nu a **probeert het** functionaliteit die u kunt gebruiken om API vraag direct op de pagina van de documentwebsite te testen. [ krijgt de vereiste authentificatiegeloofsbrieven ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) {target="_blank"} en begint de functionaliteit te gebruiken om de API eindpunten te onderzoeken.
-
-  Gebruik deze nieuwe functionaliteit om de verzoeken aan en de reacties van API eindpunten te onderzoeken, om directe feedback te krijgen en uw technische implementatie te versnellen.
-
-  >[!CAUTION]
+  >[!NOTE]
   >
-  >Houd er rekening mee dat u met de interactieve API-functionaliteit op de documentatiepagina&#39;s echte API-aanroepen naar de eindpunten uitvoert. Houd dit in gedachten wanneer u experimenteert met productiesandboxes.
+  >Het toestemmingsbeleid is momenteel slechts beschikbaar voor organisaties die het Adobe **het Schild van de Gezondheidszorg** of **Privacy en het 3} toe:voegen-op dienstenaanbod van het Schild van de Veiligheid hebben gekocht.**
+
+**Soorten publiek** - Beschikbaarheidsdatum: 8 okt, 2024
+
+* Wanneer het richten van een Csv- dossierpubliek, kunt u attributen van het dossier in de verpersoonlijkingsredacteur en in reizen en campagneregelbouwer nu gebruiken. [Meer informatie](../audience/about-audiences.md)
+
+* Het gebruik van soorten publiek en kenmerken van aangepaste upload (CSV-bestand) is nu beschikbaar voor gebruik met het Healthcare Shield of Privacy and Security Shield.
 
 
-* **de Simulatie API van de Campagne** - gebruik dit API om proefbaan van een Campagne teweeg te brengen. Het verzenden van de campagneproef is een asynchroon proces, zal API een proofJobId terugkeren die kan worden gebruikt om de status van de proef te controleren. [ leer meer ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/) {target="_blank"}
 

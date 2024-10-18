@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
+source-git-commit: c54ad4cddeb7115f9a069102c67c41f0850a11ed
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 8%
@@ -239,28 +239,13 @@ Deze release bevat de verbeteringen die hieronder worden vermeld.
 
 **Soorten publiek** - de datum van de Beschikbaarheid: 17, 2024
 
-<!--* The use of audiences from custom upload (CSV file) is now available for use with Privacy and Security Shield add-on.-->
-* **het gebruik van de Vergunning** - het het gebruiksdashboard van de Vergunning toont nu de Engageable Profielen, in plaats van het Engageable publiek. [Meer informatie](../audience/license-usage.md)
+**het gebruik van de Vergunning** - het het gebruiksdashboard van de Vergunning toont nu de Engageable Profielen, in plaats van het Engageable publiek. [Meer informatie](../audience/license-usage.md)
 
 **Inhoudsbeheer**
 
-* U kunt nu inhoudssjablonen en fragmenten exporteren tussen sandboxen. [Meer informatie](../configuration/copy-objects-to-sandbox.md)
-
-<!--**Data Governance**
-
-* You can now apply data governance policies to Journey Optimizer channels, in addition to custom actions within journeys. This enhancement helps prevent the use of sensitive fields in communications by applying marketing actions directly within your channel configurations.    -->
-
-<!--
-**Conflict and priority management**
-
-* **Priority score** - You can now assign a priority score to a campaign or a journey, ranging from 0 to 100. A higher number indicates a higher priority. When two campaigns or journeys use the same surface, Journey Optimizer will select the one with the highest priority score. If the campaigns have the same score, the campaign that was most recently modified will be chosen. Priority score is available for all inbound channels in campaigns, and for the in-app channel in journeys.    
-
-* **View conflicts** - A new **View conflicts** button in journeys and campaigns now allows you to check whenever there's a possibility of overlap with other journeys or campaigns such as the start date, the targeted audience, or the selected channel configuration.
--->
+U kunt nu inhoudssjablonen en fragmenten exporteren tussen sandboxen. [Meer informatie](../configuration/copy-objects-to-sandbox.md)
 
 **Reizen**
-
-<!-- DOCAC-10977 * **Max number of Live journeys** - Journey Optimizer now has a guardrail of 500 live journeys on production sandboxes, instead of 100. The number of live journeys is visible in the journey canvas.-->
 
 * **Levende rapporteringsverhogingen** - Levende Rapportering verstrekt inzicht in de prestaties van uw reizen in de afgelopen 24 uren. Wij hebben het verbeterd door nieuwe metriek (ingegaan, weggegaan, verworpen profielen en profielen in fout) toe te voegen die u toestaan om een diepgaander inzicht in gebruikersgedrag en prestaties direct van het canvas van de Reis te krijgen. [Meer informatie](../building-journeys/report-journey.md)
 
