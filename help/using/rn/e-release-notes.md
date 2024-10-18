@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5714e0aab20bce91ecf588c6b170a975be1f7d89
+source-git-commit: 5eea9467660ba19bbd2d95e8a82490e645266f69
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1672'
 ht-degree: 3%
 
 ---
@@ -100,26 +100,6 @@ Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies kunt ins
 </tbody>
 </table>
 
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Integratie van Movable Ink en Adobe Journey Optimizer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U kunt nu Movable Ink Da Vinci en Adobe Journey Optimizer integreren. Met deze nieuwe integratie kunt u: </p>
-<p><ul><li>Gebruik krachtige mogelijkheden in het Da Vinci-product van Movable Ink om e-mailvariaties voor batchcampagnes samen te stellen en aan te passen</li>
-<li>Snellere workflows voor praktijkgebruikers voor Journey Optimizer-klanten die Da Vinci gebruiken voor ontwerpen en AJO voor optimalisatie en levering</li>
-<li>Optimaliseer Da Vinci modellen met Adobe gegevens.</li></ul></p>
-<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
-</tr>
-</tbody>
-</table>
-
 <table>
 <thead>
 <tr>
@@ -172,20 +152,39 @@ Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies kunt ins
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
-<th><strong> bijgewerkte rapporteringservaring (Algemene beschikbaarheid) </strong><br/> Beschikbaar sinds 16 okt. 2024<br/></th>
+<th><strong>Integratie van Movable Ink en Adobe Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
+<p>U kunt nu Movable Ink Da Vinci en Adobe Journey Optimizer integreren. Met deze nieuwe integratie kunt u: </p>
+<p><ul><li>Gebruik krachtige mogelijkheden in het Da Vinci-product van Movable Ink om e-mailvariaties voor batchcampagnes samen te stellen en aan te passen</li>
+<li>Snellere workflows voor praktijkgebruikers voor Journey Optimizer-klanten die Da Vinci gebruiken voor ontwerpen en AJO voor optimalisatie en levering</li>
+<li>Optimaliseer Da Vinci modellen met Adobe gegevens.</li></ul></p>
+<!--p>For more information, refer to the <a href="../code-based/get-started-code-based.md">detailed documentation</a>.</p-->
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Bijgewerkte rapportage-ervaring (algemene beschikbaarheid)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Beschikbaar vanaf 16 oktober 2024</p>
 <p>De Journey Optimizer-rapportage is nu algemeen beschikbaar (GA) en wordt geleverd met een verbeterde interoperabiliteit met de mogelijkheden van de Customer Journey Analytics, standaardisering van de rapportage op beide platforms en verbetering van de consistentie en betrouwbaarheid van de gegevens. Deze naadloze integratie tussen Journey Optimizer en Customer Journey Analytics biedt een duidelijker beeld van prestatiesmetriek, toelatend gebruikers om geïnformeerde besluiten te nemen.</p>
 <p>Met algemene beschikbaarheid, worden vier nieuwe eigenschappen geïntroduceerd: de capaciteit om eenvoudige metriek tot stand te brengen, te creëren en publiek te publiceren, ad-hocvragen te stellen gebruikend de Bouwer van het Inzicht, en planningsrapporten om automatisch aan zeer belangrijke ontvangers worden gemaild.</p>
 <p>Raadpleeg de <a href="../reports/report-cja-manage.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
+<p>Belangrijk:De huidige ervaring met rapportage wordt met ingang van januari 2025 opgeheven. Na deze datum wordt de nieuwe ervaring met rapportage de norm. We raden u aan bekend te maken met de nieuwe functies en functies om een soepele overgang te garanderen. <a href="../reports/report-gs-cja.md"> Leer hoe te om met Journey Optimizer te worden begonnen de nieuwe Rapporterende interface </a></p>
 </tr>
 </tbody>
 </table>
@@ -199,10 +198,10 @@ Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies kunt ins
 <tbody>
 <tr>
 <td>
+<p>Beschikbaar sinds 1 okt. 2024</p>
 <p>Met het op code-gebaseerde ervaringskanaal, staat Adobe Journey Optimizer u toe om geavanceerde verpersoonlijking en het testen voor om het even welk van uw binnenkomende eigenschappen te doen, toelatend naadloze levering van op maat gemaakte ervaringen over diverse aanraakpunten zoals Web apps, mobiele apps, Desktop apps, videoconsoles, TV aangesloten apparaten, slimme TVs, kiosks, ATMs, IoT apparaten, en meer. Het op code-gebaseerde ervaringskanaal is nu beschikbaar in het reiscanvas.</p>
 <p>Raadpleeg de <a href="../code-based/create-code-based.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
-<p>Beschikbaarheidsdatum: 1 oktober 2024</p>
 </tr>
 </tbody>
 </table>
@@ -216,20 +215,13 @@ Deze niet-visuele bewerkingsmodus is handig als u geen browserextensies kunt ins
 <tbody>
 <tr>
 <td>
+<p>Beschikbaar sinds 1 okt. 2024</p>
 <p>Met het kanaal van het Web, staat Adobe Journey Optimizer u toe om de Webervaring te personaliseren u aan uw klanten door binnenkomende Webreizen levert. Het webkanaal is nu beschikbaar op het reiscanvas.</p>
 <p>Raadpleeg de <a href="../web/create-web.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
-<p>Beschikbaarheidsdatum: 1 oktober 2024</p>
 </tr>
 </tbody>
 </table>
-
->[!IMPORTANT]
->
->De huidige ervaring met rapportage wordt met ingang van januari 2025 opgeheven. Na deze datum wordt de nieuwe ervaring met rapportage de norm. We raden u aan bekend te maken met de nieuwe functies en functies om een soepele overgang te garanderen.
->
-> [ Leer hoe te om met Journey Optimizer te worden begonnen de nieuwe Rapporterende interface ](../reports/report-gs-cja.md)
-
 
 ### Verbeteringen {#e-improvements}
 
@@ -270,11 +262,11 @@ De verbeteringen van SMS zijn geïntroduceerd om uw berichtmogelijkheden te verb
    * 90 dagen voor gegevens in profielopslag
    * 13 maanden voor data in data Lake
 
-Bovendien, op dat ogenblik, zal het stromen segmentatie niet meer het gebruik van verzenden en terugkoppelen gebeurtenissen van het volgen en terugkoppelen datasets steunen. We raden u aan deze gebeurtenissen een tijdje niet te gebruiken voor het streamen van segmentatie en nu zullen we ze volledig uitschakelen.
+  Bovendien, op dat ogenblik, zal het stromen segmentatie niet meer het gebruik van verzenden en terugkoppelen gebeurtenissen van het volgen en terugkoppelen datasets steunen. We raden u aan deze gebeurtenissen een tijdje niet te gebruiken voor het streamen van segmentatie en nu zullen we ze volledig uitschakelen.
 
-* Deze wijziging beperkt alleen het gebruik van send/open-gebeurtenissen in streamingsegmentatie; click-gebeurtenissen kunnen nog steeds worden gebruikt in een streamingsegment. Bovendien kunnen open/verzend-gebeurtenissen nog steeds worden gebruikt in een batchsegment.
-* Trackinggegevens worden nog steeds verzameld. Deze wijziging heeft geen invloed op reeksspatiëring. U kunt nog steeds bijhouden naar wie een e-mail is verzonden en wie op een e-mail heeft geklikt.
-* Reactievoorvallen in de Reizen worden niet beïnvloed door deze wijziging.
+   * Deze wijziging beperkt alleen het gebruik van send/open-gebeurtenissen in streamingsegmentatie; click-gebeurtenissen kunnen nog steeds worden gebruikt in een streamingsegment. Bovendien kunnen open/verzend-gebeurtenissen nog steeds worden gebruikt in een batchsegment.
+   * Trackinggegevens worden nog steeds verzameld. Deze wijziging heeft geen invloed op reeksspatiëring. U kunt nog steeds bijhouden naar wie een e-mail is verzonden en wie op een e-mail heeft geklikt.
+   * Reactievoorvallen in de Reizen worden niet beïnvloed door deze wijziging.
 
 * **Parameters in douaneacties** (de datum van Beschikbaarheid: Okt 3, 2024) - ONGELDIGE en facultatieve parameters worden nu gesteund in douaneacties. [Meer informatie](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
