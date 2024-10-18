@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 9de2f498e104d316491e6061cbd851b2eb506036
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '874'
 ht-degree: 1%
 
 ---
@@ -19,13 +19,13 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
->title="AI Assistant in Journey Optimizer voor versnelling van inhoud"
->abstract="Zodra u uw levering hebt gemaakt en gepersonaliseerd, kunt u de AI Assistant in Journey Optimizer for Content Acceleration gebruiken om uw inhoud te verbeteren. Deze functie vereenvoudigt het proces van personalisatie en inhoudverbetering door u toe te staan om de inhoud te verfijnen door te beschrijven wat u wilt produceren."
+>title="AI Assistant Content Accelerator in Journey Optimizer"
+>abstract="Zodra u uw levering hebt gemaakt en gepersonaliseerd, kunt u de AI Assistant Content Accelerator in Journey Optimizer gebruiken om uw inhoud te verbeteren. Deze functie vereenvoudigt het proces van personalisatie en inhoudverbetering door u toe te staan om de inhoud te verfijnen door te beschrijven wat u wilt produceren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="Brontent uploaden"
->abstract="Met het menu Brontent uploaden kunt u elk merkelement toevoegen dat inhoud bevat die extra context kan bieden voor de AI Assistant in Journey Optimizer for Content Acceleration, of een eerder geüpload element selecteren. Deze optie zorgt ervoor dat de AI Assistant toegang heeft tot alle noodzakelijke materialen om de functionaliteit en relevantie ervan te verbeteren."
+>abstract="Met het menu Brand-element uploaden kunt u elk merkelement toevoegen dat inhoud bevat die extra context kan bieden voor de AI Assistant Content Accelerator in Journey Optimizer, of een eerder geüpload element selecteren. Deze optie zorgt ervoor dat de AI Assistant toegang heeft tot alle noodzakelijke materialen om de functionaliteit en relevantie ervan te verbeteren."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
@@ -38,20 +38,20 @@ ht-degree: 1%
 >Ga zelf in een hands-on ervaring met [ binnen onze levende eigenschapvoorproef ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator) {target="_blank"}, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
 
 
-De AI Assistant in Adobe Journey Optimizer for Content Acceleration, aangedreven door Microsoft Azure OpenAI en Adobe Firefly, biedt proactieve suggesties voor het wijzigen van inhoud voor tekst en afbeeldingen. Het is beschikbaar voor e-mail, Push en SMS kanalen. Deze nieuwe functie biedt een snelle, op tekst en afbeeldingen gebaseerde productie. Afbeeldingen genereren wordt beheerd met Adobe Firefly.
+De AI Assistant Content Accelerator in Adobe Journey Optimizer, die wordt aangedreven door Microsoft Azure OpenAI en Adobe Firefly, biedt proactieve suggesties voor wijzigingen in inhoud voor tekst en afbeeldingen. Het is beschikbaar voor e-mail, Push en SMS kanalen. Deze nieuwe functie biedt een snelle, op tekst en afbeeldingen gebaseerde productie. Afbeeldingen genereren wordt beheerd met Adobe Firefly.
 
-Met de AI-assistent in Adobe Journey Optimizer for Content Acceleration kunt u de impact van uw bericht optimaliseren door te experimenteren met verschillende hoofdtitels en afbeeldingen. Genereer meerdere varianten en maak een experiment om ze te vergelijken. Als u gebruikmaakt van Journey Optimizer Content Experiment, kunt u meerdere berichtbehandelingen definiëren om te meten welke het beste presteert voor uw doelgroep. U kunt kiezen om de leveringsinhoud, of onderwerp te variëren. Het berichtpubliek wordt willekeurig toegewezen aan elke behandeling om te bepalen welke één het beste in termen van gespecificeerde metrisch werkt. Leer meer over de Experimenteer van de Inhoud in [ deze sectie ](../content-management/content-experiment.md).
+Gebruik de AI Assistant-versneller voor inhoud in Adobe Journey Optimizer om de impact van uw bericht te optimaliseren door te experimenteren met verschillende hoofdtitels en -afbeeldingen. Genereer meerdere varianten en maak een experiment om ze te vergelijken. Als u gebruikmaakt van Journey Optimizer Content Experiment, kunt u meerdere berichtbehandelingen definiëren om te meten welke het beste presteert voor uw doelgroep. U kunt kiezen om de leveringsinhoud, of onderwerp te variëren. Het berichtpubliek wordt willekeurig toegewezen aan elke behandeling om te bepalen welke één het beste in termen van gespecificeerde metrisch werkt. Leer meer over de Experimenteer van de Inhoud in [ deze sectie ](../content-management/content-experiment.md).
 
 >[!IMPORTANT]
 >
 >* Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](#generative-guardrails).
 >
 >
->* U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) {target="_blank"} akkoord gaan alvorens u de Medewerker AI in Adobe Journey Optimizer voor de Versnelling van de Inhoud kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>* U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) {target="_blank"} akkoord gaan alvorens u de AI HulpVersneller van de Inhoud in Adobe Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 ## De AI Assistant-versnelling voor inhoud openen {#generative-access}
 
-Om tot de AI Medewerker in Adobe Journey Optimizer voor de eigenschap van de Versnelling van de Inhoud toegang te hebben, moeten de gebruikers worden verleend **produceert de toestemming van de Inhoud**. [Meer informatie](../administration/permissions.md)
+Om tot de AI Hulp Versneller van de Inhoud in de eigenschap van Adobe Journey Optimizer toegang te hebben, moeten de gebruikers **worden verleend produceert de toestemming van de Inhoud**. [Meer informatie](../administration/permissions.md)
 
 +++  Leer hoe u machtigingen voor het genereren van inhoud toewijst
 
@@ -59,7 +59,7 @@ Om tot de AI Medewerker in Adobe Journey Optimizer voor de eigenschap van de Ver
 
 1. Klik **uitgeven** om de toestemmingen te wijzigen.
 
-1. Voeg het **AI hulpmiddel** toe, dan uitgezocht **produceer Inhoud** van het drop-down menu.
+1. Voeg het **AI Medewerker** middel toe, dan uitgezocht **produceer Inhoud** van het drop-down menu.
 
    ![](assets/gen-ai-role.png){zoomable="yes"}
 
@@ -79,17 +79,17 @@ De gebruiker ontvangt een e-mail met instructies om toegang te krijgen tot uw ex
 
 ## Afvoerkanalen en beperkingen {#generative-guardrails}
 
-De algemene richtlijnen voor het gebruik van de AI-assistent in Adobe Journey Optimizer for Content Acceleration voor het genereren van e-mailberichten hieronder:
+De algemene richtlijnen voor het gebruik van de AI Assistant Content Accelerator in Adobe Journey Optimizer voor het genereren van e-mails worden hieronder weergegeven:
 
 * De kwaliteit van de gegenereerde inhoud wordt sterk beïnvloed door het marketingdoel dat/de marketingprompt die u definieert. Gebruik een duidelijk gedefinieerde prompt voor een juiste interpretatie van het GenAI-model. 
 * Upload merkmiddelen voor nauwkeurige informatie over de inhoud van het merk. Anders is de inhoud gebaseerd op algemeen beschikbare informatie. De geüploade inhoud kan de volgende indelingen hebben: PDF, JPEG, PNG- of ZIP-bestanden (met ondersteunde bestandsindelingen).
 * De maximale grootte voor geüploade brandmiddelen is 50 MB. Grotere bestanden of veel afbeeldingen kunnen werken, maar de verwerkingstijd neemt toe.
-* Gebruik een merkspecifieke of aangepaste sjabloon om uw e-mailinhoud te maken met gebruik van AI Assistant in Adobe Journey Optimizer for Content Acceleration. E-mailsjablonen met maximaal 8-10 afbeeldingen worden aanbevolen.
+* Gebruik een merkspecifieke of aangepaste sjabloon om uw e-mailinhoud te maken met de AI Assistant Content Accelerator in Adobe Journey Optimizer. E-mailsjablonen met maximaal 8-10 afbeeldingen worden aanbevolen.
 * Zorg ervoor dat u eventuele problematische uitvoerbestanden meldt met het blokje omhoog, omlaag of de vlagpictogrammen bij het selecteren van varianten.
-* Op het gebruik van de AI-assistent zijn de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen van toepassing. [Meer informatie](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
+* Op uw gebruik van de AI Assistant zijn de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen van toepassing. [Meer informatie](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * Als onderdeel van de toezegging van de Adobe om het gebruik van generatieve AI-tools bij het maken van media transparanter te maken, zal de Adobe Content credentials toepassen wanneer inhoud of een project dat een Firefly bevat, wordt gedownload of geëxporteerd. [Meer informatie](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
-De volgende beperkingen gelden voor AI Assistant in Adobe Journey Optimizer for Content Acceleration:
+De volgende beperkingen gelden voor AI Assistant Content Accelerator in Adobe Journey Optimizer:
 
 * Ondersteunde taal is alleen Engels. Niet-Engelse invoer kan leiden tot inconsistente of onjuiste resultaten. Problemen die voortvloeien uit niet-Engelse antwoorden worden momenteel niet behandeld of verbeterd.
 * Alleen beschikbaar voor de e-mail-, push-, web- en sms-kanalen.

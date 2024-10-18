@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Inhoud experimenteren met de AI Assistant in Journey Optimizer Content Accelerator
-description: Experimenteer met inhoud met de AI Assistant in Journey Optimizer for Content Acceleration
+description: Inhoud experimenteren met de AI Assistant Content Accelerator in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '256'
 ht-degree: 4%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 4%
 >Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
 ></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de Medewerker AI in Journey Optimizer voor de Versnelling van de Inhoud kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de AI HulpVersneller van de Inhoud in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Zodra u uw berichten hebt gemaakt en gepersonaliseerd, hef uw inhoud met de Medewerker van AI in Adobe Journey Optimizer voor de Versnelling van de Inhoud, die de eigenschap van de Experiment van de Inhoud omvat. Met dit gereedschap kunt u meerdere leveringsbehandelingen definiëren, variërende inhoud, om de prestaties voor het doelpubliek te meten.
+Zodra u uw berichten hebt gemaakt en gepersonaliseerd, hef uw inhoud met de AI Hulp Versneller van de Inhoud in Adobe Journey Optimizer op, die de eigenschap van de Experiment van de Inhoud omvat. Met dit gereedschap kunt u meerdere leveringsbehandelingen definiëren, variërende inhoud, om de prestaties voor het doelpubliek te meten.
 
-1. Maak uw campagne en gebruik de AI-assistent voor versnelling van inhoud om uw varianten te genereren.
+1. Maak uw campagne en gebruik de AI Assistant Content Accelerator om uw varianten te genereren.
 
    In dit voorbeeld hebben we een bevestigingsbericht voor een abonnement met een promotiecode gegenereerd.
 

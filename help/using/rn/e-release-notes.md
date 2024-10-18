@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '962'
 ht-degree: 6%
 
 ---
@@ -122,7 +122,7 @@ Deze release biedt de nieuwe mogelijkheden die hieronder worden beschreven.
 <tbody>
 <tr>
 <td>
-<p>Als je bericht eenmaal hebt gemaakt en gepersonaliseerd, ga je naar het volgende niveau met de AI Assistant in Journey Optimizer for Content Acceleration. U kunt de AI-assistent nu gebruiken om de impact van uw bericht te optimaliseren door te experimenteren met verschillende hoofdtitels en afbeeldingen. Elke variant wordt beheerd als een unieke behandeling, om te meten en te vergelijken welke titel effectief meer kliks produceert.</p>
+<p>Als u eenmaal een bericht hebt gemaakt en gepersonaliseerd, gaat u naar het volgende niveau met de AI Assistant Content Accelerator in Journey Optimizer. U kunt de AI Assistant nu gebruiken om de impact van uw bericht te optimaliseren door te experimenteren met verschillende hoofdtitels en afbeeldingen. Elke variant wordt beheerd als een unieke behandeling, om te meten en te vergelijken welke titel effectief meer kliks produceert.</p>
 <p>Ga zelf in een hands-on ervaring met <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator"> binnen onze levende eigenschapvoorproef </a>, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.</a></p>
 <p>Raadpleeg de <a href="../content-management/gs-generative.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/ai-content.gif"/>

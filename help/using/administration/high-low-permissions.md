@@ -9,9 +9,9 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: machtiging, hoog niveau, laag niveau, profiel, beheerconsole
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: e18c3ecdd78565277c3661bfab282b4f241ab378
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1065'
 ht-degree: 0%
 
 ---
@@ -511,7 +511,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 ## Hulpbron voor AI {#ai-permissions}
 
-* Met machtiging op hoog niveau van **[!DNL Generate content]** hebben gebruikers toegang tot de AI-assistent in Journey Optimizer voor versnelling van inhoud.
+* Met machtiging op hoog niveau van **[!DNL Generate content]** hebben gebruikers toegang tot de AI Assistant Content Accelerator in Journey Optimizer.
 
 +++ Dit omvat de volgende laagactieve machtigingen:
 

@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: E-mailgeneratie met AI Assistant in Journey Optimizer Content Accelerator
-description: E-mailinhoud en -middelen genereren met de AI Assistant in Journey Optimizer for Content Acceleration
+description: E-mailinhoud en -middelen genereren met de AI Assistant Content Accelerator in Journey Optimizer
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: a531f4b0a9f3fbc3185a0e84d9c2634e3b589011
+source-git-commit: f316ec79958ac23e0e416f0cafd49c017f2b6d4c
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1458'
 ht-degree: 1%
 
 ---
@@ -22,19 +22,19 @@ ht-degree: 1%
 >Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](gs-generative.md#generative-guardrails).
 ></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de Medewerker AI in Journey Optimizer voor de Versnelling van de Inhoud kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de AI HulpVersneller van de Inhoud in Journey Optimizer kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Nadat u uw e-mails hebt gemaakt en aangepast, kunt u de mogelijkheden van de AI Assistant in Journey Optimizer for Content Acceleration (met de generatieve AI) gebruiken om uw inhoud te verhogen.
+Nadat u uw e-mails hebt gemaakt en aangepast, kunt u de kracht van de AI Assistant Content Accelerator in Journey Optimizer, gevoed door generatieve AI, gebruiken om uw inhoud te verhogen.
 
-Met de AI-assistent in Journey Optimizer for Content Acceleration kunt u de doeltreffendheid van uw campagnes verbeteren door complete e-mails, op maat gemaakte tekstfragmenten en aangepaste afbeeldingen te maken die rechtstreeks aan uw publiek worden getoond, de betrokkenheid en interactie te versterken.
+Met de AI Assistant Content Accelerator in Journey Optimizer kunt u de doeltreffendheid van uw campagnes verbeteren door complete e-mails, op maat gemaakte tekstfragmenten en aangepaste afbeeldingen te maken die rechtstreeks met uw publiek spreken, waardoor uw betrokkenheid en interactie worden versterkt.
 
-Bekijk de onderstaande tabbladen om te leren hoe u de AI Assistant in Journey Optimizer for Content Acceleration kunt gebruiken.
+Bekijk de onderstaande tabbladen voor meer informatie over het gebruik van de AI Assistant Content Accelerator in Journey Optimizer.
 
 >[!BEGINTABS]
 
 >[!TAB  Volledige e-mailgeneratie ]
 
-In het volgende voorbeeld gebruiken we de AI-assistent voor versnelling van inhoud om een bestaande e-mailsjabloon te verfijnen.
+In het volgende voorbeeld gebruiken we de AI Assistant Content Accelerator om een bestaande e-mailsjabloon te verfijnen.
 
 1. Klik op **[!UICONTROL Edit content]** nadat u uw e-mailcampagne hebt gemaakt en geconfigureerd.
 
@@ -44,7 +44,7 @@ In het volgende voorbeeld gebruiken we de AI-assistent voor versnelling van inho
 
    ![](assets/full-email-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Use original content]** voor de AI-assistent voor versnelling van inhoud in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
+1. Schakel de optie **[!UICONTROL Use original content]** voor de AI Assistant Content Accelerator in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
@@ -101,7 +101,7 @@ Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-mailcamp
 
 >[!TAB  Tekst slechts generatie ]
 
-In het volgende voorbeeld gebruiken we de AI Assistant for Content Acceleration om de inhoud van onze e-mail te verbeteren.
+In het volgende voorbeeld gebruiken we de AI Assistant Content Accelerator om de inhoud van onze e-mail te verbeteren.
 
 1. Klik op **[!UICONTROL Edit content]** nadat u uw e-mailcampagne hebt gemaakt en geconfigureerd.
 
@@ -111,7 +111,7 @@ In het volgende voorbeeld gebruiken we de AI Assistant for Content Acceleration 
 
    ![](assets/text-genai-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Use original content]** voor de AI-assistent voor versnelling van inhoud in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
+1. Schakel de optie **[!UICONTROL Use original content]** voor de AI Assistant Content Accelerator in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
@@ -163,19 +163,19 @@ Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-mailcamp
 
 >[!TAB  slechts generatie van het Beeld ]
 
-In het onderstaande voorbeeld leert u hoe u de AI Assistant for Content Acceleration kunt gebruiken om uw middelen te optimaliseren en te verbeteren, zodat u een gebruiksvriendelijker ervaring hebt.
+In het onderstaande voorbeeld leert u hoe u de AI Assistant Content Accelerator kunt gebruiken om uw middelen te optimaliseren en te verbeteren, zodat u een gebruiksvriendelijker ervaring hebt.
 
 1. Klik op **[!UICONTROL Edit content]** nadat u uw e-mailcampagne hebt gemaakt en geconfigureerd.
 
    Voor meer informatie over hoe te om uw e-mailcampagne te vormen, verwijs naar [ deze pagina ](../email/create-email.md).
 
-1. Selecteer het element dat u wilt wijzigen met de AI-assistent voor versnelling van inhoud.
+1. Selecteer het element dat u wilt wijzigen met de AI Assistant Content Accelerator.
 
 1. Selecteer **[!UICONTROL AI Assistant]** in het rechtermenu.
 
    ![](assets/image-genai-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Reference style]** voor de AI-assistent voor versnelling van inhoud in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
+1. Schakel de optie **[!UICONTROL Reference style]** voor de AI Assistant Content Accelerator in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
@@ -219,6 +219,6 @@ In het onderstaande voorbeeld leert u hoe u de AI Assistant for Content Accelera
 
 ## Hoe kan ik-video {#video}
 
-Leer hoe u de AI-assistent in Journey Optimizer for Content Acceleration kunt gebruiken om volledige e-mail, tekst of afbeeldingen te genereren.
+Leer hoe u de AI Assistant Content Accelerator in Journey Optimizer gebruikt om volledige e-mail, tekst of afbeeldingen te genereren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3433552)
