@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Informatie over de nieuwe tijdslijn (TTL)
-description: Nieuwe tijd-aan-levende (TTL) guardrailin Adobe Journey Optimizer
+title: Over de wijzigingen in de tijd tot leven (TTL) en streaming segmentatie
+description: Wijzigingen in tijd tot live en streaming segmentatie in Adobe Journey Optimizer
 feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, data Lake, create, Lake, datasets, profile
-source-git-commit: f16ce53f61d64d23f530d007e0124a84e2cc3405
+source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
 
 
-# Time-to-live (TTL) en streaming segmentatie-updates {#ttl-guardrail}
+# Wijzigingen in tijd tot live en streaming segmentatie {#ttl-guardrail}
 
 ## Tijd-aan-levende (TTL) guardrail {#ttl}
 
@@ -49,7 +49,7 @@ Gegevens in CJA worden gesynchroniseerd met Experience Platform. Daarom zal een 
 
 ## Streaming segmentatie-updates {#segmentation-update}
 
-Bovendien, op 1 november, zal het stromen segmentatie niet meer het gebruik van verzenden en terugkoppelen gebeurtenissen van het volgen en terugkoppelen datasets steunen. De informatie over waarom deze praktijk in het verleden ontmoedigd is kan [ hier ](../audience/about-audiences.md#streaming-segmentation-events-guardrails) worden gevonden.
+Bovendien, op 1 november, zal het stromen segmentatie niet meer het gebruik van verzenden en terugkoppelen gebeurtenissen van het volgen en terugkoppelen datasets steunen.  De informatie over waarom deze praktijk in het verleden ontmoedigd is kan [ hier ](../audience/about-audiences.md#streaming-segmentation-events-guardrails) worden gevonden.
 
 
 **vaak Gestelde Vragen**
