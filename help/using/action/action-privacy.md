@@ -8,9 +8,9 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: gegevens, bestuur, DULE, labels, labels, platform, beleid
-source-git-commit: 6b721c04db34fecae2274604113061e4e97db149
+source-git-commit: 7f54200facc8845d5c39bb5d16751ed49579ea8a
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1284'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## Aan de slag met beleid voor gegevensbeheer {#gs}
 
-Met zijn ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html) {_blank} kader van de Etikettering en van het Gebruik van Gegevens van 0} (DULE), staat Adobe Experience Platform u toe om het beleid van het gegevensbeheer over uw kanalen te beheren en af te dwingen door **uw gebieden** te etiketteren en **marketing acties** voor elk kanaal te creëren.[
+Met zijn ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html) {target="_blank"} kader van de Etikettering en van het Gebruik van Gegevens van 0} (DULE), staat Adobe Experience Platform u toe om het beleid van het gegevensbeheer over uw kanalen te beheren en af te dwingen door **uw gebieden** te etiketteren en **marketing acties** voor elk kanaal te creëren.[
 
 Zodra de etiketten en de marketing acties worden bepaald, kunt u **beleid van het gegevensbeheer** tot stand brengen dat deze twee elementen verbindt. U kunt bijvoorbeeld een beleid instellen dat een ePHI-label koppelt aan een marketingactie &quot;e-mailadressering&quot;, zodat velden met de naam &quot;ePHI&quot; niet worden gebruikt voor het personaliseren van e-mailberichten. [ Leer hoe te om het beleid van het gegevensbeheer te creëren ](#governance-policies)
 
