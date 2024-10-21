@@ -6,7 +6,7 @@ level: Beginner
 badge: label="Beperkte beschikbaarheid"
 hide: true
 hidefromtoc: true
-source-git-commit: d53d4ee40771e3f74ccd801cf22598b69661a403
+source-git-commit: 9e7c70c45fc49946c18617c6a5b81383b73da248
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Voer de volgende stappen uit om een regel voor het afdekken van reizen te maken:
 
 1. Activeer de volledige die regel door de elliptische knoop naast de Add knoop van de Regel in de hoger-juiste hoek van het scherm wordt geplaatst te klikken.
 
-   ![](assets/journey-capping-activate-rule-set.png){width="50%" zommable="yes"}
+   ![](assets/journey-capping-activate-rule-set.png)
 
 ## Afdekkingsregels toepassen op reizen {#apply-capping}
 
