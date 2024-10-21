@@ -7,9 +7,9 @@ feature: Data Model, Datasets, Data Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: platform, data Lake, create, Lake, datasets, profile
-source-git-commit: 1be920fb8b3ea825e38084f459523ccde0ad979b
+source-git-commit: a88cb8fbf324bc9c03bc7570b6637e8c95f43a20
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,7 @@ Gegevens in CJA worden gesynchroniseerd met Experience Platform. Daarom zal een 
 
 ## Streaming segmentatie-updates {#segmentation-update}
 
-Bovendien, op 1 november, zal het stromen segmentatie niet meer het gebruik van verzenden en terugkoppelen gebeurtenissen van het volgen en terugkoppelen datasets steunen.  De informatie over waarom deze praktijk in het verleden ontmoedigd is kan [ hier ](../audience/about-audiences.md#streaming-segmentation-events-guardrails) worden gevonden.
-
+Bovendien, op 1 november, zal het stromen segmentatie niet meer het gebruik van verzenden en terugkoppelen gebeurtenissen van het volgen en terugkoppelen datasets steunen.  De informatie over waarom deze praktijk in het verleden ontmoedigd is kan [ hier ](../audience/about-audiences.md#streaming-segmentation-events-guardrails) worden gevonden. Deze wijziging geldt voor alle sandboxen en organisaties van klanten op dat moment.
 
 **vaak Gestelde Vragen**
 
