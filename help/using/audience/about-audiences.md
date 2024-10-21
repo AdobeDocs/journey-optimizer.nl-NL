@@ -9,9 +9,9 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 1e46321de543196277613889c438dc6756e45652
+source-git-commit: b09a66743770eff9da7f183a1bf8de0d241db3d0
 workflow-type: tm+mt
-source-wordcount: '2265'
+source-wordcount: '2278'
 ht-degree: 0%
 
 ---
@@ -45,11 +45,12 @@ Soorten publiek kan op verschillende manieren worden gegenereerd:
 
 ## Doelpubliek in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
 
-U kunt in campagnes selecteren en reizen om het even welk publiek dat gebruikend segmentdefinities, douane wordt geproduceerd uploadt of samenstellingswerkschema&#39;s.
+U kunt in campagnes selecteren en reizen om het even welk publiek dat gebruikend segmentdefinities, douane wordt geproduceerd uploadt, samenstellingswerkschema&#39;s of Federated de Samenstelling van de Publiek wordt geproduceerd.
 
 >[!AVAILABILITY]
 >
->Het gebruik van soorten publiek en kenmerken van de samenstelling van het publiek is momenteel niet beschikbaar voor gebruik met het gezondheidsschild of het privacyschild. [ Leer hoe te om de attributen van de kijkverrijking in Journey Optimizer te gebruiken ](../audience/about-audiences.md#enrichment)
+>
+Het gebruik van soorten publiek en kenmerken van de samenstelling van het publiek is momenteel niet beschikbaar voor gebruik met het gezondheidsschild of het privacyschild. [ Leer hoe te om de attributen van de kijkverrijking in Journey Optimizer te gebruiken ](../audience/about-audiences.md#enrichment)
 
 U kunt het publiek op verschillende manieren gebruiken in **[!DNL Journey Optimizer]** :
 
@@ -63,11 +64,11 @@ U kunt het publiek op verschillende manieren gebruiken in **[!DNL Journey Optimi
 
   >[!NOTE]
   >
-  >Vanwege de batchaard van publiek dat is gemaakt met gebruik van compositieworkflows en aangepaste upload, kunt u deze soorten publiek niet als doelgroep instellen in de activiteit ‘Kwalificatie van publiek’. Alleen publiek dat is gemaakt met behulp van segmentdefinities kan in deze activiteit worden gebruikt.
+  >Vanwege het batchkarakter van publiek dat is gemaakt met gebruik van compositieworkflows, aangepaste upload of Federated Audience Composition, kunt u deze soorten publiek niet als doelgroep instellen in een &#39;Audience Qualification&#39;-activiteit. Alleen publiek dat is gemaakt met behulp van segmentdefinities kan in deze activiteit worden gebruikt.
 
 ## Verrijkingskenmerken van soorten publiek gebruiken {#enrichment}
 
-Wanneer het richten van een publiek dat gebruikend samenstellingswerkschema&#39;s of een douane (Csv- dossier) publiek wordt geproduceerd, kunt u hefboomwerkingsattributen van deze publiek gebruiken om uw reis te bouwen en uw berichten te personaliseren.
+Wanneer het richten van een publiek dat gebruikend samenstellingswerkschema&#39;s, het publiek van het douane (Csv- dossier), of Federated de Samenstelling van het Publiek wordt geproduceerd, kunt u hefboomwerkingsattributen van deze publiek gebruiken om uw reis te bouwen en uw berichten te personaliseren.
 
 >[!NOTE]
 >
@@ -105,21 +106,21 @@ Gedetailleerde informatie over gegevensbronnen is beschikbaar in deze secties:
 >
 +++
 
-## Aangepast uploadpubliek (CSV-bestand) {#csv}
+## Aangepast publiek voor uploaden en Federale doelgroep {#csv}
 
-Deze sectie bevat belangrijke informatie waarmee u rekening kunt houden wanneer u werkt met publiek voor Aangepaste upload (CSV-bestanden):
+Deze sectie bevat belangrijke informatie waarmee u rekening kunt houden wanneer u werkt met Aangepaste upload (CSV-bestanden) en Soortgelijke publiek in compositie van publiek:
 
-* **Voorproef en proefdruksteun voor SCSV Soorten publiek:** momenteel, wordt de voorproef en de proef niet gesteund voor publiek dat gebruikend Csv wordt gecreeerd uploadt. Houd dit in gedachten wanneer u uw campagnes plant.
+* **Voorproef en proefdruksteun:** momenteel, wordt de voorproef en de proef niet gesteund voor publiek dat gebruikend CSV wordt gecreeerd uploadt of Federated de Samenstelling van het Publiek. Houd dit in gedachten wanneer u uw campagnes plant.
 
-* **Snelle activering en identiteitsstitching vertragingen:** de architectuur van Adobe Experience Platform vertraagt het identiteit stitching om het uploadend publiek van de Douane onmiddellijk beschikbaar voor activering in Journey Optimizer, met de volgende gevolgen te maken:
+* **Snelle activering en identiteitsstitching vertragingen:** de architectuur van Adobe Experience Platform vertraagt het identiteit stitching om de upload van de Douane en het Federated publiek van de Samenstelling van de Publiek onmiddellijk beschikbaar voor activering in Journey Optimizer, met de volgende gevolgen te maken:
 
    * Soorten publiek zijn direct na inname klaar voor gebruik in Journey Optimizer. Hoewel dit meestal binnen een uur ligt, is het afhankelijk van enige variabiliteit.
    * Het aantal geactiveerde records kan afwijken van het aantal profielen na identiteitsstitching.
-   * Elke record in het CSV-bestand wordt geactiveerd, inclusief eventuele duplicaten. Tijdens de volgende UPS-profielexport worden deze records aan identiteitsstitching onderworpen.
+   * Elke record in het publiek wordt geactiveerd, inclusief eventuele duplicaten. Tijdens de volgende UPS-profielexport worden deze records aan identiteitsstitching onderworpen.
 
-* **richtend nieuwe profielen van CSV uploadt:** wanneer een gelijke niet tussen een Csv- verslag en een profiel van UPS wordt gevonden, wordt een nieuw leeg profiel gecreeerd. Dit profiel is gekoppeld aan de verrijkingskenmerken die zijn opgeslagen in het datumpeer. Omdat dit nieuwe profiel leeg is, zijn velden die doorgaans worden gebruikt in Journey Optimizer (bijvoorbeeld PersonalEmail.address, mobilePhone.number) leeg en kunnen deze daarom niet worden gebruikt voor het opgeven van doelen.
+* **richtend nieuwe profielen:** wanneer een gelijke niet tussen een verslag en een profiel van UPS wordt gevonden, wordt een nieuw leeg profiel gecreeerd. Dit profiel is gekoppeld aan de verrijkingskenmerken die zijn opgeslagen in het datumpeer. Omdat dit nieuwe profiel leeg is, zijn velden die doorgaans worden gebruikt in Journey Optimizer (bijvoorbeeld PersonalEmail.address, mobilePhone.number) leeg en kunnen deze daarom niet worden gebruikt voor het opgeven van doelen.
 
-  Om dit op te lossen, kunt u het &quot;uitvoeringsgebied&quot;(of &quot;uitvoeringsadres&quot;afhankelijk van het kanaal) in de kanaalconfiguratie als &quot;identityMap&quot;specificeren. Zo weet u zeker dat het kenmerk dat tijdens de CSV-upload als identiteit is gekozen, het kenmerk is dat wordt gebruikt voor Journey Optimizer.
+  Om dit op te lossen, kunt u het &quot;uitvoeringsgebied&quot;(of &quot;uitvoeringsadres&quot;afhankelijk van het kanaal) in de kanaalconfiguratie als &quot;identityMap&quot;specificeren. Hierdoor wordt gegarandeerd dat het kenmerk dat wordt gekozen als de identiteit bij het maken van een publiek, het kenmerk is dat wordt gebruikt voor het maken van een doelaccount in Journey Optimizer.
 
 ## Methoden voor de evaluatie van het publiek {#evaluation-method-in-journey-optimizer}
 
