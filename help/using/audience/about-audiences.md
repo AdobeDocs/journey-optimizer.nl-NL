@@ -9,7 +9,7 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: b09a66743770eff9da7f183a1bf8de0d241db3d0
+source-git-commit: 0da5f10953ca3b5e14ddd2dd41eac14d5edca767
 workflow-type: tm+mt
 source-wordcount: '2278'
 ht-degree: 0%
@@ -49,8 +49,7 @@ U kunt in campagnes selecteren en reizen om het even welk publiek dat gebruikend
 
 >[!AVAILABILITY]
 >
->
-Het gebruik van soorten publiek en kenmerken van de samenstelling van het publiek is momenteel niet beschikbaar voor gebruik met het gezondheidsschild of het privacyschild. [ Leer hoe te om de attributen van de kijkverrijking in Journey Optimizer te gebruiken ](../audience/about-audiences.md#enrichment)
+>Het gebruik van soorten publiek en kenmerken van de samenstelling van het publiek is momenteel niet beschikbaar voor gebruik met het gezondheidsschild of het privacyschild. [ Leer hoe te om de attributen van de kijkverrijking in Journey Optimizer te gebruiken ](../audience/about-audiences.md#enrichment)
 
 U kunt het publiek op verschillende manieren gebruiken in **[!DNL Journey Optimizer]** :
 
