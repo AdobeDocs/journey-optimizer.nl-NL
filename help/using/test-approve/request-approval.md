@@ -4,20 +4,15 @@ description: Leer hoe u goedkeuring kunt aanvragen voordat u uw reizen en campag
 role: User
 level: Beginner
 feature: Approval
-badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
 
 
 # Goedkeuring aanvragen {#request-approval}
-
->[!AVAILABILITY]
->
-> Het goedkeuringsbeleid is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
 
 Als de goedkeuringswerkstroomfunctionaliteit is ingeschakeld voor uw organisatie, zijn de knoppen **[!UICONTROL Activate]** en **[!UICONTROL Publish]** niet meer beschikbaar in respectievelijk de campagne voor het maken van reizen en het maken van reisworkflows. Deze knoppen zijn vervangen door de knop **[!UICONTROL Request Approval]** .
 

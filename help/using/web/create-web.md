@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: 503bedc30c35305537c62f9452f4a2dc07424523
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
@@ -122,7 +122,7 @@ De gedetailleerde informatie over hoe te om testprofielen en voorproef uw inhoud
 
 >[!IMPORTANT]
 >
->Vanaf de release van september kunt u met een nieuwe ervaring op het gebied van campagne en trajectactivering het hele goedkeuringsproces beheren. Zo kunt u ervoor zorgen dat campagnes en reizen grondig worden doorgelicht en goedgekeurd door de belanghebbenden voordat u live gaat. Deze functie is beschikbaar in Beperkte Beschikbaarheid. [Meer informatie](../test-approve/gs-approval.md)
+> Als uw campagne onderworpen is aan een goedkeuringsbeleid, zult u goedkeuring moeten vragen om uw ervaringen van het Web te kunnen activeren. [Meer informatie](../test-approve/gs-approval.md)
 
 Zodra u uw Webervaring bepaalde en u uw inhoud zoals gewenst het gebruiken van [ Webontwerper ](edit-web-content.md#work-with-web-designer) uitgeeft, kunt u uw reis of campagne activeren om uw veranderingen zichtbaar aan uw publiek te maken.
 

@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Als de bestandsinhoud klaar is om te worden verzonden, sluit u het simulatiesche
 
 >[!IMPORTANT]
 >
->Vanaf de release van september kunt u met een nieuwe ervaring op het gebied van campagne en trajectactivering het hele goedkeuringsproces beheren. Zo kunt u ervoor zorgen dat campagnes en reizen grondig worden doorgelicht en goedgekeurd door de belanghebbenden voordat u live gaat. Deze functie is beschikbaar in Beperkte Beschikbaarheid. [Meer informatie](../test-approve/gs-approval.md)
+> Als uw campagne onderworpen is aan een goedkeuringsbeleid, zult u goedkeuring moeten vragen om uw Direct-mailcampagne te kunnen verzenden. [Meer informatie](../test-approve/gs-approval.md)
 
 Voordat u de campagne voor directe mail activeert, moet u controleren of de campagne en het extractiebestand op de juiste wijze zijn geconfigureerd. Om dit te doen, controleer alarm in de hogere sectie van de redacteur. Sommige zijn eenvoudige waarschuwingen, maar andere kunnen u verhinderen het bericht te verzenden. Er kunnen twee typen waarschuwingen optreden: waarschuwingen en fouten.
 

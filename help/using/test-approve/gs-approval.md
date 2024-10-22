@@ -4,20 +4,15 @@ description: Leer hoe u een goedkeuringsproces instelt voor uw reizen en campagn
 role: User
 level: Beginner
 feature: Approval
-badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: a3a0820565bbd8b2d8d0ce37e5b3e5ad37b064cf
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 
 # Aan de slag met reizen en campagnes goedkeuren {#send-proofs}
-
->[!AVAILABILITY]
->
-> Het goedkeuringsbeleid is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
 
 ## Aan de slag met goedkeuringsbeleid {#gs}
 

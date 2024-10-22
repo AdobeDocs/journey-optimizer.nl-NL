@@ -10,9 +10,9 @@ level: Beginner
 keywords: aan de slag, starten, inhoud, experimenteren
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: dd4173698d7034173b7ae9f44afec397d62a6f78
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -142,7 +142,7 @@ U kunt nu uw campagne of reis activeren. Als u eenmaal bent verzonden, kunt u de
 
 >[!IMPORTANT]
 >
->Vanaf de release van september kunt u met een nieuwe ervaring op het gebied van campagne en trajectactivering het hele goedkeuringsproces beheren. Zo kunt u ervoor zorgen dat campagnes en reizen grondig worden doorgelicht en goedgekeurd door de belanghebbenden voordat u live gaat. Deze functie is beschikbaar in Beperkte Beschikbaarheid. [Meer informatie](../test-approve/gs-approval.md)
+> Als uw campagne onderworpen is aan een goedkeuringsbeleid, zult u goedkeuring moeten vragen om uw meertalige campagne of reis te kunnen verzenden. [Meer informatie](../test-approve/gs-approval.md)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

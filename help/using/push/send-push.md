@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '358'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ U moet alarm in de hogere sectie van de redacteur controleren. Sommige zijn eenv
 
 >[!IMPORTANT]
 >
->Vanaf de release van september kunt u met een nieuwe ervaring op het gebied van campagne en trajectactivering het hele goedkeuringsproces beheren. Zo kunt u ervoor zorgen dat campagnes en reizen grondig worden doorgelicht en goedgekeurd door de belanghebbenden voordat u live gaat. Deze functie is beschikbaar in Beperkte Beschikbaarheid. [Meer informatie](../test-approve/gs-approval.md)
+> Als voor uw campagne een goedkeuringsbeleid geldt, moet u goedkeuring aanvragen om uw pushmelding te kunnen verzenden. [Meer informatie](../test-approve/gs-approval.md)
 
 Wanneer uw duw bericht klaar is, voltooi de configuratie van uw [ reis ](../building-journeys/journey-gs.md) of [ campagne ](../campaigns/create-campaign.md) om het te verzenden.
 

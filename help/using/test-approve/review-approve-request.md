@@ -4,20 +4,15 @@ description: Leer hoe u een aanvraag voor het publiceren van reizen en campagnes
 role: User
 level: Beginner
 feature: Approval
-badge: label="Beperkte beschikbaarheid" type="Informative"
-source-git-commit: 94114fac56b68aa0940ae9843f672823d64c19df
+source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
 
 
 # Een aanvraag bekijken en goedkeuren {#approve-requests}
-
->[!AVAILABILITY]
->
-> Het goedkeuringsbeleid is momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem contact op met uw Adobe als u toegang wilt.
 
 Als een goedkeuringsbeleid van toepassing is op een reis of campagne, moet het ter goedkeuring worden voorgelegd om te worden gepubliceerd. Hiervoor stuurt de maker van de reis/campagne een aanvraag naar de fiatteur(s) die in het goedkeuringsbeleid is gedefinieerd en krijgt de reis/campagne de status **[!UICONTROL In review]** .
 
@@ -51,3 +46,7 @@ Klik hiertoe op de knop **[!UICONTROL Request changes]** . Geef in de deelvenste
 ![](assets/request-changes.png)
 
 Nadat de aanvraag is verzonden, wordt de maker van de reis/campagne via e-mail op de hoogte gebracht en wordt een Journey Optimizer-waarschuwing weergegeven. De campagne keert terug naar de status &quot;Concept&quot;. Nadat de wijzigingen zijn geïntegreerd, kan de maker van de reis/campagne deze opnieuw ter goedkeuring voorleggen.
+
+>[!NOTE]
+>
+> Als u geen goedkeuringsmelding ontvangt via een e-mail, moet u uw abonnementsvoorkeuren bijwerken in uw profielen voor Experiencen Cloud. [Meer informatie](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)
