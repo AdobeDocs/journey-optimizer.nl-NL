@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Aanvullende informatie voor Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
+source-git-commit: 3ab4e6a7ff6c7e0ec97ee2021eb8b38e321b138c
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1657'
 ht-degree: 8%
 
 ---
@@ -42,6 +42,7 @@ De [ hieronder vermelde mogelijkheden ](#24-10-features) en [ verbeteringen ](#2
 <p>Met het goedkeuringsbeleid kunt u nu een goedkeuringsproces in Journey Optimizer instellen dat marketingteams in staat stelt ervoor te zorgen dat campagnes en reizen worden gecontroleerd en ondertekend door de relevante belanghebbenden voordat ze live gaan.</p>
 <p>Raadpleeg de <a href="../test-approve/gs-approval.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/approval.gif"/>
+<p>Beschikbaarheidsdatum: 21 oktober 2024</p>
 </td>
 </tr>
 </tbody>
