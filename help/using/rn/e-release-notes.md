@@ -8,9 +8,9 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4663cecda07bdccd1bd0651047d83e2f7e0512d8
+source-git-commit: f2282fc4d0bbe67a945c43a191648e28b6b60c00
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1885'
 ht-degree: 3%
 
 ---
@@ -309,5 +309,6 @@ De verbeteringen van SMS zijn geïntroduceerd om uw berichtmogelijkheden te verb
 
 * Het gebruik van soorten publiek en kenmerken van aangepaste upload (CSV-bestand) is nu beschikbaar voor gebruik met het Healthcare Shield of Privacy and Security Shield.
 
+**op code-Gebaseerd kanaal**
 
-
+Tijdens het uitgeven van een code-gebaseerde ervaringscampagne, zijn de malplaatjes beschikbaar om te kiezen nu werkingsgebied aan of HTML of JSON gebaseerd op de kanaalconfiguratie die vooraf is gekozen.
